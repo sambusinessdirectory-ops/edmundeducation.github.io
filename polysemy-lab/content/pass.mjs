@@ -651,16 +651,6 @@ export default {
           "She showed a passing interest in the subject.",
           "她只是對這個主題有過短暫興趣。",
           "短暫、不持久的"
-        ],
-        [
-          "We were saddened by his passing.",
-          "他的離世令我們非常難過。",
-          "短暫、不持久的"
-        ],
-        [
-          "Her passing affected the whole family.",
-          "她的去世影響了整個家庭。",
-          "短暫、不持久的"
         ]
       ],
       "options": [],
@@ -973,6 +963,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "pass-reviewed-058e151ad4",
+      "title": "委婉指死亡",
+      "form": "pass · source section 40",
+      "en": "委婉指死亡",
+      "zh": "委婉指死亡",
+      "note": "對照原始教材第 40 節及例句核實。",
+      "examples": [
+        [
+          "We were saddened by his passing.",
+          "他的離世令我們非常難過。",
+          "委婉指死亡"
+        ],
+        [
+          "Her passing affected the whole family.",
+          "她的去世影響了整個家庭。",
+          "委婉指死亡"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -984,11 +996,9 @@ export default {
       "masked": "Some people ____ like background noise.",
       "options": [
         "pass-mcq-01",
-        "pass-mcq-02",
-        "pass-mcq-03",
-        "pass-mcq-04",
-        "pass-mcq-05",
-        "pass-mcq-06"
+        "pass-mcq-10",
+        "pass-mcq-23",
+        "pass-mcq-31"
       ],
       "explanation": "本句的「pass through your life」指「從某地方／階段進入、經過，然後繼續向前離開」。",
       "sentenceIndex": 0,
@@ -997,12 +1007,10 @@ export default {
         "pass through your life"
       ],
       "optionReasons": {
-        "pass-mcq-01": "本句指「從某地方／階段進入、經過，然後繼續向前離開」。",
-        "pass-mcq-02": "「短暫出現在某人的人生中，沒有長時間留下」是「pass through someone’s life」的用法，與本句語境不同。",
-        "pass-mcq-03": "「從某人／某物旁邊經過」是「pass by」的用法，與本句語境不同。",
-        "pass-mcq-04": "「移動得較快並從後面超過對方」是「pass someone」的用法，與本句語境不同。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。"
+        "pass-mcq-01": "本句的「pass through your life」指「從某地方／階段進入、經過，然後繼續向前離開」。",
+        "pass-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-01"
     },
@@ -1014,11 +1022,9 @@ export default {
       "masked": "We ____ several small towns.",
       "options": [
         "pass-mcq-01",
-        "pass-mcq-02",
-        "pass-mcq-03",
-        "pass-mcq-04",
-        "pass-mcq-05",
-        "pass-mcq-06"
+        "pass-mcq-07",
+        "pass-mcq-16",
+        "pass-pdf-001"
       ],
       "explanation": "本句的「passed through」指「從某地方／階段進入、經過，然後繼續向前離開」。",
       "sentenceIndex": 1,
@@ -1027,12 +1033,10 @@ export default {
         "passed through"
       ],
       "optionReasons": {
-        "pass-mcq-01": "本句指「從某地方／階段進入、經過，然後繼續向前離開」。",
-        "pass-mcq-02": "「短暫出現在某人的人生中，沒有長時間留下」是「pass through someone’s life」的用法，與本句語境不同。",
-        "pass-mcq-03": "「從某人／某物旁邊經過」是「pass by」的用法，與本句語境不同。",
-        "pass-mcq-04": "「移動得較快並從後面超過對方」是「pass someone」的用法，與本句語境不同。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。"
+        "pass-mcq-01": "本句的「passed through」指「從某地方／階段進入、經過，然後繼續向前離開」。",
+        "pass-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-01"
     },
@@ -1044,11 +1048,9 @@ export default {
       "masked": "The train ____ through the city centre.",
       "options": [
         "pass-mcq-01",
-        "pass-mcq-02",
-        "pass-mcq-03",
-        "pass-mcq-04",
-        "pass-mcq-05",
-        "pass-mcq-06"
+        "pass-mcq-21",
+        "pass-mcq-11",
+        "pass-mcq-10"
       ],
       "explanation": "本句的「passes」指「從某地方／階段進入、經過，然後繼續向前離開」。",
       "sentenceIndex": 2,
@@ -1057,12 +1059,10 @@ export default {
         "passes"
       ],
       "optionReasons": {
-        "pass-mcq-01": "本句指「從某地方／階段進入、經過，然後繼續向前離開」。",
-        "pass-mcq-02": "「短暫出現在某人的人生中，沒有長時間留下」是「pass through someone’s life」的用法，與本句語境不同。",
-        "pass-mcq-03": "「從某人／某物旁邊經過」是「pass by」的用法，與本句語境不同。",
-        "pass-mcq-04": "「移動得較快並從後面超過對方」是「pass someone」的用法，與本句語境不同。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。"
+        "pass-mcq-01": "本句的「passes」指「從某地方／階段進入、經過，然後繼續向前離開」。",
+        "pass-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-01"
     },
@@ -1074,11 +1074,9 @@ export default {
       "masked": "She ____ my office this morning.",
       "options": [
         "pass-mcq-03",
-        "pass-mcq-02",
-        "pass-mcq-04",
-        "pass-mcq-01",
-        "pass-mcq-05",
-        "pass-mcq-06"
+        "pass-mcq-17",
+        "pass-pdf-003",
+        "pass-mcq-07"
       ],
       "explanation": "本句的「passed by」指「從某人／某物旁邊經過」。",
       "sentenceIndex": 3,
@@ -1087,12 +1085,10 @@ export default {
         "passed by"
       ],
       "optionReasons": {
-        "pass-mcq-03": "本句指「從某人／某物旁邊經過」。",
-        "pass-mcq-02": "「短暫出現在某人的人生中，沒有長時間留下」是「pass through someone’s life」的用法，與本句語境不同。",
-        "pass-mcq-04": "「移動得較快並從後面超過對方」是「pass someone」的用法，與本句語境不同。",
-        "pass-mcq-01": "「從某地方／階段進入、經過，然後繼續向前離開」是「pass through」的用法，與本句語境不同。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。"
+        "pass-mcq-03": "本句的「passed by」指「從某人／某物旁邊經過」。",
+        "pass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-03"
     },
@@ -1104,11 +1100,9 @@ export default {
       "masked": "A bus ____ by without stopping.",
       "options": [
         "pass-mcq-03",
-        "pass-mcq-02",
-        "pass-mcq-04",
-        "pass-mcq-01",
-        "pass-mcq-05",
-        "pass-mcq-06"
+        "pass-mcq-25",
+        "pass-mcq-26",
+        "pass-mcq-29"
       ],
       "explanation": "本句的「passed」指「從某人／某物旁邊經過」。",
       "sentenceIndex": 4,
@@ -1117,12 +1111,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-03": "本句指「從某人／某物旁邊經過」。",
-        "pass-mcq-02": "「短暫出現在某人的人生中，沒有長時間留下」是「pass through someone’s life」的用法，與本句語境不同。",
-        "pass-mcq-04": "「移動得較快並從後面超過對方」是「pass someone」的用法，與本句語境不同。",
-        "pass-mcq-01": "「從某地方／階段進入、經過，然後繼續向前離開」是「pass through」的用法，與本句語境不同。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。"
+        "pass-mcq-03": "本句的「passed」指「從某人／某物旁邊經過」。",
+        "pass-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-03"
     },
@@ -1134,11 +1126,9 @@ export default {
       "masked": "The car ____ on the highway.",
       "options": [
         "pass-mcq-04",
-        "pass-mcq-03",
-        "pass-mcq-05",
-        "pass-mcq-02",
-        "pass-mcq-06",
-        "pass-mcq-01"
+        "pass-mcq-30",
+        "pass-mcq-23",
+        "pass-mcq-20"
       ],
       "explanation": "本句的「passed us」指「移動得較快並從後面超過對方」。",
       "sentenceIndex": 5,
@@ -1147,12 +1137,10 @@ export default {
         "passed us"
       ],
       "optionReasons": {
-        "pass-mcq-04": "本句指「移動得較快並從後面超過對方」。",
-        "pass-mcq-03": "「從某人／某物旁邊經過」是「pass by」的用法，與本句語境不同。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。",
-        "pass-mcq-02": "「短暫出現在某人的人生中，沒有長時間留下」是「pass through someone’s life」的用法，與本句語境不同。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。",
-        "pass-mcq-01": "「從某地方／階段進入、經過，然後繼續向前離開」是「pass through」的用法，與本句語境不同。"
+        "pass-mcq-04": "本句的「passed us」指「移動得較快並從後面超過對方」。",
+        "pass-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-04"
     },
@@ -1164,11 +1152,9 @@ export default {
       "masked": "She ____ two runners near the finish.",
       "options": [
         "pass-mcq-04",
-        "pass-mcq-03",
-        "pass-mcq-05",
-        "pass-mcq-02",
-        "pass-mcq-06",
-        "pass-mcq-01"
+        "pass-mcq-17",
+        "pass-mcq-28",
+        "pass-mcq-10"
       ],
       "explanation": "本句的「passed」指「移動得較快並從後面超過對方」。",
       "sentenceIndex": 6,
@@ -1177,12 +1163,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-04": "本句指「移動得較快並從後面超過對方」。",
-        "pass-mcq-03": "「從某人／某物旁邊經過」是「pass by」的用法，與本句語境不同。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。",
-        "pass-mcq-02": "「短暫出現在某人的人生中，沒有長時間留下」是「pass through someone’s life」的用法，與本句語境不同。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。",
-        "pass-mcq-01": "「從某地方／階段進入、經過，然後繼續向前離開」是「pass through」的用法，與本句語境不同。"
+        "pass-mcq-04": "本句的「passed」指「移動得較快並從後面超過對方」。",
+        "pass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-04"
     },
@@ -1194,11 +1178,9 @@ export default {
       "masked": "We ____ just before sunset.",
       "options": [
         "pass-mcq-05",
-        "pass-mcq-04",
-        "pass-mcq-06",
-        "pass-mcq-03",
-        "pass-mcq-07",
-        "pass-mcq-02"
+        "pass-pdf-002",
+        "pass-mcq-28",
+        "pass-reviewed-058e151ad4"
       ],
       "explanation": "本句的「passed the bridge」指「越過某位置、界線或數值水平」。",
       "sentenceIndex": 7,
@@ -1207,12 +1189,10 @@ export default {
         "passed the bridge"
       ],
       "optionReasons": {
-        "pass-mcq-05": "本句指「越過某位置、界線或數值水平」。",
-        "pass-mcq-04": "「移動得較快並從後面超過對方」是「pass someone」的用法，與本句語境不同。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。",
-        "pass-mcq-03": "「從某人／某物旁邊經過」是「pass by」的用法，與本句語境不同。",
-        "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。",
-        "pass-mcq-02": "「短暫出現在某人的人生中，沒有長時間留下」是「pass through someone’s life」的用法，與本句語境不同。"
+        "pass-mcq-05": "本句的「passed the bridge」指「越過某位置、界線或數值水平」。",
+        "pass-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pass-reviewed-058e151ad4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-05"
     },
@@ -1224,11 +1204,9 @@ export default {
       "masked": "The temperature ____ thirty degrees.",
       "options": [
         "pass-mcq-05",
-        "pass-mcq-04",
-        "pass-mcq-06",
-        "pass-mcq-03",
-        "pass-mcq-07",
-        "pass-mcq-02"
+        "pass-mcq-35",
+        "pass-mcq-31",
+        "pass-mcq-26"
       ],
       "explanation": "本句的「passed」指「越過某位置、界線或數值水平」。",
       "sentenceIndex": 8,
@@ -1237,12 +1215,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-05": "本句指「越過某位置、界線或數值水平」。",
-        "pass-mcq-04": "「移動得較快並從後面超過對方」是「pass someone」的用法，與本句語境不同。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。",
-        "pass-mcq-03": "「從某人／某物旁邊經過」是「pass by」的用法，與本句語境不同。",
-        "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。",
-        "pass-mcq-02": "「短暫出現在某人的人生中，沒有長時間留下」是「pass through someone’s life」的用法，與本句語境不同。"
+        "pass-mcq-05": "本句的「passed」指「越過某位置、界線或數值水平」。",
+        "pass-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-05"
     },
@@ -1254,11 +1230,9 @@ export default {
       "masked": "Could you ____?",
       "options": [
         "pass-mcq-06",
-        "pass-mcq-05",
-        "pass-mcq-07",
-        "pass-mcq-04",
-        "pass-mcq-08",
-        "pass-mcq-03"
+        "pass-mcq-37",
+        "pass-mcq-13",
+        "pass-mcq-38"
       ],
       "explanation": "本句的「pass me the salt」指「把手上的物件轉交給另一人」。",
       "sentenceIndex": 9,
@@ -1267,12 +1241,10 @@ export default {
         "pass me the salt"
       ],
       "optionReasons": {
-        "pass-mcq-06": "本句指「把手上的物件轉交給另一人」。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。",
-        "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。",
-        "pass-mcq-04": "「移動得較快並從後面超過對方」是「pass someone」的用法，與本句語境不同。",
-        "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。",
-        "pass-mcq-03": "「從某人／某物旁邊經過」是「pass by」的用法，與本句語境不同。"
+        "pass-mcq-06": "本句的「pass me the salt」指「把手上的物件轉交給另一人」。",
+        "pass-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-06"
     },
@@ -1284,11 +1256,9 @@ export default {
       "masked": "She ____ the book to her friend.",
       "options": [
         "pass-mcq-06",
-        "pass-mcq-05",
-        "pass-mcq-07",
-        "pass-mcq-04",
-        "pass-mcq-08",
-        "pass-mcq-03"
+        "pass-mcq-35",
+        "pass-mcq-29",
+        "pass-mcq-15"
       ],
       "explanation": "本句的「passed」指「把手上的物件轉交給另一人」。",
       "sentenceIndex": 10,
@@ -1297,12 +1267,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-06": "本句指「把手上的物件轉交給另一人」。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。",
-        "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。",
-        "pass-mcq-04": "「移動得較快並從後面超過對方」是「pass someone」的用法，與本句語境不同。",
-        "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。",
-        "pass-mcq-03": "「從某人／某物旁邊經過」是「pass by」的用法，與本句語境不同。"
+        "pass-mcq-06": "本句的「passed」指「把手上的物件轉交給另一人」。",
+        "pass-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-06"
     },
@@ -1314,11 +1282,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "pass-mcq-06",
-        "pass-mcq-05",
-        "pass-mcq-07",
-        "pass-mcq-04",
-        "pass-mcq-08",
-        "pass-mcq-03"
+        "pass-mcq-11",
+        "pass-mcq-25",
+        "pass-mcq-30"
       ],
       "explanation": "本句的「pass the photos around」指「把手上的物件轉交給另一人」。",
       "sentenceIndex": 11,
@@ -1327,12 +1293,10 @@ export default {
         "pass the photos around"
       ],
       "optionReasons": {
-        "pass-mcq-06": "本句指「把手上的物件轉交給另一人」。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。",
-        "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。",
-        "pass-mcq-04": "「移動得較快並從後面超過對方」是「pass someone」的用法，與本句語境不同。",
-        "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。",
-        "pass-mcq-03": "「從某人／某物旁邊經過」是「pass by」的用法，與本句語境不同。"
+        "pass-mcq-06": "本句的「pass the photos around」指「把手上的物件轉交給另一人」。",
+        "pass-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-06"
     },
@@ -1344,10 +1308,8 @@ export default {
       "masked": "They ____ the snacks around the table.",
       "options": [
         "pass-mcq-06",
-        "pass-mcq-05",
-        "pass-mcq-07",
-        "pass-mcq-04",
-        "pass-mcq-08",
+        "pass-mcq-38",
+        "pass-mcq-28",
         "pass-mcq-03"
       ],
       "explanation": "本句的「passed」指「把手上的物件轉交給另一人」。",
@@ -1357,12 +1319,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-06": "本句指「把手上的物件轉交給另一人」。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。",
-        "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。",
-        "pass-mcq-04": "「移動得較快並從後面超過對方」是「pass someone」的用法，與本句語境不同。",
-        "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。",
-        "pass-mcq-03": "「從某人／某物旁邊經過」是「pass by」的用法，與本句語境不同。"
+        "pass-mcq-06": "本句的「passed」指「把手上的物件轉交給另一人」。",
+        "pass-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-06"
     },
@@ -1374,11 +1334,9 @@ export default {
       "masked": "Can you ____ to her?",
       "options": [
         "pass-mcq-07",
-        "pass-mcq-06",
-        "pass-mcq-08",
         "pass-mcq-05",
-        "pass-mcq-09",
-        "pass-mcq-04"
+        "pass-mcq-34",
+        "pass-mcq-29"
       ],
       "explanation": "本句的「pass a message」指「把資訊／訊息由一人轉達給另一人」。",
       "sentenceIndex": 13,
@@ -1387,12 +1345,10 @@ export default {
         "pass a message"
       ],
       "optionReasons": {
-        "pass-mcq-07": "本句指「把資訊／訊息由一人轉達給另一人」。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。",
-        "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。",
-        "pass-mcq-09": "「成績達到考試／評核所需最低標準」是「pass an exam」的用法，與本句語境不同。",
-        "pass-mcq-04": "「移動得較快並從後面超過對方」是「pass someone」的用法，與本句語境不同。"
+        "pass-mcq-07": "本句的「pass a message」指「把資訊／訊息由一人轉達給另一人」。",
+        "pass-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-07"
     },
@@ -1404,11 +1360,9 @@ export default {
       "masked": "The information was ____ to the manager.",
       "options": [
         "pass-mcq-07",
-        "pass-mcq-06",
-        "pass-mcq-08",
-        "pass-mcq-05",
-        "pass-mcq-09",
-        "pass-mcq-04"
+        "pass-mcq-13",
+        "pass-mcq-11",
+        "pass-mcq-18"
       ],
       "explanation": "本句的「passed」指「把資訊／訊息由一人轉達給另一人」。",
       "sentenceIndex": 14,
@@ -1417,12 +1371,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-07": "本句指「把資訊／訊息由一人轉達給另一人」。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。",
-        "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。",
-        "pass-mcq-09": "「成績達到考試／評核所需最低標準」是「pass an exam」的用法，與本句語境不同。",
-        "pass-mcq-04": "「移動得較快並從後面超過對方」是「pass someone」的用法，與本句語境不同。"
+        "pass-mcq-07": "本句的「passed」指「把資訊／訊息由一人轉達給另一人」。",
+        "pass-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-07"
     },
@@ -1434,11 +1386,9 @@ export default {
       "masked": "Please ____ to the rest of the team.",
       "options": [
         "pass-mcq-08",
-        "pass-mcq-07",
-        "pass-mcq-09",
-        "pass-mcq-06",
-        "pass-mcq-10",
-        "pass-mcq-05"
+        "pass-mcq-04",
+        "pass-mcq-25",
+        "pass-mcq-11"
       ],
       "explanation": "本句的「pass this on」指「把資訊、知識、物件或傳統繼續傳給其他人」。",
       "sentenceIndex": 15,
@@ -1447,12 +1397,10 @@ export default {
         "pass this on"
       ],
       "optionReasons": {
-        "pass-mcq-08": "本句指「把資訊、知識、物件或傳統繼續傳給其他人」。",
-        "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。",
-        "pass-mcq-09": "「成績達到考試／評核所需最低標準」是「pass an exam」的用法，與本句語境不同。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。",
-        "pass-mcq-10": "「判定考試是否合格的最低分數」是「pass mark」的用法，與本句語境不同。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。"
+        "pass-mcq-08": "本句的「pass this on」指「把資訊、知識、物件或傳統繼續傳給其他人」。",
+        "pass-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-08"
     },
@@ -1464,11 +1412,9 @@ export default {
       "masked": "She ____ her knowledge on to younger students.",
       "options": [
         "pass-mcq-08",
-        "pass-mcq-07",
-        "pass-mcq-09",
-        "pass-mcq-06",
-        "pass-mcq-10",
-        "pass-mcq-05"
+        "pass-mcq-05",
+        "pass-mcq-11",
+        "pass-mcq-12"
       ],
       "explanation": "本句的「passed」指「把資訊、知識、物件或傳統繼續傳給其他人」。",
       "sentenceIndex": 16,
@@ -1477,12 +1423,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-08": "本句指「把資訊、知識、物件或傳統繼續傳給其他人」。",
-        "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。",
-        "pass-mcq-09": "「成績達到考試／評核所需最低標準」是「pass an exam」的用法，與本句語境不同。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。",
-        "pass-mcq-10": "「判定考試是否合格的最低分數」是「pass mark」的用法，與本句語境不同。",
-        "pass-mcq-05": "「越過某位置、界線或數值水平」是「pass a point/limit」的用法，與本句語境不同。"
+        "pass-mcq-08": "本句的「passed」指「把資訊、知識、物件或傳統繼續傳給其他人」。",
+        "pass-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-08"
     },
@@ -1494,11 +1438,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "pass-mcq-09",
-        "pass-mcq-08",
-        "pass-mcq-10",
-        "pass-mcq-07",
-        "pass-mcq-11",
-        "pass-mcq-06"
+        "pass-mcq-17",
+        "pass-mcq-20",
+        "pass-mcq-36"
       ],
       "explanation": "本句的「passed the exam」指「成績達到考試／評核所需最低標準」。",
       "sentenceIndex": 17,
@@ -1507,12 +1449,10 @@ export default {
         "passed the exam"
       ],
       "optionReasons": {
-        "pass-mcq-09": "本句指「成績達到考試／評核所需最低標準」。",
-        "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。",
-        "pass-mcq-10": "「判定考試是否合格的最低分數」是「pass mark」的用法，與本句語境不同。",
-        "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。",
-        "pass-mcq-11": "「正式投票批准法案／法律」是「pass a law/bill」的用法，與本句語境不同。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。"
+        "pass-mcq-09": "本句的「passed the exam」指「成績達到考試／評核所需最低標準」。",
+        "pass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-09"
     },
@@ -1524,11 +1464,9 @@ export default {
       "masked": "You need seventy percent to ____.",
       "options": [
         "pass-mcq-09",
-        "pass-mcq-08",
-        "pass-mcq-10",
-        "pass-mcq-07",
-        "pass-mcq-11",
-        "pass-mcq-06"
+        "pass-mcq-16",
+        "pass-mcq-30",
+        "pass-mcq-20"
       ],
       "explanation": "本句的「pass」指「成績達到考試／評核所需最低標準」。",
       "sentenceIndex": 18,
@@ -1537,12 +1475,10 @@ export default {
         "pass"
       ],
       "optionReasons": {
-        "pass-mcq-09": "本句指「成績達到考試／評核所需最低標準」。",
-        "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。",
-        "pass-mcq-10": "「判定考試是否合格的最低分數」是「pass mark」的用法，與本句語境不同。",
-        "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。",
-        "pass-mcq-11": "「正式投票批准法案／法律」是「pass a law/bill」的用法，與本句語境不同。",
-        "pass-mcq-06": "「把手上的物件轉交給另一人」是「pass something to someone」的用法，與本句語境不同。"
+        "pass-mcq-09": "本句的「pass」指「成績達到考試／評核所需最低標準」。",
+        "pass-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-09"
     },
@@ -1554,11 +1490,9 @@ export default {
       "masked": "I studied hard and ____.",
       "options": [
         "pass-pdf-001",
-        "pass-mcq-09",
-        "pass-mcq-11",
-        "pass-mcq-08",
-        "pass-mcq-12",
-        "pass-mcq-07"
+        "pass-pdf-002",
+        "pass-mcq-25",
+        "pass-mcq-18"
       ],
       "explanation": "本句的「passed」指「在考試／評核中達到合格標準」。",
       "sentenceIndex": 19,
@@ -1567,12 +1501,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-pdf-001": "本句指「在考試／評核中達到合格標準」。",
-        "pass-mcq-09": "「成績達到考試／評核所需最低標準」是「pass an exam」的用法，與本句語境不同。",
-        "pass-mcq-11": "「正式投票批准法案／法律」是「pass a law/bill」的用法，與本句語境不同。",
-        "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。",
-        "pass-mcq-12": "「透過活動讓等待／空閒時間過去」是「pass the time」的用法，與本句語境不同。",
-        "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。"
+        "pass-pdf-001": "本句的「passed」指「在考試／評核中達到合格標準」。",
+        "pass-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-pdf-001"
     },
@@ -1584,11 +1516,9 @@ export default {
       "masked": "Not everyone ____ the test.",
       "options": [
         "pass-pdf-001",
-        "pass-mcq-09",
-        "pass-mcq-11",
-        "pass-mcq-08",
-        "pass-mcq-12",
-        "pass-mcq-07"
+        "pass-mcq-23",
+        "pass-mcq-04",
+        "pass-mcq-28"
       ],
       "explanation": "本句的「passed」指「在考試／評核中達到合格標準」。",
       "sentenceIndex": 20,
@@ -1597,12 +1527,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-pdf-001": "本句指「在考試／評核中達到合格標準」。",
-        "pass-mcq-09": "「成績達到考試／評核所需最低標準」是「pass an exam」的用法，與本句語境不同。",
-        "pass-mcq-11": "「正式投票批准法案／法律」是「pass a law/bill」的用法，與本句語境不同。",
-        "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。",
-        "pass-mcq-12": "「透過活動讓等待／空閒時間過去」是「pass the time」的用法，與本句語境不同。",
-        "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。"
+        "pass-pdf-001": "本句的「passed」指「在考試／評核中達到合格標準」。",
+        "pass-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-pdf-001"
     },
@@ -1614,11 +1542,9 @@ export default {
       "masked": "The ____ is fifty percent.",
       "options": [
         "pass-mcq-10",
-        "pass-mcq-09",
-        "pass-mcq-11",
-        "pass-mcq-08",
-        "pass-mcq-12",
-        "pass-mcq-07"
+        "pass-mcq-06",
+        "pass-mcq-37",
+        "pass-mcq-12"
       ],
       "explanation": "本句的「pass mark」指「判定考試是否合格的最低分數」。",
       "sentenceIndex": 21,
@@ -1627,12 +1553,10 @@ export default {
         "pass mark"
       ],
       "optionReasons": {
-        "pass-mcq-10": "本句指「判定考試是否合格的最低分數」。",
-        "pass-mcq-09": "「成績達到考試／評核所需最低標準」是「pass an exam」的用法，與本句語境不同。",
-        "pass-mcq-11": "「正式投票批准法案／法律」是「pass a law/bill」的用法，與本句語境不同。",
-        "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。",
-        "pass-mcq-12": "「透過活動讓等待／空閒時間過去」是「pass the time」的用法，與本句語境不同。",
-        "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。"
+        "pass-mcq-10": "本句的「pass mark」指「判定考試是否合格的最低分數」。",
+        "pass-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-10"
     },
@@ -1644,11 +1568,9 @@ export default {
       "masked": "She received a ____ grade.",
       "options": [
         "pass-mcq-10",
-        "pass-mcq-09",
-        "pass-mcq-11",
-        "pass-mcq-08",
-        "pass-mcq-12",
-        "pass-mcq-07"
+        "pass-mcq-13",
+        "pass-mcq-18",
+        "pass-mcq-24"
       ],
       "explanation": "本句的「passing」指「判定考試是否合格的最低分數」。",
       "sentenceIndex": 22,
@@ -1657,12 +1579,10 @@ export default {
         "passing"
       ],
       "optionReasons": {
-        "pass-mcq-10": "本句指「判定考試是否合格的最低分數」。",
-        "pass-mcq-09": "「成績達到考試／評核所需最低標準」是「pass an exam」的用法，與本句語境不同。",
-        "pass-mcq-11": "「正式投票批准法案／法律」是「pass a law/bill」的用法，與本句語境不同。",
-        "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。",
-        "pass-mcq-12": "「透過活動讓等待／空閒時間過去」是「pass the time」的用法，與本句語境不同。",
-        "pass-mcq-07": "「把資訊／訊息由一人轉達給另一人」是「pass a message」的用法，與本句語境不同。"
+        "pass-mcq-10": "本句的「passing」指「判定考試是否合格的最低分數」。",
+        "pass-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-10"
     },
@@ -1674,11 +1594,9 @@ export default {
       "masked": "The committee ____.",
       "options": [
         "pass-mcq-11",
-        "pass-mcq-10",
-        "pass-mcq-12",
-        "pass-mcq-09",
-        "pass-mcq-13",
-        "pass-mcq-08"
+        "pass-mcq-29",
+        "pass-mcq-17",
+        "pass-mcq-30"
       ],
       "explanation": "本句的「passed the proposal」指「正式投票批准法案／法律」。",
       "sentenceIndex": 23,
@@ -1687,12 +1605,10 @@ export default {
         "passed the proposal"
       ],
       "optionReasons": {
-        "pass-mcq-11": "本句指「正式投票批准法案／法律」。",
-        "pass-mcq-10": "「判定考試是否合格的最低分數」是「pass mark」的用法，與本句語境不同。",
-        "pass-mcq-12": "「透過活動讓等待／空閒時間過去」是「pass the time」的用法，與本句語境不同。",
-        "pass-mcq-09": "「成績達到考試／評核所需最低標準」是「pass an exam」的用法，與本句語境不同。",
-        "pass-mcq-13": "「時間持續向前流逝」是「time passes」的用法，與本句語境不同。",
-        "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。"
+        "pass-mcq-11": "本句的「passed the proposal」指「正式投票批准法案／法律」。",
+        "pass-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-11"
     },
@@ -1704,11 +1620,9 @@ export default {
       "masked": "The law was ____ last year.",
       "options": [
         "pass-mcq-11",
-        "pass-mcq-10",
-        "pass-mcq-12",
-        "pass-mcq-09",
-        "pass-mcq-13",
-        "pass-mcq-08"
+        "pass-mcq-08",
+        "pass-mcq-15",
+        "pass-mcq-29"
       ],
       "explanation": "本句的「passed」指「正式投票批准法案／法律」。",
       "sentenceIndex": 24,
@@ -1717,12 +1631,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-11": "本句指「正式投票批准法案／法律」。",
-        "pass-mcq-10": "「判定考試是否合格的最低分數」是「pass mark」的用法，與本句語境不同。",
-        "pass-mcq-12": "「透過活動讓等待／空閒時間過去」是「pass the time」的用法，與本句語境不同。",
-        "pass-mcq-09": "「成績達到考試／評核所需最低標準」是「pass an exam」的用法，與本句語境不同。",
-        "pass-mcq-13": "「時間持續向前流逝」是「time passes」的用法，與本句語境不同。",
-        "pass-mcq-08": "「把資訊、知識、物件或傳統繼續傳給其他人」是「pass something on」的用法，與本句語境不同。"
+        "pass-mcq-11": "本句的「passed」指「正式投票批准法案／法律」。",
+        "pass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-11"
     },
@@ -1734,11 +1646,9 @@ export default {
       "masked": "The motion ____ by a narrow margin.",
       "options": [
         "pass-mcq-34",
-        "pass-mcq-33",
-        "pass-mcq-35",
-        "pass-mcq-32",
-        "pass-mcq-36",
-        "pass-mcq-31"
+        "pass-mcq-09",
+        "pass-pdf-004",
+        "pass-reviewed-058e151ad4"
       ],
       "explanation": "本句的「passed」指「在正式投票／審批中取得足夠支持而獲批准」。",
       "sentenceIndex": 25,
@@ -1747,12 +1657,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-34": "本句指「在正式投票／審批中取得足夠支持而獲批准」。",
-        "pass-mcq-33": "「法案／法律正式獲得批准的過程」是「passage of legislation」的用法，與本句語境不同。",
-        "pass-mcq-35": "「某種情緒、狀態、危機等隨時間消失／不再持續」是「16. pass = come to an end / disappear with time（過去；消退） — 消逝；過去」的用法，與本句語境不同。",
-        "pass-mcq-32": "「時間持續向前流逝的過程」是「passage of time」的用法，與本句語境不同。",
-        "pass-mcq-36": "「在指定期間內讓持有人使用某交通／服務的票證」是「29. bus/train/travel pass（乘車證／交通票證） — 通行票；定期票」的用法，與本句語境不同。",
-        "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。"
+        "pass-mcq-34": "本句的「passed」指「在正式投票／審批中取得足夠支持而獲批准」。",
+        "pass-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "pass-reviewed-058e151ad4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-34"
     },
@@ -1764,11 +1672,9 @@ export default {
       "masked": "The bill failed to ____.",
       "options": [
         "pass-mcq-34",
-        "pass-mcq-33",
-        "pass-mcq-35",
-        "pass-mcq-32",
-        "pass-mcq-36",
-        "pass-mcq-31"
+        "pass-pdf-001",
+        "pass-mcq-01",
+        "pass-mcq-07"
       ],
       "explanation": "本句的「pass」指「在正式投票／審批中取得足夠支持而獲批准」。",
       "sentenceIndex": 26,
@@ -1777,12 +1683,10 @@ export default {
         "pass"
       ],
       "optionReasons": {
-        "pass-mcq-34": "本句指「在正式投票／審批中取得足夠支持而獲批准」。",
-        "pass-mcq-33": "「法案／法律正式獲得批准的過程」是「passage of legislation」的用法，與本句語境不同。",
-        "pass-mcq-35": "「某種情緒、狀態、危機等隨時間消失／不再持續」是「16. pass = come to an end / disappear with time（過去；消退） — 消逝；過去」的用法，與本句語境不同。",
-        "pass-mcq-32": "「時間持續向前流逝的過程」是「passage of time」的用法，與本句語境不同。",
-        "pass-mcq-36": "「在指定期間內讓持有人使用某交通／服務的票證」是「29. bus/train/travel pass（乘車證／交通票證） — 通行票；定期票」的用法，與本句語境不同。",
-        "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。"
+        "pass-mcq-34": "本句的「pass」指「在正式投票／審批中取得足夠支持而獲批准」。",
+        "pass-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-34"
     },
@@ -1794,11 +1698,9 @@ export default {
       "masked": "We played cards to ____.",
       "options": [
         "pass-mcq-12",
-        "pass-mcq-11",
-        "pass-mcq-13",
-        "pass-mcq-10",
-        "pass-mcq-14",
-        "pass-mcq-09"
+        "pass-mcq-37",
+        "pass-mcq-39",
+        "pass-pdf-003"
       ],
       "explanation": "本句的「pass the time」指「透過活動讓等待／空閒時間過去」。",
       "sentenceIndex": 27,
@@ -1807,12 +1709,10 @@ export default {
         "pass the time"
       ],
       "optionReasons": {
-        "pass-mcq-12": "本句指「透過活動讓等待／空閒時間過去」。",
-        "pass-mcq-11": "「正式投票批准法案／法律」是「pass a law/bill」的用法，與本句語境不同。",
-        "pass-mcq-13": "「時間持續向前流逝」是「time passes」的用法，與本句語境不同。",
-        "pass-mcq-10": "「判定考試是否合格的最低分數」是「pass mark」的用法，與本句語境不同。",
-        "pass-mcq-14": "「某狀態、情緒或危險隨時間消失」是「feeling/danger passes」的用法，與本句語境不同。",
-        "pass-mcq-09": "「成績達到考試／評核所需最低標準」是「pass an exam」的用法，與本句語境不同。"
+        "pass-mcq-12": "本句的「pass the time」指「透過活動讓等待／空閒時間過去」。",
+        "pass-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-12"
     },
@@ -1824,11 +1724,9 @@ export default {
       "masked": "She ____ the afternoon reading.",
       "options": [
         "pass-mcq-12",
-        "pass-mcq-11",
-        "pass-mcq-13",
-        "pass-mcq-10",
-        "pass-mcq-14",
-        "pass-mcq-09"
+        "pass-mcq-37",
+        "pass-pdf-003",
+        "pass-mcq-28"
       ],
       "explanation": "本句的「passed」指「透過活動讓等待／空閒時間過去」。",
       "sentenceIndex": 28,
@@ -1837,12 +1735,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-12": "本句指「透過活動讓等待／空閒時間過去」。",
-        "pass-mcq-11": "「正式投票批准法案／法律」是「pass a law/bill」的用法，與本句語境不同。",
-        "pass-mcq-13": "「時間持續向前流逝」是「time passes」的用法，與本句語境不同。",
-        "pass-mcq-10": "「判定考試是否合格的最低分數」是「pass mark」的用法，與本句語境不同。",
-        "pass-mcq-14": "「某狀態、情緒或危險隨時間消失」是「feeling/danger passes」的用法，與本句語境不同。",
-        "pass-mcq-09": "「成績達到考試／評核所需最低標準」是「pass an exam」的用法，與本句語境不同。"
+        "pass-mcq-12": "本句的「passed」指「透過活動讓等待／空閒時間過去」。",
+        "pass-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-12"
     },
@@ -1854,11 +1750,9 @@ export default {
       "masked": "Time ____.",
       "options": [
         "pass-mcq-13",
-        "pass-mcq-12",
-        "pass-mcq-14",
-        "pass-mcq-11",
-        "pass-mcq-15",
-        "pass-mcq-10"
+        "pass-pdf-003",
+        "pass-mcq-28",
+        "pass-mcq-37"
       ],
       "explanation": "本句的「passes quickly」指「時間持續向前流逝」。",
       "sentenceIndex": 29,
@@ -1867,12 +1761,10 @@ export default {
         "passes quickly"
       ],
       "optionReasons": {
-        "pass-mcq-13": "本句指「時間持續向前流逝」。",
-        "pass-mcq-12": "「透過活動讓等待／空閒時間過去」是「pass the time」的用法，與本句語境不同。",
-        "pass-mcq-14": "「某狀態、情緒或危險隨時間消失」是「feeling/danger passes」的用法，與本句語境不同。",
-        "pass-mcq-11": "「正式投票批准法案／法律」是「pass a law/bill」的用法，與本句語境不同。",
-        "pass-mcq-15": "「委婉表示死亡／去世」是「pass away」的用法，與本句語境不同。",
-        "pass-mcq-10": "「判定考試是否合格的最低分數」是「pass mark」的用法，與本句語境不同。"
+        "pass-mcq-13": "本句的「passes quickly」指「時間持續向前流逝」。",
+        "pass-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-13"
     },
@@ -1884,11 +1776,9 @@ export default {
       "masked": "Several years ____.",
       "options": [
         "pass-mcq-13",
-        "pass-mcq-12",
-        "pass-mcq-14",
-        "pass-mcq-11",
-        "pass-mcq-15",
-        "pass-mcq-10"
+        "pass-mcq-28",
+        "pass-mcq-38",
+        "pass-mcq-25"
       ],
       "explanation": "本句的「passed」指「時間持續向前流逝」。",
       "sentenceIndex": 30,
@@ -1897,12 +1787,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-13": "本句指「時間持續向前流逝」。",
-        "pass-mcq-12": "「透過活動讓等待／空閒時間過去」是「pass the time」的用法，與本句語境不同。",
-        "pass-mcq-14": "「某狀態、情緒或危險隨時間消失」是「feeling/danger passes」的用法，與本句語境不同。",
-        "pass-mcq-11": "「正式投票批准法案／法律」是「pass a law/bill」的用法，與本句語境不同。",
-        "pass-mcq-15": "「委婉表示死亡／去世」是「pass away」的用法，與本句語境不同。",
-        "pass-mcq-10": "「判定考試是否合格的最低分數」是「pass mark」的用法，與本句語境不同。"
+        "pass-mcq-13": "本句的「passed」指「時間持續向前流逝」。",
+        "pass-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-13"
     },
@@ -1914,11 +1802,9 @@ export default {
       "masked": "The feeling eventually ____.",
       "options": [
         "pass-mcq-35",
-        "pass-mcq-34",
-        "pass-mcq-36",
-        "pass-mcq-33",
-        "pass-mcq-37",
-        "pass-mcq-32"
+        "pass-mcq-23",
+        "pass-mcq-39",
+        "pass-mcq-27"
       ],
       "explanation": "本句的「passed」指「某種情緒、狀態、危機等隨時間消失／不再持續」。",
       "sentenceIndex": 31,
@@ -1927,12 +1813,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-35": "本句指「某種情緒、狀態、危機等隨時間消失／不再持續」。",
-        "pass-mcq-34": "「在正式投票／審批中取得足夠支持而獲批准」是「13. pass = be officially approved（獲通過） — 通過表決」的用法，與本句語境不同。",
-        "pass-mcq-36": "「在指定期間內讓持有人使用某交通／服務的票證」是「29. bus/train/travel pass（乘車證／交通票證） — 通行票；定期票」的用法，與本句語境不同。",
-        "pass-mcq-33": "「法案／法律正式獲得批准的過程」是「passage of legislation」的用法，與本句語境不同。",
-        "pass-mcq-37": "「允許某人在受限制情況下通行／離開的證明」是「32. pass = permit for temporary absence（外出許可） — 准假證；外出證」的用法，與本句語境不同。",
-        "pass-mcq-32": "「時間持續向前流逝的過程」是「passage of time」的用法，與本句語境不同。"
+        "pass-mcq-35": "本句的「passed」指「某種情緒、狀態、危機等隨時間消失／不再持續」。",
+        "pass-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-35"
     },
@@ -1944,11 +1828,9 @@ export default {
       "masked": "The danger soon ____.",
       "options": [
         "pass-mcq-35",
-        "pass-mcq-34",
-        "pass-mcq-36",
-        "pass-mcq-33",
-        "pass-mcq-37",
-        "pass-mcq-32"
+        "pass-mcq-23",
+        "pass-reviewed-058e151ad4",
+        "pass-mcq-37"
       ],
       "explanation": "本句的「passed」指「某種情緒、狀態、危機等隨時間消失／不再持續」。",
       "sentenceIndex": 32,
@@ -1957,12 +1839,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-35": "本句指「某種情緒、狀態、危機等隨時間消失／不再持續」。",
-        "pass-mcq-34": "「在正式投票／審批中取得足夠支持而獲批准」是「13. pass = be officially approved（獲通過） — 通過表決」的用法，與本句語境不同。",
-        "pass-mcq-36": "「在指定期間內讓持有人使用某交通／服務的票證」是「29. bus/train/travel pass（乘車證／交通票證） — 通行票；定期票」的用法，與本句語境不同。",
-        "pass-mcq-33": "「法案／法律正式獲得批准的過程」是「passage of legislation」的用法，與本句語境不同。",
-        "pass-mcq-37": "「允許某人在受限制情況下通行／離開的證明」是「32. pass = permit for temporary absence（外出許可） — 准假證；外出證」的用法，與本句語境不同。",
-        "pass-mcq-32": "「時間持續向前流逝的過程」是「passage of time」的用法，與本句語境不同。"
+        "pass-mcq-35": "本句的「passed」指「某種情緒、狀態、危機等隨時間消失／不再持續」。",
+        "pass-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pass-reviewed-058e151ad4": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-35"
     },
@@ -1974,11 +1854,9 @@ export default {
       "masked": "Her grandfather ____ last year.",
       "options": [
         "pass-mcq-15",
-        "pass-mcq-14",
-        "pass-mcq-16",
-        "pass-mcq-13",
-        "pass-mcq-17",
-        "pass-mcq-12"
+        "pass-mcq-11",
+        "pass-pdf-004",
+        "pass-mcq-23"
       ],
       "explanation": "本句的「passed away」指「委婉表示死亡／去世」。",
       "sentenceIndex": 33,
@@ -1987,12 +1865,10 @@ export default {
         "passed away"
       ],
       "optionReasons": {
-        "pass-mcq-15": "本句指「委婉表示死亡／去世」。",
-        "pass-mcq-14": "「某狀態、情緒或危險隨時間消失」是「feeling/danger passes」的用法，與本句語境不同。",
-        "pass-mcq-16": "「選擇不接受某項邀請、提議或選項」是「pass — decline」的用法，與本句語境不同。",
-        "pass-mcq-13": "「時間持續向前流逝」是「time passes」的用法，與本句語境不同。",
-        "pass-mcq-17": "「婉拒／不接受 X」是「pass on X」的用法，與本句語境不同。",
-        "pass-mcq-12": "「透過活動讓等待／空閒時間過去」是「pass the time」的用法，與本句語境不同。"
+        "pass-mcq-15": "本句的「passed away」指「委婉表示死亡／去世」。",
+        "pass-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-15"
     },
@@ -2004,11 +1880,9 @@ export default {
       "masked": "He ____ away peacefully.",
       "options": [
         "pass-mcq-15",
-        "pass-mcq-14",
-        "pass-mcq-16",
-        "pass-mcq-13",
-        "pass-mcq-17",
-        "pass-mcq-12"
+        "pass-mcq-30",
+        "pass-pdf-004",
+        "pass-mcq-22"
       ],
       "explanation": "本句的「passed」指「委婉表示死亡／去世」。",
       "sentenceIndex": 34,
@@ -2017,12 +1891,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-15": "本句指「委婉表示死亡／去世」。",
-        "pass-mcq-14": "「某狀態、情緒或危險隨時間消失」是「feeling/danger passes」的用法，與本句語境不同。",
-        "pass-mcq-16": "「選擇不接受某項邀請、提議或選項」是「pass — decline」的用法，與本句語境不同。",
-        "pass-mcq-13": "「時間持續向前流逝」是「time passes」的用法，與本句語境不同。",
-        "pass-mcq-17": "「婉拒／不接受 X」是「pass on X」的用法，與本句語境不同。",
-        "pass-mcq-12": "「透過活動讓等待／空閒時間過去」是「pass the time」的用法，與本句語境不同。"
+        "pass-mcq-15": "本句的「passed」指「委婉表示死亡／去世」。",
+        "pass-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-15"
     },
@@ -2034,11 +1906,9 @@ export default {
       "masked": "He ____ at the age of ninety.",
       "options": [
         "pass-mcq-15",
-        "pass-mcq-14",
-        "pass-mcq-16",
-        "pass-mcq-13",
-        "pass-mcq-17",
-        "pass-mcq-12"
+        "pass-mcq-21",
+        "pass-mcq-32",
+        "pass-mcq-31"
       ],
       "explanation": "本句的「passed on」指「委婉表示死亡／去世」。",
       "sentenceIndex": 35,
@@ -2047,12 +1917,10 @@ export default {
         "passed on"
       ],
       "optionReasons": {
-        "pass-mcq-15": "本句指「委婉表示死亡／去世」。",
-        "pass-mcq-14": "「某狀態、情緒或危險隨時間消失」是「feeling/danger passes」的用法，與本句語境不同。",
-        "pass-mcq-16": "「選擇不接受某項邀請、提議或選項」是「pass — decline」的用法，與本句語境不同。",
-        "pass-mcq-13": "「時間持續向前流逝」是「time passes」的用法，與本句語境不同。",
-        "pass-mcq-17": "「婉拒／不接受 X」是「pass on X」的用法，與本句語境不同。",
-        "pass-mcq-12": "「透過活動讓等待／空閒時間過去」是「pass the time」的用法，與本句語境不同。"
+        "pass-mcq-15": "本句的「passed on」指「委婉表示死亡／去世」。",
+        "pass-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-15"
     },
@@ -2064,11 +1932,9 @@ export default {
       "masked": "She ____ on peacefully.",
       "options": [
         "pass-mcq-15",
-        "pass-mcq-14",
-        "pass-mcq-16",
-        "pass-mcq-13",
-        "pass-mcq-17",
-        "pass-mcq-12"
+        "pass-mcq-32",
+        "pass-mcq-21",
+        "pass-mcq-07"
       ],
       "explanation": "本句的「passed」指「委婉表示死亡／去世」。",
       "sentenceIndex": 36,
@@ -2077,12 +1943,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-15": "本句指「委婉表示死亡／去世」。",
-        "pass-mcq-14": "「某狀態、情緒或危險隨時間消失」是「feeling/danger passes」的用法，與本句語境不同。",
-        "pass-mcq-16": "「選擇不接受某項邀請、提議或選項」是「pass — decline」的用法，與本句語境不同。",
-        "pass-mcq-13": "「時間持續向前流逝」是「time passes」的用法，與本句語境不同。",
-        "pass-mcq-17": "「婉拒／不接受 X」是「pass on X」的用法，與本句語境不同。",
-        "pass-mcq-12": "「透過活動讓等待／空閒時間過去」是「pass the time」的用法，與本句語境不同。"
+        "pass-mcq-15": "本句的「passed」指「委婉表示死亡／去世」。",
+        "pass-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-15"
     },
@@ -2094,11 +1958,9 @@ export default {
       "masked": "‘Would you like dessert?’ ‘I’ll ____.’",
       "options": [
         "pass-mcq-16",
-        "pass-mcq-15",
-        "pass-mcq-17",
-        "pass-mcq-14",
-        "pass-mcq-18",
-        "pass-mcq-13"
+        "pass-mcq-20",
+        "pass-pdf-004",
+        "pass-mcq-32"
       ],
       "explanation": "本句的「pass」指「選擇不接受某項邀請、提議或選項」。",
       "sentenceIndex": 37,
@@ -2107,12 +1969,10 @@ export default {
         "pass"
       ],
       "optionReasons": {
-        "pass-mcq-16": "本句指「選擇不接受某項邀請、提議或選項」。",
-        "pass-mcq-15": "「委婉表示死亡／去世」是「pass away」的用法，與本句語境不同。",
-        "pass-mcq-17": "「婉拒／不接受 X」是「pass on X」的用法，與本句語境不同。",
-        "pass-mcq-14": "「某狀態、情緒或危險隨時間消失」是「feeling/danger passes」的用法，與本句語境不同。",
-        "pass-mcq-18": "「有機會取得某物但選擇不要／不把握」是「pass up」的用法，與本句語境不同。",
-        "pass-mcq-13": "「時間持續向前流逝」是「time passes」的用法，與本句語境不同。"
+        "pass-mcq-16": "本句的「pass」指「選擇不接受某項邀請、提議或選項」。",
+        "pass-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-16"
     },
@@ -2124,11 +1984,9 @@ export default {
       "masked": "I think I’ll ____ on that offer.",
       "options": [
         "pass-mcq-16",
-        "pass-mcq-15",
-        "pass-mcq-17",
-        "pass-mcq-14",
-        "pass-mcq-18",
-        "pass-mcq-13"
+        "pass-mcq-22",
+        "pass-pdf-001",
+        "pass-mcq-05"
       ],
       "explanation": "本句的「pass」指「選擇不接受某項邀請、提議或選項」。",
       "sentenceIndex": 38,
@@ -2137,12 +1995,10 @@ export default {
         "pass"
       ],
       "optionReasons": {
-        "pass-mcq-16": "本句指「選擇不接受某項邀請、提議或選項」。",
-        "pass-mcq-15": "「委婉表示死亡／去世」是「pass away」的用法，與本句語境不同。",
-        "pass-mcq-17": "「婉拒／不接受 X」是「pass on X」的用法，與本句語境不同。",
-        "pass-mcq-14": "「某狀態、情緒或危險隨時間消失」是「feeling/danger passes」的用法，與本句語境不同。",
-        "pass-mcq-18": "「有機會取得某物但選擇不要／不把握」是「pass up」的用法，與本句語境不同。",
-        "pass-mcq-13": "「時間持續向前流逝」是「time passes」的用法，與本句語境不同。"
+        "pass-mcq-16": "本句的「pass」指「選擇不接受某項邀請、提議或選項」。",
+        "pass-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-16"
     },
@@ -2154,11 +2010,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "pass-mcq-17",
-        "pass-mcq-16",
-        "pass-mcq-18",
-        "pass-mcq-15",
-        "pass-mcq-19",
-        "pass-mcq-14"
+        "pass-mcq-05",
+        "pass-mcq-31",
+        "pass-mcq-26"
       ],
       "explanation": "本句的「pass on the opportunity」指「婉拒／不接受 X」。",
       "sentenceIndex": 39,
@@ -2167,12 +2021,10 @@ export default {
         "pass on the opportunity"
       ],
       "optionReasons": {
-        "pass-mcq-17": "本句指「婉拒／不接受 X」。",
-        "pass-mcq-16": "「選擇不接受某項邀請、提議或選項」是「pass — decline」的用法，與本句語境不同。",
-        "pass-mcq-18": "「有機會取得某物但選擇不要／不把握」是「pass up」的用法，與本句語境不同。",
-        "pass-mcq-15": "「委婉表示死亡／去世」是「pass away」的用法，與本句語境不同。",
-        "pass-mcq-19": "「略過、忽視或不選擇某人／某事」是「pass over」的用法，與本句語境不同。",
-        "pass-mcq-14": "「某狀態、情緒或危險隨時間消失」是「feeling/danger passes」的用法，與本句語境不同。"
+        "pass-mcq-17": "本句的「pass on the opportunity」指「婉拒／不接受 X」。",
+        "pass-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-17"
     },
@@ -2184,11 +2036,9 @@ export default {
       "masked": "I’ll ____ on coffee today.",
       "options": [
         "pass-mcq-17",
-        "pass-mcq-16",
-        "pass-mcq-18",
-        "pass-mcq-15",
         "pass-mcq-19",
-        "pass-mcq-14"
+        "pass-mcq-27",
+        "pass-pdf-001"
       ],
       "explanation": "本句的「pass」指「婉拒／不接受 X」。",
       "sentenceIndex": 40,
@@ -2197,12 +2047,10 @@ export default {
         "pass"
       ],
       "optionReasons": {
-        "pass-mcq-17": "本句指「婉拒／不接受 X」。",
-        "pass-mcq-16": "「選擇不接受某項邀請、提議或選項」是「pass — decline」的用法，與本句語境不同。",
-        "pass-mcq-18": "「有機會取得某物但選擇不要／不把握」是「pass up」的用法，與本句語境不同。",
-        "pass-mcq-15": "「委婉表示死亡／去世」是「pass away」的用法，與本句語境不同。",
-        "pass-mcq-19": "「略過、忽視或不選擇某人／某事」是「pass over」的用法，與本句語境不同。",
-        "pass-mcq-14": "「某狀態、情緒或危險隨時間消失」是「feeling/danger passes」的用法，與本句語境不同。"
+        "pass-mcq-17": "本句的「pass」指「婉拒／不接受 X」。",
+        "pass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-17"
     },
@@ -2214,11 +2062,9 @@ export default {
       "masked": "I couldn’t ____ the chance.",
       "options": [
         "pass-mcq-18",
-        "pass-mcq-17",
-        "pass-mcq-19",
-        "pass-mcq-16",
-        "pass-mcq-20",
-        "pass-mcq-15"
+        "pass-mcq-07",
+        "pass-reviewed-058e151ad4",
+        "pass-mcq-12"
       ],
       "explanation": "本句的「pass up」指「有機會取得某物但選擇不要／不把握」。",
       "sentenceIndex": 41,
@@ -2227,12 +2073,10 @@ export default {
         "pass up"
       ],
       "optionReasons": {
-        "pass-mcq-18": "本句指「有機會取得某物但選擇不要／不把握」。",
-        "pass-mcq-17": "「婉拒／不接受 X」是「pass on X」的用法，與本句語境不同。",
-        "pass-mcq-19": "「略過、忽視或不選擇某人／某事」是「pass over」的用法，與本句語境不同。",
-        "pass-mcq-16": "「選擇不接受某項邀請、提議或選項」是「pass — decline」的用法，與本句語境不同。",
-        "pass-mcq-20": "「財產、權利、責任等由一方轉至另一方」是「pass to」的用法，與本句語境不同。",
-        "pass-mcq-15": "「委婉表示死亡／去世」是「pass away」的用法，與本句語境不同。"
+        "pass-mcq-18": "本句的「pass up」指「有機會取得某物但選擇不要／不把握」。",
+        "pass-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pass-reviewed-058e151ad4": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-18"
     },
@@ -2244,11 +2088,9 @@ export default {
       "masked": "She ____ up a good job offer.",
       "options": [
         "pass-mcq-18",
-        "pass-mcq-17",
-        "pass-mcq-19",
-        "pass-mcq-16",
-        "pass-mcq-20",
-        "pass-mcq-15"
+        "pass-mcq-24",
+        "pass-mcq-25",
+        "pass-mcq-32"
       ],
       "explanation": "本句的「passed」指「有機會取得某物但選擇不要／不把握」。",
       "sentenceIndex": 42,
@@ -2257,12 +2099,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-18": "本句指「有機會取得某物但選擇不要／不把握」。",
-        "pass-mcq-17": "「婉拒／不接受 X」是「pass on X」的用法，與本句語境不同。",
-        "pass-mcq-19": "「略過、忽視或不選擇某人／某事」是「pass over」的用法，與本句語境不同。",
-        "pass-mcq-16": "「選擇不接受某項邀請、提議或選項」是「pass — decline」的用法，與本句語境不同。",
-        "pass-mcq-20": "「財產、權利、責任等由一方轉至另一方」是「pass to」的用法，與本句語境不同。",
-        "pass-mcq-15": "「委婉表示死亡／去世」是「pass away」的用法，與本句語境不同。"
+        "pass-mcq-18": "本句的「passed」指「有機會取得某物但選擇不要／不把握」。",
+        "pass-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-18"
     },
@@ -2274,11 +2114,9 @@ export default {
       "masked": "The issue was ____ quickly.",
       "options": [
         "pass-mcq-19",
-        "pass-mcq-18",
-        "pass-mcq-20",
-        "pass-mcq-17",
-        "pass-mcq-21",
-        "pass-mcq-16"
+        "pass-mcq-25",
+        "pass-pdf-002",
+        "pass-mcq-31"
       ],
       "explanation": "本句的「passed over」指「略過、忽視或不選擇某人／某事」。",
       "sentenceIndex": 43,
@@ -2287,12 +2125,10 @@ export default {
         "passed over"
       ],
       "optionReasons": {
-        "pass-mcq-19": "本句指「略過、忽視或不選擇某人／某事」。",
-        "pass-mcq-18": "「有機會取得某物但選擇不要／不把握」是「pass up」的用法，與本句語境不同。",
-        "pass-mcq-20": "「財產、權利、責任等由一方轉至另一方」是「pass to」的用法，與本句語境不同。",
-        "pass-mcq-17": "「婉拒／不接受 X」是「pass on X」的用法，與本句語境不同。",
-        "pass-mcq-21": "「把知識、傳統、財產等傳給下一代」是「pass down」的用法，與本句語境不同。",
-        "pass-mcq-16": "「選擇不接受某項邀請、提議或選項」是「pass — decline」的用法，與本句語境不同。"
+        "pass-mcq-19": "本句的「passed over」指「略過、忽視或不選擇某人／某事」。",
+        "pass-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-19"
     },
@@ -2304,11 +2140,9 @@ export default {
       "masked": "He was ____ over for promotion.",
       "options": [
         "pass-mcq-19",
-        "pass-mcq-18",
-        "pass-mcq-20",
-        "pass-mcq-17",
-        "pass-mcq-21",
-        "pass-mcq-16"
+        "pass-mcq-30",
+        "pass-mcq-09",
+        "pass-mcq-34"
       ],
       "explanation": "本句的「passed」指「略過、忽視或不選擇某人／某事」。",
       "sentenceIndex": 44,
@@ -2317,12 +2151,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-19": "本句指「略過、忽視或不選擇某人／某事」。",
-        "pass-mcq-18": "「有機會取得某物但選擇不要／不把握」是「pass up」的用法，與本句語境不同。",
-        "pass-mcq-20": "「財產、權利、責任等由一方轉至另一方」是「pass to」的用法，與本句語境不同。",
-        "pass-mcq-17": "「婉拒／不接受 X」是「pass on X」的用法，與本句語境不同。",
-        "pass-mcq-21": "「把知識、傳統、財產等傳給下一代」是「pass down」的用法，與本句語境不同。",
-        "pass-mcq-16": "「選擇不接受某項邀請、提議或選項」是「pass — decline」的用法，與本句語境不同。"
+        "pass-mcq-19": "本句的「passed」指「略過、忽視或不選擇某人／某事」。",
+        "pass-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-19"
     },
@@ -2334,11 +2166,9 @@ export default {
       "masked": "Control ____ the next generation.",
       "options": [
         "pass-mcq-20",
-        "pass-mcq-19",
-        "pass-mcq-21",
-        "pass-mcq-18",
-        "pass-mcq-22",
-        "pass-mcq-17"
+        "pass-mcq-05",
+        "pass-mcq-03",
+        "pass-mcq-10"
       ],
       "explanation": "本句的「passed to」指「財產、權利、責任等由一方轉至另一方」。",
       "sentenceIndex": 45,
@@ -2347,12 +2177,10 @@ export default {
         "passed to"
       ],
       "optionReasons": {
-        "pass-mcq-20": "本句指「財產、權利、責任等由一方轉至另一方」。",
-        "pass-mcq-19": "「略過、忽視或不選擇某人／某事」是「pass over」的用法，與本句語境不同。",
-        "pass-mcq-21": "「把知識、傳統、財產等傳給下一代」是「pass down」的用法，與本句語境不同。",
-        "pass-mcq-18": "「有機會取得某物但選擇不要／不把握」是「pass up」的用法，與本句語境不同。",
-        "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。",
-        "pass-mcq-17": "「婉拒／不接受 X」是「pass on X」的用法，與本句語境不同。"
+        "pass-mcq-20": "本句的「passed to」指「財產、權利、責任等由一方轉至另一方」。",
+        "pass-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-20"
     },
@@ -2364,11 +2192,9 @@ export default {
       "masked": "The property ____ to his daughter.",
       "options": [
         "pass-mcq-20",
-        "pass-mcq-19",
-        "pass-mcq-21",
-        "pass-mcq-18",
-        "pass-mcq-22",
-        "pass-mcq-17"
+        "pass-mcq-15",
+        "pass-mcq-39",
+        "pass-mcq-24"
       ],
       "explanation": "本句的「passed」指「財產、權利、責任等由一方轉至另一方」。",
       "sentenceIndex": 46,
@@ -2377,12 +2203,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-20": "本句指「財產、權利、責任等由一方轉至另一方」。",
-        "pass-mcq-19": "「略過、忽視或不選擇某人／某事」是「pass over」的用法，與本句語境不同。",
-        "pass-mcq-21": "「把知識、傳統、財產等傳給下一代」是「pass down」的用法，與本句語境不同。",
-        "pass-mcq-18": "「有機會取得某物但選擇不要／不把握」是「pass up」的用法，與本句語境不同。",
-        "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。",
-        "pass-mcq-17": "「婉拒／不接受 X」是「pass on X」的用法，與本句語境不同。"
+        "pass-mcq-20": "本句的「passed」指「財產、權利、責任等由一方轉至另一方」。",
+        "pass-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-20"
     },
@@ -2394,11 +2218,9 @@ export default {
       "masked": "The story was ____ through generations.",
       "options": [
         "pass-mcq-21",
-        "pass-mcq-20",
-        "pass-mcq-22",
-        "pass-mcq-19",
-        "pass-mcq-23",
-        "pass-mcq-18"
+        "pass-mcq-11",
+        "pass-mcq-39",
+        "pass-mcq-15"
       ],
       "explanation": "本句的「passed down」指「把知識、傳統、財產等傳給下一代」。",
       "sentenceIndex": 47,
@@ -2407,12 +2229,10 @@ export default {
         "passed down"
       ],
       "optionReasons": {
-        "pass-mcq-21": "本句指「把知識、傳統、財產等傳給下一代」。",
-        "pass-mcq-20": "「財產、權利、責任等由一方轉至另一方」是「pass to」的用法，與本句語境不同。",
-        "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。",
-        "pass-mcq-19": "「略過、忽視或不選擇某人／某事」是「pass over」的用法，與本句語境不同。",
-        "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。",
-        "pass-mcq-18": "「有機會取得某物但選擇不要／不把握」是「pass up」的用法，與本句語境不同。"
+        "pass-mcq-21": "本句的「passed down」指「把知識、傳統、財產等傳給下一代」。",
+        "pass-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-21"
     },
@@ -2424,11 +2244,9 @@ export default {
       "masked": "She ____ the tradition down to her children.",
       "options": [
         "pass-mcq-21",
-        "pass-mcq-20",
-        "pass-mcq-22",
-        "pass-mcq-19",
-        "pass-mcq-23",
-        "pass-mcq-18"
+        "pass-mcq-30",
+        "pass-mcq-03",
+        "pass-mcq-15"
       ],
       "explanation": "本句的「passed」指「把知識、傳統、財產等傳給下一代」。",
       "sentenceIndex": 48,
@@ -2437,12 +2255,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-21": "本句指「把知識、傳統、財產等傳給下一代」。",
-        "pass-mcq-20": "「財產、權利、責任等由一方轉至另一方」是「pass to」的用法，與本句語境不同。",
-        "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。",
-        "pass-mcq-19": "「略過、忽視或不選擇某人／某事」是「pass over」的用法，與本句語境不同。",
-        "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。",
-        "pass-mcq-18": "「有機會取得某物但選擇不要／不把握」是「pass up」的用法，與本句語境不同。"
+        "pass-mcq-21": "本句的「passed」指「把知識、傳統、財產等傳給下一代」。",
+        "pass-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-21"
     },
@@ -2454,11 +2270,9 @@ export default {
       "masked": "The virus can be ____.",
       "options": [
         "pass-mcq-22",
-        "pass-mcq-21",
-        "pass-mcq-23",
-        "pass-mcq-20",
-        "pass-mcq-24",
-        "pass-mcq-19"
+        "pass-pdf-001",
+        "pass-mcq-28",
+        "pass-mcq-34"
       ],
       "explanation": "本句的「passed from person to person」指「把疾病／感染傳播給另一人」。",
       "sentenceIndex": 49,
@@ -2467,12 +2281,10 @@ export default {
         "passed from person to person"
       ],
       "optionReasons": {
-        "pass-mcq-22": "本句指「把疾病／感染傳播給另一人」。",
-        "pass-mcq-21": "「把知識、傳統、財產等傳給下一代」是「pass down」的用法，與本句語境不同。",
-        "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。",
-        "pass-mcq-20": "「財產、權利、責任等由一方轉至另一方」是「pass to」的用法，與本句語境不同。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
-        "pass-mcq-19": "「略過、忽視或不選擇某人／某事」是「pass over」的用法，與本句語境不同。"
+        "pass-mcq-22": "本句的「passed from person to person」指「把疾病／感染傳播給另一人」。",
+        "pass-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-22"
     },
@@ -2484,11 +2296,9 @@ export default {
       "masked": "She ____ the infection to several family members.",
       "options": [
         "pass-mcq-22",
-        "pass-mcq-21",
-        "pass-mcq-23",
-        "pass-mcq-20",
-        "pass-mcq-24",
-        "pass-mcq-19"
+        "pass-mcq-09",
+        "pass-mcq-39",
+        "pass-reviewed-058e151ad4"
       ],
       "explanation": "本句的「passed」指「把疾病／感染傳播給另一人」。",
       "sentenceIndex": 50,
@@ -2497,12 +2307,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-22": "本句指「把疾病／感染傳播給另一人」。",
-        "pass-mcq-21": "「把知識、傳統、財產等傳給下一代」是「pass down」的用法，與本句語境不同。",
-        "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。",
-        "pass-mcq-20": "「財產、權利、責任等由一方轉至另一方」是「pass to」的用法，與本句語境不同。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
-        "pass-mcq-19": "「略過、忽視或不選擇某人／某事」是「pass over」的用法，與本句語境不同。"
+        "pass-mcq-22": "本句的「passed」指「把疾病／感染傳播給另一人」。",
+        "pass-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pass-reviewed-058e151ad4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-22"
     },
@@ -2514,11 +2322,9 @@ export default {
       "masked": "She ____ to her teammate.",
       "options": [
         "pass-mcq-23",
-        "pass-mcq-22",
-        "pass-mcq-24",
-        "pass-mcq-21",
-        "pass-mcq-25",
-        "pass-mcq-20"
+        "pass-pdf-003",
+        "pass-mcq-04",
+        "pass-mcq-19"
       ],
       "explanation": "本句的「passed the ball」指「把球傳給隊友」。",
       "sentenceIndex": 51,
@@ -2527,12 +2333,10 @@ export default {
         "passed the ball"
       ],
       "optionReasons": {
-        "pass-mcq-23": "本句指「把球傳給隊友」。",
-        "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
-        "pass-mcq-21": "「把知識、傳統、財產等傳給下一代」是「pass down」的用法，與本句語境不同。",
-        "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。",
-        "pass-mcq-20": "「財產、權利、責任等由一方轉至另一方」是「pass to」的用法，與本句語境不同。"
+        "pass-mcq-23": "本句的「passed the ball」指「把球傳給隊友」。",
+        "pass-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-23"
     },
@@ -2544,10 +2348,8 @@ export default {
       "masked": "____ it back!",
       "options": [
         "pass-mcq-23",
-        "pass-mcq-22",
         "pass-mcq-24",
-        "pass-mcq-21",
-        "pass-mcq-25",
+        "pass-mcq-13",
         "pass-mcq-20"
       ],
       "explanation": "本句的「Pass」指「把球傳給隊友」。",
@@ -2557,12 +2359,10 @@ export default {
         "Pass"
       ],
       "optionReasons": {
-        "pass-mcq-23": "本句指「把球傳給隊友」。",
-        "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
-        "pass-mcq-21": "「把知識、傳統、財產等傳給下一代」是「pass down」的用法，與本句語境不同。",
-        "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。",
-        "pass-mcq-20": "「財產、權利、責任等由一方轉至另一方」是「pass to」的用法，與本句語境不同。"
+        "pass-mcq-23": "本句的「Pass」指「把球傳給隊友」。",
+        "pass-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-23"
     },
@@ -2574,11 +2374,9 @@ export default {
       "masked": "He made a perfect ____.",
       "options": [
         "pass-mcq-23",
-        "pass-mcq-22",
-        "pass-mcq-24",
-        "pass-mcq-21",
-        "pass-mcq-25",
-        "pass-mcq-20"
+        "pass-mcq-38",
+        "pass-pdf-003",
+        "pass-mcq-05"
       ],
       "explanation": "本句的「pass」指「把球傳給隊友」。",
       "sentenceIndex": 53,
@@ -2587,12 +2385,10 @@ export default {
         "pass"
       ],
       "optionReasons": {
-        "pass-mcq-23": "本句指「把球傳給隊友」。",
-        "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
-        "pass-mcq-21": "「把知識、傳統、財產等傳給下一代」是「pass down」的用法，與本句語境不同。",
-        "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。",
-        "pass-mcq-20": "「財產、權利、責任等由一方轉至另一方」是「pass to」的用法，與本句語境不同。"
+        "pass-mcq-23": "本句的「pass」指「把球傳給隊友」。",
+        "pass-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-23"
     },
@@ -2604,11 +2400,9 @@ export default {
       "masked": "The final ____ created the goal.",
       "options": [
         "pass-mcq-23",
-        "pass-mcq-22",
-        "pass-mcq-24",
-        "pass-mcq-21",
-        "pass-mcq-25",
-        "pass-mcq-20"
+        "pass-mcq-26",
+        "pass-mcq-19",
+        "pass-mcq-10"
       ],
       "explanation": "本句的「pass」指「把球傳給隊友」。",
       "sentenceIndex": 54,
@@ -2617,12 +2411,10 @@ export default {
         "pass"
       ],
       "optionReasons": {
-        "pass-mcq-23": "本句指「把球傳給隊友」。",
-        "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
-        "pass-mcq-21": "「把知識、傳統、財產等傳給下一代」是「pass down」的用法，與本句語境不同。",
-        "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。",
-        "pass-mcq-20": "「財產、權利、責任等由一方轉至另一方」是「pass to」的用法，與本句語境不同。"
+        "pass-mcq-23": "本句的「pass」指「把球傳給隊友」。",
+        "pass-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-23"
     },
@@ -2634,11 +2426,9 @@ export default {
       "masked": "You need a ____ to enter.",
       "options": [
         "pass-mcq-24",
-        "pass-mcq-23",
-        "pass-mcq-25",
-        "pass-mcq-22",
+        "pass-mcq-20",
         "pass-mcq-26",
-        "pass-mcq-21"
+        "pass-mcq-10"
       ],
       "explanation": "本句的「pass」指「允許進入、使用或通過某地方／服務的證件」。",
       "sentenceIndex": 55,
@@ -2647,12 +2437,10 @@ export default {
         "pass"
       ],
       "optionReasons": {
-        "pass-mcq-24": "本句指「允許進入、使用或通過某地方／服務的證件」。",
-        "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。",
-        "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。",
-        "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。",
-        "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。",
-        "pass-mcq-21": "「把知識、傳統、財產等傳給下一代」是「pass down」的用法，與本句語境不同。"
+        "pass-mcq-24": "本句的「pass」指「允許進入、使用或通過某地方／服務的證件」。",
+        "pass-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-24"
     },
@@ -2664,11 +2452,9 @@ export default {
       "masked": "Show your security ____ at the entrance.",
       "options": [
         "pass-mcq-24",
-        "pass-mcq-23",
-        "pass-mcq-25",
-        "pass-mcq-22",
-        "pass-mcq-26",
-        "pass-mcq-21"
+        "pass-mcq-15",
+        "pass-mcq-27",
+        "pass-mcq-28"
       ],
       "explanation": "本句的「pass」指「允許進入、使用或通過某地方／服務的證件」。",
       "sentenceIndex": 56,
@@ -2677,12 +2463,10 @@ export default {
         "pass"
       ],
       "optionReasons": {
-        "pass-mcq-24": "本句指「允許進入、使用或通過某地方／服務的證件」。",
-        "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。",
-        "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。",
-        "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。",
-        "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。",
-        "pass-mcq-21": "「把知識、傳統、財產等傳給下一代」是「pass down」的用法，與本句語境不同。"
+        "pass-mcq-24": "本句的「pass」指「允許進入、使用或通過某地方／服務的證件」。",
+        "pass-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-24"
     },
@@ -2694,11 +2478,9 @@ export default {
       "masked": "She bought a monthly ____.",
       "options": [
         "pass-mcq-36",
-        "pass-mcq-35",
-        "pass-mcq-37",
-        "pass-mcq-34",
-        "pass-mcq-38",
-        "pass-mcq-33"
+        "pass-mcq-20",
+        "pass-mcq-09",
+        "pass-mcq-19"
       ],
       "explanation": "本句的「bus pass」指「在指定期間內讓持有人使用某交通／服務的票證」。",
       "sentenceIndex": 57,
@@ -2707,12 +2489,10 @@ export default {
         "bus pass"
       ],
       "optionReasons": {
-        "pass-mcq-36": "本句指「在指定期間內讓持有人使用某交通／服務的票證」。",
-        "pass-mcq-35": "「某種情緒、狀態、危機等隨時間消失／不再持續」是「16. pass = come to an end / disappear with time（過去；消退） — 消逝；過去」的用法，與本句語境不同。",
-        "pass-mcq-37": "「允許某人在受限制情況下通行／離開的證明」是「32. pass = permit for temporary absence（外出許可） — 准假證；外出證」的用法，與本句語境不同。",
-        "pass-mcq-34": "「在正式投票／審批中取得足夠支持而獲批准」是「13. pass = be officially approved（獲通過） — 通過表決」的用法，與本句語境不同。",
-        "pass-mcq-38": "「以非常好的成績／表現順利通過測試」是「36. pass with flying colours（以優異成績通過） — 高分通過；漂亮過關」的用法，與本句語境不同。",
-        "pass-mcq-33": "「法案／法律正式獲得批准的過程」是「passage of legislation」的用法，與本句語境不同。"
+        "pass-mcq-36": "本句的「bus pass」指「在指定期間內讓持有人使用某交通／服務的票證」。",
+        "pass-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-36"
     },
@@ -2724,11 +2504,9 @@ export default {
       "masked": "The travel ____ is valid for seven days.",
       "options": [
         "pass-mcq-36",
-        "pass-mcq-35",
-        "pass-mcq-37",
-        "pass-mcq-34",
-        "pass-mcq-38",
-        "pass-mcq-33"
+        "pass-mcq-30",
+        "pass-mcq-05",
+        "pass-mcq-04"
       ],
       "explanation": "本句的「pass」指「在指定期間內讓持有人使用某交通／服務的票證」。",
       "sentenceIndex": 58,
@@ -2737,12 +2515,10 @@ export default {
         "pass"
       ],
       "optionReasons": {
-        "pass-mcq-36": "本句指「在指定期間內讓持有人使用某交通／服務的票證」。",
-        "pass-mcq-35": "「某種情緒、狀態、危機等隨時間消失／不再持續」是「16. pass = come to an end / disappear with time（過去；消退） — 消逝；過去」的用法，與本句語境不同。",
-        "pass-mcq-37": "「允許某人在受限制情況下通行／離開的證明」是「32. pass = permit for temporary absence（外出許可） — 准假證；外出證」的用法，與本句語境不同。",
-        "pass-mcq-34": "「在正式投票／審批中取得足夠支持而獲批准」是「13. pass = be officially approved（獲通過） — 通過表決」的用法，與本句語境不同。",
-        "pass-mcq-38": "「以非常好的成績／表現順利通過測試」是「36. pass with flying colours（以優異成績通過） — 高分通過；漂亮過關」的用法，與本句語境不同。",
-        "pass-mcq-33": "「法案／法律正式獲得批准的過程」是「passage of legislation」的用法，與本句語境不同。"
+        "pass-mcq-36": "本句的「pass」指「在指定期間內讓持有人使用某交通／服務的票證」。",
+        "pass-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-36"
     },
@@ -2754,11 +2530,9 @@ export default {
       "masked": "Please show your ____.",
       "options": [
         "pass-pdf-002",
-        "pass-mcq-24",
-        "pass-mcq-26",
-        "pass-mcq-23",
-        "pass-mcq-27",
-        "pass-mcq-22"
+        "pass-mcq-22",
+        "pass-mcq-01",
+        "pass-mcq-19"
       ],
       "explanation": "本句的「boarding pass」指「證明旅客可登上指定航班的文件／電子憑證」。",
       "sentenceIndex": 59,
@@ -2767,12 +2541,10 @@ export default {
         "boarding pass"
       ],
       "optionReasons": {
-        "pass-pdf-002": "本句指「證明旅客可登上指定航班的文件／電子憑證」。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
-        "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。",
-        "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
-        "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。"
+        "pass-pdf-002": "本句的「boarding pass」指「證明旅客可登上指定航班的文件／電子憑證」。",
+        "pass-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-pdf-002"
     },
@@ -2784,11 +2556,9 @@ export default {
       "masked": "I downloaded my boarding ____.",
       "options": [
         "pass-pdf-002",
-        "pass-mcq-24",
-        "pass-mcq-26",
-        "pass-mcq-23",
-        "pass-mcq-27",
-        "pass-mcq-22"
+        "pass-mcq-12",
+        "pass-mcq-20",
+        "pass-mcq-29"
       ],
       "explanation": "本句的「pass」指「證明旅客可登上指定航班的文件／電子憑證」。",
       "sentenceIndex": 60,
@@ -2797,12 +2567,10 @@ export default {
         "pass"
       ],
       "optionReasons": {
-        "pass-pdf-002": "本句指「證明旅客可登上指定航班的文件／電子憑證」。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
-        "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。",
-        "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
-        "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。"
+        "pass-pdf-002": "本句的「pass」指「證明旅客可登上指定航班的文件／電子憑證」。",
+        "pass-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-pdf-002"
     },
@@ -2814,11 +2582,9 @@ export default {
       "masked": "The road crosses a mountain ____.",
       "options": [
         "pass-mcq-25",
-        "pass-mcq-24",
-        "pass-mcq-26",
-        "pass-mcq-23",
-        "pass-mcq-27",
-        "pass-mcq-22"
+        "pass-mcq-28",
+        "pass-mcq-39",
+        "pass-mcq-20"
       ],
       "explanation": "本句的「pass」指「山脈中較低、可供通行的天然通道」。",
       "sentenceIndex": 61,
@@ -2827,12 +2593,10 @@ export default {
         "pass"
       ],
       "optionReasons": {
-        "pass-mcq-25": "本句指「山脈中較低、可供通行的天然通道」。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
-        "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。",
-        "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
-        "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。"
+        "pass-mcq-25": "本句的「pass」指「山脈中較低、可供通行的天然通道」。",
+        "pass-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-25"
     },
@@ -2844,11 +2608,9 @@ export default {
       "masked": "Snow blocked the ____.",
       "options": [
         "pass-mcq-25",
-        "pass-mcq-24",
-        "pass-mcq-26",
-        "pass-mcq-23",
-        "pass-mcq-27",
-        "pass-mcq-22"
+        "pass-mcq-34",
+        "pass-mcq-03",
+        "pass-reviewed-058e151ad4"
       ],
       "explanation": "本句的「pass」指「山脈中較低、可供通行的天然通道」。",
       "sentenceIndex": 62,
@@ -2857,12 +2619,10 @@ export default {
         "pass"
       ],
       "optionReasons": {
-        "pass-mcq-25": "本句指「山脈中較低、可供通行的天然通道」。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
-        "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。",
-        "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
-        "pass-mcq-22": "「把疾病／感染傳播給另一人」是「pass infection」的用法，與本句語境不同。"
+        "pass-mcq-25": "本句的「pass」指「山脈中較低、可供通行的天然通道」。",
+        "pass-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pass-reviewed-058e151ad4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-25"
     },
@@ -2874,11 +2634,9 @@ export default {
       "masked": "The student was given a ____.",
       "options": [
         "pass-mcq-37",
-        "pass-mcq-36",
-        "pass-mcq-38",
-        "pass-mcq-35",
-        "pass-mcq-39",
-        "pass-mcq-34"
+        "pass-mcq-22",
+        "pass-pdf-003",
+        "pass-mcq-21"
       ],
       "explanation": "本句的「hall pass」指「允許某人在受限制情況下通行／離開的證明」。",
       "sentenceIndex": 63,
@@ -2887,12 +2645,10 @@ export default {
         "hall pass"
       ],
       "optionReasons": {
-        "pass-mcq-37": "本句指「允許某人在受限制情況下通行／離開的證明」。",
-        "pass-mcq-36": "「在指定期間內讓持有人使用某交通／服務的票證」是「29. bus/train/travel pass（乘車證／交通票證） — 通行票；定期票」的用法，與本句語境不同。",
-        "pass-mcq-38": "「以非常好的成績／表現順利通過測試」是「36. pass with flying colours（以優異成績通過） — 高分通過；漂亮過關」的用法，與本句語境不同。",
-        "pass-mcq-35": "「某種情緒、狀態、危機等隨時間消失／不再持續」是「16. pass = come to an end / disappear with time（過去；消退） — 消逝；過去」的用法，與本句語境不同。",
-        "pass-mcq-39": "「選擇不評論、不處理或不追究某件事」是「37. pass = ignore/not react to something（放過；不追究） — 算了；不理會」的用法，與本句語境不同。",
-        "pass-mcq-34": "「在正式投票／審批中取得足夠支持而獲批准」是「13. pass = be officially approved（獲通過） — 通過表決」的用法，與本句語境不同。"
+        "pass-mcq-37": "本句的「hall pass」指「允許某人在受限制情況下通行／離開的證明」。",
+        "pass-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-37"
     },
@@ -2904,11 +2660,9 @@ export default {
       "masked": "He needed a ____ to leave the building.",
       "options": [
         "pass-mcq-37",
-        "pass-mcq-36",
-        "pass-mcq-38",
-        "pass-mcq-35",
-        "pass-mcq-39",
-        "pass-mcq-34"
+        "pass-mcq-15",
+        "pass-mcq-30",
+        "pass-mcq-29"
       ],
       "explanation": "本句的「pass」指「允許某人在受限制情況下通行／離開的證明」。",
       "sentenceIndex": 64,
@@ -2917,12 +2671,10 @@ export default {
         "pass"
       ],
       "optionReasons": {
-        "pass-mcq-37": "本句指「允許某人在受限制情況下通行／離開的證明」。",
-        "pass-mcq-36": "「在指定期間內讓持有人使用某交通／服務的票證」是「29. bus/train/travel pass（乘車證／交通票證） — 通行票；定期票」的用法，與本句語境不同。",
-        "pass-mcq-38": "「以非常好的成績／表現順利通過測試」是「36. pass with flying colours（以優異成績通過） — 高分通過；漂亮過關」的用法，與本句語境不同。",
-        "pass-mcq-35": "「某種情緒、狀態、危機等隨時間消失／不再持續」是「16. pass = come to an end / disappear with time（過去；消退） — 消逝；過去」的用法，與本句語境不同。",
-        "pass-mcq-39": "「選擇不評論、不處理或不追究某件事」是「37. pass = ignore/not react to something（放過；不追究） — 算了；不理會」的用法，與本句語境不同。",
-        "pass-mcq-34": "「在正式投票／審批中取得足夠支持而獲批准」是「13. pass = be officially approved（獲通過） — 通過表決」的用法，與本句語境不同。"
+        "pass-mcq-37": "本句的「pass」指「允許某人在受限制情況下通行／離開的證明」。",
+        "pass-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-37"
     },
@@ -2934,11 +2686,9 @@ export default {
       "masked": "It is too early to ____.",
       "options": [
         "pass-mcq-26",
-        "pass-mcq-25",
-        "pass-mcq-27",
-        "pass-mcq-24",
-        "pass-mcq-28",
-        "pass-mcq-23"
+        "pass-mcq-29",
+        "pass-mcq-17",
+        "pass-mcq-22"
       ],
       "explanation": "本句的「pass judgment」指「正式／較書面地作出判斷或評價」。",
       "sentenceIndex": 65,
@@ -2947,12 +2697,10 @@ export default {
         "pass judgment"
       ],
       "optionReasons": {
-        "pass-mcq-26": "本句指「正式／較書面地作出判斷或評價」。",
-        "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
-        "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。"
+        "pass-mcq-26": "本句的「pass judgment」指「正式／較書面地作出判斷或評價」。",
+        "pass-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-26"
     },
@@ -2964,11 +2712,9 @@ export default {
       "masked": "We should listen before ____ judgment.",
       "options": [
         "pass-mcq-26",
-        "pass-mcq-25",
-        "pass-mcq-27",
-        "pass-mcq-24",
-        "pass-mcq-28",
-        "pass-mcq-23"
+        "pass-pdf-004",
+        "pass-mcq-03",
+        "pass-mcq-20"
       ],
       "explanation": "本句的「passing」指「正式／較書面地作出判斷或評價」。",
       "sentenceIndex": 66,
@@ -2977,12 +2723,10 @@ export default {
         "passing"
       ],
       "optionReasons": {
-        "pass-mcq-26": "本句指「正式／較書面地作出判斷或評價」。",
-        "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
-        "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。"
+        "pass-mcq-26": "本句的「passing」指「正式／較書面地作出判斷或評價」。",
+        "pass-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-26"
     },
@@ -2994,11 +2738,9 @@ export default {
       "masked": "The judge will ____ tomorrow.",
       "options": [
         "pass-pdf-003",
-        "pass-mcq-25",
+        "pass-mcq-18",
         "pass-mcq-27",
-        "pass-mcq-24",
-        "pass-mcq-28",
-        "pass-mcq-23"
+        "pass-mcq-37"
       ],
       "explanation": "本句的「pass sentence」指「法官正式宣布刑罰」。",
       "sentenceIndex": 67,
@@ -3007,12 +2749,10 @@ export default {
         "pass sentence"
       ],
       "optionReasons": {
-        "pass-pdf-003": "本句指「法官正式宣布刑罰」。",
-        "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
-        "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。"
+        "pass-pdf-003": "本句的「pass sentence」指「法官正式宣布刑罰」。",
+        "pass-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-pdf-003"
     },
@@ -3024,11 +2764,9 @@ export default {
       "masked": "Sentence was ____ after the hearing.",
       "options": [
         "pass-pdf-003",
-        "pass-mcq-25",
-        "pass-mcq-27",
-        "pass-mcq-24",
-        "pass-mcq-28",
-        "pass-mcq-23"
+        "pass-mcq-10",
+        "pass-mcq-16",
+        "pass-mcq-03"
       ],
       "explanation": "本句的「passed」指「法官正式宣布刑罰」。",
       "sentenceIndex": 68,
@@ -3037,12 +2775,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-pdf-003": "本句指「法官正式宣布刑罰」。",
-        "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
-        "pass-mcq-23": "「把球傳給隊友」是「pass the ball」的用法，與本句語境不同。"
+        "pass-pdf-003": "本句的「passed」指「法官正式宣布刑罰」。",
+        "pass-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-pdf-003"
     },
@@ -3054,11 +2790,9 @@ export default {
       "masked": "The report did not ____.",
       "options": [
         "pass-mcq-27",
-        "pass-mcq-26",
-        "pass-mcq-28",
-        "pass-mcq-25",
-        "pass-mcq-29",
-        "pass-mcq-24"
+        "pass-mcq-13",
+        "pass-mcq-20",
+        "pass-mcq-19"
       ],
       "explanation": "本句的「pass muster」指「經檢查後被認為足夠好／符合要求」。",
       "sentenceIndex": 69,
@@ -3067,12 +2801,10 @@ export default {
         "pass muster"
       ],
       "optionReasons": {
-        "pass-mcq-27": "本句指「經檢查後被認為足夠好／符合要求」。",
-        "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
-        "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。",
-        "pass-mcq-29": "「短暫、不持久的」是「passing — temporary」的用法，與本句語境不同。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。"
+        "pass-mcq-27": "本句的「pass muster」指「經檢查後被認為足夠好／符合要求」。",
+        "pass-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-27"
     },
@@ -3084,11 +2816,9 @@ export default {
       "masked": "Only the strongest designs ____ muster.",
       "options": [
         "pass-mcq-27",
-        "pass-mcq-26",
-        "pass-mcq-28",
-        "pass-mcq-25",
-        "pass-mcq-29",
-        "pass-mcq-24"
+        "pass-pdf-002",
+        "pass-mcq-33",
+        "pass-mcq-13"
       ],
       "explanation": "本句的「passed」指「經檢查後被認為足夠好／符合要求」。",
       "sentenceIndex": 70,
@@ -3097,12 +2827,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-27": "本句指「經檢查後被認為足夠好／符合要求」。",
-        "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
-        "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。",
-        "pass-mcq-29": "「短暫、不持久的」是「passing — temporary」的用法，與本句語境不同。",
-        "pass-mcq-24": "「允許進入、使用或通過某地方／服務的證件」是「pass — permit」的用法，與本句語境不同。"
+        "pass-mcq-27": "本句的「passed」指「經檢查後被認為足夠好／符合要求」。",
+        "pass-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-27"
     },
@@ -3114,11 +2842,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "pass-mcq-38",
-        "pass-mcq-37",
-        "pass-mcq-39",
-        "pass-mcq-36",
-        "pass-mcq-35",
-        "pass-mcq-34"
+        "pass-mcq-29",
+        "pass-pdf-003",
+        "pass-mcq-13"
       ],
       "explanation": "本句的「passed with flying colours」指「以非常好的成績／表現順利通過測試」。",
       "sentenceIndex": 71,
@@ -3127,12 +2853,10 @@ export default {
         "passed with flying colours"
       ],
       "optionReasons": {
-        "pass-mcq-38": "本句指「以非常好的成績／表現順利通過測試」。",
-        "pass-mcq-37": "「允許某人在受限制情況下通行／離開的證明」是「32. pass = permit for temporary absence（外出許可） — 准假證；外出證」的用法，與本句語境不同。",
-        "pass-mcq-39": "「選擇不評論、不處理或不追究某件事」是「37. pass = ignore/not react to something（放過；不追究） — 算了；不理會」的用法，與本句語境不同。",
-        "pass-mcq-36": "「在指定期間內讓持有人使用某交通／服務的票證」是「29. bus/train/travel pass（乘車證／交通票證） — 通行票；定期票」的用法，與本句語境不同。",
-        "pass-mcq-35": "「某種情緒、狀態、危機等隨時間消失／不再持續」是「16. pass = come to an end / disappear with time（過去；消退） — 消逝；過去」的用法，與本句語境不同。",
-        "pass-mcq-34": "「在正式投票／審批中取得足夠支持而獲批准」是「13. pass = be officially approved（獲通過） — 通過表決」的用法，與本句語境不同。"
+        "pass-mcq-38": "本句的「passed with flying colours」指「以非常好的成績／表現順利通過測試」。",
+        "pass-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-38"
     },
@@ -3144,11 +2868,9 @@ export default {
       "masked": "The product ____ the safety test with flying colours.",
       "options": [
         "pass-mcq-38",
-        "pass-mcq-37",
-        "pass-mcq-39",
-        "pass-mcq-36",
-        "pass-mcq-35",
-        "pass-mcq-34"
+        "pass-mcq-26",
+        "pass-mcq-13",
+        "pass-mcq-21"
       ],
       "explanation": "本句的「passed」指「以非常好的成績／表現順利通過測試」。",
       "sentenceIndex": 72,
@@ -3157,12 +2879,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-38": "本句指「以非常好的成績／表現順利通過測試」。",
-        "pass-mcq-37": "「允許某人在受限制情況下通行／離開的證明」是「32. pass = permit for temporary absence（外出許可） — 准假證；外出證」的用法，與本句語境不同。",
-        "pass-mcq-39": "「選擇不評論、不處理或不追究某件事」是「37. pass = ignore/not react to something（放過；不追究） — 算了；不理會」的用法，與本句語境不同。",
-        "pass-mcq-36": "「在指定期間內讓持有人使用某交通／服務的票證」是「29. bus/train/travel pass（乘車證／交通票證） — 通行票；定期票」的用法，與本句語境不同。",
-        "pass-mcq-35": "「某種情緒、狀態、危機等隨時間消失／不再持續」是「16. pass = come to an end / disappear with time（過去；消退） — 消逝；過去」的用法，與本句語境不同。",
-        "pass-mcq-34": "「在正式投票／審批中取得足夠支持而獲批准」是「13. pass = be officially approved（獲通過） — 通過表決」的用法，與本句語境不同。"
+        "pass-mcq-38": "本句的「passed」指「以非常好的成績／表現順利通過測試」。",
+        "pass-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-38"
     },
@@ -3174,11 +2894,9 @@ export default {
       "masked": "I’ll ____.",
       "options": [
         "pass-mcq-39",
-        "pass-mcq-38",
-        "pass-mcq-37",
-        "pass-mcq-36",
-        "pass-mcq-35",
-        "pass-mcq-34"
+        "pass-mcq-13",
+        "pass-mcq-27",
+        "pass-pdf-004"
       ],
       "explanation": "本句的「let that pass」指「選擇不評論、不處理或不追究某件事」。",
       "sentenceIndex": 73,
@@ -3187,12 +2905,10 @@ export default {
         "let that pass"
       ],
       "optionReasons": {
-        "pass-mcq-39": "本句指「選擇不評論、不處理或不追究某件事」。",
-        "pass-mcq-38": "「以非常好的成績／表現順利通過測試」是「36. pass with flying colours（以優異成績通過） — 高分通過；漂亮過關」的用法，與本句語境不同。",
-        "pass-mcq-37": "「允許某人在受限制情況下通行／離開的證明」是「32. pass = permit for temporary absence（外出許可） — 准假證；外出證」的用法，與本句語境不同。",
-        "pass-mcq-36": "「在指定期間內讓持有人使用某交通／服務的票證」是「29. bus/train/travel pass（乘車證／交通票證） — 通行票；定期票」的用法，與本句語境不同。",
-        "pass-mcq-35": "「某種情緒、狀態、危機等隨時間消失／不再持續」是「16. pass = come to an end / disappear with time（過去；消退） — 消逝；過去」的用法，與本句語境不同。",
-        "pass-mcq-34": "「在正式投票／審批中取得足夠支持而獲批准」是「13. pass = be officially approved（獲通過） — 通過表決」的用法，與本句語境不同。"
+        "pass-mcq-39": "本句的「let that pass」指「選擇不評論、不處理或不追究某件事」。",
+        "pass-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-39"
     },
@@ -3204,11 +2920,9 @@ export default {
       "masked": "The comment ____ without response.",
       "options": [
         "pass-mcq-39",
-        "pass-mcq-38",
-        "pass-mcq-37",
-        "pass-mcq-36",
-        "pass-mcq-35",
-        "pass-mcq-34"
+        "pass-mcq-27",
+        "pass-mcq-11",
+        "pass-pdf-004"
       ],
       "explanation": "本句的「passed」指「選擇不評論、不處理或不追究某件事」。",
       "sentenceIndex": 74,
@@ -3217,12 +2931,10 @@ export default {
         "passed"
       ],
       "optionReasons": {
-        "pass-mcq-39": "本句指「選擇不評論、不處理或不追究某件事」。",
-        "pass-mcq-38": "「以非常好的成績／表現順利通過測試」是「36. pass with flying colours（以優異成績通過） — 高分通過；漂亮過關」的用法，與本句語境不同。",
-        "pass-mcq-37": "「允許某人在受限制情況下通行／離開的證明」是「32. pass = permit for temporary absence（外出許可） — 准假證；外出證」的用法，與本句語境不同。",
-        "pass-mcq-36": "「在指定期間內讓持有人使用某交通／服務的票證」是「29. bus/train/travel pass（乘車證／交通票證） — 通行票；定期票」的用法，與本句語境不同。",
-        "pass-mcq-35": "「某種情緒、狀態、危機等隨時間消失／不再持續」是「16. pass = come to an end / disappear with time（過去；消退） — 消逝；過去」的用法，與本句語境不同。",
-        "pass-mcq-34": "「在正式投票／審批中取得足夠支持而獲批准」是「13. pass = be officially approved（獲通過） — 通過表決」的用法，與本句語境不同。"
+        "pass-mcq-39": "本句的「passed」指「選擇不評論、不處理或不追究某件事」。",
+        "pass-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-39"
     },
@@ -3234,11 +2946,9 @@ export default {
       "masked": "She mentioned it ____.",
       "options": [
         "pass-mcq-28",
-        "pass-mcq-27",
-        "pass-mcq-29",
-        "pass-mcq-26",
-        "pass-mcq-30",
-        "pass-mcq-25"
+        "pass-mcq-10",
+        "pass-pdf-002",
+        "pass-mcq-19"
       ],
       "explanation": "本句的「in passing」指「不是主要話題，只是順帶提到」。",
       "sentenceIndex": 75,
@@ -3247,12 +2957,10 @@ export default {
         "in passing"
       ],
       "optionReasons": {
-        "pass-mcq-28": "本句指「不是主要話題，只是順帶提到」。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
-        "pass-mcq-29": "「短暫、不持久的」是「passing — temporary」的用法，與本句語境不同。",
-        "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。",
-        "pass-mcq-30": "「書、文章或閱讀材料中的一段連續文字」是「passage — text」的用法，與本句語境不同。",
-        "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。"
+        "pass-mcq-28": "本句的「in passing」指「不是主要話題，只是順帶提到」。",
+        "pass-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-28"
     },
@@ -3264,11 +2972,9 @@ export default {
       "masked": "He referred to the issue only in ____.",
       "options": [
         "pass-mcq-28",
-        "pass-mcq-27",
-        "pass-mcq-29",
-        "pass-mcq-26",
-        "pass-mcq-30",
-        "pass-mcq-25"
+        "pass-mcq-22",
+        "pass-mcq-09",
+        "pass-mcq-15"
       ],
       "explanation": "本句的「passing」指「不是主要話題，只是順帶提到」。",
       "sentenceIndex": 76,
@@ -3277,12 +2983,10 @@ export default {
         "passing"
       ],
       "optionReasons": {
-        "pass-mcq-28": "本句指「不是主要話題，只是順帶提到」。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
-        "pass-mcq-29": "「短暫、不持久的」是「passing — temporary」的用法，與本句語境不同。",
-        "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。",
-        "pass-mcq-30": "「書、文章或閱讀材料中的一段連續文字」是「passage — text」的用法，與本句語境不同。",
-        "pass-mcq-25": "「山脈中較低、可供通行的天然通道」是「mountain pass」的用法，與本句語境不同。"
+        "pass-mcq-28": "本句的「passing」指「不是主要話題，只是順帶提到」。",
+        "pass-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-28"
     },
@@ -3294,11 +2998,9 @@ export default {
       "masked": "It was only a ____.",
       "options": [
         "pass-mcq-29",
-        "pass-mcq-28",
-        "pass-mcq-30",
-        "pass-mcq-27",
-        "pass-mcq-31",
-        "pass-mcq-26"
+        "pass-reviewed-058e151ad4",
+        "pass-mcq-20",
+        "pass-mcq-08"
       ],
       "explanation": "本句的「passing thought」指「短暫、不持久的」。",
       "sentenceIndex": 77,
@@ -3307,12 +3009,10 @@ export default {
         "passing thought"
       ],
       "optionReasons": {
-        "pass-mcq-29": "本句指「短暫、不持久的」。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
-        "pass-mcq-30": "「書、文章或閱讀材料中的一段連續文字」是「passage — text」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
-        "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。",
-        "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。"
+        "pass-mcq-29": "本句的「passing thought」指「短暫、不持久的」。",
+        "pass-reviewed-058e151ad4": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-29"
     },
@@ -3324,11 +3024,9 @@ export default {
       "masked": "She showed a ____ interest in the subject.",
       "options": [
         "pass-mcq-29",
-        "pass-mcq-28",
-        "pass-mcq-30",
-        "pass-mcq-27",
-        "pass-mcq-31",
-        "pass-mcq-26"
+        "pass-mcq-06",
+        "pass-mcq-10",
+        "pass-mcq-15"
       ],
       "explanation": "本句的「passing」指「短暫、不持久的」。",
       "sentenceIndex": 78,
@@ -3337,74 +3035,68 @@ export default {
         "passing"
       ],
       "optionReasons": {
-        "pass-mcq-29": "本句指「短暫、不持久的」。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
-        "pass-mcq-30": "「書、文章或閱讀材料中的一段連續文字」是「passage — text」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
-        "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。",
-        "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。"
+        "pass-mcq-29": "本句的「passing」指「短暫、不持久的」。",
+        "pass-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-29"
     },
     {
       "id": "pass-40-0",
-      "sense": "pass-mcq-29",
+      "sense": "pass-reviewed-058e151ad4",
       "en": "We were saddened by his passing.",
       "zh": "他的離世令我們非常難過。",
       "masked": "We were saddened by his ____.",
       "options": [
-        "pass-mcq-29",
-        "pass-mcq-28",
+        "pass-reviewed-058e151ad4",
         "pass-mcq-30",
-        "pass-mcq-27",
-        "pass-mcq-31",
-        "pass-mcq-26"
+        "pass-mcq-24",
+        "pass-pdf-003"
       ],
-      "explanation": "本句的「passing」指「短暫、不持久的」。",
+      "explanation": "對照完整句子：「他的離世令我們非常難過。」。這裡的「passing」表示「委婉指死亡」。",
       "sentenceIndex": 79,
       "sourcePractice": 80,
       "targets": [
         "passing"
       ],
       "optionReasons": {
-        "pass-mcq-29": "本句指「短暫、不持久的」。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
-        "pass-mcq-30": "「書、文章或閱讀材料中的一段連續文字」是「passage — text」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
-        "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。",
-        "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。"
+        "pass-reviewed-058e151ad4": "對照完整句子：「他的離世令我們非常難過。」。這裡的「passing」表示「委婉指死亡」。",
+        "pass-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "pass-mcq-29"
+      "correctOption": "pass-reviewed-058e151ad4",
+      "previousCorrectOption": "pass-mcq-29",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "pass-40-1",
-      "sense": "pass-mcq-29",
+      "sense": "pass-reviewed-058e151ad4",
       "en": "Her passing affected the whole family.",
       "zh": "她的去世影響了整個家庭。",
       "masked": "Her ____ affected the whole family.",
       "options": [
-        "pass-mcq-29",
-        "pass-mcq-28",
-        "pass-mcq-30",
-        "pass-mcq-27",
-        "pass-mcq-31",
-        "pass-mcq-26"
+        "pass-reviewed-058e151ad4",
+        "pass-mcq-32",
+        "pass-mcq-22",
+        "pass-mcq-28"
       ],
-      "explanation": "本句的「passing」指「短暫、不持久的」。",
+      "explanation": "對照完整句子：「她的去世影響了整個家庭。」。這裡的「passing」表示「委婉指死亡」。",
       "sentenceIndex": 80,
       "sourcePractice": 81,
       "targets": [
         "passing"
       ],
       "optionReasons": {
-        "pass-mcq-29": "本句指「短暫、不持久的」。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
-        "pass-mcq-30": "「書、文章或閱讀材料中的一段連續文字」是「passage — text」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。",
-        "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。",
-        "pass-mcq-26": "「正式／較書面地作出判斷或評價」是「pass judgment」的用法，與本句語境不同。"
+        "pass-reviewed-058e151ad4": "對照完整句子：「她的去世影響了整個家庭。」。這裡的「passing」表示「委婉指死亡」。",
+        "pass-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "pass-mcq-29"
+      "correctOption": "pass-reviewed-058e151ad4",
+      "previousCorrectOption": "pass-mcq-29",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "pass-41-0",
@@ -3414,11 +3106,9 @@ export default {
       "masked": "The narrow road allows the ____.",
       "options": [
         "pass-pdf-004",
-        "pass-mcq-29",
-        "pass-mcq-31",
-        "pass-mcq-28",
-        "pass-mcq-32",
-        "pass-mcq-27"
+        "pass-mcq-09",
+        "pass-mcq-39",
+        "pass-mcq-22"
       ],
       "explanation": "本句的「passage of vehicles」指「從某地通過／移動的行為」。",
       "sentenceIndex": 81,
@@ -3427,12 +3117,10 @@ export default {
         "passage of vehicles"
       ],
       "optionReasons": {
-        "pass-pdf-004": "本句指「從某地通過／移動的行為」。",
-        "pass-mcq-29": "「短暫、不持久的」是「passing — temporary」的用法，與本句語境不同。",
-        "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
-        "pass-mcq-32": "「時間持續向前流逝的過程」是「passage of time」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。"
+        "pass-pdf-004": "本句的「passage of vehicles」指「從某地通過／移動的行為」。",
+        "pass-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-pdf-004"
     },
@@ -3444,10 +3132,8 @@ export default {
       "masked": "The ____ of ships was restricted.",
       "options": [
         "pass-pdf-004",
-        "pass-mcq-29",
-        "pass-mcq-31",
-        "pass-mcq-28",
-        "pass-mcq-32",
+        "pass-mcq-20",
+        "pass-mcq-08",
         "pass-mcq-27"
       ],
       "explanation": "本句的「passage」指「從某地通過／移動的行為」。",
@@ -3457,12 +3143,10 @@ export default {
         "passage"
       ],
       "optionReasons": {
-        "pass-pdf-004": "本句指「從某地通過／移動的行為」。",
-        "pass-mcq-29": "「短暫、不持久的」是「passing — temporary」的用法，與本句語境不同。",
-        "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
-        "pass-mcq-32": "「時間持續向前流逝的過程」是「passage of time」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。"
+        "pass-pdf-004": "本句的「passage」指「從某地通過／移動的行為」。",
+        "pass-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-pdf-004"
     },
@@ -3474,11 +3158,9 @@ export default {
       "masked": "Read the ____ and answer the questions.",
       "options": [
         "pass-mcq-30",
+        "pass-mcq-27",
         "pass-mcq-29",
-        "pass-mcq-31",
-        "pass-mcq-28",
-        "pass-mcq-32",
-        "pass-mcq-27"
+        "pass-mcq-33"
       ],
       "explanation": "本句的「passage」指「書、文章或閱讀材料中的一段連續文字」。",
       "sentenceIndex": 83,
@@ -3487,12 +3169,10 @@ export default {
         "passage"
       ],
       "optionReasons": {
-        "pass-mcq-30": "本句指「書、文章或閱讀材料中的一段連續文字」。",
-        "pass-mcq-29": "「短暫、不持久的」是「passing — temporary」的用法，與本句語境不同。",
-        "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
-        "pass-mcq-32": "「時間持續向前流逝的過程」是「passage of time」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。"
+        "pass-mcq-30": "本句的「passage」指「書、文章或閱讀材料中的一段連續文字」。",
+        "pass-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-30"
     },
@@ -3504,11 +3184,9 @@ export default {
       "masked": "She quoted a short ____ from the book.",
       "options": [
         "pass-mcq-30",
-        "pass-mcq-29",
         "pass-mcq-31",
-        "pass-mcq-28",
-        "pass-mcq-32",
-        "pass-mcq-27"
+        "pass-pdf-003",
+        "pass-mcq-28"
       ],
       "explanation": "本句的「passage」指「書、文章或閱讀材料中的一段連續文字」。",
       "sentenceIndex": 84,
@@ -3517,12 +3195,10 @@ export default {
         "passage"
       ],
       "optionReasons": {
-        "pass-mcq-30": "本句指「書、文章或閱讀材料中的一段連續文字」。",
-        "pass-mcq-29": "「短暫、不持久的」是「passing — temporary」的用法，與本句語境不同。",
-        "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。",
-        "pass-mcq-32": "「時間持續向前流逝的過程」是「passage of time」的用法，與本句語境不同。",
-        "pass-mcq-27": "「經檢查後被認為足夠好／符合要求」是「pass muster」的用法，與本句語境不同。"
+        "pass-mcq-30": "本句的「passage」指「書、文章或閱讀材料中的一段連續文字」。",
+        "pass-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-30"
     },
@@ -3534,11 +3210,9 @@ export default {
       "masked": "A narrow ____ led to the room.",
       "options": [
         "pass-mcq-31",
-        "pass-mcq-30",
-        "pass-mcq-32",
-        "pass-mcq-29",
-        "pass-mcq-33",
-        "pass-mcq-28"
+        "pass-mcq-26",
+        "pass-mcq-13",
+        "pass-mcq-23"
       ],
       "explanation": "本句的「passage」指「供人／物從一處通往另一處的狹窄通路」。",
       "sentenceIndex": 85,
@@ -3547,12 +3221,10 @@ export default {
         "passage"
       ],
       "optionReasons": {
-        "pass-mcq-31": "本句指「供人／物從一處通往另一處的狹窄通路」。",
-        "pass-mcq-30": "「書、文章或閱讀材料中的一段連續文字」是「passage — text」的用法，與本句語境不同。",
-        "pass-mcq-32": "「時間持續向前流逝的過程」是「passage of time」的用法，與本句語境不同。",
-        "pass-mcq-29": "「短暫、不持久的」是「passing — temporary」的用法，與本句語境不同。",
-        "pass-mcq-33": "「法案／法律正式獲得批准的過程」是「passage of legislation」的用法，與本句語境不同。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。"
+        "pass-mcq-31": "本句的「passage」指「供人／物從一處通往另一處的狹窄通路」。",
+        "pass-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-31"
     },
@@ -3564,11 +3236,9 @@ export default {
       "masked": "The ____ was too narrow for the furniture.",
       "options": [
         "pass-mcq-31",
-        "pass-mcq-30",
-        "pass-mcq-32",
-        "pass-mcq-29",
-        "pass-mcq-33",
-        "pass-mcq-28"
+        "pass-pdf-001",
+        "pass-mcq-23",
+        "pass-reviewed-058e151ad4"
       ],
       "explanation": "本句的「passage」指「供人／物從一處通往另一處的狹窄通路」。",
       "sentenceIndex": 86,
@@ -3577,12 +3247,10 @@ export default {
         "passage"
       ],
       "optionReasons": {
-        "pass-mcq-31": "本句指「供人／物從一處通往另一處的狹窄通路」。",
-        "pass-mcq-30": "「書、文章或閱讀材料中的一段連續文字」是「passage — text」的用法，與本句語境不同。",
-        "pass-mcq-32": "「時間持續向前流逝的過程」是「passage of time」的用法，與本句語境不同。",
-        "pass-mcq-29": "「短暫、不持久的」是「passing — temporary」的用法，與本句語境不同。",
-        "pass-mcq-33": "「法案／法律正式獲得批准的過程」是「passage of legislation」的用法，與本句語境不同。",
-        "pass-mcq-28": "「不是主要話題，只是順帶提到」是「in passing」的用法，與本句語境不同。"
+        "pass-mcq-31": "本句的「passage」指「供人／物從一處通往另一處的狹窄通路」。",
+        "pass-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pass-reviewed-058e151ad4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-31"
     },
@@ -3595,10 +3263,8 @@ export default {
       "options": [
         "pass-mcq-32",
         "pass-mcq-31",
-        "pass-mcq-33",
-        "pass-mcq-30",
-        "pass-mcq-34",
-        "pass-mcq-29"
+        "pass-mcq-10",
+        "pass-mcq-21"
       ],
       "explanation": "本句的「passage of time」指「時間持續向前流逝的過程」。",
       "sentenceIndex": 87,
@@ -3607,12 +3273,10 @@ export default {
         "passage of time"
       ],
       "optionReasons": {
-        "pass-mcq-32": "本句指「時間持續向前流逝的過程」。",
-        "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。",
-        "pass-mcq-33": "「法案／法律正式獲得批准的過程」是「passage of legislation」的用法，與本句語境不同。",
-        "pass-mcq-30": "「書、文章或閱讀材料中的一段連續文字」是「passage — text」的用法，與本句語境不同。",
-        "pass-mcq-34": "「在正式投票／審批中取得足夠支持而獲批准」是「13. pass = be officially approved（獲通過） — 通過表決」的用法，與本句語境不同。",
-        "pass-mcq-29": "「短暫、不持久的」是「passing — temporary」的用法，與本句語境不同。"
+        "pass-mcq-32": "本句的「passage of time」指「時間持續向前流逝的過程」。",
+        "pass-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-32"
     },
@@ -3624,11 +3288,9 @@ export default {
       "masked": "With the ____ of years, the memory faded.",
       "options": [
         "pass-mcq-32",
-        "pass-mcq-31",
-        "pass-mcq-33",
-        "pass-mcq-30",
-        "pass-mcq-34",
-        "pass-mcq-29"
+        "pass-mcq-17",
+        "pass-pdf-002",
+        "pass-pdf-001"
       ],
       "explanation": "本句的「passage」指「時間持續向前流逝的過程」。",
       "sentenceIndex": 88,
@@ -3637,12 +3299,10 @@ export default {
         "passage"
       ],
       "optionReasons": {
-        "pass-mcq-32": "本句指「時間持續向前流逝的過程」。",
-        "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。",
-        "pass-mcq-33": "「法案／法律正式獲得批准的過程」是「passage of legislation」的用法，與本句語境不同。",
-        "pass-mcq-30": "「書、文章或閱讀材料中的一段連續文字」是「passage — text」的用法，與本句語境不同。",
-        "pass-mcq-34": "「在正式投票／審批中取得足夠支持而獲批准」是「13. pass = be officially approved（獲通過） — 通過表決」的用法，與本句語境不同。",
-        "pass-mcq-29": "「短暫、不持久的」是「passing — temporary」的用法，與本句語境不同。"
+        "pass-mcq-32": "本句的「passage」指「時間持續向前流逝的過程」。",
+        "pass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "pass-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-32"
     },
@@ -3654,11 +3314,9 @@ export default {
       "masked": "The ____ took several months.",
       "options": [
         "pass-mcq-33",
-        "pass-mcq-32",
-        "pass-mcq-34",
-        "pass-mcq-31",
-        "pass-mcq-35",
-        "pass-mcq-30"
+        "pass-mcq-36",
+        "pass-mcq-15",
+        "pass-mcq-25"
       ],
       "explanation": "本句的「passage of the law」指「法案／法律正式獲得批准的過程」。",
       "sentenceIndex": 89,
@@ -3667,12 +3325,10 @@ export default {
         "passage of the law"
       ],
       "optionReasons": {
-        "pass-mcq-33": "本句指「法案／法律正式獲得批准的過程」。",
-        "pass-mcq-32": "「時間持續向前流逝的過程」是「passage of time」的用法，與本句語境不同。",
-        "pass-mcq-34": "「在正式投票／審批中取得足夠支持而獲批准」是「13. pass = be officially approved（獲通過） — 通過表決」的用法，與本句語境不同。",
-        "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。",
-        "pass-mcq-35": "「某種情緒、狀態、危機等隨時間消失／不再持續」是「16. pass = come to an end / disappear with time（過去；消退） — 消逝；過去」的用法，與本句語境不同。",
-        "pass-mcq-30": "「書、文章或閱讀材料中的一段連續文字」是「passage — text」的用法，與本句語境不同。"
+        "pass-mcq-33": "本句的「passage of the law」指「法案／法律正式獲得批准的過程」。",
+        "pass-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-33"
     },
@@ -3684,11 +3340,9 @@ export default {
       "masked": "They celebrated the ____ of the bill.",
       "options": [
         "pass-mcq-33",
-        "pass-mcq-32",
-        "pass-mcq-34",
-        "pass-mcq-31",
-        "pass-mcq-35",
-        "pass-mcq-30"
+        "pass-mcq-36",
+        "pass-mcq-10",
+        "pass-mcq-31"
       ],
       "explanation": "本句的「passage」指「法案／法律正式獲得批准的過程」。",
       "sentenceIndex": 90,
@@ -3697,12 +3351,10 @@ export default {
         "passage"
       ],
       "optionReasons": {
-        "pass-mcq-33": "本句指「法案／法律正式獲得批准的過程」。",
-        "pass-mcq-32": "「時間持續向前流逝的過程」是「passage of time」的用法，與本句語境不同。",
-        "pass-mcq-34": "「在正式投票／審批中取得足夠支持而獲批准」是「13. pass = be officially approved（獲通過） — 通過表決」的用法，與本句語境不同。",
-        "pass-mcq-31": "「供人／物從一處通往另一處的狹窄通路」是「passage — corridor」的用法，與本句語境不同。",
-        "pass-mcq-35": "「某種情緒、狀態、危機等隨時間消失／不再持續」是「16. pass = come to an end / disappear with time（過去；消退） — 消逝；過去」的用法，與本句語境不同。",
-        "pass-mcq-30": "「書、文章或閱讀材料中的一段連續文字」是「passage — text」的用法，與本句語境不同。"
+        "pass-mcq-33": "本句的「passage」指「法案／法律正式獲得批准的過程」。",
+        "pass-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pass-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pass-mcq-33"
     }
@@ -3714,5 +3366,7 @@ export default {
     "sha256": "1d5b2ec441b5fda0c4f40140dc97c6c6ff83a98866607d46c52482d58c60160f",
     "pages": 36
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

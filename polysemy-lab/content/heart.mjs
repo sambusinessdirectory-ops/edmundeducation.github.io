@@ -875,11 +875,9 @@ export default {
       "masked": "My ____ would race.",
       "options": [
         "heart-mcq-01",
-        "heart-mcq-02",
-        "heart-mcq-03",
-        "heart-mcq-04",
-        "heart-mcq-05",
-        "heart-mcq-06"
+        "heart-mcq-07",
+        "heart-mcq-25",
+        "heart-mcq-34"
       ],
       "explanation": "本句的「heart」指「位於胸腔內、負責把血液泵送到全身的器官；心臟」。",
       "sentenceIndex": 0,
@@ -888,12 +886,10 @@ export default {
         "heart"
       ],
       "optionReasons": {
-        "heart-mcq-01": "本句指「位於胸腔內、負責把血液泵送到全身的器官；心臟」。",
-        "heart-mcq-02": "「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」是「heart races/beats/pounds」的用法，與本句語境不同。",
-        "heart-mcq-03": "「心臟每分鐘跳動的次數；心率」是「heart rate」的用法，與本句語境不同。",
-        "heart-mcq-04": "「一個人的深層感情、情緒或內心感受」是「heart — emotions」的用法，與本句語境不同。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。"
+        "heart-mcq-01": "本句的「heart」指「位於胸腔內、負責把血液泵送到全身的器官；心臟」。",
+        "heart-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-01"
     },
@@ -905,11 +901,9 @@ export default {
       "masked": "The ____ pumps blood around the body.",
       "options": [
         "heart-mcq-01",
-        "heart-mcq-02",
-        "heart-mcq-03",
-        "heart-mcq-04",
-        "heart-mcq-05",
-        "heart-mcq-06"
+        "heart-mcq-24",
+        "heart-mcq-31",
+        "heart-mcq-34"
       ],
       "explanation": "本句的「heart」指「位於胸腔內、負責把血液泵送到全身的器官；心臟」。",
       "sentenceIndex": 1,
@@ -918,12 +912,10 @@ export default {
         "heart"
       ],
       "optionReasons": {
-        "heart-mcq-01": "本句指「位於胸腔內、負責把血液泵送到全身的器官；心臟」。",
-        "heart-mcq-02": "「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」是「heart races/beats/pounds」的用法，與本句語境不同。",
-        "heart-mcq-03": "「心臟每分鐘跳動的次數；心率」是「heart rate」的用法，與本句語境不同。",
-        "heart-mcq-04": "「一個人的深層感情、情緒或內心感受」是「heart — emotions」的用法，與本句語境不同。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。"
+        "heart-mcq-01": "本句的「heart」指「位於胸腔內、負責把血液泵送到全身的器官；心臟」。",
+        "heart-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-01"
     },
@@ -935,11 +927,9 @@ export default {
       "masked": "Exercise can strengthen the ____.",
       "options": [
         "heart-mcq-01",
-        "heart-mcq-02",
-        "heart-mcq-03",
-        "heart-mcq-04",
-        "heart-mcq-05",
-        "heart-mcq-06"
+        "heart-mcq-25",
+        "heart-mcq-34",
+        "heart-mcq-31"
       ],
       "explanation": "本句的「heart」指「位於胸腔內、負責把血液泵送到全身的器官；心臟」。",
       "sentenceIndex": 2,
@@ -948,12 +938,10 @@ export default {
         "heart"
       ],
       "optionReasons": {
-        "heart-mcq-01": "本句指「位於胸腔內、負責把血液泵送到全身的器官；心臟」。",
-        "heart-mcq-02": "「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」是「heart races/beats/pounds」的用法，與本句語境不同。",
-        "heart-mcq-03": "「心臟每分鐘跳動的次數；心率」是「heart rate」的用法，與本句語境不同。",
-        "heart-mcq-04": "「一個人的深層感情、情緒或內心感受」是「heart — emotions」的用法，與本句語境不同。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。"
+        "heart-mcq-01": "本句的「heart」指「位於胸腔內、負責把血液泵送到全身的器官；心臟」。",
+        "heart-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-01"
     },
@@ -965,11 +953,9 @@ export default {
       "masked": "Her ____ quickly before the interview.",
       "options": [
         "heart-mcq-02",
-        "heart-mcq-01",
-        "heart-mcq-03",
-        "heart-mcq-04",
-        "heart-mcq-05",
-        "heart-mcq-06"
+        "heart-mcq-34",
+        "heart-mcq-22",
+        "heart-mcq-08"
       ],
       "explanation": "本句的「heart was beating」指「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」。",
       "sentenceIndex": 3,
@@ -978,12 +964,10 @@ export default {
         "heart was beating"
       ],
       "optionReasons": {
-        "heart-mcq-02": "本句指「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」。",
-        "heart-mcq-01": "「位於胸腔內、負責把血液泵送到全身的器官；心臟」是「heart — physical organ」的用法，與本句語境不同。",
-        "heart-mcq-03": "「心臟每分鐘跳動的次數；心率」是「heart rate」的用法，與本句語境不同。",
-        "heart-mcq-04": "「一個人的深層感情、情緒或內心感受」是「heart — emotions」的用法，與本句語境不同。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。"
+        "heart-mcq-02": "本句的「heart was beating」指「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-02"
     },
@@ -995,11 +979,9 @@ export default {
       "masked": "My ____ when they called my name.",
       "options": [
         "heart-mcq-02",
-        "heart-mcq-01",
-        "heart-mcq-03",
-        "heart-mcq-04",
-        "heart-mcq-05",
-        "heart-mcq-06"
+        "heart-mcq-21",
+        "heart-mcq-22",
+        "heart-mcq-28"
       ],
       "explanation": "本句的「heart started pounding」指「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」。",
       "sentenceIndex": 4,
@@ -1008,12 +990,10 @@ export default {
         "heart started pounding"
       ],
       "optionReasons": {
-        "heart-mcq-02": "本句指「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」。",
-        "heart-mcq-01": "「位於胸腔內、負責把血液泵送到全身的器官；心臟」是「heart — physical organ」的用法，與本句語境不同。",
-        "heart-mcq-03": "「心臟每分鐘跳動的次數；心率」是「heart rate」的用法，與本句語境不同。",
-        "heart-mcq-04": "「一個人的深層感情、情緒或內心感受」是「heart — emotions」的用法，與本句語境不同。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。"
+        "heart-mcq-02": "本句的「heart started pounding」指「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」。",
+        "heart-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-02"
     },
@@ -1025,11 +1005,9 @@ export default {
       "masked": "My ____ increased before I went on stage.",
       "options": [
         "heart-mcq-03",
-        "heart-mcq-02",
-        "heart-mcq-04",
-        "heart-mcq-01",
-        "heart-mcq-05",
-        "heart-mcq-06"
+        "heart-mcq-18",
+        "heart-mcq-34",
+        "heart-mcq-22"
       ],
       "explanation": "本句的「heart rate」指「心臟每分鐘跳動的次數；心率」。",
       "sentenceIndex": 5,
@@ -1038,12 +1016,10 @@ export default {
         "heart rate"
       ],
       "optionReasons": {
-        "heart-mcq-03": "本句指「心臟每分鐘跳動的次數；心率」。",
-        "heart-mcq-02": "「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」是「heart races/beats/pounds」的用法，與本句語境不同。",
-        "heart-mcq-04": "「一個人的深層感情、情緒或內心感受」是「heart — emotions」的用法，與本句語境不同。",
-        "heart-mcq-01": "「位於胸腔內、負責把血液泵送到全身的器官；心臟」是「heart — physical organ」的用法，與本句語境不同。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。"
+        "heart-mcq-03": "本句的「heart rate」指「心臟每分鐘跳動的次數；心率」。",
+        "heart-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-03"
     },
@@ -1055,11 +1031,9 @@ export default {
       "masked": "The device measures your ____.",
       "options": [
         "heart-mcq-03",
-        "heart-mcq-02",
-        "heart-mcq-04",
-        "heart-mcq-01",
-        "heart-mcq-05",
-        "heart-mcq-06"
+        "heart-mcq-25",
+        "heart-mcq-31",
+        "heart-mcq-22"
       ],
       "explanation": "本句的「heart rate」指「心臟每分鐘跳動的次數；心率」。",
       "sentenceIndex": 6,
@@ -1068,12 +1042,10 @@ export default {
         "heart rate"
       ],
       "optionReasons": {
-        "heart-mcq-03": "本句指「心臟每分鐘跳動的次數；心率」。",
-        "heart-mcq-02": "「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」是「heart races/beats/pounds」的用法，與本句語境不同。",
-        "heart-mcq-04": "「一個人的深層感情、情緒或內心感受」是「heart — emotions」的用法，與本句語境不同。",
-        "heart-mcq-01": "「位於胸腔內、負責把血液泵送到全身的器官；心臟」是「heart — physical organ」的用法，與本句語境不同。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。"
+        "heart-mcq-03": "本句的「heart rate」指「心臟每分鐘跳動的次數；心率」。",
+        "heart-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-03"
     },
@@ -1085,11 +1057,9 @@ export default {
       "masked": "He is being treated for a ____.",
       "options": [
         "heart-mcq-36",
-        "heart-mcq-35",
-        "heart-mcq-37",
-        "heart-mcq-34",
-        "heart-mcq-33",
-        "heart-mcq-32"
+        "heart-mcq-19",
+        "heart-mcq-11",
+        "heart-mcq-37"
       ],
       "explanation": "本句的「heart condition」指「與心臟健康、疾病或功能有關」。",
       "sentenceIndex": 7,
@@ -1098,12 +1068,10 @@ export default {
         "heart condition"
       ],
       "optionReasons": {
-        "heart-mcq-36": "本句指「與心臟健康、疾病或功能有關」。",
-        "heart-mcq-35": "「撲克牌四種花色之一；紅心」是「hearts — playing cards」的用法，與本句語境不同。",
-        "heart-mcq-37": "「我的感情想答應，但我的理智告訴我不要」是「40. Hearts = card game（紅心大戰） — Hearts 紙牌遊戲」的用法，與本句語境不同。",
-        "heart-mcq-34": "「份量足、實在而令人飽足的」是「hearty — food」的用法，與本句語境不同。",
-        "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
-        "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。"
+        "heart-mcq-36": "本句的「heart condition」指「與心臟健康、疾病或功能有關」。",
+        "heart-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-36"
     },
@@ -1115,11 +1083,9 @@ export default {
       "masked": "Regular exercise may reduce the risk of ____.",
       "options": [
         "heart-mcq-36",
-        "heart-mcq-35",
+        "heart-mcq-08",
         "heart-mcq-37",
-        "heart-mcq-34",
-        "heart-mcq-33",
-        "heart-mcq-32"
+        "heart-mcq-28"
       ],
       "explanation": "本句的「heart disease」指「與心臟健康、疾病或功能有關」。",
       "sentenceIndex": 8,
@@ -1128,12 +1094,10 @@ export default {
         "heart disease"
       ],
       "optionReasons": {
-        "heart-mcq-36": "本句指「與心臟健康、疾病或功能有關」。",
-        "heart-mcq-35": "「撲克牌四種花色之一；紅心」是「hearts — playing cards」的用法，與本句語境不同。",
-        "heart-mcq-37": "「我的感情想答應，但我的理智告訴我不要」是「40. Hearts = card game（紅心大戰） — Hearts 紙牌遊戲」的用法，與本句語境不同。",
-        "heart-mcq-34": "「份量足、實在而令人飽足的」是「hearty — food」的用法，與本句語境不同。",
-        "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
-        "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。"
+        "heart-mcq-36": "本句的「heart disease」指「與心臟健康、疾病或功能有關」。",
+        "heart-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-36"
     },
@@ -1145,11 +1109,9 @@ export default {
       "masked": "She knew in her ____ that she had made the right decision.",
       "options": [
         "heart-mcq-04",
-        "heart-mcq-03",
-        "heart-mcq-05",
-        "heart-mcq-02",
-        "heart-mcq-06",
-        "heart-mcq-01"
+        "heart-mcq-32",
+        "heart-mcq-17",
+        "heart-mcq-22"
       ],
       "explanation": "本句的「heart」指「一個人的深層感情、情緒或內心感受」。",
       "sentenceIndex": 9,
@@ -1158,12 +1120,10 @@ export default {
         "heart"
       ],
       "optionReasons": {
-        "heart-mcq-04": "本句指「一個人的深層感情、情緒或內心感受」。",
-        "heart-mcq-03": "「心臟每分鐘跳動的次數；心率」是「heart rate」的用法，與本句語境不同。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。",
-        "heart-mcq-02": "「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」是「heart races/beats/pounds」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。",
-        "heart-mcq-01": "「位於胸腔內、負責把血液泵送到全身的器官；心臟」是「heart — physical organ」的用法，與本句語境不同。"
+        "heart-mcq-04": "本句的「heart」指「一個人的深層感情、情緒或內心感受」。",
+        "heart-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-04"
     },
@@ -1175,11 +1135,9 @@ export default {
       "masked": "His words touched my ____.",
       "options": [
         "heart-mcq-04",
-        "heart-mcq-03",
-        "heart-mcq-05",
-        "heart-mcq-02",
-        "heart-mcq-06",
-        "heart-mcq-01"
+        "heart-mcq-21",
+        "heart-mcq-34",
+        "heart-mcq-25"
       ],
       "explanation": "本句的「heart」指「一個人的深層感情、情緒或內心感受」。",
       "sentenceIndex": 10,
@@ -1188,12 +1146,10 @@ export default {
         "heart"
       ],
       "optionReasons": {
-        "heart-mcq-04": "本句指「一個人的深層感情、情緒或內心感受」。",
-        "heart-mcq-03": "「心臟每分鐘跳動的次數；心率」是「heart rate」的用法，與本句語境不同。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。",
-        "heart-mcq-02": "「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」是「heart races/beats/pounds」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。",
-        "heart-mcq-01": "「位於胸腔內、負責把血液泵送到全身的器官；心臟」是「heart — physical organ」的用法，與本句語境不同。"
+        "heart-mcq-04": "本句的「heart」指「一個人的深層感情、情緒或內心感受」。",
+        "heart-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-04"
     },
@@ -1205,11 +1161,9 @@ export default {
       "masked": "Her speech came ____.",
       "options": [
         "heart-mcq-05",
-        "heart-mcq-04",
-        "heart-mcq-06",
-        "heart-mcq-03",
-        "heart-mcq-07",
-        "heart-mcq-02"
+        "heart-mcq-26",
+        "heart-mcq-17",
+        "heart-mcq-34"
       ],
       "explanation": "本句的「from the heart」指「真誠、發自內心地表達，而不是例行或虛假的」。",
       "sentenceIndex": 11,
@@ -1218,12 +1172,10 @@ export default {
         "from the heart"
       ],
       "optionReasons": {
-        "heart-mcq-05": "本句指「真誠、發自內心地表達，而不是例行或虛假的」。",
-        "heart-mcq-04": "「一個人的深層感情、情緒或內心感受」是「heart — emotions」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。",
-        "heart-mcq-03": "「心臟每分鐘跳動的次數；心率」是「heart rate」的用法，與本句語境不同。",
-        "heart-mcq-07": "「帶著非常強烈而真誠的感情、意願或投入」是「with all your heart」的用法，與本句語境不同。",
-        "heart-mcq-02": "「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」是「heart races/beats/pounds」的用法，與本句語境不同。"
+        "heart-mcq-05": "本句的「from the heart」指「真誠、發自內心地表達，而不是例行或虛假的」。",
+        "heart-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-05"
     },
@@ -1235,11 +1187,9 @@ export default {
       "masked": "I want to thank you ____.",
       "options": [
         "heart-mcq-05",
-        "heart-mcq-04",
-        "heart-mcq-06",
-        "heart-mcq-03",
-        "heart-mcq-07",
-        "heart-mcq-02"
+        "heart-mcq-17",
+        "heart-mcq-22",
+        "heart-mcq-37"
       ],
       "explanation": "本句的「from the bottom of my heart」指「真誠、發自內心地表達，而不是例行或虛假的」。",
       "sentenceIndex": 12,
@@ -1248,12 +1198,10 @@ export default {
         "from the bottom of my heart"
       ],
       "optionReasons": {
-        "heart-mcq-05": "本句指「真誠、發自內心地表達，而不是例行或虛假的」。",
-        "heart-mcq-04": "「一個人的深層感情、情緒或內心感受」是「heart — emotions」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。",
-        "heart-mcq-03": "「心臟每分鐘跳動的次數；心率」是「heart rate」的用法，與本句語境不同。",
-        "heart-mcq-07": "「帶著非常強烈而真誠的感情、意願或投入」是「with all your heart」的用法，與本句語境不同。",
-        "heart-mcq-02": "「心臟跳動速度／力度變得明顯，尤其因緊張、恐懼、興奮或運動」是「heart races/beats/pounds」的用法，與本句語境不同。"
+        "heart-mcq-05": "本句的「from the bottom of my heart」指「真誠、發自內心地表達，而不是例行或虛假的」。",
+        "heart-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-05"
     },
@@ -1265,11 +1213,9 @@ export default {
       "masked": "She offered her ____ to the team.",
       "options": [
         "heart-mcq-06",
-        "heart-mcq-05",
-        "heart-mcq-07",
-        "heart-mcq-04",
-        "heart-mcq-08",
-        "heart-mcq-03"
+        "heart-mcq-28",
+        "heart-mcq-11",
+        "heart-mcq-17"
       ],
       "explanation": "本句的「heartfelt thanks」指「感情真實而強烈、發自內心的；由衷的」。",
       "sentenceIndex": 13,
@@ -1278,12 +1224,10 @@ export default {
         "heartfelt thanks"
       ],
       "optionReasons": {
-        "heart-mcq-06": "本句指「感情真實而強烈、發自內心的；由衷的」。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。",
-        "heart-mcq-07": "「帶著非常強烈而真誠的感情、意願或投入」是「with all your heart」的用法，與本句語境不同。",
-        "heart-mcq-04": "「一個人的深層感情、情緒或內心感受」是「heart — emotions」的用法，與本句語境不同。",
-        "heart-mcq-08": "「完全真誠、毫無保留地投入、支持或贊同」是「wholehearted / wholeheartedly」的用法，與本句語境不同。",
-        "heart-mcq-03": "「心臟每分鐘跳動的次數；心率」是「heart rate」的用法，與本句語境不同。"
+        "heart-mcq-06": "本句的「heartfelt thanks」指「感情真實而強烈、發自內心的；由衷的」。",
+        "heart-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-06"
     },
@@ -1295,11 +1239,9 @@ export default {
       "masked": "Please accept my ____.",
       "options": [
         "heart-mcq-06",
-        "heart-mcq-05",
-        "heart-mcq-07",
-        "heart-mcq-04",
-        "heart-mcq-08",
-        "heart-mcq-03"
+        "heart-mcq-17",
+        "heart-mcq-11",
+        "heart-mcq-28"
       ],
       "explanation": "本句的「heartfelt congratulations」指「感情真實而強烈、發自內心的；由衷的」。",
       "sentenceIndex": 14,
@@ -1308,12 +1250,10 @@ export default {
         "heartfelt congratulations"
       ],
       "optionReasons": {
-        "heart-mcq-06": "本句指「感情真實而強烈、發自內心的；由衷的」。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。",
-        "heart-mcq-07": "「帶著非常強烈而真誠的感情、意願或投入」是「with all your heart」的用法，與本句語境不同。",
-        "heart-mcq-04": "「一個人的深層感情、情緒或內心感受」是「heart — emotions」的用法，與本句語境不同。",
-        "heart-mcq-08": "「完全真誠、毫無保留地投入、支持或贊同」是「wholehearted / wholeheartedly」的用法，與本句語境不同。",
-        "heart-mcq-03": "「心臟每分鐘跳動的次數；心率」是「heart rate」的用法，與本句語境不同。"
+        "heart-mcq-06": "本句的「heartfelt congratulations」指「感情真實而強烈、發自內心的；由衷的」。",
+        "heart-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-06"
     },
@@ -1325,11 +1265,9 @@ export default {
       "masked": "She wanted ____ to succeed.",
       "options": [
         "heart-mcq-07",
-        "heart-mcq-06",
-        "heart-mcq-08",
-        "heart-mcq-05",
-        "heart-mcq-09",
-        "heart-mcq-04"
+        "heart-mcq-36",
+        "heart-mcq-17",
+        "heart-mcq-35"
       ],
       "explanation": "本句的「with all her heart」指「帶著非常強烈而真誠的感情、意願或投入」。",
       "sentenceIndex": 15,
@@ -1338,12 +1276,10 @@ export default {
         "with all her heart"
       ],
       "optionReasons": {
-        "heart-mcq-07": "本句指「帶著非常強烈而真誠的感情、意願或投入」。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。",
-        "heart-mcq-08": "「完全真誠、毫無保留地投入、支持或贊同」是「wholehearted / wholeheartedly」的用法，與本句語境不同。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。",
-        "heart-mcq-09": "「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」是「heart — courage」的用法，與本句語境不同。",
-        "heart-mcq-04": "「一個人的深層感情、情緒或內心感受」是「heart — emotions」的用法，與本句語境不同。"
+        "heart-mcq-07": "本句的「with all her heart」指「帶著非常強烈而真誠的感情、意願或投入」。",
+        "heart-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-07"
     },
@@ -1355,11 +1291,9 @@ export default {
       "masked": "I believe ____ that we can do it.",
       "options": [
         "heart-mcq-07",
-        "heart-mcq-06",
-        "heart-mcq-08",
-        "heart-mcq-05",
-        "heart-mcq-09",
-        "heart-mcq-04"
+        "heart-mcq-35",
+        "heart-mcq-17",
+        "heart-mcq-13"
       ],
       "explanation": "本句的「with all my heart」指「帶著非常強烈而真誠的感情、意願或投入」。",
       "sentenceIndex": 16,
@@ -1368,12 +1302,10 @@ export default {
         "with all my heart"
       ],
       "optionReasons": {
-        "heart-mcq-07": "本句指「帶著非常強烈而真誠的感情、意願或投入」。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。",
-        "heart-mcq-08": "「完全真誠、毫無保留地投入、支持或贊同」是「wholehearted / wholeheartedly」的用法，與本句語境不同。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。",
-        "heart-mcq-09": "「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」是「heart — courage」的用法，與本句語境不同。",
-        "heart-mcq-04": "「一個人的深層感情、情緒或內心感受」是「heart — emotions」的用法，與本句語境不同。"
+        "heart-mcq-07": "本句的「with all my heart」指「帶著非常強烈而真誠的感情、意願或投入」。",
+        "heart-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-07"
     },
@@ -1385,11 +1317,9 @@ export default {
       "masked": "She gave the idea her ____.",
       "options": [
         "heart-mcq-08",
-        "heart-mcq-07",
-        "heart-mcq-09",
-        "heart-mcq-06",
-        "heart-mcq-10",
-        "heart-mcq-05"
+        "heart-mcq-22",
+        "heart-pdf-002",
+        "heart-mcq-36"
       ],
       "explanation": "本句的「wholehearted support」指「完全真誠、毫無保留地投入、支持或贊同」。",
       "sentenceIndex": 17,
@@ -1398,12 +1328,10 @@ export default {
         "wholehearted support"
       ],
       "optionReasons": {
-        "heart-mcq-08": "本句指「完全真誠、毫無保留地投入、支持或贊同」。",
-        "heart-mcq-07": "「帶著非常強烈而真誠的感情、意願或投入」是「with all your heart」的用法，與本句語境不同。",
-        "heart-mcq-09": "「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」是「heart — courage」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。",
-        "heart-mcq-10": "「因鼓勵或希望而重新獲得勇氣／信心」是「take heart」的用法，與本句語境不同。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。"
+        "heart-mcq-08": "本句的「wholehearted support」指「完全真誠、毫無保留地投入、支持或贊同」。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "heart-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-08"
     },
@@ -1415,11 +1343,9 @@ export default {
       "masked": "I ____ with that point.",
       "options": [
         "heart-mcq-08",
-        "heart-mcq-07",
-        "heart-mcq-09",
-        "heart-mcq-06",
-        "heart-mcq-10",
-        "heart-mcq-05"
+        "heart-mcq-23",
+        "heart-mcq-02",
+        "heart-pdf-002"
       ],
       "explanation": "本句的「wholeheartedly agree」指「完全真誠、毫無保留地投入、支持或贊同」。",
       "sentenceIndex": 18,
@@ -1428,12 +1354,10 @@ export default {
         "wholeheartedly agree"
       ],
       "optionReasons": {
-        "heart-mcq-08": "本句指「完全真誠、毫無保留地投入、支持或贊同」。",
-        "heart-mcq-07": "「帶著非常強烈而真誠的感情、意願或投入」是「with all your heart」的用法，與本句語境不同。",
-        "heart-mcq-09": "「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」是「heart — courage」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。",
-        "heart-mcq-10": "「因鼓勵或希望而重新獲得勇氣／信心」是「take heart」的用法，與本句語境不同。",
-        "heart-mcq-05": "「真誠、發自內心地表達，而不是例行或虛假的」是「from the heart」的用法，與本句語境不同。"
+        "heart-mcq-08": "本句的「wholeheartedly agree」指「完全真誠、毫無保留地投入、支持或贊同」。",
+        "heart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "heart-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-08"
     },
@@ -1445,11 +1369,9 @@ export default {
       "masked": "She found the ____ to speak in front of the audience.",
       "options": [
         "heart-mcq-09",
-        "heart-mcq-08",
-        "heart-mcq-10",
-        "heart-mcq-07",
-        "heart-mcq-11",
-        "heart-mcq-06"
+        "heart-mcq-24",
+        "heart-mcq-05",
+        "heart-mcq-17"
       ],
       "explanation": "本句的「heart」指「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」。",
       "sentenceIndex": 19,
@@ -1458,12 +1380,10 @@ export default {
         "heart"
       ],
       "optionReasons": {
-        "heart-mcq-09": "本句指「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」。",
-        "heart-mcq-08": "「完全真誠、毫無保留地投入、支持或贊同」是「wholehearted / wholeheartedly」的用法，與本句語境不同。",
-        "heart-mcq-10": "「因鼓勵或希望而重新獲得勇氣／信心」是「take heart」的用法，與本句語境不同。",
-        "heart-mcq-07": "「帶著非常強烈而真誠的感情、意願或投入」是「with all your heart」的用法，與本句語境不同。",
-        "heart-mcq-11": "「因困難或失敗而失去勇氣、希望或繼續努力的動力」是「lose heart」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。"
+        "heart-mcq-09": "本句的「heart」指「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」。",
+        "heart-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-09"
     },
@@ -1475,11 +1395,9 @@ export default {
       "masked": "He did not have the ____ to continue arguing.",
       "options": [
         "heart-mcq-09",
-        "heart-mcq-08",
-        "heart-mcq-10",
-        "heart-mcq-07",
-        "heart-mcq-11",
-        "heart-mcq-06"
+        "heart-mcq-24",
+        "heart-mcq-36",
+        "heart-mcq-17"
       ],
       "explanation": "本句的「heart」指「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」。",
       "sentenceIndex": 20,
@@ -1488,12 +1406,10 @@ export default {
         "heart"
       ],
       "optionReasons": {
-        "heart-mcq-09": "本句指「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」。",
-        "heart-mcq-08": "「完全真誠、毫無保留地投入、支持或贊同」是「wholehearted / wholeheartedly」的用法，與本句語境不同。",
-        "heart-mcq-10": "「因鼓勵或希望而重新獲得勇氣／信心」是「take heart」的用法，與本句語境不同。",
-        "heart-mcq-07": "「帶著非常強烈而真誠的感情、意願或投入」是「with all your heart」的用法，與本句語境不同。",
-        "heart-mcq-11": "「因困難或失敗而失去勇氣、希望或繼續努力的動力」是「lose heart」的用法，與本句語境不同。",
-        "heart-mcq-06": "「感情真實而強烈、發自內心的；由衷的」是「heartfelt」的用法，與本句語境不同。"
+        "heart-mcq-09": "本句的「heart」指「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」。",
+        "heart-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-09"
     },
@@ -1505,11 +1421,9 @@ export default {
       "masked": "____—your presentation is improving.",
       "options": [
         "heart-mcq-10",
-        "heart-mcq-09",
-        "heart-mcq-11",
-        "heart-mcq-08",
-        "heart-mcq-12",
-        "heart-mcq-07"
+        "heart-mcq-28",
+        "heart-mcq-31",
+        "heart-mcq-34"
       ],
       "explanation": "本句的「Take heart」指「因鼓勵或希望而重新獲得勇氣／信心」。",
       "sentenceIndex": 21,
@@ -1518,12 +1432,10 @@ export default {
         "Take heart"
       ],
       "optionReasons": {
-        "heart-mcq-10": "本句指「因鼓勵或希望而重新獲得勇氣／信心」。",
-        "heart-mcq-09": "「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」是「heart — courage」的用法，與本句語境不同。",
-        "heart-mcq-11": "「因困難或失敗而失去勇氣、希望或繼續努力的動力」是「lose heart」的用法，與本句語境不同。",
-        "heart-mcq-08": "「完全真誠、毫無保留地投入、支持或贊同」是「wholehearted / wholeheartedly」的用法，與本句語境不同。",
-        "heart-mcq-12": "「因同情、不捨或情感困難而不忍心做某事」是「not have the heart to」的用法，與本句語境不同。",
-        "heart-mcq-07": "「帶著非常強烈而真誠的感情、意願或投入」是「with all your heart」的用法，與本句語境不同。"
+        "heart-mcq-10": "本句的「Take heart」指「因鼓勵或希望而重新獲得勇氣／信心」。",
+        "heart-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-10"
     },
@@ -1535,11 +1447,9 @@ export default {
       "masked": "She ____ from the positive feedback.",
       "options": [
         "heart-mcq-10",
-        "heart-mcq-09",
-        "heart-mcq-11",
-        "heart-mcq-08",
-        "heart-mcq-12",
-        "heart-mcq-07"
+        "heart-mcq-29",
+        "heart-mcq-34",
+        "heart-mcq-37"
       ],
       "explanation": "本句的「took heart」指「因鼓勵或希望而重新獲得勇氣／信心」。",
       "sentenceIndex": 22,
@@ -1548,12 +1458,10 @@ export default {
         "took heart"
       ],
       "optionReasons": {
-        "heart-mcq-10": "本句指「因鼓勵或希望而重新獲得勇氣／信心」。",
-        "heart-mcq-09": "「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」是「heart — courage」的用法，與本句語境不同。",
-        "heart-mcq-11": "「因困難或失敗而失去勇氣、希望或繼續努力的動力」是「lose heart」的用法，與本句語境不同。",
-        "heart-mcq-08": "「完全真誠、毫無保留地投入、支持或贊同」是「wholehearted / wholeheartedly」的用法，與本句語境不同。",
-        "heart-mcq-12": "「因同情、不捨或情感困難而不忍心做某事」是「not have the heart to」的用法，與本句語境不同。",
-        "heart-mcq-07": "「帶著非常強烈而真誠的感情、意願或投入」是「with all your heart」的用法，與本句語境不同。"
+        "heart-mcq-10": "本句的「took heart」指「因鼓勵或希望而重新獲得勇氣／信心」。",
+        "heart-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-10"
     },
@@ -1565,11 +1473,9 @@ export default {
       "masked": "Don’t ____ after one mistake.",
       "options": [
         "heart-mcq-11",
-        "heart-mcq-10",
-        "heart-mcq-12",
-        "heart-mcq-09",
-        "heart-mcq-13",
-        "heart-mcq-08"
+        "heart-mcq-28",
+        "heart-mcq-36",
+        "heart-mcq-06"
       ],
       "explanation": "本句的「lose heart」指「因困難或失敗而失去勇氣、希望或繼續努力的動力」。",
       "sentenceIndex": 23,
@@ -1578,12 +1484,10 @@ export default {
         "lose heart"
       ],
       "optionReasons": {
-        "heart-mcq-11": "本句指「因困難或失敗而失去勇氣、希望或繼續努力的動力」。",
-        "heart-mcq-10": "「因鼓勵或希望而重新獲得勇氣／信心」是「take heart」的用法，與本句語境不同。",
-        "heart-mcq-12": "「因同情、不捨或情感困難而不忍心做某事」是「not have the heart to」的用法，與本句語境不同。",
-        "heart-mcq-09": "「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」是「heart — courage」的用法，與本句語境不同。",
-        "heart-mcq-13": "「一個人的善良、同情心和關懷別人的本性」是「heart — compassion」的用法，與本句語境不同。",
-        "heart-mcq-08": "「完全真誠、毫無保留地投入、支持或贊同」是「wholehearted / wholeheartedly」的用法，與本句語境不同。"
+        "heart-mcq-11": "本句的「lose heart」指「因困難或失敗而失去勇氣、希望或繼續努力的動力」。",
+        "heart-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-11"
     },
@@ -1595,11 +1499,9 @@ export default {
       "masked": "The team began to ____ after several failures.",
       "options": [
         "heart-mcq-11",
-        "heart-mcq-10",
-        "heart-mcq-12",
-        "heart-mcq-09",
+        "heart-mcq-35",
         "heart-mcq-13",
-        "heart-mcq-08"
+        "heart-mcq-36"
       ],
       "explanation": "本句的「lose heart」指「因困難或失敗而失去勇氣、希望或繼續努力的動力」。",
       "sentenceIndex": 24,
@@ -1608,12 +1510,10 @@ export default {
         "lose heart"
       ],
       "optionReasons": {
-        "heart-mcq-11": "本句指「因困難或失敗而失去勇氣、希望或繼續努力的動力」。",
-        "heart-mcq-10": "「因鼓勵或希望而重新獲得勇氣／信心」是「take heart」的用法，與本句語境不同。",
-        "heart-mcq-12": "「因同情、不捨或情感困難而不忍心做某事」是「not have the heart to」的用法，與本句語境不同。",
-        "heart-mcq-09": "「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」是「heart — courage」的用法，與本句語境不同。",
-        "heart-mcq-13": "「一個人的善良、同情心和關懷別人的本性」是「heart — compassion」的用法，與本句語境不同。",
-        "heart-mcq-08": "「完全真誠、毫無保留地投入、支持或贊同」是「wholehearted / wholeheartedly」的用法，與本句語境不同。"
+        "heart-mcq-11": "本句的「lose heart」指「因困難或失敗而失去勇氣、希望或繼續努力的動力」。",
+        "heart-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-11"
     },
@@ -1625,11 +1525,9 @@ export default {
       "masked": "I didn’t ____ her the bad news.",
       "options": [
         "heart-pdf-001",
-        "heart-mcq-11",
-        "heart-mcq-13",
-        "heart-mcq-10",
-        "heart-mcq-14",
-        "heart-mcq-09"
+        "heart-mcq-32",
+        "heart-mcq-28",
+        "heart-mcq-22"
       ],
       "explanation": "本句的「have the heart to tell」指「有足夠的狠心／勇氣去做一件情感上令人難受的事」。",
       "sentenceIndex": 25,
@@ -1638,12 +1536,10 @@ export default {
         "have the heart to tell"
       ],
       "optionReasons": {
-        "heart-pdf-001": "本句指「有足夠的狠心／勇氣去做一件情感上令人難受的事」。",
-        "heart-mcq-11": "「因困難或失敗而失去勇氣、希望或繼續努力的動力」是「lose heart」的用法，與本句語境不同。",
-        "heart-mcq-13": "「一個人的善良、同情心和關懷別人的本性」是「heart — compassion」的用法，與本句語境不同。",
-        "heart-mcq-10": "「因鼓勵或希望而重新獲得勇氣／信心」是「take heart」的用法，與本句語境不同。",
-        "heart-mcq-14": "「缺乏同情心、關懷或對別人感受的體諒；無情的」是「heartless」的用法，與本句語境不同。",
-        "heart-mcq-09": "「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」是「heart — courage」的用法，與本句語境不同。"
+        "heart-pdf-001": "本句的「have the heart to tell」指「有足夠的狠心／勇氣去做一件情感上令人難受的事」。",
+        "heart-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-pdf-001"
     },
@@ -1655,11 +1551,9 @@ export default {
       "masked": "How could he ____ leave them like that?",
       "options": [
         "heart-pdf-001",
-        "heart-mcq-11",
-        "heart-mcq-13",
-        "heart-mcq-10",
-        "heart-mcq-14",
-        "heart-mcq-09"
+        "heart-mcq-22",
+        "heart-mcq-32",
+        "heart-mcq-28"
       ],
       "explanation": "本句的「have the heart to」指「有足夠的狠心／勇氣去做一件情感上令人難受的事」。",
       "sentenceIndex": 26,
@@ -1668,12 +1562,10 @@ export default {
         "have the heart to"
       ],
       "optionReasons": {
-        "heart-pdf-001": "本句指「有足夠的狠心／勇氣去做一件情感上令人難受的事」。",
-        "heart-mcq-11": "「因困難或失敗而失去勇氣、希望或繼續努力的動力」是「lose heart」的用法，與本句語境不同。",
-        "heart-mcq-13": "「一個人的善良、同情心和關懷別人的本性」是「heart — compassion」的用法，與本句語境不同。",
-        "heart-mcq-10": "「因鼓勵或希望而重新獲得勇氣／信心」是「take heart」的用法，與本句語境不同。",
-        "heart-mcq-14": "「缺乏同情心、關懷或對別人感受的體諒；無情的」是「heartless」的用法，與本句語境不同。",
-        "heart-mcq-09": "「面對困難、恐懼或壓力所需要的勇氣、精神力量或決心」是「heart — courage」的用法，與本句語境不同。"
+        "heart-pdf-001": "本句的「have the heart to」指「有足夠的狠心／勇氣去做一件情感上令人難受的事」。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-pdf-001"
     },
@@ -1685,11 +1577,9 @@ export default {
       "masked": "She has a kind ____.",
       "options": [
         "heart-mcq-13",
-        "heart-mcq-12",
-        "heart-mcq-14",
+        "heart-mcq-23",
         "heart-mcq-11",
-        "heart-mcq-15",
-        "heart-mcq-10"
+        "heart-mcq-37"
       ],
       "explanation": "本句的「heart」指「一個人的善良、同情心和關懷別人的本性」。",
       "sentenceIndex": 27,
@@ -1698,12 +1588,10 @@ export default {
         "heart"
       ],
       "optionReasons": {
-        "heart-mcq-13": "本句指「一個人的善良、同情心和關懷別人的本性」。",
-        "heart-mcq-12": "「因同情、不捨或情感困難而不忍心做某事」是「not have the heart to」的用法，與本句語境不同。",
-        "heart-mcq-14": "「缺乏同情心、關懷或對別人感受的體諒；無情的」是「heartless」的用法，與本句語境不同。",
-        "heart-mcq-11": "「因困難或失敗而失去勇氣、希望或繼續努力的動力」是「lose heart」的用法，與本句語境不同。",
-        "heart-mcq-15": "「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」是「heart — centre/core」的用法，與本句語境不同。",
-        "heart-mcq-10": "「因鼓勵或希望而重新獲得勇氣／信心」是「take heart」的用法，與本句語境不同。"
+        "heart-mcq-13": "本句的「heart」指「一個人的善良、同情心和關懷別人的本性」。",
+        "heart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-13"
     },
@@ -1715,11 +1603,9 @@ export default {
       "masked": "He may seem strict, but he has a good ____.",
       "options": [
         "heart-mcq-13",
-        "heart-mcq-12",
-        "heart-mcq-14",
-        "heart-mcq-11",
-        "heart-mcq-15",
-        "heart-mcq-10"
+        "heart-mcq-32",
+        "heart-mcq-23",
+        "heart-mcq-34"
       ],
       "explanation": "本句的「heart」指「一個人的善良、同情心和關懷別人的本性」。",
       "sentenceIndex": 28,
@@ -1728,12 +1614,10 @@ export default {
         "heart"
       ],
       "optionReasons": {
-        "heart-mcq-13": "本句指「一個人的善良、同情心和關懷別人的本性」。",
-        "heart-mcq-12": "「因同情、不捨或情感困難而不忍心做某事」是「not have the heart to」的用法，與本句語境不同。",
-        "heart-mcq-14": "「缺乏同情心、關懷或對別人感受的體諒；無情的」是「heartless」的用法，與本句語境不同。",
-        "heart-mcq-11": "「因困難或失敗而失去勇氣、希望或繼續努力的動力」是「lose heart」的用法，與本句語境不同。",
-        "heart-mcq-15": "「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」是「heart — centre/core」的用法，與本句語境不同。",
-        "heart-mcq-10": "「因鼓勵或希望而重新獲得勇氣／信心」是「take heart」的用法，與本句語境不同。"
+        "heart-mcq-13": "本句的「heart」指「一個人的善良、同情心和關懷別人的本性」。",
+        "heart-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-13"
     },
@@ -1745,11 +1629,9 @@ export default {
       "masked": "It would be ____ to ignore someone who needs help.",
       "options": [
         "heart-mcq-14",
-        "heart-mcq-13",
-        "heart-mcq-15",
-        "heart-mcq-12",
-        "heart-mcq-16",
-        "heart-mcq-11"
+        "heart-mcq-18",
+        "heart-mcq-11",
+        "heart-mcq-34"
       ],
       "explanation": "本句的「heartless」指「缺乏同情心、關懷或對別人感受的體諒；無情的」。",
       "sentenceIndex": 29,
@@ -1758,12 +1640,10 @@ export default {
         "heartless"
       ],
       "optionReasons": {
-        "heart-mcq-14": "本句指「缺乏同情心、關懷或對別人感受的體諒；無情的」。",
-        "heart-mcq-13": "「一個人的善良、同情心和關懷別人的本性」是「heart — compassion」的用法，與本句語境不同。",
-        "heart-mcq-15": "「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」是「heart — centre/core」的用法，與本句語境不同。",
-        "heart-mcq-12": "「因同情、不捨或情感困難而不忍心做某事」是「not have the heart to」的用法，與本句語境不同。",
-        "heart-mcq-16": "「某個地區最中央、最繁忙或最具代表性的核心地帶」是「the heart of a place」的用法，與本句語境不同。",
-        "heart-mcq-11": "「因困難或失敗而失去勇氣、希望或繼續努力的動力」是「lose heart」的用法，與本句語境不同。"
+        "heart-mcq-14": "本句的「heartless」指「缺乏同情心、關懷或對別人感受的體諒；無情的」。",
+        "heart-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-14"
     },
@@ -1775,11 +1655,9 @@ export default {
       "masked": "The decision was criticized as ____.",
       "options": [
         "heart-mcq-14",
-        "heart-mcq-13",
-        "heart-mcq-15",
-        "heart-mcq-12",
-        "heart-mcq-16",
-        "heart-mcq-11"
+        "heart-mcq-33",
+        "heart-mcq-34",
+        "heart-mcq-25"
       ],
       "explanation": "本句的「heartless」指「缺乏同情心、關懷或對別人感受的體諒；無情的」。",
       "sentenceIndex": 30,
@@ -1788,12 +1666,10 @@ export default {
         "heartless"
       ],
       "optionReasons": {
-        "heart-mcq-14": "本句指「缺乏同情心、關懷或對別人感受的體諒；無情的」。",
-        "heart-mcq-13": "「一個人的善良、同情心和關懷別人的本性」是「heart — compassion」的用法，與本句語境不同。",
-        "heart-mcq-15": "「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」是「heart — centre/core」的用法，與本句語境不同。",
-        "heart-mcq-12": "「因同情、不捨或情感困難而不忍心做某事」是「not have the heart to」的用法，與本句語境不同。",
-        "heart-mcq-16": "「某個地區最中央、最繁忙或最具代表性的核心地帶」是「the heart of a place」的用法，與本句語境不同。",
-        "heart-mcq-11": "「因困難或失敗而失去勇氣、希望或繼續努力的動力」是「lose heart」的用法，與本句語境不同。"
+        "heart-mcq-14": "本句的「heartless」指「缺乏同情心、關懷或對別人感受的體諒；無情的」。",
+        "heart-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-14"
     },
@@ -1805,11 +1681,9 @@ export default {
       "masked": "The hotel is in the ____.",
       "options": [
         "heart-mcq-15",
-        "heart-mcq-14",
-        "heart-mcq-16",
-        "heart-mcq-13",
-        "heart-mcq-17",
-        "heart-mcq-12"
+        "heart-mcq-20",
+        "heart-mcq-08",
+        "heart-mcq-34"
       ],
       "explanation": "本句的「heart of the city」指「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」。",
       "sentenceIndex": 31,
@@ -1818,12 +1692,10 @@ export default {
         "heart of the city"
       ],
       "optionReasons": {
-        "heart-mcq-15": "本句指「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」。",
-        "heart-mcq-14": "「缺乏同情心、關懷或對別人感受的體諒；無情的」是「heartless」的用法，與本句語境不同。",
-        "heart-mcq-16": "「某個地區最中央、最繁忙或最具代表性的核心地帶」是「the heart of a place」的用法，與本句語境不同。",
-        "heart-mcq-13": "「一個人的善良、同情心和關懷別人的本性」是「heart — compassion」的用法，與本句語境不同。",
-        "heart-mcq-17": "「處於某件事情最重要、最根本或最關鍵的位置」是「at the heart of」的用法，與本句語境不同。",
-        "heart-mcq-12": "「因同情、不捨或情感困難而不忍心做某事」是「not have the heart to」的用法，與本句語境不同。"
+        "heart-mcq-15": "本句的「heart of the city」指「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」。",
+        "heart-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-15"
     },
@@ -1835,11 +1707,9 @@ export default {
       "masked": "Communication is at the ____.",
       "options": [
         "heart-mcq-15",
-        "heart-mcq-14",
-        "heart-mcq-16",
-        "heart-mcq-13",
-        "heart-mcq-17",
-        "heart-mcq-12"
+        "heart-mcq-24",
+        "heart-mcq-33",
+        "heart-mcq-34"
       ],
       "explanation": "本句的「heart of good teamwork」指「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」。",
       "sentenceIndex": 32,
@@ -1848,12 +1718,10 @@ export default {
         "heart of good teamwork"
       ],
       "optionReasons": {
-        "heart-mcq-15": "本句指「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」。",
-        "heart-mcq-14": "「缺乏同情心、關懷或對別人感受的體諒；無情的」是「heartless」的用法，與本句語境不同。",
-        "heart-mcq-16": "「某個地區最中央、最繁忙或最具代表性的核心地帶」是「the heart of a place」的用法，與本句語境不同。",
-        "heart-mcq-13": "「一個人的善良、同情心和關懷別人的本性」是「heart — compassion」的用法，與本句語境不同。",
-        "heart-mcq-17": "「處於某件事情最重要、最根本或最關鍵的位置」是「at the heart of」的用法，與本句語境不同。",
-        "heart-mcq-12": "「因同情、不捨或情感困難而不忍心做某事」是「not have the heart to」的用法，與本句語境不同。"
+        "heart-mcq-15": "本句的「heart of good teamwork」指「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」。",
+        "heart-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-15"
     },
@@ -1865,11 +1733,9 @@ export default {
       "masked": "Their office is in the ____.",
       "options": [
         "heart-mcq-16",
-        "heart-mcq-15",
-        "heart-mcq-17",
-        "heart-mcq-14",
-        "heart-mcq-18",
-        "heart-mcq-13"
+        "heart-mcq-22",
+        "heart-mcq-26",
+        "heart-mcq-08"
       ],
       "explanation": "本句的「heart of the business district」指「某個地區最中央、最繁忙或最具代表性的核心地帶」。",
       "sentenceIndex": 33,
@@ -1878,12 +1744,10 @@ export default {
         "heart of the business district"
       ],
       "optionReasons": {
-        "heart-mcq-16": "本句指「某個地區最中央、最繁忙或最具代表性的核心地帶」。",
-        "heart-mcq-15": "「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」是「heart — centre/core」的用法，與本句語境不同。",
-        "heart-mcq-17": "「處於某件事情最重要、最根本或最關鍵的位置」是「at the heart of」的用法，與本句語境不同。",
-        "heart-mcq-14": "「缺乏同情心、關懷或對別人感受的體諒；無情的」是「heartless」的用法，與本句語境不同。",
-        "heart-mcq-18": "「某件事情真正最重要的問題／本質」是「heart of the matter」的用法，與本句語境不同。",
-        "heart-mcq-13": "「一個人的善良、同情心和關懷別人的本性」是「heart — compassion」的用法，與本句語境不同。"
+        "heart-mcq-16": "本句的「heart of the business district」指「某個地區最中央、最繁忙或最具代表性的核心地帶」。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-16"
     },
@@ -1895,11 +1759,9 @@ export default {
       "masked": "The restaurant is located in the ____.",
       "options": [
         "heart-mcq-16",
-        "heart-mcq-15",
-        "heart-mcq-17",
-        "heart-mcq-14",
-        "heart-mcq-18",
-        "heart-mcq-13"
+        "heart-mcq-31",
+        "heart-mcq-34",
+        "heart-mcq-20"
       ],
       "explanation": "本句的「heart of London」指「某個地區最中央、最繁忙或最具代表性的核心地帶」。",
       "sentenceIndex": 34,
@@ -1908,12 +1770,10 @@ export default {
         "heart of London"
       ],
       "optionReasons": {
-        "heart-mcq-16": "本句指「某個地區最中央、最繁忙或最具代表性的核心地帶」。",
-        "heart-mcq-15": "「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」是「heart — centre/core」的用法，與本句語境不同。",
-        "heart-mcq-17": "「處於某件事情最重要、最根本或最關鍵的位置」是「at the heart of」的用法，與本句語境不同。",
-        "heart-mcq-14": "「缺乏同情心、關懷或對別人感受的體諒；無情的」是「heartless」的用法，與本句語境不同。",
-        "heart-mcq-18": "「某件事情真正最重要的問題／本質」是「heart of the matter」的用法，與本句語境不同。",
-        "heart-mcq-13": "「一個人的善良、同情心和關懷別人的本性」是「heart — compassion」的用法，與本句語境不同。"
+        "heart-mcq-16": "本句的「heart of London」指「某個地區最中央、最繁忙或最具代表性的核心地帶」。",
+        "heart-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-16"
     },
@@ -1925,11 +1785,9 @@ export default {
       "masked": "Confidence was ____ the problem.",
       "options": [
         "heart-mcq-17",
-        "heart-mcq-16",
-        "heart-mcq-18",
-        "heart-mcq-15",
-        "heart-mcq-19",
-        "heart-mcq-14"
+        "heart-mcq-29",
+        "heart-mcq-11",
+        "heart-mcq-20"
       ],
       "explanation": "本句的「at the heart of」指「處於某件事情最重要、最根本或最關鍵的位置」。",
       "sentenceIndex": 35,
@@ -1938,12 +1796,10 @@ export default {
         "at the heart of"
       ],
       "optionReasons": {
-        "heart-mcq-17": "本句指「處於某件事情最重要、最根本或最關鍵的位置」。",
-        "heart-mcq-16": "「某個地區最中央、最繁忙或最具代表性的核心地帶」是「the heart of a place」的用法，與本句語境不同。",
-        "heart-mcq-18": "「某件事情真正最重要的問題／本質」是「heart of the matter」的用法，與本句語境不同。",
-        "heart-mcq-15": "「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」是「heart — centre/core」的用法，與本句語境不同。",
-        "heart-mcq-19": "「從一個人最真實、最根本的性格、信念或傾向來看」是「at heart」的用法，與本句語境不同。",
-        "heart-mcq-14": "「缺乏同情心、關懷或對別人感受的體諒；無情的」是「heartless」的用法，與本句語境不同。"
+        "heart-mcq-17": "本句的「at the heart of」指「處於某件事情最重要、最根本或最關鍵的位置」。",
+        "heart-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-17"
     },
@@ -1955,11 +1811,9 @@ export default {
       "masked": "Trust is ____ a strong working relationship.",
       "options": [
         "heart-mcq-17",
-        "heart-mcq-16",
-        "heart-mcq-18",
-        "heart-mcq-15",
-        "heart-mcq-19",
-        "heart-mcq-14"
+        "heart-mcq-34",
+        "heart-mcq-02",
+        "heart-mcq-32"
       ],
       "explanation": "本句的「at the heart of」指「處於某件事情最重要、最根本或最關鍵的位置」。",
       "sentenceIndex": 36,
@@ -1968,12 +1822,10 @@ export default {
         "at the heart of"
       ],
       "optionReasons": {
-        "heart-mcq-17": "本句指「處於某件事情最重要、最根本或最關鍵的位置」。",
-        "heart-mcq-16": "「某個地區最中央、最繁忙或最具代表性的核心地帶」是「the heart of a place」的用法，與本句語境不同。",
-        "heart-mcq-18": "「某件事情真正最重要的問題／本質」是「heart of the matter」的用法，與本句語境不同。",
-        "heart-mcq-15": "「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」是「heart — centre/core」的用法，與本句語境不同。",
-        "heart-mcq-19": "「從一個人最真實、最根本的性格、信念或傾向來看」是「at heart」的用法，與本句語境不同。",
-        "heart-mcq-14": "「缺乏同情心、關懷或對別人感受的體諒；無情的」是「heartless」的用法，與本句語境不同。"
+        "heart-mcq-17": "本句的「at the heart of」指「處於某件事情最重要、最根本或最關鍵的位置」。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-17"
     },
@@ -1985,11 +1837,9 @@ export default {
       "masked": "The question gets to the ____.",
       "options": [
         "heart-mcq-18",
-        "heart-mcq-17",
-        "heart-mcq-19",
-        "heart-mcq-16",
-        "heart-mcq-20",
-        "heart-mcq-15"
+        "heart-mcq-14",
+        "heart-mcq-03",
+        "heart-pdf-002"
       ],
       "explanation": "本句的「heart of the issue」指「某件事情真正最重要的問題／本質」。",
       "sentenceIndex": 37,
@@ -1998,12 +1848,10 @@ export default {
         "heart of the issue"
       ],
       "optionReasons": {
-        "heart-mcq-18": "本句指「某件事情真正最重要的問題／本質」。",
-        "heart-mcq-17": "「處於某件事情最重要、最根本或最關鍵的位置」是「at the heart of」的用法，與本句語境不同。",
-        "heart-mcq-19": "「從一個人最真實、最根本的性格、信念或傾向來看」是「at heart」的用法，與本句語境不同。",
-        "heart-mcq-16": "「某個地區最中央、最繁忙或最具代表性的核心地帶」是「the heart of a place」的用法，與本句語境不同。",
-        "heart-mcq-20": "「深受某事情緒影響，或非常認真地接受並記住其內容」是「take something to heart」的用法，與本句語境不同。",
-        "heart-mcq-15": "「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」是「heart — centre/core」的用法，與本句語境不同。"
+        "heart-mcq-18": "本句的「heart of the issue」指「某件事情真正最重要的問題／本質」。",
+        "heart-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "heart-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-18"
     },
@@ -2015,11 +1863,9 @@ export default {
       "masked": "We need to get to the ____.",
       "options": [
         "heart-mcq-18",
-        "heart-mcq-17",
-        "heart-mcq-19",
-        "heart-mcq-16",
-        "heart-mcq-20",
-        "heart-mcq-15"
+        "heart-mcq-02",
+        "heart-mcq-24",
+        "heart-mcq-35"
       ],
       "explanation": "本句的「heart of the problem」指「某件事情真正最重要的問題／本質」。",
       "sentenceIndex": 38,
@@ -2028,12 +1874,10 @@ export default {
         "heart of the problem"
       ],
       "optionReasons": {
-        "heart-mcq-18": "本句指「某件事情真正最重要的問題／本質」。",
-        "heart-mcq-17": "「處於某件事情最重要、最根本或最關鍵的位置」是「at the heart of」的用法，與本句語境不同。",
-        "heart-mcq-19": "「從一個人最真實、最根本的性格、信念或傾向來看」是「at heart」的用法，與本句語境不同。",
-        "heart-mcq-16": "「某個地區最中央、最繁忙或最具代表性的核心地帶」是「the heart of a place」的用法，與本句語境不同。",
-        "heart-mcq-20": "「深受某事情緒影響，或非常認真地接受並記住其內容」是「take something to heart」的用法，與本句語境不同。",
-        "heart-mcq-15": "「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」是「heart — centre/core」的用法，與本句語境不同。"
+        "heart-mcq-18": "本句的「heart of the problem」指「某件事情真正最重要的問題／本質」。",
+        "heart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-18"
     },
@@ -2045,11 +1889,9 @@ export default {
       "masked": "That is the ____.",
       "options": [
         "heart-mcq-18",
-        "heart-mcq-17",
-        "heart-mcq-19",
-        "heart-mcq-16",
-        "heart-mcq-20",
-        "heart-mcq-15"
+        "heart-mcq-14",
+        "heart-mcq-34",
+        "heart-mcq-35"
       ],
       "explanation": "本句的「heart of the matter」指「某件事情真正最重要的問題／本質」。",
       "sentenceIndex": 39,
@@ -2058,12 +1900,10 @@ export default {
         "heart of the matter"
       ],
       "optionReasons": {
-        "heart-mcq-18": "本句指「某件事情真正最重要的問題／本質」。",
-        "heart-mcq-17": "「處於某件事情最重要、最根本或最關鍵的位置」是「at the heart of」的用法，與本句語境不同。",
-        "heart-mcq-19": "「從一個人最真實、最根本的性格、信念或傾向來看」是「at heart」的用法，與本句語境不同。",
-        "heart-mcq-16": "「某個地區最中央、最繁忙或最具代表性的核心地帶」是「the heart of a place」的用法，與本句語境不同。",
-        "heart-mcq-20": "「深受某事情緒影響，或非常認真地接受並記住其內容」是「take something to heart」的用法，與本句語境不同。",
-        "heart-mcq-15": "「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」是「heart — centre/core」的用法，與本句語境不同。"
+        "heart-mcq-18": "本句的「heart of the matter」指「某件事情真正最重要的問題／本質」。",
+        "heart-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-18"
     },
@@ -2075,11 +1915,9 @@ export default {
       "masked": "The debate never reached the ____.",
       "options": [
         "heart-mcq-18",
-        "heart-mcq-17",
-        "heart-mcq-19",
-        "heart-mcq-16",
-        "heart-mcq-20",
-        "heart-mcq-15"
+        "heart-mcq-04",
+        "heart-mcq-22",
+        "heart-mcq-35"
       ],
       "explanation": "本句的「heart of the matter」指「某件事情真正最重要的問題／本質」。",
       "sentenceIndex": 40,
@@ -2088,12 +1926,10 @@ export default {
         "heart of the matter"
       ],
       "optionReasons": {
-        "heart-mcq-18": "本句指「某件事情真正最重要的問題／本質」。",
-        "heart-mcq-17": "「處於某件事情最重要、最根本或最關鍵的位置」是「at the heart of」的用法，與本句語境不同。",
-        "heart-mcq-19": "「從一個人最真實、最根本的性格、信念或傾向來看」是「at heart」的用法，與本句語境不同。",
-        "heart-mcq-16": "「某個地區最中央、最繁忙或最具代表性的核心地帶」是「the heart of a place」的用法，與本句語境不同。",
-        "heart-mcq-20": "「深受某事情緒影響，或非常認真地接受並記住其內容」是「take something to heart」的用法，與本句語境不同。",
-        "heart-mcq-15": "「某個地方最中央／活躍的部分，或某件事最重要、最根本的核心」是「heart — centre/core」的用法，與本句語境不同。"
+        "heart-mcq-18": "本句的「heart of the matter」指「某件事情真正最重要的問題／本質」。",
+        "heart-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-18"
     },
@@ -2105,11 +1941,9 @@ export default {
       "masked": "He seems serious, but he is shy ____.",
       "options": [
         "heart-mcq-19",
-        "heart-mcq-18",
-        "heart-mcq-20",
-        "heart-mcq-17",
-        "heart-mcq-21",
-        "heart-mcq-16"
+        "heart-mcq-01",
+        "heart-mcq-11",
+        "heart-mcq-35"
       ],
       "explanation": "本句的「at heart」指「從一個人最真實、最根本的性格、信念或傾向來看」。",
       "sentenceIndex": 41,
@@ -2118,12 +1952,10 @@ export default {
         "at heart"
       ],
       "optionReasons": {
-        "heart-mcq-19": "本句指「從一個人最真實、最根本的性格、信念或傾向來看」。",
-        "heart-mcq-18": "「某件事情真正最重要的問題／本質」是「heart of the matter」的用法，與本句語境不同。",
-        "heart-mcq-20": "「深受某事情緒影響，或非常認真地接受並記住其內容」是「take something to heart」的用法，與本句語境不同。",
-        "heart-mcq-17": "「處於某件事情最重要、最根本或最關鍵的位置」是「at the heart of」的用法，與本句語境不同。",
-        "heart-mcq-21": "「完全背熟，不需要看文字也能準確說出」是「learn/know by heart」的用法，與本句語境不同。",
-        "heart-mcq-16": "「某個地區最中央、最繁忙或最具代表性的核心地帶」是「the heart of a place」的用法，與本句語境不同。"
+        "heart-mcq-19": "本句的「at heart」指「從一個人最真實、最根本的性格、信念或傾向來看」。",
+        "heart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-19"
     },
@@ -2135,11 +1967,9 @@ export default {
       "masked": "She is an optimist ____.",
       "options": [
         "heart-mcq-19",
-        "heart-mcq-18",
-        "heart-mcq-20",
-        "heart-mcq-17",
-        "heart-mcq-21",
-        "heart-mcq-16"
+        "heart-mcq-09",
+        "heart-mcq-22",
+        "heart-mcq-03"
       ],
       "explanation": "本句的「at heart」指「從一個人最真實、最根本的性格、信念或傾向來看」。",
       "sentenceIndex": 42,
@@ -2148,12 +1978,10 @@ export default {
         "at heart"
       ],
       "optionReasons": {
-        "heart-mcq-19": "本句指「從一個人最真實、最根本的性格、信念或傾向來看」。",
-        "heart-mcq-18": "「某件事情真正最重要的問題／本質」是「heart of the matter」的用法，與本句語境不同。",
-        "heart-mcq-20": "「深受某事情緒影響，或非常認真地接受並記住其內容」是「take something to heart」的用法，與本句語境不同。",
-        "heart-mcq-17": "「處於某件事情最重要、最根本或最關鍵的位置」是「at the heart of」的用法，與本句語境不同。",
-        "heart-mcq-21": "「完全背熟，不需要看文字也能準確說出」是「learn/know by heart」的用法，與本句語境不同。",
-        "heart-mcq-16": "「某個地區最中央、最繁忙或最具代表性的核心地帶」是「the heart of a place」的用法，與本句語境不同。"
+        "heart-mcq-19": "本句的「at heart」指「從一個人最真實、最根本的性格、信念或傾向來看」。",
+        "heart-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-19"
     },
@@ -2165,11 +1993,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "heart-mcq-20",
-        "heart-mcq-19",
-        "heart-mcq-21",
-        "heart-mcq-18",
-        "heart-mcq-22",
-        "heart-mcq-17"
+        "heart-mcq-16",
+        "heart-mcq-03",
+        "heart-mcq-34"
       ],
       "explanation": "本句的「take the criticism too much to heart」指「深受某事情緒影響，或非常認真地接受並記住其內容」。",
       "sentenceIndex": 43,
@@ -2178,12 +2004,10 @@ export default {
         "take the criticism too much to heart"
       ],
       "optionReasons": {
-        "heart-mcq-20": "本句指「深受某事情緒影響，或非常認真地接受並記住其內容」。",
-        "heart-mcq-19": "「從一個人最真實、最根本的性格、信念或傾向來看」是「at heart」的用法，與本句語境不同。",
-        "heart-mcq-21": "「完全背熟，不需要看文字也能準確說出」是「learn/know by heart」的用法，與本句語境不同。",
-        "heart-mcq-18": "「某件事情真正最重要的問題／本質」是「heart of the matter」的用法，與本句語境不同。",
-        "heart-mcq-22": "「非常渴望某個特定結果，並把希望集中在上面」是「have/set your heart on」的用法，與本句語境不同。",
-        "heart-mcq-17": "「處於某件事情最重要、最根本或最關鍵的位置」是「at the heart of」的用法，與本句語境不同。"
+        "heart-mcq-20": "本句的「take the criticism too much to heart」指「深受某事情緒影響，或非常認真地接受並記住其內容」。",
+        "heart-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-20"
     },
@@ -2195,11 +2019,9 @@ export default {
       "masked": "She ____ and practised every day.",
       "options": [
         "heart-mcq-20",
-        "heart-mcq-19",
-        "heart-mcq-21",
-        "heart-mcq-18",
-        "heart-mcq-22",
-        "heart-mcq-17"
+        "heart-mcq-35",
+        "heart-mcq-16",
+        "heart-mcq-34"
       ],
       "explanation": "本句的「took his advice to heart」指「深受某事情緒影響，或非常認真地接受並記住其內容」。",
       "sentenceIndex": 44,
@@ -2208,12 +2030,10 @@ export default {
         "took his advice to heart"
       ],
       "optionReasons": {
-        "heart-mcq-20": "本句指「深受某事情緒影響，或非常認真地接受並記住其內容」。",
-        "heart-mcq-19": "「從一個人最真實、最根本的性格、信念或傾向來看」是「at heart」的用法，與本句語境不同。",
-        "heart-mcq-21": "「完全背熟，不需要看文字也能準確說出」是「learn/know by heart」的用法，與本句語境不同。",
-        "heart-mcq-18": "「某件事情真正最重要的問題／本質」是「heart of the matter」的用法，與本句語境不同。",
-        "heart-mcq-22": "「非常渴望某個特定結果，並把希望集中在上面」是「have/set your heart on」的用法，與本句語境不同。",
-        "heart-mcq-17": "「處於某件事情最重要、最根本或最關鍵的位置」是「at the heart of」的用法，與本句語境不同。"
+        "heart-mcq-20": "本句的「took his advice to heart」指「深受某事情緒影響，或非常認真地接受並記住其內容」。",
+        "heart-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-20"
     },
@@ -2225,11 +2045,9 @@ export default {
       "masked": "I didn’t want to learn the whole script ____.",
       "options": [
         "heart-mcq-21",
-        "heart-mcq-20",
+        "heart-mcq-03",
         "heart-mcq-22",
-        "heart-mcq-19",
-        "heart-mcq-23",
-        "heart-mcq-18"
+        "heart-mcq-25"
       ],
       "explanation": "本句的「by heart」指「完全背熟，不需要看文字也能準確說出」。",
       "sentenceIndex": 45,
@@ -2238,12 +2056,10 @@ export default {
         "by heart"
       ],
       "optionReasons": {
-        "heart-mcq-21": "本句指「完全背熟，不需要看文字也能準確說出」。",
-        "heart-mcq-20": "「深受某事情緒影響，或非常認真地接受並記住其內容」是「take something to heart」的用法，與本句語境不同。",
-        "heart-mcq-22": "「非常渴望某個特定結果，並把希望集中在上面」是「have/set your heart on」的用法，與本句語境不同。",
-        "heart-mcq-19": "「從一個人最真實、最根本的性格、信念或傾向來看」是「at heart」的用法，與本句語境不同。",
-        "heart-mcq-23": "「對原來的態度、感受或決定產生重要改變」是「a change of heart」的用法，與本句語境不同。",
-        "heart-mcq-18": "「某件事情真正最重要的問題／本質」是「heart of the matter」的用法，與本句語境不同。"
+        "heart-mcq-21": "本句的「by heart」指「完全背熟，不需要看文字也能準確說出」。",
+        "heart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-21"
     },
@@ -2255,11 +2071,9 @@ export default {
       "masked": "She knows the poem ____.",
       "options": [
         "heart-mcq-21",
-        "heart-mcq-20",
         "heart-mcq-22",
-        "heart-mcq-19",
-        "heart-mcq-23",
-        "heart-mcq-18"
+        "heart-mcq-13",
+        "heart-mcq-25"
       ],
       "explanation": "本句的「by heart」指「完全背熟，不需要看文字也能準確說出」。",
       "sentenceIndex": 46,
@@ -2268,12 +2082,10 @@ export default {
         "by heart"
       ],
       "optionReasons": {
-        "heart-mcq-21": "本句指「完全背熟，不需要看文字也能準確說出」。",
-        "heart-mcq-20": "「深受某事情緒影響，或非常認真地接受並記住其內容」是「take something to heart」的用法，與本句語境不同。",
-        "heart-mcq-22": "「非常渴望某個特定結果，並把希望集中在上面」是「have/set your heart on」的用法，與本句語境不同。",
-        "heart-mcq-19": "「從一個人最真實、最根本的性格、信念或傾向來看」是「at heart」的用法，與本句語境不同。",
-        "heart-mcq-23": "「對原來的態度、感受或決定產生重要改變」是「a change of heart」的用法，與本句語境不同。",
-        "heart-mcq-18": "「某件事情真正最重要的問題／本質」是「heart of the matter」的用法，與本句語境不同。"
+        "heart-mcq-21": "本句的「by heart」指「完全背熟，不需要看文字也能準確說出」。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-21"
     },
@@ -2285,11 +2097,9 @@ export default {
       "masked": "She had her ____ getting the promotion.",
       "options": [
         "heart-mcq-22",
-        "heart-mcq-21",
-        "heart-mcq-23",
-        "heart-mcq-20",
-        "heart-mcq-24",
-        "heart-mcq-19"
+        "heart-mcq-03",
+        "heart-mcq-19",
+        "heart-mcq-35"
       ],
       "explanation": "本句的「heart set on」指「非常渴望某個特定結果，並把希望集中在上面」。",
       "sentenceIndex": 47,
@@ -2298,12 +2108,10 @@ export default {
         "heart set on"
       ],
       "optionReasons": {
-        "heart-mcq-22": "本句指「非常渴望某個特定結果，並把希望集中在上面」。",
-        "heart-mcq-21": "「完全背熟，不需要看文字也能準確說出」是「learn/know by heart」的用法，與本句語境不同。",
-        "heart-mcq-23": "「對原來的態度、感受或決定產生重要改變」是「a change of heart」的用法，與本句語境不同。",
-        "heart-mcq-20": "「深受某事情緒影響，或非常認真地接受並記住其內容」是「take something to heart」的用法，與本句語境不同。",
-        "heart-mcq-24": "「令某人遭受非常深刻的悲傷、失望或情感痛苦」是「break someone’s heart」的用法，與本句語境不同。",
-        "heart-mcq-19": "「從一個人最真實、最根本的性格、信念或傾向來看」是「at heart」的用法，與本句語境不同。"
+        "heart-mcq-22": "本句的「heart set on」指「非常渴望某個特定結果，並把希望集中在上面」。",
+        "heart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-22"
     },
@@ -2315,11 +2123,9 @@ export default {
       "masked": "He has his ____ studying abroad.",
       "options": [
         "heart-mcq-22",
-        "heart-mcq-21",
-        "heart-mcq-23",
-        "heart-mcq-20",
-        "heart-mcq-24",
-        "heart-mcq-19"
+        "heart-mcq-17",
+        "heart-mcq-05",
+        "heart-mcq-13"
       ],
       "explanation": "本句的「heart set on」指「非常渴望某個特定結果，並把希望集中在上面」。",
       "sentenceIndex": 48,
@@ -2328,12 +2134,10 @@ export default {
         "heart set on"
       ],
       "optionReasons": {
-        "heart-mcq-22": "本句指「非常渴望某個特定結果，並把希望集中在上面」。",
-        "heart-mcq-21": "「完全背熟，不需要看文字也能準確說出」是「learn/know by heart」的用法，與本句語境不同。",
-        "heart-mcq-23": "「對原來的態度、感受或決定產生重要改變」是「a change of heart」的用法，與本句語境不同。",
-        "heart-mcq-20": "「深受某事情緒影響，或非常認真地接受並記住其內容」是「take something to heart」的用法，與本句語境不同。",
-        "heart-mcq-24": "「令某人遭受非常深刻的悲傷、失望或情感痛苦」是「break someone’s heart」的用法，與本句語境不同。",
-        "heart-mcq-19": "「從一個人最真實、最根本的性格、信念或傾向來看」是「at heart」的用法，與本句語境不同。"
+        "heart-mcq-22": "本句的「heart set on」指「非常渴望某個特定結果，並把希望集中在上面」。",
+        "heart-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-22"
     },
@@ -2345,11 +2149,9 @@ export default {
       "masked": "She ____ becoming a doctor.",
       "options": [
         "heart-mcq-22",
-        "heart-mcq-21",
-        "heart-mcq-23",
-        "heart-mcq-20",
-        "heart-mcq-24",
-        "heart-mcq-19"
+        "heart-mcq-15",
+        "heart-mcq-26",
+        "heart-mcq-36"
       ],
       "explanation": "本句的「set her heart on」指「非常渴望某個特定結果，並把希望集中在上面」。",
       "sentenceIndex": 49,
@@ -2358,12 +2160,10 @@ export default {
         "set her heart on"
       ],
       "optionReasons": {
-        "heart-mcq-22": "本句指「非常渴望某個特定結果，並把希望集中在上面」。",
-        "heart-mcq-21": "「完全背熟，不需要看文字也能準確說出」是「learn/know by heart」的用法，與本句語境不同。",
-        "heart-mcq-23": "「對原來的態度、感受或決定產生重要改變」是「a change of heart」的用法，與本句語境不同。",
-        "heart-mcq-20": "「深受某事情緒影響，或非常認真地接受並記住其內容」是「take something to heart」的用法，與本句語境不同。",
-        "heart-mcq-24": "「令某人遭受非常深刻的悲傷、失望或情感痛苦」是「break someone’s heart」的用法，與本句語境不同。",
-        "heart-mcq-19": "「從一個人最真實、最根本的性格、信念或傾向來看」是「at heart」的用法，與本句語境不同。"
+        "heart-mcq-22": "本句的「set her heart on」指「非常渴望某個特定結果，並把希望集中在上面」。",
+        "heart-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-22"
     },
@@ -2375,11 +2175,9 @@ export default {
       "masked": "Don’t ____ one option too early.",
       "options": [
         "heart-mcq-22",
-        "heart-mcq-21",
-        "heart-mcq-23",
-        "heart-mcq-20",
-        "heart-mcq-24",
-        "heart-mcq-19"
+        "heart-mcq-37",
+        "heart-mcq-18",
+        "heart-mcq-01"
       ],
       "explanation": "本句的「set your heart on」指「非常渴望某個特定結果，並把希望集中在上面」。",
       "sentenceIndex": 50,
@@ -2388,12 +2186,10 @@ export default {
         "set your heart on"
       ],
       "optionReasons": {
-        "heart-mcq-22": "本句指「非常渴望某個特定結果，並把希望集中在上面」。",
-        "heart-mcq-21": "「完全背熟，不需要看文字也能準確說出」是「learn/know by heart」的用法，與本句語境不同。",
-        "heart-mcq-23": "「對原來的態度、感受或決定產生重要改變」是「a change of heart」的用法，與本句語境不同。",
-        "heart-mcq-20": "「深受某事情緒影響，或非常認真地接受並記住其內容」是「take something to heart」的用法，與本句語境不同。",
-        "heart-mcq-24": "「令某人遭受非常深刻的悲傷、失望或情感痛苦」是「break someone’s heart」的用法，與本句語境不同。",
-        "heart-mcq-19": "「從一個人最真實、最根本的性格、信念或傾向來看」是「at heart」的用法，與本句語境不同。"
+        "heart-mcq-22": "本句的「set your heart on」指「非常渴望某個特定結果，並把希望集中在上面」。",
+        "heart-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-22"
     },
@@ -2405,11 +2201,9 @@ export default {
       "masked": "I almost refused the presentation, but I had a ____.",
       "options": [
         "heart-mcq-23",
-        "heart-mcq-22",
-        "heart-mcq-24",
-        "heart-mcq-21",
-        "heart-mcq-25",
-        "heart-mcq-20"
+        "heart-mcq-11",
+        "heart-mcq-35",
+        "heart-mcq-36"
       ],
       "explanation": "本句的「change of heart」指「對原來的態度、感受或決定產生重要改變」。",
       "sentenceIndex": 51,
@@ -2418,12 +2212,10 @@ export default {
         "change of heart"
       ],
       "optionReasons": {
-        "heart-mcq-23": "本句指「對原來的態度、感受或決定產生重要改變」。",
-        "heart-mcq-22": "「非常渴望某個特定結果，並把希望集中在上面」是「have/set your heart on」的用法，與本句語境不同。",
-        "heart-mcq-24": "「令某人遭受非常深刻的悲傷、失望或情感痛苦」是「break someone’s heart」的用法，與本句語境不同。",
-        "heart-mcq-21": "「完全背熟，不需要看文字也能準確說出」是「learn/know by heart」的用法，與本句語境不同。",
-        "heart-mcq-25": "「因重大失去或失望而極度悲傷的」是「heartbroken」的用法，與本句語境不同。",
-        "heart-mcq-20": "「深受某事情緒影響，或非常認真地接受並記住其內容」是「take something to heart」的用法，與本句語境不同。"
+        "heart-mcq-23": "本句的「change of heart」指「對原來的態度、感受或決定產生重要改變」。",
+        "heart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-23"
     },
@@ -2435,11 +2227,9 @@ export default {
       "masked": "The manager had a ____ and approved the plan.",
       "options": [
         "heart-mcq-23",
-        "heart-mcq-22",
-        "heart-mcq-24",
-        "heart-mcq-21",
-        "heart-mcq-25",
-        "heart-mcq-20"
+        "heart-mcq-35",
+        "heart-pdf-002",
+        "heart-mcq-27"
       ],
       "explanation": "本句的「change of heart」指「對原來的態度、感受或決定產生重要改變」。",
       "sentenceIndex": 52,
@@ -2448,12 +2238,10 @@ export default {
         "change of heart"
       ],
       "optionReasons": {
-        "heart-mcq-23": "本句指「對原來的態度、感受或決定產生重要改變」。",
-        "heart-mcq-22": "「非常渴望某個特定結果，並把希望集中在上面」是「have/set your heart on」的用法，與本句語境不同。",
-        "heart-mcq-24": "「令某人遭受非常深刻的悲傷、失望或情感痛苦」是「break someone’s heart」的用法，與本句語境不同。",
-        "heart-mcq-21": "「完全背熟，不需要看文字也能準確說出」是「learn/know by heart」的用法，與本句語境不同。",
-        "heart-mcq-25": "「因重大失去或失望而極度悲傷的」是「heartbroken」的用法，與本句語境不同。",
-        "heart-mcq-20": "「深受某事情緒影響，或非常認真地接受並記住其內容」是「take something to heart」的用法，與本句語境不同。"
+        "heart-mcq-23": "本句的「change of heart」指「對原來的態度、感受或決定產生重要改變」。",
+        "heart-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "heart-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-23"
     },
@@ -2465,11 +2253,9 @@ export default {
       "masked": "The news ____.",
       "options": [
         "heart-mcq-24",
-        "heart-mcq-23",
-        "heart-mcq-25",
-        "heart-mcq-22",
-        "heart-mcq-26",
-        "heart-mcq-21"
+        "heart-mcq-32",
+        "heart-mcq-01",
+        "heart-pdf-002"
       ],
       "explanation": "本句的「broke her heart」指「令某人遭受非常深刻的悲傷、失望或情感痛苦」。",
       "sentenceIndex": 53,
@@ -2478,12 +2264,10 @@ export default {
         "broke her heart"
       ],
       "optionReasons": {
-        "heart-mcq-24": "本句指「令某人遭受非常深刻的悲傷、失望或情感痛苦」。",
-        "heart-mcq-23": "「對原來的態度、感受或決定產生重要改變」是「a change of heart」的用法，與本句語境不同。",
-        "heart-mcq-25": "「因重大失去或失望而極度悲傷的」是「heartbroken」的用法，與本句語境不同。",
-        "heart-mcq-22": "「非常渴望某個特定結果，並把希望集中在上面」是「have/set your heart on」的用法，與本句語境不同。",
-        "heart-mcq-26": "「對某人的困難、悲傷或痛苦產生強烈同情」是「heart goes out to someone」的用法，與本句語境不同。",
-        "heart-mcq-21": "「完全背熟，不需要看文字也能準確說出」是「learn/know by heart」的用法，與本句語境不同。"
+        "heart-mcq-24": "本句的「broke her heart」指「令某人遭受非常深刻的悲傷、失望或情感痛苦」。",
+        "heart-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "heart-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-24"
     },
@@ -2495,11 +2279,9 @@ export default {
       "masked": "It would ____ to lose the business.",
       "options": [
         "heart-mcq-24",
-        "heart-mcq-23",
-        "heart-mcq-25",
-        "heart-mcq-22",
-        "heart-mcq-26",
-        "heart-mcq-21"
+        "heart-mcq-36",
+        "heart-pdf-002",
+        "heart-mcq-32"
       ],
       "explanation": "本句的「break his heart」指「令某人遭受非常深刻的悲傷、失望或情感痛苦」。",
       "sentenceIndex": 54,
@@ -2508,12 +2290,10 @@ export default {
         "break his heart"
       ],
       "optionReasons": {
-        "heart-mcq-24": "本句指「令某人遭受非常深刻的悲傷、失望或情感痛苦」。",
-        "heart-mcq-23": "「對原來的態度、感受或決定產生重要改變」是「a change of heart」的用法，與本句語境不同。",
-        "heart-mcq-25": "「因重大失去或失望而極度悲傷的」是「heartbroken」的用法，與本句語境不同。",
-        "heart-mcq-22": "「非常渴望某個特定結果，並把希望集中在上面」是「have/set your heart on」的用法，與本句語境不同。",
-        "heart-mcq-26": "「對某人的困難、悲傷或痛苦產生強烈同情」是「heart goes out to someone」的用法，與本句語境不同。",
-        "heart-mcq-21": "「完全背熟，不需要看文字也能準確說出」是「learn/know by heart」的用法，與本句語境不同。"
+        "heart-mcq-24": "本句的「break his heart」指「令某人遭受非常深刻的悲傷、失望或情感痛苦」。",
+        "heart-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "heart-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-24"
     },
@@ -2525,11 +2305,9 @@ export default {
       "masked": "She was ____ when the project was cancelled.",
       "options": [
         "heart-mcq-25",
-        "heart-mcq-24",
-        "heart-mcq-26",
-        "heart-mcq-23",
-        "heart-mcq-27",
-        "heart-mcq-22"
+        "heart-pdf-002",
+        "heart-mcq-37",
+        "heart-mcq-09"
       ],
       "explanation": "本句的「heartbroken」指「因重大失去或失望而極度悲傷的」。",
       "sentenceIndex": 55,
@@ -2538,12 +2316,10 @@ export default {
         "heartbroken"
       ],
       "optionReasons": {
-        "heart-mcq-25": "本句指「因重大失去或失望而極度悲傷的」。",
-        "heart-mcq-24": "「令某人遭受非常深刻的悲傷、失望或情感痛苦」是「break someone’s heart」的用法，與本句語境不同。",
-        "heart-mcq-26": "「對某人的困難、悲傷或痛苦產生強烈同情」是「heart goes out to someone」的用法，與本句語境不同。",
-        "heart-mcq-23": "「對原來的態度、感受或決定產生重要改變」是「a change of heart」的用法，與本句語境不同。",
-        "heart-mcq-27": "「真誠關心某人的利益、福祉及最佳結果」是「have someone’s interests at heart」的用法，與本句語境不同。",
-        "heart-mcq-22": "「非常渴望某個特定結果，並把希望集中在上面」是「have/set your heart on」的用法，與本句語境不同。"
+        "heart-mcq-25": "本句的「heartbroken」指「因重大失去或失望而極度悲傷的」。",
+        "heart-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-25"
     },
@@ -2555,11 +2331,9 @@ export default {
       "masked": "He was ____ by the news.",
       "options": [
         "heart-mcq-25",
-        "heart-mcq-24",
-        "heart-mcq-26",
-        "heart-mcq-23",
-        "heart-mcq-27",
-        "heart-mcq-22"
+        "heart-mcq-05",
+        "heart-mcq-03",
+        "heart-mcq-37"
       ],
       "explanation": "本句的「heartbroken」指「因重大失去或失望而極度悲傷的」。",
       "sentenceIndex": 56,
@@ -2568,12 +2342,10 @@ export default {
         "heartbroken"
       ],
       "optionReasons": {
-        "heart-mcq-25": "本句指「因重大失去或失望而極度悲傷的」。",
-        "heart-mcq-24": "「令某人遭受非常深刻的悲傷、失望或情感痛苦」是「break someone’s heart」的用法，與本句語境不同。",
-        "heart-mcq-26": "「對某人的困難、悲傷或痛苦產生強烈同情」是「heart goes out to someone」的用法，與本句語境不同。",
-        "heart-mcq-23": "「對原來的態度、感受或決定產生重要改變」是「a change of heart」的用法，與本句語境不同。",
-        "heart-mcq-27": "「真誠關心某人的利益、福祉及最佳結果」是「have someone’s interests at heart」的用法，與本句語境不同。",
-        "heart-mcq-22": "「非常渴望某個特定結果，並把希望集中在上面」是「have/set your heart on」的用法，與本句語境不同。"
+        "heart-mcq-25": "本句的「heartbroken」指「因重大失去或失望而極度悲傷的」。",
+        "heart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-25"
     },
@@ -2585,11 +2357,9 @@ export default {
       "masked": "My ____ everyone affected.",
       "options": [
         "heart-mcq-26",
-        "heart-mcq-25",
-        "heart-mcq-27",
-        "heart-mcq-24",
-        "heart-mcq-28",
-        "heart-mcq-23"
+        "heart-mcq-01",
+        "heart-pdf-002",
+        "heart-mcq-10"
       ],
       "explanation": "本句的「heart goes out to」指「對某人的困難、悲傷或痛苦產生強烈同情」。",
       "sentenceIndex": 57,
@@ -2598,12 +2368,10 @@ export default {
         "heart goes out to"
       ],
       "optionReasons": {
-        "heart-mcq-26": "本句指「對某人的困難、悲傷或痛苦產生強烈同情」。",
-        "heart-mcq-25": "「因重大失去或失望而極度悲傷的」是「heartbroken」的用法，與本句語境不同。",
-        "heart-mcq-27": "「真誠關心某人的利益、福祉及最佳結果」是「have someone’s interests at heart」的用法，與本句語境不同。",
-        "heart-mcq-24": "「令某人遭受非常深刻的悲傷、失望或情感痛苦」是「break someone’s heart」的用法，與本句語境不同。",
-        "heart-mcq-28": "「要求某人表現同情、善意、寬容或通融」是「have a heart」的用法，與本句語境不同。",
-        "heart-mcq-23": "「對原來的態度、感受或決定產生重要改變」是「a change of heart」的用法，與本句語境不同。"
+        "heart-mcq-26": "本句的「heart goes out to」指「對某人的困難、悲傷或痛苦產生強烈同情」。",
+        "heart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "heart-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-26"
     },
@@ -2615,11 +2383,9 @@ export default {
       "masked": "Our ____ the family.",
       "options": [
         "heart-mcq-26",
-        "heart-mcq-25",
-        "heart-mcq-27",
-        "heart-mcq-24",
-        "heart-mcq-28",
-        "heart-mcq-23"
+        "heart-mcq-03",
+        "heart-mcq-15",
+        "heart-mcq-21"
       ],
       "explanation": "本句的「hearts go out to」指「對某人的困難、悲傷或痛苦產生強烈同情」。",
       "sentenceIndex": 58,
@@ -2628,12 +2394,10 @@ export default {
         "hearts go out to"
       ],
       "optionReasons": {
-        "heart-mcq-26": "本句指「對某人的困難、悲傷或痛苦產生強烈同情」。",
-        "heart-mcq-25": "「因重大失去或失望而極度悲傷的」是「heartbroken」的用法，與本句語境不同。",
-        "heart-mcq-27": "「真誠關心某人的利益、福祉及最佳結果」是「have someone’s interests at heart」的用法，與本句語境不同。",
-        "heart-mcq-24": "「令某人遭受非常深刻的悲傷、失望或情感痛苦」是「break someone’s heart」的用法，與本句語境不同。",
-        "heart-mcq-28": "「要求某人表現同情、善意、寬容或通融」是「have a heart」的用法，與本句語境不同。",
-        "heart-mcq-23": "「對原來的態度、感受或決定產生重要改變」是「a change of heart」的用法，與本句語境不同。"
+        "heart-mcq-26": "本句的「hearts go out to」指「對某人的困難、悲傷或痛苦產生強烈同情」。",
+        "heart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-26"
     },
@@ -2645,11 +2409,9 @@ export default {
       "masked": "Your supervisor probably had your best interests ____.",
       "options": [
         "heart-mcq-27",
-        "heart-mcq-26",
-        "heart-mcq-28",
-        "heart-mcq-25",
-        "heart-mcq-29",
-        "heart-mcq-24"
+        "heart-mcq-11",
+        "heart-mcq-34",
+        "heart-mcq-23"
       ],
       "explanation": "本句的「at heart」指「真誠關心某人的利益、福祉及最佳結果」。",
       "sentenceIndex": 59,
@@ -2658,12 +2420,10 @@ export default {
         "at heart"
       ],
       "optionReasons": {
-        "heart-mcq-27": "本句指「真誠關心某人的利益、福祉及最佳結果」。",
-        "heart-mcq-26": "「對某人的困難、悲傷或痛苦產生強烈同情」是「heart goes out to someone」的用法，與本句語境不同。",
-        "heart-mcq-28": "「要求某人表現同情、善意、寬容或通融」是「have a heart」的用法，與本句語境不同。",
-        "heart-mcq-25": "「因重大失去或失望而極度悲傷的」是「heartbroken」的用法，與本句語境不同。",
-        "heart-mcq-29": "「雙方坦白分享真正感受、擔憂或私人想法的深入談話」是「heart-to-heart」的用法，與本句語境不同。",
-        "heart-mcq-24": "「令某人遭受非常深刻的悲傷、失望或情感痛苦」是「break someone’s heart」的用法，與本句語境不同。"
+        "heart-mcq-27": "本句的「at heart」指「真誠關心某人的利益、福祉及最佳結果」。",
+        "heart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-27"
     },
@@ -2675,11 +2435,9 @@ export default {
       "masked": "I know she has my best interests ____.",
       "options": [
         "heart-mcq-27",
-        "heart-mcq-26",
-        "heart-mcq-28",
-        "heart-mcq-25",
-        "heart-mcq-29",
-        "heart-mcq-24"
+        "heart-mcq-34",
+        "heart-mcq-23",
+        "heart-mcq-37"
       ],
       "explanation": "本句的「at heart」指「真誠關心某人的利益、福祉及最佳結果」。",
       "sentenceIndex": 60,
@@ -2688,12 +2446,10 @@ export default {
         "at heart"
       ],
       "optionReasons": {
-        "heart-mcq-27": "本句指「真誠關心某人的利益、福祉及最佳結果」。",
-        "heart-mcq-26": "「對某人的困難、悲傷或痛苦產生強烈同情」是「heart goes out to someone」的用法，與本句語境不同。",
-        "heart-mcq-28": "「要求某人表現同情、善意、寬容或通融」是「have a heart」的用法，與本句語境不同。",
-        "heart-mcq-25": "「因重大失去或失望而極度悲傷的」是「heartbroken」的用法，與本句語境不同。",
-        "heart-mcq-29": "「雙方坦白分享真正感受、擔憂或私人想法的深入談話」是「heart-to-heart」的用法，與本句語境不同。",
-        "heart-mcq-24": "「令某人遭受非常深刻的悲傷、失望或情感痛苦」是「break someone’s heart」的用法，與本句語境不同。"
+        "heart-mcq-27": "本句的「at heart」指「真誠關心某人的利益、福祉及最佳結果」。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-27"
     },
@@ -2705,11 +2461,9 @@ export default {
       "masked": "____—he’s already apologized.",
       "options": [
         "heart-mcq-28",
-        "heart-mcq-27",
-        "heart-mcq-29",
-        "heart-mcq-26",
-        "heart-mcq-30",
-        "heart-mcq-25"
+        "heart-mcq-10",
+        "heart-mcq-35",
+        "heart-mcq-31"
       ],
       "explanation": "本句的「Have a heart」指「要求某人表現同情、善意、寬容或通融」。",
       "sentenceIndex": 61,
@@ -2718,12 +2472,10 @@ export default {
         "Have a heart"
       ],
       "optionReasons": {
-        "heart-mcq-28": "本句指「要求某人表現同情、善意、寬容或通融」。",
-        "heart-mcq-27": "「真誠關心某人的利益、福祉及最佳結果」是「have someone’s interests at heart」的用法，與本句語境不同。",
-        "heart-mcq-29": "「雙方坦白分享真正感受、擔憂或私人想法的深入談話」是「heart-to-heart」的用法，與本句語境不同。",
-        "heart-mcq-26": "「對某人的困難、悲傷或痛苦產生強烈同情」是「heart goes out to someone」的用法，與本句語境不同。",
-        "heart-mcq-30": "「全部感情和精力；或令某群體充滿活力的核心／靈魂人物」是「heart and soul」的用法，與本句語境不同。",
-        "heart-mcq-25": "「因重大失去或失望而極度悲傷的」是「heartbroken」的用法，與本句語境不同。"
+        "heart-mcq-28": "本句的「Have a heart」指「要求某人表現同情、善意、寬容或通融」。",
+        "heart-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-28"
     },
@@ -2735,11 +2487,9 @@ export default {
       "masked": "Come on, ____ and give her another chance.",
       "options": [
         "heart-mcq-28",
-        "heart-mcq-27",
-        "heart-mcq-29",
-        "heart-mcq-26",
-        "heart-mcq-30",
-        "heart-mcq-25"
+        "heart-mcq-10",
+        "heart-mcq-34",
+        "heart-mcq-31"
       ],
       "explanation": "本句的「have a heart」指「要求某人表現同情、善意、寬容或通融」。",
       "sentenceIndex": 62,
@@ -2748,12 +2498,10 @@ export default {
         "have a heart"
       ],
       "optionReasons": {
-        "heart-mcq-28": "本句指「要求某人表現同情、善意、寬容或通融」。",
-        "heart-mcq-27": "「真誠關心某人的利益、福祉及最佳結果」是「have someone’s interests at heart」的用法，與本句語境不同。",
-        "heart-mcq-29": "「雙方坦白分享真正感受、擔憂或私人想法的深入談話」是「heart-to-heart」的用法，與本句語境不同。",
-        "heart-mcq-26": "「對某人的困難、悲傷或痛苦產生強烈同情」是「heart goes out to someone」的用法，與本句語境不同。",
-        "heart-mcq-30": "「全部感情和精力；或令某群體充滿活力的核心／靈魂人物」是「heart and soul」的用法，與本句語境不同。",
-        "heart-mcq-25": "「因重大失去或失望而極度悲傷的」是「heartbroken」的用法，與本句語境不同。"
+        "heart-mcq-28": "本句的「have a heart」指「要求某人表現同情、善意、寬容或通融」。",
+        "heart-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-28"
     },
@@ -2765,11 +2513,9 @@ export default {
       "masked": "I had a ____ with my supervisor.",
       "options": [
         "heart-mcq-29",
-        "heart-mcq-28",
-        "heart-mcq-30",
-        "heart-mcq-27",
-        "heart-mcq-31",
-        "heart-mcq-26"
+        "heart-mcq-11",
+        "heart-mcq-13",
+        "heart-mcq-16"
       ],
       "explanation": "本句的「heart-to-heart」指「雙方坦白分享真正感受、擔憂或私人想法的深入談話」。",
       "sentenceIndex": 63,
@@ -2778,12 +2524,10 @@ export default {
         "heart-to-heart"
       ],
       "optionReasons": {
-        "heart-mcq-29": "本句指「雙方坦白分享真正感受、擔憂或私人想法的深入談話」。",
-        "heart-mcq-28": "「要求某人表現同情、善意、寬容或通融」是「have a heart」的用法，與本句語境不同。",
-        "heart-mcq-30": "「全部感情和精力；或令某群體充滿活力的核心／靈魂人物」是「heart and soul」的用法，與本句語境不同。",
-        "heart-mcq-27": "「真誠關心某人的利益、福祉及最佳結果」是「have someone’s interests at heart」的用法，與本句語境不同。",
-        "heart-mcq-31": "「把大量真誠感情、熱誠和努力投入某件事情」是「put your heart into」的用法，與本句語境不同。",
-        "heart-mcq-26": "「對某人的困難、悲傷或痛苦產生強烈同情」是「heart goes out to someone」的用法，與本句語境不同。"
+        "heart-mcq-29": "本句的「heart-to-heart」指「雙方坦白分享真正感受、擔憂或私人想法的深入談話」。",
+        "heart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-29"
     },
@@ -2795,10 +2539,8 @@ export default {
       "masked": "They had a long ____.",
       "options": [
         "heart-mcq-29",
-        "heart-mcq-28",
-        "heart-mcq-30",
-        "heart-mcq-27",
-        "heart-mcq-31",
+        "heart-mcq-34",
+        "heart-mcq-17",
         "heart-mcq-26"
       ],
       "explanation": "本句的「heart-to-heart conversation」指「雙方坦白分享真正感受、擔憂或私人想法的深入談話」。",
@@ -2808,12 +2550,10 @@ export default {
         "heart-to-heart conversation"
       ],
       "optionReasons": {
-        "heart-mcq-29": "本句指「雙方坦白分享真正感受、擔憂或私人想法的深入談話」。",
-        "heart-mcq-28": "「要求某人表現同情、善意、寬容或通融」是「have a heart」的用法，與本句語境不同。",
-        "heart-mcq-30": "「全部感情和精力；或令某群體充滿活力的核心／靈魂人物」是「heart and soul」的用法，與本句語境不同。",
-        "heart-mcq-27": "「真誠關心某人的利益、福祉及最佳結果」是「have someone’s interests at heart」的用法，與本句語境不同。",
-        "heart-mcq-31": "「把大量真誠感情、熱誠和努力投入某件事情」是「put your heart into」的用法，與本句語境不同。",
-        "heart-mcq-26": "「對某人的困難、悲傷或痛苦產生強烈同情」是「heart goes out to someone」的用法，與本句語境不同。"
+        "heart-mcq-29": "本句的「heart-to-heart conversation」指「雙方坦白分享真正感受、擔憂或私人想法的深入談話」。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-29"
     },
@@ -2825,11 +2565,9 @@ export default {
       "masked": "I really ____ preparing the presentation.",
       "options": [
         "heart-mcq-31",
-        "heart-mcq-30",
-        "heart-mcq-32",
-        "heart-mcq-29",
-        "heart-mcq-33",
-        "heart-mcq-28"
+        "heart-mcq-22",
+        "heart-mcq-26",
+        "heart-pdf-002"
       ],
       "explanation": "本句的「put my heart into」指「把大量真誠感情、熱誠和努力投入某件事情」。",
       "sentenceIndex": 65,
@@ -2838,12 +2576,10 @@ export default {
         "put my heart into"
       ],
       "optionReasons": {
-        "heart-mcq-31": "本句指「把大量真誠感情、熱誠和努力投入某件事情」。",
-        "heart-mcq-30": "「全部感情和精力；或令某群體充滿活力的核心／靈魂人物」是「heart and soul」的用法，與本句語境不同。",
-        "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。",
-        "heart-mcq-29": "「雙方坦白分享真正感受、擔憂或私人想法的深入談話」是「heart-to-heart」的用法，與本句語境不同。",
-        "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
-        "heart-mcq-28": "「要求某人表現同情、善意、寬容或通融」是「have a heart」的用法，與本句語境不同。"
+        "heart-mcq-31": "本句的「put my heart into」指「把大量真誠感情、熱誠和努力投入某件事情」。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "heart-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-31"
     },
@@ -2855,11 +2591,9 @@ export default {
       "masked": "If you ____ it, people can tell.",
       "options": [
         "heart-mcq-31",
-        "heart-mcq-30",
-        "heart-mcq-32",
-        "heart-mcq-29",
-        "heart-mcq-33",
-        "heart-mcq-28"
+        "heart-mcq-22",
+        "heart-mcq-28",
+        "heart-mcq-16"
       ],
       "explanation": "本句的「put your heart into」指「把大量真誠感情、熱誠和努力投入某件事情」。",
       "sentenceIndex": 66,
@@ -2868,12 +2602,10 @@ export default {
         "put your heart into"
       ],
       "optionReasons": {
-        "heart-mcq-31": "本句指「把大量真誠感情、熱誠和努力投入某件事情」。",
-        "heart-mcq-30": "「全部感情和精力；或令某群體充滿活力的核心／靈魂人物」是「heart and soul」的用法，與本句語境不同。",
-        "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。",
-        "heart-mcq-29": "「雙方坦白分享真正感受、擔憂或私人想法的深入談話」是「heart-to-heart」的用法，與本句語境不同。",
-        "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
-        "heart-mcq-28": "「要求某人表現同情、善意、寬容或通融」是「have a heart」的用法，與本句語境不同。"
+        "heart-mcq-31": "本句的「put your heart into」指「把大量真誠感情、熱誠和努力投入某件事情」。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-31"
     },
@@ -2885,11 +2617,9 @@ export default {
       "masked": "He made a ____ to practise.",
       "options": [
         "heart-mcq-32",
-        "heart-mcq-31",
-        "heart-mcq-33",
-        "heart-mcq-30",
-        "heart-mcq-34",
-        "heart-mcq-29"
+        "heart-mcq-15",
+        "heart-mcq-13",
+        "heart-mcq-37"
       ],
       "explanation": "本句的「half-hearted attempt」指「缺乏真正熱誠、投入、努力或誠意的；敷衍的」。",
       "sentenceIndex": 67,
@@ -2898,12 +2628,10 @@ export default {
         "half-hearted attempt"
       ],
       "optionReasons": {
-        "heart-mcq-32": "本句指「缺乏真正熱誠、投入、努力或誠意的；敷衍的」。",
-        "heart-mcq-31": "「把大量真誠感情、熱誠和努力投入某件事情」是「put your heart into」的用法，與本句語境不同。",
-        "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
-        "heart-mcq-30": "「全部感情和精力；或令某群體充滿活力的核心／靈魂人物」是「heart and soul」的用法，與本句語境不同。",
-        "heart-mcq-34": "「份量足、實在而令人飽足的」是「hearty — food」的用法，與本句語境不同。",
-        "heart-mcq-29": "「雙方坦白分享真正感受、擔憂或私人想法的深入談話」是「heart-to-heart」的用法，與本句語境不同。"
+        "heart-mcq-32": "本句的「half-hearted attempt」指「缺乏真正熱誠、投入、努力或誠意的；敷衍的」。",
+        "heart-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-32"
     },
@@ -2915,11 +2643,9 @@ export default {
       "masked": "The apology sounded ____.",
       "options": [
         "heart-mcq-32",
-        "heart-mcq-31",
-        "heart-mcq-33",
-        "heart-mcq-30",
+        "heart-mcq-17",
         "heart-mcq-34",
-        "heart-mcq-29"
+        "heart-mcq-22"
       ],
       "explanation": "本句的「half-hearted」指「缺乏真正熱誠、投入、努力或誠意的；敷衍的」。",
       "sentenceIndex": 68,
@@ -2928,12 +2654,10 @@ export default {
         "half-hearted"
       ],
       "optionReasons": {
-        "heart-mcq-32": "本句指「缺乏真正熱誠、投入、努力或誠意的；敷衍的」。",
-        "heart-mcq-31": "「把大量真誠感情、熱誠和努力投入某件事情」是「put your heart into」的用法，與本句語境不同。",
-        "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
-        "heart-mcq-30": "「全部感情和精力；或令某群體充滿活力的核心／靈魂人物」是「heart and soul」的用法，與本句語境不同。",
-        "heart-mcq-34": "「份量足、實在而令人飽足的」是「hearty — food」的用法，與本句語境不同。",
-        "heart-mcq-29": "「雙方坦白分享真正感受、擔憂或私人想法的深入談話」是「heart-to-heart」的用法，與本句語境不同。"
+        "heart-mcq-32": "本句的「half-hearted」指「缺乏真正熱誠、投入、努力或誠意的；敷衍的」。",
+        "heart-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-32"
     },
@@ -2945,11 +2669,9 @@ export default {
       "masked": "The speaker received ____.",
       "options": [
         "heart-mcq-33",
-        "heart-mcq-32",
-        "heart-mcq-34",
-        "heart-mcq-31",
-        "heart-mcq-35",
-        "heart-mcq-30"
+        "heart-mcq-10",
+        "heart-mcq-15",
+        "heart-mcq-04"
       ],
       "explanation": "本句的「hearty applause」指「真誠、強烈、充滿熱情的」。",
       "sentenceIndex": 69,
@@ -2958,12 +2680,10 @@ export default {
         "hearty applause"
       ],
       "optionReasons": {
-        "heart-mcq-33": "本句指「真誠、強烈、充滿熱情的」。",
-        "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。",
-        "heart-mcq-34": "「份量足、實在而令人飽足的」是「hearty — food」的用法，與本句語境不同。",
-        "heart-mcq-31": "「把大量真誠感情、熱誠和努力投入某件事情」是「put your heart into」的用法，與本句語境不同。",
-        "heart-mcq-35": "「撲克牌四種花色之一；紅心」是「hearts — playing cards」的用法，與本句語境不同。",
-        "heart-mcq-30": "「全部感情和精力；或令某群體充滿活力的核心／靈魂人物」是「heart and soul」的用法，與本句語境不同。"
+        "heart-mcq-33": "本句的「hearty applause」指「真誠、強烈、充滿熱情的」。",
+        "heart-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-33"
     },
@@ -2975,11 +2695,9 @@ export default {
       "masked": "They gave us a ____.",
       "options": [
         "heart-mcq-33",
-        "heart-mcq-32",
-        "heart-mcq-34",
-        "heart-mcq-31",
-        "heart-mcq-35",
-        "heart-mcq-30"
+        "heart-mcq-10",
+        "heart-mcq-01",
+        "heart-mcq-23"
       ],
       "explanation": "本句的「hearty welcome」指「真誠、強烈、充滿熱情的」。",
       "sentenceIndex": 70,
@@ -2988,12 +2706,10 @@ export default {
         "hearty welcome"
       ],
       "optionReasons": {
-        "heart-mcq-33": "本句指「真誠、強烈、充滿熱情的」。",
-        "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。",
-        "heart-mcq-34": "「份量足、實在而令人飽足的」是「hearty — food」的用法，與本句語境不同。",
-        "heart-mcq-31": "「把大量真誠感情、熱誠和努力投入某件事情」是「put your heart into」的用法，與本句語境不同。",
-        "heart-mcq-35": "「撲克牌四種花色之一；紅心」是「hearts — playing cards」的用法，與本句語境不同。",
-        "heart-mcq-30": "「全部感情和精力；或令某群體充滿活力的核心／靈魂人物」是「heart and soul」的用法，與本句語境不同。"
+        "heart-mcq-33": "本句的「hearty welcome」指「真誠、強烈、充滿熱情的」。",
+        "heart-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-33"
     },
@@ -3005,11 +2721,9 @@ export default {
       "masked": "We had a ____ before the event.",
       "options": [
         "heart-mcq-34",
-        "heart-mcq-33",
-        "heart-mcq-35",
-        "heart-mcq-32",
-        "heart-mcq-36",
-        "heart-mcq-31"
+        "heart-mcq-23",
+        "heart-mcq-11",
+        "heart-mcq-28"
       ],
       "explanation": "本句的「hearty breakfast」指「份量足、實在而令人飽足的」。",
       "sentenceIndex": 71,
@@ -3018,12 +2732,10 @@ export default {
         "hearty breakfast"
       ],
       "optionReasons": {
-        "heart-mcq-34": "本句指「份量足、實在而令人飽足的」。",
-        "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
-        "heart-mcq-35": "「撲克牌四種花色之一；紅心」是「hearts — playing cards」的用法，與本句語境不同。",
-        "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。",
-        "heart-mcq-36": "「與心臟健康、疾病或功能有關」是「4. heart condition/disease/problem（心臟疾病） — 心臟疾病；心臟問題」的用法，與本句語境不同。",
-        "heart-mcq-31": "「把大量真誠感情、熱誠和努力投入某件事情」是「put your heart into」的用法，與本句語境不同。"
+        "heart-mcq-34": "本句的「hearty breakfast」指「份量足、實在而令人飽足的」。",
+        "heart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-34"
     },
@@ -3035,11 +2747,9 @@ export default {
       "masked": "The restaurant serves ____.",
       "options": [
         "heart-mcq-34",
-        "heart-mcq-33",
-        "heart-mcq-35",
-        "heart-mcq-32",
-        "heart-mcq-36",
-        "heart-mcq-31"
+        "heart-mcq-04",
+        "heart-mcq-08",
+        "heart-mcq-35"
       ],
       "explanation": "本句的「hearty meals」指「份量足、實在而令人飽足的」。",
       "sentenceIndex": 72,
@@ -3048,12 +2758,10 @@ export default {
         "hearty meals"
       ],
       "optionReasons": {
-        "heart-mcq-34": "本句指「份量足、實在而令人飽足的」。",
-        "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
-        "heart-mcq-35": "「撲克牌四種花色之一；紅心」是「hearts — playing cards」的用法，與本句語境不同。",
-        "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。",
-        "heart-mcq-36": "「與心臟健康、疾病或功能有關」是「4. heart condition/disease/problem（心臟疾病） — 心臟疾病；心臟問題」的用法，與本句語境不同。",
-        "heart-mcq-31": "「把大量真誠感情、熱誠和努力投入某件事情」是「put your heart into」的用法，與本句語境不同。"
+        "heart-mcq-34": "本句的「hearty meals」指「份量足、實在而令人飽足的」。",
+        "heart-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-34"
     },
@@ -3065,11 +2773,9 @@ export default {
       "masked": "She wore a ____ necklace.",
       "options": [
         "heart-pdf-002",
-        "heart-mcq-33",
-        "heart-mcq-35",
-        "heart-mcq-32",
-        "heart-mcq-36",
-        "heart-mcq-31"
+        "heart-mcq-23",
+        "heart-mcq-08",
+        "heart-mcq-28"
       ],
       "explanation": "本句的「heart-shaped」指「形狀像傳統心形符號的」。",
       "sentenceIndex": 73,
@@ -3078,12 +2784,10 @@ export default {
         "heart-shaped"
       ],
       "optionReasons": {
-        "heart-pdf-002": "本句指「形狀像傳統心形符號的」。",
-        "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
-        "heart-mcq-35": "「撲克牌四種花色之一；紅心」是「hearts — playing cards」的用法，與本句語境不同。",
-        "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。",
-        "heart-mcq-36": "「與心臟健康、疾病或功能有關」是「4. heart condition/disease/problem（心臟疾病） — 心臟疾病；心臟問題」的用法，與本句語境不同。",
-        "heart-mcq-31": "「把大量真誠感情、熱誠和努力投入某件事情」是「put your heart into」的用法，與本句語境不同。"
+        "heart-pdf-002": "本句的「heart-shaped」指「形狀像傳統心形符號的」。",
+        "heart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-pdf-002"
     },
@@ -3095,11 +2799,9 @@ export default {
       "masked": "The card had a ____ design.",
       "options": [
         "heart-pdf-002",
-        "heart-mcq-33",
-        "heart-mcq-35",
-        "heart-mcq-32",
-        "heart-mcq-36",
-        "heart-mcq-31"
+        "heart-mcq-19",
+        "heart-mcq-11",
+        "heart-mcq-37"
       ],
       "explanation": "本句的「heart-shaped」指「形狀像傳統心形符號的」。",
       "sentenceIndex": 74,
@@ -3108,12 +2810,10 @@ export default {
         "heart-shaped"
       ],
       "optionReasons": {
-        "heart-pdf-002": "本句指「形狀像傳統心形符號的」。",
-        "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
-        "heart-mcq-35": "「撲克牌四種花色之一；紅心」是「hearts — playing cards」的用法，與本句語境不同。",
-        "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。",
-        "heart-mcq-36": "「與心臟健康、疾病或功能有關」是「4. heart condition/disease/problem（心臟疾病） — 心臟疾病；心臟問題」的用法，與本句語境不同。",
-        "heart-mcq-31": "「把大量真誠感情、熱誠和努力投入某件事情」是「put your heart into」的用法，與本句語境不同。"
+        "heart-pdf-002": "本句的「heart-shaped」指「形狀像傳統心形符號的」。",
+        "heart-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-pdf-002"
     },
@@ -3125,11 +2825,9 @@ export default {
       "masked": "She played the ace of ____.",
       "options": [
         "heart-mcq-35",
-        "heart-mcq-34",
-        "heart-mcq-36",
-        "heart-mcq-33",
-        "heart-mcq-37",
-        "heart-mcq-32"
+        "heart-mcq-28",
+        "heart-mcq-22",
+        "heart-mcq-23"
       ],
       "explanation": "本句的「hearts」指「撲克牌四種花色之一；紅心」。",
       "sentenceIndex": 75,
@@ -3138,12 +2836,10 @@ export default {
         "hearts"
       ],
       "optionReasons": {
-        "heart-mcq-35": "本句指「撲克牌四種花色之一；紅心」。",
-        "heart-mcq-34": "「份量足、實在而令人飽足的」是「hearty — food」的用法，與本句語境不同。",
-        "heart-mcq-36": "「與心臟健康、疾病或功能有關」是「4. heart condition/disease/problem（心臟疾病） — 心臟疾病；心臟問題」的用法，與本句語境不同。",
-        "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
-        "heart-mcq-37": "「我的感情想答應，但我的理智告訴我不要」是「40. Hearts = card game（紅心大戰） — Hearts 紙牌遊戲」的用法，與本句語境不同。",
-        "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。"
+        "heart-mcq-35": "本句的「hearts」指「撲克牌四種花色之一；紅心」。",
+        "heart-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-35"
     },
@@ -3155,11 +2851,9 @@ export default {
       "masked": "He needed a ____ to complete the hand.",
       "options": [
         "heart-mcq-35",
-        "heart-mcq-34",
-        "heart-mcq-36",
-        "heart-mcq-33",
-        "heart-mcq-37",
-        "heart-mcq-32"
+        "heart-mcq-24",
+        "heart-mcq-31",
+        "heart-mcq-23"
       ],
       "explanation": "本句的「heart」指「撲克牌四種花色之一；紅心」。",
       "sentenceIndex": 76,
@@ -3168,12 +2862,10 @@ export default {
         "heart"
       ],
       "optionReasons": {
-        "heart-mcq-35": "本句指「撲克牌四種花色之一；紅心」。",
-        "heart-mcq-34": "「份量足、實在而令人飽足的」是「hearty — food」的用法，與本句語境不同。",
-        "heart-mcq-36": "「與心臟健康、疾病或功能有關」是「4. heart condition/disease/problem（心臟疾病） — 心臟疾病；心臟問題」的用法，與本句語境不同。",
-        "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
-        "heart-mcq-37": "「我的感情想答應，但我的理智告訴我不要」是「40. Hearts = card game（紅心大戰） — Hearts 紙牌遊戲」的用法，與本句語境不同。",
-        "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。"
+        "heart-mcq-35": "本句的「heart」指「撲克牌四種花色之一；紅心」。",
+        "heart-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-35"
     },
@@ -3185,11 +2877,9 @@ export default {
       "masked": "We played ____ after dinner.",
       "options": [
         "heart-mcq-37",
-        "heart-mcq-36",
-        "heart-mcq-35",
-        "heart-mcq-34",
-        "heart-mcq-33",
-        "heart-mcq-32"
+        "heart-mcq-26",
+        "heart-mcq-10",
+        "heart-mcq-05"
       ],
       "explanation": "本句的「Hearts」指「我的感情想答應，但我的理智告訴我不要」。",
       "sentenceIndex": 77,
@@ -3198,12 +2888,10 @@ export default {
         "Hearts"
       ],
       "optionReasons": {
-        "heart-mcq-37": "本句指「我的感情想答應，但我的理智告訴我不要」。",
-        "heart-mcq-36": "「與心臟健康、疾病或功能有關」是「4. heart condition/disease/problem（心臟疾病） — 心臟疾病；心臟問題」的用法，與本句語境不同。",
-        "heart-mcq-35": "「撲克牌四種花色之一；紅心」是「hearts — playing cards」的用法，與本句語境不同。",
-        "heart-mcq-34": "「份量足、實在而令人飽足的」是「hearty — food」的用法，與本句語境不同。",
-        "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
-        "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。"
+        "heart-mcq-37": "本句的「Hearts」指「我的感情想答應，但我的理智告訴我不要」。",
+        "heart-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-37"
     },
@@ -3215,11 +2903,9 @@ export default {
       "masked": "Do you know how to play ____?",
       "options": [
         "heart-mcq-37",
-        "heart-mcq-36",
-        "heart-mcq-35",
         "heart-mcq-34",
-        "heart-mcq-33",
-        "heart-mcq-32"
+        "heart-mcq-03",
+        "heart-mcq-11"
       ],
       "explanation": "本句的「Hearts」指「我的感情想答應，但我的理智告訴我不要」。",
       "sentenceIndex": 78,
@@ -3228,12 +2914,10 @@ export default {
         "Hearts"
       ],
       "optionReasons": {
-        "heart-mcq-37": "本句指「我的感情想答應，但我的理智告訴我不要」。",
-        "heart-mcq-36": "「與心臟健康、疾病或功能有關」是「4. heart condition/disease/problem（心臟疾病） — 心臟疾病；心臟問題」的用法，與本句語境不同。",
-        "heart-mcq-35": "「撲克牌四種花色之一；紅心」是「hearts — playing cards」的用法，與本句語境不同。",
-        "heart-mcq-34": "「份量足、實在而令人飽足的」是「hearty — food」的用法，與本句語境不同。",
-        "heart-mcq-33": "「真誠、強烈、充滿熱情的」是「hearty — enthusiastic」的用法，與本句語境不同。",
-        "heart-mcq-32": "「缺乏真正熱誠、投入、努力或誠意的；敷衍的」是「half-hearted」的用法，與本句語境不同。"
+        "heart-mcq-37": "本句的「Hearts」指「我的感情想答應，但我的理智告訴我不要」。",
+        "heart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "heart-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heart-mcq-37"
     }
@@ -3245,5 +2929,7 @@ export default {
     "sha256": "82fda2a533c8d104fe7119687d3fe099bfdf68e74ec164d950ebdff2bdb9a9d6",
     "pages": 31
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

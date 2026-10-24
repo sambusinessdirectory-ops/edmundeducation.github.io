@@ -275,7 +275,7 @@ export default {
     },
     {
       "id": "same-mcq-13",
-      "title": "表示自己的感受、情況或意見與對方相同",
+      "title": "自己的感受、情況或意見與對方相同",
       "form": "same here",
       "en": "same here",
       "zh": "表示自己的感受、情況或意見與對方相同",
@@ -393,11 +393,9 @@ export default {
       "masked": "We bought the ____ model of headphones.",
       "options": [
         "same-mcq-01",
-        "same-mcq-02",
-        "same-mcq-03",
-        "same-mcq-04",
         "same-mcq-05",
-        "same-mcq-06"
+        "same-mcq-04",
+        "same-mcq-11"
       ],
       "explanation": "本句的「same」指「兩個或以上的人／事物在身分、種類或特徵上相同」。",
       "sentenceIndex": 0,
@@ -406,12 +404,10 @@ export default {
         "same"
       ],
       "optionReasons": {
-        "same-mcq-01": "本句指「兩個或以上的人／事物在身分、種類或特徵上相同」。",
-        "same-mcq-02": "「指的就是同一個具體人物或事物，而不是另一個相似的」是「same — identical entity」的用法，與本句語境不同。",
-        "same-mcq-03": "「與另一個人物、事物、數值或情況相同」是「the same as」的用法，與本句語境不同。",
-        "same-mcq-04": "「經過一段時間後仍保持原狀、沒有改變」是「stay/remain the same」的用法，與本句語境不同。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。"
+        "same-mcq-01": "本句的「same」指「兩個或以上的人／事物在身分、種類或特徵上相同」。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-01"
     },
@@ -423,11 +419,9 @@ export default {
       "masked": "They were wearing the ____ jacket.",
       "options": [
         "same-mcq-01",
-        "same-mcq-02",
-        "same-mcq-03",
-        "same-mcq-04",
         "same-mcq-05",
-        "same-mcq-06"
+        "same-mcq-11",
+        "same-mcq-04"
       ],
       "explanation": "本句的「same」指「兩個或以上的人／事物在身分、種類或特徵上相同」。",
       "sentenceIndex": 1,
@@ -436,12 +430,10 @@ export default {
         "same"
       ],
       "optionReasons": {
-        "same-mcq-01": "本句指「兩個或以上的人／事物在身分、種類或特徵上相同」。",
-        "same-mcq-02": "「指的就是同一個具體人物或事物，而不是另一個相似的」是「same — identical entity」的用法，與本句語境不同。",
-        "same-mcq-03": "「與另一個人物、事物、數值或情況相同」是「the same as」的用法，與本句語境不同。",
-        "same-mcq-04": "「經過一段時間後仍保持原狀、沒有改變」是「stay/remain the same」的用法，與本句語境不同。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。"
+        "same-mcq-01": "本句的「same」指「兩個或以上的人／事物在身分、種類或特徵上相同」。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-01"
     },
@@ -453,11 +445,9 @@ export default {
       "masked": "We work in the ____ office.",
       "options": [
         "same-mcq-02",
-        "same-mcq-01",
-        "same-mcq-03",
+        "same-mcq-11",
         "same-mcq-04",
-        "same-mcq-05",
-        "same-mcq-06"
+        "same-mcq-05"
       ],
       "explanation": "本句的「same」指「指的就是同一個具體人物或事物，而不是另一個相似的」。",
       "sentenceIndex": 2,
@@ -466,12 +456,10 @@ export default {
         "same"
       ],
       "optionReasons": {
-        "same-mcq-02": "本句指「指的就是同一個具體人物或事物，而不是另一個相似的」。",
-        "same-mcq-01": "「兩個或以上的人／事物在身分、種類或特徵上相同」是「the same + noun」的用法，與本句語境不同。",
-        "same-mcq-03": "「與另一個人物、事物、數值或情況相同」是「the same as」的用法，與本句語境不同。",
-        "same-mcq-04": "「經過一段時間後仍保持原狀、沒有改變」是「stay/remain the same」的用法，與本句語境不同。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。"
+        "same-mcq-02": "本句的「same」指「指的就是同一個具體人物或事物，而不是另一個相似的」。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-02"
     },
@@ -483,11 +471,9 @@ export default {
       "masked": "She has used the ____ phone for five years.",
       "options": [
         "same-mcq-02",
-        "same-mcq-01",
-        "same-mcq-03",
         "same-mcq-04",
-        "same-mcq-05",
-        "same-mcq-06"
+        "same-mcq-11",
+        "same-mcq-05"
       ],
       "explanation": "本句的「same」指「指的就是同一個具體人物或事物，而不是另一個相似的」。",
       "sentenceIndex": 3,
@@ -496,12 +482,10 @@ export default {
         "same"
       ],
       "optionReasons": {
-        "same-mcq-02": "本句指「指的就是同一個具體人物或事物，而不是另一個相似的」。",
-        "same-mcq-01": "「兩個或以上的人／事物在身分、種類或特徵上相同」是「the same + noun」的用法，與本句語境不同。",
-        "same-mcq-03": "「與另一個人物、事物、數值或情況相同」是「the same as」的用法，與本句語境不同。",
-        "same-mcq-04": "「經過一段時間後仍保持原狀、沒有改變」是「stay/remain the same」的用法，與本句語境不同。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。"
+        "same-mcq-02": "本句的「same」指「指的就是同一個具體人物或事物，而不是另一個相似的」。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-02"
     },
@@ -513,11 +497,9 @@ export default {
       "masked": "My headphones are the ____ yours.",
       "options": [
         "same-mcq-03",
-        "same-mcq-02",
+        "same-mcq-11",
         "same-mcq-04",
-        "same-mcq-01",
-        "same-mcq-05",
-        "same-mcq-06"
+        "same-mcq-15"
       ],
       "explanation": "本句的「same as」指「與另一個人物、事物、數值或情況相同」。",
       "sentenceIndex": 4,
@@ -526,12 +508,10 @@ export default {
         "same as"
       ],
       "optionReasons": {
-        "same-mcq-03": "本句指「與另一個人物、事物、數值或情況相同」。",
-        "same-mcq-02": "「指的就是同一個具體人物或事物，而不是另一個相似的」是「same — identical entity」的用法，與本句語境不同。",
-        "same-mcq-04": "「經過一段時間後仍保持原狀、沒有改變」是「stay/remain the same」的用法，與本句語境不同。",
-        "same-mcq-01": "「兩個或以上的人／事物在身分、種類或特徵上相同」是「the same + noun」的用法，與本句語境不同。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。"
+        "same-mcq-03": "本句的「same as」指「與另一個人物、事物、數值或情況相同」。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-03"
     },
@@ -543,11 +523,9 @@ export default {
       "masked": "The price is the ____ last year.",
       "options": [
         "same-mcq-03",
-        "same-mcq-02",
         "same-mcq-04",
-        "same-mcq-01",
-        "same-mcq-05",
-        "same-mcq-06"
+        "same-mcq-11",
+        "same-mcq-15"
       ],
       "explanation": "本句的「same as」指「與另一個人物、事物、數值或情況相同」。",
       "sentenceIndex": 5,
@@ -556,12 +534,10 @@ export default {
         "same as"
       ],
       "optionReasons": {
-        "same-mcq-03": "本句指「與另一個人物、事物、數值或情況相同」。",
-        "same-mcq-02": "「指的就是同一個具體人物或事物，而不是另一個相似的」是「same — identical entity」的用法，與本句語境不同。",
-        "same-mcq-04": "「經過一段時間後仍保持原狀、沒有改變」是「stay/remain the same」的用法，與本句語境不同。",
-        "same-mcq-01": "「兩個或以上的人／事物在身分、種類或特徵上相同」是「the same + noun」的用法，與本句語境不同。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。"
+        "same-mcq-03": "本句的「same as」指「與另一個人物、事物、數值或情況相同」。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-03"
     },
@@ -573,11 +549,9 @@ export default {
       "masked": "The price has stayed the ____.",
       "options": [
         "same-mcq-04",
-        "same-mcq-03",
-        "same-mcq-05",
-        "same-mcq-02",
-        "same-mcq-06",
-        "same-mcq-01"
+        "same-mcq-15",
+        "same-mcq-14",
+        "same-mcq-08"
       ],
       "explanation": "本句的「same」指「經過一段時間後仍保持原狀、沒有改變」。",
       "sentenceIndex": 6,
@@ -586,12 +560,10 @@ export default {
         "same"
       ],
       "optionReasons": {
-        "same-mcq-04": "本句指「經過一段時間後仍保持原狀、沒有改變」。",
-        "same-mcq-03": "「與另一個人物、事物、數值或情況相同」是「the same as」的用法，與本句語境不同。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。",
-        "same-mcq-02": "「指的就是同一個具體人物或事物，而不是另一個相似的」是「same — identical entity」的用法，與本句語境不同。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。",
-        "same-mcq-01": "「兩個或以上的人／事物在身分、種類或特徵上相同」是「the same + noun」的用法，與本句語境不同。"
+        "same-mcq-04": "本句的「same」指「經過一段時間後仍保持原狀、沒有改變」。",
+        "same-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-04"
     },
@@ -603,11 +575,9 @@ export default {
       "masked": "Even after the redesign, the basic idea remained the ____.",
       "options": [
         "same-mcq-04",
-        "same-mcq-03",
-        "same-mcq-05",
-        "same-mcq-02",
-        "same-mcq-06",
-        "same-mcq-01"
+        "same-mcq-01",
+        "same-mcq-08",
+        "same-mcq-05"
       ],
       "explanation": "本句的「same」指「經過一段時間後仍保持原狀、沒有改變」。",
       "sentenceIndex": 7,
@@ -616,12 +586,10 @@ export default {
         "same"
       ],
       "optionReasons": {
-        "same-mcq-04": "本句指「經過一段時間後仍保持原狀、沒有改變」。",
-        "same-mcq-03": "「與另一個人物、事物、數值或情況相同」是「the same as」的用法，與本句語境不同。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。",
-        "same-mcq-02": "「指的就是同一個具體人物或事物，而不是另一個相似的」是「same — identical entity」的用法，與本句語境不同。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。",
-        "same-mcq-01": "「兩個或以上的人／事物在身分、種類或特徵上相同」是「the same + noun」的用法，與本句語境不同。"
+        "same-mcq-04": "本句的「same」指「經過一段時間後仍保持原狀、沒有改變」。",
+        "same-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-04"
     },
@@ -633,11 +601,9 @@ export default {
       "masked": "Both products cost the ____ amount.",
       "options": [
         "same-mcq-05",
+        "same-mcq-09",
         "same-mcq-04",
-        "same-mcq-06",
-        "same-mcq-03",
-        "same-mcq-07",
-        "same-mcq-02"
+        "same-mcq-15"
       ],
       "explanation": "本句的「same」指「數量、程度、尺寸或數值相等」。",
       "sentenceIndex": 8,
@@ -646,12 +612,10 @@ export default {
         "same"
       ],
       "optionReasons": {
-        "same-mcq-05": "本句指「數量、程度、尺寸或數值相等」。",
-        "same-mcq-04": "「經過一段時間後仍保持原狀、沒有改變」是「stay/remain the same」的用法，與本句語境不同。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。",
-        "same-mcq-03": "「與另一個人物、事物、數值或情況相同」是「the same as」的用法，與本句語境不同。",
-        "same-mcq-07": "「兩件或以上事情在同一時間發生」是「at the same time — literal」的用法，與本句語境不同。",
-        "same-mcq-02": "「指的就是同一個具體人物或事物，而不是另一個相似的」是「same — identical entity」的用法，與本句語境不同。"
+        "same-mcq-05": "本句的「same」指「數量、程度、尺寸或數值相等」。",
+        "same-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-05"
     },
@@ -663,11 +627,9 @@ export default {
       "masked": "The two batteries lasted for roughly the ____ length of time.",
       "options": [
         "same-mcq-05",
-        "same-mcq-04",
-        "same-mcq-06",
-        "same-mcq-03",
-        "same-mcq-07",
-        "same-mcq-02"
+        "same-mcq-11",
+        "same-mcq-17",
+        "same-mcq-07"
       ],
       "explanation": "本句的「same」指「數量、程度、尺寸或數值相等」。",
       "sentenceIndex": 9,
@@ -676,12 +638,10 @@ export default {
         "same"
       ],
       "optionReasons": {
-        "same-mcq-05": "本句指「數量、程度、尺寸或數值相等」。",
-        "same-mcq-04": "「經過一段時間後仍保持原狀、沒有改變」是「stay/remain the same」的用法，與本句語境不同。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。",
-        "same-mcq-03": "「與另一個人物、事物、數值或情況相同」是「the same as」的用法，與本句語境不同。",
-        "same-mcq-07": "「兩件或以上事情在同一時間發生」是「at the same time — literal」的用法，與本句語境不同。",
-        "same-mcq-02": "「指的就是同一個具體人物或事物，而不是另一個相似的」是「same — identical entity」的用法，與本句語境不同。"
+        "same-mcq-05": "本句的「same」指「數量、程度、尺寸或數值相等」。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-05"
     },
@@ -694,10 +654,8 @@ export default {
       "options": [
         "same-mcq-06",
         "same-mcq-05",
-        "same-mcq-07",
-        "same-mcq-04",
-        "same-mcq-08",
-        "same-mcq-03"
+        "same-mcq-11",
+        "same-mcq-15"
       ],
       "explanation": "本句的「same」指「不同選擇最後產生相同或沒有實質差異的結果」。",
       "sentenceIndex": 10,
@@ -706,12 +664,10 @@ export default {
         "same"
       ],
       "optionReasons": {
-        "same-mcq-06": "本句指「不同選擇最後產生相同或沒有實質差異的結果」。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。",
-        "same-mcq-07": "「兩件或以上事情在同一時間發生」是「at the same time — literal」的用法，與本句語境不同。",
-        "same-mcq-04": "「經過一段時間後仍保持原狀、沒有改變」是「stay/remain the same」的用法，與本句語境不同。",
-        "same-mcq-08": "「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」是「at the same time — discourse」的用法，與本句語境不同。",
-        "same-mcq-03": "「與另一個人物、事物、數值或情況相同」是「the same as」的用法，與本句語境不同。"
+        "same-mcq-06": "本句的「same」指「不同選擇最後產生相同或沒有實質差異的結果」。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-06"
     },
@@ -724,10 +680,8 @@ export default {
       "options": [
         "same-mcq-06",
         "same-mcq-05",
-        "same-mcq-07",
-        "same-mcq-04",
-        "same-mcq-08",
-        "same-mcq-03"
+        "same-mcq-11",
+        "same-mcq-07"
       ],
       "explanation": "本句的「same」指「不同選擇最後產生相同或沒有實質差異的結果」。",
       "sentenceIndex": 11,
@@ -736,12 +690,10 @@ export default {
         "same"
       ],
       "optionReasons": {
-        "same-mcq-06": "本句指「不同選擇最後產生相同或沒有實質差異的結果」。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。",
-        "same-mcq-07": "「兩件或以上事情在同一時間發生」是「at the same time — literal」的用法，與本句語境不同。",
-        "same-mcq-04": "「經過一段時間後仍保持原狀、沒有改變」是「stay/remain the same」的用法，與本句語境不同。",
-        "same-mcq-08": "「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」是「at the same time — discourse」的用法，與本句語境不同。",
-        "same-mcq-03": "「與另一個人物、事物、數值或情況相同」是「the same as」的用法，與本句語境不同。"
+        "same-mcq-06": "本句的「same」指「不同選擇最後產生相同或沒有實質差異的結果」。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-06"
     },
@@ -753,11 +705,9 @@ export default {
       "masked": "At the ____, the ad mentioned practical features…",
       "options": [
         "same-mcq-07",
-        "same-mcq-06",
-        "same-mcq-08",
-        "same-mcq-05",
-        "same-mcq-09",
-        "same-mcq-04"
+        "same-mcq-16",
+        "same-mcq-11",
+        "same-mcq-05"
       ],
       "explanation": "本句的「same time」指「兩件或以上事情在同一時間發生」。",
       "sentenceIndex": 12,
@@ -766,12 +716,10 @@ export default {
         "same time"
       ],
       "optionReasons": {
-        "same-mcq-07": "本句指「兩件或以上事情在同一時間發生」。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。",
-        "same-mcq-08": "「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」是「at the same time — discourse」的用法，與本句語境不同。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。",
-        "same-mcq-09": "「兩人或多人共同具有相同的特徵、經歷或問題」是「same shared experience/feature」的用法，與本句語境不同。",
-        "same-mcq-04": "「經過一段時間後仍保持原狀、沒有改變」是「stay/remain the same」的用法，與本句語境不同。"
+        "same-mcq-07": "本句的「same time」指「兩件或以上事情在同一時間發生」。",
+        "same-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-07"
     },
@@ -783,11 +731,9 @@ export default {
       "masked": "I can’t listen to music and concentrate on this conversation at the ____.",
       "options": [
         "same-mcq-07",
-        "same-mcq-06",
-        "same-mcq-08",
         "same-mcq-05",
-        "same-mcq-09",
-        "same-mcq-04"
+        "same-mcq-16",
+        "same-mcq-11"
       ],
       "explanation": "本句的「same time」指「兩件或以上事情在同一時間發生」。",
       "sentenceIndex": 13,
@@ -796,12 +742,10 @@ export default {
         "same time"
       ],
       "optionReasons": {
-        "same-mcq-07": "本句指「兩件或以上事情在同一時間發生」。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。",
-        "same-mcq-08": "「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」是「at the same time — discourse」的用法，與本句語境不同。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。",
-        "same-mcq-09": "「兩人或多人共同具有相同的特徵、經歷或問題」是「same shared experience/feature」的用法，與本句語境不同。",
-        "same-mcq-04": "「經過一段時間後仍保持原狀、沒有改變」是「stay/remain the same」的用法，與本句語境不同。"
+        "same-mcq-07": "本句的「same time」指「兩件或以上事情在同一時間發生」。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-07"
     },
@@ -813,11 +757,9 @@ export default {
       "masked": "The two trains arrived at the ____.",
       "options": [
         "same-mcq-07",
-        "same-mcq-06",
-        "same-mcq-08",
-        "same-mcq-05",
-        "same-mcq-09",
-        "same-mcq-04"
+        "same-mcq-11",
+        "same-mcq-16",
+        "same-mcq-05"
       ],
       "explanation": "本句的「same time」指「兩件或以上事情在同一時間發生」。",
       "sentenceIndex": 14,
@@ -826,12 +768,10 @@ export default {
         "same time"
       ],
       "optionReasons": {
-        "same-mcq-07": "本句指「兩件或以上事情在同一時間發生」。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。",
-        "same-mcq-08": "「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」是「at the same time — discourse」的用法，與本句語境不同。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。",
-        "same-mcq-09": "「兩人或多人共同具有相同的特徵、經歷或問題」是「same shared experience/feature」的用法，與本句語境不同。",
-        "same-mcq-04": "「經過一段時間後仍保持原狀、沒有改變」是「stay/remain the same」的用法，與本句語境不同。"
+        "same-mcq-07": "本句的「same time」指「兩件或以上事情在同一時間發生」。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-07"
     },
@@ -843,11 +783,9 @@ export default {
       "masked": "The headphones are expensive. At the ____, the sound quality is excellent.",
       "options": [
         "same-mcq-08",
-        "same-mcq-07",
-        "same-mcq-09",
-        "same-mcq-06",
-        "same-mcq-10",
-        "same-mcq-05"
+        "same-mcq-04",
+        "same-mcq-05",
+        "same-mcq-09"
       ],
       "explanation": "本句的「same time」指「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」。",
       "sentenceIndex": 15,
@@ -856,12 +794,10 @@ export default {
         "same time"
       ],
       "optionReasons": {
-        "same-mcq-08": "本句指「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」。",
-        "same-mcq-07": "「兩件或以上事情在同一時間發生」是「at the same time — literal」的用法，與本句語境不同。",
-        "same-mcq-09": "「兩人或多人共同具有相同的特徵、經歷或問題」是「same shared experience/feature」的用法，與本句語境不同。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。",
-        "same-mcq-10": "「不斷重複、沒有新意甚至令人厭倦的同一套事物」是「the same old」的用法，與本句語境不同。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。"
+        "same-mcq-08": "本句的「same time」指「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-08"
     },
@@ -873,11 +809,9 @@ export default {
       "masked": "The job is demanding. At the ____, it is very rewarding.",
       "options": [
         "same-mcq-08",
-        "same-mcq-07",
-        "same-mcq-09",
-        "same-mcq-06",
-        "same-mcq-10",
-        "same-mcq-05"
+        "same-mcq-04",
+        "same-mcq-05",
+        "same-mcq-14"
       ],
       "explanation": "本句的「same time」指「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」。",
       "sentenceIndex": 16,
@@ -886,12 +820,10 @@ export default {
         "same time"
       ],
       "optionReasons": {
-        "same-mcq-08": "本句指「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」。",
-        "same-mcq-07": "「兩件或以上事情在同一時間發生」是「at the same time — literal」的用法，與本句語境不同。",
-        "same-mcq-09": "「兩人或多人共同具有相同的特徵、經歷或問題」是「same shared experience/feature」的用法，與本句語境不同。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。",
-        "same-mcq-10": "「不斷重複、沒有新意甚至令人厭倦的同一套事物」是「the same old」的用法，與本句語境不同。",
-        "same-mcq-05": "「數量、程度、尺寸或數值相等」是「same amount/level」的用法，與本句語境不同。"
+        "same-mcq-08": "本句的「same time」指「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-08"
     },
@@ -903,11 +835,9 @@ export default {
       "masked": "We have the ____ interests.",
       "options": [
         "same-mcq-09",
-        "same-mcq-08",
-        "same-mcq-10",
-        "same-mcq-07",
         "same-mcq-11",
-        "same-mcq-06"
+        "same-mcq-05",
+        "same-mcq-04"
       ],
       "explanation": "本句的「same」指「兩人或多人共同具有相同的特徵、經歷或問題」。",
       "sentenceIndex": 17,
@@ -916,12 +846,10 @@ export default {
         "same"
       ],
       "optionReasons": {
-        "same-mcq-09": "本句指「兩人或多人共同具有相同的特徵、經歷或問題」。",
-        "same-mcq-08": "「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」是「at the same time — discourse」的用法，與本句語境不同。",
-        "same-mcq-10": "「不斷重複、沒有新意甚至令人厭倦的同一套事物」是「the same old」的用法，與本句語境不同。",
-        "same-mcq-07": "「兩件或以上事情在同一時間發生」是「at the same time — literal」的用法，與本句語境不同。",
-        "same-mcq-11": "「即使前面的情況成立，後面的行動或看法仍然不變」是「all the same — nevertheless」的用法，與本句語境不同。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。"
+        "same-mcq-09": "本句的「same」指「兩人或多人共同具有相同的特徵、經歷或問題」。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-09"
     },
@@ -933,11 +861,9 @@ export default {
       "masked": "They faced many of the ____ problems.",
       "options": [
         "same-mcq-09",
-        "same-mcq-08",
-        "same-mcq-10",
-        "same-mcq-07",
+        "same-mcq-05",
         "same-mcq-11",
-        "same-mcq-06"
+        "same-mcq-10"
       ],
       "explanation": "本句的「same」指「兩人或多人共同具有相同的特徵、經歷或問題」。",
       "sentenceIndex": 18,
@@ -946,12 +872,10 @@ export default {
         "same"
       ],
       "optionReasons": {
-        "same-mcq-09": "本句指「兩人或多人共同具有相同的特徵、經歷或問題」。",
-        "same-mcq-08": "「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」是「at the same time — discourse」的用法，與本句語境不同。",
-        "same-mcq-10": "「不斷重複、沒有新意甚至令人厭倦的同一套事物」是「the same old」的用法，與本句語境不同。",
-        "same-mcq-07": "「兩件或以上事情在同一時間發生」是「at the same time — literal」的用法，與本句語境不同。",
-        "same-mcq-11": "「即使前面的情況成立，後面的行動或看法仍然不變」是「all the same — nevertheless」的用法，與本句語境不同。",
-        "same-mcq-06": "「不同選擇最後產生相同或沒有實質差異的結果」是「the same — result」的用法，與本句語境不同。"
+        "same-mcq-09": "本句的「same」指「兩人或多人共同具有相同的特徵、經歷或問題」。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-09"
     },
@@ -963,11 +887,9 @@ export default {
       "masked": "It’s the ____ problem every week.",
       "options": [
         "same-mcq-10",
-        "same-mcq-09",
         "same-mcq-11",
-        "same-mcq-08",
-        "same-mcq-12",
-        "same-mcq-07"
+        "same-mcq-05",
+        "same-mcq-09"
       ],
       "explanation": "本句的「same old」指「不斷重複、沒有新意甚至令人厭倦的同一套事物」。",
       "sentenceIndex": 19,
@@ -976,12 +898,10 @@ export default {
         "same old"
       ],
       "optionReasons": {
-        "same-mcq-10": "本句指「不斷重複、沒有新意甚至令人厭倦的同一套事物」。",
-        "same-mcq-09": "「兩人或多人共同具有相同的特徵、經歷或問題」是「same shared experience/feature」的用法，與本句語境不同。",
-        "same-mcq-11": "「即使前面的情況成立，後面的行動或看法仍然不變」是「all the same — nevertheless」的用法，與本句語境不同。",
-        "same-mcq-08": "「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」是「at the same time — discourse」的用法，與本句語境不同。",
-        "same-mcq-12": "「不同選擇對某人而言沒有實質差異或偏好」是「all the same to someone」的用法，與本句語境不同。",
-        "same-mcq-07": "「兩件或以上事情在同一時間發生」是「at the same time — literal」的用法，與本句語境不同。"
+        "same-mcq-10": "本句的「same old」指「不斷重複、沒有新意甚至令人厭倦的同一套事物」。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-10"
     },
@@ -993,11 +913,9 @@ export default {
       "masked": "The advertisement used the ____ promises as every other brand.",
       "options": [
         "same-mcq-10",
-        "same-mcq-09",
         "same-mcq-11",
-        "same-mcq-08",
-        "same-mcq-12",
-        "same-mcq-07"
+        "same-mcq-05",
+        "same-mcq-14"
       ],
       "explanation": "本句的「same old」指「不斷重複、沒有新意甚至令人厭倦的同一套事物」。",
       "sentenceIndex": 20,
@@ -1006,12 +924,10 @@ export default {
         "same old"
       ],
       "optionReasons": {
-        "same-mcq-10": "本句指「不斷重複、沒有新意甚至令人厭倦的同一套事物」。",
-        "same-mcq-09": "「兩人或多人共同具有相同的特徵、經歷或問題」是「same shared experience/feature」的用法，與本句語境不同。",
-        "same-mcq-11": "「即使前面的情況成立，後面的行動或看法仍然不變」是「all the same — nevertheless」的用法，與本句語境不同。",
-        "same-mcq-08": "「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」是「at the same time — discourse」的用法，與本句語境不同。",
-        "same-mcq-12": "「不同選擇對某人而言沒有實質差異或偏好」是「all the same to someone」的用法，與本句語境不同。",
-        "same-mcq-07": "「兩件或以上事情在同一時間發生」是「at the same time — literal」的用法，與本句語境不同。"
+        "same-mcq-10": "本句的「same old」指「不斷重複、沒有新意甚至令人厭倦的同一套事物」。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-10"
     },
@@ -1023,11 +939,9 @@ export default {
       "masked": "The product is expensive, but I like it ____.",
       "options": [
         "same-mcq-11",
-        "same-mcq-10",
-        "same-mcq-12",
-        "same-mcq-09",
-        "same-mcq-13",
-        "same-mcq-08"
+        "same-mcq-05",
+        "same-mcq-14",
+        "same-mcq-07"
       ],
       "explanation": "本句的「all the same」指「即使前面的情況成立，後面的行動或看法仍然不變」。",
       "sentenceIndex": 21,
@@ -1036,12 +950,10 @@ export default {
         "all the same"
       ],
       "optionReasons": {
-        "same-mcq-11": "本句指「即使前面的情況成立，後面的行動或看法仍然不變」。",
-        "same-mcq-10": "「不斷重複、沒有新意甚至令人厭倦的同一套事物」是「the same old」的用法，與本句語境不同。",
-        "same-mcq-12": "「不同選擇對某人而言沒有實質差異或偏好」是「all the same to someone」的用法，與本句語境不同。",
-        "same-mcq-09": "「兩人或多人共同具有相同的特徵、經歷或問題」是「same shared experience/feature」的用法，與本句語境不同。",
-        "same-mcq-13": "「表示自己的感受、情況或意見與對方相同」是「same here」的用法，與本句語境不同。",
-        "same-mcq-08": "「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」是「at the same time — discourse」的用法，與本句語境不同。"
+        "same-mcq-11": "本句的「all the same」指「即使前面的情況成立，後面的行動或看法仍然不變」。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-11"
     },
@@ -1053,11 +965,9 @@ export default {
       "masked": "He knew it would be difficult but tried ____.",
       "options": [
         "same-mcq-11",
-        "same-mcq-10",
-        "same-mcq-12",
-        "same-mcq-09",
-        "same-mcq-13",
-        "same-mcq-08"
+        "same-mcq-05",
+        "same-mcq-02",
+        "same-mcq-04"
       ],
       "explanation": "本句的「all the same」指「即使前面的情況成立，後面的行動或看法仍然不變」。",
       "sentenceIndex": 22,
@@ -1066,12 +976,10 @@ export default {
         "all the same"
       ],
       "optionReasons": {
-        "same-mcq-11": "本句指「即使前面的情況成立，後面的行動或看法仍然不變」。",
-        "same-mcq-10": "「不斷重複、沒有新意甚至令人厭倦的同一套事物」是「the same old」的用法，與本句語境不同。",
-        "same-mcq-12": "「不同選擇對某人而言沒有實質差異或偏好」是「all the same to someone」的用法，與本句語境不同。",
-        "same-mcq-09": "「兩人或多人共同具有相同的特徵、經歷或問題」是「same shared experience/feature」的用法，與本句語境不同。",
-        "same-mcq-13": "「表示自己的感受、情況或意見與對方相同」是「same here」的用法，與本句語境不同。",
-        "same-mcq-08": "「在承認前一點之餘，再補充另一項同樣成立或形成對比的觀點」是「at the same time — discourse」的用法，與本句語境不同。"
+        "same-mcq-11": "本句的「all the same」指「即使前面的情況成立，後面的行動或看法仍然不變」。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-11"
     },
@@ -1084,10 +992,8 @@ export default {
       "options": [
         "same-mcq-12",
         "same-mcq-11",
-        "same-mcq-13",
-        "same-mcq-10",
-        "same-mcq-14",
-        "same-mcq-09"
+        "same-mcq-05",
+        "same-mcq-07"
       ],
       "explanation": "本句的「all the same to me」指「不同選擇對某人而言沒有實質差異或偏好」。",
       "sentenceIndex": 23,
@@ -1096,12 +1002,10 @@ export default {
         "all the same to me"
       ],
       "optionReasons": {
-        "same-mcq-12": "本句指「不同選擇對某人而言沒有實質差異或偏好」。",
-        "same-mcq-11": "「即使前面的情況成立，後面的行動或看法仍然不變」是「all the same — nevertheless」的用法，與本句語境不同。",
-        "same-mcq-13": "「表示自己的感受、情況或意見與對方相同」是「same here」的用法，與本句語境不同。",
-        "same-mcq-10": "「不斷重複、沒有新意甚至令人厭倦的同一套事物」是「the same old」的用法，與本句語境不同。",
-        "same-mcq-14": "「把對方給自己的祝福或評論以相同內容回給對方」是「same to you」的用法，與本句語境不同。",
-        "same-mcq-09": "「兩人或多人共同具有相同的特徵、經歷或問題」是「same shared experience/feature」的用法，與本句語境不同。"
+        "same-mcq-12": "本句的「all the same to me」指「不同選擇對某人而言沒有實質差異或偏好」。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-12"
     },
@@ -1114,10 +1018,8 @@ export default {
       "options": [
         "same-mcq-12",
         "same-mcq-11",
-        "same-mcq-13",
-        "same-mcq-10",
-        "same-mcq-14",
-        "same-mcq-09"
+        "same-mcq-05",
+        "same-mcq-07"
       ],
       "explanation": "本句的「all the same to me」指「不同選擇對某人而言沒有實質差異或偏好」。",
       "sentenceIndex": 24,
@@ -1126,12 +1028,10 @@ export default {
         "all the same to me"
       ],
       "optionReasons": {
-        "same-mcq-12": "本句指「不同選擇對某人而言沒有實質差異或偏好」。",
-        "same-mcq-11": "「即使前面的情況成立，後面的行動或看法仍然不變」是「all the same — nevertheless」的用法，與本句語境不同。",
-        "same-mcq-13": "「表示自己的感受、情況或意見與對方相同」是「same here」的用法，與本句語境不同。",
-        "same-mcq-10": "「不斷重複、沒有新意甚至令人厭倦的同一套事物」是「the same old」的用法，與本句語境不同。",
-        "same-mcq-14": "「把對方給自己的祝福或評論以相同內容回給對方」是「same to you」的用法，與本句語境不同。",
-        "same-mcq-09": "「兩人或多人共同具有相同的特徵、經歷或問題」是「same shared experience/feature」的用法，與本句語境不同。"
+        "same-mcq-12": "本句的「all the same to me」指「不同選擇對某人而言沒有實質差異或偏好」。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-12"
     },
@@ -1143,11 +1043,9 @@ export default {
       "masked": "____",
       "options": [
         "same-mcq-13",
-        "same-mcq-12",
-        "same-mcq-14",
-        "same-mcq-11",
-        "same-mcq-15",
-        "same-mcq-10"
+        "same-mcq-05",
+        "same-mcq-04",
+        "same-mcq-15"
       ],
       "explanation": "本句的「Same here.」指「表示自己的感受、情況或意見與對方相同」。",
       "sentenceIndex": 25,
@@ -1156,12 +1054,10 @@ export default {
         "Same here."
       ],
       "optionReasons": {
-        "same-mcq-13": "本句指「表示自己的感受、情況或意見與對方相同」。",
-        "same-mcq-12": "「不同選擇對某人而言沒有實質差異或偏好」是「all the same to someone」的用法，與本句語境不同。",
-        "same-mcq-14": "「把對方給自己的祝福或評論以相同內容回給對方」是「same to you」的用法，與本句語境不同。",
-        "same-mcq-11": "「即使前面的情況成立，後面的行動或看法仍然不變」是「all the same — nevertheless」的用法，與本句語境不同。",
-        "same-mcq-15": "「看似分開的兩者其實完全是同一個／同一件事」是「one and the same」的用法，與本句語境不同。",
-        "same-mcq-10": "「不斷重複、沒有新意甚至令人厭倦的同一套事物」是「the same old」的用法，與本句語境不同。"
+        "same-mcq-13": "本句的「Same here.」指「表示自己的感受、情況或意見與對方相同」。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-13"
     },
@@ -1173,11 +1069,9 @@ export default {
       "masked": "____",
       "options": [
         "same-mcq-13",
-        "same-mcq-12",
-        "same-mcq-14",
-        "same-mcq-11",
-        "same-mcq-15",
-        "same-mcq-10"
+        "same-mcq-04",
+        "same-mcq-05",
+        "same-mcq-15"
       ],
       "explanation": "本句的「Same here.」指「表示自己的感受、情況或意見與對方相同」。",
       "sentenceIndex": 26,
@@ -1186,12 +1080,10 @@ export default {
         "Same here."
       ],
       "optionReasons": {
-        "same-mcq-13": "本句指「表示自己的感受、情況或意見與對方相同」。",
-        "same-mcq-12": "「不同選擇對某人而言沒有實質差異或偏好」是「all the same to someone」的用法，與本句語境不同。",
-        "same-mcq-14": "「把對方給自己的祝福或評論以相同內容回給對方」是「same to you」的用法，與本句語境不同。",
-        "same-mcq-11": "「即使前面的情況成立，後面的行動或看法仍然不變」是「all the same — nevertheless」的用法，與本句語境不同。",
-        "same-mcq-15": "「看似分開的兩者其實完全是同一個／同一件事」是「one and the same」的用法，與本句語境不同。",
-        "same-mcq-10": "「不斷重複、沒有新意甚至令人厭倦的同一套事物」是「the same old」的用法，與本句語境不同。"
+        "same-mcq-13": "本句的「Same here.」指「表示自己的感受、情況或意見與對方相同」。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-13"
     },
@@ -1203,11 +1095,9 @@ export default {
       "masked": "____",
       "options": [
         "same-mcq-14",
-        "same-mcq-13",
-        "same-mcq-15",
-        "same-mcq-12",
-        "same-mcq-16",
-        "same-mcq-11"
+        "same-mcq-11",
+        "same-mcq-05",
+        "same-mcq-04"
       ],
       "explanation": "本句的「Same to you!」指「把對方給自己的祝福或評論以相同內容回給對方」。",
       "sentenceIndex": 27,
@@ -1216,12 +1106,10 @@ export default {
         "Same to you!"
       ],
       "optionReasons": {
-        "same-mcq-14": "本句指「把對方給自己的祝福或評論以相同內容回給對方」。",
-        "same-mcq-13": "「表示自己的感受、情況或意見與對方相同」是「same here」的用法，與本句語境不同。",
-        "same-mcq-15": "「看似分開的兩者其實完全是同一個／同一件事」是「one and the same」的用法，與本句語境不同。",
-        "same-mcq-12": "「不同選擇對某人而言沒有實質差異或偏好」是「all the same to someone」的用法，與本句語境不同。",
-        "same-mcq-16": "「細節雖有差異，但實質結果沒有重要分別」是「same difference」的用法，與本句語境不同。",
-        "same-mcq-11": "「即使前面的情況成立，後面的行動或看法仍然不變」是「all the same — nevertheless」的用法，與本句語境不同。"
+        "same-mcq-14": "本句的「Same to you!」指「把對方給自己的祝福或評論以相同內容回給對方」。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-14"
     },
@@ -1233,10 +1121,8 @@ export default {
       "masked": "____",
       "options": [
         "same-mcq-14",
-        "same-mcq-13",
-        "same-mcq-15",
-        "same-mcq-12",
-        "same-mcq-16",
+        "same-mcq-05",
+        "same-mcq-04",
         "same-mcq-11"
       ],
       "explanation": "本句的「Same to you.」指「把對方給自己的祝福或評論以相同內容回給對方」。",
@@ -1246,12 +1132,10 @@ export default {
         "Same to you."
       ],
       "optionReasons": {
-        "same-mcq-14": "本句指「把對方給自己的祝福或評論以相同內容回給對方」。",
-        "same-mcq-13": "「表示自己的感受、情況或意見與對方相同」是「same here」的用法，與本句語境不同。",
-        "same-mcq-15": "「看似分開的兩者其實完全是同一個／同一件事」是「one and the same」的用法，與本句語境不同。",
-        "same-mcq-12": "「不同選擇對某人而言沒有實質差異或偏好」是「all the same to someone」的用法，與本句語境不同。",
-        "same-mcq-16": "「細節雖有差異，但實質結果沒有重要分別」是「same difference」的用法，與本句語境不同。",
-        "same-mcq-11": "「即使前面的情況成立，後面的行動或看法仍然不變」是「all the same — nevertheless」的用法，與本句語境不同。"
+        "same-mcq-14": "本句的「Same to you.」指「把對方給自己的祝福或評論以相同內容回給對方」。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-14"
     },
@@ -1263,11 +1147,9 @@ export default {
       "masked": "The owner and the manager turned out to be ____ person.",
       "options": [
         "same-mcq-15",
-        "same-mcq-14",
-        "same-mcq-16",
-        "same-mcq-13",
-        "same-mcq-17",
-        "same-mcq-12"
+        "same-mcq-04",
+        "same-mcq-05",
+        "same-mcq-08"
       ],
       "explanation": "本句的「one and the same」指「看似分開的兩者其實完全是同一個／同一件事」。",
       "sentenceIndex": 29,
@@ -1276,12 +1158,10 @@ export default {
         "one and the same"
       ],
       "optionReasons": {
-        "same-mcq-15": "本句指「看似分開的兩者其實完全是同一個／同一件事」。",
-        "same-mcq-14": "「把對方給自己的祝福或評論以相同內容回給對方」是「same to you」的用法，與本句語境不同。",
-        "same-mcq-16": "「細節雖有差異，但實質結果沒有重要分別」是「same difference」的用法，與本句語境不同。",
-        "same-mcq-13": "「表示自己的感受、情況或意見與對方相同」是「same here」的用法，與本句語境不同。",
-        "same-mcq-17": "「差異很少的相同性；亦可指缺乏變化所造成的單調感」是「sameness」的用法，與本句語境不同。",
-        "same-mcq-12": "「不同選擇對某人而言沒有實質差異或偏好」是「all the same to someone」的用法，與本句語境不同。"
+        "same-mcq-15": "本句的「one and the same」指「看似分開的兩者其實完全是同一個／同一件事」。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-15"
     },
@@ -1293,11 +1173,9 @@ export default {
       "masked": "These two problems are really ____.",
       "options": [
         "same-mcq-15",
-        "same-mcq-14",
-        "same-mcq-16",
-        "same-mcq-13",
-        "same-mcq-17",
-        "same-mcq-12"
+        "same-mcq-04",
+        "same-mcq-05",
+        "same-mcq-08"
       ],
       "explanation": "本句的「one and the same」指「看似分開的兩者其實完全是同一個／同一件事」。",
       "sentenceIndex": 30,
@@ -1306,12 +1184,10 @@ export default {
         "one and the same"
       ],
       "optionReasons": {
-        "same-mcq-15": "本句指「看似分開的兩者其實完全是同一個／同一件事」。",
-        "same-mcq-14": "「把對方給自己的祝福或評論以相同內容回給對方」是「same to you」的用法，與本句語境不同。",
-        "same-mcq-16": "「細節雖有差異，但實質結果沒有重要分別」是「same difference」的用法，與本句語境不同。",
-        "same-mcq-13": "「表示自己的感受、情況或意見與對方相同」是「same here」的用法，與本句語境不同。",
-        "same-mcq-17": "「差異很少的相同性；亦可指缺乏變化所造成的單調感」是「sameness」的用法，與本句語境不同。",
-        "same-mcq-12": "「不同選擇對某人而言沒有實質差異或偏好」是「all the same to someone」的用法，與本句語境不同。"
+        "same-mcq-15": "本句的「one and the same」指「看似分開的兩者其實完全是同一個／同一件事」。",
+        "same-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-15"
     },
@@ -1323,11 +1199,9 @@ export default {
       "masked": "You call it a mistake; I call it an accident. ____",
       "options": [
         "same-mcq-16",
-        "same-mcq-15",
-        "same-mcq-17",
-        "same-mcq-14",
-        "same-mcq-13",
-        "same-mcq-12"
+        "same-mcq-05",
+        "same-mcq-07",
+        "same-mcq-08"
       ],
       "explanation": "本句的「Same difference.」指「細節雖有差異，但實質結果沒有重要分別」。",
       "sentenceIndex": 31,
@@ -1336,12 +1210,10 @@ export default {
         "Same difference."
       ],
       "optionReasons": {
-        "same-mcq-16": "本句指「細節雖有差異，但實質結果沒有重要分別」。",
-        "same-mcq-15": "「看似分開的兩者其實完全是同一個／同一件事」是「one and the same」的用法，與本句語境不同。",
-        "same-mcq-17": "「差異很少的相同性；亦可指缺乏變化所造成的單調感」是「sameness」的用法，與本句語境不同。",
-        "same-mcq-14": "「把對方給自己的祝福或評論以相同內容回給對方」是「same to you」的用法，與本句語境不同。",
-        "same-mcq-13": "「表示自己的感受、情況或意見與對方相同」是「same here」的用法，與本句語境不同。",
-        "same-mcq-12": "「不同選擇對某人而言沒有實質差異或偏好」是「all the same to someone」的用法，與本句語境不同。"
+        "same-mcq-16": "本句的「Same difference.」指「細節雖有差異，但實質結果沒有重要分別」。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-16"
     },
@@ -1353,11 +1225,9 @@ export default {
       "masked": "Six minutes late or seven minutes late—____.",
       "options": [
         "same-mcq-16",
-        "same-mcq-15",
-        "same-mcq-17",
-        "same-mcq-14",
-        "same-mcq-13",
-        "same-mcq-12"
+        "same-mcq-08",
+        "same-mcq-05",
+        "same-mcq-07"
       ],
       "explanation": "本句的「same difference」指「細節雖有差異，但實質結果沒有重要分別」。",
       "sentenceIndex": 32,
@@ -1366,12 +1236,10 @@ export default {
         "same difference"
       ],
       "optionReasons": {
-        "same-mcq-16": "本句指「細節雖有差異，但實質結果沒有重要分別」。",
-        "same-mcq-15": "「看似分開的兩者其實完全是同一個／同一件事」是「one and the same」的用法，與本句語境不同。",
-        "same-mcq-17": "「差異很少的相同性；亦可指缺乏變化所造成的單調感」是「sameness」的用法，與本句語境不同。",
-        "same-mcq-14": "「把對方給自己的祝福或評論以相同內容回給對方」是「same to you」的用法，與本句語境不同。",
-        "same-mcq-13": "「表示自己的感受、情況或意見與對方相同」是「same here」的用法，與本句語境不同。",
-        "same-mcq-12": "「不同選擇對某人而言沒有實質差異或偏好」是「all the same to someone」的用法，與本句語境不同。"
+        "same-mcq-16": "本句的「same difference」指「細節雖有差異，但實質結果沒有重要分別」。",
+        "same-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-16"
     },
@@ -1383,11 +1251,9 @@ export default {
       "masked": "There is a certain ____ to all the advertisements.",
       "options": [
         "same-mcq-17",
-        "same-mcq-16",
-        "same-mcq-15",
-        "same-mcq-14",
-        "same-mcq-13",
-        "same-mcq-12"
+        "same-mcq-05",
+        "same-mcq-07",
+        "same-mcq-11"
       ],
       "explanation": "本句的「sameness」指「差異很少的相同性；亦可指缺乏變化所造成的單調感」。",
       "sentenceIndex": 33,
@@ -1396,12 +1262,10 @@ export default {
         "sameness"
       ],
       "optionReasons": {
-        "same-mcq-17": "本句指「差異很少的相同性；亦可指缺乏變化所造成的單調感」。",
-        "same-mcq-16": "「細節雖有差異，但實質結果沒有重要分別」是「same difference」的用法，與本句語境不同。",
-        "same-mcq-15": "「看似分開的兩者其實完全是同一個／同一件事」是「one and the same」的用法，與本句語境不同。",
-        "same-mcq-14": "「把對方給自己的祝福或評論以相同內容回給對方」是「same to you」的用法，與本句語境不同。",
-        "same-mcq-13": "「表示自己的感受、情況或意見與對方相同」是「same here」的用法，與本句語境不同。",
-        "same-mcq-12": "「不同選擇對某人而言沒有實質差異或偏好」是「all the same to someone」的用法，與本句語境不同。"
+        "same-mcq-17": "本句的「sameness」指「差異很少的相同性；亦可指缺乏變化所造成的單調感」。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-17"
     },
@@ -1413,11 +1277,9 @@ export default {
       "masked": "She grew tired of the ____ of her daily routine.",
       "options": [
         "same-mcq-17",
-        "same-mcq-16",
-        "same-mcq-15",
-        "same-mcq-14",
-        "same-mcq-13",
-        "same-mcq-12"
+        "same-mcq-05",
+        "same-mcq-07",
+        "same-mcq-11"
       ],
       "explanation": "本句的「sameness」指「差異很少的相同性；亦可指缺乏變化所造成的單調感」。",
       "sentenceIndex": 34,
@@ -1426,12 +1288,10 @@ export default {
         "sameness"
       ],
       "optionReasons": {
-        "same-mcq-17": "本句指「差異很少的相同性；亦可指缺乏變化所造成的單調感」。",
-        "same-mcq-16": "「細節雖有差異，但實質結果沒有重要分別」是「same difference」的用法，與本句語境不同。",
-        "same-mcq-15": "「看似分開的兩者其實完全是同一個／同一件事」是「one and the same」的用法，與本句語境不同。",
-        "same-mcq-14": "「把對方給自己的祝福或評論以相同內容回給對方」是「same to you」的用法，與本句語境不同。",
-        "same-mcq-13": "「表示自己的感受、情況或意見與對方相同」是「same here」的用法，與本句語境不同。",
-        "same-mcq-12": "「不同選擇對某人而言沒有實質差異或偏好」是「all the same to someone」的用法，與本句語境不同。"
+        "same-mcq-17": "本句的「sameness」指「差異很少的相同性；亦可指缺乏變化所造成的單調感」。",
+        "same-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "same-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "same-mcq-17"
     }
@@ -1443,5 +1303,7 @@ export default {
     "sha256": "0d0fb7b9b241df2b0471b5609e31e17de7f4c0614c92abfdf38716459a9683a6",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

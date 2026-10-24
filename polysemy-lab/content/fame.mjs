@@ -653,11 +653,9 @@ export default {
       "masked": "The singer achieved international ____.",
       "options": [
         "fame-mcq-01",
-        "fame-mcq-02",
-        "fame-mcq-03",
-        "fame-mcq-04",
-        "fame-mcq-05",
-        "fame-mcq-06"
+        "fame-mcq-22",
+        "fame-mcq-23",
+        "fame-mcq-09"
       ],
       "explanation": "本句的「fame」指「被大量公眾認識、知道的狀態；名氣／知名度」。",
       "sentenceIndex": 0,
@@ -666,12 +664,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-01": "本句指「被大量公眾認識、知道的狀態；名氣／知名度」。",
-        "fame-mcq-02": "「從不太知名變成廣為人知」與本句語境不同。",
-        "fame-mcq-03": "「在極短時間內突然成名／一炮而紅」與本句語境不同。",
-        "fame-mcq-04": "「某事件迅速把某人推到公眾焦點」與本句語境不同。",
-        "fame-mcq-05": "「在國際／全球範圍獲得的知名度」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。"
+        "fame-mcq-01": "本句的「fame」指「被大量公眾認識、知道的狀態；名氣／知名度」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-01"
     },
@@ -683,11 +679,9 @@ export default {
       "masked": "She never expected such sudden ____.",
       "options": [
         "fame-mcq-01",
-        "fame-mcq-02",
-        "fame-mcq-03",
-        "fame-mcq-04",
-        "fame-mcq-05",
-        "fame-mcq-06"
+        "fame-mcq-22",
+        "fame-mcq-11",
+        "fame-mcq-09"
       ],
       "explanation": "本句的「fame」指「被大量公眾認識、知道的狀態；名氣／知名度」。",
       "sentenceIndex": 1,
@@ -696,12 +690,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-01": "本句指「被大量公眾認識、知道的狀態；名氣／知名度」。",
-        "fame-mcq-02": "「從不太知名變成廣為人知」與本句語境不同。",
-        "fame-mcq-03": "「在極短時間內突然成名／一炮而紅」與本句語境不同。",
-        "fame-mcq-04": "「某事件迅速把某人推到公眾焦點」與本句語境不同。",
-        "fame-mcq-05": "「在國際／全球範圍獲得的知名度」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。"
+        "fame-mcq-01": "本句的「fame」指「被大量公眾認識、知道的狀態；名氣／知名度」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-01"
     },
@@ -713,11 +705,9 @@ export default {
       "masked": "He ____ after the video went viral.",
       "options": [
         "fame-mcq-02",
-        "fame-mcq-01",
-        "fame-mcq-03",
         "fame-mcq-04",
-        "fame-mcq-05",
-        "fame-mcq-06"
+        "fame-mcq-25",
+        "fame-mcq-22"
       ],
       "explanation": "本句的「rose to fame」指「從不太知名變成廣為人知」。",
       "sentenceIndex": 2,
@@ -726,12 +716,10 @@ export default {
         "rose to fame"
       ],
       "optionReasons": {
-        "fame-mcq-02": "本句指「從不太知名變成廣為人知」。",
-        "fame-mcq-01": "「被大量公眾認識、知道的狀態；名氣／知名度」與本句語境不同。",
-        "fame-mcq-03": "「在極短時間內突然成名／一炮而紅」與本句語境不同。",
-        "fame-mcq-04": "「某事件迅速把某人推到公眾焦點」與本句語境不同。",
-        "fame-mcq-05": "「在國際／全球範圍獲得的知名度」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。"
+        "fame-mcq-02": "本句的「rose to fame」指「從不太知名變成廣為人知」。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-02"
     },
@@ -743,11 +731,9 @@ export default {
       "masked": "She rose to ____ in her early twenties.",
       "options": [
         "fame-mcq-02",
-        "fame-mcq-01",
-        "fame-mcq-03",
         "fame-mcq-04",
-        "fame-mcq-05",
-        "fame-mcq-06"
+        "fame-mcq-22",
+        "fame-mcq-25"
       ],
       "explanation": "本句的「fame」指「從不太知名變成廣為人知」。",
       "sentenceIndex": 3,
@@ -756,12 +742,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-02": "本句指「從不太知名變成廣為人知」。",
-        "fame-mcq-01": "「被大量公眾認識、知道的狀態；名氣／知名度」與本句語境不同。",
-        "fame-mcq-03": "「在極短時間內突然成名／一炮而紅」與本句語境不同。",
-        "fame-mcq-04": "「某事件迅速把某人推到公眾焦點」與本句語境不同。",
-        "fame-mcq-05": "「在國際／全球範圍獲得的知名度」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。"
+        "fame-mcq-02": "本句的「fame」指「從不太知名變成廣為人知」。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-02"
     },
@@ -773,11 +757,9 @@ export default {
       "masked": "She ____ after one viral post.",
       "options": [
         "fame-mcq-03",
-        "fame-mcq-02",
-        "fame-mcq-04",
-        "fame-mcq-01",
-        "fame-mcq-05",
-        "fame-mcq-06"
+        "fame-mcq-22",
+        "fame-pdf-001",
+        "fame-mcq-04"
       ],
       "explanation": "本句的「shot to fame」指「在極短時間內突然成名／一炮而紅」。",
       "sentenceIndex": 10,
@@ -786,12 +768,10 @@ export default {
         "shot to fame"
       ],
       "optionReasons": {
-        "fame-mcq-03": "本句指「在極短時間內突然成名／一炮而紅」。",
-        "fame-mcq-02": "「從不太知名變成廣為人知」與本句語境不同。",
-        "fame-mcq-04": "「某事件迅速把某人推到公眾焦點」與本句語境不同。",
-        "fame-mcq-01": "「被大量公眾認識、知道的狀態；名氣／知名度」與本句語境不同。",
-        "fame-mcq-05": "「在國際／全球範圍獲得的知名度」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。"
+        "fame-mcq-03": "本句的「shot to fame」指「在極短時間內突然成名／一炮而紅」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-03"
     },
@@ -803,11 +783,9 @@ export default {
       "masked": "The young actor shot to ____ almost overnight.",
       "options": [
         "fame-mcq-03",
-        "fame-mcq-02",
+        "fame-mcq-22",
         "fame-mcq-04",
-        "fame-mcq-01",
-        "fame-mcq-05",
-        "fame-mcq-06"
+        "fame-pdf-001"
       ],
       "explanation": "本句的「fame」指「在極短時間內突然成名／一炮而紅」。",
       "sentenceIndex": 11,
@@ -816,12 +794,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-03": "本句指「在極短時間內突然成名／一炮而紅」。",
-        "fame-mcq-02": "「從不太知名變成廣為人知」與本句語境不同。",
-        "fame-mcq-04": "「某事件迅速把某人推到公眾焦點」與本句語境不同。",
-        "fame-mcq-01": "「被大量公眾認識、知道的狀態；名氣／知名度」與本句語境不同。",
-        "fame-mcq-05": "「在國際／全球範圍獲得的知名度」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。"
+        "fame-mcq-03": "本句的「fame」指「在極短時間內突然成名／一炮而紅」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-03"
     },
@@ -833,11 +809,9 @@ export default {
       "masked": "The role ____.",
       "options": [
         "fame-mcq-04",
-        "fame-mcq-03",
+        "fame-mcq-18",
         "fame-mcq-05",
-        "fame-mcq-02",
-        "fame-mcq-06",
-        "fame-mcq-01"
+        "fame-mcq-24"
       ],
       "explanation": "本句的「catapulted her to fame」指「某事件迅速把某人推到公眾焦點」。",
       "sentenceIndex": 12,
@@ -846,12 +820,10 @@ export default {
         "catapulted her to fame"
       ],
       "optionReasons": {
-        "fame-mcq-04": "本句指「某事件迅速把某人推到公眾焦點」。",
-        "fame-mcq-03": "「在極短時間內突然成名／一炮而紅」與本句語境不同。",
-        "fame-mcq-05": "「在國際／全球範圍獲得的知名度」與本句語境不同。",
-        "fame-mcq-02": "「從不太知名變成廣為人知」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。",
-        "fame-mcq-01": "「被大量公眾認識、知道的狀態；名氣／知名度」與本句語境不同。"
+        "fame-mcq-04": "本句的「catapulted her to fame」指「某事件迅速把某人推到公眾焦點」。",
+        "fame-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-04"
     },
@@ -863,11 +835,9 @@ export default {
       "masked": "The viral clip catapulted him to ____.",
       "options": [
         "fame-mcq-04",
-        "fame-mcq-03",
-        "fame-mcq-05",
-        "fame-mcq-02",
-        "fame-mcq-06",
-        "fame-mcq-01"
+        "fame-mcq-15",
+        "fame-mcq-22",
+        "fame-mcq-18"
       ],
       "explanation": "本句的「fame」指「某事件迅速把某人推到公眾焦點」。",
       "sentenceIndex": 13,
@@ -876,12 +846,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-04": "本句指「某事件迅速把某人推到公眾焦點」。",
-        "fame-mcq-03": "「在極短時間內突然成名／一炮而紅」與本句語境不同。",
-        "fame-mcq-05": "「在國際／全球範圍獲得的知名度」與本句語境不同。",
-        "fame-mcq-02": "「從不太知名變成廣為人知」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。",
-        "fame-mcq-01": "「被大量公眾認識、知道的狀態；名氣／知名度」與本句語境不同。"
+        "fame-mcq-04": "本句的「fame」指「某事件迅速把某人推到公眾焦點」。",
+        "fame-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-04"
     },
@@ -893,11 +861,9 @@ export default {
       "masked": "The song gave him ____.",
       "options": [
         "fame-mcq-05",
+        "fame-mcq-22",
         "fame-mcq-04",
-        "fame-mcq-06",
-        "fame-mcq-03",
-        "fame-mcq-07",
-        "fame-mcq-02"
+        "fame-mcq-09"
       ],
       "explanation": "本句的「worldwide fame」指「在國際／全球範圍獲得的知名度」。",
       "sentenceIndex": 22,
@@ -906,12 +872,10 @@ export default {
         "worldwide fame"
       ],
       "optionReasons": {
-        "fame-mcq-05": "本句指「在國際／全球範圍獲得的知名度」。",
-        "fame-mcq-04": "「某事件迅速把某人推到公眾焦點」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。",
-        "fame-mcq-03": "「在極短時間內突然成名／一炮而紅」與本句語境不同。",
-        "fame-mcq-07": "「內容爆紅後帶來的突然公眾知名度」與本句語境不同。",
-        "fame-mcq-02": "「從不太知名變成廣為人知」與本句語境不同。"
+        "fame-mcq-05": "本句的「worldwide fame」指「在國際／全球範圍獲得的知名度」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-05"
     },
@@ -923,11 +887,9 @@ export default {
       "masked": "The athlete achieved worldwide ____.",
       "options": [
         "fame-mcq-05",
+        "fame-mcq-22",
         "fame-mcq-04",
-        "fame-mcq-06",
-        "fame-mcq-03",
-        "fame-mcq-07",
-        "fame-mcq-02"
+        "fame-mcq-09"
       ],
       "explanation": "本句的「fame」指「在國際／全球範圍獲得的知名度」。",
       "sentenceIndex": 23,
@@ -936,12 +898,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-05": "本句指「在國際／全球範圍獲得的知名度」。",
-        "fame-mcq-04": "「某事件迅速把某人推到公眾焦點」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。",
-        "fame-mcq-03": "「在極短時間內突然成名／一炮而紅」與本句語境不同。",
-        "fame-mcq-07": "「內容爆紅後帶來的突然公眾知名度」與本句語境不同。",
-        "fame-mcq-02": "「從不太知名變成廣為人知」與本句語境不同。"
+        "fame-mcq-05": "本句的「fame」指「在國際／全球範圍獲得的知名度」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-05"
     },
@@ -953,11 +913,9 @@ export default {
       "masked": "Internet ____ does not always last.",
       "options": [
         "fame-mcq-06",
-        "fame-mcq-05",
-        "fame-mcq-07",
-        "fame-mcq-04",
-        "fame-mcq-08",
-        "fame-mcq-03"
+        "fame-pdf-001",
+        "fame-mcq-22",
+        "fame-mcq-04"
       ],
       "explanation": "本句的「fame」指「主要透過網絡曝光取得的名氣」。",
       "sentenceIndex": 28,
@@ -966,12 +924,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-06": "本句指「主要透過網絡曝光取得的名氣」。",
-        "fame-mcq-05": "「在國際／全球範圍獲得的知名度」與本句語境不同。",
-        "fame-mcq-07": "「內容爆紅後帶來的突然公眾知名度」與本句語境不同。",
-        "fame-mcq-04": "「某事件迅速把某人推到公眾焦點」與本句語境不同。",
-        "fame-mcq-08": "「維持時間很短的公眾名氣」與本句語境不同。",
-        "fame-mcq-03": "「在極短時間內突然成名／一炮而紅」與本句語境不同。"
+        "fame-mcq-06": "本句的「fame」指「主要透過網絡曝光取得的名氣」。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-06"
     },
@@ -983,11 +939,9 @@ export default {
       "masked": "One meme brought him internet ____.",
       "options": [
         "fame-mcq-06",
-        "fame-mcq-05",
-        "fame-mcq-07",
+        "fame-pdf-001",
         "fame-mcq-04",
-        "fame-mcq-08",
-        "fame-mcq-03"
+        "fame-mcq-22"
       ],
       "explanation": "本句的「fame」指「主要透過網絡曝光取得的名氣」。",
       "sentenceIndex": 29,
@@ -996,12 +950,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-06": "本句指「主要透過網絡曝光取得的名氣」。",
-        "fame-mcq-05": "「在國際／全球範圍獲得的知名度」與本句語境不同。",
-        "fame-mcq-07": "「內容爆紅後帶來的突然公眾知名度」與本句語境不同。",
-        "fame-mcq-04": "「某事件迅速把某人推到公眾焦點」與本句語境不同。",
-        "fame-mcq-08": "「維持時間很短的公眾名氣」與本句語境不同。",
-        "fame-mcq-03": "「在極短時間內突然成名／一炮而紅」與本句語境不同。"
+        "fame-mcq-06": "本句的「fame」指「主要透過網絡曝光取得的名氣」。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-06"
     },
@@ -1013,11 +965,9 @@ export default {
       "masked": "Viral ____ can arrive unexpectedly.",
       "options": [
         "fame-mcq-07",
-        "fame-mcq-06",
-        "fame-mcq-08",
-        "fame-mcq-05",
-        "fame-mcq-09",
-        "fame-mcq-04"
+        "fame-mcq-22",
+        "fame-mcq-12",
+        "fame-mcq-23"
       ],
       "explanation": "本句的「fame」指「內容爆紅後帶來的突然公眾知名度」。",
       "sentenceIndex": 30,
@@ -1026,12 +976,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-07": "本句指「內容爆紅後帶來的突然公眾知名度」。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。",
-        "fame-mcq-08": "「維持時間很短的公眾名氣」與本句語境不同。",
-        "fame-mcq-05": "「在國際／全球範圍獲得的知名度」與本句語境不同。",
-        "fame-mcq-09": "「長時間維持甚至流傳後世的名聲」與本句語境不同。",
-        "fame-mcq-04": "「某事件迅速把某人推到公眾焦點」與本句語境不同。"
+        "fame-mcq-07": "本句的「fame」指「內容爆紅後帶來的突然公眾知名度」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-07"
     },
@@ -1043,11 +991,9 @@ export default {
       "masked": "The creator struggled with the pressure of viral ____.",
       "options": [
         "fame-mcq-07",
-        "fame-mcq-06",
-        "fame-mcq-08",
-        "fame-mcq-05",
-        "fame-mcq-09",
-        "fame-mcq-04"
+        "fame-mcq-12",
+        "fame-mcq-22",
+        "fame-mcq-11"
       ],
       "explanation": "本句的「fame」指「內容爆紅後帶來的突然公眾知名度」。",
       "sentenceIndex": 31,
@@ -1056,12 +1002,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-07": "本句指「內容爆紅後帶來的突然公眾知名度」。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。",
-        "fame-mcq-08": "「維持時間很短的公眾名氣」與本句語境不同。",
-        "fame-mcq-05": "「在國際／全球範圍獲得的知名度」與本句語境不同。",
-        "fame-mcq-09": "「長時間維持甚至流傳後世的名聲」與本句語境不同。",
-        "fame-mcq-04": "「某事件迅速把某人推到公眾焦點」與本句語境不同。"
+        "fame-mcq-07": "本句的「fame」指「內容爆紅後帶來的突然公眾知名度」。",
+        "fame-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-07"
     },
@@ -1073,11 +1017,9 @@ export default {
       "masked": "Her ____ faded within months.",
       "options": [
         "fame-mcq-08",
-        "fame-mcq-07",
-        "fame-mcq-09",
-        "fame-mcq-06",
-        "fame-mcq-10",
-        "fame-mcq-05"
+        "fame-mcq-22",
+        "fame-pdf-001",
+        "fame-mcq-25"
       ],
       "explanation": "本句的「short-lived fame」指「維持時間很短的公眾名氣」。",
       "sentenceIndex": 34,
@@ -1086,12 +1028,10 @@ export default {
         "short-lived fame"
       ],
       "optionReasons": {
-        "fame-mcq-08": "本句指「維持時間很短的公眾名氣」。",
-        "fame-mcq-07": "「內容爆紅後帶來的突然公眾知名度」與本句語境不同。",
-        "fame-mcq-09": "「長時間維持甚至流傳後世的名聲」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。",
-        "fame-mcq-10": "「一個人在死後才取得或大幅增加的名聲」與本句語境不同。",
-        "fame-mcq-05": "「在國際／全球範圍獲得的知名度」與本句語境不同。"
+        "fame-mcq-08": "本句的「short-lived fame」指「維持時間很短的公眾名氣」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-08"
     },
@@ -1103,11 +1043,9 @@ export default {
       "masked": "The programme created short-lived ____ for several contestants.",
       "options": [
         "fame-mcq-08",
-        "fame-mcq-07",
-        "fame-mcq-09",
-        "fame-mcq-06",
-        "fame-mcq-10",
-        "fame-mcq-05"
+        "fame-pdf-001",
+        "fame-mcq-25",
+        "fame-mcq-22"
       ],
       "explanation": "本句的「fame」指「維持時間很短的公眾名氣」。",
       "sentenceIndex": 35,
@@ -1116,12 +1054,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-08": "本句指「維持時間很短的公眾名氣」。",
-        "fame-mcq-07": "「內容爆紅後帶來的突然公眾知名度」與本句語境不同。",
-        "fame-mcq-09": "「長時間維持甚至流傳後世的名聲」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。",
-        "fame-mcq-10": "「一個人在死後才取得或大幅增加的名聲」與本句語境不同。",
-        "fame-mcq-05": "「在國際／全球範圍獲得的知名度」與本句語境不同。"
+        "fame-mcq-08": "本句的「fame」指「維持時間很短的公眾名氣」。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-08"
     },
@@ -1133,11 +1069,9 @@ export default {
       "masked": "The composer achieved ____.",
       "options": [
         "fame-mcq-09",
-        "fame-mcq-08",
-        "fame-mcq-10",
-        "fame-mcq-07",
-        "fame-mcq-11",
-        "fame-mcq-06"
+        "fame-mcq-04",
+        "fame-pdf-001",
+        "fame-mcq-22"
       ],
       "explanation": "本句的「enduring fame」指「長時間維持甚至流傳後世的名聲」。",
       "sentenceIndex": 38,
@@ -1146,12 +1080,10 @@ export default {
         "enduring fame"
       ],
       "optionReasons": {
-        "fame-mcq-09": "本句指「長時間維持甚至流傳後世的名聲」。",
-        "fame-mcq-08": "「維持時間很短的公眾名氣」與本句語境不同。",
-        "fame-mcq-10": "「一個人在死後才取得或大幅增加的名聲」與本句語境不同。",
-        "fame-mcq-07": "「內容爆紅後帶來的突然公眾知名度」與本句語境不同。",
-        "fame-mcq-11": "「令某人／某地最值得被記住或最出名的特點」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。"
+        "fame-mcq-09": "本句的「enduring fame」指「長時間維持甚至流傳後世的名聲」。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-09"
     },
@@ -1163,11 +1095,9 @@ export default {
       "masked": "Her work gave her enduring ____.",
       "options": [
         "fame-mcq-09",
-        "fame-mcq-08",
-        "fame-mcq-10",
-        "fame-mcq-07",
-        "fame-mcq-11",
-        "fame-mcq-06"
+        "fame-mcq-22",
+        "fame-pdf-001",
+        "fame-mcq-04"
       ],
       "explanation": "本句的「fame」指「長時間維持甚至流傳後世的名聲」。",
       "sentenceIndex": 39,
@@ -1176,12 +1106,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-09": "本句指「長時間維持甚至流傳後世的名聲」。",
-        "fame-mcq-08": "「維持時間很短的公眾名氣」與本句語境不同。",
-        "fame-mcq-10": "「一個人在死後才取得或大幅增加的名聲」與本句語境不同。",
-        "fame-mcq-07": "「內容爆紅後帶來的突然公眾知名度」與本句語境不同。",
-        "fame-mcq-11": "「令某人／某地最值得被記住或最出名的特點」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。"
+        "fame-mcq-09": "本句的「fame」指「長時間維持甚至流傳後世的名聲」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-09"
     },
@@ -1193,11 +1121,9 @@ export default {
       "masked": "The artist achieved ____.",
       "options": [
         "fame-mcq-10",
-        "fame-mcq-09",
-        "fame-mcq-11",
-        "fame-mcq-08",
-        "fame-mcq-12",
-        "fame-mcq-07"
+        "fame-mcq-22",
+        "fame-mcq-25",
+        "fame-pdf-001"
       ],
       "explanation": "本句的「posthumous fame」指「一個人在死後才取得或大幅增加的名聲」。",
       "sentenceIndex": 40,
@@ -1206,12 +1132,10 @@ export default {
         "posthumous fame"
       ],
       "optionReasons": {
-        "fame-mcq-10": "本句指「一個人在死後才取得或大幅增加的名聲」。",
-        "fame-mcq-09": "「長時間維持甚至流傳後世的名聲」與本句語境不同。",
-        "fame-mcq-11": "「令某人／某地最值得被記住或最出名的特點」與本句語境不同。",
-        "fame-mcq-08": "「維持時間很短的公眾名氣」與本句語境不同。",
-        "fame-mcq-12": "「普通人因媒體／事件而得到的短暫大量關注」與本句語境不同。",
-        "fame-mcq-07": "「內容爆紅後帶來的突然公眾知名度」與本句語境不同。"
+        "fame-mcq-10": "本句的「posthumous fame」指「一個人在死後才取得或大幅增加的名聲」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-10"
     },
@@ -1223,11 +1147,9 @@ export default {
       "masked": "His work received greater recognition and posthumous ____.",
       "options": [
         "fame-mcq-10",
-        "fame-mcq-09",
-        "fame-mcq-11",
-        "fame-mcq-08",
-        "fame-mcq-12",
-        "fame-mcq-07"
+        "fame-mcq-22",
+        "fame-pdf-001",
+        "fame-mcq-25"
       ],
       "explanation": "本句的「fame」指「一個人在死後才取得或大幅增加的名聲」。",
       "sentenceIndex": 41,
@@ -1236,12 +1158,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-10": "本句指「一個人在死後才取得或大幅增加的名聲」。",
-        "fame-mcq-09": "「長時間維持甚至流傳後世的名聲」與本句語境不同。",
-        "fame-mcq-11": "「令某人／某地最值得被記住或最出名的特點」與本句語境不同。",
-        "fame-mcq-08": "「維持時間很短的公眾名氣」與本句語境不同。",
-        "fame-mcq-12": "「普通人因媒體／事件而得到的短暫大量關注」與本句語境不同。",
-        "fame-mcq-07": "「內容爆紅後帶來的突然公眾知名度」與本句語境不同。"
+        "fame-mcq-10": "本句的「fame」指「一個人在死後才取得或大幅增加的名聲」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-10"
     },
@@ -1253,11 +1173,9 @@ export default {
       "masked": "Her ____ is a video with ten million views.",
       "options": [
         "fame-mcq-11",
-        "fame-mcq-10",
-        "fame-mcq-12",
-        "fame-mcq-09",
-        "fame-mcq-13",
-        "fame-mcq-08"
+        "fame-mcq-22",
+        "fame-pdf-001",
+        "fame-mcq-25"
       ],
       "explanation": "本句的「claim to fame」指「令某人／某地最值得被記住或最出名的特點」。",
       "sentenceIndex": 46,
@@ -1266,12 +1184,10 @@ export default {
         "claim to fame"
       ],
       "optionReasons": {
-        "fame-mcq-11": "本句指「令某人／某地最值得被記住或最出名的特點」。",
-        "fame-mcq-10": "「一個人在死後才取得或大幅增加的名聲」與本句語境不同。",
-        "fame-mcq-12": "「普通人因媒體／事件而得到的短暫大量關注」與本句語境不同。",
-        "fame-mcq-09": "「長時間維持甚至流傳後世的名聲」與本句語境不同。",
-        "fame-mcq-13": "「正式表揚某領域傑出人物的名人堂」與本句語境不同。",
-        "fame-mcq-08": "「維持時間很短的公眾名氣」與本句語境不同。"
+        "fame-mcq-11": "本句的「claim to fame」指「令某人／某地最值得被記住或最出名的特點」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-11"
     },
@@ -1283,11 +1199,9 @@ export default {
       "masked": "The town’s main claim to ____ is its historic bridge.",
       "options": [
         "fame-mcq-11",
-        "fame-mcq-10",
         "fame-mcq-12",
-        "fame-mcq-09",
-        "fame-mcq-13",
-        "fame-mcq-08"
+        "fame-mcq-22",
+        "fame-mcq-25"
       ],
       "explanation": "本句的「fame」指「令某人／某地最值得被記住或最出名的特點」。",
       "sentenceIndex": 47,
@@ -1296,12 +1210,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-11": "本句指「令某人／某地最值得被記住或最出名的特點」。",
-        "fame-mcq-10": "「一個人在死後才取得或大幅增加的名聲」與本句語境不同。",
-        "fame-mcq-12": "「普通人因媒體／事件而得到的短暫大量關注」與本句語境不同。",
-        "fame-mcq-09": "「長時間維持甚至流傳後世的名聲」與本句語境不同。",
-        "fame-mcq-13": "「正式表揚某領域傑出人物的名人堂」與本句語境不同。",
-        "fame-mcq-08": "「維持時間很短的公眾名氣」與本句語境不同。"
+        "fame-mcq-11": "本句的「fame」指「令某人／某地最值得被記住或最出名的特點」。",
+        "fame-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-11"
     },
@@ -1313,11 +1225,9 @@ export default {
       "masked": "My only ____ is that I once met a famous actor.",
       "options": [
         "fame-mcq-11",
-        "fame-mcq-10",
-        "fame-mcq-12",
-        "fame-mcq-09",
-        "fame-mcq-13",
-        "fame-mcq-08"
+        "fame-mcq-25",
+        "fame-pdf-001",
+        "fame-mcq-12"
       ],
       "explanation": "本句的「claim to fame」指「令某人／某地最值得被記住或最出名的特點」。",
       "sentenceIndex": 48,
@@ -1326,12 +1236,10 @@ export default {
         "claim to fame"
       ],
       "optionReasons": {
-        "fame-mcq-11": "本句指「令某人／某地最值得被記住或最出名的特點」。",
-        "fame-mcq-10": "「一個人在死後才取得或大幅增加的名聲」與本句語境不同。",
-        "fame-mcq-12": "「普通人因媒體／事件而得到的短暫大量關注」與本句語境不同。",
-        "fame-mcq-09": "「長時間維持甚至流傳後世的名聲」與本句語境不同。",
-        "fame-mcq-13": "「正式表揚某領域傑出人物的名人堂」與本句語境不同。",
-        "fame-mcq-08": "「維持時間很短的公眾名氣」與本句語境不同。"
+        "fame-mcq-11": "本句的「claim to fame」指「令某人／某地最值得被記住或最出名的特點」。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-11"
     },
@@ -1343,11 +1251,9 @@ export default {
       "masked": "His claim to ____ is making the best coffee in the office.",
       "options": [
         "fame-mcq-11",
-        "fame-mcq-10",
         "fame-mcq-12",
-        "fame-mcq-09",
-        "fame-mcq-13",
-        "fame-mcq-08"
+        "fame-mcq-25",
+        "fame-mcq-22"
       ],
       "explanation": "本句的「fame」指「令某人／某地最值得被記住或最出名的特點」。",
       "sentenceIndex": 49,
@@ -1356,12 +1262,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-11": "本句指「令某人／某地最值得被記住或最出名的特點」。",
-        "fame-mcq-10": "「一個人在死後才取得或大幅增加的名聲」與本句語境不同。",
-        "fame-mcq-12": "「普通人因媒體／事件而得到的短暫大量關注」與本句語境不同。",
-        "fame-mcq-09": "「長時間維持甚至流傳後世的名聲」與本句語境不同。",
-        "fame-mcq-13": "「正式表揚某領域傑出人物的名人堂」與本句語境不同。",
-        "fame-mcq-08": "「維持時間很短的公眾名氣」與本句語境不同。"
+        "fame-mcq-11": "本句的「fame」指「令某人／某地最值得被記住或最出名的特點」。",
+        "fame-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-11"
     },
@@ -1373,11 +1277,9 @@ export default {
       "masked": "The viral clip gave him his ____.",
       "options": [
         "fame-mcq-12",
-        "fame-mcq-11",
-        "fame-mcq-13",
-        "fame-mcq-10",
-        "fame-mcq-14",
-        "fame-mcq-09"
+        "fame-mcq-27",
+        "fame-mcq-25",
+        "fame-mcq-14"
       ],
       "explanation": "本句的「fifteen minutes of fame」指「普通人因媒體／事件而得到的短暫大量關注」。",
       "sentenceIndex": 50,
@@ -1386,12 +1288,10 @@ export default {
         "fifteen minutes of fame"
       ],
       "optionReasons": {
-        "fame-mcq-12": "本句指「普通人因媒體／事件而得到的短暫大量關注」。",
-        "fame-mcq-11": "「令某人／某地最值得被記住或最出名的特點」與本句語境不同。",
-        "fame-mcq-13": "「正式表揚某領域傑出人物的名人堂」與本句語境不同。",
-        "fame-mcq-10": "「一個人在死後才取得或大幅增加的名聲」與本句語境不同。",
-        "fame-mcq-14": "「公眾名聲與財富；名利」與本句語境不同。",
-        "fame-mcq-09": "「長時間維持甚至流傳後世的名聲」與本句語境不同。"
+        "fame-mcq-12": "本句的「fifteen minutes of fame」指「普通人因媒體／事件而得到的短暫大量關注」。",
+        "fame-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-12"
     },
@@ -1403,11 +1303,9 @@ export default {
       "masked": "She enjoyed her fifteen minutes of ____ and moved on.",
       "options": [
         "fame-mcq-12",
+        "fame-mcq-02",
         "fame-mcq-11",
-        "fame-mcq-13",
-        "fame-mcq-10",
-        "fame-mcq-14",
-        "fame-mcq-09"
+        "fame-mcq-14"
       ],
       "explanation": "本句的「fame」指「普通人因媒體／事件而得到的短暫大量關注」。",
       "sentenceIndex": 51,
@@ -1416,12 +1314,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-12": "本句指「普通人因媒體／事件而得到的短暫大量關注」。",
-        "fame-mcq-11": "「令某人／某地最值得被記住或最出名的特點」與本句語境不同。",
-        "fame-mcq-13": "「正式表揚某領域傑出人物的名人堂」與本句語境不同。",
-        "fame-mcq-10": "「一個人在死後才取得或大幅增加的名聲」與本句語境不同。",
-        "fame-mcq-14": "「公眾名聲與財富；名利」與本句語境不同。",
-        "fame-mcq-09": "「長時間維持甚至流傳後世的名聲」與本句語境不同。"
+        "fame-mcq-12": "本句的「fame」指「普通人因媒體／事件而得到的短暫大量關注」。",
+        "fame-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-12"
     },
@@ -1434,10 +1330,8 @@ export default {
       "options": [
         "fame-mcq-13",
         "fame-mcq-12",
-        "fame-mcq-14",
-        "fame-mcq-11",
-        "fame-mcq-15",
-        "fame-mcq-10"
+        "fame-pdf-001",
+        "fame-mcq-25"
       ],
       "explanation": "本句的「Hall of Fame」指「正式表揚某領域傑出人物的名人堂」。",
       "sentenceIndex": 52,
@@ -1446,12 +1340,10 @@ export default {
         "Hall of Fame"
       ],
       "optionReasons": {
-        "fame-mcq-13": "本句指「正式表揚某領域傑出人物的名人堂」。",
-        "fame-mcq-12": "「普通人因媒體／事件而得到的短暫大量關注」與本句語境不同。",
-        "fame-mcq-14": "「公眾名聲與財富；名利」與本句語境不同。",
-        "fame-mcq-11": "「令某人／某地最值得被記住或最出名的特點」與本句語境不同。",
-        "fame-mcq-15": "「主動追求成名／知名度」與本句語境不同。",
-        "fame-mcq-10": "「一個人在死後才取得或大幅增加的名聲」與本句語境不同。"
+        "fame-mcq-13": "本句的「Hall of Fame」指「正式表揚某領域傑出人物的名人堂」。",
+        "fame-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-13"
     },
@@ -1464,10 +1356,8 @@ export default {
       "options": [
         "fame-mcq-13",
         "fame-mcq-12",
-        "fame-mcq-14",
-        "fame-mcq-11",
-        "fame-mcq-15",
-        "fame-mcq-10"
+        "fame-mcq-25",
+        "fame-pdf-001"
       ],
       "explanation": "本句的「Fame」指「正式表揚某領域傑出人物的名人堂」。",
       "sentenceIndex": 53,
@@ -1476,12 +1366,10 @@ export default {
         "Fame"
       ],
       "optionReasons": {
-        "fame-mcq-13": "本句指「正式表揚某領域傑出人物的名人堂」。",
-        "fame-mcq-12": "「普通人因媒體／事件而得到的短暫大量關注」與本句語境不同。",
-        "fame-mcq-14": "「公眾名聲與財富；名利」與本句語境不同。",
-        "fame-mcq-11": "「令某人／某地最值得被記住或最出名的特點」與本句語境不同。",
-        "fame-mcq-15": "「主動追求成名／知名度」與本句語境不同。",
-        "fame-mcq-10": "「一個人在死後才取得或大幅增加的名聲」與本句語境不同。"
+        "fame-mcq-13": "本句的「Fame」指「正式表揚某領域傑出人物的名人堂」。",
+        "fame-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-13"
     },
@@ -1493,11 +1381,9 @@ export default {
       "masked": "He moved to the city in search of ____.",
       "options": [
         "fame-mcq-14",
-        "fame-mcq-13",
-        "fame-mcq-15",
         "fame-mcq-12",
-        "fame-mcq-16",
-        "fame-mcq-11"
+        "fame-mcq-22",
+        "fame-mcq-25"
       ],
       "explanation": "本句的「fame and fortune」指「公眾名聲與財富；名利」。",
       "sentenceIndex": 55,
@@ -1506,12 +1392,10 @@ export default {
         "fame and fortune"
       ],
       "optionReasons": {
-        "fame-mcq-14": "本句指「公眾名聲與財富；名利」。",
-        "fame-mcq-13": "「正式表揚某領域傑出人物的名人堂」與本句語境不同。",
-        "fame-mcq-15": "「主動追求成名／知名度」與本句語境不同。",
-        "fame-mcq-12": "「普通人因媒體／事件而得到的短暫大量關注」與本句語境不同。",
-        "fame-mcq-16": "「成名後必須承受的負面代價」與本句語境不同。",
-        "fame-mcq-11": "「令某人／某地最值得被記住或最出名的特點」與本句語境不同。"
+        "fame-mcq-14": "本句的「fame and fortune」指「公眾名聲與財富；名利」。",
+        "fame-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-14"
     },
@@ -1523,11 +1407,9 @@ export default {
       "masked": "Not everyone dreams of ____ and fortune.",
       "options": [
         "fame-mcq-14",
-        "fame-mcq-13",
-        "fame-mcq-15",
+        "fame-mcq-25",
         "fame-mcq-12",
-        "fame-mcq-16",
-        "fame-mcq-11"
+        "fame-pdf-001"
       ],
       "explanation": "本句的「fame」指「公眾名聲與財富；名利」。",
       "sentenceIndex": 56,
@@ -1536,12 +1418,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-14": "本句指「公眾名聲與財富；名利」。",
-        "fame-mcq-13": "「正式表揚某領域傑出人物的名人堂」與本句語境不同。",
-        "fame-mcq-15": "「主動追求成名／知名度」與本句語境不同。",
-        "fame-mcq-12": "「普通人因媒體／事件而得到的短暫大量關注」與本句語境不同。",
-        "fame-mcq-16": "「成名後必須承受的負面代價」與本句語境不同。",
-        "fame-mcq-11": "「令某人／某地最值得被記住或最出名的特點」與本句語境不同。"
+        "fame-mcq-14": "本句的「fame」指「公眾名聲與財富；名利」。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-14"
     },
@@ -1553,11 +1433,9 @@ export default {
       "masked": "He became tired of ____.",
       "options": [
         "fame-mcq-15",
-        "fame-mcq-14",
-        "fame-mcq-16",
-        "fame-mcq-13",
-        "fame-mcq-17",
-        "fame-mcq-12"
+        "fame-mcq-04",
+        "fame-mcq-22",
+        "fame-mcq-25"
       ],
       "explanation": "本句的「chasing fame」指「主動追求成名／知名度」。",
       "sentenceIndex": 59,
@@ -1566,12 +1444,10 @@ export default {
         "chasing fame"
       ],
       "optionReasons": {
-        "fame-mcq-15": "本句指「主動追求成名／知名度」。",
-        "fame-mcq-14": "「公眾名聲與財富；名利」與本句語境不同。",
-        "fame-mcq-16": "「成名後必須承受的負面代價」與本句語境不同。",
-        "fame-mcq-13": "「正式表揚某領域傑出人物的名人堂」與本句語境不同。",
-        "fame-mcq-17": "「公眾關注、期待、私隱減少等成名壓力」與本句語境不同。",
-        "fame-mcq-12": "「普通人因媒體／事件而得到的短暫大量關注」與本句語境不同。"
+        "fame-mcq-15": "本句的「chasing fame」指「主動追求成名／知名度」。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-15"
     },
@@ -1583,11 +1459,9 @@ export default {
       "masked": "Chasing ____ can become exhausting.",
       "options": [
         "fame-mcq-15",
-        "fame-mcq-14",
-        "fame-mcq-16",
-        "fame-mcq-13",
-        "fame-mcq-17",
-        "fame-mcq-12"
+        "fame-mcq-04",
+        "fame-mcq-22",
+        "fame-mcq-09"
       ],
       "explanation": "本句的「fame」指「主動追求成名／知名度」。",
       "sentenceIndex": 60,
@@ -1596,12 +1470,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-15": "本句指「主動追求成名／知名度」。",
-        "fame-mcq-14": "「公眾名聲與財富；名利」與本句語境不同。",
-        "fame-mcq-16": "「成名後必須承受的負面代價」與本句語境不同。",
-        "fame-mcq-13": "「正式表揚某領域傑出人物的名人堂」與本句語境不同。",
-        "fame-mcq-17": "「公眾關注、期待、私隱減少等成名壓力」與本句語境不同。",
-        "fame-mcq-12": "「普通人因媒體／事件而得到的短暫大量關注」與本句語境不同。"
+        "fame-mcq-15": "本句的「fame」指「主動追求成名／知名度」。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-15"
     },
@@ -1613,11 +1485,9 @@ export default {
       "masked": "She struggled with the ____.",
       "options": [
         "fame-mcq-17",
-        "fame-mcq-16",
-        "fame-mcq-18",
-        "fame-mcq-15",
-        "fame-mcq-19",
-        "fame-mcq-14"
+        "fame-mcq-22",
+        "fame-mcq-25",
+        "fame-pdf-001"
       ],
       "explanation": "本句的「pressures of fame」指「公眾關注、期待、私隱減少等成名壓力」。",
       "sentenceIndex": 71,
@@ -1626,12 +1496,10 @@ export default {
         "pressures of fame"
       ],
       "optionReasons": {
-        "fame-mcq-17": "本句指「公眾關注、期待、私隱減少等成名壓力」。",
-        "fame-mcq-16": "「成名後必須承受的負面代價」與本句語境不同。",
-        "fame-mcq-18": "「被大量人認識的；著名的」與本句語境不同。",
-        "fame-mcq-15": "「主動追求成名／知名度」與本句語境不同。",
-        "fame-mcq-19": "「因某特質、成就或事物而聞名」與本句語境不同。",
-        "fame-mcq-14": "「公眾名聲與財富；名利」與本句語境不同。"
+        "fame-mcq-17": "本句的「pressures of fame」指「公眾關注、期待、私隱減少等成名壓力」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-17"
     },
@@ -1643,11 +1511,9 @@ export default {
       "masked": "The pressures of ____ can include loss of privacy.",
       "options": [
         "fame-mcq-17",
-        "fame-mcq-16",
-        "fame-mcq-18",
-        "fame-mcq-15",
-        "fame-mcq-19",
-        "fame-mcq-14"
+        "fame-mcq-22",
+        "fame-pdf-001",
+        "fame-mcq-25"
       ],
       "explanation": "本句的「fame」指「公眾關注、期待、私隱減少等成名壓力」。",
       "sentenceIndex": 72,
@@ -1656,12 +1522,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-17": "本句指「公眾關注、期待、私隱減少等成名壓力」。",
-        "fame-mcq-16": "「成名後必須承受的負面代價」與本句語境不同。",
-        "fame-mcq-18": "「被大量人認識的；著名的」與本句語境不同。",
-        "fame-mcq-15": "「主動追求成名／知名度」與本句語境不同。",
-        "fame-mcq-19": "「因某特質、成就或事物而聞名」與本句語境不同。",
-        "fame-mcq-14": "「公眾名聲與財富；名利」與本句語境不同。"
+        "fame-mcq-17": "本句的「fame」指「公眾關注、期待、私隱減少等成名壓力」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-17"
     },
@@ -1673,11 +1537,9 @@ export default {
       "masked": "Loss of privacy can be part of the ____.",
       "options": [
         "fame-mcq-16",
-        "fame-mcq-15",
-        "fame-mcq-17",
-        "fame-mcq-14",
-        "fame-mcq-18",
-        "fame-mcq-13"
+        "fame-mcq-25",
+        "fame-mcq-22",
+        "fame-mcq-04"
       ],
       "explanation": "本句的「price of fame」指「成名後必須承受的負面代價」。",
       "sentenceIndex": 73,
@@ -1686,12 +1548,10 @@ export default {
         "price of fame"
       ],
       "optionReasons": {
-        "fame-mcq-16": "本句指「成名後必須承受的負面代價」。",
-        "fame-mcq-15": "「主動追求成名／知名度」與本句語境不同。",
-        "fame-mcq-17": "「公眾關注、期待、私隱減少等成名壓力」與本句語境不同。",
-        "fame-mcq-14": "「公眾名聲與財富；名利」與本句語境不同。",
-        "fame-mcq-18": "「被大量人認識的；著名的」與本句語境不同。",
-        "fame-mcq-13": "「正式表揚某領域傑出人物的名人堂」與本句語境不同。"
+        "fame-mcq-16": "本句的「price of fame」指「成名後必須承受的負面代價」。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-16"
     },
@@ -1703,11 +1563,9 @@ export default {
       "masked": "He discovered that criticism was part of the price of ____.",
       "options": [
         "fame-mcq-16",
-        "fame-mcq-15",
-        "fame-mcq-17",
-        "fame-mcq-14",
-        "fame-mcq-18",
-        "fame-mcq-13"
+        "fame-pdf-001",
+        "fame-mcq-22",
+        "fame-mcq-04"
       ],
       "explanation": "本句的「fame」指「成名後必須承受的負面代價」。",
       "sentenceIndex": 74,
@@ -1716,12 +1574,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-16": "本句指「成名後必須承受的負面代價」。",
-        "fame-mcq-15": "「主動追求成名／知名度」與本句語境不同。",
-        "fame-mcq-17": "「公眾關注、期待、私隱減少等成名壓力」與本句語境不同。",
-        "fame-mcq-14": "「公眾名聲與財富；名利」與本句語境不同。",
-        "fame-mcq-18": "「被大量人認識的；著名的」與本句語境不同。",
-        "fame-mcq-13": "「正式表揚某領域傑出人物的名人堂」與本句語境不同。"
+        "fame-mcq-16": "本句的「fame」指「成名後必須承受的負面代價」。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-16"
     },
@@ -1733,11 +1589,9 @@ export default {
       "masked": "She became ____ overnight.",
       "options": [
         "fame-mcq-18",
-        "fame-mcq-17",
-        "fame-mcq-19",
-        "fame-mcq-16",
-        "fame-mcq-20",
-        "fame-mcq-15"
+        "fame-mcq-04",
+        "fame-pdf-001",
+        "fame-mcq-22"
       ],
       "explanation": "本句的「famous」指「被大量人認識的；著名的」。",
       "sentenceIndex": 85,
@@ -1746,12 +1600,10 @@ export default {
         "famous"
       ],
       "optionReasons": {
-        "fame-mcq-18": "本句指「被大量人認識的；著名的」。",
-        "fame-mcq-17": "「公眾關注、期待、私隱減少等成名壓力」與本句語境不同。",
-        "fame-mcq-19": "「因某特質、成就或事物而聞名」與本句語境不同。",
-        "fame-mcq-16": "「成名後必須承受的負面代價」與本句語境不同。",
-        "fame-mcq-20": "「以某身份／角色而聞名」與本句語境不同。",
-        "fame-mcq-15": "「主動追求成名／知名度」與本句語境不同。"
+        "fame-mcq-18": "本句的「famous」指「被大量人認識的；著名的」。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-18"
     },
@@ -1763,11 +1615,9 @@ export default {
       "masked": "He is a ____ actor.",
       "options": [
         "fame-mcq-18",
-        "fame-mcq-17",
-        "fame-mcq-19",
-        "fame-mcq-16",
-        "fame-mcq-20",
-        "fame-mcq-15"
+        "fame-mcq-04",
+        "fame-pdf-001",
+        "fame-mcq-22"
       ],
       "explanation": "本句的「famous」指「被大量人認識的；著名的」。",
       "sentenceIndex": 86,
@@ -1776,12 +1626,10 @@ export default {
         "famous"
       ],
       "optionReasons": {
-        "fame-mcq-18": "本句指「被大量人認識的；著名的」。",
-        "fame-mcq-17": "「公眾關注、期待、私隱減少等成名壓力」與本句語境不同。",
-        "fame-mcq-19": "「因某特質、成就或事物而聞名」與本句語境不同。",
-        "fame-mcq-16": "「成名後必須承受的負面代價」與本句語境不同。",
-        "fame-mcq-20": "「以某身份／角色而聞名」與本句語境不同。",
-        "fame-mcq-15": "「主動追求成名／知名度」與本句語境不同。"
+        "fame-mcq-18": "本句的「famous」指「被大量人認識的；著名的」。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-18"
     },
@@ -1793,11 +1641,9 @@ export default {
       "masked": "That is a ____.",
       "options": [
         "fame-mcq-18",
-        "fame-mcq-17",
-        "fame-mcq-19",
-        "fame-mcq-16",
-        "fame-mcq-20",
-        "fame-mcq-15"
+        "fame-mcq-22",
+        "fame-mcq-25",
+        "fame-pdf-001"
       ],
       "explanation": "本句的「famous quotation」指「被大量人認識的；著名的」。",
       "sentenceIndex": 101,
@@ -1806,12 +1652,10 @@ export default {
         "famous quotation"
       ],
       "optionReasons": {
-        "fame-mcq-18": "本句指「被大量人認識的；著名的」。",
-        "fame-mcq-17": "「公眾關注、期待、私隱減少等成名壓力」與本句語境不同。",
-        "fame-mcq-19": "「因某特質、成就或事物而聞名」與本句語境不同。",
-        "fame-mcq-16": "「成名後必須承受的負面代價」與本句語境不同。",
-        "fame-mcq-20": "「以某身份／角色而聞名」與本句語境不同。",
-        "fame-mcq-15": "「主動追求成名／知名度」與本句語境不同。"
+        "fame-mcq-18": "本句的「famous quotation」指「被大量人認識的；著名的」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-18"
     },
@@ -1823,11 +1667,9 @@ export default {
       "masked": "They visited a ____ landmark.",
       "options": [
         "fame-mcq-18",
-        "fame-mcq-17",
-        "fame-mcq-19",
-        "fame-mcq-16",
-        "fame-mcq-20",
-        "fame-mcq-15"
+        "fame-mcq-25",
+        "fame-mcq-22",
+        "fame-mcq-04"
       ],
       "explanation": "本句的「famous」指「被大量人認識的；著名的」。",
       "sentenceIndex": 102,
@@ -1836,12 +1678,10 @@ export default {
         "famous"
       ],
       "optionReasons": {
-        "fame-mcq-18": "本句指「被大量人認識的；著名的」。",
-        "fame-mcq-17": "「公眾關注、期待、私隱減少等成名壓力」與本句語境不同。",
-        "fame-mcq-19": "「因某特質、成就或事物而聞名」與本句語境不同。",
-        "fame-mcq-16": "「成名後必須承受的負面代價」與本句語境不同。",
-        "fame-mcq-20": "「以某身份／角色而聞名」與本句語境不同。",
-        "fame-mcq-15": "「主動追求成名／知名度」與本句語境不同。"
+        "fame-mcq-18": "本句的「famous」指「被大量人認識的；著名的」。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-18"
     },
@@ -1853,11 +1693,9 @@ export default {
       "masked": "The actor ____ the role.",
       "options": [
         "fame-pdf-001",
-        "fame-mcq-20",
         "fame-mcq-22",
-        "fame-mcq-19",
-        "fame-mcq-23",
-        "fame-mcq-18"
+        "fame-mcq-16",
+        "fame-mcq-08"
       ],
       "explanation": "本句的「famously refused」指「這件事本身已廣為人知」。",
       "sentenceIndex": 103,
@@ -1866,12 +1704,10 @@ export default {
         "famously refused"
       ],
       "optionReasons": {
-        "fame-pdf-001": "本句指「這件事本身已廣為人知」。",
-        "fame-mcq-20": "「以某身份／角色而聞名」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。",
-        "fame-mcq-19": "「因某特質、成就或事物而聞名」與本句語境不同。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-18": "「被大量人認識的；著名的」與本句語境不同。"
+        "fame-pdf-001": "本句的「famously refused」指「這件事本身已廣為人知」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-pdf-001"
     },
@@ -1883,11 +1719,9 @@ export default {
       "masked": "The two companies ____ disagreed over the design.",
       "options": [
         "fame-pdf-001",
-        "fame-mcq-20",
-        "fame-mcq-22",
-        "fame-mcq-19",
-        "fame-mcq-23",
-        "fame-mcq-18"
+        "fame-mcq-03",
+        "fame-mcq-25",
+        "fame-mcq-11"
       ],
       "explanation": "本句的「famously」指「這件事本身已廣為人知」。",
       "sentenceIndex": 104,
@@ -1896,12 +1730,10 @@ export default {
         "famously"
       ],
       "optionReasons": {
-        "fame-pdf-001": "本句指「這件事本身已廣為人知」。",
-        "fame-mcq-20": "「以某身份／角色而聞名」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。",
-        "fame-mcq-19": "「因某特質、成就或事物而聞名」與本句語境不同。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-18": "「被大量人認識的；著名的」與本句語境不同。"
+        "fame-pdf-001": "本句的「famously」指「這件事本身已廣為人知」。",
+        "fame-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-pdf-001"
     },
@@ -1913,11 +1745,9 @@ export default {
       "masked": "The two students ____.",
       "options": [
         "fame-mcq-22",
-        "fame-mcq-21",
-        "fame-mcq-23",
-        "fame-mcq-20",
-        "fame-mcq-24",
-        "fame-mcq-19"
+        "fame-mcq-25",
+        "fame-mcq-05",
+        "fame-mcq-11"
       ],
       "explanation": "本句的「got along famously」指「相處得非常好」。",
       "sentenceIndex": 107,
@@ -1926,12 +1756,10 @@ export default {
         "got along famously"
       ],
       "optionReasons": {
-        "fame-mcq-22": "本句指「相處得非常好」。",
-        "fame-mcq-21": "「以眾所周知的方式；某特點出了名地……」與本句語境不同。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-20": "「以某身份／角色而聞名」與本句語境不同。",
-        "fame-mcq-24": "「因惡劣行為而廣為人知的惡名」與本句語境不同。",
-        "fame-mcq-19": "「因某特質、成就或事物而聞名」與本句語境不同。"
+        "fame-mcq-22": "本句的「got along famously」指「相處得非常好」。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-22"
     },
@@ -1943,11 +1771,9 @@ export default {
       "masked": "Despite their differences, they got on ____.",
       "options": [
         "fame-mcq-22",
-        "fame-mcq-21",
-        "fame-mcq-23",
-        "fame-mcq-20",
-        "fame-mcq-24",
-        "fame-mcq-19"
+        "fame-mcq-04",
+        "fame-mcq-18",
+        "fame-mcq-02"
       ],
       "explanation": "本句的「famously」指「相處得非常好」。",
       "sentenceIndex": 108,
@@ -1956,12 +1782,10 @@ export default {
         "famously"
       ],
       "optionReasons": {
-        "fame-mcq-22": "本句指「相處得非常好」。",
-        "fame-mcq-21": "「以眾所周知的方式；某特點出了名地……」與本句語境不同。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-20": "「以某身份／角色而聞名」與本句語境不同。",
-        "fame-mcq-24": "「因惡劣行為而廣為人知的惡名」與本句語境不同。",
-        "fame-mcq-19": "「因某特質、成就或事物而聞名」與本句語境不同。"
+        "fame-mcq-22": "本句的「famously」指「相處得非常好」。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-22"
     },
@@ -1973,11 +1797,9 @@ export default {
       "masked": "The prison became ____ for its harsh conditions.",
       "options": [
         "fame-mcq-23",
-        "fame-mcq-22",
-        "fame-mcq-24",
-        "fame-mcq-21",
-        "fame-mcq-25",
-        "fame-mcq-20"
+        "fame-mcq-04",
+        "fame-pdf-001",
+        "fame-mcq-25"
       ],
       "explanation": "本句的「infamous」指「因壞事／負面特質而臭名昭著的」。",
       "sentenceIndex": 109,
@@ -1986,12 +1808,10 @@ export default {
         "infamous"
       ],
       "optionReasons": {
-        "fame-mcq-23": "本句指「因壞事／負面特質而臭名昭著的」。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。",
-        "fame-mcq-24": "「因惡劣行為而廣為人知的惡名」與本句語境不同。",
-        "fame-mcq-21": "「以眾所周知的方式；某特點出了名地……」與本句語境不同。",
-        "fame-mcq-25": "「用來諷刺過早、過度自信預測的一句話」與本句語境不同。",
-        "fame-mcq-20": "「以某身份／角色而聞名」與本句語境不同。"
+        "fame-mcq-23": "本句的「infamous」指「因壞事／負面特質而臭名昭著的」。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-23"
     },
@@ -2003,11 +1823,9 @@ export default {
       "masked": "The website was ____ spreading false rumours.",
       "options": [
         "fame-mcq-23",
-        "fame-mcq-22",
-        "fame-mcq-24",
-        "fame-mcq-21",
         "fame-mcq-25",
-        "fame-mcq-20"
+        "fame-mcq-04",
+        "fame-pdf-001"
       ],
       "explanation": "本句的「infamous for」指「因壞事／負面特質而臭名昭著的」。",
       "sentenceIndex": 110,
@@ -2016,12 +1834,10 @@ export default {
         "infamous for"
       ],
       "optionReasons": {
-        "fame-mcq-23": "本句指「因壞事／負面特質而臭名昭著的」。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。",
-        "fame-mcq-24": "「因惡劣行為而廣為人知的惡名」與本句語境不同。",
-        "fame-mcq-21": "「以眾所周知的方式；某特點出了名地……」與本句語境不同。",
-        "fame-mcq-25": "「用來諷刺過早、過度自信預測的一句話」與本句語境不同。",
-        "fame-mcq-20": "「以某身份／角色而聞名」與本句語境不同。"
+        "fame-mcq-23": "本句的「infamous for」指「因壞事／負面特質而臭名昭著的」。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-23"
     },
@@ -2033,11 +1849,9 @@ export default {
       "masked": "The event passed into ____.",
       "options": [
         "fame-mcq-24",
-        "fame-mcq-23",
-        "fame-mcq-25",
         "fame-mcq-22",
-        "fame-mcq-26",
-        "fame-mcq-21"
+        "fame-mcq-25",
+        "fame-mcq-04"
       ],
       "explanation": "本句的「infamy」指「因惡劣行為而廣為人知的惡名」。",
       "sentenceIndex": 111,
@@ -2046,12 +1860,10 @@ export default {
         "infamy"
       ],
       "optionReasons": {
-        "fame-mcq-24": "本句指「因惡劣行為而廣為人知的惡名」。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-25": "「用來諷刺過早、過度自信預測的一句話」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。",
-        "fame-mcq-26": "「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」與本句語境不同。",
-        "fame-mcq-21": "「以眾所周知的方式；某特點出了名地……」與本句語境不同。"
+        "fame-mcq-24": "本句的「infamy」指「因惡劣行為而廣為人知的惡名」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-24"
     },
@@ -2063,11 +1875,9 @@ export default {
       "masked": "She achieved ____.",
       "options": [
         "fame-mcq-24",
-        "fame-mcq-23",
         "fame-mcq-25",
-        "fame-mcq-22",
-        "fame-mcq-26",
-        "fame-mcq-21"
+        "fame-mcq-04",
+        "fame-mcq-22"
       ],
       "explanation": "本句的「fame」指「因惡劣行為而廣為人知的惡名」。",
       "sentenceIndex": 112,
@@ -2076,12 +1886,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-24": "本句指「因惡劣行為而廣為人知的惡名」。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-25": "「用來諷刺過早、過度自信預測的一句話」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。",
-        "fame-mcq-26": "「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」與本句語境不同。",
-        "fame-mcq-21": "「以眾所周知的方式；某特點出了名地……」與本句語境不同。"
+        "fame-mcq-24": "本句的「fame」指「因惡劣行為而廣為人知的惡名」。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-24"
     },
@@ -2093,11 +1901,9 @@ export default {
       "masked": "____ changed him.",
       "options": [
         "fame-mcq-24",
-        "fame-mcq-23",
         "fame-mcq-25",
-        "fame-mcq-22",
-        "fame-mcq-26",
-        "fame-mcq-21"
+        "fame-mcq-04",
+        "fame-mcq-22"
       ],
       "explanation": "本句的「Fame」指「因惡劣行為而廣為人知的惡名」。",
       "sentenceIndex": 113,
@@ -2106,12 +1912,10 @@ export default {
         "Fame"
       ],
       "optionReasons": {
-        "fame-mcq-24": "本句指「因惡劣行為而廣為人知的惡名」。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-25": "「用來諷刺過早、過度自信預測的一句話」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。",
-        "fame-mcq-26": "「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」與本句語境不同。",
-        "fame-mcq-21": "「以眾所周知的方式；某特點出了名地……」與本句語境不同。"
+        "fame-mcq-24": "本句的「Fame」指「因惡劣行為而廣為人知的惡名」。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-24"
     },
@@ -2123,11 +1927,9 @@ export default {
       "masked": "He became ____.",
       "options": [
         "fame-mcq-24",
-        "fame-mcq-23",
-        "fame-mcq-25",
         "fame-mcq-22",
-        "fame-mcq-26",
-        "fame-mcq-21"
+        "fame-mcq-25",
+        "fame-mcq-04"
       ],
       "explanation": "本句的「famous」指「因惡劣行為而廣為人知的惡名」。",
       "sentenceIndex": 114,
@@ -2136,12 +1938,10 @@ export default {
         "famous"
       ],
       "optionReasons": {
-        "fame-mcq-24": "本句指「因惡劣行為而廣為人知的惡名」。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-25": "「用來諷刺過早、過度自信預測的一句話」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。",
-        "fame-mcq-26": "「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」與本句語境不同。",
-        "fame-mcq-21": "「以眾所周知的方式；某特點出了名地……」與本句語境不同。"
+        "fame-mcq-24": "本句的「famous」指「因惡劣行為而廣為人知的惡名」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-24"
     },
@@ -2153,11 +1953,9 @@ export default {
       "masked": "She is ____ for her videos.",
       "options": [
         "fame-mcq-24",
-        "fame-mcq-23",
         "fame-mcq-25",
         "fame-mcq-22",
-        "fame-mcq-26",
-        "fame-mcq-21"
+        "fame-mcq-04"
       ],
       "explanation": "本句的「famous」指「因惡劣行為而廣為人知的惡名」。",
       "sentenceIndex": 115,
@@ -2166,12 +1964,10 @@ export default {
         "famous"
       ],
       "optionReasons": {
-        "fame-mcq-24": "本句指「因惡劣行為而廣為人知的惡名」。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-25": "「用來諷刺過早、過度自信預測的一句話」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。",
-        "fame-mcq-26": "「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」與本句語境不同。",
-        "fame-mcq-21": "「以眾所周知的方式；某特點出了名地……」與本句語境不同。"
+        "fame-mcq-24": "本句的「famous」指「因惡劣行為而廣為人知的惡名」。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-24"
     },
@@ -2183,11 +1979,9 @@ export default {
       "masked": "She is ____ as a comedian.",
       "options": [
         "fame-mcq-24",
-        "fame-mcq-23",
-        "fame-mcq-25",
         "fame-mcq-22",
-        "fame-mcq-26",
-        "fame-mcq-21"
+        "fame-mcq-25",
+        "fame-mcq-04"
       ],
       "explanation": "本句的「famous」指「因惡劣行為而廣為人知的惡名」。",
       "sentenceIndex": 116,
@@ -2196,12 +1990,10 @@ export default {
         "famous"
       ],
       "optionReasons": {
-        "fame-mcq-24": "本句指「因惡劣行為而廣為人知的惡名」。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-25": "「用來諷刺過早、過度自信預測的一句話」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。",
-        "fame-mcq-26": "「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」與本句語境不同。",
-        "fame-mcq-21": "「以眾所周知的方式；某特點出了名地……」與本句語境不同。"
+        "fame-mcq-24": "本句的「famous」指「因惡劣行為而廣為人知的惡名」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-24"
     },
@@ -2213,11 +2005,9 @@ export default {
       "masked": "The café is ____ among students.",
       "options": [
         "fame-mcq-24",
-        "fame-mcq-23",
-        "fame-mcq-25",
+        "fame-mcq-04",
         "fame-mcq-22",
-        "fame-mcq-26",
-        "fame-mcq-21"
+        "fame-mcq-25"
       ],
       "explanation": "本句的「famous」指「因惡劣行為而廣為人知的惡名」。",
       "sentenceIndex": 117,
@@ -2226,12 +2016,10 @@ export default {
         "famous"
       ],
       "optionReasons": {
-        "fame-mcq-24": "本句指「因惡劣行為而廣為人知的惡名」。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-25": "「用來諷刺過早、過度自信預測的一句話」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。",
-        "fame-mcq-26": "「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」與本句語境不同。",
-        "fame-mcq-21": "「以眾所周知的方式；某特點出了名地……」與本句語境不同。"
+        "fame-mcq-24": "本句的「famous」指「因惡劣行為而廣為人知的惡名」。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-24"
     },
@@ -2243,11 +2031,9 @@ export default {
       "masked": "____",
       "options": [
         "fame-mcq-25",
-        "fame-mcq-24",
-        "fame-mcq-26",
-        "fame-mcq-23",
-        "fame-mcq-27",
-        "fame-mcq-22"
+        "fame-mcq-14",
+        "fame-mcq-13",
+        "fame-mcq-27"
       ],
       "explanation": "本句的「Famous last words.」指「用來諷刺過早、過度自信預測的一句話」。",
       "sentenceIndex": 118,
@@ -2256,12 +2042,10 @@ export default {
         "Famous last words."
       ],
       "optionReasons": {
-        "fame-mcq-25": "本句指「用來諷刺過早、過度自信預測的一句話」。",
-        "fame-mcq-24": "「因惡劣行為而廣為人知的惡名」與本句語境不同。",
-        "fame-mcq-26": "「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」與本句語境不同。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-27": "「行為主要由想成名／保持名氣的動機推動」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。"
+        "fame-mcq-25": "本句的「Famous last words.」指「用來諷刺過早、過度自信預測的一句話」。",
+        "fame-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-25"
     },
@@ -2274,10 +2058,8 @@ export default {
       "options": [
         "fame-mcq-25",
         "fame-mcq-24",
-        "fame-mcq-26",
-        "fame-mcq-23",
-        "fame-mcq-27",
-        "fame-mcq-22"
+        "fame-mcq-17",
+        "fame-mcq-23"
       ],
       "explanation": "本句的「famous」指「用來諷刺過早、過度自信預測的一句話」。",
       "sentenceIndex": 119,
@@ -2286,12 +2068,10 @@ export default {
         "famous"
       ],
       "optionReasons": {
-        "fame-mcq-25": "本句指「用來諷刺過早、過度自信預測的一句話」。",
-        "fame-mcq-24": "「因惡劣行為而廣為人知的惡名」與本句語境不同。",
-        "fame-mcq-26": "「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」與本句語境不同。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-27": "「行為主要由想成名／保持名氣的動機推動」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。"
+        "fame-mcq-25": "本句的「famous」指「用來諷刺過早、過度自信預測的一句話」。",
+        "fame-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-25"
     },
@@ -2303,11 +2083,9 @@ export default {
       "masked": "Some personalities are described as ____.",
       "options": [
         "fame-mcq-26",
-        "fame-mcq-25",
-        "fame-mcq-27",
-        "fame-mcq-24",
-        "fame-mcq-23",
-        "fame-mcq-22"
+        "fame-mcq-22",
+        "fame-mcq-18",
+        "fame-mcq-13"
       ],
       "explanation": "本句的「famous for being famous」指「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」。",
       "sentenceIndex": 120,
@@ -2316,12 +2094,10 @@ export default {
         "famous for being famous"
       ],
       "optionReasons": {
-        "fame-mcq-26": "本句指「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」。",
-        "fame-mcq-25": "「用來諷刺過早、過度自信預測的一句話」與本句語境不同。",
-        "fame-mcq-27": "「行為主要由想成名／保持名氣的動機推動」與本句語境不同。",
-        "fame-mcq-24": "「因惡劣行為而廣為人知的惡名」與本句語境不同。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。"
+        "fame-mcq-26": "本句的「famous for being famous」指「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-26"
     },
@@ -2333,11 +2109,9 @@ export default {
       "masked": "Reality television helped create people ____ for being famous.",
       "options": [
         "fame-mcq-26",
+        "fame-mcq-22",
         "fame-mcq-25",
-        "fame-mcq-27",
-        "fame-mcq-24",
-        "fame-mcq-23",
-        "fame-mcq-22"
+        "fame-mcq-13"
       ],
       "explanation": "本句的「famous」指「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」。",
       "sentenceIndex": 121,
@@ -2346,12 +2120,10 @@ export default {
         "famous"
       ],
       "optionReasons": {
-        "fame-mcq-26": "本句指「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」。",
-        "fame-mcq-25": "「用來諷刺過早、過度自信預測的一句話」與本句語境不同。",
-        "fame-mcq-27": "「行為主要由想成名／保持名氣的動機推動」與本句語境不同。",
-        "fame-mcq-24": "「因惡劣行為而廣為人知的惡名」與本句語境不同。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。"
+        "fame-mcq-26": "本句的「famous」指「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-26"
     },
@@ -2363,11 +2135,9 @@ export default {
       "masked": "The poet wrote in hope of lasting ____.",
       "options": [
         "fame-mcq-09",
-        "fame-mcq-08",
-        "fame-mcq-10",
-        "fame-mcq-07",
-        "fame-mcq-11",
-        "fame-mcq-06"
+        "fame-mcq-04",
+        "fame-pdf-001",
+        "fame-mcq-25"
       ],
       "explanation": "本句的「fame」指「長時間維持甚至流傳後世的名聲」。",
       "sentenceIndex": 122,
@@ -2376,12 +2146,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-09": "本句指「長時間維持甚至流傳後世的名聲」。",
-        "fame-mcq-08": "「維持時間很短的公眾名氣」與本句語境不同。",
-        "fame-mcq-10": "「一個人在死後才取得或大幅增加的名聲」與本句語境不同。",
-        "fame-mcq-07": "「內容爆紅後帶來的突然公眾知名度」與本句語境不同。",
-        "fame-mcq-11": "「令某人／某地最值得被記住或最出名的特點」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。"
+        "fame-mcq-09": "本句的「fame」指「長時間維持甚至流傳後世的名聲」。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-09"
     },
@@ -2393,11 +2161,9 @@ export default {
       "masked": "His ____ survived long after the empire disappeared.",
       "options": [
         "fame-mcq-09",
-        "fame-mcq-08",
-        "fame-mcq-10",
-        "fame-mcq-07",
-        "fame-mcq-11",
-        "fame-mcq-06"
+        "fame-pdf-001",
+        "fame-mcq-04",
+        "fame-mcq-25"
       ],
       "explanation": "本句的「fame」指「長時間維持甚至流傳後世的名聲」。",
       "sentenceIndex": 123,
@@ -2406,12 +2172,10 @@ export default {
         "fame"
       ],
       "optionReasons": {
-        "fame-mcq-09": "本句指「長時間維持甚至流傳後世的名聲」。",
-        "fame-mcq-08": "「維持時間很短的公眾名氣」與本句語境不同。",
-        "fame-mcq-10": "「一個人在死後才取得或大幅增加的名聲」與本句語境不同。",
-        "fame-mcq-07": "「內容爆紅後帶來的突然公眾知名度」與本句語境不同。",
-        "fame-mcq-11": "「令某人／某地最值得被記住或最出名的特點」與本句語境不同。",
-        "fame-mcq-06": "「主要透過網絡曝光取得的名氣」與本句語境不同。"
+        "fame-mcq-09": "本句的「fame」指「長時間維持甚至流傳後世的名聲」。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-09"
     },
@@ -2423,11 +2187,9 @@ export default {
       "masked": "The article criticised ____.",
       "options": [
         "fame-mcq-27",
-        "fame-mcq-26",
-        "fame-mcq-25",
-        "fame-mcq-24",
-        "fame-mcq-23",
-        "fame-mcq-22"
+        "fame-mcq-22",
+        "fame-pdf-001",
+        "fame-mcq-25"
       ],
       "explanation": "本句的「fame-driven behaviour」指「行為主要由想成名／保持名氣的動機推動」。",
       "sentenceIndex": 136,
@@ -2436,12 +2198,10 @@ export default {
         "fame-driven behaviour"
       ],
       "optionReasons": {
-        "fame-mcq-27": "本句指「行為主要由想成名／保持名氣的動機推動」。",
-        "fame-mcq-26": "「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」與本句語境不同。",
-        "fame-mcq-25": "「用來諷刺過早、過度自信預測的一句話」與本句語境不同。",
-        "fame-mcq-24": "「因惡劣行為而廣為人知的惡名」與本句語境不同。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。"
+        "fame-mcq-27": "本句的「fame-driven behaviour」指「行為主要由想成名／保持名氣的動機推動」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-27"
     },
@@ -2453,11 +2213,9 @@ export default {
       "masked": "____ choices may not bring lasting satisfaction.",
       "options": [
         "fame-mcq-27",
-        "fame-mcq-26",
-        "fame-mcq-25",
-        "fame-mcq-24",
-        "fame-mcq-23",
-        "fame-mcq-22"
+        "fame-mcq-22",
+        "fame-mcq-12",
+        "fame-pdf-001"
       ],
       "explanation": "本句的「Fame-driven」指「行為主要由想成名／保持名氣的動機推動」。",
       "sentenceIndex": 137,
@@ -2466,12 +2224,10 @@ export default {
         "Fame-driven"
       ],
       "optionReasons": {
-        "fame-mcq-27": "本句指「行為主要由想成名／保持名氣的動機推動」。",
-        "fame-mcq-26": "「主要因已有公眾知名度而繼續受到關注，未必靠特定成就」與本句語境不同。",
-        "fame-mcq-25": "「用來諷刺過早、過度自信預測的一句話」與本句語境不同。",
-        "fame-mcq-24": "「因惡劣行為而廣為人知的惡名」與本句語境不同。",
-        "fame-mcq-23": "「因壞事／負面特質而臭名昭著的」與本句語境不同。",
-        "fame-mcq-22": "「相處得非常好」與本句語境不同。"
+        "fame-mcq-27": "本句的「Fame-driven」指「行為主要由想成名／保持名氣的動機推動」。",
+        "fame-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fame-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fame-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fame-mcq-27"
     }
@@ -2483,5 +2239,7 @@ export default {
     "sha256": "34c92be413ddedb68e44e1ef7e1c417eb1df5c0bdfe235074b3d1153e4cce94c",
     "pages": 46
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

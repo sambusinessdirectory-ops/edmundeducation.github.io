@@ -284,11 +284,9 @@ export default {
       "masked": "The smell drifted out onto the ____.",
       "options": [
         "street-mcq-01",
-        "street-mcq-02",
-        "street-mcq-03",
-        "street-mcq-04",
-        "street-mcq-05",
-        "street-mcq-06"
+        "street-mcq-11",
+        "street-mcq-08",
+        "street-mcq-05"
       ],
       "explanation": "本句的「street」指「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」。",
       "sentenceIndex": 0,
@@ -297,12 +295,10 @@ export default {
         "street"
       ],
       "optionReasons": {
-        "street-mcq-01": "本句指「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」。",
-        "street-mcq-02": "「建築物外面的街頭公共空間」與本句語境不同。",
-        "street-mcq-03": "「一般民眾／非正式公共生活，而非官方機構內部」與本句語境不同。",
-        "street-mcq-04": "「與城市公共空間、青年文化和非正式生活風格相關的文化」與本句語境不同。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。"
+        "street-mcq-01": "本句的「street」指「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」。",
+        "street-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-01"
     },
@@ -314,11 +310,8 @@ export default {
       "masked": "The bakery is across the ____.",
       "options": [
         "street-mcq-01",
-        "street-mcq-02",
-        "street-mcq-03",
-        "street-mcq-04",
-        "street-mcq-05",
-        "street-mcq-06"
+        "street-mcq-10",
+        "street-mcq-09"
       ],
       "explanation": "本句的「street」指「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」。",
       "sentenceIndex": 1,
@@ -327,12 +320,9 @@ export default {
         "street"
       ],
       "optionReasons": {
-        "street-mcq-01": "本句指「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」。",
-        "street-mcq-02": "「建築物外面的街頭公共空間」與本句語境不同。",
-        "street-mcq-03": "「一般民眾／非正式公共生活，而非官方機構內部」與本句語境不同。",
-        "street-mcq-04": "「與城市公共空間、青年文化和非正式生活風格相關的文化」與本句語境不同。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。"
+        "street-mcq-01": "本句的「street」指「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」。",
+        "street-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-01"
     },
@@ -344,11 +334,9 @@ export default {
       "masked": "There are several cafés along this ____.",
       "options": [
         "street-mcq-01",
-        "street-mcq-02",
-        "street-mcq-03",
-        "street-mcq-04",
-        "street-mcq-05",
-        "street-mcq-06"
+        "street-mcq-11",
+        "street-mcq-09",
+        "street-mcq-05"
       ],
       "explanation": "本句的「street」指「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」。",
       "sentenceIndex": 2,
@@ -357,12 +345,10 @@ export default {
         "street"
       ],
       "optionReasons": {
-        "street-mcq-01": "本句指「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」。",
-        "street-mcq-02": "「建築物外面的街頭公共空間」與本句語境不同。",
-        "street-mcq-03": "「一般民眾／非正式公共生活，而非官方機構內部」與本句語境不同。",
-        "street-mcq-04": "「與城市公共空間、青年文化和非正式生活風格相關的文化」與本句語境不同。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。"
+        "street-mcq-01": "本句的「street」指「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」。",
+        "street-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-01"
     },
@@ -374,11 +360,9 @@ export default {
       "masked": "People were eating outside in the ____.",
       "options": [
         "street-mcq-02",
-        "street-mcq-01",
-        "street-mcq-03",
-        "street-mcq-04",
-        "street-mcq-05",
-        "street-mcq-06"
+        "street-mcq-09",
+        "street-mcq-11",
+        "street-mcq-05"
       ],
       "explanation": "本句的「street」指「建築物外面的街頭公共空間」。",
       "sentenceIndex": 3,
@@ -387,12 +371,10 @@ export default {
         "street"
       ],
       "optionReasons": {
-        "street-mcq-02": "本句指「建築物外面的街頭公共空間」。",
-        "street-mcq-01": "「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」與本句語境不同。",
-        "street-mcq-03": "「一般民眾／非正式公共生活，而非官方機構內部」與本句語境不同。",
-        "street-mcq-04": "「與城市公共空間、青年文化和非正式生活風格相關的文化」與本句語境不同。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。"
+        "street-mcq-02": "本句的「street」指「建築物外面的街頭公共空間」。",
+        "street-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-02"
     },
@@ -404,11 +386,9 @@ export default {
       "masked": "The music could be heard from the ____.",
       "options": [
         "street-mcq-02",
-        "street-mcq-01",
-        "street-mcq-03",
-        "street-mcq-04",
-        "street-mcq-05",
-        "street-mcq-06"
+        "street-mcq-09",
+        "street-mcq-11",
+        "street-mcq-05"
       ],
       "explanation": "本句的「street」指「建築物外面的街頭公共空間」。",
       "sentenceIndex": 4,
@@ -417,12 +397,10 @@ export default {
         "street"
       ],
       "optionReasons": {
-        "street-mcq-02": "本句指「建築物外面的街頭公共空間」。",
-        "street-mcq-01": "「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」與本句語境不同。",
-        "street-mcq-03": "「一般民眾／非正式公共生活，而非官方機構內部」與本句語境不同。",
-        "street-mcq-04": "「與城市公共空間、青年文化和非正式生活風格相關的文化」與本句語境不同。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。"
+        "street-mcq-02": "本句的「street」指「建築物外面的街頭公共空間」。",
+        "street-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-02"
     },
@@ -434,11 +412,9 @@ export default {
       "masked": "The idea became popular ____ before it reached major companies.",
       "options": [
         "street-mcq-03",
-        "street-mcq-02",
-        "street-mcq-04",
-        "street-mcq-01",
-        "street-mcq-05",
-        "street-mcq-06"
+        "street-mcq-12",
+        "street-mcq-08",
+        "street-mcq-05"
       ],
       "explanation": "本句的「on the street」指「一般民眾／非正式公共生活，而非官方機構內部」。",
       "sentenceIndex": 5,
@@ -447,12 +423,10 @@ export default {
         "on the street"
       ],
       "optionReasons": {
-        "street-mcq-03": "本句指「一般民眾／非正式公共生活，而非官方機構內部」。",
-        "street-mcq-02": "「建築物外面的街頭公共空間」與本句語境不同。",
-        "street-mcq-04": "「與城市公共空間、青年文化和非正式生活風格相關的文化」與本句語境不同。",
-        "street-mcq-01": "「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」與本句語境不同。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。"
+        "street-mcq-03": "本句的「on the street」指「一般民眾／非正式公共生活，而非官方機構內部」。",
+        "street-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-03"
     },
@@ -464,11 +438,9 @@ export default {
       "masked": "The campaign tried to understand what people on the ____ really thought.",
       "options": [
         "street-mcq-03",
-        "street-mcq-02",
-        "street-mcq-04",
-        "street-mcq-01",
+        "street-mcq-12",
         "street-mcq-05",
-        "street-mcq-06"
+        "street-mcq-08"
       ],
       "explanation": "本句的「street」指「一般民眾／非正式公共生活，而非官方機構內部」。",
       "sentenceIndex": 6,
@@ -477,12 +449,10 @@ export default {
         "street"
       ],
       "optionReasons": {
-        "street-mcq-03": "本句指「一般民眾／非正式公共生活，而非官方機構內部」。",
-        "street-mcq-02": "「建築物外面的街頭公共空間」與本句語境不同。",
-        "street-mcq-04": "「與城市公共空間、青年文化和非正式生活風格相關的文化」與本句語境不同。",
-        "street-mcq-01": "「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」與本句語境不同。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。"
+        "street-mcq-03": "本句的「street」指「一般民眾／非正式公共生活，而非官方機構內部」。",
+        "street-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-03"
     },
@@ -494,11 +464,9 @@ export default {
       "masked": "The brand was influenced by ____.",
       "options": [
         "street-mcq-04",
-        "street-mcq-03",
-        "street-mcq-05",
-        "street-mcq-02",
-        "street-mcq-06",
-        "street-mcq-01"
+        "street-mcq-12",
+        "street-mcq-11",
+        "street-mcq-08"
       ],
       "explanation": "本句的「street culture」指「與城市公共空間、青年文化和非正式生活風格相關的文化」。",
       "sentenceIndex": 7,
@@ -507,12 +475,10 @@ export default {
         "street culture"
       ],
       "optionReasons": {
-        "street-mcq-04": "本句指「與城市公共空間、青年文化和非正式生活風格相關的文化」。",
-        "street-mcq-03": "「一般民眾／非正式公共生活，而非官方機構內部」與本句語境不同。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。",
-        "street-mcq-02": "「建築物外面的街頭公共空間」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。",
-        "street-mcq-01": "「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」與本句語境不同。"
+        "street-mcq-04": "本句的「street culture」指「與城市公共空間、青年文化和非正式生活風格相關的文化」。",
+        "street-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-04"
     },
@@ -524,11 +490,9 @@ export default {
       "masked": "The artist draws inspiration from life on the ____.",
       "options": [
         "street-mcq-04",
-        "street-mcq-03",
-        "street-mcq-05",
-        "street-mcq-02",
-        "street-mcq-06",
-        "street-mcq-01"
+        "street-mcq-11",
+        "street-mcq-12",
+        "street-mcq-05"
       ],
       "explanation": "本句的「street」指「與城市公共空間、青年文化和非正式生活風格相關的文化」。",
       "sentenceIndex": 8,
@@ -537,12 +501,10 @@ export default {
         "street"
       ],
       "optionReasons": {
-        "street-mcq-04": "本句指「與城市公共空間、青年文化和非正式生活風格相關的文化」。",
-        "street-mcq-03": "「一般民眾／非正式公共生活，而非官方機構內部」與本句語境不同。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。",
-        "street-mcq-02": "「建築物外面的街頭公共空間」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。",
-        "street-mcq-01": "「城市／城鎮中兩旁通常有建築物、供人車通行的公共道路」與本句語境不同。"
+        "street-mcq-04": "本句的「street」指「與城市公共空間、青年文化和非正式生活風格相關的文化」。",
+        "street-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-04"
     },
@@ -554,11 +516,9 @@ export default {
       "masked": "The city is famous for its ____.",
       "options": [
         "street-mcq-05",
-        "street-mcq-04",
-        "street-mcq-06",
         "street-mcq-03",
-        "street-mcq-07",
-        "street-mcq-02"
+        "street-mcq-12",
+        "street-mcq-08"
       ],
       "explanation": "本句的「street food」指「在街邊、市集或小攤販出售、可即買即食的食物」。",
       "sentenceIndex": 9,
@@ -567,12 +527,10 @@ export default {
         "street food"
       ],
       "optionReasons": {
-        "street-mcq-05": "本句指「在街邊、市集或小攤販出售、可即買即食的食物」。",
-        "street-mcq-04": "「與城市公共空間、青年文化和非正式生活風格相關的文化」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。",
-        "street-mcq-03": "「一般民眾／非正式公共生活，而非官方機構內部」與本句語境不同。",
-        "street-mcq-07": "「在公共城市空間捕捉自然日常生活的攝影」與本句語境不同。",
-        "street-mcq-02": "「建築物外面的街頭公共空間」與本句語境不同。"
+        "street-mcq-05": "本句的「street food」指「在街邊、市集或小攤販出售、可即買即食的食物」。",
+        "street-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-05"
     },
@@ -584,11 +542,9 @@ export default {
       "masked": "We tried several local ____ foods.",
       "options": [
         "street-mcq-05",
-        "street-mcq-04",
-        "street-mcq-06",
         "street-mcq-03",
-        "street-mcq-07",
-        "street-mcq-02"
+        "street-mcq-12",
+        "street-mcq-08"
       ],
       "explanation": "本句的「street」指「在街邊、市集或小攤販出售、可即買即食的食物」。",
       "sentenceIndex": 10,
@@ -597,12 +553,10 @@ export default {
         "street"
       ],
       "optionReasons": {
-        "street-mcq-05": "本句指「在街邊、市集或小攤販出售、可即買即食的食物」。",
-        "street-mcq-04": "「與城市公共空間、青年文化和非正式生活風格相關的文化」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。",
-        "street-mcq-03": "「一般民眾／非正式公共生活，而非官方機構內部」與本句語境不同。",
-        "street-mcq-07": "「在公共城市空間捕捉自然日常生活的攝影」與本句語境不同。",
-        "street-mcq-02": "「建築物外面的街頭公共空間」與本句語境不同。"
+        "street-mcq-05": "本句的「street」指「在街邊、市集或小攤販出售、可即買即食的食物」。",
+        "street-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-05"
     },
@@ -614,11 +568,9 @@ export default {
       "masked": "The neighbourhood is known for its ____.",
       "options": [
         "street-mcq-06",
-        "street-mcq-05",
-        "street-mcq-07",
-        "street-mcq-04",
-        "street-mcq-08",
-        "street-mcq-03"
+        "street-mcq-12",
+        "street-mcq-11",
+        "street-mcq-05"
       ],
       "explanation": "本句的「street art」指「在城市公共空間、牆面等創作的視覺藝術」。",
       "sentenceIndex": 11,
@@ -627,12 +579,10 @@ export default {
         "street art"
       ],
       "optionReasons": {
-        "street-mcq-06": "本句指「在城市公共空間、牆面等創作的視覺藝術」。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。",
-        "street-mcq-07": "「在公共城市空間捕捉自然日常生活的攝影」與本句語境不同。",
-        "street-mcq-04": "「與城市公共空間、青年文化和非正式生活風格相關的文化」與本句語境不同。",
-        "street-mcq-08": "「美國金融市場／金融業的代稱」與本句語境不同。",
-        "street-mcq-03": "「一般民眾／非正式公共生活，而非官方機構內部」與本句語境不同。"
+        "street-mcq-06": "本句的「street art」指「在城市公共空間、牆面等創作的視覺藝術」。",
+        "street-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-06"
     },
@@ -644,11 +594,9 @@ export default {
       "masked": "The wall was covered with colourful ____ art.",
       "options": [
         "street-mcq-06",
-        "street-mcq-05",
-        "street-mcq-07",
-        "street-mcq-04",
-        "street-mcq-08",
-        "street-mcq-03"
+        "street-mcq-12",
+        "street-mcq-11",
+        "street-mcq-09"
       ],
       "explanation": "本句的「street」指「在城市公共空間、牆面等創作的視覺藝術」。",
       "sentenceIndex": 12,
@@ -657,12 +605,10 @@ export default {
         "street"
       ],
       "optionReasons": {
-        "street-mcq-06": "本句指「在城市公共空間、牆面等創作的視覺藝術」。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。",
-        "street-mcq-07": "「在公共城市空間捕捉自然日常生活的攝影」與本句語境不同。",
-        "street-mcq-04": "「與城市公共空間、青年文化和非正式生活風格相關的文化」與本句語境不同。",
-        "street-mcq-08": "「美國金融市場／金融業的代稱」與本句語境不同。",
-        "street-mcq-03": "「一般民眾／非正式公共生活，而非官方機構內部」與本句語境不同。"
+        "street-mcq-06": "本句的「street」指「在城市公共空間、牆面等創作的視覺藝術」。",
+        "street-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-06"
     },
@@ -674,11 +620,9 @@ export default {
       "masked": "She is interested in ____.",
       "options": [
         "street-mcq-07",
-        "street-mcq-06",
-        "street-mcq-08",
-        "street-mcq-05",
-        "street-mcq-09",
-        "street-mcq-04"
+        "street-mcq-12",
+        "street-mcq-11",
+        "street-mcq-05"
       ],
       "explanation": "本句的「street photography」指「在公共城市空間捕捉自然日常生活的攝影」。",
       "sentenceIndex": 13,
@@ -687,12 +631,10 @@ export default {
         "street photography"
       ],
       "optionReasons": {
-        "street-mcq-07": "本句指「在公共城市空間捕捉自然日常生活的攝影」。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。",
-        "street-mcq-08": "「美國金融市場／金融業的代稱」與本句語境不同。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。",
-        "street-mcq-09": "「某物在非正式或非法市場上的實際售價」與本句語境不同。",
-        "street-mcq-04": "「與城市公共空間、青年文化和非正式生活風格相關的文化」與本句語境不同。"
+        "street-mcq-07": "本句的「street photography」指「在公共城市空間捕捉自然日常生活的攝影」。",
+        "street-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-07"
     },
@@ -704,11 +646,9 @@ export default {
       "masked": "____ photography often captures everyday city life.",
       "options": [
         "street-mcq-07",
-        "street-mcq-06",
-        "street-mcq-08",
-        "street-mcq-05",
-        "street-mcq-09",
-        "street-mcq-04"
+        "street-mcq-12",
+        "street-mcq-11",
+        "street-mcq-09"
       ],
       "explanation": "本句的「Street」指「在公共城市空間捕捉自然日常生活的攝影」。",
       "sentenceIndex": 14,
@@ -717,12 +657,10 @@ export default {
         "Street"
       ],
       "optionReasons": {
-        "street-mcq-07": "本句指「在公共城市空間捕捉自然日常生活的攝影」。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。",
-        "street-mcq-08": "「美國金融市場／金融業的代稱」與本句語境不同。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。",
-        "street-mcq-09": "「某物在非正式或非法市場上的實際售價」與本句語境不同。",
-        "street-mcq-04": "「與城市公共空間、青年文化和非正式生活風格相關的文化」與本句語境不同。"
+        "street-mcq-07": "本句的「Street」指「在公共城市空間捕捉自然日常生活的攝影」。",
+        "street-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-07"
     },
@@ -734,10 +672,8 @@ export default {
       "masked": "The news surprised ____.",
       "options": [
         "street-mcq-08",
-        "street-mcq-07",
-        "street-mcq-09",
-        "street-mcq-06",
-        "street-mcq-10",
+        "street-mcq-02",
+        "street-mcq-11",
         "street-mcq-05"
       ],
       "explanation": "本句的「Wall Street」指「美國金融市場／金融業的代稱」。",
@@ -747,12 +683,10 @@ export default {
         "Wall Street"
       ],
       "optionReasons": {
-        "street-mcq-08": "本句指「美國金融市場／金融業的代稱」。",
-        "street-mcq-07": "「在公共城市空間捕捉自然日常生活的攝影」與本句語境不同。",
-        "street-mcq-09": "「某物在非正式或非法市場上的實際售價」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。",
-        "street-mcq-10": "「沒有固定住所，在街上生活／露宿」與本句語境不同。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。"
+        "street-mcq-08": "本句的「Wall Street」指「美國金融市場／金融業的代稱」。",
+        "street-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-08"
     },
@@ -764,11 +698,8 @@ export default {
       "masked": "Investors on the ____ reacted quickly.",
       "options": [
         "street-mcq-08",
-        "street-mcq-07",
-        "street-mcq-09",
-        "street-mcq-06",
         "street-mcq-10",
-        "street-mcq-05"
+        "street-mcq-01"
       ],
       "explanation": "本句的「Street」指「美國金融市場／金融業的代稱」。",
       "sentenceIndex": 16,
@@ -777,12 +708,9 @@ export default {
         "Street"
       ],
       "optionReasons": {
-        "street-mcq-08": "本句指「美國金融市場／金融業的代稱」。",
-        "street-mcq-07": "「在公共城市空間捕捉自然日常生活的攝影」與本句語境不同。",
-        "street-mcq-09": "「某物在非正式或非法市場上的實際售價」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。",
-        "street-mcq-10": "「沒有固定住所，在街上生活／露宿」與本句語境不同。",
-        "street-mcq-05": "「在街邊、市集或小攤販出售、可即買即食的食物」與本句語境不同。"
+        "street-mcq-08": "本句的「Street」指「美國金融市場／金融業的代稱」。",
+        "street-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-08"
     },
@@ -794,11 +722,8 @@ export default {
       "masked": "Police estimated the drugs’ ____.",
       "options": [
         "street-mcq-09",
-        "street-mcq-08",
         "street-mcq-10",
-        "street-mcq-07",
-        "street-mcq-11",
-        "street-mcq-06"
+        "street-mcq-12"
       ],
       "explanation": "本句的「street value」指「某物在非正式或非法市場上的實際售價」。",
       "sentenceIndex": 17,
@@ -807,12 +732,9 @@ export default {
         "street value"
       ],
       "optionReasons": {
-        "street-mcq-09": "本句指「某物在非正式或非法市場上的實際售價」。",
-        "street-mcq-08": "「美國金融市場／金融業的代稱」與本句語境不同。",
-        "street-mcq-10": "「沒有固定住所，在街上生活／露宿」與本句語境不同。",
-        "street-mcq-07": "「在公共城市空間捕捉自然日常生活的攝影」與本句語境不同。",
-        "street-mcq-11": "「住在同一條街上的居民群體」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。"
+        "street-mcq-09": "本句的「street value」指「某物在非正式或非法市場上的實際售價」。",
+        "street-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-09"
     },
@@ -824,11 +746,9 @@ export default {
       "masked": "The stolen goods had a high ____ value.",
       "options": [
         "street-mcq-09",
-        "street-mcq-08",
-        "street-mcq-10",
-        "street-mcq-07",
+        "street-mcq-02",
         "street-mcq-11",
-        "street-mcq-06"
+        "street-mcq-05"
       ],
       "explanation": "本句的「street」指「某物在非正式或非法市場上的實際售價」。",
       "sentenceIndex": 18,
@@ -837,12 +757,10 @@ export default {
         "street"
       ],
       "optionReasons": {
-        "street-mcq-09": "本句指「某物在非正式或非法市場上的實際售價」。",
-        "street-mcq-08": "「美國金融市場／金融業的代稱」與本句語境不同。",
-        "street-mcq-10": "「沒有固定住所，在街上生活／露宿」與本句語境不同。",
-        "street-mcq-07": "「在公共城市空間捕捉自然日常生活的攝影」與本句語境不同。",
-        "street-mcq-11": "「住在同一條街上的居民群體」與本句語境不同。",
-        "street-mcq-06": "「在城市公共空間、牆面等創作的視覺藝術」與本句語境不同。"
+        "street-mcq-09": "本句的「street」指「某物在非正式或非法市場上的實際售價」。",
+        "street-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-09"
     },
@@ -854,11 +772,8 @@ export default {
       "masked": "He was living ____.",
       "options": [
         "street-mcq-10",
-        "street-mcq-09",
-        "street-mcq-11",
-        "street-mcq-08",
-        "street-mcq-12",
-        "street-mcq-07"
+        "street-mcq-01",
+        "street-mcq-08"
       ],
       "explanation": "本句的「on the streets」指「沒有固定住所，在街上生活／露宿」。",
       "sentenceIndex": 19,
@@ -867,12 +782,9 @@ export default {
         "on the streets"
       ],
       "optionReasons": {
-        "street-mcq-10": "本句指「沒有固定住所，在街上生活／露宿」。",
-        "street-mcq-09": "「某物在非正式或非法市場上的實際售價」與本句語境不同。",
-        "street-mcq-11": "「住在同一條街上的居民群體」與本句語境不同。",
-        "street-mcq-08": "「美國金融市場／金融業的代稱」與本句語境不同。",
-        "street-mcq-12": "「地址中的街道名稱／道路類型」與本句語境不同。",
-        "street-mcq-07": "「在公共城市空間捕捉自然日常生活的攝影」與本句語境不同。"
+        "street-mcq-10": "本句的「on the streets」指「沒有固定住所，在街上生活／露宿」。",
+        "street-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-10"
     },
@@ -884,11 +796,8 @@ export default {
       "masked": "The charity helps people who sleep on the ____.",
       "options": [
         "street-mcq-10",
-        "street-mcq-09",
-        "street-mcq-11",
         "street-mcq-08",
-        "street-mcq-12",
-        "street-mcq-07"
+        "street-mcq-01"
       ],
       "explanation": "本句的「streets」指「沒有固定住所，在街上生活／露宿」。",
       "sentenceIndex": 20,
@@ -897,12 +806,9 @@ export default {
         "streets"
       ],
       "optionReasons": {
-        "street-mcq-10": "本句指「沒有固定住所，在街上生活／露宿」。",
-        "street-mcq-09": "「某物在非正式或非法市場上的實際售價」與本句語境不同。",
-        "street-mcq-11": "「住在同一條街上的居民群體」與本句語境不同。",
-        "street-mcq-08": "「美國金融市場／金融業的代稱」與本句語境不同。",
-        "street-mcq-12": "「地址中的街道名稱／道路類型」與本句語境不同。",
-        "street-mcq-07": "「在公共城市空間捕捉自然日常生活的攝影」與本句語境不同。"
+        "street-mcq-10": "本句的「streets」指「沒有固定住所，在街上生活／露宿」。",
+        "street-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-10"
     },
@@ -914,11 +820,9 @@ export default {
       "masked": "The whole ____ knew about the new bakery.",
       "options": [
         "street-mcq-11",
-        "street-mcq-10",
-        "street-mcq-12",
-        "street-mcq-09",
         "street-mcq-08",
-        "street-mcq-07"
+        "street-mcq-04",
+        "street-mcq-05"
       ],
       "explanation": "本句的「street」指「住在同一條街上的居民群體」。",
       "sentenceIndex": 21,
@@ -927,12 +831,10 @@ export default {
         "street"
       ],
       "optionReasons": {
-        "street-mcq-11": "本句指「住在同一條街上的居民群體」。",
-        "street-mcq-10": "「沒有固定住所，在街上生活／露宿」與本句語境不同。",
-        "street-mcq-12": "「地址中的街道名稱／道路類型」與本句語境不同。",
-        "street-mcq-09": "「某物在非正式或非法市場上的實際售價」與本句語境不同。",
-        "street-mcq-08": "「美國金融市場／金融業的代稱」與本句語境不同。",
-        "street-mcq-07": "「在公共城市空間捕捉自然日常生活的攝影」與本句語境不同。"
+        "street-mcq-11": "本句的「street」指「住在同一條街上的居民群體」。",
+        "street-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-11"
     },
@@ -944,11 +846,9 @@ export default {
       "masked": "The ____ came together for the festival.",
       "options": [
         "street-mcq-11",
-        "street-mcq-10",
-        "street-mcq-12",
-        "street-mcq-09",
+        "street-mcq-06",
         "street-mcq-08",
-        "street-mcq-07"
+        "street-mcq-12"
       ],
       "explanation": "本句的「street」指「住在同一條街上的居民群體」。",
       "sentenceIndex": 22,
@@ -957,12 +857,10 @@ export default {
         "street"
       ],
       "optionReasons": {
-        "street-mcq-11": "本句指「住在同一條街上的居民群體」。",
-        "street-mcq-10": "「沒有固定住所，在街上生活／露宿」與本句語境不同。",
-        "street-mcq-12": "「地址中的街道名稱／道路類型」與本句語境不同。",
-        "street-mcq-09": "「某物在非正式或非法市場上的實際售價」與本句語境不同。",
-        "street-mcq-08": "「美國金融市場／金融業的代稱」與本句語境不同。",
-        "street-mcq-07": "「在公共城市空間捕捉自然日常生活的攝影」與本句語境不同。"
+        "street-mcq-11": "本句的「street」指「住在同一條街上的居民群體」。",
+        "street-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-11"
     },
@@ -974,11 +872,9 @@ export default {
       "masked": "The bakery is on King ____.",
       "options": [
         "street-mcq-12",
-        "street-mcq-11",
-        "street-mcq-10",
-        "street-mcq-09",
+        "street-mcq-03",
         "street-mcq-08",
-        "street-mcq-07"
+        "street-mcq-05"
       ],
       "explanation": "本句的「Street」指「地址中的街道名稱／道路類型」。",
       "sentenceIndex": 23,
@@ -987,12 +883,10 @@ export default {
         "Street"
       ],
       "optionReasons": {
-        "street-mcq-12": "本句指「地址中的街道名稱／道路類型」。",
-        "street-mcq-11": "「住在同一條街上的居民群體」與本句語境不同。",
-        "street-mcq-10": "「沒有固定住所，在街上生活／露宿」與本句語境不同。",
-        "street-mcq-09": "「某物在非正式或非法市場上的實際售價」與本句語境不同。",
-        "street-mcq-08": "「美國金融市場／金融業的代稱」與本句語境不同。",
-        "street-mcq-07": "「在公共城市空間捕捉自然日常生活的攝影」與本句語境不同。"
+        "street-mcq-12": "本句的「Street」指「地址中的街道名稱／道路類型」。",
+        "street-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-12"
     },
@@ -1004,11 +898,9 @@ export default {
       "masked": "Write the ____ name clearly on the form.",
       "options": [
         "street-mcq-12",
+        "street-mcq-04",
         "street-mcq-11",
-        "street-mcq-10",
-        "street-mcq-09",
-        "street-mcq-08",
-        "street-mcq-07"
+        "street-mcq-05"
       ],
       "explanation": "本句的「street」指「地址中的街道名稱／道路類型」。",
       "sentenceIndex": 24,
@@ -1017,12 +909,10 @@ export default {
         "street"
       ],
       "optionReasons": {
-        "street-mcq-12": "本句指「地址中的街道名稱／道路類型」。",
-        "street-mcq-11": "「住在同一條街上的居民群體」與本句語境不同。",
-        "street-mcq-10": "「沒有固定住所，在街上生活／露宿」與本句語境不同。",
-        "street-mcq-09": "「某物在非正式或非法市場上的實際售價」與本句語境不同。",
-        "street-mcq-08": "「美國金融市場／金融業的代稱」與本句語境不同。",
-        "street-mcq-07": "「在公共城市空間捕捉自然日常生活的攝影」與本句語境不同。"
+        "street-mcq-12": "本句的「street」指「地址中的街道名稱／道路類型」。",
+        "street-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "street-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "street-mcq-12"
     }
@@ -1034,5 +924,7 @@ export default {
     "sha256": "f8ecc8f9c8c3301fb2741985608a81cfd502a181021c13c4bf7a57f5909007c7",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

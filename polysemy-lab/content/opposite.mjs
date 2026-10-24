@@ -414,7 +414,7 @@ export default {
     },
     {
       "id": "opposite-mcq-20",
-      "title": "表示相反的情況；正好相反",
+      "title": "相反的情況；正好相反",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示相反的情況；正好相反",
@@ -444,11 +444,9 @@ export default {
       "masked": "I expected the gift to lose meaning, but the ____ happened.",
       "options": [
         "opposite-mcq-20",
-        "opposite-mcq-19",
-        "opposite-mcq-18",
-        "opposite-mcq-17",
-        "opposite-mcq-16",
-        "opposite-mcq-15"
+        "opposite-mcq-08",
+        "opposite-mcq-10",
+        "opposite-mcq-11"
       ],
       "explanation": "本句的「opposite」指「表示相反的情況；正好相反」。",
       "sentenceIndex": 0,
@@ -457,12 +455,10 @@ export default {
         "opposite"
       ],
       "optionReasons": {
-        "opposite-mcq-20": "本句指「表示相反的情況；正好相反」。",
-        "opposite-mcq-19": "「做與原本描述、要求或預期完全相反的事」是「do the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-18": "「正好相反」是「just the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-17": "「恰恰相反」是「quite the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-16": "「完全、精確地相反」是「the exact opposite」的用法，與本句語境不同。",
-        "opposite-mcq-15": "「處於對立、反對或相反位置的」是「opposing」的用法，與本句語境不同。"
+        "opposite-mcq-20": "本句的「opposite」指「表示相反的情況；正好相反」。",
+        "opposite-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-20"
     },
@@ -474,11 +470,8 @@ export default {
       "masked": "Some people became less interested over time, while she experienced the ____.",
       "options": [
         "opposite-mcq-20",
-        "opposite-mcq-19",
-        "opposite-mcq-18",
-        "opposite-mcq-17",
-        "opposite-mcq-16",
-        "opposite-mcq-15"
+        "opposite-mcq-11",
+        "opposite-mcq-09"
       ],
       "explanation": "本句的「opposite」指「表示相反的情況；正好相反」。",
       "sentenceIndex": 1,
@@ -487,12 +480,9 @@ export default {
         "opposite"
       ],
       "optionReasons": {
-        "opposite-mcq-20": "本句指「表示相反的情況；正好相反」。",
-        "opposite-mcq-19": "「做與原本描述、要求或預期完全相反的事」是「do the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-18": "「正好相反」是「just the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-17": "「恰恰相反」是「quite the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-16": "「完全、精確地相反」是「the exact opposite」的用法，與本句語境不同。",
-        "opposite-mcq-15": "「處於對立、反對或相反位置的」是「opposing」的用法，與本句語境不同。"
+        "opposite-mcq-20": "本句的「opposite」指「表示相反的情況；正好相反」。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-20"
     },
@@ -504,11 +494,9 @@ export default {
       "masked": "Love is not always the ____ of hate.",
       "options": [
         "opposite-mcq-01",
-        "opposite-mcq-02",
-        "opposite-mcq-03",
-        "opposite-mcq-04",
-        "opposite-mcq-05",
-        "opposite-mcq-06"
+        "opposite-mcq-07",
+        "opposite-mcq-11",
+        "opposite-mcq-13"
       ],
       "explanation": "本句的「opposite」指「與另一事物在性質、結果或狀況上完全相反的事物／情況」。",
       "sentenceIndex": 2,
@@ -517,12 +505,10 @@ export default {
         "opposite"
       ],
       "optionReasons": {
-        "opposite-mcq-01": "本句指「與另一事物在性質、結果或狀況上完全相反的事物／情況」。",
-        "opposite-mcq-02": "「與某人／某事完全相反」是「the opposite of」的用法，與本句語境不同。",
-        "opposite-mcq-03": "「性質、方向、結果等相反的」是「opposite — adjective」的用法，與本句語境不同。",
-        "opposite-mcq-04": "「與原方向完全相反的方向」是「opposite direction」的用法，與本句語境不同。",
-        "opposite-mcq-05": "「與預期或原本作用相反的效果；反效果」是「opposite effect」的用法，與本句語境不同。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。"
+        "opposite-mcq-01": "本句的「opposite」指「與另一事物在性質、結果或狀況上完全相反的事物／情況」。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-01"
     },
@@ -534,11 +520,9 @@ export default {
       "masked": "What happened was the exact ____ of what we expected.",
       "options": [
         "opposite-mcq-01",
-        "opposite-mcq-02",
-        "opposite-mcq-03",
-        "opposite-mcq-04",
-        "opposite-mcq-05",
-        "opposite-mcq-06"
+        "opposite-mcq-07",
+        "opposite-mcq-11",
+        "opposite-mcq-13"
       ],
       "explanation": "本句的「opposite」指「與另一事物在性質、結果或狀況上完全相反的事物／情況」。",
       "sentenceIndex": 3,
@@ -547,12 +531,10 @@ export default {
         "opposite"
       ],
       "optionReasons": {
-        "opposite-mcq-01": "本句指「與另一事物在性質、結果或狀況上完全相反的事物／情況」。",
-        "opposite-mcq-02": "「與某人／某事完全相反」是「the opposite of」的用法，與本句語境不同。",
-        "opposite-mcq-03": "「性質、方向、結果等相反的」是「opposite — adjective」的用法，與本句語境不同。",
-        "opposite-mcq-04": "「與原方向完全相反的方向」是「opposite direction」的用法，與本句語境不同。",
-        "opposite-mcq-05": "「與預期或原本作用相反的效果；反效果」是「opposite effect」的用法，與本句語境不同。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。"
+        "opposite-mcq-01": "本句的「opposite」指「與另一事物在性質、結果或狀況上完全相反的事物／情況」。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-01"
     },
@@ -564,11 +546,8 @@ export default {
       "masked": "Cold” is the ____ “hot.",
       "options": [
         "opposite-mcq-02",
-        "opposite-mcq-01",
-        "opposite-mcq-03",
-        "opposite-mcq-04",
-        "opposite-mcq-05",
-        "opposite-mcq-06"
+        "opposite-mcq-12",
+        "opposite-mcq-10"
       ],
       "explanation": "本句的「opposite of」指「與某人／某事完全相反」。",
       "sentenceIndex": 4,
@@ -577,12 +556,9 @@ export default {
         "opposite of"
       ],
       "optionReasons": {
-        "opposite-mcq-02": "本句指「與某人／某事完全相反」。",
-        "opposite-mcq-01": "「與另一事物在性質、結果或狀況上完全相反的事物／情況」是「opposite — noun contrary thing」的用法，與本句語境不同。",
-        "opposite-mcq-03": "「性質、方向、結果等相反的」是「opposite — adjective」的用法，與本句語境不同。",
-        "opposite-mcq-04": "「與原方向完全相反的方向」是「opposite direction」的用法，與本句語境不同。",
-        "opposite-mcq-05": "「與預期或原本作用相反的效果；反效果」是「opposite effect」的用法，與本句語境不同。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。"
+        "opposite-mcq-02": "本句的「opposite of」指「與某人／某事完全相反」。",
+        "opposite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-02"
     },
@@ -594,11 +570,8 @@ export default {
       "masked": "His reaction was the ____ mine.",
       "options": [
         "opposite-mcq-02",
-        "opposite-mcq-01",
-        "opposite-mcq-03",
-        "opposite-mcq-04",
-        "opposite-mcq-05",
-        "opposite-mcq-06"
+        "opposite-mcq-12",
+        "opposite-mcq-10"
       ],
       "explanation": "本句的「opposite of」指「與某人／某事完全相反」。",
       "sentenceIndex": 5,
@@ -607,12 +580,9 @@ export default {
         "opposite of"
       ],
       "optionReasons": {
-        "opposite-mcq-02": "本句指「與某人／某事完全相反」。",
-        "opposite-mcq-01": "「與另一事物在性質、結果或狀況上完全相反的事物／情況」是「opposite — noun contrary thing」的用法，與本句語境不同。",
-        "opposite-mcq-03": "「性質、方向、結果等相反的」是「opposite — adjective」的用法，與本句語境不同。",
-        "opposite-mcq-04": "「與原方向完全相反的方向」是「opposite direction」的用法，與本句語境不同。",
-        "opposite-mcq-05": "「與預期或原本作用相反的效果；反效果」是「opposite effect」的用法，與本句語境不同。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。"
+        "opposite-mcq-02": "本句的「opposite of」指「與某人／某事完全相反」。",
+        "opposite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-02"
     },
@@ -624,11 +594,9 @@ export default {
       "masked": "They have ____.",
       "options": [
         "opposite-mcq-03",
-        "opposite-mcq-02",
-        "opposite-mcq-04",
-        "opposite-mcq-01",
-        "opposite-mcq-05",
-        "opposite-mcq-06"
+        "opposite-mcq-11",
+        "opposite-mcq-08",
+        "opposite-mcq-07"
       ],
       "explanation": "本句的「opposite opinions」指「性質、方向、結果等相反的」。",
       "sentenceIndex": 6,
@@ -637,12 +605,10 @@ export default {
         "opposite opinions"
       ],
       "optionReasons": {
-        "opposite-mcq-03": "本句指「性質、方向、結果等相反的」。",
-        "opposite-mcq-02": "「與某人／某事完全相反」是「the opposite of」的用法，與本句語境不同。",
-        "opposite-mcq-04": "「與原方向完全相反的方向」是「opposite direction」的用法，與本句語境不同。",
-        "opposite-mcq-01": "「與另一事物在性質、結果或狀況上完全相反的事物／情況」是「opposite — noun contrary thing」的用法，與本句語境不同。",
-        "opposite-mcq-05": "「與預期或原本作用相反的效果；反效果」是「opposite effect」的用法，與本句語境不同。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。"
+        "opposite-mcq-03": "本句的「opposite opinions」指「性質、方向、結果等相反的」。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-03"
     },
@@ -654,11 +620,9 @@ export default {
       "masked": "The two methods produce ____.",
       "options": [
         "opposite-mcq-03",
-        "opposite-mcq-02",
-        "opposite-mcq-04",
-        "opposite-mcq-01",
-        "opposite-mcq-05",
-        "opposite-mcq-06"
+        "opposite-mcq-08",
+        "opposite-mcq-07",
+        "opposite-mcq-11"
       ],
       "explanation": "本句的「opposite results」指「性質、方向、結果等相反的」。",
       "sentenceIndex": 7,
@@ -667,12 +631,10 @@ export default {
         "opposite results"
       ],
       "optionReasons": {
-        "opposite-mcq-03": "本句指「性質、方向、結果等相反的」。",
-        "opposite-mcq-02": "「與某人／某事完全相反」是「the opposite of」的用法，與本句語境不同。",
-        "opposite-mcq-04": "「與原方向完全相反的方向」是「opposite direction」的用法，與本句語境不同。",
-        "opposite-mcq-01": "「與另一事物在性質、結果或狀況上完全相反的事物／情況」是「opposite — noun contrary thing」的用法，與本句語境不同。",
-        "opposite-mcq-05": "「與預期或原本作用相反的效果；反效果」是「opposite effect」的用法，與本句語境不同。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。"
+        "opposite-mcq-03": "本句的「opposite results」指「性質、方向、結果等相反的」。",
+        "opposite-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-03"
     },
@@ -684,11 +646,9 @@ export default {
       "masked": "The two cars were travelling in ____.",
       "options": [
         "opposite-mcq-04",
-        "opposite-mcq-03",
-        "opposite-mcq-05",
-        "opposite-mcq-02",
-        "opposite-mcq-06",
-        "opposite-mcq-01"
+        "opposite-mcq-11",
+        "opposite-mcq-08",
+        "opposite-mcq-07"
       ],
       "explanation": "本句的「opposite directions」指「與原方向完全相反的方向」。",
       "sentenceIndex": 8,
@@ -697,12 +657,10 @@ export default {
         "opposite directions"
       ],
       "optionReasons": {
-        "opposite-mcq-04": "本句指「與原方向完全相反的方向」。",
-        "opposite-mcq-03": "「性質、方向、結果等相反的」是「opposite — adjective」的用法，與本句語境不同。",
-        "opposite-mcq-05": "「與預期或原本作用相反的效果；反效果」是「opposite effect」的用法，與本句語境不同。",
-        "opposite-mcq-02": "「與某人／某事完全相反」是「the opposite of」的用法，與本句語境不同。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。",
-        "opposite-mcq-01": "「與另一事物在性質、結果或狀況上完全相反的事物／情況」是「opposite — noun contrary thing」的用法，與本句語境不同。"
+        "opposite-mcq-04": "本句的「opposite directions」指「與原方向完全相反的方向」。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-04"
     },
@@ -714,11 +672,9 @@ export default {
       "masked": "Turn around and walk in the ____.",
       "options": [
         "opposite-mcq-04",
-        "opposite-mcq-03",
-        "opposite-mcq-05",
-        "opposite-mcq-02",
-        "opposite-mcq-06",
-        "opposite-mcq-01"
+        "opposite-mcq-11",
+        "opposite-mcq-09",
+        "opposite-mcq-07"
       ],
       "explanation": "本句的「opposite direction」指「與原方向完全相反的方向」。",
       "sentenceIndex": 9,
@@ -727,12 +683,10 @@ export default {
         "opposite direction"
       ],
       "optionReasons": {
-        "opposite-mcq-04": "本句指「與原方向完全相反的方向」。",
-        "opposite-mcq-03": "「性質、方向、結果等相反的」是「opposite — adjective」的用法，與本句語境不同。",
-        "opposite-mcq-05": "「與預期或原本作用相反的效果；反效果」是「opposite effect」的用法，與本句語境不同。",
-        "opposite-mcq-02": "「與某人／某事完全相反」是「the opposite of」的用法，與本句語境不同。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。",
-        "opposite-mcq-01": "「與另一事物在性質、結果或狀況上完全相反的事物／情況」是「opposite — noun contrary thing」的用法，與本句語境不同。"
+        "opposite-mcq-04": "本句的「opposite direction」指「與原方向完全相反的方向」。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-04"
     },
@@ -744,11 +698,9 @@ export default {
       "masked": "The medicine had the ____.",
       "options": [
         "opposite-mcq-05",
-        "opposite-mcq-04",
-        "opposite-mcq-06",
-        "opposite-mcq-03",
-        "opposite-mcq-07",
-        "opposite-mcq-02"
+        "opposite-mcq-10",
+        "opposite-mcq-12",
+        "opposite-mcq-07"
       ],
       "explanation": "本句的「opposite effect」指「與預期或原本作用相反的效果；反效果」。",
       "sentenceIndex": 10,
@@ -757,12 +709,10 @@ export default {
         "opposite effect"
       ],
       "optionReasons": {
-        "opposite-mcq-05": "本句指「與預期或原本作用相反的效果；反效果」。",
-        "opposite-mcq-04": "「與原方向完全相反的方向」是「opposite direction」的用法，與本句語境不同。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。",
-        "opposite-mcq-03": "「性質、方向、結果等相反的」是「opposite — adjective」的用法，與本句語境不同。",
-        "opposite-mcq-07": "「在某人／某物的正對面」是「opposite someone/something」的用法，與本句語境不同。",
-        "opposite-mcq-02": "「與某人／某事完全相反」是「the opposite of」的用法，與本句語境不同。"
+        "opposite-mcq-05": "本句的「opposite effect」指「與預期或原本作用相反的效果；反效果」。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-05"
     },
@@ -774,11 +724,9 @@ export default {
       "masked": "His attempt to calm her had the ____.",
       "options": [
         "opposite-mcq-05",
-        "opposite-mcq-04",
-        "opposite-mcq-06",
-        "opposite-mcq-03",
-        "opposite-mcq-07",
-        "opposite-mcq-02"
+        "opposite-mcq-09",
+        "opposite-mcq-11",
+        "opposite-mcq-07"
       ],
       "explanation": "本句的「opposite effect」指「與預期或原本作用相反的效果；反效果」。",
       "sentenceIndex": 11,
@@ -787,12 +735,10 @@ export default {
         "opposite effect"
       ],
       "optionReasons": {
-        "opposite-mcq-05": "本句指「與預期或原本作用相反的效果；反效果」。",
-        "opposite-mcq-04": "「與原方向完全相反的方向」是「opposite direction」的用法，與本句語境不同。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。",
-        "opposite-mcq-03": "「性質、方向、結果等相反的」是「opposite — adjective」的用法，與本句語境不同。",
-        "opposite-mcq-07": "「在某人／某物的正對面」是「opposite someone/something」的用法，與本句語境不同。",
-        "opposite-mcq-02": "「與某人／某事完全相反」是「the opposite of」的用法，與本句語境不同。"
+        "opposite-mcq-05": "本句的「opposite effect」指「與預期或原本作用相反的效果；反效果」。",
+        "opposite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-05"
     },
@@ -804,11 +750,9 @@ export default {
       "masked": "The bank is on the ____ of the road.",
       "options": [
         "opposite-mcq-06",
-        "opposite-mcq-05",
-        "opposite-mcq-07",
-        "opposite-mcq-04",
-        "opposite-mcq-08",
-        "opposite-mcq-03"
+        "opposite-mcq-18",
+        "opposite-mcq-10",
+        "opposite-mcq-11"
       ],
       "explanation": "本句的「opposite side」指「位於另一邊、面向對方的；對面的」。",
       "sentenceIndex": 12,
@@ -817,12 +761,10 @@ export default {
         "opposite side"
       ],
       "optionReasons": {
-        "opposite-mcq-06": "本句指「位於另一邊、面向對方的；對面的」。",
-        "opposite-mcq-05": "「與預期或原本作用相反的效果；反效果」是「opposite effect」的用法，與本句語境不同。",
-        "opposite-mcq-07": "「在某人／某物的正對面」是「opposite someone/something」的用法，與本句語境不同。",
-        "opposite-mcq-04": "「與原方向完全相反的方向」是「opposite direction」的用法，與本句語境不同。",
-        "opposite-mcq-08": "「對面一側／另一端」是「opposite side/end」的用法，與本句語境不同。",
-        "opposite-mcq-03": "「性質、方向、結果等相反的」是「opposite — adjective」的用法，與本句語境不同。"
+        "opposite-mcq-06": "本句的「opposite side」指「位於另一邊、面向對方的；對面的」。",
+        "opposite-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-06"
     },
@@ -834,11 +776,9 @@ export default {
       "masked": "They sat at ____ of the table.",
       "options": [
         "opposite-mcq-06",
-        "opposite-mcq-05",
-        "opposite-mcq-07",
-        "opposite-mcq-04",
-        "opposite-mcq-08",
-        "opposite-mcq-03"
+        "opposite-mcq-02",
+        "opposite-mcq-10",
+        "opposite-mcq-11"
       ],
       "explanation": "本句的「opposite ends」指「位於另一邊、面向對方的；對面的」。",
       "sentenceIndex": 13,
@@ -847,12 +787,10 @@ export default {
         "opposite ends"
       ],
       "optionReasons": {
-        "opposite-mcq-06": "本句指「位於另一邊、面向對方的；對面的」。",
-        "opposite-mcq-05": "「與預期或原本作用相反的效果；反效果」是「opposite effect」的用法，與本句語境不同。",
-        "opposite-mcq-07": "「在某人／某物的正對面」是「opposite someone/something」的用法，與本句語境不同。",
-        "opposite-mcq-04": "「與原方向完全相反的方向」是「opposite direction」的用法，與本句語境不同。",
-        "opposite-mcq-08": "「對面一側／另一端」是「opposite side/end」的用法，與本句語境不同。",
-        "opposite-mcq-03": "「性質、方向、結果等相反的」是「opposite — adjective」的用法，與本句語境不同。"
+        "opposite-mcq-06": "本句的「opposite ends」指「位於另一邊、面向對方的；對面的」。",
+        "opposite-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-06"
     },
@@ -864,11 +802,9 @@ export default {
       "masked": "She sat ____.",
       "options": [
         "opposite-mcq-07",
-        "opposite-mcq-06",
-        "opposite-mcq-08",
         "opposite-mcq-05",
         "opposite-mcq-09",
-        "opposite-mcq-04"
+        "opposite-mcq-11"
       ],
       "explanation": "本句的「opposite me」指「在某人／某物的正對面」。",
       "sentenceIndex": 14,
@@ -877,12 +813,10 @@ export default {
         "opposite me"
       ],
       "optionReasons": {
-        "opposite-mcq-07": "本句指「在某人／某物的正對面」。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。",
-        "opposite-mcq-08": "「對面一側／另一端」是「opposite side/end」的用法，與本句語境不同。",
-        "opposite-mcq-05": "「與預期或原本作用相反的效果；反效果」是「opposite effect」的用法，與本句語境不同。",
-        "opposite-mcq-09": "「性格、特質等與另一人截然不同的人」是「opposite — person」的用法，與本句語境不同。",
-        "opposite-mcq-04": "「與原方向完全相反的方向」是「opposite direction」的用法，與本句語境不同。"
+        "opposite-mcq-07": "本句的「opposite me」指「在某人／某物的正對面」。",
+        "opposite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-07"
     },
@@ -894,11 +828,9 @@ export default {
       "masked": "The hotel is ____.",
       "options": [
         "opposite-mcq-07",
-        "opposite-mcq-06",
-        "opposite-mcq-08",
-        "opposite-mcq-05",
-        "opposite-mcq-09",
-        "opposite-mcq-04"
+        "opposite-mcq-01",
+        "opposite-mcq-11",
+        "opposite-mcq-13"
       ],
       "explanation": "本句的「opposite the station」指「在某人／某物的正對面」。",
       "sentenceIndex": 15,
@@ -907,12 +839,10 @@ export default {
         "opposite the station"
       ],
       "optionReasons": {
-        "opposite-mcq-07": "本句指「在某人／某物的正對面」。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。",
-        "opposite-mcq-08": "「對面一側／另一端」是「opposite side/end」的用法，與本句語境不同。",
-        "opposite-mcq-05": "「與預期或原本作用相反的效果；反效果」是「opposite effect」的用法，與本句語境不同。",
-        "opposite-mcq-09": "「性格、特質等與另一人截然不同的人」是「opposite — person」的用法，與本句語境不同。",
-        "opposite-mcq-04": "「與原方向完全相反的方向」是「opposite direction」的用法，與本句語境不同。"
+        "opposite-mcq-07": "本句的「opposite the station」指「在某人／某物的正對面」。",
+        "opposite-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-07"
     },
@@ -924,11 +854,9 @@ export default {
       "masked": "The shop is on the ____.",
       "options": [
         "opposite-mcq-08",
-        "opposite-mcq-07",
-        "opposite-mcq-09",
-        "opposite-mcq-06",
-        "opposite-mcq-10",
-        "opposite-mcq-05"
+        "opposite-mcq-04",
+        "opposite-mcq-11",
+        "opposite-mcq-10"
       ],
       "explanation": "本句的「opposite corner」指「對面一側／另一端」。",
       "sentenceIndex": 16,
@@ -937,12 +865,10 @@ export default {
         "opposite corner"
       ],
       "optionReasons": {
-        "opposite-mcq-08": "本句指「對面一側／另一端」。",
-        "opposite-mcq-07": "「在某人／某物的正對面」是「opposite someone/something」的用法，與本句語境不同。",
-        "opposite-mcq-09": "「性格、特質等與另一人截然不同的人」是「opposite — person」的用法，與本句語境不同。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。",
-        "opposite-mcq-10": "「性格差異很大的人有時會互相吸引」是「opposites attract」的用法，與本句語境不同。",
-        "opposite-mcq-05": "「與預期或原本作用相反的效果；反效果」是「opposite effect」的用法，與本句語境不同。"
+        "opposite-mcq-08": "本句的「opposite corner」指「對面一側／另一端」。",
+        "opposite-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-08"
     },
@@ -954,11 +880,9 @@ export default {
       "masked": "He stood at the ____ of the room.",
       "options": [
         "opposite-mcq-08",
-        "opposite-mcq-07",
-        "opposite-mcq-09",
-        "opposite-mcq-06",
-        "opposite-mcq-10",
-        "opposite-mcq-05"
+        "opposite-mcq-13",
+        "opposite-mcq-16",
+        "opposite-mcq-11"
       ],
       "explanation": "本句的「opposite end」指「對面一側／另一端」。",
       "sentenceIndex": 17,
@@ -967,12 +891,10 @@ export default {
         "opposite end"
       ],
       "optionReasons": {
-        "opposite-mcq-08": "本句指「對面一側／另一端」。",
-        "opposite-mcq-07": "「在某人／某物的正對面」是「opposite someone/something」的用法，與本句語境不同。",
-        "opposite-mcq-09": "「性格、特質等與另一人截然不同的人」是「opposite — person」的用法，與本句語境不同。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。",
-        "opposite-mcq-10": "「性格差異很大的人有時會互相吸引」是「opposites attract」的用法，與本句語境不同。",
-        "opposite-mcq-05": "「與預期或原本作用相反的效果；反效果」是「opposite effect」的用法，與本句語境不同。"
+        "opposite-mcq-08": "本句的「opposite end」指「對面一側／另一端」。",
+        "opposite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-08"
     },
@@ -984,11 +906,9 @@ export default {
       "masked": "Her brother is her complete ____.",
       "options": [
         "opposite-mcq-09",
-        "opposite-mcq-08",
-        "opposite-mcq-10",
-        "opposite-mcq-07",
-        "opposite-mcq-11",
-        "opposite-mcq-06"
+        "opposite-mcq-19",
+        "opposite-mcq-13",
+        "opposite-mcq-11"
       ],
       "explanation": "本句的「opposite」指「性格、特質等與另一人截然不同的人」。",
       "sentenceIndex": 18,
@@ -997,12 +917,10 @@ export default {
         "opposite"
       ],
       "optionReasons": {
-        "opposite-mcq-09": "本句指「性格、特質等與另一人截然不同的人」。",
-        "opposite-mcq-08": "「對面一側／另一端」是「opposite side/end」的用法，與本句語境不同。",
-        "opposite-mcq-10": "「性格差異很大的人有時會互相吸引」是「opposites attract」的用法，與本句語境不同。",
-        "opposite-mcq-07": "「在某人／某物的正對面」是「opposite someone/something」的用法，與本句語境不同。",
-        "opposite-mcq-11": "「幾何中與某角／頂點相對的邊；對邊」是「opposite side — geometry」的用法，與本句語境不同。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。"
+        "opposite-mcq-09": "本句的「opposite」指「性格、特質等與另一人截然不同的人」。",
+        "opposite-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-09"
     },
@@ -1014,11 +932,9 @@ export default {
       "masked": "We are ____ in many ways.",
       "options": [
         "opposite-mcq-09",
-        "opposite-mcq-08",
-        "opposite-mcq-10",
         "opposite-mcq-07",
-        "opposite-mcq-11",
-        "opposite-mcq-06"
+        "opposite-mcq-16",
+        "opposite-mcq-11"
       ],
       "explanation": "本句的「opposites」指「性格、特質等與另一人截然不同的人」。",
       "sentenceIndex": 19,
@@ -1027,12 +943,10 @@ export default {
         "opposites"
       ],
       "optionReasons": {
-        "opposite-mcq-09": "本句指「性格、特質等與另一人截然不同的人」。",
-        "opposite-mcq-08": "「對面一側／另一端」是「opposite side/end」的用法，與本句語境不同。",
-        "opposite-mcq-10": "「性格差異很大的人有時會互相吸引」是「opposites attract」的用法，與本句語境不同。",
-        "opposite-mcq-07": "「在某人／某物的正對面」是「opposite someone/something」的用法，與本句語境不同。",
-        "opposite-mcq-11": "「幾何中與某角／頂點相對的邊；對邊」是「opposite side — geometry」的用法，與本句語境不同。",
-        "opposite-mcq-06": "「位於另一邊、面向對方的；對面的」是「opposite — location」的用法，與本句語境不同。"
+        "opposite-mcq-09": "本句的「opposites」指「性格、特質等與另一人截然不同的人」。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-09"
     },
@@ -1044,11 +958,9 @@ export default {
       "masked": "They are very different, but ____.",
       "options": [
         "opposite-mcq-10",
-        "opposite-mcq-09",
-        "opposite-mcq-11",
         "opposite-mcq-08",
-        "opposite-mcq-12",
-        "opposite-mcq-07"
+        "opposite-mcq-07",
+        "opposite-mcq-17"
       ],
       "explanation": "本句的「opposites attract」指「性格差異很大的人有時會互相吸引」。",
       "sentenceIndex": 20,
@@ -1057,12 +969,10 @@ export default {
         "opposites attract"
       ],
       "optionReasons": {
-        "opposite-mcq-10": "本句指「性格差異很大的人有時會互相吸引」。",
-        "opposite-mcq-09": "「性格、特質等與另一人截然不同的人」是「opposite — person」的用法，與本句語境不同。",
-        "opposite-mcq-11": "「幾何中與某角／頂點相對的邊；對邊」是「opposite side — geometry」的用法，與本句語境不同。",
-        "opposite-mcq-08": "「對面一側／另一端」是「opposite side/end」的用法，與本句語境不同。",
-        "opposite-mcq-12": "「與另一角相對的角；對角」是「opposite angle」的用法，與本句語境不同。",
-        "opposite-mcq-07": "「在某人／某物的正對面」是「opposite someone/something」的用法，與本句語境不同。"
+        "opposite-mcq-10": "本句的「opposites attract」指「性格差異很大的人有時會互相吸引」。",
+        "opposite-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-10"
     },
@@ -1074,11 +984,9 @@ export default {
       "masked": "Their relationship seems to prove that ____.",
       "options": [
         "opposite-mcq-10",
-        "opposite-mcq-09",
+        "opposite-mcq-02",
         "opposite-mcq-11",
-        "opposite-mcq-08",
-        "opposite-mcq-12",
-        "opposite-mcq-07"
+        "opposite-mcq-08"
       ],
       "explanation": "本句的「opposites attract」指「性格差異很大的人有時會互相吸引」。",
       "sentenceIndex": 21,
@@ -1087,12 +995,10 @@ export default {
         "opposites attract"
       ],
       "optionReasons": {
-        "opposite-mcq-10": "本句指「性格差異很大的人有時會互相吸引」。",
-        "opposite-mcq-09": "「性格、特質等與另一人截然不同的人」是「opposite — person」的用法，與本句語境不同。",
-        "opposite-mcq-11": "「幾何中與某角／頂點相對的邊；對邊」是「opposite side — geometry」的用法，與本句語境不同。",
-        "opposite-mcq-08": "「對面一側／另一端」是「opposite side/end」的用法，與本句語境不同。",
-        "opposite-mcq-12": "「與另一角相對的角；對角」是「opposite angle」的用法，與本句語境不同。",
-        "opposite-mcq-07": "「在某人／某物的正對面」是「opposite someone/something」的用法，與本句語境不同。"
+        "opposite-mcq-10": "本句的「opposites attract」指「性格差異很大的人有時會互相吸引」。",
+        "opposite-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-10"
     },
@@ -1104,11 +1010,9 @@ export default {
       "masked": "The ____ is across from the angle.",
       "options": [
         "opposite-mcq-11",
+        "opposite-mcq-08",
         "opposite-mcq-10",
-        "opposite-mcq-12",
-        "opposite-mcq-09",
-        "opposite-mcq-13",
-        "opposite-mcq-08"
+        "opposite-mcq-17"
       ],
       "explanation": "本句的「opposite side」指「幾何中與某角／頂點相對的邊；對邊」。",
       "sentenceIndex": 22,
@@ -1117,12 +1021,10 @@ export default {
         "opposite side"
       ],
       "optionReasons": {
-        "opposite-mcq-11": "本句指「幾何中與某角／頂點相對的邊；對邊」。",
-        "opposite-mcq-10": "「性格差異很大的人有時會互相吸引」是「opposites attract」的用法，與本句語境不同。",
-        "opposite-mcq-12": "「與另一角相對的角；對角」是「opposite angle」的用法，與本句語境不同。",
-        "opposite-mcq-09": "「性格、特質等與另一人截然不同的人」是「opposite — person」的用法，與本句語境不同。",
-        "opposite-mcq-13": "「主動反對、抵抗或對抗」是「oppose」的用法，與本句語境不同。",
-        "opposite-mcq-08": "「對面一側／另一端」是「opposite side/end」的用法，與本句語境不同。"
+        "opposite-mcq-11": "本句的「opposite side」指「幾何中與某角／頂點相對的邊；對邊」。",
+        "opposite-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-11"
     },
@@ -1134,11 +1036,9 @@ export default {
       "masked": "In a right triangle, identify the ____ first.",
       "options": [
         "opposite-mcq-11",
-        "opposite-mcq-10",
-        "opposite-mcq-12",
-        "opposite-mcq-09",
-        "opposite-mcq-13",
-        "opposite-mcq-08"
+        "opposite-mcq-07",
+        "opposite-mcq-05",
+        "opposite-mcq-10"
       ],
       "explanation": "本句的「opposite side」指「幾何中與某角／頂點相對的邊；對邊」。",
       "sentenceIndex": 23,
@@ -1147,12 +1047,10 @@ export default {
         "opposite side"
       ],
       "optionReasons": {
-        "opposite-mcq-11": "本句指「幾何中與某角／頂點相對的邊；對邊」。",
-        "opposite-mcq-10": "「性格差異很大的人有時會互相吸引」是「opposites attract」的用法，與本句語境不同。",
-        "opposite-mcq-12": "「與另一角相對的角；對角」是「opposite angle」的用法，與本句語境不同。",
-        "opposite-mcq-09": "「性格、特質等與另一人截然不同的人」是「opposite — person」的用法，與本句語境不同。",
-        "opposite-mcq-13": "「主動反對、抵抗或對抗」是「oppose」的用法，與本句語境不同。",
-        "opposite-mcq-08": "「對面一側／另一端」是「opposite side/end」的用法，與本句語境不同。"
+        "opposite-mcq-11": "本句的「opposite side」指「幾何中與某角／頂點相對的邊；對邊」。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-11"
     },
@@ -1164,11 +1062,9 @@ export default {
       "masked": "The two ____ are equal.",
       "options": [
         "opposite-mcq-12",
-        "opposite-mcq-11",
-        "opposite-mcq-13",
-        "opposite-mcq-10",
-        "opposite-mcq-14",
-        "opposite-mcq-09"
+        "opposite-mcq-17",
+        "opposite-mcq-07",
+        "opposite-mcq-10"
       ],
       "explanation": "本句的「opposite angles」指「與另一角相對的角；對角」。",
       "sentenceIndex": 24,
@@ -1177,12 +1073,10 @@ export default {
         "opposite angles"
       ],
       "optionReasons": {
-        "opposite-mcq-12": "本句指「與另一角相對的角；對角」。",
-        "opposite-mcq-11": "「幾何中與某角／頂點相對的邊；對邊」是「opposite side — geometry」的用法，與本句語境不同。",
-        "opposite-mcq-13": "「主動反對、抵抗或對抗」是「oppose」的用法，與本句語境不同。",
-        "opposite-mcq-10": "「性格差異很大的人有時會互相吸引」是「opposites attract」的用法，與本句語境不同。",
-        "opposite-mcq-14": "「反對；亦可指反對方／對立陣營」是「opposition」的用法，與本句語境不同。",
-        "opposite-mcq-09": "「性格、特質等與另一人截然不同的人」是「opposite — person」的用法，與本句語境不同。"
+        "opposite-mcq-12": "本句的「opposite angles」指「與另一角相對的角；對角」。",
+        "opposite-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-12"
     },
@@ -1194,11 +1088,9 @@ export default {
       "masked": "Compare the ____ in the figure.",
       "options": [
         "opposite-mcq-12",
-        "opposite-mcq-11",
-        "opposite-mcq-13",
+        "opposite-mcq-19",
         "opposite-mcq-10",
-        "opposite-mcq-14",
-        "opposite-mcq-09"
+        "opposite-mcq-07"
       ],
       "explanation": "本句的「opposite angles」指「與另一角相對的角；對角」。",
       "sentenceIndex": 25,
@@ -1207,12 +1099,10 @@ export default {
         "opposite angles"
       ],
       "optionReasons": {
-        "opposite-mcq-12": "本句指「與另一角相對的角；對角」。",
-        "opposite-mcq-11": "「幾何中與某角／頂點相對的邊；對邊」是「opposite side — geometry」的用法，與本句語境不同。",
-        "opposite-mcq-13": "「主動反對、抵抗或對抗」是「oppose」的用法，與本句語境不同。",
-        "opposite-mcq-10": "「性格差異很大的人有時會互相吸引」是「opposites attract」的用法，與本句語境不同。",
-        "opposite-mcq-14": "「反對；亦可指反對方／對立陣營」是「opposition」的用法，與本句語境不同。",
-        "opposite-mcq-09": "「性格、特質等與另一人截然不同的人」是「opposite — person」的用法，與本句語境不同。"
+        "opposite-mcq-12": "本句的「opposite angles」指「與另一角相對的角；對角」。",
+        "opposite-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-12"
     },
@@ -1224,11 +1114,9 @@ export default {
       "masked": "Many residents ____ the plan.",
       "options": [
         "opposite-mcq-13",
-        "opposite-mcq-12",
-        "opposite-mcq-14",
-        "opposite-mcq-11",
-        "opposite-mcq-15",
-        "opposite-mcq-10"
+        "opposite-mcq-08",
+        "opposite-mcq-07",
+        "opposite-mcq-11"
       ],
       "explanation": "本句的「opposed」指「主動反對、抵抗或對抗」。",
       "sentenceIndex": 26,
@@ -1237,12 +1125,10 @@ export default {
         "opposed"
       ],
       "optionReasons": {
-        "opposite-mcq-13": "本句指「主動反對、抵抗或對抗」。",
-        "opposite-mcq-12": "「與另一角相對的角；對角」是「opposite angle」的用法，與本句語境不同。",
-        "opposite-mcq-14": "「反對；亦可指反對方／對立陣營」是「opposition」的用法，與本句語境不同。",
-        "opposite-mcq-11": "「幾何中與某角／頂點相對的邊；對邊」是「opposite side — geometry」的用法，與本句語境不同。",
-        "opposite-mcq-15": "「處於對立、反對或相反位置的」是「opposing」的用法，與本句語境不同。",
-        "opposite-mcq-10": "「性格差異很大的人有時會互相吸引」是「opposites attract」的用法，與本句語境不同。"
+        "opposite-mcq-13": "本句的「opposed」指「主動反對、抵抗或對抗」。",
+        "opposite-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-13"
     },
@@ -1255,9 +1141,7 @@ export default {
       "options": [
         "opposite-mcq-13",
         "opposite-mcq-12",
-        "opposite-mcq-14",
-        "opposite-mcq-11",
-        "opposite-mcq-15",
+        "opposite-mcq-07",
         "opposite-mcq-10"
       ],
       "explanation": "本句的「opposed」指「主動反對、抵抗或對抗」。",
@@ -1267,12 +1151,10 @@ export default {
         "opposed"
       ],
       "optionReasons": {
-        "opposite-mcq-13": "本句指「主動反對、抵抗或對抗」。",
-        "opposite-mcq-12": "「與另一角相對的角；對角」是「opposite angle」的用法，與本句語境不同。",
-        "opposite-mcq-14": "「反對；亦可指反對方／對立陣營」是「opposition」的用法，與本句語境不同。",
-        "opposite-mcq-11": "「幾何中與某角／頂點相對的邊；對邊」是「opposite side — geometry」的用法，與本句語境不同。",
-        "opposite-mcq-15": "「處於對立、反對或相反位置的」是「opposing」的用法，與本句語境不同。",
-        "opposite-mcq-10": "「性格差異很大的人有時會互相吸引」是「opposites attract」的用法，與本句語境不同。"
+        "opposite-mcq-13": "本句的「opposed」指「主動反對、抵抗或對抗」。",
+        "opposite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-13"
     },
@@ -1284,11 +1166,9 @@ export default {
       "masked": "The two sides have ____.",
       "options": [
         "opposite-mcq-15",
-        "opposite-mcq-14",
-        "opposite-mcq-16",
-        "opposite-mcq-13",
-        "opposite-mcq-17",
-        "opposite-mcq-12"
+        "opposite-mcq-12",
+        "opposite-mcq-10",
+        "opposite-mcq-07"
       ],
       "explanation": "本句的「opposing views」指「處於對立、反對或相反位置的」。",
       "sentenceIndex": 28,
@@ -1297,12 +1177,10 @@ export default {
         "opposing views"
       ],
       "optionReasons": {
-        "opposite-mcq-15": "本句指「處於對立、反對或相反位置的」。",
-        "opposite-mcq-14": "「反對；亦可指反對方／對立陣營」是「opposition」的用法，與本句語境不同。",
-        "opposite-mcq-16": "「完全、精確地相反」是「the exact opposite」的用法，與本句語境不同。",
-        "opposite-mcq-13": "「主動反對、抵抗或對抗」是「oppose」的用法，與本句語境不同。",
-        "opposite-mcq-17": "「恰恰相反」是「quite the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-12": "「與另一角相對的角；對角」是「opposite angle」的用法，與本句語境不同。"
+        "opposite-mcq-15": "本句的「opposing views」指「處於對立、反對或相反位置的」。",
+        "opposite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-15"
     },
@@ -1314,11 +1192,9 @@ export default {
       "masked": "The teams attacked from ____.",
       "options": [
         "opposite-mcq-15",
-        "opposite-mcq-14",
-        "opposite-mcq-16",
-        "opposite-mcq-13",
-        "opposite-mcq-17",
-        "opposite-mcq-12"
+        "opposite-mcq-12",
+        "opposite-mcq-10",
+        "opposite-mcq-07"
       ],
       "explanation": "本句的「opposing directions」指「處於對立、反對或相反位置的」。",
       "sentenceIndex": 29,
@@ -1327,12 +1203,10 @@ export default {
         "opposing directions"
       ],
       "optionReasons": {
-        "opposite-mcq-15": "本句指「處於對立、反對或相反位置的」。",
-        "opposite-mcq-14": "「反對；亦可指反對方／對立陣營」是「opposition」的用法，與本句語境不同。",
-        "opposite-mcq-16": "「完全、精確地相反」是「the exact opposite」的用法，與本句語境不同。",
-        "opposite-mcq-13": "「主動反對、抵抗或對抗」是「oppose」的用法，與本句語境不同。",
-        "opposite-mcq-17": "「恰恰相反」是「quite the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-12": "「與另一角相對的角；對角」是「opposite angle」的用法，與本句語境不同。"
+        "opposite-mcq-15": "本句的「opposing directions」指「處於對立、反對或相反位置的」。",
+        "opposite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-15"
     },
@@ -1344,11 +1218,9 @@ export default {
       "masked": "The result was the ____ of what I expected.",
       "options": [
         "opposite-mcq-16",
-        "opposite-mcq-15",
-        "opposite-mcq-17",
-        "opposite-mcq-14",
-        "opposite-mcq-18",
-        "opposite-mcq-13"
+        "opposite-mcq-12",
+        "opposite-mcq-10",
+        "opposite-mcq-07"
       ],
       "explanation": "本句的「exact opposite」指「完全、精確地相反」。",
       "sentenceIndex": 30,
@@ -1357,12 +1229,10 @@ export default {
         "exact opposite"
       ],
       "optionReasons": {
-        "opposite-mcq-16": "本句指「完全、精確地相反」。",
-        "opposite-mcq-15": "「處於對立、反對或相反位置的」是「opposing」的用法，與本句語境不同。",
-        "opposite-mcq-17": "「恰恰相反」是「quite the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-14": "「反對；亦可指反對方／對立陣營」是「opposition」的用法，與本句語境不同。",
-        "opposite-mcq-18": "「正好相反」是「just the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-13": "「主動反對、抵抗或對抗」是「oppose」的用法，與本句語境不同。"
+        "opposite-mcq-16": "本句的「exact opposite」指「完全、精確地相反」。",
+        "opposite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-16"
     },
@@ -1374,11 +1244,9 @@ export default {
       "masked": "She did the ____ of what I suggested.",
       "options": [
         "opposite-mcq-16",
-        "opposite-mcq-15",
-        "opposite-mcq-17",
-        "opposite-mcq-14",
-        "opposite-mcq-18",
-        "opposite-mcq-13"
+        "opposite-mcq-09",
+        "opposite-mcq-11",
+        "opposite-mcq-07"
       ],
       "explanation": "本句的「exact opposite」指「完全、精確地相反」。",
       "sentenceIndex": 31,
@@ -1387,12 +1255,10 @@ export default {
         "exact opposite"
       ],
       "optionReasons": {
-        "opposite-mcq-16": "本句指「完全、精確地相反」。",
-        "opposite-mcq-15": "「處於對立、反對或相反位置的」是「opposing」的用法，與本句語境不同。",
-        "opposite-mcq-17": "「恰恰相反」是「quite the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-14": "「反對；亦可指反對方／對立陣營」是「opposition」的用法，與本句語境不同。",
-        "opposite-mcq-18": "「正好相反」是「just the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-13": "「主動反對、抵抗或對抗」是「oppose」的用法，與本句語境不同。"
+        "opposite-mcq-16": "本句的「exact opposite」指「完全、精確地相反」。",
+        "opposite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-16"
     },
@@ -1404,11 +1270,9 @@ export default {
       "masked": "I’m not disappointed. ____, I’m relieved.",
       "options": [
         "opposite-mcq-17",
-        "opposite-mcq-16",
-        "opposite-mcq-18",
-        "opposite-mcq-15",
-        "opposite-mcq-19",
-        "opposite-mcq-14"
+        "opposite-mcq-08",
+        "opposite-mcq-07",
+        "opposite-mcq-11"
       ],
       "explanation": "本句的「Quite the opposite」指「恰恰相反」。",
       "sentenceIndex": 32,
@@ -1417,12 +1281,10 @@ export default {
         "Quite the opposite"
       ],
       "optionReasons": {
-        "opposite-mcq-17": "本句指「恰恰相反」。",
-        "opposite-mcq-16": "「完全、精確地相反」是「the exact opposite」的用法，與本句語境不同。",
-        "opposite-mcq-18": "「正好相反」是「just the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-15": "「處於對立、反對或相反位置的」是「opposing」的用法，與本句語境不同。",
-        "opposite-mcq-19": "「做與原本描述、要求或預期完全相反的事」是「do the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-14": "「反對；亦可指反對方／對立陣營」是「opposition」的用法，與本句語境不同。"
+        "opposite-mcq-17": "本句的「Quite the opposite」指「恰恰相反」。",
+        "opposite-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-17"
     },
@@ -1434,11 +1296,9 @@ export default {
       "masked": "The change did not weaken the team; ____, it made them stronger.",
       "options": [
         "opposite-mcq-17",
-        "opposite-mcq-16",
-        "opposite-mcq-18",
-        "opposite-mcq-15",
-        "opposite-mcq-19",
-        "opposite-mcq-14"
+        "opposite-mcq-11",
+        "opposite-mcq-10",
+        "opposite-mcq-07"
       ],
       "explanation": "本句的「quite the opposite」指「恰恰相反」。",
       "sentenceIndex": 33,
@@ -1447,12 +1307,10 @@ export default {
         "quite the opposite"
       ],
       "optionReasons": {
-        "opposite-mcq-17": "本句指「恰恰相反」。",
-        "opposite-mcq-16": "「完全、精確地相反」是「the exact opposite」的用法，與本句語境不同。",
-        "opposite-mcq-18": "「正好相反」是「just the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-15": "「處於對立、反對或相反位置的」是「opposing」的用法，與本句語境不同。",
-        "opposite-mcq-19": "「做與原本描述、要求或預期完全相反的事」是「do the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-14": "「反對；亦可指反對方／對立陣營」是「opposition」的用法，與本句語境不同。"
+        "opposite-mcq-17": "本句的「quite the opposite」指「恰恰相反」。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-17"
     },
@@ -1464,11 +1322,8 @@ export default {
       "masked": "I thought he would be unfriendly, but he was ____.",
       "options": [
         "opposite-mcq-18",
-        "opposite-mcq-17",
-        "opposite-mcq-19",
-        "opposite-mcq-16",
-        "opposite-mcq-20",
-        "opposite-mcq-15"
+        "opposite-mcq-09",
+        "opposite-mcq-11"
       ],
       "explanation": "本句的「just the opposite」指「正好相反」。",
       "sentenceIndex": 34,
@@ -1477,12 +1332,9 @@ export default {
         "just the opposite"
       ],
       "optionReasons": {
-        "opposite-mcq-18": "本句指「正好相反」。",
-        "opposite-mcq-17": "「恰恰相反」是「quite the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-19": "「做與原本描述、要求或預期完全相反的事」是「do the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-16": "「完全、精確地相反」是「the exact opposite」的用法，與本句語境不同。",
-        "opposite-mcq-20": "「表示相反的情況；正好相反」是「Passage meaning」的用法，與本句語境不同。",
-        "opposite-mcq-15": "「處於對立、反對或相反位置的」是「opposing」的用法，與本句語境不同。"
+        "opposite-mcq-18": "本句的「just the opposite」指「正好相反」。",
+        "opposite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-18"
     },
@@ -1494,11 +1346,8 @@ export default {
       "masked": "The plan was meant to save time, but it did ____.",
       "options": [
         "opposite-mcq-18",
-        "opposite-mcq-17",
-        "opposite-mcq-19",
-        "opposite-mcq-16",
-        "opposite-mcq-20",
-        "opposite-mcq-15"
+        "opposite-mcq-09",
+        "opposite-mcq-11"
       ],
       "explanation": "本句的「just the opposite」指「正好相反」。",
       "sentenceIndex": 35,
@@ -1507,12 +1356,9 @@ export default {
         "just the opposite"
       ],
       "optionReasons": {
-        "opposite-mcq-18": "本句指「正好相反」。",
-        "opposite-mcq-17": "「恰恰相反」是「quite the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-19": "「做與原本描述、要求或預期完全相反的事」是「do the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-16": "「完全、精確地相反」是「the exact opposite」的用法，與本句語境不同。",
-        "opposite-mcq-20": "「表示相反的情況；正好相反」是「Passage meaning」的用法，與本句語境不同。",
-        "opposite-mcq-15": "「處於對立、反對或相反位置的」是「opposing」的用法，與本句語境不同。"
+        "opposite-mcq-18": "本句的「just the opposite」指「正好相反」。",
+        "opposite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-18"
     },
@@ -1524,11 +1370,9 @@ export default {
       "masked": "I told him to slow down, but he ____.",
       "options": [
         "opposite-mcq-19",
-        "opposite-mcq-18",
-        "opposite-mcq-20",
-        "opposite-mcq-17",
-        "opposite-mcq-16",
-        "opposite-mcq-15"
+        "opposite-mcq-09",
+        "opposite-mcq-11",
+        "opposite-mcq-07"
       ],
       "explanation": "本句的「did the opposite」指「做與原本描述、要求或預期完全相反的事」。",
       "sentenceIndex": 36,
@@ -1537,12 +1381,10 @@ export default {
         "did the opposite"
       ],
       "optionReasons": {
-        "opposite-mcq-19": "本句指「做與原本描述、要求或預期完全相反的事」。",
-        "opposite-mcq-18": "「正好相反」是「just the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-20": "「表示相反的情況；正好相反」是「Passage meaning」的用法，與本句語境不同。",
-        "opposite-mcq-17": "「恰恰相反」是「quite the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-16": "「完全、精確地相反」是「the exact opposite」的用法，與本句語境不同。",
-        "opposite-mcq-15": "「處於對立、反對或相反位置的」是「opposing」的用法，與本句語境不同。"
+        "opposite-mcq-19": "本句的「did the opposite」指「做與原本描述、要求或預期完全相反的事」。",
+        "opposite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-19"
     },
@@ -1554,11 +1396,9 @@ export default {
       "masked": "Instead of fading in importance, the gift ____.",
       "options": [
         "opposite-mcq-19",
-        "opposite-mcq-18",
-        "opposite-mcq-20",
-        "opposite-mcq-17",
-        "opposite-mcq-16",
-        "opposite-mcq-15"
+        "opposite-mcq-07",
+        "opposite-mcq-10",
+        "opposite-mcq-11"
       ],
       "explanation": "本句的「did the opposite」指「做與原本描述、要求或預期完全相反的事」。",
       "sentenceIndex": 37,
@@ -1567,12 +1407,10 @@ export default {
         "did the opposite"
       ],
       "optionReasons": {
-        "opposite-mcq-19": "本句指「做與原本描述、要求或預期完全相反的事」。",
-        "opposite-mcq-18": "「正好相反」是「just the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-20": "「表示相反的情況；正好相反」是「Passage meaning」的用法，與本句語境不同。",
-        "opposite-mcq-17": "「恰恰相反」是「quite the opposite」的用法，與本句語境不同。",
-        "opposite-mcq-16": "「完全、精確地相反」是「the exact opposite」的用法，與本句語境不同。",
-        "opposite-mcq-15": "「處於對立、反對或相反位置的」是「opposing」的用法，與本句語境不同。"
+        "opposite-mcq-19": "本句的「did the opposite」指「做與原本描述、要求或預期完全相反的事」。",
+        "opposite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "opposite-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "opposite-mcq-19"
     }
@@ -1584,5 +1422,7 @@ export default {
     "sha256": "0ec9774ddc46ef422a5a3fff6ff4a19471beeaeb88d6c83d5b43d20823d40bb6",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

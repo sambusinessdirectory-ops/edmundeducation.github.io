@@ -533,7 +533,7 @@ export default {
     },
     {
       "id": "pen-mcq-24",
-      "title": "表示鋼筆",
+      "title": "鋼筆",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示鋼筆",
@@ -563,11 +563,9 @@ export default {
       "masked": "She gave me a beautiful ____ with my initials engraved on it.",
       "options": [
         "pen-mcq-24",
-        "pen-mcq-23",
-        "pen-mcq-22",
-        "pen-mcq-21",
-        "pen-mcq-20",
-        "pen-mcq-19"
+        "pen-mcq-12",
+        "pen-mcq-15",
+        "pen-mcq-16"
       ],
       "explanation": "本句的「pen」指「表示鋼筆」。",
       "sentenceIndex": 0,
@@ -576,12 +574,10 @@ export default {
         "pen"
       ],
       "optionReasons": {
-        "pen-mcq-24": "本句指「表示鋼筆」。",
-        "pen-mcq-23": "「透過一次簽署或書面決定迅速造成重大改變；大筆一揮」是「by/with the stroke of a pen」的用法，與本句語境不同。",
-        "pen-mcq-22": "「傳統以紙和筆書寫的方式」是「pen and paper」的用法，與本句語境不同。",
-        "pen-mcq-21": "「開始把想法寫下來；動筆」是「put pen to paper」的用法，與本句語境不同。",
-        "pen-mcq-20": "「手寫字的技巧、風格或品質」是「penmanship」的用法，與本句語境不同。",
-        "pen-mcq-19": "「使用數位筆在電子裝置上輸入文字或圖畫」是「pen input」的用法，與本句語境不同。"
+        "pen-mcq-24": "本句的「pen」指「表示鋼筆」。",
+        "pen-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-24"
     },
@@ -593,11 +589,9 @@ export default {
       "masked": "I still use the ____ whenever I write something important.",
       "options": [
         "pen-mcq-24",
-        "pen-mcq-23",
-        "pen-mcq-22",
-        "pen-mcq-21",
+        "pen-mcq-10",
         "pen-mcq-20",
-        "pen-mcq-19"
+        "pen-mcq-16"
       ],
       "explanation": "本句的「pen」指「表示鋼筆」。",
       "sentenceIndex": 1,
@@ -606,12 +600,10 @@ export default {
         "pen"
       ],
       "optionReasons": {
-        "pen-mcq-24": "本句指「表示鋼筆」。",
-        "pen-mcq-23": "「透過一次簽署或書面決定迅速造成重大改變；大筆一揮」是「by/with the stroke of a pen」的用法，與本句語境不同。",
-        "pen-mcq-22": "「傳統以紙和筆書寫的方式」是「pen and paper」的用法，與本句語境不同。",
-        "pen-mcq-21": "「開始把想法寫下來；動筆」是「put pen to paper」的用法，與本句語境不同。",
-        "pen-mcq-20": "「手寫字的技巧、風格或品質」是「penmanship」的用法，與本句語境不同。",
-        "pen-mcq-19": "「使用數位筆在電子裝置上輸入文字或圖畫」是「pen input」的用法，與本句語境不同。"
+        "pen-mcq-24": "本句的「pen」指「表示鋼筆」。",
+        "pen-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-24"
     },
@@ -623,11 +615,9 @@ export default {
       "masked": "Can I borrow your ____?",
       "options": [
         "pen-mcq-01",
-        "pen-mcq-02",
-        "pen-mcq-03",
-        "pen-mcq-04",
-        "pen-mcq-05",
-        "pen-mcq-06"
+        "pen-mcq-12",
+        "pen-mcq-11",
+        "pen-mcq-17"
       ],
       "explanation": "本句的「pen」指「使用墨水書寫或畫線的筆」。",
       "sentenceIndex": 2,
@@ -636,12 +626,10 @@ export default {
         "pen"
       ],
       "optionReasons": {
-        "pen-mcq-01": "本句指「使用墨水書寫或畫線的筆」。",
-        "pen-mcq-02": "「透過筆尖和內部墨水儲存系統供墨的鋼筆」是「fountain pen」的用法，與本句語境不同。",
-        "pen-mcq-03": "「透過筆尖小滾珠供墨的原子筆／圓珠筆」是「ballpoint pen」的用法，與本句語境不同。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。"
+        "pen-mcq-01": "本句的「pen」指「使用墨水書寫或畫線的筆」。",
+        "pen-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-01"
     },
@@ -653,11 +641,9 @@ export default {
       "masked": "She wrote her name with a blue ____.",
       "options": [
         "pen-mcq-01",
-        "pen-mcq-02",
-        "pen-mcq-03",
-        "pen-mcq-04",
-        "pen-mcq-05",
-        "pen-mcq-06"
+        "pen-mcq-12",
+        "pen-mcq-14",
+        "pen-mcq-11"
       ],
       "explanation": "本句的「pen」指「使用墨水書寫或畫線的筆」。",
       "sentenceIndex": 3,
@@ -666,12 +652,10 @@ export default {
         "pen"
       ],
       "optionReasons": {
-        "pen-mcq-01": "本句指「使用墨水書寫或畫線的筆」。",
-        "pen-mcq-02": "「透過筆尖和內部墨水儲存系統供墨的鋼筆」是「fountain pen」的用法，與本句語境不同。",
-        "pen-mcq-03": "「透過筆尖小滾珠供墨的原子筆／圓珠筆」是「ballpoint pen」的用法，與本句語境不同。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。"
+        "pen-mcq-01": "本句的「pen」指「使用墨水書寫或畫線的筆」。",
+        "pen-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-01"
     },
@@ -683,11 +667,9 @@ export default {
       "masked": "The artist produced a ____.",
       "options": [
         "pen-mcq-01",
-        "pen-mcq-02",
-        "pen-mcq-03",
-        "pen-mcq-04",
-        "pen-mcq-05",
-        "pen-mcq-06"
+        "pen-mcq-14",
+        "pen-mcq-12",
+        "pen-mcq-11"
       ],
       "explanation": "本句的「pen-and-ink drawing」指「使用墨水書寫或畫線的筆」。",
       "sentenceIndex": 4,
@@ -696,12 +678,10 @@ export default {
         "pen-and-ink drawing"
       ],
       "optionReasons": {
-        "pen-mcq-01": "本句指「使用墨水書寫或畫線的筆」。",
-        "pen-mcq-02": "「透過筆尖和內部墨水儲存系統供墨的鋼筆」是「fountain pen」的用法，與本句語境不同。",
-        "pen-mcq-03": "「透過筆尖小滾珠供墨的原子筆／圓珠筆」是「ballpoint pen」的用法，與本句語境不同。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。"
+        "pen-mcq-01": "本句的「pen-and-ink drawing」指「使用墨水書寫或畫線的筆」。",
+        "pen-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-01"
     },
@@ -713,11 +693,9 @@ export default {
       "masked": "The sketch was done in ____.",
       "options": [
         "pen-mcq-01",
-        "pen-mcq-02",
-        "pen-mcq-03",
-        "pen-mcq-04",
-        "pen-mcq-05",
-        "pen-mcq-06"
+        "pen-mcq-13",
+        "pen-mcq-14",
+        "pen-mcq-16"
       ],
       "explanation": "本句的「pen and ink」指「使用墨水書寫或畫線的筆」。",
       "sentenceIndex": 5,
@@ -726,12 +704,10 @@ export default {
         "pen and ink"
       ],
       "optionReasons": {
-        "pen-mcq-01": "本句指「使用墨水書寫或畫線的筆」。",
-        "pen-mcq-02": "「透過筆尖和內部墨水儲存系統供墨的鋼筆」是「fountain pen」的用法，與本句語境不同。",
-        "pen-mcq-03": "「透過筆尖小滾珠供墨的原子筆／圓珠筆」是「ballpoint pen」的用法，與本句語境不同。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。"
+        "pen-mcq-01": "本句的「pen and ink」指「使用墨水書寫或畫線的筆」。",
+        "pen-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-01"
     },
@@ -743,11 +719,9 @@ export default {
       "masked": "I prefer a ____ for handwriting.",
       "options": [
         "pen-mcq-02",
-        "pen-mcq-01",
-        "pen-mcq-03",
-        "pen-mcq-04",
-        "pen-mcq-05",
-        "pen-mcq-06"
+        "pen-mcq-16",
+        "pen-mcq-06",
+        "pen-mcq-11"
       ],
       "explanation": "本句的「fountain pen」指「透過筆尖和內部墨水儲存系統供墨的鋼筆」。",
       "sentenceIndex": 6,
@@ -756,12 +730,10 @@ export default {
         "fountain pen"
       ],
       "optionReasons": {
-        "pen-mcq-02": "本句指「透過筆尖和內部墨水儲存系統供墨的鋼筆」。",
-        "pen-mcq-01": "「使用墨水書寫或畫線的筆」是「pen — writing instrument」的用法，與本句語境不同。",
-        "pen-mcq-03": "「透過筆尖小滾珠供墨的原子筆／圓珠筆」是「ballpoint pen」的用法，與本句語境不同。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。"
+        "pen-mcq-02": "本句的「fountain pen」指「透過筆尖和內部墨水儲存系統供墨的鋼筆」。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-02"
     },
@@ -773,11 +745,9 @@ export default {
       "masked": "The ____ writes very smoothly.",
       "options": [
         "pen-mcq-02",
-        "pen-mcq-01",
-        "pen-mcq-03",
-        "pen-mcq-04",
-        "pen-mcq-05",
-        "pen-mcq-06"
+        "pen-mcq-14",
+        "pen-mcq-10",
+        "pen-mcq-05"
       ],
       "explanation": "本句的「fountain pen」指「透過筆尖和內部墨水儲存系統供墨的鋼筆」。",
       "sentenceIndex": 7,
@@ -786,12 +756,10 @@ export default {
         "fountain pen"
       ],
       "optionReasons": {
-        "pen-mcq-02": "本句指「透過筆尖和內部墨水儲存系統供墨的鋼筆」。",
-        "pen-mcq-01": "「使用墨水書寫或畫線的筆」是「pen — writing instrument」的用法，與本句語境不同。",
-        "pen-mcq-03": "「透過筆尖小滾珠供墨的原子筆／圓珠筆」是「ballpoint pen」的用法，與本句語境不同。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。"
+        "pen-mcq-02": "本句的「fountain pen」指「透過筆尖和內部墨水儲存系統供墨的鋼筆」。",
+        "pen-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-02"
     },
@@ -803,11 +771,9 @@ export default {
       "masked": "Please use a black ____.",
       "options": [
         "pen-mcq-03",
-        "pen-mcq-02",
-        "pen-mcq-04",
-        "pen-mcq-01",
-        "pen-mcq-05",
-        "pen-mcq-06"
+        "pen-mcq-20",
+        "pen-mcq-14",
+        "pen-mcq-12"
       ],
       "explanation": "本句的「ballpoint pen」指「透過筆尖小滾珠供墨的原子筆／圓珠筆」。",
       "sentenceIndex": 8,
@@ -816,12 +782,10 @@ export default {
         "ballpoint pen"
       ],
       "optionReasons": {
-        "pen-mcq-03": "本句指「透過筆尖小滾珠供墨的原子筆／圓珠筆」。",
-        "pen-mcq-02": "「透過筆尖和內部墨水儲存系統供墨的鋼筆」是「fountain pen」的用法，與本句語境不同。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。",
-        "pen-mcq-01": "「使用墨水書寫或畫線的筆」是「pen — writing instrument」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。"
+        "pen-mcq-03": "本句的「ballpoint pen」指「透過筆尖小滾珠供墨的原子筆／圓珠筆」。",
+        "pen-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-03"
     },
@@ -833,11 +797,9 @@ export default {
       "masked": "He signed the form with a ____.",
       "options": [
         "pen-mcq-03",
-        "pen-mcq-02",
-        "pen-mcq-04",
-        "pen-mcq-01",
-        "pen-mcq-05",
-        "pen-mcq-06"
+        "pen-mcq-06",
+        "pen-mcq-11",
+        "pen-mcq-20"
       ],
       "explanation": "本句的「ballpoint pen」指「透過筆尖小滾珠供墨的原子筆／圓珠筆」。",
       "sentenceIndex": 9,
@@ -846,12 +808,10 @@ export default {
         "ballpoint pen"
       ],
       "optionReasons": {
-        "pen-mcq-03": "本句指「透過筆尖小滾珠供墨的原子筆／圓珠筆」。",
-        "pen-mcq-02": "「透過筆尖和內部墨水儲存系統供墨的鋼筆」是「fountain pen」的用法，與本句語境不同。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。",
-        "pen-mcq-01": "「使用墨水書寫或畫線的筆」是「pen — writing instrument」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。"
+        "pen-mcq-03": "本句的「ballpoint pen」指「透過筆尖小滾珠供墨的原子筆／圓珠筆」。",
+        "pen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-03"
     },
@@ -863,11 +823,9 @@ export default {
       "masked": "She likes writing with ____.",
       "options": [
         "pen-mcq-04",
-        "pen-mcq-03",
-        "pen-mcq-05",
-        "pen-mcq-02",
-        "pen-mcq-06",
-        "pen-mcq-01"
+        "pen-mcq-13",
+        "pen-mcq-20",
+        "pen-mcq-05"
       ],
       "explanation": "本句的「gel pens」指「使用凝膠墨水的中性筆」。",
       "sentenceIndex": 10,
@@ -876,12 +834,10 @@ export default {
         "gel pens"
       ],
       "optionReasons": {
-        "pen-mcq-04": "本句指「使用凝膠墨水的中性筆」。",
-        "pen-mcq-03": "「透過筆尖小滾珠供墨的原子筆／圓珠筆」是「ballpoint pen」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-02": "「透過筆尖和內部墨水儲存系統供墨的鋼筆」是「fountain pen」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。",
-        "pen-mcq-01": "「使用墨水書寫或畫線的筆」是「pen — writing instrument」的用法，與本句語境不同。"
+        "pen-mcq-04": "本句的「gel pens」指「使用凝膠墨水的中性筆」。",
+        "pen-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-04"
     },
@@ -893,11 +849,9 @@ export default {
       "masked": "This ____ produces very dark lines.",
       "options": [
         "pen-mcq-04",
-        "pen-mcq-03",
-        "pen-mcq-05",
-        "pen-mcq-02",
-        "pen-mcq-06",
-        "pen-mcq-01"
+        "pen-mcq-11",
+        "pen-mcq-20",
+        "pen-mcq-16"
       ],
       "explanation": "本句的「gel pen」指「使用凝膠墨水的中性筆」。",
       "sentenceIndex": 11,
@@ -906,12 +860,10 @@ export default {
         "gel pen"
       ],
       "optionReasons": {
-        "pen-mcq-04": "本句指「使用凝膠墨水的中性筆」。",
-        "pen-mcq-03": "「透過筆尖小滾珠供墨的原子筆／圓珠筆」是「ballpoint pen」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-02": "「透過筆尖和內部墨水儲存系統供墨的鋼筆」是「fountain pen」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。",
-        "pen-mcq-01": "「使用墨水書寫或畫線的筆」是「pen — writing instrument」的用法，與本句語境不同。"
+        "pen-mcq-04": "本句的「gel pen」指「使用凝膠墨水的中性筆」。",
+        "pen-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-04"
     },
@@ -923,11 +875,9 @@ export default {
       "masked": "She ____ about education.",
       "options": [
         "pen-mcq-05",
-        "pen-mcq-04",
-        "pen-mcq-06",
+        "pen-mcq-10",
         "pen-mcq-03",
-        "pen-mcq-07",
-        "pen-mcq-02"
+        "pen-mcq-07"
       ],
       "explanation": "本句的「penned a short article」指「以較正式、文學或新聞式語氣表示撰寫、創作」。",
       "sentenceIndex": 12,
@@ -936,12 +886,10 @@ export default {
         "penned a short article"
       ],
       "optionReasons": {
-        "pen-mcq-05": "本句指「以較正式、文學或新聞式語氣表示撰寫、創作」。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。",
-        "pen-mcq-03": "「透過筆尖小滾珠供墨的原子筆／圓珠筆」是「ballpoint pen」的用法，與本句語境不同。",
-        "pen-mcq-07": "「作者代替真實姓名使用的筆名」是「pen name」的用法，與本句語境不同。",
-        "pen-mcq-02": "「透過筆尖和內部墨水儲存系統供墨的鋼筆」是「fountain pen」的用法，與本句語境不同。"
+        "pen-mcq-05": "本句的「penned a short article」指「以較正式、文學或新聞式語氣表示撰寫、創作」。",
+        "pen-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-05"
     },
@@ -953,11 +901,9 @@ export default {
       "masked": "The song was ____.",
       "options": [
         "pen-mcq-05",
-        "pen-mcq-04",
-        "pen-mcq-06",
         "pen-mcq-03",
-        "pen-mcq-07",
-        "pen-mcq-02"
+        "pen-mcq-12",
+        "pen-mcq-17"
       ],
       "explanation": "本句的「penned by a young songwriter」指「以較正式、文學或新聞式語氣表示撰寫、創作」。",
       "sentenceIndex": 13,
@@ -966,12 +912,10 @@ export default {
         "penned by a young songwriter"
       ],
       "optionReasons": {
-        "pen-mcq-05": "本句指「以較正式、文學或新聞式語氣表示撰寫、創作」。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。",
-        "pen-mcq-03": "「透過筆尖小滾珠供墨的原子筆／圓珠筆」是「ballpoint pen」的用法，與本句語境不同。",
-        "pen-mcq-07": "「作者代替真實姓名使用的筆名」是「pen name」的用法，與本句語境不同。",
-        "pen-mcq-02": "「透過筆尖和內部墨水儲存系統供墨的鋼筆」是「fountain pen」的用法，與本句語境不同。"
+        "pen-mcq-05": "本句的「penned by a young songwriter」指「以較正式、文學或新聞式語氣表示撰寫、創作」。",
+        "pen-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-05"
     },
@@ -983,11 +927,9 @@ export default {
       "masked": "He ____ to his former teacher.",
       "options": [
         "pen-mcq-06",
-        "pen-mcq-05",
-        "pen-mcq-07",
-        "pen-mcq-04",
-        "pen-mcq-08",
-        "pen-mcq-03"
+        "pen-mcq-16",
+        "pen-mcq-15",
+        "pen-mcq-02"
       ],
       "explanation": "本句的「penned a letter」指「撰寫信件、文章或書籍」。",
       "sentenceIndex": 14,
@@ -996,12 +938,10 @@ export default {
         "penned a letter"
       ],
       "optionReasons": {
-        "pen-mcq-06": "本句指「撰寫信件、文章或書籍」。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-07": "「作者代替真實姓名使用的筆名」是「pen name」的用法，與本句語境不同。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。",
-        "pen-mcq-08": "「文字、寫作或作者力量的象徵」是「the pen — writing symbolically」的用法，與本句語境不同。",
-        "pen-mcq-03": "「透過筆尖小滾珠供墨的原子筆／圓珠筆」是「ballpoint pen」的用法，與本句語境不同。"
+        "pen-mcq-06": "本句的「penned a letter」指「撰寫信件、文章或書籍」。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-06"
     },
@@ -1013,11 +953,9 @@ export default {
       "masked": "She ____ during her career.",
       "options": [
         "pen-mcq-06",
-        "pen-mcq-05",
-        "pen-mcq-07",
-        "pen-mcq-04",
-        "pen-mcq-08",
-        "pen-mcq-03"
+        "pen-mcq-16",
+        "pen-mcq-14",
+        "pen-mcq-17"
       ],
       "explanation": "本句的「penned several novels」指「撰寫信件、文章或書籍」。",
       "sentenceIndex": 15,
@@ -1026,12 +964,10 @@ export default {
         "penned several novels"
       ],
       "optionReasons": {
-        "pen-mcq-06": "本句指「撰寫信件、文章或書籍」。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-07": "「作者代替真實姓名使用的筆名」是「pen name」的用法，與本句語境不同。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。",
-        "pen-mcq-08": "「文字、寫作或作者力量的象徵」是「the pen — writing symbolically」的用法，與本句語境不同。",
-        "pen-mcq-03": "「透過筆尖小滾珠供墨的原子筆／圓珠筆」是「ballpoint pen」的用法，與本句語境不同。"
+        "pen-mcq-06": "本句的「penned several novels」指「撰寫信件、文章或書籍」。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-06"
     },
@@ -1043,11 +979,9 @@ export default {
       "masked": "She publishes novels under a ____.",
       "options": [
         "pen-mcq-07",
-        "pen-mcq-06",
-        "pen-mcq-08",
-        "pen-mcq-05",
-        "pen-mcq-09",
-        "pen-mcq-04"
+        "pen-mcq-17",
+        "pen-mcq-13",
+        "pen-mcq-06"
       ],
       "explanation": "本句的「pen name」指「作者代替真實姓名使用的筆名」。",
       "sentenceIndex": 16,
@@ -1056,12 +990,10 @@ export default {
         "pen name"
       ],
       "optionReasons": {
-        "pen-mcq-07": "本句指「作者代替真實姓名使用的筆名」。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。",
-        "pen-mcq-08": "「文字、寫作或作者力量的象徵」是「the pen — writing symbolically」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-09": "「思想與文字的影響力可以勝過武力；筆勝於劍」是「the pen is mightier than the sword」的用法，與本句語境不同。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。"
+        "pen-mcq-07": "本句的「pen name」指「作者代替真實姓名使用的筆名」。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-07"
     },
@@ -1073,11 +1005,9 @@ export default {
       "masked": "Mark Twain was a ____.",
       "options": [
         "pen-mcq-07",
-        "pen-mcq-06",
-        "pen-mcq-08",
+        "pen-mcq-12",
         "pen-mcq-05",
-        "pen-mcq-09",
-        "pen-mcq-04"
+        "pen-mcq-14"
       ],
       "explanation": "本句的「pen name」指「作者代替真實姓名使用的筆名」。",
       "sentenceIndex": 17,
@@ -1086,12 +1016,10 @@ export default {
         "pen name"
       ],
       "optionReasons": {
-        "pen-mcq-07": "本句指「作者代替真實姓名使用的筆名」。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。",
-        "pen-mcq-08": "「文字、寫作或作者力量的象徵」是「the pen — writing symbolically」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-09": "「思想與文字的影響力可以勝過武力；筆勝於劍」是「the pen is mightier than the sword」的用法，與本句語境不同。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。"
+        "pen-mcq-07": "本句的「pen name」指「作者代替真實姓名使用的筆名」。",
+        "pen-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-07"
     },
@@ -1104,10 +1032,8 @@ export default {
       "options": [
         "pen-mcq-07",
         "pen-mcq-06",
-        "pen-mcq-08",
-        "pen-mcq-05",
-        "pen-mcq-09",
-        "pen-mcq-04"
+        "pen-mcq-12",
+        "pen-mcq-17"
       ],
       "explanation": "本句的「under the pen name」指「作者代替真實姓名使用的筆名」。",
       "sentenceIndex": 18,
@@ -1116,12 +1042,10 @@ export default {
         "under the pen name"
       ],
       "optionReasons": {
-        "pen-mcq-07": "本句指「作者代替真實姓名使用的筆名」。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。",
-        "pen-mcq-08": "「文字、寫作或作者力量的象徵」是「the pen — writing symbolically」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-09": "「思想與文字的影響力可以勝過武力；筆勝於劍」是「the pen is mightier than the sword」的用法，與本句語境不同。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。"
+        "pen-mcq-07": "本句的「under the pen name」指「作者代替真實姓名使用的筆名」。",
+        "pen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-07"
     },
@@ -1133,11 +1057,9 @@ export default {
       "masked": "She published poetry ____.",
       "options": [
         "pen-mcq-07",
-        "pen-mcq-06",
-        "pen-mcq-08",
-        "pen-mcq-05",
-        "pen-mcq-09",
-        "pen-mcq-04"
+        "pen-mcq-11",
+        "pen-mcq-15",
+        "pen-mcq-16"
       ],
       "explanation": "本句的「under a pen name」指「作者代替真實姓名使用的筆名」。",
       "sentenceIndex": 19,
@@ -1146,12 +1068,10 @@ export default {
         "under a pen name"
       ],
       "optionReasons": {
-        "pen-mcq-07": "本句指「作者代替真實姓名使用的筆名」。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。",
-        "pen-mcq-08": "「文字、寫作或作者力量的象徵」是「the pen — writing symbolically」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。",
-        "pen-mcq-09": "「思想與文字的影響力可以勝過武力；筆勝於劍」是「the pen is mightier than the sword」的用法，與本句語境不同。",
-        "pen-mcq-04": "「使用凝膠墨水的中性筆」是「gel pen」的用法，與本句語境不同。"
+        "pen-mcq-07": "本句的「under a pen name」指「作者代替真實姓名使用的筆名」。",
+        "pen-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-07"
     },
@@ -1163,11 +1083,9 @@ export default {
       "masked": "He chose the ____ rather than political office.",
       "options": [
         "pen-mcq-08",
-        "pen-mcq-07",
-        "pen-mcq-09",
-        "pen-mcq-06",
-        "pen-mcq-10",
-        "pen-mcq-05"
+        "pen-mcq-02",
+        "pen-mcq-14",
+        "pen-mcq-11"
       ],
       "explanation": "本句的「pen」指「文字、寫作或作者力量的象徵」。",
       "sentenceIndex": 20,
@@ -1176,12 +1094,10 @@ export default {
         "pen"
       ],
       "optionReasons": {
-        "pen-mcq-08": "本句指「文字、寫作或作者力量的象徵」。",
-        "pen-mcq-07": "「作者代替真實姓名使用的筆名」是「pen name」的用法，與本句語境不同。",
-        "pen-mcq-09": "「思想與文字的影響力可以勝過武力；筆勝於劍」是「the pen is mightier than the sword」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。",
-        "pen-mcq-10": "「圈養農場動物的小型圍欄／畜欄」是「pen — animal enclosure」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。"
+        "pen-mcq-08": "本句的「pen」指「文字、寫作或作者力量的象徵」。",
+        "pen-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-08"
     },
@@ -1193,11 +1109,9 @@ export default {
       "masked": "Writers have long used the ____ to challenge ideas.",
       "options": [
         "pen-mcq-08",
-        "pen-mcq-07",
-        "pen-mcq-09",
-        "pen-mcq-06",
-        "pen-mcq-10",
-        "pen-mcq-05"
+        "pen-mcq-17",
+        "pen-mcq-24",
+        "pen-mcq-13"
       ],
       "explanation": "本句的「pen」指「文字、寫作或作者力量的象徵」。",
       "sentenceIndex": 21,
@@ -1206,12 +1120,10 @@ export default {
         "pen"
       ],
       "optionReasons": {
-        "pen-mcq-08": "本句指「文字、寫作或作者力量的象徵」。",
-        "pen-mcq-07": "「作者代替真實姓名使用的筆名」是「pen name」的用法，與本句語境不同。",
-        "pen-mcq-09": "「思想與文字的影響力可以勝過武力；筆勝於劍」是「the pen is mightier than the sword」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。",
-        "pen-mcq-10": "「圈養農場動物的小型圍欄／畜欄」是「pen — animal enclosure」的用法，與本句語境不同。",
-        "pen-mcq-05": "「以較正式、文學或新聞式語氣表示撰寫、創作」是「pen — verb write」的用法，與本句語境不同。"
+        "pen-mcq-08": "本句的「pen」指「文字、寫作或作者力量的象徵」。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-08"
     },
@@ -1223,11 +1135,9 @@ export default {
       "masked": "The saying “____” emphasizes the influence of ideas.",
       "options": [
         "pen-mcq-09",
-        "pen-mcq-08",
-        "pen-mcq-10",
-        "pen-mcq-07",
-        "pen-mcq-11",
-        "pen-mcq-06"
+        "pen-mcq-13",
+        "pen-mcq-17",
+        "pen-mcq-14"
       ],
       "explanation": "本句的「the pen is mightier than the sword」指「思想與文字的影響力可以勝過武力；筆勝於劍」。",
       "sentenceIndex": 22,
@@ -1236,12 +1146,10 @@ export default {
         "the pen is mightier than the sword"
       ],
       "optionReasons": {
-        "pen-mcq-09": "本句指「思想與文字的影響力可以勝過武力；筆勝於劍」。",
-        "pen-mcq-08": "「文字、寫作或作者力量的象徵」是「the pen — writing symbolically」的用法，與本句語境不同。",
-        "pen-mcq-10": "「圈養農場動物的小型圍欄／畜欄」是「pen — animal enclosure」的用法，與本句語境不同。",
-        "pen-mcq-07": "「作者代替真實姓名使用的筆名」是「pen name」的用法，與本句語境不同。",
-        "pen-mcq-11": "「圈養豬隻的豬圈」是「pigpen」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。"
+        "pen-mcq-09": "本句的「the pen is mightier than the sword」指「思想與文字的影響力可以勝過武力；筆勝於劍」。",
+        "pen-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-09"
     },
@@ -1253,11 +1161,9 @@ export default {
       "masked": "She believed that ____.",
       "options": [
         "pen-mcq-09",
-        "pen-mcq-08",
         "pen-mcq-10",
-        "pen-mcq-07",
-        "pen-mcq-11",
-        "pen-mcq-06"
+        "pen-mcq-15",
+        "pen-mcq-17"
       ],
       "explanation": "本句的「the pen was mightier than the sword」指「思想與文字的影響力可以勝過武力；筆勝於劍」。",
       "sentenceIndex": 23,
@@ -1266,12 +1172,10 @@ export default {
         "the pen was mightier than the sword"
       ],
       "optionReasons": {
-        "pen-mcq-09": "本句指「思想與文字的影響力可以勝過武力；筆勝於劍」。",
-        "pen-mcq-08": "「文字、寫作或作者力量的象徵」是「the pen — writing symbolically」的用法，與本句語境不同。",
-        "pen-mcq-10": "「圈養農場動物的小型圍欄／畜欄」是「pen — animal enclosure」的用法，與本句語境不同。",
-        "pen-mcq-07": "「作者代替真實姓名使用的筆名」是「pen name」的用法，與本句語境不同。",
-        "pen-mcq-11": "「圈養豬隻的豬圈」是「pigpen」的用法，與本句語境不同。",
-        "pen-mcq-06": "「撰寫信件、文章或書籍」是「pen a letter/article/book」的用法，與本句語境不同。"
+        "pen-mcq-09": "本句的「the pen was mightier than the sword」指「思想與文字的影響力可以勝過武力；筆勝於劍」。",
+        "pen-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-09"
     },
@@ -1283,11 +1187,9 @@ export default {
       "masked": "The sheep were kept in a ____.",
       "options": [
         "pen-mcq-10",
-        "pen-mcq-09",
-        "pen-mcq-11",
-        "pen-mcq-08",
-        "pen-mcq-12",
-        "pen-mcq-07"
+        "pen-mcq-07",
+        "pen-mcq-05",
+        "pen-mcq-20"
       ],
       "explanation": "本句的「pen」指「圈養農場動物的小型圍欄／畜欄」。",
       "sentenceIndex": 24,
@@ -1296,12 +1198,10 @@ export default {
         "pen"
       ],
       "optionReasons": {
-        "pen-mcq-10": "本句指「圈養農場動物的小型圍欄／畜欄」。",
-        "pen-mcq-09": "「思想與文字的影響力可以勝過武力；筆勝於劍」是「the pen is mightier than the sword」的用法，與本句語境不同。",
-        "pen-mcq-11": "「圈養豬隻的豬圈」是「pigpen」的用法，與本句語境不同。",
-        "pen-mcq-08": "「文字、寫作或作者力量的象徵」是「the pen — writing symbolically」的用法，與本句語境不同。",
-        "pen-mcq-12": "「讓嬰幼兒安全活動的圍欄／遊戲床」是「playpen」的用法，與本句語境不同。",
-        "pen-mcq-07": "「作者代替真實姓名使用的筆名」是「pen name」的用法，與本句語境不同。"
+        "pen-mcq-10": "本句的「pen」指「圈養農場動物的小型圍欄／畜欄」。",
+        "pen-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-10"
     },
@@ -1313,11 +1213,9 @@ export default {
       "masked": "The farmer o____ed the pen.",
       "options": [
         "pen-mcq-10",
-        "pen-mcq-09",
-        "pen-mcq-11",
-        "pen-mcq-08",
-        "pen-mcq-12",
-        "pen-mcq-07"
+        "pen-mcq-22",
+        "pen-mcq-16",
+        "pen-mcq-20"
       ],
       "explanation": "本句的「pen」指「圈養農場動物的小型圍欄／畜欄」。",
       "sentenceIndex": 25,
@@ -1326,12 +1224,10 @@ export default {
         "pen"
       ],
       "optionReasons": {
-        "pen-mcq-10": "本句指「圈養農場動物的小型圍欄／畜欄」。",
-        "pen-mcq-09": "「思想與文字的影響力可以勝過武力；筆勝於劍」是「the pen is mightier than the sword」的用法，與本句語境不同。",
-        "pen-mcq-11": "「圈養豬隻的豬圈」是「pigpen」的用法，與本句語境不同。",
-        "pen-mcq-08": "「文字、寫作或作者力量的象徵」是「the pen — writing symbolically」的用法，與本句語境不同。",
-        "pen-mcq-12": "「讓嬰幼兒安全活動的圍欄／遊戲床」是「playpen」的用法，與本句語境不同。",
-        "pen-mcq-07": "「作者代替真實姓名使用的筆名」是「pen name」的用法，與本句語境不同。"
+        "pen-mcq-10": "本句的「pen」指「圈養農場動物的小型圍欄／畜欄」。",
+        "pen-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-10"
     },
@@ -1343,11 +1239,9 @@ export default {
       "masked": "The pigs returned to the ____.",
       "options": [
         "pen-mcq-11",
-        "pen-mcq-10",
-        "pen-mcq-12",
-        "pen-mcq-09",
-        "pen-mcq-13",
-        "pen-mcq-08"
+        "pen-mcq-22",
+        "pen-mcq-17",
+        "pen-mcq-04"
       ],
       "explanation": "本句的「pigpen」指「圈養豬隻的豬圈」。",
       "sentenceIndex": 26,
@@ -1356,12 +1250,10 @@ export default {
         "pigpen"
       ],
       "optionReasons": {
-        "pen-mcq-11": "本句指「圈養豬隻的豬圈」。",
-        "pen-mcq-10": "「圈養農場動物的小型圍欄／畜欄」是「pen — animal enclosure」的用法，與本句語境不同。",
-        "pen-mcq-12": "「讓嬰幼兒安全活動的圍欄／遊戲床」是「playpen」的用法，與本句語境不同。",
-        "pen-mcq-09": "「思想與文字的影響力可以勝過武力；筆勝於劍」是「the pen is mightier than the sword」的用法，與本句語境不同。",
-        "pen-mcq-13": "「把動物關進圍欄、圈起來」是「pen animals in/up」的用法，與本句語境不同。",
-        "pen-mcq-08": "「文字、寫作或作者力量的象徵」是「the pen — writing symbolically」的用法，與本句語境不同。"
+        "pen-mcq-11": "本句的「pigpen」指「圈養豬隻的豬圈」。",
+        "pen-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-11"
     },
@@ -1373,11 +1265,9 @@ export default {
       "masked": "The old ____ was repaired.",
       "options": [
         "pen-mcq-11",
-        "pen-mcq-10",
-        "pen-mcq-12",
-        "pen-mcq-09",
-        "pen-mcq-13",
-        "pen-mcq-08"
+        "pen-mcq-22",
+        "pen-mcq-14",
+        "pen-mcq-12"
       ],
       "explanation": "本句的「pigpen」指「圈養豬隻的豬圈」。",
       "sentenceIndex": 27,
@@ -1386,12 +1276,10 @@ export default {
         "pigpen"
       ],
       "optionReasons": {
-        "pen-mcq-11": "本句指「圈養豬隻的豬圈」。",
-        "pen-mcq-10": "「圈養農場動物的小型圍欄／畜欄」是「pen — animal enclosure」的用法，與本句語境不同。",
-        "pen-mcq-12": "「讓嬰幼兒安全活動的圍欄／遊戲床」是「playpen」的用法，與本句語境不同。",
-        "pen-mcq-09": "「思想與文字的影響力可以勝過武力；筆勝於劍」是「the pen is mightier than the sword」的用法，與本句語境不同。",
-        "pen-mcq-13": "「把動物關進圍欄、圈起來」是「pen animals in/up」的用法，與本句語境不同。",
-        "pen-mcq-08": "「文字、寫作或作者力量的象徵」是「the pen — writing symbolically」的用法，與本句語境不同。"
+        "pen-mcq-11": "本句的「pigpen」指「圈養豬隻的豬圈」。",
+        "pen-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-11"
     },
@@ -1403,11 +1291,9 @@ export default {
       "masked": "The baby was playing in the ____.",
       "options": [
         "pen-mcq-12",
-        "pen-mcq-11",
-        "pen-mcq-13",
-        "pen-mcq-10",
-        "pen-mcq-14",
-        "pen-mcq-09"
+        "pen-mcq-20",
+        "pen-mcq-22",
+        "pen-mcq-04"
       ],
       "explanation": "本句的「playpen」指「讓嬰幼兒安全活動的圍欄／遊戲床」。",
       "sentenceIndex": 28,
@@ -1416,12 +1302,10 @@ export default {
         "playpen"
       ],
       "optionReasons": {
-        "pen-mcq-12": "本句指「讓嬰幼兒安全活動的圍欄／遊戲床」。",
-        "pen-mcq-11": "「圈養豬隻的豬圈」是「pigpen」的用法，與本句語境不同。",
-        "pen-mcq-13": "「把動物關進圍欄、圈起來」是「pen animals in/up」的用法，與本句語境不同。",
-        "pen-mcq-10": "「圈養農場動物的小型圍欄／畜欄」是「pen — animal enclosure」的用法，與本句語境不同。",
-        "pen-mcq-14": "「因周圍有障礙或人群而使某人無法移動／離開」是「pen someone in」的用法，與本句語境不同。",
-        "pen-mcq-09": "「思想與文字的影響力可以勝過武力；筆勝於劍」是「the pen is mightier than the sword」的用法，與本句語境不同。"
+        "pen-mcq-12": "本句的「playpen」指「讓嬰幼兒安全活動的圍欄／遊戲床」。",
+        "pen-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-12"
     },
@@ -1433,11 +1317,9 @@ export default {
       "masked": "They put some toys in the ____.",
       "options": [
         "pen-mcq-12",
-        "pen-mcq-11",
-        "pen-mcq-13",
-        "pen-mcq-10",
-        "pen-mcq-14",
-        "pen-mcq-09"
+        "pen-mcq-03",
+        "pen-mcq-01",
+        "pen-mcq-15"
       ],
       "explanation": "本句的「playpen」指「讓嬰幼兒安全活動的圍欄／遊戲床」。",
       "sentenceIndex": 29,
@@ -1446,12 +1328,10 @@ export default {
         "playpen"
       ],
       "optionReasons": {
-        "pen-mcq-12": "本句指「讓嬰幼兒安全活動的圍欄／遊戲床」。",
-        "pen-mcq-11": "「圈養豬隻的豬圈」是「pigpen」的用法，與本句語境不同。",
-        "pen-mcq-13": "「把動物關進圍欄、圈起來」是「pen animals in/up」的用法，與本句語境不同。",
-        "pen-mcq-10": "「圈養農場動物的小型圍欄／畜欄」是「pen — animal enclosure」的用法，與本句語境不同。",
-        "pen-mcq-14": "「因周圍有障礙或人群而使某人無法移動／離開」是「pen someone in」的用法，與本句語境不同。",
-        "pen-mcq-09": "「思想與文字的影響力可以勝過武力；筆勝於劍」是「the pen is mightier than the sword」的用法，與本句語境不同。"
+        "pen-mcq-12": "本句的「playpen」指「讓嬰幼兒安全活動的圍欄／遊戲床」。",
+        "pen-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-12"
     },
@@ -1463,11 +1343,9 @@ export default {
       "masked": "The farmer ____ for the night.",
       "options": [
         "pen-mcq-13",
-        "pen-mcq-12",
-        "pen-mcq-14",
-        "pen-mcq-11",
+        "pen-mcq-02",
         "pen-mcq-15",
-        "pen-mcq-10"
+        "pen-mcq-07"
       ],
       "explanation": "本句的「penned the sheep in」指「把動物關進圍欄、圈起來」。",
       "sentenceIndex": 30,
@@ -1476,12 +1354,10 @@ export default {
         "penned the sheep in"
       ],
       "optionReasons": {
-        "pen-mcq-13": "本句指「把動物關進圍欄、圈起來」。",
-        "pen-mcq-12": "「讓嬰幼兒安全活動的圍欄／遊戲床」是「playpen」的用法，與本句語境不同。",
-        "pen-mcq-14": "「因周圍有障礙或人群而使某人無法移動／離開」是「pen someone in」的用法，與本句語境不同。",
-        "pen-mcq-11": "「圈養豬隻的豬圈」是「pigpen」的用法，與本句語境不同。",
-        "pen-mcq-15": "「把某人長時間限制在狹小或封閉空間內」是「pen someone up」的用法，與本句語境不同。",
-        "pen-mcq-10": "「圈養農場動物的小型圍欄／畜欄」是「pen — animal enclosure」的用法，與本句語境不同。"
+        "pen-mcq-13": "本句的「penned the sheep in」指「把動物關進圍欄、圈起來」。",
+        "pen-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-13"
     },
@@ -1493,11 +1369,9 @@ export default {
       "masked": "The cattle were ____ near the barn.",
       "options": [
         "pen-mcq-13",
-        "pen-mcq-12",
-        "pen-mcq-14",
-        "pen-mcq-11",
-        "pen-mcq-15",
-        "pen-mcq-10"
+        "pen-mcq-20",
+        "pen-mcq-23",
+        "pen-mcq-04"
       ],
       "explanation": "本句的「penned up」指「把動物關進圍欄、圈起來」。",
       "sentenceIndex": 31,
@@ -1506,12 +1380,10 @@ export default {
         "penned up"
       ],
       "optionReasons": {
-        "pen-mcq-13": "本句指「把動物關進圍欄、圈起來」。",
-        "pen-mcq-12": "「讓嬰幼兒安全活動的圍欄／遊戲床」是「playpen」的用法，與本句語境不同。",
-        "pen-mcq-14": "「因周圍有障礙或人群而使某人無法移動／離開」是「pen someone in」的用法，與本句語境不同。",
-        "pen-mcq-11": "「圈養豬隻的豬圈」是「pigpen」的用法，與本句語境不同。",
-        "pen-mcq-15": "「把某人長時間限制在狹小或封閉空間內」是「pen someone up」的用法，與本句語境不同。",
-        "pen-mcq-10": "「圈養農場動物的小型圍欄／畜欄」是「pen — animal enclosure」的用法，與本句語境不同。"
+        "pen-mcq-13": "本句的「penned up」指「把動物關進圍欄、圈起來」。",
+        "pen-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-13"
     },
@@ -1523,11 +1395,9 @@ export default {
       "masked": "The car was ____ by other vehicles.",
       "options": [
         "pen-mcq-14",
-        "pen-mcq-13",
-        "pen-mcq-15",
-        "pen-mcq-12",
+        "pen-mcq-06",
         "pen-mcq-16",
-        "pen-mcq-11"
+        "pen-mcq-04"
       ],
       "explanation": "本句的「penned in」指「因周圍有障礙或人群而使某人無法移動／離開」。",
       "sentenceIndex": 32,
@@ -1536,12 +1406,10 @@ export default {
         "penned in"
       ],
       "optionReasons": {
-        "pen-mcq-14": "本句指「因周圍有障礙或人群而使某人無法移動／離開」。",
-        "pen-mcq-13": "「把動物關進圍欄、圈起來」是「pen animals in/up」的用法，與本句語境不同。",
-        "pen-mcq-15": "「把某人長時間限制在狹小或封閉空間內」是「pen someone up」的用法，與本句語境不同。",
-        "pen-mcq-12": "「讓嬰幼兒安全活動的圍欄／遊戲床」是「playpen」的用法，與本句語境不同。",
-        "pen-mcq-16": "「非正式指監獄／大牢」是「the pen — prison slang」的用法，與本句語境不同。",
-        "pen-mcq-11": "「圈養豬隻的豬圈」是「pigpen」的用法，與本句語境不同。"
+        "pen-mcq-14": "本句的「penned in」指「因周圍有障礙或人群而使某人無法移動／離開」。",
+        "pen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-14"
     },
@@ -1553,11 +1421,9 @@ export default {
       "masked": "The crowd ____ against the wall.",
       "options": [
         "pen-mcq-14",
-        "pen-mcq-13",
-        "pen-mcq-15",
-        "pen-mcq-12",
-        "pen-mcq-16",
-        "pen-mcq-11"
+        "pen-mcq-11",
+        "pen-mcq-24",
+        "pen-mcq-08"
       ],
       "explanation": "本句的「penned us in」指「因周圍有障礙或人群而使某人無法移動／離開」。",
       "sentenceIndex": 33,
@@ -1566,12 +1432,10 @@ export default {
         "penned us in"
       ],
       "optionReasons": {
-        "pen-mcq-14": "本句指「因周圍有障礙或人群而使某人無法移動／離開」。",
-        "pen-mcq-13": "「把動物關進圍欄、圈起來」是「pen animals in/up」的用法，與本句語境不同。",
-        "pen-mcq-15": "「把某人長時間限制在狹小或封閉空間內」是「pen someone up」的用法，與本句語境不同。",
-        "pen-mcq-12": "「讓嬰幼兒安全活動的圍欄／遊戲床」是「playpen」的用法，與本句語境不同。",
-        "pen-mcq-16": "「非正式指監獄／大牢」是「the pen — prison slang」的用法，與本句語境不同。",
-        "pen-mcq-11": "「圈養豬隻的豬圈」是「pigpen」的用法，與本句語境不同。"
+        "pen-mcq-14": "本句的「penned us in」指「因周圍有障礙或人群而使某人無法移動／離開」。",
+        "pen-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-14"
     },
@@ -1583,11 +1447,9 @@ export default {
       "masked": "The children had been ____ all day because of the rain.",
       "options": [
         "pen-mcq-15",
-        "pen-mcq-14",
-        "pen-mcq-16",
-        "pen-mcq-13",
-        "pen-mcq-17",
-        "pen-mcq-12"
+        "pen-mcq-04",
+        "pen-mcq-23",
+        "pen-mcq-11"
       ],
       "explanation": "本句的「penned up indoors」指「把某人長時間限制在狹小或封閉空間內」。",
       "sentenceIndex": 34,
@@ -1596,12 +1458,10 @@ export default {
         "penned up indoors"
       ],
       "optionReasons": {
-        "pen-mcq-15": "本句指「把某人長時間限制在狹小或封閉空間內」。",
-        "pen-mcq-14": "「因周圍有障礙或人群而使某人無法移動／離開」是「pen someone in」的用法，與本句語境不同。",
-        "pen-mcq-16": "「非正式指監獄／大牢」是「the pen — prison slang」的用法，與本句語境不同。",
-        "pen-mcq-13": "「把動物關進圍欄、圈起來」是「pen animals in/up」的用法，與本句語境不同。",
-        "pen-mcq-17": "「雌天鵝」是「pen — female swan」的用法，與本句語境不同。",
-        "pen-mcq-12": "「讓嬰幼兒安全活動的圍欄／遊戲床」是「playpen」的用法，與本句語境不同。"
+        "pen-mcq-15": "本句的「penned up indoors」指「把某人長時間限制在狹小或封閉空間內」。",
+        "pen-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-15"
     },
@@ -1613,11 +1473,9 @@ export default {
       "masked": "I hate being ____ all day.",
       "options": [
         "pen-mcq-15",
-        "pen-mcq-14",
         "pen-mcq-16",
-        "pen-mcq-13",
-        "pen-mcq-17",
-        "pen-mcq-12"
+        "pen-mcq-23",
+        "pen-mcq-20"
       ],
       "explanation": "本句的「penned up in an office」指「把某人長時間限制在狹小或封閉空間內」。",
       "sentenceIndex": 35,
@@ -1626,12 +1484,10 @@ export default {
         "penned up in an office"
       ],
       "optionReasons": {
-        "pen-mcq-15": "本句指「把某人長時間限制在狹小或封閉空間內」。",
-        "pen-mcq-14": "「因周圍有障礙或人群而使某人無法移動／離開」是「pen someone in」的用法，與本句語境不同。",
-        "pen-mcq-16": "「非正式指監獄／大牢」是「the pen — prison slang」的用法，與本句語境不同。",
-        "pen-mcq-13": "「把動物關進圍欄、圈起來」是「pen animals in/up」的用法，與本句語境不同。",
-        "pen-mcq-17": "「雌天鵝」是「pen — female swan」的用法，與本句語境不同。",
-        "pen-mcq-12": "「讓嬰幼兒安全活動的圍欄／遊戲床」是「playpen」的用法，與本句語境不同。"
+        "pen-mcq-15": "本句的「penned up in an office」指「把某人長時間限制在狹小或封閉空間內」。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-15"
     },
@@ -1643,11 +1499,9 @@ export default {
       "masked": "He spent several years in ____.",
       "options": [
         "pen-mcq-16",
-        "pen-mcq-15",
-        "pen-mcq-17",
-        "pen-mcq-14",
-        "pen-mcq-18",
-        "pen-mcq-13"
+        "pen-mcq-11",
+        "pen-mcq-04",
+        "pen-mcq-09"
       ],
       "explanation": "本句的「the pen」指「非正式指監獄／大牢」。",
       "sentenceIndex": 36,
@@ -1656,12 +1510,10 @@ export default {
         "the pen"
       ],
       "optionReasons": {
-        "pen-mcq-16": "本句指「非正式指監獄／大牢」。",
-        "pen-mcq-15": "「把某人長時間限制在狹小或封閉空間內」是「pen someone up」的用法，與本句語境不同。",
-        "pen-mcq-17": "「雌天鵝」是「pen — female swan」的用法，與本句語境不同。",
-        "pen-mcq-14": "「因周圍有障礙或人群而使某人無法移動／離開」是「pen someone in」的用法，與本句語境不同。",
-        "pen-mcq-18": "「用於電子裝置寫字或繪圖的數位筆／觸控筆」是「digital pen」的用法，與本句語境不同。",
-        "pen-mcq-13": "「把動物關進圍欄、圈起來」是「pen animals in/up」的用法，與本句語境不同。"
+        "pen-mcq-16": "本句的「the pen」指「非正式指監獄／大牢」。",
+        "pen-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-16"
     },
@@ -1673,11 +1525,9 @@ export default {
       "masked": "The character had just got out of ____.",
       "options": [
         "pen-mcq-16",
-        "pen-mcq-15",
-        "pen-mcq-17",
-        "pen-mcq-14",
-        "pen-mcq-18",
-        "pen-mcq-13"
+        "pen-mcq-01",
+        "pen-mcq-03",
+        "pen-mcq-21"
       ],
       "explanation": "本句的「the pen」指「非正式指監獄／大牢」。",
       "sentenceIndex": 37,
@@ -1686,12 +1536,10 @@ export default {
         "the pen"
       ],
       "optionReasons": {
-        "pen-mcq-16": "本句指「非正式指監獄／大牢」。",
-        "pen-mcq-15": "「把某人長時間限制在狹小或封閉空間內」是「pen someone up」的用法，與本句語境不同。",
-        "pen-mcq-17": "「雌天鵝」是「pen — female swan」的用法，與本句語境不同。",
-        "pen-mcq-14": "「因周圍有障礙或人群而使某人無法移動／離開」是「pen someone in」的用法，與本句語境不同。",
-        "pen-mcq-18": "「用於電子裝置寫字或繪圖的數位筆／觸控筆」是「digital pen」的用法，與本句語境不同。",
-        "pen-mcq-13": "「把動物關進圍欄、圈起來」是「pen animals in/up」的用法，與本句語境不同。"
+        "pen-mcq-16": "本句的「the pen」指「非正式指監獄／大牢」。",
+        "pen-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-16"
     },
@@ -1703,11 +1551,9 @@ export default {
       "masked": "The ____ stayed close to the cygnets.",
       "options": [
         "pen-mcq-17",
-        "pen-mcq-16",
-        "pen-mcq-18",
-        "pen-mcq-15",
-        "pen-mcq-19",
-        "pen-mcq-14"
+        "pen-mcq-10",
+        "pen-mcq-14",
+        "pen-mcq-16"
       ],
       "explanation": "本句的「pen」指「雌天鵝」。",
       "sentenceIndex": 38,
@@ -1716,12 +1562,10 @@ export default {
         "pen"
       ],
       "optionReasons": {
-        "pen-mcq-17": "本句指「雌天鵝」。",
-        "pen-mcq-16": "「非正式指監獄／大牢」是「the pen — prison slang」的用法，與本句語境不同。",
-        "pen-mcq-18": "「用於電子裝置寫字或繪圖的數位筆／觸控筆」是「digital pen」的用法，與本句語境不同。",
-        "pen-mcq-15": "「把某人長時間限制在狹小或封閉空間內」是「pen someone up」的用法，與本句語境不同。",
-        "pen-mcq-19": "「使用數位筆在電子裝置上輸入文字或圖畫」是「pen input」的用法，與本句語境不同。",
-        "pen-mcq-14": "「因周圍有障礙或人群而使某人無法移動／離開」是「pen someone in」的用法，與本句語境不同。"
+        "pen-mcq-17": "本句的「pen」指「雌天鵝」。",
+        "pen-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-17"
     },
@@ -1733,11 +1577,9 @@ export default {
       "masked": "A male swan is called a cob and a female a ____.",
       "options": [
         "pen-mcq-17",
-        "pen-mcq-16",
-        "pen-mcq-18",
-        "pen-mcq-15",
-        "pen-mcq-19",
-        "pen-mcq-14"
+        "pen-mcq-09",
+        "pen-mcq-10",
+        "pen-mcq-04"
       ],
       "explanation": "本句的「pen」指「雌天鵝」。",
       "sentenceIndex": 39,
@@ -1746,12 +1588,10 @@ export default {
         "pen"
       ],
       "optionReasons": {
-        "pen-mcq-17": "本句指「雌天鵝」。",
-        "pen-mcq-16": "「非正式指監獄／大牢」是「the pen — prison slang」的用法，與本句語境不同。",
-        "pen-mcq-18": "「用於電子裝置寫字或繪圖的數位筆／觸控筆」是「digital pen」的用法，與本句語境不同。",
-        "pen-mcq-15": "「把某人長時間限制在狹小或封閉空間內」是「pen someone up」的用法，與本句語境不同。",
-        "pen-mcq-19": "「使用數位筆在電子裝置上輸入文字或圖畫」是「pen input」的用法，與本句語境不同。",
-        "pen-mcq-14": "「因周圍有障礙或人群而使某人無法移動／離開」是「pen someone in」的用法，與本句語境不同。"
+        "pen-mcq-17": "本句的「pen」指「雌天鵝」。",
+        "pen-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-17"
     },
@@ -1763,11 +1603,9 @@ export default {
       "masked": "She takes notes with a ____.",
       "options": [
         "pen-mcq-18",
-        "pen-mcq-17",
-        "pen-mcq-19",
-        "pen-mcq-16",
-        "pen-mcq-20",
-        "pen-mcq-15"
+        "pen-mcq-15",
+        "pen-mcq-12",
+        "pen-mcq-16"
       ],
       "explanation": "本句的「digital pen」指「用於電子裝置寫字或繪圖的數位筆／觸控筆」。",
       "sentenceIndex": 40,
@@ -1776,12 +1614,10 @@ export default {
         "digital pen"
       ],
       "optionReasons": {
-        "pen-mcq-18": "本句指「用於電子裝置寫字或繪圖的數位筆／觸控筆」。",
-        "pen-mcq-17": "「雌天鵝」是「pen — female swan」的用法，與本句語境不同。",
-        "pen-mcq-19": "「使用數位筆在電子裝置上輸入文字或圖畫」是「pen input」的用法，與本句語境不同。",
-        "pen-mcq-16": "「非正式指監獄／大牢」是「the pen — prison slang」的用法，與本句語境不同。",
-        "pen-mcq-20": "「手寫字的技巧、風格或品質」是「penmanship」的用法，與本句語境不同。",
-        "pen-mcq-15": "「把某人長時間限制在狹小或封閉空間內」是「pen someone up」的用法，與本句語境不同。"
+        "pen-mcq-18": "本句的「digital pen」指「用於電子裝置寫字或繪圖的數位筆／觸控筆」。",
+        "pen-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-18"
     },
@@ -1793,11 +1629,9 @@ export default {
       "masked": "The tablet supports a pressure-sensitive ____.",
       "options": [
         "pen-mcq-18",
+        "pen-mcq-10",
         "pen-mcq-17",
-        "pen-mcq-19",
-        "pen-mcq-16",
-        "pen-mcq-20",
-        "pen-mcq-15"
+        "pen-mcq-14"
       ],
       "explanation": "本句的「pen」指「用於電子裝置寫字或繪圖的數位筆／觸控筆」。",
       "sentenceIndex": 41,
@@ -1806,12 +1640,10 @@ export default {
         "pen"
       ],
       "optionReasons": {
-        "pen-mcq-18": "本句指「用於電子裝置寫字或繪圖的數位筆／觸控筆」。",
-        "pen-mcq-17": "「雌天鵝」是「pen — female swan」的用法，與本句語境不同。",
-        "pen-mcq-19": "「使用數位筆在電子裝置上輸入文字或圖畫」是「pen input」的用法，與本句語境不同。",
-        "pen-mcq-16": "「非正式指監獄／大牢」是「the pen — prison slang」的用法，與本句語境不同。",
-        "pen-mcq-20": "「手寫字的技巧、風格或品質」是「penmanship」的用法，與本句語境不同。",
-        "pen-mcq-15": "「把某人長時間限制在狹小或封閉空間內」是「pen someone up」的用法，與本句語境不同。"
+        "pen-mcq-18": "本句的「pen」指「用於電子裝置寫字或繪圖的數位筆／觸控筆」。",
+        "pen-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-18"
     },
@@ -1823,10 +1655,8 @@ export default {
       "masked": "The software supports ____.",
       "options": [
         "pen-mcq-19",
-        "pen-mcq-18",
-        "pen-mcq-20",
+        "pen-mcq-12",
         "pen-mcq-17",
-        "pen-mcq-21",
         "pen-mcq-16"
       ],
       "explanation": "本句的「pen input」指「使用數位筆在電子裝置上輸入文字或圖畫」。",
@@ -1836,12 +1666,10 @@ export default {
         "pen input"
       ],
       "optionReasons": {
-        "pen-mcq-19": "本句指「使用數位筆在電子裝置上輸入文字或圖畫」。",
-        "pen-mcq-18": "「用於電子裝置寫字或繪圖的數位筆／觸控筆」是「digital pen」的用法，與本句語境不同。",
-        "pen-mcq-20": "「手寫字的技巧、風格或品質」是「penmanship」的用法，與本句語境不同。",
-        "pen-mcq-17": "「雌天鵝」是「pen — female swan」的用法，與本句語境不同。",
-        "pen-mcq-21": "「開始把想法寫下來；動筆」是「put pen to paper」的用法，與本句語境不同。",
-        "pen-mcq-16": "「非正式指監獄／大牢」是「the pen — prison slang」的用法，與本句語境不同。"
+        "pen-mcq-19": "本句的「pen input」指「使用數位筆在電子裝置上輸入文字或圖畫」。",
+        "pen-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-19"
     },
@@ -1853,11 +1681,9 @@ export default {
       "masked": "You can switch from keyboard to ____.",
       "options": [
         "pen-mcq-19",
-        "pen-mcq-18",
-        "pen-mcq-20",
+        "pen-mcq-13",
         "pen-mcq-17",
-        "pen-mcq-21",
-        "pen-mcq-16"
+        "pen-mcq-15"
       ],
       "explanation": "本句的「pen input」指「使用數位筆在電子裝置上輸入文字或圖畫」。",
       "sentenceIndex": 43,
@@ -1866,12 +1692,10 @@ export default {
         "pen input"
       ],
       "optionReasons": {
-        "pen-mcq-19": "本句指「使用數位筆在電子裝置上輸入文字或圖畫」。",
-        "pen-mcq-18": "「用於電子裝置寫字或繪圖的數位筆／觸控筆」是「digital pen」的用法，與本句語境不同。",
-        "pen-mcq-20": "「手寫字的技巧、風格或品質」是「penmanship」的用法，與本句語境不同。",
-        "pen-mcq-17": "「雌天鵝」是「pen — female swan」的用法，與本句語境不同。",
-        "pen-mcq-21": "「開始把想法寫下來；動筆」是「put pen to paper」的用法，與本句語境不同。",
-        "pen-mcq-16": "「非正式指監獄／大牢」是「the pen — prison slang」的用法，與本句語境不同。"
+        "pen-mcq-19": "本句的「pen input」指「使用數位筆在電子裝置上輸入文字或圖畫」。",
+        "pen-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-19"
     },
@@ -1883,11 +1707,9 @@ export default {
       "masked": "His ____ is beautiful.",
       "options": [
         "pen-mcq-20",
-        "pen-mcq-19",
-        "pen-mcq-21",
-        "pen-mcq-18",
-        "pen-mcq-22",
-        "pen-mcq-17"
+        "pen-mcq-23",
+        "pen-mcq-07",
+        "pen-mcq-12"
       ],
       "explanation": "本句的「penmanship」指「手寫字的技巧、風格或品質」。",
       "sentenceIndex": 44,
@@ -1896,12 +1718,10 @@ export default {
         "penmanship"
       ],
       "optionReasons": {
-        "pen-mcq-20": "本句指「手寫字的技巧、風格或品質」。",
-        "pen-mcq-19": "「使用數位筆在電子裝置上輸入文字或圖畫」是「pen input」的用法，與本句語境不同。",
-        "pen-mcq-21": "「開始把想法寫下來；動筆」是「put pen to paper」的用法，與本句語境不同。",
-        "pen-mcq-18": "「用於電子裝置寫字或繪圖的數位筆／觸控筆」是「digital pen」的用法，與本句語境不同。",
-        "pen-mcq-22": "「傳統以紙和筆書寫的方式」是「pen and paper」的用法，與本句語境不同。",
-        "pen-mcq-17": "「雌天鵝」是「pen — female swan」的用法，與本句語境不同。"
+        "pen-mcq-20": "本句的「penmanship」指「手寫字的技巧、風格或品質」。",
+        "pen-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-20"
     },
@@ -1913,11 +1733,9 @@ export default {
       "masked": "Good ____ used to receive more emphasis in schools.",
       "options": [
         "pen-mcq-20",
-        "pen-mcq-19",
-        "pen-mcq-21",
-        "pen-mcq-18",
-        "pen-mcq-22",
-        "pen-mcq-17"
+        "pen-mcq-07",
+        "pen-mcq-10",
+        "pen-mcq-23"
       ],
       "explanation": "本句的「penmanship」指「手寫字的技巧、風格或品質」。",
       "sentenceIndex": 45,
@@ -1926,12 +1744,10 @@ export default {
         "penmanship"
       ],
       "optionReasons": {
-        "pen-mcq-20": "本句指「手寫字的技巧、風格或品質」。",
-        "pen-mcq-19": "「使用數位筆在電子裝置上輸入文字或圖畫」是「pen input」的用法，與本句語境不同。",
-        "pen-mcq-21": "「開始把想法寫下來；動筆」是「put pen to paper」的用法，與本句語境不同。",
-        "pen-mcq-18": "「用於電子裝置寫字或繪圖的數位筆／觸控筆」是「digital pen」的用法，與本句語境不同。",
-        "pen-mcq-22": "「傳統以紙和筆書寫的方式」是「pen and paper」的用法，與本句語境不同。",
-        "pen-mcq-17": "「雌天鵝」是「pen — female swan」的用法，與本句語境不同。"
+        "pen-mcq-20": "本句的「penmanship」指「手寫字的技巧、風格或品質」。",
+        "pen-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-20"
     },
@@ -1943,11 +1759,9 @@ export default {
       "masked": "I had the idea for weeks before I finally ____.",
       "options": [
         "pen-mcq-21",
-        "pen-mcq-20",
-        "pen-mcq-22",
-        "pen-mcq-19",
-        "pen-mcq-23",
-        "pen-mcq-18"
+        "pen-mcq-11",
+        "pen-mcq-16",
+        "pen-mcq-15"
       ],
       "explanation": "本句的「put pen to paper」指「開始把想法寫下來；動筆」。",
       "sentenceIndex": 46,
@@ -1956,12 +1770,10 @@ export default {
         "put pen to paper"
       ],
       "optionReasons": {
-        "pen-mcq-21": "本句指「開始把想法寫下來；動筆」。",
-        "pen-mcq-20": "「手寫字的技巧、風格或品質」是「penmanship」的用法，與本句語境不同。",
-        "pen-mcq-22": "「傳統以紙和筆書寫的方式」是「pen and paper」的用法，與本句語境不同。",
-        "pen-mcq-19": "「使用數位筆在電子裝置上輸入文字或圖畫」是「pen input」的用法，與本句語境不同。",
-        "pen-mcq-23": "「透過一次簽署或書面決定迅速造成重大改變；大筆一揮」是「by/with the stroke of a pen」的用法，與本句語境不同。",
-        "pen-mcq-18": "「用於電子裝置寫字或繪圖的數位筆／觸控筆」是「digital pen」的用法，與本句語境不同。"
+        "pen-mcq-21": "本句的「put pen to paper」指「開始把想法寫下來；動筆」。",
+        "pen-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-21"
     },
@@ -1973,11 +1785,9 @@ export default {
       "masked": "It is time to ____.",
       "options": [
         "pen-mcq-21",
-        "pen-mcq-20",
-        "pen-mcq-22",
-        "pen-mcq-19",
-        "pen-mcq-23",
-        "pen-mcq-18"
+        "pen-mcq-15",
+        "pen-mcq-17",
+        "pen-mcq-16"
       ],
       "explanation": "本句的「put pen to paper」指「開始把想法寫下來；動筆」。",
       "sentenceIndex": 47,
@@ -1986,12 +1796,10 @@ export default {
         "put pen to paper"
       ],
       "optionReasons": {
-        "pen-mcq-21": "本句指「開始把想法寫下來；動筆」。",
-        "pen-mcq-20": "「手寫字的技巧、風格或品質」是「penmanship」的用法，與本句語境不同。",
-        "pen-mcq-22": "「傳統以紙和筆書寫的方式」是「pen and paper」的用法，與本句語境不同。",
-        "pen-mcq-19": "「使用數位筆在電子裝置上輸入文字或圖畫」是「pen input」的用法，與本句語境不同。",
-        "pen-mcq-23": "「透過一次簽署或書面決定迅速造成重大改變；大筆一揮」是「by/with the stroke of a pen」的用法，與本句語境不同。",
-        "pen-mcq-18": "「用於電子裝置寫字或繪圖的數位筆／觸控筆」是「digital pen」的用法，與本句語境不同。"
+        "pen-mcq-21": "本句的「put pen to paper」指「開始把想法寫下來；動筆」。",
+        "pen-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-21"
     },
@@ -2003,11 +1811,9 @@ export default {
       "masked": "Sometimes I prefer ____ to a laptop.",
       "options": [
         "pen-mcq-22",
-        "pen-mcq-21",
-        "pen-mcq-23",
-        "pen-mcq-20",
-        "pen-mcq-24",
-        "pen-mcq-19"
+        "pen-mcq-12",
+        "pen-mcq-15",
+        "pen-mcq-16"
       ],
       "explanation": "本句的「pen and paper」指「傳統以紙和筆書寫的方式」。",
       "sentenceIndex": 48,
@@ -2016,12 +1822,10 @@ export default {
         "pen and paper"
       ],
       "optionReasons": {
-        "pen-mcq-22": "本句指「傳統以紙和筆書寫的方式」。",
-        "pen-mcq-21": "「開始把想法寫下來；動筆」是「put pen to paper」的用法，與本句語境不同。",
-        "pen-mcq-23": "「透過一次簽署或書面決定迅速造成重大改變；大筆一揮」是「by/with the stroke of a pen」的用法，與本句語境不同。",
-        "pen-mcq-20": "「手寫字的技巧、風格或品質」是「penmanship」的用法，與本句語境不同。",
-        "pen-mcq-24": "「表示鋼筆」是「Passage meaning」的用法，與本句語境不同。",
-        "pen-mcq-19": "「使用數位筆在電子裝置上輸入文字或圖畫」是「pen input」的用法，與本句語境不同。"
+        "pen-mcq-22": "本句的「pen and paper」指「傳統以紙和筆書寫的方式」。",
+        "pen-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-22"
     },
@@ -2033,11 +1837,9 @@ export default {
       "masked": "She planned the idea using ____.",
       "options": [
         "pen-mcq-22",
-        "pen-mcq-21",
-        "pen-mcq-23",
-        "pen-mcq-20",
-        "pen-mcq-24",
-        "pen-mcq-19"
+        "pen-mcq-17",
+        "pen-mcq-14",
+        "pen-mcq-16"
       ],
       "explanation": "本句的「pen and paper」指「傳統以紙和筆書寫的方式」。",
       "sentenceIndex": 49,
@@ -2046,12 +1848,10 @@ export default {
         "pen and paper"
       ],
       "optionReasons": {
-        "pen-mcq-22": "本句指「傳統以紙和筆書寫的方式」。",
-        "pen-mcq-21": "「開始把想法寫下來；動筆」是「put pen to paper」的用法，與本句語境不同。",
-        "pen-mcq-23": "「透過一次簽署或書面決定迅速造成重大改變；大筆一揮」是「by/with the stroke of a pen」的用法，與本句語境不同。",
-        "pen-mcq-20": "「手寫字的技巧、風格或品質」是「penmanship」的用法，與本句語境不同。",
-        "pen-mcq-24": "「表示鋼筆」是「Passage meaning」的用法，與本句語境不同。",
-        "pen-mcq-19": "「使用數位筆在電子裝置上輸入文字或圖畫」是「pen input」的用法，與本句語境不同。"
+        "pen-mcq-22": "本句的「pen and paper」指「傳統以紙和筆書寫的方式」。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-22"
     },
@@ -2063,11 +1863,9 @@ export default {
       "masked": "The rule could not simply disappear ____.",
       "options": [
         "pen-mcq-23",
-        "pen-mcq-22",
-        "pen-mcq-24",
-        "pen-mcq-21",
-        "pen-mcq-20",
-        "pen-mcq-19"
+        "pen-mcq-17",
+        "pen-mcq-10",
+        "pen-mcq-20"
       ],
       "explanation": "本句的「with the stroke of a pen」指「透過一次簽署或書面決定迅速造成重大改變；大筆一揮」。",
       "sentenceIndex": 50,
@@ -2076,12 +1874,10 @@ export default {
         "with the stroke of a pen"
       ],
       "optionReasons": {
-        "pen-mcq-23": "本句指「透過一次簽署或書面決定迅速造成重大改變；大筆一揮」。",
-        "pen-mcq-22": "「傳統以紙和筆書寫的方式」是「pen and paper」的用法，與本句語境不同。",
-        "pen-mcq-24": "「表示鋼筆」是「Passage meaning」的用法，與本句語境不同。",
-        "pen-mcq-21": "「開始把想法寫下來；動筆」是「put pen to paper」的用法，與本句語境不同。",
-        "pen-mcq-20": "「手寫字的技巧、風格或品質」是「penmanship」的用法，與本句語境不同。",
-        "pen-mcq-19": "「使用數位筆在電子裝置上輸入文字或圖畫」是「pen input」的用法，與本句語境不同。"
+        "pen-mcq-23": "本句的「with the stroke of a pen」指「透過一次簽署或書面決定迅速造成重大改變；大筆一揮」。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-23"
     },
@@ -2093,11 +1889,9 @@ export default {
       "masked": "Thousands of records were changed ____.",
       "options": [
         "pen-mcq-23",
-        "pen-mcq-22",
-        "pen-mcq-24",
-        "pen-mcq-21",
-        "pen-mcq-20",
-        "pen-mcq-19"
+        "pen-mcq-17",
+        "pen-mcq-11",
+        "pen-mcq-12"
       ],
       "explanation": "本句的「by the stroke of a pen」指「透過一次簽署或書面決定迅速造成重大改變；大筆一揮」。",
       "sentenceIndex": 51,
@@ -2106,12 +1900,10 @@ export default {
         "by the stroke of a pen"
       ],
       "optionReasons": {
-        "pen-mcq-23": "本句指「透過一次簽署或書面決定迅速造成重大改變；大筆一揮」。",
-        "pen-mcq-22": "「傳統以紙和筆書寫的方式」是「pen and paper」的用法，與本句語境不同。",
-        "pen-mcq-24": "「表示鋼筆」是「Passage meaning」的用法，與本句語境不同。",
-        "pen-mcq-21": "「開始把想法寫下來；動筆」是「put pen to paper」的用法，與本句語境不同。",
-        "pen-mcq-20": "「手寫字的技巧、風格或品質」是「penmanship」的用法，與本句語境不同。",
-        "pen-mcq-19": "「使用數位筆在電子裝置上輸入文字或圖畫」是「pen input」的用法，與本句語境不同。"
+        "pen-mcq-23": "本句的「by the stroke of a pen」指「透過一次簽署或書面決定迅速造成重大改變；大筆一揮」。",
+        "pen-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pen-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pen-mcq-23"
     }
@@ -2123,5 +1915,7 @@ export default {
     "sha256": "c0247959f95f4572baf4ef956cad1e6de5d8c0aed9f0524eb74a61653eac0dea",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

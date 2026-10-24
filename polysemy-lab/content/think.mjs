@@ -286,7 +286,7 @@ export default {
     },
     {
       "id": "think-mcq-13",
-      "title": "表示自己認為前述說法不成立／不太可能",
+      "title": "自己認為前述說法不成立／不太可能",
       "form": "don't think so",
       "en": "don't think so",
       "zh": "表示自己認為前述說法不成立／不太可能",
@@ -420,16 +420,6 @@ export default {
         [
           "I was going to call her later, but on second thought, I’ll call now.",
           "我本來打算稍後才打電話給她，但再想想，我現在就打。",
-          "再次考慮後改變或修正原先決定"
-        ],
-        [
-          "Give the idea some thought before deciding.",
-          "作決定前先好好考慮一下這個想法。",
-          "再次考慮後改變或修正原先決定"
-        ],
-        [
-          "I need to give your suggestion more thought.",
-          "我需要再仔細考慮一下你的建議。",
           "再次考慮後改變或修正原先決定"
         ]
       ],
@@ -765,6 +755,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "think-reviewed-10ce6a4df5",
+      "title": "花時間認真考慮某件事",
+      "form": "think · source section 23",
+      "en": "花時間認真考慮某件事",
+      "zh": "花時間認真考慮某件事",
+      "note": "對照原始教材第 23 節及例句核實。",
+      "examples": [
+        [
+          "Give the idea some thought before deciding.",
+          "作決定前先好好考慮一下這個想法。",
+          "花時間認真考慮某件事"
+        ],
+        [
+          "I need to give your suggestion more thought.",
+          "我需要再仔細考慮一下你的建議。",
+          "花時間認真考慮某件事"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -776,11 +788,9 @@ export default {
       "masked": "As for what other people ____…",
       "options": [
         "think-mcq-01",
-        "think-mcq-02",
-        "think-mcq-03",
-        "think-mcq-04",
-        "think-mcq-05",
-        "think-mcq-06"
+        "think-mcq-22",
+        "think-mcq-07",
+        "think-mcq-23"
       ],
       "explanation": "本句的「think of her」指「對某人的性格、能力或整體形象形成某種評價／印象」。",
       "sentenceIndex": 0,
@@ -789,12 +799,10 @@ export default {
         "think of her"
       ],
       "optionReasons": {
-        "think-mcq-01": "本句指「對某人的性格、能力或整體形象形成某種評價／印象」。",
-        "think-mcq-02": "「根據自己的判斷或觀點認為某件事是真實／可能的」是「think that...」的用法，與本句語境不同。",
-        "think-mcq-03": "「對某件事形成自己的意見或判斷」是「think — have an opinion」的用法，與本句語境不同。",
-        "think-mcq-04": "「把注意力放在某件事上，認真考慮其細節、可能性或後果」是「think about something」的用法，與本句語境不同。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。"
+        "think-mcq-01": "本句的「think of her」指「對某人的性格、能力或整體形象形成某種評價／印象」。",
+        "think-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-01"
     },
@@ -806,11 +814,9 @@ export default {
       "masked": "What do you ____ the new teacher?",
       "options": [
         "think-mcq-01",
-        "think-mcq-02",
-        "think-mcq-03",
-        "think-mcq-04",
-        "think-mcq-05",
-        "think-mcq-06"
+        "think-mcq-07",
+        "think-mcq-12",
+        "think-mcq-23"
       ],
       "explanation": "本句的「think of」指「對某人的性格、能力或整體形象形成某種評價／印象」。",
       "sentenceIndex": 1,
@@ -819,12 +825,10 @@ export default {
         "think of"
       ],
       "optionReasons": {
-        "think-mcq-01": "本句指「對某人的性格、能力或整體形象形成某種評價／印象」。",
-        "think-mcq-02": "「根據自己的判斷或觀點認為某件事是真實／可能的」是「think that...」的用法，與本句語境不同。",
-        "think-mcq-03": "「對某件事形成自己的意見或判斷」是「think — have an opinion」的用法，與本句語境不同。",
-        "think-mcq-04": "「把注意力放在某件事上，認真考慮其細節、可能性或後果」是「think about something」的用法，與本句語境不同。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。"
+        "think-mcq-01": "本句的「think of」指「對某人的性格、能力或整體形象形成某種評價／印象」。",
+        "think-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-01"
     },
@@ -836,11 +840,8 @@ export default {
       "masked": "Most people ____ her.",
       "options": [
         "think-mcq-01",
-        "think-mcq-02",
-        "think-mcq-03",
-        "think-mcq-04",
-        "think-mcq-05",
-        "think-mcq-06"
+        "think-mcq-17",
+        "think-mcq-23"
       ],
       "explanation": "本句的「think highly of」指「對某人的性格、能力或整體形象形成某種評價／印象」。",
       "sentenceIndex": 2,
@@ -849,12 +850,9 @@ export default {
         "think highly of"
       ],
       "optionReasons": {
-        "think-mcq-01": "本句指「對某人的性格、能力或整體形象形成某種評價／印象」。",
-        "think-mcq-02": "「根據自己的判斷或觀點認為某件事是真實／可能的」是「think that...」的用法，與本句語境不同。",
-        "think-mcq-03": "「對某件事形成自己的意見或判斷」是「think — have an opinion」的用法，與本句語境不同。",
-        "think-mcq-04": "「把注意力放在某件事上，認真考慮其細節、可能性或後果」是「think about something」的用法，與本句語境不同。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。"
+        "think-mcq-01": "本句的「think highly of」指「對某人的性格、能力或整體形象形成某種評價／印象」。",
+        "think-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-01"
     },
@@ -867,10 +865,8 @@ export default {
       "options": [
         "think-mcq-02",
         "think-mcq-01",
-        "think-mcq-03",
-        "think-mcq-04",
-        "think-mcq-05",
-        "think-mcq-06"
+        "think-mcq-23",
+        "think-mcq-18"
       ],
       "explanation": "本句的「think that」指「根據自己的判斷或觀點認為某件事是真實／可能的」。",
       "sentenceIndex": 3,
@@ -879,12 +875,10 @@ export default {
         "think that"
       ],
       "optionReasons": {
-        "think-mcq-02": "本句指「根據自己的判斷或觀點認為某件事是真實／可能的」。",
-        "think-mcq-01": "「對某人的性格、能力或整體形象形成某種評價／印象」是「think of someone — opinion」的用法，與本句語境不同。",
-        "think-mcq-03": "「對某件事形成自己的意見或判斷」是「think — have an opinion」的用法，與本句語境不同。",
-        "think-mcq-04": "「把注意力放在某件事上，認真考慮其細節、可能性或後果」是「think about something」的用法，與本句語境不同。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。"
+        "think-mcq-02": "本句的「think that」指「根據自己的判斷或觀點認為某件事是真實／可能的」。",
+        "think-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-02"
     },
@@ -896,11 +890,9 @@ export default {
       "masked": "They ____ the plan will work.",
       "options": [
         "think-mcq-02",
-        "think-mcq-01",
-        "think-mcq-03",
-        "think-mcq-04",
-        "think-mcq-05",
-        "think-mcq-06"
+        "think-mcq-33",
+        "think-mcq-18",
+        "think-mcq-23"
       ],
       "explanation": "本句的「think」指「根據自己的判斷或觀點認為某件事是真實／可能的」。",
       "sentenceIndex": 4,
@@ -909,12 +901,10 @@ export default {
         "think"
       ],
       "optionReasons": {
-        "think-mcq-02": "本句指「根據自己的判斷或觀點認為某件事是真實／可能的」。",
-        "think-mcq-01": "「對某人的性格、能力或整體形象形成某種評價／印象」是「think of someone — opinion」的用法，與本句語境不同。",
-        "think-mcq-03": "「對某件事形成自己的意見或判斷」是「think — have an opinion」的用法，與本句語境不同。",
-        "think-mcq-04": "「把注意力放在某件事上，認真考慮其細節、可能性或後果」是「think about something」的用法，與本句語境不同。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。"
+        "think-mcq-02": "本句的「think」指「根據自己的判斷或觀點認為某件事是真實／可能的」。",
+        "think-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-02"
     },
@@ -926,11 +916,9 @@ export default {
       "masked": "What do you ____?",
       "options": [
         "think-mcq-03",
-        "think-mcq-02",
-        "think-mcq-04",
-        "think-mcq-01",
-        "think-mcq-05",
-        "think-mcq-06"
+        "think-mcq-14",
+        "think-mcq-23",
+        "think-mcq-07"
       ],
       "explanation": "本句的「think」指「對某件事形成自己的意見或判斷」。",
       "sentenceIndex": 5,
@@ -939,12 +927,10 @@ export default {
         "think"
       ],
       "optionReasons": {
-        "think-mcq-03": "本句指「對某件事形成自己的意見或判斷」。",
-        "think-mcq-02": "「根據自己的判斷或觀點認為某件事是真實／可能的」是「think that...」的用法，與本句語境不同。",
-        "think-mcq-04": "「把注意力放在某件事上，認真考慮其細節、可能性或後果」是「think about something」的用法，與本句語境不同。",
-        "think-mcq-01": "「對某人的性格、能力或整體形象形成某種評價／印象」是「think of someone — opinion」的用法，與本句語境不同。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。"
+        "think-mcq-03": "本句的「think」指「對某件事形成自己的意見或判斷」。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-03"
     },
@@ -956,11 +942,9 @@ export default {
       "masked": "I ____ this is the better option.",
       "options": [
         "think-mcq-03",
-        "think-mcq-02",
-        "think-mcq-04",
-        "think-mcq-01",
-        "think-mcq-05",
-        "think-mcq-06"
+        "think-mcq-08",
+        "think-mcq-14",
+        "think-mcq-10"
       ],
       "explanation": "本句的「think」指「對某件事形成自己的意見或判斷」。",
       "sentenceIndex": 6,
@@ -969,12 +953,10 @@ export default {
         "think"
       ],
       "optionReasons": {
-        "think-mcq-03": "本句指「對某件事形成自己的意見或判斷」。",
-        "think-mcq-02": "「根據自己的判斷或觀點認為某件事是真實／可能的」是「think that...」的用法，與本句語境不同。",
-        "think-mcq-04": "「把注意力放在某件事上，認真考慮其細節、可能性或後果」是「think about something」的用法，與本句語境不同。",
-        "think-mcq-01": "「對某人的性格、能力或整體形象形成某種評價／印象」是「think of someone — opinion」的用法，與本句語境不同。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。"
+        "think-mcq-03": "本句的「think」指「對某件事形成自己的意見或判斷」。",
+        "think-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-03"
     },
@@ -986,11 +968,9 @@ export default {
       "masked": "I need some time to ____ the problem.",
       "options": [
         "think-mcq-04",
-        "think-mcq-03",
-        "think-mcq-05",
-        "think-mcq-02",
-        "think-mcq-06",
-        "think-mcq-01"
+        "think-mcq-19",
+        "think-mcq-15",
+        "think-mcq-10"
       ],
       "explanation": "本句的「think about」指「把注意力放在某件事上，認真考慮其細節、可能性或後果」。",
       "sentenceIndex": 7,
@@ -999,12 +979,10 @@ export default {
         "think about"
       ],
       "optionReasons": {
-        "think-mcq-04": "本句指「把注意力放在某件事上，認真考慮其細節、可能性或後果」。",
-        "think-mcq-03": "「對某件事形成自己的意見或判斷」是「think — have an opinion」的用法，與本句語境不同。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。",
-        "think-mcq-02": "「根據自己的判斷或觀點認為某件事是真實／可能的」是「think that...」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。",
-        "think-mcq-01": "「對某人的性格、能力或整體形象形成某種評價／印象」是「think of someone — opinion」的用法，與本句語境不同。"
+        "think-mcq-04": "本句的「think about」指「把注意力放在某件事上，認真考慮其細節、可能性或後果」。",
+        "think-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-04"
     },
@@ -1016,11 +994,9 @@ export default {
       "masked": "She is ____ changing jobs.",
       "options": [
         "think-mcq-04",
-        "think-mcq-03",
-        "think-mcq-05",
-        "think-mcq-02",
-        "think-mcq-06",
-        "think-mcq-01"
+        "think-mcq-15",
+        "think-mcq-10",
+        "think-mcq-22"
       ],
       "explanation": "本句的「thinking about」指「把注意力放在某件事上，認真考慮其細節、可能性或後果」。",
       "sentenceIndex": 8,
@@ -1029,12 +1005,10 @@ export default {
         "thinking about"
       ],
       "optionReasons": {
-        "think-mcq-04": "本句指「把注意力放在某件事上，認真考慮其細節、可能性或後果」。",
-        "think-mcq-03": "「對某件事形成自己的意見或判斷」是「think — have an opinion」的用法，與本句語境不同。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。",
-        "think-mcq-02": "「根據自己的判斷或觀點認為某件事是真實／可能的」是「think that...」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。",
-        "think-mcq-01": "「對某人的性格、能力或整體形象形成某種評價／印象」是「think of someone — opinion」的用法，與本句語境不同。"
+        "think-mcq-04": "本句的「thinking about」指「把注意力放在某件事上，認真考慮其細節、可能性或後果」。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-04"
     },
@@ -1047,10 +1021,8 @@ export default {
       "options": [
         "think-mcq-05",
         "think-mcq-04",
-        "think-mcq-06",
-        "think-mcq-03",
-        "think-mcq-07",
-        "think-mcq-02"
+        "think-mcq-10",
+        "think-mcq-14"
       ],
       "explanation": "本句的「think of」指「在腦中產生某個想法、答案、例子或解決方案」。",
       "sentenceIndex": 9,
@@ -1059,12 +1031,10 @@ export default {
         "think of"
       ],
       "optionReasons": {
-        "think-mcq-05": "本句指「在腦中產生某個想法、答案、例子或解決方案」。",
-        "think-mcq-04": "「把注意力放在某件事上，認真考慮其細節、可能性或後果」是「think about something」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。",
-        "think-mcq-03": "「對某件事形成自己的意見或判斷」是「think — have an opinion」的用法，與本句語境不同。",
-        "think-mcq-07": "「把某項行動視為可能選項並加以考慮」是「think of doing」的用法，與本句語境不同。",
-        "think-mcq-02": "「根據自己的判斷或觀點認為某件事是真實／可能的」是「think that...」的用法，與本句語境不同。"
+        "think-mcq-05": "本句的「think of」指「在腦中產生某個想法、答案、例子或解決方案」。",
+        "think-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-05"
     },
@@ -1076,11 +1046,9 @@ export default {
       "masked": "She quickly ____ another idea.",
       "options": [
         "think-mcq-05",
-        "think-mcq-04",
-        "think-mcq-06",
-        "think-mcq-03",
+        "think-mcq-33",
         "think-mcq-07",
-        "think-mcq-02"
+        "think-mcq-10"
       ],
       "explanation": "本句的「thought of」指「在腦中產生某個想法、答案、例子或解決方案」。",
       "sentenceIndex": 10,
@@ -1089,12 +1057,10 @@ export default {
         "thought of"
       ],
       "optionReasons": {
-        "think-mcq-05": "本句指「在腦中產生某個想法、答案、例子或解決方案」。",
-        "think-mcq-04": "「把注意力放在某件事上，認真考慮其細節、可能性或後果」是「think about something」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。",
-        "think-mcq-03": "「對某件事形成自己的意見或判斷」是「think — have an opinion」的用法，與本句語境不同。",
-        "think-mcq-07": "「把某項行動視為可能選項並加以考慮」是「think of doing」的用法，與本句語境不同。",
-        "think-mcq-02": "「根據自己的判斷或觀點認為某件事是真實／可能的」是「think that...」的用法，與本句語境不同。"
+        "think-mcq-05": "本句的「thought of」指「在腦中產生某個想法、答案、例子或解決方案」。",
+        "think-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-05"
     },
@@ -1106,11 +1072,8 @@ export default {
       "masked": "This song makes me ____ my grandmother.",
       "options": [
         "think-mcq-06",
-        "think-mcq-05",
-        "think-mcq-07",
-        "think-mcq-04",
         "think-mcq-08",
-        "think-mcq-03"
+        "think-mcq-10"
       ],
       "explanation": "本句的「think of」指「某人／某事物出現在自己的思想或記憶中」。",
       "sentenceIndex": 11,
@@ -1119,12 +1082,9 @@ export default {
         "think of"
       ],
       "optionReasons": {
-        "think-mcq-06": "本句指「某人／某事物出現在自己的思想或記憶中」。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。",
-        "think-mcq-07": "「把某項行動視為可能選項並加以考慮」是「think of doing」的用法，與本句語境不同。",
-        "think-mcq-04": "「把注意力放在某件事上，認真考慮其細節、可能性或後果」是「think about something」的用法，與本句語境不同。",
-        "think-mcq-08": "「花時間認真考慮是否採取某項行動」是「think about doing」的用法，與本句語境不同。",
-        "think-mcq-03": "「對某件事形成自己的意見或判斷」是「think — have an opinion」的用法，與本句語境不同。"
+        "think-mcq-06": "本句的「think of」指「某人／某事物出現在自己的思想或記憶中」。",
+        "think-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-06"
     },
@@ -1136,11 +1096,8 @@ export default {
       "masked": "I often ____ my childhood.",
       "options": [
         "think-mcq-06",
-        "think-mcq-05",
-        "think-mcq-07",
-        "think-mcq-04",
-        "think-mcq-08",
-        "think-mcq-03"
+        "think-mcq-18",
+        "think-mcq-10"
       ],
       "explanation": "本句的「think of」指「某人／某事物出現在自己的思想或記憶中」。",
       "sentenceIndex": 12,
@@ -1149,12 +1106,9 @@ export default {
         "think of"
       ],
       "optionReasons": {
-        "think-mcq-06": "本句指「某人／某事物出現在自己的思想或記憶中」。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。",
-        "think-mcq-07": "「把某項行動視為可能選項並加以考慮」是「think of doing」的用法，與本句語境不同。",
-        "think-mcq-04": "「把注意力放在某件事上，認真考慮其細節、可能性或後果」是「think about something」的用法，與本句語境不同。",
-        "think-mcq-08": "「花時間認真考慮是否採取某項行動」是「think about doing」的用法，與本句語境不同。",
-        "think-mcq-03": "「對某件事形成自己的意見或判斷」是「think — have an opinion」的用法，與本句語境不同。"
+        "think-mcq-06": "本句的「think of」指「某人／某事物出現在自己的思想或記憶中」。",
+        "think-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-06"
     },
@@ -1166,11 +1120,9 @@ export default {
       "masked": "I was ____ my grandmother yesterday.",
       "options": [
         "think-mcq-30",
-        "think-mcq-29",
-        "think-mcq-31",
-        "think-mcq-28",
-        "think-mcq-32",
-        "think-mcq-27"
+        "think-mcq-15",
+        "think-mcq-16",
+        "think-mcq-10"
       ],
       "explanation": "本句的「thinking about」指「持續把注意力或思想放在某個人、事件或問題上」。",
       "sentenceIndex": 13,
@@ -1179,12 +1131,10 @@ export default {
         "thinking about"
       ],
       "optionReasons": {
-        "think-mcq-30": "本句指「持續把注意力或思想放在某個人、事件或問題上」。",
-        "think-mcq-29": "「沒有經過足夠思考便做出的；輕率的」是「thoughtless — unconsidered」的用法，與本句語境不同。",
-        "think-mcq-31": "「詢問對方的意見、判斷或推測」是「14. do you think...?（徵詢意見／推測） — 你覺得……嗎？」的用法，與本句語境不同。",
-        "think-mcq-28": "「沒有考慮自己的行為會如何影響別人的」是「thoughtless — inconsiderate」的用法，與本句語境不同。",
-        "think-mcq-32": "「出現在腦中的可能性、想像或意圖」是「27. thought = intention/possibility in the mind（念頭） — 念頭；想法」的用法，與本句語境不同。",
-        "think-mcq-27": "「顯示經過仔細、深入和認真思考的」是「thoughtful — reflective」的用法，與本句語境不同。"
+        "think-mcq-30": "本句的「thinking about」指「持續把注意力或思想放在某個人、事件或問題上」。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-30"
     },
@@ -1196,11 +1146,9 @@ export default {
       "masked": "She spent the evening ____ what had happened.",
       "options": [
         "think-mcq-30",
-        "think-mcq-29",
-        "think-mcq-31",
-        "think-mcq-28",
-        "think-mcq-32",
-        "think-mcq-27"
+        "think-mcq-08",
+        "think-mcq-15",
+        "think-mcq-10"
       ],
       "explanation": "本句的「thinking about」指「持續把注意力或思想放在某個人、事件或問題上」。",
       "sentenceIndex": 14,
@@ -1209,12 +1157,10 @@ export default {
         "thinking about"
       ],
       "optionReasons": {
-        "think-mcq-30": "本句指「持續把注意力或思想放在某個人、事件或問題上」。",
-        "think-mcq-29": "「沒有經過足夠思考便做出的；輕率的」是「thoughtless — unconsidered」的用法，與本句語境不同。",
-        "think-mcq-31": "「詢問對方的意見、判斷或推測」是「14. do you think...?（徵詢意見／推測） — 你覺得……嗎？」的用法，與本句語境不同。",
-        "think-mcq-28": "「沒有考慮自己的行為會如何影響別人的」是「thoughtless — inconsiderate」的用法，與本句語境不同。",
-        "think-mcq-32": "「出現在腦中的可能性、想像或意圖」是「27. thought = intention/possibility in the mind（念頭） — 念頭；想法」的用法，與本句語境不同。",
-        "think-mcq-27": "「顯示經過仔細、深入和認真思考的」是「thoughtful — reflective」的用法，與本句語境不同。"
+        "think-mcq-30": "本句的「thinking about」指「持續把注意力或思想放在某個人、事件或問題上」。",
+        "think-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-30"
     },
@@ -1226,11 +1172,9 @@ export default {
       "masked": "Have you ever ____ abroad?",
       "options": [
         "think-mcq-07",
-        "think-mcq-06",
-        "think-mcq-08",
-        "think-mcq-05",
-        "think-mcq-09",
-        "think-mcq-04"
+        "think-mcq-30",
+        "think-mcq-14",
+        "think-mcq-10"
       ],
       "explanation": "本句的「thought of moving」指「把某項行動視為可能選項並加以考慮」。",
       "sentenceIndex": 15,
@@ -1239,12 +1183,10 @@ export default {
         "thought of moving"
       ],
       "optionReasons": {
-        "think-mcq-07": "本句指「把某項行動視為可能選項並加以考慮」。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。",
-        "think-mcq-08": "「花時間認真考慮是否採取某項行動」是「think about doing」的用法，與本句語境不同。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。",
-        "think-mcq-09": "「使用頭腦進行分析、推理、判斷或解決問題」是「think — reason」的用法，與本句語境不同。",
-        "think-mcq-04": "「把注意力放在某件事上，認真考慮其細節、可能性或後果」是「think about something」的用法，與本句語境不同。"
+        "think-mcq-07": "本句的「thought of moving」指「把某項行動視為可能選項並加以考慮」。",
+        "think-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-07"
     },
@@ -1256,11 +1198,9 @@ export default {
       "masked": "She is ____ a short break.",
       "options": [
         "think-mcq-07",
-        "think-mcq-06",
-        "think-mcq-08",
-        "think-mcq-05",
-        "think-mcq-09",
-        "think-mcq-04"
+        "think-mcq-03",
+        "think-mcq-14",
+        "think-mcq-10"
       ],
       "explanation": "本句的「thinking of taking」指「把某項行動視為可能選項並加以考慮」。",
       "sentenceIndex": 16,
@@ -1269,12 +1209,10 @@ export default {
         "thinking of taking"
       ],
       "optionReasons": {
-        "think-mcq-07": "本句指「把某項行動視為可能選項並加以考慮」。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。",
-        "think-mcq-08": "「花時間認真考慮是否採取某項行動」是「think about doing」的用法，與本句語境不同。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。",
-        "think-mcq-09": "「使用頭腦進行分析、推理、判斷或解決問題」是「think — reason」的用法，與本句語境不同。",
-        "think-mcq-04": "「把注意力放在某件事上，認真考慮其細節、可能性或後果」是「think about something」的用法，與本句語境不同。"
+        "think-mcq-07": "本句的「thinking of taking」指「把某項行動視為可能選項並加以考慮」。",
+        "think-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-07"
     },
@@ -1286,11 +1224,9 @@ export default {
       "masked": "I’m ____ another language.",
       "options": [
         "think-mcq-08",
-        "think-mcq-07",
-        "think-mcq-09",
-        "think-mcq-06",
+        "think-mcq-22",
         "think-mcq-10",
-        "think-mcq-05"
+        "think-mcq-23"
       ],
       "explanation": "本句的「thinking about studying」指「花時間認真考慮是否採取某項行動」。",
       "sentenceIndex": 17,
@@ -1299,12 +1235,10 @@ export default {
         "thinking about studying"
       ],
       "optionReasons": {
-        "think-mcq-08": "本句指「花時間認真考慮是否採取某項行動」。",
-        "think-mcq-07": "「把某項行動視為可能選項並加以考慮」是「think of doing」的用法，與本句語境不同。",
-        "think-mcq-09": "「使用頭腦進行分析、推理、判斷或解決問題」是「think — reason」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。",
-        "think-mcq-10": "「根據現有資料作出並不完全確定的估計」是「think — suppose/estimate」的用法，與本句語境不同。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。"
+        "think-mcq-08": "本句的「thinking about studying」指「花時間認真考慮是否採取某項行動」。",
+        "think-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-08"
     },
@@ -1316,11 +1250,9 @@ export default {
       "masked": "They are ____ closer to their family.",
       "options": [
         "think-mcq-08",
-        "think-mcq-07",
-        "think-mcq-09",
-        "think-mcq-06",
-        "think-mcq-10",
-        "think-mcq-05"
+        "think-mcq-19",
+        "think-mcq-23",
+        "think-mcq-33"
       ],
       "explanation": "本句的「thinking about moving」指「花時間認真考慮是否採取某項行動」。",
       "sentenceIndex": 18,
@@ -1329,12 +1261,10 @@ export default {
         "thinking about moving"
       ],
       "optionReasons": {
-        "think-mcq-08": "本句指「花時間認真考慮是否採取某項行動」。",
-        "think-mcq-07": "「把某項行動視為可能選項並加以考慮」是「think of doing」的用法，與本句語境不同。",
-        "think-mcq-09": "「使用頭腦進行分析、推理、判斷或解決問題」是「think — reason」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。",
-        "think-mcq-10": "「根據現有資料作出並不完全確定的估計」是「think — suppose/estimate」的用法，與本句語境不同。",
-        "think-mcq-05": "「在腦中產生某個想法、答案、例子或解決方案」是「think of — generate idea」的用法，與本句語境不同。"
+        "think-mcq-08": "本句的「thinking about moving」指「花時間認真考慮是否採取某項行動」。",
+        "think-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-08"
     },
@@ -1346,11 +1276,9 @@ export default {
       "masked": "Stop and ____ before you answer.",
       "options": [
         "think-mcq-09",
-        "think-mcq-08",
-        "think-mcq-10",
-        "think-mcq-07",
-        "think-mcq-11",
-        "think-mcq-06"
+        "think-mcq-04",
+        "think-mcq-14",
+        "think-mcq-23"
       ],
       "explanation": "本句的「think」指「使用頭腦進行分析、推理、判斷或解決問題」。",
       "sentenceIndex": 19,
@@ -1359,12 +1287,10 @@ export default {
         "think"
       ],
       "optionReasons": {
-        "think-mcq-09": "本句指「使用頭腦進行分析、推理、判斷或解決問題」。",
-        "think-mcq-08": "「花時間認真考慮是否採取某項行動」是「think about doing」的用法，與本句語境不同。",
-        "think-mcq-10": "「根據現有資料作出並不完全確定的估計」是「think — suppose/estimate」的用法，與本句語境不同。",
-        "think-mcq-07": "「把某項行動視為可能選項並加以考慮」是「think of doing」的用法，與本句語境不同。",
-        "think-mcq-11": "「表達意見／建議時降低說法的絕對程度」是「I think — softener」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。"
+        "think-mcq-09": "本句的「think」指「使用頭腦進行分析、推理、判斷或解決問題」。",
+        "think-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-09"
     },
@@ -1376,11 +1302,9 @@ export default {
       "masked": "You need to ____ carefully.",
       "options": [
         "think-mcq-09",
-        "think-mcq-08",
         "think-mcq-10",
-        "think-mcq-07",
-        "think-mcq-11",
-        "think-mcq-06"
+        "think-reviewed-10ce6a4df5",
+        "think-mcq-15"
       ],
       "explanation": "本句的「think」指「使用頭腦進行分析、推理、判斷或解決問題」。",
       "sentenceIndex": 20,
@@ -1389,12 +1313,10 @@ export default {
         "think"
       ],
       "optionReasons": {
-        "think-mcq-09": "本句指「使用頭腦進行分析、推理、判斷或解決問題」。",
-        "think-mcq-08": "「花時間認真考慮是否採取某項行動」是「think about doing」的用法，與本句語境不同。",
-        "think-mcq-10": "「根據現有資料作出並不完全確定的估計」是「think — suppose/estimate」的用法，與本句語境不同。",
-        "think-mcq-07": "「把某項行動視為可能選項並加以考慮」是「think of doing」的用法，與本句語境不同。",
-        "think-mcq-11": "「表達意見／建議時降低說法的絕對程度」是「I think — softener」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。"
+        "think-mcq-09": "本句的「think」指「使用頭腦進行分析、推理、判斷或解決問題」。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-reviewed-10ce6a4df5": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-09"
     },
@@ -1406,11 +1328,9 @@ export default {
       "masked": "She always ____ before making a decision.",
       "options": [
         "think-mcq-09",
-        "think-mcq-08",
         "think-mcq-10",
-        "think-mcq-07",
-        "think-mcq-11",
-        "think-mcq-06"
+        "think-mcq-04",
+        "think-mcq-15"
       ],
       "explanation": "本句的「thinks carefully」指「使用頭腦進行分析、推理、判斷或解決問題」。",
       "sentenceIndex": 21,
@@ -1419,12 +1339,10 @@ export default {
         "thinks carefully"
       ],
       "optionReasons": {
-        "think-mcq-09": "本句指「使用頭腦進行分析、推理、判斷或解決問題」。",
-        "think-mcq-08": "「花時間認真考慮是否採取某項行動」是「think about doing」的用法，與本句語境不同。",
-        "think-mcq-10": "「根據現有資料作出並不完全確定的估計」是「think — suppose/estimate」的用法，與本句語境不同。",
-        "think-mcq-07": "「把某項行動視為可能選項並加以考慮」是「think of doing」的用法，與本句語境不同。",
-        "think-mcq-11": "「表達意見／建議時降低說法的絕對程度」是「I think — softener」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。"
+        "think-mcq-09": "本句的「thinks carefully」指「使用頭腦進行分析、推理、判斷或解決問題」。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-09"
     },
@@ -1436,11 +1354,9 @@ export default {
       "masked": "It was difficult to ____ under pressure.",
       "options": [
         "think-mcq-09",
-        "think-mcq-08",
-        "think-mcq-10",
-        "think-mcq-07",
-        "think-mcq-11",
-        "think-mcq-06"
+        "think-reviewed-10ce6a4df5",
+        "think-mcq-33",
+        "think-mcq-23"
       ],
       "explanation": "本句的「think clearly」指「使用頭腦進行分析、推理、判斷或解決問題」。",
       "sentenceIndex": 22,
@@ -1449,12 +1365,10 @@ export default {
         "think clearly"
       ],
       "optionReasons": {
-        "think-mcq-09": "本句指「使用頭腦進行分析、推理、判斷或解決問題」。",
-        "think-mcq-08": "「花時間認真考慮是否採取某項行動」是「think about doing」的用法，與本句語境不同。",
-        "think-mcq-10": "「根據現有資料作出並不完全確定的估計」是「think — suppose/estimate」的用法，與本句語境不同。",
-        "think-mcq-07": "「把某項行動視為可能選項並加以考慮」是「think of doing」的用法，與本句語境不同。",
-        "think-mcq-11": "「表達意見／建議時降低說法的絕對程度」是「I think — softener」的用法，與本句語境不同。",
-        "think-mcq-06": "「某人／某事物出現在自己的思想或記憶中」是「think of — remember」的用法，與本句語境不同。"
+        "think-mcq-09": "本句的「think clearly」指「使用頭腦進行分析、推理、判斷或解決問題」。",
+        "think-reviewed-10ce6a4df5": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-09"
     },
@@ -1466,11 +1380,9 @@ export default {
       "masked": "I ____ she’ll arrive around six.",
       "options": [
         "think-mcq-10",
-        "think-mcq-09",
-        "think-mcq-11",
-        "think-mcq-08",
-        "think-mcq-12",
-        "think-mcq-07"
+        "think-reviewed-10ce6a4df5",
+        "think-mcq-30",
+        "think-mcq-15"
       ],
       "explanation": "本句的「think」指「根據現有資料作出並不完全確定的估計」。",
       "sentenceIndex": 23,
@@ -1479,12 +1391,10 @@ export default {
         "think"
       ],
       "optionReasons": {
-        "think-mcq-10": "本句指「根據現有資料作出並不完全確定的估計」。",
-        "think-mcq-09": "「使用頭腦進行分析、推理、判斷或解決問題」是「think — reason」的用法，與本句語境不同。",
-        "think-mcq-11": "「表達意見／建議時降低說法的絕對程度」是「I think — softener」的用法，與本句語境不同。",
-        "think-mcq-08": "「花時間認真考慮是否採取某項行動」是「think about doing」的用法，與本句語境不同。",
-        "think-mcq-12": "「用 so 代替前面肯定內容，表示自己認為它是真的」是「think so」的用法，與本句語境不同。",
-        "think-mcq-07": "「把某項行動視為可能選項並加以考慮」是「think of doing」的用法，與本句語境不同。"
+        "think-mcq-10": "本句的「think」指「根據現有資料作出並不完全確定的估計」。",
+        "think-reviewed-10ce6a4df5": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-10"
     },
@@ -1496,11 +1406,9 @@ export default {
       "masked": "I ____ we have enough time.",
       "options": [
         "think-mcq-10",
-        "think-mcq-09",
-        "think-mcq-11",
+        "think-mcq-13",
         "think-mcq-08",
-        "think-mcq-12",
-        "think-mcq-07"
+        "think-mcq-33"
       ],
       "explanation": "本句的「think」指「根據現有資料作出並不完全確定的估計」。",
       "sentenceIndex": 24,
@@ -1509,12 +1417,10 @@ export default {
         "think"
       ],
       "optionReasons": {
-        "think-mcq-10": "本句指「根據現有資料作出並不完全確定的估計」。",
-        "think-mcq-09": "「使用頭腦進行分析、推理、判斷或解決問題」是「think — reason」的用法，與本句語境不同。",
-        "think-mcq-11": "「表達意見／建議時降低說法的絕對程度」是「I think — softener」的用法，與本句語境不同。",
-        "think-mcq-08": "「花時間認真考慮是否採取某項行動」是「think about doing」的用法，與本句語境不同。",
-        "think-mcq-12": "「用 so 代替前面肯定內容，表示自己認為它是真的」是「think so」的用法，與本句語境不同。",
-        "think-mcq-07": "「把某項行動視為可能選項並加以考慮」是「think of doing」的用法，與本句語境不同。"
+        "think-mcq-10": "本句的「think」指「根據現有資料作出並不完全確定的估計」。",
+        "think-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-10"
     },
@@ -1526,11 +1432,9 @@ export default {
       "masked": "I ____ we should leave now.",
       "options": [
         "think-mcq-11",
-        "think-mcq-10",
-        "think-mcq-12",
-        "think-mcq-09",
-        "think-mcq-13",
-        "think-mcq-08"
+        "think-mcq-33",
+        "think-mcq-23",
+        "think-mcq-16"
       ],
       "explanation": "本句的「think」指「表達意見／建議時降低說法的絕對程度」。",
       "sentenceIndex": 25,
@@ -1539,12 +1443,10 @@ export default {
         "think"
       ],
       "optionReasons": {
-        "think-mcq-11": "本句指「表達意見／建議時降低說法的絕對程度」。",
-        "think-mcq-10": "「根據現有資料作出並不完全確定的估計」是「think — suppose/estimate」的用法，與本句語境不同。",
-        "think-mcq-12": "「用 so 代替前面肯定內容，表示自己認為它是真的」是「think so」的用法，與本句語境不同。",
-        "think-mcq-09": "「使用頭腦進行分析、推理、判斷或解決問題」是「think — reason」的用法，與本句語境不同。",
-        "think-mcq-13": "「表示自己認為前述說法不成立／不太可能」是「don't think so」的用法，與本句語境不同。",
-        "think-mcq-08": "「花時間認真考慮是否採取某項行動」是「think about doing」的用法，與本句語境不同。"
+        "think-mcq-11": "本句的「think」指「表達意見／建議時降低說法的絕對程度」。",
+        "think-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-11"
     },
@@ -1556,11 +1458,9 @@ export default {
       "masked": "I ____ this version is clearer.",
       "options": [
         "think-mcq-11",
+        "think-mcq-14",
         "think-mcq-10",
-        "think-mcq-12",
-        "think-mcq-09",
-        "think-mcq-13",
-        "think-mcq-08"
+        "think-mcq-18"
       ],
       "explanation": "本句的「think」指「表達意見／建議時降低說法的絕對程度」。",
       "sentenceIndex": 26,
@@ -1569,12 +1469,10 @@ export default {
         "think"
       ],
       "optionReasons": {
-        "think-mcq-11": "本句指「表達意見／建議時降低說法的絕對程度」。",
-        "think-mcq-10": "「根據現有資料作出並不完全確定的估計」是「think — suppose/estimate」的用法，與本句語境不同。",
-        "think-mcq-12": "「用 so 代替前面肯定內容，表示自己認為它是真的」是「think so」的用法，與本句語境不同。",
-        "think-mcq-09": "「使用頭腦進行分析、推理、判斷或解決問題」是「think — reason」的用法，與本句語境不同。",
-        "think-mcq-13": "「表示自己認為前述說法不成立／不太可能」是「don't think so」的用法，與本句語境不同。",
-        "think-mcq-08": "「花時間認真考慮是否採取某項行動」是「think about doing」的用法，與本句語境不同。"
+        "think-mcq-11": "本句的「think」指「表達意見／建議時降低說法的絕對程度」。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-11"
     },
@@ -1586,11 +1484,9 @@ export default {
       "masked": "Do you ____ she will come?",
       "options": [
         "think-mcq-31",
-        "think-mcq-30",
-        "think-mcq-32",
-        "think-mcq-29",
-        "think-mcq-33",
-        "think-mcq-28"
+        "think-mcq-18",
+        "think-mcq-15",
+        "think-mcq-23"
       ],
       "explanation": "本句的「think」指「詢問對方的意見、判斷或推測」。",
       "sentenceIndex": 27,
@@ -1599,12 +1495,10 @@ export default {
         "think"
       ],
       "optionReasons": {
-        "think-mcq-31": "本句指「詢問對方的意見、判斷或推測」。",
-        "think-mcq-30": "「持續把注意力或思想放在某個人、事件或問題上」是「7. think about + person/event（想著／思念） — 想著；思考」的用法，與本句語境不同。",
-        "think-mcq-32": "「出現在腦中的可能性、想像或意圖」是「27. thought = intention/possibility in the mind（念頭） — 念頭；想法」的用法，與本句語境不同。",
-        "think-mcq-29": "「沒有經過足夠思考便做出的；輕率的」是「thoughtless — unconsidered」的用法，與本句語境不同。",
-        "think-mcq-33": "「以體貼他人的方式，或以正在深思的神情／方式」是「34. thoughtfully = considerately / reflectively（體貼地／若有所思地）」的用法，與本句語境不同。",
-        "think-mcq-28": "「沒有考慮自己的行為會如何影響別人的」是「thoughtless — inconsiderate」的用法，與本句語境不同。"
+        "think-mcq-31": "本句的「think」指「詢問對方的意見、判斷或推測」。",
+        "think-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-31"
     },
@@ -1616,11 +1510,9 @@ export default {
       "masked": "What do you ____ we should do?",
       "options": [
         "think-mcq-31",
-        "think-mcq-30",
-        "think-mcq-32",
-        "think-mcq-29",
-        "think-mcq-33",
-        "think-mcq-28"
+        "think-reviewed-10ce6a4df5",
+        "think-mcq-10",
+        "think-mcq-23"
       ],
       "explanation": "本句的「think」指「詢問對方的意見、判斷或推測」。",
       "sentenceIndex": 28,
@@ -1629,12 +1521,10 @@ export default {
         "think"
       ],
       "optionReasons": {
-        "think-mcq-31": "本句指「詢問對方的意見、判斷或推測」。",
-        "think-mcq-30": "「持續把注意力或思想放在某個人、事件或問題上」是「7. think about + person/event（想著／思念） — 想著；思考」的用法，與本句語境不同。",
-        "think-mcq-32": "「出現在腦中的可能性、想像或意圖」是「27. thought = intention/possibility in the mind（念頭） — 念頭；想法」的用法，與本句語境不同。",
-        "think-mcq-29": "「沒有經過足夠思考便做出的；輕率的」是「thoughtless — unconsidered」的用法，與本句語境不同。",
-        "think-mcq-33": "「以體貼他人的方式，或以正在深思的神情／方式」是「34. thoughtfully = considerately / reflectively（體貼地／若有所思地）」的用法，與本句語境不同。",
-        "think-mcq-28": "「沒有考慮自己的行為會如何影響別人的」是「thoughtless — inconsiderate」的用法，與本句語境不同。"
+        "think-mcq-31": "本句的「think」指「詢問對方的意見、判斷或推測」。",
+        "think-reviewed-10ce6a4df5": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-31"
     },
@@ -1646,11 +1536,9 @@ export default {
       "masked": "Do you think she is coming?” > “I ____.",
       "options": [
         "think-mcq-12",
-        "think-mcq-11",
-        "think-mcq-13",
-        "think-mcq-10",
+        "think-mcq-07",
         "think-mcq-14",
-        "think-mcq-09"
+        "think-mcq-23"
       ],
       "explanation": "本句的「think so」指「用 so 代替前面肯定內容，表示自己認為它是真的」。",
       "sentenceIndex": 29,
@@ -1659,12 +1547,10 @@ export default {
         "think so"
       ],
       "optionReasons": {
-        "think-mcq-12": "本句指「用 so 代替前面肯定內容，表示自己認為它是真的」。",
-        "think-mcq-11": "「表達意見／建議時降低說法的絕對程度」是「I think — softener」的用法，與本句語境不同。",
-        "think-mcq-13": "「表示自己認為前述說法不成立／不太可能」是「don't think so」的用法，與本句語境不同。",
-        "think-mcq-10": "「根據現有資料作出並不完全確定的估計」是「think — suppose/estimate」的用法，與本句語境不同。",
-        "think-mcq-14": "「對某人／某事物抱有很高評價和尊重」是「think highly of」的用法，與本句語境不同。",
-        "think-mcq-09": "「使用頭腦進行分析、推理、判斷或解決問題」是「think — reason」的用法，與本句語境不同。"
+        "think-mcq-12": "本句的「think so」指「用 so 代替前面肯定內容，表示自己認為它是真的」。",
+        "think-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-12"
     },
@@ -1676,11 +1562,9 @@ export default {
       "masked": "Will it work?” > “I ____.",
       "options": [
         "think-mcq-12",
-        "think-mcq-11",
-        "think-mcq-13",
-        "think-mcq-10",
         "think-mcq-14",
-        "think-mcq-09"
+        "think-mcq-21",
+        "think-mcq-32"
       ],
       "explanation": "本句的「think so」指「用 so 代替前面肯定內容，表示自己認為它是真的」。",
       "sentenceIndex": 30,
@@ -1689,12 +1573,10 @@ export default {
         "think so"
       ],
       "optionReasons": {
-        "think-mcq-12": "本句指「用 so 代替前面肯定內容，表示自己認為它是真的」。",
-        "think-mcq-11": "「表達意見／建議時降低說法的絕對程度」是「I think — softener」的用法，與本句語境不同。",
-        "think-mcq-13": "「表示自己認為前述說法不成立／不太可能」是「don't think so」的用法，與本句語境不同。",
-        "think-mcq-10": "「根據現有資料作出並不完全確定的估計」是「think — suppose/estimate」的用法，與本句語境不同。",
-        "think-mcq-14": "「對某人／某事物抱有很高評價和尊重」是「think highly of」的用法，與本句語境不同。",
-        "think-mcq-09": "「使用頭腦進行分析、推理、判斷或解決問題」是「think — reason」的用法，與本句語境不同。"
+        "think-mcq-12": "本句的「think so」指「用 so 代替前面肯定內容，表示自己認為它是真的」。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-12"
     },
@@ -1706,11 +1588,8 @@ export default {
       "masked": "Is she angry?” > “I ____.",
       "options": [
         "think-mcq-13",
-        "think-mcq-12",
-        "think-mcq-14",
-        "think-mcq-11",
-        "think-mcq-15",
-        "think-mcq-10"
+        "think-mcq-23",
+        "think-mcq-26"
       ],
       "explanation": "本句的「don't think so」指「表示自己認為前述說法不成立／不太可能」。",
       "sentenceIndex": 31,
@@ -1719,12 +1598,9 @@ export default {
         "don't think so"
       ],
       "optionReasons": {
-        "think-mcq-13": "本句指「表示自己認為前述說法不成立／不太可能」。",
-        "think-mcq-12": "「用 so 代替前面肯定內容，表示自己認為它是真的」是「think so」的用法，與本句語境不同。",
-        "think-mcq-14": "「對某人／某事物抱有很高評價和尊重」是「think highly of」的用法，與本句語境不同。",
-        "think-mcq-11": "「表達意見／建議時降低說法的絕對程度」是「I think — softener」的用法，與本句語境不同。",
-        "think-mcq-15": "「在自己的觀念中把某人視為某種身份／角色」是「think of someone as」的用法，與本句語境不同。",
-        "think-mcq-10": "「根據現有資料作出並不完全確定的估計」是「think — suppose/estimate」的用法，與本句語境不同。"
+        "think-mcq-13": "本句的「don't think so」指「表示自己認為前述說法不成立／不太可能」。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-13"
     },
@@ -1736,11 +1612,9 @@ export default {
       "masked": "Will they cancel the event?” > “I ____.",
       "options": [
         "think-mcq-13",
-        "think-mcq-12",
-        "think-mcq-14",
-        "think-mcq-11",
-        "think-mcq-15",
-        "think-mcq-10"
+        "think-mcq-33",
+        "think-mcq-23",
+        "think-mcq-21"
       ],
       "explanation": "本句的「don't think so」指「表示自己認為前述說法不成立／不太可能」。",
       "sentenceIndex": 32,
@@ -1749,12 +1623,10 @@ export default {
         "don't think so"
       ],
       "optionReasons": {
-        "think-mcq-13": "本句指「表示自己認為前述說法不成立／不太可能」。",
-        "think-mcq-12": "「用 so 代替前面肯定內容，表示自己認為它是真的」是「think so」的用法，與本句語境不同。",
-        "think-mcq-14": "「對某人／某事物抱有很高評價和尊重」是「think highly of」的用法，與本句語境不同。",
-        "think-mcq-11": "「表達意見／建議時降低說法的絕對程度」是「I think — softener」的用法，與本句語境不同。",
-        "think-mcq-15": "「在自己的觀念中把某人視為某種身份／角色」是「think of someone as」的用法，與本句語境不同。",
-        "think-mcq-10": "「根據現有資料作出並不完全確定的估計」是「think — suppose/estimate」的用法，與本句語境不同。"
+        "think-mcq-13": "本句的「don't think so」指「表示自己認為前述說法不成立／不太可能」。",
+        "think-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-13"
     },
@@ -1767,10 +1639,8 @@ export default {
       "options": [
         "think-mcq-14",
         "think-mcq-13",
-        "think-mcq-15",
-        "think-mcq-12",
-        "think-mcq-16",
-        "think-mcq-11"
+        "think-mcq-23",
+        "think-mcq-08"
       ],
       "explanation": "本句的「think highly of」指「對某人／某事物抱有很高評價和尊重」。",
       "sentenceIndex": 33,
@@ -1779,12 +1649,10 @@ export default {
         "think highly of"
       ],
       "optionReasons": {
-        "think-mcq-14": "本句指「對某人／某事物抱有很高評價和尊重」。",
-        "think-mcq-13": "「表示自己認為前述說法不成立／不太可能」是「don't think so」的用法，與本句語境不同。",
-        "think-mcq-15": "「在自己的觀念中把某人視為某種身份／角色」是「think of someone as」的用法，與本句語境不同。",
-        "think-mcq-12": "「用 so 代替前面肯定內容，表示自己認為它是真的」是「think so」的用法，與本句語境不同。",
-        "think-mcq-16": "「在行動前再次認真考慮，尤其因為可能有風險／後果」是「think twice」的用法，與本句語境不同。",
-        "think-mcq-11": "「表達意見／建議時降低說法的絕對程度」是「I think — softener」的用法，與本句語境不同。"
+        "think-mcq-14": "本句的「think highly of」指「對某人／某事物抱有很高評價和尊重」。",
+        "think-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-14"
     },
@@ -1796,11 +1664,9 @@ export default {
       "masked": "The manager ____ his work.",
       "options": [
         "think-mcq-14",
-        "think-mcq-13",
-        "think-mcq-15",
-        "think-mcq-12",
-        "think-mcq-16",
-        "think-mcq-11"
+        "think-mcq-25",
+        "think-mcq-10",
+        "think-mcq-18"
       ],
       "explanation": "本句的「thinks very highly of」指「對某人／某事物抱有很高評價和尊重」。",
       "sentenceIndex": 34,
@@ -1809,12 +1675,10 @@ export default {
         "thinks very highly of"
       ],
       "optionReasons": {
-        "think-mcq-14": "本句指「對某人／某事物抱有很高評價和尊重」。",
-        "think-mcq-13": "「表示自己認為前述說法不成立／不太可能」是「don't think so」的用法，與本句語境不同。",
-        "think-mcq-15": "「在自己的觀念中把某人視為某種身份／角色」是「think of someone as」的用法，與本句語境不同。",
-        "think-mcq-12": "「用 so 代替前面肯定內容，表示自己認為它是真的」是「think so」的用法，與本句語境不同。",
-        "think-mcq-16": "「在行動前再次認真考慮，尤其因為可能有風險／後果」是「think twice」的用法，與本句語境不同。",
-        "think-mcq-11": "「表達意見／建議時降低說法的絕對程度」是「I think — softener」的用法，與本句語境不同。"
+        "think-mcq-14": "本句的「thinks very highly of」指「對某人／某事物抱有很高評價和尊重」。",
+        "think-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-14"
     },
@@ -1826,11 +1690,9 @@ export default {
       "masked": "She ____ his behaviour.",
       "options": [
         "think-mcq-14",
-        "think-mcq-13",
-        "think-mcq-15",
-        "think-mcq-12",
-        "think-mcq-16",
-        "think-mcq-11"
+        "think-mcq-22",
+        "think-mcq-08",
+        "think-mcq-32"
       ],
       "explanation": "本句的「thought poorly of」指「對某人／某事物抱有很高評價和尊重」。",
       "sentenceIndex": 35,
@@ -1839,12 +1701,10 @@ export default {
         "thought poorly of"
       ],
       "optionReasons": {
-        "think-mcq-14": "本句指「對某人／某事物抱有很高評價和尊重」。",
-        "think-mcq-13": "「表示自己認為前述說法不成立／不太可能」是「don't think so」的用法，與本句語境不同。",
-        "think-mcq-15": "「在自己的觀念中把某人視為某種身份／角色」是「think of someone as」的用法，與本句語境不同。",
-        "think-mcq-12": "「用 so 代替前面肯定內容，表示自己認為它是真的」是「think so」的用法，與本句語境不同。",
-        "think-mcq-16": "「在行動前再次認真考慮，尤其因為可能有風險／後果」是「think twice」的用法，與本句語境不同。",
-        "think-mcq-11": "「表達意見／建議時降低說法的絕對程度」是「I think — softener」的用法，與本句語境不同。"
+        "think-mcq-14": "本句的「thought poorly of」指「對某人／某事物抱有很高評價和尊重」。",
+        "think-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-14"
     },
@@ -1856,11 +1716,9 @@ export default {
       "masked": "They ____ the proposal.",
       "options": [
         "think-mcq-14",
-        "think-mcq-13",
-        "think-mcq-15",
-        "think-mcq-12",
-        "think-mcq-16",
-        "think-mcq-11"
+        "think-mcq-32",
+        "think-reviewed-10ce6a4df5",
+        "think-mcq-30"
       ],
       "explanation": "本句的「think little of」指「對某人／某事物抱有很高評價和尊重」。",
       "sentenceIndex": 36,
@@ -1869,12 +1727,10 @@ export default {
         "think little of"
       ],
       "optionReasons": {
-        "think-mcq-14": "本句指「對某人／某事物抱有很高評價和尊重」。",
-        "think-mcq-13": "「表示自己認為前述說法不成立／不太可能」是「don't think so」的用法，與本句語境不同。",
-        "think-mcq-15": "「在自己的觀念中把某人視為某種身份／角色」是「think of someone as」的用法，與本句語境不同。",
-        "think-mcq-12": "「用 so 代替前面肯定內容，表示自己認為它是真的」是「think so」的用法，與本句語境不同。",
-        "think-mcq-16": "「在行動前再次認真考慮，尤其因為可能有風險／後果」是「think twice」的用法，與本句語境不同。",
-        "think-mcq-11": "「表達意見／建議時降低說法的絕對程度」是「I think — softener」的用法，與本句語境不同。"
+        "think-mcq-14": "本句的「think little of」指「對某人／某事物抱有很高評價和尊重」。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "think-reviewed-10ce6a4df5": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-14"
     },
@@ -1886,11 +1742,9 @@ export default {
       "masked": "I ____ her as a second mother.",
       "options": [
         "think-mcq-15",
-        "think-mcq-14",
-        "think-mcq-16",
-        "think-mcq-13",
-        "think-mcq-17",
-        "think-mcq-12"
+        "think-mcq-08",
+        "think-mcq-31",
+        "think-mcq-32"
       ],
       "explanation": "本句的「think of」指「在自己的觀念中把某人視為某種身份／角色」。",
       "sentenceIndex": 37,
@@ -1899,12 +1753,10 @@ export default {
         "think of"
       ],
       "optionReasons": {
-        "think-mcq-15": "本句指「在自己的觀念中把某人視為某種身份／角色」。",
-        "think-mcq-14": "「對某人／某事物抱有很高評價和尊重」是「think highly of」的用法，與本句語境不同。",
-        "think-mcq-16": "「在行動前再次認真考慮，尤其因為可能有風險／後果」是「think twice」的用法，與本句語境不同。",
-        "think-mcq-13": "「表示自己認為前述說法不成立／不太可能」是「don't think so」的用法，與本句語境不同。",
-        "think-mcq-17": "「重新考慮原本想法，可能修正原先判斷」是「think again」的用法，與本句語境不同。",
-        "think-mcq-12": "「用 so 代替前面肯定內容，表示自己認為它是真的」是「think so」的用法，與本句語境不同。"
+        "think-mcq-15": "本句的「think of」指「在自己的觀念中把某人視為某種身份／角色」。",
+        "think-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-15"
     },
@@ -1916,11 +1768,9 @@ export default {
       "masked": "People ____ him as a reliable person.",
       "options": [
         "think-mcq-15",
-        "think-mcq-14",
-        "think-mcq-16",
-        "think-mcq-13",
-        "think-mcq-17",
-        "think-mcq-12"
+        "think-mcq-31",
+        "think-mcq-32",
+        "think-mcq-23"
       ],
       "explanation": "本句的「think of」指「在自己的觀念中把某人視為某種身份／角色」。",
       "sentenceIndex": 38,
@@ -1929,12 +1779,10 @@ export default {
         "think of"
       ],
       "optionReasons": {
-        "think-mcq-15": "本句指「在自己的觀念中把某人視為某種身份／角色」。",
-        "think-mcq-14": "「對某人／某事物抱有很高評價和尊重」是「think highly of」的用法，與本句語境不同。",
-        "think-mcq-16": "「在行動前再次認真考慮，尤其因為可能有風險／後果」是「think twice」的用法，與本句語境不同。",
-        "think-mcq-13": "「表示自己認為前述說法不成立／不太可能」是「don't think so」的用法，與本句語境不同。",
-        "think-mcq-17": "「重新考慮原本想法，可能修正原先判斷」是「think again」的用法，與本句語境不同。",
-        "think-mcq-12": "「用 so 代替前面肯定內容，表示自己認為它是真的」是「think so」的用法，與本句語境不同。"
+        "think-mcq-15": "本句的「think of」指「在自己的觀念中把某人視為某種身份／角色」。",
+        "think-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-15"
     },
@@ -1946,11 +1794,9 @@ export default {
       "masked": "You should ____ before making that decision.",
       "options": [
         "think-mcq-16",
+        "think-mcq-31",
         "think-mcq-15",
-        "think-mcq-17",
-        "think-mcq-14",
-        "think-mcq-18",
-        "think-mcq-13"
+        "think-mcq-23"
       ],
       "explanation": "本句的「think twice」指「在行動前再次認真考慮，尤其因為可能有風險／後果」。",
       "sentenceIndex": 39,
@@ -1959,12 +1805,10 @@ export default {
         "think twice"
       ],
       "optionReasons": {
-        "think-mcq-16": "本句指「在行動前再次認真考慮，尤其因為可能有風險／後果」。",
-        "think-mcq-15": "「在自己的觀念中把某人視為某種身份／角色」是「think of someone as」的用法，與本句語境不同。",
-        "think-mcq-17": "「重新考慮原本想法，可能修正原先判斷」是「think again」的用法，與本句語境不同。",
-        "think-mcq-14": "「對某人／某事物抱有很高評價和尊重」是「think highly of」的用法，與本句語境不同。",
-        "think-mcq-18": "「再次考慮後改變或修正原先決定」是「on second thought」的用法，與本句語境不同。",
-        "think-mcq-13": "「表示自己認為前述說法不成立／不太可能」是「don't think so」的用法，與本句語境不同。"
+        "think-mcq-16": "本句的「think twice」指「在行動前再次認真考慮，尤其因為可能有風險／後果」。",
+        "think-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-16"
     },
@@ -1976,11 +1820,9 @@ export default {
       "masked": "The high price made me ____.",
       "options": [
         "think-mcq-16",
-        "think-mcq-15",
-        "think-mcq-17",
-        "think-mcq-14",
-        "think-mcq-18",
-        "think-mcq-13"
+        "think-mcq-30",
+        "think-mcq-23",
+        "think-mcq-10"
       ],
       "explanation": "本句的「think twice」指「在行動前再次認真考慮，尤其因為可能有風險／後果」。",
       "sentenceIndex": 40,
@@ -1989,12 +1831,10 @@ export default {
         "think twice"
       ],
       "optionReasons": {
-        "think-mcq-16": "本句指「在行動前再次認真考慮，尤其因為可能有風險／後果」。",
-        "think-mcq-15": "「在自己的觀念中把某人視為某種身份／角色」是「think of someone as」的用法，與本句語境不同。",
-        "think-mcq-17": "「重新考慮原本想法，可能修正原先判斷」是「think again」的用法，與本句語境不同。",
-        "think-mcq-14": "「對某人／某事物抱有很高評價和尊重」是「think highly of」的用法，與本句語境不同。",
-        "think-mcq-18": "「再次考慮後改變或修正原先決定」是「on second thought」的用法，與本句語境不同。",
-        "think-mcq-13": "「表示自己認為前述說法不成立／不太可能」是「don't think so」的用法，與本句語境不同。"
+        "think-mcq-16": "本句的「think twice」指「在行動前再次認真考慮，尤其因為可能有風險／後果」。",
+        "think-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-16"
     },
@@ -2006,11 +1846,9 @@ export default {
       "masked": "If you think this will be easy, ____.",
       "options": [
         "think-mcq-17",
-        "think-mcq-16",
-        "think-mcq-18",
+        "think-mcq-23",
         "think-mcq-15",
-        "think-mcq-19",
-        "think-mcq-14"
+        "think-mcq-10"
       ],
       "explanation": "本句的「think again」指「重新考慮原本想法，可能修正原先判斷」。",
       "sentenceIndex": 41,
@@ -2019,12 +1857,10 @@ export default {
         "think again"
       ],
       "optionReasons": {
-        "think-mcq-17": "本句指「重新考慮原本想法，可能修正原先判斷」。",
-        "think-mcq-16": "「在行動前再次認真考慮，尤其因為可能有風險／後果」是「think twice」的用法，與本句語境不同。",
-        "think-mcq-18": "「再次考慮後改變或修正原先決定」是「on second thought」的用法，與本句語境不同。",
-        "think-mcq-15": "「在自己的觀念中把某人視為某種身份／角色」是「think of someone as」的用法，與本句語境不同。",
-        "think-mcq-19": "「在腦中形成的想法、觀點或念頭」是「thought — idea」的用法，與本句語境不同。",
-        "think-mcq-14": "「對某人／某事物抱有很高評價和尊重」是「think highly of」的用法，與本句語境不同。"
+        "think-mcq-17": "本句的「think again」指「重新考慮原本想法，可能修正原先判斷」。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-17"
     },
@@ -2036,11 +1872,9 @@ export default {
       "masked": "She ____ and decided not to go.",
       "options": [
         "think-mcq-17",
-        "think-mcq-16",
-        "think-mcq-18",
+        "think-mcq-23",
         "think-mcq-15",
-        "think-mcq-19",
-        "think-mcq-14"
+        "think-mcq-10"
       ],
       "explanation": "本句的「thought again」指「重新考慮原本想法，可能修正原先判斷」。",
       "sentenceIndex": 42,
@@ -2049,12 +1883,10 @@ export default {
         "thought again"
       ],
       "optionReasons": {
-        "think-mcq-17": "本句指「重新考慮原本想法，可能修正原先判斷」。",
-        "think-mcq-16": "「在行動前再次認真考慮，尤其因為可能有風險／後果」是「think twice」的用法，與本句語境不同。",
-        "think-mcq-18": "「再次考慮後改變或修正原先決定」是「on second thought」的用法，與本句語境不同。",
-        "think-mcq-15": "「在自己的觀念中把某人視為某種身份／角色」是「think of someone as」的用法，與本句語境不同。",
-        "think-mcq-19": "「在腦中形成的想法、觀點或念頭」是「thought — idea」的用法，與本句語境不同。",
-        "think-mcq-14": "「對某人／某事物抱有很高評價和尊重」是「think highly of」的用法，與本句語境不同。"
+        "think-mcq-17": "本句的「thought again」指「重新考慮原本想法，可能修正原先判斷」。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-17"
     },
@@ -2066,11 +1898,9 @@ export default {
       "masked": "On ____, I’ll stay home.",
       "options": [
         "think-mcq-18",
-        "think-mcq-17",
-        "think-mcq-19",
-        "think-mcq-16",
-        "think-mcq-20",
-        "think-mcq-15"
+        "think-mcq-23",
+        "think-mcq-03",
+        "think-mcq-32"
       ],
       "explanation": "本句的「second thought」指「再次考慮後改變或修正原先決定」。",
       "sentenceIndex": 43,
@@ -2079,12 +1909,10 @@ export default {
         "second thought"
       ],
       "optionReasons": {
-        "think-mcq-18": "本句指「再次考慮後改變或修正原先決定」。",
-        "think-mcq-17": "「重新考慮原本想法，可能修正原先判斷」是「think again」的用法，與本句語境不同。",
-        "think-mcq-19": "「在腦中形成的想法、觀點或念頭」是「thought — idea」的用法，與本句語境不同。",
-        "think-mcq-16": "「在行動前再次認真考慮，尤其因為可能有風險／後果」是「think twice」的用法，與本句語境不同。",
-        "think-mcq-20": "「思考、分析或考慮某件事情的心理過程」是「thought — process」的用法，與本句語境不同。",
-        "think-mcq-15": "「在自己的觀念中把某人視為某種身份／角色」是「think of someone as」的用法，與本句語境不同。"
+        "think-mcq-18": "本句的「second thought」指「再次考慮後改變或修正原先決定」。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-18"
     },
@@ -2096,11 +1924,9 @@ export default {
       "masked": "I was going to call her later, but on ____, I’ll call now.",
       "options": [
         "think-mcq-18",
-        "think-mcq-17",
-        "think-mcq-19",
-        "think-mcq-16",
-        "think-mcq-20",
-        "think-mcq-15"
+        "think-mcq-01",
+        "think-mcq-22",
+        "think-mcq-23"
       ],
       "explanation": "本句的「second thought」指「再次考慮後改變或修正原先決定」。",
       "sentenceIndex": 44,
@@ -2109,74 +1935,66 @@ export default {
         "second thought"
       ],
       "optionReasons": {
-        "think-mcq-18": "本句指「再次考慮後改變或修正原先決定」。",
-        "think-mcq-17": "「重新考慮原本想法，可能修正原先判斷」是「think again」的用法，與本句語境不同。",
-        "think-mcq-19": "「在腦中形成的想法、觀點或念頭」是「thought — idea」的用法，與本句語境不同。",
-        "think-mcq-16": "「在行動前再次認真考慮，尤其因為可能有風險／後果」是「think twice」的用法，與本句語境不同。",
-        "think-mcq-20": "「思考、分析或考慮某件事情的心理過程」是「thought — process」的用法，與本句語境不同。",
-        "think-mcq-15": "「在自己的觀念中把某人視為某種身份／角色」是「think of someone as」的用法，與本句語境不同。"
+        "think-mcq-18": "本句的「second thought」指「再次考慮後改變或修正原先決定」。",
+        "think-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-18"
     },
     {
       "id": "think-23-0",
-      "sense": "think-mcq-18",
+      "sense": "think-reviewed-10ce6a4df5",
       "en": "Give the idea some thought before deciding.",
       "zh": "作決定前先好好考慮一下這個想法。",
       "masked": "Give the idea some ____ before deciding.",
       "options": [
-        "think-mcq-18",
-        "think-mcq-17",
-        "think-mcq-19",
-        "think-mcq-16",
-        "think-mcq-20",
-        "think-mcq-15"
+        "think-reviewed-10ce6a4df5",
+        "think-mcq-06",
+        "think-mcq-10"
       ],
-      "explanation": "本句的「thought」指「再次考慮後改變或修正原先決定」。",
+      "explanation": "對照完整句子：「作決定前先好好考慮一下這個想法。」。這裡的「thought」表示「花時間認真考慮某件事」。",
       "sentenceIndex": 45,
       "sourcePractice": 46,
       "targets": [
         "thought"
       ],
       "optionReasons": {
-        "think-mcq-18": "本句指「再次考慮後改變或修正原先決定」。",
-        "think-mcq-17": "「重新考慮原本想法，可能修正原先判斷」是「think again」的用法，與本句語境不同。",
-        "think-mcq-19": "「在腦中形成的想法、觀點或念頭」是「thought — idea」的用法，與本句語境不同。",
-        "think-mcq-16": "「在行動前再次認真考慮，尤其因為可能有風險／後果」是「think twice」的用法，與本句語境不同。",
-        "think-mcq-20": "「思考、分析或考慮某件事情的心理過程」是「thought — process」的用法，與本句語境不同。",
-        "think-mcq-15": "「在自己的觀念中把某人視為某種身份／角色」是「think of someone as」的用法，與本句語境不同。"
+        "think-reviewed-10ce6a4df5": "對照完整句子：「作決定前先好好考慮一下這個想法。」。這裡的「thought」表示「花時間認真考慮某件事」。",
+        "think-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "think-mcq-18"
+      "correctOption": "think-reviewed-10ce6a4df5",
+      "previousCorrectOption": "think-mcq-18",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "think-23-1",
-      "sense": "think-mcq-18",
+      "sense": "think-reviewed-10ce6a4df5",
       "en": "I need to give your suggestion more thought.",
       "zh": "我需要再仔細考慮一下你的建議。",
       "masked": "I need to give your suggestion more ____.",
       "options": [
-        "think-mcq-18",
-        "think-mcq-17",
-        "think-mcq-19",
-        "think-mcq-16",
-        "think-mcq-20",
-        "think-mcq-15"
+        "think-reviewed-10ce6a4df5",
+        "think-mcq-15",
+        "think-mcq-05",
+        "think-mcq-10"
       ],
-      "explanation": "本句的「thought」指「再次考慮後改變或修正原先決定」。",
+      "explanation": "對照完整句子：「我需要再仔細考慮一下你的建議。」。這裡的「thought」表示「花時間認真考慮某件事」。",
       "sentenceIndex": 46,
       "sourcePractice": 47,
       "targets": [
         "thought"
       ],
       "optionReasons": {
-        "think-mcq-18": "本句指「再次考慮後改變或修正原先決定」。",
-        "think-mcq-17": "「重新考慮原本想法，可能修正原先判斷」是「think again」的用法，與本句語境不同。",
-        "think-mcq-19": "「在腦中形成的想法、觀點或念頭」是「thought — idea」的用法，與本句語境不同。",
-        "think-mcq-16": "「在行動前再次認真考慮，尤其因為可能有風險／後果」是「think twice」的用法，與本句語境不同。",
-        "think-mcq-20": "「思考、分析或考慮某件事情的心理過程」是「thought — process」的用法，與本句語境不同。",
-        "think-mcq-15": "「在自己的觀念中把某人視為某種身份／角色」是「think of someone as」的用法，與本句語境不同。"
+        "think-reviewed-10ce6a4df5": "對照完整句子：「我需要再仔細考慮一下你的建議。」。這裡的「thought」表示「花時間認真考慮某件事」。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "think-mcq-18"
+      "correctOption": "think-reviewed-10ce6a4df5",
+      "previousCorrectOption": "think-mcq-18",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "think-24-0",
@@ -2186,11 +2004,9 @@ export default {
       "masked": "That was my first ____.",
       "options": [
         "think-mcq-19",
-        "think-mcq-18",
-        "think-mcq-20",
-        "think-mcq-17",
-        "think-mcq-21",
-        "think-mcq-16"
+        "think-mcq-14",
+        "think-mcq-08",
+        "think-mcq-23"
       ],
       "explanation": "本句的「thought」指「在腦中形成的想法、觀點或念頭」。",
       "sentenceIndex": 47,
@@ -2199,12 +2015,10 @@ export default {
         "thought"
       ],
       "optionReasons": {
-        "think-mcq-19": "本句指「在腦中形成的想法、觀點或念頭」。",
-        "think-mcq-18": "「再次考慮後改變或修正原先決定」是「on second thought」的用法，與本句語境不同。",
-        "think-mcq-20": "「思考、分析或考慮某件事情的心理過程」是「thought — process」的用法，與本句語境不同。",
-        "think-mcq-17": "「重新考慮原本想法，可能修正原先判斷」是「think again」的用法，與本句語境不同。",
-        "think-mcq-21": "「為了做得周到而投入的仔細考慮和心思」是「thought — consideration」的用法，與本句語境不同。",
-        "think-mcq-16": "「在行動前再次認真考慮，尤其因為可能有風險／後果」是「think twice」的用法，與本句語境不同。"
+        "think-mcq-19": "本句的「thought」指「在腦中形成的想法、觀點或念頭」。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-19"
     },
@@ -2216,11 +2030,9 @@ export default {
       "masked": "She shared her ____ about the issue.",
       "options": [
         "think-mcq-19",
-        "think-mcq-18",
-        "think-mcq-20",
-        "think-mcq-17",
-        "think-mcq-21",
-        "think-mcq-16"
+        "think-reviewed-10ce6a4df5",
+        "think-mcq-10",
+        "think-mcq-14"
       ],
       "explanation": "本句的「thoughts」指「在腦中形成的想法、觀點或念頭」。",
       "sentenceIndex": 48,
@@ -2229,12 +2041,10 @@ export default {
         "thoughts"
       ],
       "optionReasons": {
-        "think-mcq-19": "本句指「在腦中形成的想法、觀點或念頭」。",
-        "think-mcq-18": "「再次考慮後改變或修正原先決定」是「on second thought」的用法，與本句語境不同。",
-        "think-mcq-20": "「思考、分析或考慮某件事情的心理過程」是「thought — process」的用法，與本句語境不同。",
-        "think-mcq-17": "「重新考慮原本想法，可能修正原先判斷」是「think again」的用法，與本句語境不同。",
-        "think-mcq-21": "「為了做得周到而投入的仔細考慮和心思」是「thought — consideration」的用法，與本句語境不同。",
-        "think-mcq-16": "「在行動前再次認真考慮，尤其因為可能有風險／後果」是「think twice」的用法，與本句語境不同。"
+        "think-mcq-19": "本句的「thoughts」指「在腦中形成的想法、觀點或念頭」。",
+        "think-reviewed-10ce6a4df5": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-19"
     },
@@ -2246,11 +2056,9 @@ export default {
       "masked": "The decision requires careful ____.",
       "options": [
         "think-mcq-20",
-        "think-mcq-19",
-        "think-mcq-21",
-        "think-mcq-18",
-        "think-mcq-22",
-        "think-mcq-17"
+        "think-mcq-15",
+        "think-mcq-10",
+        "think-mcq-32"
       ],
       "explanation": "本句的「thought」指「思考、分析或考慮某件事情的心理過程」。",
       "sentenceIndex": 49,
@@ -2259,12 +2067,10 @@ export default {
         "thought"
       ],
       "optionReasons": {
-        "think-mcq-20": "本句指「思考、分析或考慮某件事情的心理過程」。",
-        "think-mcq-19": "「在腦中形成的想法、觀點或念頭」是「thought — idea」的用法，與本句語境不同。",
-        "think-mcq-21": "「為了做得周到而投入的仔細考慮和心思」是「thought — consideration」的用法，與本句語境不同。",
-        "think-mcq-18": "「再次考慮後改變或修正原先決定」是「on second thought」的用法，與本句語境不同。",
-        "think-mcq-22": "「對某議題共享一套觀點／理論的一種思想流派」是「school of thought」的用法，與本句語境不同。",
-        "think-mcq-17": "「重新考慮原本想法，可能修正原先判斷」是「think again」的用法，與本句語境不同。"
+        "think-mcq-20": "本句的「thought」指「思考、分析或考慮某件事情的心理過程」。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-20"
     },
@@ -2276,11 +2082,9 @@ export default {
       "masked": "After some ____, she agreed.",
       "options": [
         "think-mcq-20",
-        "think-mcq-19",
-        "think-mcq-21",
-        "think-mcq-18",
-        "think-mcq-22",
-        "think-mcq-17"
+        "think-mcq-10",
+        "think-mcq-15",
+        "think-mcq-32"
       ],
       "explanation": "本句的「thought」指「思考、分析或考慮某件事情的心理過程」。",
       "sentenceIndex": 50,
@@ -2289,12 +2093,10 @@ export default {
         "thought"
       ],
       "optionReasons": {
-        "think-mcq-20": "本句指「思考、分析或考慮某件事情的心理過程」。",
-        "think-mcq-19": "「在腦中形成的想法、觀點或念頭」是「thought — idea」的用法，與本句語境不同。",
-        "think-mcq-21": "「為了做得周到而投入的仔細考慮和心思」是「thought — consideration」的用法，與本句語境不同。",
-        "think-mcq-18": "「再次考慮後改變或修正原先決定」是「on second thought」的用法，與本句語境不同。",
-        "think-mcq-22": "「對某議題共享一套觀點／理論的一種思想流派」是「school of thought」的用法，與本句語境不同。",
-        "think-mcq-17": "「重新考慮原本想法，可能修正原先判斷」是「think again」的用法，與本句語境不同。"
+        "think-mcq-20": "本句的「thought」指「思考、分析或考慮某件事情的心理過程」。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-20"
     },
@@ -2306,11 +2108,9 @@ export default {
       "masked": "She puts a lot of ____ into the gifts she chooses.",
       "options": [
         "think-mcq-21",
-        "think-mcq-20",
-        "think-mcq-22",
         "think-mcq-19",
-        "think-mcq-23",
-        "think-mcq-18"
+        "think-mcq-10",
+        "think-mcq-15"
       ],
       "explanation": "本句的「thought」指「為了做得周到而投入的仔細考慮和心思」。",
       "sentenceIndex": 51,
@@ -2319,12 +2119,10 @@ export default {
         "thought"
       ],
       "optionReasons": {
-        "think-mcq-21": "本句指「為了做得周到而投入的仔細考慮和心思」。",
-        "think-mcq-20": "「思考、分析或考慮某件事情的心理過程」是「thought — process」的用法，與本句語境不同。",
-        "think-mcq-22": "「對某議題共享一套觀點／理論的一種思想流派」是「school of thought」的用法，與本句語境不同。",
-        "think-mcq-19": "「在腦中形成的想法、觀點或念頭」是「thought — idea」的用法，與本句語境不同。",
-        "think-mcq-23": "「一連串互相連接並順序發展的思緒」是「train of thought」的用法，與本句語境不同。",
-        "think-mcq-18": "「再次考慮後改變或修正原先決定」是「on second thought」的用法，與本句語境不同。"
+        "think-mcq-21": "本句的「thought」指「為了做得周到而投入的仔細考慮和心思」。",
+        "think-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-21"
     },
@@ -2336,11 +2134,9 @@ export default {
       "masked": "A lot of ____ went into the design.",
       "options": [
         "think-mcq-21",
-        "think-mcq-20",
-        "think-mcq-22",
-        "think-mcq-19",
-        "think-mcq-23",
-        "think-mcq-18"
+        "think-mcq-13",
+        "think-mcq-10",
+        "think-mcq-14"
       ],
       "explanation": "本句的「thought」指「為了做得周到而投入的仔細考慮和心思」。",
       "sentenceIndex": 52,
@@ -2349,12 +2145,10 @@ export default {
         "thought"
       ],
       "optionReasons": {
-        "think-mcq-21": "本句指「為了做得周到而投入的仔細考慮和心思」。",
-        "think-mcq-20": "「思考、分析或考慮某件事情的心理過程」是「thought — process」的用法，與本句語境不同。",
-        "think-mcq-22": "「對某議題共享一套觀點／理論的一種思想流派」是「school of thought」的用法，與本句語境不同。",
-        "think-mcq-19": "「在腦中形成的想法、觀點或念頭」是「thought — idea」的用法，與本句語境不同。",
-        "think-mcq-23": "「一連串互相連接並順序發展的思緒」是「train of thought」的用法，與本句語境不同。",
-        "think-mcq-18": "「再次考慮後改變或修正原先決定」是「on second thought」的用法，與本句語境不同。"
+        "think-mcq-21": "本句的「thought」指「為了做得周到而投入的仔細考慮和心思」。",
+        "think-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-21"
     },
@@ -2366,11 +2160,9 @@ export default {
       "masked": "The ____ of losing her made him sad.",
       "options": [
         "think-mcq-32",
-        "think-mcq-31",
+        "think-mcq-20",
         "think-mcq-33",
-        "think-mcq-30",
-        "think-mcq-29",
-        "think-mcq-28"
+        "think-mcq-23"
       ],
       "explanation": "本句的「thought」指「出現在腦中的可能性、想像或意圖」。",
       "sentenceIndex": 53,
@@ -2379,12 +2171,10 @@ export default {
         "thought"
       ],
       "optionReasons": {
-        "think-mcq-32": "本句指「出現在腦中的可能性、想像或意圖」。",
-        "think-mcq-31": "「詢問對方的意見、判斷或推測」是「14. do you think...?（徵詢意見／推測） — 你覺得……嗎？」的用法，與本句語境不同。",
-        "think-mcq-33": "「以體貼他人的方式，或以正在深思的神情／方式」是「34. thoughtfully = considerately / reflectively（體貼地／若有所思地）」的用法，與本句語境不同。",
-        "think-mcq-30": "「持續把注意力或思想放在某個人、事件或問題上」是「7. think about + person/event（想著／思念） — 想著；思考」的用法，與本句語境不同。",
-        "think-mcq-29": "「沒有經過足夠思考便做出的；輕率的」是「thoughtless — unconsidered」的用法，與本句語境不同。",
-        "think-mcq-28": "「沒有考慮自己的行為會如何影響別人的」是「thoughtless — inconsiderate」的用法，與本句語境不同。"
+        "think-mcq-32": "本句的「thought」指「出現在腦中的可能性、想像或意圖」。",
+        "think-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-32"
     },
@@ -2396,11 +2186,9 @@ export default {
       "masked": "I had no ____ of leaving early.",
       "options": [
         "think-mcq-32",
-        "think-mcq-31",
         "think-mcq-33",
-        "think-mcq-30",
-        "think-mcq-29",
-        "think-mcq-28"
+        "think-mcq-12",
+        "think-mcq-08"
       ],
       "explanation": "本句的「thought」指「出現在腦中的可能性、想像或意圖」。",
       "sentenceIndex": 54,
@@ -2409,12 +2197,10 @@ export default {
         "thought"
       ],
       "optionReasons": {
-        "think-mcq-32": "本句指「出現在腦中的可能性、想像或意圖」。",
-        "think-mcq-31": "「詢問對方的意見、判斷或推測」是「14. do you think...?（徵詢意見／推測） — 你覺得……嗎？」的用法，與本句語境不同。",
-        "think-mcq-33": "「以體貼他人的方式，或以正在深思的神情／方式」是「34. thoughtfully = considerately / reflectively（體貼地／若有所思地）」的用法，與本句語境不同。",
-        "think-mcq-30": "「持續把注意力或思想放在某個人、事件或問題上」是「7. think about + person/event（想著／思念） — 想著；思考」的用法，與本句語境不同。",
-        "think-mcq-29": "「沒有經過足夠思考便做出的；輕率的」是「thoughtless — unconsidered」的用法，與本句語境不同。",
-        "think-mcq-28": "「沒有考慮自己的行為會如何影響別人的」是「thoughtless — inconsiderate」的用法，與本句語境不同。"
+        "think-mcq-32": "本句的「thought」指「出現在腦中的可能性、想像或意圖」。",
+        "think-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-32"
     },
@@ -2426,11 +2212,9 @@ export default {
       "masked": "There are several schools of ____ on the issue.",
       "options": [
         "think-mcq-22",
-        "think-mcq-21",
-        "think-mcq-23",
-        "think-mcq-20",
-        "think-mcq-24",
-        "think-mcq-19"
+        "think-mcq-08",
+        "think-mcq-01",
+        "think-mcq-23"
       ],
       "explanation": "本句的「thought」指「對某議題共享一套觀點／理論的一種思想流派」。",
       "sentenceIndex": 55,
@@ -2439,12 +2223,10 @@ export default {
         "thought"
       ],
       "optionReasons": {
-        "think-mcq-22": "本句指「對某議題共享一套觀點／理論的一種思想流派」。",
-        "think-mcq-21": "「為了做得周到而投入的仔細考慮和心思」是「thought — consideration」的用法，與本句語境不同。",
-        "think-mcq-23": "「一連串互相連接並順序發展的思緒」是「train of thought」的用法，與本句語境不同。",
-        "think-mcq-20": "「思考、分析或考慮某件事情的心理過程」是「thought — process」的用法，與本句語境不同。",
-        "think-mcq-24": "「能引起進一步思考、值得仔細考慮的內容」是「food for thought」的用法，與本句語境不同。",
-        "think-mcq-19": "「在腦中形成的想法、觀點或念頭」是「thought — idea」的用法，與本句語境不同。"
+        "think-mcq-22": "本句的「thought」指「對某議題共享一套觀點／理論的一種思想流派」。",
+        "think-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-22"
     },
@@ -2456,11 +2238,9 @@ export default {
       "masked": "One school of ____ argues that experience matters most.",
       "options": [
         "think-mcq-22",
-        "think-mcq-21",
-        "think-mcq-23",
-        "think-mcq-20",
-        "think-mcq-24",
-        "think-mcq-19"
+        "think-mcq-10",
+        "think-mcq-08",
+        "think-mcq-14"
       ],
       "explanation": "本句的「thought」指「對某議題共享一套觀點／理論的一種思想流派」。",
       "sentenceIndex": 56,
@@ -2469,12 +2249,10 @@ export default {
         "thought"
       ],
       "optionReasons": {
-        "think-mcq-22": "本句指「對某議題共享一套觀點／理論的一種思想流派」。",
-        "think-mcq-21": "「為了做得周到而投入的仔細考慮和心思」是「thought — consideration」的用法，與本句語境不同。",
-        "think-mcq-23": "「一連串互相連接並順序發展的思緒」是「train of thought」的用法，與本句語境不同。",
-        "think-mcq-20": "「思考、分析或考慮某件事情的心理過程」是「thought — process」的用法，與本句語境不同。",
-        "think-mcq-24": "「能引起進一步思考、值得仔細考慮的內容」是「food for thought」的用法，與本句語境不同。",
-        "think-mcq-19": "「在腦中形成的想法、觀點或念頭」是「thought — idea」的用法，與本句語境不同。"
+        "think-mcq-22": "本句的「thought」指「對某議題共享一套觀點／理論的一種思想流派」。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-22"
     },
@@ -2486,11 +2264,9 @@ export default {
       "masked": "The noise interrupted my ____.",
       "options": [
         "think-mcq-23",
-        "think-mcq-22",
-        "think-mcq-24",
-        "think-mcq-21",
-        "think-mcq-25",
-        "think-mcq-20"
+        "think-mcq-15",
+        "think-mcq-31",
+        "think-reviewed-10ce6a4df5"
       ],
       "explanation": "本句的「train of thought」指「一連串互相連接並順序發展的思緒」。",
       "sentenceIndex": 57,
@@ -2499,12 +2275,10 @@ export default {
         "train of thought"
       ],
       "optionReasons": {
-        "think-mcq-23": "本句指「一連串互相連接並順序發展的思緒」。",
-        "think-mcq-22": "「對某議題共享一套觀點／理論的一種思想流派」是「school of thought」的用法，與本句語境不同。",
-        "think-mcq-24": "「能引起進一步思考、值得仔細考慮的內容」是「food for thought」的用法，與本句語境不同。",
-        "think-mcq-21": "「為了做得周到而投入的仔細考慮和心思」是「thought — consideration」的用法，與本句語境不同。",
-        "think-mcq-25": "「經常深入思考或形成理論、觀點的人」是「thinker」的用法，與本句語境不同。",
-        "think-mcq-20": "「思考、分析或考慮某件事情的心理過程」是「thought — process」的用法，與本句語境不同。"
+        "think-mcq-23": "本句的「train of thought」指「一連串互相連接並順序發展的思緒」。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "think-reviewed-10ce6a4df5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-23"
     },
@@ -2516,11 +2290,9 @@ export default {
       "masked": "I lost my ____ halfway through the explanation.",
       "options": [
         "think-mcq-23",
-        "think-mcq-22",
-        "think-mcq-24",
-        "think-mcq-21",
-        "think-mcq-25",
-        "think-mcq-20"
+        "think-mcq-12",
+        "think-mcq-18",
+        "think-mcq-14"
       ],
       "explanation": "本句的「train of thought」指「一連串互相連接並順序發展的思緒」。",
       "sentenceIndex": 58,
@@ -2529,12 +2301,10 @@ export default {
         "train of thought"
       ],
       "optionReasons": {
-        "think-mcq-23": "本句指「一連串互相連接並順序發展的思緒」。",
-        "think-mcq-22": "「對某議題共享一套觀點／理論的一種思想流派」是「school of thought」的用法，與本句語境不同。",
-        "think-mcq-24": "「能引起進一步思考、值得仔細考慮的內容」是「food for thought」的用法，與本句語境不同。",
-        "think-mcq-21": "「為了做得周到而投入的仔細考慮和心思」是「thought — consideration」的用法，與本句語境不同。",
-        "think-mcq-25": "「經常深入思考或形成理論、觀點的人」是「thinker」的用法，與本句語境不同。",
-        "think-mcq-20": "「思考、分析或考慮某件事情的心理過程」是「thought — process」的用法，與本句語境不同。"
+        "think-mcq-23": "本句的「train of thought」指「一連串互相連接並順序發展的思緒」。",
+        "think-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-23"
     },
@@ -2546,11 +2316,9 @@ export default {
       "masked": "Her comment gave me some ____.",
       "options": [
         "think-mcq-24",
-        "think-mcq-23",
-        "think-mcq-25",
-        "think-mcq-22",
-        "think-mcq-26",
-        "think-mcq-21"
+        "think-mcq-14",
+        "think-mcq-32",
+        "think-mcq-23"
       ],
       "explanation": "本句的「food for thought」指「能引起進一步思考、值得仔細考慮的內容」。",
       "sentenceIndex": 59,
@@ -2559,12 +2327,10 @@ export default {
         "food for thought"
       ],
       "optionReasons": {
-        "think-mcq-24": "本句指「能引起進一步思考、值得仔細考慮的內容」。",
-        "think-mcq-23": "「一連串互相連接並順序發展的思緒」是「train of thought」的用法，與本句語境不同。",
-        "think-mcq-25": "「經常深入思考或形成理論、觀點的人」是「thinker」的用法，與本句語境不同。",
-        "think-mcq-22": "「對某議題共享一套觀點／理論的一種思想流派」是「school of thought」的用法，與本句語境不同。",
-        "think-mcq-26": "「會考慮別人的感受、需要和處境並作出體貼行為的」是「thoughtful — considerate」的用法，與本句語境不同。",
-        "think-mcq-21": "「為了做得周到而投入的仔細考慮和心思」是「thought — consideration」的用法，與本句語境不同。"
+        "think-mcq-24": "本句的「food for thought」指「能引起進一步思考、值得仔細考慮的內容」。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-24"
     },
@@ -2576,11 +2342,9 @@ export default {
       "masked": "The documentary provides plenty of ____.",
       "options": [
         "think-mcq-24",
-        "think-mcq-23",
-        "think-mcq-25",
-        "think-mcq-22",
-        "think-mcq-26",
-        "think-mcq-21"
+        "think-mcq-15",
+        "think-mcq-32",
+        "think-mcq-23"
       ],
       "explanation": "本句的「food for thought」指「能引起進一步思考、值得仔細考慮的內容」。",
       "sentenceIndex": 60,
@@ -2589,12 +2353,10 @@ export default {
         "food for thought"
       ],
       "optionReasons": {
-        "think-mcq-24": "本句指「能引起進一步思考、值得仔細考慮的內容」。",
-        "think-mcq-23": "「一連串互相連接並順序發展的思緒」是「train of thought」的用法，與本句語境不同。",
-        "think-mcq-25": "「經常深入思考或形成理論、觀點的人」是「thinker」的用法，與本句語境不同。",
-        "think-mcq-22": "「對某議題共享一套觀點／理論的一種思想流派」是「school of thought」的用法，與本句語境不同。",
-        "think-mcq-26": "「會考慮別人的感受、需要和處境並作出體貼行為的」是「thoughtful — considerate」的用法，與本句語境不同。",
-        "think-mcq-21": "「為了做得周到而投入的仔細考慮和心思」是「thought — consideration」的用法，與本句語境不同。"
+        "think-mcq-24": "本句的「food for thought」指「能引起進一步思考、值得仔細考慮的內容」。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-24"
     },
@@ -2606,11 +2368,9 @@ export default {
       "masked": "She is a very independent ____.",
       "options": [
         "think-mcq-25",
-        "think-mcq-24",
-        "think-mcq-26",
-        "think-mcq-23",
-        "think-mcq-27",
-        "think-mcq-22"
+        "think-mcq-14",
+        "think-mcq-10",
+        "think-mcq-32"
       ],
       "explanation": "本句的「thinker」指「經常深入思考或形成理論、觀點的人」。",
       "sentenceIndex": 61,
@@ -2619,12 +2379,10 @@ export default {
         "thinker"
       ],
       "optionReasons": {
-        "think-mcq-25": "本句指「經常深入思考或形成理論、觀點的人」。",
-        "think-mcq-24": "「能引起進一步思考、值得仔細考慮的內容」是「food for thought」的用法，與本句語境不同。",
-        "think-mcq-26": "「會考慮別人的感受、需要和處境並作出體貼行為的」是「thoughtful — considerate」的用法，與本句語境不同。",
-        "think-mcq-23": "「一連串互相連接並順序發展的思緒」是「train of thought」的用法，與本句語境不同。",
-        "think-mcq-27": "「顯示經過仔細、深入和認真思考的」是「thoughtful — reflective」的用法，與本句語境不同。",
-        "think-mcq-22": "「對某議題共享一套觀點／理論的一種思想流派」是「school of thought」的用法，與本句語境不同。"
+        "think-mcq-25": "本句的「thinker」指「經常深入思考或形成理論、觀點的人」。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-25"
     },
@@ -2636,11 +2394,9 @@ export default {
       "masked": "He was one of the most influential political ____ of his generation.",
       "options": [
         "think-mcq-25",
-        "think-mcq-24",
-        "think-mcq-26",
-        "think-mcq-23",
-        "think-mcq-27",
-        "think-mcq-22"
+        "think-mcq-14",
+        "think-mcq-10",
+        "think-mcq-32"
       ],
       "explanation": "本句的「thinkers」指「經常深入思考或形成理論、觀點的人」。",
       "sentenceIndex": 62,
@@ -2649,12 +2405,10 @@ export default {
         "thinkers"
       ],
       "optionReasons": {
-        "think-mcq-25": "本句指「經常深入思考或形成理論、觀點的人」。",
-        "think-mcq-24": "「能引起進一步思考、值得仔細考慮的內容」是「food for thought」的用法，與本句語境不同。",
-        "think-mcq-26": "「會考慮別人的感受、需要和處境並作出體貼行為的」是「thoughtful — considerate」的用法，與本句語境不同。",
-        "think-mcq-23": "「一連串互相連接並順序發展的思緒」是「train of thought」的用法，與本句語境不同。",
-        "think-mcq-27": "「顯示經過仔細、深入和認真思考的」是「thoughtful — reflective」的用法，與本句語境不同。",
-        "think-mcq-22": "「對某議題共享一套觀點／理論的一種思想流派」是「school of thought」的用法，與本句語境不同。"
+        "think-mcq-25": "本句的「thinkers」指「經常深入思考或形成理論、觀點的人」。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-25"
     },
@@ -2666,10 +2420,7 @@ export default {
       "masked": "It was very ____ of her to prepare fruit for everyone.",
       "options": [
         "think-mcq-26",
-        "think-mcq-25",
-        "think-mcq-27",
-        "think-mcq-24",
-        "think-mcq-28",
+        "think-mcq-05",
         "think-mcq-23"
       ],
       "explanation": "本句的「thoughtful」指「會考慮別人的感受、需要和處境並作出體貼行為的」。",
@@ -2679,12 +2430,9 @@ export default {
         "thoughtful"
       ],
       "optionReasons": {
-        "think-mcq-26": "本句指「會考慮別人的感受、需要和處境並作出體貼行為的」。",
-        "think-mcq-25": "「經常深入思考或形成理論、觀點的人」是「thinker」的用法，與本句語境不同。",
-        "think-mcq-27": "「顯示經過仔細、深入和認真思考的」是「thoughtful — reflective」的用法，與本句語境不同。",
-        "think-mcq-24": "「能引起進一步思考、值得仔細考慮的內容」是「food for thought」的用法，與本句語境不同。",
-        "think-mcq-28": "「沒有考慮自己的行為會如何影響別人的」是「thoughtless — inconsiderate」的用法，與本句語境不同。",
-        "think-mcq-23": "「一連串互相連接並順序發展的思緒」是「train of thought」的用法，與本句語境不同。"
+        "think-mcq-26": "本句的「thoughtful」指「會考慮別人的感受、需要和處境並作出體貼行為的」。",
+        "think-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-26"
     },
@@ -2696,10 +2444,7 @@ export default {
       "masked": "He is a quiet but very ____ person.",
       "options": [
         "think-mcq-26",
-        "think-mcq-25",
-        "think-mcq-27",
-        "think-mcq-24",
-        "think-mcq-28",
+        "think-mcq-19",
         "think-mcq-23"
       ],
       "explanation": "本句的「thoughtful」指「會考慮別人的感受、需要和處境並作出體貼行為的」。",
@@ -2709,12 +2454,9 @@ export default {
         "thoughtful"
       ],
       "optionReasons": {
-        "think-mcq-26": "本句指「會考慮別人的感受、需要和處境並作出體貼行為的」。",
-        "think-mcq-25": "「經常深入思考或形成理論、觀點的人」是「thinker」的用法，與本句語境不同。",
-        "think-mcq-27": "「顯示經過仔細、深入和認真思考的」是「thoughtful — reflective」的用法，與本句語境不同。",
-        "think-mcq-24": "「能引起進一步思考、值得仔細考慮的內容」是「food for thought」的用法，與本句語境不同。",
-        "think-mcq-28": "「沒有考慮自己的行為會如何影響別人的」是「thoughtless — inconsiderate」的用法，與本句語境不同。",
-        "think-mcq-23": "「一連串互相連接並順序發展的思緒」是「train of thought」的用法，與本句語境不同。"
+        "think-mcq-26": "本句的「thoughtful」指「會考慮別人的感受、需要和處境並作出體貼行為的」。",
+        "think-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-26"
     },
@@ -2726,11 +2468,9 @@ export default {
       "masked": "She gave a very ____.",
       "options": [
         "think-mcq-27",
-        "think-mcq-26",
-        "think-mcq-28",
-        "think-mcq-25",
-        "think-mcq-29",
-        "think-mcq-24"
+        "think-mcq-15",
+        "think-mcq-32",
+        "think-mcq-10"
       ],
       "explanation": "本句的「thoughtful answer」指「顯示經過仔細、深入和認真思考的」。",
       "sentenceIndex": 65,
@@ -2739,12 +2479,10 @@ export default {
         "thoughtful answer"
       ],
       "optionReasons": {
-        "think-mcq-27": "本句指「顯示經過仔細、深入和認真思考的」。",
-        "think-mcq-26": "「會考慮別人的感受、需要和處境並作出體貼行為的」是「thoughtful — considerate」的用法，與本句語境不同。",
-        "think-mcq-28": "「沒有考慮自己的行為會如何影響別人的」是「thoughtless — inconsiderate」的用法，與本句語境不同。",
-        "think-mcq-25": "「經常深入思考或形成理論、觀點的人」是「thinker」的用法，與本句語境不同。",
-        "think-mcq-29": "「沒有經過足夠思考便做出的；輕率的」是「thoughtless — unconsidered」的用法，與本句語境不同。",
-        "think-mcq-24": "「能引起進一步思考、值得仔細考慮的內容」是「food for thought」的用法，與本句語境不同。"
+        "think-mcq-27": "本句的「thoughtful answer」指「顯示經過仔細、深入和認真思考的」。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-27"
     },
@@ -2756,11 +2494,9 @@ export default {
       "masked": "The article offers a ____ of the issue.",
       "options": [
         "think-mcq-27",
-        "think-mcq-26",
-        "think-mcq-28",
-        "think-mcq-25",
-        "think-mcq-29",
-        "think-mcq-24"
+        "think-mcq-15",
+        "think-mcq-32",
+        "think-mcq-10"
       ],
       "explanation": "本句的「thoughtful analysis」指「顯示經過仔細、深入和認真思考的」。",
       "sentenceIndex": 66,
@@ -2769,12 +2505,10 @@ export default {
         "thoughtful analysis"
       ],
       "optionReasons": {
-        "think-mcq-27": "本句指「顯示經過仔細、深入和認真思考的」。",
-        "think-mcq-26": "「會考慮別人的感受、需要和處境並作出體貼行為的」是「thoughtful — considerate」的用法，與本句語境不同。",
-        "think-mcq-28": "「沒有考慮自己的行為會如何影響別人的」是「thoughtless — inconsiderate」的用法，與本句語境不同。",
-        "think-mcq-25": "「經常深入思考或形成理論、觀點的人」是「thinker」的用法，與本句語境不同。",
-        "think-mcq-29": "「沒有經過足夠思考便做出的；輕率的」是「thoughtless — unconsidered」的用法，與本句語境不同。",
-        "think-mcq-24": "「能引起進一步思考、值得仔細考慮的內容」是「food for thought」的用法，與本句語境不同。"
+        "think-mcq-27": "本句的「thoughtful analysis」指「顯示經過仔細、深入和認真思考的」。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-27"
     },
@@ -2786,11 +2520,9 @@ export default {
       "masked": "She ____ prepared tea for everyone.",
       "options": [
         "think-mcq-33",
-        "think-mcq-32",
-        "think-mcq-31",
-        "think-mcq-30",
-        "think-mcq-29",
-        "think-mcq-28"
+        "think-mcq-09",
+        "think-reviewed-10ce6a4df5",
+        "think-mcq-10"
       ],
       "explanation": "本句的「thoughtfully」指「以體貼他人的方式，或以正在深思的神情／方式」。",
       "sentenceIndex": 67,
@@ -2799,12 +2531,10 @@ export default {
         "thoughtfully"
       ],
       "optionReasons": {
-        "think-mcq-33": "本句指「以體貼他人的方式，或以正在深思的神情／方式」。",
-        "think-mcq-32": "「出現在腦中的可能性、想像或意圖」是「27. thought = intention/possibility in the mind（念頭） — 念頭；想法」的用法，與本句語境不同。",
-        "think-mcq-31": "「詢問對方的意見、判斷或推測」是「14. do you think...?（徵詢意見／推測） — 你覺得……嗎？」的用法，與本句語境不同。",
-        "think-mcq-30": "「持續把注意力或思想放在某個人、事件或問題上」是「7. think about + person/event（想著／思念） — 想著；思考」的用法，與本句語境不同。",
-        "think-mcq-29": "「沒有經過足夠思考便做出的；輕率的」是「thoughtless — unconsidered」的用法，與本句語境不同。",
-        "think-mcq-28": "「沒有考慮自己的行為會如何影響別人的」是「thoughtless — inconsiderate」的用法，與本句語境不同。"
+        "think-mcq-33": "本句的「thoughtfully」指「以體貼他人的方式，或以正在深思的神情／方式」。",
+        "think-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "think-reviewed-10ce6a4df5": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-33"
     },
@@ -2816,11 +2546,9 @@ export default {
       "masked": "He looked out of the window ____.",
       "options": [
         "think-mcq-33",
-        "think-mcq-32",
-        "think-mcq-31",
-        "think-mcq-30",
-        "think-mcq-29",
-        "think-mcq-28"
+        "think-mcq-11",
+        "think-reviewed-10ce6a4df5",
+        "think-mcq-10"
       ],
       "explanation": "本句的「thoughtfully」指「以體貼他人的方式，或以正在深思的神情／方式」。",
       "sentenceIndex": 68,
@@ -2829,12 +2557,10 @@ export default {
         "thoughtfully"
       ],
       "optionReasons": {
-        "think-mcq-33": "本句指「以體貼他人的方式，或以正在深思的神情／方式」。",
-        "think-mcq-32": "「出現在腦中的可能性、想像或意圖」是「27. thought = intention/possibility in the mind（念頭） — 念頭；想法」的用法，與本句語境不同。",
-        "think-mcq-31": "「詢問對方的意見、判斷或推測」是「14. do you think...?（徵詢意見／推測） — 你覺得……嗎？」的用法，與本句語境不同。",
-        "think-mcq-30": "「持續把注意力或思想放在某個人、事件或問題上」是「7. think about + person/event（想著／思念） — 想著；思考」的用法，與本句語境不同。",
-        "think-mcq-29": "「沒有經過足夠思考便做出的；輕率的」是「thoughtless — unconsidered」的用法，與本句語境不同。",
-        "think-mcq-28": "「沒有考慮自己的行為會如何影響別人的」是「thoughtless — inconsiderate」的用法，與本句語境不同。"
+        "think-mcq-33": "本句的「thoughtfully」指「以體貼他人的方式，或以正在深思的神情／方式」。",
+        "think-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "think-reviewed-10ce6a4df5": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-33"
     },
@@ -2846,11 +2572,9 @@ export default {
       "masked": "That was a ____ comment.",
       "options": [
         "think-mcq-28",
-        "think-mcq-27",
-        "think-mcq-29",
-        "think-mcq-26",
-        "think-mcq-30",
-        "think-mcq-25"
+        "think-mcq-31",
+        "think-mcq-10",
+        "think-mcq-32"
       ],
       "explanation": "本句的「thoughtless」指「沒有考慮自己的行為會如何影響別人的」。",
       "sentenceIndex": 69,
@@ -2859,12 +2583,10 @@ export default {
         "thoughtless"
       ],
       "optionReasons": {
-        "think-mcq-28": "本句指「沒有考慮自己的行為會如何影響別人的」。",
-        "think-mcq-27": "「顯示經過仔細、深入和認真思考的」是「thoughtful — reflective」的用法，與本句語境不同。",
-        "think-mcq-29": "「沒有經過足夠思考便做出的；輕率的」是「thoughtless — unconsidered」的用法，與本句語境不同。",
-        "think-mcq-26": "「會考慮別人的感受、需要和處境並作出體貼行為的」是「thoughtful — considerate」的用法，與本句語境不同。",
-        "think-mcq-30": "「持續把注意力或思想放在某個人、事件或問題上」是「7. think about + person/event（想著／思念） — 想著；思考」的用法，與本句語境不同。",
-        "think-mcq-25": "「經常深入思考或形成理論、觀點的人」是「thinker」的用法，與本句語境不同。"
+        "think-mcq-28": "本句的「thoughtless」指「沒有考慮自己的行為會如何影響別人的」。",
+        "think-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-28"
     },
@@ -2876,11 +2598,9 @@ export default {
       "masked": "It was ____ of him not to call.",
       "options": [
         "think-mcq-28",
-        "think-mcq-27",
-        "think-mcq-29",
-        "think-mcq-26",
-        "think-mcq-30",
-        "think-mcq-25"
+        "think-mcq-23",
+        "think-mcq-22",
+        "think-mcq-32"
       ],
       "explanation": "本句的「thoughtless」指「沒有考慮自己的行為會如何影響別人的」。",
       "sentenceIndex": 70,
@@ -2889,12 +2609,10 @@ export default {
         "thoughtless"
       ],
       "optionReasons": {
-        "think-mcq-28": "本句指「沒有考慮自己的行為會如何影響別人的」。",
-        "think-mcq-27": "「顯示經過仔細、深入和認真思考的」是「thoughtful — reflective」的用法，與本句語境不同。",
-        "think-mcq-29": "「沒有經過足夠思考便做出的；輕率的」是「thoughtless — unconsidered」的用法，與本句語境不同。",
-        "think-mcq-26": "「會考慮別人的感受、需要和處境並作出體貼行為的」是「thoughtful — considerate」的用法，與本句語境不同。",
-        "think-mcq-30": "「持續把注意力或思想放在某個人、事件或問題上」是「7. think about + person/event（想著／思念） — 想著；思考」的用法，與本句語境不同。",
-        "think-mcq-25": "「經常深入思考或形成理論、觀點的人」是「thinker」的用法，與本句語境不同。"
+        "think-mcq-28": "本句的「thoughtless」指「沒有考慮自己的行為會如何影響別人的」。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-28"
     },
@@ -2906,11 +2624,9 @@ export default {
       "masked": "It was a ____ made in a hurry.",
       "options": [
         "think-mcq-29",
-        "think-mcq-28",
-        "think-mcq-30",
-        "think-mcq-27",
-        "think-mcq-31",
-        "think-mcq-26"
+        "think-mcq-15",
+        "think-reviewed-10ce6a4df5",
+        "think-mcq-23"
       ],
       "explanation": "本句的「thoughtless decision」指「沒有經過足夠思考便做出的；輕率的」。",
       "sentenceIndex": 71,
@@ -2919,12 +2635,10 @@ export default {
         "thoughtless decision"
       ],
       "optionReasons": {
-        "think-mcq-29": "本句指「沒有經過足夠思考便做出的；輕率的」。",
-        "think-mcq-28": "「沒有考慮自己的行為會如何影響別人的」是「thoughtless — inconsiderate」的用法，與本句語境不同。",
-        "think-mcq-30": "「持續把注意力或思想放在某個人、事件或問題上」是「7. think about + person/event（想著／思念） — 想著；思考」的用法，與本句語境不同。",
-        "think-mcq-27": "「顯示經過仔細、深入和認真思考的」是「thoughtful — reflective」的用法，與本句語境不同。",
-        "think-mcq-31": "「詢問對方的意見、判斷或推測」是「14. do you think...?（徵詢意見／推測） — 你覺得……嗎？」的用法，與本句語境不同。",
-        "think-mcq-26": "「會考慮別人的感受、需要和處境並作出體貼行為的」是「thoughtful — considerate」的用法，與本句語境不同。"
+        "think-mcq-29": "本句的「thoughtless decision」指「沒有經過足夠思考便做出的；輕率的」。",
+        "think-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "think-reviewed-10ce6a4df5": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-29"
     },
@@ -2936,11 +2650,9 @@ export default {
       "masked": "One ____ caused a serious problem.",
       "options": [
         "think-mcq-29",
-        "think-mcq-28",
-        "think-mcq-30",
-        "think-mcq-27",
-        "think-mcq-31",
-        "think-mcq-26"
+        "think-mcq-14",
+        "think-mcq-32",
+        "think-mcq-08"
       ],
       "explanation": "本句的「thoughtless action」指「沒有經過足夠思考便做出的；輕率的」。",
       "sentenceIndex": 72,
@@ -2949,12 +2661,10 @@ export default {
         "thoughtless action"
       ],
       "optionReasons": {
-        "think-mcq-29": "本句指「沒有經過足夠思考便做出的；輕率的」。",
-        "think-mcq-28": "「沒有考慮自己的行為會如何影響別人的」是「thoughtless — inconsiderate」的用法，與本句語境不同。",
-        "think-mcq-30": "「持續把注意力或思想放在某個人、事件或問題上」是「7. think about + person/event（想著／思念） — 想著；思考」的用法，與本句語境不同。",
-        "think-mcq-27": "「顯示經過仔細、深入和認真思考的」是「thoughtful — reflective」的用法，與本句語境不同。",
-        "think-mcq-31": "「詢問對方的意見、判斷或推測」是「14. do you think...?（徵詢意見／推測） — 你覺得……嗎？」的用法，與本句語境不同。",
-        "think-mcq-26": "「會考慮別人的感受、需要和處境並作出體貼行為的」是「thoughtful — considerate」的用法，與本句語境不同。"
+        "think-mcq-29": "本句的「thoughtless action」指「沒有經過足夠思考便做出的；輕率的」。",
+        "think-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "think-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "think-mcq-29"
     }
@@ -2966,5 +2676,7 @@ export default {
     "sha256": "356d57d1e0642f5986884abf501754b57c4b852fdea3a566d197046e3f55e405",
     "pages": 26
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

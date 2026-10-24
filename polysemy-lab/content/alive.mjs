@@ -191,11 +191,7 @@ export default {
       "masked": "The doctors were surprised that he was still ____.",
       "options": [
         "alive-mcq-01",
-        "alive-mcq-02",
-        "alive-mcq-03",
-        "alive-mcq-04",
-        "alive-mcq-05",
-        "alive-mcq-06"
+        "alive-mcq-05"
       ],
       "explanation": "本句的「alive」指「人、動物、植物等仍然具有生命，沒有死亡」。",
       "sentenceIndex": 0,
@@ -204,12 +200,8 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "alive-mcq-01": "本句指「人、動物、植物等仍然具有生命，沒有死亡」。",
-        "alive-mcq-02": "「傳統、記憶、希望、興趣等仍然存在，沒有消失」是「alive — continuing to exist」的用法，與本句語境不同。",
-        "alive-mcq-03": "「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」是「alive — full of activity」的用法，與本句語境不同。",
-        "alive-mcq-04": "「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」是「alive — vivid/expressive」的用法，與本句語境不同。",
-        "alive-mcq-05": "「清楚察覺某件事的重要性、可能性或危險，並保持注意」是「alive to something」的用法，與本句語境不同。",
-        "alive-mcq-06": "「電線、電路或設備仍然帶電、通電或保持活動狀態」是「alive — electrical/technical」的用法，與本句語境不同。"
+        "alive-mcq-01": "本句的「alive」指「人、動物、植物等仍然具有生命，沒有死亡」。",
+        "alive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-01"
     },
@@ -221,11 +213,7 @@ export default {
       "masked": "Very few plants remained ____ after the extreme cold.",
       "options": [
         "alive-mcq-01",
-        "alive-mcq-02",
-        "alive-mcq-03",
-        "alive-mcq-04",
-        "alive-mcq-05",
-        "alive-mcq-06"
+        "alive-mcq-05"
       ],
       "explanation": "本句的「alive」指「人、動物、植物等仍然具有生命，沒有死亡」。",
       "sentenceIndex": 1,
@@ -234,12 +222,8 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "alive-mcq-01": "本句指「人、動物、植物等仍然具有生命，沒有死亡」。",
-        "alive-mcq-02": "「傳統、記憶、希望、興趣等仍然存在，沒有消失」是「alive — continuing to exist」的用法，與本句語境不同。",
-        "alive-mcq-03": "「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」是「alive — full of activity」的用法，與本句語境不同。",
-        "alive-mcq-04": "「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」是「alive — vivid/expressive」的用法，與本句語境不同。",
-        "alive-mcq-05": "「清楚察覺某件事的重要性、可能性或危險，並保持注意」是「alive to something」的用法，與本句語境不同。",
-        "alive-mcq-06": "「電線、電路或設備仍然帶電、通電或保持活動狀態」是「alive — electrical/technical」的用法，與本句語境不同。"
+        "alive-mcq-01": "本句的「alive」指「人、動物、植物等仍然具有生命，沒有死亡」。",
+        "alive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-01"
     },
@@ -251,11 +235,7 @@ export default {
       "masked": "The festival helps keep the old tradition ____.",
       "options": [
         "alive-mcq-02",
-        "alive-mcq-01",
-        "alive-mcq-03",
-        "alive-mcq-04",
-        "alive-mcq-05",
-        "alive-mcq-06"
+        "alive-mcq-04"
       ],
       "explanation": "本句的「alive」指「傳統、記憶、希望、興趣等仍然存在，沒有消失」。",
       "sentenceIndex": 2,
@@ -264,12 +244,8 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "alive-mcq-02": "本句指「傳統、記憶、希望、興趣等仍然存在，沒有消失」。",
-        "alive-mcq-01": "「人、動物、植物等仍然具有生命，沒有死亡」是「alive — living/not dead」的用法，與本句語境不同。",
-        "alive-mcq-03": "「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」是「alive — full of activity」的用法，與本句語境不同。",
-        "alive-mcq-04": "「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」是「alive — vivid/expressive」的用法，與本句語境不同。",
-        "alive-mcq-05": "「清楚察覺某件事的重要性、可能性或危險，並保持注意」是「alive to something」的用法，與本句語境不同。",
-        "alive-mcq-06": "「電線、電路或設備仍然帶電、通電或保持活動狀態」是「alive — electrical/technical」的用法，與本句語境不同。"
+        "alive-mcq-02": "本句的「alive」指「傳統、記憶、希望、興趣等仍然存在，沒有消失」。",
+        "alive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-02"
     },
@@ -281,11 +257,7 @@ export default {
       "masked": "Her work kept interest in the subject ____.",
       "options": [
         "alive-mcq-02",
-        "alive-mcq-01",
-        "alive-mcq-03",
-        "alive-mcq-04",
-        "alive-mcq-05",
-        "alive-mcq-06"
+        "alive-mcq-04"
       ],
       "explanation": "本句的「alive」指「傳統、記憶、希望、興趣等仍然存在，沒有消失」。",
       "sentenceIndex": 3,
@@ -294,12 +266,8 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "alive-mcq-02": "本句指「傳統、記憶、希望、興趣等仍然存在，沒有消失」。",
-        "alive-mcq-01": "「人、動物、植物等仍然具有生命，沒有死亡」是「alive — living/not dead」的用法，與本句語境不同。",
-        "alive-mcq-03": "「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」是「alive — full of activity」的用法，與本句語境不同。",
-        "alive-mcq-04": "「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」是「alive — vivid/expressive」的用法，與本句語境不同。",
-        "alive-mcq-05": "「清楚察覺某件事的重要性、可能性或危險，並保持注意」是「alive to something」的用法，與本句語境不同。",
-        "alive-mcq-06": "「電線、電路或設備仍然帶電、通電或保持活動狀態」是「alive — electrical/technical」的用法，與本句語境不同。"
+        "alive-mcq-02": "本句的「alive」指「傳統、記憶、希望、興趣等仍然存在，沒有消失」。",
+        "alive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-02"
     },
@@ -311,11 +279,7 @@ export default {
       "masked": "The streets are ____ with music at night.",
       "options": [
         "alive-mcq-03",
-        "alive-mcq-02",
-        "alive-mcq-04",
-        "alive-mcq-01",
-        "alive-mcq-05",
-        "alive-mcq-06"
+        "alive-mcq-05"
       ],
       "explanation": "本句的「alive」指「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」。",
       "sentenceIndex": 4,
@@ -324,12 +288,8 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "alive-mcq-03": "本句指「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」。",
-        "alive-mcq-02": "「傳統、記憶、希望、興趣等仍然存在，沒有消失」是「alive — continuing to exist」的用法，與本句語境不同。",
-        "alive-mcq-04": "「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」是「alive — vivid/expressive」的用法，與本句語境不同。",
-        "alive-mcq-01": "「人、動物、植物等仍然具有生命，沒有死亡」是「alive — living/not dead」的用法，與本句語境不同。",
-        "alive-mcq-05": "「清楚察覺某件事的重要性、可能性或危險，並保持注意」是「alive to something」的用法，與本句語境不同。",
-        "alive-mcq-06": "「電線、電路或設備仍然帶電、通電或保持活動狀態」是「alive — electrical/technical」的用法，與本句語境不同。"
+        "alive-mcq-03": "本句的「alive」指「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」。",
+        "alive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-03"
     },
@@ -341,11 +301,7 @@ export default {
       "masked": "The market was ____ with people and colour.",
       "options": [
         "alive-mcq-03",
-        "alive-mcq-02",
-        "alive-mcq-04",
-        "alive-mcq-01",
-        "alive-mcq-05",
-        "alive-mcq-06"
+        "alive-mcq-05"
       ],
       "explanation": "本句的「alive」指「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」。",
       "sentenceIndex": 5,
@@ -354,12 +310,8 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "alive-mcq-03": "本句指「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」。",
-        "alive-mcq-02": "「傳統、記憶、希望、興趣等仍然存在，沒有消失」是「alive — continuing to exist」的用法，與本句語境不同。",
-        "alive-mcq-04": "「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」是「alive — vivid/expressive」的用法，與本句語境不同。",
-        "alive-mcq-01": "「人、動物、植物等仍然具有生命，沒有死亡」是「alive — living/not dead」的用法，與本句語境不同。",
-        "alive-mcq-05": "「清楚察覺某件事的重要性、可能性或危險，並保持注意」是「alive to something」的用法，與本句語境不同。",
-        "alive-mcq-06": "「電線、電路或設備仍然帶電、通電或保持活動狀態」是「alive — electrical/technical」的用法，與本句語境不同。"
+        "alive-mcq-03": "本句的「alive」指「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」。",
+        "alive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-03"
     },
@@ -371,11 +323,7 @@ export default {
       "masked": "When he speaks, everything comes ____.",
       "options": [
         "alive-mcq-04",
-        "alive-mcq-03",
-        "alive-mcq-05",
-        "alive-mcq-02",
-        "alive-mcq-06",
-        "alive-mcq-01"
+        "alive-mcq-02"
       ],
       "explanation": "本句的「alive」指「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」。",
       "sentenceIndex": 6,
@@ -384,12 +332,8 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "alive-mcq-04": "本句指「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」。",
-        "alive-mcq-03": "「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」是「alive — full of activity」的用法，與本句語境不同。",
-        "alive-mcq-05": "「清楚察覺某件事的重要性、可能性或危險，並保持注意」是「alive to something」的用法，與本句語境不同。",
-        "alive-mcq-02": "「傳統、記憶、希望、興趣等仍然存在，沒有消失」是「alive — continuing to exist」的用法，與本句語境不同。",
-        "alive-mcq-06": "「電線、電路或設備仍然帶電、通電或保持活動狀態」是「alive — electrical/technical」的用法，與本句語境不同。",
-        "alive-mcq-01": "「人、動物、植物等仍然具有生命，沒有死亡」是「alive — living/not dead」的用法，與本句語境不同。"
+        "alive-mcq-04": "本句的「alive」指「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」。",
+        "alive-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-04"
     },
@@ -401,11 +345,7 @@ export default {
       "masked": "The writer makes the characters feel completely ____.",
       "options": [
         "alive-mcq-04",
-        "alive-mcq-03",
-        "alive-mcq-05",
-        "alive-mcq-02",
-        "alive-mcq-06",
-        "alive-mcq-01"
+        "alive-mcq-02"
       ],
       "explanation": "本句的「alive」指「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」。",
       "sentenceIndex": 7,
@@ -414,12 +354,8 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "alive-mcq-04": "本句指「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」。",
-        "alive-mcq-03": "「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」是「alive — full of activity」的用法，與本句語境不同。",
-        "alive-mcq-05": "「清楚察覺某件事的重要性、可能性或危險，並保持注意」是「alive to something」的用法，與本句語境不同。",
-        "alive-mcq-02": "「傳統、記憶、希望、興趣等仍然存在，沒有消失」是「alive — continuing to exist」的用法，與本句語境不同。",
-        "alive-mcq-06": "「電線、電路或設備仍然帶電、通電或保持活動狀態」是「alive — electrical/technical」的用法，與本句語境不同。",
-        "alive-mcq-01": "「人、動物、植物等仍然具有生命，沒有死亡」是「alive — living/not dead」的用法，與本句語境不同。"
+        "alive-mcq-04": "本句的「alive」指「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」。",
+        "alive-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-04"
     },
@@ -431,11 +367,7 @@ export default {
       "masked": "Her description made the old neighbourhood come ____.",
       "options": [
         "alive-mcq-04",
-        "alive-mcq-03",
-        "alive-mcq-05",
-        "alive-mcq-02",
-        "alive-mcq-06",
-        "alive-mcq-01"
+        "alive-mcq-02"
       ],
       "explanation": "本句的「alive」指「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」。",
       "sentenceIndex": 8,
@@ -444,12 +376,8 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "alive-mcq-04": "本句指「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」。",
-        "alive-mcq-03": "「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」是「alive — full of activity」的用法，與本句語境不同。",
-        "alive-mcq-05": "「清楚察覺某件事的重要性、可能性或危險，並保持注意」是「alive to something」的用法，與本句語境不同。",
-        "alive-mcq-02": "「傳統、記憶、希望、興趣等仍然存在，沒有消失」是「alive — continuing to exist」的用法，與本句語境不同。",
-        "alive-mcq-06": "「電線、電路或設備仍然帶電、通電或保持活動狀態」是「alive — electrical/technical」的用法，與本句語境不同。",
-        "alive-mcq-01": "「人、動物、植物等仍然具有生命，沒有死亡」是「alive — living/not dead」的用法，與本句語境不同。"
+        "alive-mcq-04": "本句的「alive」指「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」。",
+        "alive-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-04"
     },
@@ -461,11 +389,7 @@ export default {
       "masked": "We need to be ____ the risks involved.",
       "options": [
         "alive-mcq-05",
-        "alive-mcq-04",
-        "alive-mcq-06",
-        "alive-mcq-03",
-        "alive-mcq-07",
-        "alive-mcq-02"
+        "alive-mcq-04"
       ],
       "explanation": "本句的「alive to」指「清楚察覺某件事的重要性、可能性或危險，並保持注意」。",
       "sentenceIndex": 9,
@@ -474,12 +398,8 @@ export default {
         "alive to"
       ],
       "optionReasons": {
-        "alive-mcq-05": "本句指「清楚察覺某件事的重要性、可能性或危險，並保持注意」。",
-        "alive-mcq-04": "「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」是「alive — vivid/expressive」的用法，與本句語境不同。",
-        "alive-mcq-06": "「電線、電路或設備仍然帶電、通電或保持活動狀態」是「alive — electrical/technical」的用法，與本句語境不同。",
-        "alive-mcq-03": "「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」是「alive — full of activity」的用法，與本句語境不同。",
-        "alive-mcq-07": "「由平淡、靜止或缺乏生氣的狀態變得生動、活躍或有吸引力」是「come alive」的用法，與本句語境不同。",
-        "alive-mcq-02": "「傳統、記憶、希望、興趣等仍然存在，沒有消失」是「alive — continuing to exist」的用法，與本句語境不同。"
+        "alive-mcq-05": "本句的「alive to」指「清楚察覺某件事的重要性、可能性或危險，並保持注意」。",
+        "alive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-05"
     },
@@ -491,11 +411,7 @@ export default {
       "masked": "Good teachers are ____ changes in their students’ behaviour.",
       "options": [
         "alive-mcq-05",
-        "alive-mcq-04",
-        "alive-mcq-06",
-        "alive-mcq-03",
-        "alive-mcq-07",
-        "alive-mcq-02"
+        "alive-mcq-04"
       ],
       "explanation": "本句的「alive to」指「清楚察覺某件事的重要性、可能性或危險，並保持注意」。",
       "sentenceIndex": 10,
@@ -504,12 +420,8 @@ export default {
         "alive to"
       ],
       "optionReasons": {
-        "alive-mcq-05": "本句指「清楚察覺某件事的重要性、可能性或危險，並保持注意」。",
-        "alive-mcq-04": "「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」是「alive — vivid/expressive」的用法，與本句語境不同。",
-        "alive-mcq-06": "「電線、電路或設備仍然帶電、通電或保持活動狀態」是「alive — electrical/technical」的用法，與本句語境不同。",
-        "alive-mcq-03": "「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」是「alive — full of activity」的用法，與本句語境不同。",
-        "alive-mcq-07": "「由平淡、靜止或缺乏生氣的狀態變得生動、活躍或有吸引力」是「come alive」的用法，與本句語境不同。",
-        "alive-mcq-02": "「傳統、記憶、希望、興趣等仍然存在，沒有消失」是「alive — continuing to exist」的用法，與本句語境不同。"
+        "alive-mcq-05": "本句的「alive to」指「清楚察覺某件事的重要性、可能性或危險，並保持注意」。",
+        "alive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-05"
     },
@@ -521,11 +433,7 @@ export default {
       "masked": "Be careful—the wire is still ____.",
       "options": [
         "alive-mcq-06",
-        "alive-mcq-05",
-        "alive-mcq-07",
-        "alive-mcq-04",
-        "alive-mcq-08",
-        "alive-mcq-03"
+        "alive-mcq-04"
       ],
       "explanation": "本句的「alive」指「電線、電路或設備仍然帶電、通電或保持活動狀態」。",
       "sentenceIndex": 11,
@@ -534,12 +442,8 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "alive-mcq-06": "本句指「電線、電路或設備仍然帶電、通電或保持活動狀態」。",
-        "alive-mcq-05": "「清楚察覺某件事的重要性、可能性或危險，並保持注意」是「alive to something」的用法，與本句語境不同。",
-        "alive-mcq-07": "「由平淡、靜止或缺乏生氣的狀態變得生動、活躍或有吸引力」是「come alive」的用法，與本句語境不同。",
-        "alive-mcq-04": "「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」是「alive — vivid/expressive」的用法，與本句語境不同。",
-        "alive-mcq-08": "「令傳統、思想、語言、記憶、希望等繼續存在而不消失」是「keep something alive」的用法，與本句語境不同。",
-        "alive-mcq-03": "「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」是「alive — full of activity」的用法，與本句語境不同。"
+        "alive-mcq-06": "本句的「alive」指「電線、電路或設備仍然帶電、通電或保持活動狀態」。",
+        "alive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-06"
     },
@@ -551,11 +455,7 @@ export default {
       "masked": "The circuit remains ____ even after the main switch is turned off.",
       "options": [
         "alive-mcq-06",
-        "alive-mcq-05",
-        "alive-mcq-07",
-        "alive-mcq-04",
-        "alive-mcq-08",
-        "alive-mcq-03"
+        "alive-mcq-04"
       ],
       "explanation": "本句的「alive」指「電線、電路或設備仍然帶電、通電或保持活動狀態」。",
       "sentenceIndex": 12,
@@ -564,12 +464,8 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "alive-mcq-06": "本句指「電線、電路或設備仍然帶電、通電或保持活動狀態」。",
-        "alive-mcq-05": "「清楚察覺某件事的重要性、可能性或危險，並保持注意」是「alive to something」的用法，與本句語境不同。",
-        "alive-mcq-07": "「由平淡、靜止或缺乏生氣的狀態變得生動、活躍或有吸引力」是「come alive」的用法，與本句語境不同。",
-        "alive-mcq-04": "「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」是「alive — vivid/expressive」的用法，與本句語境不同。",
-        "alive-mcq-08": "「令傳統、思想、語言、記憶、希望等繼續存在而不消失」是「keep something alive」的用法，與本句語境不同。",
-        "alive-mcq-03": "「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」是「alive — full of activity」的用法，與本句語境不同。"
+        "alive-mcq-06": "本句的「alive」指「電線、電路或設備仍然帶電、通電或保持活動狀態」。",
+        "alive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-06"
     },
@@ -581,11 +477,7 @@ export default {
       "masked": "The city really ____ after dark.",
       "options": [
         "alive-mcq-07",
-        "alive-mcq-06",
-        "alive-mcq-08",
-        "alive-mcq-05",
-        "alive-mcq-04",
-        "alive-mcq-03"
+        "alive-mcq-08"
       ],
       "explanation": "本句的「comes alive」指「由平淡、靜止或缺乏生氣的狀態變得生動、活躍或有吸引力」。",
       "sentenceIndex": 13,
@@ -594,12 +486,8 @@ export default {
         "comes alive"
       ],
       "optionReasons": {
-        "alive-mcq-07": "本句指「由平淡、靜止或缺乏生氣的狀態變得生動、活躍或有吸引力」。",
-        "alive-mcq-06": "「電線、電路或設備仍然帶電、通電或保持活動狀態」是「alive — electrical/technical」的用法，與本句語境不同。",
-        "alive-mcq-08": "「令傳統、思想、語言、記憶、希望等繼續存在而不消失」是「keep something alive」的用法，與本句語境不同。",
-        "alive-mcq-05": "「清楚察覺某件事的重要性、可能性或危險，並保持注意」是「alive to something」的用法，與本句語境不同。",
-        "alive-mcq-04": "「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」是「alive — vivid/expressive」的用法，與本句語境不同。",
-        "alive-mcq-03": "「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」是「alive — full of activity」的用法，與本句語境不同。"
+        "alive-mcq-07": "本句的「comes alive」指「由平淡、靜止或缺乏生氣的狀態變得生動、活躍或有吸引力」。",
+        "alive-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-07"
     },
@@ -611,11 +499,7 @@ export default {
       "masked": "The museum helps keep local history ____.",
       "options": [
         "alive-mcq-08",
-        "alive-mcq-07",
-        "alive-mcq-06",
-        "alive-mcq-05",
-        "alive-mcq-04",
-        "alive-mcq-03"
+        "alive-mcq-07"
       ],
       "explanation": "本句的「alive」指「令傳統、思想、語言、記憶、希望等繼續存在而不消失」。",
       "sentenceIndex": 14,
@@ -624,12 +508,8 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "alive-mcq-08": "本句指「令傳統、思想、語言、記憶、希望等繼續存在而不消失」。",
-        "alive-mcq-07": "「由平淡、靜止或缺乏生氣的狀態變得生動、活躍或有吸引力」是「come alive」的用法，與本句語境不同。",
-        "alive-mcq-06": "「電線、電路或設備仍然帶電、通電或保持活動狀態」是「alive — electrical/technical」的用法，與本句語境不同。",
-        "alive-mcq-05": "「清楚察覺某件事的重要性、可能性或危險，並保持注意」是「alive to something」的用法，與本句語境不同。",
-        "alive-mcq-04": "「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」是「alive — vivid/expressive」的用法，與本句語境不同。",
-        "alive-mcq-03": "「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」是「alive — full of activity」的用法，與本句語境不同。"
+        "alive-mcq-08": "本句的「alive」指「令傳統、思想、語言、記憶、希望等繼續存在而不消失」。",
+        "alive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-08"
     },
@@ -641,11 +521,7 @@ export default {
       "masked": "They are trying to keep the language ____.",
       "options": [
         "alive-mcq-08",
-        "alive-mcq-07",
-        "alive-mcq-06",
-        "alive-mcq-05",
-        "alive-mcq-04",
-        "alive-mcq-03"
+        "alive-mcq-07"
       ],
       "explanation": "本句的「alive」指「令傳統、思想、語言、記憶、希望等繼續存在而不消失」。",
       "sentenceIndex": 15,
@@ -654,12 +530,8 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "alive-mcq-08": "本句指「令傳統、思想、語言、記憶、希望等繼續存在而不消失」。",
-        "alive-mcq-07": "「由平淡、靜止或缺乏生氣的狀態變得生動、活躍或有吸引力」是「come alive」的用法，與本句語境不同。",
-        "alive-mcq-06": "「電線、電路或設備仍然帶電、通電或保持活動狀態」是「alive — electrical/technical」的用法，與本句語境不同。",
-        "alive-mcq-05": "「清楚察覺某件事的重要性、可能性或危險，並保持注意」是「alive to something」的用法，與本句語境不同。",
-        "alive-mcq-04": "「故事、人物、描寫或事物呈現得非常生動、鮮明而有生命力」是「alive — vivid/expressive」的用法，與本句語境不同。",
-        "alive-mcq-03": "「地方或環境因充滿人物、聲音、活動或能量而顯得非常有生氣」是「alive — full of activity」的用法，與本句語境不同。"
+        "alive-mcq-08": "本句的「alive」指「令傳統、思想、語言、記憶、希望等繼續存在而不消失」。",
+        "alive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alive-mcq-08"
     }
@@ -671,5 +543,7 @@ export default {
     "sha256": "d6505bd78b9e3aacc31b17e62833c834ef4fd09a5d5c908b68fc40f83a15920d",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

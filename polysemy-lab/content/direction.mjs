@@ -605,7 +605,7 @@ export default {
     },
     {
       "id": "direction-mcq-26",
-      "title": "表示方向；發展方向；道路",
+      "title": "方向；發展方向；道路",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示方向；發展方向；道路",
@@ -627,7 +627,7 @@ export default {
     },
     {
       "id": "direction-mcq-27",
-      "title": "表示方向；方位",
+      "title": "方向；方位",
       "form": "2. direction — the way toward which someone or something moves or faces",
       "en": "2. direction — the way toward which someone or something moves or faces",
       "zh": "表示方向；方位",
@@ -649,7 +649,7 @@ export default {
     },
     {
       "id": "direction-mcq-28",
-      "title": "表示藝術指導；創意方向",
+      "title": "藝術指導；創意方向",
       "form": "23. artistic direction",
       "en": "23. artistic direction",
       "zh": "表示藝術指導；創意方向",
@@ -671,7 +671,7 @@ export default {
     },
     {
       "id": "direction-mcq-29",
-      "title": "表示指導；指揮；管理",
+      "title": "指導；指揮；管理",
       "form": "26. direct — verb: guide or control",
       "en": "26. direct — verb: guide or control",
       "zh": "表示指導；指揮；管理",
@@ -693,7 +693,7 @@ export default {
     },
     {
       "id": "direction-mcq-30",
-      "title": "表示直接的；直達的",
+      "title": "直接的；直達的",
       "form": "28. direct — adjective: straight / without intermediate steps",
       "en": "28. direct — adjective: straight / without intermediate steps",
       "zh": "表示直接的；直達的",
@@ -737,7 +737,7 @@ export default {
     },
     {
       "id": "direction-mcq-32",
-      "title": "表示失去人生／發展方向",
+      "title": "失去人生／發展方向",
       "form": "B. figuratively lose clarity about goals or purpose",
       "en": "B. figuratively lose clarity about goals or purpose",
       "zh": "表示失去人生／發展方向",
@@ -767,11 +767,9 @@ export default {
       "masked": "Her advice pushed me in a better ____.",
       "options": [
         "direction-mcq-26",
-        "direction-mcq-25",
-        "direction-mcq-27",
-        "direction-mcq-24",
-        "direction-mcq-28",
-        "direction-mcq-23"
+        "direction-mcq-10",
+        "direction-mcq-16",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「direction」指「表示方向；發展方向；道路」。",
       "sentenceIndex": 0,
@@ -780,12 +778,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-26": "本句指「表示方向；發展方向；道路」。",
-        "direction-mcq-25": "「把原來的方向、注意力、資料或行動重新導向別處」是「redirect」的用法，與本句語境不同。",
-        "direction-mcq-27": "「表示方向；方位」是「2. direction — the way toward which someone or something moves or faces」的用法，與本句語境不同。",
-        "direction-mcq-24": "「負責主導組織、部門或藝術作品的人；主管／導演」是「director」的用法，與本句語境不同。",
-        "direction-mcq-28": "「表示藝術指導；創意方向」是「23. artistic direction」的用法，與本句語境不同。",
-        "direction-mcq-23": "「不經中間環節、直接到達或接觸的」是「direct — adjective」的用法，與本句語境不同。"
+        "direction-mcq-26": "本句的「direction」指「表示方向；發展方向；道路」。",
+        "direction-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-26"
     },
@@ -797,11 +793,9 @@ export default {
       "masked": "I was still unsure of my future, but at least I was moving in the right ____.",
       "options": [
         "direction-mcq-26",
-        "direction-mcq-25",
-        "direction-mcq-27",
-        "direction-mcq-24",
-        "direction-mcq-28",
-        "direction-mcq-23"
+        "direction-mcq-10",
+        "direction-mcq-16",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「direction」指「表示方向；發展方向；道路」。",
       "sentenceIndex": 1,
@@ -810,12 +804,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-26": "本句指「表示方向；發展方向；道路」。",
-        "direction-mcq-25": "「把原來的方向、注意力、資料或行動重新導向別處」是「redirect」的用法，與本句語境不同。",
-        "direction-mcq-27": "「表示方向；方位」是「2. direction — the way toward which someone or something moves or faces」的用法，與本句語境不同。",
-        "direction-mcq-24": "「負責主導組織、部門或藝術作品的人；主管／導演」是「director」的用法，與本句語境不同。",
-        "direction-mcq-28": "「表示藝術指導；創意方向」是「23. artistic direction」的用法，與本句語境不同。",
-        "direction-mcq-23": "「不經中間環節、直接到達或接觸的」是「direct — adjective」的用法，與本句語境不同。"
+        "direction-mcq-26": "本句的「direction」指「表示方向；發展方向；道路」。",
+        "direction-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-26"
     },
@@ -827,11 +819,9 @@ export default {
       "masked": "Which ____ are we going?",
       "options": [
         "direction-mcq-27",
-        "direction-mcq-26",
-        "direction-mcq-28",
-        "direction-mcq-25",
-        "direction-mcq-29",
-        "direction-mcq-24"
+        "direction-mcq-08",
+        "direction-mcq-14",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「direction」指「表示方向；方位」。",
       "sentenceIndex": 2,
@@ -840,12 +830,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-27": "本句指「表示方向；方位」。",
-        "direction-mcq-26": "「表示方向；發展方向；道路」是「Passage meaning」的用法，與本句語境不同。",
-        "direction-mcq-28": "「表示藝術指導；創意方向」是「23. artistic direction」的用法，與本句語境不同。",
-        "direction-mcq-25": "「把原來的方向、注意力、資料或行動重新導向別處」是「redirect」的用法，與本句語境不同。",
-        "direction-mcq-29": "「表示指導；指揮；管理」是「26. direct — verb: guide or control」的用法，與本句語境不同。",
-        "direction-mcq-24": "「負責主導組織、部門或藝術作品的人；主管／導演」是「director」的用法，與本句語境不同。"
+        "direction-mcq-27": "本句的「direction」指「表示方向；方位」。",
+        "direction-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-27"
     },
@@ -857,11 +845,9 @@ export default {
       "masked": "The wind changed ____.",
       "options": [
         "direction-mcq-27",
-        "direction-mcq-26",
-        "direction-mcq-28",
-        "direction-mcq-25",
-        "direction-mcq-29",
-        "direction-mcq-24"
+        "direction-mcq-13",
+        "direction-mcq-15",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「direction」指「表示方向；方位」。",
       "sentenceIndex": 3,
@@ -870,12 +856,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-27": "本句指「表示方向；方位」。",
-        "direction-mcq-26": "「表示方向；發展方向；道路」是「Passage meaning」的用法，與本句語境不同。",
-        "direction-mcq-28": "「表示藝術指導；創意方向」是「23. artistic direction」的用法，與本句語境不同。",
-        "direction-mcq-25": "「把原來的方向、注意力、資料或行動重新導向別處」是「redirect」的用法，與本句語境不同。",
-        "direction-mcq-29": "「表示指導；指揮；管理」是「26. direct — verb: guide or control」的用法，與本句語境不同。",
-        "direction-mcq-24": "「負責主導組織、部門或藝術作品的人；主管／導演」是「director」的用法，與本句語境不同。"
+        "direction-mcq-27": "本句的「direction」指「表示方向；方位」。",
+        "direction-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-27"
     },
@@ -887,11 +871,9 @@ export default {
       "masked": "She walked ____.",
       "options": [
         "direction-mcq-02",
-        "direction-mcq-01",
-        "direction-mcq-03",
-        "direction-mcq-04",
-        "direction-mcq-05",
-        "direction-mcq-06"
+        "direction-mcq-14",
+        "direction-mcq-08",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「in the direction of the station」指「朝著某個地方、位置或目標的方向」。",
       "sentenceIndex": 4,
@@ -900,12 +882,10 @@ export default {
         "in the direction of the station"
       ],
       "optionReasons": {
-        "direction-mcq-02": "本句指「朝著某個地方、位置或目標的方向」。",
-        "direction-mcq-01": "「某人或某物移動、面向或指向的方位／方向」是「direction — physical orientation」的用法，與本句語境不同。",
-        "direction-mcq-03": "「改變原本移動、面向或發展的方向」是「change direction」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。"
+        "direction-mcq-02": "本句的「in the direction of the station」指「朝著某個地方、位置或目標的方向」。",
+        "direction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-02"
     },
@@ -917,11 +897,9 @@ export default {
       "masked": "The car disappeared ____.",
       "options": [
         "direction-mcq-02",
-        "direction-mcq-01",
-        "direction-mcq-03",
-        "direction-mcq-04",
-        "direction-mcq-05",
-        "direction-mcq-06"
+        "direction-mcq-29",
+        "direction-mcq-30",
+        "direction-mcq-13"
       ],
       "explanation": "本句的「in the direction of the city centre」指「朝著某個地方、位置或目標的方向」。",
       "sentenceIndex": 5,
@@ -930,12 +908,10 @@ export default {
         "in the direction of the city centre"
       ],
       "optionReasons": {
-        "direction-mcq-02": "本句指「朝著某個地方、位置或目標的方向」。",
-        "direction-mcq-01": "「某人或某物移動、面向或指向的方位／方向」是「direction — physical orientation」的用法，與本句語境不同。",
-        "direction-mcq-03": "「改變原本移動、面向或發展的方向」是「change direction」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。"
+        "direction-mcq-02": "本句的「in the direction of the city centre」指「朝著某個地方、位置或目標的方向」。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-02"
     },
@@ -947,11 +923,9 @@ export default {
       "masked": "I heard a noise ____.",
       "options": [
         "direction-mcq-02",
-        "direction-mcq-01",
-        "direction-mcq-03",
-        "direction-mcq-04",
-        "direction-mcq-05",
-        "direction-mcq-06"
+        "direction-mcq-16",
+        "direction-mcq-14",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「from the direction of the kitchen」指「朝著某個地方、位置或目標的方向」。",
       "sentenceIndex": 6,
@@ -960,12 +934,10 @@ export default {
         "from the direction of the kitchen"
       ],
       "optionReasons": {
-        "direction-mcq-02": "本句指「朝著某個地方、位置或目標的方向」。",
-        "direction-mcq-01": "「某人或某物移動、面向或指向的方位／方向」是「direction — physical orientation」的用法，與本句語境不同。",
-        "direction-mcq-03": "「改變原本移動、面向或發展的方向」是「change direction」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。"
+        "direction-mcq-02": "本句的「from the direction of the kitchen」指「朝著某個地方、位置或目標的方向」。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-02"
     },
@@ -977,11 +949,9 @@ export default {
       "masked": "Smoke was coming ____.",
       "options": [
         "direction-mcq-02",
-        "direction-mcq-01",
-        "direction-mcq-03",
-        "direction-mcq-04",
-        "direction-mcq-05",
-        "direction-mcq-06"
+        "direction-mcq-11",
+        "direction-mcq-29",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「from the direction of the hills」指「朝著某個地方、位置或目標的方向」。",
       "sentenceIndex": 7,
@@ -990,12 +960,10 @@ export default {
         "from the direction of the hills"
       ],
       "optionReasons": {
-        "direction-mcq-02": "本句指「朝著某個地方、位置或目標的方向」。",
-        "direction-mcq-01": "「某人或某物移動、面向或指向的方位／方向」是「direction — physical orientation」的用法，與本句語境不同。",
-        "direction-mcq-03": "「改變原本移動、面向或發展的方向」是「change direction」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。"
+        "direction-mcq-02": "本句的「from the direction of the hills」指「朝著某個地方、位置或目標的方向」。",
+        "direction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-02"
     },
@@ -1007,11 +975,9 @@ export default {
       "masked": "The compass shows the correct ____.",
       "options": [
         "direction-mcq-02",
-        "direction-mcq-01",
-        "direction-mcq-03",
-        "direction-mcq-04",
-        "direction-mcq-05",
-        "direction-mcq-06"
+        "direction-mcq-30",
+        "direction-mcq-29",
+        "direction-mcq-11"
       ],
       "explanation": "本句的「direction」指「朝著某個地方、位置或目標的方向」。",
       "sentenceIndex": 8,
@@ -1020,12 +986,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-02": "本句指「朝著某個地方、位置或目標的方向」。",
-        "direction-mcq-01": "「某人或某物移動、面向或指向的方位／方向」是「direction — physical orientation」的用法，與本句語境不同。",
-        "direction-mcq-03": "「改變原本移動、面向或發展的方向」是「change direction」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。"
+        "direction-mcq-02": "本句的「direction」指「朝著某個地方、位置或目標的方向」。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-02"
     },
@@ -1037,11 +1001,9 @@ export default {
       "masked": "We were travelling in a northerly ____.",
       "options": [
         "direction-mcq-02",
-        "direction-mcq-01",
-        "direction-mcq-03",
-        "direction-mcq-04",
-        "direction-mcq-05",
-        "direction-mcq-06"
+        "direction-mcq-24",
+        "direction-mcq-08",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「direction」指「朝著某個地方、位置或目標的方向」。",
       "sentenceIndex": 9,
@@ -1050,12 +1012,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-02": "本句指「朝著某個地方、位置或目標的方向」。",
-        "direction-mcq-01": "「某人或某物移動、面向或指向的方位／方向」是「direction — physical orientation」的用法，與本句語境不同。",
-        "direction-mcq-03": "「改變原本移動、面向或發展的方向」是「change direction」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。"
+        "direction-mcq-02": "本句的「direction」指「朝著某個地方、位置或目標的方向」。",
+        "direction-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-02"
     },
@@ -1067,11 +1027,9 @@ export default {
       "masked": "The cyclist suddenly ____.",
       "options": [
         "direction-mcq-03",
-        "direction-mcq-02",
-        "direction-mcq-04",
-        "direction-mcq-01",
-        "direction-mcq-05",
-        "direction-mcq-06"
+        "direction-mcq-30",
+        "direction-mcq-24",
+        "direction-mcq-20"
       ],
       "explanation": "本句的「changed direction」指「改變原本移動、面向或發展的方向」。",
       "sentenceIndex": 10,
@@ -1080,12 +1038,10 @@ export default {
         "changed direction"
       ],
       "optionReasons": {
-        "direction-mcq-03": "本句指「改變原本移動、面向或發展的方向」。",
-        "direction-mcq-02": "「朝著某個地方、位置或目標的方向」是「in the direction of...」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。",
-        "direction-mcq-01": "「某人或某物移動、面向或指向的方位／方向」是「direction — physical orientation」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。"
+        "direction-mcq-03": "本句的「changed direction」指「改變原本移動、面向或發展的方向」。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-03"
     },
@@ -1097,11 +1053,9 @@ export default {
       "masked": "The storm ____ overnight.",
       "options": [
         "direction-mcq-03",
-        "direction-mcq-02",
-        "direction-mcq-04",
-        "direction-mcq-01",
-        "direction-mcq-05",
-        "direction-mcq-06"
+        "direction-mcq-30",
+        "direction-mcq-29",
+        "direction-mcq-21"
       ],
       "explanation": "本句的「changed direction」指「改變原本移動、面向或發展的方向」。",
       "sentenceIndex": 11,
@@ -1110,12 +1064,10 @@ export default {
         "changed direction"
       ],
       "optionReasons": {
-        "direction-mcq-03": "本句指「改變原本移動、面向或發展的方向」。",
-        "direction-mcq-02": "「朝著某個地方、位置或目標的方向」是「in the direction of...」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。",
-        "direction-mcq-01": "「某人或某物移動、面向或指向的方位／方向」是「direction — physical orientation」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。"
+        "direction-mcq-03": "本句的「changed direction」指「改變原本移動、面向或發展的方向」。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-03"
     },
@@ -1127,11 +1079,9 @@ export default {
       "masked": "The road continues in the same ____.",
       "options": [
         "direction-mcq-04",
-        "direction-mcq-03",
-        "direction-mcq-05",
-        "direction-mcq-02",
-        "direction-mcq-06",
-        "direction-mcq-01"
+        "direction-mcq-29",
+        "direction-mcq-30",
+        "direction-mcq-16"
       ],
       "explanation": "本句的「direction」指「某人或某事物前進的大致路線或走向」。",
       "sentenceIndex": 12,
@@ -1140,12 +1090,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-04": "本句指「某人或某事物前進的大致路線或走向」。",
-        "direction-mcq-03": "「改變原本移動、面向或發展的方向」是「change direction」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-02": "「朝著某個地方、位置或目標的方向」是「in the direction of...」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。",
-        "direction-mcq-01": "「某人或某物移動、面向或指向的方位／方向」是「direction — physical orientation」的用法，與本句語境不同。"
+        "direction-mcq-04": "本句的「direction」指「某人或某事物前進的大致路線或走向」。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-04"
     },
@@ -1157,11 +1105,9 @@ export default {
       "masked": "We seem to be heading in the wrong ____.",
       "options": [
         "direction-mcq-04",
-        "direction-mcq-03",
-        "direction-mcq-05",
-        "direction-mcq-02",
-        "direction-mcq-06",
-        "direction-mcq-01"
+        "direction-mcq-30",
+        "direction-mcq-16",
+        "direction-mcq-29"
       ],
       "explanation": "本句的「direction」指「某人或某事物前進的大致路線或走向」。",
       "sentenceIndex": 13,
@@ -1170,12 +1116,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-04": "本句指「某人或某事物前進的大致路線或走向」。",
-        "direction-mcq-03": "「改變原本移動、面向或發展的方向」是「change direction」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-02": "「朝著某個地方、位置或目標的方向」是「in the direction of...」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。",
-        "direction-mcq-01": "「某人或某物移動、面向或指向的方位／方向」是「direction — physical orientation」的用法，與本句語境不同。"
+        "direction-mcq-04": "本句的「direction」指「某人或某事物前進的大致路線或走向」。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-04"
     },
@@ -1187,11 +1131,9 @@ export default {
       "masked": "The project is moving in a promising ____.",
       "options": [
         "direction-mcq-05",
-        "direction-mcq-04",
-        "direction-mcq-06",
-        "direction-mcq-03",
-        "direction-mcq-07",
-        "direction-mcq-02"
+        "direction-mcq-29",
+        "direction-mcq-30",
+        "direction-mcq-20"
       ],
       "explanation": "本句的「direction」指「某人、專案、組織或情況逐漸發展的方向／走向」。",
       "sentenceIndex": 14,
@@ -1200,12 +1142,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-05": "本句指「某人、專案、組織或情況逐漸發展的方向／走向」。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。",
-        "direction-mcq-03": "「改變原本移動、面向或發展的方向」是「change direction」的用法，與本句語境不同。",
-        "direction-mcq-07": "「朝向不合適、錯誤或不理想結果的發展方向」是「the wrong direction」的用法，與本句語境不同。",
-        "direction-mcq-02": "「朝著某個地方、位置或目標的方向」是「in the direction of...」的用法，與本句語境不同。"
+        "direction-mcq-05": "本句的「direction」指「某人、專案、組織或情況逐漸發展的方向／走向」。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-05"
     },
@@ -1217,11 +1157,9 @@ export default {
       "masked": "Her career began to move in a new ____.",
       "options": [
         "direction-mcq-05",
-        "direction-mcq-04",
-        "direction-mcq-06",
-        "direction-mcq-03",
-        "direction-mcq-07",
-        "direction-mcq-02"
+        "direction-mcq-20",
+        "direction-mcq-15",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「direction」指「某人、專案、組織或情況逐漸發展的方向／走向」。",
       "sentenceIndex": 15,
@@ -1230,12 +1168,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-05": "本句指「某人、專案、組織或情況逐漸發展的方向／走向」。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。",
-        "direction-mcq-03": "「改變原本移動、面向或發展的方向」是「change direction」的用法，與本句語境不同。",
-        "direction-mcq-07": "「朝向不合適、錯誤或不理想結果的發展方向」是「the wrong direction」的用法，與本句語境不同。",
-        "direction-mcq-02": "「朝著某個地方、位置或目標的方向」是「in the direction of...」的用法，與本句語境不同。"
+        "direction-mcq-05": "本句的「direction」指「某人、專案、組織或情況逐漸發展的方向／走向」。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-05"
     },
@@ -1247,11 +1183,9 @@ export default {
       "masked": "This is a step in the ____.",
       "options": [
         "direction-mcq-06",
-        "direction-mcq-05",
-        "direction-mcq-07",
-        "direction-mcq-04",
-        "direction-mcq-08",
-        "direction-mcq-03"
+        "direction-mcq-30",
+        "direction-mcq-16",
+        "direction-mcq-10"
       ],
       "explanation": "本句的「right direction」指「朝向較正確、合適、有益或理想結果的發展方向」。",
       "sentenceIndex": 16,
@@ -1260,12 +1194,10 @@ export default {
         "right direction"
       ],
       "optionReasons": {
-        "direction-mcq-06": "本句指「朝向較正確、合適、有益或理想結果的發展方向」。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-07": "「朝向不合適、錯誤或不理想結果的發展方向」是「the wrong direction」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。",
-        "direction-mcq-08": "「對應該如何前進、發展或行動所提供的引導／指導」是「direction — guidance」的用法，與本句語境不同。",
-        "direction-mcq-03": "「改變原本移動、面向或發展的方向」是「change direction」的用法，與本句語境不同。"
+        "direction-mcq-06": "本句的「right direction」指「朝向較正確、合適、有益或理想結果的發展方向」。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-06"
     },
@@ -1277,11 +1209,9 @@ export default {
       "masked": "The new policy moves things in the ____.",
       "options": [
         "direction-mcq-06",
-        "direction-mcq-05",
-        "direction-mcq-07",
-        "direction-mcq-04",
-        "direction-mcq-08",
-        "direction-mcq-03"
+        "direction-mcq-16",
+        "direction-mcq-10",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「right direction」指「朝向較正確、合適、有益或理想結果的發展方向」。",
       "sentenceIndex": 17,
@@ -1290,12 +1220,10 @@ export default {
         "right direction"
       ],
       "optionReasons": {
-        "direction-mcq-06": "本句指「朝向較正確、合適、有益或理想結果的發展方向」。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-07": "「朝向不合適、錯誤或不理想結果的發展方向」是「the wrong direction」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。",
-        "direction-mcq-08": "「對應該如何前進、發展或行動所提供的引導／指導」是「direction — guidance」的用法，與本句語境不同。",
-        "direction-mcq-03": "「改變原本移動、面向或發展的方向」是「change direction」的用法，與本句語境不同。"
+        "direction-mcq-06": "本句的「right direction」指「朝向較正確、合適、有益或理想結果的發展方向」。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-06"
     },
@@ -1307,11 +1235,9 @@ export default {
       "masked": "The discussion was moving in the ____.",
       "options": [
         "direction-mcq-07",
-        "direction-mcq-06",
-        "direction-mcq-08",
-        "direction-mcq-05",
-        "direction-mcq-09",
-        "direction-mcq-04"
+        "direction-mcq-11",
+        "direction-mcq-30",
+        "direction-mcq-15"
       ],
       "explanation": "本句的「wrong direction」指「朝向不合適、錯誤或不理想結果的發展方向」。",
       "sentenceIndex": 18,
@@ -1320,12 +1246,10 @@ export default {
         "wrong direction"
       ],
       "optionReasons": {
-        "direction-mcq-07": "本句指「朝向不合適、錯誤或不理想結果的發展方向」。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。",
-        "direction-mcq-08": "「對應該如何前進、發展或行動所提供的引導／指導」是「direction — guidance」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-09": "「給予他人整體方向、重點或行動上的指引」是「provide direction」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。"
+        "direction-mcq-07": "本句的「wrong direction」指「朝向不合適、錯誤或不理想結果的發展方向」。",
+        "direction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-07"
     },
@@ -1337,11 +1261,9 @@ export default {
       "masked": "I realized my career was heading in the ____.",
       "options": [
         "direction-mcq-07",
-        "direction-mcq-06",
-        "direction-mcq-08",
-        "direction-mcq-05",
-        "direction-mcq-09",
-        "direction-mcq-04"
+        "direction-mcq-13",
+        "direction-mcq-30",
+        "direction-mcq-15"
       ],
       "explanation": "本句的「wrong direction」指「朝向不合適、錯誤或不理想結果的發展方向」。",
       "sentenceIndex": 19,
@@ -1350,12 +1272,10 @@ export default {
         "wrong direction"
       ],
       "optionReasons": {
-        "direction-mcq-07": "本句指「朝向不合適、錯誤或不理想結果的發展方向」。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。",
-        "direction-mcq-08": "「對應該如何前進、發展或行動所提供的引導／指導」是「direction — guidance」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-09": "「給予他人整體方向、重點或行動上的指引」是「provide direction」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。"
+        "direction-mcq-07": "本句的「wrong direction」指「朝向不合適、錯誤或不理想結果的發展方向」。",
+        "direction-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-07"
     },
@@ -1367,11 +1287,9 @@ export default {
       "masked": "The industry is moving in a more sustainable ____.",
       "options": [
         "direction-mcq-07",
-        "direction-mcq-06",
-        "direction-mcq-08",
-        "direction-mcq-05",
-        "direction-mcq-09",
-        "direction-mcq-04"
+        "direction-mcq-10",
+        "direction-mcq-30",
+        "direction-mcq-16"
       ],
       "explanation": "本句的「direction」指「朝向不合適、錯誤或不理想結果的發展方向」。",
       "sentenceIndex": 20,
@@ -1380,12 +1298,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-07": "本句指「朝向不合適、錯誤或不理想結果的發展方向」。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。",
-        "direction-mcq-08": "「對應該如何前進、發展或行動所提供的引導／指導」是「direction — guidance」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-09": "「給予他人整體方向、重點或行動上的指引」是「provide direction」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。"
+        "direction-mcq-07": "本句的「direction」指「朝向不合適、錯誤或不理想結果的發展方向」。",
+        "direction-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-07"
     },
@@ -1397,11 +1313,9 @@ export default {
       "masked": "The conversation headed in an unexpected ____.",
       "options": [
         "direction-mcq-07",
-        "direction-mcq-06",
-        "direction-mcq-08",
-        "direction-mcq-05",
-        "direction-mcq-09",
-        "direction-mcq-04"
+        "direction-mcq-30",
+        "direction-mcq-11",
+        "direction-mcq-15"
       ],
       "explanation": "本句的「direction」指「朝向不合適、錯誤或不理想結果的發展方向」。",
       "sentenceIndex": 21,
@@ -1410,12 +1324,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-07": "本句指「朝向不合適、錯誤或不理想結果的發展方向」。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。",
-        "direction-mcq-08": "「對應該如何前進、發展或行動所提供的引導／指導」是「direction — guidance」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-09": "「給予他人整體方向、重點或行動上的指引」是「provide direction」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。"
+        "direction-mcq-07": "本句的「direction」指「朝向不合適、錯誤或不理想結果的發展方向」。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-07"
     },
@@ -1427,11 +1339,9 @@ export default {
       "masked": "The team needs clearer ____.",
       "options": [
         "direction-mcq-08",
-        "direction-mcq-07",
-        "direction-mcq-09",
-        "direction-mcq-06",
-        "direction-mcq-10",
-        "direction-mcq-05"
+        "direction-mcq-27",
+        "direction-mcq-30",
+        "direction-mcq-24"
       ],
       "explanation": "本句的「direction」指「對應該如何前進、發展或行動所提供的引導／指導」。",
       "sentenceIndex": 22,
@@ -1440,12 +1350,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-08": "本句指「對應該如何前進、發展或行動所提供的引導／指導」。",
-        "direction-mcq-07": "「朝向不合適、錯誤或不理想結果的發展方向」是「the wrong direction」的用法，與本句語境不同。",
-        "direction-mcq-09": "「給予他人整體方向、重點或行動上的指引」是「provide direction」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。",
-        "direction-mcq-10": "「在某人的指導、領導或監督之下」是「under someone’s direction」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。"
+        "direction-mcq-08": "本句的「direction」指「對應該如何前進、發展或行動所提供的引導／指導」。",
+        "direction-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-08"
     },
@@ -1457,11 +1365,9 @@ export default {
       "masked": "Without strong ____, the project lost focus.",
       "options": [
         "direction-mcq-08",
-        "direction-mcq-07",
-        "direction-mcq-09",
-        "direction-mcq-06",
-        "direction-mcq-10",
-        "direction-mcq-05"
+        "direction-mcq-02",
+        "direction-mcq-30",
+        "direction-mcq-24"
       ],
       "explanation": "本句的「direction」指「對應該如何前進、發展或行動所提供的引導／指導」。",
       "sentenceIndex": 23,
@@ -1470,12 +1376,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-08": "本句指「對應該如何前進、發展或行動所提供的引導／指導」。",
-        "direction-mcq-07": "「朝向不合適、錯誤或不理想結果的發展方向」是「the wrong direction」的用法，與本句語境不同。",
-        "direction-mcq-09": "「給予他人整體方向、重點或行動上的指引」是「provide direction」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。",
-        "direction-mcq-10": "「在某人的指導、領導或監督之下」是「under someone’s direction」的用法，與本句語境不同。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。"
+        "direction-mcq-08": "本句的「direction」指「對應該如何前進、發展或行動所提供的引導／指導」。",
+        "direction-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-08"
     },
@@ -1487,11 +1391,9 @@ export default {
       "masked": "A good mentor can ____ without controlling every decision.",
       "options": [
         "direction-mcq-09",
-        "direction-mcq-08",
-        "direction-mcq-10",
-        "direction-mcq-07",
-        "direction-mcq-11",
-        "direction-mcq-06"
+        "direction-mcq-30",
+        "direction-mcq-29",
+        "direction-mcq-16"
       ],
       "explanation": "本句的「provide direction」指「給予他人整體方向、重點或行動上的指引」。",
       "sentenceIndex": 24,
@@ -1500,12 +1402,10 @@ export default {
         "provide direction"
       ],
       "optionReasons": {
-        "direction-mcq-09": "本句指「給予他人整體方向、重點或行動上的指引」。",
-        "direction-mcq-08": "「對應該如何前進、發展或行動所提供的引導／指導」是「direction — guidance」的用法，與本句語境不同。",
-        "direction-mcq-10": "「在某人的指導、領導或監督之下」是「under someone’s direction」的用法，與本句語境不同。",
-        "direction-mcq-07": "「朝向不合適、錯誤或不理想結果的發展方向」是「the wrong direction」的用法，與本句語境不同。",
-        "direction-mcq-11": "「告訴某人如何前往某地的路線指示」是「directions — route instructions」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。"
+        "direction-mcq-09": "本句的「provide direction」指「給予他人整體方向、重點或行動上的指引」。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-09"
     },
@@ -1517,11 +1417,9 @@ export default {
       "masked": "The manager gave the team clear ____.",
       "options": [
         "direction-mcq-09",
-        "direction-mcq-08",
-        "direction-mcq-10",
-        "direction-mcq-07",
-        "direction-mcq-11",
-        "direction-mcq-06"
+        "direction-mcq-30",
+        "direction-mcq-29",
+        "direction-mcq-16"
       ],
       "explanation": "本句的「direction」指「給予他人整體方向、重點或行動上的指引」。",
       "sentenceIndex": 25,
@@ -1530,12 +1428,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-09": "本句指「給予他人整體方向、重點或行動上的指引」。",
-        "direction-mcq-08": "「對應該如何前進、發展或行動所提供的引導／指導」是「direction — guidance」的用法，與本句語境不同。",
-        "direction-mcq-10": "「在某人的指導、領導或監督之下」是「under someone’s direction」的用法，與本句語境不同。",
-        "direction-mcq-07": "「朝向不合適、錯誤或不理想結果的發展方向」是「the wrong direction」的用法，與本句語境不同。",
-        "direction-mcq-11": "「告訴某人如何前往某地的路線指示」是「directions — route instructions」的用法，與本句語境不同。",
-        "direction-mcq-06": "「朝向較正確、合適、有益或理想結果的發展方向」是「the right direction」的用法，與本句語境不同。"
+        "direction-mcq-09": "本句的「direction」指「給予他人整體方向、重點或行動上的指引」。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-09"
     },
@@ -1547,11 +1443,9 @@ export default {
       "masked": "The project was completed ____.",
       "options": [
         "direction-mcq-10",
-        "direction-mcq-09",
-        "direction-mcq-11",
-        "direction-mcq-08",
-        "direction-mcq-12",
-        "direction-mcq-07"
+        "direction-mcq-31",
+        "direction-mcq-20",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「under her direction」指「在某人的指導、領導或監督之下」。",
       "sentenceIndex": 26,
@@ -1560,12 +1454,10 @@ export default {
         "under her direction"
       ],
       "optionReasons": {
-        "direction-mcq-10": "本句指「在某人的指導、領導或監督之下」。",
-        "direction-mcq-09": "「給予他人整體方向、重點或行動上的指引」是「provide direction」的用法，與本句語境不同。",
-        "direction-mcq-11": "「告訴某人如何前往某地的路線指示」是「directions — route instructions」的用法，與本句語境不同。",
-        "direction-mcq-08": "「對應該如何前進、發展或行動所提供的引導／指導」是「direction — guidance」的用法，與本句語境不同。",
-        "direction-mcq-12": "「向別人詢問如何到達某地；問路」是「ask for directions」的用法，與本句語境不同。",
-        "direction-mcq-07": "「朝向不合適、錯誤或不理想結果的發展方向」是「the wrong direction」的用法，與本句語境不同。"
+        "direction-mcq-10": "本句的「under her direction」指「在某人的指導、領導或監督之下」。",
+        "direction-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-10"
     },
@@ -1577,11 +1469,9 @@ export default {
       "masked": "The orchestra performed ____ a guest conductor.",
       "options": [
         "direction-mcq-10",
-        "direction-mcq-09",
-        "direction-mcq-11",
-        "direction-mcq-08",
-        "direction-mcq-12",
-        "direction-mcq-07"
+        "direction-mcq-07",
+        "direction-mcq-30",
+        "direction-mcq-16"
       ],
       "explanation": "本句的「under the direction of」指「在某人的指導、領導或監督之下」。",
       "sentenceIndex": 27,
@@ -1590,12 +1480,10 @@ export default {
         "under the direction of"
       ],
       "optionReasons": {
-        "direction-mcq-10": "本句指「在某人的指導、領導或監督之下」。",
-        "direction-mcq-09": "「給予他人整體方向、重點或行動上的指引」是「provide direction」的用法，與本句語境不同。",
-        "direction-mcq-11": "「告訴某人如何前往某地的路線指示」是「directions — route instructions」的用法，與本句語境不同。",
-        "direction-mcq-08": "「對應該如何前進、發展或行動所提供的引導／指導」是「direction — guidance」的用法，與本句語境不同。",
-        "direction-mcq-12": "「向別人詢問如何到達某地；問路」是「ask for directions」的用法，與本句語境不同。",
-        "direction-mcq-07": "「朝向不合適、錯誤或不理想結果的發展方向」是「the wrong direction」的用法，與本句語境不同。"
+        "direction-mcq-10": "本句的「under the direction of」指「在某人的指導、領導或監督之下」。",
+        "direction-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-10"
     },
@@ -1607,11 +1495,9 @@ export default {
       "masked": "Can you give me ____?",
       "options": [
         "direction-mcq-11",
-        "direction-mcq-10",
-        "direction-mcq-12",
-        "direction-mcq-09",
-        "direction-mcq-13",
-        "direction-mcq-08"
+        "direction-mcq-27",
+        "direction-mcq-14",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「directions to the station」指「告訴某人如何前往某地的路線指示」。",
       "sentenceIndex": 28,
@@ -1620,12 +1506,10 @@ export default {
         "directions to the station"
       ],
       "optionReasons": {
-        "direction-mcq-11": "本句指「告訴某人如何前往某地的路線指示」。",
-        "direction-mcq-10": "「在某人的指導、領導或監督之下」是「under someone’s direction」的用法，與本句語境不同。",
-        "direction-mcq-12": "「向別人詢問如何到達某地；問路」是「ask for directions」的用法，與本句語境不同。",
-        "direction-mcq-09": "「給予他人整體方向、重點或行動上的指引」是「provide direction」的用法，與本句語境不同。",
-        "direction-mcq-13": "「告訴某人如何操作或完成某事的一連串說明」是「directions — instructions」的用法，與本句語境不同。",
-        "direction-mcq-08": "「對應該如何前進、發展或行動所提供的引導／指導」是「direction — guidance」的用法，與本句語境不同。"
+        "direction-mcq-11": "本句的「directions to the station」指「告訴某人如何前往某地的路線指示」。",
+        "direction-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-11"
     },
@@ -1637,11 +1521,9 @@ export default {
       "masked": "I followed her ____ and found the hotel easily.",
       "options": [
         "direction-mcq-11",
-        "direction-mcq-10",
-        "direction-mcq-12",
-        "direction-mcq-09",
-        "direction-mcq-13",
-        "direction-mcq-08"
+        "direction-mcq-20",
+        "direction-mcq-02",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「directions」指「告訴某人如何前往某地的路線指示」。",
       "sentenceIndex": 29,
@@ -1650,12 +1532,10 @@ export default {
         "directions"
       ],
       "optionReasons": {
-        "direction-mcq-11": "本句指「告訴某人如何前往某地的路線指示」。",
-        "direction-mcq-10": "「在某人的指導、領導或監督之下」是「under someone’s direction」的用法，與本句語境不同。",
-        "direction-mcq-12": "「向別人詢問如何到達某地；問路」是「ask for directions」的用法，與本句語境不同。",
-        "direction-mcq-09": "「給予他人整體方向、重點或行動上的指引」是「provide direction」的用法，與本句語境不同。",
-        "direction-mcq-13": "「告訴某人如何操作或完成某事的一連串說明」是「directions — instructions」的用法，與本句語境不同。",
-        "direction-mcq-08": "「對應該如何前進、發展或行動所提供的引導／指導」是「direction — guidance」的用法，與本句語境不同。"
+        "direction-mcq-11": "本句的「directions」指「告訴某人如何前往某地的路線指示」。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-11"
     },
@@ -1667,11 +1547,8 @@ export default {
       "masked": "We stopped to ____.",
       "options": [
         "direction-mcq-12",
-        "direction-mcq-11",
-        "direction-mcq-13",
-        "direction-mcq-10",
         "direction-mcq-14",
-        "direction-mcq-09"
+        "direction-mcq-07"
       ],
       "explanation": "本句的「ask for directions」指「向別人詢問如何到達某地；問路」。",
       "sentenceIndex": 30,
@@ -1680,12 +1557,9 @@ export default {
         "ask for directions"
       ],
       "optionReasons": {
-        "direction-mcq-12": "本句指「向別人詢問如何到達某地；問路」。",
-        "direction-mcq-11": "「告訴某人如何前往某地的路線指示」是「directions — route instructions」的用法，與本句語境不同。",
-        "direction-mcq-13": "「告訴某人如何操作或完成某事的一連串說明」是「directions — instructions」的用法，與本句語境不同。",
-        "direction-mcq-10": "「在某人的指導、領導或監督之下」是「under someone’s direction」的用法，與本句語境不同。",
-        "direction-mcq-14": "「對工作、專案或活動進行管理、監督或主導」是「direction — management/control」的用法，與本句語境不同。",
-        "direction-mcq-09": "「給予他人整體方向、重點或行動上的指引」是「provide direction」的用法，與本句語境不同。"
+        "direction-mcq-12": "本句的「ask for directions」指「向別人詢問如何到達某地；問路」。",
+        "direction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-12"
     },
@@ -1697,11 +1571,9 @@ export default {
       "masked": "He was too shy to ____.",
       "options": [
         "direction-mcq-12",
-        "direction-mcq-11",
-        "direction-mcq-13",
-        "direction-mcq-10",
         "direction-mcq-14",
-        "direction-mcq-09"
+        "direction-mcq-19",
+        "direction-mcq-20"
       ],
       "explanation": "本句的「ask for directions」指「向別人詢問如何到達某地；問路」。",
       "sentenceIndex": 31,
@@ -1710,12 +1582,10 @@ export default {
         "ask for directions"
       ],
       "optionReasons": {
-        "direction-mcq-12": "本句指「向別人詢問如何到達某地；問路」。",
-        "direction-mcq-11": "「告訴某人如何前往某地的路線指示」是「directions — route instructions」的用法，與本句語境不同。",
-        "direction-mcq-13": "「告訴某人如何操作或完成某事的一連串說明」是「directions — instructions」的用法，與本句語境不同。",
-        "direction-mcq-10": "「在某人的指導、領導或監督之下」是「under someone’s direction」的用法，與本句語境不同。",
-        "direction-mcq-14": "「對工作、專案或活動進行管理、監督或主導」是「direction — management/control」的用法，與本句語境不同。",
-        "direction-mcq-09": "「給予他人整體方向、重點或行動上的指引」是「provide direction」的用法，與本句語境不同。"
+        "direction-mcq-12": "本句的「ask for directions」指「向別人詢問如何到達某地；問路」。",
+        "direction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-12"
     },
@@ -1727,11 +1597,9 @@ export default {
       "masked": "A local resident ____.",
       "options": [
         "direction-mcq-13",
-        "direction-mcq-12",
-        "direction-mcq-14",
-        "direction-mcq-11",
+        "direction-mcq-03",
         "direction-mcq-15",
-        "direction-mcq-10"
+        "direction-mcq-30"
       ],
       "explanation": "本句的「gave us directions」指「告訴某人如何操作或完成某事的一連串說明」。",
       "sentenceIndex": 32,
@@ -1740,12 +1608,10 @@ export default {
         "gave us directions"
       ],
       "optionReasons": {
-        "direction-mcq-13": "本句指「告訴某人如何操作或完成某事的一連串說明」。",
-        "direction-mcq-12": "「向別人詢問如何到達某地；問路」是「ask for directions」的用法，與本句語境不同。",
-        "direction-mcq-14": "「對工作、專案或活動進行管理、監督或主導」是「direction — management/control」的用法，與本句語境不同。",
-        "direction-mcq-11": "「告訴某人如何前往某地的路線指示」是「directions — route instructions」的用法，與本句語境不同。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。",
-        "direction-mcq-10": "「在某人的指導、領導或監督之下」是「under someone’s direction」的用法，與本句語境不同。"
+        "direction-mcq-13": "本句的「gave us directions」指「告訴某人如何操作或完成某事的一連串說明」。",
+        "direction-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-13"
     },
@@ -1757,11 +1623,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "direction-mcq-13",
-        "direction-mcq-12",
+        "direction-mcq-28",
         "direction-mcq-14",
-        "direction-mcq-11",
-        "direction-mcq-15",
-        "direction-mcq-10"
+        "direction-mcq-30"
       ],
       "explanation": "本句的「give me directions to the museum」指「告訴某人如何操作或完成某事的一連串說明」。",
       "sentenceIndex": 33,
@@ -1770,12 +1634,10 @@ export default {
         "give me directions to the museum"
       ],
       "optionReasons": {
-        "direction-mcq-13": "本句指「告訴某人如何操作或完成某事的一連串說明」。",
-        "direction-mcq-12": "「向別人詢問如何到達某地；問路」是「ask for directions」的用法，與本句語境不同。",
-        "direction-mcq-14": "「對工作、專案或活動進行管理、監督或主導」是「direction — management/control」的用法，與本句語境不同。",
-        "direction-mcq-11": "「告訴某人如何前往某地的路線指示」是「directions — route instructions」的用法，與本句語境不同。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。",
-        "direction-mcq-10": "「在某人的指導、領導或監督之下」是「under someone’s direction」的用法，與本句語境不同。"
+        "direction-mcq-13": "本句的「give me directions to the museum」指「告訴某人如何操作或完成某事的一連串說明」。",
+        "direction-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-13"
     },
@@ -1787,11 +1649,9 @@ export default {
       "masked": "Read the ____ carefully before using the product.",
       "options": [
         "direction-mcq-13",
-        "direction-mcq-12",
-        "direction-mcq-14",
-        "direction-mcq-11",
-        "direction-mcq-15",
-        "direction-mcq-10"
+        "direction-mcq-25",
+        "direction-mcq-29",
+        "direction-mcq-17"
       ],
       "explanation": "本句的「directions」指「告訴某人如何操作或完成某事的一連串說明」。",
       "sentenceIndex": 34,
@@ -1800,12 +1660,10 @@ export default {
         "directions"
       ],
       "optionReasons": {
-        "direction-mcq-13": "本句指「告訴某人如何操作或完成某事的一連串說明」。",
-        "direction-mcq-12": "「向別人詢問如何到達某地；問路」是「ask for directions」的用法，與本句語境不同。",
-        "direction-mcq-14": "「對工作、專案或活動進行管理、監督或主導」是「direction — management/control」的用法，與本句語境不同。",
-        "direction-mcq-11": "「告訴某人如何前往某地的路線指示」是「directions — route instructions」的用法，與本句語境不同。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。",
-        "direction-mcq-10": "「在某人的指導、領導或監督之下」是「under someone’s direction」的用法，與本句語境不同。"
+        "direction-mcq-13": "本句的「directions」指「告訴某人如何操作或完成某事的一連串說明」。",
+        "direction-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-13"
     },
@@ -1817,11 +1675,9 @@ export default {
       "masked": "Follow the ____.",
       "options": [
         "direction-mcq-13",
-        "direction-mcq-12",
-        "direction-mcq-14",
-        "direction-mcq-11",
+        "direction-mcq-18",
         "direction-mcq-15",
-        "direction-mcq-10"
+        "direction-mcq-30"
       ],
       "explanation": "本句的「directions on the package」指「告訴某人如何操作或完成某事的一連串說明」。",
       "sentenceIndex": 35,
@@ -1830,12 +1686,10 @@ export default {
         "directions on the package"
       ],
       "optionReasons": {
-        "direction-mcq-13": "本句指「告訴某人如何操作或完成某事的一連串說明」。",
-        "direction-mcq-12": "「向別人詢問如何到達某地；問路」是「ask for directions」的用法，與本句語境不同。",
-        "direction-mcq-14": "「對工作、專案或活動進行管理、監督或主導」是「direction — management/control」的用法，與本句語境不同。",
-        "direction-mcq-11": "「告訴某人如何前往某地的路線指示」是「directions — route instructions」的用法，與本句語境不同。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。",
-        "direction-mcq-10": "「在某人的指導、領導或監督之下」是「under someone’s direction」的用法，與本句語境不同。"
+        "direction-mcq-13": "本句的「directions on the package」指「告訴某人如何操作或完成某事的一連串說明」。",
+        "direction-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-13"
     },
@@ -1847,11 +1701,9 @@ export default {
       "masked": "Please ____ carefully.",
       "options": [
         "direction-mcq-13",
-        "direction-mcq-12",
+        "direction-mcq-31",
         "direction-mcq-14",
-        "direction-mcq-11",
-        "direction-mcq-15",
-        "direction-mcq-10"
+        "direction-mcq-30"
       ],
       "explanation": "本句的「follow the directions」指「告訴某人如何操作或完成某事的一連串說明」。",
       "sentenceIndex": 36,
@@ -1860,12 +1712,10 @@ export default {
         "follow the directions"
       ],
       "optionReasons": {
-        "direction-mcq-13": "本句指「告訴某人如何操作或完成某事的一連串說明」。",
-        "direction-mcq-12": "「向別人詢問如何到達某地；問路」是「ask for directions」的用法，與本句語境不同。",
-        "direction-mcq-14": "「對工作、專案或活動進行管理、監督或主導」是「direction — management/control」的用法，與本句語境不同。",
-        "direction-mcq-11": "「告訴某人如何前往某地的路線指示」是「directions — route instructions」的用法，與本句語境不同。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。",
-        "direction-mcq-10": "「在某人的指導、領導或監督之下」是「under someone’s direction」的用法，與本句語境不同。"
+        "direction-mcq-13": "本句的「follow the directions」指「告訴某人如何操作或完成某事的一連串說明」。",
+        "direction-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-13"
     },
@@ -1877,11 +1727,9 @@ export default {
       "masked": "The experiment works if you ____.",
       "options": [
         "direction-mcq-13",
-        "direction-mcq-12",
-        "direction-mcq-14",
-        "direction-mcq-11",
-        "direction-mcq-15",
-        "direction-mcq-10"
+        "direction-mcq-18",
+        "direction-mcq-29",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「follow the directions」指「告訴某人如何操作或完成某事的一連串說明」。",
       "sentenceIndex": 37,
@@ -1890,12 +1738,10 @@ export default {
         "follow the directions"
       ],
       "optionReasons": {
-        "direction-mcq-13": "本句指「告訴某人如何操作或完成某事的一連串說明」。",
-        "direction-mcq-12": "「向別人詢問如何到達某地；問路」是「ask for directions」的用法，與本句語境不同。",
-        "direction-mcq-14": "「對工作、專案或活動進行管理、監督或主導」是「direction — management/control」的用法，與本句語境不同。",
-        "direction-mcq-11": "「告訴某人如何前往某地的路線指示」是「directions — route instructions」的用法，與本句語境不同。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。",
-        "direction-mcq-10": "「在某人的指導、領導或監督之下」是「under someone’s direction」的用法，與本句語境不同。"
+        "direction-mcq-13": "本句的「follow the directions」指「告訴某人如何操作或完成某事的一連串說明」。",
+        "direction-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-13"
     },
@@ -1907,11 +1753,9 @@ export default {
       "masked": "The work was carried out under professional ____.",
       "options": [
         "direction-mcq-14",
-        "direction-mcq-13",
-        "direction-mcq-15",
         "direction-mcq-12",
-        "direction-mcq-16",
-        "direction-mcq-11"
+        "direction-mcq-02",
+        "direction-mcq-17"
       ],
       "explanation": "本句的「direction」指「對工作、專案或活動進行管理、監督或主導」。",
       "sentenceIndex": 38,
@@ -1920,12 +1764,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-14": "本句指「對工作、專案或活動進行管理、監督或主導」。",
-        "direction-mcq-13": "「告訴某人如何操作或完成某事的一連串說明」是「directions — instructions」的用法，與本句語境不同。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。",
-        "direction-mcq-12": "「向別人詢問如何到達某地；問路」是「ask for directions」的用法，與本句語境不同。",
-        "direction-mcq-16": "「劇本中告訴演員如何動作、說話或表演的舞台指示」是「stage direction」的用法，與本句語境不同。",
-        "direction-mcq-11": "「告訴某人如何前往某地的路線指示」是「directions — route instructions」的用法，與本句語境不同。"
+        "direction-mcq-14": "本句的「direction」指「對工作、專案或活動進行管理、監督或主導」。",
+        "direction-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-14"
     },
@@ -1937,11 +1779,9 @@ export default {
       "masked": "She took over the ____.",
       "options": [
         "direction-mcq-14",
-        "direction-mcq-13",
-        "direction-mcq-15",
-        "direction-mcq-12",
-        "direction-mcq-16",
-        "direction-mcq-11"
+        "direction-mcq-30",
+        "direction-mcq-21",
+        "direction-mcq-26"
       ],
       "explanation": "本句的「direction of the project」指「對工作、專案或活動進行管理、監督或主導」。",
       "sentenceIndex": 39,
@@ -1950,12 +1790,10 @@ export default {
         "direction of the project"
       ],
       "optionReasons": {
-        "direction-mcq-14": "本句指「對工作、專案或活動進行管理、監督或主導」。",
-        "direction-mcq-13": "「告訴某人如何操作或完成某事的一連串說明」是「directions — instructions」的用法，與本句語境不同。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。",
-        "direction-mcq-12": "「向別人詢問如何到達某地；問路」是「ask for directions」的用法，與本句語境不同。",
-        "direction-mcq-16": "「劇本中告訴演員如何動作、說話或表演的舞台指示」是「stage direction」的用法，與本句語境不同。",
-        "direction-mcq-11": "「告訴某人如何前往某地的路線指示」是「directions — route instructions」的用法，與本句語境不同。"
+        "direction-mcq-14": "本句的「direction of the project」指「對工作、專案或活動進行管理、監督或主導」。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-14"
     },
@@ -1967,11 +1805,9 @@ export default {
       "masked": "The film won an award for best ____.",
       "options": [
         "direction-mcq-15",
-        "direction-mcq-14",
-        "direction-mcq-16",
-        "direction-mcq-13",
-        "direction-mcq-17",
-        "direction-mcq-12"
+        "direction-mcq-31",
+        "direction-mcq-30",
+        "direction-mcq-13"
       ],
       "explanation": "本句的「direction」指「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」。",
       "sentenceIndex": 40,
@@ -1980,12 +1816,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-15": "本句指「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」。",
-        "direction-mcq-14": "「對工作、專案或活動進行管理、監督或主導」是「direction — management/control」的用法，與本句語境不同。",
-        "direction-mcq-16": "「劇本中告訴演員如何動作、說話或表演的舞台指示」是「stage direction」的用法，與本句語境不同。",
-        "direction-mcq-13": "「告訴某人如何操作或完成某事的一連串說明」是「directions — instructions」的用法，與本句語境不同。",
-        "direction-mcq-17": "「某件事正在改變或發展的整體走向／趨勢」是「direction — trend/course」的用法，與本句語境不同。",
-        "direction-mcq-12": "「向別人詢問如何到達某地；問路」是「ask for directions」的用法，與本句語境不同。"
+        "direction-mcq-15": "本句的「direction」指「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」。",
+        "direction-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-15"
     },
@@ -1997,11 +1831,9 @@ export default {
       "masked": "The play benefited from strong ____.",
       "options": [
         "direction-mcq-15",
-        "direction-mcq-14",
-        "direction-mcq-16",
-        "direction-mcq-13",
-        "direction-mcq-17",
-        "direction-mcq-12"
+        "direction-mcq-06",
+        "direction-mcq-30",
+        "direction-mcq-13"
       ],
       "explanation": "本句的「direction」指「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」。",
       "sentenceIndex": 41,
@@ -2010,12 +1842,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-15": "本句指「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」。",
-        "direction-mcq-14": "「對工作、專案或活動進行管理、監督或主導」是「direction — management/control」的用法，與本句語境不同。",
-        "direction-mcq-16": "「劇本中告訴演員如何動作、說話或表演的舞台指示」是「stage direction」的用法，與本句語境不同。",
-        "direction-mcq-13": "「告訴某人如何操作或完成某事的一連串說明」是「directions — instructions」的用法，與本句語境不同。",
-        "direction-mcq-17": "「某件事正在改變或發展的整體走向／趨勢」是「direction — trend/course」的用法，與本句語境不同。",
-        "direction-mcq-12": "「向別人詢問如何到達某地；問路」是「ask for directions」的用法，與本句語境不同。"
+        "direction-mcq-15": "本句的「direction」指「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」。",
+        "direction-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-15"
     },
@@ -2027,11 +1857,9 @@ export default {
       "masked": "The actor ignored the ____.",
       "options": [
         "direction-mcq-16",
-        "direction-mcq-15",
-        "direction-mcq-17",
-        "direction-mcq-14",
-        "direction-mcq-18",
-        "direction-mcq-13"
+        "direction-mcq-04",
+        "direction-mcq-07",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「stage direction」指「劇本中告訴演員如何動作、說話或表演的舞台指示」。",
       "sentenceIndex": 42,
@@ -2040,12 +1868,10 @@ export default {
         "stage direction"
       ],
       "optionReasons": {
-        "direction-mcq-16": "本句指「劇本中告訴演員如何動作、說話或表演的舞台指示」。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。",
-        "direction-mcq-17": "「某件事正在改變或發展的整體走向／趨勢」是「direction — trend/course」的用法，與本句語境不同。",
-        "direction-mcq-14": "「對工作、專案或活動進行管理、監督或主導」是「direction — management/control」的用法，與本句語境不同。",
-        "direction-mcq-18": "「研究、討論或思考所採取的主要焦點與發展方向」是「direction of research/discussion」的用法，與本句語境不同。",
-        "direction-mcq-13": "「告訴某人如何操作或完成某事的一連串說明」是「directions — instructions」的用法，與本句語境不同。"
+        "direction-mcq-16": "本句的「stage direction」指「劇本中告訴演員如何動作、說話或表演的舞台指示」。",
+        "direction-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-16"
     },
@@ -2057,11 +1883,9 @@ export default {
       "masked": "The script includes detailed ____.",
       "options": [
         "direction-mcq-16",
-        "direction-mcq-15",
-        "direction-mcq-17",
-        "direction-mcq-14",
-        "direction-mcq-18",
-        "direction-mcq-13"
+        "direction-mcq-07",
+        "direction-mcq-04",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「stage directions」指「劇本中告訴演員如何動作、說話或表演的舞台指示」。",
       "sentenceIndex": 43,
@@ -2070,12 +1894,10 @@ export default {
         "stage directions"
       ],
       "optionReasons": {
-        "direction-mcq-16": "本句指「劇本中告訴演員如何動作、說話或表演的舞台指示」。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。",
-        "direction-mcq-17": "「某件事正在改變或發展的整體走向／趨勢」是「direction — trend/course」的用法，與本句語境不同。",
-        "direction-mcq-14": "「對工作、專案或活動進行管理、監督或主導」是「direction — management/control」的用法，與本句語境不同。",
-        "direction-mcq-18": "「研究、討論或思考所採取的主要焦點與發展方向」是「direction of research/discussion」的用法，與本句語境不同。",
-        "direction-mcq-13": "「告訴某人如何操作或完成某事的一連串說明」是「directions — instructions」的用法，與本句語境不同。"
+        "direction-mcq-16": "本句的「stage directions」指「劇本中告訴演員如何動作、說話或表演的舞台指示」。",
+        "direction-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-16"
     },
@@ -2087,11 +1909,9 @@ export default {
       "masked": "She was responsible for the project’s ____.",
       "options": [
         "direction-mcq-28",
-        "direction-mcq-27",
-        "direction-mcq-29",
-        "direction-mcq-26",
         "direction-mcq-30",
-        "direction-mcq-25"
+        "direction-mcq-20",
+        "direction-mcq-13"
       ],
       "explanation": "本句的「artistic direction」指「表示藝術指導；創意方向」。",
       "sentenceIndex": 44,
@@ -2100,12 +1920,10 @@ export default {
         "artistic direction"
       ],
       "optionReasons": {
-        "direction-mcq-28": "本句指「表示藝術指導；創意方向」。",
-        "direction-mcq-27": "「表示方向；方位」是「2. direction — the way toward which someone or something moves or faces」的用法，與本句語境不同。",
-        "direction-mcq-29": "「表示指導；指揮；管理」是「26. direct — verb: guide or control」的用法，與本句語境不同。",
-        "direction-mcq-26": "「表示方向；發展方向；道路」是「Passage meaning」的用法，與本句語境不同。",
-        "direction-mcq-30": "「表示直接的；直達的」是「28. direct — adjective: straight / without intermediate steps」的用法，與本句語境不同。",
-        "direction-mcq-25": "「把原來的方向、注意力、資料或行動重新導向別處」是「redirect」的用法，與本句語境不同。"
+        "direction-mcq-28": "本句的「artistic direction」指「表示藝術指導；創意方向」。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-28"
     },
@@ -2117,11 +1935,9 @@ export default {
       "masked": "The campaign has a clear visual ____.",
       "options": [
         "direction-mcq-28",
-        "direction-mcq-27",
-        "direction-mcq-29",
-        "direction-mcq-26",
+        "direction-mcq-13",
         "direction-mcq-30",
-        "direction-mcq-25"
+        "direction-mcq-20"
       ],
       "explanation": "本句的「direction」指「表示藝術指導；創意方向」。",
       "sentenceIndex": 45,
@@ -2130,12 +1946,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direction-mcq-28": "本句指「表示藝術指導；創意方向」。",
-        "direction-mcq-27": "「表示方向；方位」是「2. direction — the way toward which someone or something moves or faces」的用法，與本句語境不同。",
-        "direction-mcq-29": "「表示指導；指揮；管理」是「26. direct — verb: guide or control」的用法，與本句語境不同。",
-        "direction-mcq-26": "「表示方向；發展方向；道路」是「Passage meaning」的用法，與本句語境不同。",
-        "direction-mcq-30": "「表示直接的；直達的」是「28. direct — adjective: straight / without intermediate steps」的用法，與本句語境不同。",
-        "direction-mcq-25": "「把原來的方向、注意力、資料或行動重新導向別處」是「redirect」的用法，與本句語境不同。"
+        "direction-mcq-28": "本句的「direction」指「表示藝術指導；創意方向」。",
+        "direction-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-28"
     },
@@ -2148,10 +1962,8 @@ export default {
       "options": [
         "direction-mcq-17",
         "direction-mcq-16",
-        "direction-mcq-18",
-        "direction-mcq-15",
-        "direction-mcq-19",
-        "direction-mcq-14"
+        "direction-mcq-14",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「direction of the market」指「某件事正在改變或發展的整體走向／趨勢」。",
       "sentenceIndex": 46,
@@ -2160,12 +1972,10 @@ export default {
         "direction of the market"
       ],
       "optionReasons": {
-        "direction-mcq-17": "本句指「某件事正在改變或發展的整體走向／趨勢」。",
-        "direction-mcq-16": "「劇本中告訴演員如何動作、說話或表演的舞台指示」是「stage direction」的用法，與本句語境不同。",
-        "direction-mcq-18": "「研究、討論或思考所採取的主要焦點與發展方向」是「direction of research/discussion」的用法，與本句語境不同。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。",
-        "direction-mcq-19": "「判斷自己位置以及該往哪裡走的能力；方向感」是「sense of direction」的用法，與本句語境不同。",
-        "direction-mcq-14": "「對工作、專案或活動進行管理、監督或主導」是「direction — management/control」的用法，與本句語境不同。"
+        "direction-mcq-17": "本句的「direction of the market」指「某件事正在改變或發展的整體走向／趨勢」。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-17"
     },
@@ -2178,10 +1988,8 @@ export default {
       "options": [
         "direction-mcq-17",
         "direction-mcq-16",
-        "direction-mcq-18",
-        "direction-mcq-15",
-        "direction-mcq-19",
-        "direction-mcq-14"
+        "direction-mcq-14",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「direction of change」指「某件事正在改變或發展的整體走向／趨勢」。",
       "sentenceIndex": 47,
@@ -2190,12 +1998,10 @@ export default {
         "direction of change"
       ],
       "optionReasons": {
-        "direction-mcq-17": "本句指「某件事正在改變或發展的整體走向／趨勢」。",
-        "direction-mcq-16": "「劇本中告訴演員如何動作、說話或表演的舞台指示」是「stage direction」的用法，與本句語境不同。",
-        "direction-mcq-18": "「研究、討論或思考所採取的主要焦點與發展方向」是「direction of research/discussion」的用法，與本句語境不同。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。",
-        "direction-mcq-19": "「判斷自己位置以及該往哪裡走的能力；方向感」是「sense of direction」的用法，與本句語境不同。",
-        "direction-mcq-14": "「對工作、專案或活動進行管理、監督或主導」是「direction — management/control」的用法，與本句語境不同。"
+        "direction-mcq-17": "本句的「direction of change」指「某件事正在改變或發展的整體走向／趨勢」。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-17"
     },
@@ -2207,11 +2013,9 @@ export default {
       "masked": "The findings suggest a new ____.",
       "options": [
         "direction-mcq-18",
-        "direction-mcq-17",
-        "direction-mcq-19",
-        "direction-mcq-16",
-        "direction-mcq-20",
-        "direction-mcq-15"
+        "direction-mcq-15",
+        "direction-mcq-11",
+        "direction-mcq-20"
       ],
       "explanation": "本句的「direction for research」指「研究、討論或思考所採取的主要焦點與發展方向」。",
       "sentenceIndex": 48,
@@ -2220,12 +2024,10 @@ export default {
         "direction for research"
       ],
       "optionReasons": {
-        "direction-mcq-18": "本句指「研究、討論或思考所採取的主要焦點與發展方向」。",
-        "direction-mcq-17": "「某件事正在改變或發展的整體走向／趨勢」是「direction — trend/course」的用法，與本句語境不同。",
-        "direction-mcq-19": "「判斷自己位置以及該往哪裡走的能力；方向感」是「sense of direction」的用法，與本句語境不同。",
-        "direction-mcq-16": "「劇本中告訴演員如何動作、說話或表演的舞台指示」是「stage direction」的用法，與本句語境不同。",
-        "direction-mcq-20": "「雖未完全解決問題，但已朝較好結果邁進的一步」是「a step in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。"
+        "direction-mcq-18": "本句的「direction for research」指「研究、討論或思考所採取的主要焦點與發展方向」。",
+        "direction-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-18"
     },
@@ -2237,11 +2039,9 @@ export default {
       "masked": "Her question changed the ____.",
       "options": [
         "direction-mcq-18",
-        "direction-mcq-17",
-        "direction-mcq-19",
-        "direction-mcq-16",
-        "direction-mcq-20",
-        "direction-mcq-15"
+        "direction-mcq-13",
+        "direction-mcq-15",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「direction of the discussion」指「研究、討論或思考所採取的主要焦點與發展方向」。",
       "sentenceIndex": 49,
@@ -2250,12 +2050,10 @@ export default {
         "direction of the discussion"
       ],
       "optionReasons": {
-        "direction-mcq-18": "本句指「研究、討論或思考所採取的主要焦點與發展方向」。",
-        "direction-mcq-17": "「某件事正在改變或發展的整體走向／趨勢」是「direction — trend/course」的用法，與本句語境不同。",
-        "direction-mcq-19": "「判斷自己位置以及該往哪裡走的能力；方向感」是「sense of direction」的用法，與本句語境不同。",
-        "direction-mcq-16": "「劇本中告訴演員如何動作、說話或表演的舞台指示」是「stage direction」的用法，與本句語境不同。",
-        "direction-mcq-20": "「雖未完全解決問題，但已朝較好結果邁進的一步」是「a step in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。"
+        "direction-mcq-18": "本句的「direction of the discussion」指「研究、討論或思考所採取的主要焦點與發展方向」。",
+        "direction-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-18"
     },
@@ -2267,11 +2065,9 @@ export default {
       "masked": "She ____ during the project.",
       "options": [
         "direction-mcq-29",
-        "direction-mcq-28",
-        "direction-mcq-30",
-        "direction-mcq-27",
-        "direction-mcq-31",
-        "direction-mcq-26"
+        "direction-mcq-26",
+        "direction-mcq-20",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「directed the team」指「表示指導；指揮；管理」。",
       "sentenceIndex": 50,
@@ -2280,12 +2076,10 @@ export default {
         "directed the team"
       ],
       "optionReasons": {
-        "direction-mcq-29": "本句指「表示指導；指揮；管理」。",
-        "direction-mcq-28": "「表示藝術指導；創意方向」是「23. artistic direction」的用法，與本句語境不同。",
-        "direction-mcq-30": "「表示直接的；直達的」是「28. direct — adjective: straight / without intermediate steps」的用法，與本句語境不同。",
-        "direction-mcq-27": "「表示方向；方位」是「2. direction — the way toward which someone or something moves or faces」的用法，與本句語境不同。",
-        "direction-mcq-31": "「朝不同方向發展；改走另一條路」是「36. go in a different direction」的用法，與本句語境不同。",
-        "direction-mcq-26": "「表示方向；發展方向；道路」是「Passage meaning」的用法，與本句語境不同。"
+        "direction-mcq-29": "本句的「directed the team」指「表示指導；指揮；管理」。",
+        "direction-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-29"
     },
@@ -2297,11 +2091,9 @@ export default {
       "masked": "The officer ____.",
       "options": [
         "direction-mcq-29",
-        "direction-mcq-28",
-        "direction-mcq-30",
-        "direction-mcq-27",
-        "direction-mcq-31",
-        "direction-mcq-26"
+        "direction-mcq-04",
+        "direction-mcq-32",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「directed traffic」指「表示指導；指揮；管理」。",
       "sentenceIndex": 51,
@@ -2310,12 +2102,10 @@ export default {
         "directed traffic"
       ],
       "optionReasons": {
-        "direction-mcq-29": "本句指「表示指導；指揮；管理」。",
-        "direction-mcq-28": "「表示藝術指導；創意方向」是「23. artistic direction」的用法，與本句語境不同。",
-        "direction-mcq-30": "「表示直接的；直達的」是「28. direct — adjective: straight / without intermediate steps」的用法，與本句語境不同。",
-        "direction-mcq-27": "「表示方向；方位」是「2. direction — the way toward which someone or something moves or faces」的用法，與本句語境不同。",
-        "direction-mcq-31": "「朝不同方向發展；改走另一條路」是「36. go in a different direction」的用法，與本句語境不同。",
-        "direction-mcq-26": "「表示方向；發展方向；道路」是「Passage meaning」的用法，與本句語境不同。"
+        "direction-mcq-29": "本句的「directed traffic」指「表示指導；指揮；管理」。",
+        "direction-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-29"
     },
@@ -2327,11 +2117,9 @@ export default {
       "masked": "Staff ____.",
       "options": [
         "direction-mcq-22",
-        "direction-mcq-21",
-        "direction-mcq-23",
+        "direction-mcq-30",
         "direction-mcq-20",
-        "direction-mcq-24",
-        "direction-mcq-19"
+        "direction-mcq-18"
       ],
       "explanation": "本句的「directed visitors to the main entrance」指「指揮、引導或把某人／某物導向某處」。",
       "sentenceIndex": 52,
@@ -2340,12 +2128,10 @@ export default {
         "directed visitors to the main entrance"
       ],
       "optionReasons": {
-        "direction-mcq-22": "本句指「指揮、引導或把某人／某物導向某處」。",
-        "direction-mcq-21": "「給某人足夠指引，使其知道應朝何處／如何繼續」是「point someone in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-23": "「不經中間環節、直接到達或接觸的」是「direct — adjective」的用法，與本句語境不同。",
-        "direction-mcq-20": "「雖未完全解決問題，但已朝較好結果邁進的一步」是「a step in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-24": "「負責主導組織、部門或藝術作品的人；主管／導演」是「director」的用法，與本句語境不同。",
-        "direction-mcq-19": "「判斷自己位置以及該往哪裡走的能力；方向感」是「sense of direction」的用法，與本句語境不同。"
+        "direction-mcq-22": "本句的「directed visitors to the main entrance」指「指揮、引導或把某人／某物導向某處」。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-22"
     },
@@ -2357,11 +2143,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "direction-mcq-22",
-        "direction-mcq-21",
-        "direction-mcq-23",
         "direction-mcq-20",
-        "direction-mcq-24",
-        "direction-mcq-19"
+        "direction-mcq-30",
+        "direction-mcq-14"
       ],
       "explanation": "本句的「direct your questions to the manager」指「指揮、引導或把某人／某物導向某處」。",
       "sentenceIndex": 53,
@@ -2370,12 +2154,10 @@ export default {
         "direct your questions to the manager"
       ],
       "optionReasons": {
-        "direction-mcq-22": "本句指「指揮、引導或把某人／某物導向某處」。",
-        "direction-mcq-21": "「給某人足夠指引，使其知道應朝何處／如何繼續」是「point someone in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-23": "「不經中間環節、直接到達或接觸的」是「direct — adjective」的用法，與本句語境不同。",
-        "direction-mcq-20": "「雖未完全解決問題，但已朝較好結果邁進的一步」是「a step in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-24": "「負責主導組織、部門或藝術作品的人；主管／導演」是「director」的用法，與本句語境不同。",
-        "direction-mcq-19": "「判斷自己位置以及該往哪裡走的能力；方向感」是「sense of direction」的用法，與本句語境不同。"
+        "direction-mcq-22": "本句的「direct your questions to the manager」指「指揮、引導或把某人／某物導向某處」。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-22"
     },
@@ -2387,11 +2169,9 @@ export default {
       "masked": "Is there a ____ to the airport?",
       "options": [
         "direction-mcq-30",
-        "direction-mcq-29",
-        "direction-mcq-31",
-        "direction-mcq-28",
-        "direction-mcq-32",
-        "direction-mcq-27"
+        "direction-mcq-02",
+        "direction-mcq-17",
+        "direction-mcq-16"
       ],
       "explanation": "本句的「direct train」指「表示直接的；直達的」。",
       "sentenceIndex": 54,
@@ -2400,12 +2180,10 @@ export default {
         "direct train"
       ],
       "optionReasons": {
-        "direction-mcq-30": "本句指「表示直接的；直達的」。",
-        "direction-mcq-29": "「表示指導；指揮；管理」是「26. direct — verb: guide or control」的用法，與本句語境不同。",
-        "direction-mcq-31": "「朝不同方向發展；改走另一條路」是「36. go in a different direction」的用法，與本句語境不同。",
-        "direction-mcq-28": "「表示藝術指導；創意方向」是「23. artistic direction」的用法，與本句語境不同。",
-        "direction-mcq-32": "「表示失去人生／發展方向」是「B. figuratively lose clarity about goals or purpose」的用法，與本句語境不同。",
-        "direction-mcq-27": "「表示方向；方位」是「2. direction — the way toward which someone or something moves or faces」的用法，與本句語境不同。"
+        "direction-mcq-30": "本句的「direct train」指「表示直接的；直達的」。",
+        "direction-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-30"
     },
@@ -2417,10 +2195,8 @@ export default {
       "masked": "We need ____ between the two teams.",
       "options": [
         "direction-mcq-30",
-        "direction-mcq-29",
-        "direction-mcq-31",
-        "direction-mcq-28",
-        "direction-mcq-32",
+        "direction-mcq-08",
+        "direction-mcq-20",
         "direction-mcq-27"
       ],
       "explanation": "本句的「direct communication」指「表示直接的；直達的」。",
@@ -2430,12 +2206,10 @@ export default {
         "direct communication"
       ],
       "optionReasons": {
-        "direction-mcq-30": "本句指「表示直接的；直達的」。",
-        "direction-mcq-29": "「表示指導；指揮；管理」是「26. direct — verb: guide or control」的用法，與本句語境不同。",
-        "direction-mcq-31": "「朝不同方向發展；改走另一條路」是「36. go in a different direction」的用法，與本句語境不同。",
-        "direction-mcq-28": "「表示藝術指導；創意方向」是「23. artistic direction」的用法，與本句語境不同。",
-        "direction-mcq-32": "「表示失去人生／發展方向」是「B. figuratively lose clarity about goals or purpose」的用法，與本句語境不同。",
-        "direction-mcq-27": "「表示方向；方位」是「2. direction — the way toward which someone or something moves or faces」的用法，與本句語境不同。"
+        "direction-mcq-30": "本句的「direct communication」指「表示直接的；直達的」。",
+        "direction-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-30"
     },
@@ -2447,11 +2221,9 @@ export default {
       "masked": "She is the ____.",
       "options": [
         "direction-mcq-24",
-        "direction-mcq-23",
-        "direction-mcq-25",
-        "direction-mcq-22",
-        "direction-mcq-26",
-        "direction-mcq-21"
+        "direction-mcq-32",
+        "direction-mcq-30",
+        "direction-mcq-20"
       ],
       "explanation": "本句的「director of the department」指「負責主導組織、部門或藝術作品的人；主管／導演」。",
       "sentenceIndex": 56,
@@ -2460,12 +2232,10 @@ export default {
         "director of the department"
       ],
       "optionReasons": {
-        "direction-mcq-24": "本句指「負責主導組織、部門或藝術作品的人；主管／導演」。",
-        "direction-mcq-23": "「不經中間環節、直接到達或接觸的」是「direct — adjective」的用法，與本句語境不同。",
-        "direction-mcq-25": "「把原來的方向、注意力、資料或行動重新導向別處」是「redirect」的用法，與本句語境不同。",
-        "direction-mcq-22": "「指揮、引導或把某人／某物導向某處」是「direct — verb」的用法，與本句語境不同。",
-        "direction-mcq-26": "「表示方向；發展方向；道路」是「Passage meaning」的用法，與本句語境不同。",
-        "direction-mcq-21": "「給某人足夠指引，使其知道應朝何處／如何繼續」是「point someone in the right direction」的用法，與本句語境不同。"
+        "direction-mcq-24": "本句的「director of the department」指「負責主導組織、部門或藝術作品的人；主管／導演」。",
+        "direction-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-24"
     },
@@ -2477,11 +2247,9 @@ export default {
       "masked": "The film ____ spoke after the screening.",
       "options": [
         "direction-mcq-24",
-        "direction-mcq-23",
-        "direction-mcq-25",
-        "direction-mcq-22",
-        "direction-mcq-26",
-        "direction-mcq-21"
+        "direction-mcq-20",
+        "direction-mcq-27",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「director」指「負責主導組織、部門或藝術作品的人；主管／導演」。",
       "sentenceIndex": 57,
@@ -2490,12 +2258,10 @@ export default {
         "director"
       ],
       "optionReasons": {
-        "direction-mcq-24": "本句指「負責主導組織、部門或藝術作品的人；主管／導演」。",
-        "direction-mcq-23": "「不經中間環節、直接到達或接觸的」是「direct — adjective」的用法，與本句語境不同。",
-        "direction-mcq-25": "「把原來的方向、注意力、資料或行動重新導向別處」是「redirect」的用法，與本句語境不同。",
-        "direction-mcq-22": "「指揮、引導或把某人／某物導向某處」是「direct — verb」的用法，與本句語境不同。",
-        "direction-mcq-26": "「表示方向；發展方向；道路」是「Passage meaning」的用法，與本句語境不同。",
-        "direction-mcq-21": "「給某人足夠指引，使其知道應朝何處／如何繼續」是「point someone in the right direction」的用法，與本句語境不同。"
+        "direction-mcq-24": "本句的「director」指「負責主導組織、部門或藝術作品的人；主管／導演」。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-24"
     },
@@ -2507,11 +2273,9 @@ export default {
       "masked": "The device uses a ____.",
       "options": [
         "direction-mcq-18",
-        "direction-mcq-17",
-        "direction-mcq-19",
-        "direction-mcq-16",
-        "direction-mcq-20",
-        "direction-mcq-15"
+        "direction-mcq-29",
+        "direction-mcq-11",
+        "direction-mcq-20"
       ],
       "explanation": "本句的「directional microphone」指「研究、討論或思考所採取的主要焦點與發展方向」。",
       "sentenceIndex": 58,
@@ -2520,12 +2284,10 @@ export default {
         "directional microphone"
       ],
       "optionReasons": {
-        "direction-mcq-18": "本句指「研究、討論或思考所採取的主要焦點與發展方向」。",
-        "direction-mcq-17": "「某件事正在改變或發展的整體走向／趨勢」是「direction — trend/course」的用法，與本句語境不同。",
-        "direction-mcq-19": "「判斷自己位置以及該往哪裡走的能力；方向感」是「sense of direction」的用法，與本句語境不同。",
-        "direction-mcq-16": "「劇本中告訴演員如何動作、說話或表演的舞台指示」是「stage direction」的用法，與本句語境不同。",
-        "direction-mcq-20": "「雖未完全解決問題，但已朝較好結果邁進的一步」是「a step in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。"
+        "direction-mcq-18": "本句的「directional microphone」指「研究、討論或思考所採取的主要焦點與發展方向」。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-18"
     },
@@ -2537,11 +2299,9 @@ export default {
       "masked": "The sign provides ____.",
       "options": [
         "direction-mcq-18",
-        "direction-mcq-17",
-        "direction-mcq-19",
-        "direction-mcq-16",
-        "direction-mcq-20",
-        "direction-mcq-15"
+        "direction-mcq-13",
+        "direction-mcq-30",
+        "direction-mcq-29"
       ],
       "explanation": "本句的「directional information」指「研究、討論或思考所採取的主要焦點與發展方向」。",
       "sentenceIndex": 59,
@@ -2550,12 +2310,10 @@ export default {
         "directional information"
       ],
       "optionReasons": {
-        "direction-mcq-18": "本句指「研究、討論或思考所採取的主要焦點與發展方向」。",
-        "direction-mcq-17": "「某件事正在改變或發展的整體走向／趨勢」是「direction — trend/course」的用法，與本句語境不同。",
-        "direction-mcq-19": "「判斷自己位置以及該往哪裡走的能力；方向感」是「sense of direction」的用法，與本句語境不同。",
-        "direction-mcq-16": "「劇本中告訴演員如何動作、說話或表演的舞台指示」是「stage direction」的用法，與本句語境不同。",
-        "direction-mcq-20": "「雖未完全解決問題，但已朝較好結果邁進的一步」是「a step in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-15": "「對電影、戲劇等作品中的表演與藝術呈現進行導演／指導」是「direction — film/theatre」的用法，與本句語境不同。"
+        "direction-mcq-18": "本句的「directional information」指「研究、討論或思考所採取的主要焦點與發展方向」。",
+        "direction-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-18"
     },
@@ -2567,11 +2325,9 @@ export default {
       "masked": "The website ____.",
       "options": [
         "direction-mcq-25",
-        "direction-mcq-24",
-        "direction-mcq-26",
-        "direction-mcq-23",
-        "direction-mcq-27",
-        "direction-mcq-22"
+        "direction-mcq-13",
+        "direction-mcq-30",
+        "direction-mcq-20"
       ],
       "explanation": "本句的「redirected me to another page」指「把原來的方向、注意力、資料或行動重新導向別處」。",
       "sentenceIndex": 60,
@@ -2580,12 +2336,10 @@ export default {
         "redirected me to another page"
       ],
       "optionReasons": {
-        "direction-mcq-25": "本句指「把原來的方向、注意力、資料或行動重新導向別處」。",
-        "direction-mcq-24": "「負責主導組織、部門或藝術作品的人；主管／導演」是「director」的用法，與本句語境不同。",
-        "direction-mcq-26": "「表示方向；發展方向；道路」是「Passage meaning」的用法，與本句語境不同。",
-        "direction-mcq-23": "「不經中間環節、直接到達或接觸的」是「direct — adjective」的用法，與本句語境不同。",
-        "direction-mcq-27": "「表示方向；方位」是「2. direction — the way toward which someone or something moves or faces」的用法，與本句語境不同。",
-        "direction-mcq-22": "「指揮、引導或把某人／某物導向某處」是「direct — verb」的用法，與本句語境不同。"
+        "direction-mcq-25": "本句的「redirected me to another page」指「把原來的方向、注意力、資料或行動重新導向別處」。",
+        "direction-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-25"
     },
@@ -2597,11 +2351,9 @@ export default {
       "masked": "She learned to ____ toward what she could control.",
       "options": [
         "direction-mcq-25",
-        "direction-mcq-24",
-        "direction-mcq-26",
-        "direction-mcq-23",
-        "direction-mcq-27",
-        "direction-mcq-22"
+        "direction-mcq-20",
+        "direction-mcq-30",
+        "direction-mcq-13"
       ],
       "explanation": "本句的「redirect her attention」指「把原來的方向、注意力、資料或行動重新導向別處」。",
       "sentenceIndex": 61,
@@ -2610,12 +2362,10 @@ export default {
         "redirect her attention"
       ],
       "optionReasons": {
-        "direction-mcq-25": "本句指「把原來的方向、注意力、資料或行動重新導向別處」。",
-        "direction-mcq-24": "「負責主導組織、部門或藝術作品的人；主管／導演」是「director」的用法，與本句語境不同。",
-        "direction-mcq-26": "「表示方向；發展方向；道路」是「Passage meaning」的用法，與本句語境不同。",
-        "direction-mcq-23": "「不經中間環節、直接到達或接觸的」是「direct — adjective」的用法，與本句語境不同。",
-        "direction-mcq-27": "「表示方向；方位」是「2. direction — the way toward which someone or something moves or faces」的用法，與本句語境不同。",
-        "direction-mcq-22": "「指揮、引導或把某人／某物導向某處」是「direct — verb」的用法，與本句語境不同。"
+        "direction-mcq-25": "本句的「redirect her attention」指「把原來的方向、注意力、資料或行動重新導向別處」。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-25"
     },
@@ -2627,11 +2377,9 @@ export default {
       "masked": "The changes are moving us ____.",
       "options": [
         "direction-mcq-06",
-        "direction-mcq-05",
-        "direction-mcq-07",
-        "direction-mcq-04",
-        "direction-mcq-08",
-        "direction-mcq-03"
+        "direction-mcq-15",
+        "direction-mcq-13",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「in the right direction」指「朝向較正確、合適、有益或理想結果的發展方向」。",
       "sentenceIndex": 62,
@@ -2640,12 +2388,10 @@ export default {
         "in the right direction"
       ],
       "optionReasons": {
-        "direction-mcq-06": "本句指「朝向較正確、合適、有益或理想結果的發展方向」。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-07": "「朝向不合適、錯誤或不理想結果的發展方向」是「the wrong direction」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。",
-        "direction-mcq-08": "「對應該如何前進、發展或行動所提供的引導／指導」是「direction — guidance」的用法，與本句語境不同。",
-        "direction-mcq-03": "「改變原本移動、面向或發展的方向」是「change direction」的用法，與本句語境不同。"
+        "direction-mcq-06": "本句的「in the right direction」指「朝向較正確、合適、有益或理想結果的發展方向」。",
+        "direction-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-06"
     },
@@ -2657,11 +2403,9 @@ export default {
       "masked": "Asking for feedback was a move ____.",
       "options": [
         "direction-mcq-06",
-        "direction-mcq-05",
-        "direction-mcq-07",
-        "direction-mcq-04",
-        "direction-mcq-08",
-        "direction-mcq-03"
+        "direction-mcq-11",
+        "direction-mcq-30",
+        "direction-mcq-15"
       ],
       "explanation": "本句的「in the right direction」指「朝向較正確、合適、有益或理想結果的發展方向」。",
       "sentenceIndex": 63,
@@ -2670,12 +2414,10 @@ export default {
         "in the right direction"
       ],
       "optionReasons": {
-        "direction-mcq-06": "本句指「朝向較正確、合適、有益或理想結果的發展方向」。",
-        "direction-mcq-05": "「某人、專案、組織或情況逐漸發展的方向／走向」是「direction — development」的用法，與本句語境不同。",
-        "direction-mcq-07": "「朝向不合適、錯誤或不理想結果的發展方向」是「the wrong direction」的用法，與本句語境不同。",
-        "direction-mcq-04": "「某人或某事物前進的大致路線或走向」是「direction — route/course」的用法，與本句語境不同。",
-        "direction-mcq-08": "「對應該如何前進、發展或行動所提供的引導／指導」是「direction — guidance」的用法，與本句語境不同。",
-        "direction-mcq-03": "「改變原本移動、面向或發展的方向」是「change direction」的用法，與本句語境不同。"
+        "direction-mcq-06": "本句的「in the right direction」指「朝向較正確、合適、有益或理想結果的發展方向」。",
+        "direction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-06"
     },
@@ -2687,11 +2429,9 @@ export default {
       "masked": "The new rule is ____.",
       "options": [
         "direction-mcq-20",
-        "direction-mcq-19",
-        "direction-mcq-21",
-        "direction-mcq-18",
-        "direction-mcq-22",
-        "direction-mcq-17"
+        "direction-mcq-30",
+        "direction-mcq-25",
+        "direction-mcq-11"
       ],
       "explanation": "本句的「a step in the right direction」指「雖未完全解決問題，但已朝較好結果邁進的一步」。",
       "sentenceIndex": 64,
@@ -2700,12 +2440,10 @@ export default {
         "a step in the right direction"
       ],
       "optionReasons": {
-        "direction-mcq-20": "本句指「雖未完全解決問題，但已朝較好結果邁進的一步」。",
-        "direction-mcq-19": "「判斷自己位置以及該往哪裡走的能力；方向感」是「sense of direction」的用法，與本句語境不同。",
-        "direction-mcq-21": "「給某人足夠指引，使其知道應朝何處／如何繼續」是「point someone in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-18": "「研究、討論或思考所採取的主要焦點與發展方向」是「direction of research/discussion」的用法，與本句語境不同。",
-        "direction-mcq-22": "「指揮、引導或把某人／某物導向某處」是「direct — verb」的用法，與本句語境不同。",
-        "direction-mcq-17": "「某件事正在改變或發展的整體走向／趨勢」是「direction — trend/course」的用法，與本句語境不同。"
+        "direction-mcq-20": "本句的「a step in the right direction」指「雖未完全解決問題，但已朝較好結果邁進的一步」。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-20"
     },
@@ -2717,11 +2455,9 @@ export default {
       "masked": "Admitting the problem was ____.",
       "options": [
         "direction-mcq-20",
-        "direction-mcq-19",
-        "direction-mcq-21",
-        "direction-mcq-18",
-        "direction-mcq-22",
-        "direction-mcq-17"
+        "direction-mcq-11",
+        "direction-mcq-26",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「a step in the right direction」指「雖未完全解決問題，但已朝較好結果邁進的一步」。",
       "sentenceIndex": 65,
@@ -2730,12 +2466,10 @@ export default {
         "a step in the right direction"
       ],
       "optionReasons": {
-        "direction-mcq-20": "本句指「雖未完全解決問題，但已朝較好結果邁進的一步」。",
-        "direction-mcq-19": "「判斷自己位置以及該往哪裡走的能力；方向感」是「sense of direction」的用法，與本句語境不同。",
-        "direction-mcq-21": "「給某人足夠指引，使其知道應朝何處／如何繼續」是「point someone in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-18": "「研究、討論或思考所採取的主要焦點與發展方向」是「direction of research/discussion」的用法，與本句語境不同。",
-        "direction-mcq-22": "「指揮、引導或把某人／某物導向某處」是「direct — verb」的用法，與本句語境不同。",
-        "direction-mcq-17": "「某件事正在改變或發展的整體走向／趨勢」是「direction — trend/course」的用法，與本句語境不同。"
+        "direction-mcq-20": "本句的「a step in the right direction」指「雖未完全解決問題，但已朝較好結果邁進的一步」。",
+        "direction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-20"
     },
@@ -2747,11 +2481,9 @@ export default {
       "masked": "I didn’t know the answer, but she ____.",
       "options": [
         "direction-mcq-21",
-        "direction-mcq-20",
-        "direction-mcq-22",
-        "direction-mcq-19",
-        "direction-mcq-23",
-        "direction-mcq-18"
+        "direction-mcq-18",
+        "direction-mcq-14",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「pointed me in the right direction」指「給某人足夠指引，使其知道應朝何處／如何繼續」。",
       "sentenceIndex": 66,
@@ -2760,12 +2492,10 @@ export default {
         "pointed me in the right direction"
       ],
       "optionReasons": {
-        "direction-mcq-21": "本句指「給某人足夠指引，使其知道應朝何處／如何繼續」。",
-        "direction-mcq-20": "「雖未完全解決問題，但已朝較好結果邁進的一步」是「a step in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-22": "「指揮、引導或把某人／某物導向某處」是「direct — verb」的用法，與本句語境不同。",
-        "direction-mcq-19": "「判斷自己位置以及該往哪裡走的能力；方向感」是「sense of direction」的用法，與本句語境不同。",
-        "direction-mcq-23": "「不經中間環節、直接到達或接觸的」是「direct — adjective」的用法，與本句語境不同。",
-        "direction-mcq-18": "「研究、討論或思考所採取的主要焦點與發展方向」是「direction of research/discussion」的用法，與本句語境不同。"
+        "direction-mcq-21": "本句的「pointed me in the right direction」指「給某人足夠指引，使其知道應朝何處／如何繼續」。",
+        "direction-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-21"
     },
@@ -2777,11 +2507,9 @@ export default {
       "masked": "A mentor can ____ without making every decision for you.",
       "options": [
         "direction-mcq-21",
-        "direction-mcq-20",
-        "direction-mcq-22",
-        "direction-mcq-19",
-        "direction-mcq-23",
-        "direction-mcq-18"
+        "direction-mcq-14",
+        "direction-mcq-03",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「point you in the right direction」指「給某人足夠指引，使其知道應朝何處／如何繼續」。",
       "sentenceIndex": 67,
@@ -2790,12 +2518,10 @@ export default {
         "point you in the right direction"
       ],
       "optionReasons": {
-        "direction-mcq-21": "本句指「給某人足夠指引，使其知道應朝何處／如何繼續」。",
-        "direction-mcq-20": "「雖未完全解決問題，但已朝較好結果邁進的一步」是「a step in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-22": "「指揮、引導或把某人／某物導向某處」是「direct — verb」的用法，與本句語境不同。",
-        "direction-mcq-19": "「判斷自己位置以及該往哪裡走的能力；方向感」是「sense of direction」的用法，與本句語境不同。",
-        "direction-mcq-23": "「不經中間環節、直接到達或接觸的」是「direct — adjective」的用法，與本句語境不同。",
-        "direction-mcq-18": "「研究、討論或思考所採取的主要焦點與發展方向」是「direction of research/discussion」的用法，與本句語境不同。"
+        "direction-mcq-21": "本句的「point you in the right direction」指「給某人足夠指引，使其知道應朝何處／如何繼續」。",
+        "direction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-21"
     },
@@ -2807,11 +2533,9 @@ export default {
       "masked": "We decided to ____ with the design.",
       "options": [
         "direction-mcq-31",
-        "direction-mcq-30",
-        "direction-mcq-32",
+        "direction-mcq-13",
         "direction-mcq-29",
-        "direction-mcq-28",
-        "direction-mcq-27"
+        "direction-mcq-30"
       ],
       "explanation": "本句的「go in a different direction」指「朝不同方向發展；改走另一條路」。",
       "sentenceIndex": 68,
@@ -2820,12 +2544,10 @@ export default {
         "go in a different direction"
       ],
       "optionReasons": {
-        "direction-mcq-31": "本句指「朝不同方向發展；改走另一條路」。",
-        "direction-mcq-30": "「表示直接的；直達的」是「28. direct — adjective: straight / without intermediate steps」的用法，與本句語境不同。",
-        "direction-mcq-32": "「表示失去人生／發展方向」是「B. figuratively lose clarity about goals or purpose」的用法，與本句語境不同。",
-        "direction-mcq-29": "「表示指導；指揮；管理」是「26. direct — verb: guide or control」的用法，與本句語境不同。",
-        "direction-mcq-28": "「表示藝術指導；創意方向」是「23. artistic direction」的用法，與本句語境不同。",
-        "direction-mcq-27": "「表示方向；方位」是「2. direction — the way toward which someone or something moves or faces」的用法，與本句語境不同。"
+        "direction-mcq-31": "本句的「go in a different direction」指「朝不同方向發展；改走另一條路」。",
+        "direction-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-31"
     },
@@ -2837,11 +2559,9 @@ export default {
       "masked": "Her career eventually ____.",
       "options": [
         "direction-mcq-31",
-        "direction-mcq-30",
-        "direction-mcq-32",
         "direction-mcq-29",
-        "direction-mcq-28",
-        "direction-mcq-27"
+        "direction-mcq-16",
+        "direction-mcq-30"
       ],
       "explanation": "本句的「went in a completely different direction」指「朝不同方向發展；改走另一條路」。",
       "sentenceIndex": 69,
@@ -2850,12 +2570,10 @@ export default {
         "went in a completely different direction"
       ],
       "optionReasons": {
-        "direction-mcq-31": "本句指「朝不同方向發展；改走另一條路」。",
-        "direction-mcq-30": "「表示直接的；直達的」是「28. direct — adjective: straight / without intermediate steps」的用法，與本句語境不同。",
-        "direction-mcq-32": "「表示失去人生／發展方向」是「B. figuratively lose clarity about goals or purpose」的用法，與本句語境不同。",
-        "direction-mcq-29": "「表示指導；指揮；管理」是「26. direct — verb: guide or control」的用法，與本句語境不同。",
-        "direction-mcq-28": "「表示藝術指導；創意方向」是「23. artistic direction」的用法，與本句語境不同。",
-        "direction-mcq-27": "「表示方向；方位」是「2. direction — the way toward which someone or something moves or faces」的用法，與本句語境不同。"
+        "direction-mcq-31": "本句的「went in a completely different direction」指「朝不同方向發展；改走另一條路」。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-31"
     },
@@ -2867,11 +2585,9 @@ export default {
       "masked": "I easily ____ in unfamiliar cities.",
       "options": [
         "direction-mcq-32",
-        "direction-mcq-31",
+        "direction-mcq-11",
         "direction-mcq-30",
-        "direction-mcq-29",
-        "direction-mcq-28",
-        "direction-mcq-27"
+        "direction-mcq-29"
       ],
       "explanation": "本句的「lose my sense of direction」指「表示失去人生／發展方向」。",
       "sentenceIndex": 70,
@@ -2880,12 +2596,10 @@ export default {
         "lose my sense of direction"
       ],
       "optionReasons": {
-        "direction-mcq-32": "本句指「表示失去人生／發展方向」。",
-        "direction-mcq-31": "「朝不同方向發展；改走另一條路」是「36. go in a different direction」的用法，與本句語境不同。",
-        "direction-mcq-30": "「表示直接的；直達的」是「28. direct — adjective: straight / without intermediate steps」的用法，與本句語境不同。",
-        "direction-mcq-29": "「表示指導；指揮；管理」是「26. direct — verb: guide or control」的用法，與本句語境不同。",
-        "direction-mcq-28": "「表示藝術指導；創意方向」是「23. artistic direction」的用法，與本句語境不同。",
-        "direction-mcq-27": "「表示方向；方位」是「2. direction — the way toward which someone or something moves or faces」的用法，與本句語境不同。"
+        "direction-mcq-32": "本句的「lose my sense of direction」指「表示失去人生／發展方向」。",
+        "direction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-32"
     },
@@ -2897,11 +2611,9 @@ export default {
       "masked": "After leaving university, he temporarily ____.",
       "options": [
         "direction-mcq-32",
-        "direction-mcq-31",
-        "direction-mcq-30",
         "direction-mcq-29",
-        "direction-mcq-28",
-        "direction-mcq-27"
+        "direction-mcq-11",
+        "direction-mcq-20"
       ],
       "explanation": "本句的「lost his sense of direction」指「表示失去人生／發展方向」。",
       "sentenceIndex": 71,
@@ -2910,12 +2622,10 @@ export default {
         "lost his sense of direction"
       ],
       "optionReasons": {
-        "direction-mcq-32": "本句指「表示失去人生／發展方向」。",
-        "direction-mcq-31": "「朝不同方向發展；改走另一條路」是「36. go in a different direction」的用法，與本句語境不同。",
-        "direction-mcq-30": "「表示直接的；直達的」是「28. direct — adjective: straight / without intermediate steps」的用法，與本句語境不同。",
-        "direction-mcq-29": "「表示指導；指揮；管理」是「26. direct — verb: guide or control」的用法，與本句語境不同。",
-        "direction-mcq-28": "「表示藝術指導；創意方向」是「23. artistic direction」的用法，與本句語境不同。",
-        "direction-mcq-27": "「表示方向；方位」是「2. direction — the way toward which someone or something moves or faces」的用法，與本句語境不同。"
+        "direction-mcq-32": "本句的「lost his sense of direction」指「表示失去人生／發展方向」。",
+        "direction-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-32"
     },
@@ -2927,11 +2637,9 @@ export default {
       "masked": "She has an excellent ____.",
       "options": [
         "direction-mcq-19",
-        "direction-mcq-18",
-        "direction-mcq-20",
-        "direction-mcq-17",
-        "direction-mcq-21",
-        "direction-mcq-16"
+        "direction-mcq-30",
+        "direction-mcq-15",
+        "direction-mcq-20"
       ],
       "explanation": "本句的「sense of direction」指「判斷自己位置以及該往哪裡走的能力；方向感」。",
       "sentenceIndex": 72,
@@ -2940,12 +2648,10 @@ export default {
         "sense of direction"
       ],
       "optionReasons": {
-        "direction-mcq-19": "本句指「判斷自己位置以及該往哪裡走的能力；方向感」。",
-        "direction-mcq-18": "「研究、討論或思考所採取的主要焦點與發展方向」是「direction of research/discussion」的用法，與本句語境不同。",
-        "direction-mcq-20": "「雖未完全解決問題，但已朝較好結果邁進的一步」是「a step in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-17": "「某件事正在改變或發展的整體走向／趨勢」是「direction — trend/course」的用法，與本句語境不同。",
-        "direction-mcq-21": "「給某人足夠指引，使其知道應朝何處／如何繼續」是「point someone in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-16": "「劇本中告訴演員如何動作、說話或表演的舞台指示」是「stage direction」的用法，與本句語境不同。"
+        "direction-mcq-19": "本句的「sense of direction」指「判斷自己位置以及該往哪裡走的能力；方向感」。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-19"
     },
@@ -2957,11 +2663,9 @@ export default {
       "masked": "I have a terrible ____.",
       "options": [
         "direction-mcq-19",
-        "direction-mcq-18",
+        "direction-mcq-15",
         "direction-mcq-20",
-        "direction-mcq-17",
-        "direction-mcq-21",
-        "direction-mcq-16"
+        "direction-mcq-30"
       ],
       "explanation": "本句的「sense of direction」指「判斷自己位置以及該往哪裡走的能力；方向感」。",
       "sentenceIndex": 73,
@@ -2970,12 +2674,10 @@ export default {
         "sense of direction"
       ],
       "optionReasons": {
-        "direction-mcq-19": "本句指「判斷自己位置以及該往哪裡走的能力；方向感」。",
-        "direction-mcq-18": "「研究、討論或思考所採取的主要焦點與發展方向」是「direction of research/discussion」的用法，與本句語境不同。",
-        "direction-mcq-20": "「雖未完全解決問題，但已朝較好結果邁進的一步」是「a step in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-17": "「某件事正在改變或發展的整體走向／趨勢」是「direction — trend/course」的用法，與本句語境不同。",
-        "direction-mcq-21": "「給某人足夠指引，使其知道應朝何處／如何繼續」是「point someone in the right direction」的用法，與本句語境不同。",
-        "direction-mcq-16": "「劇本中告訴演員如何動作、說話或表演的舞台指示」是「stage direction」的用法，與本句語境不同。"
+        "direction-mcq-19": "本句的「sense of direction」指「判斷自己位置以及該往哪裡走的能力；方向感」。",
+        "direction-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "direction-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direction-mcq-19"
     }
@@ -2987,5 +2689,7 @@ export default {
     "sha256": "a9d6df4e92291a0884780c4a6f77cf37a214cedd1d8499ce55ff9d90fbc094df",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

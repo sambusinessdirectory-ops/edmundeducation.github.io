@@ -523,7 +523,7 @@ export default {
     },
     {
       "id": "abstract-mcq-25",
-      "title": "表示概念、品質、狀態等而非具體物件的抽象名詞",
+      "title": "概念、品質、狀態等而非具體物件的抽象名詞",
       "form": "abstract noun",
       "en": "abstract noun",
       "zh": "表示概念、品質、狀態等而非具體物件的抽象名詞",
@@ -575,11 +575,9 @@ export default {
       "masked": "Freedom is an ____.",
       "options": [
         "abstract-mcq-02",
-        "abstract-mcq-01",
-        "abstract-mcq-03",
-        "abstract-mcq-04",
-        "abstract-mcq-05",
-        "abstract-mcq-06"
+        "abstract-mcq-12",
+        "abstract-mcq-22",
+        "abstract-mcq-10"
       ],
       "explanation": "本句的「abstract idea」指「非具體實物而屬於思想、品質、原則等的抽象概念」。",
       "sentenceIndex": 2,
@@ -588,12 +586,10 @@ export default {
         "abstract idea"
       ],
       "optionReasons": {
-        "abstract-mcq-02": "本句指「非具體實物而屬於思想、品質、原則等的抽象概念」。",
-        "abstract-mcq-01": "「主要存在於思想、原則、概念中，而非具體實物／直接經驗中的；抽象的」與本句語境不同。",
-        "abstract-mcq-03": "「超越具體事物、從概念與模式思考的抽象思考」與本句語境不同。",
-        "abstract-mcq-04": "「主要在理論／概念層面掌握、未必有直接實際經驗的知識」與本句語境不同。",
-        "abstract-mcq-05": "「不以具體例子、實物或特定情境呈現的」與本句語境不同。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。"
+        "abstract-mcq-02": "本句的「abstract idea」指「非具體實物而屬於思想、品質、原則等的抽象概念」。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-02"
     },
@@ -605,11 +601,9 @@ export default {
       "masked": "The theory is quite ____.",
       "options": [
         "abstract-mcq-02",
-        "abstract-mcq-01",
-        "abstract-mcq-03",
-        "abstract-mcq-04",
-        "abstract-mcq-05",
-        "abstract-mcq-06"
+        "abstract-mcq-12",
+        "abstract-mcq-22",
+        "abstract-mcq-11"
       ],
       "explanation": "本句的「abstract」指「非具體實物而屬於思想、品質、原則等的抽象概念」。",
       "sentenceIndex": 3,
@@ -618,12 +612,10 @@ export default {
         "abstract"
       ],
       "optionReasons": {
-        "abstract-mcq-02": "本句指「非具體實物而屬於思想、品質、原則等的抽象概念」。",
-        "abstract-mcq-01": "「主要存在於思想、原則、概念中，而非具體實物／直接經驗中的；抽象的」與本句語境不同。",
-        "abstract-mcq-03": "「超越具體事物、從概念與模式思考的抽象思考」與本句語境不同。",
-        "abstract-mcq-04": "「主要在理論／概念層面掌握、未必有直接實際經驗的知識」與本句語境不同。",
-        "abstract-mcq-05": "「不以具體例子、實物或特定情境呈現的」與本句語境不同。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。"
+        "abstract-mcq-02": "本句的「abstract」指「非具體實物而屬於思想、品質、原則等的抽象概念」。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-02"
     },
@@ -635,11 +627,9 @@ export default {
       "masked": "Justice is an ____.",
       "options": [
         "abstract-mcq-02",
-        "abstract-mcq-01",
-        "abstract-mcq-03",
-        "abstract-mcq-04",
-        "abstract-mcq-05",
-        "abstract-mcq-06"
+        "abstract-mcq-22",
+        "abstract-mcq-12",
+        "abstract-mcq-10"
       ],
       "explanation": "本句的「abstract concept」指「非具體實物而屬於思想、品質、原則等的抽象概念」。",
       "sentenceIndex": 4,
@@ -648,12 +638,10 @@ export default {
         "abstract concept"
       ],
       "optionReasons": {
-        "abstract-mcq-02": "本句指「非具體實物而屬於思想、品質、原則等的抽象概念」。",
-        "abstract-mcq-01": "「主要存在於思想、原則、概念中，而非具體實物／直接經驗中的；抽象的」與本句語境不同。",
-        "abstract-mcq-03": "「超越具體事物、從概念與模式思考的抽象思考」與本句語境不同。",
-        "abstract-mcq-04": "「主要在理論／概念層面掌握、未必有直接實際經驗的知識」與本句語境不同。",
-        "abstract-mcq-05": "「不以具體例子、實物或特定情境呈現的」與本句語境不同。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。"
+        "abstract-mcq-02": "本句的「abstract concept」指「非具體實物而屬於思想、品質、原則等的抽象概念」。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-02"
     },
@@ -665,11 +653,9 @@ export default {
       "masked": "Children may find some ____ difficult to understand.",
       "options": [
         "abstract-mcq-02",
-        "abstract-mcq-01",
-        "abstract-mcq-03",
-        "abstract-mcq-04",
-        "abstract-mcq-05",
-        "abstract-mcq-06"
+        "abstract-mcq-12",
+        "abstract-mcq-22",
+        "abstract-mcq-11"
       ],
       "explanation": "本句的「abstract ideas」指「非具體實物而屬於思想、品質、原則等的抽象概念」。",
       "sentenceIndex": 5,
@@ -678,12 +664,10 @@ export default {
         "abstract ideas"
       ],
       "optionReasons": {
-        "abstract-mcq-02": "本句指「非具體實物而屬於思想、品質、原則等的抽象概念」。",
-        "abstract-mcq-01": "「主要存在於思想、原則、概念中，而非具體實物／直接經驗中的；抽象的」與本句語境不同。",
-        "abstract-mcq-03": "「超越具體事物、從概念與模式思考的抽象思考」與本句語境不同。",
-        "abstract-mcq-04": "「主要在理論／概念層面掌握、未必有直接實際經驗的知識」與本句語境不同。",
-        "abstract-mcq-05": "「不以具體例子、實物或特定情境呈現的」與本句語境不同。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。"
+        "abstract-mcq-02": "本句的「abstract ideas」指「非具體實物而屬於思想、品質、原則等的抽象概念」。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-02"
     },
@@ -695,11 +679,9 @@ export default {
       "masked": "The activity encourages ____.",
       "options": [
         "abstract-mcq-03",
-        "abstract-mcq-02",
-        "abstract-mcq-04",
-        "abstract-mcq-01",
-        "abstract-mcq-05",
-        "abstract-mcq-06"
+        "abstract-mcq-22",
+        "abstract-mcq-09",
+        "abstract-mcq-11"
       ],
       "explanation": "本句的「abstract thinking」指「超越具體事物、從概念與模式思考的抽象思考」。",
       "sentenceIndex": 6,
@@ -708,12 +690,10 @@ export default {
         "abstract thinking"
       ],
       "optionReasons": {
-        "abstract-mcq-03": "本句指「超越具體事物、從概念與模式思考的抽象思考」。",
-        "abstract-mcq-02": "「非具體實物而屬於思想、品質、原則等的抽象概念」與本句語境不同。",
-        "abstract-mcq-04": "「主要在理論／概念層面掌握、未必有直接實際經驗的知識」與本句語境不同。",
-        "abstract-mcq-01": "「主要存在於思想、原則、概念中，而非具體實物／直接經驗中的；抽象的」與本句語境不同。",
-        "abstract-mcq-05": "「不以具體例子、實物或特定情境呈現的」與本句語境不同。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。"
+        "abstract-mcq-03": "本句的「abstract thinking」指「超越具體事物、從概念與模式思考的抽象思考」。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-03"
     },
@@ -725,11 +705,9 @@ export default {
       "masked": "Mathematics often requires ____.",
       "options": [
         "abstract-mcq-03",
-        "abstract-mcq-02",
-        "abstract-mcq-04",
-        "abstract-mcq-01",
-        "abstract-mcq-05",
-        "abstract-mcq-06"
+        "abstract-mcq-09",
+        "abstract-mcq-22",
+        "abstract-mcq-10"
       ],
       "explanation": "本句的「abstract thinking」指「超越具體事物、從概念與模式思考的抽象思考」。",
       "sentenceIndex": 7,
@@ -738,12 +716,10 @@ export default {
         "abstract thinking"
       ],
       "optionReasons": {
-        "abstract-mcq-03": "本句指「超越具體事物、從概念與模式思考的抽象思考」。",
-        "abstract-mcq-02": "「非具體實物而屬於思想、品質、原則等的抽象概念」與本句語境不同。",
-        "abstract-mcq-04": "「主要在理論／概念層面掌握、未必有直接實際經驗的知識」與本句語境不同。",
-        "abstract-mcq-01": "「主要存在於思想、原則、概念中，而非具體實物／直接經驗中的；抽象的」與本句語境不同。",
-        "abstract-mcq-05": "「不以具體例子、實物或特定情境呈現的」與本句語境不同。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。"
+        "abstract-mcq-03": "本句的「abstract thinking」指「超越具體事物、從概念與模式思考的抽象思考」。",
+        "abstract-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-03"
     },
@@ -755,11 +731,9 @@ export default {
       "masked": "Students need opportunities to apply ____.",
       "options": [
         "abstract-mcq-04",
-        "abstract-mcq-03",
-        "abstract-mcq-05",
-        "abstract-mcq-02",
-        "abstract-mcq-06",
-        "abstract-mcq-01"
+        "abstract-mcq-11",
+        "abstract-mcq-22",
+        "abstract-mcq-17"
       ],
       "explanation": "本句的「abstract knowledge」指「主要在理論／概念層面掌握、未必有直接實際經驗的知識」。",
       "sentenceIndex": 8,
@@ -768,12 +742,10 @@ export default {
         "abstract knowledge"
       ],
       "optionReasons": {
-        "abstract-mcq-04": "本句指「主要在理論／概念層面掌握、未必有直接實際經驗的知識」。",
-        "abstract-mcq-03": "「超越具體事物、從概念與模式思考的抽象思考」與本句語境不同。",
-        "abstract-mcq-05": "「不以具體例子、實物或特定情境呈現的」與本句語境不同。",
-        "abstract-mcq-02": "「非具體實物而屬於思想、品質、原則等的抽象概念」與本句語境不同。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。",
-        "abstract-mcq-01": "「主要存在於思想、原則、概念中，而非具體實物／直接經驗中的；抽象的」與本句語境不同。"
+        "abstract-mcq-04": "本句的「abstract knowledge」指「主要在理論／概念層面掌握、未必有直接實際經驗的知識」。",
+        "abstract-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-04"
     },
@@ -785,11 +757,9 @@ export default {
       "masked": "Drama can connect ____ with real situations.",
       "options": [
         "abstract-mcq-04",
-        "abstract-mcq-03",
-        "abstract-mcq-05",
-        "abstract-mcq-02",
-        "abstract-mcq-06",
-        "abstract-mcq-01"
+        "abstract-mcq-11",
+        "abstract-mcq-17",
+        "abstract-mcq-21"
       ],
       "explanation": "本句的「abstract knowledge」指「主要在理論／概念層面掌握、未必有直接實際經驗的知識」。",
       "sentenceIndex": 9,
@@ -798,12 +768,10 @@ export default {
         "abstract knowledge"
       ],
       "optionReasons": {
-        "abstract-mcq-04": "本句指「主要在理論／概念層面掌握、未必有直接實際經驗的知識」。",
-        "abstract-mcq-03": "「超越具體事物、從概念與模式思考的抽象思考」與本句語境不同。",
-        "abstract-mcq-05": "「不以具體例子、實物或特定情境呈現的」與本句語境不同。",
-        "abstract-mcq-02": "「非具體實物而屬於思想、品質、原則等的抽象概念」與本句語境不同。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。",
-        "abstract-mcq-01": "「主要存在於思想、原則、概念中，而非具體實物／直接經驗中的；抽象的」與本句語境不同。"
+        "abstract-mcq-04": "本句的「abstract knowledge」指「主要在理論／概念層面掌握、未必有直接實際經驗的知識」。",
+        "abstract-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-04"
     },
@@ -815,11 +783,9 @@ export default {
       "masked": "The discussion remained too ____.",
       "options": [
         "abstract-mcq-05",
-        "abstract-mcq-04",
-        "abstract-mcq-06",
-        "abstract-mcq-03",
-        "abstract-mcq-07",
-        "abstract-mcq-02"
+        "abstract-mcq-10",
+        "abstract-mcq-22",
+        "abstract-mcq-17"
       ],
       "explanation": "本句的「abstract」指「不以具體例子、實物或特定情境呈現的」。",
       "sentenceIndex": 10,
@@ -828,12 +794,10 @@ export default {
         "abstract"
       ],
       "optionReasons": {
-        "abstract-mcq-05": "本句指「不以具體例子、實物或特定情境呈現的」。",
-        "abstract-mcq-04": "「主要在理論／概念層面掌握、未必有直接實際經驗的知識」與本句語境不同。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。",
-        "abstract-mcq-03": "「超越具體事物、從概念與模式思考的抽象思考」與本句語境不同。",
-        "abstract-mcq-07": "「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」與本句語境不同。",
-        "abstract-mcq-02": "「非具體實物而屬於思想、品質、原則等的抽象概念」與本句語境不同。"
+        "abstract-mcq-05": "本句的「abstract」指「不以具體例子、實物或特定情境呈現的」。",
+        "abstract-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-05"
     },
@@ -845,11 +809,9 @@ export default {
       "masked": "Give students a concrete example instead of an ____.",
       "options": [
         "abstract-mcq-05",
-        "abstract-mcq-04",
-        "abstract-mcq-06",
-        "abstract-mcq-03",
-        "abstract-mcq-07",
-        "abstract-mcq-02"
+        "abstract-mcq-14",
+        "abstract-mcq-10",
+        "abstract-mcq-08"
       ],
       "explanation": "本句的「abstract explanation」指「不以具體例子、實物或特定情境呈現的」。",
       "sentenceIndex": 11,
@@ -858,12 +820,10 @@ export default {
         "abstract explanation"
       ],
       "optionReasons": {
-        "abstract-mcq-05": "本句指「不以具體例子、實物或特定情境呈現的」。",
-        "abstract-mcq-04": "「主要在理論／概念層面掌握、未必有直接實際經驗的知識」與本句語境不同。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。",
-        "abstract-mcq-03": "「超越具體事物、從概念與模式思考的抽象思考」與本句語境不同。",
-        "abstract-mcq-07": "「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」與本句語境不同。",
-        "abstract-mcq-02": "「非具體實物而屬於思想、品質、原則等的抽象概念」與本句語境不同。"
+        "abstract-mcq-05": "本句的「abstract explanation」指「不以具體例子、實物或特定情境呈現的」。",
+        "abstract-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-05"
     },
@@ -875,11 +835,9 @@ export default {
       "masked": "She prefers ____ to realistic painting.",
       "options": [
         "abstract-mcq-06",
-        "abstract-mcq-05",
-        "abstract-mcq-07",
-        "abstract-mcq-04",
-        "abstract-mcq-08",
-        "abstract-mcq-03"
+        "abstract-mcq-23",
+        "abstract-mcq-09",
+        "abstract-mcq-21"
       ],
       "explanation": "本句的「abstract art」指「不以寫實方式描繪現實物件／人物的抽象藝術風格」。",
       "sentenceIndex": 12,
@@ -888,12 +846,10 @@ export default {
         "abstract art"
       ],
       "optionReasons": {
-        "abstract-mcq-06": "本句指「不以寫實方式描繪現實物件／人物的抽象藝術風格」。",
-        "abstract-mcq-05": "「不以具體例子、實物或特定情境呈現的」與本句語境不同。",
-        "abstract-mcq-07": "「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」與本句語境不同。",
-        "abstract-mcq-04": "「主要在理論／概念層面掌握、未必有直接實際經驗的知識」與本句語境不同。",
-        "abstract-mcq-08": "「概括論文、研究等主要內容的正式摘要」與本句語境不同。",
-        "abstract-mcq-03": "「超越具體事物、從概念與模式思考的抽象思考」與本句語境不同。"
+        "abstract-mcq-06": "本句的「abstract art」指「不以寫實方式描繪現實物件／人物的抽象藝術風格」。",
+        "abstract-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-06"
     },
@@ -905,11 +861,9 @@ export default {
       "masked": "The gallery displayed several ____.",
       "options": [
         "abstract-mcq-06",
-        "abstract-mcq-05",
-        "abstract-mcq-07",
-        "abstract-mcq-04",
-        "abstract-mcq-08",
-        "abstract-mcq-03"
+        "abstract-mcq-09",
+        "abstract-mcq-22",
+        "abstract-mcq-23"
       ],
       "explanation": "本句的「abstract paintings」指「不以寫實方式描繪現實物件／人物的抽象藝術風格」。",
       "sentenceIndex": 13,
@@ -918,12 +872,10 @@ export default {
         "abstract paintings"
       ],
       "optionReasons": {
-        "abstract-mcq-06": "本句指「不以寫實方式描繪現實物件／人物的抽象藝術風格」。",
-        "abstract-mcq-05": "「不以具體例子、實物或特定情境呈現的」與本句語境不同。",
-        "abstract-mcq-07": "「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」與本句語境不同。",
-        "abstract-mcq-04": "「主要在理論／概念層面掌握、未必有直接實際經驗的知識」與本句語境不同。",
-        "abstract-mcq-08": "「概括論文、研究等主要內容的正式摘要」與本句語境不同。",
-        "abstract-mcq-03": "「超越具體事物、從概念與模式思考的抽象思考」與本句語境不同。"
+        "abstract-mcq-06": "本句的「abstract paintings」指「不以寫實方式描繪現實物件／人物的抽象藝術風格」。",
+        "abstract-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-06"
     },
@@ -935,11 +887,9 @@ export default {
       "masked": "The exhibition focuses on ____.",
       "options": [
         "abstract-mcq-07",
-        "abstract-mcq-06",
-        "abstract-mcq-08",
-        "abstract-mcq-05",
-        "abstract-mcq-09",
-        "abstract-mcq-04"
+        "abstract-mcq-22",
+        "abstract-mcq-12",
+        "abstract-mcq-23"
       ],
       "explanation": "本句的「abstract art」指「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」。",
       "sentenceIndex": 14,
@@ -948,12 +898,10 @@ export default {
         "abstract art"
       ],
       "optionReasons": {
-        "abstract-mcq-07": "本句指「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。",
-        "abstract-mcq-08": "「概括論文、研究等主要內容的正式摘要」與本句語境不同。",
-        "abstract-mcq-05": "「不以具體例子、實物或特定情境呈現的」與本句語境不同。",
-        "abstract-mcq-09": "「簡述研究目的、方法、結果等的研究摘要」與本句語境不同。",
-        "abstract-mcq-04": "「主要在理論／概念層面掌握、未必有直接實際經驗的知識」與本句語境不同。"
+        "abstract-mcq-07": "本句的「abstract art」指「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-07"
     },
@@ -965,11 +913,9 @@ export default {
       "masked": "Some ____ emphasizes color and movement.",
       "options": [
         "abstract-mcq-07",
-        "abstract-mcq-06",
-        "abstract-mcq-08",
-        "abstract-mcq-05",
-        "abstract-mcq-09",
-        "abstract-mcq-04"
+        "abstract-mcq-21",
+        "abstract-mcq-23",
+        "abstract-mcq-12"
       ],
       "explanation": "本句的「abstract art」指「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」。",
       "sentenceIndex": 15,
@@ -978,12 +924,10 @@ export default {
         "abstract art"
       ],
       "optionReasons": {
-        "abstract-mcq-07": "本句指「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。",
-        "abstract-mcq-08": "「概括論文、研究等主要內容的正式摘要」與本句語境不同。",
-        "abstract-mcq-05": "「不以具體例子、實物或特定情境呈現的」與本句語境不同。",
-        "abstract-mcq-09": "「簡述研究目的、方法、結果等的研究摘要」與本句語境不同。",
-        "abstract-mcq-04": "「主要在理論／概念層面掌握、未必有直接實際經驗的知識」與本句語境不同。"
+        "abstract-mcq-07": "本句的「abstract art」指「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-07"
     },
@@ -995,11 +939,9 @@ export default {
       "masked": "Read the ____ before the full paper.",
       "options": [
         "abstract-mcq-08",
-        "abstract-mcq-07",
-        "abstract-mcq-09",
-        "abstract-mcq-06",
         "abstract-mcq-10",
-        "abstract-mcq-05"
+        "abstract-mcq-06",
+        "abstract-mcq-21"
       ],
       "explanation": "本句的「abstract」指「概括論文、研究等主要內容的正式摘要」。",
       "sentenceIndex": 16,
@@ -1008,12 +950,10 @@ export default {
         "abstract"
       ],
       "optionReasons": {
-        "abstract-mcq-08": "本句指「概括論文、研究等主要內容的正式摘要」。",
-        "abstract-mcq-07": "「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」與本句語境不同。",
-        "abstract-mcq-09": "「簡述研究目的、方法、結果等的研究摘要」與本句語境不同。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。",
-        "abstract-mcq-10": "「從較大來源中抽取／提取某物」與本句語境不同。",
-        "abstract-mcq-05": "「不以具體例子、實物或特定情境呈現的」與本句語境不同。"
+        "abstract-mcq-08": "本句的「abstract」指「概括論文、研究等主要內容的正式摘要」。",
+        "abstract-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-08"
     },
@@ -1025,11 +965,9 @@ export default {
       "masked": "The journal requires a 250-word ____.",
       "options": [
         "abstract-mcq-08",
-        "abstract-mcq-07",
-        "abstract-mcq-09",
         "abstract-mcq-06",
-        "abstract-mcq-10",
-        "abstract-mcq-05"
+        "abstract-mcq-24",
+        "abstract-mcq-22"
       ],
       "explanation": "本句的「abstract」指「概括論文、研究等主要內容的正式摘要」。",
       "sentenceIndex": 17,
@@ -1038,12 +976,10 @@ export default {
         "abstract"
       ],
       "optionReasons": {
-        "abstract-mcq-08": "本句指「概括論文、研究等主要內容的正式摘要」。",
-        "abstract-mcq-07": "「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」與本句語境不同。",
-        "abstract-mcq-09": "「簡述研究目的、方法、結果等的研究摘要」與本句語境不同。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。",
-        "abstract-mcq-10": "「從較大來源中抽取／提取某物」與本句語境不同。",
-        "abstract-mcq-05": "「不以具體例子、實物或特定情境呈現的」與本句語境不同。"
+        "abstract-mcq-08": "本句的「abstract」指「概括論文、研究等主要內容的正式摘要」。",
+        "abstract-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-08"
     },
@@ -1055,11 +991,9 @@ export default {
       "masked": "The ____ summarizes the main findings.",
       "options": [
         "abstract-mcq-09",
-        "abstract-mcq-08",
-        "abstract-mcq-10",
-        "abstract-mcq-07",
-        "abstract-mcq-11",
-        "abstract-mcq-06"
+        "abstract-mcq-05",
+        "abstract-mcq-21",
+        "abstract-mcq-11"
       ],
       "explanation": "本句的「research abstract」指「簡述研究目的、方法、結果等的研究摘要」。",
       "sentenceIndex": 18,
@@ -1068,12 +1002,10 @@ export default {
         "research abstract"
       ],
       "optionReasons": {
-        "abstract-mcq-09": "本句指「簡述研究目的、方法、結果等的研究摘要」。",
-        "abstract-mcq-08": "「概括論文、研究等主要內容的正式摘要」與本句語境不同。",
-        "abstract-mcq-10": "「從較大來源中抽取／提取某物」與本句語境不同。",
-        "abstract-mcq-07": "「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」與本句語境不同。",
-        "abstract-mcq-11": "「從某來源中提取、抽離某物」與本句語境不同。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。"
+        "abstract-mcq-09": "本句的「research abstract」指「簡述研究目的、方法、結果等的研究摘要」。",
+        "abstract-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-09"
     },
@@ -1085,11 +1017,9 @@ export default {
       "masked": "Conference submissions usually require an ____.",
       "options": [
         "abstract-mcq-09",
-        "abstract-mcq-08",
+        "abstract-mcq-03",
         "abstract-mcq-10",
-        "abstract-mcq-07",
-        "abstract-mcq-11",
-        "abstract-mcq-06"
+        "abstract-mcq-22"
       ],
       "explanation": "本句的「abstract」指「簡述研究目的、方法、結果等的研究摘要」。",
       "sentenceIndex": 19,
@@ -1098,12 +1028,10 @@ export default {
         "abstract"
       ],
       "optionReasons": {
-        "abstract-mcq-09": "本句指「簡述研究目的、方法、結果等的研究摘要」。",
-        "abstract-mcq-08": "「概括論文、研究等主要內容的正式摘要」與本句語境不同。",
-        "abstract-mcq-10": "「從較大來源中抽取／提取某物」與本句語境不同。",
-        "abstract-mcq-07": "「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」與本句語境不同。",
-        "abstract-mcq-11": "「從某來源中提取、抽離某物」與本句語境不同。",
-        "abstract-mcq-06": "「不以寫實方式描繪現實物件／人物的抽象藝術風格」與本句語境不同。"
+        "abstract-mcq-09": "本句的「abstract」指「簡述研究目的、方法、結果等的研究摘要」。",
+        "abstract-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-09"
     },
@@ -1115,11 +1043,9 @@ export default {
       "masked": "The process ____ from the river.",
       "options": [
         "abstract-mcq-10",
-        "abstract-mcq-09",
-        "abstract-mcq-11",
-        "abstract-mcq-08",
         "abstract-mcq-12",
-        "abstract-mcq-07"
+        "abstract-mcq-22",
+        "abstract-mcq-04"
       ],
       "explanation": "本句的「abstracts water」指「從較大來源中抽取／提取某物」。",
       "sentenceIndex": 20,
@@ -1128,12 +1054,10 @@ export default {
         "abstracts water"
       ],
       "optionReasons": {
-        "abstract-mcq-10": "本句指「從較大來源中抽取／提取某物」。",
-        "abstract-mcq-09": "「簡述研究目的、方法、結果等的研究摘要」與本句語境不同。",
-        "abstract-mcq-11": "「從某來源中提取、抽離某物」與本句語境不同。",
-        "abstract-mcq-08": "「概括論文、研究等主要內容的正式摘要」與本句語境不同。",
-        "abstract-mcq-12": "「正式：把文件／資料整理成摘要」與本句語境不同。",
-        "abstract-mcq-07": "「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」與本句語境不同。"
+        "abstract-mcq-10": "本句的「abstracts water」指「從較大來源中抽取／提取某物」。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-10"
     },
@@ -1145,11 +1069,9 @@ export default {
       "masked": "Useful information was ____ the records.",
       "options": [
         "abstract-mcq-10",
-        "abstract-mcq-09",
-        "abstract-mcq-11",
-        "abstract-mcq-08",
-        "abstract-mcq-12",
-        "abstract-mcq-07"
+        "abstract-mcq-05",
+        "abstract-mcq-21",
+        "abstract-mcq-12"
       ],
       "explanation": "本句的「abstracted from」指「從較大來源中抽取／提取某物」。",
       "sentenceIndex": 21,
@@ -1158,12 +1080,10 @@ export default {
         "abstracted from"
       ],
       "optionReasons": {
-        "abstract-mcq-10": "本句指「從較大來源中抽取／提取某物」。",
-        "abstract-mcq-09": "「簡述研究目的、方法、結果等的研究摘要」與本句語境不同。",
-        "abstract-mcq-11": "「從某來源中提取、抽離某物」與本句語境不同。",
-        "abstract-mcq-08": "「概括論文、研究等主要內容的正式摘要」與本句語境不同。",
-        "abstract-mcq-12": "「正式：把文件／資料整理成摘要」與本句語境不同。",
-        "abstract-mcq-07": "「以色彩、形狀、線條等而非寫實再現為主的抽象藝術」與本句語境不同。"
+        "abstract-mcq-10": "本句的「abstracted from」指「從較大來源中抽取／提取某物」。",
+        "abstract-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-10"
     },
@@ -1175,11 +1095,9 @@ export default {
       "masked": "The researchers ____ hospital records.",
       "options": [
         "abstract-mcq-11",
-        "abstract-mcq-10",
-        "abstract-mcq-12",
-        "abstract-mcq-09",
-        "abstract-mcq-13",
-        "abstract-mcq-08"
+        "abstract-mcq-08",
+        "abstract-mcq-21",
+        "abstract-mcq-23"
       ],
       "explanation": "本句的「abstracted data from」指「從某來源中提取、抽離某物」。",
       "sentenceIndex": 22,
@@ -1188,12 +1106,10 @@ export default {
         "abstracted data from"
       ],
       "optionReasons": {
-        "abstract-mcq-11": "本句指「從某來源中提取、抽離某物」。",
-        "abstract-mcq-10": "「從較大來源中抽取／提取某物」與本句語境不同。",
-        "abstract-mcq-12": "「正式：把文件／資料整理成摘要」與本句語境不同。",
-        "abstract-mcq-09": "「簡述研究目的、方法、結果等的研究摘要」與本句語境不同。",
-        "abstract-mcq-13": "「隱藏具體實作細節，以較高層次方式表示／抽象化」與本句語境不同。",
-        "abstract-mcq-08": "「概括論文、研究等主要內容的正式摘要」與本句語境不同。"
+        "abstract-mcq-11": "本句的「abstracted data from」指「從某來源中提取、抽離某物」。",
+        "abstract-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-11"
     },
@@ -1205,11 +1121,9 @@ export default {
       "masked": "Water is ____ underground sources.",
       "options": [
         "abstract-mcq-11",
-        "abstract-mcq-10",
         "abstract-mcq-12",
-        "abstract-mcq-09",
-        "abstract-mcq-13",
-        "abstract-mcq-08"
+        "abstract-mcq-18",
+        "abstract-mcq-22"
       ],
       "explanation": "本句的「abstracted from」指「從某來源中提取、抽離某物」。",
       "sentenceIndex": 23,
@@ -1218,12 +1132,10 @@ export default {
         "abstracted from"
       ],
       "optionReasons": {
-        "abstract-mcq-11": "本句指「從某來源中提取、抽離某物」。",
-        "abstract-mcq-10": "「從較大來源中抽取／提取某物」與本句語境不同。",
-        "abstract-mcq-12": "「正式：把文件／資料整理成摘要」與本句語境不同。",
-        "abstract-mcq-09": "「簡述研究目的、方法、結果等的研究摘要」與本句語境不同。",
-        "abstract-mcq-13": "「隱藏具體實作細節，以較高層次方式表示／抽象化」與本句語境不同。",
-        "abstract-mcq-08": "「概括論文、研究等主要內容的正式摘要」與本句語境不同。"
+        "abstract-mcq-11": "本句的「abstracted from」指「從某來源中提取、抽離某物」。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-11"
     },
@@ -1235,11 +1147,9 @@ export default {
       "masked": "The researcher ____.",
       "options": [
         "abstract-mcq-12",
-        "abstract-mcq-11",
-        "abstract-mcq-13",
-        "abstract-mcq-10",
-        "abstract-mcq-14",
-        "abstract-mcq-09"
+        "abstract-mcq-21",
+        "abstract-mcq-05",
+        "abstract-mcq-11"
       ],
       "explanation": "本句的「abstracted the key findings」指「正式：把文件／資料整理成摘要」。",
       "sentenceIndex": 24,
@@ -1248,12 +1158,10 @@ export default {
         "abstracted the key findings"
       ],
       "optionReasons": {
-        "abstract-mcq-12": "本句指「正式：把文件／資料整理成摘要」。",
-        "abstract-mcq-11": "「從某來源中提取、抽離某物」與本句語境不同。",
-        "abstract-mcq-13": "「隱藏具體實作細節，以較高層次方式表示／抽象化」與本句語境不同。",
-        "abstract-mcq-10": "「從較大來源中抽取／提取某物」與本句語境不同。",
-        "abstract-mcq-14": "「用較簡化層次表示系統並隱藏細節的抽象／抽象層」與本句語境不同。",
-        "abstract-mcq-09": "「簡述研究目的、方法、結果等的研究摘要」與本句語境不同。"
+        "abstract-mcq-12": "本句的「abstracted the key findings」指「正式：把文件／資料整理成摘要」。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-12"
     },
@@ -1265,11 +1173,9 @@ export default {
       "masked": "The report was ____ for the database.",
       "options": [
         "abstract-mcq-12",
-        "abstract-mcq-11",
-        "abstract-mcq-13",
-        "abstract-mcq-10",
         "abstract-mcq-14",
-        "abstract-mcq-09"
+        "abstract-mcq-05",
+        "abstract-mcq-10"
       ],
       "explanation": "本句的「abstracted」指「正式：把文件／資料整理成摘要」。",
       "sentenceIndex": 25,
@@ -1278,12 +1184,10 @@ export default {
         "abstracted"
       ],
       "optionReasons": {
-        "abstract-mcq-12": "本句指「正式：把文件／資料整理成摘要」。",
-        "abstract-mcq-11": "「從某來源中提取、抽離某物」與本句語境不同。",
-        "abstract-mcq-13": "「隱藏具體實作細節，以較高層次方式表示／抽象化」與本句語境不同。",
-        "abstract-mcq-10": "「從較大來源中抽取／提取某物」與本句語境不同。",
-        "abstract-mcq-14": "「用較簡化層次表示系統並隱藏細節的抽象／抽象層」與本句語境不同。",
-        "abstract-mcq-09": "「簡述研究目的、方法、結果等的研究摘要」與本句語境不同。"
+        "abstract-mcq-12": "本句的「abstracted」指「正式：把文件／資料整理成摘要」。",
+        "abstract-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-12"
     },
@@ -1295,11 +1199,9 @@ export default {
       "masked": "Good software design often relies on ____.",
       "options": [
         "abstract-mcq-14",
-        "abstract-mcq-13",
-        "abstract-mcq-15",
-        "abstract-mcq-12",
-        "abstract-mcq-16",
-        "abstract-mcq-11"
+        "abstract-mcq-21",
+        "abstract-mcq-05",
+        "abstract-mcq-08"
       ],
       "explanation": "本句的「abstraction」指「用較簡化層次表示系統並隱藏細節的抽象／抽象層」。",
       "sentenceIndex": 28,
@@ -1308,12 +1210,10 @@ export default {
         "abstraction"
       ],
       "optionReasons": {
-        "abstract-mcq-14": "本句指「用較簡化層次表示系統並隱藏細節的抽象／抽象層」。",
-        "abstract-mcq-13": "「隱藏具體實作細節，以較高層次方式表示／抽象化」與本句語境不同。",
-        "abstract-mcq-15": "「主要供其他類別繼承、通常不能直接建立實例的抽象類別」與本句語境不同。",
-        "abstract-mcq-12": "「正式：把文件／資料整理成摘要」與本句語境不同。",
-        "abstract-mcq-16": "「關注一般結構、關係而非具體例子的抽象數學性質」與本句語境不同。",
-        "abstract-mcq-11": "「從某來源中提取、抽離某物」與本句語境不同。"
+        "abstract-mcq-14": "本句的「abstraction」指「用較簡化層次表示系統並隱藏細節的抽象／抽象層」。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-14"
     },
@@ -1325,11 +1225,9 @@ export default {
       "masked": "The API provides a useful ____ over the database.",
       "options": [
         "abstract-mcq-14",
-        "abstract-mcq-13",
-        "abstract-mcq-15",
+        "abstract-mcq-05",
         "abstract-mcq-12",
-        "abstract-mcq-16",
-        "abstract-mcq-11"
+        "abstract-mcq-21"
       ],
       "explanation": "本句的「abstraction」指「用較簡化層次表示系統並隱藏細節的抽象／抽象層」。",
       "sentenceIndex": 29,
@@ -1338,12 +1236,10 @@ export default {
         "abstraction"
       ],
       "optionReasons": {
-        "abstract-mcq-14": "本句指「用較簡化層次表示系統並隱藏細節的抽象／抽象層」。",
-        "abstract-mcq-13": "「隱藏具體實作細節，以較高層次方式表示／抽象化」與本句語境不同。",
-        "abstract-mcq-15": "「主要供其他類別繼承、通常不能直接建立實例的抽象類別」與本句語境不同。",
-        "abstract-mcq-12": "「正式：把文件／資料整理成摘要」與本句語境不同。",
-        "abstract-mcq-16": "「關注一般結構、關係而非具體例子的抽象數學性質」與本句語境不同。",
-        "abstract-mcq-11": "「從某來源中提取、抽離某物」與本句語境不同。"
+        "abstract-mcq-14": "本句的「abstraction」指「用較簡化層次表示系統並隱藏細節的抽象／抽象層」。",
+        "abstract-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-14"
     },
@@ -1355,11 +1251,9 @@ export default {
       "masked": "The program defines an ____ for vehicles.",
       "options": [
         "abstract-mcq-15",
-        "abstract-mcq-14",
-        "abstract-mcq-16",
-        "abstract-mcq-13",
-        "abstract-mcq-17",
-        "abstract-mcq-12"
+        "abstract-mcq-22",
+        "abstract-mcq-23",
+        "abstract-mcq-10"
       ],
       "explanation": "本句的「abstract class」指「主要供其他類別繼承、通常不能直接建立實例的抽象類別」。",
       "sentenceIndex": 30,
@@ -1368,12 +1262,10 @@ export default {
         "abstract class"
       ],
       "optionReasons": {
-        "abstract-mcq-15": "本句指「主要供其他類別繼承、通常不能直接建立實例的抽象類別」。",
-        "abstract-mcq-14": "「用較簡化層次表示系統並隱藏細節的抽象／抽象層」與本句語境不同。",
-        "abstract-mcq-16": "「關注一般結構、關係而非具體例子的抽象數學性質」與本句語境不同。",
-        "abstract-mcq-13": "「隱藏具體實作細節，以較高層次方式表示／抽象化」與本句語境不同。",
-        "abstract-mcq-17": "「研究群、環、域等一般代數結構的抽象代數」與本句語境不同。",
-        "abstract-mcq-12": "「正式：把文件／資料整理成摘要」與本句語境不同。"
+        "abstract-mcq-15": "本句的「abstract class」指「主要供其他類別繼承、通常不能直接建立實例的抽象類別」。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-15"
     },
@@ -1385,11 +1277,9 @@ export default {
       "masked": "Concrete classes inherit from the ____.",
       "options": [
         "abstract-mcq-15",
-        "abstract-mcq-14",
-        "abstract-mcq-16",
-        "abstract-mcq-13",
-        "abstract-mcq-17",
-        "abstract-mcq-12"
+        "abstract-mcq-18",
+        "abstract-mcq-22",
+        "abstract-mcq-10"
       ],
       "explanation": "本句的「abstract class」指「主要供其他類別繼承、通常不能直接建立實例的抽象類別」。",
       "sentenceIndex": 31,
@@ -1398,12 +1288,10 @@ export default {
         "abstract class"
       ],
       "optionReasons": {
-        "abstract-mcq-15": "本句指「主要供其他類別繼承、通常不能直接建立實例的抽象類別」。",
-        "abstract-mcq-14": "「用較簡化層次表示系統並隱藏細節的抽象／抽象層」與本句語境不同。",
-        "abstract-mcq-16": "「關注一般結構、關係而非具體例子的抽象數學性質」與本句語境不同。",
-        "abstract-mcq-13": "「隱藏具體實作細節，以較高層次方式表示／抽象化」與本句語境不同。",
-        "abstract-mcq-17": "「研究群、環、域等一般代數結構的抽象代數」與本句語境不同。",
-        "abstract-mcq-12": "「正式：把文件／資料整理成摘要」與本句語境不同。"
+        "abstract-mcq-15": "本句的「abstract class」指「主要供其他類別繼承、通常不能直接建立實例的抽象類別」。",
+        "abstract-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-15"
     },
@@ -1415,11 +1303,9 @@ export default {
       "masked": "The course introduces ____.",
       "options": [
         "abstract-mcq-16",
-        "abstract-mcq-15",
-        "abstract-mcq-17",
-        "abstract-mcq-14",
-        "abstract-mcq-18",
-        "abstract-mcq-13"
+        "abstract-mcq-21",
+        "abstract-mcq-04",
+        "abstract-mcq-12"
       ],
       "explanation": "本句的「abstract algebra」指「關注一般結構、關係而非具體例子的抽象數學性質」。",
       "sentenceIndex": 32,
@@ -1428,12 +1314,10 @@ export default {
         "abstract algebra"
       ],
       "optionReasons": {
-        "abstract-mcq-16": "本句指「關注一般結構、關係而非具體例子的抽象數學性質」。",
-        "abstract-mcq-15": "「主要供其他類別繼承、通常不能直接建立實例的抽象類別」與本句語境不同。",
-        "abstract-mcq-17": "「研究群、環、域等一般代數結構的抽象代數」與本句語境不同。",
-        "abstract-mcq-14": "「用較簡化層次表示系統並隱藏細節的抽象／抽象層」與本句語境不同。",
-        "abstract-mcq-18": "「從概念／理論層面而非具體情況地」與本句語境不同。",
-        "abstract-mcq-13": "「隱藏具體實作細節，以較高層次方式表示／抽象化」與本句語境不同。"
+        "abstract-mcq-16": "本句的「abstract algebra」指「關注一般結構、關係而非具體例子的抽象數學性質」。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-16"
     },
@@ -1445,11 +1329,9 @@ export default {
       "masked": "The proof becomes increasingly ____.",
       "options": [
         "abstract-mcq-16",
-        "abstract-mcq-15",
-        "abstract-mcq-17",
-        "abstract-mcq-14",
-        "abstract-mcq-18",
-        "abstract-mcq-13"
+        "abstract-mcq-08",
+        "abstract-mcq-22",
+        "abstract-mcq-11"
       ],
       "explanation": "本句的「abstract」指「關注一般結構、關係而非具體例子的抽象數學性質」。",
       "sentenceIndex": 33,
@@ -1458,12 +1340,10 @@ export default {
         "abstract"
       ],
       "optionReasons": {
-        "abstract-mcq-16": "本句指「關注一般結構、關係而非具體例子的抽象數學性質」。",
-        "abstract-mcq-15": "「主要供其他類別繼承、通常不能直接建立實例的抽象類別」與本句語境不同。",
-        "abstract-mcq-17": "「研究群、環、域等一般代數結構的抽象代數」與本句語境不同。",
-        "abstract-mcq-14": "「用較簡化層次表示系統並隱藏細節的抽象／抽象層」與本句語境不同。",
-        "abstract-mcq-18": "「從概念／理論層面而非具體情況地」與本句語境不同。",
-        "abstract-mcq-13": "「隱藏具體實作細節，以較高層次方式表示／抽象化」與本句語境不同。"
+        "abstract-mcq-16": "本句的「abstract」指「關注一般結構、關係而非具體例子的抽象數學性質」。",
+        "abstract-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-16"
     },
@@ -1475,11 +1355,9 @@ export default {
       "masked": "She is studying ____.",
       "options": [
         "abstract-mcq-17",
-        "abstract-mcq-16",
-        "abstract-mcq-18",
-        "abstract-mcq-15",
-        "abstract-mcq-19",
-        "abstract-mcq-14"
+        "abstract-mcq-22",
+        "abstract-mcq-12",
+        "abstract-mcq-05"
       ],
       "explanation": "本句的「abstract algebra」指「研究群、環、域等一般代數結構的抽象代數」。",
       "sentenceIndex": 34,
@@ -1488,12 +1366,10 @@ export default {
         "abstract algebra"
       ],
       "optionReasons": {
-        "abstract-mcq-17": "本句指「研究群、環、域等一般代數結構的抽象代數」。",
-        "abstract-mcq-16": "「關注一般結構、關係而非具體例子的抽象數學性質」與本句語境不同。",
-        "abstract-mcq-18": "「從概念／理論層面而非具體情況地」與本句語境不同。",
-        "abstract-mcq-15": "「主要供其他類別繼承、通常不能直接建立實例的抽象類別」與本句語境不同。",
-        "abstract-mcq-19": "「從具體個例中抽離出的抽象概念」與本句語境不同。",
-        "abstract-mcq-14": "「用較簡化層次表示系統並隱藏細節的抽象／抽象層」與本句語境不同。"
+        "abstract-mcq-17": "本句的「abstract algebra」指「研究群、環、域等一般代數結構的抽象代數」。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-17"
     },
@@ -1505,11 +1381,9 @@ export default {
       "masked": "____ focuses on general mathematical structures.",
       "options": [
         "abstract-mcq-17",
-        "abstract-mcq-16",
-        "abstract-mcq-18",
-        "abstract-mcq-15",
-        "abstract-mcq-19",
-        "abstract-mcq-14"
+        "abstract-mcq-05",
+        "abstract-mcq-12",
+        "abstract-mcq-04"
       ],
       "explanation": "本句的「Abstract algebra」指「研究群、環、域等一般代數結構的抽象代數」。",
       "sentenceIndex": 35,
@@ -1518,12 +1392,10 @@ export default {
         "Abstract algebra"
       ],
       "optionReasons": {
-        "abstract-mcq-17": "本句指「研究群、環、域等一般代數結構的抽象代數」。",
-        "abstract-mcq-16": "「關注一般結構、關係而非具體例子的抽象數學性質」與本句語境不同。",
-        "abstract-mcq-18": "「從概念／理論層面而非具體情況地」與本句語境不同。",
-        "abstract-mcq-15": "「主要供其他類別繼承、通常不能直接建立實例的抽象類別」與本句語境不同。",
-        "abstract-mcq-19": "「從具體個例中抽離出的抽象概念」與本句語境不同。",
-        "abstract-mcq-14": "「用較簡化層次表示系統並隱藏細節的抽象／抽象層」與本句語境不同。"
+        "abstract-mcq-17": "本句的「Abstract algebra」指「研究群、環、域等一般代數結構的抽象代數」。",
+        "abstract-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-17"
     },
@@ -1535,11 +1407,9 @@ export default {
       "masked": "It is easy to discuss the issue ____.",
       "options": [
         "abstract-mcq-18",
-        "abstract-mcq-17",
-        "abstract-mcq-19",
-        "abstract-mcq-16",
-        "abstract-mcq-20",
-        "abstract-mcq-15"
+        "abstract-mcq-11",
+        "abstract-mcq-21",
+        "abstract-mcq-06"
       ],
       "explanation": "本句的「abstractly」指「從概念／理論層面而非具體情況地」。",
       "sentenceIndex": 36,
@@ -1548,12 +1418,10 @@ export default {
         "abstractly"
       ],
       "optionReasons": {
-        "abstract-mcq-18": "本句指「從概念／理論層面而非具體情況地」。",
-        "abstract-mcq-17": "「研究群、環、域等一般代數結構的抽象代數」與本句語境不同。",
-        "abstract-mcq-19": "「從具體個例中抽離出的抽象概念」與本句語境不同。",
-        "abstract-mcq-16": "「關注一般結構、關係而非具體例子的抽象數學性質」與本句語境不同。",
-        "abstract-mcq-20": "「忽略個別細節、抽取共同特徵的抽象化過程」與本句語境不同。",
-        "abstract-mcq-15": "「主要供其他類別繼承、通常不能直接建立實例的抽象類別」與本句語境不同。"
+        "abstract-mcq-18": "本句的「abstractly」指「從概念／理論層面而非具體情況地」。",
+        "abstract-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-18"
     },
@@ -1565,11 +1433,9 @@ export default {
       "masked": "Students first considered the idea ____.",
       "options": [
         "abstract-mcq-18",
-        "abstract-mcq-17",
-        "abstract-mcq-19",
-        "abstract-mcq-16",
-        "abstract-mcq-20",
-        "abstract-mcq-15"
+        "abstract-mcq-09",
+        "abstract-mcq-22",
+        "abstract-mcq-20"
       ],
       "explanation": "本句的「abstractly」指「從概念／理論層面而非具體情況地」。",
       "sentenceIndex": 37,
@@ -1578,12 +1444,10 @@ export default {
         "abstractly"
       ],
       "optionReasons": {
-        "abstract-mcq-18": "本句指「從概念／理論層面而非具體情況地」。",
-        "abstract-mcq-17": "「研究群、環、域等一般代數結構的抽象代數」與本句語境不同。",
-        "abstract-mcq-19": "「從具體個例中抽離出的抽象概念」與本句語境不同。",
-        "abstract-mcq-16": "「關注一般結構、關係而非具體例子的抽象數學性質」與本句語境不同。",
-        "abstract-mcq-20": "「忽略個別細節、抽取共同特徵的抽象化過程」與本句語境不同。",
-        "abstract-mcq-15": "「主要供其他類別繼承、通常不能直接建立實例的抽象類別」與本句語境不同。"
+        "abstract-mcq-18": "本句的「abstractly」指「從概念／理論層面而非具體情況地」。",
+        "abstract-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-18"
     },
@@ -1595,11 +1459,8 @@ export default {
       "masked": "Justice” can become an ____ if it is never linked to real cases.",
       "options": [
         "abstract-mcq-19",
-        "abstract-mcq-18",
-        "abstract-mcq-20",
-        "abstract-mcq-17",
-        "abstract-mcq-21",
-        "abstract-mcq-16"
+        "abstract-mcq-09",
+        "abstract-mcq-21"
       ],
       "explanation": "本句的「abstraction」指「從具體個例中抽離出的抽象概念」。",
       "sentenceIndex": 38,
@@ -1608,12 +1469,9 @@ export default {
         "abstraction"
       ],
       "optionReasons": {
-        "abstract-mcq-19": "本句指「從具體個例中抽離出的抽象概念」。",
-        "abstract-mcq-18": "「從概念／理論層面而非具體情況地」與本句語境不同。",
-        "abstract-mcq-20": "「忽略個別細節、抽取共同特徵的抽象化過程」與本句語境不同。",
-        "abstract-mcq-17": "「研究群、環、域等一般代數結構的抽象代數」與本句語境不同。",
-        "abstract-mcq-21": "「因沉浸思考而沒有留意周圍；心不在焉的」與本句語境不同。",
-        "abstract-mcq-16": "「關注一般結構、關係而非具體例子的抽象數學性質」與本句語境不同。"
+        "abstract-mcq-19": "本句的「abstraction」指「從具體個例中抽離出的抽象概念」。",
+        "abstract-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-19"
     },
@@ -1625,11 +1483,8 @@ export default {
       "masked": "The discussion moved from practical examples to ____.",
       "options": [
         "abstract-mcq-19",
-        "abstract-mcq-18",
-        "abstract-mcq-20",
-        "abstract-mcq-17",
-        "abstract-mcq-21",
-        "abstract-mcq-16"
+        "abstract-mcq-09",
+        "abstract-mcq-21"
       ],
       "explanation": "本句的「abstraction」指「從具體個例中抽離出的抽象概念」。",
       "sentenceIndex": 39,
@@ -1638,12 +1493,9 @@ export default {
         "abstraction"
       ],
       "optionReasons": {
-        "abstract-mcq-19": "本句指「從具體個例中抽離出的抽象概念」。",
-        "abstract-mcq-18": "「從概念／理論層面而非具體情況地」與本句語境不同。",
-        "abstract-mcq-20": "「忽略個別細節、抽取共同特徵的抽象化過程」與本句語境不同。",
-        "abstract-mcq-17": "「研究群、環、域等一般代數結構的抽象代數」與本句語境不同。",
-        "abstract-mcq-21": "「因沉浸思考而沒有留意周圍；心不在焉的」與本句語境不同。",
-        "abstract-mcq-16": "「關注一般結構、關係而非具體例子的抽象數學性質」與本句語境不同。"
+        "abstract-mcq-19": "本句的「abstraction」指「從具體個例中抽離出的抽象概念」。",
+        "abstract-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-19"
     },
@@ -1655,11 +1507,9 @@ export default {
       "masked": "Mathematical reasoning often involves ____.",
       "options": [
         "abstract-mcq-20",
-        "abstract-mcq-19",
-        "abstract-mcq-21",
-        "abstract-mcq-18",
         "abstract-mcq-22",
-        "abstract-mcq-17"
+        "abstract-mcq-08",
+        "abstract-mcq-23"
       ],
       "explanation": "本句的「abstraction」指「忽略個別細節、抽取共同特徵的抽象化過程」。",
       "sentenceIndex": 40,
@@ -1668,12 +1518,10 @@ export default {
         "abstraction"
       ],
       "optionReasons": {
-        "abstract-mcq-20": "本句指「忽略個別細節、抽取共同特徵的抽象化過程」。",
-        "abstract-mcq-19": "「從具體個例中抽離出的抽象概念」與本句語境不同。",
-        "abstract-mcq-21": "「因沉浸思考而沒有留意周圍；心不在焉的」與本句語境不同。",
-        "abstract-mcq-18": "「從概念／理論層面而非具體情況地」與本句語境不同。",
-        "abstract-mcq-22": "「心不在焉地；出神地」與本句語境不同。",
-        "abstract-mcq-17": "「研究群、環、域等一般代數結構的抽象代數」與本句語境不同。"
+        "abstract-mcq-20": "本句的「abstraction」指「忽略個別細節、抽取共同特徵的抽象化過程」。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-20"
     },
@@ -1685,11 +1533,9 @@ export default {
       "masked": "____ allows us to identify common patterns.",
       "options": [
         "abstract-mcq-20",
-        "abstract-mcq-19",
-        "abstract-mcq-21",
+        "abstract-mcq-08",
         "abstract-mcq-18",
-        "abstract-mcq-22",
-        "abstract-mcq-17"
+        "abstract-mcq-21"
       ],
       "explanation": "本句的「Abstraction」指「忽略個別細節、抽取共同特徵的抽象化過程」。",
       "sentenceIndex": 41,
@@ -1698,12 +1544,10 @@ export default {
         "Abstraction"
       ],
       "optionReasons": {
-        "abstract-mcq-20": "本句指「忽略個別細節、抽取共同特徵的抽象化過程」。",
-        "abstract-mcq-19": "「從具體個例中抽離出的抽象概念」與本句語境不同。",
-        "abstract-mcq-21": "「因沉浸思考而沒有留意周圍；心不在焉的」與本句語境不同。",
-        "abstract-mcq-18": "「從概念／理論層面而非具體情況地」與本句語境不同。",
-        "abstract-mcq-22": "「心不在焉地；出神地」與本句語境不同。",
-        "abstract-mcq-17": "「研究群、環、域等一般代數結構的抽象代數」與本句語境不同。"
+        "abstract-mcq-20": "本句的「Abstraction」指「忽略個別細節、抽取共同特徵的抽象化過程」。",
+        "abstract-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-20"
     },
@@ -1715,11 +1559,9 @@ export default {
       "masked": "He looked rather ____ during the meeting.",
       "options": [
         "abstract-mcq-21",
-        "abstract-mcq-20",
-        "abstract-mcq-22",
-        "abstract-mcq-19",
-        "abstract-mcq-23",
-        "abstract-mcq-18"
+        "abstract-mcq-26",
+        "abstract-mcq-10",
+        "abstract-mcq-08"
       ],
       "explanation": "本句的「abstracted」指「因沉浸思考而沒有留意周圍；心不在焉的」。",
       "sentenceIndex": 42,
@@ -1728,12 +1570,10 @@ export default {
         "abstracted"
       ],
       "optionReasons": {
-        "abstract-mcq-21": "本句指「因沉浸思考而沒有留意周圍；心不在焉的」。",
-        "abstract-mcq-20": "「忽略個別細節、抽取共同特徵的抽象化過程」與本句語境不同。",
-        "abstract-mcq-22": "「心不在焉地；出神地」與本句語境不同。",
-        "abstract-mcq-19": "「從具體個例中抽離出的抽象概念」與本句語境不同。",
-        "abstract-mcq-23": "「不考慮具體個案，只從一般／理論層面而言」與本句語境不同。",
-        "abstract-mcq-18": "「從概念／理論層面而非具體情況地」與本句語境不同。"
+        "abstract-mcq-21": "本句的「abstracted」指「因沉浸思考而沒有留意周圍；心不在焉的」。",
+        "abstract-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-21"
     },
@@ -1745,11 +1585,9 @@ export default {
       "masked": "She gave an ____ and looked away.",
       "options": [
         "abstract-mcq-21",
-        "abstract-mcq-20",
-        "abstract-mcq-22",
-        "abstract-mcq-19",
-        "abstract-mcq-23",
-        "abstract-mcq-18"
+        "abstract-mcq-07",
+        "abstract-mcq-08",
+        "abstract-mcq-24"
       ],
       "explanation": "本句的「abstracted smile」指「因沉浸思考而沒有留意周圍；心不在焉的」。",
       "sentenceIndex": 43,
@@ -1758,12 +1596,10 @@ export default {
         "abstracted smile"
       ],
       "optionReasons": {
-        "abstract-mcq-21": "本句指「因沉浸思考而沒有留意周圍；心不在焉的」。",
-        "abstract-mcq-20": "「忽略個別細節、抽取共同特徵的抽象化過程」與本句語境不同。",
-        "abstract-mcq-22": "「心不在焉地；出神地」與本句語境不同。",
-        "abstract-mcq-19": "「從具體個例中抽離出的抽象概念」與本句語境不同。",
-        "abstract-mcq-23": "「不考慮具體個案，只從一般／理論層面而言」與本句語境不同。",
-        "abstract-mcq-18": "「從概念／理論層面而非具體情況地」與本句語境不同。"
+        "abstract-mcq-21": "本句的「abstracted smile」指「因沉浸思考而沒有留意周圍；心不在焉的」。",
+        "abstract-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-21"
     },
@@ -1775,11 +1611,9 @@ export default {
       "masked": "He stared ____ out of the window.",
       "options": [
         "abstract-mcq-22",
-        "abstract-mcq-21",
-        "abstract-mcq-23",
-        "abstract-mcq-20",
-        "abstract-mcq-24",
-        "abstract-mcq-19"
+        "abstract-mcq-03",
+        "abstract-mcq-11",
+        "abstract-mcq-08"
       ],
       "explanation": "本句的「abstractedly」指「心不在焉地；出神地」。",
       "sentenceIndex": 44,
@@ -1788,12 +1622,10 @@ export default {
         "abstractedly"
       ],
       "optionReasons": {
-        "abstract-mcq-22": "本句指「心不在焉地；出神地」。",
-        "abstract-mcq-21": "「因沉浸思考而沒有留意周圍；心不在焉的」與本句語境不同。",
-        "abstract-mcq-23": "「不考慮具體個案，只從一般／理論層面而言」與本句語境不同。",
-        "abstract-mcq-20": "「忽略個別細節、抽取共同特徵的抽象化過程」與本句語境不同。",
-        "abstract-mcq-24": "「把某事從其具體語境／環境中抽離來看」與本句語境不同。",
-        "abstract-mcq-19": "「從具體個例中抽離出的抽象概念」與本句語境不同。"
+        "abstract-mcq-22": "本句的「abstractedly」指「心不在焉地；出神地」。",
+        "abstract-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-22"
     },
@@ -1805,11 +1637,9 @@ export default {
       "masked": "She nodded ____.",
       "options": [
         "abstract-mcq-22",
-        "abstract-mcq-21",
-        "abstract-mcq-23",
-        "abstract-mcq-20",
-        "abstract-mcq-24",
-        "abstract-mcq-19"
+        "abstract-mcq-06",
+        "abstract-mcq-09",
+        "abstract-mcq-23"
       ],
       "explanation": "本句的「abstractedly」指「心不在焉地；出神地」。",
       "sentenceIndex": 45,
@@ -1818,12 +1648,10 @@ export default {
         "abstractedly"
       ],
       "optionReasons": {
-        "abstract-mcq-22": "本句指「心不在焉地；出神地」。",
-        "abstract-mcq-21": "「因沉浸思考而沒有留意周圍；心不在焉的」與本句語境不同。",
-        "abstract-mcq-23": "「不考慮具體個案，只從一般／理論層面而言」與本句語境不同。",
-        "abstract-mcq-20": "「忽略個別細節、抽取共同特徵的抽象化過程」與本句語境不同。",
-        "abstract-mcq-24": "「把某事從其具體語境／環境中抽離來看」與本句語境不同。",
-        "abstract-mcq-19": "「從具體個例中抽離出的抽象概念」與本句語境不同。"
+        "abstract-mcq-22": "本句的「abstractedly」指「心不在焉地；出神地」。",
+        "abstract-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-22"
     },
@@ -1835,11 +1663,9 @@ export default {
       "masked": "The idea sounds convincing ____.",
       "options": [
         "abstract-mcq-23",
-        "abstract-mcq-22",
-        "abstract-mcq-24",
-        "abstract-mcq-21",
-        "abstract-mcq-25",
-        "abstract-mcq-20"
+        "abstract-mcq-20",
+        "abstract-mcq-09",
+        "abstract-mcq-22"
       ],
       "explanation": "本句的「in the abstract」指「不考慮具體個案，只從一般／理論層面而言」。",
       "sentenceIndex": 46,
@@ -1848,12 +1674,10 @@ export default {
         "in the abstract"
       ],
       "optionReasons": {
-        "abstract-mcq-23": "本句指「不考慮具體個案，只從一般／理論層面而言」。",
-        "abstract-mcq-22": "「心不在焉地；出神地」與本句語境不同。",
-        "abstract-mcq-24": "「把某事從其具體語境／環境中抽離來看」與本句語境不同。",
-        "abstract-mcq-21": "「因沉浸思考而沒有留意周圍；心不在焉的」與本句語境不同。",
-        "abstract-mcq-25": "「表示概念、品質、狀態等而非具體物件的抽象名詞」與本句語境不同。",
-        "abstract-mcq-20": "「忽略個別細節、抽取共同特徵的抽象化過程」與本句語境不同。"
+        "abstract-mcq-23": "本句的「in the abstract」指「不考慮具體個案，只從一般／理論層面而言」。",
+        "abstract-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-23"
     },
@@ -1865,11 +1689,9 @@ export default {
       "masked": "It is easy to support the principle ____.",
       "options": [
         "abstract-mcq-23",
-        "abstract-mcq-22",
-        "abstract-mcq-24",
-        "abstract-mcq-21",
-        "abstract-mcq-25",
-        "abstract-mcq-20"
+        "abstract-mcq-26",
+        "abstract-mcq-11",
+        "abstract-mcq-22"
       ],
       "explanation": "本句的「in the abstract」指「不考慮具體個案，只從一般／理論層面而言」。",
       "sentenceIndex": 47,
@@ -1878,12 +1700,10 @@ export default {
         "in the abstract"
       ],
       "optionReasons": {
-        "abstract-mcq-23": "本句指「不考慮具體個案，只從一般／理論層面而言」。",
-        "abstract-mcq-22": "「心不在焉地；出神地」與本句語境不同。",
-        "abstract-mcq-24": "「把某事從其具體語境／環境中抽離來看」與本句語境不同。",
-        "abstract-mcq-21": "「因沉浸思考而沒有留意周圍；心不在焉的」與本句語境不同。",
-        "abstract-mcq-25": "「表示概念、品質、狀態等而非具體物件的抽象名詞」與本句語境不同。",
-        "abstract-mcq-20": "「忽略個別細節、抽取共同特徵的抽象化過程」與本句語境不同。"
+        "abstract-mcq-23": "本句的「in the abstract」指「不考慮具體個案，只從一般／理論層面而言」。",
+        "abstract-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-23"
     },
@@ -1895,11 +1715,9 @@ export default {
       "masked": "You cannot completely ____.",
       "options": [
         "abstract-mcq-24",
-        "abstract-mcq-23",
-        "abstract-mcq-25",
+        "abstract-mcq-08",
         "abstract-mcq-22",
-        "abstract-mcq-26",
-        "abstract-mcq-21"
+        "abstract-mcq-07"
       ],
       "explanation": "本句的「abstract the statement from its context」指「把某事從其具體語境／環境中抽離來看」。",
       "sentenceIndex": 48,
@@ -1908,12 +1726,10 @@ export default {
         "abstract the statement from its context"
       ],
       "optionReasons": {
-        "abstract-mcq-24": "本句指「把某事從其具體語境／環境中抽離來看」。",
-        "abstract-mcq-23": "「不考慮具體個案，只從一般／理論層面而言」與本句語境不同。",
-        "abstract-mcq-25": "「表示概念、品質、狀態等而非具體物件的抽象名詞」與本句語境不同。",
-        "abstract-mcq-22": "「心不在焉地；出神地」與本句語境不同。",
-        "abstract-mcq-26": "「以非寫實形式與強烈表現性為特徵的抽象表現主義」與本句語境不同。",
-        "abstract-mcq-21": "「因沉浸思考而沒有留意周圍；心不在焉的」與本句語境不同。"
+        "abstract-mcq-24": "本句的「abstract the statement from its context」指「把某事從其具體語境／環境中抽離來看」。",
+        "abstract-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-24"
     },
@@ -1925,11 +1741,9 @@ export default {
       "masked": "The model ____.",
       "options": [
         "abstract-mcq-24",
-        "abstract-mcq-23",
-        "abstract-mcq-25",
-        "abstract-mcq-22",
-        "abstract-mcq-26",
-        "abstract-mcq-21"
+        "abstract-mcq-08",
+        "abstract-mcq-21",
+        "abstract-mcq-26"
       ],
       "explanation": "本句的「abstracts general principles from individual cases」指「把某事從其具體語境／環境中抽離來看」。",
       "sentenceIndex": 49,
@@ -1938,12 +1752,10 @@ export default {
         "abstracts general principles from individual cases"
       ],
       "optionReasons": {
-        "abstract-mcq-24": "本句指「把某事從其具體語境／環境中抽離來看」。",
-        "abstract-mcq-23": "「不考慮具體個案，只從一般／理論層面而言」與本句語境不同。",
-        "abstract-mcq-25": "「表示概念、品質、狀態等而非具體物件的抽象名詞」與本句語境不同。",
-        "abstract-mcq-22": "「心不在焉地；出神地」與本句語境不同。",
-        "abstract-mcq-26": "「以非寫實形式與強烈表現性為特徵的抽象表現主義」與本句語境不同。",
-        "abstract-mcq-21": "「因沉浸思考而沒有留意周圍；心不在焉的」與本句語境不同。"
+        "abstract-mcq-24": "本句的「abstracts general principles from individual cases」指「把某事從其具體語境／環境中抽離來看」。",
+        "abstract-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-24"
     },
@@ -1955,11 +1767,9 @@ export default {
       "masked": "Freedom” is an ____.",
       "options": [
         "abstract-mcq-25",
-        "abstract-mcq-24",
-        "abstract-mcq-26",
-        "abstract-mcq-23",
         "abstract-mcq-22",
-        "abstract-mcq-21"
+        "abstract-mcq-10",
+        "abstract-mcq-09"
       ],
       "explanation": "本句的「abstract noun」指「表示概念、品質、狀態等而非具體物件的抽象名詞」。",
       "sentenceIndex": 50,
@@ -1968,12 +1778,10 @@ export default {
         "abstract noun"
       ],
       "optionReasons": {
-        "abstract-mcq-25": "本句指「表示概念、品質、狀態等而非具體物件的抽象名詞」。",
-        "abstract-mcq-24": "「把某事從其具體語境／環境中抽離來看」與本句語境不同。",
-        "abstract-mcq-26": "「以非寫實形式與強烈表現性為特徵的抽象表現主義」與本句語境不同。",
-        "abstract-mcq-23": "「不考慮具體個案，只從一般／理論層面而言」與本句語境不同。",
-        "abstract-mcq-22": "「心不在焉地；出神地」與本句語境不同。",
-        "abstract-mcq-21": "「因沉浸思考而沒有留意周圍；心不在焉的」與本句語境不同。"
+        "abstract-mcq-25": "本句的「abstract noun」指「表示概念、品質、狀態等而非具體物件的抽象名詞」。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-25"
     },
@@ -1985,11 +1793,9 @@ export default {
       "masked": "Happiness” and “courage” are ____.",
       "options": [
         "abstract-mcq-25",
-        "abstract-mcq-24",
-        "abstract-mcq-26",
-        "abstract-mcq-23",
-        "abstract-mcq-22",
-        "abstract-mcq-21"
+        "abstract-mcq-21",
+        "abstract-mcq-10",
+        "abstract-mcq-12"
       ],
       "explanation": "本句的「abstract nouns」指「表示概念、品質、狀態等而非具體物件的抽象名詞」。",
       "sentenceIndex": 51,
@@ -1998,12 +1804,10 @@ export default {
         "abstract nouns"
       ],
       "optionReasons": {
-        "abstract-mcq-25": "本句指「表示概念、品質、狀態等而非具體物件的抽象名詞」。",
-        "abstract-mcq-24": "「把某事從其具體語境／環境中抽離來看」與本句語境不同。",
-        "abstract-mcq-26": "「以非寫實形式與強烈表現性為特徵的抽象表現主義」與本句語境不同。",
-        "abstract-mcq-23": "「不考慮具體個案，只從一般／理論層面而言」與本句語境不同。",
-        "abstract-mcq-22": "「心不在焉地；出神地」與本句語境不同。",
-        "abstract-mcq-21": "「因沉浸思考而沒有留意周圍；心不在焉的」與本句語境不同。"
+        "abstract-mcq-25": "本句的「abstract nouns」指「表示概念、品質、狀態等而非具體物件的抽象名詞」。",
+        "abstract-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-25"
     },
@@ -2015,11 +1819,9 @@ export default {
       "masked": "The museum has a collection of ____ paintings.",
       "options": [
         "abstract-mcq-26",
-        "abstract-mcq-25",
-        "abstract-mcq-24",
-        "abstract-mcq-23",
+        "abstract-mcq-12",
         "abstract-mcq-22",
-        "abstract-mcq-21"
+        "abstract-mcq-23"
       ],
       "explanation": "本句的「Abstract Expressionist」指「以非寫實形式與強烈表現性為特徵的抽象表現主義」。",
       "sentenceIndex": 52,
@@ -2028,12 +1830,10 @@ export default {
         "Abstract Expressionist"
       ],
       "optionReasons": {
-        "abstract-mcq-26": "本句指「以非寫實形式與強烈表現性為特徵的抽象表現主義」。",
-        "abstract-mcq-25": "「表示概念、品質、狀態等而非具體物件的抽象名詞」與本句語境不同。",
-        "abstract-mcq-24": "「把某事從其具體語境／環境中抽離來看」與本句語境不同。",
-        "abstract-mcq-23": "「不考慮具體個案，只從一般／理論層面而言」與本句語境不同。",
-        "abstract-mcq-22": "「心不在焉地；出神地」與本句語境不同。",
-        "abstract-mcq-21": "「因沉浸思考而沒有留意周圍；心不在焉的」與本句語境不同。"
+        "abstract-mcq-26": "本句的「Abstract Expressionist」指「以非寫實形式與強烈表現性為特徵的抽象表現主義」。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-26"
     },
@@ -2045,11 +1845,9 @@ export default {
       "masked": "____ became influential in modern art.",
       "options": [
         "abstract-mcq-26",
-        "abstract-mcq-25",
-        "abstract-mcq-24",
-        "abstract-mcq-23",
+        "abstract-mcq-12",
         "abstract-mcq-22",
-        "abstract-mcq-21"
+        "abstract-mcq-23"
       ],
       "explanation": "本句的「Abstract Expressionism」指「以非寫實形式與強烈表現性為特徵的抽象表現主義」。",
       "sentenceIndex": 53,
@@ -2058,12 +1856,10 @@ export default {
         "Abstract Expressionism"
       ],
       "optionReasons": {
-        "abstract-mcq-26": "本句指「以非寫實形式與強烈表現性為特徵的抽象表現主義」。",
-        "abstract-mcq-25": "「表示概念、品質、狀態等而非具體物件的抽象名詞」與本句語境不同。",
-        "abstract-mcq-24": "「把某事從其具體語境／環境中抽離來看」與本句語境不同。",
-        "abstract-mcq-23": "「不考慮具體個案，只從一般／理論層面而言」與本句語境不同。",
-        "abstract-mcq-22": "「心不在焉地；出神地」與本句語境不同。",
-        "abstract-mcq-21": "「因沉浸思考而沒有留意周圍；心不在焉的」與本句語境不同。"
+        "abstract-mcq-26": "本句的「Abstract Expressionism」指「以非寫實形式與強烈表現性為特徵的抽象表現主義」。",
+        "abstract-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "abstract-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "abstract-mcq-26"
     }
@@ -2075,5 +1871,7 @@ export default {
     "sha256": "314587952011ec641bb8041e337587d63fba1d2f117ab2aa6a8ea30fa767697d",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -689,11 +689,9 @@ export default {
       "masked": "We had a short planning ____ in the morning.",
       "options": [
         "session-mcq-01",
-        "session-mcq-02",
         "session-mcq-03",
-        "session-mcq-04",
-        "session-mcq-05",
-        "session-mcq-06"
+        "session-mcq-30",
+        "session-mcq-20"
       ],
       "explanation": "本句的「session」指「為某項特定活動安排的一段時間／時段」。",
       "sentenceIndex": 2,
@@ -702,12 +700,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-01": "本句指「為某項特定活動安排的一段時間／時段」。",
-        "session-mcq-02": "「一次專業治療／治療時段」與本句語境不同。",
-        "session-mcq-03": "「一次物理治療／物理治療療程」與本句語境不同。",
-        "session-mcq-04": "「一次輔導／輔導時段」與本句語境不同。",
-        "session-mcq-05": "「為討論、規劃或共同工作而安排的會議／時段」與本句語境不同。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。"
+        "session-mcq-01": "本句的「session」指「為某項特定活動安排的一段時間／時段」。",
+        "session-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-01"
     },
@@ -719,11 +715,9 @@ export default {
       "masked": "The afternoon ____ begins at two.",
       "options": [
         "session-mcq-01",
-        "session-mcq-02",
-        "session-mcq-03",
-        "session-mcq-04",
-        "session-mcq-05",
-        "session-mcq-06"
+        "session-mcq-15",
+        "session-mcq-06",
+        "session-mcq-20"
       ],
       "explanation": "本句的「session」指「為某項特定活動安排的一段時間／時段」。",
       "sentenceIndex": 3,
@@ -732,12 +726,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-01": "本句指「為某項特定活動安排的一段時間／時段」。",
-        "session-mcq-02": "「一次專業治療／治療時段」與本句語境不同。",
-        "session-mcq-03": "「一次物理治療／物理治療療程」與本句語境不同。",
-        "session-mcq-04": "「一次輔導／輔導時段」與本句語境不同。",
-        "session-mcq-05": "「為討論、規劃或共同工作而安排的會議／時段」與本句語境不同。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。"
+        "session-mcq-01": "本句的「session」指「為某項特定活動安排的一段時間／時段」。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-01"
     },
@@ -749,11 +741,9 @@ export default {
       "masked": "She has a therapy ____ every Friday.",
       "options": [
         "session-mcq-02",
-        "session-mcq-01",
-        "session-mcq-03",
-        "session-mcq-04",
-        "session-mcq-05",
-        "session-mcq-06"
+        "session-mcq-06",
+        "session-mcq-30",
+        "session-mcq-18"
       ],
       "explanation": "本句的「session」指「一次專業治療／治療時段」。",
       "sentenceIndex": 4,
@@ -762,12 +752,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-02": "本句指「一次專業治療／治療時段」。",
-        "session-mcq-01": "「為某項特定活動安排的一段時間／時段」與本句語境不同。",
-        "session-mcq-03": "「一次物理治療／物理治療療程」與本句語境不同。",
-        "session-mcq-04": "「一次輔導／輔導時段」與本句語境不同。",
-        "session-mcq-05": "「為討論、規劃或共同工作而安排的會議／時段」與本句語境不同。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。"
+        "session-mcq-02": "本句的「session」指「一次專業治療／治療時段」。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-02"
     },
@@ -779,11 +767,9 @@ export default {
       "masked": "The first ____ focused on pain management.",
       "options": [
         "session-mcq-02",
-        "session-mcq-01",
-        "session-mcq-03",
-        "session-mcq-04",
-        "session-mcq-05",
-        "session-mcq-06"
+        "session-mcq-18",
+        "session-mcq-13",
+        "session-mcq-30"
       ],
       "explanation": "本句的「session」指「一次專業治療／治療時段」。",
       "sentenceIndex": 5,
@@ -792,12 +778,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-02": "本句指「一次專業治療／治療時段」。",
-        "session-mcq-01": "「為某項特定活動安排的一段時間／時段」與本句語境不同。",
-        "session-mcq-03": "「一次物理治療／物理治療療程」與本句語境不同。",
-        "session-mcq-04": "「一次輔導／輔導時段」與本句語境不同。",
-        "session-mcq-05": "「為討論、規劃或共同工作而安排的會議／時段」與本句語境不同。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。"
+        "session-mcq-02": "本句的「session」指「一次專業治療／治療時段」。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-02"
     },
@@ -809,11 +793,9 @@ export default {
       "masked": "Each ____ lasted forty-five minutes.",
       "options": [
         "session-mcq-03",
-        "session-mcq-02",
-        "session-mcq-04",
-        "session-mcq-01",
-        "session-mcq-05",
-        "session-mcq-06"
+        "session-mcq-06",
+        "session-mcq-24",
+        "session-mcq-17"
       ],
       "explanation": "本句的「physiotherapy session」指「一次物理治療／物理治療療程」。",
       "sentenceIndex": 6,
@@ -822,12 +804,10 @@ export default {
         "physiotherapy session"
       ],
       "optionReasons": {
-        "session-mcq-03": "本句指「一次物理治療／物理治療療程」。",
-        "session-mcq-02": "「一次專業治療／治療時段」與本句語境不同。",
-        "session-mcq-04": "「一次輔導／輔導時段」與本句語境不同。",
-        "session-mcq-01": "「為某項特定活動安排的一段時間／時段」與本句語境不同。",
-        "session-mcq-05": "「為討論、規劃或共同工作而安排的會議／時段」與本句語境不同。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。"
+        "session-mcq-03": "本句的「physiotherapy session」指「一次物理治療／物理治療療程」。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-03"
     },
@@ -839,11 +819,9 @@ export default {
       "masked": "He gradually became stronger after several ____.",
       "options": [
         "session-mcq-03",
-        "session-mcq-02",
-        "session-mcq-04",
-        "session-mcq-01",
-        "session-mcq-05",
-        "session-mcq-06"
+        "session-mcq-20",
+        "session-mcq-13",
+        "session-mcq-15"
       ],
       "explanation": "本句的「sessions」指「一次物理治療／物理治療療程」。",
       "sentenceIndex": 7,
@@ -852,12 +830,10 @@ export default {
         "sessions"
       ],
       "optionReasons": {
-        "session-mcq-03": "本句指「一次物理治療／物理治療療程」。",
-        "session-mcq-02": "「一次專業治療／治療時段」與本句語境不同。",
-        "session-mcq-04": "「一次輔導／輔導時段」與本句語境不同。",
-        "session-mcq-01": "「為某項特定活動安排的一段時間／時段」與本句語境不同。",
-        "session-mcq-05": "「為討論、規劃或共同工作而安排的會議／時段」與本句語境不同。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。"
+        "session-mcq-03": "本句的「sessions」指「一次物理治療／物理治療療程」。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-03"
     },
@@ -869,11 +845,9 @@ export default {
       "masked": "She attended a ____.",
       "options": [
         "session-mcq-04",
-        "session-mcq-03",
-        "session-mcq-05",
-        "session-mcq-02",
+        "session-mcq-18",
         "session-mcq-06",
-        "session-mcq-01"
+        "session-mcq-15"
       ],
       "explanation": "本句的「counselling session」指「一次輔導／輔導時段」。",
       "sentenceIndex": 8,
@@ -882,12 +856,10 @@ export default {
         "counselling session"
       ],
       "optionReasons": {
-        "session-mcq-04": "本句指「一次輔導／輔導時段」。",
-        "session-mcq-03": "「一次物理治療／物理治療療程」與本句語境不同。",
-        "session-mcq-05": "「為討論、規劃或共同工作而安排的會議／時段」與本句語境不同。",
-        "session-mcq-02": "「一次專業治療／治療時段」與本句語境不同。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。",
-        "session-mcq-01": "「為某項特定活動安排的一段時間／時段」與本句語境不同。"
+        "session-mcq-04": "本句的「counselling session」指「一次輔導／輔導時段」。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-04"
     },
@@ -899,11 +871,9 @@ export default {
       "masked": "The next ____ is scheduled for Monday.",
       "options": [
         "session-mcq-04",
-        "session-mcq-03",
-        "session-mcq-05",
-        "session-mcq-02",
+        "session-mcq-20",
         "session-mcq-06",
-        "session-mcq-01"
+        "session-mcq-30"
       ],
       "explanation": "本句的「session」指「一次輔導／輔導時段」。",
       "sentenceIndex": 9,
@@ -912,12 +882,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-04": "本句指「一次輔導／輔導時段」。",
-        "session-mcq-03": "「一次物理治療／物理治療療程」與本句語境不同。",
-        "session-mcq-05": "「為討論、規劃或共同工作而安排的會議／時段」與本句語境不同。",
-        "session-mcq-02": "「一次專業治療／治療時段」與本句語境不同。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。",
-        "session-mcq-01": "「為某項特定活動安排的一段時間／時段」與本句語境不同。"
+        "session-mcq-04": "本句的「session」指「一次輔導／輔導時段」。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-04"
     },
@@ -929,11 +897,9 @@ export default {
       "masked": "The team held a brainstorming ____.",
       "options": [
         "session-mcq-05",
-        "session-mcq-04",
-        "session-mcq-06",
-        "session-mcq-03",
-        "session-mcq-07",
-        "session-mcq-02"
+        "session-mcq-09",
+        "session-mcq-30",
+        "session-mcq-18"
       ],
       "explanation": "本句的「session」指「為討論、規劃或共同工作而安排的會議／時段」。",
       "sentenceIndex": 10,
@@ -942,12 +908,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-05": "本句指「為討論、規劃或共同工作而安排的會議／時段」。",
-        "session-mcq-04": "「一次輔導／輔導時段」與本句語境不同。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。",
-        "session-mcq-03": "「一次物理治療／物理治療療程」與本句語境不同。",
-        "session-mcq-07": "「專門進行規劃／策略討論的會議」與本句語境不同。",
-        "session-mcq-02": "「一次專業治療／治療時段」與本句語境不同。"
+        "session-mcq-05": "本句的「session」指「為討論、規劃或共同工作而安排的會議／時段」。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-05"
     },
@@ -959,11 +923,9 @@ export default {
       "masked": "The morning ____ focused on strategy.",
       "options": [
         "session-mcq-05",
-        "session-mcq-04",
-        "session-mcq-06",
+        "session-mcq-30",
         "session-mcq-03",
-        "session-mcq-07",
-        "session-mcq-02"
+        "session-mcq-18"
       ],
       "explanation": "本句的「session」指「為討論、規劃或共同工作而安排的會議／時段」。",
       "sentenceIndex": 11,
@@ -972,12 +934,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-05": "本句指「為討論、規劃或共同工作而安排的會議／時段」。",
-        "session-mcq-04": "「一次輔導／輔導時段」與本句語境不同。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。",
-        "session-mcq-03": "「一次物理治療／物理治療療程」與本句語境不同。",
-        "session-mcq-07": "「專門進行規劃／策略討論的會議」與本句語境不同。",
-        "session-mcq-02": "「一次專業治療／治療時段」與本句語境不同。"
+        "session-mcq-05": "本句的「session」指「為討論、規劃或共同工作而安排的會議／時段」。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-05"
     },
@@ -989,11 +949,9 @@ export default {
       "masked": "We held a ____ before the project began.",
       "options": [
         "session-mcq-06",
-        "session-mcq-05",
-        "session-mcq-07",
-        "session-mcq-04",
-        "session-mcq-08",
-        "session-mcq-03"
+        "session-mcq-28",
+        "session-mcq-18",
+        "session-mcq-30"
       ],
       "explanation": "本句的「brainstorming session」指「集中產生想法的腦力激盪會議」。",
       "sentenceIndex": 12,
@@ -1002,12 +960,10 @@ export default {
         "brainstorming session"
       ],
       "optionReasons": {
-        "session-mcq-06": "本句指「集中產生想法的腦力激盪會議」。",
-        "session-mcq-05": "「為討論、規劃或共同工作而安排的會議／時段」與本句語境不同。",
-        "session-mcq-07": "「專門進行規劃／策略討論的會議」與本句語境不同。",
-        "session-mcq-04": "「一次輔導／輔導時段」與本句語境不同。",
-        "session-mcq-08": "「一節教學、培訓、學習或練習時段」與本句語境不同。",
-        "session-mcq-03": "「一次物理治療／物理治療療程」與本句語境不同。"
+        "session-mcq-06": "本句的「brainstorming session」指「集中產生想法的腦力激盪會議」。",
+        "session-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-06"
     },
@@ -1019,11 +975,9 @@ export default {
       "masked": "The ____ produced several useful ideas.",
       "options": [
         "session-mcq-06",
-        "session-mcq-05",
-        "session-mcq-07",
-        "session-mcq-04",
-        "session-mcq-08",
-        "session-mcq-03"
+        "session-mcq-02",
+        "session-mcq-30",
+        "session-mcq-18"
       ],
       "explanation": "本句的「session」指「集中產生想法的腦力激盪會議」。",
       "sentenceIndex": 13,
@@ -1032,12 +986,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-06": "本句指「集中產生想法的腦力激盪會議」。",
-        "session-mcq-05": "「為討論、規劃或共同工作而安排的會議／時段」與本句語境不同。",
-        "session-mcq-07": "「專門進行規劃／策略討論的會議」與本句語境不同。",
-        "session-mcq-04": "「一次輔導／輔導時段」與本句語境不同。",
-        "session-mcq-08": "「一節教學、培訓、學習或練習時段」與本句語境不同。",
-        "session-mcq-03": "「一次物理治療／物理治療療程」與本句語境不同。"
+        "session-mcq-06": "本句的「session」指「集中產生想法的腦力激盪會議」。",
+        "session-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-06"
     },
@@ -1049,11 +1001,9 @@ export default {
       "masked": "Managers met for a ____.",
       "options": [
         "session-mcq-07",
-        "session-mcq-06",
-        "session-mcq-08",
-        "session-mcq-05",
-        "session-mcq-09",
-        "session-mcq-04"
+        "session-mcq-27",
+        "session-mcq-28",
+        "session-mcq-15"
       ],
       "explanation": "本句的「strategy session」指「專門進行規劃／策略討論的會議」。",
       "sentenceIndex": 14,
@@ -1062,12 +1012,10 @@ export default {
         "strategy session"
       ],
       "optionReasons": {
-        "session-mcq-07": "本句指「專門進行規劃／策略討論的會議」。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。",
-        "session-mcq-08": "「一節教學、培訓、學習或練習時段」與本句語境不同。",
-        "session-mcq-05": "「為討論、規劃或共同工作而安排的會議／時段」與本句語境不同。",
-        "session-mcq-09": "「有組織的一次訓練／培訓課」與本句語境不同。",
-        "session-mcq-04": "「一次輔導／輔導時段」與本句語境不同。"
+        "session-mcq-07": "本句的「strategy session」指「專門進行規劃／策略討論的會議」。",
+        "session-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-07"
     },
@@ -1079,11 +1027,9 @@ export default {
       "masked": "The team scheduled a ____ for Friday.",
       "options": [
         "session-mcq-07",
-        "session-mcq-06",
-        "session-mcq-08",
-        "session-mcq-05",
-        "session-mcq-09",
-        "session-mcq-04"
+        "session-mcq-30",
+        "session-mcq-28",
+        "session-mcq-18"
       ],
       "explanation": "本句的「planning session」指「專門進行規劃／策略討論的會議」。",
       "sentenceIndex": 15,
@@ -1092,12 +1038,10 @@ export default {
         "planning session"
       ],
       "optionReasons": {
-        "session-mcq-07": "本句指「專門進行規劃／策略討論的會議」。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。",
-        "session-mcq-08": "「一節教學、培訓、學習或練習時段」與本句語境不同。",
-        "session-mcq-05": "「為討論、規劃或共同工作而安排的會議／時段」與本句語境不同。",
-        "session-mcq-09": "「有組織的一次訓練／培訓課」與本句語境不同。",
-        "session-mcq-04": "「一次輔導／輔導時段」與本句語境不同。"
+        "session-mcq-07": "本句的「planning session」指「專門進行規劃／策略討論的會議」。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-07"
     },
@@ -1109,11 +1053,9 @@ export default {
       "masked": "The course includes six training ____.",
       "options": [
         "session-mcq-08",
-        "session-mcq-07",
-        "session-mcq-09",
-        "session-mcq-06",
-        "session-mcq-10",
-        "session-mcq-05"
+        "session-mcq-20",
+        "session-mcq-16",
+        "session-mcq-13"
       ],
       "explanation": "本句的「sessions」指「一節教學、培訓、學習或練習時段」。",
       "sentenceIndex": 16,
@@ -1122,12 +1064,10 @@ export default {
         "sessions"
       ],
       "optionReasons": {
-        "session-mcq-08": "本句指「一節教學、培訓、學習或練習時段」。",
-        "session-mcq-07": "「專門進行規劃／策略討論的會議」與本句語境不同。",
-        "session-mcq-09": "「有組織的一次訓練／培訓課」與本句語境不同。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。",
-        "session-mcq-10": "「專門溫習／學習的一段時間」與本句語境不同。",
-        "session-mcq-05": "「為討論、規劃或共同工作而安排的會議／時段」與本句語境不同。"
+        "session-mcq-08": "本句的「sessions」指「一節教學、培訓、學習或練習時段」。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-08"
     },
@@ -1139,11 +1079,9 @@ export default {
       "masked": "Today’s ____ focuses on communication skills.",
       "options": [
         "session-mcq-08",
-        "session-mcq-07",
-        "session-mcq-09",
-        "session-mcq-06",
-        "session-mcq-10",
-        "session-mcq-05"
+        "session-mcq-16",
+        "session-mcq-13",
+        "session-mcq-03"
       ],
       "explanation": "本句的「session」指「一節教學、培訓、學習或練習時段」。",
       "sentenceIndex": 17,
@@ -1152,12 +1090,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-08": "本句指「一節教學、培訓、學習或練習時段」。",
-        "session-mcq-07": "「專門進行規劃／策略討論的會議」與本句語境不同。",
-        "session-mcq-09": "「有組織的一次訓練／培訓課」與本句語境不同。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。",
-        "session-mcq-10": "「專門溫習／學習的一段時間」與本句語境不同。",
-        "session-mcq-05": "「為討論、規劃或共同工作而安排的會議／時段」與本句語境不同。"
+        "session-mcq-08": "本句的「session」指「一節教學、培訓、學習或練習時段」。",
+        "session-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-08"
     },
@@ -1169,11 +1105,9 @@ export default {
       "masked": "The players attended a morning ____.",
       "options": [
         "session-mcq-09",
-        "session-mcq-08",
-        "session-mcq-10",
-        "session-mcq-07",
-        "session-mcq-11",
-        "session-mcq-06"
+        "session-mcq-27",
+        "session-mcq-17",
+        "session-mcq-26"
       ],
       "explanation": "本句的「training session」指「有組織的一次訓練／培訓課」。",
       "sentenceIndex": 18,
@@ -1182,12 +1116,10 @@ export default {
         "training session"
       ],
       "optionReasons": {
-        "session-mcq-09": "本句指「有組織的一次訓練／培訓課」。",
-        "session-mcq-08": "「一節教學、培訓、學習或練習時段」與本句語境不同。",
-        "session-mcq-10": "「專門溫習／學習的一段時間」與本句語境不同。",
-        "session-mcq-07": "「專門進行規劃／策略討論的會議」與本句語境不同。",
-        "session-mcq-11": "「一次有安排的練習時段」與本句語境不同。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。"
+        "session-mcq-09": "本句的「training session」指「有組織的一次訓練／培訓課」。",
+        "session-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-09"
     },
@@ -1199,11 +1131,9 @@ export default {
       "masked": "The company arranged a safety ____.",
       "options": [
         "session-mcq-09",
-        "session-mcq-08",
-        "session-mcq-10",
-        "session-mcq-07",
-        "session-mcq-11",
-        "session-mcq-06"
+        "session-mcq-24",
+        "session-mcq-15",
+        "session-mcq-07"
       ],
       "explanation": "本句的「training session」指「有組織的一次訓練／培訓課」。",
       "sentenceIndex": 19,
@@ -1212,12 +1142,10 @@ export default {
         "training session"
       ],
       "optionReasons": {
-        "session-mcq-09": "本句指「有組織的一次訓練／培訓課」。",
-        "session-mcq-08": "「一節教學、培訓、學習或練習時段」與本句語境不同。",
-        "session-mcq-10": "「專門溫習／學習的一段時間」與本句語境不同。",
-        "session-mcq-07": "「專門進行規劃／策略討論的會議」與本句語境不同。",
-        "session-mcq-11": "「一次有安排的練習時段」與本句語境不同。",
-        "session-mcq-06": "「集中產生想法的腦力激盪會議」與本句語境不同。"
+        "session-mcq-09": "本句的「training session」指「有組織的一次訓練／培訓課」。",
+        "session-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-09"
     },
@@ -1229,11 +1157,9 @@ export default {
       "masked": "We had a group ____ before the exam.",
       "options": [
         "session-mcq-10",
-        "session-mcq-09",
-        "session-mcq-11",
-        "session-mcq-08",
-        "session-mcq-12",
-        "session-mcq-07"
+        "session-mcq-13",
+        "session-mcq-16",
+        "session-mcq-03"
       ],
       "explanation": "本句的「study session」指「專門溫習／學習的一段時間」。",
       "sentenceIndex": 20,
@@ -1242,12 +1168,10 @@ export default {
         "study session"
       ],
       "optionReasons": {
-        "session-mcq-10": "本句指「專門溫習／學習的一段時間」。",
-        "session-mcq-09": "「有組織的一次訓練／培訓課」與本句語境不同。",
-        "session-mcq-11": "「一次有安排的練習時段」與本句語境不同。",
-        "session-mcq-08": "「一節教學、培訓、學習或練習時段」與本句語境不同。",
-        "session-mcq-12": "「會議、研討會等其中一個特定主題的場次／環節」與本句語境不同。",
-        "session-mcq-07": "「專門進行規劃／策略討論的會議」與本句語境不同。"
+        "session-mcq-10": "本句的「study session」指「專門溫習／學習的一段時間」。",
+        "session-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-10"
     },
@@ -1259,11 +1183,9 @@ export default {
       "masked": "The library hosts evening ____.",
       "options": [
         "session-mcq-10",
-        "session-mcq-09",
-        "session-mcq-11",
-        "session-mcq-08",
-        "session-mcq-12",
-        "session-mcq-07"
+        "session-mcq-18",
+        "session-mcq-30",
+        "session-mcq-13"
       ],
       "explanation": "本句的「study sessions」指「專門溫習／學習的一段時間」。",
       "sentenceIndex": 21,
@@ -1272,12 +1194,10 @@ export default {
         "study sessions"
       ],
       "optionReasons": {
-        "session-mcq-10": "本句指「專門溫習／學習的一段時間」。",
-        "session-mcq-09": "「有組織的一次訓練／培訓課」與本句語境不同。",
-        "session-mcq-11": "「一次有安排的練習時段」與本句語境不同。",
-        "session-mcq-08": "「一節教學、培訓、學習或練習時段」與本句語境不同。",
-        "session-mcq-12": "「會議、研討會等其中一個特定主題的場次／環節」與本句語境不同。",
-        "session-mcq-07": "「專門進行規劃／策略討論的會議」與本句語境不同。"
+        "session-mcq-10": "本句的「study sessions」指「專門溫習／學習的一段時間」。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-10"
     },
@@ -1289,11 +1209,9 @@ export default {
       "masked": "The band has a ____ tonight.",
       "options": [
         "session-mcq-11",
-        "session-mcq-10",
-        "session-mcq-12",
-        "session-mcq-09",
-        "session-mcq-13",
-        "session-mcq-08"
+        "session-mcq-15",
+        "session-mcq-06",
+        "session-mcq-20"
       ],
       "explanation": "本句的「practice session」指「一次有安排的練習時段」。",
       "sentenceIndex": 22,
@@ -1302,12 +1220,10 @@ export default {
         "practice session"
       ],
       "optionReasons": {
-        "session-mcq-11": "本句指「一次有安排的練習時段」。",
-        "session-mcq-10": "「專門溫習／學習的一段時間」與本句語境不同。",
-        "session-mcq-12": "「會議、研討會等其中一個特定主題的場次／環節」與本句語境不同。",
-        "session-mcq-09": "「有組織的一次訓練／培訓課」與本句語境不同。",
-        "session-mcq-13": "「大型會議分成較小組別進行的分組討論」與本句語境不同。",
-        "session-mcq-08": "「一節教學、培訓、學習或練習時段」與本句語境不同。"
+        "session-mcq-11": "本句的「practice session」指「一次有安排的練習時段」。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-11"
     },
@@ -1319,11 +1235,9 @@ export default {
       "masked": "The extra ____ helped improve her technique.",
       "options": [
         "session-mcq-11",
-        "session-mcq-10",
-        "session-mcq-12",
-        "session-mcq-09",
         "session-mcq-13",
-        "session-mcq-08"
+        "session-mcq-20",
+        "session-mcq-16"
       ],
       "explanation": "本句的「session」指「一次有安排的練習時段」。",
       "sentenceIndex": 23,
@@ -1332,12 +1246,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-11": "本句指「一次有安排的練習時段」。",
-        "session-mcq-10": "「專門溫習／學習的一段時間」與本句語境不同。",
-        "session-mcq-12": "「會議、研討會等其中一個特定主題的場次／環節」與本句語境不同。",
-        "session-mcq-09": "「有組織的一次訓練／培訓課」與本句語境不同。",
-        "session-mcq-13": "「大型會議分成較小組別進行的分組討論」與本句語境不同。",
-        "session-mcq-08": "「一節教學、培訓、學習或練習時段」與本句語境不同。"
+        "session-mcq-11": "本句的「session」指「一次有安排的練習時段」。",
+        "session-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-11"
     },
@@ -1349,11 +1261,9 @@ export default {
       "masked": "I attended a ____ on digital security.",
       "options": [
         "session-mcq-12",
-        "session-mcq-11",
-        "session-mcq-13",
+        "session-mcq-27",
         "session-mcq-10",
-        "session-mcq-14",
-        "session-mcq-09"
+        "session-mcq-20"
       ],
       "explanation": "本句的「session」指「會議、研討會等其中一個特定主題的場次／環節」。",
       "sentenceIndex": 24,
@@ -1362,12 +1272,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-12": "本句指「會議、研討會等其中一個特定主題的場次／環節」。",
-        "session-mcq-11": "「一次有安排的練習時段」與本句語境不同。",
-        "session-mcq-13": "「大型會議分成較小組別進行的分組討論」與本句語境不同。",
-        "session-mcq-10": "「專門溫習／學習的一段時間」與本句語境不同。",
-        "session-mcq-14": "「國會／議會正式開會處理事務的一段會期」與本句語境不同。",
-        "session-mcq-09": "「有組織的一次訓練／培訓課」與本句語境不同。"
+        "session-mcq-12": "本句的「session」指「會議、研討會等其中一個特定主題的場次／環節」。",
+        "session-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-12"
     },
@@ -1379,11 +1287,9 @@ export default {
       "masked": "The conference has three parallel ____.",
       "options": [
         "session-mcq-12",
-        "session-mcq-11",
-        "session-mcq-13",
+        "session-mcq-23",
         "session-mcq-10",
-        "session-mcq-14",
-        "session-mcq-09"
+        "session-mcq-15"
       ],
       "explanation": "本句的「sessions」指「會議、研討會等其中一個特定主題的場次／環節」。",
       "sentenceIndex": 25,
@@ -1392,12 +1298,10 @@ export default {
         "sessions"
       ],
       "optionReasons": {
-        "session-mcq-12": "本句指「會議、研討會等其中一個特定主題的場次／環節」。",
-        "session-mcq-11": "「一次有安排的練習時段」與本句語境不同。",
-        "session-mcq-13": "「大型會議分成較小組別進行的分組討論」與本句語境不同。",
-        "session-mcq-10": "「專門溫習／學習的一段時間」與本句語境不同。",
-        "session-mcq-14": "「國會／議會正式開會處理事務的一段會期」與本句語境不同。",
-        "session-mcq-09": "「有組織的一次訓練／培訓課」與本句語境不同。"
+        "session-mcq-12": "本句的「sessions」指「會議、研討會等其中一個特定主題的場次／環節」。",
+        "session-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-12"
     },
@@ -1409,11 +1313,9 @@ export default {
       "masked": "Participants moved into ____.",
       "options": [
         "session-mcq-13",
-        "session-mcq-12",
-        "session-mcq-14",
-        "session-mcq-11",
-        "session-mcq-15",
-        "session-mcq-10"
+        "session-mcq-20",
+        "session-mcq-18",
+        "session-mcq-15"
       ],
       "explanation": "本句的「breakout sessions」指「大型會議分成較小組別進行的分組討論」。",
       "sentenceIndex": 26,
@@ -1422,12 +1324,10 @@ export default {
         "breakout sessions"
       ],
       "optionReasons": {
-        "session-mcq-13": "本句指「大型會議分成較小組別進行的分組討論」。",
-        "session-mcq-12": "「會議、研討會等其中一個特定主題的場次／環節」與本句語境不同。",
-        "session-mcq-14": "「國會／議會正式開會處理事務的一段會期」與本句語境不同。",
-        "session-mcq-11": "「一次有安排的練習時段」與本句語境不同。",
-        "session-mcq-15": "「立法機關正式運作的會期」與本句語境不同。",
-        "session-mcq-10": "「專門溫習／學習的一段時間」與本句語境不同。"
+        "session-mcq-13": "本句的「breakout sessions」指「大型會議分成較小組別進行的分組討論」。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-13"
     },
@@ -1439,11 +1339,9 @@ export default {
       "masked": "Our ____ focused on customer experience.",
       "options": [
         "session-mcq-13",
-        "session-mcq-12",
-        "session-mcq-14",
-        "session-mcq-11",
         "session-mcq-15",
-        "session-mcq-10"
+        "session-mcq-04",
+        "session-mcq-18"
       ],
       "explanation": "本句的「breakout session」指「大型會議分成較小組別進行的分組討論」。",
       "sentenceIndex": 27,
@@ -1452,12 +1350,10 @@ export default {
         "breakout session"
       ],
       "optionReasons": {
-        "session-mcq-13": "本句指「大型會議分成較小組別進行的分組討論」。",
-        "session-mcq-12": "「會議、研討會等其中一個特定主題的場次／環節」與本句語境不同。",
-        "session-mcq-14": "「國會／議會正式開會處理事務的一段會期」與本句語境不同。",
-        "session-mcq-11": "「一次有安排的練習時段」與本句語境不同。",
-        "session-mcq-15": "「立法機關正式運作的會期」與本句語境不同。",
-        "session-mcq-10": "「專門溫習／學習的一段時間」與本句語境不同。"
+        "session-mcq-13": "本句的「breakout session」指「大型會議分成較小組別進行的分組討論」。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-13"
     },
@@ -1469,11 +1365,9 @@ export default {
       "masked": "Parliament begins a new ____ next month.",
       "options": [
         "session-mcq-14",
-        "session-mcq-13",
-        "session-mcq-15",
-        "session-mcq-12",
-        "session-mcq-16",
-        "session-mcq-11"
+        "session-mcq-27",
+        "session-mcq-20",
+        "session-mcq-09"
       ],
       "explanation": "本句的「session」指「國會／議會正式開會處理事務的一段會期」。",
       "sentenceIndex": 28,
@@ -1482,12 +1376,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-14": "本句指「國會／議會正式開會處理事務的一段會期」。",
-        "session-mcq-13": "「大型會議分成較小組別進行的分組討論」與本句語境不同。",
-        "session-mcq-15": "「立法機關正式運作的會期」與本句語境不同。",
-        "session-mcq-12": "「會議、研討會等其中一個特定主題的場次／環節」與本句語境不同。",
-        "session-mcq-16": "「法庭正在正式開庭審理案件」與本句語境不同。",
-        "session-mcq-11": "「一次有安排的練習時段」與本句語境不同。"
+        "session-mcq-14": "本句的「session」指「國會／議會正式開會處理事務的一段會期」。",
+        "session-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-14"
     },
@@ -1499,11 +1391,9 @@ export default {
       "masked": "Several bills were introduced during the ____.",
       "options": [
         "session-mcq-14",
-        "session-mcq-13",
-        "session-mcq-15",
-        "session-mcq-12",
-        "session-mcq-16",
-        "session-mcq-11"
+        "session-mcq-09",
+        "session-mcq-27",
+        "session-mcq-20"
       ],
       "explanation": "本句的「session」指「國會／議會正式開會處理事務的一段會期」。",
       "sentenceIndex": 29,
@@ -1512,12 +1402,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-14": "本句指「國會／議會正式開會處理事務的一段會期」。",
-        "session-mcq-13": "「大型會議分成較小組別進行的分組討論」與本句語境不同。",
-        "session-mcq-15": "「立法機關正式運作的會期」與本句語境不同。",
-        "session-mcq-12": "「會議、研討會等其中一個特定主題的場次／環節」與本句語境不同。",
-        "session-mcq-16": "「法庭正在正式開庭審理案件」與本句語境不同。",
-        "session-mcq-11": "「一次有安排的練習時段」與本句語境不同。"
+        "session-mcq-14": "本句的「session」指「國會／議會正式開會處理事務的一段會期」。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-14"
     },
@@ -1529,11 +1417,9 @@ export default {
       "masked": "The proposal will be discussed in the next ____.",
       "options": [
         "session-mcq-15",
-        "session-mcq-14",
-        "session-mcq-16",
-        "session-mcq-13",
-        "session-mcq-17",
-        "session-mcq-12"
+        "session-mcq-09",
+        "session-mcq-07",
+        "session-mcq-24"
       ],
       "explanation": "本句的「legislative session」指「立法機關正式運作的會期」。",
       "sentenceIndex": 30,
@@ -1542,12 +1428,10 @@ export default {
         "legislative session"
       ],
       "optionReasons": {
-        "session-mcq-15": "本句指「立法機關正式運作的會期」。",
-        "session-mcq-14": "「國會／議會正式開會處理事務的一段會期」與本句語境不同。",
-        "session-mcq-16": "「法庭正在正式開庭審理案件」與本句語境不同。",
-        "session-mcq-13": "「大型會議分成較小組別進行的分組討論」與本句語境不同。",
-        "session-mcq-17": "「法院正式開庭的一段庭審時段」與本句語境不同。",
-        "session-mcq-12": "「會議、研討會等其中一個特定主題的場次／環節」與本句語境不同。"
+        "session-mcq-15": "本句的「legislative session」指「立法機關正式運作的會期」。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-15"
     },
@@ -1559,10 +1443,8 @@ export default {
       "masked": "The ____ ended before the bill was passed.",
       "options": [
         "session-mcq-15",
-        "session-mcq-14",
-        "session-mcq-16",
-        "session-mcq-13",
-        "session-mcq-17",
+        "session-mcq-04",
+        "session-mcq-23",
         "session-mcq-12"
       ],
       "explanation": "本句的「session」指「立法機關正式運作的會期」。",
@@ -1572,12 +1454,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-15": "本句指「立法機關正式運作的會期」。",
-        "session-mcq-14": "「國會／議會正式開會處理事務的一段會期」與本句語境不同。",
-        "session-mcq-16": "「法庭正在正式開庭審理案件」與本句語境不同。",
-        "session-mcq-13": "「大型會議分成較小組別進行的分組討論」與本句語境不同。",
-        "session-mcq-17": "「法院正式開庭的一段庭審時段」與本句語境不同。",
-        "session-mcq-12": "「會議、研討會等其中一個特定主題的場次／環節」與本句語境不同。"
+        "session-mcq-15": "本句的「session」指「立法機關正式運作的會期」。",
+        "session-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-15"
     },
@@ -1589,11 +1469,9 @@ export default {
       "masked": "The court is now ____.",
       "options": [
         "session-mcq-16",
-        "session-mcq-15",
-        "session-mcq-17",
-        "session-mcq-14",
-        "session-mcq-18",
-        "session-mcq-13"
+        "session-mcq-09",
+        "session-mcq-24",
+        "session-mcq-12"
       ],
       "explanation": "本句的「in session」指「法庭正在正式開庭審理案件」。",
       "sentenceIndex": 32,
@@ -1602,12 +1480,10 @@ export default {
         "in session"
       ],
       "optionReasons": {
-        "session-mcq-16": "本句指「法庭正在正式開庭審理案件」。",
-        "session-mcq-15": "「立法機關正式運作的會期」與本句語境不同。",
-        "session-mcq-17": "「法院正式開庭的一段庭審時段」與本句語境不同。",
-        "session-mcq-14": "「國會／議會正式開會處理事務的一段會期」與本句語境不同。",
-        "session-mcq-18": "「正在開會、開庭、上課等，依語境而定」與本句語境不同。",
-        "session-mcq-13": "「大型會議分成較小組別進行的分組討論」與本句語境不同。"
+        "session-mcq-16": "本句的「in session」指「法庭正在正式開庭審理案件」。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-16"
     },
@@ -1619,11 +1495,9 @@ export default {
       "masked": "No photographs are allowed while court is ____.",
       "options": [
         "session-mcq-16",
-        "session-mcq-15",
-        "session-mcq-17",
-        "session-mcq-14",
-        "session-mcq-18",
-        "session-mcq-13"
+        "session-mcq-24",
+        "session-mcq-09",
+        "session-mcq-07"
       ],
       "explanation": "本句的「in session」指「法庭正在正式開庭審理案件」。",
       "sentenceIndex": 33,
@@ -1632,12 +1506,10 @@ export default {
         "in session"
       ],
       "optionReasons": {
-        "session-mcq-16": "本句指「法庭正在正式開庭審理案件」。",
-        "session-mcq-15": "「立法機關正式運作的會期」與本句語境不同。",
-        "session-mcq-17": "「法院正式開庭的一段庭審時段」與本句語境不同。",
-        "session-mcq-14": "「國會／議會正式開會處理事務的一段會期」與本句語境不同。",
-        "session-mcq-18": "「正在開會、開庭、上課等，依語境而定」與本句語境不同。",
-        "session-mcq-13": "「大型會議分成較小組別進行的分組討論」與本句語境不同。"
+        "session-mcq-16": "本句的「in session」指「法庭正在正式開庭審理案件」。",
+        "session-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-16"
     },
@@ -1649,11 +1521,9 @@ export default {
       "masked": "The afternoon ____ was delayed.",
       "options": [
         "session-mcq-17",
-        "session-mcq-16",
-        "session-mcq-18",
-        "session-mcq-15",
-        "session-mcq-19",
-        "session-mcq-14"
+        "session-mcq-03",
+        "session-mcq-07",
+        "session-mcq-20"
       ],
       "explanation": "本句的「session」指「法院正式開庭的一段庭審時段」。",
       "sentenceIndex": 34,
@@ -1662,12 +1532,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-17": "本句指「法院正式開庭的一段庭審時段」。",
-        "session-mcq-16": "「法庭正在正式開庭審理案件」與本句語境不同。",
-        "session-mcq-18": "「正在開會、開庭、上課等，依語境而定」與本句語境不同。",
-        "session-mcq-15": "「立法機關正式運作的會期」與本句語境不同。",
-        "session-mcq-19": "「專門進行錄音的一段工作時間」與本句語境不同。",
-        "session-mcq-14": "「國會／議會正式開會處理事務的一段會期」與本句語境不同。"
+        "session-mcq-17": "本句的「session」指「法院正式開庭的一段庭審時段」。",
+        "session-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-17"
     },
@@ -1679,11 +1547,9 @@ export default {
       "masked": "The judge ended the ____ early.",
       "options": [
         "session-mcq-17",
-        "session-mcq-16",
-        "session-mcq-18",
-        "session-mcq-15",
-        "session-mcq-19",
-        "session-mcq-14"
+        "session-mcq-07",
+        "session-mcq-09",
+        "session-mcq-20"
       ],
       "explanation": "本句的「session」指「法院正式開庭的一段庭審時段」。",
       "sentenceIndex": 35,
@@ -1692,12 +1558,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-17": "本句指「法院正式開庭的一段庭審時段」。",
-        "session-mcq-16": "「法庭正在正式開庭審理案件」與本句語境不同。",
-        "session-mcq-18": "「正在開會、開庭、上課等，依語境而定」與本句語境不同。",
-        "session-mcq-15": "「立法機關正式運作的會期」與本句語境不同。",
-        "session-mcq-19": "「專門進行錄音的一段工作時間」與本句語境不同。",
-        "session-mcq-14": "「國會／議會正式開會處理事務的一段會期」與本句語境不同。"
+        "session-mcq-17": "本句的「session」指「法院正式開庭的一段庭審時段」。",
+        "session-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-17"
     },
@@ -1709,11 +1573,9 @@ export default {
       "masked": "Parliament is ____.",
       "options": [
         "session-mcq-18",
-        "session-mcq-17",
-        "session-mcq-19",
-        "session-mcq-16",
-        "session-mcq-20",
-        "session-mcq-15"
+        "session-mcq-24",
+        "session-mcq-28",
+        "session-mcq-13"
       ],
       "explanation": "本句的「in session」指「正在開會、開庭、上課等，依語境而定」。",
       "sentenceIndex": 36,
@@ -1722,12 +1584,10 @@ export default {
         "in session"
       ],
       "optionReasons": {
-        "session-mcq-18": "本句指「正在開會、開庭、上課等，依語境而定」。",
-        "session-mcq-17": "「法院正式開庭的一段庭審時段」與本句語境不同。",
-        "session-mcq-19": "「專門進行錄音的一段工作時間」與本句語境不同。",
-        "session-mcq-16": "「法庭正在正式開庭審理案件」與本句語境不同。",
-        "session-mcq-20": "「受聘參與錄音／演出的專業伴奏樂手」與本句語境不同。",
-        "session-mcq-15": "「立法機關正式運作的會期」與本句語境不同。"
+        "session-mcq-18": "本句的「in session」指「正在開會、開庭、上課等，依語境而定」。",
+        "session-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-18"
     },
@@ -1739,11 +1599,9 @@ export default {
       "masked": "The court is ____.",
       "options": [
         "session-mcq-18",
-        "session-mcq-17",
-        "session-mcq-19",
-        "session-mcq-16",
-        "session-mcq-20",
-        "session-mcq-15"
+        "session-mcq-29",
+        "session-mcq-27",
+        "session-mcq-20"
       ],
       "explanation": "本句的「in session」指「正在開會、開庭、上課等，依語境而定」。",
       "sentenceIndex": 37,
@@ -1752,12 +1610,10 @@ export default {
         "in session"
       ],
       "optionReasons": {
-        "session-mcq-18": "本句指「正在開會、開庭、上課等，依語境而定」。",
-        "session-mcq-17": "「法院正式開庭的一段庭審時段」與本句語境不同。",
-        "session-mcq-19": "「專門進行錄音的一段工作時間」與本句語境不同。",
-        "session-mcq-16": "「法庭正在正式開庭審理案件」與本句語境不同。",
-        "session-mcq-20": "「受聘參與錄音／演出的專業伴奏樂手」與本句語境不同。",
-        "session-mcq-15": "「立法機關正式運作的會期」與本句語境不同。"
+        "session-mcq-18": "本句的「in session」指「正在開會、開庭、上課等，依語境而定」。",
+        "session-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-18"
     },
@@ -1769,11 +1625,9 @@ export default {
       "masked": "Classes are ____.",
       "options": [
         "session-mcq-18",
-        "session-mcq-17",
-        "session-mcq-19",
-        "session-mcq-16",
-        "session-mcq-20",
-        "session-mcq-15"
+        "session-mcq-21",
+        "session-mcq-27",
+        "session-mcq-20"
       ],
       "explanation": "本句的「in session」指「正在開會、開庭、上課等，依語境而定」。",
       "sentenceIndex": 38,
@@ -1782,12 +1636,10 @@ export default {
         "in session"
       ],
       "optionReasons": {
-        "session-mcq-18": "本句指「正在開會、開庭、上課等，依語境而定」。",
-        "session-mcq-17": "「法院正式開庭的一段庭審時段」與本句語境不同。",
-        "session-mcq-19": "「專門進行錄音的一段工作時間」與本句語境不同。",
-        "session-mcq-16": "「法庭正在正式開庭審理案件」與本句語境不同。",
-        "session-mcq-20": "「受聘參與錄音／演出的專業伴奏樂手」與本句語境不同。",
-        "session-mcq-15": "「立法機關正式運作的會期」與本句語境不同。"
+        "session-mcq-18": "本句的「in session」指「正在開會、開庭、上課等，依語境而定」。",
+        "session-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-18"
     },
@@ -1799,10 +1651,8 @@ export default {
       "masked": "The band booked a ____.",
       "options": [
         "session-mcq-19",
-        "session-mcq-18",
-        "session-mcq-20",
-        "session-mcq-17",
-        "session-mcq-21",
+        "session-mcq-09",
+        "session-mcq-12",
         "session-mcq-16"
       ],
       "explanation": "本句的「recording session」指「專門進行錄音的一段工作時間」。",
@@ -1812,12 +1662,10 @@ export default {
         "recording session"
       ],
       "optionReasons": {
-        "session-mcq-19": "本句指「專門進行錄音的一段工作時間」。",
-        "session-mcq-18": "「正在開會、開庭、上課等，依語境而定」與本句語境不同。",
-        "session-mcq-20": "「受聘參與錄音／演出的專業伴奏樂手」與本句語境不同。",
-        "session-mcq-17": "「法院正式開庭的一段庭審時段」與本句語境不同。",
-        "session-mcq-21": "「安排好的一次攝影／拍攝時段」與本句語境不同。",
-        "session-mcq-16": "「法庭正在正式開庭審理案件」與本句語境不同。"
+        "session-mcq-19": "本句的「recording session」指「專門進行錄音的一段工作時間」。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-19"
     },
@@ -1829,11 +1677,9 @@ export default {
       "masked": "The song was completed during one long ____.",
       "options": [
         "session-mcq-19",
-        "session-mcq-18",
-        "session-mcq-20",
-        "session-mcq-17",
-        "session-mcq-21",
-        "session-mcq-16"
+        "session-mcq-03",
+        "session-mcq-15",
+        "session-mcq-06"
       ],
       "explanation": "本句的「session」指「專門進行錄音的一段工作時間」。",
       "sentenceIndex": 40,
@@ -1842,12 +1688,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-19": "本句指「專門進行錄音的一段工作時間」。",
-        "session-mcq-18": "「正在開會、開庭、上課等，依語境而定」與本句語境不同。",
-        "session-mcq-20": "「受聘參與錄音／演出的專業伴奏樂手」與本句語境不同。",
-        "session-mcq-17": "「法院正式開庭的一段庭審時段」與本句語境不同。",
-        "session-mcq-21": "「安排好的一次攝影／拍攝時段」與本句語境不同。",
-        "session-mcq-16": "「法庭正在正式開庭審理案件」與本句語境不同。"
+        "session-mcq-19": "本句的「session」指「專門進行錄音的一段工作時間」。",
+        "session-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-19"
     },
@@ -1859,11 +1703,9 @@ export default {
       "masked": "He worked for years as a ____.",
       "options": [
         "session-mcq-20",
-        "session-mcq-19",
-        "session-mcq-21",
         "session-mcq-18",
-        "session-mcq-22",
-        "session-mcq-17"
+        "session-mcq-01",
+        "session-mcq-03"
       ],
       "explanation": "本句的「session musician」指「受聘參與錄音／演出的專業伴奏樂手」。",
       "sentenceIndex": 41,
@@ -1872,12 +1714,10 @@ export default {
         "session musician"
       ],
       "optionReasons": {
-        "session-mcq-20": "本句指「受聘參與錄音／演出的專業伴奏樂手」。",
-        "session-mcq-19": "「專門進行錄音的一段工作時間」與本句語境不同。",
-        "session-mcq-21": "「安排好的一次攝影／拍攝時段」與本句語境不同。",
-        "session-mcq-18": "「正在開會、開庭、上課等，依語境而定」與本句語境不同。",
-        "session-mcq-22": "「使用者／系統持續連線並互動的一個工作階段」與本句語境不同。",
-        "session-mcq-17": "「法院正式開庭的一段庭審時段」與本句語境不同。"
+        "session-mcq-20": "本句的「session musician」指「受聘參與錄音／演出的專業伴奏樂手」。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-20"
     },
@@ -1889,11 +1729,9 @@ export default {
       "masked": "Several ____ played on the album.",
       "options": [
         "session-mcq-20",
-        "session-mcq-19",
-        "session-mcq-21",
-        "session-mcq-18",
-        "session-mcq-22",
-        "session-mcq-17"
+        "session-mcq-03",
+        "session-mcq-01",
+        "session-mcq-13"
       ],
       "explanation": "本句的「session musicians」指「受聘參與錄音／演出的專業伴奏樂手」。",
       "sentenceIndex": 42,
@@ -1902,12 +1740,10 @@ export default {
         "session musicians"
       ],
       "optionReasons": {
-        "session-mcq-20": "本句指「受聘參與錄音／演出的專業伴奏樂手」。",
-        "session-mcq-19": "「專門進行錄音的一段工作時間」與本句語境不同。",
-        "session-mcq-21": "「安排好的一次攝影／拍攝時段」與本句語境不同。",
-        "session-mcq-18": "「正在開會、開庭、上課等，依語境而定」與本句語境不同。",
-        "session-mcq-22": "「使用者／系統持續連線並互動的一個工作階段」與本句語境不同。",
-        "session-mcq-17": "「法院正式開庭的一段庭審時段」與本句語境不同。"
+        "session-mcq-20": "本句的「session musicians」指「受聘參與錄音／演出的專業伴奏樂手」。",
+        "session-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-20"
     },
@@ -1920,10 +1756,8 @@ export default {
       "options": [
         "session-mcq-21",
         "session-mcq-20",
-        "session-mcq-22",
-        "session-mcq-19",
-        "session-mcq-23",
-        "session-mcq-18"
+        "session-mcq-15",
+        "session-mcq-06"
       ],
       "explanation": "本句的「photo session」指「安排好的一次攝影／拍攝時段」。",
       "sentenceIndex": 43,
@@ -1932,12 +1766,10 @@ export default {
         "photo session"
       ],
       "optionReasons": {
-        "session-mcq-21": "本句指「安排好的一次攝影／拍攝時段」。",
-        "session-mcq-20": "「受聘參與錄音／演出的專業伴奏樂手」與本句語境不同。",
-        "session-mcq-22": "「使用者／系統持續連線並互動的一個工作階段」與本句語境不同。",
-        "session-mcq-19": "「專門進行錄音的一段工作時間」與本句語境不同。",
-        "session-mcq-23": "「某位使用者登入並與系統互動的工作階段」與本句語境不同。",
-        "session-mcq-18": "「正在開會、開庭、上課等，依語境而定」與本句語境不同。"
+        "session-mcq-21": "本句的「photo session」指「安排好的一次攝影／拍攝時段」。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-21"
     },
@@ -1949,11 +1781,9 @@ export default {
       "masked": "The ____ lasted two hours.",
       "options": [
         "session-mcq-21",
+        "session-mcq-18",
         "session-mcq-20",
-        "session-mcq-22",
-        "session-mcq-19",
-        "session-mcq-23",
-        "session-mcq-18"
+        "session-mcq-15"
       ],
       "explanation": "本句的「session」指「安排好的一次攝影／拍攝時段」。",
       "sentenceIndex": 44,
@@ -1962,12 +1792,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-21": "本句指「安排好的一次攝影／拍攝時段」。",
-        "session-mcq-20": "「受聘參與錄音／演出的專業伴奏樂手」與本句語境不同。",
-        "session-mcq-22": "「使用者／系統持續連線並互動的一個工作階段」與本句語境不同。",
-        "session-mcq-19": "「專門進行錄音的一段工作時間」與本句語境不同。",
-        "session-mcq-23": "「某位使用者登入並與系統互動的工作階段」與本句語境不同。",
-        "session-mcq-18": "「正在開會、開庭、上課等，依語境而定」與本句語境不同。"
+        "session-mcq-21": "本句的「session」指「安排好的一次攝影／拍攝時段」。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-21"
     },
@@ -1979,11 +1807,9 @@ export default {
       "masked": "Your login ____ has expired.",
       "options": [
         "session-mcq-26",
-        "session-mcq-25",
-        "session-mcq-27",
-        "session-mcq-24",
-        "session-mcq-28",
-        "session-mcq-23"
+        "session-mcq-06",
+        "session-mcq-09",
+        "session-mcq-18"
       ],
       "explanation": "本句的「session」指「用來識別某一工作階段的識別碼」。",
       "sentenceIndex": 45,
@@ -1992,12 +1818,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-26": "本句指「用來識別某一工作階段的識別碼」。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。",
-        "session-mcq-27": "「系統／裝置之間暫時建立的通訊會話」與本句語境不同。",
-        "session-mcq-24": "「從登入到登出／逾時之間的登入工作階段」與本句語境不同。",
-        "session-mcq-28": "「一次連續的運動／訓練時段」與本句語境不同。",
-        "session-mcq-23": "「某位使用者登入並與系統互動的工作階段」與本句語境不同。"
+        "session-mcq-26": "本句的「session」指「用來識別某一工作階段的識別碼」。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-26"
     },
@@ -2009,11 +1833,9 @@ export default {
       "masked": "The system creates a new ____ after you sign in.",
       "options": [
         "session-mcq-26",
-        "session-mcq-25",
-        "session-mcq-27",
-        "session-mcq-24",
-        "session-mcq-28",
-        "session-mcq-23"
+        "session-mcq-09",
+        "session-mcq-18",
+        "session-mcq-30"
       ],
       "explanation": "本句的「session」指「用來識別某一工作階段的識別碼」。",
       "sentenceIndex": 46,
@@ -2022,12 +1844,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-26": "本句指「用來識別某一工作階段的識別碼」。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。",
-        "session-mcq-27": "「系統／裝置之間暫時建立的通訊會話」與本句語境不同。",
-        "session-mcq-24": "「從登入到登出／逾時之間的登入工作階段」與本句語境不同。",
-        "session-mcq-28": "「一次連續的運動／訓練時段」與本句語境不同。",
-        "session-mcq-23": "「某位使用者登入並與系統互動的工作階段」與本句語境不同。"
+        "session-mcq-26": "本句的「session」指「用來識別某一工作階段的識別碼」。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-26"
     },
@@ -2039,11 +1859,9 @@ export default {
       "masked": "Each ____ receives a unique identifier.",
       "options": [
         "session-mcq-23",
-        "session-mcq-22",
-        "session-mcq-24",
-        "session-mcq-21",
-        "session-mcq-25",
-        "session-mcq-20"
+        "session-mcq-07",
+        "session-mcq-15",
+        "session-mcq-09"
       ],
       "explanation": "本句的「user session」指「某位使用者登入並與系統互動的工作階段」。",
       "sentenceIndex": 47,
@@ -2052,12 +1870,10 @@ export default {
         "user session"
       ],
       "optionReasons": {
-        "session-mcq-23": "本句指「某位使用者登入並與系統互動的工作階段」。",
-        "session-mcq-22": "「使用者／系統持續連線並互動的一個工作階段」與本句語境不同。",
-        "session-mcq-24": "「從登入到登出／逾時之間的登入工作階段」與本句語境不同。",
-        "session-mcq-21": "「安排好的一次攝影／拍攝時段」與本句語境不同。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。",
-        "session-mcq-20": "「受聘參與錄音／演出的專業伴奏樂手」與本句語境不同。"
+        "session-mcq-23": "本句的「user session」指「某位使用者登入並與系統互動的工作階段」。",
+        "session-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-23"
     },
@@ -2069,11 +1885,9 @@ export default {
       "masked": "The application stores settings during the ____.",
       "options": [
         "session-mcq-23",
-        "session-mcq-22",
-        "session-mcq-24",
-        "session-mcq-21",
-        "session-mcq-25",
-        "session-mcq-20"
+        "session-mcq-12",
+        "session-mcq-30",
+        "session-mcq-09"
       ],
       "explanation": "本句的「session」指「某位使用者登入並與系統互動的工作階段」。",
       "sentenceIndex": 48,
@@ -2082,12 +1896,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-23": "本句指「某位使用者登入並與系統互動的工作階段」。",
-        "session-mcq-22": "「使用者／系統持續連線並互動的一個工作階段」與本句語境不同。",
-        "session-mcq-24": "「從登入到登出／逾時之間的登入工作階段」與本句語境不同。",
-        "session-mcq-21": "「安排好的一次攝影／拍攝時段」與本句語境不同。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。",
-        "session-mcq-20": "「受聘參與錄音／演出的專業伴奏樂手」與本句語境不同。"
+        "session-mcq-23": "本句的「session」指「某位使用者登入並與系統互動的工作階段」。",
+        "session-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-23"
     },
@@ -2099,11 +1911,9 @@ export default {
       "masked": "The ____ ends automatically after inactivity.",
       "options": [
         "session-mcq-24",
-        "session-mcq-23",
-        "session-mcq-25",
-        "session-mcq-22",
-        "session-mcq-26",
-        "session-mcq-21"
+        "session-mcq-06",
+        "session-mcq-09",
+        "session-mcq-15"
       ],
       "explanation": "本句的「login session」指「從登入到登出／逾時之間的登入工作階段」。",
       "sentenceIndex": 49,
@@ -2112,12 +1922,10 @@ export default {
         "login session"
       ],
       "optionReasons": {
-        "session-mcq-24": "本句指「從登入到登出／逾時之間的登入工作階段」。",
-        "session-mcq-23": "「某位使用者登入並與系統互動的工作階段」與本句語境不同。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。",
-        "session-mcq-22": "「使用者／系統持續連線並互動的一個工作階段」與本句語境不同。",
-        "session-mcq-26": "「用來識別某一工作階段的識別碼」與本句語境不同。",
-        "session-mcq-21": "「安排好的一次攝影／拍攝時段」與本句語境不同。"
+        "session-mcq-24": "本句的「login session」指「從登入到登出／逾時之間的登入工作階段」。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-24"
     },
@@ -2129,11 +1937,9 @@ export default {
       "masked": "You can view your active ____ in the account settings.",
       "options": [
         "session-mcq-24",
-        "session-mcq-23",
-        "session-mcq-25",
-        "session-mcq-22",
-        "session-mcq-26",
-        "session-mcq-21"
+        "session-mcq-06",
+        "session-mcq-03",
+        "session-mcq-18"
       ],
       "explanation": "本句的「sessions」指「從登入到登出／逾時之間的登入工作階段」。",
       "sentenceIndex": 50,
@@ -2142,12 +1948,10 @@ export default {
         "sessions"
       ],
       "optionReasons": {
-        "session-mcq-24": "本句指「從登入到登出／逾時之間的登入工作階段」。",
-        "session-mcq-23": "「某位使用者登入並與系統互動的工作階段」與本句語境不同。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。",
-        "session-mcq-22": "「使用者／系統持續連線並互動的一個工作階段」與本句語境不同。",
-        "session-mcq-26": "「用來識別某一工作階段的識別碼」與本句語境不同。",
-        "session-mcq-21": "「安排好的一次攝影／拍攝時段」與本句語境不同。"
+        "session-mcq-24": "本句的「sessions」指「從登入到登出／逾時之間的登入工作階段」。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-24"
     },
@@ -2159,11 +1963,9 @@ export default {
       "masked": "The website has a ten-minute ____.",
       "options": [
         "session-mcq-25",
-        "session-mcq-24",
-        "session-mcq-26",
-        "session-mcq-23",
-        "session-mcq-27",
-        "session-mcq-22"
+        "session-mcq-09",
+        "session-mcq-06",
+        "session-mcq-30"
       ],
       "explanation": "本句的「session timeout」指「因閒置過久而自動終止工作階段」。",
       "sentenceIndex": 51,
@@ -2172,12 +1974,10 @@ export default {
         "session timeout"
       ],
       "optionReasons": {
-        "session-mcq-25": "本句指「因閒置過久而自動終止工作階段」。",
-        "session-mcq-24": "「從登入到登出／逾時之間的登入工作階段」與本句語境不同。",
-        "session-mcq-26": "「用來識別某一工作階段的識別碼」與本句語境不同。",
-        "session-mcq-23": "「某位使用者登入並與系統互動的工作階段」與本句語境不同。",
-        "session-mcq-27": "「系統／裝置之間暫時建立的通訊會話」與本句語境不同。",
-        "session-mcq-22": "「使用者／系統持續連線並互動的一個工作階段」與本句語境不同。"
+        "session-mcq-25": "本句的「session timeout」指「因閒置過久而自動終止工作階段」。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-25"
     },
@@ -2189,11 +1989,9 @@ export default {
       "masked": "A ____ logged me out.",
       "options": [
         "session-mcq-25",
-        "session-mcq-24",
-        "session-mcq-26",
-        "session-mcq-23",
-        "session-mcq-27",
-        "session-mcq-22"
+        "session-mcq-18",
+        "session-mcq-07",
+        "session-mcq-15"
       ],
       "explanation": "本句的「session timeout」指「因閒置過久而自動終止工作階段」。",
       "sentenceIndex": 52,
@@ -2202,12 +2000,10 @@ export default {
         "session timeout"
       ],
       "optionReasons": {
-        "session-mcq-25": "本句指「因閒置過久而自動終止工作階段」。",
-        "session-mcq-24": "「從登入到登出／逾時之間的登入工作階段」與本句語境不同。",
-        "session-mcq-26": "「用來識別某一工作階段的識別碼」與本句語境不同。",
-        "session-mcq-23": "「某位使用者登入並與系統互動的工作階段」與本句語境不同。",
-        "session-mcq-27": "「系統／裝置之間暫時建立的通訊會話」與本句語境不同。",
-        "session-mcq-22": "「使用者／系統持續連線並互動的一個工作階段」與本句語境不同。"
+        "session-mcq-25": "本句的「session timeout」指「因閒置過久而自動終止工作階段」。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-25"
     },
@@ -2219,11 +2015,9 @@ export default {
       "masked": "The server assigns each user a ____.",
       "options": [
         "session-mcq-26",
-        "session-mcq-25",
-        "session-mcq-27",
-        "session-mcq-24",
-        "session-mcq-28",
-        "session-mcq-23"
+        "session-mcq-18",
+        "session-mcq-30",
+        "session-mcq-03"
       ],
       "explanation": "本句的「session ID」指「用來識別某一工作階段的識別碼」。",
       "sentenceIndex": 53,
@@ -2232,12 +2026,10 @@ export default {
         "session ID"
       ],
       "optionReasons": {
-        "session-mcq-26": "本句指「用來識別某一工作階段的識別碼」。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。",
-        "session-mcq-27": "「系統／裝置之間暫時建立的通訊會話」與本句語境不同。",
-        "session-mcq-24": "「從登入到登出／逾時之間的登入工作階段」與本句語境不同。",
-        "session-mcq-28": "「一次連續的運動／訓練時段」與本句語境不同。",
-        "session-mcq-23": "「某位使用者登入並與系統互動的工作階段」與本句語境不同。"
+        "session-mcq-26": "本句的「session ID」指「用來識別某一工作階段的識別碼」。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-26"
     },
@@ -2249,11 +2041,9 @@ export default {
       "masked": "The ____ helps maintain the user’s state.",
       "options": [
         "session-mcq-26",
-        "session-mcq-25",
-        "session-mcq-27",
-        "session-mcq-24",
-        "session-mcq-28",
-        "session-mcq-23"
+        "session-mcq-15",
+        "session-mcq-09",
+        "session-mcq-06"
       ],
       "explanation": "本句的「session ID」指「用來識別某一工作階段的識別碼」。",
       "sentenceIndex": 54,
@@ -2262,12 +2052,10 @@ export default {
         "session ID"
       ],
       "optionReasons": {
-        "session-mcq-26": "本句指「用來識別某一工作階段的識別碼」。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。",
-        "session-mcq-27": "「系統／裝置之間暫時建立的通訊會話」與本句語境不同。",
-        "session-mcq-24": "「從登入到登出／逾時之間的登入工作階段」與本句語境不同。",
-        "session-mcq-28": "「一次連續的運動／訓練時段」與本句語境不同。",
-        "session-mcq-23": "「某位使用者登入並與系統互動的工作階段」與本句語境不同。"
+        "session-mcq-26": "本句的「session ID」指「用來識別某一工作階段的識別碼」。",
+        "session-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-26"
     },
@@ -2279,11 +2067,9 @@ export default {
       "masked": "The server terminated the ____.",
       "options": [
         "session-mcq-27",
-        "session-mcq-26",
-        "session-mcq-28",
-        "session-mcq-25",
-        "session-mcq-29",
-        "session-mcq-24"
+        "session-mcq-20",
+        "session-mcq-03",
+        "session-mcq-18"
       ],
       "explanation": "本句的「session」指「系統／裝置之間暫時建立的通訊會話」。",
       "sentenceIndex": 55,
@@ -2292,12 +2078,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-27": "本句指「系統／裝置之間暫時建立的通訊會話」。",
-        "session-mcq-26": "「用來識別某一工作階段的識別碼」與本句語境不同。",
-        "session-mcq-28": "「一次連續的運動／訓練時段」與本句語境不同。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。",
-        "session-mcq-29": "「持續進行某項活動的一段時間」與本句語境不同。",
-        "session-mcq-24": "「從登入到登出／逾時之間的登入工作階段」與本句語境不同。"
+        "session-mcq-27": "本句的「session」指「系統／裝置之間暫時建立的通訊會話」。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-27"
     },
@@ -2309,11 +2093,9 @@ export default {
       "masked": "A secure ____ was established between the two systems.",
       "options": [
         "session-mcq-27",
-        "session-mcq-26",
-        "session-mcq-28",
-        "session-mcq-25",
-        "session-mcq-29",
-        "session-mcq-24"
+        "session-mcq-03",
+        "session-mcq-13",
+        "session-mcq-16"
       ],
       "explanation": "本句的「session」指「系統／裝置之間暫時建立的通訊會話」。",
       "sentenceIndex": 56,
@@ -2322,12 +2104,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-27": "本句指「系統／裝置之間暫時建立的通訊會話」。",
-        "session-mcq-26": "「用來識別某一工作階段的識別碼」與本句語境不同。",
-        "session-mcq-28": "「一次連續的運動／訓練時段」與本句語境不同。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。",
-        "session-mcq-29": "「持續進行某項活動的一段時間」與本句語境不同。",
-        "session-mcq-24": "「從登入到登出／逾時之間的登入工作階段」與本句語境不同。"
+        "session-mcq-27": "本句的「session」指「系統／裝置之間暫時建立的通訊會話」。",
+        "session-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-27"
     },
@@ -2339,11 +2119,9 @@ export default {
       "masked": "I had a hard gym ____ this morning.",
       "options": [
         "session-mcq-28",
-        "session-mcq-27",
-        "session-mcq-29",
-        "session-mcq-26",
         "session-mcq-30",
-        "session-mcq-25"
+        "session-mcq-07",
+        "session-mcq-18"
       ],
       "explanation": "本句的「session」指「一次連續的運動／訓練時段」。",
       "sentenceIndex": 57,
@@ -2352,12 +2130,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-28": "本句指「一次連續的運動／訓練時段」。",
-        "session-mcq-27": "「系統／裝置之間暫時建立的通訊會話」與本句語境不同。",
-        "session-mcq-29": "「持續進行某項活動的一段時間」與本句語境不同。",
-        "session-mcq-26": "「用來識別某一工作階段的識別碼」與本句語境不同。",
-        "session-mcq-30": "「正式：與某會期／課節相關，或按課節聘任的」與本句語境不同。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。"
+        "session-mcq-28": "本句的「session」指「一次連續的運動／訓練時段」。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-28"
     },
@@ -2369,11 +2145,9 @@ export default {
       "masked": "The swimming ____ lasts an hour.",
       "options": [
         "session-mcq-28",
-        "session-mcq-27",
-        "session-mcq-29",
-        "session-mcq-26",
-        "session-mcq-30",
-        "session-mcq-25"
+        "session-mcq-18",
+        "session-mcq-07",
+        "session-mcq-20"
       ],
       "explanation": "本句的「session」指「一次連續的運動／訓練時段」。",
       "sentenceIndex": 58,
@@ -2382,12 +2156,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-28": "本句指「一次連續的運動／訓練時段」。",
-        "session-mcq-27": "「系統／裝置之間暫時建立的通訊會話」與本句語境不同。",
-        "session-mcq-29": "「持續進行某項活動的一段時間」與本句語境不同。",
-        "session-mcq-26": "「用來識別某一工作階段的識別碼」與本句語境不同。",
-        "session-mcq-30": "「正式：與某會期／課節相關，或按課節聘任的」與本句語境不同。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。"
+        "session-mcq-28": "本句的「session」指「一次連續的運動／訓練時段」。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-28"
     },
@@ -2399,11 +2171,9 @@ export default {
       "masked": "I finished the report in one long writing ____.",
       "options": [
         "session-mcq-29",
-        "session-mcq-28",
-        "session-mcq-30",
-        "session-mcq-27",
-        "session-mcq-26",
-        "session-mcq-25"
+        "session-mcq-18",
+        "session-mcq-06",
+        "session-mcq-20"
       ],
       "explanation": "本句的「session」指「持續進行某項活動的一段時間」。",
       "sentenceIndex": 59,
@@ -2412,12 +2182,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-29": "本句指「持續進行某項活動的一段時間」。",
-        "session-mcq-28": "「一次連續的運動／訓練時段」與本句語境不同。",
-        "session-mcq-30": "「正式：與某會期／課節相關，或按課節聘任的」與本句語境不同。",
-        "session-mcq-27": "「系統／裝置之間暫時建立的通訊會話」與本句語境不同。",
-        "session-mcq-26": "「用來識別某一工作階段的識別碼」與本句語境不同。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。"
+        "session-mcq-29": "本句的「session」指「持續進行某項活動的一段時間」。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-29"
     },
@@ -2429,11 +2197,9 @@ export default {
       "masked": "After a three-hour gaming ____, he took a break.",
       "options": [
         "session-mcq-29",
-        "session-mcq-28",
         "session-mcq-30",
-        "session-mcq-27",
-        "session-mcq-26",
-        "session-mcq-25"
+        "session-mcq-09",
+        "session-mcq-12"
       ],
       "explanation": "本句的「session」指「持續進行某項活動的一段時間」。",
       "sentenceIndex": 60,
@@ -2442,12 +2208,10 @@ export default {
         "session"
       ],
       "optionReasons": {
-        "session-mcq-29": "本句指「持續進行某項活動的一段時間」。",
-        "session-mcq-28": "「一次連續的運動／訓練時段」與本句語境不同。",
-        "session-mcq-30": "「正式：與某會期／課節相關，或按課節聘任的」與本句語境不同。",
-        "session-mcq-27": "「系統／裝置之間暫時建立的通訊會話」與本句語境不同。",
-        "session-mcq-26": "「用來識別某一工作階段的識別碼」與本句語境不同。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。"
+        "session-mcq-29": "本句的「session」指「持續進行某項活動的一段時間」。",
+        "session-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-29"
     },
@@ -2459,11 +2223,9 @@ export default {
       "masked": "The institution hires some ____.",
       "options": [
         "session-mcq-30",
-        "session-mcq-29",
-        "session-mcq-28",
-        "session-mcq-27",
-        "session-mcq-26",
-        "session-mcq-25"
+        "session-mcq-24",
+        "session-mcq-06",
+        "session-mcq-11"
       ],
       "explanation": "本句的「sessional staff」指「正式：與某會期／課節相關，或按課節聘任的」。",
       "sentenceIndex": 61,
@@ -2472,12 +2234,10 @@ export default {
         "sessional staff"
       ],
       "optionReasons": {
-        "session-mcq-30": "本句指「正式：與某會期／課節相關，或按課節聘任的」。",
-        "session-mcq-29": "「持續進行某項活動的一段時間」與本句語境不同。",
-        "session-mcq-28": "「一次連續的運動／訓練時段」與本句語境不同。",
-        "session-mcq-27": "「系統／裝置之間暫時建立的通訊會話」與本句語境不同。",
-        "session-mcq-26": "「用來識別某一工作階段的識別碼」與本句語境不同。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。"
+        "session-mcq-30": "本句的「sessional staff」指「正式：與某會期／課節相關，或按課節聘任的」。",
+        "session-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-30"
     },
@@ -2489,11 +2249,9 @@ export default {
       "masked": "____ is common in some universities.",
       "options": [
         "session-mcq-30",
-        "session-mcq-29",
-        "session-mcq-28",
-        "session-mcq-27",
-        "session-mcq-26",
-        "session-mcq-25"
+        "session-mcq-11",
+        "session-mcq-25",
+        "session-mcq-13"
       ],
       "explanation": "本句的「Sessional teaching」指「正式：與某會期／課節相關，或按課節聘任的」。",
       "sentenceIndex": 62,
@@ -2502,12 +2260,10 @@ export default {
         "Sessional teaching"
       ],
       "optionReasons": {
-        "session-mcq-30": "本句指「正式：與某會期／課節相關，或按課節聘任的」。",
-        "session-mcq-29": "「持續進行某項活動的一段時間」與本句語境不同。",
-        "session-mcq-28": "「一次連續的運動／訓練時段」與本句語境不同。",
-        "session-mcq-27": "「系統／裝置之間暫時建立的通訊會話」與本句語境不同。",
-        "session-mcq-26": "「用來識別某一工作階段的識別碼」與本句語境不同。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。"
+        "session-mcq-30": "本句的「Sessional teaching」指「正式：與某會期／課節相關，或按課節聘任的」。",
+        "session-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-30"
     },
@@ -2519,11 +2275,9 @@ export default {
       "masked": "I booked a ____.",
       "options": [
         "session-mcq-29",
-        "session-mcq-28",
-        "session-mcq-30",
-        "session-mcq-27",
-        "session-mcq-26",
-        "session-mcq-25"
+        "session-mcq-20",
+        "session-mcq-18",
+        "session-mcq-03"
       ],
       "explanation": "本句的「session with a physiotherapist」指「持續進行某項活動的一段時間」。",
       "sentenceIndex": 63,
@@ -2532,12 +2286,10 @@ export default {
         "session with a physiotherapist"
       ],
       "optionReasons": {
-        "session-mcq-29": "本句指「持續進行某項活動的一段時間」。",
-        "session-mcq-28": "「一次連續的運動／訓練時段」與本句語境不同。",
-        "session-mcq-30": "「正式：與某會期／課節相關，或按課節聘任的」與本句語境不同。",
-        "session-mcq-27": "「系統／裝置之間暫時建立的通訊會話」與本句語境不同。",
-        "session-mcq-26": "「用來識別某一工作階段的識別碼」與本句語境不同。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。"
+        "session-mcq-29": "本句的「session with a physiotherapist」指「持續進行某項活動的一段時間」。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-29"
     },
@@ -2549,11 +2301,9 @@ export default {
       "masked": "She had a ____.",
       "options": [
         "session-mcq-29",
-        "session-mcq-28",
-        "session-mcq-30",
-        "session-mcq-27",
-        "session-mcq-26",
-        "session-mcq-25"
+        "session-mcq-18",
+        "session-mcq-20",
+        "session-mcq-12"
       ],
       "explanation": "本句的「session with her coach」指「持續進行某項活動的一段時間」。",
       "sentenceIndex": 64,
@@ -2562,12 +2312,10 @@ export default {
         "session with her coach"
       ],
       "optionReasons": {
-        "session-mcq-29": "本句指「持續進行某項活動的一段時間」。",
-        "session-mcq-28": "「一次連續的運動／訓練時段」與本句語境不同。",
-        "session-mcq-30": "「正式：與某會期／課節相關，或按課節聘任的」與本句語境不同。",
-        "session-mcq-27": "「系統／裝置之間暫時建立的通訊會話」與本句語境不同。",
-        "session-mcq-26": "「用來識別某一工作階段的識別碼」與本句語境不同。",
-        "session-mcq-25": "「因閒置過久而自動終止工作階段」與本句語境不同。"
+        "session-mcq-29": "本句的「session with her coach」指「持續進行某項活動的一段時間」。",
+        "session-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "session-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "session-mcq-29"
     }
@@ -2579,5 +2327,7 @@ export default {
     "sha256": "a6e186593bd13b1a7f4706ed5681837832787821ef20229299bb14cf1b7b14b8",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

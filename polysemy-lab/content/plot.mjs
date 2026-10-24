@@ -248,7 +248,7 @@ export default {
     },
     {
       "id": "plot-mcq-13",
-      "title": "表示數據或變數關係的圖",
+      "title": "數據或變數關係的圖",
       "form": "plot — graph",
       "en": "plot — graph",
       "zh": "表示數據或變數關係的圖",
@@ -545,7 +545,7 @@ export default {
     },
     {
       "id": "plot-mcq-28",
-      "title": "表示情節；故事情節",
+      "title": "情節；故事情節",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示情節；故事情節",
@@ -575,11 +575,9 @@ export default {
       "masked": "The ____ is simple, but the ideas behind it are quite deep.",
       "options": [
         "plot-mcq-28",
-        "plot-mcq-27",
-        "plot-mcq-26",
-        "plot-mcq-25",
-        "plot-mcq-24",
-        "plot-mcq-23"
+        "plot-mcq-10",
+        "plot-mcq-19",
+        "plot-mcq-17"
       ],
       "explanation": "本句的「plot」指「表示情節；故事情節」。",
       "sentenceIndex": 0,
@@ -588,12 +586,10 @@ export default {
         "plot"
       ],
       "optionReasons": {
-        "plot-mcq-28": "本句指「表示情節；故事情節」。",
-        "plot-mcq-27": "「故事情節中不合邏輯或無法解釋的漏洞」是「plot hole」的用法，與本句語境不同。",
-        "plot-mcq-26": "「故事中出乎意料、改變發展方向的情節反轉」是「plot twist」的用法，與本句語境不同。",
-        "plot-mcq-25": "「搞不清楚狀況；亦可指失去理智／失控」是「lose the plot」的用法，與本句語境不同。",
-        "plot-mcq-24": "「情況變得更複雜、更神秘／更撲朔迷離」是「the plot thickens」的用法，與本句語境不同。",
-        "plot-mcq-23": "「用來輸出大型精確圖形的繪圖機」是「plotter — machine」的用法，與本句語境不同。"
+        "plot-mcq-28": "本句的「plot」指「表示情節；故事情節」。",
+        "plot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-28"
     },
@@ -605,11 +601,9 @@ export default {
       "masked": "The film has an interesting ____ with several unexpected turns.",
       "options": [
         "plot-mcq-28",
-        "plot-mcq-27",
-        "plot-mcq-26",
-        "plot-mcq-25",
+        "plot-mcq-07",
         "plot-mcq-24",
-        "plot-mcq-23"
+        "plot-mcq-13"
       ],
       "explanation": "本句的「plot」指「表示情節；故事情節」。",
       "sentenceIndex": 1,
@@ -618,12 +612,10 @@ export default {
         "plot"
       ],
       "optionReasons": {
-        "plot-mcq-28": "本句指「表示情節；故事情節」。",
-        "plot-mcq-27": "「故事情節中不合邏輯或無法解釋的漏洞」是「plot hole」的用法，與本句語境不同。",
-        "plot-mcq-26": "「故事中出乎意料、改變發展方向的情節反轉」是「plot twist」的用法，與本句語境不同。",
-        "plot-mcq-25": "「搞不清楚狀況；亦可指失去理智／失控」是「lose the plot」的用法，與本句語境不同。",
-        "plot-mcq-24": "「情況變得更複雜、更神秘／更撲朔迷離」是「the plot thickens」的用法，與本句語境不同。",
-        "plot-mcq-23": "「用來輸出大型精確圖形的繪圖機」是「plotter — machine」的用法，與本句語境不同。"
+        "plot-mcq-28": "本句的「plot」指「表示情節；故事情節」。",
+        "plot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-28"
     },
@@ -635,11 +627,9 @@ export default {
       "masked": "The novel has a complicated ____.",
       "options": [
         "plot-mcq-02",
-        "plot-mcq-01",
-        "plot-mcq-03",
-        "plot-mcq-04",
-        "plot-mcq-05",
-        "plot-mcq-06"
+        "plot-mcq-11",
+        "plot-mcq-13",
+        "plot-mcq-19"
       ],
       "explanation": "本句的「plot」指「故事情節逐步推進、發展的過程」。",
       "sentenceIndex": 2,
@@ -648,12 +638,10 @@ export default {
         "plot"
       ],
       "optionReasons": {
-        "plot-mcq-02": "本句指「故事情節逐步推進、發展的過程」。",
-        "plot-mcq-01": "「小說、電影、戲劇等中互相連接的一系列故事事件；情節」是「plot — story」的用法，與本句語境不同。",
-        "plot-mcq-03": "「故事中的一條情節線／故事線」是「plotline」的用法，與本句語境不同。",
-        "plot-mcq-04": "「為做非法、有害等事情而秘密制定的陰謀／計畫」是「plot — secret plan」的用法，與本句語境不同。",
-        "plot-mcq-05": "「密謀傷害、推翻或對付某人」是「plot against someone」的用法，與本句語境不同。",
-        "plot-mcq-06": "「密謀進行某種通常有害或非法的行動」是「plot to do something」的用法，與本句語境不同。"
+        "plot-mcq-02": "本句的「plot」指「故事情節逐步推進、發展的過程」。",
+        "plot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-02"
     },
@@ -665,11 +653,9 @@ export default {
       "masked": "I enjoyed the characters more than the ____.",
       "options": [
         "plot-mcq-02",
-        "plot-mcq-01",
-        "plot-mcq-03",
-        "plot-mcq-04",
-        "plot-mcq-05",
-        "plot-mcq-06"
+        "plot-mcq-10",
+        "plot-mcq-19",
+        "plot-mcq-12"
       ],
       "explanation": "本句的「plot」指「故事情節逐步推進、發展的過程」。",
       "sentenceIndex": 3,
@@ -678,12 +664,10 @@ export default {
         "plot"
       ],
       "optionReasons": {
-        "plot-mcq-02": "本句指「故事情節逐步推進、發展的過程」。",
-        "plot-mcq-01": "「小說、電影、戲劇等中互相連接的一系列故事事件；情節」是「plot — story」的用法，與本句語境不同。",
-        "plot-mcq-03": "「故事中的一條情節線／故事線」是「plotline」的用法，與本句語境不同。",
-        "plot-mcq-04": "「為做非法、有害等事情而秘密制定的陰謀／計畫」是「plot — secret plan」的用法，與本句語境不同。",
-        "plot-mcq-05": "「密謀傷害、推翻或對付某人」是「plot against someone」的用法，與本句語境不同。",
-        "plot-mcq-06": "「密謀進行某種通常有害或非法的行動」是「plot to do something」的用法，與本句語境不同。"
+        "plot-mcq-02": "本句的「plot」指「故事情節逐步推進、發展的過程」。",
+        "plot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-02"
     },
@@ -695,11 +679,9 @@ export default {
       "masked": "The ____ is quite slow at first.",
       "options": [
         "plot-mcq-02",
-        "plot-mcq-01",
-        "plot-mcq-03",
+        "plot-mcq-14",
         "plot-mcq-04",
-        "plot-mcq-05",
-        "plot-mcq-06"
+        "plot-mcq-10"
       ],
       "explanation": "本句的「plot development」指「故事情節逐步推進、發展的過程」。",
       "sentenceIndex": 4,
@@ -708,12 +690,10 @@ export default {
         "plot development"
       ],
       "optionReasons": {
-        "plot-mcq-02": "本句指「故事情節逐步推進、發展的過程」。",
-        "plot-mcq-01": "「小說、電影、戲劇等中互相連接的一系列故事事件；情節」是「plot — story」的用法，與本句語境不同。",
-        "plot-mcq-03": "「故事中的一條情節線／故事線」是「plotline」的用法，與本句語境不同。",
-        "plot-mcq-04": "「為做非法、有害等事情而秘密制定的陰謀／計畫」是「plot — secret plan」的用法，與本句語境不同。",
-        "plot-mcq-05": "「密謀傷害、推翻或對付某人」是「plot against someone」的用法，與本句語境不同。",
-        "plot-mcq-06": "「密謀進行某種通常有害或非法的行動」是「plot to do something」的用法，與本句語境不同。"
+        "plot-mcq-02": "本句的「plot development」指「故事情節逐步推進、發展的過程」。",
+        "plot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-02"
     },
@@ -725,11 +705,9 @@ export default {
       "masked": "Strong characters can make simple ____ more compelling.",
       "options": [
         "plot-mcq-02",
-        "plot-mcq-01",
-        "plot-mcq-03",
-        "plot-mcq-04",
-        "plot-mcq-05",
-        "plot-mcq-06"
+        "plot-mcq-17",
+        "plot-mcq-19",
+        "plot-mcq-10"
       ],
       "explanation": "本句的「plot development」指「故事情節逐步推進、發展的過程」。",
       "sentenceIndex": 5,
@@ -738,12 +716,10 @@ export default {
         "plot development"
       ],
       "optionReasons": {
-        "plot-mcq-02": "本句指「故事情節逐步推進、發展的過程」。",
-        "plot-mcq-01": "「小說、電影、戲劇等中互相連接的一系列故事事件；情節」是「plot — story」的用法，與本句語境不同。",
-        "plot-mcq-03": "「故事中的一條情節線／故事線」是「plotline」的用法，與本句語境不同。",
-        "plot-mcq-04": "「為做非法、有害等事情而秘密制定的陰謀／計畫」是「plot — secret plan」的用法，與本句語境不同。",
-        "plot-mcq-05": "「密謀傷害、推翻或對付某人」是「plot against someone」的用法，與本句語境不同。",
-        "plot-mcq-06": "「密謀進行某種通常有害或非法的行動」是「plot to do something」的用法，與本句語境不同。"
+        "plot-mcq-02": "本句的「plot development」指「故事情節逐步推進、發展的過程」。",
+        "plot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-02"
     },
@@ -755,11 +731,9 @@ export default {
       "masked": "The film follows two separate ____.",
       "options": [
         "plot-mcq-03",
-        "plot-mcq-02",
+        "plot-mcq-07",
         "plot-mcq-04",
-        "plot-mcq-01",
-        "plot-mcq-05",
-        "plot-mcq-06"
+        "plot-mcq-12"
       ],
       "explanation": "本句的「plotlines」指「故事中的一條情節線／故事線」。",
       "sentenceIndex": 6,
@@ -768,12 +742,10 @@ export default {
         "plotlines"
       ],
       "optionReasons": {
-        "plot-mcq-03": "本句指「故事中的一條情節線／故事線」。",
-        "plot-mcq-02": "「故事情節逐步推進、發展的過程」是「plot development」的用法，與本句語境不同。",
-        "plot-mcq-04": "「為做非法、有害等事情而秘密制定的陰謀／計畫」是「plot — secret plan」的用法，與本句語境不同。",
-        "plot-mcq-01": "「小說、電影、戲劇等中互相連接的一系列故事事件；情節」是「plot — story」的用法，與本句語境不同。",
-        "plot-mcq-05": "「密謀傷害、推翻或對付某人」是「plot against someone」的用法，與本句語境不同。",
-        "plot-mcq-06": "「密謀進行某種通常有害或非法的行動」是「plot to do something」的用法，與本句語境不同。"
+        "plot-mcq-03": "本句的「plotlines」指「故事中的一條情節線／故事線」。",
+        "plot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-03"
     },
@@ -785,11 +757,9 @@ export default {
       "masked": "One ____ focuses on the family relationship.",
       "options": [
         "plot-mcq-03",
-        "plot-mcq-02",
-        "plot-mcq-04",
-        "plot-mcq-01",
-        "plot-mcq-05",
-        "plot-mcq-06"
+        "plot-mcq-06",
+        "plot-mcq-15",
+        "plot-mcq-12"
       ],
       "explanation": "本句的「plotline」指「故事中的一條情節線／故事線」。",
       "sentenceIndex": 7,
@@ -798,12 +768,10 @@ export default {
         "plotline"
       ],
       "optionReasons": {
-        "plot-mcq-03": "本句指「故事中的一條情節線／故事線」。",
-        "plot-mcq-02": "「故事情節逐步推進、發展的過程」是「plot development」的用法，與本句語境不同。",
-        "plot-mcq-04": "「為做非法、有害等事情而秘密制定的陰謀／計畫」是「plot — secret plan」的用法，與本句語境不同。",
-        "plot-mcq-01": "「小說、電影、戲劇等中互相連接的一系列故事事件；情節」是「plot — story」的用法，與本句語境不同。",
-        "plot-mcq-05": "「密謀傷害、推翻或對付某人」是「plot against someone」的用法，與本句語境不同。",
-        "plot-mcq-06": "「密謀進行某種通常有害或非法的行動」是「plot to do something」的用法，與本句語境不同。"
+        "plot-mcq-03": "本句的「plotline」指「故事中的一條情節線／故事線」。",
+        "plot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-03"
     },
@@ -815,11 +783,9 @@ export default {
       "masked": "Police uncovered a ____ to steal the documents.",
       "options": [
         "plot-mcq-04",
-        "plot-mcq-03",
-        "plot-mcq-05",
-        "plot-mcq-02",
-        "plot-mcq-06",
-        "plot-mcq-01"
+        "plot-mcq-10",
+        "plot-mcq-26",
+        "plot-mcq-16"
       ],
       "explanation": "本句的「plot」指「為做非法、有害等事情而秘密制定的陰謀／計畫」。",
       "sentenceIndex": 8,
@@ -828,12 +794,10 @@ export default {
         "plot"
       ],
       "optionReasons": {
-        "plot-mcq-04": "本句指「為做非法、有害等事情而秘密制定的陰謀／計畫」。",
-        "plot-mcq-03": "「故事中的一條情節線／故事線」是「plotline」的用法，與本句語境不同。",
-        "plot-mcq-05": "「密謀傷害、推翻或對付某人」是「plot against someone」的用法，與本句語境不同。",
-        "plot-mcq-02": "「故事情節逐步推進、發展的過程」是「plot development」的用法，與本句語境不同。",
-        "plot-mcq-06": "「密謀進行某種通常有害或非法的行動」是「plot to do something」的用法，與本句語境不同。",
-        "plot-mcq-01": "「小說、電影、戲劇等中互相連接的一系列故事事件；情節」是「plot — story」的用法，與本句語境不同。"
+        "plot-mcq-04": "本句的「plot」指「為做非法、有害等事情而秘密制定的陰謀／計畫」。",
+        "plot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-04"
     },
@@ -845,11 +809,9 @@ export default {
       "masked": "The group was accused of taking part in a ____.",
       "options": [
         "plot-mcq-04",
-        "plot-mcq-03",
-        "plot-mcq-05",
         "plot-mcq-02",
-        "plot-mcq-06",
-        "plot-mcq-01"
+        "plot-mcq-14",
+        "plot-mcq-12"
       ],
       "explanation": "本句的「plot」指「為做非法、有害等事情而秘密制定的陰謀／計畫」。",
       "sentenceIndex": 9,
@@ -858,12 +820,10 @@ export default {
         "plot"
       ],
       "optionReasons": {
-        "plot-mcq-04": "本句指「為做非法、有害等事情而秘密制定的陰謀／計畫」。",
-        "plot-mcq-03": "「故事中的一條情節線／故事線」是「plotline」的用法，與本句語境不同。",
-        "plot-mcq-05": "「密謀傷害、推翻或對付某人」是「plot against someone」的用法，與本句語境不同。",
-        "plot-mcq-02": "「故事情節逐步推進、發展的過程」是「plot development」的用法，與本句語境不同。",
-        "plot-mcq-06": "「密謀進行某種通常有害或非法的行動」是「plot to do something」的用法，與本句語境不同。",
-        "plot-mcq-01": "「小說、電影、戲劇等中互相連接的一系列故事事件；情節」是「plot — story」的用法，與本句語境不同。"
+        "plot-mcq-04": "本句的「plot」指「為做非法、有害等事情而秘密制定的陰謀／計畫」。",
+        "plot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-04"
     },
@@ -875,11 +835,9 @@ export default {
       "masked": "His enemies were ____.",
       "options": [
         "plot-mcq-05",
-        "plot-mcq-04",
-        "plot-mcq-06",
+        "plot-mcq-10",
         "plot-mcq-03",
-        "plot-mcq-07",
-        "plot-mcq-02"
+        "plot-mcq-15"
       ],
       "explanation": "本句的「plotting against him」指「密謀傷害、推翻或對付某人」。",
       "sentenceIndex": 10,
@@ -888,12 +846,10 @@ export default {
         "plotting against him"
       ],
       "optionReasons": {
-        "plot-mcq-05": "本句指「密謀傷害、推翻或對付某人」。",
-        "plot-mcq-04": "「為做非法、有害等事情而秘密制定的陰謀／計畫」是「plot — secret plan」的用法，與本句語境不同。",
-        "plot-mcq-06": "「密謀進行某種通常有害或非法的行動」是「plot to do something」的用法，與本句語境不同。",
-        "plot-mcq-03": "「故事中的一條情節線／故事線」是「plotline」的用法，與本句語境不同。",
-        "plot-mcq-07": "「仔細策劃、謀劃行動或未來步驟」是「plot — plan carefully」的用法，與本句語境不同。",
-        "plot-mcq-02": "「故事情節逐步推進、發展的過程」是「plot development」的用法，與本句語境不同。"
+        "plot-mcq-05": "本句的「plotting against him」指「密謀傷害、推翻或對付某人」。",
+        "plot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-05"
     },
@@ -905,11 +861,9 @@ export default {
       "masked": "She suspected that several colleagues were ____.",
       "options": [
         "plot-mcq-05",
-        "plot-mcq-04",
-        "plot-mcq-06",
         "plot-mcq-03",
-        "plot-mcq-07",
-        "plot-mcq-02"
+        "plot-mcq-14",
+        "plot-mcq-24"
       ],
       "explanation": "本句的「plotting against her」指「密謀傷害、推翻或對付某人」。",
       "sentenceIndex": 11,
@@ -918,12 +872,10 @@ export default {
         "plotting against her"
       ],
       "optionReasons": {
-        "plot-mcq-05": "本句指「密謀傷害、推翻或對付某人」。",
-        "plot-mcq-04": "「為做非法、有害等事情而秘密制定的陰謀／計畫」是「plot — secret plan」的用法，與本句語境不同。",
-        "plot-mcq-06": "「密謀進行某種通常有害或非法的行動」是「plot to do something」的用法，與本句語境不同。",
-        "plot-mcq-03": "「故事中的一條情節線／故事線」是「plotline」的用法，與本句語境不同。",
-        "plot-mcq-07": "「仔細策劃、謀劃行動或未來步驟」是「plot — plan carefully」的用法，與本句語境不同。",
-        "plot-mcq-02": "「故事情節逐步推進、發展的過程」是「plot development」的用法，與本句語境不同。"
+        "plot-mcq-05": "本句的「plotting against her」指「密謀傷害、推翻或對付某人」。",
+        "plot-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-05"
     },
@@ -935,11 +887,9 @@ export default {
       "masked": "They ____ the leader.",
       "options": [
         "plot-mcq-06",
-        "plot-mcq-05",
-        "plot-mcq-07",
-        "plot-mcq-04",
-        "plot-mcq-08",
-        "plot-mcq-03"
+        "plot-mcq-12",
+        "plot-mcq-17",
+        "plot-mcq-28"
       ],
       "explanation": "本句的「plotted to overthrow」指「密謀進行某種通常有害或非法的行動」。",
       "sentenceIndex": 12,
@@ -948,12 +898,10 @@ export default {
         "plotted to overthrow"
       ],
       "optionReasons": {
-        "plot-mcq-06": "本句指「密謀進行某種通常有害或非法的行動」。",
-        "plot-mcq-05": "「密謀傷害、推翻或對付某人」是「plot against someone」的用法，與本句語境不同。",
-        "plot-mcq-07": "「仔細策劃、謀劃行動或未來步驟」是「plot — plan carefully」的用法，與本句語境不同。",
-        "plot-mcq-04": "「為做非法、有害等事情而秘密制定的陰謀／計畫」是「plot — secret plan」的用法，與本句語境不同。",
-        "plot-mcq-08": "「規劃船舶、飛機等的航線」是「plot a course — literal」的用法，與本句語境不同。",
-        "plot-mcq-03": "「故事中的一條情節線／故事線」是「plotline」的用法，與本句語境不同。"
+        "plot-mcq-06": "本句的「plotted to overthrow」指「密謀進行某種通常有害或非法的行動」。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-06"
     },
@@ -965,11 +913,9 @@ export default {
       "masked": "The criminals ____ the painting.",
       "options": [
         "plot-mcq-06",
-        "plot-mcq-05",
-        "plot-mcq-07",
-        "plot-mcq-04",
-        "plot-mcq-08",
-        "plot-mcq-03"
+        "plot-mcq-14",
+        "plot-mcq-12",
+        "plot-mcq-11"
       ],
       "explanation": "本句的「plotted to steal」指「密謀進行某種通常有害或非法的行動」。",
       "sentenceIndex": 13,
@@ -978,12 +924,10 @@ export default {
         "plotted to steal"
       ],
       "optionReasons": {
-        "plot-mcq-06": "本句指「密謀進行某種通常有害或非法的行動」。",
-        "plot-mcq-05": "「密謀傷害、推翻或對付某人」是「plot against someone」的用法，與本句語境不同。",
-        "plot-mcq-07": "「仔細策劃、謀劃行動或未來步驟」是「plot — plan carefully」的用法，與本句語境不同。",
-        "plot-mcq-04": "「為做非法、有害等事情而秘密制定的陰謀／計畫」是「plot — secret plan」的用法，與本句語境不同。",
-        "plot-mcq-08": "「規劃船舶、飛機等的航線」是「plot a course — literal」的用法，與本句語境不同。",
-        "plot-mcq-03": "「故事中的一條情節線／故事線」是「plotline」的用法，與本句語境不同。"
+        "plot-mcq-06": "本句的「plotted to steal」指「密謀進行某種通常有害或非法的行動」。",
+        "plot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-06"
     },
@@ -995,11 +939,9 @@ export default {
       "masked": "They ____ carefully.",
       "options": [
         "plot-mcq-07",
-        "plot-mcq-06",
-        "plot-mcq-08",
-        "plot-mcq-05",
-        "plot-mcq-09",
-        "plot-mcq-04"
+        "plot-mcq-27",
+        "plot-mcq-16",
+        "plot-mcq-10"
       ],
       "explanation": "本句的「plotted their next move」指「仔細策劃、謀劃行動或未來步驟」。",
       "sentenceIndex": 14,
@@ -1008,12 +950,10 @@ export default {
         "plotted their next move"
       ],
       "optionReasons": {
-        "plot-mcq-07": "本句指「仔細策劃、謀劃行動或未來步驟」。",
-        "plot-mcq-06": "「密謀進行某種通常有害或非法的行動」是「plot to do something」的用法，與本句語境不同。",
-        "plot-mcq-08": "「規劃船舶、飛機等的航線」是「plot a course — literal」的用法，與本句語境不同。",
-        "plot-mcq-05": "「密謀傷害、推翻或對付某人」是「plot against someone」的用法，與本句語境不同。",
-        "plot-mcq-09": "「為未來制定方向／發展路線」是「plot a course — figurative」的用法，與本句語境不同。",
-        "plot-mcq-04": "「為做非法、有害等事情而秘密制定的陰謀／計畫」是「plot — secret plan」的用法，與本句語境不同。"
+        "plot-mcq-07": "本句的「plotted their next move」指「仔細策劃、謀劃行動或未來步驟」。",
+        "plot-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-07"
     },
@@ -1025,11 +965,9 @@ export default {
       "masked": "She sat down to ____ across the country.",
       "options": [
         "plot-mcq-07",
-        "plot-mcq-06",
-        "plot-mcq-08",
-        "plot-mcq-05",
-        "plot-mcq-09",
-        "plot-mcq-04"
+        "plot-mcq-12",
+        "plot-mcq-13",
+        "plot-mcq-26"
       ],
       "explanation": "本句的「plot her route」指「仔細策劃、謀劃行動或未來步驟」。",
       "sentenceIndex": 15,
@@ -1038,12 +976,10 @@ export default {
         "plot her route"
       ],
       "optionReasons": {
-        "plot-mcq-07": "本句指「仔細策劃、謀劃行動或未來步驟」。",
-        "plot-mcq-06": "「密謀進行某種通常有害或非法的行動」是「plot to do something」的用法，與本句語境不同。",
-        "plot-mcq-08": "「規劃船舶、飛機等的航線」是「plot a course — literal」的用法，與本句語境不同。",
-        "plot-mcq-05": "「密謀傷害、推翻或對付某人」是「plot against someone」的用法，與本句語境不同。",
-        "plot-mcq-09": "「為未來制定方向／發展路線」是「plot a course — figurative」的用法，與本句語境不同。",
-        "plot-mcq-04": "「為做非法、有害等事情而秘密制定的陰謀／計畫」是「plot — secret plan」的用法，與本句語境不同。"
+        "plot-mcq-07": "本句的「plot her route」指「仔細策劃、謀劃行動或未來步驟」。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-07"
     },
@@ -1055,11 +991,9 @@ export default {
       "masked": "They bought a small ____.",
       "options": [
         "plot-mcq-10",
-        "plot-mcq-09",
-        "plot-mcq-11",
-        "plot-mcq-08",
-        "plot-mcq-12",
-        "plot-mcq-07"
+        "plot-mcq-18",
+        "plot-mcq-21",
+        "plot-mcq-06"
       ],
       "explanation": "本句的「plot of land」指「有明確界線的一小塊土地／地皮」。",
       "sentenceIndex": 16,
@@ -1068,12 +1002,10 @@ export default {
         "plot of land"
       ],
       "optionReasons": {
-        "plot-mcq-10": "本句指「有明確界線的一小塊土地／地皮」。",
-        "plot-mcq-09": "「為未來制定方向／發展路線」是「plot a course — figurative」的用法，與本句語境不同。",
-        "plot-mcq-11": "「用來種植花卉、蔬菜等的小塊土地」是「garden/vegetable plot」的用法，與本句語境不同。",
-        "plot-mcq-08": "「規劃船舶、飛機等的航線」是「plot a course — literal」的用法，與本句語境不同。",
-        "plot-mcq-12": "「墓園中用作埋葬的墓地／墓穴用地」是「burial plot」的用法，與本句語境不同。",
-        "plot-mcq-07": "「仔細策劃、謀劃行動或未來步驟」是「plot — plan carefully」的用法，與本句語境不同。"
+        "plot-mcq-10": "本句的「plot of land」指「有明確界線的一小塊土地／地皮」。",
+        "plot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-10"
     },
@@ -1085,11 +1017,9 @@ export default {
       "masked": "The house was built on a narrow ____.",
       "options": [
         "plot-mcq-10",
-        "plot-mcq-09",
-        "plot-mcq-11",
-        "plot-mcq-08",
-        "plot-mcq-12",
-        "plot-mcq-07"
+        "plot-mcq-02",
+        "plot-mcq-05",
+        "plot-mcq-14"
       ],
       "explanation": "本句的「plot」指「有明確界線的一小塊土地／地皮」。",
       "sentenceIndex": 17,
@@ -1098,12 +1028,10 @@ export default {
         "plot"
       ],
       "optionReasons": {
-        "plot-mcq-10": "本句指「有明確界線的一小塊土地／地皮」。",
-        "plot-mcq-09": "「為未來制定方向／發展路線」是「plot a course — figurative」的用法，與本句語境不同。",
-        "plot-mcq-11": "「用來種植花卉、蔬菜等的小塊土地」是「garden/vegetable plot」的用法，與本句語境不同。",
-        "plot-mcq-08": "「規劃船舶、飛機等的航線」是「plot a course — literal」的用法，與本句語境不同。",
-        "plot-mcq-12": "「墓園中用作埋葬的墓地／墓穴用地」是「burial plot」的用法，與本句語境不同。",
-        "plot-mcq-07": "「仔細策劃、謀劃行動或未來步驟」是「plot — plan carefully」的用法，與本句語境不同。"
+        "plot-mcq-10": "本句的「plot」指「有明確界線的一小塊土地／地皮」。",
+        "plot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-10"
     },
@@ -1115,11 +1043,9 @@ export default {
       "masked": "She grows tomatoes in a small vegetable ____.",
       "options": [
         "plot-mcq-11",
-        "plot-mcq-10",
-        "plot-mcq-12",
-        "plot-mcq-09",
         "plot-mcq-13",
-        "plot-mcq-08"
+        "plot-mcq-18",
+        "plot-mcq-24"
       ],
       "explanation": "本句的「plot」指「用來種植花卉、蔬菜等的小塊土地」。",
       "sentenceIndex": 18,
@@ -1128,12 +1054,10 @@ export default {
         "plot"
       ],
       "optionReasons": {
-        "plot-mcq-11": "本句指「用來種植花卉、蔬菜等的小塊土地」。",
-        "plot-mcq-10": "「有明確界線的一小塊土地／地皮」是「plot — land」的用法，與本句語境不同。",
-        "plot-mcq-12": "「墓園中用作埋葬的墓地／墓穴用地」是「burial plot」的用法，與本句語境不同。",
-        "plot-mcq-09": "「為未來制定方向／發展路線」是「plot a course — figurative」的用法，與本句語境不同。",
-        "plot-mcq-13": "「表示數據或變數關係的圖」是「plot — graph」的用法，與本句語境不同。",
-        "plot-mcq-08": "「規劃船舶、飛機等的航線」是「plot a course — literal」的用法，與本句語境不同。"
+        "plot-mcq-11": "本句的「plot」指「用來種植花卉、蔬菜等的小塊土地」。",
+        "plot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-11"
     },
@@ -1145,11 +1069,9 @@ export default {
       "masked": "Each family was given a garden ____.",
       "options": [
         "plot-mcq-11",
-        "plot-mcq-10",
-        "plot-mcq-12",
-        "plot-mcq-09",
-        "plot-mcq-13",
-        "plot-mcq-08"
+        "plot-mcq-15",
+        "plot-mcq-03",
+        "plot-mcq-12"
       ],
       "explanation": "本句的「plot」指「用來種植花卉、蔬菜等的小塊土地」。",
       "sentenceIndex": 19,
@@ -1158,12 +1080,10 @@ export default {
         "plot"
       ],
       "optionReasons": {
-        "plot-mcq-11": "本句指「用來種植花卉、蔬菜等的小塊土地」。",
-        "plot-mcq-10": "「有明確界線的一小塊土地／地皮」是「plot — land」的用法，與本句語境不同。",
-        "plot-mcq-12": "「墓園中用作埋葬的墓地／墓穴用地」是「burial plot」的用法，與本句語境不同。",
-        "plot-mcq-09": "「為未來制定方向／發展路線」是「plot a course — figurative」的用法，與本句語境不同。",
-        "plot-mcq-13": "「表示數據或變數關係的圖」是「plot — graph」的用法，與本句語境不同。",
-        "plot-mcq-08": "「規劃船舶、飛機等的航線」是「plot a course — literal」的用法，與本句語境不同。"
+        "plot-mcq-11": "本句的「plot」指「用來種植花卉、蔬菜等的小塊土地」。",
+        "plot-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-11"
     },
@@ -1175,11 +1095,9 @@ export default {
       "masked": "The family purchased a ____.",
       "options": [
         "plot-mcq-12",
-        "plot-mcq-11",
-        "plot-mcq-13",
-        "plot-mcq-10",
         "plot-mcq-14",
-        "plot-mcq-09"
+        "plot-mcq-05",
+        "plot-mcq-24"
       ],
       "explanation": "本句的「burial plot」指「墓園中用作埋葬的墓地／墓穴用地」。",
       "sentenceIndex": 20,
@@ -1188,12 +1106,10 @@ export default {
         "burial plot"
       ],
       "optionReasons": {
-        "plot-mcq-12": "本句指「墓園中用作埋葬的墓地／墓穴用地」。",
-        "plot-mcq-11": "「用來種植花卉、蔬菜等的小塊土地」是「garden/vegetable plot」的用法，與本句語境不同。",
-        "plot-mcq-13": "「表示數據或變數關係的圖」是「plot — graph」的用法，與本句語境不同。",
-        "plot-mcq-10": "「有明確界線的一小塊土地／地皮」是「plot — land」的用法，與本句語境不同。",
-        "plot-mcq-14": "「以數據點顯示兩個數值變數關係的散點圖」是「scatter plot」的用法，與本句語境不同。",
-        "plot-mcq-09": "「為未來制定方向／發展路線」是「plot a course — figurative」的用法，與本句語境不同。"
+        "plot-mcq-12": "本句的「burial plot」指「墓園中用作埋葬的墓地／墓穴用地」。",
+        "plot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-12"
     },
@@ -1205,11 +1121,9 @@ export default {
       "masked": "The cemetery had no additional ____ available.",
       "options": [
         "plot-mcq-12",
-        "plot-mcq-11",
-        "plot-mcq-13",
-        "plot-mcq-10",
-        "plot-mcq-14",
-        "plot-mcq-09"
+        "plot-mcq-24",
+        "plot-mcq-07",
+        "plot-mcq-14"
       ],
       "explanation": "本句的「plots」指「墓園中用作埋葬的墓地／墓穴用地」。",
       "sentenceIndex": 21,
@@ -1218,12 +1132,10 @@ export default {
         "plots"
       ],
       "optionReasons": {
-        "plot-mcq-12": "本句指「墓園中用作埋葬的墓地／墓穴用地」。",
-        "plot-mcq-11": "「用來種植花卉、蔬菜等的小塊土地」是「garden/vegetable plot」的用法，與本句語境不同。",
-        "plot-mcq-13": "「表示數據或變數關係的圖」是「plot — graph」的用法，與本句語境不同。",
-        "plot-mcq-10": "「有明確界線的一小塊土地／地皮」是「plot — land」的用法，與本句語境不同。",
-        "plot-mcq-14": "「以數據點顯示兩個數值變數關係的散點圖」是「scatter plot」的用法，與本句語境不同。",
-        "plot-mcq-09": "「為未來制定方向／發展路線」是「plot a course — figurative」的用法，與本句語境不同。"
+        "plot-mcq-12": "本句的「plots」指「墓園中用作埋葬的墓地／墓穴用地」。",
+        "plot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-12"
     },
@@ -1235,11 +1147,9 @@ export default {
       "masked": "The ____ shows the relationship between temperature and pressure.",
       "options": [
         "plot-mcq-13",
-        "plot-mcq-12",
-        "plot-mcq-14",
         "plot-mcq-11",
-        "plot-mcq-15",
-        "plot-mcq-10"
+        "plot-mcq-12",
+        "plot-mcq-03"
       ],
       "explanation": "本句的「plot」指「表示數據或變數關係的圖」。",
       "sentenceIndex": 22,
@@ -1248,12 +1158,10 @@ export default {
         "plot"
       ],
       "optionReasons": {
-        "plot-mcq-13": "本句指「表示數據或變數關係的圖」。",
-        "plot-mcq-12": "「墓園中用作埋葬的墓地／墓穴用地」是「burial plot」的用法，與本句語境不同。",
-        "plot-mcq-14": "「以數據點顯示兩個數值變數關係的散點圖」是「scatter plot」的用法，與本句語境不同。",
-        "plot-mcq-11": "「用來種植花卉、蔬菜等的小塊土地」是「garden/vegetable plot」的用法，與本句語境不同。",
-        "plot-mcq-15": "「顯示中位數、四分位數及數據分布的箱形圖」是「box plot」的用法，與本句語境不同。",
-        "plot-mcq-10": "「有明確界線的一小塊土地／地皮」是「plot — land」的用法，與本句語境不同。"
+        "plot-mcq-13": "本句的「plot」指「表示數據或變數關係的圖」。",
+        "plot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-13"
     },
@@ -1265,11 +1173,9 @@ export default {
       "masked": "Each point on the ____ represents one observation.",
       "options": [
         "plot-mcq-13",
-        "plot-mcq-12",
-        "plot-mcq-14",
-        "plot-mcq-11",
-        "plot-mcq-15",
-        "plot-mcq-10"
+        "plot-mcq-10",
+        "plot-mcq-04",
+        "plot-mcq-02"
       ],
       "explanation": "本句的「plot」指「表示數據或變數關係的圖」。",
       "sentenceIndex": 23,
@@ -1278,12 +1184,10 @@ export default {
         "plot"
       ],
       "optionReasons": {
-        "plot-mcq-13": "本句指「表示數據或變數關係的圖」。",
-        "plot-mcq-12": "「墓園中用作埋葬的墓地／墓穴用地」是「burial plot」的用法，與本句語境不同。",
-        "plot-mcq-14": "「以數據點顯示兩個數值變數關係的散點圖」是「scatter plot」的用法，與本句語境不同。",
-        "plot-mcq-11": "「用來種植花卉、蔬菜等的小塊土地」是「garden/vegetable plot」的用法，與本句語境不同。",
-        "plot-mcq-15": "「顯示中位數、四分位數及數據分布的箱形圖」是「box plot」的用法，與本句語境不同。",
-        "plot-mcq-10": "「有明確界線的一小塊土地／地皮」是「plot — land」的用法，與本句語境不同。"
+        "plot-mcq-13": "本句的「plot」指「表示數據或變數關係的圖」。",
+        "plot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-13"
     },
@@ -1295,11 +1199,9 @@ export default {
       "masked": "We displayed the results in a ____.",
       "options": [
         "plot-mcq-14",
-        "plot-mcq-13",
-        "plot-mcq-15",
-        "plot-mcq-12",
-        "plot-mcq-16",
-        "plot-mcq-11"
+        "plot-mcq-07",
+        "plot-mcq-04",
+        "plot-mcq-12"
       ],
       "explanation": "本句的「scatter plot」指「以數據點顯示兩個數值變數關係的散點圖」。",
       "sentenceIndex": 24,
@@ -1308,12 +1210,10 @@ export default {
         "scatter plot"
       ],
       "optionReasons": {
-        "plot-mcq-14": "本句指「以數據點顯示兩個數值變數關係的散點圖」。",
-        "plot-mcq-13": "「表示數據或變數關係的圖」是「plot — graph」的用法，與本句語境不同。",
-        "plot-mcq-15": "「顯示中位數、四分位數及數據分布的箱形圖」是「box plot」的用法，與本句語境不同。",
-        "plot-mcq-12": "「墓園中用作埋葬的墓地／墓穴用地」是「burial plot」的用法，與本句語境不同。",
-        "plot-mcq-16": "「按座標／數值把點標在圖上」是「plot — mark points」的用法，與本句語境不同。",
-        "plot-mcq-11": "「用來種植花卉、蔬菜等的小塊土地」是「garden/vegetable plot」的用法，與本句語境不同。"
+        "plot-mcq-14": "本句的「scatter plot」指「以數據點顯示兩個數值變數關係的散點圖」。",
+        "plot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-14"
     },
@@ -1325,11 +1225,9 @@ export default {
       "masked": "The ____ suggests a positive relationship.",
       "options": [
         "plot-mcq-14",
-        "plot-mcq-13",
-        "plot-mcq-15",
-        "plot-mcq-12",
-        "plot-mcq-16",
-        "plot-mcq-11"
+        "plot-mcq-05",
+        "plot-mcq-21",
+        "plot-mcq-10"
       ],
       "explanation": "本句的「scatter plot」指「以數據點顯示兩個數值變數關係的散點圖」。",
       "sentenceIndex": 25,
@@ -1338,12 +1236,10 @@ export default {
         "scatter plot"
       ],
       "optionReasons": {
-        "plot-mcq-14": "本句指「以數據點顯示兩個數值變數關係的散點圖」。",
-        "plot-mcq-13": "「表示數據或變數關係的圖」是「plot — graph」的用法，與本句語境不同。",
-        "plot-mcq-15": "「顯示中位數、四分位數及數據分布的箱形圖」是「box plot」的用法，與本句語境不同。",
-        "plot-mcq-12": "「墓園中用作埋葬的墓地／墓穴用地」是「burial plot」的用法，與本句語境不同。",
-        "plot-mcq-16": "「按座標／數值把點標在圖上」是「plot — mark points」的用法，與本句語境不同。",
-        "plot-mcq-11": "「用來種植花卉、蔬菜等的小塊土地」是「garden/vegetable plot」的用法，與本句語境不同。"
+        "plot-mcq-14": "本句的「scatter plot」指「以數據點顯示兩個數值變數關係的散點圖」。",
+        "plot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-14"
     },
@@ -1355,11 +1251,9 @@ export default {
       "masked": "The ____ shows the spread of the data.",
       "options": [
         "plot-mcq-15",
-        "plot-mcq-14",
-        "plot-mcq-16",
-        "plot-mcq-13",
-        "plot-mcq-17",
-        "plot-mcq-12"
+        "plot-mcq-07",
+        "plot-mcq-12",
+        "plot-mcq-24"
       ],
       "explanation": "本句的「box plot」指「顯示中位數、四分位數及數據分布的箱形圖」。",
       "sentenceIndex": 26,
@@ -1368,12 +1262,10 @@ export default {
         "box plot"
       ],
       "optionReasons": {
-        "plot-mcq-15": "本句指「顯示中位數、四分位數及數據分布的箱形圖」。",
-        "plot-mcq-14": "「以數據點顯示兩個數值變數關係的散點圖」是「scatter plot」的用法，與本句語境不同。",
-        "plot-mcq-16": "「按座標／數值把點標在圖上」是「plot — mark points」的用法，與本句語境不同。",
-        "plot-mcq-13": "「表示數據或變數關係的圖」是「plot — graph」的用法，與本句語境不同。",
-        "plot-mcq-17": "「根據數值或函數繪製圖形／曲線」是「plot a graph/curve」的用法，與本句語境不同。",
-        "plot-mcq-12": "「墓園中用作埋葬的墓地／墓穴用地」是「burial plot」的用法，與本句語境不同。"
+        "plot-mcq-15": "本句的「box plot」指「顯示中位數、四分位數及數據分布的箱形圖」。",
+        "plot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-15"
     },
@@ -1385,11 +1277,9 @@ export default {
       "masked": "Compare the two groups using a ____.",
       "options": [
         "plot-mcq-15",
-        "plot-mcq-14",
-        "plot-mcq-16",
-        "plot-mcq-13",
-        "plot-mcq-17",
-        "plot-mcq-12"
+        "plot-mcq-10",
+        "plot-mcq-07",
+        "plot-mcq-26"
       ],
       "explanation": "本句的「box plot」指「顯示中位數、四分位數及數據分布的箱形圖」。",
       "sentenceIndex": 27,
@@ -1398,12 +1288,10 @@ export default {
         "box plot"
       ],
       "optionReasons": {
-        "plot-mcq-15": "本句指「顯示中位數、四分位數及數據分布的箱形圖」。",
-        "plot-mcq-14": "「以數據點顯示兩個數值變數關係的散點圖」是「scatter plot」的用法，與本句語境不同。",
-        "plot-mcq-16": "「按座標／數值把點標在圖上」是「plot — mark points」的用法，與本句語境不同。",
-        "plot-mcq-13": "「表示數據或變數關係的圖」是「plot — graph」的用法，與本句語境不同。",
-        "plot-mcq-17": "「根據數值或函數繪製圖形／曲線」是「plot a graph/curve」的用法，與本句語境不同。",
-        "plot-mcq-12": "「墓園中用作埋葬的墓地／墓穴用地」是「burial plot」的用法，與本句語境不同。"
+        "plot-mcq-15": "本句的「box plot」指「顯示中位數、四分位數及數據分布的箱形圖」。",
+        "plot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-15"
     },
@@ -1415,11 +1303,9 @@ export default {
       "masked": "____ on the graph.",
       "options": [
         "plot-mcq-16",
-        "plot-mcq-15",
-        "plot-mcq-17",
-        "plot-mcq-14",
-        "plot-mcq-18",
-        "plot-mcq-13"
+        "plot-mcq-10",
+        "plot-mcq-28",
+        "plot-mcq-24"
       ],
       "explanation": "本句的「Plot the points」指「按座標／數值把點標在圖上」。",
       "sentenceIndex": 28,
@@ -1428,12 +1314,10 @@ export default {
         "Plot the points"
       ],
       "optionReasons": {
-        "plot-mcq-16": "本句指「按座標／數值把點標在圖上」。",
-        "plot-mcq-15": "「顯示中位數、四分位數及數據分布的箱形圖」是「box plot」的用法，與本句語境不同。",
-        "plot-mcq-17": "「根據數值或函數繪製圖形／曲線」是「plot a graph/curve」的用法，與本句語境不同。",
-        "plot-mcq-14": "「以數據點顯示兩個數值變數關係的散點圖」是「scatter plot」的用法，與本句語境不同。",
-        "plot-mcq-18": "「把某物的位置標記在地圖或海圖上」是「plot — map position」的用法，與本句語境不同。",
-        "plot-mcq-13": "「表示數據或變數關係的圖」是「plot — graph」的用法，與本句語境不同。"
+        "plot-mcq-16": "本句的「Plot the points」指「按座標／數值把點標在圖上」。",
+        "plot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-16"
     },
@@ -1445,11 +1329,9 @@ export default {
       "masked": "First, ____ the value of \\(x\\) against \\(y\\).",
       "options": [
         "plot-mcq-16",
-        "plot-mcq-15",
-        "plot-mcq-17",
-        "plot-mcq-14",
-        "plot-mcq-18",
-        "plot-mcq-13"
+        "plot-mcq-24",
+        "plot-mcq-04",
+        "plot-mcq-03"
       ],
       "explanation": "本句的「plot」指「按座標／數值把點標在圖上」。",
       "sentenceIndex": 29,
@@ -1458,12 +1340,10 @@ export default {
         "plot"
       ],
       "optionReasons": {
-        "plot-mcq-16": "本句指「按座標／數值把點標在圖上」。",
-        "plot-mcq-15": "「顯示中位數、四分位數及數據分布的箱形圖」是「box plot」的用法，與本句語境不同。",
-        "plot-mcq-17": "「根據數值或函數繪製圖形／曲線」是「plot a graph/curve」的用法，與本句語境不同。",
-        "plot-mcq-14": "「以數據點顯示兩個數值變數關係的散點圖」是「scatter plot」的用法，與本句語境不同。",
-        "plot-mcq-18": "「把某物的位置標記在地圖或海圖上」是「plot — map position」的用法，與本句語境不同。",
-        "plot-mcq-13": "「表示數據或變數關係的圖」是「plot — graph」的用法，與本句語境不同。"
+        "plot-mcq-16": "本句的「plot」指「按座標／數值把點標在圖上」。",
+        "plot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-16"
     },
@@ -1475,11 +1355,9 @@ export default {
       "masked": "____ of distance against time.",
       "options": [
         "plot-mcq-17",
-        "plot-mcq-16",
-        "plot-mcq-18",
-        "plot-mcq-15",
-        "plot-mcq-19",
-        "plot-mcq-14"
+        "plot-mcq-05",
+        "plot-mcq-20",
+        "plot-mcq-11"
       ],
       "explanation": "本句的「Plot a graph」指「根據數值或函數繪製圖形／曲線」。",
       "sentenceIndex": 30,
@@ -1488,12 +1366,10 @@ export default {
         "Plot a graph"
       ],
       "optionReasons": {
-        "plot-mcq-17": "本句指「根據數值或函數繪製圖形／曲線」。",
-        "plot-mcq-16": "「按座標／數值把點標在圖上」是「plot — mark points」的用法，與本句語境不同。",
-        "plot-mcq-18": "「把某物的位置標記在地圖或海圖上」是「plot — map position」的用法，與本句語境不同。",
-        "plot-mcq-15": "「顯示中位數、四分位數及數據分布的箱形圖」是「box plot」的用法，與本句語境不同。",
-        "plot-mcq-19": "「在地圖上規劃／標示一條路線」是「plot a route」的用法，與本句語境不同。",
-        "plot-mcq-14": "「以數據點顯示兩個數值變數關係的散點圖」是「scatter plot」的用法，與本句語境不同。"
+        "plot-mcq-17": "本句的「Plot a graph」指「根據數值或函數繪製圖形／曲線」。",
+        "plot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-17"
     },
@@ -1505,11 +1381,9 @@ export default {
       "masked": "The software can ____ automatically.",
       "options": [
         "plot-mcq-17",
-        "plot-mcq-16",
-        "plot-mcq-18",
-        "plot-mcq-15",
-        "plot-mcq-19",
-        "plot-mcq-14"
+        "plot-mcq-04",
+        "plot-mcq-07",
+        "plot-mcq-12"
       ],
       "explanation": "本句的「plot the curve」指「根據數值或函數繪製圖形／曲線」。",
       "sentenceIndex": 31,
@@ -1518,12 +1392,10 @@ export default {
         "plot the curve"
       ],
       "optionReasons": {
-        "plot-mcq-17": "本句指「根據數值或函數繪製圖形／曲線」。",
-        "plot-mcq-16": "「按座標／數值把點標在圖上」是「plot — mark points」的用法，與本句語境不同。",
-        "plot-mcq-18": "「把某物的位置標記在地圖或海圖上」是「plot — map position」的用法，與本句語境不同。",
-        "plot-mcq-15": "「顯示中位數、四分位數及數據分布的箱形圖」是「box plot」的用法，與本句語境不同。",
-        "plot-mcq-19": "「在地圖上規劃／標示一條路線」是「plot a route」的用法，與本句語境不同。",
-        "plot-mcq-14": "「以數據點顯示兩個數值變數關係的散點圖」是「scatter plot」的用法，與本句語境不同。"
+        "plot-mcq-17": "本句的「plot the curve」指「根據數值或函數繪製圖形／曲線」。",
+        "plot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-17"
     },
@@ -1535,11 +1407,9 @@ export default {
       "masked": "They ____ on a map.",
       "options": [
         "plot-mcq-18",
-        "plot-mcq-17",
-        "plot-mcq-19",
-        "plot-mcq-16",
-        "plot-mcq-20",
-        "plot-mcq-15"
+        "plot-mcq-10",
+        "plot-mcq-04",
+        "plot-mcq-07"
       ],
       "explanation": "本句的「plotted the locations」指「把某物的位置標記在地圖或海圖上」。",
       "sentenceIndex": 32,
@@ -1548,12 +1418,10 @@ export default {
         "plotted the locations"
       ],
       "optionReasons": {
-        "plot-mcq-18": "本句指「把某物的位置標記在地圖或海圖上」。",
-        "plot-mcq-17": "「根據數值或函數繪製圖形／曲線」是「plot a graph/curve」的用法，與本句語境不同。",
-        "plot-mcq-19": "「在地圖上規劃／標示一條路線」是「plot a route」的用法，與本句語境不同。",
-        "plot-mcq-16": "「按座標／數值把點標在圖上」是「plot — mark points」的用法，與本句語境不同。",
-        "plot-mcq-20": "「預先設計、安排小說或電影的情節」是「plot — construct story」的用法，與本句語境不同。",
-        "plot-mcq-15": "「顯示中位數、四分位數及數據分布的箱形圖」是「box plot」的用法，與本句語境不同。"
+        "plot-mcq-18": "本句的「plotted the locations」指「把某物的位置標記在地圖或海圖上」。",
+        "plot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-18"
     },
@@ -1565,11 +1433,9 @@ export default {
       "masked": "The coordinates were ____ carefully.",
       "options": [
         "plot-mcq-18",
-        "plot-mcq-17",
-        "plot-mcq-19",
-        "plot-mcq-16",
-        "plot-mcq-20",
-        "plot-mcq-15"
+        "plot-mcq-11",
+        "plot-mcq-07",
+        "plot-mcq-28"
       ],
       "explanation": "本句的「plotted」指「把某物的位置標記在地圖或海圖上」。",
       "sentenceIndex": 33,
@@ -1578,12 +1444,10 @@ export default {
         "plotted"
       ],
       "optionReasons": {
-        "plot-mcq-18": "本句指「把某物的位置標記在地圖或海圖上」。",
-        "plot-mcq-17": "「根據數值或函數繪製圖形／曲線」是「plot a graph/curve」的用法，與本句語境不同。",
-        "plot-mcq-19": "「在地圖上規劃／標示一條路線」是「plot a route」的用法，與本句語境不同。",
-        "plot-mcq-16": "「按座標／數值把點標在圖上」是「plot — mark points」的用法，與本句語境不同。",
-        "plot-mcq-20": "「預先設計、安排小說或電影的情節」是「plot — construct story」的用法，與本句語境不同。",
-        "plot-mcq-15": "「顯示中位數、四分位數及數據分布的箱形圖」是「box plot」的用法，與本句語境不同。"
+        "plot-mcq-18": "本句的「plotted」指「把某物的位置標記在地圖或海圖上」。",
+        "plot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-18"
     },
@@ -1595,11 +1459,9 @@ export default {
       "masked": "We ____ before leaving.",
       "options": [
         "plot-mcq-19",
-        "plot-mcq-18",
-        "plot-mcq-20",
-        "plot-mcq-17",
-        "plot-mcq-21",
-        "plot-mcq-16"
+        "plot-mcq-12",
+        "plot-mcq-26",
+        "plot-mcq-24"
       ],
       "explanation": "本句的「plotted the route」指「在地圖上規劃／標示一條路線」。",
       "sentenceIndex": 34,
@@ -1608,12 +1470,10 @@ export default {
         "plotted the route"
       ],
       "optionReasons": {
-        "plot-mcq-19": "本句指「在地圖上規劃／標示一條路線」。",
-        "plot-mcq-18": "「把某物的位置標記在地圖或海圖上」是「plot — map position」的用法，與本句語境不同。",
-        "plot-mcq-20": "「預先設計、安排小說或電影的情節」是「plot — construct story」的用法，與本句語境不同。",
-        "plot-mcq-17": "「根據數值或函數繪製圖形／曲線」是「plot a graph/curve」的用法，與本句語境不同。",
-        "plot-mcq-21": "「故事情節安排周密、結構良好的」是「well-plotted」的用法，與本句語境不同。",
-        "plot-mcq-16": "「按座標／數值把點標在圖上」是「plot — mark points」的用法，與本句語境不同。"
+        "plot-mcq-19": "本句的「plotted the route」指「在地圖上規劃／標示一條路線」。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-19"
     },
@@ -1625,11 +1485,9 @@ export default {
       "masked": "The software ____.",
       "options": [
         "plot-mcq-19",
-        "plot-mcq-18",
-        "plot-mcq-20",
-        "plot-mcq-17",
-        "plot-mcq-21",
-        "plot-mcq-16"
+        "plot-mcq-24",
+        "plot-mcq-06",
+        "plot-mcq-11"
       ],
       "explanation": "本句的「plots the fastest route」指「在地圖上規劃／標示一條路線」。",
       "sentenceIndex": 35,
@@ -1638,12 +1496,10 @@ export default {
         "plots the fastest route"
       ],
       "optionReasons": {
-        "plot-mcq-19": "本句指「在地圖上規劃／標示一條路線」。",
-        "plot-mcq-18": "「把某物的位置標記在地圖或海圖上」是「plot — map position」的用法，與本句語境不同。",
-        "plot-mcq-20": "「預先設計、安排小說或電影的情節」是「plot — construct story」的用法，與本句語境不同。",
-        "plot-mcq-17": "「根據數值或函數繪製圖形／曲線」是「plot a graph/curve」的用法，與本句語境不同。",
-        "plot-mcq-21": "「故事情節安排周密、結構良好的」是「well-plotted」的用法，與本句語境不同。",
-        "plot-mcq-16": "「按座標／數值把點標在圖上」是「plot — mark points」的用法，與本句語境不同。"
+        "plot-mcq-19": "本句的「plots the fastest route」指「在地圖上規劃／標示一條路線」。",
+        "plot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-19"
     },
@@ -1655,11 +1511,9 @@ export default {
       "masked": "She carefully ____ before writing it.",
       "options": [
         "plot-mcq-20",
-        "plot-mcq-19",
-        "plot-mcq-21",
-        "plot-mcq-18",
-        "plot-mcq-22",
-        "plot-mcq-17"
+        "plot-mcq-05",
+        "plot-mcq-14",
+        "plot-mcq-18"
       ],
       "explanation": "本句的「plotted the novel」指「預先設計、安排小說或電影的情節」。",
       "sentenceIndex": 36,
@@ -1668,12 +1522,10 @@ export default {
         "plotted the novel"
       ],
       "optionReasons": {
-        "plot-mcq-20": "本句指「預先設計、安排小說或電影的情節」。",
-        "plot-mcq-19": "「在地圖上規劃／標示一條路線」是「plot a route」的用法，與本句語境不同。",
-        "plot-mcq-21": "「故事情節安排周密、結構良好的」是「well-plotted」的用法，與本句語境不同。",
-        "plot-mcq-18": "「把某物的位置標記在地圖或海圖上」是「plot — map position」的用法，與本句語境不同。",
-        "plot-mcq-22": "「參與陰謀的人；密謀者」是「plotter — conspirator」的用法，與本句語境不同。",
-        "plot-mcq-17": "「根據數值或函數繪製圖形／曲線」是「plot a graph/curve」的用法，與本句語境不同。"
+        "plot-mcq-20": "本句的「plotted the novel」指「預先設計、安排小說或電影的情節」。",
+        "plot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-20"
     },
@@ -1685,11 +1537,9 @@ export default {
       "masked": "The story is tightly ____.",
       "options": [
         "plot-mcq-20",
-        "plot-mcq-19",
-        "plot-mcq-21",
         "plot-mcq-18",
-        "plot-mcq-22",
-        "plot-mcq-17"
+        "plot-mcq-12",
+        "plot-mcq-13"
       ],
       "explanation": "本句的「plotted」指「預先設計、安排小說或電影的情節」。",
       "sentenceIndex": 37,
@@ -1698,12 +1548,10 @@ export default {
         "plotted"
       ],
       "optionReasons": {
-        "plot-mcq-20": "本句指「預先設計、安排小說或電影的情節」。",
-        "plot-mcq-19": "「在地圖上規劃／標示一條路線」是「plot a route」的用法，與本句語境不同。",
-        "plot-mcq-21": "「故事情節安排周密、結構良好的」是「well-plotted」的用法，與本句語境不同。",
-        "plot-mcq-18": "「把某物的位置標記在地圖或海圖上」是「plot — map position」的用法，與本句語境不同。",
-        "plot-mcq-22": "「參與陰謀的人；密謀者」是「plotter — conspirator」的用法，與本句語境不同。",
-        "plot-mcq-17": "「根據數值或函數繪製圖形／曲線」是「plot a graph/curve」的用法，與本句語境不同。"
+        "plot-mcq-20": "本句的「plotted」指「預先設計、安排小說或電影的情節」。",
+        "plot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-20"
     },
@@ -1715,11 +1563,9 @@ export default {
       "masked": "It is a clever, ____ mystery.",
       "options": [
         "plot-mcq-21",
-        "plot-mcq-20",
-        "plot-mcq-22",
-        "plot-mcq-19",
-        "plot-mcq-23",
-        "plot-mcq-18"
+        "plot-mcq-16",
+        "plot-mcq-11",
+        "plot-mcq-15"
       ],
       "explanation": "本句的「well-plotted」指「故事情節安排周密、結構良好的」。",
       "sentenceIndex": 38,
@@ -1728,12 +1574,10 @@ export default {
         "well-plotted"
       ],
       "optionReasons": {
-        "plot-mcq-21": "本句指「故事情節安排周密、結構良好的」。",
-        "plot-mcq-20": "「預先設計、安排小說或電影的情節」是「plot — construct story」的用法，與本句語境不同。",
-        "plot-mcq-22": "「參與陰謀的人；密謀者」是「plotter — conspirator」的用法，與本句語境不同。",
-        "plot-mcq-19": "「在地圖上規劃／標示一條路線」是「plot a route」的用法，與本句語境不同。",
-        "plot-mcq-23": "「用來輸出大型精確圖形的繪圖機」是「plotter — machine」的用法，與本句語境不同。",
-        "plot-mcq-18": "「把某物的位置標記在地圖或海圖上」是「plot — map position」的用法，與本句語境不同。"
+        "plot-mcq-21": "本句的「well-plotted」指「故事情節安排周密、結構良好的」。",
+        "plot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-21"
     },
@@ -1745,11 +1589,9 @@ export default {
       "masked": "The novel is beautifully written and tightly ____.",
       "options": [
         "plot-mcq-21",
-        "plot-mcq-20",
-        "plot-mcq-22",
-        "plot-mcq-19",
-        "plot-mcq-23",
-        "plot-mcq-18"
+        "plot-mcq-24",
+        "plot-mcq-16",
+        "plot-mcq-10"
       ],
       "explanation": "本句的「plotted」指「故事情節安排周密、結構良好的」。",
       "sentenceIndex": 39,
@@ -1758,12 +1600,10 @@ export default {
         "plotted"
       ],
       "optionReasons": {
-        "plot-mcq-21": "本句指「故事情節安排周密、結構良好的」。",
-        "plot-mcq-20": "「預先設計、安排小說或電影的情節」是「plot — construct story」的用法，與本句語境不同。",
-        "plot-mcq-22": "「參與陰謀的人；密謀者」是「plotter — conspirator」的用法，與本句語境不同。",
-        "plot-mcq-19": "「在地圖上規劃／標示一條路線」是「plot a route」的用法，與本句語境不同。",
-        "plot-mcq-23": "「用來輸出大型精確圖形的繪圖機」是「plotter — machine」的用法，與本句語境不同。",
-        "plot-mcq-18": "「把某物的位置標記在地圖或海圖上」是「plot — map position」的用法，與本句語境不同。"
+        "plot-mcq-21": "本句的「plotted」指「故事情節安排周密、結構良好的」。",
+        "plot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-21"
     },
@@ -1775,11 +1615,9 @@ export default {
       "masked": "A second letter appeared—and ____.",
       "options": [
         "plot-mcq-24",
-        "plot-mcq-23",
-        "plot-mcq-25",
-        "plot-mcq-22",
-        "plot-mcq-26",
-        "plot-mcq-21"
+        "plot-mcq-18",
+        "plot-mcq-06",
+        "plot-mcq-20"
       ],
       "explanation": "本句的「the plot thickened」指「情況變得更複雜、更神秘／更撲朔迷離」。",
       "sentenceIndex": 40,
@@ -1788,12 +1626,10 @@ export default {
         "the plot thickened"
       ],
       "optionReasons": {
-        "plot-mcq-24": "本句指「情況變得更複雜、更神秘／更撲朔迷離」。",
-        "plot-mcq-23": "「用來輸出大型精確圖形的繪圖機」是「plotter — machine」的用法，與本句語境不同。",
-        "plot-mcq-25": "「搞不清楚狀況；亦可指失去理智／失控」是「lose the plot」的用法，與本句語境不同。",
-        "plot-mcq-22": "「參與陰謀的人；密謀者」是「plotter — conspirator」的用法，與本句語境不同。",
-        "plot-mcq-26": "「故事中出乎意料、改變發展方向的情節反轉」是「plot twist」的用法，與本句語境不同。",
-        "plot-mcq-21": "「故事情節安排周密、結構良好的」是「well-plotted」的用法，與本句語境不同。"
+        "plot-mcq-24": "本句的「the plot thickened」指「情況變得更複雜、更神秘／更撲朔迷離」。",
+        "plot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-24"
     },
@@ -1805,11 +1641,9 @@ export default {
       "masked": "Now we know they already knew each other. ____",
       "options": [
         "plot-mcq-24",
-        "plot-mcq-23",
-        "plot-mcq-25",
-        "plot-mcq-22",
-        "plot-mcq-26",
-        "plot-mcq-21"
+        "plot-mcq-12",
+        "plot-mcq-28",
+        "plot-mcq-06"
       ],
       "explanation": "本句的「The plot thickens.」指「情況變得更複雜、更神秘／更撲朔迷離」。",
       "sentenceIndex": 41,
@@ -1818,12 +1652,10 @@ export default {
         "The plot thickens."
       ],
       "optionReasons": {
-        "plot-mcq-24": "本句指「情況變得更複雜、更神秘／更撲朔迷離」。",
-        "plot-mcq-23": "「用來輸出大型精確圖形的繪圖機」是「plotter — machine」的用法，與本句語境不同。",
-        "plot-mcq-25": "「搞不清楚狀況；亦可指失去理智／失控」是「lose the plot」的用法，與本句語境不同。",
-        "plot-mcq-22": "「參與陰謀的人；密謀者」是「plotter — conspirator」的用法，與本句語境不同。",
-        "plot-mcq-26": "「故事中出乎意料、改變發展方向的情節反轉」是「plot twist」的用法，與本句語境不同。",
-        "plot-mcq-21": "「故事情節安排周密、結構良好的」是「well-plotted」的用法，與本句語境不同。"
+        "plot-mcq-24": "本句的「The plot thickens.」指「情況變得更複雜、更神秘／更撲朔迷離」。",
+        "plot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-24"
     },
@@ -1835,11 +1667,9 @@ export default {
       "masked": "The final ____ surprised everyone.",
       "options": [
         "plot-mcq-26",
-        "plot-mcq-25",
-        "plot-mcq-27",
-        "plot-mcq-24",
-        "plot-mcq-28",
-        "plot-mcq-23"
+        "plot-mcq-17",
+        "plot-mcq-05",
+        "plot-mcq-11"
       ],
       "explanation": "本句的「plot twist」指「故事中出乎意料、改變發展方向的情節反轉」。",
       "sentenceIndex": 42,
@@ -1848,12 +1678,10 @@ export default {
         "plot twist"
       ],
       "optionReasons": {
-        "plot-mcq-26": "本句指「故事中出乎意料、改變發展方向的情節反轉」。",
-        "plot-mcq-25": "「搞不清楚狀況；亦可指失去理智／失控」是「lose the plot」的用法，與本句語境不同。",
-        "plot-mcq-27": "「故事情節中不合邏輯或無法解釋的漏洞」是「plot hole」的用法，與本句語境不同。",
-        "plot-mcq-24": "「情況變得更複雜、更神秘／更撲朔迷離」是「the plot thickens」的用法，與本句語境不同。",
-        "plot-mcq-28": "「表示情節；故事情節」是「Passage meaning」的用法，與本句語境不同。",
-        "plot-mcq-23": "「用來輸出大型精確圖形的繪圖機」是「plotter — machine」的用法，與本句語境不同。"
+        "plot-mcq-26": "本句的「plot twist」指「故事中出乎意料、改變發展方向的情節反轉」。",
+        "plot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-26"
     },
@@ -1865,11 +1693,9 @@ export default {
       "masked": "The film depends on one major ____.",
       "options": [
         "plot-mcq-26",
-        "plot-mcq-25",
-        "plot-mcq-27",
-        "plot-mcq-24",
-        "plot-mcq-28",
-        "plot-mcq-23"
+        "plot-mcq-19",
+        "plot-mcq-11",
+        "plot-mcq-15"
       ],
       "explanation": "本句的「plot twist」指「故事中出乎意料、改變發展方向的情節反轉」。",
       "sentenceIndex": 43,
@@ -1878,12 +1704,10 @@ export default {
         "plot twist"
       ],
       "optionReasons": {
-        "plot-mcq-26": "本句指「故事中出乎意料、改變發展方向的情節反轉」。",
-        "plot-mcq-25": "「搞不清楚狀況；亦可指失去理智／失控」是「lose the plot」的用法，與本句語境不同。",
-        "plot-mcq-27": "「故事情節中不合邏輯或無法解釋的漏洞」是「plot hole」的用法，與本句語境不同。",
-        "plot-mcq-24": "「情況變得更複雜、更神秘／更撲朔迷離」是「the plot thickens」的用法，與本句語境不同。",
-        "plot-mcq-28": "「表示情節；故事情節」是「Passage meaning」的用法，與本句語境不同。",
-        "plot-mcq-23": "「用來輸出大型精確圖形的繪圖機」是「plotter — machine」的用法，與本句語境不同。"
+        "plot-mcq-26": "本句的「plot twist」指「故事中出乎意料、改變發展方向的情節反轉」。",
+        "plot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-26"
     },
@@ -1895,11 +1719,9 @@ export default {
       "masked": "The ending creates a major ____.",
       "options": [
         "plot-mcq-27",
-        "plot-mcq-26",
-        "plot-mcq-28",
-        "plot-mcq-25",
-        "plot-mcq-24",
-        "plot-mcq-23"
+        "plot-mcq-15",
+        "plot-mcq-10",
+        "plot-mcq-16"
       ],
       "explanation": "本句的「plot hole」指「故事情節中不合邏輯或無法解釋的漏洞」。",
       "sentenceIndex": 44,
@@ -1908,12 +1730,10 @@ export default {
         "plot hole"
       ],
       "optionReasons": {
-        "plot-mcq-27": "本句指「故事情節中不合邏輯或無法解釋的漏洞」。",
-        "plot-mcq-26": "「故事中出乎意料、改變發展方向的情節反轉」是「plot twist」的用法，與本句語境不同。",
-        "plot-mcq-28": "「表示情節；故事情節」是「Passage meaning」的用法，與本句語境不同。",
-        "plot-mcq-25": "「搞不清楚狀況；亦可指失去理智／失控」是「lose the plot」的用法，與本句語境不同。",
-        "plot-mcq-24": "「情況變得更複雜、更神秘／更撲朔迷離」是「the plot thickens」的用法，與本句語境不同。",
-        "plot-mcq-23": "「用來輸出大型精確圖形的繪圖機」是「plotter — machine」的用法，與本句語境不同。"
+        "plot-mcq-27": "本句的「plot hole」指「故事情節中不合邏輯或無法解釋的漏洞」。",
+        "plot-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-27"
     },
@@ -1925,11 +1745,9 @@ export default {
       "masked": "Viewers noticed several ____.",
       "options": [
         "plot-mcq-27",
-        "plot-mcq-26",
-        "plot-mcq-28",
-        "plot-mcq-25",
+        "plot-mcq-15",
         "plot-mcq-24",
-        "plot-mcq-23"
+        "plot-mcq-05"
       ],
       "explanation": "本句的「plot holes」指「故事情節中不合邏輯或無法解釋的漏洞」。",
       "sentenceIndex": 45,
@@ -1938,12 +1756,10 @@ export default {
         "plot holes"
       ],
       "optionReasons": {
-        "plot-mcq-27": "本句指「故事情節中不合邏輯或無法解釋的漏洞」。",
-        "plot-mcq-26": "「故事中出乎意料、改變發展方向的情節反轉」是「plot twist」的用法，與本句語境不同。",
-        "plot-mcq-28": "「表示情節；故事情節」是「Passage meaning」的用法，與本句語境不同。",
-        "plot-mcq-25": "「搞不清楚狀況；亦可指失去理智／失控」是「lose the plot」的用法，與本句語境不同。",
-        "plot-mcq-24": "「情況變得更複雜、更神秘／更撲朔迷離」是「the plot thickens」的用法，與本句語境不同。",
-        "plot-mcq-23": "「用來輸出大型精確圖形的繪圖機」是「plotter — machine」的用法，與本句語境不同。"
+        "plot-mcq-27": "本句的「plot holes」指「故事情節中不合邏輯或無法解釋的漏洞」。",
+        "plot-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "plot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plot-mcq-27"
     }
@@ -1955,5 +1771,7 @@ export default {
     "sha256": "7d76b85f78f94aa7b593f1f28b717ff647bf8ecf7e289b528df3d8c6bdd68153",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

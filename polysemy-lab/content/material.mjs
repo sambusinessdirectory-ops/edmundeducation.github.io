@@ -487,11 +487,9 @@ export default {
       "masked": "I would need to buy good-quality ____.",
       "options": [
         "material-mcq-01",
-        "material-mcq-02",
-        "material-mcq-03",
-        "material-mcq-04",
-        "material-mcq-05",
-        "material-mcq-06"
+        "material-mcq-12",
+        "material-mcq-21",
+        "material-mcq-07"
       ],
       "explanation": "本句的「materials」指「用來製造、建造或準備某物的材料／物料」。",
       "sentenceIndex": 0,
@@ -500,12 +498,10 @@ export default {
         "materials"
       ],
       "optionReasons": {
-        "material-mcq-01": "本句指「用來製造、建造或準備某物的材料／物料」。",
-        "material-mcq-02": "「生產商品所需的基本原料」與本句語境不同。",
-        "material-mcq-03": "「製作衣服、窗簾等使用的布料」與本句語境不同。",
-        "material-mcq-04": "「為研究、寫作、創作等蒐集／使用的資料或素材」與本句語境不同。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。"
+        "material-mcq-01": "本句的「materials」指「用來製造、建造或準備某物的材料／物料」。",
+        "material-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-01"
     },
@@ -517,11 +513,9 @@ export default {
       "masked": "The business needs the right ____ for baking and packaging.",
       "options": [
         "material-mcq-01",
-        "material-mcq-02",
-        "material-mcq-03",
-        "material-mcq-04",
-        "material-mcq-05",
-        "material-mcq-06"
+        "material-mcq-12",
+        "material-mcq-15",
+        "material-mcq-07"
       ],
       "explanation": "本句的「materials」指「用來製造、建造或準備某物的材料／物料」。",
       "sentenceIndex": 1,
@@ -530,12 +524,10 @@ export default {
         "materials"
       ],
       "optionReasons": {
-        "material-mcq-01": "本句指「用來製造、建造或準備某物的材料／物料」。",
-        "material-mcq-02": "「生產商品所需的基本原料」與本句語境不同。",
-        "material-mcq-03": "「製作衣服、窗簾等使用的布料」與本句語境不同。",
-        "material-mcq-04": "「為研究、寫作、創作等蒐集／使用的資料或素材」與本句語境不同。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。"
+        "material-mcq-01": "本句的「materials」指「用來製造、建造或準備某物的材料／物料」。",
+        "material-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-01"
     },
@@ -547,11 +539,9 @@ export default {
       "masked": "Wood is a common building ____.",
       "options": [
         "material-mcq-01",
-        "material-mcq-02",
-        "material-mcq-03",
-        "material-mcq-04",
-        "material-mcq-05",
-        "material-mcq-06"
+        "material-mcq-18",
+        "material-mcq-14",
+        "material-mcq-07"
       ],
       "explanation": "本句的「material」指「用來製造、建造或準備某物的材料／物料」。",
       "sentenceIndex": 2,
@@ -560,12 +550,10 @@ export default {
         "material"
       ],
       "optionReasons": {
-        "material-mcq-01": "本句指「用來製造、建造或準備某物的材料／物料」。",
-        "material-mcq-02": "「生產商品所需的基本原料」與本句語境不同。",
-        "material-mcq-03": "「製作衣服、窗簾等使用的布料」與本句語境不同。",
-        "material-mcq-04": "「為研究、寫作、創作等蒐集／使用的資料或素材」與本句語境不同。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。"
+        "material-mcq-01": "本句的「material」指「用來製造、建造或準備某物的材料／物料」。",
+        "material-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-01"
     },
@@ -577,11 +565,9 @@ export default {
       "masked": "The product is made from recycled ____.",
       "options": [
         "material-mcq-01",
-        "material-mcq-02",
-        "material-mcq-03",
-        "material-mcq-04",
-        "material-mcq-05",
-        "material-mcq-06"
+        "material-mcq-07",
+        "material-mcq-11",
+        "material-mcq-21"
       ],
       "explanation": "本句的「materials」指「用來製造、建造或準備某物的材料／物料」。",
       "sentenceIndex": 3,
@@ -590,12 +576,10 @@ export default {
         "materials"
       ],
       "optionReasons": {
-        "material-mcq-01": "本句指「用來製造、建造或準備某物的材料／物料」。",
-        "material-mcq-02": "「生產商品所需的基本原料」與本句語境不同。",
-        "material-mcq-03": "「製作衣服、窗簾等使用的布料」與本句語境不同。",
-        "material-mcq-04": "「為研究、寫作、創作等蒐集／使用的資料或素材」與本句語境不同。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。"
+        "material-mcq-01": "本句的「materials」指「用來製造、建造或準備某物的材料／物料」。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-01"
     },
@@ -607,11 +591,9 @@ export default {
       "masked": "Flour is a basic raw ____ in food production.",
       "options": [
         "material-mcq-02",
-        "material-mcq-01",
-        "material-mcq-03",
-        "material-mcq-04",
-        "material-mcq-05",
-        "material-mcq-06"
+        "material-mcq-18",
+        "material-mcq-21",
+        "material-mcq-10"
       ],
       "explanation": "本句的「material」指「生產商品所需的基本原料」。",
       "sentenceIndex": 4,
@@ -620,12 +602,10 @@ export default {
         "material"
       ],
       "optionReasons": {
-        "material-mcq-02": "本句指「生產商品所需的基本原料」。",
-        "material-mcq-01": "「用來製造、建造或準備某物的材料／物料」與本句語境不同。",
-        "material-mcq-03": "「製作衣服、窗簾等使用的布料」與本句語境不同。",
-        "material-mcq-04": "「為研究、寫作、創作等蒐集／使用的資料或素材」與本句語境不同。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。"
+        "material-mcq-02": "本句的「material」指「生產商品所需的基本原料」。",
+        "material-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-02"
     },
@@ -637,11 +617,9 @@ export default {
       "masked": "The factory imports most of its raw ____.",
       "options": [
         "material-mcq-02",
-        "material-mcq-01",
-        "material-mcq-03",
-        "material-mcq-04",
-        "material-mcq-05",
-        "material-mcq-06"
+        "material-mcq-18",
+        "material-mcq-10",
+        "material-mcq-07"
       ],
       "explanation": "本句的「materials」指「生產商品所需的基本原料」。",
       "sentenceIndex": 5,
@@ -650,12 +628,10 @@ export default {
         "materials"
       ],
       "optionReasons": {
-        "material-mcq-02": "本句指「生產商品所需的基本原料」。",
-        "material-mcq-01": "「用來製造、建造或準備某物的材料／物料」與本句語境不同。",
-        "material-mcq-03": "「製作衣服、窗簾等使用的布料」與本句語境不同。",
-        "material-mcq-04": "「為研究、寫作、創作等蒐集／使用的資料或素材」與本句語境不同。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。"
+        "material-mcq-02": "本句的「materials」指「生產商品所需的基本原料」。",
+        "material-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-02"
     },
@@ -667,11 +643,9 @@ export default {
       "masked": "This dress is made from a soft ____.",
       "options": [
         "material-mcq-03",
-        "material-mcq-02",
-        "material-mcq-04",
-        "material-mcq-01",
-        "material-mcq-05",
-        "material-mcq-06"
+        "material-mcq-11",
+        "material-mcq-10",
+        "material-mcq-15"
       ],
       "explanation": "本句的「material」指「製作衣服、窗簾等使用的布料」。",
       "sentenceIndex": 6,
@@ -680,12 +654,10 @@ export default {
         "material"
       ],
       "optionReasons": {
-        "material-mcq-03": "本句指「製作衣服、窗簾等使用的布料」。",
-        "material-mcq-02": "「生產商品所需的基本原料」與本句語境不同。",
-        "material-mcq-04": "「為研究、寫作、創作等蒐集／使用的資料或素材」與本句語境不同。",
-        "material-mcq-01": "「用來製造、建造或準備某物的材料／物料」與本句語境不同。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。"
+        "material-mcq-03": "本句的「material」指「製作衣服、窗簾等使用的布料」。",
+        "material-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-03"
     },
@@ -697,11 +669,9 @@ export default {
       "masked": "We need more ____ for the curtains.",
       "options": [
         "material-mcq-03",
-        "material-mcq-02",
-        "material-mcq-04",
-        "material-mcq-01",
-        "material-mcq-05",
-        "material-mcq-06"
+        "material-mcq-10",
+        "material-mcq-15",
+        "material-mcq-11"
       ],
       "explanation": "本句的「material」指「製作衣服、窗簾等使用的布料」。",
       "sentenceIndex": 7,
@@ -710,12 +680,10 @@ export default {
         "material"
       ],
       "optionReasons": {
-        "material-mcq-03": "本句指「製作衣服、窗簾等使用的布料」。",
-        "material-mcq-02": "「生產商品所需的基本原料」與本句語境不同。",
-        "material-mcq-04": "「為研究、寫作、創作等蒐集／使用的資料或素材」與本句語境不同。",
-        "material-mcq-01": "「用來製造、建造或準備某物的材料／物料」與本句語境不同。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。"
+        "material-mcq-03": "本句的「material」指「製作衣服、窗簾等使用的布料」。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-03"
     },
@@ -727,11 +695,9 @@ export default {
       "masked": "The documentary contains a lot of historical ____.",
       "options": [
         "material-mcq-04",
-        "material-mcq-03",
-        "material-mcq-05",
-        "material-mcq-02",
-        "material-mcq-06",
-        "material-mcq-01"
+        "material-mcq-13",
+        "material-mcq-15",
+        "material-mcq-10"
       ],
       "explanation": "本句的「material」指「為研究、寫作、創作等蒐集／使用的資料或素材」。",
       "sentenceIndex": 10,
@@ -740,12 +706,10 @@ export default {
         "material"
       ],
       "optionReasons": {
-        "material-mcq-04": "本句指「為研究、寫作、創作等蒐集／使用的資料或素材」。",
-        "material-mcq-03": "「製作衣服、窗簾等使用的布料」與本句語境不同。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。",
-        "material-mcq-02": "「生產商品所需的基本原料」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。",
-        "material-mcq-01": "「用來製造、建造或準備某物的材料／物料」與本句語境不同。"
+        "material-mcq-04": "本句的「material」指「為研究、寫作、創作等蒐集／使用的資料或素材」。",
+        "material-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-04"
     },
@@ -757,11 +721,9 @@ export default {
       "masked": "She collected enough ____ for the article.",
       "options": [
         "material-mcq-04",
-        "material-mcq-03",
-        "material-mcq-05",
-        "material-mcq-02",
-        "material-mcq-06",
-        "material-mcq-01"
+        "material-mcq-11",
+        "material-mcq-15",
+        "material-mcq-10"
       ],
       "explanation": "本句的「material」指「為研究、寫作、創作等蒐集／使用的資料或素材」。",
       "sentenceIndex": 11,
@@ -770,12 +732,10 @@ export default {
         "material"
       ],
       "optionReasons": {
-        "material-mcq-04": "本句指「為研究、寫作、創作等蒐集／使用的資料或素材」。",
-        "material-mcq-03": "「製作衣服、窗簾等使用的布料」與本句語境不同。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。",
-        "material-mcq-02": "「生產商品所需的基本原料」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。",
-        "material-mcq-01": "「用來製造、建造或準備某物的材料／物料」與本句語境不同。"
+        "material-mcq-04": "本句的「material」指「為研究、寫作、創作等蒐集／使用的資料或素材」。",
+        "material-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-04"
     },
@@ -787,11 +747,9 @@ export default {
       "masked": "The novel provided the ____ for the film.",
       "options": [
         "material-mcq-05",
-        "material-mcq-04",
-        "material-mcq-06",
-        "material-mcq-03",
-        "material-mcq-07",
-        "material-mcq-02"
+        "material-mcq-12",
+        "material-mcq-21",
+        "material-mcq-10"
       ],
       "explanation": "本句的「source material」指「創作、研究或改編所依據的原始資料／素材」。",
       "sentenceIndex": 12,
@@ -800,12 +758,10 @@ export default {
         "source material"
       ],
       "optionReasons": {
-        "material-mcq-05": "本句指「創作、研究或改編所依據的原始資料／素材」。",
-        "material-mcq-04": "「為研究、寫作、創作等蒐集／使用的資料或素材」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。",
-        "material-mcq-03": "「製作衣服、窗簾等使用的布料」與本句語境不同。",
-        "material-mcq-07": "「供閱讀使用的文章、書籍等讀物」與本句語境不同。",
-        "material-mcq-02": "「生產商品所需的基本原料」與本句語境不同。"
+        "material-mcq-05": "本句的「source material」指「創作、研究或改編所依據的原始資料／素材」。",
+        "material-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-05"
     },
@@ -817,11 +773,9 @@ export default {
       "masked": "Researchers checked the ____ carefully.",
       "options": [
         "material-mcq-05",
-        "material-mcq-04",
-        "material-mcq-06",
-        "material-mcq-03",
-        "material-mcq-07",
-        "material-mcq-02"
+        "material-mcq-15",
+        "material-mcq-12",
+        "material-mcq-10"
       ],
       "explanation": "本句的「source material」指「創作、研究或改編所依據的原始資料／素材」。",
       "sentenceIndex": 13,
@@ -830,12 +784,10 @@ export default {
         "source material"
       ],
       "optionReasons": {
-        "material-mcq-05": "本句指「創作、研究或改編所依據的原始資料／素材」。",
-        "material-mcq-04": "「為研究、寫作、創作等蒐集／使用的資料或素材」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。",
-        "material-mcq-03": "「製作衣服、窗簾等使用的布料」與本句語境不同。",
-        "material-mcq-07": "「供閱讀使用的文章、書籍等讀物」與本句語境不同。",
-        "material-mcq-02": "「生產商品所需的基本原料」與本句語境不同。"
+        "material-mcq-05": "本句的「source material」指「創作、研究或改編所依據的原始資料／素材」。",
+        "material-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-05"
     },
@@ -847,11 +799,9 @@ export default {
       "masked": "The teacher prepared new ____.",
       "options": [
         "material-mcq-06",
-        "material-mcq-05",
-        "material-mcq-07",
-        "material-mcq-04",
-        "material-mcq-08",
-        "material-mcq-03"
+        "material-mcq-21",
+        "material-mcq-12",
+        "material-mcq-10"
       ],
       "explanation": "本句的「teaching materials」指「教學或學習使用的教材／學習材料」。",
       "sentenceIndex": 14,
@@ -860,12 +810,10 @@ export default {
         "teaching materials"
       ],
       "optionReasons": {
-        "material-mcq-06": "本句指「教學或學習使用的教材／學習材料」。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。",
-        "material-mcq-07": "「供閱讀使用的文章、書籍等讀物」與本句語境不同。",
-        "material-mcq-04": "「為研究、寫作、創作等蒐集／使用的資料或素材」與本句語境不同。",
-        "material-mcq-08": "「調查、法律等使用的資料／證據材料」與本句語境不同。",
-        "material-mcq-03": "「製作衣服、窗簾等使用的布料」與本句語境不同。"
+        "material-mcq-06": "本句的「teaching materials」指「教學或學習使用的教材／學習材料」。",
+        "material-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-06"
     },
@@ -877,11 +825,9 @@ export default {
       "masked": "The course includes online ____.",
       "options": [
         "material-mcq-06",
-        "material-mcq-05",
-        "material-mcq-07",
-        "material-mcq-04",
-        "material-mcq-08",
-        "material-mcq-03"
+        "material-mcq-14",
+        "material-mcq-10",
+        "material-mcq-12"
       ],
       "explanation": "本句的「learning materials」指「教學或學習使用的教材／學習材料」。",
       "sentenceIndex": 15,
@@ -890,12 +836,10 @@ export default {
         "learning materials"
       ],
       "optionReasons": {
-        "material-mcq-06": "本句指「教學或學習使用的教材／學習材料」。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。",
-        "material-mcq-07": "「供閱讀使用的文章、書籍等讀物」與本句語境不同。",
-        "material-mcq-04": "「為研究、寫作、創作等蒐集／使用的資料或素材」與本句語境不同。",
-        "material-mcq-08": "「調查、法律等使用的資料／證據材料」與本句語境不同。",
-        "material-mcq-03": "「製作衣服、窗簾等使用的布料」與本句語境不同。"
+        "material-mcq-06": "本句的「learning materials」指「教學或學習使用的教材／學習材料」。",
+        "material-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-06"
     },
@@ -907,11 +851,9 @@ export default {
       "masked": "I brought some ____ for the journey.",
       "options": [
         "material-mcq-07",
-        "material-mcq-06",
-        "material-mcq-08",
-        "material-mcq-05",
-        "material-mcq-09",
-        "material-mcq-04"
+        "material-mcq-18",
+        "material-mcq-01",
+        "material-mcq-21"
       ],
       "explanation": "本句的「reading material」指「供閱讀使用的文章、書籍等讀物」。",
       "sentenceIndex": 16,
@@ -920,12 +862,10 @@ export default {
         "reading material"
       ],
       "optionReasons": {
-        "material-mcq-07": "本句指「供閱讀使用的文章、書籍等讀物」。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。",
-        "material-mcq-08": "「調查、法律等使用的資料／證據材料」與本句語境不同。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。",
-        "material-mcq-09": "「作家、演員、喜劇演員等使用的創作／表演素材」與本句語境不同。",
-        "material-mcq-04": "「為研究、寫作、創作等蒐集／使用的資料或素材」與本句語境不同。"
+        "material-mcq-07": "本句的「reading material」指「供閱讀使用的文章、書籍等讀物」。",
+        "material-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-07"
     },
@@ -937,11 +877,9 @@ export default {
       "masked": "The course provides extra ____.",
       "options": [
         "material-mcq-07",
-        "material-mcq-06",
-        "material-mcq-08",
-        "material-mcq-05",
-        "material-mcq-09",
-        "material-mcq-04"
+        "material-mcq-11",
+        "material-mcq-21",
+        "material-mcq-10"
       ],
       "explanation": "本句的「reading material」指「供閱讀使用的文章、書籍等讀物」。",
       "sentenceIndex": 17,
@@ -950,12 +888,10 @@ export default {
         "reading material"
       ],
       "optionReasons": {
-        "material-mcq-07": "本句指「供閱讀使用的文章、書籍等讀物」。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。",
-        "material-mcq-08": "「調查、法律等使用的資料／證據材料」與本句語境不同。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。",
-        "material-mcq-09": "「作家、演員、喜劇演員等使用的創作／表演素材」與本句語境不同。",
-        "material-mcq-04": "「為研究、寫作、創作等蒐集／使用的資料或素材」與本句語境不同。"
+        "material-mcq-07": "本句的「reading material」指「供閱讀使用的文章、書籍等讀物」。",
+        "material-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-07"
     },
@@ -967,11 +903,9 @@ export default {
       "masked": "The investigators reviewed all available ____.",
       "options": [
         "material-mcq-08",
-        "material-mcq-07",
-        "material-mcq-09",
-        "material-mcq-06",
         "material-mcq-10",
-        "material-mcq-05"
+        "material-mcq-15",
+        "material-mcq-13"
       ],
       "explanation": "本句的「material」指「調查、法律等使用的資料／證據材料」。",
       "sentenceIndex": 18,
@@ -980,12 +914,10 @@ export default {
         "material"
       ],
       "optionReasons": {
-        "material-mcq-08": "本句指「調查、法律等使用的資料／證據材料」。",
-        "material-mcq-07": "「供閱讀使用的文章、書籍等讀物」與本句語境不同。",
-        "material-mcq-09": "「作家、演員、喜劇演員等使用的創作／表演素材」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。",
-        "material-mcq-10": "「具備成為管理者／領導者條件的人才」與本句語境不同。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。"
+        "material-mcq-08": "本句的「material」指「調查、法律等使用的資料／證據材料」。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-08"
     },
@@ -997,11 +929,9 @@ export default {
       "masked": "The court examined the relevant ____.",
       "options": [
         "material-mcq-08",
-        "material-mcq-07",
-        "material-mcq-09",
-        "material-mcq-06",
-        "material-mcq-10",
-        "material-mcq-05"
+        "material-mcq-21",
+        "material-mcq-11",
+        "material-mcq-10"
       ],
       "explanation": "本句的「material」指「調查、法律等使用的資料／證據材料」。",
       "sentenceIndex": 19,
@@ -1010,12 +940,10 @@ export default {
         "material"
       ],
       "optionReasons": {
-        "material-mcq-08": "本句指「調查、法律等使用的資料／證據材料」。",
-        "material-mcq-07": "「供閱讀使用的文章、書籍等讀物」與本句語境不同。",
-        "material-mcq-09": "「作家、演員、喜劇演員等使用的創作／表演素材」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。",
-        "material-mcq-10": "「具備成為管理者／領導者條件的人才」與本句語境不同。",
-        "material-mcq-05": "「創作、研究或改編所依據的原始資料／素材」與本句語境不同。"
+        "material-mcq-08": "本句的「material」指「調查、法律等使用的資料／證據材料」。",
+        "material-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-08"
     },
@@ -1027,11 +955,9 @@ export default {
       "masked": "The comedian is working on new ____.",
       "options": [
         "material-mcq-09",
-        "material-mcq-08",
-        "material-mcq-10",
-        "material-mcq-07",
         "material-mcq-11",
-        "material-mcq-06"
+        "material-mcq-21",
+        "material-mcq-10"
       ],
       "explanation": "本句的「material」指「作家、演員、喜劇演員等使用的創作／表演素材」。",
       "sentenceIndex": 20,
@@ -1040,12 +966,10 @@ export default {
         "material"
       ],
       "optionReasons": {
-        "material-mcq-09": "本句指「作家、演員、喜劇演員等使用的創作／表演素材」。",
-        "material-mcq-08": "「調查、法律等使用的資料／證據材料」與本句語境不同。",
-        "material-mcq-10": "「具備成為管理者／領導者條件的人才」與本句語境不同。",
-        "material-mcq-07": "「供閱讀使用的文章、書籍等讀物」與本句語境不同。",
-        "material-mcq-11": "「對結果、判斷或決定具有實質重要性的」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。"
+        "material-mcq-09": "本句的「material」指「作家、演員、喜劇演員等使用的創作／表演素材」。",
+        "material-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-09"
     },
@@ -1057,11 +981,9 @@ export default {
       "masked": "The writer drew ____ from personal experience.",
       "options": [
         "material-mcq-09",
-        "material-mcq-08",
+        "material-mcq-15",
         "material-mcq-10",
-        "material-mcq-07",
-        "material-mcq-11",
-        "material-mcq-06"
+        "material-mcq-18"
       ],
       "explanation": "本句的「material」指「作家、演員、喜劇演員等使用的創作／表演素材」。",
       "sentenceIndex": 21,
@@ -1070,12 +992,10 @@ export default {
         "material"
       ],
       "optionReasons": {
-        "material-mcq-09": "本句指「作家、演員、喜劇演員等使用的創作／表演素材」。",
-        "material-mcq-08": "「調查、法律等使用的資料／證據材料」與本句語境不同。",
-        "material-mcq-10": "「具備成為管理者／領導者條件的人才」與本句語境不同。",
-        "material-mcq-07": "「供閱讀使用的文章、書籍等讀物」與本句語境不同。",
-        "material-mcq-11": "「對結果、判斷或決定具有實質重要性的」與本句語境不同。",
-        "material-mcq-06": "「教學或學習使用的教材／學習材料」與本句語境不同。"
+        "material-mcq-09": "本句的「material」指「作家、演員、喜劇演員等使用的創作／表演素材」。",
+        "material-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-09"
     },
@@ -1087,11 +1007,9 @@ export default {
       "masked": "The new evidence is ____ to the case.",
       "options": [
         "material-mcq-11",
-        "material-mcq-10",
-        "material-mcq-12",
-        "material-mcq-09",
-        "material-mcq-13",
-        "material-mcq-08"
+        "material-mcq-07",
+        "material-mcq-22",
+        "material-mcq-15"
       ],
       "explanation": "本句的「material」指「對結果、判斷或決定具有實質重要性的」。",
       "sentenceIndex": 26,
@@ -1100,12 +1018,10 @@ export default {
         "material"
       ],
       "optionReasons": {
-        "material-mcq-11": "本句指「對結果、判斷或決定具有實質重要性的」。",
-        "material-mcq-10": "「具備成為管理者／領導者條件的人才」與本句語境不同。",
-        "material-mcq-12": "「足以影響判斷或法律結果的重大事實」與本句語境不同。",
-        "material-mcq-09": "「作家、演員、喜劇演員等使用的創作／表演素材」與本句語境不同。",
-        "material-mcq-13": "「具有實際重要影響的重大變化」與本句語境不同。",
-        "material-mcq-08": "「調查、法律等使用的資料／證據材料」與本句語境不同。"
+        "material-mcq-11": "本句的「material」指「對結果、判斷或決定具有實質重要性的」。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-11"
     },
@@ -1117,11 +1033,9 @@ export default {
       "masked": "There was no ____ between the two versions.",
       "options": [
         "material-mcq-11",
-        "material-mcq-10",
-        "material-mcq-12",
         "material-mcq-09",
-        "material-mcq-13",
-        "material-mcq-08"
+        "material-mcq-06",
+        "material-mcq-07"
       ],
       "explanation": "本句的「material difference」指「對結果、判斷或決定具有實質重要性的」。",
       "sentenceIndex": 27,
@@ -1130,12 +1044,10 @@ export default {
         "material difference"
       ],
       "optionReasons": {
-        "material-mcq-11": "本句指「對結果、判斷或決定具有實質重要性的」。",
-        "material-mcq-10": "「具備成為管理者／領導者條件的人才」與本句語境不同。",
-        "material-mcq-12": "「足以影響判斷或法律結果的重大事實」與本句語境不同。",
-        "material-mcq-09": "「作家、演員、喜劇演員等使用的創作／表演素材」與本句語境不同。",
-        "material-mcq-13": "「具有實際重要影響的重大變化」與本句語境不同。",
-        "material-mcq-08": "「調查、法律等使用的資料／證據材料」與本句語境不同。"
+        "material-mcq-11": "本句的「material difference」指「對結果、判斷或決定具有實質重要性的」。",
+        "material-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-11"
     },
@@ -1147,11 +1059,9 @@ export default {
       "masked": "The court considered whether the information was a ____.",
       "options": [
         "material-mcq-12",
-        "material-mcq-11",
-        "material-mcq-13",
-        "material-mcq-10",
-        "material-mcq-14",
-        "material-mcq-09"
+        "material-mcq-09",
+        "material-mcq-15",
+        "material-mcq-07"
       ],
       "explanation": "本句的「material fact」指「足以影響判斷或法律結果的重大事實」。",
       "sentenceIndex": 28,
@@ -1160,12 +1070,10 @@ export default {
         "material fact"
       ],
       "optionReasons": {
-        "material-mcq-12": "本句指「足以影響判斷或法律結果的重大事實」。",
-        "material-mcq-11": "「對結果、判斷或決定具有實質重要性的」與本句語境不同。",
-        "material-mcq-13": "「具有實際重要影響的重大變化」與本句語境不同。",
-        "material-mcq-10": "「具備成為管理者／領導者條件的人才」與本句語境不同。",
-        "material-mcq-14": "「與實體、金錢、財產等物質層面有關的」與本句語境不同。",
-        "material-mcq-09": "「作家、演員、喜劇演員等使用的創作／表演素材」與本句語境不同。"
+        "material-mcq-12": "本句的「material fact」指「足以影響判斷或法律結果的重大事實」。",
+        "material-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-12"
     },
@@ -1177,11 +1085,9 @@ export default {
       "masked": "A ____ should not be concealed.",
       "options": [
         "material-mcq-12",
-        "material-mcq-11",
-        "material-mcq-13",
         "material-mcq-10",
-        "material-mcq-14",
-        "material-mcq-09"
+        "material-mcq-22",
+        "material-mcq-07"
       ],
       "explanation": "本句的「material fact」指「足以影響判斷或法律結果的重大事實」。",
       "sentenceIndex": 29,
@@ -1190,12 +1096,10 @@ export default {
         "material fact"
       ],
       "optionReasons": {
-        "material-mcq-12": "本句指「足以影響判斷或法律結果的重大事實」。",
-        "material-mcq-11": "「對結果、判斷或決定具有實質重要性的」與本句語境不同。",
-        "material-mcq-13": "「具有實際重要影響的重大變化」與本句語境不同。",
-        "material-mcq-10": "「具備成為管理者／領導者條件的人才」與本句語境不同。",
-        "material-mcq-14": "「與實體、金錢、財產等物質層面有關的」與本句語境不同。",
-        "material-mcq-09": "「作家、演員、喜劇演員等使用的創作／表演素材」與本句語境不同。"
+        "material-mcq-12": "本句的「material fact」指「足以影響判斷或法律結果的重大事實」。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-12"
     },
@@ -1207,11 +1111,9 @@ export default {
       "masked": "There has been no ____ in the situation.",
       "options": [
         "material-mcq-13",
-        "material-mcq-12",
-        "material-mcq-14",
-        "material-mcq-11",
-        "material-mcq-15",
-        "material-mcq-10"
+        "material-mcq-03",
+        "material-mcq-07",
+        "material-mcq-15"
       ],
       "explanation": "本句的「material change」指「具有實際重要影響的重大變化」。",
       "sentenceIndex": 30,
@@ -1220,12 +1122,10 @@ export default {
         "material change"
       ],
       "optionReasons": {
-        "material-mcq-13": "本句指「具有實際重要影響的重大變化」。",
-        "material-mcq-12": "「足以影響判斷或法律結果的重大事實」與本句語境不同。",
-        "material-mcq-14": "「與實體、金錢、財產等物質層面有關的」與本句語境不同。",
-        "material-mcq-11": "「對結果、判斷或決定具有實質重要性的」與本句語境不同。",
-        "material-mcq-15": "「一個人擁有的有形物品／物質財產」與本句語境不同。",
-        "material-mcq-10": "「具備成為管理者／領導者條件的人才」與本句語境不同。"
+        "material-mcq-13": "本句的「material change」指「具有實際重要影響的重大變化」。",
+        "material-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-13"
     },
@@ -1237,11 +1137,9 @@ export default {
       "masked": "The agreement requires notice of any ____.",
       "options": [
         "material-mcq-13",
-        "material-mcq-12",
-        "material-mcq-14",
-        "material-mcq-11",
+        "material-mcq-22",
         "material-mcq-15",
-        "material-mcq-10"
+        "material-mcq-07"
       ],
       "explanation": "本句的「material changes」指「具有實際重要影響的重大變化」。",
       "sentenceIndex": 31,
@@ -1250,12 +1148,10 @@ export default {
         "material changes"
       ],
       "optionReasons": {
-        "material-mcq-13": "本句指「具有實際重要影響的重大變化」。",
-        "material-mcq-12": "「足以影響判斷或法律結果的重大事實」與本句語境不同。",
-        "material-mcq-14": "「與實體、金錢、財產等物質層面有關的」與本句語境不同。",
-        "material-mcq-11": "「對結果、判斷或決定具有實質重要性的」與本句語境不同。",
-        "material-mcq-15": "「一個人擁有的有形物品／物質財產」與本句語境不同。",
-        "material-mcq-10": "「具備成為管理者／領導者條件的人才」與本句語境不同。"
+        "material-mcq-13": "本句的「material changes」指「具有實際重要影響的重大變化」。",
+        "material-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-13"
     },
@@ -1267,11 +1163,9 @@ export default {
       "masked": "People have both ____.",
       "options": [
         "material-mcq-14",
-        "material-mcq-13",
-        "material-mcq-15",
-        "material-mcq-12",
-        "material-mcq-16",
-        "material-mcq-11"
+        "material-mcq-01",
+        "material-mcq-10",
+        "material-mcq-07"
       ],
       "explanation": "本句的「material and emotional needs」指「與實體、金錢、財產等物質層面有關的」。",
       "sentenceIndex": 32,
@@ -1280,12 +1174,10 @@ export default {
         "material and emotional needs"
       ],
       "optionReasons": {
-        "material-mcq-14": "本句指「與實體、金錢、財產等物質層面有關的」。",
-        "material-mcq-13": "「具有實際重要影響的重大變化」與本句語境不同。",
-        "material-mcq-15": "「一個人擁有的有形物品／物質財產」與本句語境不同。",
-        "material-mcq-12": "「足以影響判斷或法律結果的重大事實」與本句語境不同。",
-        "material-mcq-16": "「在實質程度上、重大地」與本句語境不同。",
-        "material-mcq-11": "「對結果、判斷或決定具有實質重要性的」與本句語境不同。"
+        "material-mcq-14": "本句的「material and emotional needs」指「與實體、金錢、財產等物質層面有關的」。",
+        "material-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-14"
     },
@@ -1297,11 +1189,9 @@ export default {
       "masked": "The philosophy rejects excessive concern with ____.",
       "options": [
         "material-mcq-14",
-        "material-mcq-13",
-        "material-mcq-15",
-        "material-mcq-12",
-        "material-mcq-16",
-        "material-mcq-11"
+        "material-mcq-10",
+        "material-mcq-01",
+        "material-mcq-07"
       ],
       "explanation": "本句的「material possessions」指「與實體、金錢、財產等物質層面有關的」。",
       "sentenceIndex": 33,
@@ -1310,12 +1200,10 @@ export default {
         "material possessions"
       ],
       "optionReasons": {
-        "material-mcq-14": "本句指「與實體、金錢、財產等物質層面有關的」。",
-        "material-mcq-13": "「具有實際重要影響的重大變化」與本句語境不同。",
-        "material-mcq-15": "「一個人擁有的有形物品／物質財產」與本句語境不同。",
-        "material-mcq-12": "「足以影響判斷或法律結果的重大事實」與本句語境不同。",
-        "material-mcq-16": "「在實質程度上、重大地」與本句語境不同。",
-        "material-mcq-11": "「對結果、判斷或決定具有實質重要性的」與本句語境不同。"
+        "material-mcq-14": "本句的「material possessions」指「與實體、金錢、財產等物質層面有關的」。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-14"
     },
@@ -1327,11 +1215,9 @@ export default {
       "masked": "He cared little about ____.",
       "options": [
         "material-mcq-15",
-        "material-mcq-14",
-        "material-mcq-16",
         "material-mcq-13",
-        "material-mcq-17",
-        "material-mcq-12"
+        "material-mcq-10",
+        "material-mcq-05"
       ],
       "explanation": "本句的「material possessions」指「一個人擁有的有形物品／物質財產」。",
       "sentenceIndex": 34,
@@ -1340,12 +1226,10 @@ export default {
         "material possessions"
       ],
       "optionReasons": {
-        "material-mcq-15": "本句指「一個人擁有的有形物品／物質財產」。",
-        "material-mcq-14": "「與實體、金錢、財產等物質層面有關的」與本句語境不同。",
-        "material-mcq-16": "「在實質程度上、重大地」與本句語境不同。",
-        "material-mcq-13": "「具有實際重要影響的重大變化」與本句語境不同。",
-        "material-mcq-17": "「原本只是可能或計畫的事情實際出現／實現」與本句語境不同。",
-        "material-mcq-12": "「足以影響判斷或法律結果的重大事實」與本句語境不同。"
+        "material-mcq-15": "本句的「material possessions」指「一個人擁有的有形物品／物質財產」。",
+        "material-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-15"
     },
@@ -1357,11 +1241,9 @@ export default {
       "masked": "Happiness cannot come only from ____.",
       "options": [
         "material-mcq-15",
-        "material-mcq-14",
-        "material-mcq-16",
+        "material-mcq-05",
         "material-mcq-13",
-        "material-mcq-17",
-        "material-mcq-12"
+        "material-mcq-10"
       ],
       "explanation": "本句的「material possessions」指「一個人擁有的有形物品／物質財產」。",
       "sentenceIndex": 35,
@@ -1370,12 +1252,10 @@ export default {
         "material possessions"
       ],
       "optionReasons": {
-        "material-mcq-15": "本句指「一個人擁有的有形物品／物質財產」。",
-        "material-mcq-14": "「與實體、金錢、財產等物質層面有關的」與本句語境不同。",
-        "material-mcq-16": "「在實質程度上、重大地」與本句語境不同。",
-        "material-mcq-13": "「具有實際重要影響的重大變化」與本句語境不同。",
-        "material-mcq-17": "「原本只是可能或計畫的事情實際出現／實現」與本句語境不同。",
-        "material-mcq-12": "「足以影響判斷或法律結果的重大事實」與本句語境不同。"
+        "material-mcq-15": "本句的「material possessions」指「一個人擁有的有形物品／物質財產」。",
+        "material-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-15"
     },
@@ -1387,11 +1267,9 @@ export default {
       "masked": "The project was the ____ of years of planning.",
       "options": [
         "material-mcq-18",
-        "material-mcq-17",
-        "material-mcq-19",
-        "material-mcq-16",
-        "material-mcq-20",
-        "material-mcq-15"
+        "material-mcq-23",
+        "material-mcq-15",
+        "material-mcq-10"
       ],
       "explanation": "本句的「materialisation」指「從想法、可能性變成現實的實現／具體化」。",
       "sentenceIndex": 36,
@@ -1400,12 +1278,10 @@ export default {
         "materialisation"
       ],
       "optionReasons": {
-        "material-mcq-18": "本句指「從想法、可能性變成現實的實現／具體化」。",
-        "material-mcq-17": "「原本只是可能或計畫的事情實際出現／實現」與本句語境不同。",
-        "material-mcq-19": "「過度重視金錢與物質財產的物質主義」與本句語境不同。",
-        "material-mcq-16": "「在實質程度上、重大地」與本句語境不同。",
-        "material-mcq-20": "「認為現實本質上以物質為基礎的唯物主義」與本句語境不同。",
-        "material-mcq-15": "「一個人擁有的有形物品／物質財產」與本句語境不同。"
+        "material-mcq-18": "本句的「materialisation」指「從想法、可能性變成現實的實現／具體化」。",
+        "material-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-18"
     },
@@ -1417,11 +1293,9 @@ export default {
       "masked": "The expected benefits did not lead to actual ____.",
       "options": [
         "material-mcq-18",
-        "material-mcq-17",
-        "material-mcq-19",
-        "material-mcq-16",
-        "material-mcq-20",
-        "material-mcq-15"
+        "material-mcq-22",
+        "material-mcq-15",
+        "material-mcq-07"
       ],
       "explanation": "本句的「materialization」指「從想法、可能性變成現實的實現／具體化」。",
       "sentenceIndex": 37,
@@ -1430,12 +1304,10 @@ export default {
         "materialization"
       ],
       "optionReasons": {
-        "material-mcq-18": "本句指「從想法、可能性變成現實的實現／具體化」。",
-        "material-mcq-17": "「原本只是可能或計畫的事情實際出現／實現」與本句語境不同。",
-        "material-mcq-19": "「過度重視金錢與物質財產的物質主義」與本句語境不同。",
-        "material-mcq-16": "「在實質程度上、重大地」與本句語境不同。",
-        "material-mcq-20": "「認為現實本質上以物質為基礎的唯物主義」與本句語境不同。",
-        "material-mcq-15": "「一個人擁有的有形物品／物質財產」與本句語境不同。"
+        "material-mcq-18": "本句的「materialization」指「從想法、可能性變成現實的實現／具體化」。",
+        "material-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-18"
     },
@@ -1447,11 +1319,9 @@ export default {
       "masked": "He dislikes a very ____ lifestyle.",
       "options": [
         "material-mcq-21",
-        "material-mcq-20",
-        "material-mcq-22",
-        "material-mcq-19",
-        "material-mcq-23",
-        "material-mcq-18"
+        "material-mcq-18",
+        "material-mcq-01",
+        "material-mcq-10"
       ],
       "explanation": "本句的「materialistic」指「過度重視金錢、財物和物質享受的」。",
       "sentenceIndex": 38,
@@ -1460,12 +1330,10 @@ export default {
         "materialistic"
       ],
       "optionReasons": {
-        "material-mcq-21": "本句指「過度重視金錢、財物和物質享受的」。",
-        "material-mcq-20": "「認為現實本質上以物質為基礎的唯物主義」與本句語境不同。",
-        "material-mcq-22": "「可供創作、研究等加工使用的原始素材」與本句語境不同。",
-        "material-mcq-19": "「過度重視金錢與物質財產的物質主義」與本句語境不同。",
-        "material-mcq-23": "「可用於創作、討論等的資料／素材」與本句語境不同。",
-        "material-mcq-18": "「從想法、可能性變成現實的實現／具體化」與本句語境不同。"
+        "material-mcq-21": "本句的「materialistic」指「過度重視金錢、財物和物質享受的」。",
+        "material-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-21"
     },
@@ -1477,11 +1345,9 @@ export default {
       "masked": "She is not particularly ____.",
       "options": [
         "material-mcq-21",
-        "material-mcq-20",
-        "material-mcq-22",
-        "material-mcq-19",
-        "material-mcq-23",
-        "material-mcq-18"
+        "material-mcq-10",
+        "material-mcq-06",
+        "material-mcq-03"
       ],
       "explanation": "本句的「materialistic」指「過度重視金錢、財物和物質享受的」。",
       "sentenceIndex": 39,
@@ -1490,12 +1356,10 @@ export default {
         "materialistic"
       ],
       "optionReasons": {
-        "material-mcq-21": "本句指「過度重視金錢、財物和物質享受的」。",
-        "material-mcq-20": "「認為現實本質上以物質為基礎的唯物主義」與本句語境不同。",
-        "material-mcq-22": "「可供創作、研究等加工使用的原始素材」與本句語境不同。",
-        "material-mcq-19": "「過度重視金錢與物質財產的物質主義」與本句語境不同。",
-        "material-mcq-23": "「可用於創作、討論等的資料／素材」與本句語境不同。",
-        "material-mcq-18": "「從想法、可能性變成現實的實現／具體化」與本句語境不同。"
+        "material-mcq-21": "本句的「materialistic」指「過度重視金錢、財物和物質享受的」。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-21"
     },
@@ -1507,11 +1371,9 @@ export default {
       "masked": "Personal experience became the ____ for her novel.",
       "options": [
         "material-mcq-22",
+        "material-mcq-18",
         "material-mcq-21",
-        "material-mcq-23",
-        "material-mcq-20",
-        "material-mcq-19",
-        "material-mcq-18"
+        "material-mcq-10"
       ],
       "explanation": "本句的「raw material」指「可供創作、研究等加工使用的原始素材」。",
       "sentenceIndex": 40,
@@ -1520,12 +1382,10 @@ export default {
         "raw material"
       ],
       "optionReasons": {
-        "material-mcq-22": "本句指「可供創作、研究等加工使用的原始素材」。",
-        "material-mcq-21": "「過度重視金錢、財物和物質享受的」與本句語境不同。",
-        "material-mcq-23": "「可用於創作、討論等的資料／素材」與本句語境不同。",
-        "material-mcq-20": "「認為現實本質上以物質為基礎的唯物主義」與本句語境不同。",
-        "material-mcq-19": "「過度重視金錢與物質財產的物質主義」與本句語境不同。",
-        "material-mcq-18": "「從想法、可能性變成現實的實現／具體化」與本句語境不同。"
+        "material-mcq-22": "本句的「raw material」指「可供創作、研究等加工使用的原始素材」。",
+        "material-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-22"
     },
@@ -1537,11 +1397,9 @@ export default {
       "masked": "Interviews provided ____ for the documentary.",
       "options": [
         "material-mcq-22",
+        "material-mcq-13",
         "material-mcq-21",
-        "material-mcq-23",
-        "material-mcq-20",
-        "material-mcq-19",
-        "material-mcq-18"
+        "material-mcq-10"
       ],
       "explanation": "本句的「raw material」指「可供創作、研究等加工使用的原始素材」。",
       "sentenceIndex": 41,
@@ -1550,12 +1408,10 @@ export default {
         "raw material"
       ],
       "optionReasons": {
-        "material-mcq-22": "本句指「可供創作、研究等加工使用的原始素材」。",
-        "material-mcq-21": "「過度重視金錢、財物和物質享受的」與本句語境不同。",
-        "material-mcq-23": "「可用於創作、討論等的資料／素材」與本句語境不同。",
-        "material-mcq-20": "「認為現實本質上以物質為基礎的唯物主義」與本句語境不同。",
-        "material-mcq-19": "「過度重視金錢與物質財產的物質主義」與本句語境不同。",
-        "material-mcq-18": "「從想法、可能性變成現實的實現／具體化」與本句語境不同。"
+        "material-mcq-22": "本句的「raw material」指「可供創作、研究等加工使用的原始素材」。",
+        "material-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-22"
     },
@@ -1567,11 +1423,9 @@ export default {
       "masked": "The experience gave him ____.",
       "options": [
         "material-mcq-23",
-        "material-mcq-22",
+        "material-mcq-13",
         "material-mcq-21",
-        "material-mcq-20",
-        "material-mcq-19",
-        "material-mcq-18"
+        "material-mcq-10"
       ],
       "explanation": "本句的「material for a story」指「可用於創作、討論等的資料／素材」。",
       "sentenceIndex": 42,
@@ -1580,12 +1434,10 @@ export default {
         "material for a story"
       ],
       "optionReasons": {
-        "material-mcq-23": "本句指「可用於創作、討論等的資料／素材」。",
-        "material-mcq-22": "「可供創作、研究等加工使用的原始素材」與本句語境不同。",
-        "material-mcq-21": "「過度重視金錢、財物和物質享受的」與本句語境不同。",
-        "material-mcq-20": "「認為現實本質上以物質為基礎的唯物主義」與本句語境不同。",
-        "material-mcq-19": "「過度重視金錢與物質財產的物質主義」與本句語境不同。",
-        "material-mcq-18": "「從想法、可能性變成現實的實現／具體化」與本句語境不同。"
+        "material-mcq-23": "本句的「material for a story」指「可用於創作、討論等的資料／素材」。",
+        "material-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-23"
     },
@@ -1597,11 +1449,9 @@ export default {
       "masked": "The incident provided plenty of ____.",
       "options": [
         "material-mcq-23",
-        "material-mcq-22",
         "material-mcq-21",
-        "material-mcq-20",
-        "material-mcq-19",
-        "material-mcq-18"
+        "material-mcq-12",
+        "material-mcq-10"
       ],
       "explanation": "本句的「material for discussion」指「可用於創作、討論等的資料／素材」。",
       "sentenceIndex": 43,
@@ -1610,12 +1460,10 @@ export default {
         "material for discussion"
       ],
       "optionReasons": {
-        "material-mcq-23": "本句指「可用於創作、討論等的資料／素材」。",
-        "material-mcq-22": "「可供創作、研究等加工使用的原始素材」與本句語境不同。",
-        "material-mcq-21": "「過度重視金錢、財物和物質享受的」與本句語境不同。",
-        "material-mcq-20": "「認為現實本質上以物質為基礎的唯物主義」與本句語境不同。",
-        "material-mcq-19": "「過度重視金錢與物質財產的物質主義」與本句語境不同。",
-        "material-mcq-18": "「從想法、可能性變成現實的實現／具體化」與本句語境不同。"
+        "material-mcq-23": "本句的「material for discussion」指「可用於創作、討論等的資料／素材」。",
+        "material-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-23"
     },
@@ -1628,9 +1476,7 @@ export default {
       "options": [
         "material-mcq-10",
         "material-mcq-09",
-        "material-mcq-11",
-        "material-mcq-08",
-        "material-mcq-12",
+        "material-mcq-06",
         "material-mcq-07"
       ],
       "explanation": "本句的「management material」指「具備成為管理者／領導者條件的人才」。",
@@ -1640,12 +1486,10 @@ export default {
         "management material"
       ],
       "optionReasons": {
-        "material-mcq-10": "本句指「具備成為管理者／領導者條件的人才」。",
-        "material-mcq-09": "「作家、演員、喜劇演員等使用的創作／表演素材」與本句語境不同。",
-        "material-mcq-11": "「對結果、判斷或決定具有實質重要性的」與本句語境不同。",
-        "material-mcq-08": "「調查、法律等使用的資料／證據材料」與本句語境不同。",
-        "material-mcq-12": "「足以影響判斷或法律結果的重大事實」與本句語境不同。",
-        "material-mcq-07": "「供閱讀使用的文章、書籍等讀物」與本句語境不同。"
+        "material-mcq-10": "本句的「management material」指「具備成為管理者／領導者條件的人才」。",
+        "material-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-10"
     },
@@ -1657,10 +1501,8 @@ export default {
       "masked": "He proved to be excellent ____.",
       "options": [
         "material-mcq-10",
-        "material-mcq-09",
-        "material-mcq-11",
-        "material-mcq-08",
-        "material-mcq-12",
+        "material-mcq-14",
+        "material-mcq-22",
         "material-mcq-07"
       ],
       "explanation": "本句的「leadership material」指「具備成為管理者／領導者條件的人才」。",
@@ -1670,12 +1512,10 @@ export default {
         "leadership material"
       ],
       "optionReasons": {
-        "material-mcq-10": "本句指「具備成為管理者／領導者條件的人才」。",
-        "material-mcq-09": "「作家、演員、喜劇演員等使用的創作／表演素材」與本句語境不同。",
-        "material-mcq-11": "「對結果、判斷或決定具有實質重要性的」與本句語境不同。",
-        "material-mcq-08": "「調查、法律等使用的資料／證據材料」與本句語境不同。",
-        "material-mcq-12": "「足以影響判斷或法律結果的重大事實」與本句語境不同。",
-        "material-mcq-07": "「供閱讀使用的文章、書籍等讀物」與本句語境不同。"
+        "material-mcq-10": "本句的「leadership material」指「具備成為管理者／領導者條件的人才」。",
+        "material-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "material-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "material-mcq-10"
     }
@@ -1687,5 +1527,7 @@ export default {
     "sha256": "6ddd312263961457955144be773d040dc18cfdc16d1a44c7266a653b90f690c5",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

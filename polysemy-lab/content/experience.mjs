@@ -210,7 +210,7 @@ export default {
     },
     {
       "id": "experience-mcq-10",
-      "title": "表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」",
+      "title": "缺乏經驗",
       "form": "lack experience",
       "en": "lack experience",
       "zh": "表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」",
@@ -276,7 +276,7 @@ export default {
     },
     {
       "id": "experience-mcq-13",
-      "title": "表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」",
+      "title": "經歷／經驗某事",
       "form": "experience of something",
       "en": "experience of something",
       "zh": "表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」",
@@ -496,7 +496,7 @@ export default {
     },
     {
       "id": "experience-mcq-23",
-      "title": "表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」",
+      "title": "缺乏經驗的",
       "form": "inexperienced",
       "en": "inexperienced",
       "zh": "表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」",
@@ -680,11 +680,9 @@ export default {
       "masked": "The whole ____ taught me something important.",
       "options": [
         "experience-mcq-01",
-        "experience-mcq-02",
-        "experience-mcq-03",
-        "experience-mcq-04",
-        "experience-mcq-05",
-        "experience-mcq-06"
+        "experience-mcq-22",
+        "experience-mcq-16",
+        "experience-mcq-21"
       ],
       "explanation": "本句的「experience」指「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」。",
       "sentenceIndex": 0,
@@ -693,12 +691,10 @@ export default {
         "experience"
       ],
       "optionReasons": {
-        "experience-mcq-01": "本句指「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」。",
-        "experience-mcq-02": "「帶來正面／負面感受的一次親身經歷」是「a positive / negative experience」的用法，與本句語境不同。",
-        "experience-mcq-03": "「自己實際經歷過，而不是只聽別人說的事情」是「personal experience」的用法，與本句語境不同。",
-        "experience-mcq-04": "「自己直接參與或經歷所得的經驗」是「first-hand experience」的用法，與本句語境不同。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。"
+        "experience-mcq-01": "本句的「experience」指「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」。",
+        "experience-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-01"
     },
@@ -710,11 +706,9 @@ export default {
       "masked": "It was a difficult ____, but I learned a lot from it.",
       "options": [
         "experience-mcq-01",
-        "experience-mcq-02",
-        "experience-mcq-03",
-        "experience-mcq-04",
-        "experience-mcq-05",
-        "experience-mcq-06"
+        "experience-mcq-12",
+        "experience-mcq-21",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「experience」指「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」。",
       "sentenceIndex": 1,
@@ -723,12 +717,10 @@ export default {
         "experience"
       ],
       "optionReasons": {
-        "experience-mcq-01": "本句指「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」。",
-        "experience-mcq-02": "「帶來正面／負面感受的一次親身經歷」是「a positive / negative experience」的用法，與本句語境不同。",
-        "experience-mcq-03": "「自己實際經歷過，而不是只聽別人說的事情」是「personal experience」的用法，與本句語境不同。",
-        "experience-mcq-04": "「自己直接參與或經歷所得的經驗」是「first-hand experience」的用法，與本句語境不同。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。"
+        "experience-mcq-01": "本句的「experience」指「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」。",
+        "experience-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-01"
     },
@@ -740,11 +732,9 @@ export default {
       "masked": "Studying abroad was a valuable ____.",
       "options": [
         "experience-mcq-01",
-        "experience-mcq-02",
-        "experience-mcq-03",
-        "experience-mcq-04",
-        "experience-mcq-05",
-        "experience-mcq-06"
+        "experience-mcq-21",
+        "experience-mcq-11",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「experience」指「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」。",
       "sentenceIndex": 2,
@@ -753,12 +743,10 @@ export default {
         "experience"
       ],
       "optionReasons": {
-        "experience-mcq-01": "本句指「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」。",
-        "experience-mcq-02": "「帶來正面／負面感受的一次親身經歷」是「a positive / negative experience」的用法，與本句語境不同。",
-        "experience-mcq-03": "「自己實際經歷過，而不是只聽別人說的事情」是「personal experience」的用法，與本句語境不同。",
-        "experience-mcq-04": "「自己直接參與或經歷所得的經驗」是「first-hand experience」的用法，與本句語境不同。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。"
+        "experience-mcq-01": "本句的「experience」指「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-01"
     },
@@ -770,11 +758,9 @@ export default {
       "masked": "The trip was a very positive ____.",
       "options": [
         "experience-mcq-02",
-        "experience-mcq-01",
-        "experience-mcq-03",
-        "experience-mcq-04",
-        "experience-mcq-05",
-        "experience-mcq-06"
+        "experience-mcq-18",
+        "experience-mcq-09",
+        "experience-mcq-23"
       ],
       "explanation": "本句的「experience」指「帶來正面／負面感受的一次親身經歷」。",
       "sentenceIndex": 3,
@@ -783,12 +769,10 @@ export default {
         "experience"
       ],
       "optionReasons": {
-        "experience-mcq-02": "本句指「帶來正面／負面感受的一次親身經歷」。",
-        "experience-mcq-01": "「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」是「experience（可數：一次經歷）」的用法，與本句語境不同。",
-        "experience-mcq-03": "「自己實際經歷過，而不是只聽別人說的事情」是「personal experience」的用法，與本句語境不同。",
-        "experience-mcq-04": "「自己直接參與或經歷所得的經驗」是「first-hand experience」的用法，與本句語境不同。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。"
+        "experience-mcq-02": "本句的「experience」指「帶來正面／負面感受的一次親身經歷」。",
+        "experience-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-02"
     },
@@ -800,11 +784,9 @@ export default {
       "masked": "The argument was an unpleasant ____.",
       "options": [
         "experience-mcq-02",
-        "experience-mcq-01",
-        "experience-mcq-03",
-        "experience-mcq-04",
-        "experience-mcq-05",
-        "experience-mcq-06"
+        "experience-mcq-09",
+        "experience-mcq-18",
+        "experience-mcq-23"
       ],
       "explanation": "本句的「experience」指「帶來正面／負面感受的一次親身經歷」。",
       "sentenceIndex": 4,
@@ -813,12 +795,10 @@ export default {
         "experience"
       ],
       "optionReasons": {
-        "experience-mcq-02": "本句指「帶來正面／負面感受的一次親身經歷」。",
-        "experience-mcq-01": "「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」是「experience（可數：一次經歷）」的用法，與本句語境不同。",
-        "experience-mcq-03": "「自己實際經歷過，而不是只聽別人說的事情」是「personal experience」的用法，與本句語境不同。",
-        "experience-mcq-04": "「自己直接參與或經歷所得的經驗」是「first-hand experience」的用法，與本句語境不同。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。"
+        "experience-mcq-02": "本句的「experience」指「帶來正面／負面感受的一次親身經歷」。",
+        "experience-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-02"
     },
@@ -830,11 +810,9 @@ export default {
       "masked": "I'm speaking from ____.",
       "options": [
         "experience-mcq-03",
-        "experience-mcq-02",
-        "experience-mcq-04",
-        "experience-mcq-01",
-        "experience-mcq-05",
-        "experience-mcq-06"
+        "experience-mcq-16",
+        "experience-mcq-17",
+        "experience-mcq-21"
       ],
       "explanation": "本句的「personal experience」指「自己實際經歷過，而不是只聽別人說的事情」。",
       "sentenceIndex": 5,
@@ -843,12 +821,10 @@ export default {
         "personal experience"
       ],
       "optionReasons": {
-        "experience-mcq-03": "本句指「自己實際經歷過，而不是只聽別人說的事情」。",
-        "experience-mcq-02": "「帶來正面／負面感受的一次親身經歷」是「a positive / negative experience」的用法，與本句語境不同。",
-        "experience-mcq-04": "「自己直接參與或經歷所得的經驗」是「first-hand experience」的用法，與本句語境不同。",
-        "experience-mcq-01": "「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」是「experience（可數：一次經歷）」的用法，與本句語境不同。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。"
+        "experience-mcq-03": "本句的「personal experience」指「自己實際經歷過，而不是只聽別人說的事情」。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-03"
     },
@@ -860,11 +836,9 @@ export default {
       "masked": "Her advice comes from ____.",
       "options": [
         "experience-mcq-03",
-        "experience-mcq-02",
-        "experience-mcq-04",
-        "experience-mcq-01",
-        "experience-mcq-05",
-        "experience-mcq-06"
+        "experience-mcq-26",
+        "experience-mcq-16",
+        "experience-mcq-21"
       ],
       "explanation": "本句的「personal experience」指「自己實際經歷過，而不是只聽別人說的事情」。",
       "sentenceIndex": 6,
@@ -873,12 +847,10 @@ export default {
         "personal experience"
       ],
       "optionReasons": {
-        "experience-mcq-03": "本句指「自己實際經歷過，而不是只聽別人說的事情」。",
-        "experience-mcq-02": "「帶來正面／負面感受的一次親身經歷」是「a positive / negative experience」的用法，與本句語境不同。",
-        "experience-mcq-04": "「自己直接參與或經歷所得的經驗」是「first-hand experience」的用法，與本句語境不同。",
-        "experience-mcq-01": "「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」是「experience（可數：一次經歷）」的用法，與本句語境不同。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。"
+        "experience-mcq-03": "本句的「personal experience」指「自己實際經歷過，而不是只聽別人說的事情」。",
+        "experience-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-03"
     },
@@ -890,11 +862,9 @@ export default {
       "masked": "He has ____ of working under pressure.",
       "options": [
         "experience-mcq-04",
-        "experience-mcq-03",
-        "experience-mcq-05",
-        "experience-mcq-02",
-        "experience-mcq-06",
-        "experience-mcq-01"
+        "experience-mcq-18",
+        "experience-mcq-17",
+        "experience-mcq-21"
       ],
       "explanation": "本句的「first-hand experience」指「自己直接參與或經歷所得的經驗」。",
       "sentenceIndex": 7,
@@ -903,12 +873,10 @@ export default {
         "first-hand experience"
       ],
       "optionReasons": {
-        "experience-mcq-04": "本句指「自己直接參與或經歷所得的經驗」。",
-        "experience-mcq-03": "「自己實際經歷過，而不是只聽別人說的事情」是「personal experience」的用法，與本句語境不同。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。",
-        "experience-mcq-02": "「帶來正面／負面感受的一次親身經歷」是「a positive / negative experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。",
-        "experience-mcq-01": "「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」是「experience（可數：一次經歷）」的用法，與本句語境不同。"
+        "experience-mcq-04": "本句的「first-hand experience」指「自己直接參與或經歷所得的經驗」。",
+        "experience-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-04"
     },
@@ -920,11 +888,9 @@ export default {
       "masked": "The course gives students ____ of laboratory work.",
       "options": [
         "experience-mcq-04",
-        "experience-mcq-03",
-        "experience-mcq-05",
-        "experience-mcq-02",
-        "experience-mcq-06",
-        "experience-mcq-01"
+        "experience-mcq-18",
+        "experience-mcq-21",
+        "experience-mcq-17"
       ],
       "explanation": "本句的「first-hand experience」指「自己直接參與或經歷所得的經驗」。",
       "sentenceIndex": 8,
@@ -933,12 +899,10 @@ export default {
         "first-hand experience"
       ],
       "optionReasons": {
-        "experience-mcq-04": "本句指「自己直接參與或經歷所得的經驗」。",
-        "experience-mcq-03": "「自己實際經歷過，而不是只聽別人說的事情」是「personal experience」的用法，與本句語境不同。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。",
-        "experience-mcq-02": "「帶來正面／負面感受的一次親身經歷」是「a positive / negative experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。",
-        "experience-mcq-01": "「某人親身經歷的一件事情或一段過程，通常會留下感受、記憶或學習」是「experience（可數：一次經歷）」的用法，與本句語境不同。"
+        "experience-mcq-04": "本句的「first-hand experience」指「自己直接參與或經歷所得的經驗」。",
+        "experience-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-04"
     },
@@ -950,11 +914,9 @@ export default {
       "masked": "Age often brings more ____.",
       "options": [
         "experience-mcq-05",
-        "experience-mcq-04",
-        "experience-mcq-06",
-        "experience-mcq-03",
-        "experience-mcq-07",
-        "experience-mcq-02"
+        "experience-mcq-26",
+        "experience-mcq-21",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「life experience」指「人在生活中累積的各種實際經歷和學習」。",
       "sentenceIndex": 9,
@@ -963,12 +925,10 @@ export default {
         "life experience"
       ],
       "optionReasons": {
-        "experience-mcq-05": "本句指「人在生活中累積的各種實際經歷和學習」。",
-        "experience-mcq-04": "「自己直接參與或經歷所得的經驗」是「first-hand experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。",
-        "experience-mcq-03": "「自己實際經歷過，而不是只聽別人說的事情」是「personal experience」的用法，與本句語境不同。",
-        "experience-mcq-07": "「經過長時間做某事、處理某類情況而累積的知識和能力」是「experience（不可數：經驗）」的用法，與本句語境不同。",
-        "experience-mcq-02": "「帶來正面／負面感受的一次親身經歷」是「a positive / negative experience」的用法，與本句語境不同。"
+        "experience-mcq-05": "本句的「life experience」指「人在生活中累積的各種實際經歷和學習」。",
+        "experience-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-05"
     },
@@ -980,11 +940,9 @@ export default {
       "masked": "Her ____ helped her understand the situation.",
       "options": [
         "experience-mcq-05",
-        "experience-mcq-04",
-        "experience-mcq-06",
-        "experience-mcq-03",
-        "experience-mcq-07",
-        "experience-mcq-02"
+        "experience-mcq-26",
+        "experience-mcq-16",
+        "experience-mcq-21"
       ],
       "explanation": "本句的「life experience」指「人在生活中累積的各種實際經歷和學習」。",
       "sentenceIndex": 10,
@@ -993,12 +951,10 @@ export default {
         "life experience"
       ],
       "optionReasons": {
-        "experience-mcq-05": "本句指「人在生活中累積的各種實際經歷和學習」。",
-        "experience-mcq-04": "「自己直接參與或經歷所得的經驗」是「first-hand experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。",
-        "experience-mcq-03": "「自己實際經歷過，而不是只聽別人說的事情」是「personal experience」的用法，與本句語境不同。",
-        "experience-mcq-07": "「經過長時間做某事、處理某類情況而累積的知識和能力」是「experience（不可數：經驗）」的用法，與本句語境不同。",
-        "experience-mcq-02": "「帶來正面／負面感受的一次親身經歷」是「a positive / negative experience」的用法，與本句語境不同。"
+        "experience-mcq-05": "本句的「life experience」指「人在生活中累積的各種實際經歷和學習」。",
+        "experience-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-05"
     },
@@ -1010,11 +966,9 @@ export default {
       "masked": "The mistake became a useful ____.",
       "options": [
         "experience-mcq-06",
-        "experience-mcq-05",
-        "experience-mcq-07",
-        "experience-mcq-04",
-        "experience-mcq-08",
-        "experience-mcq-03"
+        "experience-mcq-28",
+        "experience-mcq-18",
+        "experience-mcq-30"
       ],
       "explanation": "本句的「learning experience」指「能讓人從中學到重要東西的一次經歷」。",
       "sentenceIndex": 11,
@@ -1023,12 +977,10 @@ export default {
         "learning experience"
       ],
       "optionReasons": {
-        "experience-mcq-06": "本句指「能讓人從中學到重要東西的一次經歷」。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。",
-        "experience-mcq-07": "「經過長時間做某事、處理某類情況而累積的知識和能力」是「experience（不可數：經驗）」的用法，與本句語境不同。",
-        "experience-mcq-04": "「自己直接參與或經歷所得的經驗」是「first-hand experience」的用法，與本句語境不同。",
-        "experience-mcq-08": "「曾經做過某類事情，因此具備相關實際知識或能力」是「have experience」的用法，與本句語境不同。",
-        "experience-mcq-03": "「自己實際經歷過，而不是只聽別人說的事情」是「personal experience」的用法，與本句語境不同。"
+        "experience-mcq-06": "本句的「learning experience」指「能讓人從中學到重要東西的一次經歷」。",
+        "experience-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-06"
     },
@@ -1040,11 +992,9 @@ export default {
       "masked": "Even failure can be a valuable ____.",
       "options": [
         "experience-mcq-06",
-        "experience-mcq-05",
-        "experience-mcq-07",
-        "experience-mcq-04",
-        "experience-mcq-08",
-        "experience-mcq-03"
+        "experience-mcq-20",
+        "experience-mcq-16",
+        "experience-mcq-21"
       ],
       "explanation": "本句的「learning experience」指「能讓人從中學到重要東西的一次經歷」。",
       "sentenceIndex": 12,
@@ -1053,12 +1003,10 @@ export default {
         "learning experience"
       ],
       "optionReasons": {
-        "experience-mcq-06": "本句指「能讓人從中學到重要東西的一次經歷」。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。",
-        "experience-mcq-07": "「經過長時間做某事、處理某類情況而累積的知識和能力」是「experience（不可數：經驗）」的用法，與本句語境不同。",
-        "experience-mcq-04": "「自己直接參與或經歷所得的經驗」是「first-hand experience」的用法，與本句語境不同。",
-        "experience-mcq-08": "「曾經做過某類事情，因此具備相關實際知識或能力」是「have experience」的用法，與本句語境不同。",
-        "experience-mcq-03": "「自己實際經歷過，而不是只聽別人說的事情」是「personal experience」的用法，與本句語境不同。"
+        "experience-mcq-06": "本句的「learning experience」指「能讓人從中學到重要東西的一次經歷」。",
+        "experience-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-06"
     },
@@ -1070,11 +1018,9 @@ export default {
       "masked": "She has a lot of teaching ____.",
       "options": [
         "experience-mcq-07",
-        "experience-mcq-06",
-        "experience-mcq-08",
-        "experience-mcq-05",
-        "experience-mcq-09",
-        "experience-mcq-04"
+        "experience-mcq-20",
+        "experience-mcq-14",
+        "experience-mcq-06"
       ],
       "explanation": "本句的「experience」指「經過長時間做某事、處理某類情況而累積的知識和能力」。",
       "sentenceIndex": 13,
@@ -1083,12 +1029,10 @@ export default {
         "experience"
       ],
       "optionReasons": {
-        "experience-mcq-07": "本句指「經過長時間做某事、處理某類情況而累積的知識和能力」。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。",
-        "experience-mcq-08": "「曾經做過某類事情，因此具備相關實際知識或能力」是「have experience」的用法，與本句語境不同。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。",
-        "experience-mcq-09": "「透過實際參與逐漸累積知識和能力」是「gain / get experience」的用法，與本句語境不同。",
-        "experience-mcq-04": "「自己直接參與或經歷所得的經驗」是「first-hand experience」的用法，與本句語境不同。"
+        "experience-mcq-07": "本句的「experience」指「經過長時間做某事、處理某類情況而累積的知識和能力」。",
+        "experience-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-07"
     },
@@ -1100,11 +1044,9 @@ export default {
       "masked": "He doesn't have much work ____.",
       "options": [
         "experience-mcq-07",
+        "experience-mcq-28",
         "experience-mcq-06",
-        "experience-mcq-08",
-        "experience-mcq-05",
-        "experience-mcq-09",
-        "experience-mcq-04"
+        "experience-mcq-23"
       ],
       "explanation": "本句的「experience」指「經過長時間做某事、處理某類情況而累積的知識和能力」。",
       "sentenceIndex": 14,
@@ -1113,12 +1055,10 @@ export default {
         "experience"
       ],
       "optionReasons": {
-        "experience-mcq-07": "本句指「經過長時間做某事、處理某類情況而累積的知識和能力」。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。",
-        "experience-mcq-08": "「曾經做過某類事情，因此具備相關實際知識或能力」是「have experience」的用法，與本句語境不同。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。",
-        "experience-mcq-09": "「透過實際參與逐漸累積知識和能力」是「gain / get experience」的用法，與本句語境不同。",
-        "experience-mcq-04": "「自己直接參與或經歷所得的經驗」是「first-hand experience」的用法，與本句語境不同。"
+        "experience-mcq-07": "本句的「experience」指「經過長時間做某事、處理某類情況而累積的知識和能力」。",
+        "experience-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-07"
     },
@@ -1130,11 +1070,9 @@ export default {
       "masked": "Do you ____ in customer service?",
       "options": [
         "experience-mcq-08",
-        "experience-mcq-07",
-        "experience-mcq-09",
-        "experience-mcq-06",
-        "experience-mcq-10",
-        "experience-mcq-05"
+        "experience-mcq-28",
+        "experience-mcq-16",
+        "experience-mcq-12"
       ],
       "explanation": "本句的「have experience」指「曾經做過某類事情，因此具備相關實際知識或能力」。",
       "sentenceIndex": 15,
@@ -1143,12 +1081,10 @@ export default {
         "have experience"
       ],
       "optionReasons": {
-        "experience-mcq-08": "本句指「曾經做過某類事情，因此具備相關實際知識或能力」。",
-        "experience-mcq-07": "「經過長時間做某事、處理某類情況而累積的知識和能力」是「experience（不可數：經驗）」的用法，與本句語境不同。",
-        "experience-mcq-09": "「透過實際參與逐漸累積知識和能力」是「gain / get experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。",
-        "experience-mcq-10": "「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」是「lack experience」的用法，與本句語境不同。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。"
+        "experience-mcq-08": "本句的「have experience」指「曾經做過某類事情，因此具備相關實際知識或能力」。",
+        "experience-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-08"
     },
@@ -1160,11 +1096,9 @@ export default {
       "masked": "She ____ working with children.",
       "options": [
         "experience-mcq-08",
-        "experience-mcq-07",
-        "experience-mcq-09",
-        "experience-mcq-06",
-        "experience-mcq-10",
-        "experience-mcq-05"
+        "experience-mcq-26",
+        "experience-mcq-16",
+        "experience-mcq-15"
       ],
       "explanation": "本句的「has experience」指「曾經做過某類事情，因此具備相關實際知識或能力」。",
       "sentenceIndex": 16,
@@ -1173,12 +1107,10 @@ export default {
         "has experience"
       ],
       "optionReasons": {
-        "experience-mcq-08": "本句指「曾經做過某類事情，因此具備相關實際知識或能力」。",
-        "experience-mcq-07": "「經過長時間做某事、處理某類情況而累積的知識和能力」是「experience（不可數：經驗）」的用法，與本句語境不同。",
-        "experience-mcq-09": "「透過實際參與逐漸累積知識和能力」是「gain / get experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。",
-        "experience-mcq-10": "「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」是「lack experience」的用法，與本句語境不同。",
-        "experience-mcq-05": "「人在生活中累積的各種實際經歷和學習」是「life experience」的用法，與本句語境不同。"
+        "experience-mcq-08": "本句的「has experience」指「曾經做過某類事情，因此具備相關實際知識或能力」。",
+        "experience-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-08"
     },
@@ -1190,11 +1122,9 @@ export default {
       "masked": "Internships help students ____.",
       "options": [
         "experience-mcq-09",
-        "experience-mcq-08",
-        "experience-mcq-10",
-        "experience-mcq-07",
-        "experience-mcq-11",
-        "experience-mcq-06"
+        "experience-mcq-17",
+        "experience-mcq-23",
+        "experience-mcq-15"
       ],
       "explanation": "本句的「gain experience」指「透過實際參與逐漸累積知識和能力」。",
       "sentenceIndex": 17,
@@ -1203,12 +1133,10 @@ export default {
         "gain experience"
       ],
       "optionReasons": {
-        "experience-mcq-09": "本句指「透過實際參與逐漸累積知識和能力」。",
-        "experience-mcq-08": "「曾經做過某類事情，因此具備相關實際知識或能力」是「have experience」的用法，與本句語境不同。",
-        "experience-mcq-10": "「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」是「lack experience」的用法，與本句語境不同。",
-        "experience-mcq-07": "「經過長時間做某事、處理某類情況而累積的知識和能力」是「experience（不可數：經驗）」的用法，與本句語境不同。",
-        "experience-mcq-11": "「在某個範疇累積多年的實際工作或活動經驗」是「years of experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。"
+        "experience-mcq-09": "本句的「gain experience」指「透過實際參與逐漸累積知識和能力」。",
+        "experience-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-09"
     },
@@ -1220,11 +1148,9 @@ export default {
       "masked": "You need more practice to ____.",
       "options": [
         "experience-mcq-09",
-        "experience-mcq-08",
-        "experience-mcq-10",
-        "experience-mcq-07",
-        "experience-mcq-11",
-        "experience-mcq-06"
+        "experience-mcq-23",
+        "experience-mcq-02",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「get experience」指「透過實際參與逐漸累積知識和能力」。",
       "sentenceIndex": 18,
@@ -1233,12 +1159,10 @@ export default {
         "get experience"
       ],
       "optionReasons": {
-        "experience-mcq-09": "本句指「透過實際參與逐漸累積知識和能力」。",
-        "experience-mcq-08": "「曾經做過某類事情，因此具備相關實際知識或能力」是「have experience」的用法，與本句語境不同。",
-        "experience-mcq-10": "「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」是「lack experience」的用法，與本句語境不同。",
-        "experience-mcq-07": "「經過長時間做某事、處理某類情況而累積的知識和能力」是「experience（不可數：經驗）」的用法，與本句語境不同。",
-        "experience-mcq-11": "「在某個範疇累積多年的實際工作或活動經驗」是「years of experience」的用法，與本句語境不同。",
-        "experience-mcq-06": "「能讓人從中學到重要東西的一次經歷」是「learning experience」的用法，與本句語境不同。"
+        "experience-mcq-09": "本句的「get experience」指「透過實際參與逐漸累積知識和能力」。",
+        "experience-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-09"
     },
@@ -1251,10 +1175,8 @@ export default {
       "options": [
         "experience-mcq-10",
         "experience-mcq-09",
-        "experience-mcq-11",
-        "experience-mcq-08",
-        "experience-mcq-12",
-        "experience-mcq-07"
+        "experience-mcq-26",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「lacks experience」指「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」。",
       "sentenceIndex": 19,
@@ -1263,12 +1185,10 @@ export default {
         "lacks experience"
       ],
       "optionReasons": {
-        "experience-mcq-10": "本句指「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」。",
-        "experience-mcq-09": "「透過實際參與逐漸累積知識和能力」是「gain / get experience」的用法，與本句語境不同。",
-        "experience-mcq-11": "「在某個範疇累積多年的實際工作或活動經驗」是「years of experience」的用法，與本句語境不同。",
-        "experience-mcq-08": "「曾經做過某類事情，因此具備相關實際知識或能力」是「have experience」的用法，與本句語境不同。",
-        "experience-mcq-12": "「在某個範疇或專業領域累積的經驗」是「experience in something」的用法，與本句語境不同。",
-        "experience-mcq-07": "「經過長時間做某事、處理某類情況而累積的知識和能力」是「experience（不可數：經驗）」的用法，與本句語境不同。"
+        "experience-mcq-10": "本句的「lacks experience」指「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」。",
+        "experience-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-10"
     },
@@ -1280,11 +1200,9 @@ export default {
       "masked": "The team ____ in handling crises.",
       "options": [
         "experience-mcq-10",
-        "experience-mcq-09",
-        "experience-mcq-11",
-        "experience-mcq-08",
-        "experience-mcq-12",
-        "experience-mcq-07"
+        "experience-mcq-26",
+        "experience-mcq-21",
+        "experience-mcq-25"
       ],
       "explanation": "本句的「lacked experience」指「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」。",
       "sentenceIndex": 20,
@@ -1293,12 +1211,10 @@ export default {
         "lacked experience"
       ],
       "optionReasons": {
-        "experience-mcq-10": "本句指「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」。",
-        "experience-mcq-09": "「透過實際參與逐漸累積知識和能力」是「gain / get experience」的用法，與本句語境不同。",
-        "experience-mcq-11": "「在某個範疇累積多年的實際工作或活動經驗」是「years of experience」的用法，與本句語境不同。",
-        "experience-mcq-08": "「曾經做過某類事情，因此具備相關實際知識或能力」是「have experience」的用法，與本句語境不同。",
-        "experience-mcq-12": "「在某個範疇或專業領域累積的經驗」是「experience in something」的用法，與本句語境不同。",
-        "experience-mcq-07": "「經過長時間做某事、處理某類情況而累積的知識和能力」是「experience（不可數：經驗）」的用法，與本句語境不同。"
+        "experience-mcq-10": "本句的「lacked experience」指「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」。",
+        "experience-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-10"
     },
@@ -1310,11 +1226,9 @@ export default {
       "masked": "She has ten years of teaching ____.",
       "options": [
         "experience-mcq-11",
-        "experience-mcq-10",
-        "experience-mcq-12",
-        "experience-mcq-09",
-        "experience-mcq-13",
-        "experience-mcq-08"
+        "experience-mcq-17",
+        "experience-mcq-16",
+        "experience-mcq-25"
       ],
       "explanation": "本句的「experience」指「在某個範疇累積多年的實際工作或活動經驗」。",
       "sentenceIndex": 21,
@@ -1323,12 +1237,10 @@ export default {
         "experience"
       ],
       "optionReasons": {
-        "experience-mcq-11": "本句指「在某個範疇累積多年的實際工作或活動經驗」。",
-        "experience-mcq-10": "「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」是「lack experience」的用法，與本句語境不同。",
-        "experience-mcq-12": "「在某個範疇或專業領域累積的經驗」是「experience in something」的用法，與本句語境不同。",
-        "experience-mcq-09": "「透過實際參與逐漸累積知識和能力」是「gain / get experience」的用法，與本句語境不同。",
-        "experience-mcq-13": "「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」是「experience of something」的用法，與本句語境不同。",
-        "experience-mcq-08": "「曾經做過某類事情，因此具備相關實際知識或能力」是「have experience」的用法，與本句語境不同。"
+        "experience-mcq-11": "本句的「experience」指「在某個範疇累積多年的實際工作或活動經驗」。",
+        "experience-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-11"
     },
@@ -1340,11 +1252,9 @@ export default {
       "masked": "The role requires several years of relevant ____.",
       "options": [
         "experience-mcq-11",
-        "experience-mcq-10",
-        "experience-mcq-12",
-        "experience-mcq-09",
-        "experience-mcq-13",
-        "experience-mcq-08"
+        "experience-mcq-25",
+        "experience-mcq-16",
+        "experience-mcq-21"
       ],
       "explanation": "本句的「experience」指「在某個範疇累積多年的實際工作或活動經驗」。",
       "sentenceIndex": 22,
@@ -1353,12 +1263,10 @@ export default {
         "experience"
       ],
       "optionReasons": {
-        "experience-mcq-11": "本句指「在某個範疇累積多年的實際工作或活動經驗」。",
-        "experience-mcq-10": "「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」是「lack experience」的用法，與本句語境不同。",
-        "experience-mcq-12": "「在某個範疇或專業領域累積的經驗」是「experience in something」的用法，與本句語境不同。",
-        "experience-mcq-09": "「透過實際參與逐漸累積知識和能力」是「gain / get experience」的用法，與本句語境不同。",
-        "experience-mcq-13": "「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」是「experience of something」的用法，與本句語境不同。",
-        "experience-mcq-08": "「曾經做過某類事情，因此具備相關實際知識或能力」是「have experience」的用法，與本句語境不同。"
+        "experience-mcq-11": "本句的「experience」指「在某個範疇累積多年的實際工作或活動經驗」。",
+        "experience-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-11"
     },
@@ -1370,11 +1278,9 @@ export default {
       "masked": "He has extensive ____.",
       "options": [
         "experience-mcq-12",
-        "experience-mcq-11",
-        "experience-mcq-13",
-        "experience-mcq-10",
-        "experience-mcq-14",
-        "experience-mcq-09"
+        "experience-mcq-20",
+        "experience-mcq-21",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「experience in marketing」指「在某個範疇或專業領域累積的經驗」。",
       "sentenceIndex": 23,
@@ -1383,12 +1289,10 @@ export default {
         "experience in marketing"
       ],
       "optionReasons": {
-        "experience-mcq-12": "本句指「在某個範疇或專業領域累積的經驗」。",
-        "experience-mcq-11": "「在某個範疇累積多年的實際工作或活動經驗」是「years of experience」的用法，與本句語境不同。",
-        "experience-mcq-13": "「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」是「experience of something」的用法，與本句語境不同。",
-        "experience-mcq-10": "「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」是「lack experience」的用法，與本句語境不同。",
-        "experience-mcq-14": "「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」是「work experience」的用法，與本句語境不同。",
-        "experience-mcq-09": "「透過實際參與逐漸累積知識和能力」是「gain / get experience」的用法，與本句語境不同。"
+        "experience-mcq-12": "本句的「experience in marketing」指「在某個範疇或專業領域累積的經驗」。",
+        "experience-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-12"
     },
@@ -1400,11 +1304,9 @@ export default {
       "masked": "Do you have any ____?",
       "options": [
         "experience-mcq-12",
-        "experience-mcq-11",
-        "experience-mcq-13",
-        "experience-mcq-10",
-        "experience-mcq-14",
-        "experience-mcq-09"
+        "experience-mcq-27",
+        "experience-mcq-21",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「experience in project management」指「在某個範疇或專業領域累積的經驗」。",
       "sentenceIndex": 24,
@@ -1413,12 +1315,10 @@ export default {
         "experience in project management"
       ],
       "optionReasons": {
-        "experience-mcq-12": "本句指「在某個範疇或專業領域累積的經驗」。",
-        "experience-mcq-11": "「在某個範疇累積多年的實際工作或活動經驗」是「years of experience」的用法，與本句語境不同。",
-        "experience-mcq-13": "「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」是「experience of something」的用法，與本句語境不同。",
-        "experience-mcq-10": "「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」是「lack experience」的用法，與本句語境不同。",
-        "experience-mcq-14": "「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」是「work experience」的用法，與本句語境不同。",
-        "experience-mcq-09": "「透過實際參與逐漸累積知識和能力」是「gain / get experience」的用法，與本句語境不同。"
+        "experience-mcq-12": "本句的「experience in project management」指「在某個範疇或專業領域累積的經驗」。",
+        "experience-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-12"
     },
@@ -1430,11 +1330,9 @@ export default {
       "masked": "She has direct ____.",
       "options": [
         "experience-mcq-13",
-        "experience-mcq-12",
-        "experience-mcq-14",
-        "experience-mcq-11",
-        "experience-mcq-15",
-        "experience-mcq-10"
+        "experience-mcq-26",
+        "experience-mcq-09",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「experience of discrimination」指「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」。",
       "sentenceIndex": 25,
@@ -1443,12 +1341,10 @@ export default {
         "experience of discrimination"
       ],
       "optionReasons": {
-        "experience-mcq-13": "本句指「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」。",
-        "experience-mcq-12": "「在某個範疇或專業領域累積的經驗」是「experience in something」的用法，與本句語境不同。",
-        "experience-mcq-14": "「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」是「work experience」的用法，與本句語境不同。",
-        "experience-mcq-11": "「在某個範疇累積多年的實際工作或活動經驗」是「years of experience」的用法，與本句語境不同。",
-        "experience-mcq-15": "「verb：經歷；遭遇時，表示經歷；遭遇」是「experience（verb：經歷；遭遇）」的用法，與本句語境不同。",
-        "experience-mcq-10": "「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」是「lack experience」的用法，與本句語境不同。"
+        "experience-mcq-13": "本句的「experience of discrimination」指「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」。",
+        "experience-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-13"
     },
@@ -1460,11 +1356,9 @@ export default {
       "masked": "His ____ changed his perspective.",
       "options": [
         "experience-mcq-13",
-        "experience-mcq-12",
-        "experience-mcq-14",
-        "experience-mcq-11",
-        "experience-mcq-15",
-        "experience-mcq-10"
+        "experience-mcq-26",
+        "experience-mcq-16",
+        "experience-mcq-25"
       ],
       "explanation": "本句的「experience of living abroad」指「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」。",
       "sentenceIndex": 26,
@@ -1473,12 +1367,10 @@ export default {
         "experience of living abroad"
       ],
       "optionReasons": {
-        "experience-mcq-13": "本句指「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」。",
-        "experience-mcq-12": "「在某個範疇或專業領域累積的經驗」是「experience in something」的用法，與本句語境不同。",
-        "experience-mcq-14": "「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」是「work experience」的用法，與本句語境不同。",
-        "experience-mcq-11": "「在某個範疇累積多年的實際工作或活動經驗」是「years of experience」的用法，與本句語境不同。",
-        "experience-mcq-15": "「verb：經歷；遭遇時，表示經歷；遭遇」是「experience（verb：經歷；遭遇）」的用法，與本句語境不同。",
-        "experience-mcq-10": "「表示缺乏經驗；例句：「他很有天分，但缺乏經驗。」」是「lack experience」的用法，與本句語境不同。"
+        "experience-mcq-13": "本句的「experience of living abroad」指「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」。",
+        "experience-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-13"
     },
@@ -1490,11 +1382,9 @@ export default {
       "masked": "The job requires relevant ____.",
       "options": [
         "experience-mcq-14",
-        "experience-mcq-13",
-        "experience-mcq-15",
-        "experience-mcq-12",
-        "experience-mcq-16",
-        "experience-mcq-11"
+        "experience-mcq-18",
+        "experience-mcq-28",
+        "experience-mcq-21"
       ],
       "explanation": "本句的「work experience」指「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」。",
       "sentenceIndex": 27,
@@ -1503,12 +1393,10 @@ export default {
         "work experience"
       ],
       "optionReasons": {
-        "experience-mcq-14": "本句指「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」。",
-        "experience-mcq-13": "「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」是「experience of something」的用法，與本句語境不同。",
-        "experience-mcq-15": "「verb：經歷；遭遇時，表示經歷；遭遇」是「experience（verb：經歷；遭遇）」的用法，與本句語境不同。",
-        "experience-mcq-12": "「在某個範疇或專業領域累積的經驗」是「experience in something」的用法，與本句語境不同。",
-        "experience-mcq-16": "「在某段期間遇到困難或問題」是「experience difficulty / problems」的用法，與本句語境不同。",
-        "experience-mcq-11": "「在某個範疇累積多年的實際工作或活動經驗」是「years of experience」的用法，與本句語境不同。"
+        "experience-mcq-14": "本句的「work experience」指「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」。",
+        "experience-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-14"
     },
@@ -1520,11 +1408,9 @@ export default {
       "masked": "Students completed two weeks of ____.",
       "options": [
         "experience-mcq-14",
-        "experience-mcq-13",
-        "experience-mcq-15",
-        "experience-mcq-12",
-        "experience-mcq-16",
-        "experience-mcq-11"
+        "experience-mcq-18",
+        "experience-mcq-21",
+        "experience-mcq-28"
       ],
       "explanation": "本句的「work experience」指「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」。",
       "sentenceIndex": 28,
@@ -1533,12 +1419,10 @@ export default {
         "work experience"
       ],
       "optionReasons": {
-        "experience-mcq-14": "本句指「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」。",
-        "experience-mcq-13": "「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」是「experience of something」的用法，與本句語境不同。",
-        "experience-mcq-15": "「verb：經歷；遭遇時，表示經歷；遭遇」是「experience（verb：經歷；遭遇）」的用法，與本句語境不同。",
-        "experience-mcq-12": "「在某個範疇或專業領域累積的經驗」是「experience in something」的用法，與本句語境不同。",
-        "experience-mcq-16": "「在某段期間遇到困難或問題」是「experience difficulty / problems」的用法，與本句語境不同。",
-        "experience-mcq-11": "「在某個範疇累積多年的實際工作或活動經驗」是「years of experience」的用法，與本句語境不同。"
+        "experience-mcq-14": "本句的「work experience」指「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」。",
+        "experience-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-14"
     },
@@ -1550,11 +1434,9 @@ export default {
       "masked": "The team ____.",
       "options": [
         "experience-mcq-15",
-        "experience-mcq-14",
-        "experience-mcq-16",
-        "experience-mcq-13",
-        "experience-mcq-17",
-        "experience-mcq-12"
+        "experience-mcq-20",
+        "experience-mcq-21",
+        "experience-mcq-23"
       ],
       "explanation": "本句的「experienced several problems」指「verb：經歷；遭遇時，表示經歷；遭遇」。",
       "sentenceIndex": 29,
@@ -1563,12 +1445,10 @@ export default {
         "experienced several problems"
       ],
       "optionReasons": {
-        "experience-mcq-15": "本句指「verb：經歷；遭遇時，表示經歷；遭遇」。",
-        "experience-mcq-14": "「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」是「work experience」的用法，與本句語境不同。",
-        "experience-mcq-16": "「在某段期間遇到困難或問題」是「experience difficulty / problems」的用法，與本句語境不同。",
-        "experience-mcq-13": "「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」是「experience of something」的用法，與本句語境不同。",
-        "experience-mcq-17": "「親身感受到某種身體或心理狀態」是「experience pain / emotion」的用法，與本句語境不同。",
-        "experience-mcq-12": "「在某個範疇或專業領域累積的經驗」是「experience in something」的用法，與本句語境不同。"
+        "experience-mcq-15": "本句的「experienced several problems」指「verb：經歷；遭遇時，表示經歷；遭遇」。",
+        "experience-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-15"
     },
@@ -1580,11 +1460,9 @@ export default {
       "masked": "She ____ during the project.",
       "options": [
         "experience-mcq-15",
-        "experience-mcq-14",
-        "experience-mcq-16",
-        "experience-mcq-13",
-        "experience-mcq-17",
-        "experience-mcq-12"
+        "experience-mcq-25",
+        "experience-mcq-27",
+        "experience-mcq-21"
       ],
       "explanation": "本句的「experienced a lot of stress」指「verb：經歷；遭遇時，表示經歷；遭遇」。",
       "sentenceIndex": 30,
@@ -1593,12 +1471,10 @@ export default {
         "experienced a lot of stress"
       ],
       "optionReasons": {
-        "experience-mcq-15": "本句指「verb：經歷；遭遇時，表示經歷；遭遇」。",
-        "experience-mcq-14": "「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」是「work experience」的用法，與本句語境不同。",
-        "experience-mcq-16": "「在某段期間遇到困難或問題」是「experience difficulty / problems」的用法，與本句語境不同。",
-        "experience-mcq-13": "「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」是「experience of something」的用法，與本句語境不同。",
-        "experience-mcq-17": "「親身感受到某種身體或心理狀態」是「experience pain / emotion」的用法，與本句語境不同。",
-        "experience-mcq-12": "「在某個範疇或專業領域累積的經驗」是「experience in something」的用法，與本句語境不同。"
+        "experience-mcq-15": "本句的「experienced a lot of stress」指「verb：經歷；遭遇時，表示經歷；遭遇」。",
+        "experience-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-15"
     },
@@ -1610,11 +1486,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "experience-mcq-16",
-        "experience-mcq-15",
-        "experience-mcq-17",
-        "experience-mcq-14",
-        "experience-mcq-18",
-        "experience-mcq-13"
+        "experience-mcq-25",
+        "experience-mcq-26",
+        "experience-mcq-06"
       ],
       "explanation": "本句的「experienced technical difficulties」指「在某段期間遇到困難或問題」。",
       "sentenceIndex": 31,
@@ -1623,12 +1497,10 @@ export default {
         "experienced technical difficulties"
       ],
       "optionReasons": {
-        "experience-mcq-16": "本句指「在某段期間遇到困難或問題」。",
-        "experience-mcq-15": "「verb：經歷；遭遇時，表示經歷；遭遇」是「experience（verb：經歷；遭遇）」的用法，與本句語境不同。",
-        "experience-mcq-17": "「親身感受到某種身體或心理狀態」是「experience pain / emotion」的用法，與本句語境不同。",
-        "experience-mcq-14": "「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」是「work experience」的用法，與本句語境不同。",
-        "experience-mcq-18": "「某人、機構、地方或系統在一段時間內出現某種變化或狀況」是「experience change / growth / decline」的用法，與本句語境不同。",
-        "experience-mcq-13": "「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」是「experience of something」的用法，與本句語境不同。"
+        "experience-mcq-16": "本句的「experienced technical difficulties」指「在某段期間遇到困難或問題」。",
+        "experience-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-16"
     },
@@ -1640,11 +1512,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "experience-mcq-16",
-        "experience-mcq-15",
-        "experience-mcq-17",
-        "experience-mcq-14",
-        "experience-mcq-18",
-        "experience-mcq-13"
+        "experience-mcq-09",
+        "experience-mcq-06",
+        "experience-mcq-27"
       ],
       "explanation": "本句的「experienced several delays」指「在某段期間遇到困難或問題」。",
       "sentenceIndex": 32,
@@ -1653,12 +1523,10 @@ export default {
         "experienced several delays"
       ],
       "optionReasons": {
-        "experience-mcq-16": "本句指「在某段期間遇到困難或問題」。",
-        "experience-mcq-15": "「verb：經歷；遭遇時，表示經歷；遭遇」是「experience（verb：經歷；遭遇）」的用法，與本句語境不同。",
-        "experience-mcq-17": "「親身感受到某種身體或心理狀態」是「experience pain / emotion」的用法，與本句語境不同。",
-        "experience-mcq-14": "「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」是「work experience」的用法，與本句語境不同。",
-        "experience-mcq-18": "「某人、機構、地方或系統在一段時間內出現某種變化或狀況」是「experience change / growth / decline」的用法，與本句語境不同。",
-        "experience-mcq-13": "「表示經歷／經驗某事；例句：「她有被歧視的直接經歷。」」是「experience of something」的用法，與本句語境不同。"
+        "experience-mcq-16": "本句的「experienced several delays」指「在某段期間遇到困難或問題」。",
+        "experience-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-16"
     },
@@ -1670,11 +1538,9 @@ export default {
       "masked": "Some patients ____ after the procedure.",
       "options": [
         "experience-mcq-17",
-        "experience-mcq-16",
-        "experience-mcq-18",
-        "experience-mcq-15",
-        "experience-mcq-19",
-        "experience-mcq-14"
+        "experience-mcq-06",
+        "experience-mcq-21",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「experience pain」指「親身感受到某種身體或心理狀態」。",
       "sentenceIndex": 33,
@@ -1683,12 +1549,10 @@ export default {
         "experience pain"
       ],
       "optionReasons": {
-        "experience-mcq-17": "本句指「親身感受到某種身體或心理狀態」。",
-        "experience-mcq-16": "「在某段期間遇到困難或問題」是「experience difficulty / problems」的用法，與本句語境不同。",
-        "experience-mcq-18": "「某人、機構、地方或系統在一段時間內出現某種變化或狀況」是「experience change / growth / decline」的用法，與本句語境不同。",
-        "experience-mcq-15": "「verb：經歷；遭遇時，表示經歷；遭遇」是「experience（verb：經歷；遭遇）」的用法，與本句語境不同。",
-        "experience-mcq-19": "「自己直接參與並感受 X，而不是透過別人知道」是「experience something first-hand」的用法，與本句語境不同。",
-        "experience-mcq-14": "「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」是「work experience」的用法，與本句語境不同。"
+        "experience-mcq-17": "本句的「experience pain」指「親身感受到某種身體或心理狀態」。",
+        "experience-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-17"
     },
@@ -1700,11 +1564,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "experience-mcq-17",
+        "experience-mcq-12",
         "experience-mcq-16",
-        "experience-mcq-18",
-        "experience-mcq-15",
-        "experience-mcq-19",
-        "experience-mcq-14"
+        "experience-mcq-03"
       ],
       "explanation": "本句的「experienced intense frustration」指「親身感受到某種身體或心理狀態」。",
       "sentenceIndex": 34,
@@ -1713,12 +1575,10 @@ export default {
         "experienced intense frustration"
       ],
       "optionReasons": {
-        "experience-mcq-17": "本句指「親身感受到某種身體或心理狀態」。",
-        "experience-mcq-16": "「在某段期間遇到困難或問題」是「experience difficulty / problems」的用法，與本句語境不同。",
-        "experience-mcq-18": "「某人、機構、地方或系統在一段時間內出現某種變化或狀況」是「experience change / growth / decline」的用法，與本句語境不同。",
-        "experience-mcq-15": "「verb：經歷；遭遇時，表示經歷；遭遇」是「experience（verb：經歷；遭遇）」的用法，與本句語境不同。",
-        "experience-mcq-19": "「自己直接參與並感受 X，而不是透過別人知道」是「experience something first-hand」的用法，與本句語境不同。",
-        "experience-mcq-14": "「實際工作的經驗；在某些教育語境中，也可指短期職場體驗」是「work experience」的用法，與本句語境不同。"
+        "experience-mcq-17": "本句的「experienced intense frustration」指「親身感受到某種身體或心理狀態」。",
+        "experience-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-17"
     },
@@ -1730,11 +1590,9 @@ export default {
       "masked": "The city has ____.",
       "options": [
         "experience-mcq-18",
-        "experience-mcq-17",
-        "experience-mcq-19",
-        "experience-mcq-16",
-        "experience-mcq-20",
-        "experience-mcq-15"
+        "experience-mcq-05",
+        "experience-mcq-10",
+        "experience-mcq-28"
       ],
       "explanation": "本句的「experienced rapid growth」指「某人、機構、地方或系統在一段時間內出現某種變化或狀況」。",
       "sentenceIndex": 35,
@@ -1743,12 +1601,10 @@ export default {
         "experienced rapid growth"
       ],
       "optionReasons": {
-        "experience-mcq-18": "本句指「某人、機構、地方或系統在一段時間內出現某種變化或狀況」。",
-        "experience-mcq-17": "「親身感受到某種身體或心理狀態」是「experience pain / emotion」的用法，與本句語境不同。",
-        "experience-mcq-19": "「自己直接參與並感受 X，而不是透過別人知道」是「experience something first-hand」的用法，與本句語境不同。",
-        "experience-mcq-16": "「在某段期間遇到困難或問題」是「experience difficulty / problems」的用法，與本句語境不同。",
-        "experience-mcq-20": "「親自參與、感受或接觸某種活動、文化或環境」是「experience（verb：體驗某活動／服務）」的用法，與本句語境不同。",
-        "experience-mcq-15": "「verb：經歷；遭遇時，表示經歷；遭遇」是「experience（verb：經歷；遭遇）」的用法，與本句語境不同。"
+        "experience-mcq-18": "本句的「experienced rapid growth」指「某人、機構、地方或系統在一段時間內出現某種變化或狀況」。",
+        "experience-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-18"
     },
@@ -1760,11 +1616,9 @@ export default {
       "masked": "Sales ____.",
       "options": [
         "experience-mcq-18",
-        "experience-mcq-17",
-        "experience-mcq-19",
-        "experience-mcq-16",
-        "experience-mcq-20",
-        "experience-mcq-15"
+        "experience-mcq-24",
+        "experience-mcq-10",
+        "experience-mcq-21"
       ],
       "explanation": "本句的「experienced a sharp decline」指「某人、機構、地方或系統在一段時間內出現某種變化或狀況」。",
       "sentenceIndex": 36,
@@ -1773,12 +1627,10 @@ export default {
         "experienced a sharp decline"
       ],
       "optionReasons": {
-        "experience-mcq-18": "本句指「某人、機構、地方或系統在一段時間內出現某種變化或狀況」。",
-        "experience-mcq-17": "「親身感受到某種身體或心理狀態」是「experience pain / emotion」的用法，與本句語境不同。",
-        "experience-mcq-19": "「自己直接參與並感受 X，而不是透過別人知道」是「experience something first-hand」的用法，與本句語境不同。",
-        "experience-mcq-16": "「在某段期間遇到困難或問題」是「experience difficulty / problems」的用法，與本句語境不同。",
-        "experience-mcq-20": "「親自參與、感受或接觸某種活動、文化或環境」是「experience（verb：體驗某活動／服務）」的用法，與本句語境不同。",
-        "experience-mcq-15": "「verb：經歷；遭遇時，表示經歷；遭遇」是「experience（verb：經歷；遭遇）」的用法，與本句語境不同。"
+        "experience-mcq-18": "本句的「experienced a sharp decline」指「某人、機構、地方或系統在一段時間內出現某種變化或狀況」。",
+        "experience-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-18"
     },
@@ -1790,11 +1642,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "experience-mcq-19",
-        "experience-mcq-18",
-        "experience-mcq-20",
-        "experience-mcq-17",
-        "experience-mcq-21",
-        "experience-mcq-16"
+        "experience-mcq-16",
+        "experience-mcq-06",
+        "experience-mcq-23"
       ],
       "explanation": "本句的「experienced the problem first-hand」指「自己直接參與並感受 X，而不是透過別人知道」。",
       "sentenceIndex": 37,
@@ -1803,12 +1653,10 @@ export default {
         "experienced the problem first-hand"
       ],
       "optionReasons": {
-        "experience-mcq-19": "本句指「自己直接參與並感受 X，而不是透過別人知道」。",
-        "experience-mcq-18": "「某人、機構、地方或系統在一段時間內出現某種變化或狀況」是「experience change / growth / decline」的用法，與本句語境不同。",
-        "experience-mcq-20": "「親自參與、感受或接觸某種活動、文化或環境」是「experience（verb：體驗某活動／服務）」的用法，與本句語境不同。",
-        "experience-mcq-17": "「親身感受到某種身體或心理狀態」是「experience pain / emotion」的用法，與本句語境不同。",
-        "experience-mcq-21": "「因曾多次做過某事而具備相當知識、技巧和判斷力的」是「experienced（有經驗的；老練的）」的用法，與本句語境不同。",
-        "experience-mcq-16": "「在某段期間遇到困難或問題」是「experience difficulty / problems」的用法，與本句語境不同。"
+        "experience-mcq-19": "本句的「experienced the problem first-hand」指「自己直接參與並感受 X，而不是透過別人知道」。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-19"
     },
@@ -1820,10 +1668,8 @@ export default {
       "masked": "Visitors can ____.",
       "options": [
         "experience-mcq-19",
-        "experience-mcq-18",
-        "experience-mcq-20",
-        "experience-mcq-17",
-        "experience-mcq-21",
+        "experience-mcq-10",
+        "experience-mcq-05",
         "experience-mcq-16"
       ],
       "explanation": "本句的「experience local culture first-hand」指「自己直接參與並感受 X，而不是透過別人知道」。",
@@ -1833,12 +1679,10 @@ export default {
         "experience local culture first-hand"
       ],
       "optionReasons": {
-        "experience-mcq-19": "本句指「自己直接參與並感受 X，而不是透過別人知道」。",
-        "experience-mcq-18": "「某人、機構、地方或系統在一段時間內出現某種變化或狀況」是「experience change / growth / decline」的用法，與本句語境不同。",
-        "experience-mcq-20": "「親自參與、感受或接觸某種活動、文化或環境」是「experience（verb：體驗某活動／服務）」的用法，與本句語境不同。",
-        "experience-mcq-17": "「親身感受到某種身體或心理狀態」是「experience pain / emotion」的用法，與本句語境不同。",
-        "experience-mcq-21": "「因曾多次做過某事而具備相當知識、技巧和判斷力的」是「experienced（有經驗的；老練的）」的用法，與本句語境不同。",
-        "experience-mcq-16": "「在某段期間遇到困難或問題」是「experience difficulty / problems」的用法，與本句語境不同。"
+        "experience-mcq-19": "本句的「experience local culture first-hand」指「自己直接參與並感受 X，而不是透過別人知道」。",
+        "experience-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-19"
     },
@@ -1850,11 +1694,9 @@ export default {
       "masked": "Tourists can ____.",
       "options": [
         "experience-mcq-20",
-        "experience-mcq-19",
-        "experience-mcq-21",
-        "experience-mcq-18",
-        "experience-mcq-22",
-        "experience-mcq-17"
+        "experience-mcq-13",
+        "experience-mcq-16",
+        "experience-mcq-21"
       ],
       "explanation": "本句的「experience traditional village life」指「親自參與、感受或接觸某種活動、文化或環境」。",
       "sentenceIndex": 39,
@@ -1863,12 +1705,10 @@ export default {
         "experience traditional village life"
       ],
       "optionReasons": {
-        "experience-mcq-20": "本句指「親自參與、感受或接觸某種活動、文化或環境」。",
-        "experience-mcq-19": "「自己直接參與並感受 X，而不是透過別人知道」是「experience something first-hand」的用法，與本句語境不同。",
-        "experience-mcq-21": "「因曾多次做過某事而具備相當知識、技巧和判斷力的」是「experienced（有經驗的；老練的）」的用法，與本句語境不同。",
-        "experience-mcq-18": "「某人、機構、地方或系統在一段時間內出現某種變化或狀況」是「experience change / growth / decline」的用法，與本句語境不同。",
-        "experience-mcq-22": "「在 X 方面累積了大量實際經驗」是「experienced in / at something」的用法，與本句語境不同。",
-        "experience-mcq-17": "「親身感受到某種身體或心理狀態」是「experience pain / emotion」的用法，與本句語境不同。"
+        "experience-mcq-20": "本句的「experience traditional village life」指「親自參與、感受或接觸某種活動、文化或環境」。",
+        "experience-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-20"
     },
@@ -1880,11 +1720,9 @@ export default {
       "masked": "The exhibition lets visitors ____ in an interactive way.",
       "options": [
         "experience-mcq-20",
-        "experience-mcq-19",
+        "experience-mcq-13",
         "experience-mcq-21",
-        "experience-mcq-18",
-        "experience-mcq-22",
-        "experience-mcq-17"
+        "experience-mcq-16"
       ],
       "explanation": "本句的「experience the history」指「親自參與、感受或接觸某種活動、文化或環境」。",
       "sentenceIndex": 40,
@@ -1893,12 +1731,10 @@ export default {
         "experience the history"
       ],
       "optionReasons": {
-        "experience-mcq-20": "本句指「親自參與、感受或接觸某種活動、文化或環境」。",
-        "experience-mcq-19": "「自己直接參與並感受 X，而不是透過別人知道」是「experience something first-hand」的用法，與本句語境不同。",
-        "experience-mcq-21": "「因曾多次做過某事而具備相當知識、技巧和判斷力的」是「experienced（有經驗的；老練的）」的用法，與本句語境不同。",
-        "experience-mcq-18": "「某人、機構、地方或系統在一段時間內出現某種變化或狀況」是「experience change / growth / decline」的用法，與本句語境不同。",
-        "experience-mcq-22": "「在 X 方面累積了大量實際經驗」是「experienced in / at something」的用法，與本句語境不同。",
-        "experience-mcq-17": "「親身感受到某種身體或心理狀態」是「experience pain / emotion」的用法，與本句語境不同。"
+        "experience-mcq-20": "本句的「experience the history」指「親自參與、感受或接觸某種活動、文化或環境」。",
+        "experience-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-20"
     },
@@ -1910,11 +1746,9 @@ export default {
       "masked": "She is an ____.",
       "options": [
         "experience-mcq-21",
-        "experience-mcq-20",
-        "experience-mcq-22",
-        "experience-mcq-19",
-        "experience-mcq-23",
-        "experience-mcq-18"
+        "experience-mcq-15",
+        "experience-mcq-26",
+        "experience-mcq-10"
       ],
       "explanation": "本句的「experienced teacher」指「因曾多次做過某事而具備相當知識、技巧和判斷力的」。",
       "sentenceIndex": 41,
@@ -1923,12 +1757,10 @@ export default {
         "experienced teacher"
       ],
       "optionReasons": {
-        "experience-mcq-21": "本句指「因曾多次做過某事而具備相當知識、技巧和判斷力的」。",
-        "experience-mcq-20": "「親自參與、感受或接觸某種活動、文化或環境」是「experience（verb：體驗某活動／服務）」的用法，與本句語境不同。",
-        "experience-mcq-22": "「在 X 方面累積了大量實際經驗」是「experienced in / at something」的用法，與本句語境不同。",
-        "experience-mcq-19": "「自己直接參與並感受 X，而不是透過別人知道」是「experience something first-hand」的用法，與本句語境不同。",
-        "experience-mcq-23": "「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」是「inexperienced」的用法，與本句語境不同。",
-        "experience-mcq-18": "「某人、機構、地方或系統在一段時間內出現某種變化或狀況」是「experience change / growth / decline」的用法，與本句語境不同。"
+        "experience-mcq-21": "本句的「experienced teacher」指「因曾多次做過某事而具備相當知識、技巧和判斷力的」。",
+        "experience-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-21"
     },
@@ -1940,11 +1772,9 @@ export default {
       "masked": "We need an ____.",
       "options": [
         "experience-mcq-21",
-        "experience-mcq-20",
-        "experience-mcq-22",
-        "experience-mcq-19",
-        "experience-mcq-23",
-        "experience-mcq-18"
+        "experience-mcq-05",
+        "experience-mcq-10",
+        "experience-mcq-20"
       ],
       "explanation": "本句的「experienced manager」指「因曾多次做過某事而具備相當知識、技巧和判斷力的」。",
       "sentenceIndex": 42,
@@ -1953,12 +1783,10 @@ export default {
         "experienced manager"
       ],
       "optionReasons": {
-        "experience-mcq-21": "本句指「因曾多次做過某事而具備相當知識、技巧和判斷力的」。",
-        "experience-mcq-20": "「親自參與、感受或接觸某種活動、文化或環境」是「experience（verb：體驗某活動／服務）」的用法，與本句語境不同。",
-        "experience-mcq-22": "「在 X 方面累積了大量實際經驗」是「experienced in / at something」的用法，與本句語境不同。",
-        "experience-mcq-19": "「自己直接參與並感受 X，而不是透過別人知道」是「experience something first-hand」的用法，與本句語境不同。",
-        "experience-mcq-23": "「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」是「inexperienced」的用法，與本句語境不同。",
-        "experience-mcq-18": "「某人、機構、地方或系統在一段時間內出現某種變化或狀況」是「experience change / growth / decline」的用法，與本句語境不同。"
+        "experience-mcq-21": "本句的「experienced manager」指「因曾多次做過某事而具備相當知識、技巧和判斷力的」。",
+        "experience-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-21"
     },
@@ -1971,10 +1799,8 @@ export default {
       "options": [
         "experience-mcq-22",
         "experience-mcq-21",
-        "experience-mcq-23",
-        "experience-mcq-20",
-        "experience-mcq-24",
-        "experience-mcq-19"
+        "experience-mcq-28",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「experienced in handling difficult clients」指「在 X 方面累積了大量實際經驗」。",
       "sentenceIndex": 43,
@@ -1983,12 +1809,10 @@ export default {
         "experienced in handling difficult clients"
       ],
       "optionReasons": {
-        "experience-mcq-22": "本句指「在 X 方面累積了大量實際經驗」。",
-        "experience-mcq-21": "「因曾多次做過某事而具備相當知識、技巧和判斷力的」是「experienced（有經驗的；老練的）」的用法，與本句語境不同。",
-        "experience-mcq-23": "「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」是「inexperienced」的用法，與本句語境不同。",
-        "experience-mcq-20": "「親自參與、感受或接觸某種活動、文化或環境」是「experience（verb：體驗某活動／服務）」的用法，與本句語境不同。",
-        "experience-mcq-24": "「以實際參與和親身經歷作為學習或理解基礎的」是「experiential」的用法，與本句語境不同。",
-        "experience-mcq-19": "「自己直接參與並感受 X，而不是透過別人知道」是「experience something first-hand」的用法，與本句語境不同。"
+        "experience-mcq-22": "本句的「experienced in handling difficult clients」指「在 X 方面累積了大量實際經驗」。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-22"
     },
@@ -2000,11 +1824,9 @@ export default {
       "masked": "He is ____.",
       "options": [
         "experience-mcq-22",
+        "experience-mcq-18",
         "experience-mcq-21",
-        "experience-mcq-23",
-        "experience-mcq-20",
-        "experience-mcq-24",
-        "experience-mcq-19"
+        "experience-mcq-25"
       ],
       "explanation": "本句的「experienced at giving presentations」指「在 X 方面累積了大量實際經驗」。",
       "sentenceIndex": 44,
@@ -2013,12 +1835,10 @@ export default {
         "experienced at giving presentations"
       ],
       "optionReasons": {
-        "experience-mcq-22": "本句指「在 X 方面累積了大量實際經驗」。",
-        "experience-mcq-21": "「因曾多次做過某事而具備相當知識、技巧和判斷力的」是「experienced（有經驗的；老練的）」的用法，與本句語境不同。",
-        "experience-mcq-23": "「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」是「inexperienced」的用法，與本句語境不同。",
-        "experience-mcq-20": "「親自參與、感受或接觸某種活動、文化或環境」是「experience（verb：體驗某活動／服務）」的用法，與本句語境不同。",
-        "experience-mcq-24": "「以實際參與和親身經歷作為學習或理解基礎的」是「experiential」的用法，與本句語境不同。",
-        "experience-mcq-19": "「自己直接參與並感受 X，而不是透過別人知道」是「experience something first-hand」的用法，與本句語境不同。"
+        "experience-mcq-22": "本句的「experienced at giving presentations」指「在 X 方面累積了大量實際經驗」。",
+        "experience-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-22"
     },
@@ -2030,11 +1850,9 @@ export default {
       "masked": "He is still an ____.",
       "options": [
         "experience-mcq-23",
-        "experience-mcq-22",
-        "experience-mcq-24",
-        "experience-mcq-21",
         "experience-mcq-25",
-        "experience-mcq-20"
+        "experience-mcq-30",
+        "experience-mcq-27"
       ],
       "explanation": "本句的「inexperienced driver」指「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」。",
       "sentenceIndex": 45,
@@ -2043,12 +1861,10 @@ export default {
         "inexperienced driver"
       ],
       "optionReasons": {
-        "experience-mcq-23": "本句指「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」。",
-        "experience-mcq-22": "「在 X 方面累積了大量實際經驗」是「experienced in / at something」的用法，與本句語境不同。",
-        "experience-mcq-24": "「以實際參與和親身經歷作為學習或理解基礎的」是「experiential」的用法，與本句語境不同。",
-        "experience-mcq-21": "「因曾多次做過某事而具備相當知識、技巧和判斷力的」是「experienced（有經驗的；老練的）」的用法，與本句語境不同。",
-        "experience-mcq-25": "「透過親自做、參與和反思來學習的方法」是「experiential learning」的用法，與本句語境不同。",
-        "experience-mcq-20": "「親自參與、感受或接觸某種活動、文化或環境」是「experience（verb：體驗某活動／服務）」的用法，與本句語境不同。"
+        "experience-mcq-23": "本句的「inexperienced driver」指「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」。",
+        "experience-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-23"
     },
@@ -2060,11 +1876,9 @@ export default {
       "masked": "The team was talented but ____.",
       "options": [
         "experience-mcq-23",
-        "experience-mcq-22",
-        "experience-mcq-24",
-        "experience-mcq-21",
-        "experience-mcq-25",
-        "experience-mcq-20"
+        "experience-mcq-09",
+        "experience-mcq-18",
+        "experience-mcq-17"
       ],
       "explanation": "本句的「inexperienced」指「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」。",
       "sentenceIndex": 46,
@@ -2073,12 +1887,10 @@ export default {
         "inexperienced"
       ],
       "optionReasons": {
-        "experience-mcq-23": "本句指「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」。",
-        "experience-mcq-22": "「在 X 方面累積了大量實際經驗」是「experienced in / at something」的用法，與本句語境不同。",
-        "experience-mcq-24": "「以實際參與和親身經歷作為學習或理解基礎的」是「experiential」的用法，與本句語境不同。",
-        "experience-mcq-21": "「因曾多次做過某事而具備相當知識、技巧和判斷力的」是「experienced（有經驗的；老練的）」的用法，與本句語境不同。",
-        "experience-mcq-25": "「透過親自做、參與和反思來學習的方法」是「experiential learning」的用法，與本句語境不同。",
-        "experience-mcq-20": "「親自參與、感受或接觸某種活動、文化或環境」是「experience（verb：體驗某活動／服務）」的用法，與本句語境不同。"
+        "experience-mcq-23": "本句的「inexperienced」指「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」。",
+        "experience-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-23"
     },
@@ -2090,9 +1902,7 @@ export default {
       "masked": "The course uses ____.",
       "options": [
         "experience-mcq-24",
-        "experience-mcq-23",
-        "experience-mcq-25",
-        "experience-mcq-22",
+        "experience-mcq-16",
         "experience-mcq-26",
         "experience-mcq-21"
       ],
@@ -2103,12 +1913,10 @@ export default {
         "experiential learning"
       ],
       "optionReasons": {
-        "experience-mcq-24": "本句指「以實際參與和親身經歷作為學習或理解基礎的」。",
-        "experience-mcq-23": "「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」是「inexperienced」的用法，與本句語境不同。",
-        "experience-mcq-25": "「透過親自做、參與和反思來學習的方法」是「experiential learning」的用法，與本句語境不同。",
-        "experience-mcq-22": "「在 X 方面累積了大量實際經驗」是「experienced in / at something」的用法，與本句語境不同。",
-        "experience-mcq-26": "「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」是「user experience / UX」的用法，與本句語境不同。",
-        "experience-mcq-21": "「因曾多次做過某事而具備相當知識、技巧和判斷力的」是「experienced（有經驗的；老練的）」的用法，與本句語境不同。"
+        "experience-mcq-24": "本句的「experiential learning」指「以實際參與和親身經歷作為學習或理解基礎的」。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-24"
     },
@@ -2120,11 +1928,9 @@ export default {
       "masked": "Students benefit from ____.",
       "options": [
         "experience-mcq-24",
-        "experience-mcq-23",
-        "experience-mcq-25",
-        "experience-mcq-22",
-        "experience-mcq-26",
-        "experience-mcq-21"
+        "experience-mcq-18",
+        "experience-mcq-21",
+        "experience-mcq-10"
       ],
       "explanation": "本句的「experiential activities」指「以實際參與和親身經歷作為學習或理解基礎的」。",
       "sentenceIndex": 48,
@@ -2133,12 +1939,10 @@ export default {
         "experiential activities"
       ],
       "optionReasons": {
-        "experience-mcq-24": "本句指「以實際參與和親身經歷作為學習或理解基礎的」。",
-        "experience-mcq-23": "「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」是「inexperienced」的用法，與本句語境不同。",
-        "experience-mcq-25": "「透過親自做、參與和反思來學習的方法」是「experiential learning」的用法，與本句語境不同。",
-        "experience-mcq-22": "「在 X 方面累積了大量實際經驗」是「experienced in / at something」的用法，與本句語境不同。",
-        "experience-mcq-26": "「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」是「user experience / UX」的用法，與本句語境不同。",
-        "experience-mcq-21": "「因曾多次做過某事而具備相當知識、技巧和判斷力的」是「experienced（有經驗的；老練的）」的用法，與本句語境不同。"
+        "experience-mcq-24": "本句的「experiential activities」指「以實際參與和親身經歷作為學習或理解基礎的」。",
+        "experience-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-24"
     },
@@ -2150,11 +1954,9 @@ export default {
       "masked": "Internships are a form of ____.",
       "options": [
         "experience-mcq-25",
-        "experience-mcq-24",
-        "experience-mcq-26",
-        "experience-mcq-23",
-        "experience-mcq-27",
-        "experience-mcq-22"
+        "experience-mcq-12",
+        "experience-mcq-16",
+        "experience-mcq-15"
       ],
       "explanation": "本句的「experiential learning」指「透過親自做、參與和反思來學習的方法」。",
       "sentenceIndex": 49,
@@ -2163,12 +1965,10 @@ export default {
         "experiential learning"
       ],
       "optionReasons": {
-        "experience-mcq-25": "本句指「透過親自做、參與和反思來學習的方法」。",
-        "experience-mcq-24": "「以實際參與和親身經歷作為學習或理解基礎的」是「experiential」的用法，與本句語境不同。",
-        "experience-mcq-26": "「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」是「user experience / UX」的用法，與本句語境不同。",
-        "experience-mcq-23": "「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」是「inexperienced」的用法，與本句語境不同。",
-        "experience-mcq-27": "「顧客與品牌、服務或公司互動過程中的整體感受」是「customer experience」的用法，與本句語境不同。",
-        "experience-mcq-22": "「在 X 方面累積了大量實際經驗」是「experienced in / at something」的用法，與本句語境不同。"
+        "experience-mcq-25": "本句的「experiential learning」指「透過親自做、參與和反思來學習的方法」。",
+        "experience-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-25"
     },
@@ -2180,11 +1980,9 @@ export default {
       "masked": "The programme combines theory with ____.",
       "options": [
         "experience-mcq-25",
-        "experience-mcq-24",
-        "experience-mcq-26",
-        "experience-mcq-23",
-        "experience-mcq-27",
-        "experience-mcq-22"
+        "experience-mcq-13",
+        "experience-mcq-18",
+        "experience-mcq-17"
       ],
       "explanation": "本句的「experiential learning」指「透過親自做、參與和反思來學習的方法」。",
       "sentenceIndex": 50,
@@ -2193,12 +1991,10 @@ export default {
         "experiential learning"
       ],
       "optionReasons": {
-        "experience-mcq-25": "本句指「透過親自做、參與和反思來學習的方法」。",
-        "experience-mcq-24": "「以實際參與和親身經歷作為學習或理解基礎的」是「experiential」的用法，與本句語境不同。",
-        "experience-mcq-26": "「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」是「user experience / UX」的用法，與本句語境不同。",
-        "experience-mcq-23": "「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」是「inexperienced」的用法，與本句語境不同。",
-        "experience-mcq-27": "「顧客與品牌、服務或公司互動過程中的整體感受」是「customer experience」的用法，與本句語境不同。",
-        "experience-mcq-22": "「在 X 方面累積了大量實際經驗」是「experienced in / at something」的用法，與本句語境不同。"
+        "experience-mcq-25": "本句的「experiential learning」指「透過親自做、參與和反思來學習的方法」。",
+        "experience-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-25"
     },
@@ -2210,11 +2006,9 @@ export default {
       "masked": "The app provides a smooth ____.",
       "options": [
         "experience-mcq-26",
-        "experience-mcq-25",
-        "experience-mcq-27",
-        "experience-mcq-24",
-        "experience-mcq-28",
-        "experience-mcq-23"
+        "experience-mcq-09",
+        "experience-mcq-13",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「user experience」指「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」。",
       "sentenceIndex": 51,
@@ -2223,12 +2017,10 @@ export default {
         "user experience"
       ],
       "optionReasons": {
-        "experience-mcq-26": "本句指「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」。",
-        "experience-mcq-25": "「透過親自做、參與和反思來學習的方法」是「experiential learning」的用法，與本句語境不同。",
-        "experience-mcq-27": "「顧客與品牌、服務或公司互動過程中的整體感受」是「customer experience」的用法，與本句語境不同。",
-        "experience-mcq-24": "「以實際參與和親身經歷作為學習或理解基礎的」是「experiential」的用法，與本句語境不同。",
-        "experience-mcq-28": "「特別設計讓人親身參與和感受的一項活動」是「experience（countable commercial/leisure sense）」的用法，與本句語境不同。",
-        "experience-mcq-23": "「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」是「inexperienced」的用法，與本句語境不同。"
+        "experience-mcq-26": "本句的「user experience」指「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」。",
+        "experience-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-26"
     },
@@ -2240,11 +2032,9 @@ export default {
       "masked": "Good design improves the ____.",
       "options": [
         "experience-mcq-26",
-        "experience-mcq-25",
-        "experience-mcq-27",
-        "experience-mcq-24",
-        "experience-mcq-28",
-        "experience-mcq-23"
+        "experience-mcq-30",
+        "experience-mcq-06",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「user experience」指「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」。",
       "sentenceIndex": 52,
@@ -2253,12 +2043,10 @@ export default {
         "user experience"
       ],
       "optionReasons": {
-        "experience-mcq-26": "本句指「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」。",
-        "experience-mcq-25": "「透過親自做、參與和反思來學習的方法」是「experiential learning」的用法，與本句語境不同。",
-        "experience-mcq-27": "「顧客與品牌、服務或公司互動過程中的整體感受」是「customer experience」的用法，與本句語境不同。",
-        "experience-mcq-24": "「以實際參與和親身經歷作為學習或理解基礎的」是「experiential」的用法，與本句語境不同。",
-        "experience-mcq-28": "「特別設計讓人親身參與和感受的一項活動」是「experience（countable commercial/leisure sense）」的用法，與本句語境不同。",
-        "experience-mcq-23": "「表示缺乏經驗的；例句：「他仍是一名缺乏經驗的司機。」」是「inexperienced」的用法，與本句語境不同。"
+        "experience-mcq-26": "本句的「user experience」指「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」。",
+        "experience-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-26"
     },
@@ -2270,11 +2058,9 @@ export default {
       "masked": "The company wants to improve the ____.",
       "options": [
         "experience-mcq-27",
-        "experience-mcq-26",
-        "experience-mcq-28",
-        "experience-mcq-25",
-        "experience-mcq-29",
-        "experience-mcq-24"
+        "experience-mcq-12",
+        "experience-mcq-24",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「customer experience」指「顧客與品牌、服務或公司互動過程中的整體感受」。",
       "sentenceIndex": 53,
@@ -2283,12 +2069,10 @@ export default {
         "customer experience"
       ],
       "optionReasons": {
-        "experience-mcq-27": "本句指「顧客與品牌、服務或公司互動過程中的整體感受」。",
-        "experience-mcq-26": "「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」是「user experience / UX」的用法，與本句語境不同。",
-        "experience-mcq-28": "「特別設計讓人親身參與和感受的一項活動」是「experience（countable commercial/leisure sense）」的用法，與本句語境不同。",
-        "experience-mcq-25": "「透過親自做、參與和反思來學習的方法」是「experiential learning」的用法，與本句語境不同。",
-        "experience-mcq-29": "「親身處於 X 情況時所經歷的過程和感受」是「the experience of something」的用法，與本句語境不同。",
-        "experience-mcq-24": "「以實際參與和親身經歷作為學習或理解基礎的」是「experiential」的用法，與本句語境不同。"
+        "experience-mcq-27": "本句的「customer experience」指「顧客與品牌、服務或公司互動過程中的整體感受」。",
+        "experience-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-27"
     },
@@ -2300,11 +2084,9 @@ export default {
       "masked": "Fast service creates a better ____.",
       "options": [
         "experience-mcq-27",
-        "experience-mcq-26",
-        "experience-mcq-28",
-        "experience-mcq-25",
-        "experience-mcq-29",
-        "experience-mcq-24"
+        "experience-mcq-24",
+        "experience-mcq-23",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「customer experience」指「顧客與品牌、服務或公司互動過程中的整體感受」。",
       "sentenceIndex": 54,
@@ -2313,12 +2095,10 @@ export default {
         "customer experience"
       ],
       "optionReasons": {
-        "experience-mcq-27": "本句指「顧客與品牌、服務或公司互動過程中的整體感受」。",
-        "experience-mcq-26": "「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」是「user experience / UX」的用法，與本句語境不同。",
-        "experience-mcq-28": "「特別設計讓人親身參與和感受的一項活動」是「experience（countable commercial/leisure sense）」的用法，與本句語境不同。",
-        "experience-mcq-25": "「透過親自做、參與和反思來學習的方法」是「experiential learning」的用法，與本句語境不同。",
-        "experience-mcq-29": "「親身處於 X 情況時所經歷的過程和感受」是「the experience of something」的用法，與本句語境不同。",
-        "experience-mcq-24": "「以實際參與和親身經歷作為學習或理解基礎的」是「experiential」的用法，與本句語境不同。"
+        "experience-mcq-27": "本句的「customer experience」指「顧客與品牌、服務或公司互動過程中的整體感受」。",
+        "experience-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-27"
     },
@@ -2330,11 +2110,9 @@ export default {
       "masked": "The hotel offers several local cultural ____.",
       "options": [
         "experience-mcq-28",
-        "experience-mcq-27",
-        "experience-mcq-29",
-        "experience-mcq-26",
-        "experience-mcq-30",
-        "experience-mcq-25"
+        "experience-mcq-14",
+        "experience-mcq-06",
+        "experience-mcq-16"
       ],
       "explanation": "本句的「experiences」指「特別設計讓人親身參與和感受的一項活動」。",
       "sentenceIndex": 55,
@@ -2343,12 +2121,10 @@ export default {
         "experiences"
       ],
       "optionReasons": {
-        "experience-mcq-28": "本句指「特別設計讓人親身參與和感受的一項活動」。",
-        "experience-mcq-27": "「顧客與品牌、服務或公司互動過程中的整體感受」是「customer experience」的用法，與本句語境不同。",
-        "experience-mcq-29": "「親身處於 X 情況時所經歷的過程和感受」是「the experience of something」的用法，與本句語境不同。",
-        "experience-mcq-26": "「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」是「user experience / UX」的用法，與本句語境不同。",
-        "experience-mcq-30": "「長期生活和實際處事累積出的成熟判斷力和閱歷」是「experience（不可數：人生歷練／判斷力）」的用法，與本句語境不同。",
-        "experience-mcq-25": "「透過親自做、參與和反思來學習的方法」是「experiential learning」的用法，與本句語境不同。"
+        "experience-mcq-28": "本句的「experiences」指「特別設計讓人親身參與和感受的一項活動」。",
+        "experience-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-28"
     },
@@ -2360,11 +2136,9 @@ export default {
       "masked": "The package includes a cooking ____.",
       "options": [
         "experience-mcq-28",
-        "experience-mcq-27",
-        "experience-mcq-29",
-        "experience-mcq-26",
-        "experience-mcq-30",
-        "experience-mcq-25"
+        "experience-mcq-18",
+        "experience-mcq-15",
+        "experience-mcq-22"
       ],
       "explanation": "本句的「experience」指「特別設計讓人親身參與和感受的一項活動」。",
       "sentenceIndex": 56,
@@ -2373,12 +2147,10 @@ export default {
         "experience"
       ],
       "optionReasons": {
-        "experience-mcq-28": "本句指「特別設計讓人親身參與和感受的一項活動」。",
-        "experience-mcq-27": "「顧客與品牌、服務或公司互動過程中的整體感受」是「customer experience」的用法，與本句語境不同。",
-        "experience-mcq-29": "「親身處於 X 情況時所經歷的過程和感受」是「the experience of something」的用法，與本句語境不同。",
-        "experience-mcq-26": "「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」是「user experience / UX」的用法，與本句語境不同。",
-        "experience-mcq-30": "「長期生活和實際處事累積出的成熟判斷力和閱歷」是「experience（不可數：人生歷練／判斷力）」的用法，與本句語境不同。",
-        "experience-mcq-25": "「透過親自做、參與和反思來學習的方法」是「experiential learning」的用法，與本句語境不同。"
+        "experience-mcq-28": "本句的「experience」指「特別設計讓人親身參與和感受的一項活動」。",
+        "experience-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-28"
     },
@@ -2390,11 +2162,9 @@ export default {
       "masked": "The ____ stayed with me.",
       "options": [
         "experience-mcq-29",
-        "experience-mcq-28",
-        "experience-mcq-30",
-        "experience-mcq-27",
-        "experience-mcq-26",
-        "experience-mcq-25"
+        "experience-mcq-16",
+        "experience-mcq-21",
+        "experience-mcq-12"
       ],
       "explanation": "本句的「experience of being publicly blamed」指「親身處於 X 情況時所經歷的過程和感受」。",
       "sentenceIndex": 57,
@@ -2403,12 +2173,10 @@ export default {
         "experience of being publicly blamed"
       ],
       "optionReasons": {
-        "experience-mcq-29": "本句指「親身處於 X 情況時所經歷的過程和感受」。",
-        "experience-mcq-28": "「特別設計讓人親身參與和感受的一項活動」是「experience（countable commercial/leisure sense）」的用法，與本句語境不同。",
-        "experience-mcq-30": "「長期生活和實際處事累積出的成熟判斷力和閱歷」是「experience（不可數：人生歷練／判斷力）」的用法，與本句語境不同。",
-        "experience-mcq-27": "「顧客與品牌、服務或公司互動過程中的整體感受」是「customer experience」的用法，與本句語境不同。",
-        "experience-mcq-26": "「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」是「user experience / UX」的用法，與本句語境不同。",
-        "experience-mcq-25": "「透過親自做、參與和反思來學習的方法」是「experiential learning」的用法，與本句語境不同。"
+        "experience-mcq-29": "本句的「experience of being publicly blamed」指「親身處於 X 情況時所經歷的過程和感受」。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-29"
     },
@@ -2420,11 +2188,9 @@ export default {
       "masked": "She described the ____.",
       "options": [
         "experience-mcq-29",
-        "experience-mcq-28",
-        "experience-mcq-30",
-        "experience-mcq-27",
-        "experience-mcq-26",
-        "experience-mcq-25"
+        "experience-mcq-16",
+        "experience-mcq-23",
+        "experience-mcq-09"
       ],
       "explanation": "本句的「experience of moving abroad」指「親身處於 X 情況時所經歷的過程和感受」。",
       "sentenceIndex": 58,
@@ -2433,12 +2199,10 @@ export default {
         "experience of moving abroad"
       ],
       "optionReasons": {
-        "experience-mcq-29": "本句指「親身處於 X 情況時所經歷的過程和感受」。",
-        "experience-mcq-28": "「特別設計讓人親身參與和感受的一項活動」是「experience（countable commercial/leisure sense）」的用法，與本句語境不同。",
-        "experience-mcq-30": "「長期生活和實際處事累積出的成熟判斷力和閱歷」是「experience（不可數：人生歷練／判斷力）」的用法，與本句語境不同。",
-        "experience-mcq-27": "「顧客與品牌、服務或公司互動過程中的整體感受」是「customer experience」的用法，與本句語境不同。",
-        "experience-mcq-26": "「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」是「user experience / UX」的用法，與本句語境不同。",
-        "experience-mcq-25": "「透過親自做、參與和反思來學習的方法」是「experiential learning」的用法，與本句語境不同。"
+        "experience-mcq-29": "本句的「experience of moving abroad」指「親身處於 X 情況時所經歷的過程和感受」。",
+        "experience-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-29"
     },
@@ -2450,10 +2214,8 @@ export default {
       "masked": "With age comes ____.",
       "options": [
         "experience-mcq-30",
-        "experience-mcq-29",
-        "experience-mcq-28",
-        "experience-mcq-27",
         "experience-mcq-26",
+        "experience-mcq-10",
         "experience-mcq-25"
       ],
       "explanation": "本句的「experience」指「長期生活和實際處事累積出的成熟判斷力和閱歷」。",
@@ -2463,12 +2225,10 @@ export default {
         "experience"
       ],
       "optionReasons": {
-        "experience-mcq-30": "本句指「長期生活和實際處事累積出的成熟判斷力和閱歷」。",
-        "experience-mcq-29": "「親身處於 X 情況時所經歷的過程和感受」是「the experience of something」的用法，與本句語境不同。",
-        "experience-mcq-28": "「特別設計讓人親身參與和感受的一項活動」是「experience（countable commercial/leisure sense）」的用法，與本句語境不同。",
-        "experience-mcq-27": "「顧客與品牌、服務或公司互動過程中的整體感受」是「customer experience」的用法，與本句語境不同。",
-        "experience-mcq-26": "「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」是「user experience / UX」的用法，與本句語境不同。",
-        "experience-mcq-25": "「透過親自做、參與和反思來學習的方法」是「experiential learning」的用法，與本句語境不同。"
+        "experience-mcq-30": "本句的「experience」指「長期生活和實際處事累積出的成熟判斷力和閱歷」。",
+        "experience-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-30"
     },
@@ -2480,11 +2240,9 @@ export default {
       "masked": "Her ____ helped her stay calm.",
       "options": [
         "experience-mcq-30",
-        "experience-mcq-29",
-        "experience-mcq-28",
-        "experience-mcq-27",
-        "experience-mcq-26",
-        "experience-mcq-25"
+        "experience-mcq-17",
+        "experience-mcq-25",
+        "experience-mcq-23"
       ],
       "explanation": "本句的「experience」指「長期生活和實際處事累積出的成熟判斷力和閱歷」。",
       "sentenceIndex": 60,
@@ -2493,12 +2251,10 @@ export default {
         "experience"
       ],
       "optionReasons": {
-        "experience-mcq-30": "本句指「長期生活和實際處事累積出的成熟判斷力和閱歷」。",
-        "experience-mcq-29": "「親身處於 X 情況時所經歷的過程和感受」是「the experience of something」的用法，與本句語境不同。",
-        "experience-mcq-28": "「特別設計讓人親身參與和感受的一項活動」是「experience（countable commercial/leisure sense）」的用法，與本句語境不同。",
-        "experience-mcq-27": "「顧客與品牌、服務或公司互動過程中的整體感受」是「customer experience」的用法，與本句語境不同。",
-        "experience-mcq-26": "「使用者在使用產品、網站或服務時整體感受到的便利性、感受和互動質素」是「user experience / UX」的用法，與本句語境不同。",
-        "experience-mcq-25": "「透過親自做、參與和反思來學習的方法」是「experiential learning」的用法，與本句語境不同。"
+        "experience-mcq-30": "本句的「experience」指「長期生活和實際處事累積出的成熟判斷力和閱歷」。",
+        "experience-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "experience-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "experience-mcq-30"
     }
@@ -2510,5 +2266,7 @@ export default {
     "sha256": "e7362ffaad5d1e1a5eede0df6f22113058aa9001649e3a40a72a31425913d3e0",
     "pages": 23
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

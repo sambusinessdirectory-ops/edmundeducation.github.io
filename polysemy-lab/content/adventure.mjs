@@ -27,16 +27,6 @@ export default {
           "Getting lost in the old town became part of the adventure.",
           "在老城迷路也成為了這次冒險經歷的一部分。",
           "冒險；奇遇"
-        ],
-        [
-          "Few travellers adventured into the remote valley.",
-          "很少旅客敢冒險進入那個偏遠山谷。",
-          "冒險；奇遇"
-        ],
-        [
-          "They adventured beyond the familiar route.",
-          "他們大膽走出了熟悉的路線。",
-          "冒險；奇遇"
         ]
       ],
       "options": [],
@@ -247,18 +237,7 @@ export default {
       "en": "adventurous person",
       "zh": "愛冒險的人",
       "note": "來源詞義：愛冒險的人",
-      "examples": [
-        [
-          "Leo is naturally very adventurous.",
-          "Leo 天生很有冒險精神。",
-          "愛冒險的人"
-        ],
-        [
-          "She has always been an adventurous traveller.",
-          "她一直都是個愛冒險的旅人。",
-          "愛冒險的人"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -269,18 +248,7 @@ export default {
       "en": "adventurous decision",
       "zh": "大膽決定",
       "note": "來源詞義：大膽決定",
-      "examples": [
-        [
-          "They planned an adventurous trip through the mountains.",
-          "他們計劃了一趟充滿冒險性的山區旅程。",
-          "大膽決定"
-        ],
-        [
-          "It was an adventurous decision, but it worked.",
-          "那是一個很大膽的決定，但結果成功了。",
-          "大膽決定"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -360,6 +328,72 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "adventure-reviewed-9631b7ee13",
+      "title": "願意嘗試新事物、探索未知或接受一定風險的",
+      "form": "adventure · source section 10",
+      "en": "願意嘗試新事物、探索未知或接受一定風險的",
+      "zh": "願意嘗試新事物、探索未知或接受一定風險的",
+      "note": "對照原始教材第 10 節及例句核實。",
+      "examples": [
+        [
+          "Leo is naturally very adventurous.",
+          "Leo 天生很有冒險精神。",
+          "願意嘗試新事物、探索未知或接受一定風險的"
+        ],
+        [
+          "She has always been an adventurous traveller.",
+          "她一直都是個愛冒險的旅人。",
+          "願意嘗試新事物、探索未知或接受一定風險的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "adventure-reviewed-b4c45096d2",
+      "title": "帶有新奇、挑戰或風險的",
+      "form": "adventure · source section 11",
+      "en": "帶有新奇、挑戰或風險的",
+      "zh": "帶有新奇、挑戰或風險的",
+      "note": "對照原始教材第 11 節及例句核實。",
+      "examples": [
+        [
+          "They planned an adventurous trip through the mountains.",
+          "他們計劃了一趟充滿冒險性的山區旅程。",
+          "帶有新奇、挑戰或風險的"
+        ],
+        [
+          "It was an adventurous decision, but it worked.",
+          "那是一個很大膽的決定，但結果成功了。",
+          "帶有新奇、挑戰或風險的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "adventure-reviewed-b471d57fc9",
+      "title": "冒險進入或前往未知、陌生或可能有風險的地方",
+      "form": "adventure · source section 15",
+      "en": "冒險進入或前往未知、陌生或可能有風險的地方",
+      "zh": "冒險進入或前往未知、陌生或可能有風險的地方",
+      "note": "對照原始教材第 15 節及例句核實。",
+      "examples": [
+        [
+          "Few travellers adventured into the remote valley.",
+          "很少旅客敢冒險進入那個偏遠山谷。",
+          "冒險進入或前往未知、陌生或可能有風險的地方"
+        ],
+        [
+          "They adventured beyond the familiar route.",
+          "他們大膽走出了熟悉的路線。",
+          "冒險進入或前往未知、陌生或可能有風險的地方"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -371,11 +405,8 @@ export default {
       "masked": "Children like Leo can turn an ordinary afternoon into a little ____.",
       "options": [
         "adventure-mcq-01",
-        "adventure-mcq-02",
-        "adventure-mcq-03",
-        "adventure-mcq-04",
-        "adventure-mcq-05",
-        "adventure-mcq-06"
+        "adventure-mcq-11",
+        "adventure-mcq-14"
       ],
       "explanation": "本句的「adventure」指「冒險；奇遇」。",
       "sentenceIndex": 0,
@@ -384,12 +415,9 @@ export default {
         "adventure"
       ],
       "optionReasons": {
-        "adventure-mcq-01": "本句指「冒險；奇遇」。",
-        "adventure-mcq-02": "「小小的冒險」是「little adventure」的用法，與本句語境不同。",
-        "adventure-mcq-03": "「展開冒險」是「go on an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-04": "「經歷冒險」是「have an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-05": "「探險」是「adventure (exploration)」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。"
+        "adventure-mcq-01": "本句的「adventure」指「冒險；奇遇」。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-01"
     },
@@ -401,11 +429,8 @@ export default {
       "masked": "Our weekend trip turned into an unexpected ____.",
       "options": [
         "adventure-mcq-01",
-        "adventure-mcq-02",
-        "adventure-mcq-03",
-        "adventure-mcq-04",
-        "adventure-mcq-05",
-        "adventure-mcq-06"
+        "adventure-mcq-14",
+        "adventure-mcq-11"
       ],
       "explanation": "本句的「adventure」指「冒險；奇遇」。",
       "sentenceIndex": 1,
@@ -414,12 +439,9 @@ export default {
         "adventure"
       ],
       "optionReasons": {
-        "adventure-mcq-01": "本句指「冒險；奇遇」。",
-        "adventure-mcq-02": "「小小的冒險」是「little adventure」的用法，與本句語境不同。",
-        "adventure-mcq-03": "「展開冒險」是「go on an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-04": "「經歷冒險」是「have an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-05": "「探險」是「adventure (exploration)」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。"
+        "adventure-mcq-01": "本句的「adventure」指「冒險；奇遇」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-01"
     },
@@ -431,11 +453,8 @@ export default {
       "masked": "Getting lost in the old town became part of the ____.",
       "options": [
         "adventure-mcq-01",
-        "adventure-mcq-02",
-        "adventure-mcq-03",
-        "adventure-mcq-04",
-        "adventure-mcq-05",
-        "adventure-mcq-06"
+        "adventure-mcq-11",
+        "adventure-mcq-14"
       ],
       "explanation": "本句的「adventure」指「冒險；奇遇」。",
       "sentenceIndex": 2,
@@ -444,12 +463,9 @@ export default {
         "adventure"
       ],
       "optionReasons": {
-        "adventure-mcq-01": "本句指「冒險；奇遇」。",
-        "adventure-mcq-02": "「小小的冒險」是「little adventure」的用法，與本句語境不同。",
-        "adventure-mcq-03": "「展開冒險」是「go on an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-04": "「經歷冒險」是「have an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-05": "「探險」是「adventure (exploration)」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。"
+        "adventure-mcq-01": "本句的「adventure」指「冒險；奇遇」。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-01"
     },
@@ -461,11 +477,9 @@ export default {
       "masked": "The children pretended they were ____.",
       "options": [
         "adventure-mcq-03",
-        "adventure-mcq-02",
-        "adventure-mcq-04",
-        "adventure-mcq-01",
-        "adventure-mcq-05",
-        "adventure-mcq-06"
+        "adventure-mcq-14",
+        "adventure-mcq-11",
+        "adventure-reviewed-b4c45096d2"
       ],
       "explanation": "本句的「going on an adventure」指「展開冒險」。",
       "sentenceIndex": 3,
@@ -474,12 +488,10 @@ export default {
         "going on an adventure"
       ],
       "optionReasons": {
-        "adventure-mcq-03": "本句指「展開冒險」。",
-        "adventure-mcq-02": "「小小的冒險」是「little adventure」的用法，與本句語境不同。",
-        "adventure-mcq-04": "「經歷冒險」是「have an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-01": "「冒險；奇遇」是「adventure」的用法，與本句語境不同。",
-        "adventure-mcq-05": "「探險」是「adventure (exploration)」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。"
+        "adventure-mcq-03": "本句的「going on an adventure」指「展開冒險」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-03"
     },
@@ -491,11 +503,9 @@ export default {
       "masked": "We packed our bags and ____ in the mountains.",
       "options": [
         "adventure-mcq-03",
-        "adventure-mcq-02",
-        "adventure-mcq-04",
-        "adventure-mcq-01",
-        "adventure-mcq-05",
-        "adventure-mcq-06"
+        "adventure-mcq-14",
+        "adventure-mcq-11",
+        "adventure-reviewed-b4c45096d2"
       ],
       "explanation": "本句的「went on an adventure」指「展開冒險」。",
       "sentenceIndex": 4,
@@ -504,12 +514,10 @@ export default {
         "went on an adventure"
       ],
       "optionReasons": {
-        "adventure-mcq-03": "本句指「展開冒險」。",
-        "adventure-mcq-02": "「小小的冒險」是「little adventure」的用法，與本句語境不同。",
-        "adventure-mcq-04": "「經歷冒險」是「have an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-01": "「冒險；奇遇」是「adventure」的用法，與本句語境不同。",
-        "adventure-mcq-05": "「探險」是「adventure (exploration)」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。"
+        "adventure-mcq-03": "本句的「went on an adventure」指「展開冒險」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-03"
     },
@@ -521,11 +529,9 @@ export default {
       "masked": "We ____ getting home in the storm.",
       "options": [
         "adventure-mcq-04",
-        "adventure-mcq-03",
-        "adventure-mcq-05",
-        "adventure-mcq-02",
-        "adventure-mcq-06",
-        "adventure-mcq-01"
+        "adventure-mcq-14",
+        "adventure-mcq-11",
+        "adventure-reviewed-b4c45096d2"
       ],
       "explanation": "本句的「had quite an adventure」指「經歷冒險」。",
       "sentenceIndex": 5,
@@ -534,12 +540,10 @@ export default {
         "had quite an adventure"
       ],
       "optionReasons": {
-        "adventure-mcq-04": "本句指「經歷冒險」。",
-        "adventure-mcq-03": "「展開冒險」是「go on an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-05": "「探險」是「adventure (exploration)」的用法，與本句語境不同。",
-        "adventure-mcq-02": "「小小的冒險」是「little adventure」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。",
-        "adventure-mcq-01": "「冒險；奇遇」是「adventure」的用法，與本句語境不同。"
+        "adventure-mcq-04": "本句的「had quite an adventure」指「經歷冒險」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-04"
     },
@@ -551,11 +555,9 @@ export default {
       "masked": "Every holiday with him seems to turn into an ____.",
       "options": [
         "adventure-mcq-04",
-        "adventure-mcq-03",
-        "adventure-mcq-05",
-        "adventure-mcq-02",
-        "adventure-mcq-06",
-        "adventure-mcq-01"
+        "adventure-mcq-11",
+        "adventure-mcq-14",
+        "adventure-reviewed-b4c45096d2"
       ],
       "explanation": "本句的「adventure」指「經歷冒險」。",
       "sentenceIndex": 6,
@@ -564,12 +566,10 @@ export default {
         "adventure"
       ],
       "optionReasons": {
-        "adventure-mcq-04": "本句指「經歷冒險」。",
-        "adventure-mcq-03": "「展開冒險」是「go on an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-05": "「探險」是「adventure (exploration)」的用法，與本句語境不同。",
-        "adventure-mcq-02": "「小小的冒險」是「little adventure」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。",
-        "adventure-mcq-01": "「冒險；奇遇」是「adventure」的用法，與本句語境不同。"
+        "adventure-mcq-04": "本句的「adventure」指「經歷冒險」。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-04"
     },
@@ -581,11 +581,7 @@ export default {
       "masked": "They set out on an ____ across the desert.",
       "options": [
         "adventure-mcq-05",
-        "adventure-mcq-04",
-        "adventure-mcq-06",
-        "adventure-mcq-03",
-        "adventure-mcq-07",
-        "adventure-mcq-02"
+        "adventure-mcq-14"
       ],
       "explanation": "本句的「adventure」指「探險」。",
       "sentenceIndex": 7,
@@ -594,12 +590,8 @@ export default {
         "adventure"
       ],
       "optionReasons": {
-        "adventure-mcq-05": "本句指「探險」。",
-        "adventure-mcq-04": "「經歷冒險」是「have an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。",
-        "adventure-mcq-03": "「展開冒險」是「go on an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-07": "「冒險電影」是「adventure film」的用法，與本句語境不同。",
-        "adventure-mcq-02": "「小小的冒險」是「little adventure」的用法，與本句語境不同。"
+        "adventure-mcq-05": "本句的「adventure」指「探險」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-05"
     },
@@ -611,11 +603,7 @@ export default {
       "masked": "Climbing the mountain was a real ____.",
       "options": [
         "adventure-mcq-05",
-        "adventure-mcq-04",
-        "adventure-mcq-06",
-        "adventure-mcq-03",
-        "adventure-mcq-07",
-        "adventure-mcq-02"
+        "adventure-mcq-14"
       ],
       "explanation": "本句的「adventure」指「探險」。",
       "sentenceIndex": 8,
@@ -624,12 +612,8 @@ export default {
         "adventure"
       ],
       "optionReasons": {
-        "adventure-mcq-05": "本句指「探險」。",
-        "adventure-mcq-04": "「經歷冒險」是「have an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。",
-        "adventure-mcq-03": "「展開冒險」是「go on an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-07": "「冒險電影」是「adventure film」的用法，與本句語境不同。",
-        "adventure-mcq-02": "「小小的冒險」是「little adventure」的用法，與本句語境不同。"
+        "adventure-mcq-05": "本句的「adventure」指「探險」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-05"
     },
@@ -641,11 +625,8 @@ export default {
       "masked": "He loves reading ____.",
       "options": [
         "adventure-mcq-06",
-        "adventure-mcq-05",
-        "adventure-mcq-07",
-        "adventure-mcq-04",
-        "adventure-mcq-08",
-        "adventure-mcq-03"
+        "adventure-mcq-11",
+        "adventure-mcq-14"
       ],
       "explanation": "本句的「adventure stories」指「冒險故事」。",
       "sentenceIndex": 9,
@@ -654,12 +635,9 @@ export default {
         "adventure stories"
       ],
       "optionReasons": {
-        "adventure-mcq-06": "本句指「冒險故事」。",
-        "adventure-mcq-05": "「探險」是「adventure (exploration)」的用法，與本句語境不同。",
-        "adventure-mcq-07": "「冒險電影」是「adventure film」的用法，與本句語境不同。",
-        "adventure-mcq-04": "「經歷冒險」是「have an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-08": "「冒險旅遊」是「adventure travel」的用法，與本句語境不同。",
-        "adventure-mcq-03": "「展開冒險」是「go on an adventure」的用法，與本句語境不同。"
+        "adventure-mcq-06": "本句的「adventure stories」指「冒險故事」。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-06"
     },
@@ -671,11 +649,8 @@ export default {
       "masked": "We watched an ____ about explorers.",
       "options": [
         "adventure-mcq-06",
-        "adventure-mcq-05",
-        "adventure-mcq-07",
-        "adventure-mcq-04",
-        "adventure-mcq-08",
-        "adventure-mcq-03"
+        "adventure-mcq-14",
+        "adventure-mcq-11"
       ],
       "explanation": "本句的「adventure film」指「冒險故事」。",
       "sentenceIndex": 10,
@@ -684,12 +659,9 @@ export default {
         "adventure film"
       ],
       "optionReasons": {
-        "adventure-mcq-06": "本句指「冒險故事」。",
-        "adventure-mcq-05": "「探險」是「adventure (exploration)」的用法，與本句語境不同。",
-        "adventure-mcq-07": "「冒險電影」是「adventure film」的用法，與本句語境不同。",
-        "adventure-mcq-04": "「經歷冒險」是「have an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-08": "「冒險旅遊」是「adventure travel」的用法，與本句語境不同。",
-        "adventure-mcq-03": "「展開冒險」是「go on an adventure」的用法，與本句語境不同。"
+        "adventure-mcq-06": "本句的「adventure film」指「冒險故事」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-06"
     },
@@ -701,11 +673,9 @@ export default {
       "masked": "She prefers ____ to relaxing beach holidays.",
       "options": [
         "adventure-mcq-08",
-        "adventure-mcq-07",
-        "adventure-mcq-09",
-        "adventure-mcq-06",
-        "adventure-mcq-10",
-        "adventure-mcq-05"
+        "adventure-mcq-11",
+        "adventure-mcq-14",
+        "adventure-reviewed-b4c45096d2"
       ],
       "explanation": "本句的「adventure travel」指「冒險旅遊」。",
       "sentenceIndex": 11,
@@ -714,12 +684,10 @@ export default {
         "adventure travel"
       ],
       "optionReasons": {
-        "adventure-mcq-08": "本句指「冒險旅遊」。",
-        "adventure-mcq-07": "「冒險電影」是「adventure film」的用法，與本句語境不同。",
-        "adventure-mcq-09": "「冒險／極限運動」是「adventure sports」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。",
-        "adventure-mcq-10": "「冒險精神」是「sense of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-05": "「探險」是「adventure (exploration)」的用法，與本句語境不同。"
+        "adventure-mcq-08": "本句的「adventure travel」指「冒險旅遊」。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-08"
     },
@@ -731,11 +699,9 @@ export default {
       "masked": "____ often includes hiking, climbing, or rafting.",
       "options": [
         "adventure-mcq-08",
-        "adventure-mcq-07",
-        "adventure-mcq-09",
-        "adventure-mcq-06",
-        "adventure-mcq-10",
-        "adventure-mcq-05"
+        "adventure-mcq-11",
+        "adventure-mcq-14",
+        "adventure-reviewed-b4c45096d2"
       ],
       "explanation": "本句的「Adventure travel」指「冒險旅遊」。",
       "sentenceIndex": 12,
@@ -744,12 +710,10 @@ export default {
         "Adventure travel"
       ],
       "optionReasons": {
-        "adventure-mcq-08": "本句指「冒險旅遊」。",
-        "adventure-mcq-07": "「冒險電影」是「adventure film」的用法，與本句語境不同。",
-        "adventure-mcq-09": "「冒險／極限運動」是「adventure sports」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。",
-        "adventure-mcq-10": "「冒險精神」是「sense of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-05": "「探險」是「adventure (exploration)」的用法，與本句語境不同。"
+        "adventure-mcq-08": "本句的「Adventure travel」指「冒險旅遊」。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-08"
     },
@@ -761,11 +725,9 @@ export default {
       "masked": "He became interested in ____.",
       "options": [
         "adventure-mcq-09",
-        "adventure-mcq-08",
-        "adventure-mcq-10",
-        "adventure-mcq-07",
+        "adventure-mcq-14",
         "adventure-mcq-11",
-        "adventure-mcq-06"
+        "adventure-reviewed-b4c45096d2"
       ],
       "explanation": "本句的「adventure sports」指「冒險／極限運動」。",
       "sentenceIndex": 13,
@@ -774,12 +736,10 @@ export default {
         "adventure sports"
       ],
       "optionReasons": {
-        "adventure-mcq-09": "本句指「冒險／極限運動」。",
-        "adventure-mcq-08": "「冒險旅遊」是「adventure travel」的用法，與本句語境不同。",
-        "adventure-mcq-10": "「冒險精神」是「sense of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-07": "「冒險電影」是「adventure film」的用法，與本句語境不同。",
-        "adventure-mcq-11": "「探索精神」是「spirit of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。"
+        "adventure-mcq-09": "本句的「adventure sports」指「冒險／極限運動」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-09"
     },
@@ -791,11 +751,9 @@ export default {
       "masked": "The area is popular for ____ such as rock climbing.",
       "options": [
         "adventure-mcq-09",
-        "adventure-mcq-08",
-        "adventure-mcq-10",
-        "adventure-mcq-07",
+        "adventure-mcq-14",
         "adventure-mcq-11",
-        "adventure-mcq-06"
+        "adventure-reviewed-b4c45096d2"
       ],
       "explanation": "本句的「adventure sports」指「冒險／極限運動」。",
       "sentenceIndex": 14,
@@ -804,12 +762,10 @@ export default {
         "adventure sports"
       ],
       "optionReasons": {
-        "adventure-mcq-09": "本句指「冒險／極限運動」。",
-        "adventure-mcq-08": "「冒險旅遊」是「adventure travel」的用法，與本句語境不同。",
-        "adventure-mcq-10": "「冒險精神」是「sense of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-07": "「冒險電影」是「adventure film」的用法，與本句語境不同。",
-        "adventure-mcq-11": "「探索精神」是「spirit of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。"
+        "adventure-mcq-09": "本句的「adventure sports」指「冒險／極限運動」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-09"
     },
@@ -821,11 +777,8 @@ export default {
       "masked": "Children often have a strong ____.",
       "options": [
         "adventure-mcq-10",
-        "adventure-mcq-09",
-        "adventure-mcq-11",
-        "adventure-mcq-08",
-        "adventure-mcq-12",
-        "adventure-mcq-07"
+        "adventure-mcq-14",
+        "adventure-reviewed-b4c45096d2"
       ],
       "explanation": "本句的「sense of adventure」指「冒險精神」。",
       "sentenceIndex": 15,
@@ -834,12 +787,9 @@ export default {
         "sense of adventure"
       ],
       "optionReasons": {
-        "adventure-mcq-10": "本句指「冒險精神」。",
-        "adventure-mcq-09": "「冒險／極限運動」是「adventure sports」的用法，與本句語境不同。",
-        "adventure-mcq-11": "「探索精神」是「spirit of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-08": "「冒險旅遊」是「adventure travel」的用法，與本句語境不同。",
-        "adventure-mcq-12": "「愛冒險的人」是「adventurous person」的用法，與本句語境不同。",
-        "adventure-mcq-07": "「冒險電影」是「adventure film」的用法，與本句語境不同。"
+        "adventure-mcq-10": "本句的「sense of adventure」指「冒險精神」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-10"
     },
@@ -851,11 +801,8 @@ export default {
       "masked": "Travelling alone gave her a greater ____.",
       "options": [
         "adventure-mcq-10",
-        "adventure-mcq-09",
-        "adventure-mcq-11",
-        "adventure-mcq-08",
-        "adventure-mcq-12",
-        "adventure-mcq-07"
+        "adventure-mcq-14",
+        "adventure-reviewed-b4c45096d2"
       ],
       "explanation": "本句的「sense of adventure」指「冒險精神」。",
       "sentenceIndex": 16,
@@ -864,12 +811,9 @@ export default {
         "sense of adventure"
       ],
       "optionReasons": {
-        "adventure-mcq-10": "本句指「冒險精神」。",
-        "adventure-mcq-09": "「冒險／極限運動」是「adventure sports」的用法，與本句語境不同。",
-        "adventure-mcq-11": "「探索精神」是「spirit of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-08": "「冒險旅遊」是「adventure travel」的用法，與本句語境不同。",
-        "adventure-mcq-12": "「愛冒險的人」是「adventurous person」的用法，與本句語境不同。",
-        "adventure-mcq-07": "「冒險電影」是「adventure film」的用法，與本句語境不同。"
+        "adventure-mcq-10": "本句的「sense of adventure」指「冒險精神」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-10"
     },
@@ -881,11 +825,8 @@ export default {
       "masked": "He approaches life with a real ____.",
       "options": [
         "adventure-mcq-11",
-        "adventure-mcq-10",
-        "adventure-mcq-12",
-        "adventure-mcq-09",
-        "adventure-mcq-13",
-        "adventure-mcq-08"
+        "adventure-mcq-06",
+        "adventure-mcq-14"
       ],
       "explanation": "本句的「spirit of adventure」指「探索精神」。",
       "sentenceIndex": 17,
@@ -894,12 +835,9 @@ export default {
         "spirit of adventure"
       ],
       "optionReasons": {
-        "adventure-mcq-11": "本句指「探索精神」。",
-        "adventure-mcq-10": "「冒險精神」是「sense of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-12": "「愛冒險的人」是「adventurous person」的用法，與本句語境不同。",
-        "adventure-mcq-09": "「冒險／極限運動」是「adventure sports」的用法，與本句語境不同。",
-        "adventure-mcq-13": "「大膽決定」是「adventurous decision」的用法，與本句語境不同。",
-        "adventure-mcq-08": "「冒險旅遊」是「adventure travel」的用法，與本句語境不同。"
+        "adventure-mcq-11": "本句的「spirit of adventure」指「探索精神」。",
+        "adventure-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-11"
     },
@@ -911,11 +849,9 @@ export default {
       "masked": "The trip awakened her ____.",
       "options": [
         "adventure-mcq-11",
-        "adventure-mcq-10",
-        "adventure-mcq-12",
-        "adventure-mcq-09",
-        "adventure-mcq-13",
-        "adventure-mcq-08"
+        "adventure-reviewed-b4c45096d2",
+        "adventure-mcq-14",
+        "adventure-mcq-09"
       ],
       "explanation": "本句的「spirit of adventure」指「探索精神」。",
       "sentenceIndex": 18,
@@ -924,134 +860,116 @@ export default {
         "spirit of adventure"
       ],
       "optionReasons": {
-        "adventure-mcq-11": "本句指「探索精神」。",
-        "adventure-mcq-10": "「冒險精神」是「sense of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-12": "「愛冒險的人」是「adventurous person」的用法，與本句語境不同。",
-        "adventure-mcq-09": "「冒險／極限運動」是「adventure sports」的用法，與本句語境不同。",
-        "adventure-mcq-13": "「大膽決定」是「adventurous decision」的用法，與本句語境不同。",
-        "adventure-mcq-08": "「冒險旅遊」是「adventure travel」的用法，與本句語境不同。"
+        "adventure-mcq-11": "本句的「spirit of adventure」指「探索精神」。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-11"
     },
     {
       "id": "adventure-10-0",
-      "sense": "adventure-mcq-12",
+      "sense": "adventure-reviewed-9631b7ee13",
       "en": "Leo is naturally very adventurous.",
       "zh": "Leo 天生很有冒險精神。",
       "masked": "Leo is naturally very ____.",
       "options": [
-        "adventure-mcq-12",
-        "adventure-mcq-11",
-        "adventure-mcq-13",
-        "adventure-mcq-10",
-        "adventure-mcq-14",
-        "adventure-mcq-09"
+        "adventure-reviewed-9631b7ee13",
+        "adventure-mcq-08"
       ],
-      "explanation": "本句的「adventurous」指「愛冒險的人」。",
+      "explanation": "對照完整句子：「Leo 天生很有冒險精神。」。這裡的「adventurous」表示「願意嘗試新事物、探索未知或接受一定風險的」。",
       "sentenceIndex": 19,
       "sourcePractice": 1,
       "targets": [
         "adventurous"
       ],
       "optionReasons": {
-        "adventure-mcq-12": "本句指「愛冒險的人」。",
-        "adventure-mcq-11": "「探索精神」是「spirit of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-13": "「大膽決定」是「adventurous decision」的用法，與本句語境不同。",
-        "adventure-mcq-10": "「冒險精神」是「sense of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-14": "「勇於嘗試新食物的人」是「adventurous eater」的用法，與本句語境不同。",
-        "adventure-mcq-09": "「冒險／極限運動」是「adventure sports」的用法，與本句語境不同。"
+        "adventure-reviewed-9631b7ee13": "對照完整句子：「Leo 天生很有冒險精神。」。這裡的「adventurous」表示「願意嘗試新事物、探索未知或接受一定風險的」。",
+        "adventure-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "adventure-mcq-12"
+      "correctOption": "adventure-reviewed-9631b7ee13",
+      "previousCorrectOption": "adventure-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "adventure-10-1",
-      "sense": "adventure-mcq-12",
+      "sense": "adventure-reviewed-9631b7ee13",
       "en": "She has always been an adventurous traveller.",
       "zh": "她一直都是個愛冒險的旅人。",
       "masked": "She has always been an ____ traveller.",
       "options": [
-        "adventure-mcq-12",
-        "adventure-mcq-11",
-        "adventure-mcq-13",
-        "adventure-mcq-10",
-        "adventure-mcq-14",
-        "adventure-mcq-09"
+        "adventure-reviewed-9631b7ee13",
+        "adventure-mcq-10"
       ],
-      "explanation": "本句的「adventurous」指「愛冒險的人」。",
+      "explanation": "對照完整句子：「她一直都是個愛冒險的旅人。」。這裡的「adventurous」表示「願意嘗試新事物、探索未知或接受一定風險的」。",
       "sentenceIndex": 20,
       "sourcePractice": 2,
       "targets": [
         "adventurous"
       ],
       "optionReasons": {
-        "adventure-mcq-12": "本句指「愛冒險的人」。",
-        "adventure-mcq-11": "「探索精神」是「spirit of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-13": "「大膽決定」是「adventurous decision」的用法，與本句語境不同。",
-        "adventure-mcq-10": "「冒險精神」是「sense of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-14": "「勇於嘗試新食物的人」是「adventurous eater」的用法，與本句語境不同。",
-        "adventure-mcq-09": "「冒險／極限運動」是「adventure sports」的用法，與本句語境不同。"
+        "adventure-reviewed-9631b7ee13": "對照完整句子：「她一直都是個愛冒險的旅人。」。這裡的「adventurous」表示「願意嘗試新事物、探索未知或接受一定風險的」。",
+        "adventure-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "adventure-mcq-12"
+      "correctOption": "adventure-reviewed-9631b7ee13",
+      "previousCorrectOption": "adventure-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "adventure-11-0",
-      "sense": "adventure-mcq-13",
+      "sense": "adventure-reviewed-b4c45096d2",
       "en": "They planned an adventurous trip through the mountains.",
       "zh": "他們計劃了一趟充滿冒險性的山區旅程。",
       "masked": "They planned an ____ through the mountains.",
       "options": [
-        "adventure-mcq-13",
-        "adventure-mcq-12",
-        "adventure-mcq-14",
+        "adventure-reviewed-b4c45096d2",
         "adventure-mcq-11",
-        "adventure-mcq-15",
-        "adventure-mcq-10"
+        "adventure-mcq-09",
+        "adventure-mcq-14"
       ],
-      "explanation": "本句的「adventurous trip」指「大膽決定」。",
+      "explanation": "對照完整句子：「他們計劃了一趟充滿冒險性的山區旅程。」。這裡的「adventurous trip」表示「帶有新奇、挑戰或風險的」。",
       "sentenceIndex": 21,
       "sourcePractice": 1,
       "targets": [
         "adventurous trip"
       ],
       "optionReasons": {
-        "adventure-mcq-13": "本句指「大膽決定」。",
-        "adventure-mcq-12": "「愛冒險的人」是「adventurous person」的用法，與本句語境不同。",
-        "adventure-mcq-14": "「勇於嘗試新食物的人」是「adventurous eater」的用法，與本句語境不同。",
-        "adventure-mcq-11": "「探索精神」是「spirit of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-15": "「冒險家；探險者」是「adventurer」的用法，與本句語境不同。",
-        "adventure-mcq-10": "「冒險精神」是「sense of adventure」的用法，與本句語境不同。"
+        "adventure-reviewed-b4c45096d2": "對照完整句子：「他們計劃了一趟充滿冒險性的山區旅程。」。這裡的「adventurous trip」表示「帶有新奇、挑戰或風險的」。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "adventure-mcq-13"
+      "correctOption": "adventure-reviewed-b4c45096d2",
+      "previousCorrectOption": "adventure-mcq-13",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "adventure-11-1",
-      "sense": "adventure-mcq-13",
+      "sense": "adventure-reviewed-b4c45096d2",
       "en": "It was an adventurous decision, but it worked.",
       "zh": "那是一個很大膽的決定，但結果成功了。",
       "masked": "It was an ____, but it worked.",
       "options": [
-        "adventure-mcq-13",
-        "adventure-mcq-12",
-        "adventure-mcq-14",
+        "adventure-reviewed-b4c45096d2",
         "adventure-mcq-11",
-        "adventure-mcq-15",
-        "adventure-mcq-10"
+        "adventure-mcq-16",
+        "adventure-mcq-14"
       ],
-      "explanation": "本句的「adventurous decision」指「大膽決定」。",
+      "explanation": "對照完整句子：「那是一個很大膽的決定，但結果成功了。」。這裡的「adventurous decision」表示「帶有新奇、挑戰或風險的」。",
       "sentenceIndex": 22,
       "sourcePractice": 2,
       "targets": [
         "adventurous decision"
       ],
       "optionReasons": {
-        "adventure-mcq-13": "本句指「大膽決定」。",
-        "adventure-mcq-12": "「愛冒險的人」是「adventurous person」的用法，與本句語境不同。",
-        "adventure-mcq-14": "「勇於嘗試新食物的人」是「adventurous eater」的用法，與本句語境不同。",
-        "adventure-mcq-11": "「探索精神」是「spirit of adventure」的用法，與本句語境不同。",
-        "adventure-mcq-15": "「冒險家；探險者」是「adventurer」的用法，與本句語境不同。",
-        "adventure-mcq-10": "「冒險精神」是「sense of adventure」的用法，與本句語境不同。"
+        "adventure-reviewed-b4c45096d2": "對照完整句子：「那是一個很大膽的決定，但結果成功了。」。這裡的「adventurous decision」表示「帶有新奇、挑戰或風險的」。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "adventure-mcq-13"
+      "correctOption": "adventure-reviewed-b4c45096d2",
+      "previousCorrectOption": "adventure-mcq-13",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "adventure-12-0",
@@ -1061,10 +979,7 @@ export default {
       "masked": "She is an ____.",
       "options": [
         "adventure-mcq-14",
-        "adventure-mcq-13",
-        "adventure-mcq-15",
-        "adventure-mcq-12",
-        "adventure-mcq-16",
+        "adventure-reviewed-b471d57fc9",
         "adventure-mcq-11"
       ],
       "explanation": "本句的「adventurous eater」指「勇於嘗試新食物的人」。",
@@ -1074,12 +989,9 @@ export default {
         "adventurous eater"
       ],
       "optionReasons": {
-        "adventure-mcq-14": "本句指「勇於嘗試新食物的人」。",
-        "adventure-mcq-13": "「大膽決定」是「adventurous decision」的用法，與本句語境不同。",
-        "adventure-mcq-15": "「冒險家；探險者」是「adventurer」的用法，與本句語境不同。",
-        "adventure-mcq-12": "「愛冒險的人」是「adventurous person」的用法，與本句語境不同。",
-        "adventure-mcq-16": "「大膽地；冒險地」是「adventurously」的用法，與本句語境不同。",
-        "adventure-mcq-11": "「探索精神」是「spirit of adventure」的用法，與本句語境不同。"
+        "adventure-mcq-14": "本句的「adventurous eater」指「勇於嘗試新食物的人」。",
+        "adventure-reviewed-b471d57fc9": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-14"
     },
@@ -1091,11 +1003,9 @@ export default {
       "masked": "His taste in food is quite ____.",
       "options": [
         "adventure-mcq-14",
-        "adventure-mcq-13",
-        "adventure-mcq-15",
-        "adventure-mcq-12",
-        "adventure-mcq-16",
-        "adventure-mcq-11"
+        "adventure-mcq-08",
+        "adventure-mcq-11",
+        "adventure-reviewed-b4c45096d2"
       ],
       "explanation": "本句的「adventurous」指「勇於嘗試新食物的人」。",
       "sentenceIndex": 24,
@@ -1104,12 +1014,10 @@ export default {
         "adventurous"
       ],
       "optionReasons": {
-        "adventure-mcq-14": "本句指「勇於嘗試新食物的人」。",
-        "adventure-mcq-13": "「大膽決定」是「adventurous decision」的用法，與本句語境不同。",
-        "adventure-mcq-15": "「冒險家；探險者」是「adventurer」的用法，與本句語境不同。",
-        "adventure-mcq-12": "「愛冒險的人」是「adventurous person」的用法，與本句語境不同。",
-        "adventure-mcq-16": "「大膽地；冒險地」是「adventurously」的用法，與本句語境不同。",
-        "adventure-mcq-11": "「探索精神」是「spirit of adventure」的用法，與本句語境不同。"
+        "adventure-mcq-14": "本句的「adventurous」指「勇於嘗試新食物的人」。",
+        "adventure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-14"
     },
@@ -1122,10 +1030,8 @@ export default {
       "options": [
         "adventure-mcq-15",
         "adventure-mcq-14",
-        "adventure-mcq-16",
-        "adventure-mcq-13",
-        "adventure-mcq-17",
-        "adventure-mcq-12"
+        "adventure-reviewed-b4c45096d2",
+        "adventure-mcq-11"
       ],
       "explanation": "本句的「adventurer」指「冒險家；探險者」。",
       "sentenceIndex": 25,
@@ -1134,12 +1040,10 @@ export default {
         "adventurer"
       ],
       "optionReasons": {
-        "adventure-mcq-15": "本句指「冒險家；探險者」。",
-        "adventure-mcq-14": "「勇於嘗試新食物的人」是「adventurous eater」的用法，與本句語境不同。",
-        "adventure-mcq-16": "「大膽地；冒險地」是「adventurously」的用法，與本句語境不同。",
-        "adventure-mcq-13": "「大膽決定」是「adventurous decision」的用法，與本句語境不同。",
-        "adventure-mcq-17": "「冒險進入 X」是「adventure into X」的用法，與本句語境不同。",
-        "adventure-mcq-12": "「愛冒險的人」是「adventurous person」的用法，與本句語境不同。"
+        "adventure-mcq-15": "本句的「adventurer」指「冒險家；探險者」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-15"
     },
@@ -1152,10 +1056,8 @@ export default {
       "options": [
         "adventure-mcq-15",
         "adventure-mcq-14",
-        "adventure-mcq-16",
-        "adventure-mcq-13",
-        "adventure-mcq-17",
-        "adventure-mcq-12"
+        "adventure-reviewed-b4c45096d2",
+        "adventure-mcq-11"
       ],
       "explanation": "本句的「adventurers」指「冒險家；探險者」。",
       "sentenceIndex": 26,
@@ -1164,12 +1066,10 @@ export default {
         "adventurers"
       ],
       "optionReasons": {
-        "adventure-mcq-15": "本句指「冒險家；探險者」。",
-        "adventure-mcq-14": "「勇於嘗試新食物的人」是「adventurous eater」的用法，與本句語境不同。",
-        "adventure-mcq-16": "「大膽地；冒險地」是「adventurously」的用法，與本句語境不同。",
-        "adventure-mcq-13": "「大膽決定」是「adventurous decision」的用法，與本句語境不同。",
-        "adventure-mcq-17": "「冒險進入 X」是「adventure into X」的用法，與本句語境不同。",
-        "adventure-mcq-12": "「愛冒險的人」是「adventurous person」的用法，與本句語境不同。"
+        "adventure-mcq-15": "本句的「adventurers」指「冒險家；探險者」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-15"
     },
@@ -1181,11 +1081,9 @@ export default {
       "masked": "They travelled ____, avoiding the usual tourist routes.",
       "options": [
         "adventure-mcq-16",
-        "adventure-mcq-15",
-        "adventure-mcq-17",
+        "adventure-mcq-11",
         "adventure-mcq-14",
-        "adventure-mcq-13",
-        "adventure-mcq-12"
+        "adventure-reviewed-b4c45096d2"
       ],
       "explanation": "本句的「adventurously」指「大膽地；冒險地」。",
       "sentenceIndex": 27,
@@ -1194,12 +1092,10 @@ export default {
         "adventurously"
       ],
       "optionReasons": {
-        "adventure-mcq-16": "本句指「大膽地；冒險地」。",
-        "adventure-mcq-15": "「冒險家；探險者」是「adventurer」的用法，與本句語境不同。",
-        "adventure-mcq-17": "「冒險進入 X」是「adventure into X」的用法，與本句語境不同。",
-        "adventure-mcq-14": "「勇於嘗試新食物的人」是「adventurous eater」的用法，與本句語境不同。",
-        "adventure-mcq-13": "「大膽決定」是「adventurous decision」的用法，與本句語境不同。",
-        "adventure-mcq-12": "「愛冒險的人」是「adventurous person」的用法，與本句語境不同。"
+        "adventure-mcq-16": "本句的「adventurously」指「大膽地；冒險地」。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-16"
     },
@@ -1211,11 +1107,9 @@ export default {
       "masked": "She dressed more ____ after moving abroad.",
       "options": [
         "adventure-mcq-16",
-        "adventure-mcq-15",
-        "adventure-mcq-17",
+        "adventure-mcq-11",
         "adventure-mcq-14",
-        "adventure-mcq-13",
-        "adventure-mcq-12"
+        "adventure-reviewed-b4c45096d2"
       ],
       "explanation": "本句的「adventurously」指「大膽地；冒險地」。",
       "sentenceIndex": 28,
@@ -1224,74 +1118,64 @@ export default {
         "adventurously"
       ],
       "optionReasons": {
-        "adventure-mcq-16": "本句指「大膽地；冒險地」。",
-        "adventure-mcq-15": "「冒險家；探險者」是「adventurer」的用法，與本句語境不同。",
-        "adventure-mcq-17": "「冒險進入 X」是「adventure into X」的用法，與本句語境不同。",
-        "adventure-mcq-14": "「勇於嘗試新食物的人」是「adventurous eater」的用法，與本句語境不同。",
-        "adventure-mcq-13": "「大膽決定」是「adventurous decision」的用法，與本句語境不同。",
-        "adventure-mcq-12": "「愛冒險的人」是「adventurous person」的用法，與本句語境不同。"
+        "adventure-mcq-16": "本句的「adventurously」指「大膽地；冒險地」。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-reviewed-b4c45096d2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adventure-mcq-16"
     },
     {
       "id": "adventure-15-0",
-      "sense": "adventure-mcq-01",
+      "sense": "adventure-reviewed-b471d57fc9",
       "en": "Few travellers adventured into the remote valley.",
       "zh": "很少旅客敢冒險進入那個偏遠山谷。",
       "masked": "Few travellers ____ the remote valley.",
       "options": [
-        "adventure-mcq-01",
-        "adventure-mcq-02",
-        "adventure-mcq-03",
-        "adventure-mcq-04",
-        "adventure-mcq-05",
-        "adventure-mcq-06"
+        "adventure-reviewed-b471d57fc9",
+        "adventure-mcq-14",
+        "adventure-mcq-11"
       ],
-      "explanation": "本句的「adventured into」指「冒險；奇遇」。",
+      "explanation": "對照完整句子：「很少旅客敢冒險進入那個偏遠山谷。」。這裡的「adventured into」表示「冒險進入或前往未知、陌生或可能有風險的地方」。",
       "sentenceIndex": 29,
       "sourcePractice": 1,
       "targets": [
         "adventured into"
       ],
       "optionReasons": {
-        "adventure-mcq-01": "本句指「冒險；奇遇」。",
-        "adventure-mcq-02": "「小小的冒險」是「little adventure」的用法，與本句語境不同。",
-        "adventure-mcq-03": "「展開冒險」是「go on an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-04": "「經歷冒險」是「have an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-05": "「探險」是「adventure (exploration)」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。"
+        "adventure-reviewed-b471d57fc9": "對照完整句子：「很少旅客敢冒險進入那個偏遠山谷。」。這裡的「adventured into」表示「冒險進入或前往未知、陌生或可能有風險的地方」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "adventure-mcq-01"
+      "correctOption": "adventure-reviewed-b471d57fc9",
+      "previousCorrectOption": "adventure-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "adventure-15-1",
-      "sense": "adventure-mcq-01",
+      "sense": "adventure-reviewed-b471d57fc9",
       "en": "They adventured beyond the familiar route.",
       "zh": "他們大膽走出了熟悉的路線。",
       "masked": "They ____ the familiar route.",
       "options": [
-        "adventure-mcq-01",
-        "adventure-mcq-02",
-        "adventure-mcq-03",
-        "adventure-mcq-04",
-        "adventure-mcq-05",
-        "adventure-mcq-06"
+        "adventure-reviewed-b471d57fc9",
+        "adventure-mcq-14",
+        "adventure-mcq-11"
       ],
-      "explanation": "本句的「adventured beyond」指「冒險；奇遇」。",
+      "explanation": "對照完整句子：「他們大膽走出了熟悉的路線。」。這裡的「adventured beyond」表示「冒險進入或前往未知、陌生或可能有風險的地方」。",
       "sentenceIndex": 30,
       "sourcePractice": 2,
       "targets": [
         "adventured beyond"
       ],
       "optionReasons": {
-        "adventure-mcq-01": "本句指「冒險；奇遇」。",
-        "adventure-mcq-02": "「小小的冒險」是「little adventure」的用法，與本句語境不同。",
-        "adventure-mcq-03": "「展開冒險」是「go on an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-04": "「經歷冒險」是「have an adventure」的用法，與本句語境不同。",
-        "adventure-mcq-05": "「探險」是「adventure (exploration)」的用法，與本句語境不同。",
-        "adventure-mcq-06": "「冒險故事」是「adventure story」的用法，與本句語境不同。"
+        "adventure-reviewed-b471d57fc9": "對照完整句子：「他們大膽走出了熟悉的路線。」。這裡的「adventured beyond」表示「冒險進入或前往未知、陌生或可能有風險的地方」。",
+        "adventure-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "adventure-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "adventure-mcq-01"
+      "correctOption": "adventure-reviewed-b471d57fc9",
+      "previousCorrectOption": "adventure-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -1301,5 +1185,7 @@ export default {
     "sha256": "6268c388303dc432be93896c4435a499711c21977ab56b4aa059380497d0a7de",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

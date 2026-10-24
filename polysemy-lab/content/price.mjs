@@ -576,11 +576,8 @@ export default {
       "masked": "The ____ of the car is too high.",
       "options": [
         "price-mcq-01",
-        "price-mcq-02",
-        "price-mcq-03",
-        "price-mcq-04",
-        "price-mcq-05",
-        "price-mcq-06"
+        "price-mcq-11",
+        "price-mcq-22"
       ],
       "explanation": "本句的「price」指「買方為取得商品／服務需要支付的金額」。",
       "sentenceIndex": 0,
@@ -589,12 +586,9 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-01": "本句指「買方為取得商品／服務需要支付的金額」。",
-        "price-mcq-02": "「購買開始時所面對的售價，不包括後續持有成本」與本句語境不同。",
-        "price-mcq-03": "「買方最終同意支付以取得商品／資產的價格」與本句語境不同。",
-        "price-mcq-04": "「商品直接出售給最終消費者時的價格」與本句語境不同。",
-        "price-mcq-05": "「商品大量出售給經銷商／零售商時的價格」與本句語境不同。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。"
+        "price-mcq-01": "本句的「price」指「買方為取得商品／服務需要支付的金額」。",
+        "price-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-01"
     },
@@ -606,11 +600,8 @@ export default {
       "masked": "Battery costs affect the final ____.",
       "options": [
         "price-mcq-01",
-        "price-mcq-02",
-        "price-mcq-03",
-        "price-mcq-04",
-        "price-mcq-05",
-        "price-mcq-06"
+        "price-mcq-11",
+        "price-mcq-22"
       ],
       "explanation": "本句的「price」指「買方為取得商品／服務需要支付的金額」。",
       "sentenceIndex": 1,
@@ -619,12 +610,9 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-01": "本句指「買方為取得商品／服務需要支付的金額」。",
-        "price-mcq-02": "「購買開始時所面對的售價，不包括後續持有成本」與本句語境不同。",
-        "price-mcq-03": "「買方最終同意支付以取得商品／資產的價格」與本句語境不同。",
-        "price-mcq-04": "「商品直接出售給最終消費者時的價格」與本句語境不同。",
-        "price-mcq-05": "「商品大量出售給經銷商／零售商時的價格」與本句語境不同。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。"
+        "price-mcq-01": "本句的「price」指「買方為取得商品／服務需要支付的金額」。",
+        "price-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-01"
     },
@@ -636,11 +624,9 @@ export default {
       "masked": "The ____ may discourage some buyers.",
       "options": [
         "price-mcq-02",
-        "price-mcq-01",
-        "price-mcq-03",
-        "price-mcq-04",
-        "price-mcq-05",
-        "price-mcq-06"
+        "price-mcq-24",
+        "price-mcq-22",
+        "price-mcq-11"
       ],
       "explanation": "本句的「initial price」指「購買開始時所面對的售價，不包括後續持有成本」。",
       "sentenceIndex": 4,
@@ -649,12 +635,10 @@ export default {
         "initial price"
       ],
       "optionReasons": {
-        "price-mcq-02": "本句指「購買開始時所面對的售價，不包括後續持有成本」。",
-        "price-mcq-01": "「買方為取得商品／服務需要支付的金額」與本句語境不同。",
-        "price-mcq-03": "「買方最終同意支付以取得商品／資產的價格」與本句語境不同。",
-        "price-mcq-04": "「商品直接出售給最終消費者時的價格」與本句語境不同。",
-        "price-mcq-05": "「商品大量出售給經銷商／零售商時的價格」與本句語境不同。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。"
+        "price-mcq-02": "本句的「initial price」指「購買開始時所面對的售價，不包括後續持有成本」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-02"
     },
@@ -666,11 +650,9 @@ export default {
       "masked": "Consumers often focus on initial ____ rather than long-term cost.",
       "options": [
         "price-mcq-02",
-        "price-mcq-01",
-        "price-mcq-03",
-        "price-mcq-04",
-        "price-mcq-05",
-        "price-mcq-06"
+        "price-mcq-24",
+        "price-mcq-22",
+        "price-mcq-11"
       ],
       "explanation": "本句的「price」指「購買開始時所面對的售價，不包括後續持有成本」。",
       "sentenceIndex": 5,
@@ -679,12 +661,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-02": "本句指「購買開始時所面對的售價，不包括後續持有成本」。",
-        "price-mcq-01": "「買方為取得商品／服務需要支付的金額」與本句語境不同。",
-        "price-mcq-03": "「買方最終同意支付以取得商品／資產的價格」與本句語境不同。",
-        "price-mcq-04": "「商品直接出售給最終消費者時的價格」與本句語境不同。",
-        "price-mcq-05": "「商品大量出售給經銷商／零售商時的價格」與本句語境不同。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。"
+        "price-mcq-02": "本句的「price」指「購買開始時所面對的售價，不包括後續持有成本」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-02"
     },
@@ -696,11 +676,9 @@ export default {
       "masked": "The ____ was $300,000.",
       "options": [
         "price-mcq-03",
-        "price-mcq-02",
-        "price-mcq-04",
-        "price-mcq-01",
-        "price-mcq-05",
-        "price-mcq-06"
+        "price-mcq-12",
+        "price-mcq-22",
+        "price-mcq-11"
       ],
       "explanation": "本句的「purchase price」指「買方最終同意支付以取得商品／資產的價格」。",
       "sentenceIndex": 6,
@@ -709,12 +687,10 @@ export default {
         "purchase price"
       ],
       "optionReasons": {
-        "price-mcq-03": "本句指「買方最終同意支付以取得商品／資產的價格」。",
-        "price-mcq-02": "「購買開始時所面對的售價，不包括後續持有成本」與本句語境不同。",
-        "price-mcq-04": "「商品直接出售給最終消費者時的價格」與本句語境不同。",
-        "price-mcq-01": "「買方為取得商品／服務需要支付的金額」與本句語境不同。",
-        "price-mcq-05": "「商品大量出售給經銷商／零售商時的價格」與本句語境不同。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。"
+        "price-mcq-03": "本句的「purchase price」指「買方最終同意支付以取得商品／資產的價格」。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-03"
     },
@@ -726,11 +702,9 @@ export default {
       "masked": "The buyer negotiated a lower purchase ____.",
       "options": [
         "price-mcq-03",
-        "price-mcq-02",
-        "price-mcq-04",
-        "price-mcq-01",
-        "price-mcq-05",
-        "price-mcq-06"
+        "price-mcq-22",
+        "price-mcq-12",
+        "price-mcq-11"
       ],
       "explanation": "本句的「price」指「買方最終同意支付以取得商品／資產的價格」。",
       "sentenceIndex": 7,
@@ -739,12 +713,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-03": "本句指「買方最終同意支付以取得商品／資產的價格」。",
-        "price-mcq-02": "「購買開始時所面對的售價，不包括後續持有成本」與本句語境不同。",
-        "price-mcq-04": "「商品直接出售給最終消費者時的價格」與本句語境不同。",
-        "price-mcq-01": "「買方為取得商品／服務需要支付的金額」與本句語境不同。",
-        "price-mcq-05": "「商品大量出售給經銷商／零售商時的價格」與本句語境不同。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。"
+        "price-mcq-03": "本句的「price」指「買方最終同意支付以取得商品／資產的價格」。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-03"
     },
@@ -756,11 +728,9 @@ export default {
       "masked": "The suggested ____ is $800.",
       "options": [
         "price-mcq-04",
-        "price-mcq-03",
-        "price-mcq-05",
-        "price-mcq-02",
-        "price-mcq-06",
-        "price-mcq-01"
+        "price-mcq-22",
+        "price-mcq-24",
+        "price-mcq-12"
       ],
       "explanation": "本句的「retail price」指「商品直接出售給最終消費者時的價格」。",
       "sentenceIndex": 10,
@@ -769,12 +739,10 @@ export default {
         "retail price"
       ],
       "optionReasons": {
-        "price-mcq-04": "本句指「商品直接出售給最終消費者時的價格」。",
-        "price-mcq-03": "「買方最終同意支付以取得商品／資產的價格」與本句語境不同。",
-        "price-mcq-05": "「商品大量出售給經銷商／零售商時的價格」與本句語境不同。",
-        "price-mcq-02": "「購買開始時所面對的售價，不包括後續持有成本」與本句語境不同。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。",
-        "price-mcq-01": "「買方為取得商品／服務需要支付的金額」與本句語境不同。"
+        "price-mcq-04": "本句的「retail price」指「商品直接出售給最終消費者時的價格」。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-04"
     },
@@ -786,11 +754,9 @@ export default {
       "masked": "Retail ____ differ between shops.",
       "options": [
         "price-mcq-04",
-        "price-mcq-03",
-        "price-mcq-05",
-        "price-mcq-02",
-        "price-mcq-06",
-        "price-mcq-01"
+        "price-mcq-22",
+        "price-mcq-12",
+        "price-mcq-24"
       ],
       "explanation": "本句的「prices」指「商品直接出售給最終消費者時的價格」。",
       "sentenceIndex": 11,
@@ -799,12 +765,10 @@ export default {
         "prices"
       ],
       "optionReasons": {
-        "price-mcq-04": "本句指「商品直接出售給最終消費者時的價格」。",
-        "price-mcq-03": "「買方最終同意支付以取得商品／資產的價格」與本句語境不同。",
-        "price-mcq-05": "「商品大量出售給經銷商／零售商時的價格」與本句語境不同。",
-        "price-mcq-02": "「購買開始時所面對的售價，不包括後續持有成本」與本句語境不同。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。",
-        "price-mcq-01": "「買方為取得商品／服務需要支付的金額」與本句語境不同。"
+        "price-mcq-04": "本句的「prices」指「商品直接出售給最終消費者時的價格」。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-04"
     },
@@ -816,11 +780,9 @@ export default {
       "masked": "Dealers buy the equipment at a wholesale ____.",
       "options": [
         "price-mcq-05",
-        "price-mcq-04",
-        "price-mcq-06",
-        "price-mcq-03",
-        "price-mcq-07",
-        "price-mcq-02"
+        "price-mcq-24",
+        "price-mcq-12",
+        "price-mcq-22"
       ],
       "explanation": "本句的「price」指「商品大量出售給經銷商／零售商時的價格」。",
       "sentenceIndex": 14,
@@ -829,12 +791,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-05": "本句指「商品大量出售給經銷商／零售商時的價格」。",
-        "price-mcq-04": "「商品直接出售給最終消費者時的價格」與本句語境不同。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。",
-        "price-mcq-03": "「買方最終同意支付以取得商品／資產的價格」與本句語境不同。",
-        "price-mcq-07": "「賣方提出、希望收到的價格，未必等於成交價」與本句語境不同。",
-        "price-mcq-02": "「購買開始時所面對的售價，不包括後續持有成本」與本句語境不同。"
+        "price-mcq-05": "本句的「price」指「商品大量出售給經銷商／零售商時的價格」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-05"
     },
@@ -846,11 +806,9 @@ export default {
       "masked": "Wholesale ____ rose because of higher production costs.",
       "options": [
         "price-mcq-05",
-        "price-mcq-04",
-        "price-mcq-06",
-        "price-mcq-03",
-        "price-mcq-07",
-        "price-mcq-02"
+        "price-mcq-24",
+        "price-mcq-22",
+        "price-mcq-12"
       ],
       "explanation": "本句的「prices」指「商品大量出售給經銷商／零售商時的價格」。",
       "sentenceIndex": 15,
@@ -859,12 +817,10 @@ export default {
         "prices"
       ],
       "optionReasons": {
-        "price-mcq-05": "本句指「商品大量出售給經銷商／零售商時的價格」。",
-        "price-mcq-04": "「商品直接出售給最終消費者時的價格」與本句語境不同。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。",
-        "price-mcq-03": "「買方最終同意支付以取得商品／資產的價格」與本句語境不同。",
-        "price-mcq-07": "「賣方提出、希望收到的價格，未必等於成交價」與本句語境不同。",
-        "price-mcq-02": "「購買開始時所面對的售價，不包括後續持有成本」與本句語境不同。"
+        "price-mcq-05": "本句的「prices」指「商品大量出售給經銷商／零售商時的價格」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-05"
     },
@@ -876,11 +832,9 @@ export default {
       "masked": "The vehicle’s ____ is $350,000.",
       "options": [
         "price-mcq-06",
-        "price-mcq-05",
-        "price-mcq-07",
-        "price-mcq-04",
-        "price-mcq-08",
-        "price-mcq-03"
+        "price-mcq-24",
+        "price-mcq-22",
+        "price-mcq-12"
       ],
       "explanation": "本句的「list price」指「賣方／製造商正式列出的標準價格」。",
       "sentenceIndex": 16,
@@ -889,12 +843,10 @@ export default {
         "list price"
       ],
       "optionReasons": {
-        "price-mcq-06": "本句指「賣方／製造商正式列出的標準價格」。",
-        "price-mcq-05": "「商品大量出售給經銷商／零售商時的價格」與本句語境不同。",
-        "price-mcq-07": "「賣方提出、希望收到的價格，未必等於成交價」與本句語境不同。",
-        "price-mcq-04": "「商品直接出售給最終消費者時的價格」與本句語境不同。",
-        "price-mcq-08": "「減價後的特價；或某物最終售出的價格」與本句語境不同。",
-        "price-mcq-03": "「買方最終同意支付以取得商品／資產的價格」與本句語境不同。"
+        "price-mcq-06": "本句的「list price」指「賣方／製造商正式列出的標準價格」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-06"
     },
@@ -906,11 +858,9 @@ export default {
       "masked": "Dealers may offer discounts below list ____.",
       "options": [
         "price-mcq-06",
-        "price-mcq-05",
-        "price-mcq-07",
-        "price-mcq-04",
-        "price-mcq-08",
-        "price-mcq-03"
+        "price-mcq-24",
+        "price-mcq-22",
+        "price-mcq-12"
       ],
       "explanation": "本句的「price」指「賣方／製造商正式列出的標準價格」。",
       "sentenceIndex": 17,
@@ -919,12 +869,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-06": "本句指「賣方／製造商正式列出的標準價格」。",
-        "price-mcq-05": "「商品大量出售給經銷商／零售商時的價格」與本句語境不同。",
-        "price-mcq-07": "「賣方提出、希望收到的價格，未必等於成交價」與本句語境不同。",
-        "price-mcq-04": "「商品直接出售給最終消費者時的價格」與本句語境不同。",
-        "price-mcq-08": "「減價後的特價；或某物最終售出的價格」與本句語境不同。",
-        "price-mcq-03": "「買方最終同意支付以取得商品／資產的價格」與本句語境不同。"
+        "price-mcq-06": "本句的「price」指「賣方／製造商正式列出的標準價格」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-06"
     },
@@ -936,11 +884,9 @@ export default {
       "masked": "The ____ is higher than our budget.",
       "options": [
         "price-mcq-07",
-        "price-mcq-06",
-        "price-mcq-08",
-        "price-mcq-05",
-        "price-mcq-09",
-        "price-mcq-04"
+        "price-mcq-22",
+        "price-mcq-18",
+        "price-mcq-11"
       ],
       "explanation": "本句的「asking price」指「賣方提出、希望收到的價格，未必等於成交價」。",
       "sentenceIndex": 18,
@@ -949,12 +895,10 @@ export default {
         "asking price"
       ],
       "optionReasons": {
-        "price-mcq-07": "本句指「賣方提出、希望收到的價格，未必等於成交價」。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。",
-        "price-mcq-08": "「減價後的特價；或某物最終售出的價格」與本句語境不同。",
-        "price-mcq-05": "「商品大量出售給經銷商／零售商時的價格」與本句語境不同。",
-        "price-mcq-09": "「每一單位商品／服務的價格」與本句語境不同。",
-        "price-mcq-04": "「商品直接出售給最終消費者時的價格」與本句語境不同。"
+        "price-mcq-07": "本句的「asking price」指「賣方提出、希望收到的價格，未必等於成交價」。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-07"
     },
@@ -966,11 +910,9 @@ export default {
       "masked": "The seller lowered the asking ____.",
       "options": [
         "price-mcq-07",
-        "price-mcq-06",
-        "price-mcq-08",
-        "price-mcq-05",
-        "price-mcq-09",
-        "price-mcq-04"
+        "price-mcq-22",
+        "price-mcq-12",
+        "price-mcq-18"
       ],
       "explanation": "本句的「price」指「賣方提出、希望收到的價格，未必等於成交價」。",
       "sentenceIndex": 19,
@@ -979,12 +921,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-07": "本句指「賣方提出、希望收到的價格，未必等於成交價」。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。",
-        "price-mcq-08": "「減價後的特價；或某物最終售出的價格」與本句語境不同。",
-        "price-mcq-05": "「商品大量出售給經銷商／零售商時的價格」與本句語境不同。",
-        "price-mcq-09": "「每一單位商品／服務的價格」與本句語境不同。",
-        "price-mcq-04": "「商品直接出售給最終消費者時的價格」與本句語境不同。"
+        "price-mcq-07": "本句的「price」指「賣方提出、希望收到的價格，未必等於成交價」。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-07"
     },
@@ -996,11 +936,9 @@ export default {
       "masked": "The laptop is available at a ____ of $5,000.",
       "options": [
         "price-mcq-08",
-        "price-mcq-07",
-        "price-mcq-09",
-        "price-mcq-06",
-        "price-mcq-10",
-        "price-mcq-05"
+        "price-mcq-12",
+        "price-mcq-24",
+        "price-mcq-22"
       ],
       "explanation": "本句的「sale price」指「減價後的特價；或某物最終售出的價格」。",
       "sentenceIndex": 20,
@@ -1009,12 +947,10 @@ export default {
         "sale price"
       ],
       "optionReasons": {
-        "price-mcq-08": "本句指「減價後的特價；或某物最終售出的價格」。",
-        "price-mcq-07": "「賣方提出、希望收到的價格，未必等於成交價」與本句語境不同。",
-        "price-mcq-09": "「每一單位商品／服務的價格」與本句語境不同。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。",
-        "price-mcq-10": "「市場目前供求下通常可成交的價格」與本句語境不同。",
-        "price-mcq-05": "「商品大量出售給經銷商／零售商時的價格」與本句語境不同。"
+        "price-mcq-08": "本句的「sale price」指「減價後的特價；或某物最終售出的價格」。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-08"
     },
@@ -1026,11 +962,9 @@ export default {
       "masked": "The final sale ____ was lower than expected.",
       "options": [
         "price-mcq-08",
-        "price-mcq-07",
-        "price-mcq-09",
-        "price-mcq-06",
-        "price-mcq-10",
-        "price-mcq-05"
+        "price-mcq-24",
+        "price-mcq-12",
+        "price-mcq-22"
       ],
       "explanation": "本句的「price」指「減價後的特價；或某物最終售出的價格」。",
       "sentenceIndex": 21,
@@ -1039,12 +973,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-08": "本句指「減價後的特價；或某物最終售出的價格」。",
-        "price-mcq-07": "「賣方提出、希望收到的價格，未必等於成交價」與本句語境不同。",
-        "price-mcq-09": "「每一單位商品／服務的價格」與本句語境不同。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。",
-        "price-mcq-10": "「市場目前供求下通常可成交的價格」與本句語境不同。",
-        "price-mcq-05": "「商品大量出售給經銷商／零售商時的價格」與本句語境不同。"
+        "price-mcq-08": "本句的「price」指「減價後的特價；或某物最終售出的價格」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-08"
     },
@@ -1056,11 +988,9 @@ export default {
       "masked": "The ____ falls when quantities increase.",
       "options": [
         "price-mcq-09",
-        "price-mcq-08",
-        "price-mcq-10",
-        "price-mcq-07",
-        "price-mcq-11",
-        "price-mcq-06"
+        "price-mcq-12",
+        "price-mcq-24",
+        "price-mcq-22"
       ],
       "explanation": "本句的「unit price」指「每一單位商品／服務的價格」。",
       "sentenceIndex": 28,
@@ -1069,12 +999,10 @@ export default {
         "unit price"
       ],
       "optionReasons": {
-        "price-mcq-09": "本句指「每一單位商品／服務的價格」。",
-        "price-mcq-08": "「減價後的特價；或某物最終售出的價格」與本句語境不同。",
-        "price-mcq-10": "「市場目前供求下通常可成交的價格」與本句語境不同。",
-        "price-mcq-07": "「賣方提出、希望收到的價格，未必等於成交價」與本句語境不同。",
-        "price-mcq-11": "「市場策略中的某一特定價位水平」與本句語境不同。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。"
+        "price-mcq-09": "本句的「unit price」指「每一單位商品／服務的價格」。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-09"
     },
@@ -1086,11 +1014,9 @@ export default {
       "masked": "Compare the unit ____ rather than the package price.",
       "options": [
         "price-mcq-09",
-        "price-mcq-08",
-        "price-mcq-10",
-        "price-mcq-07",
-        "price-mcq-11",
-        "price-mcq-06"
+        "price-mcq-12",
+        "price-mcq-22",
+        "price-mcq-24"
       ],
       "explanation": "本句的「price」指「每一單位商品／服務的價格」。",
       "sentenceIndex": 29,
@@ -1099,12 +1025,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-09": "本句指「每一單位商品／服務的價格」。",
-        "price-mcq-08": "「減價後的特價；或某物最終售出的價格」與本句語境不同。",
-        "price-mcq-10": "「市場目前供求下通常可成交的價格」與本句語境不同。",
-        "price-mcq-07": "「賣方提出、希望收到的價格，未必等於成交價」與本句語境不同。",
-        "price-mcq-11": "「市場策略中的某一特定價位水平」與本句語境不同。",
-        "price-mcq-06": "「賣方／製造商正式列出的標準價格」與本句語境不同。"
+        "price-mcq-09": "本句的「price」指「每一單位商品／服務的價格」。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-09"
     },
@@ -1116,11 +1040,9 @@ export default {
       "masked": "The market ____ of used electric cars varies.",
       "options": [
         "price-mcq-10",
-        "price-mcq-09",
-        "price-mcq-11",
-        "price-mcq-08",
-        "price-mcq-12",
-        "price-mcq-07"
+        "price-mcq-18",
+        "price-mcq-24",
+        "price-mcq-22"
       ],
       "explanation": "本句的「price」指「市場目前供求下通常可成交的價格」。",
       "sentenceIndex": 32,
@@ -1129,12 +1051,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-10": "本句指「市場目前供求下通常可成交的價格」。",
-        "price-mcq-09": "「每一單位商品／服務的價格」與本句語境不同。",
-        "price-mcq-11": "「市場策略中的某一特定價位水平」與本句語境不同。",
-        "price-mcq-08": "「減價後的特價；或某物最終售出的價格」與本句語境不同。",
-        "price-mcq-12": "「某計劃／項目的總成本金額」與本句語境不同。",
-        "price-mcq-07": "「賣方提出、希望收到的價格，未必等於成交價」與本句語境不同。"
+        "price-mcq-10": "本句的「price」指「市場目前供求下通常可成交的價格」。",
+        "price-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-10"
     },
@@ -1146,11 +1066,9 @@ export default {
       "masked": "The asset was sold at market ____.",
       "options": [
         "price-mcq-10",
-        "price-mcq-09",
-        "price-mcq-11",
-        "price-mcq-08",
-        "price-mcq-12",
-        "price-mcq-07"
+        "price-mcq-22",
+        "price-mcq-18",
+        "price-mcq-24"
       ],
       "explanation": "本句的「price」指「市場目前供求下通常可成交的價格」。",
       "sentenceIndex": 33,
@@ -1159,12 +1077,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-10": "本句指「市場目前供求下通常可成交的價格」。",
-        "price-mcq-09": "「每一單位商品／服務的價格」與本句語境不同。",
-        "price-mcq-11": "「市場策略中的某一特定價位水平」與本句語境不同。",
-        "price-mcq-08": "「減價後的特價；或某物最終售出的價格」與本句語境不同。",
-        "price-mcq-12": "「某計劃／項目的總成本金額」與本句語境不同。",
-        "price-mcq-07": "「賣方提出、希望收到的價格，未必等於成交價」與本句語境不同。"
+        "price-mcq-10": "本句的「price」指「市場目前供求下通常可成交的價格」。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-10"
     },
@@ -1176,11 +1092,9 @@ export default {
       "masked": "Airlines often use ____.",
       "options": [
         "price-mcq-19",
-        "price-mcq-18",
-        "price-mcq-20",
-        "price-mcq-17",
-        "price-mcq-21",
-        "price-mcq-16"
+        "price-mcq-24",
+        "price-mcq-12",
+        "price-mcq-22"
       ],
       "explanation": "本句的「dynamic pricing」指「按需求、時間等因素頻繁調整價格的定價方式」。",
       "sentenceIndex": 40,
@@ -1189,12 +1103,10 @@ export default {
         "dynamic pricing"
       ],
       "optionReasons": {
-        "price-mcq-19": "本句指「按需求、時間等因素頻繁調整價格的定價方式」。",
-        "price-mcq-18": "「制定商品／服務售價的過程或制度」與本句語境不同。",
-        "price-mcq-20": "「透過稅、交易制度等為碳排放設定經濟價格」與本句語境不同。",
-        "price-mcq-17": "「珍貴到不能合理用金錢衡量的」與本句語境不同。",
-        "price-mcq-21": "「為得到某事而必須承受的犧牲／負面後果；代價」與本句語境不同。",
-        "price-mcq-16": "「口語中指相當昂貴的」與本句語境不同。"
+        "price-mcq-19": "本句的「dynamic pricing」指「按需求、時間等因素頻繁調整價格的定價方式」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-19"
     },
@@ -1206,11 +1118,9 @@ export default {
       "masked": "Dynamic ____ adjusts prices according to demand.",
       "options": [
         "price-mcq-19",
-        "price-mcq-18",
-        "price-mcq-20",
-        "price-mcq-17",
-        "price-mcq-21",
-        "price-mcq-16"
+        "price-mcq-24",
+        "price-mcq-12",
+        "price-mcq-22"
       ],
       "explanation": "本句的「pricing」指「按需求、時間等因素頻繁調整價格的定價方式」。",
       "sentenceIndex": 41,
@@ -1219,12 +1129,10 @@ export default {
         "pricing"
       ],
       "optionReasons": {
-        "price-mcq-19": "本句指「按需求、時間等因素頻繁調整價格的定價方式」。",
-        "price-mcq-18": "「制定商品／服務售價的過程或制度」與本句語境不同。",
-        "price-mcq-20": "「透過稅、交易制度等為碳排放設定經濟價格」與本句語境不同。",
-        "price-mcq-17": "「珍貴到不能合理用金錢衡量的」與本句語境不同。",
-        "price-mcq-21": "「為得到某事而必須承受的犧牲／負面後果；代價」與本句語境不同。",
-        "price-mcq-16": "「口語中指相當昂貴的」與本句語境不同。"
+        "price-mcq-19": "本句的「pricing」指「按需求、時間等因素頻繁調整價格的定價方式」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-19"
     },
@@ -1236,11 +1144,9 @@ export default {
       "masked": "The model is attractive at this ____.",
       "options": [
         "price-mcq-11",
-        "price-mcq-10",
         "price-mcq-12",
-        "price-mcq-09",
-        "price-mcq-13",
-        "price-mcq-08"
+        "price-mcq-24",
+        "price-mcq-22"
       ],
       "explanation": "本句的「price point」指「市場策略中的某一特定價位水平」。",
       "sentenceIndex": 54,
@@ -1249,12 +1155,10 @@ export default {
         "price point"
       ],
       "optionReasons": {
-        "price-mcq-11": "本句指「市場策略中的某一特定價位水平」。",
-        "price-mcq-10": "「市場目前供求下通常可成交的價格」與本句語境不同。",
-        "price-mcq-12": "「某計劃／項目的總成本金額」與本句語境不同。",
-        "price-mcq-09": "「每一單位商品／服務的價格」與本句語境不同。",
-        "price-mcq-13": "「為某商品／資產設定或估計出售價格」與本句語境不同。",
-        "price-mcq-08": "「減價後的特價；或某物最終售出的價格」與本句語境不同。"
+        "price-mcq-11": "本句的「price point」指「市場策略中的某一特定價位水平」。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-11"
     },
@@ -1266,11 +1170,9 @@ export default {
       "masked": "The company offers products at several ____ points.",
       "options": [
         "price-mcq-11",
-        "price-mcq-10",
+        "price-mcq-24",
         "price-mcq-12",
-        "price-mcq-09",
-        "price-mcq-13",
-        "price-mcq-08"
+        "price-mcq-22"
       ],
       "explanation": "本句的「price」指「市場策略中的某一特定價位水平」。",
       "sentenceIndex": 55,
@@ -1279,12 +1181,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-11": "本句指「市場策略中的某一特定價位水平」。",
-        "price-mcq-10": "「市場目前供求下通常可成交的價格」與本句語境不同。",
-        "price-mcq-12": "「某計劃／項目的總成本金額」與本句語境不同。",
-        "price-mcq-09": "「每一單位商品／服務的價格」與本句語境不同。",
-        "price-mcq-13": "「為某商品／資產設定或估計出售價格」與本句語境不同。",
-        "price-mcq-08": "「減價後的特價；或某物最終售出的價格」與本句語境不同。"
+        "price-mcq-11": "本句的「price」指「市場策略中的某一特定價位水平」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-11"
     },
@@ -1296,11 +1196,9 @@ export default {
       "masked": "The ____ showed $2,000.",
       "options": [
         "price-mcq-12",
-        "price-mcq-11",
-        "price-mcq-13",
-        "price-mcq-10",
-        "price-mcq-14",
-        "price-mcq-09"
+        "price-mcq-22",
+        "price-mcq-15",
+        "price-mcq-18"
       ],
       "explanation": "本句的「price tag」指「某計劃／項目的總成本金額」。",
       "sentenceIndex": 56,
@@ -1309,12 +1207,10 @@ export default {
         "price tag"
       ],
       "optionReasons": {
-        "price-mcq-12": "本句指「某計劃／項目的總成本金額」。",
-        "price-mcq-11": "「市場策略中的某一特定價位水平」與本句語境不同。",
-        "price-mcq-13": "「為某商品／資產設定或估計出售價格」與本句語境不同。",
-        "price-mcq-10": "「市場目前供求下通常可成交的價格」與本句語境不同。",
-        "price-mcq-14": "「價格高於其合理價值的」與本句語境不同。",
-        "price-mcq-09": "「每一單位商品／服務的價格」與本句語境不同。"
+        "price-mcq-12": "本句的「price tag」指「某計劃／項目的總成本金額」。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-12"
     },
@@ -1326,11 +1222,9 @@ export default {
       "masked": "She checked the ____ tag.",
       "options": [
         "price-mcq-12",
-        "price-mcq-11",
-        "price-mcq-13",
-        "price-mcq-10",
-        "price-mcq-14",
-        "price-mcq-09"
+        "price-mcq-04",
+        "price-mcq-22",
+        "price-mcq-11"
       ],
       "explanation": "本句的「price」指「某計劃／項目的總成本金額」。",
       "sentenceIndex": 57,
@@ -1339,12 +1233,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-12": "本句指「某計劃／項目的總成本金額」。",
-        "price-mcq-11": "「市場策略中的某一特定價位水平」與本句語境不同。",
-        "price-mcq-13": "「為某商品／資產設定或估計出售價格」與本句語境不同。",
-        "price-mcq-10": "「市場目前供求下通常可成交的價格」與本句語境不同。",
-        "price-mcq-14": "「價格高於其合理價值的」與本句語境不同。",
-        "price-mcq-09": "「每一單位商品／服務的價格」與本句語境不同。"
+        "price-mcq-12": "本句的「price」指「某計劃／項目的總成本金額」。",
+        "price-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-12"
     },
@@ -1356,11 +1248,9 @@ export default {
       "masked": "The project carries a huge ____.",
       "options": [
         "price-mcq-12",
-        "price-mcq-11",
-        "price-mcq-13",
-        "price-mcq-10",
-        "price-mcq-14",
-        "price-mcq-09"
+        "price-mcq-28",
+        "price-mcq-22",
+        "price-mcq-18"
       ],
       "explanation": "本句的「price tag」指「某計劃／項目的總成本金額」。",
       "sentenceIndex": 58,
@@ -1369,12 +1259,10 @@ export default {
         "price tag"
       ],
       "optionReasons": {
-        "price-mcq-12": "本句指「某計劃／項目的總成本金額」。",
-        "price-mcq-11": "「市場策略中的某一特定價位水平」與本句語境不同。",
-        "price-mcq-13": "「為某商品／資產設定或估計出售價格」與本句語境不同。",
-        "price-mcq-10": "「市場目前供求下通常可成交的價格」與本句語境不同。",
-        "price-mcq-14": "「價格高於其合理價值的」與本句語境不同。",
-        "price-mcq-09": "「每一單位商品／服務的價格」與本句語境不同。"
+        "price-mcq-12": "本句的「price tag」指「某計劃／項目的總成本金額」。",
+        "price-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-12"
     },
@@ -1386,11 +1274,9 @@ export default {
       "masked": "The infrastructure plan has a billion-dollar ____ tag.",
       "options": [
         "price-mcq-12",
-        "price-mcq-11",
-        "price-mcq-13",
-        "price-mcq-10",
-        "price-mcq-14",
-        "price-mcq-09"
+        "price-mcq-26",
+        "price-mcq-24",
+        "price-mcq-22"
       ],
       "explanation": "本句的「price」指「某計劃／項目的總成本金額」。",
       "sentenceIndex": 59,
@@ -1399,12 +1285,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-12": "本句指「某計劃／項目的總成本金額」。",
-        "price-mcq-11": "「市場策略中的某一特定價位水平」與本句語境不同。",
-        "price-mcq-13": "「為某商品／資產設定或估計出售價格」與本句語境不同。",
-        "price-mcq-10": "「市場目前供求下通常可成交的價格」與本句語境不同。",
-        "price-mcq-14": "「價格高於其合理價值的」與本句語境不同。",
-        "price-mcq-09": "「每一單位商品／服務的價格」與本句語境不同。"
+        "price-mcq-12": "本句的「price」指「某計劃／項目的總成本金額」。",
+        "price-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-12"
     },
@@ -1416,11 +1300,9 @@ export default {
       "masked": "Many buyers think the model is ____.",
       "options": [
         "price-mcq-14",
-        "price-mcq-13",
-        "price-mcq-15",
+        "price-mcq-24",
         "price-mcq-12",
-        "price-mcq-16",
-        "price-mcq-11"
+        "price-mcq-22"
       ],
       "explanation": "本句的「overpriced」指「價格高於其合理價值的」。",
       "sentenceIndex": 72,
@@ -1429,12 +1311,10 @@ export default {
         "overpriced"
       ],
       "optionReasons": {
-        "price-mcq-14": "本句指「價格高於其合理價值的」。",
-        "price-mcq-13": "「為某商品／資產設定或估計出售價格」與本句語境不同。",
-        "price-mcq-15": "「價格低於其合理／市場價值的」與本句語境不同。",
-        "price-mcq-12": "「某計劃／項目的總成本金額」與本句語境不同。",
-        "price-mcq-16": "「口語中指相當昂貴的」與本句語境不同。",
-        "price-mcq-11": "「市場策略中的某一特定價位水平」與本句語境不同。"
+        "price-mcq-14": "本句的「overpriced」指「價格高於其合理價值的」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-14"
     },
@@ -1446,11 +1326,9 @@ export default {
       "masked": "Analysts believed the shares were ____.",
       "options": [
         "price-mcq-15",
-        "price-mcq-14",
-        "price-mcq-16",
-        "price-mcq-13",
-        "price-mcq-17",
-        "price-mcq-12"
+        "price-mcq-12",
+        "price-mcq-24",
+        "price-mcq-22"
       ],
       "explanation": "本句的「underpriced」指「價格低於其合理／市場價值的」。",
       "sentenceIndex": 73,
@@ -1459,12 +1337,10 @@ export default {
         "underpriced"
       ],
       "optionReasons": {
-        "price-mcq-15": "本句指「價格低於其合理／市場價值的」。",
-        "price-mcq-14": "「價格高於其合理價值的」與本句語境不同。",
-        "price-mcq-16": "「口語中指相當昂貴的」與本句語境不同。",
-        "price-mcq-13": "「為某商品／資產設定或估計出售價格」與本句語境不同。",
-        "price-mcq-17": "「珍貴到不能合理用金錢衡量的」與本句語境不同。",
-        "price-mcq-12": "「某計劃／項目的總成本金額」與本句語境不同。"
+        "price-mcq-15": "本句的「underpriced」指「價格低於其合理／市場價值的」。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-15"
     },
@@ -1476,11 +1352,9 @@ export default {
       "masked": "The company changed its ____.",
       "options": [
         "price-mcq-18",
-        "price-mcq-17",
-        "price-mcq-19",
-        "price-mcq-16",
-        "price-mcq-20",
-        "price-mcq-15"
+        "price-mcq-22",
+        "price-mcq-24",
+        "price-mcq-12"
       ],
       "explanation": "本句的「pricing」指「制定商品／服務售價的過程或制度」。",
       "sentenceIndex": 80,
@@ -1489,12 +1363,10 @@ export default {
         "pricing"
       ],
       "optionReasons": {
-        "price-mcq-18": "本句指「制定商品／服務售價的過程或制度」。",
-        "price-mcq-17": "「珍貴到不能合理用金錢衡量的」與本句語境不同。",
-        "price-mcq-19": "「按需求、時間等因素頻繁調整價格的定價方式」與本句語境不同。",
-        "price-mcq-16": "「口語中指相當昂貴的」與本句語境不同。",
-        "price-mcq-20": "「透過稅、交易制度等為碳排放設定經濟價格」與本句語境不同。",
-        "price-mcq-15": "「價格低於其合理／市場價值的」與本句語境不同。"
+        "price-mcq-18": "本句的「pricing」指「制定商品／服務售價的過程或制度」。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-18"
     },
@@ -1506,11 +1378,9 @@ export default {
       "masked": "____ has a major effect on demand.",
       "options": [
         "price-mcq-18",
-        "price-mcq-17",
-        "price-mcq-19",
-        "price-mcq-16",
-        "price-mcq-20",
-        "price-mcq-15"
+        "price-mcq-24",
+        "price-mcq-12",
+        "price-mcq-22"
       ],
       "explanation": "本句的「Pricing」指「制定商品／服務售價的過程或制度」。",
       "sentenceIndex": 81,
@@ -1519,12 +1389,10 @@ export default {
         "Pricing"
       ],
       "optionReasons": {
-        "price-mcq-18": "本句指「制定商品／服務售價的過程或制度」。",
-        "price-mcq-17": "「珍貴到不能合理用金錢衡量的」與本句語境不同。",
-        "price-mcq-19": "「按需求、時間等因素頻繁調整價格的定價方式」與本句語境不同。",
-        "price-mcq-16": "「口語中指相當昂貴的」與本句語境不同。",
-        "price-mcq-20": "「透過稅、交易制度等為碳排放設定經濟價格」與本句語境不同。",
-        "price-mcq-15": "「價格低於其合理／市場價值的」與本句語境不同。"
+        "price-mcq-18": "本句的「Pricing」指「制定商品／服務售價的過程或制度」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-18"
     },
@@ -1536,11 +1404,9 @@ export default {
       "masked": "Carbon ____ puts an economic cost on emissions.",
       "options": [
         "price-mcq-20",
-        "price-mcq-19",
-        "price-mcq-21",
-        "price-mcq-18",
-        "price-mcq-22",
-        "price-mcq-17"
+        "price-mcq-12",
+        "price-mcq-24",
+        "price-mcq-22"
       ],
       "explanation": "本句的「pricing」指「透過稅、交易制度等為碳排放設定經濟價格」。",
       "sentenceIndex": 99,
@@ -1549,12 +1415,10 @@ export default {
         "pricing"
       ],
       "optionReasons": {
-        "price-mcq-20": "本句指「透過稅、交易制度等為碳排放設定經濟價格」。",
-        "price-mcq-19": "「按需求、時間等因素頻繁調整價格的定價方式」與本句語境不同。",
-        "price-mcq-21": "「為得到某事而必須承受的犧牲／負面後果；代價」與本句語境不同。",
-        "price-mcq-18": "「制定商品／服務售價的過程或制度」與本句語境不同。",
-        "price-mcq-22": "「因之前的行為／選擇而承受負面後果」與本句語境不同。",
-        "price-mcq-17": "「珍貴到不能合理用金錢衡量的」與本句語境不同。"
+        "price-mcq-20": "本句的「pricing」指「透過稅、交易制度等為碳排放設定經濟價格」。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-20"
     },
@@ -1566,11 +1430,9 @@ export default {
       "masked": "Governments use different carbon-____ systems.",
       "options": [
         "price-mcq-20",
-        "price-mcq-19",
-        "price-mcq-21",
-        "price-mcq-18",
-        "price-mcq-22",
-        "price-mcq-17"
+        "price-mcq-24",
+        "price-mcq-12",
+        "price-mcq-22"
       ],
       "explanation": "本句的「pricing」指「透過稅、交易制度等為碳排放設定經濟價格」。",
       "sentenceIndex": 100,
@@ -1579,12 +1441,10 @@ export default {
         "pricing"
       ],
       "optionReasons": {
-        "price-mcq-20": "本句指「透過稅、交易制度等為碳排放設定經濟價格」。",
-        "price-mcq-19": "「按需求、時間等因素頻繁調整價格的定價方式」與本句語境不同。",
-        "price-mcq-21": "「為得到某事而必須承受的犧牲／負面後果；代價」與本句語境不同。",
-        "price-mcq-18": "「制定商品／服務售價的過程或制度」與本句語境不同。",
-        "price-mcq-22": "「因之前的行為／選擇而承受負面後果」與本句語境不同。",
-        "price-mcq-17": "「珍貴到不能合理用金錢衡量的」與本句語境不同。"
+        "price-mcq-20": "本句的「pricing」指「透過稅、交易制度等為碳排放設定經濟價格」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-20"
     },
@@ -1596,11 +1456,9 @@ export default {
       "masked": "If maintenance is ignored, drivers may eventually ____.",
       "options": [
         "price-mcq-22",
-        "price-mcq-21",
-        "price-mcq-23",
         "price-mcq-20",
-        "price-mcq-24",
-        "price-mcq-19"
+        "price-mcq-12",
+        "price-mcq-11"
       ],
       "explanation": "本句的「pay the price」指「因之前的行為／選擇而承受負面後果」。",
       "sentenceIndex": 103,
@@ -1609,12 +1467,10 @@ export default {
         "pay the price"
       ],
       "optionReasons": {
-        "price-mcq-22": "本句指「因之前的行為／選擇而承受負面後果」。",
-        "price-mcq-21": "「為得到某事而必須承受的犧牲／負面後果；代價」與本句語境不同。",
-        "price-mcq-23": "「為 X 設定／估計金錢價值」與本句語境不同。",
-        "price-mcq-20": "「透過稅、交易制度等為碳排放設定經濟價格」與本句語境不同。",
-        "price-mcq-24": "「莊家為某賽果提供的賠率」與本句語境不同。",
-        "price-mcq-19": "「按需求、時間等因素頻繁調整價格的定價方式」與本句語境不同。"
+        "price-mcq-22": "本句的「pay the price」指「因之前的行為／選擇而承受負面後果」。",
+        "price-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-22"
     },
@@ -1626,11 +1482,9 @@ export default {
       "masked": "He worked without rest and paid the ____ later.",
       "options": [
         "price-mcq-22",
-        "price-mcq-21",
-        "price-mcq-23",
-        "price-mcq-20",
-        "price-mcq-24",
-        "price-mcq-19"
+        "price-mcq-07",
+        "price-mcq-11",
+        "price-mcq-12"
       ],
       "explanation": "本句的「price」指「因之前的行為／選擇而承受負面後果」。",
       "sentenceIndex": 104,
@@ -1639,12 +1493,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-22": "本句指「因之前的行為／選擇而承受負面後果」。",
-        "price-mcq-21": "「為得到某事而必須承受的犧牲／負面後果；代價」與本句語境不同。",
-        "price-mcq-23": "「為 X 設定／估計金錢價值」與本句語境不同。",
-        "price-mcq-20": "「透過稅、交易制度等為碳排放設定經濟價格」與本句語境不同。",
-        "price-mcq-24": "「莊家為某賽果提供的賠率」與本句語境不同。",
-        "price-mcq-19": "「按需求、時間等因素頻繁調整價格的定價方式」與本句語境不同。"
+        "price-mcq-22": "本句的「price」指「因之前的行為／選擇而承受負面後果」。",
+        "price-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-22"
     },
@@ -1656,11 +1508,9 @@ export default {
       "masked": "The horse started at a ____ of 5–1.",
       "options": [
         "price-mcq-24",
-        "price-mcq-23",
-        "price-mcq-25",
-        "price-mcq-22",
-        "price-mcq-26",
-        "price-mcq-21"
+        "price-mcq-20",
+        "price-mcq-12",
+        "price-mcq-11"
       ],
       "explanation": "本句的「price」指「莊家為某賽果提供的賠率」。",
       "sentenceIndex": 116,
@@ -1669,12 +1519,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-24": "本句指「莊家為某賽果提供的賠率」。",
-        "price-mcq-23": "「為 X 設定／估計金錢價值」與本句語境不同。",
-        "price-mcq-25": "「股票在市場中的交易價格」與本句語境不同。",
-        "price-mcq-22": "「因之前的行為／選擇而承受負面後果」與本句語境不同。",
-        "price-mcq-26": "「整體商品和服務的一般價格水平」與本句語境不同。",
-        "price-mcq-21": "「為得到某事而必須承受的犧牲／負面後果；代價」與本句語境不同。"
+        "price-mcq-24": "本句的「price」指「莊家為某賽果提供的賠率」。",
+        "price-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-24"
     },
@@ -1686,11 +1534,9 @@ export default {
       "masked": "The bookmaker shortened the ____.",
       "options": [
         "price-mcq-24",
-        "price-mcq-23",
-        "price-mcq-25",
-        "price-mcq-22",
-        "price-mcq-26",
-        "price-mcq-21"
+        "price-mcq-12",
+        "price-mcq-04",
+        "price-mcq-11"
       ],
       "explanation": "本句的「price」指「莊家為某賽果提供的賠率」。",
       "sentenceIndex": 117,
@@ -1699,12 +1545,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-24": "本句指「莊家為某賽果提供的賠率」。",
-        "price-mcq-23": "「為 X 設定／估計金錢價值」與本句語境不同。",
-        "price-mcq-25": "「股票在市場中的交易價格」與本句語境不同。",
-        "price-mcq-22": "「因之前的行為／選擇而承受負面後果」與本句語境不同。",
-        "price-mcq-26": "「整體商品和服務的一般價格水平」與本句語境不同。",
-        "price-mcq-21": "「為得到某事而必須承受的犧牲／負面後果；代價」與本句語境不同。"
+        "price-mcq-24": "本句的「price」指「莊家為某賽果提供的賠率」。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-24"
     },
@@ -1716,11 +1560,9 @@ export default {
       "masked": "The company’s share ____ rose.",
       "options": [
         "price-mcq-25",
+        "price-mcq-22",
         "price-mcq-24",
-        "price-mcq-26",
-        "price-mcq-23",
-        "price-mcq-27",
-        "price-mcq-22"
+        "price-mcq-12"
       ],
       "explanation": "本句的「price」指「股票在市場中的交易價格」。",
       "sentenceIndex": 124,
@@ -1729,12 +1571,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-25": "本句指「股票在市場中的交易價格」。",
-        "price-mcq-24": "「莊家為某賽果提供的賠率」與本句語境不同。",
-        "price-mcq-26": "「整體商品和服務的一般價格水平」與本句語境不同。",
-        "price-mcq-23": "「為 X 設定／估計金錢價值」與本句語境不同。",
-        "price-mcq-27": "「消費者需求對價格變化的敏感程度」與本句語境不同。",
-        "price-mcq-22": "「因之前的行為／選擇而承受負面後果」與本句語境不同。"
+        "price-mcq-25": "本句的「price」指「股票在市場中的交易價格」。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-25"
     },
@@ -1746,11 +1586,9 @@ export default {
       "masked": "News can affect stock ____.",
       "options": [
         "price-mcq-25",
-        "price-mcq-24",
-        "price-mcq-26",
-        "price-mcq-23",
-        "price-mcq-27",
-        "price-mcq-22"
+        "price-mcq-22",
+        "price-mcq-12",
+        "price-mcq-24"
       ],
       "explanation": "本句的「prices」指「股票在市場中的交易價格」。",
       "sentenceIndex": 125,
@@ -1759,12 +1597,10 @@ export default {
         "prices"
       ],
       "optionReasons": {
-        "price-mcq-25": "本句指「股票在市場中的交易價格」。",
-        "price-mcq-24": "「莊家為某賽果提供的賠率」與本句語境不同。",
-        "price-mcq-26": "「整體商品和服務的一般價格水平」與本句語境不同。",
-        "price-mcq-23": "「為 X 設定／估計金錢價值」與本句語境不同。",
-        "price-mcq-27": "「消費者需求對價格變化的敏感程度」與本句語境不同。",
-        "price-mcq-22": "「因之前的行為／選擇而承受負面後果」與本句語境不同。"
+        "price-mcq-25": "本句的「prices」指「股票在市場中的交易價格」。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-25"
     },
@@ -1776,11 +1612,9 @@ export default {
       "masked": "The general ____ level has risen.",
       "options": [
         "price-mcq-26",
-        "price-mcq-25",
-        "price-mcq-27",
-        "price-mcq-24",
-        "price-mcq-28",
-        "price-mcq-23"
+        "price-mcq-12",
+        "price-mcq-22",
+        "price-mcq-24"
       ],
       "explanation": "本句的「price」指「整體商品和服務的一般價格水平」。",
       "sentenceIndex": 137,
@@ -1789,12 +1623,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-26": "本句指「整體商品和服務的一般價格水平」。",
-        "price-mcq-25": "「股票在市場中的交易價格」與本句語境不同。",
-        "price-mcq-27": "「消費者需求對價格變化的敏感程度」與本句語境不同。",
-        "price-mcq-24": "「莊家為某賽果提供的賠率」與本句語境不同。",
-        "price-mcq-28": "「公司提高／維持價格而不大量失去顧客的能力」與本句語境不同。",
-        "price-mcq-23": "「為 X 設定／估計金錢價值」與本句語境不同。"
+        "price-mcq-26": "本句的「price」指「整體商品和服務的一般價格水平」。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-26"
     },
@@ -1806,11 +1638,9 @@ export default {
       "masked": "Inflation refers to sustained increases in the overall ____ level.",
       "options": [
         "price-mcq-26",
-        "price-mcq-25",
-        "price-mcq-27",
         "price-mcq-24",
-        "price-mcq-28",
-        "price-mcq-23"
+        "price-mcq-12",
+        "price-mcq-22"
       ],
       "explanation": "本句的「price」指「整體商品和服務的一般價格水平」。",
       "sentenceIndex": 138,
@@ -1819,12 +1649,10 @@ export default {
         "price"
       ],
       "optionReasons": {
-        "price-mcq-26": "本句指「整體商品和服務的一般價格水平」。",
-        "price-mcq-25": "「股票在市場中的交易價格」與本句語境不同。",
-        "price-mcq-27": "「消費者需求對價格變化的敏感程度」與本句語境不同。",
-        "price-mcq-24": "「莊家為某賽果提供的賠率」與本句語境不同。",
-        "price-mcq-28": "「公司提高／維持價格而不大量失去顧客的能力」與本句語境不同。",
-        "price-mcq-23": "「為 X 設定／估計金錢價值」與本句語境不同。"
+        "price-mcq-26": "本句的「price」指「整體商品和服務的一般價格水平」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-26"
     },
@@ -1836,11 +1664,9 @@ export default {
       "masked": "Electric-car buyers may show high ____.",
       "options": [
         "price-mcq-27",
-        "price-mcq-26",
-        "price-mcq-28",
-        "price-mcq-25",
         "price-mcq-24",
-        "price-mcq-23"
+        "price-mcq-12",
+        "price-mcq-22"
       ],
       "explanation": "本句的「price sensitivity」指「消費者需求對價格變化的敏感程度」。",
       "sentenceIndex": 149,
@@ -1849,12 +1675,10 @@ export default {
         "price sensitivity"
       ],
       "optionReasons": {
-        "price-mcq-27": "本句指「消費者需求對價格變化的敏感程度」。",
-        "price-mcq-26": "「整體商品和服務的一般價格水平」與本句語境不同。",
-        "price-mcq-28": "「公司提高／維持價格而不大量失去顧客的能力」與本句語境不同。",
-        "price-mcq-25": "「股票在市場中的交易價格」與本句語境不同。",
-        "price-mcq-24": "「莊家為某賽果提供的賠率」與本句語境不同。",
-        "price-mcq-23": "「為 X 設定／估計金錢價值」與本句語境不同。"
+        "price-mcq-27": "本句的「price sensitivity」指「消費者需求對價格變化的敏感程度」。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-27"
     },
@@ -1866,11 +1690,9 @@ export default {
       "masked": "____ consumers respond strongly to discounts.",
       "options": [
         "price-mcq-27",
-        "price-mcq-26",
-        "price-mcq-28",
-        "price-mcq-25",
+        "price-mcq-12",
         "price-mcq-24",
-        "price-mcq-23"
+        "price-mcq-22"
       ],
       "explanation": "本句的「Price-sensitive」指「消費者需求對價格變化的敏感程度」。",
       "sentenceIndex": 150,
@@ -1879,12 +1701,10 @@ export default {
         "Price-sensitive"
       ],
       "optionReasons": {
-        "price-mcq-27": "本句指「消費者需求對價格變化的敏感程度」。",
-        "price-mcq-26": "「整體商品和服務的一般價格水平」與本句語境不同。",
-        "price-mcq-28": "「公司提高／維持價格而不大量失去顧客的能力」與本句語境不同。",
-        "price-mcq-25": "「股票在市場中的交易價格」與本句語境不同。",
-        "price-mcq-24": "「莊家為某賽果提供的賠率」與本句語境不同。",
-        "price-mcq-23": "「為 X 設定／估計金錢價值」與本句語境不同。"
+        "price-mcq-27": "本句的「Price-sensitive」指「消費者需求對價格變化的敏感程度」。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-27"
     },
@@ -1896,11 +1716,9 @@ export default {
       "masked": "Strong brands often have greater ____ power.",
       "options": [
         "price-mcq-28",
-        "price-mcq-27",
-        "price-mcq-26",
-        "price-mcq-25",
-        "price-mcq-24",
-        "price-mcq-23"
+        "price-mcq-12",
+        "price-mcq-22",
+        "price-mcq-24"
       ],
       "explanation": "本句的「pricing」指「公司提高／維持價格而不大量失去顧客的能力」。",
       "sentenceIndex": 210,
@@ -1909,12 +1727,10 @@ export default {
         "pricing"
       ],
       "optionReasons": {
-        "price-mcq-28": "本句指「公司提高／維持價格而不大量失去顧客的能力」。",
-        "price-mcq-27": "「消費者需求對價格變化的敏感程度」與本句語境不同。",
-        "price-mcq-26": "「整體商品和服務的一般價格水平」與本句語境不同。",
-        "price-mcq-25": "「股票在市場中的交易價格」與本句語境不同。",
-        "price-mcq-24": "「莊家為某賽果提供的賠率」與本句語境不同。",
-        "price-mcq-23": "「為 X 設定／估計金錢價值」與本句語境不同。"
+        "price-mcq-28": "本句的「pricing」指「公司提高／維持價格而不大量失去顧客的能力」。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-28"
     },
@@ -1926,11 +1742,9 @@ export default {
       "masked": "Competition limits the company’s ____ power.",
       "options": [
         "price-mcq-28",
-        "price-mcq-27",
-        "price-mcq-26",
-        "price-mcq-25",
-        "price-mcq-24",
-        "price-mcq-23"
+        "price-mcq-22",
+        "price-mcq-12",
+        "price-mcq-18"
       ],
       "explanation": "本句的「pricing」指「公司提高／維持價格而不大量失去顧客的能力」。",
       "sentenceIndex": 211,
@@ -1939,12 +1753,10 @@ export default {
         "pricing"
       ],
       "optionReasons": {
-        "price-mcq-28": "本句指「公司提高／維持價格而不大量失去顧客的能力」。",
-        "price-mcq-27": "「消費者需求對價格變化的敏感程度」與本句語境不同。",
-        "price-mcq-26": "「整體商品和服務的一般價格水平」與本句語境不同。",
-        "price-mcq-25": "「股票在市場中的交易價格」與本句語境不同。",
-        "price-mcq-24": "「莊家為某賽果提供的賠率」與本句語境不同。",
-        "price-mcq-23": "「為 X 設定／估計金錢價值」與本句語境不同。"
+        "price-mcq-28": "本句的「pricing」指「公司提高／維持價格而不大量失去顧客的能力」。",
+        "price-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "price-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "price-mcq-28"
     }
@@ -1956,5 +1768,7 @@ export default {
     "sha256": "4fb1bc6a97282a648522593444145efb9796372ce9d8769b67f58365cfe1b64e",
     "pages": 69
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

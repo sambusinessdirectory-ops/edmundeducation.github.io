@@ -482,11 +482,9 @@ export default {
       "masked": "The museum explores ____.",
       "options": [
         "human-mcq-01",
-        "human-mcq-02",
-        "human-mcq-03",
-        "human-mcq-04",
         "human-mcq-05",
-        "human-mcq-06"
+        "human-mcq-06",
+        "human-mcq-17"
       ],
       "explanation": "本句的「human history」指「與人類、人的生活或人的活動有關的」。",
       "sentenceIndex": 0,
@@ -495,12 +493,10 @@ export default {
         "human history"
       ],
       "optionReasons": {
-        "human-mcq-01": "本句指「與人類、人的生活或人的活動有關的」。",
-        "human-mcq-02": "「著重人的真實經歷、情感、動機和處境，而非抽象資料的」與本句語境不同。",
-        "human-mcq-03": "「一個／多個人類個體」與本句語境不同。",
-        "human-mcq-04": "「一個人類個體，常強調基本身份、尊嚴或感受」與本句語境不同。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。"
+        "human-mcq-01": "本句的「human history」指「與人類、人的生活或人的活動有關的」。",
+        "human-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-01"
     },
@@ -512,11 +508,9 @@ export default {
       "masked": "Language is a fundamental part of ____.",
       "options": [
         "human-mcq-01",
-        "human-mcq-02",
-        "human-mcq-03",
-        "human-mcq-04",
         "human-mcq-05",
-        "human-mcq-06"
+        "human-mcq-06",
+        "human-mcq-10"
       ],
       "explanation": "本句的「human culture」指「與人類、人的生活或人的活動有關的」。",
       "sentenceIndex": 1,
@@ -525,12 +519,10 @@ export default {
         "human culture"
       ],
       "optionReasons": {
-        "human-mcq-01": "本句指「與人類、人的生活或人的活動有關的」。",
-        "human-mcq-02": "「著重人的真實經歷、情感、動機和處境，而非抽象資料的」與本句語境不同。",
-        "human-mcq-03": "「一個／多個人類個體」與本句語境不同。",
-        "human-mcq-04": "「一個人類個體，常強調基本身份、尊嚴或感受」與本句語境不同。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。"
+        "human-mcq-01": "本句的「human culture」指「與人類、人的生活或人的活動有關的」。",
+        "human-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-01"
     },
@@ -542,11 +534,9 @@ export default {
       "masked": "He made history feel like a series of ____.",
       "options": [
         "human-mcq-02",
-        "human-mcq-01",
-        "human-mcq-03",
-        "human-mcq-04",
-        "human-mcq-05",
-        "human-mcq-06"
+        "human-mcq-13",
+        "human-mcq-10",
+        "human-mcq-20"
       ],
       "explanation": "本句的「human stories」指「著重人的真實經歷、情感、動機和處境，而非抽象資料的」。",
       "sentenceIndex": 2,
@@ -555,12 +545,10 @@ export default {
         "human stories"
       ],
       "optionReasons": {
-        "human-mcq-02": "本句指「著重人的真實經歷、情感、動機和處境，而非抽象資料的」。",
-        "human-mcq-01": "「與人類、人的生活或人的活動有關的」與本句語境不同。",
-        "human-mcq-03": "「一個／多個人類個體」與本句語境不同。",
-        "human-mcq-04": "「一個人類個體，常強調基本身份、尊嚴或感受」與本句語境不同。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。"
+        "human-mcq-02": "本句的「human stories」指「著重人的真實經歷、情感、動機和處境，而非抽象資料的」。",
+        "human-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-02"
     },
@@ -572,11 +560,9 @@ export default {
       "masked": "The documentary focuses on the ____ behind the statistics.",
       "options": [
         "human-mcq-02",
-        "human-mcq-01",
-        "human-mcq-03",
-        "human-mcq-04",
-        "human-mcq-05",
-        "human-mcq-06"
+        "human-mcq-10",
+        "human-mcq-09",
+        "human-mcq-20"
       ],
       "explanation": "本句的「human experience」指「著重人的真實經歷、情感、動機和處境，而非抽象資料的」。",
       "sentenceIndex": 3,
@@ -585,12 +571,10 @@ export default {
         "human experience"
       ],
       "optionReasons": {
-        "human-mcq-02": "本句指「著重人的真實經歷、情感、動機和處境，而非抽象資料的」。",
-        "human-mcq-01": "「與人類、人的生活或人的活動有關的」與本句語境不同。",
-        "human-mcq-03": "「一個／多個人類個體」與本句語境不同。",
-        "human-mcq-04": "「一個人類個體，常強調基本身份、尊嚴或感受」與本句語境不同。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。"
+        "human-mcq-02": "本句的「human experience」指「著重人的真實經歷、情感、動機和處境，而非抽象資料的」。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-02"
     },
@@ -602,11 +586,9 @@ export default {
       "masked": "The article gives the crisis a strong ____.",
       "options": [
         "human-mcq-02",
-        "human-mcq-01",
-        "human-mcq-03",
-        "human-mcq-04",
-        "human-mcq-05",
-        "human-mcq-06"
+        "human-mcq-13",
+        "human-mcq-20",
+        "human-mcq-10"
       ],
       "explanation": "本句的「human dimension」指「著重人的真實經歷、情感、動機和處境，而非抽象資料的」。",
       "sentenceIndex": 4,
@@ -615,12 +597,10 @@ export default {
         "human dimension"
       ],
       "optionReasons": {
-        "human-mcq-02": "本句指「著重人的真實經歷、情感、動機和處境，而非抽象資料的」。",
-        "human-mcq-01": "「與人類、人的生活或人的活動有關的」與本句語境不同。",
-        "human-mcq-03": "「一個／多個人類個體」與本句語境不同。",
-        "human-mcq-04": "「一個人類個體，常強調基本身份、尊嚴或感受」與本句語境不同。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。"
+        "human-mcq-02": "本句的「human dimension」指「著重人的真實經歷、情感、動機和處境，而非抽象資料的」。",
+        "human-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-02"
     },
@@ -632,11 +612,9 @@ export default {
       "masked": "____ have always told stories.",
       "options": [
         "human-mcq-03",
-        "human-mcq-02",
-        "human-mcq-04",
-        "human-mcq-01",
+        "human-mcq-07",
         "human-mcq-05",
-        "human-mcq-06"
+        "human-mcq-10"
       ],
       "explanation": "本句的「Humans」指「一個／多個人類個體」。",
       "sentenceIndex": 5,
@@ -645,12 +623,10 @@ export default {
         "Humans"
       ],
       "optionReasons": {
-        "human-mcq-03": "本句指「一個／多個人類個體」。",
-        "human-mcq-02": "「著重人的真實經歷、情感、動機和處境，而非抽象資料的」與本句語境不同。",
-        "human-mcq-04": "「一個人類個體，常強調基本身份、尊嚴或感受」與本句語境不同。",
-        "human-mcq-01": "「與人類、人的生活或人的活動有關的」與本句語境不同。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。"
+        "human-mcq-03": "本句的「Humans」指「一個／多個人類個體」。",
+        "human-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-03"
     },
@@ -662,11 +638,9 @@ export default {
       "masked": "The robot was designed to interact naturally with ____.",
       "options": [
         "human-mcq-03",
-        "human-mcq-02",
-        "human-mcq-04",
-        "human-mcq-01",
-        "human-mcq-05",
-        "human-mcq-06"
+        "human-mcq-10",
+        "human-mcq-06",
+        "human-mcq-17"
       ],
       "explanation": "本句的「humans」指「一個／多個人類個體」。",
       "sentenceIndex": 6,
@@ -675,12 +649,10 @@ export default {
         "humans"
       ],
       "optionReasons": {
-        "human-mcq-03": "本句指「一個／多個人類個體」。",
-        "human-mcq-02": "「著重人的真實經歷、情感、動機和處境，而非抽象資料的」與本句語境不同。",
-        "human-mcq-04": "「一個人類個體，常強調基本身份、尊嚴或感受」與本句語境不同。",
-        "human-mcq-01": "「與人類、人的生活或人的活動有關的」與本句語境不同。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。"
+        "human-mcq-03": "本句的「humans」指「一個／多個人類個體」。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-03"
     },
@@ -692,11 +664,9 @@ export default {
       "masked": "Every ____ needs food and water.",
       "options": [
         "human-mcq-04",
-        "human-mcq-03",
-        "human-mcq-05",
-        "human-mcq-02",
-        "human-mcq-06",
-        "human-mcq-01"
+        "human-mcq-18",
+        "human-mcq-07",
+        "human-mcq-11"
       ],
       "explanation": "本句的「human being」指「一個人類個體，常強調基本身份、尊嚴或感受」。",
       "sentenceIndex": 7,
@@ -705,12 +675,10 @@ export default {
         "human being"
       ],
       "optionReasons": {
-        "human-mcq-04": "本句指「一個人類個體，常強調基本身份、尊嚴或感受」。",
-        "human-mcq-03": "「一個／多個人類個體」與本句語境不同。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。",
-        "human-mcq-02": "「著重人的真實經歷、情感、動機和處境，而非抽象資料的」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。",
-        "human-mcq-01": "「與人類、人的生活或人的活動有關的」與本句語境不同。"
+        "human-mcq-04": "本句的「human being」指「一個人類個體，常強調基本身份、尊嚴或感受」。",
+        "human-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-04"
     },
@@ -722,11 +690,9 @@ export default {
       "masked": "He treated every student as a ____, not a number.",
       "options": [
         "human-mcq-04",
-        "human-mcq-03",
-        "human-mcq-05",
-        "human-mcq-02",
-        "human-mcq-06",
-        "human-mcq-01"
+        "human-mcq-07",
+        "human-mcq-18",
+        "human-mcq-11"
       ],
       "explanation": "本句的「human being」指「一個人類個體，常強調基本身份、尊嚴或感受」。",
       "sentenceIndex": 8,
@@ -735,12 +701,10 @@ export default {
         "human being"
       ],
       "optionReasons": {
-        "human-mcq-04": "本句指「一個人類個體，常強調基本身份、尊嚴或感受」。",
-        "human-mcq-03": "「一個／多個人類個體」與本句語境不同。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。",
-        "human-mcq-02": "「著重人的真實經歷、情感、動機和處境，而非抽象資料的」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。",
-        "human-mcq-01": "「與人類、人的生活或人的活動有關的」與本句語境不同。"
+        "human-mcq-04": "本句的「human being」指「一個人類個體，常強調基本身份、尊嚴或感受」。",
+        "human-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-04"
     },
@@ -752,11 +716,9 @@ export default {
       "masked": "It is only ____ to make mistakes.",
       "options": [
         "human-mcq-05",
-        "human-mcq-04",
-        "human-mcq-06",
         "human-mcq-03",
-        "human-mcq-07",
-        "human-mcq-02"
+        "human-mcq-14",
+        "human-mcq-07"
       ],
       "explanation": "本句的「human」指「符合一般人的情感、弱點或自然反應；人之常情的」。",
       "sentenceIndex": 9,
@@ -765,12 +727,10 @@ export default {
         "human"
       ],
       "optionReasons": {
-        "human-mcq-05": "本句指「符合一般人的情感、弱點或自然反應；人之常情的」。",
-        "human-mcq-04": "「一個人類個體，常強調基本身份、尊嚴或感受」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。",
-        "human-mcq-03": "「一個／多個人類個體」與本句語境不同。",
-        "human-mcq-07": "「由人的判斷、操作或注意力失誤造成的錯誤」與本句語境不同。",
-        "human-mcq-02": "「著重人的真實經歷、情感、動機和處境，而非抽象資料的」與本句語境不同。"
+        "human-mcq-05": "本句的「human」指「符合一般人的情感、弱點或自然反應；人之常情的」。",
+        "human-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-05"
     },
@@ -782,11 +742,9 @@ export default {
       "masked": "Feeling nervous before an interview is completely ____.",
       "options": [
         "human-mcq-05",
-        "human-mcq-04",
-        "human-mcq-06",
-        "human-mcq-03",
+        "human-mcq-13",
         "human-mcq-07",
-        "human-mcq-02"
+        "human-mcq-10"
       ],
       "explanation": "本句的「human」指「符合一般人的情感、弱點或自然反應；人之常情的」。",
       "sentenceIndex": 10,
@@ -795,12 +753,10 @@ export default {
         "human"
       ],
       "optionReasons": {
-        "human-mcq-05": "本句指「符合一般人的情感、弱點或自然反應；人之常情的」。",
-        "human-mcq-04": "「一個人類個體，常強調基本身份、尊嚴或感受」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。",
-        "human-mcq-03": "「一個／多個人類個體」與本句語境不同。",
-        "human-mcq-07": "「由人的判斷、操作或注意力失誤造成的錯誤」與本句語境不同。",
-        "human-mcq-02": "「著重人的真實經歷、情感、動機和處境，而非抽象資料的」與本句語境不同。"
+        "human-mcq-05": "本句的「human」指「符合一般人的情感、弱點或自然反應；人之常情的」。",
+        "human-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-05"
     },
@@ -812,11 +768,9 @@ export default {
       "masked": "The teacher had a very ____ way of speaking to students.",
       "options": [
         "human-mcq-06",
-        "human-mcq-05",
-        "human-mcq-07",
-        "human-mcq-04",
-        "human-mcq-08",
-        "human-mcq-03"
+        "human-mcq-09",
+        "human-mcq-10",
+        "human-mcq-05"
       ],
       "explanation": "本句的「human」指「具有同理心、溫度和真實感，而不是冷漠機械的」。",
       "sentenceIndex": 11,
@@ -825,12 +779,10 @@ export default {
         "human"
       ],
       "optionReasons": {
-        "human-mcq-06": "本句指「具有同理心、溫度和真實感，而不是冷漠機械的」。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。",
-        "human-mcq-07": "「由人的判斷、操作或注意力失誤造成的錯誤」與本句語境不同。",
-        "human-mcq-04": "「一個人類個體，常強調基本身份、尊嚴或感受」與本句語境不同。",
-        "human-mcq-08": "「人類普遍具有的情感、慾望、傾向和行為特徵」與本句語境不同。",
-        "human-mcq-03": "「一個／多個人類個體」與本句語境不同。"
+        "human-mcq-06": "本句的「human」指「具有同理心、溫度和真實感，而不是冷漠機械的」。",
+        "human-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-06"
     },
@@ -842,11 +794,9 @@ export default {
       "masked": "The company needs a more ____ approach to customer service.",
       "options": [
         "human-mcq-06",
-        "human-mcq-05",
-        "human-mcq-07",
-        "human-mcq-04",
-        "human-mcq-08",
-        "human-mcq-03"
+        "human-mcq-09",
+        "human-mcq-10",
+        "human-mcq-05"
       ],
       "explanation": "本句的「human」指「具有同理心、溫度和真實感，而不是冷漠機械的」。",
       "sentenceIndex": 12,
@@ -855,12 +805,10 @@ export default {
         "human"
       ],
       "optionReasons": {
-        "human-mcq-06": "本句指「具有同理心、溫度和真實感，而不是冷漠機械的」。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。",
-        "human-mcq-07": "「由人的判斷、操作或注意力失誤造成的錯誤」與本句語境不同。",
-        "human-mcq-04": "「一個人類個體，常強調基本身份、尊嚴或感受」與本句語境不同。",
-        "human-mcq-08": "「人類普遍具有的情感、慾望、傾向和行為特徵」與本句語境不同。",
-        "human-mcq-03": "「一個／多個人類個體」與本句語境不同。"
+        "human-mcq-06": "本句的「human」指「具有同理心、溫度和真實感，而不是冷漠機械的」。",
+        "human-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-06"
     },
@@ -872,11 +820,9 @@ export default {
       "masked": "The accident was caused by ____.",
       "options": [
         "human-mcq-07",
-        "human-mcq-06",
-        "human-mcq-08",
-        "human-mcq-05",
-        "human-mcq-09",
-        "human-mcq-04"
+        "human-mcq-18",
+        "human-mcq-19",
+        "human-mcq-17"
       ],
       "explanation": "本句的「human error」指「由人的判斷、操作或注意力失誤造成的錯誤」。",
       "sentenceIndex": 13,
@@ -885,12 +831,10 @@ export default {
         "human error"
       ],
       "optionReasons": {
-        "human-mcq-07": "本句指「由人的判斷、操作或注意力失誤造成的錯誤」。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。",
-        "human-mcq-08": "「人類普遍具有的情感、慾望、傾向和行為特徵」與本句語境不同。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。",
-        "human-mcq-09": "「每個人因其人類身份而應享有的基本權利與自由」與本句語境不同。",
-        "human-mcq-04": "「一個人類個體，常強調基本身份、尊嚴或感受」與本句語境不同。"
+        "human-mcq-07": "本句的「human error」指「由人的判斷、操作或注意力失誤造成的錯誤」。",
+        "human-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-07"
     },
@@ -902,11 +846,9 @@ export default {
       "masked": "The system is designed to reduce ____.",
       "options": [
         "human-mcq-07",
-        "human-mcq-06",
-        "human-mcq-08",
-        "human-mcq-05",
-        "human-mcq-09",
-        "human-mcq-04"
+        "human-mcq-01",
+        "human-mcq-10",
+        "human-mcq-18"
       ],
       "explanation": "本句的「human error」指「由人的判斷、操作或注意力失誤造成的錯誤」。",
       "sentenceIndex": 14,
@@ -915,12 +857,10 @@ export default {
         "human error"
       ],
       "optionReasons": {
-        "human-mcq-07": "本句指「由人的判斷、操作或注意力失誤造成的錯誤」。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。",
-        "human-mcq-08": "「人類普遍具有的情感、慾望、傾向和行為特徵」與本句語境不同。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。",
-        "human-mcq-09": "「每個人因其人類身份而應享有的基本權利與自由」與本句語境不同。",
-        "human-mcq-04": "「一個人類個體，常強調基本身份、尊嚴或感受」與本句語境不同。"
+        "human-mcq-07": "本句的「human error」指「由人的判斷、操作或注意力失誤造成的錯誤」。",
+        "human-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-07"
     },
@@ -933,10 +873,8 @@ export default {
       "options": [
         "human-mcq-08",
         "human-mcq-07",
-        "human-mcq-09",
-        "human-mcq-06",
         "human-mcq-10",
-        "human-mcq-05"
+        "human-mcq-18"
       ],
       "explanation": "本句的「human nature」指「人類普遍具有的情感、慾望、傾向和行為特徵」。",
       "sentenceIndex": 15,
@@ -945,12 +883,10 @@ export default {
         "human nature"
       ],
       "optionReasons": {
-        "human-mcq-08": "本句指「人類普遍具有的情感、慾望、傾向和行為特徵」。",
-        "human-mcq-07": "「由人的判斷、操作或注意力失誤造成的錯誤」與本句語境不同。",
-        "human-mcq-09": "「每個人因其人類身份而應享有的基本權利與自由」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。",
-        "human-mcq-10": "「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」與本句語境不同。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。"
+        "human-mcq-08": "本句的「human nature」指「人類普遍具有的情感、慾望、傾向和行為特徵」。",
+        "human-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-08"
     },
@@ -962,11 +898,8 @@ export default {
       "masked": "The novel explores both the good and bad sides of ____.",
       "options": [
         "human-mcq-08",
-        "human-mcq-07",
-        "human-mcq-09",
-        "human-mcq-06",
-        "human-mcq-10",
-        "human-mcq-05"
+        "human-mcq-20",
+        "human-mcq-10"
       ],
       "explanation": "本句的「human nature」指「人類普遍具有的情感、慾望、傾向和行為特徵」。",
       "sentenceIndex": 16,
@@ -975,12 +908,9 @@ export default {
         "human nature"
       ],
       "optionReasons": {
-        "human-mcq-08": "本句指「人類普遍具有的情感、慾望、傾向和行為特徵」。",
-        "human-mcq-07": "「由人的判斷、操作或注意力失誤造成的錯誤」與本句語境不同。",
-        "human-mcq-09": "「每個人因其人類身份而應享有的基本權利與自由」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。",
-        "human-mcq-10": "「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」與本句語境不同。",
-        "human-mcq-05": "「符合一般人的情感、弱點或自然反應；人之常情的」與本句語境不同。"
+        "human-mcq-08": "本句的「human nature」指「人類普遍具有的情感、慾望、傾向和行為特徵」。",
+        "human-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-08"
     },
@@ -992,11 +922,9 @@ export default {
       "masked": "The organisation works to protect ____.",
       "options": [
         "human-mcq-09",
-        "human-mcq-08",
-        "human-mcq-10",
-        "human-mcq-07",
-        "human-mcq-11",
-        "human-mcq-06"
+        "human-mcq-20",
+        "human-mcq-02",
+        "human-mcq-10"
       ],
       "explanation": "本句的「human rights」指「每個人因其人類身份而應享有的基本權利與自由」。",
       "sentenceIndex": 17,
@@ -1005,12 +933,10 @@ export default {
         "human rights"
       ],
       "optionReasons": {
-        "human-mcq-09": "本句指「每個人因其人類身份而應享有的基本權利與自由」。",
-        "human-mcq-08": "「人類普遍具有的情感、慾望、傾向和行為特徵」與本句語境不同。",
-        "human-mcq-10": "「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」與本句語境不同。",
-        "human-mcq-07": "「由人的判斷、操作或注意力失誤造成的錯誤」與本句語境不同。",
-        "human-mcq-11": "「人的知識、技能、經驗和能力所具有的經濟價值」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。"
+        "human-mcq-09": "本句的「human rights」指「每個人因其人類身份而應享有的基本權利與自由」。",
+        "human-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-09"
     },
@@ -1022,11 +948,9 @@ export default {
       "masked": "Freedom of expression is often discussed as a ____.",
       "options": [
         "human-mcq-09",
-        "human-mcq-08",
-        "human-mcq-10",
-        "human-mcq-07",
-        "human-mcq-11",
-        "human-mcq-06"
+        "human-mcq-14",
+        "human-mcq-02",
+        "human-mcq-17"
       ],
       "explanation": "本句的「human right」指「每個人因其人類身份而應享有的基本權利與自由」。",
       "sentenceIndex": 18,
@@ -1035,12 +959,10 @@ export default {
         "human right"
       ],
       "optionReasons": {
-        "human-mcq-09": "本句指「每個人因其人類身份而應享有的基本權利與自由」。",
-        "human-mcq-08": "「人類普遍具有的情感、慾望、傾向和行為特徵」與本句語境不同。",
-        "human-mcq-10": "「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」與本句語境不同。",
-        "human-mcq-07": "「由人的判斷、操作或注意力失誤造成的錯誤」與本句語境不同。",
-        "human-mcq-11": "「人的知識、技能、經驗和能力所具有的經濟價值」與本句語境不同。",
-        "human-mcq-06": "「具有同理心、溫度和真實感，而不是冷漠機械的」與本句語境不同。"
+        "human-mcq-09": "本句的「human right」指「每個人因其人類身份而應享有的基本權利與自由」。",
+        "human-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-09"
     },
@@ -1052,11 +974,9 @@ export default {
       "masked": "She works in ____.",
       "options": [
         "human-mcq-10",
-        "human-mcq-09",
         "human-mcq-11",
-        "human-mcq-08",
-        "human-mcq-12",
-        "human-mcq-07"
+        "human-mcq-18",
+        "human-mcq-13"
       ],
       "explanation": "本句的「human resources」指「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」。",
       "sentenceIndex": 19,
@@ -1065,12 +985,10 @@ export default {
         "human resources"
       ],
       "optionReasons": {
-        "human-mcq-10": "本句指「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」。",
-        "human-mcq-09": "「每個人因其人類身份而應享有的基本權利與自由」與本句語境不同。",
-        "human-mcq-11": "「人的知識、技能、經驗和能力所具有的經濟價值」與本句語境不同。",
-        "human-mcq-08": "「人類普遍具有的情感、慾望、傾向和行為特徵」與本句語境不同。",
-        "human-mcq-12": "「透過人物經歷、情感和處境引起共鳴的媒體角度」與本句語境不同。",
-        "human-mcq-07": "「由人的判斷、操作或注意力失誤造成的錯誤」與本句語境不同。"
+        "human-mcq-10": "本句的「human resources」指「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」。",
+        "human-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-10"
     },
@@ -1082,10 +1000,8 @@ export default {
       "masked": "Contact ____ if you have questions about your contract.",
       "options": [
         "human-mcq-10",
-        "human-mcq-09",
-        "human-mcq-11",
         "human-mcq-08",
-        "human-mcq-12",
+        "human-mcq-18",
         "human-mcq-07"
       ],
       "explanation": "本句的「HR」指「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」。",
@@ -1095,12 +1011,10 @@ export default {
         "HR"
       ],
       "optionReasons": {
-        "human-mcq-10": "本句指「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」。",
-        "human-mcq-09": "「每個人因其人類身份而應享有的基本權利與自由」與本句語境不同。",
-        "human-mcq-11": "「人的知識、技能、經驗和能力所具有的經濟價值」與本句語境不同。",
-        "human-mcq-08": "「人類普遍具有的情感、慾望、傾向和行為特徵」與本句語境不同。",
-        "human-mcq-12": "「透過人物經歷、情感和處境引起共鳴的媒體角度」與本句語境不同。",
-        "human-mcq-07": "「由人的判斷、操作或注意力失誤造成的錯誤」與本句語境不同。"
+        "human-mcq-10": "本句的「HR」指「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」。",
+        "human-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-10"
     },
@@ -1112,11 +1026,9 @@ export default {
       "masked": "Education increases a country’s ____.",
       "options": [
         "human-mcq-11",
-        "human-mcq-10",
-        "human-mcq-12",
-        "human-mcq-09",
-        "human-mcq-13",
-        "human-mcq-08"
+        "human-mcq-03",
+        "human-mcq-05",
+        "human-mcq-10"
       ],
       "explanation": "本句的「human capital」指「人的知識、技能、經驗和能力所具有的經濟價值」。",
       "sentenceIndex": 21,
@@ -1125,12 +1037,10 @@ export default {
         "human capital"
       ],
       "optionReasons": {
-        "human-mcq-11": "本句指「人的知識、技能、經驗和能力所具有的經濟價值」。",
-        "human-mcq-10": "「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」與本句語境不同。",
-        "human-mcq-12": "「透過人物經歷、情感和處境引起共鳴的媒體角度」與本句語境不同。",
-        "human-mcq-09": "「每個人因其人類身份而應享有的基本權利與自由」與本句語境不同。",
-        "human-mcq-13": "「全體人類作為一個整體」與本句語境不同。",
-        "human-mcq-08": "「人類普遍具有的情感、慾望、傾向和行為特徵」與本句語境不同。"
+        "human-mcq-11": "本句的「human capital」指「人的知識、技能、經驗和能力所具有的經濟價值」。",
+        "human-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-11"
     },
@@ -1142,11 +1052,9 @@ export default {
       "masked": "The company invests heavily in ____ capital.",
       "options": [
         "human-mcq-11",
-        "human-mcq-10",
-        "human-mcq-12",
-        "human-mcq-09",
-        "human-mcq-13",
-        "human-mcq-08"
+        "human-mcq-19",
+        "human-mcq-21",
+        "human-mcq-05"
       ],
       "explanation": "本句的「human」指「人的知識、技能、經驗和能力所具有的經濟價值」。",
       "sentenceIndex": 22,
@@ -1155,12 +1063,10 @@ export default {
         "human"
       ],
       "optionReasons": {
-        "human-mcq-11": "本句指「人的知識、技能、經驗和能力所具有的經濟價值」。",
-        "human-mcq-10": "「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」與本句語境不同。",
-        "human-mcq-12": "「透過人物經歷、情感和處境引起共鳴的媒體角度」與本句語境不同。",
-        "human-mcq-09": "「每個人因其人類身份而應享有的基本權利與自由」與本句語境不同。",
-        "human-mcq-13": "「全體人類作為一個整體」與本句語境不同。",
-        "human-mcq-08": "「人類普遍具有的情感、慾望、傾向和行為特徵」與本句語境不同。"
+        "human-mcq-11": "本句的「human」指「人的知識、技能、經驗和能力所具有的經濟價值」。",
+        "human-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-11"
     },
@@ -1172,11 +1078,9 @@ export default {
       "masked": "The report includes a strong ____.",
       "options": [
         "human-mcq-12",
-        "human-mcq-11",
-        "human-mcq-13",
-        "human-mcq-10",
-        "human-mcq-14",
-        "human-mcq-09"
+        "human-mcq-09",
+        "human-mcq-18",
+        "human-mcq-11"
       ],
       "explanation": "本句的「human-interest story」指「透過人物經歷、情感和處境引起共鳴的媒體角度」。",
       "sentenceIndex": 23,
@@ -1185,12 +1089,10 @@ export default {
         "human-interest story"
       ],
       "optionReasons": {
-        "human-mcq-12": "本句指「透過人物經歷、情感和處境引起共鳴的媒體角度」。",
-        "human-mcq-11": "「人的知識、技能、經驗和能力所具有的經濟價值」與本句語境不同。",
-        "human-mcq-13": "「全體人類作為一個整體」與本句語境不同。",
-        "human-mcq-10": "「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」與本句語境不同。",
-        "human-mcq-14": "「對他人痛苦具有同情、關懷和尊重的人道特質」與本句語境不同。",
-        "human-mcq-09": "「每個人因其人類身份而應享有的基本權利與自由」與本句語境不同。"
+        "human-mcq-12": "本句的「human-interest story」指「透過人物經歷、情感和處境引起共鳴的媒體角度」。",
+        "human-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-12"
     },
@@ -1202,11 +1104,9 @@ export default {
       "masked": "The journalist added a ____ angle to the article.",
       "options": [
         "human-mcq-12",
-        "human-mcq-11",
-        "human-mcq-13",
-        "human-mcq-10",
-        "human-mcq-14",
-        "human-mcq-09"
+        "human-mcq-09",
+        "human-mcq-18",
+        "human-mcq-11"
       ],
       "explanation": "本句的「human-interest」指「透過人物經歷、情感和處境引起共鳴的媒體角度」。",
       "sentenceIndex": 24,
@@ -1215,12 +1115,10 @@ export default {
         "human-interest"
       ],
       "optionReasons": {
-        "human-mcq-12": "本句指「透過人物經歷、情感和處境引起共鳴的媒體角度」。",
-        "human-mcq-11": "「人的知識、技能、經驗和能力所具有的經濟價值」與本句語境不同。",
-        "human-mcq-13": "「全體人類作為一個整體」與本句語境不同。",
-        "human-mcq-10": "「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」與本句語境不同。",
-        "human-mcq-14": "「對他人痛苦具有同情、關懷和尊重的人道特質」與本句語境不同。",
-        "human-mcq-09": "「每個人因其人類身份而應享有的基本權利與自由」與本句語境不同。"
+        "human-mcq-12": "本句的「human-interest」指「透過人物經歷、情感和處境引起共鳴的媒體角度」。",
+        "human-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-12"
     },
@@ -1232,11 +1130,9 @@ export default {
       "masked": "Climate change affects all of ____.",
       "options": [
         "human-mcq-13",
-        "human-mcq-12",
-        "human-mcq-14",
-        "human-mcq-11",
-        "human-mcq-15",
-        "human-mcq-10"
+        "human-mcq-18",
+        "human-mcq-17",
+        "human-mcq-16"
       ],
       "explanation": "本句的「humanity」指「全體人類作為一個整體」。",
       "sentenceIndex": 25,
@@ -1245,12 +1141,10 @@ export default {
         "humanity"
       ],
       "optionReasons": {
-        "human-mcq-13": "本句指「全體人類作為一個整體」。",
-        "human-mcq-12": "「透過人物經歷、情感和處境引起共鳴的媒體角度」與本句語境不同。",
-        "human-mcq-14": "「對他人痛苦具有同情、關懷和尊重的人道特質」與本句語境不同。",
-        "human-mcq-11": "「人的知識、技能、經驗和能力所具有的經濟價值」與本句語境不同。",
-        "human-mcq-15": "「研究人類文化、思想、歷史、語言和藝術的人文學科」與本句語境不同。",
-        "human-mcq-10": "「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」與本句語境不同。"
+        "human-mcq-13": "本句的「humanity」指「全體人類作為一個整體」。",
+        "human-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-13"
     },
@@ -1262,11 +1156,8 @@ export default {
       "masked": "The invention changed the course of ____.",
       "options": [
         "human-mcq-13",
-        "human-mcq-12",
-        "human-mcq-14",
-        "human-mcq-11",
-        "human-mcq-15",
-        "human-mcq-10"
+        "human-mcq-16",
+        "human-mcq-20"
       ],
       "explanation": "本句的「humanity」指「全體人類作為一個整體」。",
       "sentenceIndex": 26,
@@ -1275,12 +1166,9 @@ export default {
         "humanity"
       ],
       "optionReasons": {
-        "human-mcq-13": "本句指「全體人類作為一個整體」。",
-        "human-mcq-12": "「透過人物經歷、情感和處境引起共鳴的媒體角度」與本句語境不同。",
-        "human-mcq-14": "「對他人痛苦具有同情、關懷和尊重的人道特質」與本句語境不同。",
-        "human-mcq-11": "「人的知識、技能、經驗和能力所具有的經濟價值」與本句語境不同。",
-        "human-mcq-15": "「研究人類文化、思想、歷史、語言和藝術的人文學科」與本句語境不同。",
-        "human-mcq-10": "「與員工招聘、培訓、政策和僱傭關係有關的企業職能／部門」與本句語境不同。"
+        "human-mcq-13": "本句的「humanity」指「全體人類作為一個整體」。",
+        "human-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-13"
     },
@@ -1292,11 +1180,9 @@ export default {
       "masked": "She showed great ____ toward the victims.",
       "options": [
         "human-mcq-14",
-        "human-mcq-13",
+        "human-mcq-05",
         "human-mcq-15",
-        "human-mcq-12",
-        "human-mcq-16",
-        "human-mcq-11"
+        "human-mcq-17"
       ],
       "explanation": "本句的「humanity」指「對他人痛苦具有同情、關懷和尊重的人道特質」。",
       "sentenceIndex": 27,
@@ -1305,12 +1191,10 @@ export default {
         "humanity"
       ],
       "optionReasons": {
-        "human-mcq-14": "本句指「對他人痛苦具有同情、關懷和尊重的人道特質」。",
-        "human-mcq-13": "「全體人類作為一個整體」與本句語境不同。",
-        "human-mcq-15": "「研究人類文化、思想、歷史、語言和藝術的人文學科」與本句語境不同。",
-        "human-mcq-12": "「透過人物經歷、情感和處境引起共鳴的媒體角度」與本句語境不同。",
-        "human-mcq-16": "「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」與本句語境不同。",
-        "human-mcq-11": "「人的知識、技能、經驗和能力所具有的經濟價值」與本句語境不同。"
+        "human-mcq-14": "本句的「humanity」指「對他人痛苦具有同情、關懷和尊重的人道特質」。",
+        "human-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-14"
     },
@@ -1323,10 +1207,8 @@ export default {
       "options": [
         "human-mcq-14",
         "human-mcq-13",
-        "human-mcq-15",
-        "human-mcq-12",
-        "human-mcq-16",
-        "human-mcq-11"
+        "human-mcq-05",
+        "human-mcq-07"
       ],
       "explanation": "本句的「humanity」指「對他人痛苦具有同情、關懷和尊重的人道特質」。",
       "sentenceIndex": 28,
@@ -1335,12 +1217,10 @@ export default {
         "humanity"
       ],
       "optionReasons": {
-        "human-mcq-14": "本句指「對他人痛苦具有同情、關懷和尊重的人道特質」。",
-        "human-mcq-13": "「全體人類作為一個整體」與本句語境不同。",
-        "human-mcq-15": "「研究人類文化、思想、歷史、語言和藝術的人文學科」與本句語境不同。",
-        "human-mcq-12": "「透過人物經歷、情感和處境引起共鳴的媒體角度」與本句語境不同。",
-        "human-mcq-16": "「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」與本句語境不同。",
-        "human-mcq-11": "「人的知識、技能、經驗和能力所具有的經濟價值」與本句語境不同。"
+        "human-mcq-14": "本句的「humanity」指「對他人痛苦具有同情、關懷和尊重的人道特質」。",
+        "human-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-14"
     },
@@ -1352,11 +1232,9 @@ export default {
       "masked": "He studied the ____ at university.",
       "options": [
         "human-mcq-15",
-        "human-mcq-14",
-        "human-mcq-16",
-        "human-mcq-13",
-        "human-mcq-17",
-        "human-mcq-12"
+        "human-mcq-21",
+        "human-mcq-05",
+        "human-mcq-06"
       ],
       "explanation": "本句的「humanities」指「研究人類文化、思想、歷史、語言和藝術的人文學科」。",
       "sentenceIndex": 29,
@@ -1365,12 +1243,10 @@ export default {
         "humanities"
       ],
       "optionReasons": {
-        "human-mcq-15": "本句指「研究人類文化、思想、歷史、語言和藝術的人文學科」。",
-        "human-mcq-14": "「對他人痛苦具有同情、關懷和尊重的人道特質」與本句語境不同。",
-        "human-mcq-16": "「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」與本句語境不同。",
-        "human-mcq-13": "「全體人類作為一個整體」與本句語境不同。",
-        "human-mcq-17": "「令制度、服務、故事等更重視人的需要與感受的過程」與本句語境不同。",
-        "human-mcq-12": "「透過人物經歷、情感和處境引起共鳴的媒體角度」與本句語境不同。"
+        "human-mcq-15": "本句的「humanities」指「研究人類文化、思想、歷史、語言和藝術的人文學科」。",
+        "human-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-15"
     },
@@ -1382,11 +1258,9 @@ export default {
       "masked": "History is often grouped with the ____.",
       "options": [
         "human-mcq-15",
-        "human-mcq-14",
-        "human-mcq-16",
-        "human-mcq-13",
-        "human-mcq-17",
-        "human-mcq-12"
+        "human-mcq-05",
+        "human-mcq-20",
+        "human-mcq-11"
       ],
       "explanation": "本句的「humanities」指「研究人類文化、思想、歷史、語言和藝術的人文學科」。",
       "sentenceIndex": 30,
@@ -1395,12 +1269,10 @@ export default {
         "humanities"
       ],
       "optionReasons": {
-        "human-mcq-15": "本句指「研究人類文化、思想、歷史、語言和藝術的人文學科」。",
-        "human-mcq-14": "「對他人痛苦具有同情、關懷和尊重的人道特質」與本句語境不同。",
-        "human-mcq-16": "「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」與本句語境不同。",
-        "human-mcq-13": "「全體人類作為一個整體」與本句語境不同。",
-        "human-mcq-17": "「令制度、服務、故事等更重視人的需要與感受的過程」與本句語境不同。",
-        "human-mcq-12": "「透過人物經歷、情感和處境引起共鳴的媒體角度」與本句語境不同。"
+        "human-mcq-15": "本句的「humanities」指「研究人類文化、思想、歷史、語言和藝術的人文學科」。",
+        "human-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-15"
     },
@@ -1412,11 +1284,8 @@ export default {
       "masked": "Personal stories help ____ historical events.",
       "options": [
         "human-mcq-16",
-        "human-mcq-15",
-        "human-mcq-17",
-        "human-mcq-14",
-        "human-mcq-18",
-        "human-mcq-13"
+        "human-mcq-20",
+        "human-mcq-19"
       ],
       "explanation": "本句的「humanise」指「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」。",
       "sentenceIndex": 31,
@@ -1425,12 +1294,9 @@ export default {
         "humanise"
       ],
       "optionReasons": {
-        "human-mcq-16": "本句指「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」。",
-        "human-mcq-15": "「研究人類文化、思想、歷史、語言和藝術的人文學科」與本句語境不同。",
-        "human-mcq-17": "「令制度、服務、故事等更重視人的需要與感受的過程」與本句語境不同。",
-        "human-mcq-14": "「對他人痛苦具有同情、關懷和尊重的人道特質」與本句語境不同。",
-        "human-mcq-18": "「對人或動物有同情心、盡量避免不必要痛苦的」與本句語境不同。",
-        "human-mcq-13": "「全體人類作為一個整體」與本句語境不同。"
+        "human-mcq-16": "本句的「humanise」指「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」。",
+        "human-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-16"
     },
@@ -1442,11 +1308,9 @@ export default {
       "masked": "The documentary ____ people who are often reduced to statistics.",
       "options": [
         "human-mcq-16",
-        "human-mcq-15",
-        "human-mcq-17",
-        "human-mcq-14",
+        "human-mcq-01",
         "human-mcq-18",
-        "human-mcq-13"
+        "human-mcq-17"
       ],
       "explanation": "本句的「humanises」指「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」。",
       "sentenceIndex": 32,
@@ -1455,12 +1319,10 @@ export default {
         "humanises"
       ],
       "optionReasons": {
-        "human-mcq-16": "本句指「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」。",
-        "human-mcq-15": "「研究人類文化、思想、歷史、語言和藝術的人文學科」與本句語境不同。",
-        "human-mcq-17": "「令制度、服務、故事等更重視人的需要與感受的過程」與本句語境不同。",
-        "human-mcq-14": "「對他人痛苦具有同情、關懷和尊重的人道特質」與本句語境不同。",
-        "human-mcq-18": "「對人或動物有同情心、盡量避免不必要痛苦的」與本句語境不同。",
-        "human-mcq-13": "「全體人類作為一個整體」與本句語境不同。"
+        "human-mcq-16": "本句的「humanises」指「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」。",
+        "human-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-16"
     },
@@ -1472,11 +1334,9 @@ export default {
       "masked": "The campaign called for the ____ of public services.",
       "options": [
         "human-mcq-17",
-        "human-mcq-16",
-        "human-mcq-18",
-        "human-mcq-15",
-        "human-mcq-19",
-        "human-mcq-14"
+        "human-mcq-07",
+        "human-mcq-01",
+        "human-mcq-11"
       ],
       "explanation": "本句的「humanisation」指「令制度、服務、故事等更重視人的需要與感受的過程」。",
       "sentenceIndex": 33,
@@ -1485,12 +1345,10 @@ export default {
         "humanisation"
       ],
       "optionReasons": {
-        "human-mcq-17": "本句指「令制度、服務、故事等更重視人的需要與感受的過程」。",
-        "human-mcq-16": "「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」與本句語境不同。",
-        "human-mcq-18": "「對人或動物有同情心、盡量避免不必要痛苦的」與本句語境不同。",
-        "human-mcq-15": "「研究人類文化、思想、歷史、語言和藝術的人文學科」與本句語境不同。",
-        "human-mcq-19": "「不屬於人類，或極端得超出正常人類程度的」與本句語境不同。",
-        "human-mcq-14": "「對他人痛苦具有同情、關懷和尊重的人道特質」與本句語境不同。"
+        "human-mcq-17": "本句的「humanisation」指「令制度、服務、故事等更重視人的需要與感受的過程」。",
+        "human-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-17"
     },
@@ -1502,11 +1360,9 @@ export default {
       "masked": "The ____ of the story made it more memorable.",
       "options": [
         "human-mcq-17",
-        "human-mcq-16",
-        "human-mcq-18",
+        "human-mcq-11",
         "human-mcq-15",
-        "human-mcq-19",
-        "human-mcq-14"
+        "human-mcq-18"
       ],
       "explanation": "本句的「humanisation」指「令制度、服務、故事等更重視人的需要與感受的過程」。",
       "sentenceIndex": 34,
@@ -1515,12 +1371,10 @@ export default {
         "humanisation"
       ],
       "optionReasons": {
-        "human-mcq-17": "本句指「令制度、服務、故事等更重視人的需要與感受的過程」。",
-        "human-mcq-16": "「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」與本句語境不同。",
-        "human-mcq-18": "「對人或動物有同情心、盡量避免不必要痛苦的」與本句語境不同。",
-        "human-mcq-15": "「研究人類文化、思想、歷史、語言和藝術的人文學科」與本句語境不同。",
-        "human-mcq-19": "「不屬於人類，或極端得超出正常人類程度的」與本句語境不同。",
-        "human-mcq-14": "「對他人痛苦具有同情、關懷和尊重的人道特質」與本句語境不同。"
+        "human-mcq-17": "本句的「humanisation」指「令制度、服務、故事等更重視人的需要與感受的過程」。",
+        "human-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-17"
     },
@@ -1532,11 +1386,9 @@ export default {
       "masked": "Animals should be treated in a ____ way.",
       "options": [
         "human-mcq-18",
-        "human-mcq-17",
-        "human-mcq-19",
-        "human-mcq-16",
-        "human-mcq-20",
-        "human-mcq-15"
+        "human-mcq-11",
+        "human-mcq-09",
+        "human-mcq-10"
       ],
       "explanation": "本句的「humane」指「對人或動物有同情心、盡量避免不必要痛苦的」。",
       "sentenceIndex": 35,
@@ -1545,12 +1397,10 @@ export default {
         "humane"
       ],
       "optionReasons": {
-        "human-mcq-18": "本句指「對人或動物有同情心、盡量避免不必要痛苦的」。",
-        "human-mcq-17": "「令制度、服務、故事等更重視人的需要與感受的過程」與本句語境不同。",
-        "human-mcq-19": "「不屬於人類，或極端得超出正常人類程度的」與本句語境不同。",
-        "human-mcq-16": "「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」與本句語境不同。",
-        "human-mcq-20": "「缺乏同情、造成不必要痛苦或違反人道原則的」與本句語境不同。",
-        "human-mcq-15": "「研究人類文化、思想、歷史、語言和藝術的人文學科」與本句語境不同。"
+        "human-mcq-18": "本句的「humane」指「對人或動物有同情心、盡量避免不必要痛苦的」。",
+        "human-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-18"
     },
@@ -1562,11 +1412,9 @@ export default {
       "masked": "They are looking for a more ____ solution.",
       "options": [
         "human-mcq-18",
-        "human-mcq-17",
-        "human-mcq-19",
-        "human-mcq-16",
-        "human-mcq-20",
-        "human-mcq-15"
+        "human-mcq-08",
+        "human-mcq-10",
+        "human-mcq-07"
       ],
       "explanation": "本句的「humane」指「對人或動物有同情心、盡量避免不必要痛苦的」。",
       "sentenceIndex": 36,
@@ -1575,12 +1423,10 @@ export default {
         "humane"
       ],
       "optionReasons": {
-        "human-mcq-18": "本句指「對人或動物有同情心、盡量避免不必要痛苦的」。",
-        "human-mcq-17": "「令制度、服務、故事等更重視人的需要與感受的過程」與本句語境不同。",
-        "human-mcq-19": "「不屬於人類，或極端得超出正常人類程度的」與本句語境不同。",
-        "human-mcq-16": "「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」與本句語境不同。",
-        "human-mcq-20": "「缺乏同情、造成不必要痛苦或違反人道原則的」與本句語境不同。",
-        "human-mcq-15": "「研究人類文化、思想、歷史、語言和藝術的人文學科」與本句語境不同。"
+        "human-mcq-18": "本句的「humane」指「對人或動物有同情心、盡量避免不必要痛苦的」。",
+        "human-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-18"
     },
@@ -1592,11 +1438,9 @@ export default {
       "masked": "The creature looked almost ____.",
       "options": [
         "human-mcq-19",
-        "human-mcq-18",
         "human-mcq-20",
-        "human-mcq-17",
-        "human-mcq-21",
-        "human-mcq-16"
+        "human-mcq-10",
+        "human-mcq-02"
       ],
       "explanation": "本句的「inhuman」指「不屬於人類，或極端得超出正常人類程度的」。",
       "sentenceIndex": 37,
@@ -1605,12 +1449,10 @@ export default {
         "inhuman"
       ],
       "optionReasons": {
-        "human-mcq-19": "本句指「不屬於人類，或極端得超出正常人類程度的」。",
-        "human-mcq-18": "「對人或動物有同情心、盡量避免不必要痛苦的」與本句語境不同。",
-        "human-mcq-20": "「缺乏同情、造成不必要痛苦或違反人道原則的」與本句語境不同。",
-        "human-mcq-17": "「令制度、服務、故事等更重視人的需要與感受的過程」與本句語境不同。",
-        "human-mcq-21": "「以保護生命、減輕痛苦和援助有需要人士為目的的」與本句語境不同。",
-        "human-mcq-16": "「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」與本句語境不同。"
+        "human-mcq-19": "本句的「inhuman」指「不屬於人類，或極端得超出正常人類程度的」。",
+        "human-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-19"
     },
@@ -1622,11 +1464,9 @@ export default {
       "masked": "The workload was almost ____.",
       "options": [
         "human-mcq-19",
+        "human-mcq-10",
         "human-mcq-18",
-        "human-mcq-20",
-        "human-mcq-17",
-        "human-mcq-21",
-        "human-mcq-16"
+        "human-mcq-11"
       ],
       "explanation": "本句的「inhuman」指「不屬於人類，或極端得超出正常人類程度的」。",
       "sentenceIndex": 38,
@@ -1635,12 +1475,10 @@ export default {
         "inhuman"
       ],
       "optionReasons": {
-        "human-mcq-19": "本句指「不屬於人類，或極端得超出正常人類程度的」。",
-        "human-mcq-18": "「對人或動物有同情心、盡量避免不必要痛苦的」與本句語境不同。",
-        "human-mcq-20": "「缺乏同情、造成不必要痛苦或違反人道原則的」與本句語境不同。",
-        "human-mcq-17": "「令制度、服務、故事等更重視人的需要與感受的過程」與本句語境不同。",
-        "human-mcq-21": "「以保護生命、減輕痛苦和援助有需要人士為目的的」與本句語境不同。",
-        "human-mcq-16": "「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」與本句語境不同。"
+        "human-mcq-19": "本句的「inhuman」指「不屬於人類，或極端得超出正常人類程度的」。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-19"
     },
@@ -1652,11 +1490,9 @@ export default {
       "masked": "The prisoners were kept in ____.",
       "options": [
         "human-mcq-20",
-        "human-mcq-19",
-        "human-mcq-21",
-        "human-mcq-18",
-        "human-mcq-17",
-        "human-mcq-16"
+        "human-mcq-09",
+        "human-mcq-10",
+        "human-mcq-02"
       ],
       "explanation": "本句的「inhumane conditions」指「缺乏同情、造成不必要痛苦或違反人道原則的」。",
       "sentenceIndex": 39,
@@ -1665,12 +1501,10 @@ export default {
         "inhumane conditions"
       ],
       "optionReasons": {
-        "human-mcq-20": "本句指「缺乏同情、造成不必要痛苦或違反人道原則的」。",
-        "human-mcq-19": "「不屬於人類，或極端得超出正常人類程度的」與本句語境不同。",
-        "human-mcq-21": "「以保護生命、減輕痛苦和援助有需要人士為目的的」與本句語境不同。",
-        "human-mcq-18": "「對人或動物有同情心、盡量避免不必要痛苦的」與本句語境不同。",
-        "human-mcq-17": "「令制度、服務、故事等更重視人的需要與感受的過程」與本句語境不同。",
-        "human-mcq-16": "「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」與本句語境不同。"
+        "human-mcq-20": "本句的「inhumane conditions」指「缺乏同情、造成不必要痛苦或違反人道原則的」。",
+        "human-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-20"
     },
@@ -1682,11 +1516,8 @@ export default {
       "masked": "The treatment of the animals was clearly ____.",
       "options": [
         "human-mcq-20",
-        "human-mcq-19",
-        "human-mcq-21",
-        "human-mcq-18",
-        "human-mcq-17",
-        "human-mcq-16"
+        "human-mcq-16",
+        "human-mcq-03"
       ],
       "explanation": "本句的「inhumane」指「缺乏同情、造成不必要痛苦或違反人道原則的」。",
       "sentenceIndex": 40,
@@ -1695,12 +1526,9 @@ export default {
         "inhumane"
       ],
       "optionReasons": {
-        "human-mcq-20": "本句指「缺乏同情、造成不必要痛苦或違反人道原則的」。",
-        "human-mcq-19": "「不屬於人類，或極端得超出正常人類程度的」與本句語境不同。",
-        "human-mcq-21": "「以保護生命、減輕痛苦和援助有需要人士為目的的」與本句語境不同。",
-        "human-mcq-18": "「對人或動物有同情心、盡量避免不必要痛苦的」與本句語境不同。",
-        "human-mcq-17": "「令制度、服務、故事等更重視人的需要與感受的過程」與本句語境不同。",
-        "human-mcq-16": "「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」與本句語境不同。"
+        "human-mcq-20": "本句的「inhumane」指「缺乏同情、造成不必要痛苦或違反人道原則的」。",
+        "human-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-20"
     },
@@ -1712,11 +1540,8 @@ export default {
       "masked": "The organisation provides ____.",
       "options": [
         "human-mcq-21",
-        "human-mcq-20",
-        "human-mcq-19",
-        "human-mcq-18",
-        "human-mcq-17",
-        "human-mcq-16"
+        "human-mcq-08",
+        "human-mcq-07"
       ],
       "explanation": "本句的「humanitarian aid」指「以保護生命、減輕痛苦和援助有需要人士為目的的」。",
       "sentenceIndex": 41,
@@ -1725,12 +1550,9 @@ export default {
         "humanitarian aid"
       ],
       "optionReasons": {
-        "human-mcq-21": "本句指「以保護生命、減輕痛苦和援助有需要人士為目的的」。",
-        "human-mcq-20": "「缺乏同情、造成不必要痛苦或違反人道原則的」與本句語境不同。",
-        "human-mcq-19": "「不屬於人類，或極端得超出正常人類程度的」與本句語境不同。",
-        "human-mcq-18": "「對人或動物有同情心、盡量避免不必要痛苦的」與本句語境不同。",
-        "human-mcq-17": "「令制度、服務、故事等更重視人的需要與感受的過程」與本句語境不同。",
-        "human-mcq-16": "「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」與本句語境不同。"
+        "human-mcq-21": "本句的「humanitarian aid」指「以保護生命、減輕痛苦和援助有需要人士為目的的」。",
+        "human-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-21"
     },
@@ -1742,11 +1564,8 @@ export default {
       "masked": "Thousands of people needed ____ assistance after the disaster.",
       "options": [
         "human-mcq-21",
-        "human-mcq-20",
-        "human-mcq-19",
-        "human-mcq-18",
-        "human-mcq-17",
-        "human-mcq-16"
+        "human-mcq-07",
+        "human-mcq-08"
       ],
       "explanation": "本句的「humanitarian」指「以保護生命、減輕痛苦和援助有需要人士為目的的」。",
       "sentenceIndex": 42,
@@ -1755,12 +1574,9 @@ export default {
         "humanitarian"
       ],
       "optionReasons": {
-        "human-mcq-21": "本句指「以保護生命、減輕痛苦和援助有需要人士為目的的」。",
-        "human-mcq-20": "「缺乏同情、造成不必要痛苦或違反人道原則的」與本句語境不同。",
-        "human-mcq-19": "「不屬於人類，或極端得超出正常人類程度的」與本句語境不同。",
-        "human-mcq-18": "「對人或動物有同情心、盡量避免不必要痛苦的」與本句語境不同。",
-        "human-mcq-17": "「令制度、服務、故事等更重視人的需要與感受的過程」與本句語境不同。",
-        "human-mcq-16": "「令某人／某事物呈現更多人的情感、尊嚴和真實經驗」與本句語境不同。"
+        "human-mcq-21": "本句的「humanitarian」指「以保護生命、減輕痛苦和援助有需要人士為目的的」。",
+        "human-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "human-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "human-mcq-21"
     }
@@ -1772,5 +1588,7 @@ export default {
     "sha256": "367f813077a2466026081252422765895a023109a1cb9b676a0d20dceffe2e3d",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

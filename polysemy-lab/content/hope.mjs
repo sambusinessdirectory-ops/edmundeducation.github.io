@@ -171,7 +171,7 @@ export default {
     },
     {
       "id": "hope-mcq-08",
-      "title": "表示說話者希望接下來所述的事情會發生",
+      "title": "說話者希望接下來所述的事情會發生",
       "form": "hopefully — sentence adverb",
       "en": "hopefully — sentence adverb",
       "zh": "表示說話者希望接下來所述的事情會發生",
@@ -369,7 +369,7 @@ export default {
     },
     {
       "id": "hope-mcq-17",
-      "title": "表示失去／放棄希望",
+      "title": "失去／放棄希望",
       "form": "Fixed expression: lose / give up hope — 失去／放棄希望",
       "en": "Fixed expression: lose / give up hope — 失去／放棄希望",
       "zh": "表示失去／放棄希望",
@@ -399,11 +399,7 @@ export default {
       "masked": "In the future, I ____ I can stay as curious as he is.",
       "options": [
         "hope-mcq-01",
-        "hope-mcq-02",
-        "hope-mcq-03",
-        "hope-mcq-04",
-        "hope-mcq-05",
-        "hope-mcq-06"
+        "hope-mcq-13"
       ],
       "explanation": "本句的「hope」指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
       "sentenceIndex": 0,
@@ -412,12 +408,8 @@ export default {
         "hope"
       ],
       "optionReasons": {
-        "hope-mcq-01": "本句指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
-        "hope-mcq-02": "「相信某個理想結果仍有可能發生而產生的期待、信念和希望」是「hope — feeling/belief」的用法，與本句語境不同。",
-        "hope-mcq-03": "「某人希望將來能實現的一個具體願望、期望或理想結果」是「a hope / hopes — particular wish」的用法，與本句語境不同。",
-        "hope-mcq-04": "「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」是「hope — source of possibility」的用法，與本句語境不同。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。"
+        "hope-mcq-01": "本句的「hope」指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
+        "hope-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-01"
     },
@@ -429,11 +421,7 @@ export default {
       "masked": "I ____ everything goes well tomorrow.",
       "options": [
         "hope-mcq-01",
-        "hope-mcq-02",
-        "hope-mcq-03",
-        "hope-mcq-04",
-        "hope-mcq-05",
-        "hope-mcq-06"
+        "hope-mcq-13"
       ],
       "explanation": "本句的「hope」指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
       "sentenceIndex": 1,
@@ -442,12 +430,8 @@ export default {
         "hope"
       ],
       "optionReasons": {
-        "hope-mcq-01": "本句指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
-        "hope-mcq-02": "「相信某個理想結果仍有可能發生而產生的期待、信念和希望」是「hope — feeling/belief」的用法，與本句語境不同。",
-        "hope-mcq-03": "「某人希望將來能實現的一個具體願望、期望或理想結果」是「a hope / hopes — particular wish」的用法，與本句語境不同。",
-        "hope-mcq-04": "「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」是「hope — source of possibility」的用法，與本句語境不同。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。"
+        "hope-mcq-01": "本句的「hope」指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
+        "hope-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-01"
     },
@@ -459,11 +443,7 @@ export default {
       "masked": "She ____ become a journalist one day.",
       "options": [
         "hope-mcq-01",
-        "hope-mcq-02",
-        "hope-mcq-03",
-        "hope-mcq-04",
-        "hope-mcq-05",
-        "hope-mcq-06"
+        "hope-mcq-13"
       ],
       "explanation": "本句的「hopes to」指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
       "sentenceIndex": 2,
@@ -472,12 +452,8 @@ export default {
         "hopes to"
       ],
       "optionReasons": {
-        "hope-mcq-01": "本句指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
-        "hope-mcq-02": "「相信某個理想結果仍有可能發生而產生的期待、信念和希望」是「hope — feeling/belief」的用法，與本句語境不同。",
-        "hope-mcq-03": "「某人希望將來能實現的一個具體願望、期望或理想結果」是「a hope / hopes — particular wish」的用法，與本句語境不同。",
-        "hope-mcq-04": "「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」是「hope — source of possibility」的用法，與本句語境不同。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。"
+        "hope-mcq-01": "本句的「hopes to」指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
+        "hope-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-01"
     },
@@ -489,11 +465,7 @@ export default {
       "masked": "We are ____ good weather.",
       "options": [
         "hope-mcq-01",
-        "hope-mcq-02",
-        "hope-mcq-03",
-        "hope-mcq-04",
-        "hope-mcq-05",
-        "hope-mcq-06"
+        "hope-mcq-13"
       ],
       "explanation": "本句的「hoping for」指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
       "sentenceIndex": 3,
@@ -502,12 +474,8 @@ export default {
         "hoping for"
       ],
       "optionReasons": {
-        "hope-mcq-01": "本句指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
-        "hope-mcq-02": "「相信某個理想結果仍有可能發生而產生的期待、信念和希望」是「hope — feeling/belief」的用法，與本句語境不同。",
-        "hope-mcq-03": "「某人希望將來能實現的一個具體願望、期望或理想結果」是「a hope / hopes — particular wish」的用法，與本句語境不同。",
-        "hope-mcq-04": "「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」是「hope — source of possibility」的用法，與本句語境不同。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。"
+        "hope-mcq-01": "本句的「hoping for」指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
+        "hope-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-01"
     },
@@ -519,11 +487,7 @@ export default {
       "masked": "She ____ a positive result.",
       "options": [
         "hope-mcq-01",
-        "hope-mcq-02",
-        "hope-mcq-03",
-        "hope-mcq-04",
-        "hope-mcq-05",
-        "hope-mcq-06"
+        "hope-mcq-10"
       ],
       "explanation": "本句的「hoped for」指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
       "sentenceIndex": 4,
@@ -532,12 +496,8 @@ export default {
         "hoped for"
       ],
       "optionReasons": {
-        "hope-mcq-01": "本句指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
-        "hope-mcq-02": "「相信某個理想結果仍有可能發生而產生的期待、信念和希望」是「hope — feeling/belief」的用法，與本句語境不同。",
-        "hope-mcq-03": "「某人希望將來能實現的一個具體願望、期望或理想結果」是「a hope / hopes — particular wish」的用法，與本句語境不同。",
-        "hope-mcq-04": "「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」是「hope — source of possibility」的用法，與本句語境不同。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。"
+        "hope-mcq-01": "本句的「hoped for」指「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-01"
     },
@@ -549,11 +509,7 @@ export default {
       "masked": "There is still ____ that the situation will improve.",
       "options": [
         "hope-mcq-02",
-        "hope-mcq-01",
-        "hope-mcq-03",
-        "hope-mcq-04",
-        "hope-mcq-05",
-        "hope-mcq-06"
+        "hope-mcq-13"
       ],
       "explanation": "本句的「hope」指「相信某個理想結果仍有可能發生而產生的期待、信念和希望」。",
       "sentenceIndex": 5,
@@ -562,12 +518,8 @@ export default {
         "hope"
       ],
       "optionReasons": {
-        "hope-mcq-02": "本句指「相信某個理想結果仍有可能發生而產生的期待、信念和希望」。",
-        "hope-mcq-01": "「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」是「hope — verb」的用法，與本句語境不同。",
-        "hope-mcq-03": "「某人希望將來能實現的一個具體願望、期望或理想結果」是「a hope / hopes — particular wish」的用法，與本句語境不同。",
-        "hope-mcq-04": "「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」是「hope — source of possibility」的用法，與本句語境不同。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。"
+        "hope-mcq-02": "本句的「hope」指「相信某個理想結果仍有可能發生而產生的期待、信念和希望」。",
+        "hope-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-02"
     },
@@ -579,11 +531,7 @@ export default {
       "masked": "She refused to give up ____.",
       "options": [
         "hope-mcq-02",
-        "hope-mcq-01",
-        "hope-mcq-03",
-        "hope-mcq-04",
-        "hope-mcq-05",
-        "hope-mcq-06"
+        "hope-mcq-10"
       ],
       "explanation": "本句的「hope」指「相信某個理想結果仍有可能發生而產生的期待、信念和希望」。",
       "sentenceIndex": 6,
@@ -592,12 +540,8 @@ export default {
         "hope"
       ],
       "optionReasons": {
-        "hope-mcq-02": "本句指「相信某個理想結果仍有可能發生而產生的期待、信念和希望」。",
-        "hope-mcq-01": "「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」是「hope — verb」的用法，與本句語境不同。",
-        "hope-mcq-03": "「某人希望將來能實現的一個具體願望、期望或理想結果」是「a hope / hopes — particular wish」的用法，與本句語境不同。",
-        "hope-mcq-04": "「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」是「hope — source of possibility」的用法，與本句語境不同。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。"
+        "hope-mcq-02": "本句的「hope」指「相信某個理想結果仍有可能發生而產生的期待、信念和希望」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-02"
     },
@@ -609,11 +553,8 @@ export default {
       "masked": "Her greatest ____ is to travel the world.",
       "options": [
         "hope-mcq-03",
-        "hope-mcq-02",
-        "hope-mcq-04",
-        "hope-mcq-01",
-        "hope-mcq-05",
-        "hope-mcq-06"
+        "hope-mcq-10",
+        "hope-mcq-11"
       ],
       "explanation": "本句的「hope」指「某人希望將來能實現的一個具體願望、期望或理想結果」。",
       "sentenceIndex": 7,
@@ -622,12 +563,9 @@ export default {
         "hope"
       ],
       "optionReasons": {
-        "hope-mcq-03": "本句指「某人希望將來能實現的一個具體願望、期望或理想結果」。",
-        "hope-mcq-02": "「相信某個理想結果仍有可能發生而產生的期待、信念和希望」是「hope — feeling/belief」的用法，與本句語境不同。",
-        "hope-mcq-04": "「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」是「hope — source of possibility」的用法，與本句語境不同。",
-        "hope-mcq-01": "「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」是「hope — verb」的用法，與本句語境不同。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。"
+        "hope-mcq-03": "本句的「hope」指「某人希望將來能實現的一個具體願望、期望或理想結果」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-03"
     },
@@ -639,11 +577,8 @@ export default {
       "masked": "They have high ____ for the new project.",
       "options": [
         "hope-mcq-03",
-        "hope-mcq-02",
-        "hope-mcq-04",
-        "hope-mcq-01",
-        "hope-mcq-05",
-        "hope-mcq-06"
+        "hope-mcq-10",
+        "hope-mcq-11"
       ],
       "explanation": "本句的「hopes」指「某人希望將來能實現的一個具體願望、期望或理想結果」。",
       "sentenceIndex": 8,
@@ -652,12 +587,9 @@ export default {
         "hopes"
       ],
       "optionReasons": {
-        "hope-mcq-03": "本句指「某人希望將來能實現的一個具體願望、期望或理想結果」。",
-        "hope-mcq-02": "「相信某個理想結果仍有可能發生而產生的期待、信念和希望」是「hope — feeling/belief」的用法，與本句語境不同。",
-        "hope-mcq-04": "「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」是「hope — source of possibility」的用法，與本句語境不同。",
-        "hope-mcq-01": "「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」是「hope — verb」的用法，與本句語境不同。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。"
+        "hope-mcq-03": "本句的「hopes」指「某人希望將來能實現的一個具體願望、期望或理想結果」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-03"
     },
@@ -669,11 +601,8 @@ export default {
       "masked": "The new treatment may be their best ____.",
       "options": [
         "hope-mcq-04",
-        "hope-mcq-03",
-        "hope-mcq-05",
-        "hope-mcq-02",
-        "hope-mcq-06",
-        "hope-mcq-01"
+        "hope-mcq-14",
+        "hope-mcq-10"
       ],
       "explanation": "本句的「hope」指「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」。",
       "sentenceIndex": 9,
@@ -682,12 +611,9 @@ export default {
         "hope"
       ],
       "optionReasons": {
-        "hope-mcq-04": "本句指「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」。",
-        "hope-mcq-03": "「某人希望將來能實現的一個具體願望、期望或理想結果」是「a hope / hopes — particular wish」的用法，與本句語境不同。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。",
-        "hope-mcq-02": "「相信某個理想結果仍有可能發生而產生的期待、信念和希望」是「hope — feeling/belief」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。",
-        "hope-mcq-01": "「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」是「hope — verb」的用法，與本句語境不同。"
+        "hope-mcq-04": "本句的「hope」指「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」。",
+        "hope-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-04"
     },
@@ -699,11 +625,8 @@ export default {
       "masked": "She was the team’s last ____ of winning.",
       "options": [
         "hope-mcq-04",
-        "hope-mcq-03",
-        "hope-mcq-05",
-        "hope-mcq-02",
-        "hope-mcq-06",
-        "hope-mcq-01"
+        "hope-mcq-17",
+        "hope-mcq-10"
       ],
       "explanation": "本句的「hope」指「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」。",
       "sentenceIndex": 10,
@@ -712,12 +635,9 @@ export default {
         "hope"
       ],
       "optionReasons": {
-        "hope-mcq-04": "本句指「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」。",
-        "hope-mcq-03": "「某人希望將來能實現的一個具體願望、期望或理想結果」是「a hope / hopes — particular wish」的用法，與本句語境不同。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。",
-        "hope-mcq-02": "「相信某個理想結果仍有可能發生而產生的期待、信念和希望」是「hope — feeling/belief」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。",
-        "hope-mcq-01": "「希望某件理想或令人期待的事情將來會發生，並認為它具有一定可能性」是「hope — verb」的用法，與本句語境不同。"
+        "hope-mcq-04": "本句的「hope」指「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」。",
+        "hope-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-04"
     },
@@ -729,11 +649,8 @@ export default {
       "masked": "Is there any ____ of finding the missing document?",
       "options": [
         "hope-mcq-05",
-        "hope-mcq-04",
-        "hope-mcq-06",
-        "hope-mcq-03",
-        "hope-mcq-07",
-        "hope-mcq-02"
+        "hope-mcq-10",
+        "hope-mcq-07"
       ],
       "explanation": "本句的「hope」指「某個理想結果實際仍然可能發生的程度或可能性」。",
       "sentenceIndex": 11,
@@ -742,12 +659,9 @@ export default {
         "hope"
       ],
       "optionReasons": {
-        "hope-mcq-05": "本句指「某個理想結果實際仍然可能發生的程度或可能性」。",
-        "hope-mcq-04": "「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」是「hope — source of possibility」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。",
-        "hope-mcq-03": "「某人希望將來能實現的一個具體願望、期望或理想結果」是「a hope / hopes — particular wish」的用法，與本句語境不同。",
-        "hope-mcq-07": "「帶着希望、期待或樂觀情緒地」是「hopefully — manner」的用法，與本句語境不同。",
-        "hope-mcq-02": "「相信某個理想結果仍有可能發生而產生的期待、信念和希望」是「hope — feeling/belief」的用法，與本句語境不同。"
+        "hope-mcq-05": "本句的「hope」指「某個理想結果實際仍然可能發生的程度或可能性」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-05"
     },
@@ -759,11 +673,8 @@ export default {
       "masked": "There is little ____ of finishing on time.",
       "options": [
         "hope-mcq-05",
-        "hope-mcq-04",
-        "hope-mcq-06",
-        "hope-mcq-03",
-        "hope-mcq-07",
-        "hope-mcq-02"
+        "hope-mcq-10",
+        "hope-mcq-07"
       ],
       "explanation": "本句的「hope」指「某個理想結果實際仍然可能發生的程度或可能性」。",
       "sentenceIndex": 12,
@@ -772,12 +683,9 @@ export default {
         "hope"
       ],
       "optionReasons": {
-        "hope-mcq-05": "本句指「某個理想結果實際仍然可能發生的程度或可能性」。",
-        "hope-mcq-04": "「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」是「hope — source of possibility」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。",
-        "hope-mcq-03": "「某人希望將來能實現的一個具體願望、期望或理想結果」是「a hope / hopes — particular wish」的用法，與本句語境不同。",
-        "hope-mcq-07": "「帶着希望、期待或樂觀情緒地」是「hopefully — manner」的用法，與本句語境不同。",
-        "hope-mcq-02": "「相信某個理想結果仍有可能發生而產生的期待、信念和希望」是「hope — feeling/belief」的用法，與本句語境不同。"
+        "hope-mcq-05": "本句的「hope」指「某個理想結果實際仍然可能發生的程度或可能性」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-05"
     },
@@ -789,11 +697,7 @@ export default {
       "masked": "She is ____ that the plan will succeed.",
       "options": [
         "hope-mcq-06",
-        "hope-mcq-05",
-        "hope-mcq-07",
-        "hope-mcq-04",
-        "hope-mcq-08",
-        "hope-mcq-03"
+        "hope-mcq-13"
       ],
       "explanation": "本句的「hopeful」指「相信理想結果仍有可能發生，因此保持希望或樂觀的」。",
       "sentenceIndex": 13,
@@ -802,12 +706,8 @@ export default {
         "hopeful"
       ],
       "optionReasons": {
-        "hope-mcq-06": "本句指「相信理想結果仍有可能發生，因此保持希望或樂觀的」。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。",
-        "hope-mcq-07": "「帶着希望、期待或樂觀情緒地」是「hopefully — manner」的用法，與本句語境不同。",
-        "hope-mcq-04": "「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」是「hope — source of possibility」的用法，與本句語境不同。",
-        "hope-mcq-08": "「表示說話者希望接下來所述的事情會發生」是「hopefully — sentence adverb」的用法，與本句語境不同。",
-        "hope-mcq-03": "「某人希望將來能實現的一個具體願望、期望或理想結果」是「a hope / hopes — particular wish」的用法，與本句語境不同。"
+        "hope-mcq-06": "本句的「hopeful」指「相信理想結果仍有可能發生，因此保持希望或樂觀的」。",
+        "hope-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-06"
     },
@@ -819,11 +719,7 @@ export default {
       "masked": "Despite the difficulties, he remained ____.",
       "options": [
         "hope-mcq-06",
-        "hope-mcq-05",
-        "hope-mcq-07",
-        "hope-mcq-04",
-        "hope-mcq-08",
-        "hope-mcq-03"
+        "hope-mcq-10"
       ],
       "explanation": "本句的「hopeful」指「相信理想結果仍有可能發生，因此保持希望或樂觀的」。",
       "sentenceIndex": 14,
@@ -832,12 +728,8 @@ export default {
         "hopeful"
       ],
       "optionReasons": {
-        "hope-mcq-06": "本句指「相信理想結果仍有可能發生，因此保持希望或樂觀的」。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。",
-        "hope-mcq-07": "「帶着希望、期待或樂觀情緒地」是「hopefully — manner」的用法，與本句語境不同。",
-        "hope-mcq-04": "「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」是「hope — source of possibility」的用法，與本句語境不同。",
-        "hope-mcq-08": "「表示說話者希望接下來所述的事情會發生」是「hopefully — sentence adverb」的用法，與本句語境不同。",
-        "hope-mcq-03": "「某人希望將來能實現的一個具體願望、期望或理想結果」是「a hope / hopes — particular wish」的用法，與本句語境不同。"
+        "hope-mcq-06": "本句的「hopeful」指「相信理想結果仍有可能發生，因此保持希望或樂觀的」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-06"
     },
@@ -849,11 +741,7 @@ export default {
       "masked": "The early results are ____.",
       "options": [
         "hope-mcq-12",
-        "hope-mcq-11",
-        "hope-mcq-13",
-        "hope-mcq-10",
-        "hope-mcq-14",
-        "hope-mcq-09"
+        "hope-mcq-10"
       ],
       "explanation": "本句的「hopeful」指「顯示事情可能有良好結果，因此令人產生希望的」。",
       "sentenceIndex": 15,
@@ -862,12 +750,8 @@ export default {
         "hopeful"
       ],
       "optionReasons": {
-        "hope-mcq-12": "本句指「顯示事情可能有良好結果，因此令人產生希望的」。",
-        "hope-mcq-11": "「覺得事情沒有改善或成功可能而產生的絕望狀態」是「hopelessness」的用法，與本句語境不同。",
-        "hope-mcq-13": "「程度非常嚴重或幾乎無法改善地」是「Related form: hopelessly」的用法，與本句語境不同。",
-        "hope-mcq-10": "「在某項活動或能力方面非常不擅長；較口語」是「hopeless at something」的用法，與本句語境不同。",
-        "hope-mcq-14": "「用 so / not 代替前面整個希望發生或不發生的內容」是「Fixed expression: I hope so / I hope not — 希望如此／希望不是」的用法，與本句語境不同。",
-        "hope-mcq-09": "「幾乎沒有成功、改善或得到理想結果的可能」是「hopeless — no chance」的用法，與本句語境不同。"
+        "hope-mcq-12": "本句的「hopeful」指「顯示事情可能有良好結果，因此令人產生希望的」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-12"
     },
@@ -879,11 +763,7 @@ export default {
       "masked": "There are some ____ of recovery.",
       "options": [
         "hope-mcq-12",
-        "hope-mcq-11",
-        "hope-mcq-13",
-        "hope-mcq-10",
-        "hope-mcq-14",
-        "hope-mcq-09"
+        "hope-mcq-13"
       ],
       "explanation": "本句的「hopeful signs」指「顯示事情可能有良好結果，因此令人產生希望的」。",
       "sentenceIndex": 16,
@@ -892,12 +772,8 @@ export default {
         "hopeful signs"
       ],
       "optionReasons": {
-        "hope-mcq-12": "本句指「顯示事情可能有良好結果，因此令人產生希望的」。",
-        "hope-mcq-11": "「覺得事情沒有改善或成功可能而產生的絕望狀態」是「hopelessness」的用法，與本句語境不同。",
-        "hope-mcq-13": "「程度非常嚴重或幾乎無法改善地」是「Related form: hopelessly」的用法，與本句語境不同。",
-        "hope-mcq-10": "「在某項活動或能力方面非常不擅長；較口語」是「hopeless at something」的用法，與本句語境不同。",
-        "hope-mcq-14": "「用 so / not 代替前面整個希望發生或不發生的內容」是「Fixed expression: I hope so / I hope not — 希望如此／希望不是」的用法，與本句語境不同。",
-        "hope-mcq-09": "「幾乎沒有成功、改善或得到理想結果的可能」是「hopeless — no chance」的用法，與本句語境不同。"
+        "hope-mcq-12": "本句的「hopeful signs」指「顯示事情可能有良好結果，因此令人產生希望的」。",
+        "hope-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-12"
     },
@@ -909,11 +785,8 @@ export default {
       "masked": "She looked at him ____.",
       "options": [
         "hope-mcq-07",
-        "hope-mcq-06",
-        "hope-mcq-08",
         "hope-mcq-05",
-        "hope-mcq-09",
-        "hope-mcq-04"
+        "hope-mcq-10"
       ],
       "explanation": "本句的「hopefully」指「帶着希望、期待或樂觀情緒地」。",
       "sentenceIndex": 17,
@@ -922,12 +795,9 @@ export default {
         "hopefully"
       ],
       "optionReasons": {
-        "hope-mcq-07": "本句指「帶着希望、期待或樂觀情緒地」。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。",
-        "hope-mcq-08": "「表示說話者希望接下來所述的事情會發生」是「hopefully — sentence adverb」的用法，與本句語境不同。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。",
-        "hope-mcq-09": "「幾乎沒有成功、改善或得到理想結果的可能」是「hopeless — no chance」的用法，與本句語境不同。",
-        "hope-mcq-04": "「被視為最有可能帶來改善、成功或理想結果的人、方法或事物」是「hope — source of possibility」的用法，與本句語境不同。"
+        "hope-mcq-07": "本句的「hopefully」指「帶着希望、期待或樂觀情緒地」。",
+        "hope-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-07"
     },
@@ -939,11 +809,8 @@ export default {
       "masked": "____, the weather will improve tomorrow.",
       "options": [
         "hope-mcq-08",
-        "hope-mcq-07",
-        "hope-mcq-09",
-        "hope-mcq-06",
         "hope-mcq-10",
-        "hope-mcq-05"
+        "hope-mcq-09"
       ],
       "explanation": "本句的「Hopefully」指「表示說話者希望接下來所述的事情會發生」。",
       "sentenceIndex": 18,
@@ -952,12 +819,9 @@ export default {
         "Hopefully"
       ],
       "optionReasons": {
-        "hope-mcq-08": "本句指「表示說話者希望接下來所述的事情會發生」。",
-        "hope-mcq-07": "「帶着希望、期待或樂觀情緒地」是「hopefully — manner」的用法，與本句語境不同。",
-        "hope-mcq-09": "「幾乎沒有成功、改善或得到理想結果的可能」是「hopeless — no chance」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。",
-        "hope-mcq-10": "「在某項活動或能力方面非常不擅長；較口語」是「hopeless at something」的用法，與本句語境不同。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。"
+        "hope-mcq-08": "本句的「Hopefully」指「表示說話者希望接下來所述的事情會發生」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-08"
     },
@@ -969,11 +833,8 @@ export default {
       "masked": "____, we’ll finish before six.",
       "options": [
         "hope-mcq-08",
-        "hope-mcq-07",
         "hope-mcq-09",
-        "hope-mcq-06",
-        "hope-mcq-10",
-        "hope-mcq-05"
+        "hope-mcq-10"
       ],
       "explanation": "本句的「Hopefully」指「表示說話者希望接下來所述的事情會發生」。",
       "sentenceIndex": 19,
@@ -982,12 +843,9 @@ export default {
         "Hopefully"
       ],
       "optionReasons": {
-        "hope-mcq-08": "本句指「表示說話者希望接下來所述的事情會發生」。",
-        "hope-mcq-07": "「帶着希望、期待或樂觀情緒地」是「hopefully — manner」的用法，與本句語境不同。",
-        "hope-mcq-09": "「幾乎沒有成功、改善或得到理想結果的可能」是「hopeless — no chance」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。",
-        "hope-mcq-10": "「在某項活動或能力方面非常不擅長；較口語」是「hopeless at something」的用法，與本句語境不同。",
-        "hope-mcq-05": "「某個理想結果實際仍然可能發生的程度或可能性」是「hope — chance/possibility」的用法，與本句語境不同。"
+        "hope-mcq-08": "本句的「Hopefully」指「表示說話者希望接下來所述的事情會發生」。",
+        "hope-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-08"
     },
@@ -999,11 +857,8 @@ export default {
       "masked": "The situation seemed ____.",
       "options": [
         "hope-mcq-09",
-        "hope-mcq-08",
-        "hope-mcq-10",
-        "hope-mcq-07",
-        "hope-mcq-11",
-        "hope-mcq-06"
+        "hope-mcq-14",
+        "hope-mcq-10"
       ],
       "explanation": "本句的「hopeless」指「幾乎沒有成功、改善或得到理想結果的可能」。",
       "sentenceIndex": 20,
@@ -1012,12 +867,9 @@ export default {
         "hopeless"
       ],
       "optionReasons": {
-        "hope-mcq-09": "本句指「幾乎沒有成功、改善或得到理想結果的可能」。",
-        "hope-mcq-08": "「表示說話者希望接下來所述的事情會發生」是「hopefully — sentence adverb」的用法，與本句語境不同。",
-        "hope-mcq-10": "「在某項活動或能力方面非常不擅長；較口語」是「hopeless at something」的用法，與本句語境不同。",
-        "hope-mcq-07": "「帶着希望、期待或樂觀情緒地」是「hopefully — manner」的用法，與本句語境不同。",
-        "hope-mcq-11": "「覺得事情沒有改善或成功可能而產生的絕望狀態」是「hopelessness」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。"
+        "hope-mcq-09": "本句的「hopeless」指「幾乎沒有成功、改善或得到理想結果的可能」。",
+        "hope-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-09"
     },
@@ -1029,11 +881,8 @@ export default {
       "masked": "They thought the rescue attempt was ____.",
       "options": [
         "hope-mcq-09",
-        "hope-mcq-08",
-        "hope-mcq-10",
-        "hope-mcq-07",
-        "hope-mcq-11",
-        "hope-mcq-06"
+        "hope-mcq-14",
+        "hope-mcq-10"
       ],
       "explanation": "本句的「hopeless」指「幾乎沒有成功、改善或得到理想結果的可能」。",
       "sentenceIndex": 21,
@@ -1042,12 +891,9 @@ export default {
         "hopeless"
       ],
       "optionReasons": {
-        "hope-mcq-09": "本句指「幾乎沒有成功、改善或得到理想結果的可能」。",
-        "hope-mcq-08": "「表示說話者希望接下來所述的事情會發生」是「hopefully — sentence adverb」的用法，與本句語境不同。",
-        "hope-mcq-10": "「在某項活動或能力方面非常不擅長；較口語」是「hopeless at something」的用法，與本句語境不同。",
-        "hope-mcq-07": "「帶着希望、期待或樂觀情緒地」是「hopefully — manner」的用法，與本句語境不同。",
-        "hope-mcq-11": "「覺得事情沒有改善或成功可能而產生的絕望狀態」是「hopelessness」的用法，與本句語境不同。",
-        "hope-mcq-06": "「相信理想結果仍有可能發生，因此保持希望或樂觀的」是「hopeful」的用法，與本句語境不同。"
+        "hope-mcq-09": "本句的「hopeless」指「幾乎沒有成功、改善或得到理想結果的可能」。",
+        "hope-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-09"
     },
@@ -1059,11 +905,8 @@ export default {
       "masked": "I’m ____ remembering names.",
       "options": [
         "hope-mcq-10",
-        "hope-mcq-09",
-        "hope-mcq-11",
-        "hope-mcq-08",
-        "hope-mcq-12",
-        "hope-mcq-07"
+        "hope-mcq-14",
+        "hope-mcq-09"
       ],
       "explanation": "本句的「hopeless at」指「在某項活動或能力方面非常不擅長；較口語」。",
       "sentenceIndex": 22,
@@ -1072,12 +915,9 @@ export default {
         "hopeless at"
       ],
       "optionReasons": {
-        "hope-mcq-10": "本句指「在某項活動或能力方面非常不擅長；較口語」。",
-        "hope-mcq-09": "「幾乎沒有成功、改善或得到理想結果的可能」是「hopeless — no chance」的用法，與本句語境不同。",
-        "hope-mcq-11": "「覺得事情沒有改善或成功可能而產生的絕望狀態」是「hopelessness」的用法，與本句語境不同。",
-        "hope-mcq-08": "「表示說話者希望接下來所述的事情會發生」是「hopefully — sentence adverb」的用法，與本句語境不同。",
-        "hope-mcq-12": "「顯示事情可能有良好結果，因此令人產生希望的」是「hopeful = promising / giving reason for hope（帶來希望的）」的用法，與本句語境不同。",
-        "hope-mcq-07": "「帶着希望、期待或樂觀情緒地」是「hopefully — manner」的用法，與本句語境不同。"
+        "hope-mcq-10": "本句的「hopeless at」指「在某項活動或能力方面非常不擅長；較口語」。",
+        "hope-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-10"
     },
@@ -1089,11 +929,7 @@ export default {
       "masked": "He’s ____ cooking.",
       "options": [
         "hope-mcq-10",
-        "hope-mcq-09",
-        "hope-mcq-11",
-        "hope-mcq-08",
-        "hope-mcq-12",
-        "hope-mcq-07"
+        "hope-mcq-15"
       ],
       "explanation": "本句的「hopeless at」指「在某項活動或能力方面非常不擅長；較口語」。",
       "sentenceIndex": 23,
@@ -1102,12 +938,8 @@ export default {
         "hopeless at"
       ],
       "optionReasons": {
-        "hope-mcq-10": "本句指「在某項活動或能力方面非常不擅長；較口語」。",
-        "hope-mcq-09": "「幾乎沒有成功、改善或得到理想結果的可能」是「hopeless — no chance」的用法，與本句語境不同。",
-        "hope-mcq-11": "「覺得事情沒有改善或成功可能而產生的絕望狀態」是「hopelessness」的用法，與本句語境不同。",
-        "hope-mcq-08": "「表示說話者希望接下來所述的事情會發生」是「hopefully — sentence adverb」的用法，與本句語境不同。",
-        "hope-mcq-12": "「顯示事情可能有良好結果，因此令人產生希望的」是「hopeful = promising / giving reason for hope（帶來希望的）」的用法，與本句語境不同。",
-        "hope-mcq-07": "「帶着希望、期待或樂觀情緒地」是「hopefully — manner」的用法，與本句語境不同。"
+        "hope-mcq-10": "本句的「hopeless at」指「在某項活動或能力方面非常不擅長；較口語」。",
+        "hope-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-10"
     },
@@ -1119,11 +951,8 @@ export default {
       "masked": "They were ____ lost.",
       "options": [
         "hope-mcq-13",
-        "hope-mcq-12",
         "hope-mcq-14",
-        "hope-mcq-11",
-        "hope-mcq-15",
-        "hope-mcq-10"
+        "hope-mcq-16"
       ],
       "explanation": "本句的「hopelessly」指「程度非常嚴重或幾乎無法改善地」。",
       "sentenceIndex": 24,
@@ -1132,12 +961,9 @@ export default {
         "hopelessly"
       ],
       "optionReasons": {
-        "hope-mcq-13": "本句指「程度非常嚴重或幾乎無法改善地」。",
-        "hope-mcq-12": "「顯示事情可能有良好結果，因此令人產生希望的」是「hopeful = promising / giving reason for hope（帶來希望的）」的用法，與本句語境不同。",
-        "hope-mcq-14": "「用 so / not 代替前面整個希望發生或不發生的內容」是「Fixed expression: I hope so / I hope not — 希望如此／希望不是」的用法，與本句語境不同。",
-        "hope-mcq-11": "「覺得事情沒有改善或成功可能而產生的絕望狀態」是「hopelessness」的用法，與本句語境不同。",
-        "hope-mcq-15": "「在無法完全控制結果的情況下，希望事情最終順利」是「Fixed expression: hope for the best — 希望有最好的結果」的用法，與本句語境不同。",
-        "hope-mcq-10": "「在某項活動或能力方面非常不擅長；較口語」是「hopeless at something」的用法，與本句語境不同。"
+        "hope-mcq-13": "本句的「hopelessly」指「程度非常嚴重或幾乎無法改善地」。",
+        "hope-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-13"
     },
@@ -1149,11 +975,7 @@ export default {
       "masked": "He is ____ optimistic.",
       "options": [
         "hope-mcq-13",
-        "hope-mcq-12",
-        "hope-mcq-14",
-        "hope-mcq-11",
-        "hope-mcq-15",
-        "hope-mcq-10"
+        "hope-mcq-01"
       ],
       "explanation": "本句的「hopelessly」指「程度非常嚴重或幾乎無法改善地」。",
       "sentenceIndex": 25,
@@ -1162,12 +984,8 @@ export default {
         "hopelessly"
       ],
       "optionReasons": {
-        "hope-mcq-13": "本句指「程度非常嚴重或幾乎無法改善地」。",
-        "hope-mcq-12": "「顯示事情可能有良好結果，因此令人產生希望的」是「hopeful = promising / giving reason for hope（帶來希望的）」的用法，與本句語境不同。",
-        "hope-mcq-14": "「用 so / not 代替前面整個希望發生或不發生的內容」是「Fixed expression: I hope so / I hope not — 希望如此／希望不是」的用法，與本句語境不同。",
-        "hope-mcq-11": "「覺得事情沒有改善或成功可能而產生的絕望狀態」是「hopelessness」的用法，與本句語境不同。",
-        "hope-mcq-15": "「在無法完全控制結果的情況下，希望事情最終順利」是「Fixed expression: hope for the best — 希望有最好的結果」的用法，與本句語境不同。",
-        "hope-mcq-10": "「在某項活動或能力方面非常不擅長；較口語」是「hopeless at something」的用法，與本句語境不同。"
+        "hope-mcq-13": "本句的「hopelessly」指「程度非常嚴重或幾乎無法改善地」。",
+        "hope-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-13"
     },
@@ -1180,10 +998,8 @@ export default {
       "options": [
         "hope-mcq-11",
         "hope-mcq-10",
-        "hope-mcq-12",
-        "hope-mcq-09",
-        "hope-mcq-13",
-        "hope-mcq-08"
+        "hope-mcq-17",
+        "hope-mcq-16"
       ],
       "explanation": "本句的「hopelessness」指「覺得事情沒有改善或成功可能而產生的絕望狀態」。",
       "sentenceIndex": 26,
@@ -1192,12 +1008,10 @@ export default {
         "hopelessness"
       ],
       "optionReasons": {
-        "hope-mcq-11": "本句指「覺得事情沒有改善或成功可能而產生的絕望狀態」。",
-        "hope-mcq-10": "「在某項活動或能力方面非常不擅長；較口語」是「hopeless at something」的用法，與本句語境不同。",
-        "hope-mcq-12": "「顯示事情可能有良好結果，因此令人產生希望的」是「hopeful = promising / giving reason for hope（帶來希望的）」的用法，與本句語境不同。",
-        "hope-mcq-09": "「幾乎沒有成功、改善或得到理想結果的可能」是「hopeless — no chance」的用法，與本句語境不同。",
-        "hope-mcq-13": "「程度非常嚴重或幾乎無法改善地」是「Related form: hopelessly」的用法，與本句語境不同。",
-        "hope-mcq-08": "「表示說話者希望接下來所述的事情會發生」是「hopefully — sentence adverb」的用法，與本句語境不同。"
+        "hope-mcq-11": "本句的「hopelessness」指「覺得事情沒有改善或成功可能而產生的絕望狀態」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-11"
     },
@@ -1210,10 +1024,8 @@ export default {
       "options": [
         "hope-mcq-11",
         "hope-mcq-10",
-        "hope-mcq-12",
-        "hope-mcq-09",
-        "hope-mcq-13",
-        "hope-mcq-08"
+        "hope-mcq-16",
+        "hope-mcq-07"
       ],
       "explanation": "本句的「hopelessness」指「覺得事情沒有改善或成功可能而產生的絕望狀態」。",
       "sentenceIndex": 27,
@@ -1222,12 +1034,10 @@ export default {
         "hopelessness"
       ],
       "optionReasons": {
-        "hope-mcq-11": "本句指「覺得事情沒有改善或成功可能而產生的絕望狀態」。",
-        "hope-mcq-10": "「在某項活動或能力方面非常不擅長；較口語」是「hopeless at something」的用法，與本句語境不同。",
-        "hope-mcq-12": "「顯示事情可能有良好結果，因此令人產生希望的」是「hopeful = promising / giving reason for hope（帶來希望的）」的用法，與本句語境不同。",
-        "hope-mcq-09": "「幾乎沒有成功、改善或得到理想結果的可能」是「hopeless — no chance」的用法，與本句語境不同。",
-        "hope-mcq-13": "「程度非常嚴重或幾乎無法改善地」是「Related form: hopelessly」的用法，與本句語境不同。",
-        "hope-mcq-08": "「表示說話者希望接下來所述的事情會發生」是「hopefully — sentence adverb」的用法，與本句語境不同。"
+        "hope-mcq-11": "本句的「hopelessness」指「覺得事情沒有改善或成功可能而產生的絕望狀態」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-11"
     },
@@ -1239,11 +1049,8 @@ export default {
       "masked": "Will he come tomorrow?” > “I ____.",
       "options": [
         "hope-mcq-14",
-        "hope-mcq-13",
-        "hope-mcq-15",
-        "hope-mcq-12",
-        "hope-mcq-16",
-        "hope-mcq-11"
+        "hope-mcq-10",
+        "hope-mcq-04"
       ],
       "explanation": "本句的「hope so」指「用 so / not 代替前面整個希望發生或不發生的內容」。",
       "sentenceIndex": 28,
@@ -1252,12 +1059,9 @@ export default {
         "hope so"
       ],
       "optionReasons": {
-        "hope-mcq-14": "本句指「用 so / not 代替前面整個希望發生或不發生的內容」。",
-        "hope-mcq-13": "「程度非常嚴重或幾乎無法改善地」是「Related form: hopelessly」的用法，與本句語境不同。",
-        "hope-mcq-15": "「在無法完全控制結果的情況下，希望事情最終順利」是「Fixed expression: hope for the best — 希望有最好的結果」的用法，與本句語境不同。",
-        "hope-mcq-12": "「顯示事情可能有良好結果，因此令人產生希望的」是「hopeful = promising / giving reason for hope（帶來希望的）」的用法，與本句語境不同。",
-        "hope-mcq-16": "「開始對某個理想結果抱有很高期望，尤其當結果仍不確定時」是「Fixed expression: get your hopes up — 抱太大期望」的用法，與本句語境不同。",
-        "hope-mcq-11": "「覺得事情沒有改善或成功可能而產生的絕望狀態」是「hopelessness」的用法，與本句語境不同。"
+        "hope-mcq-14": "本句的「hope so」指「用 so / not 代替前面整個希望發生或不發生的內容」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-14"
     },
@@ -1269,11 +1073,8 @@ export default {
       "masked": "Do you think it will rain?” > “I ____.",
       "options": [
         "hope-mcq-14",
-        "hope-mcq-13",
-        "hope-mcq-15",
-        "hope-mcq-12",
-        "hope-mcq-16",
-        "hope-mcq-11"
+        "hope-mcq-10",
+        "hope-mcq-04"
       ],
       "explanation": "本句的「hope not」指「用 so / not 代替前面整個希望發生或不發生的內容」。",
       "sentenceIndex": 29,
@@ -1282,12 +1083,9 @@ export default {
         "hope not"
       ],
       "optionReasons": {
-        "hope-mcq-14": "本句指「用 so / not 代替前面整個希望發生或不發生的內容」。",
-        "hope-mcq-13": "「程度非常嚴重或幾乎無法改善地」是「Related form: hopelessly」的用法，與本句語境不同。",
-        "hope-mcq-15": "「在無法完全控制結果的情況下，希望事情最終順利」是「Fixed expression: hope for the best — 希望有最好的結果」的用法，與本句語境不同。",
-        "hope-mcq-12": "「顯示事情可能有良好結果，因此令人產生希望的」是「hopeful = promising / giving reason for hope（帶來希望的）」的用法，與本句語境不同。",
-        "hope-mcq-16": "「開始對某個理想結果抱有很高期望，尤其當結果仍不確定時」是「Fixed expression: get your hopes up — 抱太大期望」的用法，與本句語境不同。",
-        "hope-mcq-11": "「覺得事情沒有改善或成功可能而產生的絕望狀態」是「hopelessness」的用法，與本句語境不同。"
+        "hope-mcq-14": "本句的「hope not」指「用 so / not 代替前面整個希望發生或不發生的內容」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-14"
     },
@@ -1299,11 +1097,7 @@ export default {
       "masked": "We’ve done everything we can. Now we just have to ____.",
       "options": [
         "hope-mcq-15",
-        "hope-mcq-14",
-        "hope-mcq-16",
-        "hope-mcq-13",
-        "hope-mcq-17",
-        "hope-mcq-12"
+        "hope-mcq-10"
       ],
       "explanation": "本句的「hope for the best」指「在無法完全控制結果的情況下，希望事情最終順利」。",
       "sentenceIndex": 30,
@@ -1312,12 +1106,8 @@ export default {
         "hope for the best"
       ],
       "optionReasons": {
-        "hope-mcq-15": "本句指「在無法完全控制結果的情況下，希望事情最終順利」。",
-        "hope-mcq-14": "「用 so / not 代替前面整個希望發生或不發生的內容」是「Fixed expression: I hope so / I hope not — 希望如此／希望不是」的用法，與本句語境不同。",
-        "hope-mcq-16": "「開始對某個理想結果抱有很高期望，尤其當結果仍不確定時」是「Fixed expression: get your hopes up — 抱太大期望」的用法，與本句語境不同。",
-        "hope-mcq-13": "「程度非常嚴重或幾乎無法改善地」是「Related form: hopelessly」的用法，與本句語境不同。",
-        "hope-mcq-17": "「表示失去／放棄希望」是「Fixed expression: lose / give up hope — 失去／放棄希望」的用法，與本句語境不同。",
-        "hope-mcq-12": "「顯示事情可能有良好結果，因此令人產生希望的」是「hopeful = promising / giving reason for hope（帶來希望的）」的用法，與本句語境不同。"
+        "hope-mcq-15": "本句的「hope for the best」指「在無法完全控制結果的情況下，希望事情最終順利」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-15"
     },
@@ -1329,11 +1119,7 @@ export default {
       "masked": "She submitted the application and ____.",
       "options": [
         "hope-mcq-15",
-        "hope-mcq-14",
-        "hope-mcq-16",
-        "hope-mcq-13",
-        "hope-mcq-17",
-        "hope-mcq-12"
+        "hope-mcq-10"
       ],
       "explanation": "本句的「hoped for the best」指「在無法完全控制結果的情況下，希望事情最終順利」。",
       "sentenceIndex": 31,
@@ -1342,12 +1128,8 @@ export default {
         "hoped for the best"
       ],
       "optionReasons": {
-        "hope-mcq-15": "本句指「在無法完全控制結果的情況下，希望事情最終順利」。",
-        "hope-mcq-14": "「用 so / not 代替前面整個希望發生或不發生的內容」是「Fixed expression: I hope so / I hope not — 希望如此／希望不是」的用法，與本句語境不同。",
-        "hope-mcq-16": "「開始對某個理想結果抱有很高期望，尤其當結果仍不確定時」是「Fixed expression: get your hopes up — 抱太大期望」的用法，與本句語境不同。",
-        "hope-mcq-13": "「程度非常嚴重或幾乎無法改善地」是「Related form: hopelessly」的用法，與本句語境不同。",
-        "hope-mcq-17": "「表示失去／放棄希望」是「Fixed expression: lose / give up hope — 失去／放棄希望」的用法，與本句語境不同。",
-        "hope-mcq-12": "「顯示事情可能有良好結果，因此令人產生希望的」是「hopeful = promising / giving reason for hope（帶來希望的）」的用法，與本句語境不同。"
+        "hope-mcq-15": "本句的「hoped for the best」指「在無法完全控制結果的情況下，希望事情最終順利」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-15"
     },
@@ -1359,11 +1141,8 @@ export default {
       "masked": "Don’t ____ until we know the result.",
       "options": [
         "hope-mcq-16",
-        "hope-mcq-15",
-        "hope-mcq-17",
-        "hope-mcq-14",
-        "hope-mcq-13",
-        "hope-mcq-12"
+        "hope-mcq-10",
+        "hope-mcq-14"
       ],
       "explanation": "本句的「get your hopes up」指「開始對某個理想結果抱有很高期望，尤其當結果仍不確定時」。",
       "sentenceIndex": 32,
@@ -1372,12 +1151,9 @@ export default {
         "get your hopes up"
       ],
       "optionReasons": {
-        "hope-mcq-16": "本句指「開始對某個理想結果抱有很高期望，尤其當結果仍不確定時」。",
-        "hope-mcq-15": "「在無法完全控制結果的情況下，希望事情最終順利」是「Fixed expression: hope for the best — 希望有最好的結果」的用法，與本句語境不同。",
-        "hope-mcq-17": "「表示失去／放棄希望」是「Fixed expression: lose / give up hope — 失去／放棄希望」的用法，與本句語境不同。",
-        "hope-mcq-14": "「用 so / not 代替前面整個希望發生或不發生的內容」是「Fixed expression: I hope so / I hope not — 希望如此／希望不是」的用法，與本句語境不同。",
-        "hope-mcq-13": "「程度非常嚴重或幾乎無法改善地」是「Related form: hopelessly」的用法，與本句語境不同。",
-        "hope-mcq-12": "「顯示事情可能有良好結果，因此令人產生希望的」是「hopeful = promising / giving reason for hope（帶來希望的）」的用法，與本句語境不同。"
+        "hope-mcq-16": "本句的「get your hopes up」指「開始對某個理想結果抱有很高期望，尤其當結果仍不確定時」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-16"
     },
@@ -1389,11 +1165,8 @@ export default {
       "masked": "I don’t want to get my ____ too early.",
       "options": [
         "hope-mcq-16",
-        "hope-mcq-15",
-        "hope-mcq-17",
-        "hope-mcq-14",
         "hope-mcq-13",
-        "hope-mcq-12"
+        "hope-mcq-17"
       ],
       "explanation": "本句的「hopes up」指「開始對某個理想結果抱有很高期望，尤其當結果仍不確定時」。",
       "sentenceIndex": 33,
@@ -1402,12 +1175,9 @@ export default {
         "hopes up"
       ],
       "optionReasons": {
-        "hope-mcq-16": "本句指「開始對某個理想結果抱有很高期望，尤其當結果仍不確定時」。",
-        "hope-mcq-15": "「在無法完全控制結果的情況下，希望事情最終順利」是「Fixed expression: hope for the best — 希望有最好的結果」的用法，與本句語境不同。",
-        "hope-mcq-17": "「表示失去／放棄希望」是「Fixed expression: lose / give up hope — 失去／放棄希望」的用法，與本句語境不同。",
-        "hope-mcq-14": "「用 so / not 代替前面整個希望發生或不發生的內容」是「Fixed expression: I hope so / I hope not — 希望如此／希望不是」的用法，與本句語境不同。",
-        "hope-mcq-13": "「程度非常嚴重或幾乎無法改善地」是「Related form: hopelessly」的用法，與本句語境不同。",
-        "hope-mcq-12": "「顯示事情可能有良好結果，因此令人產生希望的」是「hopeful = promising / giving reason for hope（帶來希望的）」的用法，與本句語境不同。"
+        "hope-mcq-16": "本句的「hopes up」指「開始對某個理想結果抱有很高期望，尤其當結果仍不確定時」。",
+        "hope-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-16"
     },
@@ -1419,11 +1189,8 @@ export default {
       "masked": "They never ____.",
       "options": [
         "hope-mcq-17",
-        "hope-mcq-16",
-        "hope-mcq-15",
-        "hope-mcq-14",
-        "hope-mcq-13",
-        "hope-mcq-12"
+        "hope-mcq-05",
+        "hope-mcq-10"
       ],
       "explanation": "本句的「gave up hope」指「表示失去／放棄希望」。",
       "sentenceIndex": 34,
@@ -1432,12 +1199,9 @@ export default {
         "gave up hope"
       ],
       "optionReasons": {
-        "hope-mcq-17": "本句指「表示失去／放棄希望」。",
-        "hope-mcq-16": "「開始對某個理想結果抱有很高期望，尤其當結果仍不確定時」是「Fixed expression: get your hopes up — 抱太大期望」的用法，與本句語境不同。",
-        "hope-mcq-15": "「在無法完全控制結果的情況下，希望事情最終順利」是「Fixed expression: hope for the best — 希望有最好的結果」的用法，與本句語境不同。",
-        "hope-mcq-14": "「用 so / not 代替前面整個希望發生或不發生的內容」是「Fixed expression: I hope so / I hope not — 希望如此／希望不是」的用法，與本句語境不同。",
-        "hope-mcq-13": "「程度非常嚴重或幾乎無法改善地」是「Related form: hopelessly」的用法，與本句語境不同。",
-        "hope-mcq-12": "「顯示事情可能有良好結果，因此令人產生希望的」是「hopeful = promising / giving reason for hope（帶來希望的）」的用法，與本句語境不同。"
+        "hope-mcq-17": "本句的「gave up hope」指「表示失去／放棄希望」。",
+        "hope-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-17"
     },
@@ -1449,11 +1213,8 @@ export default {
       "masked": "She was beginning to ____.",
       "options": [
         "hope-mcq-17",
-        "hope-mcq-16",
-        "hope-mcq-15",
-        "hope-mcq-14",
-        "hope-mcq-13",
-        "hope-mcq-12"
+        "hope-mcq-10",
+        "hope-mcq-04"
       ],
       "explanation": "本句的「lose hope」指「表示失去／放棄希望」。",
       "sentenceIndex": 35,
@@ -1462,12 +1223,9 @@ export default {
         "lose hope"
       ],
       "optionReasons": {
-        "hope-mcq-17": "本句指「表示失去／放棄希望」。",
-        "hope-mcq-16": "「開始對某個理想結果抱有很高期望，尤其當結果仍不確定時」是「Fixed expression: get your hopes up — 抱太大期望」的用法，與本句語境不同。",
-        "hope-mcq-15": "「在無法完全控制結果的情況下，希望事情最終順利」是「Fixed expression: hope for the best — 希望有最好的結果」的用法，與本句語境不同。",
-        "hope-mcq-14": "「用 so / not 代替前面整個希望發生或不發生的內容」是「Fixed expression: I hope so / I hope not — 希望如此／希望不是」的用法，與本句語境不同。",
-        "hope-mcq-13": "「程度非常嚴重或幾乎無法改善地」是「Related form: hopelessly」的用法，與本句語境不同。",
-        "hope-mcq-12": "「顯示事情可能有良好結果，因此令人產生希望的」是「hopeful = promising / giving reason for hope（帶來希望的）」的用法，與本句語境不同。"
+        "hope-mcq-17": "本句的「lose hope」指「表示失去／放棄希望」。",
+        "hope-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hope-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hope-mcq-17"
     }
@@ -1479,5 +1237,7 @@ export default {
     "sha256": "104eaa03f6be29d23290771ca3af4a1ecc42933156960fb653119942688a8d35",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

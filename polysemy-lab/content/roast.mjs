@@ -268,13 +268,7 @@ export default {
       "en": "coffee roaster — person/company",
       "zh": "咖啡烘焙師／烘焙公司",
       "note": "來源詞義：咖啡烘焙師／烘焙公司",
-      "examples": [
-        [
-          "They held a roast for the retiring manager.",
-          "他們為即將退休的經理舉辦了一場幽默吐槽／調侃活動。",
-          "咖啡烘焙師／烘焙公司"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -454,6 +448,23 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "roast-reviewed-ed658aaec8",
+      "title": "吐槽／調侃大會",
+      "form": "roast · source section 40",
+      "en": "吐槽／調侃大會",
+      "zh": "吐槽／調侃大會",
+      "note": "對照原始教材第 40 節及例句核實。",
+      "examples": [
+        [
+          "They held a roast for the retiring manager.",
+          "他們為即將退休的經理舉辦了一場幽默吐槽／調侃活動。",
+          "吐槽／調侃大會"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -465,11 +476,9 @@ export default {
       "masked": "____ the vegetables for thirty minutes.",
       "options": [
         "roast-mcq-01",
-        "roast-mcq-02",
-        "roast-mcq-03",
-        "roast-mcq-04",
-        "roast-mcq-05",
-        "roast-mcq-06"
+        "roast-reviewed-ed658aaec8",
+        "roast-mcq-28",
+        "roast-mcq-16"
       ],
       "explanation": "本句的「Roast」指「用乾熱把肉、蔬菜、堅果等烤熟／烤香」。",
       "sentenceIndex": 0,
@@ -478,12 +487,10 @@ export default {
         "Roast"
       ],
       "optionReasons": {
-        "roast-mcq-01": "本句指「用乾熱把肉、蔬菜、堅果等烤熟／烤香」。",
-        "roast-mcq-02": "「烤肉／烤雞」與本句語境不同。",
-        "roast-mcq-03": "「烤蔬菜」與本句語境不同。",
-        "roast-mcq-04": "「放在火上／近火處烘烤」與本句語境不同。",
-        "roast-mcq-05": "「用旋轉烤叉烘烤」與本句語境不同。",
-        "roast-mcq-06": "「不加入額外油脂進行乾烤」與本句語境不同。"
+        "roast-mcq-01": "本句的「Roast」指「用乾熱把肉、蔬菜、堅果等烤熟／烤香」。",
+        "roast-reviewed-ed658aaec8": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roast-mcq-01"
     },
@@ -495,11 +502,9 @@ export default {
       "masked": "They ____ a chicken for dinner.",
       "options": [
         "roast-mcq-01",
-        "roast-mcq-02",
-        "roast-mcq-03",
-        "roast-mcq-04",
-        "roast-mcq-05",
-        "roast-mcq-06"
+        "roast-mcq-16",
+        "roast-mcq-28",
+        "roast-reviewed-ed658aaec8"
       ],
       "explanation": "本句的「roasted」指「用乾熱把肉、蔬菜、堅果等烤熟／烤香」。",
       "sentenceIndex": 1,
@@ -508,12 +513,10 @@ export default {
         "roasted"
       ],
       "optionReasons": {
-        "roast-mcq-01": "本句指「用乾熱把肉、蔬菜、堅果等烤熟／烤香」。",
-        "roast-mcq-02": "「烤肉／烤雞」與本句語境不同。",
-        "roast-mcq-03": "「烤蔬菜」與本句語境不同。",
-        "roast-mcq-04": "「放在火上／近火處烘烤」與本句語境不同。",
-        "roast-mcq-05": "「用旋轉烤叉烘烤」與本句語境不同。",
-        "roast-mcq-06": "「不加入額外油脂進行乾烤」與本句語境不同。"
+        "roast-mcq-01": "本句的「roasted」指「用乾熱把肉、蔬菜、堅果等烤熟／烤香」。",
+        "roast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "roast-reviewed-ed658aaec8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roast-mcq-01"
     },
@@ -525,11 +528,9 @@ export default {
       "masked": "The meat was slowly ____.",
       "options": [
         "roast-mcq-02",
-        "roast-mcq-01",
-        "roast-mcq-03",
-        "roast-mcq-04",
-        "roast-mcq-05",
-        "roast-mcq-06"
+        "roast-mcq-19",
+        "roast-reviewed-ed658aaec8",
+        "roast-mcq-28"
       ],
       "explanation": "本句的「roasted」指「烤肉／烤雞」。",
       "sentenceIndex": 2,
@@ -538,12 +539,10 @@ export default {
         "roasted"
       ],
       "optionReasons": {
-        "roast-mcq-02": "本句指「烤肉／烤雞」。",
-        "roast-mcq-01": "「用乾熱把肉、蔬菜、堅果等烤熟／烤香」與本句語境不同。",
-        "roast-mcq-03": "「烤蔬菜」與本句語境不同。",
-        "roast-mcq-04": "「放在火上／近火處烘烤」與本句語境不同。",
-        "roast-mcq-05": "「用旋轉烤叉烘烤」與本句語境不同。",
-        "roast-mcq-06": "「不加入額外油脂進行乾烤」與本句語境不同。"
+        "roast-mcq-02": "本句的「roasted」指「烤肉／烤雞」。",
+        "roast-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "roast-reviewed-ed658aaec8": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roast-mcq-02"
     },
@@ -555,11 +554,9 @@ export default {
       "masked": "The meat was spit-____.",
       "options": [
         "roast-mcq-05",
-        "roast-mcq-04",
-        "roast-mcq-06",
-        "roast-mcq-03",
-        "roast-mcq-07",
-        "roast-mcq-02"
+        "roast-reviewed-ed658aaec8",
+        "roast-mcq-28",
+        "roast-mcq-19"
       ],
       "explanation": "本句的「roasted」指「用旋轉烤叉烘烤」。",
       "sentenceIndex": 5,
@@ -568,12 +565,10 @@ export default {
         "roasted"
       ],
       "optionReasons": {
-        "roast-mcq-05": "本句指「用旋轉烤叉烘烤」。",
-        "roast-mcq-04": "「放在火上／近火處烘烤」與本句語境不同。",
-        "roast-mcq-06": "「不加入額外油脂進行乾烤」與本句語境不同。",
-        "roast-mcq-03": "「烤蔬菜」與本句語境不同。",
-        "roast-mcq-07": "「烤製的肉類菜式或供烤製的大塊肉」與本句語境不同。",
-        "roast-mcq-02": "「烤肉／烤雞」與本句語境不同。"
+        "roast-mcq-05": "本句的「roasted」指「用旋轉烤叉烘烤」。",
+        "roast-reviewed-ed658aaec8": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roast-mcq-05"
     },
@@ -585,11 +580,9 @@ export default {
       "masked": "The spices are dry-____ before grinding.",
       "options": [
         "roast-mcq-06",
-        "roast-mcq-05",
-        "roast-mcq-07",
-        "roast-mcq-04",
-        "roast-mcq-08",
-        "roast-mcq-03"
+        "roast-reviewed-ed658aaec8",
+        "roast-mcq-19",
+        "roast-mcq-28"
       ],
       "explanation": "本句的「roasted」指「不加入額外油脂進行乾烤」。",
       "sentenceIndex": 8,
@@ -598,12 +591,10 @@ export default {
         "roasted"
       ],
       "optionReasons": {
-        "roast-mcq-06": "本句指「不加入額外油脂進行乾烤」。",
-        "roast-mcq-05": "「用旋轉烤叉烘烤」與本句語境不同。",
-        "roast-mcq-07": "「烤製的肉類菜式或供烤製的大塊肉」與本句語境不同。",
-        "roast-mcq-04": "「放在火上／近火處烘烤」與本句語境不同。",
-        "roast-mcq-08": "「以烤肉和配菜為主的烤肉餐」與本句語境不同。",
-        "roast-mcq-03": "「烤蔬菜」與本句語境不同。"
+        "roast-mcq-06": "本句的「roasted」指「不加入額外油脂進行乾烤」。",
+        "roast-reviewed-ed658aaec8": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roast-mcq-06"
     },
@@ -615,11 +606,9 @@ export default {
       "masked": "Which ____ do you prefer?",
       "options": [
         "roast-mcq-16",
-        "roast-mcq-15",
-        "roast-mcq-17",
-        "roast-mcq-14",
-        "roast-mcq-18",
-        "roast-mcq-13"
+        "roast-mcq-01",
+        "roast-mcq-28",
+        "roast-reviewed-ed658aaec8"
       ],
       "explanation": "本句的「roast」指「咖啡烘焙程度」。",
       "sentenceIndex": 10,
@@ -628,12 +617,10 @@ export default {
         "roast"
       ],
       "optionReasons": {
-        "roast-mcq-16": "本句指「咖啡烘焙程度」。",
-        "roast-mcq-15": "「淺焙／中焙／深焙」與本句語境不同。",
-        "roast-mcq-17": "「咖啡烘焙過程的時間、溫度、熱量等控制曲線／設定」與本句語境不同。",
-        "roast-mcq-14": "「咖啡豆烘焙的程度／風格」與本句語境不同。",
-        "roast-mcq-18": "「咖啡豆實際烘焙日期」與本句語境不同。",
-        "roast-mcq-13": "「把生咖啡豆加熱轉化成可沖煮熟豆的烘焙過程」與本句語境不同。"
+        "roast-mcq-16": "本句的「roast」指「咖啡烘焙程度」。",
+        "roast-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "roast-reviewed-ed658aaec8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roast-mcq-16"
     },
@@ -645,11 +632,9 @@ export default {
       "masked": "The café installed a new coffee ____.",
       "options": [
         "roast-mcq-19",
-        "roast-mcq-18",
-        "roast-mcq-20",
-        "roast-mcq-17",
-        "roast-mcq-21",
-        "roast-mcq-16"
+        "roast-mcq-28",
+        "roast-mcq-02",
+        "roast-reviewed-ed658aaec8"
       ],
       "explanation": "本句的「roaster」指「咖啡烘焙機」。",
       "sentenceIndex": 11,
@@ -658,44 +643,40 @@ export default {
         "roaster"
       ],
       "optionReasons": {
-        "roast-mcq-19": "本句指「咖啡烘焙機」。",
-        "roast-mcq-18": "「咖啡豆實際烘焙日期」與本句語境不同。",
-        "roast-mcq-20": "「咖啡烘焙師／烘焙公司」與本句語境不同。",
-        "roast-mcq-17": "「咖啡烘焙過程的時間、溫度、熱量等控制曲線／設定」與本句語境不同。",
-        "roast-mcq-21": "「非正式：狠狠取笑、吐槽、嘲諷某人」與本句語境不同。",
-        "roast-mcq-16": "「咖啡烘焙程度」與本句語境不同。"
+        "roast-mcq-19": "本句的「roaster」指「咖啡烘焙機」。",
+        "roast-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "roast-reviewed-ed658aaec8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roast-mcq-19"
     },
     {
       "id": "roast-40-0",
-      "sense": "roast-mcq-20",
+      "sense": "roast-reviewed-ed658aaec8",
       "en": "They held a roast for the retiring manager.",
       "zh": "他們為即將退休的經理舉辦了一場幽默吐槽／調侃活動。",
       "masked": "They held a ____ for the retiring manager.",
       "options": [
-        "roast-mcq-20",
-        "roast-mcq-19",
-        "roast-mcq-21",
-        "roast-mcq-18",
-        "roast-mcq-22",
-        "roast-mcq-17"
+        "roast-reviewed-ed658aaec8",
+        "roast-mcq-05",
+        "roast-mcq-01",
+        "roast-mcq-06"
       ],
-      "explanation": "本句的「roast」指「咖啡烘焙師／烘焙公司」。",
+      "explanation": "對照完整句子：「他們為即將退休的經理舉辦了一場幽默吐槽／調侃活動。」。這裡的「roast」表示「吐槽／調侃大會」。",
       "sentenceIndex": 12,
       "sourcePractice": 40,
       "targets": [
         "roast"
       ],
       "optionReasons": {
-        "roast-mcq-20": "本句指「咖啡烘焙師／烘焙公司」。",
-        "roast-mcq-19": "「咖啡烘焙機」與本句語境不同。",
-        "roast-mcq-21": "「非正式：狠狠取笑、吐槽、嘲諷某人」與本句語境不同。",
-        "roast-mcq-18": "「咖啡豆實際烘焙日期」與本句語境不同。",
-        "roast-mcq-22": "「被眾人狠狠嘲笑／吐槽」與本句語境不同。",
-        "roast-mcq-17": "「咖啡烘焙過程的時間、溫度、熱量等控制曲線／設定」與本句語境不同。"
+        "roast-reviewed-ed658aaec8": "對照完整句子：「他們為即將退休的經理舉辦了一場幽默吐槽／調侃活動。」。這裡的「roast」表示「吐槽／調侃大會」。",
+        "roast-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "roast-mcq-20"
+      "correctOption": "roast-reviewed-ed658aaec8",
+      "previousCorrectOption": "roast-mcq-20",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "roast-45-0",
@@ -705,11 +686,9 @@ export default {
       "masked": "He posted the photo and immediately got ____.",
       "options": [
         "roast-mcq-22",
-        "roast-mcq-21",
-        "roast-mcq-23",
-        "roast-mcq-20",
-        "roast-mcq-24",
-        "roast-mcq-19"
+        "roast-mcq-05",
+        "roast-mcq-16",
+        "roast-mcq-06"
       ],
       "explanation": "本句的「roasted」指「被眾人狠狠嘲笑／吐槽」。",
       "sentenceIndex": 15,
@@ -718,12 +697,10 @@ export default {
         "roasted"
       ],
       "optionReasons": {
-        "roast-mcq-22": "本句指「被眾人狠狠嘲笑／吐槽」。",
-        "roast-mcq-21": "「非正式：狠狠取笑、吐槽、嘲諷某人」與本句語境不同。",
-        "roast-mcq-23": "「以公開幽默嘲諷某人為主的吐槽活動」與本句語境不同。",
-        "roast-mcq-20": "「咖啡烘焙師／烘焙公司」與本句語境不同。",
-        "roast-mcq-24": "「名人吐槽大會」與本句語境不同。",
-        "roast-mcq-19": "「咖啡烘焙機」與本句語境不同。"
+        "roast-mcq-22": "本句的「roasted」指「被眾人狠狠嘲笑／吐槽」。",
+        "roast-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roast-mcq-22"
     },
@@ -735,11 +712,9 @@ export default {
       "masked": "The coach gave the team a ____ after the match.",
       "options": [
         "roast-mcq-28",
-        "roast-mcq-27",
-        "roast-mcq-29",
-        "roast-mcq-26",
-        "roast-mcq-30",
-        "roast-mcq-25"
+        "roast-mcq-34",
+        "roast-reviewed-ed658aaec8",
+        "roast-mcq-06"
       ],
       "explanation": "本句的「roasting」指「狠狠責罵／批評某人」。",
       "sentenceIndex": 19,
@@ -748,12 +723,10 @@ export default {
         "roasting"
       ],
       "optionReasons": {
-        "roast-mcq-28": "本句指「狠狠責罵／批評某人」。",
-        "roast-mcq-27": "「非正式：一頓猛烈批評／責罵」與本句語境不同。",
-        "roast-mcq-29": "「在空氣／反應氣氛中高溫加熱礦石以改變其化學形態；焙燒」與本句語境不同。",
-        "roast-mcq-26": "「非正式：非常炎熱；熱得要命」與本句語境不同。",
-        "roast-mcq-30": "「冶金中的礦石焙燒」與本句語境不同。",
-        "roast-mcq-25": "「以互相嘲諷笑話比拼的吐槽對決」與本句語境不同。"
+        "roast-mcq-28": "本句的「roasting」指「狠狠責罵／批評某人」。",
+        "roast-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "roast-reviewed-ed658aaec8": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roast-mcq-28"
     },
@@ -765,11 +738,9 @@ export default {
       "masked": "____ brings out the sweetness of the vegetables.",
       "options": [
         "roast-mcq-34",
-        "roast-mcq-33",
-        "roast-mcq-32",
-        "roast-mcq-31",
-        "roast-mcq-30",
-        "roast-mcq-29"
+        "roast-reviewed-ed658aaec8",
+        "roast-mcq-28",
+        "roast-mcq-01"
       ],
       "explanation": "本句的「Roasting」指「烘烤、咖啡烘焙或礦石焙燒的過程」。",
       "sentenceIndex": 23,
@@ -778,12 +749,10 @@ export default {
         "Roasting"
       ],
       "optionReasons": {
-        "roast-mcq-34": "本句指「烘烤、咖啡烘焙或礦石焙燒的過程」。",
-        "roast-mcq-33": "「經烘烤／焙燒處理過的」與本句語境不同。",
-        "roast-mcq-32": "「用於礦石焙燒的爐／反應器」與本句語境不同。",
-        "roast-mcq-31": "「硫化礦的焙燒處理」與本句語境不同。",
-        "roast-mcq-30": "「冶金中的礦石焙燒」與本句語境不同。",
-        "roast-mcq-29": "「在空氣／反應氣氛中高溫加熱礦石以改變其化學形態；焙燒」與本句語境不同。"
+        "roast-mcq-34": "本句的「Roasting」指「烘烤、咖啡烘焙或礦石焙燒的過程」。",
+        "roast-reviewed-ed658aaec8": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roast-mcq-34"
     },
@@ -795,11 +764,8 @@ export default {
       "masked": "____ greatly changes the bean's aroma.",
       "options": [
         "roast-mcq-13",
-        "roast-mcq-12",
-        "roast-mcq-14",
-        "roast-mcq-11",
-        "roast-mcq-15",
-        "roast-mcq-10"
+        "roast-mcq-02",
+        "roast-mcq-22"
       ],
       "explanation": "本句的「Roasting」指「把生咖啡豆加熱轉化成可沖煮熟豆的烘焙過程」。",
       "sentenceIndex": 24,
@@ -808,12 +774,9 @@ export default {
         "Roasting"
       ],
       "optionReasons": {
-        "roast-mcq-13": "本句指「把生咖啡豆加熱轉化成可沖煮熟豆的烘焙過程」。",
-        "roast-mcq-12": "「經高溫烘焙、產生咖啡香味與褐變的咖啡豆／咖啡」與本句語境不同。",
-        "roast-mcq-14": "「咖啡豆烘焙的程度／風格」與本句語境不同。",
-        "roast-mcq-11": "「烤肉／蔬菜用烤盤」與本句語境不同。",
-        "roast-mcq-15": "「淺焙／中焙／深焙」與本句語境不同。",
-        "roast-mcq-10": "「在鍋中慢煮／燜煮的大塊肉類菜式，名稱雖有 roast 但方法近似燉煮」與本句語境不同。"
+        "roast-mcq-13": "本句的「Roasting」指「把生咖啡豆加熱轉化成可沖煮熟豆的烘焙過程」。",
+        "roast-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roast-mcq-13"
     },
@@ -825,11 +788,9 @@ export default {
       "masked": "____ removes part of the sulfur.",
       "options": [
         "roast-mcq-34",
-        "roast-mcq-33",
-        "roast-mcq-32",
-        "roast-mcq-31",
-        "roast-mcq-30",
-        "roast-mcq-29"
+        "roast-mcq-22",
+        "roast-mcq-06",
+        "roast-mcq-01"
       ],
       "explanation": "本句的「Roasting」指「烘烤、咖啡烘焙或礦石焙燒的過程」。",
       "sentenceIndex": 25,
@@ -838,12 +799,10 @@ export default {
         "Roasting"
       ],
       "optionReasons": {
-        "roast-mcq-34": "本句指「烘烤、咖啡烘焙或礦石焙燒的過程」。",
-        "roast-mcq-33": "「經烘烤／焙燒處理過的」與本句語境不同。",
-        "roast-mcq-32": "「用於礦石焙燒的爐／反應器」與本句語境不同。",
-        "roast-mcq-31": "「硫化礦的焙燒處理」與本句語境不同。",
-        "roast-mcq-30": "「冶金中的礦石焙燒」與本句語境不同。",
-        "roast-mcq-29": "「在空氣／反應氣氛中高溫加熱礦石以改變其化學形態；焙燒」與本句語境不同。"
+        "roast-mcq-34": "本句的「Roasting」指「烘烤、咖啡烘焙或礦石焙燒的過程」。",
+        "roast-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "roast-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roast-mcq-34"
     }
@@ -855,5 +814,7 @@ export default {
     "sha256": "1c27d8db56fbaf6f7761b6eaa761610e87c12e24148bdc2e9f9f2cbc004da7c3",
     "pages": 30
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

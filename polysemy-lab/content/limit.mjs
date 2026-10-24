@@ -1839,11 +1839,9 @@ export default {
       "masked": "The teacher set a ten-minute time ____.",
       "options": [
         "limit-mcq-01",
-        "limit-mcq-02",
-        "limit-mcq-03",
-        "limit-mcq-04",
-        "limit-mcq-05",
-        "limit-mcq-06"
+        "limit-mcq-69",
+        "limit-mcq-54",
+        "limit-mcq-64"
       ],
       "explanation": "本句的「limit」指「完成某項活動所允許的最長時間；時限」。",
       "sentenceIndex": 0,
@@ -1852,12 +1850,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-01": "本句指「完成某項活動所允許的最長時間；時限」。",
-        "limit-mcq-02": "「某數量、程度、金額等不能超過的上限／限額」與本句語境不同。",
-        "limit-mcq-03": "「設定某項上限／限制」與本句語境不同。",
-        "limit-mcq-04": "「正式對某事施加限制」與本句語境不同。",
-        "limit-mcq-05": "「取消／解除限制」與本句語境不同。",
-        "limit-mcq-06": "「提高／降低允許上限」與本句語境不同。"
+        "limit-mcq-01": "本句的「limit」指「完成某項活動所允許的最長時間；時限」。",
+        "limit-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-01"
     },
@@ -1869,11 +1865,9 @@ export default {
       "masked": "Students had to finish the role-play within the time ____.",
       "options": [
         "limit-mcq-01",
-        "limit-mcq-02",
-        "limit-mcq-03",
-        "limit-mcq-04",
-        "limit-mcq-05",
-        "limit-mcq-06"
+        "limit-mcq-54",
+        "limit-mcq-67",
+        "limit-mcq-42"
       ],
       "explanation": "本句的「limit」指「完成某項活動所允許的最長時間；時限」。",
       "sentenceIndex": 1,
@@ -1882,12 +1876,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-01": "本句指「完成某項活動所允許的最長時間；時限」。",
-        "limit-mcq-02": "「某數量、程度、金額等不能超過的上限／限額」與本句語境不同。",
-        "limit-mcq-03": "「設定某項上限／限制」與本句語境不同。",
-        "limit-mcq-04": "「正式對某事施加限制」與本句語境不同。",
-        "limit-mcq-05": "「取消／解除限制」與本句語境不同。",
-        "limit-mcq-06": "「提高／降低允許上限」與本句語境不同。"
+        "limit-mcq-01": "本句的「limit」指「完成某項活動所允許的最長時間；時限」。",
+        "limit-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-01"
     },
@@ -1899,11 +1891,9 @@ export default {
       "masked": "There is a ____ on the number of participants.",
       "options": [
         "limit-mcq-02",
-        "limit-mcq-01",
-        "limit-mcq-03",
-        "limit-mcq-04",
-        "limit-mcq-05",
-        "limit-mcq-06"
+        "limit-mcq-45",
+        "limit-mcq-64",
+        "limit-mcq-55"
       ],
       "explanation": "本句的「limit」指「某數量、程度、金額等不能超過的上限／限額」。",
       "sentenceIndex": 2,
@@ -1912,12 +1902,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-02": "本句指「某數量、程度、金額等不能超過的上限／限額」。",
-        "limit-mcq-01": "「完成某項活動所允許的最長時間；時限」與本句語境不同。",
-        "limit-mcq-03": "「設定某項上限／限制」與本句語境不同。",
-        "limit-mcq-04": "「正式對某事施加限制」與本句語境不同。",
-        "limit-mcq-05": "「取消／解除限制」與本句語境不同。",
-        "limit-mcq-06": "「提高／降低允許上限」與本句語境不同。"
+        "limit-mcq-02": "本句的「limit」指「某數量、程度、金額等不能超過的上限／限額」。",
+        "limit-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-02"
     },
@@ -1929,11 +1917,9 @@ export default {
       "masked": "The baggage ____ is 20 kilograms.",
       "options": [
         "limit-mcq-02",
-        "limit-mcq-01",
-        "limit-mcq-03",
-        "limit-mcq-04",
-        "limit-mcq-05",
-        "limit-mcq-06"
+        "limit-mcq-67",
+        "limit-mcq-25",
+        "limit-mcq-54"
       ],
       "explanation": "本句的「limit」指「某數量、程度、金額等不能超過的上限／限額」。",
       "sentenceIndex": 3,
@@ -1942,12 +1928,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-02": "本句指「某數量、程度、金額等不能超過的上限／限額」。",
-        "limit-mcq-01": "「完成某項活動所允許的最長時間；時限」與本句語境不同。",
-        "limit-mcq-03": "「設定某項上限／限制」與本句語境不同。",
-        "limit-mcq-04": "「正式對某事施加限制」與本句語境不同。",
-        "limit-mcq-05": "「取消／解除限制」與本句語境不同。",
-        "limit-mcq-06": "「提高／降低允許上限」與本句語境不同。"
+        "limit-mcq-02": "本句的「limit」指「某數量、程度、金額等不能超過的上限／限額」。",
+        "limit-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-02"
     },
@@ -1959,11 +1943,9 @@ export default {
       "masked": "The teacher set a ____ of 200 words.",
       "options": [
         "limit-mcq-03",
-        "limit-mcq-02",
-        "limit-mcq-04",
-        "limit-mcq-01",
-        "limit-mcq-05",
-        "limit-mcq-06"
+        "limit-mcq-18",
+        "limit-mcq-64",
+        "limit-mcq-08"
       ],
       "explanation": "本句的「limit」指「設定某項上限／限制」。",
       "sentenceIndex": 4,
@@ -1972,12 +1954,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-03": "本句指「設定某項上限／限制」。",
-        "limit-mcq-02": "「某數量、程度、金額等不能超過的上限／限額」與本句語境不同。",
-        "limit-mcq-04": "「正式對某事施加限制」與本句語境不同。",
-        "limit-mcq-01": "「完成某項活動所允許的最長時間；時限」與本句語境不同。",
-        "limit-mcq-05": "「取消／解除限制」與本句語境不同。",
-        "limit-mcq-06": "「提高／降低允許上限」與本句語境不同。"
+        "limit-mcq-03": "本句的「limit」指「設定某項上限／限制」。",
+        "limit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-03"
     },
@@ -1989,11 +1969,9 @@ export default {
       "masked": "The file exceeds the size ____.",
       "options": [
         "limit-mcq-07",
-        "limit-mcq-06",
-        "limit-mcq-08",
-        "limit-mcq-05",
-        "limit-mcq-09",
-        "limit-mcq-04"
+        "limit-mcq-18",
+        "limit-mcq-54",
+        "limit-mcq-69"
       ],
       "explanation": "本句的「limit」指「超過規定上限」。",
       "sentenceIndex": 7,
@@ -2002,12 +1980,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-07": "本句指「超過規定上限」。",
-        "limit-mcq-06": "「提高／降低允許上限」與本句語境不同。",
-        "limit-mcq-08": "「保持在允許範圍內」與本句語境不同。",
-        "limit-mcq-05": "「取消／解除限制」與本句語境不同。",
-        "limit-mcq-09": "「作文／文字允許的最高字數」與本句語境不同。",
-        "limit-mcq-04": "「正式對某事施加限制」與本句語境不同。"
+        "limit-mcq-07": "本句的「limit」指「超過規定上限」。",
+        "limit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-07"
     },
@@ -2019,11 +1995,9 @@ export default {
       "masked": "Keep your answer within the word ____.",
       "options": [
         "limit-mcq-08",
-        "limit-mcq-07",
-        "limit-mcq-09",
-        "limit-mcq-06",
-        "limit-mcq-10",
-        "limit-mcq-05"
+        "limit-mcq-95",
+        "limit-mcq-19",
+        "limit-mcq-44"
       ],
       "explanation": "本句的「limit」指「保持在允許範圍內」。",
       "sentenceIndex": 8,
@@ -2032,12 +2006,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-08": "本句指「保持在允許範圍內」。",
-        "limit-mcq-07": "「超過規定上限」與本句語境不同。",
-        "limit-mcq-09": "「作文／文字允許的最高字數」與本句語境不同。",
-        "limit-mcq-06": "「提高／降低允許上限」與本句語境不同。",
-        "limit-mcq-10": "「文字欄位允許的最高字元數」與本句語境不同。",
-        "limit-mcq-05": "「取消／解除限制」與本句語境不同。"
+        "limit-mcq-08": "本句的「limit」指「保持在允許範圍內」。",
+        "limit-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-08"
     },
@@ -2049,11 +2021,9 @@ export default {
       "masked": "The essay has a 1,000-word ____.",
       "options": [
         "limit-mcq-09",
-        "limit-mcq-08",
-        "limit-mcq-10",
-        "limit-mcq-07",
-        "limit-mcq-11",
-        "limit-mcq-06"
+        "limit-mcq-67",
+        "limit-mcq-42",
+        "limit-mcq-95"
       ],
       "explanation": "本句的「limit」指「作文／文字允許的最高字數」。",
       "sentenceIndex": 9,
@@ -2062,12 +2032,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-09": "本句指「作文／文字允許的最高字數」。",
-        "limit-mcq-08": "「保持在允許範圍內」與本句語境不同。",
-        "limit-mcq-10": "「文字欄位允許的最高字元數」與本句語境不同。",
-        "limit-mcq-07": "「超過規定上限」與本句語境不同。",
-        "limit-mcq-11": "「檔案允許的最大容量」與本句語境不同。",
-        "limit-mcq-06": "「提高／降低允許上限」與本句語境不同。"
+        "limit-mcq-09": "本句的「limit」指「作文／文字允許的最高字數」。",
+        "limit-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-95": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-09"
     },
@@ -2079,11 +2047,9 @@ export default {
       "masked": "The bridge has a weight ____.",
       "options": [
         "limit-mcq-12",
-        "limit-mcq-11",
-        "limit-mcq-13",
-        "limit-mcq-10",
-        "limit-mcq-14",
-        "limit-mcq-09"
+        "limit-mcq-59",
+        "limit-mcq-64",
+        "limit-mcq-42"
       ],
       "explanation": "本句的「limit」指「允許的最大重量」。",
       "sentenceIndex": 10,
@@ -2092,12 +2058,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-12": "本句指「允許的最大重量」。",
-        "limit-mcq-11": "「檔案允許的最大容量」與本句語境不同。",
-        "limit-mcq-13": "「允許的最高高度」與本句語境不同。",
-        "limit-mcq-10": "「文字欄位允許的最高字元數」與本句語境不同。",
-        "limit-mcq-14": "「法例／規則允許的最高速度」與本句語境不同。",
-        "limit-mcq-09": "「作文／文字允許的最高字數」與本句語境不同。"
+        "limit-mcq-12": "本句的「limit」指「允許的最大重量」。",
+        "limit-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-12"
     },
@@ -2109,11 +2073,9 @@ export default {
       "masked": "The speed ____ is 50 km/h.",
       "options": [
         "limit-mcq-14",
-        "limit-mcq-13",
-        "limit-mcq-15",
-        "limit-mcq-12",
-        "limit-mcq-16",
-        "limit-mcq-11"
+        "limit-mcq-92",
+        "limit-mcq-03",
+        "limit-mcq-67"
       ],
       "explanation": "本句的「limit」指「法例／規則允許的最高速度」。",
       "sentenceIndex": 11,
@@ -2122,12 +2084,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-14": "本句指「法例／規則允許的最高速度」。",
-        "limit-mcq-13": "「允許的最高高度」與本句語境不同。",
-        "limit-mcq-15": "「參與／資格方面的年齡限制」與本句語境不同。",
-        "limit-mcq-12": "「允許的最大重量」與本句語境不同。",
-        "limit-mcq-16": "「場地／系統能容納或處理的最大容量」與本句語境不同。",
-        "limit-mcq-11": "「檔案允許的最大容量」與本句語境不同。"
+        "limit-mcq-14": "本句的「limit」指「法例／規則允許的最高速度」。",
+        "limit-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-14"
     },
@@ -2139,11 +2099,9 @@ export default {
       "masked": "Is there an age ____ for the competition?",
       "options": [
         "limit-mcq-15",
-        "limit-mcq-14",
-        "limit-mcq-16",
-        "limit-mcq-13",
-        "limit-mcq-17",
-        "limit-mcq-12"
+        "limit-mcq-58",
+        "limit-mcq-18",
+        "limit-mcq-64"
       ],
       "explanation": "本句的「limit」指「參與／資格方面的年齡限制」。",
       "sentenceIndex": 12,
@@ -2152,12 +2110,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-15": "本句指「參與／資格方面的年齡限制」。",
-        "limit-mcq-14": "「法例／規則允許的最高速度」與本句語境不同。",
-        "limit-mcq-16": "「場地／系統能容納或處理的最大容量」與本句語境不同。",
-        "limit-mcq-13": "「允許的最高高度」與本句語境不同。",
-        "limit-mcq-17": "「場地允許的最高人數」與本句語境不同。",
-        "limit-mcq-12": "「允許的最大重量」與本句語境不同。"
+        "limit-mcq-15": "本句的「limit」指「參與／資格方面的年齡限制」。",
+        "limit-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-15"
     },
@@ -2169,11 +2125,9 @@ export default {
       "masked": "The hall has reached its capacity ____.",
       "options": [
         "limit-mcq-16",
-        "limit-mcq-15",
-        "limit-mcq-17",
-        "limit-mcq-14",
-        "limit-mcq-18",
-        "limit-mcq-13"
+        "limit-mcq-64",
+        "limit-mcq-03",
+        "limit-mcq-42"
       ],
       "explanation": "本句的「limit」指「場地／系統能容納或處理的最大容量」。",
       "sentenceIndex": 13,
@@ -2182,12 +2136,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-16": "本句指「場地／系統能容納或處理的最大容量」。",
-        "limit-mcq-15": "「參與／資格方面的年齡限制」與本句語境不同。",
-        "limit-mcq-17": "「場地允許的最高人數」與本句語境不同。",
-        "limit-mcq-14": "「法例／規則允許的最高速度」與本句語境不同。",
-        "limit-mcq-18": "「可支出的最高金額」與本句語境不同。",
-        "limit-mcq-13": "「允許的最高高度」與本句語境不同。"
+        "limit-mcq-16": "本句的「limit」指「場地／系統能容納或處理的最大容量」。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-16"
     },
@@ -2199,11 +2151,9 @@ export default {
       "masked": "Parents can set a spending ____.",
       "options": [
         "limit-mcq-18",
-        "limit-mcq-17",
-        "limit-mcq-19",
-        "limit-mcq-16",
-        "limit-mcq-20",
-        "limit-mcq-15"
+        "limit-mcq-44",
+        "limit-mcq-23",
+        "limit-mcq-69"
       ],
       "explanation": "本句的「limit」指「可支出的最高金額」。",
       "sentenceIndex": 14,
@@ -2212,12 +2162,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-18": "本句指「可支出的最高金額」。",
-        "limit-mcq-17": "「場地允許的最高人數」與本句語境不同。",
-        "limit-mcq-19": "「帳戶／信用卡可使用的最高信貸額」與本句語境不同。",
-        "limit-mcq-16": "「場地／系統能容納或處理的最大容量」與本句語境不同。",
-        "limit-mcq-20": "「可借入的最高金額」與本句語境不同。",
-        "limit-mcq-15": "「參與／資格方面的年齡限制」與本句語境不同。"
+        "limit-mcq-18": "本句的「limit」指「可支出的最高金額」。",
+        "limit-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-18"
     },
@@ -2229,11 +2177,9 @@ export default {
       "masked": "She requested a higher credit ____.",
       "options": [
         "limit-mcq-19",
-        "limit-mcq-18",
-        "limit-mcq-20",
-        "limit-mcq-17",
-        "limit-mcq-21",
-        "limit-mcq-16"
+        "limit-mcq-37",
+        "limit-mcq-43",
+        "limit-mcq-69"
       ],
       "explanation": "本句的「limit」指「帳戶／信用卡可使用的最高信貸額」。",
       "sentenceIndex": 15,
@@ -2242,12 +2188,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-19": "本句指「帳戶／信用卡可使用的最高信貸額」。",
-        "limit-mcq-18": "「可支出的最高金額」與本句語境不同。",
-        "limit-mcq-20": "「可借入的最高金額」與本句語境不同。",
-        "limit-mcq-17": "「場地允許的最高人數」與本句語境不同。",
-        "limit-mcq-21": "「每次／每天可提取的最高金額」與本句語境不同。",
-        "limit-mcq-16": "「場地／系統能容納或處理的最大容量」與本句語境不同。"
+        "limit-mcq-19": "本句的「limit」指「帳戶／信用卡可使用的最高信貸額」。",
+        "limit-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-19"
     },
@@ -2259,11 +2203,9 @@ export default {
       "masked": "The mobile plan has a monthly data ____.",
       "options": [
         "limit-mcq-23",
-        "limit-mcq-22",
-        "limit-mcq-24",
-        "limit-mcq-21",
-        "limit-mcq-25",
-        "limit-mcq-20"
+        "limit-mcq-67",
+        "limit-mcq-69",
+        "limit-mcq-45"
       ],
       "explanation": "本句的「limit」指「網絡服務允許的資料用量上限」。",
       "sentenceIndex": 16,
@@ -2272,12 +2214,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-23": "本句指「網絡服務允許的資料用量上限」。",
-        "limit-mcq-22": "「可轉帳的最高金額」與本句語境不同。",
-        "limit-mcq-24": "「使用次數／時間／用量上限」與本句語境不同。",
-        "limit-mcq-21": "「每次／每天可提取的最高金額」與本句語境不同。",
-        "limit-mcq-25": "「系統允許的最大請求／操作頻率」與本句語境不同。",
-        "limit-mcq-20": "「可借入的最高金額」與本句語境不同。"
+        "limit-mcq-23": "本句的「limit」指「網絡服務允許的資料用量上限」。",
+        "limit-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-23"
     },
@@ -2289,11 +2229,9 @@ export default {
       "masked": "The API enforces a rate ____.",
       "options": [
         "limit-mcq-25",
-        "limit-mcq-24",
-        "limit-mcq-26",
-        "limit-mcq-23",
-        "limit-mcq-27",
-        "limit-mcq-22"
+        "limit-mcq-46",
+        "limit-mcq-74",
+        "limit-mcq-54"
       ],
       "explanation": "本句的「limit」指「系統允許的最大請求／操作頻率」。",
       "sentenceIndex": 17,
@@ -2302,12 +2240,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-25": "本句指「系統允許的最大請求／操作頻率」。",
-        "limit-mcq-24": "「使用次數／時間／用量上限」與本句語境不同。",
-        "limit-mcq-26": "「法律容許的最高／最低限值」與本句語境不同。",
-        "limit-mcq-23": "「網絡服務允許的資料用量上限」與本句語境不同。",
-        "limit-mcq-27": "「由法例明文規定的限制」與本句語境不同。",
-        "limit-mcq-22": "「可轉帳的最高金額」與本句語境不同。"
+        "limit-mcq-25": "本句的「limit」指「系統允許的最大請求／操作頻率」。",
+        "limit-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-25"
     },
@@ -2319,11 +2255,9 @@ export default {
       "masked": "The driver was over the legal ____.",
       "options": [
         "limit-mcq-26",
-        "limit-mcq-25",
-        "limit-mcq-27",
-        "limit-mcq-24",
-        "limit-mcq-28",
-        "limit-mcq-23"
+        "limit-mcq-69",
+        "limit-mcq-54",
+        "limit-mcq-64"
       ],
       "explanation": "本句的「limit」指「法律容許的最高／最低限值」。",
       "sentenceIndex": 18,
@@ -2332,12 +2266,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-26": "本句指「法律容許的最高／最低限值」。",
-        "limit-mcq-25": "「系統允許的最大請求／操作頻率」與本句語境不同。",
-        "limit-mcq-27": "「由法例明文規定的限制」與本句語境不同。",
-        "limit-mcq-24": "「使用次數／時間／用量上限」與本句語境不同。",
-        "limit-mcq-28": "「規範容許的最高限值」與本句語境不同。",
-        "limit-mcq-23": "「網絡服務允許的資料用量上限」與本句語境不同。"
+        "limit-mcq-26": "本句的「limit」指「法律容許的最高／最低限值」。",
+        "limit-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-26"
     },
@@ -2349,11 +2281,9 @@ export default {
       "masked": "Workers must remain below the exposure ____.",
       "options": [
         "limit-mcq-30",
-        "limit-mcq-29",
-        "limit-mcq-31",
-        "limit-mcq-28",
-        "limit-mcq-32",
-        "limit-mcq-27"
+        "limit-mcq-49",
+        "limit-mcq-37",
+        "limit-mcq-89"
       ],
       "explanation": "本句的「limit」指「對化學品、噪音等可容許的最高暴露量」。",
       "sentenceIndex": 19,
@@ -2362,12 +2292,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-30": "本句指「對化學品、噪音等可容許的最高暴露量」。",
-        "limit-mcq-29": "「出於安全而不得超過的限值」與本句語境不同。",
-        "limit-mcq-31": "「某物質允許的最高濃度」與本句語境不同。",
-        "limit-mcq-28": "「規範容許的最高限值」與本句語境不同。",
-        "limit-mcq-32": "「污染物等允許的最高排放量」與本句語境不同。",
-        "limit-mcq-27": "「由法例明文規定的限制」與本句語境不同。"
+        "limit-mcq-30": "本句的「limit」指「對化學品、噪音等可容許的最高暴露量」。",
+        "limit-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-89": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-30"
     },
@@ -2379,11 +2307,9 @@ export default {
       "masked": "The lower ____ is 10 degrees.",
       "options": [
         "limit-mcq-35",
-        "limit-mcq-34",
-        "limit-mcq-36",
-        "limit-mcq-33",
-        "limit-mcq-37",
-        "limit-mcq-32"
+        "limit-mcq-45",
+        "limit-mcq-64",
+        "limit-mcq-54"
       ],
       "explanation": "本句的「limit」指「允許／可能範圍的下限」。",
       "sentenceIndex": 20,
@@ -2392,12 +2318,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-35": "本句指「允許／可能範圍的下限」。",
-        "limit-mcq-34": "「允許／可能範圍的上限」與本句語境不同。",
-        "limit-mcq-36": "「某能力、技術、知識等不能超越的界限／極限」與本句語境不同。",
-        "limit-mcq-33": "「容許的最大噪音水平」與本句語境不同。",
-        "limit-mcq-37": "「現有知識能涵蓋的界限」與本句語境不同。",
-        "limit-mcq-32": "「污染物等允許的最高排放量」與本句語境不同。"
+        "limit-mcq-35": "本句的「limit」指「允許／可能範圍的下限」。",
+        "limit-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-35"
     },
@@ -2409,11 +2333,9 @@ export default {
       "masked": "There is no fixed upper ____.",
       "options": [
         "limit-mcq-34",
-        "limit-mcq-33",
-        "limit-mcq-35",
-        "limit-mcq-32",
-        "limit-mcq-36",
-        "limit-mcq-31"
+        "limit-mcq-18",
+        "limit-mcq-67",
+        "limit-mcq-45"
       ],
       "explanation": "本句的「limit」指「允許／可能範圍的上限」。",
       "sentenceIndex": 21,
@@ -2422,12 +2344,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-34": "本句指「允許／可能範圍的上限」。",
-        "limit-mcq-33": "「容許的最大噪音水平」與本句語境不同。",
-        "limit-mcq-35": "「允許／可能範圍的下限」與本句語境不同。",
-        "limit-mcq-32": "「污染物等允許的最高排放量」與本句語境不同。",
-        "limit-mcq-36": "「某能力、技術、知識等不能超越的界限／極限」與本句語境不同。",
-        "limit-mcq-31": "「某物質允許的最高濃度」與本句語境不同。"
+        "limit-mcq-34": "本句的「limit」指「允許／可能範圍的上限」。",
+        "limit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-34"
     },
@@ -2439,11 +2359,9 @@ export default {
       "masked": "Science also recognizes the ____ of current knowledge.",
       "options": [
         "limit-mcq-37",
-        "limit-mcq-36",
-        "limit-mcq-38",
-        "limit-mcq-35",
-        "limit-mcq-39",
-        "limit-mcq-34"
+        "limit-mcq-45",
+        "limit-mcq-08",
+        "limit-mcq-64"
       ],
       "explanation": "本句的「limits」指「現有知識能涵蓋的界限」。",
       "sentenceIndex": 24,
@@ -2452,12 +2370,10 @@ export default {
         "limits"
       ],
       "optionReasons": {
-        "limit-mcq-37": "本句指「現有知識能涵蓋的界限」。",
-        "limit-mcq-36": "「某能力、技術、知識等不能超越的界限／極限」與本句語境不同。",
-        "limit-mcq-38": "「現有科技能做到的極限」與本句語境不同。",
-        "limit-mcq-35": "「允許／可能範圍的下限」與本句語境不同。",
-        "limit-mcq-39": "「身體能承受／做到的最大程度」與本句語境不同。",
-        "limit-mcq-34": "「允許／可能範圍的上限」與本句語境不同。"
+        "limit-mcq-37": "本句的「limits」指「現有知識能涵蓋的界限」。",
+        "limit-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-37"
     },
@@ -2469,11 +2385,9 @@ export default {
       "masked": "Athletes sometimes test their physical ____.",
       "options": [
         "limit-mcq-39",
-        "limit-mcq-38",
-        "limit-mcq-40",
-        "limit-mcq-37",
-        "limit-mcq-41",
-        "limit-mcq-36"
+        "limit-mcq-44",
+        "limit-mcq-07",
+        "limit-mcq-63"
       ],
       "explanation": "本句的「limits」指「身體能承受／做到的最大程度」。",
       "sentenceIndex": 25,
@@ -2482,12 +2396,10 @@ export default {
         "limits"
       ],
       "optionReasons": {
-        "limit-mcq-39": "本句指「身體能承受／做到的最大程度」。",
-        "limit-mcq-38": "「現有科技能做到的極限」與本句語境不同。",
-        "limit-mcq-40": "「一個人能繼續忍耐的極限」與本句語境不同。",
-        "limit-mcq-37": "「現有知識能涵蓋的界限」與本句語境不同。",
-        "limit-mcq-41": "「個人能力、承受力或舒適範圍的界限」與本句語境不同。",
-        "limit-mcq-36": "「某能力、技術、知識等不能超越的界限／極限」與本句語境不同。"
+        "limit-mcq-39": "本句的「limits」指「身體能承受／做到的最大程度」。",
+        "limit-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-39"
     },
@@ -2499,11 +2411,9 @@ export default {
       "masked": "It is important to know your ____.",
       "options": [
         "limit-mcq-41",
-        "limit-mcq-40",
-        "limit-mcq-42",
-        "limit-mcq-39",
-        "limit-mcq-43",
-        "limit-mcq-38"
+        "limit-mcq-14",
+        "limit-mcq-64",
+        "limit-mcq-52"
       ],
       "explanation": "本句的「limits」指「個人能力、承受力或舒適範圍的界限」。",
       "sentenceIndex": 27,
@@ -2512,12 +2422,10 @@ export default {
         "limits"
       ],
       "optionReasons": {
-        "limit-mcq-41": "本句指「個人能力、承受力或舒適範圍的界限」。",
-        "limit-mcq-40": "「一個人能繼續忍耐的極限」與本句語境不同。",
-        "limit-mcq-42": "「清楚知道自己不能超越的能力／承受範圍」與本句語境不同。",
-        "limit-mcq-39": "「身體能承受／做到的最大程度」與本句語境不同。",
-        "limit-mcq-43": "「已達到不能再承受／繼續的極限」與本句語境不同。",
-        "limit-mcq-38": "「現有科技能做到的極限」與本句語境不同。"
+        "limit-mcq-41": "本句的「limits」指「個人能力、承受力或舒適範圍的界限」。",
+        "limit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-41"
     },
@@ -2529,11 +2437,9 @@ export default {
       "masked": "A good leader knows their ____.",
       "options": [
         "limit-mcq-42",
-        "limit-mcq-41",
-        "limit-mcq-43",
-        "limit-mcq-40",
-        "limit-mcq-44",
-        "limit-mcq-39"
+        "limit-mcq-67",
+        "limit-mcq-95",
+        "limit-mcq-16"
       ],
       "explanation": "本句的「limits」指「清楚知道自己不能超越的能力／承受範圍」。",
       "sentenceIndex": 28,
@@ -2542,12 +2448,10 @@ export default {
         "limits"
       ],
       "optionReasons": {
-        "limit-mcq-42": "本句指「清楚知道自己不能超越的能力／承受範圍」。",
-        "limit-mcq-41": "「個人能力、承受力或舒適範圍的界限」與本句語境不同。",
-        "limit-mcq-43": "「已達到不能再承受／繼續的極限」與本句語境不同。",
-        "limit-mcq-40": "「一個人能繼續忍耐的極限」與本句語境不同。",
-        "limit-mcq-44": "「嘗試突破現有能力／可能性的界限」與本句語境不同。",
-        "limit-mcq-39": "「身體能承受／做到的最大程度」與本句語境不同。"
+        "limit-mcq-42": "本句的「limits」指「清楚知道自己不能超越的能力／承受範圍」。",
+        "limit-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-42"
     },
@@ -2559,11 +2463,9 @@ export default {
       "masked": "By midnight, I had reached my ____.",
       "options": [
         "limit-mcq-43",
-        "limit-mcq-42",
-        "limit-mcq-44",
-        "limit-mcq-41",
-        "limit-mcq-45",
-        "limit-mcq-40"
+        "limit-mcq-30",
+        "limit-mcq-64",
+        "limit-mcq-54"
       ],
       "explanation": "本句的「limit」指「已達到不能再承受／繼續的極限」。",
       "sentenceIndex": 29,
@@ -2572,12 +2474,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-43": "本句指「已達到不能再承受／繼續的極限」。",
-        "limit-mcq-42": "「清楚知道自己不能超越的能力／承受範圍」與本句語境不同。",
-        "limit-mcq-44": "「嘗試突破現有能力／可能性的界限」與本句語境不同。",
-        "limit-mcq-41": "「個人能力、承受力或舒適範圍的界限」與本句語境不同。",
-        "limit-mcq-45": "「把某物使用／測試到最大能力」與本句語境不同。",
-        "limit-mcq-40": "「一個人能繼續忍耐的極限」與本句語境不同。"
+        "limit-mcq-43": "本句的「limit」指「已達到不能再承受／繼續的極限」。",
+        "limit-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-43"
     },
@@ -2589,11 +2489,9 @@ export default {
       "masked": "The experiment pushes the ____ of current technology.",
       "options": [
         "limit-mcq-44",
-        "limit-mcq-43",
-        "limit-mcq-45",
-        "limit-mcq-42",
-        "limit-mcq-46",
-        "limit-mcq-41"
+        "limit-mcq-30",
+        "limit-mcq-64",
+        "limit-mcq-69"
       ],
       "explanation": "本句的「limits」指「嘗試突破現有能力／可能性的界限」。",
       "sentenceIndex": 30,
@@ -2602,12 +2500,10 @@ export default {
         "limits"
       ],
       "optionReasons": {
-        "limit-mcq-44": "本句指「嘗試突破現有能力／可能性的界限」。",
-        "limit-mcq-43": "「已達到不能再承受／繼續的極限」與本句語境不同。",
-        "limit-mcq-45": "「把某物使用／測試到最大能力」與本句語境不同。",
-        "limit-mcq-42": "「清楚知道自己不能超越的能力／承受範圍」與本句語境不同。",
-        "limit-mcq-46": "「試探一項規則／能力／容忍度可到甚麼程度」與本句語境不同。",
-        "limit-mcq-41": "「個人能力、承受力或舒適範圍的界限」與本句語境不同。"
+        "limit-mcq-44": "本句的「limits」指「嘗試突破現有能力／可能性的界限」。",
+        "limit-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-44"
     },
@@ -2619,11 +2515,9 @@ export default {
       "masked": "The test pushed the machine to its ____.",
       "options": [
         "limit-mcq-45",
-        "limit-mcq-44",
-        "limit-mcq-46",
-        "limit-mcq-43",
-        "limit-mcq-47",
-        "limit-mcq-42"
+        "limit-mcq-96",
+        "limit-mcq-52",
+        "limit-mcq-48"
       ],
       "explanation": "本句的「limit」指「把某物使用／測試到最大能力」。",
       "sentenceIndex": 31,
@@ -2632,12 +2526,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-45": "本句指「把某物使用／測試到最大能力」。",
-        "limit-mcq-44": "「嘗試突破現有能力／可能性的界限」與本句語境不同。",
-        "limit-mcq-46": "「試探一項規則／能力／容忍度可到甚麼程度」與本句語境不同。",
-        "limit-mcq-43": "「已達到不能再承受／繼續的極限」與本句語境不同。",
-        "limit-mcq-47": "「在某規則、能力、法律等容許範圍內」與本句語境不同。",
-        "limit-mcq-42": "「清楚知道自己不能超越的能力／承受範圍」與本句語境不同。"
+        "limit-mcq-45": "本句的「limit」指「把某物使用／測試到最大能力」。",
+        "limit-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-45"
     },
@@ -2649,11 +2541,9 @@ export default {
       "masked": "Children sometimes test the ____.",
       "options": [
         "limit-mcq-46",
-        "limit-mcq-45",
-        "limit-mcq-47",
-        "limit-mcq-44",
-        "limit-mcq-48",
-        "limit-mcq-43"
+        "limit-mcq-64",
+        "limit-mcq-59",
+        "limit-mcq-18"
       ],
       "explanation": "本句的「limits」指「試探一項規則／能力／容忍度可到甚麼程度」。",
       "sentenceIndex": 32,
@@ -2662,12 +2552,10 @@ export default {
         "limits"
       ],
       "optionReasons": {
-        "limit-mcq-46": "本句指「試探一項規則／能力／容忍度可到甚麼程度」。",
-        "limit-mcq-45": "「把某物使用／測試到最大能力」與本句語境不同。",
-        "limit-mcq-47": "「在某規則、能力、法律等容許範圍內」與本句語境不同。",
-        "limit-mcq-44": "「嘗試突破現有能力／可能性的界限」與本句語境不同。",
-        "limit-mcq-48": "「在合理／可接受限度內」與本句語境不同。",
-        "limit-mcq-43": "「已達到不能再承受／繼續的極限」與本句語境不同。"
+        "limit-mcq-46": "本句的「limits」指「試探一項規則／能力／容忍度可到甚麼程度」。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-46"
     },
@@ -2679,11 +2567,9 @@ export default {
       "masked": "Act within the ____ of the law.",
       "options": [
         "limit-mcq-47",
-        "limit-mcq-46",
-        "limit-mcq-48",
-        "limit-mcq-45",
-        "limit-mcq-49",
-        "limit-mcq-44"
+        "limit-mcq-19",
+        "limit-mcq-52",
+        "limit-mcq-15"
       ],
       "explanation": "本句的「limits」指「在某規則、能力、法律等容許範圍內」。",
       "sentenceIndex": 34,
@@ -2692,12 +2578,10 @@ export default {
         "limits"
       ],
       "optionReasons": {
-        "limit-mcq-47": "本句指「在某規則、能力、法律等容許範圍內」。",
-        "limit-mcq-46": "「試探一項規則／能力／容忍度可到甚麼程度」與本句語境不同。",
-        "limit-mcq-48": "「在合理／可接受限度內」與本句語境不同。",
-        "limit-mcq-45": "「把某物使用／測試到最大能力」與本句語境不同。",
-        "limit-mcq-49": "「沒有規定上限」與本句語境不同。",
-        "limit-mcq-44": "「嘗試突破現有能力／可能性的界限」與本句語境不同。"
+        "limit-mcq-47": "本句的「limits」指「在某規則、能力、法律等容許範圍內」。",
+        "limit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-47"
     },
@@ -2709,11 +2593,9 @@ export default {
       "masked": "Freedom is important, but only within ____.",
       "options": [
         "limit-mcq-48",
-        "limit-mcq-47",
-        "limit-mcq-49",
-        "limit-mcq-46",
-        "limit-mcq-50",
-        "limit-mcq-45"
+        "limit-mcq-18",
+        "limit-mcq-54",
+        "limit-mcq-55"
       ],
       "explanation": "本句的「limits」指「在合理／可接受限度內」。",
       "sentenceIndex": 35,
@@ -2722,12 +2604,10 @@ export default {
         "limits"
       ],
       "optionReasons": {
-        "limit-mcq-48": "本句指「在合理／可接受限度內」。",
-        "limit-mcq-47": "「在某規則、能力、法律等容許範圍內」與本句語境不同。",
-        "limit-mcq-49": "「沒有規定上限」與本句語境不同。",
-        "limit-mcq-46": "「試探一項規則／能力／容忍度可到甚麼程度」與本句語境不同。",
-        "limit-mcq-50": "「不受數量／程度限制」與本句語境不同。",
-        "limit-mcq-45": "「把某物使用／測試到最大能力」與本句語境不同。"
+        "limit-mcq-48": "本句的「limits」指「在合理／可接受限度內」。",
+        "limit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-48"
     },
@@ -2739,11 +2619,9 @@ export default {
       "masked": "There is no ____ on the number of attempts.",
       "options": [
         "limit-mcq-49",
-        "limit-mcq-48",
-        "limit-mcq-50",
-        "limit-mcq-47",
-        "limit-mcq-51",
-        "limit-mcq-46"
+        "limit-mcq-67",
+        "limit-mcq-16",
+        "limit-mcq-54"
       ],
       "explanation": "本句的「limit」指「沒有規定上限」。",
       "sentenceIndex": 36,
@@ -2752,12 +2630,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-49": "本句指「沒有規定上限」。",
-        "limit-mcq-48": "「在合理／可接受限度內」與本句語境不同。",
-        "limit-mcq-50": "「不受數量／程度限制」與本句語境不同。",
-        "limit-mcq-47": "「在某規則、能力、法律等容許範圍內」與本句語境不同。",
-        "limit-mcq-51": "「去到可承受／可達的最高程度」與本句語境不同。",
-        "limit-mcq-46": "「試探一項規則／能力／容忍度可到甚麼程度」與本句語境不同。"
+        "limit-mcq-49": "本句的「limit」指「沒有規定上限」。",
+        "limit-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-49"
     },
@@ -2769,11 +2645,9 @@ export default {
       "masked": "With those skills, the sky’s the ____.",
       "options": [
         "limit-mcq-52",
-        "limit-mcq-51",
-        "limit-mcq-53",
-        "limit-mcq-50",
-        "limit-mcq-54",
-        "limit-mcq-49"
+        "limit-mcq-09",
+        "limit-mcq-45",
+        "limit-mcq-54"
       ],
       "explanation": "本句的「limit」指「慣用語：幾乎沒有發展上限；前途無限」。",
       "sentenceIndex": 38,
@@ -2782,12 +2656,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-52": "本句指「慣用語：幾乎沒有發展上限；前途無限」。",
-        "limit-mcq-51": "「去到可承受／可達的最高程度」與本句語境不同。",
-        "limit-mcq-53": "「某城市／行政區的正式邊界」與本句語境不同。",
-        "limit-mcq-50": "「不受數量／程度限制」與本句語境不同。",
-        "limit-mcq-54": "「城市正式行政邊界；市界」與本句語境不同。",
-        "limit-mcq-49": "「沒有規定上限」與本句語境不同。"
+        "limit-mcq-52": "本句的「limit」指「慣用語：幾乎沒有發展上限；前途無限」。",
+        "limit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-52"
     },
@@ -2799,11 +2671,9 @@ export default {
       "masked": "The airport is outside the city ____.",
       "options": [
         "limit-mcq-54",
-        "limit-mcq-53",
-        "limit-mcq-55",
-        "limit-mcq-52",
-        "limit-mcq-56",
-        "limit-mcq-51"
+        "limit-mcq-96",
+        "limit-mcq-92",
+        "limit-mcq-48"
       ],
       "explanation": "本句的「limits」指「城市正式行政邊界；市界」。",
       "sentenceIndex": 40,
@@ -2812,12 +2682,10 @@ export default {
         "limits"
       ],
       "optionReasons": {
-        "limit-mcq-54": "本句指「城市正式行政邊界；市界」。",
-        "limit-mcq-53": "「某城市／行政區的正式邊界」與本句語境不同。",
-        "limit-mcq-55": "「禁止進入、使用、談論或觸及的」與本句語境不同。",
-        "limit-mcq-52": "「慣用語：幾乎沒有發展上限；前途無限」與本句語境不同。",
-        "limit-mcq-56": "「限制某物的數量、範圍、可能性等」與本句語境不同。",
-        "limit-mcq-51": "「去到可承受／可達的最高程度」與本句語境不同。"
+        "limit-mcq-54": "本句的「limits」指「城市正式行政邊界；市界」。",
+        "limit-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-54"
     },
@@ -2829,11 +2697,9 @@ export default {
       "masked": "This room is off-____ to students.",
       "options": [
         "limit-mcq-55",
-        "limit-mcq-54",
-        "limit-mcq-56",
-        "limit-mcq-53",
-        "limit-mcq-57",
-        "limit-mcq-52"
+        "limit-mcq-43",
+        "limit-mcq-18",
+        "limit-mcq-54"
       ],
       "explanation": "本句的「limits」指「禁止進入、使用、談論或觸及的」。",
       "sentenceIndex": 41,
@@ -2842,12 +2708,10 @@ export default {
         "limits"
       ],
       "optionReasons": {
-        "limit-mcq-55": "本句指「禁止進入、使用、談論或觸及的」。",
-        "limit-mcq-54": "「城市正式行政邊界；市界」與本句語境不同。",
-        "limit-mcq-56": "「限制某物的數量、範圍、可能性等」與本句語境不同。",
-        "limit-mcq-53": "「某城市／行政區的正式邊界」與本句語境不同。",
-        "limit-mcq-57": "「把 X 限制在 Y 的範圍／數量內」與本句語境不同。",
-        "limit-mcq-52": "「慣用語：幾乎沒有發展上限；前途無限」與本句語境不同。"
+        "limit-mcq-55": "本句的「limits」指「禁止進入、使用、談論或觸及的」。",
+        "limit-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-55"
     },
@@ -2859,11 +2723,9 @@ export default {
       "masked": "That topic is off-____.",
       "options": [
         "limit-mcq-55",
-        "limit-mcq-54",
-        "limit-mcq-56",
-        "limit-mcq-53",
-        "limit-mcq-57",
-        "limit-mcq-52"
+        "limit-mcq-92",
+        "limit-mcq-49",
+        "limit-mcq-18"
       ],
       "explanation": "本句的「limits」指「禁止進入、使用、談論或觸及的」。",
       "sentenceIndex": 42,
@@ -2872,12 +2734,10 @@ export default {
         "limits"
       ],
       "optionReasons": {
-        "limit-mcq-55": "本句指「禁止進入、使用、談論或觸及的」。",
-        "limit-mcq-54": "「城市正式行政邊界；市界」與本句語境不同。",
-        "limit-mcq-56": "「限制某物的數量、範圍、可能性等」與本句語境不同。",
-        "limit-mcq-53": "「某城市／行政區的正式邊界」與本句語境不同。",
-        "limit-mcq-57": "「把 X 限制在 Y 的範圍／數量內」與本句語境不同。",
-        "limit-mcq-52": "「慣用語：幾乎沒有發展上限；前途無限」與本句語境不同。"
+        "limit-mcq-55": "本句的「limits」指「禁止進入、使用、談論或觸及的」。",
+        "limit-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-55"
     },
@@ -2889,11 +2749,9 @@ export default {
       "masked": "The offer is ____ to new customers.",
       "options": [
         "limit-mcq-58",
-        "limit-mcq-57",
-        "limit-mcq-59",
-        "limit-mcq-56",
-        "limit-mcq-60",
-        "limit-mcq-55"
+        "limit-mcq-19",
+        "limit-mcq-07",
+        "limit-mcq-44"
       ],
       "explanation": "本句的「limited」指「只包括／只容許某一範圍」。",
       "sentenceIndex": 48,
@@ -2902,12 +2760,10 @@ export default {
         "limited"
       ],
       "optionReasons": {
-        "limit-mcq-58": "本句指「只包括／只容許某一範圍」。",
-        "limit-mcq-57": "「把 X 限制在 Y 的範圍／數量內」與本句語境不同。",
-        "limit-mcq-59": "「限制哪些人可以進入／存取」與本句語境不同。",
-        "limit-mcq-56": "「限制某物的數量、範圍、可能性等」與本句語境不同。",
-        "limit-mcq-60": "「限制使用程度／次數」與本句語境不同。",
-        "limit-mcq-55": "「禁止進入、使用、談論或觸及的」與本句語境不同。"
+        "limit-mcq-58": "本句的「limited」指「只包括／只容許某一範圍」。",
+        "limit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-58"
     },
@@ -2919,11 +2775,9 @@ export default {
       "masked": "The discussion should not be ____ to one viewpoint.",
       "options": [
         "limit-mcq-58",
-        "limit-mcq-57",
-        "limit-mcq-59",
-        "limit-mcq-56",
-        "limit-mcq-60",
-        "limit-mcq-55"
+        "limit-mcq-15",
+        "limit-mcq-52",
+        "limit-mcq-44"
       ],
       "explanation": "本句的「limited」指「只包括／只容許某一範圍」。",
       "sentenceIndex": 49,
@@ -2932,12 +2786,10 @@ export default {
         "limited"
       ],
       "optionReasons": {
-        "limit-mcq-58": "本句指「只包括／只容許某一範圍」。",
-        "limit-mcq-57": "「把 X 限制在 Y 的範圍／數量內」與本句語境不同。",
-        "limit-mcq-59": "「限制哪些人可以進入／存取」與本句語境不同。",
-        "limit-mcq-56": "「限制某物的數量、範圍、可能性等」與本句語境不同。",
-        "limit-mcq-60": "「限制使用程度／次數」與本句語境不同。",
-        "limit-mcq-55": "「禁止進入、使用、談論或觸及的」與本句語境不同。"
+        "limit-mcq-58": "本句的「limited」指「只包括／只容許某一範圍」。",
+        "limit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-58"
     },
@@ -2949,11 +2801,9 @@ export default {
       "masked": "The system ____ access to authorized users.",
       "options": [
         "limit-mcq-59",
-        "limit-mcq-58",
-        "limit-mcq-60",
-        "limit-mcq-57",
-        "limit-mcq-61",
-        "limit-mcq-56"
+        "limit-mcq-64",
+        "limit-mcq-18",
+        "limit-mcq-42"
       ],
       "explanation": "本句的「limits」指「限制哪些人可以進入／存取」。",
       "sentenceIndex": 50,
@@ -2962,12 +2812,10 @@ export default {
         "limits"
       ],
       "optionReasons": {
-        "limit-mcq-59": "本句指「限制哪些人可以進入／存取」。",
-        "limit-mcq-58": "「只包括／只容許某一範圍」與本句語境不同。",
-        "limit-mcq-60": "「限制使用程度／次數」與本句語境不同。",
-        "limit-mcq-57": "「把 X 限制在 Y 的範圍／數量內」與本句語境不同。",
-        "limit-mcq-61": "「限制使用螢幕的時間」與本句語境不同。",
-        "limit-mcq-56": "「限制某物的數量、範圍、可能性等」與本句語境不同。"
+        "limit-mcq-59": "本句的「limits」指「限制哪些人可以進入／存取」。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-59"
     },
@@ -2979,11 +2827,9 @@ export default {
       "masked": "Lack of water ____ plant growth.",
       "options": [
         "limit-mcq-63",
-        "limit-mcq-62",
-        "limit-mcq-64",
-        "limit-mcq-61",
-        "limit-mcq-65",
-        "limit-mcq-60"
+        "limit-mcq-19",
+        "limit-mcq-42",
+        "limit-mcq-55"
       ],
       "explanation": "本句的「limits」指「限制生長／增長」。",
       "sentenceIndex": 51,
@@ -2992,12 +2838,10 @@ export default {
         "limits"
       ],
       "optionReasons": {
-        "limit-mcq-63": "本句指「限制生長／增長」。",
-        "limit-mcq-62": "「限制開支」與本句語境不同。",
-        "limit-mcq-64": "「減少可以選擇的方案」與本句語境不同。",
-        "limit-mcq-61": "「限制使用螢幕的時間」與本句語境不同。",
-        "limit-mcq-65": "「限制自由」與本句語境不同。",
-        "limit-mcq-60": "「限制使用程度／次數」與本句語境不同。"
+        "limit-mcq-63": "本句的「limits」指「限制生長／增長」。",
+        "limit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-63"
     },
@@ -3009,11 +2853,9 @@ export default {
       "masked": "The deadline ____ our options.",
       "options": [
         "limit-mcq-64",
-        "limit-mcq-63",
-        "limit-mcq-65",
-        "limit-mcq-62",
-        "limit-mcq-66",
-        "limit-mcq-61"
+        "limit-mcq-25",
+        "limit-mcq-02",
+        "limit-mcq-15"
       ],
       "explanation": "本句的「limits」指「減少可以選擇的方案」。",
       "sentenceIndex": 52,
@@ -3022,12 +2864,10 @@ export default {
         "limits"
       ],
       "optionReasons": {
-        "limit-mcq-64": "本句指「減少可以選擇的方案」。",
-        "limit-mcq-63": "「限制生長／增長」與本句語境不同。",
-        "limit-mcq-65": "「限制自由」與本句語境不同。",
-        "limit-mcq-62": "「限制開支」與本句語境不同。",
-        "limit-mcq-66": "「限制活動／移動」與本句語境不同。",
-        "limit-mcq-61": "「限制使用螢幕的時間」與本句語境不同。"
+        "limit-mcq-64": "本句的「limits」指「減少可以選擇的方案」。",
+        "limit-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-64"
     },
@@ -3039,11 +2879,9 @@ export default {
       "masked": "Protective equipment helps ____ exposure.",
       "options": [
         "limit-mcq-67",
-        "limit-mcq-66",
-        "limit-mcq-68",
-        "limit-mcq-65",
-        "limit-mcq-69",
-        "limit-mcq-64"
+        "limit-mcq-02",
+        "limit-mcq-45",
+        "limit-mcq-59"
       ],
       "explanation": "本句的「limit」指「減少接觸／暴露」。",
       "sentenceIndex": 53,
@@ -3052,12 +2890,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-67": "本句指「減少接觸／暴露」。",
-        "limit-mcq-66": "「限制活動／移動」與本句語境不同。",
-        "limit-mcq-68": "「控制／降低風險」與本句語境不同。",
-        "limit-mcq-65": "「限制自由」與本句語境不同。",
-        "limit-mcq-69": "「控制損害程度、避免進一步惡化」與本句語境不同。",
-        "limit-mcq-64": "「減少可以選擇的方案」與本句語境不同。"
+        "limit-mcq-67": "本句的「limit」指「減少接觸／暴露」。",
+        "limit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-67"
     },
@@ -3069,11 +2905,9 @@ export default {
       "masked": "Quick action helped ____ the damage.",
       "options": [
         "limit-mcq-69",
-        "limit-mcq-68",
-        "limit-mcq-70",
-        "limit-mcq-67",
-        "limit-mcq-71",
-        "limit-mcq-66"
+        "limit-mcq-01",
+        "limit-mcq-49",
+        "limit-mcq-67"
       ],
       "explanation": "本句的「limit」指「控制損害程度、避免進一步惡化」。",
       "sentenceIndex": 54,
@@ -3082,12 +2916,10 @@ export default {
         "limit"
       ],
       "optionReasons": {
-        "limit-mcq-69": "本句指「控制損害程度、避免進一步惡化」。",
-        "limit-mcq-68": "「控制／降低風險」與本句語境不同。",
-        "limit-mcq-70": "「降低影響程度」與本句語境不同。",
-        "limit-mcq-67": "「減少接觸／暴露」與本句語境不同。",
-        "limit-mcq-71": "「限定研究／工作等的範圍」與本句語境不同。",
-        "limit-mcq-66": "「限制活動／移動」與本句語境不同。"
+        "limit-mcq-69": "本句的「limit」指「控制損害程度、避免進一步惡化」。",
+        "limit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-69"
     },
@@ -3099,11 +2931,9 @@ export default {
       "masked": "The offer is available for a ____ time.",
       "options": [
         "limit-mcq-74",
-        "limit-mcq-73",
-        "limit-mcq-75",
-        "limit-mcq-72",
-        "limit-mcq-76",
-        "limit-mcq-71"
+        "limit-mcq-19",
+        "limit-mcq-47",
+        "limit-mcq-54"
       ],
       "explanation": "本句的「limited」指「可用時間有限」。",
       "sentenceIndex": 58,
@@ -3112,12 +2942,10 @@ export default {
         "limited"
       ],
       "optionReasons": {
-        "limit-mcq-74": "本句指「可用時間有限」。",
-        "limit-mcq-73": "「在數量、資源、範圍等方面有限的」與本句語境不同。",
-        "limit-mcq-75": "「可使用資源有限」與本句語境不同。",
-        "limit-mcq-72": "「限制法律／財務責任」與本句語境不同。",
-        "limit-mcq-76": "「可選方案很少」與本句語境不同。",
-        "limit-mcq-71": "「限定研究／工作等的範圍」與本句語境不同。"
+        "limit-mcq-74": "本句的「limited」指「可用時間有限」。",
+        "limit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-74"
     },
@@ -3129,11 +2957,9 @@ export default {
       "masked": "They released a ____ print.",
       "options": [
         "limit-mcq-79",
-        "limit-mcq-78",
-        "limit-mcq-80",
-        "limit-mcq-77",
-        "limit-mcq-81",
-        "limit-mcq-76"
+        "limit-mcq-19",
+        "limit-mcq-64",
+        "limit-mcq-45"
       ],
       "explanation": "本句的「limited-edition」指「只生產有限數量／期間的限量版」。",
       "sentenceIndex": 59,
@@ -3142,12 +2968,10 @@ export default {
         "limited-edition"
       ],
       "optionReasons": {
-        "limit-mcq-79": "本句指「只生產有限數量／期間的限量版」。",
-        "limit-mcq-78": "「只在有限數量／時間內供應」與本句語境不同。",
-        "limit-mcq-80": "「只在部分地點／範圍發行」與本句語境不同。",
-        "limit-mcq-77": "「存取／進入受到限制」與本句語境不同。",
-        "limit-mcq-81": "「只生產／演出有限數量或場次」與本句語境不同。",
-        "limit-mcq-76": "「可選方案很少」與本句語境不同。"
+        "limit-mcq-79": "本句的「limited-edition」指「只生產有限數量／期間的限量版」。",
+        "limit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-79"
     },
@@ -3159,11 +2983,9 @@ export default {
       "masked": "Time is the main ____ factor.",
       "options": [
         "limit-mcq-89",
-        "limit-mcq-88",
-        "limit-mcq-90",
-        "limit-mcq-87",
-        "limit-mcq-91",
-        "limit-mcq-86"
+        "limit-mcq-58",
+        "limit-mcq-45",
+        "limit-mcq-64"
       ],
       "explanation": "本句的「limiting」指「控制／限制整體生長、表現或速度的因素」。",
       "sentenceIndex": 61,
@@ -3172,12 +2994,10 @@ export default {
         "limiting"
       ],
       "optionReasons": {
-        "limit-mcq-89": "本句指「控制／限制整體生長、表現或速度的因素」。",
-        "limit-mcq-88": "「會造成限制、令可能性減少的」與本句語境不同。",
-        "limit-mcq-90": "「決定整體過程速度的最慢／控制步驟」與本句語境不同。",
-        "limit-mcq-87": "「公司名稱中的「有限公司」標示」與本句語境不同。",
-        "limit-mcq-91": "「阻止某事完全發揮的限制／局限」與本句語境不同。",
-        "limit-mcq-86": "「覆蓋範圍／年期受條件限制的有限保養」與本句語境不同。"
+        "limit-mcq-89": "本句的「limiting」指「控制／限制整體生長、表現或速度的因素」。",
+        "limit-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-89"
     },
@@ -3189,11 +3009,9 @@ export default {
       "masked": "The report discusses the study’s ____.",
       "options": [
         "limit-mcq-92",
-        "limit-mcq-91",
-        "limit-mcq-93",
-        "limit-mcq-90",
-        "limit-mcq-94",
-        "limit-mcq-89"
+        "limit-mcq-19",
+        "limit-mcq-64",
+        "limit-mcq-54"
       ],
       "explanation": "本句的「limitations」指「影響研究結果解讀／泛化的研究局限」。",
       "sentenceIndex": 64,
@@ -3202,12 +3020,10 @@ export default {
         "limitations"
       ],
       "optionReasons": {
-        "limit-mcq-92": "本句指「影響研究結果解讀／泛化的研究局限」。",
-        "limit-mcq-91": "「阻止某事完全發揮的限制／局限」與本句語境不同。",
-        "limit-mcq-93": "「實際／技術上的限制」與本句語境不同。",
-        "limit-mcq-90": "「決定整體過程速度的最慢／控制步驟」與本句語境不同。",
-        "limit-mcq-94": "「提出某類法律申索的時效期間」與本句語境不同。",
-        "limit-mcq-89": "「控制／限制整體生長、表現或速度的因素」與本句語境不同。"
+        "limit-mcq-92": "本句的「limitations」指「影響研究結果解讀／泛化的研究局限」。",
+        "limit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-92"
     },
@@ -3219,11 +3035,9 @@ export default {
       "masked": "The claim may be barred by the statute of ____.",
       "options": [
         "limit-mcq-95",
-        "limit-mcq-94",
-        "limit-mcq-96",
-        "limit-mcq-93",
-        "limit-mcq-97",
-        "limit-mcq-92"
+        "limit-mcq-19",
+        "limit-mcq-64",
+        "limit-mcq-08"
       ],
       "explanation": "本句的「limitations」指「法律規定提出申索／追訴的時效限制」。",
       "sentenceIndex": 65,
@@ -3232,12 +3046,10 @@ export default {
         "limitations"
       ],
       "optionReasons": {
-        "limit-mcq-95": "本句指「法律規定提出申索／追訴的時效限制」。",
-        "limit-mcq-94": "「提出某類法律申索的時效期間」與本句語境不同。",
-        "limit-mcq-96": "「合約／法律上對責任金額或範圍所作的限制」與本句語境不同。",
-        "limit-mcq-93": "「實際／技術上的限制」與本句語境不同。",
-        "limit-mcq-97": "「看似沒有任何邊界／盡頭的；無限的」與本句語境不同。",
-        "limit-mcq-92": "「影響研究結果解讀／泛化的研究局限」與本句語境不同。"
+        "limit-mcq-95": "本句的「limitations」指「法律規定提出申索／追訴的時效限制」。",
+        "limit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-95"
     },
@@ -3249,11 +3061,9 @@ export default {
       "masked": "The contract contains a ____ clause.",
       "options": [
         "limit-mcq-96",
-        "limit-mcq-95",
-        "limit-mcq-97",
-        "limit-mcq-94",
-        "limit-mcq-98",
-        "limit-mcq-93"
+        "limit-mcq-67",
+        "limit-mcq-45",
+        "limit-mcq-55"
       ],
       "explanation": "本句的「limitation-of-liability」指「合約／法律上對責任金額或範圍所作的限制」。",
       "sentenceIndex": 66,
@@ -3262,12 +3072,10 @@ export default {
         "limitation-of-liability"
       ],
       "optionReasons": {
-        "limit-mcq-96": "本句指「合約／法律上對責任金額或範圍所作的限制」。",
-        "limit-mcq-95": "「法律規定提出申索／追訴的時效限制」與本句語境不同。",
-        "limit-mcq-97": "「看似沒有任何邊界／盡頭的；無限的」與本句語境不同。",
-        "limit-mcq-94": "「提出某類法律申索的時效期間」與本句語境不同。",
-        "limit-mcq-98": "「幾乎沒有上限的可能性」與本句語境不同。",
-        "limit-mcq-93": "「實際／技術上的限制」與本句語境不同。"
+        "limit-mcq-96": "本句的「limitation-of-liability」指「合約／法律上對責任金額或範圍所作的限制」。",
+        "limit-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "limit-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "limit-mcq-96"
     }
@@ -3279,5 +3087,7 @@ export default {
     "sha256": "36310e482991d6cce74a3f1f4529aa80f143a69403d97f9bb1ca8e065d6c9fb1",
     "pages": 100
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

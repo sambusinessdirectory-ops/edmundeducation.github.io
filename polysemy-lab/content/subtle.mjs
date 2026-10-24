@@ -257,11 +257,7 @@ export default {
       "masked": "There is a ____ difference between the two colours.",
       "options": [
         "subtle-mcq-01",
-        "subtle-mcq-02",
-        "subtle-mcq-03",
-        "subtle-mcq-04",
-        "subtle-mcq-05",
-        "subtle-mcq-06"
+        "subtle-mcq-05"
       ],
       "explanation": "本句的「subtle」指「差異、變化或特徵很小，不容易立即察覺」。",
       "sentenceIndex": 0,
@@ -270,12 +266,8 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-01": "本句指「差異、變化或特徵很小，不容易立即察覺」。",
-        "subtle-mcq-02": "「效果不誇張、不強烈，而是低調、細膩、含蓄的」是「subtle — style/art」的用法，與本句語境不同。",
-        "subtle-mcq-03": "「意思不直接說明，而透過暗示、語氣或細節表達」是「subtle — indirect」的用法，與本句語境不同。",
-        "subtle-mcq-04": "「能呈現細小差異、複雜層次或微妙關係的」是「subtle — nuanced」的用法，與本句語境不同。",
-        "subtle-mcq-05": "「方法或想法精巧、有技巧但不明顯直接的」是「subtle — clever」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。"
+        "subtle-mcq-01": "本句的「subtle」指「差異、變化或特徵很小，不容易立即察覺」。",
+        "subtle-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-01"
     },
@@ -287,11 +279,7 @@ export default {
       "masked": "She noticed a ____ change in his tone.",
       "options": [
         "subtle-mcq-01",
-        "subtle-mcq-02",
-        "subtle-mcq-03",
-        "subtle-mcq-04",
-        "subtle-mcq-05",
-        "subtle-mcq-06"
+        "subtle-mcq-05"
       ],
       "explanation": "本句的「subtle」指「差異、變化或特徵很小，不容易立即察覺」。",
       "sentenceIndex": 1,
@@ -300,12 +288,8 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-01": "本句指「差異、變化或特徵很小，不容易立即察覺」。",
-        "subtle-mcq-02": "「效果不誇張、不強烈，而是低調、細膩、含蓄的」是「subtle — style/art」的用法，與本句語境不同。",
-        "subtle-mcq-03": "「意思不直接說明，而透過暗示、語氣或細節表達」是「subtle — indirect」的用法，與本句語境不同。",
-        "subtle-mcq-04": "「能呈現細小差異、複雜層次或微妙關係的」是「subtle — nuanced」的用法，與本句語境不同。",
-        "subtle-mcq-05": "「方法或想法精巧、有技巧但不明顯直接的」是「subtle — clever」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。"
+        "subtle-mcq-01": "本句的「subtle」指「差異、變化或特徵很小，不容易立即察覺」。",
+        "subtle-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-01"
     },
@@ -318,10 +302,7 @@ export default {
       "options": [
         "subtle-mcq-02",
         "subtle-mcq-01",
-        "subtle-mcq-03",
-        "subtle-mcq-04",
-        "subtle-mcq-05",
-        "subtle-mcq-06"
+        "subtle-mcq-09"
       ],
       "explanation": "本句的「subtle」指「效果不誇張、不強烈，而是低調、細膩、含蓄的」。",
       "sentenceIndex": 2,
@@ -330,12 +311,9 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-02": "本句指「效果不誇張、不強烈，而是低調、細膩、含蓄的」。",
-        "subtle-mcq-01": "「差異、變化或特徵很小，不容易立即察覺」是「subtle — not obvious」的用法，與本句語境不同。",
-        "subtle-mcq-03": "「意思不直接說明，而透過暗示、語氣或細節表達」是「subtle — indirect」的用法，與本句語境不同。",
-        "subtle-mcq-04": "「能呈現細小差異、複雜層次或微妙關係的」是「subtle — nuanced」的用法，與本句語境不同。",
-        "subtle-mcq-05": "「方法或想法精巧、有技巧但不明顯直接的」是「subtle — clever」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。"
+        "subtle-mcq-02": "本句的「subtle」指「效果不誇張、不強烈，而是低調、細膩、含蓄的」。",
+        "subtle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "subtle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-02"
     },
@@ -348,10 +326,7 @@ export default {
       "options": [
         "subtle-mcq-02",
         "subtle-mcq-01",
-        "subtle-mcq-03",
-        "subtle-mcq-04",
-        "subtle-mcq-05",
-        "subtle-mcq-06"
+        "subtle-mcq-09"
       ],
       "explanation": "本句的「subtle」指「效果不誇張、不強烈，而是低調、細膩、含蓄的」。",
       "sentenceIndex": 3,
@@ -360,12 +335,9 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-02": "本句指「效果不誇張、不強烈，而是低調、細膩、含蓄的」。",
-        "subtle-mcq-01": "「差異、變化或特徵很小，不容易立即察覺」是「subtle — not obvious」的用法，與本句語境不同。",
-        "subtle-mcq-03": "「意思不直接說明，而透過暗示、語氣或細節表達」是「subtle — indirect」的用法，與本句語境不同。",
-        "subtle-mcq-04": "「能呈現細小差異、複雜層次或微妙關係的」是「subtle — nuanced」的用法，與本句語境不同。",
-        "subtle-mcq-05": "「方法或想法精巧、有技巧但不明顯直接的」是「subtle — clever」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。"
+        "subtle-mcq-02": "本句的「subtle」指「效果不誇張、不強烈，而是低調、細膩、含蓄的」。",
+        "subtle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "subtle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-02"
     },
@@ -377,11 +349,8 @@ export default {
       "masked": "The film contains a ____ criticism of modern society.",
       "options": [
         "subtle-mcq-03",
-        "subtle-mcq-02",
-        "subtle-mcq-04",
         "subtle-mcq-01",
-        "subtle-mcq-05",
-        "subtle-mcq-06"
+        "subtle-mcq-07"
       ],
       "explanation": "本句的「subtle」指「意思不直接說明，而透過暗示、語氣或細節表達」。",
       "sentenceIndex": 4,
@@ -390,12 +359,9 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-03": "本句指「意思不直接說明，而透過暗示、語氣或細節表達」。",
-        "subtle-mcq-02": "「效果不誇張、不強烈，而是低調、細膩、含蓄的」是「subtle — style/art」的用法，與本句語境不同。",
-        "subtle-mcq-04": "「能呈現細小差異、複雜層次或微妙關係的」是「subtle — nuanced」的用法，與本句語境不同。",
-        "subtle-mcq-01": "「差異、變化或特徵很小，不容易立即察覺」是「subtle — not obvious」的用法，與本句語境不同。",
-        "subtle-mcq-05": "「方法或想法精巧、有技巧但不明顯直接的」是「subtle — clever」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。"
+        "subtle-mcq-03": "本句的「subtle」指「意思不直接說明，而透過暗示、語氣或細節表達」。",
+        "subtle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "subtle-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-03"
     },
@@ -407,11 +373,8 @@ export default {
       "masked": "She gave him a ____ hint.",
       "options": [
         "subtle-mcq-03",
-        "subtle-mcq-02",
-        "subtle-mcq-04",
         "subtle-mcq-01",
-        "subtle-mcq-05",
-        "subtle-mcq-06"
+        "subtle-mcq-02"
       ],
       "explanation": "本句的「subtle」指「意思不直接說明，而透過暗示、語氣或細節表達」。",
       "sentenceIndex": 5,
@@ -420,12 +383,9 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-03": "本句指「意思不直接說明，而透過暗示、語氣或細節表達」。",
-        "subtle-mcq-02": "「效果不誇張、不強烈，而是低調、細膩、含蓄的」是「subtle — style/art」的用法，與本句語境不同。",
-        "subtle-mcq-04": "「能呈現細小差異、複雜層次或微妙關係的」是「subtle — nuanced」的用法，與本句語境不同。",
-        "subtle-mcq-01": "「差異、變化或特徵很小，不容易立即察覺」是「subtle — not obvious」的用法，與本句語境不同。",
-        "subtle-mcq-05": "「方法或想法精巧、有技巧但不明顯直接的」是「subtle — clever」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。"
+        "subtle-mcq-03": "本句的「subtle」指「意思不直接說明，而透過暗示、語氣或細節表達」。",
+        "subtle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "subtle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-03"
     },
@@ -437,11 +397,8 @@ export default {
       "masked": "The novel makes a ____ distinction between ambition and greed.",
       "options": [
         "subtle-mcq-04",
-        "subtle-mcq-03",
-        "subtle-mcq-05",
-        "subtle-mcq-02",
         "subtle-mcq-06",
-        "subtle-mcq-01"
+        "subtle-mcq-09"
       ],
       "explanation": "本句的「subtle」指「能呈現細小差異、複雜層次或微妙關係的」。",
       "sentenceIndex": 6,
@@ -450,12 +407,9 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-04": "本句指「能呈現細小差異、複雜層次或微妙關係的」。",
-        "subtle-mcq-03": "「意思不直接說明，而透過暗示、語氣或細節表達」是「subtle — indirect」的用法，與本句語境不同。",
-        "subtle-mcq-05": "「方法或想法精巧、有技巧但不明顯直接的」是「subtle — clever」的用法，與本句語境不同。",
-        "subtle-mcq-02": "「效果不誇張、不強烈，而是低調、細膩、含蓄的」是「subtle — style/art」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。",
-        "subtle-mcq-01": "「差異、變化或特徵很小，不容易立即察覺」是「subtle — not obvious」的用法，與本句語境不同。"
+        "subtle-mcq-04": "本句的「subtle」指「能呈現細小差異、複雜層次或微妙關係的」。",
+        "subtle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "subtle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-04"
     },
@@ -467,11 +421,8 @@ export default {
       "masked": "Her interpretation is ____ and thoughtful.",
       "options": [
         "subtle-mcq-04",
-        "subtle-mcq-03",
-        "subtle-mcq-05",
-        "subtle-mcq-02",
         "subtle-mcq-06",
-        "subtle-mcq-01"
+        "subtle-mcq-09"
       ],
       "explanation": "本句的「subtle」指「能呈現細小差異、複雜層次或微妙關係的」。",
       "sentenceIndex": 7,
@@ -480,12 +431,9 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-04": "本句指「能呈現細小差異、複雜層次或微妙關係的」。",
-        "subtle-mcq-03": "「意思不直接說明，而透過暗示、語氣或細節表達」是「subtle — indirect」的用法，與本句語境不同。",
-        "subtle-mcq-05": "「方法或想法精巧、有技巧但不明顯直接的」是「subtle — clever」的用法，與本句語境不同。",
-        "subtle-mcq-02": "「效果不誇張、不強烈，而是低調、細膩、含蓄的」是「subtle — style/art」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。",
-        "subtle-mcq-01": "「差異、變化或特徵很小，不容易立即察覺」是「subtle — not obvious」的用法，與本句語境不同。"
+        "subtle-mcq-04": "本句的「subtle」指「能呈現細小差異、複雜層次或微妙關係的」。",
+        "subtle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "subtle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-04"
     },
@@ -497,11 +445,7 @@ export default {
       "masked": "The design uses a ____ visual trick.",
       "options": [
         "subtle-mcq-05",
-        "subtle-mcq-04",
-        "subtle-mcq-06",
-        "subtle-mcq-03",
-        "subtle-mcq-07",
-        "subtle-mcq-02"
+        "subtle-mcq-01"
       ],
       "explanation": "本句的「subtle」指「方法或想法精巧、有技巧但不明顯直接的」。",
       "sentenceIndex": 8,
@@ -510,12 +454,8 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-05": "本句指「方法或想法精巧、有技巧但不明顯直接的」。",
-        "subtle-mcq-04": "「能呈現細小差異、複雜層次或微妙關係的」是「subtle — nuanced」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。",
-        "subtle-mcq-03": "「意思不直接說明，而透過暗示、語氣或細節表達」是「subtle — indirect」的用法，與本句語境不同。",
-        "subtle-mcq-07": "「效果不劇烈，但會細緻或逐漸產生影響的」是「subtle — effect」的用法，與本句語境不同。",
-        "subtle-mcq-02": "「效果不誇張、不強烈，而是低調、細膩、含蓄的」是「subtle — style/art」的用法，與本句語境不同。"
+        "subtle-mcq-05": "本句的「subtle」指「方法或想法精巧、有技巧但不明顯直接的」。",
+        "subtle-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-05"
     },
@@ -527,11 +467,7 @@ export default {
       "masked": "It was a ____ strategy.",
       "options": [
         "subtle-mcq-05",
-        "subtle-mcq-04",
-        "subtle-mcq-06",
-        "subtle-mcq-03",
-        "subtle-mcq-07",
-        "subtle-mcq-02"
+        "subtle-mcq-04"
       ],
       "explanation": "本句的「subtle」指「方法或想法精巧、有技巧但不明顯直接的」。",
       "sentenceIndex": 9,
@@ -540,12 +476,8 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-05": "本句指「方法或想法精巧、有技巧但不明顯直接的」。",
-        "subtle-mcq-04": "「能呈現細小差異、複雜層次或微妙關係的」是「subtle — nuanced」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。",
-        "subtle-mcq-03": "「意思不直接說明，而透過暗示、語氣或細節表達」是「subtle — indirect」的用法，與本句語境不同。",
-        "subtle-mcq-07": "「效果不劇烈，但會細緻或逐漸產生影響的」是「subtle — effect」的用法，與本句語境不同。",
-        "subtle-mcq-02": "「效果不誇張、不強烈，而是低調、細膩、含蓄的」是「subtle — style/art」的用法，與本句語境不同。"
+        "subtle-mcq-05": "本句的「subtle」指「方法或想法精巧、有技巧但不明顯直接的」。",
+        "subtle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-05"
     },
@@ -557,11 +489,8 @@ export default {
       "masked": "The tea has a ____ floral flavour.",
       "options": [
         "subtle-mcq-06",
-        "subtle-mcq-05",
-        "subtle-mcq-07",
         "subtle-mcq-04",
-        "subtle-mcq-08",
-        "subtle-mcq-03"
+        "subtle-mcq-09"
       ],
       "explanation": "本句的「subtle」指「味道、香氣、色彩等不強烈但可察覺的」。",
       "sentenceIndex": 10,
@@ -570,12 +499,9 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-06": "本句指「味道、香氣、色彩等不強烈但可察覺的」。",
-        "subtle-mcq-05": "「方法或想法精巧、有技巧但不明顯直接的」是「subtle — clever」的用法，與本句語境不同。",
-        "subtle-mcq-07": "「效果不劇烈，但會細緻或逐漸產生影響的」是「subtle — effect」的用法，與本句語境不同。",
-        "subtle-mcq-04": "「能呈現細小差異、複雜層次或微妙關係的」是「subtle — nuanced」的用法，與本句語境不同。",
-        "subtle-mcq-08": "「涉及細小而複雜因素，難以用簡單方式理解的」是「subtle — complex」的用法，與本句語境不同。",
-        "subtle-mcq-03": "「意思不直接說明，而透過暗示、語氣或細節表達」是「subtle — indirect」的用法，與本句語境不同。"
+        "subtle-mcq-06": "本句的「subtle」指「味道、香氣、色彩等不強烈但可察覺的」。",
+        "subtle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "subtle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-06"
     },
@@ -587,11 +513,8 @@ export default {
       "masked": "There was a ____ scent of lemon in the room.",
       "options": [
         "subtle-mcq-06",
-        "subtle-mcq-05",
-        "subtle-mcq-07",
-        "subtle-mcq-04",
-        "subtle-mcq-08",
-        "subtle-mcq-03"
+        "subtle-mcq-11",
+        "subtle-mcq-09"
       ],
       "explanation": "本句的「subtle」指「味道、香氣、色彩等不強烈但可察覺的」。",
       "sentenceIndex": 11,
@@ -600,12 +523,9 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-06": "本句指「味道、香氣、色彩等不強烈但可察覺的」。",
-        "subtle-mcq-05": "「方法或想法精巧、有技巧但不明顯直接的」是「subtle — clever」的用法，與本句語境不同。",
-        "subtle-mcq-07": "「效果不劇烈，但會細緻或逐漸產生影響的」是「subtle — effect」的用法，與本句語境不同。",
-        "subtle-mcq-04": "「能呈現細小差異、複雜層次或微妙關係的」是「subtle — nuanced」的用法，與本句語境不同。",
-        "subtle-mcq-08": "「涉及細小而複雜因素，難以用簡單方式理解的」是「subtle — complex」的用法，與本句語境不同。",
-        "subtle-mcq-03": "「意思不直接說明，而透過暗示、語氣或細節表達」是「subtle — indirect」的用法，與本句語境不同。"
+        "subtle-mcq-06": "本句的「subtle」指「味道、香氣、色彩等不強烈但可察覺的」。",
+        "subtle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "subtle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-06"
     },
@@ -617,11 +537,8 @@ export default {
       "masked": "The lighting creates a ____ shift in mood.",
       "options": [
         "subtle-mcq-07",
-        "subtle-mcq-06",
-        "subtle-mcq-08",
-        "subtle-mcq-05",
-        "subtle-mcq-09",
-        "subtle-mcq-04"
+        "subtle-mcq-01",
+        "subtle-mcq-11"
       ],
       "explanation": "本句的「subtle」指「效果不劇烈，但會細緻或逐漸產生影響的」。",
       "sentenceIndex": 12,
@@ -630,12 +547,9 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-07": "本句指「效果不劇烈，但會細緻或逐漸產生影響的」。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。",
-        "subtle-mcq-08": "「涉及細小而複雜因素，難以用簡單方式理解的」是「subtle — complex」的用法，與本句語境不同。",
-        "subtle-mcq-05": "「方法或想法精巧、有技巧但不明顯直接的」是「subtle — clever」的用法，與本句語境不同。",
-        "subtle-mcq-09": "「以不明顯、細緻、間接或不著痕跡的方式」是「subtly」的用法，與本句語境不同。",
-        "subtle-mcq-04": "「能呈現細小差異、複雜層次或微妙關係的」是「subtle — nuanced」的用法，與本句語境不同。"
+        "subtle-mcq-07": "本句的「subtle」指「效果不劇烈，但會細緻或逐漸產生影響的」。",
+        "subtle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "subtle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-07"
     },
@@ -647,11 +561,8 @@ export default {
       "masked": "The change had a ____ effect on the room.",
       "options": [
         "subtle-mcq-07",
-        "subtle-mcq-06",
-        "subtle-mcq-08",
-        "subtle-mcq-05",
-        "subtle-mcq-09",
-        "subtle-mcq-04"
+        "subtle-mcq-01",
+        "subtle-mcq-03"
       ],
       "explanation": "本句的「subtle」指「效果不劇烈，但會細緻或逐漸產生影響的」。",
       "sentenceIndex": 13,
@@ -660,12 +571,9 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-07": "本句指「效果不劇烈，但會細緻或逐漸產生影響的」。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。",
-        "subtle-mcq-08": "「涉及細小而複雜因素，難以用簡單方式理解的」是「subtle — complex」的用法，與本句語境不同。",
-        "subtle-mcq-05": "「方法或想法精巧、有技巧但不明顯直接的」是「subtle — clever」的用法，與本句語境不同。",
-        "subtle-mcq-09": "「以不明顯、細緻、間接或不著痕跡的方式」是「subtly」的用法，與本句語境不同。",
-        "subtle-mcq-04": "「能呈現細小差異、複雜層次或微妙關係的」是「subtle — nuanced」的用法，與本句語境不同。"
+        "subtle-mcq-07": "本句的「subtle」指「效果不劇烈，但會細緻或逐漸產生影響的」。",
+        "subtle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "subtle-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-07"
     },
@@ -677,10 +585,6 @@ export default {
       "masked": "The relationship between colour and mood is ____.",
       "options": [
         "subtle-mcq-08",
-        "subtle-mcq-07",
-        "subtle-mcq-09",
-        "subtle-mcq-06",
-        "subtle-mcq-10",
         "subtle-mcq-05"
       ],
       "explanation": "本句的「subtle」指「涉及細小而複雜因素，難以用簡單方式理解的」。",
@@ -690,12 +594,8 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-08": "本句指「涉及細小而複雜因素，難以用簡單方式理解的」。",
-        "subtle-mcq-07": "「效果不劇烈，但會細緻或逐漸產生影響的」是「subtle — effect」的用法，與本句語境不同。",
-        "subtle-mcq-09": "「以不明顯、細緻、間接或不著痕跡的方式」是「subtly」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。",
-        "subtle-mcq-10": "「不易立刻察覺的細小差異、特徵或層次」是「subtlety — distinction」的用法，與本句語境不同。",
-        "subtle-mcq-05": "「方法或想法精巧、有技巧但不明顯直接的」是「subtle — clever」的用法，與本句語境不同。"
+        "subtle-mcq-08": "本句的「subtle」指「涉及細小而複雜因素，難以用簡單方式理解的」。",
+        "subtle-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-08"
     },
@@ -707,10 +607,6 @@ export default {
       "masked": "It is a ____ problem with no simple answer.",
       "options": [
         "subtle-mcq-08",
-        "subtle-mcq-07",
-        "subtle-mcq-09",
-        "subtle-mcq-06",
-        "subtle-mcq-10",
         "subtle-mcq-05"
       ],
       "explanation": "本句的「subtle」指「涉及細小而複雜因素，難以用簡單方式理解的」。",
@@ -720,12 +616,8 @@ export default {
         "subtle"
       ],
       "optionReasons": {
-        "subtle-mcq-08": "本句指「涉及細小而複雜因素，難以用簡單方式理解的」。",
-        "subtle-mcq-07": "「效果不劇烈，但會細緻或逐漸產生影響的」是「subtle — effect」的用法，與本句語境不同。",
-        "subtle-mcq-09": "「以不明顯、細緻、間接或不著痕跡的方式」是「subtly」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。",
-        "subtle-mcq-10": "「不易立刻察覺的細小差異、特徵或層次」是「subtlety — distinction」的用法，與本句語境不同。",
-        "subtle-mcq-05": "「方法或想法精巧、有技巧但不明顯直接的」是「subtle — clever」的用法，與本句語境不同。"
+        "subtle-mcq-08": "本句的「subtle」指「涉及細小而複雜因素，難以用簡單方式理解的」。",
+        "subtle-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-08"
     },
@@ -737,11 +629,8 @@ export default {
       "masked": "The colours change ____ across the canvas.",
       "options": [
         "subtle-mcq-09",
-        "subtle-mcq-08",
-        "subtle-mcq-10",
-        "subtle-mcq-07",
-        "subtle-mcq-11",
-        "subtle-mcq-06"
+        "subtle-mcq-01",
+        "subtle-mcq-02"
       ],
       "explanation": "本句的「subtly」指「以不明顯、細緻、間接或不著痕跡的方式」。",
       "sentenceIndex": 16,
@@ -750,12 +639,9 @@ export default {
         "subtly"
       ],
       "optionReasons": {
-        "subtle-mcq-09": "本句指「以不明顯、細緻、間接或不著痕跡的方式」。",
-        "subtle-mcq-08": "「涉及細小而複雜因素，難以用簡單方式理解的」是「subtle — complex」的用法，與本句語境不同。",
-        "subtle-mcq-10": "「不易立刻察覺的細小差異、特徵或層次」是「subtlety — distinction」的用法，與本句語境不同。",
-        "subtle-mcq-07": "「效果不劇烈，但會細緻或逐漸產生影響的」是「subtle — effect」的用法，與本句語境不同。",
-        "subtle-mcq-11": "「表達、設計或思考中細膩、含蓄、精妙的特質」是「subtlety — quality」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。"
+        "subtle-mcq-09": "本句的「subtly」指「以不明顯、細緻、間接或不著痕跡的方式」。",
+        "subtle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "subtle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-09"
     },
@@ -767,11 +653,8 @@ export default {
       "masked": "She ____ changed the subject.",
       "options": [
         "subtle-mcq-09",
-        "subtle-mcq-08",
-        "subtle-mcq-10",
-        "subtle-mcq-07",
-        "subtle-mcq-11",
-        "subtle-mcq-06"
+        "subtle-mcq-01",
+        "subtle-mcq-02"
       ],
       "explanation": "本句的「subtly」指「以不明顯、細緻、間接或不著痕跡的方式」。",
       "sentenceIndex": 17,
@@ -780,12 +663,9 @@ export default {
         "subtly"
       ],
       "optionReasons": {
-        "subtle-mcq-09": "本句指「以不明顯、細緻、間接或不著痕跡的方式」。",
-        "subtle-mcq-08": "「涉及細小而複雜因素，難以用簡單方式理解的」是「subtle — complex」的用法，與本句語境不同。",
-        "subtle-mcq-10": "「不易立刻察覺的細小差異、特徵或層次」是「subtlety — distinction」的用法，與本句語境不同。",
-        "subtle-mcq-07": "「效果不劇烈，但會細緻或逐漸產生影響的」是「subtle — effect」的用法，與本句語境不同。",
-        "subtle-mcq-11": "「表達、設計或思考中細膩、含蓄、精妙的特質」是「subtlety — quality」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。"
+        "subtle-mcq-09": "本句的「subtly」指「以不明顯、細緻、間接或不著痕跡的方式」。",
+        "subtle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "subtle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-09"
     },
@@ -797,11 +677,7 @@ export default {
       "masked": "You begin to notice the ____ of the painting.",
       "options": [
         "subtle-mcq-10",
-        "subtle-mcq-09",
-        "subtle-mcq-11",
-        "subtle-mcq-08",
-        "subtle-mcq-07",
-        "subtle-mcq-06"
+        "subtle-mcq-05"
       ],
       "explanation": "本句的「subtleties」指「不易立刻察覺的細小差異、特徵或層次」。",
       "sentenceIndex": 18,
@@ -810,12 +686,8 @@ export default {
         "subtleties"
       ],
       "optionReasons": {
-        "subtle-mcq-10": "本句指「不易立刻察覺的細小差異、特徵或層次」。",
-        "subtle-mcq-09": "「以不明顯、細緻、間接或不著痕跡的方式」是「subtly」的用法，與本句語境不同。",
-        "subtle-mcq-11": "「表達、設計或思考中細膩、含蓄、精妙的特質」是「subtlety — quality」的用法，與本句語境不同。",
-        "subtle-mcq-08": "「涉及細小而複雜因素，難以用簡單方式理解的」是「subtle — complex」的用法，與本句語境不同。",
-        "subtle-mcq-07": "「效果不劇烈，但會細緻或逐漸產生影響的」是「subtle — effect」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。"
+        "subtle-mcq-10": "本句的「subtleties」指「不易立刻察覺的細小差異、特徵或層次」。",
+        "subtle-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-10"
     },
@@ -827,11 +699,7 @@ export default {
       "masked": "The language contains many ____.",
       "options": [
         "subtle-mcq-10",
-        "subtle-mcq-09",
-        "subtle-mcq-11",
-        "subtle-mcq-08",
-        "subtle-mcq-07",
-        "subtle-mcq-06"
+        "subtle-mcq-05"
       ],
       "explanation": "本句的「subtleties」指「不易立刻察覺的細小差異、特徵或層次」。",
       "sentenceIndex": 19,
@@ -840,12 +708,8 @@ export default {
         "subtleties"
       ],
       "optionReasons": {
-        "subtle-mcq-10": "本句指「不易立刻察覺的細小差異、特徵或層次」。",
-        "subtle-mcq-09": "「以不明顯、細緻、間接或不著痕跡的方式」是「subtly」的用法，與本句語境不同。",
-        "subtle-mcq-11": "「表達、設計或思考中細膩、含蓄、精妙的特質」是「subtlety — quality」的用法，與本句語境不同。",
-        "subtle-mcq-08": "「涉及細小而複雜因素，難以用簡單方式理解的」是「subtle — complex」的用法，與本句語境不同。",
-        "subtle-mcq-07": "「效果不劇烈，但會細緻或逐漸產生影響的」是「subtle — effect」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。"
+        "subtle-mcq-10": "本句的「subtleties」指「不易立刻察覺的細小差異、特徵或層次」。",
+        "subtle-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-10"
     },
@@ -857,11 +721,8 @@ export default {
       "masked": "I admire the ____ of Monet’s use of colour.",
       "options": [
         "subtle-mcq-11",
-        "subtle-mcq-10",
-        "subtle-mcq-09",
-        "subtle-mcq-08",
-        "subtle-mcq-07",
-        "subtle-mcq-06"
+        "subtle-mcq-06",
+        "subtle-mcq-09"
       ],
       "explanation": "本句的「subtlety」指「表達、設計或思考中細膩、含蓄、精妙的特質」。",
       "sentenceIndex": 20,
@@ -870,12 +731,9 @@ export default {
         "subtlety"
       ],
       "optionReasons": {
-        "subtle-mcq-11": "本句指「表達、設計或思考中細膩、含蓄、精妙的特質」。",
-        "subtle-mcq-10": "「不易立刻察覺的細小差異、特徵或層次」是「subtlety — distinction」的用法，與本句語境不同。",
-        "subtle-mcq-09": "「以不明顯、細緻、間接或不著痕跡的方式」是「subtly」的用法，與本句語境不同。",
-        "subtle-mcq-08": "「涉及細小而複雜因素，難以用簡單方式理解的」是「subtle — complex」的用法，與本句語境不同。",
-        "subtle-mcq-07": "「效果不劇烈，但會細緻或逐漸產生影響的」是「subtle — effect」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。"
+        "subtle-mcq-11": "本句的「subtlety」指「表達、設計或思考中細膩、含蓄、精妙的特質」。",
+        "subtle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "subtle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-11"
     },
@@ -887,11 +745,8 @@ export default {
       "masked": "The performance lacked ____.",
       "options": [
         "subtle-mcq-11",
-        "subtle-mcq-10",
-        "subtle-mcq-09",
-        "subtle-mcq-08",
-        "subtle-mcq-07",
-        "subtle-mcq-06"
+        "subtle-mcq-06",
+        "subtle-mcq-09"
       ],
       "explanation": "本句的「subtlety」指「表達、設計或思考中細膩、含蓄、精妙的特質」。",
       "sentenceIndex": 21,
@@ -900,12 +755,9 @@ export default {
         "subtlety"
       ],
       "optionReasons": {
-        "subtle-mcq-11": "本句指「表達、設計或思考中細膩、含蓄、精妙的特質」。",
-        "subtle-mcq-10": "「不易立刻察覺的細小差異、特徵或層次」是「subtlety — distinction」的用法，與本句語境不同。",
-        "subtle-mcq-09": "「以不明顯、細緻、間接或不著痕跡的方式」是「subtly」的用法，與本句語境不同。",
-        "subtle-mcq-08": "「涉及細小而複雜因素，難以用簡單方式理解的」是「subtle — complex」的用法，與本句語境不同。",
-        "subtle-mcq-07": "「效果不劇烈，但會細緻或逐漸產生影響的」是「subtle — effect」的用法，與本句語境不同。",
-        "subtle-mcq-06": "「味道、香氣、色彩等不強烈但可察覺的」是「subtle — sensory」的用法，與本句語境不同。"
+        "subtle-mcq-11": "本句的「subtlety」指「表達、設計或思考中細膩、含蓄、精妙的特質」。",
+        "subtle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "subtle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "subtle-mcq-11"
     }
@@ -917,5 +769,7 @@ export default {
     "sha256": "b3f40f8ff5f7c8459cbed43301d8c1e2e036ec6751dea655a921b9c1dca9c71a",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

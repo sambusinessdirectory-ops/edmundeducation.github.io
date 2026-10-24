@@ -554,7 +554,7 @@ export default {
     },
     {
       "id": "english-mcq-26",
-      "title": "表示英文老師／英語教師",
+      "title": "英文老師／英語教師",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示英文老師／英語教師",
@@ -576,7 +576,7 @@ export default {
     },
     {
       "id": "english-mcq-27",
-      "title": "表示澳洲英語",
+      "title": "澳洲英語",
       "form": "15. Australian / Canadian / Indian / Singaporean English, etc.",
       "en": "15. Australian / Canadian / Indian / Singaporean English, etc.",
       "zh": "表示澳洲英語",
@@ -606,11 +606,8 @@ export default {
       "masked": "My ____ encouraged me to speak more confidently.",
       "options": [
         "english-mcq-26",
-        "english-mcq-25",
-        "english-mcq-27",
         "english-mcq-24",
-        "english-mcq-23",
-        "english-mcq-22"
+        "english-mcq-10"
       ],
       "explanation": "本句的「English teacher」指「表示英文老師／英語教師」。",
       "sentenceIndex": 0,
@@ -619,12 +616,9 @@ export default {
         "English teacher"
       ],
       "optionReasons": {
-        "english-mcq-26": "本句指「表示英文老師／英語教師」。",
-        "english-mcq-25": "「英格蘭；English 所對應的國家名稱」是「England」的用法，與本句語境不同。",
-        "english-mcq-27": "「表示澳洲英語」是「15. Australian / Canadian / Indian / Singaporean English, etc.」的用法，與本句語境不同。",
-        "english-mcq-24": "「撞球中使母球產生的旋轉／側旋」是「English — billiards」的用法，與本句語境不同。",
-        "english-mcq-23": "「包含現代英語在內的較後期英語發展階段」是「Modern English」的用法，與本句語境不同。",
-        "english-mcq-22": "「古英語與早期現代英語之間的歷史階段；中古英語」是「Middle English」的用法，與本句語境不同。"
+        "english-mcq-26": "本句的「English teacher」指「表示英文老師／英語教師」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-26"
     },
@@ -636,11 +630,8 @@ export default {
       "masked": "____ was one of my favourite subjects at school.",
       "options": [
         "english-mcq-26",
-        "english-mcq-25",
-        "english-mcq-27",
         "english-mcq-24",
-        "english-mcq-23",
-        "english-mcq-22"
+        "english-mcq-10"
       ],
       "explanation": "本句的「English」指「表示英文老師／英語教師」。",
       "sentenceIndex": 1,
@@ -649,12 +640,9 @@ export default {
         "English"
       ],
       "optionReasons": {
-        "english-mcq-26": "本句指「表示英文老師／英語教師」。",
-        "english-mcq-25": "「英格蘭；English 所對應的國家名稱」是「England」的用法，與本句語境不同。",
-        "english-mcq-27": "「表示澳洲英語」是「15. Australian / Canadian / Indian / Singaporean English, etc.」的用法，與本句語境不同。",
-        "english-mcq-24": "「撞球中使母球產生的旋轉／側旋」是「English — billiards」的用法，與本句語境不同。",
-        "english-mcq-23": "「包含現代英語在內的較後期英語發展階段」是「Modern English」的用法，與本句語境不同。",
-        "english-mcq-22": "「古英語與早期現代英語之間的歷史階段；中古英語」是「Middle English」的用法，與本句語境不同。"
+        "english-mcq-26": "本句的「English」指「表示英文老師／英語教師」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-26"
     },
@@ -666,11 +654,8 @@ export default {
       "masked": "She speaks fluent ____.",
       "options": [
         "english-mcq-01",
-        "english-mcq-02",
-        "english-mcq-03",
-        "english-mcq-04",
-        "english-mcq-05",
-        "english-mcq-06"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「English」指「英語這門語言；英文」。",
       "sentenceIndex": 2,
@@ -679,12 +664,9 @@ export default {
         "English"
       ],
       "optionReasons": {
-        "english-mcq-01": "本句指「英語這門語言；英文」。",
-        "english-mcq-02": "「使用英語進行口語溝通；說英文」是「speak English」的用法，與本句語境不同。",
-        "english-mcq-03": "「英語在口頭交談中的形式；英語口語」是「spoken English」的用法，與本句語境不同。",
-        "english-mcq-04": "「以文字形式使用的英語；書面英文」是「written English」的用法，與本句語境不同。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。"
+        "english-mcq-01": "本句的「English」指「英語這門語言；英文」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-01"
     },
@@ -696,11 +678,8 @@ export default {
       "masked": "I use ____ at work every day.",
       "options": [
         "english-mcq-01",
-        "english-mcq-02",
-        "english-mcq-03",
-        "english-mcq-04",
-        "english-mcq-05",
-        "english-mcq-06"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「English」指「英語這門語言；英文」。",
       "sentenceIndex": 3,
@@ -709,12 +688,9 @@ export default {
         "English"
       ],
       "optionReasons": {
-        "english-mcq-01": "本句指「英語這門語言；英文」。",
-        "english-mcq-02": "「使用英語進行口語溝通；說英文」是「speak English」的用法，與本句語境不同。",
-        "english-mcq-03": "「英語在口頭交談中的形式；英語口語」是「spoken English」的用法，與本句語境不同。",
-        "english-mcq-04": "「以文字形式使用的英語；書面英文」是「written English」的用法，與本句語境不同。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。"
+        "english-mcq-01": "本句的「English」指「英語這門語言；英文」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-01"
     },
@@ -726,11 +702,8 @@ export default {
       "masked": "Do you ____?",
       "options": [
         "english-mcq-02",
-        "english-mcq-01",
-        "english-mcq-03",
-        "english-mcq-04",
-        "english-mcq-05",
-        "english-mcq-06"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「speak English」指「使用英語進行口語溝通；說英文」。",
       "sentenceIndex": 4,
@@ -739,12 +712,9 @@ export default {
         "speak English"
       ],
       "optionReasons": {
-        "english-mcq-02": "本句指「使用英語進行口語溝通；說英文」。",
-        "english-mcq-01": "「英語這門語言；英文」是「English — language」的用法，與本句語境不同。",
-        "english-mcq-03": "「英語在口頭交談中的形式；英語口語」是「spoken English」的用法，與本句語境不同。",
-        "english-mcq-04": "「以文字形式使用的英語；書面英文」是「written English」的用法，與本句語境不同。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。"
+        "english-mcq-02": "本句的「speak English」指「使用英語進行口語溝通；說英文」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-02"
     },
@@ -756,11 +726,8 @@ export default {
       "masked": "She became more confident about ____ in public.",
       "options": [
         "english-mcq-02",
-        "english-mcq-01",
-        "english-mcq-03",
-        "english-mcq-04",
-        "english-mcq-05",
-        "english-mcq-06"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「speaking English」指「使用英語進行口語溝通；說英文」。",
       "sentenceIndex": 5,
@@ -769,12 +736,9 @@ export default {
         "speaking English"
       ],
       "optionReasons": {
-        "english-mcq-02": "本句指「使用英語進行口語溝通；說英文」。",
-        "english-mcq-01": "「英語這門語言；英文」是「English — language」的用法，與本句語境不同。",
-        "english-mcq-03": "「英語在口頭交談中的形式；英語口語」是「spoken English」的用法，與本句語境不同。",
-        "english-mcq-04": "「以文字形式使用的英語；書面英文」是「written English」的用法，與本句語境不同。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。"
+        "english-mcq-02": "本句的「speaking English」指「使用英語進行口語溝通；說英文」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-02"
     },
@@ -786,11 +750,8 @@ export default {
       "masked": "Formal ____ differs from casual conversation.",
       "options": [
         "english-mcq-04",
-        "english-mcq-03",
-        "english-mcq-05",
-        "english-mcq-02",
-        "english-mcq-06",
-        "english-mcq-01"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「written English」指「以文字形式使用的英語；書面英文」。",
       "sentenceIndex": 6,
@@ -799,12 +760,9 @@ export default {
         "written English"
       ],
       "optionReasons": {
-        "english-mcq-04": "本句指「以文字形式使用的英語；書面英文」。",
-        "english-mcq-03": "「英語在口頭交談中的形式；英語口語」是「spoken English」的用法，與本句語境不同。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。",
-        "english-mcq-02": "「使用英語進行口語溝通；說英文」是「speak English」的用法，與本句語境不同。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。",
-        "english-mcq-01": "「英語這門語言；英文」是「English — language」的用法，與本句語境不同。"
+        "english-mcq-04": "本句的「written English」指「以文字形式使用的英語；書面英文」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-04"
     },
@@ -816,11 +774,8 @@ export default {
       "masked": "His ____ has improved significantly.",
       "options": [
         "english-mcq-04",
-        "english-mcq-03",
-        "english-mcq-05",
-        "english-mcq-02",
-        "english-mcq-06",
-        "english-mcq-01"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「written English」指「以文字形式使用的英語；書面英文」。",
       "sentenceIndex": 7,
@@ -829,12 +784,9 @@ export default {
         "written English"
       ],
       "optionReasons": {
-        "english-mcq-04": "本句指「以文字形式使用的英語；書面英文」。",
-        "english-mcq-03": "「英語在口頭交談中的形式；英語口語」是「spoken English」的用法，與本句語境不同。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。",
-        "english-mcq-02": "「使用英語進行口語溝通；說英文」是「speak English」的用法，與本句語境不同。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。",
-        "english-mcq-01": "「英語這門語言；英文」是「English — language」的用法，與本句語境不同。"
+        "english-mcq-04": "本句的「written English」指「以文字形式使用的英語；書面英文」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-04"
     },
@@ -846,11 +798,8 @@ export default {
       "masked": "The course focuses on ____.",
       "options": [
         "english-mcq-03",
-        "english-mcq-02",
-        "english-mcq-04",
-        "english-mcq-01",
-        "english-mcq-05",
-        "english-mcq-06"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「spoken English」指「英語在口頭交談中的形式；英語口語」。",
       "sentenceIndex": 8,
@@ -859,12 +808,9 @@ export default {
         "spoken English"
       ],
       "optionReasons": {
-        "english-mcq-03": "本句指「英語在口頭交談中的形式；英語口語」。",
-        "english-mcq-02": "「使用英語進行口語溝通；說英文」是「speak English」的用法，與本句語境不同。",
-        "english-mcq-04": "「以文字形式使用的英語；書面英文」是「written English」的用法，與本句語境不同。",
-        "english-mcq-01": "「英語這門語言；英文」是「English — language」的用法，與本句語境不同。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。"
+        "english-mcq-03": "本句的「spoken English」指「英語在口頭交談中的形式；英語口語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-03"
     },
@@ -876,11 +822,8 @@ export default {
       "masked": "Natural ____ often contains contractions.",
       "options": [
         "english-mcq-03",
-        "english-mcq-02",
-        "english-mcq-04",
-        "english-mcq-01",
-        "english-mcq-05",
-        "english-mcq-06"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「spoken English」指「英語在口頭交談中的形式；英語口語」。",
       "sentenceIndex": 9,
@@ -889,12 +832,9 @@ export default {
         "spoken English"
       ],
       "optionReasons": {
-        "english-mcq-03": "本句指「英語在口頭交談中的形式；英語口語」。",
-        "english-mcq-02": "「使用英語進行口語溝通；說英文」是「speak English」的用法，與本句語境不同。",
-        "english-mcq-04": "「以文字形式使用的英語；書面英文」是「written English」的用法，與本句語境不同。",
-        "english-mcq-01": "「英語這門語言；英文」是「English — language」的用法，與本句語境不同。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。"
+        "english-mcq-03": "本句的「spoken English」指「英語在口頭交談中的形式；英語口語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-03"
     },
@@ -906,11 +846,8 @@ export default {
       "masked": "I did well in ____ at school.",
       "options": [
         "english-mcq-05",
-        "english-mcq-04",
-        "english-mcq-06",
-        "english-mcq-03",
-        "english-mcq-07",
-        "english-mcq-02"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「English」指「在學校學習英語語言、寫作等內容的英文科／英語科」。",
       "sentenceIndex": 10,
@@ -919,12 +856,9 @@ export default {
         "English"
       ],
       "optionReasons": {
-        "english-mcq-05": "本句指「在學校學習英語語言、寫作等內容的英文科／英語科」。",
-        "english-mcq-04": "「以文字形式使用的英語；書面英文」是「written English」的用法，與本句語境不同。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。",
-        "english-mcq-03": "「英語在口頭交談中的形式；英語口語」是「spoken English」的用法，與本句語境不同。",
-        "english-mcq-07": "「教授英語／英文科的老師」是「English teacher — subject sense」的用法，與本句語境不同。",
-        "english-mcq-02": "「使用英語進行口語溝通；說英文」是「speak English」的用法，與本句語境不同。"
+        "english-mcq-05": "本句的「English」指「在學校學習英語語言、寫作等內容的英文科／英語科」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-05"
     },
@@ -936,11 +870,8 @@ export default {
       "masked": "We have ____ three times a week.",
       "options": [
         "english-mcq-05",
-        "english-mcq-04",
-        "english-mcq-06",
-        "english-mcq-03",
-        "english-mcq-07",
-        "english-mcq-02"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「English」指「在學校學習英語語言、寫作等內容的英文科／英語科」。",
       "sentenceIndex": 11,
@@ -949,12 +880,9 @@ export default {
         "English"
       ],
       "optionReasons": {
-        "english-mcq-05": "本句指「在學校學習英語語言、寫作等內容的英文科／英語科」。",
-        "english-mcq-04": "「以文字形式使用的英語；書面英文」是「written English」的用法，與本句語境不同。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。",
-        "english-mcq-03": "「英語在口頭交談中的形式；英語口語」是「spoken English」的用法，與本句語境不同。",
-        "english-mcq-07": "「教授英語／英文科的老師」是「English teacher — subject sense」的用法，與本句語境不同。",
-        "english-mcq-02": "「使用英語進行口語溝通；說英文」是「speak English」的用法，與本句語境不同。"
+        "english-mcq-05": "本句的「English」指「在學校學習英語語言、寫作等內容的英文科／英語科」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-05"
     },
@@ -966,11 +894,8 @@ export default {
       "masked": "We gave presentations in ____.",
       "options": [
         "english-mcq-06",
-        "english-mcq-05",
-        "english-mcq-07",
-        "english-mcq-04",
-        "english-mcq-08",
-        "english-mcq-03"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「English class」指「教授或學習英語的課堂；英文課」。",
       "sentenceIndex": 12,
@@ -979,12 +904,9 @@ export default {
         "English class"
       ],
       "optionReasons": {
-        "english-mcq-06": "本句指「教授或學習英語的課堂；英文課」。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。",
-        "english-mcq-07": "「教授英語／英文科的老師」是「English teacher — subject sense」的用法，與本句語境不同。",
-        "english-mcq-04": "「以文字形式使用的英語；書面英文」是「written English」的用法，與本句語境不同。",
-        "english-mcq-08": "「以英語寫成、表達或製作的；英文的」是「English + text/media noun」的用法，與本句語境不同。",
-        "english-mcq-03": "「英語在口頭交談中的形式；英語口語」是「spoken English」的用法，與本句語境不同。"
+        "english-mcq-06": "本句的「English class」指「教授或學習英語的課堂；英文課」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-06"
     },
@@ -996,11 +918,8 @@ export default {
       "masked": "She rarely spoke during ____.",
       "options": [
         "english-mcq-06",
-        "english-mcq-05",
-        "english-mcq-07",
-        "english-mcq-04",
-        "english-mcq-08",
-        "english-mcq-03"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「English class」指「教授或學習英語的課堂；英文課」。",
       "sentenceIndex": 13,
@@ -1009,12 +928,9 @@ export default {
         "English class"
       ],
       "optionReasons": {
-        "english-mcq-06": "本句指「教授或學習英語的課堂；英文課」。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。",
-        "english-mcq-07": "「教授英語／英文科的老師」是「English teacher — subject sense」的用法，與本句語境不同。",
-        "english-mcq-04": "「以文字形式使用的英語；書面英文」是「written English」的用法，與本句語境不同。",
-        "english-mcq-08": "「以英語寫成、表達或製作的；英文的」是「English + text/media noun」的用法，與本句語境不同。",
-        "english-mcq-03": "「英語在口頭交談中的形式；英語口語」是「spoken English」的用法，與本句語境不同。"
+        "english-mcq-06": "本句的「English class」指「教授或學習英語的課堂；英文課」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-06"
     },
@@ -1026,11 +942,8 @@ export default {
       "masked": "My ____ gave me useful feedback.",
       "options": [
         "english-mcq-07",
-        "english-mcq-06",
-        "english-mcq-08",
-        "english-mcq-05",
-        "english-mcq-09",
-        "english-mcq-04"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「English teacher」指「教授英語／英文科的老師」。",
       "sentenceIndex": 14,
@@ -1039,12 +952,9 @@ export default {
         "English teacher"
       ],
       "optionReasons": {
-        "english-mcq-07": "本句指「教授英語／英文科的老師」。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。",
-        "english-mcq-08": "「以英語寫成、表達或製作的；英文的」是「English + text/media noun」的用法，與本句語境不同。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。",
-        "english-mcq-09": "「與英格蘭、英格蘭文化或英格蘭人有關的」是「English — relating to England」的用法，與本句語境不同。",
-        "english-mcq-04": "「以文字形式使用的英語；書面英文」是「written English」的用法，與本句語境不同。"
+        "english-mcq-07": "本句的「English teacher」指「教授英語／英文科的老師」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-07"
     },
@@ -1056,11 +966,8 @@ export default {
       "masked": "She hopes to become an ____.",
       "options": [
         "english-mcq-07",
-        "english-mcq-06",
-        "english-mcq-08",
-        "english-mcq-05",
-        "english-mcq-09",
-        "english-mcq-04"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「English teacher」指「教授英語／英文科的老師」。",
       "sentenceIndex": 15,
@@ -1069,12 +976,9 @@ export default {
         "English teacher"
       ],
       "optionReasons": {
-        "english-mcq-07": "本句指「教授英語／英文科的老師」。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。",
-        "english-mcq-08": "「以英語寫成、表達或製作的；英文的」是「English + text/media noun」的用法，與本句語境不同。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。",
-        "english-mcq-09": "「與英格蘭、英格蘭文化或英格蘭人有關的」是「English — relating to England」的用法，與本句語境不同。",
-        "english-mcq-04": "「以文字形式使用的英語；書面英文」是「written English」的用法，與本句語境不同。"
+        "english-mcq-07": "本句的「English teacher」指「教授英語／英文科的老師」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-07"
     },
@@ -1086,11 +990,8 @@ export default {
       "masked": "____",
       "options": [
         "english-mcq-07",
-        "english-mcq-06",
-        "english-mcq-08",
-        "english-mcq-05",
-        "english-mcq-09",
-        "english-mcq-04"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「a teacher of English」指「教授英語／英文科的老師」。",
       "sentenceIndex": 16,
@@ -1099,12 +1000,9 @@ export default {
         "a teacher of English"
       ],
       "optionReasons": {
-        "english-mcq-07": "本句指「教授英語／英文科的老師」。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。",
-        "english-mcq-08": "「以英語寫成、表達或製作的；英文的」是「English + text/media noun」的用法，與本句語境不同。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。",
-        "english-mcq-09": "「與英格蘭、英格蘭文化或英格蘭人有關的」是「English — relating to England」的用法，與本句語境不同。",
-        "english-mcq-04": "「以文字形式使用的英語；書面英文」是「written English」的用法，與本句語境不同。"
+        "english-mcq-07": "本句的「a teacher of English」指「教授英語／英文科的老師」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-07"
     },
@@ -1116,11 +1014,8 @@ export default {
       "masked": "____",
       "options": [
         "english-mcq-07",
-        "english-mcq-06",
-        "english-mcq-08",
-        "english-mcq-05",
-        "english-mcq-09",
-        "english-mcq-04"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「a teacher who is English」指「教授英語／英文科的老師」。",
       "sentenceIndex": 17,
@@ -1129,12 +1024,9 @@ export default {
         "a teacher who is English"
       ],
       "optionReasons": {
-        "english-mcq-07": "本句指「教授英語／英文科的老師」。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。",
-        "english-mcq-08": "「以英語寫成、表達或製作的；英文的」是「English + text/media noun」的用法，與本句語境不同。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。",
-        "english-mcq-09": "「與英格蘭、英格蘭文化或英格蘭人有關的」是「English — relating to England」的用法，與本句語境不同。",
-        "english-mcq-04": "「以文字形式使用的英語；書面英文」是「written English」的用法，與本句語境不同。"
+        "english-mcq-07": "本句的「a teacher who is English」指「教授英語／英文科的老師」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-07"
     },
@@ -1146,11 +1038,7 @@ export default {
       "masked": "I bought an ____.",
       "options": [
         "english-mcq-08",
-        "english-mcq-07",
-        "english-mcq-09",
-        "english-mcq-06",
-        "english-mcq-10",
-        "english-mcq-05"
+        "english-mcq-10"
       ],
       "explanation": "本句的「English dictionary」指「以英語寫成、表達或製作的；英文的」。",
       "sentenceIndex": 18,
@@ -1159,12 +1047,8 @@ export default {
         "English dictionary"
       ],
       "optionReasons": {
-        "english-mcq-08": "本句指「以英語寫成、表達或製作的；英文的」。",
-        "english-mcq-07": "「教授英語／英文科的老師」是「English teacher — subject sense」的用法，與本句語境不同。",
-        "english-mcq-09": "「與英格蘭、英格蘭文化或英格蘭人有關的」是「English — relating to England」的用法，與本句語境不同。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。",
-        "english-mcq-10": "「來自英格蘭的；英格蘭人的」是「English — nationality」的用法，與本句語境不同。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。"
+        "english-mcq-08": "本句的「English dictionary」指「以英語寫成、表達或製作的；英文的」。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-08"
     },
@@ -1176,11 +1060,7 @@ export default {
       "masked": "She reads ____ online.",
       "options": [
         "english-mcq-08",
-        "english-mcq-07",
-        "english-mcq-09",
-        "english-mcq-06",
-        "english-mcq-10",
-        "english-mcq-05"
+        "english-mcq-10"
       ],
       "explanation": "本句的「English newspapers」指「以英語寫成、表達或製作的；英文的」。",
       "sentenceIndex": 19,
@@ -1189,12 +1069,8 @@ export default {
         "English newspapers"
       ],
       "optionReasons": {
-        "english-mcq-08": "本句指「以英語寫成、表達或製作的；英文的」。",
-        "english-mcq-07": "「教授英語／英文科的老師」是「English teacher — subject sense」的用法，與本句語境不同。",
-        "english-mcq-09": "「與英格蘭、英格蘭文化或英格蘭人有關的」是「English — relating to England」的用法，與本句語境不同。",
-        "english-mcq-06": "「教授或學習英語的課堂；英文課」是「English class」的用法，與本句語境不同。",
-        "english-mcq-10": "「來自英格蘭的；英格蘭人的」是「English — nationality」的用法，與本句語境不同。",
-        "english-mcq-05": "「在學校學習英語語言、寫作等內容的英文科／英語科」是「English — school subject」的用法，與本句語境不同。"
+        "english-mcq-08": "本句的「English newspapers」指「以英語寫成、表達或製作的；英文的」。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-08"
     },
@@ -1206,11 +1082,8 @@ export default {
       "masked": "They visited several ____.",
       "options": [
         "english-mcq-10",
-        "english-mcq-09",
-        "english-mcq-11",
-        "english-mcq-08",
-        "english-mcq-12",
-        "english-mcq-07"
+        "english-mcq-24",
+        "english-mcq-27"
       ],
       "explanation": "本句的「English villages」指「來自英格蘭的；英格蘭人的」。",
       "sentenceIndex": 20,
@@ -1219,12 +1092,9 @@ export default {
         "English villages"
       ],
       "optionReasons": {
-        "english-mcq-10": "本句指「來自英格蘭的；英格蘭人的」。",
-        "english-mcq-09": "「與英格蘭、英格蘭文化或英格蘭人有關的」是「English — relating to England」的用法，與本句語境不同。",
-        "english-mcq-11": "「作為整體來看的英格蘭人」是「the English」的用法，與本句語境不同。",
-        "english-mcq-08": "「以英語寫成、表達或製作的；英文的」是「English + text/media noun」的用法，與本句語境不同。",
-        "english-mcq-12": "「某人理解或使用英語的能力／英文程度」是「someone’s English」的用法，與本句語境不同。",
-        "english-mcq-07": "「教授英語／英文科的老師」是「English teacher — subject sense」的用法，與本句語境不同。"
+        "english-mcq-10": "本句的「English villages」指「來自英格蘭的；英格蘭人的」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-10"
     },
@@ -1236,11 +1106,8 @@ export default {
       "masked": "The novel describes life in the ____.",
       "options": [
         "english-mcq-10",
-        "english-mcq-09",
-        "english-mcq-11",
-        "english-mcq-08",
-        "english-mcq-12",
-        "english-mcq-07"
+        "english-mcq-24",
+        "english-mcq-12"
       ],
       "explanation": "本句的「English countryside」指「來自英格蘭的；英格蘭人的」。",
       "sentenceIndex": 21,
@@ -1249,12 +1116,9 @@ export default {
         "English countryside"
       ],
       "optionReasons": {
-        "english-mcq-10": "本句指「來自英格蘭的；英格蘭人的」。",
-        "english-mcq-09": "「與英格蘭、英格蘭文化或英格蘭人有關的」是「English — relating to England」的用法，與本句語境不同。",
-        "english-mcq-11": "「作為整體來看的英格蘭人」是「the English」的用法，與本句語境不同。",
-        "english-mcq-08": "「以英語寫成、表達或製作的；英文的」是「English + text/media noun」的用法，與本句語境不同。",
-        "english-mcq-12": "「某人理解或使用英語的能力／英文程度」是「someone’s English」的用法，與本句語境不同。",
-        "english-mcq-07": "「教授英語／英文科的老師」是「English teacher — subject sense」的用法，與本句語境不同。"
+        "english-mcq-10": "本句的「English countryside」指「來自英格蘭的；英格蘭人的」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-10"
     },
@@ -1266,11 +1130,8 @@ export default {
       "masked": "The custom became popular among ____.",
       "options": [
         "english-mcq-10",
-        "english-mcq-09",
-        "english-mcq-11",
-        "english-mcq-08",
-        "english-mcq-12",
-        "english-mcq-07"
+        "english-mcq-24",
+        "english-mcq-27"
       ],
       "explanation": "本句的「the English」指「來自英格蘭的；英格蘭人的」。",
       "sentenceIndex": 22,
@@ -1279,12 +1140,9 @@ export default {
         "the English"
       ],
       "optionReasons": {
-        "english-mcq-10": "本句指「來自英格蘭的；英格蘭人的」。",
-        "english-mcq-09": "「與英格蘭、英格蘭文化或英格蘭人有關的」是「English — relating to England」的用法，與本句語境不同。",
-        "english-mcq-11": "「作為整體來看的英格蘭人」是「the English」的用法，與本句語境不同。",
-        "english-mcq-08": "「以英語寫成、表達或製作的；英文的」是「English + text/media noun」的用法，與本句語境不同。",
-        "english-mcq-12": "「某人理解或使用英語的能力／英文程度」是「someone’s English」的用法，與本句語境不同。",
-        "english-mcq-07": "「教授英語／英文科的老師」是「English teacher — subject sense」的用法，與本句語境不同。"
+        "english-mcq-10": "本句的「the English」指「來自英格蘭的；英格蘭人的」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-10"
     },
@@ -1296,11 +1154,8 @@ export default {
       "masked": "The book discusses the history of ____.",
       "options": [
         "english-mcq-10",
-        "english-mcq-09",
-        "english-mcq-11",
-        "english-mcq-08",
-        "english-mcq-12",
-        "english-mcq-07"
+        "english-mcq-24",
+        "english-mcq-15"
       ],
       "explanation": "本句的「the English」指「來自英格蘭的；英格蘭人的」。",
       "sentenceIndex": 23,
@@ -1309,12 +1164,9 @@ export default {
         "the English"
       ],
       "optionReasons": {
-        "english-mcq-10": "本句指「來自英格蘭的；英格蘭人的」。",
-        "english-mcq-09": "「與英格蘭、英格蘭文化或英格蘭人有關的」是「English — relating to England」的用法，與本句語境不同。",
-        "english-mcq-11": "「作為整體來看的英格蘭人」是「the English」的用法，與本句語境不同。",
-        "english-mcq-08": "「以英語寫成、表達或製作的；英文的」是「English + text/media noun」的用法，與本句語境不同。",
-        "english-mcq-12": "「某人理解或使用英語的能力／英文程度」是「someone’s English」的用法，與本句語境不同。",
-        "english-mcq-07": "「教授英語／英文科的老師」是「English teacher — subject sense」的用法，與本句語境不同。"
+        "english-mcq-10": "本句的「the English」指「來自英格蘭的；英格蘭人的」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-10"
     },
@@ -1326,11 +1178,8 @@ export default {
       "masked": "She is ____.",
       "options": [
         "english-mcq-10",
-        "english-mcq-09",
-        "english-mcq-11",
-        "english-mcq-08",
-        "english-mcq-12",
-        "english-mcq-07"
+        "english-mcq-24",
+        "english-mcq-26"
       ],
       "explanation": "本句的「English」指「來自英格蘭的；英格蘭人的」。",
       "sentenceIndex": 24,
@@ -1339,12 +1188,9 @@ export default {
         "English"
       ],
       "optionReasons": {
-        "english-mcq-10": "本句指「來自英格蘭的；英格蘭人的」。",
-        "english-mcq-09": "「與英格蘭、英格蘭文化或英格蘭人有關的」是「English — relating to England」的用法，與本句語境不同。",
-        "english-mcq-11": "「作為整體來看的英格蘭人」是「the English」的用法，與本句語境不同。",
-        "english-mcq-08": "「以英語寫成、表達或製作的；英文的」是「English + text/media noun」的用法，與本句語境不同。",
-        "english-mcq-12": "「某人理解或使用英語的能力／英文程度」是「someone’s English」的用法，與本句語境不同。",
-        "english-mcq-07": "「教授英語／英文科的老師」是「English teacher — subject sense」的用法，與本句語境不同。"
+        "english-mcq-10": "本句的「English」指「來自英格蘭的；英格蘭人的」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-10"
     },
@@ -1356,11 +1202,8 @@ export default {
       "masked": "He is ____.",
       "options": [
         "english-mcq-10",
-        "english-mcq-09",
-        "english-mcq-11",
-        "english-mcq-08",
-        "english-mcq-12",
-        "english-mcq-07"
+        "english-mcq-24",
+        "english-mcq-03"
       ],
       "explanation": "本句的「an English person living abroad」指「來自英格蘭的；英格蘭人的」。",
       "sentenceIndex": 25,
@@ -1369,12 +1212,9 @@ export default {
         "an English person living abroad"
       ],
       "optionReasons": {
-        "english-mcq-10": "本句指「來自英格蘭的；英格蘭人的」。",
-        "english-mcq-09": "「與英格蘭、英格蘭文化或英格蘭人有關的」是「English — relating to England」的用法，與本句語境不同。",
-        "english-mcq-11": "「作為整體來看的英格蘭人」是「the English」的用法，與本句語境不同。",
-        "english-mcq-08": "「以英語寫成、表達或製作的；英文的」是「English + text/media noun」的用法，與本句語境不同。",
-        "english-mcq-12": "「某人理解或使用英語的能力／英文程度」是「someone’s English」的用法，與本句語境不同。",
-        "english-mcq-07": "「教授英語／英文科的老師」是「English teacher — subject sense」的用法，與本句語境不同。"
+        "english-mcq-10": "本句的「an English person living abroad」指「來自英格蘭的；英格蘭人的」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-10"
     },
@@ -1386,11 +1226,8 @@ export default {
       "masked": "____ usually uses *colour* with a u.",
       "options": [
         "english-mcq-14",
-        "english-mcq-13",
-        "english-mcq-15",
-        "english-mcq-12",
-        "english-mcq-16",
-        "english-mcq-11"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「British English」指「與英國、尤其英式用法相關的英語變體；英式英語」。",
       "sentenceIndex": 26,
@@ -1399,12 +1236,9 @@ export default {
         "British English"
       ],
       "optionReasons": {
-        "english-mcq-14": "本句指「與英國、尤其英式用法相關的英語變體；英式英語」。",
-        "english-mcq-13": "「提升使用、理解、閱讀或書寫英語的能力」是「improve your English」的用法，與本句語境不同。",
-        "english-mcq-15": "「與美國使用方式相關的英語變體；美式英語」是「American English」的用法，與本句語境不同。",
-        "english-mcq-12": "「某人理解或使用英語的能力／英文程度」是「someone’s English」的用法，與本句語境不同。",
-        "english-mcq-16": "「適合正式場合、正式寫作的英語」是「formal English」的用法，與本句語境不同。",
-        "english-mcq-11": "「作為整體來看的英格蘭人」是「the English」的用法，與本句語境不同。"
+        "english-mcq-14": "本句的「British English」指「與英國、尤其英式用法相關的英語變體；英式英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-14"
     },
@@ -1416,11 +1250,8 @@ export default {
       "masked": "The textbook mainly teaches ____.",
       "options": [
         "english-mcq-14",
-        "english-mcq-13",
-        "english-mcq-15",
-        "english-mcq-12",
-        "english-mcq-16",
-        "english-mcq-11"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「British English」指「與英國、尤其英式用法相關的英語變體；英式英語」。",
       "sentenceIndex": 27,
@@ -1429,12 +1260,9 @@ export default {
         "British English"
       ],
       "optionReasons": {
-        "english-mcq-14": "本句指「與英國、尤其英式用法相關的英語變體；英式英語」。",
-        "english-mcq-13": "「提升使用、理解、閱讀或書寫英語的能力」是「improve your English」的用法，與本句語境不同。",
-        "english-mcq-15": "「與美國使用方式相關的英語變體；美式英語」是「American English」的用法，與本句語境不同。",
-        "english-mcq-12": "「某人理解或使用英語的能力／英文程度」是「someone’s English」的用法，與本句語境不同。",
-        "english-mcq-16": "「適合正式場合、正式寫作的英語」是「formal English」的用法，與本句語境不同。",
-        "english-mcq-11": "「作為整體來看的英格蘭人」是「the English」的用法，與本句語境不同。"
+        "english-mcq-14": "本句的「British English」指「與英國、尤其英式用法相關的英語變體；英式英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-14"
     },
@@ -1446,11 +1274,8 @@ export default {
       "masked": "*Apartment* is especially common in ____.",
       "options": [
         "english-mcq-15",
-        "english-mcq-14",
-        "english-mcq-16",
-        "english-mcq-13",
-        "english-mcq-17",
-        "english-mcq-12"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「American English」指「與美國使用方式相關的英語變體；美式英語」。",
       "sentenceIndex": 28,
@@ -1459,12 +1284,9 @@ export default {
         "American English"
       ],
       "optionReasons": {
-        "english-mcq-15": "本句指「與美國使用方式相關的英語變體；美式英語」。",
-        "english-mcq-14": "「與英國、尤其英式用法相關的英語變體；英式英語」是「British English」的用法，與本句語境不同。",
-        "english-mcq-16": "「適合正式場合、正式寫作的英語」是「formal English」的用法，與本句語境不同。",
-        "english-mcq-13": "「提升使用、理解、閱讀或書寫英語的能力」是「improve your English」的用法，與本句語境不同。",
-        "english-mcq-17": "「日常、非正式交談使用的英語」是「informal/conversational English」的用法，與本句語境不同。",
-        "english-mcq-12": "「某人理解或使用英語的能力／英文程度」是「someone’s English」的用法，與本句語境不同。"
+        "english-mcq-15": "本句的「American English」指「與美國使用方式相關的英語變體；美式英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-15"
     },
@@ -1476,11 +1298,8 @@ export default {
       "masked": "She is familiar with both British and ____.",
       "options": [
         "english-mcq-15",
-        "english-mcq-14",
-        "english-mcq-16",
-        "english-mcq-13",
-        "english-mcq-17",
-        "english-mcq-12"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「American English」指「與美國使用方式相關的英語變體；美式英語」。",
       "sentenceIndex": 29,
@@ -1489,12 +1308,9 @@ export default {
         "American English"
       ],
       "optionReasons": {
-        "english-mcq-15": "本句指「與美國使用方式相關的英語變體；美式英語」。",
-        "english-mcq-14": "「與英國、尤其英式用法相關的英語變體；英式英語」是「British English」的用法，與本句語境不同。",
-        "english-mcq-16": "「適合正式場合、正式寫作的英語」是「formal English」的用法，與本句語境不同。",
-        "english-mcq-13": "「提升使用、理解、閱讀或書寫英語的能力」是「improve your English」的用法，與本句語境不同。",
-        "english-mcq-17": "「日常、非正式交談使用的英語」是「informal/conversational English」的用法，與本句語境不同。",
-        "english-mcq-12": "「某人理解或使用英語的能力／英文程度」是「someone’s English」的用法，與本句語境不同。"
+        "english-mcq-15": "本句的「American English」指「與美國使用方式相關的英語變體；美式英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-15"
     },
@@ -1506,11 +1322,8 @@ export default {
       "masked": "Different varieties of ____ have different vocabulary.",
       "options": [
         "english-mcq-27",
-        "english-mcq-26",
-        "english-mcq-25",
         "english-mcq-24",
-        "english-mcq-23",
-        "english-mcq-22"
+        "english-mcq-10"
       ],
       "explanation": "本句的「English」指「表示澳洲英語」。",
       "sentenceIndex": 30,
@@ -1519,12 +1332,9 @@ export default {
         "English"
       ],
       "optionReasons": {
-        "english-mcq-27": "本句指「表示澳洲英語」。",
-        "english-mcq-26": "「表示英文老師／英語教師」是「Passage meaning」的用法，與本句語境不同。",
-        "english-mcq-25": "「英格蘭；English 所對應的國家名稱」是「England」的用法，與本句語境不同。",
-        "english-mcq-24": "「撞球中使母球產生的旋轉／側旋」是「English — billiards」的用法，與本句語境不同。",
-        "english-mcq-23": "「包含現代英語在內的較後期英語發展階段」是「Modern English」的用法，與本句語境不同。",
-        "english-mcq-22": "「古英語與早期現代英語之間的歷史階段；中古英語」是「Middle English」的用法，與本句語境不同。"
+        "english-mcq-27": "本句的「English」指「表示澳洲英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-27"
     },
@@ -1536,11 +1346,8 @@ export default {
       "masked": "The pronunciation is common in Australian ____.",
       "options": [
         "english-mcq-27",
-        "english-mcq-26",
-        "english-mcq-25",
         "english-mcq-24",
-        "english-mcq-23",
-        "english-mcq-22"
+        "english-mcq-10"
       ],
       "explanation": "本句的「English」指「表示澳洲英語」。",
       "sentenceIndex": 31,
@@ -1549,12 +1356,9 @@ export default {
         "English"
       ],
       "optionReasons": {
-        "english-mcq-27": "本句指「表示澳洲英語」。",
-        "english-mcq-26": "「表示英文老師／英語教師」是「Passage meaning」的用法，與本句語境不同。",
-        "english-mcq-25": "「英格蘭；English 所對應的國家名稱」是「England」的用法，與本句語境不同。",
-        "english-mcq-24": "「撞球中使母球產生的旋轉／側旋」是「English — billiards」的用法，與本句語境不同。",
-        "english-mcq-23": "「包含現代英語在內的較後期英語發展階段」是「Modern English」的用法，與本句語境不同。",
-        "english-mcq-22": "「古英語與早期現代英語之間的歷史階段；中古英語」是「Middle English」的用法，與本句語境不同。"
+        "english-mcq-27": "本句的「English」指「表示澳洲英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-27"
     },
@@ -1566,11 +1370,8 @@ export default {
       "masked": "Her ____ has improved a lot.",
       "options": [
         "english-mcq-12",
-        "english-mcq-11",
-        "english-mcq-13",
-        "english-mcq-10",
-        "english-mcq-14",
-        "english-mcq-09"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「English」指「某人理解或使用英語的能力／英文程度」。",
       "sentenceIndex": 32,
@@ -1579,12 +1380,9 @@ export default {
         "English"
       ],
       "optionReasons": {
-        "english-mcq-12": "本句指「某人理解或使用英語的能力／英文程度」。",
-        "english-mcq-11": "「作為整體來看的英格蘭人」是「the English」的用法，與本句語境不同。",
-        "english-mcq-13": "「提升使用、理解、閱讀或書寫英語的能力」是「improve your English」的用法，與本句語境不同。",
-        "english-mcq-10": "「來自英格蘭的；英格蘭人的」是「English — nationality」的用法，與本句語境不同。",
-        "english-mcq-14": "「與英國、尤其英式用法相關的英語變體；英式英語」是「British English」的用法，與本句語境不同。",
-        "english-mcq-09": "「與英格蘭、英格蘭文化或英格蘭人有關的」是「English — relating to England」的用法，與本句語境不同。"
+        "english-mcq-12": "本句的「English」指「某人理解或使用英語的能力／英文程度」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-12"
     },
@@ -1596,11 +1394,8 @@ export default {
       "masked": "His ____ is excellent.",
       "options": [
         "english-mcq-12",
-        "english-mcq-11",
-        "english-mcq-13",
-        "english-mcq-10",
-        "english-mcq-14",
-        "english-mcq-09"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「English」指「某人理解或使用英語的能力／英文程度」。",
       "sentenceIndex": 33,
@@ -1609,12 +1404,9 @@ export default {
         "English"
       ],
       "optionReasons": {
-        "english-mcq-12": "本句指「某人理解或使用英語的能力／英文程度」。",
-        "english-mcq-11": "「作為整體來看的英格蘭人」是「the English」的用法，與本句語境不同。",
-        "english-mcq-13": "「提升使用、理解、閱讀或書寫英語的能力」是「improve your English」的用法，與本句語境不同。",
-        "english-mcq-10": "「來自英格蘭的；英格蘭人的」是「English — nationality」的用法，與本句語境不同。",
-        "english-mcq-14": "「與英國、尤其英式用法相關的英語變體；英式英語」是「British English」的用法，與本句語境不同。",
-        "english-mcq-09": "「與英格蘭、英格蘭文化或英格蘭人有關的」是「English — relating to England」的用法，與本句語境不同。"
+        "english-mcq-12": "本句的「English」指「某人理解或使用英語的能力／英文程度」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-12"
     },
@@ -1626,10 +1418,7 @@ export default {
       "masked": "Reading regularly can help you ____.",
       "options": [
         "english-mcq-13",
-        "english-mcq-12",
-        "english-mcq-14",
-        "english-mcq-11",
-        "english-mcq-15",
+        "english-mcq-24",
         "english-mcq-10"
       ],
       "explanation": "本句的「improve your English」指「提升使用、理解、閱讀或書寫英語的能力」。",
@@ -1639,12 +1428,9 @@ export default {
         "improve your English"
       ],
       "optionReasons": {
-        "english-mcq-13": "本句指「提升使用、理解、閱讀或書寫英語的能力」。",
-        "english-mcq-12": "「某人理解或使用英語的能力／英文程度」是「someone’s English」的用法，與本句語境不同。",
-        "english-mcq-14": "「與英國、尤其英式用法相關的英語變體；英式英語」是「British English」的用法，與本句語境不同。",
-        "english-mcq-11": "「作為整體來看的英格蘭人」是「the English」的用法，與本句語境不同。",
-        "english-mcq-15": "「與美國使用方式相關的英語變體；美式英語」是「American English」的用法，與本句語境不同。",
-        "english-mcq-10": "「來自英格蘭的；英格蘭人的」是「English — nationality」的用法，與本句語境不同。"
+        "english-mcq-13": "本句的「improve your English」指「提升使用、理解、閱讀或書寫英語的能力」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-13"
     },
@@ -1656,10 +1442,7 @@ export default {
       "masked": "She wanted to ____ before studying abroad.",
       "options": [
         "english-mcq-13",
-        "english-mcq-12",
-        "english-mcq-14",
-        "english-mcq-11",
-        "english-mcq-15",
+        "english-mcq-24",
         "english-mcq-10"
       ],
       "explanation": "本句的「improve her English」指「提升使用、理解、閱讀或書寫英語的能力」。",
@@ -1669,12 +1452,9 @@ export default {
         "improve her English"
       ],
       "optionReasons": {
-        "english-mcq-13": "本句指「提升使用、理解、閱讀或書寫英語的能力」。",
-        "english-mcq-12": "「某人理解或使用英語的能力／英文程度」是「someone’s English」的用法，與本句語境不同。",
-        "english-mcq-14": "「與英國、尤其英式用法相關的英語變體；英式英語」是「British English」的用法，與本句語境不同。",
-        "english-mcq-11": "「作為整體來看的英格蘭人」是「the English」的用法，與本句語境不同。",
-        "english-mcq-15": "「與美國使用方式相關的英語變體；美式英語」是「American English」的用法，與本句語境不同。",
-        "english-mcq-10": "「來自英格蘭的；英格蘭人的」是「English — nationality」的用法，與本句語境不同。"
+        "english-mcq-13": "本句的「improve her English」指「提升使用、理解、閱讀或書寫英語的能力」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-13"
     },
@@ -1686,11 +1466,8 @@ export default {
       "masked": "Academic writing usually requires more ____.",
       "options": [
         "english-mcq-16",
-        "english-mcq-15",
-        "english-mcq-17",
-        "english-mcq-14",
-        "english-mcq-18",
-        "english-mcq-13"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「formal English」指「適合正式場合、正式寫作的英語」。",
       "sentenceIndex": 36,
@@ -1699,12 +1476,9 @@ export default {
         "formal English"
       ],
       "optionReasons": {
-        "english-mcq-16": "本句指「適合正式場合、正式寫作的英語」。",
-        "english-mcq-15": "「與美國使用方式相關的英語變體；美式英語」是「American English」的用法，與本句語境不同。",
-        "english-mcq-17": "「日常、非正式交談使用的英語」是「informal/conversational English」的用法，與本句語境不同。",
-        "english-mcq-14": "「與英國、尤其英式用法相關的英語變體；英式英語」是「British English」的用法，與本句語境不同。",
-        "english-mcq-18": "「正式教育、出版等場合普遍採用的標準化英語形式」是「Standard English」的用法，與本句語境不同。",
-        "english-mcq-13": "「提升使用、理解、閱讀或書寫英語的能力」是「improve your English」的用法，與本句語境不同。"
+        "english-mcq-16": "本句的「formal English」指「適合正式場合、正式寫作的英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-16"
     },
@@ -1716,11 +1490,8 @@ export default {
       "masked": "This phrase sounds too casual for ____.",
       "options": [
         "english-mcq-16",
-        "english-mcq-15",
-        "english-mcq-17",
-        "english-mcq-14",
-        "english-mcq-18",
-        "english-mcq-13"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「formal English」指「適合正式場合、正式寫作的英語」。",
       "sentenceIndex": 37,
@@ -1729,12 +1500,9 @@ export default {
         "formal English"
       ],
       "optionReasons": {
-        "english-mcq-16": "本句指「適合正式場合、正式寫作的英語」。",
-        "english-mcq-15": "「與美國使用方式相關的英語變體；美式英語」是「American English」的用法，與本句語境不同。",
-        "english-mcq-17": "「日常、非正式交談使用的英語」是「informal/conversational English」的用法，與本句語境不同。",
-        "english-mcq-14": "「與英國、尤其英式用法相關的英語變體；英式英語」是「British English」的用法，與本句語境不同。",
-        "english-mcq-18": "「正式教育、出版等場合普遍採用的標準化英語形式」是「Standard English」的用法，與本句語境不同。",
-        "english-mcq-13": "「提升使用、理解、閱讀或書寫英語的能力」是「improve your English」的用法，與本句語境不同。"
+        "english-mcq-16": "本句的「formal English」指「適合正式場合、正式寫作的英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-16"
     },
@@ -1746,11 +1514,8 @@ export default {
       "masked": "The expression is common in ____.",
       "options": [
         "english-mcq-17",
-        "english-mcq-16",
-        "english-mcq-18",
-        "english-mcq-15",
-        "english-mcq-19",
-        "english-mcq-14"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「informal English」指「日常、非正式交談使用的英語」。",
       "sentenceIndex": 38,
@@ -1759,12 +1524,9 @@ export default {
         "informal English"
       ],
       "optionReasons": {
-        "english-mcq-17": "本句指「日常、非正式交談使用的英語」。",
-        "english-mcq-16": "「適合正式場合、正式寫作的英語」是「formal English」的用法，與本句語境不同。",
-        "english-mcq-18": "「正式教育、出版等場合普遍採用的標準化英語形式」是「Standard English」的用法，與本句語境不同。",
-        "english-mcq-15": "「與美國使用方式相關的英語變體；美式英語」是「American English」的用法，與本句語境不同。",
-        "english-mcq-19": "「避免不必要複雜詞語、清楚易懂的英語」是「plain English」的用法，與本句語境不同。",
-        "english-mcq-14": "「與英國、尤其英式用法相關的英語變體；英式英語」是「British English」的用法，與本句語境不同。"
+        "english-mcq-17": "本句的「informal English」指「日常、非正式交談使用的英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-17"
     },
@@ -1776,11 +1538,8 @@ export default {
       "masked": "The book teaches natural ____.",
       "options": [
         "english-mcq-17",
-        "english-mcq-16",
-        "english-mcq-18",
-        "english-mcq-15",
-        "english-mcq-19",
-        "english-mcq-14"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「conversational English」指「日常、非正式交談使用的英語」。",
       "sentenceIndex": 39,
@@ -1789,12 +1548,9 @@ export default {
         "conversational English"
       ],
       "optionReasons": {
-        "english-mcq-17": "本句指「日常、非正式交談使用的英語」。",
-        "english-mcq-16": "「適合正式場合、正式寫作的英語」是「formal English」的用法，與本句語境不同。",
-        "english-mcq-18": "「正式教育、出版等場合普遍採用的標準化英語形式」是「Standard English」的用法，與本句語境不同。",
-        "english-mcq-15": "「與美國使用方式相關的英語變體；美式英語」是「American English」的用法，與本句語境不同。",
-        "english-mcq-19": "「避免不必要複雜詞語、清楚易懂的英語」是「plain English」的用法，與本句語境不同。",
-        "english-mcq-14": "「與英國、尤其英式用法相關的英語變體；英式英語」是「British English」的用法，與本句語境不同。"
+        "english-mcq-17": "本句的「conversational English」指「日常、非正式交談使用的英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-17"
     },
@@ -1806,11 +1562,8 @@ export default {
       "masked": "Students are expected to use ____ in formal essays.",
       "options": [
         "english-mcq-18",
-        "english-mcq-17",
-        "english-mcq-19",
-        "english-mcq-16",
-        "english-mcq-20",
-        "english-mcq-15"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「Standard English」指「正式教育、出版等場合普遍採用的標準化英語形式」。",
       "sentenceIndex": 40,
@@ -1819,12 +1572,9 @@ export default {
         "Standard English"
       ],
       "optionReasons": {
-        "english-mcq-18": "本句指「正式教育、出版等場合普遍採用的標準化英語形式」。",
-        "english-mcq-17": "「日常、非正式交談使用的英語」是「informal/conversational English」的用法，與本句語境不同。",
-        "english-mcq-19": "「避免不必要複雜詞語、清楚易懂的英語」是「plain English」的用法，與本句語境不同。",
-        "english-mcq-16": "「適合正式場合、正式寫作的英語」是「formal English」的用法，與本句語境不同。",
-        "english-mcq-20": "「使用英語來表達；用英文」是「in English」的用法，與本句語境不同。",
-        "english-mcq-15": "「與美國使用方式相關的英語變體；美式英語」是「American English」的用法，與本句語境不同。"
+        "english-mcq-18": "本句的「Standard English」指「正式教育、出版等場合普遍採用的標準化英語形式」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-18"
     },
@@ -1836,11 +1586,8 @@ export default {
       "masked": "Many regional forms differ from ____ without necessarily being random or incorrect.",
       "options": [
         "english-mcq-18",
-        "english-mcq-17",
-        "english-mcq-19",
-        "english-mcq-16",
-        "english-mcq-20",
-        "english-mcq-15"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「Standard English」指「正式教育、出版等場合普遍採用的標準化英語形式」。",
       "sentenceIndex": 41,
@@ -1849,12 +1596,9 @@ export default {
         "Standard English"
       ],
       "optionReasons": {
-        "english-mcq-18": "本句指「正式教育、出版等場合普遍採用的標準化英語形式」。",
-        "english-mcq-17": "「日常、非正式交談使用的英語」是「informal/conversational English」的用法，與本句語境不同。",
-        "english-mcq-19": "「避免不必要複雜詞語、清楚易懂的英語」是「plain English」的用法，與本句語境不同。",
-        "english-mcq-16": "「適合正式場合、正式寫作的英語」是「formal English」的用法，與本句語境不同。",
-        "english-mcq-20": "「使用英語來表達；用英文」是「in English」的用法，與本句語境不同。",
-        "english-mcq-15": "「與美國使用方式相關的英語變體；美式英語」是「American English」的用法，與本句語境不同。"
+        "english-mcq-18": "本句的「Standard English」指「正式教育、出版等場合普遍採用的標準化英語形式」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-18"
     },
@@ -1866,11 +1610,8 @@ export default {
       "masked": "Please explain the rule in ____.",
       "options": [
         "english-mcq-19",
-        "english-mcq-18",
-        "english-mcq-20",
-        "english-mcq-17",
-        "english-mcq-21",
-        "english-mcq-16"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「plain English」指「避免不必要複雜詞語、清楚易懂的英語」。",
       "sentenceIndex": 42,
@@ -1879,12 +1620,9 @@ export default {
         "plain English"
       ],
       "optionReasons": {
-        "english-mcq-19": "本句指「避免不必要複雜詞語、清楚易懂的英語」。",
-        "english-mcq-18": "「正式教育、出版等場合普遍採用的標準化英語形式」是「Standard English」的用法，與本句語境不同。",
-        "english-mcq-20": "「使用英語來表達；用英文」是「in English」的用法，與本句語境不同。",
-        "english-mcq-17": "「日常、非正式交談使用的英語」是「informal/conversational English」的用法，與本句語境不同。",
-        "english-mcq-21": "「英語最早的重要歷史階段；古英語」是「Old English」的用法，與本句語境不同。",
-        "english-mcq-16": "「適合正式場合、正式寫作的英語」是「formal English」的用法，與本句語境不同。"
+        "english-mcq-19": "本句的「plain English」指「避免不必要複雜詞語、清楚易懂的英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-19"
     },
@@ -1896,11 +1634,8 @@ export default {
       "masked": "The guide translates technical language into ____.",
       "options": [
         "english-mcq-19",
-        "english-mcq-18",
-        "english-mcq-20",
-        "english-mcq-17",
-        "english-mcq-21",
-        "english-mcq-16"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「plain English」指「避免不必要複雜詞語、清楚易懂的英語」。",
       "sentenceIndex": 43,
@@ -1909,12 +1644,9 @@ export default {
         "plain English"
       ],
       "optionReasons": {
-        "english-mcq-19": "本句指「避免不必要複雜詞語、清楚易懂的英語」。",
-        "english-mcq-18": "「正式教育、出版等場合普遍採用的標準化英語形式」是「Standard English」的用法，與本句語境不同。",
-        "english-mcq-20": "「使用英語來表達；用英文」是「in English」的用法，與本句語境不同。",
-        "english-mcq-17": "「日常、非正式交談使用的英語」是「informal/conversational English」的用法，與本句語境不同。",
-        "english-mcq-21": "「英語最早的重要歷史階段；古英語」是「Old English」的用法，與本句語境不同。",
-        "english-mcq-16": "「適合正式場合、正式寫作的英語」是「formal English」的用法，與本句語境不同。"
+        "english-mcq-19": "本句的「plain English」指「避免不必要複雜詞語、清楚易懂的英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-19"
     },
@@ -1926,11 +1658,7 @@ export default {
       "masked": "Please answer ____.",
       "options": [
         "english-mcq-20",
-        "english-mcq-19",
-        "english-mcq-21",
-        "english-mcq-18",
-        "english-mcq-22",
-        "english-mcq-17"
+        "english-mcq-24"
       ],
       "explanation": "本句的「in English」指「使用英語來表達；用英文」。",
       "sentenceIndex": 44,
@@ -1939,12 +1667,8 @@ export default {
         "in English"
       ],
       "optionReasons": {
-        "english-mcq-20": "本句指「使用英語來表達；用英文」。",
-        "english-mcq-19": "「避免不必要複雜詞語、清楚易懂的英語」是「plain English」的用法，與本句語境不同。",
-        "english-mcq-21": "「英語最早的重要歷史階段；古英語」是「Old English」的用法，與本句語境不同。",
-        "english-mcq-18": "「正式教育、出版等場合普遍採用的標準化英語形式」是「Standard English」的用法，與本句語境不同。",
-        "english-mcq-22": "「古英語與早期現代英語之間的歷史階段；中古英語」是「Middle English」的用法，與本句語境不同。",
-        "english-mcq-17": "「日常、非正式交談使用的英語」是「informal/conversational English」的用法，與本句語境不同。"
+        "english-mcq-20": "本句的「in English」指「使用英語來表達；用英文」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-20"
     },
@@ -1956,11 +1680,7 @@ export default {
       "masked": "How do you say this ____?",
       "options": [
         "english-mcq-20",
-        "english-mcq-19",
-        "english-mcq-21",
-        "english-mcq-18",
-        "english-mcq-22",
-        "english-mcq-17"
+        "english-mcq-24"
       ],
       "explanation": "本句的「in English」指「使用英語來表達；用英文」。",
       "sentenceIndex": 45,
@@ -1969,12 +1689,8 @@ export default {
         "in English"
       ],
       "optionReasons": {
-        "english-mcq-20": "本句指「使用英語來表達；用英文」。",
-        "english-mcq-19": "「避免不必要複雜詞語、清楚易懂的英語」是「plain English」的用法，與本句語境不同。",
-        "english-mcq-21": "「英語最早的重要歷史階段；古英語」是「Old English」的用法，與本句語境不同。",
-        "english-mcq-18": "「正式教育、出版等場合普遍採用的標準化英語形式」是「Standard English」的用法，與本句語境不同。",
-        "english-mcq-22": "「古英語與早期現代英語之間的歷史階段；中古英語」是「Middle English」的用法，與本句語境不同。",
-        "english-mcq-17": "「日常、非正式交談使用的英語」是「informal/conversational English」的用法，與本句語境不同。"
+        "english-mcq-20": "本句的「in English」指「使用英語來表達；用英文」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-20"
     },
@@ -1986,11 +1702,8 @@ export default {
       "masked": "Modern English developed partly from ____.",
       "options": [
         "english-mcq-21",
-        "english-mcq-20",
-        "english-mcq-22",
-        "english-mcq-19",
-        "english-mcq-23",
-        "english-mcq-18"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「Old English」指「英語最早的重要歷史階段；古英語」。",
       "sentenceIndex": 46,
@@ -1999,12 +1712,9 @@ export default {
         "Old English"
       ],
       "optionReasons": {
-        "english-mcq-21": "本句指「英語最早的重要歷史階段；古英語」。",
-        "english-mcq-20": "「使用英語來表達；用英文」是「in English」的用法，與本句語境不同。",
-        "english-mcq-22": "「古英語與早期現代英語之間的歷史階段；中古英語」是「Middle English」的用法，與本句語境不同。",
-        "english-mcq-19": "「避免不必要複雜詞語、清楚易懂的英語」是「plain English」的用法，與本句語境不同。",
-        "english-mcq-23": "「包含現代英語在內的較後期英語發展階段」是「Modern English」的用法，與本句語境不同。",
-        "english-mcq-18": "「正式教育、出版等場合普遍採用的標準化英語形式」是「Standard English」的用法，與本句語境不同。"
+        "english-mcq-21": "本句的「Old English」指「英語最早的重要歷史階段；古英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-21"
     },
@@ -2016,11 +1726,8 @@ export default {
       "masked": "____ looks very different from modern English.",
       "options": [
         "english-mcq-21",
-        "english-mcq-20",
-        "english-mcq-22",
-        "english-mcq-19",
-        "english-mcq-23",
-        "english-mcq-18"
+        "english-mcq-24",
+        "english-mcq-10"
       ],
       "explanation": "本句的「Old English」指「英語最早的重要歷史階段；古英語」。",
       "sentenceIndex": 47,
@@ -2029,12 +1736,9 @@ export default {
         "Old English"
       ],
       "optionReasons": {
-        "english-mcq-21": "本句指「英語最早的重要歷史階段；古英語」。",
-        "english-mcq-20": "「使用英語來表達；用英文」是「in English」的用法，與本句語境不同。",
-        "english-mcq-22": "「古英語與早期現代英語之間的歷史階段；中古英語」是「Middle English」的用法，與本句語境不同。",
-        "english-mcq-19": "「避免不必要複雜詞語、清楚易懂的英語」是「plain English」的用法，與本句語境不同。",
-        "english-mcq-23": "「包含現代英語在內的較後期英語發展階段」是「Modern English」的用法，與本句語境不同。",
-        "english-mcq-18": "「正式教育、出版等場合普遍採用的標準化英語形式」是「Standard English」的用法，與本句語境不同。"
+        "english-mcq-21": "本句的「Old English」指「英語最早的重要歷史階段；古英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-21"
     },
@@ -2046,11 +1750,8 @@ export default {
       "masked": "Chaucer wrote in ____.",
       "options": [
         "english-mcq-22",
-        "english-mcq-21",
-        "english-mcq-23",
-        "english-mcq-20",
         "english-mcq-24",
-        "english-mcq-19"
+        "english-mcq-10"
       ],
       "explanation": "本句的「Middle English」指「古英語與早期現代英語之間的歷史階段；中古英語」。",
       "sentenceIndex": 48,
@@ -2059,12 +1760,9 @@ export default {
         "Middle English"
       ],
       "optionReasons": {
-        "english-mcq-22": "本句指「古英語與早期現代英語之間的歷史階段；中古英語」。",
-        "english-mcq-21": "「英語最早的重要歷史階段；古英語」是「Old English」的用法，與本句語境不同。",
-        "english-mcq-23": "「包含現代英語在內的較後期英語發展階段」是「Modern English」的用法，與本句語境不同。",
-        "english-mcq-20": "「使用英語來表達；用英文」是「in English」的用法，與本句語境不同。",
-        "english-mcq-24": "「撞球中使母球產生的旋轉／側旋」是「English — billiards」的用法，與本句語境不同。",
-        "english-mcq-19": "「避免不必要複雜詞語、清楚易懂的英語」是「plain English」的用法，與本句語境不同。"
+        "english-mcq-22": "本句的「Middle English」指「古英語與早期現代英語之間的歷史階段；中古英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-22"
     },
@@ -2076,11 +1774,8 @@ export default {
       "masked": "English changed considerably during the ____ period.",
       "options": [
         "english-mcq-22",
-        "english-mcq-21",
-        "english-mcq-23",
-        "english-mcq-20",
         "english-mcq-24",
-        "english-mcq-19"
+        "english-mcq-10"
       ],
       "explanation": "本句的「Middle English」指「古英語與早期現代英語之間的歷史階段；中古英語」。",
       "sentenceIndex": 49,
@@ -2089,12 +1784,9 @@ export default {
         "Middle English"
       ],
       "optionReasons": {
-        "english-mcq-22": "本句指「古英語與早期現代英語之間的歷史階段；中古英語」。",
-        "english-mcq-21": "「英語最早的重要歷史階段；古英語」是「Old English」的用法，與本句語境不同。",
-        "english-mcq-23": "「包含現代英語在內的較後期英語發展階段」是「Modern English」的用法，與本句語境不同。",
-        "english-mcq-20": "「使用英語來表達；用英文」是「in English」的用法，與本句語境不同。",
-        "english-mcq-24": "「撞球中使母球產生的旋轉／側旋」是「English — billiards」的用法，與本句語境不同。",
-        "english-mcq-19": "「避免不必要複雜詞語、清楚易懂的英語」是「plain English」的用法，與本句語境不同。"
+        "english-mcq-22": "本句的「Middle English」指「古英語與早期現代英語之間的歷史階段；中古英語」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-22"
     },
@@ -2106,11 +1798,8 @@ export default {
       "masked": "The word survives in ____.",
       "options": [
         "english-mcq-23",
-        "english-mcq-22",
         "english-mcq-24",
-        "english-mcq-21",
-        "english-mcq-25",
-        "english-mcq-20"
+        "english-mcq-10"
       ],
       "explanation": "本句的「Modern English」指「包含現代英語在內的較後期英語發展階段」。",
       "sentenceIndex": 50,
@@ -2119,12 +1808,9 @@ export default {
         "Modern English"
       ],
       "optionReasons": {
-        "english-mcq-23": "本句指「包含現代英語在內的較後期英語發展階段」。",
-        "english-mcq-22": "「古英語與早期現代英語之間的歷史階段；中古英語」是「Middle English」的用法，與本句語境不同。",
-        "english-mcq-24": "「撞球中使母球產生的旋轉／側旋」是「English — billiards」的用法，與本句語境不同。",
-        "english-mcq-21": "「英語最早的重要歷史階段；古英語」是「Old English」的用法，與本句語境不同。",
-        "english-mcq-25": "「英格蘭；English 所對應的國家名稱」是「England」的用法，與本句語境不同。",
-        "english-mcq-20": "「使用英語來表達；用英文」是「in English」的用法，與本句語境不同。"
+        "english-mcq-23": "本句的「Modern English」指「包含現代英語在內的較後期英語發展階段」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-23"
     },
@@ -2136,11 +1822,8 @@ export default {
       "masked": "____ contains vocabulary from many historical sources.",
       "options": [
         "english-mcq-23",
-        "english-mcq-22",
         "english-mcq-24",
-        "english-mcq-21",
-        "english-mcq-25",
-        "english-mcq-20"
+        "english-mcq-10"
       ],
       "explanation": "本句的「Modern English」指「包含現代英語在內的較後期英語發展階段」。",
       "sentenceIndex": 51,
@@ -2149,12 +1832,9 @@ export default {
         "Modern English"
       ],
       "optionReasons": {
-        "english-mcq-23": "本句指「包含現代英語在內的較後期英語發展階段」。",
-        "english-mcq-22": "「古英語與早期現代英語之間的歷史階段；中古英語」是「Middle English」的用法，與本句語境不同。",
-        "english-mcq-24": "「撞球中使母球產生的旋轉／側旋」是「English — billiards」的用法，與本句語境不同。",
-        "english-mcq-21": "「英語最早的重要歷史階段；古英語」是「Old English」的用法，與本句語境不同。",
-        "english-mcq-25": "「英格蘭；English 所對應的國家名稱」是「England」的用法，與本句語境不同。",
-        "english-mcq-20": "「使用英語來表達；用英文」是「in English」的用法，與本句語境不同。"
+        "english-mcq-23": "本句的「Modern English」指「包含現代英語在內的較後期英語發展階段」。",
+        "english-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-23"
     },
@@ -2166,11 +1846,8 @@ export default {
       "masked": "He put some ____ on the cue ball.",
       "options": [
         "english-mcq-24",
-        "english-mcq-23",
-        "english-mcq-25",
-        "english-mcq-22",
-        "english-mcq-26",
-        "english-mcq-21"
+        "english-mcq-15",
+        "english-mcq-10"
       ],
       "explanation": "本句的「English」指「撞球中使母球產生的旋轉／側旋」。",
       "sentenceIndex": 52,
@@ -2179,12 +1856,9 @@ export default {
         "English"
       ],
       "optionReasons": {
-        "english-mcq-24": "本句指「撞球中使母球產生的旋轉／側旋」。",
-        "english-mcq-23": "「包含現代英語在內的較後期英語發展階段」是「Modern English」的用法，與本句語境不同。",
-        "english-mcq-25": "「英格蘭；English 所對應的國家名稱」是「England」的用法，與本句語境不同。",
-        "english-mcq-22": "「古英語與早期現代英語之間的歷史階段；中古英語」是「Middle English」的用法，與本句語境不同。",
-        "english-mcq-26": "「表示英文老師／英語教師」是「Passage meaning」的用法，與本句語境不同。",
-        "english-mcq-21": "「英語最早的重要歷史階段；古英語」是「Old English」的用法，與本句語境不同。"
+        "english-mcq-24": "本句的「English」指「撞球中使母球產生的旋轉／側旋」。",
+        "english-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-24"
     },
@@ -2196,11 +1870,8 @@ export default {
       "masked": "Using ____ changes the path of the ball after contact.",
       "options": [
         "english-mcq-24",
-        "english-mcq-23",
-        "english-mcq-25",
-        "english-mcq-22",
-        "english-mcq-26",
-        "english-mcq-21"
+        "english-mcq-14",
+        "english-mcq-10"
       ],
       "explanation": "本句的「English」指「撞球中使母球產生的旋轉／側旋」。",
       "sentenceIndex": 53,
@@ -2209,12 +1880,9 @@ export default {
         "English"
       ],
       "optionReasons": {
-        "english-mcq-24": "本句指「撞球中使母球產生的旋轉／側旋」。",
-        "english-mcq-23": "「包含現代英語在內的較後期英語發展階段」是「Modern English」的用法，與本句語境不同。",
-        "english-mcq-25": "「英格蘭；English 所對應的國家名稱」是「England」的用法，與本句語境不同。",
-        "english-mcq-22": "「古英語與早期現代英語之間的歷史階段；中古英語」是「Middle English」的用法，與本句語境不同。",
-        "english-mcq-26": "「表示英文老師／英語教師」是「Passage meaning」的用法，與本句語境不同。",
-        "english-mcq-21": "「英語最早的重要歷史階段；古英語」是「Old English」的用法，與本句語境不同。"
+        "english-mcq-24": "本句的「English」指「撞球中使母球產生的旋轉／側旋」。",
+        "english-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "english-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "english-mcq-24"
     }
@@ -2226,5 +1894,7 @@ export default {
     "sha256": "c5c6e9e93e4ae279f385cd979dd8426c9fe2256dcc10adc150f1e028128d844f",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -508,11 +508,9 @@ export default {
       "masked": "The captain decided to ____ near the island.",
       "options": [
         "anchor-mcq-02",
-        "anchor-mcq-01",
-        "anchor-mcq-03",
-        "anchor-mcq-04",
-        "anchor-mcq-05",
-        "anchor-mcq-06"
+        "anchor-mcq-21",
+        "anchor-mcq-12",
+        "anchor-mcq-15"
       ],
       "explanation": "本句的「drop anchor」指「把錨放入水中；下錨」。",
       "sentenceIndex": 4,
@@ -521,12 +519,10 @@ export default {
         "drop anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-02": "本句指「把錨放入水中；下錨」。",
-        "anchor-mcq-01": "「放到水底、用來防止船隻漂走的錨」與本句語境不同。",
-        "anchor-mcq-03": "「把錨拉起並準備啟航；起錨」與本句語境不同。",
-        "anchor-mcq-04": "「給人穩定、安全感或方向的支柱／依靠」與本句語境不同。",
-        "anchor-mcq-05": "「讓人在心理或情緒上保持穩定的依靠」與本句語境不同。",
-        "anchor-mcq-06": "「其他事物圍繞或參照的固定基準點」與本句語境不同。"
+        "anchor-mcq-02": "本句的「drop anchor」指「把錨放入水中；下錨」。",
+        "anchor-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-02"
     },
@@ -538,11 +534,9 @@ export default {
       "masked": "We ____ before sunset.",
       "options": [
         "anchor-mcq-02",
-        "anchor-mcq-01",
-        "anchor-mcq-03",
-        "anchor-mcq-04",
-        "anchor-mcq-05",
-        "anchor-mcq-06"
+        "anchor-mcq-14",
+        "anchor-mcq-10",
+        "anchor-mcq-08"
       ],
       "explanation": "本句的「lowered the anchor」指「把錨放入水中；下錨」。",
       "sentenceIndex": 5,
@@ -551,12 +545,10 @@ export default {
         "lowered the anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-02": "本句指「把錨放入水中；下錨」。",
-        "anchor-mcq-01": "「放到水底、用來防止船隻漂走的錨」與本句語境不同。",
-        "anchor-mcq-03": "「把錨拉起並準備啟航；起錨」與本句語境不同。",
-        "anchor-mcq-04": "「給人穩定、安全感或方向的支柱／依靠」與本句語境不同。",
-        "anchor-mcq-05": "「讓人在心理或情緒上保持穩定的依靠」與本句語境不同。",
-        "anchor-mcq-06": "「其他事物圍繞或參照的固定基準點」與本句語境不同。"
+        "anchor-mcq-02": "本句的「lowered the anchor」指「把錨放入水中；下錨」。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-02"
     },
@@ -568,11 +560,9 @@ export default {
       "masked": "The ship ____ at dawn.",
       "options": [
         "anchor-mcq-03",
-        "anchor-mcq-02",
+        "anchor-mcq-12",
         "anchor-mcq-04",
-        "anchor-mcq-01",
-        "anchor-mcq-05",
-        "anchor-mcq-06"
+        "anchor-mcq-15"
       ],
       "explanation": "本句的「weighed anchor」指「把錨拉起並準備啟航；起錨」。",
       "sentenceIndex": 6,
@@ -581,12 +571,10 @@ export default {
         "weighed anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-03": "本句指「把錨拉起並準備啟航；起錨」。",
-        "anchor-mcq-02": "「把錨放入水中；下錨」與本句語境不同。",
-        "anchor-mcq-04": "「給人穩定、安全感或方向的支柱／依靠」與本句語境不同。",
-        "anchor-mcq-01": "「放到水底、用來防止船隻漂走的錨」與本句語境不同。",
-        "anchor-mcq-05": "「讓人在心理或情緒上保持穩定的依靠」與本句語境不同。",
-        "anchor-mcq-06": "「其他事物圍繞或參照的固定基準點」與本句語境不同。"
+        "anchor-mcq-03": "本句的「weighed anchor」指「把錨拉起並準備啟航；起錨」。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-03"
     },
@@ -598,11 +586,9 @@ export default {
       "masked": "They were ready to ____ and leave.",
       "options": [
         "anchor-mcq-03",
-        "anchor-mcq-02",
-        "anchor-mcq-04",
-        "anchor-mcq-01",
-        "anchor-mcq-05",
-        "anchor-mcq-06"
+        "anchor-mcq-07",
+        "anchor-mcq-15",
+        "anchor-mcq-12"
       ],
       "explanation": "本句的「weigh anchor」指「把錨拉起並準備啟航；起錨」。",
       "sentenceIndex": 7,
@@ -611,12 +597,10 @@ export default {
         "weigh anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-03": "本句指「把錨拉起並準備啟航；起錨」。",
-        "anchor-mcq-02": "「把錨放入水中；下錨」與本句語境不同。",
-        "anchor-mcq-04": "「給人穩定、安全感或方向的支柱／依靠」與本句語境不同。",
-        "anchor-mcq-01": "「放到水底、用來防止船隻漂走的錨」與本句語境不同。",
-        "anchor-mcq-05": "「讓人在心理或情緒上保持穩定的依靠」與本句語境不同。",
-        "anchor-mcq-06": "「其他事物圍繞或參照的固定基準點」與本句語境不同。"
+        "anchor-mcq-03": "本句的「weigh anchor」指「把錨拉起並準備啟航；起錨」。",
+        "anchor-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-03"
     },
@@ -628,11 +612,9 @@ export default {
       "masked": "Routine can be an emotional ____.",
       "options": [
         "anchor-mcq-04",
-        "anchor-mcq-03",
-        "anchor-mcq-05",
-        "anchor-mcq-02",
-        "anchor-mcq-06",
-        "anchor-mcq-01"
+        "anchor-mcq-12",
+        "anchor-mcq-14",
+        "anchor-mcq-02"
       ],
       "explanation": "本句的「anchor」指「給人穩定、安全感或方向的支柱／依靠」。",
       "sentenceIndex": 8,
@@ -641,12 +623,10 @@ export default {
         "anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-04": "本句指「給人穩定、安全感或方向的支柱／依靠」。",
-        "anchor-mcq-03": "「把錨拉起並準備啟航；起錨」與本句語境不同。",
-        "anchor-mcq-05": "「讓人在心理或情緒上保持穩定的依靠」與本句語境不同。",
-        "anchor-mcq-02": "「把錨放入水中；下錨」與本句語境不同。",
-        "anchor-mcq-06": "「其他事物圍繞或參照的固定基準點」與本句語境不同。",
-        "anchor-mcq-01": "「放到水底、用來防止船隻漂走的錨」與本句語境不同。"
+        "anchor-mcq-04": "本句的「anchor」指「給人穩定、安全感或方向的支柱／依靠」。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-04"
     },
@@ -658,11 +638,9 @@ export default {
       "masked": "Her closest friend became an ____ during a difficult year.",
       "options": [
         "anchor-mcq-04",
+        "anchor-mcq-14",
         "anchor-mcq-03",
-        "anchor-mcq-05",
-        "anchor-mcq-02",
-        "anchor-mcq-06",
-        "anchor-mcq-01"
+        "anchor-mcq-17"
       ],
       "explanation": "本句的「anchor」指「給人穩定、安全感或方向的支柱／依靠」。",
       "sentenceIndex": 9,
@@ -671,12 +649,10 @@ export default {
         "anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-04": "本句指「給人穩定、安全感或方向的支柱／依靠」。",
-        "anchor-mcq-03": "「把錨拉起並準備啟航；起錨」與本句語境不同。",
-        "anchor-mcq-05": "「讓人在心理或情緒上保持穩定的依靠」與本句語境不同。",
-        "anchor-mcq-02": "「把錨放入水中；下錨」與本句語境不同。",
-        "anchor-mcq-06": "「其他事物圍繞或參照的固定基準點」與本句語境不同。",
-        "anchor-mcq-01": "「放到水底、用來防止船隻漂走的錨」與本句語境不同。"
+        "anchor-mcq-04": "本句的「anchor」指「給人穩定、安全感或方向的支柱／依靠」。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-04"
     },
@@ -688,11 +664,9 @@ export default {
       "masked": "Music became an ____ for him.",
       "options": [
         "anchor-mcq-05",
-        "anchor-mcq-04",
-        "anchor-mcq-06",
-        "anchor-mcq-03",
-        "anchor-mcq-07",
-        "anchor-mcq-02"
+        "anchor-mcq-02",
+        "anchor-mcq-14",
+        "anchor-mcq-11"
       ],
       "explanation": "本句的「emotional anchor」指「讓人在心理或情緒上保持穩定的依靠」。",
       "sentenceIndex": 10,
@@ -701,12 +675,10 @@ export default {
         "emotional anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-05": "本句指「讓人在心理或情緒上保持穩定的依靠」。",
-        "anchor-mcq-04": "「給人穩定、安全感或方向的支柱／依靠」與本句語境不同。",
-        "anchor-mcq-06": "「其他事物圍繞或參照的固定基準點」與本句語境不同。",
-        "anchor-mcq-03": "「把錨拉起並準備啟航；起錨」與本句語境不同。",
-        "anchor-mcq-07": "「把某物牢牢固定在某一位置」與本句語境不同。",
-        "anchor-mcq-02": "「把錨放入水中；下錨」與本句語境不同。"
+        "anchor-mcq-05": "本句的「emotional anchor」指「讓人在心理或情緒上保持穩定的依靠」。",
+        "anchor-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-05"
     },
@@ -718,10 +690,8 @@ export default {
       "masked": "Familiar routines can act as an ____.",
       "options": [
         "anchor-mcq-05",
-        "anchor-mcq-04",
-        "anchor-mcq-06",
-        "anchor-mcq-03",
-        "anchor-mcq-07",
+        "anchor-mcq-10",
+        "anchor-mcq-11",
         "anchor-mcq-02"
       ],
       "explanation": "本句的「emotional anchor」指「讓人在心理或情緒上保持穩定的依靠」。",
@@ -731,12 +701,10 @@ export default {
         "emotional anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-05": "本句指「讓人在心理或情緒上保持穩定的依靠」。",
-        "anchor-mcq-04": "「給人穩定、安全感或方向的支柱／依靠」與本句語境不同。",
-        "anchor-mcq-06": "「其他事物圍繞或參照的固定基準點」與本句語境不同。",
-        "anchor-mcq-03": "「把錨拉起並準備啟航；起錨」與本句語境不同。",
-        "anchor-mcq-07": "「把某物牢牢固定在某一位置」與本句語境不同。",
-        "anchor-mcq-02": "「把錨放入水中；下錨」與本句語境不同。"
+        "anchor-mcq-05": "本句的「emotional anchor」指「讓人在心理或情緒上保持穩定的依靠」。",
+        "anchor-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-05"
     },
@@ -748,11 +716,9 @@ export default {
       "masked": "The main building serves as an ____ for the whole complex.",
       "options": [
         "anchor-mcq-06",
-        "anchor-mcq-05",
-        "anchor-mcq-07",
-        "anchor-mcq-04",
-        "anchor-mcq-08",
-        "anchor-mcq-03"
+        "anchor-mcq-12",
+        "anchor-mcq-02",
+        "anchor-mcq-15"
       ],
       "explanation": "本句的「anchor」指「其他事物圍繞或參照的固定基準點」。",
       "sentenceIndex": 12,
@@ -761,12 +727,10 @@ export default {
         "anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-06": "本句指「其他事物圍繞或參照的固定基準點」。",
-        "anchor-mcq-05": "「讓人在心理或情緒上保持穩定的依靠」與本句語境不同。",
-        "anchor-mcq-07": "「把某物牢牢固定在某一位置」與本句語境不同。",
-        "anchor-mcq-04": "「給人穩定、安全感或方向的支柱／依靠」與本句語境不同。",
-        "anchor-mcq-08": "「把某物固定在另一個穩固位置」與本句語境不同。",
-        "anchor-mcq-03": "「把錨拉起並準備啟航；起錨」與本句語境不同。"
+        "anchor-mcq-06": "本句的「anchor」指「其他事物圍繞或參照的固定基準點」。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-06"
     },
@@ -778,11 +742,9 @@ export default {
       "masked": "A clear principle can act as an ____ for decision-making.",
       "options": [
         "anchor-mcq-06",
-        "anchor-mcq-05",
-        "anchor-mcq-07",
-        "anchor-mcq-04",
-        "anchor-mcq-08",
-        "anchor-mcq-03"
+        "anchor-mcq-11",
+        "anchor-mcq-23",
+        "anchor-mcq-14"
       ],
       "explanation": "本句的「anchor」指「其他事物圍繞或參照的固定基準點」。",
       "sentenceIndex": 13,
@@ -791,12 +753,10 @@ export default {
         "anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-06": "本句指「其他事物圍繞或參照的固定基準點」。",
-        "anchor-mcq-05": "「讓人在心理或情緒上保持穩定的依靠」與本句語境不同。",
-        "anchor-mcq-07": "「把某物牢牢固定在某一位置」與本句語境不同。",
-        "anchor-mcq-04": "「給人穩定、安全感或方向的支柱／依靠」與本句語境不同。",
-        "anchor-mcq-08": "「把某物固定在另一個穩固位置」與本句語境不同。",
-        "anchor-mcq-03": "「把錨拉起並準備啟航；起錨」與本句語境不同。"
+        "anchor-mcq-06": "本句的「anchor」指「其他事物圍繞或參照的固定基準點」。",
+        "anchor-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-06"
     },
@@ -808,11 +768,9 @@ export default {
       "masked": "The shelves were ____.",
       "options": [
         "anchor-mcq-07",
-        "anchor-mcq-06",
-        "anchor-mcq-08",
-        "anchor-mcq-05",
-        "anchor-mcq-09",
-        "anchor-mcq-04"
+        "anchor-mcq-12",
+        "anchor-mcq-02",
+        "anchor-mcq-14"
       ],
       "explanation": "本句的「anchored to the wall」指「把某物牢牢固定在某一位置」。",
       "sentenceIndex": 14,
@@ -821,12 +779,10 @@ export default {
         "anchored to the wall"
       ],
       "optionReasons": {
-        "anchor-mcq-07": "本句指「把某物牢牢固定在某一位置」。",
-        "anchor-mcq-06": "「其他事物圍繞或參照的固定基準點」與本句語境不同。",
-        "anchor-mcq-08": "「把某物固定在另一個穩固位置」與本句語境不同。",
-        "anchor-mcq-05": "「讓人在心理或情緒上保持穩定的依靠」與本句語境不同。",
-        "anchor-mcq-09": "「使人或事物穩定、有根基」與本句語境不同。",
-        "anchor-mcq-04": "「給人穩定、安全感或方向的支柱／依靠」與本句語境不同。"
+        "anchor-mcq-07": "本句的「anchored to the wall」指「把某物牢牢固定在某一位置」。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-07"
     },
@@ -838,11 +794,9 @@ export default {
       "masked": "The structure is ____ in concrete.",
       "options": [
         "anchor-mcq-07",
-        "anchor-mcq-06",
-        "anchor-mcq-08",
-        "anchor-mcq-05",
-        "anchor-mcq-09",
-        "anchor-mcq-04"
+        "anchor-mcq-15",
+        "anchor-mcq-12",
+        "anchor-mcq-03"
       ],
       "explanation": "本句的「anchored」指「把某物牢牢固定在某一位置」。",
       "sentenceIndex": 15,
@@ -851,12 +805,10 @@ export default {
         "anchored"
       ],
       "optionReasons": {
-        "anchor-mcq-07": "本句指「把某物牢牢固定在某一位置」。",
-        "anchor-mcq-06": "「其他事物圍繞或參照的固定基準點」與本句語境不同。",
-        "anchor-mcq-08": "「把某物固定在另一個穩固位置」與本句語境不同。",
-        "anchor-mcq-05": "「讓人在心理或情緒上保持穩定的依靠」與本句語境不同。",
-        "anchor-mcq-09": "「使人或事物穩定、有根基」與本句語境不同。",
-        "anchor-mcq-04": "「給人穩定、安全感或方向的支柱／依靠」與本句語境不同。"
+        "anchor-mcq-07": "本句的「anchored」指「把某物牢牢固定在某一位置」。",
+        "anchor-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-07"
     },
@@ -868,11 +820,9 @@ export default {
       "masked": "The rope was ____.",
       "options": [
         "anchor-mcq-08",
-        "anchor-mcq-07",
-        "anchor-mcq-09",
-        "anchor-mcq-06",
-        "anchor-mcq-10",
-        "anchor-mcq-05"
+        "anchor-mcq-02",
+        "anchor-mcq-12",
+        "anchor-mcq-17"
       ],
       "explanation": "本句的「anchored to a post」指「把某物固定在另一個穩固位置」。",
       "sentenceIndex": 16,
@@ -881,12 +831,10 @@ export default {
         "anchored to a post"
       ],
       "optionReasons": {
-        "anchor-mcq-08": "本句指「把某物固定在另一個穩固位置」。",
-        "anchor-mcq-07": "「把某物牢牢固定在某一位置」與本句語境不同。",
-        "anchor-mcq-09": "「使人或事物穩定、有根基」與本句語境不同。",
-        "anchor-mcq-06": "「其他事物圍繞或參照的固定基準點」與本句語境不同。",
-        "anchor-mcq-10": "「牢固建立於某原則、事實或基礎上」與本句語境不同。",
-        "anchor-mcq-05": "「讓人在心理或情緒上保持穩定的依靠」與本句語境不同。"
+        "anchor-mcq-08": "本句的「anchored to a post」指「把某物固定在另一個穩固位置」。",
+        "anchor-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-08"
     },
@@ -898,11 +846,9 @@ export default {
       "masked": "The frame is ____.",
       "options": [
         "anchor-mcq-08",
-        "anchor-mcq-07",
-        "anchor-mcq-09",
-        "anchor-mcq-06",
-        "anchor-mcq-10",
-        "anchor-mcq-05"
+        "anchor-mcq-03",
+        "anchor-mcq-17",
+        "anchor-mcq-12"
       ],
       "explanation": "本句的「anchored in the ground」指「把某物固定在另一個穩固位置」。",
       "sentenceIndex": 17,
@@ -911,12 +857,10 @@ export default {
         "anchored in the ground"
       ],
       "optionReasons": {
-        "anchor-mcq-08": "本句指「把某物固定在另一個穩固位置」。",
-        "anchor-mcq-07": "「把某物牢牢固定在某一位置」與本句語境不同。",
-        "anchor-mcq-09": "「使人或事物穩定、有根基」與本句語境不同。",
-        "anchor-mcq-06": "「其他事物圍繞或參照的固定基準點」與本句語境不同。",
-        "anchor-mcq-10": "「牢固建立於某原則、事實或基礎上」與本句語境不同。",
-        "anchor-mcq-05": "「讓人在心理或情緒上保持穩定的依靠」與本句語境不同。"
+        "anchor-mcq-08": "本句的「anchored in the ground」指「把某物固定在另一個穩固位置」。",
+        "anchor-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-08"
     },
@@ -928,11 +872,9 @@ export default {
       "masked": "The routine ____ her during a difficult time.",
       "options": [
         "anchor-mcq-09",
-        "anchor-mcq-08",
-        "anchor-mcq-10",
-        "anchor-mcq-07",
-        "anchor-mcq-11",
-        "anchor-mcq-06"
+        "anchor-mcq-23",
+        "anchor-mcq-14",
+        "anchor-mcq-12"
       ],
       "explanation": "本句的「anchored」指「使人或事物穩定、有根基」。",
       "sentenceIndex": 18,
@@ -941,12 +883,10 @@ export default {
         "anchored"
       ],
       "optionReasons": {
-        "anchor-mcq-09": "本句指「使人或事物穩定、有根基」。",
-        "anchor-mcq-08": "「把某物固定在另一個穩固位置」與本句語境不同。",
-        "anchor-mcq-10": "「牢固建立於某原則、事實或基礎上」與本句語境不同。",
-        "anchor-mcq-07": "「把某物牢牢固定在某一位置」與本句語境不同。",
-        "anchor-mcq-11": "「電視／電台新聞節目的主要主播」與本句語境不同。",
-        "anchor-mcq-06": "「其他事物圍繞或參照的固定基準點」與本句語境不同。"
+        "anchor-mcq-09": "本句的「anchored」指「使人或事物穩定、有根基」。",
+        "anchor-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-09"
     },
@@ -958,11 +898,9 @@ export default {
       "masked": "The argument is ____.",
       "options": [
         "anchor-mcq-09",
-        "anchor-mcq-08",
-        "anchor-mcq-10",
-        "anchor-mcq-07",
-        "anchor-mcq-11",
-        "anchor-mcq-06"
+        "anchor-mcq-12",
+        "anchor-mcq-02",
+        "anchor-mcq-14"
       ],
       "explanation": "本句的「anchored in evidence」指「使人或事物穩定、有根基」。",
       "sentenceIndex": 19,
@@ -971,12 +909,10 @@ export default {
         "anchored in evidence"
       ],
       "optionReasons": {
-        "anchor-mcq-09": "本句指「使人或事物穩定、有根基」。",
-        "anchor-mcq-08": "「把某物固定在另一個穩固位置」與本句語境不同。",
-        "anchor-mcq-10": "「牢固建立於某原則、事實或基礎上」與本句語境不同。",
-        "anchor-mcq-07": "「把某物牢牢固定在某一位置」與本句語境不同。",
-        "anchor-mcq-11": "「電視／電台新聞節目的主要主播」與本句語境不同。",
-        "anchor-mcq-06": "「其他事物圍繞或參照的固定基準點」與本句語境不同。"
+        "anchor-mcq-09": "本句的「anchored in evidence」指「使人或事物穩定、有根基」。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-09"
     },
@@ -988,11 +924,9 @@ export default {
       "masked": "The policy is ____.",
       "options": [
         "anchor-mcq-10",
-        "anchor-mcq-09",
-        "anchor-mcq-11",
-        "anchor-mcq-08",
+        "anchor-mcq-19",
         "anchor-mcq-12",
-        "anchor-mcq-07"
+        "anchor-mcq-02"
       ],
       "explanation": "本句的「anchored in evidence」指「牢固建立於某原則、事實或基礎上」。",
       "sentenceIndex": 20,
@@ -1001,12 +935,10 @@ export default {
         "anchored in evidence"
       ],
       "optionReasons": {
-        "anchor-mcq-10": "本句指「牢固建立於某原則、事實或基礎上」。",
-        "anchor-mcq-09": "「使人或事物穩定、有根基」與本句語境不同。",
-        "anchor-mcq-11": "「電視／電台新聞節目的主要主播」與本句語境不同。",
-        "anchor-mcq-08": "「把某物固定在另一個穩固位置」與本句語境不同。",
-        "anchor-mcq-12": "「擔任節目或新聞主播／主持」與本句語境不同。",
-        "anchor-mcq-07": "「把某物牢牢固定在某一位置」與本句語境不同。"
+        "anchor-mcq-10": "本句的「anchored in evidence」指「牢固建立於某原則、事實或基礎上」。",
+        "anchor-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-10"
     },
@@ -1018,11 +950,9 @@ export default {
       "masked": "Her identity is strongly ____.",
       "options": [
         "anchor-mcq-10",
-        "anchor-mcq-09",
-        "anchor-mcq-11",
-        "anchor-mcq-08",
-        "anchor-mcq-12",
-        "anchor-mcq-07"
+        "anchor-mcq-23",
+        "anchor-mcq-05",
+        "anchor-mcq-15"
       ],
       "explanation": "本句的「anchored in her community」指「牢固建立於某原則、事實或基礎上」。",
       "sentenceIndex": 21,
@@ -1031,12 +961,10 @@ export default {
         "anchored in her community"
       ],
       "optionReasons": {
-        "anchor-mcq-10": "本句指「牢固建立於某原則、事實或基礎上」。",
-        "anchor-mcq-09": "「使人或事物穩定、有根基」與本句語境不同。",
-        "anchor-mcq-11": "「電視／電台新聞節目的主要主播」與本句語境不同。",
-        "anchor-mcq-08": "「把某物固定在另一個穩固位置」與本句語境不同。",
-        "anchor-mcq-12": "「擔任節目或新聞主播／主持」與本句語境不同。",
-        "anchor-mcq-07": "「把某物牢牢固定在某一位置」與本句語境不同。"
+        "anchor-mcq-10": "本句的「anchored in her community」指「牢固建立於某原則、事實或基礎上」。",
+        "anchor-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-10"
     },
@@ -1048,11 +976,9 @@ export default {
       "masked": "She works as a television news ____.",
       "options": [
         "anchor-mcq-11",
-        "anchor-mcq-10",
-        "anchor-mcq-12",
-        "anchor-mcq-09",
-        "anchor-mcq-13",
-        "anchor-mcq-08"
+        "anchor-mcq-07",
+        "anchor-mcq-23",
+        "anchor-mcq-05"
       ],
       "explanation": "本句的「anchor」指「電視／電台新聞節目的主要主播」。",
       "sentenceIndex": 22,
@@ -1061,12 +987,10 @@ export default {
         "anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-11": "本句指「電視／電台新聞節目的主要主播」。",
-        "anchor-mcq-10": "「牢固建立於某原則、事實或基礎上」與本句語境不同。",
-        "anchor-mcq-12": "「擔任節目或新聞主播／主持」與本句語境不同。",
-        "anchor-mcq-09": "「使人或事物穩定、有根基」與本句語境不同。",
-        "anchor-mcq-13": "「隊伍中負責最後或關鍵一段的選手」與本句語境不同。",
-        "anchor-mcq-08": "「把某物固定在另一個穩固位置」與本句語境不同。"
+        "anchor-mcq-11": "本句的「anchor」指「電視／電台新聞節目的主要主播」。",
+        "anchor-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-11"
     },
@@ -1078,11 +1002,9 @@ export default {
       "masked": "The ____ introduced the evening’s top story.",
       "options": [
         "anchor-mcq-11",
-        "anchor-mcq-10",
-        "anchor-mcq-12",
-        "anchor-mcq-09",
-        "anchor-mcq-13",
-        "anchor-mcq-08"
+        "anchor-mcq-24",
+        "anchor-mcq-20",
+        "anchor-mcq-23"
       ],
       "explanation": "本句的「anchor」指「電視／電台新聞節目的主要主播」。",
       "sentenceIndex": 23,
@@ -1091,12 +1013,10 @@ export default {
         "anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-11": "本句指「電視／電台新聞節目的主要主播」。",
-        "anchor-mcq-10": "「牢固建立於某原則、事實或基礎上」與本句語境不同。",
-        "anchor-mcq-12": "「擔任節目或新聞主播／主持」與本句語境不同。",
-        "anchor-mcq-09": "「使人或事物穩定、有根基」與本句語境不同。",
-        "anchor-mcq-13": "「隊伍中負責最後或關鍵一段的選手」與本句語境不同。",
-        "anchor-mcq-08": "「把某物固定在另一個穩固位置」與本句語境不同。"
+        "anchor-mcq-11": "本句的「anchor」指「電視／電台新聞節目的主要主播」。",
+        "anchor-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-11"
     },
@@ -1108,11 +1028,9 @@ export default {
       "masked": "He ____ the evening news.",
       "options": [
         "anchor-mcq-12",
-        "anchor-mcq-11",
-        "anchor-mcq-13",
-        "anchor-mcq-10",
-        "anchor-mcq-14",
-        "anchor-mcq-09"
+        "anchor-mcq-08",
+        "anchor-mcq-23",
+        "anchor-mcq-19"
       ],
       "explanation": "本句的「anchors」指「擔任節目或新聞主播／主持」。",
       "sentenceIndex": 24,
@@ -1121,12 +1039,10 @@ export default {
         "anchors"
       ],
       "optionReasons": {
-        "anchor-mcq-12": "本句指「擔任節目或新聞主播／主持」。",
-        "anchor-mcq-11": "「電視／電台新聞節目的主要主播」與本句語境不同。",
-        "anchor-mcq-13": "「隊伍中負責最後或關鍵一段的選手」與本句語境不同。",
-        "anchor-mcq-10": "「牢固建立於某原則、事實或基礎上」與本句語境不同。",
-        "anchor-mcq-14": "「接力賽中的最後一棒」與本句語境不同。",
-        "anchor-mcq-09": "「使人或事物穩定、有根基」與本句語境不同。"
+        "anchor-mcq-12": "本句的「anchors」指「擔任節目或新聞主播／主持」。",
+        "anchor-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-12"
     },
@@ -1138,11 +1054,9 @@ export default {
       "masked": "She ____ the programme for ten years.",
       "options": [
         "anchor-mcq-12",
-        "anchor-mcq-11",
-        "anchor-mcq-13",
-        "anchor-mcq-10",
-        "anchor-mcq-14",
-        "anchor-mcq-09"
+        "anchor-mcq-17",
+        "anchor-mcq-03",
+        "anchor-mcq-23"
       ],
       "explanation": "本句的「anchored」指「擔任節目或新聞主播／主持」。",
       "sentenceIndex": 25,
@@ -1151,12 +1065,10 @@ export default {
         "anchored"
       ],
       "optionReasons": {
-        "anchor-mcq-12": "本句指「擔任節目或新聞主播／主持」。",
-        "anchor-mcq-11": "「電視／電台新聞節目的主要主播」與本句語境不同。",
-        "anchor-mcq-13": "「隊伍中負責最後或關鍵一段的選手」與本句語境不同。",
-        "anchor-mcq-10": "「牢固建立於某原則、事實或基礎上」與本句語境不同。",
-        "anchor-mcq-14": "「接力賽中的最後一棒」與本句語境不同。",
-        "anchor-mcq-09": "「使人或事物穩定、有根基」與本句語境不同。"
+        "anchor-mcq-12": "本句的「anchored」指「擔任節目或新聞主播／主持」。",
+        "anchor-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-12"
     },
@@ -1168,11 +1080,9 @@ export default {
       "masked": "She ran the ____ of the relay.",
       "options": [
         "anchor-mcq-14",
-        "anchor-mcq-13",
-        "anchor-mcq-15",
+        "anchor-mcq-08",
         "anchor-mcq-12",
-        "anchor-mcq-16",
-        "anchor-mcq-11"
+        "anchor-mcq-17"
       ],
       "explanation": "本句的「anchor leg」指「接力賽中的最後一棒」。",
       "sentenceIndex": 26,
@@ -1181,12 +1091,10 @@ export default {
         "anchor leg"
       ],
       "optionReasons": {
-        "anchor-mcq-14": "本句指「接力賽中的最後一棒」。",
-        "anchor-mcq-13": "「隊伍中負責最後或關鍵一段的選手」與本句語境不同。",
-        "anchor-mcq-15": "「商場中吸引大量客流的主力店／核心租戶」與本句語境不同。",
-        "anchor-mcq-12": "「擔任節目或新聞主播／主持」與本句語境不同。",
-        "anchor-mcq-16": "「網頁內用作連結目標或定位的錨點」與本句語境不同。",
-        "anchor-mcq-11": "「電視／電台新聞節目的主要主播」與本句語境不同。"
+        "anchor-mcq-14": "本句的「anchor leg」指「接力賽中的最後一棒」。",
+        "anchor-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-14"
     },
@@ -1198,11 +1106,9 @@ export default {
       "masked": "He was chosen as the team’s ____.",
       "options": [
         "anchor-mcq-14",
-        "anchor-mcq-13",
-        "anchor-mcq-15",
-        "anchor-mcq-12",
-        "anchor-mcq-16",
-        "anchor-mcq-11"
+        "anchor-mcq-10",
+        "anchor-mcq-09",
+        "anchor-mcq-03"
       ],
       "explanation": "本句的「anchor」指「接力賽中的最後一棒」。",
       "sentenceIndex": 27,
@@ -1211,12 +1117,10 @@ export default {
         "anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-14": "本句指「接力賽中的最後一棒」。",
-        "anchor-mcq-13": "「隊伍中負責最後或關鍵一段的選手」與本句語境不同。",
-        "anchor-mcq-15": "「商場中吸引大量客流的主力店／核心租戶」與本句語境不同。",
-        "anchor-mcq-12": "「擔任節目或新聞主播／主持」與本句語境不同。",
-        "anchor-mcq-16": "「網頁內用作連結目標或定位的錨點」與本句語境不同。",
-        "anchor-mcq-11": "「電視／電台新聞節目的主要主播」與本句語境不同。"
+        "anchor-mcq-14": "本句的「anchor」指「接力賽中的最後一棒」。",
+        "anchor-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-14"
     },
@@ -1228,11 +1132,9 @@ export default {
       "masked": "She ran an excellent ____.",
       "options": [
         "anchor-mcq-14",
-        "anchor-mcq-13",
-        "anchor-mcq-15",
-        "anchor-mcq-12",
-        "anchor-mcq-16",
-        "anchor-mcq-11"
+        "anchor-mcq-11",
+        "anchor-mcq-10",
+        "anchor-mcq-02"
       ],
       "explanation": "本句的「anchor leg」指「接力賽中的最後一棒」。",
       "sentenceIndex": 28,
@@ -1241,12 +1143,10 @@ export default {
         "anchor leg"
       ],
       "optionReasons": {
-        "anchor-mcq-14": "本句指「接力賽中的最後一棒」。",
-        "anchor-mcq-13": "「隊伍中負責最後或關鍵一段的選手」與本句語境不同。",
-        "anchor-mcq-15": "「商場中吸引大量客流的主力店／核心租戶」與本句語境不同。",
-        "anchor-mcq-12": "「擔任節目或新聞主播／主持」與本句語境不同。",
-        "anchor-mcq-16": "「網頁內用作連結目標或定位的錨點」與本句語境不同。",
-        "anchor-mcq-11": "「電視／電台新聞節目的主要主播」與本句語境不同。"
+        "anchor-mcq-14": "本句的「anchor leg」指「接力賽中的最後一棒」。",
+        "anchor-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-14"
     },
@@ -1258,11 +1158,9 @@ export default {
       "masked": "The team saved its fastest runner for the ____.",
       "options": [
         "anchor-mcq-14",
-        "anchor-mcq-13",
-        "anchor-mcq-15",
+        "anchor-mcq-09",
         "anchor-mcq-12",
-        "anchor-mcq-16",
-        "anchor-mcq-11"
+        "anchor-mcq-03"
       ],
       "explanation": "本句的「anchor leg」指「接力賽中的最後一棒」。",
       "sentenceIndex": 29,
@@ -1271,12 +1169,10 @@ export default {
         "anchor leg"
       ],
       "optionReasons": {
-        "anchor-mcq-14": "本句指「接力賽中的最後一棒」。",
-        "anchor-mcq-13": "「隊伍中負責最後或關鍵一段的選手」與本句語境不同。",
-        "anchor-mcq-15": "「商場中吸引大量客流的主力店／核心租戶」與本句語境不同。",
-        "anchor-mcq-12": "「擔任節目或新聞主播／主持」與本句語境不同。",
-        "anchor-mcq-16": "「網頁內用作連結目標或定位的錨點」與本句語境不同。",
-        "anchor-mcq-11": "「電視／電台新聞節目的主要主播」與本句語境不同。"
+        "anchor-mcq-14": "本句的「anchor leg」指「接力賽中的最後一棒」。",
+        "anchor-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-14"
     },
@@ -1288,11 +1184,9 @@ export default {
       "masked": "The department store is the mall’s ____.",
       "options": [
         "anchor-mcq-15",
-        "anchor-mcq-14",
-        "anchor-mcq-16",
-        "anchor-mcq-13",
-        "anchor-mcq-17",
-        "anchor-mcq-12"
+        "anchor-mcq-10",
+        "anchor-mcq-03",
+        "anchor-mcq-23"
       ],
       "explanation": "本句的「anchor tenant」指「商場中吸引大量客流的主力店／核心租戶」。",
       "sentenceIndex": 30,
@@ -1301,12 +1195,10 @@ export default {
         "anchor tenant"
       ],
       "optionReasons": {
-        "anchor-mcq-15": "本句指「商場中吸引大量客流的主力店／核心租戶」。",
-        "anchor-mcq-14": "「接力賽中的最後一棒」與本句語境不同。",
-        "anchor-mcq-16": "「網頁內用作連結目標或定位的錨點」與本句語境不同。",
-        "anchor-mcq-13": "「隊伍中負責最後或關鍵一段的選手」與本句語境不同。",
-        "anchor-mcq-17": "「超連結中可點擊的顯示文字」與本句語境不同。",
-        "anchor-mcq-12": "「擔任節目或新聞主播／主持」與本句語境不同。"
+        "anchor-mcq-15": "本句的「anchor tenant」指「商場中吸引大量客流的主力店／核心租戶」。",
+        "anchor-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-15"
     },
@@ -1318,11 +1210,9 @@ export default {
       "masked": "The centre lost one of its main ____.",
       "options": [
         "anchor-mcq-15",
-        "anchor-mcq-14",
-        "anchor-mcq-16",
-        "anchor-mcq-13",
-        "anchor-mcq-17",
-        "anchor-mcq-12"
+        "anchor-mcq-24",
+        "anchor-mcq-20",
+        "anchor-mcq-03"
       ],
       "explanation": "本句的「anchor stores」指「商場中吸引大量客流的主力店／核心租戶」。",
       "sentenceIndex": 31,
@@ -1331,12 +1221,10 @@ export default {
         "anchor stores"
       ],
       "optionReasons": {
-        "anchor-mcq-15": "本句指「商場中吸引大量客流的主力店／核心租戶」。",
-        "anchor-mcq-14": "「接力賽中的最後一棒」與本句語境不同。",
-        "anchor-mcq-16": "「網頁內用作連結目標或定位的錨點」與本句語境不同。",
-        "anchor-mcq-13": "「隊伍中負責最後或關鍵一段的選手」與本句語境不同。",
-        "anchor-mcq-17": "「超連結中可點擊的顯示文字」與本句語境不同。",
-        "anchor-mcq-12": "「擔任節目或新聞主播／主持」與本句語境不同。"
+        "anchor-mcq-15": "本句的「anchor stores」指「商場中吸引大量客流的主力店／核心租戶」。",
+        "anchor-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-15"
     },
@@ -1348,11 +1236,9 @@ export default {
       "masked": "Use descriptive ____.",
       "options": [
         "anchor-mcq-17",
-        "anchor-mcq-16",
-        "anchor-mcq-18",
-        "anchor-mcq-15",
-        "anchor-mcq-19",
-        "anchor-mcq-14"
+        "anchor-mcq-11",
+        "anchor-mcq-14",
+        "anchor-mcq-10"
       ],
       "explanation": "本句的「anchor text」指「超連結中可點擊的顯示文字」。",
       "sentenceIndex": 34,
@@ -1361,12 +1247,10 @@ export default {
         "anchor text"
       ],
       "optionReasons": {
-        "anchor-mcq-17": "本句指「超連結中可點擊的顯示文字」。",
-        "anchor-mcq-16": "「網頁內用作連結目標或定位的錨點」與本句語境不同。",
-        "anchor-mcq-18": "「影響後續判斷的初始基準值／錨點」與本句語境不同。",
-        "anchor-mcq-15": "「商場中吸引大量客流的主力店／核心租戶」與本句語境不同。",
-        "anchor-mcq-19": "「判斷過度受到最初資訊影響的錨定效應／偏誤」與本句語境不同。",
-        "anchor-mcq-14": "「接力賽中的最後一棒」與本句語境不同。"
+        "anchor-mcq-17": "本句的「anchor text」指「超連結中可點擊的顯示文字」。",
+        "anchor-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-17"
     },
@@ -1378,11 +1262,9 @@ export default {
       "masked": "The ____ should clearly indicate the destination.",
       "options": [
         "anchor-mcq-17",
-        "anchor-mcq-16",
-        "anchor-mcq-18",
+        "anchor-mcq-05",
         "anchor-mcq-15",
-        "anchor-mcq-19",
-        "anchor-mcq-14"
+        "anchor-mcq-23"
       ],
       "explanation": "本句的「anchor text」指「超連結中可點擊的顯示文字」。",
       "sentenceIndex": 35,
@@ -1391,12 +1273,10 @@ export default {
         "anchor text"
       ],
       "optionReasons": {
-        "anchor-mcq-17": "本句指「超連結中可點擊的顯示文字」。",
-        "anchor-mcq-16": "「網頁內用作連結目標或定位的錨點」與本句語境不同。",
-        "anchor-mcq-18": "「影響後續判斷的初始基準值／錨點」與本句語境不同。",
-        "anchor-mcq-15": "「商場中吸引大量客流的主力店／核心租戶」與本句語境不同。",
-        "anchor-mcq-19": "「判斷過度受到最初資訊影響的錨定效應／偏誤」與本句語境不同。",
-        "anchor-mcq-14": "「接力賽中的最後一棒」與本句語境不同。"
+        "anchor-mcq-17": "本句的「anchor text」指「超連結中可點擊的顯示文字」。",
+        "anchor-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-17"
     },
@@ -1408,11 +1288,9 @@ export default {
       "masked": "____ can affect price negotiations.",
       "options": [
         "anchor-mcq-19",
-        "anchor-mcq-18",
-        "anchor-mcq-20",
-        "anchor-mcq-17",
-        "anchor-mcq-21",
-        "anchor-mcq-16"
+        "anchor-mcq-15",
+        "anchor-mcq-12",
+        "anchor-mcq-10"
       ],
       "explanation": "本句的「Anchoring」指「判斷過度受到最初資訊影響的錨定效應／偏誤」。",
       "sentenceIndex": 38,
@@ -1421,12 +1299,10 @@ export default {
         "Anchoring"
       ],
       "optionReasons": {
-        "anchor-mcq-19": "本句指「判斷過度受到最初資訊影響的錨定效應／偏誤」。",
-        "anchor-mcq-18": "「影響後續判斷的初始基準值／錨點」與本句語境不同。",
-        "anchor-mcq-20": "「用來把結構固定在基座上的錨栓／地腳螺栓」與本句語境不同。",
-        "anchor-mcq-17": "「超連結中可點擊的顯示文字」與本句語境不同。",
-        "anchor-mcq-21": "「被牢牢固定；亦可指穩定或建立在某基礎上」與本句語境不同。",
-        "anchor-mcq-16": "「網頁內用作連結目標或定位的錨點」與本句語境不同。"
+        "anchor-mcq-19": "本句的「Anchoring」指「判斷過度受到最初資訊影響的錨定效應／偏誤」。",
+        "anchor-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-19"
     },
@@ -1438,11 +1314,9 @@ export default {
       "masked": "The experiment demonstrated ____.",
       "options": [
         "anchor-mcq-19",
-        "anchor-mcq-18",
-        "anchor-mcq-20",
-        "anchor-mcq-17",
-        "anchor-mcq-21",
-        "anchor-mcq-16"
+        "anchor-mcq-11",
+        "anchor-mcq-10",
+        "anchor-mcq-14"
       ],
       "explanation": "本句的「anchoring bias」指「判斷過度受到最初資訊影響的錨定效應／偏誤」。",
       "sentenceIndex": 39,
@@ -1451,12 +1325,10 @@ export default {
         "anchoring bias"
       ],
       "optionReasons": {
-        "anchor-mcq-19": "本句指「判斷過度受到最初資訊影響的錨定效應／偏誤」。",
-        "anchor-mcq-18": "「影響後續判斷的初始基準值／錨點」與本句語境不同。",
-        "anchor-mcq-20": "「用來把結構固定在基座上的錨栓／地腳螺栓」與本句語境不同。",
-        "anchor-mcq-17": "「超連結中可點擊的顯示文字」與本句語境不同。",
-        "anchor-mcq-21": "「被牢牢固定；亦可指穩定或建立在某基礎上」與本句語境不同。",
-        "anchor-mcq-16": "「網頁內用作連結目標或定位的錨點」與本句語境不同。"
+        "anchor-mcq-19": "本句的「anchoring bias」指「判斷過度受到最初資訊影響的錨定效應／偏誤」。",
+        "anchor-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-19"
     },
@@ -1468,11 +1340,9 @@ export default {
       "masked": "The frame is secured with ____.",
       "options": [
         "anchor-mcq-20",
-        "anchor-mcq-19",
-        "anchor-mcq-21",
-        "anchor-mcq-18",
-        "anchor-mcq-22",
-        "anchor-mcq-17"
+        "anchor-mcq-15",
+        "anchor-mcq-14",
+        "anchor-mcq-12"
       ],
       "explanation": "本句的「anchor bolts」指「用來把結構固定在基座上的錨栓／地腳螺栓」。",
       "sentenceIndex": 40,
@@ -1481,12 +1351,10 @@ export default {
         "anchor bolts"
       ],
       "optionReasons": {
-        "anchor-mcq-20": "本句指「用來把結構固定在基座上的錨栓／地腳螺栓」。",
-        "anchor-mcq-19": "「判斷過度受到最初資訊影響的錨定效應／偏誤」與本句語境不同。",
-        "anchor-mcq-21": "「被牢牢固定；亦可指穩定或建立在某基礎上」與本句語境不同。",
-        "anchor-mcq-18": "「影響後續判斷的初始基準值／錨點」與本句語境不同。",
-        "anchor-mcq-22": "「船隻停泊的錨地；也可指結構的錨固點」與本句語境不同。",
-        "anchor-mcq-17": "「超連結中可點擊的顯示文字」與本句語境不同。"
+        "anchor-mcq-20": "本句的「anchor bolts」指「用來把結構固定在基座上的錨栓／地腳螺栓」。",
+        "anchor-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-20"
     },
@@ -1498,11 +1366,9 @@ export default {
       "masked": "The ____ were embedded in concrete.",
       "options": [
         "anchor-mcq-20",
-        "anchor-mcq-19",
-        "anchor-mcq-21",
-        "anchor-mcq-18",
-        "anchor-mcq-22",
-        "anchor-mcq-17"
+        "anchor-mcq-12",
+        "anchor-mcq-14",
+        "anchor-mcq-15"
       ],
       "explanation": "本句的「anchor bolts」指「用來把結構固定在基座上的錨栓／地腳螺栓」。",
       "sentenceIndex": 41,
@@ -1511,12 +1377,10 @@ export default {
         "anchor bolts"
       ],
       "optionReasons": {
-        "anchor-mcq-20": "本句指「用來把結構固定在基座上的錨栓／地腳螺栓」。",
-        "anchor-mcq-19": "「判斷過度受到最初資訊影響的錨定效應／偏誤」與本句語境不同。",
-        "anchor-mcq-21": "「被牢牢固定；亦可指穩定或建立在某基礎上」與本句語境不同。",
-        "anchor-mcq-18": "「影響後續判斷的初始基準值／錨點」與本句語境不同。",
-        "anchor-mcq-22": "「船隻停泊的錨地；也可指結構的錨固點」與本句語境不同。",
-        "anchor-mcq-17": "「超連結中可點擊的顯示文字」與本句語境不同。"
+        "anchor-mcq-20": "本句的「anchor bolts」指「用來把結構固定在基座上的錨栓／地腳螺栓」。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-20"
     },
@@ -1528,11 +1392,9 @@ export default {
       "masked": "The boat remained ____ offshore.",
       "options": [
         "anchor-mcq-21",
-        "anchor-mcq-20",
-        "anchor-mcq-22",
-        "anchor-mcq-19",
-        "anchor-mcq-23",
-        "anchor-mcq-18"
+        "anchor-mcq-11",
+        "anchor-mcq-14",
+        "anchor-mcq-17"
       ],
       "explanation": "本句的「anchored」指「被牢牢固定；亦可指穩定或建立在某基礎上」。",
       "sentenceIndex": 42,
@@ -1541,12 +1403,10 @@ export default {
         "anchored"
       ],
       "optionReasons": {
-        "anchor-mcq-21": "本句指「被牢牢固定；亦可指穩定或建立在某基礎上」。",
-        "anchor-mcq-20": "「用來把結構固定在基座上的錨栓／地腳螺栓」與本句語境不同。",
-        "anchor-mcq-22": "「船隻停泊的錨地；也可指結構的錨固點」與本句語境不同。",
-        "anchor-mcq-19": "「判斷過度受到最初資訊影響的錨定效應／偏誤」與本句語境不同。",
-        "anchor-mcq-23": "「船隻已下錨並停泊」與本句語境不同。",
-        "anchor-mcq-18": "「影響後續判斷的初始基準值／錨點」與本句語境不同。"
+        "anchor-mcq-21": "本句的「anchored」指「被牢牢固定；亦可指穩定或建立在某基礎上」。",
+        "anchor-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-21"
     },
@@ -1558,11 +1418,9 @@ export default {
       "masked": "Her argument was firmly ____.",
       "options": [
         "anchor-mcq-21",
-        "anchor-mcq-20",
-        "anchor-mcq-22",
-        "anchor-mcq-19",
-        "anchor-mcq-23",
-        "anchor-mcq-18"
+        "anchor-mcq-14",
+        "anchor-mcq-12",
+        "anchor-mcq-02"
       ],
       "explanation": "本句的「anchored in fact」指「被牢牢固定；亦可指穩定或建立在某基礎上」。",
       "sentenceIndex": 43,
@@ -1571,12 +1429,10 @@ export default {
         "anchored in fact"
       ],
       "optionReasons": {
-        "anchor-mcq-21": "本句指「被牢牢固定；亦可指穩定或建立在某基礎上」。",
-        "anchor-mcq-20": "「用來把結構固定在基座上的錨栓／地腳螺栓」與本句語境不同。",
-        "anchor-mcq-22": "「船隻停泊的錨地；也可指結構的錨固點」與本句語境不同。",
-        "anchor-mcq-19": "「判斷過度受到最初資訊影響的錨定效應／偏誤」與本句語境不同。",
-        "anchor-mcq-23": "「船隻已下錨並停泊」與本句語境不同。",
-        "anchor-mcq-18": "「影響後續判斷的初始基準值／錨點」與本句語境不同。"
+        "anchor-mcq-21": "本句的「anchored in fact」指「被牢牢固定；亦可指穩定或建立在某基礎上」。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-21"
     },
@@ -1588,11 +1444,9 @@ export default {
       "masked": "We ____ in the bay.",
       "options": [
         "anchor-mcq-23",
-        "anchor-mcq-22",
-        "anchor-mcq-24",
-        "anchor-mcq-21",
-        "anchor-mcq-20",
-        "anchor-mcq-19"
+        "anchor-mcq-07",
+        "anchor-mcq-04",
+        "anchor-mcq-17"
       ],
       "explanation": "本句的「dropped anchor」指「船隻已下錨並停泊」。",
       "sentenceIndex": 44,
@@ -1601,12 +1455,10 @@ export default {
         "dropped anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-23": "本句指「船隻已下錨並停泊」。",
-        "anchor-mcq-22": "「船隻停泊的錨地；也可指結構的錨固點」與本句語境不同。",
-        "anchor-mcq-24": "「使某人與某個穩定的人、地方或現實保持連結」與本句語境不同。",
-        "anchor-mcq-21": "「被牢牢固定；亦可指穩定或建立在某基礎上」與本句語境不同。",
-        "anchor-mcq-20": "「用來把結構固定在基座上的錨栓／地腳螺栓」與本句語境不同。",
-        "anchor-mcq-19": "「判斷過度受到最初資訊影響的錨定效應／偏誤」與本句語境不同。"
+        "anchor-mcq-23": "本句的「dropped anchor」指「船隻已下錨並停泊」。",
+        "anchor-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-23"
     },
@@ -1618,11 +1470,9 @@ export default {
       "masked": "The boat ____ before dark.",
       "options": [
         "anchor-mcq-23",
-        "anchor-mcq-22",
         "anchor-mcq-24",
-        "anchor-mcq-21",
-        "anchor-mcq-20",
-        "anchor-mcq-19"
+        "anchor-mcq-11",
+        "anchor-mcq-14"
       ],
       "explanation": "本句的「dropped anchor」指「船隻已下錨並停泊」。",
       "sentenceIndex": 45,
@@ -1631,12 +1481,10 @@ export default {
         "dropped anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-23": "本句指「船隻已下錨並停泊」。",
-        "anchor-mcq-22": "「船隻停泊的錨地；也可指結構的錨固點」與本句語境不同。",
-        "anchor-mcq-24": "「使某人與某個穩定的人、地方或現實保持連結」與本句語境不同。",
-        "anchor-mcq-21": "「被牢牢固定；亦可指穩定或建立在某基礎上」與本句語境不同。",
-        "anchor-mcq-20": "「用來把結構固定在基座上的錨栓／地腳螺栓」與本句語境不同。",
-        "anchor-mcq-19": "「判斷過度受到最初資訊影響的錨定效應／偏誤」與本句語境不同。"
+        "anchor-mcq-23": "本句的「dropped anchor」指「船隻已下錨並停泊」。",
+        "anchor-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-23"
     },
@@ -1648,11 +1496,9 @@ export default {
       "masked": "Several boats were ____.",
       "options": [
         "anchor-mcq-23",
-        "anchor-mcq-22",
-        "anchor-mcq-24",
-        "anchor-mcq-21",
-        "anchor-mcq-20",
-        "anchor-mcq-19"
+        "anchor-mcq-14",
+        "anchor-mcq-08",
+        "anchor-mcq-11"
       ],
       "explanation": "本句的「at anchor」指「船隻已下錨並停泊」。",
       "sentenceIndex": 46,
@@ -1661,12 +1507,10 @@ export default {
         "at anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-23": "本句指「船隻已下錨並停泊」。",
-        "anchor-mcq-22": "「船隻停泊的錨地；也可指結構的錨固點」與本句語境不同。",
-        "anchor-mcq-24": "「使某人與某個穩定的人、地方或現實保持連結」與本句語境不同。",
-        "anchor-mcq-21": "「被牢牢固定；亦可指穩定或建立在某基礎上」與本句語境不同。",
-        "anchor-mcq-20": "「用來把結構固定在基座上的錨栓／地腳螺栓」與本句語境不同。",
-        "anchor-mcq-19": "「判斷過度受到最初資訊影響的錨定效應／偏誤」與本句語境不同。"
+        "anchor-mcq-23": "本句的「at anchor」指「船隻已下錨並停泊」。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-23"
     },
@@ -1678,11 +1522,9 @@ export default {
       "masked": "The vessel remained ____ overnight.",
       "options": [
         "anchor-mcq-23",
-        "anchor-mcq-22",
-        "anchor-mcq-24",
-        "anchor-mcq-21",
-        "anchor-mcq-20",
-        "anchor-mcq-19"
+        "anchor-mcq-17",
+        "anchor-mcq-08",
+        "anchor-mcq-11"
       ],
       "explanation": "本句的「at anchor」指「船隻已下錨並停泊」。",
       "sentenceIndex": 47,
@@ -1691,12 +1533,10 @@ export default {
         "at anchor"
       ],
       "optionReasons": {
-        "anchor-mcq-23": "本句指「船隻已下錨並停泊」。",
-        "anchor-mcq-22": "「船隻停泊的錨地；也可指結構的錨固點」與本句語境不同。",
-        "anchor-mcq-24": "「使某人與某個穩定的人、地方或現實保持連結」與本句語境不同。",
-        "anchor-mcq-21": "「被牢牢固定；亦可指穩定或建立在某基礎上」與本句語境不同。",
-        "anchor-mcq-20": "「用來把結構固定在基座上的錨栓／地腳螺栓」與本句語境不同。",
-        "anchor-mcq-19": "「判斷過度受到最初資訊影響的錨定效應／偏誤」與本句語境不同。"
+        "anchor-mcq-23": "本句的「at anchor」指「船隻已下錨並停泊」。",
+        "anchor-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-23"
     },
@@ -1709,10 +1549,8 @@ export default {
       "options": [
         "anchor-mcq-24",
         "anchor-mcq-23",
-        "anchor-mcq-22",
-        "anchor-mcq-21",
-        "anchor-mcq-20",
-        "anchor-mcq-19"
+        "anchor-mcq-14",
+        "anchor-mcq-11"
       ],
       "explanation": "本句的「anchored him to the community」指「使某人與某個穩定的人、地方或現實保持連結」。",
       "sentenceIndex": 48,
@@ -1721,12 +1559,10 @@ export default {
         "anchored him to the community"
       ],
       "optionReasons": {
-        "anchor-mcq-24": "本句指「使某人與某個穩定的人、地方或現實保持連結」。",
-        "anchor-mcq-23": "「船隻已下錨並停泊」與本句語境不同。",
-        "anchor-mcq-22": "「船隻停泊的錨地；也可指結構的錨固點」與本句語境不同。",
-        "anchor-mcq-21": "「被牢牢固定；亦可指穩定或建立在某基礎上」與本句語境不同。",
-        "anchor-mcq-20": "「用來把結構固定在基座上的錨栓／地腳螺栓」與本句語境不同。",
-        "anchor-mcq-19": "「判斷過度受到最初資訊影響的錨定效應／偏誤」與本句語境不同。"
+        "anchor-mcq-24": "本句的「anchored him to the community」指「使某人與某個穩定的人、地方或現實保持連結」。",
+        "anchor-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-24"
     },
@@ -1738,11 +1574,9 @@ export default {
       "masked": "Daily routines ____.",
       "options": [
         "anchor-mcq-24",
-        "anchor-mcq-23",
-        "anchor-mcq-22",
-        "anchor-mcq-21",
-        "anchor-mcq-20",
-        "anchor-mcq-19"
+        "anchor-mcq-11",
+        "anchor-mcq-02",
+        "anchor-mcq-14"
       ],
       "explanation": "本句的「anchored her to the present」指「使某人與某個穩定的人、地方或現實保持連結」。",
       "sentenceIndex": 49,
@@ -1751,12 +1585,10 @@ export default {
         "anchored her to the present"
       ],
       "optionReasons": {
-        "anchor-mcq-24": "本句指「使某人與某個穩定的人、地方或現實保持連結」。",
-        "anchor-mcq-23": "「船隻已下錨並停泊」與本句語境不同。",
-        "anchor-mcq-22": "「船隻停泊的錨地；也可指結構的錨固點」與本句語境不同。",
-        "anchor-mcq-21": "「被牢牢固定；亦可指穩定或建立在某基礎上」與本句語境不同。",
-        "anchor-mcq-20": "「用來把結構固定在基座上的錨栓／地腳螺栓」與本句語境不同。",
-        "anchor-mcq-19": "「判斷過度受到最初資訊影響的錨定效應／偏誤」與本句語境不同。"
+        "anchor-mcq-24": "本句的「anchored her to the present」指「使某人與某個穩定的人、地方或現實保持連結」。",
+        "anchor-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "anchor-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anchor-mcq-24"
     }
@@ -1768,5 +1600,7 @@ export default {
     "sha256": "1cc9f62a53beda18cfe358a94dd1bfcede68b7fcfe77b3b9098ed2e06ec9cbe3",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

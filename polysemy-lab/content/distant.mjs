@@ -424,7 +424,7 @@ export default {
     },
     {
       "id": "distant-mcq-21",
-      "title": "表示遙遠地；冷淡地",
+      "title": "遙遠地；冷淡地",
       "form": "17. distantly",
       "en": "17. distantly",
       "zh": "表示遙遠地；冷淡地",
@@ -454,11 +454,9 @@ export default {
       "masked": "The characters never feel emotionally ____.",
       "options": [
         "distant-mcq-20",
-        "distant-mcq-19",
-        "distant-mcq-21",
-        "distant-mcq-18",
-        "distant-mcq-17",
-        "distant-mcq-16"
+        "distant-mcq-08",
+        "distant-mcq-13",
+        "distant-mcq-21"
       ],
       "explanation": "本句的「distant」指「有距離感的；疏離的；難以產生共鳴的」。",
       "sentenceIndex": 0,
@@ -467,12 +465,10 @@ export default {
         "distant"
       ],
       "optionReasons": {
-        "distant-mcq-20": "本句指「有距離感的；疏離的；難以產生共鳴的」。",
-        "distant-mcq-19": "「隔著一段距離；亦可指保持情感／立場上的距離」是「at a distance」的用法，與本句語境不同。",
-        "distant-mcq-21": "「表示遙遠地；冷淡地」是「17. distantly」的用法，與本句語境不同。",
-        "distant-mcq-18": "「從遠處」是「from a distance」的用法，與本句語境不同。",
-        "distant-mcq-17": "「保持身體或情感上的距離」是「keep your distance」的用法，與本句語境不同。",
-        "distant-mcq-16": "「主動與某人／某事保持關係或立場上的距離」是「distance yourself from」的用法，與本句語境不同。"
+        "distant-mcq-20": "本句的「distant」指「有距離感的；疏離的；難以產生共鳴的」。",
+        "distant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-20"
     },
@@ -484,11 +480,9 @@ export default {
       "masked": "Although the idea is unusual, the story does not feel ____ from real life.",
       "options": [
         "distant-mcq-20",
-        "distant-mcq-19",
-        "distant-mcq-21",
-        "distant-mcq-18",
-        "distant-mcq-17",
-        "distant-mcq-16"
+        "distant-mcq-04",
+        "distant-mcq-12",
+        "distant-mcq-13"
       ],
       "explanation": "本句的「distant」指「有距離感的；疏離的；難以產生共鳴的」。",
       "sentenceIndex": 1,
@@ -497,12 +491,10 @@ export default {
         "distant"
       ],
       "optionReasons": {
-        "distant-mcq-20": "本句指「有距離感的；疏離的；難以產生共鳴的」。",
-        "distant-mcq-19": "「隔著一段距離；亦可指保持情感／立場上的距離」是「at a distance」的用法，與本句語境不同。",
-        "distant-mcq-21": "「表示遙遠地；冷淡地」是「17. distantly」的用法，與本句語境不同。",
-        "distant-mcq-18": "「從遠處」是「from a distance」的用法，與本句語境不同。",
-        "distant-mcq-17": "「保持身體或情感上的距離」是「keep your distance」的用法，與本句語境不同。",
-        "distant-mcq-16": "「主動與某人／某事保持關係或立場上的距離」是「distance yourself from」的用法，與本句語境不同。"
+        "distant-mcq-20": "本句的「distant」指「有距離感的；疏離的；難以產生共鳴的」。",
+        "distant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-20"
     },
@@ -514,11 +506,9 @@ export default {
       "masked": "We could see ____.",
       "options": [
         "distant-mcq-01",
-        "distant-mcq-02",
-        "distant-mcq-03",
-        "distant-mcq-04",
-        "distant-mcq-05",
-        "distant-mcq-06"
+        "distant-mcq-12",
+        "distant-mcq-06",
+        "distant-mcq-13"
       ],
       "explanation": "本句的「distant mountains」指「在空間上離得很遠的；遙遠的」。",
       "sentenceIndex": 2,
@@ -527,12 +517,10 @@ export default {
         "distant mountains"
       ],
       "optionReasons": {
-        "distant-mcq-01": "本句指「在空間上離得很遠的；遙遠的」。",
-        "distant-mcq-02": "「與某地相距很遠」是「distant from somewhere」的用法，與本句語境不同。",
-        "distant-mcq-03": "「距離現在很久以前／以後的；久遠的」是「distant — temporal」的用法，與本句語境不同。",
-        "distant-mcq-04": "「久遠的過去／遙遠的未來」是「distant past/future」的用法，與本句語境不同。",
-        "distant-mcq-05": "「缺乏親近感或情感交流的；疏離／冷淡的」是「distant — emotionally detached」的用法，與本句語境不同。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。"
+        "distant-mcq-01": "本句的「distant mountains」指「在空間上離得很遠的；遙遠的」。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-01"
     },
@@ -544,11 +532,9 @@ export default {
       "masked": "A ____ appeared on the horizon.",
       "options": [
         "distant-mcq-01",
-        "distant-mcq-02",
-        "distant-mcq-03",
-        "distant-mcq-04",
-        "distant-mcq-05",
-        "distant-mcq-06"
+        "distant-mcq-13",
+        "distant-mcq-06",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「distant light」指「在空間上離得很遠的；遙遠的」。",
       "sentenceIndex": 3,
@@ -557,12 +543,10 @@ export default {
         "distant light"
       ],
       "optionReasons": {
-        "distant-mcq-01": "本句指「在空間上離得很遠的；遙遠的」。",
-        "distant-mcq-02": "「與某地相距很遠」是「distant from somewhere」的用法，與本句語境不同。",
-        "distant-mcq-03": "「距離現在很久以前／以後的；久遠的」是「distant — temporal」的用法，與本句語境不同。",
-        "distant-mcq-04": "「久遠的過去／遙遠的未來」是「distant past/future」的用法，與本句語境不同。",
-        "distant-mcq-05": "「缺乏親近感或情感交流的；疏離／冷淡的」是「distant — emotionally detached」的用法，與本句語境不同。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。"
+        "distant-mcq-01": "本句的「distant light」指「在空間上離得很遠的；遙遠的」。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-01"
     },
@@ -574,10 +558,8 @@ export default {
       "masked": "The village is ____.",
       "options": [
         "distant-mcq-02",
-        "distant-mcq-01",
-        "distant-mcq-03",
-        "distant-mcq-04",
-        "distant-mcq-05",
+        "distant-mcq-13",
+        "distant-mcq-12",
         "distant-mcq-06"
       ],
       "explanation": "本句的「distant from the city」指「與某地相距很遠」。",
@@ -587,12 +569,10 @@ export default {
         "distant from the city"
       ],
       "optionReasons": {
-        "distant-mcq-02": "本句指「與某地相距很遠」。",
-        "distant-mcq-01": "「在空間上離得很遠的；遙遠的」是「distant — spatial」的用法，與本句語境不同。",
-        "distant-mcq-03": "「距離現在很久以前／以後的；久遠的」是「distant — temporal」的用法，與本句語境不同。",
-        "distant-mcq-04": "「久遠的過去／遙遠的未來」是「distant past/future」的用法，與本句語境不同。",
-        "distant-mcq-05": "「缺乏親近感或情感交流的；疏離／冷淡的」是「distant — emotionally detached」的用法，與本句語境不同。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。"
+        "distant-mcq-02": "本句的「distant from the city」指「與某地相距很遠」。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-02"
     },
@@ -604,11 +584,9 @@ export default {
       "masked": "The island is geographically ____ the mainland.",
       "options": [
         "distant-mcq-02",
-        "distant-mcq-01",
-        "distant-mcq-03",
-        "distant-mcq-04",
         "distant-mcq-05",
-        "distant-mcq-06"
+        "distant-mcq-12",
+        "distant-mcq-13"
       ],
       "explanation": "本句的「distant from」指「與某地相距很遠」。",
       "sentenceIndex": 5,
@@ -617,12 +595,10 @@ export default {
         "distant from"
       ],
       "optionReasons": {
-        "distant-mcq-02": "本句指「與某地相距很遠」。",
-        "distant-mcq-01": "「在空間上離得很遠的；遙遠的」是「distant — spatial」的用法，與本句語境不同。",
-        "distant-mcq-03": "「距離現在很久以前／以後的；久遠的」是「distant — temporal」的用法，與本句語境不同。",
-        "distant-mcq-04": "「久遠的過去／遙遠的未來」是「distant past/future」的用法，與本句語境不同。",
-        "distant-mcq-05": "「缺乏親近感或情感交流的；疏離／冷淡的」是「distant — emotionally detached」的用法，與本句語境不同。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。"
+        "distant-mcq-02": "本句的「distant from」指「與某地相距很遠」。",
+        "distant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-02"
     },
@@ -634,11 +610,9 @@ export default {
       "masked": "The story is set in the ____.",
       "options": [
         "distant-mcq-04",
-        "distant-mcq-03",
-        "distant-mcq-05",
-        "distant-mcq-02",
+        "distant-mcq-15",
         "distant-mcq-06",
-        "distant-mcq-01"
+        "distant-mcq-13"
       ],
       "explanation": "本句的「distant past」指「久遠的過去／遙遠的未來」。",
       "sentenceIndex": 6,
@@ -647,12 +621,10 @@ export default {
         "distant past"
       ],
       "optionReasons": {
-        "distant-mcq-04": "本句指「久遠的過去／遙遠的未來」。",
-        "distant-mcq-03": "「距離現在很久以前／以後的；久遠的」是「distant — temporal」的用法，與本句語境不同。",
-        "distant-mcq-05": "「缺乏親近感或情感交流的；疏離／冷淡的」是「distant — emotionally detached」的用法，與本句語境不同。",
-        "distant-mcq-02": "「與某地相距很遠」是「distant from somewhere」的用法，與本句語境不同。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。",
-        "distant-mcq-01": "「在空間上離得很遠的；遙遠的」是「distant — spatial」的用法，與本句語境不同。"
+        "distant-mcq-04": "本句的「distant past」指「久遠的過去／遙遠的未來」。",
+        "distant-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-04"
     },
@@ -664,11 +636,9 @@ export default {
       "masked": "Humans may one day travel farther in the ____.",
       "options": [
         "distant-mcq-04",
-        "distant-mcq-03",
-        "distant-mcq-05",
-        "distant-mcq-02",
-        "distant-mcq-06",
-        "distant-mcq-01"
+        "distant-mcq-19",
+        "distant-mcq-13",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「distant future」指「久遠的過去／遙遠的未來」。",
       "sentenceIndex": 7,
@@ -677,12 +647,10 @@ export default {
         "distant future"
       ],
       "optionReasons": {
-        "distant-mcq-04": "本句指「久遠的過去／遙遠的未來」。",
-        "distant-mcq-03": "「距離現在很久以前／以後的；久遠的」是「distant — temporal」的用法，與本句語境不同。",
-        "distant-mcq-05": "「缺乏親近感或情感交流的；疏離／冷淡的」是「distant — emotionally detached」的用法，與本句語境不同。",
-        "distant-mcq-02": "「與某地相距很遠」是「distant from somewhere」的用法，與本句語境不同。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。",
-        "distant-mcq-01": "「在空間上離得很遠的；遙遠的」是「distant — spatial」的用法，與本句語境不同。"
+        "distant-mcq-04": "本句的「distant future」指「久遠的過去／遙遠的未來」。",
+        "distant-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-04"
     },
@@ -694,11 +662,9 @@ export default {
       "masked": "These traditions come from the ____.",
       "options": [
         "distant-mcq-04",
-        "distant-mcq-03",
-        "distant-mcq-05",
-        "distant-mcq-02",
-        "distant-mcq-06",
-        "distant-mcq-01"
+        "distant-mcq-15",
+        "distant-mcq-13",
+        "distant-mcq-06"
       ],
       "explanation": "本句的「distant past」指「久遠的過去／遙遠的未來」。",
       "sentenceIndex": 8,
@@ -707,12 +673,10 @@ export default {
         "distant past"
       ],
       "optionReasons": {
-        "distant-mcq-04": "本句指「久遠的過去／遙遠的未來」。",
-        "distant-mcq-03": "「距離現在很久以前／以後的；久遠的」是「distant — temporal」的用法，與本句語境不同。",
-        "distant-mcq-05": "「缺乏親近感或情感交流的；疏離／冷淡的」是「distant — emotionally detached」的用法，與本句語境不同。",
-        "distant-mcq-02": "「與某地相距很遠」是「distant from somewhere」的用法，與本句語境不同。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。",
-        "distant-mcq-01": "「在空間上離得很遠的；遙遠的」是「distant — spatial」的用法，與本句語境不同。"
+        "distant-mcq-04": "本句的「distant past」指「久遠的過去／遙遠的未來」。",
+        "distant-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-04"
     },
@@ -724,11 +688,9 @@ export default {
       "masked": "The technology may become common in the ____.",
       "options": [
         "distant-mcq-04",
-        "distant-mcq-03",
-        "distant-mcq-05",
-        "distant-mcq-02",
         "distant-mcq-06",
-        "distant-mcq-01"
+        "distant-mcq-10",
+        "distant-mcq-13"
       ],
       "explanation": "本句的「distant future」指「久遠的過去／遙遠的未來」。",
       "sentenceIndex": 9,
@@ -737,12 +699,10 @@ export default {
         "distant future"
       ],
       "optionReasons": {
-        "distant-mcq-04": "本句指「久遠的過去／遙遠的未來」。",
-        "distant-mcq-03": "「距離現在很久以前／以後的；久遠的」是「distant — temporal」的用法，與本句語境不同。",
-        "distant-mcq-05": "「缺乏親近感或情感交流的；疏離／冷淡的」是「distant — emotionally detached」的用法，與本句語境不同。",
-        "distant-mcq-02": "「與某地相距很遠」是「distant from somewhere」的用法，與本句語境不同。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。",
-        "distant-mcq-01": "「在空間上離得很遠的；遙遠的」是「distant — spatial」的用法，與本句語境不同。"
+        "distant-mcq-04": "本句的「distant future」指「久遠的過去／遙遠的未來」。",
+        "distant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-04"
     },
@@ -754,11 +714,9 @@ export default {
       "masked": "She seemed unusually ____ that morning.",
       "options": [
         "distant-mcq-05",
-        "distant-mcq-04",
-        "distant-mcq-06",
-        "distant-mcq-03",
-        "distant-mcq-07",
-        "distant-mcq-02"
+        "distant-mcq-18",
+        "distant-mcq-13",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「distant」指「缺乏親近感或情感交流的；疏離／冷淡的」。",
       "sentenceIndex": 10,
@@ -767,12 +725,10 @@ export default {
         "distant"
       ],
       "optionReasons": {
-        "distant-mcq-05": "本句指「缺乏親近感或情感交流的；疏離／冷淡的」。",
-        "distant-mcq-04": "「久遠的過去／遙遠的未來」是「distant past/future」的用法，與本句語境不同。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。",
-        "distant-mcq-03": "「距離現在很久以前／以後的；久遠的」是「distant — temporal」的用法，與本句語境不同。",
-        "distant-mcq-07": "「親屬或人際關係較疏遠的」是「distant — relationship」的用法，與本句語境不同。",
-        "distant-mcq-02": "「與某地相距很遠」是「distant from somewhere」的用法，與本句語境不同。"
+        "distant-mcq-05": "本句的「distant」指「缺乏親近感或情感交流的；疏離／冷淡的」。",
+        "distant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-05"
     },
@@ -784,11 +740,9 @@ export default {
       "masked": "He became emotionally ____ after the argument.",
       "options": [
         "distant-mcq-05",
+        "distant-mcq-13",
         "distant-mcq-04",
-        "distant-mcq-06",
-        "distant-mcq-03",
-        "distant-mcq-07",
-        "distant-mcq-02"
+        "distant-mcq-12"
       ],
       "explanation": "本句的「distant」指「缺乏親近感或情感交流的；疏離／冷淡的」。",
       "sentenceIndex": 11,
@@ -797,12 +751,10 @@ export default {
         "distant"
       ],
       "optionReasons": {
-        "distant-mcq-05": "本句指「缺乏親近感或情感交流的；疏離／冷淡的」。",
-        "distant-mcq-04": "「久遠的過去／遙遠的未來」是「distant past/future」的用法，與本句語境不同。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。",
-        "distant-mcq-03": "「距離現在很久以前／以後的；久遠的」是「distant — temporal」的用法，與本句語境不同。",
-        "distant-mcq-07": "「親屬或人際關係較疏遠的」是「distant — relationship」的用法，與本句語境不同。",
-        "distant-mcq-02": "「與某地相距很遠」是「distant from somewhere」的用法，與本句語境不同。"
+        "distant-mcq-05": "本句的「distant」指「缺乏親近感或情感交流的；疏離／冷淡的」。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-05"
     },
@@ -814,11 +766,9 @@ export default {
       "masked": "He was physically present but emotionally ____.",
       "options": [
         "distant-mcq-06",
-        "distant-mcq-05",
-        "distant-mcq-07",
-        "distant-mcq-04",
-        "distant-mcq-08",
-        "distant-mcq-03"
+        "distant-mcq-12",
+        "distant-mcq-21",
+        "distant-mcq-13"
       ],
       "explanation": "本句的「distant」指「情感上不親近、不投入的」。",
       "sentenceIndex": 12,
@@ -827,12 +777,10 @@ export default {
         "distant"
       ],
       "optionReasons": {
-        "distant-mcq-06": "本句指「情感上不親近、不投入的」。",
-        "distant-mcq-05": "「缺乏親近感或情感交流的；疏離／冷淡的」是「distant — emotionally detached」的用法，與本句語境不同。",
-        "distant-mcq-07": "「親屬或人際關係較疏遠的」是「distant — relationship」的用法，與本句語境不同。",
-        "distant-mcq-04": "「久遠的過去／遙遠的未來」是「distant past/future」的用法，與本句語境不同。",
-        "distant-mcq-08": "「血緣關係較遠的親戚；遠親」是「distant relative」的用法，與本句語境不同。",
-        "distant-mcq-03": "「距離現在很久以前／以後的；久遠的」是「distant — temporal」的用法，與本句語境不同。"
+        "distant-mcq-06": "本句的「distant」指「情感上不親近、不投入的」。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-06"
     },
@@ -844,11 +792,9 @@ export default {
       "masked": "Their relationship became increasingly ____.",
       "options": [
         "distant-mcq-06",
-        "distant-mcq-05",
-        "distant-mcq-07",
-        "distant-mcq-04",
-        "distant-mcq-08",
-        "distant-mcq-03"
+        "distant-mcq-13",
+        "distant-mcq-02",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「distant」指「情感上不親近、不投入的」。",
       "sentenceIndex": 13,
@@ -857,12 +803,10 @@ export default {
         "distant"
       ],
       "optionReasons": {
-        "distant-mcq-06": "本句指「情感上不親近、不投入的」。",
-        "distant-mcq-05": "「缺乏親近感或情感交流的；疏離／冷淡的」是「distant — emotionally detached」的用法，與本句語境不同。",
-        "distant-mcq-07": "「親屬或人際關係較疏遠的」是「distant — relationship」的用法，與本句語境不同。",
-        "distant-mcq-04": "「久遠的過去／遙遠的未來」是「distant past/future」的用法，與本句語境不同。",
-        "distant-mcq-08": "「血緣關係較遠的親戚；遠親」是「distant relative」的用法，與本句語境不同。",
-        "distant-mcq-03": "「距離現在很久以前／以後的；久遠的」是「distant — temporal」的用法，與本句語境不同。"
+        "distant-mcq-06": "本句的「distant」指「情感上不親近、不投入的」。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-06"
     },
@@ -874,11 +818,9 @@ export default {
       "masked": "He is a ____ of mine.",
       "options": [
         "distant-mcq-07",
-        "distant-mcq-06",
-        "distant-mcq-08",
-        "distant-mcq-05",
-        "distant-mcq-09",
-        "distant-mcq-04"
+        "distant-mcq-10",
+        "distant-mcq-13",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「distant relative」指「親屬或人際關係較疏遠的」。",
       "sentenceIndex": 14,
@@ -887,12 +829,10 @@ export default {
         "distant relative"
       ],
       "optionReasons": {
-        "distant-mcq-07": "本句指「親屬或人際關係較疏遠的」。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。",
-        "distant-mcq-08": "「血緣關係較遠的親戚；遠親」是「distant relative」的用法，與本句語境不同。",
-        "distant-mcq-05": "「缺乏親近感或情感交流的；疏離／冷淡的」是「distant — emotionally detached」的用法，與本句語境不同。",
-        "distant-mcq-09": "「讓人難以連結、難以產生共鳴的；有距離感的」是「distant — hard to relate to」的用法，與本句語境不同。",
-        "distant-mcq-04": "「久遠的過去／遙遠的未來」是「distant past/future」的用法，與本句語境不同。"
+        "distant-mcq-07": "本句的「distant relative」指「親屬或人際關係較疏遠的」。",
+        "distant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-07"
     },
@@ -904,11 +844,9 @@ export default {
       "masked": "They are ____.",
       "options": [
         "distant-mcq-07",
-        "distant-mcq-06",
-        "distant-mcq-08",
-        "distant-mcq-05",
-        "distant-mcq-09",
-        "distant-mcq-04"
+        "distant-mcq-13",
+        "distant-mcq-12",
+        "distant-mcq-17"
       ],
       "explanation": "本句的「distant cousins」指「親屬或人際關係較疏遠的」。",
       "sentenceIndex": 15,
@@ -917,12 +855,10 @@ export default {
         "distant cousins"
       ],
       "optionReasons": {
-        "distant-mcq-07": "本句指「親屬或人際關係較疏遠的」。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。",
-        "distant-mcq-08": "「血緣關係較遠的親戚；遠親」是「distant relative」的用法，與本句語境不同。",
-        "distant-mcq-05": "「缺乏親近感或情感交流的；疏離／冷淡的」是「distant — emotionally detached」的用法，與本句語境不同。",
-        "distant-mcq-09": "「讓人難以連結、難以產生共鳴的；有距離感的」是「distant — hard to relate to」的用法，與本句語境不同。",
-        "distant-mcq-04": "「久遠的過去／遙遠的未來」是「distant past/future」的用法，與本句語境不同。"
+        "distant-mcq-07": "本句的「distant cousins」指「親屬或人際關係較疏遠的」。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-07"
     },
@@ -934,11 +870,9 @@ export default {
       "masked": "A ____ contacted us after many years.",
       "options": [
         "distant-mcq-08",
-        "distant-mcq-07",
-        "distant-mcq-09",
-        "distant-mcq-06",
-        "distant-mcq-10",
-        "distant-mcq-05"
+        "distant-mcq-13",
+        "distant-mcq-19",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「distant relative」指「血緣關係較遠的親戚；遠親」。",
       "sentenceIndex": 16,
@@ -947,12 +881,10 @@ export default {
         "distant relative"
       ],
       "optionReasons": {
-        "distant-mcq-08": "本句指「血緣關係較遠的親戚；遠親」。",
-        "distant-mcq-07": "「親屬或人際關係較疏遠的」是「distant — relationship」的用法，與本句語境不同。",
-        "distant-mcq-09": "「讓人難以連結、難以產生共鳴的；有距離感的」是「distant — hard to relate to」的用法，與本句語境不同。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。",
-        "distant-mcq-10": "「與現實生活脫節／有距離」是「distant from reality」的用法，與本句語境不同。",
-        "distant-mcq-05": "「缺乏親近感或情感交流的；疏離／冷淡的」是「distant — emotionally detached」的用法，與本句語境不同。"
+        "distant-mcq-08": "本句的「distant relative」指「血緣關係較遠的親戚；遠親」。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-08"
     },
@@ -964,11 +896,9 @@ export default {
       "masked": "She stayed with a ____ abroad.",
       "options": [
         "distant-mcq-08",
-        "distant-mcq-07",
-        "distant-mcq-09",
-        "distant-mcq-06",
-        "distant-mcq-10",
-        "distant-mcq-05"
+        "distant-mcq-13",
+        "distant-mcq-15",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「distant relative」指「血緣關係較遠的親戚；遠親」。",
       "sentenceIndex": 17,
@@ -977,12 +907,10 @@ export default {
         "distant relative"
       ],
       "optionReasons": {
-        "distant-mcq-08": "本句指「血緣關係較遠的親戚；遠親」。",
-        "distant-mcq-07": "「親屬或人際關係較疏遠的」是「distant — relationship」的用法，與本句語境不同。",
-        "distant-mcq-09": "「讓人難以連結、難以產生共鳴的；有距離感的」是「distant — hard to relate to」的用法，與本句語境不同。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。",
-        "distant-mcq-10": "「與現實生活脫節／有距離」是「distant from reality」的用法，與本句語境不同。",
-        "distant-mcq-05": "「缺乏親近感或情感交流的；疏離／冷淡的」是「distant — emotionally detached」的用法，與本句語境不同。"
+        "distant-mcq-08": "本句的「distant relative」指「血緣關係較遠的親戚；遠親」。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-08"
     },
@@ -994,11 +922,9 @@ export default {
       "masked": "The subject can seem ____ to young readers.",
       "options": [
         "distant-mcq-09",
-        "distant-mcq-08",
-        "distant-mcq-10",
-        "distant-mcq-07",
-        "distant-mcq-11",
-        "distant-mcq-06"
+        "distant-mcq-21",
+        "distant-mcq-13",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「distant」指「讓人難以連結、難以產生共鳴的；有距離感的」。",
       "sentenceIndex": 18,
@@ -1007,12 +933,10 @@ export default {
         "distant"
       ],
       "optionReasons": {
-        "distant-mcq-09": "本句指「讓人難以連結、難以產生共鳴的；有距離感的」。",
-        "distant-mcq-08": "「血緣關係較遠的親戚；遠親」是「distant relative」的用法，與本句語境不同。",
-        "distant-mcq-10": "「與現實生活脫節／有距離」是「distant from reality」的用法，與本句語境不同。",
-        "distant-mcq-07": "「親屬或人際關係較疏遠的」是「distant — relationship」的用法，與本句語境不同。",
-        "distant-mcq-11": "「從遠處傳來、因距離而顯得微弱的」是「distant — sound」的用法，與本句語境不同。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。"
+        "distant-mcq-09": "本句的「distant」指「讓人難以連結、難以產生共鳴的；有距離感的」。",
+        "distant-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-09"
     },
@@ -1024,11 +948,9 @@ export default {
       "masked": "The emotions feel personal rather than ____.",
       "options": [
         "distant-mcq-09",
-        "distant-mcq-08",
-        "distant-mcq-10",
-        "distant-mcq-07",
-        "distant-mcq-11",
-        "distant-mcq-06"
+        "distant-mcq-12",
+        "distant-mcq-13",
+        "distant-mcq-04"
       ],
       "explanation": "本句的「distant」指「讓人難以連結、難以產生共鳴的；有距離感的」。",
       "sentenceIndex": 19,
@@ -1037,12 +959,10 @@ export default {
         "distant"
       ],
       "optionReasons": {
-        "distant-mcq-09": "本句指「讓人難以連結、難以產生共鳴的；有距離感的」。",
-        "distant-mcq-08": "「血緣關係較遠的親戚；遠親」是「distant relative」的用法，與本句語境不同。",
-        "distant-mcq-10": "「與現實生活脫節／有距離」是「distant from reality」的用法，與本句語境不同。",
-        "distant-mcq-07": "「親屬或人際關係較疏遠的」是「distant — relationship」的用法，與本句語境不同。",
-        "distant-mcq-11": "「從遠處傳來、因距離而顯得微弱的」是「distant — sound」的用法，與本句語境不同。",
-        "distant-mcq-06": "「情感上不親近、不投入的」是「emotionally distant」的用法，與本句語境不同。"
+        "distant-mcq-09": "本句的「distant」指「讓人難以連結、難以產生共鳴的；有距離感的」。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-09"
     },
@@ -1054,11 +974,9 @@ export default {
       "masked": "The theory can feel ____.",
       "options": [
         "distant-mcq-10",
-        "distant-mcq-09",
-        "distant-mcq-11",
-        "distant-mcq-08",
-        "distant-mcq-12",
-        "distant-mcq-07"
+        "distant-mcq-04",
+        "distant-mcq-06",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「distant from reality」指「與現實生活脫節／有距離」。",
       "sentenceIndex": 20,
@@ -1067,12 +985,10 @@ export default {
         "distant from reality"
       ],
       "optionReasons": {
-        "distant-mcq-10": "本句指「與現實生活脫節／有距離」。",
-        "distant-mcq-09": "「讓人難以連結、難以產生共鳴的；有距離感的」是「distant — hard to relate to」的用法，與本句語境不同。",
-        "distant-mcq-11": "「從遠處傳來、因距離而顯得微弱的」是「distant — sound」的用法，與本句語境不同。",
-        "distant-mcq-08": "「血緣關係較遠的親戚；遠親」是「distant relative」的用法，與本句語境不同。",
-        "distant-mcq-12": "「很久以前、已變得模糊的記憶」是「distant memory」的用法，與本句語境不同。",
-        "distant-mcq-07": "「親屬或人際關係較疏遠的」是「distant — relationship」的用法，與本句語境不同。"
+        "distant-mcq-10": "本句的「distant from reality」指「與現實生活脫節／有距離」。",
+        "distant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-10"
     },
@@ -1084,11 +1000,9 @@ export default {
       "masked": "The discussion became too abstract and ____.",
       "options": [
         "distant-mcq-10",
-        "distant-mcq-09",
-        "distant-mcq-11",
+        "distant-mcq-06",
         "distant-mcq-08",
-        "distant-mcq-12",
-        "distant-mcq-07"
+        "distant-mcq-21"
       ],
       "explanation": "本句的「distant from everyday life」指「與現實生活脫節／有距離」。",
       "sentenceIndex": 21,
@@ -1097,12 +1011,10 @@ export default {
         "distant from everyday life"
       ],
       "optionReasons": {
-        "distant-mcq-10": "本句指「與現實生活脫節／有距離」。",
-        "distant-mcq-09": "「讓人難以連結、難以產生共鳴的；有距離感的」是「distant — hard to relate to」的用法，與本句語境不同。",
-        "distant-mcq-11": "「從遠處傳來、因距離而顯得微弱的」是「distant — sound」的用法，與本句語境不同。",
-        "distant-mcq-08": "「血緣關係較遠的親戚；遠親」是「distant relative」的用法，與本句語境不同。",
-        "distant-mcq-12": "「很久以前、已變得模糊的記憶」是「distant memory」的用法，與本句語境不同。",
-        "distant-mcq-07": "「親屬或人際關係較疏遠的」是「distant — relationship」的用法，與本句語境不同。"
+        "distant-mcq-10": "本句的「distant from everyday life」指「與現實生活脫節／有距離」。",
+        "distant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-10"
     },
@@ -1114,11 +1026,9 @@ export default {
       "masked": "We heard a ____.",
       "options": [
         "distant-mcq-11",
-        "distant-mcq-10",
         "distant-mcq-12",
-        "distant-mcq-09",
-        "distant-mcq-13",
-        "distant-mcq-08"
+        "distant-mcq-06",
+        "distant-mcq-13"
       ],
       "explanation": "本句的「distant sound」指「從遠處傳來、因距離而顯得微弱的」。",
       "sentenceIndex": 22,
@@ -1127,12 +1037,10 @@ export default {
         "distant sound"
       ],
       "optionReasons": {
-        "distant-mcq-11": "本句指「從遠處傳來、因距離而顯得微弱的」。",
-        "distant-mcq-10": "「與現實生活脫節／有距離」是「distant from reality」的用法，與本句語境不同。",
-        "distant-mcq-12": "「很久以前、已變得模糊的記憶」是「distant memory」的用法，與本句語境不同。",
-        "distant-mcq-09": "「讓人難以連結、難以產生共鳴的；有距離感的」是「distant — hard to relate to」的用法，與本句語境不同。",
-        "distant-mcq-13": "「很不確定、可能性很低的；渺茫的可能」是「distant possibility」的用法，與本句語境不同。",
-        "distant-mcq-08": "「血緣關係較遠的親戚；遠親」是「distant relative」的用法，與本句語境不同。"
+        "distant-mcq-11": "本句的「distant sound」指「從遠處傳來、因距離而顯得微弱的」。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-11"
     },
@@ -1144,11 +1052,9 @@ export default {
       "masked": "There was a ____ of thunder.",
       "options": [
         "distant-mcq-11",
-        "distant-mcq-10",
-        "distant-mcq-12",
-        "distant-mcq-09",
         "distant-mcq-13",
-        "distant-mcq-08"
+        "distant-mcq-06",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「distant rumble」指「從遠處傳來、因距離而顯得微弱的」。",
       "sentenceIndex": 23,
@@ -1157,12 +1063,10 @@ export default {
         "distant rumble"
       ],
       "optionReasons": {
-        "distant-mcq-11": "本句指「從遠處傳來、因距離而顯得微弱的」。",
-        "distant-mcq-10": "「與現實生活脫節／有距離」是「distant from reality」的用法，與本句語境不同。",
-        "distant-mcq-12": "「很久以前、已變得模糊的記憶」是「distant memory」的用法，與本句語境不同。",
-        "distant-mcq-09": "「讓人難以連結、難以產生共鳴的；有距離感的」是「distant — hard to relate to」的用法，與本句語境不同。",
-        "distant-mcq-13": "「很不確定、可能性很低的；渺茫的可能」是「distant possibility」的用法，與本句語境不同。",
-        "distant-mcq-08": "「血緣關係較遠的親戚；遠親」是「distant relative」的用法，與本句語境不同。"
+        "distant-mcq-11": "本句的「distant rumble」指「從遠處傳來、因距離而顯得微弱的」。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-11"
     },
@@ -1174,10 +1078,8 @@ export default {
       "masked": "School now seems like a ____.",
       "options": [
         "distant-mcq-12",
-        "distant-mcq-11",
+        "distant-mcq-05",
         "distant-mcq-13",
-        "distant-mcq-10",
-        "distant-mcq-14",
         "distant-mcq-09"
       ],
       "explanation": "本句的「distant memory」指「很久以前、已變得模糊的記憶」。",
@@ -1187,12 +1089,10 @@ export default {
         "distant memory"
       ],
       "optionReasons": {
-        "distant-mcq-12": "本句指「很久以前、已變得模糊的記憶」。",
-        "distant-mcq-11": "「從遠處傳來、因距離而顯得微弱的」是「distant — sound」的用法，與本句語境不同。",
-        "distant-mcq-13": "「很不確定、可能性很低的；渺茫的可能」是「distant possibility」的用法，與本句語境不同。",
-        "distant-mcq-10": "「與現實生活脫節／有距離」是「distant from reality」的用法，與本句語境不同。",
-        "distant-mcq-14": "「兩點／兩物之間的空間距離」是「distance — physical」的用法，與本句語境不同。",
-        "distant-mcq-09": "「讓人難以連結、難以產生共鳴的；有距離感的」是「distant — hard to relate to」的用法，與本句語境不同。"
+        "distant-mcq-12": "本句的「distant memory」指「很久以前、已變得模糊的記憶」。",
+        "distant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-12"
     },
@@ -1204,11 +1104,9 @@ export default {
       "masked": "That period has become a ____.",
       "options": [
         "distant-mcq-12",
-        "distant-mcq-11",
-        "distant-mcq-13",
-        "distant-mcq-10",
-        "distant-mcq-14",
-        "distant-mcq-09"
+        "distant-mcq-09",
+        "distant-mcq-18",
+        "distant-mcq-05"
       ],
       "explanation": "本句的「distant memory」指「很久以前、已變得模糊的記憶」。",
       "sentenceIndex": 25,
@@ -1217,12 +1115,10 @@ export default {
         "distant memory"
       ],
       "optionReasons": {
-        "distant-mcq-12": "本句指「很久以前、已變得模糊的記憶」。",
-        "distant-mcq-11": "「從遠處傳來、因距離而顯得微弱的」是「distant — sound」的用法，與本句語境不同。",
-        "distant-mcq-13": "「很不確定、可能性很低的；渺茫的可能」是「distant possibility」的用法，與本句語境不同。",
-        "distant-mcq-10": "「與現實生活脫節／有距離」是「distant from reality」的用法，與本句語境不同。",
-        "distant-mcq-14": "「兩點／兩物之間的空間距離」是「distance — physical」的用法，與本句語境不同。",
-        "distant-mcq-09": "「讓人難以連結、難以產生共鳴的；有距離感的」是「distant — hard to relate to」的用法，與本句語境不同。"
+        "distant-mcq-12": "本句的「distant memory」指「很久以前、已變得模糊的記憶」。",
+        "distant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-12"
     },
@@ -1234,11 +1130,9 @@ export default {
       "masked": "There is still a ____ of success.",
       "options": [
         "distant-mcq-13",
-        "distant-mcq-12",
-        "distant-mcq-14",
         "distant-mcq-11",
-        "distant-mcq-15",
-        "distant-mcq-10"
+        "distant-mcq-07",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「distant possibility」指「很不確定、可能性很低的；渺茫的可能」。",
       "sentenceIndex": 26,
@@ -1247,12 +1141,10 @@ export default {
         "distant possibility"
       ],
       "optionReasons": {
-        "distant-mcq-13": "本句指「很不確定、可能性很低的；渺茫的可能」。",
-        "distant-mcq-12": "「很久以前、已變得模糊的記憶」是「distant memory」的用法，與本句語境不同。",
-        "distant-mcq-14": "「兩點／兩物之間的空間距離」是「distance — physical」的用法，與本句語境不同。",
-        "distant-mcq-11": "「從遠處傳來、因距離而顯得微弱的」是「distant — sound」的用法，與本句語境不同。",
-        "distant-mcq-15": "「人與人之間的疏離／距離感」是「distance — emotional」的用法，與本句語境不同。",
-        "distant-mcq-10": "「與現實生活脫節／有距離」是「distant from reality」的用法，與本句語境不同。"
+        "distant-mcq-13": "本句的「distant possibility」指「很不確定、可能性很低的；渺茫的可能」。",
+        "distant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-13"
     },
@@ -1264,11 +1156,9 @@ export default {
       "masked": "At that stage, victory seemed only a ____.",
       "options": [
         "distant-mcq-13",
-        "distant-mcq-12",
-        "distant-mcq-14",
-        "distant-mcq-11",
-        "distant-mcq-15",
-        "distant-mcq-10"
+        "distant-mcq-04",
+        "distant-mcq-05",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「distant possibility」指「很不確定、可能性很低的；渺茫的可能」。",
       "sentenceIndex": 27,
@@ -1277,12 +1167,10 @@ export default {
         "distant possibility"
       ],
       "optionReasons": {
-        "distant-mcq-13": "本句指「很不確定、可能性很低的；渺茫的可能」。",
-        "distant-mcq-12": "「很久以前、已變得模糊的記憶」是「distant memory」的用法，與本句語境不同。",
-        "distant-mcq-14": "「兩點／兩物之間的空間距離」是「distance — physical」的用法，與本句語境不同。",
-        "distant-mcq-11": "「從遠處傳來、因距離而顯得微弱的」是「distant — sound」的用法，與本句語境不同。",
-        "distant-mcq-15": "「人與人之間的疏離／距離感」是「distance — emotional」的用法，與本句語境不同。",
-        "distant-mcq-10": "「與現實生活脫節／有距離」是「distant from reality」的用法，與本句語境不同。"
+        "distant-mcq-13": "本句的「distant possibility」指「很不確定、可能性很低的；渺茫的可能」。",
+        "distant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-13"
     },
@@ -1294,11 +1182,9 @@ export default {
       "masked": "She tried to ____ the controversy.",
       "options": [
         "distant-mcq-15",
-        "distant-mcq-14",
-        "distant-mcq-16",
-        "distant-mcq-13",
-        "distant-mcq-17",
-        "distant-mcq-12"
+        "distant-mcq-18",
+        "distant-mcq-12",
+        "distant-mcq-13"
       ],
       "explanation": "本句的「distance herself from」指「人與人之間的疏離／距離感」。",
       "sentenceIndex": 28,
@@ -1307,12 +1193,10 @@ export default {
         "distance herself from"
       ],
       "optionReasons": {
-        "distant-mcq-15": "本句指「人與人之間的疏離／距離感」。",
-        "distant-mcq-14": "「兩點／兩物之間的空間距離」是「distance — physical」的用法，與本句語境不同。",
-        "distant-mcq-16": "「主動與某人／某事保持關係或立場上的距離」是「distance yourself from」的用法，與本句語境不同。",
-        "distant-mcq-13": "「很不確定、可能性很低的；渺茫的可能」是「distant possibility」的用法，與本句語境不同。",
-        "distant-mcq-17": "「保持身體或情感上的距離」是「keep your distance」的用法，與本句語境不同。",
-        "distant-mcq-12": "「很久以前、已變得模糊的記憶」是「distant memory」的用法，與本句語境不同。"
+        "distant-mcq-15": "本句的「distance herself from」指「人與人之間的疏離／距離感」。",
+        "distant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-15"
     },
@@ -1324,11 +1208,9 @@ export default {
       "masked": "He gradually ____ the group.",
       "options": [
         "distant-mcq-15",
-        "distant-mcq-14",
-        "distant-mcq-16",
-        "distant-mcq-13",
-        "distant-mcq-17",
-        "distant-mcq-12"
+        "distant-mcq-21",
+        "distant-mcq-12",
+        "distant-mcq-13"
       ],
       "explanation": "本句的「distanced himself from」指「人與人之間的疏離／距離感」。",
       "sentenceIndex": 29,
@@ -1337,12 +1219,10 @@ export default {
         "distanced himself from"
       ],
       "optionReasons": {
-        "distant-mcq-15": "本句指「人與人之間的疏離／距離感」。",
-        "distant-mcq-14": "「兩點／兩物之間的空間距離」是「distance — physical」的用法，與本句語境不同。",
-        "distant-mcq-16": "「主動與某人／某事保持關係或立場上的距離」是「distance yourself from」的用法，與本句語境不同。",
-        "distant-mcq-13": "「很不確定、可能性很低的；渺茫的可能」是「distant possibility」的用法，與本句語境不同。",
-        "distant-mcq-17": "「保持身體或情感上的距離」是「keep your distance」的用法，與本句語境不同。",
-        "distant-mcq-12": "「很久以前、已變得模糊的記憶」是「distant memory」的用法，與本句語境不同。"
+        "distant-mcq-15": "本句的「distanced himself from」指「人與人之間的疏離／距離感」。",
+        "distant-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-15"
     },
@@ -1354,11 +1234,9 @@ export default {
       "masked": "A dog barked ____.",
       "options": [
         "distant-mcq-21",
-        "distant-mcq-20",
-        "distant-mcq-19",
-        "distant-mcq-18",
-        "distant-mcq-17",
-        "distant-mcq-16"
+        "distant-mcq-10",
+        "distant-mcq-12",
+        "distant-mcq-13"
       ],
       "explanation": "本句的「distantly」指「表示遙遠地；冷淡地」。",
       "sentenceIndex": 30,
@@ -1367,12 +1245,10 @@ export default {
         "distantly"
       ],
       "optionReasons": {
-        "distant-mcq-21": "本句指「表示遙遠地；冷淡地」。",
-        "distant-mcq-20": "「有距離感的；疏離的；難以產生共鳴的」是「Passage meaning」的用法，與本句語境不同。",
-        "distant-mcq-19": "「隔著一段距離；亦可指保持情感／立場上的距離」是「at a distance」的用法，與本句語境不同。",
-        "distant-mcq-18": "「從遠處」是「from a distance」的用法，與本句語境不同。",
-        "distant-mcq-17": "「保持身體或情感上的距離」是「keep your distance」的用法，與本句語境不同。",
-        "distant-mcq-16": "「主動與某人／某事保持關係或立場上的距離」是「distance yourself from」的用法，與本句語境不同。"
+        "distant-mcq-21": "本句的「distantly」指「表示遙遠地；冷淡地」。",
+        "distant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-21"
     },
@@ -1384,11 +1260,9 @@ export default {
       "masked": "He smiled ____.",
       "options": [
         "distant-mcq-21",
-        "distant-mcq-20",
-        "distant-mcq-19",
-        "distant-mcq-18",
         "distant-mcq-17",
-        "distant-mcq-16"
+        "distant-mcq-12",
+        "distant-mcq-13"
       ],
       "explanation": "本句的「distantly」指「表示遙遠地；冷淡地」。",
       "sentenceIndex": 31,
@@ -1397,12 +1271,10 @@ export default {
         "distantly"
       ],
       "optionReasons": {
-        "distant-mcq-21": "本句指「表示遙遠地；冷淡地」。",
-        "distant-mcq-20": "「有距離感的；疏離的；難以產生共鳴的」是「Passage meaning」的用法，與本句語境不同。",
-        "distant-mcq-19": "「隔著一段距離；亦可指保持情感／立場上的距離」是「at a distance」的用法，與本句語境不同。",
-        "distant-mcq-18": "「從遠處」是「from a distance」的用法，與本句語境不同。",
-        "distant-mcq-17": "「保持身體或情感上的距離」是「keep your distance」的用法，與本句語境不同。",
-        "distant-mcq-16": "「主動與某人／某事保持關係或立場上的距離」是「distance yourself from」的用法，與本句語境不同。"
+        "distant-mcq-21": "本句的「distantly」指「表示遙遠地；冷淡地」。",
+        "distant-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-21"
     },
@@ -1414,11 +1286,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "distant-mcq-17",
-        "distant-mcq-16",
         "distant-mcq-18",
-        "distant-mcq-15",
-        "distant-mcq-19",
-        "distant-mcq-14"
+        "distant-mcq-12",
+        "distant-mcq-13"
       ],
       "explanation": "本句的「keep her distance」指「保持身體或情感上的距離」。",
       "sentenceIndex": 32,
@@ -1427,12 +1297,10 @@ export default {
         "keep her distance"
       ],
       "optionReasons": {
-        "distant-mcq-17": "本句指「保持身體或情感上的距離」。",
-        "distant-mcq-16": "「主動與某人／某事保持關係或立場上的距離」是「distance yourself from」的用法，與本句語境不同。",
-        "distant-mcq-18": "「從遠處」是「from a distance」的用法，與本句語境不同。",
-        "distant-mcq-15": "「人與人之間的疏離／距離感」是「distance — emotional」的用法，與本句語境不同。",
-        "distant-mcq-19": "「隔著一段距離；亦可指保持情感／立場上的距離」是「at a distance」的用法，與本句語境不同。",
-        "distant-mcq-14": "「兩點／兩物之間的空間距離」是「distance — physical」的用法，與本句語境不同。"
+        "distant-mcq-17": "本句的「keep her distance」指「保持身體或情感上的距離」。",
+        "distant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-17"
     },
@@ -1444,11 +1312,9 @@ export default {
       "masked": "He tends to ____ from strangers.",
       "options": [
         "distant-mcq-17",
-        "distant-mcq-16",
         "distant-mcq-18",
-        "distant-mcq-15",
-        "distant-mcq-19",
-        "distant-mcq-14"
+        "distant-mcq-13",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「keep his distance」指「保持身體或情感上的距離」。",
       "sentenceIndex": 33,
@@ -1457,12 +1323,10 @@ export default {
         "keep his distance"
       ],
       "optionReasons": {
-        "distant-mcq-17": "本句指「保持身體或情感上的距離」。",
-        "distant-mcq-16": "「主動與某人／某事保持關係或立場上的距離」是「distance yourself from」的用法，與本句語境不同。",
-        "distant-mcq-18": "「從遠處」是「from a distance」的用法，與本句語境不同。",
-        "distant-mcq-15": "「人與人之間的疏離／距離感」是「distance — emotional」的用法，與本句語境不同。",
-        "distant-mcq-19": "「隔著一段距離；亦可指保持情感／立場上的距離」是「at a distance」的用法，與本句語境不同。",
-        "distant-mcq-14": "「兩點／兩物之間的空間距離」是「distance — physical」的用法，與本句語境不同。"
+        "distant-mcq-17": "本句的「keep his distance」指「保持身體或情感上的距離」。",
+        "distant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-17"
     },
@@ -1474,11 +1338,9 @@ export default {
       "masked": "The building looks smaller ____.",
       "options": [
         "distant-mcq-18",
-        "distant-mcq-17",
-        "distant-mcq-19",
-        "distant-mcq-16",
-        "distant-mcq-20",
-        "distant-mcq-15"
+        "distant-mcq-06",
+        "distant-mcq-10",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「from a distance」指「從遠處」。",
       "sentenceIndex": 34,
@@ -1487,12 +1349,10 @@ export default {
         "from a distance"
       ],
       "optionReasons": {
-        "distant-mcq-18": "本句指「從遠處」。",
-        "distant-mcq-17": "「保持身體或情感上的距離」是「keep your distance」的用法，與本句語境不同。",
-        "distant-mcq-19": "「隔著一段距離；亦可指保持情感／立場上的距離」是「at a distance」的用法，與本句語境不同。",
-        "distant-mcq-16": "「主動與某人／某事保持關係或立場上的距離」是「distance yourself from」的用法，與本句語境不同。",
-        "distant-mcq-20": "「有距離感的；疏離的；難以產生共鳴的」是「Passage meaning」的用法，與本句語境不同。",
-        "distant-mcq-15": "「人與人之間的疏離／距離感」是「distance — emotional」的用法，與本句語境不同。"
+        "distant-mcq-18": "本句的「from a distance」指「從遠處」。",
+        "distant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-18"
     },
@@ -1504,11 +1364,9 @@ export default {
       "masked": "I recognized him ____.",
       "options": [
         "distant-mcq-18",
-        "distant-mcq-17",
         "distant-mcq-19",
-        "distant-mcq-16",
-        "distant-mcq-20",
-        "distant-mcq-15"
+        "distant-mcq-13",
+        "distant-mcq-12"
       ],
       "explanation": "本句的「from a distance」指「從遠處」。",
       "sentenceIndex": 35,
@@ -1517,12 +1375,10 @@ export default {
         "from a distance"
       ],
       "optionReasons": {
-        "distant-mcq-18": "本句指「從遠處」。",
-        "distant-mcq-17": "「保持身體或情感上的距離」是「keep your distance」的用法，與本句語境不同。",
-        "distant-mcq-19": "「隔著一段距離；亦可指保持情感／立場上的距離」是「at a distance」的用法，與本句語境不同。",
-        "distant-mcq-16": "「主動與某人／某事保持關係或立場上的距離」是「distance yourself from」的用法，與本句語境不同。",
-        "distant-mcq-20": "「有距離感的；疏離的；難以產生共鳴的」是「Passage meaning」的用法，與本句語境不同。",
-        "distant-mcq-15": "「人與人之間的疏離／距離感」是「distance — emotional」的用法，與本句語境不同。"
+        "distant-mcq-18": "本句的「from a distance」指「從遠處」。",
+        "distant-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-18"
     },
@@ -1534,11 +1390,9 @@ export default {
       "masked": "The guards watched ____.",
       "options": [
         "distant-mcq-19",
-        "distant-mcq-18",
-        "distant-mcq-20",
-        "distant-mcq-17",
-        "distant-mcq-21",
-        "distant-mcq-16"
+        "distant-mcq-12",
+        "distant-mcq-07",
+        "distant-mcq-13"
       ],
       "explanation": "本句的「at a distance」指「隔著一段距離；亦可指保持情感／立場上的距離」。",
       "sentenceIndex": 36,
@@ -1547,12 +1401,10 @@ export default {
         "at a distance"
       ],
       "optionReasons": {
-        "distant-mcq-19": "本句指「隔著一段距離；亦可指保持情感／立場上的距離」。",
-        "distant-mcq-18": "「從遠處」是「from a distance」的用法，與本句語境不同。",
-        "distant-mcq-20": "「有距離感的；疏離的；難以產生共鳴的」是「Passage meaning」的用法，與本句語境不同。",
-        "distant-mcq-17": "「保持身體或情感上的距離」是「keep your distance」的用法，與本句語境不同。",
-        "distant-mcq-21": "「表示遙遠地；冷淡地」是「17. distantly」的用法，與本句語境不同。",
-        "distant-mcq-16": "「主動與某人／某事保持關係或立場上的距離」是「distance yourself from」的用法，與本句語境不同。"
+        "distant-mcq-19": "本句的「at a distance」指「隔著一段距離；亦可指保持情感／立場上的距離」。",
+        "distant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-19"
     },
@@ -1564,11 +1416,9 @@ export default {
       "masked": "She preferred to observe the situation ____.",
       "options": [
         "distant-mcq-19",
-        "distant-mcq-18",
-        "distant-mcq-20",
-        "distant-mcq-17",
-        "distant-mcq-21",
-        "distant-mcq-16"
+        "distant-mcq-13",
+        "distant-mcq-07",
+        "distant-mcq-21"
       ],
       "explanation": "本句的「at a distance」指「隔著一段距離；亦可指保持情感／立場上的距離」。",
       "sentenceIndex": 37,
@@ -1577,12 +1427,10 @@ export default {
         "at a distance"
       ],
       "optionReasons": {
-        "distant-mcq-19": "本句指「隔著一段距離；亦可指保持情感／立場上的距離」。",
-        "distant-mcq-18": "「從遠處」是「from a distance」的用法，與本句語境不同。",
-        "distant-mcq-20": "「有距離感的；疏離的；難以產生共鳴的」是「Passage meaning」的用法，與本句語境不同。",
-        "distant-mcq-17": "「保持身體或情感上的距離」是「keep your distance」的用法，與本句語境不同。",
-        "distant-mcq-21": "「表示遙遠地；冷淡地」是「17. distantly」的用法，與本句語境不同。",
-        "distant-mcq-16": "「主動與某人／某事保持關係或立場上的距離」是「distance yourself from」的用法，與本句語境不同。"
+        "distant-mcq-19": "本句的「at a distance」指「隔著一段距離；亦可指保持情感／立場上的距離」。",
+        "distant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "distant-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distant-mcq-19"
     }
@@ -1594,5 +1442,7 @@ export default {
     "sha256": "4ac878fdc55c44fd2364d28ebdfd9755a8135cc1ca3702cd937c05cbf12812a8",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

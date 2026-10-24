@@ -284,11 +284,7 @@ export default {
       "masked": "The curtains ____ after years of sunlight.",
       "options": [
         "fade-mcq-01",
-        "fade-mcq-02",
-        "fade-mcq-03",
-        "fade-mcq-04",
-        "fade-mcq-05",
-        "fade-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「faded」指「顏色、光線或影像的強度逐漸減弱，變得較淡、較暗或較難看見」。",
       "sentenceIndex": 0,
@@ -297,12 +293,8 @@ export default {
         "faded"
       ],
       "optionReasons": {
-        "fade-mcq-01": "本句指「顏色、光線或影像的強度逐漸減弱，變得較淡、較暗或較難看見」。",
-        "fade-mcq-02": "「聲音逐漸減弱，直至變得微弱或幾乎聽不見」與本句語境不同。",
-        "fade-mcq-03": "「記憶、感受或情緒隨時間逐漸失去清晰度或強度」與本句語境不同。",
-        "fade-mcq-04": "「逐漸失去顯著性、重要性或吸引注意力的程度」與本句語境不同。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。"
+        "fade-mcq-01": "本句的「faded」指「顏色、光線或影像的強度逐漸減弱，變得較淡、較暗或較難看見」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-01"
     },
@@ -314,11 +306,7 @@ export default {
       "masked": "The evening light slowly ____.",
       "options": [
         "fade-mcq-01",
-        "fade-mcq-02",
-        "fade-mcq-03",
-        "fade-mcq-04",
-        "fade-mcq-05",
-        "fade-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「faded」指「顏色、光線或影像的強度逐漸減弱，變得較淡、較暗或較難看見」。",
       "sentenceIndex": 1,
@@ -327,12 +315,8 @@ export default {
         "faded"
       ],
       "optionReasons": {
-        "fade-mcq-01": "本句指「顏色、光線或影像的強度逐漸減弱，變得較淡、較暗或較難看見」。",
-        "fade-mcq-02": "「聲音逐漸減弱，直至變得微弱或幾乎聽不見」與本句語境不同。",
-        "fade-mcq-03": "「記憶、感受或情緒隨時間逐漸失去清晰度或強度」與本句語境不同。",
-        "fade-mcq-04": "「逐漸失去顯著性、重要性或吸引注意力的程度」與本句語境不同。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。"
+        "fade-mcq-01": "本句的「faded」指「顏色、光線或影像的強度逐漸減弱，變得較淡、較暗或較難看見」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-01"
     },
@@ -344,11 +328,7 @@ export default {
       "masked": "The sound of the train gradually ____.",
       "options": [
         "fade-mcq-02",
-        "fade-mcq-01",
-        "fade-mcq-03",
-        "fade-mcq-04",
-        "fade-mcq-05",
-        "fade-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「faded」指「聲音逐漸減弱，直至變得微弱或幾乎聽不見」。",
       "sentenceIndex": 2,
@@ -357,12 +337,8 @@ export default {
         "faded"
       ],
       "optionReasons": {
-        "fade-mcq-02": "本句指「聲音逐漸減弱，直至變得微弱或幾乎聽不見」。",
-        "fade-mcq-01": "「顏色、光線或影像的強度逐漸減弱，變得較淡、較暗或較難看見」與本句語境不同。",
-        "fade-mcq-03": "「記憶、感受或情緒隨時間逐漸失去清晰度或強度」與本句語境不同。",
-        "fade-mcq-04": "「逐漸失去顯著性、重要性或吸引注意力的程度」與本句語境不同。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。"
+        "fade-mcq-02": "本句的「faded」指「聲音逐漸減弱，直至變得微弱或幾乎聽不見」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-02"
     },
@@ -374,11 +350,7 @@ export default {
       "masked": "Her voice ____ as she walked away.",
       "options": [
         "fade-mcq-02",
-        "fade-mcq-01",
-        "fade-mcq-03",
-        "fade-mcq-04",
-        "fade-mcq-05",
-        "fade-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「faded」指「聲音逐漸減弱，直至變得微弱或幾乎聽不見」。",
       "sentenceIndex": 3,
@@ -387,12 +359,8 @@ export default {
         "faded"
       ],
       "optionReasons": {
-        "fade-mcq-02": "本句指「聲音逐漸減弱，直至變得微弱或幾乎聽不見」。",
-        "fade-mcq-01": "「顏色、光線或影像的強度逐漸減弱，變得較淡、較暗或較難看見」與本句語境不同。",
-        "fade-mcq-03": "「記憶、感受或情緒隨時間逐漸失去清晰度或強度」與本句語境不同。",
-        "fade-mcq-04": "「逐漸失去顯著性、重要性或吸引注意力的程度」與本句語境不同。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。"
+        "fade-mcq-02": "本句的「faded」指「聲音逐漸減弱，直至變得微弱或幾乎聽不見」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-02"
     },
@@ -404,11 +372,7 @@ export default {
       "masked": "The memory of that day slowly ____.",
       "options": [
         "fade-mcq-03",
-        "fade-mcq-02",
-        "fade-mcq-04",
-        "fade-mcq-01",
-        "fade-mcq-05",
-        "fade-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「faded」指「記憶、感受或情緒隨時間逐漸失去清晰度或強度」。",
       "sentenceIndex": 4,
@@ -417,12 +381,8 @@ export default {
         "faded"
       ],
       "optionReasons": {
-        "fade-mcq-03": "本句指「記憶、感受或情緒隨時間逐漸失去清晰度或強度」。",
-        "fade-mcq-02": "「聲音逐漸減弱，直至變得微弱或幾乎聽不見」與本句語境不同。",
-        "fade-mcq-04": "「逐漸失去顯著性、重要性或吸引注意力的程度」與本句語境不同。",
-        "fade-mcq-01": "「顏色、光線或影像的強度逐漸減弱，變得較淡、較暗或較難看見」與本句語境不同。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。"
+        "fade-mcq-03": "本句的「faded」指「記憶、感受或情緒隨時間逐漸失去清晰度或強度」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-03"
     },
@@ -434,11 +394,7 @@ export default {
       "masked": "Her anger began to ____ after they talked.",
       "options": [
         "fade-mcq-03",
-        "fade-mcq-02",
-        "fade-mcq-04",
-        "fade-mcq-01",
-        "fade-mcq-05",
-        "fade-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fade」指「記憶、感受或情緒隨時間逐漸失去清晰度或強度」。",
       "sentenceIndex": 5,
@@ -447,12 +403,8 @@ export default {
         "fade"
       ],
       "optionReasons": {
-        "fade-mcq-03": "本句指「記憶、感受或情緒隨時間逐漸失去清晰度或強度」。",
-        "fade-mcq-02": "「聲音逐漸減弱，直至變得微弱或幾乎聽不見」與本句語境不同。",
-        "fade-mcq-04": "「逐漸失去顯著性、重要性或吸引注意力的程度」與本句語境不同。",
-        "fade-mcq-01": "「顏色、光線或影像的強度逐漸減弱，變得較淡、較暗或較難看見」與本句語境不同。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。"
+        "fade-mcq-03": "本句的「fade」指「記憶、感受或情緒隨時間逐漸失去清晰度或強度」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-03"
     },
@@ -464,11 +416,7 @@ export default {
       "masked": "Everything seemed to ____.",
       "options": [
         "fade-mcq-04",
-        "fade-mcq-03",
-        "fade-mcq-05",
-        "fade-mcq-02",
-        "fade-mcq-06",
-        "fade-mcq-01"
+        "fade-mcq-08"
       ],
       "explanation": "本句的「fade into the background」指「逐漸失去顯著性、重要性或吸引注意力的程度」。",
       "sentenceIndex": 6,
@@ -477,12 +425,8 @@ export default {
         "fade into the background"
       ],
       "optionReasons": {
-        "fade-mcq-04": "本句指「逐漸失去顯著性、重要性或吸引注意力的程度」。",
-        "fade-mcq-03": "「記憶、感受或情緒隨時間逐漸失去清晰度或強度」與本句語境不同。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。",
-        "fade-mcq-02": "「聲音逐漸減弱，直至變得微弱或幾乎聽不見」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。",
-        "fade-mcq-01": "「顏色、光線或影像的強度逐漸減弱，變得較淡、較暗或較難看見」與本句語境不同。"
+        "fade-mcq-04": "本句的「fade into the background」指「逐漸失去顯著性、重要性或吸引注意力的程度」。",
+        "fade-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-04"
     },
@@ -494,11 +438,7 @@ export default {
       "masked": "Once the music began, the conversations around me ____.",
       "options": [
         "fade-mcq-04",
-        "fade-mcq-03",
-        "fade-mcq-05",
-        "fade-mcq-02",
-        "fade-mcq-06",
-        "fade-mcq-01"
+        "fade-mcq-08"
       ],
       "explanation": "本句的「faded into the background」指「逐漸失去顯著性、重要性或吸引注意力的程度」。",
       "sentenceIndex": 7,
@@ -507,12 +447,8 @@ export default {
         "faded into the background"
       ],
       "optionReasons": {
-        "fade-mcq-04": "本句指「逐漸失去顯著性、重要性或吸引注意力的程度」。",
-        "fade-mcq-03": "「記憶、感受或情緒隨時間逐漸失去清晰度或強度」與本句語境不同。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。",
-        "fade-mcq-02": "「聲音逐漸減弱，直至變得微弱或幾乎聽不見」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。",
-        "fade-mcq-01": "「顏色、光線或影像的強度逐漸減弱，變得較淡、較暗或較難看見」與本句語境不同。"
+        "fade-mcq-04": "本句的「faded into the background」指「逐漸失去顯著性、重要性或吸引注意力的程度」。",
+        "fade-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-04"
     },
@@ -524,11 +460,7 @@ export default {
       "masked": "The issue gradually ____.",
       "options": [
         "fade-mcq-04",
-        "fade-mcq-03",
-        "fade-mcq-05",
-        "fade-mcq-02",
-        "fade-mcq-06",
-        "fade-mcq-01"
+        "fade-mcq-08"
       ],
       "explanation": "本句的「faded from public attention」指「逐漸失去顯著性、重要性或吸引注意力的程度」。",
       "sentenceIndex": 8,
@@ -537,12 +469,8 @@ export default {
         "faded from public attention"
       ],
       "optionReasons": {
-        "fade-mcq-04": "本句指「逐漸失去顯著性、重要性或吸引注意力的程度」。",
-        "fade-mcq-03": "「記憶、感受或情緒隨時間逐漸失去清晰度或強度」與本句語境不同。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。",
-        "fade-mcq-02": "「聲音逐漸減弱，直至變得微弱或幾乎聽不見」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。",
-        "fade-mcq-01": "「顏色、光線或影像的強度逐漸減弱，變得較淡、較暗或較難看見」與本句語境不同。"
+        "fade-mcq-04": "本句的「faded from public attention」指「逐漸失去顯著性、重要性或吸引注意力的程度」。",
+        "fade-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-04"
     },
@@ -554,11 +482,7 @@ export default {
       "masked": "The fashion quickly ____ in popularity.",
       "options": [
         "fade-mcq-05",
-        "fade-mcq-04",
-        "fade-mcq-06",
-        "fade-mcq-03",
-        "fade-mcq-07",
-        "fade-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「faded」指「人氣、名聲或影響力隨時間逐漸衰退」。",
       "sentenceIndex": 9,
@@ -567,12 +491,8 @@ export default {
         "faded"
       ],
       "optionReasons": {
-        "fade-mcq-05": "本句指「人氣、名聲或影響力隨時間逐漸衰退」。",
-        "fade-mcq-04": "「逐漸失去顯著性、重要性或吸引注意力的程度」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。",
-        "fade-mcq-03": "「記憶、感受或情緒隨時間逐漸失去清晰度或強度」與本句語境不同。",
-        "fade-mcq-07": "「原本鮮明的顏色或外觀已逐漸失去強度的」與本句語境不同。",
-        "fade-mcq-02": "「聲音逐漸減弱，直至變得微弱或幾乎聽不見」與本句語境不同。"
+        "fade-mcq-05": "本句的「faded」指「人氣、名聲或影響力隨時間逐漸衰退」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-05"
     },
@@ -584,11 +504,7 @@ export default {
       "masked": "His fame began to ____ after he retired.",
       "options": [
         "fade-mcq-05",
-        "fade-mcq-04",
-        "fade-mcq-06",
-        "fade-mcq-03",
-        "fade-mcq-07",
-        "fade-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fade」指「人氣、名聲或影響力隨時間逐漸衰退」。",
       "sentenceIndex": 10,
@@ -597,12 +513,8 @@ export default {
         "fade"
       ],
       "optionReasons": {
-        "fade-mcq-05": "本句指「人氣、名聲或影響力隨時間逐漸衰退」。",
-        "fade-mcq-04": "「逐漸失去顯著性、重要性或吸引注意力的程度」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。",
-        "fade-mcq-03": "「記憶、感受或情緒隨時間逐漸失去清晰度或強度」與本句語境不同。",
-        "fade-mcq-07": "「原本鮮明的顏色或外觀已逐漸失去強度的」與本句語境不同。",
-        "fade-mcq-02": "「聲音逐漸減弱，直至變得微弱或幾乎聽不見」與本句語境不同。"
+        "fade-mcq-05": "本句的「fade」指「人氣、名聲或影響力隨時間逐漸衰退」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-05"
     },
@@ -614,11 +526,7 @@ export default {
       "masked": "Strong sunlight had ____ the carpet.",
       "options": [
         "fade-mcq-06",
-        "fade-mcq-05",
-        "fade-mcq-07",
-        "fade-mcq-04",
-        "fade-mcq-08",
-        "fade-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「faded」指「使某物的顏色、亮度或影像強度逐漸減弱」。",
       "sentenceIndex": 11,
@@ -627,12 +535,8 @@ export default {
         "faded"
       ],
       "optionReasons": {
-        "fade-mcq-06": "本句指「使某物的顏色、亮度或影像強度逐漸減弱」。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。",
-        "fade-mcq-07": "「原本鮮明的顏色或外觀已逐漸失去強度的」與本句語境不同。",
-        "fade-mcq-04": "「逐漸失去顯著性、重要性或吸引注意力的程度」與本句語境不同。",
-        "fade-mcq-08": "「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」與本句語境不同。",
-        "fade-mcq-03": "「記憶、感受或情緒隨時間逐漸失去清晰度或強度」與本句語境不同。"
+        "fade-mcq-06": "本句的「faded」指「使某物的顏色、亮度或影像強度逐漸減弱」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-06"
     },
@@ -644,11 +548,7 @@ export default {
       "masked": "Years of exposure ____ the photograph.",
       "options": [
         "fade-mcq-06",
-        "fade-mcq-05",
-        "fade-mcq-07",
-        "fade-mcq-04",
-        "fade-mcq-08",
-        "fade-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「faded」指「使某物的顏色、亮度或影像強度逐漸減弱」。",
       "sentenceIndex": 12,
@@ -657,12 +557,8 @@ export default {
         "faded"
       ],
       "optionReasons": {
-        "fade-mcq-06": "本句指「使某物的顏色、亮度或影像強度逐漸減弱」。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。",
-        "fade-mcq-07": "「原本鮮明的顏色或外觀已逐漸失去強度的」與本句語境不同。",
-        "fade-mcq-04": "「逐漸失去顯著性、重要性或吸引注意力的程度」與本句語境不同。",
-        "fade-mcq-08": "「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」與本句語境不同。",
-        "fade-mcq-03": "「記憶、感受或情緒隨時間逐漸失去清晰度或強度」與本句語境不同。"
+        "fade-mcq-06": "本句的「faded」指「使某物的顏色、亮度或影像強度逐漸減弱」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-06"
     },
@@ -674,11 +570,7 @@ export default {
       "masked": "He was wearing a pair of ____ jeans.",
       "options": [
         "fade-mcq-07",
-        "fade-mcq-06",
-        "fade-mcq-08",
-        "fade-mcq-05",
-        "fade-mcq-09",
-        "fade-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「faded」指「原本鮮明的顏色或外觀已逐漸失去強度的」。",
       "sentenceIndex": 13,
@@ -687,12 +579,8 @@ export default {
         "faded"
       ],
       "optionReasons": {
-        "fade-mcq-07": "本句指「原本鮮明的顏色或外觀已逐漸失去強度的」。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。",
-        "fade-mcq-08": "「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」與本句語境不同。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。",
-        "fade-mcq-09": "「正處於逐漸減弱、變淡或消失的過程中」與本句語境不同。",
-        "fade-mcq-04": "「逐漸失去顯著性、重要性或吸引注意力的程度」與本句語境不同。"
+        "fade-mcq-07": "本句的「faded」指「原本鮮明的顏色或外觀已逐漸失去強度的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-07"
     },
@@ -704,11 +592,7 @@ export default {
       "masked": "The sign was old and ____.",
       "options": [
         "fade-mcq-07",
-        "fade-mcq-06",
-        "fade-mcq-08",
-        "fade-mcq-05",
-        "fade-mcq-09",
-        "fade-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「faded」指「原本鮮明的顏色或外觀已逐漸失去強度的」。",
       "sentenceIndex": 14,
@@ -717,12 +601,8 @@ export default {
         "faded"
       ],
       "optionReasons": {
-        "fade-mcq-07": "本句指「原本鮮明的顏色或外觀已逐漸失去強度的」。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。",
-        "fade-mcq-08": "「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」與本句語境不同。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。",
-        "fade-mcq-09": "「正處於逐漸減弱、變淡或消失的過程中」與本句語境不同。",
-        "fade-mcq-04": "「逐漸失去顯著性、重要性或吸引注意力的程度」與本句語境不同。"
+        "fade-mcq-07": "本句的「faded」指「原本鮮明的顏色或外觀已逐漸失去強度的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-07"
     },
@@ -734,11 +614,7 @@ export default {
       "masked": "Only a ____ memory of the trip remained.",
       "options": [
         "fade-mcq-08",
-        "fade-mcq-07",
-        "fade-mcq-09",
-        "fade-mcq-06",
-        "fade-mcq-10",
-        "fade-mcq-05"
+        "fade-mcq-13"
       ],
       "explanation": "本句的「faded」指「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」。",
       "sentenceIndex": 15,
@@ -747,12 +623,8 @@ export default {
         "faded"
       ],
       "optionReasons": {
-        "fade-mcq-08": "本句指「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」。",
-        "fade-mcq-07": "「原本鮮明的顏色或外觀已逐漸失去強度的」與本句語境不同。",
-        "fade-mcq-09": "「正處於逐漸減弱、變淡或消失的過程中」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。",
-        "fade-mcq-10": "「影像或聲音逐漸出現、消失或改變強度的製作效果」與本句語境不同。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。"
+        "fade-mcq-08": "本句的「faded」指「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」。",
+        "fade-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-08"
     },
@@ -764,11 +636,7 @@ export default {
       "masked": "The building was a reminder of the town’s ____.",
       "options": [
         "fade-mcq-08",
-        "fade-mcq-07",
-        "fade-mcq-09",
-        "fade-mcq-06",
-        "fade-mcq-10",
-        "fade-mcq-05"
+        "fade-mcq-13"
       ],
       "explanation": "本句的「faded glory」指「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」。",
       "sentenceIndex": 16,
@@ -777,12 +645,8 @@ export default {
         "faded glory"
       ],
       "optionReasons": {
-        "fade-mcq-08": "本句指「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」。",
-        "fade-mcq-07": "「原本鮮明的顏色或外觀已逐漸失去強度的」與本句語境不同。",
-        "fade-mcq-09": "「正處於逐漸減弱、變淡或消失的過程中」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。",
-        "fade-mcq-10": "「影像或聲音逐漸出現、消失或改變強度的製作效果」與本句語境不同。",
-        "fade-mcq-05": "「人氣、名聲或影響力隨時間逐漸衰退」與本句語境不同。"
+        "fade-mcq-08": "本句的「faded glory」指「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」。",
+        "fade-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-08"
     },
@@ -794,11 +658,7 @@ export default {
       "masked": "They watched the ____ light.",
       "options": [
         "fade-mcq-09",
-        "fade-mcq-08",
-        "fade-mcq-10",
-        "fade-mcq-07",
-        "fade-mcq-11",
-        "fade-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fading」指「正處於逐漸減弱、變淡或消失的過程中」。",
       "sentenceIndex": 17,
@@ -807,12 +667,8 @@ export default {
         "fading"
       ],
       "optionReasons": {
-        "fade-mcq-09": "本句指「正處於逐漸減弱、變淡或消失的過程中」。",
-        "fade-mcq-08": "「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」與本句語境不同。",
-        "fade-mcq-10": "「影像或聲音逐漸出現、消失或改變強度的製作效果」與本句語境不同。",
-        "fade-mcq-07": "「原本鮮明的顏色或外觀已逐漸失去強度的」與本句語境不同。",
-        "fade-mcq-11": "「影像或聲音逐漸出現或增強的淡入效果」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。"
+        "fade-mcq-09": "本句的「fading」指「正處於逐漸減弱、變淡或消失的過程中」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-09"
     },
@@ -824,11 +680,7 @@ export default {
       "masked": "She spoke with a ____ sense of confidence.",
       "options": [
         "fade-mcq-09",
-        "fade-mcq-08",
-        "fade-mcq-10",
-        "fade-mcq-07",
-        "fade-mcq-11",
-        "fade-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fading」指「正處於逐漸減弱、變淡或消失的過程中」。",
       "sentenceIndex": 18,
@@ -837,12 +689,8 @@ export default {
         "fading"
       ],
       "optionReasons": {
-        "fade-mcq-09": "本句指「正處於逐漸減弱、變淡或消失的過程中」。",
-        "fade-mcq-08": "「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」與本句語境不同。",
-        "fade-mcq-10": "「影像或聲音逐漸出現、消失或改變強度的製作效果」與本句語境不同。",
-        "fade-mcq-07": "「原本鮮明的顏色或外觀已逐漸失去強度的」與本句語境不同。",
-        "fade-mcq-11": "「影像或聲音逐漸出現或增強的淡入效果」與本句語境不同。",
-        "fade-mcq-06": "「使某物的顏色、亮度或影像強度逐漸減弱」與本句語境不同。"
+        "fade-mcq-09": "本句的「fading」指「正處於逐漸減弱、變淡或消失的過程中」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-09"
     },
@@ -854,11 +702,7 @@ export default {
       "masked": "The scene ended with a slow ____.",
       "options": [
         "fade-mcq-10",
-        "fade-mcq-09",
-        "fade-mcq-11",
-        "fade-mcq-08",
-        "fade-mcq-12",
-        "fade-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fade」指「影像或聲音逐漸出現、消失或改變強度的製作效果」。",
       "sentenceIndex": 19,
@@ -867,12 +711,8 @@ export default {
         "fade"
       ],
       "optionReasons": {
-        "fade-mcq-10": "本句指「影像或聲音逐漸出現、消失或改變強度的製作效果」。",
-        "fade-mcq-09": "「正處於逐漸減弱、變淡或消失的過程中」與本句語境不同。",
-        "fade-mcq-11": "「影像或聲音逐漸出現或增強的淡入效果」與本句語境不同。",
-        "fade-mcq-08": "「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」與本句語境不同。",
-        "fade-mcq-12": "「影像或聲音逐漸減弱直至消失的淡出效果」與本句語境不同。",
-        "fade-mcq-07": "「原本鮮明的顏色或外觀已逐漸失去強度的」與本句語境不同。"
+        "fade-mcq-10": "本句的「fade」指「影像或聲音逐漸出現、消失或改變強度的製作效果」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-10"
     },
@@ -884,11 +724,7 @@ export default {
       "masked": "The editor used a ____ between the two scenes.",
       "options": [
         "fade-mcq-10",
-        "fade-mcq-09",
-        "fade-mcq-11",
-        "fade-mcq-08",
-        "fade-mcq-12",
-        "fade-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「fade」指「影像或聲音逐漸出現、消失或改變強度的製作效果」。",
       "sentenceIndex": 20,
@@ -897,12 +733,8 @@ export default {
         "fade"
       ],
       "optionReasons": {
-        "fade-mcq-10": "本句指「影像或聲音逐漸出現、消失或改變強度的製作效果」。",
-        "fade-mcq-09": "「正處於逐漸減弱、變淡或消失的過程中」與本句語境不同。",
-        "fade-mcq-11": "「影像或聲音逐漸出現或增強的淡入效果」與本句語境不同。",
-        "fade-mcq-08": "「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」與本句語境不同。",
-        "fade-mcq-12": "「影像或聲音逐漸減弱直至消失的淡出效果」與本句語境不同。",
-        "fade-mcq-07": "「原本鮮明的顏色或外觀已逐漸失去強度的」與本句語境不同。"
+        "fade-mcq-10": "本句的「fade」指「影像或聲音逐漸出現、消失或改變強度的製作效果」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-10"
     },
@@ -914,10 +746,6 @@ export default {
       "masked": "He asked the barber for a low ____.",
       "options": [
         "fade-mcq-13",
-        "fade-mcq-12",
-        "fade-mcq-11",
-        "fade-mcq-10",
-        "fade-mcq-09",
         "fade-mcq-08"
       ],
       "explanation": "本句的「fade」指「頭髮由極短部分逐漸過渡至較長部分的漸層推剪髮型」。",
@@ -927,12 +755,8 @@ export default {
         "fade"
       ],
       "optionReasons": {
-        "fade-mcq-13": "本句指「頭髮由極短部分逐漸過渡至較長部分的漸層推剪髮型」。",
-        "fade-mcq-12": "「影像或聲音逐漸減弱直至消失的淡出效果」與本句語境不同。",
-        "fade-mcq-11": "「影像或聲音逐漸出現或增強的淡入效果」與本句語境不同。",
-        "fade-mcq-10": "「影像或聲音逐漸出現、消失或改變強度的製作效果」與本句語境不同。",
-        "fade-mcq-09": "「正處於逐漸減弱、變淡或消失的過程中」與本句語境不同。",
-        "fade-mcq-08": "「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」與本句語境不同。"
+        "fade-mcq-13": "本句的「fade」指「頭髮由極短部分逐漸過渡至較長部分的漸層推剪髮型」。",
+        "fade-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-13"
     },
@@ -944,10 +768,6 @@ export default {
       "masked": "A ____ needs regular trimming to keep its shape.",
       "options": [
         "fade-mcq-13",
-        "fade-mcq-12",
-        "fade-mcq-11",
-        "fade-mcq-10",
-        "fade-mcq-09",
         "fade-mcq-08"
       ],
       "explanation": "本句的「fade」指「頭髮由極短部分逐漸過渡至較長部分的漸層推剪髮型」。",
@@ -957,12 +777,8 @@ export default {
         "fade"
       ],
       "optionReasons": {
-        "fade-mcq-13": "本句指「頭髮由極短部分逐漸過渡至較長部分的漸層推剪髮型」。",
-        "fade-mcq-12": "「影像或聲音逐漸減弱直至消失的淡出效果」與本句語境不同。",
-        "fade-mcq-11": "「影像或聲音逐漸出現或增強的淡入效果」與本句語境不同。",
-        "fade-mcq-10": "「影像或聲音逐漸出現、消失或改變強度的製作效果」與本句語境不同。",
-        "fade-mcq-09": "「正處於逐漸減弱、變淡或消失的過程中」與本句語境不同。",
-        "fade-mcq-08": "「原本清晰、強烈或輝煌，但隨時間已明顯減弱的」與本句語境不同。"
+        "fade-mcq-13": "本句的「fade」指「頭髮由極短部分逐漸過渡至較長部分的漸層推剪髮型」。",
+        "fade-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fade-mcq-13"
     }
@@ -974,5 +790,12 @@ export default {
     "sha256": "e9e3ce4619928d95b7bb03c0040243fddad45105d5a7e45ba5eacfdb43894a93",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -487,7 +487,7 @@ export default {
     },
     {
       "id": "idea-mcq-21",
-      "title": "表示對方已理解正確原則或做法；對，就是這樣",
+      "title": "對方已理解正確原則或做法；對，就是這樣",
       "form": "that’s the idea",
       "en": "that’s the idea",
       "zh": "表示對方已理解正確原則或做法；對，就是這樣",
@@ -509,7 +509,7 @@ export default {
     },
     {
       "id": "idea-mcq-22",
-      "title": "表示某個提議值得考慮；這倒是個主意",
+      "title": "某個提議值得考慮；這倒是個主意",
       "form": "that’s an idea",
       "en": "that’s an idea",
       "zh": "表示某個提議值得考慮；這倒是個主意",
@@ -564,7 +564,7 @@ export default {
     },
     {
       "id": "idea-mcq-25",
-      "title": "表示想法；主意；念頭",
+      "title": "想法；主意；念頭",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示想法；主意；念頭",
@@ -608,7 +608,7 @@ export default {
     },
     {
       "id": "idea-mcq-27",
-      "title": "表示理想；理念",
+      "title": "理想；理念",
       "form": "Noun",
       "en": "Noun",
       "zh": "表示理想；理念",
@@ -630,7 +630,7 @@ export default {
     },
     {
       "id": "idea-mcq-28",
-      "title": "表示理想主義的；理想化的",
+      "title": "理想主義的；理想化的",
       "form": "32. idealistic",
       "en": "32. idealistic",
       "zh": "表示理想主義的；理想化的",
@@ -662,7 +662,7 @@ export default {
     },
     {
       "id": "idea-mcq-29",
-      "title": "表示想法",
+      "title": "想法",
       "form": "34. idea is usually countable",
       "en": "34. idea is usually countable",
       "zh": "表示想法",
@@ -692,11 +692,9 @@ export default {
       "masked": "I had ____, but I was too nervous to share it.",
       "options": [
         "idea-mcq-25",
-        "idea-mcq-24",
-        "idea-mcq-26",
-        "idea-mcq-23",
-        "idea-mcq-27",
-        "idea-mcq-22"
+        "idea-mcq-19",
+        "idea-mcq-05",
+        "idea-mcq-15"
       ],
       "explanation": "本句的「an idea」指「表示想法；主意；念頭」。",
       "sentenceIndex": 0,
@@ -705,12 +703,10 @@ export default {
         "an idea"
       ],
       "optionReasons": {
-        "idea-mcq-25": "本句指「表示想法；主意；念頭」。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。",
-        "idea-mcq-26": "「很不喜歡……這個想法；一想到……就不喜歡」是「24. hate the idea of something」的用法，與本句語境不同。",
-        "idea-mcq-23": "「聰明點子；有時以反諷語氣指不太好的主意」是「bright idea」的用法，與本句語境不同。",
-        "idea-mcq-27": "「表示理想；理念」是「Noun」的用法，與本句語境不同。",
-        "idea-mcq-22": "「表示某個提議值得考慮；這倒是個主意」是「that’s an idea」的用法，與本句語境不同。"
+        "idea-mcq-25": "本句的「an idea」指「表示想法；主意；念頭」。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-25"
     },
@@ -722,11 +718,9 @@ export default {
       "masked": "She raised her hand whenever she had ____ worth discussing.",
       "options": [
         "idea-mcq-25",
-        "idea-mcq-24",
-        "idea-mcq-26",
-        "idea-mcq-23",
-        "idea-mcq-27",
-        "idea-mcq-22"
+        "idea-mcq-19",
+        "idea-mcq-05",
+        "idea-mcq-15"
       ],
       "explanation": "本句的「an idea」指「表示想法；主意；念頭」。",
       "sentenceIndex": 1,
@@ -735,12 +729,10 @@ export default {
         "an idea"
       ],
       "optionReasons": {
-        "idea-mcq-25": "本句指「表示想法；主意；念頭」。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。",
-        "idea-mcq-26": "「很不喜歡……這個想法；一想到……就不喜歡」是「24. hate the idea of something」的用法，與本句語境不同。",
-        "idea-mcq-23": "「聰明點子；有時以反諷語氣指不太好的主意」是「bright idea」的用法，與本句語境不同。",
-        "idea-mcq-27": "「表示理想；理念」是「Noun」的用法，與本句語境不同。",
-        "idea-mcq-22": "「表示某個提議值得考慮；這倒是個主意」是「that’s an idea」的用法，與本句語境不同。"
+        "idea-mcq-25": "本句的「an idea」指「表示想法；主意；念頭」。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-25"
     },
@@ -752,11 +744,9 @@ export default {
       "masked": "I have an ____ for the project.",
       "options": [
         "idea-mcq-01",
-        "idea-mcq-02",
-        "idea-mcq-03",
-        "idea-mcq-04",
-        "idea-mcq-05",
-        "idea-mcq-06"
+        "idea-mcq-06",
+        "idea-mcq-19",
+        "idea-mcq-14"
       ],
       "explanation": "本句的「idea」指「出現在腦中的想法、主意或可提出的意見」。",
       "sentenceIndex": 2,
@@ -765,12 +755,10 @@ export default {
         "idea"
       ],
       "optionReasons": {
-        "idea-mcq-01": "本句指「出現在腦中的想法、主意或可提出的意見」。",
-        "idea-mcq-02": "「想到一個主意／腦中有一個想法」是「have an idea」的用法，與本句語境不同。",
-        "idea-mcq-03": "「主動想出一個新的點子或方法」是「come up with an idea」的用法，與本句語境不同。",
-        "idea-mcq-04": "「對應該做什麼提出的構想、方案或主意」是「idea — plan/proposal」的用法，與本句語境不同。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。"
+        "idea-mcq-01": "本句的「idea」指「出現在腦中的想法、主意或可提出的意見」。",
+        "idea-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-01"
     },
@@ -782,11 +770,9 @@ export default {
       "masked": "That’s a great ____.",
       "options": [
         "idea-mcq-01",
-        "idea-mcq-02",
-        "idea-mcq-03",
-        "idea-mcq-04",
-        "idea-mcq-05",
-        "idea-mcq-06"
+        "idea-mcq-06",
+        "idea-mcq-19",
+        "idea-mcq-17"
       ],
       "explanation": "本句的「idea」指「出現在腦中的想法、主意或可提出的意見」。",
       "sentenceIndex": 3,
@@ -795,12 +781,10 @@ export default {
         "idea"
       ],
       "optionReasons": {
-        "idea-mcq-01": "本句指「出現在腦中的想法、主意或可提出的意見」。",
-        "idea-mcq-02": "「想到一個主意／腦中有一個想法」是「have an idea」的用法，與本句語境不同。",
-        "idea-mcq-03": "「主動想出一個新的點子或方法」是「come up with an idea」的用法，與本句語境不同。",
-        "idea-mcq-04": "「對應該做什麼提出的構想、方案或主意」是「idea — plan/proposal」的用法，與本句語境不同。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。"
+        "idea-mcq-01": "本句的「idea」指「出現在腦中的想法、主意或可提出的意見」。",
+        "idea-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-01"
     },
@@ -812,11 +796,9 @@ export default {
       "masked": "I’ve just had an ____.",
       "options": [
         "idea-mcq-02",
-        "idea-mcq-01",
-        "idea-mcq-03",
-        "idea-mcq-04",
-        "idea-mcq-05",
-        "idea-mcq-06"
+        "idea-mcq-09",
+        "idea-mcq-19",
+        "idea-mcq-05"
       ],
       "explanation": "本句的「idea」指「想到一個主意／腦中有一個想法」。",
       "sentenceIndex": 4,
@@ -825,12 +807,10 @@ export default {
         "idea"
       ],
       "optionReasons": {
-        "idea-mcq-02": "本句指「想到一個主意／腦中有一個想法」。",
-        "idea-mcq-01": "「出現在腦中的想法、主意或可提出的意見」是「idea — thought/suggestion」的用法，與本句語境不同。",
-        "idea-mcq-03": "「主動想出一個新的點子或方法」是「come up with an idea」的用法，與本句語境不同。",
-        "idea-mcq-04": "「對應該做什麼提出的構想、方案或主意」是「idea — plan/proposal」的用法，與本句語境不同。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。"
+        "idea-mcq-02": "本句的「idea」指「想到一個主意／腦中有一個想法」。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-02"
     },
@@ -842,11 +822,9 @@ export default {
       "masked": "She had an ____ for improving the lesson.",
       "options": [
         "idea-mcq-02",
-        "idea-mcq-01",
-        "idea-mcq-03",
-        "idea-mcq-04",
-        "idea-mcq-05",
-        "idea-mcq-06"
+        "idea-mcq-09",
+        "idea-mcq-19",
+        "idea-mcq-05"
       ],
       "explanation": "本句的「idea」指「想到一個主意／腦中有一個想法」。",
       "sentenceIndex": 5,
@@ -855,12 +833,10 @@ export default {
         "idea"
       ],
       "optionReasons": {
-        "idea-mcq-02": "本句指「想到一個主意／腦中有一個想法」。",
-        "idea-mcq-01": "「出現在腦中的想法、主意或可提出的意見」是「idea — thought/suggestion」的用法，與本句語境不同。",
-        "idea-mcq-03": "「主動想出一個新的點子或方法」是「come up with an idea」的用法，與本句語境不同。",
-        "idea-mcq-04": "「對應該做什麼提出的構想、方案或主意」是「idea — plan/proposal」的用法，與本句語境不同。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。"
+        "idea-mcq-02": "本句的「idea」指「想到一個主意／腦中有一個想法」。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-02"
     },
@@ -872,11 +848,9 @@ export default {
       "masked": "We need to ____ quickly.",
       "options": [
         "idea-mcq-03",
-        "idea-mcq-02",
-        "idea-mcq-04",
-        "idea-mcq-01",
-        "idea-mcq-05",
-        "idea-mcq-06"
+        "idea-mcq-19",
+        "idea-mcq-06",
+        "idea-mcq-17"
       ],
       "explanation": "本句的「come up with an idea」指「主動想出一個新的點子或方法」。",
       "sentenceIndex": 6,
@@ -885,12 +859,10 @@ export default {
         "come up with an idea"
       ],
       "optionReasons": {
-        "idea-mcq-03": "本句指「主動想出一個新的點子或方法」。",
-        "idea-mcq-02": "「想到一個主意／腦中有一個想法」是「have an idea」的用法，與本句語境不同。",
-        "idea-mcq-04": "「對應該做什麼提出的構想、方案或主意」是「idea — plan/proposal」的用法，與本句語境不同。",
-        "idea-mcq-01": "「出現在腦中的想法、主意或可提出的意見」是「idea — thought/suggestion」的用法，與本句語境不同。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。"
+        "idea-mcq-03": "本句的「come up with an idea」指「主動想出一個新的點子或方法」。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-03"
     },
@@ -902,11 +874,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "idea-mcq-03",
-        "idea-mcq-02",
-        "idea-mcq-04",
-        "idea-mcq-01",
-        "idea-mcq-05",
-        "idea-mcq-06"
+        "idea-mcq-09",
+        "idea-mcq-19",
+        "idea-mcq-17"
       ],
       "explanation": "本句的「came up with a clever idea」指「主動想出一個新的點子或方法」。",
       "sentenceIndex": 7,
@@ -915,12 +885,10 @@ export default {
         "came up with a clever idea"
       ],
       "optionReasons": {
-        "idea-mcq-03": "本句指「主動想出一個新的點子或方法」。",
-        "idea-mcq-02": "「想到一個主意／腦中有一個想法」是「have an idea」的用法，與本句語境不同。",
-        "idea-mcq-04": "「對應該做什麼提出的構想、方案或主意」是「idea — plan/proposal」的用法，與本句語境不同。",
-        "idea-mcq-01": "「出現在腦中的想法、主意或可提出的意見」是「idea — thought/suggestion」的用法，與本句語境不同。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。"
+        "idea-mcq-03": "本句的「came up with a clever idea」指「主動想出一個新的點子或方法」。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-03"
     },
@@ -932,11 +900,9 @@ export default {
       "masked": "My ____ is to start earlier.",
       "options": [
         "idea-mcq-04",
-        "idea-mcq-03",
-        "idea-mcq-05",
-        "idea-mcq-02",
         "idea-mcq-06",
-        "idea-mcq-01"
+        "idea-mcq-20",
+        "idea-mcq-26"
       ],
       "explanation": "本句的「idea」指「對應該做什麼提出的構想、方案或主意」。",
       "sentenceIndex": 8,
@@ -945,12 +911,10 @@ export default {
         "idea"
       ],
       "optionReasons": {
-        "idea-mcq-04": "本句指「對應該做什麼提出的構想、方案或主意」。",
-        "idea-mcq-03": "「主動想出一個新的點子或方法」是「come up with an idea」的用法，與本句語境不同。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。",
-        "idea-mcq-02": "「想到一個主意／腦中有一個想法」是「have an idea」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。",
-        "idea-mcq-01": "「出現在腦中的想法、主意或可提出的意見」是「idea — thought/suggestion」的用法，與本句語境不同。"
+        "idea-mcq-04": "本句的「idea」指「對應該做什麼提出的構想、方案或主意」。",
+        "idea-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-04"
     },
@@ -962,11 +926,9 @@ export default {
       "masked": "They discussed several ____ for reducing costs.",
       "options": [
         "idea-mcq-04",
-        "idea-mcq-03",
-        "idea-mcq-05",
-        "idea-mcq-02",
         "idea-mcq-06",
-        "idea-mcq-01"
+        "idea-mcq-20",
+        "idea-mcq-15"
       ],
       "explanation": "本句的「ideas」指「對應該做什麼提出的構想、方案或主意」。",
       "sentenceIndex": 9,
@@ -975,12 +937,10 @@ export default {
         "ideas"
       ],
       "optionReasons": {
-        "idea-mcq-04": "本句指「對應該做什麼提出的構想、方案或主意」。",
-        "idea-mcq-03": "「主動想出一個新的點子或方法」是「come up with an idea」的用法，與本句語境不同。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。",
-        "idea-mcq-02": "「想到一個主意／腦中有一個想法」是「have an idea」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。",
-        "idea-mcq-01": "「出現在腦中的想法、主意或可提出的意見」是「idea — thought/suggestion」的用法，與本句語境不同。"
+        "idea-mcq-04": "本句的「ideas」指「對應該做什麼提出的構想、方案或主意」。",
+        "idea-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-04"
     },
@@ -992,11 +952,9 @@ export default {
       "masked": "Do you have any ____?",
       "options": [
         "idea-mcq-05",
-        "idea-mcq-04",
-        "idea-mcq-06",
-        "idea-mcq-03",
+        "idea-mcq-23",
         "idea-mcq-07",
-        "idea-mcq-02"
+        "idea-mcq-19"
       ],
       "explanation": "本句的「ideas for the presentation」指「為某個目的、作品或問題提出的構想」。",
       "sentenceIndex": 10,
@@ -1005,12 +963,10 @@ export default {
         "ideas for the presentation"
       ],
       "optionReasons": {
-        "idea-mcq-05": "本句指「為某個目的、作品或問題提出的構想」。",
-        "idea-mcq-04": "「對應該做什麼提出的構想、方案或主意」是「idea — plan/proposal」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。",
-        "idea-mcq-03": "「主動想出一個新的點子或方法」是「come up with an idea」的用法，與本句語境不同。",
-        "idea-mcq-07": "「對某事物形成的概念、理解或看法」是「idea of something」的用法，與本句語境不同。",
-        "idea-mcq-02": "「想到一個主意／腦中有一個想法」是「have an idea」的用法，與本句語境不同。"
+        "idea-mcq-05": "本句的「ideas for the presentation」指「為某個目的、作品或問題提出的構想」。",
+        "idea-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-05"
     },
@@ -1022,11 +978,9 @@ export default {
       "masked": "She suggested an ____.",
       "options": [
         "idea-mcq-05",
-        "idea-mcq-04",
-        "idea-mcq-06",
-        "idea-mcq-03",
-        "idea-mcq-07",
-        "idea-mcq-02"
+        "idea-mcq-19",
+        "idea-mcq-09",
+        "idea-mcq-08"
       ],
       "explanation": "本句的「idea for a new campaign」指「為某個目的、作品或問題提出的構想」。",
       "sentenceIndex": 11,
@@ -1035,12 +989,10 @@ export default {
         "idea for a new campaign"
       ],
       "optionReasons": {
-        "idea-mcq-05": "本句指「為某個目的、作品或問題提出的構想」。",
-        "idea-mcq-04": "「對應該做什麼提出的構想、方案或主意」是「idea — plan/proposal」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。",
-        "idea-mcq-03": "「主動想出一個新的點子或方法」是「come up with an idea」的用法，與本句語境不同。",
-        "idea-mcq-07": "「對某事物形成的概念、理解或看法」是「idea of something」的用法，與本句語境不同。",
-        "idea-mcq-02": "「想到一個主意／腦中有一個想法」是「have an idea」的用法，與本句語境不同。"
+        "idea-mcq-05": "本句的「idea for a new campaign」指「為某個目的、作品或問題提出的構想」。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-05"
     },
@@ -1053,10 +1005,8 @@ export default {
       "options": [
         "idea-mcq-06",
         "idea-mcq-05",
-        "idea-mcq-07",
-        "idea-mcq-04",
-        "idea-mcq-08",
-        "idea-mcq-03"
+        "idea-mcq-02",
+        "idea-mcq-19"
       ],
       "explanation": "本句的「idea of fairness」指「用來理解某個抽象事物的概念／觀念」。",
       "sentenceIndex": 12,
@@ -1065,12 +1015,10 @@ export default {
         "idea of fairness"
       ],
       "optionReasons": {
-        "idea-mcq-06": "本句指「用來理解某個抽象事物的概念／觀念」。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。",
-        "idea-mcq-07": "「對某事物形成的概念、理解或看法」是「idea of something」的用法，與本句語境不同。",
-        "idea-mcq-04": "「對應該做什麼提出的構想、方案或主意」是「idea — plan/proposal」的用法，與本句語境不同。",
-        "idea-mcq-08": "「對某件事所持有的觀念、看法或信念」是「idea — opinion/belief」的用法，與本句語境不同。",
-        "idea-mcq-03": "「主動想出一個新的點子或方法」是「come up with an idea」的用法，與本句語境不同。"
+        "idea-mcq-06": "本句的「idea of fairness」指「用來理解某個抽象事物的概念／觀念」。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-06"
     },
@@ -1082,11 +1030,9 @@ export default {
       "masked": "The ____ means different things to different people.",
       "options": [
         "idea-mcq-06",
-        "idea-mcq-05",
-        "idea-mcq-07",
-        "idea-mcq-04",
-        "idea-mcq-08",
-        "idea-mcq-03"
+        "idea-mcq-20",
+        "idea-mcq-03",
+        "idea-mcq-22"
       ],
       "explanation": "本句的「idea of freedom」指「用來理解某個抽象事物的概念／觀念」。",
       "sentenceIndex": 13,
@@ -1095,12 +1041,10 @@ export default {
         "idea of freedom"
       ],
       "optionReasons": {
-        "idea-mcq-06": "本句指「用來理解某個抽象事物的概念／觀念」。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。",
-        "idea-mcq-07": "「對某事物形成的概念、理解或看法」是「idea of something」的用法，與本句語境不同。",
-        "idea-mcq-04": "「對應該做什麼提出的構想、方案或主意」是「idea — plan/proposal」的用法，與本句語境不同。",
-        "idea-mcq-08": "「對某件事所持有的觀念、看法或信念」是「idea — opinion/belief」的用法，與本句語境不同。",
-        "idea-mcq-03": "「主動想出一個新的點子或方法」是「come up with an idea」的用法，與本句語境不同。"
+        "idea-mcq-06": "本句的「idea of freedom」指「用來理解某個抽象事物的概念／觀念」。",
+        "idea-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-06"
     },
@@ -1112,11 +1056,9 @@ export default {
       "masked": "His ____ is very different from mine.",
       "options": [
         "idea-mcq-07",
-        "idea-mcq-06",
-        "idea-mcq-08",
-        "idea-mcq-05",
-        "idea-mcq-09",
-        "idea-mcq-04"
+        "idea-mcq-22",
+        "idea-mcq-19",
+        "idea-mcq-05"
       ],
       "explanation": "本句的「idea of success」指「對某事物形成的概念、理解或看法」。",
       "sentenceIndex": 14,
@@ -1125,12 +1067,10 @@ export default {
         "idea of success"
       ],
       "optionReasons": {
-        "idea-mcq-07": "本句指「對某事物形成的概念、理解或看法」。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。",
-        "idea-mcq-08": "「對某件事所持有的觀念、看法或信念」是「idea — opinion/belief」的用法，與本句語境不同。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。",
-        "idea-mcq-09": "「完全不知道；毫無頭緒」是「have no idea」的用法，與本句語境不同。",
-        "idea-mcq-04": "「對應該做什麼提出的構想、方案或主意」是「idea — plan/proposal」的用法，與本句語境不同。"
+        "idea-mcq-07": "本句的「idea of success」指「對某事物形成的概念、理解或看法」。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-07"
     },
@@ -1142,11 +1082,9 @@ export default {
       "masked": "Our ____ changes over time.",
       "options": [
         "idea-mcq-07",
-        "idea-mcq-06",
-        "idea-mcq-08",
         "idea-mcq-05",
-        "idea-mcq-09",
-        "idea-mcq-04"
+        "idea-mcq-19",
+        "idea-mcq-22"
       ],
       "explanation": "本句的「idea of a good life」指「對某事物形成的概念、理解或看法」。",
       "sentenceIndex": 15,
@@ -1155,12 +1093,10 @@ export default {
         "idea of a good life"
       ],
       "optionReasons": {
-        "idea-mcq-07": "本句指「對某事物形成的概念、理解或看法」。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。",
-        "idea-mcq-08": "「對某件事所持有的觀念、看法或信念」是「idea — opinion/belief」的用法，與本句語境不同。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。",
-        "idea-mcq-09": "「完全不知道；毫無頭緒」是「have no idea」的用法，與本句語境不同。",
-        "idea-mcq-04": "「對應該做什麼提出的構想、方案或主意」是「idea — plan/proposal」的用法，與本句語境不同。"
+        "idea-mcq-07": "本句的「idea of a good life」指「對某事物形成的概念、理解或看法」。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-07"
     },
@@ -1172,11 +1108,9 @@ export default {
       "masked": "I don’t agree with his ____.",
       "options": [
         "idea-mcq-08",
-        "idea-mcq-07",
-        "idea-mcq-09",
-        "idea-mcq-06",
-        "idea-mcq-10",
-        "idea-mcq-05"
+        "idea-mcq-22",
+        "idea-mcq-13",
+        "idea-mcq-28"
       ],
       "explanation": "本句的「ideas about education」指「對某件事所持有的觀念、看法或信念」。",
       "sentenceIndex": 16,
@@ -1185,12 +1119,10 @@ export default {
         "ideas about education"
       ],
       "optionReasons": {
-        "idea-mcq-08": "本句指「對某件事所持有的觀念、看法或信念」。",
-        "idea-mcq-07": "「對某事物形成的概念、理解或看法」是「idea of something」的用法，與本句語境不同。",
-        "idea-mcq-09": "「完全不知道；毫無頭緒」是「have no idea」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。",
-        "idea-mcq-10": "「對某件事有部分了解或大概概念」是「have some idea」的用法，與本句語境不同。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。"
+        "idea-mcq-08": "本句的「ideas about education」指「對某件事所持有的觀念、看法或信念」。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-08"
     },
@@ -1202,11 +1134,9 @@ export default {
       "masked": "Her ____ changed after travelling abroad.",
       "options": [
         "idea-mcq-08",
-        "idea-mcq-07",
         "idea-mcq-09",
-        "idea-mcq-06",
-        "idea-mcq-10",
-        "idea-mcq-05"
+        "idea-mcq-18",
+        "idea-mcq-19"
       ],
       "explanation": "本句的「ideas」指「對某件事所持有的觀念、看法或信念」。",
       "sentenceIndex": 17,
@@ -1215,12 +1145,10 @@ export default {
         "ideas"
       ],
       "optionReasons": {
-        "idea-mcq-08": "本句指「對某件事所持有的觀念、看法或信念」。",
-        "idea-mcq-07": "「對某事物形成的概念、理解或看法」是「idea of something」的用法，與本句語境不同。",
-        "idea-mcq-09": "「完全不知道；毫無頭緒」是「have no idea」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。",
-        "idea-mcq-10": "「對某件事有部分了解或大概概念」是「have some idea」的用法，與本句語境不同。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。"
+        "idea-mcq-08": "本句的「ideas」指「對某件事所持有的觀念、看法或信念」。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-08"
     },
@@ -1232,11 +1160,9 @@ export default {
       "masked": "I had an ____.",
       "options": [
         "idea-mcq-08",
-        "idea-mcq-07",
-        "idea-mcq-09",
-        "idea-mcq-06",
-        "idea-mcq-10",
-        "idea-mcq-05"
+        "idea-mcq-18",
+        "idea-mcq-05",
+        "idea-mcq-19"
       ],
       "explanation": "本句的「idea that he might refuse」指「對某件事所持有的觀念、看法或信念」。",
       "sentenceIndex": 18,
@@ -1245,12 +1171,10 @@ export default {
         "idea that he might refuse"
       ],
       "optionReasons": {
-        "idea-mcq-08": "本句指「對某件事所持有的觀念、看法或信念」。",
-        "idea-mcq-07": "「對某事物形成的概念、理解或看法」是「idea of something」的用法，與本句語境不同。",
-        "idea-mcq-09": "「完全不知道；毫無頭緒」是「have no idea」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。",
-        "idea-mcq-10": "「對某件事有部分了解或大概概念」是「have some idea」的用法，與本句語境不同。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。"
+        "idea-mcq-08": "本句的「idea that he might refuse」指「對某件事所持有的觀念、看法或信念」。",
+        "idea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-08"
     },
@@ -1262,11 +1186,9 @@ export default {
       "masked": "She had the ____.",
       "options": [
         "idea-mcq-08",
-        "idea-mcq-07",
-        "idea-mcq-09",
-        "idea-mcq-06",
-        "idea-mcq-10",
-        "idea-mcq-05"
+        "idea-mcq-23",
+        "idea-mcq-13",
+        "idea-mcq-28"
       ],
       "explanation": "本句的「idea that everyone was judging her」指「對某件事所持有的觀念、看法或信念」。",
       "sentenceIndex": 19,
@@ -1275,12 +1197,10 @@ export default {
         "idea that everyone was judging her"
       ],
       "optionReasons": {
-        "idea-mcq-08": "本句指「對某件事所持有的觀念、看法或信念」。",
-        "idea-mcq-07": "「對某事物形成的概念、理解或看法」是「idea of something」的用法，與本句語境不同。",
-        "idea-mcq-09": "「完全不知道；毫無頭緒」是「have no idea」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。",
-        "idea-mcq-10": "「對某件事有部分了解或大概概念」是「have some idea」的用法，與本句語境不同。",
-        "idea-mcq-05": "「為某個目的、作品或問題提出的構想」是「idea for something」的用法，與本句語境不同。"
+        "idea-mcq-08": "本句的「idea that everyone was judging her」指「對某件事所持有的觀念、看法或信念」。",
+        "idea-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-08"
     },
@@ -1292,11 +1212,9 @@ export default {
       "masked": "I have ____ where he went.",
       "options": [
         "idea-mcq-09",
+        "idea-mcq-03",
         "idea-mcq-08",
-        "idea-mcq-10",
-        "idea-mcq-07",
-        "idea-mcq-11",
-        "idea-mcq-06"
+        "idea-mcq-18"
       ],
       "explanation": "本句的「no idea」指「完全不知道；毫無頭緒」。",
       "sentenceIndex": 20,
@@ -1305,12 +1223,10 @@ export default {
         "no idea"
       ],
       "optionReasons": {
-        "idea-mcq-09": "本句指「完全不知道；毫無頭緒」。",
-        "idea-mcq-08": "「對某件事所持有的觀念、看法或信念」是「idea — opinion/belief」的用法，與本句語境不同。",
-        "idea-mcq-10": "「對某件事有部分了解或大概概念」是「have some idea」的用法，與本句語境不同。",
-        "idea-mcq-07": "「對某事物形成的概念、理解或看法」是「idea of something」的用法，與本句語境不同。",
-        "idea-mcq-11": "「讓某人大概了解、想像或掌握某事」是「give someone an idea of...」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。"
+        "idea-mcq-09": "本句的「no idea」指「完全不知道；毫無頭緒」。",
+        "idea-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-09"
     },
@@ -1322,11 +1238,9 @@ export default {
       "masked": "She had ____ what to say.",
       "options": [
         "idea-mcq-09",
-        "idea-mcq-08",
-        "idea-mcq-10",
-        "idea-mcq-07",
-        "idea-mcq-11",
-        "idea-mcq-06"
+        "idea-mcq-27",
+        "idea-mcq-22",
+        "idea-mcq-20"
       ],
       "explanation": "本句的「no idea」指「完全不知道；毫無頭緒」。",
       "sentenceIndex": 21,
@@ -1335,12 +1249,10 @@ export default {
         "no idea"
       ],
       "optionReasons": {
-        "idea-mcq-09": "本句指「完全不知道；毫無頭緒」。",
-        "idea-mcq-08": "「對某件事所持有的觀念、看法或信念」是「idea — opinion/belief」的用法，與本句語境不同。",
-        "idea-mcq-10": "「對某件事有部分了解或大概概念」是「have some idea」的用法，與本句語境不同。",
-        "idea-mcq-07": "「對某事物形成的概念、理解或看法」是「idea of something」的用法，與本句語境不同。",
-        "idea-mcq-11": "「讓某人大概了解、想像或掌握某事」是「give someone an idea of...」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。"
+        "idea-mcq-09": "本句的「no idea」指「完全不知道；毫無頭緒」。",
+        "idea-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-09"
     },
@@ -1352,11 +1264,9 @@ export default {
       "masked": "Do you have any ____ how difficult this is?",
       "options": [
         "idea-mcq-10",
-        "idea-mcq-09",
-        "idea-mcq-11",
-        "idea-mcq-08",
-        "idea-mcq-12",
-        "idea-mcq-07"
+        "idea-mcq-01",
+        "idea-mcq-14",
+        "idea-mcq-17"
       ],
       "explanation": "本句的「idea」指「對某件事有部分了解或大概概念」。",
       "sentenceIndex": 22,
@@ -1365,12 +1275,10 @@ export default {
         "idea"
       ],
       "optionReasons": {
-        "idea-mcq-10": "本句指「對某件事有部分了解或大概概念」。",
-        "idea-mcq-09": "「完全不知道；毫無頭緒」是「have no idea」的用法，與本句語境不同。",
-        "idea-mcq-11": "「讓某人大概了解、想像或掌握某事」是「give someone an idea of...」的用法，與本句語境不同。",
-        "idea-mcq-08": "「對某件事所持有的觀念、看法或信念」是「idea — opinion/belief」的用法，與本句語境不同。",
-        "idea-mcq-12": "「理解主要意思、原則或做法」是「get the idea」的用法，與本句語境不同。",
-        "idea-mcq-07": "「對某事物形成的概念、理解或看法」是「idea of something」的用法，與本句語境不同。"
+        "idea-mcq-10": "本句的「idea」指「對某件事有部分了解或大概概念」。",
+        "idea-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-10"
     },
@@ -1382,11 +1290,8 @@ export default {
       "masked": "I have some ____.",
       "options": [
         "idea-mcq-10",
-        "idea-mcq-09",
-        "idea-mcq-11",
-        "idea-mcq-08",
-        "idea-mcq-12",
-        "idea-mcq-07"
+        "idea-mcq-29",
+        "idea-mcq-23"
       ],
       "explanation": "本句的「idea of what happened」指「對某件事有部分了解或大概概念」。",
       "sentenceIndex": 23,
@@ -1395,12 +1300,9 @@ export default {
         "idea of what happened"
       ],
       "optionReasons": {
-        "idea-mcq-10": "本句指「對某件事有部分了解或大概概念」。",
-        "idea-mcq-09": "「完全不知道；毫無頭緒」是「have no idea」的用法，與本句語境不同。",
-        "idea-mcq-11": "「讓某人大概了解、想像或掌握某事」是「give someone an idea of...」的用法，與本句語境不同。",
-        "idea-mcq-08": "「對某件事所持有的觀念、看法或信念」是「idea — opinion/belief」的用法，與本句語境不同。",
-        "idea-mcq-12": "「理解主要意思、原則或做法」是「get the idea」的用法，與本句語境不同。",
-        "idea-mcq-07": "「對某事物形成的概念、理解或看法」是「idea of something」的用法，與本句語境不同。"
+        "idea-mcq-10": "本句的「idea of what happened」指「對某件事有部分了解或大概概念」。",
+        "idea-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-10"
     },
@@ -1412,11 +1314,9 @@ export default {
       "masked": "The photos give you an ____ of the building.",
       "options": [
         "idea-mcq-11",
-        "idea-mcq-10",
-        "idea-mcq-12",
-        "idea-mcq-09",
-        "idea-mcq-13",
-        "idea-mcq-08"
+        "idea-mcq-08",
+        "idea-mcq-23",
+        "idea-mcq-05"
       ],
       "explanation": "本句的「idea of the size」指「讓某人大概了解、想像或掌握某事」。",
       "sentenceIndex": 24,
@@ -1425,12 +1325,10 @@ export default {
         "idea of the size"
       ],
       "optionReasons": {
-        "idea-mcq-11": "本句指「讓某人大概了解、想像或掌握某事」。",
-        "idea-mcq-10": "「對某件事有部分了解或大概概念」是「have some idea」的用法，與本句語境不同。",
-        "idea-mcq-12": "「理解主要意思、原則或做法」是「get the idea」的用法，與本句語境不同。",
-        "idea-mcq-09": "「完全不知道；毫無頭緒」是「have no idea」的用法，與本句語境不同。",
-        "idea-mcq-13": "「對某人的意思、關係或情況產生錯誤理解」是「get the wrong idea」的用法，與本句語境不同。",
-        "idea-mcq-08": "「對某件事所持有的觀念、看法或信念」是「idea — opinion/belief」的用法，與本句語境不同。"
+        "idea-mcq-11": "本句的「idea of the size」指「讓某人大概了解、想像或掌握某事」。",
+        "idea-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-11"
     },
@@ -1442,11 +1340,9 @@ export default {
       "masked": "This example should give you an ____.",
       "options": [
         "idea-mcq-11",
-        "idea-mcq-10",
-        "idea-mcq-12",
-        "idea-mcq-09",
-        "idea-mcq-13",
-        "idea-mcq-08"
+        "idea-mcq-23",
+        "idea-mcq-08",
+        "idea-mcq-17"
       ],
       "explanation": "本句的「idea of how the system works」指「讓某人大概了解、想像或掌握某事」。",
       "sentenceIndex": 25,
@@ -1455,12 +1351,10 @@ export default {
         "idea of how the system works"
       ],
       "optionReasons": {
-        "idea-mcq-11": "本句指「讓某人大概了解、想像或掌握某事」。",
-        "idea-mcq-10": "「對某件事有部分了解或大概概念」是「have some idea」的用法，與本句語境不同。",
-        "idea-mcq-12": "「理解主要意思、原則或做法」是「get the idea」的用法，與本句語境不同。",
-        "idea-mcq-09": "「完全不知道；毫無頭緒」是「have no idea」的用法，與本句語境不同。",
-        "idea-mcq-13": "「對某人的意思、關係或情況產生錯誤理解」是「get the wrong idea」的用法，與本句語境不同。",
-        "idea-mcq-08": "「對某件事所持有的觀念、看法或信念」是「idea — opinion/belief」的用法，與本句語境不同。"
+        "idea-mcq-11": "本句的「idea of how the system works」指「讓某人大概了解、想像或掌握某事」。",
+        "idea-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-11"
     },
@@ -1472,11 +1366,9 @@ export default {
       "masked": "You don’t need to read every example—you ____.",
       "options": [
         "idea-mcq-12",
-        "idea-mcq-11",
-        "idea-mcq-13",
-        "idea-mcq-10",
-        "idea-mcq-14",
-        "idea-mcq-09"
+        "idea-mcq-15",
+        "idea-mcq-05",
+        "idea-mcq-26"
       ],
       "explanation": "本句的「get the idea」指「理解主要意思、原則或做法」。",
       "sentenceIndex": 26,
@@ -1485,12 +1377,10 @@ export default {
         "get the idea"
       ],
       "optionReasons": {
-        "idea-mcq-12": "本句指「理解主要意思、原則或做法」。",
-        "idea-mcq-11": "「讓某人大概了解、想像或掌握某事」是「give someone an idea of...」的用法，與本句語境不同。",
-        "idea-mcq-13": "「對某人的意思、關係或情況產生錯誤理解」是「get the wrong idea」的用法，與本句語境不同。",
-        "idea-mcq-10": "「對某件事有部分了解或大概概念」是「have some idea」的用法，與本句語境不同。",
-        "idea-mcq-14": "「某個做法的主要目的／核心原則是……」是「the idea is to...」的用法，與本句語境不同。",
-        "idea-mcq-09": "「完全不知道；毫無頭緒」是「have no idea」的用法，與本句語境不同。"
+        "idea-mcq-12": "本句的「get the idea」指「理解主要意思、原則或做法」。",
+        "idea-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-12"
     },
@@ -1502,11 +1392,9 @@ export default {
       "masked": "After a few demonstrations, I ____.",
       "options": [
         "idea-mcq-12",
-        "idea-mcq-11",
-        "idea-mcq-13",
-        "idea-mcq-10",
-        "idea-mcq-14",
-        "idea-mcq-09"
+        "idea-mcq-05",
+        "idea-mcq-15",
+        "idea-mcq-26"
       ],
       "explanation": "本句的「got the idea」指「理解主要意思、原則或做法」。",
       "sentenceIndex": 27,
@@ -1515,12 +1403,10 @@ export default {
         "got the idea"
       ],
       "optionReasons": {
-        "idea-mcq-12": "本句指「理解主要意思、原則或做法」。",
-        "idea-mcq-11": "「讓某人大概了解、想像或掌握某事」是「give someone an idea of...」的用法，與本句語境不同。",
-        "idea-mcq-13": "「對某人的意思、關係或情況產生錯誤理解」是「get the wrong idea」的用法，與本句語境不同。",
-        "idea-mcq-10": "「對某件事有部分了解或大概概念」是「have some idea」的用法，與本句語境不同。",
-        "idea-mcq-14": "「某個做法的主要目的／核心原則是……」是「the idea is to...」的用法，與本句語境不同。",
-        "idea-mcq-09": "「完全不知道；毫無頭緒」是「have no idea」的用法，與本句語境不同。"
+        "idea-mcq-12": "本句的「got the idea」指「理解主要意思、原則或做法」。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-12"
     },
@@ -1532,11 +1418,9 @@ export default {
       "masked": "Don’t ____—we’re just friends.",
       "options": [
         "idea-mcq-13",
-        "idea-mcq-12",
-        "idea-mcq-14",
-        "idea-mcq-11",
-        "idea-mcq-15",
-        "idea-mcq-10"
+        "idea-mcq-05",
+        "idea-mcq-03",
+        "idea-mcq-08"
       ],
       "explanation": "本句的「get the wrong idea」指「對某人的意思、關係或情況產生錯誤理解」。",
       "sentenceIndex": 28,
@@ -1545,12 +1429,10 @@ export default {
         "get the wrong idea"
       ],
       "optionReasons": {
-        "idea-mcq-13": "本句指「對某人的意思、關係或情況產生錯誤理解」。",
-        "idea-mcq-12": "「理解主要意思、原則或做法」是「get the idea」的用法，與本句語境不同。",
-        "idea-mcq-14": "「某個做法的主要目的／核心原則是……」是「the idea is to...」的用法，與本句語境不同。",
-        "idea-mcq-11": "「讓某人大概了解、想像或掌握某事」是「give someone an idea of...」的用法，與本句語境不同。",
-        "idea-mcq-15": "「對某件事在腦中形成的印象或想像」是「idea — mental image/impression」的用法，與本句語境不同。",
-        "idea-mcq-10": "「對某件事有部分了解或大概概念」是「have some idea」的用法，與本句語境不同。"
+        "idea-mcq-13": "本句的「get the wrong idea」指「對某人的意思、關係或情況產生錯誤理解」。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-13"
     },
@@ -1562,11 +1444,9 @@ export default {
       "masked": "I hope she didn’t ____ from my comment.",
       "options": [
         "idea-mcq-13",
-        "idea-mcq-12",
-        "idea-mcq-14",
-        "idea-mcq-11",
-        "idea-mcq-15",
-        "idea-mcq-10"
+        "idea-mcq-05",
+        "idea-mcq-03",
+        "idea-mcq-08"
       ],
       "explanation": "本句的「get the wrong idea」指「對某人的意思、關係或情況產生錯誤理解」。",
       "sentenceIndex": 29,
@@ -1575,12 +1455,10 @@ export default {
         "get the wrong idea"
       ],
       "optionReasons": {
-        "idea-mcq-13": "本句指「對某人的意思、關係或情況產生錯誤理解」。",
-        "idea-mcq-12": "「理解主要意思、原則或做法」是「get the idea」的用法，與本句語境不同。",
-        "idea-mcq-14": "「某個做法的主要目的／核心原則是……」是「the idea is to...」的用法，與本句語境不同。",
-        "idea-mcq-11": "「讓某人大概了解、想像或掌握某事」是「give someone an idea of...」的用法，與本句語境不同。",
-        "idea-mcq-15": "「對某件事在腦中形成的印象或想像」是「idea — mental image/impression」的用法，與本句語境不同。",
-        "idea-mcq-10": "「對某件事有部分了解或大概概念」是「have some idea」的用法，與本句語境不同。"
+        "idea-mcq-13": "本句的「get the wrong idea」指「對某人的意思、關係或情況產生錯誤理解」。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-13"
     },
@@ -1592,11 +1470,9 @@ export default {
       "masked": "The ____.",
       "options": [
         "idea-mcq-14",
-        "idea-mcq-13",
-        "idea-mcq-15",
-        "idea-mcq-12",
-        "idea-mcq-16",
-        "idea-mcq-11"
+        "idea-mcq-06",
+        "idea-mcq-17",
+        "idea-mcq-15"
       ],
       "explanation": "本句的「idea is to keep things simple」指「某個做法的主要目的／核心原則是……」。",
       "sentenceIndex": 30,
@@ -1605,12 +1481,10 @@ export default {
         "idea is to keep things simple"
       ],
       "optionReasons": {
-        "idea-mcq-14": "本句指「某個做法的主要目的／核心原則是……」。",
-        "idea-mcq-13": "「對某人的意思、關係或情況產生錯誤理解」是「get the wrong idea」的用法，與本句語境不同。",
-        "idea-mcq-15": "「對某件事在腦中形成的印象或想像」是「idea — mental image/impression」的用法，與本句語境不同。",
-        "idea-mcq-12": "「理解主要意思、原則或做法」是「get the idea」的用法，與本句語境不同。",
-        "idea-mcq-16": "「支持某種制度、做法或觀點的理念／思想」是「idea — principle/philosophy」的用法，與本句語境不同。",
-        "idea-mcq-11": "「讓某人大概了解、想像或掌握某事」是「give someone an idea of...」的用法，與本句語境不同。"
+        "idea-mcq-14": "本句的「idea is to keep things simple」指「某個做法的主要目的／核心原則是……」。",
+        "idea-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-14"
     },
@@ -1622,11 +1496,9 @@ export default {
       "masked": "The ____.",
       "options": [
         "idea-mcq-14",
-        "idea-mcq-13",
-        "idea-mcq-15",
-        "idea-mcq-12",
-        "idea-mcq-16",
-        "idea-mcq-11"
+        "idea-mcq-27",
+        "idea-mcq-09",
+        "idea-mcq-19"
       ],
       "explanation": "本句的「idea is to encourage discussion」指「某個做法的主要目的／核心原則是……」。",
       "sentenceIndex": 31,
@@ -1635,12 +1507,10 @@ export default {
         "idea is to encourage discussion"
       ],
       "optionReasons": {
-        "idea-mcq-14": "本句指「某個做法的主要目的／核心原則是……」。",
-        "idea-mcq-13": "「對某人的意思、關係或情況產生錯誤理解」是「get the wrong idea」的用法，與本句語境不同。",
-        "idea-mcq-15": "「對某件事在腦中形成的印象或想像」是「idea — mental image/impression」的用法，與本句語境不同。",
-        "idea-mcq-12": "「理解主要意思、原則或做法」是「get the idea」的用法，與本句語境不同。",
-        "idea-mcq-16": "「支持某種制度、做法或觀點的理念／思想」是「idea — principle/philosophy」的用法，與本句語境不同。",
-        "idea-mcq-11": "「讓某人大概了解、想像或掌握某事」是「give someone an idea of...」的用法，與本句語境不同。"
+        "idea-mcq-14": "本句的「idea is to encourage discussion」指「某個做法的主要目的／核心原則是……」。",
+        "idea-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-14"
     },
@@ -1652,11 +1522,9 @@ export default {
       "masked": "The ____ is to make learning less stressful.",
       "options": [
         "idea-mcq-14",
-        "idea-mcq-13",
-        "idea-mcq-15",
-        "idea-mcq-12",
-        "idea-mcq-16",
-        "idea-mcq-11"
+        "idea-mcq-10",
+        "idea-mcq-17",
+        "idea-mcq-28"
       ],
       "explanation": "本句的「whole idea」指「某個做法的主要目的／核心原則是……」。",
       "sentenceIndex": 32,
@@ -1665,12 +1533,10 @@ export default {
         "whole idea"
       ],
       "optionReasons": {
-        "idea-mcq-14": "本句指「某個做法的主要目的／核心原則是……」。",
-        "idea-mcq-13": "「對某人的意思、關係或情況產生錯誤理解」是「get the wrong idea」的用法，與本句語境不同。",
-        "idea-mcq-15": "「對某件事在腦中形成的印象或想像」是「idea — mental image/impression」的用法，與本句語境不同。",
-        "idea-mcq-12": "「理解主要意思、原則或做法」是「get the idea」的用法，與本句語境不同。",
-        "idea-mcq-16": "「支持某種制度、做法或觀點的理念／思想」是「idea — principle/philosophy」的用法，與本句語境不同。",
-        "idea-mcq-11": "「讓某人大概了解、想像或掌握某事」是「give someone an idea of...」的用法，與本句語境不同。"
+        "idea-mcq-14": "本句的「whole idea」指「某個做法的主要目的／核心原則是……」。",
+        "idea-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-14"
     },
@@ -1683,10 +1549,8 @@ export default {
       "options": [
         "idea-mcq-14",
         "idea-mcq-13",
-        "idea-mcq-15",
-        "idea-mcq-12",
-        "idea-mcq-16",
-        "idea-mcq-11"
+        "idea-mcq-17",
+        "idea-mcq-22"
       ],
       "explanation": "本句的「whole idea」指「某個做法的主要目的／核心原則是……」。",
       "sentenceIndex": 33,
@@ -1695,12 +1559,10 @@ export default {
         "whole idea"
       ],
       "optionReasons": {
-        "idea-mcq-14": "本句指「某個做法的主要目的／核心原則是……」。",
-        "idea-mcq-13": "「對某人的意思、關係或情況產生錯誤理解」是「get the wrong idea」的用法，與本句語境不同。",
-        "idea-mcq-15": "「對某件事在腦中形成的印象或想像」是「idea — mental image/impression」的用法，與本句語境不同。",
-        "idea-mcq-12": "「理解主要意思、原則或做法」是「get the idea」的用法，與本句語境不同。",
-        "idea-mcq-16": "「支持某種制度、做法或觀點的理念／思想」是「idea — principle/philosophy」的用法，與本句語境不同。",
-        "idea-mcq-11": "「讓某人大概了解、想像或掌握某事」是「give someone an idea of...」的用法，與本句語境不同。"
+        "idea-mcq-14": "本句的「whole idea」指「某個做法的主要目的／核心原則是……」。",
+        "idea-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-14"
     },
@@ -1712,11 +1574,9 @@ export default {
       "masked": "I had a very different ____.",
       "options": [
         "idea-mcq-15",
-        "idea-mcq-14",
-        "idea-mcq-16",
-        "idea-mcq-13",
-        "idea-mcq-17",
-        "idea-mcq-12"
+        "idea-mcq-18",
+        "idea-mcq-20",
+        "idea-mcq-09"
       ],
       "explanation": "本句的「idea of what the place would look like」指「對某件事在腦中形成的印象或想像」。",
       "sentenceIndex": 34,
@@ -1725,12 +1585,10 @@ export default {
         "idea of what the place would look like"
       ],
       "optionReasons": {
-        "idea-mcq-15": "本句指「對某件事在腦中形成的印象或想像」。",
-        "idea-mcq-14": "「某個做法的主要目的／核心原則是……」是「the idea is to...」的用法，與本句語境不同。",
-        "idea-mcq-16": "「支持某種制度、做法或觀點的理念／思想」是「idea — principle/philosophy」的用法，與本句語境不同。",
-        "idea-mcq-13": "「對某人的意思、關係或情況產生錯誤理解」是「get the wrong idea」的用法，與本句語境不同。",
-        "idea-mcq-17": "「用於作品、設計、產品等的創意／構想」是「creative idea」的用法，與本句語境不同。",
-        "idea-mcq-12": "「理解主要意思、原則或做法」是「get the idea」的用法，與本句語境不同。"
+        "idea-mcq-15": "本句的「idea of what the place would look like」指「對某件事在腦中形成的印象或想像」。",
+        "idea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-15"
     },
@@ -1742,11 +1600,9 @@ export default {
       "masked": "The description gave me a clear ____.",
       "options": [
         "idea-mcq-15",
-        "idea-mcq-14",
-        "idea-mcq-16",
-        "idea-mcq-13",
-        "idea-mcq-17",
-        "idea-mcq-12"
+        "idea-mcq-12",
+        "idea-mcq-22",
+        "idea-mcq-19"
       ],
       "explanation": "本句的「idea of the room」指「對某件事在腦中形成的印象或想像」。",
       "sentenceIndex": 35,
@@ -1755,12 +1611,10 @@ export default {
         "idea of the room"
       ],
       "optionReasons": {
-        "idea-mcq-15": "本句指「對某件事在腦中形成的印象或想像」。",
-        "idea-mcq-14": "「某個做法的主要目的／核心原則是……」是「the idea is to...」的用法，與本句語境不同。",
-        "idea-mcq-16": "「支持某種制度、做法或觀點的理念／思想」是「idea — principle/philosophy」的用法，與本句語境不同。",
-        "idea-mcq-13": "「對某人的意思、關係或情況產生錯誤理解」是「get the wrong idea」的用法，與本句語境不同。",
-        "idea-mcq-17": "「用於作品、設計、產品等的創意／構想」是「creative idea」的用法，與本句語境不同。",
-        "idea-mcq-12": "「理解主要意思、原則或做法」是「get the idea」的用法，與本句語境不同。"
+        "idea-mcq-15": "本句的「idea of the room」指「對某件事在腦中形成的印象或想像」。",
+        "idea-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-15"
     },
@@ -1772,11 +1626,9 @@ export default {
       "masked": "The company was built around the ____.",
       "options": [
         "idea-mcq-16",
-        "idea-mcq-15",
-        "idea-mcq-17",
-        "idea-mcq-14",
-        "idea-mcq-18",
-        "idea-mcq-13"
+        "idea-mcq-09",
+        "idea-mcq-22",
+        "idea-mcq-05"
       ],
       "explanation": "本句的「idea of simplicity」指「支持某種制度、做法或觀點的理念／思想」。",
       "sentenceIndex": 36,
@@ -1785,12 +1637,10 @@ export default {
         "idea of simplicity"
       ],
       "optionReasons": {
-        "idea-mcq-16": "本句指「支持某種制度、做法或觀點的理念／思想」。",
-        "idea-mcq-15": "「對某件事在腦中形成的印象或想像」是「idea — mental image/impression」的用法，與本句語境不同。",
-        "idea-mcq-17": "「用於作品、設計、產品等的創意／構想」是「creative idea」的用法，與本句語境不同。",
-        "idea-mcq-14": "「某個做法的主要目的／核心原則是……」是「the idea is to...」的用法，與本句語境不同。",
-        "idea-mcq-18": "「合理、值得做／不合理、不值得做的主意」是「good/bad idea」的用法，與本句語境不同。",
-        "idea-mcq-13": "「對某人的意思、關係或情況產生錯誤理解」是「get the wrong idea」的用法，與本句語境不同。"
+        "idea-mcq-16": "本句的「idea of simplicity」指「支持某種制度、做法或觀點的理念／思想」。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-16"
     },
@@ -1802,11 +1652,9 @@ export default {
       "masked": "The movement promoted new political and social ____.",
       "options": [
         "idea-mcq-16",
-        "idea-mcq-15",
-        "idea-mcq-17",
-        "idea-mcq-14",
-        "idea-mcq-18",
-        "idea-mcq-13"
+        "idea-mcq-22",
+        "idea-mcq-09",
+        "idea-mcq-05"
       ],
       "explanation": "本句的「ideas」指「支持某種制度、做法或觀點的理念／思想」。",
       "sentenceIndex": 37,
@@ -1815,12 +1663,10 @@ export default {
         "ideas"
       ],
       "optionReasons": {
-        "idea-mcq-16": "本句指「支持某種制度、做法或觀點的理念／思想」。",
-        "idea-mcq-15": "「對某件事在腦中形成的印象或想像」是「idea — mental image/impression」的用法，與本句語境不同。",
-        "idea-mcq-17": "「用於作品、設計、產品等的創意／構想」是「creative idea」的用法，與本句語境不同。",
-        "idea-mcq-14": "「某個做法的主要目的／核心原則是……」是「the idea is to...」的用法，與本句語境不同。",
-        "idea-mcq-18": "「合理、值得做／不合理、不值得做的主意」是「good/bad idea」的用法，與本句語境不同。",
-        "idea-mcq-13": "「對某人的意思、關係或情況產生錯誤理解」是「get the wrong idea」的用法，與本句語境不同。"
+        "idea-mcq-16": "本句的「ideas」指「支持某種制度、做法或觀點的理念／思想」。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-16"
     },
@@ -1832,11 +1678,9 @@ export default {
       "masked": "She had an ____.",
       "options": [
         "idea-mcq-17",
-        "idea-mcq-16",
-        "idea-mcq-18",
-        "idea-mcq-15",
-        "idea-mcq-19",
-        "idea-mcq-14"
+        "idea-mcq-20",
+        "idea-mcq-06",
+        "idea-mcq-23"
       ],
       "explanation": "本句的「idea for a novel」指「用於作品、設計、產品等的創意／構想」。",
       "sentenceIndex": 38,
@@ -1845,12 +1689,10 @@ export default {
         "idea for a novel"
       ],
       "optionReasons": {
-        "idea-mcq-17": "本句指「用於作品、設計、產品等的創意／構想」。",
-        "idea-mcq-16": "「支持某種制度、做法或觀點的理念／思想」是「idea — principle/philosophy」的用法，與本句語境不同。",
-        "idea-mcq-18": "「合理、值得做／不合理、不值得做的主意」是「good/bad idea」的用法，與本句語境不同。",
-        "idea-mcq-15": "「對某件事在腦中形成的印象或想像」是「idea — mental image/impression」的用法，與本句語境不同。",
-        "idea-mcq-19": "「委婉建議某人做某事；也許最好……」是「it might be a good idea to...」的用法，與本句語境不同。",
-        "idea-mcq-14": "「某個做法的主要目的／核心原則是……」是「the idea is to...」的用法，與本句語境不同。"
+        "idea-mcq-17": "本句的「idea for a novel」指「用於作品、設計、產品等的創意／構想」。",
+        "idea-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-17"
     },
@@ -1862,11 +1704,9 @@ export default {
       "masked": "The designer presented three different ____.",
       "options": [
         "idea-mcq-17",
-        "idea-mcq-16",
-        "idea-mcq-18",
-        "idea-mcq-15",
-        "idea-mcq-19",
-        "idea-mcq-14"
+        "idea-mcq-06",
+        "idea-mcq-20",
+        "idea-mcq-15"
       ],
       "explanation": "本句的「ideas」指「用於作品、設計、產品等的創意／構想」。",
       "sentenceIndex": 39,
@@ -1875,12 +1715,10 @@ export default {
         "ideas"
       ],
       "optionReasons": {
-        "idea-mcq-17": "本句指「用於作品、設計、產品等的創意／構想」。",
-        "idea-mcq-16": "「支持某種制度、做法或觀點的理念／思想」是「idea — principle/philosophy」的用法，與本句語境不同。",
-        "idea-mcq-18": "「合理、值得做／不合理、不值得做的主意」是「good/bad idea」的用法，與本句語境不同。",
-        "idea-mcq-15": "「對某件事在腦中形成的印象或想像」是「idea — mental image/impression」的用法，與本句語境不同。",
-        "idea-mcq-19": "「委婉建議某人做某事；也許最好……」是「it might be a good idea to...」的用法，與本句語境不同。",
-        "idea-mcq-14": "「某個做法的主要目的／核心原則是……」是「the idea is to...」的用法，與本句語境不同。"
+        "idea-mcq-17": "本句的「ideas」指「用於作品、設計、產品等的創意／構想」。",
+        "idea-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-17"
     },
@@ -1892,11 +1730,9 @@ export default {
       "masked": "Taking an umbrella is a ____.",
       "options": [
         "idea-mcq-18",
-        "idea-mcq-17",
-        "idea-mcq-19",
-        "idea-mcq-16",
-        "idea-mcq-20",
-        "idea-mcq-15"
+        "idea-mcq-26",
+        "idea-mcq-10",
+        "idea-mcq-05"
       ],
       "explanation": "本句的「good idea」指「合理、值得做／不合理、不值得做的主意」。",
       "sentenceIndex": 40,
@@ -1905,12 +1741,10 @@ export default {
         "good idea"
       ],
       "optionReasons": {
-        "idea-mcq-18": "本句指「合理、值得做／不合理、不值得做的主意」。",
-        "idea-mcq-17": "「用於作品、設計、產品等的創意／構想」是「creative idea」的用法，與本句語境不同。",
-        "idea-mcq-19": "「委婉建議某人做某事；也許最好……」是「it might be a good idea to...」的用法，與本句語境不同。",
-        "idea-mcq-16": "「支持某種制度、做法或觀點的理念／思想」是「idea — principle/philosophy」的用法，與本句語境不同。",
-        "idea-mcq-20": "「對某種可能性或做法抱有好感」是「like the idea of...」的用法，與本句語境不同。",
-        "idea-mcq-15": "「對某件事在腦中形成的印象或想像」是「idea — mental image/impression」的用法，與本句語境不同。"
+        "idea-mcq-18": "本句的「good idea」指「合理、值得做／不合理、不值得做的主意」。",
+        "idea-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-18"
     },
@@ -1922,11 +1756,9 @@ export default {
       "masked": "Driving when exhausted is a ____.",
       "options": [
         "idea-mcq-18",
-        "idea-mcq-17",
-        "idea-mcq-19",
-        "idea-mcq-16",
-        "idea-mcq-20",
-        "idea-mcq-15"
+        "idea-mcq-08",
+        "idea-mcq-05",
+        "idea-mcq-09"
       ],
       "explanation": "本句的「bad idea」指「合理、值得做／不合理、不值得做的主意」。",
       "sentenceIndex": 41,
@@ -1935,12 +1767,10 @@ export default {
         "bad idea"
       ],
       "optionReasons": {
-        "idea-mcq-18": "本句指「合理、值得做／不合理、不值得做的主意」。",
-        "idea-mcq-17": "「用於作品、設計、產品等的創意／構想」是「creative idea」的用法，與本句語境不同。",
-        "idea-mcq-19": "「委婉建議某人做某事；也許最好……」是「it might be a good idea to...」的用法，與本句語境不同。",
-        "idea-mcq-16": "「支持某種制度、做法或觀點的理念／思想」是「idea — principle/philosophy」的用法，與本句語境不同。",
-        "idea-mcq-20": "「對某種可能性或做法抱有好感」是「like the idea of...」的用法，與本句語境不同。",
-        "idea-mcq-15": "「對某件事在腦中形成的印象或想像」是「idea — mental image/impression」的用法，與本句語境不同。"
+        "idea-mcq-18": "本句的「bad idea」指「合理、值得做／不合理、不值得做的主意」。",
+        "idea-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-18"
     },
@@ -1952,11 +1782,9 @@ export default {
       "masked": "It might be a ____.",
       "options": [
         "idea-mcq-19",
-        "idea-mcq-18",
-        "idea-mcq-20",
-        "idea-mcq-17",
-        "idea-mcq-21",
-        "idea-mcq-16"
+        "idea-mcq-05",
+        "idea-mcq-02",
+        "idea-mcq-06"
       ],
       "explanation": "本句的「good idea to leave early」指「委婉建議某人做某事；也許最好……」。",
       "sentenceIndex": 42,
@@ -1965,12 +1793,10 @@ export default {
         "good idea to leave early"
       ],
       "optionReasons": {
-        "idea-mcq-19": "本句指「委婉建議某人做某事；也許最好……」。",
-        "idea-mcq-18": "「合理、值得做／不合理、不值得做的主意」是「good/bad idea」的用法，與本句語境不同。",
-        "idea-mcq-20": "「對某種可能性或做法抱有好感」是「like the idea of...」的用法，與本句語境不同。",
-        "idea-mcq-17": "「用於作品、設計、產品等的創意／構想」是「creative idea」的用法，與本句語境不同。",
-        "idea-mcq-21": "「表示對方已理解正確原則或做法；對，就是這樣」是「that’s the idea」的用法，與本句語境不同。",
-        "idea-mcq-16": "「支持某種制度、做法或觀點的理念／思想」是「idea — principle/philosophy」的用法，與本句語境不同。"
+        "idea-mcq-19": "本句的「good idea to leave early」指「委婉建議某人做某事；也許最好……」。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-19"
     },
@@ -1982,11 +1808,9 @@ export default {
       "masked": "It would be a ____.",
       "options": [
         "idea-mcq-19",
-        "idea-mcq-18",
-        "idea-mcq-20",
-        "idea-mcq-17",
-        "idea-mcq-21",
-        "idea-mcq-16"
+        "idea-mcq-27",
+        "idea-mcq-09",
+        "idea-mcq-14"
       ],
       "explanation": "本句的「good idea to check the details first」指「委婉建議某人做某事；也許最好……」。",
       "sentenceIndex": 43,
@@ -1995,12 +1819,10 @@ export default {
         "good idea to check the details first"
       ],
       "optionReasons": {
-        "idea-mcq-19": "本句指「委婉建議某人做某事；也許最好……」。",
-        "idea-mcq-18": "「合理、值得做／不合理、不值得做的主意」是「good/bad idea」的用法，與本句語境不同。",
-        "idea-mcq-20": "「對某種可能性或做法抱有好感」是「like the idea of...」的用法，與本句語境不同。",
-        "idea-mcq-17": "「用於作品、設計、產品等的創意／構想」是「creative idea」的用法，與本句語境不同。",
-        "idea-mcq-21": "「表示對方已理解正確原則或做法；對，就是這樣」是「that’s the idea」的用法，與本句語境不同。",
-        "idea-mcq-16": "「支持某種制度、做法或觀點的理念／思想」是「idea — principle/philosophy」的用法，與本句語境不同。"
+        "idea-mcq-19": "本句的「good idea to check the details first」指「委婉建議某人做某事；也許最好……」。",
+        "idea-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-19"
     },
@@ -2012,11 +1834,9 @@ export default {
       "masked": "I like the ____.",
       "options": [
         "idea-mcq-20",
-        "idea-mcq-19",
-        "idea-mcq-21",
-        "idea-mcq-18",
-        "idea-mcq-22",
-        "idea-mcq-17"
+        "idea-mcq-06",
+        "idea-mcq-15",
+        "idea-mcq-22"
       ],
       "explanation": "本句的「idea of working from home」指「對某種可能性或做法抱有好感」。",
       "sentenceIndex": 44,
@@ -2025,12 +1845,10 @@ export default {
         "idea of working from home"
       ],
       "optionReasons": {
-        "idea-mcq-20": "本句指「對某種可能性或做法抱有好感」。",
-        "idea-mcq-19": "「委婉建議某人做某事；也許最好……」是「it might be a good idea to...」的用法，與本句語境不同。",
-        "idea-mcq-21": "「表示對方已理解正確原則或做法；對，就是這樣」是「that’s the idea」的用法，與本句語境不同。",
-        "idea-mcq-18": "「合理、值得做／不合理、不值得做的主意」是「good/bad idea」的用法，與本句語境不同。",
-        "idea-mcq-22": "「表示某個提議值得考慮；這倒是個主意」是「that’s an idea」的用法，與本句語境不同。",
-        "idea-mcq-17": "「用於作品、設計、產品等的創意／構想」是「creative idea」的用法，與本句語境不同。"
+        "idea-mcq-20": "本句的「idea of working from home」指「對某種可能性或做法抱有好感」。",
+        "idea-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-20"
     },
@@ -2042,11 +1860,9 @@ export default {
       "masked": "She liked the ____.",
       "options": [
         "idea-mcq-20",
-        "idea-mcq-19",
-        "idea-mcq-21",
-        "idea-mcq-18",
         "idea-mcq-22",
-        "idea-mcq-17"
+        "idea-mcq-09",
+        "idea-mcq-27"
       ],
       "explanation": "本句的「idea of studying abroad」指「對某種可能性或做法抱有好感」。",
       "sentenceIndex": 45,
@@ -2055,12 +1871,10 @@ export default {
         "idea of studying abroad"
       ],
       "optionReasons": {
-        "idea-mcq-20": "本句指「對某種可能性或做法抱有好感」。",
-        "idea-mcq-19": "「委婉建議某人做某事；也許最好……」是「it might be a good idea to...」的用法，與本句語境不同。",
-        "idea-mcq-21": "「表示對方已理解正確原則或做法；對，就是這樣」是「that’s the idea」的用法，與本句語境不同。",
-        "idea-mcq-18": "「合理、值得做／不合理、不值得做的主意」是「good/bad idea」的用法，與本句語境不同。",
-        "idea-mcq-22": "「表示某個提議值得考慮；這倒是個主意」是「that’s an idea」的用法，與本句語境不同。",
-        "idea-mcq-17": "「用於作品、設計、產品等的創意／構想」是「creative idea」的用法，與本句語境不同。"
+        "idea-mcq-20": "本句的「idea of studying abroad」指「對某種可能性或做法抱有好感」。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-20"
     },
@@ -2072,11 +1886,9 @@ export default {
       "masked": "He hates the ____.",
       "options": [
         "idea-mcq-26",
-        "idea-mcq-25",
-        "idea-mcq-27",
-        "idea-mcq-24",
-        "idea-mcq-28",
-        "idea-mcq-23"
+        "idea-mcq-22",
+        "idea-mcq-06",
+        "idea-mcq-19"
       ],
       "explanation": "本句的「idea of speaking in public」指「很不喜歡……這個想法；一想到……就不喜歡」。",
       "sentenceIndex": 46,
@@ -2085,12 +1897,10 @@ export default {
         "idea of speaking in public"
       ],
       "optionReasons": {
-        "idea-mcq-26": "本句指「很不喜歡……這個想法；一想到……就不喜歡」。",
-        "idea-mcq-25": "「表示想法；主意；念頭」是「Passage meaning」的用法，與本句語境不同。",
-        "idea-mcq-27": "「表示理想；理念」是「Noun」的用法，與本句語境不同。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。",
-        "idea-mcq-28": "「表示理想主義的；理想化的」是「32. idealistic」的用法，與本句語境不同。",
-        "idea-mcq-23": "「聰明點子；有時以反諷語氣指不太好的主意」是「bright idea」的用法，與本句語境不同。"
+        "idea-mcq-26": "本句的「idea of speaking in public」指「很不喜歡……這個想法；一想到……就不喜歡」。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-26"
     },
@@ -2102,11 +1912,9 @@ export default {
       "masked": "I hate the ____.",
       "options": [
         "idea-mcq-26",
-        "idea-mcq-25",
-        "idea-mcq-27",
-        "idea-mcq-24",
-        "idea-mcq-28",
-        "idea-mcq-23"
+        "idea-mcq-10",
+        "idea-mcq-22",
+        "idea-mcq-28"
       ],
       "explanation": "本句的「idea of wasting food」指「很不喜歡……這個想法；一想到……就不喜歡」。",
       "sentenceIndex": 47,
@@ -2115,12 +1923,10 @@ export default {
         "idea of wasting food"
       ],
       "optionReasons": {
-        "idea-mcq-26": "本句指「很不喜歡……這個想法；一想到……就不喜歡」。",
-        "idea-mcq-25": "「表示想法；主意；念頭」是「Passage meaning」的用法，與本句語境不同。",
-        "idea-mcq-27": "「表示理想；理念」是「Noun」的用法，與本句語境不同。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。",
-        "idea-mcq-28": "「表示理想主義的；理想化的」是「32. idealistic」的用法，與本句語境不同。",
-        "idea-mcq-23": "「聰明點子；有時以反諷語氣指不太好的主意」是「bright idea」的用法，與本句語境不同。"
+        "idea-mcq-26": "本句的「idea of wasting food」指「很不喜歡……這個想法；一想到……就不喜歡」。",
+        "idea-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-26"
     },
@@ -2132,11 +1938,9 @@ export default {
       "masked": "I have ____.",
       "options": [
         "idea-mcq-09",
-        "idea-mcq-08",
-        "idea-mcq-10",
-        "idea-mcq-07",
-        "idea-mcq-11",
-        "idea-mcq-06"
+        "idea-mcq-02",
+        "idea-mcq-05",
+        "idea-mcq-19"
       ],
       "explanation": "本句的「no idea what happened」指「完全不知道；毫無頭緒」。",
       "sentenceIndex": 48,
@@ -2145,12 +1949,10 @@ export default {
         "no idea what happened"
       ],
       "optionReasons": {
-        "idea-mcq-09": "本句指「完全不知道；毫無頭緒」。",
-        "idea-mcq-08": "「對某件事所持有的觀念、看法或信念」是「idea — opinion/belief」的用法，與本句語境不同。",
-        "idea-mcq-10": "「對某件事有部分了解或大概概念」是「have some idea」的用法，與本句語境不同。",
-        "idea-mcq-07": "「對某事物形成的概念、理解或看法」是「idea of something」的用法，與本句語境不同。",
-        "idea-mcq-11": "「讓某人大概了解、想像或掌握某事」是「give someone an idea of...」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。"
+        "idea-mcq-09": "本句的「no idea what happened」指「完全不知道；毫無頭緒」。",
+        "idea-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-09"
     },
@@ -2162,11 +1964,9 @@ export default {
       "masked": "He had ____.",
       "options": [
         "idea-mcq-09",
-        "idea-mcq-08",
-        "idea-mcq-10",
-        "idea-mcq-07",
-        "idea-mcq-11",
-        "idea-mcq-06"
+        "idea-mcq-01",
+        "idea-mcq-19",
+        "idea-mcq-17"
       ],
       "explanation": "本句的「no idea how to respond」指「完全不知道；毫無頭緒」。",
       "sentenceIndex": 49,
@@ -2175,12 +1975,10 @@ export default {
         "no idea how to respond"
       ],
       "optionReasons": {
-        "idea-mcq-09": "本句指「完全不知道；毫無頭緒」。",
-        "idea-mcq-08": "「對某件事所持有的觀念、看法或信念」是「idea — opinion/belief」的用法，與本句語境不同。",
-        "idea-mcq-10": "「對某件事有部分了解或大概概念」是「have some idea」的用法，與本句語境不同。",
-        "idea-mcq-07": "「對某事物形成的概念、理解或看法」是「idea of something」的用法，與本句語境不同。",
-        "idea-mcq-11": "「讓某人大概了解、想像或掌握某事」是「give someone an idea of...」的用法，與本句語境不同。",
-        "idea-mcq-06": "「用來理解某個抽象事物的概念／觀念」是「idea — concept」的用法，與本句語境不同。"
+        "idea-mcq-09": "本句的「no idea how to respond」指「完全不知道；毫無頭緒」。",
+        "idea-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-09"
     },
@@ -2192,9 +1990,7 @@ export default {
       "masked": "____",
       "options": [
         "idea-mcq-20",
-        "idea-mcq-19",
-        "idea-mcq-21",
-        "idea-mcq-18",
+        "idea-mcq-28",
         "idea-mcq-22",
         "idea-mcq-17"
       ],
@@ -2205,12 +2001,10 @@ export default {
         "Any idea where she is?"
       ],
       "optionReasons": {
-        "idea-mcq-20": "本句指「對某種可能性或做法抱有好感」。",
-        "idea-mcq-19": "「委婉建議某人做某事；也許最好……」是「it might be a good idea to...」的用法，與本句語境不同。",
-        "idea-mcq-21": "「表示對方已理解正確原則或做法；對，就是這樣」是「that’s the idea」的用法，與本句語境不同。",
-        "idea-mcq-18": "「合理、值得做／不合理、不值得做的主意」是「good/bad idea」的用法，與本句語境不同。",
-        "idea-mcq-22": "「表示某個提議值得考慮；這倒是個主意」是「that’s an idea」的用法，與本句語境不同。",
-        "idea-mcq-17": "「用於作品、設計、產品等的創意／構想」是「creative idea」的用法，與本句語境不同。"
+        "idea-mcq-20": "本句的「Any idea where she is?」指「對某種可能性或做法抱有好感」。",
+        "idea-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-20"
     },
@@ -2222,11 +2016,9 @@ export default {
       "masked": "Do you have ____?",
       "options": [
         "idea-mcq-20",
-        "idea-mcq-19",
-        "idea-mcq-21",
-        "idea-mcq-18",
-        "idea-mcq-22",
-        "idea-mcq-17"
+        "idea-mcq-17",
+        "idea-mcq-06",
+        "idea-mcq-28"
       ],
       "explanation": "本句的「any idea when the meeting starts」指「對某種可能性或做法抱有好感」。",
       "sentenceIndex": 51,
@@ -2235,12 +2027,10 @@ export default {
         "any idea when the meeting starts"
       ],
       "optionReasons": {
-        "idea-mcq-20": "本句指「對某種可能性或做法抱有好感」。",
-        "idea-mcq-19": "「委婉建議某人做某事；也許最好……」是「it might be a good idea to...」的用法，與本句語境不同。",
-        "idea-mcq-21": "「表示對方已理解正確原則或做法；對，就是這樣」是「that’s the idea」的用法，與本句語境不同。",
-        "idea-mcq-18": "「合理、值得做／不合理、不值得做的主意」是「good/bad idea」的用法，與本句語境不同。",
-        "idea-mcq-22": "「表示某個提議值得考慮；這倒是個主意」是「that’s an idea」的用法，與本句語境不同。",
-        "idea-mcq-17": "「用於作品、設計、產品等的創意／構想」是「creative idea」的用法，與本句語境不同。"
+        "idea-mcq-20": "本句的「any idea when the meeting starts」指「對某種可能性或做法抱有好感」。",
+        "idea-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-20"
     },
@@ -2252,11 +2042,9 @@ export default {
       "masked": "So I should focus on meaning, not perfection?” “____",
       "options": [
         "idea-mcq-21",
-        "idea-mcq-20",
-        "idea-mcq-22",
-        "idea-mcq-19",
         "idea-mcq-23",
-        "idea-mcq-18"
+        "idea-mcq-15",
+        "idea-mcq-05"
       ],
       "explanation": "本句的「That’s the idea.」指「表示對方已理解正確原則或做法；對，就是這樣」。",
       "sentenceIndex": 52,
@@ -2265,12 +2053,10 @@ export default {
         "That’s the idea."
       ],
       "optionReasons": {
-        "idea-mcq-21": "本句指「表示對方已理解正確原則或做法；對，就是這樣」。",
-        "idea-mcq-20": "「對某種可能性或做法抱有好感」是「like the idea of...」的用法，與本句語境不同。",
-        "idea-mcq-22": "「表示某個提議值得考慮；這倒是個主意」是「that’s an idea」的用法，與本句語境不同。",
-        "idea-mcq-19": "「委婉建議某人做某事；也許最好……」是「it might be a good idea to...」的用法，與本句語境不同。",
-        "idea-mcq-23": "「聰明點子；有時以反諷語氣指不太好的主意」是「bright idea」的用法，與本句語境不同。",
-        "idea-mcq-18": "「合理、值得做／不合理、不值得做的主意」是「good/bad idea」的用法，與本句語境不同。"
+        "idea-mcq-21": "本句的「That’s the idea.」指「表示對方已理解正確原則或做法；對，就是這樣」。",
+        "idea-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-21"
     },
@@ -2282,11 +2068,9 @@ export default {
       "masked": "Keep your shoulders relaxed?” “____",
       "options": [
         "idea-mcq-21",
-        "idea-mcq-20",
-        "idea-mcq-22",
-        "idea-mcq-19",
-        "idea-mcq-23",
-        "idea-mcq-18"
+        "idea-mcq-15",
+        "idea-mcq-05",
+        "idea-mcq-22"
       ],
       "explanation": "本句的「That’s the idea.」指「表示對方已理解正確原則或做法；對，就是這樣」。",
       "sentenceIndex": 53,
@@ -2295,12 +2079,10 @@ export default {
         "That’s the idea."
       ],
       "optionReasons": {
-        "idea-mcq-21": "本句指「表示對方已理解正確原則或做法；對，就是這樣」。",
-        "idea-mcq-20": "「對某種可能性或做法抱有好感」是「like the idea of...」的用法，與本句語境不同。",
-        "idea-mcq-22": "「表示某個提議值得考慮；這倒是個主意」是「that’s an idea」的用法，與本句語境不同。",
-        "idea-mcq-19": "「委婉建議某人做某事；也許最好……」是「it might be a good idea to...」的用法，與本句語境不同。",
-        "idea-mcq-23": "「聰明點子；有時以反諷語氣指不太好的主意」是「bright idea」的用法，與本句語境不同。",
-        "idea-mcq-18": "「合理、值得做／不合理、不值得做的主意」是「good/bad idea」的用法，與本句語境不同。"
+        "idea-mcq-21": "本句的「That’s the idea.」指「表示對方已理解正確原則或做法；對，就是這樣」。",
+        "idea-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-21"
     },
@@ -2312,10 +2094,8 @@ export default {
       "masked": "Why don’t we meet earlier?” “____",
       "options": [
         "idea-mcq-22",
-        "idea-mcq-21",
-        "idea-mcq-23",
-        "idea-mcq-20",
-        "idea-mcq-24",
+        "idea-mcq-06",
+        "idea-mcq-29",
         "idea-mcq-19"
       ],
       "explanation": "本句的「That’s an idea.」指「表示某個提議值得考慮；這倒是個主意」。",
@@ -2325,12 +2105,10 @@ export default {
         "That’s an idea."
       ],
       "optionReasons": {
-        "idea-mcq-22": "本句指「表示某個提議值得考慮；這倒是個主意」。",
-        "idea-mcq-21": "「表示對方已理解正確原則或做法；對，就是這樣」是「that’s the idea」的用法，與本句語境不同。",
-        "idea-mcq-23": "「聰明點子；有時以反諷語氣指不太好的主意」是「bright idea」的用法，與本句語境不同。",
-        "idea-mcq-20": "「對某種可能性或做法抱有好感」是「like the idea of...」的用法，與本句語境不同。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。",
-        "idea-mcq-19": "「委婉建議某人做某事；也許最好……」是「it might be a good idea to...」的用法，與本句語境不同。"
+        "idea-mcq-22": "本句的「That’s an idea.」指「表示某個提議值得考慮；這倒是個主意」。",
+        "idea-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-22"
     },
@@ -2342,11 +2120,9 @@ export default {
       "masked": "We could ask the students.” “____",
       "options": [
         "idea-mcq-22",
-        "idea-mcq-21",
-        "idea-mcq-23",
-        "idea-mcq-20",
-        "idea-mcq-24",
-        "idea-mcq-19"
+        "idea-mcq-06",
+        "idea-mcq-15",
+        "idea-mcq-26"
       ],
       "explanation": "本句的「That’s an idea.」指「表示某個提議值得考慮；這倒是個主意」。",
       "sentenceIndex": 55,
@@ -2355,12 +2131,10 @@ export default {
         "That’s an idea."
       ],
       "optionReasons": {
-        "idea-mcq-22": "本句指「表示某個提議值得考慮；這倒是個主意」。",
-        "idea-mcq-21": "「表示對方已理解正確原則或做法；對，就是這樣」是「that’s the idea」的用法，與本句語境不同。",
-        "idea-mcq-23": "「聰明點子；有時以反諷語氣指不太好的主意」是「bright idea」的用法，與本句語境不同。",
-        "idea-mcq-20": "「對某種可能性或做法抱有好感」是「like the idea of...」的用法，與本句語境不同。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。",
-        "idea-mcq-19": "「委婉建議某人做某事；也許最好……」是「it might be a good idea to...」的用法，與本句語境不同。"
+        "idea-mcq-22": "本句的「That’s an idea.」指「表示某個提議值得考慮；這倒是個主意」。",
+        "idea-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-22"
     },
@@ -2372,10 +2146,8 @@ export default {
       "masked": "That was a ____.",
       "options": [
         "idea-mcq-23",
-        "idea-mcq-22",
-        "idea-mcq-24",
-        "idea-mcq-21",
-        "idea-mcq-25",
+        "idea-mcq-27",
+        "idea-mcq-09",
         "idea-mcq-20"
       ],
       "explanation": "本句的「bright idea」指「聰明點子；有時以反諷語氣指不太好的主意」。",
@@ -2385,12 +2157,10 @@ export default {
         "bright idea"
       ],
       "optionReasons": {
-        "idea-mcq-23": "本句指「聰明點子；有時以反諷語氣指不太好的主意」。",
-        "idea-mcq-22": "「表示某個提議值得考慮；這倒是個主意」是「that’s an idea」的用法，與本句語境不同。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。",
-        "idea-mcq-21": "「表示對方已理解正確原則或做法；對，就是這樣」是「that’s the idea」的用法，與本句語境不同。",
-        "idea-mcq-25": "「表示想法；主意；念頭」是「Passage meaning」的用法，與本句語境不同。",
-        "idea-mcq-20": "「對某種可能性或做法抱有好感」是「like the idea of...」的用法，與本句語境不同。"
+        "idea-mcq-23": "本句的「bright idea」指「聰明點子；有時以反諷語氣指不太好的主意」。",
+        "idea-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-23"
     },
@@ -2402,11 +2172,9 @@ export default {
       "masked": "Whose ____ was it to hold the meeting at 6 a.m.?",
       "options": [
         "idea-mcq-23",
-        "idea-mcq-22",
-        "idea-mcq-24",
-        "idea-mcq-21",
-        "idea-mcq-25",
-        "idea-mcq-20"
+        "idea-mcq-10",
+        "idea-mcq-26",
+        "idea-mcq-05"
       ],
       "explanation": "本句的「bright idea」指「聰明點子；有時以反諷語氣指不太好的主意」。",
       "sentenceIndex": 57,
@@ -2415,12 +2183,10 @@ export default {
         "bright idea"
       ],
       "optionReasons": {
-        "idea-mcq-23": "本句指「聰明點子；有時以反諷語氣指不太好的主意」。",
-        "idea-mcq-22": "「表示某個提議值得考慮；這倒是個主意」是「that’s an idea」的用法，與本句語境不同。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。",
-        "idea-mcq-21": "「表示對方已理解正確原則或做法；對，就是這樣」是「that’s the idea」的用法，與本句語境不同。",
-        "idea-mcq-25": "「表示想法；主意；念頭」是「Passage meaning」的用法，與本句語境不同。",
-        "idea-mcq-20": "「對某種可能性或做法抱有好感」是「like the idea of...」的用法，與本句語境不同。"
+        "idea-mcq-23": "本句的「bright idea」指「聰明點子；有時以反諷語氣指不太好的主意」。",
+        "idea-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-23"
     },
@@ -2432,11 +2198,9 @@ export default {
       "masked": "This is an ____ to study.",
       "options": [
         "idea-mcq-27",
-        "idea-mcq-26",
-        "idea-mcq-28",
-        "idea-mcq-25",
-        "idea-mcq-29",
-        "idea-mcq-24"
+        "idea-mcq-20",
+        "idea-mcq-09",
+        "idea-mcq-22"
       ],
       "explanation": "本句的「ideal place」指「表示理想；理念」。",
       "sentenceIndex": 58,
@@ -2445,12 +2209,10 @@ export default {
         "ideal place"
       ],
       "optionReasons": {
-        "idea-mcq-27": "本句指「表示理想；理念」。",
-        "idea-mcq-26": "「很不喜歡……這個想法；一想到……就不喜歡」是「24. hate the idea of something」的用法，與本句語境不同。",
-        "idea-mcq-28": "「表示理想主義的；理想化的」是「32. idealistic」的用法，與本句語境不同。",
-        "idea-mcq-25": "「表示想法；主意；念頭」是「Passage meaning」的用法，與本句語境不同。",
-        "idea-mcq-29": "「表示想法」是「34. idea is usually countable」的用法，與本句語境不同。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。"
+        "idea-mcq-27": "本句的「ideal place」指「表示理想；理念」。",
+        "idea-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-27"
     },
@@ -2462,11 +2224,9 @@ export default {
       "masked": "She refused to give up her ____.",
       "options": [
         "idea-mcq-27",
-        "idea-mcq-26",
-        "idea-mcq-28",
-        "idea-mcq-25",
-        "idea-mcq-29",
-        "idea-mcq-24"
+        "idea-mcq-14",
+        "idea-mcq-19",
+        "idea-mcq-09"
       ],
       "explanation": "本句的「ideals」指「表示理想；理念」。",
       "sentenceIndex": 59,
@@ -2475,12 +2235,10 @@ export default {
         "ideals"
       ],
       "optionReasons": {
-        "idea-mcq-27": "本句指「表示理想；理念」。",
-        "idea-mcq-26": "「很不喜歡……這個想法；一想到……就不喜歡」是「24. hate the idea of something」的用法，與本句語境不同。",
-        "idea-mcq-28": "「表示理想主義的；理想化的」是「32. idealistic」的用法，與本句語境不同。",
-        "idea-mcq-25": "「表示想法；主意；念頭」是「Passage meaning」的用法，與本句語境不同。",
-        "idea-mcq-29": "「表示想法」是「34. idea is usually countable」的用法，與本句語境不同。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。"
+        "idea-mcq-27": "本句的「ideals」指「表示理想；理念」。",
+        "idea-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-27"
     },
@@ -2492,11 +2250,9 @@ export default {
       "masked": "He was young and ____.",
       "options": [
         "idea-mcq-28",
-        "idea-mcq-27",
-        "idea-mcq-29",
+        "idea-mcq-10",
         "idea-mcq-26",
-        "idea-mcq-25",
-        "idea-mcq-24"
+        "idea-mcq-14"
       ],
       "explanation": "本句的「idealistic」指「表示理想主義的；理想化的」。",
       "sentenceIndex": 60,
@@ -2505,12 +2261,10 @@ export default {
         "idealistic"
       ],
       "optionReasons": {
-        "idea-mcq-28": "本句指「表示理想主義的；理想化的」。",
-        "idea-mcq-27": "「表示理想；理念」是「Noun」的用法，與本句語境不同。",
-        "idea-mcq-29": "「表示想法」是「34. idea is usually countable」的用法，與本句語境不同。",
-        "idea-mcq-26": "「很不喜歡……這個想法；一想到……就不喜歡」是「24. hate the idea of something」的用法，與本句語境不同。",
-        "idea-mcq-25": "「表示想法；主意；念頭」是「Passage meaning」的用法，與本句語境不同。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。"
+        "idea-mcq-28": "本句的「idealistic」指「表示理想主義的；理想化的」。",
+        "idea-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-28"
     },
@@ -2522,11 +2276,9 @@ export default {
       "masked": "Her plan may be too ____.",
       "options": [
         "idea-mcq-28",
-        "idea-mcq-27",
-        "idea-mcq-29",
-        "idea-mcq-26",
-        "idea-mcq-25",
-        "idea-mcq-24"
+        "idea-mcq-08",
+        "idea-mcq-09",
+        "idea-mcq-20"
       ],
       "explanation": "本句的「idealistic」指「表示理想主義的；理想化的」。",
       "sentenceIndex": 61,
@@ -2535,12 +2287,10 @@ export default {
         "idealistic"
       ],
       "optionReasons": {
-        "idea-mcq-28": "本句指「表示理想主義的；理想化的」。",
-        "idea-mcq-27": "「表示理想；理念」是「Noun」的用法，與本句語境不同。",
-        "idea-mcq-29": "「表示想法」是「34. idea is usually countable」的用法，與本句語境不同。",
-        "idea-mcq-26": "「很不喜歡……這個想法；一想到……就不喜歡」是「24. hate the idea of something」的用法，與本句語境不同。",
-        "idea-mcq-25": "「表示想法；主意；念頭」是「Passage meaning」的用法，與本句語境不同。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。"
+        "idea-mcq-28": "本句的「idealistic」指「表示理想主義的；理想化的」。",
+        "idea-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-28"
     },
@@ -2552,11 +2302,9 @@ export default {
       "masked": "Youthful ____ influenced his choices.",
       "options": [
         "idea-mcq-28",
-        "idea-mcq-27",
-        "idea-mcq-29",
-        "idea-mcq-26",
-        "idea-mcq-25",
-        "idea-mcq-24"
+        "idea-mcq-09",
+        "idea-mcq-20",
+        "idea-mcq-08"
       ],
       "explanation": "本句的「idealism」指「表示理想主義的；理想化的」。",
       "sentenceIndex": 62,
@@ -2565,12 +2313,10 @@ export default {
         "idealism"
       ],
       "optionReasons": {
-        "idea-mcq-28": "本句指「表示理想主義的；理想化的」。",
-        "idea-mcq-27": "「表示理想；理念」是「Noun」的用法，與本句語境不同。",
-        "idea-mcq-29": "「表示想法」是「34. idea is usually countable」的用法，與本句語境不同。",
-        "idea-mcq-26": "「很不喜歡……這個想法；一想到……就不喜歡」是「24. hate the idea of something」的用法，與本句語境不同。",
-        "idea-mcq-25": "「表示想法；主意；念頭」是「Passage meaning」的用法，與本句語境不同。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。"
+        "idea-mcq-28": "本句的「idealism」指「表示理想主義的；理想化的」。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-28"
     },
@@ -2582,11 +2328,9 @@ export default {
       "masked": "The novel contrasts ____ with practical reality.",
       "options": [
         "idea-mcq-28",
-        "idea-mcq-27",
-        "idea-mcq-29",
-        "idea-mcq-26",
-        "idea-mcq-25",
-        "idea-mcq-24"
+        "idea-mcq-20",
+        "idea-mcq-09",
+        "idea-mcq-08"
       ],
       "explanation": "本句的「idealism」指「表示理想主義的；理想化的」。",
       "sentenceIndex": 63,
@@ -2595,12 +2339,10 @@ export default {
         "idealism"
       ],
       "optionReasons": {
-        "idea-mcq-28": "本句指「表示理想主義的；理想化的」。",
-        "idea-mcq-27": "「表示理想；理念」是「Noun」的用法，與本句語境不同。",
-        "idea-mcq-29": "「表示想法」是「34. idea is usually countable」的用法，與本句語境不同。",
-        "idea-mcq-26": "「很不喜歡……這個想法；一想到……就不喜歡」是「24. hate the idea of something」的用法，與本句語境不同。",
-        "idea-mcq-25": "「表示想法；主意；念頭」是「Passage meaning」的用法，與本句語境不同。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。"
+        "idea-mcq-28": "本句的「idealism」指「表示理想主義的；理想化的」。",
+        "idea-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-28"
     },
@@ -2612,11 +2354,9 @@ export default {
       "masked": "I have ____.",
       "options": [
         "idea-mcq-29",
-        "idea-mcq-28",
-        "idea-mcq-27",
-        "idea-mcq-26",
-        "idea-mcq-25",
-        "idea-mcq-24"
+        "idea-mcq-18",
+        "idea-mcq-09",
+        "idea-mcq-19"
       ],
       "explanation": "本句的「an idea」指「表示想法」。",
       "sentenceIndex": 64,
@@ -2625,12 +2365,10 @@ export default {
         "an idea"
       ],
       "optionReasons": {
-        "idea-mcq-29": "本句指「表示想法」。",
-        "idea-mcq-28": "「表示理想主義的；理想化的」是「32. idealistic」的用法，與本句語境不同。",
-        "idea-mcq-27": "「表示理想；理念」是「Noun」的用法，與本句語境不同。",
-        "idea-mcq-26": "「很不喜歡……這個想法；一想到……就不喜歡」是「24. hate the idea of something」的用法，與本句語境不同。",
-        "idea-mcq-25": "「表示想法；主意；念頭」是「Passage meaning」的用法，與本句語境不同。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。"
+        "idea-mcq-29": "本句的「an idea」指「表示想法」。",
+        "idea-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-29"
     },
@@ -2642,11 +2380,8 @@ export default {
       "masked": "We discussed several ____.",
       "options": [
         "idea-mcq-29",
-        "idea-mcq-28",
-        "idea-mcq-27",
-        "idea-mcq-26",
-        "idea-mcq-25",
-        "idea-mcq-24"
+        "idea-mcq-10",
+        "idea-mcq-23"
       ],
       "explanation": "本句的「ideas」指「表示想法」。",
       "sentenceIndex": 65,
@@ -2655,12 +2390,9 @@ export default {
         "ideas"
       ],
       "optionReasons": {
-        "idea-mcq-29": "本句指「表示想法」。",
-        "idea-mcq-28": "「表示理想主義的；理想化的」是「32. idealistic」的用法，與本句語境不同。",
-        "idea-mcq-27": "「表示理想；理念」是「Noun」的用法，與本句語境不同。",
-        "idea-mcq-26": "「很不喜歡……這個想法；一想到……就不喜歡」是「24. hate the idea of something」的用法，與本句語境不同。",
-        "idea-mcq-25": "「表示想法；主意；念頭」是「Passage meaning」的用法，與本句語境不同。",
-        "idea-mcq-24": "「理想的／理想、理念；與 idea 歷史相關但現代已是獨立詞項」是「ideal」的用法，與本句語境不同。"
+        "idea-mcq-29": "本句的「ideas」指「表示想法」。",
+        "idea-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "idea-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "idea-mcq-29"
     }
@@ -2672,5 +2404,7 @@ export default {
     "sha256": "e607344274708346e752d9f40ff1f3c9be2c4167501bca078089fde692ee8dcd",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

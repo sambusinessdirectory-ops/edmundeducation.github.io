@@ -721,11 +721,8 @@ export default {
       "masked": "She accompanied her grandfather to an ____.",
       "options": [
         "appointment-mcq-01",
-        "appointment-mcq-02",
-        "appointment-mcq-03",
-        "appointment-mcq-04",
-        "appointment-mcq-05",
-        "appointment-mcq-06"
+        "appointment-mcq-18",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointment」指「預先約定在特定時間進行的會面／預約」。",
       "sentenceIndex": 0,
@@ -734,12 +731,9 @@ export default {
         "appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-01": "本句指「預先約定在特定時間進行的會面／預約」。",
-        "appointment-mcq-02": "「看醫生、牙醫、顧問等預先安排的服務／診症預約」與本句語境不同。",
-        "appointment-mcq-03": "「與醫生、治療師等安排好的醫療預約」與本句語境不同。",
-        "appointment-mcq-04": "「預先安排的牙科診症／牙醫預約」與本句語境不同。",
-        "appointment-mcq-05": "「安排一個預約／約定會面時間」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。"
+        "appointment-mcq-01": "本句的「appointment」指「預先約定在特定時間進行的會面／預約」。",
+        "appointment-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-01"
     },
@@ -751,11 +745,8 @@ export default {
       "masked": "I have an ____ at three o’clock.",
       "options": [
         "appointment-mcq-01",
-        "appointment-mcq-02",
-        "appointment-mcq-03",
-        "appointment-mcq-04",
-        "appointment-mcq-05",
-        "appointment-mcq-06"
+        "appointment-mcq-23",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointment」指「預先約定在特定時間進行的會面／預約」。",
       "sentenceIndex": 1,
@@ -764,12 +755,9 @@ export default {
         "appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-01": "本句指「預先約定在特定時間進行的會面／預約」。",
-        "appointment-mcq-02": "「看醫生、牙醫、顧問等預先安排的服務／診症預約」與本句語境不同。",
-        "appointment-mcq-03": "「與醫生、治療師等安排好的醫療預約」與本句語境不同。",
-        "appointment-mcq-04": "「預先安排的牙科診症／牙醫預約」與本句語境不同。",
-        "appointment-mcq-05": "「安排一個預約／約定會面時間」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。"
+        "appointment-mcq-01": "本句的「appointment」指「預先約定在特定時間進行的會面／預約」。",
+        "appointment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-01"
     },
@@ -781,11 +769,8 @@ export default {
       "masked": "I have an ____ with my adviser tomorrow.",
       "options": [
         "appointment-mcq-05",
-        "appointment-mcq-04",
-        "appointment-mcq-06",
-        "appointment-mcq-03",
-        "appointment-mcq-07",
-        "appointment-mcq-02"
+        "appointment-mcq-20",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointment」指「安排一個預約／約定會面時間」。",
       "sentenceIndex": 2,
@@ -794,12 +779,9 @@ export default {
         "appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-05": "本句指「安排一個預約／約定會面時間」。",
-        "appointment-mcq-04": "「預先安排的牙科診症／牙醫預約」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。",
-        "appointment-mcq-03": "「與醫生、治療師等安排好的醫療預約」與本句語境不同。",
-        "appointment-mcq-07": "「把預約安排在某日期／時間」與本句語境不同。",
-        "appointment-mcq-02": "「看醫生、牙醫、顧問等預先安排的服務／診症預約」與本句語境不同。"
+        "appointment-mcq-05": "本句的「appointment」指「安排一個預約／約定會面時間」。",
+        "appointment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-05"
     },
@@ -811,11 +793,8 @@ export default {
       "masked": "She arrived early for her ____.",
       "options": [
         "appointment-mcq-05",
-        "appointment-mcq-04",
-        "appointment-mcq-06",
-        "appointment-mcq-03",
-        "appointment-mcq-07",
-        "appointment-mcq-02"
+        "appointment-mcq-26",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointment」指「安排一個預約／約定會面時間」。",
       "sentenceIndex": 3,
@@ -824,12 +803,9 @@ export default {
         "appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-05": "本句指「安排一個預約／約定會面時間」。",
-        "appointment-mcq-04": "「預先安排的牙科診症／牙醫預約」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。",
-        "appointment-mcq-03": "「與醫生、治療師等安排好的醫療預約」與本句語境不同。",
-        "appointment-mcq-07": "「把預約安排在某日期／時間」與本句語境不同。",
-        "appointment-mcq-02": "「看醫生、牙醫、顧問等預先安排的服務／診症預約」與本句語境不同。"
+        "appointment-mcq-05": "本句的「appointment」指「安排一個預約／約定會面時間」。",
+        "appointment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-05"
     },
@@ -841,11 +817,8 @@ export default {
       "masked": "I have a doctor’s ____ this afternoon.",
       "options": [
         "appointment-mcq-02",
-        "appointment-mcq-01",
-        "appointment-mcq-03",
-        "appointment-mcq-04",
-        "appointment-mcq-05",
-        "appointment-mcq-06"
+        "appointment-mcq-17",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointment」指「看醫生、牙醫、顧問等預先安排的服務／診症預約」。",
       "sentenceIndex": 4,
@@ -854,12 +827,9 @@ export default {
         "appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-02": "本句指「看醫生、牙醫、顧問等預先安排的服務／診症預約」。",
-        "appointment-mcq-01": "「預先約定在特定時間進行的會面／預約」與本句語境不同。",
-        "appointment-mcq-03": "「與醫生、治療師等安排好的醫療預約」與本句語境不同。",
-        "appointment-mcq-04": "「預先安排的牙科診症／牙醫預約」與本句語境不同。",
-        "appointment-mcq-05": "「安排一個預約／約定會面時間」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。"
+        "appointment-mcq-02": "本句的「appointment」指「看醫生、牙醫、顧問等預先安排的服務／診症預約」。",
+        "appointment-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-02"
     },
@@ -871,11 +841,8 @@ export default {
       "masked": "He booked a dental ____ for Friday.",
       "options": [
         "appointment-mcq-02",
-        "appointment-mcq-01",
-        "appointment-mcq-03",
-        "appointment-mcq-04",
-        "appointment-mcq-05",
-        "appointment-mcq-06"
+        "appointment-mcq-21",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointment」指「看醫生、牙醫、顧問等預先安排的服務／診症預約」。",
       "sentenceIndex": 5,
@@ -884,12 +851,9 @@ export default {
         "appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-02": "本句指「看醫生、牙醫、顧問等預先安排的服務／診症預約」。",
-        "appointment-mcq-01": "「預先約定在特定時間進行的會面／預約」與本句語境不同。",
-        "appointment-mcq-03": "「與醫生、治療師等安排好的醫療預約」與本句語境不同。",
-        "appointment-mcq-04": "「預先安排的牙科診症／牙醫預約」與本句語境不同。",
-        "appointment-mcq-05": "「安排一個預約／約定會面時間」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。"
+        "appointment-mcq-02": "本句的「appointment」指「看醫生、牙醫、顧問等預先安排的服務／診症預約」。",
+        "appointment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-02"
     },
@@ -901,11 +865,9 @@ export default {
       "masked": "She missed her ____.",
       "options": [
         "appointment-mcq-03",
-        "appointment-mcq-02",
-        "appointment-mcq-04",
-        "appointment-mcq-01",
-        "appointment-mcq-05",
-        "appointment-mcq-06"
+        "appointment-mcq-17",
+        "appointment-mcq-06",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「medical appointment」指「與醫生、治療師等安排好的醫療預約」。",
       "sentenceIndex": 6,
@@ -914,12 +876,10 @@ export default {
         "medical appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-03": "本句指「與醫生、治療師等安排好的醫療預約」。",
-        "appointment-mcq-02": "「看醫生、牙醫、顧問等預先安排的服務／診症預約」與本句語境不同。",
-        "appointment-mcq-04": "「預先安排的牙科診症／牙醫預約」與本句語境不同。",
-        "appointment-mcq-01": "「預先約定在特定時間進行的會面／預約」與本句語境不同。",
-        "appointment-mcq-05": "「安排一個預約／約定會面時間」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。"
+        "appointment-mcq-03": "本句的「medical appointment」指「與醫生、治療師等安排好的醫療預約」。",
+        "appointment-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-03"
     },
@@ -931,10 +891,8 @@ export default {
       "masked": "The clinic sent a reminder before the ____.",
       "options": [
         "appointment-mcq-03",
-        "appointment-mcq-02",
-        "appointment-mcq-04",
-        "appointment-mcq-01",
-        "appointment-mcq-05",
+        "appointment-mcq-21",
+        "appointment-mcq-29",
         "appointment-mcq-06"
       ],
       "explanation": "本句的「appointment」指「與醫生、治療師等安排好的醫療預約」。",
@@ -944,12 +902,10 @@ export default {
         "appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-03": "本句指「與醫生、治療師等安排好的醫療預約」。",
-        "appointment-mcq-02": "「看醫生、牙醫、顧問等預先安排的服務／診症預約」與本句語境不同。",
-        "appointment-mcq-04": "「預先安排的牙科診症／牙醫預約」與本句語境不同。",
-        "appointment-mcq-01": "「預先約定在特定時間進行的會面／預約」與本句語境不同。",
-        "appointment-mcq-05": "「安排一個預約／約定會面時間」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。"
+        "appointment-mcq-03": "本句的「appointment」指「與醫生、治療師等安排好的醫療預約」。",
+        "appointment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-03"
     },
@@ -961,11 +917,9 @@ export default {
       "masked": "I have a ____ next week.",
       "options": [
         "appointment-mcq-04",
-        "appointment-mcq-03",
-        "appointment-mcq-05",
-        "appointment-mcq-02",
-        "appointment-mcq-06",
-        "appointment-mcq-01"
+        "appointment-mcq-17",
+        "appointment-mcq-29",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「dental appointment」指「預先安排的牙科診症／牙醫預約」。",
       "sentenceIndex": 8,
@@ -974,12 +928,10 @@ export default {
         "dental appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-04": "本句指「預先安排的牙科診症／牙醫預約」。",
-        "appointment-mcq-03": "「與醫生、治療師等安排好的醫療預約」與本句語境不同。",
-        "appointment-mcq-05": "「安排一個預約／約定會面時間」與本句語境不同。",
-        "appointment-mcq-02": "「看醫生、牙醫、顧問等預先安排的服務／診症預約」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。",
-        "appointment-mcq-01": "「預先約定在特定時間進行的會面／預約」與本句語境不同。"
+        "appointment-mcq-04": "本句的「dental appointment」指「預先安排的牙科診症／牙醫預約」。",
+        "appointment-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-04"
     },
@@ -991,11 +943,9 @@ export default {
       "masked": "He rescheduled his ____.",
       "options": [
         "appointment-mcq-04",
-        "appointment-mcq-03",
-        "appointment-mcq-05",
-        "appointment-mcq-02",
-        "appointment-mcq-06",
-        "appointment-mcq-01"
+        "appointment-mcq-19",
+        "appointment-mcq-29",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「dental appointment」指「預先安排的牙科診症／牙醫預約」。",
       "sentenceIndex": 9,
@@ -1004,12 +954,10 @@ export default {
         "dental appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-04": "本句指「預先安排的牙科診症／牙醫預約」。",
-        "appointment-mcq-03": "「與醫生、治療師等安排好的醫療預約」與本句語境不同。",
-        "appointment-mcq-05": "「安排一個預約／約定會面時間」與本句語境不同。",
-        "appointment-mcq-02": "「看醫生、牙醫、顧問等預先安排的服務／診症預約」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。",
-        "appointment-mcq-01": "「預先約定在特定時間進行的會面／預約」與本句語境不同。"
+        "appointment-mcq-04": "本句的「dental appointment」指「預先安排的牙科診症／牙醫預約」。",
+        "appointment-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-04"
     },
@@ -1021,11 +969,8 @@ export default {
       "masked": "You need to ____ first.",
       "options": [
         "appointment-mcq-05",
-        "appointment-mcq-04",
-        "appointment-mcq-06",
-        "appointment-mcq-03",
-        "appointment-mcq-07",
-        "appointment-mcq-02"
+        "appointment-mcq-20",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「make an appointment」指「安排一個預約／約定會面時間」。",
       "sentenceIndex": 10,
@@ -1034,12 +979,9 @@ export default {
         "make an appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-05": "本句指「安排一個預約／約定會面時間」。",
-        "appointment-mcq-04": "「預先安排的牙科診症／牙醫預約」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。",
-        "appointment-mcq-03": "「與醫生、治療師等安排好的醫療預約」與本句語境不同。",
-        "appointment-mcq-07": "「把預約安排在某日期／時間」與本句語境不同。",
-        "appointment-mcq-02": "「看醫生、牙醫、顧問等預先安排的服務／診症預約」與本句語境不同。"
+        "appointment-mcq-05": "本句的「make an appointment」指「安排一個預約／約定會面時間」。",
+        "appointment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-05"
     },
@@ -1051,11 +993,8 @@ export default {
       "masked": "I’d like to ____ with the doctor.",
       "options": [
         "appointment-mcq-05",
-        "appointment-mcq-04",
-        "appointment-mcq-06",
-        "appointment-mcq-03",
-        "appointment-mcq-07",
-        "appointment-mcq-02"
+        "appointment-mcq-20",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「make an appointment」指「安排一個預約／約定會面時間」。",
       "sentenceIndex": 11,
@@ -1064,12 +1003,9 @@ export default {
         "make an appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-05": "本句指「安排一個預約／約定會面時間」。",
-        "appointment-mcq-04": "「預先安排的牙科診症／牙醫預約」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。",
-        "appointment-mcq-03": "「與醫生、治療師等安排好的醫療預約」與本句語境不同。",
-        "appointment-mcq-07": "「把預約安排在某日期／時間」與本句語境不同。",
-        "appointment-mcq-02": "「看醫生、牙醫、顧問等預先安排的服務／診症預約」與本句語境不同。"
+        "appointment-mcq-05": "本句的「make an appointment」指「安排一個預約／約定會面時間」。",
+        "appointment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-05"
     },
@@ -1081,11 +1017,9 @@ export default {
       "masked": "You can ____ online.",
       "options": [
         "appointment-mcq-06",
-        "appointment-mcq-05",
-        "appointment-mcq-07",
-        "appointment-mcq-04",
-        "appointment-mcq-08",
-        "appointment-mcq-03"
+        "appointment-mcq-21",
+        "appointment-mcq-29",
+        "appointment-mcq-04"
       ],
       "explanation": "本句的「book an appointment」指「預訂一個可用的會面／服務時段」。",
       "sentenceIndex": 12,
@@ -1094,12 +1028,10 @@ export default {
         "book an appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-06": "本句指「預訂一個可用的會面／服務時段」。",
-        "appointment-mcq-05": "「安排一個預約／約定會面時間」與本句語境不同。",
-        "appointment-mcq-07": "「把預約安排在某日期／時間」與本句語境不同。",
-        "appointment-mcq-04": "「預先安排的牙科診症／牙醫預約」與本句語境不同。",
-        "appointment-mcq-08": "「按原定時間赴約／出席預約」與本句語境不同。",
-        "appointment-mcq-03": "「與醫生、治療師等安排好的醫療預約」與本句語境不同。"
+        "appointment-mcq-06": "本句的「book an appointment」指「預訂一個可用的會面／服務時段」。",
+        "appointment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-06"
     },
@@ -1111,11 +1043,9 @@ export default {
       "masked": "She ____ for Monday morning.",
       "options": [
         "appointment-mcq-06",
-        "appointment-mcq-05",
-        "appointment-mcq-07",
-        "appointment-mcq-04",
-        "appointment-mcq-08",
-        "appointment-mcq-03"
+        "appointment-mcq-22",
+        "appointment-mcq-29",
+        "appointment-mcq-04"
       ],
       "explanation": "本句的「booked an appointment」指「預訂一個可用的會面／服務時段」。",
       "sentenceIndex": 13,
@@ -1124,12 +1054,10 @@ export default {
         "booked an appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-06": "本句指「預訂一個可用的會面／服務時段」。",
-        "appointment-mcq-05": "「安排一個預約／約定會面時間」與本句語境不同。",
-        "appointment-mcq-07": "「把預約安排在某日期／時間」與本句語境不同。",
-        "appointment-mcq-04": "「預先安排的牙科診症／牙醫預約」與本句語境不同。",
-        "appointment-mcq-08": "「按原定時間赴約／出席預約」與本句語境不同。",
-        "appointment-mcq-03": "「與醫生、治療師等安排好的醫療預約」與本句語境不同。"
+        "appointment-mcq-06": "本句的「booked an appointment」指「預訂一個可用的會面／服務時段」。",
+        "appointment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-06"
     },
@@ -1141,11 +1069,8 @@ export default {
       "masked": "We ____ for next week.",
       "options": [
         "appointment-mcq-07",
-        "appointment-mcq-06",
-        "appointment-mcq-08",
-        "appointment-mcq-05",
-        "appointment-mcq-09",
-        "appointment-mcq-04"
+        "appointment-mcq-26",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「scheduled an appointment」指「把預約安排在某日期／時間」。",
       "sentenceIndex": 14,
@@ -1154,12 +1079,9 @@ export default {
         "scheduled an appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-07": "本句指「把預約安排在某日期／時間」。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。",
-        "appointment-mcq-08": "「按原定時間赴約／出席預約」與本句語境不同。",
-        "appointment-mcq-05": "「安排一個預約／約定會面時間」與本句語境不同。",
-        "appointment-mcq-09": "「到場參加已安排的預約／會面」與本句語境不同。",
-        "appointment-mcq-04": "「預先安排的牙科診症／牙醫預約」與本句語境不同。"
+        "appointment-mcq-07": "本句的「scheduled an appointment」指「把預約安排在某日期／時間」。",
+        "appointment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-07"
     },
@@ -1171,11 +1093,8 @@ export default {
       "masked": "The office will contact you to ____.",
       "options": [
         "appointment-mcq-07",
-        "appointment-mcq-06",
-        "appointment-mcq-08",
-        "appointment-mcq-05",
-        "appointment-mcq-09",
-        "appointment-mcq-04"
+        "appointment-mcq-23",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「schedule an appointment」指「把預約安排在某日期／時間」。",
       "sentenceIndex": 15,
@@ -1184,12 +1103,9 @@ export default {
         "schedule an appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-07": "本句指「把預約安排在某日期／時間」。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。",
-        "appointment-mcq-08": "「按原定時間赴約／出席預約」與本句語境不同。",
-        "appointment-mcq-05": "「安排一個預約／約定會面時間」與本句語境不同。",
-        "appointment-mcq-09": "「到場參加已安排的預約／會面」與本句語境不同。",
-        "appointment-mcq-04": "「預先安排的牙科診症／牙醫預約」與本句語境不同。"
+        "appointment-mcq-07": "本句的「schedule an appointment」指「把預約安排在某日期／時間」。",
+        "appointment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-07"
     },
@@ -1201,11 +1117,8 @@ export default {
       "masked": "Please call if you cannot ____.",
       "options": [
         "appointment-mcq-08",
-        "appointment-mcq-07",
-        "appointment-mcq-09",
-        "appointment-mcq-06",
-        "appointment-mcq-10",
-        "appointment-mcq-05"
+        "appointment-mcq-19",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「keep your appointment」指「按原定時間赴約／出席預約」。",
       "sentenceIndex": 16,
@@ -1214,12 +1127,9 @@ export default {
         "keep your appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-08": "本句指「按原定時間赴約／出席預約」。",
-        "appointment-mcq-07": "「把預約安排在某日期／時間」與本句語境不同。",
-        "appointment-mcq-09": "「到場參加已安排的預約／會面」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。",
-        "appointment-mcq-10": "「沒有按約到場；錯過預約／失約」與本句語境不同。",
-        "appointment-mcq-05": "「安排一個預約／約定會面時間」與本句語境不同。"
+        "appointment-mcq-08": "本句的「keep your appointment」指「按原定時間赴約／出席預約」。",
+        "appointment-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-08"
     },
@@ -1231,11 +1141,8 @@ export default {
       "masked": "He always ____.",
       "options": [
         "appointment-mcq-08",
-        "appointment-mcq-07",
-        "appointment-mcq-09",
-        "appointment-mcq-06",
-        "appointment-mcq-10",
-        "appointment-mcq-05"
+        "appointment-mcq-19",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「keeps his appointments」指「按原定時間赴約／出席預約」。",
       "sentenceIndex": 17,
@@ -1244,12 +1151,9 @@ export default {
         "keeps his appointments"
       ],
       "optionReasons": {
-        "appointment-mcq-08": "本句指「按原定時間赴約／出席預約」。",
-        "appointment-mcq-07": "「把預約安排在某日期／時間」與本句語境不同。",
-        "appointment-mcq-09": "「到場參加已安排的預約／會面」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。",
-        "appointment-mcq-10": "「沒有按約到場；錯過預約／失約」與本句語境不同。",
-        "appointment-mcq-05": "「安排一個預約／約定會面時間」與本句語境不同。"
+        "appointment-mcq-08": "本句的「keeps his appointments」指「按原定時間赴約／出席預約」。",
+        "appointment-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-08"
     },
@@ -1261,10 +1165,8 @@ export default {
       "masked": "She needed help to ____.",
       "options": [
         "appointment-mcq-09",
-        "appointment-mcq-08",
-        "appointment-mcq-10",
-        "appointment-mcq-07",
-        "appointment-mcq-11",
+        "appointment-mcq-24",
+        "appointment-mcq-29",
         "appointment-mcq-06"
       ],
       "explanation": "本句的「attend her appointment」指「到場參加已安排的預約／會面」。",
@@ -1274,12 +1176,10 @@ export default {
         "attend her appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-09": "本句指「到場參加已安排的預約／會面」。",
-        "appointment-mcq-08": "「按原定時間赴約／出席預約」與本句語境不同。",
-        "appointment-mcq-10": "「沒有按約到場；錯過預約／失約」與本句語境不同。",
-        "appointment-mcq-07": "「把預約安排在某日期／時間」與本句語境不同。",
-        "appointment-mcq-11": "「取消原先安排的預約」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。"
+        "appointment-mcq-09": "本句的「attend her appointment」指「到場參加已安排的預約／會面」。",
+        "appointment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-09"
     },
@@ -1291,10 +1191,8 @@ export default {
       "masked": "Patients should arrive early to ____.",
       "options": [
         "appointment-mcq-09",
-        "appointment-mcq-08",
-        "appointment-mcq-10",
-        "appointment-mcq-07",
-        "appointment-mcq-11",
+        "appointment-mcq-23",
+        "appointment-mcq-29",
         "appointment-mcq-06"
       ],
       "explanation": "本句的「attend appointments」指「到場參加已安排的預約／會面」。",
@@ -1304,12 +1202,10 @@ export default {
         "attend appointments"
       ],
       "optionReasons": {
-        "appointment-mcq-09": "本句指「到場參加已安排的預約／會面」。",
-        "appointment-mcq-08": "「按原定時間赴約／出席預約」與本句語境不同。",
-        "appointment-mcq-10": "「沒有按約到場；錯過預約／失約」與本句語境不同。",
-        "appointment-mcq-07": "「把預約安排在某日期／時間」與本句語境不同。",
-        "appointment-mcq-11": "「取消原先安排的預約」與本句語境不同。",
-        "appointment-mcq-06": "「預訂一個可用的會面／服務時段」與本句語境不同。"
+        "appointment-mcq-09": "本句的「attend appointments」指「到場參加已安排的預約／會面」。",
+        "appointment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-09"
     },
@@ -1321,11 +1217,9 @@ export default {
       "masked": "He ____ because the bus was late.",
       "options": [
         "appointment-mcq-10",
-        "appointment-mcq-09",
-        "appointment-mcq-11",
-        "appointment-mcq-08",
-        "appointment-mcq-12",
-        "appointment-mcq-07"
+        "appointment-mcq-20",
+        "appointment-mcq-29",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「missed his appointment」指「沒有按約到場；錯過預約／失約」。",
       "sentenceIndex": 20,
@@ -1334,12 +1228,10 @@ export default {
         "missed his appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-10": "本句指「沒有按約到場；錯過預約／失約」。",
-        "appointment-mcq-09": "「到場參加已安排的預約／會面」與本句語境不同。",
-        "appointment-mcq-11": "「取消原先安排的預約」與本句語境不同。",
-        "appointment-mcq-08": "「按原定時間赴約／出席預約」與本句語境不同。",
-        "appointment-mcq-12": "「把預約改到另一時間／日期」與本句語境不同。",
-        "appointment-mcq-07": "「把預約安排在某日期／時間」與本句語境不同。"
+        "appointment-mcq-10": "本句的「missed his appointment」指「沒有按約到場；錯過預約／失約」。",
+        "appointment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-10"
     },
@@ -1351,11 +1243,9 @@ export default {
       "masked": "Repeatedly ____ may cause delays.",
       "options": [
         "appointment-mcq-10",
-        "appointment-mcq-09",
-        "appointment-mcq-11",
-        "appointment-mcq-08",
-        "appointment-mcq-12",
-        "appointment-mcq-07"
+        "appointment-mcq-22",
+        "appointment-mcq-29",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「missing appointments」指「沒有按約到場；錯過預約／失約」。",
       "sentenceIndex": 21,
@@ -1364,12 +1254,10 @@ export default {
         "missing appointments"
       ],
       "optionReasons": {
-        "appointment-mcq-10": "本句指「沒有按約到場；錯過預約／失約」。",
-        "appointment-mcq-09": "「到場參加已安排的預約／會面」與本句語境不同。",
-        "appointment-mcq-11": "「取消原先安排的預約」與本句語境不同。",
-        "appointment-mcq-08": "「按原定時間赴約／出席預約」與本句語境不同。",
-        "appointment-mcq-12": "「把預約改到另一時間／日期」與本句語境不同。",
-        "appointment-mcq-07": "「把預約安排在某日期／時間」與本句語境不同。"
+        "appointment-mcq-10": "本句的「missing appointments」指「沒有按約到場；錯過預約／失約」。",
+        "appointment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-10"
     },
@@ -1381,11 +1269,9 @@ export default {
       "masked": "I had to ____.",
       "options": [
         "appointment-mcq-11",
-        "appointment-mcq-10",
-        "appointment-mcq-12",
-        "appointment-mcq-09",
-        "appointment-mcq-13",
-        "appointment-mcq-08"
+        "appointment-mcq-27",
+        "appointment-mcq-29",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「cancel my appointment」指「取消原先安排的預約」。",
       "sentenceIndex": 22,
@@ -1394,12 +1280,10 @@ export default {
         "cancel my appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-11": "本句指「取消原先安排的預約」。",
-        "appointment-mcq-10": "「沒有按約到場；錯過預約／失約」與本句語境不同。",
-        "appointment-mcq-12": "「把預約改到另一時間／日期」與本句語境不同。",
-        "appointment-mcq-09": "「到場參加已安排的預約／會面」與本句語境不同。",
-        "appointment-mcq-13": "「須事先預約才提供服務／接待」與本句語境不同。",
-        "appointment-mcq-08": "「按原定時間赴約／出席預約」與本句語境不同。"
+        "appointment-mcq-11": "本句的「cancel my appointment」指「取消原先安排的預約」。",
+        "appointment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-11"
     },
@@ -1411,11 +1295,9 @@ export default {
       "masked": "Please give notice if you need to ____.",
       "options": [
         "appointment-mcq-11",
-        "appointment-mcq-10",
-        "appointment-mcq-12",
-        "appointment-mcq-09",
-        "appointment-mcq-13",
-        "appointment-mcq-08"
+        "appointment-mcq-20",
+        "appointment-mcq-29",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「cancel an appointment」指「取消原先安排的預約」。",
       "sentenceIndex": 23,
@@ -1424,12 +1306,10 @@ export default {
         "cancel an appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-11": "本句指「取消原先安排的預約」。",
-        "appointment-mcq-10": "「沒有按約到場；錯過預約／失約」與本句語境不同。",
-        "appointment-mcq-12": "「把預約改到另一時間／日期」與本句語境不同。",
-        "appointment-mcq-09": "「到場參加已安排的預約／會面」與本句語境不同。",
-        "appointment-mcq-13": "「須事先預約才提供服務／接待」與本句語境不同。",
-        "appointment-mcq-08": "「按原定時間赴約／出席預約」與本句語境不同。"
+        "appointment-mcq-11": "本句的「cancel an appointment」指「取消原先安排的預約」。",
+        "appointment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-11"
     },
@@ -1441,11 +1321,8 @@ export default {
       "masked": "Can we ____?",
       "options": [
         "appointment-mcq-12",
-        "appointment-mcq-11",
-        "appointment-mcq-13",
-        "appointment-mcq-10",
-        "appointment-mcq-14",
-        "appointment-mcq-09"
+        "appointment-mcq-20",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「reschedule the appointment」指「把預約改到另一時間／日期」。",
       "sentenceIndex": 24,
@@ -1454,12 +1331,9 @@ export default {
         "reschedule the appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-12": "本句指「把預約改到另一時間／日期」。",
-        "appointment-mcq-11": "「取消原先安排的預約」與本句語境不同。",
-        "appointment-mcq-13": "「須事先預約才提供服務／接待」與本句語境不同。",
-        "appointment-mcq-10": "「沒有按約到場；錯過預約／失約」與本句語境不同。",
-        "appointment-mcq-14": "「只接受預約，不接受即場到訪」與本句語境不同。",
-        "appointment-mcq-09": "「到場參加已安排的預約／會面」與本句語境不同。"
+        "appointment-mcq-12": "本句的「reschedule the appointment」指「把預約改到另一時間／日期」。",
+        "appointment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-12"
     },
@@ -1471,11 +1345,8 @@ export default {
       "masked": "She ____ it for Thursday.",
       "options": [
         "appointment-mcq-12",
-        "appointment-mcq-11",
-        "appointment-mcq-13",
-        "appointment-mcq-10",
-        "appointment-mcq-14",
-        "appointment-mcq-09"
+        "appointment-mcq-26",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「rescheduled」指「把預約改到另一時間／日期」。",
       "sentenceIndex": 25,
@@ -1484,12 +1355,9 @@ export default {
         "rescheduled"
       ],
       "optionReasons": {
-        "appointment-mcq-12": "本句指「把預約改到另一時間／日期」。",
-        "appointment-mcq-11": "「取消原先安排的預約」與本句語境不同。",
-        "appointment-mcq-13": "「須事先預約才提供服務／接待」與本句語境不同。",
-        "appointment-mcq-10": "「沒有按約到場；錯過預約／失約」與本句語境不同。",
-        "appointment-mcq-14": "「只接受預約，不接受即場到訪」與本句語境不同。",
-        "appointment-mcq-09": "「到場參加已安排的預約／會面」與本句語境不同。"
+        "appointment-mcq-12": "本句的「rescheduled」指「把預約改到另一時間／日期」。",
+        "appointment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-12"
     },
@@ -1501,11 +1369,9 @@ export default {
       "masked": "Visits are ____.",
       "options": [
         "appointment-mcq-14",
-        "appointment-mcq-13",
-        "appointment-mcq-15",
-        "appointment-mcq-12",
-        "appointment-mcq-16",
-        "appointment-mcq-11"
+        "appointment-mcq-22",
+        "appointment-mcq-29",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「by appointment only」指「只接受預約，不接受即場到訪」。",
       "sentenceIndex": 26,
@@ -1514,12 +1380,10 @@ export default {
         "by appointment only"
       ],
       "optionReasons": {
-        "appointment-mcq-14": "本句指「只接受預約，不接受即場到訪」。",
-        "appointment-mcq-13": "「須事先預約才提供服務／接待」與本句語境不同。",
-        "appointment-mcq-15": "「預先安排好的預約時間」與本句語境不同。",
-        "appointment-mcq-12": "「把預約改到另一時間／日期」與本句語境不同。",
-        "appointment-mcq-16": "「可供預訂的一個特定預約時段」與本句語境不同。",
-        "appointment-mcq-11": "「取消原先安排的預約」與本句語境不同。"
+        "appointment-mcq-14": "本句的「by appointment only」指「只接受預約，不接受即場到訪」。",
+        "appointment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-14"
     },
@@ -1531,11 +1395,9 @@ export default {
       "masked": "The specialist sees patients ____.",
       "options": [
         "appointment-mcq-14",
-        "appointment-mcq-13",
-        "appointment-mcq-15",
-        "appointment-mcq-12",
-        "appointment-mcq-16",
-        "appointment-mcq-11"
+        "appointment-mcq-22",
+        "appointment-mcq-29",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「by appointment」指「只接受預約，不接受即場到訪」。",
       "sentenceIndex": 27,
@@ -1544,12 +1406,10 @@ export default {
         "by appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-14": "本句指「只接受預約，不接受即場到訪」。",
-        "appointment-mcq-13": "「須事先預約才提供服務／接待」與本句語境不同。",
-        "appointment-mcq-15": "「預先安排好的預約時間」與本句語境不同。",
-        "appointment-mcq-12": "「把預約改到另一時間／日期」與本句語境不同。",
-        "appointment-mcq-16": "「可供預訂的一個特定預約時段」與本句語境不同。",
-        "appointment-mcq-11": "「取消原先安排的預約」與本句語境不同。"
+        "appointment-mcq-14": "本句的「by appointment」指「只接受預約，不接受即場到訪」。",
+        "appointment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-14"
     },
@@ -1561,11 +1421,9 @@ export default {
       "masked": "The studio is open ____.",
       "options": [
         "appointment-mcq-14",
-        "appointment-mcq-13",
-        "appointment-mcq-15",
-        "appointment-mcq-12",
-        "appointment-mcq-16",
-        "appointment-mcq-11"
+        "appointment-mcq-17",
+        "appointment-mcq-29",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「by appointment only」指「只接受預約，不接受即場到訪」。",
       "sentenceIndex": 28,
@@ -1574,12 +1432,10 @@ export default {
         "by appointment only"
       ],
       "optionReasons": {
-        "appointment-mcq-14": "本句指「只接受預約，不接受即場到訪」。",
-        "appointment-mcq-13": "「須事先預約才提供服務／接待」與本句語境不同。",
-        "appointment-mcq-15": "「預先安排好的預約時間」與本句語境不同。",
-        "appointment-mcq-12": "「把預約改到另一時間／日期」與本句語境不同。",
-        "appointment-mcq-16": "「可供預訂的一個特定預約時段」與本句語境不同。",
-        "appointment-mcq-11": "「取消原先安排的預約」與本句語境不同。"
+        "appointment-mcq-14": "本句的「by appointment only」指「只接受預約，不接受即場到訪」。",
+        "appointment-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-14"
     },
@@ -1591,11 +1447,9 @@ export default {
       "masked": "Consultations are available ____.",
       "options": [
         "appointment-mcq-14",
-        "appointment-mcq-13",
-        "appointment-mcq-15",
-        "appointment-mcq-12",
-        "appointment-mcq-16",
-        "appointment-mcq-11"
+        "appointment-mcq-24",
+        "appointment-mcq-29",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「by appointment only」指「只接受預約，不接受即場到訪」。",
       "sentenceIndex": 29,
@@ -1604,12 +1458,10 @@ export default {
         "by appointment only"
       ],
       "optionReasons": {
-        "appointment-mcq-14": "本句指「只接受預約，不接受即場到訪」。",
-        "appointment-mcq-13": "「須事先預約才提供服務／接待」與本句語境不同。",
-        "appointment-mcq-15": "「預先安排好的預約時間」與本句語境不同。",
-        "appointment-mcq-12": "「把預約改到另一時間／日期」與本句語境不同。",
-        "appointment-mcq-16": "「可供預訂的一個特定預約時段」與本句語境不同。",
-        "appointment-mcq-11": "「取消原先安排的預約」與本句語境不同。"
+        "appointment-mcq-14": "本句的「by appointment only」指「只接受預約，不接受即場到訪」。",
+        "appointment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-14"
     },
@@ -1621,11 +1473,8 @@ export default {
       "masked": "Please arrive ten minutes before your ____.",
       "options": [
         "appointment-mcq-15",
-        "appointment-mcq-14",
-        "appointment-mcq-16",
-        "appointment-mcq-13",
-        "appointment-mcq-17",
-        "appointment-mcq-12"
+        "appointment-mcq-18",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointment time」指「預先安排好的預約時間」。",
       "sentenceIndex": 30,
@@ -1634,12 +1483,9 @@ export default {
         "appointment time"
       ],
       "optionReasons": {
-        "appointment-mcq-15": "本句指「預先安排好的預約時間」。",
-        "appointment-mcq-14": "「只接受預約，不接受即場到訪」與本句語境不同。",
-        "appointment-mcq-16": "「可供預訂的一個特定預約時段」與本句語境不同。",
-        "appointment-mcq-13": "「須事先預約才提供服務／接待」與本句語境不同。",
-        "appointment-mcq-17": "「正式選定某人擔任職位的任命／委任」與本句語境不同。",
-        "appointment-mcq-12": "「把預約改到另一時間／日期」與本句語境不同。"
+        "appointment-mcq-15": "本句的「appointment time」指「預先安排好的預約時間」。",
+        "appointment-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-15"
     },
@@ -1651,11 +1497,8 @@ export default {
       "masked": "Her ____ was changed.",
       "options": [
         "appointment-mcq-15",
-        "appointment-mcq-14",
-        "appointment-mcq-16",
-        "appointment-mcq-13",
-        "appointment-mcq-17",
-        "appointment-mcq-12"
+        "appointment-mcq-22",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointment time」指「預先安排好的預約時間」。",
       "sentenceIndex": 31,
@@ -1664,12 +1507,9 @@ export default {
         "appointment time"
       ],
       "optionReasons": {
-        "appointment-mcq-15": "本句指「預先安排好的預約時間」。",
-        "appointment-mcq-14": "「只接受預約，不接受即場到訪」與本句語境不同。",
-        "appointment-mcq-16": "「可供預訂的一個特定預約時段」與本句語境不同。",
-        "appointment-mcq-13": "「須事先預約才提供服務／接待」與本句語境不同。",
-        "appointment-mcq-17": "「正式選定某人擔任職位的任命／委任」與本句語境不同。",
-        "appointment-mcq-12": "「把預約改到另一時間／日期」與本句語境不同。"
+        "appointment-mcq-15": "本句的「appointment time」指「預先安排好的預約時間」。",
+        "appointment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-15"
     },
@@ -1681,11 +1521,8 @@ export default {
       "masked": "There are no ____ left today.",
       "options": [
         "appointment-mcq-16",
-        "appointment-mcq-15",
-        "appointment-mcq-17",
-        "appointment-mcq-14",
         "appointment-mcq-18",
-        "appointment-mcq-13"
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointment slots」指「可供預訂的一個特定預約時段」。",
       "sentenceIndex": 32,
@@ -1694,12 +1531,9 @@ export default {
         "appointment slots"
       ],
       "optionReasons": {
-        "appointment-mcq-16": "本句指「可供預訂的一個特定預約時段」。",
-        "appointment-mcq-15": "「預先安排好的預約時間」與本句語境不同。",
-        "appointment-mcq-17": "「正式選定某人擔任職位的任命／委任」與本句語境不同。",
-        "appointment-mcq-14": "「只接受預約，不接受即場到訪」與本句語境不同。",
-        "appointment-mcq-18": "「獲正式任命出任某個職位」與本句語境不同。",
-        "appointment-mcq-13": "「須事先預約才提供服務／接待」與本句語境不同。"
+        "appointment-mcq-16": "本句的「appointment slots」指「可供預訂的一個特定預約時段」。",
+        "appointment-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-16"
     },
@@ -1711,11 +1545,8 @@ export default {
       "masked": "I chose the earliest available ____.",
       "options": [
         "appointment-mcq-16",
-        "appointment-mcq-15",
-        "appointment-mcq-17",
-        "appointment-mcq-14",
-        "appointment-mcq-18",
-        "appointment-mcq-13"
+        "appointment-mcq-21",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「slot」指「可供預訂的一個特定預約時段」。",
       "sentenceIndex": 33,
@@ -1724,12 +1555,9 @@ export default {
         "slot"
       ],
       "optionReasons": {
-        "appointment-mcq-16": "本句指「可供預訂的一個特定預約時段」。",
-        "appointment-mcq-15": "「預先安排好的預約時間」與本句語境不同。",
-        "appointment-mcq-17": "「正式選定某人擔任職位的任命／委任」與本句語境不同。",
-        "appointment-mcq-14": "「只接受預約，不接受即場到訪」與本句語境不同。",
-        "appointment-mcq-18": "「獲正式任命出任某個職位」與本句語境不同。",
-        "appointment-mcq-13": "「須事先預約才提供服務／接待」與本句語境不同。"
+        "appointment-mcq-16": "本句的「slot」指「可供預訂的一個特定預約時段」。",
+        "appointment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-16"
     },
@@ -1741,11 +1569,8 @@ export default {
       "masked": "Her ____ was announced yesterday.",
       "options": [
         "appointment-mcq-17",
-        "appointment-mcq-16",
-        "appointment-mcq-18",
-        "appointment-mcq-15",
-        "appointment-mcq-19",
-        "appointment-mcq-14"
+        "appointment-mcq-02",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointment as director」指「正式選定某人擔任職位的任命／委任」。",
       "sentenceIndex": 34,
@@ -1754,12 +1579,9 @@ export default {
         "appointment as director"
       ],
       "optionReasons": {
-        "appointment-mcq-17": "本句指「正式選定某人擔任職位的任命／委任」。",
-        "appointment-mcq-16": "「可供預訂的一個特定預約時段」與本句語境不同。",
-        "appointment-mcq-18": "「獲正式任命出任某個職位」與本句語境不同。",
-        "appointment-mcq-15": "「預先安排好的預約時間」與本句語境不同。",
-        "appointment-mcq-19": "「獲任命擔任某身分／職位」與本句語境不同。",
-        "appointment-mcq-14": "「只接受預約，不接受即場到訪」與本句語境不同。"
+        "appointment-mcq-17": "本句的「appointment as director」指「正式選定某人擔任職位的任命／委任」。",
+        "appointment-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-17"
     },
@@ -1771,11 +1593,8 @@ export default {
       "masked": "The committee approved his ____.",
       "options": [
         "appointment-mcq-17",
-        "appointment-mcq-16",
-        "appointment-mcq-18",
         "appointment-mcq-15",
-        "appointment-mcq-19",
-        "appointment-mcq-14"
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointment」指「正式選定某人擔任職位的任命／委任」。",
       "sentenceIndex": 35,
@@ -1784,12 +1603,9 @@ export default {
         "appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-17": "本句指「正式選定某人擔任職位的任命／委任」。",
-        "appointment-mcq-16": "「可供預訂的一個特定預約時段」與本句語境不同。",
-        "appointment-mcq-18": "「獲正式任命出任某個職位」與本句語境不同。",
-        "appointment-mcq-15": "「預先安排好的預約時間」與本句語境不同。",
-        "appointment-mcq-19": "「獲任命擔任某身分／職位」與本句語境不同。",
-        "appointment-mcq-14": "「只接受預約，不接受即場到訪」與本句語境不同。"
+        "appointment-mcq-17": "本句的「appointment」指「正式選定某人擔任職位的任命／委任」。",
+        "appointment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-17"
     },
@@ -1801,11 +1617,9 @@ export default {
       "masked": "She welcomed his ____.",
       "options": [
         "appointment-mcq-18",
-        "appointment-mcq-17",
-        "appointment-mcq-19",
-        "appointment-mcq-16",
-        "appointment-mcq-20",
-        "appointment-mcq-15"
+        "appointment-mcq-06",
+        "appointment-mcq-04",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointment to the board」指「獲正式任命出任某個職位」。",
       "sentenceIndex": 36,
@@ -1814,12 +1628,10 @@ export default {
         "appointment to the board"
       ],
       "optionReasons": {
-        "appointment-mcq-18": "本句指「獲正式任命出任某個職位」。",
-        "appointment-mcq-17": "「正式選定某人擔任職位的任命／委任」與本句語境不同。",
-        "appointment-mcq-19": "「獲任命擔任某身分／職位」與本句語境不同。",
-        "appointment-mcq-16": "「可供預訂的一個特定預約時段」與本句語境不同。",
-        "appointment-mcq-20": "「正式任命／委任某人擔任職位」與本句語境不同。",
-        "appointment-mcq-15": "「預先安排好的預約時間」與本句語境不同。"
+        "appointment-mcq-18": "本句的「appointment to the board」指「獲正式任命出任某個職位」。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-18"
     },
@@ -1831,11 +1643,8 @@ export default {
       "masked": "His ____ surprised some people.",
       "options": [
         "appointment-mcq-18",
-        "appointment-mcq-17",
-        "appointment-mcq-19",
-        "appointment-mcq-16",
-        "appointment-mcq-20",
-        "appointment-mcq-15"
+        "appointment-mcq-01",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointment to the post」指「獲正式任命出任某個職位」。",
       "sentenceIndex": 37,
@@ -1844,12 +1653,9 @@ export default {
         "appointment to the post"
       ],
       "optionReasons": {
-        "appointment-mcq-18": "本句指「獲正式任命出任某個職位」。",
-        "appointment-mcq-17": "「正式選定某人擔任職位的任命／委任」與本句語境不同。",
-        "appointment-mcq-19": "「獲任命擔任某身分／職位」與本句語境不同。",
-        "appointment-mcq-16": "「可供預訂的一個特定預約時段」與本句語境不同。",
-        "appointment-mcq-20": "「正式任命／委任某人擔任職位」與本句語境不同。",
-        "appointment-mcq-15": "「預先安排好的預約時間」與本句語境不同。"
+        "appointment-mcq-18": "本句的「appointment to the post」指「獲正式任命出任某個職位」。",
+        "appointment-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-18"
     },
@@ -1861,11 +1667,9 @@ export default {
       "masked": "Her ____ was confirmed.",
       "options": [
         "appointment-mcq-19",
-        "appointment-mcq-18",
-        "appointment-mcq-20",
-        "appointment-mcq-17",
-        "appointment-mcq-21",
-        "appointment-mcq-16"
+        "appointment-mcq-11",
+        "appointment-mcq-29",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「appointment as chairperson」指「獲任命擔任某身分／職位」。",
       "sentenceIndex": 38,
@@ -1874,12 +1678,10 @@ export default {
         "appointment as chairperson"
       ],
       "optionReasons": {
-        "appointment-mcq-19": "本句指「獲任命擔任某身分／職位」。",
-        "appointment-mcq-18": "「獲正式任命出任某個職位」與本句語境不同。",
-        "appointment-mcq-20": "「正式任命／委任某人擔任職位」與本句語境不同。",
-        "appointment-mcq-17": "「正式選定某人擔任職位的任命／委任」與本句語境不同。",
-        "appointment-mcq-21": "「正式任命某人為某職位」與本句語境不同。",
-        "appointment-mcq-16": "「可供預訂的一個特定預約時段」與本句語境不同。"
+        "appointment-mcq-19": "本句的「appointment as chairperson」指「獲任命擔任某身分／職位」。",
+        "appointment-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-19"
     },
@@ -1891,11 +1693,8 @@ export default {
       "masked": "He accepted his ____.",
       "options": [
         "appointment-mcq-19",
-        "appointment-mcq-18",
-        "appointment-mcq-20",
-        "appointment-mcq-17",
-        "appointment-mcq-21",
-        "appointment-mcq-16"
+        "appointment-mcq-12",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointment as manager」指「獲任命擔任某身分／職位」。",
       "sentenceIndex": 39,
@@ -1904,12 +1703,9 @@ export default {
         "appointment as manager"
       ],
       "optionReasons": {
-        "appointment-mcq-19": "本句指「獲任命擔任某身分／職位」。",
-        "appointment-mcq-18": "「獲正式任命出任某個職位」與本句語境不同。",
-        "appointment-mcq-20": "「正式任命／委任某人擔任職位」與本句語境不同。",
-        "appointment-mcq-17": "「正式選定某人擔任職位的任命／委任」與本句語境不同。",
-        "appointment-mcq-21": "「正式任命某人為某職位」與本句語境不同。",
-        "appointment-mcq-16": "「可供預訂的一個特定預約時段」與本句語境不同。"
+        "appointment-mcq-19": "本句的「appointment as manager」指「獲任命擔任某身分／職位」。",
+        "appointment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-19"
     },
@@ -1921,11 +1717,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "appointment-mcq-20",
-        "appointment-mcq-19",
-        "appointment-mcq-21",
-        "appointment-mcq-18",
-        "appointment-mcq-22",
-        "appointment-mcq-17"
+        "appointment-mcq-30",
+        "appointment-mcq-06",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointed a new manager」指「正式任命／委任某人擔任職位」。",
       "sentenceIndex": 40,
@@ -1934,12 +1728,10 @@ export default {
         "appointed a new manager"
       ],
       "optionReasons": {
-        "appointment-mcq-20": "本句指「正式任命／委任某人擔任職位」。",
-        "appointment-mcq-19": "「獲任命擔任某身分／職位」與本句語境不同。",
-        "appointment-mcq-21": "「正式任命某人為某職位」與本句語境不同。",
-        "appointment-mcq-18": "「獲正式任命出任某個職位」與本句語境不同。",
-        "appointment-mcq-22": "「委任某人出任某職位」與本句語境不同。",
-        "appointment-mcq-17": "「正式選定某人擔任職位的任命／委任」與本句語境不同。"
+        "appointment-mcq-20": "本句的「appointed a new manager」指「正式任命／委任某人擔任職位」。",
+        "appointment-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-20"
     },
@@ -1951,11 +1743,9 @@ export default {
       "masked": "The board ____ yesterday.",
       "options": [
         "appointment-mcq-20",
-        "appointment-mcq-19",
-        "appointment-mcq-21",
-        "appointment-mcq-18",
-        "appointment-mcq-22",
-        "appointment-mcq-17"
+        "appointment-mcq-25",
+        "appointment-mcq-03",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointed her」指「正式任命／委任某人擔任職位」。",
       "sentenceIndex": 41,
@@ -1964,12 +1754,10 @@ export default {
         "appointed her"
       ],
       "optionReasons": {
-        "appointment-mcq-20": "本句指「正式任命／委任某人擔任職位」。",
-        "appointment-mcq-19": "「獲任命擔任某身分／職位」與本句語境不同。",
-        "appointment-mcq-21": "「正式任命某人為某職位」與本句語境不同。",
-        "appointment-mcq-18": "「獲正式任命出任某個職位」與本句語境不同。",
-        "appointment-mcq-22": "「委任某人出任某職位」與本句語境不同。",
-        "appointment-mcq-17": "「正式選定某人擔任職位的任命／委任」與本句語境不同。"
+        "appointment-mcq-20": "本句的「appointed her」指「正式任命／委任某人擔任職位」。",
+        "appointment-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-20"
     },
@@ -1981,11 +1769,8 @@ export default {
       "masked": "They ____.",
       "options": [
         "appointment-mcq-21",
-        "appointment-mcq-20",
-        "appointment-mcq-22",
-        "appointment-mcq-19",
-        "appointment-mcq-23",
-        "appointment-mcq-18"
+        "appointment-mcq-15",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointed her as team leader」指「正式任命某人為某職位」。",
       "sentenceIndex": 42,
@@ -1994,12 +1779,9 @@ export default {
         "appointed her as team leader"
       ],
       "optionReasons": {
-        "appointment-mcq-21": "本句指「正式任命某人為某職位」。",
-        "appointment-mcq-20": "「正式任命／委任某人擔任職位」與本句語境不同。",
-        "appointment-mcq-22": "「委任某人出任某職位」與本句語境不同。",
-        "appointment-mcq-19": "「獲任命擔任某身分／職位」與本句語境不同。",
-        "appointment-mcq-23": "「正式委派某人負責某項工作」與本句語境不同。",
-        "appointment-mcq-18": "「獲正式任命出任某個職位」與本句語境不同。"
+        "appointment-mcq-21": "本句的「appointed her as team leader」指「正式任命某人為某職位」。",
+        "appointment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-21"
     },
@@ -2011,11 +1793,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "appointment-mcq-21",
-        "appointment-mcq-20",
-        "appointment-mcq-22",
-        "appointment-mcq-19",
-        "appointment-mcq-23",
-        "appointment-mcq-18"
+        "appointment-mcq-03",
+        "appointment-mcq-06",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointed as adviser」指「正式任命某人為某職位」。",
       "sentenceIndex": 43,
@@ -2024,12 +1804,10 @@ export default {
         "appointed as adviser"
       ],
       "optionReasons": {
-        "appointment-mcq-21": "本句指「正式任命某人為某職位」。",
-        "appointment-mcq-20": "「正式任命／委任某人擔任職位」與本句語境不同。",
-        "appointment-mcq-22": "「委任某人出任某職位」與本句語境不同。",
-        "appointment-mcq-19": "「獲任命擔任某身分／職位」與本句語境不同。",
-        "appointment-mcq-23": "「正式委派某人負責某項工作」與本句語境不同。",
-        "appointment-mcq-18": "「獲正式任命出任某個職位」與本句語境不同。"
+        "appointment-mcq-21": "本句的「appointed as adviser」指「正式任命某人為某職位」。",
+        "appointment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-21"
     },
@@ -2041,11 +1819,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "appointment-mcq-22",
-        "appointment-mcq-21",
-        "appointment-mcq-23",
-        "appointment-mcq-20",
-        "appointment-mcq-24",
-        "appointment-mcq-19"
+        "appointment-mcq-04",
+        "appointment-mcq-06",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointed to the board」指「委任某人出任某職位」。",
       "sentenceIndex": 44,
@@ -2054,12 +1830,10 @@ export default {
         "appointed to the board"
       ],
       "optionReasons": {
-        "appointment-mcq-22": "本句指「委任某人出任某職位」。",
-        "appointment-mcq-21": "「正式任命某人為某職位」與本句語境不同。",
-        "appointment-mcq-23": "「正式委派某人負責某項工作」與本句語境不同。",
-        "appointment-mcq-20": "「正式任命／委任某人擔任職位」與本句語境不同。",
-        "appointment-mcq-24": "「正式獲任命／委任的」與本句語境不同。",
-        "appointment-mcq-19": "「獲任命擔任某身分／職位」與本句語境不同。"
+        "appointment-mcq-22": "本句的「appointed to the board」指「委任某人出任某職位」。",
+        "appointment-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-22"
     },
@@ -2071,11 +1845,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "appointment-mcq-22",
-        "appointment-mcq-21",
-        "appointment-mcq-23",
-        "appointment-mcq-20",
-        "appointment-mcq-24",
-        "appointment-mcq-19"
+        "appointment-mcq-09",
+        "appointment-mcq-29",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「appointed to a senior position」指「委任某人出任某職位」。",
       "sentenceIndex": 45,
@@ -2084,12 +1856,10 @@ export default {
         "appointed to a senior position"
       ],
       "optionReasons": {
-        "appointment-mcq-22": "本句指「委任某人出任某職位」。",
-        "appointment-mcq-21": "「正式任命某人為某職位」與本句語境不同。",
-        "appointment-mcq-23": "「正式委派某人負責某項工作」與本句語境不同。",
-        "appointment-mcq-20": "「正式任命／委任某人擔任職位」與本句語境不同。",
-        "appointment-mcq-24": "「正式獲任命／委任的」與本句語境不同。",
-        "appointment-mcq-19": "「獲任命擔任某身分／職位」與本句語境不同。"
+        "appointment-mcq-22": "本句的「appointed to a senior position」指「委任某人出任某職位」。",
+        "appointment-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-22"
     },
@@ -2101,11 +1871,8 @@ export default {
       "masked": "The committee ____.",
       "options": [
         "appointment-mcq-23",
-        "appointment-mcq-22",
-        "appointment-mcq-24",
-        "appointment-mcq-21",
-        "appointment-mcq-25",
-        "appointment-mcq-20"
+        "appointment-mcq-02",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointed her to lead the review」指「正式委派某人負責某項工作」。",
       "sentenceIndex": 46,
@@ -2114,12 +1881,9 @@ export default {
         "appointed her to lead the review"
       ],
       "optionReasons": {
-        "appointment-mcq-23": "本句指「正式委派某人負責某項工作」。",
-        "appointment-mcq-22": "「委任某人出任某職位」與本句語境不同。",
-        "appointment-mcq-24": "「正式獲任命／委任的」與本句語境不同。",
-        "appointment-mcq-21": "「正式任命某人為某職位」與本句語境不同。",
-        "appointment-mcq-25": "「預先約定／指定的時間或地點」與本句語境不同。",
-        "appointment-mcq-20": "「正式任命／委任某人擔任職位」與本句語境不同。"
+        "appointment-mcq-23": "本句的「appointed her to lead the review」指「正式委派某人負責某項工作」。",
+        "appointment-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-23"
     },
@@ -2131,11 +1895,8 @@ export default {
       "masked": "He was ____.",
       "options": [
         "appointment-mcq-23",
-        "appointment-mcq-22",
-        "appointment-mcq-24",
-        "appointment-mcq-21",
-        "appointment-mcq-25",
-        "appointment-mcq-20"
+        "appointment-mcq-12",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointed to investigate the complaint」指「正式委派某人負責某項工作」。",
       "sentenceIndex": 47,
@@ -2144,12 +1905,9 @@ export default {
         "appointed to investigate the complaint"
       ],
       "optionReasons": {
-        "appointment-mcq-23": "本句指「正式委派某人負責某項工作」。",
-        "appointment-mcq-22": "「委任某人出任某職位」與本句語境不同。",
-        "appointment-mcq-24": "「正式獲任命／委任的」與本句語境不同。",
-        "appointment-mcq-21": "「正式任命某人為某職位」與本句語境不同。",
-        "appointment-mcq-25": "「預先約定／指定的時間或地點」與本句語境不同。",
-        "appointment-mcq-20": "「正式任命／委任某人擔任職位」與本句語境不同。"
+        "appointment-mcq-23": "本句的「appointed to investigate the complaint」指「正式委派某人負責某項工作」。",
+        "appointment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-23"
     },
@@ -2161,11 +1919,9 @@ export default {
       "masked": "The newly ____ starts next week.",
       "options": [
         "appointment-mcq-24",
-        "appointment-mcq-23",
-        "appointment-mcq-25",
-        "appointment-mcq-22",
-        "appointment-mcq-26",
-        "appointment-mcq-21"
+        "appointment-mcq-09",
+        "appointment-mcq-06",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointed manager」指「正式獲任命／委任的」。",
       "sentenceIndex": 48,
@@ -2174,12 +1930,10 @@ export default {
         "appointed manager"
       ],
       "optionReasons": {
-        "appointment-mcq-24": "本句指「正式獲任命／委任的」。",
-        "appointment-mcq-23": "「正式委派某人負責某項工作」與本句語境不同。",
-        "appointment-mcq-25": "「預先約定／指定的時間或地點」與本句語境不同。",
-        "appointment-mcq-22": "「委任某人出任某職位」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。",
-        "appointment-mcq-21": "「正式任命某人為某職位」與本句語境不同。"
+        "appointment-mcq-24": "本句的「appointed manager」指「正式獲任命／委任的」。",
+        "appointment-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-24"
     },
@@ -2191,11 +1945,9 @@ export default {
       "masked": "She is the ____.",
       "options": [
         "appointment-mcq-24",
-        "appointment-mcq-23",
-        "appointment-mcq-25",
-        "appointment-mcq-22",
-        "appointment-mcq-26",
-        "appointment-mcq-21"
+        "appointment-mcq-30",
+        "appointment-mcq-29",
+        "appointment-mcq-25"
       ],
       "explanation": "本句的「appointed representative」指「正式獲任命／委任的」。",
       "sentenceIndex": 49,
@@ -2204,12 +1956,10 @@ export default {
         "appointed representative"
       ],
       "optionReasons": {
-        "appointment-mcq-24": "本句指「正式獲任命／委任的」。",
-        "appointment-mcq-23": "「正式委派某人負責某項工作」與本句語境不同。",
-        "appointment-mcq-25": "「預先約定／指定的時間或地點」與本句語境不同。",
-        "appointment-mcq-22": "「委任某人出任某職位」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。",
-        "appointment-mcq-21": "「正式任命某人為某職位」與本句語境不同。"
+        "appointment-mcq-24": "本句的「appointed representative」指「正式獲任命／委任的」。",
+        "appointment-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-24"
     },
@@ -2221,11 +1971,9 @@ export default {
       "masked": "They met at the ____.",
       "options": [
         "appointment-mcq-25",
-        "appointment-mcq-24",
-        "appointment-mcq-26",
-        "appointment-mcq-23",
-        "appointment-mcq-27",
-        "appointment-mcq-22"
+        "appointment-mcq-22",
+        "appointment-mcq-29",
+        "appointment-mcq-09"
       ],
       "explanation": "本句的「appointed time」指「預先約定／指定的時間或地點」。",
       "sentenceIndex": 50,
@@ -2234,12 +1982,10 @@ export default {
         "appointed time"
       ],
       "optionReasons": {
-        "appointment-mcq-25": "本句指「預先約定／指定的時間或地點」。",
-        "appointment-mcq-24": "「正式獲任命／委任的」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。",
-        "appointment-mcq-23": "「正式委派某人負責某項工作」與本句語境不同。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-22": "「委任某人出任某職位」與本句語境不同。"
+        "appointment-mcq-25": "本句的「appointed time」指「預先約定／指定的時間或地點」。",
+        "appointment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-25"
     },
@@ -2252,10 +1998,8 @@ export default {
       "options": [
         "appointment-mcq-25",
         "appointment-mcq-24",
-        "appointment-mcq-26",
-        "appointment-mcq-23",
-        "appointment-mcq-27",
-        "appointment-mcq-22"
+        "appointment-mcq-29",
+        "appointment-mcq-10"
       ],
       "explanation": "本句的「appointed place」指「預先約定／指定的時間或地點」。",
       "sentenceIndex": 51,
@@ -2264,12 +2008,10 @@ export default {
         "appointed place"
       ],
       "optionReasons": {
-        "appointment-mcq-25": "本句指「預先約定／指定的時間或地點」。",
-        "appointment-mcq-24": "「正式獲任命／委任的」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。",
-        "appointment-mcq-23": "「正式委派某人負責某項工作」與本句語境不同。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-22": "「委任某人出任某職位」與本句語境不同。"
+        "appointment-mcq-25": "本句的「appointed place」指「預先約定／指定的時間或地點」。",
+        "appointment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-25"
     },
@@ -2281,11 +2023,9 @@ export default {
       "masked": "They arrived at the ____.",
       "options": [
         "appointment-mcq-25",
-        "appointment-mcq-24",
         "appointment-mcq-26",
-        "appointment-mcq-23",
-        "appointment-mcq-27",
-        "appointment-mcq-22"
+        "appointment-mcq-29",
+        "appointment-mcq-03"
       ],
       "explanation": "本句的「appointed hour」指「預先約定／指定的時間或地點」。",
       "sentenceIndex": 52,
@@ -2294,12 +2034,10 @@ export default {
         "appointed hour"
       ],
       "optionReasons": {
-        "appointment-mcq-25": "本句指「預先約定／指定的時間或地點」。",
-        "appointment-mcq-24": "「正式獲任命／委任的」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。",
-        "appointment-mcq-23": "「正式委派某人負責某項工作」與本句語境不同。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-22": "「委任某人出任某職位」與本句語境不同。"
+        "appointment-mcq-25": "本句的「appointed hour」指「預先約定／指定的時間或地點」。",
+        "appointment-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-25"
     },
@@ -2312,10 +2050,8 @@ export default {
       "options": [
         "appointment-mcq-25",
         "appointment-mcq-24",
-        "appointment-mcq-26",
-        "appointment-mcq-23",
-        "appointment-mcq-27",
-        "appointment-mcq-22"
+        "appointment-mcq-29",
+        "appointment-mcq-09"
       ],
       "explanation": "本句的「appointed day」指「預先約定／指定的時間或地點」。",
       "sentenceIndex": 53,
@@ -2324,12 +2060,10 @@ export default {
         "appointed day"
       ],
       "optionReasons": {
-        "appointment-mcq-25": "本句指「預先約定／指定的時間或地點」。",
-        "appointment-mcq-24": "「正式獲任命／委任的」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。",
-        "appointment-mcq-23": "「正式委派某人負責某項工作」與本句語境不同。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-22": "「委任某人出任某職位」與本句語境不同。"
+        "appointment-mcq-25": "本句的「appointed day」指「預先約定／指定的時間或地點」。",
+        "appointment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-25"
     },
@@ -2342,10 +2076,8 @@ export default {
       "options": [
         "appointment-mcq-26",
         "appointment-mcq-25",
-        "appointment-mcq-27",
-        "appointment-mcq-24",
-        "appointment-mcq-28",
-        "appointment-mcq-23"
+        "appointment-mcq-10",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointee」指「正式獲任命擔任某職位的人」。",
       "sentenceIndex": 54,
@@ -2354,12 +2086,10 @@ export default {
         "appointee"
       ],
       "optionReasons": {
-        "appointment-mcq-26": "本句指「正式獲任命擔任某職位的人」。",
-        "appointment-mcq-25": "「預先約定／指定的時間或地點」與本句語境不同。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-24": "「正式獲任命／委任的」與本句語境不同。",
-        "appointment-mcq-28": "「沒有獲正式授權而自封某身分／職位的」與本句語境不同。",
-        "appointment-mcq-23": "「正式委派某人負責某項工作」與本句語境不同。"
+        "appointment-mcq-26": "本句的「appointee」指「正式獲任命擔任某職位的人」。",
+        "appointment-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-26"
     },
@@ -2371,11 +2101,9 @@ export default {
       "masked": "Each ____ must complete the training.",
       "options": [
         "appointment-mcq-26",
-        "appointment-mcq-25",
-        "appointment-mcq-27",
-        "appointment-mcq-24",
-        "appointment-mcq-28",
-        "appointment-mcq-23"
+        "appointment-mcq-31",
+        "appointment-mcq-29",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「appointee」指「正式獲任命擔任某職位的人」。",
       "sentenceIndex": 55,
@@ -2384,12 +2112,10 @@ export default {
         "appointee"
       ],
       "optionReasons": {
-        "appointment-mcq-26": "本句指「正式獲任命擔任某職位的人」。",
-        "appointment-mcq-25": "「預先約定／指定的時間或地點」與本句語境不同。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-24": "「正式獲任命／委任的」與本句語境不同。",
-        "appointment-mcq-28": "「沒有獲正式授權而自封某身分／職位的」與本句語境不同。",
-        "appointment-mcq-23": "「正式委派某人負責某項工作」與本句語境不同。"
+        "appointment-mcq-26": "本句的「appointee」指「正式獲任命擔任某職位的人」。",
+        "appointment-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-26"
     },
@@ -2401,11 +2127,8 @@ export default {
       "masked": "The final decision rests with the ____.",
       "options": [
         "appointment-mcq-27",
-        "appointment-mcq-26",
-        "appointment-mcq-28",
-        "appointment-mcq-25",
-        "appointment-mcq-29",
-        "appointment-mcq-24"
+        "appointment-mcq-12",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointing authority」指「有權正式作出任命的機關／人士」。",
       "sentenceIndex": 56,
@@ -2414,12 +2137,9 @@ export default {
         "appointing authority"
       ],
       "optionReasons": {
-        "appointment-mcq-27": "本句指「有權正式作出任命的機關／人士」。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。",
-        "appointment-mcq-28": "「沒有獲正式授權而自封某身分／職位的」與本句語境不同。",
-        "appointment-mcq-25": "「預先約定／指定的時間或地點」與本句語境不同。",
-        "appointment-mcq-29": "「房間、酒店等設備完善、裝潢講究的」與本句語境不同。",
-        "appointment-mcq-24": "「正式獲任命／委任的」與本句語境不同。"
+        "appointment-mcq-27": "本句的「appointing authority」指「有權正式作出任命的機關／人士」。",
+        "appointment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-27"
     },
@@ -2431,11 +2151,8 @@ export default {
       "masked": "The ____ reviewed the candidates.",
       "options": [
         "appointment-mcq-27",
-        "appointment-mcq-26",
-        "appointment-mcq-28",
-        "appointment-mcq-25",
-        "appointment-mcq-29",
-        "appointment-mcq-24"
+        "appointment-mcq-12",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「appointing authority」指「有權正式作出任命的機關／人士」。",
       "sentenceIndex": 57,
@@ -2444,12 +2161,9 @@ export default {
         "appointing authority"
       ],
       "optionReasons": {
-        "appointment-mcq-27": "本句指「有權正式作出任命的機關／人士」。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。",
-        "appointment-mcq-28": "「沒有獲正式授權而自封某身分／職位的」與本句語境不同。",
-        "appointment-mcq-25": "「預先約定／指定的時間或地點」與本句語境不同。",
-        "appointment-mcq-29": "「房間、酒店等設備完善、裝潢講究的」與本句語境不同。",
-        "appointment-mcq-24": "「正式獲任命／委任的」與本句語境不同。"
+        "appointment-mcq-27": "本句的「appointing authority」指「有權正式作出任命的機關／人士」。",
+        "appointment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-27"
     },
@@ -2461,11 +2175,9 @@ export default {
       "masked": "He became the group’s ____.",
       "options": [
         "appointment-mcq-28",
-        "appointment-mcq-27",
-        "appointment-mcq-29",
-        "appointment-mcq-26",
-        "appointment-mcq-30",
-        "appointment-mcq-25"
+        "appointment-mcq-09",
+        "appointment-mcq-25",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「self-appointed leader」指「沒有獲正式授權而自封某身分／職位的」。",
       "sentenceIndex": 58,
@@ -2474,12 +2186,10 @@ export default {
         "self-appointed leader"
       ],
       "optionReasons": {
-        "appointment-mcq-28": "本句指「沒有獲正式授權而自封某身分／職位的」。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-29": "「房間、酒店等設備完善、裝潢講究的」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。",
-        "appointment-mcq-30": "「用來記錄預約的預約簿／行程簿」與本句語境不同。",
-        "appointment-mcq-25": "「預先約定／指定的時間或地點」與本句語境不同。"
+        "appointment-mcq-28": "本句的「self-appointed leader」指「沒有獲正式授權而自封某身分／職位的」。",
+        "appointment-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-28"
     },
@@ -2491,11 +2201,9 @@ export default {
       "masked": "She acted as a ____.",
       "options": [
         "appointment-mcq-28",
-        "appointment-mcq-27",
-        "appointment-mcq-29",
-        "appointment-mcq-26",
-        "appointment-mcq-30",
-        "appointment-mcq-25"
+        "appointment-mcq-03",
+        "appointment-mcq-25",
+        "appointment-mcq-29"
       ],
       "explanation": "本句的「self-appointed spokesperson」指「沒有獲正式授權而自封某身分／職位的」。",
       "sentenceIndex": 59,
@@ -2504,12 +2212,10 @@ export default {
         "self-appointed spokesperson"
       ],
       "optionReasons": {
-        "appointment-mcq-28": "本句指「沒有獲正式授權而自封某身分／職位的」。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-29": "「房間、酒店等設備完善、裝潢講究的」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。",
-        "appointment-mcq-30": "「用來記錄預約的預約簿／行程簿」與本句語境不同。",
-        "appointment-mcq-25": "「預先約定／指定的時間或地點」與本句語境不同。"
+        "appointment-mcq-28": "本句的「self-appointed spokesperson」指「沒有獲正式授權而自封某身分／職位的」。",
+        "appointment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-28"
     },
@@ -2521,11 +2227,9 @@ export default {
       "masked": "We stayed in a ____.",
       "options": [
         "appointment-mcq-29",
-        "appointment-mcq-28",
-        "appointment-mcq-30",
-        "appointment-mcq-27",
         "appointment-mcq-31",
-        "appointment-mcq-26"
+        "appointment-mcq-17",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「well-appointed hotel room」指「房間、酒店等設備完善、裝潢講究的」。",
       "sentenceIndex": 60,
@@ -2534,12 +2238,10 @@ export default {
         "well-appointed hotel room"
       ],
       "optionReasons": {
-        "appointment-mcq-29": "本句指「房間、酒店等設備完善、裝潢講究的」。",
-        "appointment-mcq-28": "「沒有獲正式授權而自封某身分／職位的」與本句語境不同。",
-        "appointment-mcq-30": "「用來記錄預約的預約簿／行程簿」與本句語境不同。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-31": "「定期重複、已預先固定安排好的預約」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。"
+        "appointment-mcq-29": "本句的「well-appointed hotel room」指「房間、酒店等設備完善、裝潢講究的」。",
+        "appointment-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-29"
     },
@@ -2551,11 +2253,9 @@ export default {
       "masked": "The apartment is spacious and ____.",
       "options": [
         "appointment-mcq-29",
-        "appointment-mcq-28",
-        "appointment-mcq-30",
         "appointment-mcq-27",
         "appointment-mcq-31",
-        "appointment-mcq-26"
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「well-appointed」指「房間、酒店等設備完善、裝潢講究的」。",
       "sentenceIndex": 61,
@@ -2564,12 +2264,10 @@ export default {
         "well-appointed"
       ],
       "optionReasons": {
-        "appointment-mcq-29": "本句指「房間、酒店等設備完善、裝潢講究的」。",
-        "appointment-mcq-28": "「沒有獲正式授權而自封某身分／職位的」與本句語境不同。",
-        "appointment-mcq-30": "「用來記錄預約的預約簿／行程簿」與本句語境不同。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-31": "「定期重複、已預先固定安排好的預約」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。"
+        "appointment-mcq-29": "本句的「well-appointed」指「房間、酒店等設備完善、裝潢講究的」。",
+        "appointment-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-29"
     },
@@ -2581,11 +2279,9 @@ export default {
       "masked": "The room was small and ____.",
       "options": [
         "appointment-mcq-29",
-        "appointment-mcq-28",
-        "appointment-mcq-30",
-        "appointment-mcq-27",
-        "appointment-mcq-31",
-        "appointment-mcq-26"
+        "appointment-mcq-17",
+        "appointment-mcq-04",
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「poorly appointed」指「房間、酒店等設備完善、裝潢講究的」。",
       "sentenceIndex": 62,
@@ -2594,12 +2290,10 @@ export default {
         "poorly appointed"
       ],
       "optionReasons": {
-        "appointment-mcq-29": "本句指「房間、酒店等設備完善、裝潢講究的」。",
-        "appointment-mcq-28": "「沒有獲正式授權而自封某身分／職位的」與本句語境不同。",
-        "appointment-mcq-30": "「用來記錄預約的預約簿／行程簿」與本句語境不同。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-31": "「定期重複、已預先固定安排好的預約」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。"
+        "appointment-mcq-29": "本句的「poorly appointed」指「房間、酒店等設備完善、裝潢講究的」。",
+        "appointment-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-29"
     },
@@ -2611,11 +2305,9 @@ export default {
       "masked": "She checked her ____.",
       "options": [
         "appointment-mcq-30",
+        "appointment-mcq-22",
         "appointment-mcq-29",
-        "appointment-mcq-31",
-        "appointment-mcq-28",
-        "appointment-mcq-27",
-        "appointment-mcq-26"
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「appointment book」指「用來記錄預約的預約簿／行程簿」。",
       "sentenceIndex": 63,
@@ -2624,12 +2316,10 @@ export default {
         "appointment book"
       ],
       "optionReasons": {
-        "appointment-mcq-30": "本句指「用來記錄預約的預約簿／行程簿」。",
-        "appointment-mcq-29": "「房間、酒店等設備完善、裝潢講究的」與本句語境不同。",
-        "appointment-mcq-31": "「定期重複、已預先固定安排好的預約」與本句語境不同。",
-        "appointment-mcq-28": "「沒有獲正式授權而自封某身分／職位的」與本句語境不同。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。"
+        "appointment-mcq-30": "本句的「appointment book」指「用來記錄預約的預約簿／行程簿」。",
+        "appointment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-30"
     },
@@ -2641,11 +2331,9 @@ export default {
       "masked": "The receptionist entered my name in the ____.",
       "options": [
         "appointment-mcq-30",
+        "appointment-mcq-21",
         "appointment-mcq-29",
-        "appointment-mcq-31",
-        "appointment-mcq-28",
-        "appointment-mcq-27",
-        "appointment-mcq-26"
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「appointment book」指「用來記錄預約的預約簿／行程簿」。",
       "sentenceIndex": 64,
@@ -2654,12 +2342,10 @@ export default {
         "appointment book"
       ],
       "optionReasons": {
-        "appointment-mcq-30": "本句指「用來記錄預約的預約簿／行程簿」。",
-        "appointment-mcq-29": "「房間、酒店等設備完善、裝潢講究的」與本句語境不同。",
-        "appointment-mcq-31": "「定期重複、已預先固定安排好的預約」與本句語境不同。",
-        "appointment-mcq-28": "「沒有獲正式授權而自封某身分／職位的」與本句語境不同。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。"
+        "appointment-mcq-30": "本句的「appointment book」指「用來記錄預約的預約簿／行程簿」。",
+        "appointment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-30"
     },
@@ -2671,11 +2357,9 @@ export default {
       "masked": "We have a ____ every Tuesday.",
       "options": [
         "appointment-mcq-31",
-        "appointment-mcq-30",
+        "appointment-mcq-21",
         "appointment-mcq-29",
-        "appointment-mcq-28",
-        "appointment-mcq-27",
-        "appointment-mcq-26"
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「standing appointment」指「定期重複、已預先固定安排好的預約」。",
       "sentenceIndex": 65,
@@ -2684,12 +2368,10 @@ export default {
         "standing appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-31": "本句指「定期重複、已預先固定安排好的預約」。",
-        "appointment-mcq-30": "「用來記錄預約的預約簿／行程簿」與本句語境不同。",
-        "appointment-mcq-29": "「房間、酒店等設備完善、裝潢講究的」與本句語境不同。",
-        "appointment-mcq-28": "「沒有獲正式授權而自封某身分／職位的」與本句語境不同。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。"
+        "appointment-mcq-31": "本句的「standing appointment」指「定期重複、已預先固定安排好的預約」。",
+        "appointment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-31"
     },
@@ -2701,11 +2383,9 @@ export default {
       "masked": "She has a ____ with her therapist.",
       "options": [
         "appointment-mcq-31",
-        "appointment-mcq-30",
+        "appointment-mcq-24",
         "appointment-mcq-29",
-        "appointment-mcq-28",
-        "appointment-mcq-27",
-        "appointment-mcq-26"
+        "appointment-mcq-06"
       ],
       "explanation": "本句的「standing appointment」指「定期重複、已預先固定安排好的預約」。",
       "sentenceIndex": 66,
@@ -2714,12 +2394,10 @@ export default {
         "standing appointment"
       ],
       "optionReasons": {
-        "appointment-mcq-31": "本句指「定期重複、已預先固定安排好的預約」。",
-        "appointment-mcq-30": "「用來記錄預約的預約簿／行程簿」與本句語境不同。",
-        "appointment-mcq-29": "「房間、酒店等設備完善、裝潢講究的」與本句語境不同。",
-        "appointment-mcq-28": "「沒有獲正式授權而自封某身分／職位的」與本句語境不同。",
-        "appointment-mcq-27": "「有權正式作出任命的機關／人士」與本句語境不同。",
-        "appointment-mcq-26": "「正式獲任命擔任某職位的人」與本句語境不同。"
+        "appointment-mcq-31": "本句的「standing appointment」指「定期重複、已預先固定安排好的預約」。",
+        "appointment-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "appointment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "appointment-mcq-31"
     }
@@ -2731,5 +2409,7 @@ export default {
     "sha256": "6771d8a636746fd82dad92d405fdc2c7c09da2278070b22d61793688055be93a",
     "pages": 21
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -503,11 +503,7 @@ export default {
       "masked": "She runs on the ____ every morning.",
       "options": [
         "treadmill-mcq-01",
-        "treadmill-mcq-02",
-        "treadmill-mcq-03",
-        "treadmill-mcq-04",
-        "treadmill-mcq-05",
-        "treadmill-mcq-06"
+        "treadmill-mcq-11"
       ],
       "explanation": "本句的「treadmill」指「有持續移動跑帶，讓人在原地步行或跑步的健身器材」。",
       "sentenceIndex": 0,
@@ -516,12 +512,8 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-01": "本句指「有持續移動跑帶，讓人在原地步行或跑步的健身器材」。",
-        "treadmill-mcq-02": "「跑步機跑帶移動的速度」與本句語境不同。",
-        "treadmill-mcq-03": "「跑步機模擬上坡的傾斜程度」與本句語境不同。",
-        "treadmill-mcq-04": "「人實際踩踏／跑步的移動帶面」與本句語境不同。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。"
+        "treadmill-mcq-01": "本句的「treadmill」指「有持續移動跑帶，讓人在原地步行或跑步的健身器材」。",
+        "treadmill-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-01"
     },
@@ -533,11 +525,7 @@ export default {
       "masked": "I walked on the ____ for thirty minutes.",
       "options": [
         "treadmill-mcq-01",
-        "treadmill-mcq-02",
-        "treadmill-mcq-03",
-        "treadmill-mcq-04",
-        "treadmill-mcq-05",
-        "treadmill-mcq-06"
+        "treadmill-mcq-11"
       ],
       "explanation": "本句的「treadmill」指「有持續移動跑帶，讓人在原地步行或跑步的健身器材」。",
       "sentenceIndex": 1,
@@ -546,12 +534,8 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-01": "本句指「有持續移動跑帶，讓人在原地步行或跑步的健身器材」。",
-        "treadmill-mcq-02": "「跑步機跑帶移動的速度」與本句語境不同。",
-        "treadmill-mcq-03": "「跑步機模擬上坡的傾斜程度」與本句語境不同。",
-        "treadmill-mcq-04": "「人實際踩踏／跑步的移動帶面」與本句語境不同。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。"
+        "treadmill-mcq-01": "本句的「treadmill」指「有持續移動跑帶，讓人在原地步行或跑步的健身器材」。",
+        "treadmill-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-01"
     },
@@ -563,11 +547,8 @@ export default {
       "masked": "Increase the ____ gradually.",
       "options": [
         "treadmill-mcq-02",
-        "treadmill-mcq-01",
-        "treadmill-mcq-03",
-        "treadmill-mcq-04",
-        "treadmill-mcq-05",
-        "treadmill-mcq-06"
+        "treadmill-mcq-13",
+        "treadmill-mcq-23"
       ],
       "explanation": "本句的「treadmill speed」指「跑步機跑帶移動的速度」。",
       "sentenceIndex": 6,
@@ -576,12 +557,9 @@ export default {
         "treadmill speed"
       ],
       "optionReasons": {
-        "treadmill-mcq-02": "本句指「跑步機跑帶移動的速度」。",
-        "treadmill-mcq-01": "「有持續移動跑帶，讓人在原地步行或跑步的健身器材」與本句語境不同。",
-        "treadmill-mcq-03": "「跑步機模擬上坡的傾斜程度」與本句語境不同。",
-        "treadmill-mcq-04": "「人實際踩踏／跑步的移動帶面」與本句語境不同。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。"
+        "treadmill-mcq-02": "本句的「treadmill speed」指「跑步機跑帶移動的速度」。",
+        "treadmill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-02"
     },
@@ -593,11 +571,7 @@ export default {
       "masked": "The ____ speed was too fast for me.",
       "options": [
         "treadmill-mcq-02",
-        "treadmill-mcq-01",
-        "treadmill-mcq-03",
-        "treadmill-mcq-04",
-        "treadmill-mcq-05",
-        "treadmill-mcq-06"
+        "treadmill-mcq-12"
       ],
       "explanation": "本句的「treadmill」指「跑步機跑帶移動的速度」。",
       "sentenceIndex": 7,
@@ -606,12 +580,8 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-02": "本句指「跑步機跑帶移動的速度」。",
-        "treadmill-mcq-01": "「有持續移動跑帶，讓人在原地步行或跑步的健身器材」與本句語境不同。",
-        "treadmill-mcq-03": "「跑步機模擬上坡的傾斜程度」與本句語境不同。",
-        "treadmill-mcq-04": "「人實際踩踏／跑步的移動帶面」與本句語境不同。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。"
+        "treadmill-mcq-02": "本句的「treadmill」指「跑步機跑帶移動的速度」。",
+        "treadmill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-02"
     },
@@ -623,11 +593,8 @@ export default {
       "masked": "She increased the ____.",
       "options": [
         "treadmill-mcq-03",
-        "treadmill-mcq-02",
-        "treadmill-mcq-04",
-        "treadmill-mcq-01",
-        "treadmill-mcq-05",
-        "treadmill-mcq-06"
+        "treadmill-mcq-21",
+        "treadmill-mcq-14"
       ],
       "explanation": "本句的「treadmill incline」指「跑步機模擬上坡的傾斜程度」。",
       "sentenceIndex": 8,
@@ -636,12 +603,9 @@ export default {
         "treadmill incline"
       ],
       "optionReasons": {
-        "treadmill-mcq-03": "本句指「跑步機模擬上坡的傾斜程度」。",
-        "treadmill-mcq-02": "「跑步機跑帶移動的速度」與本句語境不同。",
-        "treadmill-mcq-04": "「人實際踩踏／跑步的移動帶面」與本句語境不同。",
-        "treadmill-mcq-01": "「有持續移動跑帶，讓人在原地步行或跑步的健身器材」與本句語境不同。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。"
+        "treadmill-mcq-03": "本句的「treadmill incline」指「跑步機模擬上坡的傾斜程度」。",
+        "treadmill-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-03"
     },
@@ -653,11 +617,8 @@ export default {
       "masked": "Walking at an incline can make ____ exercise harder.",
       "options": [
         "treadmill-mcq-03",
-        "treadmill-mcq-02",
-        "treadmill-mcq-04",
-        "treadmill-mcq-01",
-        "treadmill-mcq-05",
-        "treadmill-mcq-06"
+        "treadmill-mcq-19",
+        "treadmill-mcq-18"
       ],
       "explanation": "本句的「treadmill」指「跑步機模擬上坡的傾斜程度」。",
       "sentenceIndex": 9,
@@ -666,12 +627,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-03": "本句指「跑步機模擬上坡的傾斜程度」。",
-        "treadmill-mcq-02": "「跑步機跑帶移動的速度」與本句語境不同。",
-        "treadmill-mcq-04": "「人實際踩踏／跑步的移動帶面」與本句語境不同。",
-        "treadmill-mcq-01": "「有持續移動跑帶，讓人在原地步行或跑步的健身器材」與本句語境不同。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。"
+        "treadmill-mcq-03": "本句的「treadmill」指「跑步機模擬上坡的傾斜程度」。",
+        "treadmill-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-03"
     },
@@ -683,11 +641,7 @@ export default {
       "masked": "Keep away from the moving ____.",
       "options": [
         "treadmill-mcq-04",
-        "treadmill-mcq-03",
-        "treadmill-mcq-05",
-        "treadmill-mcq-02",
-        "treadmill-mcq-06",
-        "treadmill-mcq-01"
+        "treadmill-mcq-15"
       ],
       "explanation": "本句的「treadmill belt」指「人實際踩踏／跑步的移動帶面」。",
       "sentenceIndex": 10,
@@ -696,12 +650,8 @@ export default {
         "treadmill belt"
       ],
       "optionReasons": {
-        "treadmill-mcq-04": "本句指「人實際踩踏／跑步的移動帶面」。",
-        "treadmill-mcq-03": "「跑步機模擬上坡的傾斜程度」與本句語境不同。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。",
-        "treadmill-mcq-02": "「跑步機跑帶移動的速度」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。",
-        "treadmill-mcq-01": "「有持續移動跑帶，讓人在原地步行或跑步的健身器材」與本句語境不同。"
+        "treadmill-mcq-04": "本句的「treadmill belt」指「人實際踩踏／跑步的移動帶面」。",
+        "treadmill-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-04"
     },
@@ -713,11 +663,7 @@ export default {
       "masked": "The ____ belt needs replacing.",
       "options": [
         "treadmill-mcq-04",
-        "treadmill-mcq-03",
-        "treadmill-mcq-05",
-        "treadmill-mcq-02",
-        "treadmill-mcq-06",
-        "treadmill-mcq-01"
+        "treadmill-mcq-12"
       ],
       "explanation": "本句的「treadmill」指「人實際踩踏／跑步的移動帶面」。",
       "sentenceIndex": 11,
@@ -726,12 +672,8 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-04": "本句指「人實際踩踏／跑步的移動帶面」。",
-        "treadmill-mcq-03": "「跑步機模擬上坡的傾斜程度」與本句語境不同。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。",
-        "treadmill-mcq-02": "「跑步機跑帶移動的速度」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。",
-        "treadmill-mcq-01": "「有持續移動跑帶，讓人在原地步行或跑步的健身器材」與本句語境不同。"
+        "treadmill-mcq-04": "本句的「treadmill」指「人實際踩踏／跑步的移動帶面」。",
+        "treadmill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-04"
     },
@@ -743,11 +685,8 @@ export default {
       "masked": "The doctor recommended a ____.",
       "options": [
         "treadmill-mcq-05",
-        "treadmill-mcq-04",
-        "treadmill-mcq-06",
-        "treadmill-mcq-03",
-        "treadmill-mcq-07",
-        "treadmill-mcq-02"
+        "treadmill-mcq-17",
+        "treadmill-mcq-23"
       ],
       "explanation": "本句的「treadmill test」指「在跑步機上逐步運動並監察身體反應的測試」。",
       "sentenceIndex": 14,
@@ -756,12 +695,9 @@ export default {
         "treadmill test"
       ],
       "optionReasons": {
-        "treadmill-mcq-05": "本句指「在跑步機上逐步運動並監察身體反應的測試」。",
-        "treadmill-mcq-04": "「人實際踩踏／跑步的移動帶面」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。",
-        "treadmill-mcq-03": "「跑步機模擬上坡的傾斜程度」與本句語境不同。",
-        "treadmill-mcq-07": "「用於恢復步行／運動能力的復康跑步機」與本句語境不同。",
-        "treadmill-mcq-02": "「跑步機跑帶移動的速度」與本句語境不同。"
+        "treadmill-mcq-05": "本句的「treadmill test」指「在跑步機上逐步運動並監察身體反應的測試」。",
+        "treadmill-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-05"
     },
@@ -773,11 +709,8 @@ export default {
       "masked": "His heart rate was monitored during the ____ test.",
       "options": [
         "treadmill-mcq-05",
-        "treadmill-mcq-04",
-        "treadmill-mcq-06",
-        "treadmill-mcq-03",
-        "treadmill-mcq-07",
-        "treadmill-mcq-02"
+        "treadmill-mcq-16",
+        "treadmill-mcq-18"
       ],
       "explanation": "本句的「treadmill」指「在跑步機上逐步運動並監察身體反應的測試」。",
       "sentenceIndex": 15,
@@ -786,12 +719,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-05": "本句指「在跑步機上逐步運動並監察身體反應的測試」。",
-        "treadmill-mcq-04": "「人實際踩踏／跑步的移動帶面」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。",
-        "treadmill-mcq-03": "「跑步機模擬上坡的傾斜程度」與本句語境不同。",
-        "treadmill-mcq-07": "「用於恢復步行／運動能力的復康跑步機」與本句語境不同。",
-        "treadmill-mcq-02": "「跑步機跑帶移動的速度」與本句語境不同。"
+        "treadmill-mcq-05": "本句的「treadmill」指「在跑步機上逐步運動並監察身體反應的測試」。",
+        "treadmill-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-05"
     },
@@ -803,11 +733,8 @@ export default {
       "masked": "She underwent a ____.",
       "options": [
         "treadmill-mcq-06",
-        "treadmill-mcq-05",
-        "treadmill-mcq-07",
-        "treadmill-mcq-04",
-        "treadmill-mcq-08",
-        "treadmill-mcq-03"
+        "treadmill-mcq-23",
+        "treadmill-mcq-18"
       ],
       "explanation": "本句的「treadmill stress test」指「透過跑步機運動測量心臟承受負荷時反應的醫療測試」。",
       "sentenceIndex": 16,
@@ -816,12 +743,9 @@ export default {
         "treadmill stress test"
       ],
       "optionReasons": {
-        "treadmill-mcq-06": "本句指「透過跑步機運動測量心臟承受負荷時反應的醫療測試」。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。",
-        "treadmill-mcq-07": "「用於恢復步行／運動能力的復康跑步機」與本句語境不同。",
-        "treadmill-mcq-04": "「人實際踩踏／跑步的移動帶面」與本句語境不同。",
-        "treadmill-mcq-08": "「讓人在水中步行／跑步以減低承重的復康設備」與本句語境不同。",
-        "treadmill-mcq-03": "「跑步機模擬上坡的傾斜程度」與本句語境不同。"
+        "treadmill-mcq-06": "本句的「treadmill stress test」指「透過跑步機運動測量心臟承受負荷時反應的醫療測試」。",
+        "treadmill-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-06"
     },
@@ -833,11 +757,8 @@ export default {
       "masked": "The ____ stress test checks how the heart responds to exercise.",
       "options": [
         "treadmill-mcq-06",
-        "treadmill-mcq-05",
-        "treadmill-mcq-07",
-        "treadmill-mcq-04",
-        "treadmill-mcq-08",
-        "treadmill-mcq-03"
+        "treadmill-mcq-14",
+        "treadmill-mcq-23"
       ],
       "explanation": "本句的「treadmill」指「透過跑步機運動測量心臟承受負荷時反應的醫療測試」。",
       "sentenceIndex": 17,
@@ -846,12 +767,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-06": "本句指「透過跑步機運動測量心臟承受負荷時反應的醫療測試」。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。",
-        "treadmill-mcq-07": "「用於恢復步行／運動能力的復康跑步機」與本句語境不同。",
-        "treadmill-mcq-04": "「人實際踩踏／跑步的移動帶面」與本句語境不同。",
-        "treadmill-mcq-08": "「讓人在水中步行／跑步以減低承重的復康設備」與本句語境不同。",
-        "treadmill-mcq-03": "「跑步機模擬上坡的傾斜程度」與本句語境不同。"
+        "treadmill-mcq-06": "本句的「treadmill」指「透過跑步機運動測量心臟承受負荷時反應的醫療測試」。",
+        "treadmill-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-06"
     },
@@ -863,11 +781,7 @@ export default {
       "masked": "The study used ____.",
       "options": [
         "treadmill-mcq-01",
-        "treadmill-mcq-02",
-        "treadmill-mcq-03",
-        "treadmill-mcq-04",
-        "treadmill-mcq-05",
-        "treadmill-mcq-06"
+        "treadmill-mcq-18"
       ],
       "explanation": "本句的「treadmill exercise testing」指「有持續移動跑帶，讓人在原地步行或跑步的健身器材」。",
       "sentenceIndex": 18,
@@ -876,12 +790,8 @@ export default {
         "treadmill exercise testing"
       ],
       "optionReasons": {
-        "treadmill-mcq-01": "本句指「有持續移動跑帶，讓人在原地步行或跑步的健身器材」。",
-        "treadmill-mcq-02": "「跑步機跑帶移動的速度」與本句語境不同。",
-        "treadmill-mcq-03": "「跑步機模擬上坡的傾斜程度」與本句語境不同。",
-        "treadmill-mcq-04": "「人實際踩踏／跑步的移動帶面」與本句語境不同。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。"
+        "treadmill-mcq-01": "本句的「treadmill exercise testing」指「有持續移動跑帶，讓人在原地步行或跑步的健身器材」。",
+        "treadmill-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-01"
     },
@@ -893,11 +803,7 @@ export default {
       "masked": "____ exercise testing can measure exercise capacity.",
       "options": [
         "treadmill-mcq-01",
-        "treadmill-mcq-02",
-        "treadmill-mcq-03",
-        "treadmill-mcq-04",
-        "treadmill-mcq-05",
-        "treadmill-mcq-06"
+        "treadmill-mcq-18"
       ],
       "explanation": "本句的「Treadmill」指「有持續移動跑帶，讓人在原地步行或跑步的健身器材」。",
       "sentenceIndex": 19,
@@ -906,12 +812,8 @@ export default {
         "Treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-01": "本句指「有持續移動跑帶，讓人在原地步行或跑步的健身器材」。",
-        "treadmill-mcq-02": "「跑步機跑帶移動的速度」與本句語境不同。",
-        "treadmill-mcq-03": "「跑步機模擬上坡的傾斜程度」與本句語境不同。",
-        "treadmill-mcq-04": "「人實際踩踏／跑步的移動帶面」與本句語境不同。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。"
+        "treadmill-mcq-01": "本句的「Treadmill」指「有持續移動跑帶，讓人在原地步行或跑步的健身器材」。",
+        "treadmill-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-01"
     },
@@ -923,11 +825,8 @@ export default {
       "masked": "The patient practised walking on a rehabilitation ____.",
       "options": [
         "treadmill-mcq-07",
-        "treadmill-mcq-06",
-        "treadmill-mcq-08",
-        "treadmill-mcq-05",
-        "treadmill-mcq-09",
-        "treadmill-mcq-04"
+        "treadmill-mcq-13",
+        "treadmill-mcq-23"
       ],
       "explanation": "本句的「treadmill」指「用於恢復步行／運動能力的復康跑步機」。",
       "sentenceIndex": 20,
@@ -936,12 +835,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-07": "本句指「用於恢復步行／運動能力的復康跑步機」。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。",
-        "treadmill-mcq-08": "「讓人在水中步行／跑步以減低承重的復康設備」與本句語境不同。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。",
-        "treadmill-mcq-09": "「讓人一邊慢速步行一邊工作的跑步機辦公設備」與本句語境不同。",
-        "treadmill-mcq-04": "「人實際踩踏／跑步的移動帶面」與本句語境不同。"
+        "treadmill-mcq-07": "本句的「treadmill」指「用於恢復步行／運動能力的復康跑步機」。",
+        "treadmill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-07"
     },
@@ -953,11 +849,8 @@ export default {
       "masked": "The ____ was used during physical rehabilitation.",
       "options": [
         "treadmill-mcq-07",
-        "treadmill-mcq-06",
-        "treadmill-mcq-08",
-        "treadmill-mcq-05",
-        "treadmill-mcq-09",
-        "treadmill-mcq-04"
+        "treadmill-mcq-13",
+        "treadmill-mcq-23"
       ],
       "explanation": "本句的「treadmill」指「用於恢復步行／運動能力的復康跑步機」。",
       "sentenceIndex": 21,
@@ -966,12 +859,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-07": "本句指「用於恢復步行／運動能力的復康跑步機」。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。",
-        "treadmill-mcq-08": "「讓人在水中步行／跑步以減低承重的復康設備」與本句語境不同。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。",
-        "treadmill-mcq-09": "「讓人一邊慢速步行一邊工作的跑步機辦公設備」與本句語境不同。",
-        "treadmill-mcq-04": "「人實際踩踏／跑步的移動帶面」與本句語境不同。"
+        "treadmill-mcq-07": "本句的「treadmill」指「用於恢復步行／運動能力的復康跑步機」。",
+        "treadmill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-07"
     },
@@ -983,11 +873,7 @@ export default {
       "masked": "Sometimes I feel as if I’m ____.",
       "options": [
         "treadmill-mcq-11",
-        "treadmill-mcq-10",
-        "treadmill-mcq-12",
-        "treadmill-mcq-09",
-        "treadmill-mcq-13",
-        "treadmill-mcq-08"
+        "treadmill-mcq-01"
       ],
       "explanation": "本句的「on a treadmill」指「陷入需要不停努力和重複、卻沒有真正終點的循環」。",
       "sentenceIndex": 25,
@@ -996,12 +882,8 @@ export default {
         "on a treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-11": "本句指「陷入需要不停努力和重複、卻沒有真正終點的循環」。",
-        "treadmill-mcq-10": "「必須不停重複付出努力，卻難以真正前進或到達終點的生活／工作狀態」與本句語境不同。",
-        "treadmill-mcq-12": "「擺脫令人疲憊、持續追逐的生活／工作循環」與本句語境不同。",
-        "treadmill-mcq-09": "「讓人一邊慢速步行一邊工作的跑步機辦公設備」與本句語境不同。",
-        "treadmill-mcq-13": "「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」與本句語境不同。",
-        "treadmill-mcq-08": "「讓人在水中步行／跑步以減低承重的復康設備」與本句語境不同。"
+        "treadmill-mcq-11": "本句的「on a treadmill」指「陷入需要不停努力和重複、卻沒有真正終點的循環」。",
+        "treadmill-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-11"
     },
@@ -1013,11 +895,8 @@ export default {
       "masked": "They were on a ____ of earning and spending.",
       "options": [
         "treadmill-mcq-11",
-        "treadmill-mcq-10",
-        "treadmill-mcq-12",
-        "treadmill-mcq-09",
-        "treadmill-mcq-13",
-        "treadmill-mcq-08"
+        "treadmill-mcq-19",
+        "treadmill-mcq-03"
       ],
       "explanation": "本句的「treadmill」指「陷入需要不停努力和重複、卻沒有真正終點的循環」。",
       "sentenceIndex": 26,
@@ -1026,12 +905,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-11": "本句指「陷入需要不停努力和重複、卻沒有真正終點的循環」。",
-        "treadmill-mcq-10": "「必須不停重複付出努力，卻難以真正前進或到達終點的生活／工作狀態」與本句語境不同。",
-        "treadmill-mcq-12": "「擺脫令人疲憊、持續追逐的生活／工作循環」與本句語境不同。",
-        "treadmill-mcq-09": "「讓人一邊慢速步行一邊工作的跑步機辦公設備」與本句語境不同。",
-        "treadmill-mcq-13": "「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」與本句語境不同。",
-        "treadmill-mcq-08": "「讓人在水中步行／跑步以減低承重的復康設備」與本句語境不同。"
+        "treadmill-mcq-11": "本句的「treadmill」指「陷入需要不停努力和重複、卻沒有真正終點的循環」。",
+        "treadmill-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-11"
     },
@@ -1043,11 +919,7 @@ export default {
       "masked": "She left the job because she wanted to ____.",
       "options": [
         "treadmill-mcq-12",
-        "treadmill-mcq-11",
-        "treadmill-mcq-13",
-        "treadmill-mcq-10",
-        "treadmill-mcq-14",
-        "treadmill-mcq-09"
+        "treadmill-mcq-03"
       ],
       "explanation": "本句的「get off the treadmill」指「擺脫令人疲憊、持續追逐的生活／工作循環」。",
       "sentenceIndex": 27,
@@ -1056,12 +928,8 @@ export default {
         "get off the treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-12": "本句指「擺脫令人疲憊、持續追逐的生活／工作循環」。",
-        "treadmill-mcq-11": "「陷入需要不停努力和重複、卻沒有真正終點的循環」與本句語境不同。",
-        "treadmill-mcq-13": "「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」與本句語境不同。",
-        "treadmill-mcq-10": "「必須不停重複付出努力，卻難以真正前進或到達終點的生活／工作狀態」與本句語境不同。",
-        "treadmill-mcq-14": "「不斷工作、競爭和追逐下一個職涯成就的循環」與本句語境不同。",
-        "treadmill-mcq-09": "「讓人一邊慢速步行一邊工作的跑步機辦公設備」與本句語境不同。"
+        "treadmill-mcq-12": "本句的「get off the treadmill」指「擺脫令人疲憊、持續追逐的生活／工作循環」。",
+        "treadmill-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-12"
     },
@@ -1073,11 +941,7 @@ export default {
       "masked": "He wanted to get off the ____ of constant competition.",
       "options": [
         "treadmill-mcq-12",
-        "treadmill-mcq-11",
-        "treadmill-mcq-13",
-        "treadmill-mcq-10",
-        "treadmill-mcq-14",
-        "treadmill-mcq-09"
+        "treadmill-mcq-04"
       ],
       "explanation": "本句的「treadmill」指「擺脫令人疲憊、持續追逐的生活／工作循環」。",
       "sentenceIndex": 28,
@@ -1086,12 +950,8 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-12": "本句指「擺脫令人疲憊、持續追逐的生活／工作循環」。",
-        "treadmill-mcq-11": "「陷入需要不停努力和重複、卻沒有真正終點的循環」與本句語境不同。",
-        "treadmill-mcq-13": "「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」與本句語境不同。",
-        "treadmill-mcq-10": "「必須不停重複付出努力，卻難以真正前進或到達終點的生活／工作狀態」與本句語境不同。",
-        "treadmill-mcq-14": "「不斷工作、競爭和追逐下一個職涯成就的循環」與本句語境不同。",
-        "treadmill-mcq-09": "「讓人一邊慢速步行一邊工作的跑步機辦公設備」與本句語境不同。"
+        "treadmill-mcq-12": "本句的「treadmill」指「擺脫令人疲憊、持續追逐的生活／工作循環」。",
+        "treadmill-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-12"
     },
@@ -1103,11 +963,7 @@ export default {
       "masked": "Once she became popular, she entered a ____.",
       "options": [
         "treadmill-mcq-13",
-        "treadmill-mcq-12",
-        "treadmill-mcq-14",
-        "treadmill-mcq-11",
-        "treadmill-mcq-15",
-        "treadmill-mcq-10"
+        "treadmill-mcq-01"
       ],
       "explanation": "本句的「treadmill of success」指「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」。",
       "sentenceIndex": 29,
@@ -1116,12 +972,8 @@ export default {
         "treadmill of success"
       ],
       "optionReasons": {
-        "treadmill-mcq-13": "本句指「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」。",
-        "treadmill-mcq-12": "「擺脫令人疲憊、持續追逐的生活／工作循環」與本句語境不同。",
-        "treadmill-mcq-14": "「不斷工作、競爭和追逐下一個職涯成就的循環」與本句語境不同。",
-        "treadmill-mcq-11": "「陷入需要不停努力和重複、卻沒有真正終點的循環」與本句語境不同。",
-        "treadmill-mcq-15": "「必須不斷製造新刺激／內容才能維持他人注意的循環」與本句語境不同。",
-        "treadmill-mcq-10": "「必須不停重複付出努力，卻難以真正前進或到達終點的生活／工作狀態」與本句語境不同。"
+        "treadmill-mcq-13": "本句的「treadmill of success」指「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」。",
+        "treadmill-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-13"
     },
@@ -1133,11 +985,7 @@ export default {
       "masked": "The ____ of online success can become exhausting.",
       "options": [
         "treadmill-mcq-13",
-        "treadmill-mcq-12",
-        "treadmill-mcq-14",
-        "treadmill-mcq-11",
-        "treadmill-mcq-15",
-        "treadmill-mcq-10"
+        "treadmill-mcq-04"
       ],
       "explanation": "本句的「treadmill」指「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」。",
       "sentenceIndex": 30,
@@ -1146,12 +994,8 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-13": "本句指「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」。",
-        "treadmill-mcq-12": "「擺脫令人疲憊、持續追逐的生活／工作循環」與本句語境不同。",
-        "treadmill-mcq-14": "「不斷工作、競爭和追逐下一個職涯成就的循環」與本句語境不同。",
-        "treadmill-mcq-11": "「陷入需要不停努力和重複、卻沒有真正終點的循環」與本句語境不同。",
-        "treadmill-mcq-15": "「必須不斷製造新刺激／內容才能維持他人注意的循環」與本句語境不同。",
-        "treadmill-mcq-10": "「必須不停重複付出努力，卻難以真正前進或到達終點的生活／工作狀態」與本句語境不同。"
+        "treadmill-mcq-13": "本句的「treadmill」指「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」。",
+        "treadmill-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-13"
     },
@@ -1163,11 +1007,8 @@ export default {
       "masked": "Winning more money may not bring lasting happiness because of the ____.",
       "options": [
         "treadmill-mcq-19",
-        "treadmill-mcq-18",
-        "treadmill-mcq-20",
-        "treadmill-mcq-17",
-        "treadmill-mcq-21",
-        "treadmill-mcq-16"
+        "treadmill-mcq-11",
+        "treadmill-mcq-03"
       ],
       "explanation": "本句的「hedonic treadmill」指「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」。",
       "sentenceIndex": 33,
@@ -1176,12 +1017,9 @@ export default {
         "hedonic treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-19": "本句指「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」。",
-        "treadmill-mcq-18": "「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」與本句語境不同。",
-        "treadmill-mcq-20": "「必須持續採用新技術才能保持競爭位置的循環」與本句語境不同。",
-        "treadmill-mcq-17": "「不斷購買更多／更新產品，但滿足感很快消失的循環」與本句語境不同。",
-        "treadmill-mcq-21": "「因環境持續變化而必須增加努力才能維持原有位置的效應」與本句語境不同。",
-        "treadmill-mcq-16": "「為維持流量、演算法或觀眾而不停製作新內容的循環」與本句語境不同。"
+        "treadmill-mcq-19": "本句的「hedonic treadmill」指「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」。",
+        "treadmill-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-19"
     },
@@ -1193,11 +1031,8 @@ export default {
       "masked": "The hedonic ____ helps explain why people quickly adapt to success.",
       "options": [
         "treadmill-mcq-19",
-        "treadmill-mcq-18",
-        "treadmill-mcq-20",
-        "treadmill-mcq-17",
-        "treadmill-mcq-21",
-        "treadmill-mcq-16"
+        "treadmill-mcq-02",
+        "treadmill-mcq-11"
       ],
       "explanation": "本句的「treadmill」指「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」。",
       "sentenceIndex": 34,
@@ -1206,12 +1041,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-19": "本句指「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」。",
-        "treadmill-mcq-18": "「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」與本句語境不同。",
-        "treadmill-mcq-20": "「必須持續採用新技術才能保持競爭位置的循環」與本句語境不同。",
-        "treadmill-mcq-17": "「不斷購買更多／更新產品，但滿足感很快消失的循環」與本句語境不同。",
-        "treadmill-mcq-21": "「因環境持續變化而必須增加努力才能維持原有位置的效應」與本句語境不同。",
-        "treadmill-mcq-16": "「為維持流量、演算法或觀眾而不停製作新內容的循環」與本句語境不同。"
+        "treadmill-mcq-19": "本句的「treadmill」指「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」。",
+        "treadmill-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-19"
     },
@@ -1223,11 +1055,8 @@ export default {
       "masked": "Advertising can keep people on a ____.",
       "options": [
         "treadmill-mcq-17",
-        "treadmill-mcq-16",
-        "treadmill-mcq-18",
-        "treadmill-mcq-15",
-        "treadmill-mcq-19",
-        "treadmill-mcq-14"
+        "treadmill-mcq-23",
+        "treadmill-mcq-03"
       ],
       "explanation": "本句的「consumer treadmill」指「不斷購買更多／更新產品，但滿足感很快消失的循環」。",
       "sentenceIndex": 35,
@@ -1236,12 +1065,9 @@ export default {
         "consumer treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-17": "本句指「不斷購買更多／更新產品，但滿足感很快消失的循環」。",
-        "treadmill-mcq-16": "「為維持流量、演算法或觀眾而不停製作新內容的循環」與本句語境不同。",
-        "treadmill-mcq-18": "「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」與本句語境不同。",
-        "treadmill-mcq-15": "「必須不斷製造新刺激／內容才能維持他人注意的循環」與本句語境不同。",
-        "treadmill-mcq-19": "「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」與本句語境不同。",
-        "treadmill-mcq-14": "「不斷工作、競爭和追逐下一個職涯成就的循環」與本句語境不同。"
+        "treadmill-mcq-17": "本句的「consumer treadmill」指「不斷購買更多／更新產品，但滿足感很快消失的循環」。",
+        "treadmill-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-17"
     },
@@ -1253,11 +1079,8 @@ export default {
       "masked": "She felt trapped on the ____.",
       "options": [
         "treadmill-mcq-14",
-        "treadmill-mcq-13",
-        "treadmill-mcq-15",
-        "treadmill-mcq-12",
-        "treadmill-mcq-16",
-        "treadmill-mcq-11"
+        "treadmill-mcq-03",
+        "treadmill-mcq-23"
       ],
       "explanation": "本句的「career treadmill」指「不斷工作、競爭和追逐下一個職涯成就的循環」。",
       "sentenceIndex": 38,
@@ -1266,12 +1089,9 @@ export default {
         "career treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-14": "本句指「不斷工作、競爭和追逐下一個職涯成就的循環」。",
-        "treadmill-mcq-13": "「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」與本句語境不同。",
-        "treadmill-mcq-15": "「必須不斷製造新刺激／內容才能維持他人注意的循環」與本句語境不同。",
-        "treadmill-mcq-12": "「擺脫令人疲憊、持續追逐的生活／工作循環」與本句語境不同。",
-        "treadmill-mcq-16": "「為維持流量、演算法或觀眾而不停製作新內容的循環」與本句語境不同。",
-        "treadmill-mcq-11": "「陷入需要不停努力和重複、卻沒有真正終點的循環」與本句語境不同。"
+        "treadmill-mcq-14": "本句的「career treadmill」指「不斷工作、競爭和追逐下一個職涯成就的循環」。",
+        "treadmill-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-14"
     },
@@ -1283,11 +1103,8 @@ export default {
       "masked": "Promotions did not help him escape the career ____.",
       "options": [
         "treadmill-mcq-14",
-        "treadmill-mcq-13",
-        "treadmill-mcq-15",
-        "treadmill-mcq-12",
-        "treadmill-mcq-16",
-        "treadmill-mcq-11"
+        "treadmill-mcq-06",
+        "treadmill-mcq-23"
       ],
       "explanation": "本句的「treadmill」指「不斷工作、競爭和追逐下一個職涯成就的循環」。",
       "sentenceIndex": 39,
@@ -1296,12 +1113,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-14": "本句指「不斷工作、競爭和追逐下一個職涯成就的循環」。",
-        "treadmill-mcq-13": "「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」與本句語境不同。",
-        "treadmill-mcq-15": "「必須不斷製造新刺激／內容才能維持他人注意的循環」與本句語境不同。",
-        "treadmill-mcq-12": "「擺脫令人疲憊、持續追逐的生活／工作循環」與本句語境不同。",
-        "treadmill-mcq-16": "「為維持流量、演算法或觀眾而不停製作新內容的循環」與本句語境不同。",
-        "treadmill-mcq-11": "「陷入需要不停努力和重複、卻沒有真正終點的循環」與本句語境不同。"
+        "treadmill-mcq-14": "本句的「treadmill」指「不斷工作、競爭和追逐下一個職涯成就的循環」。",
+        "treadmill-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-14"
     },
@@ -1313,11 +1127,7 @@ export default {
       "masked": "Creators can become trapped on an ____.",
       "options": [
         "treadmill-mcq-15",
-        "treadmill-mcq-14",
-        "treadmill-mcq-16",
-        "treadmill-mcq-13",
-        "treadmill-mcq-17",
-        "treadmill-mcq-12"
+        "treadmill-mcq-03"
       ],
       "explanation": "本句的「attention treadmill」指「必須不斷製造新刺激／內容才能維持他人注意的循環」。",
       "sentenceIndex": 42,
@@ -1326,12 +1136,8 @@ export default {
         "attention treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-15": "本句指「必須不斷製造新刺激／內容才能維持他人注意的循環」。",
-        "treadmill-mcq-14": "「不斷工作、競爭和追逐下一個職涯成就的循環」與本句語境不同。",
-        "treadmill-mcq-16": "「為維持流量、演算法或觀眾而不停製作新內容的循環」與本句語境不同。",
-        "treadmill-mcq-13": "「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」與本句語境不同。",
-        "treadmill-mcq-17": "「不斷購買更多／更新產品，但滿足感很快消失的循環」與本句語境不同。",
-        "treadmill-mcq-12": "「擺脫令人疲憊、持續追逐的生活／工作循環」與本句語境不同。"
+        "treadmill-mcq-15": "本句的「attention treadmill」指「必須不斷製造新刺激／內容才能維持他人注意的循環」。",
+        "treadmill-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-15"
     },
@@ -1343,11 +1149,7 @@ export default {
       "masked": "The attention ____ encourages people to keep posting.",
       "options": [
         "treadmill-mcq-15",
-        "treadmill-mcq-14",
-        "treadmill-mcq-16",
-        "treadmill-mcq-13",
-        "treadmill-mcq-17",
-        "treadmill-mcq-12"
+        "treadmill-mcq-03"
       ],
       "explanation": "本句的「treadmill」指「必須不斷製造新刺激／內容才能維持他人注意的循環」。",
       "sentenceIndex": 43,
@@ -1356,12 +1158,8 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-15": "本句指「必須不斷製造新刺激／內容才能維持他人注意的循環」。",
-        "treadmill-mcq-14": "「不斷工作、競爭和追逐下一個職涯成就的循環」與本句語境不同。",
-        "treadmill-mcq-16": "「為維持流量、演算法或觀眾而不停製作新內容的循環」與本句語境不同。",
-        "treadmill-mcq-13": "「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」與本句語境不同。",
-        "treadmill-mcq-17": "「不斷購買更多／更新產品，但滿足感很快消失的循環」與本句語境不同。",
-        "treadmill-mcq-12": "「擺脫令人疲憊、持續追逐的生活／工作循環」與本句語境不同。"
+        "treadmill-mcq-15": "本句的「treadmill」指「必須不斷製造新刺激／內容才能維持他人注意的循環」。",
+        "treadmill-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-15"
     },
@@ -1373,11 +1171,8 @@ export default {
       "masked": "Many creators feel trapped on the ____.",
       "options": [
         "treadmill-mcq-16",
-        "treadmill-mcq-15",
-        "treadmill-mcq-17",
-        "treadmill-mcq-14",
-        "treadmill-mcq-18",
-        "treadmill-mcq-13"
+        "treadmill-mcq-03",
+        "treadmill-mcq-18"
       ],
       "explanation": "本句的「content treadmill」指「為維持流量、演算法或觀眾而不停製作新內容的循環」。",
       "sentenceIndex": 44,
@@ -1386,12 +1181,9 @@ export default {
         "content treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-16": "本句指「為維持流量、演算法或觀眾而不停製作新內容的循環」。",
-        "treadmill-mcq-15": "「必須不斷製造新刺激／內容才能維持他人注意的循環」與本句語境不同。",
-        "treadmill-mcq-17": "「不斷購買更多／更新產品，但滿足感很快消失的循環」與本句語境不同。",
-        "treadmill-mcq-14": "「不斷工作、競爭和追逐下一個職涯成就的循環」與本句語境不同。",
-        "treadmill-mcq-18": "「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」與本句語境不同。",
-        "treadmill-mcq-13": "「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」與本句語境不同。"
+        "treadmill-mcq-16": "本句的「content treadmill」指「為維持流量、演算法或觀眾而不停製作新內容的循環」。",
+        "treadmill-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-16"
     },
@@ -1403,11 +1195,8 @@ export default {
       "masked": "The content ____ can lead to burnout.",
       "options": [
         "treadmill-mcq-16",
-        "treadmill-mcq-15",
-        "treadmill-mcq-17",
-        "treadmill-mcq-14",
         "treadmill-mcq-18",
-        "treadmill-mcq-13"
+        "treadmill-mcq-03"
       ],
       "explanation": "本句的「treadmill」指「為維持流量、演算法或觀眾而不停製作新內容的循環」。",
       "sentenceIndex": 45,
@@ -1416,12 +1205,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-16": "本句指「為維持流量、演算法或觀眾而不停製作新內容的循環」。",
-        "treadmill-mcq-15": "「必須不斷製造新刺激／內容才能維持他人注意的循環」與本句語境不同。",
-        "treadmill-mcq-17": "「不斷購買更多／更新產品，但滿足感很快消失的循環」與本句語境不同。",
-        "treadmill-mcq-14": "「不斷工作、競爭和追逐下一個職涯成就的循環」與本句語境不同。",
-        "treadmill-mcq-18": "「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」與本句語境不同。",
-        "treadmill-mcq-13": "「每次成功只產生下一個更高目標，因此必須不斷追逐的循環」與本句語境不同。"
+        "treadmill-mcq-16": "本句的「treadmill」指「為維持流量、演算法或觀眾而不停製作新內容的循環」。",
+        "treadmill-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-16"
     },
@@ -1433,11 +1219,8 @@ export default {
       "masked": "Businesses can get caught on a ____.",
       "options": [
         "treadmill-mcq-18",
-        "treadmill-mcq-17",
-        "treadmill-mcq-19",
-        "treadmill-mcq-16",
-        "treadmill-mcq-20",
-        "treadmill-mcq-15"
+        "treadmill-mcq-07",
+        "treadmill-mcq-16"
       ],
       "explanation": "本句的「competitive treadmill」指「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」。",
       "sentenceIndex": 46,
@@ -1446,12 +1229,9 @@ export default {
         "competitive treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-18": "本句指「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」。",
-        "treadmill-mcq-17": "「不斷購買更多／更新產品，但滿足感很快消失的循環」與本句語境不同。",
-        "treadmill-mcq-19": "「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」與本句語境不同。",
-        "treadmill-mcq-16": "「為維持流量、演算法或觀眾而不停製作新內容的循環」與本句語境不同。",
-        "treadmill-mcq-20": "「必須持續採用新技術才能保持競爭位置的循環」與本句語境不同。",
-        "treadmill-mcq-15": "「必須不斷製造新刺激／內容才能維持他人注意的循環」與本句語境不同。"
+        "treadmill-mcq-18": "本句的「competitive treadmill」指「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」。",
+        "treadmill-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-18"
     },
@@ -1463,11 +1243,8 @@ export default {
       "masked": "Prisoners were forced to work on the ____.",
       "options": [
         "treadmill-mcq-23",
-        "treadmill-mcq-22",
-        "treadmill-mcq-21",
-        "treadmill-mcq-20",
-        "treadmill-mcq-19",
-        "treadmill-mcq-18"
+        "treadmill-mcq-17",
+        "treadmill-mcq-05"
       ],
       "explanation": "本句的「treadmill」指「曾用作囚犯苦役／懲罰的持續踩踏裝置」。",
       "sentenceIndex": 49,
@@ -1476,12 +1253,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-23": "本句指「曾用作囚犯苦役／懲罰的持續踩踏裝置」。",
-        "treadmill-mcq-22": "「人或動物持續踩踏以提供機械動力的舊式踏輪裝置」與本句語境不同。",
-        "treadmill-mcq-21": "「因環境持續變化而必須增加努力才能維持原有位置的效應」與本句語境不同。",
-        "treadmill-mcq-20": "「必須持續採用新技術才能保持競爭位置的循環」與本句語境不同。",
-        "treadmill-mcq-19": "「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」與本句語境不同。",
-        "treadmill-mcq-18": "「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」與本句語境不同。"
+        "treadmill-mcq-23": "本句的「treadmill」指「曾用作囚犯苦役／懲罰的持續踩踏裝置」。",
+        "treadmill-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-23"
     },
@@ -1493,11 +1267,8 @@ export default {
       "masked": "The prison ____ was used as a form of hard labour.",
       "options": [
         "treadmill-mcq-23",
-        "treadmill-mcq-22",
-        "treadmill-mcq-21",
-        "treadmill-mcq-20",
-        "treadmill-mcq-19",
-        "treadmill-mcq-18"
+        "treadmill-mcq-06",
+        "treadmill-mcq-11"
       ],
       "explanation": "本句的「treadmill」指「曾用作囚犯苦役／懲罰的持續踩踏裝置」。",
       "sentenceIndex": 50,
@@ -1506,12 +1277,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-23": "本句指「曾用作囚犯苦役／懲罰的持續踩踏裝置」。",
-        "treadmill-mcq-22": "「人或動物持續踩踏以提供機械動力的舊式踏輪裝置」與本句語境不同。",
-        "treadmill-mcq-21": "「因環境持續變化而必須增加努力才能維持原有位置的效應」與本句語境不同。",
-        "treadmill-mcq-20": "「必須持續採用新技術才能保持競爭位置的循環」與本句語境不同。",
-        "treadmill-mcq-19": "「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」與本句語境不同。",
-        "treadmill-mcq-18": "「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」與本句語境不同。"
+        "treadmill-mcq-23": "本句的「treadmill」指「曾用作囚犯苦役／懲罰的持續踩踏裝置」。",
+        "treadmill-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-23"
     },
@@ -1523,11 +1291,8 @@ export default {
       "masked": "The dog exercised on an ____.",
       "options": [
         "treadmill-mcq-08",
-        "treadmill-mcq-07",
-        "treadmill-mcq-09",
-        "treadmill-mcq-06",
-        "treadmill-mcq-10",
-        "treadmill-mcq-05"
+        "treadmill-mcq-19",
+        "treadmill-mcq-18"
       ],
       "explanation": "本句的「underwater treadmill」指「讓人在水中步行／跑步以減低承重的復康設備」。",
       "sentenceIndex": 53,
@@ -1536,12 +1301,9 @@ export default {
         "underwater treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-08": "本句指「讓人在水中步行／跑步以減低承重的復康設備」。",
-        "treadmill-mcq-07": "「用於恢復步行／運動能力的復康跑步機」與本句語境不同。",
-        "treadmill-mcq-09": "「讓人一邊慢速步行一邊工作的跑步機辦公設備」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。",
-        "treadmill-mcq-10": "「必須不停重複付出努力，卻難以真正前進或到達終點的生活／工作狀態」與本句語境不同。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。"
+        "treadmill-mcq-08": "本句的「underwater treadmill」指「讓人在水中步行／跑步以減低承重的復康設備」。",
+        "treadmill-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-08"
     },
@@ -1553,11 +1315,8 @@ export default {
       "masked": "Underwater ____ reduce weight-bearing during rehabilitation.",
       "options": [
         "treadmill-mcq-08",
-        "treadmill-mcq-07",
-        "treadmill-mcq-09",
-        "treadmill-mcq-06",
-        "treadmill-mcq-10",
-        "treadmill-mcq-05"
+        "treadmill-mcq-16",
+        "treadmill-mcq-18"
       ],
       "explanation": "本句的「treadmills」指「讓人在水中步行／跑步以減低承重的復康設備」。",
       "sentenceIndex": 54,
@@ -1566,12 +1325,9 @@ export default {
         "treadmills"
       ],
       "optionReasons": {
-        "treadmill-mcq-08": "本句指「讓人在水中步行／跑步以減低承重的復康設備」。",
-        "treadmill-mcq-07": "「用於恢復步行／運動能力的復康跑步機」與本句語境不同。",
-        "treadmill-mcq-09": "「讓人一邊慢速步行一邊工作的跑步機辦公設備」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。",
-        "treadmill-mcq-10": "「必須不停重複付出努力，卻難以真正前進或到達終點的生活／工作狀態」與本句語境不同。",
-        "treadmill-mcq-05": "「在跑步機上逐步運動並監察身體反應的測試」與本句語境不同。"
+        "treadmill-mcq-08": "本句的「treadmills」指「讓人在水中步行／跑步以減低承重的復康設備」。",
+        "treadmill-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-08"
     },
@@ -1583,11 +1339,7 @@ export default {
       "masked": "She uses a ____ while answering emails.",
       "options": [
         "treadmill-mcq-09",
-        "treadmill-mcq-08",
-        "treadmill-mcq-10",
-        "treadmill-mcq-07",
-        "treadmill-mcq-11",
-        "treadmill-mcq-06"
+        "treadmill-mcq-13"
       ],
       "explanation": "本句的「treadmill desk」指「讓人一邊慢速步行一邊工作的跑步機辦公設備」。",
       "sentenceIndex": 55,
@@ -1596,12 +1348,8 @@ export default {
         "treadmill desk"
       ],
       "optionReasons": {
-        "treadmill-mcq-09": "本句指「讓人一邊慢速步行一邊工作的跑步機辦公設備」。",
-        "treadmill-mcq-08": "「讓人在水中步行／跑步以減低承重的復康設備」與本句語境不同。",
-        "treadmill-mcq-10": "「必須不停重複付出努力，卻難以真正前進或到達終點的生活／工作狀態」與本句語境不同。",
-        "treadmill-mcq-07": "「用於恢復步行／運動能力的復康跑步機」與本句語境不同。",
-        "treadmill-mcq-11": "「陷入需要不停努力和重複、卻沒有真正終點的循環」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。"
+        "treadmill-mcq-09": "本句的「treadmill desk」指「讓人一邊慢速步行一邊工作的跑步機辦公設備」。",
+        "treadmill-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-09"
     },
@@ -1613,11 +1361,8 @@ export default {
       "masked": "A ____ desk allows users to walk slowly while working.",
       "options": [
         "treadmill-mcq-09",
-        "treadmill-mcq-08",
-        "treadmill-mcq-10",
-        "treadmill-mcq-07",
-        "treadmill-mcq-11",
-        "treadmill-mcq-06"
+        "treadmill-mcq-16",
+        "treadmill-mcq-18"
       ],
       "explanation": "本句的「treadmill」指「讓人一邊慢速步行一邊工作的跑步機辦公設備」。",
       "sentenceIndex": 56,
@@ -1626,12 +1371,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-09": "本句指「讓人一邊慢速步行一邊工作的跑步機辦公設備」。",
-        "treadmill-mcq-08": "「讓人在水中步行／跑步以減低承重的復康設備」與本句語境不同。",
-        "treadmill-mcq-10": "「必須不停重複付出努力，卻難以真正前進或到達終點的生活／工作狀態」與本句語境不同。",
-        "treadmill-mcq-07": "「用於恢復步行／運動能力的復康跑步機」與本句語境不同。",
-        "treadmill-mcq-11": "「陷入需要不停努力和重複、卻沒有真正終點的循環」與本句語境不同。",
-        "treadmill-mcq-06": "「透過跑步機運動測量心臟承受負荷時反應的醫療測試」與本句語境不同。"
+        "treadmill-mcq-09": "本句的「treadmill」指「讓人一邊慢速步行一邊工作的跑步機辦公設備」。",
+        "treadmill-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-09"
     },
@@ -1643,11 +1385,8 @@ export default {
       "masked": "The policy created a ____ in which costs kept rising.",
       "options": [
         "treadmill-mcq-21",
-        "treadmill-mcq-20",
-        "treadmill-mcq-22",
-        "treadmill-mcq-19",
-        "treadmill-mcq-23",
-        "treadmill-mcq-18"
+        "treadmill-mcq-08",
+        "treadmill-mcq-14"
       ],
       "explanation": "本句的「treadmill effect」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
       "sentenceIndex": 58,
@@ -1656,12 +1395,9 @@ export default {
         "treadmill effect"
       ],
       "optionReasons": {
-        "treadmill-mcq-21": "本句指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
-        "treadmill-mcq-20": "「必須持續採用新技術才能保持競爭位置的循環」與本句語境不同。",
-        "treadmill-mcq-22": "「人或動物持續踩踏以提供機械動力的舊式踏輪裝置」與本句語境不同。",
-        "treadmill-mcq-19": "「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」與本句語境不同。",
-        "treadmill-mcq-23": "「曾用作囚犯苦役／懲罰的持續踩踏裝置」與本句語境不同。",
-        "treadmill-mcq-18": "「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」與本句語境不同。"
+        "treadmill-mcq-21": "本句的「treadmill effect」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
+        "treadmill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-21"
     },
@@ -1673,11 +1409,8 @@ export default {
       "masked": "She is on a ____.",
       "options": [
         "treadmill-mcq-21",
-        "treadmill-mcq-20",
-        "treadmill-mcq-22",
-        "treadmill-mcq-19",
-        "treadmill-mcq-23",
-        "treadmill-mcq-18"
+        "treadmill-mcq-04",
+        "treadmill-mcq-14"
       ],
       "explanation": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
       "sentenceIndex": 59,
@@ -1686,12 +1419,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-21": "本句指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
-        "treadmill-mcq-20": "「必須持續採用新技術才能保持競爭位置的循環」與本句語境不同。",
-        "treadmill-mcq-22": "「人或動物持續踩踏以提供機械動力的舊式踏輪裝置」與本句語境不同。",
-        "treadmill-mcq-19": "「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」與本句語境不同。",
-        "treadmill-mcq-23": "「曾用作囚犯苦役／懲罰的持續踩踏裝置」與本句語境不同。",
-        "treadmill-mcq-18": "「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」與本句語境不同。"
+        "treadmill-mcq-21": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
+        "treadmill-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-21"
     },
@@ -1703,11 +1433,8 @@ export default {
       "masked": "He feels trapped on the ____.",
       "options": [
         "treadmill-mcq-21",
-        "treadmill-mcq-20",
-        "treadmill-mcq-22",
-        "treadmill-mcq-19",
-        "treadmill-mcq-23",
-        "treadmill-mcq-18"
+        "treadmill-mcq-04",
+        "treadmill-mcq-14"
       ],
       "explanation": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
       "sentenceIndex": 60,
@@ -1716,12 +1443,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-21": "本句指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
-        "treadmill-mcq-20": "「必須持續採用新技術才能保持競爭位置的循環」與本句語境不同。",
-        "treadmill-mcq-22": "「人或動物持續踩踏以提供機械動力的舊式踏輪裝置」與本句語境不同。",
-        "treadmill-mcq-19": "「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」與本句語境不同。",
-        "treadmill-mcq-23": "「曾用作囚犯苦役／懲罰的持續踩踏裝置」與本句語境不同。",
-        "treadmill-mcq-18": "「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」與本句語境不同。"
+        "treadmill-mcq-21": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
+        "treadmill-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-21"
     },
@@ -1733,11 +1457,8 @@ export default {
       "masked": "I ran on the ____.",
       "options": [
         "treadmill-mcq-21",
-        "treadmill-mcq-20",
-        "treadmill-mcq-22",
-        "treadmill-mcq-19",
-        "treadmill-mcq-23",
-        "treadmill-mcq-18"
+        "treadmill-mcq-02",
+        "treadmill-mcq-14"
       ],
       "explanation": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
       "sentenceIndex": 61,
@@ -1746,12 +1467,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-21": "本句指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
-        "treadmill-mcq-20": "「必須持續採用新技術才能保持競爭位置的循環」與本句語境不同。",
-        "treadmill-mcq-22": "「人或動物持續踩踏以提供機械動力的舊式踏輪裝置」與本句語境不同。",
-        "treadmill-mcq-19": "「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」與本句語境不同。",
-        "treadmill-mcq-23": "「曾用作囚犯苦役／懲罰的持續踩踏裝置」與本句語境不同。",
-        "treadmill-mcq-18": "「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」與本句語境不同。"
+        "treadmill-mcq-21": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
+        "treadmill-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-21"
     },
@@ -1763,11 +1481,8 @@ export default {
       "masked": "I’m tired of the career ____.",
       "options": [
         "treadmill-mcq-21",
-        "treadmill-mcq-20",
-        "treadmill-mcq-22",
-        "treadmill-mcq-19",
-        "treadmill-mcq-23",
-        "treadmill-mcq-18"
+        "treadmill-mcq-08",
+        "treadmill-mcq-14"
       ],
       "explanation": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
       "sentenceIndex": 62,
@@ -1776,12 +1491,9 @@ export default {
         "treadmill"
       ],
       "optionReasons": {
-        "treadmill-mcq-21": "本句指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
-        "treadmill-mcq-20": "「必須持續採用新技術才能保持競爭位置的循環」與本句語境不同。",
-        "treadmill-mcq-22": "「人或動物持續踩踏以提供機械動力的舊式踏輪裝置」與本句語境不同。",
-        "treadmill-mcq-19": "「人適應成功／改善後，滿足感逐漸回落，因此繼續追求新刺激的心理現象」與本句語境不同。",
-        "treadmill-mcq-23": "「曾用作囚犯苦役／懲罰的持續踩踏裝置」與本句語境不同。",
-        "treadmill-mcq-18": "「各方必須不斷增加投入才能避免落後、卻未必取得長期優勢的狀態」與本句語境不同。"
+        "treadmill-mcq-21": "本句的「treadmill」指「因環境持續變化而必須增加努力才能維持原有位置的效應」。",
+        "treadmill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "treadmill-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "treadmill-mcq-21"
     }
@@ -1793,5 +1505,7 @@ export default {
     "sha256": "d8e46e8261051135b4b20356bb0c15f1f9b6c0513ff55506a5d412268cb78b6d",
     "pages": 27
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

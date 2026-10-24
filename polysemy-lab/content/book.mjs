@@ -249,16 +249,6 @@ export default {
       "note": "來源詞義：完全按照正式規則、程序或規定行事",
       "examples": [
         [
-          "The law has been on the books for decades.",
-          "這項法律已經正式存在／載於法例中數十年。",
-          "完全按照正式規則、程序或規定行事"
-        ],
-        [
-          "The company still has hundreds of employees on its books.",
-          "公司正式紀錄中仍有數百名在冊員工。",
-          "完全按照正式規則、程序或規定行事"
-        ],
-        [
           "The inspector does everything by the book.",
           "那名督察做任何事情都嚴格按照規則／程序辦事。",
           "完全按照正式規則、程序或規定行事"
@@ -293,6 +283,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "book-reviewed-a05f1bf978",
+      "title": "已正式記錄、登記或列入某個機構的紀錄中",
+      "form": "book · source section 9",
+      "en": "已正式記錄、登記或列入某個機構的紀錄中",
+      "zh": "已正式記錄、登記或列入某個機構的紀錄中",
+      "note": "對照原始教材第 9 節及例句核實。",
+      "examples": [
+        [
+          "The law has been on the books for decades.",
+          "這項法律已經正式存在／載於法例中數十年。",
+          "已正式記錄、登記或列入某個機構的紀錄中"
+        ],
+        [
+          "The company still has hundreds of employees on its books.",
+          "公司正式紀錄中仍有數百名在冊員工。",
+          "已正式記錄、登記或列入某個機構的紀錄中"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -304,11 +316,8 @@ export default {
       "masked": "He loves talking about ____, films, and the tiny details that most of us walk straight past.",
       "options": [
         "book-mcq-01",
-        "book-mcq-02",
-        "book-mcq-03",
-        "book-mcq-04",
-        "book-mcq-05",
-        "book-mcq-06"
+        "book-mcq-10",
+        "book-mcq-12"
       ],
       "explanation": "本句的「books」指「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」。",
       "sentenceIndex": 0,
@@ -317,12 +326,9 @@ export default {
         "books"
       ],
       "optionReasons": {
-        "book-mcq-01": "本句指「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」。",
-        "book-mcq-02": "「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」是「book — physical volume」的用法，與本句語境不同。",
-        "book-mcq-03": "「預先安排某個房間、座位、行程、服務或時間段留給自己使用」是「book a room/table/ticket/appointment」的用法，與本句語境不同。",
-        "book-mcq-04": "「預先安排或聘請某人在指定時間提供服務、表演或出席」是「book a performer/professional」的用法，與本句語境不同。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。"
+        "book-mcq-01": "本句的「books」指「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」。",
+        "book-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-01"
     },
@@ -334,11 +340,7 @@ export default {
       "masked": "She is reading a ____ about the history of Hong Kong.",
       "options": [
         "book-mcq-01",
-        "book-mcq-02",
-        "book-mcq-03",
-        "book-mcq-04",
-        "book-mcq-05",
-        "book-mcq-06"
+        "book-mcq-03"
       ],
       "explanation": "本句的「book」指「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」。",
       "sentenceIndex": 1,
@@ -347,12 +349,8 @@ export default {
         "book"
       ],
       "optionReasons": {
-        "book-mcq-01": "本句指「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」。",
-        "book-mcq-02": "「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」是「book — physical volume」的用法，與本句語境不同。",
-        "book-mcq-03": "「預先安排某個房間、座位、行程、服務或時間段留給自己使用」是「book a room/table/ticket/appointment」的用法，與本句語境不同。",
-        "book-mcq-04": "「預先安排或聘請某人在指定時間提供服務、表演或出席」是「book a performer/professional」的用法，與本句語境不同。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。"
+        "book-mcq-01": "本句的「book」指「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」。",
+        "book-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-01"
     },
@@ -364,11 +362,8 @@ export default {
       "masked": "His latest ____ became very popular.",
       "options": [
         "book-mcq-01",
-        "book-mcq-02",
-        "book-mcq-03",
-        "book-mcq-04",
-        "book-mcq-05",
-        "book-mcq-06"
+        "book-mcq-09",
+        "book-mcq-12"
       ],
       "explanation": "本句的「book」指「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」。",
       "sentenceIndex": 2,
@@ -377,12 +372,9 @@ export default {
         "book"
       ],
       "optionReasons": {
-        "book-mcq-01": "本句指「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」。",
-        "book-mcq-02": "「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」是「book — physical volume」的用法，與本句語境不同。",
-        "book-mcq-03": "「預先安排某個房間、座位、行程、服務或時間段留給自己使用」是「book a room/table/ticket/appointment」的用法，與本句語境不同。",
-        "book-mcq-04": "「預先安排或聘請某人在指定時間提供服務、表演或出席」是「book a performer/professional」的用法，與本句語境不同。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。"
+        "book-mcq-01": "本句的「book」指「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」。",
+        "book-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-01"
     },
@@ -394,11 +386,9 @@ export default {
       "masked": "There were several heavy ____ on the table.",
       "options": [
         "book-mcq-02",
-        "book-mcq-01",
-        "book-mcq-03",
-        "book-mcq-04",
-        "book-mcq-05",
-        "book-mcq-06"
+        "book-mcq-11",
+        "book-mcq-12",
+        "book-mcq-09"
       ],
       "explanation": "本句的「books」指「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」。",
       "sentenceIndex": 3,
@@ -407,12 +397,10 @@ export default {
         "books"
       ],
       "optionReasons": {
-        "book-mcq-02": "本句指「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」。",
-        "book-mcq-01": "「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」是「book — written work」的用法，與本句語境不同。",
-        "book-mcq-03": "「預先安排某個房間、座位、行程、服務或時間段留給自己使用」是「book a room/table/ticket/appointment」的用法，與本句語境不同。",
-        "book-mcq-04": "「預先安排或聘請某人在指定時間提供服務、表演或出席」是「book a performer/professional」的用法，與本句語境不同。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。"
+        "book-mcq-02": "本句的「books」指「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」。",
+        "book-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-02"
     },
@@ -424,11 +412,8 @@ export default {
       "masked": "She opened the ____ and turned to page fifty.",
       "options": [
         "book-mcq-02",
-        "book-mcq-01",
-        "book-mcq-03",
-        "book-mcq-04",
-        "book-mcq-05",
-        "book-mcq-06"
+        "book-mcq-11",
+        "book-mcq-04"
       ],
       "explanation": "本句的「book」指「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」。",
       "sentenceIndex": 4,
@@ -437,12 +422,9 @@ export default {
         "book"
       ],
       "optionReasons": {
-        "book-mcq-02": "本句指「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」。",
-        "book-mcq-01": "「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」是「book — written work」的用法，與本句語境不同。",
-        "book-mcq-03": "「預先安排某個房間、座位、行程、服務或時間段留給自己使用」是「book a room/table/ticket/appointment」的用法，與本句語境不同。",
-        "book-mcq-04": "「預先安排或聘請某人在指定時間提供服務、表演或出席」是「book a performer/professional」的用法，與本句語境不同。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。"
+        "book-mcq-02": "本句的「book」指「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」。",
+        "book-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-02"
     },
@@ -454,11 +436,7 @@ export default {
       "masked": "We ____ a hotel near the station.",
       "options": [
         "book-mcq-03",
-        "book-mcq-02",
-        "book-mcq-04",
-        "book-mcq-01",
-        "book-mcq-05",
-        "book-mcq-06"
+        "book-mcq-05"
       ],
       "explanation": "本句的「booked」指「預先安排某個房間、座位、行程、服務或時間段留給自己使用」。",
       "sentenceIndex": 5,
@@ -467,12 +445,8 @@ export default {
         "booked"
       ],
       "optionReasons": {
-        "book-mcq-03": "本句指「預先安排某個房間、座位、行程、服務或時間段留給自己使用」。",
-        "book-mcq-02": "「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」是「book — physical volume」的用法，與本句語境不同。",
-        "book-mcq-04": "「預先安排或聘請某人在指定時間提供服務、表演或出席」是「book a performer/professional」的用法，與本句語境不同。",
-        "book-mcq-01": "「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」是「book — written work」的用法，與本句語境不同。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。"
+        "book-mcq-03": "本句的「booked」指「預先安排某個房間、座位、行程、服務或時間段留給自己使用」。",
+        "book-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-03"
     },
@@ -484,11 +458,7 @@ export default {
       "masked": "You should ____ an appointment before visiting the clinic.",
       "options": [
         "book-mcq-03",
-        "book-mcq-02",
-        "book-mcq-04",
-        "book-mcq-01",
-        "book-mcq-05",
-        "book-mcq-06"
+        "book-mcq-01"
       ],
       "explanation": "本句的「book」指「預先安排某個房間、座位、行程、服務或時間段留給自己使用」。",
       "sentenceIndex": 6,
@@ -497,12 +467,8 @@ export default {
         "book"
       ],
       "optionReasons": {
-        "book-mcq-03": "本句指「預先安排某個房間、座位、行程、服務或時間段留給自己使用」。",
-        "book-mcq-02": "「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」是「book — physical volume」的用法，與本句語境不同。",
-        "book-mcq-04": "「預先安排或聘請某人在指定時間提供服務、表演或出席」是「book a performer/professional」的用法，與本句語境不同。",
-        "book-mcq-01": "「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」是「book — written work」的用法，與本句語境不同。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。"
+        "book-mcq-03": "本句的「book」指「預先安排某個房間、座位、行程、服務或時間段留給自己使用」。",
+        "book-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-03"
     },
@@ -514,11 +480,8 @@ export default {
       "masked": "They ____ a band for the wedding.",
       "options": [
         "book-mcq-04",
-        "book-mcq-03",
-        "book-mcq-05",
         "book-mcq-02",
-        "book-mcq-06",
-        "book-mcq-01"
+        "book-mcq-11"
       ],
       "explanation": "本句的「booked」指「預先安排或聘請某人在指定時間提供服務、表演或出席」。",
       "sentenceIndex": 7,
@@ -527,12 +490,9 @@ export default {
         "booked"
       ],
       "optionReasons": {
-        "book-mcq-04": "本句指「預先安排或聘請某人在指定時間提供服務、表演或出席」。",
-        "book-mcq-03": "「預先安排某個房間、座位、行程、服務或時間段留給自己使用」是「book a room/table/ticket/appointment」的用法，與本句語境不同。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。",
-        "book-mcq-02": "「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」是「book — physical volume」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。",
-        "book-mcq-01": "「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」是「book — written work」的用法，與本句語境不同。"
+        "book-mcq-04": "本句的「booked」指「預先安排或聘請某人在指定時間提供服務、表演或出席」。",
+        "book-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-04"
     },
@@ -544,11 +504,8 @@ export default {
       "masked": "The television programme ____ several well-known guests.",
       "options": [
         "book-mcq-04",
-        "book-mcq-03",
-        "book-mcq-05",
         "book-mcq-02",
-        "book-mcq-06",
-        "book-mcq-01"
+        "book-mcq-11"
       ],
       "explanation": "本句的「booked」指「預先安排或聘請某人在指定時間提供服務、表演或出席」。",
       "sentenceIndex": 8,
@@ -557,12 +514,9 @@ export default {
         "booked"
       ],
       "optionReasons": {
-        "book-mcq-04": "本句指「預先安排或聘請某人在指定時間提供服務、表演或出席」。",
-        "book-mcq-03": "「預先安排某個房間、座位、行程、服務或時間段留給自己使用」是「book a room/table/ticket/appointment」的用法，與本句語境不同。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。",
-        "book-mcq-02": "「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」是「book — physical volume」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。",
-        "book-mcq-01": "「以文字為主要內容並作為完整作品出版、供人閱讀的書籍或著作」是「book — written work」的用法，與本句語境不同。"
+        "book-mcq-04": "本句的「booked」指「預先安排或聘請某人在指定時間提供服務、表演或出席」。",
+        "book-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-04"
     },
@@ -574,11 +528,7 @@ export default {
       "masked": "The payment was ____ as an operating expense.",
       "options": [
         "book-mcq-05",
-        "book-mcq-04",
-        "book-mcq-06",
-        "book-mcq-03",
-        "book-mcq-07",
-        "book-mcq-02"
+        "book-mcq-03"
       ],
       "explanation": "本句的「booked」指「把資料、交易、人物或事項正式登記在紀錄或系統中」。",
       "sentenceIndex": 9,
@@ -587,12 +537,8 @@ export default {
         "booked"
       ],
       "optionReasons": {
-        "book-mcq-05": "本句指「把資料、交易、人物或事項正式登記在紀錄或系統中」。",
-        "book-mcq-04": "「預先安排或聘請某人在指定時間提供服務、表演或出席」是「book a performer/professional」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。",
-        "book-mcq-03": "「預先安排某個房間、座位、行程、服務或時間段留給自己使用」是「book a room/table/ticket/appointment」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。",
-        "book-mcq-02": "「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」是「book — physical volume」的用法，與本句語境不同。"
+        "book-mcq-05": "本句的「booked」指「把資料、交易、人物或事項正式登記在紀錄或系統中」。",
+        "book-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-05"
     },
@@ -604,11 +550,7 @@ export default {
       "masked": "All transactions must be properly ____ in the system.",
       "options": [
         "book-mcq-05",
-        "book-mcq-04",
-        "book-mcq-06",
-        "book-mcq-03",
-        "book-mcq-07",
-        "book-mcq-02"
+        "book-mcq-03"
       ],
       "explanation": "本句的「booked」指「把資料、交易、人物或事項正式登記在紀錄或系統中」。",
       "sentenceIndex": 10,
@@ -617,12 +559,8 @@ export default {
         "booked"
       ],
       "optionReasons": {
-        "book-mcq-05": "本句指「把資料、交易、人物或事項正式登記在紀錄或系統中」。",
-        "book-mcq-04": "「預先安排或聘請某人在指定時間提供服務、表演或出席」是「book a performer/professional」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。",
-        "book-mcq-03": "「預先安排某個房間、座位、行程、服務或時間段留給自己使用」是「book a room/table/ticket/appointment」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。",
-        "book-mcq-02": "「由多頁紙張裝訂而成、可以拿在手中閱讀或書寫的實體書本；與「作品」義高度相關」是「book — physical volume」的用法，與本句語境不同。"
+        "book-mcq-05": "本句的「booked」指「把資料、交易、人物或事項正式登記在紀錄或系統中」。",
+        "book-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-05"
     },
@@ -634,11 +572,7 @@ export default {
       "masked": "He was arrested and ____ at the police station.",
       "options": [
         "book-mcq-06",
-        "book-mcq-05",
-        "book-mcq-07",
-        "book-mcq-04",
-        "book-mcq-08",
-        "book-mcq-03"
+        "book-mcq-10"
       ],
       "explanation": "本句的「booked」指「警方拘捕某人後正式記錄其身份及涉嫌罪名」。",
       "sentenceIndex": 11,
@@ -647,12 +581,8 @@ export default {
         "booked"
       ],
       "optionReasons": {
-        "book-mcq-06": "本句指「警方拘捕某人後正式記錄其身份及涉嫌罪名」。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。",
-        "book-mcq-04": "「預先安排或聘請某人在指定時間提供服務、表演或出席」是「book a performer/professional」的用法，與本句語境不同。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-03": "「預先安排某個房間、座位、行程、服務或時間段留給自己使用」是「book a room/table/ticket/appointment」的用法，與本句語境不同。"
+        "book-mcq-06": "本句的「booked」指「警方拘捕某人後正式記錄其身份及涉嫌罪名」。",
+        "book-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-06"
     },
@@ -664,10 +594,6 @@ export default {
       "masked": "The suspect was ____ on several charges.",
       "options": [
         "book-mcq-06",
-        "book-mcq-05",
-        "book-mcq-07",
-        "book-mcq-04",
-        "book-mcq-08",
         "book-mcq-03"
       ],
       "explanation": "本句的「booked」指「警方拘捕某人後正式記錄其身份及涉嫌罪名」。",
@@ -677,12 +603,8 @@ export default {
         "booked"
       ],
       "optionReasons": {
-        "book-mcq-06": "本句指「警方拘捕某人後正式記錄其身份及涉嫌罪名」。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。",
-        "book-mcq-04": "「預先安排或聘請某人在指定時間提供服務、表演或出席」是「book a performer/professional」的用法，與本句語境不同。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-03": "「預先安排某個房間、座位、行程、服務或時間段留給自己使用」是「book a room/table/ticket/appointment」的用法，與本句語境不同。"
+        "book-mcq-06": "本句的「booked」指「警方拘捕某人後正式記錄其身份及涉嫌罪名」。",
+        "book-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-06"
     },
@@ -694,11 +616,8 @@ export default {
       "masked": "The referee ____ the defender for a late challenge.",
       "options": [
         "book-mcq-07",
-        "book-mcq-06",
-        "book-mcq-08",
-        "book-mcq-05",
-        "book-mcq-09",
-        "book-mcq-04"
+        "book-mcq-12",
+        "book-mcq-10"
       ],
       "explanation": "本句的「booked」指「球證正式記錄球員的違規並給予警告，通常即出示黃牌」。",
       "sentenceIndex": 13,
@@ -707,12 +626,9 @@ export default {
         "booked"
       ],
       "optionReasons": {
-        "book-mcq-07": "本句指「球證正式記錄球員的違規並給予警告，通常即出示黃牌」。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。",
-        "book-mcq-09": "「預先保留房間、座位、服務、時間或專業工作安排的紀錄」是「booking」的用法，與本句語境不同。",
-        "book-mcq-04": "「預先安排或聘請某人在指定時間提供服務、表演或出席」是「book a performer/professional」的用法，與本句語境不同。"
+        "book-mcq-07": "本句的「booked」指「球證正式記錄球員的違規並給予警告，通常即出示黃牌」。",
+        "book-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-07"
     },
@@ -724,11 +640,8 @@ export default {
       "masked": "Two players were ____ during the first half.",
       "options": [
         "book-mcq-07",
-        "book-mcq-06",
-        "book-mcq-08",
-        "book-mcq-05",
-        "book-mcq-09",
-        "book-mcq-04"
+        "book-mcq-10",
+        "book-mcq-12"
       ],
       "explanation": "本句的「booked」指「球證正式記錄球員的違規並給予警告，通常即出示黃牌」。",
       "sentenceIndex": 14,
@@ -737,12 +650,9 @@ export default {
         "booked"
       ],
       "optionReasons": {
-        "book-mcq-07": "本句指「球證正式記錄球員的違規並給予警告，通常即出示黃牌」。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。",
-        "book-mcq-09": "「預先保留房間、座位、服務、時間或專業工作安排的紀錄」是「booking」的用法，與本句語境不同。",
-        "book-mcq-04": "「預先安排或聘請某人在指定時間提供服務、表演或出席」是「book a performer/professional」的用法，與本句語境不同。"
+        "book-mcq-07": "本句的「booked」指「球證正式記錄球員的違規並給予警告，通常即出示黃牌」。",
+        "book-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-07"
     },
@@ -754,11 +664,7 @@ export default {
       "masked": "The accountant checked the company’s ____.",
       "options": [
         "book-mcq-08",
-        "book-mcq-07",
-        "book-mcq-09",
-        "book-mcq-06",
-        "book-mcq-10",
-        "book-mcq-05"
+        "book-mcq-10"
       ],
       "explanation": "本句的「books」指「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」。",
       "sentenceIndex": 15,
@@ -767,12 +673,8 @@ export default {
         "books"
       ],
       "optionReasons": {
-        "book-mcq-08": "本句指「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。",
-        "book-mcq-09": "「預先保留房間、座位、服務、時間或專業工作安排的紀錄」是「booking」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。",
-        "book-mcq-10": "「可以預先預訂或預約的」是「bookable」的用法，與本句語境不同。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。"
+        "book-mcq-08": "本句的「books」指「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」。",
+        "book-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-08"
     },
@@ -784,11 +686,7 @@ export default {
       "masked": "The figures in the ____ did not match the bank records.",
       "options": [
         "book-mcq-08",
-        "book-mcq-07",
-        "book-mcq-09",
-        "book-mcq-06",
-        "book-mcq-10",
-        "book-mcq-05"
+        "book-mcq-10"
       ],
       "explanation": "本句的「books」指「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」。",
       "sentenceIndex": 16,
@@ -797,74 +695,58 @@ export default {
         "books"
       ],
       "optionReasons": {
-        "book-mcq-08": "本句指「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。",
-        "book-mcq-09": "「預先保留房間、座位、服務、時間或專業工作安排的紀錄」是「booking」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。",
-        "book-mcq-10": "「可以預先預訂或預約的」是「bookable」的用法，與本句語境不同。",
-        "book-mcq-05": "「把資料、交易、人物或事項正式登記在紀錄或系統中」是「book — officially record」的用法，與本句語境不同。"
+        "book-mcq-08": "本句的「books」指「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」。",
+        "book-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-08"
     },
     {
       "id": "book-09-0",
-      "sense": "book-mcq-11",
+      "sense": "book-reviewed-a05f1bf978",
       "en": "The law has been on the books for decades.",
       "zh": "這項法律已經正式存在／載於法例中數十年。",
       "masked": "The law has been ____ for decades.",
       "options": [
-        "book-mcq-11",
-        "book-mcq-10",
-        "book-mcq-12",
-        "book-mcq-09",
-        "book-mcq-08",
-        "book-mcq-07"
+        "book-reviewed-a05f1bf978",
+        "book-mcq-03"
       ],
-      "explanation": "本句的「on the books」指「完全按照正式規則、程序或規定行事」。",
+      "explanation": "對照完整句子：「這項法律已經正式存在／載於法例中數十年。」。這裡的「on the books」表示「已正式記錄、登記或列入某個機構的紀錄中」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "on the books"
       ],
       "optionReasons": {
-        "book-mcq-11": "本句指「完全按照正式規則、程序或規定行事」。",
-        "book-mcq-10": "「可以預先預訂或預約的」是「bookable」的用法，與本句語境不同。",
-        "book-mcq-12": "「很少隱藏自己、思想或生活容易被別人了解的人」是「an open book」的用法，與本句語境不同。",
-        "book-mcq-09": "「預先保留房間、座位、服務、時間或專業工作安排的紀錄」是「booking」的用法，與本句語境不同。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。"
+        "book-reviewed-a05f1bf978": "對照完整句子：「這項法律已經正式存在／載於法例中數十年。」。這裡的「on the books」表示「已正式記錄、登記或列入某個機構的紀錄中」。",
+        "book-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "book-mcq-11"
+      "correctOption": "book-reviewed-a05f1bf978",
+      "previousCorrectOption": "book-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "book-09-1",
-      "sense": "book-mcq-11",
+      "sense": "book-reviewed-a05f1bf978",
       "en": "The company still has hundreds of employees on its books.",
       "zh": "公司正式紀錄中仍有數百名在冊員工。",
       "masked": "The company still has hundreds of employees ____.",
       "options": [
-        "book-mcq-11",
-        "book-mcq-10",
-        "book-mcq-12",
-        "book-mcq-09",
-        "book-mcq-08",
-        "book-mcq-07"
+        "book-reviewed-a05f1bf978",
+        "book-mcq-10"
       ],
-      "explanation": "本句的「on its books」指「完全按照正式規則、程序或規定行事」。",
+      "explanation": "對照完整句子：「公司正式紀錄中仍有數百名在冊員工。」。這裡的「on its books」表示「已正式記錄、登記或列入某個機構的紀錄中」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "on its books"
       ],
       "optionReasons": {
-        "book-mcq-11": "本句指「完全按照正式規則、程序或規定行事」。",
-        "book-mcq-10": "「可以預先預訂或預約的」是「bookable」的用法，與本句語境不同。",
-        "book-mcq-12": "「很少隱藏自己、思想或生活容易被別人了解的人」是「an open book」的用法，與本句語境不同。",
-        "book-mcq-09": "「預先保留房間、座位、服務、時間或專業工作安排的紀錄」是「booking」的用法，與本句語境不同。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。"
+        "book-reviewed-a05f1bf978": "對照完整句子：「公司正式紀錄中仍有數百名在冊員工。」。這裡的「on its books」表示「已正式記錄、登記或列入某個機構的紀錄中」。",
+        "book-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "book-mcq-11"
+      "correctOption": "book-reviewed-a05f1bf978",
+      "previousCorrectOption": "book-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "book-09-2",
@@ -874,11 +756,8 @@ export default {
       "masked": "I have a ____ for two people at seven.",
       "options": [
         "book-mcq-09",
-        "book-mcq-08",
-        "book-mcq-10",
-        "book-mcq-07",
-        "book-mcq-11",
-        "book-mcq-06"
+        "book-mcq-01",
+        "book-mcq-12"
       ],
       "explanation": "本句的「booking」指「預先保留房間、座位、服務、時間或專業工作安排的紀錄」。",
       "sentenceIndex": 19,
@@ -887,12 +766,9 @@ export default {
         "booking"
       ],
       "optionReasons": {
-        "book-mcq-09": "本句指「預先保留房間、座位、服務、時間或專業工作安排的紀錄」。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-10": "「可以預先預訂或預約的」是「bookable」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。",
-        "book-mcq-11": "「完全按照正式規則、程序或規定行事」是「by the book」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。"
+        "book-mcq-09": "本句的「booking」指「預先保留房間、座位、服務、時間或專業工作安排的紀錄」。",
+        "book-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-09"
     },
@@ -904,11 +780,9 @@ export default {
       "masked": "Hotel ____ rise sharply during the summer.",
       "options": [
         "book-mcq-09",
-        "book-mcq-08",
-        "book-mcq-10",
-        "book-mcq-07",
-        "book-mcq-11",
-        "book-mcq-06"
+        "book-mcq-12",
+        "book-mcq-02",
+        "book-mcq-11"
       ],
       "explanation": "本句的「bookings」指「預先保留房間、座位、服務、時間或專業工作安排的紀錄」。",
       "sentenceIndex": 20,
@@ -917,12 +791,10 @@ export default {
         "bookings"
       ],
       "optionReasons": {
-        "book-mcq-09": "本句指「預先保留房間、座位、服務、時間或專業工作安排的紀錄」。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-10": "「可以預先預訂或預約的」是「bookable」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。",
-        "book-mcq-11": "「完全按照正式規則、程序或規定行事」是「by the book」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。"
+        "book-mcq-09": "本句的「bookings」指「預先保留房間、座位、服務、時間或專業工作安排的紀錄」。",
+        "book-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-09"
     },
@@ -934,11 +806,9 @@ export default {
       "masked": "The singer has several ____ this month.",
       "options": [
         "book-mcq-09",
-        "book-mcq-08",
-        "book-mcq-10",
-        "book-mcq-07",
-        "book-mcq-11",
-        "book-mcq-06"
+        "book-mcq-02",
+        "book-mcq-12",
+        "book-mcq-11"
       ],
       "explanation": "本句的「bookings」指「預先保留房間、座位、服務、時間或專業工作安排的紀錄」。",
       "sentenceIndex": 21,
@@ -947,12 +817,10 @@ export default {
         "bookings"
       ],
       "optionReasons": {
-        "book-mcq-09": "本句指「預先保留房間、座位、服務、時間或專業工作安排的紀錄」。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-10": "「可以預先預訂或預約的」是「bookable」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。",
-        "book-mcq-11": "「完全按照正式規則、程序或規定行事」是「by the book」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。"
+        "book-mcq-09": "本句的「bookings」指「預先保留房間、座位、服務、時間或專業工作安排的紀錄」。",
+        "book-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-09"
     },
@@ -964,11 +832,9 @@ export default {
       "masked": "The agency handles all of her professional ____.",
       "options": [
         "book-mcq-09",
-        "book-mcq-08",
-        "book-mcq-10",
-        "book-mcq-07",
         "book-mcq-11",
-        "book-mcq-06"
+        "book-mcq-12",
+        "book-mcq-02"
       ],
       "explanation": "本句的「bookings」指「預先保留房間、座位、服務、時間或專業工作安排的紀錄」。",
       "sentenceIndex": 22,
@@ -977,12 +843,10 @@ export default {
         "bookings"
       ],
       "optionReasons": {
-        "book-mcq-09": "本句指「預先保留房間、座位、服務、時間或專業工作安排的紀錄」。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-10": "「可以預先預訂或預約的」是「bookable」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。",
-        "book-mcq-11": "「完全按照正式規則、程序或規定行事」是「by the book」的用法，與本句語境不同。",
-        "book-mcq-06": "「警方拘捕某人後正式記錄其身份及涉嫌罪名」是「book someone — police」的用法，與本句語境不同。"
+        "book-mcq-09": "本句的「bookings」指「預先保留房間、座位、服務、時間或專業工作安排的紀錄」。",
+        "book-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-09"
     },
@@ -994,11 +858,9 @@ export default {
       "masked": "These rooms are ____ online.",
       "options": [
         "book-mcq-10",
-        "book-mcq-09",
         "book-mcq-11",
-        "book-mcq-08",
         "book-mcq-12",
-        "book-mcq-07"
+        "book-mcq-02"
       ],
       "explanation": "本句的「bookable」指「可以預先預訂或預約的」。",
       "sentenceIndex": 23,
@@ -1007,12 +869,10 @@ export default {
         "bookable"
       ],
       "optionReasons": {
-        "book-mcq-10": "本句指「可以預先預訂或預約的」。",
-        "book-mcq-09": "「預先保留房間、座位、服務、時間或專業工作安排的紀錄」是「booking」的用法，與本句語境不同。",
-        "book-mcq-11": "「完全按照正式規則、程序或規定行事」是「by the book」的用法，與本句語境不同。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-12": "「很少隱藏自己、思想或生活容易被別人了解的人」是「an open book」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。"
+        "book-mcq-10": "本句的「bookable」指「可以預先預訂或預約的」。",
+        "book-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-10"
     },
@@ -1024,11 +884,7 @@ export default {
       "masked": "The service is only ____ through the app.",
       "options": [
         "book-mcq-10",
-        "book-mcq-09",
-        "book-mcq-11",
-        "book-mcq-08",
-        "book-mcq-12",
-        "book-mcq-07"
+        "book-mcq-06"
       ],
       "explanation": "本句的「bookable」指「可以預先預訂或預約的」。",
       "sentenceIndex": 24,
@@ -1037,12 +893,8 @@ export default {
         "bookable"
       ],
       "optionReasons": {
-        "book-mcq-10": "本句指「可以預先預訂或預約的」。",
-        "book-mcq-09": "「預先保留房間、座位、服務、時間或專業工作安排的紀錄」是「booking」的用法，與本句語境不同。",
-        "book-mcq-11": "「完全按照正式規則、程序或規定行事」是「by the book」的用法，與本句語境不同。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-12": "「很少隱藏自己、思想或生活容易被別人了解的人」是「an open book」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。"
+        "book-mcq-10": "本句的「bookable」指「可以預先預訂或預約的」。",
+        "book-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-10"
     },
@@ -1054,11 +906,9 @@ export default {
       "masked": "The inspector does everything ____.",
       "options": [
         "book-mcq-11",
-        "book-mcq-10",
+        "book-mcq-02",
         "book-mcq-12",
-        "book-mcq-09",
-        "book-mcq-08",
-        "book-mcq-07"
+        "book-mcq-09"
       ],
       "explanation": "本句的「by the book」指「完全按照正式規則、程序或規定行事」。",
       "sentenceIndex": 25,
@@ -1067,12 +917,10 @@ export default {
         "by the book"
       ],
       "optionReasons": {
-        "book-mcq-11": "本句指「完全按照正式規則、程序或規定行事」。",
-        "book-mcq-10": "「可以預先預訂或預約的」是「bookable」的用法，與本句語境不同。",
-        "book-mcq-12": "「很少隱藏自己、思想或生活容易被別人了解的人」是「an open book」的用法，與本句語境不同。",
-        "book-mcq-09": "「預先保留房間、座位、服務、時間或專業工作安排的紀錄」是「booking」的用法，與本句語境不同。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。"
+        "book-mcq-11": "本句的「by the book」指「完全按照正式規則、程序或規定行事」。",
+        "book-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-11"
     },
@@ -1084,11 +932,9 @@ export default {
       "masked": "We need to handle this case ____.",
       "options": [
         "book-mcq-11",
-        "book-mcq-10",
-        "book-mcq-12",
         "book-mcq-09",
-        "book-mcq-08",
-        "book-mcq-07"
+        "book-mcq-12",
+        "book-mcq-02"
       ],
       "explanation": "本句的「by the book」指「完全按照正式規則、程序或規定行事」。",
       "sentenceIndex": 26,
@@ -1097,12 +943,10 @@ export default {
         "by the book"
       ],
       "optionReasons": {
-        "book-mcq-11": "本句指「完全按照正式規則、程序或規定行事」。",
-        "book-mcq-10": "「可以預先預訂或預約的」是「bookable」的用法，與本句語境不同。",
-        "book-mcq-12": "「很少隱藏自己、思想或生活容易被別人了解的人」是「an open book」的用法，與本句語境不同。",
-        "book-mcq-09": "「預先保留房間、座位、服務、時間或專業工作安排的紀錄」是「booking」的用法，與本句語境不同。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。"
+        "book-mcq-11": "本句的「by the book」指「完全按照正式規則、程序或規定行事」。",
+        "book-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-11"
     },
@@ -1114,11 +958,9 @@ export default {
       "masked": "She is an ____ and rarely hides how she feels.",
       "options": [
         "book-mcq-12",
-        "book-mcq-11",
-        "book-mcq-10",
+        "book-mcq-02",
         "book-mcq-09",
-        "book-mcq-08",
-        "book-mcq-07"
+        "book-mcq-11"
       ],
       "explanation": "本句的「open book」指「很少隱藏自己、思想或生活容易被別人了解的人」。",
       "sentenceIndex": 27,
@@ -1127,12 +969,10 @@ export default {
         "open book"
       ],
       "optionReasons": {
-        "book-mcq-12": "本句指「很少隱藏自己、思想或生活容易被別人了解的人」。",
-        "book-mcq-11": "「完全按照正式規則、程序或規定行事」是「by the book」的用法，與本句語境不同。",
-        "book-mcq-10": "「可以預先預訂或預約的」是「bookable」的用法，與本句語境不同。",
-        "book-mcq-09": "「預先保留房間、座位、服務、時間或專業工作安排的紀錄」是「booking」的用法，與本句語境不同。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。"
+        "book-mcq-12": "本句的「open book」指「很少隱藏自己、思想或生活容易被別人了解的人」。",
+        "book-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-12"
     },
@@ -1145,10 +985,8 @@ export default {
       "options": [
         "book-mcq-12",
         "book-mcq-11",
-        "book-mcq-10",
-        "book-mcq-09",
-        "book-mcq-08",
-        "book-mcq-07"
+        "book-mcq-02",
+        "book-mcq-10"
       ],
       "explanation": "本句的「open book」指「很少隱藏自己、思想或生活容易被別人了解的人」。",
       "sentenceIndex": 28,
@@ -1157,12 +995,10 @@ export default {
         "open book"
       ],
       "optionReasons": {
-        "book-mcq-12": "本句指「很少隱藏自己、思想或生活容易被別人了解的人」。",
-        "book-mcq-11": "「完全按照正式規則、程序或規定行事」是「by the book」的用法，與本句語境不同。",
-        "book-mcq-10": "「可以預先預訂或預約的」是「bookable」的用法，與本句語境不同。",
-        "book-mcq-09": "「預先保留房間、座位、服務、時間或專業工作安排的紀錄」是「booking」的用法，與本句語境不同。",
-        "book-mcq-08": "「公司或機構用來記錄收入、支出及其他財務交易的正式帳目」是「the books — accounts」的用法，與本句語境不同。",
-        "book-mcq-07": "「球證正式記錄球員的違規並給予警告，通常即出示黃牌」是「book a player — sport」的用法，與本句語境不同。"
+        "book-mcq-12": "本句的「open book」指「很少隱藏自己、思想或生活容易被別人了解的人」。",
+        "book-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "book-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "book-mcq-12"
     }
@@ -1174,5 +1010,7 @@ export default {
     "sha256": "3a1ed6da11e183078d19fc5ad6bcc78c0ac0aeae94cdc16dccc0a8b7fad7a330",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

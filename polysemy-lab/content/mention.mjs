@@ -187,7 +187,7 @@ export default {
     },
     {
       "id": "mention-mcq-09",
-      "title": "表示對方不必特別感謝或介意；不用客氣",
+      "title": "對方不必特別感謝或介意；不用客氣",
       "form": "don't mention it",
       "en": "don't mention it",
       "zh": "表示對方不必特別感謝或介意；不用客氣",
@@ -349,11 +349,8 @@ export default {
       "masked": "The ad ____ practical features like comfort, battery life, and sound quality.",
       "options": [
         "mention-mcq-01",
-        "mention-mcq-02",
-        "mention-mcq-03",
-        "mention-mcq-04",
-        "mention-mcq-05",
-        "mention-mcq-06"
+        "mention-mcq-09",
+        "mention-pdf-001"
       ],
       "explanation": "本句的「mentioned」指「在說話或文字中簡短提到某人／某事，但不一定詳細討論」。",
       "sentenceIndex": 0,
@@ -362,12 +359,9 @@ export default {
         "mentioned"
       ],
       "optionReasons": {
-        "mention-mcq-01": "本句指「在說話或文字中簡短提到某人／某事，但不一定詳細討論」。",
-        "mention-mcq-02": "「簡短告知某項事實或情況」是「mention that…」的用法，與本句語境不同。",
-        "mention-mcq-03": "「簡短談及某個行動、經歷或打算」是「mention doing something」的用法，與本句語境不同。",
-        "mention-mcq-04": "「在談話、文件或討論中提到某人的名字／身分」是「mention someone by name」的用法，與本句語境不同。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。"
+        "mention-mcq-01": "本句的「mentioned」指「在說話或文字中簡短提到某人／某事，但不一定詳細討論」。",
+        "mention-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mention-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-01"
     },
@@ -379,11 +373,8 @@ export default {
       "masked": "She ____ the problem during the meeting.",
       "options": [
         "mention-mcq-01",
-        "mention-mcq-02",
-        "mention-mcq-03",
-        "mention-mcq-04",
-        "mention-mcq-05",
-        "mention-mcq-06"
+        "mention-mcq-09",
+        "mention-pdf-001"
       ],
       "explanation": "本句的「mentioned」指「在說話或文字中簡短提到某人／某事，但不一定詳細討論」。",
       "sentenceIndex": 1,
@@ -392,12 +383,9 @@ export default {
         "mentioned"
       ],
       "optionReasons": {
-        "mention-mcq-01": "本句指「在說話或文字中簡短提到某人／某事，但不一定詳細討論」。",
-        "mention-mcq-02": "「簡短告知某項事實或情況」是「mention that…」的用法，與本句語境不同。",
-        "mention-mcq-03": "「簡短談及某個行動、經歷或打算」是「mention doing something」的用法，與本句語境不同。",
-        "mention-mcq-04": "「在談話、文件或討論中提到某人的名字／身分」是「mention someone by name」的用法，與本句語境不同。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。"
+        "mention-mcq-01": "本句的「mentioned」指「在說話或文字中簡短提到某人／某事，但不一定詳細討論」。",
+        "mention-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mention-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-01"
     },
@@ -409,11 +397,8 @@ export default {
       "masked": "The report ____ several possible causes.",
       "options": [
         "mention-mcq-01",
-        "mention-mcq-02",
-        "mention-mcq-03",
-        "mention-mcq-04",
-        "mention-mcq-05",
-        "mention-mcq-06"
+        "mention-pdf-001",
+        "mention-mcq-10"
       ],
       "explanation": "本句的「mentions」指「在說話或文字中簡短提到某人／某事，但不一定詳細討論」。",
       "sentenceIndex": 2,
@@ -422,12 +407,9 @@ export default {
         "mentions"
       ],
       "optionReasons": {
-        "mention-mcq-01": "本句指「在說話或文字中簡短提到某人／某事，但不一定詳細討論」。",
-        "mention-mcq-02": "「簡短告知某項事實或情況」是「mention that…」的用法，與本句語境不同。",
-        "mention-mcq-03": "「簡短談及某個行動、經歷或打算」是「mention doing something」的用法，與本句語境不同。",
-        "mention-mcq-04": "「在談話、文件或討論中提到某人的名字／身分」是「mention someone by name」的用法，與本句語境不同。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。"
+        "mention-mcq-01": "本句的「mentions」指「在說話或文字中簡短提到某人／某事，但不一定詳細討論」。",
+        "mention-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-01"
     },
@@ -439,11 +421,9 @@ export default {
       "masked": "He ____ the price might increase.",
       "options": [
         "mention-mcq-02",
-        "mention-mcq-01",
-        "mention-mcq-03",
-        "mention-mcq-04",
-        "mention-mcq-05",
-        "mention-mcq-06"
+        "mention-mcq-14",
+        "mention-mcq-09",
+        "mention-mcq-07"
       ],
       "explanation": "本句的「mentioned that」指「簡短告知某項事實或情況」。",
       "sentenceIndex": 3,
@@ -452,12 +432,10 @@ export default {
         "mentioned that"
       ],
       "optionReasons": {
-        "mention-mcq-02": "本句指「簡短告知某項事實或情況」。",
-        "mention-mcq-01": "「在說話或文字中簡短提到某人／某事，但不一定詳細討論」是「mention a person/thing/topic」的用法，與本句語境不同。",
-        "mention-mcq-03": "「簡短談及某個行動、經歷或打算」是「mention doing something」的用法，與本句語境不同。",
-        "mention-mcq-04": "「在談話、文件或討論中提到某人的名字／身分」是「mention someone by name」的用法，與本句語境不同。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。"
+        "mention-mcq-02": "本句的「mentioned that」指「簡短告知某項事實或情況」。",
+        "mention-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-02"
     },
@@ -469,11 +447,9 @@ export default {
       "masked": "She ____ she had used the headphones before.",
       "options": [
         "mention-mcq-02",
-        "mention-mcq-01",
-        "mention-mcq-03",
         "mention-mcq-04",
-        "mention-mcq-05",
-        "mention-mcq-06"
+        "mention-mcq-13",
+        "mention-mcq-09"
       ],
       "explanation": "本句的「mentioned that」指「簡短告知某項事實或情況」。",
       "sentenceIndex": 4,
@@ -482,12 +458,10 @@ export default {
         "mentioned that"
       ],
       "optionReasons": {
-        "mention-mcq-02": "本句指「簡短告知某項事實或情況」。",
-        "mention-mcq-01": "「在說話或文字中簡短提到某人／某事，但不一定詳細討論」是「mention a person/thing/topic」的用法，與本句語境不同。",
-        "mention-mcq-03": "「簡短談及某個行動、經歷或打算」是「mention doing something」的用法，與本句語境不同。",
-        "mention-mcq-04": "「在談話、文件或討論中提到某人的名字／身分」是「mention someone by name」的用法，與本句語境不同。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。"
+        "mention-mcq-02": "本句的「mentioned that」指「簡短告知某項事實或情況」。",
+        "mention-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-02"
     },
@@ -499,11 +473,9 @@ export default {
       "masked": "She ____ him at a conference.",
       "options": [
         "mention-mcq-03",
-        "mention-mcq-02",
-        "mention-mcq-04",
-        "mention-mcq-01",
-        "mention-mcq-05",
-        "mention-mcq-06"
+        "mention-mcq-07",
+        "mention-mcq-12",
+        "mention-mcq-08"
       ],
       "explanation": "本句的「mentioned meeting」指「簡短談及某個行動、經歷或打算」。",
       "sentenceIndex": 5,
@@ -512,12 +484,10 @@ export default {
         "mentioned meeting"
       ],
       "optionReasons": {
-        "mention-mcq-03": "本句指「簡短談及某個行動、經歷或打算」。",
-        "mention-mcq-02": "「簡短告知某項事實或情況」是「mention that…」的用法，與本句語境不同。",
-        "mention-mcq-04": "「在談話、文件或討論中提到某人的名字／身分」是「mention someone by name」的用法，與本句語境不同。",
-        "mention-mcq-01": "「在說話或文字中簡短提到某人／某事，但不一定詳細討論」是「mention a person/thing/topic」的用法，與本句語境不同。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。"
+        "mention-mcq-03": "本句的「mentioned meeting」指「簡短談及某個行動、經歷或打算」。",
+        "mention-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-03"
     },
@@ -529,11 +499,9 @@ export default {
       "masked": "He ____ to change jobs.",
       "options": [
         "mention-mcq-03",
-        "mention-mcq-02",
-        "mention-mcq-04",
-        "mention-mcq-01",
-        "mention-mcq-05",
-        "mention-mcq-06"
+        "mention-mcq-08",
+        "mention-pdf-001",
+        "mention-mcq-12"
       ],
       "explanation": "本句的「mentioned wanting」指「簡短談及某個行動、經歷或打算」。",
       "sentenceIndex": 6,
@@ -542,12 +510,10 @@ export default {
         "mentioned wanting"
       ],
       "optionReasons": {
-        "mention-mcq-03": "本句指「簡短談及某個行動、經歷或打算」。",
-        "mention-mcq-02": "「簡短告知某項事實或情況」是「mention that…」的用法，與本句語境不同。",
-        "mention-mcq-04": "「在談話、文件或討論中提到某人的名字／身分」是「mention someone by name」的用法，與本句語境不同。",
-        "mention-mcq-01": "「在說話或文字中簡短提到某人／某事，但不一定詳細討論」是「mention a person/thing/topic」的用法，與本句語境不同。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。"
+        "mention-mcq-03": "本句的「mentioned wanting」指「簡短談及某個行動、經歷或打算」。",
+        "mention-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mention-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-03"
     },
@@ -559,11 +525,9 @@ export default {
       "masked": "Her name was ____ in the report.",
       "options": [
         "mention-mcq-04",
-        "mention-mcq-03",
-        "mention-mcq-05",
         "mention-mcq-02",
-        "mention-mcq-06",
-        "mention-mcq-01"
+        "mention-mcq-10",
+        "mention-pdf-001"
       ],
       "explanation": "本句的「mentioned」指「在談話、文件或討論中提到某人的名字／身分」。",
       "sentenceIndex": 7,
@@ -572,12 +536,10 @@ export default {
         "mentioned"
       ],
       "optionReasons": {
-        "mention-mcq-04": "本句指「在談話、文件或討論中提到某人的名字／身分」。",
-        "mention-mcq-03": "「簡短談及某個行動、經歷或打算」是「mention doing something」的用法，與本句語境不同。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。",
-        "mention-mcq-02": "「簡短告知某項事實或情況」是「mention that…」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。",
-        "mention-mcq-01": "「在說話或文字中簡短提到某人／某事，但不一定詳細討論」是「mention a person/thing/topic」的用法，與本句語境不同。"
+        "mention-mcq-04": "本句的「mentioned」指「在談話、文件或討論中提到某人的名字／身分」。",
+        "mention-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mention-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-04"
     },
@@ -589,11 +551,9 @@ export default {
       "masked": "Several employees were ____ during the investigation.",
       "options": [
         "mention-mcq-04",
-        "mention-mcq-03",
-        "mention-mcq-05",
         "mention-mcq-02",
-        "mention-mcq-06",
-        "mention-mcq-01"
+        "mention-mcq-12",
+        "mention-pdf-001"
       ],
       "explanation": "本句的「mentioned」指「在談話、文件或討論中提到某人的名字／身分」。",
       "sentenceIndex": 8,
@@ -602,12 +562,10 @@ export default {
         "mentioned"
       ],
       "optionReasons": {
-        "mention-mcq-04": "本句指「在談話、文件或討論中提到某人的名字／身分」。",
-        "mention-mcq-03": "「簡短談及某個行動、經歷或打算」是「mention doing something」的用法，與本句語境不同。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。",
-        "mention-mcq-02": "「簡短告知某項事實或情況」是「mention that…」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。",
-        "mention-mcq-01": "「在說話或文字中簡短提到某人／某事，但不一定詳細討論」是「mention a person/thing/topic」的用法，與本句語境不同。"
+        "mention-mcq-04": "本句的「mentioned」指「在談話、文件或討論中提到某人的名字／身分」。",
+        "mention-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mention-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-04"
     },
@@ -619,11 +577,9 @@ export default {
       "masked": "The report makes no ____ of the delay.",
       "options": [
         "mention-mcq-05",
-        "mention-mcq-04",
-        "mention-mcq-06",
-        "mention-mcq-03",
-        "mention-mcq-07",
-        "mention-mcq-02"
+        "mention-mcq-08",
+        "mention-mcq-13",
+        "mention-mcq-12"
       ],
       "explanation": "本句的「mention」指「對某人或某事作出的簡短提及」。",
       "sentenceIndex": 9,
@@ -632,12 +588,10 @@ export default {
         "mention"
       ],
       "optionReasons": {
-        "mention-mcq-05": "本句指「對某人或某事作出的簡短提及」。",
-        "mention-mcq-04": "「在談話、文件或討論中提到某人的名字／身分」是「mention someone by name」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。",
-        "mention-mcq-03": "「簡短談及某個行動、經歷或打算」是「mention doing something」的用法，與本句語境不同。",
-        "mention-mcq-07": "「在社交平台中使用帳戶名稱公開點名或 @ 某人」是「social-media mention」的用法，與本句語境不同。",
-        "mention-mcq-02": "「簡短告知某項事實或情況」是「mention that…」的用法，與本句語境不同。"
+        "mention-mcq-05": "本句的「mention」指「對某人或某事作出的簡短提及」。",
+        "mention-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-05"
     },
@@ -649,11 +603,9 @@ export default {
       "masked": "There was only a brief ____ of the new product.",
       "options": [
         "mention-mcq-05",
-        "mention-mcq-04",
-        "mention-mcq-06",
-        "mention-mcq-03",
-        "mention-mcq-07",
-        "mention-mcq-02"
+        "mention-mcq-13",
+        "mention-mcq-09",
+        "mention-mcq-08"
       ],
       "explanation": "本句的「mention」指「對某人或某事作出的簡短提及」。",
       "sentenceIndex": 10,
@@ -662,12 +614,10 @@ export default {
         "mention"
       ],
       "optionReasons": {
-        "mention-mcq-05": "本句指「對某人或某事作出的簡短提及」。",
-        "mention-mcq-04": "「在談話、文件或討論中提到某人的名字／身分」是「mention someone by name」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。",
-        "mention-mcq-03": "「簡短談及某個行動、經歷或打算」是「mention doing something」的用法，與本句語境不同。",
-        "mention-mcq-07": "「在社交平台中使用帳戶名稱公開點名或 @ 某人」是「social-media mention」的用法，與本句語境不同。",
-        "mention-mcq-02": "「簡短告知某項事實或情況」是「mention that…」的用法，與本句語境不同。"
+        "mention-mcq-05": "本句的「mention」指「對某人或某事作出的簡短提及」。",
+        "mention-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-05"
     },
@@ -679,11 +629,8 @@ export default {
       "masked": "The product received several ____ in the press.",
       "options": [
         "mention-mcq-06",
-        "mention-mcq-05",
-        "mention-mcq-07",
-        "mention-mcq-04",
-        "mention-mcq-08",
-        "mention-mcq-03"
+        "mention-mcq-10",
+        "mention-mcq-13"
       ],
       "explanation": "本句的「mentions」指「某人、品牌或事物在媒體內容中被點名／簡短報道」。",
       "sentenceIndex": 11,
@@ -692,12 +639,9 @@ export default {
         "mentions"
       ],
       "optionReasons": {
-        "mention-mcq-06": "本句指「某人、品牌或事物在媒體內容中被點名／簡短報道」。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。",
-        "mention-mcq-07": "「在社交平台中使用帳戶名稱公開點名或 @ 某人」是「social-media mention」的用法，與本句語境不同。",
-        "mention-mcq-04": "「在談話、文件或討論中提到某人的名字／身分」是「mention someone by name」的用法，與本句語境不同。",
-        "mention-mcq-08": "「在已有內容之外，再補充一項同樣甚至更值得注意的事情」是「not to mention」的用法，與本句語境不同。",
-        "mention-mcq-03": "「簡短談及某個行動、經歷或打算」是「mention doing something」的用法，與本句語境不同。"
+        "mention-mcq-06": "本句的「mentions」指「某人、品牌或事物在媒體內容中被點名／簡短報道」。",
+        "mention-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-06"
     },
@@ -709,11 +653,8 @@ export default {
       "masked": "Her company got a positive ____ in the article.",
       "options": [
         "mention-mcq-06",
-        "mention-mcq-05",
-        "mention-mcq-07",
-        "mention-mcq-04",
-        "mention-mcq-08",
-        "mention-mcq-03"
+        "mention-mcq-10",
+        "mention-mcq-13"
       ],
       "explanation": "本句的「mention」指「某人、品牌或事物在媒體內容中被點名／簡短報道」。",
       "sentenceIndex": 12,
@@ -722,12 +663,9 @@ export default {
         "mention"
       ],
       "optionReasons": {
-        "mention-mcq-06": "本句指「某人、品牌或事物在媒體內容中被點名／簡短報道」。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。",
-        "mention-mcq-07": "「在社交平台中使用帳戶名稱公開點名或 @ 某人」是「social-media mention」的用法，與本句語境不同。",
-        "mention-mcq-04": "「在談話、文件或討論中提到某人的名字／身分」是「mention someone by name」的用法，與本句語境不同。",
-        "mention-mcq-08": "「在已有內容之外，再補充一項同樣甚至更值得注意的事情」是「not to mention」的用法，與本句語境不同。",
-        "mention-mcq-03": "「簡短談及某個行動、經歷或打算」是「mention doing something」的用法，與本句語境不同。"
+        "mention-mcq-06": "本句的「mention」指「某人、品牌或事物在媒體內容中被點名／簡短報道」。",
+        "mention-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-06"
     },
@@ -739,11 +677,9 @@ export default {
       "masked": "She ____ me in her post.",
       "options": [
         "mention-mcq-07",
-        "mention-mcq-06",
-        "mention-mcq-08",
-        "mention-mcq-05",
+        "mention-mcq-11",
         "mention-mcq-09",
-        "mention-mcq-04"
+        "mention-mcq-03"
       ],
       "explanation": "本句的「mentioned」指「在社交平台中使用帳戶名稱公開點名或 @ 某人」。",
       "sentenceIndex": 13,
@@ -752,12 +688,10 @@ export default {
         "mentioned"
       ],
       "optionReasons": {
-        "mention-mcq-07": "本句指「在社交平台中使用帳戶名稱公開點名或 @ 某人」。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。",
-        "mention-mcq-08": "「在已有內容之外，再補充一項同樣甚至更值得注意的事情」是「not to mention」的用法，與本句語境不同。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。",
-        "mention-mcq-04": "「在談話、文件或討論中提到某人的名字／身分」是「mention someone by name」的用法，與本句語境不同。"
+        "mention-mcq-07": "本句的「mentioned」指「在社交平台中使用帳戶名稱公開點名或 @ 某人」。",
+        "mention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-07"
     },
@@ -769,11 +703,9 @@ export default {
       "masked": "I received a notification because someone ____ me.",
       "options": [
         "mention-mcq-07",
-        "mention-mcq-06",
-        "mention-mcq-08",
-        "mention-mcq-05",
-        "mention-mcq-09",
-        "mention-mcq-04"
+        "mention-mcq-14",
+        "mention-mcq-03",
+        "mention-mcq-09"
       ],
       "explanation": "本句的「mentioned」指「在社交平台中使用帳戶名稱公開點名或 @ 某人」。",
       "sentenceIndex": 14,
@@ -782,12 +714,10 @@ export default {
         "mentioned"
       ],
       "optionReasons": {
-        "mention-mcq-07": "本句指「在社交平台中使用帳戶名稱公開點名或 @ 某人」。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。",
-        "mention-mcq-08": "「在已有內容之外，再補充一項同樣甚至更值得注意的事情」是「not to mention」的用法，與本句語境不同。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。",
-        "mention-mcq-04": "「在談話、文件或討論中提到某人的名字／身分」是「mention someone by name」的用法，與本句語境不同。"
+        "mention-mcq-07": "本句的「mentioned」指「在社交平台中使用帳戶名稱公開點名或 @ 某人」。",
+        "mention-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-07"
     },
@@ -799,11 +729,9 @@ export default {
       "masked": "The headphones are comfortable and effective, ____ stylish.",
       "options": [
         "mention-mcq-08",
-        "mention-mcq-07",
-        "mention-mcq-09",
-        "mention-mcq-06",
-        "mention-mcq-10",
-        "mention-mcq-05"
+        "mention-pdf-001",
+        "mention-mcq-03",
+        "mention-mcq-09"
       ],
       "explanation": "本句的「not to mention」指「在已有內容之外，再補充一項同樣甚至更值得注意的事情」。",
       "sentenceIndex": 15,
@@ -812,12 +740,10 @@ export default {
         "not to mention"
       ],
       "optionReasons": {
-        "mention-mcq-08": "本句指「在已有內容之外，再補充一項同樣甚至更值得注意的事情」。",
-        "mention-mcq-07": "「在社交平台中使用帳戶名稱公開點名或 @ 某人」是「social-media mention」的用法，與本句語境不同。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。",
-        "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。"
+        "mention-mcq-08": "本句的「not to mention」指「在已有內容之外，再補充一項同樣甚至更值得注意的事情」。",
+        "mention-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-08"
     },
@@ -829,11 +755,9 @@ export default {
       "masked": "The trip was expensive, ____ exhausting.",
       "options": [
         "mention-mcq-08",
-        "mention-mcq-07",
-        "mention-mcq-09",
-        "mention-mcq-06",
-        "mention-mcq-10",
-        "mention-mcq-05"
+        "mention-pdf-001",
+        "mention-mcq-03",
+        "mention-mcq-09"
       ],
       "explanation": "本句的「not to mention」指「在已有內容之外，再補充一項同樣甚至更值得注意的事情」。",
       "sentenceIndex": 16,
@@ -842,12 +766,10 @@ export default {
         "not to mention"
       ],
       "optionReasons": {
-        "mention-mcq-08": "本句指「在已有內容之外，再補充一項同樣甚至更值得注意的事情」。",
-        "mention-mcq-07": "「在社交平台中使用帳戶名稱公開點名或 @ 某人」是「social-media mention」的用法，與本句語境不同。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。",
-        "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
-        "mention-mcq-05": "「對某人或某事作出的簡短提及」是「a mention」的用法，與本句語境不同。"
+        "mention-mcq-08": "本句的「not to mention」指「在已有內容之外，再補充一項同樣甚至更值得注意的事情」。",
+        "mention-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-08"
     },
@@ -859,11 +781,9 @@ export default {
       "masked": "____",
       "options": [
         "mention-mcq-09",
-        "mention-mcq-08",
-        "mention-mcq-10",
-        "mention-mcq-07",
-        "mention-mcq-11",
-        "mention-mcq-06"
+        "mention-mcq-14",
+        "mention-mcq-03",
+        "mention-mcq-13"
       ],
       "explanation": "本句的「Don’t mention it.」指「表示對方不必特別感謝或介意；不用客氣」。",
       "sentenceIndex": 17,
@@ -872,12 +792,10 @@ export default {
         "Don’t mention it."
       ],
       "optionReasons": {
-        "mention-mcq-09": "本句指「表示對方不必特別感謝或介意；不用客氣」。",
-        "mention-mcq-08": "「在已有內容之外，再補充一項同樣甚至更值得注意的事情」是「not to mention」的用法，與本句語境不同。",
-        "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
-        "mention-mcq-07": "「在社交平台中使用帳戶名稱公開點名或 @ 某人」是「social-media mention」的用法，與本句語境不同。",
-        "mention-mcq-11": "「提醒讀者某項內容在較早位置已經提過」是「as mentioned earlier/above」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。"
+        "mention-mcq-09": "本句的「Don’t mention it.」指「表示對方不必特別感謝或介意；不用客氣」。",
+        "mention-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-09"
     },
@@ -889,11 +807,9 @@ export default {
       "masked": "____",
       "options": [
         "mention-mcq-09",
-        "mention-mcq-08",
-        "mention-mcq-10",
-        "mention-mcq-07",
+        "mention-pdf-001",
         "mention-mcq-11",
-        "mention-mcq-06"
+        "mention-mcq-05"
       ],
       "explanation": "本句的「Don’t mention it.」指「表示對方不必特別感謝或介意；不用客氣」。",
       "sentenceIndex": 18,
@@ -902,12 +818,10 @@ export default {
         "Don’t mention it."
       ],
       "optionReasons": {
-        "mention-mcq-09": "本句指「表示對方不必特別感謝或介意；不用客氣」。",
-        "mention-mcq-08": "「在已有內容之外，再補充一項同樣甚至更值得注意的事情」是「not to mention」的用法，與本句語境不同。",
-        "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
-        "mention-mcq-07": "「在社交平台中使用帳戶名稱公開點名或 @ 某人」是「social-media mention」的用法，與本句語境不同。",
-        "mention-mcq-11": "「提醒讀者某項內容在較早位置已經提過」是「as mentioned earlier/above」的用法，與本句語境不同。",
-        "mention-mcq-06": "「某人、品牌或事物在媒體內容中被點名／簡短報道」是「media mention」的用法，與本句語境不同。"
+        "mention-mcq-09": "本句的「Don’t mention it.」指「表示對方不必特別感謝或介意；不用客氣」。",
+        "mention-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-09"
     },
@@ -919,11 +833,9 @@ export default {
       "masked": "One feature ____ is the long battery life.",
       "options": [
         "mention-mcq-10",
-        "mention-mcq-09",
-        "mention-mcq-11",
-        "mention-mcq-08",
-        "mention-mcq-12",
-        "mention-mcq-07"
+        "mention-mcq-13",
+        "mention-mcq-14",
+        "mention-mcq-03"
       ],
       "explanation": "本句的「worth mentioning」指「重要或有趣到值得特別指出」。",
       "sentenceIndex": 19,
@@ -932,12 +844,10 @@ export default {
         "worth mentioning"
       ],
       "optionReasons": {
-        "mention-mcq-10": "本句指「重要或有趣到值得特別指出」。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。",
-        "mention-mcq-11": "「提醒讀者某項內容在較早位置已經提過」是「as mentioned earlier/above」的用法，與本句語境不同。",
-        "mention-mcq-08": "「在已有內容之外，再補充一項同樣甚至更值得注意的事情」是「not to mention」的用法，與本句語境不同。",
-        "mention-mcq-12": "「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」是「honourable mention」的用法，與本句語境不同。",
-        "mention-mcq-07": "「在社交平台中使用帳戶名稱公開點名或 @ 某人」是「social-media mention」的用法，與本句語境不同。"
+        "mention-mcq-10": "本句的「worth mentioning」指「重要或有趣到值得特別指出」。",
+        "mention-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-10"
     },
@@ -949,11 +859,9 @@ export default {
       "masked": "It is also ____ that the headphones are very light.",
       "options": [
         "mention-mcq-10",
-        "mention-mcq-09",
-        "mention-mcq-11",
-        "mention-mcq-08",
-        "mention-mcq-12",
-        "mention-mcq-07"
+        "mention-mcq-14",
+        "mention-mcq-13",
+        "mention-mcq-02"
       ],
       "explanation": "本句的「worth mentioning」指「重要或有趣到值得特別指出」。",
       "sentenceIndex": 20,
@@ -962,12 +870,10 @@ export default {
         "worth mentioning"
       ],
       "optionReasons": {
-        "mention-mcq-10": "本句指「重要或有趣到值得特別指出」。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。",
-        "mention-mcq-11": "「提醒讀者某項內容在較早位置已經提過」是「as mentioned earlier/above」的用法，與本句語境不同。",
-        "mention-mcq-08": "「在已有內容之外，再補充一項同樣甚至更值得注意的事情」是「not to mention」的用法，與本句語境不同。",
-        "mention-mcq-12": "「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」是「honourable mention」的用法，與本句語境不同。",
-        "mention-mcq-07": "「在社交平台中使用帳戶名稱公開點名或 @ 某人」是「social-media mention」的用法，與本句語境不同。"
+        "mention-mcq-10": "本句的「worth mentioning」指「重要或有趣到值得特別指出」。",
+        "mention-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-10"
     },
@@ -980,10 +886,8 @@ export default {
       "options": [
         "mention-mcq-11",
         "mention-mcq-10",
-        "mention-mcq-12",
-        "mention-mcq-09",
-        "mention-mcq-13",
-        "mention-mcq-08"
+        "mention-mcq-07",
+        "mention-mcq-03"
       ],
       "explanation": "本句的「As mentioned earlier」指「提醒讀者某項內容在較早位置已經提過」。",
       "sentenceIndex": 21,
@@ -992,12 +896,10 @@ export default {
         "As mentioned earlier"
       ],
       "optionReasons": {
-        "mention-mcq-11": "本句指「提醒讀者某項內容在較早位置已經提過」。",
-        "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
-        "mention-mcq-12": "「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」是「honourable mention」的用法，與本句語境不同。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。",
-        "mention-mcq-13": "「因尷尬、禁忌或冒犯性而不適合公開談論的」是「unmentionable」的用法，與本句語境不同。",
-        "mention-mcq-08": "「在已有內容之外，再補充一項同樣甚至更值得注意的事情」是「not to mention」的用法，與本句語境不同。"
+        "mention-mcq-11": "本句的「As mentioned earlier」指「提醒讀者某項內容在較早位置已經提過」。",
+        "mention-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-11"
     },
@@ -1010,10 +912,8 @@ export default {
       "options": [
         "mention-mcq-11",
         "mention-mcq-10",
-        "mention-mcq-12",
-        "mention-mcq-09",
-        "mention-mcq-13",
-        "mention-mcq-08"
+        "mention-mcq-07",
+        "mention-mcq-03"
       ],
       "explanation": "本句的「As mentioned above」指「提醒讀者某項內容在較早位置已經提過」。",
       "sentenceIndex": 22,
@@ -1022,12 +922,10 @@ export default {
         "As mentioned above"
       ],
       "optionReasons": {
-        "mention-mcq-11": "本句指「提醒讀者某項內容在較早位置已經提過」。",
-        "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
-        "mention-mcq-12": "「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」是「honourable mention」的用法，與本句語境不同。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。",
-        "mention-mcq-13": "「因尷尬、禁忌或冒犯性而不適合公開談論的」是「unmentionable」的用法，與本句語境不同。",
-        "mention-mcq-08": "「在已有內容之外，再補充一項同樣甚至更值得注意的事情」是「not to mention」的用法，與本句語境不同。"
+        "mention-mcq-11": "本句的「As mentioned above」指「提醒讀者某項內容在較早位置已經提過」。",
+        "mention-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-11"
     },
@@ -1039,11 +937,8 @@ export default {
       "masked": "Her photograph received an ____.",
       "options": [
         "mention-mcq-12",
-        "mention-mcq-11",
-        "mention-mcq-13",
-        "mention-mcq-10",
-        "mention-mcq-14",
-        "mention-mcq-09"
+        "mention-mcq-06",
+        "mention-mcq-13"
       ],
       "explanation": "本句的「honourable mention」指「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」。",
       "sentenceIndex": 23,
@@ -1052,12 +947,9 @@ export default {
         "honourable mention"
       ],
       "optionReasons": {
-        "mention-mcq-12": "本句指「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」。",
-        "mention-mcq-11": "「提醒讀者某項內容在較早位置已經提過」是「as mentioned earlier/above」的用法，與本句語境不同。",
-        "mention-mcq-13": "「因尷尬、禁忌或冒犯性而不適合公開談論的」是「unmentionable」的用法，與本句語境不同。",
-        "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
-        "mention-mcq-14": "「在前面的文字或討論中已經提及的」是「aforementioned」的用法，與本句語境不同。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。"
+        "mention-mcq-12": "本句的「honourable mention」指「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」。",
+        "mention-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-12"
     },
@@ -1069,11 +961,9 @@ export default {
       "masked": "The judges gave two students an ____.",
       "options": [
         "mention-mcq-12",
-        "mention-mcq-11",
-        "mention-mcq-13",
-        "mention-mcq-10",
         "mention-mcq-14",
-        "mention-mcq-09"
+        "mention-pdf-001",
+        "mention-mcq-03"
       ],
       "explanation": "本句的「honourable mention」指「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」。",
       "sentenceIndex": 24,
@@ -1082,12 +972,10 @@ export default {
         "honourable mention"
       ],
       "optionReasons": {
-        "mention-mcq-12": "本句指「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」。",
-        "mention-mcq-11": "「提醒讀者某項內容在較早位置已經提過」是「as mentioned earlier/above」的用法，與本句語境不同。",
-        "mention-mcq-13": "「因尷尬、禁忌或冒犯性而不適合公開談論的」是「unmentionable」的用法，與本句語境不同。",
-        "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
-        "mention-mcq-14": "「在前面的文字或討論中已經提及的」是「aforementioned」的用法，與本句語境不同。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。"
+        "mention-mcq-12": "本句的「honourable mention」指「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」。",
+        "mention-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mention-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-12"
     },
@@ -1099,11 +987,9 @@ export default {
       "masked": "At the time, the subject was considered ____.",
       "options": [
         "mention-mcq-13",
-        "mention-mcq-12",
-        "mention-mcq-14",
         "mention-mcq-11",
-        "mention-mcq-10",
-        "mention-mcq-09"
+        "mention-mcq-09",
+        "mention-mcq-05"
       ],
       "explanation": "本句的「unmentionable」指「因尷尬、禁忌或冒犯性而不適合公開談論的」。",
       "sentenceIndex": 25,
@@ -1112,12 +998,10 @@ export default {
         "unmentionable"
       ],
       "optionReasons": {
-        "mention-mcq-13": "本句指「因尷尬、禁忌或冒犯性而不適合公開談論的」。",
-        "mention-mcq-12": "「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」是「honourable mention」的用法，與本句語境不同。",
-        "mention-mcq-14": "「在前面的文字或討論中已經提及的」是「aforementioned」的用法，與本句語境不同。",
-        "mention-mcq-11": "「提醒讀者某項內容在較早位置已經提過」是「as mentioned earlier/above」的用法，與本句語境不同。",
-        "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。"
+        "mention-mcq-13": "本句的「unmentionable」指「因尷尬、禁忌或冒犯性而不適合公開談論的」。",
+        "mention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-13"
     },
@@ -1129,10 +1013,8 @@ export default {
       "masked": "Certain personal matters remained ____ in the family.",
       "options": [
         "mention-mcq-13",
-        "mention-mcq-12",
-        "mention-mcq-14",
-        "mention-mcq-11",
-        "mention-mcq-10",
+        "mention-mcq-08",
+        "mention-mcq-02",
         "mention-mcq-09"
       ],
       "explanation": "本句的「unmentionable」指「因尷尬、禁忌或冒犯性而不適合公開談論的」。",
@@ -1142,12 +1024,10 @@ export default {
         "unmentionable"
       ],
       "optionReasons": {
-        "mention-mcq-13": "本句指「因尷尬、禁忌或冒犯性而不適合公開談論的」。",
-        "mention-mcq-12": "「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」是「honourable mention」的用法，與本句語境不同。",
-        "mention-mcq-14": "「在前面的文字或討論中已經提及的」是「aforementioned」的用法，與本句語境不同。",
-        "mention-mcq-11": "「提醒讀者某項內容在較早位置已經提過」是「as mentioned earlier/above」的用法，與本句語境不同。",
-        "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。"
+        "mention-mcq-13": "本句的「unmentionable」指「因尷尬、禁忌或冒犯性而不適合公開談論的」。",
+        "mention-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-13"
     },
@@ -1159,11 +1039,9 @@ export default {
       "masked": "The phrase ‘the ____’ was once used humorously for underwear.",
       "options": [
         "mention-pdf-001",
+        "mention-mcq-05",
         "mention-mcq-12",
-        "mention-mcq-14",
-        "mention-mcq-11",
-        "mention-mcq-10",
-        "mention-mcq-09"
+        "mention-mcq-08"
       ],
       "explanation": "本句的「unmentionables」指「較舊式或幽默地指被視為尷尬、不便公開點名的東西」。",
       "sentenceIndex": 27,
@@ -1172,12 +1050,10 @@ export default {
         "unmentionables"
       ],
       "optionReasons": {
-        "mention-pdf-001": "本句指「較舊式或幽默地指被視為尷尬、不便公開點名的東西」。",
-        "mention-mcq-12": "「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」是「honourable mention」的用法，與本句語境不同。",
-        "mention-mcq-14": "「在前面的文字或討論中已經提及的」是「aforementioned」的用法，與本句語境不同。",
-        "mention-mcq-11": "「提醒讀者某項內容在較早位置已經提過」是「as mentioned earlier/above」的用法，與本句語境不同。",
-        "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。"
+        "mention-pdf-001": "本句的「unmentionables」指「較舊式或幽默地指被視為尷尬、不便公開點名的東西」。",
+        "mention-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-pdf-001"
     },
@@ -1189,10 +1065,8 @@ export default {
       "masked": "Older novels sometimes refer jokingly to ‘the ____.’",
       "options": [
         "mention-pdf-001",
-        "mention-mcq-12",
+        "mention-mcq-02",
         "mention-mcq-14",
-        "mention-mcq-11",
-        "mention-mcq-10",
         "mention-mcq-09"
       ],
       "explanation": "本句的「unmentionables」指「較舊式或幽默地指被視為尷尬、不便公開點名的東西」。",
@@ -1202,12 +1076,10 @@ export default {
         "unmentionables"
       ],
       "optionReasons": {
-        "mention-pdf-001": "本句指「較舊式或幽默地指被視為尷尬、不便公開點名的東西」。",
-        "mention-mcq-12": "「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」是「honourable mention」的用法，與本句語境不同。",
-        "mention-mcq-14": "「在前面的文字或討論中已經提及的」是「aforementioned」的用法，與本句語境不同。",
-        "mention-mcq-11": "「提醒讀者某項內容在較早位置已經提過」是「as mentioned earlier/above」的用法，與本句語境不同。",
-        "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。"
+        "mention-pdf-001": "本句的「unmentionables」指「較舊式或幽默地指被視為尷尬、不便公開點名的東西」。",
+        "mention-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-pdf-001"
     },
@@ -1219,11 +1091,9 @@ export default {
       "masked": "The ____ features are included in the standard model.",
       "options": [
         "mention-mcq-14",
-        "mention-mcq-13",
-        "mention-mcq-12",
-        "mention-mcq-11",
-        "mention-mcq-10",
-        "mention-mcq-09"
+        "mention-mcq-07",
+        "mention-mcq-02",
+        "mention-mcq-12"
       ],
       "explanation": "本句的「aforementioned」指「在前面的文字或討論中已經提及的」。",
       "sentenceIndex": 29,
@@ -1232,12 +1102,10 @@ export default {
         "aforementioned"
       ],
       "optionReasons": {
-        "mention-mcq-14": "本句指「在前面的文字或討論中已經提及的」。",
-        "mention-mcq-13": "「因尷尬、禁忌或冒犯性而不適合公開談論的」是「unmentionable」的用法，與本句語境不同。",
-        "mention-mcq-12": "「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」是「honourable mention」的用法，與本句語境不同。",
-        "mention-mcq-11": "「提醒讀者某項內容在較早位置已經提過」是「as mentioned earlier/above」的用法，與本句語境不同。",
-        "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。"
+        "mention-mcq-14": "本句的「aforementioned」指「在前面的文字或討論中已經提及的」。",
+        "mention-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-14"
     },
@@ -1249,11 +1117,9 @@ export default {
       "masked": "The ____ problems must be addressed before launch.",
       "options": [
         "mention-mcq-14",
-        "mention-mcq-13",
-        "mention-mcq-12",
-        "mention-mcq-11",
         "mention-mcq-10",
-        "mention-mcq-09"
+        "mention-mcq-02",
+        "mention-pdf-001"
       ],
       "explanation": "本句的「aforementioned」指「在前面的文字或討論中已經提及的」。",
       "sentenceIndex": 30,
@@ -1262,12 +1128,10 @@ export default {
         "aforementioned"
       ],
       "optionReasons": {
-        "mention-mcq-14": "本句指「在前面的文字或討論中已經提及的」。",
-        "mention-mcq-13": "「因尷尬、禁忌或冒犯性而不適合公開談論的」是「unmentionable」的用法，與本句語境不同。",
-        "mention-mcq-12": "「未獲主要獎項，但因表現優秀而獲得的正式特別表揚」是「honourable mention」的用法，與本句語境不同。",
-        "mention-mcq-11": "「提醒讀者某項內容在較早位置已經提過」是「as mentioned earlier/above」的用法，與本句語境不同。",
-        "mention-mcq-10": "「重要或有趣到值得特別指出」是「worth mentioning」的用法，與本句語境不同。",
-        "mention-mcq-09": "「表示對方不必特別感謝或介意；不用客氣」是「don't mention it」的用法，與本句語境不同。"
+        "mention-mcq-14": "本句的「aforementioned」指「在前面的文字或討論中已經提及的」。",
+        "mention-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mention-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mention-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mention-mcq-14"
     }
@@ -1279,5 +1143,7 @@ export default {
     "sha256": "6269dcbc23460f88def5e5b9e5c0de8a813bc4a6f38bc83cb404d63ae41b950a",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

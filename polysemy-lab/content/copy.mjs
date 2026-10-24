@@ -515,7 +515,7 @@ export default {
     },
     {
       "id": "copy-mcq-20",
-      "title": "表示模仿；照搬；仿效",
+      "title": "模仿；照搬；仿效",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示模仿；照搬；仿效",
@@ -537,7 +537,7 @@ export default {
     },
     {
       "id": "copy-mcq-21",
-      "title": "表示複製到剪貼簿",
+      "title": "複製到剪貼簿",
       "form": "7. copy to clipboard",
       "en": "7. copy to clipboard",
       "zh": "表示複製到剪貼簿",
@@ -559,7 +559,7 @@ export default {
     },
     {
       "id": "copy-mcq-22",
-      "title": "表示仿製的；抄襲的",
+      "title": "仿製的；抄襲的",
       "form": "16. copied design / copied style",
       "en": "16. copied design / copied style",
       "zh": "表示仿製的；抄襲的",
@@ -581,7 +581,7 @@ export default {
     },
     {
       "id": "copy-mcq-23",
-      "title": "表示一本；一份；一冊",
+      "title": "一本；一份；一冊",
       "form": "21. a copy — one individual example of a book, magazine, newspaper, etc.",
       "en": "21. a copy — one individual example of a book, magazine, newspaper, etc.",
       "zh": "表示一本；一份；一冊",
@@ -603,7 +603,7 @@ export default {
     },
     {
       "id": "copy-mcq-24",
-      "title": "表示副本；複本",
+      "title": "副本；複本",
       "form": "29. copy — duplicate data or object",
       "en": "29. copy — duplicate data or object",
       "zh": "表示副本；複本",
@@ -625,7 +625,7 @@ export default {
     },
     {
       "id": "copy-mcq-25",
-      "title": "表示拷貝；副本",
+      "title": "拷貝；副本",
       "form": "30. copy — one instance of a gene or genetic sequence",
       "en": "30. copy — one instance of a gene or genetic sequence",
       "zh": "表示拷貝；副本",
@@ -647,7 +647,7 @@ export default {
     },
     {
       "id": "copy-mcq-26",
-      "title": "表示保留副本",
+      "title": "保留副本",
       "form": "32. keep a copy",
       "en": "32. keep a copy",
       "zh": "表示保留副本",
@@ -669,7 +669,7 @@ export default {
     },
     {
       "id": "copy-mcq-27",
-      "title": "表示複製；抄寫；模仿",
+      "title": "複製；抄寫；模仿",
       "form": "36. copying",
       "en": "36. copying",
       "zh": "表示複製；抄寫；模仿",
@@ -691,7 +691,7 @@ export default {
     },
     {
       "id": "copy-mcq-28",
-      "title": "表示影印機；複印機",
+      "title": "影印機；複印機",
       "form": "37. copier",
       "en": "37. copier",
       "zh": "表示影印機；複印機",
@@ -713,7 +713,7 @@ export default {
     },
     {
       "id": "copy-mcq-29",
-      "title": "表示影印",
+      "title": "影印",
       "form": "Verb",
       "en": "Verb",
       "zh": "表示影印",
@@ -743,11 +743,9 @@ export default {
       "masked": "It is fine to learn from successful people, but you should not simply ____.",
       "options": [
         "copy-mcq-20",
-        "copy-mcq-19",
-        "copy-mcq-21",
-        "copy-mcq-18",
-        "copy-mcq-22",
-        "copy-mcq-17"
+        "copy-mcq-12",
+        "copy-mcq-24",
+        "copy-mcq-15"
       ],
       "explanation": "本句的「copy them」指「表示模仿；照搬；仿效」。",
       "sentenceIndex": 0,
@@ -756,12 +754,10 @@ export default {
         "copy them"
       ],
       "optionReasons": {
-        "copy-mcq-20": "本句指「表示模仿；照搬；仿效」。",
-        "copy-mcq-19": "「撰寫廣告、行銷或宣傳文字的工作／技巧」是「copywriting」的用法，與本句語境不同。",
-        "copy-mcq-21": "「表示複製到剪貼簿」是「7. copy to clipboard」的用法，與本句語境不同。",
-        "copy-mcq-18": "「專門撰寫廣告或行銷文案的人」是「copywriter」的用法，與本句語境不同。",
-        "copy-mcq-22": "「表示仿製的；抄襲的」是「16. copied design / copied style」的用法，與本句語境不同。",
-        "copy-mcq-17": "「仿照先前行為、產品或事件而出現的；模仿性的」是「copycat — adjective」的用法，與本句語境不同。"
+        "copy-mcq-20": "本句的「copy them」指「表示模仿；照搬；仿效」。",
+        "copy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-20"
     },
@@ -773,11 +769,9 @@ export default {
       "masked": "Good mentors inspire you to grow rather than encouraging you to ____ their style completely.",
       "options": [
         "copy-mcq-20",
-        "copy-mcq-19",
-        "copy-mcq-21",
         "copy-mcq-18",
-        "copy-mcq-22",
-        "copy-mcq-17"
+        "copy-mcq-21",
+        "copy-mcq-25"
       ],
       "explanation": "本句的「copy」指「表示模仿；照搬；仿效」。",
       "sentenceIndex": 1,
@@ -786,12 +780,10 @@ export default {
         "copy"
       ],
       "optionReasons": {
-        "copy-mcq-20": "本句指「表示模仿；照搬；仿效」。",
-        "copy-mcq-19": "「撰寫廣告、行銷或宣傳文字的工作／技巧」是「copywriting」的用法，與本句語境不同。",
-        "copy-mcq-21": "「表示複製到剪貼簿」是「7. copy to clipboard」的用法，與本句語境不同。",
-        "copy-mcq-18": "「專門撰寫廣告或行銷文案的人」是「copywriter」的用法，與本句語境不同。",
-        "copy-mcq-22": "「表示仿製的；抄襲的」是「16. copied design / copied style」的用法，與本句語境不同。",
-        "copy-mcq-17": "「仿照先前行為、產品或事件而出現的；模仿性的」是「copycat — adjective」的用法，與本句語境不同。"
+        "copy-mcq-20": "本句的「copy」指「表示模仿；照搬；仿效」。",
+        "copy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-20"
     },
@@ -803,11 +795,9 @@ export default {
       "masked": "She ____ before returning it.",
       "options": [
         "copy-mcq-01",
-        "copy-mcq-02",
-        "copy-mcq-03",
-        "copy-mcq-04",
-        "copy-mcq-05",
-        "copy-mcq-06"
+        "copy-mcq-13",
+        "copy-mcq-15",
+        "copy-mcq-29"
       ],
       "explanation": "本句的「copied the document」指「依照原物製作另一份相同或高度相似的版本；複製／仿製」。",
       "sentenceIndex": 2,
@@ -816,12 +806,10 @@ export default {
         "copied the document"
       ],
       "optionReasons": {
-        "copy-mcq-01": "本句指「依照原物製作另一份相同或高度相似的版本；複製／仿製」。",
-        "copy-mcq-02": "「把已有的文字或資料重新寫出或複製下來；抄寫／複製」是「copy text/information」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。"
+        "copy-mcq-01": "本句的「copied the document」指「依照原物製作另一份相同或高度相似的版本；複製／仿製」。",
+        "copy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-01"
     },
@@ -833,11 +821,9 @@ export default {
       "masked": "The design was ____ from an older model.",
       "options": [
         "copy-mcq-01",
-        "copy-mcq-02",
-        "copy-mcq-03",
-        "copy-mcq-04",
-        "copy-mcq-05",
-        "copy-mcq-06"
+        "copy-mcq-29",
+        "copy-mcq-18",
+        "copy-mcq-15"
       ],
       "explanation": "本句的「copied」指「依照原物製作另一份相同或高度相似的版本；複製／仿製」。",
       "sentenceIndex": 3,
@@ -846,12 +832,10 @@ export default {
         "copied"
       ],
       "optionReasons": {
-        "copy-mcq-01": "本句指「依照原物製作另一份相同或高度相似的版本；複製／仿製」。",
-        "copy-mcq-02": "「把已有的文字或資料重新寫出或複製下來；抄寫／複製」是「copy text/information」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。"
+        "copy-mcq-01": "本句的「copied」指「依照原物製作另一份相同或高度相似的版本；複製／仿製」。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-01"
     },
@@ -863,11 +847,9 @@ export default {
       "masked": "Please ____ into your notebook.",
       "options": [
         "copy-mcq-02",
-        "copy-mcq-01",
-        "copy-mcq-03",
-        "copy-mcq-04",
-        "copy-mcq-05",
-        "copy-mcq-06"
+        "copy-mcq-23",
+        "copy-mcq-15",
+        "copy-mcq-05"
       ],
       "explanation": "本句的「copy the sentence」指「把已有的文字或資料重新寫出或複製下來；抄寫／複製」。",
       "sentenceIndex": 4,
@@ -876,12 +858,10 @@ export default {
         "copy the sentence"
       ],
       "optionReasons": {
-        "copy-mcq-02": "本句指「把已有的文字或資料重新寫出或複製下來；抄寫／複製」。",
-        "copy-mcq-01": "「依照原物製作另一份相同或高度相似的版本；複製／仿製」是「copy something — reproduce」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。"
+        "copy-mcq-02": "本句的「copy the sentence」指「把已有的文字或資料重新寫出或複製下來；抄寫／複製」。",
+        "copy-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-02"
     },
@@ -893,11 +873,9 @@ export default {
       "masked": "He ____ onto a piece of paper.",
       "options": [
         "copy-mcq-02",
-        "copy-mcq-01",
-        "copy-mcq-03",
-        "copy-mcq-04",
-        "copy-mcq-05",
-        "copy-mcq-06"
+        "copy-mcq-26",
+        "copy-mcq-20",
+        "copy-mcq-09"
       ],
       "explanation": "本句的「copied the address」指「把已有的文字或資料重新寫出或複製下來；抄寫／複製」。",
       "sentenceIndex": 5,
@@ -906,12 +884,10 @@ export default {
         "copied the address"
       ],
       "optionReasons": {
-        "copy-mcq-02": "本句指「把已有的文字或資料重新寫出或複製下來；抄寫／複製」。",
-        "copy-mcq-01": "「依照原物製作另一份相同或高度相似的版本；複製／仿製」是「copy something — reproduce」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。"
+        "copy-mcq-02": "本句的「copied the address」指「把已有的文字或資料重新寫出或複製下來；抄寫／複製」。",
+        "copy-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-02"
     },
@@ -923,11 +899,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "copy-mcq-02",
-        "copy-mcq-01",
-        "copy-mcq-03",
-        "copy-mcq-04",
-        "copy-mcq-05",
-        "copy-mcq-06"
+        "copy-mcq-26",
+        "copy-mcq-29",
+        "copy-mcq-20"
       ],
       "explanation": "本句的「copied the quotation from the book」指「把已有的文字或資料重新寫出或複製下來；抄寫／複製」。",
       "sentenceIndex": 6,
@@ -936,12 +910,10 @@ export default {
         "copied the quotation from the book"
       ],
       "optionReasons": {
-        "copy-mcq-02": "本句指「把已有的文字或資料重新寫出或複製下來；抄寫／複製」。",
-        "copy-mcq-01": "「依照原物製作另一份相同或高度相似的版本；複製／仿製」是「copy something — reproduce」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。"
+        "copy-mcq-02": "本句的「copied the quotation from the book」指「把已有的文字或資料重新寫出或複製下來；抄寫／複製」。",
+        "copy-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-02"
     },
@@ -953,11 +925,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "copy-mcq-02",
-        "copy-mcq-01",
-        "copy-mcq-03",
-        "copy-mcq-04",
-        "copy-mcq-05",
-        "copy-mcq-06"
+        "copy-mcq-16",
+        "copy-mcq-25",
+        "copy-mcq-29"
       ],
       "explanation": "本句的「copied the data from the spreadsheet」指「把已有的文字或資料重新寫出或複製下來；抄寫／複製」。",
       "sentenceIndex": 7,
@@ -966,12 +936,10 @@ export default {
         "copied the data from the spreadsheet"
       ],
       "optionReasons": {
-        "copy-mcq-02": "本句指「把已有的文字或資料重新寫出或複製下來；抄寫／複製」。",
-        "copy-mcq-01": "「依照原物製作另一份相同或高度相似的版本；複製／仿製」是「copy something — reproduce」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。"
+        "copy-mcq-02": "本句的「copied the data from the spreadsheet」指「把已有的文字或資料重新寫出或複製下來；抄寫／複製」。",
+        "copy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-02"
     },
@@ -983,11 +951,9 @@ export default {
       "masked": "____ to another folder.",
       "options": [
         "copy-mcq-03",
-        "copy-mcq-02",
-        "copy-mcq-04",
-        "copy-mcq-01",
-        "copy-mcq-05",
-        "copy-mcq-06"
+        "copy-mcq-29",
+        "copy-mcq-16",
+        "copy-mcq-19"
       ],
       "explanation": "本句的「Copy the file」指「建立相同的數位副本；複製檔案／圖片」。",
       "sentenceIndex": 8,
@@ -996,12 +962,10 @@ export default {
         "Copy the file"
       ],
       "optionReasons": {
-        "copy-mcq-03": "本句指「建立相同的數位副本；複製檔案／圖片」。",
-        "copy-mcq-02": "「把已有的文字或資料重新寫出或複製下來；抄寫／複製」是「copy text/information」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-01": "「依照原物製作另一份相同或高度相似的版本；複製／仿製」是「copy something — reproduce」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。"
+        "copy-mcq-03": "本句的「Copy the file」指「建立相同的數位副本；複製檔案／圖片」。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-03"
     },
@@ -1013,11 +977,9 @@ export default {
       "masked": "I ____ onto an external drive.",
       "options": [
         "copy-mcq-03",
-        "copy-mcq-02",
-        "copy-mcq-04",
-        "copy-mcq-01",
+        "copy-mcq-29",
         "copy-mcq-05",
-        "copy-mcq-06"
+        "copy-mcq-17"
       ],
       "explanation": "本句的「copied the photos」指「建立相同的數位副本；複製檔案／圖片」。",
       "sentenceIndex": 9,
@@ -1026,12 +988,10 @@ export default {
         "copied the photos"
       ],
       "optionReasons": {
-        "copy-mcq-03": "本句指「建立相同的數位副本；複製檔案／圖片」。",
-        "copy-mcq-02": "「把已有的文字或資料重新寫出或複製下來；抄寫／複製」是「copy text/information」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-01": "「依照原物製作另一份相同或高度相似的版本；複製／仿製」是「copy something — reproduce」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。"
+        "copy-mcq-03": "本句的「copied the photos」指「建立相同的數位副本；複製檔案／圖片」。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-03"
     },
@@ -1043,11 +1003,9 @@ export default {
       "masked": "You can ____ the link.",
       "options": [
         "copy-mcq-03",
-        "copy-mcq-02",
-        "copy-mcq-04",
-        "copy-mcq-01",
+        "copy-mcq-15",
         "copy-mcq-05",
-        "copy-mcq-06"
+        "copy-mcq-29"
       ],
       "explanation": "本句的「copy and paste」指「建立相同的數位副本；複製檔案／圖片」。",
       "sentenceIndex": 10,
@@ -1056,12 +1014,10 @@ export default {
         "copy and paste"
       ],
       "optionReasons": {
-        "copy-mcq-03": "本句指「建立相同的數位副本；複製檔案／圖片」。",
-        "copy-mcq-02": "「把已有的文字或資料重新寫出或複製下來；抄寫／複製」是「copy text/information」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-01": "「依照原物製作另一份相同或高度相似的版本；複製／仿製」是「copy something — reproduce」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。"
+        "copy-mcq-03": "本句的「copy and paste」指「建立相同的數位副本；複製檔案／圖片」。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-03"
     },
@@ -1073,11 +1029,9 @@ export default {
       "masked": "She ____ the paragraph into the document.",
       "options": [
         "copy-mcq-03",
-        "copy-mcq-02",
-        "copy-mcq-04",
-        "copy-mcq-01",
-        "copy-mcq-05",
-        "copy-mcq-06"
+        "copy-mcq-16",
+        "copy-mcq-14",
+        "copy-mcq-29"
       ],
       "explanation": "本句的「copied and pasted」指「建立相同的數位副本；複製檔案／圖片」。",
       "sentenceIndex": 11,
@@ -1086,12 +1040,10 @@ export default {
         "copied and pasted"
       ],
       "optionReasons": {
-        "copy-mcq-03": "本句指「建立相同的數位副本；複製檔案／圖片」。",
-        "copy-mcq-02": "「把已有的文字或資料重新寫出或複製下來；抄寫／複製」是「copy text/information」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-01": "「依照原物製作另一份相同或高度相似的版本；複製／仿製」是「copy something — reproduce」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。"
+        "copy-mcq-03": "本句的「copied and pasted」指「建立相同的數位副本；複製檔案／圖片」。",
+        "copy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-03"
     },
@@ -1103,11 +1055,9 @@ export default {
       "masked": "The text has been ____.",
       "options": [
         "copy-mcq-21",
-        "copy-mcq-20",
-        "copy-mcq-22",
-        "copy-mcq-19",
-        "copy-mcq-23",
-        "copy-mcq-18"
+        "copy-mcq-12",
+        "copy-mcq-05",
+        "copy-mcq-23"
       ],
       "explanation": "本句的「copied to the clipboard」指「表示複製到剪貼簿」。",
       "sentenceIndex": 12,
@@ -1116,12 +1066,10 @@ export default {
         "copied to the clipboard"
       ],
       "optionReasons": {
-        "copy-mcq-21": "本句指「表示複製到剪貼簿」。",
-        "copy-mcq-20": "「表示模仿；照搬；仿效」是「Passage meaning」的用法，與本句語境不同。",
-        "copy-mcq-22": "「表示仿製的；抄襲的」是「16. copied design / copied style」的用法，與本句語境不同。",
-        "copy-mcq-19": "「撰寫廣告、行銷或宣傳文字的工作／技巧」是「copywriting」的用法，與本句語境不同。",
-        "copy-mcq-23": "「表示一本；一份；一冊」是「21. a copy — one individual example of a book, magazine, newspaper, etc.」的用法，與本句語境不同。",
-        "copy-mcq-18": "「專門撰寫廣告或行銷文案的人」是「copywriter」的用法，與本句語境不同。"
+        "copy-mcq-21": "本句的「copied to the clipboard」指「表示複製到剪貼簿」。",
+        "copy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-21"
     },
@@ -1133,11 +1081,9 @@ export default {
       "masked": "Click the icon to ____.",
       "options": [
         "copy-mcq-21",
-        "copy-mcq-20",
-        "copy-mcq-22",
-        "copy-mcq-19",
-        "copy-mcq-23",
-        "copy-mcq-18"
+        "copy-mcq-05",
+        "copy-mcq-09",
+        "copy-mcq-13"
       ],
       "explanation": "本句的「copy the address」指「表示複製到剪貼簿」。",
       "sentenceIndex": 13,
@@ -1146,12 +1092,10 @@ export default {
         "copy the address"
       ],
       "optionReasons": {
-        "copy-mcq-21": "本句指「表示複製到剪貼簿」。",
-        "copy-mcq-20": "「表示模仿；照搬；仿效」是「Passage meaning」的用法，與本句語境不同。",
-        "copy-mcq-22": "「表示仿製的；抄襲的」是「16. copied design / copied style」的用法，與本句語境不同。",
-        "copy-mcq-19": "「撰寫廣告、行銷或宣傳文字的工作／技巧」是「copywriting」的用法，與本句語境不同。",
-        "copy-mcq-23": "「表示一本；一份；一冊」是「21. a copy — one individual example of a book, magazine, newspaper, etc.」的用法，與本句語境不同。",
-        "copy-mcq-18": "「專門撰寫廣告或行銷文案的人」是「copywriter」的用法，與本句語境不同。"
+        "copy-mcq-21": "本句的「copy the address」指「表示複製到剪貼簿」。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-21"
     },
@@ -1163,11 +1107,9 @@ export default {
       "masked": "Young children often ____.",
       "options": [
         "copy-mcq-04",
-        "copy-mcq-03",
-        "copy-mcq-05",
-        "copy-mcq-02",
-        "copy-mcq-06",
-        "copy-mcq-01"
+        "copy-mcq-28",
+        "copy-mcq-08",
+        "copy-mcq-14"
       ],
       "explanation": "本句的「copy adults」指「模仿某人的行為、方式、風格或特徵」。",
       "sentenceIndex": 14,
@@ -1176,12 +1118,10 @@ export default {
         "copy adults"
       ],
       "optionReasons": {
-        "copy-mcq-04": "本句指「模仿某人的行為、方式、風格或特徵」。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-02": "「把已有的文字或資料重新寫出或複製下來；抄寫／複製」是「copy text/information」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。",
-        "copy-mcq-01": "「依照原物製作另一份相同或高度相似的版本；複製／仿製」是「copy something — reproduce」的用法，與本句語境不同。"
+        "copy-mcq-04": "本句的「copy adults」指「模仿某人的行為、方式、風格或特徵」。",
+        "copy-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-04"
     },
@@ -1193,11 +1133,9 @@ export default {
       "masked": "He started ____.",
       "options": [
         "copy-mcq-04",
-        "copy-mcq-03",
-        "copy-mcq-05",
-        "copy-mcq-02",
-        "copy-mcq-06",
-        "copy-mcq-01"
+        "copy-mcq-14",
+        "copy-mcq-11",
+        "copy-mcq-15"
       ],
       "explanation": "本句的「copying his older brother’s mannerisms」指「模仿某人的行為、方式、風格或特徵」。",
       "sentenceIndex": 15,
@@ -1206,12 +1144,10 @@ export default {
         "copying his older brother’s mannerisms"
       ],
       "optionReasons": {
-        "copy-mcq-04": "本句指「模仿某人的行為、方式、風格或特徵」。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-02": "「把已有的文字或資料重新寫出或複製下來；抄寫／複製」是「copy text/information」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。",
-        "copy-mcq-01": "「依照原物製作另一份相同或高度相似的版本；複製／仿製」是「copy something — reproduce」的用法，與本句語境不同。"
+        "copy-mcq-04": "本句的「copying his older brother’s mannerisms」指「模仿某人的行為、方式、風格或特徵」。",
+        "copy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-04"
     },
@@ -1223,11 +1159,9 @@ export default {
       "masked": "She developed her own style instead of ____.",
       "options": [
         "copy-mcq-04",
-        "copy-mcq-03",
-        "copy-mcq-05",
-        "copy-mcq-02",
-        "copy-mcq-06",
-        "copy-mcq-01"
+        "copy-mcq-21",
+        "copy-mcq-13",
+        "copy-mcq-09"
       ],
       "explanation": "本句的「copying other artists」指「模仿某人的行為、方式、風格或特徵」。",
       "sentenceIndex": 16,
@@ -1236,12 +1170,10 @@ export default {
         "copying other artists"
       ],
       "optionReasons": {
-        "copy-mcq-04": "本句指「模仿某人的行為、方式、風格或特徵」。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-02": "「把已有的文字或資料重新寫出或複製下來；抄寫／複製」是「copy text/information」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。",
-        "copy-mcq-01": "「依照原物製作另一份相同或高度相似的版本；複製／仿製」是「copy something — reproduce」的用法，與本句語境不同。"
+        "copy-mcq-04": "本句的「copying other artists」指「模仿某人的行為、方式、風格或特徵」。",
+        "copy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-04"
     },
@@ -1253,11 +1185,9 @@ export default {
       "masked": "The brand was accused of ____.",
       "options": [
         "copy-mcq-04",
-        "copy-mcq-03",
-        "copy-mcq-05",
-        "copy-mcq-02",
-        "copy-mcq-06",
-        "copy-mcq-01"
+        "copy-mcq-15",
+        "copy-mcq-29",
+        "copy-mcq-14"
       ],
       "explanation": "本句的「copying a competitor’s design style」指「模仿某人的行為、方式、風格或特徵」。",
       "sentenceIndex": 17,
@@ -1266,12 +1196,10 @@ export default {
         "copying a competitor’s design style"
       ],
       "optionReasons": {
-        "copy-mcq-04": "本句指「模仿某人的行為、方式、風格或特徵」。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-02": "「把已有的文字或資料重新寫出或複製下來；抄寫／複製」是「copy text/information」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。",
-        "copy-mcq-01": "「依照原物製作另一份相同或高度相似的版本；複製／仿製」是「copy something — reproduce」的用法，與本句語境不同。"
+        "copy-mcq-04": "本句的「copying a competitor’s design style」指「模仿某人的行為、方式、風格或特徵」。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-04"
     },
@@ -1283,11 +1211,9 @@ export default {
       "masked": "Watch me first, then ____.",
       "options": [
         "copy-mcq-05",
-        "copy-mcq-04",
-        "copy-mcq-06",
-        "copy-mcq-03",
-        "copy-mcq-07",
-        "copy-mcq-02"
+        "copy-mcq-19",
+        "copy-mcq-08",
+        "copy-mcq-29"
       ],
       "explanation": "本句的「copy what I do」指「過度或完全照搬某人的做法、風格或生活方式」。",
       "sentenceIndex": 18,
@@ -1296,12 +1222,10 @@ export default {
         "copy what I do"
       ],
       "optionReasons": {
-        "copy-mcq-05": "本句指「過度或完全照搬某人的做法、風格或生活方式」。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-02": "「把已有的文字或資料重新寫出或複製下來；抄寫／複製」是「copy text/information」的用法，與本句語境不同。"
+        "copy-mcq-05": "本句的「copy what I do」指「過度或完全照搬某人的做法、風格或生活方式」。",
+        "copy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-05"
     },
@@ -1313,11 +1237,9 @@ export default {
       "masked": "The child ____.",
       "options": [
         "copy-mcq-05",
-        "copy-mcq-04",
-        "copy-mcq-06",
+        "copy-mcq-22",
         "copy-mcq-03",
-        "copy-mcq-07",
-        "copy-mcq-02"
+        "copy-mcq-29"
       ],
       "explanation": "本句的「copied everything his sister did」指「過度或完全照搬某人的做法、風格或生活方式」。",
       "sentenceIndex": 19,
@@ -1326,12 +1248,10 @@ export default {
         "copied everything his sister did"
       ],
       "optionReasons": {
-        "copy-mcq-05": "本句指「過度或完全照搬某人的做法、風格或生活方式」。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-02": "「把已有的文字或資料重新寫出或複製下來；抄寫／複製」是「copy text/information」的用法，與本句語境不同。"
+        "copy-mcq-05": "本句的「copied everything his sister did」指「過度或完全照搬某人的做法、風格或生活方式」。",
+        "copy-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-05"
     },
@@ -1343,11 +1263,9 @@ export default {
       "masked": "You can admire someone without ____.",
       "options": [
         "copy-mcq-05",
-        "copy-mcq-04",
-        "copy-mcq-06",
         "copy-mcq-03",
-        "copy-mcq-07",
-        "copy-mcq-02"
+        "copy-mcq-09",
+        "copy-mcq-15"
       ],
       "explanation": "本句的「copying them completely」指「過度或完全照搬某人的做法、風格或生活方式」。",
       "sentenceIndex": 20,
@@ -1356,12 +1274,10 @@ export default {
         "copying them completely"
       ],
       "optionReasons": {
-        "copy-mcq-05": "本句指「過度或完全照搬某人的做法、風格或生活方式」。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-02": "「把已有的文字或資料重新寫出或複製下來；抄寫／複製」是「copy text/information」的用法，與本句語境不同。"
+        "copy-mcq-05": "本句的「copying them completely」指「過度或完全照搬某人的做法、風格或生活方式」。",
+        "copy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-05"
     },
@@ -1373,11 +1289,9 @@ export default {
       "masked": "Students should learn from strong writers rather than ____.",
       "options": [
         "copy-mcq-05",
-        "copy-mcq-04",
-        "copy-mcq-06",
-        "copy-mcq-03",
-        "copy-mcq-07",
-        "copy-mcq-02"
+        "copy-mcq-21",
+        "copy-mcq-18",
+        "copy-mcq-23"
       ],
       "explanation": "本句的「copying them completely」指「過度或完全照搬某人的做法、風格或生活方式」。",
       "sentenceIndex": 21,
@@ -1386,12 +1300,10 @@ export default {
         "copying them completely"
       ],
       "optionReasons": {
-        "copy-mcq-05": "本句指「過度或完全照搬某人的做法、風格或生活方式」。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-02": "「把已有的文字或資料重新寫出或複製下來；抄寫／複製」是「copy text/information」的用法，與本句語境不同。"
+        "copy-mcq-05": "本句的「copying them completely」指「過度或完全照搬某人的做法、風格或生活方式」。",
+        "copy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-05"
     },
@@ -1403,11 +1315,9 @@ export default {
       "masked": "He was caught ____.",
       "options": [
         "copy-mcq-06",
-        "copy-mcq-05",
-        "copy-mcq-07",
-        "copy-mcq-04",
-        "copy-mcq-08",
-        "copy-mcq-03"
+        "copy-mcq-24",
+        "copy-mcq-15",
+        "copy-mcq-19"
       ],
       "explanation": "本句的「copying another student’s answers」指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
       "sentenceIndex": 22,
@@ -1416,12 +1326,10 @@ export default {
         "copying another student’s answers"
       ],
       "optionReasons": {
-        "copy-mcq-06": "本句指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。"
+        "copy-mcq-06": "本句的「copying another student’s answers」指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
+        "copy-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-06"
     },
@@ -1433,11 +1341,9 @@ export default {
       "masked": "Students must not ____.",
       "options": [
         "copy-mcq-06",
-        "copy-mcq-05",
-        "copy-mcq-07",
-        "copy-mcq-04",
-        "copy-mcq-08",
-        "copy-mcq-03"
+        "copy-mcq-28",
+        "copy-mcq-11",
+        "copy-mcq-20"
       ],
       "explanation": "本句的「copy each other’s work」指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
       "sentenceIndex": 23,
@@ -1446,12 +1352,10 @@ export default {
         "copy each other’s work"
       ],
       "optionReasons": {
-        "copy-mcq-06": "本句指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。"
+        "copy-mcq-06": "本句的「copy each other’s work」指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
+        "copy-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-06"
     },
@@ -1463,11 +1367,9 @@ export default {
       "masked": "The teacher caught him ____.",
       "options": [
         "copy-mcq-06",
-        "copy-mcq-05",
-        "copy-mcq-07",
-        "copy-mcq-04",
-        "copy-mcq-08",
-        "copy-mcq-03"
+        "copy-mcq-01",
+        "copy-mcq-15",
+        "copy-mcq-26"
       ],
       "explanation": "本句的「copying in the exam」指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
       "sentenceIndex": 24,
@@ -1476,12 +1378,10 @@ export default {
         "copying in the exam"
       ],
       "optionReasons": {
-        "copy-mcq-06": "本句指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。"
+        "copy-mcq-06": "本句的「copying in the exam」指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
+        "copy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-06"
     },
@@ -1493,11 +1393,9 @@ export default {
       "masked": "She was accused of ____.",
       "options": [
         "copy-mcq-06",
-        "copy-mcq-05",
-        "copy-mcq-07",
-        "copy-mcq-04",
-        "copy-mcq-08",
-        "copy-mcq-03"
+        "copy-mcq-25",
+        "copy-mcq-20",
+        "copy-mcq-14"
       ],
       "explanation": "本句的「copying from the student beside her」指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
       "sentenceIndex": 25,
@@ -1506,12 +1404,10 @@ export default {
         "copying from the student beside her"
       ],
       "optionReasons": {
-        "copy-mcq-06": "本句指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。"
+        "copy-mcq-06": "本句的「copying from the student beside her」指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
+        "copy-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-06"
     },
@@ -1523,11 +1419,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "copy-mcq-06",
-        "copy-mcq-05",
-        "copy-mcq-07",
-        "copy-mcq-04",
-        "copy-mcq-08",
-        "copy-mcq-03"
+        "copy-mcq-15",
+        "copy-mcq-28",
+        "copy-mcq-08"
       ],
       "explanation": "本句的「copy from your partner」指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
       "sentenceIndex": 26,
@@ -1536,12 +1430,10 @@ export default {
         "copy from your partner"
       ],
       "optionReasons": {
-        "copy-mcq-06": "本句指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。"
+        "copy-mcq-06": "本句的「copy from your partner」指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-06"
     },
@@ -1553,11 +1445,9 @@ export default {
       "masked": "He admitted ____.",
       "options": [
         "copy-mcq-06",
-        "copy-mcq-05",
-        "copy-mcq-07",
-        "copy-mcq-04",
-        "copy-mcq-08",
-        "copy-mcq-03"
+        "copy-mcq-20",
+        "copy-mcq-21",
+        "copy-mcq-11"
       ],
       "explanation": "本句的「copying from another student」指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
       "sentenceIndex": 27,
@@ -1566,12 +1456,10 @@ export default {
         "copying from another student"
       ],
       "optionReasons": {
-        "copy-mcq-06": "本句指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。",
-        "copy-mcq-03": "「建立相同的數位副本；複製檔案／圖片」是「copy a file/image」的用法，與本句語境不同。"
+        "copy-mcq-06": "本句的「copying from another student」指「把別人的答案或作品當成自己的；抄襲／抄答案」。",
+        "copy-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-06"
     },
@@ -1583,11 +1471,9 @@ export default {
       "masked": "Several companies ____.",
       "options": [
         "copy-mcq-07",
-        "copy-mcq-06",
-        "copy-mcq-08",
-        "copy-mcq-05",
-        "copy-mcq-09",
-        "copy-mcq-04"
+        "copy-mcq-15",
+        "copy-mcq-14",
+        "copy-mcq-18"
       ],
       "explanation": "本句的「copied the original design」指「依照另一設計或產品仿製出高度相似版本」。",
       "sentenceIndex": 28,
@@ -1596,12 +1482,10 @@ export default {
         "copied the original design"
       ],
       "optionReasons": {
-        "copy-mcq-07": "本句指「依照另一設計或產品仿製出高度相似版本」。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-09": "「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」是「a copy of a book/magazine」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。"
+        "copy-mcq-07": "本句的「copied the original design」指「依照另一設計或產品仿製出高度相似版本」。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-07"
     },
@@ -1613,11 +1497,9 @@ export default {
       "masked": "The product looks as though it was ____.",
       "options": [
         "copy-mcq-07",
-        "copy-mcq-06",
-        "copy-mcq-08",
-        "copy-mcq-05",
-        "copy-mcq-09",
-        "copy-mcq-04"
+        "copy-mcq-14",
+        "copy-mcq-29",
+        "copy-mcq-15"
       ],
       "explanation": "本句的「copied from a famous brand」指「依照另一設計或產品仿製出高度相似版本」。",
       "sentenceIndex": 29,
@@ -1626,12 +1508,10 @@ export default {
         "copied from a famous brand"
       ],
       "optionReasons": {
-        "copy-mcq-07": "本句指「依照另一設計或產品仿製出高度相似版本」。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。",
-        "copy-mcq-09": "「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」是「a copy of a book/magazine」的用法，與本句語境不同。",
-        "copy-mcq-04": "「模仿某人的行為、方式、風格或特徵」是「copy a person」的用法，與本句語境不同。"
+        "copy-mcq-07": "本句的「copied from a famous brand」指「依照另一設計或產品仿製出高度相似版本」。",
+        "copy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-07"
     },
@@ -1643,11 +1523,9 @@ export default {
       "masked": "The artist denied using a ____.",
       "options": [
         "copy-mcq-22",
-        "copy-mcq-21",
-        "copy-mcq-23",
-        "copy-mcq-20",
-        "copy-mcq-24",
-        "copy-mcq-19"
+        "copy-mcq-11",
+        "copy-mcq-09",
+        "copy-mcq-05"
       ],
       "explanation": "本句的「copied design」指「表示仿製的；抄襲的」。",
       "sentenceIndex": 30,
@@ -1656,12 +1534,10 @@ export default {
         "copied design"
       ],
       "optionReasons": {
-        "copy-mcq-22": "本句指「表示仿製的；抄襲的」。",
-        "copy-mcq-21": "「表示複製到剪貼簿」是「7. copy to clipboard」的用法，與本句語境不同。",
-        "copy-mcq-23": "「表示一本；一份；一冊」是「21. a copy — one individual example of a book, magazine, newspaper, etc.」的用法，與本句語境不同。",
-        "copy-mcq-20": "「表示模仿；照搬；仿效」是「Passage meaning」的用法，與本句語境不同。",
-        "copy-mcq-24": "「表示副本；複本」是「29. copy — duplicate data or object」的用法，與本句語境不同。",
-        "copy-mcq-19": "「撰寫廣告、行銷或宣傳文字的工作／技巧」是「copywriting」的用法，與本句語境不同。"
+        "copy-mcq-22": "本句的「copied design」指「表示仿製的；抄襲的」。",
+        "copy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-22"
     },
@@ -1673,11 +1549,9 @@ export default {
       "masked": "The style felt ____.",
       "options": [
         "copy-mcq-22",
-        "copy-mcq-21",
-        "copy-mcq-23",
-        "copy-mcq-20",
-        "copy-mcq-24",
-        "copy-mcq-19"
+        "copy-mcq-29",
+        "copy-mcq-15",
+        "copy-mcq-18"
       ],
       "explanation": "本句的「copied rather than original」指「表示仿製的；抄襲的」。",
       "sentenceIndex": 31,
@@ -1686,12 +1560,10 @@ export default {
         "copied rather than original"
       ],
       "optionReasons": {
-        "copy-mcq-22": "本句指「表示仿製的；抄襲的」。",
-        "copy-mcq-21": "「表示複製到剪貼簿」是「7. copy to clipboard」的用法，與本句語境不同。",
-        "copy-mcq-23": "「表示一本；一份；一冊」是「21. a copy — one individual example of a book, magazine, newspaper, etc.」的用法，與本句語境不同。",
-        "copy-mcq-20": "「表示模仿；照搬；仿效」是「Passage meaning」的用法，與本句語境不同。",
-        "copy-mcq-24": "「表示副本；複本」是「29. copy — duplicate data or object」的用法，與本句語境不同。",
-        "copy-mcq-19": "「撰寫廣告、行銷或宣傳文字的工作／技巧」是「copywriting」的用法，與本句語境不同。"
+        "copy-mcq-22": "本句的「copied rather than original」指「表示仿製的；抄襲的」。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-22"
     },
@@ -1703,11 +1575,9 @@ export default {
       "masked": "I made a ____.",
       "options": [
         "copy-mcq-08",
-        "copy-mcq-07",
-        "copy-mcq-09",
-        "copy-mcq-06",
-        "copy-mcq-10",
-        "copy-mcq-05"
+        "copy-mcq-13",
+        "copy-mcq-04",
+        "copy-mcq-15"
       ],
       "explanation": "本句的「copy of the document」指「原件之外製作出的另一份相同／相似版本；副本」。",
       "sentenceIndex": 32,
@@ -1716,12 +1586,10 @@ export default {
         "copy of the document"
       ],
       "optionReasons": {
-        "copy-mcq-08": "本句指「原件之外製作出的另一份相同／相似版本；副本」。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-09": "「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」是「a copy of a book/magazine」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。",
-        "copy-mcq-10": "「數位資料列印成的紙本版本」是「hard copy」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。"
+        "copy-mcq-08": "本句的「copy of the document」指「原件之外製作出的另一份相同／相似版本；副本」。",
+        "copy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-08"
     },
@@ -1733,11 +1601,9 @@ export default {
       "masked": "Keep the original and send me a ____.",
       "options": [
         "copy-mcq-08",
-        "copy-mcq-07",
-        "copy-mcq-09",
-        "copy-mcq-06",
-        "copy-mcq-10",
-        "copy-mcq-05"
+        "copy-mcq-14",
+        "copy-mcq-15",
+        "copy-mcq-18"
       ],
       "explanation": "本句的「copy」指「原件之外製作出的另一份相同／相似版本；副本」。",
       "sentenceIndex": 33,
@@ -1746,12 +1612,10 @@ export default {
         "copy"
       ],
       "optionReasons": {
-        "copy-mcq-08": "本句指「原件之外製作出的另一份相同／相似版本；副本」。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-09": "「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」是「a copy of a book/magazine」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。",
-        "copy-mcq-10": "「數位資料列印成的紙本版本」是「hard copy」的用法，與本句語境不同。",
-        "copy-mcq-05": "「過度或完全照搬某人的做法、風格或生活方式」是「copy someone completely」的用法，與本句語境不同。"
+        "copy-mcq-08": "本句的「copy」指「原件之外製作出的另一份相同／相似版本；副本」。",
+        "copy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-08"
     },
@@ -1763,11 +1627,9 @@ export default {
       "masked": "Please provide a ____.",
       "options": [
         "copy-mcq-09",
-        "copy-mcq-08",
-        "copy-mcq-10",
-        "copy-mcq-07",
-        "copy-mcq-11",
-        "copy-mcq-06"
+        "copy-mcq-17",
+        "copy-mcq-19",
+        "copy-mcq-22"
       ],
       "explanation": "本句的「copy of your passport」指「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」。",
       "sentenceIndex": 34,
@@ -1776,12 +1638,10 @@ export default {
         "copy of your passport"
       ],
       "optionReasons": {
-        "copy-mcq-09": "本句指「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。",
-        "copy-mcq-10": "「數位資料列印成的紙本版本」是「hard copy」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-11": "「以數位形式保存的副本／電子檔」是「digital/electronic copy」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。"
+        "copy-mcq-09": "本句的「copy of your passport」指「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」。",
+        "copy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-09"
     },
@@ -1793,11 +1653,9 @@ export default {
       "masked": "I kept a ____.",
       "options": [
         "copy-mcq-09",
-        "copy-mcq-08",
-        "copy-mcq-10",
-        "copy-mcq-07",
-        "copy-mcq-11",
-        "copy-mcq-06"
+        "copy-mcq-02",
+        "copy-mcq-04",
+        "copy-mcq-28"
       ],
       "explanation": "本句的「copy of the agreement」指「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」。",
       "sentenceIndex": 35,
@@ -1806,12 +1664,10 @@ export default {
         "copy of the agreement"
       ],
       "optionReasons": {
-        "copy-mcq-09": "本句指「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。",
-        "copy-mcq-10": "「數位資料列印成的紙本版本」是「hard copy」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-11": "「以數位形式保存的副本／電子檔」是「digital/electronic copy」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。"
+        "copy-mcq-09": "本句的「copy of the agreement」指「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」。",
+        "copy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-09"
     },
@@ -1823,11 +1679,9 @@ export default {
       "masked": "Do you need a ____ of the report?",
       "options": [
         "copy-mcq-10",
-        "copy-mcq-09",
-        "copy-mcq-11",
-        "copy-mcq-08",
-        "copy-mcq-12",
-        "copy-mcq-07"
+        "copy-mcq-05",
+        "copy-mcq-21",
+        "copy-mcq-22"
       ],
       "explanation": "本句的「hard copy」指「數位資料列印成的紙本版本」。",
       "sentenceIndex": 36,
@@ -1836,12 +1690,10 @@ export default {
         "hard copy"
       ],
       "optionReasons": {
-        "copy-mcq-10": "本句指「數位資料列印成的紙本版本」。",
-        "copy-mcq-09": "「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」是「a copy of a book/magazine」的用法，與本句語境不同。",
-        "copy-mcq-11": "「以數位形式保存的副本／電子檔」是「digital/electronic copy」的用法，與本句語境不同。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。",
-        "copy-mcq-12": "「為廣告、網站或出版物撰寫的文字內容；文案」是「copy — advertising/publishing」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。"
+        "copy-mcq-10": "本句的「hard copy」指「數位資料列印成的紙本版本」。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-10"
     },
@@ -1853,11 +1705,9 @@ export default {
       "masked": "I submitted both the digital file and a ____.",
       "options": [
         "copy-mcq-10",
-        "copy-mcq-09",
-        "copy-mcq-11",
-        "copy-mcq-08",
-        "copy-mcq-12",
-        "copy-mcq-07"
+        "copy-mcq-18",
+        "copy-mcq-21",
+        "copy-mcq-04"
       ],
       "explanation": "本句的「hard copy」指「數位資料列印成的紙本版本」。",
       "sentenceIndex": 37,
@@ -1866,12 +1716,10 @@ export default {
         "hard copy"
       ],
       "optionReasons": {
-        "copy-mcq-10": "本句指「數位資料列印成的紙本版本」。",
-        "copy-mcq-09": "「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」是「a copy of a book/magazine」的用法，與本句語境不同。",
-        "copy-mcq-11": "「以數位形式保存的副本／電子檔」是「digital/electronic copy」的用法，與本句語境不同。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。",
-        "copy-mcq-12": "「為廣告、網站或出版物撰寫的文字內容；文案」是「copy — advertising/publishing」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。"
+        "copy-mcq-10": "本句的「hard copy」指「數位資料列印成的紙本版本」。",
+        "copy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-10"
     },
@@ -1883,11 +1731,9 @@ export default {
       "masked": "I’ll send you an ____ by email.",
       "options": [
         "copy-mcq-11",
-        "copy-mcq-10",
-        "copy-mcq-12",
-        "copy-mcq-09",
-        "copy-mcq-13",
-        "copy-mcq-08"
+        "copy-mcq-29",
+        "copy-mcq-22",
+        "copy-mcq-16"
       ],
       "explanation": "本句的「electronic copy」指「以數位形式保存的副本／電子檔」。",
       "sentenceIndex": 38,
@@ -1896,12 +1742,10 @@ export default {
         "electronic copy"
       ],
       "optionReasons": {
-        "copy-mcq-11": "本句指「以數位形式保存的副本／電子檔」。",
-        "copy-mcq-10": "「數位資料列印成的紙本版本」是「hard copy」的用法，與本句語境不同。",
-        "copy-mcq-12": "「為廣告、網站或出版物撰寫的文字內容；文案」是「copy — advertising/publishing」的用法，與本句語境不同。",
-        "copy-mcq-09": "「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」是「a copy of a book/magazine」的用法，與本句語境不同。",
-        "copy-mcq-13": "「廣告中用來說服或傳達訊息的文字；廣告文案」是「ad copy」的用法，與本句語境不同。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。"
+        "copy-mcq-11": "本句的「electronic copy」指「以數位形式保存的副本／電子檔」。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-11"
     },
@@ -1913,11 +1757,9 @@ export default {
       "masked": "Keep a ____ as a backup.",
       "options": [
         "copy-mcq-11",
-        "copy-mcq-10",
-        "copy-mcq-12",
-        "copy-mcq-09",
-        "copy-mcq-13",
-        "copy-mcq-08"
+        "copy-mcq-16",
+        "copy-mcq-21",
+        "copy-mcq-13"
       ],
       "explanation": "本句的「digital copy」指「以數位形式保存的副本／電子檔」。",
       "sentenceIndex": 39,
@@ -1926,12 +1768,10 @@ export default {
         "digital copy"
       ],
       "optionReasons": {
-        "copy-mcq-11": "本句指「以數位形式保存的副本／電子檔」。",
-        "copy-mcq-10": "「數位資料列印成的紙本版本」是「hard copy」的用法，與本句語境不同。",
-        "copy-mcq-12": "「為廣告、網站或出版物撰寫的文字內容；文案」是「copy — advertising/publishing」的用法，與本句語境不同。",
-        "copy-mcq-09": "「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」是「a copy of a book/magazine」的用法，與本句語境不同。",
-        "copy-mcq-13": "「廣告中用來說服或傳達訊息的文字；廣告文案」是「ad copy」的用法，與本句語境不同。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。"
+        "copy-mcq-11": "本句的「digital copy」指「以數位形式保存的副本／電子檔」。",
+        "copy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-11"
     },
@@ -1943,11 +1783,9 @@ export default {
       "masked": "I bought a ____.",
       "options": [
         "copy-mcq-23",
-        "copy-mcq-22",
-        "copy-mcq-24",
-        "copy-mcq-21",
-        "copy-mcq-25",
-        "copy-mcq-20"
+        "copy-mcq-04",
+        "copy-mcq-14",
+        "copy-mcq-15"
       ],
       "explanation": "本句的「copy of the book」指「表示一本；一份；一冊」。",
       "sentenceIndex": 40,
@@ -1956,12 +1794,10 @@ export default {
         "copy of the book"
       ],
       "optionReasons": {
-        "copy-mcq-23": "本句指「表示一本；一份；一冊」。",
-        "copy-mcq-22": "「表示仿製的；抄襲的」是「16. copied design / copied style」的用法，與本句語境不同。",
-        "copy-mcq-24": "「表示副本；複本」是「29. copy — duplicate data or object」的用法，與本句語境不同。",
-        "copy-mcq-21": "「表示複製到剪貼簿」是「7. copy to clipboard」的用法，與本句語境不同。",
-        "copy-mcq-25": "「表示拷貝；副本」是「30. copy — one instance of a gene or genetic sequence」的用法，與本句語境不同。",
-        "copy-mcq-20": "「表示模仿；照搬；仿效」是「Passage meaning」的用法，與本句語境不同。"
+        "copy-mcq-23": "本句的「copy of the book」指「表示一本；一份；一冊」。",
+        "copy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-23"
     },
@@ -1973,11 +1809,9 @@ export default {
       "masked": "The library owns three ____ of the novel.",
       "options": [
         "copy-mcq-23",
-        "copy-mcq-22",
-        "copy-mcq-24",
-        "copy-mcq-21",
-        "copy-mcq-25",
-        "copy-mcq-20"
+        "copy-mcq-04",
+        "copy-mcq-19",
+        "copy-mcq-28"
       ],
       "explanation": "本句的「copies」指「表示一本；一份；一冊」。",
       "sentenceIndex": 41,
@@ -1986,12 +1820,10 @@ export default {
         "copies"
       ],
       "optionReasons": {
-        "copy-mcq-23": "本句指「表示一本；一份；一冊」。",
-        "copy-mcq-22": "「表示仿製的；抄襲的」是「16. copied design / copied style」的用法，與本句語境不同。",
-        "copy-mcq-24": "「表示副本；複本」是「29. copy — duplicate data or object」的用法，與本句語境不同。",
-        "copy-mcq-21": "「表示複製到剪貼簿」是「7. copy to clipboard」的用法，與本句語境不同。",
-        "copy-mcq-25": "「表示拷貝；副本」是「30. copy — one instance of a gene or genetic sequence」的用法，與本句語境不同。",
-        "copy-mcq-20": "「表示模仿；照搬；仿效」是「Passage meaning」的用法，與本句語境不同。"
+        "copy-mcq-23": "本句的「copies」指「表示一本；一份；一冊」。",
+        "copy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-23"
     },
@@ -2003,11 +1835,9 @@ export default {
       "masked": "I picked up a ____.",
       "options": [
         "copy-mcq-09",
-        "copy-mcq-08",
-        "copy-mcq-10",
-        "copy-mcq-07",
-        "copy-mcq-11",
-        "copy-mcq-06"
+        "copy-mcq-20",
+        "copy-mcq-19",
+        "copy-mcq-28"
       ],
       "explanation": "本句的「copy of the newspaper」指「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」。",
       "sentenceIndex": 42,
@@ -2016,12 +1846,10 @@ export default {
         "copy of the newspaper"
       ],
       "optionReasons": {
-        "copy-mcq-09": "本句指「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。",
-        "copy-mcq-10": "「數位資料列印成的紙本版本」是「hard copy」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-11": "「以數位形式保存的副本／電子檔」是「digital/electronic copy」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。"
+        "copy-mcq-09": "本句的「copy of the newspaper」指「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」。",
+        "copy-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-09"
     },
@@ -2033,11 +1861,9 @@ export default {
       "masked": "She bought a ____ at the airport.",
       "options": [
         "copy-mcq-09",
-        "copy-mcq-08",
-        "copy-mcq-10",
-        "copy-mcq-07",
-        "copy-mcq-11",
-        "copy-mcq-06"
+        "copy-mcq-22",
+        "copy-mcq-19",
+        "copy-mcq-17"
       ],
       "explanation": "本句的「copy of the magazine」指「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」。",
       "sentenceIndex": 43,
@@ -2046,12 +1872,10 @@ export default {
         "copy of the magazine"
       ],
       "optionReasons": {
-        "copy-mcq-09": "本句指「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」。",
-        "copy-mcq-08": "「原件之外製作出的另一份相同／相似版本；副本」是「a copy — duplicate」的用法，與本句語境不同。",
-        "copy-mcq-10": "「數位資料列印成的紙本版本」是「hard copy」的用法，與本句語境不同。",
-        "copy-mcq-07": "「依照另一設計或產品仿製出高度相似版本」是「copy a design/product」的用法，與本句語境不同。",
-        "copy-mcq-11": "「以數位形式保存的副本／電子檔」是「digital/electronic copy」的用法，與本句語境不同。",
-        "copy-mcq-06": "「把別人的答案或作品當成自己的；抄襲／抄答案」是「copy someone’s work/answers」的用法，與本句語境不同。"
+        "copy-mcq-09": "本句的「copy of the magazine」指「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」。",
+        "copy-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-09"
     },
@@ -2063,11 +1887,9 @@ export default {
       "masked": "She writes advertising ____.",
       "options": [
         "copy-mcq-12",
-        "copy-mcq-11",
-        "copy-mcq-13",
-        "copy-mcq-10",
-        "copy-mcq-14",
-        "copy-mcq-09"
+        "copy-mcq-22",
+        "copy-mcq-05",
+        "copy-mcq-24"
       ],
       "explanation": "本句的「copy」指「為廣告、網站或出版物撰寫的文字內容；文案」。",
       "sentenceIndex": 44,
@@ -2076,12 +1898,10 @@ export default {
         "copy"
       ],
       "optionReasons": {
-        "copy-mcq-12": "本句指「為廣告、網站或出版物撰寫的文字內容；文案」。",
-        "copy-mcq-11": "「以數位形式保存的副本／電子檔」是「digital/electronic copy」的用法，與本句語境不同。",
-        "copy-mcq-13": "「廣告中用來說服或傳達訊息的文字；廣告文案」是「ad copy」的用法，與本句語境不同。",
-        "copy-mcq-10": "「數位資料列印成的紙本版本」是「hard copy」的用法，與本句語境不同。",
-        "copy-mcq-14": "「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」是「Do you copy? / Copy that.」的用法，與本句語境不同。",
-        "copy-mcq-09": "「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」是「a copy of a book/magazine」的用法，與本句語境不同。"
+        "copy-mcq-12": "本句的「copy」指「為廣告、網站或出版物撰寫的文字內容；文案」。",
+        "copy-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-12"
     },
@@ -2093,11 +1913,9 @@ export default {
       "masked": "The website ____ needs to be clearer.",
       "options": [
         "copy-mcq-12",
-        "copy-mcq-11",
-        "copy-mcq-13",
-        "copy-mcq-10",
-        "copy-mcq-14",
-        "copy-mcq-09"
+        "copy-mcq-23",
+        "copy-mcq-05",
+        "copy-mcq-28"
       ],
       "explanation": "本句的「copy」指「為廣告、網站或出版物撰寫的文字內容；文案」。",
       "sentenceIndex": 45,
@@ -2106,12 +1924,10 @@ export default {
         "copy"
       ],
       "optionReasons": {
-        "copy-mcq-12": "本句指「為廣告、網站或出版物撰寫的文字內容；文案」。",
-        "copy-mcq-11": "「以數位形式保存的副本／電子檔」是「digital/electronic copy」的用法，與本句語境不同。",
-        "copy-mcq-13": "「廣告中用來說服或傳達訊息的文字；廣告文案」是「ad copy」的用法，與本句語境不同。",
-        "copy-mcq-10": "「數位資料列印成的紙本版本」是「hard copy」的用法，與本句語境不同。",
-        "copy-mcq-14": "「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」是「Do you copy? / Copy that.」的用法，與本句語境不同。",
-        "copy-mcq-09": "「某本書、雜誌、報紙等的一個個別實體／版本；一本／一份」是「a copy of a book/magazine」的用法，與本句語境不同。"
+        "copy-mcq-12": "本句的「copy」指「為廣告、網站或出版物撰寫的文字內容；文案」。",
+        "copy-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-12"
     },
@@ -2123,11 +1939,9 @@ export default {
       "masked": "The ____ emphasizes comfort and simplicity.",
       "options": [
         "copy-mcq-13",
-        "copy-mcq-12",
-        "copy-mcq-14",
-        "copy-mcq-11",
-        "copy-mcq-15",
-        "copy-mcq-10"
+        "copy-mcq-28",
+        "copy-mcq-05",
+        "copy-mcq-17"
       ],
       "explanation": "本句的「ad copy」指「廣告中用來說服或傳達訊息的文字；廣告文案」。",
       "sentenceIndex": 46,
@@ -2136,12 +1950,10 @@ export default {
         "ad copy"
       ],
       "optionReasons": {
-        "copy-mcq-13": "本句指「廣告中用來說服或傳達訊息的文字；廣告文案」。",
-        "copy-mcq-12": "「為廣告、網站或出版物撰寫的文字內容；文案」是「copy — advertising/publishing」的用法，與本句語境不同。",
-        "copy-mcq-14": "「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」是「Do you copy? / Copy that.」的用法，與本句語境不同。",
-        "copy-mcq-11": "「以數位形式保存的副本／電子檔」是「digital/electronic copy」的用法，與本句語境不同。",
-        "copy-mcq-15": "「某個基因或遺傳序列的一個實例／拷貝」是「copy — genetics」的用法，與本句語境不同。",
-        "copy-mcq-10": "「數位資料列印成的紙本版本」是「hard copy」的用法，與本句語境不同。"
+        "copy-mcq-13": "本句的「ad copy」指「廣告中用來說服或傳達訊息的文字；廣告文案」。",
+        "copy-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-13"
     },
@@ -2153,11 +1965,9 @@ export default {
       "masked": "Good ____ should communicate the main benefit quickly.",
       "options": [
         "copy-mcq-13",
-        "copy-mcq-12",
-        "copy-mcq-14",
-        "copy-mcq-11",
-        "copy-mcq-15",
-        "copy-mcq-10"
+        "copy-mcq-05",
+        "copy-mcq-01",
+        "copy-mcq-25"
       ],
       "explanation": "本句的「ad copy」指「廣告中用來說服或傳達訊息的文字；廣告文案」。",
       "sentenceIndex": 47,
@@ -2166,12 +1976,10 @@ export default {
         "ad copy"
       ],
       "optionReasons": {
-        "copy-mcq-13": "本句指「廣告中用來說服或傳達訊息的文字；廣告文案」。",
-        "copy-mcq-12": "「為廣告、網站或出版物撰寫的文字內容；文案」是「copy — advertising/publishing」的用法，與本句語境不同。",
-        "copy-mcq-14": "「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」是「Do you copy? / Copy that.」的用法，與本句語境不同。",
-        "copy-mcq-11": "「以數位形式保存的副本／電子檔」是「digital/electronic copy」的用法，與本句語境不同。",
-        "copy-mcq-15": "「某個基因或遺傳序列的一個實例／拷貝」是「copy — genetics」的用法，與本句語境不同。",
-        "copy-mcq-10": "「數位資料列印成的紙本版本」是「hard copy」的用法，與本句語境不同。"
+        "copy-mcq-13": "本句的「ad copy」指「廣告中用來說服或傳達訊息的文字；廣告文案」。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-13"
     },
@@ -2183,10 +1991,8 @@ export default {
       "masked": "She works as a ____.",
       "options": [
         "copy-mcq-18",
-        "copy-mcq-17",
-        "copy-mcq-19",
-        "copy-mcq-16",
         "copy-mcq-20",
+        "copy-mcq-22",
         "copy-mcq-15"
       ],
       "explanation": "本句的「copywriter」指「專門撰寫廣告或行銷文案的人」。",
@@ -2196,12 +2002,10 @@ export default {
         "copywriter"
       ],
       "optionReasons": {
-        "copy-mcq-18": "本句指「專門撰寫廣告或行銷文案的人」。",
-        "copy-mcq-17": "「仿照先前行為、產品或事件而出現的；模仿性的」是「copycat — adjective」的用法，與本句語境不同。",
-        "copy-mcq-19": "「撰寫廣告、行銷或宣傳文字的工作／技巧」是「copywriting」的用法，與本句語境不同。",
-        "copy-mcq-16": "「經常模仿別人的人；跟風者」是「copycat — person」的用法，與本句語境不同。",
-        "copy-mcq-20": "「表示模仿；照搬；仿效」是「Passage meaning」的用法，與本句語境不同。",
-        "copy-mcq-15": "「某個基因或遺傳序列的一個實例／拷貝」是「copy — genetics」的用法，與本句語境不同。"
+        "copy-mcq-18": "本句的「copywriter」指「專門撰寫廣告或行銷文案的人」。",
+        "copy-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-18"
     },
@@ -2213,11 +2017,9 @@ export default {
       "masked": "The ____ created the campaign slogan.",
       "options": [
         "copy-mcq-18",
-        "copy-mcq-17",
-        "copy-mcq-19",
-        "copy-mcq-16",
-        "copy-mcq-20",
-        "copy-mcq-15"
+        "copy-mcq-05",
+        "copy-mcq-08",
+        "copy-mcq-22"
       ],
       "explanation": "本句的「copywriter」指「專門撰寫廣告或行銷文案的人」。",
       "sentenceIndex": 49,
@@ -2226,12 +2028,10 @@ export default {
         "copywriter"
       ],
       "optionReasons": {
-        "copy-mcq-18": "本句指「專門撰寫廣告或行銷文案的人」。",
-        "copy-mcq-17": "「仿照先前行為、產品或事件而出現的；模仿性的」是「copycat — adjective」的用法，與本句語境不同。",
-        "copy-mcq-19": "「撰寫廣告、行銷或宣傳文字的工作／技巧」是「copywriting」的用法，與本句語境不同。",
-        "copy-mcq-16": "「經常模仿別人的人；跟風者」是「copycat — person」的用法，與本句語境不同。",
-        "copy-mcq-20": "「表示模仿；照搬；仿效」是「Passage meaning」的用法，與本句語境不同。",
-        "copy-mcq-15": "「某個基因或遺傳序列的一個實例／拷貝」是「copy — genetics」的用法，與本句語境不同。"
+        "copy-mcq-18": "本句的「copywriter」指「專門撰寫廣告或行銷文案的人」。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-18"
     },
@@ -2243,11 +2043,9 @@ export default {
       "masked": "He took a course in ____.",
       "options": [
         "copy-mcq-19",
-        "copy-mcq-18",
-        "copy-mcq-20",
-        "copy-mcq-17",
+        "copy-mcq-26",
         "copy-mcq-21",
-        "copy-mcq-16"
+        "copy-mcq-22"
       ],
       "explanation": "本句的「copywriting」指「撰寫廣告、行銷或宣傳文字的工作／技巧」。",
       "sentenceIndex": 50,
@@ -2256,12 +2054,10 @@ export default {
         "copywriting"
       ],
       "optionReasons": {
-        "copy-mcq-19": "本句指「撰寫廣告、行銷或宣傳文字的工作／技巧」。",
-        "copy-mcq-18": "「專門撰寫廣告或行銷文案的人」是「copywriter」的用法，與本句語境不同。",
-        "copy-mcq-20": "「表示模仿；照搬；仿效」是「Passage meaning」的用法，與本句語境不同。",
-        "copy-mcq-17": "「仿照先前行為、產品或事件而出現的；模仿性的」是「copycat — adjective」的用法，與本句語境不同。",
-        "copy-mcq-21": "「表示複製到剪貼簿」是「7. copy to clipboard」的用法，與本句語境不同。",
-        "copy-mcq-16": "「經常模仿別人的人；跟風者」是「copycat — person」的用法，與本句語境不同。"
+        "copy-mcq-19": "本句的「copywriting」指「撰寫廣告、行銷或宣傳文字的工作／技巧」。",
+        "copy-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-19"
     },
@@ -2273,11 +2069,9 @@ export default {
       "masked": "Good ____ combines clarity with persuasion.",
       "options": [
         "copy-mcq-19",
-        "copy-mcq-18",
         "copy-mcq-20",
-        "copy-mcq-17",
-        "copy-mcq-21",
-        "copy-mcq-16"
+        "copy-mcq-11",
+        "copy-mcq-22"
       ],
       "explanation": "本句的「copywriting」指「撰寫廣告、行銷或宣傳文字的工作／技巧」。",
       "sentenceIndex": 51,
@@ -2286,12 +2080,10 @@ export default {
         "copywriting"
       ],
       "optionReasons": {
-        "copy-mcq-19": "本句指「撰寫廣告、行銷或宣傳文字的工作／技巧」。",
-        "copy-mcq-18": "「專門撰寫廣告或行銷文案的人」是「copywriter」的用法，與本句語境不同。",
-        "copy-mcq-20": "「表示模仿；照搬；仿效」是「Passage meaning」的用法，與本句語境不同。",
-        "copy-mcq-17": "「仿照先前行為、產品或事件而出現的；模仿性的」是「copycat — adjective」的用法，與本句語境不同。",
-        "copy-mcq-21": "「表示複製到剪貼簿」是「7. copy to clipboard」的用法，與本句語境不同。",
-        "copy-mcq-16": "「經常模仿別人的人；跟風者」是「copycat — person」的用法，與本句語境不同。"
+        "copy-mcq-19": "本句的「copywriting」指「撰寫廣告、行銷或宣傳文字的工作／技巧」。",
+        "copy-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-19"
     },
@@ -2303,11 +2095,9 @@ export default {
       "masked": "Base, ____?",
       "options": [
         "copy-mcq-14",
-        "copy-mcq-13",
-        "copy-mcq-15",
-        "copy-mcq-12",
         "copy-mcq-16",
-        "copy-mcq-11"
+        "copy-mcq-24",
+        "copy-mcq-29"
       ],
       "explanation": "本句的「do you copy」指「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」。",
       "sentenceIndex": 52,
@@ -2316,12 +2106,10 @@ export default {
         "do you copy"
       ],
       "optionReasons": {
-        "copy-mcq-14": "本句指「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」。",
-        "copy-mcq-13": "「廣告中用來說服或傳達訊息的文字；廣告文案」是「ad copy」的用法，與本句語境不同。",
-        "copy-mcq-15": "「某個基因或遺傳序列的一個實例／拷貝」是「copy — genetics」的用法，與本句語境不同。",
-        "copy-mcq-12": "「為廣告、網站或出版物撰寫的文字內容；文案」是「copy — advertising/publishing」的用法，與本句語境不同。",
-        "copy-mcq-16": "「經常模仿別人的人；跟風者」是「copycat — person」的用法，與本句語境不同。",
-        "copy-mcq-11": "「以數位形式保存的副本／電子檔」是「digital/electronic copy」的用法，與本句語境不同。"
+        "copy-mcq-14": "本句的「do you copy」指「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」。",
+        "copy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-14"
     },
@@ -2333,11 +2121,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "copy-mcq-14",
-        "copy-mcq-13",
-        "copy-mcq-15",
-        "copy-mcq-12",
-        "copy-mcq-16",
-        "copy-mcq-11"
+        "copy-mcq-06",
+        "copy-mcq-23",
+        "copy-mcq-18"
       ],
       "explanation": "本句的「copy」指「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」。",
       "sentenceIndex": 53,
@@ -2346,12 +2132,10 @@ export default {
         "copy"
       ],
       "optionReasons": {
-        "copy-mcq-14": "本句指「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」。",
-        "copy-mcq-13": "「廣告中用來說服或傳達訊息的文字；廣告文案」是「ad copy」的用法，與本句語境不同。",
-        "copy-mcq-15": "「某個基因或遺傳序列的一個實例／拷貝」是「copy — genetics」的用法，與本句語境不同。",
-        "copy-mcq-12": "「為廣告、網站或出版物撰寫的文字內容；文案」是「copy — advertising/publishing」的用法，與本句語境不同。",
-        "copy-mcq-16": "「經常模仿別人的人；跟風者」是「copycat — person」的用法，與本句語境不同。",
-        "copy-mcq-11": "「以數位形式保存的副本／電子檔」是「digital/electronic copy」的用法，與本句語境不同。"
+        "copy-mcq-14": "本句的「copy」指「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」。",
+        "copy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-14"
     },
@@ -2363,11 +2147,9 @@ export default {
       "masked": "Meet at the north entrance.” “____",
       "options": [
         "copy-mcq-14",
-        "copy-mcq-13",
-        "copy-mcq-15",
-        "copy-mcq-12",
-        "copy-mcq-16",
-        "copy-mcq-11"
+        "copy-mcq-21",
+        "copy-mcq-09",
+        "copy-mcq-20"
       ],
       "explanation": "本句的「Copy that.」指「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」。",
       "sentenceIndex": 54,
@@ -2376,12 +2158,10 @@ export default {
         "Copy that."
       ],
       "optionReasons": {
-        "copy-mcq-14": "本句指「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」。",
-        "copy-mcq-13": "「廣告中用來說服或傳達訊息的文字；廣告文案」是「ad copy」的用法，與本句語境不同。",
-        "copy-mcq-15": "「某個基因或遺傳序列的一個實例／拷貝」是「copy — genetics」的用法，與本句語境不同。",
-        "copy-mcq-12": "「為廣告、網站或出版物撰寫的文字內容；文案」是「copy — advertising/publishing」的用法，與本句語境不同。",
-        "copy-mcq-16": "「經常模仿別人的人；跟風者」是「copycat — person」的用法，與本句語境不同。",
-        "copy-mcq-11": "「以數位形式保存的副本／電子檔」是「digital/electronic copy」的用法，與本句語境不同。"
+        "copy-mcq-14": "本句的「Copy that.」指「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」。",
+        "copy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-14"
     },
@@ -2393,11 +2173,9 @@ export default {
       "masked": "Leave immediately.” “____",
       "options": [
         "copy-mcq-14",
-        "copy-mcq-13",
-        "copy-mcq-15",
-        "copy-mcq-12",
-        "copy-mcq-16",
-        "copy-mcq-11"
+        "copy-mcq-22",
+        "copy-mcq-20",
+        "copy-mcq-09"
       ],
       "explanation": "本句的「Copy that.」指「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」。",
       "sentenceIndex": 55,
@@ -2406,12 +2184,10 @@ export default {
         "Copy that."
       ],
       "optionReasons": {
-        "copy-mcq-14": "本句指「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」。",
-        "copy-mcq-13": "「廣告中用來說服或傳達訊息的文字；廣告文案」是「ad copy」的用法，與本句語境不同。",
-        "copy-mcq-15": "「某個基因或遺傳序列的一個實例／拷貝」是「copy — genetics」的用法，與本句語境不同。",
-        "copy-mcq-12": "「為廣告、網站或出版物撰寫的文字內容；文案」是「copy — advertising/publishing」的用法，與本句語境不同。",
-        "copy-mcq-16": "「經常模仿別人的人；跟風者」是「copycat — person」的用法，與本句語境不同。",
-        "copy-mcq-11": "「以數位形式保存的副本／電子檔」是「digital/electronic copy」的用法，與本句語境不同。"
+        "copy-mcq-14": "本句的「Copy that.」指「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」。",
+        "copy-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-14"
     },
@@ -2423,11 +2199,9 @@ export default {
       "masked": "The system stores multiple ____ of the data.",
       "options": [
         "copy-mcq-24",
-        "copy-mcq-23",
-        "copy-mcq-25",
-        "copy-mcq-22",
-        "copy-mcq-26",
-        "copy-mcq-21"
+        "copy-mcq-12",
+        "copy-mcq-06",
+        "copy-mcq-15"
       ],
       "explanation": "本句的「copies」指「表示副本；複本」。",
       "sentenceIndex": 56,
@@ -2436,12 +2210,10 @@ export default {
         "copies"
       ],
       "optionReasons": {
-        "copy-mcq-24": "本句指「表示副本；複本」。",
-        "copy-mcq-23": "「表示一本；一份；一冊」是「21. a copy — one individual example of a book, magazine, newspaper, etc.」的用法，與本句語境不同。",
-        "copy-mcq-25": "「表示拷貝；副本」是「30. copy — one instance of a gene or genetic sequence」的用法，與本句語境不同。",
-        "copy-mcq-22": "「表示仿製的；抄襲的」是「16. copied design / copied style」的用法，與本句語境不同。",
-        "copy-mcq-26": "「表示保留副本」是「32. keep a copy」的用法，與本句語境不同。",
-        "copy-mcq-21": "「表示複製到剪貼簿」是「7. copy to clipboard」的用法，與本句語境不同。"
+        "copy-mcq-24": "本句的「copies」指「表示副本；複本」。",
+        "copy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-24"
     },
@@ -2453,11 +2225,9 @@ export default {
       "masked": "Each server keeps a local ____ of the file.",
       "options": [
         "copy-mcq-24",
-        "copy-mcq-23",
-        "copy-mcq-25",
-        "copy-mcq-22",
-        "copy-mcq-26",
-        "copy-mcq-21"
+        "copy-mcq-17",
+        "copy-mcq-05",
+        "copy-mcq-29"
       ],
       "explanation": "本句的「copy」指「表示副本；複本」。",
       "sentenceIndex": 57,
@@ -2466,12 +2236,10 @@ export default {
         "copy"
       ],
       "optionReasons": {
-        "copy-mcq-24": "本句指「表示副本；複本」。",
-        "copy-mcq-23": "「表示一本；一份；一冊」是「21. a copy — one individual example of a book, magazine, newspaper, etc.」的用法，與本句語境不同。",
-        "copy-mcq-25": "「表示拷貝；副本」是「30. copy — one instance of a gene or genetic sequence」的用法，與本句語境不同。",
-        "copy-mcq-22": "「表示仿製的；抄襲的」是「16. copied design / copied style」的用法，與本句語境不同。",
-        "copy-mcq-26": "「表示保留副本」是「32. keep a copy」的用法，與本句語境不同。",
-        "copy-mcq-21": "「表示複製到剪貼簿」是「7. copy to clipboard」的用法，與本句語境不同。"
+        "copy-mcq-24": "本句的「copy」指「表示副本；複本」。",
+        "copy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-24"
     },
@@ -2483,11 +2251,9 @@ export default {
       "masked": "Humans normally inherit two ____ of many genes.",
       "options": [
         "copy-mcq-25",
-        "copy-mcq-24",
-        "copy-mcq-26",
-        "copy-mcq-23",
-        "copy-mcq-27",
-        "copy-mcq-22"
+        "copy-mcq-16",
+        "copy-mcq-22",
+        "copy-mcq-29"
       ],
       "explanation": "本句的「copies」指「表示拷貝；副本」。",
       "sentenceIndex": 58,
@@ -2496,12 +2262,10 @@ export default {
         "copies"
       ],
       "optionReasons": {
-        "copy-mcq-25": "本句指「表示拷貝；副本」。",
-        "copy-mcq-24": "「表示副本；複本」是「29. copy — duplicate data or object」的用法，與本句語境不同。",
-        "copy-mcq-26": "「表示保留副本」是「32. keep a copy」的用法，與本句語境不同。",
-        "copy-mcq-23": "「表示一本；一份；一冊」是「21. a copy — one individual example of a book, magazine, newspaper, etc.」的用法，與本句語境不同。",
-        "copy-mcq-27": "「表示複製；抄寫；模仿」是「36. copying」的用法，與本句語境不同。",
-        "copy-mcq-22": "「表示仿製的；抄襲的」是「16. copied design / copied style」的用法，與本句語境不同。"
+        "copy-mcq-25": "本句的「copies」指「表示拷貝；副本」。",
+        "copy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-25"
     },
@@ -2513,11 +2277,9 @@ export default {
       "masked": "The cells contained extra ____ of the gene.",
       "options": [
         "copy-mcq-25",
-        "copy-mcq-24",
-        "copy-mcq-26",
-        "copy-mcq-23",
-        "copy-mcq-27",
-        "copy-mcq-22"
+        "copy-mcq-06",
+        "copy-mcq-14",
+        "copy-mcq-28"
       ],
       "explanation": "本句的「copies」指「表示拷貝；副本」。",
       "sentenceIndex": 59,
@@ -2526,12 +2288,10 @@ export default {
         "copies"
       ],
       "optionReasons": {
-        "copy-mcq-25": "本句指「表示拷貝；副本」。",
-        "copy-mcq-24": "「表示副本；複本」是「29. copy — duplicate data or object」的用法，與本句語境不同。",
-        "copy-mcq-26": "「表示保留副本」是「32. keep a copy」的用法，與本句語境不同。",
-        "copy-mcq-23": "「表示一本；一份；一冊」是「21. a copy — one individual example of a book, magazine, newspaper, etc.」的用法，與本句語境不同。",
-        "copy-mcq-27": "「表示複製；抄寫；模仿」是「36. copying」的用法，與本句語境不同。",
-        "copy-mcq-22": "「表示仿製的；抄襲的」是「16. copied design / copied style」的用法，與本句語境不同。"
+        "copy-mcq-25": "本句的「copies」指「表示拷貝；副本」。",
+        "copy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-25"
     },
@@ -2543,11 +2303,9 @@ export default {
       "masked": "Please ____ before editing the file.",
       "options": [
         "copy-mcq-15",
-        "copy-mcq-14",
+        "copy-mcq-28",
         "copy-mcq-16",
-        "copy-mcq-13",
-        "copy-mcq-17",
-        "copy-mcq-12"
+        "copy-mcq-21"
       ],
       "explanation": "本句的「make a copy」指「某個基因或遺傳序列的一個實例／拷貝」。",
       "sentenceIndex": 60,
@@ -2556,12 +2314,10 @@ export default {
         "make a copy"
       ],
       "optionReasons": {
-        "copy-mcq-15": "本句指「某個基因或遺傳序列的一個實例／拷貝」。",
-        "copy-mcq-14": "「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」是「Do you copy? / Copy that.」的用法，與本句語境不同。",
-        "copy-mcq-16": "「經常模仿別人的人；跟風者」是「copycat — person」的用法，與本句語境不同。",
-        "copy-mcq-13": "「廣告中用來說服或傳達訊息的文字；廣告文案」是「ad copy」的用法，與本句語境不同。",
-        "copy-mcq-17": "「仿照先前行為、產品或事件而出現的；模仿性的」是「copycat — adjective」的用法，與本句語境不同。",
-        "copy-mcq-12": "「為廣告、網站或出版物撰寫的文字內容；文案」是「copy — advertising/publishing」的用法，與本句語境不同。"
+        "copy-mcq-15": "本句的「make a copy」指「某個基因或遺傳序列的一個實例／拷貝」。",
+        "copy-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-15"
     },
@@ -2573,11 +2329,9 @@ export default {
       "masked": "I ____ of the receipt.",
       "options": [
         "copy-mcq-15",
-        "copy-mcq-14",
-        "copy-mcq-16",
-        "copy-mcq-13",
-        "copy-mcq-17",
-        "copy-mcq-12"
+        "copy-mcq-27",
+        "copy-mcq-18",
+        "copy-mcq-14"
       ],
       "explanation": "本句的「made a copy」指「某個基因或遺傳序列的一個實例／拷貝」。",
       "sentenceIndex": 61,
@@ -2586,12 +2340,10 @@ export default {
         "made a copy"
       ],
       "optionReasons": {
-        "copy-mcq-15": "本句指「某個基因或遺傳序列的一個實例／拷貝」。",
-        "copy-mcq-14": "「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」是「Do you copy? / Copy that.」的用法，與本句語境不同。",
-        "copy-mcq-16": "「經常模仿別人的人；跟風者」是「copycat — person」的用法，與本句語境不同。",
-        "copy-mcq-13": "「廣告中用來說服或傳達訊息的文字；廣告文案」是「ad copy」的用法，與本句語境不同。",
-        "copy-mcq-17": "「仿照先前行為、產品或事件而出現的；模仿性的」是「copycat — adjective」的用法，與本句語境不同。",
-        "copy-mcq-12": "「為廣告、網站或出版物撰寫的文字內容；文案」是「copy — advertising/publishing」的用法，與本句語境不同。"
+        "copy-mcq-15": "本句的「made a copy」指「某個基因或遺傳序列的一個實例／拷貝」。",
+        "copy-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-15"
     },
@@ -2603,11 +2355,9 @@ export default {
       "masked": "Always ____ of important documents.",
       "options": [
         "copy-mcq-26",
-        "copy-mcq-25",
-        "copy-mcq-27",
-        "copy-mcq-24",
-        "copy-mcq-28",
-        "copy-mcq-23"
+        "copy-mcq-21",
+        "copy-mcq-19",
+        "copy-mcq-16"
       ],
       "explanation": "本句的「keep a copy」指「表示保留副本」。",
       "sentenceIndex": 62,
@@ -2616,12 +2366,10 @@ export default {
         "keep a copy"
       ],
       "optionReasons": {
-        "copy-mcq-26": "本句指「表示保留副本」。",
-        "copy-mcq-25": "「表示拷貝；副本」是「30. copy — one instance of a gene or genetic sequence」的用法，與本句語境不同。",
-        "copy-mcq-27": "「表示複製；抄寫；模仿」是「36. copying」的用法，與本句語境不同。",
-        "copy-mcq-24": "「表示副本；複本」是「29. copy — duplicate data or object」的用法，與本句語境不同。",
-        "copy-mcq-28": "「表示影印機；複印機」是「37. copier」的用法，與本句語境不同。",
-        "copy-mcq-23": "「表示一本；一份；一冊」是「21. a copy — one individual example of a book, magazine, newspaper, etc.」的用法，與本句語境不同。"
+        "copy-mcq-26": "本句的「keep a copy」指「表示保留副本」。",
+        "copy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-26"
     },
@@ -2633,11 +2381,9 @@ export default {
       "masked": "I kept a ____ for my records.",
       "options": [
         "copy-mcq-26",
-        "copy-mcq-25",
-        "copy-mcq-27",
-        "copy-mcq-24",
-        "copy-mcq-28",
-        "copy-mcq-23"
+        "copy-mcq-06",
+        "copy-mcq-29",
+        "copy-mcq-17"
       ],
       "explanation": "本句的「copy」指「表示保留副本」。",
       "sentenceIndex": 63,
@@ -2646,12 +2392,10 @@ export default {
         "copy"
       ],
       "optionReasons": {
-        "copy-mcq-26": "本句指「表示保留副本」。",
-        "copy-mcq-25": "「表示拷貝；副本」是「30. copy — one instance of a gene or genetic sequence」的用法，與本句語境不同。",
-        "copy-mcq-27": "「表示複製；抄寫；模仿」是「36. copying」的用法，與本句語境不同。",
-        "copy-mcq-24": "「表示副本；複本」是「29. copy — duplicate data or object」的用法，與本句語境不同。",
-        "copy-mcq-28": "「表示影印機；複印機」是「37. copier」的用法，與本句語境不同。",
-        "copy-mcq-23": "「表示一本；一份；一冊」是「21. a copy — one individual example of a book, magazine, newspaper, etc.」的用法，與本句語境不同。"
+        "copy-mcq-26": "本句的「copy」指「表示保留副本」。",
+        "copy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-26"
     },
@@ -2663,11 +2407,9 @@ export default {
       "masked": "He is almost a ____.",
       "options": [
         "copy-mcq-15",
-        "copy-mcq-14",
-        "copy-mcq-16",
-        "copy-mcq-13",
-        "copy-mcq-17",
-        "copy-mcq-12"
+        "copy-mcq-04",
+        "copy-mcq-11",
+        "copy-mcq-28"
       ],
       "explanation": "本句的「carbon copy of his father」指「某個基因或遺傳序列的一個實例／拷貝」。",
       "sentenceIndex": 64,
@@ -2676,12 +2418,10 @@ export default {
         "carbon copy of his father"
       ],
       "optionReasons": {
-        "copy-mcq-15": "本句指「某個基因或遺傳序列的一個實例／拷貝」。",
-        "copy-mcq-14": "「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」是「Do you copy? / Copy that.」的用法，與本句語境不同。",
-        "copy-mcq-16": "「經常模仿別人的人；跟風者」是「copycat — person」的用法，與本句語境不同。",
-        "copy-mcq-13": "「廣告中用來說服或傳達訊息的文字；廣告文案」是「ad copy」的用法，與本句語境不同。",
-        "copy-mcq-17": "「仿照先前行為、產品或事件而出現的；模仿性的」是「copycat — adjective」的用法，與本句語境不同。",
-        "copy-mcq-12": "「為廣告、網站或出版物撰寫的文字內容；文案」是「copy — advertising/publishing」的用法，與本句語境不同。"
+        "copy-mcq-15": "本句的「carbon copy of his father」指「某個基因或遺傳序列的一個實例／拷貝」。",
+        "copy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-15"
     },
@@ -2693,11 +2433,9 @@ export default {
       "masked": "The second design felt like a ____.",
       "options": [
         "copy-mcq-15",
-        "copy-mcq-14",
-        "copy-mcq-16",
-        "copy-mcq-13",
-        "copy-mcq-17",
-        "copy-mcq-12"
+        "copy-mcq-04",
+        "copy-mcq-28",
+        "copy-mcq-21"
       ],
       "explanation": "本句的「carbon copy of the first」指「某個基因或遺傳序列的一個實例／拷貝」。",
       "sentenceIndex": 65,
@@ -2706,12 +2444,10 @@ export default {
         "carbon copy of the first"
       ],
       "optionReasons": {
-        "copy-mcq-15": "本句指「某個基因或遺傳序列的一個實例／拷貝」。",
-        "copy-mcq-14": "「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」是「Do you copy? / Copy that.」的用法，與本句語境不同。",
-        "copy-mcq-16": "「經常模仿別人的人；跟風者」是「copycat — person」的用法，與本句語境不同。",
-        "copy-mcq-13": "「廣告中用來說服或傳達訊息的文字；廣告文案」是「ad copy」的用法，與本句語境不同。",
-        "copy-mcq-17": "「仿照先前行為、產品或事件而出現的；模仿性的」是「copycat — adjective」的用法，與本句語境不同。",
-        "copy-mcq-12": "「為廣告、網站或出版物撰寫的文字內容；文案」是「copy — advertising/publishing」的用法，與本句語境不同。"
+        "copy-mcq-15": "本句的「carbon copy of the first」指「某個基因或遺傳序列的一個實例／拷貝」。",
+        "copy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-15"
     },
@@ -2723,11 +2459,9 @@ export default {
       "masked": "Stop being a ____ and create your own design.",
       "options": [
         "copy-mcq-16",
-        "copy-mcq-15",
-        "copy-mcq-17",
-        "copy-mcq-14",
-        "copy-mcq-18",
-        "copy-mcq-13"
+        "copy-mcq-10",
+        "copy-mcq-21",
+        "copy-mcq-15"
       ],
       "explanation": "本句的「copycat」指「經常模仿別人的人；跟風者」。",
       "sentenceIndex": 66,
@@ -2736,12 +2470,10 @@ export default {
         "copycat"
       ],
       "optionReasons": {
-        "copy-mcq-16": "本句指「經常模仿別人的人；跟風者」。",
-        "copy-mcq-15": "「某個基因或遺傳序列的一個實例／拷貝」是「copy — genetics」的用法，與本句語境不同。",
-        "copy-mcq-17": "「仿照先前行為、產品或事件而出現的；模仿性的」是「copycat — adjective」的用法，與本句語境不同。",
-        "copy-mcq-14": "「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」是「Do you copy? / Copy that.」的用法，與本句語境不同。",
-        "copy-mcq-18": "「專門撰寫廣告或行銷文案的人」是「copywriter」的用法，與本句語境不同。",
-        "copy-mcq-13": "「廣告中用來說服或傳達訊息的文字；廣告文案」是「ad copy」的用法，與本句語境不同。"
+        "copy-mcq-16": "本句的「copycat」指「經常模仿別人的人；跟風者」。",
+        "copy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-16"
     },
@@ -2753,11 +2485,9 @@ export default {
       "masked": "He was teased for being a ____.",
       "options": [
         "copy-mcq-16",
-        "copy-mcq-15",
-        "copy-mcq-17",
-        "copy-mcq-14",
+        "copy-mcq-10",
         "copy-mcq-18",
-        "copy-mcq-13"
+        "copy-mcq-28"
       ],
       "explanation": "本句的「copycat」指「經常模仿別人的人；跟風者」。",
       "sentenceIndex": 67,
@@ -2766,12 +2496,10 @@ export default {
         "copycat"
       ],
       "optionReasons": {
-        "copy-mcq-16": "本句指「經常模仿別人的人；跟風者」。",
-        "copy-mcq-15": "「某個基因或遺傳序列的一個實例／拷貝」是「copy — genetics」的用法，與本句語境不同。",
-        "copy-mcq-17": "「仿照先前行為、產品或事件而出現的；模仿性的」是「copycat — adjective」的用法，與本句語境不同。",
-        "copy-mcq-14": "「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」是「Do you copy? / Copy that.」的用法，與本句語境不同。",
-        "copy-mcq-18": "「專門撰寫廣告或行銷文案的人」是「copywriter」的用法，與本句語境不同。",
-        "copy-mcq-13": "「廣告中用來說服或傳達訊息的文字；廣告文案」是「ad copy」的用法，與本句語境不同。"
+        "copy-mcq-16": "本句的「copycat」指「經常模仿別人的人；跟風者」。",
+        "copy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-16"
     },
@@ -2783,11 +2511,9 @@ export default {
       "masked": "Police were concerned about ____.",
       "options": [
         "copy-mcq-17",
-        "copy-mcq-16",
-        "copy-mcq-18",
         "copy-mcq-15",
-        "copy-mcq-19",
-        "copy-mcq-14"
+        "copy-mcq-09",
+        "copy-mcq-13"
       ],
       "explanation": "本句的「copycat crimes」指「仿照先前行為、產品或事件而出現的；模仿性的」。",
       "sentenceIndex": 68,
@@ -2796,12 +2522,10 @@ export default {
         "copycat crimes"
       ],
       "optionReasons": {
-        "copy-mcq-17": "本句指「仿照先前行為、產品或事件而出現的；模仿性的」。",
-        "copy-mcq-16": "「經常模仿別人的人；跟風者」是「copycat — person」的用法，與本句語境不同。",
-        "copy-mcq-18": "「專門撰寫廣告或行銷文案的人」是「copywriter」的用法，與本句語境不同。",
-        "copy-mcq-15": "「某個基因或遺傳序列的一個實例／拷貝」是「copy — genetics」的用法，與本句語境不同。",
-        "copy-mcq-19": "「撰寫廣告、行銷或宣傳文字的工作／技巧」是「copywriting」的用法，與本句語境不同。",
-        "copy-mcq-14": "「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」是「Do you copy? / Copy that.」的用法，與本句語境不同。"
+        "copy-mcq-17": "本句的「copycat crimes」指「仿照先前行為、產品或事件而出現的；模仿性的」。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-17"
     },
@@ -2813,11 +2537,9 @@ export default {
       "masked": "The success produced several ____.",
       "options": [
         "copy-mcq-17",
-        "copy-mcq-16",
-        "copy-mcq-18",
-        "copy-mcq-15",
-        "copy-mcq-19",
-        "copy-mcq-14"
+        "copy-mcq-09",
+        "copy-mcq-21",
+        "copy-mcq-28"
       ],
       "explanation": "本句的「copycat products」指「仿照先前行為、產品或事件而出現的；模仿性的」。",
       "sentenceIndex": 69,
@@ -2826,12 +2548,10 @@ export default {
         "copycat products"
       ],
       "optionReasons": {
-        "copy-mcq-17": "本句指「仿照先前行為、產品或事件而出現的；模仿性的」。",
-        "copy-mcq-16": "「經常模仿別人的人；跟風者」是「copycat — person」的用法，與本句語境不同。",
-        "copy-mcq-18": "「專門撰寫廣告或行銷文案的人」是「copywriter」的用法，與本句語境不同。",
-        "copy-mcq-15": "「某個基因或遺傳序列的一個實例／拷貝」是「copy — genetics」的用法，與本句語境不同。",
-        "copy-mcq-19": "「撰寫廣告、行銷或宣傳文字的工作／技巧」是「copywriting」的用法，與本句語境不同。",
-        "copy-mcq-14": "「無線電通訊中確認訊息是否已收到並理解；收到嗎／收到」是「Do you copy? / Copy that.」的用法，與本句語境不同。"
+        "copy-mcq-17": "本句的「copycat products」指「仿照先前行為、產品或事件而出現的；模仿性的」。",
+        "copy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-17"
     },
@@ -2843,11 +2563,9 @@ export default {
       "masked": "Unauthorized ____ is prohibited.",
       "options": [
         "copy-mcq-27",
-        "copy-mcq-26",
-        "copy-mcq-28",
-        "copy-mcq-25",
-        "copy-mcq-29",
-        "copy-mcq-24"
+        "copy-mcq-15",
+        "copy-mcq-05",
+        "copy-mcq-11"
       ],
       "explanation": "本句的「copying」指「表示複製；抄寫；模仿」。",
       "sentenceIndex": 70,
@@ -2856,12 +2574,10 @@ export default {
         "copying"
       ],
       "optionReasons": {
-        "copy-mcq-27": "本句指「表示複製；抄寫；模仿」。",
-        "copy-mcq-26": "「表示保留副本」是「32. keep a copy」的用法，與本句語境不同。",
-        "copy-mcq-28": "「表示影印機；複印機」是「37. copier」的用法，與本句語境不同。",
-        "copy-mcq-25": "「表示拷貝；副本」是「30. copy — one instance of a gene or genetic sequence」的用法，與本句語境不同。",
-        "copy-mcq-29": "「表示影印」是「Verb」的用法，與本句語境不同。",
-        "copy-mcq-24": "「表示副本；複本」是「29. copy — duplicate data or object」的用法，與本句語境不同。"
+        "copy-mcq-27": "本句的「copying」指「表示複製；抄寫；模仿」。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-27"
     },
@@ -2873,11 +2589,9 @@ export default {
       "masked": "Children learn partly through ____ others.",
       "options": [
         "copy-mcq-27",
-        "copy-mcq-26",
-        "copy-mcq-28",
-        "copy-mcq-25",
-        "copy-mcq-29",
-        "copy-mcq-24"
+        "copy-mcq-09",
+        "copy-mcq-11",
+        "copy-mcq-13"
       ],
       "explanation": "本句的「copying」指「表示複製；抄寫；模仿」。",
       "sentenceIndex": 71,
@@ -2886,12 +2600,10 @@ export default {
         "copying"
       ],
       "optionReasons": {
-        "copy-mcq-27": "本句指「表示複製；抄寫；模仿」。",
-        "copy-mcq-26": "「表示保留副本」是「32. keep a copy」的用法，與本句語境不同。",
-        "copy-mcq-28": "「表示影印機；複印機」是「37. copier」的用法，與本句語境不同。",
-        "copy-mcq-25": "「表示拷貝；副本」是「30. copy — one instance of a gene or genetic sequence」的用法，與本句語境不同。",
-        "copy-mcq-29": "「表示影印」是「Verb」的用法，與本句語境不同。",
-        "copy-mcq-24": "「表示副本；複本」是「29. copy — duplicate data or object」的用法，與本句語境不同。"
+        "copy-mcq-27": "本句的「copying」指「表示複製；抄寫；模仿」。",
+        "copy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-27"
     },
@@ -2903,11 +2615,9 @@ export default {
       "masked": "The office ____ is broken.",
       "options": [
         "copy-mcq-28",
-        "copy-mcq-27",
-        "copy-mcq-29",
-        "copy-mcq-26",
-        "copy-mcq-25",
-        "copy-mcq-24"
+        "copy-mcq-15",
+        "copy-mcq-18",
+        "copy-mcq-11"
       ],
       "explanation": "本句的「copier」指「表示影印機；複印機」。",
       "sentenceIndex": 72,
@@ -2916,12 +2626,10 @@ export default {
         "copier"
       ],
       "optionReasons": {
-        "copy-mcq-28": "本句指「表示影印機；複印機」。",
-        "copy-mcq-27": "「表示複製；抄寫；模仿」是「36. copying」的用法，與本句語境不同。",
-        "copy-mcq-29": "「表示影印」是「Verb」的用法，與本句語境不同。",
-        "copy-mcq-26": "「表示保留副本」是「32. keep a copy」的用法，與本句語境不同。",
-        "copy-mcq-25": "「表示拷貝；副本」是「30. copy — one instance of a gene or genetic sequence」的用法，與本句語境不同。",
-        "copy-mcq-24": "「表示副本；複本」是「29. copy — duplicate data or object」的用法，與本句語境不同。"
+        "copy-mcq-28": "本句的「copier」指「表示影印機；複印機」。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-28"
     },
@@ -2933,11 +2641,9 @@ export default {
       "masked": "Put the document in the ____.",
       "options": [
         "copy-mcq-28",
-        "copy-mcq-27",
-        "copy-mcq-29",
-        "copy-mcq-26",
+        "copy-mcq-05",
         "copy-mcq-25",
-        "copy-mcq-24"
+        "copy-mcq-18"
       ],
       "explanation": "本句的「copier」指「表示影印機；複印機」。",
       "sentenceIndex": 73,
@@ -2946,12 +2652,10 @@ export default {
         "copier"
       ],
       "optionReasons": {
-        "copy-mcq-28": "本句指「表示影印機；複印機」。",
-        "copy-mcq-27": "「表示複製；抄寫；模仿」是「36. copying」的用法，與本句語境不同。",
-        "copy-mcq-29": "「表示影印」是「Verb」的用法，與本句語境不同。",
-        "copy-mcq-26": "「表示保留副本」是「32. keep a copy」的用法，與本句語境不同。",
-        "copy-mcq-25": "「表示拷貝；副本」是「30. copy — one instance of a gene or genetic sequence」的用法，與本句語境不同。",
-        "copy-mcq-24": "「表示副本；複本」是「29. copy — duplicate data or object」的用法，與本句語境不同。"
+        "copy-mcq-28": "本句的「copier」指「表示影印機；複印機」。",
+        "copy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-28"
     },
@@ -2963,11 +2667,9 @@ export default {
       "masked": "I need a ____ of this document.",
       "options": [
         "copy-mcq-29",
-        "copy-mcq-28",
         "copy-mcq-27",
-        "copy-mcq-26",
-        "copy-mcq-25",
-        "copy-mcq-24"
+        "copy-mcq-12",
+        "copy-mcq-09"
       ],
       "explanation": "本句的「photocopy」指「表示影印」。",
       "sentenceIndex": 74,
@@ -2976,12 +2678,10 @@ export default {
         "photocopy"
       ],
       "optionReasons": {
-        "copy-mcq-29": "本句指「表示影印」。",
-        "copy-mcq-28": "「表示影印機；複印機」是「37. copier」的用法，與本句語境不同。",
-        "copy-mcq-27": "「表示複製；抄寫；模仿」是「36. copying」的用法，與本句語境不同。",
-        "copy-mcq-26": "「表示保留副本」是「32. keep a copy」的用法，與本句語境不同。",
-        "copy-mcq-25": "「表示拷貝；副本」是「30. copy — one instance of a gene or genetic sequence」的用法，與本句語境不同。",
-        "copy-mcq-24": "「表示副本；複本」是「29. copy — duplicate data or object」的用法，與本句語境不同。"
+        "copy-mcq-29": "本句的「photocopy」指「表示影印」。",
+        "copy-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-29"
     },
@@ -2993,11 +2693,9 @@ export default {
       "masked": "Could you ____?",
       "options": [
         "copy-mcq-29",
-        "copy-mcq-28",
-        "copy-mcq-27",
-        "copy-mcq-26",
-        "copy-mcq-25",
-        "copy-mcq-24"
+        "copy-mcq-15",
+        "copy-mcq-14",
+        "copy-mcq-06"
       ],
       "explanation": "本句的「photocopy these pages」指「表示影印」。",
       "sentenceIndex": 75,
@@ -3006,12 +2704,10 @@ export default {
         "photocopy these pages"
       ],
       "optionReasons": {
-        "copy-mcq-29": "本句指「表示影印」。",
-        "copy-mcq-28": "「表示影印機；複印機」是「37. copier」的用法，與本句語境不同。",
-        "copy-mcq-27": "「表示複製；抄寫；模仿」是「36. copying」的用法，與本句語境不同。",
-        "copy-mcq-26": "「表示保留副本」是「32. keep a copy」的用法，與本句語境不同。",
-        "copy-mcq-25": "「表示拷貝；副本」是「30. copy — one instance of a gene or genetic sequence」的用法，與本句語境不同。",
-        "copy-mcq-24": "「表示副本；複本」是「29. copy — duplicate data or object」的用法，與本句語境不同。"
+        "copy-mcq-29": "本句的「photocopy these pages」指「表示影印」。",
+        "copy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "copy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "copy-mcq-29"
     }
@@ -3023,5 +2719,7 @@ export default {
     "sha256": "04219fc30e78cd974829aa28b873d4b09172e66d546a6a9f6649966eacb04f40",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

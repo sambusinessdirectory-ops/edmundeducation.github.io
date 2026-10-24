@@ -231,7 +231,7 @@ export default {
     },
     {
       "id": "real-mcq-11",
-      "title": "表示驚訝、興趣或懷疑地確認對方所說的事情",
+      "title": "驚訝、興趣或懷疑地確認對方所說的事情",
       "form": "really? = surprise/doubt（回應）",
       "en": "really? = surprise/doubt（回應）",
       "zh": "表示驚訝、興趣或懷疑地確認對方所說的事情",
@@ -547,11 +547,7 @@ export default {
       "masked": "The story is based on ____ events.",
       "options": [
         "real-mcq-01",
-        "real-mcq-02",
-        "real-mcq-03",
-        "real-mcq-04",
-        "real-mcq-05",
-        "real-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「real」指「真正在現實中存在或發生，而不是想像、虛構或捏造的」。",
       "sentenceIndex": 0,
@@ -560,12 +556,8 @@ export default {
         "real"
       ],
       "optionReasons": {
-        "real-mcq-01": "本句指「真正在現實中存在或發生，而不是想像、虛構或捏造的」。",
-        "real-mcq-02": "「具有真正身分、材料或來源，而不是假貨、仿製品或人工替代物的」是「real = genuine/authentic（物品／身分／材料）」的用法，與本句語境不同。",
-        "real-mcq-03": "「實際存在並真正構成事情核心，而不是表面上看來如此的」是「real = true/actual situation（情況／原因／問題）」的用法，與本句語境不同。",
-        "real-mcq-04": "「並非只是理論或想像，而是真正可能造成後果的」是「real = serious/significant（問題／危險／可能性）」的用法，與本句語境不同。",
-        "real-mcq-05": "「真正存在於內心，而不是裝出來或表面做樣子的」是「real = sincere/genuine（情感／興趣／關心）」的用法，與本句語境不同。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。"
+        "real-mcq-01": "本句的「real」指「真正在現實中存在或發生，而不是想像、虛構或捏造的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-01"
     },
@@ -577,11 +569,7 @@ export default {
       "masked": "Is that a ____ diamond?",
       "options": [
         "real-mcq-01",
-        "real-mcq-02",
-        "real-mcq-03",
-        "real-mcq-04",
-        "real-mcq-05",
-        "real-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「real」指「真正在現實中存在或發生，而不是想像、虛構或捏造的」。",
       "sentenceIndex": 1,
@@ -590,12 +578,8 @@ export default {
         "real"
       ],
       "optionReasons": {
-        "real-mcq-01": "本句指「真正在現實中存在或發生，而不是想像、虛構或捏造的」。",
-        "real-mcq-02": "「具有真正身分、材料或來源，而不是假貨、仿製品或人工替代物的」是「real = genuine/authentic（物品／身分／材料）」的用法，與本句語境不同。",
-        "real-mcq-03": "「實際存在並真正構成事情核心，而不是表面上看來如此的」是「real = true/actual situation（情況／原因／問題）」的用法，與本句語境不同。",
-        "real-mcq-04": "「並非只是理論或想像，而是真正可能造成後果的」是「real = serious/significant（問題／危險／可能性）」的用法，與本句語境不同。",
-        "real-mcq-05": "「真正存在於內心，而不是裝出來或表面做樣子的」是「real = sincere/genuine（情感／興趣／關心）」的用法，與本句語境不同。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。"
+        "real-mcq-01": "本句的「real」指「真正在現實中存在或發生，而不是想像、虛構或捏造的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-01"
     },
@@ -607,11 +591,7 @@ export default {
       "masked": "The bag is made of ____ leather.",
       "options": [
         "real-mcq-02",
-        "real-mcq-01",
-        "real-mcq-03",
-        "real-mcq-04",
-        "real-mcq-05",
-        "real-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「real」指「具有真正身分、材料或來源，而不是假貨、仿製品或人工替代物的」。",
       "sentenceIndex": 0,
@@ -620,12 +600,8 @@ export default {
         "real"
       ],
       "optionReasons": {
-        "real-mcq-02": "本句指「具有真正身分、材料或來源，而不是假貨、仿製品或人工替代物的」。",
-        "real-mcq-01": "「真正在現實中存在或發生，而不是想像、虛構或捏造的」是「real = actually existing（人物／物件／事件）」的用法，與本句語境不同。",
-        "real-mcq-03": "「實際存在並真正構成事情核心，而不是表面上看來如此的」是「real = true/actual situation（情況／原因／問題）」的用法，與本句語境不同。",
-        "real-mcq-04": "「並非只是理論或想像，而是真正可能造成後果的」是「real = serious/significant（問題／危險／可能性）」的用法，與本句語境不同。",
-        "real-mcq-05": "「真正存在於內心，而不是裝出來或表面做樣子的」是「real = sincere/genuine（情感／興趣／關心）」的用法，與本句語境不同。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。"
+        "real-mcq-02": "本句的「real」指「具有真正身分、材料或來源，而不是假貨、仿製品或人工替代物的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-02"
     },
@@ -637,11 +613,7 @@ export default {
       "masked": "Experts confirmed that the painting was ____.",
       "options": [
         "real-mcq-02",
-        "real-mcq-01",
-        "real-mcq-03",
-        "real-mcq-04",
-        "real-mcq-05",
-        "real-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「real」指「具有真正身分、材料或來源，而不是假貨、仿製品或人工替代物的」。",
       "sentenceIndex": 1,
@@ -650,12 +622,8 @@ export default {
         "real"
       ],
       "optionReasons": {
-        "real-mcq-02": "本句指「具有真正身分、材料或來源，而不是假貨、仿製品或人工替代物的」。",
-        "real-mcq-01": "「真正在現實中存在或發生，而不是想像、虛構或捏造的」是「real = actually existing（人物／物件／事件）」的用法，與本句語境不同。",
-        "real-mcq-03": "「實際存在並真正構成事情核心，而不是表面上看來如此的」是「real = true/actual situation（情況／原因／問題）」的用法，與本句語境不同。",
-        "real-mcq-04": "「並非只是理論或想像，而是真正可能造成後果的」是「real = serious/significant（問題／危險／可能性）」的用法，與本句語境不同。",
-        "real-mcq-05": "「真正存在於內心，而不是裝出來或表面做樣子的」是「real = sincere/genuine（情感／興趣／關心）」的用法，與本句語境不同。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。"
+        "real-mcq-02": "本句的「real」指「具有真正身分、材料或來源，而不是假貨、仿製品或人工替代物的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-02"
     },
@@ -667,11 +635,7 @@ export default {
       "masked": "The ____ problem is poor communication.",
       "options": [
         "real-mcq-03",
-        "real-mcq-02",
-        "real-mcq-04",
-        "real-mcq-01",
-        "real-mcq-05",
-        "real-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「real」指「實際存在並真正構成事情核心，而不是表面上看來如此的」。",
       "sentenceIndex": 0,
@@ -680,12 +644,8 @@ export default {
         "real"
       ],
       "optionReasons": {
-        "real-mcq-03": "本句指「實際存在並真正構成事情核心，而不是表面上看來如此的」。",
-        "real-mcq-02": "「具有真正身分、材料或來源，而不是假貨、仿製品或人工替代物的」是「real = genuine/authentic（物品／身分／材料）」的用法，與本句語境不同。",
-        "real-mcq-04": "「並非只是理論或想像，而是真正可能造成後果的」是「real = serious/significant（問題／危險／可能性）」的用法，與本句語境不同。",
-        "real-mcq-01": "「真正在現實中存在或發生，而不是想像、虛構或捏造的」是「real = actually existing（人物／物件／事件）」的用法，與本句語境不同。",
-        "real-mcq-05": "「真正存在於內心，而不是裝出來或表面做樣子的」是「real = sincere/genuine（情感／興趣／關心）」的用法，與本句語境不同。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。"
+        "real-mcq-03": "本句的「real」指「實際存在並真正構成事情核心，而不是表面上看來如此的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-03"
     },
@@ -697,11 +657,7 @@ export default {
       "masked": "Nobody knew the ____ reason for his decision.",
       "options": [
         "real-mcq-03",
-        "real-mcq-02",
-        "real-mcq-04",
-        "real-mcq-01",
-        "real-mcq-05",
-        "real-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「real」指「實際存在並真正構成事情核心，而不是表面上看來如此的」。",
       "sentenceIndex": 1,
@@ -710,12 +666,8 @@ export default {
         "real"
       ],
       "optionReasons": {
-        "real-mcq-03": "本句指「實際存在並真正構成事情核心，而不是表面上看來如此的」。",
-        "real-mcq-02": "「具有真正身分、材料或來源，而不是假貨、仿製品或人工替代物的」是「real = genuine/authentic（物品／身分／材料）」的用法，與本句語境不同。",
-        "real-mcq-04": "「並非只是理論或想像，而是真正可能造成後果的」是「real = serious/significant（問題／危險／可能性）」的用法，與本句語境不同。",
-        "real-mcq-01": "「真正在現實中存在或發生，而不是想像、虛構或捏造的」是「real = actually existing（人物／物件／事件）」的用法，與本句語境不同。",
-        "real-mcq-05": "「真正存在於內心，而不是裝出來或表面做樣子的」是「real = sincere/genuine（情感／興趣／關心）」的用法，與本句語境不同。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。"
+        "real-mcq-03": "本句的「real」指「實際存在並真正構成事情核心，而不是表面上看來如此的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-03"
     },
@@ -727,11 +679,7 @@ export default {
       "masked": "There is a ____ risk of delay.",
       "options": [
         "real-mcq-04",
-        "real-mcq-03",
-        "real-mcq-05",
-        "real-mcq-02",
-        "real-mcq-06",
-        "real-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「real」指「並非只是理論或想像，而是真正可能造成後果的」。",
       "sentenceIndex": 0,
@@ -740,12 +688,8 @@ export default {
         "real"
       ],
       "optionReasons": {
-        "real-mcq-04": "本句指「並非只是理論或想像，而是真正可能造成後果的」。",
-        "real-mcq-03": "「實際存在並真正構成事情核心，而不是表面上看來如此的」是「real = true/actual situation（情況／原因／問題）」的用法，與本句語境不同。",
-        "real-mcq-05": "「真正存在於內心，而不是裝出來或表面做樣子的」是「real = sincere/genuine（情感／興趣／關心）」的用法，與本句語境不同。",
-        "real-mcq-02": "「具有真正身分、材料或來源，而不是假貨、仿製品或人工替代物的」是「real = genuine/authentic（物品／身分／材料）」的用法，與本句語境不同。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。",
-        "real-mcq-01": "「真正在現實中存在或發生，而不是想像、虛構或捏造的」是「real = actually existing（人物／物件／事件）」的用法，與本句語境不同。"
+        "real-mcq-04": "本句的「real」指「並非只是理論或想像，而是真正可能造成後果的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-04"
     },
@@ -757,11 +701,7 @@ export default {
       "masked": "Climate change presents a ____ challenge.",
       "options": [
         "real-mcq-04",
-        "real-mcq-03",
-        "real-mcq-05",
-        "real-mcq-02",
-        "real-mcq-06",
-        "real-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「real」指「並非只是理論或想像，而是真正可能造成後果的」。",
       "sentenceIndex": 1,
@@ -770,12 +710,8 @@ export default {
         "real"
       ],
       "optionReasons": {
-        "real-mcq-04": "本句指「並非只是理論或想像，而是真正可能造成後果的」。",
-        "real-mcq-03": "「實際存在並真正構成事情核心，而不是表面上看來如此的」是「real = true/actual situation（情況／原因／問題）」的用法，與本句語境不同。",
-        "real-mcq-05": "「真正存在於內心，而不是裝出來或表面做樣子的」是「real = sincere/genuine（情感／興趣／關心）」的用法，與本句語境不同。",
-        "real-mcq-02": "「具有真正身分、材料或來源，而不是假貨、仿製品或人工替代物的」是「real = genuine/authentic（物品／身分／材料）」的用法，與本句語境不同。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。",
-        "real-mcq-01": "「真正在現實中存在或發生，而不是想像、虛構或捏造的」是「real = actually existing（人物／物件／事件）」的用法，與本句語境不同。"
+        "real-mcq-04": "本句的「real」指「並非只是理論或想像，而是真正可能造成後果的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-04"
     },
@@ -787,11 +723,7 @@ export default {
       "masked": "She showed ____ concern for the customer.",
       "options": [
         "real-mcq-05",
-        "real-mcq-04",
-        "real-mcq-06",
-        "real-mcq-03",
-        "real-mcq-07",
-        "real-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「real」指「真正存在於內心，而不是裝出來或表面做樣子的」。",
       "sentenceIndex": 0,
@@ -800,12 +732,8 @@ export default {
         "real"
       ],
       "optionReasons": {
-        "real-mcq-05": "本句指「真正存在於內心，而不是裝出來或表面做樣子的」。",
-        "real-mcq-04": "「並非只是理論或想像，而是真正可能造成後果的」是「real = serious/significant（問題／危險／可能性）」的用法，與本句語境不同。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。",
-        "real-mcq-03": "「實際存在並真正構成事情核心，而不是表面上看來如此的」是「real = true/actual situation（情況／原因／問題）」的用法，與本句語境不同。",
-        "real-mcq-07": "「與理論、想像、模擬或虛構相對的實際生活環境」是「real = ordinary/practical life rather than theory（現實生活）」的用法，與本句語境不同。",
-        "real-mcq-02": "「具有真正身分、材料或來源，而不是假貨、仿製品或人工替代物的」是「real = genuine/authentic（物品／身分／材料）」的用法，與本句語境不同。"
+        "real-mcq-05": "本句的「real」指「真正存在於內心，而不是裝出來或表面做樣子的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-05"
     },
@@ -817,11 +745,7 @@ export default {
       "masked": "His apology showed ____ regret.",
       "options": [
         "real-mcq-05",
-        "real-mcq-04",
-        "real-mcq-06",
-        "real-mcq-03",
-        "real-mcq-07",
-        "real-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「real」指「真正存在於內心，而不是裝出來或表面做樣子的」。",
       "sentenceIndex": 1,
@@ -830,12 +754,8 @@ export default {
         "real"
       ],
       "optionReasons": {
-        "real-mcq-05": "本句指「真正存在於內心，而不是裝出來或表面做樣子的」。",
-        "real-mcq-04": "「並非只是理論或想像，而是真正可能造成後果的」是「real = serious/significant（問題／危險／可能性）」的用法，與本句語境不同。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。",
-        "real-mcq-03": "「實際存在並真正構成事情核心，而不是表面上看來如此的」是「real = true/actual situation（情況／原因／問題）」的用法，與本句語境不同。",
-        "real-mcq-07": "「與理論、想像、模擬或虛構相對的實際生活環境」是「real = ordinary/practical life rather than theory（現實生活）」的用法，與本句語境不同。",
-        "real-mcq-02": "「具有真正身分、材料或來源，而不是假貨、仿製品或人工替代物的」是「real = genuine/authentic（物品／身分／材料）」的用法，與本句語境不同。"
+        "real-mcq-05": "本句的「real」指「真正存在於內心，而不是裝出來或表面做樣子的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-05"
     },
@@ -847,11 +767,7 @@ export default {
       "masked": "The new system has made a ____ difference.",
       "options": [
         "real-mcq-06",
-        "real-mcq-05",
-        "real-mcq-07",
-        "real-mcq-04",
-        "real-mcq-08",
-        "real-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「real」指「並非只是表面變化，而是真正具有實際影響的」。",
       "sentenceIndex": 0,
@@ -860,12 +776,8 @@ export default {
         "real"
       ],
       "optionReasons": {
-        "real-mcq-06": "本句指「並非只是表面變化，而是真正具有實際影響的」。",
-        "real-mcq-05": "「真正存在於內心，而不是裝出來或表面做樣子的」是「real = sincere/genuine（情感／興趣／關心）」的用法，與本句語境不同。",
-        "real-mcq-07": "「與理論、想像、模擬或虛構相對的實際生活環境」是「real = ordinary/practical life rather than theory（現實生活）」的用法，與本句語境不同。",
-        "real-mcq-04": "「並非只是理論或想像，而是真正可能造成後果的」是「real = serious/significant（問題／危險／可能性）」的用法，與本句語境不同。",
-        "real-mcq-08": "「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」是「real = economics/finance（經通脹調整後）」的用法，與本句語境不同。",
-        "real-mcq-03": "「實際存在並真正構成事情核心，而不是表面上看來如此的」是「real = true/actual situation（情況／原因／問題）」的用法，與本句語境不同。"
+        "real-mcq-06": "本句的「real」指「並非只是表面變化，而是真正具有實際影響的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-06"
     },
@@ -877,11 +789,7 @@ export default {
       "masked": "We are finally seeing ____ progress.",
       "options": [
         "real-mcq-06",
-        "real-mcq-05",
-        "real-mcq-07",
-        "real-mcq-04",
-        "real-mcq-08",
-        "real-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「real」指「並非只是表面變化，而是真正具有實際影響的」。",
       "sentenceIndex": 1,
@@ -890,12 +798,8 @@ export default {
         "real"
       ],
       "optionReasons": {
-        "real-mcq-06": "本句指「並非只是表面變化，而是真正具有實際影響的」。",
-        "real-mcq-05": "「真正存在於內心，而不是裝出來或表面做樣子的」是「real = sincere/genuine（情感／興趣／關心）」的用法，與本句語境不同。",
-        "real-mcq-07": "「與理論、想像、模擬或虛構相對的實際生活環境」是「real = ordinary/practical life rather than theory（現實生活）」的用法，與本句語境不同。",
-        "real-mcq-04": "「並非只是理論或想像，而是真正可能造成後果的」是「real = serious/significant（問題／危險／可能性）」的用法，與本句語境不同。",
-        "real-mcq-08": "「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」是「real = economics/finance（經通脹調整後）」的用法，與本句語境不同。",
-        "real-mcq-03": "「實際存在並真正構成事情核心，而不是表面上看來如此的」是「real = true/actual situation（情況／原因／問題）」的用法，與本句語境不同。"
+        "real-mcq-06": "本句的「real」指「並非只是表面變化，而是真正具有實際影響的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-06"
     },
@@ -907,11 +811,7 @@ export default {
       "masked": "The course uses examples from ____.",
       "options": [
         "real-mcq-07",
-        "real-mcq-06",
-        "real-mcq-08",
-        "real-mcq-05",
-        "real-mcq-09",
-        "real-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「real life」指「與理論、想像、模擬或虛構相對的實際生活環境」。",
       "sentenceIndex": 0,
@@ -920,12 +820,8 @@ export default {
         "real life"
       ],
       "optionReasons": {
-        "real-mcq-07": "本句指「與理論、想像、模擬或虛構相對的實際生活環境」。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。",
-        "real-mcq-08": "「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」是「real = economics/finance（經通脹調整後）」的用法，與本句語境不同。",
-        "real-mcq-05": "「真正存在於內心，而不是裝出來或表面做樣子的」是「real = sincere/genuine（情感／興趣／關心）」的用法，與本句語境不同。",
-        "real-mcq-09": "「強調某件事確實屬實，而不是假設、玩笑或誇張」是「really = actually / in fact（實際上／確實）」的用法，與本句語境不同。",
-        "real-mcq-04": "「並非只是理論或想像，而是真正可能造成後果的」是「real = serious/significant（問題／危險／可能性）」的用法，與本句語境不同。"
+        "real-mcq-07": "本句的「real life」指「與理論、想像、模擬或虛構相對的實際生活環境」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-07"
     },
@@ -937,11 +833,7 @@ export default {
       "masked": "The idea sounds good, but will it work in the ____?",
       "options": [
         "real-mcq-07",
-        "real-mcq-06",
-        "real-mcq-08",
-        "real-mcq-05",
-        "real-mcq-09",
-        "real-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「real world」指「與理論、想像、模擬或虛構相對的實際生活環境」。",
       "sentenceIndex": 1,
@@ -950,12 +842,8 @@ export default {
         "real world"
       ],
       "optionReasons": {
-        "real-mcq-07": "本句指「與理論、想像、模擬或虛構相對的實際生活環境」。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。",
-        "real-mcq-08": "「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」是「real = economics/finance（經通脹調整後）」的用法，與本句語境不同。",
-        "real-mcq-05": "「真正存在於內心，而不是裝出來或表面做樣子的」是「real = sincere/genuine（情感／興趣／關心）」的用法，與本句語境不同。",
-        "real-mcq-09": "「強調某件事確實屬實，而不是假設、玩笑或誇張」是「really = actually / in fact（實際上／確實）」的用法，與本句語境不同。",
-        "real-mcq-04": "「並非只是理論或想像，而是真正可能造成後果的」是「real = serious/significant（問題／危險／可能性）」的用法，與本句語境不同。"
+        "real-mcq-07": "本句的「real world」指「與理論、想像、模擬或虛構相對的實際生活環境」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-07"
     },
@@ -967,11 +855,7 @@ export default {
       "masked": "____ wages fell despite the salary increase.",
       "options": [
         "real-mcq-08",
-        "real-mcq-07",
-        "real-mcq-09",
-        "real-mcq-06",
-        "real-mcq-10",
-        "real-mcq-05"
+        "contrast-duration"
       ],
       "explanation": "本句的「Real」指「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」。",
       "sentenceIndex": 0,
@@ -980,12 +864,8 @@ export default {
         "Real"
       ],
       "optionReasons": {
-        "real-mcq-08": "本句指「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」。",
-        "real-mcq-07": "「與理論、想像、模擬或虛構相對的實際生活環境」是「real = ordinary/practical life rather than theory（現實生活）」的用法，與本句語境不同。",
-        "real-mcq-09": "「強調某件事確實屬實，而不是假設、玩笑或誇張」是「really = actually / in fact（實際上／確實）」的用法，與本句語境不同。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。",
-        "real-mcq-10": "「加強程度，表示「非常／很／確實很」」是「really = very / strongly（加強程度）」的用法，與本句語境不同。",
-        "real-mcq-05": "「真正存在於內心，而不是裝出來或表面做樣子的」是「real = sincere/genuine（情感／興趣／關心）」的用法，與本句語境不同。"
+        "real-mcq-08": "本句的「Real」指「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-08"
     },
@@ -997,11 +877,7 @@ export default {
       "masked": "The economy recorded strong ____ growth.",
       "options": [
         "real-mcq-08",
-        "real-mcq-07",
-        "real-mcq-09",
-        "real-mcq-06",
-        "real-mcq-10",
-        "real-mcq-05"
+        "contrast-duration"
       ],
       "explanation": "本句的「real」指「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」。",
       "sentenceIndex": 1,
@@ -1010,12 +886,8 @@ export default {
         "real"
       ],
       "optionReasons": {
-        "real-mcq-08": "本句指「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」。",
-        "real-mcq-07": "「與理論、想像、模擬或虛構相對的實際生活環境」是「real = ordinary/practical life rather than theory（現實生活）」的用法，與本句語境不同。",
-        "real-mcq-09": "「強調某件事確實屬實，而不是假設、玩笑或誇張」是「really = actually / in fact（實際上／確實）」的用法，與本句語境不同。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。",
-        "real-mcq-10": "「加強程度，表示「非常／很／確實很」」是「really = very / strongly（加強程度）」的用法，與本句語境不同。",
-        "real-mcq-05": "「真正存在於內心，而不是裝出來或表面做樣子的」是「real = sincere/genuine（情感／興趣／關心）」的用法，與本句語境不同。"
+        "real-mcq-08": "本句的「real」指「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-08"
     },
@@ -1027,11 +899,7 @@ export default {
       "masked": "Did he ____ say that?",
       "options": [
         "real-mcq-09",
-        "real-mcq-08",
-        "real-mcq-10",
-        "real-mcq-07",
-        "real-mcq-11",
-        "real-mcq-06"
+        "contrast-energy"
       ],
       "explanation": "本句的「really」指「強調某件事確實屬實，而不是假設、玩笑或誇張」。",
       "sentenceIndex": 0,
@@ -1040,12 +908,8 @@ export default {
         "really"
       ],
       "optionReasons": {
-        "real-mcq-09": "本句指「強調某件事確實屬實，而不是假設、玩笑或誇張」。",
-        "real-mcq-08": "「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」是「real = economics/finance（經通脹調整後）」的用法，與本句語境不同。",
-        "real-mcq-10": "「加強程度，表示「非常／很／確實很」」是「really = very / strongly（加強程度）」的用法，與本句語境不同。",
-        "real-mcq-07": "「與理論、想像、模擬或虛構相對的實際生活環境」是「real = ordinary/practical life rather than theory（現實生活）」的用法，與本句語境不同。",
-        "real-mcq-11": "「表示驚訝、興趣或懷疑地確認對方所說的事情」是「really? = surprise/doubt（回應）」的用法，與本句語境不同。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。"
+        "real-mcq-09": "本句的「really」指「強調某件事確實屬實，而不是假設、玩笑或誇張」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-09"
     },
@@ -1057,11 +921,7 @@ export default {
       "masked": "I ____ don’t know the answer.",
       "options": [
         "real-mcq-09",
-        "real-mcq-08",
-        "real-mcq-10",
-        "real-mcq-07",
-        "real-mcq-11",
-        "real-mcq-06"
+        "contrast-energy"
       ],
       "explanation": "本句的「really」指「強調某件事確實屬實，而不是假設、玩笑或誇張」。",
       "sentenceIndex": 1,
@@ -1070,12 +930,8 @@ export default {
         "really"
       ],
       "optionReasons": {
-        "real-mcq-09": "本句指「強調某件事確實屬實，而不是假設、玩笑或誇張」。",
-        "real-mcq-08": "「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」是「real = economics/finance（經通脹調整後）」的用法，與本句語境不同。",
-        "real-mcq-10": "「加強程度，表示「非常／很／確實很」」是「really = very / strongly（加強程度）」的用法，與本句語境不同。",
-        "real-mcq-07": "「與理論、想像、模擬或虛構相對的實際生活環境」是「real = ordinary/practical life rather than theory（現實生活）」的用法，與本句語境不同。",
-        "real-mcq-11": "「表示驚訝、興趣或懷疑地確認對方所說的事情」是「really? = surprise/doubt（回應）」的用法，與本句語境不同。",
-        "real-mcq-06": "「並非只是表面變化，而是真正具有實際影響的」是「real = substantial/considerable（程度／成就／改變）」的用法，與本句語境不同。"
+        "real-mcq-09": "本句的「really」指「強調某件事確實屬實，而不是假設、玩笑或誇張」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-09"
     },
@@ -1087,11 +943,7 @@ export default {
       "masked": "That image ____ stayed with me.",
       "options": [
         "real-mcq-10",
-        "real-mcq-09",
-        "real-mcq-11",
-        "real-mcq-08",
-        "real-mcq-12",
-        "real-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「really」指「加強程度，表示「非常／很／確實很」」。",
       "sentenceIndex": 0,
@@ -1100,12 +952,8 @@ export default {
         "really"
       ],
       "optionReasons": {
-        "real-mcq-10": "本句指「加強程度，表示「非常／很／確實很」」。",
-        "real-mcq-09": "「強調某件事確實屬實，而不是假設、玩笑或誇張」是「really = actually / in fact（實際上／確實）」的用法，與本句語境不同。",
-        "real-mcq-11": "「表示驚訝、興趣或懷疑地確認對方所說的事情」是「really? = surprise/doubt（回應）」的用法，與本句語境不同。",
-        "real-mcq-08": "「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」是「real = economics/finance（經通脹調整後）」的用法，與本句語境不同。",
-        "real-mcq-12": "「以較委婉方式表示否定、不完全同意或程度不高」是「not really = not exactly / not very much（委婉否定）」的用法，與本句語境不同。",
-        "real-mcq-07": "「與理論、想像、模擬或虛構相對的實際生活環境」是「real = ordinary/practical life rather than theory（現實生活）」的用法，與本句語境不同。"
+        "real-mcq-10": "本句的「really」指「加強程度，表示「非常／很／確實很」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-10"
     },
@@ -1117,11 +965,7 @@ export default {
       "masked": "The headphones were ____ effective.",
       "options": [
         "real-mcq-10",
-        "real-mcq-09",
-        "real-mcq-11",
-        "real-mcq-08",
-        "real-mcq-12",
-        "real-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「really」指「加強程度，表示「非常／很／確實很」」。",
       "sentenceIndex": 1,
@@ -1130,12 +974,8 @@ export default {
         "really"
       ],
       "optionReasons": {
-        "real-mcq-10": "本句指「加強程度，表示「非常／很／確實很」」。",
-        "real-mcq-09": "「強調某件事確實屬實，而不是假設、玩笑或誇張」是「really = actually / in fact（實際上／確實）」的用法，與本句語境不同。",
-        "real-mcq-11": "「表示驚訝、興趣或懷疑地確認對方所說的事情」是「really? = surprise/doubt（回應）」的用法，與本句語境不同。",
-        "real-mcq-08": "「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」是「real = economics/finance（經通脹調整後）」的用法，與本句語境不同。",
-        "real-mcq-12": "「以較委婉方式表示否定、不完全同意或程度不高」是「not really = not exactly / not very much（委婉否定）」的用法，與本句語境不同。",
-        "real-mcq-07": "「與理論、想像、模擬或虛構相對的實際生活環境」是「real = ordinary/practical life rather than theory（現實生活）」的用法，與本句語境不同。"
+        "real-mcq-10": "本句的「really」指「加強程度，表示「非常／很／確實很」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-10"
     },
@@ -1147,11 +987,7 @@ export default {
       "masked": "I ____ enjoyed the advertisement.",
       "options": [
         "real-mcq-10",
-        "real-mcq-09",
-        "real-mcq-11",
-        "real-mcq-08",
-        "real-mcq-12",
-        "real-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「really」指「加強程度，表示「非常／很／確實很」」。",
       "sentenceIndex": 2,
@@ -1160,12 +996,8 @@ export default {
         "really"
       ],
       "optionReasons": {
-        "real-mcq-10": "本句指「加強程度，表示「非常／很／確實很」」。",
-        "real-mcq-09": "「強調某件事確實屬實，而不是假設、玩笑或誇張」是「really = actually / in fact（實際上／確實）」的用法，與本句語境不同。",
-        "real-mcq-11": "「表示驚訝、興趣或懷疑地確認對方所說的事情」是「really? = surprise/doubt（回應）」的用法，與本句語境不同。",
-        "real-mcq-08": "「已扣除通脹或價格變化影響，以反映真正購買力或產量變化的」是「real = economics/finance（經通脹調整後）」的用法，與本句語境不同。",
-        "real-mcq-12": "「以較委婉方式表示否定、不完全同意或程度不高」是「not really = not exactly / not very much（委婉否定）」的用法，與本句語境不同。",
-        "real-mcq-07": "「與理論、想像、模擬或虛構相對的實際生活環境」是「real = ordinary/practical life rather than theory（現實生活）」的用法，與本句語境不同。"
+        "real-mcq-10": "本句的「really」指「加強程度，表示「非常／很／確實很」」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-10"
     },
@@ -1177,11 +1009,7 @@ export default {
       "masked": "The ____ was very different from what we expected.",
       "options": [
         "real-mcq-13",
-        "real-mcq-12",
-        "real-mcq-14",
-        "real-mcq-11",
-        "real-mcq-15",
-        "real-mcq-10"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reality」指「事情真正存在和發生的狀況，而不是想像、希望或表面印象」。",
       "sentenceIndex": 0,
@@ -1190,12 +1018,8 @@ export default {
         "reality"
       ],
       "optionReasons": {
-        "real-mcq-13": "本句指「事情真正存在和發生的狀況，而不是想像、希望或表面印象」。",
-        "real-mcq-12": "「以較委婉方式表示否定、不完全同意或程度不高」是「not really = not exactly / not very much（委婉否定）」的用法，與本句語境不同。",
-        "real-mcq-14": "「與幻想、夢境、虛構或想像相對的真實存在世界」是「reality = real life as opposed to imagination/fiction（現實世界）」的用法，與本句語境不同。",
-        "real-mcq-11": "「表示驚訝、興趣或懷疑地確認對方所說的事情」是「really? = surprise/doubt（回應）」的用法，與本句語境不同。",
-        "real-mcq-15": "「原本只是想法、夢想或計劃的事情真正實現」是「become a reality = idea/hope becoming real（願望／計劃）」的用法，與本句語境不同。",
-        "real-mcq-10": "「加強程度，表示「非常／很／確實很」」是「really = very / strongly（加強程度）」的用法，與本句語境不同。"
+        "real-mcq-13": "本句的「reality」指「事情真正存在和發生的狀況，而不是想像、希望或表面印象」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-13"
     },
@@ -1207,11 +1031,7 @@ export default {
       "masked": "We have to face the ____ of the situation.",
       "options": [
         "real-mcq-13",
-        "real-mcq-12",
-        "real-mcq-14",
-        "real-mcq-11",
-        "real-mcq-15",
-        "real-mcq-10"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reality」指「事情真正存在和發生的狀況，而不是想像、希望或表面印象」。",
       "sentenceIndex": 1,
@@ -1220,12 +1040,8 @@ export default {
         "reality"
       ],
       "optionReasons": {
-        "real-mcq-13": "本句指「事情真正存在和發生的狀況，而不是想像、希望或表面印象」。",
-        "real-mcq-12": "「以較委婉方式表示否定、不完全同意或程度不高」是「not really = not exactly / not very much（委婉否定）」的用法，與本句語境不同。",
-        "real-mcq-14": "「與幻想、夢境、虛構或想像相對的真實存在世界」是「reality = real life as opposed to imagination/fiction（現實世界）」的用法，與本句語境不同。",
-        "real-mcq-11": "「表示驚訝、興趣或懷疑地確認對方所說的事情」是「really? = surprise/doubt（回應）」的用法，與本句語境不同。",
-        "real-mcq-15": "「原本只是想法、夢想或計劃的事情真正實現」是「become a reality = idea/hope becoming real（願望／計劃）」的用法，與本句語境不同。",
-        "real-mcq-10": "「加強程度，表示「非常／很／確實很」」是「really = very / strongly（加強程度）」的用法，與本句語境不同。"
+        "real-mcq-13": "本句的「reality」指「事情真正存在和發生的狀況，而不是想像、希望或表面印象」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-13"
     },
@@ -1237,11 +1053,7 @@ export default {
       "masked": "The film mixes fantasy with ____.",
       "options": [
         "real-mcq-14",
-        "real-mcq-13",
-        "real-mcq-15",
-        "real-mcq-12",
-        "real-mcq-16",
-        "real-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reality」指「與幻想、夢境、虛構或想像相對的真實存在世界」。",
       "sentenceIndex": 0,
@@ -1250,12 +1062,8 @@ export default {
         "reality"
       ],
       "optionReasons": {
-        "real-mcq-14": "本句指「與幻想、夢境、虛構或想像相對的真實存在世界」。",
-        "real-mcq-13": "「事情真正存在和發生的狀況，而不是想像、希望或表面印象」是「reality = actual state of things（真實情況）」的用法，與本句語境不同。",
-        "real-mcq-15": "「原本只是想法、夢想或計劃的事情真正實現」是「become a reality = idea/hope becoming real（願望／計劃）」的用法，與本句語境不同。",
-        "real-mcq-12": "「以較委婉方式表示否定、不完全同意或程度不高」是「not really = not exactly / not very much（委婉否定）」的用法，與本句語境不同。",
-        "real-mcq-16": "「用來指出真實情況，通常與表面印象、想像或預期形成對比」是「in reality = actually / contrary to appearance（實際上）」的用法，與本句語境不同。",
-        "real-mcq-11": "「表示驚訝、興趣或懷疑地確認對方所說的事情」是「really? = surprise/doubt（回應）」的用法，與本句語境不同。"
+        "real-mcq-14": "本句的「reality」指「與幻想、夢境、虛構或想像相對的真實存在世界」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-14"
     },
@@ -1267,11 +1075,7 @@ export default {
       "masked": "He found it difficult to separate imagination from ____.",
       "options": [
         "real-mcq-14",
-        "real-mcq-13",
-        "real-mcq-15",
-        "real-mcq-12",
-        "real-mcq-16",
-        "real-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reality」指「與幻想、夢境、虛構或想像相對的真實存在世界」。",
       "sentenceIndex": 1,
@@ -1280,12 +1084,8 @@ export default {
         "reality"
       ],
       "optionReasons": {
-        "real-mcq-14": "本句指「與幻想、夢境、虛構或想像相對的真實存在世界」。",
-        "real-mcq-13": "「事情真正存在和發生的狀況，而不是想像、希望或表面印象」是「reality = actual state of things（真實情況）」的用法，與本句語境不同。",
-        "real-mcq-15": "「原本只是想法、夢想或計劃的事情真正實現」是「become a reality = idea/hope becoming real（願望／計劃）」的用法，與本句語境不同。",
-        "real-mcq-12": "「以較委婉方式表示否定、不完全同意或程度不高」是「not really = not exactly / not very much（委婉否定）」的用法，與本句語境不同。",
-        "real-mcq-16": "「用來指出真實情況，通常與表面印象、想像或預期形成對比」是「in reality = actually / contrary to appearance（實際上）」的用法，與本句語境不同。",
-        "real-mcq-11": "「表示驚訝、興趣或懷疑地確認對方所說的事情」是「really? = surprise/doubt（回應）」的用法，與本句語境不同。"
+        "real-mcq-14": "本句的「reality」指「與幻想、夢境、虛構或想像相對的真實存在世界」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-14"
     },
@@ -1297,11 +1097,7 @@ export default {
       "masked": "The plan finally became a ____.",
       "options": [
         "real-mcq-15",
-        "real-mcq-14",
-        "real-mcq-16",
-        "real-mcq-13",
-        "real-mcq-17",
-        "real-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reality」指「原本只是想法、夢想或計劃的事情真正實現」。",
       "sentenceIndex": 0,
@@ -1310,12 +1106,8 @@ export default {
         "reality"
       ],
       "optionReasons": {
-        "real-mcq-15": "本句指「原本只是想法、夢想或計劃的事情真正實現」。",
-        "real-mcq-14": "「與幻想、夢境、虛構或想像相對的真實存在世界」是「reality = real life as opposed to imagination/fiction（現實世界）」的用法，與本句語境不同。",
-        "real-mcq-16": "「用來指出真實情況，通常與表面印象、想像或預期形成對比」是「in reality = actually / contrary to appearance（實際上）」的用法，與本句語境不同。",
-        "real-mcq-13": "「事情真正存在和發生的狀況，而不是想像、希望或表面印象」是「reality = actual state of things（真實情況）」的用法，與本句語境不同。",
-        "real-mcq-17": "「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」是「realistic = accurately representing real life（描寫／影像／故事）」的用法，與本句語境不同。",
-        "real-mcq-12": "「以較委婉方式表示否定、不完全同意或程度不高」是「not really = not exactly / not very much（委婉否定）」的用法，與本句語境不同。"
+        "real-mcq-15": "本句的「reality」指「原本只是想法、夢想或計劃的事情真正實現」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-15"
     },
@@ -1327,11 +1119,7 @@ export default {
       "masked": "Her dream of owning a café became a ____.",
       "options": [
         "real-mcq-15",
-        "real-mcq-14",
-        "real-mcq-16",
-        "real-mcq-13",
-        "real-mcq-17",
-        "real-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reality」指「原本只是想法、夢想或計劃的事情真正實現」。",
       "sentenceIndex": 1,
@@ -1340,12 +1128,8 @@ export default {
         "reality"
       ],
       "optionReasons": {
-        "real-mcq-15": "本句指「原本只是想法、夢想或計劃的事情真正實現」。",
-        "real-mcq-14": "「與幻想、夢境、虛構或想像相對的真實存在世界」是「reality = real life as opposed to imagination/fiction（現實世界）」的用法，與本句語境不同。",
-        "real-mcq-16": "「用來指出真實情況，通常與表面印象、想像或預期形成對比」是「in reality = actually / contrary to appearance（實際上）」的用法，與本句語境不同。",
-        "real-mcq-13": "「事情真正存在和發生的狀況，而不是想像、希望或表面印象」是「reality = actual state of things（真實情況）」的用法，與本句語境不同。",
-        "real-mcq-17": "「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」是「realistic = accurately representing real life（描寫／影像／故事）」的用法，與本句語境不同。",
-        "real-mcq-12": "「以較委婉方式表示否定、不完全同意或程度不高」是「not really = not exactly / not very much（委婉否定）」的用法，與本句語境不同。"
+        "real-mcq-15": "本句的「reality」指「原本只是想法、夢想或計劃的事情真正實現」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-15"
     },
@@ -1357,11 +1141,7 @@ export default {
       "masked": "The job looked easy, but ____ it was exhausting.",
       "options": [
         "real-mcq-16",
-        "real-mcq-15",
-        "real-mcq-17",
-        "real-mcq-14",
-        "real-mcq-18",
-        "real-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「in reality」指「用來指出真實情況，通常與表面印象、想像或預期形成對比」。",
       "sentenceIndex": 0,
@@ -1370,12 +1150,8 @@ export default {
         "in reality"
       ],
       "optionReasons": {
-        "real-mcq-16": "本句指「用來指出真實情況，通常與表面印象、想像或預期形成對比」。",
-        "real-mcq-15": "「原本只是想法、夢想或計劃的事情真正實現」是「become a reality = idea/hope becoming real（願望／計劃）」的用法，與本句語境不同。",
-        "real-mcq-17": "「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」是「realistic = accurately representing real life（描寫／影像／故事）」的用法，與本句語境不同。",
-        "real-mcq-14": "「與幻想、夢境、虛構或想像相對的真實存在世界」是「reality = real life as opposed to imagination/fiction（現實世界）」的用法，與本句語境不同。",
-        "real-mcq-18": "「考慮現實限制後仍然合理、可行或有機會達成的」是「realistic = practical/achievable（目標／計劃／預期）」的用法，與本句語境不同。",
-        "real-mcq-13": "「事情真正存在和發生的狀況，而不是想像、希望或表面印象」是「reality = actual state of things（真實情況）」的用法，與本句語境不同。"
+        "real-mcq-16": "本句的「in reality」指「用來指出真實情況，通常與表面印象、想像或預期形成對比」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-16"
     },
@@ -1387,11 +1163,7 @@ export default {
       "masked": "They appeared confident, but ____ they were worried.",
       "options": [
         "real-mcq-16",
-        "real-mcq-15",
-        "real-mcq-17",
-        "real-mcq-14",
-        "real-mcq-18",
-        "real-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「in reality」指「用來指出真實情況，通常與表面印象、想像或預期形成對比」。",
       "sentenceIndex": 1,
@@ -1400,12 +1172,8 @@ export default {
         "in reality"
       ],
       "optionReasons": {
-        "real-mcq-16": "本句指「用來指出真實情況，通常與表面印象、想像或預期形成對比」。",
-        "real-mcq-15": "「原本只是想法、夢想或計劃的事情真正實現」是「become a reality = idea/hope becoming real（願望／計劃）」的用法，與本句語境不同。",
-        "real-mcq-17": "「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」是「realistic = accurately representing real life（描寫／影像／故事）」的用法，與本句語境不同。",
-        "real-mcq-14": "「與幻想、夢境、虛構或想像相對的真實存在世界」是「reality = real life as opposed to imagination/fiction（現實世界）」的用法，與本句語境不同。",
-        "real-mcq-18": "「考慮現實限制後仍然合理、可行或有機會達成的」是「realistic = practical/achievable（目標／計劃／預期）」的用法，與本句語境不同。",
-        "real-mcq-13": "「事情真正存在和發生的狀況，而不是想像、希望或表面印象」是「reality = actual state of things（真實情況）」的用法，與本句語境不同。"
+        "real-mcq-16": "本句的「in reality」指「用來指出真實情況，通常與表面印象、想像或預期形成對比」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-16"
     },
@@ -1417,11 +1185,7 @@ export default {
       "masked": "The characters feel very ____.",
       "options": [
         "real-mcq-17",
-        "real-mcq-16",
-        "real-mcq-18",
-        "real-mcq-15",
-        "real-mcq-19",
-        "real-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「realistic」指「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」。",
       "sentenceIndex": 0,
@@ -1430,12 +1194,8 @@ export default {
         "realistic"
       ],
       "optionReasons": {
-        "real-mcq-17": "本句指「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」。",
-        "real-mcq-16": "「用來指出真實情況，通常與表面印象、想像或預期形成對比」是「in reality = actually / contrary to appearance（實際上）」的用法，與本句語境不同。",
-        "real-mcq-18": "「考慮現實限制後仍然合理、可行或有機會達成的」是「realistic = practical/achievable（目標／計劃／預期）」的用法，與本句語境不同。",
-        "real-mcq-15": "「原本只是想法、夢想或計劃的事情真正實現」是「become a reality = idea/hope becoming real（願望／計劃）」的用法，與本句語境不同。",
-        "real-mcq-19": "「根據實際情況作判斷，不被不切實際的希望影響」是「realistic = sensible about the actual situation（人／態度）」的用法，與本句語境不同。",
-        "real-mcq-14": "「與幻想、夢境、虛構或想像相對的真實存在世界」是「reality = real life as opposed to imagination/fiction（現實世界）」的用法，與本句語境不同。"
+        "real-mcq-17": "本句的「realistic」指「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-17"
     },
@@ -1447,11 +1207,7 @@ export default {
       "masked": "The game has highly ____ graphics.",
       "options": [
         "real-mcq-17",
-        "real-mcq-16",
-        "real-mcq-18",
-        "real-mcq-15",
-        "real-mcq-19",
-        "real-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「realistic」指「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」。",
       "sentenceIndex": 1,
@@ -1460,12 +1216,8 @@ export default {
         "realistic"
       ],
       "optionReasons": {
-        "real-mcq-17": "本句指「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」。",
-        "real-mcq-16": "「用來指出真實情況，通常與表面印象、想像或預期形成對比」是「in reality = actually / contrary to appearance（實際上）」的用法，與本句語境不同。",
-        "real-mcq-18": "「考慮現實限制後仍然合理、可行或有機會達成的」是「realistic = practical/achievable（目標／計劃／預期）」的用法，與本句語境不同。",
-        "real-mcq-15": "「原本只是想法、夢想或計劃的事情真正實現」是「become a reality = idea/hope becoming real（願望／計劃）」的用法，與本句語境不同。",
-        "real-mcq-19": "「根據實際情況作判斷，不被不切實際的希望影響」是「realistic = sensible about the actual situation（人／態度）」的用法，與本句語境不同。",
-        "real-mcq-14": "「與幻想、夢境、虛構或想像相對的真實存在世界」是「reality = real life as opposed to imagination/fiction（現實世界）」的用法，與本句語境不同。"
+        "real-mcq-17": "本句的「realistic」指「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-17"
     },
@@ -1477,11 +1229,7 @@ export default {
       "masked": "We need to set a ____ deadline.",
       "options": [
         "real-mcq-18",
-        "real-mcq-17",
-        "real-mcq-19",
-        "real-mcq-16",
-        "real-mcq-20",
-        "real-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「realistic」指「考慮現實限制後仍然合理、可行或有機會達成的」。",
       "sentenceIndex": 0,
@@ -1490,12 +1238,8 @@ export default {
         "realistic"
       ],
       "optionReasons": {
-        "real-mcq-18": "本句指「考慮現實限制後仍然合理、可行或有機會達成的」。",
-        "real-mcq-17": "「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」是「realistic = accurately representing real life（描寫／影像／故事）」的用法，與本句語境不同。",
-        "real-mcq-19": "「根據實際情況作判斷，不被不切實際的希望影響」是「realistic = sensible about the actual situation（人／態度）」的用法，與本句語境不同。",
-        "real-mcq-16": "「用來指出真實情況，通常與表面印象、想像或預期形成對比」是「in reality = actually / contrary to appearance（實際上）」的用法，與本句語境不同。",
-        "real-mcq-20": "「根據現實條件、限制和可能性來看」是「realistically = according to practical reality（實際而言）」的用法，與本句語境不同。",
-        "real-mcq-15": "「原本只是想法、夢想或計劃的事情真正實現」是「become a reality = idea/hope becoming real（願望／計劃）」的用法，與本句語境不同。"
+        "real-mcq-18": "本句的「realistic」指「考慮現實限制後仍然合理、可行或有機會達成的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-18"
     },
@@ -1507,11 +1251,7 @@ export default {
       "masked": "Is it ____ to finish everything today?",
       "options": [
         "real-mcq-18",
-        "real-mcq-17",
-        "real-mcq-19",
-        "real-mcq-16",
-        "real-mcq-20",
-        "real-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「realistic」指「考慮現實限制後仍然合理、可行或有機會達成的」。",
       "sentenceIndex": 1,
@@ -1520,12 +1260,8 @@ export default {
         "realistic"
       ],
       "optionReasons": {
-        "real-mcq-18": "本句指「考慮現實限制後仍然合理、可行或有機會達成的」。",
-        "real-mcq-17": "「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」是「realistic = accurately representing real life（描寫／影像／故事）」的用法，與本句語境不同。",
-        "real-mcq-19": "「根據實際情況作判斷，不被不切實際的希望影響」是「realistic = sensible about the actual situation（人／態度）」的用法，與本句語境不同。",
-        "real-mcq-16": "「用來指出真實情況，通常與表面印象、想像或預期形成對比」是「in reality = actually / contrary to appearance（實際上）」的用法，與本句語境不同。",
-        "real-mcq-20": "「根據現實條件、限制和可能性來看」是「realistically = according to practical reality（實際而言）」的用法，與本句語境不同。",
-        "real-mcq-15": "「原本只是想法、夢想或計劃的事情真正實現」是「become a reality = idea/hope becoming real（願望／計劃）」的用法，與本句語境不同。"
+        "real-mcq-18": "本句的「realistic」指「考慮現實限制後仍然合理、可行或有機會達成的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-18"
     },
@@ -1537,11 +1273,7 @@ export default {
       "masked": "We need to be ____ about our chances.",
       "options": [
         "real-mcq-19",
-        "real-mcq-18",
-        "real-mcq-20",
-        "real-mcq-17",
-        "real-mcq-21",
-        "real-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「realistic」指「根據實際情況作判斷，不被不切實際的希望影響」。",
       "sentenceIndex": 0,
@@ -1550,12 +1282,8 @@ export default {
         "realistic"
       ],
       "optionReasons": {
-        "real-mcq-19": "本句指「根據實際情況作判斷，不被不切實際的希望影響」。",
-        "real-mcq-18": "「考慮現實限制後仍然合理、可行或有機會達成的」是「realistic = practical/achievable（目標／計劃／預期）」的用法，與本句語境不同。",
-        "real-mcq-20": "「根據現實條件、限制和可能性來看」是「realistically = according to practical reality（實際而言）」的用法，與本句語境不同。",
-        "real-mcq-17": "「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」是「realistic = accurately representing real life（描寫／影像／故事）」的用法，與本句語境不同。",
-        "real-mcq-21": "「在藝術或文學中盡量忠實呈現現實生活的風格或思想」是「realism = accurate representation of real life（藝術／文學）」的用法，與本句語境不同。",
-        "real-mcq-16": "「用來指出真實情況，通常與表面印象、想像或預期形成對比」是「in reality = actually / contrary to appearance（實際上）」的用法，與本句語境不同。"
+        "real-mcq-19": "本句的「realistic」指「根據實際情況作判斷，不被不切實際的希望影響」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-19"
     },
@@ -1567,11 +1295,7 @@ export default {
       "masked": "She is very ____ about the difficulties involved.",
       "options": [
         "real-mcq-19",
-        "real-mcq-18",
-        "real-mcq-20",
-        "real-mcq-17",
-        "real-mcq-21",
-        "real-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「realistic」指「根據實際情況作判斷，不被不切實際的希望影響」。",
       "sentenceIndex": 1,
@@ -1580,12 +1304,8 @@ export default {
         "realistic"
       ],
       "optionReasons": {
-        "real-mcq-19": "本句指「根據實際情況作判斷，不被不切實際的希望影響」。",
-        "real-mcq-18": "「考慮現實限制後仍然合理、可行或有機會達成的」是「realistic = practical/achievable（目標／計劃／預期）」的用法，與本句語境不同。",
-        "real-mcq-20": "「根據現實條件、限制和可能性來看」是「realistically = according to practical reality（實際而言）」的用法，與本句語境不同。",
-        "real-mcq-17": "「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」是「realistic = accurately representing real life（描寫／影像／故事）」的用法，與本句語境不同。",
-        "real-mcq-21": "「在藝術或文學中盡量忠實呈現現實生活的風格或思想」是「realism = accurate representation of real life（藝術／文學）」的用法，與本句語境不同。",
-        "real-mcq-16": "「用來指出真實情況，通常與表面印象、想像或預期形成對比」是「in reality = actually / contrary to appearance（實際上）」的用法，與本句語境不同。"
+        "real-mcq-19": "本句的「realistic」指「根據實際情況作判斷，不被不切實際的希望影響」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-19"
     },
@@ -1597,11 +1317,7 @@ export default {
       "masked": "____, we need another week.",
       "options": [
         "real-mcq-20",
-        "real-mcq-19",
-        "real-mcq-21",
-        "real-mcq-18",
-        "real-mcq-22",
-        "real-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Realistically」指「根據現實條件、限制和可能性來看」。",
       "sentenceIndex": 0,
@@ -1610,12 +1326,8 @@ export default {
         "Realistically"
       ],
       "optionReasons": {
-        "real-mcq-20": "本句指「根據現實條件、限制和可能性來看」。",
-        "real-mcq-19": "「根據實際情況作判斷，不被不切實際的希望影響」是「realistic = sensible about the actual situation（人／態度）」的用法，與本句語境不同。",
-        "real-mcq-21": "「在藝術或文學中盡量忠實呈現現實生活的風格或思想」是「realism = accurate representation of real life（藝術／文學）」的用法，與本句語境不同。",
-        "real-mcq-18": "「考慮現實限制後仍然合理、可行或有機會達成的」是「realistic = practical/achievable（目標／計劃／預期）」的用法，與本句語境不同。",
-        "real-mcq-22": "「願意接受實際限制並按真實情況作判斷的務實態度」是「realism = practical acceptance of reality（處事態度）」的用法，與本句語境不同。",
-        "real-mcq-17": "「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」是「realistic = accurately representing real life（描寫／影像／故事）」的用法，與本句語境不同。"
+        "real-mcq-20": "本句的「Realistically」指「根據現實條件、限制和可能性來看」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-20"
     },
@@ -1627,11 +1339,7 @@ export default {
       "masked": "You cannot ____ expect everyone to agree.",
       "options": [
         "real-mcq-20",
-        "real-mcq-19",
-        "real-mcq-21",
-        "real-mcq-18",
-        "real-mcq-22",
-        "real-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「realistically」指「根據現實條件、限制和可能性來看」。",
       "sentenceIndex": 1,
@@ -1640,12 +1348,8 @@ export default {
         "realistically"
       ],
       "optionReasons": {
-        "real-mcq-20": "本句指「根據現實條件、限制和可能性來看」。",
-        "real-mcq-19": "「根據實際情況作判斷，不被不切實際的希望影響」是「realistic = sensible about the actual situation（人／態度）」的用法，與本句語境不同。",
-        "real-mcq-21": "「在藝術或文學中盡量忠實呈現現實生活的風格或思想」是「realism = accurate representation of real life（藝術／文學）」的用法，與本句語境不同。",
-        "real-mcq-18": "「考慮現實限制後仍然合理、可行或有機會達成的」是「realistic = practical/achievable（目標／計劃／預期）」的用法，與本句語境不同。",
-        "real-mcq-22": "「願意接受實際限制並按真實情況作判斷的務實態度」是「realism = practical acceptance of reality（處事態度）」的用法，與本句語境不同。",
-        "real-mcq-17": "「呈現方式接近真實生活或真實外觀，使人覺得可信或逼真的」是「realistic = accurately representing real life（描寫／影像／故事）」的用法，與本句語境不同。"
+        "real-mcq-20": "本句的「realistically」指「根據現實條件、限制和可能性來看」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-20"
     },
@@ -1657,11 +1361,7 @@ export default {
       "masked": "The novel is known for its social ____.",
       "options": [
         "real-mcq-21",
-        "real-mcq-20",
-        "real-mcq-22",
-        "real-mcq-19",
-        "real-mcq-23",
-        "real-mcq-18"
+        "contrast-purchase"
       ],
       "explanation": "本句的「realism」指「在藝術或文學中盡量忠實呈現現實生活的風格或思想」。",
       "sentenceIndex": 0,
@@ -1670,12 +1370,8 @@ export default {
         "realism"
       ],
       "optionReasons": {
-        "real-mcq-21": "本句指「在藝術或文學中盡量忠實呈現現實生活的風格或思想」。",
-        "real-mcq-20": "「根據現實條件、限制和可能性來看」是「realistically = according to practical reality（實際而言）」的用法，與本句語境不同。",
-        "real-mcq-22": "「願意接受實際限制並按真實情況作判斷的務實態度」是「realism = practical acceptance of reality（處事態度）」的用法，與本句語境不同。",
-        "real-mcq-19": "「根據實際情況作判斷，不被不切實際的希望影響」是「realistic = sensible about the actual situation（人／態度）」的用法，與本句語境不同。",
-        "real-mcq-23": "「並非真實存在，或讓人感覺不像現實的」是「unreal = not real / imaginary（不存在於現實）」的用法，與本句語境不同。",
-        "real-mcq-18": "「考慮現實限制後仍然合理、可行或有機會達成的」是「realistic = practical/achievable（目標／計劃／預期）」的用法，與本句語境不同。"
+        "real-mcq-21": "本句的「realism」指「在藝術或文學中盡量忠實呈現現實生活的風格或思想」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-21"
     },
@@ -1687,11 +1383,7 @@ export default {
       "masked": "The film combines fantasy with moments of ____.",
       "options": [
         "real-mcq-21",
-        "real-mcq-20",
-        "real-mcq-22",
-        "real-mcq-19",
-        "real-mcq-23",
-        "real-mcq-18"
+        "contrast-purchase"
       ],
       "explanation": "本句的「realism」指「在藝術或文學中盡量忠實呈現現實生活的風格或思想」。",
       "sentenceIndex": 1,
@@ -1700,12 +1392,8 @@ export default {
         "realism"
       ],
       "optionReasons": {
-        "real-mcq-21": "本句指「在藝術或文學中盡量忠實呈現現實生活的風格或思想」。",
-        "real-mcq-20": "「根據現實條件、限制和可能性來看」是「realistically = according to practical reality（實際而言）」的用法，與本句語境不同。",
-        "real-mcq-22": "「願意接受實際限制並按真實情況作判斷的務實態度」是「realism = practical acceptance of reality（處事態度）」的用法，與本句語境不同。",
-        "real-mcq-19": "「根據實際情況作判斷，不被不切實際的希望影響」是「realistic = sensible about the actual situation（人／態度）」的用法，與本句語境不同。",
-        "real-mcq-23": "「並非真實存在，或讓人感覺不像現實的」是「unreal = not real / imaginary（不存在於現實）」的用法，與本句語境不同。",
-        "real-mcq-18": "「考慮現實限制後仍然合理、可行或有機會達成的」是「realistic = practical/achievable（目標／計劃／預期）」的用法，與本句語境不同。"
+        "real-mcq-21": "本句的「realism」指「在藝術或文學中盡量忠實呈現現實生活的風格或思想」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-21"
     },
@@ -1717,11 +1405,7 @@ export default {
       "masked": "The plan requires both ambition and ____.",
       "options": [
         "real-mcq-22",
-        "real-mcq-21",
-        "real-mcq-23",
-        "real-mcq-20",
-        "real-mcq-24",
-        "real-mcq-19"
+        "contrast-purchase"
       ],
       "explanation": "本句的「realism」指「願意接受實際限制並按真實情況作判斷的務實態度」。",
       "sentenceIndex": 0,
@@ -1730,12 +1414,8 @@ export default {
         "realism"
       ],
       "optionReasons": {
-        "real-mcq-22": "本句指「願意接受實際限制並按真實情況作判斷的務實態度」。",
-        "real-mcq-21": "「在藝術或文學中盡量忠實呈現現實生活的風格或思想」是「realism = accurate representation of real life（藝術／文學）」的用法，與本句語境不同。",
-        "real-mcq-23": "「並非真實存在，或讓人感覺不像現實的」是「unreal = not real / imaginary（不存在於現實）」的用法，與本句語境不同。",
-        "real-mcq-20": "「根據現實條件、限制和可能性來看」是「realistically = according to practical reality（實際而言）」的用法，與本句語境不同。",
-        "real-mcq-24": "「非正式用法，表示某事好得或厲害得幾乎令人覺得不真實」是「unreal = extraordinarily good/impressive（非正式）」的用法，與本句語境不同。",
-        "real-mcq-19": "「根據實際情況作判斷，不被不切實際的希望影響」是「realistic = sensible about the actual situation（人／態度）」的用法，與本句語境不同。"
+        "real-mcq-22": "本句的「realism」指「願意接受實際限制並按真實情況作判斷的務實態度」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-22"
     },
@@ -1747,11 +1427,7 @@ export default {
       "masked": "Her optimism is balanced by ____.",
       "options": [
         "real-mcq-22",
-        "real-mcq-21",
-        "real-mcq-23",
-        "real-mcq-20",
-        "real-mcq-24",
-        "real-mcq-19"
+        "contrast-purchase"
       ],
       "explanation": "本句的「realism」指「願意接受實際限制並按真實情況作判斷的務實態度」。",
       "sentenceIndex": 1,
@@ -1760,12 +1436,8 @@ export default {
         "realism"
       ],
       "optionReasons": {
-        "real-mcq-22": "本句指「願意接受實際限制並按真實情況作判斷的務實態度」。",
-        "real-mcq-21": "「在藝術或文學中盡量忠實呈現現實生活的風格或思想」是「realism = accurate representation of real life（藝術／文學）」的用法，與本句語境不同。",
-        "real-mcq-23": "「並非真實存在，或讓人感覺不像現實的」是「unreal = not real / imaginary（不存在於現實）」的用法，與本句語境不同。",
-        "real-mcq-20": "「根據現實條件、限制和可能性來看」是「realistically = according to practical reality（實際而言）」的用法，與本句語境不同。",
-        "real-mcq-24": "「非正式用法，表示某事好得或厲害得幾乎令人覺得不真實」是「unreal = extraordinarily good/impressive（非正式）」的用法，與本句語境不同。",
-        "real-mcq-19": "「根據實際情況作判斷，不被不切實際的希望影響」是「realistic = sensible about the actual situation（人／態度）」的用法，與本句語境不同。"
+        "real-mcq-22": "本句的「realism」指「願意接受實際限制並按真實情況作判斷的務實態度」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-22"
     },
@@ -1777,11 +1449,7 @@ export default {
       "masked": "The creatures in the story are ____.",
       "options": [
         "real-mcq-23",
-        "real-mcq-22",
-        "real-mcq-24",
-        "real-mcq-21",
-        "real-mcq-25",
-        "real-mcq-20"
+        "contrast-purchase"
       ],
       "explanation": "本句的「unreal」指「並非真實存在，或讓人感覺不像現實的」。",
       "sentenceIndex": 0,
@@ -1790,12 +1458,8 @@ export default {
         "unreal"
       ],
       "optionReasons": {
-        "real-mcq-23": "本句指「並非真實存在，或讓人感覺不像現實的」。",
-        "real-mcq-22": "「願意接受實際限制並按真實情況作判斷的務實態度」是「realism = practical acceptance of reality（處事態度）」的用法，與本句語境不同。",
-        "real-mcq-24": "「非正式用法，表示某事好得或厲害得幾乎令人覺得不真實」是「unreal = extraordinarily good/impressive（非正式）」的用法，與本句語境不同。",
-        "real-mcq-21": "「在藝術或文學中盡量忠實呈現現實生活的風格或思想」是「realism = accurate representation of real life（藝術／文學）」的用法，與本句語境不同。",
-        "real-mcq-25": "「沒有充分考慮現實限制，因此實際上難以做到或成立的」是「unrealistic = not practical/achievable（計劃／期望）」的用法，與本句語境不同。",
-        "real-mcq-20": "「根據現實條件、限制和可能性來看」是「realistically = according to practical reality（實際而言）」的用法，與本句語境不同。"
+        "real-mcq-23": "本句的「unreal」指「並非真實存在，或讓人感覺不像現實的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-23"
     },
@@ -1807,11 +1471,7 @@ export default {
       "masked": "For a moment, everything felt ____.",
       "options": [
         "real-mcq-23",
-        "real-mcq-22",
-        "real-mcq-24",
-        "real-mcq-21",
-        "real-mcq-25",
-        "real-mcq-20"
+        "contrast-purchase"
       ],
       "explanation": "本句的「unreal」指「並非真實存在，或讓人感覺不像現實的」。",
       "sentenceIndex": 1,
@@ -1820,12 +1480,8 @@ export default {
         "unreal"
       ],
       "optionReasons": {
-        "real-mcq-23": "本句指「並非真實存在，或讓人感覺不像現實的」。",
-        "real-mcq-22": "「願意接受實際限制並按真實情況作判斷的務實態度」是「realism = practical acceptance of reality（處事態度）」的用法，與本句語境不同。",
-        "real-mcq-24": "「非正式用法，表示某事好得或厲害得幾乎令人覺得不真實」是「unreal = extraordinarily good/impressive（非正式）」的用法，與本句語境不同。",
-        "real-mcq-21": "「在藝術或文學中盡量忠實呈現現實生活的風格或思想」是「realism = accurate representation of real life（藝術／文學）」的用法，與本句語境不同。",
-        "real-mcq-25": "「沒有充分考慮現實限制，因此實際上難以做到或成立的」是「unrealistic = not practical/achievable（計劃／期望）」的用法，與本句語境不同。",
-        "real-mcq-20": "「根據現實條件、限制和可能性來看」是「realistically = according to practical reality（實際而言）」的用法，與本句語境不同。"
+        "real-mcq-23": "本句的「unreal」指「並非真實存在，或讓人感覺不像現實的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-23"
     },
@@ -1837,11 +1493,7 @@ export default {
       "masked": "The view from the hotel was ____.",
       "options": [
         "real-mcq-24",
-        "real-mcq-23",
-        "real-mcq-25",
-        "real-mcq-22",
-        "real-mcq-21",
-        "real-mcq-20"
+        "contrast-purchase"
       ],
       "explanation": "本句的「unreal」指「非正式用法，表示某事好得或厲害得幾乎令人覺得不真實」。",
       "sentenceIndex": 0,
@@ -1850,12 +1502,8 @@ export default {
         "unreal"
       ],
       "optionReasons": {
-        "real-mcq-24": "本句指「非正式用法，表示某事好得或厲害得幾乎令人覺得不真實」。",
-        "real-mcq-23": "「並非真實存在，或讓人感覺不像現實的」是「unreal = not real / imaginary（不存在於現實）」的用法，與本句語境不同。",
-        "real-mcq-25": "「沒有充分考慮現實限制，因此實際上難以做到或成立的」是「unrealistic = not practical/achievable（計劃／期望）」的用法，與本句語境不同。",
-        "real-mcq-22": "「願意接受實際限制並按真實情況作判斷的務實態度」是「realism = practical acceptance of reality（處事態度）」的用法，與本句語境不同。",
-        "real-mcq-21": "「在藝術或文學中盡量忠實呈現現實生活的風格或思想」是「realism = accurate representation of real life（藝術／文學）」的用法，與本句語境不同。",
-        "real-mcq-20": "「根據現實條件、限制和可能性來看」是「realistically = according to practical reality（實際而言）」的用法，與本句語境不同。"
+        "real-mcq-24": "本句的「unreal」指「非正式用法，表示某事好得或厲害得幾乎令人覺得不真實」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-24"
     },
@@ -1867,11 +1515,7 @@ export default {
       "masked": "Her performance was ____.",
       "options": [
         "real-mcq-24",
-        "real-mcq-23",
-        "real-mcq-25",
-        "real-mcq-22",
-        "real-mcq-21",
-        "real-mcq-20"
+        "contrast-purchase"
       ],
       "explanation": "本句的「unreal」指「非正式用法，表示某事好得或厲害得幾乎令人覺得不真實」。",
       "sentenceIndex": 1,
@@ -1880,12 +1524,8 @@ export default {
         "unreal"
       ],
       "optionReasons": {
-        "real-mcq-24": "本句指「非正式用法，表示某事好得或厲害得幾乎令人覺得不真實」。",
-        "real-mcq-23": "「並非真實存在，或讓人感覺不像現實的」是「unreal = not real / imaginary（不存在於現實）」的用法，與本句語境不同。",
-        "real-mcq-25": "「沒有充分考慮現實限制，因此實際上難以做到或成立的」是「unrealistic = not practical/achievable（計劃／期望）」的用法，與本句語境不同。",
-        "real-mcq-22": "「願意接受實際限制並按真實情況作判斷的務實態度」是「realism = practical acceptance of reality（處事態度）」的用法，與本句語境不同。",
-        "real-mcq-21": "「在藝術或文學中盡量忠實呈現現實生活的風格或思想」是「realism = accurate representation of real life（藝術／文學）」的用法，與本句語境不同。",
-        "real-mcq-20": "「根據現實條件、限制和可能性來看」是「realistically = according to practical reality（實際而言）」的用法，與本句語境不同。"
+        "real-mcq-24": "本句的「unreal」指「非正式用法，表示某事好得或厲害得幾乎令人覺得不真實」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-24"
     },
@@ -1897,11 +1537,7 @@ export default {
       "masked": "The deadline is completely ____.",
       "options": [
         "real-mcq-25",
-        "real-mcq-24",
-        "real-mcq-23",
-        "real-mcq-22",
-        "real-mcq-21",
-        "real-mcq-20"
+        "contrast-purchase"
       ],
       "explanation": "本句的「unrealistic」指「沒有充分考慮現實限制，因此實際上難以做到或成立的」。",
       "sentenceIndex": 0,
@@ -1910,12 +1546,8 @@ export default {
         "unrealistic"
       ],
       "optionReasons": {
-        "real-mcq-25": "本句指「沒有充分考慮現實限制，因此實際上難以做到或成立的」。",
-        "real-mcq-24": "「非正式用法，表示某事好得或厲害得幾乎令人覺得不真實」是「unreal = extraordinarily good/impressive（非正式）」的用法，與本句語境不同。",
-        "real-mcq-23": "「並非真實存在，或讓人感覺不像現實的」是「unreal = not real / imaginary（不存在於現實）」的用法，與本句語境不同。",
-        "real-mcq-22": "「願意接受實際限制並按真實情況作判斷的務實態度」是「realism = practical acceptance of reality（處事態度）」的用法，與本句語境不同。",
-        "real-mcq-21": "「在藝術或文學中盡量忠實呈現現實生活的風格或思想」是「realism = accurate representation of real life（藝術／文學）」的用法，與本句語境不同。",
-        "real-mcq-20": "「根據現實條件、限制和可能性來看」是「realistically = according to practical reality（實際而言）」的用法，與本句語境不同。"
+        "real-mcq-25": "本句的「unrealistic」指「沒有充分考慮現實限制，因此實際上難以做到或成立的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-25"
     },
@@ -1927,11 +1559,7 @@ export default {
       "masked": "It is ____ to expect instant results.",
       "options": [
         "real-mcq-25",
-        "real-mcq-24",
-        "real-mcq-23",
-        "real-mcq-22",
-        "real-mcq-21",
-        "real-mcq-20"
+        "contrast-purchase"
       ],
       "explanation": "本句的「unrealistic」指「沒有充分考慮現實限制，因此實際上難以做到或成立的」。",
       "sentenceIndex": 1,
@@ -1940,12 +1568,8 @@ export default {
         "unrealistic"
       ],
       "optionReasons": {
-        "real-mcq-25": "本句指「沒有充分考慮現實限制，因此實際上難以做到或成立的」。",
-        "real-mcq-24": "「非正式用法，表示某事好得或厲害得幾乎令人覺得不真實」是「unreal = extraordinarily good/impressive（非正式）」的用法，與本句語境不同。",
-        "real-mcq-23": "「並非真實存在，或讓人感覺不像現實的」是「unreal = not real / imaginary（不存在於現實）」的用法，與本句語境不同。",
-        "real-mcq-22": "「願意接受實際限制並按真實情況作判斷的務實態度」是「realism = practical acceptance of reality（處事態度）」的用法，與本句語境不同。",
-        "real-mcq-21": "「在藝術或文學中盡量忠實呈現現實生活的風格或思想」是「realism = accurate representation of real life（藝術／文學）」的用法，與本句語境不同。",
-        "real-mcq-20": "「根據現實條件、限制和可能性來看」是「realistically = according to practical reality（實際而言）」的用法，與本句語境不同。"
+        "real-mcq-25": "本句的「unrealistic」指「沒有充分考慮現實限制，因此實際上難以做到或成立的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "real-mcq-25"
     }
@@ -1958,5 +1582,20 @@ export default {
     "pages": 19,
     "sha256": "44b085d8516167a321fc0e96b86acec9cb80d7788923890345ff6585394d1f90"
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    },
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    },
+    {
+      "id": "contrast-energy",
+      "title": "消耗身體的體力或精力"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

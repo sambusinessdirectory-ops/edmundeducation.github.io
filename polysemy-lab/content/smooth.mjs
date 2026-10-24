@@ -540,11 +540,9 @@ export default {
       "masked": "The table has a ____ surface.",
       "options": [
         "smooth-mcq-01",
-        "smooth-mcq-02",
-        "smooth-mcq-03",
-        "smooth-mcq-04",
-        "smooth-mcq-05",
-        "smooth-mcq-06"
+        "smooth-mcq-19",
+        "smooth-mcq-23",
+        "smooth-mcq-18"
       ],
       "explanation": "本句的「smooth」指「表面沒有粗糙、凹凸或尖銳不平；光滑的／平滑的」。",
       "sentenceIndex": 2,
@@ -553,12 +551,10 @@ export default {
         "smooth"
       ],
       "optionReasons": {
-        "smooth-mcq-01": "本句指「表面沒有粗糙、凹凸或尖銳不平；光滑的／平滑的」。",
-        "smooth-mcq-02": "「觸感均勻、細緻而不粗糙；滑順的」與本句語境不同。",
-        "smooth-mcq-03": "「移動時沒有突然停頓、震動或阻力；平穩的」與本句語境不同。",
-        "smooth-mcq-04": "「系統或機器沒有故障、干擾地順暢運作」與本句語境不同。",
-        "smooth-mcq-05": "「筆尖等移動時阻力小、連續流暢；順滑的」與本句語境不同。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。"
+        "smooth-mcq-01": "本句的「smooth」指「表面沒有粗糙、凹凸或尖銳不平；光滑的／平滑的」。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-01"
     },
@@ -570,11 +566,9 @@ export default {
       "masked": "The stone felt cool and ____.",
       "options": [
         "smooth-mcq-01",
-        "smooth-mcq-02",
-        "smooth-mcq-03",
-        "smooth-mcq-04",
-        "smooth-mcq-05",
-        "smooth-mcq-06"
+        "smooth-mcq-19",
+        "smooth-mcq-14",
+        "smooth-mcq-23"
       ],
       "explanation": "本句的「smooth」指「表面沒有粗糙、凹凸或尖銳不平；光滑的／平滑的」。",
       "sentenceIndex": 3,
@@ -583,12 +577,10 @@ export default {
         "smooth"
       ],
       "optionReasons": {
-        "smooth-mcq-01": "本句指「表面沒有粗糙、凹凸或尖銳不平；光滑的／平滑的」。",
-        "smooth-mcq-02": "「觸感均勻、細緻而不粗糙；滑順的」與本句語境不同。",
-        "smooth-mcq-03": "「移動時沒有突然停頓、震動或阻力；平穩的」與本句語境不同。",
-        "smooth-mcq-04": "「系統或機器沒有故障、干擾地順暢運作」與本句語境不同。",
-        "smooth-mcq-05": "「筆尖等移動時阻力小、連續流暢；順滑的」與本句語境不同。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。"
+        "smooth-mcq-01": "本句的「smooth」指「表面沒有粗糙、凹凸或尖銳不平；光滑的／平滑的」。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-01"
     },
@@ -600,11 +592,9 @@ export default {
       "masked": "Her skin felt ____.",
       "options": [
         "smooth-mcq-02",
-        "smooth-mcq-01",
-        "smooth-mcq-03",
-        "smooth-mcq-04",
-        "smooth-mcq-05",
-        "smooth-mcq-06"
+        "smooth-mcq-24",
+        "smooth-mcq-15",
+        "smooth-mcq-19"
       ],
       "explanation": "本句的「smooth」指「觸感均勻、細緻而不粗糙；滑順的」。",
       "sentenceIndex": 4,
@@ -613,12 +603,10 @@ export default {
         "smooth"
       ],
       "optionReasons": {
-        "smooth-mcq-02": "本句指「觸感均勻、細緻而不粗糙；滑順的」。",
-        "smooth-mcq-01": "「表面沒有粗糙、凹凸或尖銳不平；光滑的／平滑的」與本句語境不同。",
-        "smooth-mcq-03": "「移動時沒有突然停頓、震動或阻力；平穩的」與本句語境不同。",
-        "smooth-mcq-04": "「系統或機器沒有故障、干擾地順暢運作」與本句語境不同。",
-        "smooth-mcq-05": "「筆尖等移動時阻力小、連續流暢；順滑的」與本句語境不同。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。"
+        "smooth-mcq-02": "本句的「smooth」指「觸感均勻、細緻而不粗糙；滑順的」。",
+        "smooth-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-02"
     },
@@ -630,11 +618,9 @@ export default {
       "masked": "The fabric is soft and ____.",
       "options": [
         "smooth-mcq-02",
-        "smooth-mcq-01",
-        "smooth-mcq-03",
-        "smooth-mcq-04",
-        "smooth-mcq-05",
-        "smooth-mcq-06"
+        "smooth-mcq-24",
+        "smooth-mcq-11",
+        "smooth-mcq-18"
       ],
       "explanation": "本句的「smooth」指「觸感均勻、細緻而不粗糙；滑順的」。",
       "sentenceIndex": 5,
@@ -643,12 +629,10 @@ export default {
         "smooth"
       ],
       "optionReasons": {
-        "smooth-mcq-02": "本句指「觸感均勻、細緻而不粗糙；滑順的」。",
-        "smooth-mcq-01": "「表面沒有粗糙、凹凸或尖銳不平；光滑的／平滑的」與本句語境不同。",
-        "smooth-mcq-03": "「移動時沒有突然停頓、震動或阻力；平穩的」與本句語境不同。",
-        "smooth-mcq-04": "「系統或機器沒有故障、干擾地順暢運作」與本句語境不同。",
-        "smooth-mcq-05": "「筆尖等移動時阻力小、連續流暢；順滑的」與本句語境不同。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。"
+        "smooth-mcq-02": "本句的「smooth」指「觸感均勻、細緻而不粗糙；滑順的」。",
+        "smooth-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-02"
     },
@@ -660,11 +644,9 @@ export default {
       "masked": "The car gave a ____.",
       "options": [
         "smooth-mcq-03",
-        "smooth-mcq-02",
-        "smooth-mcq-04",
-        "smooth-mcq-01",
-        "smooth-mcq-05",
-        "smooth-mcq-06"
+        "smooth-mcq-18",
+        "smooth-mcq-10",
+        "smooth-mcq-23"
       ],
       "explanation": "本句的「smooth ride」指「移動時沒有突然停頓、震動或阻力；平穩的」。",
       "sentenceIndex": 6,
@@ -673,12 +655,10 @@ export default {
         "smooth ride"
       ],
       "optionReasons": {
-        "smooth-mcq-03": "本句指「移動時沒有突然停頓、震動或阻力；平穩的」。",
-        "smooth-mcq-02": "「觸感均勻、細緻而不粗糙；滑順的」與本句語境不同。",
-        "smooth-mcq-04": "「系統或機器沒有故障、干擾地順暢運作」與本句語境不同。",
-        "smooth-mcq-01": "「表面沒有粗糙、凹凸或尖銳不平；光滑的／平滑的」與本句語境不同。",
-        "smooth-mcq-05": "「筆尖等移動時阻力小、連續流暢；順滑的」與本句語境不同。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。"
+        "smooth-mcq-03": "本句的「smooth ride」指「移動時沒有突然停頓、震動或阻力；平穩的」。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-03"
     },
@@ -690,11 +670,9 @@ export default {
       "masked": "The door opened with a ____.",
       "options": [
         "smooth-mcq-03",
-        "smooth-mcq-02",
-        "smooth-mcq-04",
-        "smooth-mcq-01",
-        "smooth-mcq-05",
-        "smooth-mcq-06"
+        "smooth-mcq-10",
+        "smooth-mcq-18",
+        "smooth-mcq-02"
       ],
       "explanation": "本句的「smooth motion」指「移動時沒有突然停頓、震動或阻力；平穩的」。",
       "sentenceIndex": 7,
@@ -703,12 +681,10 @@ export default {
         "smooth motion"
       ],
       "optionReasons": {
-        "smooth-mcq-03": "本句指「移動時沒有突然停頓、震動或阻力；平穩的」。",
-        "smooth-mcq-02": "「觸感均勻、細緻而不粗糙；滑順的」與本句語境不同。",
-        "smooth-mcq-04": "「系統或機器沒有故障、干擾地順暢運作」與本句語境不同。",
-        "smooth-mcq-01": "「表面沒有粗糙、凹凸或尖銳不平；光滑的／平滑的」與本句語境不同。",
-        "smooth-mcq-05": "「筆尖等移動時阻力小、連續流暢；順滑的」與本句語境不同。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。"
+        "smooth-mcq-03": "本句的「smooth motion」指「移動時沒有突然停頓、震動或阻力；平穩的」。",
+        "smooth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-03"
     },
@@ -720,11 +696,9 @@ export default {
       "masked": "Regular maintenance ensures ____.",
       "options": [
         "smooth-mcq-04",
-        "smooth-mcq-03",
-        "smooth-mcq-05",
-        "smooth-mcq-02",
-        "smooth-mcq-06",
-        "smooth-mcq-01"
+        "smooth-mcq-10",
+        "smooth-mcq-15",
+        "smooth-mcq-12"
       ],
       "explanation": "本句的「smooth operation」指「系統或機器沒有故障、干擾地順暢運作」。",
       "sentenceIndex": 8,
@@ -733,12 +707,10 @@ export default {
         "smooth operation"
       ],
       "optionReasons": {
-        "smooth-mcq-04": "本句指「系統或機器沒有故障、干擾地順暢運作」。",
-        "smooth-mcq-03": "「移動時沒有突然停頓、震動或阻力；平穩的」與本句語境不同。",
-        "smooth-mcq-05": "「筆尖等移動時阻力小、連續流暢；順滑的」與本句語境不同。",
-        "smooth-mcq-02": "「觸感均勻、細緻而不粗糙；滑順的」與本句語境不同。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。",
-        "smooth-mcq-01": "「表面沒有粗糙、凹凸或尖銳不平；光滑的／平滑的」與本句語境不同。"
+        "smooth-mcq-04": "本句的「smooth operation」指「系統或機器沒有故障、干擾地順暢運作」。",
+        "smooth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-04"
     },
@@ -750,11 +722,9 @@ export default {
       "masked": "The system returned to ____.",
       "options": [
         "smooth-mcq-04",
-        "smooth-mcq-03",
-        "smooth-mcq-05",
-        "smooth-mcq-02",
-        "smooth-mcq-06",
-        "smooth-mcq-01"
+        "smooth-mcq-19",
+        "smooth-mcq-22",
+        "smooth-mcq-12"
       ],
       "explanation": "本句的「smooth operation」指「系統或機器沒有故障、干擾地順暢運作」。",
       "sentenceIndex": 9,
@@ -763,12 +733,10 @@ export default {
         "smooth operation"
       ],
       "optionReasons": {
-        "smooth-mcq-04": "本句指「系統或機器沒有故障、干擾地順暢運作」。",
-        "smooth-mcq-03": "「移動時沒有突然停頓、震動或阻力；平穩的」與本句語境不同。",
-        "smooth-mcq-05": "「筆尖等移動時阻力小、連續流暢；順滑的」與本句語境不同。",
-        "smooth-mcq-02": "「觸感均勻、細緻而不粗糙；滑順的」與本句語境不同。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。",
-        "smooth-mcq-01": "「表面沒有粗糙、凹凸或尖銳不平；光滑的／平滑的」與本句語境不同。"
+        "smooth-mcq-04": "本句的「smooth operation」指「系統或機器沒有故障、干擾地順暢運作」。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-04"
     },
@@ -780,11 +748,9 @@ export default {
       "masked": "The pen has a ____ writing action.",
       "options": [
         "smooth-mcq-05",
-        "smooth-mcq-04",
-        "smooth-mcq-06",
-        "smooth-mcq-03",
-        "smooth-mcq-07",
-        "smooth-mcq-02"
+        "smooth-mcq-24",
+        "smooth-mcq-18",
+        "smooth-mcq-15"
       ],
       "explanation": "本句的「smooth」指「筆尖等移動時阻力小、連續流暢；順滑的」。",
       "sentenceIndex": 10,
@@ -793,12 +759,10 @@ export default {
         "smooth"
       ],
       "optionReasons": {
-        "smooth-mcq-05": "本句指「筆尖等移動時阻力小、連續流暢；順滑的」。",
-        "smooth-mcq-04": "「系統或機器沒有故障、干擾地順暢運作」與本句語境不同。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。",
-        "smooth-mcq-03": "「移動時沒有突然停頓、震動或阻力；平穩的」與本句語境不同。",
-        "smooth-mcq-07": "「某件事沒有重大問題或中斷地進行；順利的」與本句語境不同。",
-        "smooth-mcq-02": "「觸感均勻、細緻而不粗糙；滑順的」與本句語境不同。"
+        "smooth-mcq-05": "本句的「smooth」指「筆尖等移動時阻力小、連續流暢；順滑的」。",
+        "smooth-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-05"
     },
@@ -810,11 +774,9 @@ export default {
       "masked": "The nib feels extremely ____ on paper.",
       "options": [
         "smooth-mcq-05",
-        "smooth-mcq-04",
-        "smooth-mcq-06",
-        "smooth-mcq-03",
-        "smooth-mcq-07",
-        "smooth-mcq-02"
+        "smooth-mcq-12",
+        "smooth-mcq-19",
+        "smooth-mcq-18"
       ],
       "explanation": "本句的「smooth」指「筆尖等移動時阻力小、連續流暢；順滑的」。",
       "sentenceIndex": 11,
@@ -823,12 +785,10 @@ export default {
         "smooth"
       ],
       "optionReasons": {
-        "smooth-mcq-05": "本句指「筆尖等移動時阻力小、連續流暢；順滑的」。",
-        "smooth-mcq-04": "「系統或機器沒有故障、干擾地順暢運作」與本句語境不同。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。",
-        "smooth-mcq-03": "「移動時沒有突然停頓、震動或阻力；平穩的」與本句語境不同。",
-        "smooth-mcq-07": "「某件事沒有重大問題或中斷地進行；順利的」與本句語境不同。",
-        "smooth-mcq-02": "「觸感均勻、細緻而不粗糙；滑順的」與本句語境不同。"
+        "smooth-mcq-05": "本句的「smooth」指「筆尖等移動時阻力小、連續流暢；順滑的」。",
+        "smooth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-05"
     },
@@ -840,11 +800,9 @@ export default {
       "masked": "The fountain pen writes ____.",
       "options": [
         "smooth-mcq-20",
-        "smooth-mcq-19",
-        "smooth-mcq-21",
+        "smooth-mcq-11",
         "smooth-mcq-18",
-        "smooth-mcq-22",
-        "smooth-mcq-17"
+        "smooth-mcq-19"
       ],
       "explanation": "本句的「smoothly」指「平滑地、流暢地、順利地」。",
       "sentenceIndex": 12,
@@ -853,12 +811,10 @@ export default {
         "smoothly"
       ],
       "optionReasons": {
-        "smooth-mcq-20": "本句指「平滑地、流暢地、順利地」。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-18": "「減少障礙，使某事更容易進行；鋪路」與本句語境不同。",
-        "smooth-mcq-22": "「減少數據短期波動與雜訊的平滑化處理」與本句語境不同。",
-        "smooth-mcq-17": "「解決、理順問題或困難」與本句語境不同。"
+        "smooth-mcq-20": "本句的「smoothly」指「平滑地、流暢地、順利地」。",
+        "smooth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-20"
     },
@@ -870,11 +826,9 @@ export default {
       "masked": "The drawer slides ____.",
       "options": [
         "smooth-mcq-20",
-        "smooth-mcq-19",
-        "smooth-mcq-21",
         "smooth-mcq-18",
-        "smooth-mcq-22",
-        "smooth-mcq-17"
+        "smooth-mcq-19",
+        "smooth-mcq-11"
       ],
       "explanation": "本句的「smoothly」指「平滑地、流暢地、順利地」。",
       "sentenceIndex": 13,
@@ -883,12 +837,10 @@ export default {
         "smoothly"
       ],
       "optionReasons": {
-        "smooth-mcq-20": "本句指「平滑地、流暢地、順利地」。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-18": "「減少障礙，使某事更容易進行；鋪路」與本句語境不同。",
-        "smooth-mcq-22": "「減少數據短期波動與雜訊的平滑化處理」與本句語境不同。",
-        "smooth-mcq-17": "「解決、理順問題或困難」與本句語境不同。"
+        "smooth-mcq-20": "本句的「smoothly」指「平滑地、流暢地、順利地」。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-20"
     },
@@ -900,11 +852,9 @@ export default {
       "masked": "We had a ____.",
       "options": [
         "smooth-mcq-07",
-        "smooth-mcq-06",
-        "smooth-mcq-08",
-        "smooth-mcq-05",
-        "smooth-mcq-09",
-        "smooth-mcq-04"
+        "smooth-mcq-19",
+        "smooth-mcq-12",
+        "smooth-mcq-15"
       ],
       "explanation": "本句的「smooth journey」指「某件事沒有重大問題或中斷地進行；順利的」。",
       "sentenceIndex": 14,
@@ -913,12 +863,10 @@ export default {
         "smooth journey"
       ],
       "optionReasons": {
-        "smooth-mcq-07": "本句指「某件事沒有重大問題或中斷地進行；順利的」。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。",
-        "smooth-mcq-08": "「某過程進行順利、沒有明顯問題」與本句語境不同。",
-        "smooth-mcq-05": "「筆尖等移動時阻力小、連續流暢；順滑的」與本句語境不同。",
-        "smooth-mcq-09": "「表達流暢、圓熟、沒有生硬停頓的」與本句語境不同。",
-        "smooth-mcq-04": "「系統或機器沒有故障、干擾地順暢運作」與本句語境不同。"
+        "smooth-mcq-07": "本句的「smooth journey」指「某件事沒有重大問題或中斷地進行；順利的」。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-07"
     },
@@ -930,11 +878,9 @@ export default {
       "masked": "The meeting was surprisingly ____.",
       "options": [
         "smooth-mcq-07",
-        "smooth-mcq-06",
-        "smooth-mcq-08",
-        "smooth-mcq-05",
-        "smooth-mcq-09",
-        "smooth-mcq-04"
+        "smooth-mcq-12",
+        "smooth-mcq-15",
+        "smooth-mcq-22"
       ],
       "explanation": "本句的「smooth」指「某件事沒有重大問題或中斷地進行；順利的」。",
       "sentenceIndex": 15,
@@ -943,12 +889,10 @@ export default {
         "smooth"
       ],
       "optionReasons": {
-        "smooth-mcq-07": "本句指「某件事沒有重大問題或中斷地進行；順利的」。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。",
-        "smooth-mcq-08": "「某過程進行順利、沒有明顯問題」與本句語境不同。",
-        "smooth-mcq-05": "「筆尖等移動時阻力小、連續流暢；順滑的」與本句語境不同。",
-        "smooth-mcq-09": "「表達流暢、圓熟、沒有生硬停頓的」與本句語境不同。",
-        "smooth-mcq-04": "「系統或機器沒有故障、干擾地順暢運作」與本句語境不同。"
+        "smooth-mcq-07": "本句的「smooth」指「某件事沒有重大問題或中斷地進行；順利的」。",
+        "smooth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-07"
     },
@@ -960,11 +904,9 @@ export default {
       "masked": "Everything ____.",
       "options": [
         "smooth-mcq-08",
-        "smooth-mcq-07",
-        "smooth-mcq-09",
-        "smooth-mcq-06",
-        "smooth-mcq-10",
-        "smooth-mcq-05"
+        "smooth-mcq-12",
+        "smooth-mcq-15",
+        "smooth-mcq-22"
       ],
       "explanation": "本句的「went smoothly」指「某過程進行順利、沒有明顯問題」。",
       "sentenceIndex": 16,
@@ -973,12 +915,10 @@ export default {
         "went smoothly"
       ],
       "optionReasons": {
-        "smooth-mcq-08": "本句指「某過程進行順利、沒有明顯問題」。",
-        "smooth-mcq-07": "「某件事沒有重大問題或中斷地進行；順利的」與本句語境不同。",
-        "smooth-mcq-09": "「表達流暢、圓熟、沒有生硬停頓的」與本句語境不同。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。",
-        "smooth-mcq-10": "「言談舉止圓滑、老練、很會說話的」與本句語境不同。",
-        "smooth-mcq-05": "「筆尖等移動時阻力小、連續流暢；順滑的」與本句語境不同。"
+        "smooth-mcq-08": "本句的「went smoothly」指「某過程進行順利、沒有明顯問題」。",
+        "smooth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-08"
     },
@@ -990,11 +930,9 @@ export default {
       "masked": "The interview ____.",
       "options": [
         "smooth-mcq-08",
-        "smooth-mcq-07",
-        "smooth-mcq-09",
-        "smooth-mcq-06",
-        "smooth-mcq-10",
-        "smooth-mcq-05"
+        "smooth-mcq-22",
+        "smooth-mcq-12",
+        "smooth-mcq-10"
       ],
       "explanation": "本句的「went smoothly」指「某過程進行順利、沒有明顯問題」。",
       "sentenceIndex": 17,
@@ -1003,12 +941,10 @@ export default {
         "went smoothly"
       ],
       "optionReasons": {
-        "smooth-mcq-08": "本句指「某過程進行順利、沒有明顯問題」。",
-        "smooth-mcq-07": "「某件事沒有重大問題或中斷地進行；順利的」與本句語境不同。",
-        "smooth-mcq-09": "「表達流暢、圓熟、沒有生硬停頓的」與本句語境不同。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。",
-        "smooth-mcq-10": "「言談舉止圓滑、老練、很會說話的」與本句語境不同。",
-        "smooth-mcq-05": "「筆尖等移動時阻力小、連續流暢；順滑的」與本句語境不同。"
+        "smooth-mcq-08": "本句的「went smoothly」指「某過程進行順利、沒有明顯問題」。",
+        "smooth-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-08"
     },
@@ -1020,11 +956,9 @@ export default {
       "masked": "He gave a ____.",
       "options": [
         "smooth-mcq-09",
-        "smooth-mcq-08",
-        "smooth-mcq-10",
-        "smooth-mcq-07",
-        "smooth-mcq-11",
-        "smooth-mcq-06"
+        "smooth-mcq-12",
+        "smooth-mcq-14",
+        "smooth-mcq-11"
       ],
       "explanation": "本句的「smooth presentation」指「表達流暢、圓熟、沒有生硬停頓的」。",
       "sentenceIndex": 18,
@@ -1033,12 +967,10 @@ export default {
         "smooth presentation"
       ],
       "optionReasons": {
-        "smooth-mcq-09": "本句指「表達流暢、圓熟、沒有生硬停頓的」。",
-        "smooth-mcq-08": "「某過程進行順利、沒有明顯問題」與本句語境不同。",
-        "smooth-mcq-10": "「言談舉止圓滑、老練、很會說話的」與本句語境不同。",
-        "smooth-mcq-07": "「某件事沒有重大問題或中斷地進行；順利的」與本句語境不同。",
-        "smooth-mcq-11": "「很會說服或用好聽話打動人的人」與本句語境不同。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。"
+        "smooth-mcq-09": "本句的「smooth presentation」指「表達流暢、圓熟、沒有生硬停頓的」。",
+        "smooth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-09"
     },
@@ -1050,11 +982,9 @@ export default {
       "masked": "Her delivery was calm and ____.",
       "options": [
         "smooth-mcq-09",
-        "smooth-mcq-08",
-        "smooth-mcq-10",
-        "smooth-mcq-07",
+        "smooth-mcq-19",
         "smooth-mcq-11",
-        "smooth-mcq-06"
+        "smooth-mcq-15"
       ],
       "explanation": "本句的「smooth」指「表達流暢、圓熟、沒有生硬停頓的」。",
       "sentenceIndex": 19,
@@ -1063,12 +993,10 @@ export default {
         "smooth"
       ],
       "optionReasons": {
-        "smooth-mcq-09": "本句指「表達流暢、圓熟、沒有生硬停頓的」。",
-        "smooth-mcq-08": "「某過程進行順利、沒有明顯問題」與本句語境不同。",
-        "smooth-mcq-10": "「言談舉止圓滑、老練、很會說話的」與本句語境不同。",
-        "smooth-mcq-07": "「某件事沒有重大問題或中斷地進行；順利的」與本句語境不同。",
-        "smooth-mcq-11": "「很會說服或用好聽話打動人的人」與本句語境不同。",
-        "smooth-mcq-06": "「以容易、流暢、沒有摩擦或卡頓的方式」與本句語境不同。"
+        "smooth-mcq-09": "本句的「smooth」指「表達流暢、圓熟、沒有生硬停頓的」。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-09"
     },
@@ -1080,11 +1008,9 @@ export default {
       "masked": "He is a very ____.",
       "options": [
         "smooth-mcq-10",
-        "smooth-mcq-09",
-        "smooth-mcq-11",
-        "smooth-mcq-08",
-        "smooth-mcq-12",
-        "smooth-mcq-07"
+        "smooth-mcq-18",
+        "smooth-mcq-14",
+        "smooth-mcq-19"
       ],
       "explanation": "本句的「smooth talker」指「言談舉止圓滑、老練、很會說話的」。",
       "sentenceIndex": 20,
@@ -1093,12 +1019,10 @@ export default {
         "smooth talker"
       ],
       "optionReasons": {
-        "smooth-mcq-10": "本句指「言談舉止圓滑、老練、很會說話的」。",
-        "smooth-mcq-09": "「表達流暢、圓熟、沒有生硬停頓的」與本句語境不同。",
-        "smooth-mcq-11": "「很會說服或用好聽話打動人的人」與本句語境不同。",
-        "smooth-mcq-08": "「某過程進行順利、沒有明顯問題」與本句語境不同。",
-        "smooth-mcq-12": "「變化不突然、狀態均勻平穩的」與本句語境不同。",
-        "smooth-mcq-07": "「某件事沒有重大問題或中斷地進行；順利的」與本句語境不同。"
+        "smooth-mcq-10": "本句的「smooth talker」指「言談舉止圓滑、老練、很會說話的」。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-10"
     },
@@ -1110,11 +1034,9 @@ export default {
       "masked": "His manner was polished and ____.",
       "options": [
         "smooth-mcq-10",
-        "smooth-mcq-09",
-        "smooth-mcq-11",
-        "smooth-mcq-08",
-        "smooth-mcq-12",
-        "smooth-mcq-07"
+        "smooth-mcq-24",
+        "smooth-mcq-15",
+        "smooth-mcq-19"
       ],
       "explanation": "本句的「smooth」指「言談舉止圓滑、老練、很會說話的」。",
       "sentenceIndex": 21,
@@ -1123,12 +1045,10 @@ export default {
         "smooth"
       ],
       "optionReasons": {
-        "smooth-mcq-10": "本句指「言談舉止圓滑、老練、很會說話的」。",
-        "smooth-mcq-09": "「表達流暢、圓熟、沒有生硬停頓的」與本句語境不同。",
-        "smooth-mcq-11": "「很會說服或用好聽話打動人的人」與本句語境不同。",
-        "smooth-mcq-08": "「某過程進行順利、沒有明顯問題」與本句語境不同。",
-        "smooth-mcq-12": "「變化不突然、狀態均勻平穩的」與本句語境不同。",
-        "smooth-mcq-07": "「某件事沒有重大問題或中斷地進行；順利的」與本句語境不同。"
+        "smooth-mcq-10": "本句的「smooth」指「言談舉止圓滑、老練、很會說話的」。",
+        "smooth-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-10"
     },
@@ -1140,11 +1060,9 @@ export default {
       "masked": "He’s a ____, but I’m not sure I trust him.",
       "options": [
         "smooth-mcq-11",
-        "smooth-mcq-10",
-        "smooth-mcq-12",
-        "smooth-mcq-09",
-        "smooth-mcq-13",
-        "smooth-mcq-08"
+        "smooth-mcq-01",
+        "smooth-mcq-23",
+        "smooth-mcq-14"
       ],
       "explanation": "本句的「smooth talker」指「很會說服或用好聽話打動人的人」。",
       "sentenceIndex": 22,
@@ -1153,12 +1071,10 @@ export default {
         "smooth talker"
       ],
       "optionReasons": {
-        "smooth-mcq-11": "本句指「很會說服或用好聽話打動人的人」。",
-        "smooth-mcq-10": "「言談舉止圓滑、老練、很會說話的」與本句語境不同。",
-        "smooth-mcq-12": "「變化不突然、狀態均勻平穩的」與本句語境不同。",
-        "smooth-mcq-09": "「表達流暢、圓熟、沒有生硬停頓的」與本句語境不同。",
-        "smooth-mcq-13": "「食物口感細滑、均勻、沒有顆粒的」與本句語境不同。",
-        "smooth-mcq-08": "「某過程進行順利、沒有明顯問題」與本句語境不同。"
+        "smooth-mcq-11": "本句的「smooth talker」指「很會說服或用好聽話打動人的人」。",
+        "smooth-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-11"
     },
@@ -1170,11 +1086,9 @@ export default {
       "masked": "She wasn’t fooled by the ____.",
       "options": [
         "smooth-mcq-11",
-        "smooth-mcq-10",
-        "smooth-mcq-12",
-        "smooth-mcq-09",
-        "smooth-mcq-13",
-        "smooth-mcq-08"
+        "smooth-mcq-01",
+        "smooth-mcq-23",
+        "smooth-mcq-19"
       ],
       "explanation": "本句的「smooth talker」指「很會說服或用好聽話打動人的人」。",
       "sentenceIndex": 23,
@@ -1183,12 +1097,10 @@ export default {
         "smooth talker"
       ],
       "optionReasons": {
-        "smooth-mcq-11": "本句指「很會說服或用好聽話打動人的人」。",
-        "smooth-mcq-10": "「言談舉止圓滑、老練、很會說話的」與本句語境不同。",
-        "smooth-mcq-12": "「變化不突然、狀態均勻平穩的」與本句語境不同。",
-        "smooth-mcq-09": "「表達流暢、圓熟、沒有生硬停頓的」與本句語境不同。",
-        "smooth-mcq-13": "「食物口感細滑、均勻、沒有顆粒的」與本句語境不同。",
-        "smooth-mcq-08": "「某過程進行順利、沒有明顯問題」與本句語境不同。"
+        "smooth-mcq-11": "本句的「smooth talker」指「很會說服或用好聽話打動人的人」。",
+        "smooth-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-11"
     },
@@ -1200,11 +1112,9 @@ export default {
       "masked": "The engine made a ____.",
       "options": [
         "smooth-mcq-12",
-        "smooth-mcq-11",
-        "smooth-mcq-13",
-        "smooth-mcq-10",
-        "smooth-mcq-14",
-        "smooth-mcq-09"
+        "smooth-mcq-19",
+        "smooth-mcq-04",
+        "smooth-mcq-14"
       ],
       "explanation": "本句的「smooth sound」指「變化不突然、狀態均勻平穩的」。",
       "sentenceIndex": 24,
@@ -1213,12 +1123,10 @@ export default {
         "smooth sound"
       ],
       "optionReasons": {
-        "smooth-mcq-12": "本句指「變化不突然、狀態均勻平穩的」。",
-        "smooth-mcq-11": "「很會說服或用好聽話打動人的人」與本句語境不同。",
-        "smooth-mcq-13": "「食物口感細滑、均勻、沒有顆粒的」與本句語境不同。",
-        "smooth-mcq-10": "「言談舉止圓滑、老練、很會說話的」與本句語境不同。",
-        "smooth-mcq-14": "「味道柔和、不嗆、不刺激；順口的」與本句語境不同。",
-        "smooth-mcq-09": "「表達流暢、圓熟、沒有生硬停頓的」與本句語境不同。"
+        "smooth-mcq-12": "本句的「smooth sound」指「變化不突然、狀態均勻平穩的」。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-12"
     },
@@ -1230,11 +1138,9 @@ export default {
       "masked": "The transition was ____.",
       "options": [
         "smooth-mcq-12",
-        "smooth-mcq-11",
-        "smooth-mcq-13",
         "smooth-mcq-10",
-        "smooth-mcq-14",
-        "smooth-mcq-09"
+        "smooth-mcq-19",
+        "smooth-mcq-05"
       ],
       "explanation": "本句的「smooth」指「變化不突然、狀態均勻平穩的」。",
       "sentenceIndex": 25,
@@ -1243,12 +1149,10 @@ export default {
         "smooth"
       ],
       "optionReasons": {
-        "smooth-mcq-12": "本句指「變化不突然、狀態均勻平穩的」。",
-        "smooth-mcq-11": "「很會說服或用好聽話打動人的人」與本句語境不同。",
-        "smooth-mcq-13": "「食物口感細滑、均勻、沒有顆粒的」與本句語境不同。",
-        "smooth-mcq-10": "「言談舉止圓滑、老練、很會說話的」與本句語境不同。",
-        "smooth-mcq-14": "「味道柔和、不嗆、不刺激；順口的」與本句語境不同。",
-        "smooth-mcq-09": "「表達流暢、圓熟、沒有生硬停頓的」與本句語境不同。"
+        "smooth-mcq-12": "本句的「smooth」指「變化不突然、狀態均勻平穩的」。",
+        "smooth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-12"
     },
@@ -1260,11 +1164,9 @@ export default {
       "masked": "The soup has a ____.",
       "options": [
         "smooth-mcq-13",
-        "smooth-mcq-12",
-        "smooth-mcq-14",
-        "smooth-mcq-11",
-        "smooth-mcq-15",
-        "smooth-mcq-10"
+        "smooth-mcq-23",
+        "smooth-mcq-18",
+        "smooth-mcq-11"
       ],
       "explanation": "本句的「smooth texture」指「食物口感細滑、均勻、沒有顆粒的」。",
       "sentenceIndex": 26,
@@ -1273,12 +1175,10 @@ export default {
         "smooth texture"
       ],
       "optionReasons": {
-        "smooth-mcq-13": "本句指「食物口感細滑、均勻、沒有顆粒的」。",
-        "smooth-mcq-12": "「變化不突然、狀態均勻平穩的」與本句語境不同。",
-        "smooth-mcq-14": "「味道柔和、不嗆、不刺激；順口的」與本句語境不同。",
-        "smooth-mcq-11": "「很會說服或用好聽話打動人的人」與本句語境不同。",
-        "smooth-mcq-15": "「把表面弄平、撫平或磨平」與本句語境不同。",
-        "smooth-mcq-10": "「言談舉止圓滑、老練、很會說話的」與本句語境不同。"
+        "smooth-mcq-13": "本句的「smooth texture」指「食物口感細滑、均勻、沒有顆粒的」。",
+        "smooth-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-13"
     },
@@ -1290,11 +1190,9 @@ export default {
       "masked": "Blend until the mixture is ____.",
       "options": [
         "smooth-mcq-13",
-        "smooth-mcq-12",
-        "smooth-mcq-14",
-        "smooth-mcq-11",
-        "smooth-mcq-15",
-        "smooth-mcq-10"
+        "smooth-mcq-19",
+        "smooth-mcq-18",
+        "smooth-mcq-23"
       ],
       "explanation": "本句的「smooth」指「食物口感細滑、均勻、沒有顆粒的」。",
       "sentenceIndex": 27,
@@ -1303,12 +1201,10 @@ export default {
         "smooth"
       ],
       "optionReasons": {
-        "smooth-mcq-13": "本句指「食物口感細滑、均勻、沒有顆粒的」。",
-        "smooth-mcq-12": "「變化不突然、狀態均勻平穩的」與本句語境不同。",
-        "smooth-mcq-14": "「味道柔和、不嗆、不刺激；順口的」與本句語境不同。",
-        "smooth-mcq-11": "「很會說服或用好聽話打動人的人」與本句語境不同。",
-        "smooth-mcq-15": "「把表面弄平、撫平或磨平」與本句語境不同。",
-        "smooth-mcq-10": "「言談舉止圓滑、老練、很會說話的」與本句語境不同。"
+        "smooth-mcq-13": "本句的「smooth」指「食物口感細滑、均勻、沒有顆粒的」。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-13"
     },
@@ -1320,11 +1216,9 @@ export default {
       "masked": "The coffee has a ____.",
       "options": [
         "smooth-mcq-14",
-        "smooth-mcq-13",
         "smooth-mcq-15",
-        "smooth-mcq-12",
-        "smooth-mcq-16",
-        "smooth-mcq-11"
+        "smooth-mcq-18",
+        "smooth-mcq-10"
       ],
       "explanation": "本句的「smooth taste」指「味道柔和、不嗆、不刺激；順口的」。",
       "sentenceIndex": 28,
@@ -1333,12 +1227,10 @@ export default {
         "smooth taste"
       ],
       "optionReasons": {
-        "smooth-mcq-14": "本句指「味道柔和、不嗆、不刺激；順口的」。",
-        "smooth-mcq-13": "「食物口感細滑、均勻、沒有顆粒的」與本句語境不同。",
-        "smooth-mcq-15": "「把表面弄平、撫平或磨平」與本句語境不同。",
-        "smooth-mcq-12": "「變化不突然、狀態均勻平穩的」與本句語境不同。",
-        "smooth-mcq-16": "「把皺褶、凹凸等弄平」與本句語境不同。",
-        "smooth-mcq-11": "「很會說服或用好聽話打動人的人」與本句語境不同。"
+        "smooth-mcq-14": "本句的「smooth taste」指「味道柔和、不嗆、不刺激；順口的」。",
+        "smooth-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-14"
     },
@@ -1350,11 +1242,9 @@ export default {
       "masked": "The chocolate has a rich, ____ texture.",
       "options": [
         "smooth-mcq-14",
-        "smooth-mcq-13",
-        "smooth-mcq-15",
-        "smooth-mcq-12",
-        "smooth-mcq-16",
-        "smooth-mcq-11"
+        "smooth-mcq-24",
+        "smooth-mcq-18",
+        "smooth-mcq-19"
       ],
       "explanation": "本句的「smooth」指「味道柔和、不嗆、不刺激；順口的」。",
       "sentenceIndex": 29,
@@ -1363,12 +1253,10 @@ export default {
         "smooth"
       ],
       "optionReasons": {
-        "smooth-mcq-14": "本句指「味道柔和、不嗆、不刺激；順口的」。",
-        "smooth-mcq-13": "「食物口感細滑、均勻、沒有顆粒的」與本句語境不同。",
-        "smooth-mcq-15": "「把表面弄平、撫平或磨平」與本句語境不同。",
-        "smooth-mcq-12": "「變化不突然、狀態均勻平穩的」與本句語境不同。",
-        "smooth-mcq-16": "「把皺褶、凹凸等弄平」與本句語境不同。",
-        "smooth-mcq-11": "「很會說服或用好聽話打動人的人」與本句語境不同。"
+        "smooth-mcq-14": "本句的「smooth」指「味道柔和、不嗆、不刺激；順口的」。",
+        "smooth-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-14"
     },
@@ -1380,11 +1268,9 @@ export default {
       "masked": "She ____ with her hand.",
       "options": [
         "smooth-mcq-15",
+        "smooth-mcq-11",
         "smooth-mcq-14",
-        "smooth-mcq-16",
-        "smooth-mcq-13",
-        "smooth-mcq-17",
-        "smooth-mcq-12"
+        "smooth-mcq-23"
       ],
       "explanation": "本句的「smoothed the paper」指「把表面弄平、撫平或磨平」。",
       "sentenceIndex": 30,
@@ -1393,12 +1279,10 @@ export default {
         "smoothed the paper"
       ],
       "optionReasons": {
-        "smooth-mcq-15": "本句指「把表面弄平、撫平或磨平」。",
-        "smooth-mcq-14": "「味道柔和、不嗆、不刺激；順口的」與本句語境不同。",
-        "smooth-mcq-16": "「把皺褶、凹凸等弄平」與本句語境不同。",
-        "smooth-mcq-13": "「食物口感細滑、均勻、沒有顆粒的」與本句語境不同。",
-        "smooth-mcq-17": "「解決、理順問題或困難」與本句語境不同。",
-        "smooth-mcq-12": "「變化不突然、狀態均勻平穩的」與本句語境不同。"
+        "smooth-mcq-15": "本句的「smoothed the paper」指「把表面弄平、撫平或磨平」。",
+        "smooth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-15"
     },
@@ -1410,11 +1294,9 @@ export default {
       "masked": "Workers ____.",
       "options": [
         "smooth-mcq-15",
-        "smooth-mcq-14",
-        "smooth-mcq-16",
-        "smooth-mcq-13",
-        "smooth-mcq-17",
-        "smooth-mcq-12"
+        "smooth-mcq-07",
+        "smooth-mcq-05",
+        "smooth-mcq-02"
       ],
       "explanation": "本句的「smoothed the concrete」指「把表面弄平、撫平或磨平」。",
       "sentenceIndex": 31,
@@ -1423,12 +1305,10 @@ export default {
         "smoothed the concrete"
       ],
       "optionReasons": {
-        "smooth-mcq-15": "本句指「把表面弄平、撫平或磨平」。",
-        "smooth-mcq-14": "「味道柔和、不嗆、不刺激；順口的」與本句語境不同。",
-        "smooth-mcq-16": "「把皺褶、凹凸等弄平」與本句語境不同。",
-        "smooth-mcq-13": "「食物口感細滑、均勻、沒有顆粒的」與本句語境不同。",
-        "smooth-mcq-17": "「解決、理順問題或困難」與本句語境不同。",
-        "smooth-mcq-12": "「變化不突然、狀態均勻平穩的」與本句語境不同。"
+        "smooth-mcq-15": "本句的「smoothed the concrete」指「把表面弄平、撫平或磨平」。",
+        "smooth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-15"
     },
@@ -1440,11 +1320,9 @@ export default {
       "masked": "The agreement ____ for cooperation.",
       "options": [
         "smooth-mcq-18",
-        "smooth-mcq-17",
+        "smooth-mcq-24",
         "smooth-mcq-19",
-        "smooth-mcq-16",
-        "smooth-mcq-20",
-        "smooth-mcq-15"
+        "smooth-mcq-20"
       ],
       "explanation": "本句的「smoothed the way」指「減少障礙，使某事更容易進行；鋪路」。",
       "sentenceIndex": 32,
@@ -1453,12 +1331,10 @@ export default {
         "smoothed the way"
       ],
       "optionReasons": {
-        "smooth-mcq-18": "本句指「減少障礙，使某事更容易進行；鋪路」。",
-        "smooth-mcq-17": "「解決、理順問題或困難」與本句語境不同。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。",
-        "smooth-mcq-16": "「把皺褶、凹凸等弄平」與本句語境不同。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-15": "「把表面弄平、撫平或磨平」與本句語境不同。"
+        "smooth-mcq-18": "本句的「smoothed the way」指「減少障礙，使某事更容易進行；鋪路」。",
+        "smooth-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-18"
     },
@@ -1470,10 +1346,8 @@ export default {
       "masked": "Early planning can ____ to implementation.",
       "options": [
         "smooth-mcq-18",
-        "smooth-mcq-17",
-        "smooth-mcq-19",
-        "smooth-mcq-16",
-        "smooth-mcq-20",
+        "smooth-mcq-14",
+        "smooth-mcq-11",
         "smooth-mcq-15"
       ],
       "explanation": "本句的「smooth the path」指「減少障礙，使某事更容易進行；鋪路」。",
@@ -1483,12 +1357,10 @@ export default {
         "smooth the path"
       ],
       "optionReasons": {
-        "smooth-mcq-18": "本句指「減少障礙，使某事更容易進行；鋪路」。",
-        "smooth-mcq-17": "「解決、理順問題或困難」與本句語境不同。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。",
-        "smooth-mcq-16": "「把皺褶、凹凸等弄平」與本句語境不同。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-15": "「把表面弄平、撫平或磨平」與本句語境不同。"
+        "smooth-mcq-18": "本句的「smooth the path」指「減少障礙，使某事更容易進行；鋪路」。",
+        "smooth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-18"
     },
@@ -1500,11 +1372,9 @@ export default {
       "masked": "She tried to ____ after the argument.",
       "options": [
         "smooth-mcq-19",
-        "smooth-mcq-18",
-        "smooth-mcq-20",
-        "smooth-mcq-17",
-        "smooth-mcq-21",
-        "smooth-mcq-16"
+        "smooth-mcq-23",
+        "smooth-mcq-04",
+        "smooth-mcq-02"
       ],
       "explanation": "本句的「smooth things over」指「緩和爭執、尷尬或人際緊張」。",
       "sentenceIndex": 34,
@@ -1513,12 +1383,10 @@ export default {
         "smooth things over"
       ],
       "optionReasons": {
-        "smooth-mcq-19": "本句指「緩和爭執、尷尬或人際緊張」。",
-        "smooth-mcq-18": "「減少障礙，使某事更容易進行；鋪路」與本句語境不同。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-17": "「解決、理順問題或困難」與本句語境不同。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-16": "「把皺褶、凹凸等弄平」與本句語境不同。"
+        "smooth-mcq-19": "本句的「smooth things over」指「緩和爭執、尷尬或人際緊張」。",
+        "smooth-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-19"
     },
@@ -1530,11 +1398,9 @@ export default {
       "masked": "A quick apology helped ____.",
       "options": [
         "smooth-mcq-19",
-        "smooth-mcq-18",
-        "smooth-mcq-20",
-        "smooth-mcq-17",
-        "smooth-mcq-21",
-        "smooth-mcq-16"
+        "smooth-mcq-09",
+        "smooth-mcq-14",
+        "smooth-mcq-11"
       ],
       "explanation": "本句的「smooth things over」指「緩和爭執、尷尬或人際緊張」。",
       "sentenceIndex": 35,
@@ -1543,12 +1409,10 @@ export default {
         "smooth things over"
       ],
       "optionReasons": {
-        "smooth-mcq-19": "本句指「緩和爭執、尷尬或人際緊張」。",
-        "smooth-mcq-18": "「減少障礙，使某事更容易進行；鋪路」與本句語境不同。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-17": "「解決、理順問題或困難」與本句語境不同。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-16": "「把皺褶、凹凸等弄平」與本句語境不同。"
+        "smooth-mcq-19": "本句的「smooth things over」指「緩和爭執、尷尬或人際緊張」。",
+        "smooth-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-19"
     },
@@ -1560,11 +1424,9 @@ export default {
       "masked": "She ____ before the photo.",
       "options": [
         "smooth-mcq-19",
-        "smooth-mcq-18",
-        "smooth-mcq-20",
-        "smooth-mcq-17",
-        "smooth-mcq-21",
-        "smooth-mcq-16"
+        "smooth-mcq-22",
+        "smooth-mcq-04",
+        "smooth-mcq-14"
       ],
       "explanation": "本句的「smoothed her hair」指「緩和爭執、尷尬或人際緊張」。",
       "sentenceIndex": 36,
@@ -1573,12 +1435,10 @@ export default {
         "smoothed her hair"
       ],
       "optionReasons": {
-        "smooth-mcq-19": "本句指「緩和爭執、尷尬或人際緊張」。",
-        "smooth-mcq-18": "「減少障礙，使某事更容易進行；鋪路」與本句語境不同。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-17": "「解決、理順問題或困難」與本句語境不同。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-16": "「把皺褶、凹凸等弄平」與本句語境不同。"
+        "smooth-mcq-19": "本句的「smoothed her hair」指「緩和爭執、尷尬或人際緊張」。",
+        "smooth-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-19"
     },
@@ -1590,11 +1450,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "smooth-mcq-19",
-        "smooth-mcq-18",
-        "smooth-mcq-20",
-        "smooth-mcq-17",
-        "smooth-mcq-21",
-        "smooth-mcq-16"
+        "smooth-mcq-24",
+        "smooth-mcq-10",
+        "smooth-mcq-02"
       ],
       "explanation": "本句的「smoothed his jacket」指「緩和爭執、尷尬或人際緊張」。",
       "sentenceIndex": 37,
@@ -1603,12 +1461,10 @@ export default {
         "smoothed his jacket"
       ],
       "optionReasons": {
-        "smooth-mcq-19": "本句指「緩和爭執、尷尬或人際緊張」。",
-        "smooth-mcq-18": "「減少障礙，使某事更容易進行；鋪路」與本句語境不同。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-17": "「解決、理順問題或困難」與本句語境不同。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-16": "「把皺褶、凹凸等弄平」與本句語境不同。"
+        "smooth-mcq-19": "本句的「smoothed his jacket」指「緩和爭執、尷尬或人際緊張」。",
+        "smooth-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-19"
     },
@@ -1621,10 +1477,8 @@ export default {
       "options": [
         "smooth-mcq-20",
         "smooth-mcq-19",
-        "smooth-mcq-21",
         "smooth-mcq-18",
-        "smooth-mcq-22",
-        "smooth-mcq-17"
+        "smooth-mcq-11"
       ],
       "explanation": "本句的「smoothly」指「平滑地、流暢地、順利地」。",
       "sentenceIndex": 38,
@@ -1633,12 +1487,10 @@ export default {
         "smoothly"
       ],
       "optionReasons": {
-        "smooth-mcq-20": "本句指「平滑地、流暢地、順利地」。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-18": "「減少障礙，使某事更容易進行；鋪路」與本句語境不同。",
-        "smooth-mcq-22": "「減少數據短期波動與雜訊的平滑化處理」與本句語境不同。",
-        "smooth-mcq-17": "「解決、理順問題或困難」與本句語境不同。"
+        "smooth-mcq-20": "本句的「smoothly」指「平滑地、流暢地、順利地」。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-20"
     },
@@ -1650,11 +1502,9 @@ export default {
       "masked": "The discussion proceeded ____.",
       "options": [
         "smooth-mcq-20",
+        "smooth-mcq-11",
         "smooth-mcq-19",
-        "smooth-mcq-21",
-        "smooth-mcq-18",
-        "smooth-mcq-22",
-        "smooth-mcq-17"
+        "smooth-mcq-18"
       ],
       "explanation": "本句的「smoothly」指「平滑地、流暢地、順利地」。",
       "sentenceIndex": 39,
@@ -1663,12 +1513,10 @@ export default {
         "smoothly"
       ],
       "optionReasons": {
-        "smooth-mcq-20": "本句指「平滑地、流暢地、順利地」。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-18": "「減少障礙，使某事更容易進行；鋪路」與本句語境不同。",
-        "smooth-mcq-22": "「減少數據短期波動與雜訊的平滑化處理」與本句語境不同。",
-        "smooth-mcq-17": "「解決、理順問題或困難」與本句語境不同。"
+        "smooth-mcq-20": "本句的「smoothly」指「平滑地、流暢地、順利地」。",
+        "smooth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-20"
     },
@@ -1680,10 +1528,8 @@ export default {
       "masked": "I liked the ____ of the pen.",
       "options": [
         "smooth-mcq-21",
-        "smooth-mcq-20",
-        "smooth-mcq-22",
         "smooth-mcq-19",
-        "smooth-mcq-23",
+        "smooth-mcq-11",
         "smooth-mcq-18"
       ],
       "explanation": "本句的「smoothness」指「平滑、流暢或順暢的程度」。",
@@ -1693,12 +1539,10 @@ export default {
         "smoothness"
       ],
       "optionReasons": {
-        "smooth-mcq-21": "本句指「平滑、流暢或順暢的程度」。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-22": "「減少數據短期波動與雜訊的平滑化處理」與本句語境不同。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。",
-        "smooth-mcq-23": "「事情進展非常順利；一帆風順」與本句語境不同。",
-        "smooth-mcq-18": "「減少障礙，使某事更容易進行；鋪路」與本句語境不同。"
+        "smooth-mcq-21": "本句的「smoothness」指「平滑、流暢或順暢的程度」。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-21"
     },
@@ -1710,11 +1554,9 @@ export default {
       "masked": "The ____ of the transition surprised everyone.",
       "options": [
         "smooth-mcq-21",
-        "smooth-mcq-20",
-        "smooth-mcq-22",
-        "smooth-mcq-19",
-        "smooth-mcq-23",
-        "smooth-mcq-18"
+        "smooth-mcq-11",
+        "smooth-mcq-18",
+        "smooth-mcq-19"
       ],
       "explanation": "本句的「smoothness」指「平滑、流暢或順暢的程度」。",
       "sentenceIndex": 41,
@@ -1723,12 +1565,10 @@ export default {
         "smoothness"
       ],
       "optionReasons": {
-        "smooth-mcq-21": "本句指「平滑、流暢或順暢的程度」。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-22": "「減少數據短期波動與雜訊的平滑化處理」與本句語境不同。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。",
-        "smooth-mcq-23": "「事情進展非常順利；一帆風順」與本句語境不同。",
-        "smooth-mcq-18": "「減少障礙，使某事更容易進行；鋪路」與本句語境不同。"
+        "smooth-mcq-21": "本句的「smoothness」指「平滑、流暢或順暢的程度」。",
+        "smooth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-21"
     },
@@ -1740,11 +1580,9 @@ export default {
       "masked": "The surface needs more ____.",
       "options": [
         "smooth-mcq-22",
-        "smooth-mcq-21",
-        "smooth-mcq-23",
-        "smooth-mcq-20",
-        "smooth-mcq-24",
-        "smooth-mcq-19"
+        "smooth-mcq-19",
+        "smooth-mcq-07",
+        "smooth-mcq-14"
       ],
       "explanation": "本句的「smoothing」指「減少數據短期波動與雜訊的平滑化處理」。",
       "sentenceIndex": 42,
@@ -1753,12 +1591,10 @@ export default {
         "smoothing"
       ],
       "optionReasons": {
-        "smooth-mcq-22": "本句指「減少數據短期波動與雜訊的平滑化處理」。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-23": "「事情進展非常順利；一帆風順」與本句語境不同。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-24": "「沒有明顯中斷或問題的平穩過渡」與本句語境不同。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。"
+        "smooth-mcq-22": "本句的「smoothing」指「減少數據短期波動與雜訊的平滑化處理」。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-22"
     },
@@ -1770,10 +1606,8 @@ export default {
       "masked": "The software applies data ____.",
       "options": [
         "smooth-mcq-22",
-        "smooth-mcq-21",
+        "smooth-mcq-04",
         "smooth-mcq-23",
-        "smooth-mcq-20",
-        "smooth-mcq-24",
         "smooth-mcq-19"
       ],
       "explanation": "本句的「smoothing」指「減少數據短期波動與雜訊的平滑化處理」。",
@@ -1783,12 +1617,10 @@ export default {
         "smoothing"
       ],
       "optionReasons": {
-        "smooth-mcq-22": "本句指「減少數據短期波動與雜訊的平滑化處理」。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-23": "「事情進展非常順利；一帆風順」與本句語境不同。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-24": "「沒有明顯中斷或問題的平穩過渡」與本句語境不同。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。"
+        "smooth-mcq-22": "本句的「smoothing」指「減少數據短期波動與雜訊的平滑化處理」。",
+        "smooth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-22"
     },
@@ -1800,11 +1632,9 @@ export default {
       "masked": "The analyst used ____ to reduce noise in the data.",
       "options": [
         "smooth-mcq-22",
-        "smooth-mcq-21",
-        "smooth-mcq-23",
-        "smooth-mcq-20",
-        "smooth-mcq-24",
-        "smooth-mcq-19"
+        "smooth-mcq-07",
+        "smooth-mcq-19",
+        "smooth-mcq-14"
       ],
       "explanation": "本句的「smoothing」指「減少數據短期波動與雜訊的平滑化處理」。",
       "sentenceIndex": 44,
@@ -1813,12 +1643,10 @@ export default {
         "smoothing"
       ],
       "optionReasons": {
-        "smooth-mcq-22": "本句指「減少數據短期波動與雜訊的平滑化處理」。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-23": "「事情進展非常順利；一帆風順」與本句語境不同。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-24": "「沒有明顯中斷或問題的平穩過渡」與本句語境不同。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。"
+        "smooth-mcq-22": "本句的「smoothing」指「減少數據短期波動與雜訊的平滑化處理」。",
+        "smooth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-22"
     },
@@ -1830,11 +1658,9 @@ export default {
       "masked": "Moving averages are one method of data ____.",
       "options": [
         "smooth-mcq-22",
-        "smooth-mcq-21",
-        "smooth-mcq-23",
-        "smooth-mcq-20",
-        "smooth-mcq-24",
-        "smooth-mcq-19"
+        "smooth-mcq-07",
+        "smooth-mcq-19",
+        "smooth-mcq-14"
       ],
       "explanation": "本句的「smoothing」指「減少數據短期波動與雜訊的平滑化處理」。",
       "sentenceIndex": 45,
@@ -1843,12 +1669,10 @@ export default {
         "smoothing"
       ],
       "optionReasons": {
-        "smooth-mcq-22": "本句指「減少數據短期波動與雜訊的平滑化處理」。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-23": "「事情進展非常順利；一帆風順」與本句語境不同。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-24": "「沒有明顯中斷或問題的平穩過渡」與本句語境不同。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。"
+        "smooth-mcq-22": "本句的「smoothing」指「減少數據短期波動與雜訊的平滑化處理」。",
+        "smooth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-22"
     },
@@ -1860,11 +1684,9 @@ export default {
       "masked": "After the first week, it was ____.",
       "options": [
         "smooth-mcq-23",
-        "smooth-mcq-22",
-        "smooth-mcq-24",
-        "smooth-mcq-21",
-        "smooth-mcq-20",
-        "smooth-mcq-19"
+        "smooth-mcq-09",
+        "smooth-mcq-19",
+        "smooth-mcq-15"
       ],
       "explanation": "本句的「smooth sailing」指「事情進展非常順利；一帆風順」。",
       "sentenceIndex": 46,
@@ -1873,12 +1695,10 @@ export default {
         "smooth sailing"
       ],
       "optionReasons": {
-        "smooth-mcq-23": "本句指「事情進展非常順利；一帆風順」。",
-        "smooth-mcq-22": "「減少數據短期波動與雜訊的平滑化處理」與本句語境不同。",
-        "smooth-mcq-24": "「沒有明顯中斷或問題的平穩過渡」與本句語境不同。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。"
+        "smooth-mcq-23": "本句的「smooth sailing」指「事情進展非常順利；一帆風順」。",
+        "smooth-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-23"
     },
@@ -1890,10 +1710,8 @@ export default {
       "masked": "Don’t expect the whole project to be ____.",
       "options": [
         "smooth-mcq-23",
+        "smooth-mcq-12",
         "smooth-mcq-22",
-        "smooth-mcq-24",
-        "smooth-mcq-21",
-        "smooth-mcq-20",
         "smooth-mcq-19"
       ],
       "explanation": "本句的「smooth sailing」指「事情進展非常順利；一帆風順」。",
@@ -1903,12 +1721,10 @@ export default {
         "smooth sailing"
       ],
       "optionReasons": {
-        "smooth-mcq-23": "本句指「事情進展非常順利；一帆風順」。",
-        "smooth-mcq-22": "「減少數據短期波動與雜訊的平滑化處理」與本句語境不同。",
-        "smooth-mcq-24": "「沒有明顯中斷或問題的平穩過渡」與本句語境不同。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。"
+        "smooth-mcq-23": "本句的「smooth sailing」指「事情進展非常順利；一帆風順」。",
+        "smooth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-23"
     },
@@ -1920,11 +1736,9 @@ export default {
       "masked": "They planned a ____ to the new system.",
       "options": [
         "smooth-mcq-24",
-        "smooth-mcq-23",
-        "smooth-mcq-22",
-        "smooth-mcq-21",
-        "smooth-mcq-20",
-        "smooth-mcq-19"
+        "smooth-mcq-10",
+        "smooth-mcq-05",
+        "smooth-mcq-23"
       ],
       "explanation": "本句的「smooth transition」指「沒有明顯中斷或問題的平穩過渡」。",
       "sentenceIndex": 48,
@@ -1933,12 +1747,10 @@ export default {
         "smooth transition"
       ],
       "optionReasons": {
-        "smooth-mcq-24": "本句指「沒有明顯中斷或問題的平穩過渡」。",
-        "smooth-mcq-23": "「事情進展非常順利；一帆風順」與本句語境不同。",
-        "smooth-mcq-22": "「減少數據短期波動與雜訊的平滑化處理」與本句語境不同。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。"
+        "smooth-mcq-24": "本句的「smooth transition」指「沒有明顯中斷或問題的平穩過渡」。",
+        "smooth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-24"
     },
@@ -1950,11 +1762,9 @@ export default {
       "masked": "Good communication helped ensure a ____.",
       "options": [
         "smooth-mcq-24",
-        "smooth-mcq-23",
-        "smooth-mcq-22",
-        "smooth-mcq-21",
-        "smooth-mcq-20",
-        "smooth-mcq-19"
+        "smooth-mcq-05",
+        "smooth-mcq-14",
+        "smooth-mcq-10"
       ],
       "explanation": "本句的「smooth transition」指「沒有明顯中斷或問題的平穩過渡」。",
       "sentenceIndex": 49,
@@ -1963,12 +1773,10 @@ export default {
         "smooth transition"
       ],
       "optionReasons": {
-        "smooth-mcq-24": "本句指「沒有明顯中斷或問題的平穩過渡」。",
-        "smooth-mcq-23": "「事情進展非常順利；一帆風順」與本句語境不同。",
-        "smooth-mcq-22": "「減少數據短期波動與雜訊的平滑化處理」與本句語境不同。",
-        "smooth-mcq-21": "「平滑、流暢或順暢的程度」與本句語境不同。",
-        "smooth-mcq-20": "「平滑地、流暢地、順利地」與本句語境不同。",
-        "smooth-mcq-19": "「緩和爭執、尷尬或人際緊張」與本句語境不同。"
+        "smooth-mcq-24": "本句的「smooth transition」指「沒有明顯中斷或問題的平穩過渡」。",
+        "smooth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "smooth-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smooth-mcq-24"
     }
@@ -1980,5 +1788,7 @@ export default {
     "sha256": "1c706057bcea4ca5a54258d1ffda994b94e62ccbaf5ba6e7415bc0115c71d5d9",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

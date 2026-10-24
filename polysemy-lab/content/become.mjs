@@ -249,16 +249,6 @@ export default {
       "note": "來源詞義：某種衣著、顏色或風格很適合／很襯某人",
       "examples": [
         [
-          "No one knows what became of the missing document.",
-          "沒有人知道那份失蹤文件後來去了哪裡／結果如何。",
-          "某種衣著、顏色或風格很適合／很襯某人"
-        ],
-        [
-          "I often wonder what became of my old classmates.",
-          "我常常想以前的同學們後來都怎樣了。",
-          "某種衣著、顏色或風格很適合／很襯某人"
-        ],
-        [
           "That colour really becomes you.",
           "那個顏色真的很襯你。",
           "某種衣著、顏色或風格很適合／很襯某人"
@@ -369,6 +359,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "become-reviewed-1f2135c82f",
+      "title": "表示某人／某事之後的命運、結果或去向",
+      "form": "become · source section 14",
+      "en": "表示某人／某事之後的命運、結果或去向",
+      "zh": "表示某人／某事之後的命運、結果或去向",
+      "note": "對照原始教材第 14 節及例句核實。",
+      "examples": [
+        [
+          "No one knows what became of the missing document.",
+          "沒有人知道那份失蹤文件後來去了哪裡／結果如何。",
+          "表示某人／某事之後的命運、結果或去向"
+        ],
+        [
+          "I often wonder what became of my old classmates.",
+          "我常常想以前的同學們後來都怎樣了。",
+          "表示某人／某事之後的命運、結果或去向"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -380,11 +392,7 @@ export default {
       "masked": "She faced hardship without ____.",
       "options": [
         "become-mcq-01",
-        "become-mcq-02",
-        "become-mcq-03",
-        "become-mcq-04",
-        "become-mcq-05",
-        "become-mcq-06"
+        "become-mcq-08"
       ],
       "explanation": "本句的「becoming bitter」指「由原本狀態轉變成具有某種新性質／狀況」。",
       "sentenceIndex": 0,
@@ -393,12 +401,8 @@ export default {
         "becoming bitter"
       ],
       "optionReasons": {
-        "become-mcq-01": "本句指「由原本狀態轉變成具有某種新性質／狀況」。",
-        "become-mcq-02": "「身體、情緒或心理狀態發生改變」是「become tired/angry/bitter」的用法，與本句語境不同。",
-        "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
+        "become-mcq-01": "本句的「becoming bitter」指「由原本狀態轉變成具有某種新性質／狀況」。",
+        "become-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-01"
     },
@@ -410,11 +414,8 @@ export default {
       "masked": "The weather ____.",
       "options": [
         "become-mcq-01",
-        "become-mcq-02",
-        "become-mcq-03",
-        "become-mcq-04",
-        "become-mcq-05",
-        "become-mcq-06"
+        "become-mcq-06",
+        "become-mcq-10"
       ],
       "explanation": "本句的「became colder」指「由原本狀態轉變成具有某種新性質／狀況」。",
       "sentenceIndex": 1,
@@ -423,12 +424,9 @@ export default {
         "became colder"
       ],
       "optionReasons": {
-        "become-mcq-01": "本句指「由原本狀態轉變成具有某種新性質／狀況」。",
-        "become-mcq-02": "「身體、情緒或心理狀態發生改變」是「become tired/angry/bitter」的用法，與本句語境不同。",
-        "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
+        "become-mcq-01": "本句的「became colder」指「由原本狀態轉變成具有某種新性質／狀況」。",
+        "become-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-01"
     },
@@ -440,11 +438,7 @@ export default {
       "masked": "He gradually ____.",
       "options": [
         "become-mcq-01",
-        "become-mcq-02",
-        "become-mcq-03",
-        "become-mcq-04",
-        "become-mcq-05",
-        "become-mcq-06"
+        "become-mcq-08"
       ],
       "explanation": "本句的「became more confident」指「由原本狀態轉變成具有某種新性質／狀況」。",
       "sentenceIndex": 2,
@@ -453,12 +447,8 @@ export default {
         "became more confident"
       ],
       "optionReasons": {
-        "become-mcq-01": "本句指「由原本狀態轉變成具有某種新性質／狀況」。",
-        "become-mcq-02": "「身體、情緒或心理狀態發生改變」是「become tired/angry/bitter」的用法，與本句語境不同。",
-        "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
+        "become-mcq-01": "本句的「became more confident」指「由原本狀態轉變成具有某種新性質／狀況」。",
+        "become-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-01"
     },
@@ -470,11 +460,9 @@ export default {
       "masked": "She ____ after the long walk.",
       "options": [
         "become-mcq-02",
-        "become-mcq-01",
-        "become-mcq-03",
-        "become-mcq-04",
-        "become-mcq-05",
-        "become-mcq-06"
+        "become-mcq-11",
+        "become-mcq-06",
+        "become-mcq-03"
       ],
       "explanation": "本句的「became tired」指「身體、情緒或心理狀態發生改變」。",
       "sentenceIndex": 3,
@@ -483,12 +471,10 @@ export default {
         "became tired"
       ],
       "optionReasons": {
-        "become-mcq-02": "本句指「身體、情緒或心理狀態發生改變」。",
-        "become-mcq-01": "「由原本狀態轉變成具有某種新性質／狀況」是「become + adjective」的用法，與本句語境不同。",
-        "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
+        "become-mcq-02": "本句的「became tired」指「身體、情緒或心理狀態發生改變」。",
+        "become-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-02"
     },
@@ -500,10 +486,8 @@ export default {
       "masked": "He ____ angry when he heard the news.",
       "options": [
         "become-mcq-02",
-        "become-mcq-01",
+        "become-reviewed-1f2135c82f",
         "become-mcq-03",
-        "become-mcq-04",
-        "become-mcq-05",
         "become-mcq-06"
       ],
       "explanation": "本句的「became」指「身體、情緒或心理狀態發生改變」。",
@@ -513,12 +497,10 @@ export default {
         "became"
       ],
       "optionReasons": {
-        "become-mcq-02": "本句指「身體、情緒或心理狀態發生改變」。",
-        "become-mcq-01": "「由原本狀態轉變成具有某種新性質／狀況」是「become + adjective」的用法，與本句語境不同。",
-        "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
+        "become-mcq-02": "本句的「became」指「身體、情緒或心理狀態發生改變」。",
+        "become-reviewed-1f2135c82f": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-02"
     },
@@ -530,10 +512,7 @@ export default {
       "masked": "The problem ____.",
       "options": [
         "become-pdf-001",
-        "become-mcq-01",
-        "become-mcq-03",
-        "become-mcq-04",
-        "become-mcq-05",
+        "become-mcq-11",
         "become-mcq-06"
       ],
       "explanation": "本句的「became more difficult」指「事情、情況或問題的性質逐漸改變」。",
@@ -543,12 +522,9 @@ export default {
         "became more difficult"
       ],
       "optionReasons": {
-        "become-pdf-001": "本句指「事情、情況或問題的性質逐漸改變」。",
-        "become-mcq-01": "「由原本狀態轉變成具有某種新性質／狀況」是「become + adjective」的用法，與本句語境不同。",
-        "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
+        "become-pdf-001": "本句的「became more difficult」指「事情、情況或問題的性質逐漸改變」。",
+        "become-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-pdf-001"
     },
@@ -560,11 +536,8 @@ export default {
       "masked": "Communication ____ easier over time.",
       "options": [
         "become-pdf-001",
-        "become-mcq-01",
-        "become-mcq-03",
-        "become-mcq-04",
         "become-mcq-05",
-        "become-mcq-06"
+        "become-mcq-13"
       ],
       "explanation": "本句的「became」指「事情、情況或問題的性質逐漸改變」。",
       "sentenceIndex": 6,
@@ -573,12 +546,9 @@ export default {
         "became"
       ],
       "optionReasons": {
-        "become-pdf-001": "本句指「事情、情況或問題的性質逐漸改變」。",
-        "become-mcq-01": "「由原本狀態轉變成具有某種新性質／狀況」是「become + adjective」的用法，與本句語境不同。",
-        "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
+        "become-pdf-001": "本句的「became」指「事情、情況或問題的性質逐漸改變」。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-pdf-001"
     },
@@ -590,11 +560,8 @@ export default {
       "masked": "It soon ____ that we needed more time.",
       "options": [
         "become-mcq-03",
-        "become-mcq-02",
-        "become-mcq-04",
-        "become-mcq-01",
-        "become-mcq-05",
-        "become-mcq-06"
+        "become-mcq-08",
+        "become-mcq-09"
       ],
       "explanation": "本句的「became clear」指「原本不清楚／不明顯的事情逐漸可以理解／看出」。",
       "sentenceIndex": 7,
@@ -603,12 +570,9 @@ export default {
         "became clear"
       ],
       "optionReasons": {
-        "become-mcq-03": "本句指「原本不清楚／不明顯的事情逐漸可以理解／看出」。",
-        "become-mcq-02": "「身體、情緒或心理狀態發生改變」是「become tired/angry/bitter」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
-        "become-mcq-01": "「由原本狀態轉變成具有某種新性質／狀況」是「become + adjective」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
+        "become-mcq-03": "本句的「became clear」指「原本不清楚／不明顯的事情逐漸可以理解／看出」。",
+        "become-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-03"
     },
@@ -620,11 +584,9 @@ export default {
       "masked": "The difference ____ obvious.",
       "options": [
         "become-mcq-03",
-        "become-mcq-02",
-        "become-mcq-04",
-        "become-mcq-01",
-        "become-mcq-05",
-        "become-mcq-06"
+        "become-mcq-06",
+        "become-mcq-10",
+        "become-mcq-07"
       ],
       "explanation": "本句的「became」指「原本不清楚／不明顯的事情逐漸可以理解／看出」。",
       "sentenceIndex": 8,
@@ -633,12 +595,10 @@ export default {
         "became"
       ],
       "optionReasons": {
-        "become-mcq-03": "本句指「原本不清楚／不明顯的事情逐漸可以理解／看出」。",
-        "become-mcq-02": "「身體、情緒或心理狀態發生改變」是「become tired/angry/bitter」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
-        "become-mcq-01": "「由原本狀態轉變成具有某種新性質／狀況」是「become + adjective」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
+        "become-mcq-03": "本句的「became」指「原本不清楚／不明顯的事情逐漸可以理解／看出」。",
+        "become-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-03"
     },
@@ -650,11 +610,8 @@ export default {
       "masked": "She ____ of the problem.",
       "options": [
         "become-mcq-04",
-        "become-mcq-03",
-        "become-mcq-05",
-        "become-mcq-02",
-        "become-mcq-06",
-        "become-mcq-01"
+        "become-mcq-11",
+        "become-mcq-05"
       ],
       "explanation": "本句的「became aware」指「由不知道／未察覺轉變為知道／察覺」。",
       "sentenceIndex": 9,
@@ -663,12 +620,9 @@ export default {
         "became aware"
       ],
       "optionReasons": {
-        "become-mcq-04": "本句指「由不知道／未察覺轉變為知道／察覺」。",
-        "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-02": "「身體、情緒或心理狀態發生改變」是「become tired/angry/bitter」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。",
-        "become-mcq-01": "「由原本狀態轉變成具有某種新性質／狀況」是「become + adjective」的用法，與本句語境不同。"
+        "become-mcq-04": "本句的「became aware」指「由不知道／未察覺轉變為知道／察覺」。",
+        "become-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-04"
     },
@@ -680,11 +634,8 @@ export default {
       "masked": "I ____ aware that someone was watching me.",
       "options": [
         "become-mcq-04",
-        "become-mcq-03",
         "become-mcq-05",
-        "become-mcq-02",
-        "become-mcq-06",
-        "become-mcq-01"
+        "become-mcq-13"
       ],
       "explanation": "本句的「became」指「由不知道／未察覺轉變為知道／察覺」。",
       "sentenceIndex": 10,
@@ -693,12 +644,9 @@ export default {
         "became"
       ],
       "optionReasons": {
-        "become-mcq-04": "本句指「由不知道／未察覺轉變為知道／察覺」。",
-        "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-02": "「身體、情緒或心理狀態發生改變」是「become tired/angry/bitter」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。",
-        "become-mcq-01": "「由原本狀態轉變成具有某種新性質／狀況」是「become + adjective」的用法，與本句語境不同。"
+        "become-mcq-04": "本句的「became」指「由不知道／未察覺轉變為知道／察覺」。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-04"
     },
@@ -710,11 +658,9 @@ export default {
       "masked": "The café ____ very quickly.",
       "options": [
         "become-mcq-05",
-        "become-mcq-04",
-        "become-mcq-06",
-        "become-mcq-03",
         "become-mcq-07",
-        "become-mcq-02"
+        "become-reviewed-1f2135c82f",
+        "become-mcq-03"
       ],
       "explanation": "本句的「became popular」指「開始具有名氣／受歡迎的社會狀態」。",
       "sentenceIndex": 11,
@@ -723,12 +669,10 @@ export default {
         "became popular"
       ],
       "optionReasons": {
-        "become-mcq-05": "本句指「開始具有名氣／受歡迎的社會狀態」。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。",
-        "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。",
-        "become-mcq-07": "「人際關係轉變為朋友關係」是「become friends」的用法，與本句語境不同。",
-        "become-mcq-02": "「身體、情緒或心理狀態發生改變」是「become tired/angry/bitter」的用法，與本句語境不同。"
+        "become-mcq-05": "本句的「became popular」指「開始具有名氣／受歡迎的社會狀態」。",
+        "become-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "become-reviewed-1f2135c82f": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-05"
     },
@@ -740,11 +684,9 @@ export default {
       "masked": "She ____ famous after the film.",
       "options": [
         "become-mcq-05",
-        "become-mcq-04",
-        "become-mcq-06",
-        "become-mcq-03",
+        "become-mcq-13",
         "become-mcq-07",
-        "become-mcq-02"
+        "become-mcq-03"
       ],
       "explanation": "本句的「became」指「開始具有名氣／受歡迎的社會狀態」。",
       "sentenceIndex": 12,
@@ -753,12 +695,10 @@ export default {
         "became"
       ],
       "optionReasons": {
-        "become-mcq-05": "本句指「開始具有名氣／受歡迎的社會狀態」。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。",
-        "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。",
-        "become-mcq-07": "「人際關係轉變為朋友關係」是「become friends」的用法，與本句語境不同。",
-        "become-mcq-02": "「身體、情緒或心理狀態發生改變」是「become tired/angry/bitter」的用法，與本句語境不同。"
+        "become-mcq-05": "本句的「became」指「開始具有名氣／受歡迎的社會狀態」。",
+        "become-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-05"
     },
@@ -770,11 +710,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "become-mcq-06",
-        "become-mcq-05",
-        "become-mcq-07",
-        "become-mcq-04",
-        "become-mcq-08",
-        "become-mcq-03"
+        "become-pdf-001",
+        "become-reviewed-1f2135c82f"
       ],
       "explanation": "本句的「became a teacher」指「開始擁有某種身份、角色、職業或地位」。",
       "sentenceIndex": 13,
@@ -783,12 +720,9 @@ export default {
         "became a teacher"
       ],
       "optionReasons": {
-        "become-mcq-06": "本句指「開始擁有某種身份、角色、職業或地位」。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-07": "「人際關係轉變為朋友關係」是「become friends」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。",
-        "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。"
+        "become-mcq-06": "本句的「became a teacher」指「開始擁有某種身份、角色、職業或地位」。",
+        "become-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "become-reviewed-1f2135c82f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-06"
     },
@@ -800,11 +734,8 @@ export default {
       "masked": "He ____ the manager last year.",
       "options": [
         "become-mcq-06",
-        "become-mcq-05",
-        "become-mcq-07",
-        "become-mcq-04",
-        "become-mcq-08",
-        "become-mcq-03"
+        "become-reviewed-1f2135c82f",
+        "become-mcq-01"
       ],
       "explanation": "本句的「became」指「開始擁有某種身份、角色、職業或地位」。",
       "sentenceIndex": 14,
@@ -813,12 +744,9 @@ export default {
         "became"
       ],
       "optionReasons": {
-        "become-mcq-06": "本句指「開始擁有某種身份、角色、職業或地位」。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-07": "「人際關係轉變為朋友關係」是「become friends」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。",
-        "become-mcq-03": "「原本不清楚／不明顯的事情逐漸可以理解／看出」是「become clear/obvious」的用法，與本句語境不同。"
+        "become-mcq-06": "本句的「became」指「開始擁有某種身份、角色、職業或地位」。",
+        "become-reviewed-1f2135c82f": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-06"
     },
@@ -830,11 +758,9 @@ export default {
       "masked": "She ____ at thirty.",
       "options": [
         "become-pdf-002",
-        "become-mcq-06",
-        "become-mcq-08",
+        "become-reviewed-1f2135c82f",
         "become-mcq-05",
-        "become-mcq-09",
-        "become-mcq-04"
+        "become-mcq-03"
       ],
       "explanation": "本句的「became a mother」指「身份／職位由不是 X 轉變為 X」。",
       "sentenceIndex": 15,
@@ -843,12 +769,10 @@ export default {
         "became a mother"
       ],
       "optionReasons": {
-        "become-pdf-002": "本句指「身份／職位由不是 X 轉變為 X」。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。"
+        "become-pdf-002": "本句的「became a mother」指「身份／職位由不是 X 轉變為 X」。",
+        "become-reviewed-1f2135c82f": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-pdf-002"
     },
@@ -860,11 +784,9 @@ export default {
       "masked": "He ____ team leader.",
       "options": [
         "become-pdf-002",
-        "become-mcq-06",
-        "become-mcq-08",
+        "become-mcq-10",
         "become-mcq-05",
-        "become-mcq-09",
-        "become-mcq-04"
+        "become-mcq-03"
       ],
       "explanation": "本句的「became」指「身份／職位由不是 X 轉變為 X」。",
       "sentenceIndex": 16,
@@ -873,12 +795,10 @@ export default {
         "became"
       ],
       "optionReasons": {
-        "become-pdf-002": "本句指「身份／職位由不是 X 轉變為 X」。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。"
+        "become-pdf-002": "本句的「became」指「身份／職位由不是 X 轉變為 X」。",
+        "become-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-pdf-002"
     },
@@ -890,11 +810,9 @@ export default {
       "masked": "We ____ at university.",
       "options": [
         "become-mcq-07",
-        "become-mcq-06",
-        "become-mcq-08",
+        "become-mcq-11",
         "become-mcq-05",
-        "become-mcq-09",
-        "become-mcq-04"
+        "become-mcq-03"
       ],
       "explanation": "本句的「became friends」指「人際關係轉變為朋友關係」。",
       "sentenceIndex": 17,
@@ -903,12 +821,10 @@ export default {
         "became friends"
       ],
       "optionReasons": {
-        "become-mcq-07": "本句指「人際關係轉變為朋友關係」。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。"
+        "become-mcq-07": "本句的「became friends」指「人際關係轉變為朋友關係」。",
+        "become-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-07"
     },
@@ -920,11 +836,9 @@ export default {
       "masked": "The two families ____ close.",
       "options": [
         "become-mcq-07",
-        "become-mcq-06",
-        "become-mcq-08",
-        "become-mcq-05",
-        "become-mcq-09",
-        "become-mcq-04"
+        "become-mcq-10",
+        "become-mcq-03",
+        "become-mcq-05"
       ],
       "explanation": "本句的「became」指「人際關係轉變為朋友關係」。",
       "sentenceIndex": 18,
@@ -933,12 +847,10 @@ export default {
         "became"
       ],
       "optionReasons": {
-        "become-mcq-07": "本句指「人際關係轉變為朋友關係」。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-04": "「由不知道／未察覺轉變為知道／察覺」是「become aware」的用法，與本句語境不同。"
+        "become-mcq-07": "本句的「became」指「人際關係轉變為朋友關係」。",
+        "become-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-07"
     },
@@ -950,11 +862,7 @@ export default {
       "masked": "She ____.",
       "options": [
         "become-mcq-08",
-        "become-mcq-07",
-        "become-mcq-09",
-        "become-mcq-06",
-        "become-mcq-10",
-        "become-mcq-05"
+        "become-mcq-04"
       ],
       "explanation": "本句的「became part of the team」指「開始在身份／結構上屬於某群體或整體」。",
       "sentenceIndex": 19,
@@ -963,12 +871,8 @@ export default {
         "became part of the team"
       ],
       "optionReasons": {
-        "become-mcq-08": "本句指「開始在身份／結構上屬於某群體或整體」。",
-        "become-mcq-07": "「人際關係轉變為朋友關係」是「become friends」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。"
+        "become-mcq-08": "本句的「became part of the team」指「開始在身份／結構上屬於某群體或整體」。",
+        "become-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-08"
     },
@@ -980,11 +884,7 @@ export default {
       "masked": "The village ____ part of the city.",
       "options": [
         "become-mcq-08",
-        "become-mcq-07",
-        "become-mcq-09",
-        "become-mcq-06",
-        "become-mcq-10",
-        "become-mcq-05"
+        "become-mcq-04"
       ],
       "explanation": "本句的「became」指「開始在身份／結構上屬於某群體或整體」。",
       "sentenceIndex": 20,
@@ -993,12 +893,8 @@ export default {
         "became"
       ],
       "optionReasons": {
-        "become-mcq-08": "本句指「開始在身份／結構上屬於某群體或整體」。",
-        "become-mcq-07": "「人際關係轉變為朋友關係」是「become friends」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-05": "「開始具有名氣／受歡迎的社會狀態」是「become famous/popular」的用法，與本句語境不同。"
+        "become-mcq-08": "本句的「became」指「開始在身份／結構上屬於某群體或整體」。",
+        "become-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-08"
     },
@@ -1010,11 +906,9 @@ export default {
       "masked": "The small business ____.",
       "options": [
         "become-mcq-09",
-        "become-mcq-08",
-        "become-mcq-10",
-        "become-mcq-07",
-        "become-mcq-11",
-        "become-mcq-06"
+        "become-mcq-06",
+        "become-mcq-03",
+        "become-mcq-12"
       ],
       "explanation": "本句的「became a large company」指「某事經過變化後演變／發展成另一種形態或結果」。",
       "sentenceIndex": 21,
@@ -1023,12 +917,10 @@ export default {
         "became a large company"
       ],
       "optionReasons": {
-        "become-mcq-09": "本句指「某事經過變化後演變／發展成另一種形態或結果」。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-07": "「人際關係轉變為朋友關係」是「become friends」的用法，與本句語境不同。",
-        "become-mcq-11": "「某種衣著、顏色或風格很適合／很襯某人」是「become someone — suit」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
+        "become-mcq-09": "本句的「became a large company」指「某事經過變化後演變／發展成另一種形態或結果」。",
+        "become-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-09"
     },
@@ -1040,11 +932,9 @@ export default {
       "masked": "The discussion ____ an argument.",
       "options": [
         "become-mcq-09",
-        "become-mcq-08",
-        "become-mcq-10",
-        "become-mcq-07",
-        "become-mcq-11",
-        "become-mcq-06"
+        "become-mcq-13",
+        "become-mcq-03",
+        "become-mcq-05"
       ],
       "explanation": "本句的「became」指「某事經過變化後演變／發展成另一種形態或結果」。",
       "sentenceIndex": 22,
@@ -1053,12 +943,10 @@ export default {
         "became"
       ],
       "optionReasons": {
-        "become-mcq-09": "本句指「某事經過變化後演變／發展成另一種形態或結果」。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-07": "「人際關係轉變為朋友關係」是「become friends」的用法，與本句語境不同。",
-        "become-mcq-11": "「某種衣著、顏色或風格很適合／很襯某人」是「become someone — suit」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
+        "become-mcq-09": "本句的「became」指「某事經過變化後演變／發展成另一種形態或結果」。",
+        "become-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-09"
     },
@@ -1070,11 +958,9 @@ export default {
       "masked": "The issue ____.",
       "options": [
         "become-mcq-09",
-        "become-mcq-08",
-        "become-mcq-10",
-        "become-mcq-07",
-        "become-mcq-11",
-        "become-mcq-06"
+        "become-mcq-03",
+        "become-mcq-13",
+        "become-mcq-05"
       ],
       "explanation": "本句的「became a major problem」指「某事經過變化後演變／發展成另一種形態或結果」。",
       "sentenceIndex": 23,
@@ -1083,12 +969,10 @@ export default {
         "became a major problem"
       ],
       "optionReasons": {
-        "become-mcq-09": "本句指「某事經過變化後演變／發展成另一種形態或結果」。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-07": "「人際關係轉變為朋友關係」是「become friends」的用法，與本句語境不同。",
-        "become-mcq-11": "「某種衣著、顏色或風格很適合／很襯某人」是「become someone — suit」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
+        "become-mcq-09": "本句的「became a major problem」指「某事經過變化後演變／發展成另一種形態或結果」。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-09"
     },
@@ -1100,10 +984,8 @@ export default {
       "masked": "The hobby ____ a career.",
       "options": [
         "become-mcq-09",
-        "become-mcq-08",
-        "become-mcq-10",
-        "become-mcq-07",
         "become-mcq-11",
+        "become-mcq-03",
         "become-mcq-06"
       ],
       "explanation": "本句的「became」指「某事經過變化後演變／發展成另一種形態或結果」。",
@@ -1113,12 +995,10 @@ export default {
         "became"
       ],
       "optionReasons": {
-        "become-mcq-09": "本句指「某事經過變化後演變／發展成另一種形態或結果」。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-07": "「人際關係轉變為朋友關係」是「become friends」的用法，與本句語境不同。",
-        "become-mcq-11": "「某種衣著、顏色或風格很適合／很襯某人」是「become someone — suit」的用法，與本句語境不同。",
-        "become-mcq-06": "「開始擁有某種身份、角色、職業或地位」是「become + noun」的用法，與本句語境不同。"
+        "become-mcq-09": "本句的「became」指「某事經過變化後演變／發展成另一種形態或結果」。",
+        "become-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-09"
     },
@@ -1130,11 +1010,9 @@ export default {
       "masked": "What ____ your old neighbour?",
       "options": [
         "become-mcq-10",
-        "become-mcq-09",
-        "become-mcq-11",
-        "become-mcq-08",
-        "become-mcq-12",
-        "become-mcq-07"
+        "become-mcq-03",
+        "become-pdf-002",
+        "become-mcq-05"
       ],
       "explanation": "本句的「became of」指「詢問某人／某事後來的命運、結果或去向」。",
       "sentenceIndex": 25,
@@ -1143,12 +1021,10 @@ export default {
         "became of"
       ],
       "optionReasons": {
-        "become-mcq-10": "本句指「詢問某人／某事後來的命運、結果或去向」。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-11": "「某種衣著、顏色或風格很適合／很襯某人」是「become someone — suit」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。",
-        "become-mcq-12": "「衣著、顏色或舉止與某人相襯、得體」是「becoming — adjective」的用法，與本句語境不同。",
-        "become-mcq-07": "「人際關係轉變為朋友關係」是「become friends」的用法，與本句語境不同。"
+        "become-mcq-10": "本句的「became of」指「詢問某人／某事後來的命運、結果或去向」。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "become-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-10"
     },
@@ -1160,11 +1036,8 @@ export default {
       "masked": "Do you know what ____ of that project?",
       "options": [
         "become-mcq-10",
-        "become-mcq-09",
-        "become-mcq-11",
-        "become-mcq-08",
-        "become-mcq-12",
-        "become-mcq-07"
+        "become-mcq-04",
+        "become-mcq-06"
       ],
       "explanation": "本句的「became」指「詢問某人／某事後來的命運、結果或去向」。",
       "sentenceIndex": 26,
@@ -1173,74 +1046,65 @@ export default {
         "became"
       ],
       "optionReasons": {
-        "become-mcq-10": "本句指「詢問某人／某事後來的命運、結果或去向」。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-11": "「某種衣著、顏色或風格很適合／很襯某人」是「become someone — suit」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。",
-        "become-mcq-12": "「衣著、顏色或舉止與某人相襯、得體」是「becoming — adjective」的用法，與本句語境不同。",
-        "become-mcq-07": "「人際關係轉變為朋友關係」是「become friends」的用法，與本句語境不同。"
+        "become-mcq-10": "本句的「became」指「詢問某人／某事後來的命運、結果或去向」。",
+        "become-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-10"
     },
     {
       "id": "become-14-0",
-      "sense": "become-mcq-11",
+      "sense": "become-reviewed-1f2135c82f",
       "en": "No one knows what became of the missing document.",
       "zh": "沒有人知道那份失蹤文件後來去了哪裡／結果如何。",
       "masked": "No one knows what ____ the missing document.",
       "options": [
-        "become-mcq-11",
-        "become-mcq-10",
-        "become-mcq-12",
-        "become-mcq-09",
-        "become-mcq-13",
-        "become-mcq-08"
+        "become-reviewed-1f2135c82f",
+        "become-mcq-06",
+        "become-mcq-01"
       ],
-      "explanation": "本句的「became of」指「某種衣著、顏色或風格很適合／很襯某人」。",
+      "explanation": "對照完整句子：「沒有人知道那份失蹤文件後來去了哪裡／結果如何。」。這裡的「became of」表示「表示某人／某事之後的命運、結果或去向」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "became of"
       ],
       "optionReasons": {
-        "become-mcq-11": "本句指「某種衣著、顏色或風格很適合／很襯某人」。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-12": "「衣著、顏色或舉止與某人相襯、得體」是「becoming — adjective」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-13": "「與某人的身份／角色不相稱、不夠得體」是「unbecoming」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。"
+        "become-reviewed-1f2135c82f": "對照完整句子：「沒有人知道那份失蹤文件後來去了哪裡／結果如何。」。這裡的「became of」表示「表示某人／某事之後的命運、結果或去向」。",
+        "become-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "become-mcq-11"
+      "correctOption": "become-reviewed-1f2135c82f",
+      "previousCorrectOption": "become-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "become-14-1",
-      "sense": "become-mcq-11",
+      "sense": "become-reviewed-1f2135c82f",
       "en": "I often wonder what became of my old classmates.",
       "zh": "我常常想以前的同學們後來都怎樣了。",
       "masked": "I often wonder what ____ of my old classmates.",
       "options": [
-        "become-mcq-11",
-        "become-mcq-10",
-        "become-mcq-12",
-        "become-mcq-09",
-        "become-mcq-13",
-        "become-mcq-08"
+        "become-reviewed-1f2135c82f",
+        "become-mcq-07",
+        "become-mcq-05",
+        "become-mcq-03"
       ],
-      "explanation": "本句的「became」指「某種衣著、顏色或風格很適合／很襯某人」。",
+      "explanation": "對照完整句子：「我常常想以前的同學們後來都怎樣了。」。這裡的「became」表示「表示某人／某事之後的命運、結果或去向」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "became"
       ],
       "optionReasons": {
-        "become-mcq-11": "本句指「某種衣著、顏色或風格很適合／很襯某人」。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-12": "「衣著、顏色或舉止與某人相襯、得體」是「becoming — adjective」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-13": "「與某人的身份／角色不相稱、不夠得體」是「unbecoming」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。"
+        "become-reviewed-1f2135c82f": "對照完整句子：「我常常想以前的同學們後來都怎樣了。」。這裡的「became」表示「表示某人／某事之後的命運、結果或去向」。",
+        "become-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "become-mcq-11"
+      "correctOption": "become-reviewed-1f2135c82f",
+      "previousCorrectOption": "become-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "become-15-0",
@@ -1250,11 +1114,8 @@ export default {
       "masked": "That colour really ____.",
       "options": [
         "become-mcq-11",
-        "become-mcq-10",
-        "become-mcq-12",
-        "become-mcq-09",
-        "become-mcq-13",
-        "become-mcq-08"
+        "become-mcq-04",
+        "become-mcq-05"
       ],
       "explanation": "本句的「becomes you」指「某種衣著、顏色或風格很適合／很襯某人」。",
       "sentenceIndex": 29,
@@ -1263,12 +1124,9 @@ export default {
         "becomes you"
       ],
       "optionReasons": {
-        "become-mcq-11": "本句指「某種衣著、顏色或風格很適合／很襯某人」。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-12": "「衣著、顏色或舉止與某人相襯、得體」是「becoming — adjective」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-13": "「與某人的身份／角色不相稱、不夠得體」是「unbecoming」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。"
+        "become-mcq-11": "本句的「becomes you」指「某種衣著、顏色或風格很適合／很襯某人」。",
+        "become-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-11"
     },
@@ -1280,11 +1138,9 @@ export default {
       "masked": "The style ____ her.",
       "options": [
         "become-mcq-11",
-        "become-mcq-10",
-        "become-mcq-12",
-        "become-mcq-09",
-        "become-mcq-13",
-        "become-mcq-08"
+        "become-mcq-07",
+        "become-mcq-05",
+        "become-mcq-03"
       ],
       "explanation": "本句的「becomes」指「某種衣著、顏色或風格很適合／很襯某人」。",
       "sentenceIndex": 30,
@@ -1293,12 +1149,10 @@ export default {
         "becomes"
       ],
       "optionReasons": {
-        "become-mcq-11": "本句指「某種衣著、顏色或風格很適合／很襯某人」。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-12": "「衣著、顏色或舉止與某人相襯、得體」是「becoming — adjective」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-13": "「與某人的身份／角色不相稱、不夠得體」是「unbecoming」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。"
+        "become-mcq-11": "本句的「becomes」指「某種衣著、顏色或風格很適合／很襯某人」。",
+        "become-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-11"
     },
@@ -1310,11 +1164,9 @@ export default {
       "masked": "She wore a ____.",
       "options": [
         "become-mcq-12",
-        "become-mcq-11",
-        "become-mcq-13",
-        "become-mcq-10",
-        "become-mcq-09",
-        "become-mcq-08"
+        "become-pdf-002",
+        "become-mcq-05",
+        "become-mcq-03"
       ],
       "explanation": "本句的「becoming dress」指「衣著、顏色或舉止與某人相襯、得體」。",
       "sentenceIndex": 31,
@@ -1323,12 +1175,10 @@ export default {
         "becoming dress"
       ],
       "optionReasons": {
-        "become-mcq-12": "本句指「衣著、顏色或舉止與某人相襯、得體」。",
-        "become-mcq-11": "「某種衣著、顏色或風格很適合／很襯某人」是「become someone — suit」的用法，與本句語境不同。",
-        "become-mcq-13": "「與某人的身份／角色不相稱、不夠得體」是「unbecoming」的用法，與本句語境不同。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。"
+        "become-mcq-12": "本句的「becoming dress」指「衣著、顏色或舉止與某人相襯、得體」。",
+        "become-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-12"
     },
@@ -1340,11 +1190,8 @@ export default {
       "masked": "The colour is very ____ on you.",
       "options": [
         "become-mcq-12",
-        "become-mcq-11",
-        "become-mcq-13",
-        "become-mcq-10",
-        "become-mcq-09",
-        "become-mcq-08"
+        "become-pdf-001",
+        "become-mcq-05"
       ],
       "explanation": "本句的「becoming」指「衣著、顏色或舉止與某人相襯、得體」。",
       "sentenceIndex": 32,
@@ -1353,12 +1200,9 @@ export default {
         "becoming"
       ],
       "optionReasons": {
-        "become-mcq-12": "本句指「衣著、顏色或舉止與某人相襯、得體」。",
-        "become-mcq-11": "「某種衣著、顏色或風格很適合／很襯某人」是「become someone — suit」的用法，與本句語境不同。",
-        "become-mcq-13": "「與某人的身份／角色不相稱、不夠得體」是「unbecoming」的用法，與本句語境不同。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。"
+        "become-mcq-12": "本句的「becoming」指「衣著、顏色或舉止與某人相襯、得體」。",
+        "become-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-12"
     },
@@ -1370,11 +1214,8 @@ export default {
       "masked": "She behaved with dignity ____.",
       "options": [
         "become-mcq-12",
-        "become-mcq-11",
-        "become-mcq-13",
-        "become-mcq-10",
-        "become-mcq-09",
-        "become-mcq-08"
+        "become-mcq-01",
+        "become-mcq-06"
       ],
       "explanation": "本句的「becoming her position」指「衣著、顏色或舉止與某人相襯、得體」。",
       "sentenceIndex": 33,
@@ -1383,12 +1224,9 @@ export default {
         "becoming her position"
       ],
       "optionReasons": {
-        "become-mcq-12": "本句指「衣著、顏色或舉止與某人相襯、得體」。",
-        "become-mcq-11": "「某種衣著、顏色或風格很適合／很襯某人」是「become someone — suit」的用法，與本句語境不同。",
-        "become-mcq-13": "「與某人的身份／角色不相稱、不夠得體」是「unbecoming」的用法，與本句語境不同。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。"
+        "become-mcq-12": "本句的「becoming her position」指「衣著、顏色或舉止與某人相襯、得體」。",
+        "become-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-12"
     },
@@ -1400,11 +1238,8 @@ export default {
       "masked": "His behaviour was not ____ of a professional.",
       "options": [
         "become-mcq-12",
-        "become-mcq-11",
-        "become-mcq-13",
-        "become-mcq-10",
-        "become-mcq-09",
-        "become-mcq-08"
+        "become-pdf-001",
+        "become-mcq-05"
       ],
       "explanation": "本句的「becoming」指「衣著、顏色或舉止與某人相襯、得體」。",
       "sentenceIndex": 34,
@@ -1413,12 +1248,9 @@ export default {
         "becoming"
       ],
       "optionReasons": {
-        "become-mcq-12": "本句指「衣著、顏色或舉止與某人相襯、得體」。",
-        "become-mcq-11": "「某種衣著、顏色或風格很適合／很襯某人」是「become someone — suit」的用法，與本句語境不同。",
-        "become-mcq-13": "「與某人的身份／角色不相稱、不夠得體」是「unbecoming」的用法，與本句語境不同。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。"
+        "become-mcq-12": "本句的「becoming」指「衣著、顏色或舉止與某人相襯、得體」。",
+        "become-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-12"
     },
@@ -1430,11 +1262,8 @@ export default {
       "masked": "That behaviour was ____.",
       "options": [
         "become-mcq-13",
-        "become-mcq-12",
-        "become-mcq-11",
-        "become-mcq-10",
-        "become-mcq-09",
-        "become-mcq-08"
+        "become-pdf-001",
+        "become-mcq-05"
       ],
       "explanation": "本句的「unbecoming」指「與某人的身份／角色不相稱、不夠得體」。",
       "sentenceIndex": 35,
@@ -1443,12 +1272,9 @@ export default {
         "unbecoming"
       ],
       "optionReasons": {
-        "become-mcq-13": "本句指「與某人的身份／角色不相稱、不夠得體」。",
-        "become-mcq-12": "「衣著、顏色或舉止與某人相襯、得體」是「becoming — adjective」的用法，與本句語境不同。",
-        "become-mcq-11": "「某種衣著、顏色或風格很適合／很襯某人」是「become someone — suit」的用法，與本句語境不同。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。"
+        "become-mcq-13": "本句的「unbecoming」指「與某人的身份／角色不相稱、不夠得體」。",
+        "become-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-13"
     },
@@ -1460,11 +1286,9 @@ export default {
       "masked": "His comments were ____ of a manager.",
       "options": [
         "become-mcq-13",
-        "become-mcq-12",
-        "become-mcq-11",
-        "become-mcq-10",
-        "become-mcq-09",
-        "become-mcq-08"
+        "become-mcq-03",
+        "become-mcq-07",
+        "become-mcq-05"
       ],
       "explanation": "本句的「unbecoming」指「與某人的身份／角色不相稱、不夠得體」。",
       "sentenceIndex": 36,
@@ -1473,12 +1297,10 @@ export default {
         "unbecoming"
       ],
       "optionReasons": {
-        "become-mcq-13": "本句指「與某人的身份／角色不相稱、不夠得體」。",
-        "become-mcq-12": "「衣著、顏色或舉止與某人相襯、得體」是「becoming — adjective」的用法，與本句語境不同。",
-        "become-mcq-11": "「某種衣著、顏色或風格很適合／很襯某人」是「become someone — suit」的用法，與本句語境不同。",
-        "become-mcq-10": "「詢問某人／某事後來的命運、結果或去向」是「what became of…?」的用法，與本句語境不同。",
-        "become-mcq-09": "「某事經過變化後演變／發展成另一種形態或結果」是「become = develop into」的用法，與本句語境不同。",
-        "become-mcq-08": "「開始在身份／結構上屬於某群體或整體」是「become part/member of」的用法，與本句語境不同。"
+        "become-mcq-13": "本句的「unbecoming」指「與某人的身份／角色不相稱、不夠得體」。",
+        "become-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "become-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "become-mcq-13"
     }
@@ -1490,5 +1312,7 @@ export default {
     "sha256": "0d7e5ac036e56f2657f55e47e022e1217a67f4758d4884f6eefed079a8372dc9",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

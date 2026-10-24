@@ -502,11 +502,9 @@ export default {
       "masked": "Adults often get trapped in ____.",
       "options": [
         "routine-mcq-01",
-        "routine-mcq-02",
-        "routine-mcq-03",
-        "routine-mcq-04",
-        "routine-mcq-05",
-        "routine-mcq-06"
+        "routine-mcq-14",
+        "routine-mcq-16",
+        "routine-mcq-03"
       ],
       "explanation": "本句的「routine」指「日常規律；固定程序」。",
       "sentenceIndex": 0,
@@ -515,12 +513,10 @@ export default {
         "routine"
       ],
       "optionReasons": {
-        "routine-mcq-01": "本句指「日常規律；固定程序」。",
-        "routine-mcq-02": "「每日作息」與本句語境不同。",
-        "routine-mcq-03": "「早晨習慣」與本句語境不同。",
-        "routine-mcq-04": "「睡前程序」與本句語境不同。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。"
+        "routine-mcq-01": "本句的「routine」指「日常規律；固定程序」。",
+        "routine-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-01"
     },
@@ -532,11 +528,9 @@ export default {
       "masked": "I follow the same ____ every morning.",
       "options": [
         "routine-mcq-01",
-        "routine-mcq-02",
-        "routine-mcq-03",
-        "routine-mcq-04",
-        "routine-mcq-05",
-        "routine-mcq-06"
+        "routine-mcq-10",
+        "routine-mcq-18",
+        "routine-mcq-03"
       ],
       "explanation": "本句的「routine」指「日常規律；固定程序」。",
       "sentenceIndex": 1,
@@ -545,12 +539,10 @@ export default {
         "routine"
       ],
       "optionReasons": {
-        "routine-mcq-01": "本句指「日常規律；固定程序」。",
-        "routine-mcq-02": "「每日作息」與本句語境不同。",
-        "routine-mcq-03": "「早晨習慣」與本句語境不同。",
-        "routine-mcq-04": "「睡前程序」與本句語境不同。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。"
+        "routine-mcq-01": "本句的「routine」指「日常規律；固定程序」。",
+        "routine-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-01"
     },
@@ -562,11 +554,9 @@ export default {
       "masked": "After a few weeks, the new schedule became part of my ____.",
       "options": [
         "routine-mcq-01",
-        "routine-mcq-02",
+        "routine-mcq-15",
         "routine-mcq-03",
-        "routine-mcq-04",
-        "routine-mcq-05",
-        "routine-mcq-06"
+        "routine-mcq-10"
       ],
       "explanation": "本句的「routine」指「日常規律；固定程序」。",
       "sentenceIndex": 2,
@@ -575,12 +565,10 @@ export default {
         "routine"
       ],
       "optionReasons": {
-        "routine-mcq-01": "本句指「日常規律；固定程序」。",
-        "routine-mcq-02": "「每日作息」與本句語境不同。",
-        "routine-mcq-03": "「早晨習慣」與本句語境不同。",
-        "routine-mcq-04": "「睡前程序」與本句語境不同。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。"
+        "routine-mcq-01": "本句的「routine」指「日常規律；固定程序」。",
+        "routine-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-01"
     },
@@ -592,11 +580,9 @@ export default {
       "masked": "Exercise is part of my ____.",
       "options": [
         "routine-mcq-02",
-        "routine-mcq-01",
-        "routine-mcq-03",
-        "routine-mcq-04",
-        "routine-mcq-05",
-        "routine-mcq-06"
+        "routine-mcq-11",
+        "routine-mcq-06",
+        "routine-mcq-16"
       ],
       "explanation": "本句的「daily routine」指「每日作息」。",
       "sentenceIndex": 3,
@@ -605,12 +591,10 @@ export default {
         "daily routine"
       ],
       "optionReasons": {
-        "routine-mcq-02": "本句指「每日作息」。",
-        "routine-mcq-01": "「日常規律；固定程序」與本句語境不同。",
-        "routine-mcq-03": "「早晨習慣」與本句語境不同。",
-        "routine-mcq-04": "「睡前程序」與本句語境不同。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。"
+        "routine-mcq-02": "本句的「daily routine」指「每日作息」。",
+        "routine-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-02"
     },
@@ -622,11 +606,9 @@ export default {
       "masked": "Her ____ has changed since she started working from home.",
       "options": [
         "routine-mcq-02",
-        "routine-mcq-01",
-        "routine-mcq-03",
-        "routine-mcq-04",
         "routine-mcq-05",
-        "routine-mcq-06"
+        "routine-mcq-16",
+        "routine-mcq-03"
       ],
       "explanation": "本句的「daily routine」指「每日作息」。",
       "sentenceIndex": 4,
@@ -635,12 +617,10 @@ export default {
         "daily routine"
       ],
       "optionReasons": {
-        "routine-mcq-02": "本句指「每日作息」。",
-        "routine-mcq-01": "「日常規律；固定程序」與本句語境不同。",
-        "routine-mcq-03": "「早晨習慣」與本句語境不同。",
-        "routine-mcq-04": "「睡前程序」與本句語境不同。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。"
+        "routine-mcq-02": "本句的「daily routine」指「每日作息」。",
+        "routine-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-02"
     },
@@ -652,11 +632,9 @@ export default {
       "masked": "My ____ includes coffee and a short walk.",
       "options": [
         "routine-mcq-03",
-        "routine-mcq-02",
-        "routine-mcq-04",
         "routine-mcq-01",
-        "routine-mcq-05",
-        "routine-mcq-06"
+        "routine-mcq-16",
+        "routine-mcq-17"
       ],
       "explanation": "本句的「morning routine」指「早晨習慣」。",
       "sentenceIndex": 5,
@@ -665,12 +643,10 @@ export default {
         "morning routine"
       ],
       "optionReasons": {
-        "routine-mcq-03": "本句指「早晨習慣」。",
-        "routine-mcq-02": "「每日作息」與本句語境不同。",
-        "routine-mcq-04": "「睡前程序」與本句語境不同。",
-        "routine-mcq-01": "「日常規律；固定程序」與本句語境不同。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。"
+        "routine-mcq-03": "本句的「morning routine」指「早晨習慣」。",
+        "routine-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-03"
     },
@@ -682,11 +658,9 @@ export default {
       "masked": "Children often benefit from a regular ____.",
       "options": [
         "routine-mcq-03",
-        "routine-mcq-02",
-        "routine-mcq-04",
+        "routine-mcq-17",
         "routine-mcq-01",
-        "routine-mcq-05",
-        "routine-mcq-06"
+        "routine-mcq-16"
       ],
       "explanation": "本句的「morning routine」指「早晨習慣」。",
       "sentenceIndex": 6,
@@ -695,12 +669,10 @@ export default {
         "morning routine"
       ],
       "optionReasons": {
-        "routine-mcq-03": "本句指「早晨習慣」。",
-        "routine-mcq-02": "「每日作息」與本句語境不同。",
-        "routine-mcq-04": "「睡前程序」與本句語境不同。",
-        "routine-mcq-01": "「日常規律；固定程序」與本句語境不同。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。"
+        "routine-mcq-03": "本句的「morning routine」指「早晨習慣」。",
+        "routine-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-03"
     },
@@ -712,11 +684,9 @@ export default {
       "masked": "Reading is part of his ____.",
       "options": [
         "routine-mcq-04",
-        "routine-mcq-03",
-        "routine-mcq-05",
-        "routine-mcq-02",
-        "routine-mcq-06",
-        "routine-mcq-01"
+        "routine-mcq-14",
+        "routine-mcq-09",
+        "routine-mcq-02"
       ],
       "explanation": "本句的「bedtime routine」指「睡前程序」。",
       "sentenceIndex": 7,
@@ -725,12 +695,10 @@ export default {
         "bedtime routine"
       ],
       "optionReasons": {
-        "routine-mcq-04": "本句指「睡前程序」。",
-        "routine-mcq-03": "「早晨習慣」與本句語境不同。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。",
-        "routine-mcq-02": "「每日作息」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。",
-        "routine-mcq-01": "「日常規律；固定程序」與本句語境不同。"
+        "routine-mcq-04": "本句的「bedtime routine」指「睡前程序」。",
+        "routine-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-04"
     },
@@ -742,11 +710,9 @@ export default {
       "masked": "A calm ____ can help children sleep better.",
       "options": [
         "routine-mcq-04",
-        "routine-mcq-03",
-        "routine-mcq-05",
-        "routine-mcq-02",
-        "routine-mcq-06",
-        "routine-mcq-01"
+        "routine-mcq-13",
+        "routine-mcq-07",
+        "routine-mcq-02"
       ],
       "explanation": "本句的「bedtime routine」指「睡前程序」。",
       "sentenceIndex": 8,
@@ -755,12 +721,10 @@ export default {
         "bedtime routine"
       ],
       "optionReasons": {
-        "routine-mcq-04": "本句指「睡前程序」。",
-        "routine-mcq-03": "「早晨習慣」與本句語境不同。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。",
-        "routine-mcq-02": "「每日作息」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。",
-        "routine-mcq-01": "「日常規律；固定程序」與本句語境不同。"
+        "routine-mcq-04": "本句的「bedtime routine」指「睡前程序」。",
+        "routine-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-04"
     },
@@ -772,11 +736,9 @@ export default {
       "masked": "It took me a few days to get used to the new ____.",
       "options": [
         "routine-mcq-05",
-        "routine-mcq-04",
-        "routine-mcq-06",
-        "routine-mcq-03",
         "routine-mcq-07",
-        "routine-mcq-02"
+        "routine-mcq-03",
+        "routine-mcq-16"
       ],
       "explanation": "本句的「work routine」指「工作例行程序」。",
       "sentenceIndex": 9,
@@ -785,12 +747,10 @@ export default {
         "work routine"
       ],
       "optionReasons": {
-        "routine-mcq-05": "本句指「工作例行程序」。",
-        "routine-mcq-04": "「睡前程序」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。",
-        "routine-mcq-03": "「早晨習慣」與本句語境不同。",
-        "routine-mcq-07": "「逐漸形成固定模式」與本句語境不同。",
-        "routine-mcq-02": "「每日作息」與本句語境不同。"
+        "routine-mcq-05": "本句的「work routine」指「工作例行程序」。",
+        "routine-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-05"
     },
@@ -802,10 +762,8 @@ export default {
       "masked": "Her ____ is fairly predictable.",
       "options": [
         "routine-mcq-05",
-        "routine-mcq-04",
-        "routine-mcq-06",
         "routine-mcq-03",
-        "routine-mcq-07",
+        "routine-mcq-16",
         "routine-mcq-02"
       ],
       "explanation": "本句的「work routine」指「工作例行程序」。",
@@ -815,12 +773,10 @@ export default {
         "work routine"
       ],
       "optionReasons": {
-        "routine-mcq-05": "本句指「工作例行程序」。",
-        "routine-mcq-04": "「睡前程序」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。",
-        "routine-mcq-03": "「早晨習慣」與本句語境不同。",
-        "routine-mcq-07": "「逐漸形成固定模式」與本句語境不同。",
-        "routine-mcq-02": "「每日作息」與本句語境不同。"
+        "routine-mcq-05": "本句的「work routine」指「工作例行程序」。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-05"
     },
@@ -832,11 +788,9 @@ export default {
       "masked": "He follows a simple ____ every evening.",
       "options": [
         "routine-mcq-06",
-        "routine-mcq-05",
-        "routine-mcq-07",
-        "routine-mcq-04",
-        "routine-mcq-08",
-        "routine-mcq-03"
+        "routine-mcq-18",
+        "routine-mcq-12",
+        "routine-mcq-10"
       ],
       "explanation": "本句的「exercise routine」指「固定運動計劃」。",
       "sentenceIndex": 11,
@@ -845,12 +799,10 @@ export default {
         "exercise routine"
       ],
       "optionReasons": {
-        "routine-mcq-06": "本句指「固定運動計劃」。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。",
-        "routine-mcq-07": "「逐漸形成固定模式」與本句語境不同。",
-        "routine-mcq-04": "「睡前程序」與本句語境不同。",
-        "routine-mcq-08": "「建立固定作息」與本句語境不同。",
-        "routine-mcq-03": "「早晨習慣」與本句語境不同。"
+        "routine-mcq-06": "本句的「exercise routine」指「固定運動計劃」。",
+        "routine-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-06"
     },
@@ -862,10 +814,8 @@ export default {
       "masked": "She changed her ____ to avoid boredom.",
       "options": [
         "routine-mcq-06",
-        "routine-mcq-05",
-        "routine-mcq-07",
-        "routine-mcq-04",
-        "routine-mcq-08",
+        "routine-mcq-10",
+        "routine-mcq-20",
         "routine-mcq-03"
       ],
       "explanation": "本句的「exercise routine」指「固定運動計劃」。",
@@ -875,12 +825,10 @@ export default {
         "exercise routine"
       ],
       "optionReasons": {
-        "routine-mcq-06": "本句指「固定運動計劃」。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。",
-        "routine-mcq-07": "「逐漸形成固定模式」與本句語境不同。",
-        "routine-mcq-04": "「睡前程序」與本句語境不同。",
-        "routine-mcq-08": "「建立固定作息」與本句語境不同。",
-        "routine-mcq-03": "「早晨習慣」與本句語境不同。"
+        "routine-mcq-06": "本句的「exercise routine」指「固定運動計劃」。",
+        "routine-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-06"
     },
@@ -892,11 +840,9 @@ export default {
       "masked": "After a month, we ____.",
       "options": [
         "routine-mcq-07",
-        "routine-mcq-06",
-        "routine-mcq-08",
-        "routine-mcq-05",
-        "routine-mcq-09",
-        "routine-mcq-04"
+        "routine-mcq-03",
+        "routine-mcq-19",
+        "routine-mcq-13"
       ],
       "explanation": "本句的「fell into a routine」指「逐漸形成固定模式」。",
       "sentenceIndex": 13,
@@ -905,12 +851,10 @@ export default {
         "fell into a routine"
       ],
       "optionReasons": {
-        "routine-mcq-07": "本句指「逐漸形成固定模式」。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。",
-        "routine-mcq-08": "「建立固定作息」與本句語境不同。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。",
-        "routine-mcq-09": "「打破固定模式」與本句語境不同。",
-        "routine-mcq-04": "「睡前程序」與本句語境不同。"
+        "routine-mcq-07": "本句的「fell into a routine」指「逐漸形成固定模式」。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-07"
     },
@@ -922,11 +866,9 @@ export default {
       "masked": "It's easy to ____ when every day looks the same.",
       "options": [
         "routine-mcq-07",
-        "routine-mcq-06",
-        "routine-mcq-08",
-        "routine-mcq-05",
-        "routine-mcq-09",
-        "routine-mcq-04"
+        "routine-mcq-04",
+        "routine-mcq-17",
+        "routine-mcq-02"
       ],
       "explanation": "本句的「fall into a routine」指「逐漸形成固定模式」。",
       "sentenceIndex": 14,
@@ -935,12 +877,10 @@ export default {
         "fall into a routine"
       ],
       "optionReasons": {
-        "routine-mcq-07": "本句指「逐漸形成固定模式」。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。",
-        "routine-mcq-08": "「建立固定作息」與本句語境不同。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。",
-        "routine-mcq-09": "「打破固定模式」與本句語境不同。",
-        "routine-mcq-04": "「睡前程序」與本句語境不同。"
+        "routine-mcq-07": "本句的「fall into a routine」指「逐漸形成固定模式」。",
+        "routine-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-07"
     },
@@ -952,11 +892,9 @@ export default {
       "masked": "It took me a week to ____.",
       "options": [
         "routine-mcq-08",
-        "routine-mcq-07",
-        "routine-mcq-09",
-        "routine-mcq-06",
-        "routine-mcq-10",
-        "routine-mcq-05"
+        "routine-pdf-001",
+        "routine-mcq-03",
+        "routine-mcq-13"
       ],
       "explanation": "本句的「get into a routine」指「建立固定作息」。",
       "sentenceIndex": 15,
@@ -965,12 +903,10 @@ export default {
         "get into a routine"
       ],
       "optionReasons": {
-        "routine-mcq-08": "本句指「建立固定作息」。",
-        "routine-mcq-07": "「逐漸形成固定模式」與本句語境不同。",
-        "routine-mcq-09": "「打破固定模式」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。",
-        "routine-mcq-10": "「改變作息」與本句語境不同。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。"
+        "routine-mcq-08": "本句的「get into a routine」指「建立固定作息」。",
+        "routine-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-08"
     },
@@ -982,11 +918,9 @@ export default {
       "masked": "Once you ____, studying becomes easier.",
       "options": [
         "routine-mcq-08",
-        "routine-mcq-07",
-        "routine-mcq-09",
-        "routine-mcq-06",
-        "routine-mcq-10",
-        "routine-mcq-05"
+        "routine-mcq-05",
+        "routine-mcq-03",
+        "routine-mcq-16"
       ],
       "explanation": "本句的「get into a routine」指「建立固定作息」。",
       "sentenceIndex": 16,
@@ -995,12 +929,10 @@ export default {
         "get into a routine"
       ],
       "optionReasons": {
-        "routine-mcq-08": "本句指「建立固定作息」。",
-        "routine-mcq-07": "「逐漸形成固定模式」與本句語境不同。",
-        "routine-mcq-09": "「打破固定模式」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。",
-        "routine-mcq-10": "「改變作息」與本句語境不同。",
-        "routine-mcq-05": "「工作例行程序」與本句語境不同。"
+        "routine-mcq-08": "本句的「get into a routine」指「建立固定作息」。",
+        "routine-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-08"
     },
@@ -1012,11 +944,9 @@ export default {
       "masked": "Travelling helps me ____.",
       "options": [
         "routine-mcq-09",
-        "routine-mcq-08",
-        "routine-mcq-10",
-        "routine-mcq-07",
-        "routine-mcq-11",
-        "routine-mcq-06"
+        "routine-mcq-14",
+        "routine-mcq-16",
+        "routine-mcq-03"
       ],
       "explanation": "本句的「break my routine」指「打破固定模式」。",
       "sentenceIndex": 17,
@@ -1025,12 +955,10 @@ export default {
         "break my routine"
       ],
       "optionReasons": {
-        "routine-mcq-09": "本句指「打破固定模式」。",
-        "routine-mcq-08": "「建立固定作息」與本句語境不同。",
-        "routine-mcq-10": "「改變作息」與本句語境不同。",
-        "routine-mcq-07": "「逐漸形成固定模式」與本句語境不同。",
-        "routine-mcq-11": "「例行檢查」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。"
+        "routine-mcq-09": "本句的「break my routine」指「打破固定模式」。",
+        "routine-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-09"
     },
@@ -1042,11 +970,9 @@ export default {
       "masked": "Try doing something different to ____.",
       "options": [
         "routine-mcq-09",
-        "routine-mcq-08",
-        "routine-mcq-10",
-        "routine-mcq-07",
-        "routine-mcq-11",
-        "routine-mcq-06"
+        "routine-mcq-12",
+        "routine-mcq-15",
+        "routine-mcq-03"
       ],
       "explanation": "本句的「break the routine」指「打破固定模式」。",
       "sentenceIndex": 18,
@@ -1055,12 +981,10 @@ export default {
         "break the routine"
       ],
       "optionReasons": {
-        "routine-mcq-09": "本句指「打破固定模式」。",
-        "routine-mcq-08": "「建立固定作息」與本句語境不同。",
-        "routine-mcq-10": "「改變作息」與本句語境不同。",
-        "routine-mcq-07": "「逐漸形成固定模式」與本句語境不同。",
-        "routine-mcq-11": "「例行檢查」與本句語境不同。",
-        "routine-mcq-06": "「固定運動計劃」與本句語境不同。"
+        "routine-mcq-09": "本句的「break the routine」指「打破固定模式」。",
+        "routine-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-09"
     },
@@ -1072,11 +996,9 @@ export default {
       "masked": "I need to ____ and exercise more.",
       "options": [
         "routine-mcq-10",
-        "routine-mcq-09",
-        "routine-mcq-11",
-        "routine-mcq-08",
-        "routine-mcq-12",
-        "routine-mcq-07"
+        "routine-mcq-18",
+        "routine-mcq-01",
+        "routine-mcq-03"
       ],
       "explanation": "本句的「change my routine」指「改變作息」。",
       "sentenceIndex": 19,
@@ -1085,12 +1007,10 @@ export default {
         "change my routine"
       ],
       "optionReasons": {
-        "routine-mcq-10": "本句指「改變作息」。",
-        "routine-mcq-09": "「打破固定模式」與本句語境不同。",
-        "routine-mcq-11": "「例行檢查」與本句語境不同。",
-        "routine-mcq-08": "「建立固定作息」與本句語境不同。",
-        "routine-mcq-12": "「常規程序」與本句語境不同。",
-        "routine-mcq-07": "「逐漸形成固定模式」與本句語境不同。"
+        "routine-mcq-10": "本句的「change my routine」指「改變作息」。",
+        "routine-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-10"
     },
@@ -1102,11 +1022,9 @@ export default {
       "masked": "A small change in ____ can make life feel fresher.",
       "options": [
         "routine-mcq-10",
-        "routine-mcq-09",
-        "routine-mcq-11",
-        "routine-mcq-08",
-        "routine-mcq-12",
-        "routine-mcq-07"
+        "routine-mcq-13",
+        "routine-mcq-16",
+        "routine-mcq-12"
       ],
       "explanation": "本句的「routine」指「改變作息」。",
       "sentenceIndex": 20,
@@ -1115,12 +1033,10 @@ export default {
         "routine"
       ],
       "optionReasons": {
-        "routine-mcq-10": "本句指「改變作息」。",
-        "routine-mcq-09": "「打破固定模式」與本句語境不同。",
-        "routine-mcq-11": "「例行檢查」與本句語境不同。",
-        "routine-mcq-08": "「建立固定作息」與本句語境不同。",
-        "routine-mcq-12": "「常規程序」與本句語境不同。",
-        "routine-mcq-07": "「逐漸形成固定模式」與本句語境不同。"
+        "routine-mcq-10": "本句的「routine」指「改變作息」。",
+        "routine-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-10"
     },
@@ -1132,11 +1048,9 @@ export default {
       "masked": "The doctor performed a ____.",
       "options": [
         "routine-mcq-11",
-        "routine-mcq-10",
-        "routine-mcq-12",
         "routine-mcq-09",
-        "routine-mcq-13",
-        "routine-mcq-08"
+        "routine-mcq-04",
+        "routine-mcq-02"
       ],
       "explanation": "本句的「routine examination」指「例行檢查」。",
       "sentenceIndex": 21,
@@ -1145,12 +1059,10 @@ export default {
         "routine examination"
       ],
       "optionReasons": {
-        "routine-mcq-11": "本句指「例行檢查」。",
-        "routine-mcq-10": "「改變作息」與本句語境不同。",
-        "routine-mcq-12": "「常規程序」與本句語境不同。",
-        "routine-mcq-09": "「打破固定模式」與本句語境不同。",
-        "routine-mcq-13": "「例行保養」與本句語境不同。",
-        "routine-mcq-08": "「建立固定作息」與本句語境不同。"
+        "routine-mcq-11": "本句的「routine examination」指「例行檢查」。",
+        "routine-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-11"
     },
@@ -1162,11 +1074,9 @@ export default {
       "masked": "This is just a ____.",
       "options": [
         "routine-mcq-11",
-        "routine-mcq-10",
-        "routine-mcq-12",
-        "routine-mcq-09",
-        "routine-mcq-13",
-        "routine-mcq-08"
+        "routine-mcq-02",
+        "routine-mcq-07",
+        "routine-mcq-19"
       ],
       "explanation": "本句的「routine procedure」指「例行檢查」。",
       "sentenceIndex": 22,
@@ -1175,12 +1085,10 @@ export default {
         "routine procedure"
       ],
       "optionReasons": {
-        "routine-mcq-11": "本句指「例行檢查」。",
-        "routine-mcq-10": "「改變作息」與本句語境不同。",
-        "routine-mcq-12": "「常規程序」與本句語境不同。",
-        "routine-mcq-09": "「打破固定模式」與本句語境不同。",
-        "routine-mcq-13": "「例行保養」與本句語境不同。",
-        "routine-mcq-08": "「建立固定作息」與本句語境不同。"
+        "routine-mcq-11": "本句的「routine procedure」指「例行檢查」。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-11"
     },
@@ -1192,11 +1100,9 @@ export default {
       "masked": "The mechanic carried out a ____ on the car.",
       "options": [
         "routine-mcq-11",
-        "routine-mcq-10",
-        "routine-mcq-12",
-        "routine-mcq-09",
-        "routine-mcq-13",
-        "routine-mcq-08"
+        "routine-mcq-02",
+        "routine-mcq-07",
+        "routine-mcq-03"
       ],
       "explanation": "本句的「routine check」指「例行檢查」。",
       "sentenceIndex": 23,
@@ -1205,12 +1111,10 @@ export default {
         "routine check"
       ],
       "optionReasons": {
-        "routine-mcq-11": "本句指「例行檢查」。",
-        "routine-mcq-10": "「改變作息」與本句語境不同。",
-        "routine-mcq-12": "「常規程序」與本句語境不同。",
-        "routine-mcq-09": "「打破固定模式」與本句語境不同。",
-        "routine-mcq-13": "「例行保養」與本句語境不同。",
-        "routine-mcq-08": "「建立固定作息」與本句語境不同。"
+        "routine-mcq-11": "本句的「routine check」指「例行檢查」。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-11"
     },
@@ -1222,11 +1126,9 @@ export default {
       "masked": "During a ____, the doctor noticed something unusual.",
       "options": [
         "routine-mcq-11",
-        "routine-mcq-10",
-        "routine-mcq-12",
-        "routine-mcq-09",
-        "routine-mcq-13",
-        "routine-mcq-08"
+        "routine-mcq-04",
+        "routine-mcq-06",
+        "routine-mcq-02"
       ],
       "explanation": "本句的「routine check」指「例行檢查」。",
       "sentenceIndex": 24,
@@ -1235,12 +1137,10 @@ export default {
         "routine check"
       ],
       "optionReasons": {
-        "routine-mcq-11": "本句指「例行檢查」。",
-        "routine-mcq-10": "「改變作息」與本句語境不同。",
-        "routine-mcq-12": "「常規程序」與本句語境不同。",
-        "routine-mcq-09": "「打破固定模式」與本句語境不同。",
-        "routine-mcq-13": "「例行保養」與本句語境不同。",
-        "routine-mcq-08": "「建立固定作息」與本句語境不同。"
+        "routine-mcq-11": "本句的「routine check」指「例行檢查」。",
+        "routine-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-11"
     },
@@ -1252,11 +1152,9 @@ export default {
       "masked": "The blood test was completely ____.",
       "options": [
         "routine-pdf-001",
-        "routine-mcq-10",
-        "routine-mcq-12",
-        "routine-mcq-09",
-        "routine-mcq-13",
-        "routine-mcq-08"
+        "routine-mcq-06",
+        "routine-mcq-16",
+        "routine-mcq-02"
       ],
       "explanation": "本句的「routine」指「按正常醫療或工作程序進行的標準檢查」。",
       "sentenceIndex": 25,
@@ -1265,12 +1163,10 @@ export default {
         "routine"
       ],
       "optionReasons": {
-        "routine-pdf-001": "本句指「按正常醫療或工作程序進行的標準檢查」。",
-        "routine-mcq-10": "「改變作息」與本句語境不同。",
-        "routine-mcq-12": "「常規程序」與本句語境不同。",
-        "routine-mcq-09": "「打破固定模式」與本句語境不同。",
-        "routine-mcq-13": "「例行保養」與本句語境不同。",
-        "routine-mcq-08": "「建立固定作息」與本句語境不同。"
+        "routine-pdf-001": "本句的「routine」指「按正常醫療或工作程序進行的標準檢查」。",
+        "routine-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-pdf-001"
     },
@@ -1282,11 +1178,9 @@ export default {
       "masked": "She went to hospital for a ____.",
       "options": [
         "routine-pdf-001",
-        "routine-mcq-10",
-        "routine-mcq-12",
-        "routine-mcq-09",
-        "routine-mcq-13",
-        "routine-mcq-08"
+        "routine-mcq-16",
+        "routine-mcq-07",
+        "routine-mcq-03"
       ],
       "explanation": "本句的「routine examination」指「按正常醫療或工作程序進行的標準檢查」。",
       "sentenceIndex": 26,
@@ -1295,12 +1189,10 @@ export default {
         "routine examination"
       ],
       "optionReasons": {
-        "routine-pdf-001": "本句指「按正常醫療或工作程序進行的標準檢查」。",
-        "routine-mcq-10": "「改變作息」與本句語境不同。",
-        "routine-mcq-12": "「常規程序」與本句語境不同。",
-        "routine-mcq-09": "「打破固定模式」與本句語境不同。",
-        "routine-mcq-13": "「例行保養」與本句語境不同。",
-        "routine-mcq-08": "「建立固定作息」與本句語境不同。"
+        "routine-pdf-001": "本句的「routine examination」指「按正常醫療或工作程序進行的標準檢查」。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-pdf-001"
     },
@@ -1312,11 +1204,9 @@ export default {
       "masked": "The operation is now considered a ____.",
       "options": [
         "routine-mcq-12",
-        "routine-mcq-11",
+        "routine-mcq-07",
         "routine-mcq-13",
-        "routine-mcq-10",
-        "routine-mcq-14",
-        "routine-mcq-09"
+        "routine-mcq-16"
       ],
       "explanation": "本句的「routine procedure」指「常規程序」。",
       "sentenceIndex": 27,
@@ -1325,12 +1215,10 @@ export default {
         "routine procedure"
       ],
       "optionReasons": {
-        "routine-mcq-12": "本句指「常規程序」。",
-        "routine-mcq-11": "「例行檢查」與本句語境不同。",
-        "routine-mcq-13": "「例行保養」與本句語境不同。",
-        "routine-mcq-10": "「改變作息」與本句語境不同。",
-        "routine-mcq-14": "「例行工作」與本句語境不同。",
-        "routine-mcq-09": "「打破固定模式」與本句語境不同。"
+        "routine-mcq-12": "本句的「routine procedure」指「常規程序」。",
+        "routine-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-12"
     },
@@ -1342,11 +1230,9 @@ export default {
       "masked": "Changing the password is a ____.",
       "options": [
         "routine-mcq-12",
-        "routine-mcq-11",
-        "routine-mcq-13",
-        "routine-mcq-10",
-        "routine-mcq-14",
-        "routine-mcq-09"
+        "routine-mcq-16",
+        "routine-mcq-02",
+        "routine-mcq-03"
       ],
       "explanation": "本句的「routine security procedure」指「常規程序」。",
       "sentenceIndex": 28,
@@ -1355,12 +1241,10 @@ export default {
         "routine security procedure"
       ],
       "optionReasons": {
-        "routine-mcq-12": "本句指「常規程序」。",
-        "routine-mcq-11": "「例行檢查」與本句語境不同。",
-        "routine-mcq-13": "「例行保養」與本句語境不同。",
-        "routine-mcq-10": "「改變作息」與本句語境不同。",
-        "routine-mcq-14": "「例行工作」與本句語境不同。",
-        "routine-mcq-09": "「打破固定模式」與本句語境不同。"
+        "routine-mcq-12": "本句的「routine security procedure」指「常規程序」。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-12"
     },
@@ -1372,11 +1256,9 @@ export default {
       "masked": "The machine requires regular ____.",
       "options": [
         "routine-mcq-13",
-        "routine-mcq-12",
-        "routine-mcq-14",
-        "routine-mcq-11",
-        "routine-mcq-15",
-        "routine-mcq-10"
+        "routine-mcq-16",
+        "routine-mcq-03",
+        "routine-mcq-08"
       ],
       "explanation": "本句的「routine maintenance」指「例行保養」。",
       "sentenceIndex": 29,
@@ -1385,12 +1267,10 @@ export default {
         "routine maintenance"
       ],
       "optionReasons": {
-        "routine-mcq-13": "本句指「例行保養」。",
-        "routine-mcq-12": "「常規程序」與本句語境不同。",
-        "routine-mcq-14": "「例行工作」與本句語境不同。",
-        "routine-mcq-11": "「例行檢查」與本句語境不同。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。",
-        "routine-mcq-10": "「改變作息」與本句語境不同。"
+        "routine-mcq-13": "本句的「routine maintenance」指「例行保養」。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-13"
     },
@@ -1402,11 +1282,9 @@ export default {
       "masked": "The system was temporarily shut down for ____.",
       "options": [
         "routine-mcq-13",
-        "routine-mcq-12",
-        "routine-mcq-14",
-        "routine-mcq-11",
-        "routine-mcq-15",
-        "routine-mcq-10"
+        "routine-mcq-19",
+        "routine-mcq-10",
+        "routine-mcq-09"
       ],
       "explanation": "本句的「routine maintenance」指「例行保養」。",
       "sentenceIndex": 30,
@@ -1415,12 +1293,10 @@ export default {
         "routine maintenance"
       ],
       "optionReasons": {
-        "routine-mcq-13": "本句指「例行保養」。",
-        "routine-mcq-12": "「常規程序」與本句語境不同。",
-        "routine-mcq-14": "「例行工作」與本句語境不同。",
-        "routine-mcq-11": "「例行檢查」與本句語境不同。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。",
-        "routine-mcq-10": "「改變作息」與本句語境不同。"
+        "routine-mcq-13": "本句的「routine maintenance」指「例行保養」。",
+        "routine-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-13"
     },
@@ -1432,11 +1308,9 @@ export default {
       "masked": "Checking emails is a ____ for many office workers.",
       "options": [
         "routine-mcq-14",
-        "routine-mcq-13",
-        "routine-mcq-15",
-        "routine-mcq-12",
-        "routine-mcq-16",
-        "routine-mcq-11"
+        "routine-mcq-03",
+        "routine-mcq-01",
+        "routine-mcq-10"
       ],
       "explanation": "本句的「routine task」指「例行工作」。",
       "sentenceIndex": 31,
@@ -1445,12 +1319,10 @@ export default {
         "routine task"
       ],
       "optionReasons": {
-        "routine-mcq-14": "本句指「例行工作」。",
-        "routine-mcq-13": "「例行保養」與本句語境不同。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。",
-        "routine-mcq-12": "「常規程序」與本句語境不同。",
-        "routine-mcq-16": "「重複乏味的；公式化的」與本句語境不同。",
-        "routine-mcq-11": "「例行檢查」與本句語境不同。"
+        "routine-mcq-14": "本句的「routine task」指「例行工作」。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-14"
     },
@@ -1462,11 +1334,9 @@ export default {
       "masked": "The software automates several ____.",
       "options": [
         "routine-mcq-14",
-        "routine-mcq-13",
-        "routine-mcq-15",
-        "routine-mcq-12",
         "routine-mcq-16",
-        "routine-mcq-11"
+        "routine-mcq-12",
+        "routine-mcq-09"
       ],
       "explanation": "本句的「routine tasks」指「例行工作」。",
       "sentenceIndex": 32,
@@ -1475,12 +1345,10 @@ export default {
         "routine tasks"
       ],
       "optionReasons": {
-        "routine-mcq-14": "本句指「例行工作」。",
-        "routine-mcq-13": "「例行保養」與本句語境不同。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。",
-        "routine-mcq-12": "「常規程序」與本句語境不同。",
-        "routine-mcq-16": "「重複乏味的；公式化的」與本句語境不同。",
-        "routine-mcq-11": "「例行檢查」與本句語境不同。"
+        "routine-mcq-14": "本句的「routine tasks」指「例行工作」。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-14"
     },
@@ -1492,11 +1360,9 @@ export default {
       "masked": "Most of these are ____.",
       "options": [
         "routine-mcq-15",
-        "routine-mcq-14",
-        "routine-mcq-16",
-        "routine-mcq-13",
-        "routine-mcq-17",
-        "routine-mcq-12"
+        "routine-mcq-02",
+        "routine-mcq-07",
+        "routine-mcq-16"
       ],
       "explanation": "本句的「routine matters」指「一般例行事項」。",
       "sentenceIndex": 33,
@@ -1505,12 +1371,10 @@ export default {
         "routine matters"
       ],
       "optionReasons": {
-        "routine-mcq-15": "本句指「一般例行事項」。",
-        "routine-mcq-14": "「例行工作」與本句語境不同。",
-        "routine-mcq-16": "「重複乏味的；公式化的」與本句語境不同。",
-        "routine-mcq-13": "「例行保養」與本句語境不同。",
-        "routine-mcq-17": "「例行地；經常地」與本句語境不同。",
-        "routine-mcq-12": "「常規程序」與本句語境不同。"
+        "routine-mcq-15": "本句的「routine matters」指「一般例行事項」。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-15"
     },
@@ -1522,11 +1386,9 @@ export default {
       "masked": "The manager handles ____ without consulting the director.",
       "options": [
         "routine-mcq-15",
-        "routine-mcq-14",
-        "routine-mcq-16",
-        "routine-mcq-13",
-        "routine-mcq-17",
-        "routine-mcq-12"
+        "routine-mcq-10",
+        "routine-mcq-03",
+        "routine-mcq-01"
       ],
       "explanation": "本句的「routine decisions」指「一般例行事項」。",
       "sentenceIndex": 34,
@@ -1535,12 +1397,10 @@ export default {
         "routine decisions"
       ],
       "optionReasons": {
-        "routine-mcq-15": "本句指「一般例行事項」。",
-        "routine-mcq-14": "「例行工作」與本句語境不同。",
-        "routine-mcq-16": "「重複乏味的；公式化的」與本句語境不同。",
-        "routine-mcq-13": "「例行保養」與本句語境不同。",
-        "routine-mcq-17": "「例行地；經常地」與本句語境不同。",
-        "routine-mcq-12": "「常規程序」與本句語境不同。"
+        "routine-mcq-15": "本句的「routine decisions」指「一般例行事項」。",
+        "routine-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-15"
     },
@@ -1552,11 +1412,9 @@ export default {
       "masked": "The job became ____ after a few months.",
       "options": [
         "routine-mcq-16",
-        "routine-mcq-15",
-        "routine-mcq-17",
-        "routine-mcq-14",
-        "routine-mcq-18",
-        "routine-mcq-13"
+        "routine-mcq-05",
+        "routine-mcq-03",
+        "routine-mcq-08"
       ],
       "explanation": "本句的「routine」指「重複乏味的；公式化的」。",
       "sentenceIndex": 35,
@@ -1565,12 +1423,10 @@ export default {
         "routine"
       ],
       "optionReasons": {
-        "routine-mcq-16": "本句指「重複乏味的；公式化的」。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。",
-        "routine-mcq-17": "「例行地；經常地」與本句語境不同。",
-        "routine-mcq-14": "「例行工作」與本句語境不同。",
-        "routine-mcq-18": "「使例行化」與本句語境不同。",
-        "routine-mcq-13": "「例行保養」與本句語境不同。"
+        "routine-mcq-16": "本句的「routine」指「重複乏味的；公式化的」。",
+        "routine-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-16"
     },
@@ -1582,10 +1438,8 @@ export default {
       "masked": "His performance felt rather ____.",
       "options": [
         "routine-mcq-16",
-        "routine-mcq-15",
-        "routine-mcq-17",
-        "routine-mcq-14",
-        "routine-mcq-18",
+        "routine-mcq-06",
+        "routine-pdf-001",
         "routine-mcq-13"
       ],
       "explanation": "本句的「routine」指「重複乏味的；公式化的」。",
@@ -1595,12 +1449,10 @@ export default {
         "routine"
       ],
       "optionReasons": {
-        "routine-mcq-16": "本句指「重複乏味的；公式化的」。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。",
-        "routine-mcq-17": "「例行地；經常地」與本句語境不同。",
-        "routine-mcq-14": "「例行工作」與本句語境不同。",
-        "routine-mcq-18": "「使例行化」與本句語境不同。",
-        "routine-mcq-13": "「例行保養」與本句語境不同。"
+        "routine-mcq-16": "本句的「routine」指「重複乏味的；公式化的」。",
+        "routine-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "routine-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-16"
     },
@@ -1612,11 +1464,9 @@ export default {
       "masked": "The equipment is ____.",
       "options": [
         "routine-mcq-17",
-        "routine-mcq-16",
-        "routine-mcq-18",
-        "routine-mcq-15",
-        "routine-mcq-19",
-        "routine-mcq-14"
+        "routine-mcq-10",
+        "routine-mcq-04",
+        "routine-mcq-09"
       ],
       "explanation": "本句的「routinely inspected」指「例行地；經常地」。",
       "sentenceIndex": 37,
@@ -1625,12 +1475,10 @@ export default {
         "routinely inspected"
       ],
       "optionReasons": {
-        "routine-mcq-17": "本句指「例行地；經常地」。",
-        "routine-mcq-16": "「重複乏味的；公式化的」與本句語境不同。",
-        "routine-mcq-18": "「使例行化」與本句語境不同。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。",
-        "routine-mcq-19": "「已程序化的」與本句語境不同。",
-        "routine-mcq-14": "「例行工作」與本句語境不同。"
+        "routine-mcq-17": "本句的「routinely inspected」指「例行地；經常地」。",
+        "routine-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-17"
     },
@@ -1642,11 +1490,9 @@ export default {
       "masked": "Staff ____ the system for errors.",
       "options": [
         "routine-mcq-17",
-        "routine-mcq-16",
-        "routine-mcq-18",
-        "routine-mcq-15",
-        "routine-mcq-19",
-        "routine-mcq-14"
+        "routine-mcq-09",
+        "routine-mcq-10",
+        "routine-mcq-04"
       ],
       "explanation": "本句的「routinely check」指「例行地；經常地」。",
       "sentenceIndex": 38,
@@ -1655,12 +1501,10 @@ export default {
         "routinely check"
       ],
       "optionReasons": {
-        "routine-mcq-17": "本句指「例行地；經常地」。",
-        "routine-mcq-16": "「重複乏味的；公式化的」與本句語境不同。",
-        "routine-mcq-18": "「使例行化」與本句語境不同。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。",
-        "routine-mcq-19": "「已程序化的」與本句語境不同。",
-        "routine-mcq-14": "「例行工作」與本句語境不同。"
+        "routine-mcq-17": "本句的「routinely check」指「例行地；經常地」。",
+        "routine-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-17"
     },
@@ -1673,10 +1517,8 @@ export default {
       "options": [
         "routine-mcq-17",
         "routine-mcq-16",
-        "routine-mcq-18",
-        "routine-mcq-15",
-        "routine-mcq-19",
-        "routine-mcq-14"
+        "routine-mcq-04",
+        "routine-mcq-03"
       ],
       "explanation": "本句的「routinely works」指「例行地；經常地」。",
       "sentenceIndex": 39,
@@ -1685,12 +1527,10 @@ export default {
         "routinely works"
       ],
       "optionReasons": {
-        "routine-mcq-17": "本句指「例行地；經常地」。",
-        "routine-mcq-16": "「重複乏味的；公式化的」與本句語境不同。",
-        "routine-mcq-18": "「使例行化」與本句語境不同。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。",
-        "routine-mcq-19": "「已程序化的」與本句語境不同。",
-        "routine-mcq-14": "「例行工作」與本句語境不同。"
+        "routine-mcq-17": "本句的「routinely works」指「例行地；經常地」。",
+        "routine-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-17"
     },
@@ -1702,11 +1542,9 @@ export default {
       "masked": "The company ____ hundreds of applications.",
       "options": [
         "routine-mcq-17",
-        "routine-mcq-16",
-        "routine-mcq-18",
-        "routine-mcq-15",
+        "routine-mcq-09",
         "routine-mcq-19",
-        "routine-mcq-14"
+        "routine-mcq-10"
       ],
       "explanation": "本句的「routinely receives」指「例行地；經常地」。",
       "sentenceIndex": 40,
@@ -1715,12 +1553,10 @@ export default {
         "routinely receives"
       ],
       "optionReasons": {
-        "routine-mcq-17": "本句指「例行地；經常地」。",
-        "routine-mcq-16": "「重複乏味的；公式化的」與本句語境不同。",
-        "routine-mcq-18": "「使例行化」與本句語境不同。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。",
-        "routine-mcq-19": "「已程序化的」與本句語境不同。",
-        "routine-mcq-14": "「例行工作」與本句語境不同。"
+        "routine-mcq-17": "本句的「routinely receives」指「例行地；經常地」。",
+        "routine-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-17"
     },
@@ -1732,11 +1568,9 @@ export default {
       "masked": "The company tried to ____ simple administrative tasks.",
       "options": [
         "routine-mcq-18",
-        "routine-mcq-17",
-        "routine-mcq-19",
-        "routine-mcq-16",
-        "routine-mcq-20",
-        "routine-mcq-15"
+        "routine-mcq-02",
+        "routine-mcq-12",
+        "routine-mcq-09"
       ],
       "explanation": "本句的「routinize」指「使例行化」。",
       "sentenceIndex": 41,
@@ -1745,12 +1579,10 @@ export default {
         "routinize"
       ],
       "optionReasons": {
-        "routine-mcq-18": "本句指「使例行化」。",
-        "routine-mcq-17": "「例行地；經常地」與本句語境不同。",
-        "routine-mcq-19": "「已程序化的」與本句語境不同。",
-        "routine-mcq-16": "「重複乏味的；公式化的」與本句語境不同。",
-        "routine-mcq-20": "「例行化；程序化」與本句語境不同。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。"
+        "routine-mcq-18": "本句的「routinize」指「使例行化」。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-18"
     },
@@ -1762,11 +1594,9 @@ export default {
       "masked": "Technology can ____ work that once required constant attention.",
       "options": [
         "routine-mcq-18",
-        "routine-mcq-17",
-        "routine-mcq-19",
-        "routine-mcq-16",
-        "routine-mcq-20",
-        "routine-mcq-15"
+        "routine-mcq-08",
+        "routine-mcq-03",
+        "routine-mcq-04"
       ],
       "explanation": "本句的「routinize」指「使例行化」。",
       "sentenceIndex": 42,
@@ -1775,12 +1605,10 @@ export default {
         "routinize"
       ],
       "optionReasons": {
-        "routine-mcq-18": "本句指「使例行化」。",
-        "routine-mcq-17": "「例行地；經常地」與本句語境不同。",
-        "routine-mcq-19": "「已程序化的」與本句語境不同。",
-        "routine-mcq-16": "「重複乏味的；公式化的」與本句語境不同。",
-        "routine-mcq-20": "「例行化；程序化」與本句語境不同。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。"
+        "routine-mcq-18": "本句的「routinize」指「使例行化」。",
+        "routine-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-18"
     },
@@ -1792,11 +1620,9 @@ export default {
       "masked": "Much of the work has become highly ____.",
       "options": [
         "routine-mcq-19",
-        "routine-mcq-18",
-        "routine-mcq-20",
-        "routine-mcq-17",
-        "routine-mcq-16",
-        "routine-mcq-15"
+        "routine-mcq-02",
+        "routine-mcq-09",
+        "routine-mcq-03"
       ],
       "explanation": "本句的「routinized」指「已程序化的」。",
       "sentenceIndex": 43,
@@ -1805,12 +1631,10 @@ export default {
         "routinized"
       ],
       "optionReasons": {
-        "routine-mcq-19": "本句指「已程序化的」。",
-        "routine-mcq-18": "「使例行化」與本句語境不同。",
-        "routine-mcq-20": "「例行化；程序化」與本句語境不同。",
-        "routine-mcq-17": "「例行地；經常地」與本句語境不同。",
-        "routine-mcq-16": "「重複乏味的；公式化的」與本句語境不同。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。"
+        "routine-mcq-19": "本句的「routinized」指「已程序化的」。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-19"
     },
@@ -1822,11 +1646,9 @@ export default {
       "masked": "The process is now completely ____.",
       "options": [
         "routine-mcq-19",
-        "routine-mcq-18",
-        "routine-mcq-20",
-        "routine-mcq-17",
-        "routine-mcq-16",
-        "routine-mcq-15"
+        "routine-mcq-14",
+        "routine-mcq-06",
+        "routine-mcq-02"
       ],
       "explanation": "本句的「routinized」指「已程序化的」。",
       "sentenceIndex": 44,
@@ -1835,12 +1657,10 @@ export default {
         "routinized"
       ],
       "optionReasons": {
-        "routine-mcq-19": "本句指「已程序化的」。",
-        "routine-mcq-18": "「使例行化」與本句語境不同。",
-        "routine-mcq-20": "「例行化；程序化」與本句語境不同。",
-        "routine-mcq-17": "「例行地；經常地」與本句語境不同。",
-        "routine-mcq-16": "「重複乏味的；公式化的」與本句語境不同。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。"
+        "routine-mcq-19": "本句的「routinized」指「已程序化的」。",
+        "routine-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-19"
     },
@@ -1852,11 +1672,9 @@ export default {
       "masked": "The ____ of repetitive tasks improved efficiency.",
       "options": [
         "routine-mcq-20",
-        "routine-mcq-19",
-        "routine-mcq-18",
-        "routine-mcq-17",
-        "routine-mcq-16",
-        "routine-mcq-15"
+        "routine-mcq-10",
+        "routine-mcq-07",
+        "routine-mcq-03"
       ],
       "explanation": "本句的「routinization」指「例行化；程序化」。",
       "sentenceIndex": 45,
@@ -1865,12 +1683,10 @@ export default {
         "routinization"
       ],
       "optionReasons": {
-        "routine-mcq-20": "本句指「例行化；程序化」。",
-        "routine-mcq-19": "「已程序化的」與本句語境不同。",
-        "routine-mcq-18": "「使例行化」與本句語境不同。",
-        "routine-mcq-17": "「例行地；經常地」與本句語境不同。",
-        "routine-mcq-16": "「重複乏味的；公式化的」與本句語境不同。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。"
+        "routine-mcq-20": "本句的「routinization」指「例行化；程序化」。",
+        "routine-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-20"
     },
@@ -1882,11 +1698,9 @@ export default {
       "masked": "Too much ____ can reduce creativity.",
       "options": [
         "routine-mcq-20",
-        "routine-mcq-19",
-        "routine-mcq-18",
-        "routine-mcq-17",
-        "routine-mcq-16",
-        "routine-mcq-15"
+        "routine-mcq-02",
+        "routine-mcq-09",
+        "routine-mcq-03"
       ],
       "explanation": "本句的「routinization」指「例行化；程序化」。",
       "sentenceIndex": 46,
@@ -1895,12 +1709,10 @@ export default {
         "routinization"
       ],
       "optionReasons": {
-        "routine-mcq-20": "本句指「例行化；程序化」。",
-        "routine-mcq-19": "「已程序化的」與本句語境不同。",
-        "routine-mcq-18": "「使例行化」與本句語境不同。",
-        "routine-mcq-17": "「例行地；經常地」與本句語境不同。",
-        "routine-mcq-16": "「重複乏味的；公式化的」與本句語境不同。",
-        "routine-mcq-15": "「一般例行事項」與本句語境不同。"
+        "routine-mcq-20": "本句的「routinization」指「例行化；程序化」。",
+        "routine-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "routine-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "routine-mcq-20"
     }
@@ -1912,5 +1724,7 @@ export default {
     "sha256": "1f0d99c8176a224d7837dd8eb13208836df3480142bf9b5d8f0c633ec50160cb",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -319,16 +319,6 @@ export default {
           "We bought a new colour printer.",
           "我們買了一部新的彩色打印機。",
           "打印機"
-        ],
-        [
-          "The book was produced by a local printer.",
-          "這本書由本地印刷商印製。",
-          "打印機"
-        ],
-        [
-          "The publisher sent the final files to the printer.",
-          "出版社把最終檔案送到印刷廠／印刷商。",
-          "打印機"
         ]
       ],
       "options": [],
@@ -486,6 +476,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "print-reviewed-559aed8354",
+      "title": "從事商業印刷工作的人或公司",
+      "form": "print · source section 17",
+      "en": "從事商業印刷工作的人或公司",
+      "zh": "從事商業印刷工作的人或公司",
+      "note": "對照原始教材第 17 節及例句核實。",
+      "examples": [
+        [
+          "The book was produced by a local printer.",
+          "這本書由本地印刷商印製。",
+          "從事商業印刷工作的人或公司"
+        ],
+        [
+          "The publisher sent the final files to the printer.",
+          "出版社把最終檔案送到印刷廠／印刷商。",
+          "從事商業印刷工作的人或公司"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -497,11 +509,9 @@ export default {
       "masked": "Please ____ before the meeting.",
       "options": [
         "print-mcq-01",
-        "print-mcq-02",
-        "print-mcq-03",
-        "print-mcq-04",
-        "print-mcq-05",
-        "print-mcq-06"
+        "print-mcq-14",
+        "print-mcq-08",
+        "print-mcq-09"
       ],
       "explanation": "本句的「print the document」指「列印文件」。",
       "sentenceIndex": 0,
@@ -510,12 +520,10 @@ export default {
         "print the document"
       ],
       "optionReasons": {
-        "print-mcq-01": "本句指「列印文件」。",
-        "print-mcq-02": "「沖印／列印照片」與本句語境不同。",
-        "print-mcq-03": "「沖印照片」與本句語境不同。",
-        "print-mcq-04": "「印刷書籍」與本句語境不同。",
-        "print-mcq-05": "「刊登文章」與本句語境不同。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。"
+        "print-mcq-01": "本句的「print the document」指「列印文件」。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-01"
     },
@@ -527,11 +535,9 @@ export default {
       "masked": "I ____ at home.",
       "options": [
         "print-mcq-01",
-        "print-mcq-02",
-        "print-mcq-03",
-        "print-mcq-04",
-        "print-mcq-05",
-        "print-mcq-06"
+        "print-mcq-10",
+        "print-mcq-08",
+        "print-mcq-14"
       ],
       "explanation": "本句的「printed the report」指「列印文件」。",
       "sentenceIndex": 1,
@@ -540,12 +546,10 @@ export default {
         "printed the report"
       ],
       "optionReasons": {
-        "print-mcq-01": "本句指「列印文件」。",
-        "print-mcq-02": "「沖印／列印照片」與本句語境不同。",
-        "print-mcq-03": "「沖印照片」與本句語境不同。",
-        "print-mcq-04": "「印刷書籍」與本句語境不同。",
-        "print-mcq-05": "「刊登文章」與本句語境不同。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。"
+        "print-mcq-01": "本句的「printed the report」指「列印文件」。",
+        "print-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-01"
     },
@@ -557,11 +561,9 @@ export default {
       "masked": "I ____ before making the scrapbook.",
       "options": [
         "print-mcq-02",
-        "print-mcq-01",
-        "print-mcq-03",
-        "print-mcq-04",
-        "print-mcq-05",
-        "print-mcq-06"
+        "print-pdf-001",
+        "print-mcq-14",
+        "print-mcq-08"
       ],
       "explanation": "本句的「printed the photos」指「沖印／列印照片」。",
       "sentenceIndex": 2,
@@ -570,12 +572,10 @@ export default {
         "printed the photos"
       ],
       "optionReasons": {
-        "print-mcq-02": "本句指「沖印／列印照片」。",
-        "print-mcq-01": "「列印文件」與本句語境不同。",
-        "print-mcq-03": "「沖印照片」與本句語境不同。",
-        "print-mcq-04": "「印刷書籍」與本句語境不同。",
-        "print-mcq-05": "「刊登文章」與本句語境不同。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。"
+        "print-mcq-02": "本句的「printed the photos」指「沖印／列印照片」。",
+        "print-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-02"
     },
@@ -587,11 +587,9 @@ export default {
       "masked": "She ____ for the album.",
       "options": [
         "print-mcq-02",
-        "print-mcq-01",
-        "print-mcq-03",
-        "print-mcq-04",
-        "print-mcq-05",
-        "print-mcq-06"
+        "print-mcq-14",
+        "print-pdf-001",
+        "print-mcq-08"
       ],
       "explanation": "本句的「printed several family photos」指「沖印／列印照片」。",
       "sentenceIndex": 3,
@@ -600,12 +598,10 @@ export default {
         "printed several family photos"
       ],
       "optionReasons": {
-        "print-mcq-02": "本句指「沖印／列印照片」。",
-        "print-mcq-01": "「列印文件」與本句語境不同。",
-        "print-mcq-03": "「沖印照片」與本句語境不同。",
-        "print-mcq-04": "「印刷書籍」與本句語境不同。",
-        "print-mcq-05": "「刊登文章」與本句語境不同。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。"
+        "print-mcq-02": "本句的「printed several family photos」指「沖印／列印照片」。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-02"
     },
@@ -617,11 +613,9 @@ export default {
       "masked": "The scrapbook was filled with ____.",
       "options": [
         "print-mcq-03",
-        "print-mcq-02",
-        "print-mcq-04",
-        "print-mcq-01",
-        "print-mcq-05",
-        "print-mcq-06"
+        "print-mcq-08",
+        "print-mcq-14",
+        "print-mcq-09"
       ],
       "explanation": "本句的「printed photos」指「沖印照片」。",
       "sentenceIndex": 4,
@@ -630,12 +624,10 @@ export default {
         "printed photos"
       ],
       "optionReasons": {
-        "print-mcq-03": "本句指「沖印照片」。",
-        "print-mcq-02": "「沖印／列印照片」與本句語境不同。",
-        "print-mcq-04": "「印刷書籍」與本句語境不同。",
-        "print-mcq-01": "「列印文件」與本句語境不同。",
-        "print-mcq-05": "「刊登文章」與本句語境不同。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。"
+        "print-mcq-03": "本句的「printed photos」指「沖印照片」。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-03"
     },
@@ -647,11 +639,9 @@ export default {
       "masked": "I prefer ____ to looking at pictures on my phone.",
       "options": [
         "print-mcq-03",
-        "print-mcq-02",
-        "print-mcq-04",
-        "print-mcq-01",
-        "print-mcq-05",
-        "print-mcq-06"
+        "print-mcq-14",
+        "print-mcq-08",
+        "print-pdf-001"
       ],
       "explanation": "本句的「printed photos」指「沖印照片」。",
       "sentenceIndex": 5,
@@ -660,12 +650,10 @@ export default {
         "printed photos"
       ],
       "optionReasons": {
-        "print-mcq-03": "本句指「沖印照片」。",
-        "print-mcq-02": "「沖印／列印照片」與本句語境不同。",
-        "print-mcq-04": "「印刷書籍」與本句語境不同。",
-        "print-mcq-01": "「列印文件」與本句語境不同。",
-        "print-mcq-05": "「刊登文章」與本句語境不同。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。"
+        "print-mcq-03": "本句的「printed photos」指「沖印照片」。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-03"
     },
@@ -677,11 +665,9 @@ export default {
       "masked": "The company ____ in several languages.",
       "options": [
         "print-mcq-04",
-        "print-mcq-03",
-        "print-mcq-05",
-        "print-mcq-02",
-        "print-mcq-06",
-        "print-mcq-01"
+        "print-mcq-14",
+        "print-mcq-09",
+        "print-mcq-08"
       ],
       "explanation": "本句的「prints books」指「印刷書籍」。",
       "sentenceIndex": 6,
@@ -690,12 +676,10 @@ export default {
         "prints books"
       ],
       "optionReasons": {
-        "print-mcq-04": "本句指「印刷書籍」。",
-        "print-mcq-03": "「沖印照片」與本句語境不同。",
-        "print-mcq-05": "「刊登文章」與本句語境不同。",
-        "print-mcq-02": "「沖印／列印照片」與本句語境不同。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。",
-        "print-mcq-01": "「列印文件」與本句語境不同。"
+        "print-mcq-04": "本句的「prints books」指「印刷書籍」。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-04"
     },
@@ -707,11 +691,9 @@ export default {
       "masked": "The newspaper is ____.",
       "options": [
         "print-mcq-04",
-        "print-mcq-03",
-        "print-mcq-05",
-        "print-mcq-02",
-        "print-mcq-06",
-        "print-mcq-01"
+        "print-mcq-14",
+        "print-mcq-08",
+        "print-mcq-09"
       ],
       "explanation": "本句的「printed overnight」指「印刷書籍」。",
       "sentenceIndex": 7,
@@ -720,12 +702,10 @@ export default {
         "printed overnight"
       ],
       "optionReasons": {
-        "print-mcq-04": "本句指「印刷書籍」。",
-        "print-mcq-03": "「沖印照片」與本句語境不同。",
-        "print-mcq-05": "「刊登文章」與本句語境不同。",
-        "print-mcq-02": "「沖印／列印照片」與本句語境不同。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。",
-        "print-mcq-01": "「列印文件」與本句語境不同。"
+        "print-mcq-04": "本句的「printed overnight」指「印刷書籍」。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-04"
     },
@@ -737,11 +717,9 @@ export default {
       "masked": "The newspaper ____.",
       "options": [
         "print-pdf-001",
-        "print-mcq-04",
-        "print-mcq-06",
-        "print-mcq-03",
-        "print-mcq-07",
-        "print-mcq-02"
+        "print-reviewed-559aed8354",
+        "print-mcq-12",
+        "print-mcq-14"
       ],
       "explanation": "本句的「printed her letter」指「把文字、文章或消息正式刊登在報紙、雜誌等出版物上」。",
       "sentenceIndex": 8,
@@ -750,12 +728,10 @@ export default {
         "printed her letter"
       ],
       "optionReasons": {
-        "print-pdf-001": "本句指「把文字、文章或消息正式刊登在報紙、雜誌等出版物上」。",
-        "print-mcq-04": "「印刷書籍」與本句語境不同。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。",
-        "print-mcq-03": "「沖印照片」與本句語境不同。",
-        "print-mcq-07": "「印刷字體」與本句語境不同。",
-        "print-mcq-02": "「沖印／列印照片」與本句語境不同。"
+        "print-pdf-001": "本句的「printed her letter」指「把文字、文章或消息正式刊登在報紙、雜誌等出版物上」。",
+        "print-reviewed-559aed8354": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-pdf-001"
     },
@@ -767,10 +743,8 @@ export default {
       "masked": "The magazine refused to ____.",
       "options": [
         "print-pdf-001",
-        "print-mcq-04",
-        "print-mcq-06",
-        "print-mcq-03",
-        "print-mcq-07",
+        "print-mcq-11",
+        "print-mcq-14",
         "print-mcq-02"
       ],
       "explanation": "本句的「print the story」指「把文字、文章或消息正式刊登在報紙、雜誌等出版物上」。",
@@ -780,12 +754,10 @@ export default {
         "print the story"
       ],
       "optionReasons": {
-        "print-pdf-001": "本句指「把文字、文章或消息正式刊登在報紙、雜誌等出版物上」。",
-        "print-mcq-04": "「印刷書籍」與本句語境不同。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。",
-        "print-mcq-03": "「沖印照片」與本句語境不同。",
-        "print-mcq-07": "「印刷字體」與本句語境不同。",
-        "print-mcq-02": "「沖印／列印照片」與本句語境不同。"
+        "print-pdf-001": "本句的「print the story」指「把文字、文章或消息正式刊登在報紙、雜誌等出版物上」。",
+        "print-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-pdf-001"
     },
@@ -797,11 +769,9 @@ export default {
       "masked": "Her name was ____.",
       "options": [
         "print-pdf-002",
-        "print-mcq-05",
-        "print-mcq-07",
-        "print-mcq-04",
-        "print-mcq-08",
-        "print-mcq-03"
+        "print-mcq-10",
+        "print-mcq-14",
+        "print-mcq-11"
       ],
       "explanation": "本句的「printed on the card」指「把文字、圖案或標誌印到某個表面上」。",
       "sentenceIndex": 10,
@@ -810,12 +780,10 @@ export default {
         "printed on the card"
       ],
       "optionReasons": {
-        "print-pdf-002": "本句指「把文字、圖案或標誌印到某個表面上」。",
-        "print-mcq-05": "「刊登文章」與本句語境不同。",
-        "print-mcq-07": "「印刷字體」與本句語境不同。",
-        "print-mcq-04": "「印刷書籍」與本句語境不同。",
-        "print-mcq-08": "「小字條款」與本句語境不同。",
-        "print-mcq-03": "「沖印照片」與本句語境不同。"
+        "print-pdf-002": "本句的「printed on the card」指「把文字、圖案或標誌印到某個表面上」。",
+        "print-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-pdf-002"
     },
@@ -827,11 +795,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "print-pdf-002",
-        "print-mcq-05",
-        "print-mcq-07",
-        "print-mcq-04",
-        "print-mcq-08",
-        "print-mcq-03"
+        "print-mcq-10",
+        "print-mcq-14",
+        "print-mcq-12"
       ],
       "explanation": "本句的「printed its logo on the bag」指「把文字、圖案或標誌印到某個表面上」。",
       "sentenceIndex": 11,
@@ -840,12 +806,10 @@ export default {
         "printed its logo on the bag"
       ],
       "optionReasons": {
-        "print-pdf-002": "本句指「把文字、圖案或標誌印到某個表面上」。",
-        "print-mcq-05": "「刊登文章」與本句語境不同。",
-        "print-mcq-07": "「印刷字體」與本句語境不同。",
-        "print-mcq-04": "「印刷書籍」與本句語境不同。",
-        "print-mcq-08": "「小字條款」與本句語境不同。",
-        "print-mcq-03": "「沖印照片」與本句語境不同。"
+        "print-pdf-002": "本句的「printed its logo on the bag」指「把文字、圖案或標誌印到某個表面上」。",
+        "print-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-pdf-002"
     },
@@ -857,11 +821,9 @@ export default {
       "masked": "The ____ is too small to read.",
       "options": [
         "print-mcq-07",
-        "print-mcq-06",
-        "print-mcq-08",
-        "print-mcq-05",
-        "print-mcq-09",
-        "print-mcq-04"
+        "print-mcq-10",
+        "print-mcq-14",
+        "print-mcq-02"
       ],
       "explanation": "本句的「print」指「印刷字體」。",
       "sentenceIndex": 12,
@@ -870,12 +832,10 @@ export default {
         "print"
       ],
       "optionReasons": {
-        "print-mcq-07": "本句指「印刷字體」。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。",
-        "print-mcq-08": "「小字條款」與本句語境不同。",
-        "print-mcq-05": "「刊登文章」與本句語境不同。",
-        "print-mcq-09": "「仍有出版」與本句語境不同。",
-        "print-mcq-04": "「印刷書籍」與本句語境不同。"
+        "print-mcq-07": "本句的「print」指「印刷字體」。",
+        "print-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-07"
     },
@@ -887,11 +847,9 @@ export default {
       "masked": "Use large ____ for younger readers.",
       "options": [
         "print-mcq-07",
-        "print-mcq-06",
-        "print-mcq-08",
-        "print-mcq-05",
         "print-mcq-09",
-        "print-mcq-04"
+        "print-mcq-14",
+        "print-mcq-13"
       ],
       "explanation": "本句的「print」指「印刷字體」。",
       "sentenceIndex": 13,
@@ -900,12 +858,10 @@ export default {
         "print"
       ],
       "optionReasons": {
-        "print-mcq-07": "本句指「印刷字體」。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。",
-        "print-mcq-08": "「小字條款」與本句語境不同。",
-        "print-mcq-05": "「刊登文章」與本句語境不同。",
-        "print-mcq-09": "「仍有出版」與本句語境不同。",
-        "print-mcq-04": "「印刷書籍」與本句語境不同。"
+        "print-mcq-07": "本句的「print」指「印刷字體」。",
+        "print-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-07"
     },
@@ -917,11 +873,9 @@ export default {
       "masked": "Always read the ____.",
       "options": [
         "print-mcq-08",
-        "print-mcq-07",
-        "print-mcq-09",
-        "print-mcq-06",
-        "print-mcq-10",
-        "print-mcq-05"
+        "print-mcq-21",
+        "print-mcq-12",
+        "print-mcq-13"
       ],
       "explanation": "本句的「small print」指「小字條款」。",
       "sentenceIndex": 14,
@@ -930,12 +884,10 @@ export default {
         "small print"
       ],
       "optionReasons": {
-        "print-mcq-08": "本句指「小字條款」。",
-        "print-mcq-07": "「印刷字體」與本句語境不同。",
-        "print-mcq-09": "「仍有出版」與本句語境不同。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。",
-        "print-mcq-10": "「絕版」與本句語境不同。",
-        "print-mcq-05": "「刊登文章」與本句語境不同。"
+        "print-mcq-08": "本句的「small print」指「小字條款」。",
+        "print-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-08"
     },
@@ -947,11 +899,9 @@ export default {
       "masked": "The extra charges were hidden in the ____.",
       "options": [
         "print-mcq-08",
-        "print-mcq-07",
-        "print-mcq-09",
-        "print-mcq-06",
-        "print-mcq-10",
-        "print-mcq-05"
+        "print-mcq-04",
+        "print-mcq-02",
+        "print-mcq-09"
       ],
       "explanation": "本句的「fine print」指「小字條款」。",
       "sentenceIndex": 15,
@@ -960,12 +910,10 @@ export default {
         "fine print"
       ],
       "optionReasons": {
-        "print-mcq-08": "本句指「小字條款」。",
-        "print-mcq-07": "「印刷字體」與本句語境不同。",
-        "print-mcq-09": "「仍有出版」與本句語境不同。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。",
-        "print-mcq-10": "「絕版」與本句語境不同。",
-        "print-mcq-05": "「刊登文章」與本句語境不同。"
+        "print-mcq-08": "本句的「fine print」指「小字條款」。",
+        "print-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-08"
     },
@@ -977,11 +925,9 @@ export default {
       "masked": "The book is still ____.",
       "options": [
         "print-mcq-09",
-        "print-mcq-08",
-        "print-mcq-10",
-        "print-mcq-07",
-        "print-mcq-11",
-        "print-mcq-06"
+        "print-pdf-002",
+        "print-reviewed-559aed8354",
+        "print-mcq-03"
       ],
       "explanation": "本句的「in print」指「仍有出版」。",
       "sentenceIndex": 16,
@@ -990,12 +936,10 @@ export default {
         "in print"
       ],
       "optionReasons": {
-        "print-mcq-09": "本句指「仍有出版」。",
-        "print-mcq-08": "「小字條款」與本句語境不同。",
-        "print-mcq-10": "「絕版」與本句語境不同。",
-        "print-mcq-07": "「印刷字體」與本句語境不同。",
-        "print-mcq-11": "「藝術印刷品」與本句語境不同。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。"
+        "print-mcq-09": "本句的「in print」指「仍有出版」。",
+        "print-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "print-reviewed-559aed8354": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-09"
     },
@@ -1007,11 +951,9 @@ export default {
       "masked": "Several of her early novels remain ____.",
       "options": [
         "print-mcq-09",
-        "print-mcq-08",
-        "print-mcq-10",
-        "print-mcq-07",
-        "print-mcq-11",
-        "print-mcq-06"
+        "print-mcq-04",
+        "print-mcq-14",
+        "print-mcq-02"
       ],
       "explanation": "本句的「in print」指「仍有出版」。",
       "sentenceIndex": 17,
@@ -1020,12 +962,10 @@ export default {
         "in print"
       ],
       "optionReasons": {
-        "print-mcq-09": "本句指「仍有出版」。",
-        "print-mcq-08": "「小字條款」與本句語境不同。",
-        "print-mcq-10": "「絕版」與本句語境不同。",
-        "print-mcq-07": "「印刷字體」與本句語境不同。",
-        "print-mcq-11": "「藝術印刷品」與本句語境不同。",
-        "print-mcq-06": "「把 X 印在 Y 上」與本句語境不同。"
+        "print-mcq-09": "本句的「in print」指「仍有出版」。",
+        "print-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-09"
     },
@@ -1037,11 +977,9 @@ export default {
       "masked": "The book has been ____ for years.",
       "options": [
         "print-mcq-10",
-        "print-mcq-09",
-        "print-mcq-11",
         "print-mcq-08",
-        "print-mcq-12",
-        "print-mcq-07"
+        "print-pdf-002",
+        "print-mcq-14"
       ],
       "explanation": "本句的「out of print」指「絕版」。",
       "sentenceIndex": 18,
@@ -1050,12 +988,10 @@ export default {
         "out of print"
       ],
       "optionReasons": {
-        "print-mcq-10": "本句指「絕版」。",
-        "print-mcq-09": "「仍有出版」與本句語境不同。",
-        "print-mcq-11": "「藝術印刷品」與本句語境不同。",
-        "print-mcq-08": "「小字條款」與本句語境不同。",
-        "print-mcq-12": "「相片沖印本」與本句語境不同。",
-        "print-mcq-07": "「印刷字體」與本句語境不同。"
+        "print-mcq-10": "本句的「out of print」指「絕版」。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-10"
     },
@@ -1067,11 +1003,9 @@ export default {
       "masked": "That edition is now ____.",
       "options": [
         "print-mcq-10",
-        "print-mcq-09",
-        "print-mcq-11",
-        "print-mcq-08",
-        "print-mcq-12",
-        "print-mcq-07"
+        "print-pdf-002",
+        "print-reviewed-559aed8354",
+        "print-mcq-08"
       ],
       "explanation": "本句的「out of print」指「絕版」。",
       "sentenceIndex": 19,
@@ -1080,12 +1014,10 @@ export default {
         "out of print"
       ],
       "optionReasons": {
-        "print-mcq-10": "本句指「絕版」。",
-        "print-mcq-09": "「仍有出版」與本句語境不同。",
-        "print-mcq-11": "「藝術印刷品」與本句語境不同。",
-        "print-mcq-08": "「小字條款」與本句語境不同。",
-        "print-mcq-12": "「相片沖印本」與本句語境不同。",
-        "print-mcq-07": "「印刷字體」與本句語境不同。"
+        "print-mcq-10": "本句的「out of print」指「絕版」。",
+        "print-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "print-reviewed-559aed8354": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-10"
     },
@@ -1097,11 +1029,9 @@ export default {
       "masked": "She bought a framed ____ of the painting.",
       "options": [
         "print-mcq-11",
-        "print-mcq-10",
-        "print-mcq-12",
-        "print-mcq-09",
-        "print-mcq-13",
-        "print-mcq-08"
+        "print-pdf-001",
+        "print-mcq-08",
+        "print-mcq-14"
       ],
       "explanation": "本句的「print」指「藝術印刷品」。",
       "sentenceIndex": 20,
@@ -1110,12 +1040,10 @@ export default {
         "print"
       ],
       "optionReasons": {
-        "print-mcq-11": "本句指「藝術印刷品」。",
-        "print-mcq-10": "「絕版」與本句語境不同。",
-        "print-mcq-12": "「相片沖印本」與本句語境不同。",
-        "print-mcq-09": "「仍有出版」與本句語境不同。",
-        "print-mcq-13": "「印花；圖案」與本句語境不同。",
-        "print-mcq-08": "「小字條款」與本句語境不同。"
+        "print-mcq-11": "本句的「print」指「藝術印刷品」。",
+        "print-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-11"
     },
@@ -1127,11 +1055,9 @@ export default {
       "masked": "The shop sells art ____.",
       "options": [
         "print-mcq-11",
-        "print-mcq-10",
-        "print-mcq-12",
-        "print-mcq-09",
-        "print-mcq-13",
-        "print-mcq-08"
+        "print-pdf-001",
+        "print-mcq-08",
+        "print-mcq-14"
       ],
       "explanation": "本句的「prints」指「藝術印刷品」。",
       "sentenceIndex": 21,
@@ -1140,12 +1066,10 @@ export default {
         "prints"
       ],
       "optionReasons": {
-        "print-mcq-11": "本句指「藝術印刷品」。",
-        "print-mcq-10": "「絕版」與本句語境不同。",
-        "print-mcq-12": "「相片沖印本」與本句語境不同。",
-        "print-mcq-09": "「仍有出版」與本句語境不同。",
-        "print-mcq-13": "「印花；圖案」與本句語境不同。",
-        "print-mcq-08": "「小字條款」與本句語境不同。"
+        "print-mcq-11": "本句的「prints」指「藝術印刷品」。",
+        "print-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-11"
     },
@@ -1157,11 +1081,9 @@ export default {
       "masked": "I ordered several ____ online.",
       "options": [
         "print-mcq-12",
-        "print-mcq-11",
-        "print-mcq-13",
-        "print-mcq-10",
+        "print-pdf-001",
         "print-mcq-14",
-        "print-mcq-09"
+        "print-mcq-08"
       ],
       "explanation": "本句的「photo prints」指「相片沖印本」。",
       "sentenceIndex": 22,
@@ -1170,12 +1092,10 @@ export default {
         "photo prints"
       ],
       "optionReasons": {
-        "print-mcq-12": "本句指「相片沖印本」。",
-        "print-mcq-11": "「藝術印刷品」與本句語境不同。",
-        "print-mcq-13": "「印花；圖案」與本句語境不同。",
-        "print-mcq-10": "「絕版」與本句語境不同。",
-        "print-mcq-14": "「動物紋」與本句語境不同。",
-        "print-mcq-09": "「仍有出版」與本句語境不同。"
+        "print-mcq-12": "本句的「photo prints」指「相片沖印本」。",
+        "print-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-12"
     },
@@ -1187,11 +1107,9 @@ export default {
       "masked": "The ____ arrived in a small envelope.",
       "options": [
         "print-mcq-12",
-        "print-mcq-11",
-        "print-mcq-13",
-        "print-mcq-10",
+        "print-pdf-001",
         "print-mcq-14",
-        "print-mcq-09"
+        "print-mcq-08"
       ],
       "explanation": "本句的「prints」指「相片沖印本」。",
       "sentenceIndex": 23,
@@ -1200,12 +1118,10 @@ export default {
         "prints"
       ],
       "optionReasons": {
-        "print-mcq-12": "本句指「相片沖印本」。",
-        "print-mcq-11": "「藝術印刷品」與本句語境不同。",
-        "print-mcq-13": "「印花；圖案」與本句語境不同。",
-        "print-mcq-10": "「絕版」與本句語境不同。",
-        "print-mcq-14": "「動物紋」與本句語境不同。",
-        "print-mcq-09": "「仍有出版」與本句語境不同。"
+        "print-mcq-12": "本句的「prints」指「相片沖印本」。",
+        "print-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-12"
     },
@@ -1217,11 +1133,9 @@ export default {
       "masked": "She wore a floral ____ dress.",
       "options": [
         "print-mcq-13",
-        "print-mcq-12",
+        "print-mcq-09",
         "print-mcq-14",
-        "print-mcq-11",
-        "print-mcq-15",
-        "print-mcq-10"
+        "print-mcq-08"
       ],
       "explanation": "本句的「print」指「印花；圖案」。",
       "sentenceIndex": 24,
@@ -1230,12 +1144,10 @@ export default {
         "print"
       ],
       "optionReasons": {
-        "print-mcq-13": "本句指「印花；圖案」。",
-        "print-mcq-12": "「相片沖印本」與本句語境不同。",
-        "print-mcq-14": "「動物紋」與本句語境不同。",
-        "print-mcq-11": "「藝術印刷品」與本句語境不同。",
-        "print-mcq-15": "「用正楷寫姓名」與本句語境不同。",
-        "print-mcq-10": "「絕版」與本句語境不同。"
+        "print-mcq-13": "本句的「print」指「印花；圖案」。",
+        "print-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-13"
     },
@@ -1247,11 +1159,9 @@ export default {
       "masked": "I like this geometric ____.",
       "options": [
         "print-mcq-13",
-        "print-mcq-12",
+        "print-pdf-001",
         "print-mcq-14",
-        "print-mcq-11",
-        "print-mcq-15",
-        "print-mcq-10"
+        "print-mcq-08"
       ],
       "explanation": "本句的「print」指「印花；圖案」。",
       "sentenceIndex": 25,
@@ -1260,12 +1170,10 @@ export default {
         "print"
       ],
       "optionReasons": {
-        "print-mcq-13": "本句指「印花；圖案」。",
-        "print-mcq-12": "「相片沖印本」與本句語境不同。",
-        "print-mcq-14": "「動物紋」與本句語境不同。",
-        "print-mcq-11": "「藝術印刷品」與本句語境不同。",
-        "print-mcq-15": "「用正楷寫姓名」與本句語境不同。",
-        "print-mcq-10": "「絕版」與本句語境不同。"
+        "print-mcq-13": "本句的「print」指「印花；圖案」。",
+        "print-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-13"
     },
@@ -1277,11 +1185,9 @@ export default {
       "masked": "She bought an ____ scarf.",
       "options": [
         "print-mcq-14",
-        "print-mcq-13",
-        "print-mcq-15",
-        "print-mcq-12",
-        "print-mcq-16",
-        "print-mcq-11"
+        "print-mcq-08",
+        "print-mcq-19",
+        "print-mcq-10"
       ],
       "explanation": "本句的「animal-print」指「動物紋」。",
       "sentenceIndex": 26,
@@ -1290,12 +1196,10 @@ export default {
         "animal-print"
       ],
       "optionReasons": {
-        "print-mcq-14": "本句指「動物紋」。",
-        "print-mcq-13": "「印花；圖案」與本句語境不同。",
-        "print-mcq-15": "「用正楷寫姓名」與本句語境不同。",
-        "print-mcq-12": "「相片沖印本」與本句語境不同。",
-        "print-mcq-16": "「打印機」與本句語境不同。",
-        "print-mcq-11": "「藝術印刷品」與本句語境不同。"
+        "print-mcq-14": "本句的「animal-print」指「動物紋」。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-14"
     },
@@ -1307,11 +1211,9 @@ export default {
       "masked": "The jacket has a leopard ____.",
       "options": [
         "print-mcq-14",
+        "print-mcq-09",
         "print-mcq-13",
-        "print-mcq-15",
-        "print-mcq-12",
-        "print-mcq-16",
-        "print-mcq-11"
+        "print-mcq-12"
       ],
       "explanation": "本句的「print」指「動物紋」。",
       "sentenceIndex": 27,
@@ -1320,12 +1222,10 @@ export default {
         "print"
       ],
       "optionReasons": {
-        "print-mcq-14": "本句指「動物紋」。",
-        "print-mcq-13": "「印花；圖案」與本句語境不同。",
-        "print-mcq-15": "「用正楷寫姓名」與本句語境不同。",
-        "print-mcq-12": "「相片沖印本」與本句語境不同。",
-        "print-mcq-16": "「打印機」與本句語境不同。",
-        "print-mcq-11": "「藝術印刷品」與本句語境不同。"
+        "print-mcq-14": "本句的「print」指「動物紋」。",
+        "print-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-14"
     },
@@ -1337,11 +1237,9 @@ export default {
       "masked": "The ____ is out of paper.",
       "options": [
         "print-mcq-16",
-        "print-mcq-15",
-        "print-mcq-17",
+        "print-mcq-10",
         "print-mcq-14",
-        "print-mcq-18",
-        "print-mcq-13"
+        "print-mcq-08"
       ],
       "explanation": "本句的「printer」指「打印機」。",
       "sentenceIndex": 30,
@@ -1350,12 +1248,10 @@ export default {
         "printer"
       ],
       "optionReasons": {
-        "print-mcq-16": "本句指「打印機」。",
-        "print-mcq-15": "「用正楷寫姓名」與本句語境不同。",
-        "print-mcq-17": "「印刷商」與本句語境不同。",
-        "print-mcq-14": "「動物紋」與本句語境不同。",
-        "print-mcq-18": "「印刷；列印」與本句語境不同。",
-        "print-mcq-13": "「印花；圖案」與本句語境不同。"
+        "print-mcq-16": "本句的「printer」指「打印機」。",
+        "print-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-16"
     },
@@ -1367,11 +1263,9 @@ export default {
       "masked": "We bought a new colour ____.",
       "options": [
         "print-mcq-16",
-        "print-mcq-15",
-        "print-mcq-17",
+        "print-mcq-10",
         "print-mcq-14",
-        "print-mcq-18",
-        "print-mcq-13"
+        "print-mcq-08"
       ],
       "explanation": "本句的「printer」指「打印機」。",
       "sentenceIndex": 31,
@@ -1380,74 +1274,68 @@ export default {
         "printer"
       ],
       "optionReasons": {
-        "print-mcq-16": "本句指「打印機」。",
-        "print-mcq-15": "「用正楷寫姓名」與本句語境不同。",
-        "print-mcq-17": "「印刷商」與本句語境不同。",
-        "print-mcq-14": "「動物紋」與本句語境不同。",
-        "print-mcq-18": "「印刷；列印」與本句語境不同。",
-        "print-mcq-13": "「印花；圖案」與本句語境不同。"
+        "print-mcq-16": "本句的「printer」指「打印機」。",
+        "print-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-16"
     },
     {
       "id": "print-17-0",
-      "sense": "print-mcq-16",
+      "sense": "print-reviewed-559aed8354",
       "en": "The book was produced by a local printer.",
       "zh": "這本書由本地印刷商印製。",
       "masked": "The book was produced by a local ____.",
       "options": [
-        "print-mcq-16",
-        "print-mcq-15",
-        "print-mcq-17",
-        "print-mcq-14",
-        "print-mcq-18",
-        "print-mcq-13"
+        "print-reviewed-559aed8354",
+        "print-pdf-001",
+        "print-mcq-08",
+        "print-mcq-14"
       ],
-      "explanation": "本句的「printer」指「打印機」。",
+      "explanation": "對照完整句子：「這本書由本地印刷商印製。」。這裡的「printer」表示「從事商業印刷工作的人或公司」。",
       "sentenceIndex": 32,
       "sourcePractice": 1,
       "targets": [
         "printer"
       ],
       "optionReasons": {
-        "print-mcq-16": "本句指「打印機」。",
-        "print-mcq-15": "「用正楷寫姓名」與本句語境不同。",
-        "print-mcq-17": "「印刷商」與本句語境不同。",
-        "print-mcq-14": "「動物紋」與本句語境不同。",
-        "print-mcq-18": "「印刷；列印」與本句語境不同。",
-        "print-mcq-13": "「印花；圖案」與本句語境不同。"
+        "print-reviewed-559aed8354": "對照完整句子：「這本書由本地印刷商印製。」。這裡的「printer」表示「從事商業印刷工作的人或公司」。",
+        "print-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "print-mcq-16"
+      "correctOption": "print-reviewed-559aed8354",
+      "previousCorrectOption": "print-mcq-16",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "print-17-1",
-      "sense": "print-mcq-16",
+      "sense": "print-reviewed-559aed8354",
       "en": "The publisher sent the final files to the printer.",
       "zh": "出版社把最終檔案送到印刷廠／印刷商。",
       "masked": "The publisher sent the final files to the ____.",
       "options": [
-        "print-mcq-16",
-        "print-mcq-15",
-        "print-mcq-17",
+        "print-reviewed-559aed8354",
         "print-mcq-14",
-        "print-mcq-18",
-        "print-mcq-13"
+        "print-mcq-09",
+        "print-mcq-08"
       ],
-      "explanation": "本句的「printer」指「打印機」。",
+      "explanation": "對照完整句子：「出版社把最終檔案送到印刷廠／印刷商。」。這裡的「printer」表示「從事商業印刷工作的人或公司」。",
       "sentenceIndex": 33,
       "sourcePractice": 2,
       "targets": [
         "printer"
       ],
       "optionReasons": {
-        "print-mcq-16": "本句指「打印機」。",
-        "print-mcq-15": "「用正楷寫姓名」與本句語境不同。",
-        "print-mcq-17": "「印刷商」與本句語境不同。",
-        "print-mcq-14": "「動物紋」與本句語境不同。",
-        "print-mcq-18": "「印刷；列印」與本句語境不同。",
-        "print-mcq-13": "「印花；圖案」與本句語境不同。"
+        "print-reviewed-559aed8354": "對照完整句子：「出版社把最終檔案送到印刷廠／印刷商。」。這裡的「printer」表示「從事商業印刷工作的人或公司」。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "print-mcq-16"
+      "correctOption": "print-reviewed-559aed8354",
+      "previousCorrectOption": "print-mcq-16",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "print-18-0",
@@ -1457,11 +1345,9 @@ export default {
       "masked": "The invention of ____ changed how books were produced.",
       "options": [
         "print-mcq-18",
-        "print-mcq-17",
-        "print-mcq-19",
-        "print-mcq-16",
-        "print-mcq-20",
-        "print-mcq-15"
+        "print-mcq-10",
+        "print-mcq-08",
+        "print-mcq-14"
       ],
       "explanation": "本句的「printing」指「印刷；列印」。",
       "sentenceIndex": 34,
@@ -1470,12 +1356,10 @@ export default {
         "printing"
       ],
       "optionReasons": {
-        "print-mcq-18": "本句指「印刷；列印」。",
-        "print-mcq-17": "「印刷商」與本句語境不同。",
-        "print-mcq-19": "「列印本」與本句語境不同。",
-        "print-mcq-16": "「打印機」與本句語境不同。",
-        "print-mcq-20": "「重印；再版」與本句語境不同。",
-        "print-mcq-15": "「用正楷寫姓名」與本句語境不同。"
+        "print-mcq-18": "本句的「printing」指「印刷；列印」。",
+        "print-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-18"
     },
@@ -1487,11 +1371,9 @@ export default {
       "masked": "Colour ____ costs more.",
       "options": [
         "print-mcq-18",
-        "print-mcq-17",
-        "print-mcq-19",
-        "print-mcq-16",
-        "print-mcq-20",
-        "print-mcq-15"
+        "print-pdf-001",
+        "print-mcq-14",
+        "print-mcq-08"
       ],
       "explanation": "本句的「printing」指「印刷；列印」。",
       "sentenceIndex": 35,
@@ -1500,12 +1382,10 @@ export default {
         "printing"
       ],
       "optionReasons": {
-        "print-mcq-18": "本句指「印刷；列印」。",
-        "print-mcq-17": "「印刷商」與本句語境不同。",
-        "print-mcq-19": "「列印本」與本句語境不同。",
-        "print-mcq-16": "「打印機」與本句語境不同。",
-        "print-mcq-20": "「重印；再版」與本句語境不同。",
-        "print-mcq-15": "「用正楷寫姓名」與本句語境不同。"
+        "print-mcq-18": "本句的「printing」指「印刷；列印」。",
+        "print-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-18"
     },
@@ -1517,11 +1397,9 @@ export default {
       "masked": "Bring a ____ of the booking confirmation.",
       "options": [
         "print-mcq-19",
-        "print-mcq-18",
-        "print-mcq-20",
-        "print-mcq-17",
-        "print-mcq-21",
-        "print-mcq-16"
+        "print-mcq-14",
+        "print-mcq-10",
+        "print-mcq-08"
       ],
       "explanation": "本句的「printout」指「列印本」。",
       "sentenceIndex": 36,
@@ -1530,12 +1408,10 @@ export default {
         "printout"
       ],
       "optionReasons": {
-        "print-mcq-19": "本句指「列印本」。",
-        "print-mcq-18": "「印刷；列印」與本句語境不同。",
-        "print-mcq-20": "「重印；再版」與本句語境不同。",
-        "print-mcq-17": "「印刷商」與本句語境不同。",
-        "print-mcq-21": "「印刷媒體」與本句語境不同。",
-        "print-mcq-16": "「打印機」與本句語境不同。"
+        "print-mcq-19": "本句的「printout」指「列印本」。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-19"
     },
@@ -1547,11 +1423,9 @@ export default {
       "masked": "The teacher gave us a ____ of the notes.",
       "options": [
         "print-mcq-19",
-        "print-mcq-18",
-        "print-mcq-20",
-        "print-mcq-17",
-        "print-mcq-21",
-        "print-mcq-16"
+        "print-pdf-001",
+        "print-mcq-08",
+        "print-mcq-14"
       ],
       "explanation": "本句的「printout」指「列印本」。",
       "sentenceIndex": 37,
@@ -1560,12 +1434,10 @@ export default {
         "printout"
       ],
       "optionReasons": {
-        "print-mcq-19": "本句指「列印本」。",
-        "print-mcq-18": "「印刷；列印」與本句語境不同。",
-        "print-mcq-20": "「重印；再版」與本句語境不同。",
-        "print-mcq-17": "「印刷商」與本句語境不同。",
-        "print-mcq-21": "「印刷媒體」與本句語境不同。",
-        "print-mcq-16": "「打印機」與本句語境不同。"
+        "print-mcq-19": "本句的「printout」指「列印本」。",
+        "print-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-19"
     },
@@ -1577,11 +1449,9 @@ export default {
       "masked": "The publisher decided to ____.",
       "options": [
         "print-mcq-20",
-        "print-mcq-19",
-        "print-mcq-21",
-        "print-mcq-18",
-        "print-mcq-17",
-        "print-mcq-16"
+        "print-mcq-14",
+        "print-mcq-08",
+        "print-mcq-11"
       ],
       "explanation": "本句的「reprint the book」指「重印；再版」。",
       "sentenceIndex": 38,
@@ -1590,12 +1460,10 @@ export default {
         "reprint the book"
       ],
       "optionReasons": {
-        "print-mcq-20": "本句指「重印；再版」。",
-        "print-mcq-19": "「列印本」與本句語境不同。",
-        "print-mcq-21": "「印刷媒體」與本句語境不同。",
-        "print-mcq-18": "「印刷；列印」與本句語境不同。",
-        "print-mcq-17": "「印刷商」與本句語境不同。",
-        "print-mcq-16": "「打印機」與本句語境不同。"
+        "print-mcq-20": "本句的「reprint the book」指「重印；再版」。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-20"
     },
@@ -1607,11 +1475,9 @@ export default {
       "masked": "The article was ____ in several magazines.",
       "options": [
         "print-mcq-20",
-        "print-mcq-19",
-        "print-mcq-21",
-        "print-mcq-18",
-        "print-mcq-17",
-        "print-mcq-16"
+        "print-mcq-14",
+        "print-mcq-08",
+        "print-mcq-01"
       ],
       "explanation": "本句的「reprinted」指「重印；再版」。",
       "sentenceIndex": 39,
@@ -1620,12 +1486,10 @@ export default {
         "reprinted"
       ],
       "optionReasons": {
-        "print-mcq-20": "本句指「重印；再版」。",
-        "print-mcq-19": "「列印本」與本句語境不同。",
-        "print-mcq-21": "「印刷媒體」與本句語境不同。",
-        "print-mcq-18": "「印刷；列印」與本句語境不同。",
-        "print-mcq-17": "「印刷商」與本句語境不同。",
-        "print-mcq-16": "「打印機」與本句語境不同。"
+        "print-mcq-20": "本句的「reprinted」指「重印；再版」。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-20"
     },
@@ -1637,11 +1501,9 @@ export default {
       "masked": "This copy is a ____ of the original edition.",
       "options": [
         "print-mcq-20",
-        "print-mcq-19",
-        "print-mcq-21",
-        "print-mcq-18",
-        "print-mcq-17",
-        "print-mcq-16"
+        "print-mcq-08",
+        "print-mcq-14",
+        "print-mcq-01"
       ],
       "explanation": "本句的「reprint」指「重印；再版」。",
       "sentenceIndex": 40,
@@ -1650,12 +1512,10 @@ export default {
         "reprint"
       ],
       "optionReasons": {
-        "print-mcq-20": "本句指「重印；再版」。",
-        "print-mcq-19": "「列印本」與本句語境不同。",
-        "print-mcq-21": "「印刷媒體」與本句語境不同。",
-        "print-mcq-18": "「印刷；列印」與本句語境不同。",
-        "print-mcq-17": "「印刷商」與本句語境不同。",
-        "print-mcq-16": "「打印機」與本句語境不同。"
+        "print-mcq-20": "本句的「reprint」指「重印；再版」。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-20"
     },
@@ -1667,11 +1527,9 @@ export default {
       "masked": "The ____ includes a new introduction.",
       "options": [
         "print-mcq-20",
-        "print-mcq-19",
-        "print-mcq-21",
-        "print-mcq-18",
-        "print-mcq-17",
-        "print-mcq-16"
+        "print-mcq-14",
+        "print-mcq-08",
+        "print-pdf-001"
       ],
       "explanation": "本句的「reprint」指「重印；再版」。",
       "sentenceIndex": 41,
@@ -1680,12 +1538,10 @@ export default {
         "reprint"
       ],
       "optionReasons": {
-        "print-mcq-20": "本句指「重印；再版」。",
-        "print-mcq-19": "「列印本」與本句語境不同。",
-        "print-mcq-21": "「印刷媒體」與本句語境不同。",
-        "print-mcq-18": "「印刷；列印」與本句語境不同。",
-        "print-mcq-17": "「印刷商」與本句語境不同。",
-        "print-mcq-16": "「打印機」與本句語境不同。"
+        "print-mcq-20": "本句的「reprint」指「重印；再版」。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-20"
     },
@@ -1697,11 +1553,9 @@ export default {
       "masked": "Newspapers and magazines are forms of ____.",
       "options": [
         "print-mcq-21",
-        "print-mcq-20",
-        "print-mcq-19",
-        "print-mcq-18",
-        "print-mcq-17",
-        "print-mcq-16"
+        "print-mcq-09",
+        "print-mcq-14",
+        "print-mcq-08"
       ],
       "explanation": "本句的「print media」指「印刷媒體」。",
       "sentenceIndex": 42,
@@ -1710,12 +1564,10 @@ export default {
         "print media"
       ],
       "optionReasons": {
-        "print-mcq-21": "本句指「印刷媒體」。",
-        "print-mcq-20": "「重印；再版」與本句語境不同。",
-        "print-mcq-19": "「列印本」與本句語境不同。",
-        "print-mcq-18": "「印刷；列印」與本句語境不同。",
-        "print-mcq-17": "「印刷商」與本句語境不同。",
-        "print-mcq-16": "「打印機」與本句語境不同。"
+        "print-mcq-21": "本句的「print media」指「印刷媒體」。",
+        "print-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-21"
     },
@@ -1727,11 +1579,9 @@ export default {
       "masked": "Advertising in ____ has declined.",
       "options": [
         "print-mcq-21",
-        "print-mcq-20",
-        "print-mcq-19",
-        "print-mcq-18",
-        "print-mcq-17",
-        "print-mcq-16"
+        "print-mcq-10",
+        "print-mcq-08",
+        "print-mcq-14"
       ],
       "explanation": "本句的「print media」指「印刷媒體」。",
       "sentenceIndex": 43,
@@ -1740,12 +1590,10 @@ export default {
         "print media"
       ],
       "optionReasons": {
-        "print-mcq-21": "本句指「印刷媒體」。",
-        "print-mcq-20": "「重印；再版」與本句語境不同。",
-        "print-mcq-19": "「列印本」與本句語境不同。",
-        "print-mcq-18": "「印刷；列印」與本句語境不同。",
-        "print-mcq-17": "「印刷商」與本句語境不同。",
-        "print-mcq-16": "「打印機」與本句語境不同。"
+        "print-mcq-21": "本句的「print media」指「印刷媒體」。",
+        "print-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "print-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "print-mcq-21"
     }
@@ -1757,5 +1605,7 @@ export default {
     "sha256": "1af4e3c6638ce5d29e41fe42029818fe8229e0e691ff15af9b2a7483e68c8821",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

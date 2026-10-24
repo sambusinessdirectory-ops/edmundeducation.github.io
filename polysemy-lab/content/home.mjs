@@ -24,21 +24,6 @@ export default {
       "note": "來源詞義：一個人平日居住和生活的房屋／住所",
       "examples": [
         [
-          "I often got home feeling exhausted.",
-          "我經常回到家時已經筋疲力盡。",
-          "一個人平日居住和生活的房屋／住所"
-        ],
-        [
-          "What time did you get home?",
-          "你幾點到家？",
-          "一個人平日居住和生活的房屋／住所"
-        ],
-        [
-          "She stayed home all weekend.",
-          "她整個週末都待在家裡。",
-          "一個人平日居住和生活的房屋／住所"
-        ],
-        [
           "They bought a new home near the station.",
           "他們在車站附近買了一個新家／住宅。",
           "一個人平日居住和生活的房屋／住所"
@@ -299,16 +284,6 @@ export default {
         [
           "She works at home twice a week.",
           "她每星期有兩天在家工作。",
-          "身處自己的住所"
-        ],
-        [
-          "Come in and make yourself at home.",
-          "進來吧，別拘束，就當自己家一樣。",
-          "身處自己的住所"
-        ],
-        [
-          "Please make yourself at home while I make some tea.",
-          "我去泡茶，你不用客氣，隨意一點。",
           "身處自己的住所"
         ]
       ],
@@ -593,7 +568,7 @@ export default {
     },
     {
       "id": "home-mcq-29",
-      "title": "表示無家可歸；無固定居所狀況",
+      "title": "無家可歸；無固定居所狀況",
       "form": "Unmapped practice home-21-0",
       "en": "Unmapped practice home-21-0",
       "zh": "表示無家可歸；無固定居所狀況",
@@ -610,7 +585,7 @@ export default {
     },
     {
       "id": "home-mcq-30",
-      "title": "表示無家可歸；無固定居所狀況",
+      "title": "無家可歸；無固定居所狀況",
       "form": "Unmapped practice home-21-1",
       "en": "Unmapped practice home-21-1",
       "zh": "表示無家可歸；無固定居所狀況",
@@ -627,7 +602,7 @@ export default {
     },
     {
       "id": "home-mcq-31",
-      "title": "表示祖國；故土；家園",
+      "title": "祖國；故土；家園",
       "form": "Unmapped practice home-23-0",
       "en": "Unmapped practice home-23-0",
       "zh": "表示祖國；故土；家園",
@@ -644,7 +619,7 @@ export default {
     },
     {
       "id": "home-mcq-32",
-      "title": "表示祖國；故土；家園",
+      "title": "祖國；故土；家園",
       "form": "Unmapped practice home-23-1",
       "en": "Unmapped practice home-23-1",
       "zh": "表示祖國；故土；家園",
@@ -661,7 +636,7 @@ export default {
     },
     {
       "id": "home-mcq-33",
-      "title": "表示思鄉；想家",
+      "title": "思鄉；想家",
       "form": "Unmapped practice home-29-0",
       "en": "Unmapped practice home-29-0",
       "zh": "表示思鄉；想家",
@@ -678,7 +653,7 @@ export default {
     },
     {
       "id": "home-mcq-34",
-      "title": "表示思鄉；想家",
+      "title": "思鄉；想家",
       "form": "Unmapped practice home-29-1",
       "en": "Unmapped practice home-29-1",
       "zh": "表示思鄉；想家",
@@ -758,6 +733,55 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "home-reviewed-db10152b76",
+      "title": "回家；到家；在家",
+      "form": "home · source section 1",
+      "en": "回家；到家；在家",
+      "zh": "回家；到家；在家",
+      "note": "對照原始教材第 1 節及例句核實。",
+      "examples": [
+        [
+          "I often got home feeling exhausted.",
+          "我經常回到家時已經筋疲力盡。",
+          "回家；到家；在家"
+        ],
+        [
+          "What time did you get home?",
+          "你幾點到家？",
+          "回家；到家；在家"
+        ],
+        [
+          "She stayed home all weekend.",
+          "她整個週末都待在家裡。",
+          "回家；到家；在家"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "home-reviewed-9fea479494",
+      "title": "感到自在、不拘束，像在自己家中一樣",
+      "form": "home · source section 16",
+      "en": "感到自在、不拘束，像在自己家中一樣",
+      "zh": "感到自在、不拘束，像在自己家中一樣",
+      "note": "對照原始教材第 16 節及例句核實。",
+      "examples": [
+        [
+          "Come in and make yourself at home.",
+          "進來吧，別拘束，就當自己家一樣。",
+          "感到自在、不拘束，像在自己家中一樣"
+        ],
+        [
+          "Please make yourself at home while I make some tea.",
+          "我去泡茶，你不用客氣，隨意一點。",
+          "感到自在、不拘束，像在自己家中一樣"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "comparisons": [
@@ -780,93 +804,87 @@ export default {
   "questions": [
     {
       "id": "home-01-0",
-      "sense": "home-mcq-02",
+      "sense": "home-reviewed-db10152b76",
       "en": "I often got home feeling exhausted.",
       "zh": "我經常回到家時已經筋疲力盡。",
       "masked": "我經常回____時已經筋疲力盡。",
       "options": [
-        "home-mcq-02",
-        "home-mcq-01",
-        "home-mcq-03",
-        "home-mcq-04",
-        "home-mcq-05",
-        "home-mcq-06"
+        "home-reviewed-db10152b76",
+        "home-mcq-17",
+        "home-mcq-09",
+        "home-pdf-plain-015"
       ],
-      "explanation": "本句的「got home」指「一個人平日居住和生活的房屋／住所」。",
+      "explanation": "對照完整句子：「我經常回到家時已經筋疲力盡。」。這裡的「got home」表示「回家；到家；在家」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "got home"
       ],
       "optionReasons": {
-        "home-mcq-02": "本句指「一個人平日居住和生活的房屋／住所」。",
-        "home-mcq-01": "「朝自己居住的地方移動，或身處自己的住所」是「home — adverb」的用法，與本句語境不同。",
-        "home-mcq-03": "「與家庭成員、家庭關係和居家日常有關的生活環境」是「home — family life」的用法，與本句語境不同。",
-        "home-mcq-04": "「令人感到熟悉、安全、自在並具有歸屬感的地方」是「home — belonging」的用法，與本句語境不同。",
-        "home-mcq-05": "「一個人來自、成長或具有深厚身份連結的地方／家鄉」是「home — origin」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。"
+        "home-reviewed-db10152b76": "對照完整句子：「我經常回到家時已經筋疲力盡。」。這裡的「got home」表示「回家；到家；在家」。",
+        "home-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-015": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "home-mcq-02"
+      "correctOption": "home-reviewed-db10152b76",
+      "previousCorrectOption": "home-mcq-02",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "home-01-1",
-      "sense": "home-mcq-02",
+      "sense": "home-reviewed-db10152b76",
       "en": "What time did you get home?",
       "zh": "你幾點到家？",
       "masked": "你幾點____？",
       "options": [
-        "home-mcq-02",
-        "home-mcq-01",
-        "home-mcq-03",
-        "home-mcq-04",
-        "home-mcq-05",
-        "home-mcq-06"
+        "home-reviewed-db10152b76",
+        "home-pdf-plain-015",
+        "home-mcq-23",
+        "home-mcq-10"
       ],
-      "explanation": "本句的「home」指「一個人平日居住和生活的房屋／住所」。",
+      "explanation": "對照完整句子：「你幾點到家？」。這裡的「home」表示「回家；到家；在家」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "home"
       ],
       "optionReasons": {
-        "home-mcq-02": "本句指「一個人平日居住和生活的房屋／住所」。",
-        "home-mcq-01": "「朝自己居住的地方移動，或身處自己的住所」是「home — adverb」的用法，與本句語境不同。",
-        "home-mcq-03": "「與家庭成員、家庭關係和居家日常有關的生活環境」是「home — family life」的用法，與本句語境不同。",
-        "home-mcq-04": "「令人感到熟悉、安全、自在並具有歸屬感的地方」是「home — belonging」的用法，與本句語境不同。",
-        "home-mcq-05": "「一個人來自、成長或具有深厚身份連結的地方／家鄉」是「home — origin」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。"
+        "home-reviewed-db10152b76": "對照完整句子：「你幾點到家？」。這裡的「home」表示「回家；到家；在家」。",
+        "home-pdf-plain-015": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "home-mcq-02"
+      "correctOption": "home-reviewed-db10152b76",
+      "previousCorrectOption": "home-mcq-02",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "home-01-2",
-      "sense": "home-mcq-02",
+      "sense": "home-reviewed-db10152b76",
       "en": "She stayed home all weekend.",
       "zh": "她整個週末都待在家裡。",
       "masked": "她整個週末都待____裡。",
       "options": [
-        "home-mcq-02",
-        "home-mcq-01",
-        "home-mcq-03",
-        "home-mcq-04",
-        "home-mcq-05",
-        "home-mcq-06"
+        "home-reviewed-db10152b76",
+        "home-mcq-07",
+        "home-pdf-plain-019",
+        "home-mcq-13"
       ],
-      "explanation": "本句的「home」指「一個人平日居住和生活的房屋／住所」。",
+      "explanation": "對照完整句子：「她整個週末都待在家裡。」。這裡的「home」表示「回家；到家；在家」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "home"
       ],
       "optionReasons": {
-        "home-mcq-02": "本句指「一個人平日居住和生活的房屋／住所」。",
-        "home-mcq-01": "「朝自己居住的地方移動，或身處自己的住所」是「home — adverb」的用法，與本句語境不同。",
-        "home-mcq-03": "「與家庭成員、家庭關係和居家日常有關的生活環境」是「home — family life」的用法，與本句語境不同。",
-        "home-mcq-04": "「令人感到熟悉、安全、自在並具有歸屬感的地方」是「home — belonging」的用法，與本句語境不同。",
-        "home-mcq-05": "「一個人來自、成長或具有深厚身份連結的地方／家鄉」是「home — origin」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。"
+        "home-reviewed-db10152b76": "對照完整句子：「她整個週末都待在家裡。」。這裡的「home」表示「回家；到家；在家」。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-019": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "home-mcq-02"
+      "correctOption": "home-reviewed-db10152b76",
+      "previousCorrectOption": "home-mcq-02",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "home-02-0",
@@ -876,11 +894,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-02",
-        "home-mcq-01",
-        "home-mcq-03",
-        "home-mcq-04",
-        "home-mcq-05",
-        "home-mcq-06"
+        "home-pdf-plain-017",
+        "home-mcq-11",
+        "home-mcq-32"
       ],
       "explanation": "本句的「home」指「一個人平日居住和生活的房屋／住所」。",
       "sentenceIndex": 3,
@@ -889,12 +905,10 @@ export default {
         "home"
       ],
       "optionReasons": {
-        "home-mcq-02": "本句指「一個人平日居住和生活的房屋／住所」。",
-        "home-mcq-01": "「朝自己居住的地方移動，或身處自己的住所」是「home — adverb」的用法，與本句語境不同。",
-        "home-mcq-03": "「與家庭成員、家庭關係和居家日常有關的生活環境」是「home — family life」的用法，與本句語境不同。",
-        "home-mcq-04": "「令人感到熟悉、安全、自在並具有歸屬感的地方」是「home — belonging」的用法，與本句語境不同。",
-        "home-mcq-05": "「一個人來自、成長或具有深厚身份連結的地方／家鄉」是「home — origin」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。"
+        "home-mcq-02": "本句的「home」指「一個人平日居住和生活的房屋／住所」。",
+        "home-pdf-plain-017": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-02"
     },
@@ -906,11 +920,9 @@ export default {
       "masked": "她的____在暴風雨中受損。",
       "options": [
         "home-mcq-02",
-        "home-mcq-01",
-        "home-mcq-03",
+        "home-reviewed-db10152b76",
         "home-mcq-04",
-        "home-mcq-05",
-        "home-mcq-06"
+        "home-mcq-09"
       ],
       "explanation": "本句的「home」指「一個人平日居住和生活的房屋／住所」。",
       "sentenceIndex": 4,
@@ -919,12 +931,10 @@ export default {
         "home"
       ],
       "optionReasons": {
-        "home-mcq-02": "本句指「一個人平日居住和生活的房屋／住所」。",
-        "home-mcq-01": "「朝自己居住的地方移動，或身處自己的住所」是「home — adverb」的用法，與本句語境不同。",
-        "home-mcq-03": "「與家庭成員、家庭關係和居家日常有關的生活環境」是「home — family life」的用法，與本句語境不同。",
-        "home-mcq-04": "「令人感到熟悉、安全、自在並具有歸屬感的地方」是「home — belonging」的用法，與本句語境不同。",
-        "home-mcq-05": "「一個人來自、成長或具有深厚身份連結的地方／家鄉」是「home — origin」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。"
+        "home-mcq-02": "本句的「home」指「一個人平日居住和生活的房屋／住所」。",
+        "home-reviewed-db10152b76": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-02"
     },
@@ -936,11 +946,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-03",
-        "home-mcq-02",
         "home-mcq-04",
-        "home-mcq-01",
-        "home-mcq-05",
-        "home-mcq-06"
+        "home-mcq-11",
+        "home-mcq-09"
       ],
       "explanation": "本句的「home」指「與家庭成員、家庭關係和居家日常有關的生活環境」。",
       "sentenceIndex": 5,
@@ -949,12 +957,10 @@ export default {
         "home"
       ],
       "optionReasons": {
-        "home-mcq-03": "本句指「與家庭成員、家庭關係和居家日常有關的生活環境」。",
-        "home-mcq-02": "「一個人平日居住和生活的房屋／住所」是「home — residence」的用法，與本句語境不同。",
-        "home-mcq-04": "「令人感到熟悉、安全、自在並具有歸屬感的地方」是「home — belonging」的用法，與本句語境不同。",
-        "home-mcq-01": "「朝自己居住的地方移動，或身處自己的住所」是「home — adverb」的用法，與本句語境不同。",
-        "home-mcq-05": "「一個人來自、成長或具有深厚身份連結的地方／家鄉」是「home — origin」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。"
+        "home-mcq-03": "本句的「home」指「與家庭成員、家庭關係和居家日常有關的生活環境」。",
+        "home-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-03"
     },
@@ -966,11 +972,9 @@ export default {
       "masked": "她努力在工作和____之間取得平衡。",
       "options": [
         "home-mcq-03",
-        "home-mcq-02",
-        "home-mcq-04",
-        "home-mcq-01",
-        "home-mcq-05",
-        "home-mcq-06"
+        "home-mcq-09",
+        "home-mcq-11",
+        "home-mcq-04"
       ],
       "explanation": "本句的「home」指「與家庭成員、家庭關係和居家日常有關的生活環境」。",
       "sentenceIndex": 6,
@@ -979,12 +983,10 @@ export default {
         "home"
       ],
       "optionReasons": {
-        "home-mcq-03": "本句指「與家庭成員、家庭關係和居家日常有關的生活環境」。",
-        "home-mcq-02": "「一個人平日居住和生活的房屋／住所」是「home — residence」的用法，與本句語境不同。",
-        "home-mcq-04": "「令人感到熟悉、安全、自在並具有歸屬感的地方」是「home — belonging」的用法，與本句語境不同。",
-        "home-mcq-01": "「朝自己居住的地方移動，或身處自己的住所」是「home — adverb」的用法，與本句語境不同。",
-        "home-mcq-05": "「一個人來自、成長或具有深厚身份連結的地方／家鄉」是「home — origin」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。"
+        "home-mcq-03": "本句的「home」指「與家庭成員、家庭關係和居家日常有關的生活環境」。",
+        "home-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-03"
     },
@@ -996,11 +998,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-04",
-        "home-mcq-03",
-        "home-mcq-05",
         "home-mcq-02",
-        "home-mcq-06",
-        "home-mcq-01"
+        "home-mcq-23",
+        "home-mcq-32"
       ],
       "explanation": "本句的「home」指「令人感到熟悉、安全、自在並具有歸屬感的地方」。",
       "sentenceIndex": 7,
@@ -1009,12 +1009,10 @@ export default {
         "home"
       ],
       "optionReasons": {
-        "home-mcq-04": "本句指「令人感到熟悉、安全、自在並具有歸屬感的地方」。",
-        "home-mcq-03": "「與家庭成員、家庭關係和居家日常有關的生活環境」是「home — family life」的用法，與本句語境不同。",
-        "home-mcq-05": "「一個人來自、成長或具有深厚身份連結的地方／家鄉」是「home — origin」的用法，與本句語境不同。",
-        "home-mcq-02": "「一個人平日居住和生活的房屋／住所」是「home — residence」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。",
-        "home-mcq-01": "「朝自己居住的地方移動，或身處自己的住所」是「home — adverb」的用法，與本句語境不同。"
+        "home-mcq-04": "本句的「home」指「令人感到熟悉、安全、自在並具有歸屬感的地方」。",
+        "home-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-04"
     },
@@ -1026,11 +1024,9 @@ export default {
       "masked": "對她來說，____。",
       "options": [
         "home-mcq-04",
-        "home-mcq-03",
-        "home-mcq-05",
-        "home-mcq-02",
-        "home-mcq-06",
-        "home-mcq-01"
+        "home-mcq-26",
+        "home-mcq-10",
+        "home-mcq-23"
       ],
       "explanation": "本句的「home」指「令人感到熟悉、安全、自在並具有歸屬感的地方」。",
       "sentenceIndex": 8,
@@ -1039,12 +1035,10 @@ export default {
         "home"
       ],
       "optionReasons": {
-        "home-mcq-04": "本句指「令人感到熟悉、安全、自在並具有歸屬感的地方」。",
-        "home-mcq-03": "「與家庭成員、家庭關係和居家日常有關的生活環境」是「home — family life」的用法，與本句語境不同。",
-        "home-mcq-05": "「一個人來自、成長或具有深厚身份連結的地方／家鄉」是「home — origin」的用法，與本句語境不同。",
-        "home-mcq-02": "「一個人平日居住和生活的房屋／住所」是「home — residence」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。",
-        "home-mcq-01": "「朝自己居住的地方移動，或身處自己的住所」是「home — adverb」的用法，與本句語境不同。"
+        "home-mcq-04": "本句的「home」指「令人感到熟悉、安全、自在並具有歸屬感的地方」。",
+        "home-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-04"
     },
@@ -1056,11 +1050,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-05",
-        "home-mcq-04",
-        "home-mcq-06",
-        "home-mcq-03",
-        "home-mcq-07",
-        "home-mcq-02"
+        "home-mcq-23",
+        "home-mcq-11",
+        "home-mcq-32"
       ],
       "explanation": "本句的「home」指「一個人來自、成長或具有深厚身份連結的地方／家鄉」。",
       "sentenceIndex": 9,
@@ -1069,12 +1061,10 @@ export default {
         "home"
       ],
       "optionReasons": {
-        "home-mcq-05": "本句指「一個人來自、成長或具有深厚身份連結的地方／家鄉」。",
-        "home-mcq-04": "「令人感到熟悉、安全、自在並具有歸屬感的地方」是「home — belonging」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。",
-        "home-mcq-03": "「與家庭成員、家庭關係和居家日常有關的生活環境」是「home — family life」的用法，與本句語境不同。",
-        "home-mcq-07": "「為特定人士提供長期住宿和照顧的院舍／機構」是「home — institution」的用法，與本句語境不同。",
-        "home-mcq-02": "「一個人平日居住和生活的房屋／住所」是「home — residence」的用法，與本句語境不同。"
+        "home-mcq-05": "本句的「home」指「一個人來自、成長或具有深厚身份連結的地方／家鄉」。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-05"
     },
@@ -1086,11 +1076,9 @@ export default {
       "masked": "在海外生活十年後，____。",
       "options": [
         "home-mcq-05",
-        "home-mcq-04",
-        "home-mcq-06",
-        "home-mcq-03",
-        "home-mcq-07",
-        "home-mcq-02"
+        "home-mcq-23",
+        "home-mcq-11",
+        "home-pdf-plain-015"
       ],
       "explanation": "本句的「home」指「一個人來自、成長或具有深厚身份連結的地方／家鄉」。",
       "sentenceIndex": 10,
@@ -1099,12 +1087,10 @@ export default {
         "home"
       ],
       "optionReasons": {
-        "home-mcq-05": "本句指「一個人來自、成長或具有深厚身份連結的地方／家鄉」。",
-        "home-mcq-04": "「令人感到熟悉、安全、自在並具有歸屬感的地方」是「home — belonging」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。",
-        "home-mcq-03": "「與家庭成員、家庭關係和居家日常有關的生活環境」是「home — family life」的用法，與本句語境不同。",
-        "home-mcq-07": "「為特定人士提供長期住宿和照顧的院舍／機構」是「home — institution」的用法，與本句語境不同。",
-        "home-mcq-02": "「一個人平日居住和生活的房屋／住所」是「home — residence」的用法，與本句語境不同。"
+        "home-mcq-05": "本句的「home」指「一個人來自、成長或具有深厚身份連結的地方／家鄉」。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-015": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-05"
     },
@@ -1116,11 +1102,9 @@ export default {
       "masked": "這片雨林是數千種生物的____。",
       "options": [
         "home-mcq-27",
-        "home-mcq-26",
-        "home-mcq-25",
-        "home-mcq-29",
-        "home-mcq-24",
-        "home-mcq-23"
+        "home-mcq-14",
+        "home-mcq-34",
+        "home-mcq-13"
       ],
       "explanation": "本句的「home to」指「棲息地；發源地；大本營；所在地」。",
       "sentenceIndex": 11,
@@ -1129,12 +1113,10 @@ export default {
         "home to"
       ],
       "optionReasons": {
-        "home-mcq-27": "本句指「棲息地；發源地；大本營；所在地」。",
-        "home-mcq-26": "「朝住所／家鄉方向移動的」是「homeward」的用法，與本句語境不同。",
-        "home-mcq-25": "「比起外出社交，更喜歡留在家中活動的人」是「homebody」的用法，與本句語境不同。",
-        "home-mcq-29": "「表示無家可歸；無固定居所狀況」是「Unmapped practice home-21-0」的用法，與本句語境不同。",
-        "home-mcq-24": "「因離開家、家人或家鄉而感到難過、想回家的」是「homesick」的用法，與本句語境不同。",
-        "home-mcq-23": "「在本地培養、發展或產生，而不是外地引進的」是「homegrown — figurative」的用法，與本句語境不同。"
+        "home-mcq-27": "本句的「home to」指「棲息地；發源地；大本營；所在地」。",
+        "home-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-27"
     },
@@ -1146,11 +1128,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-28",
-        "home-mcq-29",
-        "home-mcq-26",
-        "home-mcq-25",
-        "home-mcq-31",
-        "home-mcq-24"
+        "home-reviewed-9fea479494",
+        "home-mcq-33",
+        "home-mcq-32"
       ],
       "explanation": "本句的「home to」指「棲息地；發源地；大本營；所在地」。",
       "sentenceIndex": 12,
@@ -1159,12 +1139,10 @@ export default {
         "home to"
       ],
       "optionReasons": {
-        "home-mcq-28": "本句指「棲息地；發源地；大本營；所在地」。",
-        "home-mcq-29": "「表示無家可歸；無固定居所狀況」是「Unmapped practice home-21-0」的用法，與本句語境不同。",
-        "home-mcq-26": "「朝住所／家鄉方向移動的」是「homeward」的用法，與本句語境不同。",
-        "home-mcq-25": "「比起外出社交，更喜歡留在家中活動的人」是「homebody」的用法，與本句語境不同。",
-        "home-mcq-31": "「表示祖國；故土；家園」是「Unmapped practice home-23-0」的用法，與本句語境不同。",
-        "home-mcq-24": "「因離開家、家人或家鄉而感到難過、想回家的」是「homesick」的用法，與本句語境不同。"
+        "home-mcq-28": "本句的「home to」指「棲息地；發源地；大本營；所在地」。",
+        "home-reviewed-9fea479494": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-28"
     },
@@ -1176,11 +1154,9 @@ export default {
       "masked": "她在一家____工作。",
       "options": [
         "home-mcq-07",
-        "home-mcq-06",
-        "home-mcq-08",
-        "home-mcq-05",
-        "home-mcq-09",
-        "home-mcq-04"
+        "home-mcq-13",
+        "home-mcq-22",
+        "home-mcq-28"
       ],
       "explanation": "本句的「home」指「為特定人士提供長期住宿和照顧的院舍／機構」。",
       "sentenceIndex": 13,
@@ -1189,12 +1165,10 @@ export default {
         "home"
       ],
       "optionReasons": {
-        "home-mcq-07": "本句指「為特定人士提供長期住宿和照顧的院舍／機構」。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。",
-        "home-mcq-08": "「與家庭、住所或居家使用有關的」是「home + noun」的用法，與本句語境不同。",
-        "home-mcq-05": "「一個人來自、成長或具有深厚身份連結的地方／家鄉」是「home — origin」的用法，與本句語境不同。",
-        "home-mcq-09": "「在自己場館作賽的一方／主場相關的」是「home — sport」的用法，與本句語境不同。",
-        "home-mcq-04": "「令人感到熟悉、安全、自在並具有歸屬感的地方」是「home — belonging」的用法，與本句語境不同。"
+        "home-mcq-07": "本句的「home」指「為特定人士提供長期住宿和照顧的院舍／機構」。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-07"
     },
@@ -1206,11 +1180,9 @@ export default {
       "masked": "那名兒童被安排入住兒童____。",
       "options": [
         "home-mcq-07",
-        "home-mcq-06",
-        "home-mcq-08",
-        "home-mcq-05",
-        "home-mcq-09",
-        "home-mcq-04"
+        "home-mcq-33",
+        "home-mcq-28",
+        "home-mcq-09"
       ],
       "explanation": "本句的「home」指「為特定人士提供長期住宿和照顧的院舍／機構」。",
       "sentenceIndex": 14,
@@ -1219,12 +1191,10 @@ export default {
         "home"
       ],
       "optionReasons": {
-        "home-mcq-07": "本句指「為特定人士提供長期住宿和照顧的院舍／機構」。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。",
-        "home-mcq-08": "「與家庭、住所或居家使用有關的」是「home + noun」的用法，與本句語境不同。",
-        "home-mcq-05": "「一個人來自、成長或具有深厚身份連結的地方／家鄉」是「home — origin」的用法，與本句語境不同。",
-        "home-mcq-09": "「在自己場館作賽的一方／主場相關的」是「home — sport」的用法，與本句語境不同。",
-        "home-mcq-04": "「令人感到熟悉、安全、自在並具有歸屬感的地方」是「home — belonging」的用法，與本句語境不同。"
+        "home-mcq-07": "本句的「home」指「為特定人士提供長期住宿和照顧的院舍／機構」。",
+        "home-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-07"
     },
@@ -1236,11 +1206,9 @@ export default {
       "masked": "公司銷售____電器。",
       "options": [
         "home-mcq-08",
-        "home-mcq-07",
         "home-mcq-09",
-        "home-mcq-06",
-        "home-mcq-10",
-        "home-mcq-05"
+        "home-mcq-11",
+        "home-mcq-13"
       ],
       "explanation": "本句的「home appliances」指「與家庭、住所或居家使用有關的」。",
       "sentenceIndex": 15,
@@ -1249,12 +1217,10 @@ export default {
         "home appliances"
       ],
       "optionReasons": {
-        "home-mcq-08": "本句指「與家庭、住所或居家使用有關的」。",
-        "home-mcq-07": "「為特定人士提供長期住宿和照顧的院舍／機構」是「home — institution」的用法，與本句語境不同。",
-        "home-mcq-09": "「在自己場館作賽的一方／主場相關的」是「home — sport」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。",
-        "home-mcq-10": "「與公司或個人的本國／本土市場相關的」是「home — business/geography」的用法，與本句語境不同。",
-        "home-mcq-05": "「一個人來自、成長或具有深厚身份連結的地方／家鄉」是「home — origin」的用法，與本句語境不同。"
+        "home-mcq-08": "本句的「home appliances」指「與家庭、住所或居家使用有關的」。",
+        "home-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-08"
     },
@@ -1266,11 +1232,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-08",
-        "home-mcq-07",
-        "home-mcq-09",
-        "home-mcq-06",
-        "home-mcq-10",
-        "home-mcq-05"
+        "home-mcq-11",
+        "home-mcq-23",
+        "home-pdf-plain-015"
       ],
       "explanation": "本句的「home office」指「與家庭、住所或居家使用有關的」。",
       "sentenceIndex": 16,
@@ -1279,12 +1243,10 @@ export default {
         "home office"
       ],
       "optionReasons": {
-        "home-mcq-08": "本句指「與家庭、住所或居家使用有關的」。",
-        "home-mcq-07": "「為特定人士提供長期住宿和照顧的院舍／機構」是「home — institution」的用法，與本句語境不同。",
-        "home-mcq-09": "「在自己場館作賽的一方／主場相關的」是「home — sport」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。",
-        "home-mcq-10": "「與公司或個人的本國／本土市場相關的」是「home — business/geography」的用法，與本句語境不同。",
-        "home-mcq-05": "「一個人來自、成長或具有深厚身份連結的地方／家鄉」是「home — origin」的用法，與本句語境不同。"
+        "home-mcq-08": "本句的「home office」指「與家庭、住所或居家使用有關的」。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-015": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-08"
     },
@@ -1296,11 +1258,9 @@ export default {
       "masked": "____以 3 比 1 勝出。",
       "options": [
         "home-mcq-09",
-        "home-mcq-08",
-        "home-mcq-10",
-        "home-mcq-07",
-        "home-mcq-11",
-        "home-mcq-06"
+        "home-mcq-26",
+        "home-mcq-23",
+        "home-mcq-07"
       ],
       "explanation": "本句的「home team」指「在自己場館作賽的一方／主場相關的」。",
       "sentenceIndex": 17,
@@ -1309,12 +1269,10 @@ export default {
         "home team"
       ],
       "optionReasons": {
-        "home-mcq-09": "本句指「在自己場館作賽的一方／主場相關的」。",
-        "home-mcq-08": "「與家庭、住所或居家使用有關的」是「home + noun」的用法，與本句語境不同。",
-        "home-mcq-10": "「與公司或個人的本國／本土市場相關的」是「home — business/geography」的用法，與本句語境不同。",
-        "home-mcq-07": "「為特定人士提供長期住宿和照顧的院舍／機構」是「home — institution」的用法，與本句語境不同。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」是「home — technology」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。"
+        "home-mcq-09": "本句的「home team」指「在自己場館作賽的一方／主場相關的」。",
+        "home-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-09"
     },
@@ -1326,11 +1284,9 @@ export default {
       "masked": "他們今個月有三場____比賽。",
       "options": [
         "home-mcq-09",
-        "home-mcq-08",
-        "home-mcq-10",
+        "home-mcq-30",
         "home-mcq-07",
-        "home-mcq-11",
-        "home-mcq-06"
+        "home-mcq-12"
       ],
       "explanation": "本句的「home games」指「在自己場館作賽的一方／主場相關的」。",
       "sentenceIndex": 18,
@@ -1339,12 +1295,10 @@ export default {
         "home games"
       ],
       "optionReasons": {
-        "home-mcq-09": "本句指「在自己場館作賽的一方／主場相關的」。",
-        "home-mcq-08": "「與家庭、住所或居家使用有關的」是「home + noun」的用法，與本句語境不同。",
-        "home-mcq-10": "「與公司或個人的本國／本土市場相關的」是「home — business/geography」的用法，與本句語境不同。",
-        "home-mcq-07": "「為特定人士提供長期住宿和照顧的院舍／機構」是「home — institution」的用法，與本句語境不同。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」是「home — technology」的用法，與本句語境不同。",
-        "home-mcq-06": "「某些生物、人物、機構或文化主要存在／聚集的地方」是「be home to」的用法，與本句語境不同。"
+        "home-mcq-09": "本句的「home games」指「在自己場館作賽的一方／主場相關的」。",
+        "home-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-09"
     },
@@ -1356,11 +1310,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-10",
-        "home-mcq-09",
-        "home-mcq-11",
-        "home-mcq-08",
-        "home-mcq-12",
-        "home-mcq-07"
+        "home-mcq-25",
+        "home-pdf-plain-015",
+        "home-mcq-11"
       ],
       "explanation": "本句的「home market」指「與公司或個人的本國／本土市場相關的」。",
       "sentenceIndex": 19,
@@ -1369,12 +1321,10 @@ export default {
         "home market"
       ],
       "optionReasons": {
-        "home-mcq-10": "本句指「與公司或個人的本國／本土市場相關的」。",
-        "home-mcq-09": "「在自己場館作賽的一方／主場相關的」是「home — sport」的用法，與本句語境不同。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」是「home — technology」的用法，與本句語境不同。",
-        "home-mcq-08": "「與家庭、住所或居家使用有關的」是「home + noun」的用法，與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」是「home — baseball」的用法，與本句語境不同。",
-        "home-mcq-07": "「為特定人士提供長期住宿和照顧的院舍／機構」是「home — institution」的用法，與本句語境不同。"
+        "home-mcq-10": "本句的「home market」指「與公司或個人的本國／本土市場相關的」。",
+        "home-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-015": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-10"
     },
@@ -1386,11 +1336,9 @@ export default {
       "masked": "這家公司在其____的需求正在下降。",
       "options": [
         "home-mcq-10",
-        "home-mcq-09",
-        "home-mcq-11",
-        "home-mcq-08",
-        "home-mcq-12",
-        "home-mcq-07"
+        "home-reviewed-db10152b76",
+        "home-mcq-13",
+        "home-mcq-17"
       ],
       "explanation": "本句的「home country」指「與公司或個人的本國／本土市場相關的」。",
       "sentenceIndex": 20,
@@ -1399,12 +1347,10 @@ export default {
         "home country"
       ],
       "optionReasons": {
-        "home-mcq-10": "本句指「與公司或個人的本國／本土市場相關的」。",
-        "home-mcq-09": "「在自己場館作賽的一方／主場相關的」是「home — sport」的用法，與本句語境不同。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」是「home — technology」的用法，與本句語境不同。",
-        "home-mcq-08": "「與家庭、住所或居家使用有關的」是「home + noun」的用法，與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」是「home — baseball」的用法，與本句語境不同。",
-        "home-mcq-07": "「為特定人士提供長期住宿和照顧的院舍／機構」是「home — institution」的用法，與本句語境不同。"
+        "home-mcq-10": "本句的「home country」指「與公司或個人的本國／本土市場相關的」。",
+        "home-reviewed-db10152b76": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-10"
     },
@@ -1416,11 +1362,9 @@ export default {
       "masked": "按下「____」返回主要畫面。",
       "options": [
         "home-mcq-11",
-        "home-mcq-10",
-        "home-mcq-12",
-        "home-mcq-09",
-        "home-mcq-13",
-        "home-mcq-08"
+        "home-mcq-07",
+        "home-mcq-04",
+        "home-mcq-14"
       ],
       "explanation": "本句的「Home」指「系統、網站或裝置中作為主要起點／返回點的頁面或介面」。",
       "sentenceIndex": 21,
@@ -1429,12 +1373,10 @@ export default {
         "Home"
       ],
       "optionReasons": {
-        "home-mcq-11": "本句指「系統、網站或裝置中作為主要起點／返回點的頁面或介面」。",
-        "home-mcq-10": "「與公司或個人的本國／本土市場相關的」是「home — business/geography」的用法，與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」是「home — baseball」的用法，與本句語境不同。",
-        "home-mcq-09": "「在自己場館作賽的一方／主場相關的」是「home — sport」的用法，與本句語境不同。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。",
-        "home-mcq-08": "「與家庭、住所或居家使用有關的」是「home + noun」的用法，與本句語境不同。"
+        "home-mcq-11": "本句的「Home」指「系統、網站或裝置中作為主要起點／返回點的頁面或介面」。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-11"
     },
@@ -1446,11 +1388,9 @@ export default {
       "masked": "新聞會顯示在應用程式的____。",
       "options": [
         "home-mcq-11",
-        "home-mcq-10",
-        "home-mcq-12",
-        "home-mcq-09",
-        "home-mcq-13",
-        "home-mcq-08"
+        "home-mcq-04",
+        "home-mcq-34",
+        "home-mcq-23"
       ],
       "explanation": "本句的「home screen」指「系統、網站或裝置中作為主要起點／返回點的頁面或介面」。",
       "sentenceIndex": 22,
@@ -1459,12 +1399,10 @@ export default {
         "home screen"
       ],
       "optionReasons": {
-        "home-mcq-11": "本句指「系統、網站或裝置中作為主要起點／返回點的頁面或介面」。",
-        "home-mcq-10": "「與公司或個人的本國／本土市場相關的」是「home — business/geography」的用法，與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」是「home — baseball」的用法，與本句語境不同。",
-        "home-mcq-09": "「在自己場館作賽的一方／主場相關的」是「home — sport」的用法，與本句語境不同。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。",
-        "home-mcq-08": "「與家庭、住所或居家使用有關的」是「home + noun」的用法，與本句語境不同。"
+        "home-mcq-11": "本句的「home screen」指「系統、網站或裝置中作為主要起點／返回點的頁面或介面」。",
+        "home-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-11"
     },
@@ -1476,11 +1414,9 @@ export default {
       "masked": "跑壘員安全回到____。",
       "options": [
         "home-mcq-12",
-        "home-mcq-11",
-        "home-mcq-13",
-        "home-mcq-10",
-        "home-mcq-14",
-        "home-mcq-09"
+        "home-mcq-17",
+        "home-mcq-31",
+        "home-mcq-34"
       ],
       "explanation": "本句的「home」指「跑壘員返回並完成得分的本壘位置」。",
       "sentenceIndex": 23,
@@ -1489,12 +1425,10 @@ export default {
         "home"
       ],
       "optionReasons": {
-        "home-mcq-12": "本句指「跑壘員返回並完成得分的本壘位置」。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」是「home — technology」的用法，與本句語境不同。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。",
-        "home-mcq-10": "「與公司或個人的本國／本土市場相關的」是「home — business/geography」的用法，與本句語境不同。",
-        "home-mcq-14": "「身處自己的住所」是「at home — literal」的用法，與本句語境不同。",
-        "home-mcq-09": "「在自己場館作賽的一方／主場相關的」是「home — sport」的用法，與本句語境不同。"
+        "home-mcq-12": "本句的「home」指「跑壘員返回並完成得分的本壘位置」。",
+        "home-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-12"
     },
@@ -1506,11 +1440,9 @@ export default {
       "masked": "他滑壘進入____。",
       "options": [
         "home-mcq-12",
-        "home-mcq-11",
-        "home-mcq-13",
-        "home-mcq-10",
-        "home-mcq-14",
-        "home-mcq-09"
+        "home-mcq-25",
+        "home-pdf-plain-015",
+        "home-mcq-31"
       ],
       "explanation": "本句的「home」指「跑壘員返回並完成得分的本壘位置」。",
       "sentenceIndex": 24,
@@ -1519,12 +1451,10 @@ export default {
         "home"
       ],
       "optionReasons": {
-        "home-mcq-12": "本句指「跑壘員返回並完成得分的本壘位置」。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」是「home — technology」的用法，與本句語境不同。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。",
-        "home-mcq-10": "「與公司或個人的本國／本土市場相關的」是「home — business/geography」的用法，與本句語境不同。",
-        "home-mcq-14": "「身處自己的住所」是「at home — literal」的用法，與本句語境不同。",
-        "home-mcq-09": "「在自己場館作賽的一方／主場相關的」是「home — sport」的用法，與本句語境不同。"
+        "home-mcq-12": "本句的「home」指「跑壘員返回並完成得分的本壘位置」。",
+        "home-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-015": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-12"
     },
@@ -1536,11 +1466,9 @@ export default {
       "masked": "他擊出一支____。",
       "options": [
         "home-mcq-13",
-        "home-mcq-12",
-        "home-mcq-14",
-        "home-mcq-11",
-        "home-mcq-15",
-        "home-mcq-10"
+        "home-mcq-26",
+        "home-mcq-27",
+        "home-pdf-plain-015"
       ],
       "explanation": "本句的「home run」指「棒球全壘打；比喻非常成功的事情」。",
       "sentenceIndex": 25,
@@ -1549,12 +1477,10 @@ export default {
         "home run"
       ],
       "optionReasons": {
-        "home-mcq-13": "本句指「棒球全壘打；比喻非常成功的事情」。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」是「home — baseball」的用法，與本句語境不同。",
-        "home-mcq-14": "「身處自己的住所」是「at home — literal」的用法，與本句語境不同。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」是「home — technology」的用法，與本句語境不同。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。",
-        "home-mcq-10": "「與公司或個人的本國／本土市場相關的」是「home — business/geography」的用法，與本句語境不同。"
+        "home-mcq-13": "本句的「home run」指「棒球全壘打；比喻非常成功的事情」。",
+        "home-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-015": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-13"
     },
@@ -1566,11 +1492,9 @@ export default {
       "masked": "這款新產品對公司而言是一次____。",
       "options": [
         "home-mcq-13",
-        "home-mcq-12",
-        "home-mcq-14",
-        "home-mcq-11",
-        "home-mcq-15",
-        "home-mcq-10"
+        "home-pdf-plain-019",
+        "home-mcq-21",
+        "home-pdf-plain-015"
       ],
       "explanation": "本句的「home run」指「棒球全壘打；比喻非常成功的事情」。",
       "sentenceIndex": 26,
@@ -1579,12 +1503,10 @@ export default {
         "home run"
       ],
       "optionReasons": {
-        "home-mcq-13": "本句指「棒球全壘打；比喻非常成功的事情」。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」是「home — baseball」的用法，與本句語境不同。",
-        "home-mcq-14": "「身處自己的住所」是「at home — literal」的用法，與本句語境不同。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」是「home — technology」的用法，與本句語境不同。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。",
-        "home-mcq-10": "「與公司或個人的本國／本土市場相關的」是「home — business/geography」的用法，與本句語境不同。"
+        "home-mcq-13": "本句的「home run」指「棒球全壘打；比喻非常成功的事情」。",
+        "home-pdf-plain-019": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-015": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-13"
     },
@@ -1596,10 +1518,8 @@ export default {
       "masked": "我今晚會____。",
       "options": [
         "home-mcq-14",
-        "home-mcq-13",
-        "home-mcq-15",
-        "home-mcq-12",
-        "home-mcq-16",
+        "home-mcq-32",
+        "home-mcq-34",
         "home-mcq-11"
       ],
       "explanation": "本句的「at home」指「身處自己的住所」。",
@@ -1609,12 +1529,10 @@ export default {
         "at home"
       ],
       "optionReasons": {
-        "home-mcq-14": "本句指「身處自己的住所」。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」是「home — baseball」的用法，與本句語境不同。",
-        "home-mcq-16": "「擁有自己住宅物業的人」是「homeowner」的用法，與本句語境不同。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」是「home — technology」的用法，與本句語境不同。"
+        "home-mcq-14": "本句的「at home」指「身處自己的住所」。",
+        "home-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-14"
     },
@@ -1626,10 +1544,8 @@ export default {
       "masked": "她每星期有兩天____工作。",
       "options": [
         "home-mcq-14",
-        "home-mcq-13",
-        "home-mcq-15",
-        "home-mcq-12",
-        "home-mcq-16",
+        "home-mcq-31",
+        "home-mcq-33",
         "home-mcq-11"
       ],
       "explanation": "本句的「at home」指「身處自己的住所」。",
@@ -1639,12 +1555,10 @@ export default {
         "at home"
       ],
       "optionReasons": {
-        "home-mcq-14": "本句指「身處自己的住所」。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」是「home — baseball」的用法，與本句語境不同。",
-        "home-mcq-16": "「擁有自己住宅物業的人」是「homeowner」的用法，與本句語境不同。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」是「home — technology」的用法，與本句語境不同。"
+        "home-mcq-14": "本句的「at home」指「身處自己的住所」。",
+        "home-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-14"
     },
@@ -1656,11 +1570,9 @@ export default {
       "masked": "我在新辦公室裡很快就____、像自己熟悉的地方一樣。",
       "options": [
         "home-pdf-plain-015",
-        "home-mcq-13",
-        "home-mcq-15",
-        "home-mcq-12",
-        "home-mcq-16",
-        "home-mcq-11"
+        "home-reviewed-db10152b76",
+        "home-mcq-17",
+        "home-mcq-13"
       ],
       "explanation": "本句的「at home」指「在某處感到自在、熟悉或有歸屬感」。",
       "sentenceIndex": 29,
@@ -1669,12 +1581,10 @@ export default {
         "at home"
       ],
       "optionReasons": {
-        "home-pdf-plain-015": "本句指「在某處感到自在、熟悉或有歸屬感」。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」與本句語境不同。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」與本句語境不同。",
-        "home-mcq-16": "「擁有自己住宅物業的人」與本句語境不同。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」與本句語境不同。"
+        "home-pdf-plain-015": "本句的「at home」指「在某處感到自在、熟悉或有歸屬感」。",
+        "home-reviewed-db10152b76": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-pdf-plain-015"
     },
@@ -1686,11 +1596,9 @@ export default {
       "masked": "她對科技非常熟悉____、應付自如。",
       "options": [
         "home-pdf-plain-015",
-        "home-mcq-13",
-        "home-mcq-15",
-        "home-mcq-12",
-        "home-mcq-16",
-        "home-mcq-11"
+        "home-mcq-07",
+        "home-mcq-34",
+        "home-mcq-23"
       ],
       "explanation": "本句的「at home」指「在某處感到自在、熟悉或有歸屬感」。",
       "sentenceIndex": 30,
@@ -1699,71 +1607,65 @@ export default {
         "at home"
       ],
       "optionReasons": {
-        "home-pdf-plain-015": "本句指「在某處感到自在、熟悉或有歸屬感」。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」與本句語境不同。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」與本句語境不同。",
-        "home-mcq-16": "「擁有自己住宅物業的人」與本句語境不同。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」與本句語境不同。"
+        "home-pdf-plain-015": "本句的「at home」指「在某處感到自在、熟悉或有歸屬感」。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-pdf-plain-015"
     },
     {
       "id": "home-16-0",
-      "sense": "home-mcq-14",
+      "sense": "home-reviewed-9fea479494",
       "en": "Come in and make yourself at home.",
       "zh": "進來吧，別拘束，就當自己家一樣。",
       "masked": "進來吧，別拘束，就____。",
       "options": [
-        "home-mcq-14",
-        "home-mcq-13",
-        "home-mcq-15",
-        "home-mcq-12",
-        "home-mcq-16",
+        "home-reviewed-9fea479494",
+        "home-mcq-27",
+        "home-mcq-10",
         "home-mcq-11"
       ],
-      "explanation": "本句的「make yourself at home」指「身處自己的住所」。",
+      "explanation": "對照完整句子：「進來吧，別拘束，就當自己家一樣。」。這裡的「make yourself at home」表示「感到自在、不拘束，像在自己家中一樣」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "make yourself at home"
       ],
       "optionReasons": {
-        "home-mcq-14": "本句指「身處自己的住所」。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」是「home — baseball」的用法，與本句語境不同。",
-        "home-mcq-16": "「擁有自己住宅物業的人」是「homeowner」的用法，與本句語境不同。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」是「home — technology」的用法，與本句語境不同。"
+        "home-reviewed-9fea479494": "對照完整句子：「進來吧，別拘束，就當自己家一樣。」。這裡的「make yourself at home」表示「感到自在、不拘束，像在自己家中一樣」。",
+        "home-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "home-mcq-14"
+      "correctOption": "home-reviewed-9fea479494",
+      "previousCorrectOption": "home-mcq-14",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "home-16-1",
-      "sense": "home-mcq-14",
+      "sense": "home-reviewed-9fea479494",
       "en": "Please make yourself at home while I make some tea.",
       "zh": "我去泡茶，你不用客氣，隨意一點。",
       "masked": "我去泡茶，你____客氣，隨意一點。",
       "options": [
-        "home-mcq-14",
+        "home-reviewed-9fea479494",
+        "home-mcq-11",
         "home-mcq-13",
-        "home-mcq-15",
-        "home-mcq-12",
-        "home-mcq-16",
-        "home-mcq-11"
+        "home-mcq-07"
       ],
-      "explanation": "本句的「home」指「身處自己的住所」。",
+      "explanation": "對照完整句子：「我去泡茶，你不用客氣，隨意一點。」。這裡的「home」表示「感到自在、不拘束，像在自己家中一樣」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "optionReasons": {
-        "home-mcq-14": "本句指「身處自己的住所」。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」是「home — baseball」的用法，與本句語境不同。",
-        "home-mcq-16": "「擁有自己住宅物業的人」是「homeowner」的用法，與本句語境不同。",
-        "home-mcq-11": "「系統、網站或裝置中作為主要起點／返回點的頁面或介面」是「home — technology」的用法，與本句語境不同。"
+        "home-reviewed-9fea479494": "對照完整句子：「我去泡茶，你不用客氣，隨意一點。」。這裡的「home」表示「感到自在、不拘束，像在自己家中一樣」。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "home-mcq-14"
+      "correctOption": "home-reviewed-9fea479494",
+      "previousCorrectOption": "home-mcq-14",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "home-17-0",
@@ -1773,11 +1675,9 @@ export default {
       "masked": "那間小酒店成為一個____自在的地方。",
       "options": [
         "home-pdf-plain-017",
-        "home-mcq-14",
-        "home-mcq-16",
-        "home-mcq-13",
-        "home-mcq-17",
-        "home-mcq-12"
+        "home-mcq-18",
+        "home-mcq-11",
+        "home-mcq-13"
       ],
       "explanation": "本句的「home away from home」指「像家一樣舒服的地方」。",
       "sentenceIndex": 33,
@@ -1786,12 +1686,10 @@ export default {
         "home away from home"
       ],
       "optionReasons": {
-        "home-pdf-plain-017": "本句指「像家一樣舒服的地方」。",
-        "home-mcq-14": "「身處自己的住所」與本句語境不同。",
-        "home-mcq-16": "「擁有自己住宅物業的人」與本句語境不同。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」與本句語境不同。",
-        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」與本句語境不同。"
+        "home-pdf-plain-017": "本句的「home away from home」指「像家一樣舒服的地方」。",
+        "home-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-pdf-plain-017"
     },
@@ -1803,11 +1701,9 @@ export default {
       "masked": "那間咖啡店有一種____的感覺。",
       "options": [
         "home-pdf-plain-017",
-        "home-mcq-14",
-        "home-mcq-16",
-        "home-mcq-13",
-        "home-mcq-17",
-        "home-mcq-12"
+        "home-mcq-09",
+        "home-pdf-plain-015",
+        "home-mcq-07"
       ],
       "explanation": "本句的「home from home」指「像家一樣舒服的地方」。",
       "sentenceIndex": 34,
@@ -1816,12 +1712,10 @@ export default {
         "home from home"
       ],
       "optionReasons": {
-        "home-pdf-plain-017": "本句指「像家一樣舒服的地方」。",
-        "home-mcq-14": "「身處自己的住所」與本句語境不同。",
-        "home-mcq-16": "「擁有自己住宅物業的人」與本句語境不同。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」與本句語境不同。",
-        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」與本句語境不同。",
-        "home-mcq-12": "「跑壘員返回並完成得分的本壘位置」與本句語境不同。"
+        "home-pdf-plain-017": "本句的「home from home」指「像家一樣舒服的地方」。",
+        "home-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-015": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-pdf-plain-017"
     },
@@ -1833,11 +1727,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-16",
-        "home-mcq-15",
-        "home-mcq-17",
-        "home-mcq-14",
-        "home-mcq-18",
-        "home-mcq-13"
+        "home-mcq-27",
+        "home-mcq-34",
+        "home-mcq-23"
       ],
       "explanation": "本句的「homeowners」指「擁有自己住宅物業的人」。",
       "sentenceIndex": 35,
@@ -1846,12 +1738,10 @@ export default {
         "homeowners"
       ],
       "optionReasons": {
-        "home-mcq-16": "本句指「擁有自己住宅物業的人」。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。",
-        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」是「homeless」的用法，與本句語境不同。",
-        "home-mcq-14": "「身處自己的住所」是「at home — literal」的用法，與本句語境不同。",
-        "home-mcq-18": "「一個人成長、出生或認為自己來自的城鎮／城市」是「hometown」的用法，與本句語境不同。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。"
+        "home-mcq-16": "本句的「homeowners」指「擁有自己住宅物業的人」。",
+        "home-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-16"
     },
@@ -1863,11 +1753,9 @@ export default {
       "masked": "這項計劃為首次置____提供支援。",
       "options": [
         "home-mcq-16",
-        "home-mcq-15",
-        "home-mcq-17",
-        "home-mcq-14",
-        "home-mcq-18",
-        "home-mcq-13"
+        "home-pdf-plain-017",
+        "home-mcq-33",
+        "home-mcq-23"
       ],
       "explanation": "本句的「homeowners」指「擁有自己住宅物業的人」。",
       "sentenceIndex": 36,
@@ -1876,12 +1764,10 @@ export default {
         "homeowners"
       ],
       "optionReasons": {
-        "home-mcq-16": "本句指「擁有自己住宅物業的人」。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。",
-        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」是「homeless」的用法，與本句語境不同。",
-        "home-mcq-14": "「身處自己的住所」是「at home — literal」的用法，與本句語境不同。",
-        "home-mcq-18": "「一個人成長、出生或認為自己來自的城鎮／城市」是「hometown」的用法，與本句語境不同。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」是「home run」的用法，與本句語境不同。"
+        "home-mcq-16": "本句的「homeowners」指「擁有自己住宅物業的人」。",
+        "home-pdf-plain-017": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-16"
     },
@@ -1893,10 +1779,8 @@ export default {
       "masked": "____。",
       "options": [
         "home-pdf-plain-019",
-        "home-mcq-15",
-        "home-mcq-17",
-        "home-mcq-14",
-        "home-mcq-18",
+        "home-mcq-28",
+        "home-mcq-32",
         "home-mcq-13"
       ],
       "explanation": "本句的「homeownership」指「擁有自己的住宅；置業」。",
@@ -1906,12 +1790,10 @@ export default {
         "homeownership"
       ],
       "optionReasons": {
-        "home-pdf-plain-019": "本句指「擁有自己的住宅；置業」。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」與本句語境不同。",
-        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」與本句語境不同。",
-        "home-mcq-14": "「身處自己的住所」與本句語境不同。",
-        "home-mcq-18": "「一個人成長、出生或認為自己來自的城鎮／城市」與本句語境不同。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」與本句語境不同。"
+        "home-pdf-plain-019": "本句的「homeownership」指「擁有自己的住宅；置業」。",
+        "home-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-pdf-plain-019"
     },
@@ -1923,11 +1805,9 @@ export default {
       "masked": "研究分析____住宅比例。",
       "options": [
         "home-pdf-plain-019",
-        "home-mcq-15",
-        "home-mcq-17",
-        "home-mcq-14",
-        "home-mcq-18",
-        "home-mcq-13"
+        "home-mcq-10",
+        "home-mcq-23",
+        "home-mcq-27"
       ],
       "explanation": "本句的「homeownership」指「擁有自己的住宅；置業」。",
       "sentenceIndex": 38,
@@ -1936,12 +1816,10 @@ export default {
         "homeownership"
       ],
       "optionReasons": {
-        "home-pdf-plain-019": "本句指「擁有自己的住宅；置業」。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」與本句語境不同。",
-        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」與本句語境不同。",
-        "home-mcq-14": "「身處自己的住所」與本句語境不同。",
-        "home-mcq-18": "「一個人成長、出生或認為自己來自的城鎮／城市」與本句語境不同。",
-        "home-mcq-13": "「棒球全壘打；比喻非常成功的事情」與本句語境不同。"
+        "home-pdf-plain-019": "本句的「homeownership」指「擁有自己的住宅；置業」。",
+        "home-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-pdf-plain-019"
     },
@@ -1953,11 +1831,9 @@ export default {
       "masked": "這間慈善機構支援____人士。",
       "options": [
         "home-mcq-17",
-        "home-mcq-16",
         "home-mcq-18",
-        "home-mcq-15",
-        "home-mcq-19",
-        "home-mcq-14"
+        "home-pdf-plain-017",
+        "home-pdf-plain-015"
       ],
       "explanation": "本句的「homeless」指「沒有安全、穩定、固定住所可居住的」。",
       "sentenceIndex": 39,
@@ -1966,12 +1842,10 @@ export default {
         "homeless"
       ],
       "optionReasons": {
-        "home-mcq-17": "本句指「沒有安全、穩定、固定住所可居住的」。",
-        "home-mcq-16": "「擁有自己住宅物業的人」是「homeowner」的用法，與本句語境不同。",
-        "home-mcq-18": "「一個人成長、出生或認為自己來自的城鎮／城市」是「hometown」的用法，與本句語境不同。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。",
-        "home-mcq-19": "「一個人／民族具有深厚身份和文化連結的故土／祖國」是「homeland」的用法，與本句語境不同。",
-        "home-mcq-14": "「身處自己的住所」是「at home — literal」的用法，與本句語境不同。"
+        "home-mcq-17": "本句的「homeless」指「沒有安全、穩定、固定住所可居住的」。",
+        "home-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-017": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-015": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-17"
     },
@@ -1983,11 +1857,9 @@ export default {
       "masked": "火災令幾個家庭失去住所、____。",
       "options": [
         "home-mcq-17",
-        "home-mcq-16",
-        "home-mcq-18",
-        "home-mcq-15",
-        "home-mcq-19",
-        "home-mcq-14"
+        "home-mcq-33",
+        "home-mcq-12",
+        "home-mcq-21"
       ],
       "explanation": "本句的「homeless」指「沒有安全、穩定、固定住所可居住的」。",
       "sentenceIndex": 40,
@@ -1996,12 +1868,10 @@ export default {
         "homeless"
       ],
       "optionReasons": {
-        "home-mcq-17": "本句指「沒有安全、穩定、固定住所可居住的」。",
-        "home-mcq-16": "「擁有自己住宅物業的人」是「homeowner」的用法，與本句語境不同。",
-        "home-mcq-18": "「一個人成長、出生或認為自己來自的城鎮／城市」是「hometown」的用法，與本句語境不同。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。",
-        "home-mcq-19": "「一個人／民族具有深厚身份和文化連結的故土／祖國」是「homeland」的用法，與本句語境不同。",
-        "home-mcq-14": "「身處自己的住所」是「at home — literal」的用法，與本句語境不同。"
+        "home-mcq-17": "本句的「homeless」指「沒有安全、穩定、固定住所可居住的」。",
+        "home-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-17"
     },
@@ -2013,11 +1883,9 @@ export default {
       "masked": "城市推出措施減少____問題。",
       "options": [
         "home-mcq-29",
-        "home-mcq-28",
-        "home-mcq-31",
-        "home-mcq-26",
-        "home-mcq-25",
-        "home-mcq-33"
+        "home-mcq-11",
+        "home-mcq-10",
+        "home-mcq-23"
       ],
       "explanation": "本句的「homelessness」指「表示無家可歸；無固定居所狀況」。",
       "sentenceIndex": 41,
@@ -2026,12 +1894,10 @@ export default {
         "homelessness"
       ],
       "optionReasons": {
-        "home-mcq-29": "本句指「表示無家可歸；無固定居所狀況」。",
-        "home-mcq-28": "「棲息地；發源地；大本營；所在地」是「Unmapped practice home-06-1」的用法，與本句語境不同。",
-        "home-mcq-31": "「表示祖國；故土；家園」是「Unmapped practice home-23-0」的用法，與本句語境不同。",
-        "home-mcq-26": "「朝住所／家鄉方向移動的」是「homeward」的用法，與本句語境不同。",
-        "home-mcq-25": "「比起外出社交，更喜歡留在家中活動的人」是「homebody」的用法，與本句語境不同。",
-        "home-mcq-33": "「表示思鄉；想家」是「Unmapped practice home-29-0」的用法，與本句語境不同。"
+        "home-mcq-29": "本句的「homelessness」指「表示無家可歸；無固定居所狀況」。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-29"
     },
@@ -2043,11 +1909,9 @@ export default {
       "masked": "住屋成本可能導致____住所的情況。",
       "options": [
         "home-mcq-30",
-        "home-mcq-31",
-        "home-mcq-28",
-        "home-mcq-33",
-        "home-mcq-26",
-        "home-mcq-25"
+        "home-mcq-11",
+        "home-mcq-09",
+        "home-mcq-13"
       ],
       "explanation": "本句的「homelessness」指「表示無家可歸；無固定居所狀況」。",
       "sentenceIndex": 42,
@@ -2056,12 +1920,10 @@ export default {
         "homelessness"
       ],
       "optionReasons": {
-        "home-mcq-30": "本句指「表示無家可歸；無固定居所狀況」。",
-        "home-mcq-31": "「表示祖國；故土；家園」是「Unmapped practice home-23-0」的用法，與本句語境不同。",
-        "home-mcq-28": "「棲息地；發源地；大本營；所在地」是「Unmapped practice home-06-1」的用法，與本句語境不同。",
-        "home-mcq-33": "「表示思鄉；想家」是「Unmapped practice home-29-0」的用法，與本句語境不同。",
-        "home-mcq-26": "「朝住所／家鄉方向移動的」是「homeward」的用法，與本句語境不同。",
-        "home-mcq-25": "「比起外出社交，更喜歡留在家中活動的人」是「homebody」的用法，與本句語境不同。"
+        "home-mcq-30": "本句的「homelessness」指「表示無家可歸；無固定居所狀況」。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-30"
     },
@@ -2073,11 +1935,9 @@ export default {
       "masked": "她大學畢業後回到自己的____。",
       "options": [
         "home-mcq-18",
-        "home-mcq-17",
-        "home-mcq-19",
-        "home-mcq-16",
-        "home-mcq-20",
-        "home-mcq-15"
+        "home-mcq-11",
+        "home-mcq-29",
+        "home-mcq-34"
       ],
       "explanation": "本句的「hometown」指「一個人成長、出生或認為自己來自的城鎮／城市」。",
       "sentenceIndex": 43,
@@ -2086,12 +1946,10 @@ export default {
         "hometown"
       ],
       "optionReasons": {
-        "home-mcq-18": "本句指「一個人成長、出生或認為自己來自的城鎮／城市」。",
-        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」是「homeless」的用法，與本句語境不同。",
-        "home-mcq-19": "「一個人／民族具有深厚身份和文化連結的故土／祖國」是「homeland」的用法，與本句語境不同。",
-        "home-mcq-16": "「擁有自己住宅物業的人」是「homeowner」的用法，與本句語境不同。",
-        "home-mcq-20": "「離開一段時間後返回家鄉／原所屬地方」是「homecoming」的用法，與本句語境不同。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。"
+        "home-mcq-18": "本句的「hometown」指「一個人成長、出生或認為自己來自的城鎮／城市」。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-18"
     },
@@ -2103,11 +1961,9 @@ export default {
       "masked": "我的____改變了很多。",
       "options": [
         "home-mcq-18",
-        "home-mcq-17",
-        "home-mcq-19",
-        "home-mcq-16",
-        "home-mcq-20",
-        "home-mcq-15"
+        "home-mcq-34",
+        "home-mcq-27",
+        "home-mcq-31"
       ],
       "explanation": "本句的「hometown」指「一個人成長、出生或認為自己來自的城鎮／城市」。",
       "sentenceIndex": 44,
@@ -2116,12 +1972,10 @@ export default {
         "hometown"
       ],
       "optionReasons": {
-        "home-mcq-18": "本句指「一個人成長、出生或認為自己來自的城鎮／城市」。",
-        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」是「homeless」的用法，與本句語境不同。",
-        "home-mcq-19": "「一個人／民族具有深厚身份和文化連結的故土／祖國」是「homeland」的用法，與本句語境不同。",
-        "home-mcq-16": "「擁有自己住宅物業的人」是「homeowner」的用法，與本句語境不同。",
-        "home-mcq-20": "「離開一段時間後返回家鄉／原所屬地方」是「homecoming」的用法，與本句語境不同。",
-        "home-mcq-15": "「對某地方、環境或領域感到熟悉自在」是「at home — figurative」的用法，與本句語境不同。"
+        "home-mcq-18": "本句的「hometown」指「一個人成長、出生或認為自己來自的城鎮／城市」。",
+        "home-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-18"
     },
@@ -2133,11 +1987,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-31",
-        "home-mcq-30",
-        "home-mcq-33",
-        "home-mcq-28",
-        "home-mcq-26",
-        "home-mcq-25"
+        "home-mcq-07",
+        "home-mcq-04",
+        "home-mcq-23"
       ],
       "explanation": "本句的「homeland」指「表示祖國；故土；家園」。",
       "sentenceIndex": 45,
@@ -2146,12 +1998,10 @@ export default {
         "homeland"
       ],
       "optionReasons": {
-        "home-mcq-31": "本句指「表示祖國；故土；家園」。",
-        "home-mcq-30": "「表示無家可歸；無固定居所狀況」是「Unmapped practice home-21-1」的用法，與本句語境不同。",
-        "home-mcq-33": "「表示思鄉；想家」是「Unmapped practice home-29-0」的用法，與本句語境不同。",
-        "home-mcq-28": "「棲息地；發源地；大本營；所在地」是「Unmapped practice home-06-1」的用法，與本句語境不同。",
-        "home-mcq-26": "「朝住所／家鄉方向移動的」是「homeward」的用法，與本句語境不同。",
-        "home-mcq-25": "「比起外出社交，更喜歡留在家中活動的人」是「homebody」的用法，與本句語境不同。"
+        "home-mcq-31": "本句的「homeland」指「表示祖國；故土；家園」。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-31"
     },
@@ -2163,11 +2013,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-32",
-        "home-mcq-33",
-        "home-mcq-30",
-        "home-mcq-28",
-        "home-mcq-26",
-        "home-mcq-25"
+        "home-mcq-27",
+        "home-mcq-23",
+        "home-pdf-plain-019"
       ],
       "explanation": "本句的「homeland」指「表示祖國；故土；家園」。",
       "sentenceIndex": 46,
@@ -2176,12 +2024,10 @@ export default {
         "homeland"
       ],
       "optionReasons": {
-        "home-mcq-32": "本句指「表示祖國；故土；家園」。",
-        "home-mcq-33": "「表示思鄉；想家」是「Unmapped practice home-29-0」的用法，與本句語境不同。",
-        "home-mcq-30": "「表示無家可歸；無固定居所狀況」是「Unmapped practice home-21-1」的用法，與本句語境不同。",
-        "home-mcq-28": "「棲息地；發源地；大本營；所在地」是「Unmapped practice home-06-1」的用法，與本句語境不同。",
-        "home-mcq-26": "「朝住所／家鄉方向移動的」是「homeward」的用法，與本句語境不同。",
-        "home-mcq-25": "「比起外出社交，更喜歡留在家中活動的人」是「homebody」的用法，與本句語境不同。"
+        "home-mcq-32": "本句的「homeland」指「表示祖國；故土；家園」。",
+        "home-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-019": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-32"
     },
@@ -2193,11 +2039,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-20",
-        "home-mcq-19",
-        "home-mcq-21",
-        "home-mcq-18",
-        "home-mcq-22",
-        "home-mcq-17"
+        "home-mcq-07",
+        "home-mcq-23",
+        "home-mcq-13"
       ],
       "explanation": "本句的「homecoming」指「離開一段時間後返回家鄉／原所屬地方」。",
       "sentenceIndex": 47,
@@ -2206,12 +2050,10 @@ export default {
         "homecoming"
       ],
       "optionReasons": {
-        "home-mcq-20": "本句指「離開一段時間後返回家鄉／原所屬地方」。",
-        "home-mcq-19": "「一個人／民族具有深厚身份和文化連結的故土／祖國」是「homeland」的用法，與本句語境不同。",
-        "home-mcq-21": "「在家或店內自行製作，而不是工廠大量生產的」是「homemade」的用法，與本句語境不同。",
-        "home-mcq-18": "「一個人成長、出生或認為自己來自的城鎮／城市」是「hometown」的用法，與本句語境不同。",
-        "home-mcq-22": "「在自己家中、土地上或本地種植的」是「homegrown — literal」的用法，與本句語境不同。",
-        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」是「homeless」的用法，與本句語境不同。"
+        "home-mcq-20": "本句的「homecoming」指「離開一段時間後返回家鄉／原所屬地方」。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-20"
     },
@@ -2223,11 +2065,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-20",
-        "home-mcq-19",
-        "home-mcq-21",
-        "home-mcq-18",
-        "home-mcq-22",
-        "home-mcq-17"
+        "home-mcq-23",
+        "home-mcq-07",
+        "home-mcq-09"
       ],
       "explanation": "本句的「homecoming」指「離開一段時間後返回家鄉／原所屬地方」。",
       "sentenceIndex": 48,
@@ -2236,12 +2076,10 @@ export default {
         "homecoming"
       ],
       "optionReasons": {
-        "home-mcq-20": "本句指「離開一段時間後返回家鄉／原所屬地方」。",
-        "home-mcq-19": "「一個人／民族具有深厚身份和文化連結的故土／祖國」是「homeland」的用法，與本句語境不同。",
-        "home-mcq-21": "「在家或店內自行製作，而不是工廠大量生產的」是「homemade」的用法，與本句語境不同。",
-        "home-mcq-18": "「一個人成長、出生或認為自己來自的城鎮／城市」是「hometown」的用法，與本句語境不同。",
-        "home-mcq-22": "「在自己家中、土地上或本地種植的」是「homegrown — literal」的用法，與本句語境不同。",
-        "home-mcq-17": "「沒有安全、穩定、固定住所可居住的」是「homeless」的用法，與本句語境不同。"
+        "home-mcq-20": "本句的「homecoming」指「離開一段時間後返回家鄉／原所屬地方」。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-20"
     },
@@ -2253,11 +2091,9 @@ export default {
       "masked": "她帶來了一些____蛋糕。",
       "options": [
         "home-mcq-21",
-        "home-mcq-20",
-        "home-mcq-22",
-        "home-mcq-19",
-        "home-mcq-23",
-        "home-mcq-18"
+        "home-mcq-07",
+        "home-mcq-12",
+        "home-mcq-17"
       ],
       "explanation": "本句的「homemade」指「在家或店內自行製作，而不是工廠大量生產的」。",
       "sentenceIndex": 49,
@@ -2266,12 +2102,10 @@ export default {
         "homemade"
       ],
       "optionReasons": {
-        "home-mcq-21": "本句指「在家或店內自行製作，而不是工廠大量生產的」。",
-        "home-mcq-20": "「離開一段時間後返回家鄉／原所屬地方」是「homecoming」的用法，與本句語境不同。",
-        "home-mcq-22": "「在自己家中、土地上或本地種植的」是「homegrown — literal」的用法，與本句語境不同。",
-        "home-mcq-19": "「一個人／民族具有深厚身份和文化連結的故土／祖國」是「homeland」的用法，與本句語境不同。",
-        "home-mcq-23": "「在本地培養、發展或產生，而不是外地引進的」是「homegrown — figurative」的用法，與本句語境不同。",
-        "home-mcq-18": "「一個人成長、出生或認為自己來自的城鎮／城市」是「hometown」的用法，與本句語境不同。"
+        "home-mcq-21": "本句的「homemade」指「在家或店內自行製作，而不是工廠大量生產的」。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-21"
     },
@@ -2283,11 +2117,9 @@ export default {
       "masked": "餐廳供應____湯品。",
       "options": [
         "home-mcq-21",
-        "home-mcq-20",
-        "home-mcq-22",
-        "home-mcq-19",
-        "home-mcq-23",
-        "home-mcq-18"
+        "home-mcq-13",
+        "home-mcq-07",
+        "home-mcq-11"
       ],
       "explanation": "本句的「homemade」指「在家或店內自行製作，而不是工廠大量生產的」。",
       "sentenceIndex": 50,
@@ -2296,12 +2128,10 @@ export default {
         "homemade"
       ],
       "optionReasons": {
-        "home-mcq-21": "本句指「在家或店內自行製作，而不是工廠大量生產的」。",
-        "home-mcq-20": "「離開一段時間後返回家鄉／原所屬地方」是「homecoming」的用法，與本句語境不同。",
-        "home-mcq-22": "「在自己家中、土地上或本地種植的」是「homegrown — literal」的用法，與本句語境不同。",
-        "home-mcq-19": "「一個人／民族具有深厚身份和文化連結的故土／祖國」是「homeland」的用法，與本句語境不同。",
-        "home-mcq-23": "「在本地培養、發展或產生，而不是外地引進的」是「homegrown — figurative」的用法，與本句語境不同。",
-        "home-mcq-18": "「一個人成長、出生或認為自己來自的城鎮／城市」是「hometown」的用法，與本句語境不同。"
+        "home-mcq-21": "本句的「homemade」指「在家或店內自行製作，而不是工廠大量生產的」。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-21"
     },
@@ -2313,11 +2143,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-22",
-        "home-mcq-21",
-        "home-mcq-23",
-        "home-mcq-20",
-        "home-mcq-24",
-        "home-mcq-19"
+        "home-mcq-13",
+        "home-mcq-07",
+        "home-mcq-11"
       ],
       "explanation": "本句的「homegrown」指「在自己家中、土地上或本地種植的」。",
       "sentenceIndex": 51,
@@ -2326,12 +2154,10 @@ export default {
         "homegrown"
       ],
       "optionReasons": {
-        "home-mcq-22": "本句指「在自己家中、土地上或本地種植的」。",
-        "home-mcq-21": "「在家或店內自行製作，而不是工廠大量生產的」是「homemade」的用法，與本句語境不同。",
-        "home-mcq-23": "「在本地培養、發展或產生，而不是外地引進的」是「homegrown — figurative」的用法，與本句語境不同。",
-        "home-mcq-20": "「離開一段時間後返回家鄉／原所屬地方」是「homecoming」的用法，與本句語境不同。",
-        "home-mcq-24": "「因離開家、家人或家鄉而感到難過、想回家的」是「homesick」的用法，與本句語境不同。",
-        "home-mcq-19": "「一個人／民族具有深厚身份和文化連結的故土／祖國」是「homeland」的用法，與本句語境不同。"
+        "home-mcq-22": "本句的「homegrown」指「在自己家中、土地上或本地種植的」。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-22"
     },
@@ -2343,11 +2169,9 @@ export default {
       "masked": "餐廳使用____香草。",
       "options": [
         "home-mcq-22",
-        "home-mcq-21",
-        "home-mcq-23",
-        "home-mcq-20",
-        "home-mcq-24",
-        "home-mcq-19"
+        "home-mcq-13",
+        "home-mcq-07",
+        "home-mcq-11"
       ],
       "explanation": "本句的「homegrown」指「在自己家中、土地上或本地種植的」。",
       "sentenceIndex": 52,
@@ -2356,12 +2180,10 @@ export default {
         "homegrown"
       ],
       "optionReasons": {
-        "home-mcq-22": "本句指「在自己家中、土地上或本地種植的」。",
-        "home-mcq-21": "「在家或店內自行製作，而不是工廠大量生產的」是「homemade」的用法，與本句語境不同。",
-        "home-mcq-23": "「在本地培養、發展或產生，而不是外地引進的」是「homegrown — figurative」的用法，與本句語境不同。",
-        "home-mcq-20": "「離開一段時間後返回家鄉／原所屬地方」是「homecoming」的用法，與本句語境不同。",
-        "home-mcq-24": "「因離開家、家人或家鄉而感到難過、想回家的」是「homesick」的用法，與本句語境不同。",
-        "home-mcq-19": "「一個人／民族具有深厚身份和文化連結的故土／祖國」是「homeland」的用法，與本句語境不同。"
+        "home-mcq-22": "本句的「homegrown」指「在自己家中、土地上或本地種植的」。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-22"
     },
@@ -2373,11 +2195,9 @@ export default {
       "masked": "公司投資培養____人才。",
       "options": [
         "home-mcq-23",
-        "home-mcq-22",
-        "home-mcq-24",
-        "home-mcq-21",
-        "home-mcq-25",
-        "home-mcq-20"
+        "home-mcq-08",
+        "home-pdf-plain-015",
+        "home-pdf-plain-017"
       ],
       "explanation": "本句的「homegrown talent」指「在本地培養、發展或產生，而不是外地引進的」。",
       "sentenceIndex": 53,
@@ -2386,12 +2206,10 @@ export default {
         "homegrown talent"
       ],
       "optionReasons": {
-        "home-mcq-23": "本句指「在本地培養、發展或產生，而不是外地引進的」。",
-        "home-mcq-22": "「在自己家中、土地上或本地種植的」是「homegrown — literal」的用法，與本句語境不同。",
-        "home-mcq-24": "「因離開家、家人或家鄉而感到難過、想回家的」是「homesick」的用法，與本句語境不同。",
-        "home-mcq-21": "「在家或店內自行製作，而不是工廠大量生產的」是「homemade」的用法，與本句語境不同。",
-        "home-mcq-25": "「比起外出社交，更喜歡留在家中活動的人」是「homebody」的用法，與本句語境不同。",
-        "home-mcq-20": "「離開一段時間後返回家鄉／原所屬地方」是「homecoming」的用法，與本句語境不同。"
+        "home-mcq-23": "本句的「homegrown talent」指「在本地培養、發展或產生，而不是外地引進的」。",
+        "home-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-015": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-017": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-23"
     },
@@ -2403,11 +2221,9 @@ export default {
       "masked": "這個國家發展出自己的____科技產業。",
       "options": [
         "home-mcq-23",
-        "home-mcq-22",
-        "home-mcq-24",
-        "home-mcq-21",
-        "home-mcq-25",
-        "home-mcq-20"
+        "home-mcq-20",
+        "home-mcq-31",
+        "home-pdf-plain-015"
       ],
       "explanation": "本句的「homegrown」指「在本地培養、發展或產生，而不是外地引進的」。",
       "sentenceIndex": 54,
@@ -2416,12 +2232,10 @@ export default {
         "homegrown"
       ],
       "optionReasons": {
-        "home-mcq-23": "本句指「在本地培養、發展或產生，而不是外地引進的」。",
-        "home-mcq-22": "「在自己家中、土地上或本地種植的」是「homegrown — literal」的用法，與本句語境不同。",
-        "home-mcq-24": "「因離開家、家人或家鄉而感到難過、想回家的」是「homesick」的用法，與本句語境不同。",
-        "home-mcq-21": "「在家或店內自行製作，而不是工廠大量生產的」是「homemade」的用法，與本句語境不同。",
-        "home-mcq-25": "「比起外出社交，更喜歡留在家中活動的人」是「homebody」的用法，與本句語境不同。",
-        "home-mcq-20": "「離開一段時間後返回家鄉／原所屬地方」是「homecoming」的用法，與本句語境不同。"
+        "home-mcq-23": "本句的「homegrown」指「在本地培養、發展或產生，而不是外地引進的」。",
+        "home-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-015": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-23"
     },
@@ -2433,11 +2247,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-24",
-        "home-mcq-23",
-        "home-mcq-25",
-        "home-mcq-22",
-        "home-mcq-26",
-        "home-mcq-21"
+        "home-mcq-28",
+        "home-mcq-10",
+        "home-mcq-23"
       ],
       "explanation": "本句的「homesick」指「因離開家、家人或家鄉而感到難過、想回家的」。",
       "sentenceIndex": 55,
@@ -2446,12 +2258,10 @@ export default {
         "homesick"
       ],
       "optionReasons": {
-        "home-mcq-24": "本句指「因離開家、家人或家鄉而感到難過、想回家的」。",
-        "home-mcq-23": "「在本地培養、發展或產生，而不是外地引進的」是「homegrown — figurative」的用法，與本句語境不同。",
-        "home-mcq-25": "「比起外出社交，更喜歡留在家中活動的人」是「homebody」的用法，與本句語境不同。",
-        "home-mcq-22": "「在自己家中、土地上或本地種植的」是「homegrown — literal」的用法，與本句語境不同。",
-        "home-mcq-26": "「朝住所／家鄉方向移動的」是「homeward」的用法，與本句語境不同。",
-        "home-mcq-21": "「在家或店內自行製作，而不是工廠大量生產的」是「homemade」的用法，與本句語境不同。"
+        "home-mcq-24": "本句的「homesick」指「因離開家、家人或家鄉而感到難過、想回家的」。",
+        "home-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-24"
     },
@@ -2463,11 +2273,9 @@ export default {
       "masked": "幾個星期後，我開始____。",
       "options": [
         "home-mcq-24",
+        "home-mcq-10",
         "home-mcq-23",
-        "home-mcq-25",
-        "home-mcq-22",
-        "home-mcq-26",
-        "home-mcq-21"
+        "home-mcq-27"
       ],
       "explanation": "本句的「homesick」指「因離開家、家人或家鄉而感到難過、想回家的」。",
       "sentenceIndex": 56,
@@ -2476,12 +2284,10 @@ export default {
         "homesick"
       ],
       "optionReasons": {
-        "home-mcq-24": "本句指「因離開家、家人或家鄉而感到難過、想回家的」。",
-        "home-mcq-23": "「在本地培養、發展或產生，而不是外地引進的」是「homegrown — figurative」的用法，與本句語境不同。",
-        "home-mcq-25": "「比起外出社交，更喜歡留在家中活動的人」是「homebody」的用法，與本句語境不同。",
-        "home-mcq-22": "「在自己家中、土地上或本地種植的」是「homegrown — literal」的用法，與本句語境不同。",
-        "home-mcq-26": "「朝住所／家鄉方向移動的」是「homeward」的用法，與本句語境不同。",
-        "home-mcq-21": "「在家或店內自行製作，而不是工廠大量生產的」是「homemade」的用法，與本句語境不同。"
+        "home-mcq-24": "本句的「homesick」指「因離開家、家人或家鄉而感到難過、想回家的」。",
+        "home-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-24"
     },
@@ -2493,11 +2299,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-33",
-        "home-mcq-32",
-        "home-mcq-30",
-        "home-mcq-28",
-        "home-mcq-26",
-        "home-mcq-25"
+        "home-mcq-14",
+        "home-mcq-07",
+        "home-mcq-23"
       ],
       "explanation": "本句的「homesickness」指「表示思鄉；想家」。",
       "sentenceIndex": 57,
@@ -2506,12 +2310,10 @@ export default {
         "homesickness"
       ],
       "optionReasons": {
-        "home-mcq-33": "本句指「表示思鄉；想家」。",
-        "home-mcq-32": "「表示祖國；故土；家園」是「Unmapped practice home-23-1」的用法，與本句語境不同。",
-        "home-mcq-30": "「表示無家可歸；無固定居所狀況」是「Unmapped practice home-21-1」的用法，與本句語境不同。",
-        "home-mcq-28": "「棲息地；發源地；大本營；所在地」是「Unmapped practice home-06-1」的用法，與本句語境不同。",
-        "home-mcq-26": "「朝住所／家鄉方向移動的」是「homeward」的用法，與本句語境不同。",
-        "home-mcq-25": "「比起外出社交，更喜歡留在家中活動的人」是「homebody」的用法，與本句語境不同。"
+        "home-mcq-33": "本句的「homesickness」指「表示思鄉；想家」。",
+        "home-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-33"
     },
@@ -2523,22 +2325,18 @@ export default {
       "masked": "在海外生活的學生出現____情緒很常見。",
       "options": [
         "home-mcq-34",
-        "home-mcq-32",
-        "home-mcq-30",
-        "home-mcq-28",
-        "home-mcq-26",
-        "home-mcq-25"
+        "home-mcq-02",
+        "home-mcq-04",
+        "home-mcq-09"
       ],
       "explanation": "本句的「home」指「表示思鄉；想家」。",
       "sentenceIndex": 58,
       "sourcePractice": 59,
       "optionReasons": {
-        "home-mcq-34": "本句指「表示思鄉；想家」。",
-        "home-mcq-32": "「表示祖國；故土；家園」是「Unmapped practice home-23-1」的用法，與本句語境不同。",
-        "home-mcq-30": "「表示無家可歸；無固定居所狀況」是「Unmapped practice home-21-1」的用法，與本句語境不同。",
-        "home-mcq-28": "「棲息地；發源地；大本營；所在地」是「Unmapped practice home-06-1」的用法，與本句語境不同。",
-        "home-mcq-26": "「朝住所／家鄉方向移動的」是「homeward」的用法，與本句語境不同。",
-        "home-mcq-25": "「比起外出社交，更喜歡留在家中活動的人」是「homebody」的用法，與本句語境不同。"
+        "home-mcq-34": "本句的「home」指「表示思鄉；想家」。",
+        "home-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-34"
     },
@@ -2550,11 +2348,9 @@ export default {
       "masked": "我算是一個很喜歡____。",
       "options": [
         "home-mcq-25",
-        "home-mcq-24",
-        "home-mcq-26",
-        "home-mcq-23",
         "home-mcq-27",
-        "home-mcq-22"
+        "home-mcq-10",
+        "home-pdf-plain-015"
       ],
       "explanation": "本句的「homebody」指「比起外出社交，更喜歡留在家中活動的人」。",
       "sentenceIndex": 59,
@@ -2563,12 +2359,10 @@ export default {
         "homebody"
       ],
       "optionReasons": {
-        "home-mcq-25": "本句指「比起外出社交，更喜歡留在家中活動的人」。",
-        "home-mcq-24": "「因離開家、家人或家鄉而感到難過、想回家的」是「homesick」的用法，與本句語境不同。",
-        "home-mcq-26": "「朝住所／家鄉方向移動的」是「homeward」的用法，與本句語境不同。",
-        "home-mcq-23": "「在本地培養、發展或產生，而不是外地引進的」是「homegrown — figurative」的用法，與本句語境不同。",
-        "home-mcq-27": "「棲息地；發源地；大本營；所在地」是「Unmapped practice home-06-0」的用法，與本句語境不同。",
-        "home-mcq-22": "「在自己家中、土地上或本地種植的」是「homegrown — literal」的用法，與本句語境不同。"
+        "home-mcq-25": "本句的「homebody」指「比起外出社交，更喜歡留在家中活動的人」。",
+        "home-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "home-pdf-plain-015": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-25"
     },
@@ -2580,11 +2374,9 @@ export default {
       "masked": "____，晚上很少外出。",
       "options": [
         "home-mcq-25",
-        "home-mcq-24",
-        "home-mcq-26",
-        "home-mcq-23",
-        "home-mcq-27",
-        "home-mcq-22"
+        "home-mcq-07",
+        "home-mcq-04",
+        "home-mcq-09"
       ],
       "explanation": "本句的「homebody」指「比起外出社交，更喜歡留在家中活動的人」。",
       "sentenceIndex": 60,
@@ -2593,12 +2385,10 @@ export default {
         "homebody"
       ],
       "optionReasons": {
-        "home-mcq-25": "本句指「比起外出社交，更喜歡留在家中活動的人」。",
-        "home-mcq-24": "「因離開家、家人或家鄉而感到難過、想回家的」是「homesick」的用法，與本句語境不同。",
-        "home-mcq-26": "「朝住所／家鄉方向移動的」是「homeward」的用法，與本句語境不同。",
-        "home-mcq-23": "「在本地培養、發展或產生，而不是外地引進的」是「homegrown — figurative」的用法，與本句語境不同。",
-        "home-mcq-27": "「棲息地；發源地；大本營；所在地」是「Unmapped practice home-06-0」的用法，與本句語境不同。",
-        "home-mcq-22": "「在自己家中、土地上或本地種植的」是「homegrown — literal」的用法，與本句語境不同。"
+        "home-mcq-25": "本句的「homebody」指「比起外出社交，更喜歡留在家中活動的人」。",
+        "home-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-25"
     },
@@ -2610,11 +2400,9 @@ export default {
       "masked": "____。",
       "options": [
         "home-mcq-26",
-        "home-mcq-25",
-        "home-mcq-27",
-        "home-mcq-24",
-        "home-mcq-23",
-        "home-mcq-29"
+        "home-mcq-04",
+        "home-mcq-13",
+        "home-mcq-18"
       ],
       "explanation": "本句的「homeward」指「朝住所／家鄉方向移動的」。",
       "sentenceIndex": 61,
@@ -2623,12 +2411,10 @@ export default {
         "homeward"
       ],
       "optionReasons": {
-        "home-mcq-26": "本句指「朝住所／家鄉方向移動的」。",
-        "home-mcq-25": "「比起外出社交，更喜歡留在家中活動的人」是「homebody」的用法，與本句語境不同。",
-        "home-mcq-27": "「棲息地；發源地；大本營；所在地」是「Unmapped practice home-06-0」的用法，與本句語境不同。",
-        "home-mcq-24": "「因離開家、家人或家鄉而感到難過、想回家的」是「homesick」的用法，與本句語境不同。",
-        "home-mcq-23": "「在本地培養、發展或產生，而不是外地引進的」是「homegrown — figurative」的用法，與本句語境不同。",
-        "home-mcq-29": "「表示無家可歸；無固定居所狀況」是「Unmapped practice home-21-0」的用法，與本句語境不同。"
+        "home-mcq-26": "本句的「homeward」指「朝住所／家鄉方向移動的」。",
+        "home-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-26"
     },
@@ -2640,11 +2426,9 @@ export default {
       "masked": "通勤人士正____回去。",
       "options": [
         "home-mcq-26",
-        "home-mcq-25",
-        "home-mcq-27",
-        "home-mcq-24",
         "home-mcq-23",
-        "home-mcq-29"
+        "home-mcq-09",
+        "home-mcq-13"
       ],
       "explanation": "本句的「homeward」指「朝住所／家鄉方向移動的」。",
       "sentenceIndex": 62,
@@ -2653,12 +2437,10 @@ export default {
         "homeward"
       ],
       "optionReasons": {
-        "home-mcq-26": "本句指「朝住所／家鄉方向移動的」。",
-        "home-mcq-25": "「比起外出社交，更喜歡留在家中活動的人」是「homebody」的用法，與本句語境不同。",
-        "home-mcq-27": "「棲息地；發源地；大本營；所在地」是「Unmapped practice home-06-0」的用法，與本句語境不同。",
-        "home-mcq-24": "「因離開家、家人或家鄉而感到難過、想回家的」是「homesick」的用法，與本句語境不同。",
-        "home-mcq-23": "「在本地培養、發展或產生，而不是外地引進的」是「homegrown — figurative」的用法，與本句語境不同。",
-        "home-mcq-29": "「表示無家可歸；無固定居所狀況」是「Unmapped practice home-21-0」的用法，與本句語境不同。"
+        "home-mcq-26": "本句的「homeward」指「朝住所／家鄉方向移動的」。",
+        "home-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "home-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "home-mcq-26"
     }
@@ -2668,5 +2450,7 @@ export default {
     "sha256": "0da0191b02235378a349051af6c5531437f94bfa3012a58137cb710643aa4022",
     "path": "manuals/home.pdf"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

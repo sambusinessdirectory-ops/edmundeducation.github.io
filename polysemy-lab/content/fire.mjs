@@ -522,16 +522,6 @@ export default {
       "note": "來源詞義：火爆的；激烈的",
       "examples": [
         [
-          "The sky turned a fiery orange.",
-          "天空變成火紅橙色。",
-          "火爆的；激烈的"
-        ],
-        [
-          "Lava glowed fiery red.",
-          "熔岩發出火紅色光芒。",
-          "火爆的；激烈的"
-        ],
-        [
           "She has a fiery temper.",
           "她的脾氣很火爆。",
           "火爆的；激烈的"
@@ -681,6 +671,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "fire-reviewed-7373b820df",
+      "title": "像火一樣的，尤其指顏色、熱度或外觀",
+      "form": "fire · source section 28",
+      "en": "像火一樣的，尤其指顏色、熱度或外觀",
+      "zh": "像火一樣的，尤其指顏色、熱度或外觀",
+      "note": "對照原始教材第 28 節及例句核實。",
+      "examples": [
+        [
+          "The sky turned a fiery orange.",
+          "天空變成火紅橙色。",
+          "像火一樣的，尤其指顏色、熱度或外觀"
+        ],
+        [
+          "Lava glowed fiery red.",
+          "熔岩發出火紅色光芒。",
+          "像火一樣的，尤其指顏色、熱度或外觀"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -692,11 +704,9 @@ export default {
       "masked": "We sat around the ____.",
       "options": [
         "fire-mcq-01",
-        "fire-mcq-02",
-        "fire-mcq-03",
-        "fire-mcq-04",
-        "fire-mcq-05",
-        "fire-mcq-06"
+        "fire-mcq-16",
+        "fire-mcq-26",
+        "fire-mcq-19"
       ],
       "explanation": "本句的「fire」指「火；火焰」。",
       "sentenceIndex": 0,
@@ -705,12 +715,10 @@ export default {
         "fire"
       ],
       "optionReasons": {
-        "fire-mcq-01": "本句指「火；火焰」。",
-        "fire-mcq-02": "「火災」與本句語境不同。",
-        "fire-mcq-03": "「着火」與本句語境不同。",
-        "fire-mcq-04": "「正在燃燒」與本句語境不同。",
-        "fire-mcq-05": "「放火燒；點燃」與本句語境不同。",
-        "fire-mcq-06": "「滅火」與本句語境不同。"
+        "fire-mcq-01": "本句的「fire」指「火；火焰」。",
+        "fire-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-01"
     },
@@ -722,11 +730,9 @@ export default {
       "masked": "The ____ kept us warm.",
       "options": [
         "fire-mcq-01",
-        "fire-mcq-02",
-        "fire-mcq-03",
-        "fire-mcq-04",
-        "fire-mcq-05",
-        "fire-mcq-06"
+        "fire-mcq-17",
+        "fire-mcq-22",
+        "fire-mcq-04"
       ],
       "explanation": "本句的「fire」指「火；火焰」。",
       "sentenceIndex": 1,
@@ -735,12 +741,10 @@ export default {
         "fire"
       ],
       "optionReasons": {
-        "fire-mcq-01": "本句指「火；火焰」。",
-        "fire-mcq-02": "「火災」與本句語境不同。",
-        "fire-mcq-03": "「着火」與本句語境不同。",
-        "fire-mcq-04": "「正在燃燒」與本句語境不同。",
-        "fire-mcq-05": "「放火燒；點燃」與本句語境不同。",
-        "fire-mcq-06": "「滅火」與本句語境不同。"
+        "fire-mcq-01": "本句的「fire」指「火；火焰」。",
+        "fire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-01"
     },
@@ -752,11 +756,9 @@ export default {
       "masked": "The wood caught ____ quickly.",
       "options": [
         "fire-mcq-01",
-        "fire-mcq-02",
-        "fire-mcq-03",
-        "fire-mcq-04",
-        "fire-mcq-05",
-        "fire-mcq-06"
+        "fire-mcq-26",
+        "fire-mcq-27",
+        "fire-mcq-28"
       ],
       "explanation": "本句的「fire」指「火；火焰」。",
       "sentenceIndex": 2,
@@ -765,12 +767,10 @@ export default {
         "fire"
       ],
       "optionReasons": {
-        "fire-mcq-01": "本句指「火；火焰」。",
-        "fire-mcq-02": "「火災」與本句語境不同。",
-        "fire-mcq-03": "「着火」與本句語境不同。",
-        "fire-mcq-04": "「正在燃燒」與本句語境不同。",
-        "fire-mcq-05": "「放火燒；點燃」與本句語境不同。",
-        "fire-mcq-06": "「滅火」與本句語境不同。"
+        "fire-mcq-01": "本句的「fire」指「火；火焰」。",
+        "fire-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-01"
     },
@@ -782,11 +782,9 @@ export default {
       "masked": "The curtains ____.",
       "options": [
         "fire-mcq-03",
-        "fire-mcq-02",
-        "fire-mcq-04",
-        "fire-mcq-01",
-        "fire-mcq-05",
-        "fire-mcq-06"
+        "fire-mcq-13",
+        "fire-mcq-16",
+        "fire-mcq-26"
       ],
       "explanation": "本句的「caught fire」指「着火」。",
       "sentenceIndex": 5,
@@ -795,12 +793,10 @@ export default {
         "caught fire"
       ],
       "optionReasons": {
-        "fire-mcq-03": "本句指「着火」。",
-        "fire-mcq-02": "「火災」與本句語境不同。",
-        "fire-mcq-04": "「正在燃燒」與本句語境不同。",
-        "fire-mcq-01": "「火；火焰」與本句語境不同。",
-        "fire-mcq-05": "「放火燒；點燃」與本句語境不同。",
-        "fire-mcq-06": "「滅火」與本句語境不同。"
+        "fire-mcq-03": "本句的「caught fire」指「着火」。",
+        "fire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-03"
     },
@@ -812,11 +808,9 @@ export default {
       "masked": "Dry grass can ____ easily.",
       "options": [
         "fire-mcq-03",
-        "fire-mcq-02",
+        "fire-mcq-28",
         "fire-mcq-04",
-        "fire-mcq-01",
-        "fire-mcq-05",
-        "fire-mcq-06"
+        "fire-mcq-23"
       ],
       "explanation": "本句的「catch fire」指「着火」。",
       "sentenceIndex": 6,
@@ -825,12 +819,10 @@ export default {
         "catch fire"
       ],
       "optionReasons": {
-        "fire-mcq-03": "本句指「着火」。",
-        "fire-mcq-02": "「火災」與本句語境不同。",
-        "fire-mcq-04": "「正在燃燒」與本句語境不同。",
-        "fire-mcq-01": "「火；火焰」與本句語境不同。",
-        "fire-mcq-05": "「放火燒；點燃」與本句語境不同。",
-        "fire-mcq-06": "「滅火」與本句語境不同。"
+        "fire-mcq-03": "本句的「catch fire」指「着火」。",
+        "fire-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-03"
     },
@@ -842,11 +834,9 @@ export default {
       "masked": "The car was ____.",
       "options": [
         "fire-mcq-04",
-        "fire-mcq-03",
-        "fire-mcq-05",
-        "fire-mcq-02",
-        "fire-mcq-06",
-        "fire-mcq-01"
+        "fire-mcq-21",
+        "fire-mcq-16",
+        "fire-mcq-26"
       ],
       "explanation": "本句的「on fire」指「正在燃燒」。",
       "sentenceIndex": 7,
@@ -855,12 +845,10 @@ export default {
         "on fire"
       ],
       "optionReasons": {
-        "fire-mcq-04": "本句指「正在燃燒」。",
-        "fire-mcq-03": "「着火」與本句語境不同。",
-        "fire-mcq-05": "「放火燒；點燃」與本句語境不同。",
-        "fire-mcq-02": "「火災」與本句語境不同。",
-        "fire-mcq-06": "「滅火」與本句語境不同。",
-        "fire-mcq-01": "「火；火焰」與本句語境不同。"
+        "fire-mcq-04": "本句的「on fire」指「正在燃燒」。",
+        "fire-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-04"
     },
@@ -872,11 +860,9 @@ export default {
       "masked": "Part of the building was ____.",
       "options": [
         "fire-mcq-04",
-        "fire-mcq-03",
-        "fire-mcq-05",
-        "fire-mcq-02",
-        "fire-mcq-06",
-        "fire-mcq-01"
+        "fire-mcq-21",
+        "fire-mcq-27",
+        "fire-mcq-15"
       ],
       "explanation": "本句的「on fire」指「正在燃燒」。",
       "sentenceIndex": 8,
@@ -885,12 +871,10 @@ export default {
         "on fire"
       ],
       "optionReasons": {
-        "fire-mcq-04": "本句指「正在燃燒」。",
-        "fire-mcq-03": "「着火」與本句語境不同。",
-        "fire-mcq-05": "「放火燒；點燃」與本句語境不同。",
-        "fire-mcq-02": "「火災」與本句語境不同。",
-        "fire-mcq-06": "「滅火」與本句語境不同。",
-        "fire-mcq-01": "「火；火焰」與本句語境不同。"
+        "fire-mcq-04": "本句的「on fire」指「正在燃燒」。",
+        "fire-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-04"
     },
@@ -902,11 +886,9 @@ export default {
       "masked": "Someone ____ the rubbish.",
       "options": [
         "fire-mcq-05",
-        "fire-mcq-04",
-        "fire-mcq-06",
-        "fire-mcq-03",
-        "fire-mcq-07",
-        "fire-mcq-02"
+        "fire-mcq-26",
+        "fire-mcq-13",
+        "fire-mcq-19"
       ],
       "explanation": "本句的「set fire to」指「放火燒；點燃」。",
       "sentenceIndex": 9,
@@ -915,12 +897,10 @@ export default {
         "set fire to"
       ],
       "optionReasons": {
-        "fire-mcq-05": "本句指「放火燒；點燃」。",
-        "fire-mcq-04": "「正在燃燒」與本句語境不同。",
-        "fire-mcq-06": "「滅火」與本句語境不同。",
-        "fire-mcq-03": "「着火」與本句語境不同。",
-        "fire-mcq-07": "「救火」與本句語境不同。",
-        "fire-mcq-02": "「火災」與本句語境不同。"
+        "fire-mcq-05": "本句的「set fire to」指「放火燒；點燃」。",
+        "fire-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-05"
     },
@@ -932,11 +912,9 @@ export default {
       "masked": "The sparks ____ the dry leaves.",
       "options": [
         "fire-mcq-05",
-        "fire-mcq-04",
-        "fire-mcq-06",
-        "fire-mcq-03",
-        "fire-mcq-07",
-        "fire-mcq-02"
+        "fire-mcq-12",
+        "fire-mcq-19",
+        "fire-mcq-22"
       ],
       "explanation": "本句的「set fire to」指「放火燒；點燃」。",
       "sentenceIndex": 10,
@@ -945,12 +923,10 @@ export default {
         "set fire to"
       ],
       "optionReasons": {
-        "fire-mcq-05": "本句指「放火燒；點燃」。",
-        "fire-mcq-04": "「正在燃燒」與本句語境不同。",
-        "fire-mcq-06": "「滅火」與本句語境不同。",
-        "fire-mcq-03": "「着火」與本句語境不同。",
-        "fire-mcq-07": "「救火」與本句語境不同。",
-        "fire-mcq-02": "「火災」與本句語境不同。"
+        "fire-mcq-05": "本句的「set fire to」指「放火燒；點燃」。",
+        "fire-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-05"
     },
@@ -962,11 +938,9 @@ export default {
       "masked": "Firefighters ____.",
       "options": [
         "fire-mcq-06",
-        "fire-mcq-05",
-        "fire-mcq-07",
-        "fire-mcq-04",
-        "fire-mcq-08",
-        "fire-mcq-03"
+        "fire-mcq-15",
+        "fire-pdf-001",
+        "fire-mcq-26"
       ],
       "explanation": "本句的「put out the fire」指「滅火」。",
       "sentenceIndex": 11,
@@ -975,12 +949,10 @@ export default {
         "put out the fire"
       ],
       "optionReasons": {
-        "fire-mcq-06": "本句指「滅火」。",
-        "fire-mcq-05": "「放火燒；點燃」與本句語境不同。",
-        "fire-mcq-07": "「救火」與本句語境不同。",
-        "fire-mcq-04": "「正在燃燒」與本句語境不同。",
-        "fire-mcq-08": "「突發危機」與本句語境不同。",
-        "fire-mcq-03": "「着火」與本句語境不同。"
+        "fire-mcq-06": "本句的「put out the fire」指「滅火」。",
+        "fire-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fire-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-06"
     },
@@ -992,11 +964,9 @@ export default {
       "masked": "Use water only if it is safe to ____.",
       "options": [
         "fire-mcq-06",
-        "fire-mcq-05",
-        "fire-mcq-07",
-        "fire-mcq-04",
-        "fire-mcq-08",
-        "fire-mcq-03"
+        "fire-mcq-16",
+        "fire-mcq-13",
+        "fire-mcq-21"
       ],
       "explanation": "本句的「put out the fire」指「滅火」。",
       "sentenceIndex": 12,
@@ -1005,12 +975,10 @@ export default {
         "put out the fire"
       ],
       "optionReasons": {
-        "fire-mcq-06": "本句指「滅火」。",
-        "fire-mcq-05": "「放火燒；點燃」與本句語境不同。",
-        "fire-mcq-07": "「救火」與本句語境不同。",
-        "fire-mcq-04": "「正在燃燒」與本句語境不同。",
-        "fire-mcq-08": "「突發危機」與本句語境不同。",
-        "fire-mcq-03": "「着火」與本句語境不同。"
+        "fire-mcq-06": "本句的「put out the fire」指「滅火」。",
+        "fire-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-06"
     },
@@ -1022,11 +990,9 @@ export default {
       "masked": "Firefighters worked all night to ____.",
       "options": [
         "fire-mcq-07",
-        "fire-mcq-06",
-        "fire-mcq-08",
-        "fire-mcq-05",
-        "fire-mcq-09",
-        "fire-mcq-04"
+        "fire-mcq-18",
+        "fire-mcq-14",
+        "fire-mcq-21"
       ],
       "explanation": "本句的「fight the fire」指「救火」。",
       "sentenceIndex": 13,
@@ -1035,12 +1001,10 @@ export default {
         "fight the fire"
       ],
       "optionReasons": {
-        "fire-mcq-07": "本句指「救火」。",
-        "fire-mcq-06": "「滅火」與本句語境不同。",
-        "fire-mcq-08": "「突發危機」與本句語境不同。",
-        "fire-mcq-05": "「放火燒；點燃」與本句語境不同。",
-        "fire-mcq-09": "「不停救火」與本句語境不同。",
-        "fire-mcq-04": "「正在燃燒」與本句語境不同。"
+        "fire-mcq-07": "本句的「fight the fire」指「救火」。",
+        "fire-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-07"
     },
@@ -1052,11 +1016,9 @@ export default {
       "masked": "Several crews were sent to ____.",
       "options": [
         "fire-mcq-07",
-        "fire-mcq-06",
-        "fire-mcq-08",
-        "fire-mcq-05",
-        "fire-mcq-09",
-        "fire-mcq-04"
+        "fire-mcq-22",
+        "fire-mcq-13",
+        "fire-mcq-12"
       ],
       "explanation": "本句的「fight the fire」指「救火」。",
       "sentenceIndex": 14,
@@ -1065,12 +1027,10 @@ export default {
         "fight the fire"
       ],
       "optionReasons": {
-        "fire-mcq-07": "本句指「救火」。",
-        "fire-mcq-06": "「滅火」與本句語境不同。",
-        "fire-mcq-08": "「突發危機」與本句語境不同。",
-        "fire-mcq-05": "「放火燒；點燃」與本句語境不同。",
-        "fire-mcq-09": "「不停救火」與本句語境不同。",
-        "fire-mcq-04": "「正在燃燒」與本句語境不同。"
+        "fire-mcq-07": "本句的「fight the fire」指「救火」。",
+        "fire-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-07"
     },
@@ -1082,11 +1042,9 @@ export default {
       "masked": "I was constantly ____.",
       "options": [
         "fire-pdf-001",
-        "fire-mcq-07",
-        "fire-mcq-09",
-        "fire-mcq-06",
-        "fire-mcq-10",
-        "fire-mcq-05"
+        "fire-mcq-04",
+        "fire-mcq-25",
+        "fire-mcq-15"
       ],
       "explanation": "本句的「putting out fires」指「figurative: 突然出現、需要立即處理的問題或危機」。",
       "sentenceIndex": 15,
@@ -1095,12 +1053,10 @@ export default {
         "putting out fires"
       ],
       "optionReasons": {
-        "fire-pdf-001": "本句指「figurative: 突然出現、需要立即處理的問題或危機」。",
-        "fire-mcq-07": "「救火」與本句語境不同。",
-        "fire-mcq-09": "「不停救火」與本句語境不同。",
-        "fire-mcq-06": "「滅火」與本句語境不同。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。",
-        "fire-mcq-05": "「放火燒；點燃」與本句語境不同。"
+        "fire-pdf-001": "本句的「putting out fires」指「figurative: 突然出現、需要立即處理的問題或危機」。",
+        "fire-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-pdf-001"
     },
@@ -1112,11 +1068,9 @@ export default {
       "masked": "The manager spent the whole day ____.",
       "options": [
         "fire-pdf-001",
-        "fire-mcq-07",
-        "fire-mcq-09",
-        "fire-mcq-06",
-        "fire-mcq-10",
-        "fire-mcq-05"
+        "fire-mcq-29",
+        "fire-mcq-20",
+        "fire-mcq-27"
       ],
       "explanation": "本句的「putting out fires」指「figurative: 突然出現、需要立即處理的問題或危機」。",
       "sentenceIndex": 16,
@@ -1125,12 +1079,10 @@ export default {
         "putting out fires"
       ],
       "optionReasons": {
-        "fire-pdf-001": "本句指「figurative: 突然出現、需要立即處理的問題或危機」。",
-        "fire-mcq-07": "「救火」與本句語境不同。",
-        "fire-mcq-09": "「不停救火」與本句語境不同。",
-        "fire-mcq-06": "「滅火」與本句語境不同。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。",
-        "fire-mcq-05": "「放火燒；點燃」與本句語境不同。"
+        "fire-pdf-001": "本句的「putting out fires」指「figurative: 突然出現、需要立即處理的問題或危機」。",
+        "fire-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-pdf-001"
     },
@@ -1142,11 +1094,9 @@ export default {
       "masked": "Better planning means fewer ____.",
       "options": [
         "fire-pdf-001",
-        "fire-mcq-07",
-        "fire-mcq-09",
-        "fire-mcq-06",
-        "fire-mcq-10",
-        "fire-mcq-05"
+        "fire-mcq-14",
+        "fire-mcq-29",
+        "fire-mcq-21"
       ],
       "explanation": "本句的「fires to put out」指「figurative: 突然出現、需要立即處理的問題或危機」。",
       "sentenceIndex": 17,
@@ -1155,12 +1105,10 @@ export default {
         "fires to put out"
       ],
       "optionReasons": {
-        "fire-pdf-001": "本句指「figurative: 突然出現、需要立即處理的問題或危機」。",
-        "fire-mcq-07": "「救火」與本句語境不同。",
-        "fire-mcq-09": "「不停救火」與本句語境不同。",
-        "fire-mcq-06": "「滅火」與本句語境不同。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。",
-        "fire-mcq-05": "「放火燒；點燃」與本句語境不同。"
+        "fire-pdf-001": "本句的「fires to put out」指「figurative: 突然出現、需要立即處理的問題或危機」。",
+        "fire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-pdf-001"
     },
@@ -1172,11 +1120,9 @@ export default {
       "masked": "Instead of ____, we should prevent problems early.",
       "options": [
         "fire-mcq-09",
-        "fire-mcq-08",
-        "fire-mcq-10",
-        "fire-mcq-07",
-        "fire-mcq-11",
-        "fire-mcq-06"
+        "fire-mcq-19",
+        "fire-mcq-28",
+        "fire-mcq-22"
       ],
       "explanation": "本句的「putting out fires」指「不停救火」。",
       "sentenceIndex": 18,
@@ -1185,12 +1131,10 @@ export default {
         "putting out fires"
       ],
       "optionReasons": {
-        "fire-mcq-09": "本句指「不停救火」。",
-        "fire-mcq-08": "「突發危機」與本句語境不同。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。",
-        "fire-mcq-07": "「救火」與本句語境不同。",
-        "fire-mcq-11": "「開火」與本句語境不同。",
-        "fire-mcq-06": "「滅火」與本句語境不同。"
+        "fire-mcq-09": "本句的「putting out fires」指「不停救火」。",
+        "fire-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-09"
     },
@@ -1202,11 +1146,9 @@ export default {
       "masked": "Poor organisation leaves managers constantly ____.",
       "options": [
         "fire-mcq-09",
-        "fire-mcq-08",
-        "fire-mcq-10",
-        "fire-mcq-07",
-        "fire-mcq-11",
-        "fire-mcq-06"
+        "fire-mcq-04",
+        "fire-mcq-21",
+        "fire-mcq-26"
       ],
       "explanation": "本句的「putting out fires」指「不停救火」。",
       "sentenceIndex": 19,
@@ -1215,12 +1157,10 @@ export default {
         "putting out fires"
       ],
       "optionReasons": {
-        "fire-mcq-09": "本句指「不停救火」。",
-        "fire-mcq-08": "「突發危機」與本句語境不同。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。",
-        "fire-mcq-07": "「救火」與本句語境不同。",
-        "fire-mcq-11": "「開火」與本句語境不同。",
-        "fire-mcq-06": "「滅火」與本句語境不同。"
+        "fire-mcq-09": "本句的「putting out fires」指「不停救火」。",
+        "fire-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-09"
     },
@@ -1232,11 +1172,9 @@ export default {
       "masked": "The soldiers were ordered not to ____.",
       "options": [
         "fire-mcq-11",
-        "fire-mcq-10",
-        "fire-mcq-12",
-        "fire-mcq-09",
-        "fire-mcq-13",
-        "fire-mcq-08"
+        "fire-mcq-15",
+        "fire-mcq-21",
+        "fire-mcq-19"
       ],
       "explanation": "本句的「open fire」指「開火」。",
       "sentenceIndex": 22,
@@ -1245,12 +1183,10 @@ export default {
         "open fire"
       ],
       "optionReasons": {
-        "fire-mcq-11": "本句指「開火」。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。",
-        "fire-mcq-12": "「遭射擊／受批評」與本句語境不同。",
-        "fire-mcq-09": "「不停救火」與本句語境不同。",
-        "fire-mcq-13": "「開槍」與本句語境不同。",
-        "fire-mcq-08": "「突發危機」與本句語境不同。"
+        "fire-mcq-11": "本句的「open fire」指「開火」。",
+        "fire-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-11"
     },
@@ -1262,11 +1198,9 @@ export default {
       "masked": "Someone suddenly ____.",
       "options": [
         "fire-mcq-11",
-        "fire-mcq-10",
-        "fire-mcq-12",
-        "fire-mcq-09",
-        "fire-mcq-13",
-        "fire-mcq-08"
+        "fire-mcq-16",
+        "fire-mcq-17",
+        "fire-mcq-26"
       ],
       "explanation": "本句的「opened fire」指「開火」。",
       "sentenceIndex": 23,
@@ -1275,12 +1209,10 @@ export default {
         "opened fire"
       ],
       "optionReasons": {
-        "fire-mcq-11": "本句指「開火」。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。",
-        "fire-mcq-12": "「遭射擊／受批評」與本句語境不同。",
-        "fire-mcq-09": "「不停救火」與本句語境不同。",
-        "fire-mcq-13": "「開槍」與本句語境不同。",
-        "fire-mcq-08": "「突發危機」與本句語境不同。"
+        "fire-mcq-11": "本句的「opened fire」指「開火」。",
+        "fire-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-11"
     },
@@ -1292,10 +1224,8 @@ export default {
       "masked": "The vehicle ____.",
       "options": [
         "fire-mcq-12",
-        "fire-mcq-11",
         "fire-mcq-13",
-        "fire-mcq-10",
-        "fire-mcq-14",
+        "fire-mcq-23",
         "fire-mcq-09"
       ],
       "explanation": "本句的「came under fire」指「遭射擊／受批評」。",
@@ -1305,12 +1235,10 @@ export default {
         "came under fire"
       ],
       "optionReasons": {
-        "fire-mcq-12": "本句指「遭射擊／受批評」。",
-        "fire-mcq-11": "「開火」與本句語境不同。",
-        "fire-mcq-13": "「開槍」與本句語境不同。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。",
-        "fire-mcq-14": "「解僱某人」與本句語境不同。",
-        "fire-mcq-09": "「不停救火」與本句語境不同。"
+        "fire-mcq-12": "本句的「came under fire」指「遭射擊／受批評」。",
+        "fire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-12"
     },
@@ -1322,11 +1250,9 @@ export default {
       "masked": "The troops ____.",
       "options": [
         "fire-mcq-12",
-        "fire-mcq-11",
-        "fire-mcq-13",
-        "fire-mcq-10",
-        "fire-mcq-14",
-        "fire-mcq-09"
+        "fire-mcq-24",
+        "fire-mcq-18",
+        "fire-mcq-20"
       ],
       "explanation": "本句的「came under heavy fire」指「遭射擊／受批評」。",
       "sentenceIndex": 25,
@@ -1335,12 +1261,10 @@ export default {
         "came under heavy fire"
       ],
       "optionReasons": {
-        "fire-mcq-12": "本句指「遭射擊／受批評」。",
-        "fire-mcq-11": "「開火」與本句語境不同。",
-        "fire-mcq-13": "「開槍」與本句語境不同。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。",
-        "fire-mcq-14": "「解僱某人」與本句語境不同。",
-        "fire-mcq-09": "「不停救火」與本句語境不同。"
+        "fire-mcq-12": "本句的「came under heavy fire」指「遭射擊／受批評」。",
+        "fire-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-12"
     },
@@ -1352,11 +1276,9 @@ export default {
       "masked": "The company ____ for poor service.",
       "options": [
         "fire-mcq-12",
-        "fire-mcq-11",
-        "fire-mcq-13",
-        "fire-mcq-10",
-        "fire-mcq-14",
-        "fire-mcq-09"
+        "fire-mcq-21",
+        "fire-mcq-05",
+        "fire-mcq-17"
       ],
       "explanation": "本句的「came under fire」指「遭射擊／受批評」。",
       "sentenceIndex": 26,
@@ -1365,12 +1287,10 @@ export default {
         "came under fire"
       ],
       "optionReasons": {
-        "fire-mcq-12": "本句指「遭射擊／受批評」。",
-        "fire-mcq-11": "「開火」與本句語境不同。",
-        "fire-mcq-13": "「開槍」與本句語境不同。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。",
-        "fire-mcq-14": "「解僱某人」與本句語境不同。",
-        "fire-mcq-09": "「不停救火」與本句語境不同。"
+        "fire-mcq-12": "本句的「came under fire」指「遭射擊／受批評」。",
+        "fire-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-12"
     },
@@ -1382,11 +1302,9 @@ export default {
       "masked": "He ____ after the decision.",
       "options": [
         "fire-mcq-12",
-        "fire-mcq-11",
-        "fire-mcq-13",
-        "fire-mcq-10",
-        "fire-mcq-14",
-        "fire-mcq-09"
+        "fire-mcq-26",
+        "fire-mcq-06",
+        "fire-mcq-14"
       ],
       "explanation": "本句的「came under fire」指「遭射擊／受批評」。",
       "sentenceIndex": 27,
@@ -1395,12 +1313,10 @@ export default {
         "came under fire"
       ],
       "optionReasons": {
-        "fire-mcq-12": "本句指「遭射擊／受批評」。",
-        "fire-mcq-11": "「開火」與本句語境不同。",
-        "fire-mcq-13": "「開槍」與本句語境不同。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。",
-        "fire-mcq-14": "「解僱某人」與本句語境不同。",
-        "fire-mcq-09": "「不停救火」與本句語境不同。"
+        "fire-mcq-12": "本句的「came under fire」指「遭射擊／受批評」。",
+        "fire-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-12"
     },
@@ -1412,11 +1328,9 @@ export default {
       "masked": "The policy is ____ from several groups.",
       "options": [
         "fire-mcq-12",
-        "fire-mcq-11",
-        "fire-mcq-13",
-        "fire-mcq-10",
-        "fire-mcq-14",
-        "fire-mcq-09"
+        "fire-mcq-06",
+        "fire-mcq-04",
+        "fire-mcq-27"
       ],
       "explanation": "本句的「under fire」指「遭射擊／受批評」。",
       "sentenceIndex": 28,
@@ -1425,12 +1339,10 @@ export default {
         "under fire"
       ],
       "optionReasons": {
-        "fire-mcq-12": "本句指「遭射擊／受批評」。",
-        "fire-mcq-11": "「開火」與本句語境不同。",
-        "fire-mcq-13": "「開槍」與本句語境不同。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。",
-        "fire-mcq-14": "「解僱某人」與本句語境不同。",
-        "fire-mcq-09": "「不停救火」與本句語境不同。"
+        "fire-mcq-12": "本句的「under fire」指「遭射擊／受批評」。",
+        "fire-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-12"
     },
@@ -1442,11 +1354,9 @@ export default {
       "masked": "She remained calm ____.",
       "options": [
         "fire-mcq-12",
-        "fire-mcq-11",
-        "fire-mcq-13",
-        "fire-mcq-10",
-        "fire-mcq-14",
-        "fire-mcq-09"
+        "fire-reviewed-7373b820df",
+        "fire-mcq-22",
+        "fire-mcq-24"
       ],
       "explanation": "本句的「under fire」指「遭射擊／受批評」。",
       "sentenceIndex": 29,
@@ -1455,12 +1365,10 @@ export default {
         "under fire"
       ],
       "optionReasons": {
-        "fire-mcq-12": "本句指「遭射擊／受批評」。",
-        "fire-mcq-11": "「開火」與本句語境不同。",
-        "fire-mcq-13": "「開槍」與本句語境不同。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。",
-        "fire-mcq-14": "「解僱某人」與本句語境不同。",
-        "fire-mcq-09": "「不停救火」與本句語境不同。"
+        "fire-mcq-12": "本句的「under fire」指「遭射擊／受批評」。",
+        "fire-reviewed-7373b820df": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-12"
     },
@@ -1472,11 +1380,9 @@ export default {
       "masked": "He ____ into the air.",
       "options": [
         "fire-mcq-13",
-        "fire-mcq-12",
-        "fire-mcq-14",
-        "fire-mcq-11",
-        "fire-mcq-15",
-        "fire-mcq-10"
+        "fire-mcq-04",
+        "fire-mcq-01",
+        "fire-mcq-23"
       ],
       "explanation": "本句的「fired the gun」指「開槍」。",
       "sentenceIndex": 30,
@@ -1485,12 +1391,10 @@ export default {
         "fired the gun"
       ],
       "optionReasons": {
-        "fire-mcq-13": "本句指「開槍」。",
-        "fire-mcq-12": "「遭射擊／受批評」與本句語境不同。",
-        "fire-mcq-14": "「解僱某人」與本句語境不同。",
-        "fire-mcq-11": "「開火」與本句語境不同。",
-        "fire-mcq-15": "「被解僱」與本句語境不同。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。"
+        "fire-mcq-13": "本句的「fired the gun」指「開槍」。",
+        "fire-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-13"
     },
@@ -1502,11 +1406,9 @@ export default {
       "masked": "The weapon can ____ several rounds quickly.",
       "options": [
         "fire-mcq-13",
-        "fire-mcq-12",
-        "fire-mcq-14",
-        "fire-mcq-11",
-        "fire-mcq-15",
-        "fire-mcq-10"
+        "fire-mcq-25",
+        "fire-mcq-21",
+        "fire-mcq-12"
       ],
       "explanation": "本句的「fire」指「開槍」。",
       "sentenceIndex": 31,
@@ -1515,12 +1417,10 @@ export default {
         "fire"
       ],
       "optionReasons": {
-        "fire-mcq-13": "本句指「開槍」。",
-        "fire-mcq-12": "「遭射擊／受批評」與本句語境不同。",
-        "fire-mcq-14": "「解僱某人」與本句語境不同。",
-        "fire-mcq-11": "「開火」與本句語境不同。",
-        "fire-mcq-15": "「被解僱」與本句語境不同。",
-        "fire-mcq-10": "「射擊；火力」與本句語境不同。"
+        "fire-mcq-13": "本句的「fire」指「開槍」。",
+        "fire-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-13"
     },
@@ -1532,11 +1432,9 @@ export default {
       "masked": "The company ____ for repeated lateness.",
       "options": [
         "fire-mcq-14",
-        "fire-mcq-13",
-        "fire-mcq-15",
-        "fire-mcq-12",
-        "fire-mcq-16",
-        "fire-mcq-11"
+        "fire-mcq-20",
+        "fire-mcq-27",
+        "fire-pdf-001"
       ],
       "explanation": "本句的「fired him」指「解僱某人」。",
       "sentenceIndex": 34,
@@ -1545,12 +1443,10 @@ export default {
         "fired him"
       ],
       "optionReasons": {
-        "fire-mcq-14": "本句指「解僱某人」。",
-        "fire-mcq-13": "「開槍」與本句語境不同。",
-        "fire-mcq-15": "「被解僱」與本句語境不同。",
-        "fire-mcq-12": "「遭射擊／受批評」與本句語境不同。",
-        "fire-mcq-16": "「解僱；射擊」與本句語境不同。",
-        "fire-mcq-11": "「開火」與本句語境不同。"
+        "fire-mcq-14": "本句的「fired him」指「解僱某人」。",
+        "fire-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fire-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-14"
     },
@@ -1562,11 +1458,9 @@ export default {
       "masked": "She was afraid her boss would ____.",
       "options": [
         "fire-mcq-14",
-        "fire-mcq-13",
-        "fire-mcq-15",
-        "fire-mcq-12",
-        "fire-mcq-16",
-        "fire-mcq-11"
+        "fire-mcq-09",
+        "fire-mcq-20",
+        "fire-mcq-12"
       ],
       "explanation": "本句的「fire her」指「解僱某人」。",
       "sentenceIndex": 35,
@@ -1575,12 +1469,10 @@ export default {
         "fire her"
       ],
       "optionReasons": {
-        "fire-mcq-14": "本句指「解僱某人」。",
-        "fire-mcq-13": "「開槍」與本句語境不同。",
-        "fire-mcq-15": "「被解僱」與本句語境不同。",
-        "fire-mcq-12": "「遭射擊／受批評」與本句語境不同。",
-        "fire-mcq-16": "「解僱；射擊」與本句語境不同。",
-        "fire-mcq-11": "「開火」與本句語境不同。"
+        "fire-mcq-14": "本句的「fire her」指「解僱某人」。",
+        "fire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-14"
     },
@@ -1592,11 +1484,9 @@ export default {
       "masked": "He ____ last week.",
       "options": [
         "fire-mcq-15",
-        "fire-mcq-14",
-        "fire-mcq-16",
-        "fire-mcq-13",
-        "fire-mcq-17",
-        "fire-mcq-12"
+        "fire-mcq-12",
+        "fire-mcq-11",
+        "fire-mcq-21"
       ],
       "explanation": "本句的「got fired」指「被解僱」。",
       "sentenceIndex": 36,
@@ -1605,12 +1495,10 @@ export default {
         "got fired"
       ],
       "optionReasons": {
-        "fire-mcq-15": "本句指「被解僱」。",
-        "fire-mcq-14": "「解僱某人」與本句語境不同。",
-        "fire-mcq-16": "「解僱；射擊」與本句語境不同。",
-        "fire-mcq-13": "「開槍」與本句語境不同。",
-        "fire-mcq-17": "「連珠炮般提問」與本句語境不同。",
-        "fire-mcq-12": "「遭射擊／受批評」與本句語境不同。"
+        "fire-mcq-15": "本句的「got fired」指「被解僱」。",
+        "fire-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-15"
     },
@@ -1622,11 +1510,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "fire-mcq-15",
-        "fire-mcq-14",
-        "fire-mcq-16",
-        "fire-mcq-13",
-        "fire-mcq-17",
-        "fire-mcq-12"
+        "fire-mcq-06",
+        "fire-mcq-19",
+        "fire-mcq-17"
       ],
       "explanation": "本句的「fired from her job」指「被解僱」。",
       "sentenceIndex": 37,
@@ -1635,12 +1521,10 @@ export default {
         "fired from her job"
       ],
       "optionReasons": {
-        "fire-mcq-15": "本句指「被解僱」。",
-        "fire-mcq-14": "「解僱某人」與本句語境不同。",
-        "fire-mcq-16": "「解僱；射擊」與本句語境不同。",
-        "fire-mcq-13": "「開槍」與本句語境不同。",
-        "fire-mcq-17": "「連珠炮般提問」與本句語境不同。",
-        "fire-mcq-12": "「遭射擊／受批評」與本句語境不同。"
+        "fire-mcq-15": "本句的「fired from her job」指「被解僱」。",
+        "fire-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-15"
     },
@@ -1652,11 +1536,9 @@ export default {
       "masked": "The sudden ____ shocked the staff.",
       "options": [
         "fire-mcq-16",
-        "fire-mcq-15",
-        "fire-mcq-17",
-        "fire-mcq-14",
-        "fire-mcq-18",
-        "fire-mcq-13"
+        "fire-mcq-03",
+        "fire-mcq-26",
+        "fire-mcq-28"
       ],
       "explanation": "本句的「firing」指「解僱；射擊」。",
       "sentenceIndex": 38,
@@ -1665,12 +1547,10 @@ export default {
         "firing"
       ],
       "optionReasons": {
-        "fire-mcq-16": "本句指「解僱；射擊」。",
-        "fire-mcq-15": "「被解僱」與本句語境不同。",
-        "fire-mcq-17": "「連珠炮般提問」與本句語境不同。",
-        "fire-mcq-14": "「解僱某人」與本句語境不同。",
-        "fire-mcq-18": "「快速發出」與本句語境不同。",
-        "fire-mcq-13": "「開槍」與本句語境不同。"
+        "fire-mcq-16": "本句的「firing」指「解僱；射擊」。",
+        "fire-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-16"
     },
@@ -1682,10 +1562,8 @@ export default {
       "masked": "The company defended the ____.",
       "options": [
         "fire-mcq-16",
-        "fire-mcq-15",
-        "fire-mcq-17",
-        "fire-mcq-14",
-        "fire-mcq-18",
+        "fire-mcq-25",
+        "fire-mcq-04",
         "fire-mcq-13"
       ],
       "explanation": "本句的「firing」指「解僱；射擊」。",
@@ -1695,12 +1573,10 @@ export default {
         "firing"
       ],
       "optionReasons": {
-        "fire-mcq-16": "本句指「解僱；射擊」。",
-        "fire-mcq-15": "「被解僱」與本句語境不同。",
-        "fire-mcq-17": "「連珠炮般提問」與本句語境不同。",
-        "fire-mcq-14": "「解僱某人」與本句語境不同。",
-        "fire-mcq-18": "「快速發出」與本句語境不同。",
-        "fire-mcq-13": "「開槍」與本句語境不同。"
+        "fire-mcq-16": "本句的「firing」指「解僱；射擊」。",
+        "fire-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-16"
     },
@@ -1712,11 +1588,9 @@ export default {
       "masked": "Reporters ____ the speaker.",
       "options": [
         "fire-mcq-17",
-        "fire-mcq-16",
-        "fire-mcq-18",
-        "fire-mcq-15",
-        "fire-mcq-19",
-        "fire-mcq-14"
+        "fire-mcq-24",
+        "fire-mcq-22",
+        "fire-mcq-12"
       ],
       "explanation": "本句的「fired questions at」指「連珠炮般提問」。",
       "sentenceIndex": 40,
@@ -1725,12 +1599,10 @@ export default {
         "fired questions at"
       ],
       "optionReasons": {
-        "fire-mcq-17": "本句指「連珠炮般提問」。",
-        "fire-mcq-16": "「解僱；射擊」與本句語境不同。",
-        "fire-mcq-18": "「快速發出」與本句語境不同。",
-        "fire-mcq-15": "「被解僱」與本句語境不同。",
-        "fire-mcq-19": "「迅速回擊」與本句語境不同。",
-        "fire-mcq-14": "「解僱某人」與本句語境不同。"
+        "fire-mcq-17": "本句的「fired questions at」指「連珠炮般提問」。",
+        "fire-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-17"
     },
@@ -1742,11 +1614,9 @@ export default {
       "masked": "The interviewer ____.",
       "options": [
         "fire-mcq-17",
-        "fire-mcq-16",
+        "fire-mcq-24",
         "fire-mcq-18",
-        "fire-mcq-15",
-        "fire-mcq-19",
-        "fire-mcq-14"
+        "fire-mcq-23"
       ],
       "explanation": "本句的「fired question after question at me」指「連珠炮般提問」。",
       "sentenceIndex": 41,
@@ -1755,12 +1625,10 @@ export default {
         "fired question after question at me"
       ],
       "optionReasons": {
-        "fire-mcq-17": "本句指「連珠炮般提問」。",
-        "fire-mcq-16": "「解僱；射擊」與本句語境不同。",
-        "fire-mcq-18": "「快速發出」與本句語境不同。",
-        "fire-mcq-15": "「被解僱」與本句語境不同。",
-        "fire-mcq-19": "「迅速回擊」與本句語境不同。",
-        "fire-mcq-14": "「解僱某人」與本句語境不同。"
+        "fire-mcq-17": "本句的「fired question after question at me」指「連珠炮般提問」。",
+        "fire-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-17"
     },
@@ -1772,11 +1640,9 @@ export default {
       "masked": "I ____ before leaving.",
       "options": [
         "fire-mcq-18",
-        "fire-mcq-17",
-        "fire-mcq-19",
-        "fire-mcq-16",
-        "fire-mcq-20",
-        "fire-mcq-15"
+        "fire-mcq-13",
+        "fire-mcq-07",
+        "fire-mcq-20"
       ],
       "explanation": "本句的「fired off an email」指「快速發出」。",
       "sentenceIndex": 42,
@@ -1785,12 +1651,10 @@ export default {
         "fired off an email"
       ],
       "optionReasons": {
-        "fire-mcq-18": "本句指「快速發出」。",
-        "fire-mcq-17": "「連珠炮般提問」與本句語境不同。",
-        "fire-mcq-19": "「迅速回擊」與本句語境不同。",
-        "fire-mcq-16": "「解僱；射擊」與本句語境不同。",
-        "fire-mcq-20": "「點燃；啟動」與本句語境不同。",
-        "fire-mcq-15": "「被解僱」與本句語境不同。"
+        "fire-mcq-18": "本句的「fired off an email」指「快速發出」。",
+        "fire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-18"
     },
@@ -1802,11 +1666,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "fire-mcq-18",
-        "fire-mcq-17",
-        "fire-mcq-19",
-        "fire-mcq-16",
-        "fire-mcq-20",
-        "fire-mcq-15"
+        "fire-mcq-03",
+        "fire-mcq-14",
+        "fire-mcq-12"
       ],
       "explanation": "本句的「fired off a quick reply」指「快速發出」。",
       "sentenceIndex": 43,
@@ -1815,12 +1677,10 @@ export default {
         "fired off a quick reply"
       ],
       "optionReasons": {
-        "fire-mcq-18": "本句指「快速發出」。",
-        "fire-mcq-17": "「連珠炮般提問」與本句語境不同。",
-        "fire-mcq-19": "「迅速回擊」與本句語境不同。",
-        "fire-mcq-16": "「解僱；射擊」與本句語境不同。",
-        "fire-mcq-20": "「點燃；啟動」與本句語境不同。",
-        "fire-mcq-15": "「被解僱」與本句語境不同。"
+        "fire-mcq-18": "本句的「fired off a quick reply」指「快速發出」。",
+        "fire-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-18"
     },
@@ -1832,11 +1692,9 @@ export default {
       "masked": "She ____ with an angry reply.",
       "options": [
         "fire-mcq-19",
-        "fire-mcq-18",
-        "fire-mcq-20",
-        "fire-mcq-17",
-        "fire-mcq-21",
-        "fire-mcq-16"
+        "fire-mcq-25",
+        "fire-mcq-04",
+        "fire-mcq-17"
       ],
       "explanation": "本句的「fired back」指「迅速回擊」。",
       "sentenceIndex": 44,
@@ -1845,12 +1703,10 @@ export default {
         "fired back"
       ],
       "optionReasons": {
-        "fire-mcq-19": "本句指「迅速回擊」。",
-        "fire-mcq-18": "「快速發出」與本句語境不同。",
-        "fire-mcq-20": "「點燃；啟動」與本句語境不同。",
-        "fire-mcq-17": "「連珠炮般提問」與本句語境不同。",
-        "fire-mcq-21": "「激發鬥志」與本句語境不同。",
-        "fire-mcq-16": "「解僱；射擊」與本句語境不同。"
+        "fire-mcq-19": "本句的「fired back」指「迅速回擊」。",
+        "fire-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-19"
     },
@@ -1862,11 +1718,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "fire-mcq-19",
-        "fire-mcq-18",
-        "fire-mcq-20",
-        "fire-mcq-17",
-        "fire-mcq-21",
-        "fire-mcq-16"
+        "fire-mcq-15",
+        "fire-mcq-11",
+        "fire-mcq-17"
       ],
       "explanation": "本句的「fired back at his critics」指「迅速回擊」。",
       "sentenceIndex": 45,
@@ -1875,12 +1729,10 @@ export default {
         "fired back at his critics"
       ],
       "optionReasons": {
-        "fire-mcq-19": "本句指「迅速回擊」。",
-        "fire-mcq-18": "「快速發出」與本句語境不同。",
-        "fire-mcq-20": "「點燃；啟動」與本句語境不同。",
-        "fire-mcq-17": "「連珠炮般提問」與本句語境不同。",
-        "fire-mcq-21": "「激發鬥志」與本句語境不同。",
-        "fire-mcq-16": "「解僱；射擊」與本句語境不同。"
+        "fire-mcq-19": "本句的「fired back at his critics」指「迅速回擊」。",
+        "fire-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-19"
     },
@@ -1892,11 +1744,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "fire-mcq-20",
+        "fire-mcq-26",
         "fire-mcq-19",
-        "fire-mcq-21",
-        "fire-mcq-18",
-        "fire-mcq-22",
-        "fire-mcq-17"
+        "fire-mcq-13"
       ],
       "explanation": "本句的「fired up the engine」指「點燃；啟動」。",
       "sentenceIndex": 46,
@@ -1905,12 +1755,10 @@ export default {
         "fired up the engine"
       ],
       "optionReasons": {
-        "fire-mcq-20": "本句指「點燃；啟動」。",
-        "fire-mcq-19": "「迅速回擊」與本句語境不同。",
-        "fire-mcq-21": "「激發鬥志」與本句語境不同。",
-        "fire-mcq-18": "「快速發出」與本句語境不同。",
-        "fire-mcq-22": "「激發想像力」與本句語境不同。",
-        "fire-mcq-17": "「連珠炮般提問」與本句語境不同。"
+        "fire-mcq-20": "本句的「fired up the engine」指「點燃；啟動」。",
+        "fire-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-20"
     },
@@ -1922,11 +1770,9 @@ export default {
       "masked": "Let's ____.",
       "options": [
         "fire-mcq-20",
-        "fire-mcq-19",
-        "fire-mcq-21",
-        "fire-mcq-18",
         "fire-mcq-22",
-        "fire-mcq-17"
+        "fire-mcq-19",
+        "fire-mcq-25"
       ],
       "explanation": "本句的「fire up the barbecue」指「點燃；啟動」。",
       "sentenceIndex": 47,
@@ -1935,12 +1781,10 @@ export default {
         "fire up the barbecue"
       ],
       "optionReasons": {
-        "fire-mcq-20": "本句指「點燃；啟動」。",
-        "fire-mcq-19": "「迅速回擊」與本句語境不同。",
-        "fire-mcq-21": "「激發鬥志」與本句語境不同。",
-        "fire-mcq-18": "「快速發出」與本句語境不同。",
-        "fire-mcq-22": "「激發想像力」與本句語境不同。",
-        "fire-mcq-17": "「連珠炮般提問」與本句語境不同。"
+        "fire-mcq-20": "本句的「fire up the barbecue」指「點燃；啟動」。",
+        "fire-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-20"
     },
@@ -1952,11 +1796,9 @@ export default {
       "masked": "The speech ____.",
       "options": [
         "fire-mcq-21",
-        "fire-mcq-20",
-        "fire-mcq-22",
-        "fire-mcq-19",
-        "fire-mcq-23",
-        "fire-mcq-18"
+        "fire-mcq-29",
+        "fire-mcq-28",
+        "fire-mcq-14"
       ],
       "explanation": "本句的「fired up the crowd」指「激發鬥志」。",
       "sentenceIndex": 48,
@@ -1965,12 +1807,10 @@ export default {
         "fired up the crowd"
       ],
       "optionReasons": {
-        "fire-mcq-21": "本句指「激發鬥志」。",
-        "fire-mcq-20": "「點燃；啟動」與本句語境不同。",
-        "fire-mcq-22": "「激發想像力」與本句語境不同。",
-        "fire-mcq-19": "「迅速回擊」與本句語境不同。",
-        "fire-mcq-23": "「鬥志；拼勁」與本句語境不同。",
-        "fire-mcq-18": "「快速發出」與本句語境不同。"
+        "fire-mcq-21": "本句的「fired up the crowd」指「激發鬥志」。",
+        "fire-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-21"
     },
@@ -1982,11 +1822,9 @@ export default {
       "masked": "Competition really ____.",
       "options": [
         "fire-mcq-21",
-        "fire-mcq-20",
-        "fire-mcq-22",
-        "fire-mcq-19",
-        "fire-mcq-23",
-        "fire-mcq-18"
+        "fire-mcq-25",
+        "fire-pdf-001",
+        "fire-mcq-12"
       ],
       "explanation": "本句的「fires him up」指「激發鬥志」。",
       "sentenceIndex": 49,
@@ -1995,12 +1833,10 @@ export default {
         "fires him up"
       ],
       "optionReasons": {
-        "fire-mcq-21": "本句指「激發鬥志」。",
-        "fire-mcq-20": "「點燃；啟動」與本句語境不同。",
-        "fire-mcq-22": "「激發想像力」與本句語境不同。",
-        "fire-mcq-19": "「迅速回擊」與本句語境不同。",
-        "fire-mcq-23": "「鬥志；拼勁」與本句語境不同。",
-        "fire-mcq-18": "「快速發出」與本句語境不同。"
+        "fire-mcq-21": "本句的「fires him up」指「激發鬥志」。",
+        "fire-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fire-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-21"
     },
@@ -2012,11 +1848,9 @@ export default {
       "masked": "The team was ____ before the match.",
       "options": [
         "fire-mcq-21",
-        "fire-mcq-20",
-        "fire-mcq-22",
-        "fire-mcq-19",
-        "fire-mcq-23",
-        "fire-mcq-18"
+        "fire-mcq-28",
+        "fire-reviewed-7373b820df",
+        "fire-mcq-12"
       ],
       "explanation": "本句的「fired up」指「激發鬥志」。",
       "sentenceIndex": 50,
@@ -2025,12 +1859,10 @@ export default {
         "fired up"
       ],
       "optionReasons": {
-        "fire-mcq-21": "本句指「激發鬥志」。",
-        "fire-mcq-20": "「點燃；啟動」與本句語境不同。",
-        "fire-mcq-22": "「激發想像力」與本句語境不同。",
-        "fire-mcq-19": "「迅速回擊」與本句語境不同。",
-        "fire-mcq-23": "「鬥志；拼勁」與本句語境不同。",
-        "fire-mcq-18": "「快速發出」與本句語境不同。"
+        "fire-mcq-21": "本句的「fired up」指「激發鬥志」。",
+        "fire-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fire-reviewed-7373b820df": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-21"
     },
@@ -2042,11 +1874,9 @@ export default {
       "masked": "She was really ____ about the new idea.",
       "options": [
         "fire-mcq-21",
-        "fire-mcq-20",
-        "fire-mcq-22",
+        "fire-mcq-06",
         "fire-mcq-19",
-        "fire-mcq-23",
-        "fire-mcq-18"
+        "fire-mcq-16"
       ],
       "explanation": "本句的「fired up」指「激發鬥志」。",
       "sentenceIndex": 51,
@@ -2055,12 +1885,10 @@ export default {
         "fired up"
       ],
       "optionReasons": {
-        "fire-mcq-21": "本句指「激發鬥志」。",
-        "fire-mcq-20": "「點燃；啟動」與本句語境不同。",
-        "fire-mcq-22": "「激發想像力」與本句語境不同。",
-        "fire-mcq-19": "「迅速回擊」與本句語境不同。",
-        "fire-mcq-23": "「鬥志；拼勁」與本句語境不同。",
-        "fire-mcq-18": "「快速發出」與本句語境不同。"
+        "fire-mcq-21": "本句的「fired up」指「激發鬥志」。",
+        "fire-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-21"
     },
@@ -2072,11 +1900,9 @@ export default {
       "masked": "The story ____.",
       "options": [
         "fire-mcq-22",
-        "fire-mcq-21",
-        "fire-mcq-23",
-        "fire-mcq-20",
-        "fire-mcq-24",
-        "fire-mcq-19"
+        "fire-mcq-14",
+        "fire-mcq-12",
+        "fire-mcq-09"
       ],
       "explanation": "本句的「fired his imagination」指「激發想像力」。",
       "sentenceIndex": 52,
@@ -2085,12 +1911,10 @@ export default {
         "fired his imagination"
       ],
       "optionReasons": {
-        "fire-mcq-22": "本句指「激發想像力」。",
-        "fire-mcq-21": "「激發鬥志」與本句語境不同。",
-        "fire-mcq-23": "「鬥志；拼勁」與本句語境不同。",
-        "fire-mcq-20": "「點燃；啟動」與本句語境不同。",
-        "fire-mcq-24": "「火爆的；激烈的」與本句語境不同。",
-        "fire-mcq-19": "「迅速回擊」與本句語境不同。"
+        "fire-mcq-22": "本句的「fired his imagination」指「激發想像力」。",
+        "fire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-22"
     },
@@ -2102,11 +1926,9 @@ export default {
       "masked": "Space travel has long ____.",
       "options": [
         "fire-mcq-22",
-        "fire-mcq-21",
-        "fire-mcq-23",
-        "fire-mcq-20",
-        "fire-mcq-24",
-        "fire-mcq-19"
+        "fire-mcq-03",
+        "fire-mcq-14",
+        "fire-mcq-12"
       ],
       "explanation": "本句的「fired the public imagination」指「激發想像力」。",
       "sentenceIndex": 53,
@@ -2115,12 +1937,10 @@ export default {
         "fired the public imagination"
       ],
       "optionReasons": {
-        "fire-mcq-22": "本句指「激發想像力」。",
-        "fire-mcq-21": "「激發鬥志」與本句語境不同。",
-        "fire-mcq-23": "「鬥志；拼勁」與本句語境不同。",
-        "fire-mcq-20": "「點燃；啟動」與本句語境不同。",
-        "fire-mcq-24": "「火爆的；激烈的」與本句語境不同。",
-        "fire-mcq-19": "「迅速回擊」與本句語境不同。"
+        "fire-mcq-22": "本句的「fired the public imagination」指「激發想像力」。",
+        "fire-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-22"
     },
@@ -2132,11 +1952,9 @@ export default {
       "masked": "She still has plenty of ____.",
       "options": [
         "fire-mcq-23",
-        "fire-mcq-22",
-        "fire-mcq-24",
-        "fire-mcq-21",
-        "fire-mcq-25",
-        "fire-mcq-20"
+        "fire-mcq-06",
+        "fire-mcq-16",
+        "fire-mcq-28"
       ],
       "explanation": "本句的「fire in her belly」指「鬥志；拼勁」。",
       "sentenceIndex": 54,
@@ -2145,12 +1963,10 @@ export default {
         "fire in her belly"
       ],
       "optionReasons": {
-        "fire-mcq-23": "本句指「鬥志；拼勁」。",
-        "fire-mcq-22": "「激發想像力」與本句語境不同。",
-        "fire-mcq-24": "「火爆的；激烈的」與本句語境不同。",
-        "fire-mcq-21": "「激發鬥志」與本句語境不同。",
-        "fire-mcq-25": "「防火的」與本句語境不同。",
-        "fire-mcq-20": "「點燃；啟動」與本句語境不同。"
+        "fire-mcq-23": "本句的「fire in her belly」指「鬥志；拼勁」。",
+        "fire-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-23"
     },
@@ -2162,10 +1978,8 @@ export default {
       "masked": "You need some ____ to succeed in such a competitive field.",
       "options": [
         "fire-mcq-23",
-        "fire-mcq-22",
-        "fire-mcq-24",
-        "fire-mcq-21",
-        "fire-mcq-25",
+        "fire-mcq-28",
+        "fire-mcq-19",
         "fire-mcq-20"
       ],
       "explanation": "本句的「fire in your belly」指「鬥志；拼勁」。",
@@ -2175,74 +1989,68 @@ export default {
         "fire in your belly"
       ],
       "optionReasons": {
-        "fire-mcq-23": "本句指「鬥志；拼勁」。",
-        "fire-mcq-22": "「激發想像力」與本句語境不同。",
-        "fire-mcq-24": "「火爆的；激烈的」與本句語境不同。",
-        "fire-mcq-21": "「激發鬥志」與本句語境不同。",
-        "fire-mcq-25": "「防火的」與本句語境不同。",
-        "fire-mcq-20": "「點燃；啟動」與本句語境不同。"
+        "fire-mcq-23": "本句的「fire in your belly」指「鬥志；拼勁」。",
+        "fire-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-23"
     },
     {
       "id": "fire-28-0",
-      "sense": "fire-mcq-24",
+      "sense": "fire-reviewed-7373b820df",
       "en": "The sky turned a fiery orange.",
       "zh": "天空變成火紅橙色。",
       "masked": "The sky turned a ____.",
       "options": [
-        "fire-mcq-24",
-        "fire-mcq-23",
-        "fire-mcq-25",
-        "fire-mcq-22",
+        "fire-reviewed-7373b820df",
+        "fire-mcq-21",
         "fire-mcq-26",
-        "fire-mcq-21"
+        "fire-mcq-28"
       ],
-      "explanation": "本句的「fiery orange」指「火爆的；激烈的」。",
+      "explanation": "對照完整句子：「天空變成火紅橙色。」。這裡的「fiery orange」表示「像火一樣的，尤其指顏色、熱度或外觀」。",
       "sentenceIndex": 56,
       "sourcePractice": 1,
       "targets": [
         "fiery orange"
       ],
       "optionReasons": {
-        "fire-mcq-24": "本句指「火爆的；激烈的」。",
-        "fire-mcq-23": "「鬥志；拼勁」與本句語境不同。",
-        "fire-mcq-25": "「防火的」與本句語境不同。",
-        "fire-mcq-22": "「激發想像力」與本句語境不同。",
-        "fire-mcq-26": "「消防員」與本句語境不同。",
-        "fire-mcq-21": "「激發鬥志」與本句語境不同。"
+        "fire-reviewed-7373b820df": "對照完整句子：「天空變成火紅橙色。」。這裡的「fiery orange」表示「像火一樣的，尤其指顏色、熱度或外觀」。",
+        "fire-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "fire-mcq-24"
+      "correctOption": "fire-reviewed-7373b820df",
+      "previousCorrectOption": "fire-mcq-24",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "fire-28-1",
-      "sense": "fire-mcq-24",
+      "sense": "fire-reviewed-7373b820df",
       "en": "Lava glowed fiery red.",
       "zh": "熔岩發出火紅色光芒。",
       "masked": "Lava glowed ____.",
       "options": [
-        "fire-mcq-24",
+        "fire-reviewed-7373b820df",
         "fire-mcq-23",
-        "fire-mcq-25",
-        "fire-mcq-22",
-        "fire-mcq-26",
-        "fire-mcq-21"
+        "fire-mcq-04",
+        "fire-mcq-12"
       ],
-      "explanation": "本句的「fiery red」指「火爆的；激烈的」。",
+      "explanation": "對照完整句子：「熔岩發出火紅色光芒。」。這裡的「fiery red」表示「像火一樣的，尤其指顏色、熱度或外觀」。",
       "sentenceIndex": 57,
       "sourcePractice": 2,
       "targets": [
         "fiery red"
       ],
       "optionReasons": {
-        "fire-mcq-24": "本句指「火爆的；激烈的」。",
-        "fire-mcq-23": "「鬥志；拼勁」與本句語境不同。",
-        "fire-mcq-25": "「防火的」與本句語境不同。",
-        "fire-mcq-22": "「激發想像力」與本句語境不同。",
-        "fire-mcq-26": "「消防員」與本句語境不同。",
-        "fire-mcq-21": "「激發鬥志」與本句語境不同。"
+        "fire-reviewed-7373b820df": "對照完整句子：「熔岩發出火紅色光芒。」。這裡的「fiery red」表示「像火一樣的，尤其指顏色、熱度或外觀」。",
+        "fire-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "fire-mcq-24"
+      "correctOption": "fire-reviewed-7373b820df",
+      "previousCorrectOption": "fire-mcq-24",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "fire-29-0",
@@ -2252,11 +2060,9 @@ export default {
       "masked": "She has a ____.",
       "options": [
         "fire-mcq-24",
-        "fire-mcq-23",
-        "fire-mcq-25",
-        "fire-mcq-22",
-        "fire-mcq-26",
-        "fire-mcq-21"
+        "fire-mcq-12",
+        "fire-mcq-14",
+        "fire-mcq-19"
       ],
       "explanation": "本句的「fiery temper」指「火爆的；激烈的」。",
       "sentenceIndex": 58,
@@ -2265,12 +2071,10 @@ export default {
         "fiery temper"
       ],
       "optionReasons": {
-        "fire-mcq-24": "本句指「火爆的；激烈的」。",
-        "fire-mcq-23": "「鬥志；拼勁」與本句語境不同。",
-        "fire-mcq-25": "「防火的」與本句語境不同。",
-        "fire-mcq-22": "「激發想像力」與本句語境不同。",
-        "fire-mcq-26": "「消防員」與本句語境不同。",
-        "fire-mcq-21": "「激發鬥志」與本句語境不同。"
+        "fire-mcq-24": "本句的「fiery temper」指「火爆的；激烈的」。",
+        "fire-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-24"
     },
@@ -2282,11 +2086,9 @@ export default {
       "masked": "He gave a ____.",
       "options": [
         "fire-mcq-24",
+        "fire-mcq-27",
         "fire-mcq-23",
-        "fire-mcq-25",
-        "fire-mcq-22",
-        "fire-mcq-26",
-        "fire-mcq-21"
+        "fire-mcq-28"
       ],
       "explanation": "本句的「fiery speech」指「火爆的；激烈的」。",
       "sentenceIndex": 59,
@@ -2295,12 +2097,10 @@ export default {
         "fiery speech"
       ],
       "optionReasons": {
-        "fire-mcq-24": "本句指「火爆的；激烈的」。",
-        "fire-mcq-23": "「鬥志；拼勁」與本句語境不同。",
-        "fire-mcq-25": "「防火的」與本句語境不同。",
-        "fire-mcq-22": "「激發想像力」與本句語境不同。",
-        "fire-mcq-26": "「消防員」與本句語境不同。",
-        "fire-mcq-21": "「激發鬥志」與本句語境不同。"
+        "fire-mcq-24": "本句的「fiery speech」指「火爆的；激烈的」。",
+        "fire-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-24"
     },
@@ -2312,11 +2112,9 @@ export default {
       "masked": "The documents are stored in a ____.",
       "options": [
         "fire-mcq-25",
-        "fire-mcq-24",
-        "fire-mcq-26",
-        "fire-mcq-23",
-        "fire-mcq-27",
-        "fire-mcq-22"
+        "fire-mcq-15",
+        "fire-mcq-20",
+        "fire-mcq-17"
       ],
       "explanation": "本句的「fireproof cabinet」指「防火的」。",
       "sentenceIndex": 60,
@@ -2325,12 +2123,10 @@ export default {
         "fireproof cabinet"
       ],
       "optionReasons": {
-        "fire-mcq-25": "本句指「防火的」。",
-        "fire-mcq-24": "「火爆的；激烈的」與本句語境不同。",
-        "fire-mcq-26": "「消防員」與本句語境不同。",
-        "fire-mcq-23": "「鬥志；拼勁」與本句語境不同。",
-        "fire-mcq-27": "「迅速傳開」與本句語境不同。",
-        "fire-mcq-22": "「激發想像力」與本句語境不同。"
+        "fire-mcq-25": "本句的「fireproof cabinet」指「防火的」。",
+        "fire-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-25"
     },
@@ -2342,11 +2138,9 @@ export default {
       "masked": "The material is designed to be ____.",
       "options": [
         "fire-mcq-25",
-        "fire-mcq-24",
-        "fire-mcq-26",
+        "fire-mcq-13",
         "fire-mcq-23",
-        "fire-mcq-27",
-        "fire-mcq-22"
+        "fire-mcq-28"
       ],
       "explanation": "本句的「fireproof」指「防火的」。",
       "sentenceIndex": 61,
@@ -2355,12 +2149,10 @@ export default {
         "fireproof"
       ],
       "optionReasons": {
-        "fire-mcq-25": "本句指「防火的」。",
-        "fire-mcq-24": "「火爆的；激烈的」與本句語境不同。",
-        "fire-mcq-26": "「消防員」與本句語境不同。",
-        "fire-mcq-23": "「鬥志；拼勁」與本句語境不同。",
-        "fire-mcq-27": "「迅速傳開」與本句語境不同。",
-        "fire-mcq-22": "「激發想像力」與本句語境不同。"
+        "fire-mcq-25": "本句的「fireproof」指「防火的」。",
+        "fire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-25"
     },
@@ -2372,11 +2164,9 @@ export default {
       "masked": "The ____ arrived quickly.",
       "options": [
         "fire-mcq-26",
-        "fire-mcq-25",
-        "fire-mcq-27",
-        "fire-mcq-24",
-        "fire-mcq-28",
-        "fire-mcq-23"
+        "fire-mcq-09",
+        "fire-mcq-23",
+        "fire-mcq-12"
       ],
       "explanation": "本句的「firefighters」指「消防員」。",
       "sentenceIndex": 62,
@@ -2385,12 +2175,10 @@ export default {
         "firefighters"
       ],
       "optionReasons": {
-        "fire-mcq-26": "本句指「消防員」。",
-        "fire-mcq-25": "「防火的」與本句語境不同。",
-        "fire-mcq-27": "「迅速傳開」與本句語境不同。",
-        "fire-mcq-24": "「火爆的；激烈的」與本句語境不同。",
-        "fire-mcq-28": "「冒險惹禍」與本句語境不同。",
-        "fire-mcq-23": "「鬥志；拼勁」與本句語境不同。"
+        "fire-mcq-26": "本句的「firefighters」指「消防員」。",
+        "fire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-26"
     },
@@ -2402,11 +2190,9 @@ export default {
       "masked": "She trained to become a ____.",
       "options": [
         "fire-mcq-26",
-        "fire-mcq-25",
-        "fire-mcq-27",
-        "fire-mcq-24",
-        "fire-mcq-28",
-        "fire-mcq-23"
+        "fire-pdf-001",
+        "fire-reviewed-7373b820df",
+        "fire-mcq-17"
       ],
       "explanation": "本句的「firefighter」指「消防員」。",
       "sentenceIndex": 63,
@@ -2415,12 +2201,10 @@ export default {
         "firefighter"
       ],
       "optionReasons": {
-        "fire-mcq-26": "本句指「消防員」。",
-        "fire-mcq-25": "「防火的」與本句語境不同。",
-        "fire-mcq-27": "「迅速傳開」與本句語境不同。",
-        "fire-mcq-24": "「火爆的；激烈的」與本句語境不同。",
-        "fire-mcq-28": "「冒險惹禍」與本句語境不同。",
-        "fire-mcq-23": "「鬥志；拼勁」與本句語境不同。"
+        "fire-mcq-26": "本句的「firefighter」指「消防員」。",
+        "fire-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fire-reviewed-7373b820df": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-26"
     },
@@ -2432,11 +2216,9 @@ export default {
       "masked": "The rumour ____.",
       "options": [
         "fire-mcq-27",
-        "fire-mcq-26",
         "fire-mcq-28",
-        "fire-mcq-25",
-        "fire-mcq-29",
-        "fire-mcq-24"
+        "fire-mcq-05",
+        "fire-mcq-15"
       ],
       "explanation": "本句的「spread like wildfire」指「迅速傳開」。",
       "sentenceIndex": 64,
@@ -2445,12 +2227,10 @@ export default {
         "spread like wildfire"
       ],
       "optionReasons": {
-        "fire-mcq-27": "本句指「迅速傳開」。",
-        "fire-mcq-26": "「消防員」與本句語境不同。",
-        "fire-mcq-28": "「冒險惹禍」與本句語境不同。",
-        "fire-mcq-25": "「防火的」與本句語境不同。",
-        "fire-mcq-29": "「火上加油」與本句語境不同。",
-        "fire-mcq-24": "「火爆的；激烈的」與本句語境不同。"
+        "fire-mcq-27": "本句的「spread like wildfire」指「迅速傳開」。",
+        "fire-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-27"
     },
@@ -2462,10 +2242,8 @@ export default {
       "masked": "The video ____ online.",
       "options": [
         "fire-mcq-27",
-        "fire-mcq-26",
-        "fire-mcq-28",
-        "fire-mcq-25",
-        "fire-mcq-29",
+        "fire-mcq-14",
+        "fire-mcq-05",
         "fire-mcq-24"
       ],
       "explanation": "本句的「spread like wildfire」指「迅速傳開」。",
@@ -2475,12 +2253,10 @@ export default {
         "spread like wildfire"
       ],
       "optionReasons": {
-        "fire-mcq-27": "本句指「迅速傳開」。",
-        "fire-mcq-26": "「消防員」與本句語境不同。",
-        "fire-mcq-28": "「冒險惹禍」與本句語境不同。",
-        "fire-mcq-25": "「防火的」與本句語境不同。",
-        "fire-mcq-29": "「火上加油」與本句語境不同。",
-        "fire-mcq-24": "「火爆的；激烈的」與本句語境不同。"
+        "fire-mcq-27": "本句的「spread like wildfire」指「迅速傳開」。",
+        "fire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-27"
     },
@@ -2492,11 +2268,9 @@ export default {
       "masked": "Ignoring repeated warnings is ____.",
       "options": [
         "fire-mcq-28",
-        "fire-mcq-27",
-        "fire-mcq-29",
-        "fire-mcq-26",
-        "fire-mcq-25",
-        "fire-mcq-24"
+        "fire-mcq-20",
+        "fire-mcq-24",
+        "fire-mcq-27"
       ],
       "explanation": "本句的「playing with fire」指「冒險惹禍」。",
       "sentenceIndex": 66,
@@ -2505,12 +2279,10 @@ export default {
         "playing with fire"
       ],
       "optionReasons": {
-        "fire-mcq-28": "本句指「冒險惹禍」。",
-        "fire-mcq-27": "「迅速傳開」與本句語境不同。",
-        "fire-mcq-29": "「火上加油」與本句語境不同。",
-        "fire-mcq-26": "「消防員」與本句語境不同。",
-        "fire-mcq-25": "「防火的」與本句語境不同。",
-        "fire-mcq-24": "「火爆的；激烈的」與本句語境不同。"
+        "fire-mcq-28": "本句的「playing with fire」指「冒險惹禍」。",
+        "fire-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-28"
     },
@@ -2522,11 +2294,9 @@ export default {
       "masked": "You're ____ if you keep missing deadlines.",
       "options": [
         "fire-mcq-28",
-        "fire-mcq-27",
-        "fire-mcq-29",
-        "fire-mcq-26",
-        "fire-mcq-25",
-        "fire-mcq-24"
+        "fire-mcq-01",
+        "fire-mcq-21",
+        "fire-mcq-18"
       ],
       "explanation": "本句的「playing with fire」指「冒險惹禍」。",
       "sentenceIndex": 67,
@@ -2535,12 +2305,10 @@ export default {
         "playing with fire"
       ],
       "optionReasons": {
-        "fire-mcq-28": "本句指「冒險惹禍」。",
-        "fire-mcq-27": "「迅速傳開」與本句語境不同。",
-        "fire-mcq-29": "「火上加油」與本句語境不同。",
-        "fire-mcq-26": "「消防員」與本句語境不同。",
-        "fire-mcq-25": "「防火的」與本句語境不同。",
-        "fire-mcq-24": "「火爆的；激烈的」與本句語境不同。"
+        "fire-mcq-28": "本句的「playing with fire」指「冒險惹禍」。",
+        "fire-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-28"
     },
@@ -2552,11 +2320,9 @@ export default {
       "masked": "His comment only ____.",
       "options": [
         "fire-mcq-29",
-        "fire-mcq-28",
-        "fire-mcq-27",
-        "fire-mcq-26",
-        "fire-mcq-25",
-        "fire-mcq-24"
+        "fire-mcq-04",
+        "fire-mcq-18",
+        "fire-mcq-22"
       ],
       "explanation": "本句的「added fuel to the fire」指「火上加油」。",
       "sentenceIndex": 68,
@@ -2565,12 +2331,10 @@ export default {
         "added fuel to the fire"
       ],
       "optionReasons": {
-        "fire-mcq-29": "本句指「火上加油」。",
-        "fire-mcq-28": "「冒險惹禍」與本句語境不同。",
-        "fire-mcq-27": "「迅速傳開」與本句語境不同。",
-        "fire-mcq-26": "「消防員」與本句語境不同。",
-        "fire-mcq-25": "「防火的」與本句語境不同。",
-        "fire-mcq-24": "「火爆的；激烈的」與本句語境不同。"
+        "fire-mcq-29": "本句的「added fuel to the fire」指「火上加油」。",
+        "fire-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-29"
     },
@@ -2582,11 +2346,9 @@ export default {
       "masked": "Arguing publicly would ____.",
       "options": [
         "fire-mcq-29",
-        "fire-mcq-28",
-        "fire-mcq-27",
-        "fire-mcq-26",
-        "fire-mcq-25",
-        "fire-mcq-24"
+        "fire-mcq-20",
+        "fire-mcq-14",
+        "fire-mcq-28"
       ],
       "explanation": "本句的「add fuel to the fire」指「火上加油」。",
       "sentenceIndex": 69,
@@ -2595,12 +2357,10 @@ export default {
         "add fuel to the fire"
       ],
       "optionReasons": {
-        "fire-mcq-29": "本句指「火上加油」。",
-        "fire-mcq-28": "「冒險惹禍」與本句語境不同。",
-        "fire-mcq-27": "「迅速傳開」與本句語境不同。",
-        "fire-mcq-26": "「消防員」與本句語境不同。",
-        "fire-mcq-25": "「防火的」與本句語境不同。",
-        "fire-mcq-24": "「火爆的；激烈的」與本句語境不同。"
+        "fire-mcq-29": "本句的「add fuel to the fire」指「火上加油」。",
+        "fire-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fire-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fire-mcq-29"
     }
@@ -2612,5 +2372,7 @@ export default {
     "sha256": "be8d3182d3e15ec6eacfb4999b91cd0558add2837317d7227b6ffacd3c1b2b46",
     "pages": 25
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

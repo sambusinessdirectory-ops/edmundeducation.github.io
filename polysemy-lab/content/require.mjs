@@ -2583,11 +2583,8 @@ export default {
       "masked": "The activity ____ careful thought.",
       "options": [
         "require-mcq-01",
-        "require-mcq-02",
-        "require-mcq-03",
-        "require-mcq-04",
-        "require-mcq-05",
-        "require-mcq-06"
+        "require-mcq-38",
+        "require-mcq-19"
       ],
       "explanation": "本句的「requires」指「某任務本身使仔細閱讀、情感覺察、判斷等成為必要；需要／要求具備」。",
       "sentenceIndex": 0,
@@ -2596,12 +2593,9 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-01": "本句指「某任務本身使仔細閱讀、情感覺察、判斷等成為必要；需要／要求具備」。",
-        "require-mcq-02": "「做成某事／維持某狀況所必須具備某物；需要」與本句語境不同。",
-        "require-mcq-03": "「某工作／任務需要特定技巧」與本句語境不同。",
-        "require-mcq-04": "「必須仔細思考才能處理」與本句語境不同。",
-        "require-mcq-05": "「完成／發展某事需要時間」與本句語境不同。",
-        "require-mcq-06": "「需要付出努力」與本句語境不同。"
+        "require-mcq-01": "本句的「requires」指「某任務本身使仔細閱讀、情感覺察、判斷等成為必要；需要／要求具備」。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-01"
     },
@@ -2613,11 +2607,8 @@ export default {
       "masked": "Understanding the character ____ empathy.",
       "options": [
         "require-mcq-01",
-        "require-mcq-02",
-        "require-mcq-03",
-        "require-mcq-04",
-        "require-mcq-05",
-        "require-mcq-06"
+        "require-mcq-26",
+        "require-mcq-38"
       ],
       "explanation": "本句的「requires」指「某任務本身使仔細閱讀、情感覺察、判斷等成為必要；需要／要求具備」。",
       "sentenceIndex": 1,
@@ -2626,12 +2617,9 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-01": "本句指「某任務本身使仔細閱讀、情感覺察、判斷等成為必要；需要／要求具備」。",
-        "require-mcq-02": "「做成某事／維持某狀況所必須具備某物；需要」與本句語境不同。",
-        "require-mcq-03": "「某工作／任務需要特定技巧」與本句語境不同。",
-        "require-mcq-04": "「必須仔細思考才能處理」與本句語境不同。",
-        "require-mcq-05": "「完成／發展某事需要時間」與本句語境不同。",
-        "require-mcq-06": "「需要付出努力」與本句語境不同。"
+        "require-mcq-01": "本句的「requires」指「某任務本身使仔細閱讀、情感覺察、判斷等成為必要；需要／要求具備」。",
+        "require-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-01"
     },
@@ -2643,11 +2631,9 @@ export default {
       "masked": "Real change ____ time.",
       "options": [
         "require-mcq-05",
-        "require-mcq-04",
-        "require-mcq-06",
-        "require-mcq-03",
-        "require-mcq-07",
-        "require-mcq-02"
+        "require-mcq-30",
+        "require-mcq-54",
+        "require-mcq-75"
       ],
       "explanation": "本句的「requires」指「完成／發展某事需要時間」。",
       "sentenceIndex": 6,
@@ -2656,12 +2642,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-05": "本句指「完成／發展某事需要時間」。",
-        "require-mcq-04": "「必須仔細思考才能處理」與本句語境不同。",
-        "require-mcq-06": "「需要付出努力」與本句語境不同。",
-        "require-mcq-03": "「某工作／任務需要特定技巧」與本句語境不同。",
-        "require-mcq-07": "「某問題需要立即關注／處理」與本句語境不同。",
-        "require-mcq-02": "「做成某事／維持某狀況所必須具備某物；需要」與本句語境不同。"
+        "require-mcq-05": "本句的「requires」指「完成／發展某事需要時間」。",
+        "require-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-05"
     },
@@ -2673,11 +2657,9 @@ export default {
       "masked": "Building trust ____ effort.",
       "options": [
         "require-mcq-06",
-        "require-mcq-05",
-        "require-mcq-07",
-        "require-mcq-04",
-        "require-mcq-08",
-        "require-mcq-03"
+        "require-mcq-69",
+        "require-mcq-77",
+        "require-mcq-38"
       ],
       "explanation": "本句的「requires」指「需要付出努力」。",
       "sentenceIndex": 7,
@@ -2686,12 +2668,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-06": "本句指「需要付出努力」。",
-        "require-mcq-05": "「完成／發展某事需要時間」與本句語境不同。",
-        "require-mcq-07": "「某問題需要立即關注／處理」與本句語境不同。",
-        "require-mcq-04": "「必須仔細思考才能處理」與本句語境不同。",
-        "require-mcq-08": "「某事需要進一步考慮」與本句語境不同。",
-        "require-mcq-03": "「某工作／任務需要特定技巧」與本句語境不同。"
+        "require-mcq-06": "本句的「requires」指「需要付出努力」。",
+        "require-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-06"
     },
@@ -2703,11 +2683,9 @@ export default {
       "masked": "This problem ____ immediate attention.",
       "options": [
         "require-mcq-07",
-        "require-mcq-06",
-        "require-mcq-08",
-        "require-mcq-05",
-        "require-mcq-09",
-        "require-mcq-04"
+        "require-mcq-18",
+        "require-mcq-75",
+        "require-mcq-61"
       ],
       "explanation": "本句的「requires」指「某問題需要立即關注／處理」。",
       "sentenceIndex": 8,
@@ -2716,12 +2694,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-07": "本句指「某問題需要立即關注／處理」。",
-        "require-mcq-06": "「需要付出努力」與本句語境不同。",
-        "require-mcq-08": "「某事需要進一步考慮」與本句語境不同。",
-        "require-mcq-05": "「完成／發展某事需要時間」與本句語境不同。",
-        "require-mcq-09": "「某現象需要解釋」與本句語境不同。",
-        "require-mcq-04": "「必須仔細思考才能處理」與本句語境不同。"
+        "require-mcq-07": "本句的「requires」指「某問題需要立即關注／處理」。",
+        "require-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-07"
     },
@@ -2733,11 +2709,9 @@ export default {
       "masked": "The issue ____ further consideration.",
       "options": [
         "require-mcq-08",
-        "require-mcq-07",
-        "require-mcq-09",
-        "require-mcq-06",
-        "require-mcq-10",
-        "require-mcq-05"
+        "require-mcq-95",
+        "require-mcq-33",
+        "require-mcq-38"
       ],
       "explanation": "本句的「requires」指「某事需要進一步考慮」。",
       "sentenceIndex": 9,
@@ -2746,12 +2720,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-08": "本句指「某事需要進一步考慮」。",
-        "require-mcq-07": "「某問題需要立即關注／處理」與本句語境不同。",
-        "require-mcq-09": "「某現象需要解釋」與本句語境不同。",
-        "require-mcq-06": "「需要付出努力」與本句語境不同。",
-        "require-mcq-10": "「某事需要進一步調查」與本句語境不同。",
-        "require-mcq-05": "「完成／發展某事需要時間」與本句語境不同。"
+        "require-mcq-08": "本句的「requires」指「某事需要進一步考慮」。",
+        "require-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-08"
     },
@@ -2763,11 +2735,8 @@ export default {
       "masked": "The sudden change ____ explanation.",
       "options": [
         "require-mcq-09",
-        "require-mcq-08",
-        "require-mcq-10",
-        "require-mcq-07",
-        "require-mcq-11",
-        "require-mcq-06"
+        "require-mcq-69",
+        "require-mcq-77"
       ],
       "explanation": "本句的「requires」指「某現象需要解釋」。",
       "sentenceIndex": 10,
@@ -2776,12 +2745,9 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-09": "本句指「某現象需要解釋」。",
-        "require-mcq-08": "「某事需要進一步考慮」與本句語境不同。",
-        "require-mcq-10": "「某事需要進一步調查」與本句語境不同。",
-        "require-mcq-07": "「某問題需要立即關注／處理」與本句語境不同。",
-        "require-mcq-11": "「情況需要採取行動」與本句語境不同。",
-        "require-mcq-06": "「需要付出努力」與本句語境不同。"
+        "require-mcq-09": "本句的「requires」指「某現象需要解釋」。",
+        "require-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-09"
     },
@@ -2793,11 +2759,9 @@ export default {
       "masked": "The situation ____ urgent action.",
       "options": [
         "require-mcq-11",
-        "require-mcq-10",
-        "require-mcq-12",
-        "require-mcq-09",
-        "require-mcq-13",
-        "require-mcq-08"
+        "require-mcq-26",
+        "require-mcq-77",
+        "require-mcq-38"
       ],
       "explanation": "本句的「requires」指「情況需要採取行動」。",
       "sentenceIndex": 11,
@@ -2806,12 +2770,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-11": "本句指「情況需要採取行動」。",
-        "require-mcq-10": "「某事需要進一步調查」與本句語境不同。",
-        "require-mcq-12": "「某事需要有人回應」與本句語境不同。",
-        "require-mcq-09": "「某現象需要解釋」與本句語境不同。",
-        "require-mcq-13": "「某物需要維修／保養」與本句語境不同。",
-        "require-mcq-08": "「某事需要進一步考慮」與本句語境不同。"
+        "require-mcq-11": "本句的「requires」指「情況需要採取行動」。",
+        "require-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-11"
     },
@@ -2823,11 +2785,9 @@ export default {
       "masked": "Not every comment ____ a response.",
       "options": [
         "require-mcq-12",
-        "require-mcq-11",
-        "require-mcq-13",
-        "require-mcq-10",
-        "require-mcq-14",
-        "require-mcq-09"
+        "require-mcq-49",
+        "require-mcq-22",
+        "require-mcq-75"
       ],
       "explanation": "本句的「requires」指「某事需要有人回應」。",
       "sentenceIndex": 12,
@@ -2836,12 +2796,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-12": "本句指「某事需要有人回應」。",
-        "require-mcq-11": "「情況需要採取行動」與本句語境不同。",
-        "require-mcq-13": "「某物需要維修／保養」與本句語境不同。",
-        "require-mcq-10": "「某事需要進一步調查」與本句語境不同。",
-        "require-mcq-14": "「病況／傷勢需要治療」與本句語境不同。",
-        "require-mcq-09": "「某現象需要解釋」與本句語境不同。"
+        "require-mcq-12": "本句的「requires」指「某事需要有人回應」。",
+        "require-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-12"
     },
@@ -2853,11 +2811,9 @@ export default {
       "masked": "The injury may ____ treatment.",
       "options": [
         "require-mcq-14",
-        "require-mcq-13",
-        "require-mcq-15",
-        "require-mcq-12",
-        "require-mcq-16",
-        "require-mcq-11"
+        "require-mcq-26",
+        "require-mcq-33",
+        "require-mcq-75"
       ],
       "explanation": "本句的「require」指「病況／傷勢需要治療」。",
       "sentenceIndex": 14,
@@ -2866,12 +2822,10 @@ export default {
         "require"
       ],
       "optionReasons": {
-        "require-mcq-14": "本句指「病況／傷勢需要治療」。",
-        "require-mcq-13": "「某物需要維修／保養」與本句語境不同。",
-        "require-mcq-15": "「正式：需要協助」與本句語境不同。",
-        "require-mcq-12": "「某事需要有人回應」與本句語境不同。",
-        "require-mcq-16": "「需要監督／看管」與本句語境不同。",
-        "require-mcq-11": "「情況需要採取行動」與本句語境不同。"
+        "require-mcq-14": "本句的「require」指「病況／傷勢需要治療」。",
+        "require-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-14"
     },
@@ -2883,11 +2837,9 @@ export default {
       "masked": "Please ask if you ____ assistance.",
       "options": [
         "require-mcq-15",
-        "require-mcq-14",
-        "require-mcq-16",
-        "require-mcq-13",
-        "require-mcq-17",
-        "require-mcq-12"
+        "require-mcq-49",
+        "require-mcq-33",
+        "require-mcq-38"
       ],
       "explanation": "本句的「require」指「正式：需要協助」。",
       "sentenceIndex": 15,
@@ -2896,12 +2848,10 @@ export default {
         "require"
       ],
       "optionReasons": {
-        "require-mcq-15": "本句指「正式：需要協助」。",
-        "require-mcq-14": "「病況／傷勢需要治療」與本句語境不同。",
-        "require-mcq-16": "「需要監督／看管」與本句語境不同。",
-        "require-mcq-13": "「某物需要維修／保養」與本句語境不同。",
-        "require-mcq-17": "「必須先取得許可／批准」與本句語境不同。",
-        "require-mcq-12": "「某事需要有人回應」與本句語境不同。"
+        "require-mcq-15": "本句的「require」指「正式：需要協助」。",
+        "require-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-15"
     },
@@ -2913,11 +2863,9 @@ export default {
       "masked": "Young children ____ supervision.",
       "options": [
         "require-mcq-16",
-        "require-mcq-15",
-        "require-mcq-17",
-        "require-mcq-14",
-        "require-mcq-18",
-        "require-mcq-13"
+        "require-mcq-50",
+        "require-mcq-64",
+        "require-mcq-38"
       ],
       "explanation": "本句的「require」指「需要監督／看管」。",
       "sentenceIndex": 16,
@@ -2926,12 +2874,10 @@ export default {
         "require"
       ],
       "optionReasons": {
-        "require-mcq-16": "本句指「需要監督／看管」。",
-        "require-mcq-15": "「正式：需要協助」與本句語境不同。",
-        "require-mcq-17": "「必須先取得許可／批准」與本句語境不同。",
-        "require-mcq-14": "「病況／傷勢需要治療」與本句語境不同。",
-        "require-mcq-18": "「必須取得相關人士同意」與本句語境不同。",
-        "require-mcq-13": "「某物需要維修／保養」與本句語境不同。"
+        "require-mcq-16": "本句的「require」指「需要監督／看管」。",
+        "require-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-16"
     },
@@ -2943,11 +2889,9 @@ export default {
       "masked": "Participation ____ parental consent.",
       "options": [
         "require-mcq-18",
-        "require-mcq-17",
-        "require-mcq-19",
-        "require-mcq-16",
-        "require-mcq-20",
-        "require-mcq-15"
+        "require-mcq-54",
+        "require-mcq-07",
+        "require-mcq-38"
       ],
       "explanation": "本句的「requires」指「必須取得相關人士同意」。",
       "sentenceIndex": 18,
@@ -2956,12 +2900,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-18": "本句指「必須取得相關人士同意」。",
-        "require-mcq-17": "「必須先取得許可／批准」與本句語境不同。",
-        "require-mcq-19": "「必須提供相關文件」與本句語境不同。",
-        "require-mcq-16": "「需要監督／看管」與本句語境不同。",
-        "require-mcq-20": "「需要出示身分證明」與本句語境不同。",
-        "require-mcq-15": "「正式：需要協助」與本句語境不同。"
+        "require-mcq-18": "本句的「requires」指「必須取得相關人士同意」。",
+        "require-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-18"
     },
@@ -2973,11 +2915,9 @@ export default {
       "masked": "The application ____ additional documentation.",
       "options": [
         "require-mcq-19",
-        "require-mcq-18",
-        "require-mcq-20",
-        "require-mcq-17",
-        "require-mcq-21",
-        "require-mcq-16"
+        "require-mcq-54",
+        "require-mcq-07",
+        "require-mcq-38"
       ],
       "explanation": "本句的「requires」指「必須提供相關文件」。",
       "sentenceIndex": 19,
@@ -2986,12 +2926,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-19": "本句指「必須提供相關文件」。",
-        "require-mcq-18": "「必須取得相關人士同意」與本句語境不同。",
-        "require-mcq-20": "「需要出示身分證明」與本句語境不同。",
-        "require-mcq-17": "「必須先取得許可／批准」與本句語境不同。",
-        "require-mcq-21": "「必須付款才能完成程序」與本句語境不同。",
-        "require-mcq-16": "「需要監督／看管」與本句語境不同。"
+        "require-mcq-19": "本句的「requires」指「必須提供相關文件」。",
+        "require-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-19"
     },
@@ -3003,11 +2941,7 @@ export default {
       "masked": "Registration ____ payment in advance.",
       "options": [
         "require-mcq-21",
-        "require-mcq-20",
-        "require-mcq-22",
-        "require-mcq-19",
-        "require-mcq-23",
-        "require-mcq-18"
+        "require-mcq-200"
       ],
       "explanation": "本句的「requires」指「必須付款才能完成程序」。",
       "sentenceIndex": 20,
@@ -3016,12 +2950,8 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-21": "本句指「必須付款才能完成程序」。",
-        "require-mcq-20": "「需要出示身分證明」與本句語境不同。",
-        "require-mcq-22": "「工作／資格要求具備相關經驗」與本句語境不同。",
-        "require-mcq-19": "「必須提供相關文件」與本句語境不同。",
-        "require-mcq-23": "「要求具備指定資格／資歷」與本句語境不同。",
-        "require-mcq-18": "「必須取得相關人士同意」與本句語境不同。"
+        "require-mcq-21": "本句的「requires」指「必須付款才能完成程序」。",
+        "require-mcq-200": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-21"
     },
@@ -3033,11 +2963,9 @@ export default {
       "masked": "The position ____ three years of experience.",
       "options": [
         "require-mcq-22",
-        "require-mcq-21",
-        "require-mcq-23",
-        "require-mcq-20",
-        "require-mcq-24",
-        "require-mcq-19"
+        "require-mcq-26",
+        "require-mcq-38",
+        "require-mcq-06"
       ],
       "explanation": "本句的「requires」指「工作／資格要求具備相關經驗」。",
       "sentenceIndex": 21,
@@ -3046,12 +2974,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-22": "本句指「工作／資格要求具備相關經驗」。",
-        "require-mcq-21": "「必須付款才能完成程序」與本句語境不同。",
-        "require-mcq-23": "「要求具備指定資格／資歷」與本句語境不同。",
-        "require-mcq-20": "「需要出示身分證明」與本句語境不同。",
-        "require-mcq-24": "「要求具備某方面知識」與本句語境不同。",
-        "require-mcq-19": "「必須提供相關文件」與本句語境不同。"
+        "require-mcq-22": "本句的「requires」指「工作／資格要求具備相關經驗」。",
+        "require-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-22"
     },
@@ -3063,11 +2989,9 @@ export default {
       "masked": "The job ____ knowledge of accounting.",
       "options": [
         "require-mcq-24",
-        "require-mcq-23",
-        "require-mcq-25",
-        "require-mcq-22",
-        "require-mcq-26",
-        "require-mcq-21"
+        "require-mcq-30",
+        "require-mcq-38",
+        "require-mcq-06"
       ],
       "explanation": "本句的「requires」指「要求具備某方面知識」。",
       "sentenceIndex": 22,
@@ -3076,12 +3000,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-24": "本句指「要求具備某方面知識」。",
-        "require-mcq-23": "「要求具備指定資格／資歷」與本句語境不同。",
-        "require-mcq-25": "「工作本身需要／要求出差」與本句語境不同。",
-        "require-mcq-22": "「工作／資格要求具備相關經驗」與本句語境不同。",
-        "require-mcq-26": "「規定必須出席」與本句語境不同。",
-        "require-mcq-21": "「必須付款才能完成程序」與本句語境不同。"
+        "require-mcq-24": "本句的「requires」指「要求具備某方面知識」。",
+        "require-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-24"
     },
@@ -3093,11 +3015,9 @@ export default {
       "masked": "The role ____ frequent travel.",
       "options": [
         "require-mcq-25",
-        "require-mcq-24",
-        "require-mcq-26",
-        "require-mcq-23",
-        "require-mcq-27",
-        "require-mcq-22"
+        "require-mcq-30",
+        "require-mcq-38",
+        "require-mcq-75"
       ],
       "explanation": "本句的「requires」指「工作本身需要／要求出差」。",
       "sentenceIndex": 23,
@@ -3106,12 +3026,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-25": "本句指「工作本身需要／要求出差」。",
-        "require-mcq-24": "「要求具備某方面知識」與本句語境不同。",
-        "require-mcq-26": "「規定必須出席」與本句語境不同。",
-        "require-mcq-23": "「要求具備指定資格／資歷」與本句語境不同。",
-        "require-mcq-27": "「正式要求／規定某人必須做某事」與本句語境不同。",
-        "require-mcq-22": "「工作／資格要求具備相關經驗」與本句語境不同。"
+        "require-mcq-25": "本句的「requires」指「工作本身需要／要求出差」。",
+        "require-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-25"
     },
@@ -3123,11 +3041,8 @@ export default {
       "masked": "The course ____ regular attendance.",
       "options": [
         "require-mcq-26",
-        "require-mcq-25",
-        "require-mcq-27",
-        "require-mcq-24",
-        "require-mcq-28",
-        "require-mcq-23"
+        "require-mcq-09",
+        "require-mcq-77"
       ],
       "explanation": "本句的「requires」指「規定必須出席」。",
       "sentenceIndex": 24,
@@ -3136,12 +3051,9 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-26": "本句指「規定必須出席」。",
-        "require-mcq-25": "「工作本身需要／要求出差」與本句語境不同。",
-        "require-mcq-27": "「正式要求／規定某人必須做某事」與本句語境不同。",
-        "require-mcq-24": "「要求具備某方面知識」與本句語境不同。",
-        "require-mcq-28": "「因規則、法律、條件等而必須做某事」與本句語境不同。",
-        "require-mcq-23": "「要求具備指定資格／資歷」與本句語境不同。"
+        "require-mcq-26": "本句的「requires」指「規定必須出席」。",
+        "require-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-26"
     },
@@ -3153,11 +3065,9 @@ export default {
       "masked": "The teacher ____ students to explain their choices.",
       "options": [
         "require-mcq-27",
-        "require-mcq-26",
-        "require-mcq-28",
-        "require-mcq-25",
-        "require-mcq-29",
-        "require-mcq-24"
+        "require-mcq-38",
+        "require-mcq-11",
+        "require-mcq-75"
       ],
       "explanation": "本句的「required」指「正式要求／規定某人必須做某事」。",
       "sentenceIndex": 25,
@@ -3166,12 +3076,10 @@ export default {
         "required"
       ],
       "optionReasons": {
-        "require-mcq-27": "本句指「正式要求／規定某人必須做某事」。",
-        "require-mcq-26": "「規定必須出席」與本句語境不同。",
-        "require-mcq-28": "「因規則、法律、條件等而必須做某事」與本句語境不同。",
-        "require-mcq-25": "「工作本身需要／要求出差」與本句語境不同。",
-        "require-mcq-29": "「依法必須做某事」與本句語境不同。",
-        "require-mcq-24": "「要求具備某方面知識」與本句語境不同。"
+        "require-mcq-27": "本句的「required」指「正式要求／規定某人必須做某事」。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-27"
     },
@@ -3183,11 +3091,9 @@ export default {
       "masked": "The law ____ employers to keep records.",
       "options": [
         "require-mcq-27",
-        "require-mcq-26",
-        "require-mcq-28",
-        "require-mcq-25",
-        "require-mcq-29",
-        "require-mcq-24"
+        "require-mcq-38",
+        "require-mcq-11",
+        "require-mcq-75"
       ],
       "explanation": "本句的「requires」指「正式要求／規定某人必須做某事」。",
       "sentenceIndex": 26,
@@ -3196,12 +3102,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-27": "本句指「正式要求／規定某人必須做某事」。",
-        "require-mcq-26": "「規定必須出席」與本句語境不同。",
-        "require-mcq-28": "「因規則、法律、條件等而必須做某事」與本句語境不同。",
-        "require-mcq-25": "「工作本身需要／要求出差」與本句語境不同。",
-        "require-mcq-29": "「依法必須做某事」與本句語境不同。",
-        "require-mcq-24": "「要求具備某方面知識」與本句語境不同。"
+        "require-mcq-27": "本句的「requires」指「正式要求／規定某人必須做某事」。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-27"
     },
@@ -3213,11 +3117,9 @@ export default {
       "masked": "Students are ____ to submit a reflection.",
       "options": [
         "require-mcq-28",
-        "require-mcq-27",
-        "require-mcq-29",
-        "require-mcq-26",
-        "require-mcq-30",
-        "require-mcq-25"
+        "require-mcq-38",
+        "require-mcq-36",
+        "require-mcq-77"
       ],
       "explanation": "本句的「required」指「因規則、法律、條件等而必須做某事」。",
       "sentenceIndex": 27,
@@ -3226,12 +3128,10 @@ export default {
         "required"
       ],
       "optionReasons": {
-        "require-mcq-28": "本句指「因規則、法律、條件等而必須做某事」。",
-        "require-mcq-27": "「正式要求／規定某人必須做某事」與本句語境不同。",
-        "require-mcq-29": "「依法必須做某事」與本句語境不同。",
-        "require-mcq-26": "「規定必須出席」與本句語境不同。",
-        "require-mcq-30": "「法律明文規定必須的」與本句語境不同。",
-        "require-mcq-25": "「工作本身需要／要求出差」與本句語境不同。"
+        "require-mcq-28": "本句的「required」指「因規則、法律、條件等而必須做某事」。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-28"
     },
@@ -3243,11 +3143,7 @@ export default {
       "masked": "Visitors are ____ to show identification.",
       "options": [
         "require-mcq-28",
-        "require-mcq-27",
-        "require-mcq-29",
-        "require-mcq-26",
-        "require-mcq-30",
-        "require-mcq-25"
+        "require-mcq-41"
       ],
       "explanation": "本句的「required」指「因規則、法律、條件等而必須做某事」。",
       "sentenceIndex": 28,
@@ -3256,12 +3152,8 @@ export default {
         "required"
       ],
       "optionReasons": {
-        "require-mcq-28": "本句指「因規則、法律、條件等而必須做某事」。",
-        "require-mcq-27": "「正式要求／規定某人必須做某事」與本句語境不同。",
-        "require-mcq-29": "「依法必須做某事」與本句語境不同。",
-        "require-mcq-26": "「規定必須出席」與本句語境不同。",
-        "require-mcq-30": "「法律明文規定必須的」與本句語境不同。",
-        "require-mcq-25": "「工作本身需要／要求出差」與本句語境不同。"
+        "require-mcq-28": "本句的「required」指「因規則、法律、條件等而必須做某事」。",
+        "require-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-28"
     },
@@ -3273,11 +3165,9 @@ export default {
       "masked": "The disclosure is legally ____.",
       "options": [
         "require-mcq-30",
-        "require-mcq-29",
-        "require-mcq-31",
-        "require-mcq-28",
-        "require-mcq-32",
-        "require-mcq-27"
+        "require-mcq-14",
+        "require-mcq-33",
+        "require-mcq-38"
       ],
       "explanation": "本句的「required」指「法律明文規定必須的」。",
       "sentenceIndex": 30,
@@ -3286,12 +3176,10 @@ export default {
         "required"
       ],
       "optionReasons": {
-        "require-mcq-30": "本句指「法律明文規定必須的」。",
-        "require-mcq-29": "「依法必須做某事」與本句語境不同。",
-        "require-mcq-31": "「根據政策／合約必須履行的」與本句語境不同。",
-        "require-mcq-28": "「因規則、法律、條件等而必須做某事」與本句語境不同。",
-        "require-mcq-32": "「正式：要求某人表現／提供某項品質、能力或行動」與本句語境不同。",
-        "require-mcq-27": "「正式要求／規定某人必須做某事」與本句語境不同。"
+        "require-mcq-30": "本句的「required」指「法律明文規定必須的」。",
+        "require-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-30"
     },
@@ -3303,11 +3191,9 @@ export default {
       "masked": "Much is ____ of teachers.",
       "options": [
         "require-mcq-33",
-        "require-mcq-32",
-        "require-mcq-34",
-        "require-mcq-31",
-        "require-mcq-35",
-        "require-mcq-30"
+        "require-mcq-49",
+        "require-mcq-38",
+        "require-mcq-14"
       ],
       "explanation": "本句的「required」指「某人被期待／被要求做到某事」。",
       "sentenceIndex": 31,
@@ -3316,12 +3202,10 @@ export default {
         "required"
       ],
       "optionReasons": {
-        "require-mcq-33": "本句指「某人被期待／被要求做到某事」。",
-        "require-mcq-32": "「正式：要求某人表現／提供某項品質、能力或行動」與本句語境不同。",
-        "require-mcq-34": "「正式規定／要求某情況必須成立」與本句語境不同。",
-        "require-mcq-31": "「根據政策／合約必須履行的」與本句語境不同。",
-        "require-mcq-35": "「正式美式：require that X be/do...＝規定 X 必須……」與本句語境不同。",
-        "require-mcq-30": "「法律明文規定必須的」與本句語境不同。"
+        "require-mcq-33": "本句的「required」指「某人被期待／被要求做到某事」。",
+        "require-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-33"
     },
@@ -3333,11 +3217,9 @@ export default {
       "masked": "What exactly is ____ of me?",
       "options": [
         "require-mcq-33",
-        "require-mcq-32",
-        "require-mcq-34",
-        "require-mcq-31",
-        "require-mcq-35",
-        "require-mcq-30"
+        "require-mcq-86",
+        "require-mcq-38",
+        "require-mcq-06"
       ],
       "explanation": "本句的「required」指「某人被期待／被要求做到某事」。",
       "sentenceIndex": 32,
@@ -3346,12 +3228,10 @@ export default {
         "required"
       ],
       "optionReasons": {
-        "require-mcq-33": "本句指「某人被期待／被要求做到某事」。",
-        "require-mcq-32": "「正式：要求某人表現／提供某項品質、能力或行動」與本句語境不同。",
-        "require-mcq-34": "「正式規定／要求某情況必須成立」與本句語境不同。",
-        "require-mcq-31": "「根據政策／合約必須履行的」與本句語境不同。",
-        "require-mcq-35": "「正式美式：require that X be/do...＝規定 X 必須……」與本句語境不同。",
-        "require-mcq-30": "「法律明文規定必須的」與本句語境不同。"
+        "require-mcq-33": "本句的「required」指「某人被期待／被要求做到某事」。",
+        "require-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-33"
     },
@@ -3363,11 +3243,9 @@ export default {
       "masked": "The house ____ painting.",
       "options": [
         "require-mcq-36",
-        "require-mcq-35",
-        "require-mcq-37",
-        "require-mcq-34",
-        "require-mcq-38",
-        "require-mcq-33"
+        "require-mcq-49",
+        "require-mcq-22",
+        "require-mcq-38"
       ],
       "explanation": "本句的「requires」指「尤其英式：需要被處理，例如 requires painting＝需要粉刷」。",
       "sentenceIndex": 35,
@@ -3376,12 +3254,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-36": "本句指「尤其英式：需要被處理，例如 requires painting＝需要粉刷」。",
-        "require-mcq-35": "「正式美式：require that X be/do...＝規定 X 必須……」與本句語境不同。",
-        "require-mcq-37": "「正式／部分英式：需要被……」與本句語境不同。",
-        "require-mcq-34": "「正式規定／要求某情況必須成立」與本句語境不同。",
-        "require-mcq-38": "「無需解釋」與本句語境不同。",
-        "require-mcq-33": "「某人被期待／被要求做到某事」與本句語境不同。"
+        "require-mcq-36": "本句的「requires」指「尤其英式：需要被處理，例如 requires painting＝需要粉刷」。",
+        "require-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-36"
     },
@@ -3393,11 +3269,9 @@ export default {
       "masked": "The issue ____ investigating.",
       "options": [
         "require-mcq-36",
-        "require-mcq-35",
-        "require-mcq-37",
-        "require-mcq-34",
+        "require-mcq-30",
         "require-mcq-38",
-        "require-mcq-33"
+        "require-mcq-75"
       ],
       "explanation": "本句的「requires」指「尤其英式：需要被處理，例如 requires painting＝需要粉刷」。",
       "sentenceIndex": 36,
@@ -3406,12 +3280,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-36": "本句指「尤其英式：需要被處理，例如 requires painting＝需要粉刷」。",
-        "require-mcq-35": "「正式美式：require that X be/do...＝規定 X 必須……」與本句語境不同。",
-        "require-mcq-37": "「正式／部分英式：需要被……」與本句語境不同。",
-        "require-mcq-34": "「正式規定／要求某情況必須成立」與本句語境不同。",
-        "require-mcq-38": "「無需解釋」與本句語境不同。",
-        "require-mcq-33": "「某人被期待／被要求做到某事」與本句語境不同。"
+        "require-mcq-36": "本句的「requires」指「尤其英式：需要被處理，例如 requires painting＝需要粉刷」。",
+        "require-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-36"
     },
@@ -3423,11 +3295,9 @@ export default {
       "masked": "The basic idea ____ no explanation.",
       "options": [
         "require-mcq-38",
-        "require-mcq-37",
-        "require-mcq-39",
-        "require-mcq-36",
-        "require-mcq-40",
-        "require-mcq-35"
+        "require-mcq-33",
+        "require-mcq-50",
+        "require-mcq-75"
       ],
       "explanation": "本句的「requires」指「無需解釋」。",
       "sentenceIndex": 38,
@@ -3436,12 +3306,10 @@ export default {
         "requires"
       ],
       "optionReasons": {
-        "require-mcq-38": "本句指「無需解釋」。",
-        "require-mcq-37": "「正式／部分英式：需要被……」與本句語境不同。",
-        "require-mcq-39": "「按需要、有需要時」與本句語境不同。",
-        "require-mcq-36": "「尤其英式：需要被處理，例如 requires painting＝需要粉刷」與本句語境不同。",
-        "require-mcq-40": "「按規定」與本句語境不同。",
-        "require-mcq-35": "「正式美式：require that X be/do...＝規定 X 必須……」與本句語境不同。"
+        "require-mcq-38": "本句的「requires」指「無需解釋」。",
+        "require-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-38"
     },
@@ -3453,11 +3321,9 @@ export default {
       "masked": "Additional support will be provided as ____.",
       "options": [
         "require-mcq-39",
+        "require-mcq-95",
         "require-mcq-38",
-        "require-mcq-40",
-        "require-mcq-37",
-        "require-mcq-41",
-        "require-mcq-36"
+        "require-mcq-64"
       ],
       "explanation": "本句的「required」指「按需要、有需要時」。",
       "sentenceIndex": 39,
@@ -3466,12 +3332,10 @@ export default {
         "required"
       ],
       "optionReasons": {
-        "require-mcq-39": "本句指「按需要、有需要時」。",
-        "require-mcq-38": "「無需解釋」與本句語境不同。",
-        "require-mcq-40": "「按規定」與本句語境不同。",
-        "require-mcq-37": "「正式／部分英式：需要被……」與本句語境不同。",
-        "require-mcq-41": "「如有需要」與本句語境不同。",
-        "require-mcq-36": "「尤其英式：需要被處理，例如 requires painting＝需要粉刷」與本句語境不同。"
+        "require-mcq-39": "本句的「required」指「按需要、有需要時」。",
+        "require-mcq-95": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-39"
     },
@@ -3483,11 +3347,9 @@ export default {
       "masked": "Submit the documents as ____.",
       "options": [
         "require-mcq-39",
-        "require-mcq-38",
-        "require-mcq-40",
-        "require-mcq-37",
-        "require-mcq-41",
-        "require-mcq-36"
+        "require-mcq-86",
+        "require-mcq-75",
+        "require-mcq-38"
       ],
       "explanation": "本句的「required」指「按需要、有需要時」。",
       "sentenceIndex": 40,
@@ -3496,12 +3358,10 @@ export default {
         "required"
       ],
       "optionReasons": {
-        "require-mcq-39": "本句指「按需要、有需要時」。",
-        "require-mcq-38": "「無需解釋」與本句語境不同。",
-        "require-mcq-40": "「按規定」與本句語境不同。",
-        "require-mcq-37": "「正式／部分英式：需要被……」與本句語境不同。",
-        "require-mcq-41": "「如有需要」與本句語境不同。",
-        "require-mcq-36": "「尤其英式：需要被處理，例如 requires painting＝需要粉刷」與本句語境不同。"
+        "require-mcq-39": "本句的「required」指「按需要、有需要時」。",
+        "require-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-39"
     },
@@ -3513,11 +3373,7 @@ export default {
       "masked": "Additional information can be supplied if ____.",
       "options": [
         "require-mcq-41",
-        "require-mcq-40",
-        "require-mcq-42",
-        "require-mcq-39",
-        "require-mcq-43",
-        "require-mcq-38"
+        "require-mcq-59"
       ],
       "explanation": "本句的「required」指「如有需要」。",
       "sentenceIndex": 41,
@@ -3526,12 +3382,8 @@ export default {
         "required"
       ],
       "optionReasons": {
-        "require-mcq-41": "本句指「如有需要」。",
-        "require-mcq-40": "「按規定」與本句語境不同。",
-        "require-mcq-42": "「在有需要／規定時」與本句語境不同。",
-        "require-mcq-39": "「按需要、有需要時」與本句語境不同。",
-        "require-mcq-43": "「規定必須完成／提供的」與本句語境不同。",
-        "require-mcq-38": "「無需解釋」與本句語境不同。"
+        "require-mcq-41": "本句的「required」指「如有需要」。",
+        "require-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-41"
     },
@@ -3543,11 +3395,9 @@ export default {
       "masked": "Fields marked with an asterisk are ____.",
       "options": [
         "require-mcq-45",
-        "require-mcq-44",
-        "require-mcq-46",
-        "require-mcq-43",
-        "require-mcq-47",
-        "require-mcq-42"
+        "require-mcq-36",
+        "require-mcq-24",
+        "require-mcq-38"
       ],
       "explanation": "本句的「required」指「表格／軟體中必須填寫的必填欄位」。",
       "sentenceIndex": 44,
@@ -3556,12 +3406,10 @@ export default {
         "required"
       ],
       "optionReasons": {
-        "require-mcq-45": "本句指「表格／軟體中必須填寫的必填欄位」。",
-        "require-mcq-44": "「為某用途所需的」與本句語境不同。",
-        "require-mcq-46": "「必須提供的資料」與本句語境不同。",
-        "require-mcq-43": "「規定必須完成／提供的」與本句語境不同。",
-        "require-mcq-47": "「申請／程序必須提交的文件」與本句語境不同。",
-        "require-mcq-42": "「在有需要／規定時」與本句語境不同。"
+        "require-mcq-45": "本句的「required」指「表格／軟體中必須填寫的必填欄位」。",
+        "require-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-45"
     },
@@ -3573,11 +3421,9 @@ export default {
       "masked": "The work did not reach the ____ standard.",
       "options": [
         "require-mcq-49",
-        "require-mcq-48",
-        "require-mcq-50",
-        "require-mcq-47",
-        "require-mcq-51",
-        "require-mcq-46"
+        "require-mcq-25",
+        "require-mcq-38",
+        "require-mcq-75"
       ],
       "explanation": "本句的「required」指「必須達到的水平／標準」。",
       "sentenceIndex": 45,
@@ -3586,12 +3432,10 @@ export default {
         "required"
       ],
       "optionReasons": {
-        "require-mcq-49": "本句指「必須達到的水平／標準」。",
-        "require-mcq-48": "「職位／課程規定的必要資格」與本句語境不同。",
-        "require-mcq-50": "「課程指定必須閱讀的材料」與本句語境不同。",
-        "require-mcq-47": "「申請／程序必須提交的文件」與本句語境不同。",
-        "require-mcq-51": "「對某領域人士而言極重要、堪稱必讀的資料」與本句語境不同。",
-        "require-mcq-46": "「必須提供的資料」與本句語境不同。"
+        "require-mcq-49": "本句的「required」指「必須達到的水平／標準」。",
+        "require-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-49"
     },
@@ -3603,11 +3447,9 @@ export default {
       "masked": "The novel is ____ reading for the course.",
       "options": [
         "require-mcq-50",
-        "require-mcq-49",
-        "require-mcq-51",
-        "require-mcq-48",
-        "require-mcq-52",
-        "require-mcq-47"
+        "require-mcq-36",
+        "require-mcq-38",
+        "require-mcq-77"
       ],
       "explanation": "本句的「required」指「課程指定必須閱讀的材料」。",
       "sentenceIndex": 46,
@@ -3616,12 +3458,10 @@ export default {
         "required"
       ],
       "optionReasons": {
-        "require-mcq-50": "本句指「課程指定必須閱讀的材料」。",
-        "require-mcq-49": "「必須達到的水平／標準」與本句語境不同。",
-        "require-mcq-51": "「對某領域人士而言極重要、堪稱必讀的資料」與本句語境不同。",
-        "require-mcq-48": "「職位／課程規定的必要資格」與本句語境不同。",
-        "require-mcq-52": "「必修課／必修科」與本句語境不同。",
-        "require-mcq-47": "「申請／程序必須提交的文件」與本句語境不同。"
+        "require-mcq-50": "本句的「required」指「課程指定必須閱讀的材料」。",
+        "require-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-50"
     },
@@ -3633,11 +3473,9 @@ export default {
       "masked": "The report should be ____ reading for managers.",
       "options": [
         "require-mcq-50",
-        "require-mcq-49",
-        "require-mcq-51",
-        "require-mcq-48",
-        "require-mcq-52",
-        "require-mcq-47"
+        "require-mcq-11",
+        "require-mcq-64",
+        "require-mcq-38"
       ],
       "explanation": "本句的「required」指「課程指定必須閱讀的材料」。",
       "sentenceIndex": 47,
@@ -3646,12 +3484,10 @@ export default {
         "required"
       ],
       "optionReasons": {
-        "require-mcq-50": "本句指「課程指定必須閱讀的材料」。",
-        "require-mcq-49": "「必須達到的水平／標準」與本句語境不同。",
-        "require-mcq-51": "「對某領域人士而言極重要、堪稱必讀的資料」與本句語境不同。",
-        "require-mcq-48": "「職位／課程規定的必要資格」與本句語境不同。",
-        "require-mcq-52": "「必修課／必修科」與本句語境不同。",
-        "require-mcq-47": "「申請／程序必須提交的文件」與本句語境不同。"
+        "require-mcq-50": "本句的「required」指「課程指定必須閱讀的材料」。",
+        "require-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-50"
     },
@@ -3663,11 +3499,9 @@ export default {
       "masked": "Applicants must have the minimum ____ score.",
       "options": [
         "require-mcq-54",
-        "require-mcq-53",
-        "require-mcq-55",
-        "require-mcq-52",
-        "require-mcq-56",
-        "require-mcq-51"
+        "require-mcq-38",
+        "require-mcq-18",
+        "require-mcq-05"
       ],
       "explanation": "本句的「required」指「最低要求水平／數量」。",
       "sentenceIndex": 48,
@@ -3676,12 +3510,10 @@ export default {
         "required"
       ],
       "optionReasons": {
-        "require-mcq-54": "本句指「最低要求水平／數量」。",
-        "require-mcq-53": "「必須完成的培訓」與本句語境不同。",
-        "require-mcq-55": "「某人／系統實際需要的資源、條件或能力；需求」與本句語境不同。",
-        "require-mcq-52": "「必修課／必修科」與本句語境不同。",
-        "require-mcq-56": "「必須滿足的規定／條件；要求」與本句語境不同。",
-        "require-mcq-51": "「對某領域人士而言極重要、堪稱必讀的資料」與本句語境不同。"
+        "require-mcq-54": "本句的「required」指「最低要求水平／數量」。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-54"
     },
@@ -3693,11 +3525,7 @@ export default {
       "masked": "A degree is a ____ for the job.",
       "options": [
         "require-mcq-200",
-        "require-mcq-199",
-        "require-mcq-201",
-        "require-mcq-198",
-        "require-mcq-202",
-        "require-mcq-197"
+        "require-mcq-18"
       ],
       "explanation": "本句的「requirement」指「需求；要求」。",
       "sentenceIndex": 51,
@@ -3706,12 +3534,8 @@ export default {
         "requirement"
       ],
       "optionReasons": {
-        "require-mcq-200": "本句指「需求；要求」。",
-        "require-mcq-199": "「使成為必要」與本句語境不同。",
-        "require-mcq-201": "「準則」與本句語境不同。",
-        "require-mcq-198": "「必然涉及」與本句語境不同。",
-        "require-mcq-202": "「標準」與本句語境不同。",
-        "require-mcq-197": "「涉及」與本句語境不同。"
+        "require-mcq-200": "本句的「requirement」指「需求；要求」。",
+        "require-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-200"
     },
@@ -3723,11 +3547,7 @@ export default {
       "masked": "Applicants must meet all ____.",
       "options": [
         "require-mcq-200",
-        "require-mcq-199",
-        "require-mcq-201",
-        "require-mcq-198",
-        "require-mcq-202",
-        "require-mcq-197"
+        "require-mcq-45"
       ],
       "explanation": "本句的「requirements」指「需求；要求」。",
       "sentenceIndex": 52,
@@ -3736,12 +3556,8 @@ export default {
         "requirements"
       ],
       "optionReasons": {
-        "require-mcq-200": "本句指「需求；要求」。",
-        "require-mcq-199": "「使成為必要」與本句語境不同。",
-        "require-mcq-201": "「準則」與本句語境不同。",
-        "require-mcq-198": "「必然涉及」與本句語境不同。",
-        "require-mcq-202": "「標準」與本句語境不同。",
-        "require-mcq-197": "「涉及」與本句語境不同。"
+        "require-mcq-200": "本句的「requirements」指「需求；要求」。",
+        "require-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-200"
     },
@@ -3753,11 +3569,9 @@ export default {
       "masked": "There is a legal ____ to keep records.",
       "options": [
         "require-mcq-59",
-        "require-mcq-58",
-        "require-mcq-60",
-        "require-mcq-57",
+        "require-mcq-14",
         "require-mcq-61",
-        "require-mcq-56"
+        "require-mcq-38"
       ],
       "explanation": "本句的「requirement」指「規定某人必須採取某行動」。",
       "sentenceIndex": 53,
@@ -3766,12 +3580,10 @@ export default {
         "requirement"
       ],
       "optionReasons": {
-        "require-mcq-59": "本句指「規定某人必須採取某行動」。",
-        "require-mcq-58": "「對某項資源／能力的需求」與本句語境不同。",
-        "require-mcq-60": "「某情況必須成立的正式規定」與本句語境不同。",
-        "require-mcq-57": "「取得／進行某事所需的必要條件」與本句語境不同。",
-        "require-mcq-61": "「符合某項要求」與本句語境不同。",
-        "require-mcq-56": "「必須滿足的規定／條件；要求」與本句語境不同。"
+        "require-mcq-59": "本句的「requirement」指「規定某人必須採取某行動」。",
+        "require-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-59"
     },
@@ -3783,11 +3595,9 @@ export default {
       "masked": "The ____ that all applicants provide ID remains in place.",
       "options": [
         "require-mcq-59",
-        "require-mcq-58",
-        "require-mcq-60",
-        "require-mcq-57",
-        "require-mcq-61",
-        "require-mcq-56"
+        "require-mcq-77",
+        "require-mcq-36",
+        "require-mcq-38"
       ],
       "explanation": "本句的「requirement」指「規定某人必須採取某行動」。",
       "sentenceIndex": 54,
@@ -3796,12 +3606,10 @@ export default {
         "requirement"
       ],
       "optionReasons": {
-        "require-mcq-59": "本句指「規定某人必須採取某行動」。",
-        "require-mcq-58": "「對某項資源／能力的需求」與本句語境不同。",
-        "require-mcq-60": "「某情況必須成立的正式規定」與本句語境不同。",
-        "require-mcq-57": "「取得／進行某事所需的必要條件」與本句語境不同。",
-        "require-mcq-61": "「符合某項要求」與本句語境不同。",
-        "require-mcq-56": "「必須滿足的規定／條件；要求」與本句語境不同。"
+        "require-mcq-59": "本句的「requirement」指「規定某人必須採取某行動」。",
+        "require-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-59"
     },
@@ -3813,11 +3621,9 @@ export default {
       "masked": "The applicant meets all the ____.",
       "options": [
         "require-mcq-61",
-        "require-mcq-60",
-        "require-mcq-62",
-        "require-mcq-59",
-        "require-mcq-63",
-        "require-mcq-58"
+        "require-mcq-30",
+        "require-mcq-38",
+        "require-mcq-11"
       ],
       "explanation": "本句的「requirements」指「符合某項要求」。",
       "sentenceIndex": 55,
@@ -3826,12 +3632,10 @@ export default {
         "requirements"
       ],
       "optionReasons": {
-        "require-mcq-61": "本句指「符合某項要求」。",
-        "require-mcq-60": "「某情況必須成立的正式規定」與本句語境不同。",
-        "require-mcq-62": "「正式：滿足／符合要求」與本句語境不同。",
-        "require-mcq-59": "「規定某人必須採取某行動」與本句語境不同。",
-        "require-mcq-63": "「履行或完成規定要求」與本句語境不同。",
-        "require-mcq-58": "「對某項資源／能力的需求」與本句語境不同。"
+        "require-mcq-61": "本句的「requirements」指「符合某項要求」。",
+        "require-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-61"
     },
@@ -3843,11 +3647,9 @@ export default {
       "masked": "Products must comply with safety ____.",
       "options": [
         "require-mcq-64",
-        "require-mcq-63",
-        "require-mcq-65",
-        "require-mcq-62",
-        "require-mcq-66",
-        "require-mcq-61"
+        "require-mcq-18",
+        "require-mcq-38",
+        "require-mcq-36"
       ],
       "explanation": "本句的「requirements」指「遵守法規／制度要求」。",
       "sentenceIndex": 56,
@@ -3856,12 +3658,10 @@ export default {
         "requirements"
       ],
       "optionReasons": {
-        "require-mcq-64": "本句指「遵守法規／制度要求」。",
-        "require-mcq-63": "「履行或完成規定要求」與本句語境不同。",
-        "require-mcq-65": "「未能符合要求」與本句語境不同。",
-        "require-mcq-62": "「正式：滿足／符合要求」與本句語境不同。",
-        "require-mcq-66": "「表現／規格高於最低要求」與本句語境不同。",
-        "require-mcq-61": "「符合某項要求」與本句語境不同。"
+        "require-mcq-64": "本句的「requirements」指「遵守法規／制度要求」。",
+        "require-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-64"
     },
@@ -3873,11 +3673,9 @@ export default {
       "masked": "The new rules impose additional ____.",
       "options": [
         "require-mcq-69",
-        "require-mcq-68",
-        "require-mcq-70",
-        "require-mcq-67",
-        "require-mcq-71",
-        "require-mcq-66"
+        "require-mcq-06",
+        "require-mcq-54",
+        "require-mcq-38"
       ],
       "explanation": "本句的「requirements」指「對人／機構施加新的必須條件」。",
       "sentenceIndex": 57,
@@ -3886,12 +3684,10 @@ export default {
         "requirements"
       ],
       "optionReasons": {
-        "require-mcq-69": "本句指「對人／機構施加新的必須條件」。",
-        "require-mcq-68": "「明確界定所需功能／條件」與本句語境不同。",
-        "require-mcq-70": "「收緊規定」與本句語境不同。",
-        "require-mcq-67": "「正式訂立必須符合的要求」與本句語境不同。",
-        "require-mcq-71": "「放寬規定」與本句語境不同。",
-        "require-mcq-66": "「表現／規格高於最低要求」與本句語境不同。"
+        "require-mcq-69": "本句的「requirements」指「對人／機構施加新的必須條件」。",
+        "require-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-69"
     },
@@ -3903,11 +3699,8 @@ export default {
       "masked": "The university may waive the language ____.",
       "options": [
         "require-mcq-73",
-        "require-mcq-72",
-        "require-mcq-74",
-        "require-mcq-71",
-        "require-mcq-75",
-        "require-mcq-70"
+        "require-mcq-38",
+        "require-mcq-12"
       ],
       "explanation": "本句的「requirement」指「正式豁免某項原本必須符合的要求」。",
       "sentenceIndex": 58,
@@ -3916,12 +3709,9 @@ export default {
         "requirement"
       ],
       "optionReasons": {
-        "require-mcq-73": "本句指「正式豁免某項原本必須符合的要求」。",
-        "require-mcq-72": "「取消原本的必須條件」與本句語境不同。",
-        "require-mcq-74": "「豁免某人遵守某項要求」與本句語境不同。",
-        "require-mcq-71": "「放寬規定」與本句語境不同。",
-        "require-mcq-75": "「最基本的必要條件」與本句語境不同。",
-        "require-mcq-70": "「收緊規定」與本句語境不同。"
+        "require-mcq-73": "本句的「requirement」指「正式豁免某項原本必須符合的要求」。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-73"
     },
@@ -3933,11 +3723,9 @@ export default {
       "masked": "Clear communication is a basic ____ for the role.",
       "options": [
         "require-mcq-75",
-        "require-mcq-74",
-        "require-mcq-76",
-        "require-mcq-73",
-        "require-mcq-77",
-        "require-mcq-72"
+        "require-mcq-38",
+        "require-mcq-50",
+        "require-mcq-16"
       ],
       "explanation": "本句的「requirement」指「最基本的必要條件」。",
       "sentenceIndex": 59,
@@ -3946,12 +3734,10 @@ export default {
         "requirement"
       ],
       "optionReasons": {
-        "require-mcq-75": "本句指「最基本的必要條件」。",
-        "require-mcq-74": "「豁免某人遵守某項要求」與本句語境不同。",
-        "require-mcq-76": "「缺少便不能符合資格／完成任務的必要條件」與本句語境不同。",
-        "require-mcq-73": "「正式豁免某項原本必須符合的要求」與本句語境不同。",
-        "require-mcq-77": "「可被接受的最低要求」與本句語境不同。",
-        "require-mcq-72": "「取消原本的必須條件」與本句語境不同。"
+        "require-mcq-75": "本句的「requirement」指「最基本的必要條件」。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-75"
     },
@@ -3963,11 +3749,9 @@ export default {
       "masked": "This is the minimum ____ for admission.",
       "options": [
         "require-mcq-77",
-        "require-mcq-76",
-        "require-mcq-78",
-        "require-mcq-75",
-        "require-mcq-79",
-        "require-mcq-74"
+        "require-mcq-38",
+        "require-mcq-28",
+        "require-mcq-07"
       ],
       "explanation": "本句的「requirement」指「可被接受的最低要求」。",
       "sentenceIndex": 60,
@@ -3976,12 +3760,10 @@ export default {
         "requirement"
       ],
       "optionReasons": {
-        "require-mcq-77": "本句指「可被接受的最低要求」。",
-        "require-mcq-76": "「缺少便不能符合資格／完成任務的必要條件」與本句語境不同。",
-        "require-mcq-78": "「強調絕對必須遵守的要求」與本句語境不同。",
-        "require-mcq-75": "「最基本的必要條件」與本句語境不同。",
-        "require-mcq-79": "「法律規定必須符合的要求」與本句語境不同。",
-        "require-mcq-74": "「豁免某人遵守某項要求」與本句語境不同。"
+        "require-mcq-77": "本句的「requirement」指「可被接受的最低要求」。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-77"
     },
@@ -3993,11 +3775,9 @@ export default {
       "masked": "Record keeping is a legal ____.",
       "options": [
         "require-mcq-79",
-        "require-mcq-78",
-        "require-mcq-80",
-        "require-mcq-77",
-        "require-mcq-81",
-        "require-mcq-76"
+        "require-mcq-38",
+        "require-mcq-05",
+        "require-mcq-75"
       ],
       "explanation": "本句的「requirement」指「法律規定必須符合的要求」。",
       "sentenceIndex": 61,
@@ -4006,12 +3786,10 @@ export default {
         "requirement"
       ],
       "optionReasons": {
-        "require-mcq-79": "本句指「法律規定必須符合的要求」。",
-        "require-mcq-78": "「強調絕對必須遵守的要求」與本句語境不同。",
-        "require-mcq-80": "「由成文法直接訂明的法定要求」與本句語境不同。",
-        "require-mcq-77": "「可被接受的最低要求」與本句語境不同。",
-        "require-mcq-81": "「監管法規／監管機構設定的要求」與本句語境不同。",
-        "require-mcq-76": "「缺少便不能符合資格／完成任務的必要條件」與本句語境不同。"
+        "require-mcq-79": "本句的「requirement」指「法律規定必須符合的要求」。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-79"
     },
@@ -4023,11 +3801,9 @@ export default {
       "masked": "Companies face new reporting ____.",
       "options": [
         "require-mcq-86",
-        "require-mcq-85",
-        "require-mcq-87",
-        "require-mcq-84",
-        "require-mcq-88",
-        "require-mcq-83"
+        "require-mcq-16",
+        "require-mcq-38",
+        "require-mcq-61"
       ],
       "explanation": "本句的「requirements」指「必須報告／申報資料的規定」。",
       "sentenceIndex": 62,
@@ -4036,12 +3812,10 @@ export default {
         "requirements"
       ],
       "optionReasons": {
-        "require-mcq-86": "本句指「必須報告／申報資料的規定」。",
-        "require-mcq-85": "「必須正式提交文件／申報的規定」與本句語境不同。",
-        "require-mcq-87": "「必須披露指定資訊的要求」與本句語境不同。",
-        "require-mcq-84": "「涉及實質內容／權利／標準的要求」與本句語境不同。",
-        "require-mcq-88": "「必須保存指定紀錄的要求」與本句語境不同。",
-        "require-mcq-83": "「有關程序如何進行的要求」與本句語境不同。"
+        "require-mcq-86": "本句的「requirements」指「必須報告／申報資料的規定」。",
+        "require-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-86"
     },
@@ -4053,11 +3827,9 @@ export default {
       "masked": "Students must complete all graduation ____.",
       "options": [
         "require-mcq-95",
-        "require-mcq-94",
-        "require-mcq-96",
-        "require-mcq-93",
-        "require-mcq-97",
-        "require-mcq-92"
+        "require-mcq-64",
+        "require-mcq-16",
+        "require-mcq-38"
       ],
       "explanation": "本句的「requirements」指「畢業前必須完成的條件」。",
       "sentenceIndex": 63,
@@ -4066,12 +3838,10 @@ export default {
         "requirements"
       ],
       "optionReasons": {
-        "require-mcq-95": "本句指「畢業前必須完成的條件」。",
-        "require-mcq-94": "「入學、入境、入行等所需符合的條件」與本句語境不同。",
-        "require-mcq-96": "「某門課程必須完成的工作／條件」與本句語境不同。",
-        "require-mcq-93": "「入讀學校／課程必須符合的條件」與本句語境不同。",
-        "require-mcq-97": "「完成學位所須符合的條件」與本句語境不同。",
-        "require-mcq-92": "「判斷是否符合參與／申請資格的必要條件」與本句語境不同。"
+        "require-mcq-95": "本句的「requirements」指「畢業前必須完成的條件」。",
+        "require-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "require-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "require-mcq-95"
     }
@@ -4083,5 +3853,7 @@ export default {
     "sha256": "254ea0d755b1697a445f03913cacd096e0e17586b390849a18d18aca8c5becc0",
     "pages": 187
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

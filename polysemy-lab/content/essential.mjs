@@ -546,11 +546,8 @@ export default {
       "masked": "Group work is ____ in the modern workplace.",
       "options": [
         "essential-mcq-01",
-        "essential-mcq-02",
-        "essential-mcq-03",
-        "essential-mcq-04",
-        "essential-mcq-05",
-        "essential-mcq-06"
+        "essential-mcq-19",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential」指「必要的；不可或缺的」。",
       "sentenceIndex": 0,
@@ -559,12 +556,9 @@ export default {
         "essential"
       ],
       "optionReasons": {
-        "essential-mcq-01": "本句指「必要的；不可或缺的」。",
-        "essential-mcq-02": "「對 X 必不可少」與本句語境不同。",
-        "essential-mcq-03": "「對 X 不可或缺」與本句語境不同。",
-        "essential-mcq-04": "「……是必要的」與本句語境不同。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。"
+        "essential-mcq-01": "本句的「essential」指「必要的；不可或缺的」。",
+        "essential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-01"
     },
@@ -576,11 +570,9 @@ export default {
       "masked": "Clear communication is ____ for effective teamwork.",
       "options": [
         "essential-mcq-01",
-        "essential-mcq-02",
-        "essential-mcq-03",
-        "essential-mcq-04",
-        "essential-mcq-05",
-        "essential-mcq-06"
+        "essential-mcq-11",
+        "essential-mcq-20",
+        "essential-mcq-12"
       ],
       "explanation": "本句的「essential」指「必要的；不可或缺的」。",
       "sentenceIndex": 1,
@@ -589,12 +581,10 @@ export default {
         "essential"
       ],
       "optionReasons": {
-        "essential-mcq-01": "本句指「必要的；不可或缺的」。",
-        "essential-mcq-02": "「對 X 必不可少」與本句語境不同。",
-        "essential-mcq-03": "「對 X 不可或缺」與本句語境不同。",
-        "essential-mcq-04": "「……是必要的」與本句語境不同。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。"
+        "essential-mcq-01": "本句的「essential」指「必要的；不可或缺的」。",
+        "essential-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-01"
     },
@@ -606,11 +596,8 @@ export default {
       "masked": "Trust is ____ in any strong team.",
       "options": [
         "essential-mcq-01",
-        "essential-mcq-02",
-        "essential-mcq-03",
-        "essential-mcq-04",
-        "essential-mcq-05",
-        "essential-mcq-06"
+        "essential-pdf-001",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential」指「必要的；不可或缺的」。",
       "sentenceIndex": 2,
@@ -619,12 +606,9 @@ export default {
         "essential"
       ],
       "optionReasons": {
-        "essential-mcq-01": "本句指「必要的；不可或缺的」。",
-        "essential-mcq-02": "「對 X 必不可少」與本句語境不同。",
-        "essential-mcq-03": "「對 X 不可或缺」與本句語境不同。",
-        "essential-mcq-04": "「……是必要的」與本句語境不同。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。"
+        "essential-mcq-01": "本句的「essential」指「必要的；不可或缺的」。",
+        "essential-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-01"
     },
@@ -636,11 +620,9 @@ export default {
       "masked": "Good communication is ____.",
       "options": [
         "essential-mcq-02",
-        "essential-mcq-01",
-        "essential-mcq-03",
-        "essential-mcq-04",
-        "essential-mcq-05",
-        "essential-mcq-06"
+        "essential-mcq-11",
+        "essential-mcq-12",
+        "essential-mcq-03"
       ],
       "explanation": "本句的「essential for teamwork」指「對 X 必不可少」。",
       "sentenceIndex": 3,
@@ -649,12 +631,10 @@ export default {
         "essential for teamwork"
       ],
       "optionReasons": {
-        "essential-mcq-02": "本句指「對 X 必不可少」。",
-        "essential-mcq-01": "「必要的；不可或缺的」與本句語境不同。",
-        "essential-mcq-03": "「對 X 不可或缺」與本句語境不同。",
-        "essential-mcq-04": "「……是必要的」與本句語境不同。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。"
+        "essential-mcq-02": "本句的「essential for teamwork」指「對 X 必不可少」。",
+        "essential-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-02"
     },
@@ -666,11 +646,9 @@ export default {
       "masked": "Sleep is ____.",
       "options": [
         "essential-mcq-02",
-        "essential-mcq-01",
         "essential-mcq-03",
-        "essential-mcq-04",
-        "essential-mcq-05",
-        "essential-mcq-06"
+        "essential-mcq-18",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential for good health」指「對 X 必不可少」。",
       "sentenceIndex": 4,
@@ -679,12 +657,10 @@ export default {
         "essential for good health"
       ],
       "optionReasons": {
-        "essential-mcq-02": "本句指「對 X 必不可少」。",
-        "essential-mcq-01": "「必要的；不可或缺的」與本句語境不同。",
-        "essential-mcq-03": "「對 X 不可或缺」與本句語境不同。",
-        "essential-mcq-04": "「……是必要的」與本句語境不同。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。"
+        "essential-mcq-02": "本句的「essential for good health」指「對 X 必不可少」。",
+        "essential-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-02"
     },
@@ -696,11 +672,9 @@ export default {
       "masked": "Trust is ____.",
       "options": [
         "essential-mcq-03",
-        "essential-mcq-02",
-        "essential-mcq-04",
-        "essential-mcq-01",
-        "essential-mcq-05",
-        "essential-mcq-06"
+        "essential-mcq-21",
+        "essential-mcq-07",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential to effective leadership」指「對 X 不可或缺」。",
       "sentenceIndex": 5,
@@ -709,12 +683,10 @@ export default {
         "essential to effective leadership"
       ],
       "optionReasons": {
-        "essential-mcq-03": "本句指「對 X 不可或缺」。",
-        "essential-mcq-02": "「對 X 必不可少」與本句語境不同。",
-        "essential-mcq-04": "「……是必要的」與本句語境不同。",
-        "essential-mcq-01": "「必要的；不可或缺的」與本句語境不同。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。"
+        "essential-mcq-03": "本句的「essential to effective leadership」指「對 X 不可或缺」。",
+        "essential-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-03"
     },
@@ -727,10 +699,8 @@ export default {
       "options": [
         "essential-mcq-03",
         "essential-mcq-02",
-        "essential-mcq-04",
-        "essential-mcq-01",
-        "essential-mcq-05",
-        "essential-mcq-06"
+        "essential-mcq-17",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential to the success of the project」指「對 X 不可或缺」。",
       "sentenceIndex": 6,
@@ -739,12 +709,10 @@ export default {
         "essential to the success of the project"
       ],
       "optionReasons": {
-        "essential-mcq-03": "本句指「對 X 不可或缺」。",
-        "essential-mcq-02": "「對 X 必不可少」與本句語境不同。",
-        "essential-mcq-04": "「……是必要的」與本句語境不同。",
-        "essential-mcq-01": "「必要的；不可或缺的」與本句語境不同。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。"
+        "essential-mcq-03": "本句的「essential to the success of the project」指「對 X 不可或缺」。",
+        "essential-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-03"
     },
@@ -757,10 +725,8 @@ export default {
       "options": [
         "essential-mcq-04",
         "essential-mcq-03",
-        "essential-mcq-05",
-        "essential-mcq-02",
-        "essential-mcq-06",
-        "essential-mcq-01"
+        "essential-mcq-12",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential that every member understands their role」指「……是必要的」。",
       "sentenceIndex": 7,
@@ -769,12 +735,10 @@ export default {
         "essential that every member understands their role"
       ],
       "optionReasons": {
-        "essential-mcq-04": "本句指「……是必要的」。",
-        "essential-mcq-03": "「對 X 不可或缺」與本句語境不同。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。",
-        "essential-mcq-02": "「對 X 必不可少」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。",
-        "essential-mcq-01": "「必要的；不可或缺的」與本句語境不同。"
+        "essential-mcq-04": "本句的「essential that every member understands their role」指「……是必要的」。",
+        "essential-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-04"
     },
@@ -786,11 +750,9 @@ export default {
       "masked": "It is ____.",
       "options": [
         "essential-mcq-04",
-        "essential-mcq-03",
-        "essential-mcq-05",
-        "essential-mcq-02",
-        "essential-mcq-06",
-        "essential-mcq-01"
+        "essential-mcq-18",
+        "essential-mcq-20",
+        "essential-mcq-06"
       ],
       "explanation": "本句的「essential that managers communicate clearly」指「……是必要的」。",
       "sentenceIndex": 8,
@@ -799,12 +761,10 @@ export default {
         "essential that managers communicate clearly"
       ],
       "optionReasons": {
-        "essential-mcq-04": "本句指「……是必要的」。",
-        "essential-mcq-03": "「對 X 不可或缺」與本句語境不同。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。",
-        "essential-mcq-02": "「對 X 必不可少」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。",
-        "essential-mcq-01": "「必要的；不可或缺的」與本句語境不同。"
+        "essential-mcq-04": "本句的「essential that managers communicate clearly」指「……是必要的」。",
+        "essential-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-04"
     },
@@ -816,11 +776,9 @@ export default {
       "masked": "Communication is an ____ in the workplace.",
       "options": [
         "essential-mcq-05",
-        "essential-mcq-04",
+        "essential-mcq-17",
         "essential-mcq-06",
-        "essential-mcq-03",
-        "essential-mcq-07",
-        "essential-mcq-02"
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential skill」指「必備技能」。",
       "sentenceIndex": 9,
@@ -829,12 +787,10 @@ export default {
         "essential skill"
       ],
       "optionReasons": {
-        "essential-mcq-05": "本句指「必備技能」。",
-        "essential-mcq-04": "「……是必要的」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。",
-        "essential-mcq-03": "「對 X 不可或缺」與本句語境不同。",
-        "essential-mcq-07": "「必要條件」與本句語境不同。",
-        "essential-mcq-02": "「對 X 必不可少」與本句語境不同。"
+        "essential-mcq-05": "本句的「essential skill」指「必備技能」。",
+        "essential-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-05"
     },
@@ -846,11 +802,9 @@ export default {
       "masked": "Time management is an ____ for students.",
       "options": [
         "essential-mcq-05",
-        "essential-mcq-04",
         "essential-mcq-06",
-        "essential-mcq-03",
-        "essential-mcq-07",
-        "essential-mcq-02"
+        "essential-mcq-12",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential skill」指「必備技能」。",
       "sentenceIndex": 10,
@@ -859,12 +813,10 @@ export default {
         "essential skill"
       ],
       "optionReasons": {
-        "essential-mcq-05": "本句指「必備技能」。",
-        "essential-mcq-04": "「……是必要的」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。",
-        "essential-mcq-03": "「對 X 不可或缺」與本句語境不同。",
-        "essential-mcq-07": "「必要條件」與本句語境不同。",
-        "essential-mcq-02": "「對 X 必不可少」與本句語境不同。"
+        "essential-mcq-05": "本句的「essential skill」指「必備技能」。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-05"
     },
@@ -876,11 +828,9 @@ export default {
       "masked": "Trust is an ____.",
       "options": [
         "essential-mcq-06",
-        "essential-mcq-05",
-        "essential-mcq-07",
-        "essential-mcq-04",
-        "essential-mcq-08",
-        "essential-mcq-03"
+        "essential-mcq-19",
+        "essential-mcq-22",
+        "essential-mcq-07"
       ],
       "explanation": "本句的「essential part of teamwork」指「不可缺少部分」。",
       "sentenceIndex": 11,
@@ -889,12 +839,10 @@ export default {
         "essential part of teamwork"
       ],
       "optionReasons": {
-        "essential-mcq-06": "本句指「不可缺少部分」。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。",
-        "essential-mcq-07": "「必要條件」與本句語境不同。",
-        "essential-mcq-04": "「……是必要的」與本句語境不同。",
-        "essential-mcq-08": "「必要資料」與本句語境不同。",
-        "essential-mcq-03": "「對 X 不可或缺」與本句語境不同。"
+        "essential-mcq-06": "本句的「essential part of teamwork」指「不可缺少部分」。",
+        "essential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-06"
     },
@@ -906,11 +854,9 @@ export default {
       "masked": "Accountability is an ____ of effective collaboration.",
       "options": [
         "essential-mcq-06",
+        "essential-mcq-19",
         "essential-mcq-05",
-        "essential-mcq-07",
-        "essential-mcq-04",
-        "essential-mcq-08",
-        "essential-mcq-03"
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential element」指「不可缺少部分」。",
       "sentenceIndex": 12,
@@ -919,12 +865,10 @@ export default {
         "essential element"
       ],
       "optionReasons": {
-        "essential-mcq-06": "本句指「不可缺少部分」。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。",
-        "essential-mcq-07": "「必要條件」與本句語境不同。",
-        "essential-mcq-04": "「……是必要的」與本句語境不同。",
-        "essential-mcq-08": "「必要資料」與本句語境不同。",
-        "essential-mcq-03": "「對 X 不可或缺」與本句語境不同。"
+        "essential-mcq-06": "本句的「essential element」指「不可缺少部分」。",
+        "essential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-06"
     },
@@ -937,10 +881,8 @@ export default {
       "options": [
         "essential-mcq-07",
         "essential-mcq-06",
-        "essential-mcq-08",
-        "essential-mcq-05",
-        "essential-mcq-09",
-        "essential-mcq-04"
+        "essential-mcq-19",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential requirement」指「必要條件」。",
       "sentenceIndex": 13,
@@ -949,12 +891,10 @@ export default {
         "essential requirement"
       ],
       "optionReasons": {
-        "essential-mcq-07": "本句指「必要條件」。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。",
-        "essential-mcq-08": "「必要資料」與本句語境不同。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。",
-        "essential-mcq-09": "「必要服務」與本句語境不同。",
-        "essential-mcq-04": "「……是必要的」與本句語境不同。"
+        "essential-mcq-07": "本句的「essential requirement」指「必要條件」。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-07"
     },
@@ -966,11 +906,9 @@ export default {
       "masked": "Reliability is an ____ for this job.",
       "options": [
         "essential-mcq-07",
+        "essential-mcq-11",
         "essential-mcq-06",
-        "essential-mcq-08",
-        "essential-mcq-05",
-        "essential-mcq-09",
-        "essential-mcq-04"
+        "essential-mcq-12"
       ],
       "explanation": "本句的「essential requirement」指「必要條件」。",
       "sentenceIndex": 14,
@@ -979,12 +917,10 @@ export default {
         "essential requirement"
       ],
       "optionReasons": {
-        "essential-mcq-07": "本句指「必要條件」。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。",
-        "essential-mcq-08": "「必要資料」與本句語境不同。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。",
-        "essential-mcq-09": "「必要服務」與本句語境不同。",
-        "essential-mcq-04": "「……是必要的」與本句語境不同。"
+        "essential-mcq-07": "本句的「essential requirement」指「必要條件」。",
+        "essential-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-07"
     },
@@ -996,11 +932,9 @@ export default {
       "masked": "The report contains all the ____.",
       "options": [
         "essential-mcq-08",
-        "essential-mcq-07",
-        "essential-mcq-09",
-        "essential-mcq-06",
-        "essential-mcq-10",
-        "essential-mcq-05"
+        "essential-mcq-19",
+        "essential-mcq-03",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential information」指「必要資料」。",
       "sentenceIndex": 15,
@@ -1009,12 +943,10 @@ export default {
         "essential information"
       ],
       "optionReasons": {
-        "essential-mcq-08": "本句指「必要資料」。",
-        "essential-mcq-07": "「必要條件」與本句語境不同。",
-        "essential-mcq-09": "「必要服務」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。",
-        "essential-mcq-10": "「必要服務工作者」與本句語境不同。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。"
+        "essential-mcq-08": "本句的「essential information」指「必要資料」。",
+        "essential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-08"
     },
@@ -1026,11 +958,9 @@ export default {
       "masked": "Make sure everyone receives the ____ before the meeting.",
       "options": [
         "essential-mcq-08",
-        "essential-mcq-07",
-        "essential-mcq-09",
         "essential-mcq-06",
-        "essential-mcq-10",
-        "essential-mcq-05"
+        "essential-mcq-18",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential information」指「必要資料」。",
       "sentenceIndex": 16,
@@ -1039,12 +969,10 @@ export default {
         "essential information"
       ],
       "optionReasons": {
-        "essential-mcq-08": "本句指「必要資料」。",
-        "essential-mcq-07": "「必要條件」與本句語境不同。",
-        "essential-mcq-09": "「必要服務」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。",
-        "essential-mcq-10": "「必要服務工作者」與本句語境不同。",
-        "essential-mcq-05": "「必備技能」與本句語境不同。"
+        "essential-mcq-08": "本句的「essential information」指「必要資料」。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-08"
     },
@@ -1056,11 +984,9 @@ export default {
       "masked": "Hospitals provide ____.",
       "options": [
         "essential-mcq-09",
-        "essential-mcq-08",
-        "essential-mcq-10",
-        "essential-mcq-07",
         "essential-mcq-11",
-        "essential-mcq-06"
+        "essential-mcq-06",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential services」指「必要服務」。",
       "sentenceIndex": 17,
@@ -1069,12 +995,10 @@ export default {
         "essential services"
       ],
       "optionReasons": {
-        "essential-mcq-09": "本句指「必要服務」。",
-        "essential-mcq-08": "「必要資料」與本句語境不同。",
-        "essential-mcq-10": "「必要服務工作者」與本句語境不同。",
-        "essential-mcq-07": "「必要條件」與本句語境不同。",
-        "essential-mcq-11": "「本質」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。"
+        "essential-mcq-09": "本句的「essential services」指「必要服務」。",
+        "essential-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-09"
     },
@@ -1086,11 +1010,9 @@ export default {
       "masked": "Transport can be considered an ____ in some contexts.",
       "options": [
         "essential-mcq-09",
-        "essential-mcq-08",
-        "essential-mcq-10",
-        "essential-mcq-07",
-        "essential-mcq-11",
-        "essential-mcq-06"
+        "essential-mcq-06",
+        "essential-mcq-12",
+        "essential-mcq-11"
       ],
       "explanation": "本句的「essential service」指「必要服務」。",
       "sentenceIndex": 18,
@@ -1099,12 +1021,10 @@ export default {
         "essential service"
       ],
       "optionReasons": {
-        "essential-mcq-09": "本句指「必要服務」。",
-        "essential-mcq-08": "「必要資料」與本句語境不同。",
-        "essential-mcq-10": "「必要服務工作者」與本句語境不同。",
-        "essential-mcq-07": "「必要條件」與本句語境不同。",
-        "essential-mcq-11": "「本質」與本句語境不同。",
-        "essential-mcq-06": "「不可缺少部分」與本句語境不同。"
+        "essential-mcq-09": "本句的「essential service」指「必要服務」。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-09"
     },
@@ -1116,11 +1036,9 @@ export default {
       "masked": "Nurses and emergency staff are often regarded as ____.",
       "options": [
         "essential-mcq-10",
-        "essential-mcq-09",
-        "essential-mcq-11",
-        "essential-mcq-08",
+        "essential-mcq-06",
         "essential-mcq-12",
-        "essential-mcq-07"
+        "essential-mcq-11"
       ],
       "explanation": "本句的「essential workers」指「必要服務工作者」。",
       "sentenceIndex": 19,
@@ -1129,12 +1047,10 @@ export default {
         "essential workers"
       ],
       "optionReasons": {
-        "essential-mcq-10": "本句指「必要服務工作者」。",
-        "essential-mcq-09": "「必要服務」與本句語境不同。",
-        "essential-mcq-11": "「本質」與本句語境不同。",
-        "essential-mcq-08": "「必要資料」與本句語境不同。",
-        "essential-mcq-12": "「核心特徵」與本句語境不同。",
-        "essential-mcq-07": "「必要條件」與本句語境不同。"
+        "essential-mcq-10": "本句的「essential workers」指「必要服務工作者」。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-10"
     },
@@ -1146,11 +1062,9 @@ export default {
       "masked": "Many ____ continued working during the emergency.",
       "options": [
         "essential-mcq-10",
-        "essential-mcq-09",
-        "essential-mcq-11",
-        "essential-mcq-08",
-        "essential-mcq-12",
-        "essential-mcq-07"
+        "essential-mcq-18",
+        "essential-mcq-20",
+        "essential-mcq-06"
       ],
       "explanation": "本句的「essential workers」指「必要服務工作者」。",
       "sentenceIndex": 20,
@@ -1159,12 +1073,10 @@ export default {
         "essential workers"
       ],
       "optionReasons": {
-        "essential-mcq-10": "本句指「必要服務工作者」。",
-        "essential-mcq-09": "「必要服務」與本句語境不同。",
-        "essential-mcq-11": "「本質」與本句語境不同。",
-        "essential-mcq-08": "「必要資料」與本句語境不同。",
-        "essential-mcq-12": "「核心特徵」與本句語境不同。",
-        "essential-mcq-07": "「必要條件」與本句語境不同。"
+        "essential-mcq-10": "本句的「essential workers」指「必要服務工作者」。",
+        "essential-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-10"
     },
@@ -1176,11 +1088,9 @@ export default {
       "masked": "The two approaches are different in detail but similar in their ____.",
       "options": [
         "essential-mcq-11",
-        "essential-mcq-10",
         "essential-mcq-12",
-        "essential-mcq-09",
-        "essential-mcq-13",
-        "essential-mcq-08"
+        "essential-mcq-01",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential nature」指「本質」。",
       "sentenceIndex": 21,
@@ -1189,12 +1099,10 @@ export default {
         "essential nature"
       ],
       "optionReasons": {
-        "essential-mcq-11": "本句指「本質」。",
-        "essential-mcq-10": "「必要服務工作者」與本句語境不同。",
-        "essential-mcq-12": "「核心特徵」與本句語境不同。",
-        "essential-mcq-09": "「必要服務」與本句語境不同。",
-        "essential-mcq-13": "「必需品」與本句語境不同。",
-        "essential-mcq-08": "「必要資料」與本句語境不同。"
+        "essential-mcq-11": "本句的「essential nature」指「本質」。",
+        "essential-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-11"
     },
@@ -1206,11 +1114,9 @@ export default {
       "masked": "The ____ of the organisation has not changed.",
       "options": [
         "essential-mcq-11",
-        "essential-mcq-10",
         "essential-mcq-12",
-        "essential-mcq-09",
-        "essential-mcq-13",
-        "essential-mcq-08"
+        "essential-mcq-22",
+        "essential-mcq-06"
       ],
       "explanation": "本句的「essential character」指「本質」。",
       "sentenceIndex": 22,
@@ -1219,12 +1125,10 @@ export default {
         "essential character"
       ],
       "optionReasons": {
-        "essential-mcq-11": "本句指「本質」。",
-        "essential-mcq-10": "「必要服務工作者」與本句語境不同。",
-        "essential-mcq-12": "「核心特徵」與本句語境不同。",
-        "essential-mcq-09": "「必要服務」與本句語境不同。",
-        "essential-mcq-13": "「必需品」與本句語境不同。",
-        "essential-mcq-08": "「必要資料」與本句語境不同。"
+        "essential-mcq-11": "本句的「essential character」指「本質」。",
+        "essential-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-11"
     },
@@ -1236,11 +1140,9 @@ export default {
       "masked": "We need to understand the ____.",
       "options": [
         "essential-mcq-11",
-        "essential-mcq-10",
-        "essential-mcq-12",
-        "essential-mcq-09",
         "essential-mcq-13",
-        "essential-mcq-08"
+        "essential-mcq-20",
+        "essential-mcq-03"
       ],
       "explanation": "本句的「essential nature of the problem」指「本質」。",
       "sentenceIndex": 23,
@@ -1249,12 +1151,10 @@ export default {
         "essential nature of the problem"
       ],
       "optionReasons": {
-        "essential-mcq-11": "本句指「本質」。",
-        "essential-mcq-10": "「必要服務工作者」與本句語境不同。",
-        "essential-mcq-12": "「核心特徵」與本句語境不同。",
-        "essential-mcq-09": "「必要服務」與本句語境不同。",
-        "essential-mcq-13": "「必需品」與本句語境不同。",
-        "essential-mcq-08": "「必要資料」與本句語境不同。"
+        "essential-mcq-11": "本句的「essential nature of the problem」指「本質」。",
+        "essential-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-11"
     },
@@ -1266,10 +1166,8 @@ export default {
       "masked": "The reform did not alter the ____ of the system.",
       "options": [
         "essential-mcq-11",
-        "essential-mcq-10",
-        "essential-mcq-12",
-        "essential-mcq-09",
-        "essential-mcq-13",
+        "essential-mcq-21",
+        "essential-mcq-03",
         "essential-mcq-08"
       ],
       "explanation": "本句的「essential character」指「本質」。",
@@ -1279,12 +1177,10 @@ export default {
         "essential character"
       ],
       "optionReasons": {
-        "essential-mcq-11": "本句指「本質」。",
-        "essential-mcq-10": "「必要服務工作者」與本句語境不同。",
-        "essential-mcq-12": "「核心特徵」與本句語境不同。",
-        "essential-mcq-09": "「必要服務」與本句語境不同。",
-        "essential-mcq-13": "「必需品」與本句語境不同。",
-        "essential-mcq-08": "「必要資料」與本句語境不同。"
+        "essential-mcq-11": "本句的「essential character」指「本質」。",
+        "essential-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-11"
     },
@@ -1296,11 +1192,9 @@ export default {
       "masked": "There is one ____ between the two systems.",
       "options": [
         "essential-mcq-12",
-        "essential-mcq-11",
-        "essential-mcq-13",
-        "essential-mcq-10",
-        "essential-mcq-14",
-        "essential-mcq-09"
+        "essential-mcq-07",
+        "essential-mcq-15",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential difference」指「核心特徵」。",
       "sentenceIndex": 25,
@@ -1309,12 +1203,10 @@ export default {
         "essential difference"
       ],
       "optionReasons": {
-        "essential-mcq-12": "本句指「核心特徵」。",
-        "essential-mcq-11": "「本質」與本句語境不同。",
-        "essential-mcq-13": "「必需品」與本句語境不同。",
-        "essential-mcq-10": "「必要服務工作者」與本句語境不同。",
-        "essential-mcq-14": "「必需品／基本要點」與本句語境不同。",
-        "essential-mcq-09": "「必要服務」與本句語境不同。"
+        "essential-mcq-12": "本句的「essential difference」指「核心特徵」。",
+        "essential-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-12"
     },
@@ -1326,11 +1218,9 @@ export default {
       "masked": "Flexibility is an ____ of the design.",
       "options": [
         "essential-mcq-12",
+        "essential-mcq-22",
         "essential-mcq-11",
-        "essential-mcq-13",
-        "essential-mcq-10",
-        "essential-mcq-14",
-        "essential-mcq-09"
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential feature」指「核心特徵」。",
       "sentenceIndex": 26,
@@ -1339,12 +1229,10 @@ export default {
         "essential feature"
       ],
       "optionReasons": {
-        "essential-mcq-12": "本句指「核心特徵」。",
-        "essential-mcq-11": "「本質」與本句語境不同。",
-        "essential-mcq-13": "「必需品」與本句語境不同。",
-        "essential-mcq-10": "「必要服務工作者」與本句語境不同。",
-        "essential-mcq-14": "「必需品／基本要點」與本句語境不同。",
-        "essential-mcq-09": "「必要服務」與本句語境不同。"
+        "essential-mcq-12": "本句的「essential feature」指「核心特徵」。",
+        "essential-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-12"
     },
@@ -1356,11 +1244,9 @@ export default {
       "masked": "Food and water are basic ____.",
       "options": [
         "essential-mcq-13",
-        "essential-mcq-12",
-        "essential-mcq-14",
-        "essential-mcq-11",
-        "essential-mcq-15",
-        "essential-mcq-10"
+        "essential-mcq-19",
+        "essential-mcq-06",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essentials」指「必需品」。",
       "sentenceIndex": 27,
@@ -1369,12 +1255,10 @@ export default {
         "essentials"
       ],
       "optionReasons": {
-        "essential-mcq-13": "本句指「必需品」。",
-        "essential-mcq-12": "「核心特徵」與本句語境不同。",
-        "essential-mcq-14": "「必需品／基本要點」與本句語境不同。",
-        "essential-mcq-11": "「本質」與本句語境不同。",
-        "essential-mcq-15": "「日常必需品」與本句語境不同。",
-        "essential-mcq-10": "「必要服務工作者」與本句語境不同。"
+        "essential-mcq-13": "本句的「essentials」指「必需品」。",
+        "essential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-13"
     },
@@ -1386,11 +1270,9 @@ export default {
       "masked": "I packed only the ____.",
       "options": [
         "essential-mcq-13",
+        "essential-mcq-20",
         "essential-mcq-12",
-        "essential-mcq-14",
-        "essential-mcq-11",
-        "essential-mcq-15",
-        "essential-mcq-10"
+        "essential-mcq-11"
       ],
       "explanation": "本句的「essentials」指「必需品」。",
       "sentenceIndex": 28,
@@ -1399,12 +1281,10 @@ export default {
         "essentials"
       ],
       "optionReasons": {
-        "essential-mcq-13": "本句指「必需品」。",
-        "essential-mcq-12": "「核心特徵」與本句語境不同。",
-        "essential-mcq-14": "「必需品／基本要點」與本句語境不同。",
-        "essential-mcq-11": "「本質」與本句語境不同。",
-        "essential-mcq-15": "「日常必需品」與本句語境不同。",
-        "essential-mcq-10": "「必要服務工作者」與本句語境不同。"
+        "essential-mcq-13": "本句的「essentials」指「必需品」。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-13"
     },
@@ -1416,11 +1296,8 @@ export default {
       "masked": "Take only the ____.",
       "options": [
         "essential-mcq-14",
-        "essential-mcq-13",
-        "essential-mcq-15",
-        "essential-mcq-12",
-        "essential-mcq-16",
-        "essential-mcq-11"
+        "essential-mcq-06",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essentials」指「必需品／基本要點」。",
       "sentenceIndex": 29,
@@ -1429,12 +1306,9 @@ export default {
         "essentials"
       ],
       "optionReasons": {
-        "essential-mcq-14": "本句指「必需品／基本要點」。",
-        "essential-mcq-13": "「必需品」與本句語境不同。",
-        "essential-mcq-15": "「日常必需品」與本句語境不同。",
-        "essential-mcq-12": "「核心特徵」與本句語境不同。",
-        "essential-mcq-16": "「最基本必需品」與本句語境不同。",
-        "essential-mcq-11": "「本質」與本句語境不同。"
+        "essential-mcq-14": "本句的「essentials」指「必需品／基本要點」。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-14"
     },
@@ -1446,11 +1320,8 @@ export default {
       "masked": "The course teaches the ____.",
       "options": [
         "essential-mcq-14",
-        "essential-mcq-13",
-        "essential-mcq-15",
-        "essential-mcq-12",
-        "essential-mcq-16",
-        "essential-mcq-11"
+        "essential-mcq-03",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essentials of project management」指「必需品／基本要點」。",
       "sentenceIndex": 30,
@@ -1459,12 +1330,9 @@ export default {
         "essentials of project management"
       ],
       "optionReasons": {
-        "essential-mcq-14": "本句指「必需品／基本要點」。",
-        "essential-mcq-13": "「必需品」與本句語境不同。",
-        "essential-mcq-15": "「日常必需品」與本句語境不同。",
-        "essential-mcq-12": "「核心特徵」與本句語境不同。",
-        "essential-mcq-16": "「最基本必需品」與本句語境不同。",
-        "essential-mcq-11": "「本質」與本句語境不同。"
+        "essential-mcq-14": "本句的「essentials of project management」指「必需品／基本要點」。",
+        "essential-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-14"
     },
@@ -1476,11 +1344,9 @@ export default {
       "masked": "The shop sells ____.",
       "options": [
         "essential-mcq-15",
-        "essential-mcq-14",
-        "essential-mcq-16",
-        "essential-mcq-13",
-        "essential-mcq-17",
-        "essential-mcq-12"
+        "essential-mcq-06",
+        "essential-mcq-12",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「daily essentials」指「日常必需品」。",
       "sentenceIndex": 31,
@@ -1489,12 +1355,10 @@ export default {
         "daily essentials"
       ],
       "optionReasons": {
-        "essential-mcq-15": "本句指「日常必需品」。",
-        "essential-mcq-14": "「必需品／基本要點」與本句語境不同。",
-        "essential-mcq-16": "「最基本必需品」與本句語境不同。",
-        "essential-mcq-13": "「必需品」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。",
-        "essential-mcq-12": "「核心特徵」與本句語境不同。"
+        "essential-mcq-15": "本句的「daily essentials」指「日常必需品」。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-15"
     },
@@ -1506,11 +1370,9 @@ export default {
       "masked": "People rushed to buy ____.",
       "options": [
         "essential-mcq-15",
-        "essential-mcq-14",
-        "essential-mcq-16",
-        "essential-mcq-13",
-        "essential-mcq-17",
-        "essential-mcq-12"
+        "essential-mcq-19",
+        "essential-mcq-03",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「daily essentials」指「日常必需品」。",
       "sentenceIndex": 32,
@@ -1519,12 +1381,10 @@ export default {
         "daily essentials"
       ],
       "optionReasons": {
-        "essential-mcq-15": "本句指「日常必需品」。",
-        "essential-mcq-14": "「必需品／基本要點」與本句語境不同。",
-        "essential-mcq-16": "「最基本必需品」與本句語境不同。",
-        "essential-mcq-13": "「必需品」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。",
-        "essential-mcq-12": "「核心特徵」與本句語境不同。"
+        "essential-mcq-15": "本句的「daily essentials」指「日常必需品」。",
+        "essential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-15"
     },
@@ -1536,11 +1396,9 @@ export default {
       "masked": "I packed my ____ the night before.",
       "options": [
         "essential-mcq-15",
-        "essential-mcq-14",
-        "essential-mcq-16",
-        "essential-mcq-13",
-        "essential-mcq-17",
-        "essential-mcq-12"
+        "essential-mcq-18",
+        "essential-mcq-06",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「travel essentials」指「日常必需品」。",
       "sentenceIndex": 33,
@@ -1549,12 +1407,10 @@ export default {
         "travel essentials"
       ],
       "optionReasons": {
-        "essential-mcq-15": "本句指「日常必需品」。",
-        "essential-mcq-14": "「必需品／基本要點」與本句語境不同。",
-        "essential-mcq-16": "「最基本必需品」與本句語境不同。",
-        "essential-mcq-13": "「必需品」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。",
-        "essential-mcq-12": "「核心特徵」與本句語境不同。"
+        "essential-mcq-15": "本句的「travel essentials」指「日常必需品」。",
+        "essential-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-15"
     },
@@ -1566,11 +1422,9 @@ export default {
       "masked": "This bag contains all my ____.",
       "options": [
         "essential-mcq-15",
-        "essential-mcq-14",
-        "essential-mcq-16",
-        "essential-mcq-13",
-        "essential-mcq-17",
-        "essential-mcq-12"
+        "essential-mcq-03",
+        "essential-mcq-19",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「travel essentials」指「日常必需品」。",
       "sentenceIndex": 34,
@@ -1579,12 +1433,10 @@ export default {
         "travel essentials"
       ],
       "optionReasons": {
-        "essential-mcq-15": "本句指「日常必需品」。",
-        "essential-mcq-14": "「必需品／基本要點」與本句語境不同。",
-        "essential-mcq-16": "「最基本必需品」與本句語境不同。",
-        "essential-mcq-13": "「必需品」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。",
-        "essential-mcq-12": "「核心特徵」與本句語境不同。"
+        "essential-mcq-15": "本句的「travel essentials」指「日常必需品」。",
+        "essential-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-15"
     },
@@ -1596,11 +1448,9 @@ export default {
       "masked": "We took only the ____.",
       "options": [
         "essential-mcq-16",
-        "essential-mcq-15",
-        "essential-mcq-17",
-        "essential-mcq-14",
-        "essential-mcq-18",
-        "essential-mcq-13"
+        "essential-mcq-20",
+        "essential-mcq-06",
+        "essential-mcq-10"
       ],
       "explanation": "本句的「bare essentials」指「最基本必需品」。",
       "sentenceIndex": 35,
@@ -1609,12 +1459,10 @@ export default {
         "bare essentials"
       ],
       "optionReasons": {
-        "essential-mcq-16": "本句指「最基本必需品」。",
-        "essential-mcq-15": "「日常必需品」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。",
-        "essential-mcq-14": "「必需品／基本要點」與本句語境不同。",
-        "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
-        "essential-mcq-13": "「必需品」與本句語境不同。"
+        "essential-mcq-16": "本句的「bare essentials」指「最基本必需品」。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-16"
     },
@@ -1626,11 +1474,9 @@ export default {
       "masked": "The room contained only the ____.",
       "options": [
         "essential-mcq-16",
-        "essential-mcq-15",
-        "essential-mcq-17",
-        "essential-mcq-14",
-        "essential-mcq-18",
-        "essential-mcq-13"
+        "essential-mcq-03",
+        "essential-mcq-20",
+        "essential-mcq-07"
       ],
       "explanation": "本句的「bare essentials」指「最基本必需品」。",
       "sentenceIndex": 36,
@@ -1639,12 +1485,10 @@ export default {
         "bare essentials"
       ],
       "optionReasons": {
-        "essential-mcq-16": "本句指「最基本必需品」。",
-        "essential-mcq-15": "「日常必需品」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。",
-        "essential-mcq-14": "「必需品／基本要點」與本句語境不同。",
-        "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
-        "essential-mcq-13": "「必需品」與本句語境不同。"
+        "essential-mcq-16": "本句的「bare essentials」指「最基本必需品」。",
+        "essential-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-16"
     },
@@ -1656,11 +1500,9 @@ export default {
       "masked": "The workshop covers the ____.",
       "options": [
         "essential-mcq-17",
-        "essential-mcq-16",
-        "essential-mcq-18",
-        "essential-mcq-15",
-        "essential-mcq-19",
-        "essential-mcq-14"
+        "essential-mcq-20",
+        "essential-mcq-13",
+        "essential-mcq-06"
       ],
       "explanation": "本句的「essentials of teamwork」指「X 的基本要點」。",
       "sentenceIndex": 37,
@@ -1669,12 +1511,10 @@ export default {
         "essentials of teamwork"
       ],
       "optionReasons": {
-        "essential-mcq-17": "本句指「X 的基本要點」。",
-        "essential-mcq-16": "「最基本必需品」與本句語境不同。",
-        "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
-        "essential-mcq-15": "「日常必需品」與本句語境不同。",
-        "essential-mcq-19": "「基本上相同」與本句語境不同。",
-        "essential-mcq-14": "「必需品／基本要點」與本句語境不同。"
+        "essential-mcq-17": "本句的「essentials of teamwork」指「X 的基本要點」。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-17"
     },
@@ -1686,11 +1526,9 @@ export default {
       "masked": "Students learn the ____.",
       "options": [
         "essential-mcq-17",
-        "essential-mcq-16",
-        "essential-mcq-18",
-        "essential-mcq-15",
-        "essential-mcq-19",
-        "essential-mcq-14"
+        "essential-mcq-03",
+        "essential-mcq-05",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essentials of academic writing」指「X 的基本要點」。",
       "sentenceIndex": 38,
@@ -1699,12 +1537,10 @@ export default {
         "essentials of academic writing"
       ],
       "optionReasons": {
-        "essential-mcq-17": "本句指「X 的基本要點」。",
-        "essential-mcq-16": "「最基本必需品」與本句語境不同。",
-        "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
-        "essential-mcq-15": "「日常必需品」與本句語境不同。",
-        "essential-mcq-19": "「基本上相同」與本句語境不同。",
-        "essential-mcq-14": "「必需品／基本要點」與本句語境不同。"
+        "essential-mcq-17": "本句的「essentials of academic writing」指「X 的基本要點」。",
+        "essential-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-17"
     },
@@ -1716,11 +1552,9 @@ export default {
       "masked": "The two proposals are ____.",
       "options": [
         "essential-mcq-18",
-        "essential-mcq-17",
-        "essential-mcq-19",
-        "essential-mcq-16",
-        "essential-mcq-20",
-        "essential-mcq-15"
+        "essential-mcq-05",
+        "essential-mcq-06",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essentially the same」指「本質上；基本上」。",
       "sentenceIndex": 39,
@@ -1729,12 +1563,10 @@ export default {
         "essentially the same"
       ],
       "optionReasons": {
-        "essential-mcq-18": "本句指「本質上；基本上」。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。",
-        "essential-mcq-19": "「基本上相同」與本句語境不同。",
-        "essential-mcq-16": "「最基本必需品」與本句語境不同。",
-        "essential-mcq-20": "「精油」與本句語境不同。",
-        "essential-mcq-15": "「日常必需品」與本句語境不同。"
+        "essential-mcq-18": "本句的「essentially the same」指「本質上；基本上」。",
+        "essential-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-18"
     },
@@ -1746,11 +1578,9 @@ export default {
       "masked": "Teamwork is ____.",
       "options": [
         "essential-mcq-18",
-        "essential-mcq-17",
-        "essential-mcq-19",
-        "essential-mcq-16",
+        "essential-mcq-02",
         "essential-mcq-20",
-        "essential-mcq-15"
+        "essential-mcq-03"
       ],
       "explanation": "本句的「essentially about cooperation」指「本質上；基本上」。",
       "sentenceIndex": 40,
@@ -1759,12 +1589,10 @@ export default {
         "essentially about cooperation"
       ],
       "optionReasons": {
-        "essential-mcq-18": "本句指「本質上；基本上」。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。",
-        "essential-mcq-19": "「基本上相同」與本句語境不同。",
-        "essential-mcq-16": "「最基本必需品」與本句語境不同。",
-        "essential-mcq-20": "「精油」與本句語境不同。",
-        "essential-mcq-15": "「日常必需品」與本句語境不同。"
+        "essential-mcq-18": "本句的「essentially about cooperation」指「本質上；基本上」。",
+        "essential-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-18"
     },
@@ -1776,11 +1604,9 @@ export default {
       "masked": "Their responsibilities are ____.",
       "options": [
         "essential-mcq-19",
-        "essential-mcq-18",
-        "essential-mcq-20",
-        "essential-mcq-17",
-        "essential-mcq-21",
-        "essential-mcq-16"
+        "essential-mcq-13",
+        "essential-mcq-06",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essentially the same」指「基本上相同」。",
       "sentenceIndex": 41,
@@ -1789,12 +1615,10 @@ export default {
         "essentially the same"
       ],
       "optionReasons": {
-        "essential-mcq-19": "本句指「基本上相同」。",
-        "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
-        "essential-mcq-20": "「精油」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。",
-        "essential-mcq-21": "「必需胺基酸」與本句語境不同。",
-        "essential-mcq-16": "「最基本必需品」與本句語境不同。"
+        "essential-mcq-19": "本句的「essentially the same」指「基本上相同」。",
+        "essential-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-19"
     },
@@ -1806,11 +1630,9 @@ export default {
       "masked": "The two methods are ____, despite different names.",
       "options": [
         "essential-mcq-19",
-        "essential-mcq-18",
-        "essential-mcq-20",
-        "essential-mcq-17",
-        "essential-mcq-21",
-        "essential-mcq-16"
+        "essential-mcq-10",
+        "essential-mcq-06",
+        "essential-mcq-22"
       ],
       "explanation": "本句的「essentially the same」指「基本上相同」。",
       "sentenceIndex": 42,
@@ -1819,12 +1641,10 @@ export default {
         "essentially the same"
       ],
       "optionReasons": {
-        "essential-mcq-19": "本句指「基本上相同」。",
-        "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
-        "essential-mcq-20": "「精油」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。",
-        "essential-mcq-21": "「必需胺基酸」與本句語境不同。",
-        "essential-mcq-16": "「最基本必需品」與本句語境不同。"
+        "essential-mcq-19": "本句的「essentially the same」指「基本上相同」。",
+        "essential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-19"
     },
@@ -1836,11 +1656,9 @@ export default {
       "masked": "This is ____.",
       "options": [
         "essential-pdf-001",
-        "essential-mcq-18",
-        "essential-mcq-20",
-        "essential-mcq-17",
-        "essential-mcq-21",
-        "essential-mcq-16"
+        "essential-mcq-07",
+        "essential-mcq-22",
+        "essential-mcq-03"
       ],
       "explanation": "本句的「essentially a question of fairness」指「最根本來說，問題的核心是 X」。",
       "sentenceIndex": 43,
@@ -1849,12 +1667,10 @@ export default {
         "essentially a question of fairness"
       ],
       "optionReasons": {
-        "essential-pdf-001": "本句指「最根本來說，問題的核心是 X」。",
-        "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
-        "essential-mcq-20": "「精油」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。",
-        "essential-mcq-21": "「必需胺基酸」與本句語境不同。",
-        "essential-mcq-16": "「最基本必需品」與本句語境不同。"
+        "essential-pdf-001": "本句的「essentially a question of fairness」指「最根本來說，問題的核心是 X」。",
+        "essential-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-pdf-001"
     },
@@ -1866,11 +1682,9 @@ export default {
       "masked": "The disagreement was ____.",
       "options": [
         "essential-pdf-001",
-        "essential-mcq-18",
-        "essential-mcq-20",
-        "essential-mcq-17",
-        "essential-mcq-21",
-        "essential-mcq-16"
+        "essential-mcq-10",
+        "essential-mcq-03",
+        "essential-mcq-15"
       ],
       "explanation": "本句的「essentially a matter of communication」指「最根本來說，問題的核心是 X」。",
       "sentenceIndex": 44,
@@ -1879,12 +1693,10 @@ export default {
         "essentially a matter of communication"
       ],
       "optionReasons": {
-        "essential-pdf-001": "本句指「最根本來說，問題的核心是 X」。",
-        "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
-        "essential-mcq-20": "「精油」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。",
-        "essential-mcq-21": "「必需胺基酸」與本句語境不同。",
-        "essential-mcq-16": "「最基本必需品」與本句語境不同。"
+        "essential-pdf-001": "本句的「essentially a matter of communication」指「最根本來說，問題的核心是 X」。",
+        "essential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-pdf-001"
     },
@@ -1896,11 +1708,9 @@ export default {
       "masked": "Lavender ____ is used in many scented products.",
       "options": [
         "essential-mcq-20",
-        "essential-mcq-19",
-        "essential-mcq-21",
-        "essential-mcq-18",
-        "essential-mcq-22",
-        "essential-mcq-17"
+        "essential-mcq-15",
+        "essential-pdf-001",
+        "essential-mcq-07"
       ],
       "explanation": "本句的「essential oil」指「精油」。",
       "sentenceIndex": 45,
@@ -1909,12 +1719,10 @@ export default {
         "essential oil"
       ],
       "optionReasons": {
-        "essential-mcq-20": "本句指「精油」。",
-        "essential-mcq-19": "「基本上相同」與本句語境不同。",
-        "essential-mcq-21": "「必需胺基酸」與本句語境不同。",
-        "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
-        "essential-mcq-22": "「必需營養素」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。"
+        "essential-mcq-20": "本句的「essential oil」指「精油」。",
+        "essential-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "essential-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-20"
     },
@@ -1926,11 +1734,9 @@ export default {
       "masked": "The plant's ____ is extracted from its leaves.",
       "options": [
         "essential-mcq-20",
-        "essential-mcq-19",
-        "essential-mcq-21",
+        "essential-mcq-13",
         "essential-mcq-18",
-        "essential-mcq-22",
-        "essential-mcq-17"
+        "essential-mcq-06"
       ],
       "explanation": "本句的「essential oil」指「精油」。",
       "sentenceIndex": 46,
@@ -1939,12 +1745,10 @@ export default {
         "essential oil"
       ],
       "optionReasons": {
-        "essential-mcq-20": "本句指「精油」。",
-        "essential-mcq-19": "「基本上相同」與本句語境不同。",
-        "essential-mcq-21": "「必需胺基酸」與本句語境不同。",
-        "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
-        "essential-mcq-22": "「必需營養素」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。"
+        "essential-mcq-20": "本句的「essential oil」指「精油」。",
+        "essential-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-20"
     },
@@ -1956,11 +1760,9 @@ export default {
       "masked": "Humans must obtain ____ from food.",
       "options": [
         "essential-mcq-21",
+        "essential-mcq-12",
         "essential-mcq-20",
-        "essential-mcq-22",
-        "essential-mcq-19",
-        "essential-mcq-18",
-        "essential-mcq-17"
+        "essential-mcq-06"
       ],
       "explanation": "本句的「essential amino acids」指「必需胺基酸」。",
       "sentenceIndex": 47,
@@ -1969,12 +1771,10 @@ export default {
         "essential amino acids"
       ],
       "optionReasons": {
-        "essential-mcq-21": "本句指「必需胺基酸」。",
-        "essential-mcq-20": "「精油」與本句語境不同。",
-        "essential-mcq-22": "「必需營養素」與本句語境不同。",
-        "essential-mcq-19": "「基本上相同」與本句語境不同。",
-        "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。"
+        "essential-mcq-21": "本句的「essential amino acids」指「必需胺基酸」。",
+        "essential-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-21"
     },
@@ -1987,10 +1787,8 @@ export default {
       "options": [
         "essential-mcq-21",
         "essential-mcq-20",
-        "essential-mcq-22",
-        "essential-mcq-19",
-        "essential-mcq-18",
-        "essential-mcq-17"
+        "essential-mcq-06",
+        "essential-mcq-12"
       ],
       "explanation": "本句的「essential amino acids」指「必需胺基酸」。",
       "sentenceIndex": 48,
@@ -1999,12 +1797,10 @@ export default {
         "essential amino acids"
       ],
       "optionReasons": {
-        "essential-mcq-21": "本句指「必需胺基酸」。",
-        "essential-mcq-20": "「精油」與本句語境不同。",
-        "essential-mcq-22": "「必需營養素」與本句語境不同。",
-        "essential-mcq-19": "「基本上相同」與本句語境不同。",
-        "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。"
+        "essential-mcq-21": "本句的「essential amino acids」指「必需胺基酸」。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-21"
     },
@@ -2016,11 +1812,9 @@ export default {
       "masked": "Vitamins are ____.",
       "options": [
         "essential-mcq-22",
-        "essential-mcq-21",
-        "essential-mcq-20",
-        "essential-mcq-19",
-        "essential-mcq-18",
-        "essential-mcq-17"
+        "essential-mcq-11",
+        "essential-mcq-06",
+        "essential-mcq-12"
       ],
       "explanation": "本句的「essential nutrients」指「必需營養素」。",
       "sentenceIndex": 49,
@@ -2029,12 +1823,10 @@ export default {
         "essential nutrients"
       ],
       "optionReasons": {
-        "essential-mcq-22": "本句指「必需營養素」。",
-        "essential-mcq-21": "「必需胺基酸」與本句語境不同。",
-        "essential-mcq-20": "「精油」與本句語境不同。",
-        "essential-mcq-19": "「基本上相同」與本句語境不同。",
-        "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。"
+        "essential-mcq-22": "本句的「essential nutrients」指「必需營養素」。",
+        "essential-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-22"
     },
@@ -2046,11 +1838,9 @@ export default {
       "masked": "The body needs a range of ____.",
       "options": [
         "essential-mcq-22",
-        "essential-mcq-21",
-        "essential-mcq-20",
-        "essential-mcq-19",
-        "essential-mcq-18",
-        "essential-mcq-17"
+        "essential-mcq-17",
+        "essential-mcq-06",
+        "essential-mcq-20"
       ],
       "explanation": "本句的「essential nutrients」指「必需營養素」。",
       "sentenceIndex": 50,
@@ -2059,12 +1849,10 @@ export default {
         "essential nutrients"
       ],
       "optionReasons": {
-        "essential-mcq-22": "本句指「必需營養素」。",
-        "essential-mcq-21": "「必需胺基酸」與本句語境不同。",
-        "essential-mcq-20": "「精油」與本句語境不同。",
-        "essential-mcq-19": "「基本上相同」與本句語境不同。",
-        "essential-mcq-18": "「本質上；基本上」與本句語境不同。",
-        "essential-mcq-17": "「X 的基本要點」與本句語境不同。"
+        "essential-mcq-22": "本句的「essential nutrients」指「必需營養素」。",
+        "essential-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "essential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "essential-mcq-22"
     }
@@ -2076,5 +1864,7 @@ export default {
     "sha256": "a289ac9238e09763bd21c49c11d3e336b18f686bbb793b9edf194fa866bcfc86",
     "pages": 21
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -134,7 +134,7 @@ export default {
     },
     {
       "id": "belief-mcq-08",
-      "title": "表示對……的信心／信念",
+      "title": "對……的信心／信念",
       "form": "Useful expression: belief in — 對……的信心／信念",
       "en": "Useful expression: belief in — 對……的信心／信念",
       "zh": "表示對……的信心／信念",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "belief-mcq-09",
-      "title": "表示與普遍看法相反",
+      "title": "與普遍看法相反",
       "form": "Useful expression: contrary to popular belief — 與普遍看法相反",
       "en": "Useful expression: contrary to popular belief — 與普遍看法相反",
       "zh": "表示與普遍看法相反",
@@ -208,11 +208,7 @@ export default {
       "masked": "He has a strong ____ that education can change lives.",
       "options": [
         "belief-mcq-01",
-        "belief-mcq-02",
-        "belief-mcq-03",
-        "belief-mcq-04",
-        "belief-mcq-05",
-        "belief-mcq-06"
+        "belief-mcq-02"
       ],
       "explanation": "本句的「belief」指「一個人認為真實、正確或成立的觀念／信念」。",
       "sentenceIndex": 0,
@@ -221,12 +217,8 @@ export default {
         "belief"
       ],
       "optionReasons": {
-        "belief-mcq-01": "本句指「一個人認為真實、正確或成立的觀念／信念」。",
-        "belief-mcq-02": "「對宗教、神、靈性或宗教教義所持的信仰」是「belief — religious」的用法，與本句語境不同。",
-        "belief-mcq-03": "「對某人、制度、能力或理念的信心與信任」是「belief — confidence/trust」的用法，與本句語境不同。",
-        "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。",
-        "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
-        "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。"
+        "belief-mcq-01": "本句的「belief」指「一個人認為真實、正確或成立的觀念／信念」。",
+        "belief-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-mcq-01"
     },
@@ -238,11 +230,7 @@ export default {
       "masked": "That ____ influenced many of her decisions.",
       "options": [
         "belief-mcq-01",
-        "belief-mcq-02",
-        "belief-mcq-03",
-        "belief-mcq-04",
-        "belief-mcq-05",
-        "belief-mcq-06"
+        "belief-mcq-02"
       ],
       "explanation": "本句的「belief」指「一個人認為真實、正確或成立的觀念／信念」。",
       "sentenceIndex": 1,
@@ -251,12 +239,8 @@ export default {
         "belief"
       ],
       "optionReasons": {
-        "belief-mcq-01": "本句指「一個人認為真實、正確或成立的觀念／信念」。",
-        "belief-mcq-02": "「對宗教、神、靈性或宗教教義所持的信仰」是「belief — religious」的用法，與本句語境不同。",
-        "belief-mcq-03": "「對某人、制度、能力或理念的信心與信任」是「belief — confidence/trust」的用法，與本句語境不同。",
-        "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。",
-        "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
-        "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。"
+        "belief-mcq-01": "本句的「belief」指「一個人認為真實、正確或成立的觀念／信念」。",
+        "belief-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-mcq-01"
     },
@@ -268,11 +252,7 @@ export default {
       "masked": "People should be free to follow their religious ____.",
       "options": [
         "belief-mcq-02",
-        "belief-mcq-01",
-        "belief-mcq-03",
-        "belief-mcq-04",
-        "belief-mcq-05",
-        "belief-mcq-06"
+        "belief-mcq-09"
       ],
       "explanation": "本句的「beliefs」指「對宗教、神、靈性或宗教教義所持的信仰」。",
       "sentenceIndex": 2,
@@ -281,12 +261,8 @@ export default {
         "beliefs"
       ],
       "optionReasons": {
-        "belief-mcq-02": "本句指「對宗教、神、靈性或宗教教義所持的信仰」。",
-        "belief-mcq-01": "「一個人認為真實、正確或成立的觀念／信念」是「belief — idea accepted as true」的用法，與本句語境不同。",
-        "belief-mcq-03": "「對某人、制度、能力或理念的信心與信任」是「belief — confidence/trust」的用法，與本句語境不同。",
-        "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。",
-        "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
-        "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。"
+        "belief-mcq-02": "本句的「beliefs」指「對宗教、神、靈性或宗教教義所持的信仰」。",
+        "belief-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-mcq-02"
     },
@@ -298,11 +274,7 @@ export default {
       "masked": "The community has a wide range of religious ____.",
       "options": [
         "belief-mcq-02",
-        "belief-mcq-01",
-        "belief-mcq-03",
-        "belief-mcq-04",
-        "belief-mcq-05",
-        "belief-mcq-06"
+        "belief-mcq-09"
       ],
       "explanation": "本句的「beliefs」指「對宗教、神、靈性或宗教教義所持的信仰」。",
       "sentenceIndex": 3,
@@ -311,12 +283,8 @@ export default {
         "beliefs"
       ],
       "optionReasons": {
-        "belief-mcq-02": "本句指「對宗教、神、靈性或宗教教義所持的信仰」。",
-        "belief-mcq-01": "「一個人認為真實、正確或成立的觀念／信念」是「belief — idea accepted as true」的用法，與本句語境不同。",
-        "belief-mcq-03": "「對某人、制度、能力或理念的信心與信任」是「belief — confidence/trust」的用法，與本句語境不同。",
-        "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。",
-        "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
-        "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。"
+        "belief-mcq-02": "本句的「beliefs」指「對宗教、神、靈性或宗教教義所持的信仰」。",
+        "belief-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-mcq-02"
     },
@@ -328,11 +296,7 @@ export default {
       "masked": "She never lost her ____ in herself.",
       "options": [
         "belief-pdf-001",
-        "belief-mcq-02",
-        "belief-mcq-04",
-        "belief-mcq-01",
-        "belief-mcq-05",
-        "belief-mcq-06"
+        "contrast-duration"
       ],
       "explanation": "本句的「belief」指「相信某人／某事物的能力、價值或可靠性」。",
       "sentenceIndex": 4,
@@ -341,12 +305,8 @@ export default {
         "belief"
       ],
       "optionReasons": {
-        "belief-pdf-001": "本句指「相信某人／某事物的能力、價值或可靠性」。",
-        "belief-mcq-02": "「對宗教、神、靈性或宗教教義所持的信仰」是「belief — religious」的用法，與本句語境不同。",
-        "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。",
-        "belief-mcq-01": "「一個人認為真實、正確或成立的觀念／信念」是「belief — idea accepted as true」的用法，與本句語境不同。",
-        "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
-        "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。"
+        "belief-pdf-001": "本句的「belief」指「相信某人／某事物的能力、價值或可靠性」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-pdf-001"
     },
@@ -358,11 +318,7 @@ export default {
       "masked": "Public ____ in the system has weakened.",
       "options": [
         "belief-pdf-001",
-        "belief-mcq-02",
-        "belief-mcq-04",
-        "belief-mcq-01",
-        "belief-mcq-05",
-        "belief-mcq-06"
+        "contrast-duration"
       ],
       "explanation": "本句的「belief」指「相信某人／某事物的能力、價值或可靠性」。",
       "sentenceIndex": 5,
@@ -371,12 +327,8 @@ export default {
         "belief"
       ],
       "optionReasons": {
-        "belief-pdf-001": "本句指「相信某人／某事物的能力、價值或可靠性」。",
-        "belief-mcq-02": "「對宗教、神、靈性或宗教教義所持的信仰」是「belief — religious」的用法，與本句語境不同。",
-        "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。",
-        "belief-mcq-01": "「一個人認為真實、正確或成立的觀念／信念」是「belief — idea accepted as true」的用法，與本句語境不同。",
-        "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
-        "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。"
+        "belief-pdf-001": "本句的「belief」指「相信某人／某事物的能力、價值或可靠性」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-pdf-001"
     },
@@ -388,11 +340,7 @@ export default {
       "masked": "The book examines how shared ____ shaped early societies.",
       "options": [
         "belief-mcq-04",
-        "belief-mcq-03",
-        "belief-mcq-05",
-        "belief-mcq-02",
-        "belief-mcq-06",
-        "belief-mcq-01"
+        "contrast-duration"
       ],
       "explanation": "本句的「beliefs」指「某群體共同接受的價值、觀念、宗教思想或世界觀」。",
       "sentenceIndex": 6,
@@ -401,12 +349,8 @@ export default {
         "beliefs"
       ],
       "optionReasons": {
-        "belief-mcq-04": "本句指「某群體共同接受的價值、觀念、宗教思想或世界觀」。",
-        "belief-mcq-03": "「對某人、制度、能力或理念的信心與信任」是「belief — confidence/trust」的用法，與本句語境不同。",
-        "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
-        "belief-mcq-02": "「對宗教、神、靈性或宗教教義所持的信仰」是「belief — religious」的用法，與本句語境不同。",
-        "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。",
-        "belief-mcq-01": "「一個人認為真實、正確或成立的觀念／信念」是「belief — idea accepted as true」的用法，與本句語境不同。"
+        "belief-mcq-04": "本句的「beliefs」指「某群體共同接受的價值、觀念、宗教思想或世界觀」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-mcq-04"
     },
@@ -418,11 +362,7 @@ export default {
       "masked": "Cultural ____ can influence behaviour.",
       "options": [
         "belief-mcq-04",
-        "belief-mcq-03",
-        "belief-mcq-05",
-        "belief-mcq-02",
-        "belief-mcq-06",
-        "belief-mcq-01"
+        "contrast-duration"
       ],
       "explanation": "本句的「beliefs」指「某群體共同接受的價值、觀念、宗教思想或世界觀」。",
       "sentenceIndex": 7,
@@ -431,12 +371,8 @@ export default {
         "beliefs"
       ],
       "optionReasons": {
-        "belief-mcq-04": "本句指「某群體共同接受的價值、觀念、宗教思想或世界觀」。",
-        "belief-mcq-03": "「對某人、制度、能力或理念的信心與信任」是「belief — confidence/trust」的用法，與本句語境不同。",
-        "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
-        "belief-mcq-02": "「對宗教、神、靈性或宗教教義所持的信仰」是「belief — religious」的用法，與本句語境不同。",
-        "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。",
-        "belief-mcq-01": "「一個人認為真實、正確或成立的觀念／信念」是「belief — idea accepted as true」的用法，與本句語境不同。"
+        "belief-mcq-04": "本句的「beliefs」指「某群體共同接受的價值、觀念、宗教思想或世界觀」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-mcq-04"
     },
@@ -448,11 +384,7 @@ export default {
       "masked": "It is my ____ that the plan will succeed.",
       "options": [
         "belief-mcq-05",
-        "belief-mcq-04",
-        "belief-mcq-06",
-        "belief-mcq-03",
-        "belief-mcq-07",
-        "belief-mcq-02"
+        "contrast-energy"
       ],
       "explanation": "本句的「belief」指「對某件事是否真實或成立所持的看法；通常可併入」。",
       "sentenceIndex": 8,
@@ -461,12 +393,8 @@ export default {
         "belief"
       ],
       "optionReasons": {
-        "belief-mcq-05": "本句指「對某件事是否真實或成立所持的看法；通常可併入」。",
-        "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。",
-        "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。",
-        "belief-mcq-03": "「對某人、制度、能力或理念的信心與信任」是「belief — confidence/trust」的用法，與本句語境不同。",
-        "belief-mcq-07": "「難以置信的；口語中亦可表示極度驚人」是「unbelievable」的用法，與本句語境不同。",
-        "belief-mcq-02": "「對宗教、神、靈性或宗教教義所持的信仰」是「belief — religious」的用法，與本句語境不同。"
+        "belief-mcq-05": "本句的「belief」指「對某件事是否真實或成立所持的看法；通常可併入」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-mcq-05"
     },
@@ -478,11 +406,7 @@ export default {
       "masked": "Contrary to popular ____, the process is not simple.",
       "options": [
         "belief-mcq-05",
-        "belief-mcq-04",
-        "belief-mcq-06",
-        "belief-mcq-03",
-        "belief-mcq-07",
-        "belief-mcq-02"
+        "contrast-energy"
       ],
       "explanation": "本句的「belief」指「對某件事是否真實或成立所持的看法；通常可併入」。",
       "sentenceIndex": 9,
@@ -491,12 +415,8 @@ export default {
         "belief"
       ],
       "optionReasons": {
-        "belief-mcq-05": "本句指「對某件事是否真實或成立所持的看法；通常可併入」。",
-        "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。",
-        "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。",
-        "belief-mcq-03": "「對某人、制度、能力或理念的信心與信任」是「belief — confidence/trust」的用法，與本句語境不同。",
-        "belief-mcq-07": "「難以置信的；口語中亦可表示極度驚人」是「unbelievable」的用法，與本句語境不同。",
-        "belief-mcq-02": "「對宗教、神、靈性或宗教教義所持的信仰」是「belief — religious」的用法，與本句語境不同。"
+        "belief-mcq-05": "本句的「belief」指「對某件事是否真實或成立所持的看法；通常可併入」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-mcq-05"
     },
@@ -508,11 +428,7 @@ export default {
       "masked": "Her ____ the project remained strong.",
       "options": [
         "belief-mcq-08",
-        "belief-mcq-07",
-        "belief-mcq-09",
-        "belief-mcq-06",
-        "belief-mcq-05",
-        "belief-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「belief in」指「表示對……的信心／信念」。",
       "sentenceIndex": 10,
@@ -521,12 +437,8 @@ export default {
         "belief in"
       ],
       "optionReasons": {
-        "belief-mcq-08": "本句指「表示對……的信心／信念」。",
-        "belief-mcq-07": "「難以置信的；口語中亦可表示極度驚人」是「unbelievable」的用法，與本句語境不同。",
-        "belief-mcq-09": "「表示與普遍看法相反」是「Useful expression: contrary to popular belief — 與普遍看法相反」的用法，與本句語境不同。",
-        "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。",
-        "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
-        "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。"
+        "belief-mcq-08": "本句的「belief in」指「表示對……的信心／信念」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-mcq-08"
     },
@@ -538,11 +450,7 @@ export default {
       "masked": "His ____ justice shaped his career.",
       "options": [
         "belief-mcq-08",
-        "belief-mcq-07",
-        "belief-mcq-09",
-        "belief-mcq-06",
-        "belief-mcq-05",
-        "belief-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「belief in」指「表示對……的信心／信念」。",
       "sentenceIndex": 11,
@@ -551,12 +459,8 @@ export default {
         "belief in"
       ],
       "optionReasons": {
-        "belief-mcq-08": "本句指「表示對……的信心／信念」。",
-        "belief-mcq-07": "「難以置信的；口語中亦可表示極度驚人」是「unbelievable」的用法，與本句語境不同。",
-        "belief-mcq-09": "「表示與普遍看法相反」是「Useful expression: contrary to popular belief — 與普遍看法相反」的用法，與本句語境不同。",
-        "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。",
-        "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
-        "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。"
+        "belief-mcq-08": "本句的「belief in」指「表示對……的信心／信念」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-mcq-08"
     },
@@ -568,11 +472,7 @@ export default {
       "masked": "Their ____ change was possible kept them going.",
       "options": [
         "belief-mcq-08",
-        "belief-mcq-07",
-        "belief-mcq-09",
-        "belief-mcq-06",
-        "belief-mcq-05",
-        "belief-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「belief that」指「表示對……的信心／信念」。",
       "sentenceIndex": 12,
@@ -581,12 +481,8 @@ export default {
         "belief that"
       ],
       "optionReasons": {
-        "belief-mcq-08": "本句指「表示對……的信心／信念」。",
-        "belief-mcq-07": "「難以置信的；口語中亦可表示極度驚人」是「unbelievable」的用法，與本句語境不同。",
-        "belief-mcq-09": "「表示與普遍看法相反」是「Useful expression: contrary to popular belief — 與普遍看法相反」的用法，與本句語境不同。",
-        "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。",
-        "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
-        "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。"
+        "belief-mcq-08": "本句的「belief that」指「表示對……的信心／信念」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-mcq-08"
     },
@@ -598,11 +494,7 @@ export default {
       "masked": "Contrary to popular ____, the animal is not dangerous.",
       "options": [
         "belief-mcq-09",
-        "belief-mcq-08",
-        "belief-mcq-07",
-        "belief-mcq-06",
-        "belief-mcq-05",
-        "belief-mcq-04"
+        "belief-mcq-02"
       ],
       "explanation": "本句的「belief」指「表示與普遍看法相反」。",
       "sentenceIndex": 13,
@@ -611,12 +503,8 @@ export default {
         "belief"
       ],
       "optionReasons": {
-        "belief-mcq-09": "本句指「表示與普遍看法相反」。",
-        "belief-mcq-08": "「表示對……的信心／信念」是「Useful expression: belief in — 對……的信心／信念」的用法，與本句語境不同。",
-        "belief-mcq-07": "「難以置信的；口語中亦可表示極度驚人」是「unbelievable」的用法，與本句語境不同。",
-        "belief-mcq-06": "「合理可信、容易讓人相信的」是「believable」的用法，與本句語境不同。",
-        "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
-        "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。"
+        "belief-mcq-09": "本句的「belief」指「表示與普遍看法相反」。",
+        "belief-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-mcq-09"
     },
@@ -628,11 +516,7 @@ export default {
       "masked": "The character felt ____.",
       "options": [
         "belief-mcq-06",
-        "belief-mcq-05",
-        "belief-mcq-07",
-        "belief-mcq-04",
-        "belief-mcq-08",
-        "belief-mcq-03"
+        "belief-mcq-02"
       ],
       "explanation": "本句的「believable」指「合理可信、容易讓人相信的」。",
       "sentenceIndex": 14,
@@ -641,12 +525,8 @@ export default {
         "believable"
       ],
       "optionReasons": {
-        "belief-mcq-06": "本句指「合理可信、容易讓人相信的」。",
-        "belief-mcq-05": "「對某件事是否真實或成立所持的看法；通常可併入」是「belief — opinion/judgment」的用法，與本句語境不同。",
-        "belief-mcq-07": "「難以置信的；口語中亦可表示極度驚人」是「unbelievable」的用法，與本句語境不同。",
-        "belief-mcq-04": "「某群體共同接受的價值、觀念、宗教思想或世界觀」是「beliefs — shared cultural/value system」的用法，與本句語境不同。",
-        "belief-mcq-08": "「表示對……的信心／信念」是「Useful expression: belief in — 對……的信心／信念」的用法，與本句語境不同。",
-        "belief-mcq-03": "「對某人、制度、能力或理念的信心與信任」是「belief — confidence/trust」的用法，與本句語境不同。"
+        "belief-mcq-06": "本句的「believable」指「合理可信、容易讓人相信的」。",
+        "belief-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belief-mcq-06"
     }
@@ -658,5 +538,20 @@ export default {
     "sha256": "a8f5bbad0c31e84f35838988c31c2295ce40d9bf486a662dd80ed4b94cca9de9",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    },
+    {
+      "id": "contrast-energy",
+      "title": "消耗身體的體力或精力"
+    },
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

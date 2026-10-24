@@ -268,11 +268,9 @@ export default {
       "masked": "Psychological fiction is ____.",
       "options": [
         "alley-mcq-12",
-        "alley-mcq-11",
-        "alley-mcq-10",
-        "alley-mcq-09",
-        "alley-mcq-08",
-        "alley-mcq-07"
+        "alley-mcq-03",
+        "alley-mcq-05",
+        "alley-mcq-01"
       ],
       "explanation": "本句的「right up my alley」指「正合我口味；正是我喜歡的類型；正中下懷」。",
       "sentenceIndex": 0,
@@ -281,12 +279,10 @@ export default {
         "right up my alley"
       ],
       "optionReasons": {
-        "alley-mcq-12": "本句指「正合我口味；正是我喜歡的類型；正中下懷」。",
-        "alley-mcq-11": "「狹窄的小巷／通道」是「alleyway」的用法，與本句語境不同。",
-        "alley-mcq-10": "「不會有結果、行不通的方向；死胡同」是「blind alley — figurative」的用法，與本句語境不同。",
-        "alley-mcq-09": "「沒有出口的死巷」是「blind alley — literal」的用法，與本句語境不同。",
-        "alley-mcq-08": "「在街巷生活、通常無主的流浪貓」是「alley cat」的用法，與本句語境不同。",
-        "alley-mcq-07": "「適合某人的興趣或能力」是「up someone’s alley」的用法，與本句語境不同。"
+        "alley-mcq-12": "本句的「right up my alley」指「正合我口味；正是我喜歡的類型；正中下懷」。",
+        "alley-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-12"
     },
@@ -298,11 +294,9 @@ export default {
       "masked": "A quiet café with books and jazz is ____.",
       "options": [
         "alley-mcq-12",
-        "alley-mcq-11",
-        "alley-mcq-10",
-        "alley-mcq-09",
-        "alley-mcq-08",
-        "alley-mcq-07"
+        "alley-mcq-02",
+        "alley-mcq-05",
+        "alley-mcq-04"
       ],
       "explanation": "本句的「right up her alley」指「正合我口味；正是我喜歡的類型；正中下懷」。",
       "sentenceIndex": 1,
@@ -311,12 +305,10 @@ export default {
         "right up her alley"
       ],
       "optionReasons": {
-        "alley-mcq-12": "本句指「正合我口味；正是我喜歡的類型；正中下懷」。",
-        "alley-mcq-11": "「狹窄的小巷／通道」是「alleyway」的用法，與本句語境不同。",
-        "alley-mcq-10": "「不會有結果、行不通的方向；死胡同」是「blind alley — figurative」的用法，與本句語境不同。",
-        "alley-mcq-09": "「沒有出口的死巷」是「blind alley — literal」的用法，與本句語境不同。",
-        "alley-mcq-08": "「在街巷生活、通常無主的流浪貓」是「alley cat」的用法，與本句語境不同。",
-        "alley-mcq-07": "「適合某人的興趣或能力」是「up someone’s alley」的用法，與本句語境不同。"
+        "alley-mcq-12": "本句的「right up her alley」指「正合我口味；正是我喜歡的類型；正中下懷」。",
+        "alley-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-12"
     },
@@ -328,11 +320,9 @@ export default {
       "masked": "We walked through a narrow ____.",
       "options": [
         "alley-mcq-01",
-        "alley-mcq-02",
+        "alley-mcq-06",
         "alley-mcq-03",
-        "alley-mcq-04",
-        "alley-mcq-05",
-        "alley-mcq-06"
+        "alley-mcq-05"
       ],
       "explanation": "本句的「alley」指「建築物之間或後方的狹窄小巷／後巷」。",
       "sentenceIndex": 2,
@@ -341,12 +331,10 @@ export default {
         "alley"
       ],
       "optionReasons": {
-        "alley-mcq-01": "本句指「建築物之間或後方的狹窄小巷／後巷」。",
-        "alley-mcq-02": "「建築物後方的後巷／窄巷」是「back alley」的用法，與本句語境不同。",
-        "alley-mcq-03": "「設有保齡球道的保齡球館」是「bowling alley — venue」的用法，與本句語境不同。",
-        "alley-mcq-04": "「保齡球滾動的球道」是「alley — bowling lane」的用法，與本句語境不同。",
-        "alley-mcq-05": "「網球雙打使用、單打不使用的側邊狹長區域」是「doubles alley — tennis」的用法，與本句語境不同。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。"
+        "alley-mcq-01": "本句的「alley」指「建築物之間或後方的狹窄小巷／後巷」。",
+        "alley-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-01"
     },
@@ -358,11 +346,9 @@ export default {
       "masked": "The restaurant is hidden in a small ____ behind the market.",
       "options": [
         "alley-mcq-01",
-        "alley-mcq-02",
-        "alley-mcq-03",
+        "alley-mcq-07",
         "alley-mcq-04",
-        "alley-mcq-05",
-        "alley-mcq-06"
+        "alley-mcq-05"
       ],
       "explanation": "本句的「alley」指「建築物之間或後方的狹窄小巷／後巷」。",
       "sentenceIndex": 3,
@@ -371,12 +357,10 @@ export default {
         "alley"
       ],
       "optionReasons": {
-        "alley-mcq-01": "本句指「建築物之間或後方的狹窄小巷／後巷」。",
-        "alley-mcq-02": "「建築物後方的後巷／窄巷」是「back alley」的用法，與本句語境不同。",
-        "alley-mcq-03": "「設有保齡球道的保齡球館」是「bowling alley — venue」的用法，與本句語境不同。",
-        "alley-mcq-04": "「保齡球滾動的球道」是「alley — bowling lane」的用法，與本句語境不同。",
-        "alley-mcq-05": "「網球雙打使用、單打不使用的側邊狹長區域」是「doubles alley — tennis」的用法，與本句語境不同。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。"
+        "alley-mcq-01": "本句的「alley」指「建築物之間或後方的狹窄小巷／後巷」。",
+        "alley-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-01"
     },
@@ -388,11 +372,9 @@ export default {
       "masked": "The entrance is in the ____.",
       "options": [
         "alley-mcq-02",
-        "alley-mcq-01",
-        "alley-mcq-03",
+        "alley-mcq-12",
         "alley-mcq-04",
-        "alley-mcq-05",
-        "alley-mcq-06"
+        "alley-mcq-05"
       ],
       "explanation": "本句的「back alley」指「建築物後方的後巷／窄巷」。",
       "sentenceIndex": 4,
@@ -401,12 +383,10 @@ export default {
         "back alley"
       ],
       "optionReasons": {
-        "alley-mcq-02": "本句指「建築物後方的後巷／窄巷」。",
-        "alley-mcq-01": "「建築物之間或後方的狹窄小巷／後巷」是「alley — narrow passage」的用法，與本句語境不同。",
-        "alley-mcq-03": "「設有保齡球道的保齡球館」是「bowling alley — venue」的用法，與本句語境不同。",
-        "alley-mcq-04": "「保齡球滾動的球道」是「alley — bowling lane」的用法，與本句語境不同。",
-        "alley-mcq-05": "「網球雙打使用、單打不使用的側邊狹長區域」是「doubles alley — tennis」的用法，與本句語境不同。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。"
+        "alley-mcq-02": "本句的「back alley」指「建築物後方的後巷／窄巷」。",
+        "alley-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-02"
     },
@@ -418,11 +398,9 @@ export default {
       "masked": "They found an old bicycle in the ____.",
       "options": [
         "alley-mcq-02",
-        "alley-mcq-01",
-        "alley-mcq-03",
+        "alley-mcq-12",
         "alley-mcq-04",
-        "alley-mcq-05",
-        "alley-mcq-06"
+        "alley-mcq-05"
       ],
       "explanation": "本句的「back alley」指「建築物後方的後巷／窄巷」。",
       "sentenceIndex": 5,
@@ -431,12 +409,10 @@ export default {
         "back alley"
       ],
       "optionReasons": {
-        "alley-mcq-02": "本句指「建築物後方的後巷／窄巷」。",
-        "alley-mcq-01": "「建築物之間或後方的狹窄小巷／後巷」是「alley — narrow passage」的用法，與本句語境不同。",
-        "alley-mcq-03": "「設有保齡球道的保齡球館」是「bowling alley — venue」的用法，與本句語境不同。",
-        "alley-mcq-04": "「保齡球滾動的球道」是「alley — bowling lane」的用法，與本句語境不同。",
-        "alley-mcq-05": "「網球雙打使用、單打不使用的側邊狹長區域」是「doubles alley — tennis」的用法，與本句語境不同。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。"
+        "alley-mcq-02": "本句的「back alley」指「建築物後方的後巷／窄巷」。",
+        "alley-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-02"
     },
@@ -449,10 +425,8 @@ export default {
       "options": [
         "alley-mcq-03",
         "alley-mcq-02",
-        "alley-mcq-04",
-        "alley-mcq-01",
-        "alley-mcq-05",
-        "alley-mcq-06"
+        "alley-mcq-12",
+        "alley-mcq-08"
       ],
       "explanation": "本句的「bowling alley」指「設有保齡球道的保齡球館」。",
       "sentenceIndex": 6,
@@ -461,12 +435,10 @@ export default {
         "bowling alley"
       ],
       "optionReasons": {
-        "alley-mcq-03": "本句指「設有保齡球道的保齡球館」。",
-        "alley-mcq-02": "「建築物後方的後巷／窄巷」是「back alley」的用法，與本句語境不同。",
-        "alley-mcq-04": "「保齡球滾動的球道」是「alley — bowling lane」的用法，與本句語境不同。",
-        "alley-mcq-01": "「建築物之間或後方的狹窄小巷／後巷」是「alley — narrow passage」的用法，與本句語境不同。",
-        "alley-mcq-05": "「網球雙打使用、單打不使用的側邊狹長區域」是「doubles alley — tennis」的用法，與本句語境不同。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。"
+        "alley-mcq-03": "本句的「bowling alley」指「設有保齡球道的保齡球館」。",
+        "alley-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-03"
     },
@@ -478,11 +450,9 @@ export default {
       "masked": "The new ____ has twenty lanes.",
       "options": [
         "alley-mcq-03",
-        "alley-mcq-02",
-        "alley-mcq-04",
+        "alley-mcq-06",
         "alley-mcq-01",
-        "alley-mcq-05",
-        "alley-mcq-06"
+        "alley-mcq-09"
       ],
       "explanation": "本句的「bowling alley」指「設有保齡球道的保齡球館」。",
       "sentenceIndex": 7,
@@ -491,12 +461,10 @@ export default {
         "bowling alley"
       ],
       "optionReasons": {
-        "alley-mcq-03": "本句指「設有保齡球道的保齡球館」。",
-        "alley-mcq-02": "「建築物後方的後巷／窄巷」是「back alley」的用法，與本句語境不同。",
-        "alley-mcq-04": "「保齡球滾動的球道」是「alley — bowling lane」的用法，與本句語境不同。",
-        "alley-mcq-01": "「建築物之間或後方的狹窄小巷／後巷」是「alley — narrow passage」的用法，與本句語境不同。",
-        "alley-mcq-05": "「網球雙打使用、單打不使用的側邊狹長區域」是「doubles alley — tennis」的用法，與本句語境不同。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。"
+        "alley-mcq-03": "本句的「bowling alley」指「設有保齡球道的保齡球館」。",
+        "alley-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-03"
     },
@@ -508,11 +476,9 @@ export default {
       "masked": "The ball rolled straight down the ____.",
       "options": [
         "alley-mcq-04",
-        "alley-mcq-03",
-        "alley-mcq-05",
-        "alley-mcq-02",
-        "alley-mcq-06",
-        "alley-mcq-01"
+        "alley-mcq-12",
+        "alley-mcq-08",
+        "alley-mcq-02"
       ],
       "explanation": "本句的「alley」指「保齡球滾動的球道」。",
       "sentenceIndex": 8,
@@ -521,12 +487,10 @@ export default {
         "alley"
       ],
       "optionReasons": {
-        "alley-mcq-04": "本句指「保齡球滾動的球道」。",
-        "alley-mcq-03": "「設有保齡球道的保齡球館」是「bowling alley — venue」的用法，與本句語境不同。",
-        "alley-mcq-05": "「網球雙打使用、單打不使用的側邊狹長區域」是「doubles alley — tennis」的用法，與本句語境不同。",
-        "alley-mcq-02": "「建築物後方的後巷／窄巷」是「back alley」的用法，與本句語境不同。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-01": "「建築物之間或後方的狹窄小巷／後巷」是「alley — narrow passage」的用法，與本句語境不同。"
+        "alley-mcq-04": "本句的「alley」指「保齡球滾動的球道」。",
+        "alley-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-04"
     },
@@ -538,11 +502,9 @@ export default {
       "masked": "Keep your feet behind the line at the start of the ____.",
       "options": [
         "alley-mcq-04",
-        "alley-mcq-03",
-        "alley-mcq-05",
         "alley-mcq-02",
-        "alley-mcq-06",
-        "alley-mcq-01"
+        "alley-mcq-08",
+        "alley-mcq-12"
       ],
       "explanation": "本句的「alley」指「保齡球滾動的球道」。",
       "sentenceIndex": 9,
@@ -551,12 +513,10 @@ export default {
         "alley"
       ],
       "optionReasons": {
-        "alley-mcq-04": "本句指「保齡球滾動的球道」。",
-        "alley-mcq-03": "「設有保齡球道的保齡球館」是「bowling alley — venue」的用法，與本句語境不同。",
-        "alley-mcq-05": "「網球雙打使用、單打不使用的側邊狹長區域」是「doubles alley — tennis」的用法，與本句語境不同。",
-        "alley-mcq-02": "「建築物後方的後巷／窄巷」是「back alley」的用法，與本句語境不同。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-01": "「建築物之間或後方的狹窄小巷／後巷」是「alley — narrow passage」的用法，與本句語境不同。"
+        "alley-mcq-04": "本句的「alley」指「保齡球滾動的球道」。",
+        "alley-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-04"
     },
@@ -568,10 +528,8 @@ export default {
       "masked": "The ball landed in the ____.",
       "options": [
         "alley-mcq-05",
-        "alley-mcq-04",
-        "alley-mcq-06",
-        "alley-mcq-03",
         "alley-mcq-07",
+        "alley-mcq-09",
         "alley-mcq-02"
       ],
       "explanation": "本句的「doubles alley」指「網球雙打使用、單打不使用的側邊狹長區域」。",
@@ -581,12 +539,10 @@ export default {
         "doubles alley"
       ],
       "optionReasons": {
-        "alley-mcq-05": "本句指「網球雙打使用、單打不使用的側邊狹長區域」。",
-        "alley-mcq-04": "「保齡球滾動的球道」是「alley — bowling lane」的用法，與本句語境不同。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-03": "「設有保齡球道的保齡球館」是「bowling alley — venue」的用法，與本句語境不同。",
-        "alley-mcq-07": "「適合某人的興趣或能力」是「up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-02": "「建築物後方的後巷／窄巷」是「back alley」的用法，與本句語境不同。"
+        "alley-mcq-05": "本句的「doubles alley」指「網球雙打使用、單打不使用的側邊狹長區域」。",
+        "alley-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-05"
     },
@@ -598,10 +554,8 @@ export default {
       "masked": "In singles, the ____ is out of bounds.",
       "options": [
         "alley-mcq-05",
-        "alley-mcq-04",
-        "alley-mcq-06",
-        "alley-mcq-03",
-        "alley-mcq-07",
+        "alley-mcq-09",
+        "alley-mcq-08",
         "alley-mcq-02"
       ],
       "explanation": "本句的「alley」指「網球雙打使用、單打不使用的側邊狹長區域」。",
@@ -611,12 +565,10 @@ export default {
         "alley"
       ],
       "optionReasons": {
-        "alley-mcq-05": "本句指「網球雙打使用、單打不使用的側邊狹長區域」。",
-        "alley-mcq-04": "「保齡球滾動的球道」是「alley — bowling lane」的用法，與本句語境不同。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-03": "「設有保齡球道的保齡球館」是「bowling alley — venue」的用法，與本句語境不同。",
-        "alley-mcq-07": "「適合某人的興趣或能力」是「up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-02": "「建築物後方的後巷／窄巷」是「back alley」的用法，與本句語境不同。"
+        "alley-mcq-05": "本句的「alley」指「網球雙打使用、單打不使用的側邊狹長區域」。",
+        "alley-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-05"
     },
@@ -628,11 +580,9 @@ export default {
       "masked": "That kind of puzzle is ____.",
       "options": [
         "alley-mcq-06",
-        "alley-mcq-05",
-        "alley-mcq-07",
-        "alley-mcq-04",
-        "alley-mcq-08",
-        "alley-mcq-03"
+        "alley-mcq-11",
+        "alley-mcq-03",
+        "alley-mcq-05"
       ],
       "explanation": "本句的「right up his alley」指「非常符合某人的興趣、口味或專長」。",
       "sentenceIndex": 12,
@@ -641,12 +591,10 @@ export default {
         "right up his alley"
       ],
       "optionReasons": {
-        "alley-mcq-06": "本句指「非常符合某人的興趣、口味或專長」。",
-        "alley-mcq-05": "「網球雙打使用、單打不使用的側邊狹長區域」是「doubles alley — tennis」的用法，與本句語境不同。",
-        "alley-mcq-07": "「適合某人的興趣或能力」是「up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-04": "「保齡球滾動的球道」是「alley — bowling lane」的用法，與本句語境不同。",
-        "alley-mcq-08": "「在街巷生活、通常無主的流浪貓」是「alley cat」的用法，與本句語境不同。",
-        "alley-mcq-03": "「設有保齡球道的保齡球館」是「bowling alley — venue」的用法，與本句語境不同。"
+        "alley-mcq-06": "本句的「right up his alley」指「非常符合某人的興趣、口味或專長」。",
+        "alley-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-06"
     },
@@ -658,11 +606,9 @@ export default {
       "masked": "A reflective novel like this is ____.",
       "options": [
         "alley-mcq-06",
-        "alley-mcq-05",
-        "alley-mcq-07",
-        "alley-mcq-04",
-        "alley-mcq-08",
-        "alley-mcq-03"
+        "alley-mcq-03",
+        "alley-mcq-11",
+        "alley-mcq-05"
       ],
       "explanation": "本句的「right up my alley」指「非常符合某人的興趣、口味或專長」。",
       "sentenceIndex": 13,
@@ -671,12 +617,10 @@ export default {
         "right up my alley"
       ],
       "optionReasons": {
-        "alley-mcq-06": "本句指「非常符合某人的興趣、口味或專長」。",
-        "alley-mcq-05": "「網球雙打使用、單打不使用的側邊狹長區域」是「doubles alley — tennis」的用法，與本句語境不同。",
-        "alley-mcq-07": "「適合某人的興趣或能力」是「up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-04": "「保齡球滾動的球道」是「alley — bowling lane」的用法，與本句語境不同。",
-        "alley-mcq-08": "「在街巷生活、通常無主的流浪貓」是「alley cat」的用法，與本句語境不同。",
-        "alley-mcq-03": "「設有保齡球道的保齡球館」是「bowling alley — venue」的用法，與本句語境不同。"
+        "alley-mcq-06": "本句的「right up my alley」指「非常符合某人的興趣、口味或專長」。",
+        "alley-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-06"
     },
@@ -688,11 +632,9 @@ export default {
       "masked": "This project is ____.",
       "options": [
         "alley-mcq-07",
-        "alley-mcq-06",
-        "alley-mcq-08",
-        "alley-mcq-05",
+        "alley-mcq-01",
         "alley-mcq-09",
-        "alley-mcq-04"
+        "alley-mcq-08"
       ],
       "explanation": "本句的「up your alley」指「適合某人的興趣或能力」。",
       "sentenceIndex": 14,
@@ -701,12 +643,10 @@ export default {
         "up your alley"
       ],
       "optionReasons": {
-        "alley-mcq-07": "本句指「適合某人的興趣或能力」。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-08": "「在街巷生活、通常無主的流浪貓」是「alley cat」的用法，與本句語境不同。",
-        "alley-mcq-05": "「網球雙打使用、單打不使用的側邊狹長區域」是「doubles alley — tennis」的用法，與本句語境不同。",
-        "alley-mcq-09": "「沒有出口的死巷」是「blind alley — literal」的用法，與本句語境不同。",
-        "alley-mcq-04": "「保齡球滾動的球道」是「alley — bowling lane」的用法，與本句語境不同。"
+        "alley-mcq-07": "本句的「up your alley」指「適合某人的興趣或能力」。",
+        "alley-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-07"
     },
@@ -718,11 +658,9 @@ export default {
       "masked": "Mystery novels are definitely ____.",
       "options": [
         "alley-mcq-07",
-        "alley-mcq-06",
-        "alley-mcq-08",
-        "alley-mcq-05",
         "alley-mcq-09",
-        "alley-mcq-04"
+        "alley-mcq-11",
+        "alley-mcq-03"
       ],
       "explanation": "本句的「up her alley」指「適合某人的興趣或能力」。",
       "sentenceIndex": 15,
@@ -731,12 +669,10 @@ export default {
         "up her alley"
       ],
       "optionReasons": {
-        "alley-mcq-07": "本句指「適合某人的興趣或能力」。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-08": "「在街巷生活、通常無主的流浪貓」是「alley cat」的用法，與本句語境不同。",
-        "alley-mcq-05": "「網球雙打使用、單打不使用的側邊狹長區域」是「doubles alley — tennis」的用法，與本句語境不同。",
-        "alley-mcq-09": "「沒有出口的死巷」是「blind alley — literal」的用法，與本句語境不同。",
-        "alley-mcq-04": "「保齡球滾動的球道」是「alley — bowling lane」的用法，與本句語境不同。"
+        "alley-mcq-07": "本句的「up her alley」指「適合某人的興趣或能力」。",
+        "alley-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-07"
     },
@@ -748,11 +684,9 @@ export default {
       "masked": "An ____ was sleeping near the bins.",
       "options": [
         "alley-mcq-08",
-        "alley-mcq-07",
-        "alley-mcq-09",
-        "alley-mcq-06",
-        "alley-mcq-10",
-        "alley-mcq-05"
+        "alley-mcq-04",
+        "alley-mcq-05",
+        "alley-mcq-07"
       ],
       "explanation": "本句的「alley cat」指「在街巷生活、通常無主的流浪貓」。",
       "sentenceIndex": 16,
@@ -761,12 +695,10 @@ export default {
         "alley cat"
       ],
       "optionReasons": {
-        "alley-mcq-08": "本句指「在街巷生活、通常無主的流浪貓」。",
-        "alley-mcq-07": "「適合某人的興趣或能力」是「up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-09": "「沒有出口的死巷」是「blind alley — literal」的用法，與本句語境不同。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-10": "「不會有結果、行不通的方向；死胡同」是「blind alley — figurative」的用法，與本句語境不同。",
-        "alley-mcq-05": "「網球雙打使用、單打不使用的側邊狹長區域」是「doubles alley — tennis」的用法，與本句語境不同。"
+        "alley-mcq-08": "本句的「alley cat」指「在街巷生活、通常無主的流浪貓」。",
+        "alley-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-08"
     },
@@ -779,10 +711,8 @@ export default {
       "options": [
         "alley-mcq-08",
         "alley-mcq-07",
-        "alley-mcq-09",
-        "alley-mcq-06",
-        "alley-mcq-10",
-        "alley-mcq-05"
+        "alley-mcq-05",
+        "alley-mcq-04"
       ],
       "explanation": "本句的「alley cats」指「在街巷生活、通常無主的流浪貓」。",
       "sentenceIndex": 17,
@@ -791,12 +721,10 @@ export default {
         "alley cats"
       ],
       "optionReasons": {
-        "alley-mcq-08": "本句指「在街巷生活、通常無主的流浪貓」。",
-        "alley-mcq-07": "「適合某人的興趣或能力」是「up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-09": "「沒有出口的死巷」是「blind alley — literal」的用法，與本句語境不同。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-10": "「不會有結果、行不通的方向；死胡同」是「blind alley — figurative」的用法，與本句語境不同。",
-        "alley-mcq-05": "「網球雙打使用、單打不使用的側邊狹長區域」是「doubles alley — tennis」的用法，與本句語境不同。"
+        "alley-mcq-08": "本句的「alley cats」指「在街巷生活、通常無主的流浪貓」。",
+        "alley-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-08"
     },
@@ -808,11 +736,9 @@ export default {
       "masked": "The road ends in a ____.",
       "options": [
         "alley-mcq-09",
-        "alley-mcq-08",
-        "alley-mcq-10",
+        "alley-mcq-03",
         "alley-mcq-07",
-        "alley-mcq-11",
-        "alley-mcq-06"
+        "alley-mcq-05"
       ],
       "explanation": "本句的「blind alley」指「沒有出口的死巷」。",
       "sentenceIndex": 18,
@@ -821,12 +747,10 @@ export default {
         "blind alley"
       ],
       "optionReasons": {
-        "alley-mcq-09": "本句指「沒有出口的死巷」。",
-        "alley-mcq-08": "「在街巷生活、通常無主的流浪貓」是「alley cat」的用法，與本句語境不同。",
-        "alley-mcq-10": "「不會有結果、行不通的方向；死胡同」是「blind alley — figurative」的用法，與本句語境不同。",
-        "alley-mcq-07": "「適合某人的興趣或能力」是「up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-11": "「狹窄的小巷／通道」是「alleyway」的用法，與本句語境不同。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。"
+        "alley-mcq-09": "本句的「blind alley」指「沒有出口的死巷」。",
+        "alley-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-09"
     },
@@ -838,11 +762,9 @@ export default {
       "masked": "That line of research turned out to be a ____.",
       "options": [
         "alley-mcq-09",
-        "alley-mcq-08",
-        "alley-mcq-10",
-        "alley-mcq-07",
-        "alley-mcq-11",
-        "alley-mcq-06"
+        "alley-mcq-05",
+        "alley-mcq-04",
+        "alley-mcq-07"
       ],
       "explanation": "本句的「blind alley」指「沒有出口的死巷」。",
       "sentenceIndex": 19,
@@ -851,12 +773,10 @@ export default {
         "blind alley"
       ],
       "optionReasons": {
-        "alley-mcq-09": "本句指「沒有出口的死巷」。",
-        "alley-mcq-08": "「在街巷生活、通常無主的流浪貓」是「alley cat」的用法，與本句語境不同。",
-        "alley-mcq-10": "「不會有結果、行不通的方向；死胡同」是「blind alley — figurative」的用法，與本句語境不同。",
-        "alley-mcq-07": "「適合某人的興趣或能力」是「up someone’s alley」的用法，與本句語境不同。",
-        "alley-mcq-11": "「狹窄的小巷／通道」是「alleyway」的用法，與本句語境不同。",
-        "alley-mcq-06": "「非常符合某人的興趣、口味或專長」是「right up someone’s alley」的用法，與本句語境不同。"
+        "alley-mcq-09": "本句的「blind alley」指「沒有出口的死巷」。",
+        "alley-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-09"
     },
@@ -868,11 +788,9 @@ export default {
       "masked": "The café is down a narrow ____.",
       "options": [
         "alley-mcq-11",
-        "alley-mcq-10",
-        "alley-mcq-12",
-        "alley-mcq-09",
-        "alley-mcq-08",
-        "alley-mcq-07"
+        "alley-mcq-07",
+        "alley-mcq-04",
+        "alley-mcq-09"
       ],
       "explanation": "本句的「alleyway」指「狹窄的小巷／通道」。",
       "sentenceIndex": 20,
@@ -881,12 +799,10 @@ export default {
         "alleyway"
       ],
       "optionReasons": {
-        "alley-mcq-11": "本句指「狹窄的小巷／通道」。",
-        "alley-mcq-10": "「不會有結果、行不通的方向；死胡同」是「blind alley — figurative」的用法，與本句語境不同。",
-        "alley-mcq-12": "「正合我口味；正是我喜歡的類型；正中下懷」是「Passage meaning」的用法，與本句語境不同。",
-        "alley-mcq-09": "「沒有出口的死巷」是「blind alley — literal」的用法，與本句語境不同。",
-        "alley-mcq-08": "「在街巷生活、通常無主的流浪貓」是「alley cat」的用法，與本句語境不同。",
-        "alley-mcq-07": "「適合某人的興趣或能力」是「up someone’s alley」的用法，與本句語境不同。"
+        "alley-mcq-11": "本句的「alleyway」指「狹窄的小巷／通道」。",
+        "alley-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-11"
     },
@@ -898,11 +814,9 @@ export default {
       "masked": "The ____ was poorly lit.",
       "options": [
         "alley-mcq-11",
-        "alley-mcq-10",
-        "alley-mcq-12",
-        "alley-mcq-09",
-        "alley-mcq-08",
-        "alley-mcq-07"
+        "alley-mcq-06",
+        "alley-mcq-05",
+        "alley-mcq-03"
       ],
       "explanation": "本句的「alleyway」指「狹窄的小巷／通道」。",
       "sentenceIndex": 21,
@@ -911,12 +825,10 @@ export default {
         "alleyway"
       ],
       "optionReasons": {
-        "alley-mcq-11": "本句指「狹窄的小巷／通道」。",
-        "alley-mcq-10": "「不會有結果、行不通的方向；死胡同」是「blind alley — figurative」的用法，與本句語境不同。",
-        "alley-mcq-12": "「正合我口味；正是我喜歡的類型；正中下懷」是「Passage meaning」的用法，與本句語境不同。",
-        "alley-mcq-09": "「沒有出口的死巷」是「blind alley — literal」的用法，與本句語境不同。",
-        "alley-mcq-08": "「在街巷生活、通常無主的流浪貓」是「alley cat」的用法，與本句語境不同。",
-        "alley-mcq-07": "「適合某人的興趣或能力」是「up someone’s alley」的用法，與本句語境不同。"
+        "alley-mcq-11": "本句的「alleyway」指「狹窄的小巷／通道」。",
+        "alley-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "alley-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alley-mcq-11"
     }
@@ -928,5 +840,7 @@ export default {
     "sha256": "b76d98b4a6ada8e4a5cb1a4cef96a8ff494259bdcd2864fbc9de6c4e09a09b2f",
     "pages": 9
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

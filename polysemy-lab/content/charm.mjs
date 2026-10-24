@@ -458,11 +458,9 @@ export default {
       "masked": "Even so, that is part of his ____.",
       "options": [
         "charm-mcq-21",
-        "charm-mcq-20",
-        "charm-mcq-19",
-        "charm-mcq-18",
-        "charm-mcq-17",
-        "charm-mcq-16"
+        "charm-mcq-06",
+        "charm-mcq-14",
+        "charm-mcq-17"
       ],
       "explanation": "本句的「charm」指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
       "sentenceIndex": 0,
@@ -471,12 +469,10 @@ export default {
         "charm"
       ],
       "optionReasons": {
-        "charm-mcq-21": "本句指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
-        "charm-mcq-20": "「很會討人喜歡的人」是「charmer」的用法，與本句語境不同。",
-        "charm-mcq-19": "「特別幸運的人生」是「charmed life」的用法，與本句語境不同。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。"
+        "charm-mcq-21": "本句的「charm」指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
+        "charm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-21"
     },
@@ -488,11 +484,9 @@ export default {
       "masked": "Her warmth and sense of humour are part of her ____.",
       "options": [
         "charm-mcq-21",
-        "charm-mcq-20",
-        "charm-mcq-19",
-        "charm-mcq-18",
-        "charm-mcq-17",
-        "charm-mcq-16"
+        "charm-mcq-16",
+        "charm-mcq-14",
+        "charm-mcq-17"
       ],
       "explanation": "本句的「charm」指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
       "sentenceIndex": 1,
@@ -501,12 +495,10 @@ export default {
         "charm"
       ],
       "optionReasons": {
-        "charm-mcq-21": "本句指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
-        "charm-mcq-20": "「很會討人喜歡的人」是「charmer」的用法，與本句語境不同。",
-        "charm-mcq-19": "「特別幸運的人生」是「charmed life」的用法，與本句語境不同。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。"
+        "charm-mcq-21": "本句的「charm」指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
+        "charm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-21"
     },
@@ -518,11 +510,9 @@ export default {
       "masked": "He has a natural ____ that makes people feel comfortable around him.",
       "options": [
         "charm-mcq-21",
-        "charm-mcq-20",
-        "charm-mcq-19",
         "charm-mcq-18",
-        "charm-mcq-17",
-        "charm-mcq-16"
+        "charm-mcq-06",
+        "charm-mcq-13"
       ],
       "explanation": "本句的「charm」指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
       "sentenceIndex": 2,
@@ -531,12 +521,10 @@ export default {
         "charm"
       ],
       "optionReasons": {
-        "charm-mcq-21": "本句指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
-        "charm-mcq-20": "「很會討人喜歡的人」是「charmer」的用法，與本句語境不同。",
-        "charm-mcq-19": "「特別幸運的人生」是「charmed life」的用法，與本句語境不同。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。"
+        "charm-mcq-21": "本句的「charm」指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
+        "charm-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-21"
     },
@@ -548,11 +536,9 @@ export default {
       "masked": "She won people over with her ____.",
       "options": [
         "charm-mcq-03",
-        "charm-mcq-02",
-        "charm-mcq-04",
-        "charm-mcq-01",
-        "charm-mcq-05",
-        "charm-mcq-06"
+        "charm-mcq-12",
+        "charm-mcq-18",
+        "charm-mcq-16"
       ],
       "explanation": "本句的「personal charm」指「個人魅力」。",
       "sentenceIndex": 3,
@@ -561,12 +547,10 @@ export default {
         "personal charm"
       ],
       "optionReasons": {
-        "charm-mcq-03": "本句指「個人魅力」。",
-        "charm-mcq-02": "「他魅力的一部分」是「part of his charm」的用法，與本句語境不同。",
-        "charm-mcq-04": "「天生魅力」是「natural charm」的用法，與本句語境不同。",
-        "charm-mcq-01": "「魅力；討人喜歡之處」是「charm (personality)」的用法，與本句語境不同。",
-        "charm-mcq-05": "「韻味；迷人之處」是「charm (place)」的用法，與本句語境不同。",
-        "charm-mcq-06": "「古典韻味」是「old-world charm」的用法，與本句語境不同。"
+        "charm-mcq-03": "本句的「personal charm」指「個人魅力」。",
+        "charm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-03"
     },
@@ -578,11 +562,9 @@ export default {
       "masked": "He has plenty of ____.",
       "options": [
         "charm-mcq-03",
-        "charm-mcq-02",
-        "charm-mcq-04",
-        "charm-mcq-01",
-        "charm-mcq-05",
-        "charm-mcq-06"
+        "charm-mcq-06",
+        "charm-mcq-16",
+        "charm-mcq-13"
       ],
       "explanation": "本句的「natural charm」指「個人魅力」。",
       "sentenceIndex": 4,
@@ -591,12 +573,10 @@ export default {
         "natural charm"
       ],
       "optionReasons": {
-        "charm-mcq-03": "本句指「個人魅力」。",
-        "charm-mcq-02": "「他魅力的一部分」是「part of his charm」的用法，與本句語境不同。",
-        "charm-mcq-04": "「天生魅力」是「natural charm」的用法，與本句語境不同。",
-        "charm-mcq-01": "「魅力；討人喜歡之處」是「charm (personality)」的用法，與本句語境不同。",
-        "charm-mcq-05": "「韻味；迷人之處」是「charm (place)」的用法，與本句語境不同。",
-        "charm-mcq-06": "「古典韻味」是「old-world charm」的用法，與本句語境不同。"
+        "charm-mcq-03": "本句的「natural charm」指「個人魅力」。",
+        "charm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-03"
     },
@@ -608,11 +588,9 @@ export default {
       "masked": "The village has a special ____.",
       "options": [
         "charm-mcq-21",
-        "charm-mcq-20",
-        "charm-mcq-19",
-        "charm-mcq-18",
-        "charm-mcq-17",
-        "charm-mcq-16"
+        "charm-mcq-06",
+        "charm-mcq-14",
+        "charm-mcq-15"
       ],
       "explanation": "本句的「charm」指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
       "sentenceIndex": 5,
@@ -621,12 +599,10 @@ export default {
         "charm"
       ],
       "optionReasons": {
-        "charm-mcq-21": "本句指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
-        "charm-mcq-20": "「很會討人喜歡的人」是「charmer」的用法，與本句語境不同。",
-        "charm-mcq-19": "「特別幸運的人生」是「charmed life」的用法，與本句語境不同。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。"
+        "charm-mcq-21": "本句的「charm」指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
+        "charm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-21"
     },
@@ -638,11 +614,9 @@ export default {
       "masked": "The old house has lost none of its ____.",
       "options": [
         "charm-mcq-21",
-        "charm-mcq-20",
-        "charm-mcq-19",
-        "charm-mcq-18",
-        "charm-mcq-17",
-        "charm-mcq-16"
+        "charm-mcq-14",
+        "charm-mcq-16",
+        "charm-mcq-11"
       ],
       "explanation": "本句的「charm」指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
       "sentenceIndex": 6,
@@ -651,12 +625,10 @@ export default {
         "charm"
       ],
       "optionReasons": {
-        "charm-mcq-21": "本句指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
-        "charm-mcq-20": "「很會討人喜歡的人」是「charmer」的用法，與本句語境不同。",
-        "charm-mcq-19": "「特別幸運的人生」是「charmed life」的用法，與本句語境不同。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。"
+        "charm-mcq-21": "本句的「charm」指「令人自然產生好感、覺得某人討喜或吸引人的個性特質」。",
+        "charm-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-21"
     },
@@ -668,11 +640,9 @@ export default {
       "masked": "The hotel has plenty of ____.",
       "options": [
         "charm-mcq-06",
-        "charm-mcq-05",
         "charm-mcq-07",
-        "charm-mcq-04",
-        "charm-mcq-08",
-        "charm-mcq-03"
+        "charm-mcq-17",
+        "charm-mcq-09"
       ],
       "explanation": "本句的「old-world charm」指「古典韻味」。",
       "sentenceIndex": 7,
@@ -681,12 +651,10 @@ export default {
         "old-world charm"
       ],
       "optionReasons": {
-        "charm-mcq-06": "本句指「古典韻味」。",
-        "charm-mcq-05": "「韻味；迷人之處」是「charm (place)」的用法，與本句語境不同。",
-        "charm-mcq-07": "「鄉村質樸魅力」是「rustic charm」的用法，與本句語境不同。",
-        "charm-mcq-04": "「天生魅力」是「natural charm」的用法，與本句語境不同。",
-        "charm-mcq-08": "「迷住；討人歡心」是「charm someone」的用法，與本句語境不同。",
-        "charm-mcq-03": "「個人魅力」是「personal charm」的用法，與本句語境不同。"
+        "charm-mcq-06": "本句的「old-world charm」指「古典韻味」。",
+        "charm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-06"
     },
@@ -698,11 +666,9 @@ export default {
       "masked": "Visitors love the town for its ____.",
       "options": [
         "charm-mcq-06",
-        "charm-mcq-05",
         "charm-mcq-07",
-        "charm-mcq-04",
-        "charm-mcq-08",
-        "charm-mcq-03"
+        "charm-mcq-20",
+        "charm-mcq-15"
       ],
       "explanation": "本句的「old-world charm」指「古典韻味」。",
       "sentenceIndex": 8,
@@ -711,12 +677,10 @@ export default {
         "old-world charm"
       ],
       "optionReasons": {
-        "charm-mcq-06": "本句指「古典韻味」。",
-        "charm-mcq-05": "「韻味；迷人之處」是「charm (place)」的用法，與本句語境不同。",
-        "charm-mcq-07": "「鄉村質樸魅力」是「rustic charm」的用法，與本句語境不同。",
-        "charm-mcq-04": "「天生魅力」是「natural charm」的用法，與本句語境不同。",
-        "charm-mcq-08": "「迷住；討人歡心」是「charm someone」的用法，與本句語境不同。",
-        "charm-mcq-03": "「個人魅力」是「personal charm」的用法，與本句語境不同。"
+        "charm-mcq-06": "本句的「old-world charm」指「古典韻味」。",
+        "charm-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-06"
     },
@@ -728,11 +692,9 @@ export default {
       "masked": "The cottage is full of ____.",
       "options": [
         "charm-mcq-07",
-        "charm-mcq-06",
-        "charm-mcq-08",
-        "charm-mcq-05",
-        "charm-mcq-09",
-        "charm-mcq-04"
+        "charm-mcq-16",
+        "charm-mcq-20",
+        "charm-mcq-14"
       ],
       "explanation": "本句的「rustic charm」指「鄉村質樸魅力」。",
       "sentenceIndex": 9,
@@ -741,12 +703,10 @@ export default {
         "rustic charm"
       ],
       "optionReasons": {
-        "charm-mcq-07": "本句指「鄉村質樸魅力」。",
-        "charm-mcq-06": "「古典韻味」是「old-world charm」的用法，與本句語境不同。",
-        "charm-mcq-08": "「迷住；討人歡心」是「charm someone」的用法，與本句語境不同。",
-        "charm-mcq-05": "「韻味；迷人之處」是「charm (place)」的用法，與本句語境不同。",
-        "charm-mcq-09": "「哄／討好得某人做 X」是「charm someone into X」的用法，與本句語境不同。",
-        "charm-mcq-04": "「天生魅力」是「natural charm」的用法，與本句語境不同。"
+        "charm-mcq-07": "本句的「rustic charm」指「鄉村質樸魅力」。",
+        "charm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-07"
     },
@@ -758,11 +718,9 @@ export default {
       "masked": "They preserved the restaurant's ____.",
       "options": [
         "charm-mcq-07",
-        "charm-mcq-06",
-        "charm-mcq-08",
-        "charm-mcq-05",
-        "charm-mcq-09",
-        "charm-mcq-04"
+        "charm-mcq-14",
+        "charm-mcq-20",
+        "charm-mcq-16"
       ],
       "explanation": "本句的「rustic charm」指「鄉村質樸魅力」。",
       "sentenceIndex": 10,
@@ -771,12 +729,10 @@ export default {
         "rustic charm"
       ],
       "optionReasons": {
-        "charm-mcq-07": "本句指「鄉村質樸魅力」。",
-        "charm-mcq-06": "「古典韻味」是「old-world charm」的用法，與本句語境不同。",
-        "charm-mcq-08": "「迷住；討人歡心」是「charm someone」的用法，與本句語境不同。",
-        "charm-mcq-05": "「韻味；迷人之處」是「charm (place)」的用法，與本句語境不同。",
-        "charm-mcq-09": "「哄／討好得某人做 X」是「charm someone into X」的用法，與本句語境不同。",
-        "charm-mcq-04": "「天生魅力」是「natural charm」的用法，與本句語境不同。"
+        "charm-mcq-07": "本句的「rustic charm」指「鄉村質樸魅力」。",
+        "charm-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-07"
     },
@@ -788,11 +744,9 @@ export default {
       "masked": "She ____ at the dinner.",
       "options": [
         "charm-mcq-08",
-        "charm-mcq-07",
-        "charm-mcq-09",
-        "charm-mcq-06",
         "charm-mcq-10",
-        "charm-mcq-05"
+        "charm-mcq-19",
+        "charm-mcq-18"
       ],
       "explanation": "本句的「charmed everyone」指「迷住；討人歡心」。",
       "sentenceIndex": 11,
@@ -801,12 +755,10 @@ export default {
         "charmed everyone"
       ],
       "optionReasons": {
-        "charm-mcq-08": "本句指「迷住；討人歡心」。",
-        "charm-mcq-07": "「鄉村質樸魅力」是「rustic charm」的用法，與本句語境不同。",
-        "charm-mcq-09": "「哄／討好得某人做 X」是「charm someone into X」的用法，與本句語境不同。",
-        "charm-mcq-06": "「古典韻味」是「old-world charm」的用法，與本句語境不同。",
-        "charm-mcq-10": "「施展魅力」是「turn on the charm」的用法，與本句語境不同。",
-        "charm-mcq-05": "「韻味；迷人之處」是「charm (place)」的用法，與本句語境不同。"
+        "charm-mcq-08": "本句的「charmed everyone」指「迷住；討人歡心」。",
+        "charm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-08"
     },
@@ -818,11 +770,9 @@ export default {
       "masked": "His smile immediately ____.",
       "options": [
         "charm-mcq-08",
-        "charm-mcq-07",
-        "charm-mcq-09",
-        "charm-mcq-06",
-        "charm-mcq-10",
-        "charm-mcq-05"
+        "charm-mcq-14",
+        "charm-mcq-11",
+        "charm-mcq-18"
       ],
       "explanation": "本句的「charmed the children」指「迷住；討人歡心」。",
       "sentenceIndex": 12,
@@ -831,12 +781,10 @@ export default {
         "charmed the children"
       ],
       "optionReasons": {
-        "charm-mcq-08": "本句指「迷住；討人歡心」。",
-        "charm-mcq-07": "「鄉村質樸魅力」是「rustic charm」的用法，與本句語境不同。",
-        "charm-mcq-09": "「哄／討好得某人做 X」是「charm someone into X」的用法，與本句語境不同。",
-        "charm-mcq-06": "「古典韻味」是「old-world charm」的用法，與本句語境不同。",
-        "charm-mcq-10": "「施展魅力」是「turn on the charm」的用法，與本句語境不同。",
-        "charm-mcq-05": "「韻味；迷人之處」是「charm (place)」的用法，與本句語境不同。"
+        "charm-mcq-08": "本句的「charmed the children」指「迷住；討人歡心」。",
+        "charm-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-08"
     },
@@ -848,11 +796,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "charm-mcq-09",
-        "charm-mcq-08",
-        "charm-mcq-10",
-        "charm-mcq-07",
-        "charm-mcq-11",
-        "charm-mcq-06"
+        "charm-mcq-03",
+        "charm-mcq-17",
+        "charm-mcq-15"
       ],
       "explanation": "本句的「charmed her into helping him」指「哄／討好得某人做 X」。",
       "sentenceIndex": 13,
@@ -861,12 +807,10 @@ export default {
         "charmed her into helping him"
       ],
       "optionReasons": {
-        "charm-mcq-09": "本句指「哄／討好得某人做 X」。",
-        "charm-mcq-08": "「迷住；討人歡心」是「charm someone」的用法，與本句語境不同。",
-        "charm-mcq-10": "「施展魅力」是「turn on the charm」的用法，與本句語境不同。",
-        "charm-mcq-07": "「鄉村質樸魅力」是「rustic charm」的用法，與本句語境不同。",
-        "charm-mcq-11": "「魅力攻勢」是「charm offensive」的用法，與本句語境不同。",
-        "charm-mcq-06": "「古典韻味」是「old-world charm」的用法，與本句語境不同。"
+        "charm-mcq-09": "本句的「charmed her into helping him」指「哄／討好得某人做 X」。",
+        "charm-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-09"
     },
@@ -878,10 +822,8 @@ export default {
       "masked": "She managed to ____.",
       "options": [
         "charm-mcq-09",
-        "charm-mcq-08",
-        "charm-mcq-10",
-        "charm-mcq-07",
-        "charm-mcq-11",
+        "charm-mcq-18",
+        "charm-mcq-15",
         "charm-mcq-06"
       ],
       "explanation": "本句的「charm the waiter into giving them a better table」指「哄／討好得某人做 X」。",
@@ -891,12 +833,10 @@ export default {
         "charm the waiter into giving them a better table"
       ],
       "optionReasons": {
-        "charm-mcq-09": "本句指「哄／討好得某人做 X」。",
-        "charm-mcq-08": "「迷住；討人歡心」是「charm someone」的用法，與本句語境不同。",
-        "charm-mcq-10": "「施展魅力」是「turn on the charm」的用法，與本句語境不同。",
-        "charm-mcq-07": "「鄉村質樸魅力」是「rustic charm」的用法，與本句語境不同。",
-        "charm-mcq-11": "「魅力攻勢」是「charm offensive」的用法，與本句語境不同。",
-        "charm-mcq-06": "「古典韻味」是「old-world charm」的用法，與本句語境不同。"
+        "charm-mcq-09": "本句的「charm the waiter into giving them a better table」指「哄／討好得某人做 X」。",
+        "charm-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-09"
     },
@@ -909,10 +849,8 @@ export default {
       "options": [
         "charm-mcq-10",
         "charm-mcq-09",
-        "charm-mcq-11",
-        "charm-mcq-08",
-        "charm-mcq-12",
-        "charm-mcq-07"
+        "charm-mcq-18",
+        "charm-mcq-15"
       ],
       "explanation": "本句的「turned on the charm」指「施展魅力」。",
       "sentenceIndex": 15,
@@ -921,12 +859,10 @@ export default {
         "turned on the charm"
       ],
       "optionReasons": {
-        "charm-mcq-10": "本句指「施展魅力」。",
-        "charm-mcq-09": "「哄／討好得某人做 X」是「charm someone into X」的用法，與本句語境不同。",
-        "charm-mcq-11": "「魅力攻勢」是「charm offensive」的用法，與本句語境不同。",
-        "charm-mcq-08": "「迷住；討人歡心」是「charm someone」的用法，與本句語境不同。",
-        "charm-mcq-12": "「迷人的；討喜的」是「charming」的用法，與本句語境不同。",
-        "charm-mcq-07": "「鄉村質樸魅力」是「rustic charm」的用法，與本句語境不同。"
+        "charm-mcq-10": "本句的「turned on the charm」指「施展魅力」。",
+        "charm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-10"
     },
@@ -938,11 +874,9 @@ export default {
       "masked": "She knows exactly when to ____.",
       "options": [
         "charm-mcq-10",
+        "charm-mcq-19",
         "charm-mcq-09",
-        "charm-mcq-11",
-        "charm-mcq-08",
-        "charm-mcq-12",
-        "charm-mcq-07"
+        "charm-mcq-06"
       ],
       "explanation": "本句的「turn on the charm」指「施展魅力」。",
       "sentenceIndex": 16,
@@ -951,12 +885,10 @@ export default {
         "turn on the charm"
       ],
       "optionReasons": {
-        "charm-mcq-10": "本句指「施展魅力」。",
-        "charm-mcq-09": "「哄／討好得某人做 X」是「charm someone into X」的用法，與本句語境不同。",
-        "charm-mcq-11": "「魅力攻勢」是「charm offensive」的用法，與本句語境不同。",
-        "charm-mcq-08": "「迷住；討人歡心」是「charm someone」的用法，與本句語境不同。",
-        "charm-mcq-12": "「迷人的；討喜的」是「charming」的用法，與本句語境不同。",
-        "charm-mcq-07": "「鄉村質樸魅力」是「rustic charm」的用法，與本句語境不同。"
+        "charm-mcq-10": "本句的「turn on the charm」指「施展魅力」。",
+        "charm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-10"
     },
@@ -968,11 +900,9 @@ export default {
       "masked": "The company launched a ____ to win back customers.",
       "options": [
         "charm-mcq-11",
-        "charm-mcq-10",
-        "charm-mcq-12",
-        "charm-mcq-09",
-        "charm-mcq-13",
-        "charm-mcq-08"
+        "charm-mcq-18",
+        "charm-mcq-20",
+        "charm-mcq-17"
       ],
       "explanation": "本句的「charm offensive」指「魅力攻勢」。",
       "sentenceIndex": 17,
@@ -981,12 +911,10 @@ export default {
         "charm offensive"
       ],
       "optionReasons": {
-        "charm-mcq-11": "本句指「魅力攻勢」。",
-        "charm-mcq-10": "「施展魅力」是「turn on the charm」的用法，與本句語境不同。",
-        "charm-mcq-12": "「迷人的；討喜的」是「charming」的用法，與本句語境不同。",
-        "charm-mcq-09": "「哄／討好得某人做 X」是「charm someone into X」的用法，與本句語境不同。",
-        "charm-mcq-13": "「小吊飾／護身符」是「charm (object)」的用法，與本句語境不同。",
-        "charm-mcq-08": "「迷住；討人歡心」是「charm someone」的用法，與本句語境不同。"
+        "charm-mcq-11": "本句的「charm offensive」指「魅力攻勢」。",
+        "charm-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-11"
     },
@@ -998,11 +926,9 @@ export default {
       "masked": "He went on a ____ before the meeting.",
       "options": [
         "charm-mcq-11",
-        "charm-mcq-10",
-        "charm-mcq-12",
-        "charm-mcq-09",
-        "charm-mcq-13",
-        "charm-mcq-08"
+        "charm-mcq-06",
+        "charm-mcq-19",
+        "charm-mcq-15"
       ],
       "explanation": "本句的「charm offensive」指「魅力攻勢」。",
       "sentenceIndex": 18,
@@ -1011,12 +937,10 @@ export default {
         "charm offensive"
       ],
       "optionReasons": {
-        "charm-mcq-11": "本句指「魅力攻勢」。",
-        "charm-mcq-10": "「施展魅力」是「turn on the charm」的用法，與本句語境不同。",
-        "charm-mcq-12": "「迷人的；討喜的」是「charming」的用法，與本句語境不同。",
-        "charm-mcq-09": "「哄／討好得某人做 X」是「charm someone into X」的用法，與本句語境不同。",
-        "charm-mcq-13": "「小吊飾／護身符」是「charm (object)」的用法，與本句語境不同。",
-        "charm-mcq-08": "「迷住；討人歡心」是「charm someone」的用法，與本句語境不同。"
+        "charm-mcq-11": "本句的「charm offensive」指「魅力攻勢」。",
+        "charm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-11"
     },
@@ -1028,11 +952,9 @@ export default {
       "masked": "She is absolutely ____.",
       "options": [
         "charm-mcq-12",
-        "charm-mcq-11",
+        "charm-mcq-06",
         "charm-mcq-13",
-        "charm-mcq-10",
-        "charm-mcq-14",
-        "charm-mcq-09"
+        "charm-mcq-16"
       ],
       "explanation": "本句的「charming」指「迷人的；討喜的」。",
       "sentenceIndex": 19,
@@ -1041,12 +963,10 @@ export default {
         "charming"
       ],
       "optionReasons": {
-        "charm-mcq-12": "本句指「迷人的；討喜的」。",
-        "charm-mcq-11": "「魅力攻勢」是「charm offensive」的用法，與本句語境不同。",
-        "charm-mcq-13": "「小吊飾／護身符」是「charm (object)」的用法，與本句語境不同。",
-        "charm-mcq-10": "「施展魅力」是「turn on the charm」的用法，與本句語境不同。",
-        "charm-mcq-14": "「幸運符」是「lucky charm」的用法，與本句語境不同。",
-        "charm-mcq-09": "「哄／討好得某人做 X」是「charm someone into X」的用法，與本句語境不同。"
+        "charm-mcq-12": "本句的「charming」指「迷人的；討喜的」。",
+        "charm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-12"
     },
@@ -1060,9 +980,7 @@ export default {
         "charm-mcq-12",
         "charm-mcq-11",
         "charm-mcq-13",
-        "charm-mcq-10",
-        "charm-mcq-14",
-        "charm-mcq-09"
+        "charm-mcq-16"
       ],
       "explanation": "本句的「charming little hotel」指「迷人的；討喜的」。",
       "sentenceIndex": 20,
@@ -1071,12 +989,10 @@ export default {
         "charming little hotel"
       ],
       "optionReasons": {
-        "charm-mcq-12": "本句指「迷人的；討喜的」。",
-        "charm-mcq-11": "「魅力攻勢」是「charm offensive」的用法，與本句語境不同。",
-        "charm-mcq-13": "「小吊飾／護身符」是「charm (object)」的用法，與本句語境不同。",
-        "charm-mcq-10": "「施展魅力」是「turn on the charm」的用法，與本句語境不同。",
-        "charm-mcq-14": "「幸運符」是「lucky charm」的用法，與本句語境不同。",
-        "charm-mcq-09": "「哄／討好得某人做 X」是「charm someone into X」的用法，與本句語境不同。"
+        "charm-mcq-12": "本句的「charming little hotel」指「迷人的；討喜的」。",
+        "charm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-12"
     },
@@ -1088,11 +1004,9 @@ export default {
       "masked": "She carries a small ____ for good luck.",
       "options": [
         "charm-mcq-13",
-        "charm-mcq-12",
-        "charm-mcq-14",
-        "charm-mcq-11",
-        "charm-mcq-15",
-        "charm-mcq-10"
+        "charm-mcq-20",
+        "charm-mcq-18",
+        "charm-mcq-07"
       ],
       "explanation": "本句的「charm」指「小吊飾／護身符」。",
       "sentenceIndex": 21,
@@ -1101,12 +1015,10 @@ export default {
         "charm"
       ],
       "optionReasons": {
-        "charm-mcq-13": "本句指「小吊飾／護身符」。",
-        "charm-mcq-12": "「迷人的；討喜的」是「charming」的用法，與本句語境不同。",
-        "charm-mcq-14": "「幸運符」是「lucky charm」的用法，與本句語境不同。",
-        "charm-mcq-11": "「魅力攻勢」是「charm offensive」的用法，與本句語境不同。",
-        "charm-mcq-15": "「吊飾手鏈」是「charm bracelet」的用法，與本句語境不同。",
-        "charm-mcq-10": "「施展魅力」是「turn on the charm」的用法，與本句語境不同。"
+        "charm-mcq-13": "本句的「charm」指「小吊飾／護身符」。",
+        "charm-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-13"
     },
@@ -1118,11 +1030,9 @@ export default {
       "masked": "He gave me a silver ____ as a gift.",
       "options": [
         "charm-mcq-13",
-        "charm-mcq-12",
-        "charm-mcq-14",
-        "charm-mcq-11",
-        "charm-mcq-15",
-        "charm-mcq-10"
+        "charm-mcq-20",
+        "charm-mcq-10",
+        "charm-mcq-16"
       ],
       "explanation": "本句的「charm」指「小吊飾／護身符」。",
       "sentenceIndex": 22,
@@ -1131,12 +1041,10 @@ export default {
         "charm"
       ],
       "optionReasons": {
-        "charm-mcq-13": "本句指「小吊飾／護身符」。",
-        "charm-mcq-12": "「迷人的；討喜的」是「charming」的用法，與本句語境不同。",
-        "charm-mcq-14": "「幸運符」是「lucky charm」的用法，與本句語境不同。",
-        "charm-mcq-11": "「魅力攻勢」是「charm offensive」的用法，與本句語境不同。",
-        "charm-mcq-15": "「吊飾手鏈」是「charm bracelet」的用法，與本句語境不同。",
-        "charm-mcq-10": "「施展魅力」是「turn on the charm」的用法，與本句語境不同。"
+        "charm-mcq-13": "本句的「charm」指「小吊飾／護身符」。",
+        "charm-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-13"
     },
@@ -1148,11 +1056,9 @@ export default {
       "masked": "This coin is my ____.",
       "options": [
         "charm-mcq-14",
-        "charm-mcq-13",
-        "charm-mcq-15",
         "charm-mcq-12",
-        "charm-mcq-16",
-        "charm-mcq-11"
+        "charm-mcq-15",
+        "charm-mcq-18"
       ],
       "explanation": "本句的「lucky charm」指「幸運符」。",
       "sentenceIndex": 23,
@@ -1161,12 +1067,10 @@ export default {
         "lucky charm"
       ],
       "optionReasons": {
-        "charm-mcq-14": "本句指「幸運符」。",
-        "charm-mcq-13": "「小吊飾／護身符」是「charm (object)」的用法，與本句語境不同。",
-        "charm-mcq-15": "「吊飾手鏈」是「charm bracelet」的用法，與本句語境不同。",
-        "charm-mcq-12": "「迷人的；討喜的」是「charming」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。",
-        "charm-mcq-11": "「魅力攻勢」是「charm offensive」的用法，與本句語境不同。"
+        "charm-mcq-14": "本句的「lucky charm」指「幸運符」。",
+        "charm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-14"
     },
@@ -1178,11 +1082,9 @@ export default {
       "masked": "She always takes her ____ to competitions.",
       "options": [
         "charm-mcq-14",
-        "charm-mcq-13",
-        "charm-mcq-15",
-        "charm-mcq-12",
-        "charm-mcq-16",
-        "charm-mcq-11"
+        "charm-mcq-08",
+        "charm-mcq-09",
+        "charm-mcq-07"
       ],
       "explanation": "本句的「good-luck charm」指「幸運符」。",
       "sentenceIndex": 24,
@@ -1191,12 +1093,10 @@ export default {
         "good-luck charm"
       ],
       "optionReasons": {
-        "charm-mcq-14": "本句指「幸運符」。",
-        "charm-mcq-13": "「小吊飾／護身符」是「charm (object)」的用法，與本句語境不同。",
-        "charm-mcq-15": "「吊飾手鏈」是「charm bracelet」的用法，與本句語境不同。",
-        "charm-mcq-12": "「迷人的；討喜的」是「charming」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。",
-        "charm-mcq-11": "「魅力攻勢」是「charm offensive」的用法，與本句語境不同。"
+        "charm-mcq-14": "本句的「good-luck charm」指「幸運符」。",
+        "charm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-14"
     },
@@ -1208,11 +1108,9 @@ export default {
       "masked": "She added a heart to her ____.",
       "options": [
         "charm-mcq-15",
+        "charm-mcq-06",
         "charm-mcq-14",
-        "charm-mcq-16",
-        "charm-mcq-13",
-        "charm-mcq-17",
-        "charm-mcq-12"
+        "charm-mcq-07"
       ],
       "explanation": "本句的「charm bracelet」指「吊飾手鏈」。",
       "sentenceIndex": 25,
@@ -1221,12 +1119,10 @@ export default {
         "charm bracelet"
       ],
       "optionReasons": {
-        "charm-mcq-15": "本句指「吊飾手鏈」。",
-        "charm-mcq-14": "「幸運符」是「lucky charm」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。",
-        "charm-mcq-13": "「小吊飾／護身符」是「charm (object)」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-12": "「迷人的；討喜的」是「charming」的用法，與本句語境不同。"
+        "charm-mcq-15": "本句的「charm bracelet」指「吊飾手鏈」。",
+        "charm-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-15"
     },
@@ -1238,11 +1134,9 @@ export default {
       "masked": "Each ____ on the bracelet represents a special memory.",
       "options": [
         "charm-mcq-15",
-        "charm-mcq-14",
-        "charm-mcq-16",
-        "charm-mcq-13",
-        "charm-mcq-17",
-        "charm-mcq-12"
+        "charm-mcq-09",
+        "charm-mcq-08",
+        "charm-mcq-03"
       ],
       "explanation": "本句的「charm」指「吊飾手鏈」。",
       "sentenceIndex": 26,
@@ -1251,12 +1145,10 @@ export default {
         "charm"
       ],
       "optionReasons": {
-        "charm-mcq-15": "本句指「吊飾手鏈」。",
-        "charm-mcq-14": "「幸運符」是「lucky charm」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。",
-        "charm-mcq-13": "「小吊飾／護身符」是「charm (object)」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-12": "「迷人的；討喜的」是「charming」的用法，與本句語境不同。"
+        "charm-mcq-15": "本句的「charm」指「吊飾手鏈」。",
+        "charm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-15"
     },
@@ -1268,11 +1160,9 @@ export default {
       "masked": "The witch placed a ____ on the door.",
       "options": [
         "charm-mcq-16",
-        "charm-mcq-15",
-        "charm-mcq-17",
-        "charm-mcq-14",
-        "charm-mcq-18",
-        "charm-mcq-13"
+        "charm-mcq-21",
+        "charm-mcq-13",
+        "charm-mcq-17"
       ],
       "explanation": "本句的「charm」指「魔法；魔咒」。",
       "sentenceIndex": 27,
@@ -1281,12 +1171,10 @@ export default {
         "charm"
       ],
       "optionReasons": {
-        "charm-mcq-16": "本句指「魔法；魔咒」。",
-        "charm-mcq-15": "「吊飾手鏈」是「charm bracelet」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-14": "「幸運符」是「lucky charm」的用法，與本句語境不同。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-13": "「小吊飾／護身符」是「charm (object)」的用法，與本句語境不同。"
+        "charm-mcq-16": "本句的「charm」指「魔法；魔咒」。",
+        "charm-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-16"
     },
@@ -1298,11 +1186,9 @@ export default {
       "masked": "According to the story, the necklace carried a protective ____.",
       "options": [
         "charm-mcq-16",
-        "charm-mcq-15",
-        "charm-mcq-17",
-        "charm-mcq-14",
-        "charm-mcq-18",
-        "charm-mcq-13"
+        "charm-mcq-13",
+        "charm-mcq-20",
+        "charm-mcq-03"
       ],
       "explanation": "本句的「charm」指「魔法；魔咒」。",
       "sentenceIndex": 28,
@@ -1311,12 +1197,10 @@ export default {
         "charm"
       ],
       "optionReasons": {
-        "charm-mcq-16": "本句指「魔法；魔咒」。",
-        "charm-mcq-15": "「吊飾手鏈」是「charm bracelet」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-14": "「幸運符」是「lucky charm」的用法，與本句語境不同。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-13": "「小吊飾／護身符」是「charm (object)」的用法，與本句語境不同。"
+        "charm-mcq-16": "本句的「charm」指「魔法；魔咒」。",
+        "charm-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-16"
     },
@@ -1328,11 +1212,9 @@ export default {
       "masked": "The wizard ____ so they would fall asleep.",
       "options": [
         "charm-mcq-16",
-        "charm-mcq-15",
-        "charm-mcq-17",
-        "charm-mcq-14",
+        "charm-mcq-19",
         "charm-mcq-18",
-        "charm-mcq-13"
+        "charm-mcq-15"
       ],
       "explanation": "本句的「charmed the guards」指「魔法；魔咒」。",
       "sentenceIndex": 29,
@@ -1341,12 +1223,10 @@ export default {
         "charmed the guards"
       ],
       "optionReasons": {
-        "charm-mcq-16": "本句指「魔法；魔咒」。",
-        "charm-mcq-15": "「吊飾手鏈」是「charm bracelet」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-14": "「幸運符」是「lucky charm」的用法，與本句語境不同。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-13": "「小吊飾／護身符」是「charm (object)」的用法，與本句語境不同。"
+        "charm-mcq-16": "本句的「charmed the guards」指「魔法；魔咒」。",
+        "charm-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-16"
     },
@@ -1358,10 +1238,8 @@ export default {
       "masked": "The object had been ____ to protect its owner.",
       "options": [
         "charm-mcq-16",
-        "charm-mcq-15",
-        "charm-mcq-17",
-        "charm-mcq-14",
-        "charm-mcq-18",
+        "charm-mcq-09",
+        "charm-mcq-10",
         "charm-mcq-13"
       ],
       "explanation": "本句的「charmed」指「魔法；魔咒」。",
@@ -1371,12 +1249,10 @@ export default {
         "charmed"
       ],
       "optionReasons": {
-        "charm-mcq-16": "本句指「魔法；魔咒」。",
-        "charm-mcq-15": "「吊飾手鏈」是「charm bracelet」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-14": "「幸運符」是「lucky charm」的用法，與本句語境不同。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-13": "「小吊飾／護身符」是「charm (object)」的用法，與本句語境不同。"
+        "charm-mcq-16": "本句的「charmed」指「魔法；魔咒」。",
+        "charm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-16"
     },
@@ -1389,10 +1265,8 @@ export default {
       "options": [
         "charm-mcq-17",
         "charm-mcq-16",
-        "charm-mcq-18",
-        "charm-mcq-15",
-        "charm-mcq-19",
-        "charm-mcq-14"
+        "charm-mcq-11",
+        "charm-mcq-15"
       ],
       "explanation": "本句的「worked like a charm」指「非常有效」。",
       "sentenceIndex": 31,
@@ -1401,12 +1275,10 @@ export default {
         "worked like a charm"
       ],
       "optionReasons": {
-        "charm-mcq-17": "本句指「非常有效」。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-15": "「吊飾手鏈」是「charm bracelet」的用法，與本句語境不同。",
-        "charm-mcq-19": "「特別幸運的人生」是「charmed life」的用法，與本句語境不同。",
-        "charm-mcq-14": "「幸運符」是「lucky charm」的用法，與本句語境不同。"
+        "charm-mcq-17": "本句的「worked like a charm」指「非常有效」。",
+        "charm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-17"
     },
@@ -1419,10 +1291,8 @@ export default {
       "options": [
         "charm-mcq-17",
         "charm-mcq-16",
-        "charm-mcq-18",
-        "charm-mcq-15",
-        "charm-mcq-19",
-        "charm-mcq-14"
+        "charm-mcq-10",
+        "charm-mcq-20"
       ],
       "explanation": "本句的「worked like a charm」指「非常有效」。",
       "sentenceIndex": 32,
@@ -1431,12 +1301,10 @@ export default {
         "worked like a charm"
       ],
       "optionReasons": {
-        "charm-mcq-17": "本句指「非常有效」。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-15": "「吊飾手鏈」是「charm bracelet」的用法，與本句語境不同。",
-        "charm-mcq-19": "「特別幸運的人生」是「charmed life」的用法，與本句語境不同。",
-        "charm-mcq-14": "「幸運符」是「lucky charm」的用法，與本句語境不同。"
+        "charm-mcq-17": "本句的「worked like a charm」指「非常有效」。",
+        "charm-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-17"
     },
@@ -1448,10 +1316,8 @@ export default {
       "masked": "I failed twice, but ____.",
       "options": [
         "charm-mcq-18",
-        "charm-mcq-17",
-        "charm-mcq-19",
-        "charm-mcq-16",
-        "charm-mcq-20",
+        "charm-mcq-03",
+        "charm-mcq-14",
         "charm-mcq-15"
       ],
       "explanation": "本句的「third time's the charm」指「第三次會成功」。",
@@ -1461,12 +1327,10 @@ export default {
         "third time's the charm"
       ],
       "optionReasons": {
-        "charm-mcq-18": "本句指「第三次會成功」。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-19": "「特別幸運的人生」是「charmed life」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。",
-        "charm-mcq-20": "「很會討人喜歡的人」是「charmer」的用法，與本句語境不同。",
-        "charm-mcq-15": "「吊飾手鏈」是「charm bracelet」的用法，與本句語境不同。"
+        "charm-mcq-18": "本句的「third time's the charm」指「第三次會成功」。",
+        "charm-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-18"
     },
@@ -1478,11 +1342,9 @@ export default {
       "masked": "Let's try once more—____.",
       "options": [
         "charm-mcq-18",
-        "charm-mcq-17",
-        "charm-mcq-19",
-        "charm-mcq-16",
-        "charm-mcq-20",
-        "charm-mcq-15"
+        "charm-mcq-09",
+        "charm-mcq-11",
+        "charm-mcq-17"
       ],
       "explanation": "本句的「third time's the charm」指「第三次會成功」。",
       "sentenceIndex": 34,
@@ -1491,12 +1353,10 @@ export default {
         "third time's the charm"
       ],
       "optionReasons": {
-        "charm-mcq-18": "本句指「第三次會成功」。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-19": "「特別幸運的人生」是「charmed life」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。",
-        "charm-mcq-20": "「很會討人喜歡的人」是「charmer」的用法，與本句語境不同。",
-        "charm-mcq-15": "「吊飾手鏈」是「charm bracelet」的用法，與本句語境不同。"
+        "charm-mcq-18": "本句的「third time's the charm」指「第三次會成功」。",
+        "charm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-18"
     },
@@ -1508,11 +1368,9 @@ export default {
       "masked": "He seems to have ____.",
       "options": [
         "charm-mcq-19",
-        "charm-mcq-18",
         "charm-mcq-20",
-        "charm-mcq-17",
-        "charm-mcq-21",
-        "charm-mcq-16"
+        "charm-mcq-03",
+        "charm-mcq-17"
       ],
       "explanation": "本句的「led a charmed life」指「特別幸運的人生」。",
       "sentenceIndex": 35,
@@ -1521,12 +1379,10 @@ export default {
         "led a charmed life"
       ],
       "optionReasons": {
-        "charm-mcq-19": "本句指「特別幸運的人生」。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-20": "「很會討人喜歡的人」是「charmer」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-21": "「令人自然產生好感、覺得某人討喜或吸引人的個性特質」是「1. charm（人的魅力） — 魅力；吸引力；討人喜歡的特質」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。"
+        "charm-mcq-19": "本句的「led a charmed life」指「特別幸運的人生」。",
+        "charm-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-19"
     },
@@ -1538,11 +1394,9 @@ export default {
       "masked": "Until then, she had lived a ____.",
       "options": [
         "charm-mcq-19",
-        "charm-mcq-18",
-        "charm-mcq-20",
-        "charm-mcq-17",
-        "charm-mcq-21",
-        "charm-mcq-16"
+        "charm-mcq-09",
+        "charm-mcq-11",
+        "charm-mcq-13"
       ],
       "explanation": "本句的「charmed life」指「特別幸運的人生」。",
       "sentenceIndex": 36,
@@ -1551,12 +1405,10 @@ export default {
         "charmed life"
       ],
       "optionReasons": {
-        "charm-mcq-19": "本句指「特別幸運的人生」。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-20": "「很會討人喜歡的人」是「charmer」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-21": "「令人自然產生好感、覺得某人討喜或吸引人的個性特質」是「1. charm（人的魅力） — 魅力；吸引力；討人喜歡的特質」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。"
+        "charm-mcq-19": "本句的「charmed life」指「特別幸運的人生」。",
+        "charm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-19"
     },
@@ -1568,11 +1420,9 @@ export default {
       "masked": "That little boy is a real ____.",
       "options": [
         "charm-mcq-20",
-        "charm-mcq-19",
-        "charm-mcq-21",
-        "charm-mcq-18",
-        "charm-mcq-17",
-        "charm-mcq-16"
+        "charm-mcq-15",
+        "charm-mcq-11",
+        "charm-mcq-18"
       ],
       "explanation": "本句的「charmer」指「很會討人喜歡的人」。",
       "sentenceIndex": 37,
@@ -1581,12 +1431,10 @@ export default {
         "charmer"
       ],
       "optionReasons": {
-        "charm-mcq-20": "本句指「很會討人喜歡的人」。",
-        "charm-mcq-19": "「特別幸運的人生」是「charmed life」的用法，與本句語境不同。",
-        "charm-mcq-21": "「令人自然產生好感、覺得某人討喜或吸引人的個性特質」是「1. charm（人的魅力） — 魅力；吸引力；討人喜歡的特質」的用法，與本句語境不同。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。"
+        "charm-mcq-20": "本句的「charmer」指「很會討人喜歡的人」。",
+        "charm-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-20"
     },
@@ -1598,10 +1446,8 @@ export default {
       "masked": "He's a natural ____ who gets along with everyone.",
       "options": [
         "charm-mcq-20",
-        "charm-mcq-19",
-        "charm-mcq-21",
-        "charm-mcq-18",
-        "charm-mcq-17",
+        "charm-mcq-03",
+        "charm-mcq-14",
         "charm-mcq-16"
       ],
       "explanation": "本句的「charmer」指「很會討人喜歡的人」。",
@@ -1611,12 +1457,10 @@ export default {
         "charmer"
       ],
       "optionReasons": {
-        "charm-mcq-20": "本句指「很會討人喜歡的人」。",
-        "charm-mcq-19": "「特別幸運的人生」是「charmed life」的用法，與本句語境不同。",
-        "charm-mcq-21": "「令人自然產生好感、覺得某人討喜或吸引人的個性特質」是「1. charm（人的魅力） — 魅力；吸引力；討人喜歡的特質」的用法，與本句語境不同。",
-        "charm-mcq-18": "「第三次會成功」是「third time's the charm」的用法，與本句語境不同。",
-        "charm-mcq-17": "「非常有效」是「work like a charm」的用法，與本句語境不同。",
-        "charm-mcq-16": "「魔法；魔咒」是「charm (magic)」的用法，與本句語境不同。"
+        "charm-mcq-20": "本句的「charmer」指「很會討人喜歡的人」。",
+        "charm-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "charm-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charm-mcq-20"
     }
@@ -1628,5 +1472,7 @@ export default {
     "sha256": "3976e0289f827d570b2391fd2d039c04cac91cfa5646f509fe02023e48ced290",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

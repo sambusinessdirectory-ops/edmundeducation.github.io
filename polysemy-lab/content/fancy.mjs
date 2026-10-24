@@ -117,16 +117,6 @@ export default {
       "note": "來源詞義：對某物的喜愛、偏好或興趣",
       "examples": [
         [
-          "He fancies himself as a writer.",
-          "他自認為／自命為作家。",
-          "對某物的喜愛、偏好或興趣"
-        ],
-        [
-          "She fancies herself quite an expert.",
-          "她自認為是個相當厲害的專家。",
-          "對某物的喜愛、偏好或興趣"
-        ],
-        [
           "She took a fancy to the little cottage.",
           "她突然喜歡上那間小屋。",
           "對某物的喜愛、偏好或興趣"
@@ -191,7 +181,7 @@ export default {
     },
     {
       "id": "fancy-mcq-08",
-      "title": "表示驚訝或意外：真想不到！",
+      "title": "驚訝或意外：真想不到！",
       "form": "Fancy that!",
       "en": "Fancy that!",
       "zh": "表示驚訝或意外：真想不到！",
@@ -213,7 +203,7 @@ export default {
     },
     {
       "id": "fancy-mcq-09",
-      "title": "表示對某件事情感到驚訝：竟然……！",
+      "title": "對某件事情感到驚訝：竟然……！",
       "form": "Fancy + -ing!",
       "en": "Fancy + -ing!",
       "zh": "表示對某件事情感到驚訝：竟然……！",
@@ -243,6 +233,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "fancy-reviewed-baec6a78b9",
+      "title": "自己想像或認定自己具有某種身分、能力或特質",
+      "form": "fancy · source section 6",
+      "en": "自己想像或認定自己具有某種身分、能力或特質",
+      "zh": "自己想像或認定自己具有某種身分、能力或特質",
+      "note": "對照原始教材第 6 節及例句核實。",
+      "examples": [
+        [
+          "He fancies himself as a writer.",
+          "他自認為／自命為作家。",
+          "自己想像或認定自己具有某種身分、能力或特質"
+        ],
+        [
+          "She fancies herself quite an expert.",
+          "她自認為是個相當厲害的專家。",
+          "自己想像或認定自己具有某種身分、能力或特質"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -254,11 +266,9 @@ export default {
       "masked": "We did not need expensive toys or ____.",
       "options": [
         "fancy-mcq-01",
-        "fancy-mcq-02",
         "fancy-mcq-03",
-        "fancy-mcq-04",
-        "fancy-mcq-05",
-        "fancy-mcq-06"
+        "fancy-mcq-07",
+        "fancy-mcq-08"
       ],
       "explanation": "本句的「fancy plans」指「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」。",
       "sentenceIndex": 0,
@@ -267,12 +277,10 @@ export default {
         "fancy plans"
       ],
       "optionReasons": {
-        "fancy-mcq-01": "本句指「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」。",
-        "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。"
+        "fancy-mcq-01": "本句的「fancy plans」指「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」。",
+        "fancy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-01"
     },
@@ -284,11 +292,9 @@ export default {
       "masked": "They stayed in a ____ hotel near the harbour.",
       "options": [
         "fancy-mcq-01",
-        "fancy-mcq-02",
-        "fancy-mcq-03",
-        "fancy-mcq-04",
         "fancy-mcq-05",
-        "fancy-mcq-06"
+        "fancy-mcq-02",
+        "fancy-mcq-07"
       ],
       "explanation": "本句的「fancy」指「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」。",
       "sentenceIndex": 1,
@@ -297,12 +303,10 @@ export default {
         "fancy"
       ],
       "optionReasons": {
-        "fancy-mcq-01": "本句指「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」。",
-        "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。"
+        "fancy-mcq-01": "本句的「fancy」指「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」。",
+        "fancy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-01"
     },
@@ -314,11 +318,9 @@ export default {
       "masked": "You don’t need any ____ equipment to start.",
       "options": [
         "fancy-mcq-01",
+        "fancy-mcq-07",
         "fancy-mcq-02",
-        "fancy-mcq-03",
-        "fancy-mcq-04",
-        "fancy-mcq-05",
-        "fancy-mcq-06"
+        "fancy-mcq-05"
       ],
       "explanation": "本句的「fancy」指「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」。",
       "sentenceIndex": 2,
@@ -327,12 +329,10 @@ export default {
         "fancy"
       ],
       "optionReasons": {
-        "fancy-mcq-01": "本句指「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」。",
-        "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。"
+        "fancy-mcq-01": "本句的「fancy」指「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」。",
+        "fancy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-01"
     },
@@ -344,11 +344,9 @@ export default {
       "masked": "The invitation had ____ lettering.",
       "options": [
         "fancy-pdf-001",
-        "fancy-mcq-02",
+        "fancy-mcq-07",
         "fancy-mcq-03",
-        "fancy-mcq-04",
-        "fancy-mcq-05",
-        "fancy-mcq-06"
+        "fancy-mcq-08"
       ],
       "explanation": "本句的「fancy」指「帶有較多裝飾、圖案或複雜設計的」。",
       "sentenceIndex": 3,
@@ -357,12 +355,10 @@ export default {
         "fancy"
       ],
       "optionReasons": {
-        "fancy-pdf-001": "本句指「帶有較多裝飾、圖案或複雜設計的」。",
-        "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。"
+        "fancy-pdf-001": "本句的「fancy」指「帶有較多裝飾、圖案或複雜設計的」。",
+        "fancy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-pdf-001"
     },
@@ -374,11 +370,9 @@ export default {
       "masked": "The cake was covered in ____ decorations.",
       "options": [
         "fancy-pdf-001",
-        "fancy-mcq-02",
-        "fancy-mcq-03",
-        "fancy-mcq-04",
         "fancy-mcq-05",
-        "fancy-mcq-06"
+        "fancy-reviewed-baec6a78b9",
+        "fancy-mcq-02"
       ],
       "explanation": "本句的「fancy」指「帶有較多裝飾、圖案或複雜設計的」。",
       "sentenceIndex": 4,
@@ -387,12 +381,10 @@ export default {
         "fancy"
       ],
       "optionReasons": {
-        "fancy-pdf-001": "本句指「帶有較多裝飾、圖案或複雜設計的」。",
-        "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。"
+        "fancy-pdf-001": "本句的「fancy」指「帶有較多裝飾、圖案或複雜設計的」。",
+        "fancy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fancy-reviewed-baec6a78b9": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-pdf-001"
     },
@@ -405,10 +397,8 @@ export default {
       "options": [
         "fancy-mcq-02",
         "fancy-mcq-01",
-        "fancy-mcq-03",
-        "fancy-mcq-04",
-        "fancy-mcq-05",
-        "fancy-mcq-06"
+        "fancy-mcq-08",
+        "fancy-mcq-07"
       ],
       "explanation": "本句的「fancy」指「想要某物或有興致做某事；英式口語」。",
       "sentenceIndex": 5,
@@ -417,12 +407,10 @@ export default {
         "fancy"
       ],
       "optionReasons": {
-        "fancy-mcq-02": "本句指「想要某物或有興致做某事；英式口語」。",
-        "fancy-mcq-01": "「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。"
+        "fancy-mcq-02": "本句的「fancy」指「想要某物或有興致做某事；英式口語」。",
+        "fancy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-02"
     },
@@ -434,11 +422,9 @@ export default {
       "masked": "I don’t ____ going out tonight.",
       "options": [
         "fancy-mcq-02",
-        "fancy-mcq-01",
-        "fancy-mcq-03",
+        "fancy-pdf-001",
         "fancy-mcq-04",
-        "fancy-mcq-05",
-        "fancy-mcq-06"
+        "fancy-mcq-08"
       ],
       "explanation": "本句的「fancy」指「想要某物或有興致做某事；英式口語」。",
       "sentenceIndex": 6,
@@ -447,12 +433,10 @@ export default {
         "fancy"
       ],
       "optionReasons": {
-        "fancy-mcq-02": "本句指「想要某物或有興致做某事；英式口語」。",
-        "fancy-mcq-01": "「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。"
+        "fancy-mcq-02": "本句的「fancy」指「想要某物或有興致做某事；英式口語」。",
+        "fancy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-02"
     },
@@ -464,11 +448,9 @@ export default {
       "masked": "I think he ____ her.",
       "options": [
         "fancy-mcq-03",
-        "fancy-mcq-02",
         "fancy-mcq-04",
-        "fancy-mcq-01",
-        "fancy-mcq-05",
-        "fancy-mcq-06"
+        "fancy-pdf-001",
+        "fancy-mcq-08"
       ],
       "explanation": "本句的「fancies」指「對某人有浪漫或性方面的吸引／好感；英式口語」。",
       "sentenceIndex": 7,
@@ -477,12 +459,10 @@ export default {
         "fancies"
       ],
       "optionReasons": {
-        "fancy-mcq-03": "本句指「對某人有浪漫或性方面的吸引／好感；英式口語」。",
-        "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-01": "「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。"
+        "fancy-mcq-03": "本句的「fancies」指「對某人有浪漫或性方面的吸引／好感；英式口語」。",
+        "fancy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fancy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-03"
     },
@@ -494,11 +474,9 @@ export default {
       "masked": "She used to ____ one of her classmates.",
       "options": [
         "fancy-mcq-03",
-        "fancy-mcq-02",
-        "fancy-mcq-04",
-        "fancy-mcq-01",
-        "fancy-mcq-05",
-        "fancy-mcq-06"
+        "fancy-reviewed-baec6a78b9",
+        "fancy-mcq-08",
+        "fancy-pdf-001"
       ],
       "explanation": "本句的「fancy」指「對某人有浪漫或性方面的吸引／好感；英式口語」。",
       "sentenceIndex": 8,
@@ -507,12 +485,10 @@ export default {
         "fancy"
       ],
       "optionReasons": {
-        "fancy-mcq-03": "本句指「對某人有浪漫或性方面的吸引／好感；英式口語」。",
-        "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-01": "「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。"
+        "fancy-mcq-03": "本句的「fancy」指「對某人有浪漫或性方面的吸引／好感；英式口語」。",
+        "fancy-reviewed-baec6a78b9": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fancy-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-03"
     },
@@ -524,11 +500,9 @@ export default {
       "masked": "I ____ I heard someone outside.",
       "options": [
         "fancy-mcq-04",
-        "fancy-mcq-03",
         "fancy-mcq-05",
         "fancy-mcq-02",
-        "fancy-mcq-06",
-        "fancy-mcq-01"
+        "fancy-mcq-08"
       ],
       "explanation": "本句的「fancied」指「在腦中想像、設想或認為某件事情；較文學／較舊」。",
       "sentenceIndex": 9,
@@ -537,12 +511,10 @@ export default {
         "fancied"
       ],
       "optionReasons": {
-        "fancy-mcq-04": "本句指「在腦中想像、設想或認為某件事情；較文學／較舊」。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。",
-        "fancy-mcq-01": "「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」與本句語境不同。"
+        "fancy-mcq-04": "本句的「fancied」指「在腦中想像、設想或認為某件事情；較文學／較舊」。",
+        "fancy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-04"
     },
@@ -554,11 +526,9 @@ export default {
       "masked": "She ____ herself living by the sea.",
       "options": [
         "fancy-mcq-04",
-        "fancy-mcq-03",
         "fancy-mcq-05",
         "fancy-mcq-02",
-        "fancy-mcq-06",
-        "fancy-mcq-01"
+        "fancy-mcq-08"
       ],
       "explanation": "本句的「fancied」指「在腦中想像、設想或認為某件事情；較文學／較舊」。",
       "sentenceIndex": 10,
@@ -567,74 +537,68 @@ export default {
         "fancied"
       ],
       "optionReasons": {
-        "fancy-mcq-04": "本句指「在腦中想像、設想或認為某件事情；較文學／較舊」。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。",
-        "fancy-mcq-01": "「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」與本句語境不同。"
+        "fancy-mcq-04": "本句的「fancied」指「在腦中想像、設想或認為某件事情；較文學／較舊」。",
+        "fancy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-04"
     },
     {
       "id": "fancy-06-0",
-      "sense": "fancy-mcq-05",
+      "sense": "fancy-reviewed-baec6a78b9",
       "en": "He fancies himself as a writer.",
       "zh": "他自認為／自命為作家。",
       "masked": "He ____ a writer.",
       "options": [
+        "fancy-reviewed-baec6a78b9",
         "fancy-mcq-05",
-        "fancy-mcq-04",
-        "fancy-mcq-06",
-        "fancy-mcq-03",
-        "fancy-mcq-07",
+        "fancy-pdf-001",
         "fancy-mcq-02"
       ],
-      "explanation": "本句的「fancies himself as」指「對某物的喜愛、偏好或興趣」。",
+      "explanation": "對照完整句子：「他自認為／自命為作家。」。這裡的「fancies himself as」表示「自己想像或認定自己具有某種身分、能力或特質」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "fancies himself as"
       ],
       "optionReasons": {
-        "fancy-mcq-05": "本句指「對某物的喜愛、偏好或興趣」。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-07": "「富於想像但不太現實、甚至有點異想天開的」與本句語境不同。",
-        "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。"
+        "fancy-reviewed-baec6a78b9": "對照完整句子：「他自認為／自命為作家。」。這裡的「fancies himself as」表示「自己想像或認定自己具有某種身分、能力或特質」。",
+        "fancy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fancy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "fancy-mcq-05"
+      "correctOption": "fancy-reviewed-baec6a78b9",
+      "previousCorrectOption": "fancy-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "fancy-06-1",
-      "sense": "fancy-mcq-05",
+      "sense": "fancy-reviewed-baec6a78b9",
       "en": "She fancies herself quite an expert.",
       "zh": "她自認為是個相當厲害的專家。",
       "masked": "She ____ quite an expert.",
       "options": [
-        "fancy-mcq-05",
-        "fancy-mcq-04",
-        "fancy-mcq-06",
+        "fancy-reviewed-baec6a78b9",
         "fancy-mcq-03",
-        "fancy-mcq-07",
-        "fancy-mcq-02"
+        "fancy-pdf-001",
+        "fancy-mcq-08"
       ],
-      "explanation": "本句的「fancies herself」指「對某物的喜愛、偏好或興趣」。",
+      "explanation": "對照完整句子：「她自認為是個相當厲害的專家。」。這裡的「fancies herself」表示「自己想像或認定自己具有某種身分、能力或特質」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "fancies herself"
       ],
       "optionReasons": {
-        "fancy-mcq-05": "本句指「對某物的喜愛、偏好或興趣」。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-07": "「富於想像但不太現實、甚至有點異想天開的」與本句語境不同。",
-        "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。"
+        "fancy-reviewed-baec6a78b9": "對照完整句子：「她自認為是個相當厲害的專家。」。這裡的「fancies herself」表示「自己想像或認定自己具有某種身分、能力或特質」。",
+        "fancy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fancy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "fancy-mcq-05"
+      "correctOption": "fancy-reviewed-baec6a78b9",
+      "previousCorrectOption": "fancy-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "fancy-07-0",
@@ -644,11 +608,9 @@ export default {
       "masked": "She took a ____ to the little cottage.",
       "options": [
         "fancy-mcq-05",
-        "fancy-mcq-04",
-        "fancy-mcq-06",
-        "fancy-mcq-03",
-        "fancy-mcq-07",
-        "fancy-mcq-02"
+        "fancy-reviewed-baec6a78b9",
+        "fancy-mcq-08",
+        "fancy-pdf-001"
       ],
       "explanation": "本句的「fancy」指「對某物的喜愛、偏好或興趣」。",
       "sentenceIndex": 13,
@@ -657,12 +619,10 @@ export default {
         "fancy"
       ],
       "optionReasons": {
-        "fancy-mcq-05": "本句指「對某物的喜愛、偏好或興趣」。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-07": "「富於想像但不太現實、甚至有點異想天開的」與本句語境不同。",
-        "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。"
+        "fancy-mcq-05": "本句的「fancy」指「對某物的喜愛、偏好或興趣」。",
+        "fancy-reviewed-baec6a78b9": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fancy-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-05"
     },
@@ -674,11 +634,9 @@ export default {
       "masked": "He has a ____ for old watches.",
       "options": [
         "fancy-mcq-05",
+        "fancy-mcq-01",
         "fancy-mcq-04",
-        "fancy-mcq-06",
-        "fancy-mcq-03",
-        "fancy-mcq-07",
-        "fancy-mcq-02"
+        "fancy-mcq-08"
       ],
       "explanation": "本句的「fancy」指「對某物的喜愛、偏好或興趣」。",
       "sentenceIndex": 14,
@@ -687,12 +645,10 @@ export default {
         "fancy"
       ],
       "optionReasons": {
-        "fancy-mcq-05": "本句指「對某物的喜愛、偏好或興趣」。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-07": "「富於想像但不太現實、甚至有點異想天開的」與本句語境不同。",
-        "fancy-mcq-02": "「想要某物或有興致做某事；英式口語」與本句語境不同。"
+        "fancy-mcq-05": "本句的「fancy」指「對某物的喜愛、偏好或興趣」。",
+        "fancy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-05"
     },
@@ -705,10 +661,8 @@ export default {
       "options": [
         "fancy-mcq-06",
         "fancy-mcq-05",
-        "fancy-mcq-07",
-        "fancy-mcq-04",
         "fancy-mcq-08",
-        "fancy-mcq-03"
+        "fancy-mcq-02"
       ],
       "explanation": "本句的「fancy」指「不一定基於現實的想像、幻想或念頭；較文學」。",
       "sentenceIndex": 17,
@@ -717,12 +671,10 @@ export default {
         "fancy"
       ],
       "optionReasons": {
-        "fancy-mcq-06": "本句指「不一定基於現實的想像、幻想或念頭；較文學」。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-07": "「富於想像但不太現實、甚至有點異想天開的」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-08": "「表示驚訝或意外：真想不到！」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。"
+        "fancy-mcq-06": "本句的「fancy」指「不一定基於現實的想像、幻想或念頭；較文學」。",
+        "fancy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-06"
     },
@@ -735,10 +687,8 @@ export default {
       "options": [
         "fancy-mcq-06",
         "fancy-mcq-05",
-        "fancy-mcq-07",
-        "fancy-mcq-04",
         "fancy-mcq-08",
-        "fancy-mcq-03"
+        "fancy-pdf-001"
       ],
       "explanation": "本句的「fancies」指「不一定基於現實的想像、幻想或念頭；較文學」。",
       "sentenceIndex": 18,
@@ -747,12 +697,10 @@ export default {
         "fancies"
       ],
       "optionReasons": {
-        "fancy-mcq-06": "本句指「不一定基於現實的想像、幻想或念頭；較文學」。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-07": "「富於想像但不太現實、甚至有點異想天開的」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-08": "「表示驚訝或意外：真想不到！」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。"
+        "fancy-mcq-06": "本句的「fancies」指「不一定基於現實的想像、幻想或念頭；較文學」。",
+        "fancy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fancy-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-06"
     },
@@ -764,11 +712,9 @@ export default {
       "masked": "The story is full of ____ creatures.",
       "options": [
         "fancy-mcq-07",
-        "fancy-mcq-06",
-        "fancy-mcq-08",
-        "fancy-mcq-05",
-        "fancy-mcq-09",
-        "fancy-mcq-04"
+        "fancy-pdf-001",
+        "fancy-mcq-03",
+        "fancy-mcq-08"
       ],
       "explanation": "本句的「fanciful」指「富於想像但不太現實、甚至有點異想天開的」。",
       "sentenceIndex": 19,
@@ -777,12 +723,10 @@ export default {
         "fanciful"
       ],
       "optionReasons": {
-        "fancy-mcq-07": "本句指「富於想像但不太現實、甚至有點異想天開的」。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。",
-        "fancy-mcq-08": "「表示驚訝或意外：真想不到！」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-09": "「表示對某件事情感到驚訝：竟然……！」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。"
+        "fancy-mcq-07": "本句的「fanciful」指「富於想像但不太現實、甚至有點異想天開的」。",
+        "fancy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-07"
     },
@@ -794,11 +738,9 @@ export default {
       "masked": "That explanation seems rather ____.",
       "options": [
         "fancy-mcq-07",
-        "fancy-mcq-06",
-        "fancy-mcq-08",
         "fancy-mcq-05",
-        "fancy-mcq-09",
-        "fancy-mcq-04"
+        "fancy-mcq-01",
+        "fancy-mcq-08"
       ],
       "explanation": "本句的「fanciful」指「富於想像但不太現實、甚至有點異想天開的」。",
       "sentenceIndex": 20,
@@ -807,12 +749,10 @@ export default {
         "fanciful"
       ],
       "optionReasons": {
-        "fancy-mcq-07": "本句指「富於想像但不太現實、甚至有點異想天開的」。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。",
-        "fancy-mcq-08": "「表示驚訝或意外：真想不到！」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-09": "「表示對某件事情感到驚訝：竟然……！」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。"
+        "fancy-mcq-07": "本句的「fanciful」指「富於想像但不太現實、甚至有點異想天開的」。",
+        "fancy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-07"
     },
@@ -824,11 +764,9 @@ export default {
       "masked": "The room was ____ decorated.",
       "options": [
         "fancy-mcq-07",
-        "fancy-mcq-06",
-        "fancy-mcq-08",
-        "fancy-mcq-05",
-        "fancy-mcq-09",
-        "fancy-mcq-04"
+        "fancy-mcq-01",
+        "fancy-mcq-03",
+        "fancy-mcq-08"
       ],
       "explanation": "本句的「fancifully」指「富於想像但不太現實、甚至有點異想天開的」。",
       "sentenceIndex": 21,
@@ -837,12 +775,10 @@ export default {
         "fancifully"
       ],
       "optionReasons": {
-        "fancy-mcq-07": "本句指「富於想像但不太現實、甚至有點異想天開的」。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。",
-        "fancy-mcq-08": "「表示驚訝或意外：真想不到！」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-09": "「表示對某件事情感到驚訝：竟然……！」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。"
+        "fancy-mcq-07": "本句的「fancifully」指「富於想像但不太現實、甚至有點異想天開的」。",
+        "fancy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-07"
     },
@@ -854,10 +790,8 @@ export default {
       "masked": "He won the competition? ____",
       "options": [
         "fancy-mcq-08",
-        "fancy-mcq-07",
-        "fancy-mcq-09",
-        "fancy-mcq-06",
         "fancy-mcq-05",
+        "fancy-pdf-001",
         "fancy-mcq-04"
       ],
       "explanation": "本句的「Fancy that!」指「表示驚訝或意外：真想不到！」。",
@@ -867,12 +801,10 @@ export default {
         "Fancy that!"
       ],
       "optionReasons": {
-        "fancy-mcq-08": "本句指「表示驚訝或意外：真想不到！」。",
-        "fancy-mcq-07": "「富於想像但不太現實、甚至有點異想天開的」與本句語境不同。",
-        "fancy-mcq-09": "「表示對某件事情感到驚訝：竟然……！」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。"
+        "fancy-mcq-08": "本句的「Fancy that!」指「表示驚訝或意外：真想不到！」。",
+        "fancy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fancy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-08"
     },
@@ -884,11 +816,9 @@ export default {
       "masked": "They met again twenty years later—____",
       "options": [
         "fancy-mcq-08",
-        "fancy-mcq-07",
-        "fancy-mcq-09",
-        "fancy-mcq-06",
         "fancy-mcq-05",
-        "fancy-mcq-04"
+        "fancy-pdf-001",
+        "fancy-reviewed-baec6a78b9"
       ],
       "explanation": "本句的「fancy that!」指「表示驚訝或意外：真想不到！」。",
       "sentenceIndex": 24,
@@ -897,12 +827,10 @@ export default {
         "fancy that!"
       ],
       "optionReasons": {
-        "fancy-mcq-08": "本句指「表示驚訝或意外：真想不到！」。",
-        "fancy-mcq-07": "「富於想像但不太現實、甚至有點異想天開的」與本句語境不同。",
-        "fancy-mcq-09": "「表示對某件事情感到驚訝：竟然……！」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。"
+        "fancy-mcq-08": "本句的「fancy that!」指「表示驚訝或意外：真想不到！」。",
+        "fancy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fancy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fancy-reviewed-baec6a78b9": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-08"
     },
@@ -914,11 +842,9 @@ export default {
       "masked": "____ you here!",
       "options": [
         "fancy-mcq-02",
-        "fancy-mcq-01",
-        "fancy-mcq-03",
-        "fancy-mcq-04",
-        "fancy-mcq-05",
-        "fancy-mcq-06"
+        "fancy-pdf-001",
+        "fancy-mcq-07",
+        "fancy-mcq-05"
       ],
       "explanation": "本句的「Fancy meeting」指「想要某物或有興致做某事；英式口語」。",
       "sentenceIndex": 25,
@@ -927,12 +853,10 @@ export default {
         "Fancy meeting"
       ],
       "optionReasons": {
-        "fancy-mcq-02": "本句指「想要某物或有興致做某事；英式口語」。",
-        "fancy-mcq-01": "「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。"
+        "fancy-mcq-02": "本句的「Fancy meeting」指「想要某物或有興致做某事；英式口語」。",
+        "fancy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-02"
     },
@@ -945,10 +869,8 @@ export default {
       "options": [
         "fancy-mcq-02",
         "fancy-mcq-01",
-        "fancy-mcq-03",
         "fancy-mcq-04",
-        "fancy-mcq-05",
-        "fancy-mcq-06"
+        "fancy-mcq-05"
       ],
       "explanation": "本句的「Fancy forgetting」指「想要某物或有興致做某事；英式口語」。",
       "sentenceIndex": 26,
@@ -957,12 +879,10 @@ export default {
         "Fancy forgetting"
       ],
       "optionReasons": {
-        "fancy-mcq-02": "本句指「想要某物或有興致做某事；英式口語」。",
-        "fancy-mcq-01": "「外觀、設計、安排或質素較普通事物更華麗、精緻、高級或複雜的」與本句語境不同。",
-        "fancy-mcq-03": "「對某人有浪漫或性方面的吸引／好感；英式口語」與本句語境不同。",
-        "fancy-mcq-04": "「在腦中想像、設想或認為某件事情；較文學／較舊」與本句語境不同。",
-        "fancy-mcq-05": "「對某物的喜愛、偏好或興趣」與本句語境不同。",
-        "fancy-mcq-06": "「不一定基於現實的想像、幻想或念頭；較文學」與本句語境不同。"
+        "fancy-mcq-02": "本句的「Fancy forgetting」指「想要某物或有興致做某事；英式口語」。",
+        "fancy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fancy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fancy-mcq-02"
     }
@@ -974,5 +894,7 @@ export default {
     "sha256": "b9f7e7948668cf2bc4aa87d3caffd130f9da75b3c12b2b0c8d01200a99306532",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

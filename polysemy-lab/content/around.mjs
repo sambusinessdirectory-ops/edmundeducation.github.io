@@ -197,7 +197,7 @@ export default {
     },
     {
       "id": "around-mcq-09",
-      "title": "表示數量、時間、距離等只是大約值",
+      "title": "數量、時間、距離等只是大約值",
       "form": "around + number",
       "en": "around + number",
       "zh": "表示數量、時間、距離等只是大約值",
@@ -571,7 +571,7 @@ export default {
     },
     {
       "id": "around-pdf-001",
-      "title": "表示估算，而非精確數值",
+      "title": "估算，而非精確數值",
       "form": "12. around = approximately in general（大概） — 大約；差不多",
       "en": "12. around = approximately in general（大概） — 大約；差不多",
       "zh": "表示估算，而非精確數值",
@@ -601,11 +601,9 @@ export default {
       "masked": "Being ____ reminds me that kindness can be quiet, steady, and deeply powerful.",
       "options": [
         "around-mcq-01",
-        "around-mcq-02",
-        "around-mcq-03",
-        "around-mcq-04",
-        "around-mcq-05",
-        "around-mcq-06"
+        "around-mcq-22",
+        "around-mcq-14",
+        "around-mcq-13"
       ],
       "explanation": "本句的「around her」指「與某人在同一環境中相處、待在某人身邊或享受其陪伴」。",
       "sentenceIndex": 0,
@@ -614,12 +612,10 @@ export default {
         "around her"
       ],
       "optionReasons": {
-        "around-mcq-01": "本句指「與某人在同一環境中相處、待在某人身邊或享受其陪伴」。",
-        "around-mcq-02": "「位於某人／某物的四周或附近」是「around — surrounding position」的用法，與本句語境不同。",
-        "around-mcq-03": "「沿某物外圍或近似圓形的路線移動」是「around — circular movement」的用法，與本句語境不同。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。"
+        "around-mcq-01": "本句的「around her」指「與某人在同一環境中相處、待在某人身邊或享受其陪伴」。",
+        "around-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-01"
     },
@@ -631,11 +627,9 @@ export default {
       "masked": "I feel relaxed when I’m ____.",
       "options": [
         "around-mcq-01",
-        "around-mcq-02",
-        "around-mcq-03",
-        "around-mcq-04",
-        "around-mcq-05",
-        "around-mcq-06"
+        "around-mcq-19",
+        "around-mcq-14",
+        "around-mcq-07"
       ],
       "explanation": "本句的「around her」指「與某人在同一環境中相處、待在某人身邊或享受其陪伴」。",
       "sentenceIndex": 1,
@@ -644,12 +638,10 @@ export default {
         "around her"
       ],
       "optionReasons": {
-        "around-mcq-01": "本句指「與某人在同一環境中相處、待在某人身邊或享受其陪伴」。",
-        "around-mcq-02": "「位於某人／某物的四周或附近」是「around — surrounding position」的用法，與本句語境不同。",
-        "around-mcq-03": "「沿某物外圍或近似圓形的路線移動」是「around — circular movement」的用法，與本句語境不同。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。"
+        "around-mcq-01": "本句的「around her」指「與某人在同一環境中相處、待在某人身邊或享受其陪伴」。",
+        "around-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-01"
     },
@@ -661,11 +653,9 @@ export default {
       "masked": "Children enjoy being ____ him.",
       "options": [
         "around-mcq-01",
-        "around-mcq-02",
-        "around-mcq-03",
-        "around-mcq-04",
-        "around-mcq-05",
-        "around-mcq-06"
+        "around-mcq-19",
+        "around-mcq-06",
+        "around-mcq-22"
       ],
       "explanation": "本句的「around」指「與某人在同一環境中相處、待在某人身邊或享受其陪伴」。",
       "sentenceIndex": 2,
@@ -674,12 +664,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-01": "本句指「與某人在同一環境中相處、待在某人身邊或享受其陪伴」。",
-        "around-mcq-02": "「位於某人／某物的四周或附近」是「around — surrounding position」的用法，與本句語境不同。",
-        "around-mcq-03": "「沿某物外圍或近似圓形的路線移動」是「around — circular movement」的用法，與本句語境不同。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。"
+        "around-mcq-01": "本句的「around」指「與某人在同一環境中相處、待在某人身邊或享受其陪伴」。",
+        "around-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-01"
     },
@@ -691,11 +679,9 @@ export default {
       "masked": "There were trees ____ the house.",
       "options": [
         "around-mcq-02",
-        "around-mcq-01",
-        "around-mcq-03",
-        "around-mcq-04",
-        "around-mcq-05",
-        "around-mcq-06"
+        "around-mcq-10",
+        "around-mcq-22",
+        "around-mcq-17"
       ],
       "explanation": "本句的「around」指「位於某人／某物的四周或附近」。",
       "sentenceIndex": 3,
@@ -704,12 +690,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-02": "本句指「位於某人／某物的四周或附近」。",
-        "around-mcq-01": "「與某人在同一環境中相處、待在某人身邊或享受其陪伴」是「be around someone」的用法，與本句語境不同。",
-        "around-mcq-03": "「沿某物外圍或近似圓形的路線移動」是「around — circular movement」的用法，與本句語境不同。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。"
+        "around-mcq-02": "本句的「around」指「位於某人／某物的四周或附近」。",
+        "around-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-02"
     },
@@ -721,11 +705,9 @@ export default {
       "masked": "Everyone gathered ____ the table.",
       "options": [
         "around-mcq-02",
-        "around-mcq-01",
-        "around-mcq-03",
-        "around-mcq-04",
-        "around-mcq-05",
-        "around-mcq-06"
+        "around-mcq-24",
+        "around-mcq-25",
+        "around-mcq-22"
       ],
       "explanation": "本句的「around」指「位於某人／某物的四周或附近」。",
       "sentenceIndex": 4,
@@ -734,12 +716,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-02": "本句指「位於某人／某物的四周或附近」。",
-        "around-mcq-01": "「與某人在同一環境中相處、待在某人身邊或享受其陪伴」是「be around someone」的用法，與本句語境不同。",
-        "around-mcq-03": "「沿某物外圍或近似圓形的路線移動」是「around — circular movement」的用法，與本句語境不同。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。"
+        "around-mcq-02": "本句的「around」指「位於某人／某物的四周或附近」。",
+        "around-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-02"
     },
@@ -751,11 +731,9 @@ export default {
       "masked": "We walked ____ the lake.",
       "options": [
         "around-mcq-02",
-        "around-mcq-01",
-        "around-mcq-03",
-        "around-mcq-04",
-        "around-mcq-05",
-        "around-mcq-06"
+        "around-mcq-19",
+        "around-pdf-001",
+        "around-mcq-24"
       ],
       "explanation": "本句的「around」指「位於某人／某物的四周或附近」。",
       "sentenceIndex": 5,
@@ -764,12 +742,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-02": "本句指「位於某人／某物的四周或附近」。",
-        "around-mcq-01": "「與某人在同一環境中相處、待在某人身邊或享受其陪伴」是「be around someone」的用法，與本句語境不同。",
-        "around-mcq-03": "「沿某物外圍或近似圓形的路線移動」是「around — circular movement」的用法，與本句語境不同。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。"
+        "around-mcq-02": "本句的「around」指「位於某人／某物的四周或附近」。",
+        "around-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "around-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-02"
     },
@@ -781,11 +757,9 @@ export default {
       "masked": "The Earth moves ____ the Sun.",
       "options": [
         "around-mcq-02",
-        "around-mcq-01",
-        "around-mcq-03",
-        "around-mcq-04",
-        "around-mcq-05",
-        "around-mcq-06"
+        "around-mcq-17",
+        "around-pdf-001",
+        "around-mcq-10"
       ],
       "explanation": "本句的「around」指「位於某人／某物的四周或附近」。",
       "sentenceIndex": 6,
@@ -794,12 +768,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-02": "本句指「位於某人／某物的四周或附近」。",
-        "around-mcq-01": "「與某人在同一環境中相處、待在某人身邊或享受其陪伴」是「be around someone」的用法，與本句語境不同。",
-        "around-mcq-03": "「沿某物外圍或近似圓形的路線移動」是「around — circular movement」的用法，與本句語境不同。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。"
+        "around-mcq-02": "本句的「around」指「位於某人／某物的四周或附近」。",
+        "around-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "around-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-02"
     },
@@ -811,11 +783,9 @@ export default {
       "masked": "We walked ____ for an hour.",
       "options": [
         "around-mcq-04",
-        "around-mcq-03",
-        "around-mcq-05",
-        "around-mcq-02",
-        "around-mcq-06",
-        "around-mcq-01"
+        "around-mcq-25",
+        "around-mcq-22",
+        "around-mcq-15"
       ],
       "explanation": "本句的「around」指「在某個範圍內由一處移動到另一處；四處」。",
       "sentenceIndex": 7,
@@ -824,12 +794,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-04": "本句指「在某個範圍內由一處移動到另一處；四處」。",
-        "around-mcq-03": "「沿某物外圍或近似圓形的路線移動」是「around — circular movement」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-02": "「位於某人／某物的四周或附近」是「around — surrounding position」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。",
-        "around-mcq-01": "「與某人在同一環境中相處、待在某人身邊或享受其陪伴」是「be around someone」的用法，與本句語境不同。"
+        "around-mcq-04": "本句的「around」指「在某個範圍內由一處移動到另一處；四處」。",
+        "around-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-04"
     },
@@ -841,11 +809,9 @@ export default {
       "masked": "She looked ____ the room.",
       "options": [
         "around-mcq-04",
-        "around-mcq-03",
-        "around-mcq-05",
-        "around-mcq-02",
-        "around-mcq-06",
-        "around-mcq-01"
+        "around-mcq-20",
+        "around-mcq-25",
+        "around-mcq-14"
       ],
       "explanation": "本句的「around」指「在某個範圍內由一處移動到另一處；四處」。",
       "sentenceIndex": 8,
@@ -854,12 +820,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-04": "本句指「在某個範圍內由一處移動到另一處；四處」。",
-        "around-mcq-03": "「沿某物外圍或近似圓形的路線移動」是「around — circular movement」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-02": "「位於某人／某物的四周或附近」是「around — surrounding position」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。",
-        "around-mcq-01": "「與某人在同一環境中相處、待在某人身邊或享受其陪伴」是「be around someone」的用法，與本句語境不同。"
+        "around-mcq-04": "本句的「around」指「在某個範圍內由一處移動到另一處；四處」。",
+        "around-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-04"
     },
@@ -871,11 +835,9 @@ export default {
       "masked": "She ____ before sitting down.",
       "options": [
         "around-mcq-05",
-        "around-mcq-04",
-        "around-mcq-06",
-        "around-mcq-03",
-        "around-mcq-07",
-        "around-mcq-02"
+        "around-mcq-20",
+        "around-pdf-001",
+        "around-mcq-17"
       ],
       "explanation": "本句的「looked around」指「朝不同方向看或在某處四處查看」。",
       "sentenceIndex": 9,
@@ -884,12 +846,10 @@ export default {
         "looked around"
       ],
       "optionReasons": {
-        "around-mcq-05": "本句指「朝不同方向看或在某處四處查看」。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。",
-        "around-mcq-03": "「沿某物外圍或近似圓形的路線移動」是「around — circular movement」的用法，與本句語境不同。",
-        "around-mcq-07": "「在附近、在場或可以找到」是「be around — present」的用法，與本句語境不同。",
-        "around-mcq-02": "「位於某人／某物的四周或附近」是「around — surrounding position」的用法，與本句語境不同。"
+        "around-mcq-05": "本句的「looked around」指「朝不同方向看或在某處四處查看」。",
+        "around-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "around-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-05"
     },
@@ -901,11 +861,9 @@ export default {
       "masked": "Let’s ____ the market.",
       "options": [
         "around-mcq-05",
-        "around-mcq-04",
-        "around-mcq-06",
-        "around-mcq-03",
-        "around-mcq-07",
-        "around-mcq-02"
+        "around-mcq-15",
+        "around-mcq-25",
+        "around-mcq-07"
       ],
       "explanation": "本句的「look around」指「朝不同方向看或在某處四處查看」。",
       "sentenceIndex": 10,
@@ -914,12 +872,10 @@ export default {
         "look around"
       ],
       "optionReasons": {
-        "around-mcq-05": "本句指「朝不同方向看或在某處四處查看」。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。",
-        "around-mcq-03": "「沿某物外圍或近似圓形的路線移動」是「around — circular movement」的用法，與本句語境不同。",
-        "around-mcq-07": "「在附近、在場或可以找到」是「be around — present」的用法，與本句語境不同。",
-        "around-mcq-02": "「位於某人／某物的四周或附近」是「around — surrounding position」的用法，與本句語境不同。"
+        "around-mcq-05": "本句的「look around」指「朝不同方向看或在某處四處查看」。",
+        "around-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-05"
     },
@@ -931,11 +887,9 @@ export default {
       "masked": "Is there a café ____?",
       "options": [
         "around-mcq-06",
+        "around-mcq-25",
         "around-mcq-05",
-        "around-mcq-07",
-        "around-mcq-04",
-        "around-mcq-08",
-        "around-mcq-03"
+        "around-mcq-24"
       ],
       "explanation": "本句的「around here」指「某個位置附近或一帶」。",
       "sentenceIndex": 11,
@@ -944,12 +898,10 @@ export default {
         "around here"
       ],
       "optionReasons": {
-        "around-mcq-06": "本句指「某個位置附近或一帶」。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-07": "「在附近、在場或可以找到」是「be around — present」的用法，與本句語境不同。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。",
-        "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。",
-        "around-mcq-03": "「沿某物外圍或近似圓形的路線移動」是「around — circular movement」的用法，與本句語境不同。"
+        "around-mcq-06": "本句的「around here」指「某個位置附近或一帶」。",
+        "around-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-06"
     },
@@ -961,11 +913,9 @@ export default {
       "masked": "She lives somewhere ____.",
       "options": [
         "around-mcq-06",
-        "around-mcq-05",
-        "around-mcq-07",
-        "around-mcq-04",
-        "around-mcq-08",
-        "around-mcq-03"
+        "around-mcq-24",
+        "around-mcq-12",
+        "around-mcq-15"
       ],
       "explanation": "本句的「around there」指「某個位置附近或一帶」。",
       "sentenceIndex": 12,
@@ -974,12 +924,10 @@ export default {
         "around there"
       ],
       "optionReasons": {
-        "around-mcq-06": "本句指「某個位置附近或一帶」。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-07": "「在附近、在場或可以找到」是「be around — present」的用法，與本句語境不同。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。",
-        "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。",
-        "around-mcq-03": "「沿某物外圍或近似圓形的路線移動」是「around — circular movement」的用法，與本句語境不同。"
+        "around-mcq-06": "本句的「around there」指「某個位置附近或一帶」。",
+        "around-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-06"
     },
@@ -991,11 +939,9 @@ export default {
       "masked": "Is your manager ____?",
       "options": [
         "around-mcq-07",
-        "around-mcq-06",
-        "around-mcq-08",
-        "around-mcq-05",
-        "around-mcq-09",
-        "around-mcq-04"
+        "around-mcq-14",
+        "around-mcq-12",
+        "around-mcq-25"
       ],
       "explanation": "本句的「around」指「在附近、在場或可以找到」。",
       "sentenceIndex": 13,
@@ -1004,12 +950,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-07": "本句指「在附近、在場或可以找到」。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。",
-        "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。"
+        "around-mcq-07": "本句的「around」指「在附近、在場或可以找到」。",
+        "around-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-07"
     },
@@ -1021,11 +965,9 @@ export default {
       "masked": "There wasn’t anyone ____.",
       "options": [
         "around-mcq-07",
-        "around-mcq-06",
-        "around-mcq-08",
-        "around-mcq-05",
-        "around-mcq-09",
-        "around-mcq-04"
+        "around-mcq-19",
+        "around-mcq-10",
+        "around-mcq-01"
       ],
       "explanation": "本句的「around」指「在附近、在場或可以找到」。",
       "sentenceIndex": 14,
@@ -1034,12 +976,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-07": "本句指「在附近、在場或可以找到」。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。",
-        "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。"
+        "around-mcq-07": "本句的「around」指「在附近、在場或可以找到」。",
+        "around-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-07"
     },
@@ -1051,11 +991,9 @@ export default {
       "masked": "I’ll be ____ all afternoon.",
       "options": [
         "around-mcq-07",
-        "around-mcq-06",
+        "around-mcq-23",
         "around-mcq-08",
-        "around-mcq-05",
-        "around-mcq-09",
-        "around-mcq-04"
+        "around-mcq-12"
       ],
       "explanation": "本句的「around」指「在附近、在場或可以找到」。",
       "sentenceIndex": 15,
@@ -1064,12 +1002,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-07": "本句指「在附近、在場或可以找到」。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。",
-        "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。"
+        "around-mcq-07": "本句的「around」指「在附近、在場或可以找到」。",
+        "around-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-07"
     },
@@ -1081,11 +1017,9 @@ export default {
       "masked": "Will you be ____ tomorrow?",
       "options": [
         "around-mcq-07",
-        "around-mcq-06",
-        "around-mcq-08",
-        "around-mcq-05",
-        "around-mcq-09",
-        "around-mcq-04"
+        "around-mcq-11",
+        "around-mcq-14",
+        "around-mcq-16"
       ],
       "explanation": "本句的「around」指「在附近、在場或可以找到」。",
       "sentenceIndex": 16,
@@ -1094,12 +1028,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-07": "本句指「在附近、在場或可以找到」。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。",
-        "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。",
-        "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。",
-        "around-mcq-04": "「在某個範圍內由一處移動到另一處；四處」是「around — movement within an area」的用法，與本句語境不同。"
+        "around-mcq-07": "本句的「around」指「在附近、在場或可以找到」。",
+        "around-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-07"
     },
@@ -1111,11 +1043,9 @@ export default {
       "masked": "That company has been ____ for decades.",
       "options": [
         "around-mcq-08",
-        "around-mcq-07",
-        "around-mcq-09",
-        "around-mcq-06",
-        "around-mcq-10",
-        "around-mcq-05"
+        "around-mcq-05",
+        "around-mcq-19",
+        "around-mcq-06"
       ],
       "explanation": "本句的「around」指「某人／某物存在或已存在一段時間」。",
       "sentenceIndex": 17,
@@ -1124,12 +1054,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-08": "本句指「某人／某物存在或已存在一段時間」。",
-        "around-mcq-07": "「在附近、在場或可以找到」是「be around — present」的用法，與本句語境不同。",
-        "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。",
-        "around-mcq-10": "「在某個時間點前後不久」是「around + time」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。"
+        "around-mcq-08": "本句的「around」指「某人／某物存在或已存在一段時間」。",
+        "around-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-08"
     },
@@ -1141,11 +1069,9 @@ export default {
       "masked": "This idea has been ____ for a long time.",
       "options": [
         "around-mcq-08",
-        "around-mcq-07",
-        "around-mcq-09",
-        "around-mcq-06",
-        "around-mcq-10",
-        "around-mcq-05"
+        "around-mcq-05",
+        "around-mcq-19",
+        "around-pdf-001"
       ],
       "explanation": "本句的「around」指「某人／某物存在或已存在一段時間」。",
       "sentenceIndex": 18,
@@ -1154,12 +1080,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-08": "本句指「某人／某物存在或已存在一段時間」。",
-        "around-mcq-07": "「在附近、在場或可以找到」是「be around — present」的用法，與本句語境不同。",
-        "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。",
-        "around-mcq-10": "「在某個時間點前後不久」是「around + time」的用法，與本句語境不同。",
-        "around-mcq-05": "「朝不同方向看或在某處四處查看」是「look around」的用法，與本句語境不同。"
+        "around-mcq-08": "本句的「around」指「某人／某物存在或已存在一段時間」。",
+        "around-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "around-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-08"
     },
@@ -1171,11 +1095,9 @@ export default {
       "masked": "There were ____ fifty people.",
       "options": [
         "around-mcq-09",
-        "around-mcq-08",
-        "around-mcq-10",
-        "around-mcq-07",
-        "around-mcq-11",
-        "around-mcq-06"
+        "around-mcq-16",
+        "around-mcq-17",
+        "around-mcq-12"
       ],
       "explanation": "本句的「around」指「表示數量、時間、距離等只是大約值」。",
       "sentenceIndex": 19,
@@ -1184,12 +1106,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-09": "本句指「表示數量、時間、距離等只是大約值」。",
-        "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。",
-        "around-mcq-10": "「在某個時間點前後不久」是「around + time」的用法，與本句語境不同。",
-        "around-mcq-07": "「在附近、在場或可以找到」是「be around — present」的用法，與本句語境不同。",
-        "around-mcq-11": "「世界各地／在世界不同地方之間移動」是「around the world」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。"
+        "around-mcq-09": "本句的「around」指「表示數量、時間、距離等只是大約值」。",
+        "around-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-09"
     },
@@ -1201,11 +1121,9 @@ export default {
       "masked": "The journey takes ____ two hours.",
       "options": [
         "around-mcq-09",
-        "around-mcq-08",
-        "around-mcq-10",
-        "around-mcq-07",
-        "around-mcq-11",
-        "around-mcq-06"
+        "around-mcq-02",
+        "around-mcq-14",
+        "around-mcq-24"
       ],
       "explanation": "本句的「around」指「表示數量、時間、距離等只是大約值」。",
       "sentenceIndex": 20,
@@ -1214,12 +1132,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-09": "本句指「表示數量、時間、距離等只是大約值」。",
-        "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。",
-        "around-mcq-10": "「在某個時間點前後不久」是「around + time」的用法，與本句語境不同。",
-        "around-mcq-07": "「在附近、在場或可以找到」是「be around — present」的用法，與本句語境不同。",
-        "around-mcq-11": "「世界各地／在世界不同地方之間移動」是「around the world」的用法，與本句語境不同。",
-        "around-mcq-06": "「某個位置附近或一帶」是「around here/there」的用法，與本句語境不同。"
+        "around-mcq-09": "本句的「around」指「表示數量、時間、距離等只是大約值」。",
+        "around-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-09"
     },
@@ -1231,11 +1147,9 @@ export default {
       "masked": "I’ll arrive ____ six.",
       "options": [
         "around-mcq-10",
-        "around-mcq-09",
-        "around-mcq-11",
-        "around-mcq-08",
-        "around-mcq-12",
-        "around-mcq-07"
+        "around-mcq-22",
+        "around-mcq-14",
+        "around-mcq-02"
       ],
       "explanation": "本句的「around」指「在某個時間點前後不久」。",
       "sentenceIndex": 21,
@@ -1244,12 +1158,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-10": "本句指「在某個時間點前後不久」。",
-        "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。",
-        "around-mcq-11": "「世界各地／在世界不同地方之間移動」是「around the world」的用法，與本句語境不同。",
-        "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。",
-        "around-mcq-12": "「在各個方向；四面八方」是「all around」的用法，與本句語境不同。",
-        "around-mcq-07": "「在附近、在場或可以找到」是「be around — present」的用法，與本句語境不同。"
+        "around-mcq-10": "本句的「around」指「在某個時間點前後不久」。",
+        "around-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-10"
     },
@@ -1261,11 +1173,9 @@ export default {
       "masked": "She usually calls ____ lunchtime.",
       "options": [
         "around-mcq-10",
-        "around-mcq-09",
-        "around-mcq-11",
-        "around-mcq-08",
-        "around-mcq-12",
-        "around-mcq-07"
+        "around-mcq-04",
+        "around-mcq-14",
+        "around-mcq-12"
       ],
       "explanation": "本句的「around」指「在某個時間點前後不久」。",
       "sentenceIndex": 22,
@@ -1274,12 +1184,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-10": "本句指「在某個時間點前後不久」。",
-        "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。",
-        "around-mcq-11": "「世界各地／在世界不同地方之間移動」是「around the world」的用法，與本句語境不同。",
-        "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。",
-        "around-mcq-12": "「在各個方向；四面八方」是「all around」的用法，與本句語境不同。",
-        "around-mcq-07": "「在附近、在場或可以找到」是「be around — present」的用法，與本句語境不同。"
+        "around-mcq-10": "本句的「around」指「在某個時間點前後不久」。",
+        "around-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-10"
     },
@@ -1291,11 +1199,9 @@ export default {
       "masked": "It costs ____ $100.",
       "options": [
         "around-pdf-001",
-        "around-mcq-09",
-        "around-mcq-11",
-        "around-mcq-08",
-        "around-mcq-12",
-        "around-mcq-07"
+        "around-mcq-05",
+        "around-mcq-06",
+        "around-mcq-22"
       ],
       "explanation": "本句的「around」指「表示估算，而非精確數值」。",
       "sentenceIndex": 23,
@@ -1304,12 +1210,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-pdf-001": "本句指「表示估算，而非精確數值」。",
-        "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。",
-        "around-mcq-11": "「世界各地／在世界不同地方之間移動」是「around the world」的用法，與本句語境不同。",
-        "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。",
-        "around-mcq-12": "「在各個方向；四面八方」是「all around」的用法，與本句語境不同。",
-        "around-mcq-07": "「在附近、在場或可以找到」是「be around — present」的用法，與本句語境不同。"
+        "around-pdf-001": "本句的「around」指「表示估算，而非精確數值」。",
+        "around-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-pdf-001"
     },
@@ -1321,11 +1225,9 @@ export default {
       "masked": "She is ____ seventy years old.",
       "options": [
         "around-pdf-001",
-        "around-mcq-09",
         "around-mcq-11",
-        "around-mcq-08",
-        "around-mcq-12",
-        "around-mcq-07"
+        "around-mcq-15",
+        "around-mcq-22"
       ],
       "explanation": "本句的「around」指「表示估算，而非精確數值」。",
       "sentenceIndex": 24,
@@ -1334,12 +1236,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-pdf-001": "本句指「表示估算，而非精確數值」。",
-        "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。",
-        "around-mcq-11": "「世界各地／在世界不同地方之間移動」是「around the world」的用法，與本句語境不同。",
-        "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。",
-        "around-mcq-12": "「在各個方向；四面八方」是「all around」的用法，與本句語境不同。",
-        "around-mcq-07": "「在附近、在場或可以找到」是「be around — present」的用法，與本句語境不同。"
+        "around-pdf-001": "本句的「around」指「表示估算，而非精確數值」。",
+        "around-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-pdf-001"
     },
@@ -1351,11 +1251,9 @@ export default {
       "masked": "The news spread ____.",
       "options": [
         "around-mcq-11",
-        "around-mcq-10",
-        "around-mcq-12",
-        "around-mcq-09",
-        "around-mcq-13",
-        "around-mcq-08"
+        "around-mcq-24",
+        "around-mcq-20",
+        "around-mcq-17"
       ],
       "explanation": "本句的「around the world」指「世界各地／在世界不同地方之間移動」。",
       "sentenceIndex": 25,
@@ -1364,12 +1262,10 @@ export default {
         "around the world"
       ],
       "optionReasons": {
-        "around-mcq-11": "本句指「世界各地／在世界不同地方之間移動」。",
-        "around-mcq-10": "「在某個時間點前後不久」是「around + time」的用法，與本句語境不同。",
-        "around-mcq-12": "「在各個方向；四面八方」是「all around」的用法，與本句語境不同。",
-        "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。",
-        "around-mcq-13": "「位於下一個街角／轉角附近」是「around the corner — literal」的用法，與本句語境不同。",
-        "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。"
+        "around-mcq-11": "本句的「around the world」指「世界各地／在世界不同地方之間移動」。",
+        "around-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-11"
     },
@@ -1381,11 +1277,9 @@ export default {
       "masked": "They travelled ____.",
       "options": [
         "around-mcq-11",
-        "around-mcq-10",
-        "around-mcq-12",
-        "around-mcq-09",
-        "around-mcq-13",
-        "around-mcq-08"
+        "around-mcq-20",
+        "around-mcq-17",
+        "around-mcq-24"
       ],
       "explanation": "本句的「around the world」指「世界各地／在世界不同地方之間移動」。",
       "sentenceIndex": 26,
@@ -1394,12 +1288,10 @@ export default {
         "around the world"
       ],
       "optionReasons": {
-        "around-mcq-11": "本句指「世界各地／在世界不同地方之間移動」。",
-        "around-mcq-10": "「在某個時間點前後不久」是「around + time」的用法，與本句語境不同。",
-        "around-mcq-12": "「在各個方向；四面八方」是「all around」的用法，與本句語境不同。",
-        "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。",
-        "around-mcq-13": "「位於下一個街角／轉角附近」是「around the corner — literal」的用法，與本句語境不同。",
-        "around-mcq-08": "「某人／某物存在或已存在一段時間」是「be around — exist」的用法，與本句語境不同。"
+        "around-mcq-11": "本句的「around the world」指「世界各地／在世界不同地方之間移動」。",
+        "around-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-11"
     },
@@ -1411,11 +1303,9 @@ export default {
       "masked": "There were flowers ____.",
       "options": [
         "around-mcq-12",
-        "around-mcq-11",
-        "around-mcq-13",
-        "around-mcq-10",
-        "around-mcq-14",
-        "around-mcq-09"
+        "around-pdf-001",
+        "around-mcq-15",
+        "around-mcq-16"
       ],
       "explanation": "本句的「all around」指「在各個方向；四面八方」。",
       "sentenceIndex": 27,
@@ -1424,12 +1314,10 @@ export default {
         "all around"
       ],
       "optionReasons": {
-        "around-mcq-12": "本句指「在各個方向；四面八方」。",
-        "around-mcq-11": "「世界各地／在世界不同地方之間移動」是「around the world」的用法，與本句語境不同。",
-        "around-mcq-13": "「位於下一個街角／轉角附近」是「around the corner — literal」的用法，與本句語境不同。",
-        "around-mcq-10": "「在某個時間點前後不久」是「around + time」的用法，與本句語境不同。",
-        "around-mcq-14": "「某件事情很快就會發生」是「around the corner — figurative」的用法，與本句語境不同。",
-        "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。"
+        "around-mcq-12": "本句的「all around」指「在各個方向；四面八方」。",
+        "around-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-12"
     },
@@ -1441,11 +1329,9 @@ export default {
       "masked": "We could hear birds ____ us.",
       "options": [
         "around-mcq-12",
-        "around-mcq-11",
-        "around-mcq-13",
-        "around-mcq-10",
-        "around-mcq-14",
-        "around-mcq-09"
+        "around-mcq-01",
+        "around-mcq-17",
+        "around-mcq-06"
       ],
       "explanation": "本句的「all around」指「在各個方向；四面八方」。",
       "sentenceIndex": 28,
@@ -1454,12 +1340,10 @@ export default {
         "all around"
       ],
       "optionReasons": {
-        "around-mcq-12": "本句指「在各個方向；四面八方」。",
-        "around-mcq-11": "「世界各地／在世界不同地方之間移動」是「around the world」的用法，與本句語境不同。",
-        "around-mcq-13": "「位於下一個街角／轉角附近」是「around the corner — literal」的用法，與本句語境不同。",
-        "around-mcq-10": "「在某個時間點前後不久」是「around + time」的用法，與本句語境不同。",
-        "around-mcq-14": "「某件事情很快就會發生」是「around the corner — figurative」的用法，與本句語境不同。",
-        "around-mcq-09": "「表示數量、時間、距離等只是大約值」是「around + number」的用法，與本句語境不同。"
+        "around-mcq-12": "本句的「all around」指「在各個方向；四面八方」。",
+        "around-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-12"
     },
@@ -1471,11 +1355,9 @@ export default {
       "masked": "The shop is just ____.",
       "options": [
         "around-mcq-13",
-        "around-mcq-12",
-        "around-mcq-14",
-        "around-mcq-11",
-        "around-mcq-15",
-        "around-mcq-10"
+        "around-mcq-22",
+        "around-mcq-08",
+        "around-pdf-001"
       ],
       "explanation": "本句的「around the corner」指「位於下一個街角／轉角附近」。",
       "sentenceIndex": 29,
@@ -1484,12 +1366,10 @@ export default {
         "around the corner"
       ],
       "optionReasons": {
-        "around-mcq-13": "本句指「位於下一個街角／轉角附近」。",
-        "around-mcq-12": "「在各個方向；四面八方」是「all around」的用法，與本句語境不同。",
-        "around-mcq-14": "「某件事情很快就會發生」是「around the corner — figurative」的用法，與本句語境不同。",
-        "around-mcq-11": "「世界各地／在世界不同地方之間移動」是「around the world」的用法，與本句語境不同。",
-        "around-mcq-15": "「在某事件發生前後的一段時間」是「around the time of X」的用法，與本句語境不同。",
-        "around-mcq-10": "「在某個時間點前後不久」是「around + time」的用法，與本句語境不同。"
+        "around-mcq-13": "本句的「around the corner」指「位於下一個街角／轉角附近」。",
+        "around-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "around-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-13"
     },
@@ -1501,11 +1381,9 @@ export default {
       "masked": "There’s a bus stop ____.",
       "options": [
         "around-mcq-13",
-        "around-mcq-12",
-        "around-mcq-14",
-        "around-mcq-11",
-        "around-mcq-15",
-        "around-mcq-10"
+        "around-mcq-09",
+        "around-mcq-18",
+        "around-mcq-24"
       ],
       "explanation": "本句的「around the corner」指「位於下一個街角／轉角附近」。",
       "sentenceIndex": 30,
@@ -1514,12 +1392,10 @@ export default {
         "around the corner"
       ],
       "optionReasons": {
-        "around-mcq-13": "本句指「位於下一個街角／轉角附近」。",
-        "around-mcq-12": "「在各個方向；四面八方」是「all around」的用法，與本句語境不同。",
-        "around-mcq-14": "「某件事情很快就會發生」是「around the corner — figurative」的用法，與本句語境不同。",
-        "around-mcq-11": "「世界各地／在世界不同地方之間移動」是「around the world」的用法，與本句語境不同。",
-        "around-mcq-15": "「在某事件發生前後的一段時間」是「around the time of X」的用法，與本句語境不同。",
-        "around-mcq-10": "「在某個時間點前後不久」是「around + time」的用法，與本句語境不同。"
+        "around-mcq-13": "本句的「around the corner」指「位於下一個街角／轉角附近」。",
+        "around-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-13"
     },
@@ -1531,11 +1407,9 @@ export default {
       "masked": "Summer is just ____.",
       "options": [
         "around-mcq-14",
-        "around-mcq-13",
-        "around-mcq-15",
-        "around-mcq-12",
-        "around-mcq-16",
-        "around-mcq-11"
+        "around-mcq-25",
+        "around-mcq-08",
+        "around-mcq-24"
       ],
       "explanation": "本句的「around the corner」指「某件事情很快就會發生」。",
       "sentenceIndex": 31,
@@ -1544,12 +1418,10 @@ export default {
         "around the corner"
       ],
       "optionReasons": {
-        "around-mcq-14": "本句指「某件事情很快就會發生」。",
-        "around-mcq-13": "「位於下一個街角／轉角附近」是「around the corner — literal」的用法，與本句語境不同。",
-        "around-mcq-15": "「在某事件發生前後的一段時間」是「around the time of X」的用法，與本句語境不同。",
-        "around-mcq-12": "「在各個方向；四面八方」是「all around」的用法，與本句語境不同。",
-        "around-mcq-16": "「某活動／討論／安排以某主題或人物為中心」是「around — centred on」的用法，與本句語境不同。",
-        "around-mcq-11": "「世界各地／在世界不同地方之間移動」是「around the world」的用法，與本句語境不同。"
+        "around-mcq-14": "本句的「around the corner」指「某件事情很快就會發生」。",
+        "around-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-14"
     },
@@ -1561,11 +1433,9 @@ export default {
       "masked": "The exam is ____.",
       "options": [
         "around-mcq-14",
-        "around-mcq-13",
-        "around-mcq-15",
-        "around-mcq-12",
-        "around-mcq-16",
-        "around-mcq-11"
+        "around-mcq-19",
+        "around-mcq-11",
+        "around-mcq-12"
       ],
       "explanation": "本句的「around the corner」指「某件事情很快就會發生」。",
       "sentenceIndex": 32,
@@ -1574,12 +1444,10 @@ export default {
         "around the corner"
       ],
       "optionReasons": {
-        "around-mcq-14": "本句指「某件事情很快就會發生」。",
-        "around-mcq-13": "「位於下一個街角／轉角附近」是「around the corner — literal」的用法，與本句語境不同。",
-        "around-mcq-15": "「在某事件發生前後的一段時間」是「around the time of X」的用法，與本句語境不同。",
-        "around-mcq-12": "「在各個方向；四面八方」是「all around」的用法，與本句語境不同。",
-        "around-mcq-16": "「某活動／討論／安排以某主題或人物為中心」是「around — centred on」的用法，與本句語境不同。",
-        "around-mcq-11": "「世界各地／在世界不同地方之間移動」是「around the world」的用法，與本句語境不同。"
+        "around-mcq-14": "本句的「around the corner」指「某件事情很快就會發生」。",
+        "around-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-14"
     },
@@ -1591,11 +1459,9 @@ export default {
       "masked": "I met her ____ graduation.",
       "options": [
         "around-mcq-15",
-        "around-mcq-14",
-        "around-mcq-16",
-        "around-mcq-13",
         "around-mcq-17",
-        "around-mcq-12"
+        "around-mcq-06",
+        "around-mcq-18"
       ],
       "explanation": "本句的「around the time of」指「在某事件發生前後的一段時間」。",
       "sentenceIndex": 33,
@@ -1604,12 +1470,10 @@ export default {
         "around the time of"
       ],
       "optionReasons": {
-        "around-mcq-15": "本句指「在某事件發生前後的一段時間」。",
-        "around-mcq-14": "「某件事情很快就會發生」是「around the corner — figurative」的用法，與本句語境不同。",
-        "around-mcq-16": "「某活動／討論／安排以某主題或人物為中心」是「around — centred on」的用法，與本句語境不同。",
-        "around-mcq-13": "「位於下一個街角／轉角附近」是「around the corner — literal」的用法，與本句語境不同。",
-        "around-mcq-17": "「某些資訊、想法或事物正在流傳／存在」是「around — circulating/existing」的用法，與本句語境不同。",
-        "around-mcq-12": "「在各個方向；四面八方」是「all around」的用法，與本句語境不同。"
+        "around-mcq-15": "本句的「around the time of」指「在某事件發生前後的一段時間」。",
+        "around-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-15"
     },
@@ -1621,11 +1485,9 @@ export default {
       "masked": "The change happened ____ she moved.",
       "options": [
         "around-mcq-15",
-        "around-mcq-14",
+        "around-mcq-04",
         "around-mcq-16",
-        "around-mcq-13",
-        "around-mcq-17",
-        "around-mcq-12"
+        "around-mcq-22"
       ],
       "explanation": "本句的「around the time」指「在某事件發生前後的一段時間」。",
       "sentenceIndex": 34,
@@ -1634,12 +1496,10 @@ export default {
         "around the time"
       ],
       "optionReasons": {
-        "around-mcq-15": "本句指「在某事件發生前後的一段時間」。",
-        "around-mcq-14": "「某件事情很快就會發生」是「around the corner — figurative」的用法，與本句語境不同。",
-        "around-mcq-16": "「某活動／討論／安排以某主題或人物為中心」是「around — centred on」的用法，與本句語境不同。",
-        "around-mcq-13": "「位於下一個街角／轉角附近」是「around the corner — literal」的用法，與本句語境不同。",
-        "around-mcq-17": "「某些資訊、想法或事物正在流傳／存在」是「around — circulating/existing」的用法，與本句語境不同。",
-        "around-mcq-12": "「在各個方向；四面八方」是「all around」的用法，與本句語境不同。"
+        "around-mcq-15": "本句的「around the time」指「在某事件發生前後的一段時間」。",
+        "around-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-15"
     },
@@ -1651,11 +1511,9 @@ export default {
       "masked": "The discussion centred ____ education.",
       "options": [
         "around-mcq-16",
-        "around-mcq-15",
-        "around-mcq-17",
-        "around-mcq-14",
-        "around-mcq-18",
-        "around-mcq-13"
+        "around-mcq-19",
+        "around-mcq-24",
+        "around-mcq-09"
       ],
       "explanation": "本句的「around」指「某活動／討論／安排以某主題或人物為中心」。",
       "sentenceIndex": 35,
@@ -1664,12 +1522,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-16": "本句指「某活動／討論／安排以某主題或人物為中心」。",
-        "around-mcq-15": "「在某事件發生前後的一段時間」是「around the time of X」的用法，與本句語境不同。",
-        "around-mcq-17": "「某些資訊、想法或事物正在流傳／存在」是「around — circulating/existing」的用法，與本句語境不同。",
-        "around-mcq-14": "「某件事情很快就會發生」是「around the corner — figurative」的用法，與本句語境不同。",
-        "around-mcq-18": "「改變面向或行進方向」是「turn around — physical」的用法，與本句語境不同。",
-        "around-mcq-13": "「位於下一個街角／轉角附近」是「around the corner — literal」的用法，與本句語境不同。"
+        "around-mcq-16": "本句的「around」指「某活動／討論／安排以某主題或人物為中心」。",
+        "around-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-16"
     },
@@ -1681,11 +1537,9 @@ export default {
       "masked": "Much of her life revolves ____ her family.",
       "options": [
         "around-mcq-16",
-        "around-mcq-15",
-        "around-mcq-17",
-        "around-mcq-14",
-        "around-mcq-18",
-        "around-mcq-13"
+        "around-mcq-22",
+        "around-mcq-21",
+        "around-mcq-06"
       ],
       "explanation": "本句的「around」指「某活動／討論／安排以某主題或人物為中心」。",
       "sentenceIndex": 36,
@@ -1694,12 +1548,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-16": "本句指「某活動／討論／安排以某主題或人物為中心」。",
-        "around-mcq-15": "「在某事件發生前後的一段時間」是「around the time of X」的用法，與本句語境不同。",
-        "around-mcq-17": "「某些資訊、想法或事物正在流傳／存在」是「around — circulating/existing」的用法，與本句語境不同。",
-        "around-mcq-14": "「某件事情很快就會發生」是「around the corner — figurative」的用法，與本句語境不同。",
-        "around-mcq-18": "「改變面向或行進方向」是「turn around — physical」的用法，與本句語境不同。",
-        "around-mcq-13": "「位於下一個街角／轉角附近」是「around the corner — literal」的用法，與本句語境不同。"
+        "around-mcq-16": "本句的「around」指「某活動／討論／安排以某主題或人物為中心」。",
+        "around-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-16"
     },
@@ -1711,11 +1563,9 @@ export default {
       "masked": "There are several versions of the story ____.",
       "options": [
         "around-mcq-17",
-        "around-mcq-16",
         "around-mcq-18",
-        "around-mcq-15",
-        "around-mcq-19",
-        "around-mcq-14"
+        "around-mcq-20",
+        "around-pdf-001"
       ],
       "explanation": "本句的「around」指「某些資訊、想法或事物正在流傳／存在」。",
       "sentenceIndex": 37,
@@ -1724,12 +1574,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-17": "本句指「某些資訊、想法或事物正在流傳／存在」。",
-        "around-mcq-16": "「某活動／討論／安排以某主題或人物為中心」是「around — centred on」的用法，與本句語境不同。",
-        "around-mcq-18": "「改變面向或行進方向」是「turn around — physical」的用法，與本句語境不同。",
-        "around-mcq-15": "「在某事件發生前後的一段時間」是「around the time of X」的用法，與本句語境不同。",
-        "around-mcq-19": "「使壞情況、表現或態度出現明顯逆轉」是「turn around — figurative」的用法，與本句語境不同。",
-        "around-mcq-14": "「某件事情很快就會發生」是「around the corner — figurative」的用法，與本句語境不同。"
+        "around-mcq-17": "本句的「around」指「某些資訊、想法或事物正在流傳／存在」。",
+        "around-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "around-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-17"
     },
@@ -1741,11 +1589,9 @@ export default {
       "masked": "There’s a lot of misinformation ____.",
       "options": [
         "around-mcq-17",
-        "around-mcq-16",
-        "around-mcq-18",
         "around-mcq-15",
-        "around-mcq-19",
-        "around-mcq-14"
+        "around-mcq-04",
+        "around-mcq-07"
       ],
       "explanation": "本句的「around」指「某些資訊、想法或事物正在流傳／存在」。",
       "sentenceIndex": 38,
@@ -1754,12 +1600,10 @@ export default {
         "around"
       ],
       "optionReasons": {
-        "around-mcq-17": "本句指「某些資訊、想法或事物正在流傳／存在」。",
-        "around-mcq-16": "「某活動／討論／安排以某主題或人物為中心」是「around — centred on」的用法，與本句語境不同。",
-        "around-mcq-18": "「改變面向或行進方向」是「turn around — physical」的用法，與本句語境不同。",
-        "around-mcq-15": "「在某事件發生前後的一段時間」是「around the time of X」的用法，與本句語境不同。",
-        "around-mcq-19": "「使壞情況、表現或態度出現明顯逆轉」是「turn around — figurative」的用法，與本句語境不同。",
-        "around-mcq-14": "「某件事情很快就會發生」是「around the corner — figurative」的用法，與本句語境不同。"
+        "around-mcq-17": "本句的「around」指「某些資訊、想法或事物正在流傳／存在」。",
+        "around-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-17"
     },
@@ -1771,11 +1615,9 @@ export default {
       "masked": "She ____ and smiled.",
       "options": [
         "around-mcq-18",
-        "around-mcq-17",
-        "around-mcq-19",
-        "around-mcq-16",
-        "around-mcq-20",
-        "around-mcq-15"
+        "around-mcq-25",
+        "around-mcq-08",
+        "around-pdf-001"
       ],
       "explanation": "本句的「turned around」指「改變面向或行進方向」。",
       "sentenceIndex": 39,
@@ -1784,12 +1626,10 @@ export default {
         "turned around"
       ],
       "optionReasons": {
-        "around-mcq-18": "本句指「改變面向或行進方向」。",
-        "around-mcq-17": "「某些資訊、想法或事物正在流傳／存在」是「around — circulating/existing」的用法，與本句語境不同。",
-        "around-mcq-19": "「使壞情況、表現或態度出現明顯逆轉」是「turn around — figurative」的用法，與本句語境不同。",
-        "around-mcq-16": "「某活動／討論／安排以某主題或人物為中心」是「around — centred on」的用法，與本句語境不同。",
-        "around-mcq-20": "「過來某人家／某地探訪」是「come around — visit」的用法，與本句語境不同。",
-        "around-mcq-15": "「在某事件發生前後的一段時間」是「around the time of X」的用法，與本句語境不同。"
+        "around-mcq-18": "本句的「turned around」指「改變面向或行進方向」。",
+        "around-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "around-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-18"
     },
@@ -1801,11 +1641,9 @@ export default {
       "masked": "The driver ____.",
       "options": [
         "around-mcq-18",
-        "around-mcq-17",
-        "around-mcq-19",
-        "around-mcq-16",
         "around-mcq-20",
-        "around-mcq-15"
+        "around-mcq-06",
+        "around-pdf-001"
       ],
       "explanation": "本句的「turned the car around」指「改變面向或行進方向」。",
       "sentenceIndex": 40,
@@ -1814,12 +1652,10 @@ export default {
         "turned the car around"
       ],
       "optionReasons": {
-        "around-mcq-18": "本句指「改變面向或行進方向」。",
-        "around-mcq-17": "「某些資訊、想法或事物正在流傳／存在」是「around — circulating/existing」的用法，與本句語境不同。",
-        "around-mcq-19": "「使壞情況、表現或態度出現明顯逆轉」是「turn around — figurative」的用法，與本句語境不同。",
-        "around-mcq-16": "「某活動／討論／安排以某主題或人物為中心」是「around — centred on」的用法，與本句語境不同。",
-        "around-mcq-20": "「過來某人家／某地探訪」是「come around — visit」的用法，與本句語境不同。",
-        "around-mcq-15": "「在某事件發生前後的一段時間」是「around the time of X」的用法，與本句語境不同。"
+        "around-mcq-18": "本句的「turned the car around」指「改變面向或行進方向」。",
+        "around-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "around-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-18"
     },
@@ -1831,11 +1667,9 @@ export default {
       "masked": "The company managed to ____ its business.",
       "options": [
         "around-mcq-19",
-        "around-mcq-18",
-        "around-mcq-20",
-        "around-mcq-17",
-        "around-mcq-21",
-        "around-mcq-16"
+        "around-mcq-15",
+        "around-pdf-001",
+        "around-mcq-05"
       ],
       "explanation": "本句的「turn around」指「使壞情況、表現或態度出現明顯逆轉」。",
       "sentenceIndex": 41,
@@ -1844,12 +1678,10 @@ export default {
         "turn around"
       ],
       "optionReasons": {
-        "around-mcq-19": "本句指「使壞情況、表現或態度出現明顯逆轉」。",
-        "around-mcq-18": "「改變面向或行進方向」是「turn around — physical」的用法，與本句語境不同。",
-        "around-mcq-20": "「過來某人家／某地探訪」是「come around — visit」的用法，與本句語境不同。",
-        "around-mcq-17": "「某些資訊、想法或事物正在流傳／存在」是「around — circulating/existing」的用法，與本句語境不同。",
-        "around-mcq-21": "「經過一段時間後改變原有看法」是「come around — opinion」的用法，與本句語境不同。",
-        "around-mcq-16": "「某活動／討論／安排以某主題或人物為中心」是「around — centred on」的用法，與本句語境不同。"
+        "around-mcq-19": "本句的「turn around」指「使壞情況、表現或態度出現明顯逆轉」。",
+        "around-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "around-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-19"
     },
@@ -1861,11 +1693,9 @@ export default {
       "masked": "Her attitude completely ____.",
       "options": [
         "around-mcq-19",
-        "around-mcq-18",
+        "around-mcq-10",
         "around-mcq-20",
-        "around-mcq-17",
-        "around-mcq-21",
-        "around-mcq-16"
+        "around-mcq-25"
       ],
       "explanation": "本句的「turned around」指「使壞情況、表現或態度出現明顯逆轉」。",
       "sentenceIndex": 42,
@@ -1874,12 +1704,10 @@ export default {
         "turned around"
       ],
       "optionReasons": {
-        "around-mcq-19": "本句指「使壞情況、表現或態度出現明顯逆轉」。",
-        "around-mcq-18": "「改變面向或行進方向」是「turn around — physical」的用法，與本句語境不同。",
-        "around-mcq-20": "「過來某人家／某地探訪」是「come around — visit」的用法，與本句語境不同。",
-        "around-mcq-17": "「某些資訊、想法或事物正在流傳／存在」是「around — circulating/existing」的用法，與本句語境不同。",
-        "around-mcq-21": "「經過一段時間後改變原有看法」是「come around — opinion」的用法，與本句語境不同。",
-        "around-mcq-16": "「某活動／討論／安排以某主題或人物為中心」是「around — centred on」的用法，與本句語境不同。"
+        "around-mcq-19": "本句的「turned around」指「使壞情況、表現或態度出現明顯逆轉」。",
+        "around-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-19"
     },
@@ -1891,11 +1719,9 @@ export default {
       "masked": "Why don’t you ____ this afternoon?",
       "options": [
         "around-mcq-20",
-        "around-mcq-19",
-        "around-mcq-21",
-        "around-mcq-18",
-        "around-mcq-22",
-        "around-mcq-17"
+        "around-mcq-15",
+        "around-mcq-12",
+        "around-mcq-25"
       ],
       "explanation": "本句的「come around」指「過來某人家／某地探訪」。",
       "sentenceIndex": 43,
@@ -1904,12 +1730,10 @@ export default {
         "come around"
       ],
       "optionReasons": {
-        "around-mcq-20": "本句指「過來某人家／某地探訪」。",
-        "around-mcq-19": "「使壞情況、表現或態度出現明顯逆轉」是「turn around — figurative」的用法，與本句語境不同。",
-        "around-mcq-21": "「經過一段時間後改變原有看法」是「come around — opinion」的用法，與本句語境不同。",
-        "around-mcq-18": "「改變面向或行進方向」是「turn around — physical」的用法，與本句語境不同。",
-        "around-mcq-22": "「從暈倒／失去意識中恢復清醒」是「come around — consciousness」的用法，與本句語境不同。",
-        "around-mcq-17": "「某些資訊、想法或事物正在流傳／存在」是「around — circulating/existing」的用法，與本句語境不同。"
+        "around-mcq-20": "本句的「come around」指「過來某人家／某地探訪」。",
+        "around-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-20"
     },
@@ -1921,11 +1745,9 @@ export default {
       "masked": "She often ____ on Sundays.",
       "options": [
         "around-mcq-20",
-        "around-mcq-19",
-        "around-mcq-21",
-        "around-mcq-18",
-        "around-mcq-22",
-        "around-mcq-17"
+        "around-mcq-23",
+        "around-pdf-001",
+        "around-mcq-15"
       ],
       "explanation": "本句的「comes around」指「過來某人家／某地探訪」。",
       "sentenceIndex": 44,
@@ -1934,12 +1756,10 @@ export default {
         "comes around"
       ],
       "optionReasons": {
-        "around-mcq-20": "本句指「過來某人家／某地探訪」。",
-        "around-mcq-19": "「使壞情況、表現或態度出現明顯逆轉」是「turn around — figurative」的用法，與本句語境不同。",
-        "around-mcq-21": "「經過一段時間後改變原有看法」是「come around — opinion」的用法，與本句語境不同。",
-        "around-mcq-18": "「改變面向或行進方向」是「turn around — physical」的用法，與本句語境不同。",
-        "around-mcq-22": "「從暈倒／失去意識中恢復清醒」是「come around — consciousness」的用法，與本句語境不同。",
-        "around-mcq-17": "「某些資訊、想法或事物正在流傳／存在」是「around — circulating/existing」的用法，與本句語境不同。"
+        "around-mcq-20": "本句的「comes around」指「過來某人家／某地探訪」。",
+        "around-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "around-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-20"
     },
@@ -1951,11 +1771,9 @@ export default {
       "masked": "He eventually ____ to my point of view.",
       "options": [
         "around-mcq-21",
-        "around-mcq-20",
+        "around-mcq-06",
         "around-mcq-22",
-        "around-mcq-19",
-        "around-mcq-23",
-        "around-mcq-18"
+        "around-mcq-14"
       ],
       "explanation": "本句的「came around」指「經過一段時間後改變原有看法」。",
       "sentenceIndex": 45,
@@ -1964,12 +1782,10 @@ export default {
         "came around"
       ],
       "optionReasons": {
-        "around-mcq-21": "本句指「經過一段時間後改變原有看法」。",
-        "around-mcq-20": "「過來某人家／某地探訪」是「come around — visit」的用法，與本句語境不同。",
-        "around-mcq-22": "「從暈倒／失去意識中恢復清醒」是「come around — consciousness」的用法，與本句語境不同。",
-        "around-mcq-19": "「使壞情況、表現或態度出現明顯逆轉」是「turn around — figurative」的用法，與本句語境不同。",
-        "around-mcq-23": "「在某個地方四處移動／出行」是「get around — movement」的用法，與本句語境不同。",
-        "around-mcq-18": "「改變面向或行進方向」是「turn around — physical」的用法，與本句語境不同。"
+        "around-mcq-21": "本句的「came around」指「經過一段時間後改變原有看法」。",
+        "around-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-21"
     },
@@ -1981,11 +1797,9 @@ export default {
       "masked": "Give her time—she may ____.",
       "options": [
         "around-mcq-21",
-        "around-mcq-20",
-        "around-mcq-22",
-        "around-mcq-19",
-        "around-mcq-23",
-        "around-mcq-18"
+        "around-pdf-001",
+        "around-mcq-14",
+        "around-mcq-01"
       ],
       "explanation": "本句的「come around」指「經過一段時間後改變原有看法」。",
       "sentenceIndex": 46,
@@ -1994,12 +1808,10 @@ export default {
         "come around"
       ],
       "optionReasons": {
-        "around-mcq-21": "本句指「經過一段時間後改變原有看法」。",
-        "around-mcq-20": "「過來某人家／某地探訪」是「come around — visit」的用法，與本句語境不同。",
-        "around-mcq-22": "「從暈倒／失去意識中恢復清醒」是「come around — consciousness」的用法，與本句語境不同。",
-        "around-mcq-19": "「使壞情況、表現或態度出現明顯逆轉」是「turn around — figurative」的用法，與本句語境不同。",
-        "around-mcq-23": "「在某個地方四處移動／出行」是「get around — movement」的用法，與本句語境不同。",
-        "around-mcq-18": "「改變面向或行進方向」是「turn around — physical」的用法，與本句語境不同。"
+        "around-mcq-21": "本句的「come around」指「經過一段時間後改變原有看法」。",
+        "around-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-21"
     },
@@ -2011,11 +1823,9 @@ export default {
       "masked": "She fainted but soon ____.",
       "options": [
         "around-mcq-22",
-        "around-mcq-21",
-        "around-mcq-23",
         "around-mcq-20",
-        "around-mcq-24",
-        "around-mcq-19"
+        "around-pdf-001",
+        "around-mcq-11"
       ],
       "explanation": "本句的「came around」指「從暈倒／失去意識中恢復清醒」。",
       "sentenceIndex": 47,
@@ -2024,12 +1834,10 @@ export default {
         "came around"
       ],
       "optionReasons": {
-        "around-mcq-22": "本句指「從暈倒／失去意識中恢復清醒」。",
-        "around-mcq-21": "「經過一段時間後改變原有看法」是「come around — opinion」的用法，與本句語境不同。",
-        "around-mcq-23": "「在某個地方四處移動／出行」是「get around — movement」的用法，與本句語境不同。",
-        "around-mcq-20": "「過來某人家／某地探訪」是「come around — visit」的用法，與本句語境不同。",
-        "around-mcq-24": "「找方法規避規則、限制或障礙」是「get around — avoid」的用法，與本句語境不同。",
-        "around-mcq-19": "「使壞情況、表現或態度出現明顯逆轉」是「turn around — figurative」的用法，與本句語境不同。"
+        "around-mcq-22": "本句的「came around」指「從暈倒／失去意識中恢復清醒」。",
+        "around-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "around-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-22"
     },
@@ -2041,11 +1849,9 @@ export default {
       "masked": "He slowly ____ after the operation.",
       "options": [
         "around-mcq-22",
-        "around-mcq-21",
-        "around-mcq-23",
-        "around-mcq-20",
-        "around-mcq-24",
-        "around-mcq-19"
+        "around-mcq-04",
+        "around-mcq-07",
+        "around-mcq-17"
       ],
       "explanation": "本句的「came around」指「從暈倒／失去意識中恢復清醒」。",
       "sentenceIndex": 48,
@@ -2054,12 +1860,10 @@ export default {
         "came around"
       ],
       "optionReasons": {
-        "around-mcq-22": "本句指「從暈倒／失去意識中恢復清醒」。",
-        "around-mcq-21": "「經過一段時間後改變原有看法」是「come around — opinion」的用法，與本句語境不同。",
-        "around-mcq-23": "「在某個地方四處移動／出行」是「get around — movement」的用法，與本句語境不同。",
-        "around-mcq-20": "「過來某人家／某地探訪」是「come around — visit」的用法，與本句語境不同。",
-        "around-mcq-24": "「找方法規避規則、限制或障礙」是「get around — avoid」的用法，與本句語境不同。",
-        "around-mcq-19": "「使壞情況、表現或態度出現明顯逆轉」是「turn around — figurative」的用法，與本句語境不同。"
+        "around-mcq-22": "本句的「came around」指「從暈倒／失去意識中恢復清醒」。",
+        "around-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-22"
     },
@@ -2071,11 +1875,9 @@ export default {
       "masked": "It’s easy to ____ the city by train.",
       "options": [
         "around-mcq-23",
-        "around-mcq-22",
-        "around-mcq-24",
-        "around-mcq-21",
+        "around-mcq-07",
         "around-mcq-25",
-        "around-mcq-20"
+        "around-mcq-21"
       ],
       "explanation": "本句的「get around」指「在某個地方四處移動／出行」。",
       "sentenceIndex": 49,
@@ -2084,12 +1886,10 @@ export default {
         "get around"
       ],
       "optionReasons": {
-        "around-mcq-23": "本句指「在某個地方四處移動／出行」。",
-        "around-mcq-22": "「從暈倒／失去意識中恢復清醒」是「come around — consciousness」的用法，與本句語境不同。",
-        "around-mcq-24": "「找方法規避規則、限制或障礙」是「get around — avoid」的用法，與本句語境不同。",
-        "around-mcq-21": "「經過一段時間後改變原有看法」是「come around — opinion」的用法，與本句語境不同。",
-        "around-mcq-25": "「消息或資訊在人與人之間傳開」是「get around — spread」的用法，與本句語境不同。",
-        "around-mcq-20": "「過來某人家／某地探訪」是「come around — visit」的用法，與本句語境不同。"
+        "around-mcq-23": "本句的「get around」指「在某個地方四處移動／出行」。",
+        "around-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-23"
     },
@@ -2101,9 +1901,7 @@ export default {
       "masked": "She has difficulty ____ these days.",
       "options": [
         "around-mcq-23",
-        "around-mcq-22",
-        "around-mcq-24",
-        "around-mcq-21",
+        "around-mcq-07",
         "around-mcq-25",
         "around-mcq-20"
       ],
@@ -2114,12 +1912,10 @@ export default {
         "getting around"
       ],
       "optionReasons": {
-        "around-mcq-23": "本句指「在某個地方四處移動／出行」。",
-        "around-mcq-22": "「從暈倒／失去意識中恢復清醒」是「come around — consciousness」的用法，與本句語境不同。",
-        "around-mcq-24": "「找方法規避規則、限制或障礙」是「get around — avoid」的用法，與本句語境不同。",
-        "around-mcq-21": "「經過一段時間後改變原有看法」是「come around — opinion」的用法，與本句語境不同。",
-        "around-mcq-25": "「消息或資訊在人與人之間傳開」是「get around — spread」的用法，與本句語境不同。",
-        "around-mcq-20": "「過來某人家／某地探訪」是「come around — visit」的用法，與本句語境不同。"
+        "around-mcq-23": "本句的「getting around」指「在某個地方四處移動／出行」。",
+        "around-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-23"
     },
@@ -2131,11 +1927,9 @@ export default {
       "masked": "They found a way to ____ the rule.",
       "options": [
         "around-mcq-24",
-        "around-mcq-23",
-        "around-mcq-25",
-        "around-mcq-22",
-        "around-mcq-21",
-        "around-mcq-20"
+        "around-mcq-04",
+        "around-mcq-20",
+        "around-mcq-12"
       ],
       "explanation": "本句的「get around」指「找方法規避規則、限制或障礙」。",
       "sentenceIndex": 51,
@@ -2144,12 +1938,10 @@ export default {
         "get around"
       ],
       "optionReasons": {
-        "around-mcq-24": "本句指「找方法規避規則、限制或障礙」。",
-        "around-mcq-23": "「在某個地方四處移動／出行」是「get around — movement」的用法，與本句語境不同。",
-        "around-mcq-25": "「消息或資訊在人與人之間傳開」是「get around — spread」的用法，與本句語境不同。",
-        "around-mcq-22": "「從暈倒／失去意識中恢復清醒」是「come around — consciousness」的用法，與本句語境不同。",
-        "around-mcq-21": "「經過一段時間後改變原有看法」是「come around — opinion」的用法，與本句語境不同。",
-        "around-mcq-20": "「過來某人家／某地探訪」是「come around — visit」的用法，與本句語境不同。"
+        "around-mcq-24": "本句的「get around」指「找方法規避規則、限制或障礙」。",
+        "around-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-24"
     },
@@ -2161,10 +1953,8 @@ export default {
       "masked": "There’s no easy way to ____ this problem.",
       "options": [
         "around-mcq-24",
-        "around-mcq-23",
-        "around-mcq-25",
-        "around-mcq-22",
-        "around-mcq-21",
+        "around-mcq-14",
+        "around-mcq-06",
         "around-mcq-20"
       ],
       "explanation": "本句的「get around」指「找方法規避規則、限制或障礙」。",
@@ -2174,12 +1964,10 @@ export default {
         "get around"
       ],
       "optionReasons": {
-        "around-mcq-24": "本句指「找方法規避規則、限制或障礙」。",
-        "around-mcq-23": "「在某個地方四處移動／出行」是「get around — movement」的用法，與本句語境不同。",
-        "around-mcq-25": "「消息或資訊在人與人之間傳開」是「get around — spread」的用法，與本句語境不同。",
-        "around-mcq-22": "「從暈倒／失去意識中恢復清醒」是「come around — consciousness」的用法，與本句語境不同。",
-        "around-mcq-21": "「經過一段時間後改變原有看法」是「come around — opinion」的用法，與本句語境不同。",
-        "around-mcq-20": "「過來某人家／某地探訪」是「come around — visit」的用法，與本句語境不同。"
+        "around-mcq-24": "本句的「get around」指「找方法規避規則、限制或障礙」。",
+        "around-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-24"
     },
@@ -2191,11 +1979,9 @@ export default {
       "masked": "News ____ quickly.",
       "options": [
         "around-mcq-25",
-        "around-mcq-24",
-        "around-mcq-23",
-        "around-mcq-22",
-        "around-mcq-21",
-        "around-mcq-20"
+        "around-mcq-13",
+        "around-mcq-19",
+        "around-mcq-24"
       ],
       "explanation": "本句的「gets around」指「消息或資訊在人與人之間傳開」。",
       "sentenceIndex": 53,
@@ -2204,12 +1990,10 @@ export default {
         "gets around"
       ],
       "optionReasons": {
-        "around-mcq-25": "本句指「消息或資訊在人與人之間傳開」。",
-        "around-mcq-24": "「找方法規避規則、限制或障礙」是「get around — avoid」的用法，與本句語境不同。",
-        "around-mcq-23": "「在某個地方四處移動／出行」是「get around — movement」的用法，與本句語境不同。",
-        "around-mcq-22": "「從暈倒／失去意識中恢復清醒」是「come around — consciousness」的用法，與本句語境不同。",
-        "around-mcq-21": "「經過一段時間後改變原有看法」是「come around — opinion」的用法，與本句語境不同。",
-        "around-mcq-20": "「過來某人家／某地探訪」是「come around — visit」的用法，與本句語境不同。"
+        "around-mcq-25": "本句的「gets around」指「消息或資訊在人與人之間傳開」。",
+        "around-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-25"
     },
@@ -2221,11 +2005,9 @@ export default {
       "masked": "Word soon ____ that she was leaving.",
       "options": [
         "around-mcq-25",
-        "around-mcq-24",
-        "around-mcq-23",
-        "around-mcq-22",
-        "around-mcq-21",
-        "around-mcq-20"
+        "around-mcq-12",
+        "around-mcq-19",
+        "around-pdf-001"
       ],
       "explanation": "本句的「got around」指「消息或資訊在人與人之間傳開」。",
       "sentenceIndex": 54,
@@ -2234,12 +2016,10 @@ export default {
         "got around"
       ],
       "optionReasons": {
-        "around-mcq-25": "本句指「消息或資訊在人與人之間傳開」。",
-        "around-mcq-24": "「找方法規避規則、限制或障礙」是「get around — avoid」的用法，與本句語境不同。",
-        "around-mcq-23": "「在某個地方四處移動／出行」是「get around — movement」的用法，與本句語境不同。",
-        "around-mcq-22": "「從暈倒／失去意識中恢復清醒」是「come around — consciousness」的用法，與本句語境不同。",
-        "around-mcq-21": "「經過一段時間後改變原有看法」是「come around — opinion」的用法，與本句語境不同。",
-        "around-mcq-20": "「過來某人家／某地探訪」是「come around — visit」的用法，與本句語境不同。"
+        "around-mcq-25": "本句的「got around」指「消息或資訊在人與人之間傳開」。",
+        "around-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "around-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "around-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "around-mcq-25"
     }
@@ -2251,5 +2031,7 @@ export default {
     "sha256": "91b0cd41bdc6338f524381686504d60684dbb2866e37eaacd6e8b94518c82d69",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

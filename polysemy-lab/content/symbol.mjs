@@ -195,10 +195,6 @@ export default {
       "masked": "The turtle seemed like a living ____ of patience and balance.",
       "options": [
         "symbol-mcq-01",
-        "symbol-mcq-02",
-        "symbol-mcq-03",
-        "symbol-mcq-04",
-        "symbol-mcq-05",
         "symbol-mcq-06"
       ],
       "explanation": "本句的「symbol」指「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」。",
@@ -208,12 +204,8 @@ export default {
         "symbol"
       ],
       "optionReasons": {
-        "symbol-mcq-01": "本句指「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」。",
-        "symbol-mcq-02": "「用來代表資訊、數值、概念、操作或對象的圖形／記號」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。"
+        "symbol-mcq-01": "本句的「symbol」指「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」。",
+        "symbol-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-01"
     },
@@ -225,10 +217,6 @@ export default {
       "masked": "The dove is commonly used as a ____ of peace.",
       "options": [
         "symbol-mcq-01",
-        "symbol-mcq-02",
-        "symbol-mcq-03",
-        "symbol-mcq-04",
-        "symbol-mcq-05",
         "symbol-mcq-06"
       ],
       "explanation": "本句的「symbol」指「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」。",
@@ -238,12 +226,8 @@ export default {
         "symbol"
       ],
       "optionReasons": {
-        "symbol-mcq-01": "本句指「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」。",
-        "symbol-mcq-02": "「用來代表資訊、數值、概念、操作或對象的圖形／記號」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。"
+        "symbol-mcq-01": "本句的「symbol」指「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」。",
+        "symbol-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-01"
     },
@@ -255,10 +239,6 @@ export default {
       "masked": "The building became a ____ of the city’s renewal.",
       "options": [
         "symbol-mcq-01",
-        "symbol-mcq-02",
-        "symbol-mcq-03",
-        "symbol-mcq-04",
-        "symbol-mcq-05",
         "symbol-mcq-06"
       ],
       "explanation": "本句的「symbol」指「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」。",
@@ -268,12 +248,8 @@ export default {
         "symbol"
       ],
       "optionReasons": {
-        "symbol-mcq-01": "本句指「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」。",
-        "symbol-mcq-02": "「用來代表資訊、數值、概念、操作或對象的圖形／記號」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。"
+        "symbol-mcq-01": "本句的「symbol」指「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」。",
+        "symbol-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-01"
     },
@@ -285,11 +261,7 @@ export default {
       "masked": "The dollar ____ is $.",
       "options": [
         "symbol-mcq-02",
-        "symbol-mcq-01",
-        "symbol-mcq-03",
-        "symbol-mcq-04",
-        "symbol-mcq-05",
-        "symbol-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「symbol」指「用來代表資訊、數值、概念、操作或對象的圖形／記號」。",
       "sentenceIndex": 3,
@@ -298,12 +270,8 @@ export default {
         "symbol"
       ],
       "optionReasons": {
-        "symbol-mcq-02": "本句指「用來代表資訊、數值、概念、操作或對象的圖形／記號」。",
-        "symbol-mcq-01": "「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。"
+        "symbol-mcq-02": "本句的「symbol」指「用來代表資訊、數值、概念、操作或對象的圖形／記號」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-02"
     },
@@ -315,11 +283,7 @@ export default {
       "masked": "Use the correct mathematical ____.",
       "options": [
         "symbol-mcq-02",
-        "symbol-mcq-01",
-        "symbol-mcq-03",
-        "symbol-mcq-04",
-        "symbol-mcq-05",
-        "symbol-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「symbol」指「用來代表資訊、數值、概念、操作或對象的圖形／記號」。",
       "sentenceIndex": 4,
@@ -328,12 +292,8 @@ export default {
         "symbol"
       ],
       "optionReasons": {
-        "symbol-mcq-02": "本句指「用來代表資訊、數值、概念、操作或對象的圖形／記號」。",
-        "symbol-mcq-01": "「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。"
+        "symbol-mcq-02": "本句的「symbol」指「用來代表資訊、數值、概念、操作或對象的圖形／記號」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-02"
     },
@@ -345,11 +305,7 @@ export default {
       "masked": "H is the chemical ____ for hydrogen.",
       "options": [
         "symbol-mcq-02",
-        "symbol-mcq-01",
-        "symbol-mcq-03",
-        "symbol-mcq-04",
-        "symbol-mcq-05",
-        "symbol-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「symbol」指「用來代表資訊、數值、概念、操作或對象的圖形／記號」。",
       "sentenceIndex": 5,
@@ -358,12 +314,8 @@ export default {
         "symbol"
       ],
       "optionReasons": {
-        "symbol-mcq-02": "本句指「用來代表資訊、數值、概念、操作或對象的圖形／記號」。",
-        "symbol-mcq-01": "「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。"
+        "symbol-mcq-02": "本句的「symbol」指「用來代表資訊、數值、概念、操作或對象的圖形／記號」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-02"
     },
@@ -375,11 +327,7 @@ export default {
       "masked": "The map uses different ____ for hospitals and stations.",
       "options": [
         "symbol-mcq-02",
-        "symbol-mcq-01",
-        "symbol-mcq-03",
-        "symbol-mcq-04",
-        "symbol-mcq-05",
-        "symbol-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「symbols」指「用來代表資訊、數值、概念、操作或對象的圖形／記號」。",
       "sentenceIndex": 6,
@@ -388,12 +336,8 @@ export default {
         "symbols"
       ],
       "optionReasons": {
-        "symbol-mcq-02": "本句指「用來代表資訊、數值、概念、操作或對象的圖形／記號」。",
-        "symbol-mcq-01": "「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。"
+        "symbol-mcq-02": "本句的「symbols」指「用來代表資訊、數值、概念、操作或對象的圖形／記號」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-02"
     },
@@ -405,11 +349,7 @@ export default {
       "masked": "The flower is an important cultural ____.",
       "options": [
         "symbol-mcq-03",
-        "symbol-mcq-02",
-        "symbol-mcq-04",
-        "symbol-mcq-01",
-        "symbol-mcq-05",
-        "symbol-mcq-06"
+        "symbol-mcq-07"
       ],
       "explanation": "本句的「symbol」指「用來代表或識別群體、機構、文化等的標誌；與」。",
       "sentenceIndex": 7,
@@ -418,12 +358,8 @@ export default {
         "symbol"
       ],
       "optionReasons": {
-        "symbol-mcq-03": "本句指「用來代表或識別群體、機構、文化等的標誌；與」。",
-        "symbol-mcq-02": "「用來代表資訊、數值、概念、操作或對象的圖形／記號」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-01": "「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」與本句語境不同。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。"
+        "symbol-mcq-03": "本句的「symbol」指「用來代表或識別群體、機構、文化等的標誌；與」。",
+        "symbol-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-03"
     },
@@ -435,11 +371,7 @@ export default {
       "masked": "The logo became a recognizable ____ of the organization.",
       "options": [
         "symbol-mcq-03",
-        "symbol-mcq-02",
-        "symbol-mcq-04",
-        "symbol-mcq-01",
-        "symbol-mcq-05",
-        "symbol-mcq-06"
+        "symbol-mcq-07"
       ],
       "explanation": "本句的「symbol」指「用來代表或識別群體、機構、文化等的標誌；與」。",
       "sentenceIndex": 8,
@@ -448,12 +380,8 @@ export default {
         "symbol"
       ],
       "optionReasons": {
-        "symbol-mcq-03": "本句指「用來代表或識別群體、機構、文化等的標誌；與」。",
-        "symbol-mcq-02": "「用來代表資訊、數值、概念、操作或對象的圖形／記號」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-01": "「透過人物、動物、物件或形象代表另一個較抽象的概念、價值或特質」與本句語境不同。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。"
+        "symbol-mcq-03": "本句的「symbol」指「用來代表或識別群體、機構、文化等的標誌；與」。",
+        "symbol-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-03"
     },
@@ -465,11 +393,7 @@ export default {
       "masked": "The journey has a ____ meaning.",
       "options": [
         "symbol-mcq-05",
-        "symbol-mcq-04",
-        "symbol-mcq-06",
-        "symbol-mcq-03",
-        "symbol-mcq-07",
-        "symbol-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「symbolic」指「具有象徵意義、代表更深層概念的」。",
       "sentenceIndex": 9,
@@ -478,12 +402,8 @@ export default {
         "symbolic"
       ],
       "optionReasons": {
-        "symbol-mcq-05": "本句指「具有象徵意義、代表更深層概念的」。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。",
-        "symbol-mcq-07": "「作為某個概念、價值或特質的象徵」與本句語境不同。",
-        "symbol-mcq-02": "「用來代表資訊、數值、概念、操作或對象的圖形／記號」與本句語境不同。"
+        "symbol-mcq-05": "本句的「symbolic」指「具有象徵意義、代表更深層概念的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-05"
     },
@@ -495,11 +415,7 @@ export default {
       "masked": "The turtle became ____ of patience.",
       "options": [
         "symbol-mcq-05",
-        "symbol-mcq-04",
-        "symbol-mcq-06",
-        "symbol-mcq-03",
-        "symbol-mcq-07",
-        "symbol-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「symbolic」指「具有象徵意義、代表更深層概念的」。",
       "sentenceIndex": 10,
@@ -508,12 +424,8 @@ export default {
         "symbolic"
       ],
       "optionReasons": {
-        "symbol-mcq-05": "本句指「具有象徵意義、代表更深層概念的」。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。",
-        "symbol-mcq-07": "「作為某個概念、價值或特質的象徵」與本句語境不同。",
-        "symbol-mcq-02": "「用來代表資訊、數值、概念、操作或對象的圖形／記號」與本句語境不同。"
+        "symbol-mcq-05": "本句的「symbolic」指「具有象徵意義、代表更深層概念的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-05"
     },
@@ -525,11 +437,7 @@ export default {
       "masked": "The payment was largely ____.",
       "options": [
         "symbol-mcq-06",
-        "symbol-mcq-05",
-        "symbol-mcq-07",
-        "symbol-mcq-04",
-        "symbol-mcq-08",
-        "symbol-mcq-03"
+        "symbol-mcq-01"
       ],
       "explanation": "本句的「symbolic」指「主要用來表達態度或意義，而實際效果有限的；象徵性的」。",
       "sentenceIndex": 11,
@@ -538,12 +446,8 @@ export default {
         "symbolic"
       ],
       "optionReasons": {
-        "symbol-mcq-06": "本句指「主要用來表達態度或意義，而實際效果有限的；象徵性的」。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-07": "「作為某個概念、價值或特質的象徵」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-08": "「運用具體事物表達深層概念的象徵手法／象徵意義」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。"
+        "symbol-mcq-06": "本句的「symbolic」指「主要用來表達態度或意義，而實際效果有限的；象徵性的」。",
+        "symbol-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-06"
     },
@@ -555,11 +459,7 @@ export default {
       "masked": "They made a ____ gesture of support.",
       "options": [
         "symbol-mcq-06",
-        "symbol-mcq-05",
-        "symbol-mcq-07",
-        "symbol-mcq-04",
-        "symbol-mcq-08",
-        "symbol-mcq-03"
+        "symbol-mcq-01"
       ],
       "explanation": "本句的「symbolic」指「主要用來表達態度或意義，而實際效果有限的；象徵性的」。",
       "sentenceIndex": 12,
@@ -568,12 +468,8 @@ export default {
         "symbolic"
       ],
       "optionReasons": {
-        "symbol-mcq-06": "本句指「主要用來表達態度或意義，而實際效果有限的；象徵性的」。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-07": "「作為某個概念、價值或特質的象徵」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-08": "「運用具體事物表達深層概念的象徵手法／象徵意義」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。"
+        "symbol-mcq-06": "本句的「symbolic」指「主要用來表達態度或意義，而實際效果有限的；象徵性的」。",
+        "symbol-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-06"
     },
@@ -585,10 +481,6 @@ export default {
       "masked": "The story contains a lot of ____.",
       "options": [
         "symbol-mcq-08",
-        "symbol-mcq-07",
-        "symbol-mcq-06",
-        "symbol-mcq-05",
-        "symbol-mcq-04",
         "symbol-mcq-03"
       ],
       "explanation": "本句的「symbolism」指「運用具體事物表達深層概念的象徵手法／象徵意義」。",
@@ -598,12 +490,8 @@ export default {
         "symbolism"
       ],
       "optionReasons": {
-        "symbol-mcq-08": "本句指「運用具體事物表達深層概念的象徵手法／象徵意義」。",
-        "symbol-mcq-07": "「作為某個概念、價值或特質的象徵」與本句語境不同。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。"
+        "symbol-mcq-08": "本句的「symbolism」指「運用具體事物表達深層概念的象徵手法／象徵意義」。",
+        "symbol-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-08"
     },
@@ -615,10 +503,6 @@ export default {
       "masked": "Water has important ____ in the poem.",
       "options": [
         "symbol-mcq-08",
-        "symbol-mcq-07",
-        "symbol-mcq-06",
-        "symbol-mcq-05",
-        "symbol-mcq-04",
         "symbol-mcq-03"
       ],
       "explanation": "本句的「symbolism」指「運用具體事物表達深層概念的象徵手法／象徵意義」。",
@@ -628,12 +512,8 @@ export default {
         "symbolism"
       ],
       "optionReasons": {
-        "symbol-mcq-08": "本句指「運用具體事物表達深層概念的象徵手法／象徵意義」。",
-        "symbol-mcq-07": "「作為某個概念、價值或特質的象徵」與本句語境不同。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。"
+        "symbol-mcq-08": "本句的「symbolism」指「運用具體事物表達深層概念的象徵手法／象徵意義」。",
+        "symbol-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-08"
     },
@@ -645,10 +525,6 @@ export default {
       "masked": "The tree ____ growth and renewal.",
       "options": [
         "symbol-mcq-07",
-        "symbol-mcq-06",
-        "symbol-mcq-08",
-        "symbol-mcq-05",
-        "symbol-mcq-04",
         "symbol-mcq-03"
       ],
       "explanation": "本句的「symbolizes」指「作為某個概念、價值或特質的象徵」。",
@@ -658,12 +534,8 @@ export default {
         "symbolizes"
       ],
       "optionReasons": {
-        "symbol-mcq-07": "本句指「作為某個概念、價值或特質的象徵」。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。",
-        "symbol-mcq-08": "「運用具體事物表達深層概念的象徵手法／象徵意義」與本句語境不同。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。"
+        "symbol-mcq-07": "本句的「symbolizes」指「作為某個概念、價值或特質的象徵」。",
+        "symbol-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-07"
     },
@@ -675,10 +547,6 @@ export default {
       "masked": "For him, the turtle ____ patience.",
       "options": [
         "symbol-mcq-07",
-        "symbol-mcq-06",
-        "symbol-mcq-08",
-        "symbol-mcq-05",
-        "symbol-mcq-04",
         "symbol-mcq-03"
       ],
       "explanation": "本句的「symbolized」指「作為某個概念、價值或特質的象徵」。",
@@ -688,12 +556,8 @@ export default {
         "symbolized"
       ],
       "optionReasons": {
-        "symbol-mcq-07": "本句指「作為某個概念、價值或特質的象徵」。",
-        "symbol-mcq-06": "「主要用來表達態度或意義，而實際效果有限的；象徵性的」與本句語境不同。",
-        "symbol-mcq-08": "「運用具體事物表達深層概念的象徵手法／象徵意義」與本句語境不同。",
-        "symbol-mcq-05": "「具有象徵意義、代表更深層概念的」與本句語境不同。",
-        "symbol-mcq-04": "「義相關」與本句語境不同。",
-        "symbol-mcq-03": "「用來代表或識別群體、機構、文化等的標誌；與」與本句語境不同。"
+        "symbol-mcq-07": "本句的「symbolized」指「作為某個概念、價值或特質的象徵」。",
+        "symbol-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "symbol-mcq-07"
     }
@@ -705,5 +569,12 @@ export default {
     "sha256": "58b4bc18d60ba8788aff8910f64746ff9e54b20f7828080cff3e66cee1c77f07",
     "pages": 11
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

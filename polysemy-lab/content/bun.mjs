@@ -174,10 +174,6 @@ export default {
       "masked": "I went in for a coffee and a ____.",
       "options": [
         "bun-mcq-01",
-        "bun-mcq-02",
-        "bun-mcq-03",
-        "bun-mcq-04",
-        "bun-mcq-05",
         "bun-mcq-06"
       ],
       "explanation": "本句的「bun」指「小型、單份、通常圓形的麵包」。",
@@ -187,12 +183,8 @@ export default {
         "bun"
       ],
       "optionReasons": {
-        "bun-mcq-01": "本句指「小型、單份、通常圓形的麵包」。",
-        "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
-        "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
-        "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
-        "bun-mcq-05": "「把頭髮盤成圓形並固定在頭後或頭頂的髮型」與本句語境不同。",
-        "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。"
+        "bun-mcq-01": "本句的「bun」指「小型、單份、通常圓形的麵包」。",
+        "bun-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-mcq-01"
     },
@@ -204,10 +196,6 @@ export default {
       "masked": "She bought two fresh ____ from the bakery.",
       "options": [
         "bun-mcq-01",
-        "bun-mcq-02",
-        "bun-mcq-03",
-        "bun-mcq-04",
-        "bun-mcq-05",
         "bun-mcq-06"
       ],
       "explanation": "本句的「buns」指「小型、單份、通常圓形的麵包」。",
@@ -217,12 +205,8 @@ export default {
         "buns"
       ],
       "optionReasons": {
-        "bun-mcq-01": "本句指「小型、單份、通常圓形的麵包」。",
-        "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
-        "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
-        "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
-        "bun-mcq-05": "「把頭髮盤成圓形並固定在頭後或頭頂的髮型」與本句語境不同。",
-        "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。"
+        "bun-mcq-01": "本句的「buns」指「小型、單份、通常圓形的麵包」。",
+        "bun-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-mcq-01"
     },
@@ -234,10 +218,6 @@ export default {
       "masked": "The ____ were soft and warm.",
       "options": [
         "bun-mcq-01",
-        "bun-mcq-02",
-        "bun-mcq-03",
-        "bun-mcq-04",
-        "bun-mcq-05",
         "bun-mcq-06"
       ],
       "explanation": "本句的「buns」指「小型、單份、通常圓形的麵包」。",
@@ -247,12 +227,8 @@ export default {
         "buns"
       ],
       "optionReasons": {
-        "bun-mcq-01": "本句指「小型、單份、通常圓形的麵包」。",
-        "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
-        "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
-        "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
-        "bun-mcq-05": "「把頭髮盤成圓形並固定在頭後或頭頂的髮型」與本句語境不同。",
-        "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。"
+        "bun-mcq-01": "本句的「buns」指「小型、單份、通常圓形的麵包」。",
+        "bun-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-mcq-01"
     },
@@ -264,11 +240,8 @@ export default {
       "masked": "He ordered a cinnamon ____.",
       "options": [
         "bun-mcq-02",
-        "bun-mcq-01",
-        "bun-mcq-03",
-        "bun-mcq-04",
-        "bun-mcq-05",
-        "bun-mcq-06"
+        "bun-mcq-06",
+        "bun-pdf-001"
       ],
       "explanation": "本句的「bun」指「帶甜味、香料或餡料的小型麵包」。",
       "sentenceIndex": 3,
@@ -277,12 +250,9 @@ export default {
         "bun"
       ],
       "optionReasons": {
-        "bun-mcq-02": "本句指「帶甜味、香料或餡料的小型麵包」。",
-        "bun-mcq-01": "「小型、單份、通常圓形的麵包」與本句語境不同。",
-        "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
-        "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
-        "bun-mcq-05": "「把頭髮盤成圓形並固定在頭後或頭頂的髮型」與本句語境不同。",
-        "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。"
+        "bun-mcq-02": "本句的「bun」指「帶甜味、香料或餡料的小型麵包」。",
+        "bun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bun-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-mcq-02"
     },
@@ -294,11 +264,8 @@ export default {
       "masked": "The bakery sells ____ filled with cream.",
       "options": [
         "bun-mcq-02",
-        "bun-mcq-01",
-        "bun-mcq-03",
-        "bun-mcq-04",
-        "bun-mcq-05",
-        "bun-mcq-06"
+        "bun-mcq-06",
+        "bun-pdf-001"
       ],
       "explanation": "本句的「buns」指「帶甜味、香料或餡料的小型麵包」。",
       "sentenceIndex": 4,
@@ -307,12 +274,9 @@ export default {
         "buns"
       ],
       "optionReasons": {
-        "bun-mcq-02": "本句指「帶甜味、香料或餡料的小型麵包」。",
-        "bun-mcq-01": "「小型、單份、通常圓形的麵包」與本句語境不同。",
-        "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
-        "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
-        "bun-mcq-05": "「把頭髮盤成圓形並固定在頭後或頭頂的髮型」與本句語境不同。",
-        "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。"
+        "bun-mcq-02": "本句的「buns」指「帶甜味、香料或餡料的小型麵包」。",
+        "bun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bun-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-mcq-02"
     },
@@ -324,10 +288,6 @@ export default {
       "masked": "The burger comes in a toasted ____.",
       "options": [
         "bun-mcq-03",
-        "bun-mcq-02",
-        "bun-mcq-04",
-        "bun-mcq-01",
-        "bun-mcq-05",
         "bun-mcq-06"
       ],
       "explanation": "本句的「bun」指「用來夾漢堡肉和配料的圓形麵包」。",
@@ -337,12 +297,8 @@ export default {
         "bun"
       ],
       "optionReasons": {
-        "bun-mcq-03": "本句指「用來夾漢堡肉和配料的圓形麵包」。",
-        "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
-        "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
-        "bun-mcq-01": "「小型、單份、通常圓形的麵包」與本句語境不同。",
-        "bun-mcq-05": "「把頭髮盤成圓形並固定在頭後或頭頂的髮型」與本句語境不同。",
-        "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。"
+        "bun-mcq-03": "本句的「bun」指「用來夾漢堡肉和配料的圓形麵包」。",
+        "bun-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-mcq-03"
     },
@@ -354,10 +310,6 @@ export default {
       "masked": "The ____ are made fresh every morning.",
       "options": [
         "bun-mcq-03",
-        "bun-mcq-02",
-        "bun-mcq-04",
-        "bun-mcq-01",
-        "bun-mcq-05",
         "bun-mcq-06"
       ],
       "explanation": "本句的「buns」指「用來夾漢堡肉和配料的圓形麵包」。",
@@ -367,12 +319,8 @@ export default {
         "buns"
       ],
       "optionReasons": {
-        "bun-mcq-03": "本句指「用來夾漢堡肉和配料的圓形麵包」。",
-        "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
-        "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
-        "bun-mcq-01": "「小型、單份、通常圓形的麵包」與本句語境不同。",
-        "bun-mcq-05": "「把頭髮盤成圓形並固定在頭後或頭頂的髮型」與本句語境不同。",
-        "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。"
+        "bun-mcq-03": "本句的「buns」指「用來夾漢堡肉和配料的圓形麵包」。",
+        "bun-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-mcq-03"
     },
@@ -384,11 +332,8 @@ export default {
       "masked": "Put the sausage in the ____.",
       "options": [
         "bun-mcq-04",
-        "bun-mcq-03",
-        "bun-mcq-05",
-        "bun-mcq-02",
         "bun-mcq-06",
-        "bun-mcq-01"
+        "bun-mcq-05"
       ],
       "explanation": "本句的「hot dog bun」指「用來夾香腸的長形麵包」。",
       "sentenceIndex": 7,
@@ -397,12 +342,9 @@ export default {
         "hot dog bun"
       ],
       "optionReasons": {
-        "bun-mcq-04": "本句指「用來夾香腸的長形麵包」。",
-        "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
-        "bun-mcq-05": "「把頭髮盤成圓形並固定在頭後或頭頂的髮型」與本句語境不同。",
-        "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
-        "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。",
-        "bun-mcq-01": "「小型、單份、通常圓形的麵包」與本句語境不同。"
+        "bun-mcq-04": "本句的「hot dog bun」指「用來夾香腸的長形麵包」。",
+        "bun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bun-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-mcq-04"
     },
@@ -414,11 +356,8 @@ export default {
       "masked": "The shop sells soft hot dog ____.",
       "options": [
         "bun-mcq-04",
-        "bun-mcq-03",
-        "bun-mcq-05",
-        "bun-mcq-02",
         "bun-mcq-06",
-        "bun-mcq-01"
+        "bun-mcq-05"
       ],
       "explanation": "本句的「buns」指「用來夾香腸的長形麵包」。",
       "sentenceIndex": 8,
@@ -427,12 +366,9 @@ export default {
         "buns"
       ],
       "optionReasons": {
-        "bun-mcq-04": "本句指「用來夾香腸的長形麵包」。",
-        "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
-        "bun-mcq-05": "「把頭髮盤成圓形並固定在頭後或頭頂的髮型」與本句語境不同。",
-        "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
-        "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。",
-        "bun-mcq-01": "「小型、單份、通常圓形的麵包」與本句語境不同。"
+        "bun-mcq-04": "本句的「buns」指「用來夾香腸的長形麵包」。",
+        "bun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bun-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-mcq-04"
     },
@@ -444,11 +380,8 @@ export default {
       "masked": "She wore her hair in a ____.",
       "options": [
         "bun-mcq-05",
-        "bun-mcq-04",
         "bun-mcq-06",
-        "bun-mcq-03",
-        "bun-mcq-02",
-        "bun-mcq-01"
+        "bun-mcq-04"
       ],
       "explanation": "本句的「bun」指「把頭髮盤成圓形並固定在頭後或頭頂的髮型」。",
       "sentenceIndex": 9,
@@ -457,12 +390,9 @@ export default {
         "bun"
       ],
       "optionReasons": {
-        "bun-mcq-05": "本句指「把頭髮盤成圓形並固定在頭後或頭頂的髮型」。",
-        "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
-        "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。",
-        "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
-        "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
-        "bun-mcq-01": "「小型、單份、通常圓形的麵包」與本句語境不同。"
+        "bun-mcq-05": "本句的「bun」指「把頭髮盤成圓形並固定在頭後或頭頂的髮型」。",
+        "bun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bun-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-mcq-05"
     },
@@ -474,11 +404,8 @@ export default {
       "masked": "The dancer tied her hair into a neat ____.",
       "options": [
         "bun-mcq-05",
-        "bun-mcq-04",
         "bun-mcq-06",
-        "bun-mcq-03",
-        "bun-mcq-02",
-        "bun-mcq-01"
+        "bun-mcq-04"
       ],
       "explanation": "本句的「bun」指「把頭髮盤成圓形並固定在頭後或頭頂的髮型」。",
       "sentenceIndex": 10,
@@ -487,12 +414,9 @@ export default {
         "bun"
       ],
       "optionReasons": {
-        "bun-mcq-05": "本句指「把頭髮盤成圓形並固定在頭後或頭頂的髮型」。",
-        "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
-        "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。",
-        "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
-        "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
-        "bun-mcq-01": "「小型、單份、通常圓形的麵包」與本句語境不同。"
+        "bun-mcq-05": "本句的「bun」指「把頭髮盤成圓形並固定在頭後或頭頂的髮型」。",
+        "bun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bun-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-mcq-05"
     },
@@ -504,11 +428,8 @@ export default {
       "masked": "Her ____ was decorated with flowers.",
       "options": [
         "bun-pdf-001",
-        "bun-mcq-04",
         "bun-mcq-06",
-        "bun-mcq-03",
-        "bun-mcq-02",
-        "bun-mcq-01"
+        "bun-mcq-04"
       ],
       "explanation": "本句的「hair bun」指「圓形盤髮造型」。",
       "sentenceIndex": 11,
@@ -517,12 +438,9 @@ export default {
         "hair bun"
       ],
       "optionReasons": {
-        "bun-pdf-001": "本句指「圓形盤髮造型」。",
-        "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
-        "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。",
-        "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
-        "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
-        "bun-mcq-01": "「小型、單份、通常圓形的麵包」與本句語境不同。"
+        "bun-pdf-001": "本句的「hair bun」指「圓形盤髮造型」。",
+        "bun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bun-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-pdf-001"
     },
@@ -534,11 +452,8 @@ export default {
       "masked": "She pinned the ____ high on her head.",
       "options": [
         "bun-pdf-001",
-        "bun-mcq-04",
         "bun-mcq-06",
-        "bun-mcq-03",
-        "bun-mcq-02",
-        "bun-mcq-01"
+        "bun-mcq-02"
       ],
       "explanation": "本句的「bun」指「圓形盤髮造型」。",
       "sentenceIndex": 12,
@@ -547,12 +462,9 @@ export default {
         "bun"
       ],
       "optionReasons": {
-        "bun-pdf-001": "本句指「圓形盤髮造型」。",
-        "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
-        "bun-mcq-06": "「非正式用語中的臀部／屁股」與本句語境不同。",
-        "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
-        "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
-        "bun-mcq-01": "「小型、單份、通常圓形的麵包」與本句語境不同。"
+        "bun-pdf-001": "本句的「bun」指「圓形盤髮造型」。",
+        "bun-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bun-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-pdf-001"
     },
@@ -564,11 +476,7 @@ export default {
       "masked": "He fell hard on his ____.",
       "options": [
         "bun-mcq-06",
-        "bun-mcq-05",
-        "bun-mcq-04",
-        "bun-mcq-03",
-        "bun-mcq-02",
-        "bun-mcq-01"
+        "bun-mcq-03"
       ],
       "explanation": "本句的「buns」指「非正式用語中的臀部／屁股」。",
       "sentenceIndex": 13,
@@ -577,12 +485,8 @@ export default {
         "buns"
       ],
       "optionReasons": {
-        "bun-mcq-06": "本句指「非正式用語中的臀部／屁股」。",
-        "bun-mcq-05": "「把頭髮盤成圓形並固定在頭後或頭頂的髮型」與本句語境不同。",
-        "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
-        "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
-        "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
-        "bun-mcq-01": "「小型、單份、通常圓形的麵包」與本句語境不同。"
+        "bun-mcq-06": "本句的「buns」指「非正式用語中的臀部／屁股」。",
+        "bun-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-mcq-06"
     },
@@ -594,11 +498,8 @@ export default {
       "masked": "The exercise targets the ____ and legs.",
       "options": [
         "bun-mcq-06",
-        "bun-mcq-05",
-        "bun-mcq-04",
-        "bun-mcq-03",
-        "bun-mcq-02",
-        "bun-mcq-01"
+        "bun-pdf-001",
+        "bun-mcq-02"
       ],
       "explanation": "本句的「buns」指「非正式用語中的臀部／屁股」。",
       "sentenceIndex": 14,
@@ -607,12 +508,9 @@ export default {
         "buns"
       ],
       "optionReasons": {
-        "bun-mcq-06": "本句指「非正式用語中的臀部／屁股」。",
-        "bun-mcq-05": "「把頭髮盤成圓形並固定在頭後或頭頂的髮型」與本句語境不同。",
-        "bun-mcq-04": "「用來夾香腸的長形麵包」與本句語境不同。",
-        "bun-mcq-03": "「用來夾漢堡肉和配料的圓形麵包」與本句語境不同。",
-        "bun-mcq-02": "「帶甜味、香料或餡料的小型麵包」與本句語境不同。",
-        "bun-mcq-01": "「小型、單份、通常圓形的麵包」與本句語境不同。"
+        "bun-mcq-06": "本句的「buns」指「非正式用語中的臀部／屁股」。",
+        "bun-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bun-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bun-mcq-06"
     }
@@ -624,5 +522,7 @@ export default {
     "sha256": "b6e812dc5fdc2feb71f49eac2b4b6dde486336979f68b1a0f963cd671bd7fef3",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

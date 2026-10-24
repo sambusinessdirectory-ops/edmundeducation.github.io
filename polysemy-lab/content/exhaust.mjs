@@ -503,11 +503,9 @@ export default {
       "masked": "I often got home feeling ____.",
       "options": [
         "exhaust-mcq-01",
-        "exhaust-mcq-02",
-        "exhaust-mcq-03",
-        "exhaust-mcq-04",
-        "exhaust-mcq-05",
-        "exhaust-mcq-06"
+        "exhaust-mcq-17",
+        "exhaust-mcq-09",
+        "exhaust-mcq-12"
       ],
       "explanation": "本句的「exhausted」指「體力或精神能量幾乎耗盡，因而極度疲倦的」。",
       "sentenceIndex": 0,
@@ -516,12 +514,10 @@ export default {
         "exhausted"
       ],
       "optionReasons": {
-        "exhaust-mcq-01": "本句指「體力或精神能量幾乎耗盡，因而極度疲倦的」。",
-        "exhaust-mcq-02": "「因長時間思考、壓力或情緒負擔而心力交瘁的」是「mentally/emotionally exhausted」的用法，與本句語境不同。",
-        "exhaust-mcq-03": "「大量消耗某人的體力／精神，使其極度疲倦」是「exhaust someone」的用法，與本句語境不同。",
-        "exhaust-mcq-04": "「大量消耗人的體力或精神，因此令人筋疲力盡的」是「exhausting」的用法，與本句語境不同。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。"
+        "exhaust-mcq-01": "本句的「exhausted」指「體力或精神能量幾乎耗盡，因而極度疲倦的」。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-01"
     },
@@ -533,11 +529,9 @@ export default {
       "masked": "She was completely ____ after the long journey.",
       "options": [
         "exhaust-mcq-01",
-        "exhaust-mcq-02",
-        "exhaust-mcq-03",
-        "exhaust-mcq-04",
-        "exhaust-mcq-05",
-        "exhaust-mcq-06"
+        "exhaust-pdf-plain-022",
+        "exhaust-mcq-17",
+        "exhaust-mcq-14"
       ],
       "explanation": "本句的「exhausted」指「體力或精神能量幾乎耗盡，因而極度疲倦的」。",
       "sentenceIndex": 1,
@@ -546,12 +540,10 @@ export default {
         "exhausted"
       ],
       "optionReasons": {
-        "exhaust-mcq-01": "本句指「體力或精神能量幾乎耗盡，因而極度疲倦的」。",
-        "exhaust-mcq-02": "「因長時間思考、壓力或情緒負擔而心力交瘁的」是「mentally/emotionally exhausted」的用法，與本句語境不同。",
-        "exhaust-mcq-03": "「大量消耗某人的體力／精神，使其極度疲倦」是「exhaust someone」的用法，與本句語境不同。",
-        "exhaust-mcq-04": "「大量消耗人的體力或精神，因此令人筋疲力盡的」是「exhausting」的用法，與本句語境不同。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。"
+        "exhaust-mcq-01": "本句的「exhausted」指「體力或精神能量幾乎耗盡，因而極度疲倦的」。",
+        "exhaust-pdf-plain-022": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-01"
     },
@@ -563,11 +555,9 @@ export default {
       "masked": "By the end of the week, everyone felt ____.",
       "options": [
         "exhaust-mcq-01",
-        "exhaust-mcq-02",
-        "exhaust-mcq-03",
-        "exhaust-mcq-04",
-        "exhaust-mcq-05",
-        "exhaust-mcq-06"
+        "exhaust-mcq-09",
+        "exhaust-mcq-15",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhausted」指「體力或精神能量幾乎耗盡，因而極度疲倦的」。",
       "sentenceIndex": 2,
@@ -576,12 +566,10 @@ export default {
         "exhausted"
       ],
       "optionReasons": {
-        "exhaust-mcq-01": "本句指「體力或精神能量幾乎耗盡，因而極度疲倦的」。",
-        "exhaust-mcq-02": "「因長時間思考、壓力或情緒負擔而心力交瘁的」是「mentally/emotionally exhausted」的用法，與本句語境不同。",
-        "exhaust-mcq-03": "「大量消耗某人的體力／精神，使其極度疲倦」是「exhaust someone」的用法，與本句語境不同。",
-        "exhaust-mcq-04": "「大量消耗人的體力或精神，因此令人筋疲力盡的」是「exhausting」的用法，與本句語境不同。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。"
+        "exhaust-mcq-01": "本句的「exhausted」指「體力或精神能量幾乎耗盡，因而極度疲倦的」。",
+        "exhaust-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-01"
     },
@@ -593,11 +581,9 @@ export default {
       "masked": "After dealing with complaints all day, she felt mentally ____.",
       "options": [
         "exhaust-mcq-02",
-        "exhaust-mcq-01",
-        "exhaust-mcq-03",
-        "exhaust-mcq-04",
-        "exhaust-mcq-05",
-        "exhaust-mcq-06"
+        "exhaust-mcq-10",
+        "exhaust-mcq-13",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhausted」指「因長時間思考、壓力或情緒負擔而心力交瘁的」。",
       "sentenceIndex": 3,
@@ -606,12 +592,10 @@ export default {
         "exhausted"
       ],
       "optionReasons": {
-        "exhaust-mcq-02": "本句指「因長時間思考、壓力或情緒負擔而心力交瘁的」。",
-        "exhaust-mcq-01": "「體力或精神能量幾乎耗盡，因而極度疲倦的」是「exhausted — person」的用法，與本句語境不同。",
-        "exhaust-mcq-03": "「大量消耗某人的體力／精神，使其極度疲倦」是「exhaust someone」的用法，與本句語境不同。",
-        "exhaust-mcq-04": "「大量消耗人的體力或精神，因此令人筋疲力盡的」是「exhausting」的用法，與本句語境不同。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。"
+        "exhaust-mcq-02": "本句的「exhausted」指「因長時間思考、壓力或情緒負擔而心力交瘁的」。",
+        "exhaust-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-02"
     },
@@ -623,11 +607,9 @@ export default {
       "masked": "The constant stress left him emotionally ____.",
       "options": [
         "exhaust-mcq-02",
-        "exhaust-mcq-01",
-        "exhaust-mcq-03",
-        "exhaust-mcq-04",
-        "exhaust-mcq-05",
-        "exhaust-mcq-06"
+        "exhaust-mcq-13",
+        "exhaust-mcq-17",
+        "exhaust-mcq-09"
       ],
       "explanation": "本句的「exhausted」指「因長時間思考、壓力或情緒負擔而心力交瘁的」。",
       "sentenceIndex": 4,
@@ -636,12 +618,10 @@ export default {
         "exhausted"
       ],
       "optionReasons": {
-        "exhaust-mcq-02": "本句指「因長時間思考、壓力或情緒負擔而心力交瘁的」。",
-        "exhaust-mcq-01": "「體力或精神能量幾乎耗盡，因而極度疲倦的」是「exhausted — person」的用法，與本句語境不同。",
-        "exhaust-mcq-03": "「大量消耗某人的體力／精神，使其極度疲倦」是「exhaust someone」的用法，與本句語境不同。",
-        "exhaust-mcq-04": "「大量消耗人的體力或精神，因此令人筋疲力盡的」是「exhausting」的用法，與本句語境不同。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。"
+        "exhaust-mcq-02": "本句的「exhausted」指「因長時間思考、壓力或情緒負擔而心力交瘁的」。",
+        "exhaust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-02"
     },
@@ -653,11 +633,9 @@ export default {
       "masked": "The long commute ____ me.",
       "options": [
         "exhaust-mcq-03",
-        "exhaust-mcq-02",
-        "exhaust-mcq-04",
-        "exhaust-mcq-01",
-        "exhaust-mcq-05",
-        "exhaust-mcq-06"
+        "exhaust-mcq-07",
+        "exhaust-mcq-14",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhausted」指「大量消耗某人的體力／精神，使其極度疲倦」。",
       "sentenceIndex": 5,
@@ -666,12 +644,10 @@ export default {
         "exhausted"
       ],
       "optionReasons": {
-        "exhaust-mcq-03": "本句指「大量消耗某人的體力／精神，使其極度疲倦」。",
-        "exhaust-mcq-02": "「因長時間思考、壓力或情緒負擔而心力交瘁的」是「mentally/emotionally exhausted」的用法，與本句語境不同。",
-        "exhaust-mcq-04": "「大量消耗人的體力或精神，因此令人筋疲力盡的」是「exhausting」的用法，與本句語境不同。",
-        "exhaust-mcq-01": "「體力或精神能量幾乎耗盡，因而極度疲倦的」是「exhausted — person」的用法，與本句語境不同。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。"
+        "exhaust-mcq-03": "本句的「exhausted」指「大量消耗某人的體力／精神，使其極度疲倦」。",
+        "exhaust-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-03"
     },
@@ -683,11 +659,9 @@ export default {
       "masked": "Looking after three young children can ____ anyone.",
       "options": [
         "exhaust-mcq-03",
-        "exhaust-mcq-02",
-        "exhaust-mcq-04",
-        "exhaust-mcq-01",
-        "exhaust-mcq-05",
-        "exhaust-mcq-06"
+        "exhaust-pdf-plain-022",
+        "exhaust-mcq-14",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaust」指「大量消耗某人的體力／精神，使其極度疲倦」。",
       "sentenceIndex": 6,
@@ -696,12 +670,10 @@ export default {
         "exhaust"
       ],
       "optionReasons": {
-        "exhaust-mcq-03": "本句指「大量消耗某人的體力／精神，使其極度疲倦」。",
-        "exhaust-mcq-02": "「因長時間思考、壓力或情緒負擔而心力交瘁的」是「mentally/emotionally exhausted」的用法，與本句語境不同。",
-        "exhaust-mcq-04": "「大量消耗人的體力或精神，因此令人筋疲力盡的」是「exhausting」的用法，與本句語境不同。",
-        "exhaust-mcq-01": "「體力或精神能量幾乎耗盡，因而極度疲倦的」是「exhausted — person」的用法，與本句語境不同。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。"
+        "exhaust-mcq-03": "本句的「exhaust」指「大量消耗某人的體力／精神，使其極度疲倦」。",
+        "exhaust-pdf-plain-022": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-03"
     },
@@ -713,11 +685,9 @@ export default {
       "masked": "The journey was ____.",
       "options": [
         "exhaust-mcq-04",
-        "exhaust-mcq-03",
-        "exhaust-mcq-05",
-        "exhaust-mcq-02",
-        "exhaust-mcq-06",
-        "exhaust-mcq-01"
+        "exhaust-mcq-15",
+        "exhaust-mcq-17",
+        "exhaust-mcq-09"
       ],
       "explanation": "本句的「exhausting」指「大量消耗人的體力或精神，因此令人筋疲力盡的」。",
       "sentenceIndex": 7,
@@ -726,12 +696,10 @@ export default {
         "exhausting"
       ],
       "optionReasons": {
-        "exhaust-mcq-04": "本句指「大量消耗人的體力或精神，因此令人筋疲力盡的」。",
-        "exhaust-mcq-03": "「大量消耗某人的體力／精神，使其極度疲倦」是「exhaust someone」的用法，與本句語境不同。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。",
-        "exhaust-mcq-02": "「因長時間思考、壓力或情緒負擔而心力交瘁的」是「mentally/emotionally exhausted」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-01": "「體力或精神能量幾乎耗盡，因而極度疲倦的」是「exhausted — person」的用法，與本句語境不同。"
+        "exhaust-mcq-04": "本句的「exhausting」指「大量消耗人的體力或精神，因此令人筋疲力盡的」。",
+        "exhaust-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-04"
     },
@@ -743,11 +711,9 @@ export default {
       "masked": "Commuting for three hours every day is ____.",
       "options": [
         "exhaust-mcq-04",
-        "exhaust-mcq-03",
-        "exhaust-mcq-05",
-        "exhaust-mcq-02",
-        "exhaust-mcq-06",
-        "exhaust-mcq-01"
+        "exhaust-mcq-14",
+        "exhaust-pdf-plain-022",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhausting」指「大量消耗人的體力或精神，因此令人筋疲力盡的」。",
       "sentenceIndex": 8,
@@ -756,12 +722,10 @@ export default {
         "exhausting"
       ],
       "optionReasons": {
-        "exhaust-mcq-04": "本句指「大量消耗人的體力或精神，因此令人筋疲力盡的」。",
-        "exhaust-mcq-03": "「大量消耗某人的體力／精神，使其極度疲倦」是「exhaust someone」的用法，與本句語境不同。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。",
-        "exhaust-mcq-02": "「因長時間思考、壓力或情緒負擔而心力交瘁的」是「mentally/emotionally exhausted」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-01": "「體力或精神能量幾乎耗盡，因而極度疲倦的」是「exhausted — person」的用法，與本句語境不同。"
+        "exhaust-mcq-04": "本句的「exhausting」指「大量消耗人的體力或精神，因此令人筋疲力盡的」。",
+        "exhaust-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "exhaust-pdf-plain-022": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-04"
     },
@@ -773,11 +737,9 @@ export default {
       "masked": "She collapsed from ____.",
       "options": [
         "exhaust-mcq-05",
-        "exhaust-mcq-04",
-        "exhaust-mcq-06",
-        "exhaust-mcq-03",
-        "exhaust-mcq-07",
-        "exhaust-mcq-02"
+        "exhaust-mcq-14",
+        "exhaust-mcq-09",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaustion」指「體力或精神能量嚴重消耗後形成的極度疲勞狀態」。",
       "sentenceIndex": 9,
@@ -786,12 +748,10 @@ export default {
         "exhaustion"
       ],
       "optionReasons": {
-        "exhaust-mcq-05": "本句指「體力或精神能量嚴重消耗後形成的極度疲勞狀態」。",
-        "exhaust-mcq-04": "「大量消耗人的體力或精神，因此令人筋疲力盡的」是「exhausting」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-03": "「大量消耗某人的體力／精神，使其極度疲倦」是「exhaust someone」的用法，與本句語境不同。",
-        "exhaust-mcq-07": "「已被使用到幾乎或完全沒有剩餘的」是「exhausted resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-02": "「因長時間思考、壓力或情緒負擔而心力交瘁的」是「mentally/emotionally exhausted」的用法，與本句語境不同。"
+        "exhaust-mcq-05": "本句的「exhaustion」指「體力或精神能量嚴重消耗後形成的極度疲勞狀態」。",
+        "exhaust-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-05"
     },
@@ -803,11 +763,9 @@ export default {
       "masked": "Weeks of poor sleep led to complete ____.",
       "options": [
         "exhaust-mcq-05",
-        "exhaust-mcq-04",
-        "exhaust-mcq-06",
-        "exhaust-mcq-03",
-        "exhaust-mcq-07",
-        "exhaust-mcq-02"
+        "exhaust-pdf-plain-022",
+        "exhaust-mcq-14",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaustion」指「體力或精神能量嚴重消耗後形成的極度疲勞狀態」。",
       "sentenceIndex": 10,
@@ -816,12 +774,10 @@ export default {
         "exhaustion"
       ],
       "optionReasons": {
-        "exhaust-mcq-05": "本句指「體力或精神能量嚴重消耗後形成的極度疲勞狀態」。",
-        "exhaust-mcq-04": "「大量消耗人的體力或精神，因此令人筋疲力盡的」是「exhausting」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-03": "「大量消耗某人的體力／精神，使其極度疲倦」是「exhaust someone」的用法，與本句語境不同。",
-        "exhaust-mcq-07": "「已被使用到幾乎或完全沒有剩餘的」是「exhausted resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-02": "「因長時間思考、壓力或情緒負擔而心力交瘁的」是「mentally/emotionally exhausted」的用法，與本句語境不同。"
+        "exhaust-mcq-05": "本句的「exhaustion」指「體力或精神能量嚴重消耗後形成的極度疲勞狀態」。",
+        "exhaust-pdf-plain-022": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-05"
     },
@@ -833,11 +789,8 @@ export default {
       "masked": "The project ____ most of our budget.",
       "options": [
         "exhaust-mcq-06",
-        "exhaust-mcq-05",
-        "exhaust-mcq-07",
-        "exhaust-mcq-04",
-        "exhaust-mcq-08",
-        "exhaust-mcq-03"
+        "exhaust-mcq-15",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhausted」指「把有限資源持續使用到幾乎或完全沒有剩餘」。",
       "sentenceIndex": 11,
@@ -846,12 +799,9 @@ export default {
         "exhausted"
       ],
       "optionReasons": {
-        "exhaust-mcq-06": "本句指「把有限資源持續使用到幾乎或完全沒有剩餘」。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。",
-        "exhaust-mcq-07": "「已被使用到幾乎或完全沒有剩餘的」是「exhausted resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-04": "「大量消耗人的體力或精神，因此令人筋疲力盡的」是「exhausting」的用法，與本句語境不同。",
-        "exhaust-mcq-08": "「有限資源因持續消耗而接近或完全用盡的狀態」是「resource exhaustion」的用法，與本句語境不同。",
-        "exhaust-mcq-03": "「大量消耗某人的體力／精神，使其極度疲倦」是「exhaust someone」的用法，與本句語境不同。"
+        "exhaust-mcq-06": "本句的「exhausted」指「把有限資源持續使用到幾乎或完全沒有剩餘」。",
+        "exhaust-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-06"
     },
@@ -863,11 +813,8 @@ export default {
       "masked": "The village had ____ its water supply.",
       "options": [
         "exhaust-mcq-06",
-        "exhaust-mcq-05",
-        "exhaust-mcq-07",
-        "exhaust-mcq-04",
-        "exhaust-mcq-08",
-        "exhaust-mcq-03"
+        "exhaust-mcq-13",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhausted」指「把有限資源持續使用到幾乎或完全沒有剩餘」。",
       "sentenceIndex": 12,
@@ -876,12 +823,9 @@ export default {
         "exhausted"
       ],
       "optionReasons": {
-        "exhaust-mcq-06": "本句指「把有限資源持續使用到幾乎或完全沒有剩餘」。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。",
-        "exhaust-mcq-07": "「已被使用到幾乎或完全沒有剩餘的」是「exhausted resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-04": "「大量消耗人的體力或精神，因此令人筋疲力盡的」是「exhausting」的用法，與本句語境不同。",
-        "exhaust-mcq-08": "「有限資源因持續消耗而接近或完全用盡的狀態」是「resource exhaustion」的用法，與本句語境不同。",
-        "exhaust-mcq-03": "「大量消耗某人的體力／精神，使其極度疲倦」是「exhaust someone」的用法，與本句語境不同。"
+        "exhaust-mcq-06": "本句的「exhausted」指「把有限資源持續使用到幾乎或完全沒有剩餘」。",
+        "exhaust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-06"
     },
@@ -893,11 +837,9 @@ export default {
       "masked": "The emergency supplies were nearly ____.",
       "options": [
         "exhaust-mcq-07",
-        "exhaust-mcq-06",
-        "exhaust-mcq-08",
-        "exhaust-mcq-05",
-        "exhaust-mcq-09",
-        "exhaust-mcq-04"
+        "exhaust-mcq-04",
+        "exhaust-mcq-15",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhausted」指「已被使用到幾乎或完全沒有剩餘的」。",
       "sentenceIndex": 13,
@@ -906,12 +848,10 @@ export default {
         "exhausted"
       ],
       "optionReasons": {
-        "exhaust-mcq-07": "本句指「已被使用到幾乎或完全沒有剩餘的」。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-08": "「有限資源因持續消耗而接近或完全用盡的狀態」是「resource exhaustion」的用法，與本句語境不同。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。",
-        "exhaust-mcq-09": "「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」是「exhaust possibilities/options」的用法，與本句語境不同。",
-        "exhaust-mcq-04": "「大量消耗人的體力或精神，因此令人筋疲力盡的」是「exhausting」的用法，與本句語境不同。"
+        "exhaust-mcq-07": "本句的「exhausted」指「已被使用到幾乎或完全沒有剩餘的」。",
+        "exhaust-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-07"
     },
@@ -923,11 +863,9 @@ export default {
       "masked": "Once the battery is fully ____, it must be recharged.",
       "options": [
         "exhaust-mcq-07",
-        "exhaust-mcq-06",
-        "exhaust-mcq-08",
-        "exhaust-mcq-05",
-        "exhaust-mcq-09",
-        "exhaust-mcq-04"
+        "exhaust-mcq-03",
+        "exhaust-mcq-14",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhausted」指「已被使用到幾乎或完全沒有剩餘的」。",
       "sentenceIndex": 14,
@@ -936,12 +874,10 @@ export default {
         "exhausted"
       ],
       "optionReasons": {
-        "exhaust-mcq-07": "本句指「已被使用到幾乎或完全沒有剩餘的」。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-08": "「有限資源因持續消耗而接近或完全用盡的狀態」是「resource exhaustion」的用法，與本句語境不同。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。",
-        "exhaust-mcq-09": "「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」是「exhaust possibilities/options」的用法，與本句語境不同。",
-        "exhaust-mcq-04": "「大量消耗人的體力或精神，因此令人筋疲力盡的」是「exhausting」的用法，與本句語境不同。"
+        "exhaust-mcq-07": "本句的「exhausted」指「已被使用到幾乎或完全沒有剩餘的」。",
+        "exhaust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-07"
     },
@@ -953,11 +889,8 @@ export default {
       "masked": "Overuse can lead to the ____ of natural resources.",
       "options": [
         "exhaust-mcq-08",
-        "exhaust-mcq-07",
-        "exhaust-mcq-09",
-        "exhaust-mcq-06",
-        "exhaust-mcq-10",
-        "exhaust-mcq-05"
+        "exhaust-mcq-14",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaustion」指「有限資源因持續消耗而接近或完全用盡的狀態」。",
       "sentenceIndex": 15,
@@ -966,12 +899,9 @@ export default {
         "exhaustion"
       ],
       "optionReasons": {
-        "exhaust-mcq-08": "本句指「有限資源因持續消耗而接近或完全用盡的狀態」。",
-        "exhaust-mcq-07": "「已被使用到幾乎或完全沒有剩餘的」是「exhausted resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-09": "「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」是「exhaust possibilities/options」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-10": "「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」是「exhaust a subject」的用法，與本句語境不同。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。"
+        "exhaust-mcq-08": "本句的「exhaustion」指「有限資源因持續消耗而接近或完全用盡的狀態」。",
+        "exhaust-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-08"
     },
@@ -983,11 +913,8 @@ export default {
       "masked": "The researchers warned about groundwater ____.",
       "options": [
         "exhaust-mcq-08",
-        "exhaust-mcq-07",
-        "exhaust-mcq-09",
-        "exhaust-mcq-06",
-        "exhaust-mcq-10",
-        "exhaust-mcq-05"
+        "exhaust-mcq-12",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaustion」指「有限資源因持續消耗而接近或完全用盡的狀態」。",
       "sentenceIndex": 16,
@@ -996,12 +923,9 @@ export default {
         "exhaustion"
       ],
       "optionReasons": {
-        "exhaust-mcq-08": "本句指「有限資源因持續消耗而接近或完全用盡的狀態」。",
-        "exhaust-mcq-07": "「已被使用到幾乎或完全沒有剩餘的」是「exhausted resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-09": "「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」是「exhaust possibilities/options」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-10": "「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」是「exhaust a subject」的用法，與本句語境不同。",
-        "exhaust-mcq-05": "「體力或精神能量嚴重消耗後形成的極度疲勞狀態」是「exhaustion — person」的用法，與本句語境不同。"
+        "exhaust-mcq-08": "本句的「exhaustion」指「有限資源因持續消耗而接近或完全用盡的狀態」。",
+        "exhaust-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-08"
     },
@@ -1013,11 +937,9 @@ export default {
       "masked": "We have ____ all the available options.",
       "options": [
         "exhaust-mcq-09",
-        "exhaust-mcq-08",
-        "exhaust-mcq-10",
-        "exhaust-mcq-07",
-        "exhaust-mcq-11",
-        "exhaust-mcq-06"
+        "exhaust-mcq-03",
+        "exhaust-mcq-12",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhausted」指「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」。",
       "sentenceIndex": 17,
@@ -1026,12 +948,10 @@ export default {
         "exhausted"
       ],
       "optionReasons": {
-        "exhaust-mcq-09": "本句指「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」。",
-        "exhaust-mcq-08": "「有限資源因持續消耗而接近或完全用盡的狀態」是「resource exhaustion」的用法，與本句語境不同。",
-        "exhaust-mcq-10": "「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」是「exhaust a subject」的用法，與本句語境不同。",
-        "exhaust-mcq-07": "「已被使用到幾乎或完全沒有剩餘的」是「exhausted resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-11": "「把法律／行政制度提供的所有可行程序逐一使用完畢」是「exhaust remedies」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。"
+        "exhaust-mcq-09": "本句的「exhausted」指「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」。",
+        "exhaust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-09"
     },
@@ -1043,11 +963,9 @@ export default {
       "masked": "The police ____ every possible lead.",
       "options": [
         "exhaust-mcq-09",
-        "exhaust-mcq-08",
-        "exhaust-mcq-10",
-        "exhaust-mcq-07",
-        "exhaust-mcq-11",
-        "exhaust-mcq-06"
+        "exhaust-mcq-14",
+        "exhaust-mcq-05",
+        "exhaust-mcq-16"
       ],
       "explanation": "本句的「exhausted」指「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」。",
       "sentenceIndex": 18,
@@ -1056,12 +974,10 @@ export default {
         "exhausted"
       ],
       "optionReasons": {
-        "exhaust-mcq-09": "本句指「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」。",
-        "exhaust-mcq-08": "「有限資源因持續消耗而接近或完全用盡的狀態」是「resource exhaustion」的用法，與本句語境不同。",
-        "exhaust-mcq-10": "「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」是「exhaust a subject」的用法，與本句語境不同。",
-        "exhaust-mcq-07": "「已被使用到幾乎或完全沒有剩餘的」是「exhausted resource/supply」的用法，與本句語境不同。",
-        "exhaust-mcq-11": "「把法律／行政制度提供的所有可行程序逐一使用完畢」是「exhaust remedies」的用法，與本句語境不同。",
-        "exhaust-mcq-06": "「把有限資源持續使用到幾乎或完全沒有剩餘」是「exhaust a resource/supply」的用法，與本句語境不同。"
+        "exhaust-mcq-09": "本句的「exhausted」指「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」。",
+        "exhaust-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-09"
     },
@@ -1073,11 +989,9 @@ export default {
       "masked": "We cannot ____ the subject in one lecture.",
       "options": [
         "exhaust-mcq-10",
-        "exhaust-mcq-09",
-        "exhaust-mcq-11",
-        "exhaust-mcq-08",
         "exhaust-mcq-12",
-        "exhaust-mcq-07"
+        "exhaust-mcq-02",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaust」指「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」。",
       "sentenceIndex": 19,
@@ -1086,12 +1000,10 @@ export default {
         "exhaust"
       ],
       "optionReasons": {
-        "exhaust-mcq-10": "本句指「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」。",
-        "exhaust-mcq-09": "「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」是「exhaust possibilities/options」的用法，與本句語境不同。",
-        "exhaust-mcq-11": "「把法律／行政制度提供的所有可行程序逐一使用完畢」是「exhaust remedies」的用法，與本句語境不同。",
-        "exhaust-mcq-08": "「有限資源因持續消耗而接近或完全用盡的狀態」是「resource exhaustion」的用法，與本句語境不同。",
-        "exhaust-mcq-12": "「引擎燃燒燃料後排出的廢氣」是「exhaust — noun」的用法，與本句語境不同。",
-        "exhaust-mcq-07": "「已被使用到幾乎或完全沒有剩餘的」是「exhausted resource/supply」的用法，與本句語境不同。"
+        "exhaust-mcq-10": "本句的「exhaust」指「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」。",
+        "exhaust-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-10"
     },
@@ -1103,11 +1015,9 @@ export default {
       "masked": "The report does not attempt to ____ every aspect of the issue.",
       "options": [
         "exhaust-mcq-10",
-        "exhaust-mcq-09",
-        "exhaust-mcq-11",
-        "exhaust-mcq-08",
-        "exhaust-mcq-12",
-        "exhaust-mcq-07"
+        "exhaust-mcq-16",
+        "exhaust-mcq-14",
+        "exhaust-mcq-04"
       ],
       "explanation": "本句的「exhaust」指「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」。",
       "sentenceIndex": 20,
@@ -1116,12 +1026,10 @@ export default {
         "exhaust"
       ],
       "optionReasons": {
-        "exhaust-mcq-10": "本句指「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」。",
-        "exhaust-mcq-09": "「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」是「exhaust possibilities/options」的用法，與本句語境不同。",
-        "exhaust-mcq-11": "「把法律／行政制度提供的所有可行程序逐一使用完畢」是「exhaust remedies」的用法，與本句語境不同。",
-        "exhaust-mcq-08": "「有限資源因持續消耗而接近或完全用盡的狀態」是「resource exhaustion」的用法，與本句語境不同。",
-        "exhaust-mcq-12": "「引擎燃燒燃料後排出的廢氣」是「exhaust — noun」的用法，與本句語境不同。",
-        "exhaust-mcq-07": "「已被使用到幾乎或完全沒有剩餘的」是「exhausted resource/supply」的用法，與本句語境不同。"
+        "exhaust-mcq-10": "本句的「exhaust」指「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」。",
+        "exhaust-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-10"
     },
@@ -1133,11 +1041,8 @@ export default {
       "masked": "Applicants must ____ all available remedies before bringing the case to court.",
       "options": [
         "exhaust-mcq-11",
-        "exhaust-mcq-10",
         "exhaust-mcq-12",
-        "exhaust-mcq-09",
-        "exhaust-mcq-13",
-        "exhaust-mcq-08"
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaust」指「把法律／行政制度提供的所有可行程序逐一使用完畢」。",
       "sentenceIndex": 21,
@@ -1146,12 +1051,9 @@ export default {
         "exhaust"
       ],
       "optionReasons": {
-        "exhaust-mcq-11": "本句指「把法律／行政制度提供的所有可行程序逐一使用完畢」。",
-        "exhaust-mcq-10": "「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」是「exhaust a subject」的用法，與本句語境不同。",
-        "exhaust-mcq-12": "「引擎燃燒燃料後排出的廢氣」是「exhaust — noun」的用法，與本句語境不同。",
-        "exhaust-mcq-09": "「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」是「exhaust possibilities/options」的用法，與本句語境不同。",
-        "exhaust-mcq-13": "「車輛／機械運作後排出的氣體」是「exhaust fumes/gases」的用法，與本句語境不同。",
-        "exhaust-mcq-08": "「有限資源因持續消耗而接近或完全用盡的狀態」是「resource exhaustion」的用法，與本句語境不同。"
+        "exhaust-mcq-11": "本句的「exhaust」指「把法律／行政制度提供的所有可行程序逐一使用完畢」。",
+        "exhaust-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-11"
     },
@@ -1163,11 +1065,7 @@ export default {
       "masked": "She had ____ the internal appeal process.",
       "options": [
         "exhaust-mcq-11",
-        "exhaust-mcq-10",
-        "exhaust-mcq-12",
-        "exhaust-mcq-09",
-        "exhaust-mcq-13",
-        "exhaust-mcq-08"
+        "exhaust-mcq-16"
       ],
       "explanation": "本句的「exhausted」指「把法律／行政制度提供的所有可行程序逐一使用完畢」。",
       "sentenceIndex": 22,
@@ -1176,12 +1074,8 @@ export default {
         "exhausted"
       ],
       "optionReasons": {
-        "exhaust-mcq-11": "本句指「把法律／行政制度提供的所有可行程序逐一使用完畢」。",
-        "exhaust-mcq-10": "「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」是「exhaust a subject」的用法，與本句語境不同。",
-        "exhaust-mcq-12": "「引擎燃燒燃料後排出的廢氣」是「exhaust — noun」的用法，與本句語境不同。",
-        "exhaust-mcq-09": "「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」是「exhaust possibilities/options」的用法，與本句語境不同。",
-        "exhaust-mcq-13": "「車輛／機械運作後排出的氣體」是「exhaust fumes/gases」的用法，與本句語境不同。",
-        "exhaust-mcq-08": "「有限資源因持續消耗而接近或完全用盡的狀態」是「resource exhaustion」的用法，與本句語境不同。"
+        "exhaust-mcq-11": "本句的「exhausted」指「把法律／行政制度提供的所有可行程序逐一使用完畢」。",
+        "exhaust-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-11"
     },
@@ -1193,11 +1087,8 @@ export default {
       "masked": "The air smelled of car ____.",
       "options": [
         "exhaust-mcq-12",
-        "exhaust-mcq-11",
-        "exhaust-mcq-13",
-        "exhaust-mcq-10",
-        "exhaust-mcq-14",
-        "exhaust-mcq-09"
+        "exhaust-mcq-21",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaust」指「引擎燃燒燃料後排出的廢氣」。",
       "sentenceIndex": 23,
@@ -1206,12 +1097,9 @@ export default {
         "exhaust"
       ],
       "optionReasons": {
-        "exhaust-mcq-12": "本句指「引擎燃燒燃料後排出的廢氣」。",
-        "exhaust-mcq-11": "「把法律／行政制度提供的所有可行程序逐一使用完畢」是「exhaust remedies」的用法，與本句語境不同。",
-        "exhaust-mcq-13": "「車輛／機械運作後排出的氣體」是「exhaust fumes/gases」的用法，與本句語境不同。",
-        "exhaust-mcq-10": "「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」是「exhaust a subject」的用法，與本句語境不同。",
-        "exhaust-mcq-14": "「將引擎廢氣導出並控制排放／噪音的裝置系統」是「exhaust system」的用法，與本句語境不同。",
-        "exhaust-mcq-09": "「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」是「exhaust possibilities/options」的用法，與本句語境不同。"
+        "exhaust-mcq-12": "本句的「exhaust」指「引擎燃燒燃料後排出的廢氣」。",
+        "exhaust-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-12"
     },
@@ -1223,11 +1111,9 @@ export default {
       "masked": "Vehicle ____ contributes to air pollution.",
       "options": [
         "exhaust-mcq-12",
-        "exhaust-mcq-11",
-        "exhaust-mcq-13",
-        "exhaust-mcq-10",
-        "exhaust-mcq-14",
-        "exhaust-mcq-09"
+        "exhaust-pdf-plain-022",
+        "exhaust-mcq-02",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaust」指「引擎燃燒燃料後排出的廢氣」。",
       "sentenceIndex": 24,
@@ -1236,12 +1122,10 @@ export default {
         "exhaust"
       ],
       "optionReasons": {
-        "exhaust-mcq-12": "本句指「引擎燃燒燃料後排出的廢氣」。",
-        "exhaust-mcq-11": "「把法律／行政制度提供的所有可行程序逐一使用完畢」是「exhaust remedies」的用法，與本句語境不同。",
-        "exhaust-mcq-13": "「車輛／機械運作後排出的氣體」是「exhaust fumes/gases」的用法，與本句語境不同。",
-        "exhaust-mcq-10": "「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」是「exhaust a subject」的用法，與本句語境不同。",
-        "exhaust-mcq-14": "「將引擎廢氣導出並控制排放／噪音的裝置系統」是「exhaust system」的用法，與本句語境不同。",
-        "exhaust-mcq-09": "「把所有可用方法、選擇或可能性逐一使用／嘗試完畢」是「exhaust possibilities/options」的用法，與本句語境不同。"
+        "exhaust-mcq-12": "本句的「exhaust」指「引擎燃燒燃料後排出的廢氣」。",
+        "exhaust-pdf-plain-022": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-12"
     },
@@ -1253,11 +1137,9 @@ export default {
       "masked": "Do not breathe in ____ fumes.",
       "options": [
         "exhaust-mcq-13",
-        "exhaust-mcq-12",
-        "exhaust-mcq-14",
-        "exhaust-mcq-11",
-        "exhaust-mcq-15",
-        "exhaust-mcq-10"
+        "exhaust-pdf-plain-022",
+        "exhaust-mcq-02",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaust」指「車輛／機械運作後排出的氣體」。",
       "sentenceIndex": 25,
@@ -1266,12 +1148,10 @@ export default {
         "exhaust"
       ],
       "optionReasons": {
-        "exhaust-mcq-13": "本句指「車輛／機械運作後排出的氣體」。",
-        "exhaust-mcq-12": "「引擎燃燒燃料後排出的廢氣」是「exhaust — noun」的用法，與本句語境不同。",
-        "exhaust-mcq-14": "「將引擎廢氣導出並控制排放／噪音的裝置系統」是「exhaust system」的用法，與本句語境不同。",
-        "exhaust-mcq-11": "「把法律／行政制度提供的所有可行程序逐一使用完畢」是「exhaust remedies」的用法，與本句語境不同。",
-        "exhaust-mcq-15": "「將車輛／機械廢氣排出的管道」是「exhaust pipe」的用法，與本句語境不同。",
-        "exhaust-mcq-10": "「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」是「exhaust a subject」的用法，與本句語境不同。"
+        "exhaust-mcq-13": "本句的「exhaust」指「車輛／機械運作後排出的氣體」。",
+        "exhaust-pdf-plain-022": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-13"
     },
@@ -1283,11 +1163,8 @@ export default {
       "masked": "The tunnel was filled with ____ gases.",
       "options": [
         "exhaust-mcq-13",
-        "exhaust-mcq-12",
-        "exhaust-mcq-14",
-        "exhaust-mcq-11",
-        "exhaust-mcq-15",
-        "exhaust-mcq-10"
+        "exhaust-mcq-08",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaust」指「車輛／機械運作後排出的氣體」。",
       "sentenceIndex": 26,
@@ -1296,12 +1173,9 @@ export default {
         "exhaust"
       ],
       "optionReasons": {
-        "exhaust-mcq-13": "本句指「車輛／機械運作後排出的氣體」。",
-        "exhaust-mcq-12": "「引擎燃燒燃料後排出的廢氣」是「exhaust — noun」的用法，與本句語境不同。",
-        "exhaust-mcq-14": "「將引擎廢氣導出並控制排放／噪音的裝置系統」是「exhaust system」的用法，與本句語境不同。",
-        "exhaust-mcq-11": "「把法律／行政制度提供的所有可行程序逐一使用完畢」是「exhaust remedies」的用法，與本句語境不同。",
-        "exhaust-mcq-15": "「將車輛／機械廢氣排出的管道」是「exhaust pipe」的用法，與本句語境不同。",
-        "exhaust-mcq-10": "「把某個議題可討論／分析的重要內容幾乎全部涵蓋完」是「exhaust a subject」的用法，與本句語境不同。"
+        "exhaust-mcq-13": "本句的「exhaust」指「車輛／機械運作後排出的氣體」。",
+        "exhaust-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-13"
     },
@@ -1313,11 +1187,9 @@ export default {
       "masked": "The mechanic inspected the ____ system.",
       "options": [
         "exhaust-mcq-14",
-        "exhaust-mcq-13",
-        "exhaust-mcq-15",
-        "exhaust-mcq-12",
-        "exhaust-mcq-16",
-        "exhaust-mcq-11"
+        "exhaust-mcq-04",
+        "exhaust-mcq-10",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaust」指「將引擎廢氣導出並控制排放／噪音的裝置系統」。",
       "sentenceIndex": 27,
@@ -1326,12 +1198,10 @@ export default {
         "exhaust"
       ],
       "optionReasons": {
-        "exhaust-mcq-14": "本句指「將引擎廢氣導出並控制排放／噪音的裝置系統」。",
-        "exhaust-mcq-13": "「車輛／機械運作後排出的氣體」是「exhaust fumes/gases」的用法，與本句語境不同。",
-        "exhaust-mcq-15": "「將車輛／機械廢氣排出的管道」是「exhaust pipe」的用法，與本句語境不同。",
-        "exhaust-mcq-12": "「引擎燃燒燃料後排出的廢氣」是「exhaust — noun」的用法，與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。",
-        "exhaust-mcq-11": "「把法律／行政制度提供的所有可行程序逐一使用完畢」是「exhaust remedies」的用法，與本句語境不同。"
+        "exhaust-mcq-14": "本句的「exhaust」指「將引擎廢氣導出並控制排放／噪音的裝置系統」。",
+        "exhaust-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-14"
     },
@@ -1343,11 +1213,9 @@ export default {
       "masked": "A damaged ____ system can make the car unusually loud.",
       "options": [
         "exhaust-mcq-14",
-        "exhaust-mcq-13",
-        "exhaust-mcq-15",
-        "exhaust-mcq-12",
-        "exhaust-mcq-16",
-        "exhaust-mcq-11"
+        "exhaust-mcq-05",
+        "exhaust-mcq-07",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaust」指「將引擎廢氣導出並控制排放／噪音的裝置系統」。",
       "sentenceIndex": 28,
@@ -1356,12 +1224,10 @@ export default {
         "exhaust"
       ],
       "optionReasons": {
-        "exhaust-mcq-14": "本句指「將引擎廢氣導出並控制排放／噪音的裝置系統」。",
-        "exhaust-mcq-13": "「車輛／機械運作後排出的氣體」是「exhaust fumes/gases」的用法，與本句語境不同。",
-        "exhaust-mcq-15": "「將車輛／機械廢氣排出的管道」是「exhaust pipe」的用法，與本句語境不同。",
-        "exhaust-mcq-12": "「引擎燃燒燃料後排出的廢氣」是「exhaust — noun」的用法，與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。",
-        "exhaust-mcq-11": "「把法律／行政制度提供的所有可行程序逐一使用完畢」是「exhaust remedies」的用法，與本句語境不同。"
+        "exhaust-mcq-14": "本句的「exhaust」指「將引擎廢氣導出並控制排放／噪音的裝置系統」。",
+        "exhaust-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-14"
     },
@@ -1373,11 +1239,9 @@ export default {
       "masked": "Smoke was coming from the ____ pipe.",
       "options": [
         "exhaust-mcq-15",
-        "exhaust-mcq-14",
-        "exhaust-mcq-16",
-        "exhaust-mcq-13",
-        "exhaust-mcq-17",
-        "exhaust-mcq-12"
+        "exhaust-mcq-10",
+        "exhaust-mcq-02",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaust」指「將車輛／機械廢氣排出的管道」。",
       "sentenceIndex": 29,
@@ -1386,12 +1250,10 @@ export default {
         "exhaust"
       ],
       "optionReasons": {
-        "exhaust-mcq-15": "本句指「將車輛／機械廢氣排出的管道」。",
-        "exhaust-mcq-14": "「將引擎廢氣導出並控制排放／噪音的裝置系統」是「exhaust system」的用法，與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。",
-        "exhaust-mcq-13": "「車輛／機械運作後排出的氣體」是「exhaust fumes/gases」的用法，與本句語境不同。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」是「exhaust fan」的用法，與本句語境不同。",
-        "exhaust-mcq-12": "「引擎燃燒燃料後排出的廢氣」是「exhaust — noun」的用法，與本句語境不同。"
+        "exhaust-mcq-15": "本句的「exhaust」指「將車輛／機械廢氣排出的管道」。",
+        "exhaust-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-15"
     },
@@ -1403,11 +1265,9 @@ export default {
       "masked": "The ____ pipe needs replacing.",
       "options": [
         "exhaust-mcq-15",
-        "exhaust-mcq-14",
-        "exhaust-mcq-16",
-        "exhaust-mcq-13",
-        "exhaust-mcq-17",
-        "exhaust-mcq-12"
+        "exhaust-mcq-04",
+        "exhaust-pdf-plain-022",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaust」指「將車輛／機械廢氣排出的管道」。",
       "sentenceIndex": 30,
@@ -1416,12 +1276,10 @@ export default {
         "exhaust"
       ],
       "optionReasons": {
-        "exhaust-mcq-15": "本句指「將車輛／機械廢氣排出的管道」。",
-        "exhaust-mcq-14": "「將引擎廢氣導出並控制排放／噪音的裝置系統」是「exhaust system」的用法，與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。",
-        "exhaust-mcq-13": "「車輛／機械運作後排出的氣體」是「exhaust fumes/gases」的用法，與本句語境不同。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」是「exhaust fan」的用法，與本句語境不同。",
-        "exhaust-mcq-12": "「引擎燃燒燃料後排出的廢氣」是「exhaust — noun」的用法，與本句語境不同。"
+        "exhaust-mcq-15": "本句的「exhaust」指「將車輛／機械廢氣排出的管道」。",
+        "exhaust-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "exhaust-pdf-plain-022": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-15"
     },
@@ -1433,11 +1291,8 @@ export default {
       "masked": "The system ____ hot air from the building.",
       "options": [
         "exhaust-mcq-16",
-        "exhaust-mcq-15",
-        "exhaust-mcq-17",
-        "exhaust-mcq-14",
-        "exhaust-mcq-18",
-        "exhaust-mcq-13"
+        "exhaust-mcq-20",
+        "exhaust-mcq-14"
       ],
       "explanation": "本句的「exhausts」指「把空氣、煙霧或氣體從封閉空間抽走並排出」。",
       "sentenceIndex": 31,
@@ -1446,12 +1301,9 @@ export default {
         "exhausts"
       ],
       "optionReasons": {
-        "exhaust-mcq-16": "本句指「把空氣、煙霧或氣體從封閉空間抽走並排出」。",
-        "exhaust-mcq-15": "「將車輛／機械廢氣排出的管道」是「exhaust pipe」的用法，與本句語境不同。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」是「exhaust fan」的用法，與本句語境不同。",
-        "exhaust-mcq-14": "「將引擎廢氣導出並控制排放／噪音的裝置系統」是「exhaust system」的用法，與本句語境不同。",
-        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」是「exhaustive」的用法，與本句語境不同。",
-        "exhaust-mcq-13": "「車輛／機械運作後排出的氣體」是「exhaust fumes/gases」的用法，與本句語境不同。"
+        "exhaust-mcq-16": "本句的「exhausts」指「把空氣、煙霧或氣體從封閉空間抽走並排出」。",
+        "exhaust-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-16"
     },
@@ -1463,11 +1315,9 @@ export default {
       "masked": "The fan ____ fumes through the roof.",
       "options": [
         "exhaust-mcq-16",
-        "exhaust-mcq-15",
-        "exhaust-mcq-17",
-        "exhaust-mcq-14",
         "exhaust-mcq-18",
-        "exhaust-mcq-13"
+        "exhaust-mcq-02",
+        "exhaust-mcq-14"
       ],
       "explanation": "本句的「exhausts」指「把空氣、煙霧或氣體從封閉空間抽走並排出」。",
       "sentenceIndex": 32,
@@ -1476,12 +1326,10 @@ export default {
         "exhausts"
       ],
       "optionReasons": {
-        "exhaust-mcq-16": "本句指「把空氣、煙霧或氣體從封閉空間抽走並排出」。",
-        "exhaust-mcq-15": "「將車輛／機械廢氣排出的管道」是「exhaust pipe」的用法，與本句語境不同。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」是「exhaust fan」的用法，與本句語境不同。",
-        "exhaust-mcq-14": "「將引擎廢氣導出並控制排放／噪音的裝置系統」是「exhaust system」的用法，與本句語境不同。",
-        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」是「exhaustive」的用法，與本句語境不同。",
-        "exhaust-mcq-13": "「車輛／機械運作後排出的氣體」是「exhaust fumes/gases」的用法，與本句語境不同。"
+        "exhaust-mcq-16": "本句的「exhausts」指「把空氣、煙霧或氣體從封閉空間抽走並排出」。",
+        "exhaust-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-16"
     },
@@ -1493,11 +1341,8 @@ export default {
       "masked": "Turn on the ____ fan while cooking.",
       "options": [
         "exhaust-mcq-17",
-        "exhaust-mcq-16",
-        "exhaust-mcq-18",
-        "exhaust-mcq-15",
-        "exhaust-mcq-19",
-        "exhaust-mcq-14"
+        "exhaust-mcq-08",
+        "exhaust-mcq-13"
       ],
       "explanation": "本句的「exhaust」指「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」。",
       "sentenceIndex": 33,
@@ -1506,12 +1351,9 @@ export default {
         "exhaust"
       ],
       "optionReasons": {
-        "exhaust-mcq-17": "本句指「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。",
-        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」是「exhaustive」的用法，與本句語境不同。",
-        "exhaust-mcq-15": "「將車輛／機械廢氣排出的管道」是「exhaust pipe」的用法，與本句語境不同。",
-        "exhaust-mcq-19": "「以全面而徹底、幾乎不遺漏相關內容的方式」是「exhaustively」的用法，與本句語境不同。",
-        "exhaust-mcq-14": "「將引擎廢氣導出並控制排放／噪音的裝置系統」是「exhaust system」的用法，與本句語境不同。"
+        "exhaust-mcq-17": "本句的「exhaust」指「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」。",
+        "exhaust-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-17"
     },
@@ -1523,11 +1365,9 @@ export default {
       "masked": "The bathroom needs a stronger ____ fan.",
       "options": [
         "exhaust-mcq-17",
-        "exhaust-mcq-16",
-        "exhaust-mcq-18",
-        "exhaust-mcq-15",
-        "exhaust-mcq-19",
-        "exhaust-mcq-14"
+        "exhaust-mcq-07",
+        "exhaust-mcq-03",
+        "exhaust-mcq-12"
       ],
       "explanation": "本句的「exhaust」指「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」。",
       "sentenceIndex": 34,
@@ -1536,12 +1376,10 @@ export default {
         "exhaust"
       ],
       "optionReasons": {
-        "exhaust-mcq-17": "本句指「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。",
-        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」是「exhaustive」的用法，與本句語境不同。",
-        "exhaust-mcq-15": "「將車輛／機械廢氣排出的管道」是「exhaust pipe」的用法，與本句語境不同。",
-        "exhaust-mcq-19": "「以全面而徹底、幾乎不遺漏相關內容的方式」是「exhaustively」的用法，與本句語境不同。",
-        "exhaust-mcq-14": "「將引擎廢氣導出並控制排放／噪音的裝置系統」是「exhaust system」的用法，與本句語境不同。"
+        "exhaust-mcq-17": "本句的「exhaust」指「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」。",
+        "exhaust-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-17"
     },
@@ -1553,11 +1391,9 @@ export default {
       "masked": "The report provides an ____ analysis of the problem.",
       "options": [
         "exhaust-mcq-18",
-        "exhaust-mcq-17",
-        "exhaust-mcq-19",
         "exhaust-mcq-16",
-        "exhaust-mcq-20",
-        "exhaust-mcq-15"
+        "exhaust-mcq-14",
+        "exhaust-mcq-04"
       ],
       "explanation": "本句的「exhaustive」指「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」。",
       "sentenceIndex": 35,
@@ -1566,12 +1402,10 @@ export default {
         "exhaustive"
       ],
       "optionReasons": {
-        "exhaust-mcq-18": "本句指「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」是「exhaust fan」的用法，與本句語境不同。",
-        "exhaust-mcq-19": "「以全面而徹底、幾乎不遺漏相關內容的方式」是「exhaustively」的用法，與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。",
-        "exhaust-mcq-20": "「數量有限，因此可因持續使用而被完全耗盡的」是「exhaustible」的用法，與本句語境不同。",
-        "exhaust-mcq-15": "「將車輛／機械廢氣排出的管道」是「exhaust pipe」的用法，與本句語境不同。"
+        "exhaust-mcq-18": "本句的「exhaustive」指「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」。",
+        "exhaust-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-18"
     },
@@ -1583,11 +1417,9 @@ export default {
       "masked": "The police carried out an ____ search.",
       "options": [
         "exhaust-mcq-18",
-        "exhaust-mcq-17",
-        "exhaust-mcq-19",
         "exhaust-mcq-16",
-        "exhaust-mcq-20",
-        "exhaust-mcq-15"
+        "exhaust-mcq-14",
+        "exhaust-mcq-02"
       ],
       "explanation": "本句的「exhaustive」指「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」。",
       "sentenceIndex": 36,
@@ -1596,12 +1428,10 @@ export default {
         "exhaustive"
       ],
       "optionReasons": {
-        "exhaust-mcq-18": "本句指「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」是「exhaust fan」的用法，與本句語境不同。",
-        "exhaust-mcq-19": "「以全面而徹底、幾乎不遺漏相關內容的方式」是「exhaustively」的用法，與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。",
-        "exhaust-mcq-20": "「數量有限，因此可因持續使用而被完全耗盡的」是「exhaustible」的用法，與本句語境不同。",
-        "exhaust-mcq-15": "「將車輛／機械廢氣排出的管道」是「exhaust pipe」的用法，與本句語境不同。"
+        "exhaust-mcq-18": "本句的「exhaustive」指「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」。",
+        "exhaust-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-18"
     },
@@ -1613,11 +1443,9 @@ export default {
       "masked": "The issue has been studied ____.",
       "options": [
         "exhaust-mcq-19",
-        "exhaust-mcq-18",
-        "exhaust-mcq-20",
-        "exhaust-mcq-17",
-        "exhaust-mcq-21",
-        "exhaust-mcq-16"
+        "exhaust-mcq-13",
+        "exhaust-mcq-04",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaustively」指「以全面而徹底、幾乎不遺漏相關內容的方式」。",
       "sentenceIndex": 37,
@@ -1626,12 +1454,10 @@ export default {
         "exhaustively"
       ],
       "optionReasons": {
-        "exhaust-mcq-19": "本句指「以全面而徹底、幾乎不遺漏相關內容的方式」。",
-        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」是「exhaustive」的用法，與本句語境不同。",
-        "exhaust-mcq-20": "「數量有限，因此可因持續使用而被完全耗盡的」是「exhaustible」的用法，與本句語境不同。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」是「exhaust fan」的用法，與本句語境不同。",
-        "exhaust-mcq-21": "「數量／能力似乎無法被完全用盡；取之不盡的」是「inexhaustible」的用法，與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。"
+        "exhaust-mcq-19": "本句的「exhaustively」指「以全面而徹底、幾乎不遺漏相關內容的方式」。",
+        "exhaust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-19"
     },
@@ -1643,11 +1469,9 @@ export default {
       "masked": "The report examines each possibility ____.",
       "options": [
         "exhaust-mcq-19",
-        "exhaust-mcq-18",
-        "exhaust-mcq-20",
-        "exhaust-mcq-17",
-        "exhaust-mcq-21",
-        "exhaust-mcq-16"
+        "exhaust-mcq-02",
+        "exhaust-mcq-15",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaustively」指「以全面而徹底、幾乎不遺漏相關內容的方式」。",
       "sentenceIndex": 38,
@@ -1656,12 +1480,10 @@ export default {
         "exhaustively"
       ],
       "optionReasons": {
-        "exhaust-mcq-19": "本句指「以全面而徹底、幾乎不遺漏相關內容的方式」。",
-        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」是「exhaustive」的用法，與本句語境不同。",
-        "exhaust-mcq-20": "「數量有限，因此可因持續使用而被完全耗盡的」是「exhaustible」的用法，與本句語境不同。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」是「exhaust fan」的用法，與本句語境不同。",
-        "exhaust-mcq-21": "「數量／能力似乎無法被完全用盡；取之不盡的」是「inexhaustible」的用法，與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。"
+        "exhaust-mcq-19": "本句的「exhaustively」指「以全面而徹底、幾乎不遺漏相關內容的方式」。",
+        "exhaust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-19"
     },
@@ -1673,11 +1495,8 @@ export default {
       "masked": "Fossil fuels are ____ resources.",
       "options": [
         "exhaust-mcq-20",
-        "exhaust-mcq-19",
-        "exhaust-mcq-21",
-        "exhaust-mcq-18",
         "exhaust-mcq-17",
-        "exhaust-mcq-16"
+        "exhaust-mcq-13"
       ],
       "explanation": "本句的「exhaustible」指「數量有限，因此可因持續使用而被完全耗盡的」。",
       "sentenceIndex": 39,
@@ -1686,12 +1505,9 @@ export default {
         "exhaustible"
       ],
       "optionReasons": {
-        "exhaust-mcq-20": "本句指「數量有限，因此可因持續使用而被完全耗盡的」。",
-        "exhaust-mcq-19": "「以全面而徹底、幾乎不遺漏相關內容的方式」是「exhaustively」的用法，與本句語境不同。",
-        "exhaust-mcq-21": "「數量／能力似乎無法被完全用盡；取之不盡的」是「inexhaustible」的用法，與本句語境不同。",
-        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」是「exhaustive」的用法，與本句語境不同。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」是「exhaust fan」的用法，與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。"
+        "exhaust-mcq-20": "本句的「exhaustible」指「數量有限，因此可因持續使用而被完全耗盡的」。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-20"
     },
@@ -1703,11 +1519,8 @@ export default {
       "masked": "Fresh water is not an unlimited resource; in some contexts it is effectively ____.",
       "options": [
         "exhaust-mcq-20",
-        "exhaust-mcq-19",
-        "exhaust-mcq-21",
-        "exhaust-mcq-18",
         "exhaust-mcq-17",
-        "exhaust-mcq-16"
+        "exhaust-mcq-13"
       ],
       "explanation": "本句的「exhaustible」指「數量有限，因此可因持續使用而被完全耗盡的」。",
       "sentenceIndex": 40,
@@ -1716,12 +1529,9 @@ export default {
         "exhaustible"
       ],
       "optionReasons": {
-        "exhaust-mcq-20": "本句指「數量有限，因此可因持續使用而被完全耗盡的」。",
-        "exhaust-mcq-19": "「以全面而徹底、幾乎不遺漏相關內容的方式」是「exhaustively」的用法，與本句語境不同。",
-        "exhaust-mcq-21": "「數量／能力似乎無法被完全用盡；取之不盡的」是「inexhaustible」的用法，與本句語境不同。",
-        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」是「exhaustive」的用法，與本句語境不同。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」是「exhaust fan」的用法，與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。"
+        "exhaust-mcq-20": "本句的「exhaustible」指「數量有限，因此可因持續使用而被完全耗盡的」。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-20"
     },
@@ -1733,11 +1543,8 @@ export default {
       "masked": "Solar energy is often described as an ____ source of energy.",
       "options": [
         "exhaust-mcq-21",
-        "exhaust-mcq-20",
-        "exhaust-mcq-19",
-        "exhaust-mcq-18",
         "exhaust-mcq-17",
-        "exhaust-mcq-16"
+        "exhaust-mcq-12"
       ],
       "explanation": "本句的「inexhaustible」指「數量／能力似乎無法被完全用盡；取之不盡的」。",
       "sentenceIndex": 41,
@@ -1746,12 +1553,9 @@ export default {
         "inexhaustible"
       ],
       "optionReasons": {
-        "exhaust-mcq-21": "本句指「數量／能力似乎無法被完全用盡；取之不盡的」。",
-        "exhaust-mcq-20": "「數量有限，因此可因持續使用而被完全耗盡的」是「exhaustible」的用法，與本句語境不同。",
-        "exhaust-mcq-19": "「以全面而徹底、幾乎不遺漏相關內容的方式」是「exhaustively」的用法，與本句語境不同。",
-        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」是「exhaustive」的用法，與本句語境不同。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」是「exhaust fan」的用法，與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。"
+        "exhaust-mcq-21": "本句的「inexhaustible」指「數量／能力似乎無法被完全用盡；取之不盡的」。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-21"
     },
@@ -1763,11 +1567,8 @@ export default {
       "masked": "She seems to have an ____ supply of energy.",
       "options": [
         "exhaust-mcq-21",
-        "exhaust-mcq-20",
-        "exhaust-mcq-19",
-        "exhaust-mcq-18",
-        "exhaust-mcq-17",
-        "exhaust-mcq-16"
+        "exhaust-mcq-13",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「inexhaustible」指「數量／能力似乎無法被完全用盡；取之不盡的」。",
       "sentenceIndex": 42,
@@ -1776,12 +1577,9 @@ export default {
         "inexhaustible"
       ],
       "optionReasons": {
-        "exhaust-mcq-21": "本句指「數量／能力似乎無法被完全用盡；取之不盡的」。",
-        "exhaust-mcq-20": "「數量有限，因此可因持續使用而被完全耗盡的」是「exhaustible」的用法，與本句語境不同。",
-        "exhaust-mcq-19": "「以全面而徹底、幾乎不遺漏相關內容的方式」是「exhaustively」的用法，與本句語境不同。",
-        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」是「exhaustive」的用法，與本句語境不同。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」是「exhaust fan」的用法，與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」是「exhaust air/fumes — verb」的用法，與本句語境不同。"
+        "exhaust-mcq-21": "本句的「inexhaustible」指「數量／能力似乎無法被完全用盡；取之不盡的」。",
+        "exhaust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-mcq-21"
     },
@@ -1793,11 +1591,9 @@ export default {
       "masked": "This is not intended to be an ____ list.",
       "options": [
         "exhaust-pdf-plain-022",
-        "exhaust-mcq-20",
-        "exhaust-mcq-19",
-        "exhaust-mcq-18",
-        "exhaust-mcq-17",
-        "exhaust-mcq-16"
+        "exhaust-mcq-15",
+        "exhaust-mcq-01",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaustive」指「完整無遺漏、全面涵蓋所有相關項目的」。",
       "sentenceIndex": 43,
@@ -1806,12 +1602,10 @@ export default {
         "exhaustive"
       ],
       "optionReasons": {
-        "exhaust-pdf-plain-022": "本句指「完整無遺漏、全面涵蓋所有相關項目的」。",
-        "exhaust-mcq-20": "「數量有限，因此可因持續使用而被完全耗盡的」與本句語境不同。",
-        "exhaust-mcq-19": "「以全面而徹底、幾乎不遺漏相關內容的方式」與本句語境不同。",
-        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」與本句語境不同。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」與本句語境不同。"
+        "exhaust-pdf-plain-022": "本句的「exhaustive」指「完整無遺漏、全面涵蓋所有相關項目的」。",
+        "exhaust-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-pdf-plain-022"
     },
@@ -1823,11 +1617,9 @@ export default {
       "masked": "An ____ review of the evidence would take months.",
       "options": [
         "exhaust-pdf-plain-022",
-        "exhaust-mcq-20",
-        "exhaust-mcq-19",
-        "exhaust-mcq-18",
-        "exhaust-mcq-17",
-        "exhaust-mcq-16"
+        "exhaust-mcq-12",
+        "exhaust-mcq-04",
+        "exhaust-mcq-17"
       ],
       "explanation": "本句的「exhaustive」指「完整無遺漏、全面涵蓋所有相關項目的」。",
       "sentenceIndex": 44,
@@ -1836,12 +1628,10 @@ export default {
         "exhaustive"
       ],
       "optionReasons": {
-        "exhaust-pdf-plain-022": "本句指「完整無遺漏、全面涵蓋所有相關項目的」。",
-        "exhaust-mcq-20": "「數量有限，因此可因持續使用而被完全耗盡的」與本句語境不同。",
-        "exhaust-mcq-19": "「以全面而徹底、幾乎不遺漏相關內容的方式」與本句語境不同。",
-        "exhaust-mcq-18": "「力求把所有相關部分、細節或可能性都涵蓋而不留下重要遺漏的」與本句語境不同。",
-        "exhaust-mcq-17": "「專門把室內空氣、煙霧、蒸氣或氣味抽走的風扇」與本句語境不同。",
-        "exhaust-mcq-16": "「把空氣、煙霧或氣體從封閉空間抽走並排出」與本句語境不同。"
+        "exhaust-pdf-plain-022": "本句的「exhaustive」指「完整無遺漏、全面涵蓋所有相關項目的」。",
+        "exhaust-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "exhaust-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhaust-pdf-plain-022"
     }
@@ -1853,5 +1643,7 @@ export default {
     "sha256": "59bafd18fa74997c45c92701376cc1287cef0a85a1e06bbefa2182c19224e31f",
     "pages": 25
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -585,11 +585,7 @@ export default {
       "masked": "The issue will go to a ____ tomorrow.",
       "options": [
         "vote-mcq-02",
-        "vote-mcq-01",
-        "vote-mcq-03",
-        "vote-mcq-04",
-        "vote-mcq-05",
-        "vote-mcq-06"
+        "vote-mcq-20"
       ],
       "explanation": "本句的「vote」指「讓成員正式作出選擇的投票／表決」。",
       "sentenceIndex": 4,
@@ -598,12 +594,8 @@ export default {
         "vote"
       ],
       "optionReasons": {
-        "vote-mcq-02": "本句指「讓成員正式作出選擇的投票／表決」。",
-        "vote-mcq-01": "「在正式選舉或表決中表示選擇的一票」與本句語境不同。",
-        "vote-mcq-03": "「透過投票正式作出選擇」與本句語境不同。",
-        "vote-mcq-04": "「投票支持某人／某事」與本句語境不同。",
-        "vote-mcq-05": "「投票反對某人／某事」與本句語境不同。",
-        "vote-mcq-06": "「就某議題進行投票／表決」與本句語境不同。"
+        "vote-mcq-02": "本句的「vote」指「讓成員正式作出選擇的投票／表決」。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-02"
     },
@@ -615,11 +607,7 @@ export default {
       "masked": "The committee held a ____.",
       "options": [
         "vote-mcq-02",
-        "vote-mcq-01",
-        "vote-mcq-03",
-        "vote-mcq-04",
-        "vote-mcq-05",
-        "vote-mcq-06"
+        "vote-mcq-20"
       ],
       "explanation": "本句的「vote」指「讓成員正式作出選擇的投票／表決」。",
       "sentenceIndex": 5,
@@ -628,12 +616,8 @@ export default {
         "vote"
       ],
       "optionReasons": {
-        "vote-mcq-02": "本句指「讓成員正式作出選擇的投票／表決」。",
-        "vote-mcq-01": "「在正式選舉或表決中表示選擇的一票」與本句語境不同。",
-        "vote-mcq-03": "「透過投票正式作出選擇」與本句語境不同。",
-        "vote-mcq-04": "「投票支持某人／某事」與本句語境不同。",
-        "vote-mcq-05": "「投票反對某人／某事」與本句語境不同。",
-        "vote-mcq-06": "「就某議題進行投票／表決」與本句語境不同。"
+        "vote-mcq-02": "本句的「vote」指「讓成員正式作出選擇的投票／表決」。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-02"
     },
@@ -645,11 +629,7 @@ export default {
       "masked": "They ____ in the election.",
       "options": [
         "vote-mcq-02",
-        "vote-mcq-01",
-        "vote-mcq-03",
-        "vote-mcq-04",
-        "vote-mcq-05",
-        "vote-mcq-06"
+        "vote-mcq-20"
       ],
       "explanation": "本句的「voted」指「讓成員正式作出選擇的投票／表決」。",
       "sentenceIndex": 6,
@@ -658,12 +638,8 @@ export default {
         "voted"
       ],
       "optionReasons": {
-        "vote-mcq-02": "本句指「讓成員正式作出選擇的投票／表決」。",
-        "vote-mcq-01": "「在正式選舉或表決中表示選擇的一票」與本句語境不同。",
-        "vote-mcq-03": "「透過投票正式作出選擇」與本句語境不同。",
-        "vote-mcq-04": "「投票支持某人／某事」與本句語境不同。",
-        "vote-mcq-05": "「投票反對某人／某事」與本句語境不同。",
-        "vote-mcq-06": "「就某議題進行投票／表決」與本句語境不同。"
+        "vote-mcq-02": "本句的「voted」指「讓成員正式作出選擇的投票／表決」。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-02"
     },
@@ -675,11 +651,7 @@ export default {
       "masked": "The members ____ on the proposal.",
       "options": [
         "vote-mcq-02",
-        "vote-mcq-01",
-        "vote-mcq-03",
-        "vote-mcq-04",
-        "vote-mcq-05",
-        "vote-mcq-06"
+        "vote-mcq-20"
       ],
       "explanation": "本句的「voted」指「讓成員正式作出選擇的投票／表決」。",
       "sentenceIndex": 7,
@@ -688,12 +660,8 @@ export default {
         "voted"
       ],
       "optionReasons": {
-        "vote-mcq-02": "本句指「讓成員正式作出選擇的投票／表決」。",
-        "vote-mcq-01": "「在正式選舉或表決中表示選擇的一票」與本句語境不同。",
-        "vote-mcq-03": "「透過投票正式作出選擇」與本句語境不同。",
-        "vote-mcq-04": "「投票支持某人／某事」與本句語境不同。",
-        "vote-mcq-05": "「投票反對某人／某事」與本句語境不同。",
-        "vote-mcq-06": "「就某議題進行投票／表決」與本句語境不同。"
+        "vote-mcq-02": "本句的「voted」指「讓成員正式作出選擇的投票／表決」。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-02"
     },
@@ -705,11 +673,9 @@ export default {
       "masked": "She ____ the proposal.",
       "options": [
         "vote-mcq-04",
-        "vote-mcq-03",
-        "vote-mcq-05",
-        "vote-mcq-02",
-        "vote-mcq-06",
-        "vote-mcq-01"
+        "vote-mcq-11",
+        "vote-mcq-17",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「voted for」指「投票支持某人／某事」。",
       "sentenceIndex": 8,
@@ -718,12 +684,10 @@ export default {
         "voted for"
       ],
       "optionReasons": {
-        "vote-mcq-04": "本句指「投票支持某人／某事」。",
-        "vote-mcq-03": "「透過投票正式作出選擇」與本句語境不同。",
-        "vote-mcq-05": "「投票反對某人／某事」與本句語境不同。",
-        "vote-mcq-02": "「讓成員正式作出選擇的投票／表決」與本句語境不同。",
-        "vote-mcq-06": "「就某議題進行投票／表決」與本句語境不同。",
-        "vote-mcq-01": "「在正式選舉或表決中表示選擇的一票」與本句語境不同。"
+        "vote-mcq-04": "本句的「voted for」指「投票支持某人／某事」。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-04"
     },
@@ -735,11 +699,9 @@ export default {
       "masked": "Most members ____ the change.",
       "options": [
         "vote-mcq-04",
-        "vote-mcq-03",
-        "vote-mcq-05",
-        "vote-mcq-02",
-        "vote-mcq-06",
-        "vote-mcq-01"
+        "vote-mcq-17",
+        "vote-mcq-11",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「voted for」指「投票支持某人／某事」。",
       "sentenceIndex": 9,
@@ -748,12 +710,10 @@ export default {
         "voted for"
       ],
       "optionReasons": {
-        "vote-mcq-04": "本句指「投票支持某人／某事」。",
-        "vote-mcq-03": "「透過投票正式作出選擇」與本句語境不同。",
-        "vote-mcq-05": "「投票反對某人／某事」與本句語境不同。",
-        "vote-mcq-02": "「讓成員正式作出選擇的投票／表決」與本句語境不同。",
-        "vote-mcq-06": "「就某議題進行投票／表決」與本句語境不同。",
-        "vote-mcq-01": "「在正式選舉或表決中表示選擇的一票」與本句語境不同。"
+        "vote-mcq-04": "本句的「voted for」指「投票支持某人／某事」。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-04"
     },
@@ -765,11 +725,8 @@ export default {
       "masked": "He ____ the proposal.",
       "options": [
         "vote-mcq-05",
-        "vote-mcq-04",
-        "vote-mcq-06",
-        "vote-mcq-03",
-        "vote-mcq-07",
-        "vote-mcq-02"
+        "vote-mcq-11",
+        "vote-mcq-16"
       ],
       "explanation": "本句的「voted against」指「投票反對某人／某事」。",
       "sentenceIndex": 10,
@@ -778,12 +735,9 @@ export default {
         "voted against"
       ],
       "optionReasons": {
-        "vote-mcq-05": "本句指「投票反對某人／某事」。",
-        "vote-mcq-04": "「投票支持某人／某事」與本句語境不同。",
-        "vote-mcq-06": "「就某議題進行投票／表決」與本句語境不同。",
-        "vote-mcq-03": "「透過投票正式作出選擇」與本句語境不同。",
-        "vote-mcq-07": "「經投票決定採取某項行動」與本句語境不同。",
-        "vote-mcq-02": "「讓成員正式作出選擇的投票／表決」與本句語境不同。"
+        "vote-mcq-05": "本句的「voted against」指「投票反對某人／某事」。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-05"
     },
@@ -795,11 +749,8 @@ export default {
       "masked": "Several members ____ the change.",
       "options": [
         "vote-mcq-05",
-        "vote-mcq-04",
-        "vote-mcq-06",
-        "vote-mcq-03",
-        "vote-mcq-07",
-        "vote-mcq-02"
+        "vote-mcq-11",
+        "vote-mcq-16"
       ],
       "explanation": "本句的「voted against」指「投票反對某人／某事」。",
       "sentenceIndex": 11,
@@ -808,12 +759,9 @@ export default {
         "voted against"
       ],
       "optionReasons": {
-        "vote-mcq-05": "本句指「投票反對某人／某事」。",
-        "vote-mcq-04": "「投票支持某人／某事」與本句語境不同。",
-        "vote-mcq-06": "「就某議題進行投票／表決」與本句語境不同。",
-        "vote-mcq-03": "「透過投票正式作出選擇」與本句語境不同。",
-        "vote-mcq-07": "「經投票決定採取某項行動」與本句語境不同。",
-        "vote-mcq-02": "「讓成員正式作出選擇的投票／表決」與本句語境不同。"
+        "vote-mcq-05": "本句的「voted against」指「投票反對某人／某事」。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-05"
     },
@@ -825,11 +773,9 @@ export default {
       "masked": "The board will ____ next week.",
       "options": [
         "vote-mcq-06",
-        "vote-mcq-05",
-        "vote-mcq-07",
-        "vote-mcq-04",
-        "vote-mcq-08",
-        "vote-mcq-03"
+        "vote-mcq-12",
+        "vote-mcq-16",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「vote on the plan」指「就某議題進行投票／表決」。",
       "sentenceIndex": 12,
@@ -838,12 +784,10 @@ export default {
         "vote on the plan"
       ],
       "optionReasons": {
-        "vote-mcq-06": "本句指「就某議題進行投票／表決」。",
-        "vote-mcq-05": "「投票反對某人／某事」與本句語境不同。",
-        "vote-mcq-07": "「經投票決定採取某項行動」與本句語境不同。",
-        "vote-mcq-04": "「投票支持某人／某事」與本句語境不同。",
-        "vote-mcq-08": "「透過投票選某人上任」與本句語境不同。",
-        "vote-mcq-03": "「透過投票正式作出選擇」與本句語境不同。"
+        "vote-mcq-06": "本句的「vote on the plan」指「就某議題進行投票／表決」。",
+        "vote-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-06"
     },
@@ -855,11 +799,9 @@ export default {
       "masked": "Members were asked to ____.",
       "options": [
         "vote-mcq-06",
-        "vote-mcq-05",
-        "vote-mcq-07",
-        "vote-mcq-04",
-        "vote-mcq-08",
-        "vote-mcq-03"
+        "vote-mcq-13",
+        "vote-mcq-16",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「vote on the proposal」指「就某議題進行投票／表決」。",
       "sentenceIndex": 13,
@@ -868,12 +810,10 @@ export default {
         "vote on the proposal"
       ],
       "optionReasons": {
-        "vote-mcq-06": "本句指「就某議題進行投票／表決」。",
-        "vote-mcq-05": "「投票反對某人／某事」與本句語境不同。",
-        "vote-mcq-07": "「經投票決定採取某項行動」與本句語境不同。",
-        "vote-mcq-04": "「投票支持某人／某事」與本句語境不同。",
-        "vote-mcq-08": "「透過投票選某人上任」與本句語境不同。",
-        "vote-mcq-03": "「透過投票正式作出選擇」與本句語境不同。"
+        "vote-mcq-06": "本句的「vote on the proposal」指「就某議題進行投票／表決」。",
+        "vote-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-06"
     },
@@ -885,11 +825,9 @@ export default {
       "masked": "The committee ____ the plan.",
       "options": [
         "vote-mcq-07",
-        "vote-mcq-06",
-        "vote-mcq-08",
-        "vote-mcq-05",
-        "vote-mcq-09",
-        "vote-mcq-04"
+        "vote-mcq-12",
+        "vote-mcq-16",
+        "vote-mcq-11"
       ],
       "explanation": "本句的「voted to approve」指「經投票決定採取某項行動」。",
       "sentenceIndex": 14,
@@ -898,12 +836,10 @@ export default {
         "voted to approve"
       ],
       "optionReasons": {
-        "vote-mcq-07": "本句指「經投票決定採取某項行動」。",
-        "vote-mcq-06": "「就某議題進行投票／表決」與本句語境不同。",
-        "vote-mcq-08": "「透過投票選某人上任」與本句語境不同。",
-        "vote-mcq-05": "「投票反對某人／某事」與本句語境不同。",
-        "vote-mcq-09": "「透過投票使某人下台／罷免」與本句語境不同。",
-        "vote-mcq-04": "「投票支持某人／某事」與本句語境不同。"
+        "vote-mcq-07": "本句的「voted to approve」指「經投票決定採取某項行動」。",
+        "vote-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-07"
     },
@@ -915,11 +851,9 @@ export default {
       "masked": "Members ____ the project.",
       "options": [
         "vote-mcq-07",
-        "vote-mcq-06",
-        "vote-mcq-08",
-        "vote-mcq-05",
-        "vote-mcq-09",
-        "vote-mcq-04"
+        "vote-mcq-12",
+        "vote-mcq-16",
+        "vote-mcq-11"
       ],
       "explanation": "本句的「voted to continue」指「經投票決定採取某項行動」。",
       "sentenceIndex": 15,
@@ -928,12 +862,10 @@ export default {
         "voted to continue"
       ],
       "optionReasons": {
-        "vote-mcq-07": "本句指「經投票決定採取某項行動」。",
-        "vote-mcq-06": "「就某議題進行投票／表決」與本句語境不同。",
-        "vote-mcq-08": "「透過投票選某人上任」與本句語境不同。",
-        "vote-mcq-05": "「投票反對某人／某事」與本句語境不同。",
-        "vote-mcq-09": "「透過投票使某人下台／罷免」與本句語境不同。",
-        "vote-mcq-04": "「投票支持某人／某事」與本句語境不同。"
+        "vote-mcq-07": "本句的「voted to continue」指「經投票決定採取某項行動」。",
+        "vote-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-07"
     },
@@ -945,11 +877,8 @@ export default {
       "masked": "Members ____ as chair.",
       "options": [
         "vote-mcq-08",
-        "vote-mcq-07",
-        "vote-mcq-09",
-        "vote-mcq-06",
-        "vote-mcq-10",
-        "vote-mcq-05"
+        "vote-mcq-17",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「voted her in」指「透過投票選某人上任」。",
       "sentenceIndex": 16,
@@ -958,12 +887,9 @@ export default {
         "voted her in"
       ],
       "optionReasons": {
-        "vote-mcq-08": "本句指「透過投票選某人上任」。",
-        "vote-mcq-07": "「經投票決定採取某項行動」與本句語境不同。",
-        "vote-mcq-09": "「透過投票使某人下台／罷免」與本句語境不同。",
-        "vote-mcq-06": "「就某議題進行投票／表決」與本句語境不同。",
-        "vote-mcq-10": "「透過表決批准某提案；投票通過」與本句語境不同。",
-        "vote-mcq-05": "「投票反對某人／某事」與本句語境不同。"
+        "vote-mcq-08": "本句的「voted her in」指「透過投票選某人上任」。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-08"
     },
@@ -975,11 +901,8 @@ export default {
       "masked": "The new board was ____ last month.",
       "options": [
         "vote-mcq-08",
-        "vote-mcq-07",
-        "vote-mcq-09",
-        "vote-mcq-06",
-        "vote-mcq-10",
-        "vote-mcq-05"
+        "vote-mcq-17",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「voted in」指「透過投票選某人上任」。",
       "sentenceIndex": 17,
@@ -988,12 +911,9 @@ export default {
         "voted in"
       ],
       "optionReasons": {
-        "vote-mcq-08": "本句指「透過投票選某人上任」。",
-        "vote-mcq-07": "「經投票決定採取某項行動」與本句語境不同。",
-        "vote-mcq-09": "「透過投票使某人下台／罷免」與本句語境不同。",
-        "vote-mcq-06": "「就某議題進行投票／表決」與本句語境不同。",
-        "vote-mcq-10": "「透過表決批准某提案；投票通過」與本句語境不同。",
-        "vote-mcq-05": "「投票反對某人／某事」與本句語境不同。"
+        "vote-mcq-08": "本句的「voted in」指「透過投票選某人上任」。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-08"
     },
@@ -1005,11 +925,8 @@ export default {
       "masked": "Members ____.",
       "options": [
         "vote-mcq-09",
-        "vote-mcq-08",
-        "vote-mcq-10",
-        "vote-mcq-07",
-        "vote-mcq-11",
-        "vote-mcq-06"
+        "vote-mcq-17",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「voted him out」指「透過投票使某人下台／罷免」。",
       "sentenceIndex": 18,
@@ -1018,12 +935,9 @@ export default {
         "voted him out"
       ],
       "optionReasons": {
-        "vote-mcq-09": "本句指「透過投票使某人下台／罷免」。",
-        "vote-mcq-08": "「透過投票選某人上任」與本句語境不同。",
-        "vote-mcq-10": "「透過表決批准某提案；投票通過」與本句語境不同。",
-        "vote-mcq-07": "「經投票決定採取某項行動」與本句語境不同。",
-        "vote-mcq-11": "「透過表決否決某提案」與本句語境不同。",
-        "vote-mcq-06": "「就某議題進行投票／表決」與本句語境不同。"
+        "vote-mcq-09": "本句的「voted him out」指「透過投票使某人下台／罷免」。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-09"
     },
@@ -1035,11 +949,8 @@ export default {
       "masked": "The committee could ____.",
       "options": [
         "vote-mcq-09",
-        "vote-mcq-08",
-        "vote-mcq-10",
-        "vote-mcq-07",
-        "vote-mcq-11",
-        "vote-mcq-06"
+        "vote-mcq-17",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「vote the chair out」指「透過投票使某人下台／罷免」。",
       "sentenceIndex": 19,
@@ -1048,12 +959,9 @@ export default {
         "vote the chair out"
       ],
       "optionReasons": {
-        "vote-mcq-09": "本句指「透過投票使某人下台／罷免」。",
-        "vote-mcq-08": "「透過投票選某人上任」與本句語境不同。",
-        "vote-mcq-10": "「透過表決批准某提案；投票通過」與本句語境不同。",
-        "vote-mcq-07": "「經投票決定採取某項行動」與本句語境不同。",
-        "vote-mcq-11": "「透過表決否決某提案」與本句語境不同。",
-        "vote-mcq-06": "「就某議題進行投票／表決」與本句語境不同。"
+        "vote-mcq-09": "本句的「vote the chair out」指「透過投票使某人下台／罷免」。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-09"
     },
@@ -1065,11 +973,9 @@ export default {
       "masked": "The committee ____.",
       "options": [
         "vote-mcq-10",
-        "vote-mcq-09",
-        "vote-mcq-11",
-        "vote-mcq-08",
         "vote-mcq-12",
-        "vote-mcq-07"
+        "vote-mcq-17",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「voted the proposal through」指「透過表決批准某提案；投票通過」。",
       "sentenceIndex": 20,
@@ -1078,12 +984,10 @@ export default {
         "voted the proposal through"
       ],
       "optionReasons": {
-        "vote-mcq-10": "本句指「透過表決批准某提案；投票通過」。",
-        "vote-mcq-09": "「透過投票使某人下台／罷免」與本句語境不同。",
-        "vote-mcq-11": "「透過表決否決某提案」與本句語境不同。",
-        "vote-mcq-08": "「透過投票選某人上任」與本句語境不同。",
-        "vote-mcq-12": "「對某人、某事或某方向表示支持／贊同」與本句語境不同。",
-        "vote-mcq-07": "「經投票決定採取某項行動」與本句語境不同。"
+        "vote-mcq-10": "本句的「voted the proposal through」指「透過表決批准某提案；投票通過」。",
+        "vote-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-10"
     },
@@ -1095,11 +999,9 @@ export default {
       "masked": "The changes were ____ quickly.",
       "options": [
         "vote-mcq-10",
-        "vote-mcq-09",
-        "vote-mcq-11",
-        "vote-mcq-08",
         "vote-mcq-12",
-        "vote-mcq-07"
+        "vote-mcq-17",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「voted through」指「透過表決批准某提案；投票通過」。",
       "sentenceIndex": 21,
@@ -1108,12 +1010,10 @@ export default {
         "voted through"
       ],
       "optionReasons": {
-        "vote-mcq-10": "本句指「透過表決批准某提案；投票通過」。",
-        "vote-mcq-09": "「透過投票使某人下台／罷免」與本句語境不同。",
-        "vote-mcq-11": "「透過表決否決某提案」與本句語境不同。",
-        "vote-mcq-08": "「透過投票選某人上任」與本句語境不同。",
-        "vote-mcq-12": "「對某人、某事或某方向表示支持／贊同」與本句語境不同。",
-        "vote-mcq-07": "「經投票決定採取某項行動」與本句語境不同。"
+        "vote-mcq-10": "本句的「voted through」指「透過表決批准某提案；投票通過」。",
+        "vote-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-10"
     },
@@ -1125,11 +1025,8 @@ export default {
       "masked": "Members ____.",
       "options": [
         "vote-mcq-11",
-        "vote-mcq-10",
-        "vote-mcq-12",
-        "vote-mcq-09",
-        "vote-mcq-13",
-        "vote-mcq-08"
+        "vote-mcq-05",
+        "vote-mcq-17"
       ],
       "explanation": "本句的「voted the proposal down」指「透過表決否決某提案」。",
       "sentenceIndex": 22,
@@ -1138,12 +1035,9 @@ export default {
         "voted the proposal down"
       ],
       "optionReasons": {
-        "vote-mcq-11": "本句指「透過表決否決某提案」。",
-        "vote-mcq-10": "「透過表決批准某提案；投票通過」與本句語境不同。",
-        "vote-mcq-12": "「對某人、某事或某方向表示支持／贊同」與本句語境不同。",
-        "vote-mcq-09": "「透過投票使某人下台／罷免」與本句語境不同。",
-        "vote-mcq-13": "「顯示對某人的能力、判斷或未來有信任與肯定」與本句語境不同。",
-        "vote-mcq-08": "「透過投票選某人上任」與本句語境不同。"
+        "vote-mcq-11": "本句的「voted the proposal down」指「透過表決否決某提案」。",
+        "vote-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-11"
     },
@@ -1155,11 +1049,8 @@ export default {
       "masked": "The amendment was ____.",
       "options": [
         "vote-mcq-11",
-        "vote-mcq-10",
-        "vote-mcq-12",
-        "vote-mcq-09",
-        "vote-mcq-13",
-        "vote-mcq-08"
+        "vote-mcq-05",
+        "vote-mcq-16"
       ],
       "explanation": "本句的「voted down」指「透過表決否決某提案」。",
       "sentenceIndex": 23,
@@ -1168,12 +1059,9 @@ export default {
         "voted down"
       ],
       "optionReasons": {
-        "vote-mcq-11": "本句指「透過表決否決某提案」。",
-        "vote-mcq-10": "「透過表決批准某提案；投票通過」與本句語境不同。",
-        "vote-mcq-12": "「對某人、某事或某方向表示支持／贊同」與本句語境不同。",
-        "vote-mcq-09": "「透過投票使某人下台／罷免」與本句語境不同。",
-        "vote-mcq-13": "「顯示對某人的能力、判斷或未來有信任與肯定」與本句語境不同。",
-        "vote-mcq-08": "「透過投票選某人上任」與本句語境不同。"
+        "vote-mcq-11": "本句的「voted down」指「透過表決否決某提案」。",
+        "vote-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-11"
     },
@@ -1185,11 +1073,9 @@ export default {
       "masked": "Their decision was a ____.",
       "options": [
         "vote-mcq-12",
+        "vote-mcq-21",
         "vote-mcq-11",
-        "vote-mcq-13",
-        "vote-mcq-10",
-        "vote-mcq-14",
-        "vote-mcq-09"
+        "vote-mcq-17"
       ],
       "explanation": "本句的「vote for stability」指「對某人、某事或某方向表示支持／贊同」。",
       "sentenceIndex": 24,
@@ -1198,12 +1084,10 @@ export default {
         "vote for stability"
       ],
       "optionReasons": {
-        "vote-mcq-12": "本句指「對某人、某事或某方向表示支持／贊同」。",
-        "vote-mcq-11": "「透過表決否決某提案」與本句語境不同。",
-        "vote-mcq-13": "「顯示對某人的能力、判斷或未來有信任與肯定」與本句語境不同。",
-        "vote-mcq-10": "「透過表決批准某提案；投票通過」與本句語境不同。",
-        "vote-mcq-14": "「正式表示繼續支持領導者／機構的信任投票」與本句語境不同。",
-        "vote-mcq-09": "「透過投票使某人下台／罷免」與本句語境不同。"
+        "vote-mcq-12": "本句的「vote for stability」指「對某人、某事或某方向表示支持／贊同」。",
+        "vote-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-12"
     },
@@ -1215,11 +1099,9 @@ export default {
       "masked": "Choosing the local business was a ____.",
       "options": [
         "vote-mcq-12",
-        "vote-mcq-11",
-        "vote-mcq-13",
         "vote-mcq-10",
-        "vote-mcq-14",
-        "vote-mcq-09"
+        "vote-mcq-20",
+        "vote-mcq-16"
       ],
       "explanation": "本句的「vote for the community」指「對某人、某事或某方向表示支持／贊同」。",
       "sentenceIndex": 25,
@@ -1228,12 +1110,10 @@ export default {
         "vote for the community"
       ],
       "optionReasons": {
-        "vote-mcq-12": "本句指「對某人、某事或某方向表示支持／贊同」。",
-        "vote-mcq-11": "「透過表決否決某提案」與本句語境不同。",
-        "vote-mcq-13": "「顯示對某人的能力、判斷或未來有信任與肯定」與本句語境不同。",
-        "vote-mcq-10": "「透過表決批准某提案；投票通過」與本句語境不同。",
-        "vote-mcq-14": "「正式表示繼續支持領導者／機構的信任投票」與本句語境不同。",
-        "vote-mcq-09": "「透過投票使某人下台／罷免」與本句語境不同。"
+        "vote-mcq-12": "本句的「vote for the community」指「對某人、某事或某方向表示支持／贊同」。",
+        "vote-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-12"
     },
@@ -1245,11 +1125,8 @@ export default {
       "masked": "The promotion was a ____ in her leadership.",
       "options": [
         "vote-mcq-13",
-        "vote-mcq-12",
-        "vote-mcq-14",
-        "vote-mcq-11",
-        "vote-mcq-15",
-        "vote-mcq-10"
+        "vote-mcq-19",
+        "vote-mcq-11"
       ],
       "explanation": "本句的「vote of confidence」指「顯示對某人的能力、判斷或未來有信任與肯定」。",
       "sentenceIndex": 26,
@@ -1258,12 +1135,9 @@ export default {
         "vote of confidence"
       ],
       "optionReasons": {
-        "vote-mcq-13": "本句指「顯示對某人的能力、判斷或未來有信任與肯定」。",
-        "vote-mcq-12": "「對某人、某事或某方向表示支持／贊同」與本句語境不同。",
-        "vote-mcq-14": "「正式表示繼續支持領導者／機構的信任投票」與本句語境不同。",
-        "vote-mcq-11": "「透過表決否決某提案」與本句語境不同。",
-        "vote-mcq-15": "「正式表示不再支持領導者／機構的不信任投票」與本句語境不同。",
-        "vote-mcq-10": "「透過表決批准某提案；投票通過」與本句語境不同。"
+        "vote-mcq-13": "本句的「vote of confidence」指「顯示對某人的能力、判斷或未來有信任與肯定」。",
+        "vote-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-13"
     },
@@ -1275,11 +1149,9 @@ export default {
       "masked": "His support gave me a much-needed ____.",
       "options": [
         "vote-mcq-13",
-        "vote-mcq-12",
-        "vote-mcq-14",
-        "vote-mcq-11",
-        "vote-mcq-15",
-        "vote-mcq-10"
+        "vote-mcq-06",
+        "vote-mcq-17",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「vote of confidence」指「顯示對某人的能力、判斷或未來有信任與肯定」。",
       "sentenceIndex": 27,
@@ -1288,12 +1160,10 @@ export default {
         "vote of confidence"
       ],
       "optionReasons": {
-        "vote-mcq-13": "本句指「顯示對某人的能力、判斷或未來有信任與肯定」。",
-        "vote-mcq-12": "「對某人、某事或某方向表示支持／贊同」與本句語境不同。",
-        "vote-mcq-14": "「正式表示繼續支持領導者／機構的信任投票」與本句語境不同。",
-        "vote-mcq-11": "「透過表決否決某提案」與本句語境不同。",
-        "vote-mcq-15": "「正式表示不再支持領導者／機構的不信任投票」與本句語境不同。",
-        "vote-mcq-10": "「透過表決批准某提案；投票通過」與本句語境不同。"
+        "vote-mcq-13": "本句的「vote of confidence」指「顯示對某人的能力、判斷或未來有信任與肯定」。",
+        "vote-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-13"
     },
@@ -1305,11 +1175,8 @@ export default {
       "masked": "The board passed a ____ in the chair.",
       "options": [
         "vote-mcq-14",
-        "vote-mcq-13",
-        "vote-mcq-15",
-        "vote-mcq-12",
-        "vote-mcq-16",
-        "vote-mcq-11"
+        "vote-mcq-11",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「vote of confidence」指「正式表示繼續支持領導者／機構的信任投票」。",
       "sentenceIndex": 28,
@@ -1318,12 +1185,9 @@ export default {
         "vote of confidence"
       ],
       "optionReasons": {
-        "vote-mcq-14": "本句指「正式表示繼續支持領導者／機構的信任投票」。",
-        "vote-mcq-13": "「顯示對某人的能力、判斷或未來有信任與肯定」與本句語境不同。",
-        "vote-mcq-15": "「正式表示不再支持領導者／機構的不信任投票」與本句語境不同。",
-        "vote-mcq-12": "「對某人、某事或某方向表示支持／贊同」與本句語境不同。",
-        "vote-mcq-16": "「非正式表示自己選哪一個／贊成哪個方案」與本句語境不同。",
-        "vote-mcq-11": "「透過表決否決某提案」與本句語境不同。"
+        "vote-mcq-14": "本句的「vote of confidence」指「正式表示繼續支持領導者／機構的信任投票」。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-14"
     },
@@ -1335,11 +1199,8 @@ export default {
       "masked": "The leader survived a ____.",
       "options": [
         "vote-mcq-14",
-        "vote-mcq-13",
-        "vote-mcq-15",
-        "vote-mcq-12",
-        "vote-mcq-16",
-        "vote-mcq-11"
+        "vote-mcq-11",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「vote of confidence」指「正式表示繼續支持領導者／機構的信任投票」。",
       "sentenceIndex": 29,
@@ -1348,12 +1209,9 @@ export default {
         "vote of confidence"
       ],
       "optionReasons": {
-        "vote-mcq-14": "本句指「正式表示繼續支持領導者／機構的信任投票」。",
-        "vote-mcq-13": "「顯示對某人的能力、判斷或未來有信任與肯定」與本句語境不同。",
-        "vote-mcq-15": "「正式表示不再支持領導者／機構的不信任投票」與本句語境不同。",
-        "vote-mcq-12": "「對某人、某事或某方向表示支持／贊同」與本句語境不同。",
-        "vote-mcq-16": "「非正式表示自己選哪一個／贊成哪個方案」與本句語境不同。",
-        "vote-mcq-11": "「透過表決否決某提案」與本句語境不同。"
+        "vote-mcq-14": "本句的「vote of confidence」指「正式表示繼續支持領導者／機構的信任投票」。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-14"
     },
@@ -1365,11 +1223,8 @@ export default {
       "masked": "Members called for a ____.",
       "options": [
         "vote-mcq-15",
-        "vote-mcq-14",
-        "vote-mcq-16",
-        "vote-mcq-13",
-        "vote-mcq-17",
-        "vote-mcq-12"
+        "vote-mcq-11",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「vote of no confidence」指「正式表示不再支持領導者／機構的不信任投票」。",
       "sentenceIndex": 30,
@@ -1378,12 +1233,9 @@ export default {
         "vote of no confidence"
       ],
       "optionReasons": {
-        "vote-mcq-15": "本句指「正式表示不再支持領導者／機構的不信任投票」。",
-        "vote-mcq-14": "「正式表示繼續支持領導者／機構的信任投票」與本句語境不同。",
-        "vote-mcq-16": "「非正式表示自己選哪一個／贊成哪個方案」與本句語境不同。",
-        "vote-mcq-13": "「顯示對某人的能力、判斷或未來有信任與肯定」與本句語境不同。",
-        "vote-mcq-17": "「非正式提出偏好的行動；「我提議／我贊成我們……」」與本句語境不同。",
-        "vote-mcq-12": "「對某人、某事或某方向表示支持／贊同」與本句語境不同。"
+        "vote-mcq-15": "本句的「vote of no confidence」指「正式表示不再支持領導者／機構的不信任投票」。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-15"
     },
@@ -1395,11 +1247,8 @@ export default {
       "masked": "The board passed a ____ in the chair.",
       "options": [
         "vote-mcq-15",
-        "vote-mcq-14",
-        "vote-mcq-16",
-        "vote-mcq-13",
-        "vote-mcq-17",
-        "vote-mcq-12"
+        "vote-mcq-11",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「vote of no confidence」指「正式表示不再支持領導者／機構的不信任投票」。",
       "sentenceIndex": 31,
@@ -1408,12 +1257,9 @@ export default {
         "vote of no confidence"
       ],
       "optionReasons": {
-        "vote-mcq-15": "本句指「正式表示不再支持領導者／機構的不信任投票」。",
-        "vote-mcq-14": "「正式表示繼續支持領導者／機構的信任投票」與本句語境不同。",
-        "vote-mcq-16": "「非正式表示自己選哪一個／贊成哪個方案」與本句語境不同。",
-        "vote-mcq-13": "「顯示對某人的能力、判斷或未來有信任與肯定」與本句語境不同。",
-        "vote-mcq-17": "「非正式提出偏好的行動；「我提議／我贊成我們……」」與本句語境不同。",
-        "vote-mcq-12": "「對某人、某事或某方向表示支持／贊同」與本句語境不同。"
+        "vote-mcq-15": "本句的「vote of no confidence」指「正式表示不再支持領導者／機構的不信任投票」。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-15"
     },
@@ -1425,10 +1271,7 @@ export default {
       "masked": "I ____ tonight.",
       "options": [
         "vote-mcq-16",
-        "vote-mcq-15",
-        "vote-mcq-17",
-        "vote-mcq-14",
-        "vote-mcq-18",
+        "vote-mcq-26",
         "vote-mcq-13"
       ],
       "explanation": "本句的「vote for pizza」指「非正式表示自己選哪一個／贊成哪個方案」。",
@@ -1438,12 +1281,9 @@ export default {
         "vote for pizza"
       ],
       "optionReasons": {
-        "vote-mcq-16": "本句指「非正式表示自己選哪一個／贊成哪個方案」。",
-        "vote-mcq-15": "「正式表示不再支持領導者／機構的不信任投票」與本句語境不同。",
-        "vote-mcq-17": "「非正式提出偏好的行動；「我提議／我贊成我們……」」與本句語境不同。",
-        "vote-mcq-14": "「正式表示繼續支持領導者／機構的信任投票」與本句語境不同。",
-        "vote-mcq-18": "「總票數、選票比例或投票結果」與本句語境不同。",
-        "vote-mcq-13": "「顯示對某人的能力、判斷或未來有信任與肯定」與本句語境不同。"
+        "vote-mcq-16": "本句的「vote for pizza」指「非正式表示自己選哪一個／贊成哪個方案」。",
+        "vote-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-16"
     },
@@ -1455,11 +1295,8 @@ export default {
       "masked": "Who ____ leaving early?",
       "options": [
         "vote-mcq-16",
-        "vote-mcq-15",
-        "vote-mcq-17",
-        "vote-mcq-14",
-        "vote-mcq-18",
-        "vote-mcq-13"
+        "vote-mcq-13",
+        "vote-mcq-26"
       ],
       "explanation": "本句的「votes for」指「非正式表示自己選哪一個／贊成哪個方案」。",
       "sentenceIndex": 33,
@@ -1468,12 +1305,9 @@ export default {
         "votes for"
       ],
       "optionReasons": {
-        "vote-mcq-16": "本句指「非正式表示自己選哪一個／贊成哪個方案」。",
-        "vote-mcq-15": "「正式表示不再支持領導者／機構的不信任投票」與本句語境不同。",
-        "vote-mcq-17": "「非正式提出偏好的行動；「我提議／我贊成我們……」」與本句語境不同。",
-        "vote-mcq-14": "「正式表示繼續支持領導者／機構的信任投票」與本句語境不同。",
-        "vote-mcq-18": "「總票數、選票比例或投票結果」與本句語境不同。",
-        "vote-mcq-13": "「顯示對某人的能力、判斷或未來有信任與肯定」與本句語境不同。"
+        "vote-mcq-16": "本句的「votes for」指「非正式表示自己選哪一個／贊成哪個方案」。",
+        "vote-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-16"
     },
@@ -1485,11 +1319,9 @@ export default {
       "masked": "____",
       "options": [
         "vote-mcq-17",
-        "vote-mcq-16",
-        "vote-mcq-18",
-        "vote-mcq-15",
-        "vote-mcq-19",
-        "vote-mcq-14"
+        "vote-mcq-24",
+        "vote-mcq-13",
+        "vote-mcq-11"
       ],
       "explanation": "本句的「I vote we take a break.」指「非正式提出偏好的行動；「我提議／我贊成我們……」」。",
       "sentenceIndex": 34,
@@ -1498,12 +1330,10 @@ export default {
         "I vote we take a break."
       ],
       "optionReasons": {
-        "vote-mcq-17": "本句指「非正式提出偏好的行動；「我提議／我贊成我們……」」。",
-        "vote-mcq-16": "「非正式表示自己選哪一個／贊成哪個方案」與本句語境不同。",
-        "vote-mcq-18": "「總票數、選票比例或投票結果」與本句語境不同。",
-        "vote-mcq-15": "「正式表示不再支持領導者／機構的不信任投票」與本句語境不同。",
-        "vote-mcq-19": "「正式投下一票」與本句語境不同。",
-        "vote-mcq-14": "「正式表示繼續支持領導者／機構的信任投票」與本句語境不同。"
+        "vote-mcq-17": "本句的「I vote we take a break.」指「非正式提出偏好的行動；「我提議／我贊成我們……」」。",
+        "vote-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-17"
     },
@@ -1515,11 +1345,8 @@ export default {
       "masked": "____",
       "options": [
         "vote-mcq-17",
-        "vote-mcq-16",
-        "vote-mcq-18",
-        "vote-mcq-15",
-        "vote-mcq-19",
-        "vote-mcq-14"
+        "vote-mcq-05",
+        "vote-mcq-11"
       ],
       "explanation": "本句的「I vote we stay home tonight.」指「非正式提出偏好的行動；「我提議／我贊成我們……」」。",
       "sentenceIndex": 35,
@@ -1528,12 +1355,9 @@ export default {
         "I vote we stay home tonight."
       ],
       "optionReasons": {
-        "vote-mcq-17": "本句指「非正式提出偏好的行動；「我提議／我贊成我們……」」。",
-        "vote-mcq-16": "「非正式表示自己選哪一個／贊成哪個方案」與本句語境不同。",
-        "vote-mcq-18": "「總票數、選票比例或投票結果」與本句語境不同。",
-        "vote-mcq-15": "「正式表示不再支持領導者／機構的不信任投票」與本句語境不同。",
-        "vote-mcq-19": "「正式投下一票」與本句語境不同。",
-        "vote-mcq-14": "「正式表示繼續支持領導者／機構的信任投票」與本句語境不同。"
+        "vote-mcq-17": "本句的「I vote we stay home tonight.」指「非正式提出偏好的行動；「我提議／我贊成我們……」」。",
+        "vote-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-17"
     },
@@ -1545,11 +1369,9 @@ export default {
       "masked": "They won 60% of ____.",
       "options": [
         "vote-mcq-18",
+        "vote-mcq-12",
         "vote-mcq-17",
-        "vote-mcq-19",
-        "vote-mcq-16",
-        "vote-mcq-20",
-        "vote-mcq-15"
+        "vote-mcq-11"
       ],
       "explanation": "本句的「the vote」指「總票數、選票比例或投票結果」。",
       "sentenceIndex": 36,
@@ -1558,12 +1380,10 @@ export default {
         "the vote"
       ],
       "optionReasons": {
-        "vote-mcq-18": "本句指「總票數、選票比例或投票結果」。",
-        "vote-mcq-17": "「非正式提出偏好的行動；「我提議／我贊成我們……」」與本句語境不同。",
-        "vote-mcq-19": "「正式投下一票」與本句語境不同。",
-        "vote-mcq-16": "「非正式表示自己選哪一個／贊成哪個方案」與本句語境不同。",
-        "vote-mcq-20": "「在票數相同時決定結果的一票」與本句語境不同。",
-        "vote-mcq-15": "「正式表示不再支持領導者／機構的不信任投票」與本句語境不同。"
+        "vote-mcq-18": "本句的「the vote」指「總票數、選票比例或投票結果」。",
+        "vote-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-18"
     },
@@ -1575,11 +1395,7 @@ export default {
       "masked": "The final ____ was extremely close.",
       "options": [
         "vote-mcq-18",
-        "vote-mcq-17",
-        "vote-mcq-19",
-        "vote-mcq-16",
-        "vote-mcq-20",
-        "vote-mcq-15"
+        "vote-mcq-25"
       ],
       "explanation": "本句的「vote」指「總票數、選票比例或投票結果」。",
       "sentenceIndex": 37,
@@ -1588,12 +1404,8 @@ export default {
         "vote"
       ],
       "optionReasons": {
-        "vote-mcq-18": "本句指「總票數、選票比例或投票結果」。",
-        "vote-mcq-17": "「非正式提出偏好的行動；「我提議／我贊成我們……」」與本句語境不同。",
-        "vote-mcq-19": "「正式投下一票」與本句語境不同。",
-        "vote-mcq-16": "「非正式表示自己選哪一個／贊成哪個方案」與本句語境不同。",
-        "vote-mcq-20": "「在票數相同時決定結果的一票」與本句語境不同。",
-        "vote-mcq-15": "「正式表示不再支持領導者／機構的不信任投票」與本句語境不同。"
+        "vote-mcq-18": "本句的「vote」指「總票數、選票比例或投票結果」。",
+        "vote-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-18"
     },
@@ -1605,11 +1417,9 @@ export default {
       "masked": "The proposal passed by a ____.",
       "options": [
         "vote-mcq-18",
+        "vote-mcq-11",
         "vote-mcq-17",
-        "vote-mcq-19",
-        "vote-mcq-16",
-        "vote-mcq-20",
-        "vote-mcq-15"
+        "vote-mcq-13"
       ],
       "explanation": "本句的「majority vote」指「總票數、選票比例或投票結果」。",
       "sentenceIndex": 38,
@@ -1618,12 +1428,10 @@ export default {
         "majority vote"
       ],
       "optionReasons": {
-        "vote-mcq-18": "本句指「總票數、選票比例或投票結果」。",
-        "vote-mcq-17": "「非正式提出偏好的行動；「我提議／我贊成我們……」」與本句語境不同。",
-        "vote-mcq-19": "「正式投下一票」與本句語境不同。",
-        "vote-mcq-16": "「非正式表示自己選哪一個／贊成哪個方案」與本句語境不同。",
-        "vote-mcq-20": "「在票數相同時決定結果的一票」與本句語境不同。",
-        "vote-mcq-15": "「正式表示不再支持領導者／機構的不信任投票」與本句語境不同。"
+        "vote-mcq-18": "本句的「majority vote」指「總票數、選票比例或投票結果」。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-18"
     },
@@ -1635,11 +1443,7 @@ export default {
       "masked": "The minority ____ was recorded separately.",
       "options": [
         "vote-mcq-18",
-        "vote-mcq-17",
-        "vote-mcq-19",
-        "vote-mcq-16",
-        "vote-mcq-20",
-        "vote-mcq-15"
+        "vote-mcq-25"
       ],
       "explanation": "本句的「vote」指「總票數、選票比例或投票結果」。",
       "sentenceIndex": 39,
@@ -1648,12 +1452,8 @@ export default {
         "vote"
       ],
       "optionReasons": {
-        "vote-mcq-18": "本句指「總票數、選票比例或投票結果」。",
-        "vote-mcq-17": "「非正式提出偏好的行動；「我提議／我贊成我們……」」與本句語境不同。",
-        "vote-mcq-19": "「正式投下一票」與本句語境不同。",
-        "vote-mcq-16": "「非正式表示自己選哪一個／贊成哪個方案」與本句語境不同。",
-        "vote-mcq-20": "「在票數相同時決定結果的一票」與本句語境不同。",
-        "vote-mcq-15": "「正式表示不再支持領導者／機構的不信任投票」與本句語境不同。"
+        "vote-mcq-18": "本句的「vote」指「總票數、選票比例或投票結果」。",
+        "vote-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-18"
     },
@@ -1665,11 +1465,8 @@ export default {
       "masked": "Each member may ____.",
       "options": [
         "vote-mcq-19",
-        "vote-mcq-18",
-        "vote-mcq-20",
-        "vote-mcq-17",
-        "vote-mcq-21",
-        "vote-mcq-16"
+        "vote-mcq-12",
+        "vote-mcq-11"
       ],
       "explanation": "本句的「cast one vote」指「正式投下一票」。",
       "sentenceIndex": 40,
@@ -1678,12 +1475,9 @@ export default {
         "cast one vote"
       ],
       "optionReasons": {
-        "vote-mcq-19": "本句指「正式投下一票」。",
-        "vote-mcq-18": "「總票數、選票比例或投票結果」與本句語境不同。",
-        "vote-mcq-20": "「在票數相同時決定結果的一票」與本句語境不同。",
-        "vote-mcq-17": "「非正式提出偏好的行動；「我提議／我贊成我們……」」與本句語境不同。",
-        "vote-mcq-21": "「參與選舉的投票權／選舉權」與本句語境不同。",
-        "vote-mcq-16": "「非正式表示自己選哪一個／贊成哪個方案」與本句語境不同。"
+        "vote-mcq-19": "本句的「cast one vote」指「正式投下一票」。",
+        "vote-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-19"
     },
@@ -1695,11 +1489,8 @@ export default {
       "masked": "Thousands of people ____.",
       "options": [
         "vote-mcq-19",
-        "vote-mcq-18",
-        "vote-mcq-20",
-        "vote-mcq-17",
-        "vote-mcq-21",
-        "vote-mcq-16"
+        "vote-mcq-12",
+        "vote-mcq-11"
       ],
       "explanation": "本句的「cast their votes」指「正式投下一票」。",
       "sentenceIndex": 41,
@@ -1708,12 +1499,9 @@ export default {
         "cast their votes"
       ],
       "optionReasons": {
-        "vote-mcq-19": "本句指「正式投下一票」。",
-        "vote-mcq-18": "「總票數、選票比例或投票結果」與本句語境不同。",
-        "vote-mcq-20": "「在票數相同時決定結果的一票」與本句語境不同。",
-        "vote-mcq-17": "「非正式提出偏好的行動；「我提議／我贊成我們……」」與本句語境不同。",
-        "vote-mcq-21": "「參與選舉的投票權／選舉權」與本句語境不同。",
-        "vote-mcq-16": "「非正式表示自己選哪一個／贊成哪個方案」與本句語境不同。"
+        "vote-mcq-19": "本句的「cast their votes」指「正式投下一票」。",
+        "vote-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-19"
     },
@@ -1725,11 +1513,9 @@ export default {
       "masked": "Her ____ broke the tie.",
       "options": [
         "vote-mcq-20",
-        "vote-mcq-19",
-        "vote-mcq-21",
-        "vote-mcq-18",
-        "vote-mcq-22",
-        "vote-mcq-17"
+        "vote-mcq-16",
+        "vote-mcq-11",
+        "vote-mcq-04"
       ],
       "explanation": "本句的「deciding vote」指「在票數相同時決定結果的一票」。",
       "sentenceIndex": 42,
@@ -1738,12 +1524,10 @@ export default {
         "deciding vote"
       ],
       "optionReasons": {
-        "vote-mcq-20": "本句指「在票數相同時決定結果的一票」。",
-        "vote-mcq-19": "「正式投下一票」與本句語境不同。",
-        "vote-mcq-21": "「參與選舉的投票權／選舉權」與本句語境不同。",
-        "vote-mcq-18": "「總票數、選票比例或投票結果」與本句語境不同。",
-        "vote-mcq-22": "「參加投票或有投票權的人；選民」與本句語境不同。",
-        "vote-mcq-17": "「非正式提出偏好的行動；「我提議／我贊成我們……」」與本句語境不同。"
+        "vote-mcq-20": "本句的「deciding vote」指「在票數相同時決定結果的一票」。",
+        "vote-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-20"
     },
@@ -1755,11 +1539,8 @@ export default {
       "masked": "The chair has a ____ in the event of a tie.",
       "options": [
         "vote-mcq-20",
-        "vote-mcq-19",
-        "vote-mcq-21",
-        "vote-mcq-18",
-        "vote-mcq-22",
-        "vote-mcq-17"
+        "vote-mcq-16",
+        "vote-mcq-08"
       ],
       "explanation": "本句的「casting vote」指「在票數相同時決定結果的一票」。",
       "sentenceIndex": 43,
@@ -1768,12 +1549,9 @@ export default {
         "casting vote"
       ],
       "optionReasons": {
-        "vote-mcq-20": "本句指「在票數相同時決定結果的一票」。",
-        "vote-mcq-19": "「正式投下一票」與本句語境不同。",
-        "vote-mcq-21": "「參與選舉的投票權／選舉權」與本句語境不同。",
-        "vote-mcq-18": "「總票數、選票比例或投票結果」與本句語境不同。",
-        "vote-mcq-22": "「參加投票或有投票權的人；選民」與本句語境不同。",
-        "vote-mcq-17": "「非正式提出偏好的行動；「我提議／我贊成我們……」」與本句語境不同。"
+        "vote-mcq-20": "本句的「casting vote」指「在票數相同時決定結果的一票」。",
+        "vote-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-20"
     },
@@ -1785,11 +1563,9 @@ export default {
       "masked": "Women campaigned for ____.",
       "options": [
         "vote-mcq-21",
-        "vote-mcq-20",
-        "vote-mcq-22",
-        "vote-mcq-19",
-        "vote-mcq-23",
-        "vote-mcq-18"
+        "vote-mcq-11",
+        "vote-mcq-12",
+        "vote-mcq-17"
       ],
       "explanation": "本句的「the vote」指「參與選舉的投票權／選舉權」。",
       "sentenceIndex": 44,
@@ -1798,12 +1574,10 @@ export default {
         "the vote"
       ],
       "optionReasons": {
-        "vote-mcq-21": "本句指「參與選舉的投票權／選舉權」。",
-        "vote-mcq-20": "「在票數相同時決定結果的一票」與本句語境不同。",
-        "vote-mcq-22": "「參加投票或有投票權的人；選民」與本句語境不同。",
-        "vote-mcq-19": "「正式投下一票」與本句語境不同。",
-        "vote-mcq-23": "「進行正式選擇的投票／表決過程」與本句語境不同。",
-        "vote-mcq-18": "「總票數、選票比例或投票結果」與本句語境不同。"
+        "vote-mcq-21": "本句的「the vote」指「參與選舉的投票權／選舉權」。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-21"
     },
@@ -1815,11 +1589,9 @@ export default {
       "masked": "The movement demanded ____ for all adults.",
       "options": [
         "vote-mcq-21",
-        "vote-mcq-20",
-        "vote-mcq-22",
-        "vote-mcq-19",
-        "vote-mcq-23",
-        "vote-mcq-18"
+        "vote-mcq-13",
+        "vote-mcq-17",
+        "vote-mcq-11"
       ],
       "explanation": "本句的「the vote」指「參與選舉的投票權／選舉權」。",
       "sentenceIndex": 45,
@@ -1828,12 +1600,10 @@ export default {
         "the vote"
       ],
       "optionReasons": {
-        "vote-mcq-21": "本句指「參與選舉的投票權／選舉權」。",
-        "vote-mcq-20": "「在票數相同時決定結果的一票」與本句語境不同。",
-        "vote-mcq-22": "「參加投票或有投票權的人；選民」與本句語境不同。",
-        "vote-mcq-19": "「正式投下一票」與本句語境不同。",
-        "vote-mcq-23": "「進行正式選擇的投票／表決過程」與本句語境不同。",
-        "vote-mcq-18": "「總票數、選票比例或投票結果」與本句語境不同。"
+        "vote-mcq-21": "本句的「the vote」指「參與選舉的投票權／選舉權」。",
+        "vote-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-21"
     },
@@ -1845,11 +1615,9 @@ export default {
       "masked": "____ went to the polls.",
       "options": [
         "vote-mcq-22",
-        "vote-mcq-21",
-        "vote-mcq-23",
-        "vote-mcq-20",
-        "vote-mcq-24",
-        "vote-mcq-19"
+        "vote-mcq-13",
+        "vote-mcq-11",
+        "vote-mcq-17"
       ],
       "explanation": "本句的「Voters」指「參加投票或有投票權的人；選民」。",
       "sentenceIndex": 46,
@@ -1858,12 +1626,10 @@ export default {
         "Voters"
       ],
       "optionReasons": {
-        "vote-mcq-22": "本句指「參加投票或有投票權的人；選民」。",
-        "vote-mcq-21": "「參與選舉的投票權／選舉權」與本句語境不同。",
-        "vote-mcq-23": "「進行正式選擇的投票／表決過程」與本句語境不同。",
-        "vote-mcq-20": "「在票數相同時決定結果的一票」與本句語境不同。",
-        "vote-mcq-24": "「規定如何投票、計票及決定結果的制度」與本句語境不同。",
-        "vote-mcq-19": "「正式投下一票」與本句語境不同。"
+        "vote-mcq-22": "本句的「Voters」指「參加投票或有投票權的人；選民」。",
+        "vote-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-22"
     },
@@ -1875,11 +1641,8 @@ export default {
       "masked": "The survey asked registered ____.",
       "options": [
         "vote-mcq-22",
-        "vote-mcq-21",
-        "vote-mcq-23",
-        "vote-mcq-20",
-        "vote-mcq-24",
-        "vote-mcq-19"
+        "vote-mcq-25",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「voters」指「參加投票或有投票權的人；選民」。",
       "sentenceIndex": 47,
@@ -1888,12 +1651,9 @@ export default {
         "voters"
       ],
       "optionReasons": {
-        "vote-mcq-22": "本句指「參加投票或有投票權的人；選民」。",
-        "vote-mcq-21": "「參與選舉的投票權／選舉權」與本句語境不同。",
-        "vote-mcq-23": "「進行正式選擇的投票／表決過程」與本句語境不同。",
-        "vote-mcq-20": "「在票數相同時決定結果的一票」與本句語境不同。",
-        "vote-mcq-24": "「規定如何投票、計票及決定結果的制度」與本句語境不同。",
-        "vote-mcq-19": "「正式投下一票」與本句語境不同。"
+        "vote-mcq-22": "本句的「voters」指「參加投票或有投票權的人；選民」。",
+        "vote-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-22"
     },
@@ -1905,10 +1665,7 @@ export default {
       "masked": "____ starts at nine.",
       "options": [
         "vote-mcq-23",
-        "vote-mcq-22",
-        "vote-mcq-24",
-        "vote-mcq-21",
-        "vote-mcq-25",
+        "vote-mcq-12",
         "vote-mcq-20"
       ],
       "explanation": "本句的「Voting」指「進行正式選擇的投票／表決過程」。",
@@ -1918,12 +1675,9 @@ export default {
         "Voting"
       ],
       "optionReasons": {
-        "vote-mcq-23": "本句指「進行正式選擇的投票／表決過程」。",
-        "vote-mcq-22": "「參加投票或有投票權的人；選民」與本句語境不同。",
-        "vote-mcq-24": "「規定如何投票、計票及決定結果的制度」與本句語境不同。",
-        "vote-mcq-21": "「參與選舉的投票權／選舉權」與本句語境不同。",
-        "vote-mcq-25": "「把某議題交由群體正式表決」與本句語境不同。",
-        "vote-mcq-20": "「在票數相同時決定結果的一票」與本句語境不同。"
+        "vote-mcq-23": "本句的「Voting」指「進行正式選擇的投票／表決過程」。",
+        "vote-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-23"
     },
@@ -1935,10 +1689,7 @@ export default {
       "masked": "The decision was made by ____.",
       "options": [
         "vote-mcq-23",
-        "vote-mcq-22",
-        "vote-mcq-24",
-        "vote-mcq-21",
-        "vote-mcq-25",
+        "vote-mcq-12",
         "vote-mcq-20"
       ],
       "explanation": "本句的「voting」指「進行正式選擇的投票／表決過程」。",
@@ -1948,12 +1699,9 @@ export default {
         "voting"
       ],
       "optionReasons": {
-        "vote-mcq-23": "本句指「進行正式選擇的投票／表決過程」。",
-        "vote-mcq-22": "「參加投票或有投票權的人；選民」與本句語境不同。",
-        "vote-mcq-24": "「規定如何投票、計票及決定結果的制度」與本句語境不同。",
-        "vote-mcq-21": "「參與選舉的投票權／選舉權」與本句語境不同。",
-        "vote-mcq-25": "「把某議題交由群體正式表決」與本句語境不同。",
-        "vote-mcq-20": "「在票數相同時決定結果的一票」與本句語境不同。"
+        "vote-mcq-23": "本句的「voting」指「進行正式選擇的投票／表決過程」。",
+        "vote-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-23"
     },
@@ -1965,11 +1713,9 @@ export default {
       "masked": "The organization changed its ____.",
       "options": [
         "vote-mcq-24",
-        "vote-mcq-23",
-        "vote-mcq-25",
-        "vote-mcq-22",
-        "vote-mcq-26",
-        "vote-mcq-21"
+        "vote-mcq-17",
+        "vote-mcq-12",
+        "vote-mcq-11"
       ],
       "explanation": "本句的「voting system」指「規定如何投票、計票及決定結果的制度」。",
       "sentenceIndex": 50,
@@ -1978,12 +1724,10 @@ export default {
         "voting system"
       ],
       "optionReasons": {
-        "vote-mcq-24": "本句指「規定如何投票、計票及決定結果的制度」。",
-        "vote-mcq-23": "「進行正式選擇的投票／表決過程」與本句語境不同。",
-        "vote-mcq-25": "「把某議題交由群體正式表決」與本句語境不同。",
-        "vote-mcq-22": "「參加投票或有投票權的人；選民」與本句語境不同。",
-        "vote-mcq-26": "「進行一次投票／表決」與本句語境不同。",
-        "vote-mcq-21": "「參與選舉的投票權／選舉權」與本句語境不同。"
+        "vote-mcq-24": "本句的「voting system」指「規定如何投票、計票及決定結果的制度」。",
+        "vote-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-24"
     },
@@ -1995,11 +1739,9 @@ export default {
       "masked": "Different countries use different ____.",
       "options": [
         "vote-mcq-24",
-        "vote-mcq-23",
-        "vote-mcq-25",
-        "vote-mcq-22",
-        "vote-mcq-26",
-        "vote-mcq-21"
+        "vote-mcq-16",
+        "vote-mcq-12",
+        "vote-mcq-11"
       ],
       "explanation": "本句的「voting systems」指「規定如何投票、計票及決定結果的制度」。",
       "sentenceIndex": 51,
@@ -2008,12 +1750,10 @@ export default {
         "voting systems"
       ],
       "optionReasons": {
-        "vote-mcq-24": "本句指「規定如何投票、計票及決定結果的制度」。",
-        "vote-mcq-23": "「進行正式選擇的投票／表決過程」與本句語境不同。",
-        "vote-mcq-25": "「把某議題交由群體正式表決」與本句語境不同。",
-        "vote-mcq-22": "「參加投票或有投票權的人；選民」與本句語境不同。",
-        "vote-mcq-26": "「進行一次投票／表決」與本句語境不同。",
-        "vote-mcq-21": "「參與選舉的投票權／選舉權」與本句語境不同。"
+        "vote-mcq-24": "本句的「voting systems」指「規定如何投票、計票及決定結果的制度」。",
+        "vote-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-24"
     },
@@ -2025,11 +1765,8 @@ export default {
       "masked": "Let’s ____.",
       "options": [
         "vote-mcq-25",
-        "vote-mcq-24",
-        "vote-mcq-26",
-        "vote-mcq-23",
         "vote-mcq-22",
-        "vote-mcq-21"
+        "vote-mcq-20"
       ],
       "explanation": "本句的「put the proposal to a vote」指「把某議題交由群體正式表決」。",
       "sentenceIndex": 52,
@@ -2038,12 +1775,9 @@ export default {
         "put the proposal to a vote"
       ],
       "optionReasons": {
-        "vote-mcq-25": "本句指「把某議題交由群體正式表決」。",
-        "vote-mcq-24": "「規定如何投票、計票及決定結果的制度」與本句語境不同。",
-        "vote-mcq-26": "「進行一次投票／表決」與本句語境不同。",
-        "vote-mcq-23": "「進行正式選擇的投票／表決過程」與本句語境不同。",
-        "vote-mcq-22": "「參加投票或有投票權的人；選民」與本句語境不同。",
-        "vote-mcq-21": "「參與選舉的投票權／選舉權」與本句語境不同。"
+        "vote-mcq-25": "本句的「put the proposal to a vote」指「把某議題交由群體正式表決」。",
+        "vote-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-25"
     },
@@ -2055,11 +1789,8 @@ export default {
       "masked": "The chair ____.",
       "options": [
         "vote-mcq-25",
-        "vote-mcq-24",
-        "vote-mcq-26",
-        "vote-mcq-23",
-        "vote-mcq-22",
-        "vote-mcq-21"
+        "vote-mcq-21",
+        "vote-mcq-20"
       ],
       "explanation": "本句的「put the question to a vote」指「把某議題交由群體正式表決」。",
       "sentenceIndex": 53,
@@ -2068,12 +1799,9 @@ export default {
         "put the question to a vote"
       ],
       "optionReasons": {
-        "vote-mcq-25": "本句指「把某議題交由群體正式表決」。",
-        "vote-mcq-24": "「規定如何投票、計票及決定結果的制度」與本句語境不同。",
-        "vote-mcq-26": "「進行一次投票／表決」與本句語境不同。",
-        "vote-mcq-23": "「進行正式選擇的投票／表決過程」與本句語境不同。",
-        "vote-mcq-22": "「參加投票或有投票權的人；選民」與本句語境不同。",
-        "vote-mcq-21": "「參與選舉的投票權／選舉權」與本句語境不同。"
+        "vote-mcq-25": "本句的「put the question to a vote」指「把某議題交由群體正式表決」。",
+        "vote-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-25"
     },
@@ -2085,11 +1813,8 @@ export default {
       "masked": "We should ____.",
       "options": [
         "vote-mcq-26",
-        "vote-mcq-25",
-        "vote-mcq-24",
-        "vote-mcq-23",
-        "vote-mcq-22",
-        "vote-mcq-21"
+        "vote-mcq-16",
+        "vote-mcq-13"
       ],
       "explanation": "本句的「take a vote」指「進行一次投票／表決」。",
       "sentenceIndex": 54,
@@ -2098,12 +1823,9 @@ export default {
         "take a vote"
       ],
       "optionReasons": {
-        "vote-mcq-26": "本句指「進行一次投票／表決」。",
-        "vote-mcq-25": "「把某議題交由群體正式表決」與本句語境不同。",
-        "vote-mcq-24": "「規定如何投票、計票及決定結果的制度」與本句語境不同。",
-        "vote-mcq-23": "「進行正式選擇的投票／表決過程」與本句語境不同。",
-        "vote-mcq-22": "「參加投票或有投票權的人；選民」與本句語境不同。",
-        "vote-mcq-21": "「參與選舉的投票權／選舉權」與本句語境不同。"
+        "vote-mcq-26": "本句的「take a vote」指「進行一次投票／表決」。",
+        "vote-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-26"
     },
@@ -2115,11 +1837,8 @@ export default {
       "masked": "The committee ____ on the issue.",
       "options": [
         "vote-mcq-26",
-        "vote-mcq-25",
-        "vote-mcq-24",
-        "vote-mcq-23",
-        "vote-mcq-22",
-        "vote-mcq-21"
+        "vote-mcq-16",
+        "vote-mcq-13"
       ],
       "explanation": "本句的「took a vote」指「進行一次投票／表決」。",
       "sentenceIndex": 55,
@@ -2128,12 +1847,9 @@ export default {
         "took a vote"
       ],
       "optionReasons": {
-        "vote-mcq-26": "本句指「進行一次投票／表決」。",
-        "vote-mcq-25": "「把某議題交由群體正式表決」與本句語境不同。",
-        "vote-mcq-24": "「規定如何投票、計票及決定結果的制度」與本句語境不同。",
-        "vote-mcq-23": "「進行正式選擇的投票／表決過程」與本句語境不同。",
-        "vote-mcq-22": "「參加投票或有投票權的人；選民」與本句語境不同。",
-        "vote-mcq-21": "「參與選舉的投票權／選舉權」與本句語境不同。"
+        "vote-mcq-26": "本句的「took a vote」指「進行一次投票／表決」。",
+        "vote-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "vote-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "vote-mcq-26"
     }
@@ -2145,5 +1861,7 @@ export default {
     "sha256": "dfd213857cb91e51ae021b9d242b98d25929ece65518feabb17d43fc998950de",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

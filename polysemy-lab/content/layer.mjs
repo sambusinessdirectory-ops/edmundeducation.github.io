@@ -433,10 +433,8 @@ export default {
       "masked": "There was a thin ____ of dust on the frame.",
       "options": [
         "layer-mcq-01",
-        "layer-mcq-02",
-        "layer-mcq-03",
-        "layer-mcq-04",
-        "layer-mcq-05",
+        "layer-mcq-11",
+        "layer-pdf-001",
         "layer-mcq-06"
       ],
       "explanation": "本句的「layer」指「覆蓋在另一表面之上的一層薄物質」。",
@@ -446,12 +444,10 @@ export default {
         "layer"
       ],
       "optionReasons": {
-        "layer-mcq-01": "本句指「覆蓋在另一表面之上的一層薄物質」。",
-        "layer-mcq-02": "「多層結構中的其中一層」與本句語境不同。",
-        "layer-mcq-03": "「疊加在其他顏色／顏料上的一層視覺效果」與本句語境不同。",
-        "layer-mcq-04": "「疊穿衣物中的一件／一層」與本句語境不同。",
-        "layer-mcq-05": "「土壤、岩石等按深度／形成過程排列的一層」與本句語境不同。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。"
+        "layer-mcq-01": "本句的「layer」指「覆蓋在另一表面之上的一層薄物質」。",
+        "layer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "layer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-01"
     },
@@ -463,11 +459,9 @@ export default {
       "masked": "The ground was covered with a ____ of snow.",
       "options": [
         "layer-mcq-01",
-        "layer-mcq-02",
-        "layer-mcq-03",
-        "layer-mcq-04",
-        "layer-mcq-05",
-        "layer-mcq-06"
+        "layer-mcq-11",
+        "layer-pdf-001",
+        "layer-mcq-08"
       ],
       "explanation": "本句的「layer」指「覆蓋在另一表面之上的一層薄物質」。",
       "sentenceIndex": 1,
@@ -476,12 +470,10 @@ export default {
         "layer"
       ],
       "optionReasons": {
-        "layer-mcq-01": "本句指「覆蓋在另一表面之上的一層薄物質」。",
-        "layer-mcq-02": "「多層結構中的其中一層」與本句語境不同。",
-        "layer-mcq-03": "「疊加在其他顏色／顏料上的一層視覺效果」與本句語境不同。",
-        "layer-mcq-04": "「疊穿衣物中的一件／一層」與本句語境不同。",
-        "layer-mcq-05": "「土壤、岩石等按深度／形成過程排列的一層」與本句語境不同。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。"
+        "layer-mcq-01": "本句的「layer」指「覆蓋在另一表面之上的一層薄物質」。",
+        "layer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "layer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-01"
     },
@@ -493,11 +485,8 @@ export default {
       "masked": "The cake has three ____.",
       "options": [
         "layer-mcq-02",
-        "layer-mcq-01",
-        "layer-mcq-03",
-        "layer-mcq-04",
-        "layer-mcq-05",
-        "layer-mcq-06"
+        "layer-mcq-10",
+        "layer-mcq-11"
       ],
       "explanation": "本句的「layers」指「多層結構中的其中一層」。",
       "sentenceIndex": 2,
@@ -506,12 +495,9 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "layer-mcq-02": "本句指「多層結構中的其中一層」。",
-        "layer-mcq-01": "「覆蓋在另一表面之上的一層薄物質」與本句語境不同。",
-        "layer-mcq-03": "「疊加在其他顏色／顏料上的一層視覺效果」與本句語境不同。",
-        "layer-mcq-04": "「疊穿衣物中的一件／一層」與本句語境不同。",
-        "layer-mcq-05": "「土壤、岩石等按深度／形成過程排列的一層」與本句語境不同。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。"
+        "layer-mcq-02": "本句的「layers」指「多層結構中的其中一層」。",
+        "layer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-02"
     },
@@ -523,11 +509,7 @@ export default {
       "masked": "The wall was built in several ____.",
       "options": [
         "layer-mcq-02",
-        "layer-mcq-01",
-        "layer-mcq-03",
-        "layer-mcq-04",
-        "layer-mcq-05",
-        "layer-mcq-06"
+        "layer-pdf-002"
       ],
       "explanation": "本句的「layers」指「多層結構中的其中一層」。",
       "sentenceIndex": 3,
@@ -536,12 +518,8 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "layer-mcq-02": "本句指「多層結構中的其中一層」。",
-        "layer-mcq-01": "「覆蓋在另一表面之上的一層薄物質」與本句語境不同。",
-        "layer-mcq-03": "「疊加在其他顏色／顏料上的一層視覺效果」與本句語境不同。",
-        "layer-mcq-04": "「疊穿衣物中的一件／一層」與本句語境不同。",
-        "layer-mcq-05": "「土壤、岩石等按深度／形成過程排列的一層」與本句語境不同。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。"
+        "layer-mcq-02": "本句的「layers」指「多層結構中的其中一層」。",
+        "layer-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-02"
     },
@@ -553,11 +531,9 @@ export default {
       "masked": "I noticed the soft ____ of blue, green, and purple.",
       "options": [
         "layer-mcq-03",
-        "layer-mcq-02",
-        "layer-mcq-04",
-        "layer-mcq-01",
-        "layer-mcq-05",
-        "layer-mcq-06"
+        "layer-mcq-06",
+        "layer-mcq-15",
+        "layer-mcq-16"
       ],
       "explanation": "本句的「layers」指「疊加在其他顏色／顏料上的一層視覺效果」。",
       "sentenceIndex": 4,
@@ -566,12 +542,10 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "layer-mcq-03": "本句指「疊加在其他顏色／顏料上的一層視覺效果」。",
-        "layer-mcq-02": "「多層結構中的其中一層」與本句語境不同。",
-        "layer-mcq-04": "「疊穿衣物中的一件／一層」與本句語境不同。",
-        "layer-mcq-01": "「覆蓋在另一表面之上的一層薄物質」與本句語境不同。",
-        "layer-mcq-05": "「土壤、岩石等按深度／形成過程排列的一層」與本句語境不同。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。"
+        "layer-mcq-03": "本句的「layers」指「疊加在其他顏色／顏料上的一層視覺效果」。",
+        "layer-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-03"
     },
@@ -583,11 +557,9 @@ export default {
       "masked": "The artist built the image with several thin ____ of paint.",
       "options": [
         "layer-mcq-03",
-        "layer-mcq-02",
-        "layer-mcq-04",
-        "layer-mcq-01",
-        "layer-mcq-05",
-        "layer-mcq-06"
+        "layer-mcq-09",
+        "layer-mcq-13",
+        "layer-mcq-16"
       ],
       "explanation": "本句的「layers」指「疊加在其他顏色／顏料上的一層視覺效果」。",
       "sentenceIndex": 5,
@@ -596,12 +568,10 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "layer-mcq-03": "本句指「疊加在其他顏色／顏料上的一層視覺效果」。",
-        "layer-mcq-02": "「多層結構中的其中一層」與本句語境不同。",
-        "layer-mcq-04": "「疊穿衣物中的一件／一層」與本句語境不同。",
-        "layer-mcq-01": "「覆蓋在另一表面之上的一層薄物質」與本句語境不同。",
-        "layer-mcq-05": "「土壤、岩石等按深度／形成過程排列的一層」與本句語境不同。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。"
+        "layer-mcq-03": "本句的「layers」指「疊加在其他顏色／顏料上的一層視覺效果」。",
+        "layer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-03"
     },
@@ -613,11 +583,9 @@ export default {
       "masked": "Wear an extra ____ if it gets cold.",
       "options": [
         "layer-mcq-04",
-        "layer-mcq-03",
-        "layer-mcq-05",
-        "layer-mcq-02",
-        "layer-mcq-06",
-        "layer-mcq-01"
+        "layer-mcq-10",
+        "layer-mcq-15",
+        "layer-mcq-08"
       ],
       "explanation": "本句的「layer」指「疊穿衣物中的一件／一層」。",
       "sentenceIndex": 6,
@@ -626,12 +594,10 @@ export default {
         "layer"
       ],
       "optionReasons": {
-        "layer-mcq-04": "本句指「疊穿衣物中的一件／一層」。",
-        "layer-mcq-03": "「疊加在其他顏色／顏料上的一層視覺效果」與本句語境不同。",
-        "layer-mcq-05": "「土壤、岩石等按深度／形成過程排列的一層」與本句語境不同。",
-        "layer-mcq-02": "「多層結構中的其中一層」與本句語境不同。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。",
-        "layer-mcq-01": "「覆蓋在另一表面之上的一層薄物質」與本句語境不同。"
+        "layer-mcq-04": "本句的「layer」指「疊穿衣物中的一件／一層」。",
+        "layer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-04"
     },
@@ -643,11 +609,9 @@ export default {
       "masked": "She wore several ____ under her coat.",
       "options": [
         "layer-mcq-04",
-        "layer-mcq-03",
-        "layer-mcq-05",
-        "layer-mcq-02",
-        "layer-mcq-06",
-        "layer-mcq-01"
+        "layer-mcq-10",
+        "layer-mcq-15",
+        "layer-mcq-06"
       ],
       "explanation": "本句的「layers」指「疊穿衣物中的一件／一層」。",
       "sentenceIndex": 7,
@@ -656,12 +620,10 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "layer-mcq-04": "本句指「疊穿衣物中的一件／一層」。",
-        "layer-mcq-03": "「疊加在其他顏色／顏料上的一層視覺效果」與本句語境不同。",
-        "layer-mcq-05": "「土壤、岩石等按深度／形成過程排列的一層」與本句語境不同。",
-        "layer-mcq-02": "「多層結構中的其中一層」與本句語境不同。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。",
-        "layer-mcq-01": "「覆蓋在另一表面之上的一層薄物質」與本句語境不同。"
+        "layer-mcq-04": "本句的「layers」指「疊穿衣物中的一件／一層」。",
+        "layer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-04"
     },
@@ -673,11 +635,9 @@ export default {
       "masked": "The rock contains several visible ____.",
       "options": [
         "layer-mcq-05",
-        "layer-mcq-04",
-        "layer-mcq-06",
-        "layer-mcq-03",
-        "layer-mcq-07",
-        "layer-mcq-02"
+        "layer-mcq-10",
+        "layer-mcq-09",
+        "layer-pdf-001"
       ],
       "explanation": "本句的「layers」指「土壤、岩石等按深度／形成過程排列的一層」。",
       "sentenceIndex": 8,
@@ -686,12 +646,10 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "layer-mcq-05": "本句指「土壤、岩石等按深度／形成過程排列的一層」。",
-        "layer-mcq-04": "「疊穿衣物中的一件／一層」與本句語境不同。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。",
-        "layer-mcq-03": "「疊加在其他顏色／顏料上的一層視覺效果」與本句語境不同。",
-        "layer-mcq-07": "「某事物中彼此重疊、逐步深入的意義或內容層次」與本句語境不同。",
-        "layer-mcq-02": "「多層結構中的其中一層」與本句語境不同。"
+        "layer-mcq-05": "本句的「layers」指「土壤、岩石等按深度／形成過程排列的一層」。",
+        "layer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "layer-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-05"
     },
@@ -703,11 +661,9 @@ export default {
       "masked": "Scientists studied the deeper ____ of soil.",
       "options": [
         "layer-mcq-05",
-        "layer-mcq-04",
-        "layer-mcq-06",
-        "layer-mcq-03",
-        "layer-mcq-07",
-        "layer-mcq-02"
+        "layer-mcq-10",
+        "layer-mcq-09",
+        "layer-pdf-001"
       ],
       "explanation": "本句的「layers」指「土壤、岩石等按深度／形成過程排列的一層」。",
       "sentenceIndex": 9,
@@ -716,12 +672,10 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "layer-mcq-05": "本句指「土壤、岩石等按深度／形成過程排列的一層」。",
-        "layer-mcq-04": "「疊穿衣物中的一件／一層」與本句語境不同。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。",
-        "layer-mcq-03": "「疊加在其他顏色／顏料上的一層視覺效果」與本句語境不同。",
-        "layer-mcq-07": "「某事物中彼此重疊、逐步深入的意義或內容層次」與本句語境不同。",
-        "layer-mcq-02": "「多層結構中的其中一層」與本句語境不同。"
+        "layer-mcq-05": "本句的「layers」指「土壤、岩石等按深度／形成過程排列的一層」。",
+        "layer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "layer-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-05"
     },
@@ -733,11 +687,9 @@ export default {
       "masked": "A thick ____ covered the sky.",
       "options": [
         "layer-mcq-06",
-        "layer-mcq-05",
-        "layer-mcq-07",
-        "layer-mcq-04",
-        "layer-mcq-08",
-        "layer-mcq-03"
+        "layer-mcq-10",
+        "layer-mcq-17",
+        "layer-mcq-15"
       ],
       "explanation": "本句的「layer of cloud」指「大氣、雲或氣體中的一個高度層級」。",
       "sentenceIndex": 10,
@@ -746,12 +698,10 @@ export default {
         "layer of cloud"
       ],
       "optionReasons": {
-        "layer-mcq-06": "本句指「大氣、雲或氣體中的一個高度層級」。",
-        "layer-mcq-05": "「土壤、岩石等按深度／形成過程排列的一層」與本句語境不同。",
-        "layer-mcq-07": "「某事物中彼此重疊、逐步深入的意義或內容層次」與本句語境不同。",
-        "layer-mcq-04": "「疊穿衣物中的一件／一層」與本句語境不同。",
-        "layer-mcq-08": "「組織、流程或制度中的一個階層／層級」與本句語境不同。",
-        "layer-mcq-03": "「疊加在其他顏色／顏料上的一層視覺效果」與本句語境不同。"
+        "layer-mcq-06": "本句的「layer of cloud」指「大氣、雲或氣體中的一個高度層級」。",
+        "layer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-06"
     },
@@ -763,11 +713,9 @@ export default {
       "masked": "The ozone ____ protects Earth from ultraviolet radiation.",
       "options": [
         "layer-mcq-06",
-        "layer-mcq-05",
-        "layer-mcq-07",
-        "layer-mcq-04",
-        "layer-mcq-08",
-        "layer-mcq-03"
+        "layer-pdf-002",
+        "layer-mcq-12",
+        "layer-pdf-001"
       ],
       "explanation": "本句的「layer」指「大氣、雲或氣體中的一個高度層級」。",
       "sentenceIndex": 11,
@@ -776,12 +724,10 @@ export default {
         "layer"
       ],
       "optionReasons": {
-        "layer-mcq-06": "本句指「大氣、雲或氣體中的一個高度層級」。",
-        "layer-mcq-05": "「土壤、岩石等按深度／形成過程排列的一層」與本句語境不同。",
-        "layer-mcq-07": "「某事物中彼此重疊、逐步深入的意義或內容層次」與本句語境不同。",
-        "layer-mcq-04": "「疊穿衣物中的一件／一層」與本句語境不同。",
-        "layer-mcq-08": "「組織、流程或制度中的一個階層／層級」與本句語境不同。",
-        "layer-mcq-03": "「疊加在其他顏色／顏料上的一層視覺效果」與本句語境不同。"
+        "layer-mcq-06": "本句的「layer」指「大氣、雲或氣體中的一個高度層級」。",
+        "layer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "layer-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-06"
     },
@@ -793,11 +739,9 @@ export default {
       "masked": "The painting has several ____.",
       "options": [
         "layer-mcq-07",
-        "layer-mcq-06",
-        "layer-mcq-08",
-        "layer-mcq-05",
         "layer-mcq-09",
-        "layer-mcq-04"
+        "layer-mcq-11",
+        "layer-mcq-01"
       ],
       "explanation": "本句的「layers of meaning」指「某事物中彼此重疊、逐步深入的意義或內容層次」。",
       "sentenceIndex": 12,
@@ -806,12 +750,10 @@ export default {
         "layers of meaning"
       ],
       "optionReasons": {
-        "layer-mcq-07": "本句指「某事物中彼此重疊、逐步深入的意義或內容層次」。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。",
-        "layer-mcq-08": "「組織、流程或制度中的一個階層／層級」與本句語境不同。",
-        "layer-mcq-05": "「土壤、岩石等按深度／形成過程排列的一層」與本句語境不同。",
-        "layer-mcq-09": "「軟件、網絡或系統架構中的一個功能層級」與本句語境不同。",
-        "layer-mcq-04": "「疊穿衣物中的一件／一層」與本句語境不同。"
+        "layer-mcq-07": "本句的「layers of meaning」指「某事物中彼此重疊、逐步深入的意義或內容層次」。",
+        "layer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-07"
     },
@@ -823,11 +765,9 @@ export default {
       "masked": "The story becomes richer as new ____ are revealed.",
       "options": [
         "layer-mcq-07",
-        "layer-mcq-06",
-        "layer-mcq-08",
-        "layer-mcq-05",
         "layer-mcq-09",
-        "layer-mcq-04"
+        "layer-mcq-01",
+        "layer-mcq-11"
       ],
       "explanation": "本句的「layers」指「某事物中彼此重疊、逐步深入的意義或內容層次」。",
       "sentenceIndex": 13,
@@ -836,12 +776,10 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "layer-mcq-07": "本句指「某事物中彼此重疊、逐步深入的意義或內容層次」。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。",
-        "layer-mcq-08": "「組織、流程或制度中的一個階層／層級」與本句語境不同。",
-        "layer-mcq-05": "「土壤、岩石等按深度／形成過程排列的一層」與本句語境不同。",
-        "layer-mcq-09": "「軟件、網絡或系統架構中的一個功能層級」與本句語境不同。",
-        "layer-mcq-04": "「疊穿衣物中的一件／一層」與本句語境不同。"
+        "layer-mcq-07": "本句的「layers」指「某事物中彼此重疊、逐步深入的意義或內容層次」。",
+        "layer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-07"
     },
@@ -853,11 +791,9 @@ export default {
       "masked": "The company has too many management ____.",
       "options": [
         "layer-mcq-08",
-        "layer-mcq-07",
-        "layer-mcq-09",
-        "layer-mcq-06",
-        "layer-mcq-10",
-        "layer-mcq-05"
+        "layer-mcq-11",
+        "layer-mcq-01",
+        "layer-mcq-15"
       ],
       "explanation": "本句的「layers」指「組織、流程或制度中的一個階層／層級」。",
       "sentenceIndex": 14,
@@ -866,12 +802,10 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "layer-mcq-08": "本句指「組織、流程或制度中的一個階層／層級」。",
-        "layer-mcq-07": "「某事物中彼此重疊、逐步深入的意義或內容層次」與本句語境不同。",
-        "layer-mcq-09": "「軟件、網絡或系統架構中的一個功能層級」與本句語境不同。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。",
-        "layer-mcq-10": "「可獨立編輯、顯示或隱藏的一組視覺／資料內容」與本句語境不同。",
-        "layer-mcq-05": "「土壤、岩石等按深度／形成過程排列的一層」與本句語境不同。"
+        "layer-mcq-08": "本句的「layers」指「組織、流程或制度中的一個階層／層級」。",
+        "layer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-08"
     },
@@ -883,11 +817,9 @@ export default {
       "masked": "The system adds another ____ of approval.",
       "options": [
         "layer-mcq-08",
-        "layer-mcq-07",
-        "layer-mcq-09",
-        "layer-mcq-06",
-        "layer-mcq-10",
-        "layer-mcq-05"
+        "layer-mcq-11",
+        "layer-mcq-01",
+        "layer-mcq-15"
       ],
       "explanation": "本句的「layer」指「組織、流程或制度中的一個階層／層級」。",
       "sentenceIndex": 15,
@@ -896,12 +828,10 @@ export default {
         "layer"
       ],
       "optionReasons": {
-        "layer-mcq-08": "本句指「組織、流程或制度中的一個階層／層級」。",
-        "layer-mcq-07": "「某事物中彼此重疊、逐步深入的意義或內容層次」與本句語境不同。",
-        "layer-mcq-09": "「軟件、網絡或系統架構中的一個功能層級」與本句語境不同。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。",
-        "layer-mcq-10": "「可獨立編輯、顯示或隱藏的一組視覺／資料內容」與本句語境不同。",
-        "layer-mcq-05": "「土壤、岩石等按深度／形成過程排列的一層」與本句語境不同。"
+        "layer-mcq-08": "本句的「layer」指「組織、流程或制度中的一個階層／層級」。",
+        "layer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-08"
     },
@@ -913,11 +843,9 @@ export default {
       "masked": "The application ____ handles user-facing services.",
       "options": [
         "layer-mcq-09",
-        "layer-mcq-08",
-        "layer-mcq-10",
-        "layer-mcq-07",
         "layer-mcq-11",
-        "layer-mcq-06"
+        "layer-mcq-10",
+        "layer-mcq-12"
       ],
       "explanation": "本句的「layer」指「軟件、網絡或系統架構中的一個功能層級」。",
       "sentenceIndex": 16,
@@ -926,12 +854,10 @@ export default {
         "layer"
       ],
       "optionReasons": {
-        "layer-mcq-09": "本句指「軟件、網絡或系統架構中的一個功能層級」。",
-        "layer-mcq-08": "「組織、流程或制度中的一個階層／層級」與本句語境不同。",
-        "layer-mcq-10": "「可獨立編輯、顯示或隱藏的一組視覺／資料內容」與本句語境不同。",
-        "layer-mcq-07": "「某事物中彼此重疊、逐步深入的意義或內容層次」與本句語境不同。",
-        "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。"
+        "layer-mcq-09": "本句的「layer」指「軟件、網絡或系統架構中的一個功能層級」。",
+        "layer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-09"
     },
@@ -943,11 +869,9 @@ export default {
       "masked": "Security can be added at several ____ of the system.",
       "options": [
         "layer-mcq-09",
-        "layer-mcq-08",
         "layer-mcq-10",
-        "layer-mcq-07",
         "layer-mcq-11",
-        "layer-mcq-06"
+        "layer-mcq-12"
       ],
       "explanation": "本句的「layers」指「軟件、網絡或系統架構中的一個功能層級」。",
       "sentenceIndex": 17,
@@ -956,12 +880,10 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "layer-mcq-09": "本句指「軟件、網絡或系統架構中的一個功能層級」。",
-        "layer-mcq-08": "「組織、流程或制度中的一個階層／層級」與本句語境不同。",
-        "layer-mcq-10": "「可獨立編輯、顯示或隱藏的一組視覺／資料內容」與本句語境不同。",
-        "layer-mcq-07": "「某事物中彼此重疊、逐步深入的意義或內容層次」與本句語境不同。",
-        "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。",
-        "layer-mcq-06": "「大氣、雲或氣體中的一個高度層級」與本句語境不同。"
+        "layer-mcq-09": "本句的「layers」指「軟件、網絡或系統架構中的一個功能層級」。",
+        "layer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-09"
     },
@@ -974,10 +896,8 @@ export default {
       "options": [
         "layer-mcq-10",
         "layer-mcq-09",
-        "layer-mcq-11",
-        "layer-mcq-08",
-        "layer-mcq-12",
-        "layer-mcq-07"
+        "layer-mcq-05",
+        "layer-pdf-001"
       ],
       "explanation": "本句的「layer」指「可獨立編輯、顯示或隱藏的一組視覺／資料內容」。",
       "sentenceIndex": 18,
@@ -986,12 +906,10 @@ export default {
         "layer"
       ],
       "optionReasons": {
-        "layer-mcq-10": "本句指「可獨立編輯、顯示或隱藏的一組視覺／資料內容」。",
-        "layer-mcq-09": "「軟件、網絡或系統架構中的一個功能層級」與本句語境不同。",
-        "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。",
-        "layer-mcq-08": "「組織、流程或制度中的一個階層／層級」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
-        "layer-mcq-07": "「某事物中彼此重疊、逐步深入的意義或內容層次」與本句語境不同。"
+        "layer-mcq-10": "本句的「layer」指「可獨立編輯、顯示或隱藏的一組視覺／資料內容」。",
+        "layer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "layer-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-10"
     },
@@ -1004,10 +922,8 @@ export default {
       "options": [
         "layer-mcq-10",
         "layer-mcq-09",
-        "layer-mcq-11",
-        "layer-mcq-08",
-        "layer-mcq-12",
-        "layer-mcq-07"
+        "layer-mcq-13",
+        "layer-mcq-17"
       ],
       "explanation": "本句的「layers」指「可獨立編輯、顯示或隱藏的一組視覺／資料內容」。",
       "sentenceIndex": 19,
@@ -1016,12 +932,10 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "layer-mcq-10": "本句指「可獨立編輯、顯示或隱藏的一組視覺／資料內容」。",
-        "layer-mcq-09": "「軟件、網絡或系統架構中的一個功能層級」與本句語境不同。",
-        "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。",
-        "layer-mcq-08": "「組織、流程或制度中的一個階層／層級」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
-        "layer-mcq-07": "「某事物中彼此重疊、逐步深入的意義或內容層次」與本句語境不同。"
+        "layer-mcq-10": "本句的「layers」指「可獨立編輯、顯示或隱藏的一組視覺／資料內容」。",
+        "layer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-10"
     },
@@ -1033,11 +947,9 @@ export default {
       "masked": "The song has many ____ of sound.",
       "options": [
         "layer-mcq-11",
-        "layer-mcq-10",
-        "layer-mcq-12",
+        "layer-pdf-001",
         "layer-mcq-09",
-        "layer-mcq-13",
-        "layer-mcq-08"
+        "layer-mcq-01"
       ],
       "explanation": "本句的「layers」指「與其他聲音疊加，共同形成整體音效的一部分」。",
       "sentenceIndex": 20,
@@ -1046,12 +958,10 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "layer-mcq-11": "本句指「與其他聲音疊加，共同形成整體音效的一部分」。",
-        "layer-mcq-10": "「可獨立編輯、顯示或隱藏的一組視覺／資料內容」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
-        "layer-mcq-09": "「軟件、網絡或系統架構中的一個功能層級」與本句語境不同。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-08": "「組織、流程或制度中的一個階層／層級」與本句語境不同。"
+        "layer-mcq-11": "本句的「layers」指「與其他聲音疊加，共同形成整體音效的一部分」。",
+        "layer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-11"
     },
@@ -1063,10 +973,8 @@ export default {
       "masked": "The producer added another vocal ____.",
       "options": [
         "layer-mcq-11",
-        "layer-mcq-10",
-        "layer-mcq-12",
-        "layer-mcq-09",
-        "layer-mcq-13",
+        "layer-mcq-01",
+        "layer-pdf-001",
         "layer-mcq-08"
       ],
       "explanation": "本句的「layer」指「與其他聲音疊加，共同形成整體音效的一部分」。",
@@ -1076,12 +984,10 @@ export default {
         "layer"
       ],
       "optionReasons": {
-        "layer-mcq-11": "本句指「與其他聲音疊加，共同形成整體音效的一部分」。",
-        "layer-mcq-10": "「可獨立編輯、顯示或隱藏的一組視覺／資料內容」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
-        "layer-mcq-09": "「軟件、網絡或系統架構中的一個功能層級」與本句語境不同。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-08": "「組織、流程或制度中的一個階層／層級」與本句語境不同。"
+        "layer-mcq-11": "本句的「layer」指「與其他聲音疊加，共同形成整體音效的一部分」。",
+        "layer-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "layer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-11"
     },
@@ -1093,11 +999,9 @@ export default {
       "masked": "Add a ____ of cream between the cakes.",
       "options": [
         "layer-mcq-12",
-        "layer-mcq-11",
-        "layer-mcq-13",
-        "layer-mcq-10",
-        "layer-mcq-14",
-        "layer-mcq-09"
+        "layer-mcq-08",
+        "layer-pdf-001",
+        "layer-pdf-002"
       ],
       "explanation": "本句的「layer」指「食物中水平疊放的一層材料」。",
       "sentenceIndex": 22,
@@ -1106,12 +1010,10 @@ export default {
         "layer"
       ],
       "optionReasons": {
-        "layer-mcq-12": "本句指「食物中水平疊放的一層材料」。",
-        "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-10": "「可獨立編輯、顯示或隱藏的一組視覺／資料內容」與本句語境不同。",
-        "layer-mcq-14": "「把多個東西按層次疊放、排列或疊加」與本句語境不同。",
-        "layer-mcq-09": "「軟件、網絡或系統架構中的一個功能層級」與本句語境不同。"
+        "layer-mcq-12": "本句的「layer」指「食物中水平疊放的一層材料」。",
+        "layer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "layer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "layer-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-12"
     },
@@ -1123,11 +1025,9 @@ export default {
       "masked": "The dessert has ____ of fruit and yogurt.",
       "options": [
         "layer-mcq-12",
-        "layer-mcq-11",
-        "layer-mcq-13",
         "layer-mcq-10",
-        "layer-mcq-14",
-        "layer-mcq-09"
+        "layer-mcq-15",
+        "layer-mcq-08"
       ],
       "explanation": "本句的「layers」指「食物中水平疊放的一層材料」。",
       "sentenceIndex": 23,
@@ -1136,12 +1036,10 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "layer-mcq-12": "本句指「食物中水平疊放的一層材料」。",
-        "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-10": "「可獨立編輯、顯示或隱藏的一組視覺／資料內容」與本句語境不同。",
-        "layer-mcq-14": "「把多個東西按層次疊放、排列或疊加」與本句語境不同。",
-        "layer-mcq-09": "「軟件、網絡或系統架構中的一個功能層級」與本句語境不同。"
+        "layer-mcq-12": "本句的「layers」指「食物中水平疊放的一層材料」。",
+        "layer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-12"
     },
@@ -1153,11 +1051,9 @@ export default {
       "masked": "She asked for more ____ in her hair.",
       "options": [
         "layer-mcq-13",
-        "layer-mcq-12",
-        "layer-mcq-14",
-        "layer-mcq-11",
-        "layer-mcq-15",
-        "layer-mcq-10"
+        "layer-mcq-10",
+        "layer-mcq-17",
+        "layer-mcq-09"
       ],
       "explanation": "本句的「layers」指「把頭髮剪成不同長度所形成的層次」。",
       "sentenceIndex": 24,
@@ -1166,12 +1062,10 @@ export default {
         "layers"
       ],
       "optionReasons": {
-        "layer-mcq-13": "本句指「把頭髮剪成不同長度所形成的層次」。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
-        "layer-mcq-14": "「把多個東西按層次疊放、排列或疊加」與本句語境不同。",
-        "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。",
-        "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
-        "layer-mcq-10": "「可獨立編輯、顯示或隱藏的一組視覺／資料內容」與本句語境不同。"
+        "layer-mcq-13": "本句的「layers」指「把頭髮剪成不同長度所形成的層次」。",
+        "layer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-13"
     },
@@ -1183,11 +1077,9 @@ export default {
       "masked": "____ can make thick hair feel lighter.",
       "options": [
         "layer-mcq-13",
-        "layer-mcq-12",
-        "layer-mcq-14",
-        "layer-mcq-11",
-        "layer-mcq-15",
-        "layer-mcq-10"
+        "layer-mcq-10",
+        "layer-mcq-09",
+        "layer-mcq-17"
       ],
       "explanation": "本句的「Layers」指「把頭髮剪成不同長度所形成的層次」。",
       "sentenceIndex": 25,
@@ -1196,12 +1088,10 @@ export default {
         "Layers"
       ],
       "optionReasons": {
-        "layer-mcq-13": "本句指「把頭髮剪成不同長度所形成的層次」。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
-        "layer-mcq-14": "「把多個東西按層次疊放、排列或疊加」與本句語境不同。",
-        "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。",
-        "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
-        "layer-mcq-10": "「可獨立編輯、顯示或隱藏的一組視覺／資料內容」與本句語境不同。"
+        "layer-mcq-13": "本句的「Layers」指「把頭髮剪成不同長度所形成的層次」。",
+        "layer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-13"
     },
@@ -1213,11 +1103,9 @@ export default {
       "masked": "____ the vegetables in the dish.",
       "options": [
         "layer-mcq-14",
-        "layer-mcq-13",
-        "layer-mcq-15",
-        "layer-mcq-12",
-        "layer-mcq-16",
-        "layer-mcq-11"
+        "layer-mcq-10",
+        "layer-mcq-08",
+        "layer-mcq-17"
       ],
       "explanation": "本句的「Layer」指「把多個東西按層次疊放、排列或疊加」。",
       "sentenceIndex": 26,
@@ -1226,12 +1114,10 @@ export default {
         "Layer"
       ],
       "optionReasons": {
-        "layer-mcq-14": "本句指「把多個東西按層次疊放、排列或疊加」。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
-        "layer-mcq-16": "「內容、意義或情感具有多個相互重疊層面的」與本句語境不同。",
-        "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。"
+        "layer-mcq-14": "本句的「Layer」指「把多個東西按層次疊放、排列或疊加」。",
+        "layer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-14"
     },
@@ -1243,11 +1129,9 @@ export default {
       "masked": "She ____ the blankets for extra warmth.",
       "options": [
         "layer-mcq-14",
-        "layer-mcq-13",
-        "layer-mcq-15",
-        "layer-mcq-12",
-        "layer-mcq-16",
-        "layer-mcq-11"
+        "layer-mcq-10",
+        "layer-mcq-08",
+        "layer-mcq-17"
       ],
       "explanation": "本句的「layered」指「把多個東西按層次疊放、排列或疊加」。",
       "sentenceIndex": 27,
@@ -1256,12 +1140,10 @@ export default {
         "layered"
       ],
       "optionReasons": {
-        "layer-mcq-14": "本句指「把多個東西按層次疊放、排列或疊加」。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
-        "layer-mcq-16": "「內容、意義或情感具有多個相互重疊層面的」與本句語境不同。",
-        "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。"
+        "layer-mcq-14": "本句的「layered」指「把多個東西按層次疊放、排列或疊加」。",
+        "layer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-14"
     },
@@ -1273,11 +1155,9 @@ export default {
       "masked": "It is easier to stay warm if you ____ your clothes.",
       "options": [
         "layer-pdf-001",
-        "layer-mcq-13",
-        "layer-mcq-15",
-        "layer-mcq-12",
-        "layer-mcq-16",
-        "layer-mcq-11"
+        "layer-mcq-11",
+        "layer-mcq-06",
+        "layer-mcq-12"
       ],
       "explanation": "本句的「layer」指「把幾件衣物按內外層次穿上」。",
       "sentenceIndex": 28,
@@ -1286,12 +1166,10 @@ export default {
         "layer"
       ],
       "optionReasons": {
-        "layer-pdf-001": "本句指「把幾件衣物按內外層次穿上」。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
-        "layer-mcq-16": "「內容、意義或情感具有多個相互重疊層面的」與本句語境不同。",
-        "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。"
+        "layer-pdf-001": "本句的「layer」指「把幾件衣物按內外層次穿上」。",
+        "layer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-pdf-001"
     },
@@ -1303,11 +1181,9 @@ export default {
       "masked": "She ____ a sweater under the coat.",
       "options": [
         "layer-pdf-001",
-        "layer-mcq-13",
-        "layer-mcq-15",
-        "layer-mcq-12",
-        "layer-mcq-16",
-        "layer-mcq-11"
+        "layer-pdf-002",
+        "layer-mcq-08",
+        "layer-mcq-12"
       ],
       "explanation": "本句的「layered」指「把幾件衣物按內外層次穿上」。",
       "sentenceIndex": 29,
@@ -1316,12 +1192,10 @@ export default {
         "layered"
       ],
       "optionReasons": {
-        "layer-pdf-001": "本句指「把幾件衣物按內外層次穿上」。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
-        "layer-mcq-16": "「內容、意義或情感具有多個相互重疊層面的」與本句語境不同。",
-        "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。"
+        "layer-pdf-001": "本句的「layered」指「把幾件衣物按內外層次穿上」。",
+        "layer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-pdf-001"
     },
@@ -1333,11 +1207,7 @@ export default {
       "masked": "The artist ____ transparent colours.",
       "options": [
         "layer-pdf-002",
-        "layer-mcq-13",
-        "layer-mcq-15",
-        "layer-mcq-12",
-        "layer-mcq-16",
-        "layer-mcq-11"
+        "layer-mcq-02"
       ],
       "explanation": "本句的「layered」指「把多個視覺、聲音或效果重疊組合」。",
       "sentenceIndex": 30,
@@ -1346,12 +1216,8 @@ export default {
         "layered"
       ],
       "optionReasons": {
-        "layer-pdf-002": "本句指「把多個視覺、聲音或效果重疊組合」。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
-        "layer-mcq-16": "「內容、意義或情感具有多個相互重疊層面的」與本句語境不同。",
-        "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。"
+        "layer-pdf-002": "本句的「layered」指「把多個視覺、聲音或效果重疊組合」。",
+        "layer-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-pdf-002"
     },
@@ -1363,11 +1229,9 @@ export default {
       "masked": "The producer ____ several sounds together.",
       "options": [
         "layer-pdf-002",
-        "layer-mcq-13",
-        "layer-mcq-15",
-        "layer-mcq-12",
-        "layer-mcq-16",
-        "layer-mcq-11"
+        "layer-mcq-06",
+        "layer-pdf-001",
+        "layer-mcq-12"
       ],
       "explanation": "本句的「layered」指「把多個視覺、聲音或效果重疊組合」。",
       "sentenceIndex": 31,
@@ -1376,12 +1240,10 @@ export default {
         "layered"
       ],
       "optionReasons": {
-        "layer-pdf-002": "本句指「把多個視覺、聲音或效果重疊組合」。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。",
-        "layer-mcq-16": "「內容、意義或情感具有多個相互重疊層面的」與本句語境不同。",
-        "layer-mcq-11": "「與其他聲音疊加，共同形成整體音效的一部分」與本句語境不同。"
+        "layer-pdf-002": "本句的「layered」指「把多個視覺、聲音或效果重疊組合」。",
+        "layer-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "layer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-pdf-002"
     },
@@ -1393,10 +1255,8 @@ export default {
       "masked": "The painting has a ____ surface.",
       "options": [
         "layer-mcq-15",
-        "layer-mcq-14",
-        "layer-mcq-16",
-        "layer-mcq-13",
-        "layer-mcq-17",
+        "layer-pdf-002",
+        "layer-mcq-08",
         "layer-mcq-12"
       ],
       "explanation": "本句的「layered」指「由多個層次構成的」。",
@@ -1406,12 +1266,10 @@ export default {
         "layered"
       ],
       "optionReasons": {
-        "layer-mcq-15": "本句指「由多個層次構成的」。",
-        "layer-mcq-14": "「把多個東西按層次疊放、排列或疊加」與本句語境不同。",
-        "layer-mcq-16": "「內容、意義或情感具有多個相互重疊層面的」與本句語境不同。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-17": "「把衣物、顏色、聲音、材料等一層層加入的做法」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。"
+        "layer-mcq-15": "本句的「layered」指「由多個層次構成的」。",
+        "layer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-15"
     },
@@ -1423,11 +1281,9 @@ export default {
       "masked": "She wore a ____ outfit.",
       "options": [
         "layer-mcq-15",
-        "layer-mcq-14",
-        "layer-mcq-16",
-        "layer-mcq-13",
-        "layer-mcq-17",
-        "layer-mcq-12"
+        "layer-pdf-002",
+        "layer-mcq-04",
+        "layer-mcq-08"
       ],
       "explanation": "本句的「layered」指「由多個層次構成的」。",
       "sentenceIndex": 33,
@@ -1436,12 +1292,10 @@ export default {
         "layered"
       ],
       "optionReasons": {
-        "layer-mcq-15": "本句指「由多個層次構成的」。",
-        "layer-mcq-14": "「把多個東西按層次疊放、排列或疊加」與本句語境不同。",
-        "layer-mcq-16": "「內容、意義或情感具有多個相互重疊層面的」與本句語境不同。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-17": "「把衣物、顏色、聲音、材料等一層層加入的做法」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。"
+        "layer-mcq-15": "本句的「layered」指「由多個層次構成的」。",
+        "layer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-15"
     },
@@ -1453,11 +1307,9 @@ export default {
       "masked": "The novel has a ____ meaning.",
       "options": [
         "layer-mcq-16",
+        "layer-mcq-06",
         "layer-mcq-15",
-        "layer-mcq-17",
-        "layer-mcq-14",
-        "layer-mcq-13",
-        "layer-mcq-12"
+        "layer-mcq-17"
       ],
       "explanation": "本句的「layered」指「內容、意義或情感具有多個相互重疊層面的」。",
       "sentenceIndex": 34,
@@ -1466,12 +1318,10 @@ export default {
         "layered"
       ],
       "optionReasons": {
-        "layer-mcq-16": "本句指「內容、意義或情感具有多個相互重疊層面的」。",
-        "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
-        "layer-mcq-17": "「把衣物、顏色、聲音、材料等一層層加入的做法」與本句語境不同。",
-        "layer-mcq-14": "「把多個東西按層次疊放、排列或疊加」與本句語境不同。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。"
+        "layer-mcq-16": "本句的「layered」指「內容、意義或情感具有多個相互重疊層面的」。",
+        "layer-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-16"
     },
@@ -1483,11 +1333,9 @@ export default {
       "masked": "Her performance was subtle and ____.",
       "options": [
         "layer-mcq-16",
-        "layer-mcq-15",
-        "layer-mcq-17",
-        "layer-mcq-14",
         "layer-mcq-13",
-        "layer-mcq-12"
+        "layer-mcq-17",
+        "layer-mcq-08"
       ],
       "explanation": "本句的「layered」指「內容、意義或情感具有多個相互重疊層面的」。",
       "sentenceIndex": 35,
@@ -1496,12 +1344,10 @@ export default {
         "layered"
       ],
       "optionReasons": {
-        "layer-mcq-16": "本句指「內容、意義或情感具有多個相互重疊層面的」。",
-        "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
-        "layer-mcq-17": "「把衣物、顏色、聲音、材料等一層層加入的做法」與本句語境不同。",
-        "layer-mcq-14": "「把多個東西按層次疊放、排列或疊加」與本句語境不同。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。"
+        "layer-mcq-16": "本句的「layered」指「內容、意義或情感具有多個相互重疊層面的」。",
+        "layer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-16"
     },
@@ -1515,9 +1361,7 @@ export default {
         "layer-mcq-17",
         "layer-mcq-16",
         "layer-mcq-15",
-        "layer-mcq-14",
-        "layer-mcq-13",
-        "layer-mcq-12"
+        "layer-mcq-08"
       ],
       "explanation": "本句的「layering」指「把衣物、顏色、聲音、材料等一層層加入的做法」。",
       "sentenceIndex": 36,
@@ -1526,12 +1370,10 @@ export default {
         "layering"
       ],
       "optionReasons": {
-        "layer-mcq-17": "本句指「把衣物、顏色、聲音、材料等一層層加入的做法」。",
-        "layer-mcq-16": "「內容、意義或情感具有多個相互重疊層面的」與本句語境不同。",
-        "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
-        "layer-mcq-14": "「把多個東西按層次疊放、排列或疊加」與本句語境不同。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。"
+        "layer-mcq-17": "本句的「layering」指「把衣物、顏色、聲音、材料等一層層加入的做法」。",
+        "layer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-17"
     },
@@ -1543,11 +1385,9 @@ export default {
       "masked": "____ is useful in cold weather.",
       "options": [
         "layer-mcq-17",
+        "layer-mcq-09",
         "layer-mcq-16",
-        "layer-mcq-15",
-        "layer-mcq-14",
-        "layer-mcq-13",
-        "layer-mcq-12"
+        "layer-mcq-13"
       ],
       "explanation": "本句的「Layering」指「把衣物、顏色、聲音、材料等一層層加入的做法」。",
       "sentenceIndex": 37,
@@ -1556,12 +1396,10 @@ export default {
         "Layering"
       ],
       "optionReasons": {
-        "layer-mcq-17": "本句指「把衣物、顏色、聲音、材料等一層層加入的做法」。",
-        "layer-mcq-16": "「內容、意義或情感具有多個相互重疊層面的」與本句語境不同。",
-        "layer-mcq-15": "「由多個層次構成的」與本句語境不同。",
-        "layer-mcq-14": "「把多個東西按層次疊放、排列或疊加」與本句語境不同。",
-        "layer-mcq-13": "「把頭髮剪成不同長度所形成的層次」與本句語境不同。",
-        "layer-mcq-12": "「食物中水平疊放的一層材料」與本句語境不同。"
+        "layer-mcq-17": "本句的「Layering」指「把衣物、顏色、聲音、材料等一層層加入的做法」。",
+        "layer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "layer-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "layer-mcq-17"
     }
@@ -1573,5 +1411,7 @@ export default {
     "sha256": "a90fd50a7ad357104b3f2603ea4f3f170c49ef39900198cf7c19427c3c8a5e43",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

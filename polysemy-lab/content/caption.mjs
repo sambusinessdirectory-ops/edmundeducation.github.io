@@ -273,11 +273,8 @@ export default {
       "masked": "The scrapbook was filled with printed photos and short ____.",
       "options": [
         "caption-mcq-01",
-        "caption-mcq-02",
-        "caption-mcq-03",
-        "caption-mcq-04",
-        "caption-mcq-05",
-        "caption-mcq-06"
+        "caption-mcq-11",
+        "caption-mcq-09"
       ],
       "explanation": "本句的「captions」指「圖片說明；圖說」。",
       "sentenceIndex": 0,
@@ -286,12 +283,9 @@ export default {
         "captions"
       ],
       "optionReasons": {
-        "caption-mcq-01": "本句指「圖片說明；圖說」。",
-        "caption-mcq-02": "「照片說明」與本句語境不同。",
-        "caption-mcq-03": "「圖像說明」與本句語境不同。",
-        "caption-mcq-04": "「寫圖說」與本句語境不同。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。"
+        "caption-mcq-01": "本句的「captions」指「圖片說明；圖說」。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-01"
     },
@@ -303,11 +297,8 @@ export default {
       "masked": "She wrote a funny ____ under the family photo.",
       "options": [
         "caption-mcq-01",
-        "caption-mcq-02",
-        "caption-mcq-03",
-        "caption-mcq-04",
-        "caption-mcq-05",
-        "caption-mcq-06"
+        "caption-mcq-07",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「caption」指「圖片說明；圖說」。",
       "sentenceIndex": 1,
@@ -316,12 +307,9 @@ export default {
         "caption"
       ],
       "optionReasons": {
-        "caption-mcq-01": "本句指「圖片說明；圖說」。",
-        "caption-mcq-02": "「照片說明」與本句語境不同。",
-        "caption-mcq-03": "「圖像說明」與本句語境不同。",
-        "caption-mcq-04": "「寫圖說」與本句語境不同。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。"
+        "caption-mcq-01": "本句的「caption」指「圖片說明；圖說」。",
+        "caption-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-01"
     },
@@ -333,11 +321,8 @@ export default {
       "masked": "The ____ explains when and where the picture was taken.",
       "options": [
         "caption-mcq-01",
-        "caption-mcq-02",
-        "caption-mcq-03",
-        "caption-mcq-04",
-        "caption-mcq-05",
-        "caption-mcq-06"
+        "caption-mcq-09",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「caption」指「圖片說明；圖說」。",
       "sentenceIndex": 2,
@@ -346,12 +331,9 @@ export default {
         "caption"
       ],
       "optionReasons": {
-        "caption-mcq-01": "本句指「圖片說明；圖說」。",
-        "caption-mcq-02": "「照片說明」與本句語境不同。",
-        "caption-mcq-03": "「圖像說明」與本句語境不同。",
-        "caption-mcq-04": "「寫圖說」與本句語境不同。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。"
+        "caption-mcq-01": "本句的「caption」指「圖片說明；圖說」。",
+        "caption-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-01"
     },
@@ -363,11 +345,8 @@ export default {
       "masked": "Each photo had a short ____.",
       "options": [
         "caption-mcq-02",
-        "caption-mcq-01",
-        "caption-mcq-03",
-        "caption-mcq-04",
-        "caption-mcq-05",
-        "caption-mcq-06"
+        "caption-mcq-07",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「caption」指「照片說明」。",
       "sentenceIndex": 3,
@@ -376,12 +355,9 @@ export default {
         "caption"
       ],
       "optionReasons": {
-        "caption-mcq-02": "本句指「照片說明」。",
-        "caption-mcq-01": "「圖片說明；圖說」與本句語境不同。",
-        "caption-mcq-03": "「圖像說明」與本句語境不同。",
-        "caption-mcq-04": "「寫圖說」與本句語境不同。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。"
+        "caption-mcq-02": "本句的「caption」指「照片說明」。",
+        "caption-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-02"
     },
@@ -393,11 +369,8 @@ export default {
       "masked": "The ____ named everyone in the picture.",
       "options": [
         "caption-mcq-02",
-        "caption-mcq-01",
-        "caption-mcq-03",
-        "caption-mcq-04",
-        "caption-mcq-05",
-        "caption-mcq-06"
+        "caption-mcq-06",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「photo caption」指「照片說明」。",
       "sentenceIndex": 4,
@@ -406,12 +379,9 @@ export default {
         "photo caption"
       ],
       "optionReasons": {
-        "caption-mcq-02": "本句指「照片說明」。",
-        "caption-mcq-01": "「圖片說明；圖說」與本句語境不同。",
-        "caption-mcq-03": "「圖像說明」與本句語境不同。",
-        "caption-mcq-04": "「寫圖說」與本句語境不同。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。"
+        "caption-mcq-02": "本句的「photo caption」指「照片說明」。",
+        "caption-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-02"
     },
@@ -423,11 +393,8 @@ export default {
       "masked": "The website automatically added an ____.",
       "options": [
         "caption-mcq-03",
-        "caption-mcq-02",
-        "caption-mcq-04",
-        "caption-mcq-01",
-        "caption-mcq-05",
-        "caption-mcq-06"
+        "caption-mcq-08",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「image caption」指「圖像說明」。",
       "sentenceIndex": 5,
@@ -436,12 +403,9 @@ export default {
         "image caption"
       ],
       "optionReasons": {
-        "caption-mcq-03": "本句指「圖像說明」。",
-        "caption-mcq-02": "「照片說明」與本句語境不同。",
-        "caption-mcq-04": "「寫圖說」與本句語境不同。",
-        "caption-mcq-01": "「圖片說明；圖說」與本句語境不同。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。"
+        "caption-mcq-03": "本句的「image caption」指「圖像說明」。",
+        "caption-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-03"
     },
@@ -453,11 +417,8 @@ export default {
       "masked": "Every ____ should be clear and concise.",
       "options": [
         "caption-mcq-03",
-        "caption-mcq-02",
-        "caption-mcq-04",
-        "caption-mcq-01",
-        "caption-mcq-05",
-        "caption-mcq-06"
+        "caption-mcq-10",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「image caption」指「圖像說明」。",
       "sentenceIndex": 6,
@@ -466,12 +427,9 @@ export default {
         "image caption"
       ],
       "optionReasons": {
-        "caption-mcq-03": "本句指「圖像說明」。",
-        "caption-mcq-02": "「照片說明」與本句語境不同。",
-        "caption-mcq-04": "「寫圖說」與本句語境不同。",
-        "caption-mcq-01": "「圖片說明；圖說」與本句語境不同。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。"
+        "caption-mcq-03": "本句的「image caption」指「圖像說明」。",
+        "caption-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-03"
     },
@@ -483,11 +441,8 @@ export default {
       "masked": "She ____ for every photo.",
       "options": [
         "caption-mcq-04",
-        "caption-mcq-03",
-        "caption-mcq-05",
-        "caption-mcq-02",
-        "caption-mcq-06",
-        "caption-mcq-01"
+        "caption-mcq-07",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「wrote a caption」指「寫圖說」。",
       "sentenceIndex": 7,
@@ -496,12 +451,9 @@ export default {
         "wrote a caption"
       ],
       "optionReasons": {
-        "caption-mcq-04": "本句指「寫圖說」。",
-        "caption-mcq-03": "「圖像說明」與本句語境不同。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。",
-        "caption-mcq-02": "「照片說明」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。",
-        "caption-mcq-01": "「圖片說明；圖說」與本句語境不同。"
+        "caption-mcq-04": "本句的「wrote a caption」指「寫圖說」。",
+        "caption-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-04"
     },
@@ -513,11 +465,8 @@ export default {
       "masked": "Can you ____ for this picture?",
       "options": [
         "caption-mcq-04",
-        "caption-mcq-03",
-        "caption-mcq-05",
-        "caption-mcq-02",
-        "caption-mcq-06",
-        "caption-mcq-01"
+        "caption-mcq-08",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「write a caption」指「寫圖說」。",
       "sentenceIndex": 8,
@@ -526,12 +475,9 @@ export default {
         "write a caption"
       ],
       "optionReasons": {
-        "caption-mcq-04": "本句指「寫圖說」。",
-        "caption-mcq-03": "「圖像說明」與本句語境不同。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。",
-        "caption-mcq-02": "「照片說明」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。",
-        "caption-mcq-01": "「圖片說明；圖說」與本句語境不同。"
+        "caption-mcq-04": "本句的「write a caption」指「寫圖說」。",
+        "caption-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-04"
     },
@@ -543,11 +489,8 @@ export default {
       "masked": "He ____ with the date and place.",
       "options": [
         "caption-mcq-05",
-        "caption-mcq-04",
-        "caption-mcq-06",
-        "caption-mcq-03",
-        "caption-mcq-07",
-        "caption-mcq-02"
+        "caption-mcq-08",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「captioned the photo」指「為照片加說明」。",
       "sentenceIndex": 9,
@@ -556,12 +499,9 @@ export default {
         "captioned the photo"
       ],
       "optionReasons": {
-        "caption-mcq-05": "本句指「為照片加說明」。",
-        "caption-mcq-04": "「寫圖說」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。",
-        "caption-mcq-03": "「圖像說明」與本句語境不同。",
-        "caption-mcq-07": "「可開關字幕」與本句語境不同。",
-        "caption-mcq-02": "「照片說明」與本句語境不同。"
+        "caption-mcq-05": "本句的「captioned the photo」指「為照片加說明」。",
+        "caption-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-05"
     },
@@ -573,11 +513,8 @@ export default {
       "masked": "Each image was carefully ____.",
       "options": [
         "caption-mcq-05",
-        "caption-mcq-04",
         "caption-mcq-06",
-        "caption-mcq-03",
-        "caption-mcq-07",
-        "caption-mcq-02"
+        "caption-mcq-11"
       ],
       "explanation": "本句的「captioned」指「為照片加說明」。",
       "sentenceIndex": 10,
@@ -586,12 +523,9 @@ export default {
         "captioned"
       ],
       "optionReasons": {
-        "caption-mcq-05": "本句指「為照片加說明」。",
-        "caption-mcq-04": "「寫圖說」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。",
-        "caption-mcq-03": "「圖像說明」與本句語境不同。",
-        "caption-mcq-07": "「可開關字幕」與本句語境不同。",
-        "caption-mcq-02": "「照片說明」與本句語境不同。"
+        "caption-mcq-05": "本句的「captioned」指「為照片加說明」。",
+        "caption-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-05"
     },
@@ -603,11 +537,8 @@ export default {
       "masked": "Turn on the ____ if you can't hear clearly.",
       "options": [
         "caption-mcq-06",
-        "caption-mcq-05",
-        "caption-mcq-07",
-        "caption-mcq-04",
-        "caption-mcq-08",
-        "caption-mcq-03"
+        "caption-mcq-01",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「captions」指「字幕」。",
       "sentenceIndex": 11,
@@ -616,12 +547,9 @@ export default {
         "captions"
       ],
       "optionReasons": {
-        "caption-mcq-06": "本句指「字幕」。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。",
-        "caption-mcq-07": "「可開關字幕」與本句語境不同。",
-        "caption-mcq-04": "「寫圖說」與本句語境不同。",
-        "caption-mcq-08": "「即時字幕」與本句語境不同。",
-        "caption-mcq-03": "「圖像說明」與本句語境不同。"
+        "caption-mcq-06": "本句的「captions」指「字幕」。",
+        "caption-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-06"
     },
@@ -633,11 +561,8 @@ export default {
       "masked": "The video includes English ____.",
       "options": [
         "caption-mcq-06",
-        "caption-mcq-05",
-        "caption-mcq-07",
         "caption-mcq-04",
-        "caption-mcq-08",
-        "caption-mcq-03"
+        "caption-mcq-11"
       ],
       "explanation": "本句的「captions」指「字幕」。",
       "sentenceIndex": 12,
@@ -646,12 +571,9 @@ export default {
         "captions"
       ],
       "optionReasons": {
-        "caption-mcq-06": "本句指「字幕」。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。",
-        "caption-mcq-07": "「可開關字幕」與本句語境不同。",
-        "caption-mcq-04": "「寫圖說」與本句語境不同。",
-        "caption-mcq-08": "「即時字幕」與本句語境不同。",
-        "caption-mcq-03": "「圖像說明」與本句語境不同。"
+        "caption-mcq-06": "本句的「captions」指「字幕」。",
+        "caption-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-06"
     },
@@ -663,11 +585,8 @@ export default {
       "masked": "The programme provides ____.",
       "options": [
         "caption-mcq-07",
-        "caption-mcq-06",
-        "caption-mcq-08",
-        "caption-mcq-05",
-        "caption-mcq-09",
-        "caption-mcq-04"
+        "caption-mcq-04",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「closed captions」指「可開關字幕」。",
       "sentenceIndex": 13,
@@ -676,12 +595,9 @@ export default {
         "closed captions"
       ],
       "optionReasons": {
-        "caption-mcq-07": "本句指「可開關字幕」。",
-        "caption-mcq-06": "「字幕」與本句語境不同。",
-        "caption-mcq-08": "「即時字幕」與本句語境不同。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。",
-        "caption-mcq-09": "「自動生成字幕」與本句語境不同。",
-        "caption-mcq-04": "「寫圖說」與本句語境不同。"
+        "caption-mcq-07": "本句的「closed captions」指「可開關字幕」。",
+        "caption-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-07"
     },
@@ -693,11 +609,8 @@ export default {
       "masked": "I turned on the ____.",
       "options": [
         "caption-mcq-07",
-        "caption-mcq-06",
-        "caption-mcq-08",
-        "caption-mcq-05",
-        "caption-mcq-09",
-        "caption-mcq-04"
+        "caption-mcq-03",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「closed captions」指「可開關字幕」。",
       "sentenceIndex": 14,
@@ -706,12 +619,9 @@ export default {
         "closed captions"
       ],
       "optionReasons": {
-        "caption-mcq-07": "本句指「可開關字幕」。",
-        "caption-mcq-06": "「字幕」與本句語境不同。",
-        "caption-mcq-08": "「即時字幕」與本句語境不同。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。",
-        "caption-mcq-09": "「自動生成字幕」與本句語境不同。",
-        "caption-mcq-04": "「寫圖說」與本句語境不同。"
+        "caption-mcq-07": "本句的「closed captions」指「可開關字幕」。",
+        "caption-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-07"
     },
@@ -723,11 +633,8 @@ export default {
       "masked": "The conference provided ____.",
       "options": [
         "caption-mcq-08",
-        "caption-mcq-07",
-        "caption-mcq-09",
-        "caption-mcq-06",
-        "caption-mcq-10",
-        "caption-mcq-05"
+        "caption-mcq-04",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「live captioning」指「即時字幕」。",
       "sentenceIndex": 15,
@@ -736,12 +643,9 @@ export default {
         "live captioning"
       ],
       "optionReasons": {
-        "caption-mcq-08": "本句指「即時字幕」。",
-        "caption-mcq-07": "「可開關字幕」與本句語境不同。",
-        "caption-mcq-09": "「自動生成字幕」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。",
-        "caption-mcq-10": "「附字幕影片」與本句語境不同。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。"
+        "caption-mcq-08": "本句的「live captioning」指「即時字幕」。",
+        "caption-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-08"
     },
@@ -753,11 +657,8 @@ export default {
       "masked": "____ helps people follow spoken presentations.",
       "options": [
         "caption-mcq-08",
-        "caption-mcq-07",
-        "caption-mcq-09",
-        "caption-mcq-06",
-        "caption-mcq-10",
-        "caption-mcq-05"
+        "caption-mcq-03",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「Live captioning」指「即時字幕」。",
       "sentenceIndex": 16,
@@ -766,12 +667,9 @@ export default {
         "Live captioning"
       ],
       "optionReasons": {
-        "caption-mcq-08": "本句指「即時字幕」。",
-        "caption-mcq-07": "「可開關字幕」與本句語境不同。",
-        "caption-mcq-09": "「自動生成字幕」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。",
-        "caption-mcq-10": "「附字幕影片」與本句語境不同。",
-        "caption-mcq-05": "「為照片加說明」與本句語境不同。"
+        "caption-mcq-08": "本句的「Live captioning」指「即時字幕」。",
+        "caption-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-08"
     },
@@ -783,11 +681,8 @@ export default {
       "masked": "The platform created ____.",
       "options": [
         "caption-mcq-09",
-        "caption-mcq-08",
-        "caption-mcq-10",
-        "caption-mcq-07",
-        "caption-mcq-11",
-        "caption-mcq-06"
+        "caption-mcq-05",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「auto-generated captions」指「自動生成字幕」。",
       "sentenceIndex": 17,
@@ -796,12 +691,9 @@ export default {
         "auto-generated captions"
       ],
       "optionReasons": {
-        "caption-mcq-09": "本句指「自動生成字幕」。",
-        "caption-mcq-08": "「即時字幕」與本句語境不同。",
-        "caption-mcq-10": "「附字幕影片」與本句語境不同。",
-        "caption-mcq-07": "「可開關字幕」與本句語境不同。",
-        "caption-mcq-11": "「法律文件標題欄」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。"
+        "caption-mcq-09": "本句的「auto-generated captions」指「自動生成字幕」。",
+        "caption-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-09"
     },
@@ -813,11 +705,8 @@ export default {
       "masked": "Automatic ____ may contain mistakes.",
       "options": [
         "caption-mcq-09",
-        "caption-mcq-08",
-        "caption-mcq-10",
-        "caption-mcq-07",
-        "caption-mcq-11",
-        "caption-mcq-06"
+        "caption-mcq-03",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「captions」指「自動生成字幕」。",
       "sentenceIndex": 18,
@@ -826,12 +715,9 @@ export default {
         "captions"
       ],
       "optionReasons": {
-        "caption-mcq-09": "本句指「自動生成字幕」。",
-        "caption-mcq-08": "「即時字幕」與本句語境不同。",
-        "caption-mcq-10": "「附字幕影片」與本句語境不同。",
-        "caption-mcq-07": "「可開關字幕」與本句語境不同。",
-        "caption-mcq-11": "「法律文件標題欄」與本句語境不同。",
-        "caption-mcq-06": "「字幕」與本句語境不同。"
+        "caption-mcq-09": "本句的「captions」指「自動生成字幕」。",
+        "caption-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-09"
     },
@@ -843,11 +729,8 @@ export default {
       "masked": "We watched a ____.",
       "options": [
         "caption-mcq-10",
-        "caption-mcq-09",
         "caption-mcq-11",
-        "caption-mcq-08",
-        "caption-mcq-12",
-        "caption-mcq-07"
+        "caption-mcq-03"
       ],
       "explanation": "本句的「captioned video」指「附字幕影片」。",
       "sentenceIndex": 19,
@@ -856,12 +739,9 @@ export default {
         "captioned video"
       ],
       "optionReasons": {
-        "caption-mcq-10": "本句指「附字幕影片」。",
-        "caption-mcq-09": "「自動生成字幕」與本句語境不同。",
-        "caption-mcq-11": "「法律文件標題欄」與本句語境不同。",
-        "caption-mcq-08": "「即時字幕」與本句語境不同。",
-        "caption-mcq-12": "「加字幕／字幕製作」與本句語境不同。",
-        "caption-mcq-07": "「可開關字幕」與本句語境不同。"
+        "caption-mcq-10": "本句的「captioned video」指「附字幕影片」。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-10"
     },
@@ -873,11 +753,8 @@ export default {
       "masked": "All training videos are ____.",
       "options": [
         "caption-mcq-10",
-        "caption-mcq-09",
-        "caption-mcq-11",
-        "caption-mcq-08",
-        "caption-mcq-12",
-        "caption-mcq-07"
+        "caption-mcq-03",
+        "caption-mcq-11"
       ],
       "explanation": "本句的「captioned」指「附字幕影片」。",
       "sentenceIndex": 20,
@@ -886,12 +763,9 @@ export default {
         "captioned"
       ],
       "optionReasons": {
-        "caption-mcq-10": "本句指「附字幕影片」。",
-        "caption-mcq-09": "「自動生成字幕」與本句語境不同。",
-        "caption-mcq-11": "「法律文件標題欄」與本句語境不同。",
-        "caption-mcq-08": "「即時字幕」與本句語境不同。",
-        "caption-mcq-12": "「加字幕／字幕製作」與本句語境不同。",
-        "caption-mcq-07": "「可開關字幕」與本句語境不同。"
+        "caption-mcq-10": "本句的「captioned」指「附字幕影片」。",
+        "caption-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-10"
     },
@@ -903,11 +777,8 @@ export default {
       "masked": "The case name appears in the ____ of the document.",
       "options": [
         "caption-mcq-11",
-        "caption-mcq-10",
-        "caption-mcq-12",
-        "caption-mcq-09",
-        "caption-mcq-08",
-        "caption-mcq-07"
+        "caption-mcq-07",
+        "caption-mcq-01"
       ],
       "explanation": "本句的「caption」指「法律文件標題欄」。",
       "sentenceIndex": 21,
@@ -916,12 +787,9 @@ export default {
         "caption"
       ],
       "optionReasons": {
-        "caption-mcq-11": "本句指「法律文件標題欄」。",
-        "caption-mcq-10": "「附字幕影片」與本句語境不同。",
-        "caption-mcq-12": "「加字幕／字幕製作」與本句語境不同。",
-        "caption-mcq-09": "「自動生成字幕」與本句語境不同。",
-        "caption-mcq-08": "「即時字幕」與本句語境不同。",
-        "caption-mcq-07": "「可開關字幕」與本句語境不同。"
+        "caption-mcq-11": "本句的「caption」指「法律文件標題欄」。",
+        "caption-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-11"
     },
@@ -933,10 +801,7 @@ export default {
       "masked": "Check the legal ____ before filing the document.",
       "options": [
         "caption-mcq-11",
-        "caption-mcq-10",
-        "caption-mcq-12",
-        "caption-mcq-09",
-        "caption-mcq-08",
+        "caption-mcq-05",
         "caption-mcq-07"
       ],
       "explanation": "本句的「caption」指「法律文件標題欄」。",
@@ -946,12 +811,9 @@ export default {
         "caption"
       ],
       "optionReasons": {
-        "caption-mcq-11": "本句指「法律文件標題欄」。",
-        "caption-mcq-10": "「附字幕影片」與本句語境不同。",
-        "caption-mcq-12": "「加字幕／字幕製作」與本句語境不同。",
-        "caption-mcq-09": "「自動生成字幕」與本句語境不同。",
-        "caption-mcq-08": "「即時字幕」與本句語境不同。",
-        "caption-mcq-07": "「可開關字幕」與本句語境不同。"
+        "caption-mcq-11": "本句的「caption」指「法律文件標題欄」。",
+        "caption-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "caption-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caption-mcq-11"
     }
@@ -963,5 +825,7 @@ export default {
     "sha256": "63badc62ef420be6cc6b4cbb167981cceb3b74193788425cb16818368ee64846",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -388,11 +388,9 @@ export default {
       "masked": "Put a ____ next to the correct answer.",
       "options": [
         "dot-mcq-01",
-        "dot-mcq-02",
-        "dot-mcq-03",
-        "dot-mcq-04",
         "dot-mcq-05",
-        "dot-mcq-06"
+        "dot-mcq-04",
+        "dot-mcq-12"
       ],
       "explanation": "本句的「dot」指「非常小的圓形記號；點／小圓點」。",
       "sentenceIndex": 2,
@@ -401,12 +399,10 @@ export default {
         "dot"
       ],
       "optionReasons": {
-        "dot-mcq-01": "本句指「非常小的圓形記號；點／小圓點」。",
-        "dot-mcq-02": "「用來表示位置、城鎮等的地圖小點」與本句語境不同。",
-        "dot-mcq-03": "「書寫或符號系統中的小點；非正式可指句點／點號」與本句語境不同。",
-        "dot-mcq-04": "「網址或電郵地址中的「.」；口語讀作 dot」與本句語境不同。",
-        "dot-mcq-05": "「與 .com 網路公司或網路產業有關的」與本句語境不同。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。"
+        "dot-mcq-01": "本句的「dot」指「非常小的圓形記號；點／小圓點」。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-01"
     },
@@ -418,11 +414,9 @@ export default {
       "masked": "The page was covered with tiny black ____.",
       "options": [
         "dot-mcq-01",
-        "dot-mcq-02",
-        "dot-mcq-03",
-        "dot-mcq-04",
         "dot-mcq-05",
-        "dot-mcq-06"
+        "dot-mcq-10",
+        "dot-mcq-04"
       ],
       "explanation": "本句的「dots」指「非常小的圓形記號；點／小圓點」。",
       "sentenceIndex": 3,
@@ -431,12 +425,10 @@ export default {
         "dots"
       ],
       "optionReasons": {
-        "dot-mcq-01": "本句指「非常小的圓形記號；點／小圓點」。",
-        "dot-mcq-02": "「用來表示位置、城鎮等的地圖小點」與本句語境不同。",
-        "dot-mcq-03": "「書寫或符號系統中的小點；非正式可指句點／點號」與本句語境不同。",
-        "dot-mcq-04": "「網址或電郵地址中的「.」；口語讀作 dot」與本句語境不同。",
-        "dot-mcq-05": "「與 .com 網路公司或網路產業有關的」與本句語境不同。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。"
+        "dot-mcq-01": "本句的「dots」指「非常小的圓形記號；點／小圓點」。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-01"
     },
@@ -448,11 +440,9 @@ export default {
       "masked": "The town appears as a small ____ on the map.",
       "options": [
         "dot-mcq-02",
-        "dot-mcq-01",
-        "dot-mcq-03",
         "dot-mcq-04",
-        "dot-mcq-05",
-        "dot-mcq-06"
+        "dot-mcq-12",
+        "dot-mcq-05"
       ],
       "explanation": "本句的「dot」指「用來表示位置、城鎮等的地圖小點」。",
       "sentenceIndex": 4,
@@ -461,12 +451,10 @@ export default {
         "dot"
       ],
       "optionReasons": {
-        "dot-mcq-02": "本句指「用來表示位置、城鎮等的地圖小點」。",
-        "dot-mcq-01": "「非常小的圓形記號；點／小圓點」與本句語境不同。",
-        "dot-mcq-03": "「書寫或符號系統中的小點；非正式可指句點／點號」與本句語境不同。",
-        "dot-mcq-04": "「網址或電郵地址中的「.」；口語讀作 dot」與本句語境不同。",
-        "dot-mcq-05": "「與 .com 網路公司或網路產業有關的」與本句語境不同。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。"
+        "dot-mcq-02": "本句的「dot」指「用來表示位置、城鎮等的地圖小點」。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-02"
     },
@@ -478,11 +466,9 @@ export default {
       "masked": "Each ____ represents one village.",
       "options": [
         "dot-mcq-02",
-        "dot-mcq-01",
-        "dot-mcq-03",
         "dot-mcq-04",
         "dot-mcq-05",
-        "dot-mcq-06"
+        "dot-mcq-12"
       ],
       "explanation": "本句的「dot」指「用來表示位置、城鎮等的地圖小點」。",
       "sentenceIndex": 5,
@@ -491,12 +477,10 @@ export default {
         "dot"
       ],
       "optionReasons": {
-        "dot-mcq-02": "本句指「用來表示位置、城鎮等的地圖小點」。",
-        "dot-mcq-01": "「非常小的圓形記號；點／小圓點」與本句語境不同。",
-        "dot-mcq-03": "「書寫或符號系統中的小點；非正式可指句點／點號」與本句語境不同。",
-        "dot-mcq-04": "「網址或電郵地址中的「.」；口語讀作 dot」與本句語境不同。",
-        "dot-mcq-05": "「與 .com 網路公司或網路產業有關的」與本句語境不同。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。"
+        "dot-mcq-02": "本句的「dot」指「用來表示位置、城鎮等的地圖小點」。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-02"
     },
@@ -508,11 +492,9 @@ export default {
       "masked": "Put a ____ at the end of the sentence.",
       "options": [
         "dot-mcq-03",
-        "dot-mcq-02",
+        "dot-mcq-10",
         "dot-mcq-04",
-        "dot-mcq-01",
-        "dot-mcq-05",
-        "dot-mcq-06"
+        "dot-mcq-16"
       ],
       "explanation": "本句的「dot」指「書寫或符號系統中的小點；非正式可指句點／點號」。",
       "sentenceIndex": 6,
@@ -521,12 +503,10 @@ export default {
         "dot"
       ],
       "optionReasons": {
-        "dot-mcq-03": "本句指「書寫或符號系統中的小點；非正式可指句點／點號」。",
-        "dot-mcq-02": "「用來表示位置、城鎮等的地圖小點」與本句語境不同。",
-        "dot-mcq-04": "「網址或電郵地址中的「.」；口語讀作 dot」與本句語境不同。",
-        "dot-mcq-01": "「非常小的圓形記號；點／小圓點」與本句語境不同。",
-        "dot-mcq-05": "「與 .com 網路公司或網路產業有關的」與本句語境不同。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。"
+        "dot-mcq-03": "本句的「dot」指「書寫或符號系統中的小點；非正式可指句點／點號」。",
+        "dot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-03"
     },
@@ -538,11 +518,9 @@ export default {
       "masked": "The abbreviation contains several ____.",
       "options": [
         "dot-mcq-03",
-        "dot-mcq-02",
+        "dot-mcq-10",
         "dot-mcq-04",
-        "dot-mcq-01",
-        "dot-mcq-05",
-        "dot-mcq-06"
+        "dot-mcq-17"
       ],
       "explanation": "本句的「dots」指「書寫或符號系統中的小點；非正式可指句點／點號」。",
       "sentenceIndex": 7,
@@ -551,12 +529,10 @@ export default {
         "dots"
       ],
       "optionReasons": {
-        "dot-mcq-03": "本句指「書寫或符號系統中的小點；非正式可指句點／點號」。",
-        "dot-mcq-02": "「用來表示位置、城鎮等的地圖小點」與本句語境不同。",
-        "dot-mcq-04": "「網址或電郵地址中的「.」；口語讀作 dot」與本句語境不同。",
-        "dot-mcq-01": "「非常小的圓形記號；點／小圓點」與本句語境不同。",
-        "dot-mcq-05": "「與 .com 網路公司或網路產業有關的」與本句語境不同。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。"
+        "dot-mcq-03": "本句的「dots」指「書寫或符號系統中的小點；非正式可指句點／點號」。",
+        "dot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-03"
     },
@@ -568,11 +544,9 @@ export default {
       "masked": "The website is example ____ com.",
       "options": [
         "dot-mcq-04",
-        "dot-mcq-03",
-        "dot-mcq-05",
-        "dot-mcq-02",
-        "dot-mcq-06",
-        "dot-mcq-01"
+        "dot-mcq-14",
+        "dot-mcq-07",
+        "dot-mcq-16"
       ],
       "explanation": "本句的「dot」指「網址或電郵地址中的「.」；口語讀作 dot」。",
       "sentenceIndex": 10,
@@ -581,12 +555,10 @@ export default {
         "dot"
       ],
       "optionReasons": {
-        "dot-mcq-04": "本句指「網址或電郵地址中的「.」；口語讀作 dot」。",
-        "dot-mcq-03": "「書寫或符號系統中的小點；非正式可指句點／點號」與本句語境不同。",
-        "dot-mcq-05": "「與 .com 網路公司或網路產業有關的」與本句語境不同。",
-        "dot-mcq-02": "「用來表示位置、城鎮等的地圖小點」與本句語境不同。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。",
-        "dot-mcq-01": "「非常小的圓形記號；點／小圓點」與本句語境不同。"
+        "dot-mcq-04": "本句的「dot」指「網址或電郵地址中的「.」；口語讀作 dot」。",
+        "dot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-04"
     },
@@ -598,11 +570,9 @@ export default {
       "masked": "My email ends in gmail ____ com.",
       "options": [
         "dot-mcq-04",
-        "dot-mcq-03",
-        "dot-mcq-05",
-        "dot-mcq-02",
-        "dot-mcq-06",
-        "dot-mcq-01"
+        "dot-mcq-15",
+        "dot-mcq-12",
+        "dot-mcq-16"
       ],
       "explanation": "本句的「dot」指「網址或電郵地址中的「.」；口語讀作 dot」。",
       "sentenceIndex": 11,
@@ -611,12 +581,10 @@ export default {
         "dot"
       ],
       "optionReasons": {
-        "dot-mcq-04": "本句指「網址或電郵地址中的「.」；口語讀作 dot」。",
-        "dot-mcq-03": "「書寫或符號系統中的小點；非正式可指句點／點號」與本句語境不同。",
-        "dot-mcq-05": "「與 .com 網路公司或網路產業有關的」與本句語境不同。",
-        "dot-mcq-02": "「用來表示位置、城鎮等的地圖小點」與本句語境不同。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。",
-        "dot-mcq-01": "「非常小的圓形記號；點／小圓點」與本句語境不同。"
+        "dot-mcq-04": "本句的「dot」指「網址或電郵地址中的「.」；口語讀作 dot」。",
+        "dot-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-04"
     },
@@ -628,11 +596,9 @@ export default {
       "masked": "The company grew rapidly during the ____ boom.",
       "options": [
         "dot-mcq-05",
-        "dot-mcq-04",
-        "dot-mcq-06",
-        "dot-mcq-03",
-        "dot-mcq-07",
-        "dot-mcq-02"
+        "dot-mcq-12",
+        "dot-mcq-17",
+        "dot-mcq-13"
       ],
       "explanation": "本句的「dot-com」指「與 .com 網路公司或網路產業有關的」。",
       "sentenceIndex": 12,
@@ -641,12 +607,10 @@ export default {
         "dot-com"
       ],
       "optionReasons": {
-        "dot-mcq-05": "本句指「與 .com 網路公司或網路產業有關的」。",
-        "dot-mcq-04": "「網址或電郵地址中的「.」；口語讀作 dot」與本句語境不同。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。",
-        "dot-mcq-03": "「書寫或符號系統中的小點；非正式可指句點／點號」與本句語境不同。",
-        "dot-mcq-07": "「規則排列的圓點圖案」與本句語境不同。",
-        "dot-mcq-02": "「用來表示位置、城鎮等的地圖小點」與本句語境不同。"
+        "dot-mcq-05": "本句的「dot-com」指「與 .com 網路公司或網路產業有關的」。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-05"
     },
@@ -658,11 +622,9 @@ export default {
       "masked": "Many ____ failed in the early 2000s.",
       "options": [
         "dot-mcq-05",
-        "dot-mcq-04",
-        "dot-mcq-06",
-        "dot-mcq-03",
-        "dot-mcq-07",
-        "dot-mcq-02"
+        "dot-mcq-11",
+        "dot-mcq-14",
+        "dot-mcq-01"
       ],
       "explanation": "本句的「dot-com companies」指「與 .com 網路公司或網路產業有關的」。",
       "sentenceIndex": 13,
@@ -671,12 +633,10 @@ export default {
         "dot-com companies"
       ],
       "optionReasons": {
-        "dot-mcq-05": "本句指「與 .com 網路公司或網路產業有關的」。",
-        "dot-mcq-04": "「網址或電郵地址中的「.」；口語讀作 dot」與本句語境不同。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。",
-        "dot-mcq-03": "「書寫或符號系統中的小點；非正式可指句點／點號」與本句語境不同。",
-        "dot-mcq-07": "「規則排列的圓點圖案」與本句語境不同。",
-        "dot-mcq-02": "「用來表示位置、城鎮等的地圖小點」與本句語境不同。"
+        "dot-mcq-05": "本句的「dot-com companies」指「與 .com 網路公司或網路產業有關的」。",
+        "dot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-05"
     },
@@ -688,11 +648,9 @@ export default {
       "masked": "She wore a dress with white ____.",
       "options": [
         "dot-mcq-06",
-        "dot-mcq-05",
-        "dot-mcq-07",
+        "dot-mcq-10",
         "dot-mcq-04",
-        "dot-mcq-08",
-        "dot-mcq-03"
+        "dot-mcq-12"
       ],
       "explanation": "本句的「dots」指「圖案上的小圓點／斑點」。",
       "sentenceIndex": 14,
@@ -701,12 +659,10 @@ export default {
         "dots"
       ],
       "optionReasons": {
-        "dot-mcq-06": "本句指「圖案上的小圓點／斑點」。",
-        "dot-mcq-05": "「與 .com 網路公司或網路產業有關的」與本句語境不同。",
-        "dot-mcq-07": "「規則排列的圓點圖案」與本句語境不同。",
-        "dot-mcq-04": "「網址或電郵地址中的「.」；口語讀作 dot」與本句語境不同。",
-        "dot-mcq-08": "「因距離太遠而看起來像小點的物體」與本句語境不同。",
-        "dot-mcq-03": "「書寫或符號系統中的小點；非正式可指句點／點號」與本句語境不同。"
+        "dot-mcq-06": "本句的「dots」指「圖案上的小圓點／斑點」。",
+        "dot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-06"
     },
@@ -718,11 +674,9 @@ export default {
       "masked": "The fabric has tiny blue ____.",
       "options": [
         "dot-mcq-06",
+        "dot-mcq-10",
         "dot-mcq-05",
-        "dot-mcq-07",
-        "dot-mcq-04",
-        "dot-mcq-08",
-        "dot-mcq-03"
+        "dot-mcq-04"
       ],
       "explanation": "本句的「dots」指「圖案上的小圓點／斑點」。",
       "sentenceIndex": 15,
@@ -731,12 +685,10 @@ export default {
         "dots"
       ],
       "optionReasons": {
-        "dot-mcq-06": "本句指「圖案上的小圓點／斑點」。",
-        "dot-mcq-05": "「與 .com 網路公司或網路產業有關的」與本句語境不同。",
-        "dot-mcq-07": "「規則排列的圓點圖案」與本句語境不同。",
-        "dot-mcq-04": "「網址或電郵地址中的「.」；口語讀作 dot」與本句語境不同。",
-        "dot-mcq-08": "「因距離太遠而看起來像小點的物體」與本句語境不同。",
-        "dot-mcq-03": "「書寫或符號系統中的小點；非正式可指句點／點號」與本句語境不同。"
+        "dot-mcq-06": "本句的「dots」指「圖案上的小圓點／斑點」。",
+        "dot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-06"
     },
@@ -748,11 +700,9 @@ export default {
       "masked": "She wore a ____.",
       "options": [
         "dot-mcq-07",
-        "dot-mcq-06",
-        "dot-mcq-08",
+        "dot-mcq-04",
         "dot-mcq-05",
-        "dot-mcq-09",
-        "dot-mcq-04"
+        "dot-mcq-10"
       ],
       "explanation": "本句的「polka-dot dress」指「規則排列的圓點圖案」。",
       "sentenceIndex": 16,
@@ -761,12 +711,10 @@ export default {
         "polka-dot dress"
       ],
       "optionReasons": {
-        "dot-mcq-07": "本句指「規則排列的圓點圖案」。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。",
-        "dot-mcq-08": "「因距離太遠而看起來像小點的物體」與本句語境不同。",
-        "dot-mcq-05": "「與 .com 網路公司或網路產業有關的」與本句語境不同。",
-        "dot-mcq-09": "「小型事物零星分布在某地；點綴／散布」與本句語境不同。",
-        "dot-mcq-04": "「網址或電郵地址中的「.」；口語讀作 dot」與本句語境不同。"
+        "dot-mcq-07": "本句的「polka-dot dress」指「規則排列的圓點圖案」。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-07"
     },
@@ -778,11 +726,9 @@ export default {
       "masked": "The bag has a black-and-white ____.",
       "options": [
         "dot-mcq-07",
-        "dot-mcq-06",
-        "dot-mcq-08",
+        "dot-mcq-04",
         "dot-mcq-05",
-        "dot-mcq-09",
-        "dot-mcq-04"
+        "dot-mcq-12"
       ],
       "explanation": "本句的「polka-dot pattern」指「規則排列的圓點圖案」。",
       "sentenceIndex": 17,
@@ -791,12 +737,10 @@ export default {
         "polka-dot pattern"
       ],
       "optionReasons": {
-        "dot-mcq-07": "本句指「規則排列的圓點圖案」。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。",
-        "dot-mcq-08": "「因距離太遠而看起來像小點的物體」與本句語境不同。",
-        "dot-mcq-05": "「與 .com 網路公司或網路產業有關的」與本句語境不同。",
-        "dot-mcq-09": "「小型事物零星分布在某地；點綴／散布」與本句語境不同。",
-        "dot-mcq-04": "「網址或電郵地址中的「.」；口語讀作 dot」與本句語境不同。"
+        "dot-mcq-07": "本句的「polka-dot pattern」指「規則排列的圓點圖案」。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-07"
     },
@@ -808,11 +752,9 @@ export default {
       "masked": "Small villages ____.",
       "options": [
         "dot-mcq-09",
-        "dot-mcq-08",
-        "dot-mcq-10",
-        "dot-mcq-07",
-        "dot-mcq-11",
-        "dot-mcq-06"
+        "dot-mcq-04",
+        "dot-mcq-05",
+        "dot-mcq-12"
       ],
       "explanation": "本句的「dot the countryside」指「小型事物零星分布在某地；點綴／散布」。",
       "sentenceIndex": 20,
@@ -821,12 +763,10 @@ export default {
         "dot the countryside"
       ],
       "optionReasons": {
-        "dot-mcq-09": "本句指「小型事物零星分布在某地；點綴／散布」。",
-        "dot-mcq-08": "「因距離太遠而看起來像小點的物體」與本句語境不同。",
-        "dot-mcq-10": "「把分散的事實、線索或概念串連起來，理解彼此關係」與本句語境不同。",
-        "dot-mcq-07": "「規則排列的圓點圖案」與本句語境不同。",
-        "dot-mcq-11": "「把點連接起來；也可比喻串連線索」與本句語境不同。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。"
+        "dot-mcq-09": "本句的「dot the countryside」指「小型事物零星分布在某地；點綴／散布」。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-09"
     },
@@ -838,11 +778,9 @@ export default {
       "masked": "Trees ____.",
       "options": [
         "dot-mcq-09",
-        "dot-mcq-08",
-        "dot-mcq-10",
-        "dot-mcq-07",
-        "dot-mcq-11",
-        "dot-mcq-06"
+        "dot-mcq-12",
+        "dot-mcq-04",
+        "dot-mcq-05"
       ],
       "explanation": "本句的「dotted the landscape」指「小型事物零星分布在某地；點綴／散布」。",
       "sentenceIndex": 21,
@@ -851,12 +789,10 @@ export default {
         "dotted the landscape"
       ],
       "optionReasons": {
-        "dot-mcq-09": "本句指「小型事物零星分布在某地；點綴／散布」。",
-        "dot-mcq-08": "「因距離太遠而看起來像小點的物體」與本句語境不同。",
-        "dot-mcq-10": "「把分散的事實、線索或概念串連起來，理解彼此關係」與本句語境不同。",
-        "dot-mcq-07": "「規則排列的圓點圖案」與本句語境不同。",
-        "dot-mcq-11": "「把點連接起來；也可比喻串連線索」與本句語境不同。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。"
+        "dot-mcq-09": "本句的「dotted the landscape」指「小型事物零星分布在某地；點綴／散布」。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-09"
     },
@@ -868,11 +804,9 @@ export default {
       "masked": "The hillside was ____.",
       "options": [
         "dot-mcq-09",
-        "dot-mcq-08",
-        "dot-mcq-10",
-        "dot-mcq-07",
-        "dot-mcq-11",
-        "dot-mcq-06"
+        "dot-mcq-05",
+        "dot-mcq-04",
+        "dot-mcq-12"
       ],
       "explanation": "本句的「dotted with houses」指「小型事物零星分布在某地；點綴／散布」。",
       "sentenceIndex": 22,
@@ -881,12 +815,10 @@ export default {
         "dotted with houses"
       ],
       "optionReasons": {
-        "dot-mcq-09": "本句指「小型事物零星分布在某地；點綴／散布」。",
-        "dot-mcq-08": "「因距離太遠而看起來像小點的物體」與本句語境不同。",
-        "dot-mcq-10": "「把分散的事實、線索或概念串連起來，理解彼此關係」與本句語境不同。",
-        "dot-mcq-07": "「規則排列的圓點圖案」與本句語境不同。",
-        "dot-mcq-11": "「把點連接起來；也可比喻串連線索」與本句語境不同。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。"
+        "dot-mcq-09": "本句的「dotted with houses」指「小型事物零星分布在某地；點綴／散布」。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-09"
     },
@@ -898,11 +830,9 @@ export default {
       "masked": "The sky was ____.",
       "options": [
         "dot-mcq-09",
-        "dot-mcq-08",
-        "dot-mcq-10",
-        "dot-mcq-07",
-        "dot-mcq-11",
-        "dot-mcq-06"
+        "dot-mcq-12",
+        "dot-mcq-05",
+        "dot-mcq-04"
       ],
       "explanation": "本句的「dotted with stars」指「小型事物零星分布在某地；點綴／散布」。",
       "sentenceIndex": 23,
@@ -911,12 +841,10 @@ export default {
         "dotted with stars"
       ],
       "optionReasons": {
-        "dot-mcq-09": "本句指「小型事物零星分布在某地；點綴／散布」。",
-        "dot-mcq-08": "「因距離太遠而看起來像小點的物體」與本句語境不同。",
-        "dot-mcq-10": "「把分散的事實、線索或概念串連起來，理解彼此關係」與本句語境不同。",
-        "dot-mcq-07": "「規則排列的圓點圖案」與本句語境不同。",
-        "dot-mcq-11": "「把點連接起來；也可比喻串連線索」與本句語境不同。",
-        "dot-mcq-06": "「圖案上的小圓點／斑點」與本句語境不同。"
+        "dot-mcq-09": "本句的「dotted with stars」指「小型事物零星分布在某地；點綴／散布」。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-09"
     },
@@ -928,11 +856,9 @@ export default {
       "masked": "The evidence only makes sense when you ____.",
       "options": [
         "dot-mcq-10",
-        "dot-mcq-09",
-        "dot-mcq-11",
-        "dot-mcq-08",
+        "dot-mcq-14",
         "dot-mcq-12",
-        "dot-mcq-07"
+        "dot-mcq-01"
       ],
       "explanation": "本句的「connect the dots」指「把分散的事實、線索或概念串連起來，理解彼此關係」。",
       "sentenceIndex": 24,
@@ -941,12 +867,10 @@ export default {
         "connect the dots"
       ],
       "optionReasons": {
-        "dot-mcq-10": "本句指「把分散的事實、線索或概念串連起來，理解彼此關係」。",
-        "dot-mcq-09": "「小型事物零星分布在某地；點綴／散布」與本句語境不同。",
-        "dot-mcq-11": "「把點連接起來；也可比喻串連線索」與本句語境不同。",
-        "dot-mcq-08": "「因距離太遠而看起來像小點的物體」與本句語境不同。",
-        "dot-mcq-12": "「正好在指定時間；準時」與本句語境不同。",
-        "dot-mcq-07": "「規則排列的圓點圖案」與本句語境不同。"
+        "dot-mcq-10": "本句的「connect the dots」指「把分散的事實、線索或概念串連起來，理解彼此關係」。",
+        "dot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-10"
     },
@@ -958,11 +882,9 @@ export default {
       "masked": "She helped us ____ between theory and real-life examples.",
       "options": [
         "dot-mcq-10",
-        "dot-mcq-09",
-        "dot-mcq-11",
-        "dot-mcq-08",
+        "dot-mcq-13",
         "dot-mcq-12",
-        "dot-mcq-07"
+        "dot-mcq-05"
       ],
       "explanation": "本句的「connect the dots」指「把分散的事實、線索或概念串連起來，理解彼此關係」。",
       "sentenceIndex": 25,
@@ -971,12 +893,10 @@ export default {
         "connect the dots"
       ],
       "optionReasons": {
-        "dot-mcq-10": "本句指「把分散的事實、線索或概念串連起來，理解彼此關係」。",
-        "dot-mcq-09": "「小型事物零星分布在某地；點綴／散布」與本句語境不同。",
-        "dot-mcq-11": "「把點連接起來；也可比喻串連線索」與本句語境不同。",
-        "dot-mcq-08": "「因距離太遠而看起來像小點的物體」與本句語境不同。",
-        "dot-mcq-12": "「正好在指定時間；準時」與本句語境不同。",
-        "dot-mcq-07": "「規則排列的圓點圖案」與本句語境不同。"
+        "dot-mcq-10": "本句的「connect the dots」指「把分散的事實、線索或概念串連起來，理解彼此關係」。",
+        "dot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-10"
     },
@@ -988,11 +908,9 @@ export default {
       "masked": "Children ____ to complete the picture.",
       "options": [
         "dot-mcq-11",
-        "dot-mcq-10",
-        "dot-mcq-12",
-        "dot-mcq-09",
-        "dot-mcq-13",
-        "dot-mcq-08"
+        "dot-mcq-04",
+        "dot-mcq-05",
+        "dot-mcq-12"
       ],
       "explanation": "本句的「join the dots」指「把點連接起來；也可比喻串連線索」。",
       "sentenceIndex": 26,
@@ -1001,12 +919,10 @@ export default {
         "join the dots"
       ],
       "optionReasons": {
-        "dot-mcq-11": "本句指「把點連接起來；也可比喻串連線索」。",
-        "dot-mcq-10": "「把分散的事實、線索或概念串連起來，理解彼此關係」與本句語境不同。",
-        "dot-mcq-12": "「正好在指定時間；準時」與本句語境不同。",
-        "dot-mcq-09": "「小型事物零星分布在某地；點綴／散布」與本句語境不同。",
-        "dot-mcq-13": "「非常少量的一點某物」與本句語境不同。",
-        "dot-mcq-08": "「因距離太遠而看起來像小點的物體」與本句語境不同。"
+        "dot-mcq-11": "本句的「join the dots」指「把點連接起來；也可比喻串連線索」。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-11"
     },
@@ -1018,11 +934,9 @@ export default {
       "masked": "Once you ____, the pattern becomes obvious.",
       "options": [
         "dot-mcq-11",
-        "dot-mcq-10",
         "dot-mcq-12",
-        "dot-mcq-09",
-        "dot-mcq-13",
-        "dot-mcq-08"
+        "dot-mcq-04",
+        "dot-mcq-05"
       ],
       "explanation": "本句的「join the dots」指「把點連接起來；也可比喻串連線索」。",
       "sentenceIndex": 27,
@@ -1031,12 +945,10 @@ export default {
         "join the dots"
       ],
       "optionReasons": {
-        "dot-mcq-11": "本句指「把點連接起來；也可比喻串連線索」。",
-        "dot-mcq-10": "「把分散的事實、線索或概念串連起來，理解彼此關係」與本句語境不同。",
-        "dot-mcq-12": "「正好在指定時間；準時」與本句語境不同。",
-        "dot-mcq-09": "「小型事物零星分布在某地；點綴／散布」與本句語境不同。",
-        "dot-mcq-13": "「非常少量的一點某物」與本句語境不同。",
-        "dot-mcq-08": "「因距離太遠而看起來像小點的物體」與本句語境不同。"
+        "dot-mcq-11": "本句的「join the dots」指「把點連接起來；也可比喻串連線索」。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-11"
     },
@@ -1048,11 +960,9 @@ export default {
       "masked": "The meeting starts at nine ____.",
       "options": [
         "dot-mcq-12",
-        "dot-mcq-11",
-        "dot-mcq-13",
-        "dot-mcq-10",
-        "dot-mcq-14",
-        "dot-mcq-09"
+        "dot-mcq-04",
+        "dot-mcq-01",
+        "dot-mcq-11"
       ],
       "explanation": "本句的「on the dot」指「正好在指定時間；準時」。",
       "sentenceIndex": 28,
@@ -1061,12 +971,10 @@ export default {
         "on the dot"
       ],
       "optionReasons": {
-        "dot-mcq-12": "本句指「正好在指定時間；準時」。",
-        "dot-mcq-11": "「把點連接起來；也可比喻串連線索」與本句語境不同。",
-        "dot-mcq-13": "「非常少量的一點某物」與本句語境不同。",
-        "dot-mcq-10": "「把分散的事實、線索或概念串連起來，理解彼此關係」與本句語境不同。",
-        "dot-mcq-14": "「數學中兩個向量運算所得的點積／內積」與本句語境不同。",
-        "dot-mcq-09": "「小型事物零星分布在某地；點綴／散布」與本句語境不同。"
+        "dot-mcq-12": "本句的「on the dot」指「正好在指定時間；準時」。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-12"
     },
@@ -1078,11 +986,9 @@ export default {
       "masked": "She arrived at six ____.",
       "options": [
         "dot-mcq-12",
-        "dot-mcq-11",
-        "dot-mcq-13",
         "dot-mcq-10",
         "dot-mcq-14",
-        "dot-mcq-09"
+        "dot-mcq-07"
       ],
       "explanation": "本句的「on the dot」指「正好在指定時間；準時」。",
       "sentenceIndex": 29,
@@ -1091,12 +997,10 @@ export default {
         "on the dot"
       ],
       "optionReasons": {
-        "dot-mcq-12": "本句指「正好在指定時間；準時」。",
-        "dot-mcq-11": "「把點連接起來；也可比喻串連線索」與本句語境不同。",
-        "dot-mcq-13": "「非常少量的一點某物」與本句語境不同。",
-        "dot-mcq-10": "「把分散的事實、線索或概念串連起來，理解彼此關係」與本句語境不同。",
-        "dot-mcq-14": "「數學中兩個向量運算所得的點積／內積」與本句語境不同。",
-        "dot-mcq-09": "「小型事物零星分布在某地；點綴／散布」與本句語境不同。"
+        "dot-mcq-12": "本句的「on the dot」指「正好在指定時間；準時」。",
+        "dot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-12"
     },
@@ -1109,9 +1013,7 @@ export default {
       "options": [
         "dot-mcq-13",
         "dot-mcq-12",
-        "dot-mcq-14",
-        "dot-mcq-11",
-        "dot-mcq-15",
+        "dot-mcq-04",
         "dot-mcq-10"
       ],
       "explanation": "本句的「dot of glue」指「非常少量的一點某物」。",
@@ -1121,12 +1023,10 @@ export default {
         "dot of glue"
       ],
       "optionReasons": {
-        "dot-mcq-13": "本句指「非常少量的一點某物」。",
-        "dot-mcq-12": "「正好在指定時間；準時」與本句語境不同。",
-        "dot-mcq-14": "「數學中兩個向量運算所得的點積／內積」與本句語境不同。",
-        "dot-mcq-11": "「把點連接起來；也可比喻串連線索」與本句語境不同。",
-        "dot-mcq-15": "「使用點符號表示特定數學、物理或程式操作的點記法」與本句語境不同。",
-        "dot-mcq-10": "「把分散的事實、線索或概念串連起來，理解彼此關係」與本句語境不同。"
+        "dot-mcq-13": "本句的「dot of glue」指「非常少量的一點某物」。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-13"
     },
@@ -1139,10 +1039,8 @@ export default {
       "options": [
         "dot-mcq-13",
         "dot-mcq-12",
-        "dot-mcq-14",
-        "dot-mcq-11",
-        "dot-mcq-15",
-        "dot-mcq-10"
+        "dot-mcq-10",
+        "dot-mcq-04"
       ],
       "explanation": "本句的「dot of paint」指「非常少量的一點某物」。",
       "sentenceIndex": 31,
@@ -1151,12 +1049,10 @@ export default {
         "dot of paint"
       ],
       "optionReasons": {
-        "dot-mcq-13": "本句指「非常少量的一點某物」。",
-        "dot-mcq-12": "「正好在指定時間；準時」與本句語境不同。",
-        "dot-mcq-14": "「數學中兩個向量運算所得的點積／內積」與本句語境不同。",
-        "dot-mcq-11": "「把點連接起來；也可比喻串連線索」與本句語境不同。",
-        "dot-mcq-15": "「使用點符號表示特定數學、物理或程式操作的點記法」與本句語境不同。",
-        "dot-mcq-10": "「把分散的事實、線索或概念串連起來，理解彼此關係」與本句語境不同。"
+        "dot-mcq-13": "本句的「dot of paint」指「非常少量的一點某物」。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-13"
     },
@@ -1168,11 +1064,9 @@ export default {
       "masked": "Students learned how to calculate the ____ of two vectors.",
       "options": [
         "dot-mcq-14",
-        "dot-mcq-13",
-        "dot-mcq-15",
         "dot-mcq-12",
-        "dot-mcq-16",
-        "dot-mcq-11"
+        "dot-mcq-04",
+        "dot-mcq-05"
       ],
       "explanation": "本句的「dot product」指「數學中兩個向量運算所得的點積／內積」。",
       "sentenceIndex": 32,
@@ -1181,12 +1075,10 @@ export default {
         "dot product"
       ],
       "optionReasons": {
-        "dot-mcq-14": "本句指「數學中兩個向量運算所得的點積／內積」。",
-        "dot-mcq-13": "「非常少量的一點某物」與本句語境不同。",
-        "dot-mcq-15": "「使用點符號表示特定數學、物理或程式操作的點記法」與本句語境不同。",
-        "dot-mcq-12": "「正好在指定時間；準時」與本句語境不同。",
-        "dot-mcq-16": "「檔名以點開頭的檔案，常作隱藏／設定檔用途」與本句語境不同。",
-        "dot-mcq-11": "「把點連接起來；也可比喻串連線索」與本句語境不同。"
+        "dot-mcq-14": "本句的「dot product」指「數學中兩個向量運算所得的點積／內積」。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-14"
     },
@@ -1198,11 +1090,9 @@ export default {
       "masked": "The ____ is widely used in physics and mathematics.",
       "options": [
         "dot-mcq-14",
-        "dot-mcq-13",
-        "dot-mcq-15",
+        "dot-mcq-10",
         "dot-mcq-12",
-        "dot-mcq-16",
-        "dot-mcq-11"
+        "dot-mcq-04"
       ],
       "explanation": "本句的「dot product」指「數學中兩個向量運算所得的點積／內積」。",
       "sentenceIndex": 33,
@@ -1211,12 +1101,10 @@ export default {
         "dot product"
       ],
       "optionReasons": {
-        "dot-mcq-14": "本句指「數學中兩個向量運算所得的點積／內積」。",
-        "dot-mcq-13": "「非常少量的一點某物」與本句語境不同。",
-        "dot-mcq-15": "「使用點符號表示特定數學、物理或程式操作的點記法」與本句語境不同。",
-        "dot-mcq-12": "「正好在指定時間；準時」與本句語境不同。",
-        "dot-mcq-16": "「檔名以點開頭的檔案，常作隱藏／設定檔用途」與本句語境不同。",
-        "dot-mcq-11": "「把點連接起來；也可比喻串連線索」與本句語境不同。"
+        "dot-mcq-14": "本句的「dot product」指「數學中兩個向量運算所得的點積／內積」。",
+        "dot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-14"
     },
@@ -1228,11 +1116,9 @@ export default {
       "masked": "Newton used ____ for time derivatives.",
       "options": [
         "dot-mcq-15",
-        "dot-mcq-14",
-        "dot-mcq-16",
-        "dot-mcq-13",
-        "dot-mcq-17",
-        "dot-mcq-12"
+        "dot-mcq-04",
+        "dot-mcq-06",
+        "dot-mcq-13"
       ],
       "explanation": "本句的「dot notation」指「使用點符號表示特定數學、物理或程式操作的點記法」。",
       "sentenceIndex": 34,
@@ -1241,12 +1127,10 @@ export default {
         "dot notation"
       ],
       "optionReasons": {
-        "dot-mcq-15": "本句指「使用點符號表示特定數學、物理或程式操作的點記法」。",
-        "dot-mcq-14": "「數學中兩個向量運算所得的點積／內積」與本句語境不同。",
-        "dot-mcq-16": "「檔名以點開頭的檔案，常作隱藏／設定檔用途」與本句語境不同。",
-        "dot-mcq-13": "「非常少量的一點某物」與本句語境不同。",
-        "dot-mcq-17": "「帶有圓點的；或零星散布著某物的」與本句語境不同。",
-        "dot-mcq-12": "「正好在指定時間；準時」與本句語境不同。"
+        "dot-mcq-15": "本句的「dot notation」指「使用點符號表示特定數學、物理或程式操作的點記法」。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-15"
     },
@@ -1258,11 +1142,9 @@ export default {
       "masked": "Some programming languages use ____ to access properties.",
       "options": [
         "dot-mcq-15",
-        "dot-mcq-14",
-        "dot-mcq-16",
-        "dot-mcq-13",
-        "dot-mcq-17",
-        "dot-mcq-12"
+        "dot-mcq-04",
+        "dot-mcq-02",
+        "dot-mcq-09"
       ],
       "explanation": "本句的「dot notation」指「使用點符號表示特定數學、物理或程式操作的點記法」。",
       "sentenceIndex": 35,
@@ -1271,12 +1153,10 @@ export default {
         "dot notation"
       ],
       "optionReasons": {
-        "dot-mcq-15": "本句指「使用點符號表示特定數學、物理或程式操作的點記法」。",
-        "dot-mcq-14": "「數學中兩個向量運算所得的點積／內積」與本句語境不同。",
-        "dot-mcq-16": "「檔名以點開頭的檔案，常作隱藏／設定檔用途」與本句語境不同。",
-        "dot-mcq-13": "「非常少量的一點某物」與本句語境不同。",
-        "dot-mcq-17": "「帶有圓點的；或零星散布著某物的」與本句語境不同。",
-        "dot-mcq-12": "「正好在指定時間；準時」與本句語境不同。"
+        "dot-mcq-15": "本句的「dot notation」指「使用點符號表示特定數學、物理或程式操作的點記法」。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-15"
     },
@@ -1288,11 +1168,9 @@ export default {
       "masked": "The configuration is stored in a ____.",
       "options": [
         "dot-mcq-16",
-        "dot-mcq-15",
-        "dot-mcq-17",
-        "dot-mcq-14",
-        "dot-mcq-13",
-        "dot-mcq-12"
+        "dot-mcq-05",
+        "dot-mcq-10",
+        "dot-mcq-04"
       ],
       "explanation": "本句的「dot file」指「檔名以點開頭的檔案，常作隱藏／設定檔用途」。",
       "sentenceIndex": 36,
@@ -1301,12 +1179,10 @@ export default {
         "dot file"
       ],
       "optionReasons": {
-        "dot-mcq-16": "本句指「檔名以點開頭的檔案，常作隱藏／設定檔用途」。",
-        "dot-mcq-15": "「使用點符號表示特定數學、物理或程式操作的點記法」與本句語境不同。",
-        "dot-mcq-17": "「帶有圓點的；或零星散布著某物的」與本句語境不同。",
-        "dot-mcq-14": "「數學中兩個向量運算所得的點積／內積」與本句語境不同。",
-        "dot-mcq-13": "「非常少量的一點某物」與本句語境不同。",
-        "dot-mcq-12": "「正好在指定時間；準時」與本句語境不同。"
+        "dot-mcq-16": "本句的「dot file」指「檔名以點開頭的檔案，常作隱藏／設定檔用途」。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-16"
     },
@@ -1318,11 +1194,9 @@ export default {
       "masked": "Some ____ are hidden by default.",
       "options": [
         "dot-mcq-16",
-        "dot-mcq-15",
-        "dot-mcq-17",
-        "dot-mcq-14",
-        "dot-mcq-13",
-        "dot-mcq-12"
+        "dot-mcq-04",
+        "dot-mcq-05",
+        "dot-mcq-10"
       ],
       "explanation": "本句的「dot files」指「檔名以點開頭的檔案，常作隱藏／設定檔用途」。",
       "sentenceIndex": 37,
@@ -1331,12 +1205,10 @@ export default {
         "dot files"
       ],
       "optionReasons": {
-        "dot-mcq-16": "本句指「檔名以點開頭的檔案，常作隱藏／設定檔用途」。",
-        "dot-mcq-15": "「使用點符號表示特定數學、物理或程式操作的點記法」與本句語境不同。",
-        "dot-mcq-17": "「帶有圓點的；或零星散布著某物的」與本句語境不同。",
-        "dot-mcq-14": "「數學中兩個向量運算所得的點積／內積」與本句語境不同。",
-        "dot-mcq-13": "「非常少量的一點某物」與本句語境不同。",
-        "dot-mcq-12": "「正好在指定時間；準時」與本句語境不同。"
+        "dot-mcq-16": "本句的「dot files」指「檔名以點開頭的檔案，常作隱藏／設定檔用途」。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-16"
     },
@@ -1348,10 +1220,8 @@ export default {
       "masked": "She wore a ____.",
       "options": [
         "dot-mcq-17",
-        "dot-mcq-16",
-        "dot-mcq-15",
-        "dot-mcq-14",
-        "dot-mcq-13",
+        "dot-mcq-04",
+        "dot-mcq-05",
         "dot-mcq-12"
       ],
       "explanation": "本句的「dotted shirt」指「帶有圓點的；或零星散布著某物的」。",
@@ -1361,12 +1231,10 @@ export default {
         "dotted shirt"
       ],
       "optionReasons": {
-        "dot-mcq-17": "本句指「帶有圓點的；或零星散布著某物的」。",
-        "dot-mcq-16": "「檔名以點開頭的檔案，常作隱藏／設定檔用途」與本句語境不同。",
-        "dot-mcq-15": "「使用點符號表示特定數學、物理或程式操作的點記法」與本句語境不同。",
-        "dot-mcq-14": "「數學中兩個向量運算所得的點積／內積」與本句語境不同。",
-        "dot-mcq-13": "「非常少量的一點某物」與本句語境不同。",
-        "dot-mcq-12": "「正好在指定時間；準時」與本句語境不同。"
+        "dot-mcq-17": "本句的「dotted shirt」指「帶有圓點的；或零星散布著某物的」。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-17"
     },
@@ -1378,11 +1246,9 @@ export default {
       "masked": "The coast is ____.",
       "options": [
         "dot-mcq-17",
-        "dot-mcq-16",
-        "dot-mcq-15",
-        "dot-mcq-14",
-        "dot-mcq-13",
-        "dot-mcq-12"
+        "dot-mcq-04",
+        "dot-mcq-12",
+        "dot-mcq-05"
       ],
       "explanation": "本句的「dotted with small villages」指「帶有圓點的；或零星散布著某物的」。",
       "sentenceIndex": 41,
@@ -1391,12 +1257,10 @@ export default {
         "dotted with small villages"
       ],
       "optionReasons": {
-        "dot-mcq-17": "本句指「帶有圓點的；或零星散布著某物的」。",
-        "dot-mcq-16": "「檔名以點開頭的檔案，常作隱藏／設定檔用途」與本句語境不同。",
-        "dot-mcq-15": "「使用點符號表示特定數學、物理或程式操作的點記法」與本句語境不同。",
-        "dot-mcq-14": "「數學中兩個向量運算所得的點積／內積」與本句語境不同。",
-        "dot-mcq-13": "「非常少量的一點某物」與本句語境不同。",
-        "dot-mcq-12": "「正好在指定時間；準時」與本句語境不同。"
+        "dot-mcq-17": "本句的「dotted with small villages」指「帶有圓點的；或零星散布著某物的」。",
+        "dot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dot-mcq-17"
     }
@@ -1408,5 +1272,7 @@ export default {
     "sha256": "83e51458fc49d6720bb5735095d26f2570b47a057693f8a764f8dd0ef60bc5c2",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -240,11 +240,8 @@ export default {
       "masked": "The ____ of using cafés as study spaces is becoming more noticeable.",
       "options": [
         "trend-mcq-01",
-        "trend-mcq-02",
-        "trend-mcq-03",
-        "trend-mcq-04",
-        "trend-mcq-05",
-        "trend-mcq-06"
+        "trend-mcq-06",
+        "trend-mcq-09"
       ],
       "explanation": "本句的「trend」指「某種情況、行為或數據隨時間向某方向發展的整體趨勢」。",
       "sentenceIndex": 0,
@@ -253,12 +250,9 @@ export default {
         "trend"
       ],
       "optionReasons": {
-        "trend-mcq-01": "本句指「某種情況、行為或數據隨時間向某方向發展的整體趨勢」。",
-        "trend-mcq-02": "「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」與本句語境不同。",
-        "trend-mcq-03": "「從一組數據中可觀察到的整體上升、下降或變化方向」與本句語境不同。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。"
+        "trend-mcq-01": "本句的「trend」指「某種情況、行為或數據隨時間向某方向發展的整體趨勢」。",
+        "trend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-01"
     },
@@ -270,10 +264,7 @@ export default {
       "masked": "The figures show a downward ____.",
       "options": [
         "trend-mcq-01",
-        "trend-mcq-02",
-        "trend-mcq-03",
-        "trend-mcq-04",
-        "trend-mcq-05",
+        "trend-mcq-09",
         "trend-mcq-06"
       ],
       "explanation": "本句的「trend」指「某種情況、行為或數據隨時間向某方向發展的整體趨勢」。",
@@ -283,12 +274,9 @@ export default {
         "trend"
       ],
       "optionReasons": {
-        "trend-mcq-01": "本句指「某種情況、行為或數據隨時間向某方向發展的整體趨勢」。",
-        "trend-mcq-02": "「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」與本句語境不同。",
-        "trend-mcq-03": "「從一組數據中可觀察到的整體上升、下降或變化方向」與本句語境不同。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。"
+        "trend-mcq-01": "本句的「trend」指「某種情況、行為或數據隨時間向某方向發展的整體趨勢」。",
+        "trend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-01"
     },
@@ -300,10 +288,7 @@ export default {
       "masked": "There has been a clear ____ toward smaller households.",
       "options": [
         "trend-mcq-01",
-        "trend-mcq-02",
-        "trend-mcq-03",
-        "trend-mcq-04",
-        "trend-mcq-05",
+        "trend-mcq-08",
         "trend-mcq-06"
       ],
       "explanation": "本句的「trend」指「某種情況、行為或數據隨時間向某方向發展的整體趨勢」。",
@@ -313,12 +298,9 @@ export default {
         "trend"
       ],
       "optionReasons": {
-        "trend-mcq-01": "本句指「某種情況、行為或數據隨時間向某方向發展的整體趨勢」。",
-        "trend-mcq-02": "「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」與本句語境不同。",
-        "trend-mcq-03": "「從一組數據中可觀察到的整體上升、下降或變化方向」與本句語境不同。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。"
+        "trend-mcq-01": "本句的「trend」指「某種情況、行為或數據隨時間向某方向發展的整體趨勢」。",
+        "trend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-01"
     },
@@ -330,11 +312,8 @@ export default {
       "masked": "Oversized jackets are a major fashion ____.",
       "options": [
         "trend-mcq-02",
-        "trend-mcq-01",
-        "trend-mcq-03",
-        "trend-mcq-04",
-        "trend-mcq-05",
-        "trend-mcq-06"
+        "trend-mcq-07",
+        "trend-mcq-05"
       ],
       "explanation": "本句的「trend」指「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」。",
       "sentenceIndex": 3,
@@ -343,12 +322,9 @@ export default {
         "trend"
       ],
       "optionReasons": {
-        "trend-mcq-02": "本句指「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」。",
-        "trend-mcq-01": "「某種情況、行為或數據隨時間向某方向發展的整體趨勢」與本句語境不同。",
-        "trend-mcq-03": "「從一組數據中可觀察到的整體上升、下降或變化方向」與本句語境不同。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。"
+        "trend-mcq-02": "本句的「trend」指「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」。",
+        "trend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-02"
     },
@@ -360,11 +336,8 @@ export default {
       "masked": "The app started a new social-media ____.",
       "options": [
         "trend-mcq-02",
-        "trend-mcq-01",
-        "trend-mcq-03",
         "trend-mcq-04",
-        "trend-mcq-05",
-        "trend-mcq-06"
+        "trend-mcq-05"
       ],
       "explanation": "本句的「trend」指「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」。",
       "sentenceIndex": 4,
@@ -373,12 +346,9 @@ export default {
         "trend"
       ],
       "optionReasons": {
-        "trend-mcq-02": "本句指「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」。",
-        "trend-mcq-01": "「某種情況、行為或數據隨時間向某方向發展的整體趨勢」與本句語境不同。",
-        "trend-mcq-03": "「從一組數據中可觀察到的整體上升、下降或變化方向」與本句語境不同。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。"
+        "trend-mcq-02": "本句的「trend」指「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」。",
+        "trend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-02"
     },
@@ -390,11 +360,8 @@ export default {
       "masked": "The data reveal a gradual upward ____.",
       "options": [
         "trend-mcq-03",
-        "trend-mcq-02",
-        "trend-mcq-04",
-        "trend-mcq-01",
-        "trend-mcq-05",
-        "trend-mcq-06"
+        "trend-mcq-06",
+        "trend-mcq-09"
       ],
       "explanation": "本句的「trend」指「從一組數據中可觀察到的整體上升、下降或變化方向」。",
       "sentenceIndex": 5,
@@ -403,12 +370,9 @@ export default {
         "trend"
       ],
       "optionReasons": {
-        "trend-mcq-03": "本句指「從一組數據中可觀察到的整體上升、下降或變化方向」。",
-        "trend-mcq-02": "「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」與本句語境不同。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。",
-        "trend-mcq-01": "「某種情況、行為或數據隨時間向某方向發展的整體趨勢」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。"
+        "trend-mcq-03": "本句的「trend」指「從一組數據中可觀察到的整體上升、下降或變化方向」。",
+        "trend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-03"
     },
@@ -420,11 +384,7 @@ export default {
       "masked": "Researchers examined the long-term ____ in temperatures.",
       "options": [
         "trend-mcq-03",
-        "trend-mcq-02",
-        "trend-mcq-04",
-        "trend-mcq-01",
-        "trend-mcq-05",
-        "trend-mcq-06"
+        "trend-mcq-02"
       ],
       "explanation": "本句的「trend」指「從一組數據中可觀察到的整體上升、下降或變化方向」。",
       "sentenceIndex": 6,
@@ -433,12 +393,8 @@ export default {
         "trend"
       ],
       "optionReasons": {
-        "trend-mcq-03": "本句指「從一組數據中可觀察到的整體上升、下降或變化方向」。",
-        "trend-mcq-02": "「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」與本句語境不同。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。",
-        "trend-mcq-01": "「某種情況、行為或數據隨時間向某方向發展的整體趨勢」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。"
+        "trend-mcq-03": "本句的「trend」指「從一組數據中可觀察到的整體上升、下降或變化方向」。",
+        "trend-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-03"
     },
@@ -450,10 +406,7 @@ export default {
       "masked": "The survey suggests a ____ toward more flexible working.",
       "options": [
         "trend-mcq-03",
-        "trend-mcq-02",
-        "trend-mcq-04",
-        "trend-mcq-01",
-        "trend-mcq-05",
+        "trend-mcq-08",
         "trend-mcq-06"
       ],
       "explanation": "本句的「trend」指「從一組數據中可觀察到的整體上升、下降或變化方向」。",
@@ -463,12 +416,9 @@ export default {
         "trend"
       ],
       "optionReasons": {
-        "trend-mcq-03": "本句指「從一組數據中可觀察到的整體上升、下降或變化方向」。",
-        "trend-mcq-02": "「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」與本句語境不同。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。",
-        "trend-mcq-01": "「某種情況、行為或數據隨時間向某方向發展的整體趨勢」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。"
+        "trend-mcq-03": "本句的「trend」指「從一組數據中可觀察到的整體上升、下降或變化方向」。",
+        "trend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-03"
     },
@@ -480,10 +430,7 @@ export default {
       "masked": "The policy reflects a wider social ____.",
       "options": [
         "trend-mcq-03",
-        "trend-mcq-02",
-        "trend-mcq-04",
-        "trend-mcq-01",
-        "trend-mcq-05",
+        "trend-mcq-09",
         "trend-mcq-06"
       ],
       "explanation": "本句的「trend」指「從一組數據中可觀察到的整體上升、下降或變化方向」。",
@@ -493,12 +440,9 @@ export default {
         "trend"
       ],
       "optionReasons": {
-        "trend-mcq-03": "本句指「從一組數據中可觀察到的整體上升、下降或變化方向」。",
-        "trend-mcq-02": "「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」與本句語境不同。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。",
-        "trend-mcq-01": "「某種情況、行為或數據隨時間向某方向發展的整體趨勢」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。"
+        "trend-mcq-03": "本句的「trend」指「從一組數據中可觀察到的整體上升、下降或變化方向」。",
+        "trend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-03"
     },
@@ -510,11 +454,8 @@ export default {
       "masked": "Prices are ____ upward.",
       "options": [
         "trend-mcq-04",
-        "trend-mcq-03",
-        "trend-mcq-05",
-        "trend-mcq-02",
-        "trend-mcq-06",
-        "trend-mcq-01"
+        "trend-mcq-08",
+        "trend-mcq-05"
       ],
       "explanation": "本句的「trending」指「情況、數值或態度逐漸朝某個方向發展」。",
       "sentenceIndex": 9,
@@ -523,12 +464,9 @@ export default {
         "trending"
       ],
       "optionReasons": {
-        "trend-mcq-04": "本句指「情況、數值或態度逐漸朝某個方向發展」。",
-        "trend-mcq-03": "「從一組數據中可觀察到的整體上升、下降或變化方向」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-02": "「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。",
-        "trend-mcq-01": "「某種情況、行為或數據隨時間向某方向發展的整體趨勢」與本句語境不同。"
+        "trend-mcq-04": "本句的「trending」指「情況、數值或態度逐漸朝某個方向發展」。",
+        "trend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-04"
     },
@@ -540,11 +478,8 @@ export default {
       "masked": "Public opinion has ____ toward greater support.",
       "options": [
         "trend-mcq-04",
-        "trend-mcq-03",
-        "trend-mcq-05",
-        "trend-mcq-02",
         "trend-mcq-06",
-        "trend-mcq-01"
+        "trend-mcq-08"
       ],
       "explanation": "本句的「trended」指「情況、數值或態度逐漸朝某個方向發展」。",
       "sentenceIndex": 10,
@@ -553,12 +488,9 @@ export default {
         "trended"
       ],
       "optionReasons": {
-        "trend-mcq-04": "本句指「情況、數值或態度逐漸朝某個方向發展」。",
-        "trend-mcq-03": "「從一組數據中可觀察到的整體上升、下降或變化方向」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-02": "「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。",
-        "trend-mcq-01": "「某種情況、行為或數據隨時間向某方向發展的整體趨勢」與本句語境不同。"
+        "trend-mcq-04": "本句的「trended」指「情況、數值或態度逐漸朝某個方向發展」。",
+        "trend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-04"
     },
@@ -571,10 +503,7 @@ export default {
       "options": [
         "trend-mcq-05",
         "trend-mcq-04",
-        "trend-mcq-06",
-        "trend-mcq-03",
-        "trend-mcq-07",
-        "trend-mcq-02"
+        "trend-mcq-08"
       ],
       "explanation": "本句的「trend」指「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」。",
       "sentenceIndex": 11,
@@ -583,12 +512,9 @@ export default {
         "trend"
       ],
       "optionReasons": {
-        "trend-mcq-05": "本句指「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。",
-        "trend-mcq-03": "「從一組數據中可觀察到的整體上升、下降或變化方向」與本句語境不同。",
-        "trend-mcq-07": "「地形、斷層、岩層等朝某方向延伸；專門」與本句語境不同。",
-        "trend-mcq-02": "「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」與本句語境不同。"
+        "trend-mcq-05": "本句的「trend」指「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」。",
+        "trend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-05"
     },
@@ -600,11 +526,9 @@ export default {
       "masked": "The topic was ____ on social media.",
       "options": [
         "trend-mcq-05",
-        "trend-mcq-04",
-        "trend-mcq-06",
-        "trend-mcq-03",
-        "trend-mcq-07",
-        "trend-mcq-02"
+        "trend-mcq-10",
+        "trend-mcq-08",
+        "trend-mcq-07"
       ],
       "explanation": "本句的「trending」指「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」。",
       "sentenceIndex": 12,
@@ -613,12 +537,10 @@ export default {
         "trending"
       ],
       "optionReasons": {
-        "trend-mcq-05": "本句指「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。",
-        "trend-mcq-03": "「從一組數據中可觀察到的整體上升、下降或變化方向」與本句語境不同。",
-        "trend-mcq-07": "「地形、斷層、岩層等朝某方向延伸；專門」與本句語境不同。",
-        "trend-mcq-02": "「某段時間廣泛受到採用、模仿或關注的潮流／流行趨勢」與本句語境不同。"
+        "trend-mcq-05": "本句的「trending」指「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」。",
+        "trend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-05"
     },
@@ -630,11 +552,9 @@ export default {
       "masked": "The site displays ____ topics.",
       "options": [
         "trend-mcq-06",
-        "trend-mcq-05",
         "trend-mcq-07",
-        "trend-mcq-04",
-        "trend-mcq-08",
-        "trend-mcq-03"
+        "trend-mcq-10",
+        "trend-mcq-09"
       ],
       "explanation": "本句的「trending」指「目前受到大量網絡關注／正在流行的」。",
       "sentenceIndex": 13,
@@ -643,12 +563,10 @@ export default {
         "trending"
       ],
       "optionReasons": {
-        "trend-mcq-06": "本句指「目前受到大量網絡關注／正在流行的」。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-07": "「地形、斷層、岩層等朝某方向延伸；專門」與本句語境不同。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。",
-        "trend-mcq-08": "「符合當前潮流、時髦而受歡迎的」與本句語境不同。",
-        "trend-mcq-03": "「從一組數據中可觀察到的整體上升、下降或變化方向」與本句語境不同。"
+        "trend-mcq-06": "本句的「trending」指「目前受到大量網絡關注／正在流行的」。",
+        "trend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-06"
     },
@@ -660,11 +578,8 @@ export default {
       "masked": "This is one of the most ____ videos today.",
       "options": [
         "trend-mcq-06",
-        "trend-mcq-05",
-        "trend-mcq-07",
-        "trend-mcq-04",
-        "trend-mcq-08",
-        "trend-mcq-03"
+        "trend-mcq-03",
+        "trend-mcq-09"
       ],
       "explanation": "本句的「trending」指「目前受到大量網絡關注／正在流行的」。",
       "sentenceIndex": 14,
@@ -673,12 +588,9 @@ export default {
         "trending"
       ],
       "optionReasons": {
-        "trend-mcq-06": "本句指「目前受到大量網絡關注／正在流行的」。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-07": "「地形、斷層、岩層等朝某方向延伸；專門」與本句語境不同。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。",
-        "trend-mcq-08": "「符合當前潮流、時髦而受歡迎的」與本句語境不同。",
-        "trend-mcq-03": "「從一組數據中可觀察到的整體上升、下降或變化方向」與本句語境不同。"
+        "trend-mcq-06": "本句的「trending」指「目前受到大量網絡關注／正在流行的」。",
+        "trend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-06"
     },
@@ -691,10 +603,8 @@ export default {
       "options": [
         "trend-mcq-07",
         "trend-mcq-06",
-        "trend-mcq-08",
-        "trend-mcq-05",
-        "trend-mcq-09",
-        "trend-mcq-04"
+        "trend-mcq-10",
+        "trend-mcq-08"
       ],
       "explanation": "本句的「trends」指「地形、斷層、岩層等朝某方向延伸；專門」。",
       "sentenceIndex": 15,
@@ -703,12 +613,10 @@ export default {
         "trends"
       ],
       "optionReasons": {
-        "trend-mcq-07": "本句指「地形、斷層、岩層等朝某方向延伸；專門」。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。",
-        "trend-mcq-08": "「符合當前潮流、時髦而受歡迎的」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-09": "「時髦／緊貼潮流的程度」與本句語境不同。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。"
+        "trend-mcq-07": "本句的「trends」指「地形、斷層、岩層等朝某方向延伸；專門」。",
+        "trend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-07"
     },
@@ -722,9 +630,7 @@ export default {
         "trend-mcq-07",
         "trend-mcq-06",
         "trend-mcq-08",
-        "trend-mcq-05",
-        "trend-mcq-09",
-        "trend-mcq-04"
+        "trend-mcq-10"
       ],
       "explanation": "本句的「trends」指「地形、斷層、岩層等朝某方向延伸；專門」。",
       "sentenceIndex": 16,
@@ -733,12 +639,10 @@ export default {
         "trends"
       ],
       "optionReasons": {
-        "trend-mcq-07": "本句指「地形、斷層、岩層等朝某方向延伸；專門」。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。",
-        "trend-mcq-08": "「符合當前潮流、時髦而受歡迎的」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。",
-        "trend-mcq-09": "「時髦／緊貼潮流的程度」與本句語境不同。",
-        "trend-mcq-04": "「情況、數值或態度逐漸朝某個方向發展」與本句語境不同。"
+        "trend-mcq-07": "本句的「trends」指「地形、斷層、岩層等朝某方向延伸；專門」。",
+        "trend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-07"
     },
@@ -750,11 +654,9 @@ export default {
       "masked": "The area is full of ____ cafés.",
       "options": [
         "trend-mcq-08",
-        "trend-mcq-07",
-        "trend-mcq-09",
-        "trend-mcq-06",
         "trend-mcq-10",
-        "trend-mcq-05"
+        "trend-mcq-05",
+        "trend-mcq-07"
       ],
       "explanation": "本句的「trendy」指「符合當前潮流、時髦而受歡迎的」。",
       "sentenceIndex": 19,
@@ -763,12 +665,10 @@ export default {
         "trendy"
       ],
       "optionReasons": {
-        "trend-mcq-08": "本句指「符合當前潮流、時髦而受歡迎的」。",
-        "trend-mcq-07": "「地形、斷層、岩層等朝某方向延伸；專門」與本句語境不同。",
-        "trend-mcq-09": "「時髦／緊貼潮流的程度」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。",
-        "trend-mcq-10": "「與整體普遍趨勢相反地發展」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。"
+        "trend-mcq-08": "本句的「trendy」指「符合當前潮流、時髦而受歡迎的」。",
+        "trend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-08"
     },
@@ -780,11 +680,8 @@ export default {
       "masked": "She bought a ____ jacket.",
       "options": [
         "trend-mcq-08",
-        "trend-mcq-07",
-        "trend-mcq-09",
-        "trend-mcq-06",
-        "trend-mcq-10",
-        "trend-mcq-05"
+        "trend-mcq-03",
+        "trend-mcq-06"
       ],
       "explanation": "本句的「trendy」指「符合當前潮流、時髦而受歡迎的」。",
       "sentenceIndex": 20,
@@ -793,12 +690,9 @@ export default {
         "trendy"
       ],
       "optionReasons": {
-        "trend-mcq-08": "本句指「符合當前潮流、時髦而受歡迎的」。",
-        "trend-mcq-07": "「地形、斷層、岩層等朝某方向延伸；專門」與本句語境不同。",
-        "trend-mcq-09": "「時髦／緊貼潮流的程度」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。",
-        "trend-mcq-10": "「與整體普遍趨勢相反地發展」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。"
+        "trend-mcq-08": "本句的「trendy」指「符合當前潮流、時髦而受歡迎的」。",
+        "trend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-08"
     },
@@ -810,11 +704,9 @@ export default {
       "masked": "The neighbourhood’s ____ attracted new businesses.",
       "options": [
         "trend-mcq-09",
-        "trend-mcq-08",
+        "trend-mcq-05",
         "trend-mcq-10",
-        "trend-mcq-07",
-        "trend-mcq-06",
-        "trend-mcq-05"
+        "trend-mcq-07"
       ],
       "explanation": "本句的「trendiness」指「時髦／緊貼潮流的程度」。",
       "sentenceIndex": 21,
@@ -823,12 +715,10 @@ export default {
         "trendiness"
       ],
       "optionReasons": {
-        "trend-mcq-09": "本句指「時髦／緊貼潮流的程度」。",
-        "trend-mcq-08": "「符合當前潮流、時髦而受歡迎的」與本句語境不同。",
-        "trend-mcq-10": "「與整體普遍趨勢相反地發展」與本句語境不同。",
-        "trend-mcq-07": "「地形、斷層、岩層等朝某方向延伸；專門」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。"
+        "trend-mcq-09": "本句的「trendiness」指「時髦／緊貼潮流的程度」。",
+        "trend-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-09"
     },
@@ -840,11 +730,9 @@ export default {
       "masked": "The company managed to ____ and increase sales.",
       "options": [
         "trend-mcq-10",
+        "trend-mcq-05",
         "trend-mcq-09",
-        "trend-mcq-08",
-        "trend-mcq-07",
-        "trend-mcq-06",
-        "trend-mcq-05"
+        "trend-mcq-07"
       ],
       "explanation": "本句的「buck the trend」指「與整體普遍趨勢相反地發展」。",
       "sentenceIndex": 22,
@@ -853,12 +741,10 @@ export default {
         "buck the trend"
       ],
       "optionReasons": {
-        "trend-mcq-10": "本句指「與整體普遍趨勢相反地發展」。",
-        "trend-mcq-09": "「時髦／緊貼潮流的程度」與本句語境不同。",
-        "trend-mcq-08": "「符合當前潮流、時髦而受歡迎的」與本句語境不同。",
-        "trend-mcq-07": "「地形、斷層、岩層等朝某方向延伸；專門」與本句語境不同。",
-        "trend-mcq-06": "「目前受到大量網絡關注／正在流行的」與本句語境不同。",
-        "trend-mcq-05": "「在網絡上迅速成為大量討論、搜尋或分享的熱門內容」與本句語境不同。"
+        "trend-mcq-10": "本句的「buck the trend」指「與整體普遍趨勢相反地發展」。",
+        "trend-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "trend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trend-mcq-10"
     }
@@ -870,5 +756,7 @@ export default {
     "sha256": "023915a87facf7ea9d7b685fac91c208cb2d94a2214a22ff26ea0a81dc9f008c",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

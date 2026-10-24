@@ -434,7 +434,7 @@ export default {
     },
     {
       "id": "lesson-mcq-20",
-      "title": "表示兩堂課",
+      "title": "兩堂課",
       "form": "22. lesson is countable",
       "en": "22. lesson is countable",
       "zh": "表示兩堂課",
@@ -464,11 +464,8 @@ export default {
       "masked": "Our first ____ was about forces and motion.",
       "options": [
         "lesson-mcq-01",
-        "lesson-mcq-02",
-        "lesson-mcq-03",
-        "lesson-mcq-04",
-        "lesson-mcq-05",
-        "lesson-mcq-06"
+        "lesson-mcq-15",
+        "lesson-mcq-14"
       ],
       "explanation": "本句的「lesson」指「老師教授某科目或技能的一段時間；一堂課／課堂」。",
       "sentenceIndex": 0,
@@ -477,12 +474,9 @@ export default {
         "lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-01": "本句指「老師教授某科目或技能的一段時間；一堂課／課堂」。",
-        "lesson-mcq-02": "「關於某一科目或內容的一堂課」是「lesson in + subject」的用法，與本句語境不同。",
-        "lesson-mcq-03": "「參加／上某一堂課」是「have a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-04": "「為學生進行一堂教學」是「give/teach a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。"
+        "lesson-mcq-01": "本句的「lesson」指「老師教授某科目或技能的一段時間；一堂課／課堂」。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-01"
     },
@@ -494,11 +488,8 @@ export default {
       "masked": "I still remember my first English ____ at secondary school.",
       "options": [
         "lesson-mcq-01",
-        "lesson-mcq-02",
-        "lesson-mcq-03",
-        "lesson-mcq-04",
-        "lesson-mcq-05",
-        "lesson-mcq-06"
+        "lesson-mcq-15",
+        "lesson-mcq-11"
       ],
       "explanation": "本句的「lesson」指「老師教授某科目或技能的一段時間；一堂課／課堂」。",
       "sentenceIndex": 1,
@@ -507,12 +498,9 @@ export default {
         "lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-01": "本句指「老師教授某科目或技能的一段時間；一堂課／課堂」。",
-        "lesson-mcq-02": "「關於某一科目或內容的一堂課」是「lesson in + subject」的用法，與本句語境不同。",
-        "lesson-mcq-03": "「參加／上某一堂課」是「have a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-04": "「為學生進行一堂教學」是「give/teach a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。"
+        "lesson-mcq-01": "本句的「lesson」指「老師教授某科目或技能的一段時間；一堂課／課堂」。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-01"
     },
@@ -524,11 +512,8 @@ export default {
       "masked": "The ____ starts at nine o’clock.",
       "options": [
         "lesson-mcq-01",
-        "lesson-mcq-02",
-        "lesson-mcq-03",
-        "lesson-mcq-04",
-        "lesson-mcq-05",
-        "lesson-mcq-06"
+        "lesson-mcq-15",
+        "lesson-mcq-14"
       ],
       "explanation": "本句的「lesson」指「老師教授某科目或技能的一段時間；一堂課／課堂」。",
       "sentenceIndex": 2,
@@ -537,12 +522,9 @@ export default {
         "lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-01": "本句指「老師教授某科目或技能的一段時間；一堂課／課堂」。",
-        "lesson-mcq-02": "「關於某一科目或內容的一堂課」是「lesson in + subject」的用法，與本句語境不同。",
-        "lesson-mcq-03": "「參加／上某一堂課」是「have a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-04": "「為學生進行一堂教學」是「give/teach a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。"
+        "lesson-mcq-01": "本句的「lesson」指「老師教授某科目或技能的一段時間；一堂課／課堂」。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-01"
     },
@@ -554,11 +536,8 @@ export default {
       "masked": "Today’s ____ was much more interesting than yesterday’s.",
       "options": [
         "lesson-mcq-01",
-        "lesson-mcq-02",
-        "lesson-mcq-03",
-        "lesson-mcq-04",
-        "lesson-mcq-05",
-        "lesson-mcq-06"
+        "lesson-mcq-12",
+        "lesson-mcq-14"
       ],
       "explanation": "本句的「lesson」指「老師教授某科目或技能的一段時間；一堂課／課堂」。",
       "sentenceIndex": 3,
@@ -567,12 +546,9 @@ export default {
         "lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-01": "本句指「老師教授某科目或技能的一段時間；一堂課／課堂」。",
-        "lesson-mcq-02": "「關於某一科目或內容的一堂課」是「lesson in + subject」的用法，與本句語境不同。",
-        "lesson-mcq-03": "「參加／上某一堂課」是「have a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-04": "「為學生進行一堂教學」是「give/teach a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。"
+        "lesson-mcq-01": "本句的「lesson」指「老師教授某科目或技能的一段時間；一堂課／課堂」。",
+        "lesson-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-01"
     },
@@ -584,10 +560,7 @@ export default {
       "masked": "We had a ____ this morning.",
       "options": [
         "lesson-mcq-02",
-        "lesson-mcq-01",
-        "lesson-mcq-03",
-        "lesson-mcq-04",
-        "lesson-mcq-05",
+        "lesson-mcq-09",
         "lesson-mcq-06"
       ],
       "explanation": "本句的「lesson in physics」指「關於某一科目或內容的一堂課」。",
@@ -597,12 +570,9 @@ export default {
         "lesson in physics"
       ],
       "optionReasons": {
-        "lesson-mcq-02": "本句指「關於某一科目或內容的一堂課」。",
-        "lesson-mcq-01": "「老師教授某科目或技能的一段時間；一堂課／課堂」是「lesson — teaching period」的用法，與本句語境不同。",
-        "lesson-mcq-03": "「參加／上某一堂課」是「have a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-04": "「為學生進行一堂教學」是「give/teach a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。"
+        "lesson-mcq-02": "本句的「lesson in physics」指「關於某一科目或內容的一堂課」。",
+        "lesson-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-02"
     },
@@ -614,11 +584,9 @@ export default {
       "masked": "She gave the class a ____.",
       "options": [
         "lesson-mcq-02",
-        "lesson-mcq-01",
-        "lesson-mcq-03",
-        "lesson-mcq-04",
-        "lesson-mcq-05",
-        "lesson-mcq-06"
+        "lesson-mcq-12",
+        "lesson-mcq-14",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「lesson in grammar」指「關於某一科目或內容的一堂課」。",
       "sentenceIndex": 5,
@@ -627,12 +595,10 @@ export default {
         "lesson in grammar"
       ],
       "optionReasons": {
-        "lesson-mcq-02": "本句指「關於某一科目或內容的一堂課」。",
-        "lesson-mcq-01": "「老師教授某科目或技能的一段時間；一堂課／課堂」是「lesson — teaching period」的用法，與本句語境不同。",
-        "lesson-mcq-03": "「參加／上某一堂課」是「have a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-04": "「為學生進行一堂教學」是「give/teach a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。"
+        "lesson-mcq-02": "本句的「lesson in grammar」指「關於某一科目或內容的一堂課」。",
+        "lesson-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-02"
     },
@@ -644,11 +610,9 @@ export default {
       "masked": "I ____ after school.",
       "options": [
         "lesson-mcq-03",
-        "lesson-mcq-02",
-        "lesson-mcq-04",
-        "lesson-mcq-01",
-        "lesson-mcq-05",
-        "lesson-mcq-06"
+        "lesson-mcq-15",
+        "lesson-mcq-11",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「have a piano lesson」指「參加／上某一堂課」。",
       "sentenceIndex": 6,
@@ -657,12 +621,10 @@ export default {
         "have a piano lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-03": "本句指「參加／上某一堂課」。",
-        "lesson-mcq-02": "「關於某一科目或內容的一堂課」是「lesson in + subject」的用法，與本句語境不同。",
-        "lesson-mcq-04": "「為學生進行一堂教學」是「give/teach a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-01": "「老師教授某科目或技能的一段時間；一堂課／課堂」是「lesson — teaching period」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。"
+        "lesson-mcq-03": "本句的「have a piano lesson」指「參加／上某一堂課」。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-03"
     },
@@ -674,11 +636,9 @@ export default {
       "masked": "We ____ before lunch.",
       "options": [
         "lesson-mcq-03",
-        "lesson-mcq-02",
-        "lesson-mcq-04",
-        "lesson-mcq-01",
-        "lesson-mcq-05",
-        "lesson-mcq-06"
+        "lesson-mcq-12",
+        "lesson-mcq-19",
+        "lesson-mcq-11"
       ],
       "explanation": "本句的「had a science lesson」指「參加／上某一堂課」。",
       "sentenceIndex": 7,
@@ -687,12 +647,10 @@ export default {
         "had a science lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-03": "本句指「參加／上某一堂課」。",
-        "lesson-mcq-02": "「關於某一科目或內容的一堂課」是「lesson in + subject」的用法，與本句語境不同。",
-        "lesson-mcq-04": "「為學生進行一堂教學」是「give/teach a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-01": "「老師教授某科目或技能的一段時間；一堂課／課堂」是「lesson — teaching period」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。"
+        "lesson-mcq-03": "本句的「had a science lesson」指「參加／上某一堂課」。",
+        "lesson-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-03"
     },
@@ -704,11 +662,9 @@ export default {
       "masked": "She ____ on electricity.",
       "options": [
         "lesson-mcq-04",
-        "lesson-mcq-03",
-        "lesson-mcq-05",
-        "lesson-mcq-02",
-        "lesson-mcq-06",
-        "lesson-mcq-01"
+        "lesson-mcq-15",
+        "lesson-mcq-19",
+        "lesson-mcq-14"
       ],
       "explanation": "本句的「gave us a lesson」指「為學生進行一堂教學」。",
       "sentenceIndex": 8,
@@ -717,12 +673,10 @@ export default {
         "gave us a lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-04": "本句指「為學生進行一堂教學」。",
-        "lesson-mcq-03": "「參加／上某一堂課」是「have a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。",
-        "lesson-mcq-02": "「關於某一科目或內容的一堂課」是「lesson in + subject」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。",
-        "lesson-mcq-01": "「老師教授某科目或技能的一段時間；一堂課／課堂」是「lesson — teaching period」的用法，與本句語境不同。"
+        "lesson-mcq-04": "本句的「gave us a lesson」指「為學生進行一堂教學」。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-04"
     },
@@ -734,11 +688,9 @@ export default {
       "masked": "He ____ at weekends.",
       "options": [
         "lesson-mcq-04",
-        "lesson-mcq-03",
-        "lesson-mcq-05",
-        "lesson-mcq-02",
-        "lesson-mcq-06",
-        "lesson-mcq-01"
+        "lesson-mcq-15",
+        "lesson-mcq-14",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「teaches private lessons」指「為學生進行一堂教學」。",
       "sentenceIndex": 9,
@@ -747,12 +699,10 @@ export default {
         "teaches private lessons"
       ],
       "optionReasons": {
-        "lesson-mcq-04": "本句指「為學生進行一堂教學」。",
-        "lesson-mcq-03": "「參加／上某一堂課」是「have a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。",
-        "lesson-mcq-02": "「關於某一科目或內容的一堂課」是「lesson in + subject」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。",
-        "lesson-mcq-01": "「老師教授某科目或技能的一段時間；一堂課／課堂」是「lesson — teaching period」的用法，與本句語境不同。"
+        "lesson-mcq-04": "本句的「teaches private lessons」指「為學生進行一堂教學」。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-04"
     },
@@ -764,11 +714,9 @@ export default {
       "masked": "She takes weekly piano ____.",
       "options": [
         "lesson-mcq-08",
-        "lesson-mcq-07",
-        "lesson-mcq-09",
-        "lesson-mcq-06",
-        "lesson-mcq-10",
-        "lesson-mcq-05"
+        "lesson-mcq-16",
+        "lesson-mcq-19",
+        "lesson-mcq-02"
       ],
       "explanation": "本句的「lessons」指「課本或課程中編號的一課」。",
       "sentenceIndex": 10,
@@ -777,12 +725,10 @@ export default {
         "lessons"
       ],
       "optionReasons": {
-        "lesson-mcq-08": "本句指「課本或課程中編號的一課」。",
-        "lesson-mcq-07": "「教材或課程中被劃分出來的一課／學習單元」是「lesson — textbook unit」的用法，與本句語境不同。",
-        "lesson-mcq-09": "「從某段經歷中得到的教訓、經驗或理解」是「lesson — experience」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。",
-        "lesson-mcq-10": "「因經驗而得到重要教訓或學到道理」是「learn a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。"
+        "lesson-mcq-08": "本句的「lessons」指「課本或課程中編號的一課」。",
+        "lesson-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-08"
     },
@@ -794,11 +740,9 @@ export default {
       "masked": "I signed up for driving ____.",
       "options": [
         "lesson-mcq-08",
-        "lesson-mcq-07",
-        "lesson-mcq-09",
-        "lesson-mcq-06",
-        "lesson-mcq-10",
-        "lesson-mcq-05"
+        "lesson-mcq-15",
+        "lesson-mcq-14",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「lessons」指「課本或課程中編號的一課」。",
       "sentenceIndex": 11,
@@ -807,12 +751,10 @@ export default {
         "lessons"
       ],
       "optionReasons": {
-        "lesson-mcq-08": "本句指「課本或課程中編號的一課」。",
-        "lesson-mcq-07": "「教材或課程中被劃分出來的一課／學習單元」是「lesson — textbook unit」的用法，與本句語境不同。",
-        "lesson-mcq-09": "「從某段經歷中得到的教訓、經驗或理解」是「lesson — experience」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。",
-        "lesson-mcq-10": "「因經驗而得到重要教訓或學到道理」是「learn a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。"
+        "lesson-mcq-08": "本句的「lessons」指「課本或課程中編號的一課」。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-08"
     },
@@ -824,11 +766,9 @@ export default {
       "masked": "My first ____ was terrifying.",
       "options": [
         "lesson-mcq-06",
-        "lesson-mcq-05",
-        "lesson-mcq-07",
-        "lesson-mcq-04",
-        "lesson-mcq-08",
-        "lesson-mcq-03"
+        "lesson-mcq-11",
+        "lesson-mcq-15",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「driving lesson」指「用來學習駕駛、音樂、游泳等技能的課」。",
       "sentenceIndex": 12,
@@ -837,12 +777,10 @@ export default {
         "driving lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-06": "本句指「用來學習駕駛、音樂、游泳等技能的課」。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。",
-        "lesson-mcq-07": "「教材或課程中被劃分出來的一課／學習單元」是「lesson — textbook unit」的用法，與本句語境不同。",
-        "lesson-mcq-04": "「為學生進行一堂教學」是「give/teach a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-08": "「課本或課程中編號的一課」是「Lesson 1/2/etc.」的用法，與本句語境不同。",
-        "lesson-mcq-03": "「參加／上某一堂課」是「have a lesson」的用法，與本句語境不同。"
+        "lesson-mcq-06": "本句的「driving lesson」指「用來學習駕駛、音樂、游泳等技能的課」。",
+        "lesson-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-06"
     },
@@ -854,11 +792,9 @@ export default {
       "masked": "The children have ____ every Saturday.",
       "options": [
         "lesson-mcq-06",
-        "lesson-mcq-05",
-        "lesson-mcq-07",
-        "lesson-mcq-04",
-        "lesson-mcq-08",
-        "lesson-mcq-03"
+        "lesson-mcq-14",
+        "lesson-mcq-19",
+        "lesson-mcq-15"
       ],
       "explanation": "本句的「swimming lessons」指「用來學習駕駛、音樂、游泳等技能的課」。",
       "sentenceIndex": 13,
@@ -867,12 +803,10 @@ export default {
         "swimming lessons"
       ],
       "optionReasons": {
-        "lesson-mcq-06": "本句指「用來學習駕駛、音樂、游泳等技能的課」。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。",
-        "lesson-mcq-07": "「教材或課程中被劃分出來的一課／學習單元」是「lesson — textbook unit」的用法，與本句語境不同。",
-        "lesson-mcq-04": "「為學生進行一堂教學」是「give/teach a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-08": "「課本或課程中編號的一課」是「Lesson 1/2/etc.」的用法，與本句語境不同。",
-        "lesson-mcq-03": "「參加／上某一堂課」是「have a lesson」的用法，與本句語境不同。"
+        "lesson-mcq-06": "本句的「swimming lessons」指「用來學習駕駛、音樂、游泳等技能的課」。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-06"
     },
@@ -884,11 +818,9 @@ export default {
       "masked": "Please read ____ before tomorrow.",
       "options": [
         "lesson-mcq-07",
-        "lesson-mcq-06",
-        "lesson-mcq-08",
-        "lesson-mcq-05",
-        "lesson-mcq-09",
-        "lesson-mcq-04"
+        "lesson-mcq-15",
+        "lesson-mcq-11",
+        "lesson-mcq-03"
       ],
       "explanation": "本句的「Lesson 5」指「教材或課程中被劃分出來的一課／學習單元」。",
       "sentenceIndex": 14,
@@ -897,12 +829,10 @@ export default {
         "Lesson 5"
       ],
       "optionReasons": {
-        "lesson-mcq-07": "本句指「教材或課程中被劃分出來的一課／學習單元」。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。",
-        "lesson-mcq-08": "「課本或課程中編號的一課」是「Lesson 1/2/etc.」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。",
-        "lesson-mcq-09": "「從某段經歷中得到的教訓、經驗或理解」是「lesson — experience」的用法，與本句語境不同。",
-        "lesson-mcq-04": "「為學生進行一堂教學」是「give/teach a lesson」的用法，與本句語境不同。"
+        "lesson-mcq-07": "本句的「Lesson 5」指「教材或課程中被劃分出來的一課／學習單元」。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-07"
     },
@@ -914,11 +844,9 @@ export default {
       "masked": "Today we are starting a new ____ in the textbook.",
       "options": [
         "lesson-mcq-07",
-        "lesson-mcq-06",
-        "lesson-mcq-08",
-        "lesson-mcq-05",
-        "lesson-mcq-09",
-        "lesson-mcq-04"
+        "lesson-mcq-15",
+        "lesson-mcq-19",
+        "lesson-mcq-03"
       ],
       "explanation": "本句的「lesson」指「教材或課程中被劃分出來的一課／學習單元」。",
       "sentenceIndex": 15,
@@ -927,12 +855,10 @@ export default {
         "lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-07": "本句指「教材或課程中被劃分出來的一課／學習單元」。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。",
-        "lesson-mcq-08": "「課本或課程中編號的一課」是「Lesson 1/2/etc.」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。",
-        "lesson-mcq-09": "「從某段經歷中得到的教訓、經驗或理解」是「lesson — experience」的用法，與本句語境不同。",
-        "lesson-mcq-04": "「為學生進行一堂教學」是「give/teach a lesson」的用法，與本句語境不同。"
+        "lesson-mcq-07": "本句的「lesson」指「教材或課程中被劃分出來的一課／學習單元」。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-07"
     },
@@ -944,11 +870,9 @@ export default {
       "masked": "Vocabulary is introduced in ____.",
       "options": [
         "lesson-mcq-08",
-        "lesson-mcq-07",
-        "lesson-mcq-09",
-        "lesson-mcq-06",
-        "lesson-mcq-10",
-        "lesson-mcq-05"
+        "lesson-mcq-14",
+        "lesson-mcq-15",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「Lesson 3」指「課本或課程中編號的一課」。",
       "sentenceIndex": 16,
@@ -957,12 +881,10 @@ export default {
         "Lesson 3"
       ],
       "optionReasons": {
-        "lesson-mcq-08": "本句指「課本或課程中編號的一課」。",
-        "lesson-mcq-07": "「教材或課程中被劃分出來的一課／學習單元」是「lesson — textbook unit」的用法，與本句語境不同。",
-        "lesson-mcq-09": "「從某段經歷中得到的教訓、經驗或理解」是「lesson — experience」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。",
-        "lesson-mcq-10": "「因經驗而得到重要教訓或學到道理」是「learn a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。"
+        "lesson-mcq-08": "本句的「Lesson 3」指「課本或課程中編號的一課」。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-08"
     },
@@ -974,11 +896,9 @@ export default {
       "masked": "We finished ____ yesterday.",
       "options": [
         "lesson-mcq-08",
-        "lesson-mcq-07",
-        "lesson-mcq-09",
-        "lesson-mcq-06",
-        "lesson-mcq-10",
-        "lesson-mcq-05"
+        "lesson-mcq-15",
+        "lesson-mcq-11",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「Lesson 6」指「課本或課程中編號的一課」。",
       "sentenceIndex": 17,
@@ -987,12 +907,10 @@ export default {
         "Lesson 6"
       ],
       "optionReasons": {
-        "lesson-mcq-08": "本句指「課本或課程中編號的一課」。",
-        "lesson-mcq-07": "「教材或課程中被劃分出來的一課／學習單元」是「lesson — textbook unit」的用法，與本句語境不同。",
-        "lesson-mcq-09": "「從某段經歷中得到的教訓、經驗或理解」是「lesson — experience」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。",
-        "lesson-mcq-10": "「因經驗而得到重要教訓或學到道理」是「learn a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-05": "「個別或小班形式進行的私人教學」是「private lesson」的用法，與本句語境不同。"
+        "lesson-mcq-08": "本句的「Lesson 6」指「課本或課程中編號的一課」。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-08"
     },
@@ -1004,11 +922,7 @@ export default {
       "masked": "I learned an important ____ from that mistake.",
       "options": [
         "lesson-mcq-09",
-        "lesson-mcq-08",
-        "lesson-mcq-10",
-        "lesson-mcq-07",
-        "lesson-mcq-11",
-        "lesson-mcq-06"
+        "lesson-mcq-20"
       ],
       "explanation": "本句的「lesson」指「從某段經歷中得到的教訓、經驗或理解」。",
       "sentenceIndex": 18,
@@ -1017,12 +931,8 @@ export default {
         "lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-09": "本句指「從某段經歷中得到的教訓、經驗或理解」。",
-        "lesson-mcq-08": "「課本或課程中編號的一課」是「Lesson 1/2/etc.」的用法，與本句語境不同。",
-        "lesson-mcq-10": "「因經驗而得到重要教訓或學到道理」是「learn a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-07": "「教材或課程中被劃分出來的一課／學習單元」是「lesson — textbook unit」的用法，與本句語境不同。",
-        "lesson-mcq-11": "「因犯錯或遇到不愉快後果而記取教訓」是「learn your lesson」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。"
+        "lesson-mcq-09": "本句的「lesson」指「從某段經歷中得到的教訓、經驗或理解」。",
+        "lesson-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-09"
     },
@@ -1034,11 +944,7 @@ export default {
       "masked": "The experience taught her a valuable ____ about patience.",
       "options": [
         "lesson-mcq-09",
-        "lesson-mcq-08",
-        "lesson-mcq-10",
-        "lesson-mcq-07",
-        "lesson-mcq-11",
-        "lesson-mcq-06"
+        "lesson-mcq-18"
       ],
       "explanation": "本句的「lesson」指「從某段經歷中得到的教訓、經驗或理解」。",
       "sentenceIndex": 19,
@@ -1047,12 +953,8 @@ export default {
         "lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-09": "本句指「從某段經歷中得到的教訓、經驗或理解」。",
-        "lesson-mcq-08": "「課本或課程中編號的一課」是「Lesson 1/2/etc.」的用法，與本句語境不同。",
-        "lesson-mcq-10": "「因經驗而得到重要教訓或學到道理」是「learn a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-07": "「教材或課程中被劃分出來的一課／學習單元」是「lesson — textbook unit」的用法，與本句語境不同。",
-        "lesson-mcq-11": "「因犯錯或遇到不愉快後果而記取教訓」是「learn your lesson」的用法，與本句語境不同。",
-        "lesson-mcq-06": "「用來學習駕駛、音樂、游泳等技能的課」是「driving/music/swimming lesson」的用法，與本句語境不同。"
+        "lesson-mcq-09": "本句的「lesson」指「從某段經歷中得到的教訓、經驗或理解」。",
+        "lesson-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-09"
     },
@@ -1064,11 +966,9 @@ export default {
       "masked": "I definitely ____.",
       "options": [
         "lesson-mcq-10",
-        "lesson-mcq-09",
-        "lesson-mcq-11",
+        "lesson-mcq-02",
         "lesson-mcq-08",
-        "lesson-mcq-12",
-        "lesson-mcq-07"
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「learned my lesson」指「因經驗而得到重要教訓或學到道理」。",
       "sentenceIndex": 20,
@@ -1077,12 +977,10 @@ export default {
         "learned my lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-10": "本句指「因經驗而得到重要教訓或學到道理」。",
-        "lesson-mcq-09": "「從某段經歷中得到的教訓、經驗或理解」是「lesson — experience」的用法，與本句語境不同。",
-        "lesson-mcq-11": "「因犯錯或遇到不愉快後果而記取教訓」是「learn your lesson」的用法，與本句語境不同。",
-        "lesson-mcq-08": "「課本或課程中編號的一課」是「Lesson 1/2/etc.」的用法，與本句語境不同。",
-        "lesson-mcq-12": "「從故事、事件或經驗中可學到的道理／啟示」是「lesson — moral/message」的用法，與本句語境不同。",
-        "lesson-mcq-07": "「教材或課程中被劃分出來的一課／學習單元」是「lesson — textbook unit」的用法，與本句語境不同。"
+        "lesson-mcq-10": "本句的「learned my lesson」指「因經驗而得到重要教訓或學到道理」。",
+        "lesson-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-10"
     },
@@ -1094,11 +992,9 @@ export default {
       "masked": "He finally ____ from the experience.",
       "options": [
         "lesson-mcq-10",
-        "lesson-mcq-09",
-        "lesson-mcq-11",
+        "lesson-mcq-02",
         "lesson-mcq-08",
-        "lesson-mcq-12",
-        "lesson-mcq-07"
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「learned a lesson」指「因經驗而得到重要教訓或學到道理」。",
       "sentenceIndex": 21,
@@ -1107,12 +1003,10 @@ export default {
         "learned a lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-10": "本句指「因經驗而得到重要教訓或學到道理」。",
-        "lesson-mcq-09": "「從某段經歷中得到的教訓、經驗或理解」是「lesson — experience」的用法，與本句語境不同。",
-        "lesson-mcq-11": "「因犯錯或遇到不愉快後果而記取教訓」是「learn your lesson」的用法，與本句語境不同。",
-        "lesson-mcq-08": "「課本或課程中編號的一課」是「Lesson 1/2/etc.」的用法，與本句語境不同。",
-        "lesson-mcq-12": "「從故事、事件或經驗中可學到的道理／啟示」是「lesson — moral/message」的用法，與本句語境不同。",
-        "lesson-mcq-07": "「教材或課程中被劃分出來的一課／學習單元」是「lesson — textbook unit」的用法，與本句語境不同。"
+        "lesson-mcq-10": "本句的「learned a lesson」指「因經驗而得到重要教訓或學到道理」。",
+        "lesson-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-10"
     },
@@ -1124,11 +1018,9 @@ export default {
       "masked": "I forgot my umbrella and got soaked—I’ve ____.",
       "options": [
         "lesson-mcq-11",
-        "lesson-mcq-10",
-        "lesson-mcq-12",
-        "lesson-mcq-09",
-        "lesson-mcq-13",
-        "lesson-mcq-08"
+        "lesson-mcq-18",
+        "lesson-mcq-15",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「learned my lesson」指「因犯錯或遇到不愉快後果而記取教訓」。",
       "sentenceIndex": 22,
@@ -1137,12 +1029,10 @@ export default {
         "learned my lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-11": "本句指「因犯錯或遇到不愉快後果而記取教訓」。",
-        "lesson-mcq-10": "「因經驗而得到重要教訓或學到道理」是「learn a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-12": "「從故事、事件或經驗中可學到的道理／啟示」是「lesson — moral/message」的用法，與本句語境不同。",
-        "lesson-mcq-09": "「從某段經歷中得到的教訓、經驗或理解」是「lesson — experience」的用法，與本句語境不同。",
-        "lesson-mcq-13": "「可供某人警惕、借鏡或學習的教訓」是「lesson for someone」的用法，與本句語境不同。",
-        "lesson-mcq-08": "「課本或課程中編號的一課」是「Lesson 1/2/etc.」的用法，與本句語境不同。"
+        "lesson-mcq-11": "本句的「learned my lesson」指「因犯錯或遇到不愉快後果而記取教訓」。",
+        "lesson-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-11"
     },
@@ -1154,11 +1044,9 @@ export default {
       "masked": "Hopefully he has ____ and won’t do it again.",
       "options": [
         "lesson-mcq-11",
-        "lesson-mcq-10",
+        "lesson-mcq-18",
         "lesson-mcq-12",
-        "lesson-mcq-09",
-        "lesson-mcq-13",
-        "lesson-mcq-08"
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「learned his lesson」指「因犯錯或遇到不愉快後果而記取教訓」。",
       "sentenceIndex": 23,
@@ -1167,12 +1055,10 @@ export default {
         "learned his lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-11": "本句指「因犯錯或遇到不愉快後果而記取教訓」。",
-        "lesson-mcq-10": "「因經驗而得到重要教訓或學到道理」是「learn a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-12": "「從故事、事件或經驗中可學到的道理／啟示」是「lesson — moral/message」的用法，與本句語境不同。",
-        "lesson-mcq-09": "「從某段經歷中得到的教訓、經驗或理解」是「lesson — experience」的用法，與本句語境不同。",
-        "lesson-mcq-13": "「可供某人警惕、借鏡或學習的教訓」是「lesson for someone」的用法，與本句語境不同。",
-        "lesson-mcq-08": "「課本或課程中編號的一課」是「Lesson 1/2/etc.」的用法，與本句語境不同。"
+        "lesson-mcq-11": "本句的「learned his lesson」指「因犯錯或遇到不愉快後果而記取教訓」。",
+        "lesson-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-11"
     },
@@ -1184,11 +1070,8 @@ export default {
       "masked": "The story contains an important ____ about honesty.",
       "options": [
         "lesson-mcq-12",
-        "lesson-mcq-11",
-        "lesson-mcq-13",
-        "lesson-mcq-10",
-        "lesson-mcq-14",
-        "lesson-mcq-09"
+        "lesson-mcq-01",
+        "lesson-mcq-14"
       ],
       "explanation": "本句的「lesson」指「從故事、事件或經驗中可學到的道理／啟示」。",
       "sentenceIndex": 24,
@@ -1197,12 +1080,9 @@ export default {
         "lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-12": "本句指「從故事、事件或經驗中可學到的道理／啟示」。",
-        "lesson-mcq-11": "「因犯錯或遇到不愉快後果而記取教訓」是「learn your lesson」的用法，與本句語境不同。",
-        "lesson-mcq-13": "「可供某人警惕、借鏡或學習的教訓」是「lesson for someone」的用法，與本句語境不同。",
-        "lesson-mcq-10": "「因經驗而得到重要教訓或學到道理」是「learn a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-14": "「透過懲罰或後果使某人記取教訓」是「teach someone a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-09": "「從某段經歷中得到的教訓、經驗或理解」是「lesson — experience」的用法，與本句語境不同。"
+        "lesson-mcq-12": "本句的「lesson」指「從故事、事件或經驗中可學到的道理／啟示」。",
+        "lesson-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-12"
     },
@@ -1214,11 +1094,8 @@ export default {
       "masked": "The main ____ of the film is that trust takes time.",
       "options": [
         "lesson-mcq-12",
-        "lesson-mcq-11",
-        "lesson-mcq-13",
-        "lesson-mcq-10",
         "lesson-mcq-14",
-        "lesson-mcq-09"
+        "lesson-mcq-01"
       ],
       "explanation": "本句的「lesson」指「從故事、事件或經驗中可學到的道理／啟示」。",
       "sentenceIndex": 25,
@@ -1227,12 +1104,9 @@ export default {
         "lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-12": "本句指「從故事、事件或經驗中可學到的道理／啟示」。",
-        "lesson-mcq-11": "「因犯錯或遇到不愉快後果而記取教訓」是「learn your lesson」的用法，與本句語境不同。",
-        "lesson-mcq-13": "「可供某人警惕、借鏡或學習的教訓」是「lesson for someone」的用法，與本句語境不同。",
-        "lesson-mcq-10": "「因經驗而得到重要教訓或學到道理」是「learn a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-14": "「透過懲罰或後果使某人記取教訓」是「teach someone a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-09": "「從某段經歷中得到的教訓、經驗或理解」是「lesson — experience」的用法，與本句語境不同。"
+        "lesson-mcq-12": "本句的「lesson」指「從故事、事件或經驗中可學到的道理／啟示」。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-12"
     },
@@ -1244,11 +1118,9 @@ export default {
       "masked": "His mistake should be a ____.",
       "options": [
         "lesson-mcq-13",
-        "lesson-mcq-12",
-        "lesson-mcq-14",
-        "lesson-mcq-11",
-        "lesson-mcq-15",
-        "lesson-mcq-10"
+        "lesson-mcq-03",
+        "lesson-mcq-19",
+        "lesson-mcq-15"
       ],
       "explanation": "本句的「lesson for all of us」指「可供某人警惕、借鏡或學習的教訓」。",
       "sentenceIndex": 26,
@@ -1257,12 +1129,10 @@ export default {
         "lesson for all of us"
       ],
       "optionReasons": {
-        "lesson-mcq-13": "本句指「可供某人警惕、借鏡或學習的教訓」。",
-        "lesson-mcq-12": "「從故事、事件或經驗中可學到的道理／啟示」是「lesson — moral/message」的用法，與本句語境不同。",
-        "lesson-mcq-14": "「透過懲罰或後果使某人記取教訓」是「teach someone a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-11": "「因犯錯或遇到不愉快後果而記取教訓」是「learn your lesson」的用法，與本句語境不同。",
-        "lesson-mcq-15": "「從歷史事件中得到的警告、啟示或經驗」是「lesson from history」的用法，與本句語境不同。",
-        "lesson-mcq-10": "「因經驗而得到重要教訓或學到道理」是「learn a lesson」的用法，與本句語境不同。"
+        "lesson-mcq-13": "本句的「lesson for all of us」指「可供某人警惕、借鏡或學習的教訓」。",
+        "lesson-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-13"
     },
@@ -1274,11 +1144,9 @@ export default {
       "masked": "The accident was a painful ____.",
       "options": [
         "lesson-mcq-13",
-        "lesson-mcq-12",
-        "lesson-mcq-14",
-        "lesson-mcq-11",
+        "lesson-mcq-03",
         "lesson-mcq-15",
-        "lesson-mcq-10"
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「lesson for the company」指「可供某人警惕、借鏡或學習的教訓」。",
       "sentenceIndex": 27,
@@ -1287,12 +1155,10 @@ export default {
         "lesson for the company"
       ],
       "optionReasons": {
-        "lesson-mcq-13": "本句指「可供某人警惕、借鏡或學習的教訓」。",
-        "lesson-mcq-12": "「從故事、事件或經驗中可學到的道理／啟示」是「lesson — moral/message」的用法，與本句語境不同。",
-        "lesson-mcq-14": "「透過懲罰或後果使某人記取教訓」是「teach someone a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-11": "「因犯錯或遇到不愉快後果而記取教訓」是「learn your lesson」的用法，與本句語境不同。",
-        "lesson-mcq-15": "「從歷史事件中得到的警告、啟示或經驗」是「lesson from history」的用法，與本句語境不同。",
-        "lesson-mcq-10": "「因經驗而得到重要教訓或學到道理」是「learn a lesson」的用法，與本句語境不同。"
+        "lesson-mcq-13": "本句的「lesson for the company」指「可供某人警惕、借鏡或學習的教訓」。",
+        "lesson-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-13"
     },
@@ -1304,11 +1170,9 @@ export default {
       "masked": "He wanted to ____.",
       "options": [
         "lesson-mcq-14",
-        "lesson-mcq-13",
         "lesson-mcq-15",
-        "lesson-mcq-12",
-        "lesson-mcq-16",
-        "lesson-mcq-11"
+        "lesson-mcq-20",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「teach them a lesson」指「透過懲罰或後果使某人記取教訓」。",
       "sentenceIndex": 28,
@@ -1317,12 +1181,10 @@ export default {
         "teach them a lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-14": "本句指「透過懲罰或後果使某人記取教訓」。",
-        "lesson-mcq-13": "「可供某人警惕、借鏡或學習的教訓」是「lesson for someone」的用法，與本句語境不同。",
-        "lesson-mcq-15": "「從歷史事件中得到的警告、啟示或經驗」是「lesson from history」的用法，與本句語境不同。",
-        "lesson-mcq-12": "「從故事、事件或經驗中可學到的道理／啟示」是「lesson — moral/message」的用法，與本句語境不同。",
-        "lesson-mcq-16": "「從專案、活動或經歷中總結出的經驗與教訓」是「lessons learned」的用法，與本句語境不同。",
-        "lesson-mcq-11": "「因犯錯或遇到不愉快後果而記取教訓」是「learn your lesson」的用法，與本句語境不同。"
+        "lesson-mcq-14": "本句的「teach them a lesson」指「透過懲罰或後果使某人記取教訓」。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-14"
     },
@@ -1334,11 +1196,9 @@ export default {
       "masked": "The fine was intended to ____.",
       "options": [
         "lesson-mcq-14",
-        "lesson-mcq-13",
-        "lesson-mcq-15",
-        "lesson-mcq-12",
-        "lesson-mcq-16",
-        "lesson-mcq-11"
+        "lesson-mcq-08",
+        "lesson-mcq-03",
+        "lesson-mcq-15"
       ],
       "explanation": "本句的「teach drivers a lesson」指「透過懲罰或後果使某人記取教訓」。",
       "sentenceIndex": 29,
@@ -1347,12 +1207,10 @@ export default {
         "teach drivers a lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-14": "本句指「透過懲罰或後果使某人記取教訓」。",
-        "lesson-mcq-13": "「可供某人警惕、借鏡或學習的教訓」是「lesson for someone」的用法，與本句語境不同。",
-        "lesson-mcq-15": "「從歷史事件中得到的警告、啟示或經驗」是「lesson from history」的用法，與本句語境不同。",
-        "lesson-mcq-12": "「從故事、事件或經驗中可學到的道理／啟示」是「lesson — moral/message」的用法，與本句語境不同。",
-        "lesson-mcq-16": "「從專案、活動或經歷中總結出的經驗與教訓」是「lessons learned」的用法，與本句語境不同。",
-        "lesson-mcq-11": "「因犯錯或遇到不愉快後果而記取教訓」是「learn your lesson」的用法，與本句語境不同。"
+        "lesson-mcq-14": "本句的「teach drivers a lesson」指「透過懲罰或後果使某人記取教訓」。",
+        "lesson-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-14"
     },
@@ -1364,11 +1222,8 @@ export default {
       "masked": "One ____ is that poor communication can worsen conflict.",
       "options": [
         "lesson-mcq-15",
-        "lesson-mcq-14",
-        "lesson-mcq-16",
-        "lesson-mcq-13",
-        "lesson-mcq-17",
-        "lesson-mcq-12"
+        "lesson-mcq-01",
+        "lesson-mcq-14"
       ],
       "explanation": "本句的「lesson from history」指「從歷史事件中得到的警告、啟示或經驗」。",
       "sentenceIndex": 30,
@@ -1377,12 +1232,9 @@ export default {
         "lesson from history"
       ],
       "optionReasons": {
-        "lesson-mcq-15": "本句指「從歷史事件中得到的警告、啟示或經驗」。",
-        "lesson-mcq-14": "「透過懲罰或後果使某人記取教訓」是「teach someone a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-16": "「從專案、活動或經歷中總結出的經驗與教訓」是「lessons learned」的用法，與本句語境不同。",
-        "lesson-mcq-13": "「可供某人警惕、借鏡或學習的教訓」是「lesson for someone」的用法，與本句語境不同。",
-        "lesson-mcq-17": "「老師對一堂課內容、流程與目標所作的教學計畫」是「lesson plan」的用法，與本句語境不同。",
-        "lesson-mcq-12": "「從故事、事件或經驗中可學到的道理／啟示」是「lesson — moral/message」的用法，與本句語境不同。"
+        "lesson-mcq-15": "本句的「lesson from history」指「從歷史事件中得到的警告、啟示或經驗」。",
+        "lesson-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-15"
     },
@@ -1394,11 +1246,9 @@ export default {
       "masked": "Governments often claim to have learned the ____.",
       "options": [
         "lesson-mcq-15",
-        "lesson-mcq-14",
-        "lesson-mcq-16",
-        "lesson-mcq-13",
-        "lesson-mcq-17",
-        "lesson-mcq-12"
+        "lesson-mcq-18",
+        "lesson-mcq-11",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「lessons of the past」指「從歷史事件中得到的警告、啟示或經驗」。",
       "sentenceIndex": 31,
@@ -1407,12 +1257,10 @@ export default {
         "lessons of the past"
       ],
       "optionReasons": {
-        "lesson-mcq-15": "本句指「從歷史事件中得到的警告、啟示或經驗」。",
-        "lesson-mcq-14": "「透過懲罰或後果使某人記取教訓」是「teach someone a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-16": "「從專案、活動或經歷中總結出的經驗與教訓」是「lessons learned」的用法，與本句語境不同。",
-        "lesson-mcq-13": "「可供某人警惕、借鏡或學習的教訓」是「lesson for someone」的用法，與本句語境不同。",
-        "lesson-mcq-17": "「老師對一堂課內容、流程與目標所作的教學計畫」是「lesson plan」的用法，與本句語境不同。",
-        "lesson-mcq-12": "「從故事、事件或經驗中可學到的道理／啟示」是「lesson — moral/message」的用法，與本句語境不同。"
+        "lesson-mcq-15": "本句的「lessons of the past」指「從歷史事件中得到的警告、啟示或經驗」。",
+        "lesson-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-15"
     },
@@ -1424,11 +1272,8 @@ export default {
       "masked": "The team discussed the ____ from the project.",
       "options": [
         "lesson-mcq-16",
-        "lesson-mcq-15",
-        "lesson-mcq-17",
-        "lesson-mcq-14",
         "lesson-mcq-18",
-        "lesson-mcq-13"
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「lessons learned」指「從專案、活動或經歷中總結出的經驗與教訓」。",
       "sentenceIndex": 32,
@@ -1437,12 +1282,9 @@ export default {
         "lessons learned"
       ],
       "optionReasons": {
-        "lesson-mcq-16": "本句指「從專案、活動或經歷中總結出的經驗與教訓」。",
-        "lesson-mcq-15": "「從歷史事件中得到的警告、啟示或經驗」是「lesson from history」的用法，與本句語境不同。",
-        "lesson-mcq-17": "「老師對一堂課內容、流程與目標所作的教學計畫」是「lesson plan」的用法，與本句語境不同。",
-        "lesson-mcq-14": "「透過懲罰或後果使某人記取教訓」是「teach someone a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-18": "「一堂課預期學生達成的學習目標」是「lesson objective」的用法，與本句語境不同。",
-        "lesson-mcq-13": "「可供某人警惕、借鏡或學習的教訓」是「lesson for someone」的用法，與本句語境不同。"
+        "lesson-mcq-16": "本句的「lessons learned」指「從專案、活動或經歷中總結出的經驗與教訓」。",
+        "lesson-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-16"
     },
@@ -1454,11 +1296,9 @@ export default {
       "masked": "We should document the ____ for future projects.",
       "options": [
         "lesson-mcq-16",
-        "lesson-mcq-15",
-        "lesson-mcq-17",
-        "lesson-mcq-14",
-        "lesson-mcq-18",
-        "lesson-mcq-13"
+        "lesson-mcq-03",
+        "lesson-mcq-06",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「lessons learned」指「從專案、活動或經歷中總結出的經驗與教訓」。",
       "sentenceIndex": 33,
@@ -1467,12 +1307,10 @@ export default {
         "lessons learned"
       ],
       "optionReasons": {
-        "lesson-mcq-16": "本句指「從專案、活動或經歷中總結出的經驗與教訓」。",
-        "lesson-mcq-15": "「從歷史事件中得到的警告、啟示或經驗」是「lesson from history」的用法，與本句語境不同。",
-        "lesson-mcq-17": "「老師對一堂課內容、流程與目標所作的教學計畫」是「lesson plan」的用法，與本句語境不同。",
-        "lesson-mcq-14": "「透過懲罰或後果使某人記取教訓」是「teach someone a lesson」的用法，與本句語境不同。",
-        "lesson-mcq-18": "「一堂課預期學生達成的學習目標」是「lesson objective」的用法，與本句語境不同。",
-        "lesson-mcq-13": "「可供某人警惕、借鏡或學習的教訓」是「lesson for someone」的用法，與本句語境不同。"
+        "lesson-mcq-16": "本句的「lessons learned」指「從專案、活動或經歷中總結出的經驗與教訓」。",
+        "lesson-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-16"
     },
@@ -1484,11 +1322,9 @@ export default {
       "masked": "The teacher prepared a detailed ____.",
       "options": [
         "lesson-mcq-17",
-        "lesson-mcq-16",
-        "lesson-mcq-18",
         "lesson-mcq-15",
-        "lesson-mcq-19",
-        "lesson-mcq-14"
+        "lesson-mcq-11",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「lesson plan」指「老師對一堂課內容、流程與目標所作的教學計畫」。",
       "sentenceIndex": 34,
@@ -1497,12 +1333,10 @@ export default {
         "lesson plan"
       ],
       "optionReasons": {
-        "lesson-mcq-17": "本句指「老師對一堂課內容、流程與目標所作的教學計畫」。",
-        "lesson-mcq-16": "「從專案、活動或經歷中總結出的經驗與教訓」是「lessons learned」的用法，與本句語境不同。",
-        "lesson-mcq-18": "「一堂課預期學生達成的學習目標」是「lesson objective」的用法，與本句語境不同。",
-        "lesson-mcq-15": "「從歷史事件中得到的警告、啟示或經驗」是「lesson from history」的用法，與本句語境不同。",
-        "lesson-mcq-19": "「宗教儀式中朗讀的一段經文」是「lesson — religious reading」的用法，與本句語境不同。",
-        "lesson-mcq-14": "「透過懲罰或後果使某人記取教訓」是「teach someone a lesson」的用法，與本句語境不同。"
+        "lesson-mcq-17": "本句的「lesson plan」指「老師對一堂課內容、流程與目標所作的教學計畫」。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-17"
     },
@@ -1514,11 +1348,9 @@ export default {
       "masked": "A good ____ includes clear objectives.",
       "options": [
         "lesson-mcq-17",
-        "lesson-mcq-16",
-        "lesson-mcq-18",
         "lesson-mcq-15",
-        "lesson-mcq-19",
-        "lesson-mcq-14"
+        "lesson-mcq-14",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「lesson plan」指「老師對一堂課內容、流程與目標所作的教學計畫」。",
       "sentenceIndex": 35,
@@ -1527,12 +1359,10 @@ export default {
         "lesson plan"
       ],
       "optionReasons": {
-        "lesson-mcq-17": "本句指「老師對一堂課內容、流程與目標所作的教學計畫」。",
-        "lesson-mcq-16": "「從專案、活動或經歷中總結出的經驗與教訓」是「lessons learned」的用法，與本句語境不同。",
-        "lesson-mcq-18": "「一堂課預期學生達成的學習目標」是「lesson objective」的用法，與本句語境不同。",
-        "lesson-mcq-15": "「從歷史事件中得到的警告、啟示或經驗」是「lesson from history」的用法，與本句語境不同。",
-        "lesson-mcq-19": "「宗教儀式中朗讀的一段經文」是「lesson — religious reading」的用法，與本句語境不同。",
-        "lesson-mcq-14": "「透過懲罰或後果使某人記取教訓」是「teach someone a lesson」的用法，與本句語境不同。"
+        "lesson-mcq-17": "本句的「lesson plan」指「老師對一堂課內容、流程與目標所作的教學計畫」。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-17"
     },
@@ -1544,11 +1374,7 @@ export default {
       "masked": "The ____ was to understand reflection of light.",
       "options": [
         "lesson-mcq-18",
-        "lesson-mcq-17",
-        "lesson-mcq-19",
-        "lesson-mcq-16",
-        "lesson-mcq-20",
-        "lesson-mcq-15"
+        "lesson-mcq-09"
       ],
       "explanation": "本句的「lesson objective」指「一堂課預期學生達成的學習目標」。",
       "sentenceIndex": 36,
@@ -1557,12 +1383,8 @@ export default {
         "lesson objective"
       ],
       "optionReasons": {
-        "lesson-mcq-18": "本句指「一堂課預期學生達成的學習目標」。",
-        "lesson-mcq-17": "「老師對一堂課內容、流程與目標所作的教學計畫」是「lesson plan」的用法，與本句語境不同。",
-        "lesson-mcq-19": "「宗教儀式中朗讀的一段經文」是「lesson — religious reading」的用法，與本句語境不同。",
-        "lesson-mcq-16": "「從專案、活動或經歷中總結出的經驗與教訓」是「lessons learned」的用法，與本句語境不同。",
-        "lesson-mcq-20": "「表示兩堂課」是「22. lesson is countable」的用法，與本句語境不同。",
-        "lesson-mcq-15": "「從歷史事件中得到的警告、啟示或經驗」是「lesson from history」的用法，與本句語境不同。"
+        "lesson-mcq-18": "本句的「lesson objective」指「一堂課預期學生達成的學習目標」。",
+        "lesson-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-18"
     },
@@ -1574,10 +1396,8 @@ export default {
       "masked": "The teacher explained the ____ at the beginning.",
       "options": [
         "lesson-mcq-18",
-        "lesson-mcq-17",
+        "lesson-mcq-14",
         "lesson-mcq-19",
-        "lesson-mcq-16",
-        "lesson-mcq-20",
         "lesson-mcq-15"
       ],
       "explanation": "本句的「lesson objectives」指「一堂課預期學生達成的學習目標」。",
@@ -1587,12 +1407,10 @@ export default {
         "lesson objectives"
       ],
       "optionReasons": {
-        "lesson-mcq-18": "本句指「一堂課預期學生達成的學習目標」。",
-        "lesson-mcq-17": "「老師對一堂課內容、流程與目標所作的教學計畫」是「lesson plan」的用法，與本句語境不同。",
-        "lesson-mcq-19": "「宗教儀式中朗讀的一段經文」是「lesson — religious reading」的用法，與本句語境不同。",
-        "lesson-mcq-16": "「從專案、活動或經歷中總結出的經驗與教訓」是「lessons learned」的用法，與本句語境不同。",
-        "lesson-mcq-20": "「表示兩堂課」是「22. lesson is countable」的用法，與本句語境不同。",
-        "lesson-mcq-15": "「從歷史事件中得到的警告、啟示或經驗」是「lesson from history」的用法，與本句語境不同。"
+        "lesson-mcq-18": "本句的「lesson objectives」指「一堂課預期學生達成的學習目標」。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-18"
     },
@@ -1604,11 +1422,9 @@ export default {
       "masked": "The first ____ was read from the Old Testament.",
       "options": [
         "lesson-mcq-19",
-        "lesson-mcq-18",
-        "lesson-mcq-20",
-        "lesson-mcq-17",
-        "lesson-mcq-16",
-        "lesson-mcq-15"
+        "lesson-mcq-06",
+        "lesson-mcq-03",
+        "lesson-mcq-12"
       ],
       "explanation": "本句的「lesson」指「宗教儀式中朗讀的一段經文」。",
       "sentenceIndex": 38,
@@ -1617,12 +1433,10 @@ export default {
         "lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-19": "本句指「宗教儀式中朗讀的一段經文」。",
-        "lesson-mcq-18": "「一堂課預期學生達成的學習目標」是「lesson objective」的用法，與本句語境不同。",
-        "lesson-mcq-20": "「表示兩堂課」是「22. lesson is countable」的用法，與本句語境不同。",
-        "lesson-mcq-17": "「老師對一堂課內容、流程與目標所作的教學計畫」是「lesson plan」的用法，與本句語境不同。",
-        "lesson-mcq-16": "「從專案、活動或經歷中總結出的經驗與教訓」是「lessons learned」的用法，與本句語境不同。",
-        "lesson-mcq-15": "「從歷史事件中得到的警告、啟示或經驗」是「lesson from history」的用法，與本句語境不同。"
+        "lesson-mcq-19": "本句的「lesson」指「宗教儀式中朗讀的一段經文」。",
+        "lesson-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-19"
     },
@@ -1634,10 +1448,8 @@ export default {
       "masked": "She read the ____ during the service.",
       "options": [
         "lesson-mcq-19",
-        "lesson-mcq-18",
-        "lesson-mcq-20",
-        "lesson-mcq-17",
-        "lesson-mcq-16",
+        "lesson-mcq-03",
+        "lesson-mcq-06",
         "lesson-mcq-15"
       ],
       "explanation": "本句的「lesson」指「宗教儀式中朗讀的一段經文」。",
@@ -1647,12 +1459,10 @@ export default {
         "lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-19": "本句指「宗教儀式中朗讀的一段經文」。",
-        "lesson-mcq-18": "「一堂課預期學生達成的學習目標」是「lesson objective」的用法，與本句語境不同。",
-        "lesson-mcq-20": "「表示兩堂課」是「22. lesson is countable」的用法，與本句語境不同。",
-        "lesson-mcq-17": "「老師對一堂課內容、流程與目標所作的教學計畫」是「lesson plan」的用法，與本句語境不同。",
-        "lesson-mcq-16": "「從專案、活動或經歷中總結出的經驗與教訓」是「lessons learned」的用法，與本句語境不同。",
-        "lesson-mcq-15": "「從歷史事件中得到的警告、啟示或經驗」是「lesson from history」的用法，與本句語境不同。"
+        "lesson-mcq-19": "本句的「lesson」指「宗教儀式中朗讀的一段經文」。",
+        "lesson-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-19"
     },
@@ -1664,11 +1474,8 @@ export default {
       "masked": "We had ____ today.",
       "options": [
         "lesson-mcq-20",
-        "lesson-mcq-19",
-        "lesson-mcq-18",
-        "lesson-mcq-17",
-        "lesson-mcq-16",
-        "lesson-mcq-15"
+        "lesson-mcq-10",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「two lessons」指「表示兩堂課」。",
       "sentenceIndex": 40,
@@ -1677,12 +1484,9 @@ export default {
         "two lessons"
       ],
       "optionReasons": {
-        "lesson-mcq-20": "本句指「表示兩堂課」。",
-        "lesson-mcq-19": "「宗教儀式中朗讀的一段經文」是「lesson — religious reading」的用法，與本句語境不同。",
-        "lesson-mcq-18": "「一堂課預期學生達成的學習目標」是「lesson objective」的用法，與本句語境不同。",
-        "lesson-mcq-17": "「老師對一堂課內容、流程與目標所作的教學計畫」是「lesson plan」的用法，與本句語境不同。",
-        "lesson-mcq-16": "「從專案、活動或經歷中總結出的經驗與教訓」是「lessons learned」的用法，與本句語境不同。",
-        "lesson-mcq-15": "「從歷史事件中得到的警告、啟示或經驗」是「lesson from history」的用法，與本句語境不同。"
+        "lesson-mcq-20": "本句的「two lessons」指「表示兩堂課」。",
+        "lesson-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-20"
     },
@@ -1694,11 +1498,9 @@ export default {
       "masked": "It was an important ____.",
       "options": [
         "lesson-mcq-20",
-        "lesson-mcq-19",
-        "lesson-mcq-18",
-        "lesson-mcq-17",
-        "lesson-mcq-16",
-        "lesson-mcq-15"
+        "lesson-mcq-14",
+        "lesson-mcq-12",
+        "lesson-mcq-19"
       ],
       "explanation": "本句的「lesson」指「表示兩堂課」。",
       "sentenceIndex": 41,
@@ -1707,12 +1509,10 @@ export default {
         "lesson"
       ],
       "optionReasons": {
-        "lesson-mcq-20": "本句指「表示兩堂課」。",
-        "lesson-mcq-19": "「宗教儀式中朗讀的一段經文」是「lesson — religious reading」的用法，與本句語境不同。",
-        "lesson-mcq-18": "「一堂課預期學生達成的學習目標」是「lesson objective」的用法，與本句語境不同。",
-        "lesson-mcq-17": "「老師對一堂課內容、流程與目標所作的教學計畫」是「lesson plan」的用法，與本句語境不同。",
-        "lesson-mcq-16": "「從專案、活動或經歷中總結出的經驗與教訓」是「lessons learned」的用法，與本句語境不同。",
-        "lesson-mcq-15": "「從歷史事件中得到的警告、啟示或經驗」是「lesson from history」的用法，與本句語境不同。"
+        "lesson-mcq-20": "本句的「lesson」指「表示兩堂課」。",
+        "lesson-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "lesson-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lesson-mcq-20"
     }
@@ -1724,5 +1524,7 @@ export default {
     "sha256": "288d3893df5e58478f5d814c548d278c379041d43bab45cb49bddd6a51071928",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -381,11 +381,7 @@ export default {
       "masked": "Buying ____ would probably feel a bit ordinary.",
       "options": [
         "perfume-mcq-01",
-        "perfume-mcq-02",
-        "perfume-mcq-04",
-        "perfume-mcq-05",
-        "perfume-mcq-06",
-        "perfume-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfume」指「香水」。",
       "sentenceIndex": 0,
@@ -394,12 +390,8 @@ export default {
         "perfume"
       ],
       "optionReasons": {
-        "perfume-mcq-01": "本句指「香水」。",
-        "perfume-mcq-02": "「搽／噴香水」與本句語境不同。",
-        "perfume-mcq-04": "「一瓶香水」與本句語境不同。",
-        "perfume-mcq-05": "「一款香水」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。"
+        "perfume-mcq-01": "本句的「perfume」指「香水」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-01"
     },
@@ -411,11 +403,7 @@ export default {
       "masked": "She received a bottle of ____ for her birthday.",
       "options": [
         "perfume-mcq-01",
-        "perfume-mcq-02",
-        "perfume-mcq-04",
-        "perfume-mcq-05",
-        "perfume-mcq-06",
-        "perfume-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfume」指「香水」。",
       "sentenceIndex": 1,
@@ -424,12 +412,8 @@ export default {
         "perfume"
       ],
       "optionReasons": {
-        "perfume-mcq-01": "本句指「香水」。",
-        "perfume-mcq-02": "「搽／噴香水」與本句語境不同。",
-        "perfume-mcq-04": "「一瓶香水」與本句語境不同。",
-        "perfume-mcq-05": "「一款香水」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。"
+        "perfume-mcq-01": "本句的「perfume」指「香水」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-01"
     },
@@ -441,11 +425,7 @@ export default {
       "masked": "He bought his mother some ____.",
       "options": [
         "perfume-mcq-01",
-        "perfume-mcq-02",
-        "perfume-mcq-04",
-        "perfume-mcq-05",
-        "perfume-mcq-06",
-        "perfume-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfume」指「香水」。",
       "sentenceIndex": 2,
@@ -454,12 +434,8 @@ export default {
         "perfume"
       ],
       "optionReasons": {
-        "perfume-mcq-01": "本句指「香水」。",
-        "perfume-mcq-02": "「搽／噴香水」與本句語境不同。",
-        "perfume-mcq-04": "「一瓶香水」與本句語境不同。",
-        "perfume-mcq-05": "「一款香水」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。"
+        "perfume-mcq-01": "本句的「perfume」指「香水」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-01"
     },
@@ -471,11 +447,7 @@ export default {
       "masked": "She rarely ____.",
       "options": [
         "perfume-mcq-02",
-        "perfume-mcq-01",
-        "perfume-mcq-04",
-        "perfume-mcq-05",
-        "perfume-mcq-06",
-        "perfume-mcq-07"
+        "perfume-mcq-12"
       ],
       "explanation": "本句的「wears perfume」指「搽／噴香水」。",
       "sentenceIndex": 3,
@@ -484,12 +456,8 @@ export default {
         "wears perfume"
       ],
       "optionReasons": {
-        "perfume-mcq-02": "本句指「搽／噴香水」。",
-        "perfume-mcq-01": "「香水」與本句語境不同。",
-        "perfume-mcq-04": "「一瓶香水」與本句語境不同。",
-        "perfume-mcq-05": "「一款香水」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。"
+        "perfume-mcq-02": "本句的「wears perfume」指「搽／噴香水」。",
+        "perfume-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-02"
     },
@@ -501,11 +469,7 @@ export default {
       "masked": "He noticed that she was ____.",
       "options": [
         "perfume-mcq-02",
-        "perfume-mcq-01",
-        "perfume-mcq-04",
-        "perfume-mcq-05",
-        "perfume-mcq-06",
-        "perfume-mcq-07"
+        "perfume-mcq-12"
       ],
       "explanation": "本句的「wearing perfume」指「搽／噴香水」。",
       "sentenceIndex": 4,
@@ -514,12 +478,8 @@ export default {
         "wearing perfume"
       ],
       "optionReasons": {
-        "perfume-mcq-02": "本句指「搽／噴香水」。",
-        "perfume-mcq-01": "「香水」與本句語境不同。",
-        "perfume-mcq-04": "「一瓶香水」與本句語境不同。",
-        "perfume-mcq-05": "「一款香水」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。"
+        "perfume-mcq-02": "本句的「wearing perfume」指「搽／噴香水」。",
+        "perfume-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-02"
     },
@@ -531,11 +491,7 @@ export default {
       "masked": "She ____ before dinner.",
       "options": [
         "perfume-mcq-03",
-        "perfume-mcq-04",
-        "perfume-mcq-01",
-        "perfume-mcq-05",
-        "perfume-mcq-06",
-        "perfume-mcq-07"
+        "perfume-mcq-11"
       ],
       "explanation": "本句的「put on some perfume」指「搽／噴香水」。",
       "sentenceIndex": 5,
@@ -544,12 +500,8 @@ export default {
         "put on some perfume"
       ],
       "optionReasons": {
-        "perfume-mcq-03": "本句指「搽／噴香水」。",
-        "perfume-mcq-04": "「一瓶香水」與本句語境不同。",
-        "perfume-mcq-01": "「香水」與本句語境不同。",
-        "perfume-mcq-05": "「一款香水」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。"
+        "perfume-mcq-03": "本句的「put on some perfume」指「搽／噴香水」。",
+        "perfume-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-03"
     },
@@ -561,11 +513,7 @@ export default {
       "masked": "I forgot to ____ this morning.",
       "options": [
         "perfume-mcq-03",
-        "perfume-mcq-04",
-        "perfume-mcq-01",
-        "perfume-mcq-05",
-        "perfume-mcq-06",
-        "perfume-mcq-07"
+        "perfume-mcq-12"
       ],
       "explanation": "本句的「put on perfume」指「搽／噴香水」。",
       "sentenceIndex": 6,
@@ -574,12 +522,8 @@ export default {
         "put on perfume"
       ],
       "optionReasons": {
-        "perfume-mcq-03": "本句指「搽／噴香水」。",
-        "perfume-mcq-04": "「一瓶香水」與本句語境不同。",
-        "perfume-mcq-01": "「香水」與本句語境不同。",
-        "perfume-mcq-05": "「一款香水」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。"
+        "perfume-mcq-03": "本句的「put on perfume」指「搽／噴香水」。",
+        "perfume-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-03"
     },
@@ -591,11 +535,7 @@ export default {
       "masked": "He bought her ____.",
       "options": [
         "perfume-mcq-04",
-        "perfume-mcq-03",
-        "perfume-mcq-05",
-        "perfume-mcq-06",
-        "perfume-mcq-01",
-        "perfume-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「a bottle of perfume」指「一瓶香水」。",
       "sentenceIndex": 7,
@@ -604,12 +544,8 @@ export default {
         "a bottle of perfume"
       ],
       "optionReasons": {
-        "perfume-mcq-04": "本句指「一瓶香水」。",
-        "perfume-mcq-03": "「搽／噴香水」與本句語境不同。",
-        "perfume-mcq-05": "「一款香水」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-01": "「香水」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。"
+        "perfume-mcq-04": "本句的「a bottle of perfume」指「一瓶香水」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-04"
     },
@@ -621,11 +557,7 @@ export default {
       "masked": "The ____ was beautifully designed.",
       "options": [
         "perfume-mcq-04",
-        "perfume-mcq-03",
-        "perfume-mcq-05",
-        "perfume-mcq-06",
-        "perfume-mcq-01",
-        "perfume-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfume bottle」指「一瓶香水」。",
       "sentenceIndex": 8,
@@ -634,12 +566,8 @@ export default {
         "perfume bottle"
       ],
       "optionReasons": {
-        "perfume-mcq-04": "本句指「一瓶香水」。",
-        "perfume-mcq-03": "「搽／噴香水」與本句語境不同。",
-        "perfume-mcq-05": "「一款香水」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-01": "「香水」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。"
+        "perfume-mcq-04": "本句的「perfume bottle」指「一瓶香水」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-04"
     },
@@ -651,11 +579,7 @@ export default {
       "masked": "The ____ filled the garden.",
       "options": [
         "perfume-mcq-05",
-        "perfume-mcq-04",
-        "perfume-mcq-06",
-        "perfume-mcq-03",
-        "perfume-mcq-07",
-        "perfume-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfume of the flowers」指「一款香水」。",
       "sentenceIndex": 9,
@@ -664,12 +588,8 @@ export default {
         "perfume of the flowers"
       ],
       "optionReasons": {
-        "perfume-mcq-05": "本句指「一款香水」。",
-        "perfume-mcq-04": "「一瓶香水」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-03": "「搽／噴香水」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。",
-        "perfume-mcq-08": "「花香」與本句語境不同。"
+        "perfume-mcq-05": "本句的「perfume of the flowers」指「一款香水」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-05"
     },
@@ -681,11 +601,7 @@ export default {
       "masked": "A sweet ____ came from the trees.",
       "options": [
         "perfume-mcq-05",
-        "perfume-mcq-04",
-        "perfume-mcq-06",
-        "perfume-mcq-03",
-        "perfume-mcq-07",
-        "perfume-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfume」指「一款香水」。",
       "sentenceIndex": 10,
@@ -694,12 +610,8 @@ export default {
         "perfume"
       ],
       "optionReasons": {
-        "perfume-mcq-05": "本句指「一款香水」。",
-        "perfume-mcq-04": "「一瓶香水」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-03": "「搽／噴香水」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。",
-        "perfume-mcq-08": "「花香」與本句語境不同。"
+        "perfume-mcq-05": "本句的「perfume」指「一款香水」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-05"
     },
@@ -711,11 +623,7 @@ export default {
       "masked": "We could smell the ____.",
       "options": [
         "perfume-mcq-08",
-        "perfume-mcq-07",
-        "perfume-mcq-09",
-        "perfume-mcq-06",
-        "perfume-mcq-10",
-        "perfume-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfume of roses」指「花香」。",
       "sentenceIndex": 11,
@@ -724,12 +632,8 @@ export default {
         "perfume of roses"
       ],
       "optionReasons": {
-        "perfume-mcq-08": "本句指「花香」。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。",
-        "perfume-mcq-09": "「使帶香氣」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-10": "「瀰漫着……香味」與本句語境不同。",
-        "perfume-mcq-05": "「一款香水」與本句語境不同。"
+        "perfume-mcq-08": "本句的「perfume of roses」指「花香」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-08"
     },
@@ -741,11 +645,7 @@ export default {
       "masked": "The evening air carried the ____.",
       "options": [
         "perfume-mcq-08",
-        "perfume-mcq-07",
-        "perfume-mcq-09",
-        "perfume-mcq-06",
-        "perfume-mcq-10",
-        "perfume-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfume of jasmine」指「花香」。",
       "sentenceIndex": 12,
@@ -754,12 +654,8 @@ export default {
         "perfume of jasmine"
       ],
       "optionReasons": {
-        "perfume-mcq-08": "本句指「花香」。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。",
-        "perfume-mcq-09": "「使帶香氣」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-10": "「瀰漫着……香味」與本句語境不同。",
-        "perfume-mcq-05": "「一款香水」與本句語境不同。"
+        "perfume-mcq-08": "本句的「perfume of jasmine」指「花香」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-08"
     },
@@ -771,11 +667,7 @@ export default {
       "masked": "The flowers ____.",
       "options": [
         "perfume-mcq-09",
-        "perfume-mcq-08",
-        "perfume-mcq-10",
-        "perfume-mcq-07",
-        "perfume-mcq-11",
-        "perfume-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfumed the room」指「使帶香氣」。",
       "sentenceIndex": 13,
@@ -784,12 +676,8 @@ export default {
         "perfumed the room"
       ],
       "optionReasons": {
-        "perfume-mcq-09": "本句指「使帶香氣」。",
-        "perfume-mcq-08": "「花香」與本句語境不同。",
-        "perfume-mcq-10": "「瀰漫着……香味」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。"
+        "perfume-mcq-09": "本句的「perfumed the room」指「使帶香氣」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-09"
     },
@@ -801,11 +689,7 @@ export default {
       "masked": "Lavender ____.",
       "options": [
         "perfume-mcq-09",
-        "perfume-mcq-08",
-        "perfume-mcq-10",
-        "perfume-mcq-07",
-        "perfume-mcq-11",
-        "perfume-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfumed the evening air」指「使帶香氣」。",
       "sentenceIndex": 14,
@@ -814,12 +698,8 @@ export default {
         "perfumed the evening air"
       ],
       "optionReasons": {
-        "perfume-mcq-09": "本句指「使帶香氣」。",
-        "perfume-mcq-08": "「花香」與本句語境不同。",
-        "perfume-mcq-10": "「瀰漫着……香味」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。"
+        "perfume-mcq-09": "本句的「perfumed the evening air」指「使帶香氣」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-09"
     },
@@ -831,11 +711,7 @@ export default {
       "masked": "The air was ____.",
       "options": [
         "perfume-mcq-10",
-        "perfume-mcq-09",
-        "perfume-mcq-11",
-        "perfume-mcq-08",
-        "perfume-mcq-12",
-        "perfume-mcq-07"
+        "perfume-mcq-16"
       ],
       "explanation": "本句的「perfumed with roses」指「瀰漫着……香味」。",
       "sentenceIndex": 15,
@@ -844,12 +720,8 @@ export default {
         "perfumed with roses"
       ],
       "optionReasons": {
-        "perfume-mcq-10": "本句指「瀰漫着……香味」。",
-        "perfume-mcq-09": "「使帶香氣」與本句語境不同。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。",
-        "perfume-mcq-08": "「花香」與本句語境不同。",
-        "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。"
+        "perfume-mcq-10": "本句的「perfumed with roses」指「瀰漫着……香味」。",
+        "perfume-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-10"
     },
@@ -861,11 +733,7 @@ export default {
       "masked": "The room was ____.",
       "options": [
         "perfume-mcq-10",
-        "perfume-mcq-09",
-        "perfume-mcq-11",
-        "perfume-mcq-08",
-        "perfume-mcq-12",
-        "perfume-mcq-07"
+        "perfume-mcq-02"
       ],
       "explanation": "本句的「perfumed with lavender」指「瀰漫着……香味」。",
       "sentenceIndex": 16,
@@ -874,12 +742,8 @@ export default {
         "perfumed with lavender"
       ],
       "optionReasons": {
-        "perfume-mcq-10": "本句指「瀰漫着……香味」。",
-        "perfume-mcq-09": "「使帶香氣」與本句語境不同。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。",
-        "perfume-mcq-08": "「花香」與本句語境不同。",
-        "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。"
+        "perfume-mcq-10": "本句的「perfumed with lavender」指「瀰漫着……香味」。",
+        "perfume-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-10"
     },
@@ -891,11 +755,7 @@ export default {
       "masked": "She bought ____.",
       "options": [
         "perfume-mcq-11",
-        "perfume-mcq-10",
-        "perfume-mcq-12",
-        "perfume-mcq-09",
-        "perfume-mcq-13",
-        "perfume-mcq-08"
+        "perfume-mcq-13"
       ],
       "explanation": "本句的「perfumed soap」指「有香味的；加香料的」。",
       "sentenceIndex": 17,
@@ -904,12 +764,8 @@ export default {
         "perfumed soap"
       ],
       "optionReasons": {
-        "perfume-mcq-11": "本句指「有香味的；加香料的」。",
-        "perfume-mcq-10": "「瀰漫着……香味」與本句語境不同。",
-        "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
-        "perfume-mcq-09": "「使帶香氣」與本句語境不同。",
-        "perfume-mcq-13": "「調香；香水業」與本句語境不同。",
-        "perfume-mcq-08": "「花香」與本句語境不同。"
+        "perfume-mcq-11": "本句的「perfumed soap」指「有香味的；加香料的」。",
+        "perfume-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-11"
     },
@@ -921,11 +777,7 @@ export default {
       "masked": "The drawer contained ____.",
       "options": [
         "perfume-mcq-11",
-        "perfume-mcq-10",
-        "perfume-mcq-12",
-        "perfume-mcq-09",
-        "perfume-mcq-13",
-        "perfume-mcq-08"
+        "perfume-mcq-13"
       ],
       "explanation": "本句的「perfumed paper」指「有香味的；加香料的」。",
       "sentenceIndex": 18,
@@ -934,12 +786,8 @@ export default {
         "perfumed paper"
       ],
       "optionReasons": {
-        "perfume-mcq-11": "本句指「有香味的；加香料的」。",
-        "perfume-mcq-10": "「瀰漫着……香味」與本句語境不同。",
-        "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
-        "perfume-mcq-09": "「使帶香氣」與本句語境不同。",
-        "perfume-mcq-13": "「調香；香水業」與本句語境不同。",
-        "perfume-mcq-08": "「花香」與本句語境不同。"
+        "perfume-mcq-11": "本句的「perfumed paper」指「有香味的；加香料的」。",
+        "perfume-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-11"
     },
@@ -951,11 +799,7 @@ export default {
       "masked": "Strongly ____ irritates her skin.",
       "options": [
         "perfume-mcq-12",
-        "perfume-mcq-11",
-        "perfume-mcq-13",
-        "perfume-mcq-10",
-        "perfume-mcq-14",
-        "perfume-mcq-09"
+        "perfume-mcq-13"
       ],
       "explanation": "本句的「perfumed soap」指「香皂／有香味的肥皂」。",
       "sentenceIndex": 19,
@@ -964,12 +808,8 @@ export default {
         "perfumed soap"
       ],
       "optionReasons": {
-        "perfume-mcq-12": "本句指「香皂／有香味的肥皂」。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。",
-        "perfume-mcq-13": "「調香；香水業」與本句語境不同。",
-        "perfume-mcq-10": "「瀰漫着……香味」與本句語境不同。",
-        "perfume-mcq-14": "「香水店／香水部門」與本句語境不同。",
-        "perfume-mcq-09": "「使帶香氣」與本句語境不同。"
+        "perfume-mcq-12": "本句的「perfumed soap」指「香皂／有香味的肥皂」。",
+        "perfume-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-12"
     },
@@ -981,11 +821,7 @@ export default {
       "masked": "This lotion is lightly ____.",
       "options": [
         "perfume-mcq-12",
-        "perfume-mcq-11",
-        "perfume-mcq-13",
-        "perfume-mcq-10",
-        "perfume-mcq-14",
-        "perfume-mcq-09"
+        "perfume-mcq-16"
       ],
       "explanation": "本句的「perfumed」指「香皂／有香味的肥皂」。",
       "sentenceIndex": 20,
@@ -994,12 +830,8 @@ export default {
         "perfumed"
       ],
       "optionReasons": {
-        "perfume-mcq-12": "本句指「香皂／有香味的肥皂」。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。",
-        "perfume-mcq-13": "「調香；香水業」與本句語境不同。",
-        "perfume-mcq-10": "「瀰漫着……香味」與本句語境不同。",
-        "perfume-mcq-14": "「香水店／香水部門」與本句語境不同。",
-        "perfume-mcq-09": "「使帶香氣」與本句語境不同。"
+        "perfume-mcq-12": "本句的「perfumed」指「香皂／有香味的肥皂」。",
+        "perfume-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-12"
     },
@@ -1011,11 +843,7 @@ export default {
       "masked": "France has a long tradition of ____.",
       "options": [
         "perfume-mcq-13",
-        "perfume-mcq-12",
-        "perfume-mcq-14",
-        "perfume-mcq-11",
-        "perfume-mcq-15",
-        "perfume-mcq-10"
+        "perfume-mcq-12"
       ],
       "explanation": "本句的「perfumery」指「調香；香水業」。",
       "sentenceIndex": 21,
@@ -1024,12 +852,8 @@ export default {
         "perfumery"
       ],
       "optionReasons": {
-        "perfume-mcq-13": "本句指「調香；香水業」。",
-        "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
-        "perfume-mcq-14": "「香水店／香水部門」與本句語境不同。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。",
-        "perfume-mcq-15": "「調香師」與本句語境不同。",
-        "perfume-mcq-10": "「瀰漫着……香味」與本句語境不同。"
+        "perfume-mcq-13": "本句的「perfumery」指「調香；香水業」。",
+        "perfume-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-13"
     },
@@ -1041,10 +865,6 @@ export default {
       "masked": "She studied the art of ____.",
       "options": [
         "perfume-mcq-13",
-        "perfume-mcq-12",
-        "perfume-mcq-14",
-        "perfume-mcq-11",
-        "perfume-mcq-15",
         "perfume-mcq-10"
       ],
       "explanation": "本句的「perfumery」指「調香；香水業」。",
@@ -1054,12 +874,8 @@ export default {
         "perfumery"
       ],
       "optionReasons": {
-        "perfume-mcq-13": "本句指「調香；香水業」。",
-        "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
-        "perfume-mcq-14": "「香水店／香水部門」與本句語境不同。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。",
-        "perfume-mcq-15": "「調香師」與本句語境不同。",
-        "perfume-mcq-10": "「瀰漫着……香味」與本句語境不同。"
+        "perfume-mcq-13": "本句的「perfumery」指「調香；香水業」。",
+        "perfume-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-13"
     },
@@ -1071,10 +887,6 @@ export default {
       "masked": "They visited a traditional ____.",
       "options": [
         "perfume-mcq-13",
-        "perfume-mcq-12",
-        "perfume-mcq-14",
-        "perfume-mcq-11",
-        "perfume-mcq-15",
         "perfume-mcq-10"
       ],
       "explanation": "本句的「perfumery」指「調香；香水業」。",
@@ -1084,12 +896,8 @@ export default {
         "perfumery"
       ],
       "optionReasons": {
-        "perfume-mcq-13": "本句指「調香；香水業」。",
-        "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
-        "perfume-mcq-14": "「香水店／香水部門」與本句語境不同。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。",
-        "perfume-mcq-15": "「調香師」與本句語境不同。",
-        "perfume-mcq-10": "「瀰漫着……香味」與本句語境不同。"
+        "perfume-mcq-13": "本句的「perfumery」指「調香；香水業」。",
+        "perfume-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-13"
     },
@@ -1101,11 +909,7 @@ export default {
       "masked": "The department store has a large ____.",
       "options": [
         "perfume-mcq-13",
-        "perfume-mcq-12",
-        "perfume-mcq-14",
-        "perfume-mcq-11",
-        "perfume-mcq-15",
-        "perfume-mcq-10"
+        "perfume-mcq-12"
       ],
       "explanation": "本句的「perfumery section」指「調香；香水業」。",
       "sentenceIndex": 24,
@@ -1114,12 +918,8 @@ export default {
         "perfumery section"
       ],
       "optionReasons": {
-        "perfume-mcq-13": "本句指「調香；香水業」。",
-        "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
-        "perfume-mcq-14": "「香水店／香水部門」與本句語境不同。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。",
-        "perfume-mcq-15": "「調香師」與本句語境不同。",
-        "perfume-mcq-10": "「瀰漫着……香味」與本句語境不同。"
+        "perfume-mcq-13": "本句的「perfumery section」指「調香；香水業」。",
+        "perfume-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-13"
     },
@@ -1131,11 +931,7 @@ export default {
       "masked": "The ____ created a new floral scent.",
       "options": [
         "perfume-mcq-15",
-        "perfume-mcq-14",
-        "perfume-mcq-16",
-        "perfume-mcq-13",
-        "perfume-mcq-12",
-        "perfume-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfumer」指「調香師」。",
       "sentenceIndex": 25,
@@ -1144,12 +940,8 @@ export default {
         "perfumer"
       ],
       "optionReasons": {
-        "perfume-mcq-15": "本句指「調香師」。",
-        "perfume-mcq-14": "「香水店／香水部門」與本句語境不同。",
-        "perfume-mcq-16": "「香水專櫃」與本句語境不同。",
-        "perfume-mcq-13": "「調香；香水業」與本句語境不同。",
-        "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。"
+        "perfume-mcq-15": "本句的「perfumer」指「調香師」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-15"
     },
@@ -1161,11 +953,7 @@ export default {
       "masked": "A skilled ____ can identify hundreds of ingredients.",
       "options": [
         "perfume-mcq-15",
-        "perfume-mcq-14",
-        "perfume-mcq-16",
-        "perfume-mcq-13",
-        "perfume-mcq-12",
-        "perfume-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfumer」指「調香師」。",
       "sentenceIndex": 26,
@@ -1174,12 +962,8 @@ export default {
         "perfumer"
       ],
       "optionReasons": {
-        "perfume-mcq-15": "本句指「調香師」。",
-        "perfume-mcq-14": "「香水店／香水部門」與本句語境不同。",
-        "perfume-mcq-16": "「香水專櫃」與本句語境不同。",
-        "perfume-mcq-13": "「調香；香水業」與本句語境不同。",
-        "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。"
+        "perfume-mcq-15": "本句的「perfumer」指「調香師」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-15"
     },
@@ -1191,10 +975,6 @@ export default {
       "masked": "She tried several fragrances at the ____.",
       "options": [
         "perfume-mcq-16",
-        "perfume-mcq-15",
-        "perfume-mcq-14",
-        "perfume-mcq-13",
-        "perfume-mcq-12",
         "perfume-mcq-11"
       ],
       "explanation": "本句的「perfume counter」指「香水專櫃」。",
@@ -1204,12 +984,8 @@ export default {
         "perfume counter"
       ],
       "optionReasons": {
-        "perfume-mcq-16": "本句指「香水專櫃」。",
-        "perfume-mcq-15": "「調香師」與本句語境不同。",
-        "perfume-mcq-14": "「香水店／香水部門」與本句語境不同。",
-        "perfume-mcq-13": "「調香；香水業」與本句語境不同。",
-        "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。"
+        "perfume-mcq-16": "本句的「perfume counter」指「香水專櫃」。",
+        "perfume-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-16"
     },
@@ -1221,11 +997,7 @@ export default {
       "masked": "The ____ is on the ground floor.",
       "options": [
         "perfume-mcq-16",
-        "perfume-mcq-15",
-        "perfume-mcq-14",
-        "perfume-mcq-13",
-        "perfume-mcq-12",
-        "perfume-mcq-11"
+        "perfume-mcq-10"
       ],
       "explanation": "本句的「perfume counter」指「香水專櫃」。",
       "sentenceIndex": 28,
@@ -1234,12 +1006,8 @@ export default {
         "perfume counter"
       ],
       "optionReasons": {
-        "perfume-mcq-16": "本句指「香水專櫃」。",
-        "perfume-mcq-15": "「調香師」與本句語境不同。",
-        "perfume-mcq-14": "「香水店／香水部門」與本句語境不同。",
-        "perfume-mcq-13": "「調香；香水業」與本句語境不同。",
-        "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。"
+        "perfume-mcq-16": "本句的「perfume counter」指「香水專櫃」。",
+        "perfume-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-16"
     },
@@ -1251,11 +1019,7 @@ export default {
       "masked": "I find that ____ too strong.",
       "options": [
         "perfume-pdf-001",
-        "perfume-mcq-15",
-        "perfume-mcq-14",
-        "perfume-mcq-13",
-        "perfume-mcq-12",
-        "perfume-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfume」指「香味濃烈／清淡的香水」。",
       "sentenceIndex": 29,
@@ -1264,12 +1028,8 @@ export default {
         "perfume"
       ],
       "optionReasons": {
-        "perfume-pdf-001": "本句指「香味濃烈／清淡的香水」。",
-        "perfume-mcq-15": "「調香師」與本句語境不同。",
-        "perfume-mcq-14": "「香水店／香水部門」與本句語境不同。",
-        "perfume-mcq-13": "「調香；香水業」與本句語境不同。",
-        "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。"
+        "perfume-pdf-001": "本句的「perfume」指「香味濃烈／清淡的香水」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-pdf-001"
     },
@@ -1281,11 +1041,7 @@ export default {
       "masked": "She prefers a ____.",
       "options": [
         "perfume-pdf-001",
-        "perfume-mcq-15",
-        "perfume-mcq-14",
-        "perfume-mcq-13",
-        "perfume-mcq-12",
-        "perfume-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「light perfume」指「香味濃烈／清淡的香水」。",
       "sentenceIndex": 30,
@@ -1294,12 +1050,8 @@ export default {
         "light perfume"
       ],
       "optionReasons": {
-        "perfume-pdf-001": "本句指「香味濃烈／清淡的香水」。",
-        "perfume-mcq-15": "「調香師」與本句語境不同。",
-        "perfume-mcq-14": "「香水店／香水部門」與本句語境不同。",
-        "perfume-mcq-13": "「調香；香水業」與本句語境不同。",
-        "perfume-mcq-12": "「香皂／有香味的肥皂」與本句語境不同。",
-        "perfume-mcq-11": "「有香味的；加香料的」與本句語境不同。"
+        "perfume-pdf-001": "本句的「light perfume」指「香味濃烈／清淡的香水」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-pdf-001"
     },
@@ -1311,11 +1063,7 @@ export default {
       "masked": "This is a new ____ from the brand.",
       "options": [
         "perfume-mcq-05",
-        "perfume-mcq-04",
-        "perfume-mcq-06",
-        "perfume-mcq-03",
-        "perfume-mcq-07",
-        "perfume-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfume」指「一款香水」。",
       "sentenceIndex": 31,
@@ -1324,12 +1072,8 @@ export default {
         "perfume"
       ],
       "optionReasons": {
-        "perfume-mcq-05": "本句指「一款香水」。",
-        "perfume-mcq-04": "「一瓶香水」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-03": "「搽／噴香水」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。",
-        "perfume-mcq-08": "「花香」與本句語境不同。"
+        "perfume-mcq-05": "本句的「perfume」指「一款香水」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-05"
     },
@@ -1341,11 +1085,7 @@ export default {
       "masked": "She tested three different ____.",
       "options": [
         "perfume-mcq-05",
-        "perfume-mcq-04",
-        "perfume-mcq-06",
-        "perfume-mcq-03",
-        "perfume-mcq-07",
-        "perfume-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「perfumes」指「一款香水」。",
       "sentenceIndex": 32,
@@ -1354,12 +1094,8 @@ export default {
         "perfumes"
       ],
       "optionReasons": {
-        "perfume-mcq-05": "本句指「一款香水」。",
-        "perfume-mcq-04": "「一瓶香水」與本句語境不同。",
-        "perfume-mcq-06": "「多款香水」與本句語境不同。",
-        "perfume-mcq-03": "「搽／噴香水」與本句語境不同。",
-        "perfume-mcq-07": "「香氣；芬芳」與本句語境不同。",
-        "perfume-mcq-08": "「花香」與本句語境不同。"
+        "perfume-mcq-05": "本句的「perfumes」指「一款香水」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perfume-mcq-05"
     }
@@ -1371,5 +1107,12 @@ export default {
     "sha256": "590f9dc7978349218f01f06e69ce3c29c7199969168c13649b7d461f791b2751",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -556,11 +556,9 @@ export default {
       "masked": "It was one of the best presents I have ____ given.",
       "options": [
         "ever-mcq-01",
-        "ever-mcq-02",
-        "ever-mcq-03",
-        "ever-mcq-04",
-        "ever-mcq-05",
-        "ever-mcq-06"
+        "ever-mcq-19",
+        "ever-mcq-10",
+        "ever-mcq-11"
       ],
       "explanation": "本句的「ever」指「曾經；任何時候」。",
       "sentenceIndex": 0,
@@ -569,12 +567,10 @@ export default {
         "ever"
       ],
       "optionReasons": {
-        "ever-mcq-01": "本句指「曾經；任何時候」。",
-        "ever-mcq-02": "「你曾經……嗎？」與本句語境不同。",
-        "ever-mcq-03": "「曾經做過」與本句語境不同。",
-        "ever-mcq-04": "「歷來最好／最差」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。"
+        "ever-mcq-01": "本句的「ever」指「曾經；任何時候」。",
+        "ever-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-01"
     },
@@ -586,11 +582,9 @@ export default {
       "masked": "Have you ____ been to Japan?",
       "options": [
         "ever-mcq-01",
-        "ever-mcq-02",
-        "ever-mcq-03",
-        "ever-mcq-04",
-        "ever-mcq-05",
-        "ever-mcq-06"
+        "ever-mcq-18",
+        "ever-mcq-19",
+        "ever-mcq-11"
       ],
       "explanation": "本句的「ever」指「曾經；任何時候」。",
       "sentenceIndex": 1,
@@ -599,12 +593,10 @@ export default {
         "ever"
       ],
       "optionReasons": {
-        "ever-mcq-01": "本句指「曾經；任何時候」。",
-        "ever-mcq-02": "「你曾經……嗎？」與本句語境不同。",
-        "ever-mcq-03": "「曾經做過」與本句語境不同。",
-        "ever-mcq-04": "「歷來最好／最差」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。"
+        "ever-mcq-01": "本句的「ever」指「曾經；任何時候」。",
+        "ever-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-01"
     },
@@ -616,11 +608,9 @@ export default {
       "masked": "That's the funniest thing I've ____ heard.",
       "options": [
         "ever-mcq-01",
-        "ever-mcq-02",
-        "ever-mcq-03",
-        "ever-mcq-04",
-        "ever-mcq-05",
-        "ever-mcq-06"
+        "ever-mcq-22",
+        "ever-mcq-15",
+        "ever-mcq-14"
       ],
       "explanation": "本句的「ever」指「曾經；任何時候」。",
       "sentenceIndex": 2,
@@ -629,12 +619,10 @@ export default {
         "ever"
       ],
       "optionReasons": {
-        "ever-mcq-01": "本句指「曾經；任何時候」。",
-        "ever-mcq-02": "「你曾經……嗎？」與本句語境不同。",
-        "ever-mcq-03": "「曾經做過」與本句語境不同。",
-        "ever-mcq-04": "「歷來最好／最差」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。"
+        "ever-mcq-01": "本句的「ever」指「曾經；任何時候」。",
+        "ever-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-01"
     },
@@ -646,11 +634,9 @@ export default {
       "masked": "Have you ____ making a photo album by hand?",
       "options": [
         "ever-mcq-02",
-        "ever-mcq-01",
-        "ever-mcq-03",
+        "ever-mcq-22",
         "ever-mcq-04",
-        "ever-mcq-05",
-        "ever-mcq-06"
+        "ever-mcq-17"
       ],
       "explanation": "本句的「ever tried」指「你曾經……嗎？」。",
       "sentenceIndex": 3,
@@ -659,12 +645,10 @@ export default {
         "ever tried"
       ],
       "optionReasons": {
-        "ever-mcq-02": "本句指「你曾經……嗎？」。",
-        "ever-mcq-01": "「曾經；任何時候」與本句語境不同。",
-        "ever-mcq-03": "「曾經做過」與本句語境不同。",
-        "ever-mcq-04": "「歷來最好／最差」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。"
+        "ever-mcq-02": "本句的「ever tried」指「你曾經……嗎？」。",
+        "ever-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-02"
     },
@@ -676,11 +660,9 @@ export default {
       "masked": "Have you ____ someone famous?",
       "options": [
         "ever-mcq-02",
-        "ever-mcq-01",
-        "ever-mcq-03",
-        "ever-mcq-04",
-        "ever-mcq-05",
-        "ever-mcq-06"
+        "ever-mcq-19",
+        "ever-mcq-15",
+        "ever-mcq-18"
       ],
       "explanation": "本句的「ever met」指「你曾經……嗎？」。",
       "sentenceIndex": 4,
@@ -689,12 +671,10 @@ export default {
         "ever met"
       ],
       "optionReasons": {
-        "ever-mcq-02": "本句指「你曾經……嗎？」。",
-        "ever-mcq-01": "「曾經；任何時候」與本句語境不同。",
-        "ever-mcq-03": "「曾經做過」與本句語境不同。",
-        "ever-mcq-04": "「歷來最好／最差」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。"
+        "ever-mcq-02": "本句的「ever met」指「你曾經……嗎？」。",
+        "ever-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-02"
     },
@@ -706,11 +686,9 @@ export default {
       "masked": "This is the best gift I've ____.",
       "options": [
         "ever-mcq-04",
-        "ever-mcq-03",
-        "ever-mcq-05",
-        "ever-mcq-02",
-        "ever-mcq-06",
-        "ever-mcq-01"
+        "ever-mcq-11",
+        "ever-mcq-18",
+        "ever-mcq-02"
       ],
       "explanation": "本句的「ever received」指「歷來最好／最差」。",
       "sentenceIndex": 5,
@@ -719,12 +697,10 @@ export default {
         "ever received"
       ],
       "optionReasons": {
-        "ever-mcq-04": "本句指「歷來最好／最差」。",
-        "ever-mcq-03": "「曾經做過」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。",
-        "ever-mcq-02": "「你曾經……嗎？」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。",
-        "ever-mcq-01": "「曾經；任何時候」與本句語境不同。"
+        "ever-mcq-04": "本句的「ever received」指「歷來最好／最差」。",
+        "ever-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-04"
     },
@@ -736,11 +712,9 @@ export default {
       "masked": "That was the hardest exam I've ____.",
       "options": [
         "ever-mcq-04",
-        "ever-mcq-03",
-        "ever-mcq-05",
-        "ever-mcq-02",
-        "ever-mcq-06",
-        "ever-mcq-01"
+        "ever-mcq-10",
+        "ever-mcq-17",
+        "ever-mcq-02"
       ],
       "explanation": "本句的「ever taken」指「歷來最好／最差」。",
       "sentenceIndex": 6,
@@ -749,12 +723,10 @@ export default {
         "ever taken"
       ],
       "optionReasons": {
-        "ever-mcq-04": "本句指「歷來最好／最差」。",
-        "ever-mcq-03": "「曾經做過」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。",
-        "ever-mcq-02": "「你曾經……嗎？」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。",
-        "ever-mcq-01": "「曾經；任何時候」與本句語境不同。"
+        "ever-mcq-04": "本句的「ever taken」指「歷來最好／最差」。",
+        "ever-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-04"
     },
@@ -766,11 +738,9 @@ export default {
       "masked": "Some fans think this is their ____.",
       "options": [
         "ever-mcq-04",
-        "ever-mcq-03",
-        "ever-mcq-05",
-        "ever-mcq-02",
-        "ever-mcq-06",
-        "ever-mcq-01"
+        "ever-mcq-12",
+        "ever-mcq-09",
+        "ever-mcq-10"
       ],
       "explanation": "本句的「best album ever」指「歷來最好／最差」。",
       "sentenceIndex": 7,
@@ -779,12 +749,10 @@ export default {
         "best album ever"
       ],
       "optionReasons": {
-        "ever-mcq-04": "本句指「歷來最好／最差」。",
-        "ever-mcq-03": "「曾經做過」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。",
-        "ever-mcq-02": "「你曾經……嗎？」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。",
-        "ever-mcq-01": "「曾經；任何時候」與本句語境不同。"
+        "ever-mcq-04": "本句的「best album ever」指「歷來最好／最差」。",
+        "ever-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-04"
     },
@@ -796,11 +764,9 @@ export default {
       "masked": "It was the team's ____.",
       "options": [
         "ever-mcq-04",
-        "ever-mcq-03",
-        "ever-mcq-05",
-        "ever-mcq-02",
-        "ever-mcq-06",
-        "ever-mcq-01"
+        "ever-mcq-17",
+        "ever-mcq-21",
+        "ever-mcq-09"
       ],
       "explanation": "本句的「best performance ever」指「歷來最好／最差」。",
       "sentenceIndex": 8,
@@ -809,12 +775,10 @@ export default {
         "best performance ever"
       ],
       "optionReasons": {
-        "ever-mcq-04": "本句指「歷來最好／最差」。",
-        "ever-mcq-03": "「曾經做過」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。",
-        "ever-mcq-02": "「你曾經……嗎？」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。",
-        "ever-mcq-01": "「曾經；任何時候」與本句語境不同。"
+        "ever-mcq-04": "本句的「best performance ever」指「歷來最好／最差」。",
+        "ever-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-04"
     },
@@ -826,11 +790,9 @@ export default {
       "masked": "The city is busier than ____.",
       "options": [
         "ever-mcq-05",
-        "ever-mcq-04",
-        "ever-mcq-06",
-        "ever-mcq-03",
-        "ever-mcq-07",
-        "ever-mcq-02"
+        "ever-mcq-10",
+        "ever-mcq-12",
+        "ever-mcq-04"
       ],
       "explanation": "本句的「ever before」指「以往任何時候」。",
       "sentenceIndex": 9,
@@ -839,12 +801,10 @@ export default {
         "ever before"
       ],
       "optionReasons": {
-        "ever-mcq-05": "本句指「以往任何時候」。",
-        "ever-mcq-04": "「歷來最好／最差」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。",
-        "ever-mcq-03": "「曾經做過」與本句語境不同。",
-        "ever-mcq-07": "「比以往任何時候更加」與本句語境不同。",
-        "ever-mcq-02": "「你曾經……嗎？」與本句語境不同。"
+        "ever-mcq-05": "本句的「ever before」指「以往任何時候」。",
+        "ever-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-05"
     },
@@ -856,11 +816,9 @@ export default {
       "masked": "She felt more confident than ____.",
       "options": [
         "ever-mcq-05",
-        "ever-mcq-04",
-        "ever-mcq-06",
-        "ever-mcq-03",
-        "ever-mcq-07",
-        "ever-mcq-02"
+        "ever-mcq-02",
+        "ever-mcq-15",
+        "ever-mcq-18"
       ],
       "explanation": "本句的「ever before」指「以往任何時候」。",
       "sentenceIndex": 10,
@@ -869,12 +827,10 @@ export default {
         "ever before"
       ],
       "optionReasons": {
-        "ever-mcq-05": "本句指「以往任何時候」。",
-        "ever-mcq-04": "「歷來最好／最差」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。",
-        "ever-mcq-03": "「曾經做過」與本句語境不同。",
-        "ever-mcq-07": "「比以往任何時候更加」與本句語境不同。",
-        "ever-mcq-02": "「你曾經……嗎？」與本句語境不同。"
+        "ever-mcq-05": "本句的「ever before」指「以往任何時候」。",
+        "ever-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-05"
     },
@@ -886,11 +842,9 @@ export default {
       "masked": "She is busier ____.",
       "options": [
         "ever-mcq-07",
-        "ever-mcq-06",
-        "ever-mcq-08",
-        "ever-mcq-05",
-        "ever-mcq-09",
-        "ever-mcq-04"
+        "ever-mcq-12",
+        "ever-mcq-24",
+        "ever-mcq-13"
       ],
       "explanation": "本句的「than ever」指「比以往任何時候更加」。",
       "sentenceIndex": 11,
@@ -899,12 +853,10 @@ export default {
         "than ever"
       ],
       "optionReasons": {
-        "ever-mcq-07": "本句指「比以往任何時候更加」。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。",
-        "ever-mcq-08": "「自從……一直」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。",
-        "ever-mcq-09": "「從此以後」與本句語境不同。",
-        "ever-mcq-04": "「歷來最好／最差」與本句語境不同。"
+        "ever-mcq-07": "本句的「than ever」指「比以往任何時候更加」。",
+        "ever-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-07"
     },
@@ -916,11 +868,9 @@ export default {
       "masked": "Family memories matter more to me ____.",
       "options": [
         "ever-mcq-07",
-        "ever-mcq-06",
-        "ever-mcq-08",
-        "ever-mcq-05",
-        "ever-mcq-09",
-        "ever-mcq-04"
+        "ever-mcq-15",
+        "ever-mcq-18",
+        "ever-mcq-24"
       ],
       "explanation": "本句的「than ever」指「比以往任何時候更加」。",
       "sentenceIndex": 12,
@@ -929,12 +879,10 @@ export default {
         "than ever"
       ],
       "optionReasons": {
-        "ever-mcq-07": "本句指「比以往任何時候更加」。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。",
-        "ever-mcq-08": "「自從……一直」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。",
-        "ever-mcq-09": "「從此以後」與本句語境不同。",
-        "ever-mcq-04": "「歷來最好／最差」與本句語境不同。"
+        "ever-mcq-07": "本句的「than ever」指「比以往任何時候更加」。",
+        "ever-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-07"
     },
@@ -946,11 +894,9 @@ export default {
       "masked": "We need patience ____.",
       "options": [
         "ever-mcq-07",
-        "ever-mcq-06",
-        "ever-mcq-08",
-        "ever-mcq-05",
+        "ever-mcq-04",
         "ever-mcq-09",
-        "ever-mcq-04"
+        "ever-mcq-11"
       ],
       "explanation": "本句的「more than ever」指「比以往任何時候更加」。",
       "sentenceIndex": 13,
@@ -959,12 +905,10 @@ export default {
         "more than ever"
       ],
       "optionReasons": {
-        "ever-mcq-07": "本句指「比以往任何時候更加」。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。",
-        "ever-mcq-08": "「自從……一直」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。",
-        "ever-mcq-09": "「從此以後」與本句語境不同。",
-        "ever-mcq-04": "「歷來最好／最差」與本句語境不同。"
+        "ever-mcq-07": "本句的「more than ever」指「比以往任何時候更加」。",
+        "ever-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-07"
     },
@@ -976,11 +920,9 @@ export default {
       "masked": "She values family time ____.",
       "options": [
         "ever-mcq-07",
-        "ever-mcq-06",
-        "ever-mcq-08",
-        "ever-mcq-05",
+        "ever-mcq-19",
         "ever-mcq-09",
-        "ever-mcq-04"
+        "ever-mcq-12"
       ],
       "explanation": "本句的「more than ever」指「比以往任何時候更加」。",
       "sentenceIndex": 14,
@@ -989,12 +931,10 @@ export default {
         "more than ever"
       ],
       "optionReasons": {
-        "ever-mcq-07": "本句指「比以往任何時候更加」。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。",
-        "ever-mcq-08": "「自從……一直」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。",
-        "ever-mcq-09": "「從此以後」與本句語境不同。",
-        "ever-mcq-04": "「歷來最好／最差」與本句語境不同。"
+        "ever-mcq-07": "本句的「more than ever」指「比以往任何時候更加」。",
+        "ever-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-07"
     },
@@ -1006,11 +946,9 @@ export default {
       "masked": "I've loved photography ____ I was a child.",
       "options": [
         "ever-mcq-08",
-        "ever-mcq-07",
-        "ever-mcq-09",
-        "ever-mcq-06",
+        "ever-mcq-19",
         "ever-mcq-10",
-        "ever-mcq-05"
+        "ever-mcq-02"
       ],
       "explanation": "本句的「ever since」指「自從……一直」。",
       "sentenceIndex": 15,
@@ -1019,12 +957,10 @@ export default {
         "ever since"
       ],
       "optionReasons": {
-        "ever-mcq-08": "本句指「自從……一直」。",
-        "ever-mcq-07": "「比以往任何時候更加」與本句語境不同。",
-        "ever-mcq-09": "「從此以後」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。",
-        "ever-mcq-10": "「幾乎從不」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。"
+        "ever-mcq-08": "本句的「ever since」指「自從……一直」。",
+        "ever-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-08"
     },
@@ -1036,11 +972,9 @@ export default {
       "masked": "She has kept the album ____ I gave it to her.",
       "options": [
         "ever-mcq-08",
-        "ever-mcq-07",
-        "ever-mcq-09",
-        "ever-mcq-06",
-        "ever-mcq-10",
-        "ever-mcq-05"
+        "ever-mcq-21",
+        "ever-mcq-20",
+        "ever-mcq-12"
       ],
       "explanation": "本句的「ever since」指「自從……一直」。",
       "sentenceIndex": 16,
@@ -1049,12 +983,10 @@ export default {
         "ever since"
       ],
       "optionReasons": {
-        "ever-mcq-08": "本句指「自從……一直」。",
-        "ever-mcq-07": "「比以往任何時候更加」與本句語境不同。",
-        "ever-mcq-09": "「從此以後」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。",
-        "ever-mcq-10": "「幾乎從不」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。"
+        "ever-mcq-08": "本句的「ever since」指「自從……一直」。",
+        "ever-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-08"
     },
@@ -1066,11 +998,9 @@ export default {
       "masked": "He's been happier ____.",
       "options": [
         "ever-mcq-08",
-        "ever-mcq-07",
-        "ever-mcq-09",
-        "ever-mcq-06",
-        "ever-mcq-10",
-        "ever-mcq-05"
+        "ever-mcq-22",
+        "ever-mcq-16",
+        "ever-mcq-24"
       ],
       "explanation": "本句的「ever since he changed jobs」指「自從……一直」。",
       "sentenceIndex": 17,
@@ -1079,12 +1009,10 @@ export default {
         "ever since he changed jobs"
       ],
       "optionReasons": {
-        "ever-mcq-08": "本句指「自從……一直」。",
-        "ever-mcq-07": "「比以往任何時候更加」與本句語境不同。",
-        "ever-mcq-09": "「從此以後」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。",
-        "ever-mcq-10": "「幾乎從不」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。"
+        "ever-mcq-08": "本句的「ever since he changed jobs」指「自從……一直」。",
+        "ever-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-08"
     },
@@ -1096,11 +1024,9 @@ export default {
       "masked": "I've remembered that moment ____.",
       "options": [
         "ever-mcq-08",
+        "ever-mcq-19",
         "ever-mcq-07",
-        "ever-mcq-09",
-        "ever-mcq-06",
-        "ever-mcq-10",
-        "ever-mcq-05"
+        "ever-mcq-22"
       ],
       "explanation": "本句的「ever since it happened」指「自從……一直」。",
       "sentenceIndex": 18,
@@ -1109,12 +1035,10 @@ export default {
         "ever since it happened"
       ],
       "optionReasons": {
-        "ever-mcq-08": "本句指「自從……一直」。",
-        "ever-mcq-07": "「比以往任何時候更加」與本句語境不同。",
-        "ever-mcq-09": "「從此以後」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。",
-        "ever-mcq-10": "「幾乎從不」與本句語境不同。",
-        "ever-mcq-05": "「以往任何時候」與本句語境不同。"
+        "ever-mcq-08": "本句的「ever since it happened」指「自從……一直」。",
+        "ever-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-08"
     },
@@ -1126,11 +1050,9 @@ export default {
       "masked": "They lived happily ____.",
       "options": [
         "ever-mcq-09",
-        "ever-mcq-08",
-        "ever-mcq-10",
-        "ever-mcq-07",
-        "ever-mcq-11",
-        "ever-mcq-06"
+        "ever-mcq-20",
+        "ever-mcq-24",
+        "ever-mcq-08"
       ],
       "explanation": "本句的「ever after」指「從此以後」。",
       "sentenceIndex": 19,
@@ -1139,12 +1061,10 @@ export default {
         "ever after"
       ],
       "optionReasons": {
-        "ever-mcq-09": "本句指「從此以後」。",
-        "ever-mcq-08": "「自從……一直」與本句語境不同。",
-        "ever-mcq-10": "「幾乎從不」與本句語境不同。",
-        "ever-mcq-07": "「比以往任何時候更加」與本句語境不同。",
-        "ever-mcq-11": "「極少」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。"
+        "ever-mcq-09": "本句的「ever after」指「從此以後」。",
+        "ever-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-09"
     },
@@ -1156,11 +1076,9 @@ export default {
       "masked": "The event changed his life ____.",
       "options": [
         "ever-mcq-09",
-        "ever-mcq-08",
-        "ever-mcq-10",
-        "ever-mcq-07",
-        "ever-mcq-11",
-        "ever-mcq-06"
+        "ever-mcq-05",
+        "ever-mcq-17",
+        "ever-mcq-15"
       ],
       "explanation": "本句的「ever after」指「從此以後」。",
       "sentenceIndex": 20,
@@ -1169,12 +1087,10 @@ export default {
         "ever after"
       ],
       "optionReasons": {
-        "ever-mcq-09": "本句指「從此以後」。",
-        "ever-mcq-08": "「自從……一直」與本句語境不同。",
-        "ever-mcq-10": "「幾乎從不」與本句語境不同。",
-        "ever-mcq-07": "「比以往任何時候更加」與本句語境不同。",
-        "ever-mcq-11": "「極少」與本句語境不同。",
-        "ever-mcq-06": "「比以往更……」與本句語境不同。"
+        "ever-mcq-09": "本句的「ever after」指「從此以後」。",
+        "ever-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-09"
     },
@@ -1186,11 +1102,9 @@ export default {
       "masked": "She ____ buys things for herself.",
       "options": [
         "ever-mcq-10",
-        "ever-mcq-09",
+        "ever-mcq-23",
         "ever-mcq-11",
-        "ever-mcq-08",
-        "ever-mcq-12",
-        "ever-mcq-07"
+        "ever-mcq-20"
       ],
       "explanation": "本句的「hardly ever」指「幾乎從不」。",
       "sentenceIndex": 21,
@@ -1199,12 +1113,10 @@ export default {
         "hardly ever"
       ],
       "optionReasons": {
-        "ever-mcq-10": "本句指「幾乎從不」。",
-        "ever-mcq-09": "「從此以後」與本句語境不同。",
-        "ever-mcq-11": "「極少」與本句語境不同。",
-        "ever-mcq-08": "「自從……一直」與本句語境不同。",
-        "ever-mcq-12": "「即使有也很少」與本句語境不同。",
-        "ever-mcq-07": "「比以往任何時候更加」與本句語境不同。"
+        "ever-mcq-10": "本句的「hardly ever」指「幾乎從不」。",
+        "ever-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-10"
     },
@@ -1216,11 +1128,9 @@ export default {
       "masked": "I ____ watch television now.",
       "options": [
         "ever-mcq-10",
-        "ever-mcq-09",
-        "ever-mcq-11",
-        "ever-mcq-08",
-        "ever-mcq-12",
-        "ever-mcq-07"
+        "ever-mcq-02",
+        "ever-mcq-19",
+        "ever-mcq-16"
       ],
       "explanation": "本句的「hardly ever」指「幾乎從不」。",
       "sentenceIndex": 22,
@@ -1229,12 +1139,10 @@ export default {
         "hardly ever"
       ],
       "optionReasons": {
-        "ever-mcq-10": "本句指「幾乎從不」。",
-        "ever-mcq-09": "「從此以後」與本句語境不同。",
-        "ever-mcq-11": "「極少」與本句語境不同。",
-        "ever-mcq-08": "「自從……一直」與本句語境不同。",
-        "ever-mcq-12": "「即使有也很少」與本句語境不同。",
-        "ever-mcq-07": "「比以往任何時候更加」與本句語境不同。"
+        "ever-mcq-10": "本句的「hardly ever」指「幾乎從不」。",
+        "ever-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-10"
     },
@@ -1246,11 +1154,9 @@ export default {
       "masked": "He ____ complains.",
       "options": [
         "ever-mcq-11",
-        "ever-mcq-10",
-        "ever-mcq-12",
-        "ever-mcq-09",
-        "ever-mcq-13",
-        "ever-mcq-08"
+        "ever-mcq-22",
+        "ever-mcq-05",
+        "ever-mcq-09"
       ],
       "explanation": "本句的「rarely ever」指「極少」。",
       "sentenceIndex": 23,
@@ -1259,12 +1165,10 @@ export default {
         "rarely ever"
       ],
       "optionReasons": {
-        "ever-mcq-11": "本句指「極少」。",
-        "ever-mcq-10": "「幾乎從不」與本句語境不同。",
-        "ever-mcq-12": "「即使有也很少」與本句語境不同。",
-        "ever-mcq-09": "「從此以後」與本句語境不同。",
-        "ever-mcq-13": "「以後再一次」與本句語境不同。",
-        "ever-mcq-08": "「自從……一直」與本句語境不同。"
+        "ever-mcq-11": "本句的「rarely ever」指「極少」。",
+        "ever-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-11"
     },
@@ -1277,10 +1181,8 @@ export default {
       "options": [
         "ever-mcq-11",
         "ever-mcq-10",
-        "ever-mcq-12",
-        "ever-mcq-09",
-        "ever-mcq-13",
-        "ever-mcq-08"
+        "ever-mcq-02",
+        "ever-mcq-07"
       ],
       "explanation": "本句的「rarely ever」指「極少」。",
       "sentenceIndex": 24,
@@ -1289,12 +1191,10 @@ export default {
         "rarely ever"
       ],
       "optionReasons": {
-        "ever-mcq-11": "本句指「極少」。",
-        "ever-mcq-10": "「幾乎從不」與本句語境不同。",
-        "ever-mcq-12": "「即使有也很少」與本句語境不同。",
-        "ever-mcq-09": "「從此以後」與本句語境不同。",
-        "ever-mcq-13": "「以後再一次」與本句語境不同。",
-        "ever-mcq-08": "「自從……一直」與本句語境不同。"
+        "ever-mcq-11": "本句的「rarely ever」指「極少」。",
+        "ever-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-11"
     },
@@ -1306,11 +1206,9 @@ export default {
       "masked": "He rarely, ____, talks about his childhood.",
       "options": [
         "ever-mcq-12",
-        "ever-mcq-11",
+        "ever-mcq-23",
         "ever-mcq-13",
-        "ever-mcq-10",
-        "ever-mcq-14",
-        "ever-mcq-09"
+        "ever-mcq-07"
       ],
       "explanation": "本句的「if ever」指「即使有也很少」。",
       "sentenceIndex": 25,
@@ -1319,12 +1217,10 @@ export default {
         "if ever"
       ],
       "optionReasons": {
-        "ever-mcq-12": "本句指「即使有也很少」。",
-        "ever-mcq-11": "「極少」與本句語境不同。",
-        "ever-mcq-13": "「以後再一次」與本句語境不同。",
-        "ever-mcq-10": "「幾乎從不」與本句語境不同。",
-        "ever-mcq-14": "「絕對不；永遠不」與本句語境不同。",
-        "ever-mcq-09": "「從此以後」與本句語境不同。"
+        "ever-mcq-12": "本句的「if ever」指「即使有也很少」。",
+        "ever-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-12"
     },
@@ -1336,11 +1232,9 @@ export default {
       "masked": "Such opportunities are difficult, ____, to find.",
       "options": [
         "ever-mcq-12",
-        "ever-mcq-11",
-        "ever-mcq-13",
         "ever-mcq-10",
-        "ever-mcq-14",
-        "ever-mcq-09"
+        "ever-mcq-20",
+        "ever-mcq-15"
       ],
       "explanation": "本句的「if ever」指「即使有也很少」。",
       "sentenceIndex": 26,
@@ -1349,12 +1243,10 @@ export default {
         "if ever"
       ],
       "optionReasons": {
-        "ever-mcq-12": "本句指「即使有也很少」。",
-        "ever-mcq-11": "「極少」與本句語境不同。",
-        "ever-mcq-13": "「以後再一次」與本句語境不同。",
-        "ever-mcq-10": "「幾乎從不」與本句語境不同。",
-        "ever-mcq-14": "「絕對不；永遠不」與本句語境不同。",
-        "ever-mcq-09": "「從此以後」與本句語境不同。"
+        "ever-mcq-12": "本句的「if ever」指「即使有也很少」。",
+        "ever-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-12"
     },
@@ -1366,11 +1258,9 @@ export default {
       "masked": "I don't want to make that mistake ____.",
       "options": [
         "ever-mcq-13",
-        "ever-mcq-12",
-        "ever-mcq-14",
-        "ever-mcq-11",
         "ever-mcq-15",
-        "ever-mcq-10"
+        "ever-mcq-05",
+        "ever-mcq-18"
       ],
       "explanation": "本句的「ever again」指「以後再一次」。",
       "sentenceIndex": 27,
@@ -1379,12 +1269,10 @@ export default {
         "ever again"
       ],
       "optionReasons": {
-        "ever-mcq-13": "本句指「以後再一次」。",
-        "ever-mcq-12": "「即使有也很少」與本句語境不同。",
-        "ever-mcq-14": "「絕對不；永遠不」與本句語境不同。",
-        "ever-mcq-11": "「極少」與本句語境不同。",
-        "ever-mcq-15": "「愈來愈」與本句語境不同。",
-        "ever-mcq-10": "「幾乎從不」與本句語境不同。"
+        "ever-mcq-13": "本句的「ever again」指「以後再一次」。",
+        "ever-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-13"
     },
@@ -1396,11 +1284,9 @@ export default {
       "masked": "Will we ____?",
       "options": [
         "ever-mcq-13",
-        "ever-mcq-12",
-        "ever-mcq-14",
-        "ever-mcq-11",
-        "ever-mcq-15",
-        "ever-mcq-10"
+        "ever-mcq-23",
+        "ever-mcq-02",
+        "ever-mcq-21"
       ],
       "explanation": "本句的「ever see each other again」指「以後再一次」。",
       "sentenceIndex": 28,
@@ -1409,12 +1295,10 @@ export default {
         "ever see each other again"
       ],
       "optionReasons": {
-        "ever-mcq-13": "本句指「以後再一次」。",
-        "ever-mcq-12": "「即使有也很少」與本句語境不同。",
-        "ever-mcq-14": "「絕對不；永遠不」與本句語境不同。",
-        "ever-mcq-11": "「極少」與本句語境不同。",
-        "ever-mcq-15": "「愈來愈」與本句語境不同。",
-        "ever-mcq-10": "「幾乎從不」與本句語境不同。"
+        "ever-mcq-13": "本句的「ever see each other again」指「以後再一次」。",
+        "ever-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-13"
     },
@@ -1427,10 +1311,8 @@ export default {
       "options": [
         "ever-mcq-14",
         "ever-mcq-13",
-        "ever-mcq-15",
-        "ever-mcq-12",
-        "ever-mcq-16",
-        "ever-mcq-11"
+        "ever-mcq-04",
+        "ever-mcq-18"
       ],
       "explanation": "本句的「never ever」指「絕對不；永遠不」。",
       "sentenceIndex": 29,
@@ -1439,12 +1321,10 @@ export default {
         "never ever"
       ],
       "optionReasons": {
-        "ever-mcq-14": "本句指「絕對不；永遠不」。",
-        "ever-mcq-13": "「以後再一次」與本句語境不同。",
-        "ever-mcq-15": "「愈來愈」與本句語境不同。",
-        "ever-mcq-12": "「即使有也很少」與本句語境不同。",
-        "ever-mcq-16": "「不斷增加的」與本句語境不同。",
-        "ever-mcq-11": "「極少」與本句語境不同。"
+        "ever-mcq-14": "本句的「never ever」指「絕對不；永遠不」。",
+        "ever-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-14"
     },
@@ -1456,11 +1336,9 @@ export default {
       "masked": "Don't ____ do that again.",
       "options": [
         "ever-mcq-14",
-        "ever-mcq-13",
-        "ever-mcq-15",
-        "ever-mcq-12",
-        "ever-mcq-16",
-        "ever-mcq-11"
+        "ever-mcq-07",
+        "ever-mcq-17",
+        "ever-mcq-19"
       ],
       "explanation": "本句的「ever」指「絕對不；永遠不」。",
       "sentenceIndex": 30,
@@ -1469,12 +1347,10 @@ export default {
         "ever"
       ],
       "optionReasons": {
-        "ever-mcq-14": "本句指「絕對不；永遠不」。",
-        "ever-mcq-13": "「以後再一次」與本句語境不同。",
-        "ever-mcq-15": "「愈來愈」與本句語境不同。",
-        "ever-mcq-12": "「即使有也很少」與本句語境不同。",
-        "ever-mcq-16": "「不斷增加的」與本句語境不同。",
-        "ever-mcq-11": "「極少」與本句語境不同。"
+        "ever-mcq-14": "本句的「ever」指「絕對不；永遠不」。",
+        "ever-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-14"
     },
@@ -1486,11 +1362,9 @@ export default {
       "masked": "The problem became ____.",
       "options": [
         "ever-mcq-15",
-        "ever-mcq-14",
-        "ever-mcq-16",
+        "ever-mcq-02",
         "ever-mcq-13",
-        "ever-mcq-17",
-        "ever-mcq-12"
+        "ever-mcq-10"
       ],
       "explanation": "本句的「ever more complicated」指「愈來愈」。",
       "sentenceIndex": 31,
@@ -1499,12 +1373,10 @@ export default {
         "ever more complicated"
       ],
       "optionReasons": {
-        "ever-mcq-15": "本句指「愈來愈」。",
-        "ever-mcq-14": "「絕對不；永遠不」與本句語境不同。",
-        "ever-mcq-16": "「不斷增加的」與本句語境不同。",
-        "ever-mcq-13": "「以後再一次」與本句語境不同。",
-        "ever-mcq-17": "「一直存在的」與本句語境不同。",
-        "ever-mcq-12": "「即使有也很少」與本句語境不同。"
+        "ever-mcq-15": "本句的「ever more complicated」指「愈來愈」。",
+        "ever-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-15"
     },
@@ -1516,11 +1388,9 @@ export default {
       "masked": "Demand grew ____.",
       "options": [
         "ever-mcq-15",
-        "ever-mcq-14",
-        "ever-mcq-16",
-        "ever-mcq-13",
-        "ever-mcq-17",
-        "ever-mcq-12"
+        "ever-mcq-23",
+        "ever-mcq-21",
+        "ever-mcq-13"
       ],
       "explanation": "本句的「ever greater」指「愈來愈」。",
       "sentenceIndex": 32,
@@ -1529,12 +1399,10 @@ export default {
         "ever greater"
       ],
       "optionReasons": {
-        "ever-mcq-15": "本句指「愈來愈」。",
-        "ever-mcq-14": "「絕對不；永遠不」與本句語境不同。",
-        "ever-mcq-16": "「不斷增加的」與本句語境不同。",
-        "ever-mcq-13": "「以後再一次」與本句語境不同。",
-        "ever-mcq-17": "「一直存在的」與本句語境不同。",
-        "ever-mcq-12": "「即使有也很少」與本句語境不同。"
+        "ever-mcq-15": "本句的「ever greater」指「愈來愈」。",
+        "ever-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-15"
     },
@@ -1546,10 +1414,8 @@ export default {
       "masked": "We face an ____ for housing.",
       "options": [
         "ever-mcq-16",
-        "ever-mcq-15",
         "ever-mcq-17",
         "ever-mcq-14",
-        "ever-mcq-18",
         "ever-mcq-13"
       ],
       "explanation": "本句的「ever-increasing demand」指「不斷增加的」。",
@@ -1559,12 +1425,10 @@ export default {
         "ever-increasing demand"
       ],
       "optionReasons": {
-        "ever-mcq-16": "本句指「不斷增加的」。",
-        "ever-mcq-15": "「愈來愈」與本句語境不同。",
-        "ever-mcq-17": "「一直存在的」與本句語境不同。",
-        "ever-mcq-14": "「絕對不；永遠不」與本句語境不同。",
-        "ever-mcq-18": "「不斷變化的」與本句語境不同。",
-        "ever-mcq-13": "「以後再一次」與本句語境不同。"
+        "ever-mcq-16": "本句的「ever-increasing demand」指「不斷增加的」。",
+        "ever-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-16"
     },
@@ -1576,11 +1440,9 @@ export default {
       "masked": "The city has an ____.",
       "options": [
         "ever-mcq-16",
-        "ever-mcq-15",
-        "ever-mcq-17",
-        "ever-mcq-14",
-        "ever-mcq-18",
-        "ever-mcq-13"
+        "ever-mcq-12",
+        "ever-mcq-10",
+        "ever-mcq-09"
       ],
       "explanation": "本句的「ever-growing population」指「不斷增加的」。",
       "sentenceIndex": 34,
@@ -1589,12 +1451,10 @@ export default {
         "ever-growing population"
       ],
       "optionReasons": {
-        "ever-mcq-16": "本句指「不斷增加的」。",
-        "ever-mcq-15": "「愈來愈」與本句語境不同。",
-        "ever-mcq-17": "「一直存在的」與本句語境不同。",
-        "ever-mcq-14": "「絕對不；永遠不」與本句語境不同。",
-        "ever-mcq-18": "「不斷變化的」與本句語境不同。",
-        "ever-mcq-13": "「以後再一次」與本句語境不同。"
+        "ever-mcq-16": "本句的「ever-growing population」指「不斷增加的」。",
+        "ever-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-16"
     },
@@ -1606,11 +1466,9 @@ export default {
       "masked": "Stress was an ____.",
       "options": [
         "ever-mcq-17",
-        "ever-mcq-16",
-        "ever-mcq-18",
-        "ever-mcq-15",
-        "ever-mcq-19",
-        "ever-mcq-14"
+        "ever-mcq-02",
+        "ever-mcq-22",
+        "ever-mcq-20"
       ],
       "explanation": "本句的「ever-present problem」指「一直存在的」。",
       "sentenceIndex": 35,
@@ -1619,12 +1477,10 @@ export default {
         "ever-present problem"
       ],
       "optionReasons": {
-        "ever-mcq-17": "本句指「一直存在的」。",
-        "ever-mcq-16": "「不斷增加的」與本句語境不同。",
-        "ever-mcq-18": "「不斷變化的」與本句語境不同。",
-        "ever-mcq-15": "「愈來愈」與本句語境不同。",
-        "ever-mcq-19": "「非常」與本句語境不同。",
-        "ever-mcq-14": "「絕對不；永遠不」與本句語境不同。"
+        "ever-mcq-17": "本句的「ever-present problem」指「一直存在的」。",
+        "ever-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-17"
     },
@@ -1636,11 +1492,9 @@ export default {
       "masked": "The mountains were an ____ of the landscape.",
       "options": [
         "ever-mcq-17",
-        "ever-mcq-16",
-        "ever-mcq-18",
-        "ever-mcq-15",
-        "ever-mcq-19",
-        "ever-mcq-14"
+        "ever-mcq-09",
+        "ever-mcq-22",
+        "ever-mcq-24"
       ],
       "explanation": "本句的「ever-present feature」指「一直存在的」。",
       "sentenceIndex": 36,
@@ -1649,12 +1503,10 @@ export default {
         "ever-present feature"
       ],
       "optionReasons": {
-        "ever-mcq-17": "本句指「一直存在的」。",
-        "ever-mcq-16": "「不斷增加的」與本句語境不同。",
-        "ever-mcq-18": "「不斷變化的」與本句語境不同。",
-        "ever-mcq-15": "「愈來愈」與本句語境不同。",
-        "ever-mcq-19": "「非常」與本句語境不同。",
-        "ever-mcq-14": "「絕對不；永遠不」與本句語境不同。"
+        "ever-mcq-17": "本句的「ever-present feature」指「一直存在的」。",
+        "ever-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-17"
     },
@@ -1666,11 +1518,9 @@ export default {
       "masked": "We live in an ____.",
       "options": [
         "ever-mcq-18",
-        "ever-mcq-17",
-        "ever-mcq-19",
-        "ever-mcq-16",
-        "ever-mcq-20",
-        "ever-mcq-15"
+        "ever-mcq-12",
+        "ever-mcq-07",
+        "ever-mcq-10"
       ],
       "explanation": "本句的「ever-changing world」指「不斷變化的」。",
       "sentenceIndex": 37,
@@ -1679,12 +1529,10 @@ export default {
         "ever-changing world"
       ],
       "optionReasons": {
-        "ever-mcq-18": "本句指「不斷變化的」。",
-        "ever-mcq-17": "「一直存在的」與本句語境不同。",
-        "ever-mcq-19": "「非常」與本句語境不同。",
-        "ever-mcq-16": "「不斷增加的」與本句語境不同。",
-        "ever-mcq-20": "「非常……的」與本句語境不同。",
-        "ever-mcq-15": "「愈來愈」與本句語境不同。"
+        "ever-mcq-18": "本句的「ever-changing world」指「不斷變化的」。",
+        "ever-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-18"
     },
@@ -1696,11 +1544,9 @@ export default {
       "masked": "Businesses must adapt to ____.",
       "options": [
         "ever-mcq-18",
-        "ever-mcq-17",
-        "ever-mcq-19",
-        "ever-mcq-16",
-        "ever-mcq-20",
-        "ever-mcq-15"
+        "ever-mcq-22",
+        "ever-mcq-13",
+        "ever-mcq-02"
       ],
       "explanation": "本句的「ever-changing conditions」指「不斷變化的」。",
       "sentenceIndex": 38,
@@ -1709,12 +1555,10 @@ export default {
         "ever-changing conditions"
       ],
       "optionReasons": {
-        "ever-mcq-18": "本句指「不斷變化的」。",
-        "ever-mcq-17": "「一直存在的」與本句語境不同。",
-        "ever-mcq-19": "「非常」與本句語境不同。",
-        "ever-mcq-16": "「不斷增加的」與本句語境不同。",
-        "ever-mcq-20": "「非常……的」與本句語境不同。",
-        "ever-mcq-15": "「愈來愈」與本句語境不同。"
+        "ever-mcq-18": "本句的「ever-changing conditions」指「不斷變化的」。",
+        "ever-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-18"
     },
@@ -1726,11 +1570,9 @@ export default {
       "masked": "She was ____ with the album.",
       "options": [
         "ever-mcq-19",
-        "ever-mcq-18",
-        "ever-mcq-20",
-        "ever-mcq-17",
-        "ever-mcq-21",
-        "ever-mcq-16"
+        "ever-mcq-11",
+        "ever-mcq-02",
+        "ever-mcq-04"
       ],
       "explanation": "本句的「ever so pleased」指「非常」。",
       "sentenceIndex": 39,
@@ -1739,12 +1581,10 @@ export default {
         "ever so pleased"
       ],
       "optionReasons": {
-        "ever-mcq-19": "本句指「非常」。",
-        "ever-mcq-18": "「不斷變化的」與本句語境不同。",
-        "ever-mcq-20": "「非常……的」與本句語境不同。",
-        "ever-mcq-17": "「一直存在的」與本句語境不同。",
-        "ever-mcq-21": "「一如以往」與本句語境不同。",
-        "ever-mcq-16": "「不斷增加的」與本句語境不同。"
+        "ever-mcq-19": "本句的「ever so pleased」指「非常」。",
+        "ever-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-19"
     },
@@ -1756,11 +1596,9 @@ export default {
       "masked": "Thank you ____.",
       "options": [
         "ever-mcq-19",
-        "ever-mcq-18",
-        "ever-mcq-20",
-        "ever-mcq-17",
-        "ever-mcq-21",
-        "ever-mcq-16"
+        "ever-mcq-02",
+        "ever-mcq-16",
+        "ever-mcq-13"
       ],
       "explanation": "本句的「ever so much」指「非常」。",
       "sentenceIndex": 40,
@@ -1769,12 +1607,10 @@ export default {
         "ever so much"
       ],
       "optionReasons": {
-        "ever-mcq-19": "本句指「非常」。",
-        "ever-mcq-18": "「不斷變化的」與本句語境不同。",
-        "ever-mcq-20": "「非常……的」與本句語境不同。",
-        "ever-mcq-17": "「一直存在的」與本句語境不同。",
-        "ever-mcq-21": "「一如以往」與本句語境不同。",
-        "ever-mcq-16": "「不斷增加的」與本句語境不同。"
+        "ever-mcq-19": "本句的「ever so much」指「非常」。",
+        "ever-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-19"
     },
@@ -1786,11 +1622,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "ever-mcq-20",
-        "ever-mcq-19",
-        "ever-mcq-21",
+        "ever-mcq-08",
         "ever-mcq-18",
-        "ever-mcq-22",
-        "ever-mcq-17"
+        "ever-mcq-01"
       ],
       "explanation": "本句的「ever such a kind person」指「非常……的」。",
       "sentenceIndex": 41,
@@ -1799,12 +1633,10 @@ export default {
         "ever such a kind person"
       ],
       "optionReasons": {
-        "ever-mcq-20": "本句指「非常……的」。",
-        "ever-mcq-19": "「非常」與本句語境不同。",
-        "ever-mcq-21": "「一如以往」與本句語境不同。",
-        "ever-mcq-18": "「不斷變化的」與本句語境不同。",
-        "ever-mcq-22": "「一向樂觀的人」與本句語境不同。",
-        "ever-mcq-17": "「一直存在的」與本句語境不同。"
+        "ever-mcq-20": "本句的「ever such a kind person」指「非常……的」。",
+        "ever-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-20"
     },
@@ -1816,11 +1648,9 @@ export default {
       "masked": "We had ____.",
       "options": [
         "ever-mcq-20",
-        "ever-mcq-19",
-        "ever-mcq-21",
-        "ever-mcq-18",
-        "ever-mcq-22",
-        "ever-mcq-17"
+        "ever-mcq-01",
+        "ever-mcq-10",
+        "ever-mcq-04"
       ],
       "explanation": "本句的「ever such a good time」指「非常……的」。",
       "sentenceIndex": 42,
@@ -1829,12 +1659,10 @@ export default {
         "ever such a good time"
       ],
       "optionReasons": {
-        "ever-mcq-20": "本句指「非常……的」。",
-        "ever-mcq-19": "「非常」與本句語境不同。",
-        "ever-mcq-21": "「一如以往」與本句語境不同。",
-        "ever-mcq-18": "「不斷變化的」與本句語境不同。",
-        "ever-mcq-22": "「一向樂觀的人」與本句語境不同。",
-        "ever-mcq-17": "「一直存在的」與本句語境不同。"
+        "ever-mcq-20": "本句的「ever such a good time」指「非常……的」。",
+        "ever-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-20"
     },
@@ -1846,11 +1674,9 @@ export default {
       "masked": "She was, ____, calm and patient.",
       "options": [
         "ever-mcq-21",
-        "ever-mcq-20",
-        "ever-mcq-22",
-        "ever-mcq-19",
-        "ever-mcq-23",
-        "ever-mcq-18"
+        "ever-mcq-12",
+        "ever-mcq-24",
+        "ever-mcq-20"
       ],
       "explanation": "本句的「as ever」指「一如以往」。",
       "sentenceIndex": 43,
@@ -1859,12 +1685,10 @@ export default {
         "as ever"
       ],
       "optionReasons": {
-        "ever-mcq-21": "本句指「一如以往」。",
-        "ever-mcq-20": "「非常……的」與本句語境不同。",
-        "ever-mcq-22": "「一向樂觀的人」與本句語境不同。",
-        "ever-mcq-19": "「非常」與本句語境不同。",
-        "ever-mcq-23": "「永遠；一直」與本句語境不同。",
-        "ever-mcq-18": "「不斷變化的」與本句語境不同。"
+        "ever-mcq-21": "本句的「as ever」指「一如以往」。",
+        "ever-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-21"
     },
@@ -1876,11 +1700,9 @@ export default {
       "masked": "The café was busy ____.",
       "options": [
         "ever-mcq-21",
-        "ever-mcq-20",
         "ever-mcq-22",
         "ever-mcq-19",
-        "ever-mcq-23",
-        "ever-mcq-18"
+        "ever-mcq-09"
       ],
       "explanation": "本句的「as ever」指「一如以往」。",
       "sentenceIndex": 44,
@@ -1889,12 +1711,10 @@ export default {
         "as ever"
       ],
       "optionReasons": {
-        "ever-mcq-21": "本句指「一如以往」。",
-        "ever-mcq-20": "「非常……的」與本句語境不同。",
-        "ever-mcq-22": "「一向樂觀的人」與本句語境不同。",
-        "ever-mcq-19": "「非常」與本句語境不同。",
-        "ever-mcq-23": "「永遠；一直」與本句語境不同。",
-        "ever-mcq-18": "「不斷變化的」與本句語境不同。"
+        "ever-mcq-21": "本句的「as ever」指「一如以往」。",
+        "ever-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-21"
     },
@@ -1907,10 +1727,8 @@ export default {
       "options": [
         "ever-mcq-22",
         "ever-mcq-21",
-        "ever-mcq-23",
-        "ever-mcq-20",
         "ever-mcq-24",
-        "ever-mcq-19"
+        "ever-mcq-13"
       ],
       "explanation": "本句的「Ever the optimist」指「一向樂觀的人」。",
       "sentenceIndex": 45,
@@ -1919,12 +1737,10 @@ export default {
         "Ever the optimist"
       ],
       "optionReasons": {
-        "ever-mcq-22": "本句指「一向樂觀的人」。",
-        "ever-mcq-21": "「一如以往」與本句語境不同。",
-        "ever-mcq-23": "「永遠；一直」與本句語境不同。",
-        "ever-mcq-20": "「非常……的」與本句語境不同。",
-        "ever-mcq-24": "「老是……」與本句語境不同。",
-        "ever-mcq-19": "「非常」與本句語境不同。"
+        "ever-mcq-22": "本句的「Ever the optimist」指「一向樂觀的人」。",
+        "ever-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-22"
     },
@@ -1936,11 +1752,9 @@ export default {
       "masked": "____, she remained calm.",
       "options": [
         "ever-mcq-22",
-        "ever-mcq-21",
-        "ever-mcq-23",
-        "ever-mcq-20",
-        "ever-mcq-24",
-        "ever-mcq-19"
+        "ever-mcq-17",
+        "ever-mcq-19",
+        "ever-mcq-04"
       ],
       "explanation": "本句的「Ever the professional」指「一向樂觀的人」。",
       "sentenceIndex": 46,
@@ -1949,12 +1763,10 @@ export default {
         "Ever the professional"
       ],
       "optionReasons": {
-        "ever-mcq-22": "本句指「一向樂觀的人」。",
-        "ever-mcq-21": "「一如以往」與本句語境不同。",
-        "ever-mcq-23": "「永遠；一直」與本句語境不同。",
-        "ever-mcq-20": "「非常……的」與本句語境不同。",
-        "ever-mcq-24": "「老是……」與本句語境不同。",
-        "ever-mcq-19": "「非常」與本句語境不同。"
+        "ever-mcq-22": "本句的「Ever the professional」指「一向樂觀的人」。",
+        "ever-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-22"
     },
@@ -1966,11 +1778,9 @@ export default {
       "masked": "I will remember this ____.",
       "options": [
         "ever-mcq-23",
-        "ever-mcq-22",
+        "ever-mcq-05",
         "ever-mcq-24",
-        "ever-mcq-21",
-        "ever-mcq-20",
-        "ever-mcq-19"
+        "ever-mcq-12"
       ],
       "explanation": "本句的「forever」指「永遠；一直」。",
       "sentenceIndex": 47,
@@ -1979,12 +1789,10 @@ export default {
         "forever"
       ],
       "optionReasons": {
-        "ever-mcq-23": "本句指「永遠；一直」。",
-        "ever-mcq-22": "「一向樂觀的人」與本句語境不同。",
-        "ever-mcq-24": "「老是……」與本句語境不同。",
-        "ever-mcq-21": "「一如以往」與本句語境不同。",
-        "ever-mcq-20": "「非常……的」與本句語境不同。",
-        "ever-mcq-19": "「非常」與本句語境不同。"
+        "ever-mcq-23": "本句的「forever」指「永遠；一直」。",
+        "ever-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-23"
     },
@@ -1996,11 +1804,9 @@ export default {
       "masked": "We can't wait ____.",
       "options": [
         "ever-mcq-23",
-        "ever-mcq-22",
-        "ever-mcq-24",
-        "ever-mcq-21",
-        "ever-mcq-20",
-        "ever-mcq-19"
+        "ever-mcq-19",
+        "ever-mcq-10",
+        "ever-mcq-15"
       ],
       "explanation": "本句的「for ever」指「永遠；一直」。",
       "sentenceIndex": 48,
@@ -2009,12 +1815,10 @@ export default {
         "for ever"
       ],
       "optionReasons": {
-        "ever-mcq-23": "本句指「永遠；一直」。",
-        "ever-mcq-22": "「一向樂觀的人」與本句語境不同。",
-        "ever-mcq-24": "「老是……」與本句語境不同。",
-        "ever-mcq-21": "「一如以往」與本句語境不同。",
-        "ever-mcq-20": "「非常……的」與本句語境不同。",
-        "ever-mcq-19": "「非常」與本句語境不同。"
+        "ever-mcq-23": "本句的「for ever」指「永遠；一直」。",
+        "ever-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-23"
     },
@@ -2026,11 +1830,9 @@ export default {
       "masked": "He's ____.",
       "options": [
         "ever-mcq-24",
-        "ever-mcq-23",
-        "ever-mcq-22",
-        "ever-mcq-21",
         "ever-mcq-20",
-        "ever-mcq-19"
+        "ever-mcq-10",
+        "ever-mcq-05"
       ],
       "explanation": "本句的「forever losing his keys」指「老是……」。",
       "sentenceIndex": 49,
@@ -2039,12 +1841,10 @@ export default {
         "forever losing his keys"
       ],
       "optionReasons": {
-        "ever-mcq-24": "本句指「老是……」。",
-        "ever-mcq-23": "「永遠；一直」與本句語境不同。",
-        "ever-mcq-22": "「一向樂觀的人」與本句語境不同。",
-        "ever-mcq-21": "「一如以往」與本句語境不同。",
-        "ever-mcq-20": "「非常……的」與本句語境不同。",
-        "ever-mcq-19": "「非常」與本句語境不同。"
+        "ever-mcq-24": "本句的「forever losing his keys」指「老是……」。",
+        "ever-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-24"
     },
@@ -2056,11 +1856,9 @@ export default {
       "masked": "She's ____.",
       "options": [
         "ever-mcq-24",
-        "ever-mcq-23",
-        "ever-mcq-22",
-        "ever-mcq-21",
         "ever-mcq-20",
-        "ever-mcq-19"
+        "ever-mcq-22",
+        "ever-mcq-18"
       ],
       "explanation": "本句的「forever changing her mind」指「老是……」。",
       "sentenceIndex": 50,
@@ -2069,12 +1867,10 @@ export default {
         "forever changing her mind"
       ],
       "optionReasons": {
-        "ever-mcq-24": "本句指「老是……」。",
-        "ever-mcq-23": "「永遠；一直」與本句語境不同。",
-        "ever-mcq-22": "「一向樂觀的人」與本句語境不同。",
-        "ever-mcq-21": "「一如以往」與本句語境不同。",
-        "ever-mcq-20": "「非常……的」與本句語境不同。",
-        "ever-mcq-19": "「非常」與本句語境不同。"
+        "ever-mcq-24": "本句的「forever changing her mind」指「老是……」。",
+        "ever-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ever-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ever-mcq-24"
     }
@@ -2086,5 +1882,7 @@ export default {
     "sha256": "0cd48b1dfd7655501615e50d323bc42e8eaaf14f853d6db9316c2d917c546b3f",
     "pages": 23
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -610,7 +610,7 @@ export default {
     },
     {
       "id": "style-mcq-28",
-      "title": "表示風格；方式；特色",
+      "title": "風格；方式；特色",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示風格；方式；特色",
@@ -640,11 +640,9 @@ export default {
       "masked": "I enjoy books written in this ____.",
       "options": [
         "style-mcq-28",
-        "style-mcq-27",
+        "style-mcq-13",
         "style-mcq-26",
-        "style-mcq-25",
-        "style-mcq-24",
-        "style-mcq-23"
+        "style-mcq-18"
       ],
       "explanation": "本句的「style」指「表示風格；方式；特色」。",
       "sentenceIndex": 0,
@@ -653,12 +651,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-28": "本句指「表示風格；方式；特色」。",
-        "style-mcq-27": "「限制某人按自己習慣的方式發揮／做事」是「cramp someone’s style」的用法，與本句語境不同。",
-        "style-mcq-26": "「已不流行；過時」是「out of style」的用法，與本句語境不同。",
-        "style-mcq-25": "「有派頭地；隆重而漂亮地」是「in style — impressively」的用法，與本句語境不同。",
-        "style-mcq-24": "「正在流行／時髦」是「in style — fashionable」的用法，與本句語境不同。",
-        "style-mcq-23": "「與藝術、語言或文體風格有關的」是「stylistic」的用法，與本句語境不同。"
+        "style-mcq-28": "本句的「style」指「表示風格；方式；特色」。",
+        "style-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-28"
     },
@@ -670,11 +666,9 @@ export default {
       "masked": "Her writing ____ is simple but thoughtful.",
       "options": [
         "style-mcq-28",
-        "style-mcq-27",
-        "style-mcq-26",
-        "style-mcq-25",
-        "style-mcq-24",
-        "style-mcq-23"
+        "style-mcq-07",
+        "style-mcq-19",
+        "style-mcq-20"
       ],
       "explanation": "本句的「style」指「表示風格；方式；特色」。",
       "sentenceIndex": 1,
@@ -683,12 +677,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-28": "本句指「表示風格；方式；特色」。",
-        "style-mcq-27": "「限制某人按自己習慣的方式發揮／做事」是「cramp someone’s style」的用法，與本句語境不同。",
-        "style-mcq-26": "「已不流行；過時」是「out of style」的用法，與本句語境不同。",
-        "style-mcq-25": "「有派頭地；隆重而漂亮地」是「in style — impressively」的用法，與本句語境不同。",
-        "style-mcq-24": "「正在流行／時髦」是「in style — fashionable」的用法，與本句語境不同。",
-        "style-mcq-23": "「與藝術、語言或文體風格有關的」是「stylistic」的用法，與本句語境不同。"
+        "style-mcq-28": "本句的「style」指「表示風格；方式；特色」。",
+        "style-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-28"
     },
@@ -700,11 +692,9 @@ export default {
       "masked": "Every writer has a different ____.",
       "options": [
         "style-mcq-01",
-        "style-mcq-02",
-        "style-mcq-03",
-        "style-mcq-04",
-        "style-mcq-05",
-        "style-mcq-06"
+        "style-mcq-25",
+        "style-mcq-18",
+        "style-mcq-19"
       ],
       "explanation": "本句的「style」指「某人／作品做事、表達或呈現時具有特色的方式；風格」。",
       "sentenceIndex": 2,
@@ -713,12 +703,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-01": "本句指「某人／作品做事、表達或呈現時具有特色的方式；風格」。",
-        "style-mcq-02": "「作者在語言、結構、表達等方面的寫作風格」是「writing style」的用法，與本句語境不同。",
-        "style-mcq-03": "「某人教學／領導時一貫採用的方式或作風」是「teaching/leadership style」的用法，與本句語境不同。",
-        "style-mcq-04": "「藝術家、作家、時期或流派具有的特定藝術／文學風格」是「style — artistic/literary」的用法，與本句語境不同。",
-        "style-mcq-05": "「採用或模仿某人／某類型的特徵風格」是「in the style of」的用法，與本句語境不同。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。"
+        "style-mcq-01": "本句的「style」指「某人／作品做事、表達或呈現時具有特色的方式；風格」。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-01"
     },
@@ -730,11 +718,9 @@ export default {
       "masked": "I like her relaxed teaching ____.",
       "options": [
         "style-mcq-01",
-        "style-mcq-02",
-        "style-mcq-03",
-        "style-mcq-04",
-        "style-mcq-05",
-        "style-mcq-06"
+        "style-mcq-25",
+        "style-mcq-19",
+        "style-mcq-18"
       ],
       "explanation": "本句的「style」指「某人／作品做事、表達或呈現時具有特色的方式；風格」。",
       "sentenceIndex": 3,
@@ -743,12 +729,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-01": "本句指「某人／作品做事、表達或呈現時具有特色的方式；風格」。",
-        "style-mcq-02": "「作者在語言、結構、表達等方面的寫作風格」是「writing style」的用法，與本句語境不同。",
-        "style-mcq-03": "「某人教學／領導時一貫採用的方式或作風」是「teaching/leadership style」的用法，與本句語境不同。",
-        "style-mcq-04": "「藝術家、作家、時期或流派具有的特定藝術／文學風格」是「style — artistic/literary」的用法，與本句語境不同。",
-        "style-mcq-05": "「採用或模仿某人／某類型的特徵風格」是「in the style of」的用法，與本句語境不同。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。"
+        "style-mcq-01": "本句的「style」指「某人／作品做事、表達或呈現時具有特色的方式；風格」。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-01"
     },
@@ -760,11 +744,9 @@ export default {
       "masked": "His ____ is very direct.",
       "options": [
         "style-mcq-02",
-        "style-mcq-01",
-        "style-mcq-03",
-        "style-mcq-04",
-        "style-mcq-05",
-        "style-mcq-06"
+        "style-mcq-19",
+        "style-mcq-18",
+        "style-mcq-26"
       ],
       "explanation": "本句的「writing style」指「作者在語言、結構、表達等方面的寫作風格」。",
       "sentenceIndex": 4,
@@ -773,12 +755,10 @@ export default {
         "writing style"
       ],
       "optionReasons": {
-        "style-mcq-02": "本句指「作者在語言、結構、表達等方面的寫作風格」。",
-        "style-mcq-01": "「某人／作品做事、表達或呈現時具有特色的方式；風格」是「style — characteristic manner」的用法，與本句語境不同。",
-        "style-mcq-03": "「某人教學／領導時一貫採用的方式或作風」是「teaching/leadership style」的用法，與本句語境不同。",
-        "style-mcq-04": "「藝術家、作家、時期或流派具有的特定藝術／文學風格」是「style — artistic/literary」的用法，與本句語境不同。",
-        "style-mcq-05": "「採用或模仿某人／某類型的特徵風格」是「in the style of」的用法，與本句語境不同。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。"
+        "style-mcq-02": "本句的「writing style」指「作者在語言、結構、表達等方面的寫作風格」。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-02"
     },
@@ -790,11 +770,9 @@ export default {
       "masked": "The author has a distinctive ____.",
       "options": [
         "style-mcq-02",
-        "style-mcq-01",
-        "style-mcq-03",
-        "style-mcq-04",
-        "style-mcq-05",
-        "style-mcq-06"
+        "style-mcq-27",
+        "style-mcq-11",
+        "style-mcq-25"
       ],
       "explanation": "本句的「writing style」指「作者在語言、結構、表達等方面的寫作風格」。",
       "sentenceIndex": 5,
@@ -803,12 +781,10 @@ export default {
         "writing style"
       ],
       "optionReasons": {
-        "style-mcq-02": "本句指「作者在語言、結構、表達等方面的寫作風格」。",
-        "style-mcq-01": "「某人／作品做事、表達或呈現時具有特色的方式；風格」是「style — characteristic manner」的用法，與本句語境不同。",
-        "style-mcq-03": "「某人教學／領導時一貫採用的方式或作風」是「teaching/leadership style」的用法，與本句語境不同。",
-        "style-mcq-04": "「藝術家、作家、時期或流派具有的特定藝術／文學風格」是「style — artistic/literary」的用法，與本句語境不同。",
-        "style-mcq-05": "「採用或模仿某人／某類型的特徵風格」是「in the style of」的用法，與本句語境不同。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。"
+        "style-mcq-02": "本句的「writing style」指「作者在語言、結構、表達等方面的寫作風格」。",
+        "style-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-02"
     },
@@ -820,11 +796,9 @@ export default {
       "masked": "Her ____ suits younger students.",
       "options": [
         "style-mcq-03",
-        "style-mcq-02",
-        "style-mcq-04",
-        "style-mcq-01",
-        "style-mcq-05",
-        "style-mcq-06"
+        "style-mcq-15",
+        "style-mcq-11",
+        "style-mcq-18"
       ],
       "explanation": "本句的「teaching style」指「某人教學／領導時一貫採用的方式或作風」。",
       "sentenceIndex": 6,
@@ -833,12 +807,10 @@ export default {
         "teaching style"
       ],
       "optionReasons": {
-        "style-mcq-03": "本句指「某人教學／領導時一貫採用的方式或作風」。",
-        "style-mcq-02": "「作者在語言、結構、表達等方面的寫作風格」是「writing style」的用法，與本句語境不同。",
-        "style-mcq-04": "「藝術家、作家、時期或流派具有的特定藝術／文學風格」是「style — artistic/literary」的用法，與本句語境不同。",
-        "style-mcq-01": "「某人／作品做事、表達或呈現時具有特色的方式；風格」是「style — characteristic manner」的用法，與本句語境不同。",
-        "style-mcq-05": "「採用或模仿某人／某類型的特徵風格」是「in the style of」的用法，與本句語境不同。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。"
+        "style-mcq-03": "本句的「teaching style」指「某人教學／領導時一貫採用的方式或作風」。",
+        "style-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-03"
     },
@@ -850,11 +822,9 @@ export default {
       "masked": "His ____ is collaborative.",
       "options": [
         "style-mcq-03",
-        "style-mcq-02",
-        "style-mcq-04",
-        "style-mcq-01",
-        "style-mcq-05",
-        "style-mcq-06"
+        "style-mcq-19",
+        "style-mcq-25",
+        "style-mcq-17"
       ],
       "explanation": "本句的「leadership style」指「某人教學／領導時一貫採用的方式或作風」。",
       "sentenceIndex": 7,
@@ -863,12 +833,10 @@ export default {
         "leadership style"
       ],
       "optionReasons": {
-        "style-mcq-03": "本句指「某人教學／領導時一貫採用的方式或作風」。",
-        "style-mcq-02": "「作者在語言、結構、表達等方面的寫作風格」是「writing style」的用法，與本句語境不同。",
-        "style-mcq-04": "「藝術家、作家、時期或流派具有的特定藝術／文學風格」是「style — artistic/literary」的用法，與本句語境不同。",
-        "style-mcq-01": "「某人／作品做事、表達或呈現時具有特色的方式；風格」是「style — characteristic manner」的用法，與本句語境不同。",
-        "style-mcq-05": "「採用或模仿某人／某類型的特徵風格」是「in the style of」的用法，與本句語境不同。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。"
+        "style-mcq-03": "本句的「leadership style」指「某人教學／領導時一貫採用的方式或作風」。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-03"
     },
@@ -880,11 +848,9 @@ export default {
       "masked": "The painting is done in a modern ____.",
       "options": [
         "style-mcq-04",
-        "style-mcq-03",
-        "style-mcq-05",
-        "style-mcq-02",
-        "style-mcq-06",
-        "style-mcq-01"
+        "style-mcq-19",
+        "style-mcq-13",
+        "style-mcq-18"
       ],
       "explanation": "本句的「style」指「藝術家、作家、時期或流派具有的特定藝術／文學風格」。",
       "sentenceIndex": 8,
@@ -893,12 +859,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-04": "本句指「藝術家、作家、時期或流派具有的特定藝術／文學風格」。",
-        "style-mcq-03": "「某人教學／領導時一貫採用的方式或作風」是「teaching/leadership style」的用法，與本句語境不同。",
-        "style-mcq-05": "「採用或模仿某人／某類型的特徵風格」是「in the style of」的用法，與本句語境不同。",
-        "style-mcq-02": "「作者在語言、結構、表達等方面的寫作風格」是「writing style」的用法，與本句語境不同。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。",
-        "style-mcq-01": "「某人／作品做事、表達或呈現時具有特色的方式；風格」是「style — characteristic manner」的用法，與本句語境不同。"
+        "style-mcq-04": "本句的「style」指「藝術家、作家、時期或流派具有的特定藝術／文學風格」。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-04"
     },
@@ -910,11 +874,9 @@ export default {
       "masked": "The novel combines several literary ____.",
       "options": [
         "style-mcq-04",
-        "style-mcq-03",
-        "style-mcq-05",
-        "style-mcq-02",
-        "style-mcq-06",
-        "style-mcq-01"
+        "style-mcq-13",
+        "style-mcq-19",
+        "style-mcq-18"
       ],
       "explanation": "本句的「styles」指「藝術家、作家、時期或流派具有的特定藝術／文學風格」。",
       "sentenceIndex": 9,
@@ -923,12 +885,10 @@ export default {
         "styles"
       ],
       "optionReasons": {
-        "style-mcq-04": "本句指「藝術家、作家、時期或流派具有的特定藝術／文學風格」。",
-        "style-mcq-03": "「某人教學／領導時一貫採用的方式或作風」是「teaching/leadership style」的用法，與本句語境不同。",
-        "style-mcq-05": "「採用或模仿某人／某類型的特徵風格」是「in the style of」的用法，與本句語境不同。",
-        "style-mcq-02": "「作者在語言、結構、表達等方面的寫作風格」是「writing style」的用法，與本句語境不同。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。",
-        "style-mcq-01": "「某人／作品做事、表達或呈現時具有特色的方式；風格」是「style — characteristic manner」的用法，與本句語境不同。"
+        "style-mcq-04": "本句的「styles」指「藝術家、作家、時期或流派具有的特定藝術／文學風格」。",
+        "style-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-04"
     },
@@ -940,11 +900,9 @@ export default {
       "masked": "The building was designed ____ a traditional temple.",
       "options": [
         "style-mcq-05",
-        "style-mcq-04",
-        "style-mcq-06",
-        "style-mcq-03",
-        "style-mcq-07",
-        "style-mcq-02"
+        "style-mcq-24",
+        "style-mcq-25",
+        "style-mcq-08"
       ],
       "explanation": "本句的「in the style of」指「採用或模仿某人／某類型的特徵風格」。",
       "sentenceIndex": 10,
@@ -953,12 +911,10 @@ export default {
         "in the style of"
       ],
       "optionReasons": {
-        "style-mcq-05": "本句指「採用或模仿某人／某類型的特徵風格」。",
-        "style-mcq-04": "「藝術家、作家、時期或流派具有的特定藝術／文學風格」是「style — artistic/literary」的用法，與本句語境不同。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。",
-        "style-mcq-03": "「某人教學／領導時一貫採用的方式或作風」是「teaching/leadership style」的用法，與本句語境不同。",
-        "style-mcq-07": "「對服裝、設計等有良好搭配與審美能力；時尚品味」是「sense of style」的用法，與本句語境不同。",
-        "style-mcq-02": "「作者在語言、結構、表達等方面的寫作風格」是「writing style」的用法，與本句語境不同。"
+        "style-mcq-05": "本句的「in the style of」指「採用或模仿某人／某類型的特徵風格」。",
+        "style-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-05"
     },
@@ -970,11 +926,9 @@ export default {
       "masked": "The song was written ____ early jazz.",
       "options": [
         "style-mcq-05",
-        "style-mcq-04",
-        "style-mcq-06",
-        "style-mcq-03",
-        "style-mcq-07",
-        "style-mcq-02"
+        "style-mcq-08",
+        "style-mcq-24",
+        "style-mcq-18"
       ],
       "explanation": "本句的「in the style of」指「採用或模仿某人／某類型的特徵風格」。",
       "sentenceIndex": 11,
@@ -983,12 +937,10 @@ export default {
         "in the style of"
       ],
       "optionReasons": {
-        "style-mcq-05": "本句指「採用或模仿某人／某類型的特徵風格」。",
-        "style-mcq-04": "「藝術家、作家、時期或流派具有的特定藝術／文學風格」是「style — artistic/literary」的用法，與本句語境不同。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。",
-        "style-mcq-03": "「某人教學／領導時一貫採用的方式或作風」是「teaching/leadership style」的用法，與本句語境不同。",
-        "style-mcq-07": "「對服裝、設計等有良好搭配與審美能力；時尚品味」是「sense of style」的用法，與本句語境不同。",
-        "style-mcq-02": "「作者在語言、結構、表達等方面的寫作風格」是「writing style」的用法，與本句語境不同。"
+        "style-mcq-05": "本句的「in the style of」指「採用或模仿某人／某類型的特徵風格」。",
+        "style-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-05"
     },
@@ -1000,11 +952,9 @@ export default {
       "masked": "She has a great sense of ____.",
       "options": [
         "style-mcq-06",
-        "style-mcq-05",
-        "style-mcq-07",
-        "style-mcq-04",
         "style-mcq-08",
-        "style-mcq-03"
+        "style-mcq-20",
+        "style-mcq-19"
       ],
       "explanation": "本句的「style」指「個人外表、穿著或設計所呈現的時尚感／風格」。",
       "sentenceIndex": 12,
@@ -1013,12 +963,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-06": "本句指「個人外表、穿著或設計所呈現的時尚感／風格」。",
-        "style-mcq-05": "「採用或模仿某人／某類型的特徵風格」是「in the style of」的用法，與本句語境不同。",
-        "style-mcq-07": "「對服裝、設計等有良好搭配與審美能力；時尚品味」是「sense of style」的用法，與本句語境不同。",
-        "style-mcq-04": "「藝術家、作家、時期或流派具有的特定藝術／文學風格」是「style — artistic/literary」的用法，與本句語境不同。",
-        "style-mcq-08": "「衣服、家具、產品等的一種款式／樣式」是「style — product/design type」的用法，與本句語境不同。",
-        "style-mcq-03": "「某人教學／領導時一貫採用的方式或作風」是「teaching/leadership style」的用法，與本句語境不同。"
+        "style-mcq-06": "本句的「style」指「個人外表、穿著或設計所呈現的時尚感／風格」。",
+        "style-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-06"
     },
@@ -1030,11 +978,9 @@ export default {
       "masked": "He dresses with a lot of ____.",
       "options": [
         "style-mcq-06",
-        "style-mcq-05",
-        "style-mcq-07",
-        "style-mcq-04",
+        "style-mcq-20",
         "style-mcq-08",
-        "style-mcq-03"
+        "style-mcq-11"
       ],
       "explanation": "本句的「style」指「個人外表、穿著或設計所呈現的時尚感／風格」。",
       "sentenceIndex": 13,
@@ -1043,12 +989,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-06": "本句指「個人外表、穿著或設計所呈現的時尚感／風格」。",
-        "style-mcq-05": "「採用或模仿某人／某類型的特徵風格」是「in the style of」的用法，與本句語境不同。",
-        "style-mcq-07": "「對服裝、設計等有良好搭配與審美能力；時尚品味」是「sense of style」的用法，與本句語境不同。",
-        "style-mcq-04": "「藝術家、作家、時期或流派具有的特定藝術／文學風格」是「style — artistic/literary」的用法，與本句語境不同。",
-        "style-mcq-08": "「衣服、家具、產品等的一種款式／樣式」是「style — product/design type」的用法，與本句語境不同。",
-        "style-mcq-03": "「某人教學／領導時一貫採用的方式或作風」是「teaching/leadership style」的用法，與本句語境不同。"
+        "style-mcq-06": "本句的「style」指「個人外表、穿著或設計所呈現的時尚感／風格」。",
+        "style-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-06"
     },
@@ -1060,11 +1004,9 @@ export default {
       "masked": "She has an excellent ____.",
       "options": [
         "style-mcq-07",
-        "style-mcq-06",
-        "style-mcq-08",
-        "style-mcq-05",
-        "style-mcq-09",
-        "style-mcq-04"
+        "style-mcq-11",
+        "style-mcq-28",
+        "style-mcq-09"
       ],
       "explanation": "本句的「sense of style」指「對服裝、設計等有良好搭配與審美能力；時尚品味」。",
       "sentenceIndex": 14,
@@ -1073,12 +1015,10 @@ export default {
         "sense of style"
       ],
       "optionReasons": {
-        "style-mcq-07": "本句指「對服裝、設計等有良好搭配與審美能力；時尚品味」。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。",
-        "style-mcq-08": "「衣服、家具、產品等的一種款式／樣式」是「style — product/design type」的用法，與本句語境不同。",
-        "style-mcq-05": "「採用或模仿某人／某類型的特徵風格」是「in the style of」的用法，與本句語境不同。",
-        "style-mcq-09": "「某人一貫的生活方式或作風」是「style — way of living/behaving」的用法，與本句語境不同。",
-        "style-mcq-04": "「藝術家、作家、時期或流派具有的特定藝術／文學風格」是「style — artistic/literary」的用法，與本句語境不同。"
+        "style-mcq-07": "本句的「sense of style」指「對服裝、設計等有良好搭配與審美能力；時尚品味」。",
+        "style-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-07"
     },
@@ -1090,11 +1030,9 @@ export default {
       "masked": "His ____ is quite minimal.",
       "options": [
         "style-mcq-07",
-        "style-mcq-06",
-        "style-mcq-08",
-        "style-mcq-05",
-        "style-mcq-09",
-        "style-mcq-04"
+        "style-mcq-27",
+        "style-mcq-18",
+        "style-mcq-25"
       ],
       "explanation": "本句的「sense of style」指「對服裝、設計等有良好搭配與審美能力；時尚品味」。",
       "sentenceIndex": 15,
@@ -1103,12 +1041,10 @@ export default {
         "sense of style"
       ],
       "optionReasons": {
-        "style-mcq-07": "本句指「對服裝、設計等有良好搭配與審美能力；時尚品味」。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。",
-        "style-mcq-08": "「衣服、家具、產品等的一種款式／樣式」是「style — product/design type」的用法，與本句語境不同。",
-        "style-mcq-05": "「採用或模仿某人／某類型的特徵風格」是「in the style of」的用法，與本句語境不同。",
-        "style-mcq-09": "「某人一貫的生活方式或作風」是「style — way of living/behaving」的用法，與本句語境不同。",
-        "style-mcq-04": "「藝術家、作家、時期或流派具有的特定藝術／文學風格」是「style — artistic/literary」的用法，與本句語境不同。"
+        "style-mcq-07": "本句的「sense of style」指「對服裝、設計等有良好搭配與審美能力；時尚品味」。",
+        "style-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-07"
     },
@@ -1120,11 +1056,9 @@ export default {
       "masked": "This jacket comes in several ____.",
       "options": [
         "style-mcq-08",
-        "style-mcq-07",
-        "style-mcq-09",
-        "style-mcq-06",
-        "style-mcq-10",
-        "style-mcq-05"
+        "style-mcq-24",
+        "style-mcq-21",
+        "style-mcq-13"
       ],
       "explanation": "本句的「styles」指「衣服、家具、產品等的一種款式／樣式」。",
       "sentenceIndex": 16,
@@ -1133,12 +1067,10 @@ export default {
         "styles"
       ],
       "optionReasons": {
-        "style-mcq-08": "本句指「衣服、家具、產品等的一種款式／樣式」。",
-        "style-mcq-07": "「對服裝、設計等有良好搭配與審美能力；時尚品味」是「sense of style」的用法，與本句語境不同。",
-        "style-mcq-09": "「某人一貫的生活方式或作風」是「style — way of living/behaving」的用法，與本句語境不同。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。",
-        "style-mcq-10": "「進行運動、工作等時具有特色的方式／技術風格」是「style — performance technique」的用法，與本句語境不同。",
-        "style-mcq-05": "「採用或模仿某人／某類型的特徵風格」是「in the style of」的用法，與本句語境不同。"
+        "style-mcq-08": "本句的「styles」指「衣服、家具、產品等的一種款式／樣式」。",
+        "style-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-08"
     },
@@ -1150,11 +1082,9 @@ export default {
       "masked": "Which ____ of chair do you prefer?",
       "options": [
         "style-mcq-08",
-        "style-mcq-07",
+        "style-mcq-18",
         "style-mcq-09",
-        "style-mcq-06",
-        "style-mcq-10",
-        "style-mcq-05"
+        "style-mcq-19"
       ],
       "explanation": "本句的「style」指「衣服、家具、產品等的一種款式／樣式」。",
       "sentenceIndex": 17,
@@ -1163,12 +1093,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-08": "本句指「衣服、家具、產品等的一種款式／樣式」。",
-        "style-mcq-07": "「對服裝、設計等有良好搭配與審美能力；時尚品味」是「sense of style」的用法，與本句語境不同。",
-        "style-mcq-09": "「某人一貫的生活方式或作風」是「style — way of living/behaving」的用法，與本句語境不同。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。",
-        "style-mcq-10": "「進行運動、工作等時具有特色的方式／技術風格」是「style — performance technique」的用法，與本句語境不同。",
-        "style-mcq-05": "「採用或模仿某人／某類型的特徵風格」是「in the style of」的用法，與本句語境不同。"
+        "style-mcq-08": "本句的「style」指「衣服、家具、產品等的一種款式／樣式」。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-08"
     },
@@ -1180,11 +1108,9 @@ export default {
       "masked": "She changed her ____.",
       "options": [
         "style-mcq-19",
-        "style-mcq-18",
-        "style-mcq-20",
-        "style-mcq-17",
-        "style-mcq-21",
-        "style-mcq-16"
+        "style-mcq-07",
+        "style-mcq-09",
+        "style-mcq-10"
       ],
       "explanation": "本句的「hairstyle」指「頭髮被剪裁或整理出的髮型」。",
       "sentenceIndex": 18,
@@ -1193,12 +1119,10 @@ export default {
         "hairstyle"
       ],
       "optionReasons": {
-        "style-mcq-19": "本句指「頭髮被剪裁或整理出的髮型」。",
-        "style-mcq-18": "「花中連接柱頭與子房的花柱」是「style — botany」的用法，與本句語境不同。",
-        "style-mcq-20": "「一個人或群體一貫的生活方式」是「lifestyle」的用法，與本句語境不同。",
-        "style-mcq-17": "「控制網頁或文件視覺呈現的樣式表」是「stylesheet」的用法，與本句語境不同。",
-        "style-mcq-21": "「時尚、有型、有格調的」是「stylish」的用法，與本句語境不同。",
-        "style-mcq-16": "「控制文字／介面外觀的樣式或格式」是「style — computing」的用法，與本句語境不同。"
+        "style-mcq-19": "本句的「hairstyle」指「頭髮被剪裁或整理出的髮型」。",
+        "style-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-19"
     },
@@ -1210,11 +1134,9 @@ export default {
       "masked": "That ____ suits you.",
       "options": [
         "style-mcq-19",
-        "style-mcq-18",
-        "style-mcq-20",
-        "style-mcq-17",
-        "style-mcq-21",
-        "style-mcq-16"
+        "style-mcq-13",
+        "style-mcq-24",
+        "style-mcq-08"
       ],
       "explanation": "本句的「hairstyle」指「頭髮被剪裁或整理出的髮型」。",
       "sentenceIndex": 19,
@@ -1223,12 +1145,10 @@ export default {
         "hairstyle"
       ],
       "optionReasons": {
-        "style-mcq-19": "本句指「頭髮被剪裁或整理出的髮型」。",
-        "style-mcq-18": "「花中連接柱頭與子房的花柱」是「style — botany」的用法，與本句語境不同。",
-        "style-mcq-20": "「一個人或群體一貫的生活方式」是「lifestyle」的用法，與本句語境不同。",
-        "style-mcq-17": "「控制網頁或文件視覺呈現的樣式表」是「stylesheet」的用法，與本句語境不同。",
-        "style-mcq-21": "「時尚、有型、有格調的」是「stylish」的用法，與本句語境不同。",
-        "style-mcq-16": "「控制文字／介面外觀的樣式或格式」是「style — computing」的用法，與本句語境不同。"
+        "style-mcq-19": "本句的「hairstyle」指「頭髮被剪裁或整理出的髮型」。",
+        "style-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-19"
     },
@@ -1240,11 +1160,9 @@ export default {
       "masked": "They prefer a simple ____.",
       "options": [
         "style-mcq-09",
-        "style-mcq-08",
-        "style-mcq-10",
-        "style-mcq-07",
-        "style-mcq-11",
-        "style-mcq-06"
+        "style-mcq-18",
+        "style-mcq-26",
+        "style-mcq-21"
       ],
       "explanation": "本句的「style of living」指「某人一貫的生活方式或作風」。",
       "sentenceIndex": 20,
@@ -1253,12 +1171,10 @@ export default {
         "style of living"
       ],
       "optionReasons": {
-        "style-mcq-09": "本句指「某人一貫的生活方式或作風」。",
-        "style-mcq-08": "「衣服、家具、產品等的一種款式／樣式」是「style — product/design type」的用法，與本句語境不同。",
-        "style-mcq-10": "「進行運動、工作等時具有特色的方式／技術風格」是「style — performance technique」的用法，與本句語境不同。",
-        "style-mcq-07": "「對服裝、設計等有良好搭配與審美能力；時尚品味」是「sense of style」的用法，與本句語境不同。",
-        "style-mcq-11": "「把頭髮整理、剪裁或塑造成特定髮型」是「style — hair verb」的用法，與本句語境不同。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。"
+        "style-mcq-09": "本句的「style of living」指「某人一貫的生活方式或作風」。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-09"
     },
@@ -1270,11 +1186,9 @@ export default {
       "masked": "His relaxed ____ made people comfortable.",
       "options": [
         "style-mcq-09",
-        "style-mcq-08",
-        "style-mcq-10",
+        "style-mcq-19",
         "style-mcq-07",
-        "style-mcq-11",
-        "style-mcq-06"
+        "style-mcq-26"
       ],
       "explanation": "本句的「style」指「某人一貫的生活方式或作風」。",
       "sentenceIndex": 21,
@@ -1283,12 +1197,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-09": "本句指「某人一貫的生活方式或作風」。",
-        "style-mcq-08": "「衣服、家具、產品等的一種款式／樣式」是「style — product/design type」的用法，與本句語境不同。",
-        "style-mcq-10": "「進行運動、工作等時具有特色的方式／技術風格」是「style — performance technique」的用法，與本句語境不同。",
-        "style-mcq-07": "「對服裝、設計等有良好搭配與審美能力；時尚品味」是「sense of style」的用法，與本句語境不同。",
-        "style-mcq-11": "「把頭髮整理、剪裁或塑造成特定髮型」是「style — hair verb」的用法，與本句語境不同。",
-        "style-mcq-06": "「個人外表、穿著或設計所呈現的時尚感／風格」是「style — fashion/appearance」的用法，與本句語境不同。"
+        "style-mcq-09": "本句的「style」指「某人一貫的生活方式或作風」。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-09"
     },
@@ -1300,11 +1212,9 @@ export default {
       "masked": "She prefers a healthy ____.",
       "options": [
         "style-mcq-20",
-        "style-mcq-19",
-        "style-mcq-21",
-        "style-mcq-18",
-        "style-mcq-22",
-        "style-mcq-17"
+        "style-mcq-24",
+        "style-mcq-15",
+        "style-mcq-28"
       ],
       "explanation": "本句的「lifestyle」指「一個人或群體一貫的生活方式」。",
       "sentenceIndex": 22,
@@ -1313,12 +1223,10 @@ export default {
         "lifestyle"
       ],
       "optionReasons": {
-        "style-mcq-20": "本句指「一個人或群體一貫的生活方式」。",
-        "style-mcq-19": "「頭髮被剪裁或整理出的髮型」是「hairstyle」的用法，與本句語境不同。",
-        "style-mcq-21": "「時尚、有型、有格調的」是「stylish」的用法，與本句語境不同。",
-        "style-mcq-18": "「花中連接柱頭與子房的花柱」是「style — botany」的用法，與本句語境不同。",
-        "style-mcq-22": "「為服裝、髮型等進行造型的專業人士」是「stylist」的用法，與本句語境不同。",
-        "style-mcq-17": "「控制網頁或文件視覺呈現的樣式表」是「stylesheet」的用法，與本句語境不同。"
+        "style-mcq-20": "本句的「lifestyle」指「一個人或群體一貫的生活方式」。",
+        "style-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-20"
     },
@@ -1330,11 +1238,9 @@ export default {
       "masked": "City life encourages a different ____.",
       "options": [
         "style-mcq-20",
-        "style-mcq-19",
-        "style-mcq-21",
-        "style-mcq-18",
-        "style-mcq-22",
-        "style-mcq-17"
+        "style-mcq-25",
+        "style-mcq-12",
+        "style-mcq-28"
       ],
       "explanation": "本句的「lifestyle」指「一個人或群體一貫的生活方式」。",
       "sentenceIndex": 23,
@@ -1343,12 +1249,10 @@ export default {
         "lifestyle"
       ],
       "optionReasons": {
-        "style-mcq-20": "本句指「一個人或群體一貫的生活方式」。",
-        "style-mcq-19": "「頭髮被剪裁或整理出的髮型」是「hairstyle」的用法，與本句語境不同。",
-        "style-mcq-21": "「時尚、有型、有格調的」是「stylish」的用法，與本句語境不同。",
-        "style-mcq-18": "「花中連接柱頭與子房的花柱」是「style — botany」的用法，與本句語境不同。",
-        "style-mcq-22": "「為服裝、髮型等進行造型的專業人士」是「stylist」的用法，與本句語境不同。",
-        "style-mcq-17": "「控制網頁或文件視覺呈現的樣式表」是「stylesheet」的用法，與本句語境不同。"
+        "style-mcq-20": "本句的「lifestyle」指「一個人或群體一貫的生活方式」。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-20"
     },
@@ -1360,11 +1264,9 @@ export default {
       "masked": "Everyone has their own working ____.",
       "options": [
         "style-mcq-10",
-        "style-mcq-09",
-        "style-mcq-11",
-        "style-mcq-08",
-        "style-mcq-12",
-        "style-mcq-07"
+        "style-mcq-27",
+        "style-mcq-19",
+        "style-mcq-18"
       ],
       "explanation": "本句的「style」指「進行運動、工作等時具有特色的方式／技術風格」。",
       "sentenceIndex": 24,
@@ -1373,12 +1275,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-10": "本句指「進行運動、工作等時具有特色的方式／技術風格」。",
-        "style-mcq-09": "「某人一貫的生活方式或作風」是「style — way of living/behaving」的用法，與本句語境不同。",
-        "style-mcq-11": "「把頭髮整理、剪裁或塑造成特定髮型」是「style — hair verb」的用法，與本句語境不同。",
-        "style-mcq-08": "「衣服、家具、產品等的一種款式／樣式」是「style — product/design type」的用法，與本句語境不同。",
-        "style-mcq-12": "「為服裝、房間、產品等進行視覺造型或搭配」是「style — design/presentation verb」的用法，與本句語境不同。",
-        "style-mcq-07": "「對服裝、設計等有良好搭配與審美能力；時尚品味」是「sense of style」的用法，與本句語境不同。"
+        "style-mcq-10": "本句的「style」指「進行運動、工作等時具有特色的方式／技術風格」。",
+        "style-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-10"
     },
@@ -1390,11 +1290,9 @@ export default {
       "masked": "His management ____ is very informal.",
       "options": [
         "style-mcq-10",
-        "style-mcq-09",
-        "style-mcq-11",
-        "style-mcq-08",
-        "style-mcq-12",
-        "style-mcq-07"
+        "style-mcq-18",
+        "style-mcq-27",
+        "style-mcq-25"
       ],
       "explanation": "本句的「style」指「進行運動、工作等時具有特色的方式／技術風格」。",
       "sentenceIndex": 25,
@@ -1403,12 +1301,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-10": "本句指「進行運動、工作等時具有特色的方式／技術風格」。",
-        "style-mcq-09": "「某人一貫的生活方式或作風」是「style — way of living/behaving」的用法，與本句語境不同。",
-        "style-mcq-11": "「把頭髮整理、剪裁或塑造成特定髮型」是「style — hair verb」的用法，與本句語境不同。",
-        "style-mcq-08": "「衣服、家具、產品等的一種款式／樣式」是「style — product/design type」的用法，與本句語境不同。",
-        "style-mcq-12": "「為服裝、房間、產品等進行視覺造型或搭配」是「style — design/presentation verb」的用法，與本句語境不同。",
-        "style-mcq-07": "「對服裝、設計等有良好搭配與審美能力；時尚品味」是「sense of style」的用法，與本句語境不同。"
+        "style-mcq-10": "本句的「style」指「進行運動、工作等時具有特色的方式／技術風格」。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-10"
     },
@@ -1420,11 +1316,9 @@ export default {
       "masked": "He has an aggressive playing ____.",
       "options": [
         "style-mcq-10",
-        "style-mcq-09",
-        "style-mcq-11",
-        "style-mcq-08",
-        "style-mcq-12",
-        "style-mcq-07"
+        "style-mcq-19",
+        "style-mcq-27",
+        "style-mcq-18"
       ],
       "explanation": "本句的「style」指「進行運動、工作等時具有特色的方式／技術風格」。",
       "sentenceIndex": 26,
@@ -1433,12 +1327,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-10": "本句指「進行運動、工作等時具有特色的方式／技術風格」。",
-        "style-mcq-09": "「某人一貫的生活方式或作風」是「style — way of living/behaving」的用法，與本句語境不同。",
-        "style-mcq-11": "「把頭髮整理、剪裁或塑造成特定髮型」是「style — hair verb」的用法，與本句語境不同。",
-        "style-mcq-08": "「衣服、家具、產品等的一種款式／樣式」是「style — product/design type」的用法，與本句語境不同。",
-        "style-mcq-12": "「為服裝、房間、產品等進行視覺造型或搭配」是「style — design/presentation verb」的用法，與本句語境不同。",
-        "style-mcq-07": "「對服裝、設計等有良好搭配與審美能力；時尚品味」是「sense of style」的用法，與本句語境不同。"
+        "style-mcq-10": "本句的「style」指「進行運動、工作等時具有特色的方式／技術風格」。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-10"
     },
@@ -1450,11 +1342,9 @@ export default {
       "masked": "Her swimming ____ is very efficient.",
       "options": [
         "style-mcq-10",
-        "style-mcq-09",
-        "style-mcq-11",
-        "style-mcq-08",
-        "style-mcq-12",
-        "style-mcq-07"
+        "style-mcq-18",
+        "style-mcq-27",
+        "style-mcq-19"
       ],
       "explanation": "本句的「style」指「進行運動、工作等時具有特色的方式／技術風格」。",
       "sentenceIndex": 27,
@@ -1463,12 +1353,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-10": "本句指「進行運動、工作等時具有特色的方式／技術風格」。",
-        "style-mcq-09": "「某人一貫的生活方式或作風」是「style — way of living/behaving」的用法，與本句語境不同。",
-        "style-mcq-11": "「把頭髮整理、剪裁或塑造成特定髮型」是「style — hair verb」的用法，與本句語境不同。",
-        "style-mcq-08": "「衣服、家具、產品等的一種款式／樣式」是「style — product/design type」的用法，與本句語境不同。",
-        "style-mcq-12": "「為服裝、房間、產品等進行視覺造型或搭配」是「style — design/presentation verb」的用法，與本句語境不同。",
-        "style-mcq-07": "「對服裝、設計等有良好搭配與審美能力；時尚品味」是「sense of style」的用法，與本句語境不同。"
+        "style-mcq-10": "本句的「style」指「進行運動、工作等時具有特色的方式／技術風格」。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-10"
     },
@@ -1480,11 +1368,9 @@ export default {
       "masked": "She ____ before the event.",
       "options": [
         "style-mcq-11",
-        "style-mcq-10",
-        "style-mcq-12",
-        "style-mcq-09",
-        "style-mcq-13",
-        "style-mcq-08"
+        "style-mcq-07",
+        "style-mcq-14",
+        "style-mcq-20"
       ],
       "explanation": "本句的「styled her hair」指「把頭髮整理、剪裁或塑造成特定髮型」。",
       "sentenceIndex": 28,
@@ -1493,12 +1379,10 @@ export default {
         "styled her hair"
       ],
       "optionReasons": {
-        "style-mcq-11": "本句指「把頭髮整理、剪裁或塑造成特定髮型」。",
-        "style-mcq-10": "「進行運動、工作等時具有特色的方式／技術風格」是「style — performance technique」的用法，與本句語境不同。",
-        "style-mcq-12": "「為服裝、房間、產品等進行視覺造型或搭配」是「style — design/presentation verb」的用法，與本句語境不同。",
-        "style-mcq-09": "「某人一貫的生活方式或作風」是「style — way of living/behaving」的用法，與本句語境不同。",
-        "style-mcq-13": "「把某人／某事描述、稱呼或包裝成某種形象」是「style someone/something as」的用法，與本句語境不同。",
-        "style-mcq-08": "「衣服、家具、產品等的一種款式／樣式」是「style — product/design type」的用法，與本句語境不同。"
+        "style-mcq-11": "本句的「styled her hair」指「把頭髮整理、剪裁或塑造成特定髮型」。",
+        "style-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-11"
     },
@@ -1510,11 +1394,9 @@ export default {
       "masked": "His hair was ____ professionally.",
       "options": [
         "style-mcq-11",
-        "style-mcq-10",
-        "style-mcq-12",
-        "style-mcq-09",
-        "style-mcq-13",
-        "style-mcq-08"
+        "style-mcq-23",
+        "style-mcq-20",
+        "style-mcq-07"
       ],
       "explanation": "本句的「styled」指「把頭髮整理、剪裁或塑造成特定髮型」。",
       "sentenceIndex": 29,
@@ -1523,12 +1405,10 @@ export default {
         "styled"
       ],
       "optionReasons": {
-        "style-mcq-11": "本句指「把頭髮整理、剪裁或塑造成特定髮型」。",
-        "style-mcq-10": "「進行運動、工作等時具有特色的方式／技術風格」是「style — performance technique」的用法，與本句語境不同。",
-        "style-mcq-12": "「為服裝、房間、產品等進行視覺造型或搭配」是「style — design/presentation verb」的用法，與本句語境不同。",
-        "style-mcq-09": "「某人一貫的生活方式或作風」是「style — way of living/behaving」的用法，與本句語境不同。",
-        "style-mcq-13": "「把某人／某事描述、稱呼或包裝成某種形象」是「style someone/something as」的用法，與本句語境不同。",
-        "style-mcq-08": "「衣服、家具、產品等的一種款式／樣式」是「style — product/design type」的用法，與本句語境不同。"
+        "style-mcq-11": "本句的「styled」指「把頭髮整理、剪裁或塑造成特定髮型」。",
+        "style-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-11"
     },
@@ -1540,11 +1420,9 @@ export default {
       "masked": "The room was ____ in a modern way.",
       "options": [
         "style-mcq-12",
-        "style-mcq-11",
-        "style-mcq-13",
-        "style-mcq-10",
-        "style-mcq-14",
-        "style-mcq-09"
+        "style-mcq-04",
+        "style-mcq-27",
+        "style-mcq-25"
       ],
       "explanation": "本句的「styled」指「為服裝、房間、產品等進行視覺造型或搭配」。",
       "sentenceIndex": 30,
@@ -1553,12 +1431,10 @@ export default {
         "styled"
       ],
       "optionReasons": {
-        "style-mcq-12": "本句指「為服裝、房間、產品等進行視覺造型或搭配」。",
-        "style-mcq-11": "「把頭髮整理、剪裁或塑造成特定髮型」是「style — hair verb」的用法，與本句語境不同。",
-        "style-mcq-13": "「把某人／某事描述、稱呼或包裝成某種形象」是「style someone/something as」的用法，與本句語境不同。",
-        "style-mcq-10": "「進行運動、工作等時具有特色的方式／技術風格」是「style — performance technique」的用法，與本句語境不同。",
-        "style-mcq-14": "「寫作、標點、引用、格式等所遵循的規範」是「style — publishing convention」的用法，與本句語境不同。",
-        "style-mcq-09": "「某人一貫的生活方式或作風」是「style — way of living/behaving」的用法，與本句語境不同。"
+        "style-mcq-12": "本句的「styled」指「為服裝、房間、產品等進行視覺造型或搭配」。",
+        "style-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-12"
     },
@@ -1570,11 +1446,9 @@ export default {
       "masked": "She ____ with simple accessories.",
       "options": [
         "style-mcq-12",
-        "style-mcq-11",
-        "style-mcq-13",
-        "style-mcq-10",
-        "style-mcq-14",
-        "style-mcq-09"
+        "style-mcq-23",
+        "style-mcq-27",
+        "style-mcq-25"
       ],
       "explanation": "本句的「styled the outfit」指「為服裝、房間、產品等進行視覺造型或搭配」。",
       "sentenceIndex": 31,
@@ -1583,12 +1457,10 @@ export default {
         "styled the outfit"
       ],
       "optionReasons": {
-        "style-mcq-12": "本句指「為服裝、房間、產品等進行視覺造型或搭配」。",
-        "style-mcq-11": "「把頭髮整理、剪裁或塑造成特定髮型」是「style — hair verb」的用法，與本句語境不同。",
-        "style-mcq-13": "「把某人／某事描述、稱呼或包裝成某種形象」是「style someone/something as」的用法，與本句語境不同。",
-        "style-mcq-10": "「進行運動、工作等時具有特色的方式／技術風格」是「style — performance technique」的用法，與本句語境不同。",
-        "style-mcq-14": "「寫作、標點、引用、格式等所遵循的規範」是「style — publishing convention」的用法，與本句語境不同。",
-        "style-mcq-09": "「某人一貫的生活方式或作風」是「style — way of living/behaving」的用法，與本句語境不同。"
+        "style-mcq-12": "本句的「styled the outfit」指「為服裝、房間、產品等進行視覺造型或搭配」。",
+        "style-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-12"
     },
@@ -1600,11 +1472,9 @@ export default {
       "masked": "He ____ an expert.",
       "options": [
         "style-mcq-13",
-        "style-mcq-12",
-        "style-mcq-14",
-        "style-mcq-11",
-        "style-mcq-15",
-        "style-mcq-10"
+        "style-mcq-10",
+        "style-mcq-18",
+        "style-mcq-14"
       ],
       "explanation": "本句的「styled himself as」指「把某人／某事描述、稱呼或包裝成某種形象」。",
       "sentenceIndex": 32,
@@ -1613,12 +1483,10 @@ export default {
         "styled himself as"
       ],
       "optionReasons": {
-        "style-mcq-13": "本句指「把某人／某事描述、稱呼或包裝成某種形象」。",
-        "style-mcq-12": "「為服裝、房間、產品等進行視覺造型或搭配」是「style — design/presentation verb」的用法，與本句語境不同。",
-        "style-mcq-14": "「寫作、標點、引用、格式等所遵循的規範」是「style — publishing convention」的用法，與本句語境不同。",
-        "style-mcq-11": "「把頭髮整理、剪裁或塑造成特定髮型」是「style — hair verb」的用法，與本句語境不同。",
-        "style-mcq-15": "「規定寫作、品牌、格式或視覺設計慣例的指南」是「style guide」的用法，與本句語境不同。",
-        "style-mcq-10": "「進行運動、工作等時具有特色的方式／技術風格」是「style — performance technique」的用法，與本句語境不同。"
+        "style-mcq-13": "本句的「styled himself as」指「把某人／某事描述、稱呼或包裝成某種形象」。",
+        "style-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-13"
     },
@@ -1630,11 +1498,9 @@ export default {
       "masked": "The campaign was ____ a major reform.",
       "options": [
         "style-mcq-13",
-        "style-mcq-12",
+        "style-mcq-18",
         "style-mcq-14",
-        "style-mcq-11",
-        "style-mcq-15",
-        "style-mcq-10"
+        "style-mcq-08"
       ],
       "explanation": "本句的「styled as」指「把某人／某事描述、稱呼或包裝成某種形象」。",
       "sentenceIndex": 33,
@@ -1643,12 +1509,10 @@ export default {
         "styled as"
       ],
       "optionReasons": {
-        "style-mcq-13": "本句指「把某人／某事描述、稱呼或包裝成某種形象」。",
-        "style-mcq-12": "「為服裝、房間、產品等進行視覺造型或搭配」是「style — design/presentation verb」的用法，與本句語境不同。",
-        "style-mcq-14": "「寫作、標點、引用、格式等所遵循的規範」是「style — publishing convention」的用法，與本句語境不同。",
-        "style-mcq-11": "「把頭髮整理、剪裁或塑造成特定髮型」是「style — hair verb」的用法，與本句語境不同。",
-        "style-mcq-15": "「規定寫作、品牌、格式或視覺設計慣例的指南」是「style guide」的用法，與本句語境不同。",
-        "style-mcq-10": "「進行運動、工作等時具有特色的方式／技術風格」是「style — performance technique」的用法，與本句語境不同。"
+        "style-mcq-13": "本句的「styled as」指「把某人／某事描述、稱呼或包裝成某種形象」。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-13"
     },
@@ -1660,11 +1524,9 @@ export default {
       "masked": "Follow the journal’s ____.",
       "options": [
         "style-mcq-14",
-        "style-mcq-13",
-        "style-mcq-15",
-        "style-mcq-12",
-        "style-mcq-16",
-        "style-mcq-11"
+        "style-mcq-11",
+        "style-mcq-09",
+        "style-mcq-26"
       ],
       "explanation": "本句的「style」指「寫作、標點、引用、格式等所遵循的規範」。",
       "sentenceIndex": 34,
@@ -1673,12 +1535,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-14": "本句指「寫作、標點、引用、格式等所遵循的規範」。",
-        "style-mcq-13": "「把某人／某事描述、稱呼或包裝成某種形象」是「style someone/something as」的用法，與本句語境不同。",
-        "style-mcq-15": "「規定寫作、品牌、格式或視覺設計慣例的指南」是「style guide」的用法，與本句語境不同。",
-        "style-mcq-12": "「為服裝、房間、產品等進行視覺造型或搭配」是「style — design/presentation verb」的用法，與本句語境不同。",
-        "style-mcq-16": "「控制文字／介面外觀的樣式或格式」是「style — computing」的用法，與本句語境不同。",
-        "style-mcq-11": "「把頭髮整理、剪裁或塑造成特定髮型」是「style — hair verb」的用法，與本句語境不同。"
+        "style-mcq-14": "本句的「style」指「寫作、標點、引用、格式等所遵循的規範」。",
+        "style-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-14"
     },
@@ -1690,10 +1550,8 @@ export default {
       "masked": "The document must follow a consistent ____.",
       "options": [
         "style-mcq-14",
-        "style-mcq-13",
-        "style-mcq-15",
-        "style-mcq-12",
-        "style-mcq-16",
+        "style-mcq-18",
+        "style-mcq-25",
         "style-mcq-11"
       ],
       "explanation": "本句的「style」指「寫作、標點、引用、格式等所遵循的規範」。",
@@ -1703,12 +1561,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-14": "本句指「寫作、標點、引用、格式等所遵循的規範」。",
-        "style-mcq-13": "「把某人／某事描述、稱呼或包裝成某種形象」是「style someone/something as」的用法，與本句語境不同。",
-        "style-mcq-15": "「規定寫作、品牌、格式或視覺設計慣例的指南」是「style guide」的用法，與本句語境不同。",
-        "style-mcq-12": "「為服裝、房間、產品等進行視覺造型或搭配」是「style — design/presentation verb」的用法，與本句語境不同。",
-        "style-mcq-16": "「控制文字／介面外觀的樣式或格式」是「style — computing」的用法，與本句語境不同。",
-        "style-mcq-11": "「把頭髮整理、剪裁或塑造成特定髮型」是「style — hair verb」的用法，與本句語境不同。"
+        "style-mcq-14": "本句的「style」指「寫作、標點、引用、格式等所遵循的規範」。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-14"
     },
@@ -1720,11 +1576,9 @@ export default {
       "masked": "The company has a detailed ____.",
       "options": [
         "style-mcq-15",
-        "style-mcq-14",
-        "style-mcq-16",
-        "style-mcq-13",
-        "style-mcq-17",
-        "style-mcq-12"
+        "style-mcq-24",
+        "style-mcq-18",
+        "style-mcq-03"
       ],
       "explanation": "本句的「style guide」指「規定寫作、品牌、格式或視覺設計慣例的指南」。",
       "sentenceIndex": 36,
@@ -1733,12 +1587,10 @@ export default {
         "style guide"
       ],
       "optionReasons": {
-        "style-mcq-15": "本句指「規定寫作、品牌、格式或視覺設計慣例的指南」。",
-        "style-mcq-14": "「寫作、標點、引用、格式等所遵循的規範」是「style — publishing convention」的用法，與本句語境不同。",
-        "style-mcq-16": "「控制文字／介面外觀的樣式或格式」是「style — computing」的用法，與本句語境不同。",
-        "style-mcq-13": "「把某人／某事描述、稱呼或包裝成某種形象」是「style someone/something as」的用法，與本句語境不同。",
-        "style-mcq-17": "「控制網頁或文件視覺呈現的樣式表」是「stylesheet」的用法，與本句語境不同。",
-        "style-mcq-12": "「為服裝、房間、產品等進行視覺造型或搭配」是「style — design/presentation verb」的用法，與本句語境不同。"
+        "style-mcq-15": "本句的「style guide」指「規定寫作、品牌、格式或視覺設計慣例的指南」。",
+        "style-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-15"
     },
@@ -1750,11 +1602,9 @@ export default {
       "masked": "Writers should follow the publication’s ____.",
       "options": [
         "style-mcq-15",
-        "style-mcq-14",
-        "style-mcq-16",
-        "style-mcq-13",
-        "style-mcq-17",
-        "style-mcq-12"
+        "style-mcq-09",
+        "style-mcq-24",
+        "style-mcq-25"
       ],
       "explanation": "本句的「style guide」指「規定寫作、品牌、格式或視覺設計慣例的指南」。",
       "sentenceIndex": 37,
@@ -1763,12 +1613,10 @@ export default {
         "style guide"
       ],
       "optionReasons": {
-        "style-mcq-15": "本句指「規定寫作、品牌、格式或視覺設計慣例的指南」。",
-        "style-mcq-14": "「寫作、標點、引用、格式等所遵循的規範」是「style — publishing convention」的用法，與本句語境不同。",
-        "style-mcq-16": "「控制文字／介面外觀的樣式或格式」是「style — computing」的用法，與本句語境不同。",
-        "style-mcq-13": "「把某人／某事描述、稱呼或包裝成某種形象」是「style someone/something as」的用法，與本句語境不同。",
-        "style-mcq-17": "「控制網頁或文件視覺呈現的樣式表」是「stylesheet」的用法，與本句語境不同。",
-        "style-mcq-12": "「為服裝、房間、產品等進行視覺造型或搭配」是「style — design/presentation verb」的用法，與本句語境不同。"
+        "style-mcq-15": "本句的「style guide」指「規定寫作、品牌、格式或視覺設計慣例的指南」。",
+        "style-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-15"
     },
@@ -1780,11 +1628,9 @@ export default {
       "masked": "Change the heading ____.",
       "options": [
         "style-mcq-16",
-        "style-mcq-15",
-        "style-mcq-17",
-        "style-mcq-14",
-        "style-mcq-18",
-        "style-mcq-13"
+        "style-mcq-09",
+        "style-mcq-25",
+        "style-mcq-26"
       ],
       "explanation": "本句的「style」指「控制文字／介面外觀的樣式或格式」。",
       "sentenceIndex": 38,
@@ -1793,12 +1639,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-16": "本句指「控制文字／介面外觀的樣式或格式」。",
-        "style-mcq-15": "「規定寫作、品牌、格式或視覺設計慣例的指南」是「style guide」的用法，與本句語境不同。",
-        "style-mcq-17": "「控制網頁或文件視覺呈現的樣式表」是「stylesheet」的用法，與本句語境不同。",
-        "style-mcq-14": "「寫作、標點、引用、格式等所遵循的規範」是「style — publishing convention」的用法，與本句語境不同。",
-        "style-mcq-18": "「花中連接柱頭與子房的花柱」是「style — botany」的用法，與本句語境不同。",
-        "style-mcq-13": "「把某人／某事描述、稱呼或包裝成某種形象」是「style someone/something as」的用法，與本句語境不同。"
+        "style-mcq-16": "本句的「style」指「控制文字／介面外觀的樣式或格式」。",
+        "style-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-16"
     },
@@ -1810,11 +1654,9 @@ export default {
       "masked": "The website uses a consistent visual ____.",
       "options": [
         "style-mcq-16",
-        "style-mcq-15",
-        "style-mcq-17",
-        "style-mcq-14",
+        "style-mcq-26",
         "style-mcq-18",
-        "style-mcq-13"
+        "style-mcq-03"
       ],
       "explanation": "本句的「style」指「控制文字／介面外觀的樣式或格式」。",
       "sentenceIndex": 39,
@@ -1823,12 +1665,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-16": "本句指「控制文字／介面外觀的樣式或格式」。",
-        "style-mcq-15": "「規定寫作、品牌、格式或視覺設計慣例的指南」是「style guide」的用法，與本句語境不同。",
-        "style-mcq-17": "「控制網頁或文件視覺呈現的樣式表」是「stylesheet」的用法，與本句語境不同。",
-        "style-mcq-14": "「寫作、標點、引用、格式等所遵循的規範」是「style — publishing convention」的用法，與本句語境不同。",
-        "style-mcq-18": "「花中連接柱頭與子房的花柱」是「style — botany」的用法，與本句語境不同。",
-        "style-mcq-13": "「把某人／某事描述、稱呼或包裝成某種形象」是「style someone/something as」的用法，與本句語境不同。"
+        "style-mcq-16": "本句的「style」指「控制文字／介面外觀的樣式或格式」。",
+        "style-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-16"
     },
@@ -1840,11 +1680,9 @@ export default {
       "masked": "The website uses an external ____.",
       "options": [
         "style-mcq-17",
-        "style-mcq-16",
-        "style-mcq-18",
-        "style-mcq-15",
-        "style-mcq-19",
-        "style-mcq-14"
+        "style-mcq-03",
+        "style-mcq-25",
+        "style-mcq-21"
       ],
       "explanation": "本句的「stylesheet」指「控制網頁或文件視覺呈現的樣式表」。",
       "sentenceIndex": 40,
@@ -1853,12 +1691,10 @@ export default {
         "stylesheet"
       ],
       "optionReasons": {
-        "style-mcq-17": "本句指「控制網頁或文件視覺呈現的樣式表」。",
-        "style-mcq-16": "「控制文字／介面外觀的樣式或格式」是「style — computing」的用法，與本句語境不同。",
-        "style-mcq-18": "「花中連接柱頭與子房的花柱」是「style — botany」的用法，與本句語境不同。",
-        "style-mcq-15": "「規定寫作、品牌、格式或視覺設計慣例的指南」是「style guide」的用法，與本句語境不同。",
-        "style-mcq-19": "「頭髮被剪裁或整理出的髮型」是「hairstyle」的用法，與本句語境不同。",
-        "style-mcq-14": "「寫作、標點、引用、格式等所遵循的規範」是「style — publishing convention」的用法，與本句語境不同。"
+        "style-mcq-17": "本句的「stylesheet」指「控制網頁或文件視覺呈現的樣式表」。",
+        "style-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-17"
     },
@@ -1870,11 +1706,9 @@ export default {
       "masked": "Edit the CSS ____ to change the layout.",
       "options": [
         "style-mcq-17",
-        "style-mcq-16",
-        "style-mcq-18",
-        "style-mcq-15",
-        "style-mcq-19",
-        "style-mcq-14"
+        "style-mcq-28",
+        "style-mcq-09",
+        "style-mcq-21"
       ],
       "explanation": "本句的「stylesheet」指「控制網頁或文件視覺呈現的樣式表」。",
       "sentenceIndex": 41,
@@ -1883,12 +1717,10 @@ export default {
         "stylesheet"
       ],
       "optionReasons": {
-        "style-mcq-17": "本句指「控制網頁或文件視覺呈現的樣式表」。",
-        "style-mcq-16": "「控制文字／介面外觀的樣式或格式」是「style — computing」的用法，與本句語境不同。",
-        "style-mcq-18": "「花中連接柱頭與子房的花柱」是「style — botany」的用法，與本句語境不同。",
-        "style-mcq-15": "「規定寫作、品牌、格式或視覺設計慣例的指南」是「style guide」的用法，與本句語境不同。",
-        "style-mcq-19": "「頭髮被剪裁或整理出的髮型」是「hairstyle」的用法，與本句語境不同。",
-        "style-mcq-14": "「寫作、標點、引用、格式等所遵循的規範」是「style — publishing convention」的用法，與本句語境不同。"
+        "style-mcq-17": "本句的「stylesheet」指「控制網頁或文件視覺呈現的樣式表」。",
+        "style-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-17"
     },
@@ -1900,11 +1732,9 @@ export default {
       "masked": "Pollen travels down the ____.",
       "options": [
         "style-mcq-18",
-        "style-mcq-17",
-        "style-mcq-19",
-        "style-mcq-16",
-        "style-mcq-20",
-        "style-mcq-15"
+        "style-mcq-01",
+        "style-mcq-14",
+        "style-mcq-08"
       ],
       "explanation": "本句的「style」指「花中連接柱頭與子房的花柱」。",
       "sentenceIndex": 42,
@@ -1913,12 +1743,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-18": "本句指「花中連接柱頭與子房的花柱」。",
-        "style-mcq-17": "「控制網頁或文件視覺呈現的樣式表」是「stylesheet」的用法，與本句語境不同。",
-        "style-mcq-19": "「頭髮被剪裁或整理出的髮型」是「hairstyle」的用法，與本句語境不同。",
-        "style-mcq-16": "「控制文字／介面外觀的樣式或格式」是「style — computing」的用法，與本句語境不同。",
-        "style-mcq-20": "「一個人或群體一貫的生活方式」是「lifestyle」的用法，與本句語境不同。",
-        "style-mcq-15": "「規定寫作、品牌、格式或視覺設計慣例的指南」是「style guide」的用法，與本句語境不同。"
+        "style-mcq-18": "本句的「style」指「花中連接柱頭與子房的花柱」。",
+        "style-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-18"
     },
@@ -1930,11 +1758,9 @@ export default {
       "masked": "The flower’s ____ connects the stigma to the ovary.",
       "options": [
         "style-mcq-18",
-        "style-mcq-17",
-        "style-mcq-19",
-        "style-mcq-16",
-        "style-mcq-20",
-        "style-mcq-15"
+        "style-mcq-01",
+        "style-mcq-08",
+        "style-mcq-14"
       ],
       "explanation": "本句的「style」指「花中連接柱頭與子房的花柱」。",
       "sentenceIndex": 43,
@@ -1943,12 +1769,10 @@ export default {
         "style"
       ],
       "optionReasons": {
-        "style-mcq-18": "本句指「花中連接柱頭與子房的花柱」。",
-        "style-mcq-17": "「控制網頁或文件視覺呈現的樣式表」是「stylesheet」的用法，與本句語境不同。",
-        "style-mcq-19": "「頭髮被剪裁或整理出的髮型」是「hairstyle」的用法，與本句語境不同。",
-        "style-mcq-16": "「控制文字／介面外觀的樣式或格式」是「style — computing」的用法，與本句語境不同。",
-        "style-mcq-20": "「一個人或群體一貫的生活方式」是「lifestyle」的用法，與本句語境不同。",
-        "style-mcq-15": "「規定寫作、品牌、格式或視覺設計慣例的指南」是「style guide」的用法，與本句語境不同。"
+        "style-mcq-18": "本句的「style」指「花中連接柱頭與子房的花柱」。",
+        "style-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-18"
     },
@@ -1960,10 +1784,8 @@ export default {
       "masked": "She wore a very ____ coat.",
       "options": [
         "style-mcq-21",
-        "style-mcq-20",
-        "style-mcq-22",
-        "style-mcq-19",
-        "style-mcq-23",
+        "style-mcq-13",
+        "style-mcq-25",
         "style-mcq-18"
       ],
       "explanation": "本句的「stylish」指「時尚、有型、有格調的」。",
@@ -1973,12 +1795,10 @@ export default {
         "stylish"
       ],
       "optionReasons": {
-        "style-mcq-21": "本句指「時尚、有型、有格調的」。",
-        "style-mcq-20": "「一個人或群體一貫的生活方式」是「lifestyle」的用法，與本句語境不同。",
-        "style-mcq-22": "「為服裝、髮型等進行造型的專業人士」是「stylist」的用法，與本句語境不同。",
-        "style-mcq-19": "「頭髮被剪裁或整理出的髮型」是「hairstyle」的用法，與本句語境不同。",
-        "style-mcq-23": "「與藝術、語言或文體風格有關的」是「stylistic」的用法，與本句語境不同。",
-        "style-mcq-18": "「花中連接柱頭與子房的花柱」是「style — botany」的用法，與本句語境不同。"
+        "style-mcq-21": "本句的「stylish」指「時尚、有型、有格調的」。",
+        "style-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-21"
     },
@@ -1990,11 +1810,9 @@ export default {
       "masked": "The apartment is small but ____.",
       "options": [
         "style-mcq-21",
-        "style-mcq-20",
-        "style-mcq-22",
-        "style-mcq-19",
-        "style-mcq-23",
-        "style-mcq-18"
+        "style-mcq-18",
+        "style-mcq-17",
+        "style-mcq-09"
       ],
       "explanation": "本句的「stylish」指「時尚、有型、有格調的」。",
       "sentenceIndex": 45,
@@ -2003,12 +1821,10 @@ export default {
         "stylish"
       ],
       "optionReasons": {
-        "style-mcq-21": "本句指「時尚、有型、有格調的」。",
-        "style-mcq-20": "「一個人或群體一貫的生活方式」是「lifestyle」的用法，與本句語境不同。",
-        "style-mcq-22": "「為服裝、髮型等進行造型的專業人士」是「stylist」的用法，與本句語境不同。",
-        "style-mcq-19": "「頭髮被剪裁或整理出的髮型」是「hairstyle」的用法，與本句語境不同。",
-        "style-mcq-23": "「與藝術、語言或文體風格有關的」是「stylistic」的用法，與本句語境不同。",
-        "style-mcq-18": "「花中連接柱頭與子房的花柱」是「style — botany」的用法，與本句語境不同。"
+        "style-mcq-21": "本句的「stylish」指「時尚、有型、有格調的」。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-21"
     },
@@ -2020,11 +1836,9 @@ export default {
       "masked": "The room was ____ decorated.",
       "options": [
         "style-mcq-21",
-        "style-mcq-20",
-        "style-mcq-22",
-        "style-mcq-19",
-        "style-mcq-23",
-        "style-mcq-18"
+        "style-mcq-27",
+        "style-mcq-25",
+        "style-mcq-08"
       ],
       "explanation": "本句的「stylishly」指「時尚、有型、有格調的」。",
       "sentenceIndex": 46,
@@ -2033,12 +1847,10 @@ export default {
         "stylishly"
       ],
       "optionReasons": {
-        "style-mcq-21": "本句指「時尚、有型、有格調的」。",
-        "style-mcq-20": "「一個人或群體一貫的生活方式」是「lifestyle」的用法，與本句語境不同。",
-        "style-mcq-22": "「為服裝、髮型等進行造型的專業人士」是「stylist」的用法，與本句語境不同。",
-        "style-mcq-19": "「頭髮被剪裁或整理出的髮型」是「hairstyle」的用法，與本句語境不同。",
-        "style-mcq-23": "「與藝術、語言或文體風格有關的」是「stylistic」的用法，與本句語境不同。",
-        "style-mcq-18": "「花中連接柱頭與子房的花柱」是「style — botany」的用法，與本句語境不同。"
+        "style-mcq-21": "本句的「stylishly」指「時尚、有型、有格調的」。",
+        "style-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-21"
     },
@@ -2051,10 +1863,8 @@ export default {
       "options": [
         "style-mcq-21",
         "style-mcq-20",
-        "style-mcq-22",
-        "style-mcq-19",
-        "style-mcq-23",
-        "style-mcq-18"
+        "style-mcq-17",
+        "style-mcq-25"
       ],
       "explanation": "本句的「stylishly」指「時尚、有型、有格調的」。",
       "sentenceIndex": 47,
@@ -2063,12 +1873,10 @@ export default {
         "stylishly"
       ],
       "optionReasons": {
-        "style-mcq-21": "本句指「時尚、有型、有格調的」。",
-        "style-mcq-20": "「一個人或群體一貫的生活方式」是「lifestyle」的用法，與本句語境不同。",
-        "style-mcq-22": "「為服裝、髮型等進行造型的專業人士」是「stylist」的用法，與本句語境不同。",
-        "style-mcq-19": "「頭髮被剪裁或整理出的髮型」是「hairstyle」的用法，與本句語境不同。",
-        "style-mcq-23": "「與藝術、語言或文體風格有關的」是「stylistic」的用法，與本句語境不同。",
-        "style-mcq-18": "「花中連接柱頭與子房的花柱」是「style — botany」的用法，與本句語境不同。"
+        "style-mcq-21": "本句的「stylishly」指「時尚、有型、有格調的」。",
+        "style-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-21"
     },
@@ -2080,11 +1888,9 @@ export default {
       "masked": "The two authors have clear ____.",
       "options": [
         "style-mcq-23",
-        "style-mcq-22",
-        "style-mcq-24",
-        "style-mcq-21",
-        "style-mcq-25",
-        "style-mcq-20"
+        "style-mcq-19",
+        "style-mcq-27",
+        "style-mcq-07"
       ],
       "explanation": "本句的「stylistic differences」指「與藝術、語言或文體風格有關的」。",
       "sentenceIndex": 48,
@@ -2093,12 +1899,10 @@ export default {
         "stylistic differences"
       ],
       "optionReasons": {
-        "style-mcq-23": "本句指「與藝術、語言或文體風格有關的」。",
-        "style-mcq-22": "「為服裝、髮型等進行造型的專業人士」是「stylist」的用法，與本句語境不同。",
-        "style-mcq-24": "「正在流行／時髦」是「in style — fashionable」的用法，與本句語境不同。",
-        "style-mcq-21": "「時尚、有型、有格調的」是「stylish」的用法，與本句語境不同。",
-        "style-mcq-25": "「有派頭地；隆重而漂亮地」是「in style — impressively」的用法，與本句語境不同。",
-        "style-mcq-20": "「一個人或群體一貫的生活方式」是「lifestyle」的用法，與本句語境不同。"
+        "style-mcq-23": "本句的「stylistic differences」指「與藝術、語言或文體風格有關的」。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-23"
     },
@@ -2110,11 +1914,9 @@ export default {
       "masked": "That was a ____.",
       "options": [
         "style-mcq-23",
-        "style-mcq-22",
-        "style-mcq-24",
-        "style-mcq-21",
-        "style-mcq-25",
-        "style-mcq-20"
+        "style-mcq-08",
+        "style-mcq-11",
+        "style-mcq-27"
       ],
       "explanation": "本句的「stylistic choice」指「與藝術、語言或文體風格有關的」。",
       "sentenceIndex": 49,
@@ -2123,12 +1925,10 @@ export default {
         "stylistic choice"
       ],
       "optionReasons": {
-        "style-mcq-23": "本句指「與藝術、語言或文體風格有關的」。",
-        "style-mcq-22": "「為服裝、髮型等進行造型的專業人士」是「stylist」的用法，與本句語境不同。",
-        "style-mcq-24": "「正在流行／時髦」是「in style — fashionable」的用法，與本句語境不同。",
-        "style-mcq-21": "「時尚、有型、有格調的」是「stylish」的用法，與本句語境不同。",
-        "style-mcq-25": "「有派頭地；隆重而漂亮地」是「in style — impressively」的用法，與本句語境不同。",
-        "style-mcq-20": "「一個人或群體一貫的生活方式」是「lifestyle」的用法，與本句語境不同。"
+        "style-mcq-23": "本句的「stylistic choice」指「與藝術、語言或文體風格有關的」。",
+        "style-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-23"
     },
@@ -2140,11 +1940,9 @@ export default {
       "masked": "The books are ____ similar.",
       "options": [
         "style-mcq-24",
-        "style-mcq-23",
-        "style-mcq-25",
-        "style-mcq-22",
-        "style-mcq-26",
-        "style-mcq-21"
+        "style-mcq-19",
+        "style-mcq-16",
+        "style-mcq-20"
       ],
       "explanation": "本句的「stylistically」指「正在流行／時髦」。",
       "sentenceIndex": 50,
@@ -2153,12 +1951,10 @@ export default {
         "stylistically"
       ],
       "optionReasons": {
-        "style-mcq-24": "本句指「正在流行／時髦」。",
-        "style-mcq-23": "「與藝術、語言或文體風格有關的」是「stylistic」的用法，與本句語境不同。",
-        "style-mcq-25": "「有派頭地；隆重而漂亮地」是「in style — impressively」的用法，與本句語境不同。",
-        "style-mcq-22": "「為服裝、髮型等進行造型的專業人士」是「stylist」的用法，與本句語境不同。",
-        "style-mcq-26": "「已不流行；過時」是「out of style」的用法，與本句語境不同。",
-        "style-mcq-21": "「時尚、有型、有格調的」是「stylish」的用法，與本句語境不同。"
+        "style-mcq-24": "本句的「stylistically」指「正在流行／時髦」。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-24"
     },
@@ -2170,11 +1966,9 @@ export default {
       "masked": "The film is ____ unusual.",
       "options": [
         "style-mcq-24",
-        "style-mcq-23",
-        "style-mcq-25",
-        "style-mcq-22",
-        "style-mcq-26",
-        "style-mcq-21"
+        "style-mcq-14",
+        "style-mcq-20",
+        "style-mcq-11"
       ],
       "explanation": "本句的「stylistically」指「正在流行／時髦」。",
       "sentenceIndex": 51,
@@ -2183,12 +1977,10 @@ export default {
         "stylistically"
       ],
       "optionReasons": {
-        "style-mcq-24": "本句指「正在流行／時髦」。",
-        "style-mcq-23": "「與藝術、語言或文體風格有關的」是「stylistic」的用法，與本句語境不同。",
-        "style-mcq-25": "「有派頭地；隆重而漂亮地」是「in style — impressively」的用法，與本句語境不同。",
-        "style-mcq-22": "「為服裝、髮型等進行造型的專業人士」是「stylist」的用法，與本句語境不同。",
-        "style-mcq-26": "「已不流行；過時」是「out of style」的用法，與本句語境不同。",
-        "style-mcq-21": "「時尚、有型、有格調的」是「stylish」的用法，與本句語境不同。"
+        "style-mcq-24": "本句的「stylistically」指「正在流行／時髦」。",
+        "style-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-24"
     },
@@ -2200,11 +1992,9 @@ export default {
       "masked": "That design has gone ____.",
       "options": [
         "style-mcq-26",
-        "style-mcq-25",
-        "style-mcq-27",
-        "style-mcq-24",
         "style-mcq-28",
-        "style-mcq-23"
+        "style-mcq-16",
+        "style-mcq-19"
       ],
       "explanation": "本句的「out of style」指「已不流行；過時」。",
       "sentenceIndex": 52,
@@ -2213,12 +2003,10 @@ export default {
         "out of style"
       ],
       "optionReasons": {
-        "style-mcq-26": "本句指「已不流行；過時」。",
-        "style-mcq-25": "「有派頭地；隆重而漂亮地」是「in style — impressively」的用法，與本句語境不同。",
-        "style-mcq-27": "「限制某人按自己習慣的方式發揮／做事」是「cramp someone’s style」的用法，與本句語境不同。",
-        "style-mcq-24": "「正在流行／時髦」是「in style — fashionable」的用法，與本句語境不同。",
-        "style-mcq-28": "「表示風格；方式；特色」是「Passage meaning」的用法，與本句語境不同。",
-        "style-mcq-23": "「與藝術、語言或文體風格有關的」是「stylistic」的用法，與本句語境不同。"
+        "style-mcq-26": "本句的「out of style」指「已不流行；過時」。",
+        "style-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-26"
     },
@@ -2230,11 +2018,9 @@ export default {
       "masked": "Some classic clothes never go ____.",
       "options": [
         "style-mcq-26",
-        "style-mcq-25",
-        "style-mcq-27",
-        "style-mcq-24",
-        "style-mcq-28",
-        "style-mcq-23"
+        "style-mcq-02",
+        "style-mcq-18",
+        "style-mcq-11"
       ],
       "explanation": "本句的「out of style」指「已不流行；過時」。",
       "sentenceIndex": 53,
@@ -2243,12 +2029,10 @@ export default {
         "out of style"
       ],
       "optionReasons": {
-        "style-mcq-26": "本句指「已不流行；過時」。",
-        "style-mcq-25": "「有派頭地；隆重而漂亮地」是「in style — impressively」的用法，與本句語境不同。",
-        "style-mcq-27": "「限制某人按自己習慣的方式發揮／做事」是「cramp someone’s style」的用法，與本句語境不同。",
-        "style-mcq-24": "「正在流行／時髦」是「in style — fashionable」的用法，與本句語境不同。",
-        "style-mcq-28": "「表示風格；方式；特色」是「Passage meaning」的用法，與本句語境不同。",
-        "style-mcq-23": "「與藝術、語言或文體風格有關的」是「stylistic」的用法，與本句語境不同。"
+        "style-mcq-26": "本句的「out of style」指「已不流行；過時」。",
+        "style-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-26"
     },
@@ -2261,10 +2045,8 @@ export default {
       "options": [
         "style-mcq-27",
         "style-mcq-26",
-        "style-mcq-28",
-        "style-mcq-25",
-        "style-mcq-24",
-        "style-mcq-23"
+        "style-mcq-19",
+        "style-mcq-21"
       ],
       "explanation": "本句的「cramp your style」指「限制某人按自己習慣的方式發揮／做事」。",
       "sentenceIndex": 54,
@@ -2273,12 +2055,10 @@ export default {
         "cramp your style"
       ],
       "optionReasons": {
-        "style-mcq-27": "本句指「限制某人按自己習慣的方式發揮／做事」。",
-        "style-mcq-26": "「已不流行；過時」是「out of style」的用法，與本句語境不同。",
-        "style-mcq-28": "「表示風格；方式；特色」是「Passage meaning」的用法，與本句語境不同。",
-        "style-mcq-25": "「有派頭地；隆重而漂亮地」是「in style — impressively」的用法，與本句語境不同。",
-        "style-mcq-24": "「正在流行／時髦」是「in style — fashionable」的用法，與本句語境不同。",
-        "style-mcq-23": "「與藝術、語言或文體風格有關的」是「stylistic」的用法，與本句語境不同。"
+        "style-mcq-27": "本句的「cramp your style」指「限制某人按自己習慣的方式發揮／做事」。",
+        "style-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-27"
     },
@@ -2290,11 +2070,9 @@ export default {
       "masked": "He preferred working alone because supervision ____.",
       "options": [
         "style-mcq-27",
+        "style-mcq-12",
         "style-mcq-26",
-        "style-mcq-28",
-        "style-mcq-25",
-        "style-mcq-24",
-        "style-mcq-23"
+        "style-mcq-19"
       ],
       "explanation": "本句的「cramped his style」指「限制某人按自己習慣的方式發揮／做事」。",
       "sentenceIndex": 55,
@@ -2303,12 +2081,10 @@ export default {
         "cramped his style"
       ],
       "optionReasons": {
-        "style-mcq-27": "本句指「限制某人按自己習慣的方式發揮／做事」。",
-        "style-mcq-26": "「已不流行；過時」是「out of style」的用法，與本句語境不同。",
-        "style-mcq-28": "「表示風格；方式；特色」是「Passage meaning」的用法，與本句語境不同。",
-        "style-mcq-25": "「有派頭地；隆重而漂亮地」是「in style — impressively」的用法，與本句語境不同。",
-        "style-mcq-24": "「正在流行／時髦」是「in style — fashionable」的用法，與本句語境不同。",
-        "style-mcq-23": "「與藝術、語言或文體風格有關的」是「stylistic」的用法，與本句語境不同。"
+        "style-mcq-27": "本句的「cramped his style」指「限制某人按自己習慣的方式發揮／做事」。",
+        "style-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-27"
     },
@@ -2320,11 +2096,9 @@ export default {
       "masked": "They finished the season ____.",
       "options": [
         "style-mcq-25",
-        "style-mcq-24",
-        "style-mcq-26",
-        "style-mcq-23",
+        "style-mcq-21",
         "style-mcq-27",
-        "style-mcq-22"
+        "style-mcq-24"
       ],
       "explanation": "本句的「in style」指「有派頭地；隆重而漂亮地」。",
       "sentenceIndex": 56,
@@ -2333,12 +2107,10 @@ export default {
         "in style"
       ],
       "optionReasons": {
-        "style-mcq-25": "本句指「有派頭地；隆重而漂亮地」。",
-        "style-mcq-24": "「正在流行／時髦」是「in style — fashionable」的用法，與本句語境不同。",
-        "style-mcq-26": "「已不流行；過時」是「out of style」的用法，與本句語境不同。",
-        "style-mcq-23": "「與藝術、語言或文體風格有關的」是「stylistic」的用法，與本句語境不同。",
-        "style-mcq-27": "「限制某人按自己習慣的方式發揮／做事」是「cramp someone’s style」的用法，與本句語境不同。",
-        "style-mcq-22": "「為服裝、髮型等進行造型的專業人士」是「stylist」的用法，與本句語境不同。"
+        "style-mcq-25": "本句的「in style」指「有派頭地；隆重而漂亮地」。",
+        "style-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-25"
     },
@@ -2350,11 +2122,9 @@ export default {
       "masked": "She arrived ____.",
       "options": [
         "style-mcq-25",
-        "style-mcq-24",
-        "style-mcq-26",
-        "style-mcq-23",
-        "style-mcq-27",
-        "style-mcq-22"
+        "style-mcq-14",
+        "style-mcq-01",
+        "style-mcq-07"
       ],
       "explanation": "本句的「in style」指「有派頭地；隆重而漂亮地」。",
       "sentenceIndex": 57,
@@ -2363,12 +2133,10 @@ export default {
         "in style"
       ],
       "optionReasons": {
-        "style-mcq-25": "本句指「有派頭地；隆重而漂亮地」。",
-        "style-mcq-24": "「正在流行／時髦」是「in style — fashionable」的用法，與本句語境不同。",
-        "style-mcq-26": "「已不流行；過時」是「out of style」的用法，與本句語境不同。",
-        "style-mcq-23": "「與藝術、語言或文體風格有關的」是「stylistic」的用法，與本句語境不同。",
-        "style-mcq-27": "「限制某人按自己習慣的方式發揮／做事」是「cramp someone’s style」的用法，與本句語境不同。",
-        "style-mcq-22": "「為服裝、髮型等進行造型的專業人士」是「stylist」的用法，與本句語境不同。"
+        "style-mcq-25": "本句的「in style」指「有派頭地；隆重而漂亮地」。",
+        "style-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "style-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "style-mcq-25"
     }
@@ -2380,5 +2148,7 @@ export default {
     "sha256": "35d2df3c779a4809f473ae915857d2f38193c808145a0a4801deb91230c9c280",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

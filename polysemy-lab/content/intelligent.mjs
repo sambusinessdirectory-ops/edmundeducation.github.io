@@ -424,11 +424,7 @@ export default {
       "masked": "She is highly ____, but what impressed me most was how clearly she explained difficult ideas.",
       "options": [
         "intelligent-mcq-01",
-        "intelligent-mcq-02",
-        "intelligent-mcq-03",
-        "intelligent-mcq-04",
-        "intelligent-mcq-05",
-        "intelligent-mcq-06"
+        "intelligent-mcq-17"
       ],
       "explanation": "本句的「intelligent」指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
       "sentenceIndex": 0,
@@ -437,12 +433,8 @@ export default {
         "intelligent"
       ],
       "optionReasons": {
-        "intelligent-mcq-01": "本句指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
-        "intelligent-mcq-02": "「某個決定、答案或做法顯示出良好思考和判斷；明智的」與本句語境不同。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。"
+        "intelligent-mcq-01": "本句的「intelligent」指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-01"
     },
@@ -454,11 +446,7 @@ export default {
       "masked": "An ____ person does not just know facts; they also know how to use what they know.",
       "options": [
         "intelligent-mcq-01",
-        "intelligent-mcq-02",
-        "intelligent-mcq-03",
-        "intelligent-mcq-04",
-        "intelligent-mcq-05",
-        "intelligent-mcq-06"
+        "intelligent-mcq-17"
       ],
       "explanation": "本句的「intelligent」指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
       "sentenceIndex": 1,
@@ -467,12 +455,8 @@ export default {
         "intelligent"
       ],
       "optionReasons": {
-        "intelligent-mcq-01": "本句指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
-        "intelligent-mcq-02": "「某個決定、答案或做法顯示出良好思考和判斷；明智的」與本句語境不同。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。"
+        "intelligent-mcq-01": "本句的「intelligent」指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-01"
     },
@@ -484,11 +468,7 @@ export default {
       "masked": "She is an extremely ____.",
       "options": [
         "intelligent-mcq-01",
-        "intelligent-mcq-02",
-        "intelligent-mcq-03",
-        "intelligent-mcq-04",
-        "intelligent-mcq-05",
-        "intelligent-mcq-06"
+        "intelligent-mcq-17"
       ],
       "explanation": "本句的「intelligent student」指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
       "sentenceIndex": 2,
@@ -497,12 +477,8 @@ export default {
         "intelligent student"
       ],
       "optionReasons": {
-        "intelligent-mcq-01": "本句指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
-        "intelligent-mcq-02": "「某個決定、答案或做法顯示出良好思考和判斷；明智的」與本句語境不同。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。"
+        "intelligent-mcq-01": "本句的「intelligent student」指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-01"
     },
@@ -514,11 +490,7 @@ export default {
       "masked": "He is ____.",
       "options": [
         "intelligent-mcq-01",
-        "intelligent-mcq-02",
-        "intelligent-mcq-03",
-        "intelligent-mcq-04",
-        "intelligent-mcq-05",
-        "intelligent-mcq-06"
+        "intelligent-mcq-17"
       ],
       "explanation": "本句的「intelligent enough to understand the problem quickly」指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
       "sentenceIndex": 3,
@@ -527,12 +499,8 @@ export default {
         "intelligent enough to understand the problem quickly"
       ],
       "optionReasons": {
-        "intelligent-mcq-01": "本句指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
-        "intelligent-mcq-02": "「某個決定、答案或做法顯示出良好思考和判斷；明智的」與本句語境不同。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。"
+        "intelligent-mcq-01": "本句的「intelligent enough to understand the problem quickly」指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-01"
     },
@@ -544,11 +512,7 @@ export default {
       "masked": "She is one of the most ____ I know.",
       "options": [
         "intelligent-mcq-01",
-        "intelligent-mcq-02",
-        "intelligent-mcq-03",
-        "intelligent-mcq-04",
-        "intelligent-mcq-05",
-        "intelligent-mcq-06"
+        "intelligent-mcq-17"
       ],
       "explanation": "本句的「intelligent people」指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
       "sentenceIndex": 4,
@@ -557,12 +521,8 @@ export default {
         "intelligent people"
       ],
       "optionReasons": {
-        "intelligent-mcq-01": "本句指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
-        "intelligent-mcq-02": "「某個決定、答案或做法顯示出良好思考和判斷；明智的」與本句語境不同。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。"
+        "intelligent-mcq-01": "本句的「intelligent people」指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-01"
     },
@@ -574,11 +534,7 @@ export default {
       "masked": "Being ____ does not mean knowing everything.",
       "options": [
         "intelligent-mcq-01",
-        "intelligent-mcq-02",
-        "intelligent-mcq-03",
-        "intelligent-mcq-04",
-        "intelligent-mcq-05",
-        "intelligent-mcq-06"
+        "intelligent-mcq-17"
       ],
       "explanation": "本句的「intelligent」指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
       "sentenceIndex": 5,
@@ -587,12 +543,8 @@ export default {
         "intelligent"
       ],
       "optionReasons": {
-        "intelligent-mcq-01": "本句指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
-        "intelligent-mcq-02": "「某個決定、答案或做法顯示出良好思考和判斷；明智的」與本句語境不同。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。"
+        "intelligent-mcq-01": "本句的「intelligent」指「理解、學習、推理和解決問題能力強；聰明的／有智慧的」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-01"
     },
@@ -604,11 +556,8 @@ export default {
       "masked": "That was an ____.",
       "options": [
         "intelligent-mcq-02",
-        "intelligent-mcq-01",
-        "intelligent-mcq-03",
-        "intelligent-mcq-04",
-        "intelligent-mcq-05",
-        "intelligent-mcq-06"
+        "intelligent-mcq-11",
+        "intelligent-mcq-12"
       ],
       "explanation": "本句的「intelligent decision」指「某個決定、答案或做法顯示出良好思考和判斷；明智的」。",
       "sentenceIndex": 6,
@@ -617,12 +566,9 @@ export default {
         "intelligent decision"
       ],
       "optionReasons": {
-        "intelligent-mcq-02": "本句指「某個決定、答案或做法顯示出良好思考和判斷；明智的」。",
-        "intelligent-mcq-01": "「理解、學習、推理和解決問題能力強；聰明的／有智慧的」與本句語境不同。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。"
+        "intelligent-mcq-02": "本句的「intelligent decision」指「某個決定、答案或做法顯示出良好思考和判斷；明智的」。",
+        "intelligent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-02"
     },
@@ -634,11 +580,8 @@ export default {
       "masked": "She gave an ____ to a difficult question.",
       "options": [
         "intelligent-mcq-02",
-        "intelligent-mcq-01",
-        "intelligent-mcq-03",
-        "intelligent-mcq-04",
-        "intelligent-mcq-05",
-        "intelligent-mcq-06"
+        "intelligent-mcq-11",
+        "intelligent-mcq-12"
       ],
       "explanation": "本句的「intelligent answer」指「某個決定、答案或做法顯示出良好思考和判斷；明智的」。",
       "sentenceIndex": 7,
@@ -647,12 +590,9 @@ export default {
         "intelligent answer"
       ],
       "optionReasons": {
-        "intelligent-mcq-02": "本句指「某個決定、答案或做法顯示出良好思考和判斷；明智的」。",
-        "intelligent-mcq-01": "「理解、學習、推理和解決問題能力強；聰明的／有智慧的」與本句語境不同。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。"
+        "intelligent-mcq-02": "本句的「intelligent answer」指「某個決定、答案或做法顯示出良好思考和判斷；明智的」。",
+        "intelligent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-02"
     },
@@ -664,11 +604,9 @@ export default {
       "masked": "Using both methods was an ____.",
       "options": [
         "intelligent-mcq-03",
-        "intelligent-mcq-02",
-        "intelligent-mcq-04",
-        "intelligent-mcq-01",
-        "intelligent-mcq-05",
-        "intelligent-mcq-06"
+        "intelligent-mcq-17",
+        "intelligent-mcq-11",
+        "intelligent-mcq-12"
       ],
       "explanation": "本句的「intelligent choice」指「根據良好推理作出的聰明／有效選擇或解決方法」。",
       "sentenceIndex": 8,
@@ -677,12 +615,10 @@ export default {
         "intelligent choice"
       ],
       "optionReasons": {
-        "intelligent-mcq-03": "本句指「根據良好推理作出的聰明／有效選擇或解決方法」。",
-        "intelligent-mcq-02": "「某個決定、答案或做法顯示出良好思考和判斷；明智的」與本句語境不同。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。",
-        "intelligent-mcq-01": "「理解、學習、推理和解決問題能力強；聰明的／有智慧的」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。"
+        "intelligent-mcq-03": "本句的「intelligent choice」指「根據良好推理作出的聰明／有效選擇或解決方法」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-03"
     },
@@ -694,11 +630,9 @@ export default {
       "masked": "The team found an ____ to the problem.",
       "options": [
         "intelligent-mcq-03",
-        "intelligent-mcq-02",
-        "intelligent-mcq-04",
-        "intelligent-mcq-01",
-        "intelligent-mcq-05",
-        "intelligent-mcq-06"
+        "intelligent-mcq-12",
+        "intelligent-mcq-17",
+        "intelligent-mcq-11"
       ],
       "explanation": "本句的「intelligent solution」指「根據良好推理作出的聰明／有效選擇或解決方法」。",
       "sentenceIndex": 9,
@@ -707,12 +641,10 @@ export default {
         "intelligent solution"
       ],
       "optionReasons": {
-        "intelligent-mcq-03": "本句指「根據良好推理作出的聰明／有效選擇或解決方法」。",
-        "intelligent-mcq-02": "「某個決定、答案或做法顯示出良好思考和判斷；明智的」與本句語境不同。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。",
-        "intelligent-mcq-01": "「理解、學習、推理和解決問題能力強；聰明的／有智慧的」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。"
+        "intelligent-mcq-03": "本句的「intelligent solution」指「根據良好推理作出的聰明／有效選擇或解決方法」。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-03"
     },
@@ -724,11 +656,7 @@ export default {
       "masked": "The building has an ____.",
       "options": [
         "intelligent-mcq-04",
-        "intelligent-mcq-03",
-        "intelligent-mcq-05",
-        "intelligent-mcq-02",
-        "intelligent-mcq-06",
-        "intelligent-mcq-01"
+        "intelligent-mcq-11"
       ],
       "explanation": "本句的「intelligent lighting system」指「能處理資訊、作出判斷或適應情況的智能系統／機器」。",
       "sentenceIndex": 10,
@@ -737,12 +665,8 @@ export default {
         "intelligent lighting system"
       ],
       "optionReasons": {
-        "intelligent-mcq-04": "本句指「能處理資訊、作出判斷或適應情況的智能系統／機器」。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-02": "「某個決定、答案或做法顯示出良好思考和判斷；明智的」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。",
-        "intelligent-mcq-01": "「理解、學習、推理和解決問題能力強；聰明的／有智慧的」與本句語境不同。"
+        "intelligent-mcq-04": "本句的「intelligent lighting system」指「能處理資訊、作出判斷或適應情況的智能系統／機器」。",
+        "intelligent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-04"
     },
@@ -754,11 +678,7 @@ export default {
       "masked": "The software uses an ____.",
       "options": [
         "intelligent-mcq-04",
-        "intelligent-mcq-03",
-        "intelligent-mcq-05",
-        "intelligent-mcq-02",
-        "intelligent-mcq-06",
-        "intelligent-mcq-01"
+        "intelligent-mcq-11"
       ],
       "explanation": "本句的「intelligent search function」指「能處理資訊、作出判斷或適應情況的智能系統／機器」。",
       "sentenceIndex": 11,
@@ -767,12 +687,8 @@ export default {
         "intelligent search function"
       ],
       "optionReasons": {
-        "intelligent-mcq-04": "本句指「能處理資訊、作出判斷或適應情況的智能系統／機器」。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-02": "「某個決定、答案或做法顯示出良好思考和判斷；明智的」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。",
-        "intelligent-mcq-01": "「理解、學習、推理和解決問題能力強；聰明的／有智慧的」與本句語境不同。"
+        "intelligent-mcq-04": "本句的「intelligent search function」指「能處理資訊、作出判斷或適應情況的智能系統／機器」。",
+        "intelligent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-04"
     },
@@ -784,11 +700,7 @@ export default {
       "masked": "Engineers are developing more ____.",
       "options": [
         "intelligent-mcq-04",
-        "intelligent-mcq-03",
-        "intelligent-mcq-05",
-        "intelligent-mcq-02",
-        "intelligent-mcq-06",
-        "intelligent-mcq-01"
+        "intelligent-mcq-05"
       ],
       "explanation": "本句的「intelligent machines」指「能處理資訊、作出判斷或適應情況的智能系統／機器」。",
       "sentenceIndex": 12,
@@ -797,12 +709,8 @@ export default {
         "intelligent machines"
       ],
       "optionReasons": {
-        "intelligent-mcq-04": "本句指「能處理資訊、作出判斷或適應情況的智能系統／機器」。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-02": "「某個決定、答案或做法顯示出良好思考和判斷；明智的」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。",
-        "intelligent-mcq-01": "「理解、學習、推理和解決問題能力強；聰明的／有智慧的」與本句語境不同。"
+        "intelligent-mcq-04": "本句的「intelligent machines」指「能處理資訊、作出判斷或適應情況的智能系統／機器」。",
+        "intelligent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-04"
     },
@@ -814,11 +722,7 @@ export default {
       "masked": "The system uses ____ to detect patterns.",
       "options": [
         "intelligent-mcq-04",
-        "intelligent-mcq-03",
-        "intelligent-mcq-05",
-        "intelligent-mcq-02",
-        "intelligent-mcq-06",
-        "intelligent-mcq-01"
+        "intelligent-mcq-11"
       ],
       "explanation": "本句的「intelligent software」指「能處理資訊、作出判斷或適應情況的智能系統／機器」。",
       "sentenceIndex": 13,
@@ -827,12 +731,8 @@ export default {
         "intelligent software"
       ],
       "optionReasons": {
-        "intelligent-mcq-04": "本句指「能處理資訊、作出判斷或適應情況的智能系統／機器」。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-02": "「某個決定、答案或做法顯示出良好思考和判斷；明智的」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。",
-        "intelligent-mcq-01": "「理解、學習、推理和解決問題能力強；聰明的／有智慧的」與本句語境不同。"
+        "intelligent-mcq-04": "本句的「intelligent software」指「能處理資訊、作出判斷或適應情況的智能系統／機器」。",
+        "intelligent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-04"
     },
@@ -844,11 +744,8 @@ export default {
       "masked": "Dolphins are highly ____.",
       "options": [
         "intelligent-mcq-05",
-        "intelligent-mcq-04",
-        "intelligent-mcq-06",
-        "intelligent-mcq-03",
-        "intelligent-mcq-07",
-        "intelligent-mcq-02"
+        "intelligent-mcq-12",
+        "intelligent-mcq-17"
       ],
       "explanation": "本句的「intelligent animals」指「學習、記憶或解決問題能力較強的動物」。",
       "sentenceIndex": 16,
@@ -857,12 +754,9 @@ export default {
         "intelligent animals"
       ],
       "optionReasons": {
-        "intelligent-mcq-05": "本句指「學習、記憶或解決問題能力較強的動物」。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。",
-        "intelligent-mcq-07": "「理解、學習、推理、解決問題與判斷的能力；智力／智慧」與本句語境不同。",
-        "intelligent-mcq-02": "「某個決定、答案或做法顯示出良好思考和判斷；明智的」與本句語境不同。"
+        "intelligent-mcq-05": "本句的「intelligent animals」指「學習、記憶或解決問題能力較強的動物」。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-05"
     },
@@ -874,11 +768,7 @@ export default {
       "masked": "Crows are surprisingly ____.",
       "options": [
         "intelligent-mcq-05",
-        "intelligent-mcq-04",
-        "intelligent-mcq-06",
-        "intelligent-mcq-03",
-        "intelligent-mcq-07",
-        "intelligent-mcq-02"
+        "intelligent-mcq-04"
       ],
       "explanation": "本句的「intelligent」指「學習、記憶或解決問題能力較強的動物」。",
       "sentenceIndex": 17,
@@ -887,12 +777,8 @@ export default {
         "intelligent"
       ],
       "optionReasons": {
-        "intelligent-mcq-05": "本句指「學習、記憶或解決問題能力較強的動物」。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。",
-        "intelligent-mcq-07": "「理解、學習、推理、解決問題與判斷的能力；智力／智慧」與本句語境不同。",
-        "intelligent-mcq-02": "「某個決定、答案或做法顯示出良好思考和判斷；明智的」與本句語境不同。"
+        "intelligent-mcq-05": "本句的「intelligent」指「學習、記憶或解決問題能力較強的動物」。",
+        "intelligent-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-05"
     },
@@ -905,10 +791,7 @@ export default {
       "options": [
         "intelligent-mcq-06",
         "intelligent-mcq-05",
-        "intelligent-mcq-07",
-        "intelligent-mcq-04",
-        "intelligent-mcq-08",
-        "intelligent-mcq-03"
+        "intelligent-mcq-12"
       ],
       "explanation": "本句的「intelligent expression」指「看起來敏銳、聰慧或有思考力的神情／面貌」。",
       "sentenceIndex": 18,
@@ -917,12 +800,9 @@ export default {
         "intelligent expression"
       ],
       "optionReasons": {
-        "intelligent-mcq-06": "本句指「看起來敏銳、聰慧或有思考力的神情／面貌」。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-07": "「理解、學習、推理、解決問題與判斷的能力；智力／智慧」與本句語境不同。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。",
-        "intelligent-mcq-08": "「在真實生活中有效分析情況並解決問題的能力；實際智慧」與本句語境不同。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。"
+        "intelligent-mcq-06": "本句的「intelligent expression」指「看起來敏銳、聰慧或有思考力的神情／面貌」。",
+        "intelligent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-06"
     },
@@ -934,11 +814,8 @@ export default {
       "masked": "He has an ____.",
       "options": [
         "intelligent-mcq-06",
-        "intelligent-mcq-05",
-        "intelligent-mcq-07",
-        "intelligent-mcq-04",
-        "intelligent-mcq-08",
-        "intelligent-mcq-03"
+        "intelligent-mcq-10",
+        "intelligent-mcq-12"
       ],
       "explanation": "本句的「intelligent-looking face」指「看起來敏銳、聰慧或有思考力的神情／面貌」。",
       "sentenceIndex": 19,
@@ -947,12 +824,9 @@ export default {
         "intelligent-looking face"
       ],
       "optionReasons": {
-        "intelligent-mcq-06": "本句指「看起來敏銳、聰慧或有思考力的神情／面貌」。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-07": "「理解、學習、推理、解決問題與判斷的能力；智力／智慧」與本句語境不同。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。",
-        "intelligent-mcq-08": "「在真實生活中有效分析情況並解決問題的能力；實際智慧」與本句語境不同。",
-        "intelligent-mcq-03": "「根據良好推理作出的聰明／有效選擇或解決方法」與本句語境不同。"
+        "intelligent-mcq-06": "本句的「intelligent-looking face」指「看起來敏銳、聰慧或有思考力的神情／面貌」。",
+        "intelligent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-06"
     },
@@ -964,11 +838,7 @@ export default {
       "masked": "Her practical ____ impressed me most.",
       "options": [
         "intelligent-mcq-07",
-        "intelligent-mcq-06",
-        "intelligent-mcq-08",
-        "intelligent-mcq-05",
-        "intelligent-mcq-09",
-        "intelligent-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「intelligence」指「理解、學習、推理、解決問題與判斷的能力；智力／智慧」。",
       "sentenceIndex": 20,
@@ -977,12 +847,8 @@ export default {
         "intelligence"
       ],
       "optionReasons": {
-        "intelligent-mcq-07": "本句指「理解、學習、推理、解決問題與判斷的能力；智力／智慧」。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。",
-        "intelligent-mcq-08": "「在真實生活中有效分析情況並解決問題的能力；實際智慧」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。",
-        "intelligent-mcq-09": "「辨識、理解及管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "intelligent-mcq-04": "「能處理資訊、作出判斷或適應情況的智能系統／機器」與本句語境不同。"
+        "intelligent-mcq-07": "本句的「intelligence」指「理解、學習、推理、解決問題與判斷的能力；智力／智慧」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-07"
     },
@@ -994,11 +860,7 @@ export default {
       "masked": "She had strong ____.",
       "options": [
         "intelligent-mcq-08",
-        "intelligent-mcq-07",
-        "intelligent-mcq-09",
-        "intelligent-mcq-06",
-        "intelligent-mcq-10",
-        "intelligent-mcq-05"
+        "intelligent-mcq-17"
       ],
       "explanation": "本句的「practical intelligence」指「在真實生活中有效分析情況並解決問題的能力；實際智慧」。",
       "sentenceIndex": 21,
@@ -1007,12 +869,8 @@ export default {
         "practical intelligence"
       ],
       "optionReasons": {
-        "intelligent-mcq-08": "本句指「在真實生活中有效分析情況並解決問題的能力；實際智慧」。",
-        "intelligent-mcq-07": "「理解、學習、推理、解決問題與判斷的能力；智力／智慧」與本句語境不同。",
-        "intelligent-mcq-09": "「辨識、理解及管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。",
-        "intelligent-mcq-10": "「理解人際互動並在社交情境中作出適當反應的能力」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。"
+        "intelligent-mcq-08": "本句的「practical intelligence」指「在真實生活中有效分析情況並解決問題的能力；實際智慧」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-08"
     },
@@ -1024,11 +882,7 @@ export default {
       "masked": "____ helps people solve everyday problems.",
       "options": [
         "intelligent-mcq-08",
-        "intelligent-mcq-07",
-        "intelligent-mcq-09",
-        "intelligent-mcq-06",
-        "intelligent-mcq-10",
-        "intelligent-mcq-05"
+        "intelligent-mcq-17"
       ],
       "explanation": "本句的「Practical intelligence」指「在真實生活中有效分析情況並解決問題的能力；實際智慧」。",
       "sentenceIndex": 22,
@@ -1037,12 +891,8 @@ export default {
         "Practical intelligence"
       ],
       "optionReasons": {
-        "intelligent-mcq-08": "本句指「在真實生活中有效分析情況並解決問題的能力；實際智慧」。",
-        "intelligent-mcq-07": "「理解、學習、推理、解決問題與判斷的能力；智力／智慧」與本句語境不同。",
-        "intelligent-mcq-09": "「辨識、理解及管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。",
-        "intelligent-mcq-10": "「理解人際互動並在社交情境中作出適當反應的能力」與本句語境不同。",
-        "intelligent-mcq-05": "「學習、記憶或解決問題能力較強的動物」與本句語境不同。"
+        "intelligent-mcq-08": "本句的「Practical intelligence」指「在真實生活中有效分析情況並解決問題的能力；實際智慧」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-08"
     },
@@ -1054,11 +904,8 @@ export default {
       "masked": "Good teachers often need strong ____.",
       "options": [
         "intelligent-mcq-09",
-        "intelligent-mcq-08",
-        "intelligent-mcq-10",
-        "intelligent-mcq-07",
-        "intelligent-mcq-11",
-        "intelligent-mcq-06"
+        "intelligent-mcq-17",
+        "intelligent-mcq-03"
       ],
       "explanation": "本句的「emotional intelligence」指「辨識、理解及管理自己與他人情緒的能力；情緒智慧」。",
       "sentenceIndex": 23,
@@ -1067,12 +914,9 @@ export default {
         "emotional intelligence"
       ],
       "optionReasons": {
-        "intelligent-mcq-09": "本句指「辨識、理解及管理自己與他人情緒的能力；情緒智慧」。",
-        "intelligent-mcq-08": "「在真實生活中有效分析情況並解決問題的能力；實際智慧」與本句語境不同。",
-        "intelligent-mcq-10": "「理解人際互動並在社交情境中作出適當反應的能力」與本句語境不同。",
-        "intelligent-mcq-07": "「理解、學習、推理、解決問題與判斷的能力；智力／智慧」與本句語境不同。",
-        "intelligent-mcq-11": "「在正式學習、分析與學術知識方面展現的強大能力」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。"
+        "intelligent-mcq-09": "本句的「emotional intelligence」指「辨識、理解及管理自己與他人情緒的能力；情緒智慧」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-09"
     },
@@ -1084,11 +928,8 @@ export default {
       "masked": "Her ____ helped her notice when students were confused or anxious.",
       "options": [
         "intelligent-mcq-09",
-        "intelligent-mcq-08",
-        "intelligent-mcq-10",
-        "intelligent-mcq-07",
-        "intelligent-mcq-11",
-        "intelligent-mcq-06"
+        "intelligent-mcq-17",
+        "intelligent-mcq-03"
       ],
       "explanation": "本句的「emotional intelligence」指「辨識、理解及管理自己與他人情緒的能力；情緒智慧」。",
       "sentenceIndex": 24,
@@ -1097,12 +938,9 @@ export default {
         "emotional intelligence"
       ],
       "optionReasons": {
-        "intelligent-mcq-09": "本句指「辨識、理解及管理自己與他人情緒的能力；情緒智慧」。",
-        "intelligent-mcq-08": "「在真實生活中有效分析情況並解決問題的能力；實際智慧」與本句語境不同。",
-        "intelligent-mcq-10": "「理解人際互動並在社交情境中作出適當反應的能力」與本句語境不同。",
-        "intelligent-mcq-07": "「理解、學習、推理、解決問題與判斷的能力；智力／智慧」與本句語境不同。",
-        "intelligent-mcq-11": "「在正式學習、分析與學術知識方面展現的強大能力」與本句語境不同。",
-        "intelligent-mcq-06": "「看起來敏銳、聰慧或有思考力的神情／面貌」與本句語境不同。"
+        "intelligent-mcq-09": "本句的「emotional intelligence」指「辨識、理解及管理自己與他人情緒的能力；情緒智慧」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-09"
     },
@@ -1114,11 +952,9 @@ export default {
       "masked": "____ is changing many industries.",
       "options": [
         "intelligent-mcq-12",
-        "intelligent-mcq-11",
-        "intelligent-mcq-13",
-        "intelligent-mcq-10",
-        "intelligent-mcq-14",
-        "intelligent-mcq-09"
+        "intelligent-mcq-03",
+        "intelligent-mcq-17",
+        "intelligent-mcq-11"
       ],
       "explanation": "本句的「Artificial intelligence」指「使電腦／機器執行類似人類智能任務的技術；人工智慧」。",
       "sentenceIndex": 25,
@@ -1127,12 +963,10 @@ export default {
         "Artificial intelligence"
       ],
       "optionReasons": {
-        "intelligent-mcq-12": "本句指「使電腦／機器執行類似人類智能任務的技術；人工智慧」。",
-        "intelligent-mcq-11": "「在正式學習、分析與學術知識方面展現的強大能力」與本句語境不同。",
-        "intelligent-mcq-13": "「以有思考、有判斷力或有效的方式」與本句語境不同。",
-        "intelligent-mcq-10": "「理解人際互動並在社交情境中作出適當反應的能力」與本句語境不同。",
-        "intelligent-mcq-14": "「缺乏良好思考、理解或判斷能力的」與本句語境不同。",
-        "intelligent-mcq-09": "「辨識、理解及管理自己與他人情緒的能力；情緒智慧」與本句語境不同。"
+        "intelligent-mcq-12": "本句的「Artificial intelligence」指「使電腦／機器執行類似人類智能任務的技術；人工智慧」。",
+        "intelligent-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-12"
     },
@@ -1144,11 +978,8 @@ export default {
       "masked": "The software uses ____ to analyze data.",
       "options": [
         "intelligent-mcq-12",
-        "intelligent-mcq-11",
-        "intelligent-mcq-13",
         "intelligent-mcq-10",
-        "intelligent-mcq-14",
-        "intelligent-mcq-09"
+        "intelligent-mcq-17"
       ],
       "explanation": "本句的「artificial intelligence」指「使電腦／機器執行類似人類智能任務的技術；人工智慧」。",
       "sentenceIndex": 26,
@@ -1157,12 +988,9 @@ export default {
         "artificial intelligence"
       ],
       "optionReasons": {
-        "intelligent-mcq-12": "本句指「使電腦／機器執行類似人類智能任務的技術；人工智慧」。",
-        "intelligent-mcq-11": "「在正式學習、分析與學術知識方面展現的強大能力」與本句語境不同。",
-        "intelligent-mcq-13": "「以有思考、有判斷力或有效的方式」與本句語境不同。",
-        "intelligent-mcq-10": "「理解人際互動並在社交情境中作出適當反應的能力」與本句語境不同。",
-        "intelligent-mcq-14": "「缺乏良好思考、理解或判斷能力的」與本句語境不同。",
-        "intelligent-mcq-09": "「辨識、理解及管理自己與他人情緒的能力；情緒智慧」與本句語境不同。"
+        "intelligent-mcq-12": "本句的「artificial intelligence」指「使電腦／機器執行類似人類智能任務的技術；人工智慧」。",
+        "intelligent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-12"
     },
@@ -1175,10 +1003,7 @@ export default {
       "options": [
         "intelligent-mcq-13",
         "intelligent-mcq-12",
-        "intelligent-mcq-14",
-        "intelligent-mcq-11",
-        "intelligent-mcq-15",
-        "intelligent-mcq-10"
+        "intelligent-mcq-11"
       ],
       "explanation": "本句的「intelligently」指「以有思考、有判斷力或有效的方式」。",
       "sentenceIndex": 27,
@@ -1187,12 +1012,9 @@ export default {
         "intelligently"
       ],
       "optionReasons": {
-        "intelligent-mcq-13": "本句指「以有思考、有判斷力或有效的方式」。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。",
-        "intelligent-mcq-14": "「缺乏良好思考、理解或判斷能力的」與本句語境不同。",
-        "intelligent-mcq-11": "「在正式學習、分析與學術知識方面展現的強大能力」與本句語境不同。",
-        "intelligent-mcq-15": "「智力、理解與推理能力非常強的」與本句語境不同。",
-        "intelligent-mcq-10": "「理解人際互動並在社交情境中作出適當反應的能力」與本句語境不同。"
+        "intelligent-mcq-13": "本句的「intelligently」指「以有思考、有判斷力或有效的方式」。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-13"
     },
@@ -1205,10 +1027,7 @@ export default {
       "options": [
         "intelligent-mcq-13",
         "intelligent-mcq-12",
-        "intelligent-mcq-14",
-        "intelligent-mcq-11",
-        "intelligent-mcq-15",
-        "intelligent-mcq-10"
+        "intelligent-mcq-11"
       ],
       "explanation": "本句的「intelligently」指「以有思考、有判斷力或有效的方式」。",
       "sentenceIndex": 28,
@@ -1217,12 +1036,9 @@ export default {
         "intelligently"
       ],
       "optionReasons": {
-        "intelligent-mcq-13": "本句指「以有思考、有判斷力或有效的方式」。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。",
-        "intelligent-mcq-14": "「缺乏良好思考、理解或判斷能力的」與本句語境不同。",
-        "intelligent-mcq-11": "「在正式學習、分析與學術知識方面展現的強大能力」與本句語境不同。",
-        "intelligent-mcq-15": "「智力、理解與推理能力非常強的」與本句語境不同。",
-        "intelligent-mcq-10": "「理解人際互動並在社交情境中作出適當反應的能力」與本句語境不同。"
+        "intelligent-mcq-13": "本句的「intelligently」指「以有思考、有判斷力或有效的方式」。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-13"
     },
@@ -1234,11 +1050,7 @@ export default {
       "masked": "That was an ____.",
       "options": [
         "intelligent-mcq-14",
-        "intelligent-mcq-13",
-        "intelligent-mcq-15",
-        "intelligent-mcq-12",
-        "intelligent-mcq-16",
-        "intelligent-mcq-11"
+        "intelligent-mcq-12"
       ],
       "explanation": "本句的「unintelligent decision」指「缺乏良好思考、理解或判斷能力的」。",
       "sentenceIndex": 29,
@@ -1247,12 +1059,8 @@ export default {
         "unintelligent decision"
       ],
       "optionReasons": {
-        "intelligent-mcq-14": "本句指「缺乏良好思考、理解或判斷能力的」。",
-        "intelligent-mcq-13": "「以有思考、有判斷力或有效的方式」與本句語境不同。",
-        "intelligent-mcq-15": "「智力、理解與推理能力非常強的」與本句語境不同。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。",
-        "intelligent-mcq-16": "「顯示理解、推理或深入思考的有見地問題」與本句語境不同。",
-        "intelligent-mcq-11": "「在正式學習、分析與學術知識方面展現的強大能力」與本句語境不同。"
+        "intelligent-mcq-14": "本句的「unintelligent decision」指「缺乏良好思考、理解或判斷能力的」。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-14"
     },
@@ -1264,11 +1072,7 @@ export default {
       "masked": "The system is not completely ____, but it cannot adapt well.",
       "options": [
         "intelligent-mcq-14",
-        "intelligent-mcq-13",
-        "intelligent-mcq-15",
-        "intelligent-mcq-12",
-        "intelligent-mcq-16",
-        "intelligent-mcq-11"
+        "intelligent-mcq-12"
       ],
       "explanation": "本句的「unintelligent」指「缺乏良好思考、理解或判斷能力的」。",
       "sentenceIndex": 30,
@@ -1277,12 +1081,8 @@ export default {
         "unintelligent"
       ],
       "optionReasons": {
-        "intelligent-mcq-14": "本句指「缺乏良好思考、理解或判斷能力的」。",
-        "intelligent-mcq-13": "「以有思考、有判斷力或有效的方式」與本句語境不同。",
-        "intelligent-mcq-15": "「智力、理解與推理能力非常強的」與本句語境不同。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。",
-        "intelligent-mcq-16": "「顯示理解、推理或深入思考的有見地問題」與本句語境不同。",
-        "intelligent-mcq-11": "「在正式學習、分析與學術知識方面展現的強大能力」與本句語境不同。"
+        "intelligent-mcq-14": "本句的「unintelligent」指「缺乏良好思考、理解或判斷能力的」。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-14"
     },
@@ -1294,11 +1094,9 @@ export default {
       "masked": "She clearly had strong ____.",
       "options": [
         "intelligent-mcq-11",
-        "intelligent-mcq-10",
-        "intelligent-mcq-12",
-        "intelligent-mcq-09",
-        "intelligent-mcq-13",
-        "intelligent-mcq-08"
+        "intelligent-mcq-17",
+        "intelligent-mcq-03",
+        "intelligent-mcq-12"
       ],
       "explanation": "本句的「academic intelligence」指「在正式學習、分析與學術知識方面展現的強大能力」。",
       "sentenceIndex": 31,
@@ -1307,12 +1105,10 @@ export default {
         "academic intelligence"
       ],
       "optionReasons": {
-        "intelligent-mcq-11": "本句指「在正式學習、分析與學術知識方面展現的強大能力」。",
-        "intelligent-mcq-10": "「理解人際互動並在社交情境中作出適當反應的能力」與本句語境不同。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。",
-        "intelligent-mcq-09": "「辨識、理解及管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "intelligent-mcq-13": "「以有思考、有判斷力或有效的方式」與本句語境不同。",
-        "intelligent-mcq-08": "「在真實生活中有效分析情況並解決問題的能力；實際智慧」與本句語境不同。"
+        "intelligent-mcq-11": "本句的「academic intelligence」指「在正式學習、分析與學術知識方面展現的強大能力」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-11"
     },
@@ -1324,11 +1120,8 @@ export default {
       "masked": "Academic ____ alone does not make someone a good teacher.",
       "options": [
         "intelligent-mcq-11",
-        "intelligent-mcq-10",
-        "intelligent-mcq-12",
-        "intelligent-mcq-09",
-        "intelligent-mcq-13",
-        "intelligent-mcq-08"
+        "intelligent-mcq-16",
+        "intelligent-mcq-12"
       ],
       "explanation": "本句的「intelligence」指「在正式學習、分析與學術知識方面展現的強大能力」。",
       "sentenceIndex": 32,
@@ -1337,12 +1130,9 @@ export default {
         "intelligence"
       ],
       "optionReasons": {
-        "intelligent-mcq-11": "本句指「在正式學習、分析與學術知識方面展現的強大能力」。",
-        "intelligent-mcq-10": "「理解人際互動並在社交情境中作出適當反應的能力」與本句語境不同。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。",
-        "intelligent-mcq-09": "「辨識、理解及管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "intelligent-mcq-13": "「以有思考、有判斷力或有效的方式」與本句語境不同。",
-        "intelligent-mcq-08": "「在真實生活中有效分析情況並解決問題的能力；實際智慧」與本句語境不同。"
+        "intelligent-mcq-11": "本句的「intelligence」指「在正式學習、分析與學術知識方面展現的強大能力」。",
+        "intelligent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-11"
     },
@@ -1354,11 +1144,8 @@ export default {
       "masked": "Strong ____ helps leaders understand group dynamics.",
       "options": [
         "intelligent-mcq-10",
-        "intelligent-mcq-09",
-        "intelligent-mcq-11",
-        "intelligent-mcq-08",
         "intelligent-mcq-12",
-        "intelligent-mcq-07"
+        "intelligent-mcq-13"
       ],
       "explanation": "本句的「social intelligence」指「理解人際互動並在社交情境中作出適當反應的能力」。",
       "sentenceIndex": 33,
@@ -1367,12 +1154,9 @@ export default {
         "social intelligence"
       ],
       "optionReasons": {
-        "intelligent-mcq-10": "本句指「理解人際互動並在社交情境中作出適當反應的能力」。",
-        "intelligent-mcq-09": "「辨識、理解及管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "intelligent-mcq-11": "「在正式學習、分析與學術知識方面展現的強大能力」與本句語境不同。",
-        "intelligent-mcq-08": "「在真實生活中有效分析情況並解決問題的能力；實際智慧」與本句語境不同。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。",
-        "intelligent-mcq-07": "「理解、學習、推理、解決問題與判斷的能力；智力／智慧」與本句語境不同。"
+        "intelligent-mcq-10": "本句的「social intelligence」指「理解人際互動並在社交情境中作出適當反應的能力」。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-10"
     },
@@ -1384,11 +1168,8 @@ export default {
       "masked": "She showed ____ by noticing when the class was confused.",
       "options": [
         "intelligent-mcq-10",
-        "intelligent-mcq-09",
-        "intelligent-mcq-11",
-        "intelligent-mcq-08",
         "intelligent-mcq-12",
-        "intelligent-mcq-07"
+        "intelligent-mcq-13"
       ],
       "explanation": "本句的「social intelligence」指「理解人際互動並在社交情境中作出適當反應的能力」。",
       "sentenceIndex": 34,
@@ -1397,12 +1178,9 @@ export default {
         "social intelligence"
       ],
       "optionReasons": {
-        "intelligent-mcq-10": "本句指「理解人際互動並在社交情境中作出適當反應的能力」。",
-        "intelligent-mcq-09": "「辨識、理解及管理自己與他人情緒的能力；情緒智慧」與本句語境不同。",
-        "intelligent-mcq-11": "「在正式學習、分析與學術知識方面展現的強大能力」與本句語境不同。",
-        "intelligent-mcq-08": "「在真實生活中有效分析情況並解決問題的能力；實際智慧」與本句語境不同。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。",
-        "intelligent-mcq-07": "「理解、學習、推理、解決問題與判斷的能力；智力／智慧」與本句語境不同。"
+        "intelligent-mcq-10": "本句的「social intelligence」指「理解人際互動並在社交情境中作出適當反應的能力」。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-10"
     },
@@ -1414,9 +1192,6 @@ export default {
       "masked": "She is ____.",
       "options": [
         "intelligent-mcq-15",
-        "intelligent-mcq-14",
-        "intelligent-mcq-16",
-        "intelligent-mcq-13",
         "intelligent-mcq-17",
         "intelligent-mcq-12"
       ],
@@ -1427,12 +1202,9 @@ export default {
         "highly intelligent"
       ],
       "optionReasons": {
-        "intelligent-mcq-15": "本句指「智力、理解與推理能力非常強的」。",
-        "intelligent-mcq-14": "「缺乏良好思考、理解或判斷能力的」與本句語境不同。",
-        "intelligent-mcq-16": "「顯示理解、推理或深入思考的有見地問題」與本句語境不同。",
-        "intelligent-mcq-13": "「以有思考、有判斷力或有效的方式」與本句語境不同。",
-        "intelligent-mcq-17": "「涉及有深度、有思考性內容的交流」與本句語境不同。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。"
+        "intelligent-mcq-15": "本句的「highly intelligent」指「智力、理解與推理能力非常強的」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-15"
     },
@@ -1444,9 +1216,6 @@ export default {
       "masked": "The dog is ____.",
       "options": [
         "intelligent-mcq-15",
-        "intelligent-mcq-14",
-        "intelligent-mcq-16",
-        "intelligent-mcq-13",
         "intelligent-mcq-17",
         "intelligent-mcq-12"
       ],
@@ -1457,12 +1226,9 @@ export default {
         "highly intelligent and easy to train"
       ],
       "optionReasons": {
-        "intelligent-mcq-15": "本句指「智力、理解與推理能力非常強的」。",
-        "intelligent-mcq-14": "「缺乏良好思考、理解或判斷能力的」與本句語境不同。",
-        "intelligent-mcq-16": "「顯示理解、推理或深入思考的有見地問題」與本句語境不同。",
-        "intelligent-mcq-13": "「以有思考、有判斷力或有效的方式」與本句語境不同。",
-        "intelligent-mcq-17": "「涉及有深度、有思考性內容的交流」與本句語境不同。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。"
+        "intelligent-mcq-15": "本句的「highly intelligent and easy to train」指「智力、理解與推理能力非常強的」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-15"
     },
@@ -1474,9 +1240,6 @@ export default {
       "masked": "He is ____, but also very humble.",
       "options": [
         "intelligent-mcq-15",
-        "intelligent-mcq-14",
-        "intelligent-mcq-16",
-        "intelligent-mcq-13",
         "intelligent-mcq-17",
         "intelligent-mcq-12"
       ],
@@ -1487,12 +1250,9 @@ export default {
         "extremely intelligent"
       ],
       "optionReasons": {
-        "intelligent-mcq-15": "本句指「智力、理解與推理能力非常強的」。",
-        "intelligent-mcq-14": "「缺乏良好思考、理解或判斷能力的」與本句語境不同。",
-        "intelligent-mcq-16": "「顯示理解、推理或深入思考的有見地問題」與本句語境不同。",
-        "intelligent-mcq-13": "「以有思考、有判斷力或有效的方式」與本句語境不同。",
-        "intelligent-mcq-17": "「涉及有深度、有思考性內容的交流」與本句語境不同。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。"
+        "intelligent-mcq-15": "本句的「extremely intelligent」指「智力、理解與推理能力非常強的」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-15"
     },
@@ -1504,9 +1264,6 @@ export default {
       "masked": "She was an ____.",
       "options": [
         "intelligent-mcq-15",
-        "intelligent-mcq-14",
-        "intelligent-mcq-16",
-        "intelligent-mcq-13",
         "intelligent-mcq-17",
         "intelligent-mcq-12"
       ],
@@ -1517,12 +1274,9 @@ export default {
         "extremely intelligent student"
       ],
       "optionReasons": {
-        "intelligent-mcq-15": "本句指「智力、理解與推理能力非常強的」。",
-        "intelligent-mcq-14": "「缺乏良好思考、理解或判斷能力的」與本句語境不同。",
-        "intelligent-mcq-16": "「顯示理解、推理或深入思考的有見地問題」與本句語境不同。",
-        "intelligent-mcq-13": "「以有思考、有判斷力或有效的方式」與本句語境不同。",
-        "intelligent-mcq-17": "「涉及有深度、有思考性內容的交流」與本句語境不同。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。"
+        "intelligent-mcq-15": "本句的「extremely intelligent student」指「智力、理解與推理能力非常強的」。",
+        "intelligent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-15"
     },
@@ -1534,11 +1288,8 @@ export default {
       "masked": "She asked an ____ about the experiment.",
       "options": [
         "intelligent-mcq-16",
-        "intelligent-mcq-15",
-        "intelligent-mcq-17",
-        "intelligent-mcq-14",
-        "intelligent-mcq-13",
-        "intelligent-mcq-12"
+        "intelligent-mcq-12",
+        "intelligent-mcq-11"
       ],
       "explanation": "本句的「intelligent question」指「顯示理解、推理或深入思考的有見地問題」。",
       "sentenceIndex": 39,
@@ -1547,12 +1298,9 @@ export default {
         "intelligent question"
       ],
       "optionReasons": {
-        "intelligent-mcq-16": "本句指「顯示理解、推理或深入思考的有見地問題」。",
-        "intelligent-mcq-15": "「智力、理解與推理能力非常強的」與本句語境不同。",
-        "intelligent-mcq-17": "「涉及有深度、有思考性內容的交流」與本句語境不同。",
-        "intelligent-mcq-14": "「缺乏良好思考、理解或判斷能力的」與本句語境不同。",
-        "intelligent-mcq-13": "「以有思考、有判斷力或有效的方式」與本句語境不同。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。"
+        "intelligent-mcq-16": "本句的「intelligent question」指「顯示理解、推理或深入思考的有見地問題」。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-16"
     },
@@ -1564,11 +1312,8 @@ export default {
       "masked": "The student’s ____ improved the discussion.",
       "options": [
         "intelligent-mcq-16",
-        "intelligent-mcq-15",
-        "intelligent-mcq-17",
-        "intelligent-mcq-14",
-        "intelligent-mcq-13",
-        "intelligent-mcq-12"
+        "intelligent-mcq-12",
+        "intelligent-mcq-11"
       ],
       "explanation": "本句的「intelligent questions」指「顯示理解、推理或深入思考的有見地問題」。",
       "sentenceIndex": 40,
@@ -1577,12 +1322,9 @@ export default {
         "intelligent questions"
       ],
       "optionReasons": {
-        "intelligent-mcq-16": "本句指「顯示理解、推理或深入思考的有見地問題」。",
-        "intelligent-mcq-15": "「智力、理解與推理能力非常強的」與本句語境不同。",
-        "intelligent-mcq-17": "「涉及有深度、有思考性內容的交流」與本句語境不同。",
-        "intelligent-mcq-14": "「缺乏良好思考、理解或判斷能力的」與本句語境不同。",
-        "intelligent-mcq-13": "「以有思考、有判斷力或有效的方式」與本句語境不同。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。"
+        "intelligent-mcq-16": "本句的「intelligent questions」指「顯示理解、推理或深入思考的有見地問題」。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-16"
     },
@@ -1594,10 +1336,7 @@ export default {
       "masked": "We had an ____ about education.",
       "options": [
         "intelligent-mcq-17",
-        "intelligent-mcq-16",
-        "intelligent-mcq-15",
-        "intelligent-mcq-14",
-        "intelligent-mcq-13",
+        "intelligent-mcq-05",
         "intelligent-mcq-12"
       ],
       "explanation": "本句的「intelligent conversation」指「涉及有深度、有思考性內容的交流」。",
@@ -1607,12 +1346,9 @@ export default {
         "intelligent conversation"
       ],
       "optionReasons": {
-        "intelligent-mcq-17": "本句指「涉及有深度、有思考性內容的交流」。",
-        "intelligent-mcq-16": "「顯示理解、推理或深入思考的有見地問題」與本句語境不同。",
-        "intelligent-mcq-15": "「智力、理解與推理能力非常強的」與本句語境不同。",
-        "intelligent-mcq-14": "「缺乏良好思考、理解或判斷能力的」與本句語境不同。",
-        "intelligent-mcq-13": "「以有思考、有判斷力或有效的方式」與本句語境不同。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。"
+        "intelligent-mcq-17": "本句的「intelligent conversation」指「涉及有深度、有思考性內容的交流」。",
+        "intelligent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-17"
     },
@@ -1624,10 +1360,7 @@ export default {
       "masked": "He enjoys ____.",
       "options": [
         "intelligent-mcq-17",
-        "intelligent-mcq-16",
-        "intelligent-mcq-15",
-        "intelligent-mcq-14",
-        "intelligent-mcq-13",
+        "intelligent-mcq-05",
         "intelligent-mcq-12"
       ],
       "explanation": "本句的「intelligent conversation」指「涉及有深度、有思考性內容的交流」。",
@@ -1637,12 +1370,9 @@ export default {
         "intelligent conversation"
       ],
       "optionReasons": {
-        "intelligent-mcq-17": "本句指「涉及有深度、有思考性內容的交流」。",
-        "intelligent-mcq-16": "「顯示理解、推理或深入思考的有見地問題」與本句語境不同。",
-        "intelligent-mcq-15": "「智力、理解與推理能力非常強的」與本句語境不同。",
-        "intelligent-mcq-14": "「缺乏良好思考、理解或判斷能力的」與本句語境不同。",
-        "intelligent-mcq-13": "「以有思考、有判斷力或有效的方式」與本句語境不同。",
-        "intelligent-mcq-12": "「使電腦／機器執行類似人類智能任務的技術；人工智慧」與本句語境不同。"
+        "intelligent-mcq-17": "本句的「intelligent conversation」指「涉及有深度、有思考性內容的交流」。",
+        "intelligent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "intelligent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "intelligent-mcq-17"
     }
@@ -1654,5 +1384,12 @@ export default {
     "sha256": "ecbcfe282bb7d69a9149a9258fa93635f3ff1055fe1924ff277bb6799fa0c37e",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

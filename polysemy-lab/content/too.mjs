@@ -166,7 +166,7 @@ export default {
     },
     {
       "id": "too-mcq-08",
-      "title": "表示前面所述的情況同樣適用於另一人／事物；也",
+      "title": "前面所述的情況同樣適用於另一人／事物；也",
       "form": "too = also",
       "en": "too = also",
       "zh": "表示前面所述的情況同樣適用於另一人／事物；也",
@@ -188,7 +188,7 @@ export default {
     },
     {
       "id": "too-mcq-09",
-      "title": "表示「我也是／你也是」",
+      "title": "「我也是／你也是」",
       "form": "me too / you too",
       "en": "me too / you too",
       "zh": "表示「我也是／你也是」",
@@ -460,11 +460,9 @@ export default {
       "masked": "The music is ____.",
       "options": [
         "too-mcq-01",
-        "too-mcq-02",
-        "too-mcq-03",
-        "too-mcq-04",
-        "too-mcq-05",
-        "too-mcq-06"
+        "too-mcq-14",
+        "too-mcq-11",
+        "too-mcq-09"
       ],
       "explanation": "本句的「too loud」指「某種程度超過理想、適當、安全或可接受範圍」。",
       "sentenceIndex": 0,
@@ -473,12 +471,10 @@ export default {
         "too loud"
       ],
       "optionReasons": {
-        "too-mcq-01": "本句指「某種程度超過理想、適當、安全或可接受範圍」。",
-        "too-mcq-02": "「努力、施力或要求自己的程度過高；用力過猛」是「too hard」的用法，與本句語境不同。",
-        "too-mcq-03": "「不可數事物的數量多到超過需要或可接受程度」是「too much + uncountable」的用法，與本句語境不同。",
-        "too-mcq-04": "「可數的人／事物數量多到超過需要或可接受程度」是「too many + plural noun」的用法，與本句語境不同。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。"
+        "too-mcq-01": "本句的「too loud」指「某種程度超過理想、適當、安全或可接受範圍」。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-01"
     },
@@ -490,11 +486,9 @@ export default {
       "masked": "She was driving ____.",
       "options": [
         "too-mcq-01",
-        "too-mcq-02",
-        "too-mcq-03",
-        "too-mcq-04",
-        "too-mcq-05",
-        "too-mcq-06"
+        "too-mcq-11",
+        "too-mcq-09",
+        "too-mcq-14"
       ],
       "explanation": "本句的「too fast」指「某種程度超過理想、適當、安全或可接受範圍」。",
       "sentenceIndex": 1,
@@ -503,12 +497,10 @@ export default {
         "too fast"
       ],
       "optionReasons": {
-        "too-mcq-01": "本句指「某種程度超過理想、適當、安全或可接受範圍」。",
-        "too-mcq-02": "「努力、施力或要求自己的程度過高；用力過猛」是「too hard」的用法，與本句語境不同。",
-        "too-mcq-03": "「不可數事物的數量多到超過需要或可接受程度」是「too much + uncountable」的用法，與本句語境不同。",
-        "too-mcq-04": "「可數的人／事物數量多到超過需要或可接受程度」是「too many + plural noun」的用法，與本句語境不同。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。"
+        "too-mcq-01": "本句的「too fast」指「某種程度超過理想、適當、安全或可接受範圍」。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-01"
     },
@@ -520,11 +512,9 @@ export default {
       "masked": "The advertisement did not ____.",
       "options": [
         "too-mcq-02",
-        "too-mcq-01",
-        "too-mcq-03",
-        "too-mcq-04",
-        "too-mcq-05",
-        "too-mcq-06"
+        "too-mcq-08",
+        "too-mcq-15",
+        "too-mcq-14"
       ],
       "explanation": "本句的「try too hard」指「努力、施力或要求自己的程度過高；用力過猛」。",
       "sentenceIndex": 2,
@@ -533,12 +523,10 @@ export default {
         "try too hard"
       ],
       "optionReasons": {
-        "too-mcq-02": "本句指「努力、施力或要求自己的程度過高；用力過猛」。",
-        "too-mcq-01": "「某種程度超過理想、適當、安全或可接受範圍」是「too + adjective/adverb」的用法，與本句語境不同。",
-        "too-mcq-03": "「不可數事物的數量多到超過需要或可接受程度」是「too much + uncountable」的用法，與本句語境不同。",
-        "too-mcq-04": "「可數的人／事物數量多到超過需要或可接受程度」是「too many + plural noun」的用法，與本句語境不同。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。"
+        "too-mcq-02": "本句的「try too hard」指「努力、施力或要求自己的程度過高；用力過猛」。",
+        "too-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-02"
     },
@@ -550,11 +538,9 @@ export default {
       "masked": "He was ____ to sound funny.",
       "options": [
         "too-mcq-02",
-        "too-mcq-01",
-        "too-mcq-03",
-        "too-mcq-04",
-        "too-mcq-05",
-        "too-mcq-06"
+        "too-mcq-14",
+        "too-mcq-11",
+        "too-mcq-09"
       ],
       "explanation": "本句的「trying too hard」指「努力、施力或要求自己的程度過高；用力過猛」。",
       "sentenceIndex": 3,
@@ -563,12 +549,10 @@ export default {
         "trying too hard"
       ],
       "optionReasons": {
-        "too-mcq-02": "本句指「努力、施力或要求自己的程度過高；用力過猛」。",
-        "too-mcq-01": "「某種程度超過理想、適當、安全或可接受範圍」是「too + adjective/adverb」的用法，與本句語境不同。",
-        "too-mcq-03": "「不可數事物的數量多到超過需要或可接受程度」是「too much + uncountable」的用法，與本句語境不同。",
-        "too-mcq-04": "「可數的人／事物數量多到超過需要或可接受程度」是「too many + plural noun」的用法，與本句語境不同。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。"
+        "too-mcq-02": "本句的「trying too hard」指「努力、施力或要求自己的程度過高；用力過猛」。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-02"
     },
@@ -580,11 +564,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "too-mcq-02",
-        "too-mcq-01",
-        "too-mcq-03",
-        "too-mcq-04",
-        "too-mcq-05",
-        "too-mcq-06"
+        "too-mcq-08",
+        "too-mcq-14",
+        "too-mcq-11"
       ],
       "explanation": "本句的「push yourself too hard」指「努力、施力或要求自己的程度過高；用力過猛」。",
       "sentenceIndex": 4,
@@ -593,12 +575,10 @@ export default {
         "push yourself too hard"
       ],
       "optionReasons": {
-        "too-mcq-02": "本句指「努力、施力或要求自己的程度過高；用力過猛」。",
-        "too-mcq-01": "「某種程度超過理想、適當、安全或可接受範圍」是「too + adjective/adverb」的用法，與本句語境不同。",
-        "too-mcq-03": "「不可數事物的數量多到超過需要或可接受程度」是「too much + uncountable」的用法，與本句語境不同。",
-        "too-mcq-04": "「可數的人／事物數量多到超過需要或可接受程度」是「too many + plural noun」的用法，與本句語境不同。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。"
+        "too-mcq-02": "本句的「push yourself too hard」指「努力、施力或要求自己的程度過高；用力過猛」。",
+        "too-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-02"
     },
@@ -610,11 +590,9 @@ export default {
       "masked": "There is ____ on the train.",
       "options": [
         "too-mcq-03",
-        "too-mcq-02",
-        "too-mcq-04",
-        "too-mcq-01",
-        "too-mcq-05",
-        "too-mcq-06"
+        "too-mcq-13",
+        "too-mcq-20",
+        "too-mcq-11"
       ],
       "explanation": "本句的「too much noise」指「不可數事物的數量多到超過需要或可接受程度」。",
       "sentenceIndex": 5,
@@ -623,12 +601,10 @@ export default {
         "too much noise"
       ],
       "optionReasons": {
-        "too-mcq-03": "本句指「不可數事物的數量多到超過需要或可接受程度」。",
-        "too-mcq-02": "「努力、施力或要求自己的程度過高；用力過猛」是「too hard」的用法，與本句語境不同。",
-        "too-mcq-04": "「可數的人／事物數量多到超過需要或可接受程度」是「too many + plural noun」的用法，與本句語境不同。",
-        "too-mcq-01": "「某種程度超過理想、適當、安全或可接受範圍」是「too + adjective/adverb」的用法，與本句語境不同。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。"
+        "too-mcq-03": "本句的「too much noise」指「不可數事物的數量多到超過需要或可接受程度」。",
+        "too-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-03"
     },
@@ -640,11 +616,9 @@ export default {
       "masked": "I spent ____ on headphones.",
       "options": [
         "too-mcq-03",
-        "too-mcq-02",
-        "too-mcq-04",
-        "too-mcq-01",
-        "too-mcq-05",
-        "too-mcq-06"
+        "too-mcq-08",
+        "too-mcq-13",
+        "too-mcq-11"
       ],
       "explanation": "本句的「too much money」指「不可數事物的數量多到超過需要或可接受程度」。",
       "sentenceIndex": 6,
@@ -653,12 +627,10 @@ export default {
         "too much money"
       ],
       "optionReasons": {
-        "too-mcq-03": "本句指「不可數事物的數量多到超過需要或可接受程度」。",
-        "too-mcq-02": "「努力、施力或要求自己的程度過高；用力過猛」是「too hard」的用法，與本句語境不同。",
-        "too-mcq-04": "「可數的人／事物數量多到超過需要或可接受程度」是「too many + plural noun」的用法，與本句語境不同。",
-        "too-mcq-01": "「某種程度超過理想、適當、安全或可接受範圍」是「too + adjective/adverb」的用法，與本句語境不同。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。"
+        "too-mcq-03": "本句的「too much money」指「不可數事物的數量多到超過需要或可接受程度」。",
+        "too-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-03"
     },
@@ -670,11 +642,9 @@ export default {
       "masked": "There were ____ on the train.",
       "options": [
         "too-mcq-04",
-        "too-mcq-03",
-        "too-mcq-05",
-        "too-mcq-02",
-        "too-mcq-06",
-        "too-mcq-01"
+        "too-mcq-14",
+        "too-mcq-09",
+        "too-mcq-11"
       ],
       "explanation": "本句的「too many people」指「可數的人／事物數量多到超過需要或可接受程度」。",
       "sentenceIndex": 7,
@@ -683,12 +653,10 @@ export default {
         "too many people"
       ],
       "optionReasons": {
-        "too-mcq-04": "本句指「可數的人／事物數量多到超過需要或可接受程度」。",
-        "too-mcq-03": "「不可數事物的數量多到超過需要或可接受程度」是「too much + uncountable」的用法，與本句語境不同。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。",
-        "too-mcq-02": "「努力、施力或要求自己的程度過高；用力過猛」是「too hard」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。",
-        "too-mcq-01": "「某種程度超過理想、適當、安全或可接受範圍」是「too + adjective/adverb」的用法，與本句語境不同。"
+        "too-mcq-04": "本句的「too many people」指「可數的人／事物數量多到超過需要或可接受程度」。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-04"
     },
@@ -700,11 +668,9 @@ export default {
       "masked": "The design has ____.",
       "options": [
         "too-mcq-04",
-        "too-mcq-03",
-        "too-mcq-05",
-        "too-mcq-02",
-        "too-mcq-06",
-        "too-mcq-01"
+        "too-mcq-11",
+        "too-mcq-14",
+        "too-mcq-09"
       ],
       "explanation": "本句的「too many buttons」指「可數的人／事物數量多到超過需要或可接受程度」。",
       "sentenceIndex": 8,
@@ -713,12 +679,10 @@ export default {
         "too many buttons"
       ],
       "optionReasons": {
-        "too-mcq-04": "本句指「可數的人／事物數量多到超過需要或可接受程度」。",
-        "too-mcq-03": "「不可數事物的數量多到超過需要或可接受程度」是「too much + uncountable」的用法，與本句語境不同。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。",
-        "too-mcq-02": "「努力、施力或要求自己的程度過高；用力過猛」是「too hard」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。",
-        "too-mcq-01": "「某種程度超過理想、適當、安全或可接受範圍」是「too + adjective/adverb」的用法，與本句語境不同。"
+        "too-mcq-04": "本句的「too many buttons」指「可數的人／事物數量多到超過需要或可接受程度」。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-04"
     },
@@ -730,11 +694,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "too-mcq-05",
-        "too-mcq-04",
-        "too-mcq-06",
-        "too-mcq-03",
-        "too-mcq-07",
-        "too-mcq-02"
+        "too-mcq-15",
+        "too-mcq-14",
+        "too-mcq-08"
       ],
       "explanation": "本句的「work too much」指「某個行為發生得過於頻繁、過量或程度太高」。",
       "sentenceIndex": 9,
@@ -743,12 +705,10 @@ export default {
         "work too much"
       ],
       "optionReasons": {
-        "too-mcq-05": "本句指「某個行為發生得過於頻繁、過量或程度太高」。",
-        "too-mcq-04": "「可數的人／事物數量多到超過需要或可接受程度」是「too many + plural noun」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。",
-        "too-mcq-03": "「不可數事物的數量多到超過需要或可接受程度」是「too much + uncountable」的用法，與本句語境不同。",
-        "too-mcq-07": "「對特定的人、用途或情況而言，程度過高」是「too...for...」的用法，與本句語境不同。",
-        "too-mcq-02": "「努力、施力或要求自己的程度過高；用力過猛」是「too hard」的用法，與本句語境不同。"
+        "too-mcq-05": "本句的「work too much」指「某個行為發生得過於頻繁、過量或程度太高」。",
+        "too-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-05"
     },
@@ -760,11 +720,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "too-mcq-05",
-        "too-mcq-04",
-        "too-mcq-06",
-        "too-mcq-03",
-        "too-mcq-07",
-        "too-mcq-02"
+        "too-mcq-08",
+        "too-mcq-11",
+        "too-mcq-14"
       ],
       "explanation": "本句的「worries too much」指「某個行為發生得過於頻繁、過量或程度太高」。",
       "sentenceIndex": 10,
@@ -773,12 +731,10 @@ export default {
         "worries too much"
       ],
       "optionReasons": {
-        "too-mcq-05": "本句指「某個行為發生得過於頻繁、過量或程度太高」。",
-        "too-mcq-04": "「可數的人／事物數量多到超過需要或可接受程度」是「too many + plural noun」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。",
-        "too-mcq-03": "「不可數事物的數量多到超過需要或可接受程度」是「too much + uncountable」的用法，與本句語境不同。",
-        "too-mcq-07": "「對特定的人、用途或情況而言，程度過高」是「too...for...」的用法，與本句語境不同。",
-        "too-mcq-02": "「努力、施力或要求自己的程度過高；用力過猛」是「too hard」的用法，與本句語境不同。"
+        "too-mcq-05": "本句的「worries too much」指「某個行為發生得過於頻繁、過量或程度太高」。",
+        "too-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-05"
     },
@@ -790,11 +746,9 @@ export default {
       "masked": "The café was ____.",
       "options": [
         "too-mcq-06",
-        "too-mcq-05",
-        "too-mcq-07",
-        "too-mcq-04",
-        "too-mcq-08",
-        "too-mcq-03"
+        "too-mcq-09",
+        "too-mcq-13",
+        "too-mcq-11"
       ],
       "explanation": "本句的「too noisy to work in」指「某種程度高到令另一行動無法／不適合進行」。",
       "sentenceIndex": 11,
@@ -803,12 +757,10 @@ export default {
         "too noisy to work in"
       ],
       "optionReasons": {
-        "too-mcq-06": "本句指「某種程度高到令另一行動無法／不適合進行」。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。",
-        "too-mcq-07": "「對特定的人、用途或情況而言，程度過高」是「too...for...」的用法，與本句語境不同。",
-        "too-mcq-04": "「可數的人／事物數量多到超過需要或可接受程度」是「too many + plural noun」的用法，與本句語境不同。",
-        "too-mcq-08": "「表示前面所述的情況同樣適用於另一人／事物；也」是「too = also」的用法，與本句語境不同。",
-        "too-mcq-03": "「不可數事物的數量多到超過需要或可接受程度」是「too much + uncountable」的用法，與本句語境不同。"
+        "too-mcq-06": "本句的「too noisy to work in」指「某種程度高到令另一行動無法／不適合進行」。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-06"
     },
@@ -820,11 +772,9 @@ export default {
       "masked": "The headphones were ____ at the time.",
       "options": [
         "too-mcq-06",
-        "too-mcq-05",
-        "too-mcq-07",
-        "too-mcq-04",
-        "too-mcq-08",
-        "too-mcq-03"
+        "too-mcq-14",
+        "too-mcq-09",
+        "too-mcq-11"
       ],
       "explanation": "本句的「too expensive to buy」指「某種程度高到令另一行動無法／不適合進行」。",
       "sentenceIndex": 12,
@@ -833,12 +783,10 @@ export default {
         "too expensive to buy"
       ],
       "optionReasons": {
-        "too-mcq-06": "本句指「某種程度高到令另一行動無法／不適合進行」。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。",
-        "too-mcq-07": "「對特定的人、用途或情況而言，程度過高」是「too...for...」的用法，與本句語境不同。",
-        "too-mcq-04": "「可數的人／事物數量多到超過需要或可接受程度」是「too many + plural noun」的用法，與本句語境不同。",
-        "too-mcq-08": "「表示前面所述的情況同樣適用於另一人／事物；也」是「too = also」的用法，與本句語境不同。",
-        "too-mcq-03": "「不可數事物的數量多到超過需要或可接受程度」是「too much + uncountable」的用法，與本句語境不同。"
+        "too-mcq-06": "本句的「too expensive to buy」指「某種程度高到令另一行動無法／不適合進行」。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-06"
     },
@@ -850,11 +798,9 @@ export default {
       "masked": "The headphones are ____.",
       "options": [
         "too-mcq-07",
-        "too-mcq-06",
-        "too-mcq-08",
-        "too-mcq-05",
-        "too-mcq-09",
-        "too-mcq-04"
+        "too-mcq-13",
+        "too-mcq-11",
+        "too-mcq-09"
       ],
       "explanation": "本句的「too large for me」指「對特定的人、用途或情況而言，程度過高」。",
       "sentenceIndex": 13,
@@ -863,12 +809,10 @@ export default {
         "too large for me"
       ],
       "optionReasons": {
-        "too-mcq-07": "本句指「對特定的人、用途或情況而言，程度過高」。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。",
-        "too-mcq-08": "「表示前面所述的情況同樣適用於另一人／事物；也」是「too = also」的用法，與本句語境不同。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。",
-        "too-mcq-09": "「表示「我也是／你也是」」是「me too / you too」的用法，與本句語境不同。",
-        "too-mcq-04": "「可數的人／事物數量多到超過需要或可接受程度」是「too many + plural noun」的用法，與本句語境不同。"
+        "too-mcq-07": "本句的「too large for me」指「對特定的人、用途或情況而言，程度過高」。",
+        "too-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-07"
     },
@@ -880,11 +824,9 @@ export default {
       "masked": "The volume is ____.",
       "options": [
         "too-mcq-07",
-        "too-mcq-06",
-        "too-mcq-08",
-        "too-mcq-05",
-        "too-mcq-09",
-        "too-mcq-04"
+        "too-mcq-14",
+        "too-mcq-15",
+        "too-mcq-08"
       ],
       "explanation": "本句的「too high for this room」指「對特定的人、用途或情況而言，程度過高」。",
       "sentenceIndex": 14,
@@ -893,12 +835,10 @@ export default {
         "too high for this room"
       ],
       "optionReasons": {
-        "too-mcq-07": "本句指「對特定的人、用途或情況而言，程度過高」。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。",
-        "too-mcq-08": "「表示前面所述的情況同樣適用於另一人／事物；也」是「too = also」的用法，與本句語境不同。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。",
-        "too-mcq-09": "「表示「我也是／你也是」」是「me too / you too」的用法，與本句語境不同。",
-        "too-mcq-04": "「可數的人／事物數量多到超過需要或可接受程度」是「too many + plural noun」的用法，與本句語境不同。"
+        "too-mcq-07": "本句的「too high for this room」指「對特定的人、用途或情況而言，程度過高」。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-07"
     },
@@ -910,11 +850,9 @@ export default {
       "masked": "The instructions were ____.",
       "options": [
         "too-mcq-18",
-        "too-mcq-17",
-        "too-mcq-19",
-        "too-mcq-16",
-        "too-mcq-20",
-        "too-mcq-15"
+        "too-mcq-13",
+        "too-mcq-11",
+        "too-mcq-20"
       ],
       "explanation": "本句的「too complicated for me to follow」指「某種程度超過某人能完成後面行動的範圍」。",
       "sentenceIndex": 15,
@@ -923,12 +861,10 @@ export default {
         "too complicated for me to follow"
       ],
       "optionReasons": {
-        "too-mcq-18": "本句指「某種程度超過某人能完成後面行動的範圍」。",
-        "too-mcq-17": "「負擔或程度已超過某人合理能承受的範圍」是「too much — standalone」的用法，與本句語境不同。",
-        "too-mcq-19": "「時間已超過仍可採取某行動或改變結果的界線」是「17. too late = 過遲；為時已晚」的用法，與本句語境不同。",
-        "too-mcq-16": "「數量少到不足以滿足需要」是「too little/few」的用法，與本句語境不同。",
-        "too-mcq-20": "「某件事情發生的時間比合適、合理或預期的時間早」是「18. too soon = 過早；太快」的用法，與本句語境不同。",
-        "too-mcq-15": "「好到超出合理預期，令人懷疑是否真實」是「too good to be true」的用法，與本句語境不同。"
+        "too-mcq-18": "本句的「too complicated for me to follow」指「某種程度超過某人能完成後面行動的範圍」。",
+        "too-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-18"
     },
@@ -940,11 +876,9 @@ export default {
       "masked": "The room was ____.",
       "options": [
         "too-mcq-18",
-        "too-mcq-17",
-        "too-mcq-19",
-        "too-mcq-16",
-        "too-mcq-20",
-        "too-mcq-15"
+        "too-mcq-13",
+        "too-mcq-09",
+        "too-mcq-20"
       ],
       "explanation": "本句的「too noisy for her to concentrate」指「某種程度超過某人能完成後面行動的範圍」。",
       "sentenceIndex": 16,
@@ -953,12 +887,10 @@ export default {
         "too noisy for her to concentrate"
       ],
       "optionReasons": {
-        "too-mcq-18": "本句指「某種程度超過某人能完成後面行動的範圍」。",
-        "too-mcq-17": "「負擔或程度已超過某人合理能承受的範圍」是「too much — standalone」的用法，與本句語境不同。",
-        "too-mcq-19": "「時間已超過仍可採取某行動或改變結果的界線」是「17. too late = 過遲；為時已晚」的用法，與本句語境不同。",
-        "too-mcq-16": "「數量少到不足以滿足需要」是「too little/few」的用法，與本句語境不同。",
-        "too-mcq-20": "「某件事情發生的時間比合適、合理或預期的時間早」是「18. too soon = 過早；太快」的用法，與本句語境不同。",
-        "too-mcq-15": "「好到超出合理預期，令人懷疑是否真實」是「too good to be true」的用法，與本句語境不同。"
+        "too-mcq-18": "本句的「too noisy for her to concentrate」指「某種程度超過某人能完成後面行動的範圍」。",
+        "too-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-18"
     },
@@ -970,11 +902,9 @@ export default {
       "masked": "I use noise-cancelling headphones ____.",
       "options": [
         "too-mcq-08",
-        "too-mcq-07",
-        "too-mcq-09",
-        "too-mcq-06",
-        "too-mcq-10",
-        "too-mcq-05"
+        "too-mcq-03",
+        "too-mcq-13",
+        "too-mcq-11"
       ],
       "explanation": "本句的「too」指「表示前面所述的情況同樣適用於另一人／事物；也」。",
       "sentenceIndex": 17,
@@ -983,12 +913,10 @@ export default {
         "too"
       ],
       "optionReasons": {
-        "too-mcq-08": "本句指「表示前面所述的情況同樣適用於另一人／事物；也」。",
-        "too-mcq-07": "「對特定的人、用途或情況而言，程度過高」是「too...for...」的用法，與本句語境不同。",
-        "too-mcq-09": "「表示「我也是／你也是」」是「me too / you too」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。",
-        "too-mcq-10": "「程度沒有高到構成明顯問題；不太／不算太」是「not too」的用法，與本句語境不同。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。"
+        "too-mcq-08": "本句的「too」指「表示前面所述的情況同樣適用於另一人／事物；也」。",
+        "too-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-08"
     },
@@ -1000,11 +928,9 @@ export default {
       "masked": "She liked the advertisement, and I did ____.",
       "options": [
         "too-mcq-08",
-        "too-mcq-07",
-        "too-mcq-09",
-        "too-mcq-06",
-        "too-mcq-10",
-        "too-mcq-05"
+        "too-mcq-15",
+        "too-mcq-18",
+        "too-mcq-14"
       ],
       "explanation": "本句的「too」指「表示前面所述的情況同樣適用於另一人／事物；也」。",
       "sentenceIndex": 18,
@@ -1013,12 +939,10 @@ export default {
         "too"
       ],
       "optionReasons": {
-        "too-mcq-08": "本句指「表示前面所述的情況同樣適用於另一人／事物；也」。",
-        "too-mcq-07": "「對特定的人、用途或情況而言，程度過高」是「too...for...」的用法，與本句語境不同。",
-        "too-mcq-09": "「表示「我也是／你也是」」是「me too / you too」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。",
-        "too-mcq-10": "「程度沒有高到構成明顯問題；不太／不算太」是「not too」的用法，與本句語境不同。",
-        "too-mcq-05": "「某個行為發生得過於頻繁、過量或程度太高」是「verb + too much」的用法，與本句語境不同。"
+        "too-mcq-08": "本句的「too」指「表示前面所述的情況同樣適用於另一人／事物；也」。",
+        "too-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-08"
     },
@@ -1030,11 +954,9 @@ export default {
       "masked": "I’m tired.” > “____",
       "options": [
         "too-mcq-09",
-        "too-mcq-08",
         "too-mcq-10",
-        "too-mcq-07",
-        "too-mcq-11",
-        "too-mcq-06"
+        "too-mcq-20",
+        "too-mcq-14"
       ],
       "explanation": "本句的「Me too.」指「表示「我也是／你也是」」。",
       "sentenceIndex": 19,
@@ -1043,12 +965,10 @@ export default {
         "Me too."
       ],
       "optionReasons": {
-        "too-mcq-09": "本句指「表示「我也是／你也是」」。",
-        "too-mcq-08": "「表示前面所述的情況同樣適用於另一人／事物；也」是「too = also」的用法，與本句語境不同。",
-        "too-mcq-10": "「程度沒有高到構成明顯問題；不太／不算太」是「not too」的用法，與本句語境不同。",
-        "too-mcq-07": "「對特定的人、用途或情況而言，程度過高」是「too...for...」的用法，與本句語境不同。",
-        "too-mcq-11": "「雖然未必很好，但整體仍令人滿意；還不錯」是「not too bad」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。"
+        "too-mcq-09": "本句的「Me too.」指「表示「我也是／你也是」」。",
+        "too-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-09"
     },
@@ -1060,11 +980,9 @@ export default {
       "masked": "Have a good weekend.” > “____",
       "options": [
         "too-mcq-09",
-        "too-mcq-08",
-        "too-mcq-10",
-        "too-mcq-07",
-        "too-mcq-11",
-        "too-mcq-06"
+        "too-mcq-01",
+        "too-mcq-14",
+        "too-mcq-15"
       ],
       "explanation": "本句的「You too.」指「表示「我也是／你也是」」。",
       "sentenceIndex": 20,
@@ -1073,12 +991,10 @@ export default {
         "You too."
       ],
       "optionReasons": {
-        "too-mcq-09": "本句指「表示「我也是／你也是」」。",
-        "too-mcq-08": "「表示前面所述的情況同樣適用於另一人／事物；也」是「too = also」的用法，與本句語境不同。",
-        "too-mcq-10": "「程度沒有高到構成明顯問題；不太／不算太」是「not too」的用法，與本句語境不同。",
-        "too-mcq-07": "「對特定的人、用途或情況而言，程度過高」是「too...for...」的用法，與本句語境不同。",
-        "too-mcq-11": "「雖然未必很好，但整體仍令人滿意；還不錯」是「not too bad」的用法，與本句語境不同。",
-        "too-mcq-06": "「某種程度高到令另一行動無法／不適合進行」是「too...to...」的用法，與本句語境不同。"
+        "too-mcq-09": "本句的「You too.」指「表示「我也是／你也是」」。",
+        "too-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-09"
     },
@@ -1090,11 +1006,9 @@ export default {
       "masked": "The headphones are ____.",
       "options": [
         "too-mcq-10",
-        "too-mcq-09",
-        "too-mcq-11",
-        "too-mcq-08",
-        "too-mcq-12",
-        "too-mcq-07"
+        "too-mcq-20",
+        "too-mcq-13",
+        "too-mcq-11"
       ],
       "explanation": "本句的「not too heavy」指「程度沒有高到構成明顯問題；不太／不算太」。",
       "sentenceIndex": 21,
@@ -1103,12 +1017,10 @@ export default {
         "not too heavy"
       ],
       "optionReasons": {
-        "too-mcq-10": "本句指「程度沒有高到構成明顯問題；不太／不算太」。",
-        "too-mcq-09": "「表示「我也是／你也是」」是「me too / you too」的用法，與本句語境不同。",
-        "too-mcq-11": "「雖然未必很好，但整體仍令人滿意；還不錯」是「not too bad」的用法，與本句語境不同。",
-        "too-mcq-08": "「表示前面所述的情況同樣適用於另一人／事物；也」是「too = also」的用法，與本句語境不同。",
-        "too-mcq-12": "「程度遠遠超過適當或可接受範圍」是「far/much/way too」的用法，與本句語境不同。",
-        "too-mcq-07": "「對特定的人、用途或情況而言，程度過高」是「too...for...」的用法，與本句語境不同。"
+        "too-mcq-10": "本句的「not too heavy」指「程度沒有高到構成明顯問題；不太／不算太」。",
+        "too-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-10"
     },
@@ -1120,11 +1032,9 @@ export default {
       "masked": "The café is ____ from here.",
       "options": [
         "too-mcq-10",
+        "too-mcq-20",
         "too-mcq-09",
-        "too-mcq-11",
-        "too-mcq-08",
-        "too-mcq-12",
-        "too-mcq-07"
+        "too-mcq-14"
       ],
       "explanation": "本句的「not too far」指「程度沒有高到構成明顯問題；不太／不算太」。",
       "sentenceIndex": 22,
@@ -1133,12 +1043,10 @@ export default {
         "not too far"
       ],
       "optionReasons": {
-        "too-mcq-10": "本句指「程度沒有高到構成明顯問題；不太／不算太」。",
-        "too-mcq-09": "「表示「我也是／你也是」」是「me too / you too」的用法，與本句語境不同。",
-        "too-mcq-11": "「雖然未必很好，但整體仍令人滿意；還不錯」是「not too bad」的用法，與本句語境不同。",
-        "too-mcq-08": "「表示前面所述的情況同樣適用於另一人／事物；也」是「too = also」的用法，與本句語境不同。",
-        "too-mcq-12": "「程度遠遠超過適當或可接受範圍」是「far/much/way too」的用法，與本句語境不同。",
-        "too-mcq-07": "「對特定的人、用途或情況而言，程度過高」是「too...for...」的用法，與本句語境不同。"
+        "too-mcq-10": "本句的「not too far」指「程度沒有高到構成明顯問題；不太／不算太」。",
+        "too-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-10"
     },
@@ -1150,11 +1058,9 @@ export default {
       "masked": "How was the film?” > “____",
       "options": [
         "too-mcq-11",
-        "too-mcq-10",
-        "too-mcq-12",
-        "too-mcq-09",
-        "too-mcq-13",
-        "too-mcq-08"
+        "too-mcq-18",
+        "too-mcq-20",
+        "too-mcq-13"
       ],
       "explanation": "本句的「Not too bad.」指「雖然未必很好，但整體仍令人滿意；還不錯」。",
       "sentenceIndex": 23,
@@ -1163,12 +1069,10 @@ export default {
         "Not too bad."
       ],
       "optionReasons": {
-        "too-mcq-11": "本句指「雖然未必很好，但整體仍令人滿意；還不錯」。",
-        "too-mcq-10": "「程度沒有高到構成明顯問題；不太／不算太」是「not too」的用法，與本句語境不同。",
-        "too-mcq-12": "「程度遠遠超過適當或可接受範圍」是「far/much/way too」的用法，與本句語境不同。",
-        "too-mcq-09": "「表示「我也是／你也是」」是「me too / you too」的用法，與本句語境不同。",
-        "too-mcq-13": "「強調某個通常不理想的情況非常真實／常見」是「all too」的用法，與本句語境不同。",
-        "too-mcq-08": "「表示前面所述的情況同樣適用於另一人／事物；也」是「too = also」的用法，與本句語境不同。"
+        "too-mcq-11": "本句的「Not too bad.」指「雖然未必很好，但整體仍令人滿意；還不錯」。",
+        "too-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-11"
     },
@@ -1180,11 +1084,9 @@ export default {
       "masked": "The sound quality is ____ for the price.",
       "options": [
         "too-mcq-11",
-        "too-mcq-10",
-        "too-mcq-12",
         "too-mcq-09",
-        "too-mcq-13",
-        "too-mcq-08"
+        "too-mcq-03",
+        "too-mcq-20"
       ],
       "explanation": "本句的「not too bad」指「雖然未必很好，但整體仍令人滿意；還不錯」。",
       "sentenceIndex": 24,
@@ -1193,12 +1095,10 @@ export default {
         "not too bad"
       ],
       "optionReasons": {
-        "too-mcq-11": "本句指「雖然未必很好，但整體仍令人滿意；還不錯」。",
-        "too-mcq-10": "「程度沒有高到構成明顯問題；不太／不算太」是「not too」的用法，與本句語境不同。",
-        "too-mcq-12": "「程度遠遠超過適當或可接受範圍」是「far/much/way too」的用法，與本句語境不同。",
-        "too-mcq-09": "「表示「我也是／你也是」」是「me too / you too」的用法，與本句語境不同。",
-        "too-mcq-13": "「強調某個通常不理想的情況非常真實／常見」是「all too」的用法，與本句語境不同。",
-        "too-mcq-08": "「表示前面所述的情況同樣適用於另一人／事物；也」是「too = also」的用法，與本句語境不同。"
+        "too-mcq-11": "本句的「not too bad」指「雖然未必很好，但整體仍令人滿意；還不錯」。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-11"
     },
@@ -1210,11 +1110,9 @@ export default {
       "masked": "The headphones are ____.",
       "options": [
         "too-mcq-12",
-        "too-mcq-11",
+        "too-mcq-09",
         "too-mcq-13",
-        "too-mcq-10",
-        "too-mcq-14",
-        "too-mcq-09"
+        "too-mcq-11"
       ],
       "explanation": "本句的「far too expensive」指「程度遠遠超過適當或可接受範圍」。",
       "sentenceIndex": 25,
@@ -1223,12 +1121,10 @@ export default {
         "far too expensive"
       ],
       "optionReasons": {
-        "too-mcq-12": "本句指「程度遠遠超過適當或可接受範圍」。",
-        "too-mcq-11": "「雖然未必很好，但整體仍令人滿意；還不錯」是「not too bad」的用法，與本句語境不同。",
-        "too-mcq-13": "「強調某個通常不理想的情況非常真實／常見」是「all too」的用法，與本句語境不同。",
-        "too-mcq-10": "「程度沒有高到構成明顯問題；不太／不算太」是「not too」的用法，與本句語境不同。",
-        "too-mcq-14": "「非常、十分；尤其常見於「非常樂意」」是「only too」的用法，與本句語境不同。",
-        "too-mcq-09": "「表示「我也是／你也是」」是「me too / you too」的用法，與本句語境不同。"
+        "too-mcq-12": "本句的「far too expensive」指「程度遠遠超過適當或可接受範圍」。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-12"
     },
@@ -1240,10 +1136,8 @@ export default {
       "masked": "The music was ____.",
       "options": [
         "too-mcq-12",
-        "too-mcq-11",
         "too-mcq-13",
-        "too-mcq-10",
-        "too-mcq-14",
+        "too-mcq-11",
         "too-mcq-09"
       ],
       "explanation": "本句的「way too loud」指「程度遠遠超過適當或可接受範圍」。",
@@ -1253,12 +1147,10 @@ export default {
         "way too loud"
       ],
       "optionReasons": {
-        "too-mcq-12": "本句指「程度遠遠超過適當或可接受範圍」。",
-        "too-mcq-11": "「雖然未必很好，但整體仍令人滿意；還不錯」是「not too bad」的用法，與本句語境不同。",
-        "too-mcq-13": "「強調某個通常不理想的情況非常真實／常見」是「all too」的用法，與本句語境不同。",
-        "too-mcq-10": "「程度沒有高到構成明顯問題；不太／不算太」是「not too」的用法，與本句語境不同。",
-        "too-mcq-14": "「非常、十分；尤其常見於「非常樂意」」是「only too」的用法，與本句語境不同。",
-        "too-mcq-09": "「表示「我也是／你也是」」是「me too / you too」的用法，與本句語境不同。"
+        "too-mcq-12": "本句的「way too loud」指「程度遠遠超過適當或可接受範圍」。",
+        "too-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-12"
     },
@@ -1270,11 +1162,9 @@ export default {
       "masked": "The problem is ____.",
       "options": [
         "too-mcq-13",
-        "too-mcq-12",
-        "too-mcq-14",
-        "too-mcq-11",
-        "too-mcq-15",
-        "too-mcq-10"
+        "too-mcq-05",
+        "too-mcq-19",
+        "too-mcq-11"
       ],
       "explanation": "本句的「all too common」指「強調某個通常不理想的情況非常真實／常見」。",
       "sentenceIndex": 27,
@@ -1283,12 +1173,10 @@ export default {
         "all too common"
       ],
       "optionReasons": {
-        "too-mcq-13": "本句指「強調某個通常不理想的情況非常真實／常見」。",
-        "too-mcq-12": "「程度遠遠超過適當或可接受範圍」是「far/much/way too」的用法，與本句語境不同。",
-        "too-mcq-14": "「非常、十分；尤其常見於「非常樂意」」是「only too」的用法，與本句語境不同。",
-        "too-mcq-11": "「雖然未必很好，但整體仍令人滿意；還不錯」是「not too bad」的用法，與本句語境不同。",
-        "too-mcq-15": "「好到超出合理預期，令人懷疑是否真實」是「too good to be true」的用法，與本句語境不同。",
-        "too-mcq-10": "「程度沒有高到構成明顯問題；不太／不算太」是「not too」的用法，與本句語境不同。"
+        "too-mcq-13": "本句的「all too common」指「強調某個通常不理想的情況非常真實／常見」。",
+        "too-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-13"
     },
@@ -1300,11 +1188,9 @@ export default {
       "masked": "It is ____ to become distracted.",
       "options": [
         "too-mcq-13",
-        "too-mcq-12",
-        "too-mcq-14",
-        "too-mcq-11",
-        "too-mcq-15",
-        "too-mcq-10"
+        "too-mcq-09",
+        "too-mcq-16",
+        "too-mcq-11"
       ],
       "explanation": "本句的「all too easy」指「強調某個通常不理想的情況非常真實／常見」。",
       "sentenceIndex": 28,
@@ -1313,12 +1199,10 @@ export default {
         "all too easy"
       ],
       "optionReasons": {
-        "too-mcq-13": "本句指「強調某個通常不理想的情況非常真實／常見」。",
-        "too-mcq-12": "「程度遠遠超過適當或可接受範圍」是「far/much/way too」的用法，與本句語境不同。",
-        "too-mcq-14": "「非常、十分；尤其常見於「非常樂意」」是「only too」的用法，與本句語境不同。",
-        "too-mcq-11": "「雖然未必很好，但整體仍令人滿意；還不錯」是「not too bad」的用法，與本句語境不同。",
-        "too-mcq-15": "「好到超出合理預期，令人懷疑是否真實」是「too good to be true」的用法，與本句語境不同。",
-        "too-mcq-10": "「程度沒有高到構成明顯問題；不太／不算太」是「not too」的用法，與本句語境不同。"
+        "too-mcq-13": "本句的「all too easy」指「強調某個通常不理想的情況非常真實／常見」。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-13"
     },
@@ -1330,11 +1214,9 @@ export default {
       "masked": "I’d be ____ to help.",
       "options": [
         "too-mcq-14",
-        "too-mcq-13",
-        "too-mcq-15",
         "too-mcq-12",
-        "too-mcq-16",
-        "too-mcq-11"
+        "too-mcq-15",
+        "too-mcq-09"
       ],
       "explanation": "本句的「only too happy」指「非常、十分；尤其常見於「非常樂意」」。",
       "sentenceIndex": 29,
@@ -1343,12 +1225,10 @@ export default {
         "only too happy"
       ],
       "optionReasons": {
-        "too-mcq-14": "本句指「非常、十分；尤其常見於「非常樂意」」。",
-        "too-mcq-13": "「強調某個通常不理想的情況非常真實／常見」是「all too」的用法，與本句語境不同。",
-        "too-mcq-15": "「好到超出合理預期，令人懷疑是否真實」是「too good to be true」的用法，與本句語境不同。",
-        "too-mcq-12": "「程度遠遠超過適當或可接受範圍」是「far/much/way too」的用法，與本句語境不同。",
-        "too-mcq-16": "「數量少到不足以滿足需要」是「too little/few」的用法，與本句語境不同。",
-        "too-mcq-11": "「雖然未必很好，但整體仍令人滿意；還不錯」是「not too bad」的用法，與本句語境不同。"
+        "too-mcq-14": "本句的「only too happy」指「非常、十分；尤其常見於「非常樂意」」。",
+        "too-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-14"
     },
@@ -1360,10 +1240,8 @@ export default {
       "masked": "She was ____ to explain.",
       "options": [
         "too-mcq-14",
-        "too-mcq-13",
-        "too-mcq-15",
-        "too-mcq-12",
-        "too-mcq-16",
+        "too-mcq-03",
+        "too-mcq-08",
         "too-mcq-11"
       ],
       "explanation": "本句的「only too willing」指「非常、十分；尤其常見於「非常樂意」」。",
@@ -1373,12 +1251,10 @@ export default {
         "only too willing"
       ],
       "optionReasons": {
-        "too-mcq-14": "本句指「非常、十分；尤其常見於「非常樂意」」。",
-        "too-mcq-13": "「強調某個通常不理想的情況非常真實／常見」是「all too」的用法，與本句語境不同。",
-        "too-mcq-15": "「好到超出合理預期，令人懷疑是否真實」是「too good to be true」的用法，與本句語境不同。",
-        "too-mcq-12": "「程度遠遠超過適當或可接受範圍」是「far/much/way too」的用法，與本句語境不同。",
-        "too-mcq-16": "「數量少到不足以滿足需要」是「too little/few」的用法，與本句語境不同。",
-        "too-mcq-11": "「雖然未必很好，但整體仍令人滿意；還不錯」是「not too bad」的用法，與本句語境不同。"
+        "too-mcq-14": "本句的「only too willing」指「非常、十分；尤其常見於「非常樂意」」。",
+        "too-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-14"
     },
@@ -1390,11 +1266,9 @@ export default {
       "masked": "The offer sounds ____.",
       "options": [
         "too-mcq-15",
-        "too-mcq-14",
-        "too-mcq-16",
-        "too-mcq-13",
-        "too-mcq-17",
-        "too-mcq-12"
+        "too-mcq-10",
+        "too-mcq-08",
+        "too-mcq-14"
       ],
       "explanation": "本句的「too good to be true」指「好到超出合理預期，令人懷疑是否真實」。",
       "sentenceIndex": 31,
@@ -1403,12 +1277,10 @@ export default {
         "too good to be true"
       ],
       "optionReasons": {
-        "too-mcq-15": "本句指「好到超出合理預期，令人懷疑是否真實」。",
-        "too-mcq-14": "「非常、十分；尤其常見於「非常樂意」」是「only too」的用法，與本句語境不同。",
-        "too-mcq-16": "「數量少到不足以滿足需要」是「too little/few」的用法，與本句語境不同。",
-        "too-mcq-13": "「強調某個通常不理想的情況非常真實／常見」是「all too」的用法，與本句語境不同。",
-        "too-mcq-17": "「負擔或程度已超過某人合理能承受的範圍」是「too much — standalone」的用法，與本句語境不同。",
-        "too-mcq-12": "「程度遠遠超過適當或可接受範圍」是「far/much/way too」的用法，與本句語境不同。"
+        "too-mcq-15": "本句的「too good to be true」指「好到超出合理預期，令人懷疑是否真實」。",
+        "too-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-15"
     },
@@ -1420,11 +1292,9 @@ export default {
       "masked": "At first, the deal seemed ____.",
       "options": [
         "too-mcq-15",
-        "too-mcq-14",
         "too-mcq-16",
-        "too-mcq-13",
-        "too-mcq-17",
-        "too-mcq-12"
+        "too-mcq-09",
+        "too-mcq-14"
       ],
       "explanation": "本句的「too good to be true」指「好到超出合理預期，令人懷疑是否真實」。",
       "sentenceIndex": 32,
@@ -1433,12 +1303,10 @@ export default {
         "too good to be true"
       ],
       "optionReasons": {
-        "too-mcq-15": "本句指「好到超出合理預期，令人懷疑是否真實」。",
-        "too-mcq-14": "「非常、十分；尤其常見於「非常樂意」」是「only too」的用法，與本句語境不同。",
-        "too-mcq-16": "「數量少到不足以滿足需要」是「too little/few」的用法，與本句語境不同。",
-        "too-mcq-13": "「強調某個通常不理想的情況非常真實／常見」是「all too」的用法，與本句語境不同。",
-        "too-mcq-17": "「負擔或程度已超過某人合理能承受的範圍」是「too much — standalone」的用法，與本句語境不同。",
-        "too-mcq-12": "「程度遠遠超過適當或可接受範圍」是「far/much/way too」的用法，與本句語境不同。"
+        "too-mcq-15": "本句的「too good to be true」指「好到超出合理預期，令人懷疑是否真實」。",
+        "too-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-15"
     },
@@ -1450,11 +1318,9 @@ export default {
       "masked": "It’s ____ to change the booking.",
       "options": [
         "too-mcq-19",
-        "too-mcq-18",
-        "too-mcq-20",
-        "too-mcq-17",
-        "too-mcq-16",
-        "too-mcq-15"
+        "too-mcq-13",
+        "too-mcq-09",
+        "too-mcq-10"
       ],
       "explanation": "本句的「too late」指「時間已超過仍可採取某行動或改變結果的界線」。",
       "sentenceIndex": 33,
@@ -1463,12 +1329,10 @@ export default {
         "too late"
       ],
       "optionReasons": {
-        "too-mcq-19": "本句指「時間已超過仍可採取某行動或改變結果的界線」。",
-        "too-mcq-18": "「某種程度超過某人能完成後面行動的範圍」是「8. too + adjective + for + person + to + verb — 對某人來說太……而無法……」的用法，與本句語境不同。",
-        "too-mcq-20": "「某件事情發生的時間比合適、合理或預期的時間早」是「18. too soon = 過早；太快」的用法，與本句語境不同。",
-        "too-mcq-17": "「負擔或程度已超過某人合理能承受的範圍」是「too much — standalone」的用法，與本句語境不同。",
-        "too-mcq-16": "「數量少到不足以滿足需要」是「too little/few」的用法，與本句語境不同。",
-        "too-mcq-15": "「好到超出合理預期，令人懷疑是否真實」是「too good to be true」的用法，與本句語境不同。"
+        "too-mcq-19": "本句的「too late」指「時間已超過仍可採取某行動或改變結果的界線」。",
+        "too-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-19"
     },
@@ -1480,11 +1344,9 @@ export default {
       "masked": "By the time I noticed the mistake, it was ____.",
       "options": [
         "too-mcq-19",
-        "too-mcq-18",
-        "too-mcq-20",
-        "too-mcq-17",
-        "too-mcq-16",
-        "too-mcq-15"
+        "too-mcq-13",
+        "too-mcq-08",
+        "too-mcq-10"
       ],
       "explanation": "本句的「too late」指「時間已超過仍可採取某行動或改變結果的界線」。",
       "sentenceIndex": 34,
@@ -1493,12 +1355,10 @@ export default {
         "too late"
       ],
       "optionReasons": {
-        "too-mcq-19": "本句指「時間已超過仍可採取某行動或改變結果的界線」。",
-        "too-mcq-18": "「某種程度超過某人能完成後面行動的範圍」是「8. too + adjective + for + person + to + verb — 對某人來說太……而無法……」的用法，與本句語境不同。",
-        "too-mcq-20": "「某件事情發生的時間比合適、合理或預期的時間早」是「18. too soon = 過早；太快」的用法，與本句語境不同。",
-        "too-mcq-17": "「負擔或程度已超過某人合理能承受的範圍」是「too much — standalone」的用法，與本句語境不同。",
-        "too-mcq-16": "「數量少到不足以滿足需要」是「too little/few」的用法，與本句語境不同。",
-        "too-mcq-15": "「好到超出合理預期，令人懷疑是否真實」是「too good to be true」的用法，與本句語境不同。"
+        "too-mcq-19": "本句的「too late」指「時間已超過仍可採取某行動或改變結果的界線」。",
+        "too-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-19"
     },
@@ -1510,11 +1370,9 @@ export default {
       "masked": "It is ____ to judge the results.",
       "options": [
         "too-mcq-20",
-        "too-mcq-19",
-        "too-mcq-18",
-        "too-mcq-17",
-        "too-mcq-16",
-        "too-mcq-15"
+        "too-mcq-11",
+        "too-mcq-10",
+        "too-mcq-09"
       ],
       "explanation": "本句的「too soon」指「某件事情發生的時間比合適、合理或預期的時間早」。",
       "sentenceIndex": 35,
@@ -1523,12 +1381,10 @@ export default {
         "too soon"
       ],
       "optionReasons": {
-        "too-mcq-20": "本句指「某件事情發生的時間比合適、合理或預期的時間早」。",
-        "too-mcq-19": "「時間已超過仍可採取某行動或改變結果的界線」是「17. too late = 過遲；為時已晚」的用法，與本句語境不同。",
-        "too-mcq-18": "「某種程度超過某人能完成後面行動的範圍」是「8. too + adjective + for + person + to + verb — 對某人來說太……而無法……」的用法，與本句語境不同。",
-        "too-mcq-17": "「負擔或程度已超過某人合理能承受的範圍」是「too much — standalone」的用法，與本句語境不同。",
-        "too-mcq-16": "「數量少到不足以滿足需要」是「too little/few」的用法，與本句語境不同。",
-        "too-mcq-15": "「好到超出合理預期，令人懷疑是否真實」是「too good to be true」的用法，與本句語境不同。"
+        "too-mcq-20": "本句的「too soon」指「某件事情發生的時間比合適、合理或預期的時間早」。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-20"
     },
@@ -1540,11 +1396,9 @@ export default {
       "masked": "The battery failed ____.",
       "options": [
         "too-mcq-20",
-        "too-mcq-19",
         "too-mcq-18",
-        "too-mcq-17",
-        "too-mcq-16",
-        "too-mcq-15"
+        "too-mcq-14",
+        "too-mcq-09"
       ],
       "explanation": "本句的「too soon」指「某件事情發生的時間比合適、合理或預期的時間早」。",
       "sentenceIndex": 36,
@@ -1553,12 +1407,10 @@ export default {
         "too soon"
       ],
       "optionReasons": {
-        "too-mcq-20": "本句指「某件事情發生的時間比合適、合理或預期的時間早」。",
-        "too-mcq-19": "「時間已超過仍可採取某行動或改變結果的界線」是「17. too late = 過遲；為時已晚」的用法，與本句語境不同。",
-        "too-mcq-18": "「某種程度超過某人能完成後面行動的範圍」是「8. too + adjective + for + person + to + verb — 對某人來說太……而無法……」的用法，與本句語境不同。",
-        "too-mcq-17": "「負擔或程度已超過某人合理能承受的範圍」是「too much — standalone」的用法，與本句語境不同。",
-        "too-mcq-16": "「數量少到不足以滿足需要」是「too little/few」的用法，與本句語境不同。",
-        "too-mcq-15": "「好到超出合理預期，令人懷疑是否真實」是「too good to be true」的用法，與本句語境不同。"
+        "too-mcq-20": "本句的「too soon」指「某件事情發生的時間比合適、合理或預期的時間早」。",
+        "too-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-20"
     },
@@ -1571,10 +1423,8 @@ export default {
       "options": [
         "too-mcq-16",
         "too-mcq-15",
-        "too-mcq-17",
-        "too-mcq-14",
-        "too-mcq-18",
-        "too-mcq-13"
+        "too-mcq-09",
+        "too-mcq-14"
       ],
       "explanation": "本句的「too little time」指「數量少到不足以滿足需要」。",
       "sentenceIndex": 37,
@@ -1583,12 +1433,10 @@ export default {
         "too little time"
       ],
       "optionReasons": {
-        "too-mcq-16": "本句指「數量少到不足以滿足需要」。",
-        "too-mcq-15": "「好到超出合理預期，令人懷疑是否真實」是「too good to be true」的用法，與本句語境不同。",
-        "too-mcq-17": "「負擔或程度已超過某人合理能承受的範圍」是「too much — standalone」的用法，與本句語境不同。",
-        "too-mcq-14": "「非常、十分；尤其常見於「非常樂意」」是「only too」的用法，與本句語境不同。",
-        "too-mcq-18": "「某種程度超過某人能完成後面行動的範圍」是「8. too + adjective + for + person + to + verb — 對某人來說太……而無法……」的用法，與本句語境不同。",
-        "too-mcq-13": "「強調某個通常不理想的情況非常真實／常見」是「all too」的用法，與本句語境不同。"
+        "too-mcq-16": "本句的「too little time」指「數量少到不足以滿足需要」。",
+        "too-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-16"
     },
@@ -1600,11 +1448,9 @@ export default {
       "masked": "There are ____.",
       "options": [
         "too-mcq-16",
-        "too-mcq-15",
-        "too-mcq-17",
-        "too-mcq-14",
-        "too-mcq-18",
-        "too-mcq-13"
+        "too-mcq-13",
+        "too-mcq-19",
+        "too-mcq-09"
       ],
       "explanation": "本句的「too few seats」指「數量少到不足以滿足需要」。",
       "sentenceIndex": 38,
@@ -1613,12 +1459,10 @@ export default {
         "too few seats"
       ],
       "optionReasons": {
-        "too-mcq-16": "本句指「數量少到不足以滿足需要」。",
-        "too-mcq-15": "「好到超出合理預期，令人懷疑是否真實」是「too good to be true」的用法，與本句語境不同。",
-        "too-mcq-17": "「負擔或程度已超過某人合理能承受的範圍」是「too much — standalone」的用法，與本句語境不同。",
-        "too-mcq-14": "「非常、十分；尤其常見於「非常樂意」」是「only too」的用法，與本句語境不同。",
-        "too-mcq-18": "「某種程度超過某人能完成後面行動的範圍」是「8. too + adjective + for + person + to + verb — 對某人來說太……而無法……」的用法，與本句語境不同。",
-        "too-mcq-13": "「強調某個通常不理想的情況非常真實／常見」是「all too」的用法，與本句語境不同。"
+        "too-mcq-16": "本句的「too few seats」指「數量少到不足以滿足需要」。",
+        "too-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-16"
     },
@@ -1630,10 +1474,8 @@ export default {
       "masked": "The noise was ____ for me.",
       "options": [
         "too-mcq-17",
-        "too-mcq-16",
-        "too-mcq-18",
-        "too-mcq-15",
-        "too-mcq-19",
+        "too-mcq-09",
+        "too-mcq-11",
         "too-mcq-14"
       ],
       "explanation": "本句的「too much」指「負擔或程度已超過某人合理能承受的範圍」。",
@@ -1643,12 +1485,10 @@ export default {
         "too much"
       ],
       "optionReasons": {
-        "too-mcq-17": "本句指「負擔或程度已超過某人合理能承受的範圍」。",
-        "too-mcq-16": "「數量少到不足以滿足需要」是「too little/few」的用法，與本句語境不同。",
-        "too-mcq-18": "「某種程度超過某人能完成後面行動的範圍」是「8. too + adjective + for + person + to + verb — 對某人來說太……而無法……」的用法，與本句語境不同。",
-        "too-mcq-15": "「好到超出合理預期，令人懷疑是否真實」是「too good to be true」的用法，與本句語境不同。",
-        "too-mcq-19": "「時間已超過仍可採取某行動或改變結果的界線」是「17. too late = 過遲；為時已晚」的用法，與本句語境不同。",
-        "too-mcq-14": "「非常、十分；尤其常見於「非常樂意」」是「only too」的用法，與本句語境不同。"
+        "too-mcq-17": "本句的「too much」指「負擔或程度已超過某人合理能承受的範圍」。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-17"
     },
@@ -1660,10 +1500,8 @@ export default {
       "masked": "Working twelve hours a day became ____.",
       "options": [
         "too-mcq-17",
-        "too-mcq-16",
-        "too-mcq-18",
-        "too-mcq-15",
-        "too-mcq-19",
+        "too-mcq-11",
+        "too-mcq-09",
         "too-mcq-14"
       ],
       "explanation": "本句的「too much」指「負擔或程度已超過某人合理能承受的範圍」。",
@@ -1673,12 +1511,10 @@ export default {
         "too much"
       ],
       "optionReasons": {
-        "too-mcq-17": "本句指「負擔或程度已超過某人合理能承受的範圍」。",
-        "too-mcq-16": "「數量少到不足以滿足需要」是「too little/few」的用法，與本句語境不同。",
-        "too-mcq-18": "「某種程度超過某人能完成後面行動的範圍」是「8. too + adjective + for + person + to + verb — 對某人來說太……而無法……」的用法，與本句語境不同。",
-        "too-mcq-15": "「好到超出合理預期，令人懷疑是否真實」是「too good to be true」的用法，與本句語境不同。",
-        "too-mcq-19": "「時間已超過仍可採取某行動或改變結果的界線」是「17. too late = 過遲；為時已晚」的用法，與本句語境不同。",
-        "too-mcq-14": "「非常、十分；尤其常見於「非常樂意」」是「only too」的用法，與本句語境不同。"
+        "too-mcq-17": "本句的「too much」指「負擔或程度已超過某人合理能承受的範圍」。",
+        "too-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "too-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "too-mcq-17"
     }
@@ -1690,5 +1526,7 @@ export default {
     "sha256": "cf2fd0b518c26707607f8ea1802d55daa6d1d3bad1fc1260da73b5bb2f913c7c",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

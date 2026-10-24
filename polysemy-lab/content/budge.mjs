@@ -56,23 +56,12 @@ export default {
     },
     {
       "id": "budge-mcq-03",
-      "title": "數字、價格、比率或情況從原有狀態出現些微變化；屬於",
+      "title": "數字、價格、比率或情況從原有狀態出現些微變化",
       "form": "budge — amount/price changes",
       "en": "budge — amount/price changes",
       "zh": "數字、價格、比率或情況從原有狀態出現些微變化；屬於",
       "note": "來源詞義：數字、價格、比率或情況從原有狀態出現些微變化；屬於",
-      "examples": [
-        [
-          "The price has hardly budged all year.",
-          "價格整年幾乎都沒有變動。",
-          "數字、價格、比率或情況從原有狀態出現些微變化；屬於"
-        ],
-        [
-          "Despite the exercise, the number on the scale barely budged.",
-          "儘管做了運動，磅秤上的數字幾乎沒有變化。",
-          "數字、價格、比率或情況從原有狀態出現些微變化；屬於"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -119,6 +108,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "budge-reviewed-c43b33e207",
+      "title": "改變；有所變動",
+      "form": "budge · source section 3",
+      "en": "改變；有所變動",
+      "zh": "改變；有所變動",
+      "note": "對照原始教材第 3 節及例句核實。",
+      "examples": [
+        [
+          "The price has hardly budged all year.",
+          "價格整年幾乎都沒有變動。",
+          "改變；有所變動"
+        ],
+        [
+          "Despite the exercise, the number on the scale barely budged.",
+          "儘管做了運動，磅秤上的數字幾乎沒有變化。",
+          "改變；有所變動"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -130,10 +141,7 @@ export default {
       "masked": "Some of the screws would not ____.",
       "options": [
         "budge-mcq-01",
-        "budge-mcq-02",
-        "budge-mcq-03",
-        "budge-mcq-04",
-        "budge-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「budge」指「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」。",
       "sentenceIndex": 0,
@@ -142,11 +150,8 @@ export default {
         "budge"
       ],
       "optionReasons": {
-        "budge-mcq-01": "本句指「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」。",
-        "budge-mcq-02": "「原本堅持某個立場、決定或要求，之後稍微改變或讓步」與本句語境不同。",
-        "budge-mcq-03": "「數字、價格、比率或情況從原有狀態出現些微變化；屬於」與本句語境不同。",
-        "budge-mcq-04": "「使某物從固定位置移動，即使只移動一點」與本句語境不同。",
-        "budge-mcq-05": "「不肯移動、改變立場或讓步的；較低頻」與本句語境不同。"
+        "budge-mcq-01": "本句的「budge」指「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "budge-mcq-01"
     },
@@ -158,10 +163,7 @@ export default {
       "masked": "The cupboard was so heavy that it would not ____.",
       "options": [
         "budge-mcq-01",
-        "budge-mcq-02",
-        "budge-mcq-03",
-        "budge-mcq-04",
-        "budge-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「budge」指「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」。",
       "sentenceIndex": 1,
@@ -170,11 +172,8 @@ export default {
         "budge"
       ],
       "optionReasons": {
-        "budge-mcq-01": "本句指「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」。",
-        "budge-mcq-02": "「原本堅持某個立場、決定或要求，之後稍微改變或讓步」與本句語境不同。",
-        "budge-mcq-03": "「數字、價格、比率或情況從原有狀態出現些微變化；屬於」與本句語境不同。",
-        "budge-mcq-04": "「使某物從固定位置移動，即使只移動一點」與本句語境不同。",
-        "budge-mcq-05": "「不肯移動、改變立場或讓步的；較低頻」與本句語境不同。"
+        "budge-mcq-01": "本句的「budge」指「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "budge-mcq-01"
     },
@@ -186,10 +185,7 @@ export default {
       "masked": "I pushed the door, but it barely ____.",
       "options": [
         "budge-mcq-01",
-        "budge-mcq-02",
-        "budge-mcq-03",
-        "budge-mcq-04",
-        "budge-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「budged」指「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」。",
       "sentenceIndex": 2,
@@ -198,11 +194,8 @@ export default {
         "budged"
       ],
       "optionReasons": {
-        "budge-mcq-01": "本句指「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」。",
-        "budge-mcq-02": "「原本堅持某個立場、決定或要求，之後稍微改變或讓步」與本句語境不同。",
-        "budge-mcq-03": "「數字、價格、比率或情況從原有狀態出現些微變化；屬於」與本句語境不同。",
-        "budge-mcq-04": "「使某物從固定位置移動，即使只移動一點」與本句語境不同。",
-        "budge-mcq-05": "「不肯移動、改變立場或讓步的；較低頻」與本句語境不同。"
+        "budge-mcq-01": "本句的「budged」指「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "budge-mcq-01"
     },
@@ -214,10 +207,7 @@ export default {
       "masked": "He refused to ____ on the issue.",
       "options": [
         "budge-mcq-02",
-        "budge-mcq-01",
-        "budge-mcq-03",
-        "budge-mcq-04",
-        "budge-mcq-05"
+        "budge-mcq-04"
       ],
       "explanation": "本句的「budge」指「原本堅持某個立場、決定或要求，之後稍微改變或讓步」。",
       "sentenceIndex": 3,
@@ -226,11 +216,8 @@ export default {
         "budge"
       ],
       "optionReasons": {
-        "budge-mcq-02": "本句指「原本堅持某個立場、決定或要求，之後稍微改變或讓步」。",
-        "budge-mcq-01": "「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」與本句語境不同。",
-        "budge-mcq-03": "「數字、價格、比率或情況從原有狀態出現些微變化；屬於」與本句語境不同。",
-        "budge-mcq-04": "「使某物從固定位置移動，即使只移動一點」與本句語境不同。",
-        "budge-mcq-05": "「不肯移動、改變立場或讓步的；較低頻」與本句語境不同。"
+        "budge-mcq-02": "本句的「budge」指「原本堅持某個立場、決定或要求，之後稍微改變或讓步」。",
+        "budge-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "budge-mcq-02"
     },
@@ -242,10 +229,7 @@ export default {
       "masked": "Neither side was willing to ____.",
       "options": [
         "budge-mcq-02",
-        "budge-mcq-01",
-        "budge-mcq-03",
-        "budge-mcq-04",
-        "budge-mcq-05"
+        "budge-mcq-04"
       ],
       "explanation": "本句的「budge」指「原本堅持某個立場、決定或要求，之後稍微改變或讓步」。",
       "sentenceIndex": 4,
@@ -254,69 +238,58 @@ export default {
         "budge"
       ],
       "optionReasons": {
-        "budge-mcq-02": "本句指「原本堅持某個立場、決定或要求，之後稍微改變或讓步」。",
-        "budge-mcq-01": "「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」與本句語境不同。",
-        "budge-mcq-03": "「數字、價格、比率或情況從原有狀態出現些微變化；屬於」與本句語境不同。",
-        "budge-mcq-04": "「使某物從固定位置移動，即使只移動一點」與本句語境不同。",
-        "budge-mcq-05": "「不肯移動、改變立場或讓步的；較低頻」與本句語境不同。"
+        "budge-mcq-02": "本句的「budge」指「原本堅持某個立場、決定或要求，之後稍微改變或讓步」。",
+        "budge-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "budge-mcq-02"
     },
     {
       "id": "budge-03-0",
-      "sense": "budge-mcq-03",
+      "sense": "budge-reviewed-c43b33e207",
       "en": "The price has hardly budged all year.",
       "zh": "價格整年幾乎都沒有變動。",
       "masked": "The price has hardly ____ all year.",
       "options": [
-        "budge-mcq-03",
-        "budge-mcq-02",
-        "budge-mcq-04",
-        "budge-mcq-01",
-        "budge-mcq-05"
+        "budge-reviewed-c43b33e207",
+        "contrast-purchase"
       ],
-      "explanation": "本句的「budged」指「數字、價格、比率或情況從原有狀態出現些微變化；屬於」。",
+      "explanation": "對照完整句子：「價格整年幾乎都沒有變動。」。這裡的「budged」表示「改變；有所變動」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "targets": [
         "budged"
       ],
       "optionReasons": {
-        "budge-mcq-03": "本句指「數字、價格、比率或情況從原有狀態出現些微變化；屬於」。",
-        "budge-mcq-02": "「原本堅持某個立場、決定或要求，之後稍微改變或讓步」與本句語境不同。",
-        "budge-mcq-04": "「使某物從固定位置移動，即使只移動一點」與本句語境不同。",
-        "budge-mcq-01": "「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」與本句語境不同。",
-        "budge-mcq-05": "「不肯移動、改變立場或讓步的；較低頻」與本句語境不同。"
+        "budge-reviewed-c43b33e207": "對照完整句子：「價格整年幾乎都沒有變動。」。這裡的「budged」表示「改變；有所變動」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "budge-mcq-03"
+      "correctOption": "budge-reviewed-c43b33e207",
+      "previousCorrectOption": "budge-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "budge-03-1",
-      "sense": "budge-mcq-03",
+      "sense": "budge-reviewed-c43b33e207",
       "en": "Despite the exercise, the number on the scale barely budged.",
       "zh": "儘管做了運動，磅秤上的數字幾乎沒有變化。",
       "masked": "Despite the exercise, the number on the scale barely ____.",
       "options": [
-        "budge-mcq-03",
-        "budge-mcq-02",
-        "budge-mcq-04",
-        "budge-mcq-01",
-        "budge-mcq-05"
+        "budge-reviewed-c43b33e207",
+        "contrast-purchase"
       ],
-      "explanation": "本句的「budged」指「數字、價格、比率或情況從原有狀態出現些微變化；屬於」。",
+      "explanation": "對照完整句子：「儘管做了運動，磅秤上的數字幾乎沒有變化。」。這裡的「budged」表示「改變；有所變動」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "targets": [
         "budged"
       ],
       "optionReasons": {
-        "budge-mcq-03": "本句指「數字、價格、比率或情況從原有狀態出現些微變化；屬於」。",
-        "budge-mcq-02": "「原本堅持某個立場、決定或要求，之後稍微改變或讓步」與本句語境不同。",
-        "budge-mcq-04": "「使某物從固定位置移動，即使只移動一點」與本句語境不同。",
-        "budge-mcq-01": "「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」與本句語境不同。",
-        "budge-mcq-05": "「不肯移動、改變立場或讓步的；較低頻」與本句語境不同。"
+        "budge-reviewed-c43b33e207": "對照完整句子：「儘管做了運動，磅秤上的數字幾乎沒有變化。」。這裡的「budged」表示「改變；有所變動」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "budge-mcq-03"
+      "correctOption": "budge-reviewed-c43b33e207",
+      "previousCorrectOption": "budge-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "budge-04-0",
@@ -326,10 +299,7 @@ export default {
       "masked": "We could not ____ the table.",
       "options": [
         "budge-mcq-04",
-        "budge-mcq-03",
-        "budge-mcq-05",
-        "budge-mcq-02",
-        "budge-mcq-01"
+        "budge-mcq-02"
       ],
       "explanation": "本句的「budge」指「使某物從固定位置移動，即使只移動一點」。",
       "sentenceIndex": 7,
@@ -338,11 +308,8 @@ export default {
         "budge"
       ],
       "optionReasons": {
-        "budge-mcq-04": "本句指「使某物從固定位置移動，即使只移動一點」。",
-        "budge-mcq-03": "「數字、價格、比率或情況從原有狀態出現些微變化；屬於」與本句語境不同。",
-        "budge-mcq-05": "「不肯移動、改變立場或讓步的；較低頻」與本句語境不同。",
-        "budge-mcq-02": "「原本堅持某個立場、決定或要求，之後稍微改變或讓步」與本句語境不同。",
-        "budge-mcq-01": "「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」與本句語境不同。"
+        "budge-mcq-04": "本句的「budge」指「使某物從固定位置移動，即使只移動一點」。",
+        "budge-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "budge-mcq-04"
     },
@@ -354,10 +321,7 @@ export default {
       "masked": "Even three people could not ____ the rock.",
       "options": [
         "budge-mcq-04",
-        "budge-mcq-03",
-        "budge-mcq-05",
-        "budge-mcq-02",
-        "budge-mcq-01"
+        "budge-mcq-02"
       ],
       "explanation": "本句的「budge」指「使某物從固定位置移動，即使只移動一點」。",
       "sentenceIndex": 8,
@@ -366,11 +330,8 @@ export default {
         "budge"
       ],
       "optionReasons": {
-        "budge-mcq-04": "本句指「使某物從固定位置移動，即使只移動一點」。",
-        "budge-mcq-03": "「數字、價格、比率或情況從原有狀態出現些微變化；屬於」與本句語境不同。",
-        "budge-mcq-05": "「不肯移動、改變立場或讓步的；較低頻」與本句語境不同。",
-        "budge-mcq-02": "「原本堅持某個立場、決定或要求，之後稍微改變或讓步」與本句語境不同。",
-        "budge-mcq-01": "「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」與本句語境不同。"
+        "budge-mcq-04": "本句的「budge」指「使某物從固定位置移動，即使只移動一點」。",
+        "budge-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "budge-mcq-04"
     },
@@ -382,10 +343,7 @@ export default {
       "masked": "She remained ____ in her decision.",
       "options": [
         "budge-mcq-05",
-        "budge-mcq-04",
-        "budge-mcq-03",
-        "budge-mcq-02",
-        "budge-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「unbudging」指「不肯移動、改變立場或讓步的；較低頻」。",
       "sentenceIndex": 9,
@@ -394,11 +352,8 @@ export default {
         "unbudging"
       ],
       "optionReasons": {
-        "budge-mcq-05": "本句指「不肯移動、改變立場或讓步的；較低頻」。",
-        "budge-mcq-04": "「使某物從固定位置移動，即使只移動一點」與本句語境不同。",
-        "budge-mcq-03": "「數字、價格、比率或情況從原有狀態出現些微變化；屬於」與本句語境不同。",
-        "budge-mcq-02": "「原本堅持某個立場、決定或要求，之後稍微改變或讓步」與本句語境不同。",
-        "budge-mcq-01": "「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」與本句語境不同。"
+        "budge-mcq-05": "本句的「unbudging」指「不肯移動、改變立場或讓步的；較低頻」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "budge-mcq-05"
     },
@@ -410,10 +365,7 @@ export default {
       "masked": "His position was completely ____.",
       "options": [
         "budge-mcq-05",
-        "budge-mcq-04",
-        "budge-mcq-03",
-        "budge-mcq-02",
-        "budge-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「unbudging」指「不肯移動、改變立場或讓步的；較低頻」。",
       "sentenceIndex": 10,
@@ -422,11 +374,8 @@ export default {
         "unbudging"
       ],
       "optionReasons": {
-        "budge-mcq-05": "本句指「不肯移動、改變立場或讓步的；較低頻」。",
-        "budge-mcq-04": "「使某物從固定位置移動，即使只移動一點」與本句語境不同。",
-        "budge-mcq-03": "「數字、價格、比率或情況從原有狀態出現些微變化；屬於」與本句語境不同。",
-        "budge-mcq-02": "「原本堅持某個立場、決定或要求，之後稍微改變或讓步」與本句語境不同。",
-        "budge-mcq-01": "「從固定位置稍微移動，尤其指原本很難移動的東西終於動了一點」與本句語境不同。"
+        "budge-mcq-05": "本句的「unbudging」指「不肯移動、改變立場或讓步的；較低頻」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "budge-mcq-05"
     }
@@ -438,5 +387,12 @@ export default {
     "sha256": "45da6514c30d8872032cef5cd0e10fa8f2e3f939f57d54c2e7df2bb5d7ff59b5",
     "pages": 8
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

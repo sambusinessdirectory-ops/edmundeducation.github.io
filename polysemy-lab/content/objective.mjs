@@ -1015,11 +1015,9 @@ export default {
       "masked": "Teams should begin with a shared ____.",
       "options": [
         "objective-mcq-01",
-        "objective-mcq-02",
-        "objective-mcq-03",
-        "objective-mcq-04",
-        "objective-mcq-05",
-        "objective-mcq-06"
+        "objective-mcq-22",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objective」指「目標；目的 intended result」。",
       "sentenceIndex": 0,
@@ -1028,12 +1026,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-01": "本句指「目標；目的 intended result」。",
-        "objective-mcq-02": "「共同目標 team goal」與本句語境不同。",
-        "objective-mcq-03": "「主要目標 central goal」與本句語境不同。",
-        "objective-mcq-04": "「首要目標 highest-priority goal」與本句語境不同。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。"
+        "objective-mcq-01": "本句的「objective」指「目標；目的 intended result」。",
+        "objective-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-01"
     },
@@ -1045,11 +1041,9 @@ export default {
       "masked": "The main ____ is to improve communication.",
       "options": [
         "objective-mcq-01",
-        "objective-mcq-02",
-        "objective-mcq-03",
-        "objective-mcq-04",
-        "objective-mcq-05",
-        "objective-mcq-06"
+        "objective-mcq-14",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objective」指「目標；目的 intended result」。",
       "sentenceIndex": 1,
@@ -1058,12 +1052,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-01": "本句指「目標；目的 intended result」。",
-        "objective-mcq-02": "「共同目標 team goal」與本句語境不同。",
-        "objective-mcq-03": "「主要目標 central goal」與本句語境不同。",
-        "objective-mcq-04": "「首要目標 highest-priority goal」與本句語境不同。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。"
+        "objective-mcq-01": "本句的「objective」指「目標；目的 intended result」。",
+        "objective-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-01"
     },
@@ -1075,11 +1067,9 @@ export default {
       "masked": "Each department should understand the project's ____.",
       "options": [
         "objective-mcq-01",
-        "objective-mcq-02",
-        "objective-mcq-03",
-        "objective-mcq-04",
-        "objective-mcq-05",
-        "objective-mcq-06"
+        "objective-mcq-17",
+        "objective-mcq-65",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objectives」指「目標；目的 intended result」。",
       "sentenceIndex": 2,
@@ -1088,12 +1078,10 @@ export default {
         "objectives"
       ],
       "optionReasons": {
-        "objective-mcq-01": "本句指「目標；目的 intended result」。",
-        "objective-mcq-02": "「共同目標 team goal」與本句語境不同。",
-        "objective-mcq-03": "「主要目標 central goal」與本句語境不同。",
-        "objective-mcq-04": "「首要目標 highest-priority goal」與本句語境不同。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。"
+        "objective-mcq-01": "本句的「objectives」指「目標；目的 intended result」。",
+        "objective-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-01"
     },
@@ -1105,11 +1093,9 @@ export default {
       "masked": "A shared ____ helps unite different departments.",
       "options": [
         "objective-mcq-02",
-        "objective-mcq-01",
-        "objective-mcq-03",
-        "objective-mcq-04",
-        "objective-mcq-05",
-        "objective-mcq-06"
+        "objective-mcq-15",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objective」指「共同目標 team goal」。",
       "sentenceIndex": 3,
@@ -1118,12 +1104,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-02": "本句指「共同目標 team goal」。",
-        "objective-mcq-01": "「目標；目的 intended result」與本句語境不同。",
-        "objective-mcq-03": "「主要目標 central goal」與本句語境不同。",
-        "objective-mcq-04": "「首要目標 highest-priority goal」與本句語境不同。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。"
+        "objective-mcq-02": "本句的「objective」指「共同目標 team goal」。",
+        "objective-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-02"
     },
@@ -1135,11 +1119,9 @@ export default {
       "masked": "The team agreed on a shared ____ before dividing the work.",
       "options": [
         "objective-mcq-02",
-        "objective-mcq-01",
-        "objective-mcq-03",
-        "objective-mcq-04",
-        "objective-mcq-05",
-        "objective-mcq-06"
+        "objective-mcq-22",
+        "objective-mcq-65",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objective」指「共同目標 team goal」。",
       "sentenceIndex": 4,
@@ -1148,12 +1130,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-02": "本句指「共同目標 team goal」。",
-        "objective-mcq-01": "「目標；目的 intended result」與本句語境不同。",
-        "objective-mcq-03": "「主要目標 central goal」與本句語境不同。",
-        "objective-mcq-04": "「首要目標 highest-priority goal」與本句語境不同。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。"
+        "objective-mcq-02": "本句的「objective」指「共同目標 team goal」。",
+        "objective-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-02"
     },
@@ -1165,11 +1145,9 @@ export default {
       "masked": "The main ____ is to reduce delays.",
       "options": [
         "objective-mcq-03",
-        "objective-mcq-02",
-        "objective-mcq-04",
-        "objective-mcq-01",
-        "objective-mcq-05",
-        "objective-mcq-06"
+        "objective-mcq-67",
+        "objective-mcq-65",
+        "objective-mcq-20"
       ],
       "explanation": "本句的「objective」指「主要目標 central goal」。",
       "sentenceIndex": 5,
@@ -1178,12 +1156,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-03": "本句指「主要目標 central goal」。",
-        "objective-mcq-02": "「共同目標 team goal」與本句語境不同。",
-        "objective-mcq-04": "「首要目標 highest-priority goal」與本句語境不同。",
-        "objective-mcq-01": "「目標；目的 intended result」與本句語境不同。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。"
+        "objective-mcq-03": "本句的「objective」指「主要目標 central goal」。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-03"
     },
@@ -1195,11 +1171,9 @@ export default {
       "masked": "Improving quality remains our main ____.",
       "options": [
         "objective-mcq-03",
-        "objective-mcq-02",
-        "objective-mcq-04",
-        "objective-mcq-01",
-        "objective-mcq-05",
-        "objective-mcq-06"
+        "objective-mcq-67",
+        "objective-mcq-15",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objective」指「主要目標 central goal」。",
       "sentenceIndex": 6,
@@ -1208,12 +1182,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-03": "本句指「主要目標 central goal」。",
-        "objective-mcq-02": "「共同目標 team goal」與本句語境不同。",
-        "objective-mcq-04": "「首要目標 highest-priority goal」與本句語境不同。",
-        "objective-mcq-01": "「目標；目的 intended result」與本句語境不同。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。"
+        "objective-mcq-03": "本句的「objective」指「主要目標 central goal」。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-03"
     },
@@ -1225,11 +1197,9 @@ export default {
       "masked": "Safety is our primary ____.",
       "options": [
         "objective-mcq-04",
-        "objective-mcq-03",
-        "objective-mcq-05",
-        "objective-mcq-02",
-        "objective-mcq-06",
-        "objective-mcq-01"
+        "objective-mcq-17",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objective」指「首要目標 highest-priority goal」。",
       "sentenceIndex": 7,
@@ -1238,12 +1208,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-04": "本句指「首要目標 highest-priority goal」。",
-        "objective-mcq-03": "「主要目標 central goal」與本句語境不同。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。",
-        "objective-mcq-02": "「共同目標 team goal」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。",
-        "objective-mcq-01": "「目標；目的 intended result」與本句語境不同。"
+        "objective-mcq-04": "本句的「objective」指「首要目標 highest-priority goal」。",
+        "objective-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-04"
     },
@@ -1255,11 +1223,9 @@ export default {
       "masked": "The primary ____ of the training is to reduce errors.",
       "options": [
         "objective-mcq-04",
-        "objective-mcq-03",
-        "objective-mcq-05",
-        "objective-mcq-02",
-        "objective-mcq-06",
-        "objective-mcq-01"
+        "objective-mcq-17",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objective」指「首要目標 highest-priority goal」。",
       "sentenceIndex": 8,
@@ -1268,12 +1234,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-04": "本句指「首要目標 highest-priority goal」。",
-        "objective-mcq-03": "「主要目標 central goal」與本句語境不同。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。",
-        "objective-mcq-02": "「共同目標 team goal」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。",
-        "objective-mcq-01": "「目標；目的 intended result」與本句語境不同。"
+        "objective-mcq-04": "本句的「objective」指「首要目標 highest-priority goal」。",
+        "objective-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-04"
     },
@@ -1285,11 +1249,9 @@ export default {
       "masked": "Individual tasks should support the overall ____.",
       "options": [
         "objective-mcq-05",
-        "objective-mcq-04",
-        "objective-mcq-06",
-        "objective-mcq-03",
-        "objective-mcq-07",
-        "objective-mcq-02"
+        "objective-mcq-65",
+        "objective-mcq-20",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objective」指「整體目標 broad goal」。",
       "sentenceIndex": 9,
@@ -1298,12 +1260,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-05": "本句指「整體目標 broad goal」。",
-        "objective-mcq-04": "「首要目標 highest-priority goal」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。",
-        "objective-mcq-03": "「主要目標 central goal」與本句語境不同。",
-        "objective-mcq-07": "「策略目標 strategy」與本句語境不同。",
-        "objective-mcq-02": "「共同目標 team goal」與本句語境不同。"
+        "objective-mcq-05": "本句的「objective」指「整體目標 broad goal」。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-05"
     },
@@ -1315,11 +1275,9 @@ export default {
       "masked": "The overall ____ is effective collaboration.",
       "options": [
         "objective-mcq-05",
-        "objective-mcq-04",
-        "objective-mcq-06",
-        "objective-mcq-03",
-        "objective-mcq-07",
-        "objective-mcq-02"
+        "objective-mcq-16",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objective」指「整體目標 broad goal」。",
       "sentenceIndex": 10,
@@ -1328,12 +1286,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-05": "本句指「整體目標 broad goal」。",
-        "objective-mcq-04": "「首要目標 highest-priority goal」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。",
-        "objective-mcq-03": "「主要目標 central goal」與本句語境不同。",
-        "objective-mcq-07": "「策略目標 strategy」與本句語境不同。",
-        "objective-mcq-02": "「共同目標 team goal」與本句語境不同。"
+        "objective-mcq-05": "本句的「objective」指「整體目標 broad goal」。",
+        "objective-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-05"
     },
@@ -1345,11 +1301,9 @@ export default {
       "masked": "Each workstream should have a specific ____.",
       "options": [
         "objective-mcq-06",
-        "objective-mcq-05",
-        "objective-mcq-07",
-        "objective-mcq-04",
-        "objective-mcq-08",
-        "objective-mcq-03"
+        "objective-mcq-20",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objective」指「具體目標 defined goal」。",
       "sentenceIndex": 11,
@@ -1358,12 +1312,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-06": "本句指「具體目標 defined goal」。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。",
-        "objective-mcq-07": "「策略目標 strategy」與本句語境不同。",
-        "objective-mcq-04": "「首要目標 highest-priority goal」與本句語境不同。",
-        "objective-mcq-08": "「學習目標 education」與本句語境不同。",
-        "objective-mcq-03": "「主要目標 central goal」與本句語境不同。"
+        "objective-mcq-06": "本句的「objective」指「具體目標 defined goal」。",
+        "objective-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-06"
     },
@@ -1375,11 +1327,9 @@ export default {
       "masked": "The report sets out three specific ____.",
       "options": [
         "objective-mcq-06",
-        "objective-mcq-05",
-        "objective-mcq-07",
-        "objective-mcq-04",
-        "objective-mcq-08",
-        "objective-mcq-03"
+        "objective-mcq-17",
+        "objective-mcq-65",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objectives」指「具體目標 defined goal」。",
       "sentenceIndex": 12,
@@ -1388,12 +1338,10 @@ export default {
         "objectives"
       ],
       "optionReasons": {
-        "objective-mcq-06": "本句指「具體目標 defined goal」。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。",
-        "objective-mcq-07": "「策略目標 strategy」與本句語境不同。",
-        "objective-mcq-04": "「首要目標 highest-priority goal」與本句語境不同。",
-        "objective-mcq-08": "「學習目標 education」與本句語境不同。",
-        "objective-mcq-03": "「主要目標 central goal」與本句語境不同。"
+        "objective-mcq-06": "本句的「objectives」指「具體目標 defined goal」。",
+        "objective-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-06"
     },
@@ -1405,11 +1353,9 @@ export default {
       "masked": "International expansion is one of the company's strategic ____.",
       "options": [
         "objective-mcq-07",
-        "objective-mcq-06",
-        "objective-mcq-08",
-        "objective-mcq-05",
-        "objective-mcq-09",
-        "objective-mcq-04"
+        "objective-mcq-14",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objectives」指「策略目標 strategy」。",
       "sentenceIndex": 15,
@@ -1418,12 +1364,10 @@ export default {
         "objectives"
       ],
       "optionReasons": {
-        "objective-mcq-07": "本句指「策略目標 strategy」。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。",
-        "objective-mcq-08": "「學習目標 education」與本句語境不同。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。",
-        "objective-mcq-09": "「研究目標 research」與本句語境不同。",
-        "objective-mcq-04": "「首要目標 highest-priority goal」與本句語境不同。"
+        "objective-mcq-07": "本句的「objectives」指「策略目標 strategy」。",
+        "objective-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-07"
     },
@@ -1435,11 +1379,9 @@ export default {
       "masked": "Short-term decisions should support strategic ____.",
       "options": [
         "objective-mcq-07",
-        "objective-mcq-06",
-        "objective-mcq-08",
-        "objective-mcq-05",
-        "objective-mcq-09",
-        "objective-mcq-04"
+        "objective-mcq-65",
+        "objective-mcq-14",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objectives」指「策略目標 strategy」。",
       "sentenceIndex": 16,
@@ -1448,12 +1390,10 @@ export default {
         "objectives"
       ],
       "optionReasons": {
-        "objective-mcq-07": "本句指「策略目標 strategy」。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。",
-        "objective-mcq-08": "「學習目標 education」與本句語境不同。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。",
-        "objective-mcq-09": "「研究目標 research」與本句語境不同。",
-        "objective-mcq-04": "「首要目標 highest-priority goal」與本句語境不同。"
+        "objective-mcq-07": "本句的「objectives」指「策略目標 strategy」。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-07"
     },
@@ -1465,11 +1405,9 @@ export default {
       "masked": "Each lesson has several learning ____.",
       "options": [
         "objective-mcq-08",
-        "objective-mcq-07",
-        "objective-mcq-09",
-        "objective-mcq-06",
-        "objective-mcq-10",
-        "objective-mcq-05"
+        "objective-mcq-21",
+        "objective-mcq-65",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objectives」指「學習目標 education」。",
       "sentenceIndex": 19,
@@ -1478,12 +1416,10 @@ export default {
         "objectives"
       ],
       "optionReasons": {
-        "objective-mcq-08": "本句指「學習目標 education」。",
-        "objective-mcq-07": "「策略目標 strategy」與本句語境不同。",
-        "objective-mcq-09": "「研究目標 research」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。",
-        "objective-mcq-10": "「設定目標 define goal」與本句語境不同。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。"
+        "objective-mcq-08": "本句的「objectives」指「學習目標 education」。",
+        "objective-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-08"
     },
@@ -1495,11 +1431,9 @@ export default {
       "masked": "Students should understand the learning ____ before beginning the task.",
       "options": [
         "objective-mcq-08",
-        "objective-mcq-07",
-        "objective-mcq-09",
-        "objective-mcq-06",
-        "objective-mcq-10",
-        "objective-mcq-05"
+        "objective-mcq-65",
+        "objective-mcq-20",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objectives」指「學習目標 education」。",
       "sentenceIndex": 20,
@@ -1508,12 +1442,10 @@ export default {
         "objectives"
       ],
       "optionReasons": {
-        "objective-mcq-08": "本句指「學習目標 education」。",
-        "objective-mcq-07": "「策略目標 strategy」與本句語境不同。",
-        "objective-mcq-09": "「研究目標 research」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。",
-        "objective-mcq-10": "「設定目標 define goal」與本句語境不同。",
-        "objective-mcq-05": "「整體目標 broad goal」與本句語境不同。"
+        "objective-mcq-08": "本句的「objectives」指「學習目標 education」。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-08"
     },
@@ -1525,11 +1457,9 @@ export default {
       "masked": "The study has two main research ____.",
       "options": [
         "objective-mcq-09",
-        "objective-mcq-08",
-        "objective-mcq-10",
-        "objective-mcq-07",
-        "objective-mcq-11",
-        "objective-mcq-06"
+        "objective-mcq-20",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objectives」指「研究目標 research」。",
       "sentenceIndex": 21,
@@ -1538,12 +1468,10 @@ export default {
         "objectives"
       ],
       "optionReasons": {
-        "objective-mcq-09": "本句指「研究目標 research」。",
-        "objective-mcq-08": "「學習目標 education」與本句語境不同。",
-        "objective-mcq-10": "「設定目標 define goal」與本句語境不同。",
-        "objective-mcq-07": "「策略目標 strategy」與本句語境不同。",
-        "objective-mcq-11": "「達成目標 success」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。"
+        "objective-mcq-09": "本句的「objectives」指「研究目標 research」。",
+        "objective-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-09"
     },
@@ -1555,11 +1483,9 @@ export default {
       "masked": "The research ____ must be clearly defined.",
       "options": [
         "objective-mcq-09",
-        "objective-mcq-08",
-        "objective-mcq-10",
-        "objective-mcq-07",
-        "objective-mcq-11",
-        "objective-mcq-06"
+        "objective-mcq-20",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objective」指「研究目標 research」。",
       "sentenceIndex": 22,
@@ -1568,12 +1494,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-09": "本句指「研究目標 research」。",
-        "objective-mcq-08": "「學習目標 education」與本句語境不同。",
-        "objective-mcq-10": "「設定目標 define goal」與本句語境不同。",
-        "objective-mcq-07": "「策略目標 strategy」與本句語境不同。",
-        "objective-mcq-11": "「達成目標 success」與本句語境不同。",
-        "objective-mcq-06": "「具體目標 defined goal」與本句語境不同。"
+        "objective-mcq-09": "本句的「objective」指「研究目標 research」。",
+        "objective-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-09"
     },
@@ -1585,11 +1509,9 @@ export default {
       "masked": "Managers should set clear ____.",
       "options": [
         "objective-mcq-10",
-        "objective-mcq-09",
-        "objective-mcq-11",
-        "objective-mcq-08",
-        "objective-mcq-12",
-        "objective-mcq-07"
+        "objective-mcq-15",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objectives」指「設定目標 define goal」。",
       "sentenceIndex": 27,
@@ -1598,12 +1520,10 @@ export default {
         "objectives"
       ],
       "optionReasons": {
-        "objective-mcq-10": "本句指「設定目標 define goal」。",
-        "objective-mcq-09": "「研究目標 research」與本句語境不同。",
-        "objective-mcq-11": "「達成目標 success」與本句語境不同。",
-        "objective-mcq-08": "「學習目標 education」與本句語境不同。",
-        "objective-mcq-12": "「追求目標 work toward」與本句語境不同。",
-        "objective-mcq-07": "「策略目標 strategy」與本句語境不同。"
+        "objective-mcq-10": "本句的「objectives」指「設定目標 define goal」。",
+        "objective-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-10"
     },
@@ -1615,11 +1535,9 @@ export default {
       "masked": "The team set an ____ for each stage.",
       "options": [
         "objective-mcq-10",
-        "objective-mcq-09",
-        "objective-mcq-11",
-        "objective-mcq-08",
-        "objective-mcq-12",
-        "objective-mcq-07"
+        "objective-mcq-20",
+        "objective-mcq-65",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objective」指「設定目標 define goal」。",
       "sentenceIndex": 28,
@@ -1628,12 +1546,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-10": "本句指「設定目標 define goal」。",
-        "objective-mcq-09": "「研究目標 research」與本句語境不同。",
-        "objective-mcq-11": "「達成目標 success」與本句語境不同。",
-        "objective-mcq-08": "「學習目標 education」與本句語境不同。",
-        "objective-mcq-12": "「追求目標 work toward」與本句語境不同。",
-        "objective-mcq-07": "「策略目標 strategy」與本句語境不同。"
+        "objective-mcq-10": "本句的「objective」指「設定目標 define goal」。",
+        "objective-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-10"
     },
@@ -1645,11 +1561,9 @@ export default {
       "masked": "The team achieved its ____.",
       "options": [
         "objective-mcq-11",
-        "objective-mcq-10",
-        "objective-mcq-12",
-        "objective-mcq-09",
-        "objective-mcq-13",
-        "objective-mcq-08"
+        "objective-mcq-14",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objective」指「達成目標 success」。",
       "sentenceIndex": 31,
@@ -1658,12 +1572,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-11": "本句指「達成目標 success」。",
-        "objective-mcq-10": "「設定目標 define goal」與本句語境不同。",
-        "objective-mcq-12": "「追求目標 work toward」與本句語境不同。",
-        "objective-mcq-09": "「研究目標 research」與本句語境不同。",
-        "objective-mcq-13": "「客觀的 fact-based」與本句語境不同。",
-        "objective-mcq-08": "「學習目標 education」與本句語境不同。"
+        "objective-mcq-11": "本句的「objective」指「達成目標 success」。",
+        "objective-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-11"
     },
@@ -1675,11 +1587,9 @@ export default {
       "masked": "We met all the project ____.",
       "options": [
         "objective-mcq-11",
-        "objective-mcq-10",
-        "objective-mcq-12",
-        "objective-mcq-09",
-        "objective-mcq-13",
-        "objective-mcq-08"
+        "objective-mcq-17",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objectives」指「達成目標 success」。",
       "sentenceIndex": 32,
@@ -1688,12 +1598,10 @@ export default {
         "objectives"
       ],
       "optionReasons": {
-        "objective-mcq-11": "本句指「達成目標 success」。",
-        "objective-mcq-10": "「設定目標 define goal」與本句語境不同。",
-        "objective-mcq-12": "「追求目標 work toward」與本句語境不同。",
-        "objective-mcq-09": "「研究目標 research」與本句語境不同。",
-        "objective-mcq-13": "「客觀的 fact-based」與本句語境不同。",
-        "objective-mcq-08": "「學習目標 education」與本句語境不同。"
+        "objective-mcq-11": "本句的「objectives」指「達成目標 success」。",
+        "objective-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-11"
     },
@@ -1705,11 +1613,9 @@ export default {
       "masked": "The departments were pursuing different ____.",
       "options": [
         "objective-mcq-12",
-        "objective-mcq-11",
-        "objective-mcq-13",
-        "objective-mcq-10",
-        "objective-mcq-14",
-        "objective-mcq-09"
+        "objective-mcq-21",
+        "objective-mcq-65",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objectives」指「追求目標 work toward」。",
       "sentenceIndex": 33,
@@ -1718,12 +1624,10 @@ export default {
         "objectives"
       ],
       "optionReasons": {
-        "objective-mcq-12": "本句指「追求目標 work toward」。",
-        "objective-mcq-11": "「達成目標 success」與本句語境不同。",
-        "objective-mcq-13": "「客觀的 fact-based」與本句語境不同。",
-        "objective-mcq-10": "「設定目標 define goal」與本句語境不同。",
-        "objective-mcq-14": "「客觀評估 impartial evaluation」與本句語境不同。",
-        "objective-mcq-09": "「研究目標 research」與本句語境不同。"
+        "objective-mcq-12": "本句的「objectives」指「追求目標 work toward」。",
+        "objective-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-12"
     },
@@ -1735,11 +1639,9 @@ export default {
       "masked": "An organisation may pursue several ____ simultaneously.",
       "options": [
         "objective-mcq-12",
-        "objective-mcq-11",
-        "objective-mcq-13",
-        "objective-mcq-10",
-        "objective-mcq-14",
-        "objective-mcq-09"
+        "objective-mcq-15",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objectives」指「追求目標 work toward」。",
       "sentenceIndex": 34,
@@ -1748,12 +1650,10 @@ export default {
         "objectives"
       ],
       "optionReasons": {
-        "objective-mcq-12": "本句指「追求目標 work toward」。",
-        "objective-mcq-11": "「達成目標 success」與本句語境不同。",
-        "objective-mcq-13": "「客觀的 fact-based」與本句語境不同。",
-        "objective-mcq-10": "「設定目標 define goal」與本句語境不同。",
-        "objective-mcq-14": "「客觀評估 impartial evaluation」與本句語境不同。",
-        "objective-mcq-09": "「研究目標 research」與本句語境不同。"
+        "objective-mcq-12": "本句的「objectives」指「追求目標 work toward」。",
+        "objective-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-12"
     },
@@ -1765,11 +1665,9 @@ export default {
       "masked": "Individual evaluations should provide a more ____ assessment of contribution.",
       "options": [
         "objective-mcq-14",
-        "objective-mcq-13",
-        "objective-mcq-15",
-        "objective-mcq-12",
-        "objective-mcq-16",
-        "objective-mcq-11"
+        "objective-mcq-66",
+        "objective-mcq-65",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objective」指「客觀評估 impartial evaluation」。",
       "sentenceIndex": 39,
@@ -1778,12 +1676,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-14": "本句指「客觀評估 impartial evaluation」。",
-        "objective-mcq-13": "「客觀的 fact-based」與本句語境不同。",
-        "objective-mcq-15": "「客觀判斷 evidence-based」與本句語境不同。",
-        "objective-mcq-12": "「追求目標 work toward」與本句語境不同。",
-        "objective-mcq-16": "「客觀分析 impartial analysis」與本句語境不同。",
-        "objective-mcq-11": "「達成目標 success」與本句語境不同。"
+        "objective-mcq-14": "本句的「objective」指「客觀評估 impartial evaluation」。",
+        "objective-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-14"
     },
@@ -1795,11 +1691,9 @@ export default {
       "masked": "We need an ____ assessment of the risks.",
       "options": [
         "objective-mcq-14",
-        "objective-mcq-13",
-        "objective-mcq-15",
-        "objective-mcq-12",
-        "objective-mcq-16",
-        "objective-mcq-11"
+        "objective-mcq-09",
+        "objective-mcq-65",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objective」指「客觀評估 impartial evaluation」。",
       "sentenceIndex": 40,
@@ -1808,12 +1702,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-14": "本句指「客觀評估 impartial evaluation」。",
-        "objective-mcq-13": "「客觀的 fact-based」與本句語境不同。",
-        "objective-mcq-15": "「客觀判斷 evidence-based」與本句語境不同。",
-        "objective-mcq-12": "「追求目標 work toward」與本句語境不同。",
-        "objective-mcq-16": "「客觀分析 impartial analysis」與本句語境不同。",
-        "objective-mcq-11": "「達成目標 success」與本句語境不同。"
+        "objective-mcq-14": "本句的「objective」指「客觀評估 impartial evaluation」。",
+        "objective-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-14"
     },
@@ -1825,11 +1717,9 @@ export default {
       "masked": "Personal friendship should not affect ____ judgment.",
       "options": [
         "objective-mcq-15",
-        "objective-mcq-14",
-        "objective-mcq-16",
-        "objective-mcq-13",
-        "objective-mcq-17",
-        "objective-mcq-12"
+        "objective-mcq-04",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objective」指「客觀判斷 evidence-based」。",
       "sentenceIndex": 41,
@@ -1838,12 +1728,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-15": "本句指「客觀判斷 evidence-based」。",
-        "objective-mcq-14": "「客觀評估 impartial evaluation」與本句語境不同。",
-        "objective-mcq-16": "「客觀分析 impartial analysis」與本句語境不同。",
-        "objective-mcq-13": "「客觀的 fact-based」與本句語境不同。",
-        "objective-mcq-17": "「客觀證據 independently verifiable」與本句語境不同。",
-        "objective-mcq-12": "「追求目標 work toward」與本句語境不同。"
+        "objective-mcq-15": "本句的「objective」指「客觀判斷 evidence-based」。",
+        "objective-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-15"
     },
@@ -1855,11 +1743,9 @@ export default {
       "masked": "____ judgment requires reliable evidence.",
       "options": [
         "objective-mcq-15",
-        "objective-mcq-14",
-        "objective-mcq-16",
-        "objective-mcq-13",
-        "objective-mcq-17",
-        "objective-mcq-12"
+        "objective-mcq-07",
+        "objective-mcq-65",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「Objective」指「客觀判斷 evidence-based」。",
       "sentenceIndex": 42,
@@ -1868,12 +1754,10 @@ export default {
         "Objective"
       ],
       "optionReasons": {
-        "objective-mcq-15": "本句指「客觀判斷 evidence-based」。",
-        "objective-mcq-14": "「客觀評估 impartial evaluation」與本句語境不同。",
-        "objective-mcq-16": "「客觀分析 impartial analysis」與本句語境不同。",
-        "objective-mcq-13": "「客觀的 fact-based」與本句語境不同。",
-        "objective-mcq-17": "「客觀證據 independently verifiable」與本句語境不同。",
-        "objective-mcq-12": "「追求目標 work toward」與本句語境不同。"
+        "objective-mcq-15": "本句的「Objective」指「客觀判斷 evidence-based」。",
+        "objective-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-15"
     },
@@ -1885,11 +1769,9 @@ export default {
       "masked": "The report provides an ____ analysis of the problem.",
       "options": [
         "objective-mcq-16",
-        "objective-mcq-15",
-        "objective-mcq-17",
-        "objective-mcq-14",
-        "objective-mcq-18",
-        "objective-mcq-13"
+        "objective-mcq-01",
+        "objective-mcq-65",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objective」指「客觀分析 impartial analysis」。",
       "sentenceIndex": 43,
@@ -1898,12 +1780,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-16": "本句指「客觀分析 impartial analysis」。",
-        "objective-mcq-15": "「客觀判斷 evidence-based」與本句語境不同。",
-        "objective-mcq-17": "「客觀證據 independently verifiable」與本句語境不同。",
-        "objective-mcq-14": "「客觀評估 impartial evaluation」與本句語境不同。",
-        "objective-mcq-18": "「客觀標準 consistent criteria」與本句語境不同。",
-        "objective-mcq-13": "「客觀的 fact-based」與本句語境不同。"
+        "objective-mcq-16": "本句的「objective」指「客觀分析 impartial analysis」。",
+        "objective-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-16"
     },
@@ -1915,11 +1795,9 @@ export default {
       "masked": "____ analysis should consider evidence from both sides.",
       "options": [
         "objective-mcq-16",
-        "objective-mcq-15",
-        "objective-mcq-17",
-        "objective-mcq-14",
-        "objective-mcq-18",
-        "objective-mcq-13"
+        "objective-mcq-09",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「Objective」指「客觀分析 impartial analysis」。",
       "sentenceIndex": 44,
@@ -1928,12 +1806,10 @@ export default {
         "Objective"
       ],
       "optionReasons": {
-        "objective-mcq-16": "本句指「客觀分析 impartial analysis」。",
-        "objective-mcq-15": "「客觀判斷 evidence-based」與本句語境不同。",
-        "objective-mcq-17": "「客觀證據 independently verifiable」與本句語境不同。",
-        "objective-mcq-14": "「客觀評估 impartial evaluation」與本句語境不同。",
-        "objective-mcq-18": "「客觀標準 consistent criteria」與本句語境不同。",
-        "objective-mcq-13": "「客觀的 fact-based」與本句語境不同。"
+        "objective-mcq-16": "本句的「Objective」指「客觀分析 impartial analysis」。",
+        "objective-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-16"
     },
@@ -1945,11 +1821,9 @@ export default {
       "masked": "There is little ____ evidence to support the claim.",
       "options": [
         "objective-mcq-17",
-        "objective-mcq-16",
-        "objective-mcq-18",
-        "objective-mcq-15",
-        "objective-mcq-19",
-        "objective-mcq-14"
+        "objective-mcq-06",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objective」指「客觀證據 independently verifiable」。",
       "sentenceIndex": 47,
@@ -1958,12 +1832,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-17": "本句指「客觀證據 independently verifiable」。",
-        "objective-mcq-16": "「客觀分析 impartial analysis」與本句語境不同。",
-        "objective-mcq-18": "「客觀標準 consistent criteria」與本句語境不同。",
-        "objective-mcq-15": "「客觀判斷 evidence-based」與本句語境不同。",
-        "objective-mcq-19": "「客觀地 without personal bias」與本句語境不同。",
-        "objective-mcq-14": "「客觀評估 impartial evaluation」與本句語境不同。"
+        "objective-mcq-17": "本句的「objective」指「客觀證據 independently verifiable」。",
+        "objective-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-17"
     },
@@ -1975,11 +1847,9 @@ export default {
       "masked": "Decisions should be based on ____ evidence.",
       "options": [
         "objective-mcq-17",
-        "objective-mcq-16",
-        "objective-mcq-18",
-        "objective-mcq-15",
-        "objective-mcq-19",
-        "objective-mcq-14"
+        "objective-mcq-12",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objective」指「客觀證據 independently verifiable」。",
       "sentenceIndex": 48,
@@ -1988,12 +1858,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-17": "本句指「客觀證據 independently verifiable」。",
-        "objective-mcq-16": "「客觀分析 impartial analysis」與本句語境不同。",
-        "objective-mcq-18": "「客觀標準 consistent criteria」與本句語境不同。",
-        "objective-mcq-15": "「客觀判斷 evidence-based」與本句語境不同。",
-        "objective-mcq-19": "「客觀地 without personal bias」與本句語境不同。",
-        "objective-mcq-14": "「客觀評估 impartial evaluation」與本句語境不同。"
+        "objective-mcq-17": "本句的「objective」指「客觀證據 independently verifiable」。",
+        "objective-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-17"
     },
@@ -2005,11 +1873,9 @@ export default {
       "masked": "Promotion decisions should use ____ criteria.",
       "options": [
         "objective-mcq-18",
-        "objective-mcq-17",
-        "objective-mcq-19",
-        "objective-mcq-16",
-        "objective-mcq-20",
-        "objective-mcq-15"
+        "objective-mcq-65",
+        "objective-mcq-67",
+        "objective-mcq-03"
       ],
       "explanation": "本句的「objective」指「客觀標準 consistent criteria」。",
       "sentenceIndex": 53,
@@ -2018,12 +1884,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-18": "本句指「客觀標準 consistent criteria」。",
-        "objective-mcq-17": "「客觀證據 independently verifiable」與本句語境不同。",
-        "objective-mcq-19": "「客觀地 without personal bias」與本句語境不同。",
-        "objective-mcq-16": "「客觀分析 impartial analysis」與本句語境不同。",
-        "objective-mcq-20": "「客觀而言 factual viewpoint」與本句語境不同。",
-        "objective-mcq-15": "「客觀判斷 evidence-based」與本句語境不同。"
+        "objective-mcq-18": "本句的「objective」指「客觀標準 consistent criteria」。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-18"
     },
@@ -2035,11 +1899,9 @@ export default {
       "masked": "The candidates were scored against ____ criteria.",
       "options": [
         "objective-mcq-18",
-        "objective-mcq-17",
-        "objective-mcq-19",
-        "objective-mcq-16",
-        "objective-mcq-20",
-        "objective-mcq-15"
+        "objective-mcq-67",
+        "objective-mcq-65",
+        "objective-mcq-12"
       ],
       "explanation": "本句的「objective」指「客觀標準 consistent criteria」。",
       "sentenceIndex": 54,
@@ -2048,12 +1910,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-18": "本句指「客觀標準 consistent criteria」。",
-        "objective-mcq-17": "「客觀證據 independently verifiable」與本句語境不同。",
-        "objective-mcq-19": "「客觀地 without personal bias」與本句語境不同。",
-        "objective-mcq-16": "「客觀分析 impartial analysis」與本句語境不同。",
-        "objective-mcq-20": "「客觀而言 factual viewpoint」與本句語境不同。",
-        "objective-mcq-15": "「客觀判斷 evidence-based」與本句語境不同。"
+        "objective-mcq-18": "本句的「objective」指「客觀標準 consistent criteria」。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-18"
     },
@@ -2065,11 +1925,9 @@ export default {
       "masked": "____ speaking, the project exceeded its budget.",
       "options": [
         "objective-mcq-20",
-        "objective-mcq-19",
-        "objective-mcq-21",
-        "objective-mcq-18",
-        "objective-mcq-22",
-        "objective-mcq-17"
+        "objective-mcq-09",
+        "objective-mcq-67",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「Objectively」指「客觀而言 factual viewpoint」。",
       "sentenceIndex": 65,
@@ -2078,12 +1936,10 @@ export default {
         "Objectively"
       ],
       "optionReasons": {
-        "objective-mcq-20": "本句指「客觀而言 factual viewpoint」。",
-        "objective-mcq-19": "「客觀地 without personal bias」與本句語境不同。",
-        "objective-mcq-21": "「客觀性 impartiality」與本句語境不同。",
-        "objective-mcq-18": "「客觀標準 consistent criteria」與本句語境不同。",
-        "objective-mcq-22": "「保持客觀 avoid bias」與本句語境不同。",
-        "objective-mcq-17": "「客觀證據 independently verifiable」與本句語境不同。"
+        "objective-mcq-20": "本句的「Objectively」指「客觀而言 factual viewpoint」。",
+        "objective-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-20"
     },
@@ -2095,11 +1951,9 @@ export default {
       "masked": "____ speaking, both teams made mistakes.",
       "options": [
         "objective-mcq-20",
-        "objective-mcq-19",
-        "objective-mcq-21",
-        "objective-mcq-18",
-        "objective-mcq-22",
-        "objective-mcq-17"
+        "objective-mcq-04",
+        "objective-mcq-65",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「Objectively」指「客觀而言 factual viewpoint」。",
       "sentenceIndex": 66,
@@ -2108,12 +1962,10 @@ export default {
         "Objectively"
       ],
       "optionReasons": {
-        "objective-mcq-20": "本句指「客觀而言 factual viewpoint」。",
-        "objective-mcq-19": "「客觀地 without personal bias」與本句語境不同。",
-        "objective-mcq-21": "「客觀性 impartiality」與本句語境不同。",
-        "objective-mcq-18": "「客觀標準 consistent criteria」與本句語境不同。",
-        "objective-mcq-22": "「保持客觀 avoid bias」與本句語境不同。",
-        "objective-mcq-17": "「客觀證據 independently verifiable」與本句語境不同。"
+        "objective-mcq-20": "本句的「Objectively」指「客觀而言 factual viewpoint」。",
+        "objective-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-20"
     },
@@ -2125,11 +1977,9 @@ export default {
       "masked": "Good evaluation requires ____.",
       "options": [
         "objective-mcq-21",
-        "objective-mcq-20",
-        "objective-mcq-22",
-        "objective-mcq-19",
-        "objective-mcq-23",
-        "objective-mcq-18"
+        "objective-mcq-67",
+        "objective-mcq-01",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objectivity」指「客觀性 impartiality」。",
       "sentenceIndex": 69,
@@ -2138,12 +1988,10 @@ export default {
         "objectivity"
       ],
       "optionReasons": {
-        "objective-mcq-21": "本句指「客觀性 impartiality」。",
-        "objective-mcq-20": "「客觀而言 factual viewpoint」與本句語境不同。",
-        "objective-mcq-22": "「保持客觀 avoid bias」與本句語境不同。",
-        "objective-mcq-19": "「客觀地 without personal bias」與本句語境不同。",
-        "objective-mcq-23": "「物件；物體 physical entity」與本句語境不同。",
-        "objective-mcq-18": "「客觀標準 consistent criteria」與本句語境不同。"
+        "objective-mcq-21": "本句的「objectivity」指「客觀性 impartiality」。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-21"
     },
@@ -2155,11 +2003,9 @@ export default {
       "masked": "Personal relationships can threaten managerial ____.",
       "options": [
         "objective-mcq-21",
-        "objective-mcq-20",
-        "objective-mcq-22",
-        "objective-mcq-19",
-        "objective-mcq-23",
-        "objective-mcq-18"
+        "objective-mcq-04",
+        "objective-mcq-65",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objectivity」指「客觀性 impartiality」。",
       "sentenceIndex": 70,
@@ -2168,12 +2014,10 @@ export default {
         "objectivity"
       ],
       "optionReasons": {
-        "objective-mcq-21": "本句指「客觀性 impartiality」。",
-        "objective-mcq-20": "「客觀而言 factual viewpoint」與本句語境不同。",
-        "objective-mcq-22": "「保持客觀 avoid bias」與本句語境不同。",
-        "objective-mcq-19": "「客觀地 without personal bias」與本句語境不同。",
-        "objective-mcq-23": "「物件；物體 physical entity」與本句語境不同。",
-        "objective-mcq-18": "「客觀標準 consistent criteria」與本句語境不同。"
+        "objective-mcq-21": "本句的「objectivity」指「客觀性 impartiality」。",
+        "objective-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-21"
     },
@@ -2185,11 +2029,9 @@ export default {
       "masked": "Investigators must maintain ____.",
       "options": [
         "objective-mcq-22",
-        "objective-mcq-21",
-        "objective-mcq-23",
-        "objective-mcq-20",
-        "objective-mcq-24",
-        "objective-mcq-19"
+        "objective-mcq-08",
+        "objective-mcq-65",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objectivity」指「保持客觀 avoid bias」。",
       "sentenceIndex": 71,
@@ -2198,12 +2040,10 @@ export default {
         "objectivity"
       ],
       "optionReasons": {
-        "objective-mcq-22": "本句指「保持客觀 avoid bias」。",
-        "objective-mcq-21": "「客觀性 impartiality」與本句語境不同。",
-        "objective-mcq-23": "「物件；物體 physical entity」與本句語境不同。",
-        "objective-mcq-20": "「客觀而言 factual viewpoint」與本句語境不同。",
-        "objective-mcq-24": "「異物 unwanted physical thing」與本句語境不同。",
-        "objective-mcq-19": "「客觀地 without personal bias」與本句語境不同。"
+        "objective-mcq-22": "本句的「objectivity」指「保持客觀 avoid bias」。",
+        "objective-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-22"
     },
@@ -2215,11 +2055,9 @@ export default {
       "masked": "It can be difficult to maintain ____ in an emotional dispute.",
       "options": [
         "objective-mcq-22",
-        "objective-mcq-21",
-        "objective-mcq-23",
-        "objective-mcq-20",
-        "objective-mcq-24",
-        "objective-mcq-19"
+        "objective-mcq-06",
+        "objective-mcq-65",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objectivity」指「保持客觀 avoid bias」。",
       "sentenceIndex": 72,
@@ -2228,12 +2066,10 @@ export default {
         "objectivity"
       ],
       "optionReasons": {
-        "objective-mcq-22": "本句指「保持客觀 avoid bias」。",
-        "objective-mcq-21": "「客觀性 impartiality」與本句語境不同。",
-        "objective-mcq-23": "「物件；物體 physical entity」與本句語境不同。",
-        "objective-mcq-20": "「客觀而言 factual viewpoint」與本句語境不同。",
-        "objective-mcq-24": "「異物 unwanted physical thing」與本句語境不同。",
-        "objective-mcq-19": "「客觀地 without personal bias」與本句語境不同。"
+        "objective-mcq-22": "本句的「objectivity」指「保持客觀 avoid bias」。",
+        "objective-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-22"
     },
@@ -2245,11 +2081,9 @@ export default {
       "masked": "Rotate the microscope to select a different ____.",
       "options": [
         "objective-mcq-65",
-        "objective-mcq-64",
-        "objective-mcq-66",
-        "objective-mcq-63",
-        "objective-mcq-67",
-        "objective-mcq-62"
+        "objective-mcq-10",
+        "objective-mcq-16",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objective」指「物鏡 optics」。",
       "sentenceIndex": 79,
@@ -2258,12 +2092,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-65": "本句指「物鏡 optics」。",
-        "objective-mcq-64": "「物鏡 lens」與本句語境不同。",
-        "objective-mcq-66": "「軍事／作戰目標 operational target」與本句語境不同。",
-        "objective-mcq-63": "「客體關係 psychology」與本句語境不同。",
-        "objective-mcq-67": "「賓格 traditional grammar」與本句語境不同。",
-        "objective-mcq-62": "「物體恆存 psychology」與本句語境不同。"
+        "objective-mcq-65": "本句的「objective」指「物鏡 optics」。",
+        "objective-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-65"
     },
@@ -2275,11 +2107,9 @@ export default {
       "masked": "The high-power ____ provides greater magnification.",
       "options": [
         "objective-mcq-65",
-        "objective-mcq-64",
-        "objective-mcq-66",
-        "objective-mcq-63",
         "objective-mcq-67",
-        "objective-mcq-62"
+        "objective-mcq-03",
+        "objective-mcq-21"
       ],
       "explanation": "本句的「objective」指「物鏡 optics」。",
       "sentenceIndex": 80,
@@ -2288,12 +2118,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-65": "本句指「物鏡 optics」。",
-        "objective-mcq-64": "「物鏡 lens」與本句語境不同。",
-        "objective-mcq-66": "「軍事／作戰目標 operational target」與本句語境不同。",
-        "objective-mcq-63": "「客體關係 psychology」與本句語境不同。",
-        "objective-mcq-67": "「賓格 traditional grammar」與本句語境不同。",
-        "objective-mcq-62": "「物體恆存 psychology」與本句語境不同。"
+        "objective-mcq-65": "本句的「objective」指「物鏡 optics」。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-65"
     },
@@ -2305,11 +2133,9 @@ export default {
       "masked": "Clean the ____ lens carefully.",
       "options": [
         "objective-mcq-65",
-        "objective-mcq-64",
-        "objective-mcq-66",
-        "objective-mcq-63",
-        "objective-mcq-67",
-        "objective-mcq-62"
+        "objective-mcq-09",
+        "objective-mcq-22",
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objective」指「物鏡 optics」。",
       "sentenceIndex": 81,
@@ -2318,12 +2144,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-65": "本句指「物鏡 optics」。",
-        "objective-mcq-64": "「物鏡 lens」與本句語境不同。",
-        "objective-mcq-66": "「軍事／作戰目標 operational target」與本句語境不同。",
-        "objective-mcq-63": "「客體關係 psychology」與本句語境不同。",
-        "objective-mcq-67": "「賓格 traditional grammar」與本句語境不同。",
-        "objective-mcq-62": "「物體恆存 psychology」與本句語境不同。"
+        "objective-mcq-65": "本句的「objective」指「物鏡 optics」。",
+        "objective-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-65"
     },
@@ -2335,11 +2159,9 @@ export default {
       "masked": "Different ____ lenses provide different magnifications.",
       "options": [
         "objective-mcq-65",
-        "objective-mcq-64",
-        "objective-mcq-66",
-        "objective-mcq-63",
+        "objective-mcq-18",
         "objective-mcq-67",
-        "objective-mcq-62"
+        "objective-mcq-02"
       ],
       "explanation": "本句的「objective」指「物鏡 optics」。",
       "sentenceIndex": 82,
@@ -2348,12 +2170,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-65": "本句指「物鏡 optics」。",
-        "objective-mcq-64": "「物鏡 lens」與本句語境不同。",
-        "objective-mcq-66": "「軍事／作戰目標 operational target」與本句語境不同。",
-        "objective-mcq-63": "「客體關係 psychology」與本句語境不同。",
-        "objective-mcq-67": "「賓格 traditional grammar」與本句語境不同。",
-        "objective-mcq-62": "「物體恆存 psychology」與本句語境不同。"
+        "objective-mcq-65": "本句的「objective」指「物鏡 optics」。",
+        "objective-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-65"
     },
@@ -2365,11 +2185,9 @@ export default {
       "masked": "The operation had a clearly defined military ____.",
       "options": [
         "objective-mcq-66",
+        "objective-mcq-22",
         "objective-mcq-65",
-        "objective-mcq-67",
-        "objective-mcq-64",
-        "objective-mcq-63",
-        "objective-mcq-62"
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objective」指「軍事／作戰目標 operational target」。",
       "sentenceIndex": 87,
@@ -2378,12 +2196,10 @@ export default {
         "objective"
       ],
       "optionReasons": {
-        "objective-mcq-66": "本句指「軍事／作戰目標 operational target」。",
-        "objective-mcq-65": "「物鏡 optics」與本句語境不同。",
-        "objective-mcq-67": "「賓格 traditional grammar」與本句語境不同。",
-        "objective-mcq-64": "「物鏡 lens」與本句語境不同。",
-        "objective-mcq-63": "「客體關係 psychology」與本句語境不同。",
-        "objective-mcq-62": "「物體恆存 psychology」與本句語境不同。"
+        "objective-mcq-66": "本句的「objective」指「軍事／作戰目標 operational target」。",
+        "objective-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-66"
     },
@@ -2395,11 +2211,9 @@ export default {
       "masked": "Operational ____ should support the wider strategy.",
       "options": [
         "objective-mcq-66",
+        "objective-mcq-21",
         "objective-mcq-65",
-        "objective-mcq-67",
-        "objective-mcq-64",
-        "objective-mcq-63",
-        "objective-mcq-62"
+        "objective-mcq-67"
       ],
       "explanation": "本句的「objectives」指「軍事／作戰目標 operational target」。",
       "sentenceIndex": 88,
@@ -2408,12 +2222,10 @@ export default {
         "objectives"
       ],
       "optionReasons": {
-        "objective-mcq-66": "本句指「軍事／作戰目標 operational target」。",
-        "objective-mcq-65": "「物鏡 optics」與本句語境不同。",
-        "objective-mcq-67": "「賓格 traditional grammar」與本句語境不同。",
-        "objective-mcq-64": "「物鏡 lens」與本句語境不同。",
-        "objective-mcq-63": "「客體關係 psychology」與本句語境不同。",
-        "objective-mcq-62": "「物體恆存 psychology」與本句語境不同。"
+        "objective-mcq-66": "本句的「objectives」指「軍事／作戰目標 operational target」。",
+        "objective-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-66"
     },
@@ -2425,11 +2237,9 @@ export default {
       "masked": "Him” is traditionally described as an ____ pronoun.",
       "options": [
         "objective-mcq-67",
-        "objective-mcq-66",
-        "objective-mcq-65",
-        "objective-mcq-64",
-        "objective-mcq-63",
-        "objective-mcq-62"
+        "objective-mcq-09",
+        "objective-mcq-15",
+        "objective-mcq-65"
       ],
       "explanation": "本句的「objective-case」指「賓格 traditional grammar」。",
       "sentenceIndex": 89,
@@ -2438,12 +2248,10 @@ export default {
         "objective-case"
       ],
       "optionReasons": {
-        "objective-mcq-67": "本句指「賓格 traditional grammar」。",
-        "objective-mcq-66": "「軍事／作戰目標 operational target」與本句語境不同。",
-        "objective-mcq-65": "「物鏡 optics」與本句語境不同。",
-        "objective-mcq-64": "「物鏡 lens」與本句語境不同。",
-        "objective-mcq-63": "「客體關係 psychology」與本句語境不同。",
-        "objective-mcq-62": "「物體恆存 psychology」與本句語境不同。"
+        "objective-mcq-67": "本句的「objective-case」指「賓格 traditional grammar」。",
+        "objective-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "objective-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "objective-mcq-67"
     }
@@ -2455,5 +2263,7 @@ export default {
     "sha256": "4c6dcf551d604ac7743443c49e402856358e82e65d38ccf97301f65ea38b22a6",
     "pages": 80
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

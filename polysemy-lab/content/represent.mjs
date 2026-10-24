@@ -665,11 +665,9 @@ export default {
       "masked": "My supervisor asked me to ____.",
       "options": [
         "represent-mcq-01",
-        "represent-mcq-02",
-        "represent-mcq-03",
-        "represent-mcq-04",
-        "represent-mcq-05",
-        "represent-mcq-06"
+        "represent-mcq-08",
+        "represent-mcq-25",
+        "represent-mcq-11"
       ],
       "explanation": "本句的「represent the team」指「以某個團體或機構的名義出席、發言、行動或參與活動」。",
       "sentenceIndex": 0,
@@ -678,12 +676,10 @@ export default {
         "represent the team"
       ],
       "optionReasons": {
-        "represent-mcq-01": "本句指「以某個團體或機構的名義出席、發言、行動或參與活動」。",
-        "represent-mcq-02": "「以某個國家或地區的名義參加比賽、會議或國際活動」是「represent a country/region」的用法，與本句語境不同。",
-        "represent-mcq-03": "「代替某人出席、發言、談判或處理事務」是「represent a person」的用法，與本句語境不同。",
-        "represent-mcq-04": "「以律師／法律代理身份代表某人處理法律程序」是「represent someone legally」的用法，與本句語境不同。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。"
+        "represent-mcq-01": "本句的「represent the team」指「以某個團體或機構的名義出席、發言、行動或參與活動」。",
+        "represent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-01"
     },
@@ -695,11 +691,9 @@ export default {
       "masked": "She was chosen to ____ at the conference.",
       "options": [
         "represent-mcq-01",
-        "represent-mcq-02",
-        "represent-mcq-03",
-        "represent-mcq-04",
-        "represent-mcq-05",
-        "represent-mcq-06"
+        "represent-mcq-25",
+        "represent-mcq-08",
+        "represent-mcq-11"
       ],
       "explanation": "本句的「represent the company」指「以某個團體或機構的名義出席、發言、行動或參與活動」。",
       "sentenceIndex": 1,
@@ -708,12 +702,10 @@ export default {
         "represent the company"
       ],
       "optionReasons": {
-        "represent-mcq-01": "本句指「以某個團體或機構的名義出席、發言、行動或參與活動」。",
-        "represent-mcq-02": "「以某個國家或地區的名義參加比賽、會議或國際活動」是「represent a country/region」的用法，與本句語境不同。",
-        "represent-mcq-03": "「代替某人出席、發言、談判或處理事務」是「represent a person」的用法，與本句語境不同。",
-        "represent-mcq-04": "「以律師／法律代理身份代表某人處理法律程序」是「represent someone legally」的用法，與本句語境不同。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。"
+        "represent-mcq-01": "本句的「represent the company」指「以某個團體或機構的名義出席、發言、行動或參與活動」。",
+        "represent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-01"
     },
@@ -725,11 +717,9 @@ export default {
       "masked": "Two employees will ____ at the meeting.",
       "options": [
         "represent-mcq-01",
-        "represent-mcq-02",
-        "represent-mcq-03",
-        "represent-mcq-04",
-        "represent-mcq-05",
-        "represent-mcq-06"
+        "represent-mcq-07",
+        "represent-mcq-08",
+        "represent-mcq-11"
       ],
       "explanation": "本句的「represent the department」指「以某個團體或機構的名義出席、發言、行動或參與活動」。",
       "sentenceIndex": 2,
@@ -738,12 +728,10 @@ export default {
         "represent the department"
       ],
       "optionReasons": {
-        "represent-mcq-01": "本句指「以某個團體或機構的名義出席、發言、行動或參與活動」。",
-        "represent-mcq-02": "「以某個國家或地區的名義參加比賽、會議或國際活動」是「represent a country/region」的用法，與本句語境不同。",
-        "represent-mcq-03": "「代替某人出席、發言、談判或處理事務」是「represent a person」的用法，與本句語境不同。",
-        "represent-mcq-04": "「以律師／法律代理身份代表某人處理法律程序」是「represent someone legally」的用法，與本句語境不同。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。"
+        "represent-mcq-01": "本句的「represent the department」指「以某個團體或機構的名義出席、發言、行動或參與活動」。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-01"
     },
@@ -755,11 +743,9 @@ export default {
       "masked": "She ____ in the competition.",
       "options": [
         "represent-mcq-02",
-        "represent-mcq-01",
-        "represent-mcq-03",
-        "represent-mcq-04",
+        "represent-mcq-09",
         "represent-mcq-05",
-        "represent-mcq-06"
+        "represent-mcq-26"
       ],
       "explanation": "本句的「represented Hong Kong」指「以某個國家或地區的名義參加比賽、會議或國際活動」。",
       "sentenceIndex": 3,
@@ -768,12 +754,10 @@ export default {
         "represented Hong Kong"
       ],
       "optionReasons": {
-        "represent-mcq-02": "本句指「以某個國家或地區的名義參加比賽、會議或國際活動」。",
-        "represent-mcq-01": "「以某個團體或機構的名義出席、發言、行動或參與活動」是「represent a team/company/group」的用法，與本句語境不同。",
-        "represent-mcq-03": "「代替某人出席、發言、談判或處理事務」是「represent a person」的用法，與本句語境不同。",
-        "represent-mcq-04": "「以律師／法律代理身份代表某人處理法律程序」是「represent someone legally」的用法，與本句語境不同。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。"
+        "represent-mcq-02": "本句的「represented Hong Kong」指「以某個國家或地區的名義參加比賽、會議或國際活動」。",
+        "represent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-02"
     },
@@ -785,11 +769,9 @@ export default {
       "masked": "The athlete has ____ several times.",
       "options": [
         "represent-mcq-02",
-        "represent-mcq-01",
-        "represent-mcq-03",
         "represent-mcq-04",
-        "represent-mcq-05",
-        "represent-mcq-06"
+        "represent-mcq-25",
+        "represent-mcq-26"
       ],
       "explanation": "本句的「represented his country」指「以某個國家或地區的名義參加比賽、會議或國際活動」。",
       "sentenceIndex": 4,
@@ -798,12 +780,10 @@ export default {
         "represented his country"
       ],
       "optionReasons": {
-        "represent-mcq-02": "本句指「以某個國家或地區的名義參加比賽、會議或國際活動」。",
-        "represent-mcq-01": "「以某個團體或機構的名義出席、發言、行動或參與活動」是「represent a team/company/group」的用法，與本句語境不同。",
-        "represent-mcq-03": "「代替某人出席、發言、談判或處理事務」是「represent a person」的用法，與本句語境不同。",
-        "represent-mcq-04": "「以律師／法律代理身份代表某人處理法律程序」是「represent someone legally」的用法，與本句語境不同。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。"
+        "represent-mcq-02": "本句的「represented his country」指「以某個國家或地區的名義參加比賽、會議或國際活動」。",
+        "represent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-02"
     },
@@ -815,11 +795,9 @@ export default {
       "masked": "The agent ____ several professional athletes.",
       "options": [
         "represent-mcq-03",
-        "represent-mcq-02",
-        "represent-mcq-04",
-        "represent-mcq-01",
-        "represent-mcq-05",
-        "represent-mcq-06"
+        "represent-mcq-25",
+        "represent-mcq-08",
+        "represent-mcq-26"
       ],
       "explanation": "本句的「represents」指「代替某人出席、發言、談判或處理事務」。",
       "sentenceIndex": 5,
@@ -828,12 +806,10 @@ export default {
         "represents"
       ],
       "optionReasons": {
-        "represent-mcq-03": "本句指「代替某人出席、發言、談判或處理事務」。",
-        "represent-mcq-02": "「以某個國家或地區的名義參加比賽、會議或國際活動」是「represent a country/region」的用法，與本句語境不同。",
-        "represent-mcq-04": "「以律師／法律代理身份代表某人處理法律程序」是「represent someone legally」的用法，與本句語境不同。",
-        "represent-mcq-01": "「以某個團體或機構的名義出席、發言、行動或參與活動」是「represent a team/company/group」的用法，與本句語境不同。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。"
+        "represent-mcq-03": "本句的「represents」指「代替某人出席、發言、談判或處理事務」。",
+        "represent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-03"
     },
@@ -845,11 +821,9 @@ export default {
       "masked": "She asked a colleague to ____ at the meeting.",
       "options": [
         "represent-mcq-03",
+        "represent-mcq-19",
         "represent-mcq-02",
-        "represent-mcq-04",
-        "represent-mcq-01",
-        "represent-mcq-05",
-        "represent-mcq-06"
+        "represent-mcq-11"
       ],
       "explanation": "本句的「represent her」指「代替某人出席、發言、談判或處理事務」。",
       "sentenceIndex": 6,
@@ -858,12 +832,10 @@ export default {
         "represent her"
       ],
       "optionReasons": {
-        "represent-mcq-03": "本句指「代替某人出席、發言、談判或處理事務」。",
-        "represent-mcq-02": "「以某個國家或地區的名義參加比賽、會議或國際活動」是「represent a country/region」的用法，與本句語境不同。",
-        "represent-mcq-04": "「以律師／法律代理身份代表某人處理法律程序」是「represent someone legally」的用法，與本句語境不同。",
-        "represent-mcq-01": "「以某個團體或機構的名義出席、發言、行動或參與活動」是「represent a team/company/group」的用法，與本句語境不同。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。"
+        "represent-mcq-03": "本句的「represent her」指「代替某人出席、發言、談判或處理事務」。",
+        "represent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-03"
     },
@@ -875,11 +847,9 @@ export default {
       "masked": "The lawyer ____ the client in court.",
       "options": [
         "represent-mcq-04",
-        "represent-mcq-03",
-        "represent-mcq-05",
-        "represent-mcq-02",
-        "represent-mcq-06",
-        "represent-mcq-01"
+        "represent-mcq-25",
+        "represent-mcq-08",
+        "represent-mcq-02"
       ],
       "explanation": "本句的「represented」指「以律師／法律代理身份代表某人處理法律程序」。",
       "sentenceIndex": 7,
@@ -888,12 +858,10 @@ export default {
         "represented"
       ],
       "optionReasons": {
-        "represent-mcq-04": "本句指「以律師／法律代理身份代表某人處理法律程序」。",
-        "represent-mcq-03": "「代替某人出席、發言、談判或處理事務」是「represent a person」的用法，與本句語境不同。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。",
-        "represent-mcq-02": "「以某個國家或地區的名義參加比賽、會議或國際活動」是「represent a country/region」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。",
-        "represent-mcq-01": "「以某個團體或機構的名義出席、發言、行動或參與活動」是「represent a team/company/group」的用法，與本句語境不同。"
+        "represent-mcq-04": "本句的「represented」指「以律師／法律代理身份代表某人處理法律程序」。",
+        "represent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-04"
     },
@@ -905,11 +873,9 @@ export default {
       "masked": "She was ____ an experienced attorney.",
       "options": [
         "represent-mcq-04",
-        "represent-mcq-03",
-        "represent-mcq-05",
+        "represent-mcq-08",
         "represent-mcq-02",
-        "represent-mcq-06",
-        "represent-mcq-01"
+        "represent-mcq-27"
       ],
       "explanation": "本句的「represented by」指「以律師／法律代理身份代表某人處理法律程序」。",
       "sentenceIndex": 8,
@@ -918,12 +884,10 @@ export default {
         "represented by"
       ],
       "optionReasons": {
-        "represent-mcq-04": "本句指「以律師／法律代理身份代表某人處理法律程序」。",
-        "represent-mcq-03": "「代替某人出席、發言、談判或處理事務」是「represent a person」的用法，與本句語境不同。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。",
-        "represent-mcq-02": "「以某個國家或地區的名義參加比賽、會議或國際活動」是「represent a country/region」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。",
-        "represent-mcq-01": "「以某個團體或機構的名義出席、發言、行動或參與活動」是「represent a team/company/group」的用法，與本句語境不同。"
+        "represent-mcq-04": "本句的「represented by」指「以律師／法律代理身份代表某人處理法律程序」。",
+        "represent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-04"
     },
@@ -935,11 +899,9 @@ export default {
       "masked": "The committee ____.",
       "options": [
         "represent-mcq-05",
-        "represent-mcq-04",
-        "represent-mcq-06",
-        "represent-mcq-03",
-        "represent-mcq-07",
-        "represent-mcq-02"
+        "represent-mcq-23",
+        "represent-mcq-02",
+        "represent-mcq-07"
       ],
       "explanation": "本句的「represents the interests of employees」指「代表並維護某群體的利益、意見或需要」。",
       "sentenceIndex": 9,
@@ -948,12 +910,10 @@ export default {
         "represents the interests of employees"
       ],
       "optionReasons": {
-        "represent-mcq-05": "本句指「代表並維護某群體的利益、意見或需要」。",
-        "represent-mcq-04": "「以律師／法律代理身份代表某人處理法律程序」是「represent someone legally」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。",
-        "represent-mcq-03": "「代替某人出席、發言、談判或處理事務」是「represent a person」的用法，與本句語境不同。",
-        "represent-mcq-07": "「用某個符號、字母、數字等表示或對應另一個事物」是「symbol/letter represents something」的用法，與本句語境不同。",
-        "represent-mcq-02": "「以某個國家或地區的名義參加比賽、會議或國際活動」是「represent a country/region」的用法，與本句語境不同。"
+        "represent-mcq-05": "本句的「represents the interests of employees」指「代表並維護某群體的利益、意見或需要」。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-05"
     },
@@ -965,11 +925,9 @@ export default {
       "masked": "The association ____.",
       "options": [
         "represent-mcq-05",
-        "represent-mcq-04",
-        "represent-mcq-06",
-        "represent-mcq-03",
-        "represent-mcq-07",
-        "represent-mcq-02"
+        "represent-mcq-19",
+        "represent-mcq-02",
+        "represent-mcq-09"
       ],
       "explanation": "本句的「represents small businesses」指「代表並維護某群體的利益、意見或需要」。",
       "sentenceIndex": 10,
@@ -978,12 +936,10 @@ export default {
         "represents small businesses"
       ],
       "optionReasons": {
-        "represent-mcq-05": "本句指「代表並維護某群體的利益、意見或需要」。",
-        "represent-mcq-04": "「以律師／法律代理身份代表某人處理法律程序」是「represent someone legally」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。",
-        "represent-mcq-03": "「代替某人出席、發言、談判或處理事務」是「represent a person」的用法，與本句語境不同。",
-        "represent-mcq-07": "「用某個符號、字母、數字等表示或對應另一個事物」是「symbol/letter represents something」的用法，與本句語境不同。",
-        "represent-mcq-02": "「以某個國家或地區的名義參加比賽、會議或國際活動」是「represent a country/region」的用法，與本句語境不同。"
+        "represent-mcq-05": "本句的「represents small businesses」指「代表並維護某群體的利益、意見或需要」。",
+        "represent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-05"
     },
@@ -995,11 +951,9 @@ export default {
       "masked": "The colour white can ____.",
       "options": [
         "represent-mcq-06",
-        "represent-mcq-05",
-        "represent-mcq-07",
-        "represent-mcq-04",
-        "represent-mcq-08",
-        "represent-mcq-03"
+        "represent-mcq-11",
+        "represent-mcq-23",
+        "represent-mcq-27"
       ],
       "explanation": "本句的「represent peace」指「以某種人物、物件、符號或形象象徵某個抽象概念」。",
       "sentenceIndex": 11,
@@ -1008,12 +962,10 @@ export default {
         "represent peace"
       ],
       "optionReasons": {
-        "represent-mcq-06": "本句指「以某種人物、物件、符號或形象象徵某個抽象概念」。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。",
-        "represent-mcq-07": "「用某個符號、字母、數字等表示或對應另一個事物」是「symbol/letter represents something」的用法，與本句語境不同。",
-        "represent-mcq-04": "「以律師／法律代理身份代表某人處理法律程序」是「represent someone legally」的用法，與本句語境不同。",
-        "represent-mcq-08": "「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」是「represent visually」的用法，與本句語境不同。",
-        "represent-mcq-03": "「代替某人出席、發言、談判或處理事務」是「represent a person」的用法，與本句語境不同。"
+        "represent-mcq-06": "本句的「represent peace」指「以某種人物、物件、符號或形象象徵某個抽象概念」。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-06"
     },
@@ -1025,11 +977,9 @@ export default {
       "masked": "The trophy ____.",
       "options": [
         "represent-mcq-06",
-        "represent-mcq-05",
-        "represent-mcq-07",
-        "represent-mcq-04",
-        "represent-mcq-08",
-        "represent-mcq-03"
+        "represent-mcq-27",
+        "represent-mcq-02",
+        "represent-mcq-23"
       ],
       "explanation": "本句的「represents years of hard work」指「以某種人物、物件、符號或形象象徵某個抽象概念」。",
       "sentenceIndex": 12,
@@ -1038,12 +988,10 @@ export default {
         "represents years of hard work"
       ],
       "optionReasons": {
-        "represent-mcq-06": "本句指「以某種人物、物件、符號或形象象徵某個抽象概念」。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。",
-        "represent-mcq-07": "「用某個符號、字母、數字等表示或對應另一個事物」是「symbol/letter represents something」的用法，與本句語境不同。",
-        "represent-mcq-04": "「以律師／法律代理身份代表某人處理法律程序」是「represent someone legally」的用法，與本句語境不同。",
-        "represent-mcq-08": "「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」是「represent visually」的用法，與本句語境不同。",
-        "represent-mcq-03": "「代替某人出席、發言、談判或處理事務」是「represent a person」的用法，與本句語境不同。"
+        "represent-mcq-06": "本句的「represents years of hard work」指「以某種人物、物件、符號或形象象徵某個抽象概念」。",
+        "represent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-06"
     },
@@ -1055,11 +1003,9 @@ export default {
       "masked": "In this equation, ____.",
       "options": [
         "represent-mcq-07",
-        "represent-mcq-06",
-        "represent-mcq-08",
-        "represent-mcq-05",
+        "represent-mcq-14",
         "represent-mcq-09",
-        "represent-mcq-04"
+        "represent-mcq-02"
       ],
       "explanation": "本句的「x represents the unknown value」指「用某個符號、字母、數字等表示或對應另一個事物」。",
       "sentenceIndex": 13,
@@ -1068,12 +1014,10 @@ export default {
         "x represents the unknown value"
       ],
       "optionReasons": {
-        "represent-mcq-07": "本句指「用某個符號、字母、數字等表示或對應另一個事物」。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。",
-        "represent-mcq-08": "「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」是「represent visually」的用法，與本句語境不同。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。",
-        "represent-mcq-09": "「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」是「represent A as B」的用法，與本句語境不同。",
-        "represent-mcq-04": "「以律師／法律代理身份代表某人處理法律程序」是「represent someone legally」的用法，與本句語境不同。"
+        "represent-mcq-07": "本句的「x represents the unknown value」指「用某個符號、字母、數字等表示或對應另一個事物」。",
+        "represent-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-07"
     },
@@ -1085,11 +1029,9 @@ export default {
       "masked": "The red line ____.",
       "options": [
         "represent-mcq-07",
-        "represent-mcq-06",
-        "represent-mcq-08",
-        "represent-mcq-05",
-        "represent-mcq-09",
-        "represent-mcq-04"
+        "represent-mcq-11",
+        "represent-mcq-01",
+        "represent-mcq-10"
       ],
       "explanation": "本句的「represents total sales」指「用某個符號、字母、數字等表示或對應另一個事物」。",
       "sentenceIndex": 14,
@@ -1098,12 +1040,10 @@ export default {
         "represents total sales"
       ],
       "optionReasons": {
-        "represent-mcq-07": "本句指「用某個符號、字母、數字等表示或對應另一個事物」。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。",
-        "represent-mcq-08": "「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」是「represent visually」的用法，與本句語境不同。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。",
-        "represent-mcq-09": "「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」是「represent A as B」的用法，與本句語境不同。",
-        "represent-mcq-04": "「以律師／法律代理身份代表某人處理法律程序」是「represent someone legally」的用法，與本句語境不同。"
+        "represent-mcq-07": "本句的「represents total sales」指「用某個符號、字母、數字等表示或對應另一個事物」。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-07"
     },
@@ -1115,11 +1055,9 @@ export default {
       "masked": "The painting ____.",
       "options": [
         "represent-mcq-08",
-        "represent-mcq-07",
-        "represent-mcq-09",
-        "represent-mcq-06",
-        "represent-mcq-10",
-        "represent-mcq-05"
+        "represent-mcq-04",
+        "represent-mcq-11",
+        "represent-mcq-07"
       ],
       "explanation": "本句的「represents a busy city street」指「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」。",
       "sentenceIndex": 15,
@@ -1128,12 +1066,10 @@ export default {
         "represents a busy city street"
       ],
       "optionReasons": {
-        "represent-mcq-08": "本句指「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」。",
-        "represent-mcq-07": "「用某個符號、字母、數字等表示或對應另一個事物」是「symbol/letter represents something」的用法，與本句語境不同。",
-        "represent-mcq-09": "「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」是「represent A as B」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。",
-        "represent-mcq-10": "「某件事本身構成、體現或相當於某種變化、發展或情況」是「represent = constitute」的用法，與本句語境不同。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。"
+        "represent-mcq-08": "本句的「represents a busy city street」指「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」。",
+        "represent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-08"
     },
@@ -1146,10 +1082,8 @@ export default {
       "options": [
         "represent-mcq-08",
         "represent-mcq-07",
-        "represent-mcq-09",
-        "represent-mcq-06",
-        "represent-mcq-10",
-        "represent-mcq-05"
+        "represent-mcq-24",
+        "represent-mcq-02"
       ],
       "explanation": "本句的「represents the structure of the system」指「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」。",
       "sentenceIndex": 16,
@@ -1158,12 +1092,10 @@ export default {
         "represents the structure of the system"
       ],
       "optionReasons": {
-        "represent-mcq-08": "本句指「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」。",
-        "represent-mcq-07": "「用某個符號、字母、數字等表示或對應另一個事物」是「symbol/letter represents something」的用法，與本句語境不同。",
-        "represent-mcq-09": "「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」是「represent A as B」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。",
-        "represent-mcq-10": "「某件事本身構成、體現或相當於某種變化、發展或情況」是「represent = constitute」的用法，與本句語境不同。",
-        "represent-mcq-05": "「代表並維護某群體的利益、意見或需要」是「represent someone’s interests」的用法，與本句語境不同。"
+        "represent-mcq-08": "本句的「represents the structure of the system」指「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-08"
     },
@@ -1175,11 +1107,9 @@ export default {
       "masked": "The film ____ deeply conflicted.",
       "options": [
         "represent-pdf-001",
-        "represent-mcq-08",
-        "represent-mcq-10",
-        "represent-mcq-07",
-        "represent-mcq-11",
-        "represent-mcq-06"
+        "represent-mcq-23",
+        "represent-mcq-02",
+        "represent-mcq-11"
       ],
       "explanation": "本句的「represents the character as」指「透過文字、影像或藝術方式呈現某人／某事的形象或特徵」。",
       "sentenceIndex": 17,
@@ -1188,12 +1118,10 @@ export default {
         "represents the character as"
       ],
       "optionReasons": {
-        "represent-pdf-001": "本句指「透過文字、影像或藝術方式呈現某人／某事的形象或特徵」。",
-        "represent-mcq-08": "「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」是「represent visually」的用法，與本句語境不同。",
-        "represent-mcq-10": "「某件事本身構成、體現或相當於某種變化、發展或情況」是「represent = constitute」的用法，與本句語境不同。",
-        "represent-mcq-07": "「用某個符號、字母、數字等表示或對應另一個事物」是「symbol/letter represents something」的用法，與本句語境不同。",
-        "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。"
+        "represent-pdf-001": "本句的「represents the character as」指「透過文字、影像或藝術方式呈現某人／某事的形象或特徵」。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-pdf-001"
     },
@@ -1205,11 +1133,9 @@ export default {
       "masked": "The novel ____ in great detail.",
       "options": [
         "represent-pdf-001",
-        "represent-mcq-08",
-        "represent-mcq-10",
-        "represent-mcq-07",
-        "represent-mcq-11",
-        "represent-mcq-06"
+        "represent-mcq-23",
+        "represent-mcq-27",
+        "represent-mcq-11"
       ],
       "explanation": "本句的「represents rural life」指「透過文字、影像或藝術方式呈現某人／某事的形象或特徵」。",
       "sentenceIndex": 18,
@@ -1218,12 +1144,10 @@ export default {
         "represents rural life"
       ],
       "optionReasons": {
-        "represent-pdf-001": "本句指「透過文字、影像或藝術方式呈現某人／某事的形象或特徵」。",
-        "represent-mcq-08": "「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」是「represent visually」的用法，與本句語境不同。",
-        "represent-mcq-10": "「某件事本身構成、體現或相當於某種變化、發展或情況」是「represent = constitute」的用法，與本句語境不同。",
-        "represent-mcq-07": "「用某個符號、字母、數字等表示或對應另一個事物」是「symbol/letter represents something」的用法，與本句語境不同。",
-        "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。"
+        "represent-pdf-001": "本句的「represents rural life」指「透過文字、影像或藝術方式呈現某人／某事的形象或特徵」。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-pdf-001"
     },
@@ -1235,11 +1159,9 @@ export default {
       "masked": "The advertisement ____ simple and reliable.",
       "options": [
         "represent-mcq-09",
-        "represent-mcq-08",
-        "represent-mcq-10",
-        "represent-mcq-07",
-        "represent-mcq-11",
-        "represent-mcq-06"
+        "represent-mcq-15",
+        "represent-mcq-25",
+        "represent-mcq-02"
       ],
       "explanation": "本句的「represents the product as」指「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」。",
       "sentenceIndex": 19,
@@ -1248,12 +1170,10 @@ export default {
         "represents the product as"
       ],
       "optionReasons": {
-        "represent-mcq-09": "本句指「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」。",
-        "represent-mcq-08": "「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」是「represent visually」的用法，與本句語境不同。",
-        "represent-mcq-10": "「某件事本身構成、體現或相當於某種變化、發展或情況」是「represent = constitute」的用法，與本句語境不同。",
-        "represent-mcq-07": "「用某個符號、字母、數字等表示或對應另一個事物」是「symbol/letter represents something」的用法，與本句語境不同。",
-        "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。"
+        "represent-mcq-09": "本句的「represents the product as」指「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」。",
+        "represent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-09"
     },
@@ -1265,11 +1185,9 @@ export default {
       "masked": "The report ____ more serious than it was.",
       "options": [
         "represent-mcq-09",
-        "represent-mcq-08",
-        "represent-mcq-10",
-        "represent-mcq-07",
-        "represent-mcq-11",
-        "represent-mcq-06"
+        "represent-mcq-02",
+        "represent-mcq-15",
+        "represent-mcq-11"
       ],
       "explanation": "本句的「represented the situation as」指「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」。",
       "sentenceIndex": 20,
@@ -1278,12 +1196,10 @@ export default {
         "represented the situation as"
       ],
       "optionReasons": {
-        "represent-mcq-09": "本句指「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」。",
-        "represent-mcq-08": "「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」是「represent visually」的用法，與本句語境不同。",
-        "represent-mcq-10": "「某件事本身構成、體現或相當於某種變化、發展或情況」是「represent = constitute」的用法，與本句語境不同。",
-        "represent-mcq-07": "「用某個符號、字母、數字等表示或對應另一個事物」是「symbol/letter represents something」的用法，與本句語境不同。",
-        "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。",
-        "represent-mcq-06": "「以某種人物、物件、符號或形象象徵某個抽象概念」是「represent an idea/value」的用法，與本句語境不同。"
+        "represent-mcq-09": "本句的「represented the situation as」指「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-09"
     },
@@ -1295,11 +1211,9 @@ export default {
       "masked": "This decision ____ in policy.",
       "options": [
         "represent-mcq-10",
-        "represent-mcq-09",
-        "represent-mcq-11",
-        "represent-mcq-08",
-        "represent-mcq-12",
-        "represent-mcq-07"
+        "represent-mcq-07",
+        "represent-mcq-15",
+        "represent-mcq-02"
       ],
       "explanation": "本句的「represents a major change」指「某件事本身構成、體現或相當於某種變化、發展或情況」。",
       "sentenceIndex": 21,
@@ -1308,12 +1222,10 @@ export default {
         "represents a major change"
       ],
       "optionReasons": {
-        "represent-mcq-10": "本句指「某件事本身構成、體現或相當於某種變化、發展或情況」。",
-        "represent-mcq-09": "「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」是「represent A as B」的用法，與本句語境不同。",
-        "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。",
-        "represent-mcq-08": "「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」是「represent visually」的用法，與本句語境不同。",
-        "represent-mcq-12": "「能夠典型而準確地反映較大群體的特徵」是「represent a population/group」的用法，與本句語境不同。",
-        "represent-mcq-07": "「用某個符號、字母、數字等表示或對應另一個事物」是「symbol/letter represents something」的用法，與本句語境不同。"
+        "represent-mcq-10": "本句的「represents a major change」指「某件事本身構成、體現或相當於某種變化、發展或情況」。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-10"
     },
@@ -1325,11 +1237,9 @@ export default {
       "masked": "The promotion ____ in her career.",
       "options": [
         "represent-mcq-10",
-        "represent-mcq-09",
-        "represent-mcq-11",
-        "represent-mcq-08",
-        "represent-mcq-12",
-        "represent-mcq-07"
+        "represent-mcq-25",
+        "represent-mcq-02",
+        "represent-mcq-15"
       ],
       "explanation": "本句的「represents an important step」指「某件事本身構成、體現或相當於某種變化、發展或情況」。",
       "sentenceIndex": 22,
@@ -1338,12 +1248,10 @@ export default {
         "represents an important step"
       ],
       "optionReasons": {
-        "represent-mcq-10": "本句指「某件事本身構成、體現或相當於某種變化、發展或情況」。",
-        "represent-mcq-09": "「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」是「represent A as B」的用法，與本句語境不同。",
-        "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。",
-        "represent-mcq-08": "「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」是「represent visually」的用法，與本句語境不同。",
-        "represent-mcq-12": "「能夠典型而準確地反映較大群體的特徵」是「represent a population/group」的用法，與本句語境不同。",
-        "represent-mcq-07": "「用某個符號、字母、數字等表示或對應另一個事物」是「symbol/letter represents something」的用法，與本句語境不同。"
+        "represent-mcq-10": "本句的「represents an important step」指「某件事本身構成、體現或相當於某種變化、發展或情況」。",
+        "represent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-10"
     },
@@ -1355,11 +1263,9 @@ export default {
       "masked": "Online sales ____.",
       "options": [
         "represent-mcq-11",
-        "represent-mcq-10",
-        "represent-mcq-12",
-        "represent-mcq-09",
-        "represent-mcq-13",
-        "represent-mcq-08"
+        "represent-mcq-23",
+        "represent-mcq-27",
+        "represent-mcq-06"
       ],
       "explanation": "本句的「represent 40% of total revenue」指「在整體中佔某個比例或部分」。",
       "sentenceIndex": 23,
@@ -1368,12 +1274,10 @@ export default {
         "represent 40% of total revenue"
       ],
       "optionReasons": {
-        "represent-mcq-11": "本句指「在整體中佔某個比例或部分」。",
-        "represent-mcq-10": "「某件事本身構成、體現或相當於某種變化、發展或情況」是「represent = constitute」的用法，與本句語境不同。",
-        "represent-mcq-12": "「能夠典型而準確地反映較大群體的特徵」是「represent a population/group」的用法，與本句語境不同。",
-        "represent-mcq-09": "「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」是「represent A as B」的用法，與本句語境不同。",
-        "represent-mcq-13": "「被授權代表某人、團體或機構出席、發言或行事的人」是「representative — person」的用法，與本句語境不同。",
-        "represent-mcq-08": "「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」是「represent visually」的用法，與本句語境不同。"
+        "represent-mcq-11": "本句的「represent 40% of total revenue」指「在整體中佔某個比例或部分」。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-11"
     },
@@ -1385,11 +1289,9 @@ export default {
       "masked": "International customers ____.",
       "options": [
         "represent-mcq-11",
-        "represent-mcq-10",
-        "represent-mcq-12",
-        "represent-mcq-09",
-        "represent-mcq-13",
-        "represent-mcq-08"
+        "represent-mcq-26",
+        "represent-mcq-23",
+        "represent-mcq-07"
       ],
       "explanation": "本句的「represent a large share of the market」指「在整體中佔某個比例或部分」。",
       "sentenceIndex": 24,
@@ -1398,12 +1300,10 @@ export default {
         "represent a large share of the market"
       ],
       "optionReasons": {
-        "represent-mcq-11": "本句指「在整體中佔某個比例或部分」。",
-        "represent-mcq-10": "「某件事本身構成、體現或相當於某種變化、發展或情況」是「represent = constitute」的用法，與本句語境不同。",
-        "represent-mcq-12": "「能夠典型而準確地反映較大群體的特徵」是「represent a population/group」的用法，與本句語境不同。",
-        "represent-mcq-09": "「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」是「represent A as B」的用法，與本句語境不同。",
-        "represent-mcq-13": "「被授權代表某人、團體或機構出席、發言或行事的人」是「representative — person」的用法，與本句語境不同。",
-        "represent-mcq-08": "「以圖像、圖表、藝術作品或模型描繪／呈現某個對象」是「represent visually」的用法，與本句語境不同。"
+        "represent-mcq-11": "本句的「represent a large share of the market」指「在整體中佔某個比例或部分」。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-11"
     },
@@ -1415,11 +1315,9 @@ export default {
       "masked": "These results ____.",
       "options": [
         "represent-mcq-12",
-        "represent-mcq-11",
-        "represent-mcq-13",
-        "represent-mcq-10",
-        "represent-mcq-14",
-        "represent-mcq-09"
+        "represent-mcq-26",
+        "represent-mcq-09",
+        "represent-mcq-02"
       ],
       "explanation": "本句的「represent a typical pattern」指「能夠典型而準確地反映較大群體的特徵」。",
       "sentenceIndex": 25,
@@ -1428,12 +1326,10 @@ export default {
         "represent a typical pattern"
       ],
       "optionReasons": {
-        "represent-mcq-12": "本句指「能夠典型而準確地反映較大群體的特徵」。",
-        "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。",
-        "represent-mcq-13": "「被授權代表某人、團體或機構出席、發言或行事的人」是「representative — person」的用法，與本句語境不同。",
-        "represent-mcq-10": "「某件事本身構成、體現或相當於某種變化、發展或情況」是「represent = constitute」的用法，與本句語境不同。",
-        "represent-mcq-14": "「能夠典型、合理反映某個群體、類型或現象特徵的」是「representative — adjective」的用法，與本句語境不同。",
-        "represent-mcq-09": "「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」是「represent A as B」的用法，與本句語境不同。"
+        "represent-mcq-12": "本句的「represent a typical pattern」指「能夠典型而準確地反映較大群體的特徵」。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-12"
     },
@@ -1445,11 +1341,9 @@ export default {
       "masked": "The sample does not fully ____.",
       "options": [
         "represent-mcq-12",
-        "represent-mcq-11",
-        "represent-mcq-13",
-        "represent-mcq-10",
-        "represent-mcq-14",
-        "represent-mcq-09"
+        "represent-mcq-09",
+        "represent-mcq-26",
+        "represent-mcq-07"
       ],
       "explanation": "本句的「represent the population」指「能夠典型而準確地反映較大群體的特徵」。",
       "sentenceIndex": 26,
@@ -1458,12 +1352,10 @@ export default {
         "represent the population"
       ],
       "optionReasons": {
-        "represent-mcq-12": "本句指「能夠典型而準確地反映較大群體的特徵」。",
-        "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。",
-        "represent-mcq-13": "「被授權代表某人、團體或機構出席、發言或行事的人」是「representative — person」的用法，與本句語境不同。",
-        "represent-mcq-10": "「某件事本身構成、體現或相當於某種變化、發展或情況」是「represent = constitute」的用法，與本句語境不同。",
-        "represent-mcq-14": "「能夠典型、合理反映某個群體、類型或現象特徵的」是「representative — adjective」的用法，與本句語境不同。",
-        "represent-mcq-09": "「把 A 描述、刻畫或呈現成 B 的樣子、身份或狀態」是「represent A as B」的用法，與本句語境不同。"
+        "represent-mcq-12": "本句的「represent the population」指「能夠典型而準確地反映較大群體的特徵」。",
+        "represent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-12"
     },
@@ -1475,11 +1367,9 @@ export default {
       "masked": "The survey used a ____ of employees.",
       "options": [
         "represent-mcq-14",
-        "represent-mcq-13",
-        "represent-mcq-15",
-        "represent-mcq-12",
-        "represent-mcq-16",
-        "represent-mcq-11"
+        "represent-mcq-02",
+        "represent-mcq-26",
+        "represent-mcq-23"
       ],
       "explanation": "本句的「representative sample」指「能夠典型、合理反映某個群體、類型或現象特徵的」。",
       "sentenceIndex": 27,
@@ -1488,12 +1378,10 @@ export default {
         "representative sample"
       ],
       "optionReasons": {
-        "represent-mcq-14": "本句指「能夠典型、合理反映某個群體、類型或現象特徵的」。",
-        "represent-mcq-13": "「被授權代表某人、團體或機構出席、發言或行事的人」是「representative — person」的用法，與本句語境不同。",
-        "represent-mcq-15": "「代表公司向客戶介紹、推廣及銷售產品／服務的人員」是「sales representative」的用法，與本句語境不同。",
-        "represent-mcq-12": "「能夠典型而準確地反映較大群體的特徵」是「represent a population/group」的用法，與本句語境不同。",
-        "represent-mcq-16": "「獲授權在法律事務上代表另一人／機構的人」是「legal representative」的用法，與本句語境不同。",
-        "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。"
+        "represent-mcq-14": "本句的「representative sample」指「能夠典型、合理反映某個群體、類型或現象特徵的」。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-14"
     },
@@ -1505,11 +1393,9 @@ export default {
       "masked": "The sample may not be ____ the whole population.",
       "options": [
         "represent-mcq-14",
-        "represent-mcq-13",
-        "represent-mcq-15",
-        "represent-mcq-12",
-        "represent-mcq-16",
-        "represent-mcq-11"
+        "represent-mcq-07",
+        "represent-mcq-02",
+        "represent-mcq-23"
       ],
       "explanation": "本句的「representative of」指「能夠典型、合理反映某個群體、類型或現象特徵的」。",
       "sentenceIndex": 28,
@@ -1518,12 +1404,10 @@ export default {
         "representative of"
       ],
       "optionReasons": {
-        "represent-mcq-14": "本句指「能夠典型、合理反映某個群體、類型或現象特徵的」。",
-        "represent-mcq-13": "「被授權代表某人、團體或機構出席、發言或行事的人」是「representative — person」的用法，與本句語境不同。",
-        "represent-mcq-15": "「代表公司向客戶介紹、推廣及銷售產品／服務的人員」是「sales representative」的用法，與本句語境不同。",
-        "represent-mcq-12": "「能夠典型而準確地反映較大群體的特徵」是「represent a population/group」的用法，與本句語境不同。",
-        "represent-mcq-16": "「獲授權在法律事務上代表另一人／機構的人」是「legal representative」的用法，與本句語境不同。",
-        "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。"
+        "represent-mcq-14": "本句的「representative of」指「能夠典型、合理反映某個群體、類型或現象特徵的」。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-14"
     },
@@ -1535,11 +1419,9 @@ export default {
       "masked": "Each department sent a ____ to the meeting.",
       "options": [
         "represent-mcq-13",
-        "represent-mcq-12",
-        "represent-mcq-14",
-        "represent-mcq-11",
-        "represent-mcq-15",
-        "represent-mcq-10"
+        "represent-mcq-02",
+        "represent-mcq-19",
+        "represent-mcq-11"
       ],
       "explanation": "本句的「representative」指「被授權代表某人、團體或機構出席、發言或行事的人」。",
       "sentenceIndex": 29,
@@ -1548,12 +1430,10 @@ export default {
         "representative"
       ],
       "optionReasons": {
-        "represent-mcq-13": "本句指「被授權代表某人、團體或機構出席、發言或行事的人」。",
-        "represent-mcq-12": "「能夠典型而準確地反映較大群體的特徵」是「represent a population/group」的用法，與本句語境不同。",
-        "represent-mcq-14": "「能夠典型、合理反映某個群體、類型或現象特徵的」是「representative — adjective」的用法，與本句語境不同。",
-        "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。",
-        "represent-mcq-15": "「代表公司向客戶介紹、推廣及銷售產品／服務的人員」是「sales representative」的用法，與本句語境不同。",
-        "represent-mcq-10": "「某件事本身構成、體現或相當於某種變化、發展或情況」是「represent = constitute」的用法，與本句語境不同。"
+        "represent-mcq-13": "本句的「representative」指「被授權代表某人、團體或機構出席、發言或行事的人」。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-13"
     },
@@ -1565,11 +1445,9 @@ export default {
       "masked": "She attended as the team’s ____.",
       "options": [
         "represent-mcq-13",
-        "represent-mcq-12",
-        "represent-mcq-14",
-        "represent-mcq-11",
-        "represent-mcq-15",
-        "represent-mcq-10"
+        "represent-mcq-25",
+        "represent-mcq-08",
+        "represent-mcq-02"
       ],
       "explanation": "本句的「representative」指「被授權代表某人、團體或機構出席、發言或行事的人」。",
       "sentenceIndex": 30,
@@ -1578,12 +1456,10 @@ export default {
         "representative"
       ],
       "optionReasons": {
-        "represent-mcq-13": "本句指「被授權代表某人、團體或機構出席、發言或行事的人」。",
-        "represent-mcq-12": "「能夠典型而準確地反映較大群體的特徵」是「represent a population/group」的用法，與本句語境不同。",
-        "represent-mcq-14": "「能夠典型、合理反映某個群體、類型或現象特徵的」是「representative — adjective」的用法，與本句語境不同。",
-        "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。",
-        "represent-mcq-15": "「代表公司向客戶介紹、推廣及銷售產品／服務的人員」是「sales representative」的用法，與本句語境不同。",
-        "represent-mcq-10": "「某件事本身構成、體現或相當於某種變化、發展或情況」是「represent = constitute」的用法，與本句語境不同。"
+        "represent-mcq-13": "本句的「representative」指「被授權代表某人、團體或機構出席、發言或行事的人」。",
+        "represent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-13"
     },
@@ -1595,11 +1471,9 @@ export default {
       "masked": "He works as a ____.",
       "options": [
         "represent-mcq-15",
-        "represent-mcq-14",
-        "represent-mcq-16",
-        "represent-mcq-13",
-        "represent-mcq-17",
-        "represent-mcq-12"
+        "represent-mcq-26",
+        "represent-mcq-11",
+        "represent-mcq-09"
       ],
       "explanation": "本句的「sales representative」指「代表公司向客戶介紹、推廣及銷售產品／服務的人員」。",
       "sentenceIndex": 31,
@@ -1608,12 +1482,10 @@ export default {
         "sales representative"
       ],
       "optionReasons": {
-        "represent-mcq-15": "本句指「代表公司向客戶介紹、推廣及銷售產品／服務的人員」。",
-        "represent-mcq-14": "「能夠典型、合理反映某個群體、類型或現象特徵的」是「representative — adjective」的用法，與本句語境不同。",
-        "represent-mcq-16": "「獲授權在法律事務上代表另一人／機構的人」是「legal representative」的用法，與本句語境不同。",
-        "represent-mcq-13": "「被授權代表某人、團體或機構出席、發言或行事的人」是「representative — person」的用法，與本句語境不同。",
-        "represent-mcq-17": "「由某人代表另一人／群體發言、行事或維護利益的安排／行為」是「representation — acting for others」的用法，與本句語境不同。",
-        "represent-mcq-12": "「能夠典型而準確地反映較大群體的特徵」是「represent a population/group」的用法，與本句語境不同。"
+        "represent-mcq-15": "本句的「sales representative」指「代表公司向客戶介紹、推廣及銷售產品／服務的人員」。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-15"
     },
@@ -1625,11 +1497,9 @@ export default {
       "masked": "A ____ contacted the client.",
       "options": [
         "represent-mcq-15",
-        "represent-mcq-14",
-        "represent-mcq-16",
-        "represent-mcq-13",
-        "represent-mcq-17",
-        "represent-mcq-12"
+        "represent-mcq-19",
+        "represent-mcq-27",
+        "represent-mcq-02"
       ],
       "explanation": "本句的「sales representative」指「代表公司向客戶介紹、推廣及銷售產品／服務的人員」。",
       "sentenceIndex": 32,
@@ -1638,12 +1508,10 @@ export default {
         "sales representative"
       ],
       "optionReasons": {
-        "represent-mcq-15": "本句指「代表公司向客戶介紹、推廣及銷售產品／服務的人員」。",
-        "represent-mcq-14": "「能夠典型、合理反映某個群體、類型或現象特徵的」是「representative — adjective」的用法，與本句語境不同。",
-        "represent-mcq-16": "「獲授權在法律事務上代表另一人／機構的人」是「legal representative」的用法，與本句語境不同。",
-        "represent-mcq-13": "「被授權代表某人、團體或機構出席、發言或行事的人」是「representative — person」的用法，與本句語境不同。",
-        "represent-mcq-17": "「由某人代表另一人／群體發言、行事或維護利益的安排／行為」是「representation — acting for others」的用法，與本句語境不同。",
-        "represent-mcq-12": "「能夠典型而準確地反映較大群體的特徵」是「represent a population/group」的用法，與本句語境不同。"
+        "represent-mcq-15": "本句的「sales representative」指「代表公司向客戶介紹、推廣及銷售產品／服務的人員」。",
+        "represent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-15"
     },
@@ -1655,11 +1523,9 @@ export default {
       "masked": "A customer service ____ will contact you.",
       "options": [
         "represent-mcq-15",
-        "represent-mcq-14",
-        "represent-mcq-16",
-        "represent-mcq-13",
-        "represent-mcq-17",
-        "represent-mcq-12"
+        "represent-mcq-27",
+        "represent-mcq-25",
+        "represent-mcq-09"
       ],
       "explanation": "本句的「representative」指「代表公司向客戶介紹、推廣及銷售產品／服務的人員」。",
       "sentenceIndex": 33,
@@ -1668,12 +1534,10 @@ export default {
         "representative"
       ],
       "optionReasons": {
-        "represent-mcq-15": "本句指「代表公司向客戶介紹、推廣及銷售產品／服務的人員」。",
-        "represent-mcq-14": "「能夠典型、合理反映某個群體、類型或現象特徵的」是「representative — adjective」的用法，與本句語境不同。",
-        "represent-mcq-16": "「獲授權在法律事務上代表另一人／機構的人」是「legal representative」的用法，與本句語境不同。",
-        "represent-mcq-13": "「被授權代表某人、團體或機構出席、發言或行事的人」是「representative — person」的用法，與本句語境不同。",
-        "represent-mcq-17": "「由某人代表另一人／群體發言、行事或維護利益的安排／行為」是「representation — acting for others」的用法，與本句語境不同。",
-        "represent-mcq-12": "「能夠典型而準確地反映較大群體的特徵」是「represent a population/group」的用法，與本句語境不同。"
+        "represent-mcq-15": "本句的「representative」指「代表公司向客戶介紹、推廣及銷售產品／服務的人員」。",
+        "represent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-15"
     },
@@ -1685,11 +1549,9 @@ export default {
       "masked": "I spoke to a support ____.",
       "options": [
         "represent-mcq-15",
-        "represent-mcq-14",
-        "represent-mcq-16",
-        "represent-mcq-13",
-        "represent-mcq-17",
-        "represent-mcq-12"
+        "represent-mcq-09",
+        "represent-mcq-02",
+        "represent-mcq-27"
       ],
       "explanation": "本句的「representative」指「代表公司向客戶介紹、推廣及銷售產品／服務的人員」。",
       "sentenceIndex": 34,
@@ -1698,12 +1560,10 @@ export default {
         "representative"
       ],
       "optionReasons": {
-        "represent-mcq-15": "本句指「代表公司向客戶介紹、推廣及銷售產品／服務的人員」。",
-        "represent-mcq-14": "「能夠典型、合理反映某個群體、類型或現象特徵的」是「representative — adjective」的用法，與本句語境不同。",
-        "represent-mcq-16": "「獲授權在法律事務上代表另一人／機構的人」是「legal representative」的用法，與本句語境不同。",
-        "represent-mcq-13": "「被授權代表某人、團體或機構出席、發言或行事的人」是「representative — person」的用法，與本句語境不同。",
-        "represent-mcq-17": "「由某人代表另一人／群體發言、行事或維護利益的安排／行為」是「representation — acting for others」的用法，與本句語境不同。",
-        "represent-mcq-12": "「能夠典型而準確地反映較大群體的特徵」是「represent a population/group」的用法，與本句語境不同。"
+        "represent-mcq-15": "本句的「representative」指「代表公司向客戶介紹、推廣及銷售產品／服務的人員」。",
+        "represent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-15"
     },
@@ -1715,11 +1575,9 @@ export default {
       "masked": "Please contact your ____.",
       "options": [
         "represent-mcq-16",
-        "represent-mcq-15",
-        "represent-mcq-17",
-        "represent-mcq-14",
-        "represent-mcq-18",
-        "represent-mcq-13"
+        "represent-mcq-02",
+        "represent-mcq-23",
+        "represent-mcq-25"
       ],
       "explanation": "本句的「legal representative」指「獲授權在法律事務上代表另一人／機構的人」。",
       "sentenceIndex": 35,
@@ -1728,12 +1586,10 @@ export default {
         "legal representative"
       ],
       "optionReasons": {
-        "represent-mcq-16": "本句指「獲授權在法律事務上代表另一人／機構的人」。",
-        "represent-mcq-15": "「代表公司向客戶介紹、推廣及銷售產品／服務的人員」是「sales representative」的用法，與本句語境不同。",
-        "represent-mcq-17": "「由某人代表另一人／群體發言、行事或維護利益的安排／行為」是「representation — acting for others」的用法，與本句語境不同。",
-        "represent-mcq-14": "「能夠典型、合理反映某個群體、類型或現象特徵的」是「representative — adjective」的用法，與本句語境不同。",
-        "represent-mcq-18": "「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」是「representation — portrayal」的用法，與本句語境不同。",
-        "represent-mcq-13": "「被授權代表某人、團體或機構出席、發言或行事的人」是「representative — person」的用法，與本句語境不同。"
+        "represent-mcq-16": "本句的「legal representative」指「獲授權在法律事務上代表另一人／機構的人」。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-16"
     },
@@ -1745,11 +1601,9 @@ export default {
       "masked": "Her ____ attended the hearing.",
       "options": [
         "represent-mcq-16",
-        "represent-mcq-15",
-        "represent-mcq-17",
-        "represent-mcq-14",
-        "represent-mcq-18",
-        "represent-mcq-13"
+        "represent-mcq-02",
+        "represent-mcq-23",
+        "represent-mcq-11"
       ],
       "explanation": "本句的「legal representative」指「獲授權在法律事務上代表另一人／機構的人」。",
       "sentenceIndex": 36,
@@ -1758,12 +1612,10 @@ export default {
         "legal representative"
       ],
       "optionReasons": {
-        "represent-mcq-16": "本句指「獲授權在法律事務上代表另一人／機構的人」。",
-        "represent-mcq-15": "「代表公司向客戶介紹、推廣及銷售產品／服務的人員」是「sales representative」的用法，與本句語境不同。",
-        "represent-mcq-17": "「由某人代表另一人／群體發言、行事或維護利益的安排／行為」是「representation — acting for others」的用法，與本句語境不同。",
-        "represent-mcq-14": "「能夠典型、合理反映某個群體、類型或現象特徵的」是「representative — adjective」的用法，與本句語境不同。",
-        "represent-mcq-18": "「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」是「representation — portrayal」的用法，與本句語境不同。",
-        "represent-mcq-13": "「被授權代表某人、團體或機構出席、發言或行事的人」是「representative — person」的用法，與本句語境不同。"
+        "represent-mcq-16": "本句的「legal representative」指「獲授權在法律事務上代表另一人／機構的人」。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-16"
     },
@@ -1775,11 +1627,9 @@ export default {
       "masked": "This case is ____ a wider problem.",
       "options": [
         "represent-mcq-14",
-        "represent-mcq-13",
-        "represent-mcq-15",
-        "represent-mcq-12",
-        "represent-mcq-16",
-        "represent-mcq-11"
+        "represent-mcq-23",
+        "represent-mcq-07",
+        "represent-mcq-26"
       ],
       "explanation": "本句的「representative of」指「能夠典型、合理反映某個群體、類型或現象特徵的」。",
       "sentenceIndex": 37,
@@ -1788,12 +1638,10 @@ export default {
         "representative of"
       ],
       "optionReasons": {
-        "represent-mcq-14": "本句指「能夠典型、合理反映某個群體、類型或現象特徵的」。",
-        "represent-mcq-13": "「被授權代表某人、團體或機構出席、發言或行事的人」是「representative — person」的用法，與本句語境不同。",
-        "represent-mcq-15": "「代表公司向客戶介紹、推廣及銷售產品／服務的人員」是「sales representative」的用法，與本句語境不同。",
-        "represent-mcq-12": "「能夠典型而準確地反映較大群體的特徵」是「represent a population/group」的用法，與本句語境不同。",
-        "represent-mcq-16": "「獲授權在法律事務上代表另一人／機構的人」是「legal representative」的用法，與本句語境不同。",
-        "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。"
+        "represent-mcq-14": "本句的「representative of」指「能夠典型、合理反映某個群體、類型或現象特徵的」。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-14"
     },
@@ -1805,11 +1653,9 @@ export default {
       "masked": "The examples are ____ everyday usage.",
       "options": [
         "represent-mcq-14",
-        "represent-mcq-13",
-        "represent-mcq-15",
-        "represent-mcq-12",
-        "represent-mcq-16",
-        "represent-mcq-11"
+        "represent-mcq-23",
+        "represent-mcq-26",
+        "represent-mcq-02"
       ],
       "explanation": "本句的「representative of」指「能夠典型、合理反映某個群體、類型或現象特徵的」。",
       "sentenceIndex": 38,
@@ -1818,12 +1664,10 @@ export default {
         "representative of"
       ],
       "optionReasons": {
-        "represent-mcq-14": "本句指「能夠典型、合理反映某個群體、類型或現象特徵的」。",
-        "represent-mcq-13": "「被授權代表某人、團體或機構出席、發言或行事的人」是「representative — person」的用法，與本句語境不同。",
-        "represent-mcq-15": "「代表公司向客戶介紹、推廣及銷售產品／服務的人員」是「sales representative」的用法，與本句語境不同。",
-        "represent-mcq-12": "「能夠典型而準確地反映較大群體的特徵」是「represent a population/group」的用法，與本句語境不同。",
-        "represent-mcq-16": "「獲授權在法律事務上代表另一人／機構的人」是「legal representative」的用法，與本句語境不同。",
-        "represent-mcq-11": "「在整體中佔某個比例或部分」是「represent + percentage/share」的用法，與本句語境不同。"
+        "represent-mcq-14": "本句的「representative of」指「能夠典型、合理反映某個群體、類型或現象特徵的」。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-14"
     },
@@ -1835,11 +1679,9 @@ export default {
       "masked": "Employees asked for better ____ in management discussions.",
       "options": [
         "represent-mcq-17",
-        "represent-mcq-16",
-        "represent-mcq-18",
-        "represent-mcq-15",
-        "represent-mcq-19",
-        "represent-mcq-14"
+        "represent-mcq-08",
+        "represent-mcq-25",
+        "represent-mcq-26"
       ],
       "explanation": "本句的「representation」指「由某人代表另一人／群體發言、行事或維護利益的安排／行為」。",
       "sentenceIndex": 39,
@@ -1848,12 +1690,10 @@ export default {
         "representation"
       ],
       "optionReasons": {
-        "represent-mcq-17": "本句指「由某人代表另一人／群體發言、行事或維護利益的安排／行為」。",
-        "represent-mcq-16": "「獲授權在法律事務上代表另一人／機構的人」是「legal representative」的用法，與本句語境不同。",
-        "represent-mcq-18": "「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」是「representation — portrayal」的用法，與本句語境不同。",
-        "represent-mcq-15": "「代表公司向客戶介紹、推廣及銷售產品／服務的人員」是「sales representative」的用法，與本句語境不同。",
-        "represent-mcq-19": "「用符號、數據、模型或圖像表示另一事物的形式」是「representation — symbolic/data form」的用法，與本句語境不同。",
-        "represent-mcq-14": "「能夠典型、合理反映某個群體、類型或現象特徵的」是「representative — adjective」的用法，與本句語境不同。"
+        "represent-mcq-17": "本句的「representation」指「由某人代表另一人／群體發言、行事或維護利益的安排／行為」。",
+        "represent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-17"
     },
@@ -1865,11 +1705,9 @@ export default {
       "masked": "The client received legal ____.",
       "options": [
         "represent-mcq-17",
-        "represent-mcq-16",
-        "represent-mcq-18",
-        "represent-mcq-15",
-        "represent-mcq-19",
-        "represent-mcq-14"
+        "represent-mcq-02",
+        "represent-mcq-25",
+        "represent-mcq-26"
       ],
       "explanation": "本句的「representation」指「由某人代表另一人／群體發言、行事或維護利益的安排／行為」。",
       "sentenceIndex": 40,
@@ -1878,12 +1716,10 @@ export default {
         "representation"
       ],
       "optionReasons": {
-        "represent-mcq-17": "本句指「由某人代表另一人／群體發言、行事或維護利益的安排／行為」。",
-        "represent-mcq-16": "「獲授權在法律事務上代表另一人／機構的人」是「legal representative」的用法，與本句語境不同。",
-        "represent-mcq-18": "「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」是「representation — portrayal」的用法，與本句語境不同。",
-        "represent-mcq-15": "「代表公司向客戶介紹、推廣及銷售產品／服務的人員」是「sales representative」的用法，與本句語境不同。",
-        "represent-mcq-19": "「用符號、數據、模型或圖像表示另一事物的形式」是「representation — symbolic/data form」的用法，與本句語境不同。",
-        "represent-mcq-14": "「能夠典型、合理反映某個群體、類型或現象特徵的」是「representative — adjective」的用法，與本句語境不同。"
+        "represent-mcq-17": "本句的「representation」指「由某人代表另一人／群體發言、行事或維護利益的安排／行為」。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-17"
     },
@@ -1895,11 +1731,9 @@ export default {
       "masked": "The film’s ____ office life felt realistic.",
       "options": [
         "represent-mcq-18",
-        "represent-mcq-17",
-        "represent-mcq-19",
-        "represent-mcq-16",
-        "represent-mcq-20",
-        "represent-mcq-15"
+        "represent-mcq-27",
+        "represent-mcq-02",
+        "represent-mcq-11"
       ],
       "explanation": "本句的「representation of」指「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」。",
       "sentenceIndex": 41,
@@ -1908,12 +1742,10 @@ export default {
         "representation of"
       ],
       "optionReasons": {
-        "represent-mcq-18": "本句指「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」。",
-        "represent-mcq-17": "「由某人代表另一人／群體發言、行事或維護利益的安排／行為」是「representation — acting for others」的用法，與本句語境不同。",
-        "represent-mcq-19": "「用符號、數據、模型或圖像表示另一事物的形式」是「representation — symbolic/data form」的用法，與本句語境不同。",
-        "represent-mcq-16": "「獲授權在法律事務上代表另一人／機構的人」是「legal representative」的用法，與本句語境不同。",
-        "represent-mcq-20": "「某個群體在組織／機構／決策架構中的代表比例及參與程度」是「representation — group presence」的用法，與本句語境不同。",
-        "represent-mcq-15": "「代表公司向客戶介紹、推廣及銷售產品／服務的人員」是「sales representative」的用法，與本句語境不同。"
+        "represent-mcq-18": "本句的「representation of」指「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」。",
+        "represent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-18"
     },
@@ -1925,11 +1757,9 @@ export default {
       "masked": "The chart is a visual ____ of the data.",
       "options": [
         "represent-mcq-18",
-        "represent-mcq-17",
-        "represent-mcq-19",
-        "represent-mcq-16",
-        "represent-mcq-20",
-        "represent-mcq-15"
+        "represent-mcq-11",
+        "represent-mcq-02",
+        "represent-mcq-26"
       ],
       "explanation": "本句的「representation」指「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」。",
       "sentenceIndex": 42,
@@ -1938,12 +1768,10 @@ export default {
         "representation"
       ],
       "optionReasons": {
-        "represent-mcq-18": "本句指「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」。",
-        "represent-mcq-17": "「由某人代表另一人／群體發言、行事或維護利益的安排／行為」是「representation — acting for others」的用法，與本句語境不同。",
-        "represent-mcq-19": "「用符號、數據、模型或圖像表示另一事物的形式」是「representation — symbolic/data form」的用法，與本句語境不同。",
-        "represent-mcq-16": "「獲授權在法律事務上代表另一人／機構的人」是「legal representative」的用法，與本句語境不同。",
-        "represent-mcq-20": "「某個群體在組織／機構／決策架構中的代表比例及參與程度」是「representation — group presence」的用法，與本句語境不同。",
-        "represent-mcq-15": "「代表公司向客戶介紹、推廣及銷售產品／服務的人員」是「sales representative」的用法，與本句語境不同。"
+        "represent-mcq-18": "本句的「representation」指「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-18"
     },
@@ -1955,11 +1783,9 @@ export default {
       "masked": "The diagram is a simplified ____ of the system.",
       "options": [
         "represent-mcq-19",
-        "represent-mcq-18",
-        "represent-mcq-20",
-        "represent-mcq-17",
-        "represent-mcq-21",
-        "represent-mcq-16"
+        "represent-mcq-23",
+        "represent-mcq-05",
+        "represent-mcq-10"
       ],
       "explanation": "本句的「representation」指「用符號、數據、模型或圖像表示另一事物的形式」。",
       "sentenceIndex": 43,
@@ -1968,12 +1794,10 @@ export default {
         "representation"
       ],
       "optionReasons": {
-        "represent-mcq-19": "本句指「用符號、數據、模型或圖像表示另一事物的形式」。",
-        "represent-mcq-18": "「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」是「representation — portrayal」的用法，與本句語境不同。",
-        "represent-mcq-20": "「某個群體在組織／機構／決策架構中的代表比例及參與程度」是「representation — group presence」的用法，與本句語境不同。",
-        "represent-mcq-17": "「由某人代表另一人／群體發言、行事或維護利益的安排／行為」是「representation — acting for others」的用法，與本句語境不同。",
-        "represent-mcq-21": "「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」是「representational」的用法，與本句語境不同。",
-        "represent-mcq-16": "「獲授權在法律事務上代表另一人／機構的人」是「legal representative」的用法，與本句語境不同。"
+        "represent-mcq-19": "本句的「representation」指「用符號、數據、模型或圖像表示另一事物的形式」。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-19"
     },
@@ -1985,11 +1809,9 @@ export default {
       "masked": "The software stores a digital ____ of the image.",
       "options": [
         "represent-mcq-19",
-        "represent-mcq-18",
         "represent-mcq-20",
-        "represent-mcq-17",
-        "represent-mcq-21",
-        "represent-mcq-16"
+        "represent-mcq-23",
+        "represent-mcq-10"
       ],
       "explanation": "本句的「representation」指「用符號、數據、模型或圖像表示另一事物的形式」。",
       "sentenceIndex": 44,
@@ -1998,12 +1820,10 @@ export default {
         "representation"
       ],
       "optionReasons": {
-        "represent-mcq-19": "本句指「用符號、數據、模型或圖像表示另一事物的形式」。",
-        "represent-mcq-18": "「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」是「representation — portrayal」的用法，與本句語境不同。",
-        "represent-mcq-20": "「某個群體在組織／機構／決策架構中的代表比例及參與程度」是「representation — group presence」的用法，與本句語境不同。",
-        "represent-mcq-17": "「由某人代表另一人／群體發言、行事或維護利益的安排／行為」是「representation — acting for others」的用法，與本句語境不同。",
-        "represent-mcq-21": "「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」是「representational」的用法，與本句語境不同。",
-        "represent-mcq-16": "「獲授權在法律事務上代表另一人／機構的人」是「legal representative」的用法，與本句語境不同。"
+        "represent-mcq-19": "本句的「representation」指「用符號、數據、模型或圖像表示另一事物的形式」。",
+        "represent-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-19"
     },
@@ -2016,10 +1836,8 @@ export default {
       "options": [
         "represent-mcq-20",
         "represent-mcq-19",
-        "represent-mcq-21",
-        "represent-mcq-18",
-        "represent-mcq-22",
-        "represent-mcq-17"
+        "represent-mcq-23",
+        "represent-mcq-02"
       ],
       "explanation": "本句的「representation」指「某個群體在組織／機構／決策架構中的代表比例及參與程度」。",
       "sentenceIndex": 45,
@@ -2028,12 +1846,10 @@ export default {
         "representation"
       ],
       "optionReasons": {
-        "represent-mcq-20": "本句指「某個群體在組織／機構／決策架構中的代表比例及參與程度」。",
-        "represent-mcq-19": "「用符號、數據、模型或圖像表示另一事物的形式」是「representation — symbolic/data form」的用法，與本句語境不同。",
-        "represent-mcq-21": "「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」是「representational」的用法，與本句語境不同。",
-        "represent-mcq-18": "「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」是「representation — portrayal」的用法，與本句語境不同。",
-        "represent-mcq-22": "「以不準確、失實或誤導方式描述／呈現某人或某事」是「misrepresent」的用法，與本句語境不同。",
-        "represent-mcq-17": "「由某人代表另一人／群體發言、行事或維護利益的安排／行為」是「representation — acting for others」的用法，與本句語境不同。"
+        "represent-mcq-20": "本句的「representation」指「某個群體在組織／機構／決策架構中的代表比例及參與程度」。",
+        "represent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-20"
     },
@@ -2046,10 +1862,8 @@ export default {
       "options": [
         "represent-mcq-20",
         "represent-mcq-19",
-        "represent-mcq-21",
-        "represent-mcq-18",
-        "represent-mcq-22",
-        "represent-mcq-17"
+        "represent-mcq-23",
+        "represent-mcq-10"
       ],
       "explanation": "本句的「representation」指「某個群體在組織／機構／決策架構中的代表比例及參與程度」。",
       "sentenceIndex": 46,
@@ -2058,12 +1872,10 @@ export default {
         "representation"
       ],
       "optionReasons": {
-        "represent-mcq-20": "本句指「某個群體在組織／機構／決策架構中的代表比例及參與程度」。",
-        "represent-mcq-19": "「用符號、數據、模型或圖像表示另一事物的形式」是「representation — symbolic/data form」的用法，與本句語境不同。",
-        "represent-mcq-21": "「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」是「representational」的用法，與本句語境不同。",
-        "represent-mcq-18": "「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」是「representation — portrayal」的用法，與本句語境不同。",
-        "represent-mcq-22": "「以不準確、失實或誤導方式描述／呈現某人或某事」是「misrepresent」的用法，與本句語境不同。",
-        "represent-mcq-17": "「由某人代表另一人／群體發言、行事或維護利益的安排／行為」是「representation — acting for others」的用法，與本句語境不同。"
+        "represent-mcq-20": "本句的「representation」指「某個群體在組織／機構／決策架構中的代表比例及參與程度」。",
+        "represent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-20"
     },
@@ -2075,11 +1887,9 @@ export default {
       "masked": "The artist moved from ____ to abstraction.",
       "options": [
         "represent-mcq-21",
-        "represent-mcq-20",
-        "represent-mcq-22",
-        "represent-mcq-19",
-        "represent-mcq-23",
-        "represent-mcq-18"
+        "represent-mcq-07",
+        "represent-mcq-11",
+        "represent-mcq-27"
       ],
       "explanation": "本句的「representational art」指「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」。",
       "sentenceIndex": 47,
@@ -2088,12 +1898,10 @@ export default {
         "representational art"
       ],
       "optionReasons": {
-        "represent-mcq-21": "本句指「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」。",
-        "represent-mcq-20": "「某個群體在組織／機構／決策架構中的代表比例及參與程度」是「representation — group presence」的用法，與本句語境不同。",
-        "represent-mcq-22": "「以不準確、失實或誤導方式描述／呈現某人或某事」是「misrepresent」的用法，與本句語境不同。",
-        "represent-mcq-19": "「用符號、數據、模型或圖像表示另一事物的形式」是「representation — symbolic/data form」的用法，與本句語境不同。",
-        "represent-mcq-23": "「對事實、身份、情況或產品作出不準確／誤導描述的行為」是「misrepresentation」的用法，與本句語境不同。",
-        "represent-mcq-18": "「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」是「representation — portrayal」的用法，與本句語境不同。"
+        "represent-mcq-21": "本句的「representational art」指「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-21"
     },
@@ -2105,11 +1913,9 @@ export default {
       "masked": "The painting is highly ____.",
       "options": [
         "represent-mcq-21",
-        "represent-mcq-20",
-        "represent-mcq-22",
-        "represent-mcq-19",
-        "represent-mcq-23",
-        "represent-mcq-18"
+        "represent-mcq-25",
+        "represent-mcq-11",
+        "represent-mcq-27"
       ],
       "explanation": "本句的「representational」指「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」。",
       "sentenceIndex": 48,
@@ -2118,12 +1924,10 @@ export default {
         "representational"
       ],
       "optionReasons": {
-        "represent-mcq-21": "本句指「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」。",
-        "represent-mcq-20": "「某個群體在組織／機構／決策架構中的代表比例及參與程度」是「representation — group presence」的用法，與本句語境不同。",
-        "represent-mcq-22": "「以不準確、失實或誤導方式描述／呈現某人或某事」是「misrepresent」的用法，與本句語境不同。",
-        "represent-mcq-19": "「用符號、數據、模型或圖像表示另一事物的形式」是「representation — symbolic/data form」的用法，與本句語境不同。",
-        "represent-mcq-23": "「對事實、身份、情況或產品作出不準確／誤導描述的行為」是「misrepresentation」的用法，與本句語境不同。",
-        "represent-mcq-18": "「某人／某事透過文字、圖像、符號、藝術等被描繪或呈現的方式」是「representation — portrayal」的用法，與本句語境不同。"
+        "represent-mcq-21": "本句的「representational」指「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」。",
+        "represent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-21"
     },
@@ -2135,11 +1939,9 @@ export default {
       "masked": "The report ____ what she had said.",
       "options": [
         "represent-mcq-22",
-        "represent-mcq-21",
-        "represent-mcq-23",
-        "represent-mcq-20",
-        "represent-mcq-24",
-        "represent-mcq-19"
+        "represent-mcq-07",
+        "represent-mcq-02",
+        "represent-mcq-11"
       ],
       "explanation": "本句的「misrepresented」指「以不準確、失實或誤導方式描述／呈現某人或某事」。",
       "sentenceIndex": 49,
@@ -2148,12 +1950,10 @@ export default {
         "misrepresented"
       ],
       "optionReasons": {
-        "represent-mcq-22": "本句指「以不準確、失實或誤導方式描述／呈現某人或某事」。",
-        "represent-mcq-21": "「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」是「representational」的用法，與本句語境不同。",
-        "represent-mcq-23": "「對事實、身份、情況或產品作出不準確／誤導描述的行為」是「misrepresentation」的用法，與本句語境不同。",
-        "represent-mcq-20": "「某個群體在組織／機構／決策架構中的代表比例及參與程度」是「representation — group presence」的用法，與本句語境不同。",
-        "represent-mcq-24": "「由指定人物代為出席、發言或行事」是「be represented by + person」的用法，與本句語境不同。",
-        "represent-mcq-19": "「用符號、數據、模型或圖像表示另一事物的形式」是「representation — symbolic/data form」的用法，與本句語境不同。"
+        "represent-mcq-22": "本句的「misrepresented」指「以不準確、失實或誤導方式描述／呈現某人或某事」。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-22"
     },
@@ -2165,11 +1965,9 @@ export default {
       "masked": "Do not ____ the results.",
       "options": [
         "represent-mcq-22",
-        "represent-mcq-21",
-        "represent-mcq-23",
-        "represent-mcq-20",
-        "represent-mcq-24",
-        "represent-mcq-19"
+        "represent-mcq-11",
+        "represent-mcq-19",
+        "represent-mcq-26"
       ],
       "explanation": "本句的「misrepresent」指「以不準確、失實或誤導方式描述／呈現某人或某事」。",
       "sentenceIndex": 50,
@@ -2178,12 +1976,10 @@ export default {
         "misrepresent"
       ],
       "optionReasons": {
-        "represent-mcq-22": "本句指「以不準確、失實或誤導方式描述／呈現某人或某事」。",
-        "represent-mcq-21": "「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」是「representational」的用法，與本句語境不同。",
-        "represent-mcq-23": "「對事實、身份、情況或產品作出不準確／誤導描述的行為」是「misrepresentation」的用法，與本句語境不同。",
-        "represent-mcq-20": "「某個群體在組織／機構／決策架構中的代表比例及參與程度」是「representation — group presence」的用法，與本句語境不同。",
-        "represent-mcq-24": "「由指定人物代為出席、發言或行事」是「be represented by + person」的用法，與本句語境不同。",
-        "represent-mcq-19": "「用符號、數據、模型或圖像表示另一事物的形式」是「representation — symbolic/data form」的用法，與本句語境不同。"
+        "represent-mcq-22": "本句的「misrepresent」指「以不準確、失實或誤導方式描述／呈現某人或某事」。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-22"
     },
@@ -2195,11 +1991,9 @@ export default {
       "masked": "He was accused of ____ as a qualified lawyer.",
       "options": [
         "represent-mcq-22",
-        "represent-mcq-21",
-        "represent-mcq-23",
-        "represent-mcq-20",
-        "represent-mcq-24",
-        "represent-mcq-19"
+        "represent-mcq-19",
+        "represent-mcq-11",
+        "represent-mcq-02"
       ],
       "explanation": "本句的「misrepresenting himself」指「以不準確、失實或誤導方式描述／呈現某人或某事」。",
       "sentenceIndex": 51,
@@ -2208,12 +2002,10 @@ export default {
         "misrepresenting himself"
       ],
       "optionReasons": {
-        "represent-mcq-22": "本句指「以不準確、失實或誤導方式描述／呈現某人或某事」。",
-        "represent-mcq-21": "「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」是「representational」的用法，與本句語境不同。",
-        "represent-mcq-23": "「對事實、身份、情況或產品作出不準確／誤導描述的行為」是「misrepresentation」的用法，與本句語境不同。",
-        "represent-mcq-20": "「某個群體在組織／機構／決策架構中的代表比例及參與程度」是「representation — group presence」的用法，與本句語境不同。",
-        "represent-mcq-24": "「由指定人物代為出席、發言或行事」是「be represented by + person」的用法，與本句語境不同。",
-        "represent-mcq-19": "「用符號、數據、模型或圖像表示另一事物的形式」是「representation — symbolic/data form」的用法，與本句語境不同。"
+        "represent-mcq-22": "本句的「misrepresenting himself」指「以不準確、失實或誤導方式描述／呈現某人或某事」。",
+        "represent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-22"
     },
@@ -2225,11 +2017,9 @@ export default {
       "masked": "Applicants must not ____.",
       "options": [
         "represent-mcq-22",
-        "represent-mcq-21",
-        "represent-mcq-23",
-        "represent-mcq-20",
-        "represent-mcq-24",
-        "represent-mcq-19"
+        "represent-mcq-07",
+        "represent-mcq-26",
+        "represent-mcq-02"
       ],
       "explanation": "本句的「misrepresent their experience」指「以不準確、失實或誤導方式描述／呈現某人或某事」。",
       "sentenceIndex": 52,
@@ -2238,12 +2028,10 @@ export default {
         "misrepresent their experience"
       ],
       "optionReasons": {
-        "represent-mcq-22": "本句指「以不準確、失實或誤導方式描述／呈現某人或某事」。",
-        "represent-mcq-21": "「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」是「representational」的用法，與本句語境不同。",
-        "represent-mcq-23": "「對事實、身份、情況或產品作出不準確／誤導描述的行為」是「misrepresentation」的用法，與本句語境不同。",
-        "represent-mcq-20": "「某個群體在組織／機構／決策架構中的代表比例及參與程度」是「representation — group presence」的用法，與本句語境不同。",
-        "represent-mcq-24": "「由指定人物代為出席、發言或行事」是「be represented by + person」的用法，與本句語境不同。",
-        "represent-mcq-19": "「用符號、數據、模型或圖像表示另一事物的形式」是「representation — symbolic/data form」的用法，與本句語境不同。"
+        "represent-mcq-22": "本句的「misrepresent their experience」指「以不準確、失實或誤導方式描述／呈現某人或某事」。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-22"
     },
@@ -2255,11 +2043,9 @@ export default {
       "masked": "The advertisement was criticized for ____.",
       "options": [
         "represent-mcq-23",
-        "represent-mcq-22",
-        "represent-mcq-24",
-        "represent-mcq-21",
-        "represent-mcq-25",
-        "represent-mcq-20"
+        "represent-mcq-20",
+        "represent-mcq-19",
+        "represent-mcq-02"
       ],
       "explanation": "本句的「misrepresentation」指「對事實、身份、情況或產品作出不準確／誤導描述的行為」。",
       "sentenceIndex": 53,
@@ -2268,12 +2054,10 @@ export default {
         "misrepresentation"
       ],
       "optionReasons": {
-        "represent-mcq-23": "本句指「對事實、身份、情況或產品作出不準確／誤導描述的行為」。",
-        "represent-mcq-22": "「以不準確、失實或誤導方式描述／呈現某人或某事」是「misrepresent」的用法，與本句語境不同。",
-        "represent-mcq-24": "「由指定人物代為出席、發言或行事」是「be represented by + person」的用法，與本句語境不同。",
-        "represent-mcq-21": "「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」是「representational」的用法，與本句語境不同。",
-        "represent-mcq-25": "「以特定符號、顏色、圖形等作為表示方式」是「be represented by + symbol」的用法，與本句語境不同。",
-        "represent-mcq-20": "「某個群體在組織／機構／決策架構中的代表比例及參與程度」是「representation — group presence」的用法，與本句語境不同。"
+        "represent-mcq-23": "本句的「misrepresentation」指「對事實、身份、情況或產品作出不準確／誤導描述的行為」。",
+        "represent-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-23"
     },
@@ -2285,11 +2069,9 @@ export default {
       "masked": "The contract may be challenged if there was serious ____.",
       "options": [
         "represent-mcq-23",
-        "represent-mcq-22",
-        "represent-mcq-24",
-        "represent-mcq-21",
-        "represent-mcq-25",
-        "represent-mcq-20"
+        "represent-mcq-19",
+        "represent-mcq-05",
+        "represent-mcq-02"
       ],
       "explanation": "本句的「misrepresentation」指「對事實、身份、情況或產品作出不準確／誤導描述的行為」。",
       "sentenceIndex": 54,
@@ -2298,12 +2080,10 @@ export default {
         "misrepresentation"
       ],
       "optionReasons": {
-        "represent-mcq-23": "本句指「對事實、身份、情況或產品作出不準確／誤導描述的行為」。",
-        "represent-mcq-22": "「以不準確、失實或誤導方式描述／呈現某人或某事」是「misrepresent」的用法，與本句語境不同。",
-        "represent-mcq-24": "「由指定人物代為出席、發言或行事」是「be represented by + person」的用法，與本句語境不同。",
-        "represent-mcq-21": "「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」是「representational」的用法，與本句語境不同。",
-        "represent-mcq-25": "「以特定符號、顏色、圖形等作為表示方式」是「be represented by + symbol」的用法，與本句語境不同。",
-        "represent-mcq-20": "「某個群體在組織／機構／決策架構中的代表比例及參與程度」是「representation — group presence」的用法，與本句語境不同。"
+        "represent-mcq-23": "本句的「misrepresentation」指「對事實、身份、情況或產品作出不準確／誤導描述的行為」。",
+        "represent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-23"
     },
@@ -2315,11 +2095,9 @@ export default {
       "masked": "The team was ____ two employees.",
       "options": [
         "represent-mcq-24",
-        "represent-mcq-23",
-        "represent-mcq-25",
-        "represent-mcq-22",
-        "represent-mcq-26",
-        "represent-mcq-21"
+        "represent-mcq-02",
+        "represent-mcq-19",
+        "represent-mcq-11"
       ],
       "explanation": "本句的「represented by」指「由指定人物代為出席、發言或行事」。",
       "sentenceIndex": 55,
@@ -2328,12 +2106,10 @@ export default {
         "represented by"
       ],
       "optionReasons": {
-        "represent-mcq-24": "本句指「由指定人物代為出席、發言或行事」。",
-        "represent-mcq-23": "「對事實、身份、情況或產品作出不準確／誤導描述的行為」是「misrepresentation」的用法，與本句語境不同。",
-        "represent-mcq-25": "「以特定符號、顏色、圖形等作為表示方式」是「be represented by + symbol」的用法，與本句語境不同。",
-        "represent-mcq-22": "「以不準確、失實或誤導方式描述／呈現某人或某事」是「misrepresent」的用法，與本句語境不同。",
-        "represent-mcq-26": "「某件事本身構成或形成某種問題、威脅、風險或機會」是「represent a problem/threat/opportunity」的用法，與本句語境不同。",
-        "represent-mcq-21": "「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」是「representational」的用法，與本句語境不同。"
+        "represent-mcq-24": "本句的「represented by」指「由指定人物代為出席、發言或行事」。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-24"
     },
@@ -2345,11 +2121,9 @@ export default {
       "masked": "The company was ____ its legal adviser.",
       "options": [
         "represent-mcq-24",
-        "represent-mcq-23",
-        "represent-mcq-25",
-        "represent-mcq-22",
-        "represent-mcq-26",
-        "represent-mcq-21"
+        "represent-mcq-11",
+        "represent-mcq-19",
+        "represent-mcq-26"
       ],
       "explanation": "本句的「represented by」指「由指定人物代為出席、發言或行事」。",
       "sentenceIndex": 56,
@@ -2358,12 +2132,10 @@ export default {
         "represented by"
       ],
       "optionReasons": {
-        "represent-mcq-24": "本句指「由指定人物代為出席、發言或行事」。",
-        "represent-mcq-23": "「對事實、身份、情況或產品作出不準確／誤導描述的行為」是「misrepresentation」的用法，與本句語境不同。",
-        "represent-mcq-25": "「以特定符號、顏色、圖形等作為表示方式」是「be represented by + symbol」的用法，與本句語境不同。",
-        "represent-mcq-22": "「以不準確、失實或誤導方式描述／呈現某人或某事」是「misrepresent」的用法，與本句語境不同。",
-        "represent-mcq-26": "「某件事本身構成或形成某種問題、威脅、風險或機會」是「represent a problem/threat/opportunity」的用法，與本句語境不同。",
-        "represent-mcq-21": "「以可辨認方式描繪現實人物、物件或場景的；具象／再現性的」是「representational」的用法，與本句語境不同。"
+        "represent-mcq-24": "本句的「represented by」指「由指定人物代為出席、發言或行事」。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-24"
     },
@@ -2375,11 +2147,9 @@ export default {
       "masked": "Sales are ____ the blue line.",
       "options": [
         "represent-mcq-25",
-        "represent-mcq-24",
-        "represent-mcq-26",
+        "represent-mcq-05",
         "represent-mcq-23",
-        "represent-mcq-27",
-        "represent-mcq-22"
+        "represent-mcq-11"
       ],
       "explanation": "本句的「represented by」指「以特定符號、顏色、圖形等作為表示方式」。",
       "sentenceIndex": 57,
@@ -2388,12 +2158,10 @@ export default {
         "represented by"
       ],
       "optionReasons": {
-        "represent-mcq-25": "本句指「以特定符號、顏色、圖形等作為表示方式」。",
-        "represent-mcq-24": "「由指定人物代為出席、發言或行事」是「be represented by + person」的用法，與本句語境不同。",
-        "represent-mcq-26": "「某件事本身構成或形成某種問題、威脅、風險或機會」是「represent a problem/threat/opportunity」的用法，與本句語境不同。",
-        "represent-mcq-23": "「對事實、身份、情況或產品作出不準確／誤導描述的行為」是「misrepresentation」的用法，與本句語境不同。",
-        "represent-mcq-27": "「某項行動或決定反映、標誌或構成某種重要發展」是「represent a change/step」的用法，與本句語境不同。",
-        "represent-mcq-22": "「以不準確、失實或誤導方式描述／呈現某人或某事」是「misrepresent」的用法，與本句語境不同。"
+        "represent-mcq-25": "本句的「represented by」指「以特定符號、顏色、圖形等作為表示方式」。",
+        "represent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-25"
     },
@@ -2405,11 +2173,9 @@ export default {
       "masked": "Each department is ____ a different colour.",
       "options": [
         "represent-mcq-25",
-        "represent-mcq-24",
-        "represent-mcq-26",
-        "represent-mcq-23",
-        "represent-mcq-27",
-        "represent-mcq-22"
+        "represent-mcq-05",
+        "represent-mcq-09",
+        "represent-mcq-02"
       ],
       "explanation": "本句的「represented by」指「以特定符號、顏色、圖形等作為表示方式」。",
       "sentenceIndex": 58,
@@ -2418,12 +2184,10 @@ export default {
         "represented by"
       ],
       "optionReasons": {
-        "represent-mcq-25": "本句指「以特定符號、顏色、圖形等作為表示方式」。",
-        "represent-mcq-24": "「由指定人物代為出席、發言或行事」是「be represented by + person」的用法，與本句語境不同。",
-        "represent-mcq-26": "「某件事本身構成或形成某種問題、威脅、風險或機會」是「represent a problem/threat/opportunity」的用法，與本句語境不同。",
-        "represent-mcq-23": "「對事實、身份、情況或產品作出不準確／誤導描述的行為」是「misrepresentation」的用法，與本句語境不同。",
-        "represent-mcq-27": "「某項行動或決定反映、標誌或構成某種重要發展」是「represent a change/step」的用法，與本句語境不同。",
-        "represent-mcq-22": "「以不準確、失實或誤導方式描述／呈現某人或某事」是「misrepresent」的用法，與本句語境不同。"
+        "represent-mcq-25": "本句的「represented by」指「以特定符號、顏色、圖形等作為表示方式」。",
+        "represent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-25"
     },
@@ -2435,11 +2199,9 @@ export default {
       "masked": "The delay ____.",
       "options": [
         "represent-mcq-26",
-        "represent-mcq-25",
-        "represent-mcq-27",
-        "represent-mcq-24",
-        "represent-mcq-23",
-        "represent-mcq-22"
+        "represent-mcq-12",
+        "represent-mcq-07",
+        "represent-mcq-11"
       ],
       "explanation": "本句的「represents a serious problem」指「某件事本身構成或形成某種問題、威脅、風險或機會」。",
       "sentenceIndex": 59,
@@ -2448,12 +2210,10 @@ export default {
         "represents a serious problem"
       ],
       "optionReasons": {
-        "represent-mcq-26": "本句指「某件事本身構成或形成某種問題、威脅、風險或機會」。",
-        "represent-mcq-25": "「以特定符號、顏色、圖形等作為表示方式」是「be represented by + symbol」的用法，與本句語境不同。",
-        "represent-mcq-27": "「某項行動或決定反映、標誌或構成某種重要發展」是「represent a change/step」的用法，與本句語境不同。",
-        "represent-mcq-24": "「由指定人物代為出席、發言或行事」是「be represented by + person」的用法，與本句語境不同。",
-        "represent-mcq-23": "「對事實、身份、情況或產品作出不準確／誤導描述的行為」是「misrepresentation」的用法，與本句語境不同。",
-        "represent-mcq-22": "「以不準確、失實或誤導方式描述／呈現某人或某事」是「misrepresent」的用法，與本句語境不同。"
+        "represent-mcq-26": "本句的「represents a serious problem」指「某件事本身構成或形成某種問題、威脅、風險或機會」。",
+        "represent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-26"
     },
@@ -2465,11 +2225,9 @@ export default {
       "masked": "The new market ____.",
       "options": [
         "represent-mcq-26",
-        "represent-mcq-25",
-        "represent-mcq-27",
-        "represent-mcq-24",
-        "represent-mcq-23",
-        "represent-mcq-22"
+        "represent-mcq-07",
+        "represent-mcq-03",
+        "represent-mcq-08"
       ],
       "explanation": "本句的「represents a major opportunity」指「某件事本身構成或形成某種問題、威脅、風險或機會」。",
       "sentenceIndex": 60,
@@ -2478,12 +2236,10 @@ export default {
         "represents a major opportunity"
       ],
       "optionReasons": {
-        "represent-mcq-26": "本句指「某件事本身構成或形成某種問題、威脅、風險或機會」。",
-        "represent-mcq-25": "「以特定符號、顏色、圖形等作為表示方式」是「be represented by + symbol」的用法，與本句語境不同。",
-        "represent-mcq-27": "「某項行動或決定反映、標誌或構成某種重要發展」是「represent a change/step」的用法，與本句語境不同。",
-        "represent-mcq-24": "「由指定人物代為出席、發言或行事」是「be represented by + person」的用法，與本句語境不同。",
-        "represent-mcq-23": "「對事實、身份、情況或產品作出不準確／誤導描述的行為」是「misrepresentation」的用法，與本句語境不同。",
-        "represent-mcq-22": "「以不準確、失實或誤導方式描述／呈現某人或某事」是「misrepresent」的用法，與本句語境不同。"
+        "represent-mcq-26": "本句的「represents a major opportunity」指「某件事本身構成或形成某種問題、威脅、風險或機會」。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-26"
     },
@@ -2495,11 +2251,9 @@ export default {
       "masked": "The new role ____ in her career.",
       "options": [
         "represent-mcq-27",
-        "represent-mcq-26",
-        "represent-mcq-25",
-        "represent-mcq-24",
-        "represent-mcq-23",
-        "represent-mcq-22"
+        "represent-mcq-22",
+        "represent-mcq-19",
+        "represent-mcq-11"
       ],
       "explanation": "本句的「represents a major step forward」指「某項行動或決定反映、標誌或構成某種重要發展」。",
       "sentenceIndex": 61,
@@ -2508,12 +2262,10 @@ export default {
         "represents a major step forward"
       ],
       "optionReasons": {
-        "represent-mcq-27": "本句指「某項行動或決定反映、標誌或構成某種重要發展」。",
-        "represent-mcq-26": "「某件事本身構成或形成某種問題、威脅、風險或機會」是「represent a problem/threat/opportunity」的用法，與本句語境不同。",
-        "represent-mcq-25": "「以特定符號、顏色、圖形等作為表示方式」是「be represented by + symbol」的用法，與本句語境不同。",
-        "represent-mcq-24": "「由指定人物代為出席、發言或行事」是「be represented by + person」的用法，與本句語境不同。",
-        "represent-mcq-23": "「對事實、身份、情況或產品作出不準確／誤導描述的行為」是「misrepresentation」的用法，與本句語境不同。",
-        "represent-mcq-22": "「以不準確、失實或誤導方式描述／呈現某人或某事」是「misrepresent」的用法，與本句語境不同。"
+        "represent-mcq-27": "本句的「represents a major step forward」指「某項行動或決定反映、標誌或構成某種重要發展」。",
+        "represent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-27"
     },
@@ -2525,11 +2277,9 @@ export default {
       "masked": "The policy ____ in approach.",
       "options": [
         "represent-mcq-27",
-        "represent-mcq-26",
-        "represent-mcq-25",
-        "represent-mcq-24",
-        "represent-mcq-23",
-        "represent-mcq-22"
+        "represent-mcq-08",
+        "represent-mcq-07",
+        "represent-mcq-11"
       ],
       "explanation": "本句的「represents a significant change」指「某項行動或決定反映、標誌或構成某種重要發展」。",
       "sentenceIndex": 62,
@@ -2538,12 +2288,10 @@ export default {
         "represents a significant change"
       ],
       "optionReasons": {
-        "represent-mcq-27": "本句指「某項行動或決定反映、標誌或構成某種重要發展」。",
-        "represent-mcq-26": "「某件事本身構成或形成某種問題、威脅、風險或機會」是「represent a problem/threat/opportunity」的用法，與本句語境不同。",
-        "represent-mcq-25": "「以特定符號、顏色、圖形等作為表示方式」是「be represented by + symbol」的用法，與本句語境不同。",
-        "represent-mcq-24": "「由指定人物代為出席、發言或行事」是「be represented by + person」的用法，與本句語境不同。",
-        "represent-mcq-23": "「對事實、身份、情況或產品作出不準確／誤導描述的行為」是「misrepresentation」的用法，與本句語境不同。",
-        "represent-mcq-22": "「以不準確、失實或誤導方式描述／呈現某人或某事」是「misrepresent」的用法，與本句語境不同。"
+        "represent-mcq-27": "本句的「represents a significant change」指「某項行動或決定反映、標誌或構成某種重要發展」。",
+        "represent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "represent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "represent-mcq-27"
     }
@@ -2555,5 +2303,7 @@ export default {
     "sha256": "ce5b6bd479ec49fe64278af1f558c10ed458b521a53922409a511516d03a339d",
     "pages": 26
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

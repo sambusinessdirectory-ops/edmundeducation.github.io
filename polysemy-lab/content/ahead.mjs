@@ -102,16 +102,6 @@ export default {
       "note": "來源詞義：提前計劃",
       "examples": [
         [
-          "It's a good idea to plan ahead.",
-          "提前規劃是個好主意。",
-          "提前計劃"
-        ],
-        [
-          "We booked the tickets several months ahead.",
-          "我們提前幾個月便訂了票。",
-          "提前計劃"
-        ],
-        [
           "You need to plan ahead for a long trip.",
           "長途旅行需要提前計劃。",
           "提前計劃"
@@ -502,6 +492,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "ahead-reviewed-e00db1ac84",
+      "title": "比實際需要或事件發生時間更早",
+      "form": "ahead · source section 5",
+      "en": "比實際需要或事件發生時間更早",
+      "zh": "比實際需要或事件發生時間更早",
+      "note": "對照原始教材第 5 節及例句核實。",
+      "examples": [
+        [
+          "It's a good idea to plan ahead.",
+          "提前規劃是個好主意。",
+          "比實際需要或事件發生時間更早"
+        ],
+        [
+          "We booked the tickets several months ahead.",
+          "我們提前幾個月便訂了票。",
+          "比實際需要或事件發生時間更早"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -513,11 +525,9 @@ export default {
       "masked": "He walked a few steps ____ of us.",
       "options": [
         "ahead-mcq-01",
-        "ahead-mcq-02",
-        "ahead-mcq-03",
-        "ahead-mcq-04",
-        "ahead-mcq-05",
-        "ahead-mcq-06"
+        "ahead-mcq-16",
+        "ahead-mcq-10",
+        "ahead-mcq-21"
       ],
       "explanation": "本句的「ahead」指「在前面；前方」。",
       "sentenceIndex": 0,
@@ -526,12 +536,10 @@ export default {
         "ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-01": "本句指「在前面；前方」。",
-        "ahead-mcq-02": "「正前方；一直向前」與本句語境不同。",
-        "ahead-mcq-03": "「遠在前方」與本句語境不同。",
-        "ahead-mcq-04": "「在 X 前面」與本句語境不同。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。"
+        "ahead-mcq-01": "本句的「ahead」指「在前面；前方」。",
+        "ahead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-01"
     },
@@ -543,11 +551,9 @@ export default {
       "masked": "I could see a bridge ____.",
       "options": [
         "ahead-mcq-01",
-        "ahead-mcq-02",
-        "ahead-mcq-03",
-        "ahead-mcq-04",
-        "ahead-mcq-05",
-        "ahead-mcq-06"
+        "ahead-pdf-001",
+        "ahead-mcq-10",
+        "ahead-mcq-17"
       ],
       "explanation": "本句的「ahead」指「在前面；前方」。",
       "sentenceIndex": 1,
@@ -556,12 +562,10 @@ export default {
         "ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-01": "本句指「在前面；前方」。",
-        "ahead-mcq-02": "「正前方；一直向前」與本句語境不同。",
-        "ahead-mcq-03": "「遠在前方」與本句語境不同。",
-        "ahead-mcq-04": "「在 X 前面」與本句語境不同。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。"
+        "ahead-mcq-01": "本句的「ahead」指「在前面；前方」。",
+        "ahead-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-01"
     },
@@ -573,11 +577,9 @@ export default {
       "masked": "Go ____ at the traffic lights.",
       "options": [
         "ahead-mcq-02",
-        "ahead-mcq-01",
-        "ahead-mcq-03",
-        "ahead-mcq-04",
-        "ahead-mcq-05",
-        "ahead-mcq-06"
+        "ahead-mcq-17",
+        "ahead-mcq-21",
+        "ahead-reviewed-e00db1ac84"
       ],
       "explanation": "本句的「straight ahead」指「正前方；一直向前」。",
       "sentenceIndex": 2,
@@ -586,12 +588,10 @@ export default {
         "straight ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-02": "本句指「正前方；一直向前」。",
-        "ahead-mcq-01": "「在前面；前方」與本句語境不同。",
-        "ahead-mcq-03": "「遠在前方」與本句語境不同。",
-        "ahead-mcq-04": "「在 X 前面」與本句語境不同。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。"
+        "ahead-mcq-02": "本句的「straight ahead」指「正前方；一直向前」。",
+        "ahead-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ahead-reviewed-e00db1ac84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-02"
     },
@@ -603,11 +603,9 @@ export default {
       "masked": "The station is ____.",
       "options": [
         "ahead-mcq-02",
-        "ahead-mcq-01",
-        "ahead-mcq-03",
-        "ahead-mcq-04",
-        "ahead-mcq-05",
-        "ahead-mcq-06"
+        "ahead-mcq-19",
+        "ahead-mcq-21",
+        "ahead-mcq-07"
       ],
       "explanation": "本句的「straight ahead」指「正前方；一直向前」。",
       "sentenceIndex": 3,
@@ -616,12 +614,10 @@ export default {
         "straight ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-02": "本句指「正前方；一直向前」。",
-        "ahead-mcq-01": "「在前面；前方」與本句語境不同。",
-        "ahead-mcq-03": "「遠在前方」與本句語境不同。",
-        "ahead-mcq-04": "「在 X 前面」與本句語境不同。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。"
+        "ahead-mcq-02": "本句的「straight ahead」指「正前方；一直向前」。",
+        "ahead-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-02"
     },
@@ -633,11 +629,9 @@ export default {
       "masked": "The other runners were already ____.",
       "options": [
         "ahead-mcq-03",
-        "ahead-mcq-02",
-        "ahead-mcq-04",
-        "ahead-mcq-01",
-        "ahead-mcq-05",
-        "ahead-mcq-06"
+        "ahead-mcq-18",
+        "ahead-mcq-14",
+        "ahead-mcq-10"
       ],
       "explanation": "本句的「far ahead」指「遠在前方」。",
       "sentenceIndex": 4,
@@ -646,12 +640,10 @@ export default {
         "far ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-03": "本句指「遠在前方」。",
-        "ahead-mcq-02": "「正前方；一直向前」與本句語境不同。",
-        "ahead-mcq-04": "「在 X 前面」與本句語境不同。",
-        "ahead-mcq-01": "「在前面；前方」與本句語境不同。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。"
+        "ahead-mcq-03": "本句的「far ahead」指「遠在前方」。",
+        "ahead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-03"
     },
@@ -663,11 +655,9 @@ export default {
       "masked": "We could see the town ____.",
       "options": [
         "ahead-mcq-03",
-        "ahead-mcq-02",
-        "ahead-mcq-04",
-        "ahead-mcq-01",
-        "ahead-mcq-05",
-        "ahead-mcq-06"
+        "ahead-reviewed-e00db1ac84",
+        "ahead-mcq-12",
+        "ahead-mcq-16"
       ],
       "explanation": "本句的「far ahead」指「遠在前方」。",
       "sentenceIndex": 5,
@@ -676,12 +666,10 @@ export default {
         "far ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-03": "本句指「遠在前方」。",
-        "ahead-mcq-02": "「正前方；一直向前」與本句語境不同。",
-        "ahead-mcq-04": "「在 X 前面」與本句語境不同。",
-        "ahead-mcq-01": "「在前面；前方」與本句語境不同。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。"
+        "ahead-mcq-03": "本句的「far ahead」指「遠在前方」。",
+        "ahead-reviewed-e00db1ac84": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-03"
     },
@@ -693,11 +681,9 @@ export default {
       "masked": "She was walking ____.",
       "options": [
         "ahead-mcq-04",
-        "ahead-mcq-03",
-        "ahead-mcq-05",
-        "ahead-mcq-02",
-        "ahead-mcq-06",
-        "ahead-mcq-01"
+        "ahead-mcq-16",
+        "ahead-mcq-08",
+        "ahead-pdf-001"
       ],
       "explanation": "本句的「ahead of me」指「在 X 前面」。",
       "sentenceIndex": 6,
@@ -706,12 +692,10 @@ export default {
         "ahead of me"
       ],
       "optionReasons": {
-        "ahead-mcq-04": "本句指「在 X 前面」。",
-        "ahead-mcq-03": "「遠在前方」與本句語境不同。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。",
-        "ahead-mcq-02": "「正前方；一直向前」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。",
-        "ahead-mcq-01": "「在前面；前方」與本句語境不同。"
+        "ahead-mcq-04": "本句的「ahead of me」指「在 X 前面」。",
+        "ahead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ahead-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-04"
     },
@@ -723,11 +707,9 @@ export default {
       "masked": "A truck was driving ____.",
       "options": [
         "ahead-mcq-04",
-        "ahead-mcq-03",
-        "ahead-mcq-05",
-        "ahead-mcq-02",
-        "ahead-mcq-06",
-        "ahead-mcq-01"
+        "ahead-mcq-12",
+        "ahead-mcq-08",
+        "ahead-mcq-13"
       ],
       "explanation": "本句的「ahead of us」指「在 X 前面」。",
       "sentenceIndex": 7,
@@ -736,74 +718,68 @@ export default {
         "ahead of us"
       ],
       "optionReasons": {
-        "ahead-mcq-04": "本句指「在 X 前面」。",
-        "ahead-mcq-03": "「遠在前方」與本句語境不同。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。",
-        "ahead-mcq-02": "「正前方；一直向前」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。",
-        "ahead-mcq-01": "「在前面；前方」與本句語境不同。"
+        "ahead-mcq-04": "本句的「ahead of us」指「在 X 前面」。",
+        "ahead-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-04"
     },
     {
       "id": "ahead-05-0",
-      "sense": "ahead-mcq-05",
+      "sense": "ahead-reviewed-e00db1ac84",
       "en": "It's a good idea to plan ahead.",
       "zh": "提前規劃是個好主意。",
       "masked": "It's a good idea to plan ____.",
       "options": [
-        "ahead-mcq-05",
-        "ahead-mcq-04",
-        "ahead-mcq-06",
-        "ahead-mcq-03",
-        "ahead-mcq-07",
-        "ahead-mcq-02"
+        "ahead-reviewed-e00db1ac84",
+        "ahead-mcq-08",
+        "ahead-mcq-12",
+        "ahead-mcq-06"
       ],
-      "explanation": "本句的「ahead」指「提前計劃」。",
+      "explanation": "對照完整句子：「提前規劃是個好主意。」。這裡的「ahead」表示「比實際需要或事件發生時間更早」。",
       "sentenceIndex": 8,
       "sourcePractice": 1,
       "targets": [
         "ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-05": "本句指「提前計劃」。",
-        "ahead-mcq-04": "「在 X 前面」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。",
-        "ahead-mcq-03": "「遠在前方」與本句語境不同。",
-        "ahead-mcq-07": "「比預定進度快」與本句語境不同。",
-        "ahead-mcq-02": "「正前方；一直向前」與本句語境不同。"
+        "ahead-reviewed-e00db1ac84": "對照完整句子：「提前規劃是個好主意。」。這裡的「ahead」表示「比實際需要或事件發生時間更早」。",
+        "ahead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "ahead-mcq-05"
+      "correctOption": "ahead-reviewed-e00db1ac84",
+      "previousCorrectOption": "ahead-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "ahead-05-1",
-      "sense": "ahead-mcq-05",
+      "sense": "ahead-reviewed-e00db1ac84",
       "en": "We booked the tickets several months ahead.",
       "zh": "我們提前幾個月便訂了票。",
       "masked": "We booked the tickets several months ____.",
       "options": [
-        "ahead-mcq-05",
-        "ahead-mcq-04",
-        "ahead-mcq-06",
-        "ahead-mcq-03",
-        "ahead-mcq-07",
-        "ahead-mcq-02"
+        "ahead-reviewed-e00db1ac84",
+        "ahead-mcq-19",
+        "ahead-mcq-14",
+        "ahead-mcq-01"
       ],
-      "explanation": "本句的「ahead」指「提前計劃」。",
+      "explanation": "對照完整句子：「我們提前幾個月便訂了票。」。這裡的「ahead」表示「比實際需要或事件發生時間更早」。",
       "sentenceIndex": 9,
       "sourcePractice": 2,
       "targets": [
         "ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-05": "本句指「提前計劃」。",
-        "ahead-mcq-04": "「在 X 前面」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。",
-        "ahead-mcq-03": "「遠在前方」與本句語境不同。",
-        "ahead-mcq-07": "「比預定進度快」與本句語境不同。",
-        "ahead-mcq-02": "「正前方；一直向前」與本句語境不同。"
+        "ahead-reviewed-e00db1ac84": "對照完整句子：「我們提前幾個月便訂了票。」。這裡的「ahead」表示「比實際需要或事件發生時間更早」。",
+        "ahead-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "ahead-mcq-05"
+      "correctOption": "ahead-reviewed-e00db1ac84",
+      "previousCorrectOption": "ahead-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "ahead-06-0",
@@ -813,11 +789,9 @@ export default {
       "masked": "You need to ____ for a long trip.",
       "options": [
         "ahead-mcq-05",
-        "ahead-mcq-04",
-        "ahead-mcq-06",
-        "ahead-mcq-03",
-        "ahead-mcq-07",
-        "ahead-mcq-02"
+        "ahead-reviewed-e00db1ac84",
+        "ahead-mcq-13",
+        "ahead-mcq-19"
       ],
       "explanation": "本句的「plan ahead」指「提前計劃」。",
       "sentenceIndex": 10,
@@ -826,12 +800,10 @@ export default {
         "plan ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-05": "本句指「提前計劃」。",
-        "ahead-mcq-04": "「在 X 前面」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。",
-        "ahead-mcq-03": "「遠在前方」與本句語境不同。",
-        "ahead-mcq-07": "「比預定進度快」與本句語境不同。",
-        "ahead-mcq-02": "「正前方；一直向前」與本句語境不同。"
+        "ahead-mcq-05": "本句的「plan ahead」指「提前計劃」。",
+        "ahead-reviewed-e00db1ac84": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-05"
     },
@@ -843,11 +815,9 @@ export default {
       "masked": "Good students often ____ before exams.",
       "options": [
         "ahead-mcq-05",
-        "ahead-mcq-04",
-        "ahead-mcq-06",
-        "ahead-mcq-03",
-        "ahead-mcq-07",
-        "ahead-mcq-02"
+        "ahead-mcq-13",
+        "ahead-reviewed-e00db1ac84",
+        "ahead-mcq-17"
       ],
       "explanation": "本句的「plan ahead」指「提前計劃」。",
       "sentenceIndex": 11,
@@ -856,12 +826,10 @@ export default {
         "plan ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-05": "本句指「提前計劃」。",
-        "ahead-mcq-04": "「在 X 前面」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。",
-        "ahead-mcq-03": "「遠在前方」與本句語境不同。",
-        "ahead-mcq-07": "「比預定進度快」與本句語境不同。",
-        "ahead-mcq-02": "「正前方；一直向前」與本句語境不同。"
+        "ahead-mcq-05": "本句的「plan ahead」指「提前計劃」。",
+        "ahead-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ahead-reviewed-e00db1ac84": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-05"
     },
@@ -873,11 +841,9 @@ export default {
       "masked": "We arrived ____.",
       "options": [
         "ahead-mcq-06",
-        "ahead-mcq-05",
-        "ahead-mcq-07",
-        "ahead-mcq-04",
-        "ahead-mcq-08",
-        "ahead-mcq-03"
+        "ahead-mcq-14",
+        "ahead-mcq-19",
+        "ahead-reviewed-e00db1ac84"
       ],
       "explanation": "本句的「ahead of time」指「提前」。",
       "sentenceIndex": 12,
@@ -886,12 +852,10 @@ export default {
         "ahead of time"
       ],
       "optionReasons": {
-        "ahead-mcq-06": "本句指「提前」。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。",
-        "ahead-mcq-07": "「比預定進度快」與本句語境不同。",
-        "ahead-mcq-04": "「在 X 前面」與本句語境不同。",
-        "ahead-mcq-08": "「展望未來」與本句語境不同。",
-        "ahead-mcq-03": "「遠在前方」與本句語境不同。"
+        "ahead-mcq-06": "本句的「ahead of time」指「提前」。",
+        "ahead-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ahead-reviewed-e00db1ac84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-06"
     },
@@ -903,11 +867,9 @@ export default {
       "masked": "Please submit the form ____.",
       "options": [
         "ahead-mcq-06",
-        "ahead-mcq-05",
-        "ahead-mcq-07",
-        "ahead-mcq-04",
-        "ahead-mcq-08",
-        "ahead-mcq-03"
+        "ahead-mcq-12",
+        "ahead-mcq-10",
+        "ahead-mcq-19"
       ],
       "explanation": "本句的「ahead of time」指「提前」。",
       "sentenceIndex": 13,
@@ -916,12 +878,10 @@ export default {
         "ahead of time"
       ],
       "optionReasons": {
-        "ahead-mcq-06": "本句指「提前」。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。",
-        "ahead-mcq-07": "「比預定進度快」與本句語境不同。",
-        "ahead-mcq-04": "「在 X 前面」與本句語境不同。",
-        "ahead-mcq-08": "「展望未來」與本句語境不同。",
-        "ahead-mcq-03": "「遠在前方」與本句語境不同。"
+        "ahead-mcq-06": "本句的「ahead of time」指「提前」。",
+        "ahead-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-06"
     },
@@ -933,11 +893,9 @@ export default {
       "masked": "The project is ____.",
       "options": [
         "ahead-mcq-07",
-        "ahead-mcq-06",
-        "ahead-mcq-08",
-        "ahead-mcq-05",
-        "ahead-mcq-09",
-        "ahead-mcq-04"
+        "ahead-mcq-04",
+        "ahead-mcq-20",
+        "ahead-mcq-21"
       ],
       "explanation": "本句的「ahead of schedule」指「比預定進度快」。",
       "sentenceIndex": 14,
@@ -946,12 +904,10 @@ export default {
         "ahead of schedule"
       ],
       "optionReasons": {
-        "ahead-mcq-07": "本句指「比預定進度快」。",
-        "ahead-mcq-06": "「提前」與本句語境不同。",
-        "ahead-mcq-08": "「展望未來」與本句語境不同。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。",
-        "ahead-mcq-09": "「前路；未來」與本句語境不同。",
-        "ahead-mcq-04": "「在 X 前面」與本句語境不同。"
+        "ahead-mcq-07": "本句的「ahead of schedule」指「比預定進度快」。",
+        "ahead-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-07"
     },
@@ -963,11 +919,9 @@ export default {
       "masked": "Construction finished two weeks ____.",
       "options": [
         "ahead-mcq-07",
-        "ahead-mcq-06",
-        "ahead-mcq-08",
-        "ahead-mcq-05",
-        "ahead-mcq-09",
-        "ahead-mcq-04"
+        "ahead-mcq-18",
+        "ahead-mcq-01",
+        "ahead-mcq-10"
       ],
       "explanation": "本句的「ahead of schedule」指「比預定進度快」。",
       "sentenceIndex": 15,
@@ -976,12 +930,10 @@ export default {
         "ahead of schedule"
       ],
       "optionReasons": {
-        "ahead-mcq-07": "本句指「比預定進度快」。",
-        "ahead-mcq-06": "「提前」與本句語境不同。",
-        "ahead-mcq-08": "「展望未來」與本句語境不同。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。",
-        "ahead-mcq-09": "「前路；未來」與本句語境不同。",
-        "ahead-mcq-04": "「在 X 前面」與本句語境不同。"
+        "ahead-mcq-07": "本句的「ahead of schedule」指「比預定進度快」。",
+        "ahead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-07"
     },
@@ -993,11 +945,9 @@ export default {
       "masked": "____, I honestly think he will grow into a very creative person.",
       "options": [
         "ahead-mcq-08",
-        "ahead-mcq-07",
-        "ahead-mcq-09",
-        "ahead-mcq-06",
-        "ahead-mcq-10",
-        "ahead-mcq-05"
+        "ahead-mcq-01",
+        "ahead-mcq-14",
+        "ahead-mcq-07"
       ],
       "explanation": "本句的「Looking ahead」指「展望未來」。",
       "sentenceIndex": 16,
@@ -1006,12 +956,10 @@ export default {
         "Looking ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-08": "本句指「展望未來」。",
-        "ahead-mcq-07": "「比預定進度快」與本句語境不同。",
-        "ahead-mcq-09": "「前路；未來」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。",
-        "ahead-mcq-10": "「未來幾年」與本句語境不同。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。"
+        "ahead-mcq-08": "本句的「Looking ahead」指「展望未來」。",
+        "ahead-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-08"
     },
@@ -1023,11 +971,9 @@ export default {
       "masked": "We need to ____ and think about what happens next.",
       "options": [
         "ahead-mcq-08",
-        "ahead-mcq-07",
-        "ahead-mcq-09",
+        "ahead-mcq-12",
         "ahead-mcq-06",
-        "ahead-mcq-10",
-        "ahead-mcq-05"
+        "ahead-mcq-17"
       ],
       "explanation": "本句的「look ahead」指「展望未來」。",
       "sentenceIndex": 17,
@@ -1036,12 +982,10 @@ export default {
         "look ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-08": "本句指「展望未來」。",
-        "ahead-mcq-07": "「比預定進度快」與本句語境不同。",
-        "ahead-mcq-09": "「前路；未來」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。",
-        "ahead-mcq-10": "「未來幾年」與本句語境不同。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。"
+        "ahead-mcq-08": "本句的「look ahead」指「展望未來」。",
+        "ahead-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-08"
     },
@@ -1053,11 +997,9 @@ export default {
       "masked": "____, the company plans to expand into new markets.",
       "options": [
         "ahead-mcq-08",
-        "ahead-mcq-07",
-        "ahead-mcq-09",
-        "ahead-mcq-06",
-        "ahead-mcq-10",
-        "ahead-mcq-05"
+        "ahead-mcq-19",
+        "ahead-mcq-16",
+        "ahead-mcq-01"
       ],
       "explanation": "本句的「Looking ahead」指「展望未來」。",
       "sentenceIndex": 18,
@@ -1066,12 +1008,10 @@ export default {
         "Looking ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-08": "本句指「展望未來」。",
-        "ahead-mcq-07": "「比預定進度快」與本句語境不同。",
-        "ahead-mcq-09": "「前路；未來」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。",
-        "ahead-mcq-10": "「未來幾年」與本句語境不同。",
-        "ahead-mcq-05": "「提前計劃」與本句語境不同。"
+        "ahead-mcq-08": "本句的「Looking ahead」指「展望未來」。",
+        "ahead-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-08"
     },
@@ -1083,11 +1023,9 @@ export default {
       "masked": "The ____ was narrow and steep.",
       "options": [
         "ahead-mcq-09",
-        "ahead-mcq-08",
-        "ahead-mcq-10",
-        "ahead-mcq-07",
-        "ahead-mcq-11",
-        "ahead-mcq-06"
+        "ahead-mcq-17",
+        "ahead-pdf-001",
+        "ahead-mcq-13"
       ],
       "explanation": "本句的「road ahead」指「前路；未來」。",
       "sentenceIndex": 19,
@@ -1096,12 +1034,10 @@ export default {
         "road ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-09": "本句指「前路；未來」。",
-        "ahead-mcq-08": "「展望未來」與本句語境不同。",
-        "ahead-mcq-10": "「未來幾年」與本句語境不同。",
-        "ahead-mcq-07": "「比預定進度快」與本句語境不同。",
-        "ahead-mcq-11": "「領先」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。"
+        "ahead-mcq-09": "本句的「road ahead」指「前路；未來」。",
+        "ahead-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ahead-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-09"
     },
@@ -1113,11 +1049,9 @@ export default {
       "masked": "The ____ will not be easy.",
       "options": [
         "ahead-mcq-09",
-        "ahead-mcq-08",
-        "ahead-mcq-10",
+        "ahead-pdf-001",
         "ahead-mcq-07",
-        "ahead-mcq-11",
-        "ahead-mcq-06"
+        "ahead-mcq-19"
       ],
       "explanation": "本句的「road ahead」指「前路；未來」。",
       "sentenceIndex": 20,
@@ -1126,12 +1060,10 @@ export default {
         "road ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-09": "本句指「前路；未來」。",
-        "ahead-mcq-08": "「展望未來」與本句語境不同。",
-        "ahead-mcq-10": "「未來幾年」與本句語境不同。",
-        "ahead-mcq-07": "「比預定進度快」與本句語境不同。",
-        "ahead-mcq-11": "「領先」與本句語境不同。",
-        "ahead-mcq-06": "「提前」與本句語境不同。"
+        "ahead-mcq-09": "本句的「road ahead」指「前路；未來」。",
+        "ahead-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-09"
     },
@@ -1143,11 +1075,9 @@ export default {
       "masked": "There will be many challenges in the ____.",
       "options": [
         "ahead-mcq-10",
-        "ahead-mcq-09",
-        "ahead-mcq-11",
-        "ahead-mcq-08",
-        "ahead-mcq-12",
-        "ahead-mcq-07"
+        "ahead-reviewed-e00db1ac84",
+        "ahead-mcq-05",
+        "ahead-mcq-12"
       ],
       "explanation": "本句的「years ahead」指「未來幾年」。",
       "sentenceIndex": 21,
@@ -1156,12 +1086,10 @@ export default {
         "years ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-10": "本句指「未來幾年」。",
-        "ahead-mcq-09": "「前路；未來」與本句語境不同。",
-        "ahead-mcq-11": "「領先」與本句語境不同。",
-        "ahead-mcq-08": "「展望未來」與本句語境不同。",
-        "ahead-mcq-12": "「領先競爭者」與本句語境不同。",
-        "ahead-mcq-07": "「比預定進度快」與本句語境不同。"
+        "ahead-mcq-10": "本句的「years ahead」指「未來幾年」。",
+        "ahead-reviewed-e00db1ac84": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-10"
     },
@@ -1173,11 +1101,9 @@ export default {
       "masked": "We have a lot to prepare for in the ____.",
       "options": [
         "ahead-mcq-10",
-        "ahead-mcq-09",
-        "ahead-mcq-11",
-        "ahead-mcq-08",
-        "ahead-mcq-12",
-        "ahead-mcq-07"
+        "ahead-mcq-13",
+        "ahead-mcq-05",
+        "ahead-mcq-17"
       ],
       "explanation": "本句的「days ahead」指「未來幾年」。",
       "sentenceIndex": 22,
@@ -1186,12 +1112,10 @@ export default {
         "days ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-10": "本句指「未來幾年」。",
-        "ahead-mcq-09": "「前路；未來」與本句語境不同。",
-        "ahead-mcq-11": "「領先」與本句語境不同。",
-        "ahead-mcq-08": "「展望未來」與本句語境不同。",
-        "ahead-mcq-12": "「領先競爭者」與本句語境不同。",
-        "ahead-mcq-07": "「比預定進度快」與本句語境不同。"
+        "ahead-mcq-10": "本句的「days ahead」指「未來幾年」。",
+        "ahead-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-10"
     },
@@ -1203,11 +1127,9 @@ export default {
       "masked": "She is five points ____ her closest rival.",
       "options": [
         "ahead-mcq-12",
-        "ahead-mcq-11",
+        "ahead-mcq-18",
         "ahead-mcq-13",
-        "ahead-mcq-10",
-        "ahead-mcq-14",
-        "ahead-mcq-09"
+        "ahead-mcq-10"
       ],
       "explanation": "本句的「ahead of」指「領先競爭者」。",
       "sentenceIndex": 23,
@@ -1216,12 +1138,10 @@ export default {
         "ahead of"
       ],
       "optionReasons": {
-        "ahead-mcq-12": "本句指「領先競爭者」。",
-        "ahead-mcq-11": "「領先」與本句語境不同。",
-        "ahead-mcq-13": "「取得成功／進展」與本句語境不同。",
-        "ahead-mcq-10": "「未來幾年」與本句語境不同。",
-        "ahead-mcq-14": "「保持領先」與本句語境不同。",
-        "ahead-mcq-09": "「前路；未來」與本句語境不同。"
+        "ahead-mcq-12": "本句的「ahead of」指「領先競爭者」。",
+        "ahead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-12"
     },
@@ -1233,11 +1153,9 @@ export default {
       "masked": "Our team is still ____.",
       "options": [
         "ahead-mcq-12",
-        "ahead-mcq-11",
-        "ahead-mcq-13",
+        "ahead-mcq-03",
         "ahead-mcq-10",
-        "ahead-mcq-14",
-        "ahead-mcq-09"
+        "ahead-mcq-21"
       ],
       "explanation": "本句的「ahead」指「領先競爭者」。",
       "sentenceIndex": 24,
@@ -1246,12 +1164,10 @@ export default {
         "ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-12": "本句指「領先競爭者」。",
-        "ahead-mcq-11": "「領先」與本句語境不同。",
-        "ahead-mcq-13": "「取得成功／進展」與本句語境不同。",
-        "ahead-mcq-10": "「未來幾年」與本句語境不同。",
-        "ahead-mcq-14": "「保持領先」與本句語境不同。",
-        "ahead-mcq-09": "「前路；未來」與本句語境不同。"
+        "ahead-mcq-12": "本句的「ahead」指「領先競爭者」。",
+        "ahead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-12"
     },
@@ -1263,11 +1179,9 @@ export default {
       "masked": "The company wants to stay ____.",
       "options": [
         "ahead-pdf-001",
-        "ahead-mcq-11",
-        "ahead-mcq-13",
-        "ahead-mcq-10",
-        "ahead-mcq-14",
-        "ahead-mcq-09"
+        "ahead-mcq-02",
+        "ahead-mcq-21",
+        "ahead-mcq-17"
       ],
       "explanation": "本句的「ahead of the competition」指「在表現、創新或市場地位上比競爭對手領先」。",
       "sentenceIndex": 25,
@@ -1276,12 +1190,10 @@ export default {
         "ahead of the competition"
       ],
       "optionReasons": {
-        "ahead-pdf-001": "本句指「在表現、創新或市場地位上比競爭對手領先」。",
-        "ahead-mcq-11": "「領先」與本句語境不同。",
-        "ahead-mcq-13": "「取得成功／進展」與本句語境不同。",
-        "ahead-mcq-10": "「未來幾年」與本句語境不同。",
-        "ahead-mcq-14": "「保持領先」與本句語境不同。",
-        "ahead-mcq-09": "「前路；未來」與本句語境不同。"
+        "ahead-pdf-001": "本句的「ahead of the competition」指「在表現、創新或市場地位上比競爭對手領先」。",
+        "ahead-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-pdf-001"
     },
@@ -1293,11 +1205,9 @@ export default {
       "masked": "Innovation helps businesses remain ____.",
       "options": [
         "ahead-pdf-001",
-        "ahead-mcq-11",
-        "ahead-mcq-13",
-        "ahead-mcq-10",
-        "ahead-mcq-14",
-        "ahead-mcq-09"
+        "ahead-mcq-08",
+        "ahead-mcq-18",
+        "ahead-mcq-21"
       ],
       "explanation": "本句的「ahead of their competitors」指「在表現、創新或市場地位上比競爭對手領先」。",
       "sentenceIndex": 26,
@@ -1306,12 +1216,10 @@ export default {
         "ahead of their competitors"
       ],
       "optionReasons": {
-        "ahead-pdf-001": "本句指「在表現、創新或市場地位上比競爭對手領先」。",
-        "ahead-mcq-11": "「領先」與本句語境不同。",
-        "ahead-mcq-13": "「取得成功／進展」與本句語境不同。",
-        "ahead-mcq-10": "「未來幾年」與本句語境不同。",
-        "ahead-mcq-14": "「保持領先」與本句語境不同。",
-        "ahead-mcq-09": "「前路；未來」與本句語境不同。"
+        "ahead-pdf-001": "本句的「ahead of their competitors」指「在表現、創新或市場地位上比競爭對手領先」。",
+        "ahead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-pdf-001"
     },
@@ -1323,11 +1231,9 @@ export default {
       "masked": "She works hard because she wants to ____.",
       "options": [
         "ahead-mcq-13",
-        "ahead-mcq-12",
-        "ahead-mcq-14",
-        "ahead-mcq-11",
-        "ahead-mcq-15",
-        "ahead-mcq-10"
+        "ahead-mcq-21",
+        "ahead-mcq-20",
+        "ahead-mcq-04"
       ],
       "explanation": "本句的「get ahead」指「取得成功／進展」。",
       "sentenceIndex": 27,
@@ -1336,12 +1242,10 @@ export default {
         "get ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-13": "本句指「取得成功／進展」。",
-        "ahead-mcq-12": "「領先競爭者」與本句語境不同。",
-        "ahead-mcq-14": "「保持領先」與本句語境不同。",
-        "ahead-mcq-11": "「領先」與本句語境不同。",
-        "ahead-mcq-15": "「向前／推進」與本句語境不同。",
-        "ahead-mcq-10": "「未來幾年」與本句語境不同。"
+        "ahead-mcq-13": "本句的「get ahead」指「取得成功／進展」。",
+        "ahead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-13"
     },
@@ -1353,11 +1257,9 @@ export default {
       "masked": "Good communication skills can help you ____ at work.",
       "options": [
         "ahead-mcq-13",
-        "ahead-mcq-12",
-        "ahead-mcq-14",
-        "ahead-mcq-11",
-        "ahead-mcq-15",
-        "ahead-mcq-10"
+        "ahead-mcq-02",
+        "ahead-mcq-19",
+        "ahead-mcq-21"
       ],
       "explanation": "本句的「get ahead」指「取得成功／進展」。",
       "sentenceIndex": 28,
@@ -1366,12 +1268,10 @@ export default {
         "get ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-13": "本句指「取得成功／進展」。",
-        "ahead-mcq-12": "「領先競爭者」與本句語境不同。",
-        "ahead-mcq-14": "「保持領先」與本句語境不同。",
-        "ahead-mcq-11": "「領先」與本句語境不同。",
-        "ahead-mcq-15": "「向前／推進」與本句語境不同。",
-        "ahead-mcq-10": "「未來幾年」與本句語境不同。"
+        "ahead-mcq-13": "本句的「get ahead」指「取得成功／進展」。",
+        "ahead-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-13"
     },
@@ -1384,10 +1284,8 @@ export default {
       "options": [
         "ahead-mcq-13",
         "ahead-mcq-12",
-        "ahead-mcq-14",
-        "ahead-mcq-11",
-        "ahead-mcq-15",
-        "ahead-mcq-10"
+        "ahead-mcq-06",
+        "ahead-mcq-16"
       ],
       "explanation": "本句的「get ahead of the other runners」指「取得成功／進展」。",
       "sentenceIndex": 29,
@@ -1396,12 +1294,10 @@ export default {
         "get ahead of the other runners"
       ],
       "optionReasons": {
-        "ahead-mcq-13": "本句指「取得成功／進展」。",
-        "ahead-mcq-12": "「領先競爭者」與本句語境不同。",
-        "ahead-mcq-14": "「保持領先」與本句語境不同。",
-        "ahead-mcq-11": "「領先」與本句語境不同。",
-        "ahead-mcq-15": "「向前／推進」與本句語境不同。",
-        "ahead-mcq-10": "「未來幾年」與本句語境不同。"
+        "ahead-mcq-13": "本句的「get ahead of the other runners」指「取得成功／進展」。",
+        "ahead-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-13"
     },
@@ -1413,11 +1309,9 @@ export default {
       "masked": "The company is trying to ____.",
       "options": [
         "ahead-mcq-13",
-        "ahead-mcq-12",
-        "ahead-mcq-14",
-        "ahead-mcq-11",
-        "ahead-mcq-15",
-        "ahead-mcq-10"
+        "ahead-pdf-001",
+        "ahead-mcq-10",
+        "ahead-mcq-01"
       ],
       "explanation": "本句的「get ahead of its competitors」指「取得成功／進展」。",
       "sentenceIndex": 30,
@@ -1426,12 +1320,10 @@ export default {
         "get ahead of its competitors"
       ],
       "optionReasons": {
-        "ahead-mcq-13": "本句指「取得成功／進展」。",
-        "ahead-mcq-12": "「領先競爭者」與本句語境不同。",
-        "ahead-mcq-14": "「保持領先」與本句語境不同。",
-        "ahead-mcq-11": "「領先」與本句語境不同。",
-        "ahead-mcq-15": "「向前／推進」與本句語境不同。",
-        "ahead-mcq-10": "「未來幾年」與本句語境不同。"
+        "ahead-mcq-13": "本句的「get ahead of its competitors」指「取得成功／進展」。",
+        "ahead-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-13"
     },
@@ -1443,11 +1335,9 @@ export default {
       "masked": "You have to keep learning to ____.",
       "options": [
         "ahead-mcq-14",
-        "ahead-mcq-13",
-        "ahead-mcq-15",
-        "ahead-mcq-12",
-        "ahead-mcq-16",
-        "ahead-mcq-11"
+        "ahead-mcq-08",
+        "ahead-mcq-05",
+        "ahead-mcq-13"
       ],
       "explanation": "本句的「stay ahead」指「保持領先」。",
       "sentenceIndex": 31,
@@ -1456,12 +1346,10 @@ export default {
         "stay ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-14": "本句指「保持領先」。",
-        "ahead-mcq-13": "「取得成功／進展」與本句語境不同。",
-        "ahead-mcq-15": "「向前／推進」與本句語境不同。",
-        "ahead-mcq-12": "「領先競爭者」與本句語境不同。",
-        "ahead-mcq-16": "「繼續；開始吧」與本句語境不同。",
-        "ahead-mcq-11": "「領先」與本句語境不同。"
+        "ahead-mcq-14": "本句的「stay ahead」指「保持領先」。",
+        "ahead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-14"
     },
@@ -1473,11 +1361,9 @@ export default {
       "masked": "The team scored again to ____.",
       "options": [
         "ahead-mcq-14",
-        "ahead-mcq-13",
-        "ahead-mcq-15",
-        "ahead-mcq-12",
-        "ahead-mcq-16",
-        "ahead-mcq-11"
+        "ahead-mcq-03",
+        "ahead-mcq-07",
+        "ahead-mcq-08"
       ],
       "explanation": "本句的「stay ahead」指「保持領先」。",
       "sentenceIndex": 32,
@@ -1486,12 +1372,10 @@ export default {
         "stay ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-14": "本句指「保持領先」。",
-        "ahead-mcq-13": "「取得成功／進展」與本句語境不同。",
-        "ahead-mcq-15": "「向前／推進」與本句語境不同。",
-        "ahead-mcq-12": "「領先競爭者」與本句語境不同。",
-        "ahead-mcq-16": "「繼續；開始吧」與本句語境不同。",
-        "ahead-mcq-11": "「領先」與本句語境不同。"
+        "ahead-mcq-14": "本句的「stay ahead」指「保持領先」。",
+        "ahead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-14"
     },
@@ -1503,10 +1387,8 @@ export default {
       "masked": "Can I ask a question?” > “Sure, ____.",
       "options": [
         "ahead-mcq-16",
-        "ahead-mcq-15",
-        "ahead-mcq-17",
-        "ahead-mcq-14",
-        "ahead-mcq-18",
+        "ahead-mcq-19",
+        "ahead-mcq-12",
         "ahead-mcq-13"
       ],
       "explanation": "本句的「go ahead」指「繼續；開始吧」。",
@@ -1516,12 +1398,10 @@ export default {
         "go ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-16": "本句指「繼續；開始吧」。",
-        "ahead-mcq-15": "「向前／推進」與本句語境不同。",
-        "ahead-mcq-17": "「繼續進行 X」與本句語境不同。",
-        "ahead-mcq-14": "「保持領先」與本句語境不同。",
-        "ahead-mcq-18": "「超越時代」與本句語境不同。",
-        "ahead-mcq-13": "「取得成功／進展」與本句語境不同。"
+        "ahead-mcq-16": "本句的「go ahead」指「繼續；開始吧」。",
+        "ahead-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-16"
     },
@@ -1533,11 +1413,9 @@ export default {
       "masked": "We've decided to ____.",
       "options": [
         "ahead-mcq-16",
-        "ahead-mcq-15",
-        "ahead-mcq-17",
-        "ahead-mcq-14",
-        "ahead-mcq-18",
-        "ahead-mcq-13"
+        "ahead-mcq-12",
+        "ahead-mcq-01",
+        "ahead-mcq-19"
       ],
       "explanation": "本句的「go ahead with the project」指「繼續；開始吧」。",
       "sentenceIndex": 36,
@@ -1546,12 +1424,10 @@ export default {
         "go ahead with the project"
       ],
       "optionReasons": {
-        "ahead-mcq-16": "本句指「繼續；開始吧」。",
-        "ahead-mcq-15": "「向前／推進」與本句語境不同。",
-        "ahead-mcq-17": "「繼續進行 X」與本句語境不同。",
-        "ahead-mcq-14": "「保持領先」與本句語境不同。",
-        "ahead-mcq-18": "「超越時代」與本句語境不同。",
-        "ahead-mcq-13": "「取得成功／進展」與本句語境不同。"
+        "ahead-mcq-16": "本句的「go ahead with the project」指「繼續；開始吧」。",
+        "ahead-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-16"
     },
@@ -1563,11 +1439,9 @@ export default {
       "masked": "They decided to ____.",
       "options": [
         "ahead-mcq-17",
-        "ahead-mcq-16",
-        "ahead-mcq-18",
-        "ahead-mcq-15",
-        "ahead-mcq-19",
-        "ahead-mcq-14"
+        "ahead-mcq-06",
+        "ahead-mcq-08",
+        "ahead-reviewed-e00db1ac84"
       ],
       "explanation": "本句的「go ahead with the plan」指「繼續進行 X」。",
       "sentenceIndex": 37,
@@ -1576,12 +1450,10 @@ export default {
         "go ahead with the plan"
       ],
       "optionReasons": {
-        "ahead-mcq-17": "本句指「繼續進行 X」。",
-        "ahead-mcq-16": "「繼續；開始吧」與本句語境不同。",
-        "ahead-mcq-18": "「超越時代」與本句語境不同。",
-        "ahead-mcq-15": "「向前／推進」與本句語境不同。",
-        "ahead-mcq-19": "「預先考慮」與本句語境不同。",
-        "ahead-mcq-14": "「保持領先」與本句語境不同。"
+        "ahead-mcq-17": "本句的「go ahead with the plan」指「繼續進行 X」。",
+        "ahead-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ahead-reviewed-e00db1ac84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-17"
     },
@@ -1593,11 +1465,9 @@ export default {
       "masked": "The event will ____ despite the rain.",
       "options": [
         "ahead-mcq-17",
-        "ahead-mcq-16",
-        "ahead-mcq-18",
-        "ahead-mcq-15",
-        "ahead-mcq-19",
-        "ahead-mcq-14"
+        "ahead-mcq-21",
+        "ahead-pdf-001",
+        "ahead-mcq-10"
       ],
       "explanation": "本句的「go ahead」指「繼續進行 X」。",
       "sentenceIndex": 38,
@@ -1606,12 +1476,10 @@ export default {
         "go ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-17": "本句指「繼續進行 X」。",
-        "ahead-mcq-16": "「繼續；開始吧」與本句語境不同。",
-        "ahead-mcq-18": "「超越時代」與本句語境不同。",
-        "ahead-mcq-15": "「向前／推進」與本句語境不同。",
-        "ahead-mcq-19": "「預先考慮」與本句語境不同。",
-        "ahead-mcq-14": "「保持領先」與本句語境不同。"
+        "ahead-mcq-17": "本句的「go ahead」指「繼續進行 X」。",
+        "ahead-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ahead-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-17"
     },
@@ -1623,11 +1491,9 @@ export default {
       "masked": "The line slowly ____.",
       "options": [
         "ahead-mcq-15",
-        "ahead-mcq-14",
-        "ahead-mcq-16",
-        "ahead-mcq-13",
-        "ahead-mcq-17",
-        "ahead-mcq-12"
+        "ahead-mcq-20",
+        "ahead-mcq-10",
+        "ahead-mcq-19"
       ],
       "explanation": "本句的「moved ahead」指「向前／推進」。",
       "sentenceIndex": 39,
@@ -1636,12 +1502,10 @@ export default {
         "moved ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-15": "本句指「向前／推進」。",
-        "ahead-mcq-14": "「保持領先」與本句語境不同。",
-        "ahead-mcq-16": "「繼續；開始吧」與本句語境不同。",
-        "ahead-mcq-13": "「取得成功／進展」與本句語境不同。",
-        "ahead-mcq-17": "「繼續進行 X」與本句語境不同。",
-        "ahead-mcq-12": "「領先競爭者」與本句語境不同。"
+        "ahead-mcq-15": "本句的「moved ahead」指「向前／推進」。",
+        "ahead-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-15"
     },
@@ -1653,11 +1517,9 @@ export default {
       "masked": "We can now ____.",
       "options": [
         "ahead-mcq-15",
-        "ahead-mcq-14",
-        "ahead-mcq-16",
-        "ahead-mcq-13",
-        "ahead-mcq-17",
-        "ahead-mcq-12"
+        "ahead-mcq-08",
+        "ahead-mcq-20",
+        "ahead-mcq-19"
       ],
       "explanation": "本句的「move ahead with the project」指「向前／推進」。",
       "sentenceIndex": 40,
@@ -1666,12 +1528,10 @@ export default {
         "move ahead with the project"
       ],
       "optionReasons": {
-        "ahead-mcq-15": "本句指「向前／推進」。",
-        "ahead-mcq-14": "「保持領先」與本句語境不同。",
-        "ahead-mcq-16": "「繼續；開始吧」與本句語境不同。",
-        "ahead-mcq-13": "「取得成功／進展」與本句語境不同。",
-        "ahead-mcq-17": "「繼續進行 X」與本句語境不同。",
-        "ahead-mcq-12": "「領先競爭者」與本句語境不同。"
+        "ahead-mcq-15": "本句的「move ahead with the project」指「向前／推進」。",
+        "ahead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-15"
     },
@@ -1683,11 +1543,9 @@ export default {
       "masked": "Her ideas were ____.",
       "options": [
         "ahead-mcq-18",
-        "ahead-mcq-17",
-        "ahead-mcq-19",
-        "ahead-mcq-16",
-        "ahead-mcq-20",
-        "ahead-mcq-15"
+        "ahead-mcq-03",
+        "ahead-mcq-10",
+        "ahead-mcq-19"
       ],
       "explanation": "本句的「ahead of their time」指「超越時代」。",
       "sentenceIndex": 41,
@@ -1696,12 +1554,10 @@ export default {
         "ahead of their time"
       ],
       "optionReasons": {
-        "ahead-mcq-18": "本句指「超越時代」。",
-        "ahead-mcq-17": "「繼續進行 X」與本句語境不同。",
-        "ahead-mcq-19": "「預先考慮」與本句語境不同。",
-        "ahead-mcq-16": "「繼續；開始吧」與本句語境不同。",
-        "ahead-mcq-20": "「領先趨勢」與本句語境不同。",
-        "ahead-mcq-15": "「向前／推進」與本句語境不同。"
+        "ahead-mcq-18": "本句的「ahead of their time」指「超越時代」。",
+        "ahead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-18"
     },
@@ -1713,11 +1569,9 @@ export default {
       "masked": "The designer was years ____.",
       "options": [
         "ahead-mcq-18",
-        "ahead-mcq-17",
-        "ahead-mcq-19",
-        "ahead-mcq-16",
-        "ahead-mcq-20",
-        "ahead-mcq-15"
+        "ahead-pdf-001",
+        "ahead-mcq-15",
+        "ahead-mcq-10"
       ],
       "explanation": "本句的「ahead of his time」指「超越時代」。",
       "sentenceIndex": 42,
@@ -1726,12 +1580,10 @@ export default {
         "ahead of his time"
       ],
       "optionReasons": {
-        "ahead-mcq-18": "本句指「超越時代」。",
-        "ahead-mcq-17": "「繼續進行 X」與本句語境不同。",
-        "ahead-mcq-19": "「預先考慮」與本句語境不同。",
-        "ahead-mcq-16": "「繼續；開始吧」與本句語境不同。",
-        "ahead-mcq-20": "「領先趨勢」與本句語境不同。",
-        "ahead-mcq-15": "「向前／推進」與本句語境不同。"
+        "ahead-mcq-18": "本句的「ahead of his time」指「超越時代」。",
+        "ahead-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-18"
     },
@@ -1743,10 +1595,8 @@ export default {
       "masked": "You need to ____ before making such a big decision.",
       "options": [
         "ahead-mcq-19",
-        "ahead-mcq-18",
-        "ahead-mcq-20",
-        "ahead-mcq-17",
-        "ahead-mcq-21",
+        "ahead-mcq-05",
+        "ahead-mcq-15",
         "ahead-mcq-16"
       ],
       "explanation": "本句的「think ahead」指「預先考慮」。",
@@ -1756,12 +1606,10 @@ export default {
         "think ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-19": "本句指「預先考慮」。",
-        "ahead-mcq-18": "「超越時代」與本句語境不同。",
-        "ahead-mcq-20": "「領先趨勢」與本句語境不同。",
-        "ahead-mcq-17": "「繼續進行 X」與本句語境不同。",
-        "ahead-mcq-21": "「操之過急；想得太早」與本句語境不同。",
-        "ahead-mcq-16": "「繼續；開始吧」與本句語境不同。"
+        "ahead-mcq-19": "本句的「think ahead」指「預先考慮」。",
+        "ahead-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-19"
     },
@@ -1773,11 +1621,9 @@ export default {
       "masked": "Good planners ____.",
       "options": [
         "ahead-mcq-19",
-        "ahead-mcq-18",
-        "ahead-mcq-20",
-        "ahead-mcq-17",
-        "ahead-mcq-21",
-        "ahead-mcq-16"
+        "ahead-mcq-01",
+        "ahead-mcq-08",
+        "ahead-mcq-13"
       ],
       "explanation": "本句的「think ahead」指「預先考慮」。",
       "sentenceIndex": 44,
@@ -1786,12 +1632,10 @@ export default {
         "think ahead"
       ],
       "optionReasons": {
-        "ahead-mcq-19": "本句指「預先考慮」。",
-        "ahead-mcq-18": "「超越時代」與本句語境不同。",
-        "ahead-mcq-20": "「領先趨勢」與本句語境不同。",
-        "ahead-mcq-17": "「繼續進行 X」與本句語境不同。",
-        "ahead-mcq-21": "「操之過急；想得太早」與本句語境不同。",
-        "ahead-mcq-16": "「繼續；開始吧」與本句語境不同。"
+        "ahead-mcq-19": "本句的「think ahead」指「預先考慮」。",
+        "ahead-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-19"
     },
@@ -1803,11 +1647,9 @@ export default {
       "masked": "The company tries to stay ____ in technology.",
       "options": [
         "ahead-mcq-20",
-        "ahead-mcq-19",
-        "ahead-mcq-21",
-        "ahead-mcq-18",
-        "ahead-mcq-17",
-        "ahead-mcq-16"
+        "ahead-reviewed-e00db1ac84",
+        "ahead-mcq-15",
+        "ahead-mcq-09"
       ],
       "explanation": "本句的「ahead of the curve」指「領先趨勢」。",
       "sentenceIndex": 45,
@@ -1816,12 +1658,10 @@ export default {
         "ahead of the curve"
       ],
       "optionReasons": {
-        "ahead-mcq-20": "本句指「領先趨勢」。",
-        "ahead-mcq-19": "「預先考慮」與本句語境不同。",
-        "ahead-mcq-21": "「操之過急；想得太早」與本句語境不同。",
-        "ahead-mcq-18": "「超越時代」與本句語境不同。",
-        "ahead-mcq-17": "「繼續進行 X」與本句語境不同。",
-        "ahead-mcq-16": "「繼續；開始吧」與本句語境不同。"
+        "ahead-mcq-20": "本句的「ahead of the curve」指「領先趨勢」。",
+        "ahead-reviewed-e00db1ac84": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-20"
     },
@@ -1833,11 +1673,9 @@ export default {
       "masked": "Her teaching methods were ____.",
       "options": [
         "ahead-mcq-20",
-        "ahead-mcq-19",
-        "ahead-mcq-21",
-        "ahead-mcq-18",
-        "ahead-mcq-17",
-        "ahead-mcq-16"
+        "ahead-mcq-16",
+        "ahead-reviewed-e00db1ac84",
+        "ahead-mcq-04"
       ],
       "explanation": "本句的「ahead of the curve」指「領先趨勢」。",
       "sentenceIndex": 46,
@@ -1846,12 +1684,10 @@ export default {
         "ahead of the curve"
       ],
       "optionReasons": {
-        "ahead-mcq-20": "本句指「領先趨勢」。",
-        "ahead-mcq-19": "「預先考慮」與本句語境不同。",
-        "ahead-mcq-21": "「操之過急；想得太早」與本句語境不同。",
-        "ahead-mcq-18": "「超越時代」與本句語境不同。",
-        "ahead-mcq-17": "「繼續進行 X」與本句語境不同。",
-        "ahead-mcq-16": "「繼續；開始吧」與本句語境不同。"
+        "ahead-mcq-20": "本句的「ahead of the curve」指「領先趨勢」。",
+        "ahead-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "ahead-reviewed-e00db1ac84": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-20"
     },
@@ -1863,11 +1699,9 @@ export default {
       "masked": "Don't ____—we haven't won yet.",
       "options": [
         "ahead-mcq-21",
-        "ahead-mcq-20",
-        "ahead-mcq-19",
-        "ahead-mcq-18",
-        "ahead-mcq-17",
-        "ahead-mcq-16"
+        "ahead-mcq-03",
+        "ahead-mcq-08",
+        "ahead-mcq-20"
       ],
       "explanation": "本句的「get ahead of yourself」指「操之過急；想得太早」。",
       "sentenceIndex": 47,
@@ -1876,12 +1710,10 @@ export default {
         "get ahead of yourself"
       ],
       "optionReasons": {
-        "ahead-mcq-21": "本句指「操之過急；想得太早」。",
-        "ahead-mcq-20": "「領先趨勢」與本句語境不同。",
-        "ahead-mcq-19": "「預先考慮」與本句語境不同。",
-        "ahead-mcq-18": "「超越時代」與本句語境不同。",
-        "ahead-mcq-17": "「繼續進行 X」與本句語境不同。",
-        "ahead-mcq-16": "「繼續；開始吧」與本句語境不同。"
+        "ahead-mcq-21": "本句的「get ahead of yourself」指「操之過急；想得太早」。",
+        "ahead-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-21"
     },
@@ -1893,11 +1725,9 @@ export default {
       "masked": "I may be ____, but I'm already thinking about next year.",
       "options": [
         "ahead-mcq-21",
-        "ahead-mcq-20",
-        "ahead-mcq-19",
-        "ahead-mcq-18",
-        "ahead-mcq-17",
-        "ahead-mcq-16"
+        "ahead-mcq-06",
+        "ahead-mcq-12",
+        "ahead-mcq-18"
       ],
       "explanation": "本句的「getting ahead of myself」指「操之過急；想得太早」。",
       "sentenceIndex": 48,
@@ -1906,12 +1736,10 @@ export default {
         "getting ahead of myself"
       ],
       "optionReasons": {
-        "ahead-mcq-21": "本句指「操之過急；想得太早」。",
-        "ahead-mcq-20": "「領先趨勢」與本句語境不同。",
-        "ahead-mcq-19": "「預先考慮」與本句語境不同。",
-        "ahead-mcq-18": "「超越時代」與本句語境不同。",
-        "ahead-mcq-17": "「繼續進行 X」與本句語境不同。",
-        "ahead-mcq-16": "「繼續；開始吧」與本句語境不同。"
+        "ahead-mcq-21": "本句的「getting ahead of myself」指「操之過急；想得太早」。",
+        "ahead-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ahead-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ahead-mcq-21"
     }
@@ -1923,5 +1751,7 @@ export default {
     "sha256": "2322e99e7fb15323a5a5178311b85f5fdfd0f04b4a5d86a2bc87cd2712a8a8aa",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

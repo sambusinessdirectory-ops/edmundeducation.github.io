@@ -893,11 +893,9 @@ export default {
       "masked": "Someone ____ late at night.",
       "options": [
         "knock-mcq-01",
-        "knock-mcq-02",
-        "knock-mcq-03",
-        "knock-mcq-04",
-        "knock-mcq-05",
-        "knock-mcq-06"
+        "knock-mcq-24",
+        "knock-mcq-26",
+        "knock-mcq-36"
       ],
       "explanation": "本句的「knocked on the door」指「用手／指節敲門以引起屋內人的注意」。",
       "sentenceIndex": 0,
@@ -906,12 +904,10 @@ export default {
         "knocked on the door"
       ],
       "optionReasons": {
-        "knock-mcq-01": "本句指「用手／指節敲門以引起屋內人的注意」。",
-        "knock-mcq-02": "「敲門、告知裡面的人有人在外」與本句語境不同。",
-        "knock-mcq-03": "「撞到、碰到或敲擊某物」與本句語境不同。",
-        "knock-mcq-04": "「移動時撞上／碰到某人或某物」與本句語境不同。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。"
+        "knock-mcq-01": "本句的「knocked on the door」指「用手／指節敲門以引起屋內人的注意」。",
+        "knock-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-01"
     },
@@ -923,11 +919,9 @@ export default {
       "masked": "Please ____ before you enter.",
       "options": [
         "knock-mcq-01",
-        "knock-mcq-02",
-        "knock-mcq-03",
-        "knock-mcq-04",
-        "knock-mcq-05",
-        "knock-mcq-06"
+        "knock-mcq-27",
+        "knock-mcq-37",
+        "knock-mcq-32"
       ],
       "explanation": "本句的「knock」指「用手／指節敲門以引起屋內人的注意」。",
       "sentenceIndex": 1,
@@ -936,12 +930,10 @@ export default {
         "knock"
       ],
       "optionReasons": {
-        "knock-mcq-01": "本句指「用手／指節敲門以引起屋內人的注意」。",
-        "knock-mcq-02": "「敲門、告知裡面的人有人在外」與本句語境不同。",
-        "knock-mcq-03": "「撞到、碰到或敲擊某物」與本句語境不同。",
-        "knock-mcq-04": "「移動時撞上／碰到某人或某物」與本句語境不同。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。"
+        "knock-mcq-01": "本句的「knock」指「用手／指節敲門以引起屋內人的注意」。",
+        "knock-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-01"
     },
@@ -953,11 +945,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "knock-mcq-02",
-        "knock-mcq-01",
-        "knock-mcq-03",
-        "knock-mcq-04",
-        "knock-mcq-05",
-        "knock-mcq-06"
+        "knock-mcq-35",
+        "knock-mcq-15",
+        "knock-mcq-04"
       ],
       "explanation": "本句的「knocked three times」指「敲門、告知裡面的人有人在外」。",
       "sentenceIndex": 2,
@@ -966,12 +956,10 @@ export default {
         "knocked three times"
       ],
       "optionReasons": {
-        "knock-mcq-02": "本句指「敲門、告知裡面的人有人在外」。",
-        "knock-mcq-01": "「用手／指節敲門以引起屋內人的注意」與本句語境不同。",
-        "knock-mcq-03": "「撞到、碰到或敲擊某物」與本句語境不同。",
-        "knock-mcq-04": "「移動時撞上／碰到某人或某物」與本句語境不同。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。"
+        "knock-mcq-02": "本句的「knocked three times」指「敲門、告知裡面的人有人在外」。",
+        "knock-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-02"
     },
@@ -983,10 +971,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "knock-mcq-02",
-        "knock-mcq-01",
-        "knock-mcq-03",
-        "knock-mcq-04",
-        "knock-mcq-05",
+        "knock-mcq-09",
+        "knock-mcq-36",
         "knock-mcq-06"
       ],
       "explanation": "本句的「knocked on his office door」指「敲門、告知裡面的人有人在外」。",
@@ -996,12 +982,10 @@ export default {
         "knocked on his office door"
       ],
       "optionReasons": {
-        "knock-mcq-02": "本句指「敲門、告知裡面的人有人在外」。",
-        "knock-mcq-01": "「用手／指節敲門以引起屋內人的注意」與本句語境不同。",
-        "knock-mcq-03": "「撞到、碰到或敲擊某物」與本句語境不同。",
-        "knock-mcq-04": "「移動時撞上／碰到某人或某物」與本句語境不同。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。"
+        "knock-mcq-02": "本句的「knocked on his office door」指「敲門、告知裡面的人有人在外」。",
+        "knock-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-02"
     },
@@ -1013,11 +997,9 @@ export default {
       "masked": "Someone was ____.",
       "options": [
         "knock-mcq-02",
-        "knock-mcq-01",
-        "knock-mcq-03",
-        "knock-mcq-04",
-        "knock-mcq-05",
-        "knock-mcq-06"
+        "knock-mcq-10",
+        "knock-mcq-14",
+        "knock-mcq-22"
       ],
       "explanation": "本句的「knocking at the door」指「敲門、告知裡面的人有人在外」。",
       "sentenceIndex": 4,
@@ -1026,12 +1008,10 @@ export default {
         "knocking at the door"
       ],
       "optionReasons": {
-        "knock-mcq-02": "本句指「敲門、告知裡面的人有人在外」。",
-        "knock-mcq-01": "「用手／指節敲門以引起屋內人的注意」與本句語境不同。",
-        "knock-mcq-03": "「撞到、碰到或敲擊某物」與本句語境不同。",
-        "knock-mcq-04": "「移動時撞上／碰到某人或某物」與本句語境不同。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。"
+        "knock-mcq-02": "本句的「knocking at the door」指「敲門、告知裡面的人有人在外」。",
+        "knock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-02"
     },
@@ -1043,11 +1023,9 @@ export default {
       "masked": "He ____ and waited.",
       "options": [
         "knock-mcq-02",
-        "knock-mcq-01",
-        "knock-mcq-03",
-        "knock-mcq-04",
-        "knock-mcq-05",
-        "knock-mcq-06"
+        "knock-mcq-08",
+        "knock-mcq-16",
+        "knock-mcq-36"
       ],
       "explanation": "本句的「knocked on the door」指「敲門、告知裡面的人有人在外」。",
       "sentenceIndex": 5,
@@ -1056,12 +1034,10 @@ export default {
         "knocked on the door"
       ],
       "optionReasons": {
-        "knock-mcq-02": "本句指「敲門、告知裡面的人有人在外」。",
-        "knock-mcq-01": "「用手／指節敲門以引起屋內人的注意」與本句語境不同。",
-        "knock-mcq-03": "「撞到、碰到或敲擊某物」與本句語境不同。",
-        "knock-mcq-04": "「移動時撞上／碰到某人或某物」與本句語境不同。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。"
+        "knock-mcq-02": "本句的「knocked on the door」指「敲門、告知裡面的人有人在外」。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-02"
     },
@@ -1073,11 +1049,9 @@ export default {
       "masked": "I ____ against the table.",
       "options": [
         "knock-mcq-03",
-        "knock-mcq-02",
-        "knock-mcq-04",
-        "knock-mcq-01",
-        "knock-mcq-05",
-        "knock-mcq-06"
+        "knock-mcq-08",
+        "knock-mcq-19",
+        "knock-mcq-36"
       ],
       "explanation": "本句的「knocked my knee」指「撞到、碰到或敲擊某物」。",
       "sentenceIndex": 6,
@@ -1086,12 +1060,10 @@ export default {
         "knocked my knee"
       ],
       "optionReasons": {
-        "knock-mcq-03": "本句指「撞到、碰到或敲擊某物」。",
-        "knock-mcq-02": "「敲門、告知裡面的人有人在外」與本句語境不同。",
-        "knock-mcq-04": "「移動時撞上／碰到某人或某物」與本句語境不同。",
-        "knock-mcq-01": "「用手／指節敲門以引起屋內人的注意」與本句語境不同。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。"
+        "knock-mcq-03": "本句的「knocked my knee」指「撞到、碰到或敲擊某物」。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-03"
     },
@@ -1103,11 +1075,9 @@ export default {
       "masked": "Be careful not to ____.",
       "options": [
         "knock-mcq-03",
-        "knock-mcq-02",
-        "knock-mcq-04",
-        "knock-mcq-01",
-        "knock-mcq-05",
-        "knock-mcq-06"
+        "knock-mcq-08",
+        "knock-mcq-37",
+        "knock-mcq-36"
       ],
       "explanation": "本句的「knock the glass」指「撞到、碰到或敲擊某物」。",
       "sentenceIndex": 7,
@@ -1116,12 +1086,10 @@ export default {
         "knock the glass"
       ],
       "optionReasons": {
-        "knock-mcq-03": "本句指「撞到、碰到或敲擊某物」。",
-        "knock-mcq-02": "「敲門、告知裡面的人有人在外」與本句語境不同。",
-        "knock-mcq-04": "「移動時撞上／碰到某人或某物」與本句語境不同。",
-        "knock-mcq-01": "「用手／指節敲門以引起屋內人的注意」與本句語境不同。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。"
+        "knock-mcq-03": "本句的「knock the glass」指「撞到、碰到或敲擊某物」。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-03"
     },
@@ -1133,11 +1101,9 @@ export default {
       "masked": "She ____ in the dark.",
       "options": [
         "knock-mcq-04",
-        "knock-mcq-03",
-        "knock-mcq-05",
-        "knock-mcq-02",
-        "knock-mcq-06",
-        "knock-mcq-01"
+        "knock-mcq-28",
+        "knock-mcq-17",
+        "knock-mcq-02"
       ],
       "explanation": "本句的「knocked against the chair」指「移動時撞上／碰到某人或某物」。",
       "sentenceIndex": 8,
@@ -1146,12 +1112,10 @@ export default {
         "knocked against the chair"
       ],
       "optionReasons": {
-        "knock-mcq-04": "本句指「移動時撞上／碰到某人或某物」。",
-        "knock-mcq-03": "「撞到、碰到或敲擊某物」與本句語境不同。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。",
-        "knock-mcq-02": "「敲門、告知裡面的人有人在外」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。",
-        "knock-mcq-01": "「用手／指節敲門以引起屋內人的注意」與本句語境不同。"
+        "knock-mcq-04": "本句的「knocked against the chair」指「移動時撞上／碰到某人或某物」。",
+        "knock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-04"
     },
@@ -1163,11 +1127,9 @@ export default {
       "masked": "He ____ as he turned around.",
       "options": [
         "knock-mcq-04",
-        "knock-mcq-03",
-        "knock-mcq-05",
-        "knock-mcq-02",
-        "knock-mcq-06",
-        "knock-mcq-01"
+        "knock-mcq-35",
+        "knock-mcq-36",
+        "knock-mcq-02"
       ],
       "explanation": "本句的「knocked into me」指「移動時撞上／碰到某人或某物」。",
       "sentenceIndex": 9,
@@ -1176,12 +1138,10 @@ export default {
         "knocked into me"
       ],
       "optionReasons": {
-        "knock-mcq-04": "本句指「移動時撞上／碰到某人或某物」。",
-        "knock-mcq-03": "「撞到、碰到或敲擊某物」與本句語境不同。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。",
-        "knock-mcq-02": "「敲門、告知裡面的人有人在外」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。",
-        "knock-mcq-01": "「用手／指節敲門以引起屋內人的注意」與本句語境不同。"
+        "knock-mcq-04": "本句的「knocked into me」指「移動時撞上／碰到某人或某物」。",
+        "knock-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-04"
     },
@@ -1193,11 +1153,9 @@ export default {
       "masked": "There was a ____.",
       "options": [
         "knock-mcq-05",
-        "knock-mcq-04",
-        "knock-mcq-06",
-        "knock-mcq-03",
         "knock-mcq-07",
-        "knock-mcq-02"
+        "knock-mcq-09",
+        "knock-mcq-13"
       ],
       "explanation": "本句的「knock at the door」指「敲門聲／敲擊聲」。",
       "sentenceIndex": 10,
@@ -1206,12 +1164,10 @@ export default {
         "knock at the door"
       ],
       "optionReasons": {
-        "knock-mcq-05": "本句指「敲門聲／敲擊聲」。",
-        "knock-mcq-04": "「移動時撞上／碰到某人或某物」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。",
-        "knock-mcq-03": "「撞到、碰到或敲擊某物」與本句語境不同。",
-        "knock-mcq-07": "「撞倒、打倒某人／某物」與本句語境不同。",
-        "knock-mcq-02": "「敲門、告知裡面的人有人在外」與本句語境不同。"
+        "knock-mcq-05": "本句的「knock at the door」指「敲門聲／敲擊聲」。",
+        "knock-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-05"
     },
@@ -1223,11 +1179,9 @@ export default {
       "masked": "I heard a soft ____.",
       "options": [
         "knock-mcq-05",
-        "knock-mcq-04",
-        "knock-mcq-06",
-        "knock-mcq-03",
-        "knock-mcq-07",
-        "knock-mcq-02"
+        "knock-mcq-14",
+        "knock-mcq-35",
+        "knock-mcq-08"
       ],
       "explanation": "本句的「knock」指「敲門聲／敲擊聲」。",
       "sentenceIndex": 11,
@@ -1236,12 +1190,10 @@ export default {
         "knock"
       ],
       "optionReasons": {
-        "knock-mcq-05": "本句指「敲門聲／敲擊聲」。",
-        "knock-mcq-04": "「移動時撞上／碰到某人或某物」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。",
-        "knock-mcq-03": "「撞到、碰到或敲擊某物」與本句語境不同。",
-        "knock-mcq-07": "「撞倒、打倒某人／某物」與本句語境不同。",
-        "knock-mcq-02": "「敲門、告知裡面的人有人在外」與本句語境不同。"
+        "knock-mcq-05": "本句的「knock」指「敲門聲／敲擊聲」。",
+        "knock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-05"
     },
@@ -1253,11 +1205,9 @@ export default {
       "masked": "The box took a hard ____ during delivery.",
       "options": [
         "knock-mcq-06",
-        "knock-mcq-05",
-        "knock-mcq-07",
-        "knock-mcq-04",
-        "knock-mcq-08",
-        "knock-mcq-03"
+        "knock-mcq-18",
+        "knock-mcq-31",
+        "knock-mcq-25"
       ],
       "explanation": "本句的「knock」指「一次撞擊／打擊」。",
       "sentenceIndex": 12,
@@ -1266,12 +1216,10 @@ export default {
         "knock"
       ],
       "optionReasons": {
-        "knock-mcq-06": "本句指「一次撞擊／打擊」。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。",
-        "knock-mcq-07": "「撞倒、打倒某人／某物」與本句語境不同。",
-        "knock-mcq-04": "「移動時撞上／碰到某人或某物」與本句語境不同。",
-        "knock-mcq-08": "「推倒／拆除建築、牆等」與本句語境不同。",
-        "knock-mcq-03": "「撞到、碰到或敲擊某物」與本句語境不同。"
+        "knock-mcq-06": "本句的「knock」指「一次撞擊／打擊」。",
+        "knock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-06"
     },
@@ -1283,11 +1231,9 @@ export default {
       "masked": "The table can withstand a few ____.",
       "options": [
         "knock-mcq-06",
-        "knock-mcq-05",
-        "knock-mcq-07",
-        "knock-mcq-04",
-        "knock-mcq-08",
-        "knock-mcq-03"
+        "knock-mcq-33",
+        "knock-mcq-25",
+        "knock-mcq-31"
       ],
       "explanation": "本句的「knocks」指「一次撞擊／打擊」。",
       "sentenceIndex": 13,
@@ -1296,12 +1242,10 @@ export default {
         "knocks"
       ],
       "optionReasons": {
-        "knock-mcq-06": "本句指「一次撞擊／打擊」。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。",
-        "knock-mcq-07": "「撞倒、打倒某人／某物」與本句語境不同。",
-        "knock-mcq-04": "「移動時撞上／碰到某人或某物」與本句語境不同。",
-        "knock-mcq-08": "「推倒／拆除建築、牆等」與本句語境不同。",
-        "knock-mcq-03": "「撞到、碰到或敲擊某物」與本句語境不同。"
+        "knock-mcq-06": "本句的「knocks」指「一次撞擊／打擊」。",
+        "knock-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-06"
     },
@@ -1313,11 +1257,9 @@ export default {
       "masked": "The cyclist was ____ by a car.",
       "options": [
         "knock-mcq-07",
-        "knock-mcq-06",
-        "knock-mcq-08",
-        "knock-mcq-05",
-        "knock-mcq-09",
-        "knock-mcq-04"
+        "knock-mcq-18",
+        "knock-mcq-13",
+        "knock-mcq-21"
       ],
       "explanation": "本句的「knocked down」指「撞倒、打倒某人／某物」。",
       "sentenceIndex": 14,
@@ -1326,12 +1268,10 @@ export default {
         "knocked down"
       ],
       "optionReasons": {
-        "knock-mcq-07": "本句指「撞倒、打倒某人／某物」。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。",
-        "knock-mcq-08": "「推倒／拆除建築、牆等」與本句語境不同。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。",
-        "knock-mcq-09": "「非正式：把價格降低」與本句語境不同。",
-        "knock-mcq-04": "「移動時撞上／碰到某人或某物」與本句語境不同。"
+        "knock-mcq-07": "本句的「knocked down」指「撞倒、打倒某人／某物」。",
+        "knock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-07"
     },
@@ -1343,11 +1283,9 @@ export default {
       "masked": "The wind ____ several trees.",
       "options": [
         "knock-mcq-07",
-        "knock-mcq-06",
-        "knock-mcq-08",
-        "knock-mcq-05",
-        "knock-mcq-09",
-        "knock-mcq-04"
+        "knock-mcq-14",
+        "knock-mcq-31",
+        "knock-mcq-05"
       ],
       "explanation": "本句的「knocked down」指「撞倒、打倒某人／某物」。",
       "sentenceIndex": 15,
@@ -1356,12 +1294,10 @@ export default {
         "knocked down"
       ],
       "optionReasons": {
-        "knock-mcq-07": "本句指「撞倒、打倒某人／某物」。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。",
-        "knock-mcq-08": "「推倒／拆除建築、牆等」與本句語境不同。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。",
-        "knock-mcq-09": "「非正式：把價格降低」與本句語境不同。",
-        "knock-mcq-04": "「移動時撞上／碰到某人或某物」與本句語境不同。"
+        "knock-mcq-07": "本句的「knocked down」指「撞倒、打倒某人／某物」。",
+        "knock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-07"
     },
@@ -1373,11 +1309,9 @@ export default {
       "masked": "They ____ the old building.",
       "options": [
         "knock-mcq-08",
-        "knock-mcq-07",
-        "knock-mcq-09",
-        "knock-mcq-06",
-        "knock-mcq-10",
-        "knock-mcq-05"
+        "knock-mcq-26",
+        "knock-mcq-05",
+        "knock-mcq-23"
       ],
       "explanation": "本句的「knocked down」指「推倒／拆除建築、牆等」。",
       "sentenceIndex": 16,
@@ -1386,12 +1320,10 @@ export default {
         "knocked down"
       ],
       "optionReasons": {
-        "knock-mcq-08": "本句指「推倒／拆除建築、牆等」。",
-        "knock-mcq-07": "「撞倒、打倒某人／某物」與本句語境不同。",
-        "knock-mcq-09": "「非正式：把價格降低」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。",
-        "knock-mcq-10": "「把物件碰倒／撞翻」與本句語境不同。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。"
+        "knock-mcq-08": "本句的「knocked down」指「推倒／拆除建築、牆等」。",
+        "knock-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-08"
     },
@@ -1403,11 +1335,9 @@ export default {
       "masked": "The wall was ____ during renovation.",
       "options": [
         "knock-mcq-08",
-        "knock-mcq-07",
-        "knock-mcq-09",
-        "knock-mcq-06",
-        "knock-mcq-10",
-        "knock-mcq-05"
+        "knock-mcq-26",
+        "knock-mcq-36",
+        "knock-mcq-22"
       ],
       "explanation": "本句的「knocked down」指「推倒／拆除建築、牆等」。",
       "sentenceIndex": 17,
@@ -1416,12 +1346,10 @@ export default {
         "knocked down"
       ],
       "optionReasons": {
-        "knock-mcq-08": "本句指「推倒／拆除建築、牆等」。",
-        "knock-mcq-07": "「撞倒、打倒某人／某物」與本句語境不同。",
-        "knock-mcq-09": "「非正式：把價格降低」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。",
-        "knock-mcq-10": "「把物件碰倒／撞翻」與本句語境不同。",
-        "knock-mcq-05": "「敲門聲／敲擊聲」與本句語境不同。"
+        "knock-mcq-08": "本句的「knocked down」指「推倒／拆除建築、牆等」。",
+        "knock-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-08"
     },
@@ -1434,10 +1362,8 @@ export default {
       "options": [
         "knock-mcq-09",
         "knock-mcq-08",
-        "knock-mcq-10",
-        "knock-mcq-07",
-        "knock-mcq-11",
-        "knock-mcq-06"
+        "knock-mcq-27",
+        "knock-mcq-31"
       ],
       "explanation": "本句的「knocked the price down」指「非正式：把價格降低」。",
       "sentenceIndex": 18,
@@ -1446,12 +1372,10 @@ export default {
         "knocked the price down"
       ],
       "optionReasons": {
-        "knock-mcq-09": "本句指「非正式：把價格降低」。",
-        "knock-mcq-08": "「推倒／拆除建築、牆等」與本句語境不同。",
-        "knock-mcq-10": "「把物件碰倒／撞翻」與本句語境不同。",
-        "knock-mcq-07": "「撞倒、打倒某人／某物」與本句語境不同。",
-        "knock-mcq-11": "「撞倒某人」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。"
+        "knock-mcq-09": "本句的「knocked the price down」指「非正式：把價格降低」。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-09"
     },
@@ -1463,11 +1387,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "knock-mcq-09",
-        "knock-mcq-08",
-        "knock-mcq-10",
-        "knock-mcq-07",
-        "knock-mcq-11",
-        "knock-mcq-06"
+        "knock-mcq-05",
+        "knock-mcq-30",
+        "knock-mcq-14"
       ],
       "explanation": "本句的「knock a little off the price」指「非正式：把價格降低」。",
       "sentenceIndex": 19,
@@ -1476,12 +1398,10 @@ export default {
         "knock a little off the price"
       ],
       "optionReasons": {
-        "knock-mcq-09": "本句指「非正式：把價格降低」。",
-        "knock-mcq-08": "「推倒／拆除建築、牆等」與本句語境不同。",
-        "knock-mcq-10": "「把物件碰倒／撞翻」與本句語境不同。",
-        "knock-mcq-07": "「撞倒、打倒某人／某物」與本句語境不同。",
-        "knock-mcq-11": "「撞倒某人」與本句語境不同。",
-        "knock-mcq-06": "「一次撞擊／打擊」與本句語境不同。"
+        "knock-mcq-09": "本句的「knock a little off the price」指「非正式：把價格降低」。",
+        "knock-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-09"
     },
@@ -1493,11 +1413,9 @@ export default {
       "masked": "I accidentally ____.",
       "options": [
         "knock-mcq-10",
-        "knock-mcq-09",
-        "knock-mcq-11",
-        "knock-mcq-08",
-        "knock-mcq-12",
-        "knock-mcq-07"
+        "knock-mcq-21",
+        "knock-mcq-38",
+        "knock-mcq-05"
       ],
       "explanation": "本句的「knocked over my coffee」指「把物件碰倒／撞翻」。",
       "sentenceIndex": 20,
@@ -1506,12 +1424,10 @@ export default {
         "knocked over my coffee"
       ],
       "optionReasons": {
-        "knock-mcq-10": "本句指「把物件碰倒／撞翻」。",
-        "knock-mcq-09": "「非正式：把價格降低」與本句語境不同。",
-        "knock-mcq-11": "「撞倒某人」與本句語境不同。",
-        "knock-mcq-08": "「推倒／拆除建築、牆等」與本句語境不同。",
-        "knock-mcq-12": "「把某人擊昏／打至失去知覺」與本句語境不同。",
-        "knock-mcq-07": "「撞倒、打倒某人／某物」與本句語境不同。"
+        "knock-mcq-10": "本句的「knocked over my coffee」指「把物件碰倒／撞翻」。",
+        "knock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-10"
     },
@@ -1523,11 +1439,9 @@ export default {
       "masked": "The dog ____.",
       "options": [
         "knock-mcq-10",
-        "knock-mcq-09",
-        "knock-mcq-11",
-        "knock-mcq-08",
-        "knock-mcq-12",
-        "knock-mcq-07"
+        "knock-mcq-31",
+        "knock-mcq-30",
+        "knock-mcq-21"
       ],
       "explanation": "本句的「knocked over the chair」指「把物件碰倒／撞翻」。",
       "sentenceIndex": 21,
@@ -1536,12 +1450,10 @@ export default {
         "knocked over the chair"
       ],
       "optionReasons": {
-        "knock-mcq-10": "本句指「把物件碰倒／撞翻」。",
-        "knock-mcq-09": "「非正式：把價格降低」與本句語境不同。",
-        "knock-mcq-11": "「撞倒某人」與本句語境不同。",
-        "knock-mcq-08": "「推倒／拆除建築、牆等」與本句語境不同。",
-        "knock-mcq-12": "「把某人擊昏／打至失去知覺」與本句語境不同。",
-        "knock-mcq-07": "「撞倒、打倒某人／某物」與本句語境不同。"
+        "knock-mcq-10": "本句的「knocked over the chair」指「把物件碰倒／撞翻」。",
+        "knock-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-10"
     },
@@ -1553,11 +1465,9 @@ export default {
       "masked": "The wave almost ____.",
       "options": [
         "knock-mcq-11",
-        "knock-mcq-10",
-        "knock-mcq-12",
-        "knock-mcq-09",
-        "knock-mcq-13",
-        "knock-mcq-08"
+        "knock-mcq-33",
+        "knock-mcq-32",
+        "knock-mcq-01"
       ],
       "explanation": "本句的「knocked me over」指「撞倒某人」。",
       "sentenceIndex": 22,
@@ -1566,12 +1476,10 @@ export default {
         "knocked me over"
       ],
       "optionReasons": {
-        "knock-mcq-11": "本句指「撞倒某人」。",
-        "knock-mcq-10": "「把物件碰倒／撞翻」與本句語境不同。",
-        "knock-mcq-12": "「把某人擊昏／打至失去知覺」與本句語境不同。",
-        "knock-mcq-09": "「非正式：把價格降低」與本句語境不同。",
-        "knock-mcq-13": "「把對手淘汰出局」與本句語境不同。",
-        "knock-mcq-08": "「推倒／拆除建築、牆等」與本句語境不同。"
+        "knock-mcq-11": "本句的「knocked me over」指「撞倒某人」。",
+        "knock-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-11"
     },
@@ -1583,11 +1491,9 @@ export default {
       "masked": "He was ____ by the crowd.",
       "options": [
         "knock-mcq-11",
-        "knock-mcq-10",
-        "knock-mcq-12",
-        "knock-mcq-09",
-        "knock-mcq-13",
-        "knock-mcq-08"
+        "knock-mcq-22",
+        "knock-mcq-37",
+        "knock-mcq-26"
       ],
       "explanation": "本句的「knocked over」指「撞倒某人」。",
       "sentenceIndex": 23,
@@ -1596,12 +1502,10 @@ export default {
         "knocked over"
       ],
       "optionReasons": {
-        "knock-mcq-11": "本句指「撞倒某人」。",
-        "knock-mcq-10": "「把物件碰倒／撞翻」與本句語境不同。",
-        "knock-mcq-12": "「把某人擊昏／打至失去知覺」與本句語境不同。",
-        "knock-mcq-09": "「非正式：把價格降低」與本句語境不同。",
-        "knock-mcq-13": "「把對手淘汰出局」與本句語境不同。",
-        "knock-mcq-08": "「推倒／拆除建築、牆等」與本句語境不同。"
+        "knock-mcq-11": "本句的「knocked over」指「撞倒某人」。",
+        "knock-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-11"
     },
@@ -1613,11 +1517,9 @@ export default {
       "masked": "The punch ____.",
       "options": [
         "knock-mcq-12",
-        "knock-mcq-11",
-        "knock-mcq-13",
-        "knock-mcq-10",
-        "knock-mcq-14",
-        "knock-mcq-09"
+        "knock-mcq-20",
+        "knock-mcq-36",
+        "knock-mcq-19"
       ],
       "explanation": "本句的「knocked him out」指「把某人擊昏／打至失去知覺」。",
       "sentenceIndex": 24,
@@ -1626,12 +1528,10 @@ export default {
         "knocked him out"
       ],
       "optionReasons": {
-        "knock-mcq-12": "本句指「把某人擊昏／打至失去知覺」。",
-        "knock-mcq-11": "「撞倒某人」與本句語境不同。",
-        "knock-mcq-13": "「把對手淘汰出局」與本句語境不同。",
-        "knock-mcq-10": "「把物件碰倒／撞翻」與本句語境不同。",
-        "knock-mcq-14": "「使電力、通訊、設備等失效／癱瘓」與本句語境不同。",
-        "knock-mcq-09": "「非正式：把價格降低」與本句語境不同。"
+        "knock-mcq-12": "本句的「knocked him out」指「把某人擊昏／打至失去知覺」。",
+        "knock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-12"
     },
@@ -1643,11 +1543,9 @@ export default {
       "masked": "He was briefly ____.",
       "options": [
         "knock-mcq-12",
-        "knock-mcq-11",
-        "knock-mcq-13",
-        "knock-mcq-10",
-        "knock-mcq-14",
-        "knock-mcq-09"
+        "knock-mcq-32",
+        "knock-mcq-18",
+        "knock-mcq-36"
       ],
       "explanation": "本句的「knocked out」指「把某人擊昏／打至失去知覺」。",
       "sentenceIndex": 25,
@@ -1656,12 +1554,10 @@ export default {
         "knocked out"
       ],
       "optionReasons": {
-        "knock-mcq-12": "本句指「把某人擊昏／打至失去知覺」。",
-        "knock-mcq-11": "「撞倒某人」與本句語境不同。",
-        "knock-mcq-13": "「把對手淘汰出局」與本句語境不同。",
-        "knock-mcq-10": "「把物件碰倒／撞翻」與本句語境不同。",
-        "knock-mcq-14": "「使電力、通訊、設備等失效／癱瘓」與本句語境不同。",
-        "knock-mcq-09": "「非正式：把價格降低」與本句語境不同。"
+        "knock-mcq-12": "本句的「knocked out」指「把某人擊昏／打至失去知覺」。",
+        "knock-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-12"
     },
@@ -1673,11 +1569,9 @@ export default {
       "masked": "They were ____.",
       "options": [
         "knock-mcq-13",
-        "knock-mcq-12",
-        "knock-mcq-14",
-        "knock-mcq-11",
-        "knock-mcq-15",
-        "knock-mcq-10"
+        "knock-mcq-19",
+        "knock-mcq-20",
+        "knock-mcq-38"
       ],
       "explanation": "本句的「knocked out of the tournament」指「把對手淘汰出局」。",
       "sentenceIndex": 26,
@@ -1686,12 +1580,10 @@ export default {
         "knocked out of the tournament"
       ],
       "optionReasons": {
-        "knock-mcq-13": "本句指「把對手淘汰出局」。",
-        "knock-mcq-12": "「把某人擊昏／打至失去知覺」與本句語境不同。",
-        "knock-mcq-14": "「使電力、通訊、設備等失效／癱瘓」與本句語境不同。",
-        "knock-mcq-11": "「撞倒某人」與本句語境不同。",
-        "knock-mcq-15": "「擊倒對手使其不能繼續比賽；擊倒勝」與本句語境不同。",
-        "knock-mcq-10": "「把物件碰倒／撞翻」與本句語境不同。"
+        "knock-mcq-13": "本句的「knocked out of the tournament」指「把對手淘汰出局」。",
+        "knock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-13"
     },
@@ -1703,11 +1595,9 @@ export default {
       "masked": "The defending champions were ____ in the first round.",
       "options": [
         "knock-mcq-13",
-        "knock-mcq-12",
-        "knock-mcq-14",
-        "knock-mcq-11",
-        "knock-mcq-15",
-        "knock-mcq-10"
+        "knock-mcq-33",
+        "knock-mcq-08",
+        "knock-mcq-25"
       ],
       "explanation": "本句的「knocked out」指「把對手淘汰出局」。",
       "sentenceIndex": 27,
@@ -1716,12 +1606,10 @@ export default {
         "knocked out"
       ],
       "optionReasons": {
-        "knock-mcq-13": "本句指「把對手淘汰出局」。",
-        "knock-mcq-12": "「把某人擊昏／打至失去知覺」與本句語境不同。",
-        "knock-mcq-14": "「使電力、通訊、設備等失效／癱瘓」與本句語境不同。",
-        "knock-mcq-11": "「撞倒某人」與本句語境不同。",
-        "knock-mcq-15": "「擊倒對手使其不能繼續比賽；擊倒勝」與本句語境不同。",
-        "knock-mcq-10": "「把物件碰倒／撞翻」與本句語境不同。"
+        "knock-mcq-13": "本句的「knocked out」指「把對手淘汰出局」。",
+        "knock-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-13"
     },
@@ -1733,11 +1621,9 @@ export default {
       "masked": "The storm ____.",
       "options": [
         "knock-mcq-14",
-        "knock-mcq-13",
-        "knock-mcq-15",
-        "knock-mcq-12",
-        "knock-mcq-16",
-        "knock-mcq-11"
+        "knock-mcq-01",
+        "knock-mcq-39",
+        "knock-mcq-13"
       ],
       "explanation": "本句的「knocked out the power」指「使電力、通訊、設備等失效／癱瘓」。",
       "sentenceIndex": 28,
@@ -1746,12 +1632,10 @@ export default {
         "knocked out the power"
       ],
       "optionReasons": {
-        "knock-mcq-14": "本句指「使電力、通訊、設備等失效／癱瘓」。",
-        "knock-mcq-13": "「把對手淘汰出局」與本句語境不同。",
-        "knock-mcq-15": "「擊倒對手使其不能繼續比賽；擊倒勝」與本句語境不同。",
-        "knock-mcq-12": "「把某人擊昏／打至失去知覺」與本句語境不同。",
-        "knock-mcq-16": "「非正式：極吸引／令人驚艷的人或事物」與本句語境不同。",
-        "knock-mcq-11": "「撞倒某人」與本句語境不同。"
+        "knock-mcq-14": "本句的「knocked out the power」指「使電力、通訊、設備等失效／癱瘓」。",
+        "knock-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-14"
     },
@@ -1763,11 +1647,9 @@ export default {
       "masked": "The attack ____.",
       "options": [
         "knock-mcq-14",
-        "knock-mcq-13",
-        "knock-mcq-15",
-        "knock-mcq-12",
-        "knock-mcq-16",
-        "knock-mcq-11"
+        "knock-mcq-39",
+        "knock-mcq-37",
+        "knock-mcq-36"
       ],
       "explanation": "本句的「knocked out communications」指「使電力、通訊、設備等失效／癱瘓」。",
       "sentenceIndex": 29,
@@ -1776,12 +1658,10 @@ export default {
         "knocked out communications"
       ],
       "optionReasons": {
-        "knock-mcq-14": "本句指「使電力、通訊、設備等失效／癱瘓」。",
-        "knock-mcq-13": "「把對手淘汰出局」與本句語境不同。",
-        "knock-mcq-15": "「擊倒對手使其不能繼續比賽；擊倒勝」與本句語境不同。",
-        "knock-mcq-12": "「把某人擊昏／打至失去知覺」與本句語境不同。",
-        "knock-mcq-16": "「非正式：極吸引／令人驚艷的人或事物」與本句語境不同。",
-        "knock-mcq-11": "「撞倒某人」與本句語境不同。"
+        "knock-mcq-14": "本句的「knocked out communications」指「使電力、通訊、設備等失效／癱瘓」。",
+        "knock-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-14"
     },
@@ -1793,11 +1673,9 @@ export default {
       "masked": "He won by ____.",
       "options": [
         "knock-mcq-15",
-        "knock-mcq-14",
-        "knock-mcq-16",
-        "knock-mcq-13",
-        "knock-mcq-17",
-        "knock-mcq-12"
+        "knock-mcq-19",
+        "knock-mcq-32",
+        "knock-mcq-21"
       ],
       "explanation": "本句的「knockout」指「擊倒對手使其不能繼續比賽；擊倒勝」。",
       "sentenceIndex": 30,
@@ -1806,12 +1684,10 @@ export default {
         "knockout"
       ],
       "optionReasons": {
-        "knock-mcq-15": "本句指「擊倒對手使其不能繼續比賽；擊倒勝」。",
-        "knock-mcq-14": "「使電力、通訊、設備等失效／癱瘓」與本句語境不同。",
-        "knock-mcq-16": "「非正式：極吸引／令人驚艷的人或事物」與本句語境不同。",
-        "knock-mcq-13": "「把對手淘汰出局」與本句語境不同。",
-        "knock-mcq-17": "「非正式：拒絕／駁回申請、提議等」與本句語境不同。",
-        "knock-mcq-12": "「把某人擊昏／打至失去知覺」與本句語境不同。"
+        "knock-mcq-15": "本句的「knockout」指「擊倒對手使其不能繼續比賽；擊倒勝」。",
+        "knock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-15"
     },
@@ -1823,11 +1699,9 @@ export default {
       "masked": "The fight ended in a first-round ____.",
       "options": [
         "knock-mcq-15",
-        "knock-mcq-14",
-        "knock-mcq-16",
-        "knock-mcq-13",
-        "knock-mcq-17",
-        "knock-mcq-12"
+        "knock-mcq-09",
+        "knock-mcq-38",
+        "knock-mcq-30"
       ],
       "explanation": "本句的「knockout」指「擊倒對手使其不能繼續比賽；擊倒勝」。",
       "sentenceIndex": 31,
@@ -1836,12 +1710,10 @@ export default {
         "knockout"
       ],
       "optionReasons": {
-        "knock-mcq-15": "本句指「擊倒對手使其不能繼續比賽；擊倒勝」。",
-        "knock-mcq-14": "「使電力、通訊、設備等失效／癱瘓」與本句語境不同。",
-        "knock-mcq-16": "「非正式：極吸引／令人驚艷的人或事物」與本句語境不同。",
-        "knock-mcq-13": "「把對手淘汰出局」與本句語境不同。",
-        "knock-mcq-17": "「非正式：拒絕／駁回申請、提議等」與本句語境不同。",
-        "knock-mcq-12": "「把某人擊昏／打至失去知覺」與本句語境不同。"
+        "knock-mcq-15": "本句的「knockout」指「擊倒對手使其不能繼續比賽；擊倒勝」。",
+        "knock-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-15"
     },
@@ -1853,11 +1725,9 @@ export default {
       "masked": "She looked like a ____ in that dress.",
       "options": [
         "knock-mcq-16",
-        "knock-mcq-15",
-        "knock-mcq-17",
-        "knock-mcq-14",
-        "knock-mcq-18",
-        "knock-mcq-13"
+        "knock-mcq-32",
+        "knock-mcq-22",
+        "knock-mcq-08"
       ],
       "explanation": "本句的「knockout」指「非正式：極吸引／令人驚艷的人或事物」。",
       "sentenceIndex": 32,
@@ -1866,12 +1736,10 @@ export default {
         "knockout"
       ],
       "optionReasons": {
-        "knock-mcq-16": "本句指「非正式：極吸引／令人驚艷的人或事物」。",
-        "knock-mcq-15": "「擊倒對手使其不能繼續比賽；擊倒勝」與本句語境不同。",
-        "knock-mcq-17": "「非正式：拒絕／駁回申請、提議等」與本句語境不同。",
-        "knock-mcq-14": "「使電力、通訊、設備等失效／癱瘓」與本句語境不同。",
-        "knock-mcq-18": "「非正式：很快把飲品一口喝下」與本句語境不同。",
-        "knock-mcq-13": "「把對手淘汰出局」與本句語境不同。"
+        "knock-mcq-16": "本句的「knockout」指「非正式：極吸引／令人驚艷的人或事物」。",
+        "knock-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-16"
     },
@@ -1883,11 +1751,9 @@ export default {
       "masked": "The final design is a real ____.",
       "options": [
         "knock-mcq-16",
-        "knock-mcq-15",
-        "knock-mcq-17",
-        "knock-mcq-14",
-        "knock-mcq-18",
-        "knock-mcq-13"
+        "knock-mcq-21",
+        "knock-mcq-08",
+        "knock-mcq-26"
       ],
       "explanation": "本句的「knockout」指「非正式：極吸引／令人驚艷的人或事物」。",
       "sentenceIndex": 33,
@@ -1896,12 +1762,10 @@ export default {
         "knockout"
       ],
       "optionReasons": {
-        "knock-mcq-16": "本句指「非正式：極吸引／令人驚艷的人或事物」。",
-        "knock-mcq-15": "「擊倒對手使其不能繼續比賽；擊倒勝」與本句語境不同。",
-        "knock-mcq-17": "「非正式：拒絕／駁回申請、提議等」與本句語境不同。",
-        "knock-mcq-14": "「使電力、通訊、設備等失效／癱瘓」與本句語境不同。",
-        "knock-mcq-18": "「非正式：很快把飲品一口喝下」與本句語境不同。",
-        "knock-mcq-13": "「把對手淘汰出局」與本句語境不同。"
+        "knock-mcq-16": "本句的「knockout」指「非正式：極吸引／令人驚艷的人或事物」。",
+        "knock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-16"
     },
@@ -1913,11 +1777,9 @@ export default {
       "masked": "His application was ____.",
       "options": [
         "knock-mcq-17",
-        "knock-mcq-16",
-        "knock-mcq-18",
-        "knock-mcq-15",
-        "knock-mcq-19",
-        "knock-mcq-14"
+        "knock-mcq-39",
+        "knock-mcq-04",
+        "knock-mcq-23"
       ],
       "explanation": "本句的「knocked back」指「非正式：拒絕／駁回申請、提議等」。",
       "sentenceIndex": 34,
@@ -1926,12 +1788,10 @@ export default {
         "knocked back"
       ],
       "optionReasons": {
-        "knock-mcq-17": "本句指「非正式：拒絕／駁回申請、提議等」。",
-        "knock-mcq-16": "「非正式：極吸引／令人驚艷的人或事物」與本句語境不同。",
-        "knock-mcq-18": "「非正式：很快把飲品一口喝下」與本句語境不同。",
-        "knock-mcq-15": "「擊倒對手使其不能繼續比賽；擊倒勝」與本句語境不同。",
-        "knock-mcq-19": "「非正式：收工／下班」與本句語境不同。",
-        "knock-mcq-14": "「使電力、通訊、設備等失效／癱瘓」與本句語境不同。"
+        "knock-mcq-17": "本句的「knocked back」指「非正式：拒絕／駁回申請、提議等」。",
+        "knock-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-17"
     },
@@ -1943,11 +1803,9 @@ export default {
       "masked": "They ____ the proposal.",
       "options": [
         "knock-mcq-17",
-        "knock-mcq-16",
-        "knock-mcq-18",
-        "knock-mcq-15",
-        "knock-mcq-19",
-        "knock-mcq-14"
+        "knock-mcq-07",
+        "knock-mcq-13",
+        "knock-mcq-05"
       ],
       "explanation": "本句的「knocked back」指「非正式：拒絕／駁回申請、提議等」。",
       "sentenceIndex": 35,
@@ -1956,12 +1814,10 @@ export default {
         "knocked back"
       ],
       "optionReasons": {
-        "knock-mcq-17": "本句指「非正式：拒絕／駁回申請、提議等」。",
-        "knock-mcq-16": "「非正式：極吸引／令人驚艷的人或事物」與本句語境不同。",
-        "knock-mcq-18": "「非正式：很快把飲品一口喝下」與本句語境不同。",
-        "knock-mcq-15": "「擊倒對手使其不能繼續比賽；擊倒勝」與本句語境不同。",
-        "knock-mcq-19": "「非正式：收工／下班」與本句語境不同。",
-        "knock-mcq-14": "「使電力、通訊、設備等失效／癱瘓」與本句語境不同。"
+        "knock-mcq-17": "本句的「knocked back」指「非正式：拒絕／駁回申請、提議等」。",
+        "knock-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-17"
     },
@@ -1973,11 +1829,9 @@ export default {
       "masked": "He ____ the drink in one go.",
       "options": [
         "knock-mcq-18",
-        "knock-mcq-17",
-        "knock-mcq-19",
-        "knock-mcq-16",
-        "knock-mcq-20",
-        "knock-mcq-15"
+        "knock-mcq-36",
+        "knock-mcq-27",
+        "knock-mcq-05"
       ],
       "explanation": "本句的「knocked back」指「非正式：很快把飲品一口喝下」。",
       "sentenceIndex": 36,
@@ -1986,12 +1840,10 @@ export default {
         "knocked back"
       ],
       "optionReasons": {
-        "knock-mcq-18": "本句指「非正式：很快把飲品一口喝下」。",
-        "knock-mcq-17": "「非正式：拒絕／駁回申請、提議等」與本句語境不同。",
-        "knock-mcq-19": "「非正式：收工／下班」與本句語境不同。",
-        "knock-mcq-16": "「非正式：極吸引／令人驚艷的人或事物」與本句語境不同。",
-        "knock-mcq-20": "「撞掉／敲掉某物」與本句語境不同。",
-        "knock-mcq-15": "「擊倒對手使其不能繼續比賽；擊倒勝」與本句語境不同。"
+        "knock-mcq-18": "本句的「knocked back」指「非正式：很快把飲品一口喝下」。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-18"
     },
@@ -2003,11 +1855,9 @@ export default {
       "masked": "She ____ a glass of water.",
       "options": [
         "knock-mcq-18",
-        "knock-mcq-17",
-        "knock-mcq-19",
-        "knock-mcq-16",
-        "knock-mcq-20",
-        "knock-mcq-15"
+        "knock-mcq-04",
+        "knock-mcq-32",
+        "knock-mcq-39"
       ],
       "explanation": "本句的「knocked back」指「非正式：很快把飲品一口喝下」。",
       "sentenceIndex": 37,
@@ -2016,12 +1866,10 @@ export default {
         "knocked back"
       ],
       "optionReasons": {
-        "knock-mcq-18": "本句指「非正式：很快把飲品一口喝下」。",
-        "knock-mcq-17": "「非正式：拒絕／駁回申請、提議等」與本句語境不同。",
-        "knock-mcq-19": "「非正式：收工／下班」與本句語境不同。",
-        "knock-mcq-16": "「非正式：極吸引／令人驚艷的人或事物」與本句語境不同。",
-        "knock-mcq-20": "「撞掉／敲掉某物」與本句語境不同。",
-        "knock-mcq-15": "「擊倒對手使其不能繼續比賽；擊倒勝」與本句語境不同。"
+        "knock-mcq-18": "本句的「knocked back」指「非正式：很快把飲品一口喝下」。",
+        "knock-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-18"
     },
@@ -2033,11 +1881,9 @@ export default {
       "masked": "We usually ____ at six.",
       "options": [
         "knock-mcq-19",
-        "knock-mcq-18",
-        "knock-mcq-20",
-        "knock-mcq-17",
-        "knock-mcq-21",
-        "knock-mcq-16"
+        "knock-mcq-36",
+        "knock-mcq-12",
+        "knock-mcq-08"
       ],
       "explanation": "本句的「knock off」指「非正式：收工／下班」。",
       "sentenceIndex": 38,
@@ -2046,12 +1892,10 @@ export default {
         "knock off"
       ],
       "optionReasons": {
-        "knock-mcq-19": "本句指「非正式：收工／下班」。",
-        "knock-mcq-18": "「非正式：很快把飲品一口喝下」與本句語境不同。",
-        "knock-mcq-20": "「撞掉／敲掉某物」與本句語境不同。",
-        "knock-mcq-17": "「非正式：拒絕／駁回申請、提議等」與本句語境不同。",
-        "knock-mcq-21": "「減少價格、時間、數量等」與本句語境不同。",
-        "knock-mcq-16": "「非正式：極吸引／令人驚艷的人或事物」與本句語境不同。"
+        "knock-mcq-19": "本句的「knock off」指「非正式：收工／下班」。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-19"
     },
@@ -2063,11 +1907,9 @@ export default {
       "masked": "Let’s ____ today.",
       "options": [
         "knock-mcq-19",
-        "knock-mcq-18",
         "knock-mcq-20",
-        "knock-mcq-17",
-        "knock-mcq-21",
-        "knock-mcq-16"
+        "knock-mcq-36",
+        "knock-mcq-14"
       ],
       "explanation": "本句的「knock off early」指「非正式：收工／下班」。",
       "sentenceIndex": 39,
@@ -2076,12 +1918,10 @@ export default {
         "knock off early"
       ],
       "optionReasons": {
-        "knock-mcq-19": "本句指「非正式：收工／下班」。",
-        "knock-mcq-18": "「非正式：很快把飲品一口喝下」與本句語境不同。",
-        "knock-mcq-20": "「撞掉／敲掉某物」與本句語境不同。",
-        "knock-mcq-17": "「非正式：拒絕／駁回申請、提議等」與本句語境不同。",
-        "knock-mcq-21": "「減少價格、時間、數量等」與本句語境不同。",
-        "knock-mcq-16": "「非正式：極吸引／令人驚艷的人或事物」與本句語境不同。"
+        "knock-mcq-19": "本句的「knock off early」指「非正式：收工／下班」。",
+        "knock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-19"
     },
@@ -2093,11 +1933,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "knock-mcq-20",
-        "knock-mcq-19",
-        "knock-mcq-21",
-        "knock-mcq-18",
-        "knock-mcq-22",
-        "knock-mcq-17"
+        "knock-mcq-23",
+        "knock-mcq-35",
+        "knock-mcq-26"
       ],
       "explanation": "本句的「knocked the cup off the table」指「撞掉／敲掉某物」。",
       "sentenceIndex": 40,
@@ -2106,12 +1944,10 @@ export default {
         "knocked the cup off the table"
       ],
       "optionReasons": {
-        "knock-mcq-20": "本句指「撞掉／敲掉某物」。",
-        "knock-mcq-19": "「非正式：收工／下班」與本句語境不同。",
-        "knock-mcq-21": "「減少價格、時間、數量等」與本句語境不同。",
-        "knock-mcq-18": "「非正式：很快把飲品一口喝下」與本句語境不同。",
-        "knock-mcq-22": "「仿照原產品製作的廉價仿製品／山寨貨」與本句語境不同。",
-        "knock-mcq-17": "「非正式：拒絕／駁回申請、提議等」與本句語境不同。"
+        "knock-mcq-20": "本句的「knocked the cup off the table」指「撞掉／敲掉某物」。",
+        "knock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-20"
     },
@@ -2123,11 +1959,9 @@ export default {
       "masked": "The branch was ____ by the wind.",
       "options": [
         "knock-mcq-20",
-        "knock-mcq-19",
-        "knock-mcq-21",
         "knock-mcq-18",
-        "knock-mcq-22",
-        "knock-mcq-17"
+        "knock-mcq-25",
+        "knock-mcq-12"
       ],
       "explanation": "本句的「knocked off」指「撞掉／敲掉某物」。",
       "sentenceIndex": 41,
@@ -2136,12 +1970,10 @@ export default {
         "knocked off"
       ],
       "optionReasons": {
-        "knock-mcq-20": "本句指「撞掉／敲掉某物」。",
-        "knock-mcq-19": "「非正式：收工／下班」與本句語境不同。",
-        "knock-mcq-21": "「減少價格、時間、數量等」與本句語境不同。",
-        "knock-mcq-18": "「非正式：很快把飲品一口喝下」與本句語境不同。",
-        "knock-mcq-22": "「仿照原產品製作的廉價仿製品／山寨貨」與本句語境不同。",
-        "knock-mcq-17": "「非正式：拒絕／駁回申請、提議等」與本句語境不同。"
+        "knock-mcq-20": "本句的「knocked off」指「撞掉／敲掉某物」。",
+        "knock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-20"
     },
@@ -2153,11 +1985,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "knock-mcq-21",
-        "knock-mcq-20",
-        "knock-mcq-22",
-        "knock-mcq-19",
-        "knock-mcq-23",
-        "knock-mcq-18"
+        "knock-mcq-32",
+        "knock-mcq-03",
+        "knock-mcq-02"
       ],
       "explanation": "本句的「knocked twenty dollars off the price」指「減少價格、時間、數量等」。",
       "sentenceIndex": 42,
@@ -2166,12 +1996,10 @@ export default {
         "knocked twenty dollars off the price"
       ],
       "optionReasons": {
-        "knock-mcq-21": "本句指「減少價格、時間、數量等」。",
-        "knock-mcq-20": "「撞掉／敲掉某物」與本句語境不同。",
-        "knock-mcq-22": "「仿照原產品製作的廉價仿製品／山寨貨」與本句語境不同。",
-        "knock-mcq-19": "「非正式：收工／下班」與本句語境不同。",
-        "knock-mcq-23": "「一件事引起另一件事的連鎖／後續影響」與本句語境不同。",
-        "knock-mcq-18": "「非正式：很快把飲品一口喝下」與本句語境不同。"
+        "knock-mcq-21": "本句的「knocked twenty dollars off the price」指「減少價格、時間、數量等」。",
+        "knock-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-21"
     },
@@ -2183,11 +2011,9 @@ export default {
       "masked": "Good planning ____ the schedule.",
       "options": [
         "knock-mcq-21",
-        "knock-mcq-20",
-        "knock-mcq-22",
-        "knock-mcq-19",
-        "knock-mcq-23",
-        "knock-mcq-18"
+        "knock-mcq-32",
+        "knock-mcq-33",
+        "knock-mcq-31"
       ],
       "explanation": "本句的「knocked several days off」指「減少價格、時間、數量等」。",
       "sentenceIndex": 43,
@@ -2196,12 +2022,10 @@ export default {
         "knocked several days off"
       ],
       "optionReasons": {
-        "knock-mcq-21": "本句指「減少價格、時間、數量等」。",
-        "knock-mcq-20": "「撞掉／敲掉某物」與本句語境不同。",
-        "knock-mcq-22": "「仿照原產品製作的廉價仿製品／山寨貨」與本句語境不同。",
-        "knock-mcq-19": "「非正式：收工／下班」與本句語境不同。",
-        "knock-mcq-23": "「一件事引起另一件事的連鎖／後續影響」與本句語境不同。",
-        "knock-mcq-18": "「非正式：很快把飲品一口喝下」與本句語境不同。"
+        "knock-mcq-21": "本句的「knocked several days off」指「減少價格、時間、數量等」。",
+        "knock-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-21"
     },
@@ -2213,11 +2037,9 @@ export default {
       "masked": "The bag was a cheap ____.",
       "options": [
         "knock-mcq-22",
-        "knock-mcq-21",
-        "knock-mcq-23",
-        "knock-mcq-20",
-        "knock-mcq-24",
-        "knock-mcq-19"
+        "knock-mcq-31",
+        "knock-mcq-27",
+        "knock-mcq-14"
       ],
       "explanation": "本句的「knockoff」指「仿照原產品製作的廉價仿製品／山寨貨」。",
       "sentenceIndex": 44,
@@ -2226,12 +2048,10 @@ export default {
         "knockoff"
       ],
       "optionReasons": {
-        "knock-mcq-22": "本句指「仿照原產品製作的廉價仿製品／山寨貨」。",
-        "knock-mcq-21": "「減少價格、時間、數量等」與本句語境不同。",
-        "knock-mcq-23": "「一件事引起另一件事的連鎖／後續影響」與本句語境不同。",
-        "knock-mcq-20": "「撞掉／敲掉某物」與本句語境不同。",
-        "knock-mcq-24": "「非正式：批評／貶低某人或某事」與本句語境不同。",
-        "knock-mcq-19": "「非正式：收工／下班」與本句語境不同。"
+        "knock-mcq-22": "本句的「knockoff」指「仿照原產品製作的廉價仿製品／山寨貨」。",
+        "knock-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-22"
     },
@@ -2243,11 +2063,9 @@ export default {
       "masked": "The market was selling designer ____.",
       "options": [
         "knock-mcq-22",
-        "knock-mcq-21",
-        "knock-mcq-23",
-        "knock-mcq-20",
-        "knock-mcq-24",
-        "knock-mcq-19"
+        "knock-mcq-02",
+        "knock-mcq-26",
+        "knock-mcq-34"
       ],
       "explanation": "本句的「knockoffs」指「仿照原產品製作的廉價仿製品／山寨貨」。",
       "sentenceIndex": 45,
@@ -2256,12 +2074,10 @@ export default {
         "knockoffs"
       ],
       "optionReasons": {
-        "knock-mcq-22": "本句指「仿照原產品製作的廉價仿製品／山寨貨」。",
-        "knock-mcq-21": "「減少價格、時間、數量等」與本句語境不同。",
-        "knock-mcq-23": "「一件事引起另一件事的連鎖／後續影響」與本句語境不同。",
-        "knock-mcq-20": "「撞掉／敲掉某物」與本句語境不同。",
-        "knock-mcq-24": "「非正式：批評／貶低某人或某事」與本句語境不同。",
-        "knock-mcq-19": "「非正式：收工／下班」與本句語境不同。"
+        "knock-mcq-22": "本句的「knockoffs」指「仿照原產品製作的廉價仿製品／山寨貨」。",
+        "knock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-22"
     },
@@ -2273,11 +2089,9 @@ export default {
       "masked": "The delay had a ____ on the rest of the schedule.",
       "options": [
         "knock-mcq-23",
-        "knock-mcq-22",
-        "knock-mcq-24",
-        "knock-mcq-21",
-        "knock-mcq-25",
-        "knock-mcq-20"
+        "knock-mcq-04",
+        "knock-mcq-02",
+        "knock-mcq-36"
       ],
       "explanation": "本句的「knock-on effect」指「一件事引起另一件事的連鎖／後續影響」。",
       "sentenceIndex": 46,
@@ -2286,12 +2100,10 @@ export default {
         "knock-on effect"
       ],
       "optionReasons": {
-        "knock-mcq-23": "本句指「一件事引起另一件事的連鎖／後續影響」。",
-        "knock-mcq-22": "「仿照原產品製作的廉價仿製品／山寨貨」與本句語境不同。",
-        "knock-mcq-24": "「非正式：批評／貶低某人或某事」與本句語境不同。",
-        "knock-mcq-21": "「減少價格、時間、數量等」與本句語境不同。",
-        "knock-mcq-25": "「沒親自試過就不要先批評」與本句語境不同。",
-        "knock-mcq-20": "「撞掉／敲掉某物」與本句語境不同。"
+        "knock-mcq-23": "本句的「knock-on effect」指「一件事引起另一件事的連鎖／後續影響」。",
+        "knock-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-23"
     },
@@ -2303,10 +2115,8 @@ export default {
       "masked": "Higher fuel prices can have ____ across the economy.",
       "options": [
         "knock-mcq-23",
-        "knock-mcq-22",
-        "knock-mcq-24",
-        "knock-mcq-21",
-        "knock-mcq-25",
+        "knock-mcq-38",
+        "knock-mcq-26",
         "knock-mcq-20"
       ],
       "explanation": "本句的「knock-on effects」指「一件事引起另一件事的連鎖／後續影響」。",
@@ -2316,12 +2126,10 @@ export default {
         "knock-on effects"
       ],
       "optionReasons": {
-        "knock-mcq-23": "本句指「一件事引起另一件事的連鎖／後續影響」。",
-        "knock-mcq-22": "「仿照原產品製作的廉價仿製品／山寨貨」與本句語境不同。",
-        "knock-mcq-24": "「非正式：批評／貶低某人或某事」與本句語境不同。",
-        "knock-mcq-21": "「減少價格、時間、數量等」與本句語境不同。",
-        "knock-mcq-25": "「沒親自試過就不要先批評」與本句語境不同。",
-        "knock-mcq-20": "「撞掉／敲掉某物」與本句語境不同。"
+        "knock-mcq-23": "本句的「knock-on effects」指「一件事引起另一件事的連鎖／後續影響」。",
+        "knock-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-23"
     },
@@ -2333,11 +2141,9 @@ export default {
       "masked": "It’s easy to ____ other people’s ideas.",
       "options": [
         "knock-mcq-24",
-        "knock-mcq-23",
-        "knock-mcq-25",
+        "knock-mcq-36",
         "knock-mcq-22",
-        "knock-mcq-26",
-        "knock-mcq-21"
+        "knock-mcq-39"
       ],
       "explanation": "本句的「knock」指「非正式：批評／貶低某人或某事」。",
       "sentenceIndex": 48,
@@ -2346,12 +2152,10 @@ export default {
         "knock"
       ],
       "optionReasons": {
-        "knock-mcq-24": "本句指「非正式：批評／貶低某人或某事」。",
-        "knock-mcq-23": "「一件事引起另一件事的連鎖／後續影響」與本句語境不同。",
-        "knock-mcq-25": "「沒親自試過就不要先批評」與本句語境不同。",
-        "knock-mcq-22": "「仿照原產品製作的廉價仿製品／山寨貨」與本句語境不同。",
-        "knock-mcq-26": "「遭受打擊、挫折或損失」與本句語境不同。",
-        "knock-mcq-21": "「減少價格、時間、數量等」與本句語境不同。"
+        "knock-mcq-24": "本句的「knock」指「非正式：批評／貶低某人或某事」。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-24"
     },
@@ -2363,11 +2167,9 @@ export default {
       "masked": "Don’t ____ until you’ve tried it.",
       "options": [
         "knock-mcq-24",
-        "knock-mcq-23",
-        "knock-mcq-25",
-        "knock-mcq-22",
-        "knock-mcq-26",
-        "knock-mcq-21"
+        "knock-mcq-03",
+        "knock-mcq-08",
+        "knock-mcq-15"
       ],
       "explanation": "本句的「knock it」指「非正式：批評／貶低某人或某事」。",
       "sentenceIndex": 49,
@@ -2376,12 +2178,10 @@ export default {
         "knock it"
       ],
       "optionReasons": {
-        "knock-mcq-24": "本句指「非正式：批評／貶低某人或某事」。",
-        "knock-mcq-23": "「一件事引起另一件事的連鎖／後續影響」與本句語境不同。",
-        "knock-mcq-25": "「沒親自試過就不要先批評」與本句語境不同。",
-        "knock-mcq-22": "「仿照原產品製作的廉價仿製品／山寨貨」與本句語境不同。",
-        "knock-mcq-26": "「遭受打擊、挫折或損失」與本句語境不同。",
-        "knock-mcq-21": "「減少價格、時間、數量等」與本句語境不同。"
+        "knock-mcq-24": "本句的「knock it」指「非正式：批評／貶低某人或某事」。",
+        "knock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-24"
     },
@@ -2393,11 +2193,9 @@ export default {
       "masked": "He is always ____.",
       "options": [
         "knock-mcq-24",
-        "knock-mcq-23",
-        "knock-mcq-25",
-        "knock-mcq-22",
-        "knock-mcq-26",
-        "knock-mcq-21"
+        "knock-mcq-03",
+        "knock-mcq-32",
+        "knock-mcq-01"
       ],
       "explanation": "本句的「knocking his old job」指「非正式：批評／貶低某人或某事」。",
       "sentenceIndex": 50,
@@ -2406,12 +2204,10 @@ export default {
         "knocking his old job"
       ],
       "optionReasons": {
-        "knock-mcq-24": "本句指「非正式：批評／貶低某人或某事」。",
-        "knock-mcq-23": "「一件事引起另一件事的連鎖／後續影響」與本句語境不同。",
-        "knock-mcq-25": "「沒親自試過就不要先批評」與本句語境不同。",
-        "knock-mcq-22": "「仿照原產品製作的廉價仿製品／山寨貨」與本句語境不同。",
-        "knock-mcq-26": "「遭受打擊、挫折或損失」與本句語境不同。",
-        "knock-mcq-21": "「減少價格、時間、數量等」與本句語境不同。"
+        "knock-mcq-24": "本句的「knocking his old job」指「非正式：批評／貶低某人或某事」。",
+        "knock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-24"
     },
@@ -2423,11 +2219,9 @@ export default {
       "masked": "People sometimes ____ without really knowing it.",
       "options": [
         "knock-mcq-24",
+        "knock-mcq-30",
         "knock-mcq-23",
-        "knock-mcq-25",
-        "knock-mcq-22",
-        "knock-mcq-26",
-        "knock-mcq-21"
+        "knock-mcq-36"
       ],
       "explanation": "本句的「knock the city」指「非正式：批評／貶低某人或某事」。",
       "sentenceIndex": 51,
@@ -2436,12 +2230,10 @@ export default {
         "knock the city"
       ],
       "optionReasons": {
-        "knock-mcq-24": "本句指「非正式：批評／貶低某人或某事」。",
-        "knock-mcq-23": "「一件事引起另一件事的連鎖／後續影響」與本句語境不同。",
-        "knock-mcq-25": "「沒親自試過就不要先批評」與本句語境不同。",
-        "knock-mcq-22": "「仿照原產品製作的廉價仿製品／山寨貨」與本句語境不同。",
-        "knock-mcq-26": "「遭受打擊、挫折或損失」與本句語境不同。",
-        "knock-mcq-21": "「減少價格、時間、數量等」與本句語境不同。"
+        "knock-mcq-24": "本句的「knock the city」指「非正式：批評／貶低某人或某事」。",
+        "knock-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-24"
     },
@@ -2453,11 +2245,9 @@ export default {
       "masked": "That sounds strange.” “____",
       "options": [
         "knock-mcq-25",
-        "knock-mcq-24",
-        "knock-mcq-26",
-        "knock-mcq-23",
-        "knock-mcq-27",
-        "knock-mcq-22"
+        "knock-mcq-01",
+        "knock-mcq-30",
+        "knock-mcq-33"
       ],
       "explanation": "本句的「Don’t knock it till you’ve tried it.」指「沒親自試過就不要先批評」。",
       "sentenceIndex": 52,
@@ -2466,12 +2256,10 @@ export default {
         "Don’t knock it till you’ve tried it."
       ],
       "optionReasons": {
-        "knock-mcq-25": "本句指「沒親自試過就不要先批評」。",
-        "knock-mcq-24": "「非正式：批評／貶低某人或某事」與本句語境不同。",
-        "knock-mcq-26": "「遭受打擊、挫折或損失」與本句語境不同。",
-        "knock-mcq-23": "「一件事引起另一件事的連鎖／後續影響」與本句語境不同。",
-        "knock-mcq-27": "「打擊／削弱某人的自信」與本句語境不同。",
-        "knock-mcq-22": "「仿照原產品製作的廉價仿製品／山寨貨」與本句語境不同。"
+        "knock-mcq-25": "本句的「Don’t knock it till you’ve tried it.」指「沒親自試過就不要先批評」。",
+        "knock-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-25"
     },
@@ -2483,11 +2271,9 @@ export default {
       "masked": "I thought the dish looked odd, but you shouldn’t ____.",
       "options": [
         "knock-mcq-25",
-        "knock-mcq-24",
-        "knock-mcq-26",
-        "knock-mcq-23",
-        "knock-mcq-27",
-        "knock-mcq-22"
+        "knock-mcq-33",
+        "knock-mcq-12",
+        "knock-mcq-21"
       ],
       "explanation": "本句的「knock it till you’ve tried it」指「沒親自試過就不要先批評」。",
       "sentenceIndex": 53,
@@ -2496,12 +2282,10 @@ export default {
         "knock it till you’ve tried it"
       ],
       "optionReasons": {
-        "knock-mcq-25": "本句指「沒親自試過就不要先批評」。",
-        "knock-mcq-24": "「非正式：批評／貶低某人或某事」與本句語境不同。",
-        "knock-mcq-26": "「遭受打擊、挫折或損失」與本句語境不同。",
-        "knock-mcq-23": "「一件事引起另一件事的連鎖／後續影響」與本句語境不同。",
-        "knock-mcq-27": "「打擊／削弱某人的自信」與本句語境不同。",
-        "knock-mcq-22": "「仿照原產品製作的廉價仿製品／山寨貨」與本句語境不同。"
+        "knock-mcq-25": "本句的「knock it till you’ve tried it」指「沒親自試過就不要先批評」。",
+        "knock-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-25"
     },
@@ -2513,11 +2297,9 @@ export default {
       "masked": "His confidence ____ after the failure.",
       "options": [
         "knock-mcq-26",
-        "knock-mcq-25",
-        "knock-mcq-27",
-        "knock-mcq-24",
-        "knock-mcq-28",
-        "knock-mcq-23"
+        "knock-mcq-08",
+        "knock-mcq-16",
+        "knock-mcq-10"
       ],
       "explanation": "本句的「took a knock」指「遭受打擊、挫折或損失」。",
       "sentenceIndex": 54,
@@ -2526,12 +2308,10 @@ export default {
         "took a knock"
       ],
       "optionReasons": {
-        "knock-mcq-26": "本句指「遭受打擊、挫折或損失」。",
-        "knock-mcq-25": "「沒親自試過就不要先批評」與本句語境不同。",
-        "knock-mcq-27": "「打擊／削弱某人的自信」與本句語境不同。",
-        "knock-mcq-24": "「非正式：批評／貶低某人或某事」與本句語境不同。",
-        "knock-mcq-28": "「引擎因異常燃燒／機械問題發出敲擊爆震聲」與本句語境不同。",
-        "knock-mcq-23": "「一件事引起另一件事的連鎖／後續影響」與本句語境不同。"
+        "knock-mcq-26": "本句的「took a knock」指「遭受打擊、挫折或損失」。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-26"
     },
@@ -2544,9 +2324,7 @@ export default {
       "options": [
         "knock-mcq-26",
         "knock-mcq-25",
-        "knock-mcq-27",
-        "knock-mcq-24",
-        "knock-mcq-28",
+        "knock-mcq-17",
         "knock-mcq-23"
       ],
       "explanation": "本句的「took a knock」指「遭受打擊、挫折或損失」。",
@@ -2556,12 +2334,10 @@ export default {
         "took a knock"
       ],
       "optionReasons": {
-        "knock-mcq-26": "本句指「遭受打擊、挫折或損失」。",
-        "knock-mcq-25": "「沒親自試過就不要先批評」與本句語境不同。",
-        "knock-mcq-27": "「打擊／削弱某人的自信」與本句語境不同。",
-        "knock-mcq-24": "「非正式：批評／貶低某人或某事」與本句語境不同。",
-        "knock-mcq-28": "「引擎因異常燃燒／機械問題發出敲擊爆震聲」與本句語境不同。",
-        "knock-mcq-23": "「一件事引起另一件事的連鎖／後續影響」與本句語境不同。"
+        "knock-mcq-26": "本句的「took a knock」指「遭受打擊、挫折或損失」。",
+        "knock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-26"
     },
@@ -2573,11 +2349,9 @@ export default {
       "masked": "The criticism ____.",
       "options": [
         "knock-mcq-27",
-        "knock-mcq-26",
-        "knock-mcq-28",
-        "knock-mcq-25",
-        "knock-mcq-29",
-        "knock-mcq-24"
+        "knock-mcq-23",
+        "knock-mcq-19",
+        "knock-mcq-31"
       ],
       "explanation": "本句的「knocked his confidence」指「打擊／削弱某人的自信」。",
       "sentenceIndex": 56,
@@ -2586,12 +2360,10 @@ export default {
         "knocked his confidence"
       ],
       "optionReasons": {
-        "knock-mcq-27": "本句指「打擊／削弱某人的自信」。",
-        "knock-mcq-26": "「遭受打擊、挫折或損失」與本句語境不同。",
-        "knock-mcq-28": "「引擎因異常燃燒／機械問題發出敲擊爆震聲」與本句語境不同。",
-        "knock-mcq-25": "「沒親自試過就不要先批評」與本句語境不同。",
-        "knock-mcq-29": "「引擎異常燃燒造成的爆震／敲擊異響」與本句語境不同。",
-        "knock-mcq-24": "「非正式：批評／貶低某人或某事」與本句語境不同。"
+        "knock-mcq-27": "本句的「knocked his confidence」指「打擊／削弱某人的自信」。",
+        "knock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-27"
     },
@@ -2603,11 +2375,9 @@ export default {
       "masked": "Repeated failure can ____.",
       "options": [
         "knock-mcq-27",
-        "knock-mcq-26",
-        "knock-mcq-28",
-        "knock-mcq-25",
-        "knock-mcq-29",
-        "knock-mcq-24"
+        "knock-mcq-31",
+        "knock-mcq-08",
+        "knock-mcq-16"
       ],
       "explanation": "本句的「knock your confidence」指「打擊／削弱某人的自信」。",
       "sentenceIndex": 57,
@@ -2616,12 +2386,10 @@ export default {
         "knock your confidence"
       ],
       "optionReasons": {
-        "knock-mcq-27": "本句指「打擊／削弱某人的自信」。",
-        "knock-mcq-26": "「遭受打擊、挫折或損失」與本句語境不同。",
-        "knock-mcq-28": "「引擎因異常燃燒／機械問題發出敲擊爆震聲」與本句語境不同。",
-        "knock-mcq-25": "「沒親自試過就不要先批評」與本句語境不同。",
-        "knock-mcq-29": "「引擎異常燃燒造成的爆震／敲擊異響」與本句語境不同。",
-        "knock-mcq-24": "「非正式：批評／貶低某人或某事」與本句語境不同。"
+        "knock-mcq-27": "本句的「knock your confidence」指「打擊／削弱某人的自信」。",
+        "knock-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-27"
     },
@@ -2633,11 +2401,9 @@ export default {
       "masked": "The engine started to ____.",
       "options": [
         "knock-mcq-28",
-        "knock-mcq-27",
-        "knock-mcq-29",
-        "knock-mcq-26",
-        "knock-mcq-30",
-        "knock-mcq-25"
+        "knock-mcq-19",
+        "knock-mcq-25",
+        "knock-mcq-38"
       ],
       "explanation": "本句的「knock」指「引擎因異常燃燒／機械問題發出敲擊爆震聲」。",
       "sentenceIndex": 58,
@@ -2646,12 +2412,10 @@ export default {
         "knock"
       ],
       "optionReasons": {
-        "knock-mcq-28": "本句指「引擎因異常燃燒／機械問題發出敲擊爆震聲」。",
-        "knock-mcq-27": "「打擊／削弱某人的自信」與本句語境不同。",
-        "knock-mcq-29": "「引擎異常燃燒造成的爆震／敲擊異響」與本句語境不同。",
-        "knock-mcq-26": "「遭受打擊、挫折或損失」與本句語境不同。",
-        "knock-mcq-30": "「輕敲表面以檢查是否空心、堅固等」與本句語境不同。",
-        "knock-mcq-25": "「沒親自試過就不要先批評」與本句語境不同。"
+        "knock-mcq-28": "本句的「knock」指「引擎因異常燃燒／機械問題發出敲擊爆震聲」。",
+        "knock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-28"
     },
@@ -2663,11 +2427,9 @@ export default {
       "masked": "I could hear the engine ____.",
       "options": [
         "knock-mcq-28",
-        "knock-mcq-27",
-        "knock-mcq-29",
-        "knock-mcq-26",
-        "knock-mcq-30",
-        "knock-mcq-25"
+        "knock-mcq-09",
+        "knock-mcq-08",
+        "knock-mcq-10"
       ],
       "explanation": "本句的「knocking」指「引擎因異常燃燒／機械問題發出敲擊爆震聲」。",
       "sentenceIndex": 59,
@@ -2676,12 +2438,10 @@ export default {
         "knocking"
       ],
       "optionReasons": {
-        "knock-mcq-28": "本句指「引擎因異常燃燒／機械問題發出敲擊爆震聲」。",
-        "knock-mcq-27": "「打擊／削弱某人的自信」與本句語境不同。",
-        "knock-mcq-29": "「引擎異常燃燒造成的爆震／敲擊異響」與本句語境不同。",
-        "knock-mcq-26": "「遭受打擊、挫折或損失」與本句語境不同。",
-        "knock-mcq-30": "「輕敲表面以檢查是否空心、堅固等」與本句語境不同。",
-        "knock-mcq-25": "「沒親自試過就不要先批評」與本句語境不同。"
+        "knock-mcq-28": "本句的「knocking」指「引擎因異常燃燒／機械問題發出敲擊爆震聲」。",
+        "knock-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-28"
     },
@@ -2693,11 +2453,9 @@ export default {
       "masked": "Low-quality fuel can contribute to ____.",
       "options": [
         "knock-mcq-29",
-        "knock-mcq-28",
-        "knock-mcq-30",
-        "knock-mcq-27",
-        "knock-mcq-31",
-        "knock-mcq-26"
+        "knock-mcq-24",
+        "knock-mcq-10",
+        "knock-mcq-21"
       ],
       "explanation": "本句的「engine knock」指「引擎異常燃燒造成的爆震／敲擊異響」。",
       "sentenceIndex": 60,
@@ -2706,12 +2464,10 @@ export default {
         "engine knock"
       ],
       "optionReasons": {
-        "knock-mcq-29": "本句指「引擎異常燃燒造成的爆震／敲擊異響」。",
-        "knock-mcq-28": "「引擎因異常燃燒／機械問題發出敲擊爆震聲」與本句語境不同。",
-        "knock-mcq-30": "「輕敲表面以檢查是否空心、堅固等」與本句語境不同。",
-        "knock-mcq-27": "「打擊／削弱某人的自信」與本句語境不同。",
-        "knock-mcq-31": "「說到好運後敲木頭，希望好運繼續」與本句語境不同。",
-        "knock-mcq-26": "「遭受打擊、挫折或損失」與本句語境不同。"
+        "knock-mcq-29": "本句的「engine knock」指「引擎異常燃燒造成的爆震／敲擊異響」。",
+        "knock-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-29"
     },
@@ -2723,11 +2479,9 @@ export default {
       "masked": "The mechanic investigated the ____.",
       "options": [
         "knock-mcq-29",
-        "knock-mcq-28",
-        "knock-mcq-30",
-        "knock-mcq-27",
-        "knock-mcq-31",
-        "knock-mcq-26"
+        "knock-mcq-09",
+        "knock-mcq-10",
+        "knock-mcq-14"
       ],
       "explanation": "本句的「knocking sound」指「引擎異常燃燒造成的爆震／敲擊異響」。",
       "sentenceIndex": 61,
@@ -2736,12 +2490,10 @@ export default {
         "knocking sound"
       ],
       "optionReasons": {
-        "knock-mcq-29": "本句指「引擎異常燃燒造成的爆震／敲擊異響」。",
-        "knock-mcq-28": "「引擎因異常燃燒／機械問題發出敲擊爆震聲」與本句語境不同。",
-        "knock-mcq-30": "「輕敲表面以檢查是否空心、堅固等」與本句語境不同。",
-        "knock-mcq-27": "「打擊／削弱某人的自信」與本句語境不同。",
-        "knock-mcq-31": "「說到好運後敲木頭，希望好運繼續」與本句語境不同。",
-        "knock-mcq-26": "「遭受打擊、挫折或損失」與本句語境不同。"
+        "knock-mcq-29": "本句的「knocking sound」指「引擎異常燃燒造成的爆震／敲擊異響」。",
+        "knock-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-29"
     },
@@ -2753,11 +2505,9 @@ export default {
       "masked": "He ____ to see if it was hollow.",
       "options": [
         "knock-mcq-30",
-        "knock-mcq-29",
-        "knock-mcq-31",
-        "knock-mcq-28",
-        "knock-mcq-32",
-        "knock-mcq-27"
+        "knock-mcq-04",
+        "knock-mcq-06",
+        "knock-mcq-35"
       ],
       "explanation": "本句的「knocked on the wall」指「輕敲表面以檢查是否空心、堅固等」。",
       "sentenceIndex": 62,
@@ -2766,12 +2516,10 @@ export default {
         "knocked on the wall"
       ],
       "optionReasons": {
-        "knock-mcq-30": "本句指「輕敲表面以檢查是否空心、堅固等」。",
-        "knock-mcq-29": "「引擎異常燃燒造成的爆震／敲擊異響」與本句語境不同。",
-        "knock-mcq-31": "「說到好運後敲木頭，希望好運繼續」與本句語境不同。",
-        "knock-mcq-28": "「引擎因異常燃燒／機械問題發出敲擊爆震聲」與本句語境不同。",
-        "knock-mcq-32": "「機會來臨／出現」與本句語境不同。",
-        "knock-mcq-27": "「打擊／削弱某人的自信」與本句語境不同。"
+        "knock-mcq-30": "本句的「knocked on the wall」指「輕敲表面以檢查是否空心、堅固等」。",
+        "knock-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-30"
     },
@@ -2783,11 +2531,9 @@ export default {
       "masked": "She ____ before buying it.",
       "options": [
         "knock-mcq-30",
-        "knock-mcq-29",
-        "knock-mcq-31",
-        "knock-mcq-28",
-        "knock-mcq-32",
-        "knock-mcq-27"
+        "knock-mcq-37",
+        "knock-mcq-27",
+        "knock-mcq-25"
       ],
       "explanation": "本句的「knocked on the melon」指「輕敲表面以檢查是否空心、堅固等」。",
       "sentenceIndex": 63,
@@ -2796,12 +2542,10 @@ export default {
         "knocked on the melon"
       ],
       "optionReasons": {
-        "knock-mcq-30": "本句指「輕敲表面以檢查是否空心、堅固等」。",
-        "knock-mcq-29": "「引擎異常燃燒造成的爆震／敲擊異響」與本句語境不同。",
-        "knock-mcq-31": "「說到好運後敲木頭，希望好運繼續」與本句語境不同。",
-        "knock-mcq-28": "「引擎因異常燃燒／機械問題發出敲擊爆震聲」與本句語境不同。",
-        "knock-mcq-32": "「機會來臨／出現」與本句語境不同。",
-        "knock-mcq-27": "「打擊／削弱某人的自信」與本句語境不同。"
+        "knock-mcq-30": "本句的「knocked on the melon」指「輕敲表面以檢查是否空心、堅固等」。",
+        "knock-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-30"
     },
@@ -2813,11 +2557,9 @@ export default {
       "masked": "I haven’t been sick all year—____.",
       "options": [
         "knock-mcq-31",
-        "knock-mcq-30",
-        "knock-mcq-32",
-        "knock-mcq-29",
-        "knock-mcq-33",
-        "knock-mcq-28"
+        "knock-mcq-18",
+        "knock-mcq-36",
+        "knock-mcq-32"
       ],
       "explanation": "本句的「knock on wood」指「說到好運後敲木頭，希望好運繼續」。",
       "sentenceIndex": 64,
@@ -2826,12 +2568,10 @@ export default {
         "knock on wood"
       ],
       "optionReasons": {
-        "knock-mcq-31": "本句指「說到好運後敲木頭，希望好運繼續」。",
-        "knock-mcq-30": "「輕敲表面以檢查是否空心、堅固等」與本句語境不同。",
-        "knock-mcq-32": "「機會來臨／出現」與本句語境不同。",
-        "knock-mcq-29": "「引擎異常燃燒造成的爆震／敲擊異響」與本句語境不同。",
-        "knock-mcq-33": "「非正式：表現極好，令人驚艷」與本句語境不同。",
-        "knock-mcq-28": "「引擎因異常燃燒／機械問題發出敲擊爆震聲」與本句語境不同。"
+        "knock-mcq-31": "本句的「knock on wood」指「說到好運後敲木頭，希望好運繼續」。",
+        "knock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-31"
     },
@@ -2843,11 +2583,9 @@ export default {
       "masked": "Everything has gone smoothly so far, ____.",
       "options": [
         "knock-mcq-31",
-        "knock-mcq-30",
-        "knock-mcq-32",
-        "knock-mcq-29",
-        "knock-mcq-33",
-        "knock-mcq-28"
+        "knock-mcq-18",
+        "knock-mcq-04",
+        "knock-mcq-22"
       ],
       "explanation": "本句的「knock on wood」指「說到好運後敲木頭，希望好運繼續」。",
       "sentenceIndex": 65,
@@ -2856,12 +2594,10 @@ export default {
         "knock on wood"
       ],
       "optionReasons": {
-        "knock-mcq-31": "本句指「說到好運後敲木頭，希望好運繼續」。",
-        "knock-mcq-30": "「輕敲表面以檢查是否空心、堅固等」與本句語境不同。",
-        "knock-mcq-32": "「機會來臨／出現」與本句語境不同。",
-        "knock-mcq-29": "「引擎異常燃燒造成的爆震／敲擊異響」與本句語境不同。",
-        "knock-mcq-33": "「非正式：表現極好，令人驚艷」與本句語境不同。",
-        "knock-mcq-28": "「引擎因異常燃燒／機械問題發出敲擊爆震聲」與本句語境不同。"
+        "knock-mcq-31": "本句的「knock on wood」指「說到好運後敲木頭，希望好運繼續」。",
+        "knock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-31"
     },
@@ -2873,11 +2609,9 @@ export default {
       "masked": "When ____, be ready.",
       "options": [
         "knock-mcq-32",
-        "knock-mcq-31",
-        "knock-mcq-33",
-        "knock-mcq-30",
-        "knock-mcq-34",
-        "knock-mcq-29"
+        "knock-mcq-03",
+        "knock-mcq-22",
+        "knock-mcq-15"
       ],
       "explanation": "本句的「opportunity knocks」指「機會來臨／出現」。",
       "sentenceIndex": 66,
@@ -2886,12 +2620,10 @@ export default {
         "opportunity knocks"
       ],
       "optionReasons": {
-        "knock-mcq-32": "本句指「機會來臨／出現」。",
-        "knock-mcq-31": "「說到好運後敲木頭，希望好運繼續」與本句語境不同。",
-        "knock-mcq-33": "「非正式：表現極好，令人驚艷」與本句語境不同。",
-        "knock-mcq-30": "「輕敲表面以檢查是否空心、堅固等」與本句語境不同。",
-        "knock-mcq-34": "「非正式：令某人極度驚喜／震撼」與本句語境不同。",
-        "knock-mcq-29": "「引擎異常燃燒造成的爆震／敲擊異響」與本句語境不同。"
+        "knock-mcq-32": "本句的「opportunity knocks」指「機會來臨／出現」。",
+        "knock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-32"
     },
@@ -2903,11 +2635,9 @@ export default {
       "masked": "She decided to act when ____.",
       "options": [
         "knock-mcq-32",
-        "knock-mcq-31",
-        "knock-mcq-33",
-        "knock-mcq-30",
-        "knock-mcq-34",
-        "knock-mcq-29"
+        "knock-mcq-05",
+        "knock-mcq-07",
+        "knock-mcq-36"
       ],
       "explanation": "本句的「opportunity knocked」指「機會來臨／出現」。",
       "sentenceIndex": 67,
@@ -2916,12 +2646,10 @@ export default {
         "opportunity knocked"
       ],
       "optionReasons": {
-        "knock-mcq-32": "本句指「機會來臨／出現」。",
-        "knock-mcq-31": "「說到好運後敲木頭，希望好運繼續」與本句語境不同。",
-        "knock-mcq-33": "「非正式：表現極好，令人驚艷」與本句語境不同。",
-        "knock-mcq-30": "「輕敲表面以檢查是否空心、堅固等」與本句語境不同。",
-        "knock-mcq-34": "「非正式：令某人極度驚喜／震撼」與本句語境不同。",
-        "knock-mcq-29": "「引擎異常燃燒造成的爆震／敲擊異響」與本句語境不同。"
+        "knock-mcq-32": "本句的「opportunity knocked」指「機會來臨／出現」。",
+        "knock-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-32"
     },
@@ -2933,11 +2661,9 @@ export default {
       "masked": "You’ll ____ at the interview.",
       "options": [
         "knock-mcq-33",
-        "knock-mcq-32",
-        "knock-mcq-34",
-        "knock-mcq-31",
-        "knock-mcq-35",
-        "knock-mcq-30"
+        "knock-mcq-26",
+        "knock-mcq-04",
+        "knock-mcq-05"
       ],
       "explanation": "本句的「knock them dead」指「非正式：表現極好，令人驚艷」。",
       "sentenceIndex": 68,
@@ -2946,12 +2672,10 @@ export default {
         "knock them dead"
       ],
       "optionReasons": {
-        "knock-mcq-33": "本句指「非正式：表現極好，令人驚艷」。",
-        "knock-mcq-32": "「機會來臨／出現」與本句語境不同。",
-        "knock-mcq-34": "「非正式：令某人極度驚喜／震撼」與本句語境不同。",
-        "knock-mcq-31": "「說到好運後敲木頭，希望好運繼續」與本句語境不同。",
-        "knock-mcq-35": "「非正式：儘管去做／請便」與本句語境不同。",
-        "knock-mcq-30": "「輕敲表面以檢查是否空心、堅固等」與本句語境不同。"
+        "knock-mcq-33": "本句的「knock them dead」指「非正式：表現極好，令人驚艷」。",
+        "knock-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-33"
     },
@@ -2963,11 +2687,9 @@ export default {
       "masked": "Go out there and ____!",
       "options": [
         "knock-mcq-33",
-        "knock-mcq-32",
-        "knock-mcq-34",
-        "knock-mcq-31",
-        "knock-mcq-35",
-        "knock-mcq-30"
+        "knock-mcq-04",
+        "knock-mcq-26",
+        "knock-mcq-28"
       ],
       "explanation": "本句的「knock them dead」指「非正式：表現極好，令人驚艷」。",
       "sentenceIndex": 69,
@@ -2976,12 +2698,10 @@ export default {
         "knock them dead"
       ],
       "optionReasons": {
-        "knock-mcq-33": "本句指「非正式：表現極好，令人驚艷」。",
-        "knock-mcq-32": "「機會來臨／出現」與本句語境不同。",
-        "knock-mcq-34": "「非正式：令某人極度驚喜／震撼」與本句語境不同。",
-        "knock-mcq-31": "「說到好運後敲木頭，希望好運繼續」與本句語境不同。",
-        "knock-mcq-35": "「非正式：儘管去做／請便」與本句語境不同。",
-        "knock-mcq-30": "「輕敲表面以檢查是否空心、堅固等」與本句語境不同。"
+        "knock-mcq-33": "本句的「knock them dead」指「非正式：表現極好，令人驚艷」。",
+        "knock-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-33"
     },
@@ -2993,11 +2713,9 @@ export default {
       "masked": "The performance ____.",
       "options": [
         "knock-mcq-34",
-        "knock-mcq-33",
-        "knock-mcq-35",
-        "knock-mcq-32",
-        "knock-mcq-36",
-        "knock-mcq-31"
+        "knock-mcq-08",
+        "knock-mcq-01",
+        "knock-mcq-10"
       ],
       "explanation": "本句的「knocked my socks off」指「非正式：令某人極度驚喜／震撼」。",
       "sentenceIndex": 70,
@@ -3006,12 +2724,10 @@ export default {
         "knocked my socks off"
       ],
       "optionReasons": {
-        "knock-mcq-34": "本句指「非正式：令某人極度驚喜／震撼」。",
-        "knock-mcq-33": "「非正式：表現極好，令人驚艷」與本句語境不同。",
-        "knock-mcq-35": "「非正式：儘管去做／請便」與本句語境不同。",
-        "knock-mcq-32": "「機會來臨／出現」與本句語境不同。",
-        "knock-mcq-36": "「拼命做到把自己累壞」與本句語境不同。",
-        "knock-mcq-31": "「說到好運後敲木頭，希望好運繼續」與本句語境不同。"
+        "knock-mcq-34": "本句的「knocked my socks off」指「非正式：令某人極度驚喜／震撼」。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-34"
     },
@@ -3023,11 +2739,9 @@ export default {
       "masked": "This dessert will ____.",
       "options": [
         "knock-mcq-34",
-        "knock-mcq-33",
-        "knock-mcq-35",
+        "knock-mcq-39",
         "knock-mcq-32",
-        "knock-mcq-36",
-        "knock-mcq-31"
+        "knock-mcq-01"
       ],
       "explanation": "本句的「knock your socks off」指「非正式：令某人極度驚喜／震撼」。",
       "sentenceIndex": 71,
@@ -3036,12 +2750,10 @@ export default {
         "knock your socks off"
       ],
       "optionReasons": {
-        "knock-mcq-34": "本句指「非正式：令某人極度驚喜／震撼」。",
-        "knock-mcq-33": "「非正式：表現極好，令人驚艷」與本句語境不同。",
-        "knock-mcq-35": "「非正式：儘管去做／請便」與本句語境不同。",
-        "knock-mcq-32": "「機會來臨／出現」與本句語境不同。",
-        "knock-mcq-36": "「拼命做到把自己累壞」與本句語境不同。",
-        "knock-mcq-31": "「說到好運後敲木頭，希望好運繼續」與本句語境不同。"
+        "knock-mcq-34": "本句的「knock your socks off」指「非正式：令某人極度驚喜／震撼」。",
+        "knock-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-34"
     },
@@ -3053,11 +2765,9 @@ export default {
       "masked": "Can I use the computer?” “Sure, ____.",
       "options": [
         "knock-mcq-35",
-        "knock-mcq-34",
-        "knock-mcq-36",
-        "knock-mcq-33",
-        "knock-mcq-37",
-        "knock-mcq-32"
+        "knock-mcq-13",
+        "knock-mcq-30",
+        "knock-mcq-29"
       ],
       "explanation": "本句的「knock yourself out」指「非正式：儘管去做／請便」。",
       "sentenceIndex": 72,
@@ -3066,12 +2776,10 @@ export default {
         "knock yourself out"
       ],
       "optionReasons": {
-        "knock-mcq-35": "本句指「非正式：儘管去做／請便」。",
-        "knock-mcq-34": "「非正式：令某人極度驚喜／震撼」與本句語境不同。",
-        "knock-mcq-36": "「拼命做到把自己累壞」與本句語境不同。",
-        "knock-mcq-33": "「非正式：表現極好，令人驚艷」與本句語境不同。",
-        "knock-mcq-37": "「非正式：快速、簡單地拼湊／做成某物」與本句語境不同。",
-        "knock-mcq-32": "「機會來臨／出現」與本句語境不同。"
+        "knock-mcq-35": "本句的「knock yourself out」指「非正式：儘管去做／請便」。",
+        "knock-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-35"
     },
@@ -3083,11 +2791,9 @@ export default {
       "masked": "If you want to reorganize everything, ____.",
       "options": [
         "knock-mcq-35",
-        "knock-mcq-34",
-        "knock-mcq-36",
-        "knock-mcq-33",
-        "knock-mcq-37",
-        "knock-mcq-32"
+        "knock-mcq-07",
+        "knock-mcq-14",
+        "knock-mcq-25"
       ],
       "explanation": "本句的「knock yourself out」指「非正式：儘管去做／請便」。",
       "sentenceIndex": 73,
@@ -3096,12 +2802,10 @@ export default {
         "knock yourself out"
       ],
       "optionReasons": {
-        "knock-mcq-35": "本句指「非正式：儘管去做／請便」。",
-        "knock-mcq-34": "「非正式：令某人極度驚喜／震撼」與本句語境不同。",
-        "knock-mcq-36": "「拼命做到把自己累壞」與本句語境不同。",
-        "knock-mcq-33": "「非正式：表現極好，令人驚艷」與本句語境不同。",
-        "knock-mcq-37": "「非正式：快速、簡單地拼湊／做成某物」與本句語境不同。",
-        "knock-mcq-32": "「機會來臨／出現」與本句語境不同。"
+        "knock-mcq-35": "本句的「knock yourself out」指「非正式：儘管去做／請便」。",
+        "knock-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-35"
     },
@@ -3113,11 +2817,9 @@ export default {
       "masked": "Don’t ____ trying to finish everything today.",
       "options": [
         "knock-mcq-36",
-        "knock-mcq-35",
-        "knock-mcq-37",
-        "knock-mcq-34",
-        "knock-mcq-38",
-        "knock-mcq-33"
+        "knock-mcq-02",
+        "knock-mcq-32",
+        "knock-mcq-08"
       ],
       "explanation": "本句的「knock yourself out」指「拼命做到把自己累壞」。",
       "sentenceIndex": 74,
@@ -3126,12 +2828,10 @@ export default {
         "knock yourself out"
       ],
       "optionReasons": {
-        "knock-mcq-36": "本句指「拼命做到把自己累壞」。",
-        "knock-mcq-35": "「非正式：儘管去做／請便」與本句語境不同。",
-        "knock-mcq-37": "「非正式：快速、簡單地拼湊／做成某物」與本句語境不同。",
-        "knock-mcq-34": "「非正式：令某人極度驚喜／震撼」與本句語境不同。",
-        "knock-mcq-38": "「整頓、改善，使某人／某事進入良好狀態」與本句語境不同。",
-        "knock-mcq-33": "「非正式：表現極好，令人驚艷」與本句語境不同。"
+        "knock-mcq-36": "本句的「knock yourself out」指「拼命做到把自己累壞」。",
+        "knock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-36"
     },
@@ -3143,11 +2843,9 @@ export default {
       "masked": "She ____ preparing for the event.",
       "options": [
         "knock-mcq-36",
-        "knock-mcq-35",
-        "knock-mcq-37",
-        "knock-mcq-34",
-        "knock-mcq-38",
-        "knock-mcq-33"
+        "knock-mcq-05",
+        "knock-mcq-12",
+        "knock-mcq-09"
       ],
       "explanation": "本句的「knocked herself out」指「拼命做到把自己累壞」。",
       "sentenceIndex": 75,
@@ -3156,12 +2854,10 @@ export default {
         "knocked herself out"
       ],
       "optionReasons": {
-        "knock-mcq-36": "本句指「拼命做到把自己累壞」。",
-        "knock-mcq-35": "「非正式：儘管去做／請便」與本句語境不同。",
-        "knock-mcq-37": "「非正式：快速、簡單地拼湊／做成某物」與本句語境不同。",
-        "knock-mcq-34": "「非正式：令某人極度驚喜／震撼」與本句語境不同。",
-        "knock-mcq-38": "「整頓、改善，使某人／某事進入良好狀態」與本句語境不同。",
-        "knock-mcq-33": "「非正式：表現極好，令人驚艷」與本句語境不同。"
+        "knock-mcq-36": "本句的「knocked herself out」指「拼命做到把自己累壞」。",
+        "knock-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-36"
     },
@@ -3173,11 +2869,9 @@ export default {
       "masked": "I ____ a quick meal.",
       "options": [
         "knock-mcq-37",
-        "knock-mcq-36",
-        "knock-mcq-38",
-        "knock-mcq-35",
-        "knock-mcq-39",
-        "knock-mcq-34"
+        "knock-mcq-31",
+        "knock-mcq-21",
+        "knock-mcq-38"
       ],
       "explanation": "本句的「knocked together」指「非正式：快速、簡單地拼湊／做成某物」。",
       "sentenceIndex": 76,
@@ -3186,12 +2880,10 @@ export default {
         "knocked together"
       ],
       "optionReasons": {
-        "knock-mcq-37": "本句指「非正式：快速、簡單地拼湊／做成某物」。",
-        "knock-mcq-36": "「拼命做到把自己累壞」與本句語境不同。",
-        "knock-mcq-38": "「整頓、改善，使某人／某事進入良好狀態」與本句語境不同。",
-        "knock-mcq-35": "「非正式：儘管去做／請便」與本句語境不同。",
-        "knock-mcq-39": "「反覆的敲擊／撞擊聲」與本句語境不同。",
-        "knock-mcq-34": "「非正式：令某人極度驚喜／震撼」與本句語境不同。"
+        "knock-mcq-37": "本句的「knocked together」指「非正式：快速、簡單地拼湊／做成某物」。",
+        "knock-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-37"
     },
@@ -3203,11 +2895,9 @@ export default {
       "masked": "They ____ a temporary shelter.",
       "options": [
         "knock-mcq-37",
-        "knock-mcq-36",
-        "knock-mcq-38",
-        "knock-mcq-35",
-        "knock-mcq-39",
-        "knock-mcq-34"
+        "knock-mcq-14",
+        "knock-mcq-03",
+        "knock-mcq-08"
       ],
       "explanation": "本句的「knocked together」指「非正式：快速、簡單地拼湊／做成某物」。",
       "sentenceIndex": 77,
@@ -3216,12 +2906,10 @@ export default {
         "knocked together"
       ],
       "optionReasons": {
-        "knock-mcq-37": "本句指「非正式：快速、簡單地拼湊／做成某物」。",
-        "knock-mcq-36": "「拼命做到把自己累壞」與本句語境不同。",
-        "knock-mcq-38": "「整頓、改善，使某人／某事進入良好狀態」與本句語境不同。",
-        "knock-mcq-35": "「非正式：儘管去做／請便」與本句語境不同。",
-        "knock-mcq-39": "「反覆的敲擊／撞擊聲」與本句語境不同。",
-        "knock-mcq-34": "「非正式：令某人極度驚喜／震撼」與本句語境不同。"
+        "knock-mcq-37": "本句的「knocked together」指「非正式：快速、簡單地拼湊／做成某物」。",
+        "knock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-37"
     },
@@ -3233,11 +2921,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "knock-mcq-38",
-        "knock-mcq-37",
-        "knock-mcq-39",
-        "knock-mcq-36",
-        "knock-mcq-35",
-        "knock-mcq-34"
+        "knock-mcq-29",
+        "knock-mcq-32",
+        "knock-mcq-25"
       ],
       "explanation": "本句的「knock this plan into shape」指「整頓、改善，使某人／某事進入良好狀態」。",
       "sentenceIndex": 78,
@@ -3246,12 +2932,10 @@ export default {
         "knock this plan into shape"
       ],
       "optionReasons": {
-        "knock-mcq-38": "本句指「整頓、改善，使某人／某事進入良好狀態」。",
-        "knock-mcq-37": "「非正式：快速、簡單地拼湊／做成某物」與本句語境不同。",
-        "knock-mcq-39": "「反覆的敲擊／撞擊聲」與本句語境不同。",
-        "knock-mcq-36": "「拼命做到把自己累壞」與本句語境不同。",
-        "knock-mcq-35": "「非正式：儘管去做／請便」與本句語境不同。",
-        "knock-mcq-34": "「非正式：令某人極度驚喜／震撼」與本句語境不同。"
+        "knock-mcq-38": "本句的「knock this plan into shape」指「整頓、改善，使某人／某事進入良好狀態」。",
+        "knock-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-38"
     },
@@ -3263,11 +2947,9 @@ export default {
       "masked": "A few weeks of training should ____.",
       "options": [
         "knock-mcq-38",
-        "knock-mcq-37",
-        "knock-mcq-39",
-        "knock-mcq-36",
-        "knock-mcq-35",
-        "knock-mcq-34"
+        "knock-mcq-08",
+        "knock-mcq-14",
+        "knock-mcq-17"
       ],
       "explanation": "本句的「knock the team into shape」指「整頓、改善，使某人／某事進入良好狀態」。",
       "sentenceIndex": 79,
@@ -3276,12 +2958,10 @@ export default {
         "knock the team into shape"
       ],
       "optionReasons": {
-        "knock-mcq-38": "本句指「整頓、改善，使某人／某事進入良好狀態」。",
-        "knock-mcq-37": "「非正式：快速、簡單地拼湊／做成某物」與本句語境不同。",
-        "knock-mcq-39": "「反覆的敲擊／撞擊聲」與本句語境不同。",
-        "knock-mcq-36": "「拼命做到把自己累壞」與本句語境不同。",
-        "knock-mcq-35": "「非正式：儘管去做／請便」與本句語境不同。",
-        "knock-mcq-34": "「非正式：令某人極度驚喜／震撼」與本句語境不同。"
+        "knock-mcq-38": "本句的「knock the team into shape」指「整頓、改善，使某人／某事進入良好狀態」。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-38"
     },
@@ -3293,11 +2973,9 @@ export default {
       "masked": "I heard ____ upstairs.",
       "options": [
         "knock-mcq-39",
-        "knock-mcq-38",
-        "knock-mcq-37",
-        "knock-mcq-36",
-        "knock-mcq-35",
-        "knock-mcq-34"
+        "knock-mcq-14",
+        "knock-mcq-33",
+        "knock-mcq-21"
       ],
       "explanation": "本句的「knocking」指「反覆的敲擊／撞擊聲」。",
       "sentenceIndex": 80,
@@ -3306,12 +2984,10 @@ export default {
         "knocking"
       ],
       "optionReasons": {
-        "knock-mcq-39": "本句指「反覆的敲擊／撞擊聲」。",
-        "knock-mcq-38": "「整頓、改善，使某人／某事進入良好狀態」與本句語境不同。",
-        "knock-mcq-37": "「非正式：快速、簡單地拼湊／做成某物」與本句語境不同。",
-        "knock-mcq-36": "「拼命做到把自己累壞」與本句語境不同。",
-        "knock-mcq-35": "「非正式：儘管去做／請便」與本句語境不同。",
-        "knock-mcq-34": "「非正式：令某人極度驚喜／震撼」與本句語境不同。"
+        "knock-mcq-39": "本句的「knocking」指「反覆的敲擊／撞擊聲」。",
+        "knock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-39"
     },
@@ -3323,11 +2999,9 @@ export default {
       "masked": "There was a strange ____ from the engine.",
       "options": [
         "knock-mcq-39",
-        "knock-mcq-38",
-        "knock-mcq-37",
-        "knock-mcq-36",
-        "knock-mcq-35",
-        "knock-mcq-34"
+        "knock-mcq-25",
+        "knock-mcq-08",
+        "knock-mcq-17"
       ],
       "explanation": "本句的「knocking noise」指「反覆的敲擊／撞擊聲」。",
       "sentenceIndex": 81,
@@ -3336,12 +3010,10 @@ export default {
         "knocking noise"
       ],
       "optionReasons": {
-        "knock-mcq-39": "本句指「反覆的敲擊／撞擊聲」。",
-        "knock-mcq-38": "「整頓、改善，使某人／某事進入良好狀態」與本句語境不同。",
-        "knock-mcq-37": "「非正式：快速、簡單地拼湊／做成某物」與本句語境不同。",
-        "knock-mcq-36": "「拼命做到把自己累壞」與本句語境不同。",
-        "knock-mcq-35": "「非正式：儘管去做／請便」與本句語境不同。",
-        "knock-mcq-34": "「非正式：令某人極度驚喜／震撼」與本句語境不同。"
+        "knock-mcq-39": "本句的「knocking noise」指「反覆的敲擊／撞擊聲」。",
+        "knock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knock-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knock-mcq-39"
     }
@@ -3353,5 +3025,7 @@ export default {
     "sha256": "683a606dbaacc23c49b0c1221a141560ff7e38c9ce4d3a4611328b937212af68",
     "pages": 23
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

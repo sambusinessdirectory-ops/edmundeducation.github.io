@@ -1508,11 +1508,9 @@ export default {
       "masked": "We used ____ cookies.",
       "options": [
         "store-mcq-55",
-        "store-mcq-54",
-        "store-mcq-56",
-        "store-mcq-53",
-        "store-mcq-57",
-        "store-mcq-52"
+        "store-mcq-70",
+        "store-mcq-61",
+        "store-mcq-72"
       ],
       "explanation": "本句的「store-bought」指「從商店購買、不是自製的」。",
       "sentenceIndex": 0,
@@ -1521,12 +1519,10 @@ export default {
         "store-bought"
       ],
       "optionReasons": {
-        "store-mcq-55": "本句指「從商店購買、不是自製的」。",
-        "store-mcq-54": "「在實體店內進行／提供的」與本句語境不同。",
-        "store-mcq-56": "「零售商自己推出的自有品牌」與本句語境不同。",
-        "store-mcq-53": "「負責管理一間店舖的人」與本句語境不同。",
-        "store-mcq-57": "「只可在該商店使用的退款／購物額」與本句語境不同。",
-        "store-mcq-52": "「尤其美式：商店店員」與本句語境不同。"
+        "store-mcq-55": "本句的「store-bought」指「從商店購買、不是自製的」。",
+        "store-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-55"
     },
@@ -1538,11 +1534,9 @@ export default {
       "masked": "The ____ brand is cheaper.",
       "options": [
         "store-mcq-56",
-        "store-mcq-55",
-        "store-mcq-57",
-        "store-mcq-54",
-        "store-mcq-58",
-        "store-mcq-53"
+        "store-mcq-88",
+        "store-mcq-72",
+        "store-mcq-60"
       ],
       "explanation": "本句的「store」指「零售商自己推出的自有品牌」。",
       "sentenceIndex": 1,
@@ -1551,12 +1545,10 @@ export default {
         "store"
       ],
       "optionReasons": {
-        "store-mcq-56": "本句指「零售商自己推出的自有品牌」。",
-        "store-mcq-55": "「從商店購買、不是自製的」與本句語境不同。",
-        "store-mcq-57": "「只可在該商店使用的退款／購物額」與本句語境不同。",
-        "store-mcq-54": "「在實體店內進行／提供的」與本句語境不同。",
-        "store-mcq-58": "「與某特定零售商相關的信用／會員卡」與本句語境不同。",
-        "store-mcq-53": "「負責管理一間店舖的人」與本句語境不同。"
+        "store-mcq-56": "本句的「store」指「零售商自己推出的自有品牌」。",
+        "store-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-56"
     },
@@ -1568,11 +1560,9 @@ export default {
       "masked": "They offered me ____ credit instead of a refund.",
       "options": [
         "store-mcq-57",
-        "store-mcq-56",
-        "store-mcq-58",
-        "store-mcq-55",
-        "store-mcq-59",
-        "store-mcq-54"
+        "store-mcq-76",
+        "store-mcq-71",
+        "store-mcq-61"
       ],
       "explanation": "本句的「store」指「只可在該商店使用的退款／購物額」。",
       "sentenceIndex": 2,
@@ -1581,12 +1571,10 @@ export default {
         "store"
       ],
       "optionReasons": {
-        "store-mcq-57": "本句指「只可在該商店使用的退款／購物額」。",
-        "store-mcq-56": "「零售商自己推出的自有品牌」與本句語境不同。",
-        "store-mcq-58": "「與某特定零售商相關的信用／會員卡」與本句語境不同。",
-        "store-mcq-55": "「從商店購買、不是自製的」與本句語境不同。",
-        "store-mcq-59": "「商店營業時間」與本句語境不同。",
-        "store-mcq-54": "「在實體店內進行／提供的」與本句語境不同。"
+        "store-mcq-57": "本句的「store」指「只可在該商店使用的退款／購物額」。",
+        "store-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-57"
     },
@@ -1598,11 +1586,9 @@ export default {
       "masked": "The body has a limited ____ of energy.",
       "options": [
         "store-mcq-60",
-        "store-mcq-59",
-        "store-mcq-61",
-        "store-mcq-58",
-        "store-mcq-62",
-        "store-mcq-57"
+        "store-mcq-57",
+        "store-mcq-81",
+        "store-mcq-56"
       ],
       "explanation": "本句的「store」指「為將來保存的一批資源／儲備」。",
       "sentenceIndex": 3,
@@ -1611,12 +1597,10 @@ export default {
         "store"
       ],
       "optionReasons": {
-        "store-mcq-60": "本句指「為將來保存的一批資源／儲備」。",
-        "store-mcq-59": "「商店營業時間」與本句語境不同。",
-        "store-mcq-61": "「大量累積的知識儲備」與本句語境不同。",
-        "store-mcq-58": "「與某特定零售商相關的信用／會員卡」與本句語境不同。",
-        "store-mcq-62": "「大量保留的記憶」與本句語境不同。",
-        "store-mcq-57": "「只可在該商店使用的退款／購物額」與本句語境不同。"
+        "store-mcq-60": "本句的「store」指「為將來保存的一批資源／儲備」。",
+        "store-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-81": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-60"
     },
@@ -1628,11 +1612,9 @@ export default {
       "masked": "The reservoir provides a ____ of water.",
       "options": [
         "store-mcq-60",
-        "store-mcq-59",
-        "store-mcq-61",
-        "store-mcq-58",
-        "store-mcq-62",
-        "store-mcq-57"
+        "store-mcq-88",
+        "store-mcq-57",
+        "store-mcq-83"
       ],
       "explanation": "本句的「store」指「為將來保存的一批資源／儲備」。",
       "sentenceIndex": 4,
@@ -1641,12 +1623,10 @@ export default {
         "store"
       ],
       "optionReasons": {
-        "store-mcq-60": "本句指「為將來保存的一批資源／儲備」。",
-        "store-mcq-59": "「商店營業時間」與本句語境不同。",
-        "store-mcq-61": "「大量累積的知識儲備」與本句語境不同。",
-        "store-mcq-58": "「與某特定零售商相關的信用／會員卡」與本句語境不同。",
-        "store-mcq-62": "「大量保留的記憶」與本句語境不同。",
-        "store-mcq-57": "「只可在該商店使用的退款／購物額」與本句語境不同。"
+        "store-mcq-60": "本句的「store」指「為將來保存的一批資源／儲備」。",
+        "store-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-60"
     },
@@ -1658,11 +1638,9 @@ export default {
       "masked": "She has an extraordinary ____ of knowledge.",
       "options": [
         "store-mcq-61",
-        "store-mcq-60",
-        "store-mcq-62",
-        "store-mcq-59",
-        "store-mcq-63",
-        "store-mcq-58"
+        "store-mcq-71",
+        "store-mcq-24",
+        "store-mcq-63"
       ],
       "explanation": "本句的「store」指「大量累積的知識儲備」。",
       "sentenceIndex": 5,
@@ -1671,12 +1649,10 @@ export default {
         "store"
       ],
       "optionReasons": {
-        "store-mcq-61": "本句指「大量累積的知識儲備」。",
-        "store-mcq-60": "「為將來保存的一批資源／儲備」與本句語境不同。",
-        "store-mcq-62": "「大量保留的記憶」與本句語境不同。",
-        "store-mcq-59": "「商店營業時間」與本句語境不同。",
-        "store-mcq-63": "「能夠把價值保存至未來的資產／工具」與本句語境不同。",
-        "store-mcq-58": "「與某特定零售商相關的信用／會員卡」與本句語境不同。"
+        "store-mcq-61": "本句的「store」指「大量累積的知識儲備」。",
+        "store-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-61"
     },
@@ -1688,11 +1664,9 @@ export default {
       "masked": "The diary became a ____ of family memories.",
       "options": [
         "store-mcq-62",
-        "store-mcq-61",
-        "store-mcq-63",
-        "store-mcq-60",
-        "store-mcq-64",
-        "store-mcq-59"
+        "store-mcq-71",
+        "store-mcq-74",
+        "store-mcq-83"
       ],
       "explanation": "本句的「store」指「大量保留的記憶」。",
       "sentenceIndex": 6,
@@ -1701,12 +1675,10 @@ export default {
         "store"
       ],
       "optionReasons": {
-        "store-mcq-62": "本句指「大量保留的記憶」。",
-        "store-mcq-61": "「大量累積的知識儲備」與本句語境不同。",
-        "store-mcq-63": "「能夠把價值保存至未來的資產／工具」與本句語境不同。",
-        "store-mcq-60": "「為將來保存的一批資源／儲備」與本句語境不同。",
-        "store-mcq-64": "「可供之後釋放／利用的能量儲備」與本句語境不同。",
-        "store-mcq-59": "「商店營業時間」與本句語境不同。"
+        "store-mcq-62": "本句的「store」指「大量保留的記憶」。",
+        "store-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-62"
     },
@@ -1718,11 +1690,9 @@ export default {
       "masked": "Gold has historically been used as a ____ of value.",
       "options": [
         "store-mcq-63",
-        "store-mcq-62",
-        "store-mcq-64",
-        "store-mcq-61",
-        "store-mcq-65",
-        "store-mcq-60"
+        "store-mcq-57",
+        "store-mcq-74",
+        "store-mcq-82"
       ],
       "explanation": "本句的「store」指「能夠把價值保存至未來的資產／工具」。",
       "sentenceIndex": 7,
@@ -1731,12 +1701,10 @@ export default {
         "store"
       ],
       "optionReasons": {
-        "store-mcq-63": "本句指「能夠把價值保存至未來的資產／工具」。",
-        "store-mcq-62": "「大量保留的記憶」與本句語境不同。",
-        "store-mcq-64": "「可供之後釋放／利用的能量儲備」與本句語境不同。",
-        "store-mcq-61": "「大量累積的知識儲備」與本句語境不同。",
-        "store-mcq-65": "「尤其正式／軍事／航海：儲備物資、補給品」與本句語境不同。",
-        "store-mcq-60": "「為將來保存的一批資源／儲備」與本句語境不同。"
+        "store-mcq-63": "本句的「store」指「能夠把價值保存至未來的資產／工具」。",
+        "store-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-82": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-63"
     },
@@ -1748,11 +1716,9 @@ export default {
       "masked": "The furniture is currently in ____.",
       "options": [
         "store-mcq-70",
-        "store-mcq-99",
-        "store-mcq-101",
-        "store-mcq-98",
-        "store-mcq-102",
-        "store-mcq-97"
+        "store-mcq-88",
+        "store-mcq-61",
+        "store-mcq-55"
       ],
       "explanation": "本句的「storage」指「把物品保存起來的行為／安排」。",
       "sentenceIndex": 13,
@@ -1761,12 +1727,10 @@ export default {
         "storage"
       ],
       "optionReasons": {
-        "store-mcq-70": "本句指「把物品保存起來的行為／安排」。",
-        "store-mcq-99": "「專門保存很少存取資料的低成本冷儲存」與本句語境不同。",
-        "store-mcq-101": "「先儲存資料再轉送至下一站的通訊方式」與本句語境不同。",
-        "store-mcq-98": "「電腦中非主要記憶體的持久儲存」與本句語境不同。",
-        "store-mcq-102": "「與網店相對的實體零售店」與本句語境不同。",
-        "store-mcq-97": "「大容量數碼儲存」與本句語境不同。"
+        "store-mcq-70": "本句的「storage」指「把物品保存起來的行為／安排」。",
+        "store-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-70"
     },
@@ -1778,11 +1742,9 @@ export default {
       "masked": "We need more ____ in the kitchen.",
       "options": [
         "store-mcq-24",
-        "store-mcq-99",
-        "store-mcq-101",
-        "store-mcq-98",
-        "store-mcq-102",
-        "store-mcq-97"
+        "store-mcq-62",
+        "store-mcq-56",
+        "store-mcq-88"
       ],
       "explanation": "本句的「storage」指「可用來存放實物或數碼資料的空間」。",
       "sentenceIndex": 14,
@@ -1791,12 +1753,10 @@ export default {
         "storage"
       ],
       "optionReasons": {
-        "store-mcq-24": "本句指「可用來存放實物或數碼資料的空間」。",
-        "store-mcq-99": "「專門保存很少存取資料的低成本冷儲存」與本句語境不同。",
-        "store-mcq-101": "「先儲存資料再轉送至下一站的通訊方式」與本句語境不同。",
-        "store-mcq-98": "「電腦中非主要記憶體的持久儲存」與本句語境不同。",
-        "store-mcq-102": "「與網店相對的實體零售店」與本句語境不同。",
-        "store-mcq-97": "「大容量數碼儲存」與本句語境不同。"
+        "store-mcq-24": "本句的「storage」指「可用來存放實物或數碼資料的空間」。",
+        "store-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-88": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-24"
     },
@@ -1808,11 +1768,9 @@ export default {
       "masked": "They put their furniture in ____ while moving.",
       "options": [
         "store-mcq-71",
-        "store-mcq-70",
-        "store-mcq-72",
-        "store-mcq-69",
-        "store-mcq-73",
-        "store-mcq-68"
+        "store-mcq-83",
+        "store-mcq-86",
+        "store-mcq-81"
       ],
       "explanation": "本句的「storage」指「把物品存倉／寄存」。",
       "sentenceIndex": 15,
@@ -1821,12 +1779,10 @@ export default {
         "storage"
       ],
       "optionReasons": {
-        "store-mcq-71": "本句指「把物品存倉／寄存」。",
-        "store-mcq-70": "「把物品保存起來的行為／安排」與本句語境不同。",
-        "store-mcq-72": "「正存放在倉庫／寄存中」與本句語境不同。",
-        "store-mcq-69": "「用作存放用品的儲物室」與本句語境不同。",
-        "store-mcq-73": "「出租儲物單位／收納單元，依語境而定」與本句語境不同。",
-        "store-mcq-68": "「大量知識／資訊的寶庫」與本句語境不同。"
+        "store-mcq-71": "本句的「storage」指「把物品存倉／寄存」。",
+        "store-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-81": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-71"
     },
@@ -1838,11 +1794,9 @@ export default {
       "masked": "Most of the collection is in ____.",
       "options": [
         "store-mcq-72",
-        "store-mcq-71",
-        "store-mcq-73",
-        "store-mcq-70",
-        "store-mcq-74",
-        "store-mcq-69"
+        "store-mcq-62",
+        "store-mcq-81",
+        "store-mcq-85"
       ],
       "explanation": "本句的「storage」指「正存放在倉庫／寄存中」。",
       "sentenceIndex": 16,
@@ -1851,12 +1805,10 @@ export default {
         "storage"
       ],
       "optionReasons": {
-        "store-mcq-72": "本句指「正存放在倉庫／寄存中」。",
-        "store-mcq-71": "「把物品存倉／寄存」與本句語境不同。",
-        "store-mcq-73": "「出租儲物單位／收納單元，依語境而定」與本句語境不同。",
-        "store-mcq-70": "「把物品保存起來的行為／安排」與本句語境不同。",
-        "store-mcq-74": "「出租私人儲物空間的迷你倉服務」與本句語境不同。",
-        "store-mcq-69": "「用作存放用品的儲物室」與本句語境不同。"
+        "store-mcq-72": "本句的「storage」指「正存放在倉庫／寄存中」。",
+        "store-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-81": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-72"
     },
@@ -1868,11 +1820,9 @@ export default {
       "masked": "They rented a self-____ unit.",
       "options": [
         "store-mcq-74",
-        "store-mcq-73",
-        "store-mcq-75",
-        "store-mcq-72",
-        "store-mcq-76",
-        "store-mcq-71"
+        "store-mcq-70",
+        "store-mcq-83",
+        "store-mcq-55"
       ],
       "explanation": "本句的「storage」指「出租私人儲物空間的迷你倉服務」。",
       "sentenceIndex": 17,
@@ -1881,12 +1831,10 @@ export default {
         "storage"
       ],
       "optionReasons": {
-        "store-mcq-74": "本句指「出租私人儲物空間的迷你倉服務」。",
-        "store-mcq-73": "「出租儲物單位／收納單元，依語境而定」與本句語境不同。",
-        "store-mcq-75": "「專門用來儲存物品／材料的設施」與本句語境不同。",
-        "store-mcq-72": "「正存放在倉庫／寄存中」與本句語境不同。",
-        "store-mcq-76": "「低溫冷藏保存」與本句語境不同。",
-        "store-mcq-71": "「把物品存倉／寄存」與本句語境不同。"
+        "store-mcq-74": "本句的「storage」指「出租私人儲物空間的迷你倉服務」。",
+        "store-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-74"
     },
@@ -1898,11 +1846,9 @@ export default {
       "masked": "The fruit must be kept in cold ____.",
       "options": [
         "store-mcq-76",
-        "store-mcq-98",
-        "store-mcq-100",
-        "store-mcq-97",
-        "store-mcq-101",
-        "store-mcq-96"
+        "store-mcq-61",
+        "store-mcq-56",
+        "store-mcq-83"
       ],
       "explanation": "本句的「storage」指「低溫冷藏保存」。",
       "sentenceIndex": 18,
@@ -1911,12 +1857,10 @@ export default {
         "storage"
       ],
       "optionReasons": {
-        "store-mcq-76": "本句指「低溫冷藏保存」。",
-        "store-mcq-98": "「電腦中非主要記憶體的持久儲存」與本句語境不同。",
-        "store-mcq-100": "「供高頻存取資料使用的高速儲存層」與本句語境不同。",
-        "store-mcq-97": "「大容量數碼儲存」與本句語境不同。",
-        "store-mcq-101": "「先儲存資料再轉送至下一站的通訊方式」與本句語境不同。",
-        "store-mcq-96": "「用來保存數碼資訊的儲存媒介」與本句語境不同。"
+        "store-mcq-76": "本句的「storage」指「低溫冷藏保存」。",
+        "store-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-76"
     },
@@ -1928,11 +1872,9 @@ export default {
       "masked": "We were ____ up memories for the future.",
       "options": [
         "store-mcq-81",
-        "store-mcq-80",
-        "store-mcq-82",
-        "store-mcq-79",
-        "store-mcq-83",
-        "store-mcq-78"
+        "store-mcq-88",
+        "store-mcq-70",
+        "store-mcq-55"
       ],
       "explanation": "本句的「storing」指「累積／珍藏回憶」。",
       "sentenceIndex": 21,
@@ -1941,12 +1883,10 @@ export default {
         "storing"
       ],
       "optionReasons": {
-        "store-mcq-81": "本句指「累積／珍藏回憶」。",
-        "store-mcq-80": "「逐漸積存某物供日後使用」與本句語境不同。",
-        "store-mcq-82": "「現在的做法為日後累積／埋下問題」與本句語境不同。",
-        "store-mcq-79": "「以安全方式保存某物」與本句語境不同。",
-        "store-mcq-83": "「長期積壓怒氣／怨恨」與本句語境不同。",
-        "store-mcq-78": "「暫時儲存／暫存」與本句語境不同。"
+        "store-mcq-81": "本句的「storing」指「累積／珍藏回憶」。",
+        "store-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-81"
     },
@@ -1958,11 +1898,9 @@ export default {
       "masked": "Ignoring the issue will only ____ up trouble for later.",
       "options": [
         "store-mcq-82",
-        "store-mcq-81",
-        "store-mcq-83",
-        "store-mcq-80",
-        "store-mcq-84",
-        "store-mcq-79"
+        "store-mcq-57",
+        "store-mcq-88",
+        "store-mcq-76"
       ],
       "explanation": "本句的「store」指「現在的做法為日後累積／埋下問題」。",
       "sentenceIndex": 22,
@@ -1971,12 +1909,10 @@ export default {
         "store"
       ],
       "optionReasons": {
-        "store-mcq-82": "本句指「現在的做法為日後累積／埋下問題」。",
-        "store-mcq-81": "「累積／珍藏回憶」與本句語境不同。",
-        "store-mcq-83": "「長期積壓怒氣／怨恨」與本句語境不同。",
-        "store-mcq-80": "「逐漸積存某物供日後使用」與本句語境不同。",
-        "store-mcq-84": "「已準備著／將在未來發生」與本句語境不同。",
-        "store-mcq-79": "「以安全方式保存某物」與本句語境不同。"
+        "store-mcq-82": "本句的「store」指「現在的做法為日後累積／埋下問題」。",
+        "store-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-82"
     },
@@ -1988,11 +1924,9 @@ export default {
       "masked": "Delaying maintenance can ____ up problems.",
       "options": [
         "store-mcq-82",
-        "store-mcq-81",
-        "store-mcq-83",
-        "store-mcq-80",
-        "store-mcq-84",
-        "store-mcq-79"
+        "store-mcq-72",
+        "store-mcq-57",
+        "store-mcq-74"
       ],
       "explanation": "本句的「store」指「現在的做法為日後累積／埋下問題」。",
       "sentenceIndex": 23,
@@ -2001,12 +1935,10 @@ export default {
         "store"
       ],
       "optionReasons": {
-        "store-mcq-82": "本句指「現在的做法為日後累積／埋下問題」。",
-        "store-mcq-81": "「累積／珍藏回憶」與本句語境不同。",
-        "store-mcq-83": "「長期積壓怒氣／怨恨」與本句語境不同。",
-        "store-mcq-80": "「逐漸積存某物供日後使用」與本句語境不同。",
-        "store-mcq-84": "「已準備著／將在未來發生」與本句語境不同。",
-        "store-mcq-79": "「以安全方式保存某物」與本句語境不同。"
+        "store-mcq-82": "本句的「store」指「現在的做法為日後累積／埋下問題」。",
+        "store-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-82"
     },
@@ -2018,11 +1950,9 @@ export default {
       "masked": "He had ____ up years of resentment.",
       "options": [
         "store-mcq-83",
-        "store-mcq-82",
-        "store-mcq-84",
-        "store-mcq-81",
-        "store-mcq-85",
-        "store-mcq-80"
+        "store-mcq-63",
+        "store-mcq-24",
+        "store-mcq-56"
       ],
       "explanation": "本句的「stored」指「長期積壓怒氣／怨恨」。",
       "sentenceIndex": 24,
@@ -2031,12 +1961,10 @@ export default {
         "stored"
       ],
       "optionReasons": {
-        "store-mcq-83": "本句指「長期積壓怒氣／怨恨」。",
-        "store-mcq-82": "「現在的做法為日後累積／埋下問題」與本句語境不同。",
-        "store-mcq-84": "「已準備著／將在未來發生」與本句語境不同。",
-        "store-mcq-81": "「累積／珍藏回憶」與本句語境不同。",
-        "store-mcq-85": "「有某事／驚喜等在未來等著某人」與本句語境不同。",
-        "store-mcq-80": "「逐漸積存某物供日後使用」與本句語境不同。"
+        "store-mcq-83": "本句的「stored」指「長期積壓怒氣／怨恨」。",
+        "store-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-83"
     },
@@ -2048,11 +1976,9 @@ export default {
       "masked": "We have a surprise in ____ for you.",
       "options": [
         "store-mcq-85",
-        "store-mcq-84",
-        "store-mcq-86",
         "store-mcq-83",
-        "store-mcq-87",
-        "store-mcq-82"
+        "store-mcq-71",
+        "store-mcq-62"
       ],
       "explanation": "本句的「store」指「有某事／驚喜等在未來等著某人」。",
       "sentenceIndex": 25,
@@ -2061,12 +1987,10 @@ export default {
         "store"
       ],
       "optionReasons": {
-        "store-mcq-85": "本句指「有某事／驚喜等在未來等著某人」。",
-        "store-mcq-84": "「已準備著／將在未來發生」與本句語境不同。",
-        "store-mcq-86": "「未來將會發生的事情」與本句語境不同。",
-        "store-mcq-83": "「長期積壓怒氣／怨恨」與本句語境不同。",
-        "store-mcq-87": "「較正式：某事在未來等待著發生」與本句語境不同。",
-        "store-mcq-82": "「現在的做法為日後累積／埋下問題」與本句語境不同。"
+        "store-mcq-85": "本句的「store」指「有某事／驚喜等在未來等著某人」。",
+        "store-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-85"
     },
@@ -2078,11 +2002,9 @@ export default {
       "masked": "Nobody knew what the future had in ____.",
       "options": [
         "store-mcq-85",
-        "store-mcq-84",
-        "store-mcq-86",
-        "store-mcq-83",
-        "store-mcq-87",
-        "store-mcq-82"
+        "store-mcq-88",
+        "store-mcq-72",
+        "store-mcq-55"
       ],
       "explanation": "本句的「store」指「有某事／驚喜等在未來等著某人」。",
       "sentenceIndex": 26,
@@ -2091,12 +2013,10 @@ export default {
         "store"
       ],
       "optionReasons": {
-        "store-mcq-85": "本句指「有某事／驚喜等在未來等著某人」。",
-        "store-mcq-84": "「已準備著／將在未來發生」與本句語境不同。",
-        "store-mcq-86": "「未來將會發生的事情」與本句語境不同。",
-        "store-mcq-83": "「長期積壓怒氣／怨恨」與本句語境不同。",
-        "store-mcq-87": "「較正式：某事在未來等待著發生」與本句語境不同。",
-        "store-mcq-82": "「現在的做法為日後累積／埋下問題」與本句語境不同。"
+        "store-mcq-85": "本句的「store」指「有某事／驚喜等在未來等著某人」。",
+        "store-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-85"
     },
@@ -2108,11 +2028,9 @@ export default {
       "masked": "We do not know what the future has in ____.",
       "options": [
         "store-mcq-86",
-        "store-mcq-85",
-        "store-mcq-87",
-        "store-mcq-84",
-        "store-mcq-88",
-        "store-mcq-83"
+        "store-mcq-74",
+        "store-mcq-55",
+        "store-mcq-71"
       ],
       "explanation": "本句的「store」指「未來將會發生的事情」。",
       "sentenceIndex": 27,
@@ -2121,12 +2039,10 @@ export default {
         "store"
       ],
       "optionReasons": {
-        "store-mcq-86": "本句指「未來將會發生的事情」。",
-        "store-mcq-85": "「有某事／驚喜等在未來等著某人」與本句語境不同。",
-        "store-mcq-87": "「較正式：某事在未來等待著發生」與本句語境不同。",
-        "store-mcq-84": "「已準備著／將在未來發生」與本句語境不同。",
-        "store-mcq-88": "「非常重視／看重某事」與本句語境不同。",
-        "store-mcq-83": "「長期積壓怒氣／怨恨」與本句語境不同。"
+        "store-mcq-86": "本句的「store」指「未來將會發生的事情」。",
+        "store-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-86"
     },
@@ -2138,11 +2054,9 @@ export default {
       "masked": "She sets great ____ by honesty.",
       "options": [
         "store-mcq-88",
-        "store-mcq-87",
-        "store-mcq-89",
-        "store-mcq-86",
-        "store-mcq-90",
-        "store-mcq-85"
+        "store-mcq-85",
+        "store-mcq-56",
+        "store-mcq-60"
       ],
       "explanation": "本句的「store」指「非常重視／看重某事」。",
       "sentenceIndex": 29,
@@ -2151,12 +2065,10 @@ export default {
         "store"
       ],
       "optionReasons": {
-        "store-mcq-88": "本句指「非常重視／看重某事」。",
-        "store-mcq-87": "「較正式：某事在未來等待著發生」與本句語境不同。",
-        "store-mcq-89": "「極為重視」與本句語境不同。",
-        "store-mcq-86": "「未來將會發生的事情」與本句語境不同。",
-        "store-mcq-90": "「不太重視」與本句語境不同。",
-        "store-mcq-85": "「有某事／驚喜等在未來等著某人」與本句語境不同。"
+        "store-mcq-88": "本句的「store」指「非常重視／看重某事」。",
+        "store-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-88"
     },
@@ -2168,11 +2080,9 @@ export default {
       "masked": "He does not set much ____ by appearances.",
       "options": [
         "store-mcq-88",
-        "store-mcq-87",
-        "store-mcq-89",
-        "store-mcq-86",
-        "store-mcq-90",
-        "store-mcq-85"
+        "store-mcq-74",
+        "store-mcq-57",
+        "store-mcq-62"
       ],
       "explanation": "本句的「store」指「非常重視／看重某事」。",
       "sentenceIndex": 30,
@@ -2181,12 +2091,10 @@ export default {
         "store"
       ],
       "optionReasons": {
-        "store-mcq-88": "本句指「非常重視／看重某事」。",
-        "store-mcq-87": "「較正式：某事在未來等待著發生」與本句語境不同。",
-        "store-mcq-89": "「極為重視」與本句語境不同。",
-        "store-mcq-86": "「未來將會發生的事情」與本句語境不同。",
-        "store-mcq-90": "「不太重視」與本句語境不同。",
-        "store-mcq-85": "「有某事／驚喜等在未來等著某人」與本句語境不同。"
+        "store-mcq-88": "本句的「store」指「非常重視／看重某事」。",
+        "store-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-88"
     },
@@ -2198,11 +2106,9 @@ export default {
       "masked": "The material must be safely ____ for long periods.",
       "options": [
         "store-mcq-91",
-        "store-mcq-90",
-        "store-mcq-92",
-        "store-mcq-89",
-        "store-mcq-93",
-        "store-mcq-88"
+        "store-mcq-56",
+        "store-mcq-85",
+        "store-mcq-81"
       ],
       "explanation": "本句的「storable」指「可以被儲存／保存的」。",
       "sentenceIndex": 31,
@@ -2211,12 +2117,10 @@ export default {
         "storable"
       ],
       "optionReasons": {
-        "store-mcq-91": "本句指「可以被儲存／保存的」。",
-        "store-mcq-90": "「不太重視」與本句語境不同。",
-        "store-mcq-92": "「已被儲存、保存或存放的」與本句語境不同。",
-        "store-mcq-89": "「極為重視」與本句語境不同。",
-        "store-mcq-93": "「被保存、可在日後釋放的能量」與本句語境不同。",
-        "store-mcq-88": "「非常重視／看重某事」與本句語境不同。"
+        "store-mcq-91": "本句的「storable」指「可以被儲存／保存的」。",
+        "store-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "store-mcq-81": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "store-mcq-91"
     }
@@ -2228,5 +2132,7 @@ export default {
     "sha256": "55b084a1ec49144be65b59b87489f6ab20d923aef638b25124df066143558705",
     "pages": 82
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

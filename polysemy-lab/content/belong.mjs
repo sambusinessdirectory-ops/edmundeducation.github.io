@@ -384,11 +384,8 @@ export default {
       "masked": "This bag ____.",
       "options": [
         "belong-mcq-01",
-        "belong-mcq-02",
-        "belong-mcq-03",
-        "belong-mcq-04",
-        "belong-mcq-05",
-        "belong-mcq-06"
+        "belong-mcq-07",
+        "belong-mcq-05"
       ],
       "explanation": "本句的「belongs to me」指「某物為某人或某機構所有；屬於……」。",
       "sentenceIndex": 2,
@@ -397,12 +394,9 @@ export default {
         "belongs to me"
       ],
       "optionReasons": {
-        "belong-mcq-01": "本句指「某物為某人或某機構所有；屬於……」。",
-        "belong-mcq-02": "「是某群體、組織或團體的成員」與本句語境不同。",
-        "belong-mcq-03": "「在分類上應歸入某一類；屬於……」與本句語境不同。",
-        "belong-mcq-04": "「某物／某人最適合或理應位於某處」與本句語境不同。",
-        "belong-mcq-05": "「適合放在、出現在或歸入某個地方／語境」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。"
+        "belong-mcq-01": "本句的「belongs to me」指「某物為某人或某機構所有；屬於……」。",
+        "belong-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-01"
     },
@@ -414,11 +408,8 @@ export default {
       "masked": "The building ____.",
       "options": [
         "belong-mcq-01",
-        "belong-mcq-02",
-        "belong-mcq-03",
-        "belong-mcq-04",
-        "belong-mcq-05",
-        "belong-mcq-06"
+        "belong-mcq-08",
+        "belong-mcq-05"
       ],
       "explanation": "本句的「belongs to the university」指「某物為某人或某機構所有；屬於……」。",
       "sentenceIndex": 3,
@@ -427,12 +418,9 @@ export default {
         "belongs to the university"
       ],
       "optionReasons": {
-        "belong-mcq-01": "本句指「某物為某人或某機構所有；屬於……」。",
-        "belong-mcq-02": "「是某群體、組織或團體的成員」與本句語境不同。",
-        "belong-mcq-03": "「在分類上應歸入某一類；屬於……」與本句語境不同。",
-        "belong-mcq-04": "「某物／某人最適合或理應位於某處」與本句語境不同。",
-        "belong-mcq-05": "「適合放在、出現在或歸入某個地方／語境」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。"
+        "belong-mcq-01": "本句的「belongs to the university」指「某物為某人或某機構所有；屬於……」。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-01"
     },
@@ -444,11 +432,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "belong-mcq-02",
-        "belong-mcq-01",
-        "belong-mcq-03",
-        "belong-mcq-04",
-        "belong-mcq-05",
-        "belong-mcq-06"
+        "belong-mcq-12",
+        "belong-mcq-07",
+        "belong-mcq-05"
       ],
       "explanation": "本句的「belongs to a local sports club」指「是某群體、組織或團體的成員」。",
       "sentenceIndex": 4,
@@ -457,12 +443,10 @@ export default {
         "belongs to a local sports club"
       ],
       "optionReasons": {
-        "belong-mcq-02": "本句指「是某群體、組織或團體的成員」。",
-        "belong-mcq-01": "「某物為某人或某機構所有；屬於……」與本句語境不同。",
-        "belong-mcq-03": "「在分類上應歸入某一類；屬於……」與本句語境不同。",
-        "belong-mcq-04": "「某物／某人最適合或理應位於某處」與本句語境不同。",
-        "belong-mcq-05": "「適合放在、出現在或歸入某個地方／語境」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。"
+        "belong-mcq-02": "本句的「belongs to a local sports club」指「是某群體、組織或團體的成員」。",
+        "belong-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-02"
     },
@@ -474,11 +458,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "belong-mcq-02",
-        "belong-mcq-01",
-        "belong-mcq-03",
-        "belong-mcq-04",
+        "belong-mcq-11",
         "belong-mcq-05",
-        "belong-mcq-06"
+        "belong-mcq-07"
       ],
       "explanation": "本句的「belongs to several professional associations」指「是某群體、組織或團體的成員」。",
       "sentenceIndex": 5,
@@ -487,12 +469,10 @@ export default {
         "belongs to several professional associations"
       ],
       "optionReasons": {
-        "belong-mcq-02": "本句指「是某群體、組織或團體的成員」。",
-        "belong-mcq-01": "「某物為某人或某機構所有；屬於……」與本句語境不同。",
-        "belong-mcq-03": "「在分類上應歸入某一類；屬於……」與本句語境不同。",
-        "belong-mcq-04": "「某物／某人最適合或理應位於某處」與本句語境不同。",
-        "belong-mcq-05": "「適合放在、出現在或歸入某個地方／語境」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。"
+        "belong-mcq-02": "本句的「belongs to several professional associations」指「是某群體、組織或團體的成員」。",
+        "belong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-02"
     },
@@ -505,10 +485,7 @@ export default {
       "options": [
         "belong-mcq-03",
         "belong-mcq-02",
-        "belong-mcq-04",
-        "belong-mcq-01",
-        "belong-mcq-05",
-        "belong-mcq-06"
+        "belong-mcq-08"
       ],
       "explanation": "本句的「belong to the group of mammals」指「在分類上應歸入某一類；屬於……」。",
       "sentenceIndex": 6,
@@ -517,12 +494,9 @@ export default {
         "belong to the group of mammals"
       ],
       "optionReasons": {
-        "belong-mcq-03": "本句指「在分類上應歸入某一類；屬於……」。",
-        "belong-mcq-02": "「是某群體、組織或團體的成員」與本句語境不同。",
-        "belong-mcq-04": "「某物／某人最適合或理應位於某處」與本句語境不同。",
-        "belong-mcq-01": "「某物為某人或某機構所有；屬於……」與本句語境不同。",
-        "belong-mcq-05": "「適合放在、出現在或歸入某個地方／語境」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。"
+        "belong-mcq-03": "本句的「belong to the group of mammals」指「在分類上應歸入某一類；屬於……」。",
+        "belong-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-03"
     },
@@ -534,11 +508,7 @@ export default {
       "masked": "This example ____.",
       "options": [
         "belong-mcq-03",
-        "belong-mcq-02",
-        "belong-mcq-04",
-        "belong-mcq-01",
-        "belong-mcq-05",
-        "belong-mcq-06"
+        "belong-mcq-15"
       ],
       "explanation": "本句的「belongs to a different category」指「在分類上應歸入某一類；屬於……」。",
       "sentenceIndex": 7,
@@ -547,12 +517,8 @@ export default {
         "belongs to a different category"
       ],
       "optionReasons": {
-        "belong-mcq-03": "本句指「在分類上應歸入某一類；屬於……」。",
-        "belong-mcq-02": "「是某群體、組織或團體的成員」與本句語境不同。",
-        "belong-mcq-04": "「某物／某人最適合或理應位於某處」與本句語境不同。",
-        "belong-mcq-01": "「某物為某人或某機構所有；屬於……」與本句語境不同。",
-        "belong-mcq-05": "「適合放在、出現在或歸入某個地方／語境」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。"
+        "belong-mcq-03": "本句的「belongs to a different category」指「在分類上應歸入某一類；屬於……」。",
+        "belong-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-03"
     },
@@ -564,11 +530,8 @@ export default {
       "masked": "These books ____.",
       "options": [
         "belong-mcq-04",
-        "belong-mcq-03",
-        "belong-mcq-05",
-        "belong-mcq-02",
-        "belong-mcq-06",
-        "belong-mcq-01"
+        "belong-mcq-11",
+        "belong-mcq-07"
       ],
       "explanation": "本句的「belong on the top shelf」指「某物／某人最適合或理應位於某處」。",
       "sentenceIndex": 8,
@@ -577,12 +540,9 @@ export default {
         "belong on the top shelf"
       ],
       "optionReasons": {
-        "belong-mcq-04": "本句指「某物／某人最適合或理應位於某處」。",
-        "belong-mcq-03": "「在分類上應歸入某一類；屬於……」與本句語境不同。",
-        "belong-mcq-05": "「適合放在、出現在或歸入某個地方／語境」與本句語境不同。",
-        "belong-mcq-02": "「是某群體、組織或團體的成員」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。",
-        "belong-mcq-01": "「某物為某人或某機構所有；屬於……」與本句語境不同。"
+        "belong-mcq-04": "本句的「belong on the top shelf」指「某物／某人最適合或理應位於某處」。",
+        "belong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-04"
     },
@@ -594,11 +554,8 @@ export default {
       "masked": "That chair ____.",
       "options": [
         "belong-mcq-04",
-        "belong-mcq-03",
-        "belong-mcq-05",
-        "belong-mcq-02",
-        "belong-mcq-06",
-        "belong-mcq-01"
+        "belong-mcq-11",
+        "belong-mcq-07"
       ],
       "explanation": "本句的「belongs in the corner」指「某物／某人最適合或理應位於某處」。",
       "sentenceIndex": 9,
@@ -607,12 +564,9 @@ export default {
         "belongs in the corner"
       ],
       "optionReasons": {
-        "belong-mcq-04": "本句指「某物／某人最適合或理應位於某處」。",
-        "belong-mcq-03": "「在分類上應歸入某一類；屬於……」與本句語境不同。",
-        "belong-mcq-05": "「適合放在、出現在或歸入某個地方／語境」與本句語境不同。",
-        "belong-mcq-02": "「是某群體、組織或團體的成員」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。",
-        "belong-mcq-01": "「某物為某人或某機構所有；屬於……」與本句語境不同。"
+        "belong-mcq-04": "本句的「belongs in the corner」指「某物／某人最適合或理應位於某處」。",
+        "belong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-04"
     },
@@ -624,11 +578,9 @@ export default {
       "masked": "This file ____.",
       "options": [
         "belong-mcq-05",
-        "belong-mcq-04",
-        "belong-mcq-06",
-        "belong-mcq-03",
-        "belong-mcq-07",
-        "belong-mcq-02"
+        "belong-mcq-02",
+        "belong-mcq-11",
+        "belong-mcq-07"
       ],
       "explanation": "本句的「doesn’t belong in this folder」指「適合放在、出現在或歸入某個地方／語境」。",
       "sentenceIndex": 10,
@@ -637,12 +589,10 @@ export default {
         "doesn’t belong in this folder"
       ],
       "optionReasons": {
-        "belong-mcq-05": "本句指「適合放在、出現在或歸入某個地方／語境」。",
-        "belong-mcq-04": "「某物／某人最適合或理應位於某處」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。",
-        "belong-mcq-03": "「在分類上應歸入某一類；屬於……」與本句語境不同。",
-        "belong-mcq-07": "「與某物自然相配、應歸在一起」與本句語境不同。",
-        "belong-mcq-02": "「是某群體、組織或團體的成員」與本句語境不同。"
+        "belong-mcq-05": "本句的「doesn’t belong in this folder」指「適合放在、出現在或歸入某個地方／語境」。",
+        "belong-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-05"
     },
@@ -654,11 +604,9 @@ export default {
       "masked": "That sentence ____.",
       "options": [
         "belong-mcq-05",
-        "belong-mcq-04",
-        "belong-mcq-06",
-        "belong-mcq-03",
-        "belong-mcq-07",
-        "belong-mcq-02"
+        "belong-mcq-11",
+        "belong-mcq-16",
+        "belong-mcq-08"
       ],
       "explanation": "本句的「doesn’t belong in this paragraph」指「適合放在、出現在或歸入某個地方／語境」。",
       "sentenceIndex": 11,
@@ -667,12 +615,10 @@ export default {
         "doesn’t belong in this paragraph"
       ],
       "optionReasons": {
-        "belong-mcq-05": "本句指「適合放在、出現在或歸入某個地方／語境」。",
-        "belong-mcq-04": "「某物／某人最適合或理應位於某處」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。",
-        "belong-mcq-03": "「在分類上應歸入某一類；屬於……」與本句語境不同。",
-        "belong-mcq-07": "「與某物自然相配、應歸在一起」與本句語境不同。",
-        "belong-mcq-02": "「是某群體、組織或團體的成員」與本句語境不同。"
+        "belong-mcq-05": "本句的「doesn’t belong in this paragraph」指「適合放在、出現在或歸入某個地方／語境」。",
+        "belong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-05"
     },
@@ -684,11 +630,9 @@ export default {
       "masked": "The team made me ____.",
       "options": [
         "belong-mcq-09",
+        "belong-mcq-05",
         "belong-mcq-08",
-        "belong-mcq-10",
-        "belong-mcq-07",
-        "belong-mcq-11",
-        "belong-mcq-06"
+        "belong-mcq-12"
       ],
       "explanation": "本句的「feel like I belonged」指「感到自己被接受、是群體的一分子；有歸屬感」。",
       "sentenceIndex": 14,
@@ -697,12 +641,10 @@ export default {
         "feel like I belonged"
       ],
       "optionReasons": {
-        "belong-mcq-09": "本句指「感到自己被接受、是群體的一分子；有歸屬感」。",
-        "belong-mcq-08": "「彼此自然相配或應該組合在一起」與本句語境不同。",
-        "belong-mcq-10": "「感到格格不入、不是某群體的一分子」與本句語境不同。",
-        "belong-mcq-07": "「與某物自然相配、應歸在一起」與本句語境不同。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。"
+        "belong-mcq-09": "本句的「feel like I belonged」指「感到自己被接受、是群體的一分子；有歸屬感」。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-09"
     },
@@ -714,11 +656,9 @@ export default {
       "masked": "She finally ____ at university.",
       "options": [
         "belong-mcq-09",
+        "belong-mcq-05",
         "belong-mcq-08",
-        "belong-mcq-10",
-        "belong-mcq-07",
-        "belong-mcq-11",
-        "belong-mcq-06"
+        "belong-mcq-12"
       ],
       "explanation": "本句的「felt that she belonged」指「感到自己被接受、是群體的一分子；有歸屬感」。",
       "sentenceIndex": 15,
@@ -727,12 +667,10 @@ export default {
         "felt that she belonged"
       ],
       "optionReasons": {
-        "belong-mcq-09": "本句指「感到自己被接受、是群體的一分子；有歸屬感」。",
-        "belong-mcq-08": "「彼此自然相配或應該組合在一起」與本句語境不同。",
-        "belong-mcq-10": "「感到格格不入、不是某群體的一分子」與本句語境不同。",
-        "belong-mcq-07": "「與某物自然相配、應歸在一起」與本句語境不同。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。"
+        "belong-mcq-09": "本句的「felt that she belonged」指「感到自己被接受、是群體的一分子；有歸屬感」。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-09"
     },
@@ -744,11 +682,9 @@ export default {
       "masked": "At first, I felt I ____ there.",
       "options": [
         "belong-mcq-05",
-        "belong-mcq-04",
-        "belong-mcq-06",
-        "belong-mcq-03",
-        "belong-mcq-07",
-        "belong-mcq-02"
+        "belong-mcq-16",
+        "belong-mcq-11",
+        "belong-mcq-07"
       ],
       "explanation": "本句的「didn’t belong」指「適合放在、出現在或歸入某個地方／語境」。",
       "sentenceIndex": 16,
@@ -757,12 +693,10 @@ export default {
         "didn’t belong"
       ],
       "optionReasons": {
-        "belong-mcq-05": "本句指「適合放在、出現在或歸入某個地方／語境」。",
-        "belong-mcq-04": "「某物／某人最適合或理應位於某處」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。",
-        "belong-mcq-03": "「在分類上應歸入某一類；屬於……」與本句語境不同。",
-        "belong-mcq-07": "「與某物自然相配、應歸在一起」與本句語境不同。",
-        "belong-mcq-02": "「是某群體、組織或團體的成員」與本句語境不同。"
+        "belong-mcq-05": "本句的「didn’t belong」指「適合放在、出現在或歸入某個地方／語境」。",
+        "belong-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-05"
     },
@@ -774,11 +708,9 @@ export default {
       "masked": "He often felt that he ____ in the group.",
       "options": [
         "belong-mcq-05",
-        "belong-mcq-04",
-        "belong-mcq-06",
-        "belong-mcq-03",
-        "belong-mcq-07",
-        "belong-mcq-02"
+        "belong-mcq-11",
+        "belong-mcq-02",
+        "belong-mcq-07"
       ],
       "explanation": "本句的「didn’t belong」指「適合放在、出現在或歸入某個地方／語境」。",
       "sentenceIndex": 17,
@@ -787,12 +719,10 @@ export default {
         "didn’t belong"
       ],
       "optionReasons": {
-        "belong-mcq-05": "本句指「適合放在、出現在或歸入某個地方／語境」。",
-        "belong-mcq-04": "「某物／某人最適合或理應位於某處」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。",
-        "belong-mcq-03": "「在分類上應歸入某一類；屬於……」與本句語境不同。",
-        "belong-mcq-07": "「與某物自然相配、應歸在一起」與本句語境不同。",
-        "belong-mcq-02": "「是某群體、組織或團體的成員」與本句語境不同。"
+        "belong-mcq-05": "本句的「didn’t belong」指「適合放在、出現在或歸入某個地方／語境」。",
+        "belong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-05"
     },
@@ -804,10 +734,8 @@ export default {
       "masked": "These two pieces ____.",
       "options": [
         "belong-mcq-08",
-        "belong-mcq-07",
-        "belong-mcq-09",
-        "belong-mcq-06",
-        "belong-mcq-10",
+        "belong-mcq-16",
+        "belong-mcq-12",
         "belong-mcq-05"
       ],
       "explanation": "本句的「belong together」指「彼此自然相配或應該組合在一起」。",
@@ -817,12 +745,10 @@ export default {
         "belong together"
       ],
       "optionReasons": {
-        "belong-mcq-08": "本句指「彼此自然相配或應該組合在一起」。",
-        "belong-mcq-07": "「與某物自然相配、應歸在一起」與本句語境不同。",
-        "belong-mcq-09": "「感到自己被接受、是群體的一分子；有歸屬感」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。",
-        "belong-mcq-10": "「感到格格不入、不是某群體的一分子」與本句語境不同。",
-        "belong-mcq-05": "「適合放在、出現在或歸入某個地方／語境」與本句語境不同。"
+        "belong-mcq-08": "本句的「belong together」指「彼此自然相配或應該組合在一起」。",
+        "belong-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-08"
     },
@@ -834,10 +760,8 @@ export default {
       "masked": "The two ideas ____ conceptually.",
       "options": [
         "belong-mcq-08",
-        "belong-mcq-07",
-        "belong-mcq-09",
-        "belong-mcq-06",
-        "belong-mcq-10",
+        "belong-mcq-14",
+        "belong-mcq-12",
         "belong-mcq-05"
       ],
       "explanation": "本句的「belong together」指「彼此自然相配或應該組合在一起」。",
@@ -847,12 +771,10 @@ export default {
         "belong together"
       ],
       "optionReasons": {
-        "belong-mcq-08": "本句指「彼此自然相配或應該組合在一起」。",
-        "belong-mcq-07": "「與某物自然相配、應歸在一起」與本句語境不同。",
-        "belong-mcq-09": "「感到自己被接受、是群體的一分子；有歸屬感」與本句語境不同。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。",
-        "belong-mcq-10": "「感到格格不入、不是某群體的一分子」與本句語境不同。",
-        "belong-mcq-05": "「適合放在、出現在或歸入某個地方／語境」與本句語境不同。"
+        "belong-mcq-08": "本句的「belong together」指「彼此自然相配或應該組合在一起」。",
+        "belong-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-08"
     },
@@ -864,11 +786,8 @@ export default {
       "masked": "This paragraph ____.",
       "options": [
         "belong-mcq-07",
-        "belong-mcq-06",
-        "belong-mcq-08",
-        "belong-mcq-05",
-        "belong-mcq-09",
-        "belong-mcq-04"
+        "belong-mcq-15",
+        "belong-mcq-12"
       ],
       "explanation": "本句的「belongs with the previous section」指「與某物自然相配、應歸在一起」。",
       "sentenceIndex": 20,
@@ -877,12 +796,9 @@ export default {
         "belongs with the previous section"
       ],
       "optionReasons": {
-        "belong-mcq-07": "本句指「與某物自然相配、應歸在一起」。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。",
-        "belong-mcq-08": "「彼此自然相配或應該組合在一起」與本句語境不同。",
-        "belong-mcq-05": "「適合放在、出現在或歸入某個地方／語境」與本句語境不同。",
-        "belong-mcq-09": "「感到自己被接受、是群體的一分子；有歸屬感」與本句語境不同。",
-        "belong-mcq-04": "「某物／某人最適合或理應位於某處」與本句語境不同。"
+        "belong-mcq-07": "本句的「belongs with the previous section」指「與某物自然相配、應歸在一起」。",
+        "belong-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-07"
     },
@@ -894,11 +810,8 @@ export default {
       "masked": "That example ____.",
       "options": [
         "belong-mcq-07",
-        "belong-mcq-06",
-        "belong-mcq-08",
-        "belong-mcq-05",
-        "belong-mcq-09",
-        "belong-mcq-04"
+        "belong-mcq-15",
+        "belong-mcq-12"
       ],
       "explanation": "本句的「belongs with the grammar exercises」指「與某物自然相配、應歸在一起」。",
       "sentenceIndex": 21,
@@ -907,12 +820,9 @@ export default {
         "belongs with the grammar exercises"
       ],
       "optionReasons": {
-        "belong-mcq-07": "本句指「與某物自然相配、應歸在一起」。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。",
-        "belong-mcq-08": "「彼此自然相配或應該組合在一起」與本句語境不同。",
-        "belong-mcq-05": "「適合放在、出現在或歸入某個地方／語境」與本句語境不同。",
-        "belong-mcq-09": "「感到自己被接受、是群體的一分子；有歸屬感」與本句語境不同。",
-        "belong-mcq-04": "「某物／某人最適合或理應位於某處」與本句語境不同。"
+        "belong-mcq-07": "本句的「belongs with the grammar exercises」指「與某物自然相配、應歸在一起」。",
+        "belong-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-07"
     },
@@ -924,10 +834,8 @@ export default {
       "masked": "The painting ____.",
       "options": [
         "belong-mcq-11",
-        "belong-mcq-10",
-        "belong-mcq-12",
-        "belong-mcq-09",
-        "belong-mcq-13",
+        "belong-mcq-16",
+        "belong-mcq-05",
         "belong-mcq-08"
       ],
       "explanation": "本句的「belongs to the nineteenth century」指「屬於、源自或具有某個歷史時期的特徵」。",
@@ -937,12 +845,10 @@ export default {
         "belongs to the nineteenth century"
       ],
       "optionReasons": {
-        "belong-mcq-11": "本句指「屬於、源自或具有某個歷史時期的特徵」。",
-        "belong-mcq-10": "「感到格格不入、不是某群體的一分子」與本句語境不同。",
-        "belong-mcq-12": "「在學術、語言或分類系統中屬於某個領域／家族」與本句語境不同。",
-        "belong-mcq-09": "「感到自己被接受、是群體的一分子；有歸屬感」與本句語境不同。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-08": "「彼此自然相配或應該組合在一起」與本句語境不同。"
+        "belong-mcq-11": "本句的「belongs to the nineteenth century」指「屬於、源自或具有某個歷史時期的特徵」。",
+        "belong-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-11"
     },
@@ -954,11 +860,8 @@ export default {
       "masked": "This style ____.",
       "options": [
         "belong-mcq-11",
-        "belong-mcq-10",
-        "belong-mcq-12",
-        "belong-mcq-09",
-        "belong-mcq-13",
-        "belong-mcq-08"
+        "belong-mcq-04",
+        "belong-mcq-07"
       ],
       "explanation": "本句的「belongs to an earlier period」指「屬於、源自或具有某個歷史時期的特徵」。",
       "sentenceIndex": 23,
@@ -967,12 +870,9 @@ export default {
         "belongs to an earlier period"
       ],
       "optionReasons": {
-        "belong-mcq-11": "本句指「屬於、源自或具有某個歷史時期的特徵」。",
-        "belong-mcq-10": "「感到格格不入、不是某群體的一分子」與本句語境不同。",
-        "belong-mcq-12": "「在學術、語言或分類系統中屬於某個領域／家族」與本句語境不同。",
-        "belong-mcq-09": "「感到自己被接受、是群體的一分子；有歸屬感」與本句語境不同。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-08": "「彼此自然相配或應該組合在一起」與本句語境不同。"
+        "belong-mcq-11": "本句的「belongs to an earlier period」指「屬於、源自或具有某個歷史時期的特徵」。",
+        "belong-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-11"
     },
@@ -984,11 +884,8 @@ export default {
       "masked": "This word ____.",
       "options": [
         "belong-mcq-12",
-        "belong-mcq-11",
-        "belong-mcq-13",
-        "belong-mcq-10",
-        "belong-mcq-14",
-        "belong-mcq-09"
+        "belong-mcq-08",
+        "belong-mcq-04"
       ],
       "explanation": "本句的「belongs to the same word family」指「在學術、語言或分類系統中屬於某個領域／家族」。",
       "sentenceIndex": 24,
@@ -997,12 +894,9 @@ export default {
         "belongs to the same word family"
       ],
       "optionReasons": {
-        "belong-mcq-12": "本句指「在學術、語言或分類系統中屬於某個領域／家族」。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-10": "「感到格格不入、不是某群體的一分子」與本句語境不同。",
-        "belong-mcq-14": "「被接納並成為某個群體一分子的感覺；歸屬感」與本句語境不同。",
-        "belong-mcq-09": "「感到自己被接受、是群體的一分子；有歸屬感」與本句語境不同。"
+        "belong-mcq-12": "本句的「belongs to the same word family」指「在學術、語言或分類系統中屬於某個領域／家族」。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-12"
     },
@@ -1014,11 +908,9 @@ export default {
       "masked": "The topic ____.",
       "options": [
         "belong-mcq-12",
-        "belong-mcq-11",
-        "belong-mcq-13",
-        "belong-mcq-10",
-        "belong-mcq-14",
-        "belong-mcq-09"
+        "belong-mcq-08",
+        "belong-mcq-02",
+        "belong-mcq-05"
       ],
       "explanation": "本句的「belongs to the field of psychology」指「在學術、語言或分類系統中屬於某個領域／家族」。",
       "sentenceIndex": 25,
@@ -1027,12 +919,10 @@ export default {
         "belongs to the field of psychology"
       ],
       "optionReasons": {
-        "belong-mcq-12": "本句指「在學術、語言或分類系統中屬於某個領域／家族」。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-10": "「感到格格不入、不是某群體的一分子」與本句語境不同。",
-        "belong-mcq-14": "「被接納並成為某個群體一分子的感覺；歸屬感」與本句語境不同。",
-        "belong-mcq-09": "「感到自己被接受、是群體的一分子；有歸屬感」與本句語境不同。"
+        "belong-mcq-12": "本句的「belongs to the field of psychology」指「在學術、語言或分類系統中屬於某個領域／家族」。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-12"
     },
@@ -1044,11 +934,9 @@ export default {
       "masked": "That joke ____.",
       "options": [
         "belong-mcq-12",
-        "belong-mcq-11",
-        "belong-mcq-13",
-        "belong-mcq-10",
-        "belong-mcq-14",
-        "belong-mcq-09"
+        "belong-mcq-08",
+        "belong-mcq-16",
+        "belong-mcq-05"
       ],
       "explanation": "本句的「doesn’t belong in a formal speech」指「在學術、語言或分類系統中屬於某個領域／家族」。",
       "sentenceIndex": 28,
@@ -1057,12 +945,10 @@ export default {
         "doesn’t belong in a formal speech"
       ],
       "optionReasons": {
-        "belong-mcq-12": "本句指「在學術、語言或分類系統中屬於某個領域／家族」。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-10": "「感到格格不入、不是某群體的一分子」與本句語境不同。",
-        "belong-mcq-14": "「被接納並成為某個群體一分子的感覺；歸屬感」與本句語境不同。",
-        "belong-mcq-09": "「感到自己被接受、是群體的一分子；有歸屬感」與本句語境不同。"
+        "belong-mcq-12": "本句的「doesn’t belong in a formal speech」指「在學術、語言或分類系統中屬於某個領域／家族」。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-12"
     },
@@ -1074,11 +960,9 @@ export default {
       "masked": "This example ____.",
       "options": [
         "belong-mcq-12",
-        "belong-mcq-11",
-        "belong-mcq-13",
-        "belong-mcq-10",
-        "belong-mcq-14",
-        "belong-mcq-09"
+        "belong-mcq-16",
+        "belong-mcq-08",
+        "belong-mcq-05"
       ],
       "explanation": "本句的「belongs in the introduction」指「在學術、語言或分類系統中屬於某個領域／家族」。",
       "sentenceIndex": 29,
@@ -1087,12 +971,10 @@ export default {
         "belongs in the introduction"
       ],
       "optionReasons": {
-        "belong-mcq-12": "本句指「在學術、語言或分類系統中屬於某個領域／家族」。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-10": "「感到格格不入、不是某群體的一分子」與本句語境不同。",
-        "belong-mcq-14": "「被接納並成為某個群體一分子的感覺；歸屬感」與本句語境不同。",
-        "belong-mcq-09": "「感到自己被接受、是群體的一分子；有歸屬感」與本句語境不同。"
+        "belong-mcq-12": "本句的「belongs in the introduction」指「在學術、語言或分類系統中屬於某個領域／家族」。",
+        "belong-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-12"
     },
@@ -1104,11 +986,9 @@ export default {
       "masked": "Your name ____.",
       "options": [
         "belong-mcq-12",
-        "belong-mcq-11",
-        "belong-mcq-13",
-        "belong-mcq-10",
-        "belong-mcq-14",
-        "belong-mcq-09"
+        "belong-mcq-02",
+        "belong-mcq-07",
+        "belong-mcq-05"
       ],
       "explanation": "本句的「belongs on the list」指「在學術、語言或分類系統中屬於某個領域／家族」。",
       "sentenceIndex": 30,
@@ -1117,12 +997,10 @@ export default {
         "belongs on the list"
       ],
       "optionReasons": {
-        "belong-mcq-12": "本句指「在學術、語言或分類系統中屬於某個領域／家族」。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-10": "「感到格格不入、不是某群體的一分子」與本句語境不同。",
-        "belong-mcq-14": "「被接納並成為某個群體一分子的感覺；歸屬感」與本句語境不同。",
-        "belong-mcq-09": "「感到自己被接受、是群體的一分子；有歸屬感」與本句語境不同。"
+        "belong-mcq-12": "本句的「belongs on the list」指「在學術、語言或分類系統中屬於某個領域／家族」。",
+        "belong-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-12"
     },
@@ -1134,11 +1012,8 @@ export default {
       "masked": "The title ____.",
       "options": [
         "belong-mcq-12",
-        "belong-mcq-11",
-        "belong-mcq-13",
-        "belong-mcq-10",
-        "belong-mcq-14",
-        "belong-mcq-09"
+        "belong-mcq-04",
+        "belong-mcq-08"
       ],
       "explanation": "本句的「belongs at the top of the page」指「在學術、語言或分類系統中屬於某個領域／家族」。",
       "sentenceIndex": 31,
@@ -1147,12 +1022,9 @@ export default {
         "belongs at the top of the page"
       ],
       "optionReasons": {
-        "belong-mcq-12": "本句指「在學術、語言或分類系統中屬於某個領域／家族」。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-10": "「感到格格不入、不是某群體的一分子」與本句語境不同。",
-        "belong-mcq-14": "「被接納並成為某個群體一分子的感覺；歸屬感」與本句語境不同。",
-        "belong-mcq-09": "「感到自己被接受、是群體的一分子；有歸屬感」與本句語境不同。"
+        "belong-mcq-12": "本句的「belongs at the top of the page」指「在學術、語言或分類系統中屬於某個領域／家族」。",
+        "belong-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-12"
     },
@@ -1164,11 +1036,8 @@ export default {
       "masked": "These notes ____.",
       "options": [
         "belong-mcq-07",
-        "belong-mcq-06",
-        "belong-mcq-08",
-        "belong-mcq-05",
-        "belong-mcq-09",
-        "belong-mcq-04"
+        "belong-mcq-01",
+        "belong-mcq-05"
       ],
       "explanation": "本句的「belong with the research section」指「與某物自然相配、應歸在一起」。",
       "sentenceIndex": 32,
@@ -1177,12 +1046,9 @@ export default {
         "belong with the research section"
       ],
       "optionReasons": {
-        "belong-mcq-07": "本句指「與某物自然相配、應歸在一起」。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。",
-        "belong-mcq-08": "「彼此自然相配或應該組合在一起」與本句語境不同。",
-        "belong-mcq-05": "「適合放在、出現在或歸入某個地方／語境」與本句語境不同。",
-        "belong-mcq-09": "「感到自己被接受、是群體的一分子；有歸屬感」與本句語境不同。",
-        "belong-mcq-04": "「某物／某人最適合或理應位於某處」與本句語境不同。"
+        "belong-mcq-07": "本句的「belong with the research section」指「與某物自然相配、應歸在一起」。",
+        "belong-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-07"
     },
@@ -1194,11 +1060,8 @@ export default {
       "masked": "That photograph ____.",
       "options": [
         "belong-mcq-07",
-        "belong-mcq-06",
-        "belong-mcq-08",
-        "belong-mcq-05",
-        "belong-mcq-09",
-        "belong-mcq-04"
+        "belong-mcq-01",
+        "belong-mcq-05"
       ],
       "explanation": "本句的「belongs with the others from the trip」指「與某物自然相配、應歸在一起」。",
       "sentenceIndex": 33,
@@ -1207,12 +1070,9 @@ export default {
         "belongs with the others from the trip"
       ],
       "optionReasons": {
-        "belong-mcq-07": "本句指「與某物自然相配、應歸在一起」。",
-        "belong-mcq-06": "「應該放在某個表面、位置或名單上」與本句語境不同。",
-        "belong-mcq-08": "「彼此自然相配或應該組合在一起」與本句語境不同。",
-        "belong-mcq-05": "「適合放在、出現在或歸入某個地方／語境」與本句語境不同。",
-        "belong-mcq-09": "「感到自己被接受、是群體的一分子；有歸屬感」與本句語境不同。",
-        "belong-mcq-04": "「某物／某人最適合或理應位於某處」與本句語境不同。"
+        "belong-mcq-07": "本句的「belongs with the others from the trip」指「與某物自然相配、應歸在一起」。",
+        "belong-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-07"
     },
@@ -1224,10 +1084,8 @@ export default {
       "masked": "Students need a sense of ____.",
       "options": [
         "belong-mcq-14",
-        "belong-mcq-13",
-        "belong-mcq-15",
-        "belong-mcq-12",
-        "belong-mcq-16",
+        "belong-mcq-08",
+        "belong-mcq-05",
         "belong-mcq-11"
       ],
       "explanation": "本句的「belonging」指「被接納並成為某個群體一分子的感覺；歸屬感」。",
@@ -1237,12 +1095,10 @@ export default {
         "belonging"
       ],
       "optionReasons": {
-        "belong-mcq-14": "本句指「被接納並成為某個群體一分子的感覺；歸屬感」。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-15": "「對某個群體、地方或社群具有連結與被接受的感覺」與本句語境不同。",
-        "belong-mcq-12": "「在學術、語言或分類系統中屬於某個領域／家族」與本句語境不同。",
-        "belong-mcq-16": "「某人的個人物品、財物或隨身物品」與本句語境不同。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。"
+        "belong-mcq-14": "本句的「belonging」指「被接納並成為某個群體一分子的感覺；歸屬感」。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-14"
     },
@@ -1254,10 +1110,8 @@ export default {
       "masked": "Strong communities create ____.",
       "options": [
         "belong-mcq-14",
-        "belong-mcq-13",
-        "belong-mcq-15",
-        "belong-mcq-12",
-        "belong-mcq-16",
+        "belong-mcq-08",
+        "belong-mcq-05",
         "belong-mcq-11"
       ],
       "explanation": "本句的「belonging」指「被接納並成為某個群體一分子的感覺；歸屬感」。",
@@ -1267,12 +1121,10 @@ export default {
         "belonging"
       ],
       "optionReasons": {
-        "belong-mcq-14": "本句指「被接納並成為某個群體一分子的感覺；歸屬感」。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-15": "「對某個群體、地方或社群具有連結與被接受的感覺」與本句語境不同。",
-        "belong-mcq-12": "「在學術、語言或分類系統中屬於某個領域／家族」與本句語境不同。",
-        "belong-mcq-16": "「某人的個人物品、財物或隨身物品」與本句語境不同。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。"
+        "belong-mcq-14": "本句的「belonging」指「被接納並成為某個群體一分子的感覺；歸屬感」。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-14"
     },
@@ -1284,11 +1136,7 @@ export default {
       "masked": "Friendships gave her a stronger ____.",
       "options": [
         "belong-mcq-15",
-        "belong-mcq-14",
-        "belong-mcq-16",
-        "belong-mcq-13",
-        "belong-mcq-12",
-        "belong-mcq-11"
+        "belong-mcq-03"
       ],
       "explanation": "本句的「sense of belonging」指「對某個群體、地方或社群具有連結與被接受的感覺」。",
       "sentenceIndex": 36,
@@ -1297,12 +1145,8 @@ export default {
         "sense of belonging"
       ],
       "optionReasons": {
-        "belong-mcq-15": "本句指「對某個群體、地方或社群具有連結與被接受的感覺」。",
-        "belong-mcq-14": "「被接納並成為某個群體一分子的感覺；歸屬感」與本句語境不同。",
-        "belong-mcq-16": "「某人的個人物品、財物或隨身物品」與本句語境不同。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-12": "「在學術、語言或分類系統中屬於某個領域／家族」與本句語境不同。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。"
+        "belong-mcq-15": "本句的「sense of belonging」指「對某個群體、地方或社群具有連結與被接受的感覺」。",
+        "belong-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-15"
     },
@@ -1314,11 +1158,8 @@ export default {
       "masked": "Schools can help students develop a ____.",
       "options": [
         "belong-mcq-15",
-        "belong-mcq-14",
-        "belong-mcq-16",
-        "belong-mcq-13",
         "belong-mcq-12",
-        "belong-mcq-11"
+        "belong-mcq-07"
       ],
       "explanation": "本句的「sense of belonging」指「對某個群體、地方或社群具有連結與被接受的感覺」。",
       "sentenceIndex": 37,
@@ -1327,12 +1168,9 @@ export default {
         "sense of belonging"
       ],
       "optionReasons": {
-        "belong-mcq-15": "本句指「對某個群體、地方或社群具有連結與被接受的感覺」。",
-        "belong-mcq-14": "「被接納並成為某個群體一分子的感覺；歸屬感」與本句語境不同。",
-        "belong-mcq-16": "「某人的個人物品、財物或隨身物品」與本句語境不同。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-12": "「在學術、語言或分類系統中屬於某個領域／家族」與本句語境不同。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。"
+        "belong-mcq-15": "本句的「sense of belonging」指「對某個群體、地方或社群具有連結與被接受的感覺」。",
+        "belong-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-15"
     },
@@ -1344,11 +1182,9 @@ export default {
       "masked": "Please take all your ____ with you.",
       "options": [
         "belong-mcq-16",
-        "belong-mcq-15",
-        "belong-mcq-14",
-        "belong-mcq-13",
-        "belong-mcq-12",
-        "belong-mcq-11"
+        "belong-mcq-08",
+        "belong-mcq-11",
+        "belong-mcq-05"
       ],
       "explanation": "本句的「belongings」指「某人的個人物品、財物或隨身物品」。",
       "sentenceIndex": 38,
@@ -1357,12 +1193,10 @@ export default {
         "belongings"
       ],
       "optionReasons": {
-        "belong-mcq-16": "本句指「某人的個人物品、財物或隨身物品」。",
-        "belong-mcq-15": "「對某個群體、地方或社群具有連結與被接受的感覺」與本句語境不同。",
-        "belong-mcq-14": "「被接納並成為某個群體一分子的感覺；歸屬感」與本句語境不同。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-12": "「在學術、語言或分類系統中屬於某個領域／家族」與本句語境不同。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。"
+        "belong-mcq-16": "本句的「belongings」指「某人的個人物品、財物或隨身物品」。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-16"
     },
@@ -1374,11 +1208,9 @@ export default {
       "masked": "She packed her ____ into two bags.",
       "options": [
         "belong-mcq-16",
-        "belong-mcq-15",
-        "belong-mcq-14",
-        "belong-mcq-13",
-        "belong-mcq-12",
-        "belong-mcq-11"
+        "belong-mcq-05",
+        "belong-mcq-11",
+        "belong-mcq-07"
       ],
       "explanation": "本句的「belongings」指「某人的個人物品、財物或隨身物品」。",
       "sentenceIndex": 39,
@@ -1387,12 +1219,10 @@ export default {
         "belongings"
       ],
       "optionReasons": {
-        "belong-mcq-16": "本句指「某人的個人物品、財物或隨身物品」。",
-        "belong-mcq-15": "「對某個群體、地方或社群具有連結與被接受的感覺」與本句語境不同。",
-        "belong-mcq-14": "「被接納並成為某個群體一分子的感覺；歸屬感」與本句語境不同。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-12": "「在學術、語言或分類系統中屬於某個領域／家族」與本句語境不同。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。"
+        "belong-mcq-16": "本句的「belongings」指「某人的個人物品、財物或隨身物品」。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-16"
     },
@@ -1404,11 +1234,9 @@ export default {
       "masked": "Items ____ should be clearly labelled.",
       "options": [
         "belong-mcq-16",
-        "belong-mcq-15",
-        "belong-mcq-14",
-        "belong-mcq-13",
-        "belong-mcq-12",
-        "belong-mcq-11"
+        "belong-mcq-11",
+        "belong-mcq-08",
+        "belong-mcq-05"
       ],
       "explanation": "本句的「belonging to students」指「某人的個人物品、財物或隨身物品」。",
       "sentenceIndex": 40,
@@ -1417,12 +1245,10 @@ export default {
         "belonging to students"
       ],
       "optionReasons": {
-        "belong-mcq-16": "本句指「某人的個人物品、財物或隨身物品」。",
-        "belong-mcq-15": "「對某個群體、地方或社群具有連結與被接受的感覺」與本句語境不同。",
-        "belong-mcq-14": "「被接納並成為某個群體一分子的感覺；歸屬感」與本句語境不同。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-12": "「在學術、語言或分類系統中屬於某個領域／家族」與本句語境不同。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。"
+        "belong-mcq-16": "本句的「belonging to students」指「某人的個人物品、財物或隨身物品」。",
+        "belong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-16"
     },
@@ -1434,11 +1260,9 @@ export default {
       "masked": "We found documents ____.",
       "options": [
         "belong-mcq-16",
-        "belong-mcq-15",
-        "belong-mcq-14",
-        "belong-mcq-13",
-        "belong-mcq-12",
-        "belong-mcq-11"
+        "belong-mcq-11",
+        "belong-mcq-07",
+        "belong-mcq-05"
       ],
       "explanation": "本句的「belonging to the company」指「某人的個人物品、財物或隨身物品」。",
       "sentenceIndex": 41,
@@ -1447,12 +1271,10 @@ export default {
         "belonging to the company"
       ],
       "optionReasons": {
-        "belong-mcq-16": "本句指「某人的個人物品、財物或隨身物品」。",
-        "belong-mcq-15": "「對某個群體、地方或社群具有連結與被接受的感覺」與本句語境不同。",
-        "belong-mcq-14": "「被接納並成為某個群體一分子的感覺；歸屬感」與本句語境不同。",
-        "belong-mcq-13": "「某項功勞、責任或權利應歸某人所有」與本句語境不同。",
-        "belong-mcq-12": "「在學術、語言或分類系統中屬於某個領域／家族」與本句語境不同。",
-        "belong-mcq-11": "「屬於、源自或具有某個歷史時期的特徵」與本句語境不同。"
+        "belong-mcq-16": "本句的「belonging to the company」指「某人的個人物品、財物或隨身物品」。",
+        "belong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "belong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "belong-mcq-16"
     }
@@ -1464,5 +1286,7 @@ export default {
     "sha256": "ca03088459602b631ca2cf5414a916686bd3592152cdd102bb470d65fbc4f80f",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

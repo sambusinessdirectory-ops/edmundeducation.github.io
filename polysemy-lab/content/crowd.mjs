@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "crowd-mcq-21",
-      "title": "表示擁擠；過度密集",
+      "title": "擁擠；過度密集",
       "form": "Unmapped practice crowd-07-0",
       "en": "Unmapped practice crowd-07-0",
       "zh": "表示擁擠；過度密集",
@@ -420,7 +420,7 @@ export default {
     },
     {
       "id": "crowd-mcq-22",
-      "title": "表示擁擠；過度密集",
+      "title": "擁擠；過度密集",
       "form": "Unmapped practice crowd-07-1",
       "en": "Unmapped practice crowd-07-1",
       "zh": "表示擁擠；過度密集",
@@ -484,11 +484,8 @@ export default {
       "masked": "A large ____ gathered outside the station.",
       "options": [
         "crowd-mcq-01",
-        "crowd-mcq-02",
-        "crowd-mcq-03",
-        "crowd-mcq-04",
-        "crowd-mcq-05",
-        "crowd-mcq-06"
+        "crowd-mcq-16",
+        "crowd-pdf-orphan-01"
       ],
       "explanation": "本句的「crowd」指「大量人在同一地點聚集而形成的一群人」。",
       "sentenceIndex": 0,
@@ -497,12 +494,9 @@ export default {
         "crowd"
       ],
       "optionReasons": {
-        "crowd-mcq-01": "本句指「大量人在同一地點聚集而形成的一群人」。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-05": "「人數很多、可用空間不足而令人感到擠迫的」是「crowded — people」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。"
+        "crowd-mcq-01": "本句的「crowd」指「大量人在同一地點聚集而形成的一群人」。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-01"
     },
@@ -514,11 +508,9 @@ export default {
       "masked": "The ____ cheered when the band appeared.",
       "options": [
         "crowd-mcq-01",
-        "crowd-mcq-02",
-        "crowd-mcq-03",
-        "crowd-mcq-04",
-        "crowd-mcq-05",
-        "crowd-mcq-06"
+        "crowd-mcq-22",
+        "crowd-mcq-15",
+        "crowd-mcq-03"
       ],
       "explanation": "本句的「crowd」指「大量人在同一地點聚集而形成的一群人」。",
       "sentenceIndex": 1,
@@ -527,12 +519,10 @@ export default {
         "crowd"
       ],
       "optionReasons": {
-        "crowd-mcq-01": "本句指「大量人在同一地點聚集而形成的一群人」。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-05": "「人數很多、可用空間不足而令人感到擠迫的」是「crowded — people」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。"
+        "crowd-mcq-01": "本句的「crowd」指「大量人在同一地點聚集而形成的一群人」。",
+        "crowd-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-01"
     },
@@ -544,11 +534,9 @@ export default {
       "masked": "She started spending time with a different ____.",
       "options": [
         "crowd-mcq-02",
-        "crowd-mcq-01",
-        "crowd-mcq-03",
-        "crowd-mcq-04",
         "crowd-mcq-05",
-        "crowd-mcq-06"
+        "crowd-mcq-21",
+        "crowd-mcq-15"
       ],
       "explanation": "本句的「crowd」指「經常一起活動、具有共同興趣或社交關係的一群人／圈子」。",
       "sentenceIndex": 2,
@@ -557,12 +545,10 @@ export default {
         "crowd"
       ],
       "optionReasons": {
-        "crowd-mcq-02": "本句指「經常一起活動、具有共同興趣或社交關係的一群人／圈子」。",
-        "crowd-mcq-01": "「大量人在同一地點聚集而形成的一群人」是「crowd — physical group」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-05": "「人數很多、可用空間不足而令人感到擠迫的」是「crowded — people」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。"
+        "crowd-mcq-02": "本句的「crowd」指「經常一起活動、具有共同興趣或社交關係的一群人／圈子」。",
+        "crowd-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-02"
     },
@@ -574,11 +560,9 @@ export default {
       "masked": "He doesn’t really fit in with that ____.",
       "options": [
         "crowd-mcq-02",
-        "crowd-mcq-01",
-        "crowd-mcq-03",
-        "crowd-mcq-04",
-        "crowd-mcq-05",
-        "crowd-mcq-06"
+        "crowd-mcq-16",
+        "crowd-mcq-12",
+        "crowd-pdf-orphan-01"
       ],
       "explanation": "本句的「crowd」指「經常一起活動、具有共同興趣或社交關係的一群人／圈子」。",
       "sentenceIndex": 3,
@@ -587,12 +571,10 @@ export default {
         "crowd"
       ],
       "optionReasons": {
-        "crowd-mcq-02": "本句指「經常一起活動、具有共同興趣或社交關係的一群人／圈子」。",
-        "crowd-mcq-01": "「大量人在同一地點聚集而形成的一群人」是「crowd — physical group」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-05": "「人數很多、可用空間不足而令人感到擠迫的」是「crowded — people」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。"
+        "crowd-mcq-02": "本句的「crowd」指「經常一起活動、具有共同興趣或社交關係的一群人／圈子」。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-02"
     },
@@ -604,11 +586,9 @@ export default {
       "masked": "She prefers to think differently from the ____.",
       "options": [
         "crowd-mcq-03",
-        "crowd-mcq-02",
-        "crowd-mcq-04",
-        "crowd-mcq-01",
-        "crowd-mcq-05",
-        "crowd-mcq-06"
+        "crowd-mcq-14",
+        "crowd-mcq-16",
+        "crowd-mcq-02"
       ],
       "explanation": "本句的「crowd」指「一般大眾、多數人或主流群體」。",
       "sentenceIndex": 4,
@@ -617,12 +597,10 @@ export default {
         "crowd"
       ],
       "optionReasons": {
-        "crowd-mcq-03": "本句指「一般大眾、多數人或主流群體」。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-01": "「大量人在同一地點聚集而形成的一群人」是「crowd — physical group」的用法，與本句語境不同。",
-        "crowd-mcq-05": "「人數很多、可用空間不足而令人感到擠迫的」是「crowded — people」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。"
+        "crowd-mcq-03": "本句的「crowd」指「一般大眾、多數人或主流群體」。",
+        "crowd-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-03"
     },
@@ -634,11 +612,9 @@ export default {
       "masked": "The product was designed to stand out from the ____.",
       "options": [
         "crowd-mcq-03",
-        "crowd-mcq-02",
-        "crowd-mcq-04",
-        "crowd-mcq-01",
-        "crowd-mcq-05",
-        "crowd-mcq-06"
+        "crowd-mcq-21",
+        "crowd-mcq-15",
+        "crowd-mcq-02"
       ],
       "explanation": "本句的「crowd」指「一般大眾、多數人或主流群體」。",
       "sentenceIndex": 5,
@@ -647,12 +623,10 @@ export default {
         "crowd"
       ],
       "optionReasons": {
-        "crowd-mcq-03": "本句指「一般大眾、多數人或主流群體」。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-01": "「大量人在同一地點聚集而形成的一群人」是「crowd — physical group」的用法，與本句語境不同。",
-        "crowd-mcq-05": "「人數很多、可用空間不足而令人感到擠迫的」是「crowded — people」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。"
+        "crowd-mcq-03": "本句的「crowd」指「一般大眾、多數人或主流群體」。",
+        "crowd-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-03"
     },
@@ -664,11 +638,9 @@ export default {
       "masked": "The train was extremely ____.",
       "options": [
         "crowd-mcq-05",
-        "crowd-mcq-04",
-        "crowd-mcq-06",
-        "crowd-mcq-03",
-        "crowd-mcq-07",
-        "crowd-mcq-02"
+        "crowd-mcq-02",
+        "crowd-mcq-17",
+        "crowd-mcq-21"
       ],
       "explanation": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
       "sentenceIndex": 6,
@@ -677,12 +649,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-05": "本句指「人數很多、可用空間不足而令人感到擠迫的」。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。"
+        "crowd-mcq-05": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-05"
     },
@@ -694,11 +664,9 @@ export default {
       "masked": "The restaurant was too ____ to feel comfortable.",
       "options": [
         "crowd-mcq-05",
-        "crowd-mcq-04",
-        "crowd-mcq-06",
-        "crowd-mcq-03",
-        "crowd-mcq-07",
-        "crowd-mcq-02"
+        "crowd-mcq-18",
+        "crowd-pdf-orphan-01",
+        "crowd-mcq-16"
       ],
       "explanation": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
       "sentenceIndex": 7,
@@ -707,12 +675,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-05": "本句指「人數很多、可用空間不足而令人感到擠迫的」。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。"
+        "crowd-mcq-05": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
+        "crowd-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-05"
     },
@@ -724,11 +690,9 @@ export default {
       "masked": "The desk looked ____ with books and papers.",
       "options": [
         "crowd-mcq-05",
-        "crowd-mcq-04",
-        "crowd-mcq-06",
-        "crowd-mcq-03",
-        "crowd-mcq-07",
-        "crowd-mcq-02"
+        "crowd-mcq-17",
+        "crowd-mcq-02",
+        "crowd-mcq-22"
       ],
       "explanation": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
       "sentenceIndex": 8,
@@ -737,12 +701,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-05": "本句指「人數很多、可用空間不足而令人感到擠迫的」。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。"
+        "crowd-mcq-05": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
+        "crowd-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-05"
     },
@@ -754,11 +716,9 @@ export default {
       "masked": "The shelf is too ____.",
       "options": [
         "crowd-mcq-05",
-        "crowd-mcq-04",
-        "crowd-mcq-06",
-        "crowd-mcq-03",
-        "crowd-mcq-07",
-        "crowd-mcq-02"
+        "crowd-mcq-17",
+        "crowd-mcq-02",
+        "crowd-mcq-22"
       ],
       "explanation": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
       "sentenceIndex": 9,
@@ -767,12 +727,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-05": "本句指「人數很多、可用空間不足而令人感到擠迫的」。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。"
+        "crowd-mcq-05": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
+        "crowd-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-05"
     },
@@ -784,11 +742,9 @@ export default {
       "masked": "The poster feels visually ____.",
       "options": [
         "crowd-mcq-05",
-        "crowd-mcq-04",
-        "crowd-mcq-06",
-        "crowd-mcq-03",
-        "crowd-mcq-07",
-        "crowd-mcq-02"
+        "crowd-pdf-orphan-01",
+        "crowd-mcq-16",
+        "crowd-mcq-19"
       ],
       "explanation": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
       "sentenceIndex": 10,
@@ -797,12 +753,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-05": "本句指「人數很多、可用空間不足而令人感到擠迫的」。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。"
+        "crowd-mcq-05": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-05"
     },
@@ -814,10 +768,8 @@ export default {
       "masked": "The webpage looks ____ because there are too many buttons and banners.",
       "options": [
         "crowd-mcq-05",
-        "crowd-mcq-04",
-        "crowd-mcq-06",
-        "crowd-mcq-03",
-        "crowd-mcq-07",
+        "crowd-mcq-16",
+        "crowd-pdf-orphan-01",
         "crowd-mcq-02"
       ],
       "explanation": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
@@ -827,12 +779,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-05": "本句指「人數很多、可用空間不足而令人感到擠迫的」。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。"
+        "crowd-mcq-05": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-05"
     },
@@ -844,11 +794,9 @@ export default {
       "masked": "The paragraph feels ____ with too many ideas.",
       "options": [
         "crowd-mcq-05",
-        "crowd-mcq-04",
-        "crowd-mcq-06",
-        "crowd-mcq-03",
-        "crowd-mcq-07",
-        "crowd-mcq-02"
+        "crowd-mcq-18",
+        "crowd-mcq-16",
+        "crowd-pdf-orphan-01"
       ],
       "explanation": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
       "sentenceIndex": 12,
@@ -857,12 +805,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-05": "本句指「人數很多、可用空間不足而令人感到擠迫的」。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。"
+        "crowd-mcq-05": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
+        "crowd-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-05"
     },
@@ -874,11 +820,9 @@ export default {
       "masked": "The slide is too ____ with information.",
       "options": [
         "crowd-mcq-05",
-        "crowd-mcq-04",
-        "crowd-mcq-06",
-        "crowd-mcq-03",
-        "crowd-mcq-07",
-        "crowd-mcq-02"
+        "crowd-mcq-19",
+        "crowd-pdf-orphan-01",
+        "crowd-mcq-16"
       ],
       "explanation": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
       "sentenceIndex": 13,
@@ -887,12 +831,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-05": "本句指「人數很多、可用空間不足而令人感到擠迫的」。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。"
+        "crowd-mcq-05": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
+        "crowd-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-05"
     },
@@ -904,11 +846,9 @@ export default {
       "masked": "I have a very ____ schedule this week.",
       "options": [
         "crowd-mcq-05",
-        "crowd-mcq-04",
-        "crowd-mcq-06",
-        "crowd-mcq-03",
-        "crowd-mcq-07",
-        "crowd-mcq-02"
+        "crowd-pdf-orphan-01",
+        "crowd-mcq-18",
+        "crowd-mcq-16"
       ],
       "explanation": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
       "sentenceIndex": 14,
@@ -917,12 +857,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-05": "本句指「人數很多、可用空間不足而令人感到擠迫的」。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。"
+        "crowd-mcq-05": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-05"
     },
@@ -934,11 +872,9 @@ export default {
       "masked": "The calendar is already ____ with meetings.",
       "options": [
         "crowd-mcq-05",
-        "crowd-mcq-04",
-        "crowd-mcq-06",
-        "crowd-mcq-03",
-        "crowd-mcq-07",
-        "crowd-mcq-02"
+        "crowd-mcq-19",
+        "crowd-mcq-16",
+        "crowd-pdf-orphan-01"
       ],
       "explanation": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
       "sentenceIndex": 15,
@@ -947,12 +883,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-05": "本句指「人數很多、可用空間不足而令人感到擠迫的」。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。"
+        "crowd-mcq-05": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
+        "crowd-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-05"
     },
@@ -964,11 +898,9 @@ export default {
       "masked": "The smartphone market is extremely ____.",
       "options": [
         "crowd-mcq-05",
-        "crowd-mcq-04",
-        "crowd-mcq-06",
-        "crowd-mcq-03",
-        "crowd-mcq-07",
-        "crowd-mcq-02"
+        "crowd-mcq-02",
+        "crowd-mcq-16",
+        "crowd-pdf-orphan-01"
       ],
       "explanation": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
       "sentenceIndex": 16,
@@ -977,12 +909,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-05": "本句指「人數很多、可用空間不足而令人感到擠迫的」。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。"
+        "crowd-mcq-05": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-05"
     },
@@ -994,11 +924,9 @@ export default {
       "masked": "It is difficult for a new brand to stand out in such a ____ field.",
       "options": [
         "crowd-mcq-05",
-        "crowd-mcq-04",
-        "crowd-mcq-06",
-        "crowd-mcq-03",
-        "crowd-mcq-07",
-        "crowd-mcq-02"
+        "crowd-mcq-19",
+        "crowd-mcq-16",
+        "crowd-pdf-orphan-01"
       ],
       "explanation": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
       "sentenceIndex": 17,
@@ -1007,12 +935,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-05": "本句指「人數很多、可用空間不足而令人感到擠迫的」。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。"
+        "crowd-mcq-05": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
+        "crowd-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-05"
     },
@@ -1024,11 +950,9 @@ export default {
       "masked": "My mind felt ____ with worries.",
       "options": [
         "crowd-mcq-05",
-        "crowd-mcq-04",
-        "crowd-mcq-06",
-        "crowd-mcq-03",
-        "crowd-mcq-07",
-        "crowd-mcq-02"
+        "crowd-pdf-orphan-01",
+        "crowd-mcq-19",
+        "crowd-mcq-16"
       ],
       "explanation": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
       "sentenceIndex": 18,
@@ -1037,12 +961,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-05": "本句指「人數很多、可用空間不足而令人感到擠迫的」。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。"
+        "crowd-mcq-05": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-05"
     },
@@ -1054,11 +976,9 @@ export default {
       "masked": "Her mind was ____ with too many thoughts.",
       "options": [
         "crowd-mcq-05",
-        "crowd-mcq-04",
-        "crowd-mcq-06",
-        "crowd-mcq-03",
-        "crowd-mcq-07",
-        "crowd-mcq-02"
+        "crowd-mcq-02",
+        "crowd-mcq-16",
+        "crowd-pdf-orphan-01"
       ],
       "explanation": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
       "sentenceIndex": 19,
@@ -1067,12 +987,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-05": "本句指「人數很多、可用空間不足而令人感到擠迫的」。",
-        "crowd-mcq-04": "「太多人、物件或元素集中在有限的物理／抽象空間內，令空間顯得不足或過密」是「crowded — core meaning」的用法，與本句語境不同。",
-        "crowd-mcq-06": "「有太多物件集中在有限空間內，令空間顯得塞得太滿的」是「crowded — objects」的用法，與本句語境不同。",
-        "crowd-mcq-03": "「一般大眾、多數人或主流群體」是「the crowd」的用法，與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」是「crowded — design」的用法，與本句語境不同。",
-        "crowd-mcq-02": "「經常一起活動、具有共同興趣或社交關係的一群人／圈子」是「crowd — social group」的用法，與本句語境不同。"
+        "crowd-mcq-05": "本句的「crowded」指「人數很多、可用空間不足而令人感到擠迫的」。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-05"
     },
@@ -1084,11 +1002,9 @@ export default {
       "masked": "People ____ around the entrance.",
       "options": [
         "crowd-pdf-plain-005",
-        "crowd-mcq-09",
-        "crowd-mcq-11",
-        "crowd-mcq-08",
-        "crowd-mcq-12",
-        "crowd-mcq-07"
+        "crowd-pdf-orphan-01",
+        "crowd-mcq-16",
+        "crowd-mcq-19"
       ],
       "explanation": "本句的「crowded」指「聚集於某處；擠滿某個地方」。",
       "sentenceIndex": 20,
@@ -1097,12 +1013,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-pdf-plain-005": "本句指「聚集於某處；擠滿某個地方」。",
-        "crowd-mcq-09": "「在有限時間中安排太多活動，令行程過密／排得太滿的」與本句語境不同。",
-        "crowd-mcq-11": "「同一時間有太多想法、擔憂或資訊佔據注意力的」與本句語境不同。",
-        "crowd-mcq-08": "「在有限篇幅中放入過多資訊／概念，令內容過度密集的」與本句語境不同。",
-        "crowd-mcq-12": "「大量人聚集、擠滿或靠近某個地方／人」與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」與本句語境不同。"
+        "crowd-pdf-plain-005": "本句的「crowded」指「聚集於某處；擠滿某個地方」。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-pdf-plain-005"
     },
@@ -1114,11 +1028,9 @@ export default {
       "masked": "Fans ____ the streets after the match.",
       "options": [
         "crowd-pdf-plain-005",
-        "crowd-mcq-09",
-        "crowd-mcq-11",
-        "crowd-mcq-08",
-        "crowd-mcq-12",
-        "crowd-mcq-07"
+        "crowd-mcq-18",
+        "crowd-pdf-orphan-01",
+        "crowd-mcq-16"
       ],
       "explanation": "本句的「crowded」指「聚集於某處；擠滿某個地方」。",
       "sentenceIndex": 21,
@@ -1127,12 +1039,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-pdf-plain-005": "本句指「聚集於某處；擠滿某個地方」。",
-        "crowd-mcq-09": "「在有限時間中安排太多活動，令行程過密／排得太滿的」與本句語境不同。",
-        "crowd-mcq-11": "「同一時間有太多想法、擔憂或資訊佔據注意力的」與本句語境不同。",
-        "crowd-mcq-08": "「在有限篇幅中放入過多資訊／概念，令內容過度密集的」與本句語境不同。",
-        "crowd-mcq-12": "「大量人聚集、擠滿或靠近某個地方／人」與本句語境不同。",
-        "crowd-mcq-07": "「視覺元素過多，令版面／構圖顯得太滿或過密的」與本句語境不同。"
+        "crowd-pdf-plain-005": "本句的「crowded」指「聚集於某處；擠滿某個地方」。",
+        "crowd-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-pdf-plain-005"
     },
@@ -1144,11 +1054,9 @@ export default {
       "masked": "Reporters ____ the actor as he left the building.",
       "options": [
         "crowd-mcq-12",
-        "crowd-mcq-11",
-        "crowd-mcq-13",
-        "crowd-mcq-10",
-        "crowd-mcq-14",
-        "crowd-mcq-09"
+        "crowd-mcq-02",
+        "crowd-mcq-15",
+        "crowd-pdf-orphan-01"
       ],
       "explanation": "本句的「crowded」指「大量人聚集、擠滿或靠近某個地方／人」。",
       "sentenceIndex": 22,
@@ -1157,12 +1065,10 @@ export default {
         "crowded"
       ],
       "optionReasons": {
-        "crowd-mcq-12": "本句指「大量人聚集、擠滿或靠近某個地方／人」。",
-        "crowd-mcq-11": "「同一時間有太多想法、擔憂或資訊佔據注意力的」是「crowded — mind」的用法，與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」是「crowding」的用法，與本句語境不同。",
-        "crowd-mcq-10": "「同一市場或領域中有太多競爭者／產品，令可用機會變少的」是「crowded — market/field」的用法，與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」是「dental crowding」的用法，與本句語境不同。",
-        "crowd-mcq-09": "「在有限時間中安排太多活動，令行程過密／排得太滿的」是「crowded — schedule」的用法，與本句語境不同。"
+        "crowd-mcq-12": "本句的「crowded」指「大量人聚集、擠滿或靠近某個地方／人」。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-12"
     },
@@ -1174,11 +1080,9 @@ export default {
       "masked": "Please don’t ____ the doorway.",
       "options": [
         "crowd-mcq-12",
-        "crowd-mcq-11",
-        "crowd-mcq-13",
-        "crowd-mcq-10",
-        "crowd-mcq-14",
-        "crowd-mcq-09"
+        "crowd-mcq-02",
+        "crowd-pdf-orphan-01",
+        "crowd-mcq-15"
       ],
       "explanation": "本句的「crowd」指「大量人聚集、擠滿或靠近某個地方／人」。",
       "sentenceIndex": 23,
@@ -1187,12 +1091,10 @@ export default {
         "crowd"
       ],
       "optionReasons": {
-        "crowd-mcq-12": "本句指「大量人聚集、擠滿或靠近某個地方／人」。",
-        "crowd-mcq-11": "「同一時間有太多想法、擔憂或資訊佔據注意力的」是「crowded — mind」的用法，與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」是「crowding」的用法，與本句語境不同。",
-        "crowd-mcq-10": "「同一市場或領域中有太多競爭者／產品，令可用機會變少的」是「crowded — market/field」的用法，與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」是「dental crowding」的用法，與本句語境不同。",
-        "crowd-mcq-09": "「在有限時間中安排太多活動，令行程過密／排得太滿的」是「crowded — schedule」的用法，與本句語境不同。"
+        "crowd-mcq-12": "本句的「crowd」指「大量人聚集、擠滿或靠近某個地方／人」。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-12"
     },
@@ -1204,11 +1106,9 @@ export default {
       "masked": "Passenger ____ is worst during rush hour.",
       "options": [
         "crowd-mcq-21",
-        "crowd-mcq-20",
         "crowd-mcq-19",
-        "crowd-mcq-18",
-        "crowd-mcq-17",
-        "crowd-mcq-16"
+        "crowd-mcq-03",
+        "crowd-mcq-05"
       ],
       "explanation": "本句的「crowding」指「表示擁擠；過度密集」。",
       "sentenceIndex": 24,
@@ -1217,12 +1117,10 @@ export default {
         "crowding"
       ],
       "optionReasons": {
-        "crowd-mcq-21": "本句指「表示擁擠；過度密集」。",
-        "crowd-mcq-20": "「把構思、資料或工作公開交由大量群眾共同提供的眾包方式」是「crowdsourcing」的用法，與本句語境不同。",
-        "crowd-mcq-19": "「由大量個人共同提供資金支持某個項目的眾籌方式」是「crowdfunding」的用法，與本句語境不同。",
-        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」是「crowd-pleaser」的用法，與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」是「crowd control」的用法，與本句語境不同。",
-        "crowd-mcq-16": "「人／物密度超過合理、安全或舒適容量的狀態」是「overcrowding」的用法，與本句語境不同。"
+        "crowd-mcq-21": "本句的「crowding」指「表示擁擠；過度密集」。",
+        "crowd-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-21"
     },
@@ -1234,11 +1132,9 @@ export default {
       "masked": "The new layout reduces ____ near the entrance.",
       "options": [
         "crowd-mcq-22",
-        "crowd-mcq-20",
-        "crowd-mcq-19",
         "crowd-mcq-18",
-        "crowd-mcq-17",
-        "crowd-mcq-16"
+        "crowd-pdf-orphan-01",
+        "crowd-mcq-15"
       ],
       "explanation": "本句的「crowding」指「表示擁擠；過度密集」。",
       "sentenceIndex": 25,
@@ -1247,12 +1143,10 @@ export default {
         "crowding"
       ],
       "optionReasons": {
-        "crowd-mcq-22": "本句指「表示擁擠；過度密集」。",
-        "crowd-mcq-20": "「把構思、資料或工作公開交由大量群眾共同提供的眾包方式」是「crowdsourcing」的用法，與本句語境不同。",
-        "crowd-mcq-19": "「由大量個人共同提供資金支持某個項目的眾籌方式」是「crowdfunding」的用法，與本句語境不同。",
-        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」是「crowd-pleaser」的用法，與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」是「crowd control」的用法，與本句語境不同。",
-        "crowd-mcq-16": "「人／物密度超過合理、安全或舒適容量的狀態」是「overcrowding」的用法，與本句語境不同。"
+        "crowd-mcq-22": "本句的「crowding」指「表示擁擠；過度密集」。",
+        "crowd-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-22"
     },
@@ -1264,11 +1158,9 @@ export default {
       "masked": "The dentist noticed mild dental ____.",
       "options": [
         "crowd-mcq-14",
-        "crowd-mcq-13",
-        "crowd-mcq-15",
-        "crowd-mcq-12",
-        "crowd-mcq-16",
-        "crowd-mcq-11"
+        "crowd-pdf-orphan-01",
+        "crowd-mcq-02",
+        "crowd-mcq-15"
       ],
       "explanation": "本句的「crowding」指「牙弓空間不足而令牙齒排列過密、重疊或不整齊」。",
       "sentenceIndex": 26,
@@ -1277,12 +1169,10 @@ export default {
         "crowding"
       ],
       "optionReasons": {
-        "crowd-mcq-14": "本句指「牙弓空間不足而令牙齒排列過密、重疊或不整齊」。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」是「crowding」的用法，與本句語境不同。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」是「overcrowded」的用法，與本句語境不同。",
-        "crowd-mcq-12": "「大量人聚集、擠滿或靠近某個地方／人」是「crowd — verb」的用法，與本句語境不同。",
-        "crowd-mcq-16": "「人／物密度超過合理、安全或舒適容量的狀態」是「overcrowding」的用法，與本句語境不同。",
-        "crowd-mcq-11": "「同一時間有太多想法、擔憂或資訊佔據注意力的」是「crowded — mind」的用法，與本句語境不同。"
+        "crowd-mcq-14": "本句的「crowding」指「牙弓空間不足而令牙齒排列過密、重疊或不整齊」。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-14"
     },
@@ -1294,11 +1184,9 @@ export default {
       "masked": "Severe ____ can make teeth difficult to clean.",
       "options": [
         "crowd-mcq-14",
-        "crowd-mcq-13",
-        "crowd-mcq-15",
-        "crowd-mcq-12",
-        "crowd-mcq-16",
-        "crowd-mcq-11"
+        "crowd-mcq-18",
+        "crowd-pdf-orphan-01",
+        "crowd-mcq-15"
       ],
       "explanation": "本句的「crowding」指「牙弓空間不足而令牙齒排列過密、重疊或不整齊」。",
       "sentenceIndex": 27,
@@ -1307,12 +1195,10 @@ export default {
         "crowding"
       ],
       "optionReasons": {
-        "crowd-mcq-14": "本句指「牙弓空間不足而令牙齒排列過密、重疊或不整齊」。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」是「crowding」的用法，與本句語境不同。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」是「overcrowded」的用法，與本句語境不同。",
-        "crowd-mcq-12": "「大量人聚集、擠滿或靠近某個地方／人」是「crowd — verb」的用法，與本句語境不同。",
-        "crowd-mcq-16": "「人／物密度超過合理、安全或舒適容量的狀態」是「overcrowding」的用法，與本句語境不同。",
-        "crowd-mcq-11": "「同一時間有太多想法、擔憂或資訊佔據注意力的」是「crowded — mind」的用法，與本句語境不同。"
+        "crowd-mcq-14": "本句的「crowding」指「牙弓空間不足而令牙齒排列過密、重疊或不整齊」。",
+        "crowd-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-14"
     },
@@ -1324,11 +1210,9 @@ export default {
       "masked": "The train was badly ____.",
       "options": [
         "crowd-mcq-15",
-        "crowd-mcq-14",
-        "crowd-mcq-16",
-        "crowd-mcq-13",
-        "crowd-mcq-17",
-        "crowd-mcq-12"
+        "crowd-mcq-02",
+        "crowd-pdf-plain-005",
+        "crowd-pdf-orphan-01"
       ],
       "explanation": "本句的「overcrowded」指「人／物數量明顯超過合理、安全或舒適容量的」。",
       "sentenceIndex": 28,
@@ -1337,12 +1221,10 @@ export default {
         "overcrowded"
       ],
       "optionReasons": {
-        "crowd-mcq-15": "本句指「人／物數量明顯超過合理、安全或舒適容量的」。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」是「dental crowding」的用法，與本句語境不同。",
-        "crowd-mcq-16": "「人／物密度超過合理、安全或舒適容量的狀態」是「overcrowding」的用法，與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」是「crowding」的用法，與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」是「crowd control」的用法，與本句語境不同。",
-        "crowd-mcq-12": "「大量人聚集、擠滿或靠近某個地方／人」是「crowd — verb」的用法，與本句語境不同。"
+        "crowd-mcq-15": "本句的「overcrowded」指「人／物數量明顯超過合理、安全或舒適容量的」。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-plain-005": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-15"
     },
@@ -1354,11 +1236,9 @@ export default {
       "masked": "Many families live in ____ housing.",
       "options": [
         "crowd-mcq-15",
-        "crowd-mcq-14",
-        "crowd-mcq-16",
-        "crowd-mcq-13",
-        "crowd-mcq-17",
-        "crowd-mcq-12"
+        "crowd-pdf-plain-005",
+        "crowd-pdf-orphan-01",
+        "crowd-mcq-02"
       ],
       "explanation": "本句的「overcrowded」指「人／物數量明顯超過合理、安全或舒適容量的」。",
       "sentenceIndex": 29,
@@ -1367,12 +1247,10 @@ export default {
         "overcrowded"
       ],
       "optionReasons": {
-        "crowd-mcq-15": "本句指「人／物數量明顯超過合理、安全或舒適容量的」。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」是「dental crowding」的用法，與本句語境不同。",
-        "crowd-mcq-16": "「人／物密度超過合理、安全或舒適容量的狀態」是「overcrowding」的用法，與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」是「crowding」的用法，與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」是「crowd control」的用法，與本句語境不同。",
-        "crowd-mcq-12": "「大量人聚集、擠滿或靠近某個地方／人」是「crowd — verb」的用法，與本句語境不同。"
+        "crowd-mcq-15": "本句的「overcrowded」指「人／物數量明顯超過合理、安全或舒適容量的」。",
+        "crowd-pdf-plain-005": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-15"
     },
@@ -1384,11 +1262,9 @@ export default {
       "masked": "The city is trying to reduce prison ____.",
       "options": [
         "crowd-mcq-16",
-        "crowd-mcq-15",
-        "crowd-mcq-17",
-        "crowd-mcq-14",
-        "crowd-mcq-18",
-        "crowd-mcq-13"
+        "crowd-pdf-plain-005",
+        "crowd-mcq-02",
+        "crowd-pdf-orphan-01"
       ],
       "explanation": "本句的「overcrowding」指「人／物密度超過合理、安全或舒適容量的狀態」。",
       "sentenceIndex": 30,
@@ -1397,12 +1273,10 @@ export default {
         "overcrowding"
       ],
       "optionReasons": {
-        "crowd-mcq-16": "本句指「人／物密度超過合理、安全或舒適容量的狀態」。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」是「overcrowded」的用法，與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」是「crowd control」的用法，與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」是「dental crowding」的用法，與本句語境不同。",
-        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」是「crowd-pleaser」的用法，與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」是「crowding」的用法，與本句語境不同。"
+        "crowd-mcq-16": "本句的「overcrowding」指「人／物密度超過合理、安全或舒適容量的狀態」。",
+        "crowd-pdf-plain-005": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-16"
     },
@@ -1414,11 +1288,9 @@ export default {
       "masked": "____ can create safety problems.",
       "options": [
         "crowd-mcq-16",
-        "crowd-mcq-15",
-        "crowd-mcq-17",
-        "crowd-mcq-14",
-        "crowd-mcq-18",
-        "crowd-mcq-13"
+        "crowd-mcq-02",
+        "crowd-pdf-plain-005",
+        "crowd-mcq-03"
       ],
       "explanation": "本句的「Overcrowding」指「人／物密度超過合理、安全或舒適容量的狀態」。",
       "sentenceIndex": 31,
@@ -1427,12 +1299,10 @@ export default {
         "Overcrowding"
       ],
       "optionReasons": {
-        "crowd-mcq-16": "本句指「人／物密度超過合理、安全或舒適容量的狀態」。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」是「overcrowded」的用法，與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」是「crowd control」的用法，與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」是「dental crowding」的用法，與本句語境不同。",
-        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」是「crowd-pleaser」的用法，與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」是「crowding」的用法，與本句語境不同。"
+        "crowd-mcq-16": "本句的「Overcrowding」指「人／物密度超過合理、安全或舒適容量的狀態」。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-plain-005": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-16"
     },
@@ -1444,11 +1314,8 @@ export default {
       "masked": "Police were responsible for ____ control.",
       "options": [
         "crowd-mcq-17",
-        "crowd-mcq-15",
         "crowd-mcq-14",
-        "crowd-mcq-18",
-        "crowd-mcq-13",
-        "crowd-mcq-01"
+        "crowd-mcq-02"
       ],
       "explanation": "本句的「crowd」指「管理大量聚集人士的移動、安全和秩序」。",
       "sentenceIndex": 32,
@@ -1457,12 +1324,9 @@ export default {
         "crowd"
       ],
       "optionReasons": {
-        "crowd-mcq-17": "本句指「管理大量聚集人士的移動、安全和秩序」。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」與本句語境不同。",
-        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」與本句語境不同。",
-        "crowd-mcq-01": "「大量人在同一地點聚集而形成的一群人」與本句語境不同。"
+        "crowd-mcq-17": "本句的「crowd」指「管理大量聚集人士的移動、安全和秩序」。",
+        "crowd-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-17"
     },
@@ -1475,10 +1339,8 @@ export default {
       "options": [
         "crowd-pdf-orphan-01",
         "crowd-mcq-15",
-        "crowd-mcq-17",
         "crowd-mcq-14",
-        "crowd-mcq-18",
-        "crowd-mcq-13"
+        "crowd-mcq-02"
       ],
       "explanation": "本句的「crowd」指「大型群眾在某情況下的行為及反應」。",
       "sentenceIndex": 33,
@@ -1487,12 +1349,10 @@ export default {
         "crowd"
       ],
       "optionReasons": {
-        "crowd-pdf-orphan-01": "本句指「大型群眾在某情況下的行為及反應」。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」與本句語境不同。",
-        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」與本句語境不同。"
+        "crowd-pdf-orphan-01": "本句的「crowd」指「大型群眾在某情況下的行為及反應」。",
+        "crowd-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-pdf-orphan-01"
     },
@@ -1504,11 +1364,9 @@ export default {
       "masked": "The song is a real ____.",
       "options": [
         "crowd-mcq-18",
+        "crowd-pdf-plain-005",
         "crowd-mcq-15",
-        "crowd-mcq-17",
-        "crowd-mcq-14",
-        "crowd-mcq-13",
-        "crowd-mcq-01"
+        "crowd-pdf-orphan-01"
       ],
       "explanation": "本句的「crowd-pleaser」指「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」。",
       "sentenceIndex": 34,
@@ -1517,12 +1375,10 @@ export default {
         "crowd-pleaser"
       ],
       "optionReasons": {
-        "crowd-mcq-18": "本句指「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」與本句語境不同。",
-        "crowd-mcq-01": "「大量人在同一地點聚集而形成的一群人」與本句語境不同。"
+        "crowd-mcq-18": "本句的「crowd-pleaser」指「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」。",
+        "crowd-pdf-plain-005": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-18"
     },
@@ -1534,11 +1390,9 @@ export default {
       "masked": "The dessert is always a ____.",
       "options": [
         "crowd-mcq-18",
-        "crowd-mcq-15",
-        "crowd-mcq-17",
-        "crowd-mcq-14",
-        "crowd-mcq-13",
-        "crowd-mcq-01"
+        "crowd-pdf-plain-005",
+        "crowd-pdf-orphan-01",
+        "crowd-mcq-16"
       ],
       "explanation": "本句的「crowd-pleaser」指「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」。",
       "sentenceIndex": 35,
@@ -1547,12 +1401,10 @@ export default {
         "crowd-pleaser"
       ],
       "optionReasons": {
-        "crowd-mcq-18": "本句指「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」與本句語境不同。",
-        "crowd-mcq-01": "「大量人在同一地點聚集而形成的一群人」與本句語境不同。"
+        "crowd-mcq-18": "本句的「crowd-pleaser」指「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」。",
+        "crowd-pdf-plain-005": "請比較這個意思與句子中標示的用法。",
+        "crowd-pdf-orphan-01": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-18"
     },
@@ -1564,11 +1416,9 @@ export default {
       "masked": "The project raised money through ____.",
       "options": [
         "crowd-mcq-19",
-        "crowd-mcq-15",
-        "crowd-mcq-17",
-        "crowd-mcq-14",
-        "crowd-mcq-18",
-        "crowd-mcq-13"
+        "crowd-mcq-05",
+        "crowd-mcq-22",
+        "crowd-mcq-15"
       ],
       "explanation": "本句的「crowdfunding」指「由大量個人共同提供資金支持某個項目的眾籌方式」。",
       "sentenceIndex": 36,
@@ -1577,12 +1427,10 @@ export default {
         "crowdfunding"
       ],
       "optionReasons": {
-        "crowd-mcq-19": "本句指「由大量個人共同提供資金支持某個項目的眾籌方式」。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」與本句語境不同。",
-        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」與本句語境不同。"
+        "crowd-mcq-19": "本句的「crowdfunding」指「由大量個人共同提供資金支持某個項目的眾籌方式」。",
+        "crowd-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-19"
     },
@@ -1594,11 +1442,9 @@ export default {
       "masked": "The company used ____ to collect ideas.",
       "options": [
         "crowd-mcq-20",
-        "crowd-mcq-15",
-        "crowd-mcq-17",
-        "crowd-mcq-14",
-        "crowd-mcq-18",
-        "crowd-mcq-13"
+        "crowd-mcq-21",
+        "crowd-mcq-05",
+        "crowd-mcq-15"
       ],
       "explanation": "本句的「crowdsourcing」指「把構思、資料或工作公開交由大量群眾共同提供的眾包方式」。",
       "sentenceIndex": 37,
@@ -1607,12 +1453,10 @@ export default {
         "crowdsourcing"
       ],
       "optionReasons": {
-        "crowd-mcq-20": "本句指「把構思、資料或工作公開交由大量群眾共同提供的眾包方式」。",
-        "crowd-mcq-15": "「人／物數量明顯超過合理、安全或舒適容量的」與本句語境不同。",
-        "crowd-mcq-17": "「管理大量聚集人士的移動、安全和秩序」與本句語境不同。",
-        "crowd-mcq-14": "「牙弓空間不足而令牙齒排列過密、重疊或不整齊」與本句語境不同。",
-        "crowd-mcq-18": "「很容易受到大量觀眾、客人或一般大眾喜愛的人／事物」與本句語境不同。",
-        "crowd-mcq-13": "「大量人／物過於密集地佔據有限空間所形成的擁擠狀態」與本句語境不同。"
+        "crowd-mcq-20": "本句的「crowdsourcing」指「把構思、資料或工作公開交由大量群眾共同提供的眾包方式」。",
+        "crowd-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crowd-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crowd-mcq-20"
     }
@@ -1624,5 +1468,7 @@ export default {
     "sha256": "4e113e80e82a7adb6646dc04c75b7834ef7ff3b0a8add452f4c6309af9f16130",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

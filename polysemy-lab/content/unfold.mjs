@@ -312,11 +312,7 @@ export default {
       "masked": "The story ____ slowly over several chapters.",
       "options": [
         "unfold-mcq-14",
-        "unfold-mcq-13",
-        "unfold-mcq-12",
-        "unfold-mcq-11",
-        "unfold-mcq-10",
-        "unfold-mcq-09"
+        "contrast-purchase"
       ],
       "explanation": "本句的「unfolds」指「逐漸展開；慢慢發展；逐步呈現」。",
       "sentenceIndex": 0,
@@ -325,12 +321,8 @@ export default {
         "unfolds"
       ],
       "optionReasons": {
-        "unfold-mcq-14": "本句指「逐漸展開；慢慢發展；逐步呈現」。",
-        "unfold-mcq-13": "「讓某事按自己的過程自然發展」是「let something unfold」的用法，與本句語境不同。",
-        "unfold-mcq-12": "「親眼看著某事逐步發展」是「watch something unfold」的用法，與本句語境不同。",
-        "unfold-mcq-11": "「隨著事態一步步發展」是「as events unfold」的用法，與本句語境不同。",
-        "unfold-mcq-10": "「正在發展、展開中的」是「unfolding — adjective」的用法，與本句語境不同。",
-        "unfold-mcq-09": "「事件逐步發展／展開的過程」是「unfolding — development」的用法，與本句語境不同。"
+        "unfold-mcq-14": "本句的「unfolds」指「逐漸展開；慢慢發展；逐步呈現」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-14"
     },
@@ -342,11 +334,7 @@ export default {
       "masked": "The meaning of the novel ____ naturally.",
       "options": [
         "unfold-mcq-14",
-        "unfold-mcq-13",
-        "unfold-mcq-12",
-        "unfold-mcq-11",
-        "unfold-mcq-10",
-        "unfold-mcq-09"
+        "contrast-purchase"
       ],
       "explanation": "本句的「unfolded」指「逐漸展開；慢慢發展；逐步呈現」。",
       "sentenceIndex": 1,
@@ -355,12 +343,8 @@ export default {
         "unfolded"
       ],
       "optionReasons": {
-        "unfold-mcq-14": "本句指「逐漸展開；慢慢發展；逐步呈現」。",
-        "unfold-mcq-13": "「讓某事按自己的過程自然發展」是「let something unfold」的用法，與本句語境不同。",
-        "unfold-mcq-12": "「親眼看著某事逐步發展」是「watch something unfold」的用法，與本句語境不同。",
-        "unfold-mcq-11": "「隨著事態一步步發展」是「as events unfold」的用法，與本句語境不同。",
-        "unfold-mcq-10": "「正在發展、展開中的」是「unfolding — adjective」的用法，與本句語境不同。",
-        "unfold-mcq-09": "「事件逐步發展／展開的過程」是「unfolding — development」的用法，與本句語境不同。"
+        "unfold-mcq-14": "本句的「unfolded」指「逐漸展開；慢慢發展；逐步呈現」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-14"
     },
@@ -372,11 +356,8 @@ export default {
       "masked": "She ____ and began to read.",
       "options": [
         "unfold-mcq-01",
-        "unfold-mcq-02",
-        "unfold-mcq-03",
-        "unfold-mcq-04",
-        "unfold-mcq-05",
-        "unfold-mcq-06"
+        "unfold-mcq-08",
+        "unfold-mcq-11"
       ],
       "explanation": "本句的「unfolded the letter」指「把摺起的東西展開／攤開」。",
       "sentenceIndex": 2,
@@ -385,12 +366,9 @@ export default {
         "unfolded the letter"
       ],
       "optionReasons": {
-        "unfold-mcq-01": "本句指「把摺起的東西展開／攤開」。",
-        "unfold-mcq-02": "「從摺疊狀態逐漸展開」是「unfold — become open」的用法，與本句語境不同。",
-        "unfold-mcq-03": "「事情、局勢等按過程逐步發展」是「unfold — events develop」的用法，與本句語境不同。",
-        "unfold-mcq-04": "「故事或情節隨時間逐步展開」是「story/plot unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-05": "「真相、資訊或情況逐步被揭示／顯現」是「unfold — become revealed」的用法，與本句語境不同。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。"
+        "unfold-mcq-01": "本句的「unfolded the letter」指「把摺起的東西展開／攤開」。",
+        "unfold-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-01"
     },
@@ -402,11 +380,8 @@ export default {
       "masked": "He ____ on the table.",
       "options": [
         "unfold-mcq-01",
-        "unfold-mcq-02",
-        "unfold-mcq-03",
-        "unfold-mcq-04",
-        "unfold-mcq-05",
-        "unfold-mcq-06"
+        "unfold-mcq-08",
+        "unfold-mcq-11"
       ],
       "explanation": "本句的「unfolded the map」指「把摺起的東西展開／攤開」。",
       "sentenceIndex": 3,
@@ -415,12 +390,9 @@ export default {
         "unfolded the map"
       ],
       "optionReasons": {
-        "unfold-mcq-01": "本句指「把摺起的東西展開／攤開」。",
-        "unfold-mcq-02": "「從摺疊狀態逐漸展開」是「unfold — become open」的用法，與本句語境不同。",
-        "unfold-mcq-03": "「事情、局勢等按過程逐步發展」是「unfold — events develop」的用法，與本句語境不同。",
-        "unfold-mcq-04": "「故事或情節隨時間逐步展開」是「story/plot unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-05": "「真相、資訊或情況逐步被揭示／顯現」是「unfold — become revealed」的用法，與本句語境不同。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。"
+        "unfold-mcq-01": "本句的「unfolded the map」指「把摺起的東西展開／攤開」。",
+        "unfold-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-01"
     },
@@ -432,11 +404,8 @@ export default {
       "masked": "The chair ____ easily.",
       "options": [
         "unfold-mcq-02",
-        "unfold-mcq-01",
-        "unfold-mcq-03",
-        "unfold-mcq-04",
-        "unfold-mcq-05",
-        "unfold-mcq-06"
+        "unfold-mcq-13",
+        "unfold-mcq-05"
       ],
       "explanation": "本句的「unfolds」指「從摺疊狀態逐漸展開」。",
       "sentenceIndex": 4,
@@ -445,12 +414,9 @@ export default {
         "unfolds"
       ],
       "optionReasons": {
-        "unfold-mcq-02": "本句指「從摺疊狀態逐漸展開」。",
-        "unfold-mcq-01": "「把摺起的東西展開／攤開」是「unfold — open something folded」的用法，與本句語境不同。",
-        "unfold-mcq-03": "「事情、局勢等按過程逐步發展」是「unfold — events develop」的用法，與本句語境不同。",
-        "unfold-mcq-04": "「故事或情節隨時間逐步展開」是「story/plot unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-05": "「真相、資訊或情況逐步被揭示／顯現」是「unfold — become revealed」的用法，與本句語境不同。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。"
+        "unfold-mcq-02": "本句的「unfolds」指「從摺疊狀態逐漸展開」。",
+        "unfold-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-02"
     },
@@ -462,11 +428,7 @@ export default {
       "masked": "The wings ____ slowly.",
       "options": [
         "unfold-mcq-02",
-        "unfold-mcq-01",
-        "unfold-mcq-03",
-        "unfold-mcq-04",
-        "unfold-mcq-05",
-        "unfold-mcq-06"
+        "unfold-mcq-08"
       ],
       "explanation": "本句的「unfolded」指「從摺疊狀態逐漸展開」。",
       "sentenceIndex": 5,
@@ -475,12 +437,8 @@ export default {
         "unfolded"
       ],
       "optionReasons": {
-        "unfold-mcq-02": "本句指「從摺疊狀態逐漸展開」。",
-        "unfold-mcq-01": "「把摺起的東西展開／攤開」是「unfold — open something folded」的用法，與本句語境不同。",
-        "unfold-mcq-03": "「事情、局勢等按過程逐步發展」是「unfold — events develop」的用法，與本句語境不同。",
-        "unfold-mcq-04": "「故事或情節隨時間逐步展開」是「story/plot unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-05": "「真相、資訊或情況逐步被揭示／顯現」是「unfold — become revealed」的用法，與本句語境不同。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。"
+        "unfold-mcq-02": "本句的「unfolded」指「從摺疊狀態逐漸展開」。",
+        "unfold-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-02"
     },
@@ -492,11 +450,7 @@ export default {
       "masked": "The events ____ over several days.",
       "options": [
         "unfold-mcq-03",
-        "unfold-mcq-02",
-        "unfold-mcq-04",
-        "unfold-mcq-01",
-        "unfold-mcq-05",
-        "unfold-mcq-06"
+        "unfold-mcq-01"
       ],
       "explanation": "本句的「unfolded」指「事情、局勢等按過程逐步發展」。",
       "sentenceIndex": 6,
@@ -505,12 +459,8 @@ export default {
         "unfolded"
       ],
       "optionReasons": {
-        "unfold-mcq-03": "本句指「事情、局勢等按過程逐步發展」。",
-        "unfold-mcq-02": "「從摺疊狀態逐漸展開」是「unfold — become open」的用法，與本句語境不同。",
-        "unfold-mcq-04": "「故事或情節隨時間逐步展開」是「story/plot unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-01": "「把摺起的東西展開／攤開」是「unfold — open something folded」的用法，與本句語境不同。",
-        "unfold-mcq-05": "「真相、資訊或情況逐步被揭示／顯現」是「unfold — become revealed」的用法，與本句語境不同。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。"
+        "unfold-mcq-03": "本句的「unfolded」指「事情、局勢等按過程逐步發展」。",
+        "unfold-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-03"
     },
@@ -522,11 +472,7 @@ export default {
       "masked": "We watched the situation ____ in real time.",
       "options": [
         "unfold-mcq-03",
-        "unfold-mcq-02",
-        "unfold-mcq-04",
-        "unfold-mcq-01",
-        "unfold-mcq-05",
-        "unfold-mcq-06"
+        "unfold-mcq-01"
       ],
       "explanation": "本句的「unfold」指「事情、局勢等按過程逐步發展」。",
       "sentenceIndex": 7,
@@ -535,12 +481,8 @@ export default {
         "unfold"
       ],
       "optionReasons": {
-        "unfold-mcq-03": "本句指「事情、局勢等按過程逐步發展」。",
-        "unfold-mcq-02": "「從摺疊狀態逐漸展開」是「unfold — become open」的用法，與本句語境不同。",
-        "unfold-mcq-04": "「故事或情節隨時間逐步展開」是「story/plot unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-01": "「把摺起的東西展開／攤開」是「unfold — open something folded」的用法，與本句語境不同。",
-        "unfold-mcq-05": "「真相、資訊或情況逐步被揭示／顯現」是「unfold — become revealed」的用法，與本句語境不同。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。"
+        "unfold-mcq-03": "本句的「unfold」指「事情、局勢等按過程逐步發展」。",
+        "unfold-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-03"
     },
@@ -552,11 +494,8 @@ export default {
       "masked": "The plot ____ through a series of memories.",
       "options": [
         "unfold-mcq-04",
-        "unfold-mcq-03",
-        "unfold-mcq-05",
-        "unfold-mcq-02",
-        "unfold-mcq-06",
-        "unfold-mcq-01"
+        "unfold-mcq-13",
+        "unfold-mcq-07"
       ],
       "explanation": "本句的「unfolds」指「故事或情節隨時間逐步展開」。",
       "sentenceIndex": 8,
@@ -565,12 +504,9 @@ export default {
         "unfolds"
       ],
       "optionReasons": {
-        "unfold-mcq-04": "本句指「故事或情節隨時間逐步展開」。",
-        "unfold-mcq-03": "「事情、局勢等按過程逐步發展」是「unfold — events develop」的用法，與本句語境不同。",
-        "unfold-mcq-05": "「真相、資訊或情況逐步被揭示／顯現」是「unfold — become revealed」的用法，與本句語境不同。",
-        "unfold-mcq-02": "「從摺疊狀態逐漸展開」是「unfold — become open」的用法，與本句語境不同。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。",
-        "unfold-mcq-01": "「把摺起的東西展開／攤開」是「unfold — open something folded」的用法，與本句語境不同。"
+        "unfold-mcq-04": "本句的「unfolds」指「故事或情節隨時間逐步展開」。",
+        "unfold-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-04"
     },
@@ -582,11 +518,8 @@ export default {
       "masked": "As the story ____, the characters become more complex.",
       "options": [
         "unfold-mcq-04",
-        "unfold-mcq-03",
-        "unfold-mcq-05",
-        "unfold-mcq-02",
-        "unfold-mcq-06",
-        "unfold-mcq-01"
+        "unfold-mcq-13",
+        "unfold-mcq-07"
       ],
       "explanation": "本句的「unfolds」指「故事或情節隨時間逐步展開」。",
       "sentenceIndex": 9,
@@ -595,12 +528,9 @@ export default {
         "unfolds"
       ],
       "optionReasons": {
-        "unfold-mcq-04": "本句指「故事或情節隨時間逐步展開」。",
-        "unfold-mcq-03": "「事情、局勢等按過程逐步發展」是「unfold — events develop」的用法，與本句語境不同。",
-        "unfold-mcq-05": "「真相、資訊或情況逐步被揭示／顯現」是「unfold — become revealed」的用法，與本句語境不同。",
-        "unfold-mcq-02": "「從摺疊狀態逐漸展開」是「unfold — become open」的用法，與本句語境不同。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。",
-        "unfold-mcq-01": "「把摺起的東西展開／攤開」是「unfold — open something folded」的用法，與本句語境不同。"
+        "unfold-mcq-04": "本句的「unfolds」指「故事或情節隨時間逐步展開」。",
+        "unfold-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-04"
     },
@@ -612,11 +542,8 @@ export default {
       "masked": "The truth ____ slowly.",
       "options": [
         "unfold-mcq-05",
-        "unfold-mcq-04",
-        "unfold-mcq-06",
-        "unfold-mcq-03",
-        "unfold-mcq-07",
-        "unfold-mcq-02"
+        "unfold-mcq-01",
+        "unfold-mcq-13"
       ],
       "explanation": "本句的「unfolded」指「真相、資訊或情況逐步被揭示／顯現」。",
       "sentenceIndex": 10,
@@ -625,12 +552,9 @@ export default {
         "unfolded"
       ],
       "optionReasons": {
-        "unfold-mcq-05": "本句指「真相、資訊或情況逐步被揭示／顯現」。",
-        "unfold-mcq-04": "「故事或情節隨時間逐步展開」是「story/plot unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。",
-        "unfold-mcq-03": "「事情、局勢等按過程逐步發展」是「unfold — events develop」的用法，與本句語境不同。",
-        "unfold-mcq-07": "「景象、情況等逐漸在某人眼前展現」是「unfold before someone」的用法，與本句語境不同。",
-        "unfold-mcq-02": "「從摺疊狀態逐漸展開」是「unfold — become open」的用法，與本句語境不同。"
+        "unfold-mcq-05": "本句的「unfolded」指「真相、資訊或情況逐步被揭示／顯現」。",
+        "unfold-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-05"
     },
@@ -642,11 +566,8 @@ export default {
       "masked": "A more complicated picture began to ____.",
       "options": [
         "unfold-mcq-05",
-        "unfold-mcq-04",
-        "unfold-mcq-06",
-        "unfold-mcq-03",
-        "unfold-mcq-07",
-        "unfold-mcq-02"
+        "unfold-mcq-13",
+        "unfold-mcq-01"
       ],
       "explanation": "本句的「unfold」指「真相、資訊或情況逐步被揭示／顯現」。",
       "sentenceIndex": 11,
@@ -655,12 +576,9 @@ export default {
         "unfold"
       ],
       "optionReasons": {
-        "unfold-mcq-05": "本句指「真相、資訊或情況逐步被揭示／顯現」。",
-        "unfold-mcq-04": "「故事或情節隨時間逐步展開」是「story/plot unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。",
-        "unfold-mcq-03": "「事情、局勢等按過程逐步發展」是「unfold — events develop」的用法，與本句語境不同。",
-        "unfold-mcq-07": "「景象、情況等逐漸在某人眼前展現」是「unfold before someone」的用法，與本句語境不同。",
-        "unfold-mcq-02": "「從摺疊狀態逐漸展開」是「unfold — become open」的用法，與本句語境不同。"
+        "unfold-mcq-05": "本句的「unfold」指「真相、資訊或情況逐步被揭示／顯現」。",
+        "unfold-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-05"
     },
@@ -672,11 +590,8 @@ export default {
       "masked": "She ____ carefully.",
       "options": [
         "unfold-mcq-06",
-        "unfold-mcq-05",
-        "unfold-mcq-07",
-        "unfold-mcq-04",
-        "unfold-mcq-08",
-        "unfold-mcq-03"
+        "unfold-mcq-13",
+        "unfold-mcq-01"
       ],
       "explanation": "本句的「unfolded the story」指「逐步講述或呈現一件事情」。",
       "sentenceIndex": 12,
@@ -685,12 +600,9 @@ export default {
         "unfolded the story"
       ],
       "optionReasons": {
-        "unfold-mcq-06": "本句指「逐步講述或呈現一件事情」。",
-        "unfold-mcq-05": "「真相、資訊或情況逐步被揭示／顯現」是「unfold — become revealed」的用法，與本句語境不同。",
-        "unfold-mcq-07": "「景象、情況等逐漸在某人眼前展現」是「unfold before someone」的用法，與本句語境不同。",
-        "unfold-mcq-04": "「故事或情節隨時間逐步展開」是「story/plot unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-08": "「計畫、過程或後果逐步成形並顯現」是「plan/process unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-03": "「事情、局勢等按過程逐步發展」是「unfold — events develop」的用法，與本句語境不同。"
+        "unfold-mcq-06": "本句的「unfolded the story」指「逐步講述或呈現一件事情」。",
+        "unfold-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-06"
     },
@@ -702,11 +614,8 @@ export default {
       "masked": "The documentary ____ of the town.",
       "options": [
         "unfold-mcq-06",
-        "unfold-mcq-05",
-        "unfold-mcq-07",
-        "unfold-mcq-04",
-        "unfold-mcq-08",
-        "unfold-mcq-03"
+        "unfold-mcq-13",
+        "unfold-mcq-01"
       ],
       "explanation": "本句的「unfolds the history」指「逐步講述或呈現一件事情」。",
       "sentenceIndex": 13,
@@ -715,12 +624,9 @@ export default {
         "unfolds the history"
       ],
       "optionReasons": {
-        "unfold-mcq-06": "本句指「逐步講述或呈現一件事情」。",
-        "unfold-mcq-05": "「真相、資訊或情況逐步被揭示／顯現」是「unfold — become revealed」的用法，與本句語境不同。",
-        "unfold-mcq-07": "「景象、情況等逐漸在某人眼前展現」是「unfold before someone」的用法，與本句語境不同。",
-        "unfold-mcq-04": "「故事或情節隨時間逐步展開」是「story/plot unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-08": "「計畫、過程或後果逐步成形並顯現」是「plan/process unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-03": "「事情、局勢等按過程逐步發展」是「unfold — events develop」的用法，與本句語境不同。"
+        "unfold-mcq-06": "本句的「unfolds the history」指「逐步講述或呈現一件事情」。",
+        "unfold-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-06"
     },
@@ -732,11 +638,8 @@ export default {
       "masked": "A beautiful valley ____.",
       "options": [
         "unfold-mcq-07",
-        "unfold-mcq-06",
-        "unfold-mcq-08",
-        "unfold-mcq-05",
-        "unfold-mcq-09",
-        "unfold-mcq-04"
+        "unfold-mcq-13",
+        "unfold-mcq-01"
       ],
       "explanation": "本句的「unfolded before us」指「景象、情況等逐漸在某人眼前展現」。",
       "sentenceIndex": 14,
@@ -745,12 +648,9 @@ export default {
         "unfolded before us"
       ],
       "optionReasons": {
-        "unfold-mcq-07": "本句指「景象、情況等逐漸在某人眼前展現」。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。",
-        "unfold-mcq-08": "「計畫、過程或後果逐步成形並顯現」是「plan/process unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-05": "「真相、資訊或情況逐步被揭示／顯現」是「unfold — become revealed」的用法，與本句語境不同。",
-        "unfold-mcq-09": "「事件逐步發展／展開的過程」是「unfolding — development」的用法，與本句語境不同。",
-        "unfold-mcq-04": "「故事或情節隨時間逐步展開」是「story/plot unfolds」的用法，與本句語境不同。"
+        "unfold-mcq-07": "本句的「unfolded before us」指「景象、情況等逐漸在某人眼前展現」。",
+        "unfold-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-07"
     },
@@ -762,11 +662,8 @@ export default {
       "masked": "The whole city seemed to ____.",
       "options": [
         "unfold-mcq-07",
-        "unfold-mcq-06",
-        "unfold-mcq-08",
-        "unfold-mcq-05",
-        "unfold-mcq-09",
-        "unfold-mcq-04"
+        "unfold-mcq-13",
+        "unfold-mcq-01"
       ],
       "explanation": "本句的「unfold below them」指「景象、情況等逐漸在某人眼前展現」。",
       "sentenceIndex": 15,
@@ -775,12 +672,9 @@ export default {
         "unfold below them"
       ],
       "optionReasons": {
-        "unfold-mcq-07": "本句指「景象、情況等逐漸在某人眼前展現」。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。",
-        "unfold-mcq-08": "「計畫、過程或後果逐步成形並顯現」是「plan/process unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-05": "「真相、資訊或情況逐步被揭示／顯現」是「unfold — become revealed」的用法，與本句語境不同。",
-        "unfold-mcq-09": "「事件逐步發展／展開的過程」是「unfolding — development」的用法，與本句語境不同。",
-        "unfold-mcq-04": "「故事或情節隨時間逐步展開」是「story/plot unfolds」的用法，與本句語境不同。"
+        "unfold-mcq-07": "本句的「unfold below them」指「景象、情況等逐漸在某人眼前展現」。",
+        "unfold-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-07"
     },
@@ -792,11 +686,8 @@ export default {
       "masked": "The plan began to ____.",
       "options": [
         "unfold-mcq-08",
-        "unfold-mcq-07",
-        "unfold-mcq-09",
-        "unfold-mcq-06",
-        "unfold-mcq-10",
-        "unfold-mcq-05"
+        "unfold-mcq-01",
+        "unfold-mcq-11"
       ],
       "explanation": "本句的「unfold」指「計畫、過程或後果逐步成形並顯現」。",
       "sentenceIndex": 16,
@@ -805,12 +696,9 @@ export default {
         "unfold"
       ],
       "optionReasons": {
-        "unfold-mcq-08": "本句指「計畫、過程或後果逐步成形並顯現」。",
-        "unfold-mcq-07": "「景象、情況等逐漸在某人眼前展現」是「unfold before someone」的用法，與本句語境不同。",
-        "unfold-mcq-09": "「事件逐步發展／展開的過程」是「unfolding — development」的用法，與本句語境不同。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。",
-        "unfold-mcq-10": "「正在發展、展開中的」是「unfolding — adjective」的用法，與本句語境不同。",
-        "unfold-mcq-05": "「真相、資訊或情況逐步被揭示／顯現」是「unfold — become revealed」的用法，與本句語境不同。"
+        "unfold-mcq-08": "本句的「unfold」指「計畫、過程或後果逐步成形並顯現」。",
+        "unfold-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-08"
     },
@@ -822,11 +710,8 @@ export default {
       "masked": "The consequences only became clear as events ____.",
       "options": [
         "unfold-mcq-08",
-        "unfold-mcq-07",
-        "unfold-mcq-09",
-        "unfold-mcq-06",
-        "unfold-mcq-10",
-        "unfold-mcq-05"
+        "unfold-mcq-01",
+        "unfold-mcq-11"
       ],
       "explanation": "本句的「unfolded」指「計畫、過程或後果逐步成形並顯現」。",
       "sentenceIndex": 17,
@@ -835,12 +720,9 @@ export default {
         "unfolded"
       ],
       "optionReasons": {
-        "unfold-mcq-08": "本句指「計畫、過程或後果逐步成形並顯現」。",
-        "unfold-mcq-07": "「景象、情況等逐漸在某人眼前展現」是「unfold before someone」的用法，與本句語境不同。",
-        "unfold-mcq-09": "「事件逐步發展／展開的過程」是「unfolding — development」的用法，與本句語境不同。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。",
-        "unfold-mcq-10": "「正在發展、展開中的」是「unfolding — adjective」的用法，與本句語境不同。",
-        "unfold-mcq-05": "「真相、資訊或情況逐步被揭示／顯現」是「unfold — become revealed」的用法，與本句語境不同。"
+        "unfold-mcq-08": "本句的「unfolded」指「計畫、過程或後果逐步成形並顯現」。",
+        "unfold-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-08"
     },
@@ -852,11 +734,7 @@ export default {
       "masked": "The ____ covered the table.",
       "options": [
         "unfold-mcq-09",
-        "unfold-mcq-08",
-        "unfold-mcq-10",
-        "unfold-mcq-07",
-        "unfold-mcq-11",
-        "unfold-mcq-06"
+        "unfold-mcq-07"
       ],
       "explanation": "本句的「unfolded map」指「事件逐步發展／展開的過程」。",
       "sentenceIndex": 18,
@@ -865,12 +743,8 @@ export default {
         "unfolded map"
       ],
       "optionReasons": {
-        "unfold-mcq-09": "本句指「事件逐步發展／展開的過程」。",
-        "unfold-mcq-08": "「計畫、過程或後果逐步成形並顯現」是「plan/process unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-10": "「正在發展、展開中的」是「unfolding — adjective」的用法，與本句語境不同。",
-        "unfold-mcq-07": "「景象、情況等逐漸在某人眼前展現」是「unfold before someone」的用法，與本句語境不同。",
-        "unfold-mcq-11": "「隨著事態一步步發展」是「as events unfold」的用法，與本句語境不同。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。"
+        "unfold-mcq-09": "本句的「unfolded map」指「事件逐步發展／展開的過程」。",
+        "unfold-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-09"
     },
@@ -882,11 +756,7 @@ export default {
       "masked": "The events ____ unexpectedly.",
       "options": [
         "unfold-mcq-09",
-        "unfold-mcq-08",
-        "unfold-mcq-10",
-        "unfold-mcq-07",
-        "unfold-mcq-11",
-        "unfold-mcq-06"
+        "unfold-mcq-07"
       ],
       "explanation": "本句的「unfolded」指「事件逐步發展／展開的過程」。",
       "sentenceIndex": 19,
@@ -895,12 +765,8 @@ export default {
         "unfolded"
       ],
       "optionReasons": {
-        "unfold-mcq-09": "本句指「事件逐步發展／展開的過程」。",
-        "unfold-mcq-08": "「計畫、過程或後果逐步成形並顯現」是「plan/process unfolds」的用法，與本句語境不同。",
-        "unfold-mcq-10": "「正在發展、展開中的」是「unfolding — adjective」的用法，與本句語境不同。",
-        "unfold-mcq-07": "「景象、情況等逐漸在某人眼前展現」是「unfold before someone」的用法，與本句語境不同。",
-        "unfold-mcq-11": "「隨著事態一步步發展」是「as events unfold」的用法，與本句語境不同。",
-        "unfold-mcq-06": "「逐步講述或呈現一件事情」是「unfold a story/account」的用法，與本句語境不同。"
+        "unfold-mcq-09": "本句的「unfolded」指「事件逐步發展／展開的過程」。",
+        "unfold-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-09"
     },
@@ -912,11 +778,8 @@ export default {
       "masked": "More details will emerge ____.",
       "options": [
         "unfold-mcq-11",
-        "unfold-mcq-10",
-        "unfold-mcq-12",
-        "unfold-mcq-09",
-        "unfold-mcq-13",
-        "unfold-mcq-08"
+        "unfold-mcq-06",
+        "unfold-mcq-01"
       ],
       "explanation": "本句的「as events unfold」指「隨著事態一步步發展」。",
       "sentenceIndex": 20,
@@ -925,12 +788,9 @@ export default {
         "as events unfold"
       ],
       "optionReasons": {
-        "unfold-mcq-11": "本句指「隨著事態一步步發展」。",
-        "unfold-mcq-10": "「正在發展、展開中的」是「unfolding — adjective」的用法，與本句語境不同。",
-        "unfold-mcq-12": "「親眼看著某事逐步發展」是「watch something unfold」的用法，與本句語境不同。",
-        "unfold-mcq-09": "「事件逐步發展／展開的過程」是「unfolding — development」的用法，與本句語境不同。",
-        "unfold-mcq-13": "「讓某事按自己的過程自然發展」是「let something unfold」的用法，與本句語境不同。",
-        "unfold-mcq-08": "「計畫、過程或後果逐步成形並顯現」是「plan/process unfolds」的用法，與本句語境不同。"
+        "unfold-mcq-11": "本句的「as events unfold」指「隨著事態一步步發展」。",
+        "unfold-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-11"
     },
@@ -942,11 +802,8 @@ export default {
       "masked": "We will understand more ____.",
       "options": [
         "unfold-mcq-11",
-        "unfold-mcq-10",
-        "unfold-mcq-12",
-        "unfold-mcq-09",
-        "unfold-mcq-13",
-        "unfold-mcq-08"
+        "unfold-mcq-08",
+        "unfold-mcq-01"
       ],
       "explanation": "本句的「as events unfold」指「隨著事態一步步發展」。",
       "sentenceIndex": 21,
@@ -955,12 +812,9 @@ export default {
         "as events unfold"
       ],
       "optionReasons": {
-        "unfold-mcq-11": "本句指「隨著事態一步步發展」。",
-        "unfold-mcq-10": "「正在發展、展開中的」是「unfolding — adjective」的用法，與本句語境不同。",
-        "unfold-mcq-12": "「親眼看著某事逐步發展」是「watch something unfold」的用法，與本句語境不同。",
-        "unfold-mcq-09": "「事件逐步發展／展開的過程」是「unfolding — development」的用法，與本句語境不同。",
-        "unfold-mcq-13": "「讓某事按自己的過程自然發展」是「let something unfold」的用法，與本句語境不同。",
-        "unfold-mcq-08": "「計畫、過程或後果逐步成形並顯現」是「plan/process unfolds」的用法，與本句語境不同。"
+        "unfold-mcq-11": "本句的「as events unfold」指「隨著事態一步步發展」。",
+        "unfold-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-11"
     },
@@ -972,11 +826,7 @@ export default {
       "masked": "Millions watched the rescue ____ live.",
       "options": [
         "unfold-mcq-12",
-        "unfold-mcq-11",
-        "unfold-mcq-13",
-        "unfold-mcq-10",
-        "unfold-mcq-14",
-        "unfold-mcq-09"
+        "unfold-mcq-01"
       ],
       "explanation": "本句的「unfold」指「親眼看著某事逐步發展」。",
       "sentenceIndex": 22,
@@ -985,12 +835,8 @@ export default {
         "unfold"
       ],
       "optionReasons": {
-        "unfold-mcq-12": "本句指「親眼看著某事逐步發展」。",
-        "unfold-mcq-11": "「隨著事態一步步發展」是「as events unfold」的用法，與本句語境不同。",
-        "unfold-mcq-13": "「讓某事按自己的過程自然發展」是「let something unfold」的用法，與本句語境不同。",
-        "unfold-mcq-10": "「正在發展、展開中的」是「unfolding — adjective」的用法，與本句語境不同。",
-        "unfold-mcq-14": "「逐漸展開；慢慢發展；逐步呈現」是「Passage meaning」的用法，與本句語境不同。",
-        "unfold-mcq-09": "「事件逐步發展／展開的過程」是「unfolding — development」的用法，與本句語境不同。"
+        "unfold-mcq-12": "本句的「unfold」指「親眼看著某事逐步發展」。",
+        "unfold-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-12"
     },
@@ -1002,11 +848,7 @@ export default {
       "masked": "She stood quietly and watched the scene ____.",
       "options": [
         "unfold-mcq-12",
-        "unfold-mcq-11",
-        "unfold-mcq-13",
-        "unfold-mcq-10",
-        "unfold-mcq-14",
-        "unfold-mcq-09"
+        "unfold-mcq-01"
       ],
       "explanation": "本句的「unfold」指「親眼看著某事逐步發展」。",
       "sentenceIndex": 23,
@@ -1015,12 +857,8 @@ export default {
         "unfold"
       ],
       "optionReasons": {
-        "unfold-mcq-12": "本句指「親眼看著某事逐步發展」。",
-        "unfold-mcq-11": "「隨著事態一步步發展」是「as events unfold」的用法，與本句語境不同。",
-        "unfold-mcq-13": "「讓某事按自己的過程自然發展」是「let something unfold」的用法，與本句語境不同。",
-        "unfold-mcq-10": "「正在發展、展開中的」是「unfolding — adjective」的用法，與本句語境不同。",
-        "unfold-mcq-14": "「逐漸展開；慢慢發展；逐步呈現」是「Passage meaning」的用法，與本句語境不同。",
-        "unfold-mcq-09": "「事件逐步發展／展開的過程」是「unfolding — development」的用法，與本句語境不同。"
+        "unfold-mcq-12": "本句的「unfold」指「親眼看著某事逐步發展」。",
+        "unfold-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-12"
     },
@@ -1032,11 +870,8 @@ export default {
       "masked": "We decided to let the conversation ____.",
       "options": [
         "unfold-mcq-13",
-        "unfold-mcq-12",
-        "unfold-mcq-14",
-        "unfold-mcq-11",
-        "unfold-mcq-10",
-        "unfold-mcq-09"
+        "unfold-mcq-05",
+        "unfold-mcq-02"
       ],
       "explanation": "本句的「unfold naturally」指「讓某事按自己的過程自然發展」。",
       "sentenceIndex": 24,
@@ -1045,12 +880,9 @@ export default {
         "unfold naturally"
       ],
       "optionReasons": {
-        "unfold-mcq-13": "本句指「讓某事按自己的過程自然發展」。",
-        "unfold-mcq-12": "「親眼看著某事逐步發展」是「watch something unfold」的用法，與本句語境不同。",
-        "unfold-mcq-14": "「逐漸展開；慢慢發展；逐步呈現」是「Passage meaning」的用法，與本句語境不同。",
-        "unfold-mcq-11": "「隨著事態一步步發展」是「as events unfold」的用法，與本句語境不同。",
-        "unfold-mcq-10": "「正在發展、展開中的」是「unfolding — adjective」的用法，與本句語境不同。",
-        "unfold-mcq-09": "「事件逐步發展／展開的過程」是「unfolding — development」的用法，與本句語境不同。"
+        "unfold-mcq-13": "本句的「unfold naturally」指「讓某事按自己的過程自然發展」。",
+        "unfold-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-13"
     },
@@ -1062,11 +894,8 @@ export default {
       "masked": "The director lets the story ____.",
       "options": [
         "unfold-mcq-13",
-        "unfold-mcq-12",
-        "unfold-mcq-14",
-        "unfold-mcq-11",
-        "unfold-mcq-10",
-        "unfold-mcq-09"
+        "unfold-mcq-05",
+        "unfold-mcq-02"
       ],
       "explanation": "本句的「unfold slowly」指「讓某事按自己的過程自然發展」。",
       "sentenceIndex": 25,
@@ -1075,12 +904,9 @@ export default {
         "unfold slowly"
       ],
       "optionReasons": {
-        "unfold-mcq-13": "本句指「讓某事按自己的過程自然發展」。",
-        "unfold-mcq-12": "「親眼看著某事逐步發展」是「watch something unfold」的用法，與本句語境不同。",
-        "unfold-mcq-14": "「逐漸展開；慢慢發展；逐步呈現」是「Passage meaning」的用法，與本句語境不同。",
-        "unfold-mcq-11": "「隨著事態一步步發展」是「as events unfold」的用法，與本句語境不同。",
-        "unfold-mcq-10": "「正在發展、展開中的」是「unfolding — adjective」的用法，與本句語境不同。",
-        "unfold-mcq-09": "「事件逐步發展／展開的過程」是「unfolding — development」的用法，與本句語境不同。"
+        "unfold-mcq-13": "本句的「unfold slowly」指「讓某事按自己的過程自然發展」。",
+        "unfold-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "unfold-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfold-mcq-13"
     }
@@ -1092,5 +918,12 @@ export default {
     "sha256": "b6ef28ab22eadcc7c321dccabb6acce822c18c39d7bb3168c6d5e93a0f8aea3c",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

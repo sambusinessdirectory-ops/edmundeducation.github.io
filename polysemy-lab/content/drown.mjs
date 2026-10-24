@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "drown-mcq-18",
-      "title": "表示力不從心；超出能力範圍",
+      "title": "力不從心；超出能力範圍",
       "form": "16. be in over your head",
       "en": "16. be in over your head",
       "zh": "表示力不從心；超出能力範圍",
@@ -389,11 +389,9 @@ export default {
       "masked": "The novel deals with grief without ____.",
       "options": [
         "drown-mcq-16",
-        "drown-mcq-15",
-        "drown-mcq-17",
+        "drown-mcq-08",
         "drown-mcq-14",
-        "drown-mcq-18",
-        "drown-mcq-13"
+        "drown-mcq-06"
       ],
       "explanation": "本句的「drowning in sadness」指「沉浸於；被……淹沒；完全陷入……之中」。",
       "sentenceIndex": 0,
@@ -402,12 +400,10 @@ export default {
         "drowning in sadness"
       ],
       "optionReasons": {
-        "drown-mcq-16": "本句指「沉浸於；被……淹沒；完全陷入……之中」。",
-        "drown-mcq-15": "「被聲音、情緒或大量事物淹沒的」是「drowned — figurative」的用法，與本句語境不同。",
-        "drown-mcq-17": "「成則成，不成則敗；只能靠自己撐過去」是「15. sink or swim」的用法，與本句語境不同。",
-        "drown-mcq-14": "「已溺斃的」是「drowned — literal」的用法，與本句語境不同。",
-        "drown-mcq-18": "「表示力不從心；超出能力範圍」是「16. be in over your head」的用法，與本句語境不同。",
-        "drown-mcq-13": "「因情緒、工作、壓力等太多而快被壓垮」是「drowning — figurative」的用法，與本句語境不同。"
+        "drown-mcq-16": "本句的「drowning in sadness」指「沉浸於；被……淹沒；完全陷入……之中」。",
+        "drown-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-16"
     },
@@ -419,11 +415,9 @@ export default {
       "masked": "She was ____ before the exam.",
       "options": [
         "drown-mcq-16",
-        "drown-mcq-15",
-        "drown-mcq-17",
-        "drown-mcq-14",
-        "drown-mcq-18",
-        "drown-mcq-13"
+        "drown-mcq-08",
+        "drown-mcq-10",
+        "drown-mcq-01"
       ],
       "explanation": "本句的「drowning in worry」指「沉浸於；被……淹沒；完全陷入……之中」。",
       "sentenceIndex": 1,
@@ -432,12 +426,10 @@ export default {
         "drowning in worry"
       ],
       "optionReasons": {
-        "drown-mcq-16": "本句指「沉浸於；被……淹沒；完全陷入……之中」。",
-        "drown-mcq-15": "「被聲音、情緒或大量事物淹沒的」是「drowned — figurative」的用法，與本句語境不同。",
-        "drown-mcq-17": "「成則成，不成則敗；只能靠自己撐過去」是「15. sink or swim」的用法，與本句語境不同。",
-        "drown-mcq-14": "「已溺斃的」是「drowned — literal」的用法，與本句語境不同。",
-        "drown-mcq-18": "「表示力不從心；超出能力範圍」是「16. be in over your head」的用法，與本句語境不同。",
-        "drown-mcq-13": "「因情緒、工作、壓力等太多而快被壓垮」是「drowning — figurative」的用法，與本句語境不同。"
+        "drown-mcq-16": "本句的「drowning in worry」指「沉浸於；被……淹沒；完全陷入……之中」。",
+        "drown-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-16"
     },
@@ -449,11 +441,9 @@ export default {
       "masked": "He nearly ____ in the river.",
       "options": [
         "drown-mcq-01",
-        "drown-mcq-02",
-        "drown-mcq-03",
-        "drown-mcq-04",
-        "drown-mcq-05",
-        "drown-mcq-06"
+        "drown-mcq-10",
+        "drown-mcq-08",
+        "drown-mcq-04"
       ],
       "explanation": "本句的「drowned」指「因在水中無法呼吸而溺水死亡」。",
       "sentenceIndex": 2,
@@ -462,12 +452,10 @@ export default {
         "drowned"
       ],
       "optionReasons": {
-        "drown-mcq-01": "本句指「因在水中無法呼吸而溺水死亡」。",
-        "drown-mcq-02": "「使人或動物浸在水中而溺死」是「drown someone/something」的用法，與本句語境不同。",
-        "drown-mcq-03": "「用大量液體把某物浸滿／淋滿」是「drown something in liquid」的用法，與本句語境不同。",
-        "drown-mcq-04": "「被大量情緒、工作、問題等完全淹沒／壓倒」是「drown in something — figurative」的用法，與本句語境不同。",
-        "drown-mcq-05": "「被悲傷／哀痛完全吞沒」是「drown in sadness/grief」的用法，與本句語境不同。",
-        "drown-mcq-06": "「工作／文件多到難以應付」是「drown in work/paperwork」的用法，與本句語境不同。"
+        "drown-mcq-01": "本句的「drowned」指「因在水中無法呼吸而溺水死亡」。",
+        "drown-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-01"
     },
@@ -479,11 +467,9 @@ export default {
       "masked": "Several people ____ after the boat sank.",
       "options": [
         "drown-mcq-01",
-        "drown-mcq-02",
-        "drown-mcq-03",
-        "drown-mcq-04",
-        "drown-mcq-05",
-        "drown-mcq-06"
+        "drown-mcq-09",
+        "drown-mcq-10",
+        "drown-mcq-16"
       ],
       "explanation": "本句的「drowned」指「因在水中無法呼吸而溺水死亡」。",
       "sentenceIndex": 3,
@@ -492,12 +478,10 @@ export default {
         "drowned"
       ],
       "optionReasons": {
-        "drown-mcq-01": "本句指「因在水中無法呼吸而溺水死亡」。",
-        "drown-mcq-02": "「使人或動物浸在水中而溺死」是「drown someone/something」的用法，與本句語境不同。",
-        "drown-mcq-03": "「用大量液體把某物浸滿／淋滿」是「drown something in liquid」的用法，與本句語境不同。",
-        "drown-mcq-04": "「被大量情緒、工作、問題等完全淹沒／壓倒」是「drown in something — figurative」的用法，與本句語境不同。",
-        "drown-mcq-05": "「被悲傷／哀痛完全吞沒」是「drown in sadness/grief」的用法，與本句語境不同。",
-        "drown-mcq-06": "「工作／文件多到難以應付」是「drown in work/paperwork」的用法，與本句語境不同。"
+        "drown-mcq-01": "本句的「drowned」指「因在水中無法呼吸而溺水死亡」。",
+        "drown-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-01"
     },
@@ -509,10 +493,8 @@ export default {
       "masked": "The flood ____ several animals.",
       "options": [
         "drown-mcq-02",
-        "drown-mcq-01",
-        "drown-mcq-03",
-        "drown-mcq-04",
-        "drown-mcq-05",
+        "drown-mcq-08",
+        "drown-mcq-17",
         "drown-mcq-06"
       ],
       "explanation": "本句的「drowned」指「使人或動物浸在水中而溺死」。",
@@ -522,12 +504,10 @@ export default {
         "drowned"
       ],
       "optionReasons": {
-        "drown-mcq-02": "本句指「使人或動物浸在水中而溺死」。",
-        "drown-mcq-01": "「因在水中無法呼吸而溺水死亡」是「drown — die in water」的用法，與本句語境不同。",
-        "drown-mcq-03": "「用大量液體把某物浸滿／淋滿」是「drown something in liquid」的用法，與本句語境不同。",
-        "drown-mcq-04": "「被大量情緒、工作、問題等完全淹沒／壓倒」是「drown in something — figurative」的用法，與本句語境不同。",
-        "drown-mcq-05": "「被悲傷／哀痛完全吞沒」是「drown in sadness/grief」的用法，與本句語境不同。",
-        "drown-mcq-06": "「工作／文件多到難以應付」是「drown in work/paperwork」的用法，與本句語境不同。"
+        "drown-mcq-02": "本句的「drowned」指「使人或動物浸在水中而溺死」。",
+        "drown-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-02"
     },
@@ -539,11 +519,9 @@ export default {
       "masked": "The story describes an attempt to ____ the victim.",
       "options": [
         "drown-mcq-02",
-        "drown-mcq-01",
-        "drown-mcq-03",
-        "drown-mcq-04",
-        "drown-mcq-05",
-        "drown-mcq-06"
+        "drown-mcq-06",
+        "drown-mcq-18",
+        "drown-mcq-05"
       ],
       "explanation": "本句的「drown」指「使人或動物浸在水中而溺死」。",
       "sentenceIndex": 5,
@@ -552,12 +530,10 @@ export default {
         "drown"
       ],
       "optionReasons": {
-        "drown-mcq-02": "本句指「使人或動物浸在水中而溺死」。",
-        "drown-mcq-01": "「因在水中無法呼吸而溺水死亡」是「drown — die in water」的用法，與本句語境不同。",
-        "drown-mcq-03": "「用大量液體把某物浸滿／淋滿」是「drown something in liquid」的用法，與本句語境不同。",
-        "drown-mcq-04": "「被大量情緒、工作、問題等完全淹沒／壓倒」是「drown in something — figurative」的用法，與本句語境不同。",
-        "drown-mcq-05": "「被悲傷／哀痛完全吞沒」是「drown in sadness/grief」的用法，與本句語境不同。",
-        "drown-mcq-06": "「工作／文件多到難以應付」是「drown in work/paperwork」的用法，與本句語境不同。"
+        "drown-mcq-02": "本句的「drown」指「使人或動物浸在水中而溺死」。",
+        "drown-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-02"
     },
@@ -569,11 +545,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "drown-mcq-03",
-        "drown-mcq-02",
-        "drown-mcq-04",
-        "drown-mcq-01",
-        "drown-mcq-05",
-        "drown-mcq-06"
+        "drown-mcq-11",
+        "drown-mcq-17",
+        "drown-mcq-18"
       ],
       "explanation": "本句的「drown the salad in dressing」指「用大量液體把某物浸滿／淋滿」。",
       "sentenceIndex": 6,
@@ -582,12 +556,10 @@ export default {
         "drown the salad in dressing"
       ],
       "optionReasons": {
-        "drown-mcq-03": "本句指「用大量液體把某物浸滿／淋滿」。",
-        "drown-mcq-02": "「使人或動物浸在水中而溺死」是「drown someone/something」的用法，與本句語境不同。",
-        "drown-mcq-04": "「被大量情緒、工作、問題等完全淹沒／壓倒」是「drown in something — figurative」的用法，與本句語境不同。",
-        "drown-mcq-01": "「因在水中無法呼吸而溺水死亡」是「drown — die in water」的用法，與本句語境不同。",
-        "drown-mcq-05": "「被悲傷／哀痛完全吞沒」是「drown in sadness/grief」的用法，與本句語境不同。",
-        "drown-mcq-06": "「工作／文件多到難以應付」是「drown in work/paperwork」的用法，與本句語境不同。"
+        "drown-mcq-03": "本句的「drown the salad in dressing」指「用大量液體把某物浸滿／淋滿」。",
+        "drown-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-03"
     },
@@ -599,11 +571,9 @@ export default {
       "masked": "The vegetables were ____.",
       "options": [
         "drown-mcq-03",
-        "drown-mcq-02",
-        "drown-mcq-04",
-        "drown-mcq-01",
-        "drown-mcq-05",
-        "drown-mcq-06"
+        "drown-mcq-10",
+        "drown-mcq-06",
+        "drown-mcq-01"
       ],
       "explanation": "本句的「drowned in sauce」指「用大量液體把某物浸滿／淋滿」。",
       "sentenceIndex": 7,
@@ -612,12 +582,10 @@ export default {
         "drowned in sauce"
       ],
       "optionReasons": {
-        "drown-mcq-03": "本句指「用大量液體把某物浸滿／淋滿」。",
-        "drown-mcq-02": "「使人或動物浸在水中而溺死」是「drown someone/something」的用法，與本句語境不同。",
-        "drown-mcq-04": "「被大量情緒、工作、問題等完全淹沒／壓倒」是「drown in something — figurative」的用法，與本句語境不同。",
-        "drown-mcq-01": "「因在水中無法呼吸而溺水死亡」是「drown — die in water」的用法，與本句語境不同。",
-        "drown-mcq-05": "「被悲傷／哀痛完全吞沒」是「drown in sadness/grief」的用法，與本句語境不同。",
-        "drown-mcq-06": "「工作／文件多到難以應付」是「drown in work/paperwork」的用法，與本句語境不同。"
+        "drown-mcq-03": "本句的「drowned in sauce」指「用大量液體把某物浸滿／淋滿」。",
+        "drown-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-03"
     },
@@ -629,11 +597,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "drown-mcq-04",
-        "drown-mcq-03",
-        "drown-mcq-05",
-        "drown-mcq-02",
-        "drown-mcq-06",
-        "drown-mcq-01"
+        "drown-mcq-18",
+        "drown-mcq-17",
+        "drown-mcq-10"
       ],
       "explanation": "本句的「drowning in paperwork」指「被大量情緒、工作、問題等完全淹沒／壓倒」。",
       "sentenceIndex": 8,
@@ -642,12 +608,10 @@ export default {
         "drowning in paperwork"
       ],
       "optionReasons": {
-        "drown-mcq-04": "本句指「被大量情緒、工作、問題等完全淹沒／壓倒」。",
-        "drown-mcq-03": "「用大量液體把某物浸滿／淋滿」是「drown something in liquid」的用法，與本句語境不同。",
-        "drown-mcq-05": "「被悲傷／哀痛完全吞沒」是「drown in sadness/grief」的用法，與本句語境不同。",
-        "drown-mcq-02": "「使人或動物浸在水中而溺死」是「drown someone/something」的用法，與本句語境不同。",
-        "drown-mcq-06": "「工作／文件多到難以應付」是「drown in work/paperwork」的用法，與本句語境不同。",
-        "drown-mcq-01": "「因在水中無法呼吸而溺水死亡」是「drown — die in water」的用法，與本句語境不同。"
+        "drown-mcq-04": "本句的「drowning in paperwork」指「被大量情緒、工作、問題等完全淹沒／壓倒」。",
+        "drown-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-04"
     },
@@ -659,11 +623,9 @@ export default {
       "masked": "She felt as if she were ____.",
       "options": [
         "drown-mcq-04",
-        "drown-mcq-03",
-        "drown-mcq-05",
+        "drown-mcq-10",
         "drown-mcq-02",
-        "drown-mcq-06",
-        "drown-mcq-01"
+        "drown-mcq-17"
       ],
       "explanation": "本句的「drowning in grief」指「被大量情緒、工作、問題等完全淹沒／壓倒」。",
       "sentenceIndex": 9,
@@ -672,12 +634,10 @@ export default {
         "drowning in grief"
       ],
       "optionReasons": {
-        "drown-mcq-04": "本句指「被大量情緒、工作、問題等完全淹沒／壓倒」。",
-        "drown-mcq-03": "「用大量液體把某物浸滿／淋滿」是「drown something in liquid」的用法，與本句語境不同。",
-        "drown-mcq-05": "「被悲傷／哀痛完全吞沒」是「drown in sadness/grief」的用法，與本句語境不同。",
-        "drown-mcq-02": "「使人或動物浸在水中而溺死」是「drown someone/something」的用法，與本句語境不同。",
-        "drown-mcq-06": "「工作／文件多到難以應付」是「drown in work/paperwork」的用法，與本句語境不同。",
-        "drown-mcq-01": "「因在水中無法呼吸而溺水死亡」是「drown — die in water」的用法，與本句語境不同。"
+        "drown-mcq-04": "本句的「drowning in grief」指「被大量情緒、工作、問題等完全淹沒／壓倒」。",
+        "drown-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-04"
     },
@@ -689,11 +649,9 @@ export default {
       "masked": "The film is sad without ____.",
       "options": [
         "drown-mcq-05",
-        "drown-mcq-04",
-        "drown-mcq-06",
-        "drown-mcq-03",
-        "drown-mcq-07",
-        "drown-mcq-02"
+        "drown-mcq-09",
+        "drown-mcq-11",
+        "drown-mcq-01"
       ],
       "explanation": "本句的「drowning in grief」指「被悲傷／哀痛完全吞沒」。",
       "sentenceIndex": 10,
@@ -702,12 +660,10 @@ export default {
         "drowning in grief"
       ],
       "optionReasons": {
-        "drown-mcq-05": "本句指「被悲傷／哀痛完全吞沒」。",
-        "drown-mcq-04": "「被大量情緒、工作、問題等完全淹沒／壓倒」是「drown in something — figurative」的用法，與本句語境不同。",
-        "drown-mcq-06": "「工作／文件多到難以應付」是「drown in work/paperwork」的用法，與本句語境不同。",
-        "drown-mcq-03": "「用大量液體把某物浸滿／淋滿」是「drown something in liquid」的用法，與本句語境不同。",
-        "drown-mcq-07": "「深陷大量債務」是「drown in debt」的用法，與本句語境不同。",
-        "drown-mcq-02": "「使人或動物浸在水中而溺死」是「drown someone/something」的用法，與本句語境不同。"
+        "drown-mcq-05": "本句的「drowning in grief」指「被悲傷／哀痛完全吞沒」。",
+        "drown-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-05"
     },
@@ -719,11 +675,9 @@ export default {
       "masked": "He spent weeks ____.",
       "options": [
         "drown-mcq-05",
-        "drown-mcq-04",
         "drown-mcq-06",
-        "drown-mcq-03",
-        "drown-mcq-07",
-        "drown-mcq-02"
+        "drown-mcq-18",
+        "drown-mcq-14"
       ],
       "explanation": "本句的「drowning in worry」指「被悲傷／哀痛完全吞沒」。",
       "sentenceIndex": 11,
@@ -732,12 +686,10 @@ export default {
         "drowning in worry"
       ],
       "optionReasons": {
-        "drown-mcq-05": "本句指「被悲傷／哀痛完全吞沒」。",
-        "drown-mcq-04": "「被大量情緒、工作、問題等完全淹沒／壓倒」是「drown in something — figurative」的用法，與本句語境不同。",
-        "drown-mcq-06": "「工作／文件多到難以應付」是「drown in work/paperwork」的用法，與本句語境不同。",
-        "drown-mcq-03": "「用大量液體把某物浸滿／淋滿」是「drown something in liquid」的用法，與本句語境不同。",
-        "drown-mcq-07": "「深陷大量債務」是「drown in debt」的用法，與本句語境不同。",
-        "drown-mcq-02": "「使人或動物浸在水中而溺死」是「drown someone/something」的用法，與本句語境不同。"
+        "drown-mcq-05": "本句的「drowning in worry」指「被悲傷／哀痛完全吞沒」。",
+        "drown-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-05"
     },
@@ -749,11 +701,9 @@ export default {
       "masked": "I’m ____ this week.",
       "options": [
         "drown-mcq-06",
-        "drown-mcq-05",
-        "drown-mcq-07",
-        "drown-mcq-04",
-        "drown-mcq-08",
-        "drown-mcq-03"
+        "drown-mcq-09",
+        "drown-mcq-03",
+        "drown-mcq-14"
       ],
       "explanation": "本句的「drowning in work」指「工作／文件多到難以應付」。",
       "sentenceIndex": 12,
@@ -762,12 +712,10 @@ export default {
         "drowning in work"
       ],
       "optionReasons": {
-        "drown-mcq-06": "本句指「工作／文件多到難以應付」。",
-        "drown-mcq-05": "「被悲傷／哀痛完全吞沒」是「drown in sadness/grief」的用法，與本句語境不同。",
-        "drown-mcq-07": "「深陷大量債務」是「drown in debt」的用法，與本句語境不同。",
-        "drown-mcq-04": "「被大量情緒、工作、問題等完全淹沒／壓倒」是「drown in something — figurative」的用法，與本句語境不同。",
-        "drown-mcq-08": "「以較大的聲音蓋過另一個聲音」是「drown out」的用法，與本句語境不同。",
-        "drown-mcq-03": "「用大量液體把某物浸滿／淋滿」是「drown something in liquid」的用法，與本句語境不同。"
+        "drown-mcq-06": "本句的「drowning in work」指「工作／文件多到難以應付」。",
+        "drown-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-06"
     },
@@ -779,11 +727,9 @@ export default {
       "masked": "The business was ____.",
       "options": [
         "drown-mcq-06",
-        "drown-mcq-05",
-        "drown-mcq-07",
-        "drown-mcq-04",
-        "drown-mcq-08",
-        "drown-mcq-03"
+        "drown-mcq-03",
+        "drown-mcq-14",
+        "drown-mcq-09"
       ],
       "explanation": "本句的「drowning in debt」指「工作／文件多到難以應付」。",
       "sentenceIndex": 13,
@@ -792,12 +738,10 @@ export default {
         "drowning in debt"
       ],
       "optionReasons": {
-        "drown-mcq-06": "本句指「工作／文件多到難以應付」。",
-        "drown-mcq-05": "「被悲傷／哀痛完全吞沒」是「drown in sadness/grief」的用法，與本句語境不同。",
-        "drown-mcq-07": "「深陷大量債務」是「drown in debt」的用法，與本句語境不同。",
-        "drown-mcq-04": "「被大量情緒、工作、問題等完全淹沒／壓倒」是「drown in something — figurative」的用法，與本句語境不同。",
-        "drown-mcq-08": "「以較大的聲音蓋過另一個聲音」是「drown out」的用法，與本句語境不同。",
-        "drown-mcq-03": "「用大量液體把某物浸滿／淋滿」是「drown something in liquid」的用法，與本句語境不同。"
+        "drown-mcq-06": "本句的「drowning in debt」指「工作／文件多到難以應付」。",
+        "drown-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-06"
     },
@@ -809,11 +753,9 @@ export default {
       "masked": "The music ____ our conversation.",
       "options": [
         "drown-mcq-08",
-        "drown-mcq-07",
-        "drown-mcq-09",
         "drown-mcq-06",
         "drown-mcq-10",
-        "drown-mcq-05"
+        "drown-mcq-14"
       ],
       "explanation": "本句的「drowned out」指「以較大的聲音蓋過另一個聲音」。",
       "sentenceIndex": 14,
@@ -822,12 +764,10 @@ export default {
         "drowned out"
       ],
       "optionReasons": {
-        "drown-mcq-08": "本句指「以較大的聲音蓋過另一個聲音」。",
-        "drown-mcq-07": "「深陷大量債務」是「drown in debt」的用法，與本句語境不同。",
-        "drown-mcq-09": "「聲音被更大的噪音蓋過而聽不見」是「be drowned out」的用法，與本句語境不同。",
-        "drown-mcq-06": "「工作／文件多到難以應付」是「drown in work/paperwork」的用法，與本句語境不同。",
-        "drown-mcq-10": "「用喝酒來暫時忘記悲傷；借酒澆愁」是「drown your sorrows」的用法，與本句語境不同。",
-        "drown-mcq-05": "「被悲傷／哀痛完全吞沒」是「drown in sadness/grief」的用法，與本句語境不同。"
+        "drown-mcq-08": "本句的「drowned out」指「以較大的聲音蓋過另一個聲音」。",
+        "drown-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-08"
     },
@@ -839,11 +779,9 @@ export default {
       "masked": "Thunder ____ his voice.",
       "options": [
         "drown-mcq-08",
-        "drown-mcq-07",
-        "drown-mcq-09",
         "drown-mcq-06",
-        "drown-mcq-10",
-        "drown-mcq-05"
+        "drown-mcq-02",
+        "drown-mcq-10"
       ],
       "explanation": "本句的「drowned out」指「以較大的聲音蓋過另一個聲音」。",
       "sentenceIndex": 15,
@@ -852,12 +790,10 @@ export default {
         "drowned out"
       ],
       "optionReasons": {
-        "drown-mcq-08": "本句指「以較大的聲音蓋過另一個聲音」。",
-        "drown-mcq-07": "「深陷大量債務」是「drown in debt」的用法，與本句語境不同。",
-        "drown-mcq-09": "「聲音被更大的噪音蓋過而聽不見」是「be drowned out」的用法，與本句語境不同。",
-        "drown-mcq-06": "「工作／文件多到難以應付」是「drown in work/paperwork」的用法，與本句語境不同。",
-        "drown-mcq-10": "「用喝酒來暫時忘記悲傷；借酒澆愁」是「drown your sorrows」的用法，與本句語境不同。",
-        "drown-mcq-05": "「被悲傷／哀痛完全吞沒」是「drown in sadness/grief」的用法，與本句語境不同。"
+        "drown-mcq-08": "本句的「drowned out」指「以較大的聲音蓋過另一個聲音」。",
+        "drown-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-08"
     },
@@ -869,11 +805,9 @@ export default {
       "masked": "Her words were ____ by applause.",
       "options": [
         "drown-mcq-09",
-        "drown-mcq-08",
         "drown-mcq-10",
-        "drown-mcq-07",
-        "drown-mcq-11",
-        "drown-mcq-06"
+        "drown-mcq-13",
+        "drown-mcq-02"
       ],
       "explanation": "本句的「drowned out」指「聲音被更大的噪音蓋過而聽不見」。",
       "sentenceIndex": 16,
@@ -882,12 +816,10 @@ export default {
         "drowned out"
       ],
       "optionReasons": {
-        "drown-mcq-09": "本句指「聲音被更大的噪音蓋過而聽不見」。",
-        "drown-mcq-08": "「以較大的聲音蓋過另一個聲音」是「drown out」的用法，與本句語境不同。",
-        "drown-mcq-10": "「用喝酒來暫時忘記悲傷；借酒澆愁」是「drown your sorrows」的用法，與本句語境不同。",
-        "drown-mcq-07": "「深陷大量債務」是「drown in debt」的用法，與本句語境不同。",
-        "drown-mcq-11": "「用過多資訊、細節等把原本重點掩蓋」是「drown something in something — abstract」的用法，與本句語境不同。",
-        "drown-mcq-06": "「工作／文件多到難以應付」是「drown in work/paperwork」的用法，與本句語境不同。"
+        "drown-mcq-09": "本句的「drowned out」指「聲音被更大的噪音蓋過而聽不見」。",
+        "drown-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-09"
     },
@@ -899,11 +831,9 @@ export default {
       "masked": "The announcement was ____ by the crowd.",
       "options": [
         "drown-mcq-09",
-        "drown-mcq-08",
-        "drown-mcq-10",
-        "drown-mcq-07",
-        "drown-mcq-11",
-        "drown-mcq-06"
+        "drown-mcq-01",
+        "drown-mcq-05",
+        "drown-mcq-13"
       ],
       "explanation": "本句的「drowned out」指「聲音被更大的噪音蓋過而聽不見」。",
       "sentenceIndex": 17,
@@ -912,12 +842,10 @@ export default {
         "drowned out"
       ],
       "optionReasons": {
-        "drown-mcq-09": "本句指「聲音被更大的噪音蓋過而聽不見」。",
-        "drown-mcq-08": "「以較大的聲音蓋過另一個聲音」是「drown out」的用法，與本句語境不同。",
-        "drown-mcq-10": "「用喝酒來暫時忘記悲傷；借酒澆愁」是「drown your sorrows」的用法，與本句語境不同。",
-        "drown-mcq-07": "「深陷大量債務」是「drown in debt」的用法，與本句語境不同。",
-        "drown-mcq-11": "「用過多資訊、細節等把原本重點掩蓋」是「drown something in something — abstract」的用法，與本句語境不同。",
-        "drown-mcq-06": "「工作／文件多到難以應付」是「drown in work/paperwork」的用法，與本句語境不同。"
+        "drown-mcq-09": "本句的「drowned out」指「聲音被更大的噪音蓋過而聽不見」。",
+        "drown-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-09"
     },
@@ -929,11 +857,9 @@ export default {
       "masked": "He went to the bar to ____.",
       "options": [
         "drown-mcq-10",
-        "drown-mcq-09",
-        "drown-mcq-11",
-        "drown-mcq-08",
         "drown-mcq-12",
-        "drown-mcq-07"
+        "drown-mcq-16",
+        "drown-mcq-13"
       ],
       "explanation": "本句的「drown his sorrows」指「用喝酒來暫時忘記悲傷；借酒澆愁」。",
       "sentenceIndex": 18,
@@ -942,12 +868,10 @@ export default {
         "drown his sorrows"
       ],
       "optionReasons": {
-        "drown-mcq-10": "本句指「用喝酒來暫時忘記悲傷；借酒澆愁」。",
-        "drown-mcq-09": "「聲音被更大的噪音蓋過而聽不見」是「be drowned out」的用法，與本句語境不同。",
-        "drown-mcq-11": "「用過多資訊、細節等把原本重點掩蓋」是「drown something in something — abstract」的用法，與本句語境不同。",
-        "drown-mcq-08": "「以較大的聲音蓋過另一個聲音」是「drown out」的用法，與本句語境不同。",
-        "drown-mcq-12": "「溺水／溺斃事件或過程」是「drowning — literal」的用法，與本句語境不同。",
-        "drown-mcq-07": "「深陷大量債務」是「drown in debt」的用法，與本句語境不同。"
+        "drown-mcq-10": "本句的「drown his sorrows」指「用喝酒來暫時忘記悲傷；借酒澆愁」。",
+        "drown-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-10"
     },
@@ -959,11 +883,9 @@ export default {
       "masked": "She joked that she needed a drink to ____.",
       "options": [
         "drown-mcq-10",
-        "drown-mcq-09",
-        "drown-mcq-11",
         "drown-mcq-08",
-        "drown-mcq-12",
-        "drown-mcq-07"
+        "drown-mcq-18",
+        "drown-mcq-01"
       ],
       "explanation": "本句的「drown her sorrows」指「用喝酒來暫時忘記悲傷；借酒澆愁」。",
       "sentenceIndex": 19,
@@ -972,12 +894,10 @@ export default {
         "drown her sorrows"
       ],
       "optionReasons": {
-        "drown-mcq-10": "本句指「用喝酒來暫時忘記悲傷；借酒澆愁」。",
-        "drown-mcq-09": "「聲音被更大的噪音蓋過而聽不見」是「be drowned out」的用法，與本句語境不同。",
-        "drown-mcq-11": "「用過多資訊、細節等把原本重點掩蓋」是「drown something in something — abstract」的用法，與本句語境不同。",
-        "drown-mcq-08": "「以較大的聲音蓋過另一個聲音」是「drown out」的用法，與本句語境不同。",
-        "drown-mcq-12": "「溺水／溺斃事件或過程」是「drowning — literal」的用法，與本句語境不同。",
-        "drown-mcq-07": "「深陷大量債務」是「drown in debt」的用法，與本句語境不同。"
+        "drown-mcq-10": "本句的「drown her sorrows」指「用喝酒來暫時忘記悲傷；借酒澆愁」。",
+        "drown-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-10"
     },
@@ -989,11 +909,9 @@ export default {
       "masked": "The speech was ____.",
       "options": [
         "drown-mcq-11",
-        "drown-mcq-10",
-        "drown-mcq-12",
-        "drown-mcq-09",
-        "drown-mcq-13",
-        "drown-mcq-08"
+        "drown-mcq-05",
+        "drown-mcq-18",
+        "drown-mcq-03"
       ],
       "explanation": "本句的「drowned in jargon」指「用過多資訊、細節等把原本重點掩蓋」。",
       "sentenceIndex": 20,
@@ -1002,12 +920,10 @@ export default {
         "drowned in jargon"
       ],
       "optionReasons": {
-        "drown-mcq-11": "本句指「用過多資訊、細節等把原本重點掩蓋」。",
-        "drown-mcq-10": "「用喝酒來暫時忘記悲傷；借酒澆愁」是「drown your sorrows」的用法，與本句語境不同。",
-        "drown-mcq-12": "「溺水／溺斃事件或過程」是「drowning — literal」的用法，與本句語境不同。",
-        "drown-mcq-09": "「聲音被更大的噪音蓋過而聽不見」是「be drowned out」的用法，與本句語境不同。",
-        "drown-mcq-13": "「因情緒、工作、壓力等太多而快被壓垮」是「drowning — figurative」的用法，與本句語境不同。",
-        "drown-mcq-08": "「以較大的聲音蓋過另一個聲音」是「drown out」的用法，與本句語境不同。"
+        "drown-mcq-11": "本句的「drowned in jargon」指「用過多資訊、細節等把原本重點掩蓋」。",
+        "drown-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-11"
     },
@@ -1019,11 +935,9 @@ export default {
       "masked": "The original idea was ____.",
       "options": [
         "drown-mcq-11",
-        "drown-mcq-10",
-        "drown-mcq-12",
-        "drown-mcq-09",
-        "drown-mcq-13",
-        "drown-mcq-08"
+        "drown-mcq-03",
+        "drown-mcq-18",
+        "drown-mcq-14"
       ],
       "explanation": "本句的「drowned in unnecessary detail」指「用過多資訊、細節等把原本重點掩蓋」。",
       "sentenceIndex": 21,
@@ -1032,12 +946,10 @@ export default {
         "drowned in unnecessary detail"
       ],
       "optionReasons": {
-        "drown-mcq-11": "本句指「用過多資訊、細節等把原本重點掩蓋」。",
-        "drown-mcq-10": "「用喝酒來暫時忘記悲傷；借酒澆愁」是「drown your sorrows」的用法，與本句語境不同。",
-        "drown-mcq-12": "「溺水／溺斃事件或過程」是「drowning — literal」的用法，與本句語境不同。",
-        "drown-mcq-09": "「聲音被更大的噪音蓋過而聽不見」是「be drowned out」的用法，與本句語境不同。",
-        "drown-mcq-13": "「因情緒、工作、壓力等太多而快被壓垮」是「drowning — figurative」的用法，與本句語境不同。",
-        "drown-mcq-08": "「以較大的聲音蓋過另一個聲音」是「drown out」的用法，與本句語境不同。"
+        "drown-mcq-11": "本句的「drowned in unnecessary detail」指「用過多資訊、細節等把原本重點掩蓋」。",
+        "drown-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-11"
     },
@@ -1049,11 +961,9 @@ export default {
       "masked": "The lifeguard prevented a ____.",
       "options": [
         "drown-mcq-12",
-        "drown-mcq-11",
+        "drown-mcq-03",
         "drown-mcq-13",
-        "drown-mcq-10",
-        "drown-mcq-14",
-        "drown-mcq-09"
+        "drown-mcq-05"
       ],
       "explanation": "本句的「drowning」指「溺水／溺斃事件或過程」。",
       "sentenceIndex": 22,
@@ -1062,12 +972,10 @@ export default {
         "drowning"
       ],
       "optionReasons": {
-        "drown-mcq-12": "本句指「溺水／溺斃事件或過程」。",
-        "drown-mcq-11": "「用過多資訊、細節等把原本重點掩蓋」是「drown something in something — abstract」的用法，與本句語境不同。",
-        "drown-mcq-13": "「因情緒、工作、壓力等太多而快被壓垮」是「drowning — figurative」的用法，與本句語境不同。",
-        "drown-mcq-10": "「用喝酒來暫時忘記悲傷；借酒澆愁」是「drown your sorrows」的用法，與本句語境不同。",
-        "drown-mcq-14": "「已溺斃的」是「drowned — literal」的用法，與本句語境不同。",
-        "drown-mcq-09": "「聲音被更大的噪音蓋過而聽不見」是「be drowned out」的用法，與本句語境不同。"
+        "drown-mcq-12": "本句的「drowning」指「溺水／溺斃事件或過程」。",
+        "drown-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-12"
     },
@@ -1079,11 +987,9 @@ export default {
       "masked": "Water safety reduces the risk of ____.",
       "options": [
         "drown-mcq-12",
-        "drown-mcq-11",
-        "drown-mcq-13",
-        "drown-mcq-10",
-        "drown-mcq-14",
-        "drown-mcq-09"
+        "drown-mcq-16",
+        "drown-mcq-03",
+        "drown-mcq-18"
       ],
       "explanation": "本句的「drowning」指「溺水／溺斃事件或過程」。",
       "sentenceIndex": 23,
@@ -1092,12 +998,10 @@ export default {
         "drowning"
       ],
       "optionReasons": {
-        "drown-mcq-12": "本句指「溺水／溺斃事件或過程」。",
-        "drown-mcq-11": "「用過多資訊、細節等把原本重點掩蓋」是「drown something in something — abstract」的用法，與本句語境不同。",
-        "drown-mcq-13": "「因情緒、工作、壓力等太多而快被壓垮」是「drowning — figurative」的用法，與本句語境不同。",
-        "drown-mcq-10": "「用喝酒來暫時忘記悲傷；借酒澆愁」是「drown your sorrows」的用法，與本句語境不同。",
-        "drown-mcq-14": "「已溺斃的」是「drowned — literal」的用法，與本句語境不同。",
-        "drown-mcq-09": "「聲音被更大的噪音蓋過而聽不見」是「be drowned out」的用法，與本句語境不同。"
+        "drown-mcq-12": "本句的「drowning」指「溺水／溺斃事件或過程」。",
+        "drown-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-12"
     },
@@ -1109,11 +1013,9 @@ export default {
       "masked": "I feel like I’m ____ in deadlines.",
       "options": [
         "drown-mcq-13",
-        "drown-mcq-12",
-        "drown-mcq-14",
-        "drown-mcq-11",
-        "drown-mcq-15",
-        "drown-mcq-10"
+        "drown-mcq-09",
+        "drown-mcq-05",
+        "drown-mcq-17"
       ],
       "explanation": "本句的「drowning」指「因情緒、工作、壓力等太多而快被壓垮」。",
       "sentenceIndex": 24,
@@ -1122,12 +1024,10 @@ export default {
         "drowning"
       ],
       "optionReasons": {
-        "drown-mcq-13": "本句指「因情緒、工作、壓力等太多而快被壓垮」。",
-        "drown-mcq-12": "「溺水／溺斃事件或過程」是「drowning — literal」的用法，與本句語境不同。",
-        "drown-mcq-14": "「已溺斃的」是「drowned — literal」的用法，與本句語境不同。",
-        "drown-mcq-11": "「用過多資訊、細節等把原本重點掩蓋」是「drown something in something — abstract」的用法，與本句語境不同。",
-        "drown-mcq-15": "「被聲音、情緒或大量事物淹沒的」是「drowned — figurative」的用法，與本句語境不同。",
-        "drown-mcq-10": "「用喝酒來暫時忘記悲傷；借酒澆愁」是「drown your sorrows」的用法，與本句語境不同。"
+        "drown-mcq-13": "本句的「drowning」指「因情緒、工作、壓力等太多而快被壓垮」。",
+        "drown-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-13"
     },
@@ -1139,11 +1039,9 @@ export default {
       "masked": "She was emotionally ____.",
       "options": [
         "drown-mcq-13",
-        "drown-mcq-12",
-        "drown-mcq-14",
-        "drown-mcq-11",
-        "drown-mcq-15",
-        "drown-mcq-10"
+        "drown-mcq-03",
+        "drown-mcq-05",
+        "drown-mcq-12"
       ],
       "explanation": "本句的「drowning」指「因情緒、工作、壓力等太多而快被壓垮」。",
       "sentenceIndex": 25,
@@ -1152,12 +1050,10 @@ export default {
         "drowning"
       ],
       "optionReasons": {
-        "drown-mcq-13": "本句指「因情緒、工作、壓力等太多而快被壓垮」。",
-        "drown-mcq-12": "「溺水／溺斃事件或過程」是「drowning — literal」的用法，與本句語境不同。",
-        "drown-mcq-14": "「已溺斃的」是「drowned — literal」的用法，與本句語境不同。",
-        "drown-mcq-11": "「用過多資訊、細節等把原本重點掩蓋」是「drown something in something — abstract」的用法，與本句語境不同。",
-        "drown-mcq-15": "「被聲音、情緒或大量事物淹沒的」是「drowned — figurative」的用法，與本句語境不同。",
-        "drown-mcq-10": "「用喝酒來暫時忘記悲傷；借酒澆愁」是「drown your sorrows」的用法，與本句語境不同。"
+        "drown-mcq-13": "本句的「drowning」指「因情緒、工作、壓力等太多而快被壓垮」。",
+        "drown-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-13"
     },
@@ -1169,11 +1065,9 @@ export default {
       "masked": "The ____ animal was found downstream.",
       "options": [
         "drown-mcq-14",
+        "drown-mcq-05",
         "drown-mcq-13",
-        "drown-mcq-15",
-        "drown-mcq-12",
-        "drown-mcq-16",
-        "drown-mcq-11"
+        "drown-mcq-17"
       ],
       "explanation": "本句的「drowned」指「已溺斃的」。",
       "sentenceIndex": 26,
@@ -1182,12 +1076,10 @@ export default {
         "drowned"
       ],
       "optionReasons": {
-        "drown-mcq-14": "本句指「已溺斃的」。",
-        "drown-mcq-13": "「因情緒、工作、壓力等太多而快被壓垮」是「drowning — figurative」的用法，與本句語境不同。",
-        "drown-mcq-15": "「被聲音、情緒或大量事物淹沒的」是「drowned — figurative」的用法，與本句語境不同。",
-        "drown-mcq-12": "「溺水／溺斃事件或過程」是「drowning — literal」的用法，與本句語境不同。",
-        "drown-mcq-16": "「沉浸於；被……淹沒；完全陷入……之中」是「Passage meaning」的用法，與本句語境不同。",
-        "drown-mcq-11": "「用過多資訊、細節等把原本重點掩蓋」是「drown something in something — abstract」的用法，與本句語境不同。"
+        "drown-mcq-14": "本句的「drowned」指「已溺斃的」。",
+        "drown-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-14"
     },
@@ -1199,11 +1091,9 @@ export default {
       "masked": "His voice was ____ by the noise.",
       "options": [
         "drown-mcq-14",
+        "drown-mcq-10",
         "drown-mcq-13",
-        "drown-mcq-15",
-        "drown-mcq-12",
-        "drown-mcq-16",
-        "drown-mcq-11"
+        "drown-mcq-17"
       ],
       "explanation": "本句的「drowned」指「已溺斃的」。",
       "sentenceIndex": 27,
@@ -1212,12 +1102,10 @@ export default {
         "drowned"
       ],
       "optionReasons": {
-        "drown-mcq-14": "本句指「已溺斃的」。",
-        "drown-mcq-13": "「因情緒、工作、壓力等太多而快被壓垮」是「drowning — figurative」的用法，與本句語境不同。",
-        "drown-mcq-15": "「被聲音、情緒或大量事物淹沒的」是「drowned — figurative」的用法，與本句語境不同。",
-        "drown-mcq-12": "「溺水／溺斃事件或過程」是「drowning — literal」的用法，與本句語境不同。",
-        "drown-mcq-16": "「沉浸於；被……淹沒；完全陷入……之中」是「Passage meaning」的用法，與本句語境不同。",
-        "drown-mcq-11": "「用過多資訊、細節等把原本重點掩蓋」是「drown something in something — abstract」的用法，與本句語境不同。"
+        "drown-mcq-14": "本句的「drowned」指「已溺斃的」。",
+        "drown-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-14"
     },
@@ -1229,11 +1117,9 @@ export default {
       "masked": "In that job, you either ____.",
       "options": [
         "drown-mcq-17",
-        "drown-mcq-16",
-        "drown-mcq-18",
-        "drown-mcq-15",
-        "drown-mcq-14",
-        "drown-mcq-13"
+        "drown-mcq-13",
+        "drown-mcq-03",
+        "drown-mcq-18"
       ],
       "explanation": "本句的「sink or swim」指「成則成，不成則敗；只能靠自己撐過去」。",
       "sentenceIndex": 28,
@@ -1242,12 +1128,10 @@ export default {
         "sink or swim"
       ],
       "optionReasons": {
-        "drown-mcq-17": "本句指「成則成，不成則敗；只能靠自己撐過去」。",
-        "drown-mcq-16": "「沉浸於；被……淹沒；完全陷入……之中」是「Passage meaning」的用法，與本句語境不同。",
-        "drown-mcq-18": "「表示力不從心；超出能力範圍」是「16. be in over your head」的用法，與本句語境不同。",
-        "drown-mcq-15": "「被聲音、情緒或大量事物淹沒的」是「drowned — figurative」的用法，與本句語境不同。",
-        "drown-mcq-14": "「已溺斃的」是「drowned — literal」的用法，與本句語境不同。",
-        "drown-mcq-13": "「因情緒、工作、壓力等太多而快被壓垮」是「drowning — figurative」的用法，與本句語境不同。"
+        "drown-mcq-17": "本句的「sink or swim」指「成則成，不成則敗；只能靠自己撐過去」。",
+        "drown-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-17"
     },
@@ -1259,11 +1143,9 @@ export default {
       "masked": "New employees were left to ____.",
       "options": [
         "drown-mcq-17",
-        "drown-mcq-16",
-        "drown-mcq-18",
-        "drown-mcq-15",
-        "drown-mcq-14",
-        "drown-mcq-13"
+        "drown-mcq-04",
+        "drown-mcq-01",
+        "drown-mcq-18"
       ],
       "explanation": "本句的「sink or swim」指「成則成，不成則敗；只能靠自己撐過去」。",
       "sentenceIndex": 29,
@@ -1272,12 +1154,10 @@ export default {
         "sink or swim"
       ],
       "optionReasons": {
-        "drown-mcq-17": "本句指「成則成，不成則敗；只能靠自己撐過去」。",
-        "drown-mcq-16": "「沉浸於；被……淹沒；完全陷入……之中」是「Passage meaning」的用法，與本句語境不同。",
-        "drown-mcq-18": "「表示力不從心；超出能力範圍」是「16. be in over your head」的用法，與本句語境不同。",
-        "drown-mcq-15": "「被聲音、情緒或大量事物淹沒的」是「drowned — figurative」的用法，與本句語境不同。",
-        "drown-mcq-14": "「已溺斃的」是「drowned — literal」的用法，與本句語境不同。",
-        "drown-mcq-13": "「因情緒、工作、壓力等太多而快被壓垮」是「drowning — figurative」的用法，與本句語境不同。"
+        "drown-mcq-17": "本句的「sink or swim」指「成則成，不成則敗；只能靠自己撐過去」。",
+        "drown-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-17"
     },
@@ -1289,11 +1169,9 @@ export default {
       "masked": "He was ____ with the project.",
       "options": [
         "drown-mcq-18",
-        "drown-mcq-17",
-        "drown-mcq-16",
-        "drown-mcq-15",
-        "drown-mcq-14",
-        "drown-mcq-13"
+        "drown-mcq-02",
+        "drown-mcq-09",
+        "drown-mcq-10"
       ],
       "explanation": "本句的「in over his head」指「表示力不從心；超出能力範圍」。",
       "sentenceIndex": 30,
@@ -1302,12 +1180,10 @@ export default {
         "in over his head"
       ],
       "optionReasons": {
-        "drown-mcq-18": "本句指「表示力不從心；超出能力範圍」。",
-        "drown-mcq-17": "「成則成，不成則敗；只能靠自己撐過去」是「15. sink or swim」的用法，與本句語境不同。",
-        "drown-mcq-16": "「沉浸於；被……淹沒；完全陷入……之中」是「Passage meaning」的用法，與本句語境不同。",
-        "drown-mcq-15": "「被聲音、情緒或大量事物淹沒的」是「drowned — figurative」的用法，與本句語境不同。",
-        "drown-mcq-14": "「已溺斃的」是「drowned — literal」的用法，與本句語境不同。",
-        "drown-mcq-13": "「因情緒、工作、壓力等太多而快被壓垮」是「drowning — figurative」的用法，與本句語境不同。"
+        "drown-mcq-18": "本句的「in over his head」指「表示力不從心；超出能力範圍」。",
+        "drown-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-18"
     },
@@ -1320,10 +1196,8 @@ export default {
       "options": [
         "drown-mcq-18",
         "drown-mcq-17",
-        "drown-mcq-16",
-        "drown-mcq-15",
         "drown-mcq-14",
-        "drown-mcq-13"
+        "drown-mcq-06"
       ],
       "explanation": "本句的「in over her head」指「表示力不從心；超出能力範圍」。",
       "sentenceIndex": 31,
@@ -1332,12 +1206,10 @@ export default {
         "in over her head"
       ],
       "optionReasons": {
-        "drown-mcq-18": "本句指「表示力不從心；超出能力範圍」。",
-        "drown-mcq-17": "「成則成，不成則敗；只能靠自己撐過去」是「15. sink or swim」的用法，與本句語境不同。",
-        "drown-mcq-16": "「沉浸於；被……淹沒；完全陷入……之中」是「Passage meaning」的用法，與本句語境不同。",
-        "drown-mcq-15": "「被聲音、情緒或大量事物淹沒的」是「drowned — figurative」的用法，與本句語境不同。",
-        "drown-mcq-14": "「已溺斃的」是「drowned — literal」的用法，與本句語境不同。",
-        "drown-mcq-13": "「因情緒、工作、壓力等太多而快被壓垮」是「drowning — figurative」的用法，與本句語境不同。"
+        "drown-mcq-18": "本句的「in over her head」指「表示力不從心；超出能力範圍」。",
+        "drown-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "drown-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drown-mcq-18"
     }
@@ -1349,5 +1221,7 @@ export default {
     "sha256": "d0c5ca27e25c5d49a2ebd25277e34bb2dcf9c454b5560497da87554621b6258e",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

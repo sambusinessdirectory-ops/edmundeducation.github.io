@@ -213,11 +213,7 @@ export default {
       "masked": "She lives ____.",
       "options": [
         "alone-mcq-01",
-        "alone-mcq-02",
-        "alone-mcq-03",
-        "alone-mcq-04",
-        "alone-mcq-05",
-        "alone-mcq-06"
+        "alone-mcq-07"
       ],
       "explanation": "本句的「alone」指「沒有其他人陪伴或在場；獨自一人」。",
       "sentenceIndex": 0,
@@ -226,12 +222,8 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-01": "本句指「沒有其他人陪伴或在場；獨自一人」。",
-        "alone-mcq-02": "「沒有別人協助，只靠自己完成或承擔」是「alone — without help」的用法，與本句語境不同。",
-        "alone-mcq-03": "「單憑某一個人、事物、因素本身；僅僅這一點」是「X alone — only/by itself」的用法，與本句語境不同。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。"
+        "alone-mcq-01": "本句的「alone」指「沒有其他人陪伴或在場；獨自一人」。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-01"
     },
@@ -243,11 +235,7 @@ export default {
       "masked": "I travelled ____ for the first time.",
       "options": [
         "alone-mcq-01",
-        "alone-mcq-02",
-        "alone-mcq-03",
-        "alone-mcq-04",
-        "alone-mcq-05",
-        "alone-mcq-06"
+        "alone-mcq-07"
       ],
       "explanation": "本句的「alone」指「沒有其他人陪伴或在場；獨自一人」。",
       "sentenceIndex": 1,
@@ -256,12 +244,8 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-01": "本句指「沒有其他人陪伴或在場；獨自一人」。",
-        "alone-mcq-02": "「沒有別人協助，只靠自己完成或承擔」是「alone — without help」的用法，與本句語境不同。",
-        "alone-mcq-03": "「單憑某一個人、事物、因素本身；僅僅這一點」是「X alone — only/by itself」的用法，與本句語境不同。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。"
+        "alone-mcq-01": "本句的「alone」指「沒有其他人陪伴或在場；獨自一人」。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-01"
     },
@@ -273,11 +257,8 @@ export default {
       "masked": "She completed the project ____.",
       "options": [
         "alone-mcq-02",
-        "alone-mcq-01",
-        "alone-mcq-03",
-        "alone-mcq-04",
-        "alone-mcq-05",
-        "alone-mcq-06"
+        "alone-mcq-07",
+        "alone-mcq-08"
       ],
       "explanation": "本句的「alone」指「沒有別人協助，只靠自己完成或承擔」。",
       "sentenceIndex": 2,
@@ -286,12 +267,9 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-02": "本句指「沒有別人協助，只靠自己完成或承擔」。",
-        "alone-mcq-01": "「沒有其他人陪伴或在場；獨自一人」是「alone — without people」的用法，與本句語境不同。",
-        "alone-mcq-03": "「單憑某一個人、事物、因素本身；僅僅這一點」是「X alone — only/by itself」的用法，與本句語境不同。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。"
+        "alone-mcq-02": "本句的「alone」指「沒有別人協助，只靠自己完成或承擔」。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "alone-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-02"
     },
@@ -303,11 +281,8 @@ export default {
       "masked": "You do not have to solve this ____.",
       "options": [
         "alone-mcq-02",
-        "alone-mcq-01",
-        "alone-mcq-03",
-        "alone-mcq-04",
-        "alone-mcq-05",
-        "alone-mcq-06"
+        "alone-mcq-07",
+        "alone-mcq-08"
       ],
       "explanation": "本句的「alone」指「沒有別人協助，只靠自己完成或承擔」。",
       "sentenceIndex": 3,
@@ -316,12 +291,9 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-02": "本句指「沒有別人協助，只靠自己完成或承擔」。",
-        "alone-mcq-01": "「沒有其他人陪伴或在場；獨自一人」是「alone — without people」的用法，與本句語境不同。",
-        "alone-mcq-03": "「單憑某一個人、事物、因素本身；僅僅這一點」是「X alone — only/by itself」的用法，與本句語境不同。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。"
+        "alone-mcq-02": "本句的「alone」指「沒有別人協助，只靠自己完成或承擔」。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "alone-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-02"
     },
@@ -333,11 +305,8 @@ export default {
       "masked": "That ____ makes me curious.",
       "options": [
         "alone-mcq-03",
-        "alone-mcq-02",
-        "alone-mcq-04",
-        "alone-mcq-01",
         "alone-mcq-05",
-        "alone-mcq-06"
+        "alone-mcq-07"
       ],
       "explanation": "本句的「alone」指「單憑某一個人、事物、因素本身；僅僅這一點」。",
       "sentenceIndex": 4,
@@ -346,12 +315,9 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-03": "本句指「單憑某一個人、事物、因素本身；僅僅這一點」。",
-        "alone-mcq-02": "「沒有別人協助，只靠自己完成或承擔」是「alone — without help」的用法，與本句語境不同。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-01": "「沒有其他人陪伴或在場；獨自一人」是「alone — without people」的用法，與本句語境不同。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。"
+        "alone-mcq-03": "本句的「alone」指「單憑某一個人、事物、因素本身；僅僅這一點」。",
+        "alone-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-03"
     },
@@ -363,11 +329,8 @@ export default {
       "masked": "The cost ____ would stop many people from buying it.",
       "options": [
         "alone-mcq-03",
-        "alone-mcq-02",
-        "alone-mcq-04",
-        "alone-mcq-01",
-        "alone-mcq-05",
-        "alone-mcq-06"
+        "alone-mcq-08",
+        "alone-mcq-07"
       ],
       "explanation": "本句的「alone」指「單憑某一個人、事物、因素本身；僅僅這一點」。",
       "sentenceIndex": 5,
@@ -376,12 +339,9 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-03": "本句指「單憑某一個人、事物、因素本身；僅僅這一點」。",
-        "alone-mcq-02": "「沒有別人協助，只靠自己完成或承擔」是「alone — without help」的用法，與本句語境不同。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-01": "「沒有其他人陪伴或在場；獨自一人」是「alone — without people」的用法，與本句語境不同。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。"
+        "alone-mcq-03": "本句的「alone」指「單憑某一個人、事物、因素本身；僅僅這一點」。",
+        "alone-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-03"
     },
@@ -393,11 +353,8 @@ export default {
       "masked": "Her experience ____ makes her a strong candidate.",
       "options": [
         "alone-mcq-03",
-        "alone-mcq-02",
-        "alone-mcq-04",
-        "alone-mcq-01",
-        "alone-mcq-05",
-        "alone-mcq-06"
+        "alone-mcq-08",
+        "alone-mcq-07"
       ],
       "explanation": "本句的「alone」指「單憑某一個人、事物、因素本身；僅僅這一點」。",
       "sentenceIndex": 6,
@@ -406,12 +363,9 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-03": "本句指「單憑某一個人、事物、因素本身；僅僅這一點」。",
-        "alone-mcq-02": "「沒有別人協助，只靠自己完成或承擔」是「alone — without help」的用法，與本句語境不同。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-01": "「沒有其他人陪伴或在場；獨自一人」是「alone — without people」的用法，與本句語境不同。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。"
+        "alone-mcq-03": "本句的「alone」指「單憑某一個人、事物、因素本身；僅僅這一點」。",
+        "alone-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-03"
     },
@@ -423,11 +377,8 @@ export default {
       "masked": "She ____ understood what had happened.",
       "options": [
         "alone-pdf-001",
-        "alone-mcq-02",
-        "alone-mcq-04",
-        "alone-mcq-01",
-        "alone-mcq-05",
-        "alone-mcq-06"
+        "alone-mcq-07",
+        "alone-mcq-08"
       ],
       "explanation": "本句的「alone」指「只有 X；唯獨 X；其他人／事物都不包括在內」。",
       "sentenceIndex": 7,
@@ -436,12 +387,9 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-pdf-001": "本句指「只有 X；唯獨 X；其他人／事物都不包括在內」。",
-        "alone-mcq-02": "「沒有別人協助，只靠自己完成或承擔」是「alone — without help」的用法，與本句語境不同。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-01": "「沒有其他人陪伴或在場；獨自一人」是「alone — without people」的用法，與本句語境不同。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。"
+        "alone-pdf-001": "本句的「alone」指「只有 X；唯獨 X；其他人／事物都不包括在內」。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "alone-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-pdf-001"
     },
@@ -453,11 +401,8 @@ export default {
       "masked": "This reason ____ is enough to reject the proposal.",
       "options": [
         "alone-pdf-001",
-        "alone-mcq-02",
-        "alone-mcq-04",
-        "alone-mcq-01",
-        "alone-mcq-05",
-        "alone-mcq-06"
+        "alone-mcq-07",
+        "alone-mcq-08"
       ],
       "explanation": "本句的「alone」指「只有 X；唯獨 X；其他人／事物都不包括在內」。",
       "sentenceIndex": 8,
@@ -466,12 +411,9 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-pdf-001": "本句指「只有 X；唯獨 X；其他人／事物都不包括在內」。",
-        "alone-mcq-02": "「沒有別人協助，只靠自己完成或承擔」是「alone — without help」的用法，與本句語境不同。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-01": "「沒有其他人陪伴或在場；獨自一人」是「alone — without people」的用法，與本句語境不同。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。"
+        "alone-pdf-001": "本句的「alone」指「只有 X；唯獨 X；其他人／事物都不包括在內」。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "alone-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-pdf-001"
     },
@@ -483,11 +425,7 @@ export default {
       "masked": "The house stood ____ on the hill.",
       "options": [
         "alone-mcq-04",
-        "alone-mcq-03",
-        "alone-mcq-05",
-        "alone-mcq-02",
-        "alone-mcq-06",
-        "alone-mcq-01"
+        "alone-mcq-07"
       ],
       "explanation": "本句的「alone」指「與其他人或事物分開、獨自存在；屬於 without-others 義」。",
       "sentenceIndex": 9,
@@ -496,12 +434,8 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-04": "本句指「與其他人或事物分開、獨自存在；屬於 without-others 義」。",
-        "alone-mcq-03": "「單憑某一個人、事物、因素本身；僅僅這一點」是「X alone — only/by itself」的用法，與本句語境不同。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-02": "「沒有別人協助，只靠自己完成或承擔」是「alone — without help」的用法，與本句語境不同。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。",
-        "alone-mcq-01": "「沒有其他人陪伴或在場；獨自一人」是「alone — without people」的用法，與本句語境不同。"
+        "alone-mcq-04": "本句的「alone」指「與其他人或事物分開、獨自存在；屬於 without-others 義」。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-04"
     },
@@ -513,11 +447,7 @@ export default {
       "masked": "One tree remained ____ in the field.",
       "options": [
         "alone-mcq-04",
-        "alone-mcq-03",
-        "alone-mcq-05",
-        "alone-mcq-02",
-        "alone-mcq-06",
-        "alone-mcq-01"
+        "alone-mcq-07"
       ],
       "explanation": "本句的「alone」指「與其他人或事物分開、獨自存在；屬於 without-others 義」。",
       "sentenceIndex": 10,
@@ -526,12 +456,8 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-04": "本句指「與其他人或事物分開、獨自存在；屬於 without-others 義」。",
-        "alone-mcq-03": "「單憑某一個人、事物、因素本身；僅僅這一點」是「X alone — only/by itself」的用法，與本句語境不同。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-02": "「沒有別人協助，只靠自己完成或承擔」是「alone — without help」的用法，與本句語境不同。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。",
-        "alone-mcq-01": "「沒有其他人陪伴或在場；獨自一人」是「alone — without people」的用法，與本句語境不同。"
+        "alone-mcq-04": "本句的「alone」指「與其他人或事物分開、獨自存在；屬於 without-others 義」。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-04"
     },
@@ -543,11 +469,8 @@ export default {
       "masked": "Please leave me ____.",
       "options": [
         "alone-mcq-06",
-        "alone-mcq-05",
         "alone-mcq-07",
-        "alone-mcq-04",
-        "alone-mcq-08",
-        "alone-mcq-03"
+        "alone-mcq-08"
       ],
       "explanation": "本句的「alone」指「不打擾、不干涉某人／某物」。",
       "sentenceIndex": 11,
@@ -556,12 +479,9 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-06": "本句指「不打擾、不干涉某人／某物」。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-07": "「更不用說；遑論」是「let alone」的用法，與本句語境不同。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-08": "「獨自一人的狀態；較低頻」是「aloneness」的用法，與本句語境不同。",
-        "alone-mcq-03": "「單憑某一個人、事物、因素本身；僅僅這一點」是「X alone — only/by itself」的用法，與本句語境不同。"
+        "alone-mcq-06": "本句的「alone」指「不打擾、不干涉某人／某物」。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "alone-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-06"
     },
@@ -573,11 +493,8 @@ export default {
       "masked": "Leave the machine ____ until it cools down.",
       "options": [
         "alone-mcq-06",
-        "alone-mcq-05",
-        "alone-mcq-07",
-        "alone-mcq-04",
         "alone-mcq-08",
-        "alone-mcq-03"
+        "alone-mcq-07"
       ],
       "explanation": "本句的「alone」指「不打擾、不干涉某人／某物」。",
       "sentenceIndex": 12,
@@ -586,12 +503,9 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-06": "本句指「不打擾、不干涉某人／某物」。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-07": "「更不用說；遑論」是「let alone」的用法，與本句語境不同。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-08": "「獨自一人的狀態；較低頻」是「aloneness」的用法，與本句語境不同。",
-        "alone-mcq-03": "「單憑某一個人、事物、因素本身；僅僅這一點」是「X alone — only/by itself」的用法，與本句語境不同。"
+        "alone-mcq-06": "本句的「alone」指「不打擾、不干涉某人／某物」。",
+        "alone-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-06"
     },
@@ -603,11 +517,7 @@ export default {
       "masked": "He can barely walk, ____ run.",
       "options": [
         "alone-mcq-07",
-        "alone-mcq-06",
-        "alone-mcq-08",
-        "alone-mcq-05",
-        "alone-mcq-04",
-        "alone-mcq-03"
+        "alone-mcq-01"
       ],
       "explanation": "本句的「let alone」指「更不用說；遑論」。",
       "sentenceIndex": 13,
@@ -616,12 +526,8 @@ export default {
         "let alone"
       ],
       "optionReasons": {
-        "alone-mcq-07": "本句指「更不用說；遑論」。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。",
-        "alone-mcq-08": "「獨自一人的狀態；較低頻」是「aloneness」的用法，與本句語境不同。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-03": "「單憑某一個人、事物、因素本身；僅僅這一點」是「X alone — only/by itself」的用法，與本句語境不同。"
+        "alone-mcq-07": "本句的「let alone」指「更不用說；遑論」。",
+        "alone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-07"
     },
@@ -634,10 +540,7 @@ export default {
       "options": [
         "alone-mcq-07",
         "alone-mcq-06",
-        "alone-mcq-08",
-        "alone-mcq-05",
-        "alone-mcq-04",
-        "alone-mcq-03"
+        "alone-mcq-08"
       ],
       "explanation": "本句的「let alone」指「更不用說；遑論」。",
       "sentenceIndex": 14,
@@ -646,12 +549,9 @@ export default {
         "let alone"
       ],
       "optionReasons": {
-        "alone-mcq-07": "本句指「更不用說；遑論」。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。",
-        "alone-mcq-08": "「獨自一人的狀態；較低頻」是「aloneness」的用法，與本句語境不同。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-03": "「單憑某一個人、事物、因素本身；僅僅這一點」是「X alone — only/by itself」的用法，與本句語境不同。"
+        "alone-mcq-07": "本句的「let alone」指「更不用說；遑論」。",
+        "alone-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "alone-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-07"
     },
@@ -663,11 +563,8 @@ export default {
       "masked": "The child was sitting there all ____.",
       "options": [
         "alone-mcq-05",
-        "alone-mcq-04",
-        "alone-mcq-06",
         "alone-mcq-03",
-        "alone-mcq-07",
-        "alone-mcq-02"
+        "alone-mcq-07"
       ],
       "explanation": "本句的「alone」指「完全獨自一人；孤零零地」。",
       "sentenceIndex": 15,
@@ -676,12 +573,9 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-05": "本句指「完全獨自一人；孤零零地」。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。",
-        "alone-mcq-03": "「單憑某一個人、事物、因素本身；僅僅這一點」是「X alone — only/by itself」的用法，與本句語境不同。",
-        "alone-mcq-07": "「更不用說；遑論」是「let alone」的用法，與本句語境不同。",
-        "alone-mcq-02": "「沒有別人協助，只靠自己完成或承擔」是「alone — without help」的用法，與本句語境不同。"
+        "alone-mcq-05": "本句的「alone」指「完全獨自一人；孤零零地」。",
+        "alone-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-05"
     },
@@ -693,11 +587,8 @@ export default {
       "masked": "I spent the evening all ____.",
       "options": [
         "alone-mcq-05",
-        "alone-mcq-04",
-        "alone-mcq-06",
-        "alone-mcq-03",
         "alone-mcq-07",
-        "alone-mcq-02"
+        "alone-mcq-06"
       ],
       "explanation": "本句的「alone」指「完全獨自一人；孤零零地」。",
       "sentenceIndex": 16,
@@ -706,12 +597,9 @@ export default {
         "alone"
       ],
       "optionReasons": {
-        "alone-mcq-05": "本句指「完全獨自一人；孤零零地」。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。",
-        "alone-mcq-03": "「單憑某一個人、事物、因素本身；僅僅這一點」是「X alone — only/by itself」的用法，與本句語境不同。",
-        "alone-mcq-07": "「更不用說；遑論」是「let alone」的用法，與本句語境不同。",
-        "alone-mcq-02": "「沒有別人協助，只靠自己完成或承擔」是「alone — without help」的用法，與本句語境不同。"
+        "alone-mcq-05": "本句的「alone」指「完全獨自一人；孤零零地」。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "alone-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-05"
     },
@@ -724,10 +612,7 @@ export default {
       "options": [
         "alone-mcq-08",
         "alone-mcq-07",
-        "alone-mcq-06",
-        "alone-mcq-05",
-        "alone-mcq-04",
-        "alone-mcq-03"
+        "alone-mcq-06"
       ],
       "explanation": "本句的「aloneness」指「獨自一人的狀態；較低頻」。",
       "sentenceIndex": 17,
@@ -736,12 +621,9 @@ export default {
         "aloneness"
       ],
       "optionReasons": {
-        "alone-mcq-08": "本句指「獨自一人的狀態；較低頻」。",
-        "alone-mcq-07": "「更不用說；遑論」是「let alone」的用法，與本句語境不同。",
-        "alone-mcq-06": "「不打擾、不干涉某人／某物」是「leave someone alone」的用法，與本句語境不同。",
-        "alone-mcq-05": "「完全獨自一人；孤零零地」是「all alone」的用法，與本句語境不同。",
-        "alone-mcq-04": "「與其他人或事物分開、獨自存在；屬於 without-others 義」是「alone — isolated/separate」的用法，與本句語境不同。",
-        "alone-mcq-03": "「單憑某一個人、事物、因素本身；僅僅這一點」是「X alone — only/by itself」的用法，與本句語境不同。"
+        "alone-mcq-08": "本句的「aloneness」指「獨自一人的狀態；較低頻」。",
+        "alone-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "alone-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "alone-mcq-08"
     }
@@ -753,5 +635,7 @@ export default {
     "sha256": "ac0859d548542614f8d999f6010d262570dd09ce6aa4b4bc1844179d72986742",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

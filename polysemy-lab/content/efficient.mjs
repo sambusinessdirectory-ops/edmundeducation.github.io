@@ -438,11 +438,9 @@ export default {
       "masked": "The change made me more ____.",
       "options": [
         "efficient-mcq-01",
-        "efficient-mcq-02",
-        "efficient-mcq-03",
-        "efficient-mcq-04",
-        "efficient-mcq-05",
-        "efficient-mcq-06"
+        "efficient-mcq-16",
+        "efficient-mcq-12",
+        "efficient-mcq-13"
       ],
       "explanation": "本句的「efficient」指「有效率的；高效的」。",
       "sentenceIndex": 0,
@@ -451,12 +449,10 @@ export default {
         "efficient"
       ],
       "optionReasons": {
-        "efficient-mcq-01": "本句指「有效率的；高效的」。",
-        "efficient-mcq-02": "「高效的員工」與本句語境不同。",
-        "efficient-mcq-03": "「高效系統」與本句語境不同。",
-        "efficient-mcq-04": "「高效方法」與本句語境不同。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。"
+        "efficient-mcq-01": "本句的「efficient」指「有效率的；高效的」。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-01"
     },
@@ -468,11 +464,9 @@ export default {
       "masked": "She is an extremely ____.",
       "options": [
         "efficient-mcq-01",
-        "efficient-mcq-02",
-        "efficient-mcq-03",
-        "efficient-mcq-04",
-        "efficient-mcq-05",
-        "efficient-mcq-06"
+        "efficient-mcq-13",
+        "efficient-mcq-16",
+        "efficient-mcq-12"
       ],
       "explanation": "本句的「efficient worker」指「有效率的；高效的」。",
       "sentenceIndex": 1,
@@ -481,12 +475,10 @@ export default {
         "efficient worker"
       ],
       "optionReasons": {
-        "efficient-mcq-01": "本句指「有效率的；高效的」。",
-        "efficient-mcq-02": "「高效的員工」與本句語境不同。",
-        "efficient-mcq-03": "「高效系統」與本句語境不同。",
-        "efficient-mcq-04": "「高效方法」與本句語境不同。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。"
+        "efficient-mcq-01": "本句的「efficient worker」指「有效率的；高效的」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-01"
     },
@@ -498,11 +490,9 @@ export default {
       "masked": "Better planning makes me more ____.",
       "options": [
         "efficient-mcq-01",
-        "efficient-mcq-02",
-        "efficient-mcq-03",
-        "efficient-mcq-04",
-        "efficient-mcq-05",
-        "efficient-mcq-06"
+        "efficient-mcq-12",
+        "efficient-mcq-13",
+        "efficient-mcq-16"
       ],
       "explanation": "本句的「efficient」指「有效率的；高效的」。",
       "sentenceIndex": 2,
@@ -511,12 +501,10 @@ export default {
         "efficient"
       ],
       "optionReasons": {
-        "efficient-mcq-01": "本句指「有效率的；高效的」。",
-        "efficient-mcq-02": "「高效的員工」與本句語境不同。",
-        "efficient-mcq-03": "「高效系統」與本句語境不同。",
-        "efficient-mcq-04": "「高效方法」與本句語境不同。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。"
+        "efficient-mcq-01": "本句的「efficient」指「有效率的；高效的」。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-01"
     },
@@ -528,11 +516,9 @@ export default {
       "masked": "An ____ organizes tasks carefully.",
       "options": [
         "efficient-mcq-02",
-        "efficient-mcq-01",
-        "efficient-mcq-03",
-        "efficient-mcq-04",
-        "efficient-mcq-05",
-        "efficient-mcq-06"
+        "efficient-mcq-12",
+        "efficient-mcq-13",
+        "efficient-mcq-16"
       ],
       "explanation": "本句的「efficient worker」指「高效的員工」。",
       "sentenceIndex": 3,
@@ -541,12 +527,10 @@ export default {
         "efficient worker"
       ],
       "optionReasons": {
-        "efficient-mcq-02": "本句指「高效的員工」。",
-        "efficient-mcq-01": "「有效率的；高效的」與本句語境不同。",
-        "efficient-mcq-03": "「高效系統」與本句語境不同。",
-        "efficient-mcq-04": "「高效方法」與本句語境不同。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。"
+        "efficient-mcq-02": "本句的「efficient worker」指「高效的員工」。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-02"
     },
@@ -558,11 +542,9 @@ export default {
       "masked": "She is reliable, calm, and ____.",
       "options": [
         "efficient-mcq-02",
-        "efficient-mcq-01",
-        "efficient-mcq-03",
-        "efficient-mcq-04",
-        "efficient-mcq-05",
-        "efficient-mcq-06"
+        "efficient-mcq-13",
+        "efficient-mcq-16",
+        "efficient-mcq-12"
       ],
       "explanation": "本句的「efficient」指「高效的員工」。",
       "sentenceIndex": 4,
@@ -571,12 +553,10 @@ export default {
         "efficient"
       ],
       "optionReasons": {
-        "efficient-mcq-02": "本句指「高效的員工」。",
-        "efficient-mcq-01": "「有效率的；高效的」與本句語境不同。",
-        "efficient-mcq-03": "「高效系統」與本句語境不同。",
-        "efficient-mcq-04": "「高效方法」與本句語境不同。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。"
+        "efficient-mcq-02": "本句的「efficient」指「高效的員工」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-02"
     },
@@ -588,11 +568,9 @@ export default {
       "masked": "We need a more ____ for handling requests.",
       "options": [
         "efficient-mcq-03",
-        "efficient-mcq-02",
-        "efficient-mcq-04",
-        "efficient-mcq-01",
-        "efficient-mcq-05",
-        "efficient-mcq-06"
+        "efficient-mcq-12",
+        "efficient-mcq-13",
+        "efficient-mcq-16"
       ],
       "explanation": "本句的「efficient system」指「高效系統」。",
       "sentenceIndex": 5,
@@ -601,12 +579,10 @@ export default {
         "efficient system"
       ],
       "optionReasons": {
-        "efficient-mcq-03": "本句指「高效系統」。",
-        "efficient-mcq-02": "「高效的員工」與本句語境不同。",
-        "efficient-mcq-04": "「高效方法」與本句語境不同。",
-        "efficient-mcq-01": "「有效率的；高效的」與本句語境不同。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。"
+        "efficient-mcq-03": "本句的「efficient system」指「高效系統」。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-03"
     },
@@ -618,11 +594,9 @@ export default {
       "masked": "The new booking system is much more ____.",
       "options": [
         "efficient-mcq-03",
-        "efficient-mcq-02",
-        "efficient-mcq-04",
-        "efficient-mcq-01",
-        "efficient-mcq-05",
-        "efficient-mcq-06"
+        "efficient-mcq-13",
+        "efficient-mcq-12",
+        "efficient-mcq-16"
       ],
       "explanation": "本句的「efficient」指「高效系統」。",
       "sentenceIndex": 6,
@@ -631,12 +605,10 @@ export default {
         "efficient"
       ],
       "optionReasons": {
-        "efficient-mcq-03": "本句指「高效系統」。",
-        "efficient-mcq-02": "「高效的員工」與本句語境不同。",
-        "efficient-mcq-04": "「高效方法」與本句語境不同。",
-        "efficient-mcq-01": "「有效率的；高效的」與本句語境不同。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。"
+        "efficient-mcq-03": "本句的「efficient」指「高效系統」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-03"
     },
@@ -648,11 +620,9 @@ export default {
       "masked": "This is a more ____ of organising files.",
       "options": [
         "efficient-mcq-04",
-        "efficient-mcq-03",
-        "efficient-mcq-05",
-        "efficient-mcq-02",
-        "efficient-mcq-06",
-        "efficient-mcq-01"
+        "efficient-mcq-12",
+        "efficient-mcq-16",
+        "efficient-mcq-13"
       ],
       "explanation": "本句的「efficient method」指「高效方法」。",
       "sentenceIndex": 7,
@@ -661,12 +631,10 @@ export default {
         "efficient method"
       ],
       "optionReasons": {
-        "efficient-mcq-04": "本句指「高效方法」。",
-        "efficient-mcq-03": "「高效系統」與本句語境不同。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。",
-        "efficient-mcq-02": "「高效的員工」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。",
-        "efficient-mcq-01": "「有效率的；高效的」與本句語境不同。"
+        "efficient-mcq-04": "本句的「efficient method」指「高效方法」。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-04"
     },
@@ -678,11 +646,9 @@ export default {
       "masked": "The company introduced a more ____.",
       "options": [
         "efficient-mcq-04",
-        "efficient-mcq-03",
-        "efficient-mcq-05",
-        "efficient-mcq-02",
-        "efficient-mcq-06",
-        "efficient-mcq-01"
+        "efficient-mcq-16",
+        "efficient-mcq-12",
+        "efficient-mcq-13"
       ],
       "explanation": "本句的「efficient process」指「高效方法」。",
       "sentenceIndex": 8,
@@ -691,12 +657,10 @@ export default {
         "efficient process"
       ],
       "optionReasons": {
-        "efficient-mcq-04": "本句指「高效方法」。",
-        "efficient-mcq-03": "「高效系統」與本句語境不同。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。",
-        "efficient-mcq-02": "「高效的員工」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。",
-        "efficient-mcq-01": "「有效率的；高效的」與本句語境不同。"
+        "efficient-mcq-04": "本句的「efficient process」指「高效方法」。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-04"
     },
@@ -708,11 +672,9 @@ export default {
       "masked": "A planner encourages more ____.",
       "options": [
         "efficient-mcq-05",
-        "efficient-mcq-04",
-        "efficient-mcq-06",
-        "efficient-mcq-03",
-        "efficient-mcq-07",
-        "efficient-mcq-02"
+        "efficient-mcq-13",
+        "efficient-mcq-16",
+        "efficient-mcq-12"
       ],
       "explanation": "本句的「efficient use of time」指「有效率運用時間」。",
       "sentenceIndex": 9,
@@ -721,12 +683,10 @@ export default {
         "efficient use of time"
       ],
       "optionReasons": {
-        "efficient-mcq-05": "本句指「有效率運用時間」。",
-        "efficient-mcq-04": "「高效方法」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。",
-        "efficient-mcq-03": "「高效系統」與本句語境不同。",
-        "efficient-mcq-07": "「有效率地」與本句語境不同。",
-        "efficient-mcq-02": "「高效的員工」與本句語境不同。"
+        "efficient-mcq-05": "本句的「efficient use of time」指「有效率運用時間」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-05"
     },
@@ -738,11 +698,9 @@ export default {
       "masked": "Good scheduling leads to the ____.",
       "options": [
         "efficient-mcq-05",
-        "efficient-mcq-04",
-        "efficient-mcq-06",
-        "efficient-mcq-03",
-        "efficient-mcq-07",
-        "efficient-mcq-02"
+        "efficient-mcq-13",
+        "efficient-mcq-12",
+        "efficient-mcq-16"
       ],
       "explanation": "本句的「efficient use of time」指「有效率運用時間」。",
       "sentenceIndex": 10,
@@ -751,12 +709,10 @@ export default {
         "efficient use of time"
       ],
       "optionReasons": {
-        "efficient-mcq-05": "本句指「有效率運用時間」。",
-        "efficient-mcq-04": "「高效方法」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。",
-        "efficient-mcq-03": "「高效系統」與本句語境不同。",
-        "efficient-mcq-07": "「有效率地」與本句語境不同。",
-        "efficient-mcq-02": "「高效的員工」與本句語境不同。"
+        "efficient-mcq-05": "本句的「efficient use of time」指「有效率運用時間」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-05"
     },
@@ -768,11 +724,9 @@ export default {
       "masked": "The project requires the ____.",
       "options": [
         "efficient-mcq-06",
-        "efficient-mcq-05",
-        "efficient-mcq-07",
-        "efficient-mcq-04",
-        "efficient-mcq-08",
-        "efficient-mcq-03"
+        "efficient-mcq-16",
+        "efficient-mcq-12",
+        "efficient-mcq-13"
       ],
       "explanation": "本句的「efficient use of resources」指「有效運用資源」。",
       "sentenceIndex": 11,
@@ -781,12 +735,10 @@ export default {
         "efficient use of resources"
       ],
       "optionReasons": {
-        "efficient-mcq-06": "本句指「有效運用資源」。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。",
-        "efficient-mcq-07": "「有效率地」與本句語境不同。",
-        "efficient-mcq-04": "「高效方法」與本句語境不同。",
-        "efficient-mcq-08": "「效率」與本句語境不同。",
-        "efficient-mcq-03": "「高效系統」與本句語境不同。"
+        "efficient-mcq-06": "本句的「efficient use of resources」指「有效運用資源」。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-06"
     },
@@ -798,11 +750,9 @@ export default {
       "masked": "Good management ensures ____.",
       "options": [
         "efficient-mcq-06",
-        "efficient-mcq-05",
-        "efficient-mcq-07",
-        "efficient-mcq-04",
-        "efficient-mcq-08",
-        "efficient-mcq-03"
+        "efficient-mcq-12",
+        "efficient-mcq-16",
+        "efficient-mcq-13"
       ],
       "explanation": "本句的「efficient use of staff and equipment」指「有效運用資源」。",
       "sentenceIndex": 12,
@@ -811,12 +761,10 @@ export default {
         "efficient use of staff and equipment"
       ],
       "optionReasons": {
-        "efficient-mcq-06": "本句指「有效運用資源」。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。",
-        "efficient-mcq-07": "「有效率地」與本句語境不同。",
-        "efficient-mcq-04": "「高效方法」與本句語境不同。",
-        "efficient-mcq-08": "「效率」與本句語境不同。",
-        "efficient-mcq-03": "「高效系統」與本句語境不同。"
+        "efficient-mcq-06": "本句的「efficient use of staff and equipment」指「有效運用資源」。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-06"
     },
@@ -828,11 +776,9 @@ export default {
       "masked": "She handles deadlines ____.",
       "options": [
         "efficient-mcq-07",
-        "efficient-mcq-06",
-        "efficient-mcq-08",
-        "efficient-mcq-05",
-        "efficient-mcq-09",
-        "efficient-mcq-04"
+        "efficient-mcq-13",
+        "efficient-mcq-12",
+        "efficient-mcq-16"
       ],
       "explanation": "本句的「efficiently」指「有效率地」。",
       "sentenceIndex": 15,
@@ -841,12 +787,10 @@ export default {
         "efficiently"
       ],
       "optionReasons": {
-        "efficient-mcq-07": "本句指「有效率地」。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。",
-        "efficient-mcq-08": "「效率」與本句語境不同。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。",
-        "efficient-mcq-09": "「提升效率」與本句語境不同。",
-        "efficient-mcq-04": "「高效方法」與本句語境不同。"
+        "efficient-mcq-07": "本句的「efficiently」指「有效率地」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-07"
     },
@@ -858,11 +802,9 @@ export default {
       "masked": "The office runs ____.",
       "options": [
         "efficient-mcq-07",
-        "efficient-mcq-06",
-        "efficient-mcq-08",
-        "efficient-mcq-05",
-        "efficient-mcq-09",
-        "efficient-mcq-04"
+        "efficient-mcq-12",
+        "efficient-mcq-13",
+        "efficient-mcq-16"
       ],
       "explanation": "本句的「efficiently」指「有效率地」。",
       "sentenceIndex": 16,
@@ -871,12 +813,10 @@ export default {
         "efficiently"
       ],
       "optionReasons": {
-        "efficient-mcq-07": "本句指「有效率地」。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。",
-        "efficient-mcq-08": "「效率」與本句語境不同。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。",
-        "efficient-mcq-09": "「提升效率」與本句語境不同。",
-        "efficient-mcq-04": "「高效方法」與本句語境不同。"
+        "efficient-mcq-07": "本句的「efficiently」指「有效率地」。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-07"
     },
@@ -888,11 +828,9 @@ export default {
       "masked": "Better planning improved my ____.",
       "options": [
         "efficient-mcq-08",
-        "efficient-mcq-07",
-        "efficient-mcq-09",
-        "efficient-mcq-06",
-        "efficient-mcq-10",
-        "efficient-mcq-05"
+        "efficient-mcq-13",
+        "efficient-mcq-12",
+        "efficient-mcq-16"
       ],
       "explanation": "本句的「efficiency」指「效率」。",
       "sentenceIndex": 17,
@@ -901,12 +839,10 @@ export default {
         "efficiency"
       ],
       "optionReasons": {
-        "efficient-mcq-08": "本句指「效率」。",
-        "efficient-mcq-07": "「有效率地」與本句語境不同。",
-        "efficient-mcq-09": "「提升效率」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。",
-        "efficient-mcq-10": "「營運效率」與本句語境不同。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。"
+        "efficient-mcq-08": "本句的「efficiency」指「效率」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-08"
     },
@@ -918,11 +854,9 @@ export default {
       "masked": "The company wants to increase ____.",
       "options": [
         "efficient-mcq-08",
-        "efficient-mcq-07",
-        "efficient-mcq-09",
-        "efficient-mcq-06",
-        "efficient-mcq-10",
-        "efficient-mcq-05"
+        "efficient-mcq-16",
+        "efficient-mcq-13",
+        "efficient-mcq-12"
       ],
       "explanation": "本句的「efficiency」指「效率」。",
       "sentenceIndex": 18,
@@ -931,12 +865,10 @@ export default {
         "efficiency"
       ],
       "optionReasons": {
-        "efficient-mcq-08": "本句指「效率」。",
-        "efficient-mcq-07": "「有效率地」與本句語境不同。",
-        "efficient-mcq-09": "「提升效率」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。",
-        "efficient-mcq-10": "「營運效率」與本句語境不同。",
-        "efficient-mcq-05": "「有效率運用時間」與本句語境不同。"
+        "efficient-mcq-08": "本句的「efficiency」指「效率」。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-08"
     },
@@ -948,11 +880,9 @@ export default {
       "masked": "Automation can ____.",
       "options": [
         "efficient-mcq-09",
-        "efficient-mcq-08",
-        "efficient-mcq-10",
-        "efficient-mcq-07",
-        "efficient-mcq-11",
-        "efficient-mcq-06"
+        "efficient-mcq-16",
+        "efficient-mcq-12",
+        "efficient-mcq-13"
       ],
       "explanation": "本句的「improve efficiency」指「提升效率」。",
       "sentenceIndex": 19,
@@ -961,12 +891,10 @@ export default {
         "improve efficiency"
       ],
       "optionReasons": {
-        "efficient-mcq-09": "本句指「提升效率」。",
-        "efficient-mcq-08": "「效率」與本句語境不同。",
-        "efficient-mcq-10": "「營運效率」與本句語境不同。",
-        "efficient-mcq-07": "「有效率地」與本句語境不同。",
-        "efficient-mcq-11": "「能源效率」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。"
+        "efficient-mcq-09": "本句的「improve efficiency」指「提升效率」。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-09"
     },
@@ -978,11 +906,9 @@ export default {
       "masked": "The new system was introduced to ____.",
       "options": [
         "efficient-mcq-09",
-        "efficient-mcq-08",
-        "efficient-mcq-10",
-        "efficient-mcq-07",
-        "efficient-mcq-11",
-        "efficient-mcq-06"
+        "efficient-mcq-12",
+        "efficient-mcq-16",
+        "efficient-mcq-13"
       ],
       "explanation": "本句的「increase efficiency」指「提升效率」。",
       "sentenceIndex": 20,
@@ -991,12 +917,10 @@ export default {
         "increase efficiency"
       ],
       "optionReasons": {
-        "efficient-mcq-09": "本句指「提升效率」。",
-        "efficient-mcq-08": "「效率」與本句語境不同。",
-        "efficient-mcq-10": "「營運效率」與本句語境不同。",
-        "efficient-mcq-07": "「有效率地」與本句語境不同。",
-        "efficient-mcq-11": "「能源效率」與本句語境不同。",
-        "efficient-mcq-06": "「有效運用資源」與本句語境不同。"
+        "efficient-mcq-09": "本句的「increase efficiency」指「提升效率」。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-09"
     },
@@ -1008,11 +932,9 @@ export default {
       "masked": "The company is trying to improve ____.",
       "options": [
         "efficient-mcq-10",
-        "efficient-mcq-09",
-        "efficient-mcq-11",
-        "efficient-mcq-08",
-        "efficient-mcq-12",
-        "efficient-mcq-07"
+        "efficient-mcq-16",
+        "efficient-mcq-13",
+        "efficient-mcq-12"
       ],
       "explanation": "本句的「operational efficiency」指「營運效率」。",
       "sentenceIndex": 21,
@@ -1021,12 +943,10 @@ export default {
         "operational efficiency"
       ],
       "optionReasons": {
-        "efficient-mcq-10": "本句指「營運效率」。",
-        "efficient-mcq-09": "「提升效率」與本句語境不同。",
-        "efficient-mcq-11": "「能源效率」與本句語境不同。",
-        "efficient-mcq-08": "「效率」與本句語境不同。",
-        "efficient-mcq-12": "「節能的」與本句語境不同。",
-        "efficient-mcq-07": "「有效率地」與本句語境不同。"
+        "efficient-mcq-10": "本句的「operational efficiency」指「營運效率」。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-10"
     },
@@ -1038,11 +958,9 @@ export default {
       "masked": "Better software increased ____.",
       "options": [
         "efficient-mcq-10",
-        "efficient-mcq-09",
-        "efficient-mcq-11",
-        "efficient-mcq-08",
-        "efficient-mcq-12",
-        "efficient-mcq-07"
+        "efficient-mcq-13",
+        "efficient-mcq-16",
+        "efficient-mcq-12"
       ],
       "explanation": "本句的「operational efficiency」指「營運效率」。",
       "sentenceIndex": 22,
@@ -1051,12 +969,10 @@ export default {
         "operational efficiency"
       ],
       "optionReasons": {
-        "efficient-mcq-10": "本句指「營運效率」。",
-        "efficient-mcq-09": "「提升效率」與本句語境不同。",
-        "efficient-mcq-11": "「能源效率」與本句語境不同。",
-        "efficient-mcq-08": "「效率」與本句語境不同。",
-        "efficient-mcq-12": "「節能的」與本句語境不同。",
-        "efficient-mcq-07": "「有效率地」與本句語境不同。"
+        "efficient-mcq-10": "本句的「operational efficiency」指「營運效率」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-10"
     },
@@ -1068,11 +984,9 @@ export default {
       "masked": "The building has excellent ____.",
       "options": [
         "efficient-mcq-11",
-        "efficient-mcq-10",
         "efficient-mcq-12",
-        "efficient-mcq-09",
-        "efficient-mcq-13",
-        "efficient-mcq-08"
+        "efficient-mcq-16",
+        "efficient-mcq-13"
       ],
       "explanation": "本句的「energy efficiency」指「能源效率」。",
       "sentenceIndex": 23,
@@ -1081,12 +995,10 @@ export default {
         "energy efficiency"
       ],
       "optionReasons": {
-        "efficient-mcq-11": "本句指「能源效率」。",
-        "efficient-mcq-10": "「營運效率」與本句語境不同。",
-        "efficient-mcq-12": "「節能的」與本句語境不同。",
-        "efficient-mcq-09": "「提升效率」與本句語境不同。",
-        "efficient-mcq-13": "「省油的」與本句語境不同。",
-        "efficient-mcq-08": "「效率」與本句語境不同。"
+        "efficient-mcq-11": "本句的「energy efficiency」指「能源效率」。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-11"
     },
@@ -1098,11 +1010,9 @@ export default {
       "masked": "Better insulation improves ____.",
       "options": [
         "efficient-mcq-11",
-        "efficient-mcq-10",
-        "efficient-mcq-12",
-        "efficient-mcq-09",
         "efficient-mcq-13",
-        "efficient-mcq-08"
+        "efficient-mcq-12",
+        "efficient-mcq-16"
       ],
       "explanation": "本句的「energy efficiency」指「能源效率」。",
       "sentenceIndex": 24,
@@ -1111,12 +1021,10 @@ export default {
         "energy efficiency"
       ],
       "optionReasons": {
-        "efficient-mcq-11": "本句指「能源效率」。",
-        "efficient-mcq-10": "「營運效率」與本句語境不同。",
-        "efficient-mcq-12": "「節能的」與本句語境不同。",
-        "efficient-mcq-09": "「提升效率」與本句語境不同。",
-        "efficient-mcq-13": "「省油的」與本句語境不同。",
-        "efficient-mcq-08": "「效率」與本句語境不同。"
+        "efficient-mcq-11": "本句的「energy efficiency」指「能源效率」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-11"
     },
@@ -1128,10 +1036,8 @@ export default {
       "masked": "We installed ____.",
       "options": [
         "efficient-mcq-12",
-        "efficient-mcq-11",
+        "efficient-mcq-03",
         "efficient-mcq-13",
-        "efficient-mcq-10",
-        "efficient-mcq-14",
         "efficient-mcq-09"
       ],
       "explanation": "本句的「energy-efficient lighting」指「節能的」。",
@@ -1141,12 +1047,10 @@ export default {
         "energy-efficient lighting"
       ],
       "optionReasons": {
-        "efficient-mcq-12": "本句指「節能的」。",
-        "efficient-mcq-11": "「能源效率」與本句語境不同。",
-        "efficient-mcq-13": "「省油的」與本句語境不同。",
-        "efficient-mcq-10": "「營運效率」與本句語境不同。",
-        "efficient-mcq-14": "「效能高的機器」與本句語境不同。",
-        "efficient-mcq-09": "「提升效率」與本句語境不同。"
+        "efficient-mcq-12": "本句的「energy-efficient lighting」指「節能的」。",
+        "efficient-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-12"
     },
@@ -1158,11 +1062,9 @@ export default {
       "masked": "This appliance is more ____.",
       "options": [
         "efficient-mcq-12",
-        "efficient-mcq-11",
-        "efficient-mcq-13",
-        "efficient-mcq-10",
-        "efficient-mcq-14",
-        "efficient-mcq-09"
+        "efficient-mcq-05",
+        "efficient-mcq-02",
+        "efficient-mcq-13"
       ],
       "explanation": "本句的「energy-efficient」指「節能的」。",
       "sentenceIndex": 26,
@@ -1171,12 +1073,10 @@ export default {
         "energy-efficient"
       ],
       "optionReasons": {
-        "efficient-mcq-12": "本句指「節能的」。",
-        "efficient-mcq-11": "「能源效率」與本句語境不同。",
-        "efficient-mcq-13": "「省油的」與本句語境不同。",
-        "efficient-mcq-10": "「營運效率」與本句語境不同。",
-        "efficient-mcq-14": "「效能高的機器」與本句語境不同。",
-        "efficient-mcq-09": "「提升效率」與本句語境不同。"
+        "efficient-mcq-12": "本句的「energy-efficient」指「節能的」。",
+        "efficient-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-12"
     },
@@ -1188,11 +1088,9 @@ export default {
       "masked": "This car is very ____.",
       "options": [
         "efficient-mcq-13",
-        "efficient-mcq-12",
-        "efficient-mcq-14",
-        "efficient-mcq-11",
-        "efficient-mcq-15",
-        "efficient-mcq-10"
+        "efficient-mcq-18",
+        "efficient-mcq-16",
+        "efficient-mcq-12"
       ],
       "explanation": "本句的「fuel-efficient」指「省油的」。",
       "sentenceIndex": 27,
@@ -1201,12 +1099,10 @@ export default {
         "fuel-efficient"
       ],
       "optionReasons": {
-        "efficient-mcq-13": "本句指「省油的」。",
-        "efficient-mcq-12": "「節能的」與本句語境不同。",
-        "efficient-mcq-14": "「效能高的機器」與本句語境不同。",
-        "efficient-mcq-11": "「能源效率」與本句語境不同。",
-        "efficient-mcq-15": "「能量轉換效率」與本句語境不同。",
-        "efficient-mcq-10": "「營運效率」與本句語境不同。"
+        "efficient-mcq-13": "本句的「fuel-efficient」指「省油的」。",
+        "efficient-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-13"
     },
@@ -1218,11 +1114,9 @@ export default {
       "masked": "Many drivers prefer ____.",
       "options": [
         "efficient-mcq-13",
-        "efficient-mcq-12",
-        "efficient-mcq-14",
-        "efficient-mcq-11",
-        "efficient-mcq-15",
-        "efficient-mcq-10"
+        "efficient-mcq-04",
+        "efficient-mcq-16",
+        "efficient-mcq-12"
       ],
       "explanation": "本句的「fuel-efficient vehicles」指「省油的」。",
       "sentenceIndex": 28,
@@ -1231,12 +1125,10 @@ export default {
         "fuel-efficient vehicles"
       ],
       "optionReasons": {
-        "efficient-mcq-13": "本句指「省油的」。",
-        "efficient-mcq-12": "「節能的」與本句語境不同。",
-        "efficient-mcq-14": "「效能高的機器」與本句語境不同。",
-        "efficient-mcq-11": "「能源效率」與本句語境不同。",
-        "efficient-mcq-15": "「能量轉換效率」與本句語境不同。",
-        "efficient-mcq-10": "「營運效率」與本句語境不同。"
+        "efficient-mcq-13": "本句的「fuel-efficient vehicles」指「省油的」。",
+        "efficient-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-13"
     },
@@ -1249,10 +1141,8 @@ export default {
       "options": [
         "efficient-mcq-14",
         "efficient-mcq-13",
-        "efficient-mcq-15",
         "efficient-mcq-12",
-        "efficient-mcq-16",
-        "efficient-mcq-11"
+        "efficient-mcq-16"
       ],
       "explanation": "本句的「efficient」指「效能高的機器」。",
       "sentenceIndex": 29,
@@ -1261,12 +1151,10 @@ export default {
         "efficient"
       ],
       "optionReasons": {
-        "efficient-mcq-14": "本句指「效能高的機器」。",
-        "efficient-mcq-13": "「省油的」與本句語境不同。",
-        "efficient-mcq-15": "「能量轉換效率」與本句語境不同。",
-        "efficient-mcq-12": "「節能的」與本句語境不同。",
-        "efficient-mcq-16": "「動力因；作用因」與本句語境不同。",
-        "efficient-mcq-11": "「能源效率」與本句語境不同。"
+        "efficient-mcq-14": "本句的「efficient」指「效能高的機器」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-14"
     },
@@ -1278,11 +1166,9 @@ export default {
       "masked": "An ____ wastes less energy.",
       "options": [
         "efficient-mcq-14",
-        "efficient-mcq-13",
-        "efficient-mcq-15",
         "efficient-mcq-12",
         "efficient-mcq-16",
-        "efficient-mcq-11"
+        "efficient-mcq-13"
       ],
       "explanation": "本句的「efficient machine」指「效能高的機器」。",
       "sentenceIndex": 30,
@@ -1291,12 +1177,10 @@ export default {
         "efficient machine"
       ],
       "optionReasons": {
-        "efficient-mcq-14": "本句指「效能高的機器」。",
-        "efficient-mcq-13": "「省油的」與本句語境不同。",
-        "efficient-mcq-15": "「能量轉換效率」與本句語境不同。",
-        "efficient-mcq-12": "「節能的」與本句語境不同。",
-        "efficient-mcq-16": "「動力因；作用因」與本句語境不同。",
-        "efficient-mcq-11": "「能源效率」與本句語境不同。"
+        "efficient-mcq-14": "本句的「efficient machine」指「效能高的機器」。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-14"
     },
@@ -1308,11 +1192,9 @@ export default {
       "masked": "The motor operates at ninety percent ____.",
       "options": [
         "efficient-mcq-15",
-        "efficient-mcq-14",
         "efficient-mcq-16",
-        "efficient-mcq-13",
-        "efficient-mcq-17",
-        "efficient-mcq-12"
+        "efficient-mcq-12",
+        "efficient-mcq-13"
       ],
       "explanation": "本句的「efficiency」指「能量轉換效率」。",
       "sentenceIndex": 31,
@@ -1321,12 +1203,10 @@ export default {
         "efficiency"
       ],
       "optionReasons": {
-        "efficient-mcq-15": "本句指「能量轉換效率」。",
-        "efficient-mcq-14": "「效能高的機器」與本句語境不同。",
-        "efficient-mcq-16": "「動力因；作用因」與本句語境不同。",
-        "efficient-mcq-13": "「省油的」與本句語境不同。",
-        "efficient-mcq-17": "「低效的」與本句語境不同。",
-        "efficient-mcq-12": "「節能的」與本句語境不同。"
+        "efficient-mcq-15": "本句的「efficiency」指「能量轉換效率」。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-15"
     },
@@ -1338,11 +1218,9 @@ export default {
       "masked": "Engineers measured the ____.",
       "options": [
         "efficient-mcq-15",
-        "efficient-mcq-14",
         "efficient-mcq-16",
-        "efficient-mcq-13",
-        "efficient-mcq-17",
-        "efficient-mcq-12"
+        "efficient-mcq-12",
+        "efficient-mcq-13"
       ],
       "explanation": "本句的「efficiency of the engine」指「能量轉換效率」。",
       "sentenceIndex": 32,
@@ -1351,12 +1229,10 @@ export default {
         "efficiency of the engine"
       ],
       "optionReasons": {
-        "efficient-mcq-15": "本句指「能量轉換效率」。",
-        "efficient-mcq-14": "「效能高的機器」與本句語境不同。",
-        "efficient-mcq-16": "「動力因；作用因」與本句語境不同。",
-        "efficient-mcq-13": "「省油的」與本句語境不同。",
-        "efficient-mcq-17": "「低效的」與本句語境不同。",
-        "efficient-mcq-12": "「節能的」與本句語境不同。"
+        "efficient-mcq-15": "本句的「efficiency of the engine」指「能量轉換效率」。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-15"
     },
@@ -1368,10 +1244,8 @@ export default {
       "masked": "In classical philosophy, the builder may be described as the ____ of the house.",
       "options": [
         "efficient-mcq-16",
-        "efficient-mcq-15",
         "efficient-mcq-17",
-        "efficient-mcq-14",
-        "efficient-mcq-18",
+        "efficient-mcq-12",
         "efficient-mcq-13"
       ],
       "explanation": "本句的「efficient cause」指「動力因；作用因」。",
@@ -1381,12 +1255,10 @@ export default {
         "efficient cause"
       ],
       "optionReasons": {
-        "efficient-mcq-16": "本句指「動力因；作用因」。",
-        "efficient-mcq-15": "「能量轉換效率」與本句語境不同。",
-        "efficient-mcq-17": "「低效的」與本句語境不同。",
-        "efficient-mcq-14": "「效能高的機器」與本句語境不同。",
-        "efficient-mcq-18": "「低效率」與本句語境不同。",
-        "efficient-mcq-13": "「省油的」與本句語境不同。"
+        "efficient-mcq-16": "本句的「efficient cause」指「動力因；作用因」。",
+        "efficient-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-16"
     },
@@ -1398,11 +1270,9 @@ export default {
       "masked": "The term ____ has a technical philosophical meaning.",
       "options": [
         "efficient-mcq-16",
-        "efficient-mcq-15",
-        "efficient-mcq-17",
-        "efficient-mcq-14",
-        "efficient-mcq-18",
-        "efficient-mcq-13"
+        "efficient-mcq-05",
+        "efficient-mcq-19",
+        "efficient-mcq-02"
       ],
       "explanation": "本句的「efficient cause」指「動力因；作用因」。",
       "sentenceIndex": 34,
@@ -1411,12 +1281,10 @@ export default {
         "efficient cause"
       ],
       "optionReasons": {
-        "efficient-mcq-16": "本句指「動力因；作用因」。",
-        "efficient-mcq-15": "「能量轉換效率」與本句語境不同。",
-        "efficient-mcq-17": "「低效的」與本句語境不同。",
-        "efficient-mcq-14": "「效能高的機器」與本句語境不同。",
-        "efficient-mcq-18": "「低效率」與本句語境不同。",
-        "efficient-mcq-13": "「省油的」與本句語境不同。"
+        "efficient-mcq-16": "本句的「efficient cause」指「動力因；作用因」。",
+        "efficient-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-16"
     },
@@ -1428,11 +1296,9 @@ export default {
       "masked": "The old system was slow and ____.",
       "options": [
         "efficient-mcq-17",
-        "efficient-mcq-16",
-        "efficient-mcq-18",
-        "efficient-mcq-15",
-        "efficient-mcq-19",
-        "efficient-mcq-14"
+        "efficient-mcq-13",
+        "efficient-mcq-12",
+        "efficient-mcq-16"
       ],
       "explanation": "本句的「inefficient」指「低效的」。",
       "sentenceIndex": 35,
@@ -1441,12 +1307,10 @@ export default {
         "inefficient"
       ],
       "optionReasons": {
-        "efficient-mcq-17": "本句指「低效的」。",
-        "efficient-mcq-16": "「動力因；作用因」與本句語境不同。",
-        "efficient-mcq-18": "「低效率」與本句語境不同。",
-        "efficient-mcq-15": "「能量轉換效率」與本句語境不同。",
-        "efficient-mcq-19": "「低效環節」與本句語境不同。",
-        "efficient-mcq-14": "「效能高的機器」與本句語境不同。"
+        "efficient-mcq-17": "本句的「inefficient」指「低效的」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-17"
     },
@@ -1458,11 +1322,9 @@ export default {
       "masked": "Constantly switching between tasks can be ____.",
       "options": [
         "efficient-mcq-17",
-        "efficient-mcq-16",
-        "efficient-mcq-18",
-        "efficient-mcq-15",
-        "efficient-mcq-19",
-        "efficient-mcq-14"
+        "efficient-mcq-13",
+        "efficient-mcq-12",
+        "efficient-mcq-16"
       ],
       "explanation": "本句的「inefficient」指「低效的」。",
       "sentenceIndex": 36,
@@ -1471,12 +1333,10 @@ export default {
         "inefficient"
       ],
       "optionReasons": {
-        "efficient-mcq-17": "本句指「低效的」。",
-        "efficient-mcq-16": "「動力因；作用因」與本句語境不同。",
-        "efficient-mcq-18": "「低效率」與本句語境不同。",
-        "efficient-mcq-15": "「能量轉換效率」與本句語境不同。",
-        "efficient-mcq-19": "「低效環節」與本句語境不同。",
-        "efficient-mcq-14": "「效能高的機器」與本句語境不同。"
+        "efficient-mcq-17": "本句的「inefficient」指「低效的」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-17"
     },
@@ -1488,11 +1348,9 @@ export default {
       "masked": "Poor communication created ____.",
       "options": [
         "efficient-mcq-18",
-        "efficient-mcq-17",
-        "efficient-mcq-19",
+        "efficient-mcq-12",
         "efficient-mcq-16",
-        "efficient-mcq-15",
-        "efficient-mcq-14"
+        "efficient-mcq-13"
       ],
       "explanation": "本句的「inefficiency」指「低效率」。",
       "sentenceIndex": 39,
@@ -1501,12 +1359,10 @@ export default {
         "inefficiency"
       ],
       "optionReasons": {
-        "efficient-mcq-18": "本句指「低效率」。",
-        "efficient-mcq-17": "「低效的」與本句語境不同。",
-        "efficient-mcq-19": "「低效環節」與本句語境不同。",
-        "efficient-mcq-16": "「動力因；作用因」與本句語境不同。",
-        "efficient-mcq-15": "「能量轉換效率」與本句語境不同。",
-        "efficient-mcq-14": "「效能高的機器」與本句語境不同。"
+        "efficient-mcq-18": "本句的「inefficiency」指「低效率」。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-18"
     },
@@ -1518,11 +1374,9 @@ export default {
       "masked": "The company wants to reduce ____.",
       "options": [
         "efficient-mcq-18",
-        "efficient-mcq-17",
-        "efficient-mcq-19",
+        "efficient-mcq-13",
         "efficient-mcq-16",
-        "efficient-mcq-15",
-        "efficient-mcq-14"
+        "efficient-mcq-12"
       ],
       "explanation": "本句的「inefficiencies」指「低效率」。",
       "sentenceIndex": 40,
@@ -1531,12 +1385,10 @@ export default {
         "inefficiencies"
       ],
       "optionReasons": {
-        "efficient-mcq-18": "本句指「低效率」。",
-        "efficient-mcq-17": "「低效的」與本句語境不同。",
-        "efficient-mcq-19": "「低效環節」與本句語境不同。",
-        "efficient-mcq-16": "「動力因；作用因」與本句語境不同。",
-        "efficient-mcq-15": "「能量轉換效率」與本句語境不同。",
-        "efficient-mcq-14": "「效能高的機器」與本句語境不同。"
+        "efficient-mcq-18": "本句的「inefficiencies」指「低效率」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-18"
     },
@@ -1548,11 +1400,9 @@ export default {
       "masked": "The review identified several ____ in the system.",
       "options": [
         "efficient-mcq-19",
-        "efficient-mcq-18",
-        "efficient-mcq-17",
+        "efficient-mcq-13",
         "efficient-mcq-16",
-        "efficient-mcq-15",
-        "efficient-mcq-14"
+        "efficient-mcq-09"
       ],
       "explanation": "本句的「inefficiencies」指「低效環節」。",
       "sentenceIndex": 41,
@@ -1561,12 +1411,10 @@ export default {
         "inefficiencies"
       ],
       "optionReasons": {
-        "efficient-mcq-19": "本句指「低效環節」。",
-        "efficient-mcq-18": "「低效率」與本句語境不同。",
-        "efficient-mcq-17": "「低效的」與本句語境不同。",
-        "efficient-mcq-16": "「動力因；作用因」與本句語境不同。",
-        "efficient-mcq-15": "「能量轉換效率」與本句語境不同。",
-        "efficient-mcq-14": "「效能高的機器」與本句語境不同。"
+        "efficient-mcq-19": "本句的「inefficiencies」指「低效環節」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-19"
     },
@@ -1578,11 +1426,9 @@ export default {
       "masked": "Automation removed many administrative ____.",
       "options": [
         "efficient-mcq-19",
-        "efficient-mcq-18",
-        "efficient-mcq-17",
+        "efficient-mcq-13",
         "efficient-mcq-16",
-        "efficient-mcq-15",
-        "efficient-mcq-14"
+        "efficient-mcq-05"
       ],
       "explanation": "本句的「inefficiencies」指「低效環節」。",
       "sentenceIndex": 42,
@@ -1591,12 +1437,10 @@ export default {
         "inefficiencies"
       ],
       "optionReasons": {
-        "efficient-mcq-19": "本句指「低效環節」。",
-        "efficient-mcq-18": "「低效率」與本句語境不同。",
-        "efficient-mcq-17": "「低效的」與本句語境不同。",
-        "efficient-mcq-16": "「動力因；作用因」與本句語境不同。",
-        "efficient-mcq-15": "「能量轉換效率」與本句語境不同。",
-        "efficient-mcq-14": "「效能高的機器」與本句語境不同。"
+        "efficient-mcq-19": "本句的「inefficiencies」指「低效環節」。",
+        "efficient-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "efficient-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "efficient-mcq-19"
     }
@@ -1608,5 +1452,7 @@ export default {
     "sha256": "c3a5c36145766db108a0caa51568fb7285b5b1253174cc61733574408926a577",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -226,7 +226,7 @@ export default {
     },
     {
       "id": "easy-mcq-11",
-      "title": "表示毫不費力地；輕鬆地",
+      "title": "毫不費力地；輕鬆地",
       "form": "ease — noun = lack of difficulty（容易；輕鬆）",
       "en": "ease — noun = lack of difficulty（容易；輕鬆）",
       "zh": "表示毫不費力地；輕鬆地",
@@ -317,11 +317,9 @@ export default {
       "masked": "The first question was quite ____.",
       "options": [
         "easy-mcq-01",
-        "easy-mcq-02",
-        "easy-mcq-03",
-        "easy-mcq-04",
-        "easy-mcq-05",
-        "easy-mcq-06"
+        "easy-mcq-06",
+        "easy-mcq-10",
+        "easy-mcq-14"
       ],
       "explanation": "本句的「easy」指「不需要很多努力、技巧、時間或思考便能完成、理解或處理的」。",
       "sentenceIndex": 0,
@@ -330,12 +328,10 @@ export default {
         "easy"
       ],
       "optionReasons": {
-        "easy-mcq-01": "本句指「不需要很多努力、技巧、時間或思考便能完成、理解或處理的」。",
-        "easy-mcq-02": "「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」是「easy — relaxed/not demanding」的用法，與本句語境不同。",
-        "easy-mcq-03": "「對規則、要求或處理方式不嚴格、不苛刻」是「easy — permissive/not strict」的用法，與本句語境不同。",
-        "easy-mcq-04": "「程度平緩、柔和，不劇烈或不突然」是「easy — gentle/gradual」的用法，與本句語境不同。",
-        "easy-mcq-05": "「不需要很多努力或困難便能做到；輕易地」是「easily — without difficulty」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。"
+        "easy-mcq-01": "本句的「easy」指「不需要很多努力、技巧、時間或思考便能完成、理解或處理的」。",
+        "easy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-01"
     },
@@ -347,11 +343,9 @@ export default {
       "masked": "This machine is ____ to use.",
       "options": [
         "easy-mcq-01",
-        "easy-mcq-02",
-        "easy-mcq-03",
-        "easy-mcq-04",
-        "easy-mcq-05",
-        "easy-mcq-06"
+        "easy-mcq-06",
+        "easy-mcq-14",
+        "easy-mcq-09"
       ],
       "explanation": "本句的「easy」指「不需要很多努力、技巧、時間或思考便能完成、理解或處理的」。",
       "sentenceIndex": 1,
@@ -360,12 +354,10 @@ export default {
         "easy"
       ],
       "optionReasons": {
-        "easy-mcq-01": "本句指「不需要很多努力、技巧、時間或思考便能完成、理解或處理的」。",
-        "easy-mcq-02": "「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」是「easy — relaxed/not demanding」的用法，與本句語境不同。",
-        "easy-mcq-03": "「對規則、要求或處理方式不嚴格、不苛刻」是「easy — permissive/not strict」的用法，與本句語境不同。",
-        "easy-mcq-04": "「程度平緩、柔和，不劇烈或不突然」是「easy — gentle/gradual」的用法，與本句語境不同。",
-        "easy-mcq-05": "「不需要很多努力或困難便能做到；輕易地」是「easily — without difficulty」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。"
+        "easy-mcq-01": "本句的「easy」指「不需要很多努力、技巧、時間或思考便能完成、理解或處理的」。",
+        "easy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-01"
     },
@@ -377,11 +369,8 @@ export default {
       "masked": "He has a fairly ____ job.",
       "options": [
         "easy-mcq-02",
-        "easy-mcq-01",
-        "easy-mcq-03",
-        "easy-mcq-04",
-        "easy-mcq-05",
-        "easy-mcq-06"
+        "easy-mcq-06",
+        "easy-mcq-14"
       ],
       "explanation": "本句的「easy」指「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」。",
       "sentenceIndex": 2,
@@ -390,12 +379,9 @@ export default {
         "easy"
       ],
       "optionReasons": {
-        "easy-mcq-02": "本句指「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」。",
-        "easy-mcq-01": "「不需要很多努力、技巧、時間或思考便能完成、理解或處理的」是「easy — not difficult」的用法，與本句語境不同。",
-        "easy-mcq-03": "「對規則、要求或處理方式不嚴格、不苛刻」是「easy — permissive/not strict」的用法，與本句語境不同。",
-        "easy-mcq-04": "「程度平緩、柔和，不劇烈或不突然」是「easy — gentle/gradual」的用法，與本句語境不同。",
-        "easy-mcq-05": "「不需要很多努力或困難便能做到；輕易地」是「easily — without difficulty」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。"
+        "easy-mcq-02": "本句的「easy」指「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」。",
+        "easy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-02"
     },
@@ -407,11 +393,8 @@ export default {
       "masked": "We had an ____ afternoon with nothing urgent to do.",
       "options": [
         "easy-mcq-02",
-        "easy-mcq-01",
-        "easy-mcq-03",
-        "easy-mcq-04",
-        "easy-mcq-05",
-        "easy-mcq-06"
+        "easy-mcq-06",
+        "easy-mcq-14"
       ],
       "explanation": "本句的「easy」指「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」。",
       "sentenceIndex": 3,
@@ -420,12 +403,9 @@ export default {
         "easy"
       ],
       "optionReasons": {
-        "easy-mcq-02": "本句指「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」。",
-        "easy-mcq-01": "「不需要很多努力、技巧、時間或思考便能完成、理解或處理的」是「easy — not difficult」的用法，與本句語境不同。",
-        "easy-mcq-03": "「對規則、要求或處理方式不嚴格、不苛刻」是「easy — permissive/not strict」的用法，與本句語境不同。",
-        "easy-mcq-04": "「程度平緩、柔和，不劇烈或不突然」是「easy — gentle/gradual」的用法，與本句語境不同。",
-        "easy-mcq-05": "「不需要很多努力或困難便能做到；輕易地」是「easily — without difficulty」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。"
+        "easy-mcq-02": "本句的「easy」指「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」。",
+        "easy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-02"
     },
@@ -437,11 +417,8 @@ export default {
       "masked": "She has an ____ manner that makes people feel comfortable.",
       "options": [
         "easy-mcq-02",
-        "easy-mcq-01",
-        "easy-mcq-03",
         "easy-mcq-04",
-        "easy-mcq-05",
-        "easy-mcq-06"
+        "easy-mcq-14"
       ],
       "explanation": "本句的「easy」指「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」。",
       "sentenceIndex": 4,
@@ -450,12 +427,9 @@ export default {
         "easy"
       ],
       "optionReasons": {
-        "easy-mcq-02": "本句指「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」。",
-        "easy-mcq-01": "「不需要很多努力、技巧、時間或思考便能完成、理解或處理的」是「easy — not difficult」的用法，與本句語境不同。",
-        "easy-mcq-03": "「對規則、要求或處理方式不嚴格、不苛刻」是「easy — permissive/not strict」的用法，與本句語境不同。",
-        "easy-mcq-04": "「程度平緩、柔和，不劇烈或不突然」是「easy — gentle/gradual」的用法，與本句語境不同。",
-        "easy-mcq-05": "「不需要很多努力或困難便能做到；輕易地」是「easily — without difficulty」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。"
+        "easy-mcq-02": "本句的「easy」指「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」。",
+        "easy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-02"
     },
@@ -467,11 +441,8 @@ export default {
       "masked": "He is very ____ to talk to.",
       "options": [
         "easy-mcq-02",
-        "easy-mcq-01",
-        "easy-mcq-03",
-        "easy-mcq-04",
-        "easy-mcq-05",
-        "easy-mcq-06"
+        "easy-mcq-06",
+        "easy-mcq-14"
       ],
       "explanation": "本句的「easy」指「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」。",
       "sentenceIndex": 5,
@@ -480,12 +451,9 @@ export default {
         "easy"
       ],
       "optionReasons": {
-        "easy-mcq-02": "本句指「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」。",
-        "easy-mcq-01": "「不需要很多努力、技巧、時間或思考便能完成、理解或處理的」是「easy — not difficult」的用法，與本句語境不同。",
-        "easy-mcq-03": "「對規則、要求或處理方式不嚴格、不苛刻」是「easy — permissive/not strict」的用法，與本句語境不同。",
-        "easy-mcq-04": "「程度平緩、柔和，不劇烈或不突然」是「easy — gentle/gradual」的用法，與本句語境不同。",
-        "easy-mcq-05": "「不需要很多努力或困難便能做到；輕易地」是「easily — without difficulty」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。"
+        "easy-mcq-02": "本句的「easy」指「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」。",
+        "easy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-02"
     },
@@ -497,10 +465,8 @@ export default {
       "masked": "The teacher was fairly ____ on late homework.",
       "options": [
         "easy-mcq-03",
-        "easy-mcq-02",
-        "easy-mcq-04",
-        "easy-mcq-01",
-        "easy-mcq-05",
+        "easy-mcq-12",
+        "easy-mcq-11",
         "easy-mcq-06"
       ],
       "explanation": "本句的「easy」指「對規則、要求或處理方式不嚴格、不苛刻」。",
@@ -510,12 +476,10 @@ export default {
         "easy"
       ],
       "optionReasons": {
-        "easy-mcq-03": "本句指「對規則、要求或處理方式不嚴格、不苛刻」。",
-        "easy-mcq-02": "「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」是「easy — relaxed/not demanding」的用法，與本句語境不同。",
-        "easy-mcq-04": "「程度平緩、柔和，不劇烈或不突然」是「easy — gentle/gradual」的用法，與本句語境不同。",
-        "easy-mcq-01": "「不需要很多努力、技巧、時間或思考便能完成、理解或處理的」是「easy — not difficult」的用法，與本句語境不同。",
-        "easy-mcq-05": "「不需要很多努力或困難便能做到；輕易地」是「easily — without difficulty」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。"
+        "easy-mcq-03": "本句的「easy」指「對規則、要求或處理方式不嚴格、不苛刻」。",
+        "easy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-03"
     },
@@ -527,11 +491,9 @@ export default {
       "masked": "The rules are quite ____ compared with last year.",
       "options": [
         "easy-mcq-03",
-        "easy-mcq-02",
-        "easy-mcq-04",
-        "easy-mcq-01",
-        "easy-mcq-05",
-        "easy-mcq-06"
+        "easy-mcq-12",
+        "easy-mcq-06",
+        "easy-mcq-09"
       ],
       "explanation": "本句的「easy」指「對規則、要求或處理方式不嚴格、不苛刻」。",
       "sentenceIndex": 7,
@@ -540,12 +502,10 @@ export default {
         "easy"
       ],
       "optionReasons": {
-        "easy-mcq-03": "本句指「對規則、要求或處理方式不嚴格、不苛刻」。",
-        "easy-mcq-02": "「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」是「easy — relaxed/not demanding」的用法，與本句語境不同。",
-        "easy-mcq-04": "「程度平緩、柔和，不劇烈或不突然」是「easy — gentle/gradual」的用法，與本句語境不同。",
-        "easy-mcq-01": "「不需要很多努力、技巧、時間或思考便能完成、理解或處理的」是「easy — not difficult」的用法，與本句語境不同。",
-        "easy-mcq-05": "「不需要很多努力或困難便能做到；輕易地」是「easily — without difficulty」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。"
+        "easy-mcq-03": "本句的「easy」指「對規則、要求或處理方式不嚴格、不苛刻」。",
+        "easy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-03"
     },
@@ -557,11 +517,9 @@ export default {
       "masked": "It is ____ to make mistakes when you are tired.",
       "options": [
         "easy-mcq-09",
-        "easy-mcq-08",
-        "easy-mcq-10",
-        "easy-mcq-07",
-        "easy-mcq-11",
-        "easy-mcq-06"
+        "easy-mcq-14",
+        "easy-mcq-12",
+        "easy-mcq-04"
       ],
       "explanation": "本句的「easy」指「某件事情很容易發生，所需條件很少或發生機會較高」。",
       "sentenceIndex": 8,
@@ -570,12 +528,10 @@ export default {
         "easy"
       ],
       "optionReasons": {
-        "easy-mcq-09": "本句指「某件事情很容易發生，所需條件很少或發生機會較高」。",
-        "easy-mcq-08": "「令疼痛、壓力、困難或嚴重程度降低；減輕／緩解」是「ease — verb」的用法，與本句語境不同。",
-        "easy-mcq-10": "「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」是「6. easy = comfortable / free from worry（生活狀態） — 安逸的；舒適的」的用法，與本句語境不同。",
-        "easy-mcq-07": "「缺乏困難、緊張或壓力的輕鬆、自在狀態」是「ease — comfort/lack of difficulty」的用法，與本句語境不同。",
-        "easy-mcq-11": "「表示毫不費力地；輕鬆地」是「ease — noun = lack of difficulty（容易；輕鬆）」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。"
+        "easy-mcq-09": "本句的「easy」指「某件事情很容易發生，所需條件很少或發生機會較高」。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-09"
     },
@@ -587,11 +543,8 @@ export default {
       "masked": "It’s ____ for misunderstandings to happen online.",
       "options": [
         "easy-mcq-09",
-        "easy-mcq-08",
-        "easy-mcq-10",
-        "easy-mcq-07",
-        "easy-mcq-11",
-        "easy-mcq-06"
+        "easy-mcq-03",
+        "easy-mcq-08"
       ],
       "explanation": "本句的「easy」指「某件事情很容易發生，所需條件很少或發生機會較高」。",
       "sentenceIndex": 9,
@@ -600,12 +553,9 @@ export default {
         "easy"
       ],
       "optionReasons": {
-        "easy-mcq-09": "本句指「某件事情很容易發生，所需條件很少或發生機會較高」。",
-        "easy-mcq-08": "「令疼痛、壓力、困難或嚴重程度降低；減輕／緩解」是「ease — verb」的用法，與本句語境不同。",
-        "easy-mcq-10": "「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」是「6. easy = comfortable / free from worry（生活狀態） — 安逸的；舒適的」的用法，與本句語境不同。",
-        "easy-mcq-07": "「缺乏困難、緊張或壓力的輕鬆、自在狀態」是「ease — comfort/lack of difficulty」的用法，與本句語境不同。",
-        "easy-mcq-11": "「表示毫不費力地；輕鬆地」是「ease — noun = lack of difficulty（容易；輕鬆）」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。"
+        "easy-mcq-09": "本句的「easy」指「某件事情很容易發生，所需條件很少或發生機會較高」。",
+        "easy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-09"
     },
@@ -617,11 +567,9 @@ export default {
       "masked": "They had an ____ life after retirement.",
       "options": [
         "easy-mcq-10",
-        "easy-mcq-09",
-        "easy-mcq-11",
-        "easy-mcq-08",
-        "easy-mcq-12",
-        "easy-mcq-07"
+        "easy-mcq-06",
+        "easy-mcq-14",
+        "easy-mcq-01"
       ],
       "explanation": "本句的「easy」指「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」。",
       "sentenceIndex": 10,
@@ -630,12 +578,10 @@ export default {
         "easy"
       ],
       "optionReasons": {
-        "easy-mcq-10": "本句指「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」。",
-        "easy-mcq-09": "「某件事情很容易發生，所需條件很少或發生機會較高」是「5. easy = likely / readily possible（可能性） — 容易發生的；很可能的」的用法，與本句語境不同。",
-        "easy-mcq-11": "「表示毫不費力地；輕鬆地」是「ease — noun = lack of difficulty（容易；輕鬆）」的用法，與本句語境不同。",
-        "easy-mcq-08": "「令疼痛、壓力、困難或嚴重程度降低；減輕／緩解」是「ease — verb」的用法，與本句語境不同。",
-        "easy-mcq-12": "「缺乏緊張、壓力或不適的舒適狀態」是「ease — noun = comfort / absence of tension（自在；舒適）」的用法，與本句語境不同。",
-        "easy-mcq-07": "「缺乏困難、緊張或壓力的輕鬆、自在狀態」是「ease — comfort/lack of difficulty」的用法，與本句語境不同。"
+        "easy-mcq-10": "本句的「easy」指「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」。",
+        "easy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-10"
     },
@@ -647,11 +593,9 @@ export default {
       "masked": "Money does not always make life ____.",
       "options": [
         "easy-mcq-10",
-        "easy-mcq-09",
-        "easy-mcq-11",
-        "easy-mcq-08",
-        "easy-mcq-12",
-        "easy-mcq-07"
+        "easy-mcq-04",
+        "easy-mcq-14",
+        "easy-mcq-11"
       ],
       "explanation": "本句的「easy」指「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」。",
       "sentenceIndex": 11,
@@ -660,12 +604,10 @@ export default {
         "easy"
       ],
       "optionReasons": {
-        "easy-mcq-10": "本句指「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」。",
-        "easy-mcq-09": "「某件事情很容易發生，所需條件很少或發生機會較高」是「5. easy = likely / readily possible（可能性） — 容易發生的；很可能的」的用法，與本句語境不同。",
-        "easy-mcq-11": "「表示毫不費力地；輕鬆地」是「ease — noun = lack of difficulty（容易；輕鬆）」的用法，與本句語境不同。",
-        "easy-mcq-08": "「令疼痛、壓力、困難或嚴重程度降低；減輕／緩解」是「ease — verb」的用法，與本句語境不同。",
-        "easy-mcq-12": "「缺乏緊張、壓力或不適的舒適狀態」是「ease — noun = comfort / absence of tension（自在；舒適）」的用法，與本句語境不同。",
-        "easy-mcq-07": "「缺乏困難、緊張或壓力的輕鬆、自在狀態」是「ease — comfort/lack of difficulty」的用法，與本句語境不同。"
+        "easy-mcq-10": "本句的「easy」指「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」。",
+        "easy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-10"
     },
@@ -677,11 +619,9 @@ export default {
       "masked": "The path has an ____ slope.",
       "options": [
         "easy-mcq-04",
-        "easy-mcq-03",
-        "easy-mcq-05",
-        "easy-mcq-02",
-        "easy-mcq-06",
-        "easy-mcq-01"
+        "easy-mcq-13",
+        "easy-mcq-09",
+        "easy-mcq-03"
       ],
       "explanation": "本句的「easy」指「程度平緩、柔和，不劇烈或不突然」。",
       "sentenceIndex": 12,
@@ -690,12 +630,10 @@ export default {
         "easy"
       ],
       "optionReasons": {
-        "easy-mcq-04": "本句指「程度平緩、柔和，不劇烈或不突然」。",
-        "easy-mcq-03": "「對規則、要求或處理方式不嚴格、不苛刻」是「easy — permissive/not strict」的用法，與本句語境不同。",
-        "easy-mcq-05": "「不需要很多努力或困難便能做到；輕易地」是「easily — without difficulty」的用法，與本句語境不同。",
-        "easy-mcq-02": "「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」是「easy — relaxed/not demanding」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。",
-        "easy-mcq-01": "「不需要很多努力、技巧、時間或思考便能完成、理解或處理的」是「easy — not difficult」的用法，與本句語境不同。"
+        "easy-mcq-04": "本句的「easy」指「程度平緩、柔和，不劇烈或不突然」。",
+        "easy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-04"
     },
@@ -707,11 +645,8 @@ export default {
       "masked": "Use an ____ movement when stretching your shoulder.",
       "options": [
         "easy-mcq-04",
-        "easy-mcq-03",
-        "easy-mcq-05",
         "easy-mcq-02",
-        "easy-mcq-06",
-        "easy-mcq-01"
+        "easy-mcq-14"
       ],
       "explanation": "本句的「easy」指「程度平緩、柔和，不劇烈或不突然」。",
       "sentenceIndex": 13,
@@ -720,12 +655,9 @@ export default {
         "easy"
       ],
       "optionReasons": {
-        "easy-mcq-04": "本句指「程度平緩、柔和，不劇烈或不突然」。",
-        "easy-mcq-03": "「對規則、要求或處理方式不嚴格、不苛刻」是「easy — permissive/not strict」的用法，與本句語境不同。",
-        "easy-mcq-05": "「不需要很多努力或困難便能做到；輕易地」是「easily — without difficulty」的用法，與本句語境不同。",
-        "easy-mcq-02": "「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」是「easy — relaxed/not demanding」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。",
-        "easy-mcq-01": "「不需要很多努力、技巧、時間或思考便能完成、理解或處理的」是「easy — not difficult」的用法，與本句語境不同。"
+        "easy-mcq-04": "本句的「easy」指「程度平緩、柔和，不劇烈或不突然」。",
+        "easy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-04"
     },
@@ -737,11 +669,9 @@ export default {
       "masked": "He was not the kind of person you forget ____.",
       "options": [
         "easy-mcq-05",
-        "easy-mcq-04",
         "easy-mcq-06",
-        "easy-mcq-03",
-        "easy-mcq-07",
-        "easy-mcq-02"
+        "easy-mcq-14",
+        "easy-mcq-09"
       ],
       "explanation": "本句的「easily」指「不需要很多努力或困難便能做到；輕易地」。",
       "sentenceIndex": 14,
@@ -750,12 +680,10 @@ export default {
         "easily"
       ],
       "optionReasons": {
-        "easy-mcq-05": "本句指「不需要很多努力或困難便能做到；輕易地」。",
-        "easy-mcq-04": "「程度平緩、柔和，不劇烈或不突然」是「easy — gentle/gradual」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。",
-        "easy-mcq-03": "「對規則、要求或處理方式不嚴格、不苛刻」是「easy — permissive/not strict」的用法，與本句語境不同。",
-        "easy-mcq-07": "「缺乏困難、緊張或壓力的輕鬆、自在狀態」是「ease — comfort/lack of difficulty」的用法，與本句語境不同。",
-        "easy-mcq-02": "「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」是「easy — relaxed/not demanding」的用法，與本句語境不同。"
+        "easy-mcq-05": "本句的「easily」指「不需要很多努力或困難便能做到；輕易地」。",
+        "easy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-05"
     },
@@ -768,10 +696,8 @@ export default {
       "options": [
         "easy-mcq-05",
         "easy-mcq-04",
-        "easy-mcq-06",
         "easy-mcq-03",
-        "easy-mcq-07",
-        "easy-mcq-02"
+        "easy-mcq-09"
       ],
       "explanation": "本句的「easily」指「不需要很多努力或困難便能做到；輕易地」。",
       "sentenceIndex": 15,
@@ -780,12 +706,10 @@ export default {
         "easily"
       ],
       "optionReasons": {
-        "easy-mcq-05": "本句指「不需要很多努力或困難便能做到；輕易地」。",
-        "easy-mcq-04": "「程度平緩、柔和，不劇烈或不突然」是「easy — gentle/gradual」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。",
-        "easy-mcq-03": "「對規則、要求或處理方式不嚴格、不苛刻」是「easy — permissive/not strict」的用法，與本句語境不同。",
-        "easy-mcq-07": "「缺乏困難、緊張或壓力的輕鬆、自在狀態」是「ease — comfort/lack of difficulty」的用法，與本句語境不同。",
-        "easy-mcq-02": "「所需壓力、投入或要求較少，令人感到輕鬆、不吃力或隨和」是「easy — relaxed/not demanding」的用法，與本句語境不同。"
+        "easy-mcq-05": "本句的「easily」指「不需要很多努力或困難便能做到；輕易地」。",
+        "easy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-05"
     },
@@ -797,11 +721,8 @@ export default {
       "masked": "She was ____ the best speaker of the evening.",
       "options": [
         "easy-mcq-06",
-        "easy-mcq-05",
-        "easy-mcq-07",
-        "easy-mcq-04",
-        "easy-mcq-08",
-        "easy-mcq-03"
+        "easy-mcq-02",
+        "easy-mcq-14"
       ],
       "explanation": "本句的「easily」指「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」。",
       "sentenceIndex": 16,
@@ -810,12 +731,9 @@ export default {
         "easily"
       ],
       "optionReasons": {
-        "easy-mcq-06": "本句指「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」。",
-        "easy-mcq-05": "「不需要很多努力或困難便能做到；輕易地」是「easily — without difficulty」的用法，與本句語境不同。",
-        "easy-mcq-07": "「缺乏困難、緊張或壓力的輕鬆、自在狀態」是「ease — comfort/lack of difficulty」的用法，與本句語境不同。",
-        "easy-mcq-04": "「程度平緩、柔和，不劇烈或不突然」是「easy — gentle/gradual」的用法，與本句語境不同。",
-        "easy-mcq-08": "「令疼痛、壓力、困難或嚴重程度降低；減輕／緩解」是「ease — verb」的用法，與本句語境不同。",
-        "easy-mcq-03": "「對規則、要求或處理方式不嚴格、不苛刻」是「easy — permissive/not strict」的用法，與本句語境不同。"
+        "easy-mcq-06": "本句的「easily」指「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」。",
+        "easy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-06"
     },
@@ -827,11 +745,9 @@ export default {
       "masked": "This is ____ the most useful feature.",
       "options": [
         "easy-mcq-06",
-        "easy-mcq-05",
-        "easy-mcq-07",
-        "easy-mcq-04",
-        "easy-mcq-08",
-        "easy-mcq-03"
+        "easy-mcq-03",
+        "easy-mcq-13",
+        "easy-mcq-09"
       ],
       "explanation": "本句的「easily」指「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」。",
       "sentenceIndex": 17,
@@ -840,12 +756,10 @@ export default {
         "easily"
       ],
       "optionReasons": {
-        "easy-mcq-06": "本句指「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」。",
-        "easy-mcq-05": "「不需要很多努力或困難便能做到；輕易地」是「easily — without difficulty」的用法，與本句語境不同。",
-        "easy-mcq-07": "「缺乏困難、緊張或壓力的輕鬆、自在狀態」是「ease — comfort/lack of difficulty」的用法，與本句語境不同。",
-        "easy-mcq-04": "「程度平緩、柔和，不劇烈或不突然」是「easy — gentle/gradual」的用法，與本句語境不同。",
-        "easy-mcq-08": "「令疼痛、壓力、困難或嚴重程度降低；減輕／緩解」是「ease — verb」的用法，與本句語境不同。",
-        "easy-mcq-03": "「對規則、要求或處理方式不嚴格、不苛刻」是「easy — permissive/not strict」的用法，與本句語境不同。"
+        "easy-mcq-06": "本句的「easily」指「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」。",
+        "easy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-06"
     },
@@ -857,11 +771,9 @@ export default {
       "masked": "She completed the task with ____.",
       "options": [
         "easy-mcq-11",
-        "easy-mcq-10",
-        "easy-mcq-12",
-        "easy-mcq-09",
-        "easy-mcq-13",
-        "easy-mcq-08"
+        "easy-mcq-04",
+        "easy-mcq-14",
+        "easy-mcq-09"
       ],
       "explanation": "本句的「ease」指「表示毫不費力地；輕鬆地」。",
       "sentenceIndex": 18,
@@ -870,12 +782,10 @@ export default {
         "ease"
       ],
       "optionReasons": {
-        "easy-mcq-11": "本句指「表示毫不費力地；輕鬆地」。",
-        "easy-mcq-10": "「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」是「6. easy = comfortable / free from worry（生活狀態） — 安逸的；舒適的」的用法，與本句語境不同。",
-        "easy-mcq-12": "「缺乏緊張、壓力或不適的舒適狀態」是「ease — noun = comfort / absence of tension（自在；舒適）」的用法，與本句語境不同。",
-        "easy-mcq-09": "「某件事情很容易發生，所需條件很少或發生機會較高」是「5. easy = likely / readily possible（可能性） — 容易發生的；很可能的」的用法，與本句語境不同。",
-        "easy-mcq-13": "「放慢節奏、減少努力或壓力，保持放鬆」是「Fixed expression: take it easy — 放輕鬆；別太操勞」的用法，與本句語境不同。",
-        "easy-mcq-08": "「令疼痛、壓力、困難或嚴重程度降低；減輕／緩解」是「ease — verb」的用法，與本句語境不同。"
+        "easy-mcq-11": "本句的「ease」指「表示毫不費力地；輕鬆地」。",
+        "easy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-11"
     },
@@ -887,10 +797,8 @@ export default {
       "masked": "He spoke with complete ____.",
       "options": [
         "easy-mcq-12",
-        "easy-mcq-11",
-        "easy-mcq-13",
-        "easy-mcq-10",
-        "easy-mcq-14",
+        "easy-mcq-03",
+        "easy-mcq-04",
         "easy-mcq-09"
       ],
       "explanation": "本句的「ease」指「缺乏緊張、壓力或不適的舒適狀態」。",
@@ -900,12 +808,10 @@ export default {
         "ease"
       ],
       "optionReasons": {
-        "easy-mcq-12": "本句指「缺乏緊張、壓力或不適的舒適狀態」。",
-        "easy-mcq-11": "「表示毫不費力地；輕鬆地」是「ease — noun = lack of difficulty（容易；輕鬆）」的用法，與本句語境不同。",
-        "easy-mcq-13": "「放慢節奏、減少努力或壓力，保持放鬆」是「Fixed expression: take it easy — 放輕鬆；別太操勞」的用法，與本句語境不同。",
-        "easy-mcq-10": "「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」是「6. easy = comfortable / free from worry（生活狀態） — 安逸的；舒適的」的用法，與本句語境不同。",
-        "easy-mcq-14": "「對某人不要太苛刻，或對某物不要用太多」是「Fixed expression: go easy on + person/thing — 對……手下留情／少用一點」的用法，與本句語境不同。",
-        "easy-mcq-09": "「某件事情很容易發生，所需條件很少或發生機會較高」是「5. easy = likely / readily possible（可能性） — 容易發生的；很可能的」的用法，與本句語境不同。"
+        "easy-mcq-12": "本句的「ease」指「缺乏緊張、壓力或不適的舒適狀態」。",
+        "easy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-12"
     },
@@ -917,11 +823,9 @@ export default {
       "masked": "She quickly put the guests at ____.",
       "options": [
         "easy-mcq-12",
-        "easy-mcq-11",
-        "easy-mcq-13",
-        "easy-mcq-10",
-        "easy-mcq-14",
-        "easy-mcq-09"
+        "easy-mcq-06",
+        "easy-mcq-09",
+        "easy-mcq-14"
       ],
       "explanation": "本句的「ease」指「缺乏緊張、壓力或不適的舒適狀態」。",
       "sentenceIndex": 20,
@@ -930,12 +834,10 @@ export default {
         "ease"
       ],
       "optionReasons": {
-        "easy-mcq-12": "本句指「缺乏緊張、壓力或不適的舒適狀態」。",
-        "easy-mcq-11": "「表示毫不費力地；輕鬆地」是「ease — noun = lack of difficulty（容易；輕鬆）」的用法，與本句語境不同。",
-        "easy-mcq-13": "「放慢節奏、減少努力或壓力，保持放鬆」是「Fixed expression: take it easy — 放輕鬆；別太操勞」的用法，與本句語境不同。",
-        "easy-mcq-10": "「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」是「6. easy = comfortable / free from worry（生活狀態） — 安逸的；舒適的」的用法，與本句語境不同。",
-        "easy-mcq-14": "「對某人不要太苛刻，或對某物不要用太多」是「Fixed expression: go easy on + person/thing — 對……手下留情／少用一點」的用法，與本句語境不同。",
-        "easy-mcq-09": "「某件事情很容易發生，所需條件很少或發生機會較高」是「5. easy = likely / readily possible（可能性） — 容易發生的；很可能的」的用法，與本句語境不同。"
+        "easy-mcq-12": "本句的「ease」指「缺乏緊張、壓力或不適的舒適狀態」。",
+        "easy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-12"
     },
@@ -947,11 +849,9 @@ export default {
       "masked": "The medicine helped ____ the pain.",
       "options": [
         "easy-mcq-08",
-        "easy-mcq-07",
         "easy-mcq-09",
-        "easy-mcq-06",
-        "easy-mcq-10",
-        "easy-mcq-05"
+        "easy-mcq-14",
+        "easy-mcq-01"
       ],
       "explanation": "本句的「ease」指「令疼痛、壓力、困難或嚴重程度降低；減輕／緩解」。",
       "sentenceIndex": 21,
@@ -960,12 +860,10 @@ export default {
         "ease"
       ],
       "optionReasons": {
-        "easy-mcq-08": "本句指「令疼痛、壓力、困難或嚴重程度降低；減輕／緩解」。",
-        "easy-mcq-07": "「缺乏困難、緊張或壓力的輕鬆、自在狀態」是「ease — comfort/lack of difficulty」的用法，與本句語境不同。",
-        "easy-mcq-09": "「某件事情很容易發生，所需條件很少或發生機會較高」是「5. easy = likely / readily possible（可能性） — 容易發生的；很可能的」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。",
-        "easy-mcq-10": "「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」是「6. easy = comfortable / free from worry（生活狀態） — 安逸的；舒適的」的用法，與本句語境不同。",
-        "easy-mcq-05": "「不需要很多努力或困難便能做到；輕易地」是「easily — without difficulty」的用法，與本句語境不同。"
+        "easy-mcq-08": "本句的「ease」指「令疼痛、壓力、困難或嚴重程度降低；減輕／緩解」。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-08"
     },
@@ -977,11 +875,9 @@ export default {
       "masked": "The new measures should ____ traffic congestion.",
       "options": [
         "easy-mcq-08",
-        "easy-mcq-07",
+        "easy-mcq-14",
         "easy-mcq-09",
-        "easy-mcq-06",
-        "easy-mcq-10",
-        "easy-mcq-05"
+        "easy-mcq-01"
       ],
       "explanation": "本句的「ease」指「令疼痛、壓力、困難或嚴重程度降低；減輕／緩解」。",
       "sentenceIndex": 22,
@@ -990,12 +886,10 @@ export default {
         "ease"
       ],
       "optionReasons": {
-        "easy-mcq-08": "本句指「令疼痛、壓力、困難或嚴重程度降低；減輕／緩解」。",
-        "easy-mcq-07": "「缺乏困難、緊張或壓力的輕鬆、自在狀態」是「ease — comfort/lack of difficulty」的用法，與本句語境不同。",
-        "easy-mcq-09": "「某件事情很容易發生，所需條件很少或發生機會較高」是「5. easy = likely / readily possible（可能性） — 容易發生的；很可能的」的用法，與本句語境不同。",
-        "easy-mcq-06": "「優勢或程度非常明顯，遠遠高於其他選項；明顯地／無疑地」是「easily — by a clear margin」的用法，與本句語境不同。",
-        "easy-mcq-10": "「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」是「6. easy = comfortable / free from worry（生活狀態） — 安逸的；舒適的」的用法，與本句語境不同。",
-        "easy-mcq-05": "「不需要很多努力或困難便能做到；輕易地」是「easily — without difficulty」的用法，與本句語境不同。"
+        "easy-mcq-08": "本句的「ease」指「令疼痛、壓力、困難或嚴重程度降低；減輕／緩解」。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-08"
     },
@@ -1007,10 +901,8 @@ export default {
       "masked": "You’ve been working all day. ____ tonight.",
       "options": [
         "easy-mcq-13",
-        "easy-mcq-12",
         "easy-mcq-14",
-        "easy-mcq-11",
-        "easy-mcq-10",
+        "easy-mcq-04",
         "easy-mcq-09"
       ],
       "explanation": "本句的「Take it easy」指「放慢節奏、減少努力或壓力，保持放鬆」。",
@@ -1020,12 +912,10 @@ export default {
         "Take it easy"
       ],
       "optionReasons": {
-        "easy-mcq-13": "本句指「放慢節奏、減少努力或壓力，保持放鬆」。",
-        "easy-mcq-12": "「缺乏緊張、壓力或不適的舒適狀態」是「ease — noun = comfort / absence of tension（自在；舒適）」的用法，與本句語境不同。",
-        "easy-mcq-14": "「對某人不要太苛刻，或對某物不要用太多」是「Fixed expression: go easy on + person/thing — 對……手下留情／少用一點」的用法，與本句語境不同。",
-        "easy-mcq-11": "「表示毫不費力地；輕鬆地」是「ease — noun = lack of difficulty（容易；輕鬆）」的用法，與本句語境不同。",
-        "easy-mcq-10": "「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」是「6. easy = comfortable / free from worry（生活狀態） — 安逸的；舒適的」的用法，與本句語境不同。",
-        "easy-mcq-09": "「某件事情很容易發生，所需條件很少或發生機會較高」是「5. easy = likely / readily possible（可能性） — 容易發生的；很可能的」的用法，與本句語境不同。"
+        "easy-mcq-13": "本句的「Take it easy」指「放慢節奏、減少努力或壓力，保持放鬆」。",
+        "easy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-13"
     },
@@ -1037,10 +927,8 @@ export default {
       "masked": "The doctor told him to ____ for a few days.",
       "options": [
         "easy-mcq-13",
-        "easy-mcq-12",
-        "easy-mcq-14",
-        "easy-mcq-11",
-        "easy-mcq-10",
+        "easy-mcq-03",
+        "easy-mcq-04",
         "easy-mcq-09"
       ],
       "explanation": "本句的「take it easy」指「放慢節奏、減少努力或壓力，保持放鬆」。",
@@ -1050,12 +938,10 @@ export default {
         "take it easy"
       ],
       "optionReasons": {
-        "easy-mcq-13": "本句指「放慢節奏、減少努力或壓力，保持放鬆」。",
-        "easy-mcq-12": "「缺乏緊張、壓力或不適的舒適狀態」是「ease — noun = comfort / absence of tension（自在；舒適）」的用法，與本句語境不同。",
-        "easy-mcq-14": "「對某人不要太苛刻，或對某物不要用太多」是「Fixed expression: go easy on + person/thing — 對……手下留情／少用一點」的用法，與本句語境不同。",
-        "easy-mcq-11": "「表示毫不費力地；輕鬆地」是「ease — noun = lack of difficulty（容易；輕鬆）」的用法，與本句語境不同。",
-        "easy-mcq-10": "「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」是「6. easy = comfortable / free from worry（生活狀態） — 安逸的；舒適的」的用法，與本句語境不同。",
-        "easy-mcq-09": "「某件事情很容易發生，所需條件很少或發生機會較高」是「5. easy = likely / readily possible（可能性） — 容易發生的；很可能的」的用法，與本句語境不同。"
+        "easy-mcq-13": "本句的「take it easy」指「放慢節奏、減少努力或壓力，保持放鬆」。",
+        "easy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-13"
     },
@@ -1068,9 +954,7 @@ export default {
       "options": [
         "easy-mcq-14",
         "easy-mcq-13",
-        "easy-mcq-12",
-        "easy-mcq-11",
-        "easy-mcq-10",
+        "easy-mcq-04",
         "easy-mcq-09"
       ],
       "explanation": "本句的「easy on」指「對某人不要太苛刻，或對某物不要用太多」。",
@@ -1080,12 +964,10 @@ export default {
         "easy on"
       ],
       "optionReasons": {
-        "easy-mcq-14": "本句指「對某人不要太苛刻，或對某物不要用太多」。",
-        "easy-mcq-13": "「放慢節奏、減少努力或壓力，保持放鬆」是「Fixed expression: take it easy — 放輕鬆；別太操勞」的用法，與本句語境不同。",
-        "easy-mcq-12": "「缺乏緊張、壓力或不適的舒適狀態」是「ease — noun = comfort / absence of tension（自在；舒適）」的用法，與本句語境不同。",
-        "easy-mcq-11": "「表示毫不費力地；輕鬆地」是「ease — noun = lack of difficulty（容易；輕鬆）」的用法，與本句語境不同。",
-        "easy-mcq-10": "「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」是「6. easy = comfortable / free from worry（生活狀態） — 安逸的；舒適的」的用法，與本句語境不同。",
-        "easy-mcq-09": "「某件事情很容易發生，所需條件很少或發生機會較高」是「5. easy = likely / readily possible（可能性） — 容易發生的；很可能的」的用法，與本句語境不同。"
+        "easy-mcq-14": "本句的「easy on」指「對某人不要太苛刻，或對某物不要用太多」。",
+        "easy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-14"
     },
@@ -1098,10 +980,8 @@ export default {
       "options": [
         "easy-mcq-14",
         "easy-mcq-13",
-        "easy-mcq-12",
-        "easy-mcq-11",
-        "easy-mcq-10",
-        "easy-mcq-09"
+        "easy-mcq-09",
+        "easy-mcq-06"
       ],
       "explanation": "本句的「easy on」指「對某人不要太苛刻，或對某物不要用太多」。",
       "sentenceIndex": 26,
@@ -1110,12 +990,10 @@ export default {
         "easy on"
       ],
       "optionReasons": {
-        "easy-mcq-14": "本句指「對某人不要太苛刻，或對某物不要用太多」。",
-        "easy-mcq-13": "「放慢節奏、減少努力或壓力，保持放鬆」是「Fixed expression: take it easy — 放輕鬆；別太操勞」的用法，與本句語境不同。",
-        "easy-mcq-12": "「缺乏緊張、壓力或不適的舒適狀態」是「ease — noun = comfort / absence of tension（自在；舒適）」的用法，與本句語境不同。",
-        "easy-mcq-11": "「表示毫不費力地；輕鬆地」是「ease — noun = lack of difficulty（容易；輕鬆）」的用法，與本句語境不同。",
-        "easy-mcq-10": "「生活或情況較少困難、壓力或負擔，令人感到安逸舒適」是「6. easy = comfortable / free from worry（生活狀態） — 安逸的；舒適的」的用法，與本句語境不同。",
-        "easy-mcq-09": "「某件事情很容易發生，所需條件很少或發生機會較高」是「5. easy = likely / readily possible（可能性） — 容易發生的；很可能的」的用法，與本句語境不同。"
+        "easy-mcq-14": "本句的「easy on」指「對某人不要太苛刻，或對某物不要用太多」。",
+        "easy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "easy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "easy-mcq-14"
     }
@@ -1127,5 +1005,7 @@ export default {
     "sha256": "5961f269238a09086bf233308685b011efbd240aeacd0aaad013c51be8cb3a89",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

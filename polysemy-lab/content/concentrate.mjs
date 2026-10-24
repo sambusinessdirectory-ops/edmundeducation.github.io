@@ -316,11 +316,8 @@ export default {
       "masked": "It is difficult to ____ in a noisy restaurant.",
       "options": [
         "concentrate-mcq-01",
-        "concentrate-mcq-02",
-        "concentrate-mcq-03",
-        "concentrate-mcq-04",
-        "concentrate-mcq-05",
-        "concentrate-mcq-06"
+        "concentrate-mcq-11",
+        "concentrate-mcq-10"
       ],
       "explanation": "本句的「concentrate」指「把注意力集中在某件事上；專心」。",
       "sentenceIndex": 0,
@@ -329,12 +326,9 @@ export default {
         "concentrate"
       ],
       "optionReasons": {
-        "concentrate-mcq-01": "本句指「把注意力集中在某件事上；專心」。",
-        "concentrate-mcq-02": "「持續集中精神、不受干擾的專注狀態／能力」與本句語境不同。",
-        "concentrate-mcq-03": "「把力量、時間、資源等集中用在某一目標」與本句語境不同。",
-        "concentrate-mcq-04": "「把原本分散的人、事物或活動集中到較小範圍」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。"
+        "concentrate-mcq-01": "本句的「concentrate」指「把注意力集中在某件事上；專心」。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-01"
     },
@@ -346,11 +340,8 @@ export default {
       "masked": "Please ____ your work.",
       "options": [
         "concentrate-mcq-01",
-        "concentrate-mcq-02",
-        "concentrate-mcq-03",
-        "concentrate-mcq-04",
-        "concentrate-mcq-05",
-        "concentrate-mcq-06"
+        "concentrate-mcq-10",
+        "concentrate-mcq-11"
       ],
       "explanation": "本句的「concentrate on」指「把注意力集中在某件事上；專心」。",
       "sentenceIndex": 1,
@@ -359,12 +350,9 @@ export default {
         "concentrate on"
       ],
       "optionReasons": {
-        "concentrate-mcq-01": "本句指「把注意力集中在某件事上；專心」。",
-        "concentrate-mcq-02": "「持續集中精神、不受干擾的專注狀態／能力」與本句語境不同。",
-        "concentrate-mcq-03": "「把力量、時間、資源等集中用在某一目標」與本句語境不同。",
-        "concentrate-mcq-04": "「把原本分散的人、事物或活動集中到較小範圍」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。"
+        "concentrate-mcq-01": "本句的「concentrate on」指「把注意力集中在某件事上；專心」。",
+        "concentrate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-01"
     },
@@ -376,11 +364,8 @@ export default {
       "masked": "She was too tired to ____.",
       "options": [
         "concentrate-mcq-01",
-        "concentrate-mcq-02",
-        "concentrate-mcq-03",
-        "concentrate-mcq-04",
-        "concentrate-mcq-05",
-        "concentrate-mcq-06"
+        "concentrate-mcq-09",
+        "concentrate-mcq-11"
       ],
       "explanation": "本句的「concentrate」指「把注意力集中在某件事上；專心」。",
       "sentenceIndex": 2,
@@ -389,12 +374,9 @@ export default {
         "concentrate"
       ],
       "optionReasons": {
-        "concentrate-mcq-01": "本句指「把注意力集中在某件事上；專心」。",
-        "concentrate-mcq-02": "「持續集中精神、不受干擾的專注狀態／能力」與本句語境不同。",
-        "concentrate-mcq-03": "「把力量、時間、資源等集中用在某一目標」與本句語境不同。",
-        "concentrate-mcq-04": "「把原本分散的人、事物或活動集中到較小範圍」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。"
+        "concentrate-mcq-01": "本句的「concentrate」指「把注意力集中在某件事上；專心」。",
+        "concentrate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-01"
     },
@@ -406,11 +388,8 @@ export default {
       "masked": "Noise makes serious ____ difficult.",
       "options": [
         "concentrate-mcq-02",
-        "concentrate-mcq-01",
-        "concentrate-mcq-03",
-        "concentrate-mcq-04",
-        "concentrate-mcq-05",
-        "concentrate-mcq-06"
+        "concentrate-mcq-07",
+        "concentrate-mcq-11"
       ],
       "explanation": "本句的「concentration」指「持續集中精神、不受干擾的專注狀態／能力」。",
       "sentenceIndex": 3,
@@ -419,12 +398,9 @@ export default {
         "concentration"
       ],
       "optionReasons": {
-        "concentrate-mcq-02": "本句指「持續集中精神、不受干擾的專注狀態／能力」。",
-        "concentrate-mcq-01": "「把注意力集中在某件事上；專心」與本句語境不同。",
-        "concentrate-mcq-03": "「把力量、時間、資源等集中用在某一目標」與本句語境不同。",
-        "concentrate-mcq-04": "「把原本分散的人、事物或活動集中到較小範圍」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。"
+        "concentrate-mcq-02": "本句的「concentration」指「持續集中精神、不受干擾的專注狀態／能力」。",
+        "concentrate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-02"
     },
@@ -436,11 +412,8 @@ export default {
       "masked": "Good ____ is essential during an examination.",
       "options": [
         "concentrate-mcq-02",
-        "concentrate-mcq-01",
-        "concentrate-mcq-03",
-        "concentrate-mcq-04",
-        "concentrate-mcq-05",
-        "concentrate-mcq-06"
+        "concentrate-mcq-10",
+        "concentrate-mcq-11"
       ],
       "explanation": "本句的「concentration」指「持續集中精神、不受干擾的專注狀態／能力」。",
       "sentenceIndex": 4,
@@ -449,12 +422,9 @@ export default {
         "concentration"
       ],
       "optionReasons": {
-        "concentrate-mcq-02": "本句指「持續集中精神、不受干擾的專注狀態／能力」。",
-        "concentrate-mcq-01": "「把注意力集中在某件事上；專心」與本句語境不同。",
-        "concentrate-mcq-03": "「把力量、時間、資源等集中用在某一目標」與本句語境不同。",
-        "concentrate-mcq-04": "「把原本分散的人、事物或活動集中到較小範圍」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。"
+        "concentrate-mcq-02": "本句的「concentration」指「持續集中精神、不受干擾的專注狀態／能力」。",
+        "concentrate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-02"
     },
@@ -466,11 +436,8 @@ export default {
       "masked": "Her ____ was broken by the sudden noise.",
       "options": [
         "concentrate-mcq-02",
-        "concentrate-mcq-01",
-        "concentrate-mcq-03",
-        "concentrate-mcq-04",
-        "concentrate-mcq-05",
-        "concentrate-mcq-06"
+        "concentrate-mcq-07",
+        "concentrate-mcq-11"
       ],
       "explanation": "本句的「concentration」指「持續集中精神、不受干擾的專注狀態／能力」。",
       "sentenceIndex": 5,
@@ -479,12 +446,9 @@ export default {
         "concentration"
       ],
       "optionReasons": {
-        "concentrate-mcq-02": "本句指「持續集中精神、不受干擾的專注狀態／能力」。",
-        "concentrate-mcq-01": "「把注意力集中在某件事上；專心」與本句語境不同。",
-        "concentrate-mcq-03": "「把力量、時間、資源等集中用在某一目標」與本句語境不同。",
-        "concentrate-mcq-04": "「把原本分散的人、事物或活動集中到較小範圍」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。"
+        "concentrate-mcq-02": "本句的「concentration」指「持續集中精神、不受干擾的專注狀態／能力」。",
+        "concentrate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-02"
     },
@@ -496,11 +460,8 @@ export default {
       "masked": "The company will ____ its resources on its most successful products.",
       "options": [
         "concentrate-mcq-03",
-        "concentrate-mcq-02",
-        "concentrate-mcq-04",
-        "concentrate-mcq-01",
-        "concentrate-mcq-05",
-        "concentrate-mcq-06"
+        "concentrate-mcq-12",
+        "concentrate-mcq-10"
       ],
       "explanation": "本句的「concentrate」指「把力量、時間、資源等集中用在某一目標」。",
       "sentenceIndex": 6,
@@ -509,12 +470,9 @@ export default {
         "concentrate"
       ],
       "optionReasons": {
-        "concentrate-mcq-03": "本句指「把力量、時間、資源等集中用在某一目標」。",
-        "concentrate-mcq-02": "「持續集中精神、不受干擾的專注狀態／能力」與本句語境不同。",
-        "concentrate-mcq-04": "「把原本分散的人、事物或活動集中到較小範圍」與本句語境不同。",
-        "concentrate-mcq-01": "「把注意力集中在某件事上；專心」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。"
+        "concentrate-mcq-03": "本句的「concentrate」指「把力量、時間、資源等集中用在某一目標」。",
+        "concentrate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-03"
     },
@@ -526,11 +484,8 @@ export default {
       "masked": "We should ____ solving the main problem.",
       "options": [
         "concentrate-mcq-03",
-        "concentrate-mcq-02",
-        "concentrate-mcq-04",
-        "concentrate-mcq-01",
-        "concentrate-mcq-05",
-        "concentrate-mcq-06"
+        "concentrate-mcq-12",
+        "concentrate-mcq-10"
       ],
       "explanation": "本句的「concentrate our efforts on」指「把力量、時間、資源等集中用在某一目標」。",
       "sentenceIndex": 7,
@@ -539,12 +494,9 @@ export default {
         "concentrate our efforts on"
       ],
       "optionReasons": {
-        "concentrate-mcq-03": "本句指「把力量、時間、資源等集中用在某一目標」。",
-        "concentrate-mcq-02": "「持續集中精神、不受干擾的專注狀態／能力」與本句語境不同。",
-        "concentrate-mcq-04": "「把原本分散的人、事物或活動集中到較小範圍」與本句語境不同。",
-        "concentrate-mcq-01": "「把注意力集中在某件事上；專心」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。"
+        "concentrate-mcq-03": "本句的「concentrate our efforts on」指「把力量、時間、資源等集中用在某一目標」。",
+        "concentrate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-03"
     },
@@ -556,11 +508,8 @@ export default {
       "masked": "The units ____ on one position.",
       "options": [
         "concentrate-mcq-04",
-        "concentrate-mcq-03",
-        "concentrate-mcq-05",
-        "concentrate-mcq-02",
-        "concentrate-mcq-06",
-        "concentrate-mcq-01"
+        "concentrate-mcq-11",
+        "concentrate-mcq-10"
       ],
       "explanation": "本句的「concentrated their fire」指「把原本分散的人、事物或活動集中到較小範圍」。",
       "sentenceIndex": 8,
@@ -569,12 +518,9 @@ export default {
         "concentrated their fire"
       ],
       "optionReasons": {
-        "concentrate-mcq-04": "本句指「把原本分散的人、事物或活動集中到較小範圍」。",
-        "concentrate-mcq-03": "「把力量、時間、資源等集中用在某一目標」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-02": "「持續集中精神、不受干擾的專注狀態／能力」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。",
-        "concentrate-mcq-01": "「把注意力集中在某件事上；專心」與本句語境不同。"
+        "concentrate-mcq-04": "本句的「concentrated their fire」指「把原本分散的人、事物或活動集中到較小範圍」。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-04"
     },
@@ -586,11 +532,8 @@ export default {
       "masked": "Most of the shops are ____ in the town centre.",
       "options": [
         "concentrate-mcq-04",
-        "concentrate-mcq-03",
-        "concentrate-mcq-05",
-        "concentrate-mcq-02",
-        "concentrate-mcq-06",
-        "concentrate-mcq-01"
+        "concentrate-mcq-09",
+        "concentrate-mcq-11"
       ],
       "explanation": "本句的「concentrated」指「把原本分散的人、事物或活動集中到較小範圍」。",
       "sentenceIndex": 9,
@@ -599,12 +542,9 @@ export default {
         "concentrated"
       ],
       "optionReasons": {
-        "concentrate-mcq-04": "本句指「把原本分散的人、事物或活動集中到較小範圍」。",
-        "concentrate-mcq-03": "「把力量、時間、資源等集中用在某一目標」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-02": "「持續集中精神、不受干擾的專注狀態／能力」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。",
-        "concentrate-mcq-01": "「把注意力集中在某件事上；專心」與本句語境不同。"
+        "concentrate-mcq-04": "本句的「concentrated」指「把原本分散的人、事物或活動集中到較小範圍」。",
+        "concentrate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-04"
     },
@@ -616,11 +556,8 @@ export default {
       "masked": "The population is heavily ____ along the coast.",
       "options": [
         "concentrate-mcq-04",
-        "concentrate-mcq-03",
-        "concentrate-mcq-05",
-        "concentrate-mcq-02",
-        "concentrate-mcq-06",
-        "concentrate-mcq-01"
+        "concentrate-mcq-08",
+        "concentrate-mcq-11"
       ],
       "explanation": "本句的「concentrated」指「把原本分散的人、事物或活動集中到較小範圍」。",
       "sentenceIndex": 10,
@@ -629,12 +566,9 @@ export default {
         "concentrated"
       ],
       "optionReasons": {
-        "concentrate-mcq-04": "本句指「把原本分散的人、事物或活動集中到較小範圍」。",
-        "concentrate-mcq-03": "「把力量、時間、資源等集中用在某一目標」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-02": "「持續集中精神、不受干擾的專注狀態／能力」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。",
-        "concentrate-mcq-01": "「把注意力集中在某件事上；專心」與本句語境不同。"
+        "concentrate-mcq-04": "本句的「concentrated」指「把原本分散的人、事物或活動集中到較小範圍」。",
+        "concentrate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-04"
     },
@@ -646,11 +580,8 @@ export default {
       "masked": "The industry has become ____ in a few large cities.",
       "options": [
         "concentrate-mcq-04",
-        "concentrate-mcq-03",
-        "concentrate-mcq-05",
-        "concentrate-mcq-02",
-        "concentrate-mcq-06",
-        "concentrate-mcq-01"
+        "concentrate-mcq-10",
+        "concentrate-mcq-12"
       ],
       "explanation": "本句的「concentrated」指「把原本分散的人、事物或活動集中到較小範圍」。",
       "sentenceIndex": 11,
@@ -659,12 +590,9 @@ export default {
         "concentrated"
       ],
       "optionReasons": {
-        "concentrate-mcq-04": "本句指「把原本分散的人、事物或活動集中到較小範圍」。",
-        "concentrate-mcq-03": "「把力量、時間、資源等集中用在某一目標」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-02": "「持續集中精神、不受干擾的專注狀態／能力」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。",
-        "concentrate-mcq-01": "「把注意力集中在某件事上；專心」與本句語境不同。"
+        "concentrate-mcq-04": "本句的「concentrated」指「把原本分散的人、事物或活動集中到較小範圍」。",
+        "concentrate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-04"
     },
@@ -676,11 +604,8 @@ export default {
       "masked": "There is a high ____ of restaurants in this district.",
       "options": [
         "concentrate-mcq-05",
-        "concentrate-mcq-04",
-        "concentrate-mcq-06",
-        "concentrate-mcq-03",
-        "concentrate-mcq-07",
-        "concentrate-mcq-02"
+        "concentrate-mcq-10",
+        "concentrate-mcq-11"
       ],
       "explanation": "本句的「concentration」指「某類人／事物大量聚集或高度集中」。",
       "sentenceIndex": 12,
@@ -689,12 +614,9 @@ export default {
         "concentration"
       ],
       "optionReasons": {
-        "concentrate-mcq-05": "本句指「某類人／事物大量聚集或高度集中」。",
-        "concentrate-mcq-04": "「把原本分散的人、事物或活動集中到較小範圍」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。",
-        "concentrate-mcq-03": "「把力量、時間、資源等集中用在某一目標」與本句語境不同。",
-        "concentrate-mcq-07": "「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」與本句語境不同。",
-        "concentrate-mcq-02": "「持續集中精神、不受干擾的專注狀態／能力」與本句語境不同。"
+        "concentrate-mcq-05": "本句的「concentration」指「某類人／事物大量聚集或高度集中」。",
+        "concentrate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-05"
     },
@@ -706,11 +628,8 @@ export default {
       "masked": "The city has a large ____ of technology companies.",
       "options": [
         "concentrate-mcq-05",
-        "concentrate-mcq-04",
-        "concentrate-mcq-06",
-        "concentrate-mcq-03",
-        "concentrate-mcq-07",
-        "concentrate-mcq-02"
+        "concentrate-mcq-10",
+        "concentrate-mcq-11"
       ],
       "explanation": "本句的「concentration」指「某類人／事物大量聚集或高度集中」。",
       "sentenceIndex": 13,
@@ -719,12 +638,9 @@ export default {
         "concentration"
       ],
       "optionReasons": {
-        "concentrate-mcq-05": "本句指「某類人／事物大量聚集或高度集中」。",
-        "concentrate-mcq-04": "「把原本分散的人、事物或活動集中到較小範圍」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。",
-        "concentrate-mcq-03": "「把力量、時間、資源等集中用在某一目標」與本句語境不同。",
-        "concentrate-mcq-07": "「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」與本句語境不同。",
-        "concentrate-mcq-02": "「持續集中精神、不受干擾的專注狀態／能力」與本句語境不同。"
+        "concentrate-mcq-05": "本句的「concentration」指「某類人／事物大量聚集或高度集中」。",
+        "concentrate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-05"
     },
@@ -736,11 +652,8 @@ export default {
       "masked": "The merger increased the ____ in the industry.",
       "options": [
         "concentrate-mcq-06",
-        "concentrate-mcq-05",
-        "concentrate-mcq-07",
-        "concentrate-mcq-04",
         "concentrate-mcq-08",
-        "concentrate-mcq-03"
+        "concentrate-mcq-12"
       ],
       "explanation": "本句的「concentration of ownership」指「權力、財富、所有權等集中於較少的人／單位」。",
       "sentenceIndex": 14,
@@ -749,12 +662,9 @@ export default {
         "concentration of ownership"
       ],
       "optionReasons": {
-        "concentrate-mcq-06": "本句指「權力、財富、所有權等集中於較少的人／單位」。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-07": "「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」與本句語境不同。",
-        "concentrate-mcq-04": "「把原本分散的人、事物或活動集中到較小範圍」與本句語境不同。",
-        "concentrate-mcq-08": "「高濃度的；經濃縮的」與本句語境不同。",
-        "concentrate-mcq-03": "「把力量、時間、資源等集中用在某一目標」與本句語境不同。"
+        "concentrate-mcq-06": "本句的「concentration of ownership」指「權力、財富、所有權等集中於較少的人／單位」。",
+        "concentrate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-06"
     },
@@ -766,11 +676,8 @@ export default {
       "masked": "A high ____ in one office may create governance risks.",
       "options": [
         "concentrate-mcq-06",
-        "concentrate-mcq-05",
-        "concentrate-mcq-07",
-        "concentrate-mcq-04",
-        "concentrate-mcq-08",
-        "concentrate-mcq-03"
+        "concentrate-mcq-12",
+        "concentrate-mcq-10"
       ],
       "explanation": "本句的「concentration of power」指「權力、財富、所有權等集中於較少的人／單位」。",
       "sentenceIndex": 15,
@@ -779,12 +686,9 @@ export default {
         "concentration of power"
       ],
       "optionReasons": {
-        "concentrate-mcq-06": "本句指「權力、財富、所有權等集中於較少的人／單位」。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-07": "「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」與本句語境不同。",
-        "concentrate-mcq-04": "「把原本分散的人、事物或活動集中到較小範圍」與本句語境不同。",
-        "concentrate-mcq-08": "「高濃度的；經濃縮的」與本句語境不同。",
-        "concentrate-mcq-03": "「把力量、時間、資源等集中用在某一目標」與本句語境不同。"
+        "concentrate-mcq-06": "本句的「concentration of power」指「權力、財富、所有權等集中於較少的人／單位」。",
+        "concentrate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-06"
     },
@@ -796,11 +700,8 @@ export default {
       "masked": "The juice is ____ by removing some of the water.",
       "options": [
         "concentrate-mcq-07",
-        "concentrate-mcq-06",
-        "concentrate-mcq-08",
-        "concentrate-mcq-05",
-        "concentrate-mcq-09",
-        "concentrate-mcq-04"
+        "concentrate-mcq-01",
+        "concentrate-mcq-11"
       ],
       "explanation": "本句的「concentrated」指「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」。",
       "sentenceIndex": 16,
@@ -809,12 +710,9 @@ export default {
         "concentrated"
       ],
       "optionReasons": {
-        "concentrate-mcq-07": "本句指「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。",
-        "concentrate-mcq-08": "「高濃度的；經濃縮的」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-09": "「某種物質在混合物中的含量／濃度」與本句語境不同。",
-        "concentrate-mcq-04": "「把原本分散的人、事物或活動集中到較小範圍」與本句語境不同。"
+        "concentrate-mcq-07": "本句的「concentrated」指「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」。",
+        "concentrate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-07"
     },
@@ -826,11 +724,8 @@ export default {
       "masked": "The solution was heated to ____ it.",
       "options": [
         "concentrate-mcq-07",
-        "concentrate-mcq-06",
-        "concentrate-mcq-08",
-        "concentrate-mcq-05",
-        "concentrate-mcq-09",
-        "concentrate-mcq-04"
+        "concentrate-mcq-01",
+        "concentrate-mcq-11"
       ],
       "explanation": "本句的「concentrate」指「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」。",
       "sentenceIndex": 17,
@@ -839,12 +734,9 @@ export default {
         "concentrate"
       ],
       "optionReasons": {
-        "concentrate-mcq-07": "本句指「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。",
-        "concentrate-mcq-08": "「高濃度的；經濃縮的」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。",
-        "concentrate-mcq-09": "「某種物質在混合物中的含量／濃度」與本句語境不同。",
-        "concentrate-mcq-04": "「把原本分散的人、事物或活動集中到較小範圍」與本句語境不同。"
+        "concentrate-mcq-07": "本句的「concentrate」指「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」。",
+        "concentrate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-07"
     },
@@ -856,11 +748,8 @@ export default {
       "masked": "This cleaning fluid is highly ____.",
       "options": [
         "concentrate-mcq-08",
-        "concentrate-mcq-07",
-        "concentrate-mcq-09",
-        "concentrate-mcq-06",
-        "concentrate-mcq-10",
-        "concentrate-mcq-05"
+        "concentrate-mcq-11",
+        "concentrate-mcq-01"
       ],
       "explanation": "本句的「concentrated」指「高濃度的；經濃縮的」。",
       "sentenceIndex": 18,
@@ -869,12 +758,9 @@ export default {
         "concentrated"
       ],
       "optionReasons": {
-        "concentrate-mcq-08": "本句指「高濃度的；經濃縮的」。",
-        "concentrate-mcq-07": "「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」與本句語境不同。",
-        "concentrate-mcq-09": "「某種物質在混合物中的含量／濃度」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。",
-        "concentrate-mcq-10": "「濃縮液／濃縮物」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。"
+        "concentrate-mcq-08": "本句的「concentrated」指「高濃度的；經濃縮的」。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-08"
     },
@@ -886,11 +772,8 @@ export default {
       "masked": "Do not use the ____ solution directly.",
       "options": [
         "concentrate-mcq-08",
-        "concentrate-mcq-07",
-        "concentrate-mcq-09",
-        "concentrate-mcq-06",
-        "concentrate-mcq-10",
-        "concentrate-mcq-05"
+        "concentrate-mcq-04",
+        "concentrate-mcq-11"
       ],
       "explanation": "本句的「concentrated」指「高濃度的；經濃縮的」。",
       "sentenceIndex": 19,
@@ -899,12 +782,9 @@ export default {
         "concentrated"
       ],
       "optionReasons": {
-        "concentrate-mcq-08": "本句指「高濃度的；經濃縮的」。",
-        "concentrate-mcq-07": "「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」與本句語境不同。",
-        "concentrate-mcq-09": "「某種物質在混合物中的含量／濃度」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。",
-        "concentrate-mcq-10": "「濃縮液／濃縮物」與本句語境不同。",
-        "concentrate-mcq-05": "「某類人／事物大量聚集或高度集中」與本句語境不同。"
+        "concentrate-mcq-08": "本句的「concentrated」指「高濃度的；經濃縮的」。",
+        "concentrate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-08"
     },
@@ -916,11 +796,8 @@ export default {
       "masked": "The ____ of salt in the water increased.",
       "options": [
         "concentrate-mcq-09",
-        "concentrate-mcq-08",
-        "concentrate-mcq-10",
-        "concentrate-mcq-07",
-        "concentrate-mcq-11",
-        "concentrate-mcq-06"
+        "concentrate-mcq-04",
+        "concentrate-mcq-12"
       ],
       "explanation": "本句的「concentration」指「某種物質在混合物中的含量／濃度」。",
       "sentenceIndex": 20,
@@ -929,12 +806,9 @@ export default {
         "concentration"
       ],
       "optionReasons": {
-        "concentrate-mcq-09": "本句指「某種物質在混合物中的含量／濃度」。",
-        "concentrate-mcq-08": "「高濃度的；經濃縮的」與本句語境不同。",
-        "concentrate-mcq-10": "「濃縮液／濃縮物」與本句語境不同。",
-        "concentrate-mcq-07": "「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」與本句語境不同。",
-        "concentrate-mcq-11": "「加工後富含目標礦物的精礦」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。"
+        "concentrate-mcq-09": "本句的「concentration」指「某種物質在混合物中的含量／濃度」。",
+        "concentrate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-09"
     },
@@ -946,10 +820,7 @@ export default {
       "masked": "Researchers measured the oxygen ____.",
       "options": [
         "concentrate-mcq-09",
-        "concentrate-mcq-08",
-        "concentrate-mcq-10",
-        "concentrate-mcq-07",
-        "concentrate-mcq-11",
+        "concentrate-mcq-12",
         "concentrate-mcq-06"
       ],
       "explanation": "本句的「concentration」指「某種物質在混合物中的含量／濃度」。",
@@ -959,12 +830,9 @@ export default {
         "concentration"
       ],
       "optionReasons": {
-        "concentrate-mcq-09": "本句指「某種物質在混合物中的含量／濃度」。",
-        "concentrate-mcq-08": "「高濃度的；經濃縮的」與本句語境不同。",
-        "concentrate-mcq-10": "「濃縮液／濃縮物」與本句語境不同。",
-        "concentrate-mcq-07": "「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」與本句語境不同。",
-        "concentrate-mcq-11": "「加工後富含目標礦物的精礦」與本句語境不同。",
-        "concentrate-mcq-06": "「權力、財富、所有權等集中於較少的人／單位」與本句語境不同。"
+        "concentrate-mcq-09": "本句的「concentration」指「某種物質在混合物中的含量／濃度」。",
+        "concentrate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-09"
     },
@@ -976,11 +844,8 @@ export default {
       "masked": "The juice is made from orange ____.",
       "options": [
         "concentrate-mcq-10",
-        "concentrate-mcq-09",
-        "concentrate-mcq-11",
-        "concentrate-mcq-08",
-        "concentrate-mcq-12",
-        "concentrate-mcq-07"
+        "concentrate-mcq-06",
+        "concentrate-mcq-12"
       ],
       "explanation": "本句的「concentrate」指「濃縮液／濃縮物」。",
       "sentenceIndex": 22,
@@ -989,12 +854,9 @@ export default {
         "concentrate"
       ],
       "optionReasons": {
-        "concentrate-mcq-10": "本句指「濃縮液／濃縮物」。",
-        "concentrate-mcq-09": "「某種物質在混合物中的含量／濃度」與本句語境不同。",
-        "concentrate-mcq-11": "「加工後富含目標礦物的精礦」與本句語境不同。",
-        "concentrate-mcq-08": "「高濃度的；經濃縮的」與本句語境不同。",
-        "concentrate-mcq-12": "「高營養、低粗纖維的精飼料；農業專門」與本句語境不同。",
-        "concentrate-mcq-07": "「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」與本句語境不同。"
+        "concentrate-mcq-10": "本句的「concentrate」指「濃縮液／濃縮物」。",
+        "concentrate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-10"
     },
@@ -1006,11 +868,8 @@ export default {
       "masked": "Mix one part ____ with four parts water.",
       "options": [
         "concentrate-mcq-10",
-        "concentrate-mcq-09",
-        "concentrate-mcq-11",
-        "concentrate-mcq-08",
-        "concentrate-mcq-12",
-        "concentrate-mcq-07"
+        "concentrate-mcq-03",
+        "concentrate-mcq-12"
       ],
       "explanation": "本句的「concentrate」指「濃縮液／濃縮物」。",
       "sentenceIndex": 23,
@@ -1019,12 +878,9 @@ export default {
         "concentrate"
       ],
       "optionReasons": {
-        "concentrate-mcq-10": "本句指「濃縮液／濃縮物」。",
-        "concentrate-mcq-09": "「某種物質在混合物中的含量／濃度」與本句語境不同。",
-        "concentrate-mcq-11": "「加工後富含目標礦物的精礦」與本句語境不同。",
-        "concentrate-mcq-08": "「高濃度的；經濃縮的」與本句語境不同。",
-        "concentrate-mcq-12": "「高營養、低粗纖維的精飼料；農業專門」與本句語境不同。",
-        "concentrate-mcq-07": "「除去水分／溶劑等，使某物質的有效成分比例提高；濃縮」與本句語境不同。"
+        "concentrate-mcq-10": "本句的「concentrate」指「濃縮液／濃縮物」。",
+        "concentrate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-10"
     },
@@ -1036,11 +892,8 @@ export default {
       "masked": "The plant produces copper ____.",
       "options": [
         "concentrate-mcq-11",
-        "concentrate-mcq-10",
-        "concentrate-mcq-12",
-        "concentrate-mcq-09",
-        "concentrate-mcq-13",
-        "concentrate-mcq-08"
+        "concentrate-mcq-08",
+        "concentrate-mcq-04"
       ],
       "explanation": "本句的「concentrate」指「加工後富含目標礦物的精礦」。",
       "sentenceIndex": 24,
@@ -1049,12 +902,9 @@ export default {
         "concentrate"
       ],
       "optionReasons": {
-        "concentrate-mcq-11": "本句指「加工後富含目標礦物的精礦」。",
-        "concentrate-mcq-10": "「濃縮液／濃縮物」與本句語境不同。",
-        "concentrate-mcq-12": "「高營養、低粗纖維的精飼料；農業專門」與本句語境不同。",
-        "concentrate-mcq-09": "「某種物質在混合物中的含量／濃度」與本句語境不同。",
-        "concentrate-mcq-13": "「集中營；固定歷史／制度性詞語」與本句語境不同。",
-        "concentrate-mcq-08": "「高濃度的；經濃縮的」與本句語境不同。"
+        "concentrate-mcq-11": "本句的「concentrate」指「加工後富含目標礦物的精礦」。",
+        "concentrate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-11"
     },
@@ -1066,11 +916,8 @@ export default {
       "masked": "The cattle are given grain ____.",
       "options": [
         "concentrate-mcq-12",
-        "concentrate-mcq-11",
-        "concentrate-mcq-13",
         "concentrate-mcq-10",
-        "concentrate-mcq-09",
-        "concentrate-mcq-08"
+        "concentrate-mcq-03"
       ],
       "explanation": "本句的「concentrate」指「高營養、低粗纖維的精飼料；農業專門」。",
       "sentenceIndex": 25,
@@ -1079,12 +926,9 @@ export default {
         "concentrate"
       ],
       "optionReasons": {
-        "concentrate-mcq-12": "本句指「高營養、低粗纖維的精飼料；農業專門」。",
-        "concentrate-mcq-11": "「加工後富含目標礦物的精礦」與本句語境不同。",
-        "concentrate-mcq-13": "「集中營；固定歷史／制度性詞語」與本句語境不同。",
-        "concentrate-mcq-10": "「濃縮液／濃縮物」與本句語境不同。",
-        "concentrate-mcq-09": "「某種物質在混合物中的含量／濃度」與本句語境不同。",
-        "concentrate-mcq-08": "「高濃度的；經濃縮的」與本句語境不同。"
+        "concentrate-mcq-12": "本句的「concentrate」指「高營養、低粗纖維的精飼料；農業專門」。",
+        "concentrate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-12"
     },
@@ -1096,11 +940,8 @@ export default {
       "masked": "The project required a period of ____ effort.",
       "options": [
         "concentrate-mcq-13",
-        "concentrate-mcq-12",
-        "concentrate-mcq-11",
         "concentrate-mcq-10",
-        "concentrate-mcq-09",
-        "concentrate-mcq-08"
+        "concentrate-mcq-11"
       ],
       "explanation": "本句的「concentrated」指「集中營；固定歷史／制度性詞語」。",
       "sentenceIndex": 26,
@@ -1109,12 +950,9 @@ export default {
         "concentrated"
       ],
       "optionReasons": {
-        "concentrate-mcq-13": "本句指「集中營；固定歷史／制度性詞語」。",
-        "concentrate-mcq-12": "「高營養、低粗纖維的精飼料；農業專門」與本句語境不同。",
-        "concentrate-mcq-11": "「加工後富含目標礦物的精礦」與本句語境不同。",
-        "concentrate-mcq-10": "「濃縮液／濃縮物」與本句語境不同。",
-        "concentrate-mcq-09": "「某種物質在混合物中的含量／濃度」與本句語境不同。",
-        "concentrate-mcq-08": "「高濃度的；經濃縮的」與本句語境不同。"
+        "concentrate-mcq-13": "本句的「concentrated」指「集中營；固定歷史／制度性詞語」。",
+        "concentrate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-13"
     },
@@ -1126,11 +964,8 @@ export default {
       "masked": "The area experienced ____ development.",
       "options": [
         "concentrate-mcq-13",
-        "concentrate-mcq-12",
         "concentrate-mcq-11",
-        "concentrate-mcq-10",
-        "concentrate-mcq-09",
-        "concentrate-mcq-08"
+        "concentrate-mcq-10"
       ],
       "explanation": "本句的「concentrated」指「集中營；固定歷史／制度性詞語」。",
       "sentenceIndex": 27,
@@ -1139,12 +974,9 @@ export default {
         "concentrated"
       ],
       "optionReasons": {
-        "concentrate-mcq-13": "本句指「集中營；固定歷史／制度性詞語」。",
-        "concentrate-mcq-12": "「高營養、低粗纖維的精飼料；農業專門」與本句語境不同。",
-        "concentrate-mcq-11": "「加工後富含目標礦物的精礦」與本句語境不同。",
-        "concentrate-mcq-10": "「濃縮液／濃縮物」與本句語境不同。",
-        "concentrate-mcq-09": "「某種物質在混合物中的含量／濃度」與本句語境不同。",
-        "concentrate-mcq-08": "「高濃度的；經濃縮的」與本句語境不同。"
+        "concentrate-mcq-13": "本句的「concentrated」指「集中營；固定歷史／制度性詞語」。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-13"
     },
@@ -1156,11 +988,8 @@ export default {
       "masked": "The campaign involved a ____ burst of advertising.",
       "options": [
         "concentrate-mcq-13",
-        "concentrate-mcq-12",
-        "concentrate-mcq-11",
         "concentrate-mcq-10",
-        "concentrate-mcq-09",
-        "concentrate-mcq-08"
+        "concentrate-mcq-11"
       ],
       "explanation": "本句的「concentrated」指「集中營；固定歷史／制度性詞語」。",
       "sentenceIndex": 28,
@@ -1169,12 +998,9 @@ export default {
         "concentrated"
       ],
       "optionReasons": {
-        "concentrate-mcq-13": "本句指「集中營；固定歷史／制度性詞語」。",
-        "concentrate-mcq-12": "「高營養、低粗纖維的精飼料；農業專門」與本句語境不同。",
-        "concentrate-mcq-11": "「加工後富含目標礦物的精礦」與本句語境不同。",
-        "concentrate-mcq-10": "「濃縮液／濃縮物」與本句語境不同。",
-        "concentrate-mcq-09": "「某種物質在混合物中的含量／濃度」與本句語境不同。",
-        "concentrate-mcq-08": "「高濃度的；經濃縮的」與本句語境不同。"
+        "concentrate-mcq-13": "本句的「concentrated」指「集中營；固定歷史／制度性詞語」。",
+        "concentrate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "concentrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concentrate-mcq-13"
     }
@@ -1186,5 +1012,7 @@ export default {
     "sha256": "0788f8e1dd71420ee1033253c1d8fd7cde0f97f02fd9d63520253e7d09a983d4",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

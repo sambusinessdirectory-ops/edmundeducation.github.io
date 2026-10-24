@@ -284,11 +284,9 @@ export default {
       "masked": "Mr. Wong is a ____ in his late sixties.",
       "options": [
         "retire-mcq-01",
-        "retire-mcq-02",
-        "retire-mcq-03",
-        "retire-mcq-04",
-        "retire-mcq-05",
-        "retire-mcq-06"
+        "retire-mcq-13",
+        "retire-mcq-08",
+        "retire-mcq-09"
       ],
       "explanation": "本句的「retired radio journalist」指「正式而永久停止工作或結束長期從事的職業生涯」。",
       "sentenceIndex": 0,
@@ -297,12 +295,10 @@ export default {
         "retired radio journalist"
       ],
       "optionReasons": {
-        "retire-mcq-01": "本句指「正式而永久停止工作或結束長期從事的職業生涯」。",
-        "retire-mcq-02": "「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」是「retire from sport/activity」的用法，與本句語境不同。",
-        "retire-mcq-03": "「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」是「retire from a match/race」的用法，與本句語境不同。",
-        "retire-mcq-04": "「結束當晚活動並去睡覺；較正式」是「retire to bed / for the night」的用法，與本句語境不同。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。"
+        "retire-mcq-01": "本句的「retired radio journalist」指「正式而永久停止工作或結束長期從事的職業生涯」。",
+        "retire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-01"
     },
@@ -314,11 +310,9 @@ export default {
       "masked": "She plans to ____ from teaching next year.",
       "options": [
         "retire-mcq-01",
-        "retire-mcq-02",
-        "retire-mcq-03",
-        "retire-mcq-04",
         "retire-mcq-05",
-        "retire-mcq-06"
+        "retire-mcq-09",
+        "retire-mcq-08"
       ],
       "explanation": "本句的「retire」指「正式而永久停止工作或結束長期從事的職業生涯」。",
       "sentenceIndex": 1,
@@ -327,12 +321,10 @@ export default {
         "retire"
       ],
       "optionReasons": {
-        "retire-mcq-01": "本句指「正式而永久停止工作或結束長期從事的職業生涯」。",
-        "retire-mcq-02": "「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」是「retire from sport/activity」的用法，與本句語境不同。",
-        "retire-mcq-03": "「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」是「retire from a match/race」的用法，與本句語境不同。",
-        "retire-mcq-04": "「結束當晚活動並去睡覺；較正式」是「retire to bed / for the night」的用法，與本句語境不同。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。"
+        "retire-mcq-01": "本句的「retire」指「正式而永久停止工作或結束長期從事的職業生涯」。",
+        "retire-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-01"
     },
@@ -344,11 +336,9 @@ export default {
       "masked": "My father ____ at the age of sixty-five.",
       "options": [
         "retire-mcq-01",
-        "retire-mcq-02",
-        "retire-mcq-03",
-        "retire-mcq-04",
-        "retire-mcq-05",
-        "retire-mcq-06"
+        "retire-mcq-09",
+        "retire-mcq-08",
+        "retire-mcq-13"
       ],
       "explanation": "本句的「retired」指「正式而永久停止工作或結束長期從事的職業生涯」。",
       "sentenceIndex": 2,
@@ -357,12 +347,10 @@ export default {
         "retired"
       ],
       "optionReasons": {
-        "retire-mcq-01": "本句指「正式而永久停止工作或結束長期從事的職業生涯」。",
-        "retire-mcq-02": "「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」是「retire from sport/activity」的用法，與本句語境不同。",
-        "retire-mcq-03": "「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」是「retire from a match/race」的用法，與本句語境不同。",
-        "retire-mcq-04": "「結束當晚活動並去睡覺；較正式」是「retire to bed / for the night」的用法，與本句語境不同。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。"
+        "retire-mcq-01": "本句的「retired」指「正式而永久停止工作或結束長期從事的職業生涯」。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-01"
     },
@@ -374,11 +362,8 @@ export default {
       "masked": "The tennis player ____ at thirty-four.",
       "options": [
         "retire-mcq-02",
-        "retire-mcq-01",
-        "retire-mcq-03",
-        "retire-mcq-04",
-        "retire-mcq-05",
-        "retire-mcq-06"
+        "retire-mcq-13",
+        "retire-mcq-08"
       ],
       "explanation": "本句的「retired from professional competition」指「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」。",
       "sentenceIndex": 3,
@@ -387,12 +372,9 @@ export default {
         "retired from professional competition"
       ],
       "optionReasons": {
-        "retire-mcq-02": "本句指「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」。",
-        "retire-mcq-01": "「正式而永久停止工作或結束長期從事的職業生涯」是「retire — career/work」的用法，與本句語境不同。",
-        "retire-mcq-03": "「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」是「retire from a match/race」的用法，與本句語境不同。",
-        "retire-mcq-04": "「結束當晚活動並去睡覺；較正式」是「retire to bed / for the night」的用法，與本句語境不同。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。"
+        "retire-mcq-02": "本句的「retired from professional competition」指「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」。",
+        "retire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-02"
     },
@@ -404,11 +386,8 @@ export default {
       "masked": "After twenty years on stage, she decided to ____.",
       "options": [
         "retire-mcq-02",
-        "retire-mcq-01",
-        "retire-mcq-03",
-        "retire-mcq-04",
-        "retire-mcq-05",
-        "retire-mcq-06"
+        "retire-mcq-08",
+        "retire-mcq-13"
       ],
       "explanation": "本句的「retire from performing」指「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」。",
       "sentenceIndex": 4,
@@ -417,12 +396,9 @@ export default {
         "retire from performing"
       ],
       "optionReasons": {
-        "retire-mcq-02": "本句指「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」。",
-        "retire-mcq-01": "「正式而永久停止工作或結束長期從事的職業生涯」是「retire — career/work」的用法，與本句語境不同。",
-        "retire-mcq-03": "「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」是「retire from a match/race」的用法，與本句語境不同。",
-        "retire-mcq-04": "「結束當晚活動並去睡覺；較正式」是「retire to bed / for the night」的用法，與本句語境不同。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。"
+        "retire-mcq-02": "本句的「retire from performing」指「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-02"
     },
@@ -434,11 +410,8 @@ export default {
       "masked": "She was forced to ____ because of a knee injury.",
       "options": [
         "retire-mcq-03",
-        "retire-mcq-02",
-        "retire-mcq-04",
-        "retire-mcq-01",
-        "retire-mcq-05",
-        "retire-mcq-06"
+        "retire-mcq-08",
+        "retire-mcq-13"
       ],
       "explanation": "本句的「retire from the match」指「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」。",
       "sentenceIndex": 5,
@@ -447,12 +420,9 @@ export default {
         "retire from the match"
       ],
       "optionReasons": {
-        "retire-mcq-03": "本句指「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」。",
-        "retire-mcq-02": "「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」是「retire from sport/activity」的用法，與本句語境不同。",
-        "retire-mcq-04": "「結束當晚活動並去睡覺；較正式」是「retire to bed / for the night」的用法，與本句語境不同。",
-        "retire-mcq-01": "「正式而永久停止工作或結束長期從事的職業生涯」是「retire — career/work」的用法，與本句語境不同。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。"
+        "retire-mcq-03": "本句的「retire from the match」指「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-03"
     },
@@ -464,11 +434,8 @@ export default {
       "masked": "The driver ____ after his engine failed.",
       "options": [
         "retire-mcq-03",
-        "retire-mcq-02",
-        "retire-mcq-04",
-        "retire-mcq-01",
-        "retire-mcq-05",
-        "retire-mcq-06"
+        "retire-mcq-08",
+        "retire-mcq-13"
       ],
       "explanation": "本句的「retired from the race」指「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」。",
       "sentenceIndex": 6,
@@ -477,12 +444,9 @@ export default {
         "retired from the race"
       ],
       "optionReasons": {
-        "retire-mcq-03": "本句指「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」。",
-        "retire-mcq-02": "「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」是「retire from sport/activity」的用法，與本句語境不同。",
-        "retire-mcq-04": "「結束當晚活動並去睡覺；較正式」是「retire to bed / for the night」的用法，與本句語境不同。",
-        "retire-mcq-01": "「正式而永久停止工作或結束長期從事的職業生涯」是「retire — career/work」的用法，與本句語境不同。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。"
+        "retire-mcq-03": "本句的「retired from the race」指「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-03"
     },
@@ -494,11 +458,9 @@ export default {
       "masked": "After dinner, he ____ early.",
       "options": [
         "retire-mcq-04",
-        "retire-mcq-03",
-        "retire-mcq-05",
-        "retire-mcq-02",
-        "retire-mcq-06",
-        "retire-mcq-01"
+        "retire-mcq-13",
+        "retire-mcq-08",
+        "retire-mcq-09"
       ],
       "explanation": "本句的「retired to bed」指「結束當晚活動並去睡覺；較正式」。",
       "sentenceIndex": 7,
@@ -507,12 +469,10 @@ export default {
         "retired to bed"
       ],
       "optionReasons": {
-        "retire-mcq-04": "本句指「結束當晚活動並去睡覺；較正式」。",
-        "retire-mcq-03": "「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」是「retire from a match/race」的用法，與本句語境不同。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。",
-        "retire-mcq-02": "「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」是「retire from sport/activity」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。",
-        "retire-mcq-01": "「正式而永久停止工作或結束長期從事的職業生涯」是「retire — career/work」的用法，與本句語境不同。"
+        "retire-mcq-04": "本句的「retired to bed」指「結束當晚活動並去睡覺；較正式」。",
+        "retire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-04"
     },
@@ -524,11 +484,9 @@ export default {
       "masked": "I think I’ll ____.",
       "options": [
         "retire-mcq-04",
-        "retire-mcq-03",
-        "retire-mcq-05",
-        "retire-mcq-02",
-        "retire-mcq-06",
-        "retire-mcq-01"
+        "retire-mcq-08",
+        "retire-mcq-09",
+        "retire-mcq-13"
       ],
       "explanation": "本句的「retire for the night」指「結束當晚活動並去睡覺；較正式」。",
       "sentenceIndex": 8,
@@ -537,12 +495,10 @@ export default {
         "retire for the night"
       ],
       "optionReasons": {
-        "retire-mcq-04": "本句指「結束當晚活動並去睡覺；較正式」。",
-        "retire-mcq-03": "「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」是「retire from a match/race」的用法，與本句語境不同。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。",
-        "retire-mcq-02": "「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」是「retire from sport/activity」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。",
-        "retire-mcq-01": "「正式而永久停止工作或結束長期從事的職業生涯」是「retire — career/work」的用法，與本句語境不同。"
+        "retire-mcq-04": "本句的「retire for the night」指「結束當晚活動並去睡覺；較正式」。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-04"
     },
@@ -554,11 +510,9 @@ export default {
       "masked": "After dinner, they ____ for coffee.",
       "options": [
         "retire-mcq-05",
-        "retire-mcq-04",
-        "retire-mcq-06",
-        "retire-mcq-03",
-        "retire-mcq-07",
-        "retire-mcq-02"
+        "retire-mcq-09",
+        "retire-mcq-08",
+        "retire-mcq-07"
       ],
       "explanation": "本句的「retired to the living room」指「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」。",
       "sentenceIndex": 9,
@@ -567,12 +521,10 @@ export default {
         "retired to the living room"
       ],
       "optionReasons": {
-        "retire-mcq-05": "本句指「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」。",
-        "retire-mcq-04": "「結束當晚活動並去睡覺；較正式」是「retire to bed / for the night」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。",
-        "retire-mcq-03": "「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」是「retire from a match/race」的用法，與本句語境不同。",
-        "retire-mcq-07": "「為表彰球員而永久停止使用其球衣號碼；屬於「永久停止使用」的延伸」是「retire a number」的用法，與本句語境不同。",
-        "retire-mcq-02": "「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」是「retire from sport/activity」的用法，與本句語境不同。"
+        "retire-mcq-05": "本句的「retired to the living room」指「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-05"
     },
@@ -584,11 +536,9 @@ export default {
       "masked": "He ____ to finish some work.",
       "options": [
         "retire-mcq-05",
-        "retire-mcq-04",
-        "retire-mcq-06",
-        "retire-mcq-03",
+        "retire-mcq-08",
         "retire-mcq-07",
-        "retire-mcq-02"
+        "retire-mcq-09"
       ],
       "explanation": "本句的「retired to his study」指「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」。",
       "sentenceIndex": 10,
@@ -597,12 +547,10 @@ export default {
         "retired to his study"
       ],
       "optionReasons": {
-        "retire-mcq-05": "本句指「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」。",
-        "retire-mcq-04": "「結束當晚活動並去睡覺；較正式」是「retire to bed / for the night」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。",
-        "retire-mcq-03": "「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」是「retire from a match/race」的用法，與本句語境不同。",
-        "retire-mcq-07": "「為表彰球員而永久停止使用其球衣號碼；屬於「永久停止使用」的延伸」是「retire a number」的用法，與本句語境不同。",
-        "retire-mcq-02": "「正式結束長期參與的專業、競賽或主要活動；屬於職業／活動退休的同一核心概念」是「retire from sport/activity」的用法，與本句語境不同。"
+        "retire-mcq-05": "本句的「retired to his study」指「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-05"
     },
@@ -615,10 +563,8 @@ export default {
       "options": [
         "retire-mcq-06",
         "retire-mcq-05",
-        "retire-mcq-07",
-        "retire-mcq-04",
-        "retire-mcq-08",
-        "retire-mcq-03"
+        "retire-mcq-09",
+        "retire-mcq-08"
       ],
       "explanation": "本句的「retire」指「把設備、交通工具、產品或系統永久停止使用或正式退役」。",
       "sentenceIndex": 11,
@@ -627,12 +573,10 @@ export default {
         "retire"
       ],
       "optionReasons": {
-        "retire-mcq-06": "本句指「把設備、交通工具、產品或系統永久停止使用或正式退役」。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。",
-        "retire-mcq-07": "「為表彰球員而永久停止使用其球衣號碼；屬於「永久停止使用」的延伸」是「retire a number」的用法，與本句語境不同。",
-        "retire-mcq-04": "「結束當晚活動並去睡覺；較正式」是「retire to bed / for the night」的用法，與本句語境不同。",
-        "retire-mcq-08": "「透過償還、贖回或註銷，使債務或證券不再存在或流通」是「retire debt/bonds/shares」的用法，與本句語境不同。",
-        "retire-mcq-03": "「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」是「retire from a match/race」的用法，與本句語境不同。"
+        "retire-mcq-06": "本句的「retire」指「把設備、交通工具、產品或系統永久停止使用或正式退役」。",
+        "retire-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-06"
     },
@@ -644,11 +588,9 @@ export default {
       "masked": "The company ____ the old computer system after twenty years.",
       "options": [
         "retire-mcq-06",
-        "retire-mcq-05",
-        "retire-mcq-07",
-        "retire-mcq-04",
-        "retire-mcq-08",
-        "retire-mcq-03"
+        "retire-mcq-09",
+        "retire-mcq-13",
+        "retire-mcq-08"
       ],
       "explanation": "本句的「retired」指「把設備、交通工具、產品或系統永久停止使用或正式退役」。",
       "sentenceIndex": 12,
@@ -657,12 +599,10 @@ export default {
         "retired"
       ],
       "optionReasons": {
-        "retire-mcq-06": "本句指「把設備、交通工具、產品或系統永久停止使用或正式退役」。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。",
-        "retire-mcq-07": "「為表彰球員而永久停止使用其球衣號碼；屬於「永久停止使用」的延伸」是「retire a number」的用法，與本句語境不同。",
-        "retire-mcq-04": "「結束當晚活動並去睡覺；較正式」是「retire to bed / for the night」的用法，與本句語境不同。",
-        "retire-mcq-08": "「透過償還、贖回或註銷，使債務或證券不再存在或流通」是「retire debt/bonds/shares」的用法，與本句語境不同。",
-        "retire-mcq-03": "「在某一場比賽完成之前中途退出，而不一定結束整個職業生涯」是「retire from a match/race」的用法，與本句語境不同。"
+        "retire-mcq-06": "本句的「retired」指「把設備、交通工具、產品或系統永久停止使用或正式退役」。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-06"
     },
@@ -674,11 +614,9 @@ export default {
       "masked": "The team ____ after he ended his career.",
       "options": [
         "retire-mcq-07",
-        "retire-mcq-06",
-        "retire-mcq-08",
         "retire-mcq-05",
-        "retire-mcq-09",
-        "retire-mcq-04"
+        "retire-mcq-08",
+        "retire-mcq-09"
       ],
       "explanation": "本句的「retired his number」指「為表彰球員而永久停止使用其球衣號碼；屬於「永久停止使用」的延伸」。",
       "sentenceIndex": 13,
@@ -687,12 +625,10 @@ export default {
         "retired his number"
       ],
       "optionReasons": {
-        "retire-mcq-07": "本句指「為表彰球員而永久停止使用其球衣號碼；屬於「永久停止使用」的延伸」。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。",
-        "retire-mcq-08": "「透過償還、贖回或註銷，使債務或證券不再存在或流通」是「retire debt/bonds/shares」的用法，與本句語境不同。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。",
-        "retire-mcq-09": "「在棒球中令打者或進攻方出局」是「retire a batter/the side」的用法，與本句語境不同。",
-        "retire-mcq-04": "「結束當晚活動並去睡覺；較正式」是「retire to bed / for the night」的用法，與本句語境不同。"
+        "retire-mcq-07": "本句的「retired his number」指「為表彰球員而永久停止使用其球衣號碼；屬於「永久停止使用」的延伸」。",
+        "retire-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-07"
     },
@@ -704,11 +640,9 @@ export default {
       "masked": "Her jersey number was officially ____.",
       "options": [
         "retire-mcq-07",
-        "retire-mcq-06",
-        "retire-mcq-08",
         "retire-mcq-05",
-        "retire-mcq-09",
-        "retire-mcq-04"
+        "retire-mcq-08",
+        "retire-mcq-09"
       ],
       "explanation": "本句的「retired」指「為表彰球員而永久停止使用其球衣號碼；屬於「永久停止使用」的延伸」。",
       "sentenceIndex": 14,
@@ -717,12 +651,10 @@ export default {
         "retired"
       ],
       "optionReasons": {
-        "retire-mcq-07": "本句指「為表彰球員而永久停止使用其球衣號碼；屬於「永久停止使用」的延伸」。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。",
-        "retire-mcq-08": "「透過償還、贖回或註銷，使債務或證券不再存在或流通」是「retire debt/bonds/shares」的用法，與本句語境不同。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。",
-        "retire-mcq-09": "「在棒球中令打者或進攻方出局」是「retire a batter/the side」的用法，與本句語境不同。",
-        "retire-mcq-04": "「結束當晚活動並去睡覺；較正式」是「retire to bed / for the night」的用法，與本句語境不同。"
+        "retire-mcq-07": "本句的「retired」指「為表彰球員而永久停止使用其球衣號碼；屬於「永久停止使用」的延伸」。",
+        "retire-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-07"
     },
@@ -734,11 +666,8 @@ export default {
       "masked": "The company used the proceeds to ____.",
       "options": [
         "retire-mcq-08",
-        "retire-mcq-07",
-        "retire-mcq-09",
-        "retire-mcq-06",
-        "retire-mcq-10",
-        "retire-mcq-05"
+        "retire-mcq-13",
+        "retire-mcq-02"
       ],
       "explanation": "本句的「retire some of its debt」指「透過償還、贖回或註銷，使債務或證券不再存在或流通」。",
       "sentenceIndex": 15,
@@ -747,12 +676,9 @@ export default {
         "retire some of its debt"
       ],
       "optionReasons": {
-        "retire-mcq-08": "本句指「透過償還、贖回或註銷，使債務或證券不再存在或流通」。",
-        "retire-mcq-07": "「為表彰球員而永久停止使用其球衣號碼；屬於「永久停止使用」的延伸」是「retire a number」的用法，與本句語境不同。",
-        "retire-mcq-09": "「在棒球中令打者或進攻方出局」是「retire a batter/the side」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。",
-        "retire-mcq-10": "「退休、退休狀態，或正式結束職業／競賽生涯」是「retirement」的用法，與本句語境不同。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。"
+        "retire-mcq-08": "本句的「retire some of its debt」指「透過償還、贖回或註銷，使債務或證券不再存在或流通」。",
+        "retire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-08"
     },
@@ -764,11 +690,8 @@ export default {
       "masked": "The bonds will be ____ when they mature.",
       "options": [
         "retire-mcq-08",
-        "retire-mcq-07",
-        "retire-mcq-09",
-        "retire-mcq-06",
-        "retire-mcq-10",
-        "retire-mcq-05"
+        "retire-mcq-03",
+        "retire-mcq-13"
       ],
       "explanation": "本句的「retired」指「透過償還、贖回或註銷，使債務或證券不再存在或流通」。",
       "sentenceIndex": 16,
@@ -777,12 +700,9 @@ export default {
         "retired"
       ],
       "optionReasons": {
-        "retire-mcq-08": "本句指「透過償還、贖回或註銷，使債務或證券不再存在或流通」。",
-        "retire-mcq-07": "「為表彰球員而永久停止使用其球衣號碼；屬於「永久停止使用」的延伸」是「retire a number」的用法，與本句語境不同。",
-        "retire-mcq-09": "「在棒球中令打者或進攻方出局」是「retire a batter/the side」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。",
-        "retire-mcq-10": "「退休、退休狀態，或正式結束職業／競賽生涯」是「retirement」的用法，與本句語境不同。",
-        "retire-mcq-05": "「離開目前的人群或活動場所，轉到較安靜、私人或另一個地方」是「retire to + place」的用法，與本句語境不同。"
+        "retire-mcq-08": "本句的「retired」指「透過償還、贖回或註銷，使債務或證券不再存在或流通」。",
+        "retire-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-08"
     },
@@ -794,11 +714,9 @@ export default {
       "masked": "The pitcher ____.",
       "options": [
         "retire-mcq-09",
-        "retire-mcq-08",
-        "retire-mcq-10",
-        "retire-mcq-07",
-        "retire-mcq-11",
-        "retire-mcq-06"
+        "retire-mcq-13",
+        "retire-mcq-04",
+        "retire-mcq-08"
       ],
       "explanation": "本句的「retired the first three batters」指「在棒球中令打者或進攻方出局」。",
       "sentenceIndex": 17,
@@ -807,12 +725,10 @@ export default {
         "retired the first three batters"
       ],
       "optionReasons": {
-        "retire-mcq-09": "本句指「在棒球中令打者或進攻方出局」。",
-        "retire-mcq-08": "「透過償還、贖回或註銷，使債務或證券不再存在或流通」是「retire debt/bonds/shares」的用法，與本句語境不同。",
-        "retire-mcq-10": "「退休、退休狀態，或正式結束職業／競賽生涯」是「retirement」的用法，與本句語境不同。",
-        "retire-mcq-07": "「為表彰球員而永久停止使用其球衣號碼；屬於「永久停止使用」的延伸」是「retire a number」的用法，與本句語境不同。",
-        "retire-mcq-11": "「已停止工作並進入退休生活的人」是「retiree」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。"
+        "retire-mcq-09": "本句的「retired the first three batters」指「在棒球中令打者或進攻方出局」。",
+        "retire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-09"
     },
@@ -824,11 +740,9 @@ export default {
       "masked": "He struck out the final batter to ____.",
       "options": [
         "retire-mcq-09",
-        "retire-mcq-08",
-        "retire-mcq-10",
-        "retire-mcq-07",
-        "retire-mcq-11",
-        "retire-mcq-06"
+        "retire-mcq-06",
+        "retire-mcq-05",
+        "retire-mcq-08"
       ],
       "explanation": "本句的「retire the side」指「在棒球中令打者或進攻方出局」。",
       "sentenceIndex": 18,
@@ -837,12 +751,10 @@ export default {
         "retire the side"
       ],
       "optionReasons": {
-        "retire-mcq-09": "本句指「在棒球中令打者或進攻方出局」。",
-        "retire-mcq-08": "「透過償還、贖回或註銷，使債務或證券不再存在或流通」是「retire debt/bonds/shares」的用法，與本句語境不同。",
-        "retire-mcq-10": "「退休、退休狀態，或正式結束職業／競賽生涯」是「retirement」的用法，與本句語境不同。",
-        "retire-mcq-07": "「為表彰球員而永久停止使用其球衣號碼；屬於「永久停止使用」的延伸」是「retire a number」的用法，與本句語境不同。",
-        "retire-mcq-11": "「已停止工作並進入退休生活的人」是「retiree」的用法，與本句語境不同。",
-        "retire-mcq-06": "「把設備、交通工具、產品或系統永久停止使用或正式退役」是「retire equipment/system/vehicle」的用法，與本句語境不同。"
+        "retire-mcq-09": "本句的「retire the side」指「在棒球中令打者或進攻方出局」。",
+        "retire-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-09"
     },
@@ -854,11 +766,9 @@ export default {
       "masked": "The town is popular with ____.",
       "options": [
         "retire-mcq-11",
-        "retire-mcq-10",
-        "retire-mcq-12",
-        "retire-mcq-09",
+        "retire-mcq-08",
         "retire-mcq-13",
-        "retire-mcq-08"
+        "retire-mcq-09"
       ],
       "explanation": "本句的「retirees」指「已停止工作並進入退休生活的人」。",
       "sentenceIndex": 19,
@@ -867,12 +777,10 @@ export default {
         "retirees"
       ],
       "optionReasons": {
-        "retire-mcq-11": "本句指「已停止工作並進入退休生活的人」。",
-        "retire-mcq-10": "「退休、退休狀態，或正式結束職業／競賽生涯」是「retirement」的用法，與本句語境不同。",
-        "retire-mcq-12": "「即將退休、卸任或離開原有職位的」是「retiring — leaving role」的用法，與本句語境不同。",
-        "retire-mcq-09": "「在棒球中令打者或進攻方出局」是「retire a batter/the side」的用法，與本句語境不同。",
-        "retire-mcq-13": "「性格害羞、低調，不喜歡受到別人注意的」是「retiring — personality」的用法，與本句語境不同。",
-        "retire-mcq-08": "「透過償還、贖回或註銷，使債務或證券不再存在或流通」是「retire debt/bonds/shares」的用法，與本句語境不同。"
+        "retire-mcq-11": "本句的「retirees」指「已停止工作並進入退休生活的人」。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-11"
     },
@@ -884,11 +792,9 @@ export default {
       "masked": "Many ____ choose to travel more.",
       "options": [
         "retire-mcq-11",
-        "retire-mcq-10",
-        "retire-mcq-12",
-        "retire-mcq-09",
+        "retire-mcq-08",
         "retire-mcq-13",
-        "retire-mcq-08"
+        "retire-mcq-09"
       ],
       "explanation": "本句的「retirees」指「已停止工作並進入退休生活的人」。",
       "sentenceIndex": 20,
@@ -897,12 +803,10 @@ export default {
         "retirees"
       ],
       "optionReasons": {
-        "retire-mcq-11": "本句指「已停止工作並進入退休生活的人」。",
-        "retire-mcq-10": "「退休、退休狀態，或正式結束職業／競賽生涯」是「retirement」的用法，與本句語境不同。",
-        "retire-mcq-12": "「即將退休、卸任或離開原有職位的」是「retiring — leaving role」的用法，與本句語境不同。",
-        "retire-mcq-09": "「在棒球中令打者或進攻方出局」是「retire a batter/the side」的用法，與本句語境不同。",
-        "retire-mcq-13": "「性格害羞、低調，不喜歡受到別人注意的」是「retiring — personality」的用法，與本句語境不同。",
-        "retire-mcq-08": "「透過償還、贖回或註銷，使債務或證券不再存在或流通」是「retire debt/bonds/shares」的用法，與本句語境不同。"
+        "retire-mcq-11": "本句的「retirees」指「已停止工作並進入退休生活的人」。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-11"
     },
@@ -914,9 +818,7 @@ export default {
       "masked": "She has a rather ____.",
       "options": [
         "retire-mcq-13",
-        "retire-mcq-12",
-        "retire-mcq-11",
-        "retire-mcq-10",
+        "retire-mcq-06",
         "retire-mcq-09",
         "retire-mcq-08"
       ],
@@ -927,12 +829,10 @@ export default {
         "retiring personality"
       ],
       "optionReasons": {
-        "retire-mcq-13": "本句指「性格害羞、低調，不喜歡受到別人注意的」。",
-        "retire-mcq-12": "「即將退休、卸任或離開原有職位的」是「retiring — leaving role」的用法，與本句語境不同。",
-        "retire-mcq-11": "「已停止工作並進入退休生活的人」是「retiree」的用法，與本句語境不同。",
-        "retire-mcq-10": "「退休、退休狀態，或正式結束職業／競賽生涯」是「retirement」的用法，與本句語境不同。",
-        "retire-mcq-09": "「在棒球中令打者或進攻方出局」是「retire a batter/the side」的用法，與本句語境不同。",
-        "retire-mcq-08": "「透過償還、贖回或註銷，使債務或證券不再存在或流通」是「retire debt/bonds/shares」的用法，與本句語境不同。"
+        "retire-mcq-13": "本句的「retiring personality」指「性格害羞、低調，不喜歡受到別人注意的」。",
+        "retire-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-13"
     },
@@ -944,10 +844,8 @@ export default {
       "masked": "Despite his talent, he remained quiet and ____.",
       "options": [
         "retire-mcq-13",
-        "retire-mcq-12",
-        "retire-mcq-11",
-        "retire-mcq-10",
         "retire-mcq-09",
+        "retire-mcq-04",
         "retire-mcq-08"
       ],
       "explanation": "本句的「retiring」指「性格害羞、低調，不喜歡受到別人注意的」。",
@@ -957,12 +855,10 @@ export default {
         "retiring"
       ],
       "optionReasons": {
-        "retire-mcq-13": "本句指「性格害羞、低調，不喜歡受到別人注意的」。",
-        "retire-mcq-12": "「即將退休、卸任或離開原有職位的」是「retiring — leaving role」的用法，與本句語境不同。",
-        "retire-mcq-11": "「已停止工作並進入退休生活的人」是「retiree」的用法，與本句語境不同。",
-        "retire-mcq-10": "「退休、退休狀態，或正式結束職業／競賽生涯」是「retirement」的用法，與本句語境不同。",
-        "retire-mcq-09": "「在棒球中令打者或進攻方出局」是「retire a batter/the side」的用法，與本句語境不同。",
-        "retire-mcq-08": "「透過償還、贖回或註銷，使債務或證券不再存在或流通」是「retire debt/bonds/shares」的用法，與本句語境不同。"
+        "retire-mcq-13": "本句的「retiring」指「性格害羞、低調，不喜歡受到別人注意的」。",
+        "retire-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "retire-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "retire-mcq-13"
     }
@@ -974,5 +870,7 @@ export default {
     "sha256": "ff22f8151c8ccb0ed205d9e3d5395acb22c55018575eda85b4e9b5a435841909",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

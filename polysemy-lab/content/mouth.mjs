@@ -364,11 +364,9 @@ export default {
       "masked": "She covered her ____ when she laughed.",
       "options": [
         "mouth-mcq-01",
-        "mouth-mcq-02",
-        "mouth-mcq-03",
-        "mouth-mcq-04",
-        "mouth-mcq-05",
-        "mouth-mcq-06"
+        "mouth-mcq-11",
+        "mouth-mcq-10",
+        "mouth-pdf-001"
       ],
       "explanation": "本句的「mouth」指「人或動物臉上用來進食、說話及呼吸的開口」。",
       "sentenceIndex": 0,
@@ -377,12 +375,10 @@ export default {
         "mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-01": "本句指「人或動物臉上用來進食、說話及呼吸的開口」。",
-        "mouth-mcq-02": "「河流、洞穴、隧道等的出口／開口位置」與本句語境不同。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
+        "mouth-mcq-01": "本句的「mouth」指「人或動物臉上用來進食、說話及呼吸的開口」。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mouth-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-01"
     },
@@ -394,11 +390,9 @@ export default {
       "masked": "Open your ____.",
       "options": [
         "mouth-mcq-01",
-        "mouth-mcq-02",
         "mouth-mcq-03",
-        "mouth-mcq-04",
         "mouth-mcq-05",
-        "mouth-mcq-06"
+        "mouth-mcq-11"
       ],
       "explanation": "本句的「mouth」指「人或動物臉上用來進食、說話及呼吸的開口」。",
       "sentenceIndex": 1,
@@ -407,12 +401,10 @@ export default {
         "mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-01": "本句指「人或動物臉上用來進食、說話及呼吸的開口」。",
-        "mouth-mcq-02": "「河流、洞穴、隧道等的出口／開口位置」與本句語境不同。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
+        "mouth-mcq-01": "本句的「mouth」指「人或動物臉上用來進食、說話及呼吸的開口」。",
+        "mouth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-01"
     },
@@ -424,11 +416,9 @@ export default {
       "masked": "There was chocolate around his ____.",
       "options": [
         "mouth-pdf-001",
-        "mouth-mcq-01",
         "mouth-mcq-03",
-        "mouth-mcq-04",
-        "mouth-mcq-05",
-        "mouth-mcq-06"
+        "mouth-mcq-11",
+        "mouth-mcq-04"
       ],
       "explanation": "本句的「mouth」指「嘴巴及其周圍口部區域」。",
       "sentenceIndex": 2,
@@ -437,12 +427,10 @@ export default {
         "mouth"
       ],
       "optionReasons": {
-        "mouth-pdf-001": "本句指「嘴巴及其周圍口部區域」。",
-        "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
+        "mouth-pdf-001": "本句的「mouth」指「嘴巴及其周圍口部區域」。",
+        "mouth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-pdf-001"
     },
@@ -454,11 +442,9 @@ export default {
       "masked": "She wiped her ____ with a napkin.",
       "options": [
         "mouth-pdf-001",
-        "mouth-mcq-01",
         "mouth-mcq-03",
-        "mouth-mcq-04",
-        "mouth-mcq-05",
-        "mouth-mcq-06"
+        "mouth-mcq-11",
+        "mouth-mcq-04"
       ],
       "explanation": "本句的「mouth」指「嘴巴及其周圍口部區域」。",
       "sentenceIndex": 3,
@@ -467,12 +453,10 @@ export default {
         "mouth"
       ],
       "optionReasons": {
-        "mouth-pdf-001": "本句指「嘴巴及其周圍口部區域」。",
-        "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
+        "mouth-pdf-001": "本句的「mouth」指「嘴巴及其周圍口部區域」。",
+        "mouth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-pdf-001"
     },
@@ -484,11 +468,9 @@ export default {
       "masked": "The village lies near the ____.",
       "options": [
         "mouth-mcq-02",
-        "mouth-mcq-01",
-        "mouth-mcq-03",
-        "mouth-mcq-04",
+        "mouth-mcq-11",
         "mouth-mcq-05",
-        "mouth-mcq-06"
+        "mouth-mcq-03"
       ],
       "explanation": "本句的「mouth of the river」指「河流、洞穴、隧道等的出口／開口位置」。",
       "sentenceIndex": 4,
@@ -497,12 +479,10 @@ export default {
         "mouth of the river"
       ],
       "optionReasons": {
-        "mouth-mcq-02": "本句指「河流、洞穴、隧道等的出口／開口位置」。",
-        "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
+        "mouth-mcq-02": "本句的「mouth of the river」指「河流、洞穴、隧道等的出口／開口位置」。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-02"
     },
@@ -514,11 +494,9 @@ export default {
       "masked": "The river widens near its ____.",
       "options": [
         "mouth-mcq-02",
-        "mouth-mcq-01",
-        "mouth-mcq-03",
-        "mouth-mcq-04",
+        "mouth-mcq-11",
         "mouth-mcq-05",
-        "mouth-mcq-06"
+        "mouth-mcq-04"
       ],
       "explanation": "本句的「mouth」指「河流、洞穴、隧道等的出口／開口位置」。",
       "sentenceIndex": 5,
@@ -527,12 +505,10 @@ export default {
         "mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-02": "本句指「河流、洞穴、隧道等的出口／開口位置」。",
-        "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
+        "mouth-mcq-02": "本句的「mouth」指「河流、洞穴、隧道等的出口／開口位置」。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-02"
     },
@@ -544,11 +520,9 @@ export default {
       "masked": "They stood at the ____.",
       "options": [
         "mouth-mcq-02",
-        "mouth-mcq-01",
         "mouth-mcq-03",
         "mouth-mcq-04",
-        "mouth-mcq-05",
-        "mouth-mcq-06"
+        "mouth-mcq-11"
       ],
       "explanation": "本句的「mouth of the cave」指「河流、洞穴、隧道等的出口／開口位置」。",
       "sentenceIndex": 6,
@@ -557,12 +531,10 @@ export default {
         "mouth of the cave"
       ],
       "optionReasons": {
-        "mouth-mcq-02": "本句指「河流、洞穴、隧道等的出口／開口位置」。",
-        "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
+        "mouth-mcq-02": "本句的「mouth of the cave」指「河流、洞穴、隧道等的出口／開口位置」。",
+        "mouth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-02"
     },
@@ -574,11 +546,9 @@ export default {
       "masked": "Smoke came from the ____ of the tunnel.",
       "options": [
         "mouth-mcq-02",
-        "mouth-mcq-01",
-        "mouth-mcq-03",
+        "mouth-mcq-10",
         "mouth-mcq-04",
-        "mouth-mcq-05",
-        "mouth-mcq-06"
+        "mouth-mcq-11"
       ],
       "explanation": "本句的「mouth」指「河流、洞穴、隧道等的出口／開口位置」。",
       "sentenceIndex": 7,
@@ -587,12 +557,10 @@ export default {
         "mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-02": "本句指「河流、洞穴、隧道等的出口／開口位置」。",
-        "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
+        "mouth-mcq-02": "本句的「mouth」指「河流、洞穴、隧道等的出口／開口位置」。",
+        "mouth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-02"
     },
@@ -604,11 +572,9 @@ export default {
       "masked": "They had five ____.",
       "options": [
         "mouth-mcq-03",
-        "mouth-mcq-02",
-        "mouth-mcq-04",
-        "mouth-mcq-01",
-        "mouth-mcq-05",
-        "mouth-mcq-06"
+        "mouth-mcq-07",
+        "mouth-mcq-08",
+        "mouth-mcq-12"
       ],
       "explanation": "本句的「mouths to feed」指「需要吃飯、需要被供養的一個人」。",
       "sentenceIndex": 8,
@@ -617,12 +583,10 @@ export default {
         "mouths to feed"
       ],
       "optionReasons": {
-        "mouth-mcq-03": "本句指「需要吃飯、需要被供養的一個人」。",
-        "mouth-mcq-02": "「河流、洞穴、隧道等的出口／開口位置」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
+        "mouth-mcq-03": "本句的「mouths to feed」指「需要吃飯、需要被供養的一個人」。",
+        "mouth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-03"
     },
@@ -634,11 +598,9 @@ export default {
       "masked": "Another child meant another ____ to feed.",
       "options": [
         "mouth-mcq-03",
+        "mouth-mcq-08",
         "mouth-mcq-02",
-        "mouth-mcq-04",
-        "mouth-mcq-01",
-        "mouth-mcq-05",
-        "mouth-mcq-06"
+        "mouth-mcq-05"
       ],
       "explanation": "本句的「mouth」指「需要吃飯、需要被供養的一個人」。",
       "sentenceIndex": 9,
@@ -647,12 +609,10 @@ export default {
         "mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-03": "本句指「需要吃飯、需要被供養的一個人」。",
-        "mouth-mcq-02": "「河流、洞穴、隧道等的出口／開口位置」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
+        "mouth-mcq-03": "本句的「mouth」指「需要吃飯、需要被供養的一個人」。",
+        "mouth-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-03"
     },
@@ -664,11 +624,9 @@ export default {
       "masked": "He has a big ____.",
       "options": [
         "mouth-pdf-002",
-        "mouth-mcq-02",
-        "mouth-mcq-04",
-        "mouth-mcq-01",
-        "mouth-mcq-05",
-        "mouth-mcq-06"
+        "mouth-mcq-11",
+        "mouth-mcq-12",
+        "mouth-pdf-001"
       ],
       "explanation": "本句的「mouth」指「一個人說話、洩密、粗魯發言等的方式」。",
       "sentenceIndex": 10,
@@ -677,12 +635,10 @@ export default {
         "mouth"
       ],
       "optionReasons": {
-        "mouth-pdf-002": "本句指「一個人說話、洩密、粗魯發言等的方式」。",
-        "mouth-mcq-02": "「河流、洞穴、隧道等的出口／開口位置」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
+        "mouth-pdf-002": "本句的「mouth」指「一個人說話、洩密、粗魯發言等的方式」。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mouth-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-pdf-002"
     },
@@ -694,11 +650,9 @@ export default {
       "masked": "Watch your ____.",
       "options": [
         "mouth-pdf-002",
-        "mouth-mcq-02",
-        "mouth-mcq-04",
-        "mouth-mcq-01",
-        "mouth-mcq-05",
-        "mouth-mcq-06"
+        "mouth-pdf-001",
+        "mouth-mcq-11",
+        "mouth-mcq-07"
       ],
       "explanation": "本句的「mouth」指「一個人說話、洩密、粗魯發言等的方式」。",
       "sentenceIndex": 11,
@@ -707,12 +661,10 @@ export default {
         "mouth"
       ],
       "optionReasons": {
-        "mouth-pdf-002": "本句指「一個人說話、洩密、粗魯發言等的方式」。",
-        "mouth-mcq-02": "「河流、洞穴、隧道等的出口／開口位置」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
+        "mouth-pdf-002": "本句的「mouth」指「一個人說話、洩密、粗魯發言等的方式」。",
+        "mouth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-pdf-002"
     },
@@ -724,11 +676,9 @@ export default {
       "masked": "The bakery benefits from ____.",
       "options": [
         "mouth-mcq-04",
-        "mouth-mcq-03",
-        "mouth-mcq-05",
-        "mouth-mcq-02",
-        "mouth-mcq-06",
-        "mouth-mcq-01"
+        "mouth-mcq-12",
+        "mouth-mcq-09",
+        "mouth-mcq-02"
       ],
       "explanation": "本句的「word of mouth」指「人與人透過交談、推薦而自然傳播資訊或評價」。",
       "sentenceIndex": 12,
@@ -737,12 +687,10 @@ export default {
         "word of mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-04": "本句指「人與人透過交談、推薦而自然傳播資訊或評價」。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-02": "「河流、洞穴、隧道等的出口／開口位置」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。",
-        "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。"
+        "mouth-mcq-04": "本句的「word of mouth」指「人與人透過交談、推薦而自然傳播資訊或評價」。",
+        "mouth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-04"
     },
@@ -754,11 +702,9 @@ export default {
       "masked": "Most of their new customers come through word of ____.",
       "options": [
         "mouth-mcq-04",
-        "mouth-mcq-03",
-        "mouth-mcq-05",
-        "mouth-mcq-02",
-        "mouth-mcq-06",
-        "mouth-mcq-01"
+        "mouth-mcq-07",
+        "mouth-mcq-12",
+        "mouth-mcq-03"
       ],
       "explanation": "本句的「mouth」指「人與人透過交談、推薦而自然傳播資訊或評價」。",
       "sentenceIndex": 13,
@@ -767,12 +713,10 @@ export default {
         "mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-04": "本句指「人與人透過交談、推薦而自然傳播資訊或評價」。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-02": "「河流、洞穴、隧道等的出口／開口位置」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。",
-        "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。"
+        "mouth-mcq-04": "本句的「mouth」指「人與人透過交談、推薦而自然傳播資訊或評價」。",
+        "mouth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-04"
     },
@@ -785,10 +729,8 @@ export default {
       "options": [
         "mouth-mcq-04",
         "mouth-mcq-03",
-        "mouth-mcq-05",
-        "mouth-mcq-02",
-        "mouth-mcq-06",
-        "mouth-mcq-01"
+        "mouth-pdf-001",
+        "mouth-mcq-11"
       ],
       "explanation": "本句的「by word of mouth」指「人與人透過交談、推薦而自然傳播資訊或評價」。",
       "sentenceIndex": 14,
@@ -797,12 +739,10 @@ export default {
         "by word of mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-04": "本句指「人與人透過交談、推薦而自然傳播資訊或評價」。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-02": "「河流、洞穴、隧道等的出口／開口位置」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。",
-        "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。"
+        "mouth-mcq-04": "本句的「by word of mouth」指「人與人透過交談、推薦而自然傳播資訊或評價」。",
+        "mouth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mouth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-04"
     },
@@ -814,11 +754,9 @@ export default {
       "masked": "News of the bakery spread by word of ____.",
       "options": [
         "mouth-mcq-04",
-        "mouth-mcq-03",
+        "mouth-mcq-11",
         "mouth-mcq-05",
-        "mouth-mcq-02",
-        "mouth-mcq-06",
-        "mouth-mcq-01"
+        "mouth-mcq-09"
       ],
       "explanation": "本句的「mouth」指「人與人透過交談、推薦而自然傳播資訊或評價」。",
       "sentenceIndex": 15,
@@ -827,12 +765,10 @@ export default {
         "mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-04": "本句指「人與人透過交談、推薦而自然傳播資訊或評價」。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-02": "「河流、洞穴、隧道等的出口／開口位置」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。",
-        "mouth-mcq-01": "「人或動物臉上用來進食、說話及呼吸的開口」與本句語境不同。"
+        "mouth-mcq-04": "本句的「mouth」指「人與人透過交談、推薦而自然傳播資訊或評價」。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-04"
     },
@@ -844,9 +780,7 @@ export default {
       "masked": "She ____ ‘thank you’ across the room.",
       "options": [
         "mouth-mcq-05",
-        "mouth-mcq-04",
-        "mouth-mcq-06",
-        "mouth-mcq-03",
+        "mouth-mcq-12",
         "mouth-mcq-07",
         "mouth-mcq-02"
       ],
@@ -857,12 +791,10 @@ export default {
         "mouthed"
       ],
       "optionReasons": {
-        "mouth-mcq-05": "本句指「用嘴唇形成字詞但不真正發聲」。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。",
-        "mouth-mcq-02": "「河流、洞穴、隧道等的出口／開口位置」與本句語境不同。"
+        "mouth-mcq-05": "本句的「mouthed」指「用嘴唇形成字詞但不真正發聲」。",
+        "mouth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-05"
     },
@@ -874,11 +806,9 @@ export default {
       "masked": "He ____ the words without making a sound.",
       "options": [
         "mouth-mcq-05",
-        "mouth-mcq-04",
-        "mouth-mcq-06",
-        "mouth-mcq-03",
+        "mouth-mcq-01",
         "mouth-mcq-07",
-        "mouth-mcq-02"
+        "mouth-mcq-03"
       ],
       "explanation": "本句的「mouthed」指「用嘴唇形成字詞但不真正發聲」。",
       "sentenceIndex": 17,
@@ -887,12 +817,10 @@ export default {
         "mouthed"
       ],
       "optionReasons": {
-        "mouth-mcq-05": "本句指「用嘴唇形成字詞但不真正發聲」。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。",
-        "mouth-mcq-02": "「河流、洞穴、隧道等的出口／開口位置」與本句語境不同。"
+        "mouth-mcq-05": "本句的「mouthed」指「用嘴唇形成字詞但不真正發聲」。",
+        "mouth-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-05"
     },
@@ -904,11 +832,9 @@ export default {
       "masked": "He ____ the usual excuses.",
       "options": [
         "mouth-pdf-003",
-        "mouth-mcq-05",
-        "mouth-mcq-07",
-        "mouth-mcq-04",
-        "mouth-mcq-08",
-        "mouth-mcq-03"
+        "mouth-mcq-11",
+        "mouth-mcq-03",
+        "mouth-mcq-07"
       ],
       "explanation": "本句的「mouthed」指「把話說出口，但可能缺乏真誠、理解或實際行動」。",
       "sentenceIndex": 18,
@@ -917,12 +843,10 @@ export default {
         "mouthed"
       ],
       "optionReasons": {
-        "mouth-pdf-003": "本句指「把話說出口，但可能缺乏真誠、理解或實際行動」。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。"
+        "mouth-pdf-003": "本句的「mouthed」指「把話說出口，但可能缺乏真誠、理解或實際行動」。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-pdf-003"
     },
@@ -934,11 +858,9 @@ export default {
       "masked": "Politicians often ____ familiar slogans.",
       "options": [
         "mouth-pdf-003",
-        "mouth-mcq-05",
-        "mouth-mcq-07",
-        "mouth-mcq-04",
-        "mouth-mcq-08",
-        "mouth-mcq-03"
+        "mouth-mcq-10",
+        "mouth-mcq-11",
+        "mouth-pdf-001"
       ],
       "explanation": "本句的「mouth」指「把話說出口，但可能缺乏真誠、理解或實際行動」。",
       "sentenceIndex": 19,
@@ -947,12 +869,10 @@ export default {
         "mouth"
       ],
       "optionReasons": {
-        "mouth-pdf-003": "本句指「把話說出口，但可能缺乏真誠、理解或實際行動」。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。",
-        "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
-        "mouth-mcq-03": "「需要吃飯、需要被供養的一個人」與本句語境不同。"
+        "mouth-pdf-003": "本句的「mouth」指「把話說出口，但可能缺乏真誠、理解或實際行動」。",
+        "mouth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-pdf-003"
     },
@@ -964,11 +884,9 @@ export default {
       "masked": "He took a ____ of coffee.",
       "options": [
         "mouth-mcq-07",
-        "mouth-mcq-06",
-        "mouth-mcq-08",
-        "mouth-mcq-05",
-        "mouth-mcq-09",
-        "mouth-mcq-04"
+        "mouth-pdf-002",
+        "mouth-mcq-11",
+        "mouth-mcq-05"
       ],
       "explanation": "本句的「mouthful」指「一次能放入口中或填滿口腔的一份量」。",
       "sentenceIndex": 20,
@@ -977,12 +895,10 @@ export default {
         "mouthful"
       ],
       "optionReasons": {
-        "mouth-mcq-07": "本句指「一次能放入口中或填滿口腔的一份量」。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。",
-        "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-09": "「放在嘴邊／口中的裝置部件」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。"
+        "mouth-mcq-07": "本句的「mouthful」指「一次能放入口中或填滿口腔的一份量」。",
+        "mouth-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-07"
     },
@@ -994,11 +910,9 @@ export default {
       "masked": "She spoke with a ____ of cake.",
       "options": [
         "mouth-mcq-07",
-        "mouth-mcq-06",
-        "mouth-mcq-08",
         "mouth-mcq-05",
-        "mouth-mcq-09",
-        "mouth-mcq-04"
+        "mouth-mcq-11",
+        "mouth-pdf-002"
       ],
       "explanation": "本句的「mouthful」指「一次能放入口中或填滿口腔的一份量」。",
       "sentenceIndex": 21,
@@ -1007,12 +921,10 @@ export default {
         "mouthful"
       ],
       "optionReasons": {
-        "mouth-mcq-07": "本句指「一次能放入口中或填滿口腔的一份量」。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。",
-        "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。",
-        "mouth-mcq-09": "「放在嘴邊／口中的裝置部件」與本句語境不同。",
-        "mouth-mcq-04": "「人與人透過交談、推薦而自然傳播資訊或評價」與本句語境不同。"
+        "mouth-mcq-07": "本句的「mouthful」指「一次能放入口中或填滿口腔的一份量」。",
+        "mouth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-07"
     },
@@ -1024,11 +936,9 @@ export default {
       "masked": "That company name is a real ____.",
       "options": [
         "mouth-mcq-08",
-        "mouth-mcq-07",
-        "mouth-mcq-09",
-        "mouth-mcq-06",
         "mouth-mcq-10",
-        "mouth-mcq-05"
+        "mouth-mcq-11",
+        "mouth-mcq-07"
       ],
       "explanation": "本句的「mouthful」指「長、複雜、難以順口說出的詞語／名稱」。",
       "sentenceIndex": 22,
@@ -1037,12 +947,10 @@ export default {
         "mouthful"
       ],
       "optionReasons": {
-        "mouth-mcq-08": "本句指「長、複雜、難以順口說出的詞語／名稱」。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。",
-        "mouth-mcq-09": "「放在嘴邊／口中的裝置部件」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。",
-        "mouth-mcq-10": "「代表某人／組織發聲或宣傳其觀點的人／媒體」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。"
+        "mouth-mcq-08": "本句的「mouthful」指「長、複雜、難以順口說出的詞語／名稱」。",
+        "mouth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-08"
     },
@@ -1054,11 +962,9 @@ export default {
       "masked": "The scientific term is quite a ____.",
       "options": [
         "mouth-mcq-08",
-        "mouth-mcq-07",
-        "mouth-mcq-09",
-        "mouth-mcq-06",
         "mouth-mcq-10",
-        "mouth-mcq-05"
+        "mouth-mcq-11",
+        "mouth-mcq-09"
       ],
       "explanation": "本句的「mouthful」指「長、複雜、難以順口說出的詞語／名稱」。",
       "sentenceIndex": 23,
@@ -1067,12 +973,10 @@ export default {
         "mouthful"
       ],
       "optionReasons": {
-        "mouth-mcq-08": "本句指「長、複雜、難以順口說出的詞語／名稱」。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。",
-        "mouth-mcq-09": "「放在嘴邊／口中的裝置部件」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。",
-        "mouth-mcq-10": "「代表某人／組織發聲或宣傳其觀點的人／媒體」與本句語境不同。",
-        "mouth-mcq-05": "「用嘴唇形成字詞但不真正發聲」與本句語境不同。"
+        "mouth-mcq-08": "本句的「mouthful」指「長、複雜、難以順口說出的詞語／名稱」。",
+        "mouth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-08"
     },
@@ -1084,11 +988,9 @@ export default {
       "masked": "The musician cleaned the instrument’s ____.",
       "options": [
         "mouth-mcq-09",
-        "mouth-mcq-08",
+        "mouth-mcq-04",
         "mouth-mcq-10",
-        "mouth-mcq-07",
-        "mouth-mcq-11",
-        "mouth-mcq-06"
+        "mouth-mcq-11"
       ],
       "explanation": "本句的「mouthpiece」指「放在嘴邊／口中的裝置部件」。",
       "sentenceIndex": 24,
@@ -1097,12 +999,10 @@ export default {
         "mouthpiece"
       ],
       "optionReasons": {
-        "mouth-mcq-09": "本句指「放在嘴邊／口中的裝置部件」。",
-        "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
-        "mouth-mcq-10": "「代表某人／組織發聲或宣傳其觀點的人／媒體」與本句語境不同。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。",
-        "mouth-mcq-11": "「好吃／好聞到令人垂涎；或比喻非常誘人的」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
+        "mouth-mcq-09": "本句的「mouthpiece」指「放在嘴邊／口中的裝置部件」。",
+        "mouth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-09"
     },
@@ -1114,11 +1014,9 @@ export default {
       "masked": "The snorkel has a soft ____.",
       "options": [
         "mouth-mcq-09",
-        "mouth-mcq-08",
-        "mouth-mcq-10",
-        "mouth-mcq-07",
-        "mouth-mcq-11",
-        "mouth-mcq-06"
+        "mouth-mcq-04",
+        "mouth-mcq-03",
+        "mouth-mcq-11"
       ],
       "explanation": "本句的「mouthpiece」指「放在嘴邊／口中的裝置部件」。",
       "sentenceIndex": 25,
@@ -1127,12 +1025,10 @@ export default {
         "mouthpiece"
       ],
       "optionReasons": {
-        "mouth-mcq-09": "本句指「放在嘴邊／口中的裝置部件」。",
-        "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
-        "mouth-mcq-10": "「代表某人／組織發聲或宣傳其觀點的人／媒體」與本句語境不同。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。",
-        "mouth-mcq-11": "「好吃／好聞到令人垂涎；或比喻非常誘人的」與本句語境不同。",
-        "mouth-mcq-06": "「機械／空泛地把某些說法或口號說出口」與本句語境不同。"
+        "mouth-mcq-09": "本句的「mouthpiece」指「放在嘴邊／口中的裝置部件」。",
+        "mouth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-09"
     },
@@ -1144,11 +1040,9 @@ export default {
       "masked": "The newspaper became a ____ for the organization.",
       "options": [
         "mouth-mcq-10",
-        "mouth-mcq-09",
-        "mouth-mcq-11",
-        "mouth-mcq-08",
-        "mouth-mcq-12",
-        "mouth-mcq-07"
+        "mouth-pdf-003",
+        "mouth-mcq-07",
+        "mouth-mcq-12"
       ],
       "explanation": "本句的「mouthpiece」指「代表某人／組織發聲或宣傳其觀點的人／媒體」。",
       "sentenceIndex": 26,
@@ -1157,12 +1051,10 @@ export default {
         "mouthpiece"
       ],
       "optionReasons": {
-        "mouth-mcq-10": "本句指「代表某人／組織發聲或宣傳其觀點的人／媒體」。",
-        "mouth-mcq-09": "「放在嘴邊／口中的裝置部件」與本句語境不同。",
-        "mouth-mcq-11": "「好吃／好聞到令人垂涎；或比喻非常誘人的」與本句語境不同。",
-        "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
-        "mouth-mcq-12": "「口對口人工呼吸」與本句語境不同。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。"
+        "mouth-mcq-10": "本句的「mouthpiece」指「代表某人／組織發聲或宣傳其觀點的人／媒體」。",
+        "mouth-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-10"
     },
@@ -1174,11 +1066,9 @@ export default {
       "masked": "He was seen as a ____ for the industry.",
       "options": [
         "mouth-mcq-10",
-        "mouth-mcq-09",
-        "mouth-mcq-11",
         "mouth-mcq-08",
-        "mouth-mcq-12",
-        "mouth-mcq-07"
+        "mouth-mcq-11",
+        "mouth-mcq-09"
       ],
       "explanation": "本句的「mouthpiece」指「代表某人／組織發聲或宣傳其觀點的人／媒體」。",
       "sentenceIndex": 27,
@@ -1187,12 +1077,10 @@ export default {
         "mouthpiece"
       ],
       "optionReasons": {
-        "mouth-mcq-10": "本句指「代表某人／組織發聲或宣傳其觀點的人／媒體」。",
-        "mouth-mcq-09": "「放在嘴邊／口中的裝置部件」與本句語境不同。",
-        "mouth-mcq-11": "「好吃／好聞到令人垂涎；或比喻非常誘人的」與本句語境不同。",
-        "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
-        "mouth-mcq-12": "「口對口人工呼吸」與本句語境不同。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。"
+        "mouth-mcq-10": "本句的「mouthpiece」指「代表某人／組織發聲或宣傳其觀點的人／媒體」。",
+        "mouth-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-10"
     },
@@ -1204,11 +1092,9 @@ export default {
       "masked": "The bakery displayed ____ cakes.",
       "options": [
         "mouth-mcq-11",
-        "mouth-mcq-10",
-        "mouth-mcq-12",
         "mouth-mcq-09",
-        "mouth-mcq-08",
-        "mouth-mcq-07"
+        "mouth-mcq-01",
+        "mouth-mcq-10"
       ],
       "explanation": "本句的「mouth-watering」指「好吃／好聞到令人垂涎；或比喻非常誘人的」。",
       "sentenceIndex": 28,
@@ -1217,12 +1103,10 @@ export default {
         "mouth-watering"
       ],
       "optionReasons": {
-        "mouth-mcq-11": "本句指「好吃／好聞到令人垂涎；或比喻非常誘人的」。",
-        "mouth-mcq-10": "「代表某人／組織發聲或宣傳其觀點的人／媒體」與本句語境不同。",
-        "mouth-mcq-12": "「口對口人工呼吸」與本句語境不同。",
-        "mouth-mcq-09": "「放在嘴邊／口中的裝置部件」與本句語境不同。",
-        "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。"
+        "mouth-mcq-11": "本句的「mouth-watering」指「好吃／好聞到令人垂涎；或比喻非常誘人的」。",
+        "mouth-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-11"
     },
@@ -1234,11 +1118,9 @@ export default {
       "masked": "The smell was absolutely ____.",
       "options": [
         "mouth-mcq-11",
-        "mouth-mcq-10",
-        "mouth-mcq-12",
+        "mouth-mcq-02",
         "mouth-mcq-09",
-        "mouth-mcq-08",
-        "mouth-mcq-07"
+        "mouth-mcq-05"
       ],
       "explanation": "本句的「mouth-watering」指「好吃／好聞到令人垂涎；或比喻非常誘人的」。",
       "sentenceIndex": 29,
@@ -1247,12 +1129,10 @@ export default {
         "mouth-watering"
       ],
       "optionReasons": {
-        "mouth-mcq-11": "本句指「好吃／好聞到令人垂涎；或比喻非常誘人的」。",
-        "mouth-mcq-10": "「代表某人／組織發聲或宣傳其觀點的人／媒體」與本句語境不同。",
-        "mouth-mcq-12": "「口對口人工呼吸」與本句語境不同。",
-        "mouth-mcq-09": "「放在嘴邊／口中的裝置部件」與本句語境不同。",
-        "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。"
+        "mouth-mcq-11": "本句的「mouth-watering」指「好吃／好聞到令人垂涎；或比喻非常誘人的」。",
+        "mouth-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-11"
     },
@@ -1264,11 +1144,9 @@ export default {
       "masked": "The deal offered a ____ profit.",
       "options": [
         "mouth-mcq-11",
-        "mouth-mcq-10",
-        "mouth-mcq-12",
-        "mouth-mcq-09",
-        "mouth-mcq-08",
-        "mouth-mcq-07"
+        "mouth-mcq-04",
+        "mouth-mcq-07",
+        "mouth-mcq-05"
       ],
       "explanation": "本句的「mouth-watering」指「好吃／好聞到令人垂涎；或比喻非常誘人的」。",
       "sentenceIndex": 30,
@@ -1277,12 +1155,10 @@ export default {
         "mouth-watering"
       ],
       "optionReasons": {
-        "mouth-mcq-11": "本句指「好吃／好聞到令人垂涎；或比喻非常誘人的」。",
-        "mouth-mcq-10": "「代表某人／組織發聲或宣傳其觀點的人／媒體」與本句語境不同。",
-        "mouth-mcq-12": "「口對口人工呼吸」與本句語境不同。",
-        "mouth-mcq-09": "「放在嘴邊／口中的裝置部件」與本句語境不同。",
-        "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。"
+        "mouth-mcq-11": "本句的「mouth-watering」指「好吃／好聞到令人垂涎；或比喻非常誘人的」。",
+        "mouth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-11"
     },
@@ -1295,9 +1171,7 @@ export default {
       "options": [
         "mouth-mcq-11",
         "mouth-mcq-10",
-        "mouth-mcq-12",
-        "mouth-mcq-09",
-        "mouth-mcq-08",
+        "mouth-pdf-003",
         "mouth-mcq-07"
       ],
       "explanation": "本句的「mouth-watering」指「好吃／好聞到令人垂涎；或比喻非常誘人的」。",
@@ -1307,12 +1181,10 @@ export default {
         "mouth-watering"
       ],
       "optionReasons": {
-        "mouth-mcq-11": "本句指「好吃／好聞到令人垂涎；或比喻非常誘人的」。",
-        "mouth-mcq-10": "「代表某人／組織發聲或宣傳其觀點的人／媒體」與本句語境不同。",
-        "mouth-mcq-12": "「口對口人工呼吸」與本句語境不同。",
-        "mouth-mcq-09": "「放在嘴邊／口中的裝置部件」與本句語境不同。",
-        "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。"
+        "mouth-mcq-11": "本句的「mouth-watering」指「好吃／好聞到令人垂涎；或比喻非常誘人的」。",
+        "mouth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mouth-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-11"
     },
@@ -1324,11 +1196,9 @@ export default {
       "masked": "He was given ____.",
       "options": [
         "mouth-mcq-12",
-        "mouth-mcq-11",
-        "mouth-mcq-10",
-        "mouth-mcq-09",
-        "mouth-mcq-08",
-        "mouth-mcq-07"
+        "mouth-mcq-03",
+        "mouth-mcq-05",
+        "mouth-mcq-04"
       ],
       "explanation": "本句的「mouth-to-mouth」指「口對口人工呼吸」。",
       "sentenceIndex": 32,
@@ -1337,12 +1207,10 @@ export default {
         "mouth-to-mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-12": "本句指「口對口人工呼吸」。",
-        "mouth-mcq-11": "「好吃／好聞到令人垂涎；或比喻非常誘人的」與本句語境不同。",
-        "mouth-mcq-10": "「代表某人／組織發聲或宣傳其觀點的人／媒體」與本句語境不同。",
-        "mouth-mcq-09": "「放在嘴邊／口中的裝置部件」與本句語境不同。",
-        "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。"
+        "mouth-mcq-12": "本句的「mouth-to-mouth」指「口對口人工呼吸」。",
+        "mouth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-12"
     },
@@ -1354,11 +1222,9 @@ export default {
       "masked": "The first-aid course covered ____ resuscitation.",
       "options": [
         "mouth-mcq-12",
-        "mouth-mcq-11",
-        "mouth-mcq-10",
-        "mouth-mcq-09",
-        "mouth-mcq-08",
-        "mouth-mcq-07"
+        "mouth-mcq-05",
+        "mouth-pdf-002",
+        "mouth-mcq-11"
       ],
       "explanation": "本句的「mouth-to-mouth」指「口對口人工呼吸」。",
       "sentenceIndex": 33,
@@ -1367,12 +1233,10 @@ export default {
         "mouth-to-mouth"
       ],
       "optionReasons": {
-        "mouth-mcq-12": "本句指「口對口人工呼吸」。",
-        "mouth-mcq-11": "「好吃／好聞到令人垂涎；或比喻非常誘人的」與本句語境不同。",
-        "mouth-mcq-10": "「代表某人／組織發聲或宣傳其觀點的人／媒體」與本句語境不同。",
-        "mouth-mcq-09": "「放在嘴邊／口中的裝置部件」與本句語境不同。",
-        "mouth-mcq-08": "「長、複雜、難以順口說出的詞語／名稱」與本句語境不同。",
-        "mouth-mcq-07": "「一次能放入口中或填滿口腔的一份量」與本句語境不同。"
+        "mouth-mcq-12": "本句的「mouth-to-mouth」指「口對口人工呼吸」。",
+        "mouth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mouth-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "mouth-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mouth-mcq-12"
     }
@@ -1384,5 +1248,7 @@ export default {
     "sha256": "ccdec680880536ebea1337f962e2a13d86729d165227ffa7b0f3815bfb2c23cc",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -810,11 +810,9 @@ export default {
       "masked": "The ad showed ordinary people in stressful ____.",
       "options": [
         "place-mcq-01",
-        "place-mcq-02",
-        "place-mcq-03",
-        "place-mcq-04",
-        "place-mcq-05",
-        "place-mcq-06"
+        "place-mcq-27",
+        "place-pdf-003",
+        "place-mcq-25"
       ],
       "explanation": "本句的「places」指「某人／某事物可以實際存在、活動或發生事情的地點／環境」。",
       "sentenceIndex": 0,
@@ -823,12 +821,10 @@ export default {
         "places"
       ],
       "optionReasons": {
-        "place-mcq-01": "本句指「某人／某事物可以實際存在、活動或發生事情的地點／環境」。",
-        "place-mcq-02": "「某件物品在人或空間安排中所佔的特定位置」是「place — exact position」的用法，與本句語境不同。",
-        "place-mcq-03": "「可讓某人坐、站、加入或佔用的一個位置／空位」是「place — available seat/position」的用法，與本句語境不同。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。"
+        "place-mcq-01": "本句的「places」指「某人／某事物可以實際存在、活動或發生事情的地點／環境」。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-01"
     },
@@ -840,11 +836,9 @@ export default {
       "masked": "This is a quiet ____ to work.",
       "options": [
         "place-mcq-01",
-        "place-mcq-02",
-        "place-mcq-03",
-        "place-mcq-04",
-        "place-mcq-05",
-        "place-mcq-06"
+        "place-pdf-003",
+        "place-mcq-25",
+        "place-mcq-20"
       ],
       "explanation": "本句的「place」指「某人／某事物可以實際存在、活動或發生事情的地點／環境」。",
       "sentenceIndex": 1,
@@ -853,12 +847,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-01": "本句指「某人／某事物可以實際存在、活動或發生事情的地點／環境」。",
-        "place-mcq-02": "「某件物品在人或空間安排中所佔的特定位置」是「place — exact position」的用法，與本句語境不同。",
-        "place-mcq-03": "「可讓某人坐、站、加入或佔用的一個位置／空位」是「place — available seat/position」的用法，與本句語境不同。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。"
+        "place-mcq-01": "本句的「place」指「某人／某事物可以實際存在、活動或發生事情的地點／環境」。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-01"
     },
@@ -870,11 +862,9 @@ export default {
       "masked": "We visited several interesting ____ during the trip.",
       "options": [
         "place-mcq-01",
-        "place-mcq-02",
-        "place-mcq-03",
-        "place-mcq-04",
-        "place-mcq-05",
-        "place-mcq-06"
+        "place-mcq-20",
+        "place-pdf-003",
+        "place-mcq-25"
       ],
       "explanation": "本句的「places」指「某人／某事物可以實際存在、活動或發生事情的地點／環境」。",
       "sentenceIndex": 2,
@@ -883,12 +873,10 @@ export default {
         "places"
       ],
       "optionReasons": {
-        "place-mcq-01": "本句指「某人／某事物可以實際存在、活動或發生事情的地點／環境」。",
-        "place-mcq-02": "「某件物品在人或空間安排中所佔的特定位置」是「place — exact position」的用法，與本句語境不同。",
-        "place-mcq-03": "「可讓某人坐、站、加入或佔用的一個位置／空位」是「place — available seat/position」的用法，與本句語境不同。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。"
+        "place-mcq-01": "本句的「places」指「某人／某事物可以實際存在、活動或發生事情的地點／環境」。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-01"
     },
@@ -900,11 +888,9 @@ export default {
       "masked": "Put the chair back in its usual ____.",
       "options": [
         "place-mcq-02",
-        "place-mcq-01",
-        "place-mcq-03",
-        "place-mcq-04",
-        "place-mcq-05",
-        "place-mcq-06"
+        "place-mcq-25",
+        "place-mcq-13",
+        "place-mcq-16"
       ],
       "explanation": "本句的「place」指「某件物品在人或空間安排中所佔的特定位置」。",
       "sentenceIndex": 0,
@@ -913,12 +899,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-02": "本句指「某件物品在人或空間安排中所佔的特定位置」。",
-        "place-mcq-01": "「某人／某事物可以實際存在、活動或發生事情的地點／環境」是「place — physical location」的用法，與本句語境不同。",
-        "place-mcq-03": "「可讓某人坐、站、加入或佔用的一個位置／空位」是「place — available seat/position」的用法，與本句語境不同。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。"
+        "place-mcq-02": "本句的「place」指「某件物品在人或空間安排中所佔的特定位置」。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-02"
     },
@@ -930,11 +914,9 @@ export default {
       "masked": "Everything has its own ____ in the kitchen.",
       "options": [
         "place-mcq-02",
-        "place-mcq-01",
-        "place-mcq-03",
-        "place-mcq-04",
-        "place-mcq-05",
-        "place-mcq-06"
+        "place-mcq-16",
+        "place-mcq-22",
+        "place-mcq-17"
       ],
       "explanation": "本句的「place」指「某件物品在人或空間安排中所佔的特定位置」。",
       "sentenceIndex": 1,
@@ -943,12 +925,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-02": "本句指「某件物品在人或空間安排中所佔的特定位置」。",
-        "place-mcq-01": "「某人／某事物可以實際存在、活動或發生事情的地點／環境」是「place — physical location」的用法，與本句語境不同。",
-        "place-mcq-03": "「可讓某人坐、站、加入或佔用的一個位置／空位」是「place — available seat/position」的用法，與本句語境不同。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。"
+        "place-mcq-02": "本句的「place」指「某件物品在人或空間安排中所佔的特定位置」。",
+        "place-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-02"
     },
@@ -960,11 +940,9 @@ export default {
       "masked": "Is there a ____ for me at the table?",
       "options": [
         "place-mcq-03",
-        "place-mcq-02",
-        "place-mcq-04",
-        "place-mcq-01",
-        "place-mcq-05",
-        "place-mcq-06"
+        "place-mcq-12",
+        "place-mcq-27",
+        "place-mcq-18"
       ],
       "explanation": "本句的「place」指「可讓某人坐、站、加入或佔用的一個位置／空位」。",
       "sentenceIndex": 0,
@@ -973,12 +951,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-03": "本句指「可讓某人坐、站、加入或佔用的一個位置／空位」。",
-        "place-mcq-02": "「某件物品在人或空間安排中所佔的特定位置」是「place — exact position」的用法，與本句語境不同。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。",
-        "place-mcq-01": "「某人／某事物可以實際存在、活動或發生事情的地點／環境」是「place — physical location」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。"
+        "place-mcq-03": "本句的「place」指「可讓某人坐、站、加入或佔用的一個位置／空位」。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-03"
     },
@@ -990,11 +966,9 @@ export default {
       "masked": "There wasn’t enough ____ for all the equipment.",
       "options": [
         "place-mcq-03",
-        "place-mcq-02",
-        "place-mcq-04",
-        "place-mcq-01",
-        "place-mcq-05",
-        "place-mcq-06"
+        "place-mcq-12",
+        "place-mcq-27",
+        "place-mcq-17"
       ],
       "explanation": "本句的「place」指「可讓某人坐、站、加入或佔用的一個位置／空位」。",
       "sentenceIndex": 1,
@@ -1003,12 +977,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-03": "本句指「可讓某人坐、站、加入或佔用的一個位置／空位」。",
-        "place-mcq-02": "「某件物品在人或空間安排中所佔的特定位置」是「place — exact position」的用法，與本句語境不同。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。",
-        "place-mcq-01": "「某人／某事物可以實際存在、活動或發生事情的地點／環境」是「place — physical location」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。"
+        "place-mcq-03": "本句的「place」指「可讓某人坐、站、加入或佔用的一個位置／空位」。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-03"
     },
@@ -1020,11 +992,9 @@ export default {
       "masked": "Let’s meet at my ____.",
       "options": [
         "place-mcq-04",
-        "place-mcq-03",
-        "place-mcq-05",
         "place-mcq-02",
-        "place-mcq-06",
-        "place-mcq-01"
+        "place-mcq-22",
+        "place-mcq-14"
       ],
       "explanation": "本句的「place」指「某人居住的住所／家」。",
       "sentenceIndex": 0,
@@ -1033,12 +1003,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-04": "本句指「某人居住的住所／家」。",
-        "place-mcq-03": "「可讓某人坐、站、加入或佔用的一個位置／空位」是「place — available seat/position」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。",
-        "place-mcq-02": "「某件物品在人或空間安排中所佔的特定位置」是「place — exact position」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。",
-        "place-mcq-01": "「某人／某事物可以實際存在、活動或發生事情的地點／環境」是「place — physical location」的用法，與本句語境不同。"
+        "place-mcq-04": "本句的「place」指「某人居住的住所／家」。",
+        "place-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-04"
     },
@@ -1050,11 +1018,9 @@ export default {
       "masked": "Her ____ is only five minutes from the station.",
       "options": [
         "place-mcq-04",
-        "place-mcq-03",
-        "place-mcq-05",
-        "place-mcq-02",
         "place-mcq-06",
-        "place-mcq-01"
+        "place-mcq-10",
+        "place-pdf-003"
       ],
       "explanation": "本句的「place」指「某人居住的住所／家」。",
       "sentenceIndex": 1,
@@ -1063,12 +1029,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-04": "本句指「某人居住的住所／家」。",
-        "place-mcq-03": "「可讓某人坐、站、加入或佔用的一個位置／空位」是「place — available seat/position」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。",
-        "place-mcq-02": "「某件物品在人或空間安排中所佔的特定位置」是「place — exact position」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。",
-        "place-mcq-01": "「某人／某事物可以實際存在、活動或發生事情的地點／環境」是「place — physical location」的用法，與本句語境不同。"
+        "place-mcq-04": "本句的「place」指「某人居住的住所／家」。",
+        "place-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-04"
     },
@@ -1080,11 +1044,9 @@ export default {
       "masked": "Everyone should understand their ____ in the team.",
       "options": [
         "place-mcq-05",
-        "place-mcq-04",
-        "place-mcq-06",
-        "place-mcq-03",
-        "place-mcq-07",
-        "place-mcq-02"
+        "place-mcq-12",
+        "place-mcq-14",
+        "place-mcq-17"
       ],
       "explanation": "本句的「place」指「某人／某事物在社會、制度、歷史或群體中的角色或地位」。",
       "sentenceIndex": 0,
@@ -1093,12 +1055,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-05": "本句指「某人／某事物在社會、制度、歷史或群體中的角色或地位」。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。",
-        "place-mcq-03": "「可讓某人坐、站、加入或佔用的一個位置／空位」是「place — available seat/position」的用法，與本句語境不同。",
-        "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。",
-        "place-mcq-02": "「某件物品在人或空間安排中所佔的特定位置」是「place — exact position」的用法，與本句語境不同。"
+        "place-mcq-05": "本句的「place」指「某人／某事物在社會、制度、歷史或群體中的角色或地位」。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-05"
     },
@@ -1110,11 +1070,9 @@ export default {
       "masked": "The invention has an important ____ in modern history.",
       "options": [
         "place-mcq-05",
-        "place-mcq-04",
+        "place-pdf-003",
         "place-mcq-06",
-        "place-mcq-03",
-        "place-mcq-07",
-        "place-mcq-02"
+        "place-mcq-27"
       ],
       "explanation": "本句的「place」指「某人／某事物在社會、制度、歷史或群體中的角色或地位」。",
       "sentenceIndex": 1,
@@ -1123,12 +1081,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-05": "本句指「某人／某事物在社會、制度、歷史或群體中的角色或地位」。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。",
-        "place-mcq-03": "「可讓某人坐、站、加入或佔用的一個位置／空位」是「place — available seat/position」的用法，與本句語境不同。",
-        "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。",
-        "place-mcq-02": "「某件物品在人或空間安排中所佔的特定位置」是「place — exact position」的用法，與本句語境不同。"
+        "place-mcq-05": "本句的「place」指「某人／某事物在社會、制度、歷史或群體中的角色或地位」。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-05"
     },
@@ -1140,11 +1096,9 @@ export default {
       "masked": "Technology has an important ____ in education.",
       "options": [
         "place-mcq-05",
-        "place-mcq-04",
-        "place-mcq-06",
-        "place-mcq-03",
-        "place-mcq-07",
-        "place-mcq-02"
+        "place-mcq-27",
+        "place-pdf-003",
+        "place-mcq-17"
       ],
       "explanation": "本句的「place」指「某人／某事物在社會、制度、歷史或群體中的角色或地位」。",
       "sentenceIndex": 0,
@@ -1153,12 +1107,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-05": "本句指「某人／某事物在社會、制度、歷史或群體中的角色或地位」。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。",
-        "place-mcq-03": "「可讓某人坐、站、加入或佔用的一個位置／空位」是「place — available seat/position」的用法，與本句語境不同。",
-        "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。",
-        "place-mcq-02": "「某件物品在人或空間安排中所佔的特定位置」是「place — exact position」的用法，與本句語境不同。"
+        "place-mcq-05": "本句的「place」指「某人／某事物在社會、制度、歷史或群體中的角色或地位」。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-05"
     },
@@ -1170,11 +1122,9 @@ export default {
       "masked": "There is a ____ for humour even in serious discussions.",
       "options": [
         "place-mcq-05",
-        "place-mcq-04",
-        "place-mcq-06",
-        "place-mcq-03",
-        "place-mcq-07",
-        "place-mcq-02"
+        "place-mcq-25",
+        "place-pdf-003",
+        "place-mcq-13"
       ],
       "explanation": "本句的「place」指「某人／某事物在社會、制度、歷史或群體中的角色或地位」。",
       "sentenceIndex": 1,
@@ -1183,12 +1133,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-05": "本句指「某人／某事物在社會、制度、歷史或群體中的角色或地位」。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。",
-        "place-mcq-03": "「可讓某人坐、站、加入或佔用的一個位置／空位」是「place — available seat/position」的用法，與本句語境不同。",
-        "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。",
-        "place-mcq-02": "「某件物品在人或空間安排中所佔的特定位置」是「place — exact position」的用法，與本句語境不同。"
+        "place-mcq-05": "本句的「place」指「某人／某事物在社會、制度、歷史或群體中的角色或地位」。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-05"
     },
@@ -1200,11 +1148,9 @@ export default {
       "masked": "She finished in first ____.",
       "options": [
         "place-mcq-06",
-        "place-mcq-05",
-        "place-mcq-07",
-        "place-mcq-04",
-        "place-mcq-08",
-        "place-mcq-03"
+        "place-mcq-30",
+        "place-mcq-20",
+        "place-mcq-13"
       ],
       "explanation": "本句的「place」指「在比賽或競爭中取得的名次」。",
       "sentenceIndex": 0,
@@ -1213,12 +1159,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-06": "本句指「在比賽或競爭中取得的名次」。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。",
-        "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。",
-        "place-mcq-08": "「在文章、序列或流程中目前所在的位置」是「place — text/sequence」的用法，與本句語境不同。",
-        "place-mcq-03": "「可讓某人坐、站、加入或佔用的一個位置／空位」是「place — available seat/position」的用法，與本句語境不同。"
+        "place-mcq-06": "本句的「place」指「在比賽或競爭中取得的名次」。",
+        "place-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-06"
     },
@@ -1230,11 +1174,9 @@ export default {
       "masked": "The team moved up to second ____.",
       "options": [
         "place-mcq-06",
-        "place-mcq-05",
-        "place-mcq-07",
-        "place-mcq-04",
-        "place-mcq-08",
-        "place-mcq-03"
+        "place-mcq-19",
+        "place-mcq-20",
+        "place-pdf-003"
       ],
       "explanation": "本句的「place」指「在比賽或競爭中取得的名次」。",
       "sentenceIndex": 1,
@@ -1243,12 +1185,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-06": "本句指「在比賽或競爭中取得的名次」。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。",
-        "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。",
-        "place-mcq-08": "「在文章、序列或流程中目前所在的位置」是「place — text/sequence」的用法，與本句語境不同。",
-        "place-mcq-03": "「可讓某人坐、站、加入或佔用的一個位置／空位」是「place — available seat/position」的用法，與本句語境不同。"
+        "place-mcq-06": "本句的「place」指「在比賽或競爭中取得的名次」。",
+        "place-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-06"
     },
@@ -1260,11 +1200,9 @@ export default {
       "masked": "She was offered a ____ at university.",
       "options": [
         "place-mcq-07",
-        "place-mcq-06",
-        "place-mcq-08",
-        "place-mcq-05",
-        "place-mcq-09",
-        "place-mcq-04"
+        "place-mcq-17",
+        "place-mcq-25",
+        "place-mcq-27"
       ],
       "explanation": "本句的「place」指「課程、學校、團隊或組織中的有限名額／席位」。",
       "sentenceIndex": 0,
@@ -1273,12 +1211,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-07": "本句指「課程、學校、團隊或組織中的有限名額／席位」。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。",
-        "place-mcq-08": "「在文章、序列或流程中目前所在的位置」是「place — text/sequence」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。",
-        "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。"
+        "place-mcq-07": "本句的「place」指「課程、學校、團隊或組織中的有限名額／席位」。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-07"
     },
@@ -1290,11 +1226,9 @@ export default {
       "masked": "There are only twenty ____ on the course.",
       "options": [
         "place-mcq-07",
-        "place-mcq-06",
-        "place-mcq-08",
-        "place-mcq-05",
-        "place-mcq-09",
-        "place-mcq-04"
+        "place-mcq-17",
+        "place-mcq-22",
+        "place-mcq-20"
       ],
       "explanation": "本句的「places」指「課程、學校、團隊或組織中的有限名額／席位」。",
       "sentenceIndex": 1,
@@ -1303,12 +1237,10 @@ export default {
         "places"
       ],
       "optionReasons": {
-        "place-mcq-07": "本句指「課程、學校、團隊或組織中的有限名額／席位」。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。",
-        "place-mcq-08": "「在文章、序列或流程中目前所在的位置」是「place — text/sequence」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。",
-        "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
-        "place-mcq-04": "「某人居住的住所／家」是「someone’s place」的用法，與本句語境不同。"
+        "place-mcq-07": "本句的「places」指「課程、學校、團隊或組織中的有限名額／席位」。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-07"
     },
@@ -1320,11 +1252,9 @@ export default {
       "masked": "He earned a ____ on the team.",
       "options": [
         "place-pdf-001",
-        "place-mcq-07",
-        "place-mcq-09",
-        "place-mcq-06",
-        "place-mcq-10",
-        "place-mcq-05"
+        "place-mcq-14",
+        "place-mcq-12",
+        "place-mcq-27"
       ],
       "explanation": "本句的「place」指「團體、組織或選拔中可供某人加入的一個位置／資格」。",
       "sentenceIndex": 0,
@@ -1333,12 +1263,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-pdf-001": "本句指「團體、組織或選拔中可供某人加入的一個位置／資格」。",
-        "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。",
-        "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。",
-        "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。"
+        "place-pdf-001": "本句的「place」指「團體、組織或選拔中可供某人加入的一個位置／資格」。",
+        "place-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-pdf-001"
     },
@@ -1350,11 +1278,9 @@ export default {
       "masked": "She secured a ____ on the committee.",
       "options": [
         "place-pdf-001",
-        "place-mcq-07",
-        "place-mcq-09",
-        "place-mcq-06",
-        "place-mcq-10",
-        "place-mcq-05"
+        "place-mcq-25",
+        "place-pdf-003",
+        "place-mcq-12"
       ],
       "explanation": "本句的「place」指「團體、組織或選拔中可供某人加入的一個位置／資格」。",
       "sentenceIndex": 1,
@@ -1363,12 +1289,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-pdf-001": "本句指「團體、組織或選拔中可供某人加入的一個位置／資格」。",
-        "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。",
-        "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。",
-        "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。"
+        "place-pdf-001": "本句的「place」指「團體、組織或選拔中可供某人加入的一個位置／資格」。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-pdf-001"
     },
@@ -1380,11 +1304,9 @@ export default {
       "masked": "I lost my ____ in the book.",
       "options": [
         "place-mcq-08",
-        "place-mcq-07",
-        "place-mcq-09",
-        "place-mcq-06",
-        "place-mcq-10",
-        "place-mcq-05"
+        "place-mcq-20",
+        "place-mcq-16",
+        "place-mcq-27"
       ],
       "explanation": "本句的「place」指「在文章、序列或流程中目前所在的位置」。",
       "sentenceIndex": 0,
@@ -1393,12 +1315,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-08": "本句指「在文章、序列或流程中目前所在的位置」。",
-        "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。",
-        "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。",
-        "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。"
+        "place-mcq-08": "本句的「place」指「在文章、序列或流程中目前所在的位置」。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-08"
     },
@@ -1410,11 +1330,9 @@ export default {
       "masked": "Mark your ____ before closing the document.",
       "options": [
         "place-mcq-08",
-        "place-mcq-07",
-        "place-mcq-09",
-        "place-mcq-06",
-        "place-mcq-10",
-        "place-mcq-05"
+        "place-pdf-003",
+        "place-mcq-20",
+        "place-mcq-22"
       ],
       "explanation": "本句的「place」指「在文章、序列或流程中目前所在的位置」。",
       "sentenceIndex": 1,
@@ -1423,12 +1341,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-08": "本句指「在文章、序列或流程中目前所在的位置」。",
-        "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。",
-        "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。",
-        "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
-        "place-mcq-05": "「某人／某事物在社會、制度、歷史或群體中的角色或地位」是「place — role/status」的用法，與本句語境不同。"
+        "place-mcq-08": "本句的「place」指「在文章、序列或流程中目前所在的位置」。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-08"
     },
@@ -1440,11 +1356,9 @@ export default {
       "masked": "Round the number to two decimal ____.",
       "options": [
         "place-mcq-09",
-        "place-mcq-08",
-        "place-mcq-10",
-        "place-mcq-07",
-        "place-mcq-11",
-        "place-mcq-06"
+        "place-mcq-15",
+        "place-mcq-13",
+        "place-pdf-003"
       ],
       "explanation": "本句的「places」指「小數點右邊的數字位置／小數位」。",
       "sentenceIndex": 0,
@@ -1453,12 +1367,10 @@ export default {
         "places"
       ],
       "optionReasons": {
-        "place-mcq-09": "本句指「小數點右邊的數字位置／小數位」。",
-        "place-mcq-08": "「在文章、序列或流程中目前所在的位置」是「place — text/sequence」的用法，與本句語境不同。",
-        "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
-        "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。",
-        "place-mcq-11": "「有意把某人／某物放到指定位置或安排到特定角色」是「place — verb」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。"
+        "place-mcq-09": "本句的「places」指「小數點右邊的數字位置／小數位」。",
+        "place-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-09"
     },
@@ -1470,11 +1382,9 @@ export default {
       "masked": "Give your answer to three decimal ____.",
       "options": [
         "place-mcq-09",
-        "place-mcq-08",
-        "place-mcq-10",
-        "place-mcq-07",
-        "place-mcq-11",
-        "place-mcq-06"
+        "place-mcq-06",
+        "place-mcq-16",
+        "place-mcq-12"
       ],
       "explanation": "本句的「places」指「小數點右邊的數字位置／小數位」。",
       "sentenceIndex": 1,
@@ -1483,12 +1393,10 @@ export default {
         "places"
       ],
       "optionReasons": {
-        "place-mcq-09": "本句指「小數點右邊的數字位置／小數位」。",
-        "place-mcq-08": "「在文章、序列或流程中目前所在的位置」是「place — text/sequence」的用法，與本句語境不同。",
-        "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
-        "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。",
-        "place-mcq-11": "「有意把某人／某物放到指定位置或安排到特定角色」是「place — verb」的用法，與本句語境不同。",
-        "place-mcq-06": "「在比賽或競爭中取得的名次」是「place — ranking」的用法，與本句語境不同。"
+        "place-mcq-09": "本句的「places」指「小數點右邊的數字位置／小數位」。",
+        "place-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-09"
     },
@@ -1500,11 +1408,9 @@ export default {
       "masked": "The ____ of the 5 in 500 is five hundred.",
       "options": [
         "place-mcq-10",
-        "place-mcq-09",
-        "place-mcq-11",
-        "place-mcq-08",
-        "place-mcq-12",
-        "place-mcq-07"
+        "place-mcq-17",
+        "place-mcq-20",
+        "place-mcq-16"
       ],
       "explanation": "本句的「place value」指「數字因所在位置不同而具有的數值」。",
       "sentenceIndex": 0,
@@ -1513,12 +1419,10 @@ export default {
         "place value"
       ],
       "optionReasons": {
-        "place-mcq-10": "本句指「數字因所在位置不同而具有的數值」。",
-        "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
-        "place-mcq-11": "「有意把某人／某物放到指定位置或安排到特定角色」是「place — verb」的用法，與本句語境不同。",
-        "place-mcq-08": "「在文章、序列或流程中目前所在的位置」是「place — text/sequence」的用法，與本句語境不同。",
-        "place-mcq-12": "「正式提出購買商品／服務的要求；下單」是「place an order」的用法，與本句語境不同。",
-        "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。"
+        "place-mcq-10": "本句的「place value」指「數字因所在位置不同而具有的數值」。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-10"
     },
@@ -1530,11 +1434,9 @@ export default {
       "masked": "Children learn about ____ in primary school.",
       "options": [
         "place-mcq-10",
-        "place-mcq-09",
-        "place-mcq-11",
-        "place-mcq-08",
         "place-mcq-12",
-        "place-mcq-07"
+        "place-mcq-20",
+        "place-mcq-04"
       ],
       "explanation": "本句的「place value」指「數字因所在位置不同而具有的數值」。",
       "sentenceIndex": 1,
@@ -1543,12 +1445,10 @@ export default {
         "place value"
       ],
       "optionReasons": {
-        "place-mcq-10": "本句指「數字因所在位置不同而具有的數值」。",
-        "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
-        "place-mcq-11": "「有意把某人／某物放到指定位置或安排到特定角色」是「place — verb」的用法，與本句語境不同。",
-        "place-mcq-08": "「在文章、序列或流程中目前所在的位置」是「place — text/sequence」的用法，與本句語境不同。",
-        "place-mcq-12": "「正式提出購買商品／服務的要求；下單」是「place an order」的用法，與本句語境不同。",
-        "place-mcq-07": "「課程、學校、團隊或組織中的有限名額／席位」是「place — admission/slot」的用法，與本句語境不同。"
+        "place-mcq-10": "本句的「place value」指「數字因所在位置不同而具有的數值」。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-10"
     },
@@ -1560,11 +1460,9 @@ export default {
       "masked": "She ____ the headphones on the desk.",
       "options": [
         "place-mcq-11",
-        "place-mcq-10",
-        "place-mcq-12",
-        "place-mcq-09",
-        "place-mcq-13",
-        "place-mcq-08"
+        "place-mcq-25",
+        "place-mcq-27",
+        "place-mcq-17"
       ],
       "explanation": "本句的「placed」指「有意把某人／某物放到指定位置或安排到特定角色」。",
       "sentenceIndex": 0,
@@ -1573,12 +1471,10 @@ export default {
         "placed"
       ],
       "optionReasons": {
-        "place-mcq-11": "本句指「有意把某人／某物放到指定位置或安排到特定角色」。",
-        "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
-        "place-mcq-12": "「正式提出購買商品／服務的要求；下單」是「place an order」的用法，與本句語境不同。",
-        "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
-        "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。",
-        "place-mcq-08": "「在文章、序列或流程中目前所在的位置」是「place — text/sequence」的用法，與本句語境不同。"
+        "place-mcq-11": "本句的「placed」指「有意把某人／某物放到指定位置或安排到特定角色」。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-11"
     },
@@ -1590,11 +1486,9 @@ export default {
       "masked": "Please ____ your bag under the seat.",
       "options": [
         "place-mcq-11",
-        "place-mcq-10",
-        "place-mcq-12",
-        "place-mcq-09",
-        "place-mcq-13",
-        "place-mcq-08"
+        "place-mcq-22",
+        "place-mcq-17",
+        "place-mcq-27"
       ],
       "explanation": "本句的「place」指「有意把某人／某物放到指定位置或安排到特定角色」。",
       "sentenceIndex": 1,
@@ -1603,12 +1497,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-11": "本句指「有意把某人／某物放到指定位置或安排到特定角色」。",
-        "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
-        "place-mcq-12": "「正式提出購買商品／服務的要求；下單」是「place an order」的用法，與本句語境不同。",
-        "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
-        "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。",
-        "place-mcq-08": "「在文章、序列或流程中目前所在的位置」是「place — text/sequence」的用法，與本句語境不同。"
+        "place-mcq-11": "本句的「place」指「有意把某人／某物放到指定位置或安排到特定角色」。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-11"
     },
@@ -1620,11 +1512,9 @@ export default {
       "masked": "The agency ____ him in a temporary job.",
       "options": [
         "place-pdf-002",
-        "place-mcq-10",
+        "place-mcq-14",
         "place-mcq-12",
-        "place-mcq-09",
-        "place-mcq-13",
-        "place-mcq-08"
+        "place-mcq-17"
       ],
       "explanation": "本句的「placed」指「安排某人進入特定位置、工作、機構或照顧環境」。",
       "sentenceIndex": 0,
@@ -1633,12 +1523,10 @@ export default {
         "placed"
       ],
       "optionReasons": {
-        "place-pdf-002": "本句指「安排某人進入特定位置、工作、機構或照顧環境」。",
-        "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
-        "place-mcq-12": "「正式提出購買商品／服務的要求；下單」是「place an order」的用法，與本句語境不同。",
-        "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
-        "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。",
-        "place-mcq-08": "「在文章、序列或流程中目前所在的位置」是「place — text/sequence」的用法，與本句語境不同。"
+        "place-pdf-002": "本句的「placed」指「安排某人進入特定位置、工作、機構或照顧環境」。",
+        "place-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-pdf-002"
     },
@@ -1650,11 +1538,9 @@ export default {
       "masked": "The children were ____ with foster families.",
       "options": [
         "place-pdf-002",
-        "place-mcq-10",
-        "place-mcq-12",
-        "place-mcq-09",
-        "place-mcq-13",
-        "place-mcq-08"
+        "place-mcq-17",
+        "place-mcq-14",
+        "place-mcq-12"
       ],
       "explanation": "本句的「placed」指「安排某人進入特定位置、工作、機構或照顧環境」。",
       "sentenceIndex": 1,
@@ -1663,12 +1549,10 @@ export default {
         "placed"
       ],
       "optionReasons": {
-        "place-pdf-002": "本句指「安排某人進入特定位置、工作、機構或照顧環境」。",
-        "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
-        "place-mcq-12": "「正式提出購買商品／服務的要求；下單」是「place an order」的用法，與本句語境不同。",
-        "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。",
-        "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。",
-        "place-mcq-08": "「在文章、序列或流程中目前所在的位置」是「place — text/sequence」的用法，與本句語境不同。"
+        "place-pdf-002": "本句的「placed」指「安排某人進入特定位置、工作、機構或照顧環境」。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-pdf-002"
     },
@@ -1680,11 +1564,9 @@ export default {
       "masked": "I ____ for the headphones online.",
       "options": [
         "place-mcq-12",
-        "place-mcq-11",
-        "place-mcq-13",
-        "place-mcq-10",
-        "place-mcq-14",
-        "place-mcq-09"
+        "place-mcq-20",
+        "place-mcq-29",
+        "place-mcq-22"
       ],
       "explanation": "本句的「placed an order」指「正式提出購買商品／服務的要求；下單」。",
       "sentenceIndex": 0,
@@ -1693,12 +1575,10 @@ export default {
         "placed an order"
       ],
       "optionReasons": {
-        "place-mcq-12": "本句指「正式提出購買商品／服務的要求；下單」。",
-        "place-mcq-11": "「有意把某人／某物放到指定位置或安排到特定角色」是「place — verb」的用法，與本句語境不同。",
-        "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。",
-        "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
-        "place-mcq-14": "「把較多重視和注意力給予某個對象」是「place emphasis on」的用法，與本句語境不同。",
-        "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。"
+        "place-mcq-12": "本句的「placed an order」指「正式提出購買商品／服務的要求；下單」。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-12"
     },
@@ -1710,11 +1590,9 @@ export default {
       "masked": "Customers can ____ through the app.",
       "options": [
         "place-mcq-12",
-        "place-mcq-11",
-        "place-mcq-13",
-        "place-mcq-10",
-        "place-mcq-14",
-        "place-mcq-09"
+        "place-pdf-006",
+        "place-mcq-16",
+        "place-mcq-14"
       ],
       "explanation": "本句的「place orders」指「正式提出購買商品／服務的要求；下單」。",
       "sentenceIndex": 1,
@@ -1723,12 +1601,10 @@ export default {
         "place orders"
       ],
       "optionReasons": {
-        "place-mcq-12": "本句指「正式提出購買商品／服務的要求；下單」。",
-        "place-mcq-11": "「有意把某人／某物放到指定位置或安排到特定角色」是「place — verb」的用法，與本句語境不同。",
-        "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。",
-        "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。",
-        "place-mcq-14": "「把較多重視和注意力給予某個對象」是「place emphasis on」的用法，與本句語境不同。",
-        "place-mcq-09": "「小數點右邊的數字位置／小數位」是「decimal place」的用法，與本句語境不同。"
+        "place-mcq-12": "本句的「place orders」指「正式提出購買商品／服務的要求；下單」。",
+        "place-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-12"
     },
@@ -1740,11 +1616,9 @@ export default {
       "masked": "He ____ on the race.",
       "options": [
         "place-mcq-13",
-        "place-mcq-12",
-        "place-mcq-14",
-        "place-mcq-11",
-        "place-mcq-15",
-        "place-mcq-10"
+        "place-mcq-04",
+        "place-mcq-21",
+        "place-mcq-25"
       ],
       "explanation": "本句的「placed a bet」指「作出投注／下注」。",
       "sentenceIndex": 0,
@@ -1753,12 +1627,10 @@ export default {
         "placed a bet"
       ],
       "optionReasons": {
-        "place-mcq-13": "本句指「作出投注／下注」。",
-        "place-mcq-12": "「正式提出購買商品／服務的要求；下單」是「place an order」的用法，與本句語境不同。",
-        "place-mcq-14": "「把較多重視和注意力給予某個對象」是「place emphasis on」的用法，與本句語境不同。",
-        "place-mcq-11": "「有意把某人／某物放到指定位置或安排到特定角色」是「place — verb」的用法，與本句語境不同。",
-        "place-mcq-15": "「把信任／信心給予某人或某事物」是「place trust in」的用法，與本句語境不同。",
-        "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。"
+        "place-mcq-13": "本句的「placed a bet」指「作出投注／下注」。",
+        "place-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-13"
     },
@@ -1770,11 +1642,9 @@ export default {
       "masked": "You can ____ before the game starts.",
       "options": [
         "place-mcq-13",
-        "place-mcq-12",
-        "place-mcq-14",
-        "place-mcq-11",
-        "place-mcq-15",
-        "place-mcq-10"
+        "place-mcq-29",
+        "place-mcq-25",
+        "place-pdf-003"
       ],
       "explanation": "本句的「place your bet」指「作出投注／下注」。",
       "sentenceIndex": 1,
@@ -1783,12 +1653,10 @@ export default {
         "place your bet"
       ],
       "optionReasons": {
-        "place-mcq-13": "本句指「作出投注／下注」。",
-        "place-mcq-12": "「正式提出購買商品／服務的要求；下單」是「place an order」的用法，與本句語境不同。",
-        "place-mcq-14": "「把較多重視和注意力給予某個對象」是「place emphasis on」的用法，與本句語境不同。",
-        "place-mcq-11": "「有意把某人／某物放到指定位置或安排到特定角色」是「place — verb」的用法，與本句語境不同。",
-        "place-mcq-15": "「把信任／信心給予某人或某事物」是「place trust in」的用法，與本句語境不同。",
-        "place-mcq-10": "「數字因所在位置不同而具有的數值」是「place value」的用法，與本句語境不同。"
+        "place-mcq-13": "本句的「place your bet」指「作出投注／下注」。",
+        "place-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-13"
     },
@@ -1800,11 +1668,9 @@ export default {
       "masked": "The company ____ customer service.",
       "options": [
         "place-mcq-14",
-        "place-mcq-13",
-        "place-mcq-15",
-        "place-mcq-12",
-        "place-mcq-16",
-        "place-mcq-11"
+        "place-mcq-20",
+        "place-mcq-07",
+        "place-pdf-003"
       ],
       "explanation": "本句的「places great emphasis on」指「把較多重視和注意力給予某個對象」。",
       "sentenceIndex": 0,
@@ -1813,12 +1679,10 @@ export default {
         "places great emphasis on"
       ],
       "optionReasons": {
-        "place-mcq-14": "本句指「把較多重視和注意力給予某個對象」。",
-        "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。",
-        "place-mcq-15": "「把信任／信心給予某人或某事物」是「place trust in」的用法，與本句語境不同。",
-        "place-mcq-12": "「正式提出購買商品／服務的要求；下單」是「place an order」的用法，與本句語境不同。",
-        "place-mcq-16": "「把過錯或責任歸於某人／某事」是「place blame on」的用法，與本句語境不同。",
-        "place-mcq-11": "「有意把某人／某物放到指定位置或安排到特定角色」是「place — verb」的用法，與本句語境不同。"
+        "place-mcq-14": "本句的「places great emphasis on」指「把較多重視和注意力給予某個對象」。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-14"
     },
@@ -1830,11 +1694,9 @@ export default {
       "masked": "The course ____ practical skills.",
       "options": [
         "place-mcq-14",
-        "place-mcq-13",
-        "place-mcq-15",
-        "place-mcq-12",
-        "place-mcq-16",
-        "place-mcq-11"
+        "place-mcq-22",
+        "place-mcq-18",
+        "place-mcq-27"
       ],
       "explanation": "本句的「places more importance on」指「把較多重視和注意力給予某個對象」。",
       "sentenceIndex": 1,
@@ -1843,12 +1705,10 @@ export default {
         "places more importance on"
       ],
       "optionReasons": {
-        "place-mcq-14": "本句指「把較多重視和注意力給予某個對象」。",
-        "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。",
-        "place-mcq-15": "「把信任／信心給予某人或某事物」是「place trust in」的用法，與本句語境不同。",
-        "place-mcq-12": "「正式提出購買商品／服務的要求；下單」是「place an order」的用法，與本句語境不同。",
-        "place-mcq-16": "「把過錯或責任歸於某人／某事」是「place blame on」的用法，與本句語境不同。",
-        "place-mcq-11": "「有意把某人／某物放到指定位置或安排到特定角色」是「place — verb」的用法，與本句語境不同。"
+        "place-mcq-14": "本句的「places more importance on」指「把較多重視和注意力給予某個對象」。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-14"
     },
@@ -1860,10 +1720,8 @@ export default {
       "masked": "Customers ____ the brand.",
       "options": [
         "place-mcq-15",
-        "place-mcq-14",
-        "place-mcq-16",
-        "place-mcq-13",
-        "place-mcq-17",
+        "place-mcq-10",
+        "place-pdf-003",
         "place-mcq-12"
       ],
       "explanation": "本句的「place their trust in」指「把信任／信心給予某人或某事物」。",
@@ -1873,12 +1731,10 @@ export default {
         "place their trust in"
       ],
       "optionReasons": {
-        "place-mcq-15": "本句指「把信任／信心給予某人或某事物」。",
-        "place-mcq-14": "「把較多重視和注意力給予某個對象」是「place emphasis on」的用法，與本句語境不同。",
-        "place-mcq-16": "「把過錯或責任歸於某人／某事」是「place blame on」的用法，與本句語境不同。",
-        "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。",
-        "place-mcq-17": "「把熟悉感與正確身分／來源聯繫起來；認出／想起」是「place someone/something — identify」的用法，與本句語境不同。",
-        "place-mcq-12": "「正式提出購買商品／服務的要求；下單」是「place an order」的用法，與本句語境不同。"
+        "place-mcq-15": "本句的「place their trust in」指「把信任／信心給予某人或某事物」。",
+        "place-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-15"
     },
@@ -1890,10 +1746,8 @@ export default {
       "masked": "She ____ her team.",
       "options": [
         "place-mcq-15",
-        "place-mcq-14",
-        "place-mcq-16",
-        "place-mcq-13",
-        "place-mcq-17",
+        "place-mcq-10",
+        "place-pdf-003",
         "place-mcq-12"
       ],
       "explanation": "本句的「placed complete confidence in」指「把信任／信心給予某人或某事物」。",
@@ -1903,12 +1757,10 @@ export default {
         "placed complete confidence in"
       ],
       "optionReasons": {
-        "place-mcq-15": "本句指「把信任／信心給予某人或某事物」。",
-        "place-mcq-14": "「把較多重視和注意力給予某個對象」是「place emphasis on」的用法，與本句語境不同。",
-        "place-mcq-16": "「把過錯或責任歸於某人／某事」是「place blame on」的用法，與本句語境不同。",
-        "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。",
-        "place-mcq-17": "「把熟悉感與正確身分／來源聯繫起來；認出／想起」是「place someone/something — identify」的用法，與本句語境不同。",
-        "place-mcq-12": "「正式提出購買商品／服務的要求；下單」是「place an order」的用法，與本句語境不同。"
+        "place-mcq-15": "本句的「placed complete confidence in」指「把信任／信心給予某人或某事物」。",
+        "place-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-15"
     },
@@ -1920,11 +1772,9 @@ export default {
       "masked": "The report ____ senior management.",
       "options": [
         "place-mcq-16",
-        "place-mcq-15",
         "place-mcq-17",
-        "place-mcq-14",
-        "place-mcq-18",
-        "place-mcq-13"
+        "place-mcq-09",
+        "place-mcq-12"
       ],
       "explanation": "本句的「placed responsibility on」指「把過錯或責任歸於某人／某事」。",
       "sentenceIndex": 0,
@@ -1933,12 +1783,10 @@ export default {
         "placed responsibility on"
       ],
       "optionReasons": {
-        "place-mcq-16": "本句指「把過錯或責任歸於某人／某事」。",
-        "place-mcq-15": "「把信任／信心給予某人或某事物」是「place trust in」的用法，與本句語境不同。",
-        "place-mcq-17": "「把熟悉感與正確身分／來源聯繫起來；認出／想起」是「place someone/something — identify」的用法，與本句語境不同。",
-        "place-mcq-14": "「把較多重視和注意力給予某個對象」是「place emphasis on」的用法，與本句語境不同。",
-        "place-mcq-18": "「某事件發生或某活動按安排舉行」是「take place」的用法，與本句語境不同。",
-        "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。"
+        "place-mcq-16": "本句的「placed responsibility on」指「把過錯或責任歸於某人／某事」。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-16"
     },
@@ -1950,11 +1798,9 @@ export default {
       "masked": "It would be unfair to ____ one person.",
       "options": [
         "place-mcq-16",
-        "place-mcq-15",
+        "place-mcq-02",
         "place-mcq-17",
-        "place-mcq-14",
-        "place-mcq-18",
-        "place-mcq-13"
+        "place-mcq-27"
       ],
       "explanation": "本句的「place all the blame on」指「把過錯或責任歸於某人／某事」。",
       "sentenceIndex": 1,
@@ -1963,12 +1809,10 @@ export default {
         "place all the blame on"
       ],
       "optionReasons": {
-        "place-mcq-16": "本句指「把過錯或責任歸於某人／某事」。",
-        "place-mcq-15": "「把信任／信心給予某人或某事物」是「place trust in」的用法，與本句語境不同。",
-        "place-mcq-17": "「把熟悉感與正確身分／來源聯繫起來；認出／想起」是「place someone/something — identify」的用法，與本句語境不同。",
-        "place-mcq-14": "「把較多重視和注意力給予某個對象」是「place emphasis on」的用法，與本句語境不同。",
-        "place-mcq-18": "「某事件發生或某活動按安排舉行」是「take place」的用法，與本句語境不同。",
-        "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。"
+        "place-mcq-16": "本句的「place all the blame on」指「把過錯或責任歸於某人／某事」。",
+        "place-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-16"
     },
@@ -1980,11 +1824,9 @@ export default {
       "masked": "She ____ to the office.",
       "options": [
         "place-pdf-003",
-        "place-mcq-15",
-        "place-mcq-17",
-        "place-mcq-14",
-        "place-mcq-18",
-        "place-mcq-13"
+        "place-mcq-30",
+        "place-mcq-25",
+        "place-mcq-20"
       ],
       "explanation": "本句的「placed a call」指「撥打一通電話」。",
       "sentenceIndex": 0,
@@ -1993,12 +1835,10 @@ export default {
         "placed a call"
       ],
       "optionReasons": {
-        "place-pdf-003": "本句指「撥打一通電話」。",
-        "place-mcq-15": "「把信任／信心給予某人或某事物」是「place trust in」的用法，與本句語境不同。",
-        "place-mcq-17": "「把熟悉感與正確身分／來源聯繫起來；認出／想起」是「place someone/something — identify」的用法，與本句語境不同。",
-        "place-mcq-14": "「把較多重視和注意力給予某個對象」是「place emphasis on」的用法，與本句語境不同。",
-        "place-mcq-18": "「某事件發生或某活動按安排舉行」是「take place」的用法，與本句語境不同。",
-        "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。"
+        "place-pdf-003": "本句的「placed a call」指「撥打一通電話」。",
+        "place-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-pdf-003"
     },
@@ -2010,11 +1850,9 @@ export default {
       "masked": "The assistant ____ that morning.",
       "options": [
         "place-pdf-003",
-        "place-mcq-15",
-        "place-mcq-17",
-        "place-mcq-14",
-        "place-mcq-18",
-        "place-mcq-13"
+        "place-pdf-001",
+        "place-mcq-22",
+        "place-mcq-18"
       ],
       "explanation": "本句的「placed several calls」指「撥打一通電話」。",
       "sentenceIndex": 1,
@@ -2023,12 +1861,10 @@ export default {
         "placed several calls"
       ],
       "optionReasons": {
-        "place-pdf-003": "本句指「撥打一通電話」。",
-        "place-mcq-15": "「把信任／信心給予某人或某事物」是「place trust in」的用法，與本句語境不同。",
-        "place-mcq-17": "「把熟悉感與正確身分／來源聯繫起來；認出／想起」是「place someone/something — identify」的用法，與本句語境不同。",
-        "place-mcq-14": "「把較多重視和注意力給予某個對象」是「place emphasis on」的用法，與本句語境不同。",
-        "place-mcq-18": "「某事件發生或某活動按安排舉行」是「take place」的用法，與本句語境不同。",
-        "place-mcq-13": "「作出投注／下注」是「place a bet」的用法，與本句語境不同。"
+        "place-pdf-003": "本句的「placed several calls」指「撥打一通電話」。",
+        "place-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-pdf-003"
     },
@@ -2040,11 +1876,9 @@ export default {
       "masked": "I recognize her face, but I can’t ____ her.",
       "options": [
         "place-mcq-17",
-        "place-mcq-16",
+        "place-pdf-003",
         "place-mcq-18",
-        "place-mcq-15",
-        "place-mcq-19",
-        "place-mcq-14"
+        "place-mcq-21"
       ],
       "explanation": "本句的「place」指「把熟悉感與正確身分／來源聯繫起來；認出／想起」。",
       "sentenceIndex": 0,
@@ -2053,12 +1887,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-17": "本句指「把熟悉感與正確身分／來源聯繫起來；認出／想起」。",
-        "place-mcq-16": "「把過錯或責任歸於某人／某事」是「place blame on」的用法，與本句語境不同。",
-        "place-mcq-18": "「某事件發生或某活動按安排舉行」是「take place」的用法，與本句語境不同。",
-        "place-mcq-15": "「把信任／信心給予某人或某事物」是「place trust in」的用法，與本句語境不同。",
-        "place-mcq-19": "「處於本來應該所在的正確位置」是「in place — physical」的用法，與本句語境不同。",
-        "place-mcq-14": "「把較多重視和注意力給予某個對象」是「place emphasis on」的用法，與本句語境不同。"
+        "place-mcq-17": "本句的「place」指「把熟悉感與正確身分／來源聯繫起來；認出／想起」。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-17"
     },
@@ -2070,10 +1902,8 @@ export default {
       "masked": "I know that voice, but I can’t quite ____ it.",
       "options": [
         "place-mcq-17",
-        "place-mcq-16",
-        "place-mcq-18",
-        "place-mcq-15",
-        "place-mcq-19",
+        "place-mcq-05",
+        "place-mcq-21",
         "place-mcq-14"
       ],
       "explanation": "本句的「place」指「把熟悉感與正確身分／來源聯繫起來；認出／想起」。",
@@ -2083,12 +1913,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-17": "本句指「把熟悉感與正確身分／來源聯繫起來；認出／想起」。",
-        "place-mcq-16": "「把過錯或責任歸於某人／某事」是「place blame on」的用法，與本句語境不同。",
-        "place-mcq-18": "「某事件發生或某活動按安排舉行」是「take place」的用法，與本句語境不同。",
-        "place-mcq-15": "「把信任／信心給予某人或某事物」是「place trust in」的用法，與本句語境不同。",
-        "place-mcq-19": "「處於本來應該所在的正確位置」是「in place — physical」的用法，與本句語境不同。",
-        "place-mcq-14": "「把較多重視和注意力給予某個對象」是「place emphasis on」的用法，與本句語境不同。"
+        "place-mcq-17": "本句的「place」指「把熟悉感與正確身分／來源聯繫起來；認出／想起」。",
+        "place-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-17"
     },
@@ -2100,11 +1928,9 @@ export default {
       "masked": "The meeting will ____ tomorrow.",
       "options": [
         "place-mcq-18",
+        "place-mcq-25",
         "place-mcq-17",
-        "place-mcq-19",
-        "place-mcq-16",
-        "place-mcq-20",
-        "place-mcq-15"
+        "place-pdf-003"
       ],
       "explanation": "本句的「take place」指「某事件發生或某活動按安排舉行」。",
       "sentenceIndex": 0,
@@ -2113,12 +1939,10 @@ export default {
         "take place"
       ],
       "optionReasons": {
-        "place-mcq-18": "本句指「某事件發生或某活動按安排舉行」。",
-        "place-mcq-17": "「把熟悉感與正確身分／來源聯繫起來；認出／想起」是「place someone/something — identify」的用法，與本句語境不同。",
-        "place-mcq-19": "「處於本來應該所在的正確位置」是「in place — physical」的用法，與本句語境不同。",
-        "place-mcq-16": "「把過錯或責任歸於某人／某事」是「place blame on」的用法，與本句語境不同。",
-        "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。",
-        "place-mcq-15": "「把信任／信心給予某人或某事物」是「place trust in」的用法，與本句語境不同。"
+        "place-mcq-18": "本句的「take place」指「某事件發生或某活動按安排舉行」。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-18"
     },
@@ -2130,11 +1954,9 @@ export default {
       "masked": "The accident ____ near the station.",
       "options": [
         "place-mcq-18",
-        "place-mcq-17",
-        "place-mcq-19",
-        "place-mcq-16",
-        "place-mcq-20",
-        "place-mcq-15"
+        "place-mcq-15",
+        "place-mcq-22",
+        "place-mcq-19"
       ],
       "explanation": "本句的「took place」指「某事件發生或某活動按安排舉行」。",
       "sentenceIndex": 1,
@@ -2143,12 +1965,10 @@ export default {
         "took place"
       ],
       "optionReasons": {
-        "place-mcq-18": "本句指「某事件發生或某活動按安排舉行」。",
-        "place-mcq-17": "「把熟悉感與正確身分／來源聯繫起來；認出／想起」是「place someone/something — identify」的用法，與本句語境不同。",
-        "place-mcq-19": "「處於本來應該所在的正確位置」是「in place — physical」的用法，與本句語境不同。",
-        "place-mcq-16": "「把過錯或責任歸於某人／某事」是「place blame on」的用法，與本句語境不同。",
-        "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。",
-        "place-mcq-15": "「把信任／信心給予某人或某事物」是「place trust in」的用法，與本句語境不同。"
+        "place-mcq-18": "本句的「took place」指「某事件發生或某活動按安排舉行」。",
+        "place-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-18"
     },
@@ -2160,11 +1980,9 @@ export default {
       "masked": "Make sure the headphones are firmly ____.",
       "options": [
         "place-mcq-19",
+        "place-pdf-003",
         "place-mcq-18",
-        "place-mcq-20",
-        "place-mcq-17",
-        "place-mcq-21",
-        "place-mcq-16"
+        "place-mcq-15"
       ],
       "explanation": "本句的「in place」指「處於本來應該所在的正確位置」。",
       "sentenceIndex": 0,
@@ -2173,12 +1991,10 @@ export default {
         "in place"
       ],
       "optionReasons": {
-        "place-mcq-19": "本句指「處於本來應該所在的正確位置」。",
-        "place-mcq-18": "「某事件發生或某活動按安排舉行」是「take place」的用法，與本句語境不同。",
-        "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。",
-        "place-mcq-17": "「把熟悉感與正確身分／來源聯繫起來；認出／想起」是「place someone/something — identify」的用法，與本句語境不同。",
-        "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
-        "place-mcq-16": "「把過錯或責任歸於某人／某事」是「place blame on」的用法，與本句語境不同。"
+        "place-mcq-19": "本句的「in place」指「處於本來應該所在的正確位置」。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-19"
     },
@@ -2190,11 +2006,9 @@ export default {
       "masked": "The cover clicked ____.",
       "options": [
         "place-mcq-19",
-        "place-mcq-18",
-        "place-mcq-20",
-        "place-mcq-17",
-        "place-mcq-21",
-        "place-mcq-16"
+        "place-mcq-04",
+        "place-mcq-06",
+        "place-mcq-18"
       ],
       "explanation": "本句的「in place」指「處於本來應該所在的正確位置」。",
       "sentenceIndex": 1,
@@ -2203,12 +2017,10 @@ export default {
         "in place"
       ],
       "optionReasons": {
-        "place-mcq-19": "本句指「處於本來應該所在的正確位置」。",
-        "place-mcq-18": "「某事件發生或某活動按安排舉行」是「take place」的用法，與本句語境不同。",
-        "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。",
-        "place-mcq-17": "「把熟悉感與正確身分／來源聯繫起來；認出／想起」是「place someone/something — identify」的用法，與本句語境不同。",
-        "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
-        "place-mcq-16": "「把過錯或責任歸於某人／某事」是「place blame on」的用法，與本句語境不同。"
+        "place-mcq-19": "本句的「in place」指「處於本來應該所在的正確位置」。",
+        "place-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-19"
     },
@@ -2220,11 +2032,9 @@ export default {
       "masked": "The company has new safety procedures ____.",
       "options": [
         "place-mcq-20",
-        "place-mcq-19",
         "place-mcq-21",
-        "place-mcq-18",
-        "place-mcq-22",
-        "place-mcq-17"
+        "place-mcq-27",
+        "place-mcq-12"
       ],
       "explanation": "本句的「in place」指「制度、措施或安排已建立並可運作」。",
       "sentenceIndex": 0,
@@ -2233,12 +2043,10 @@ export default {
         "in place"
       ],
       "optionReasons": {
-        "place-mcq-20": "本句指「制度、措施或安排已建立並可運作」。",
-        "place-mcq-19": "「處於本來應該所在的正確位置」是「in place — physical」的用法，與本句語境不同。",
-        "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
-        "place-mcq-18": "「某事件發生或某活動按安排舉行」是「take place」的用法，與本句語境不同。",
-        "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
-        "place-mcq-17": "「把熟悉感與正確身分／來源聯繫起來；認出／想起」是「place someone/something — identify」的用法，與本句語境不同。"
+        "place-mcq-20": "本句的「in place」指「制度、措施或安排已建立並可運作」。",
+        "place-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-20"
     },
@@ -2250,11 +2058,9 @@ export default {
       "masked": "Everything is ____ for the launch.",
       "options": [
         "place-mcq-20",
-        "place-mcq-19",
-        "place-mcq-21",
-        "place-mcq-18",
-        "place-mcq-22",
-        "place-mcq-17"
+        "place-mcq-16",
+        "place-mcq-09",
+        "place-mcq-06"
       ],
       "explanation": "本句的「in place」指「制度、措施或安排已建立並可運作」。",
       "sentenceIndex": 1,
@@ -2263,12 +2069,10 @@ export default {
         "in place"
       ],
       "optionReasons": {
-        "place-mcq-20": "本句指「制度、措施或安排已建立並可運作」。",
-        "place-mcq-19": "「處於本來應該所在的正確位置」是「in place — physical」的用法，與本句語境不同。",
-        "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
-        "place-mcq-18": "「某事件發生或某活動按安排舉行」是「take place」的用法，與本句語境不同。",
-        "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
-        "place-mcq-17": "「把熟悉感與正確身分／來源聯繫起來；認出／想起」是「place someone/something — identify」的用法，與本句語境不同。"
+        "place-mcq-20": "本句的「in place」指「制度、措施或安排已建立並可運作」。",
+        "place-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-20"
     },
@@ -2281,10 +2085,8 @@ export default {
       "options": [
         "place-mcq-21",
         "place-mcq-20",
-        "place-mcq-22",
-        "place-mcq-19",
-        "place-mcq-23",
-        "place-mcq-18"
+        "place-mcq-12",
+        "place-mcq-17"
       ],
       "explanation": "本句的「out of place」指「沒有處於原本應在的位置」。",
       "sentenceIndex": 0,
@@ -2293,12 +2095,10 @@ export default {
         "out of place"
       ],
       "optionReasons": {
-        "place-mcq-21": "本句指「沒有處於原本應在的位置」。",
-        "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。",
-        "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
-        "place-mcq-19": "「處於本來應該所在的正確位置」是「in place — physical」的用法，與本句語境不同。",
-        "place-mcq-23": "「放置方式；亦可指實習／職位安排或級別分配」是「placement」的用法，與本句語境不同。",
-        "place-mcq-18": "「某事件發生或某活動按安排舉行」是「take place」的用法，與本句語境不同。"
+        "place-mcq-21": "本句的「out of place」指「沒有處於原本應在的位置」。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-21"
     },
@@ -2310,11 +2110,9 @@ export default {
       "masked": "Nothing was ____ in the room.",
       "options": [
         "place-mcq-21",
-        "place-mcq-20",
-        "place-mcq-22",
-        "place-mcq-19",
-        "place-mcq-23",
-        "place-mcq-18"
+        "place-mcq-14",
+        "place-mcq-04",
+        "place-mcq-22"
       ],
       "explanation": "本句的「out of place」指「沒有處於原本應在的位置」。",
       "sentenceIndex": 1,
@@ -2323,12 +2121,10 @@ export default {
         "out of place"
       ],
       "optionReasons": {
-        "place-mcq-21": "本句指「沒有處於原本應在的位置」。",
-        "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。",
-        "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
-        "place-mcq-19": "「處於本來應該所在的正確位置」是「in place — physical」的用法，與本句語境不同。",
-        "place-mcq-23": "「放置方式；亦可指實習／職位安排或級別分配」是「placement」的用法，與本句語境不同。",
-        "place-mcq-18": "「某事件發生或某活動按安排舉行」是「take place」的用法，與本句語境不同。"
+        "place-mcq-21": "本句的「out of place」指「沒有處於原本應在的位置」。",
+        "place-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-21"
     },
@@ -2341,10 +2137,8 @@ export default {
       "options": [
         "place-mcq-22",
         "place-mcq-21",
-        "place-mcq-23",
-        "place-mcq-20",
-        "place-mcq-24",
-        "place-mcq-19"
+        "place-pdf-003",
+        "place-mcq-18"
       ],
       "explanation": "本句的「out of place」指「與周圍環境／場合不協調、不合適或格格不入」。",
       "sentenceIndex": 0,
@@ -2353,12 +2147,10 @@ export default {
         "out of place"
       ],
       "optionReasons": {
-        "place-mcq-22": "本句指「與周圍環境／場合不協調、不合適或格格不入」。",
-        "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
-        "place-mcq-23": "「放置方式；亦可指實習／職位安排或級別分配」是「placement」的用法，與本句語境不同。",
-        "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。",
-        "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
-        "place-mcq-19": "「處於本來應該所在的正確位置」是「in place — physical」的用法，與本句語境不同。"
+        "place-mcq-22": "本句的「out of place」指「與周圍環境／場合不協調、不合適或格格不入」。",
+        "place-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-22"
     },
@@ -2370,11 +2162,9 @@ export default {
       "masked": "That joke felt ____ during such a serious discussion.",
       "options": [
         "place-mcq-22",
-        "place-mcq-21",
-        "place-mcq-23",
-        "place-mcq-20",
-        "place-mcq-24",
-        "place-mcq-19"
+        "place-mcq-27",
+        "place-mcq-13",
+        "place-mcq-21"
       ],
       "explanation": "本句的「out of place」指「與周圍環境／場合不協調、不合適或格格不入」。",
       "sentenceIndex": 1,
@@ -2383,12 +2173,10 @@ export default {
         "out of place"
       ],
       "optionReasons": {
-        "place-mcq-22": "本句指「與周圍環境／場合不協調、不合適或格格不入」。",
-        "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
-        "place-mcq-23": "「放置方式；亦可指實習／職位安排或級別分配」是「placement」的用法，與本句語境不同。",
-        "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。",
-        "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
-        "place-mcq-19": "「處於本來應該所在的正確位置」是「in place — physical」的用法，與本句語境不同。"
+        "place-mcq-22": "本句的「out of place」指「與周圍環境／場合不協調、不合適或格格不入」。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-22"
     },
@@ -2400,11 +2188,9 @@ export default {
       "masked": "Everyone needs to understand their ____ within the organization.",
       "options": [
         "place-mcq-30",
-        "place-mcq-29",
-        "place-mcq-28",
-        "place-mcq-27",
-        "place-mcq-26",
-        "place-mcq-25"
+        "place-mcq-22",
+        "place-mcq-18",
+        "place-pdf-003"
       ],
       "explanation": "本句的「place」指「知道自己在社會／組織中的位置；若直接用來命令人，常帶貶低或階級意味」。",
       "sentenceIndex": 0,
@@ -2413,12 +2199,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-30": "本句指「知道自己在社會／組織中的位置；若直接用來命令人，常帶貶低或階級意味」。",
-        "place-mcq-29": "「某人／某物離開原位置的過程／程度；可指位移或流離失所」是「displacement」的用法，與本句語境不同。",
-        "place-mcq-28": "「使某人／某物被迫離開原有位置、住所或角色」是「displace」的用法，與本句語境不同。",
-        "place-mcq-27": "「用來接替原有人／物的替代品／接替者」是「replacement」的用法，與本句語境不同。",
-        "place-mcq-26": "「讓另一人／物接替原有人／物的位置、角色或功能」是「replace」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。"
+        "place-mcq-30": "本句的「place」指「知道自己在社會／組織中的位置；若直接用來命令人，常帶貶低或階級意味」。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-30"
     },
@@ -2430,11 +2214,9 @@ export default {
       "masked": "He told her to ‘know her ____,’ which sounded insulting.",
       "options": [
         "place-mcq-30",
-        "place-mcq-29",
-        "place-mcq-28",
-        "place-mcq-27",
-        "place-mcq-26",
-        "place-mcq-25"
+        "place-mcq-18",
+        "place-mcq-06",
+        "place-pdf-003"
       ],
       "explanation": "本句的「place」指「知道自己在社會／組織中的位置；若直接用來命令人，常帶貶低或階級意味」。",
       "sentenceIndex": 1,
@@ -2443,12 +2225,10 @@ export default {
         "place"
       ],
       "optionReasons": {
-        "place-mcq-30": "本句指「知道自己在社會／組織中的位置；若直接用來命令人，常帶貶低或階級意味」。",
-        "place-mcq-29": "「某人／某物離開原位置的過程／程度；可指位移或流離失所」是「displacement」的用法，與本句語境不同。",
-        "place-mcq-28": "「使某人／某物被迫離開原有位置、住所或角色」是「displace」的用法，與本句語境不同。",
-        "place-mcq-27": "「用來接替原有人／物的替代品／接替者」是「replacement」的用法，與本句語境不同。",
-        "place-mcq-26": "「讓另一人／物接替原有人／物的位置、角色或功能」是「replace」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。"
+        "place-mcq-30": "本句的「place」指「知道自己在社會／組織中的位置；若直接用來命令人，常帶貶低或階級意味」。",
+        "place-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-30"
     },
@@ -2460,11 +2240,9 @@ export default {
       "masked": "The ____ of the speakers affects the sound.",
       "options": [
         "place-pdf-004",
-        "place-mcq-22",
-        "place-mcq-24",
-        "place-mcq-21",
-        "place-mcq-25",
-        "place-mcq-20"
+        "place-pdf-003",
+        "place-mcq-14",
+        "place-mcq-27"
       ],
       "explanation": "本句的「placement」指「把某物安排在特定位置的方式／結果」。",
       "sentenceIndex": 0,
@@ -2473,12 +2251,10 @@ export default {
         "placement"
       ],
       "optionReasons": {
-        "place-pdf-004": "本句指「把某物安排在特定位置的方式／結果」。",
-        "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
-        "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
-        "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
-        "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。"
+        "place-pdf-004": "本句的「placement」指「把某物安排在特定位置的方式／結果」。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-pdf-004"
     },
@@ -2490,11 +2266,9 @@ export default {
       "masked": "Careful button ____ makes the device easier to use.",
       "options": [
         "place-pdf-004",
-        "place-mcq-22",
-        "place-mcq-24",
-        "place-mcq-21",
-        "place-mcq-25",
-        "place-mcq-20"
+        "place-mcq-16",
+        "place-mcq-12",
+        "place-mcq-06"
       ],
       "explanation": "本句的「placement」指「把某物安排在特定位置的方式／結果」。",
       "sentenceIndex": 1,
@@ -2503,12 +2277,10 @@ export default {
         "placement"
       ],
       "optionReasons": {
-        "place-pdf-004": "本句指「把某物安排在特定位置的方式／結果」。",
-        "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
-        "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
-        "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
-        "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。"
+        "place-pdf-004": "本句的「placement」指「把某物安排在特定位置的方式／結果」。",
+        "place-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-pdf-004"
     },
@@ -2520,11 +2292,9 @@ export default {
       "masked": "She completed a six-month work ____.",
       "options": [
         "place-pdf-005",
-        "place-mcq-22",
-        "place-mcq-24",
-        "place-mcq-21",
-        "place-mcq-25",
-        "place-mcq-20"
+        "place-mcq-27",
+        "place-mcq-12",
+        "place-mcq-06"
       ],
       "explanation": "本句的「placement」指「安排某人到公司、機構或工作環境進行實習／工作的一段職位安排」。",
       "sentenceIndex": 0,
@@ -2533,12 +2303,10 @@ export default {
         "placement"
       ],
       "optionReasons": {
-        "place-pdf-005": "本句指「安排某人到公司、機構或工作環境進行實習／工作的一段職位安排」。",
-        "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
-        "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
-        "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
-        "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。"
+        "place-pdf-005": "本句的「placement」指「安排某人到公司、機構或工作環境進行實習／工作的一段職位安排」。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-pdf-005"
     },
@@ -2550,11 +2318,9 @@ export default {
       "masked": "The university helps students find industry ____.",
       "options": [
         "place-pdf-005",
-        "place-mcq-22",
-        "place-mcq-24",
-        "place-mcq-21",
-        "place-mcq-25",
-        "place-mcq-20"
+        "place-pdf-003",
+        "place-mcq-14",
+        "place-mcq-17"
       ],
       "explanation": "本句的「placements」指「安排某人到公司、機構或工作環境進行實習／工作的一段職位安排」。",
       "sentenceIndex": 1,
@@ -2563,12 +2329,10 @@ export default {
         "placements"
       ],
       "optionReasons": {
-        "place-pdf-005": "本句指「安排某人到公司、機構或工作環境進行實習／工作的一段職位安排」。",
-        "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
-        "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
-        "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
-        "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。"
+        "place-pdf-005": "本句的「placements」指「安排某人到公司、機構或工作環境進行實習／工作的一段職位安排」。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-pdf-005"
     },
@@ -2580,11 +2344,9 @@ export default {
       "masked": "Her high ____ in the competition surprised everyone.",
       "options": [
         "place-pdf-006",
-        "place-mcq-22",
-        "place-mcq-24",
-        "place-mcq-21",
         "place-mcq-25",
-        "place-mcq-20"
+        "place-mcq-27",
+        "place-mcq-16"
       ],
       "explanation": "本句的「placement」指「根據測試、選拔或安排而被分配到某個級別、位置或名次」。",
       "sentenceIndex": 0,
@@ -2593,12 +2355,10 @@ export default {
         "placement"
       ],
       "optionReasons": {
-        "place-pdf-006": "本句指「根據測試、選拔或安排而被分配到某個級別、位置或名次」。",
-        "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
-        "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
-        "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
-        "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。"
+        "place-pdf-006": "本句的「placement」指「根據測試、選拔或安排而被分配到某個級別、位置或名次」。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-pdf-006"
     },
@@ -2611,10 +2371,8 @@ export default {
       "options": [
         "place-pdf-006",
         "place-mcq-22",
-        "place-mcq-24",
-        "place-mcq-21",
-        "place-mcq-25",
-        "place-mcq-20"
+        "place-mcq-27",
+        "place-mcq-13"
       ],
       "explanation": "本句的「placement」指「根據測試、選拔或安排而被分配到某個級別、位置或名次」。",
       "sentenceIndex": 1,
@@ -2623,12 +2381,10 @@ export default {
         "placement"
       ],
       "optionReasons": {
-        "place-pdf-006": "本句指「根據測試、選拔或安排而被分配到某個級別、位置或名次」。",
-        "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
-        "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
-        "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
-        "place-mcq-20": "「制度、措施或安排已建立並可運作」是「in place — system」的用法，與本句語境不同。"
+        "place-pdf-006": "本句的「placement」指「根據測試、選拔或安排而被分配到某個級別、位置或名次」。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-pdf-006"
     },
@@ -2640,11 +2396,9 @@ export default {
       "masked": "I’ve ____ my keys.",
       "options": [
         "place-mcq-24",
-        "place-mcq-23",
-        "place-mcq-25",
-        "place-mcq-22",
-        "place-mcq-26",
-        "place-mcq-21"
+        "place-pdf-003",
+        "place-mcq-04",
+        "place-mcq-13"
       ],
       "explanation": "本句的「misplaced」指「把某物放錯／忘記位置，因而暫時找不到」。",
       "sentenceIndex": 0,
@@ -2653,12 +2407,10 @@ export default {
         "misplaced"
       ],
       "optionReasons": {
-        "place-mcq-24": "本句指「把某物放錯／忘記位置，因而暫時找不到」。",
-        "place-mcq-23": "「放置方式；亦可指實習／職位安排或級別分配」是「placement」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
-        "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
-        "place-mcq-26": "「讓另一人／物接替原有人／物的位置、角色或功能」是「replace」的用法，與本句語境不同。",
-        "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。"
+        "place-mcq-24": "本句的「misplaced」指「把某物放錯／忘記位置，因而暫時找不到」。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-24"
     },
@@ -2670,11 +2422,9 @@ export default {
       "masked": "She often ____ her phone.",
       "options": [
         "place-mcq-24",
-        "place-mcq-23",
         "place-mcq-25",
-        "place-mcq-22",
-        "place-mcq-26",
-        "place-mcq-21"
+        "place-pdf-003",
+        "place-mcq-18"
       ],
       "explanation": "本句的「misplaces」指「把某物放錯／忘記位置，因而暫時找不到」。",
       "sentenceIndex": 1,
@@ -2683,12 +2433,10 @@ export default {
         "misplaces"
       ],
       "optionReasons": {
-        "place-mcq-24": "本句指「把某物放錯／忘記位置，因而暫時找不到」。",
-        "place-mcq-23": "「放置方式；亦可指實習／職位安排或級別分配」是「placement」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
-        "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。",
-        "place-mcq-26": "「讓另一人／物接替原有人／物的位置、角色或功能」是「replace」的用法，與本句語境不同。",
-        "place-mcq-21": "「沒有處於原本應在的位置」是「out of place — physical」的用法，與本句語境不同。"
+        "place-mcq-24": "本句的「misplaces」指「把某物放錯／忘記位置，因而暫時找不到」。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-24"
     },
@@ -2701,10 +2449,8 @@ export default {
       "options": [
         "place-mcq-25",
         "place-mcq-24",
-        "place-mcq-26",
-        "place-mcq-23",
-        "place-mcq-27",
-        "place-mcq-22"
+        "place-pdf-003",
+        "place-mcq-18"
       ],
       "explanation": "本句的「misplaced」指「信任、信心或情感給予了不值得／不適合的對象」。",
       "sentenceIndex": 0,
@@ -2713,12 +2459,10 @@ export default {
         "misplaced"
       ],
       "optionReasons": {
-        "place-mcq-25": "本句指「信任、信心或情感給予了不值得／不適合的對象」。",
-        "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
-        "place-mcq-26": "「讓另一人／物接替原有人／物的位置、角色或功能」是「replace」的用法，與本句語境不同。",
-        "place-mcq-23": "「放置方式；亦可指實習／職位安排或級別分配」是「placement」的用法，與本句語境不同。",
-        "place-mcq-27": "「用來接替原有人／物的替代品／接替者」是「replacement」的用法，與本句語境不同。",
-        "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。"
+        "place-mcq-25": "本句的「misplaced」指「信任、信心或情感給予了不值得／不適合的對象」。",
+        "place-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-25"
     },
@@ -2730,11 +2474,9 @@ export default {
       "masked": "She showed ____ loyalty to the company.",
       "options": [
         "place-mcq-25",
-        "place-mcq-24",
-        "place-mcq-26",
-        "place-mcq-23",
-        "place-mcq-27",
-        "place-mcq-22"
+        "place-pdf-001",
+        "place-mcq-18",
+        "place-mcq-27"
       ],
       "explanation": "本句的「misplaced」指「信任、信心或情感給予了不值得／不適合的對象」。",
       "sentenceIndex": 1,
@@ -2743,12 +2485,10 @@ export default {
         "misplaced"
       ],
       "optionReasons": {
-        "place-mcq-25": "本句指「信任、信心或情感給予了不值得／不適合的對象」。",
-        "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
-        "place-mcq-26": "「讓另一人／物接替原有人／物的位置、角色或功能」是「replace」的用法，與本句語境不同。",
-        "place-mcq-23": "「放置方式；亦可指實習／職位安排或級別分配」是「placement」的用法，與本句語境不同。",
-        "place-mcq-27": "「用來接替原有人／物的替代品／接替者」是「replacement」的用法，與本句語境不同。",
-        "place-mcq-22": "「與周圍環境／場合不協調、不合適或格格不入」是「out of place — figurative」的用法，與本句語境不同。"
+        "place-mcq-25": "本句的「misplaced」指「信任、信心或情感給予了不值得／不適合的對象」。",
+        "place-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-25"
     },
@@ -2760,11 +2500,9 @@ export default {
       "masked": "We need to ____ the old battery.",
       "options": [
         "place-mcq-26",
-        "place-mcq-25",
-        "place-mcq-27",
-        "place-mcq-24",
-        "place-mcq-28",
-        "place-mcq-23"
+        "place-mcq-16",
+        "place-pdf-003",
+        "place-mcq-25"
       ],
       "explanation": "本句的「replace」指「讓另一人／物接替原有人／物的位置、角色或功能」。",
       "sentenceIndex": 0,
@@ -2773,12 +2511,10 @@ export default {
         "replace"
       ],
       "optionReasons": {
-        "place-mcq-26": "本句指「讓另一人／物接替原有人／物的位置、角色或功能」。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
-        "place-mcq-27": "「用來接替原有人／物的替代品／接替者」是「replacement」的用法，與本句語境不同。",
-        "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
-        "place-mcq-28": "「使某人／某物被迫離開原有位置、住所或角色」是「displace」的用法，與本句語境不同。",
-        "place-mcq-23": "「放置方式；亦可指實習／職位安排或級別分配」是「placement」的用法，與本句語境不同。"
+        "place-mcq-26": "本句的「replace」指「讓另一人／物接替原有人／物的位置、角色或功能」。",
+        "place-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-26"
     },
@@ -2790,11 +2526,9 @@ export default {
       "masked": "Machines cannot completely ____ human judgment.",
       "options": [
         "place-mcq-26",
-        "place-mcq-25",
-        "place-mcq-27",
-        "place-mcq-24",
-        "place-mcq-28",
-        "place-mcq-23"
+        "place-mcq-13",
+        "place-mcq-20",
+        "place-mcq-22"
       ],
       "explanation": "本句的「replace」指「讓另一人／物接替原有人／物的位置、角色或功能」。",
       "sentenceIndex": 1,
@@ -2803,12 +2537,10 @@ export default {
         "replace"
       ],
       "optionReasons": {
-        "place-mcq-26": "本句指「讓另一人／物接替原有人／物的位置、角色或功能」。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
-        "place-mcq-27": "「用來接替原有人／物的替代品／接替者」是「replacement」的用法，與本句語境不同。",
-        "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。",
-        "place-mcq-28": "「使某人／某物被迫離開原有位置、住所或角色」是「displace」的用法，與本句語境不同。",
-        "place-mcq-23": "「放置方式；亦可指實習／職位安排或級別分配」是「placement」的用法，與本句語境不同。"
+        "place-mcq-26": "本句的「replace」指「讓另一人／物接替原有人／物的位置、角色或功能」。",
+        "place-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-26"
     },
@@ -2820,11 +2552,9 @@ export default {
       "masked": "The company sent a ____ product.",
       "options": [
         "place-mcq-27",
-        "place-mcq-26",
-        "place-mcq-28",
-        "place-mcq-25",
-        "place-mcq-29",
-        "place-mcq-24"
+        "place-mcq-03",
+        "place-mcq-06",
+        "place-mcq-13"
       ],
       "explanation": "本句的「replacement」指「用來接替原有人／物的替代品／接替者」。",
       "sentenceIndex": 0,
@@ -2833,12 +2563,10 @@ export default {
         "replacement"
       ],
       "optionReasons": {
-        "place-mcq-27": "本句指「用來接替原有人／物的替代品／接替者」。",
-        "place-mcq-26": "「讓另一人／物接替原有人／物的位置、角色或功能」是「replace」的用法，與本句語境不同。",
-        "place-mcq-28": "「使某人／某物被迫離開原有位置、住所或角色」是「displace」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
-        "place-mcq-29": "「某人／某物離開原位置的過程／程度；可指位移或流離失所」是「displacement」的用法，與本句語境不同。",
-        "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。"
+        "place-mcq-27": "本句的「replacement」指「用來接替原有人／物的替代品／接替者」。",
+        "place-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-27"
     },
@@ -2850,11 +2578,9 @@ export default {
       "masked": "They are looking for a ____ for the manager.",
       "options": [
         "place-mcq-27",
-        "place-mcq-26",
-        "place-mcq-28",
         "place-mcq-25",
-        "place-mcq-29",
-        "place-mcq-24"
+        "place-mcq-08",
+        "place-mcq-07"
       ],
       "explanation": "本句的「replacement」指「用來接替原有人／物的替代品／接替者」。",
       "sentenceIndex": 1,
@@ -2863,12 +2589,10 @@ export default {
         "replacement"
       ],
       "optionReasons": {
-        "place-mcq-27": "本句指「用來接替原有人／物的替代品／接替者」。",
-        "place-mcq-26": "「讓另一人／物接替原有人／物的位置、角色或功能」是「replace」的用法，與本句語境不同。",
-        "place-mcq-28": "「使某人／某物被迫離開原有位置、住所或角色」是「displace」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。",
-        "place-mcq-29": "「某人／某物離開原位置的過程／程度；可指位移或流離失所」是「displacement」的用法，與本句語境不同。",
-        "place-mcq-24": "「把某物放錯／忘記位置，因而暫時找不到」是「misplace」的用法，與本句語境不同。"
+        "place-mcq-27": "本句的「replacement」指「用來接替原有人／物的替代品／接替者」。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-27"
     },
@@ -2880,10 +2604,8 @@ export default {
       "masked": "The impact ____ several parts of the machine.",
       "options": [
         "place-mcq-28",
-        "place-mcq-27",
-        "place-mcq-29",
-        "place-mcq-26",
-        "place-mcq-30",
+        "place-mcq-13",
+        "place-mcq-20",
         "place-mcq-25"
       ],
       "explanation": "本句的「displaced」指「使某人／某物被迫離開原有位置、住所或角色」。",
@@ -2893,12 +2615,10 @@ export default {
         "displaced"
       ],
       "optionReasons": {
-        "place-mcq-28": "本句指「使某人／某物被迫離開原有位置、住所或角色」。",
-        "place-mcq-27": "「用來接替原有人／物的替代品／接替者」是「replacement」的用法，與本句語境不同。",
-        "place-mcq-29": "「某人／某物離開原位置的過程／程度；可指位移或流離失所」是「displacement」的用法，與本句語境不同。",
-        "place-mcq-26": "「讓另一人／物接替原有人／物的位置、角色或功能」是「replace」的用法，與本句語境不同。",
-        "place-mcq-30": "「知道自己在社會／組織中的位置；若直接用來命令人，常帶貶低或階級意味」是「27. know your place = know your social/organizational position — 知道自己的身分／位置」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。"
+        "place-mcq-28": "本句的「displaced」指「使某人／某物被迫離開原有位置、住所或角色」。",
+        "place-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-28"
     },
@@ -2910,11 +2630,9 @@ export default {
       "masked": "The conflict ____ thousands of families.",
       "options": [
         "place-mcq-28",
-        "place-mcq-27",
-        "place-mcq-29",
-        "place-mcq-26",
-        "place-mcq-30",
-        "place-mcq-25"
+        "place-mcq-14",
+        "place-mcq-20",
+        "place-mcq-22"
       ],
       "explanation": "本句的「displaced」指「使某人／某物被迫離開原有位置、住所或角色」。",
       "sentenceIndex": 1,
@@ -2923,12 +2641,10 @@ export default {
         "displaced"
       ],
       "optionReasons": {
-        "place-mcq-28": "本句指「使某人／某物被迫離開原有位置、住所或角色」。",
-        "place-mcq-27": "「用來接替原有人／物的替代品／接替者」是「replacement」的用法，與本句語境不同。",
-        "place-mcq-29": "「某人／某物離開原位置的過程／程度；可指位移或流離失所」是「displacement」的用法，與本句語境不同。",
-        "place-mcq-26": "「讓另一人／物接替原有人／物的位置、角色或功能」是「replace」的用法，與本句語境不同。",
-        "place-mcq-30": "「知道自己在社會／組織中的位置；若直接用來命令人，常帶貶低或階級意味」是「27. know your place = know your social/organizational position — 知道自己的身分／位置」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。"
+        "place-mcq-28": "本句的「displaced」指「使某人／某物被迫離開原有位置、住所或角色」。",
+        "place-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-28"
     },
@@ -2940,11 +2656,9 @@ export default {
       "masked": "The earthquake caused major population ____.",
       "options": [
         "place-mcq-29",
-        "place-mcq-28",
-        "place-mcq-30",
-        "place-mcq-27",
-        "place-mcq-26",
-        "place-mcq-25"
+        "place-mcq-14",
+        "place-mcq-18",
+        "place-mcq-17"
       ],
       "explanation": "本句的「displacement」指「某人／某物離開原位置的過程／程度；可指位移或流離失所」。",
       "sentenceIndex": 0,
@@ -2953,12 +2667,10 @@ export default {
         "displacement"
       ],
       "optionReasons": {
-        "place-mcq-29": "本句指「某人／某物離開原位置的過程／程度；可指位移或流離失所」。",
-        "place-mcq-28": "「使某人／某物被迫離開原有位置、住所或角色」是「displace」的用法，與本句語境不同。",
-        "place-mcq-30": "「知道自己在社會／組織中的位置；若直接用來命令人，常帶貶低或階級意味」是「27. know your place = know your social/organizational position — 知道自己的身分／位置」的用法，與本句語境不同。",
-        "place-mcq-27": "「用來接替原有人／物的替代品／接替者」是「replacement」的用法，與本句語境不同。",
-        "place-mcq-26": "「讓另一人／物接替原有人／物的位置、角色或功能」是「replace」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。"
+        "place-mcq-29": "本句的「displacement」指「某人／某物離開原位置的過程／程度；可指位移或流離失所」。",
+        "place-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-29"
     },
@@ -2970,11 +2682,9 @@ export default {
       "masked": "Engineers measured the ____ of the structure.",
       "options": [
         "place-mcq-29",
-        "place-mcq-28",
-        "place-mcq-30",
-        "place-mcq-27",
-        "place-mcq-26",
-        "place-mcq-25"
+        "place-mcq-22",
+        "place-pdf-003",
+        "place-mcq-12"
       ],
       "explanation": "本句的「displacement」指「某人／某物離開原位置的過程／程度；可指位移或流離失所」。",
       "sentenceIndex": 1,
@@ -2983,12 +2693,10 @@ export default {
         "displacement"
       ],
       "optionReasons": {
-        "place-mcq-29": "本句指「某人／某物離開原位置的過程／程度；可指位移或流離失所」。",
-        "place-mcq-28": "「使某人／某物被迫離開原有位置、住所或角色」是「displace」的用法，與本句語境不同。",
-        "place-mcq-30": "「知道自己在社會／組織中的位置；若直接用來命令人，常帶貶低或階級意味」是「27. know your place = know your social/organizational position — 知道自己的身分／位置」的用法，與本句語境不同。",
-        "place-mcq-27": "「用來接替原有人／物的替代品／接替者」是「replacement」的用法，與本句語境不同。",
-        "place-mcq-26": "「讓另一人／物接替原有人／物的位置、角色或功能」是「replace」的用法，與本句語境不同。",
-        "place-mcq-25": "「信任、信心或情感給予了不值得／不適合的對象」是「misplaced — figurative」的用法，與本句語境不同。"
+        "place-mcq-29": "本句的「displacement」指「某人／某物離開原位置的過程／程度；可指位移或流離失所」。",
+        "place-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "place-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "place-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "place-mcq-29"
     }
@@ -3001,5 +2709,7 @@ export default {
     "pages": 25,
     "sha256": "6a9774fa0acde044b4da953c2b83a11548d74eeff392604a5da2e4ff04fceb3e"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

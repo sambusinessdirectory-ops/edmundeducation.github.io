@@ -746,11 +746,8 @@ export default {
       "masked": "I gave a ____ in English at a company event.",
       "options": [
         "formal-mcq-01",
-        "formal-mcq-02",
-        "formal-mcq-03",
-        "formal-mcq-04",
-        "formal-mcq-05",
-        "formal-mcq-06"
+        "formal-mcq-18",
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formal presentation」指「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」。",
       "sentenceIndex": 0,
@@ -759,12 +756,9 @@ export default {
         "formal presentation"
       ],
       "optionReasons": {
-        "formal-mcq-01": "本句指「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」。",
-        "formal-mcq-02": "「經機構、組織或權責人士按照正式程序確認、批准或公布的」是「formal — officially recognized」的用法，與本句語境不同。",
-        "formal-mcq-03": "「按照既定制度正式記錄、提出或發出的投訴、要求或警告」是「formal complaint/request/warning」的用法，與本句語境不同。",
-        "formal-mcq-04": "「經正式程序確立、通常有明確條款或制度／法律效力的協議」是「formal agreement/contract」的用法，與本句語境不同。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。"
+        "formal-mcq-01": "本句的「formal presentation」指「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」。",
+        "formal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-01"
     },
@@ -776,11 +770,9 @@ export default {
       "masked": "The managers held a ____ to discuss the issue.",
       "options": [
         "formal-mcq-01",
-        "formal-mcq-02",
-        "formal-mcq-03",
-        "formal-mcq-04",
-        "formal-mcq-05",
-        "formal-mcq-06"
+        "formal-mcq-21",
+        "formal-mcq-25",
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formal meeting」指「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」。",
       "sentenceIndex": 1,
@@ -789,12 +781,10 @@ export default {
         "formal meeting"
       ],
       "optionReasons": {
-        "formal-mcq-01": "本句指「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」。",
-        "formal-mcq-02": "「經機構、組織或權責人士按照正式程序確認、批准或公布的」是「formal — officially recognized」的用法，與本句語境不同。",
-        "formal-mcq-03": "「按照既定制度正式記錄、提出或發出的投訴、要求或警告」是「formal complaint/request/warning」的用法，與本句語境不同。",
-        "formal-mcq-04": "「經正式程序確立、通常有明確條款或制度／法律效力的協議」是「formal agreement/contract」的用法，與本句語境不同。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。"
+        "formal-mcq-01": "本句的「formal meeting」指「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」。",
+        "formal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-01"
     },
@@ -806,11 +796,9 @@ export default {
       "masked": "The award ceremony was a ____.",
       "options": [
         "formal-mcq-01",
-        "formal-mcq-02",
-        "formal-mcq-03",
-        "formal-mcq-04",
-        "formal-mcq-05",
-        "formal-mcq-06"
+        "formal-mcq-25",
+        "formal-mcq-21",
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formal event」指「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」。",
       "sentenceIndex": 2,
@@ -819,12 +807,10 @@ export default {
         "formal event"
       ],
       "optionReasons": {
-        "formal-mcq-01": "本句指「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」。",
-        "formal-mcq-02": "「經機構、組織或權責人士按照正式程序確認、批准或公布的」是「formal — officially recognized」的用法，與本句語境不同。",
-        "formal-mcq-03": "「按照既定制度正式記錄、提出或發出的投訴、要求或警告」是「formal complaint/request/warning」的用法，與本句語境不同。",
-        "formal-mcq-04": "「經正式程序確立、通常有明確條款或制度／法律效力的協議」是「formal agreement/contract」的用法，與本句語境不同。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。"
+        "formal-mcq-01": "本句的「formal event」指「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-01"
     },
@@ -836,11 +822,9 @@ export default {
       "masked": "We are waiting for ____ from senior management.",
       "options": [
         "formal-mcq-02",
-        "formal-mcq-01",
-        "formal-mcq-03",
-        "formal-mcq-04",
-        "formal-mcq-05",
-        "formal-mcq-06"
+        "formal-mcq-31",
+        "formal-mcq-11",
+        "formal-pdf-001"
       ],
       "explanation": "本句的「formal approval」指「經機構、組織或權責人士按照正式程序確認、批准或公布的」。",
       "sentenceIndex": 3,
@@ -849,12 +833,10 @@ export default {
         "formal approval"
       ],
       "optionReasons": {
-        "formal-mcq-02": "本句指「經機構、組織或權責人士按照正式程序確認、批准或公布的」。",
-        "formal-mcq-01": "「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」是「formal presentation/event/meeting」的用法，與本句語境不同。",
-        "formal-mcq-03": "「按照既定制度正式記錄、提出或發出的投訴、要求或警告」是「formal complaint/request/warning」的用法，與本句語境不同。",
-        "formal-mcq-04": "「經正式程序確立、通常有明確條款或制度／法律效力的協議」是「formal agreement/contract」的用法，與本句語境不同。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。"
+        "formal-mcq-02": "本句的「formal approval」指「經機構、組織或權責人士按照正式程序確認、批准或公布的」。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "formal-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-02"
     },
@@ -866,11 +848,9 @@ export default {
       "masked": "The company made a ____ about the change.",
       "options": [
         "formal-mcq-02",
-        "formal-mcq-01",
-        "formal-mcq-03",
-        "formal-mcq-04",
-        "formal-mcq-05",
-        "formal-mcq-06"
+        "formal-mcq-31",
+        "formal-mcq-08",
+        "formal-mcq-21"
       ],
       "explanation": "本句的「formal announcement」指「經機構、組織或權責人士按照正式程序確認、批准或公布的」。",
       "sentenceIndex": 4,
@@ -879,12 +859,10 @@ export default {
         "formal announcement"
       ],
       "optionReasons": {
-        "formal-mcq-02": "本句指「經機構、組織或權責人士按照正式程序確認、批准或公布的」。",
-        "formal-mcq-01": "「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」是「formal presentation/event/meeting」的用法，與本句語境不同。",
-        "formal-mcq-03": "「按照既定制度正式記錄、提出或發出的投訴、要求或警告」是「formal complaint/request/warning」的用法，與本句語境不同。",
-        "formal-mcq-04": "「經正式程序確立、通常有明確條款或制度／法律效力的協議」是「formal agreement/contract」的用法，與本句語境不同。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。"
+        "formal-mcq-02": "本句的「formal announcement」指「經機構、組織或權責人士按照正式程序確認、批准或公布的」。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-02"
     },
@@ -896,11 +874,9 @@ export default {
       "masked": "She submitted a ____ to human resources.",
       "options": [
         "formal-mcq-03",
-        "formal-mcq-02",
-        "formal-mcq-04",
-        "formal-mcq-01",
-        "formal-mcq-05",
-        "formal-mcq-06"
+        "formal-mcq-11",
+        "formal-mcq-31",
+        "formal-mcq-20"
       ],
       "explanation": "本句的「formal complaint」指「按照既定制度正式記錄、提出或發出的投訴、要求或警告」。",
       "sentenceIndex": 5,
@@ -909,12 +885,10 @@ export default {
         "formal complaint"
       ],
       "optionReasons": {
-        "formal-mcq-03": "本句指「按照既定制度正式記錄、提出或發出的投訴、要求或警告」。",
-        "formal-mcq-02": "「經機構、組織或權責人士按照正式程序確認、批准或公布的」是「formal — officially recognized」的用法，與本句語境不同。",
-        "formal-mcq-04": "「經正式程序確立、通常有明確條款或制度／法律效力的協議」是「formal agreement/contract」的用法，與本句語境不同。",
-        "formal-mcq-01": "「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」是「formal presentation/event/meeting」的用法，與本句語境不同。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。"
+        "formal-mcq-03": "本句的「formal complaint」指「按照既定制度正式記錄、提出或發出的投訴、要求或警告」。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-03"
     },
@@ -926,11 +900,9 @@ export default {
       "masked": "The employee received a ____.",
       "options": [
         "formal-mcq-03",
-        "formal-mcq-02",
-        "formal-mcq-04",
-        "formal-mcq-01",
-        "formal-mcq-05",
-        "formal-mcq-06"
+        "formal-mcq-06",
+        "formal-mcq-11",
+        "formal-mcq-20"
       ],
       "explanation": "本句的「formal warning」指「按照既定制度正式記錄、提出或發出的投訴、要求或警告」。",
       "sentenceIndex": 6,
@@ -939,12 +911,10 @@ export default {
         "formal warning"
       ],
       "optionReasons": {
-        "formal-mcq-03": "本句指「按照既定制度正式記錄、提出或發出的投訴、要求或警告」。",
-        "formal-mcq-02": "「經機構、組織或權責人士按照正式程序確認、批准或公布的」是「formal — officially recognized」的用法，與本句語境不同。",
-        "formal-mcq-04": "「經正式程序確立、通常有明確條款或制度／法律效力的協議」是「formal agreement/contract」的用法，與本句語境不同。",
-        "formal-mcq-01": "「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」是「formal presentation/event/meeting」的用法，與本句語境不同。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。"
+        "formal-mcq-03": "本句的「formal warning」指「按照既定制度正式記錄、提出或發出的投訴、要求或警告」。",
+        "formal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-03"
     },
@@ -956,11 +926,9 @@ export default {
       "masked": "The two companies signed a ____.",
       "options": [
         "formal-mcq-04",
-        "formal-mcq-03",
-        "formal-mcq-05",
-        "formal-mcq-02",
+        "formal-mcq-20",
         "formal-mcq-06",
-        "formal-mcq-01"
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formal agreement」指「經正式程序確立、通常有明確條款或制度／法律效力的協議」。",
       "sentenceIndex": 7,
@@ -969,12 +937,10 @@ export default {
         "formal agreement"
       ],
       "optionReasons": {
-        "formal-mcq-04": "本句指「經正式程序確立、通常有明確條款或制度／法律效力的協議」。",
-        "formal-mcq-03": "「按照既定制度正式記錄、提出或發出的投訴、要求或警告」是「formal complaint/request/warning」的用法，與本句語境不同。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。",
-        "formal-mcq-02": "「經機構、組織或權責人士按照正式程序確認、批准或公布的」是「formal — officially recognized」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。",
-        "formal-mcq-01": "「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」是「formal presentation/event/meeting」的用法，與本句語境不同。"
+        "formal-mcq-04": "本句的「formal agreement」指「經正式程序確立、通常有明確條款或制度／法律效力的協議」。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-04"
     },
@@ -986,11 +952,9 @@ export default {
       "masked": "There was no ____ between them.",
       "options": [
         "formal-mcq-04",
-        "formal-mcq-03",
-        "formal-mcq-05",
-        "formal-mcq-02",
         "formal-mcq-06",
-        "formal-mcq-01"
+        "formal-mcq-20",
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formal contract」指「經正式程序確立、通常有明確條款或制度／法律效力的協議」。",
       "sentenceIndex": 8,
@@ -999,12 +963,10 @@ export default {
         "formal contract"
       ],
       "optionReasons": {
-        "formal-mcq-04": "本句指「經正式程序確立、通常有明確條款或制度／法律效力的協議」。",
-        "formal-mcq-03": "「按照既定制度正式記錄、提出或發出的投訴、要求或警告」是「formal complaint/request/warning」的用法，與本句語境不同。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。",
-        "formal-mcq-02": "「經機構、組織或權責人士按照正式程序確認、批准或公布的」是「formal — officially recognized」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。",
-        "formal-mcq-01": "「按照正式場合的規範，以有組織、較嚴謹和專業方式進行，而不是輕鬆隨意的」是「formal presentation/event/meeting」的用法，與本句語境不同。"
+        "formal-mcq-04": "本句的「formal contract」指「經正式程序確立、通常有明確條款或制度／法律效力的協議」。",
+        "formal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-04"
     },
@@ -1016,11 +978,9 @@ export default {
       "masked": "You must follow the ____ for making an appeal.",
       "options": [
         "formal-mcq-05",
-        "formal-mcq-04",
-        "formal-mcq-06",
-        "formal-mcq-03",
-        "formal-mcq-07",
-        "formal-mcq-02"
+        "formal-mcq-31",
+        "formal-mcq-08",
+        "formal-mcq-25"
       ],
       "explanation": "本句的「formal procedure」指「按照機構預先訂立的正式規則和步驟進行的」。",
       "sentenceIndex": 9,
@@ -1029,12 +989,10 @@ export default {
         "formal procedure"
       ],
       "optionReasons": {
-        "formal-mcq-05": "本句指「按照機構預先訂立的正式規則和步驟進行的」。",
-        "formal-mcq-04": "「經正式程序確立、通常有明確條款或制度／法律效力的協議」是「formal agreement/contract」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。",
-        "formal-mcq-03": "「按照既定制度正式記錄、提出或發出的投訴、要求或警告」是「formal complaint/request/warning」的用法，與本句語境不同。",
-        "formal-mcq-07": "「適合學術、專業或官方用途的較嚴謹書面表達方式」是「formal writing」的用法，與本句語境不同。",
-        "formal-mcq-02": "「經機構、組織或權責人士按照正式程序確認、批准或公布的」是「formal — officially recognized」的用法，與本句語境不同。"
+        "formal-mcq-05": "本句的「formal procedure」指「按照機構預先訂立的正式規則和步驟進行的」。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-05"
     },
@@ -1046,11 +1004,9 @@ export default {
       "masked": "The matter will now go through a ____.",
       "options": [
         "formal-mcq-05",
-        "formal-mcq-04",
-        "formal-mcq-06",
-        "formal-mcq-03",
-        "formal-mcq-07",
-        "formal-mcq-02"
+        "formal-mcq-31",
+        "formal-mcq-08",
+        "formal-mcq-25"
       ],
       "explanation": "本句的「formal review process」指「按照機構預先訂立的正式規則和步驟進行的」。",
       "sentenceIndex": 10,
@@ -1059,12 +1015,10 @@ export default {
         "formal review process"
       ],
       "optionReasons": {
-        "formal-mcq-05": "本句指「按照機構預先訂立的正式規則和步驟進行的」。",
-        "formal-mcq-04": "「經正式程序確立、通常有明確條款或制度／法律效力的協議」是「formal agreement/contract」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。",
-        "formal-mcq-03": "「按照既定制度正式記錄、提出或發出的投訴、要求或警告」是「formal complaint/request/warning」的用法，與本句語境不同。",
-        "formal-mcq-07": "「適合學術、專業或官方用途的較嚴謹書面表達方式」是「formal writing」的用法，與本句語境不同。",
-        "formal-mcq-02": "「經機構、組織或權責人士按照正式程序確認、批准或公布的」是「formal — officially recognized」的用法，與本句語境不同。"
+        "formal-mcq-05": "本句的「formal review process」指「按照機構預先訂立的正式規則和步驟進行的」。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-05"
     },
@@ -1076,11 +1030,9 @@ export default {
       "masked": "The report should be written in ____.",
       "options": [
         "formal-mcq-06",
-        "formal-mcq-05",
-        "formal-mcq-07",
-        "formal-mcq-04",
-        "formal-mcq-08",
-        "formal-mcq-03"
+        "formal-mcq-24",
+        "formal-mcq-21",
+        "formal-mcq-20"
       ],
       "explanation": "本句的「formal English」指「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」。",
       "sentenceIndex": 11,
@@ -1089,12 +1041,10 @@ export default {
         "formal English"
       ],
       "optionReasons": {
-        "formal-mcq-06": "本句指「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。",
-        "formal-mcq-07": "「適合學術、專業或官方用途的較嚴謹書面表達方式」是「formal writing」的用法，與本句語境不同。",
-        "formal-mcq-04": "「經正式程序確立、通常有明確條款或制度／法律效力的協議」是「formal agreement/contract」的用法，與本句語境不同。",
-        "formal-mcq-08": "「語氣較莊重、有禮、克制而不隨意親密的」是「formal tone」的用法，與本句語境不同。",
-        "formal-mcq-03": "「按照既定制度正式記錄、提出或發出的投訴、要求或警告」是「formal complaint/request/warning」的用法，與本句語境不同。"
+        "formal-mcq-06": "本句的「formal English」指「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」。",
+        "formal-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-06"
     },
@@ -1106,11 +1056,9 @@ export default {
       "masked": "His email sounded too ____ for a close friend.",
       "options": [
         "formal-mcq-06",
-        "formal-mcq-05",
-        "formal-mcq-07",
-        "formal-mcq-04",
-        "formal-mcq-08",
-        "formal-mcq-03"
+        "formal-mcq-32",
+        "formal-mcq-20",
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formal」指「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」。",
       "sentenceIndex": 12,
@@ -1119,12 +1067,10 @@ export default {
         "formal"
       ],
       "optionReasons": {
-        "formal-mcq-06": "本句指「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。",
-        "formal-mcq-07": "「適合學術、專業或官方用途的較嚴謹書面表達方式」是「formal writing」的用法，與本句語境不同。",
-        "formal-mcq-04": "「經正式程序確立、通常有明確條款或制度／法律效力的協議」是「formal agreement/contract」的用法，與本句語境不同。",
-        "formal-mcq-08": "「語氣較莊重、有禮、克制而不隨意親密的」是「formal tone」的用法，與本句語境不同。",
-        "formal-mcq-03": "「按照既定制度正式記錄、提出或發出的投訴、要求或警告」是「formal complaint/request/warning」的用法，與本句語境不同。"
+        "formal-mcq-06": "本句的「formal」指「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」。",
+        "formal-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-06"
     },
@@ -1136,11 +1082,8 @@ export default {
       "masked": "Avoid slang in ____.",
       "options": [
         "formal-mcq-07",
-        "formal-mcq-06",
-        "formal-mcq-08",
-        "formal-mcq-05",
-        "formal-mcq-09",
-        "formal-mcq-04"
+        "formal-mcq-18",
+        "formal-mcq-12"
       ],
       "explanation": "本句的「formal writing」指「適合學術、專業或官方用途的較嚴謹書面表達方式」。",
       "sentenceIndex": 13,
@@ -1149,12 +1092,9 @@ export default {
         "formal writing"
       ],
       "optionReasons": {
-        "formal-mcq-07": "本句指「適合學術、專業或官方用途的較嚴謹書面表達方式」。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。",
-        "formal-mcq-08": "「語氣較莊重、有禮、克制而不隨意親密的」是「formal tone」的用法，與本句語境不同。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。",
-        "formal-mcq-09": "「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」是「formal dress」的用法，與本句語境不同。",
-        "formal-mcq-04": "「經正式程序確立、通常有明確條款或制度／法律效力的協議」是「formal agreement/contract」的用法，與本句語境不同。"
+        "formal-mcq-07": "本句的「formal writing」指「適合學術、專業或官方用途的較嚴謹書面表達方式」。",
+        "formal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-07"
     },
@@ -1166,11 +1106,9 @@ export default {
       "masked": "Contractions are sometimes avoided in very ____.",
       "options": [
         "formal-mcq-07",
-        "formal-mcq-06",
-        "formal-mcq-08",
-        "formal-mcq-05",
-        "formal-mcq-09",
-        "formal-mcq-04"
+        "formal-mcq-21",
+        "formal-mcq-02",
+        "formal-mcq-08"
       ],
       "explanation": "本句的「formal writing」指「適合學術、專業或官方用途的較嚴謹書面表達方式」。",
       "sentenceIndex": 14,
@@ -1179,12 +1117,10 @@ export default {
         "formal writing"
       ],
       "optionReasons": {
-        "formal-mcq-07": "本句指「適合學術、專業或官方用途的較嚴謹書面表達方式」。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。",
-        "formal-mcq-08": "「語氣較莊重、有禮、克制而不隨意親密的」是「formal tone」的用法，與本句語境不同。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。",
-        "formal-mcq-09": "「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」是「formal dress」的用法，與本句語境不同。",
-        "formal-mcq-04": "「經正式程序確立、通常有明確條款或制度／法律效力的協議」是「formal agreement/contract」的用法，與本句語境不同。"
+        "formal-mcq-07": "本句的「formal writing」指「適合學術、專業或官方用途的較嚴謹書面表達方式」。",
+        "formal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-07"
     },
@@ -1196,11 +1132,9 @@ export default {
       "masked": "She used a more ____ when speaking to the directors.",
       "options": [
         "formal-mcq-08",
-        "formal-mcq-07",
-        "formal-mcq-09",
-        "formal-mcq-06",
-        "formal-mcq-10",
-        "formal-mcq-05"
+        "formal-mcq-15",
+        "formal-mcq-21",
+        "formal-mcq-25"
       ],
       "explanation": "本句的「formal tone」指「語氣較莊重、有禮、克制而不隨意親密的」。",
       "sentenceIndex": 15,
@@ -1209,12 +1143,10 @@ export default {
         "formal tone"
       ],
       "optionReasons": {
-        "formal-mcq-08": "本句指「語氣較莊重、有禮、克制而不隨意親密的」。",
-        "formal-mcq-07": "「適合學術、專業或官方用途的較嚴謹書面表達方式」是「formal writing」的用法，與本句語境不同。",
-        "formal-mcq-09": "「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」是「formal dress」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。",
-        "formal-mcq-10": "「需要遵守較正式服裝、禮節或言行規範的場合」是「formal occasion」的用法，與本句語境不同。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。"
+        "formal-mcq-08": "本句的「formal tone」指「語氣較莊重、有禮、克制而不隨意親密的」。",
+        "formal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-08"
     },
@@ -1226,11 +1158,9 @@ export default {
       "masked": "The conversation became increasingly ____.",
       "options": [
         "formal-mcq-08",
-        "formal-mcq-07",
-        "formal-mcq-09",
-        "formal-mcq-06",
-        "formal-mcq-10",
-        "formal-mcq-05"
+        "formal-mcq-19",
+        "formal-mcq-27",
+        "formal-mcq-07"
       ],
       "explanation": "本句的「formal」指「語氣較莊重、有禮、克制而不隨意親密的」。",
       "sentenceIndex": 16,
@@ -1239,12 +1169,10 @@ export default {
         "formal"
       ],
       "optionReasons": {
-        "formal-mcq-08": "本句指「語氣較莊重、有禮、克制而不隨意親密的」。",
-        "formal-mcq-07": "「適合學術、專業或官方用途的較嚴謹書面表達方式」是「formal writing」的用法，與本句語境不同。",
-        "formal-mcq-09": "「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」是「formal dress」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。",
-        "formal-mcq-10": "「需要遵守較正式服裝、禮節或言行規範的場合」是「formal occasion」的用法，與本句語境不同。",
-        "formal-mcq-05": "「按照機構預先訂立的正式規則和步驟進行的」是「formal procedure/process」的用法，與本句語境不同。"
+        "formal-mcq-08": "本句的「formal」指「語氣較莊重、有禮、克制而不隨意親密的」。",
+        "formal-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-08"
     },
@@ -1256,11 +1184,9 @@ export default {
       "masked": "The invitation says ____ is required.",
       "options": [
         "formal-mcq-09",
-        "formal-mcq-08",
-        "formal-mcq-10",
-        "formal-mcq-07",
-        "formal-mcq-11",
-        "formal-mcq-06"
+        "formal-mcq-21",
+        "formal-mcq-20",
+        "formal-mcq-08"
       ],
       "explanation": "本句的「formal dress」指「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」。",
       "sentenceIndex": 17,
@@ -1269,12 +1195,10 @@ export default {
         "formal dress"
       ],
       "optionReasons": {
-        "formal-mcq-09": "本句指「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」。",
-        "formal-mcq-08": "「語氣較莊重、有禮、克制而不隨意親密的」是「formal tone」的用法，與本句語境不同。",
-        "formal-mcq-10": "「需要遵守較正式服裝、禮節或言行規範的場合」是「formal occasion」的用法，與本句語境不同。",
-        "formal-mcq-07": "「適合學術、專業或官方用途的較嚴謹書面表達方式」是「formal writing」的用法，與本句語境不同。",
-        "formal-mcq-11": "「遵守社交禮節、言行較拘謹而不隨便的」是「formal behaviour」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。"
+        "formal-mcq-09": "本句的「formal dress」指「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」。",
+        "formal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-09"
     },
@@ -1286,11 +1210,9 @@ export default {
       "masked": "He wore a dark suit to the ____.",
       "options": [
         "formal-mcq-09",
-        "formal-mcq-08",
-        "formal-mcq-10",
-        "formal-mcq-07",
-        "formal-mcq-11",
-        "formal-mcq-06"
+        "formal-mcq-20",
+        "formal-mcq-17",
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formal dinner」指「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」。",
       "sentenceIndex": 18,
@@ -1299,12 +1221,10 @@ export default {
         "formal dinner"
       ],
       "optionReasons": {
-        "formal-mcq-09": "本句指「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」。",
-        "formal-mcq-08": "「語氣較莊重、有禮、克制而不隨意親密的」是「formal tone」的用法，與本句語境不同。",
-        "formal-mcq-10": "「需要遵守較正式服裝、禮節或言行規範的場合」是「formal occasion」的用法，與本句語境不同。",
-        "formal-mcq-07": "「適合學術、專業或官方用途的較嚴謹書面表達方式」是「formal writing」的用法，與本句語境不同。",
-        "formal-mcq-11": "「遵守社交禮節、言行較拘謹而不隨便的」是「formal behaviour」的用法，與本句語境不同。",
-        "formal-mcq-06": "「用詞、句式及語氣適合專業、學術、官方或嚴肅場合，而不是口語隨意的」是「formal language/style」的用法，與本句語境不同。"
+        "formal-mcq-09": "本句的「formal dinner」指「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-09"
     },
@@ -1316,11 +1236,9 @@ export default {
       "masked": "A wedding can be a very ____.",
       "options": [
         "formal-mcq-10",
-        "formal-mcq-09",
-        "formal-mcq-11",
-        "formal-mcq-08",
-        "formal-mcq-12",
-        "formal-mcq-07"
+        "formal-mcq-21",
+        "formal-mcq-20",
+        "formal-mcq-08"
       ],
       "explanation": "本句的「formal occasion」指「需要遵守較正式服裝、禮節或言行規範的場合」。",
       "sentenceIndex": 19,
@@ -1329,12 +1247,10 @@ export default {
         "formal occasion"
       ],
       "optionReasons": {
-        "formal-mcq-10": "本句指「需要遵守較正式服裝、禮節或言行規範的場合」。",
-        "formal-mcq-09": "「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」是「formal dress」的用法，與本句語境不同。",
-        "formal-mcq-11": "「遵守社交禮節、言行較拘謹而不隨便的」是「formal behaviour」的用法，與本句語境不同。",
-        "formal-mcq-08": "「語氣較莊重、有禮、克制而不隨意親密的」是「formal tone」的用法，與本句語境不同。",
-        "formal-mcq-12": "「按角色及禮節互動，但較不親近、較不隨意的關係」是「formal relationship」的用法，與本句語境不同。",
-        "formal-mcq-07": "「適合學術、專業或官方用途的較嚴謹書面表達方式」是「formal writing」的用法，與本句語境不同。"
+        "formal-mcq-10": "本句的「formal occasion」指「需要遵守較正式服裝、禮節或言行規範的場合」。",
+        "formal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-10"
     },
@@ -1346,11 +1262,9 @@ export default {
       "masked": "This suit is suitable for ____.",
       "options": [
         "formal-mcq-10",
-        "formal-mcq-09",
-        "formal-mcq-11",
-        "formal-mcq-08",
-        "formal-mcq-12",
-        "formal-mcq-07"
+        "formal-mcq-18",
+        "formal-mcq-07",
+        "formal-mcq-08"
       ],
       "explanation": "本句的「formal occasions」指「需要遵守較正式服裝、禮節或言行規範的場合」。",
       "sentenceIndex": 20,
@@ -1359,12 +1273,10 @@ export default {
         "formal occasions"
       ],
       "optionReasons": {
-        "formal-mcq-10": "本句指「需要遵守較正式服裝、禮節或言行規範的場合」。",
-        "formal-mcq-09": "「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」是「formal dress」的用法，與本句語境不同。",
-        "formal-mcq-11": "「遵守社交禮節、言行較拘謹而不隨便的」是「formal behaviour」的用法，與本句語境不同。",
-        "formal-mcq-08": "「語氣較莊重、有禮、克制而不隨意親密的」是「formal tone」的用法，與本句語境不同。",
-        "formal-mcq-12": "「按角色及禮節互動，但較不親近、較不隨意的關係」是「formal relationship」的用法，與本句語境不同。",
-        "formal-mcq-07": "「適合學術、專業或官方用途的較嚴謹書面表達方式」是「formal writing」的用法，與本句語境不同。"
+        "formal-mcq-10": "本句的「formal occasions」指「需要遵守較正式服裝、禮節或言行規範的場合」。",
+        "formal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-10"
     },
@@ -1376,11 +1288,9 @@ export default {
       "masked": "He is quite ____ with people he has just met.",
       "options": [
         "formal-mcq-11",
-        "formal-mcq-10",
-        "formal-mcq-12",
-        "formal-mcq-09",
-        "formal-mcq-13",
-        "formal-mcq-08"
+        "formal-mcq-03",
+        "formal-mcq-20",
+        "formal-mcq-06"
       ],
       "explanation": "本句的「formal」指「遵守社交禮節、言行較拘謹而不隨便的」。",
       "sentenceIndex": 21,
@@ -1389,12 +1299,10 @@ export default {
         "formal"
       ],
       "optionReasons": {
-        "formal-mcq-11": "本句指「遵守社交禮節、言行較拘謹而不隨便的」。",
-        "formal-mcq-10": "「需要遵守較正式服裝、禮節或言行規範的場合」是「formal occasion」的用法，與本句語境不同。",
-        "formal-mcq-12": "「按角色及禮節互動，但較不親近、較不隨意的關係」是「formal relationship」的用法，與本句語境不同。",
-        "formal-mcq-09": "「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」是「formal dress」的用法，與本句語境不同。",
-        "formal-mcq-13": "「由學校、大學等認可教育機構按課程制度提供的正規教育」是「formal education」的用法，與本句語境不同。",
-        "formal-mcq-08": "「語氣較莊重、有禮、克制而不隨意親密的」是「formal tone」的用法，與本句語境不同。"
+        "formal-mcq-11": "本句的「formal」指「遵守社交禮節、言行較拘謹而不隨便的」。",
+        "formal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-11"
     },
@@ -1406,11 +1314,9 @@ export default {
       "masked": "Their relationship remained polite but ____.",
       "options": [
         "formal-mcq-11",
-        "formal-mcq-10",
-        "formal-mcq-12",
-        "formal-mcq-09",
-        "formal-mcq-13",
-        "formal-mcq-08"
+        "formal-mcq-32",
+        "formal-mcq-20",
+        "formal-mcq-06"
       ],
       "explanation": "本句的「formal」指「遵守社交禮節、言行較拘謹而不隨便的」。",
       "sentenceIndex": 22,
@@ -1419,12 +1325,10 @@ export default {
         "formal"
       ],
       "optionReasons": {
-        "formal-mcq-11": "本句指「遵守社交禮節、言行較拘謹而不隨便的」。",
-        "formal-mcq-10": "「需要遵守較正式服裝、禮節或言行規範的場合」是「formal occasion」的用法，與本句語境不同。",
-        "formal-mcq-12": "「按角色及禮節互動，但較不親近、較不隨意的關係」是「formal relationship」的用法，與本句語境不同。",
-        "formal-mcq-09": "「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」是「formal dress」的用法，與本句語境不同。",
-        "formal-mcq-13": "「由學校、大學等認可教育機構按課程制度提供的正規教育」是「formal education」的用法，與本句語境不同。",
-        "formal-mcq-08": "「語氣較莊重、有禮、克制而不隨意親密的」是「formal tone」的用法，與本句語境不同。"
+        "formal-mcq-11": "本句的「formal」指「遵守社交禮節、言行較拘謹而不隨便的」。",
+        "formal-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-11"
     },
@@ -1436,11 +1340,9 @@ export default {
       "masked": "Their working relationship was professional and ____.",
       "options": [
         "formal-mcq-12",
-        "formal-mcq-11",
-        "formal-mcq-13",
-        "formal-mcq-10",
-        "formal-mcq-14",
-        "formal-mcq-09"
+        "formal-mcq-20",
+        "formal-mcq-04",
+        "formal-mcq-31"
       ],
       "explanation": "本句的「formal」指「按角色及禮節互動，但較不親近、較不隨意的關係」。",
       "sentenceIndex": 23,
@@ -1449,12 +1351,10 @@ export default {
         "formal"
       ],
       "optionReasons": {
-        "formal-mcq-12": "本句指「按角色及禮節互動，但較不親近、較不隨意的關係」。",
-        "formal-mcq-11": "「遵守社交禮節、言行較拘謹而不隨便的」是「formal behaviour」的用法，與本句語境不同。",
-        "formal-mcq-13": "「由學校、大學等認可教育機構按課程制度提供的正規教育」是「formal education」的用法，與本句語境不同。",
-        "formal-mcq-10": "「需要遵守較正式服裝、禮節或言行規範的場合」是「formal occasion」的用法，與本句語境不同。",
-        "formal-mcq-14": "「按有組織的課程、標準或專業制度進行的正規訓練」是「formal training」的用法，與本句語境不同。",
-        "formal-mcq-09": "「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」是「formal dress」的用法，與本句語境不同。"
+        "formal-mcq-12": "本句的「formal」指「按角色及禮節互動，但較不親近、較不隨意的關係」。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-12"
     },
@@ -1466,11 +1366,9 @@ export default {
       "masked": "He maintains a ____ with his former manager.",
       "options": [
         "formal-mcq-12",
-        "formal-mcq-11",
-        "formal-mcq-13",
-        "formal-mcq-10",
-        "formal-mcq-14",
-        "formal-mcq-09"
+        "formal-mcq-21",
+        "formal-mcq-15",
+        "formal-mcq-25"
       ],
       "explanation": "本句的「formal relationship」指「按角色及禮節互動，但較不親近、較不隨意的關係」。",
       "sentenceIndex": 24,
@@ -1479,12 +1377,10 @@ export default {
         "formal relationship"
       ],
       "optionReasons": {
-        "formal-mcq-12": "本句指「按角色及禮節互動，但較不親近、較不隨意的關係」。",
-        "formal-mcq-11": "「遵守社交禮節、言行較拘謹而不隨便的」是「formal behaviour」的用法，與本句語境不同。",
-        "formal-mcq-13": "「由學校、大學等認可教育機構按課程制度提供的正規教育」是「formal education」的用法，與本句語境不同。",
-        "formal-mcq-10": "「需要遵守較正式服裝、禮節或言行規範的場合」是「formal occasion」的用法，與本句語境不同。",
-        "formal-mcq-14": "「按有組織的課程、標準或專業制度進行的正規訓練」是「formal training」的用法，與本句語境不同。",
-        "formal-mcq-09": "「適合婚禮、晚宴、頒獎禮等正式場合穿著的服裝」是「formal dress」的用法，與本句語境不同。"
+        "formal-mcq-12": "本句的「formal relationship」指「按角色及禮節互動，但較不親近、較不隨意的關係」。",
+        "formal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-12"
     },
@@ -1496,11 +1392,9 @@ export default {
       "masked": "She received very little ____.",
       "options": [
         "formal-mcq-13",
-        "formal-mcq-12",
-        "formal-mcq-14",
+        "formal-mcq-31",
         "formal-mcq-11",
-        "formal-mcq-15",
-        "formal-mcq-10"
+        "formal-mcq-25"
       ],
       "explanation": "本句的「formal education」指「由學校、大學等認可教育機構按課程制度提供的正規教育」。",
       "sentenceIndex": 25,
@@ -1509,12 +1403,10 @@ export default {
         "formal education"
       ],
       "optionReasons": {
-        "formal-mcq-13": "本句指「由學校、大學等認可教育機構按課程制度提供的正規教育」。",
-        "formal-mcq-12": "「按角色及禮節互動，但較不親近、較不隨意的關係」是「formal relationship」的用法，與本句語境不同。",
-        "formal-mcq-14": "「按有組織的課程、標準或專業制度進行的正規訓練」是「formal training」的用法，與本句語境不同。",
-        "formal-mcq-11": "「遵守社交禮節、言行較拘謹而不隨便的」是「formal behaviour」的用法，與本句語境不同。",
-        "formal-mcq-15": "「由認可機構正式頒發、證明教育或專業水平的資格／學歷」是「formal qualification」的用法，與本句語境不同。",
-        "formal-mcq-10": "「需要遵守較正式服裝、禮節或言行規範的場合」是「formal occasion」的用法，與本句語境不同。"
+        "formal-mcq-13": "本句的「formal education」指「由學校、大學等認可教育機構按課程制度提供的正規教育」。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-13"
     },
@@ -1526,11 +1418,9 @@ export default {
       "masked": "Much of his knowledge came from experience rather than ____.",
       "options": [
         "formal-mcq-13",
-        "formal-mcq-12",
-        "formal-mcq-14",
         "formal-mcq-11",
-        "formal-mcq-15",
-        "formal-mcq-10"
+        "formal-mcq-31",
+        "formal-mcq-25"
       ],
       "explanation": "本句的「formal education」指「由學校、大學等認可教育機構按課程制度提供的正規教育」。",
       "sentenceIndex": 26,
@@ -1539,12 +1429,10 @@ export default {
         "formal education"
       ],
       "optionReasons": {
-        "formal-mcq-13": "本句指「由學校、大學等認可教育機構按課程制度提供的正規教育」。",
-        "formal-mcq-12": "「按角色及禮節互動，但較不親近、較不隨意的關係」是「formal relationship」的用法，與本句語境不同。",
-        "formal-mcq-14": "「按有組織的課程、標準或專業制度進行的正規訓練」是「formal training」的用法，與本句語境不同。",
-        "formal-mcq-11": "「遵守社交禮節、言行較拘謹而不隨便的」是「formal behaviour」的用法，與本句語境不同。",
-        "formal-mcq-15": "「由認可機構正式頒發、證明教育或專業水平的資格／學歷」是「formal qualification」的用法，與本句語境不同。",
-        "formal-mcq-10": "「需要遵守較正式服裝、禮節或言行規範的場合」是「formal occasion」的用法，與本句語境不同。"
+        "formal-mcq-13": "本句的「formal education」指「由學校、大學等認可教育機構按課程制度提供的正規教育」。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-13"
     },
@@ -1556,11 +1444,9 @@ export default {
       "masked": "She had no ____ in public speaking.",
       "options": [
         "formal-mcq-14",
-        "formal-mcq-13",
-        "formal-mcq-15",
+        "formal-mcq-31",
         "formal-mcq-12",
-        "formal-mcq-16",
-        "formal-mcq-11"
+        "formal-mcq-25"
       ],
       "explanation": "本句的「formal training」指「按有組織的課程、標準或專業制度進行的正規訓練」。",
       "sentenceIndex": 27,
@@ -1569,12 +1455,10 @@ export default {
         "formal training"
       ],
       "optionReasons": {
-        "formal-mcq-14": "本句指「按有組織的課程、標準或專業制度進行的正規訓練」。",
-        "formal-mcq-13": "「由學校、大學等認可教育機構按課程制度提供的正規教育」是「formal education」的用法，與本句語境不同。",
-        "formal-mcq-15": "「由認可機構正式頒發、證明教育或專業水平的資格／學歷」是「formal qualification」的用法，與本句語境不同。",
-        "formal-mcq-12": "「按角色及禮節互動，但較不親近、較不隨意的關係」是「formal relationship」的用法，與本句語境不同。",
-        "formal-mcq-16": "「角色、權責、層級和規則被清楚訂立的正式架構」是「formal structure/organization」的用法，與本句語境不同。",
-        "formal-mcq-11": "「遵守社交禮節、言行較拘謹而不隨便的」是「formal behaviour」的用法，與本句語境不同。"
+        "formal-mcq-14": "本句的「formal training」指「按有組織的課程、標準或專業制度進行的正規訓練」。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-14"
     },
@@ -1586,11 +1470,9 @@ export default {
       "masked": "Most employees receive ____ before using the equipment.",
       "options": [
         "formal-mcq-14",
-        "formal-mcq-13",
-        "formal-mcq-15",
-        "formal-mcq-12",
-        "formal-mcq-16",
-        "formal-mcq-11"
+        "formal-mcq-31",
+        "formal-mcq-08",
+        "formal-mcq-24"
       ],
       "explanation": "本句的「formal training」指「按有組織的課程、標準或專業制度進行的正規訓練」。",
       "sentenceIndex": 28,
@@ -1599,12 +1481,10 @@ export default {
         "formal training"
       ],
       "optionReasons": {
-        "formal-mcq-14": "本句指「按有組織的課程、標準或專業制度進行的正規訓練」。",
-        "formal-mcq-13": "「由學校、大學等認可教育機構按課程制度提供的正規教育」是「formal education」的用法，與本句語境不同。",
-        "formal-mcq-15": "「由認可機構正式頒發、證明教育或專業水平的資格／學歷」是「formal qualification」的用法，與本句語境不同。",
-        "formal-mcq-12": "「按角色及禮節互動，但較不親近、較不隨意的關係」是「formal relationship」的用法，與本句語境不同。",
-        "formal-mcq-16": "「角色、權責、層級和規則被清楚訂立的正式架構」是「formal structure/organization」的用法，與本句語境不同。",
-        "formal-mcq-11": "「遵守社交禮節、言行較拘謹而不隨便的」是「formal behaviour」的用法，與本句語境不同。"
+        "formal-mcq-14": "本句的「formal training」指「按有組織的課程、標準或專業制度進行的正規訓練」。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-14"
     },
@@ -1616,11 +1496,9 @@ export default {
       "masked": "The job does not require any ____.",
       "options": [
         "formal-mcq-15",
-        "formal-mcq-14",
-        "formal-mcq-16",
-        "formal-mcq-13",
-        "formal-mcq-17",
-        "formal-mcq-12"
+        "formal-mcq-12",
+        "formal-mcq-25",
+        "formal-mcq-17"
       ],
       "explanation": "本句的「formal qualifications」指「由認可機構正式頒發、證明教育或專業水平的資格／學歷」。",
       "sentenceIndex": 29,
@@ -1629,12 +1507,10 @@ export default {
         "formal qualifications"
       ],
       "optionReasons": {
-        "formal-mcq-15": "本句指「由認可機構正式頒發、證明教育或專業水平的資格／學歷」。",
-        "formal-mcq-14": "「按有組織的課程、標準或專業制度進行的正規訓練」是「formal training」的用法，與本句語境不同。",
-        "formal-mcq-16": "「角色、權責、層級和規則被清楚訂立的正式架構」是「formal structure/organization」的用法，與本句語境不同。",
-        "formal-mcq-13": "「由學校、大學等認可教育機構按課程制度提供的正規教育」是「formal education」的用法，與本句語境不同。",
-        "formal-mcq-17": "「被清楚定義、記錄並按照既定規則運作的制度」是「formal rule/system」的用法，與本句語境不同。",
-        "formal-mcq-12": "「按角色及禮節互動，但較不親近、較不隨意的關係」是「formal relationship」的用法，與本句語境不同。"
+        "formal-mcq-15": "本句的「formal qualifications」指「由認可機構正式頒發、證明教育或專業水平的資格／學歷」。",
+        "formal-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-15"
     },
@@ -1646,11 +1522,9 @@ export default {
       "masked": "Experience can sometimes be more valuable than ____.",
       "options": [
         "formal-mcq-15",
-        "formal-mcq-14",
-        "formal-mcq-16",
-        "formal-mcq-13",
-        "formal-mcq-17",
-        "formal-mcq-12"
+        "formal-mcq-11",
+        "formal-mcq-25",
+        "formal-mcq-31"
       ],
       "explanation": "本句的「formal qualifications」指「由認可機構正式頒發、證明教育或專業水平的資格／學歷」。",
       "sentenceIndex": 30,
@@ -1659,12 +1533,10 @@ export default {
         "formal qualifications"
       ],
       "optionReasons": {
-        "formal-mcq-15": "本句指「由認可機構正式頒發、證明教育或專業水平的資格／學歷」。",
-        "formal-mcq-14": "「按有組織的課程、標準或專業制度進行的正規訓練」是「formal training」的用法，與本句語境不同。",
-        "formal-mcq-16": "「角色、權責、層級和規則被清楚訂立的正式架構」是「formal structure/organization」的用法，與本句語境不同。",
-        "formal-mcq-13": "「由學校、大學等認可教育機構按課程制度提供的正規教育」是「formal education」的用法，與本句語境不同。",
-        "formal-mcq-17": "「被清楚定義、記錄並按照既定規則運作的制度」是「formal rule/system」的用法，與本句語境不同。",
-        "formal-mcq-12": "「按角色及禮節互動，但較不親近、較不隨意的關係」是「formal relationship」的用法，與本句語境不同。"
+        "formal-mcq-15": "本句的「formal qualifications」指「由認可機構正式頒發、證明教育或專業水平的資格／學歷」。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-15"
     },
@@ -1676,11 +1548,9 @@ export default {
       "masked": "The group has no ____.",
       "options": [
         "formal-mcq-16",
-        "formal-mcq-15",
-        "formal-mcq-17",
-        "formal-mcq-14",
-        "formal-mcq-18",
-        "formal-mcq-13"
+        "formal-mcq-11",
+        "formal-mcq-25",
+        "formal-mcq-07"
       ],
       "explanation": "本句的「formal structure」指「角色、權責、層級和規則被清楚訂立的正式架構」。",
       "sentenceIndex": 31,
@@ -1689,12 +1559,10 @@ export default {
         "formal structure"
       ],
       "optionReasons": {
-        "formal-mcq-16": "本句指「角色、權責、層級和規則被清楚訂立的正式架構」。",
-        "formal-mcq-15": "「由認可機構正式頒發、證明教育或專業水平的資格／學歷」是「formal qualification」的用法，與本句語境不同。",
-        "formal-mcq-17": "「被清楚定義、記錄並按照既定規則運作的制度」是「formal rule/system」的用法，與本句語境不同。",
-        "formal-mcq-14": "「按有組織的課程、標準或專業制度進行的正規訓練」是「formal training」的用法，與本句語境不同。",
-        "formal-mcq-18": "「以明確定義的符號、結構和推理規則建立的形式系統」是「formal logic/system」的用法，與本句語境不同。",
-        "formal-mcq-13": "「由學校、大學等認可教育機構按課程制度提供的正規教育」是「formal education」的用法，與本句語境不同。"
+        "formal-mcq-16": "本句的「formal structure」指「角色、權責、層級和規則被清楚訂立的正式架構」。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-16"
     },
@@ -1706,11 +1574,9 @@ export default {
       "masked": "A ____ was introduced as the company grew.",
       "options": [
         "formal-mcq-16",
-        "formal-mcq-15",
-        "formal-mcq-17",
-        "formal-mcq-14",
-        "formal-mcq-18",
-        "formal-mcq-13"
+        "formal-mcq-07",
+        "formal-mcq-08",
+        "formal-mcq-25"
       ],
       "explanation": "本句的「formal management structure」指「角色、權責、層級和規則被清楚訂立的正式架構」。",
       "sentenceIndex": 32,
@@ -1719,12 +1585,10 @@ export default {
         "formal management structure"
       ],
       "optionReasons": {
-        "formal-mcq-16": "本句指「角色、權責、層級和規則被清楚訂立的正式架構」。",
-        "formal-mcq-15": "「由認可機構正式頒發、證明教育或專業水平的資格／學歷」是「formal qualification」的用法，與本句語境不同。",
-        "formal-mcq-17": "「被清楚定義、記錄並按照既定規則運作的制度」是「formal rule/system」的用法，與本句語境不同。",
-        "formal-mcq-14": "「按有組織的課程、標準或專業制度進行的正規訓練」是「formal training」的用法，與本句語境不同。",
-        "formal-mcq-18": "「以明確定義的符號、結構和推理規則建立的形式系統」是「formal logic/system」的用法，與本句語境不同。",
-        "formal-mcq-13": "「由學校、大學等認可教育機構按課程制度提供的正規教育」是「formal education」的用法，與本句語境不同。"
+        "formal-mcq-16": "本句的「formal management structure」指「角色、權責、層級和規則被清楚訂立的正式架構」。",
+        "formal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-16"
     },
@@ -1736,11 +1600,9 @@ export default {
       "masked": "The club has no ____.",
       "options": [
         "formal-mcq-17",
-        "formal-mcq-16",
-        "formal-mcq-18",
-        "formal-mcq-15",
-        "formal-mcq-19",
-        "formal-mcq-14"
+        "formal-mcq-06",
+        "formal-mcq-11",
+        "formal-mcq-20"
       ],
       "explanation": "本句的「formal rules」指「被清楚定義、記錄並按照既定規則運作的制度」。",
       "sentenceIndex": 33,
@@ -1749,12 +1611,10 @@ export default {
         "formal rules"
       ],
       "optionReasons": {
-        "formal-mcq-17": "本句指「被清楚定義、記錄並按照既定規則運作的制度」。",
-        "formal-mcq-16": "「角色、權責、層級和規則被清楚訂立的正式架構」是「formal structure/organization」的用法，與本句語境不同。",
-        "formal-mcq-18": "「以明確定義的符號、結構和推理規則建立的形式系統」是「formal logic/system」的用法，與本句語境不同。",
-        "formal-mcq-15": "「由認可機構正式頒發、證明教育或專業水平的資格／學歷」是「formal qualification」的用法，與本句語境不同。",
-        "formal-mcq-19": "「按照嚴格邏輯規則逐步推導出的形式證明」是「formal proof」的用法，與本句語境不同。",
-        "formal-mcq-14": "「按有組織的課程、標準或專業制度進行的正規訓練」是「formal training」的用法，與本句語境不同。"
+        "formal-mcq-17": "本句的「formal rules」指「被清楚定義、記錄並按照既定規則運作的制度」。",
+        "formal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-17"
     },
@@ -1766,11 +1626,9 @@ export default {
       "masked": "They introduced a ____ for evaluating performance.",
       "options": [
         "formal-mcq-17",
-        "formal-mcq-16",
-        "formal-mcq-18",
-        "formal-mcq-15",
-        "formal-mcq-19",
-        "formal-mcq-14"
+        "formal-mcq-06",
+        "formal-mcq-20",
+        "formal-mcq-27"
       ],
       "explanation": "本句的「formal system」指「被清楚定義、記錄並按照既定規則運作的制度」。",
       "sentenceIndex": 34,
@@ -1779,12 +1637,10 @@ export default {
         "formal system"
       ],
       "optionReasons": {
-        "formal-mcq-17": "本句指「被清楚定義、記錄並按照既定規則運作的制度」。",
-        "formal-mcq-16": "「角色、權責、層級和規則被清楚訂立的正式架構」是「formal structure/organization」的用法，與本句語境不同。",
-        "formal-mcq-18": "「以明確定義的符號、結構和推理規則建立的形式系統」是「formal logic/system」的用法，與本句語境不同。",
-        "formal-mcq-15": "「由認可機構正式頒發、證明教育或專業水平的資格／學歷」是「formal qualification」的用法，與本句語境不同。",
-        "formal-mcq-19": "「按照嚴格邏輯規則逐步推導出的形式證明」是「formal proof」的用法，與本句語境不同。",
-        "formal-mcq-14": "「按有組織的課程、標準或專業制度進行的正規訓練」是「formal training」的用法，與本句語境不同。"
+        "formal-mcq-17": "本句的「formal system」指「被清楚定義、記錄並按照既定規則運作的制度」。",
+        "formal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-17"
     },
@@ -1796,11 +1652,8 @@ export default {
       "masked": "The argument can be represented using ____.",
       "options": [
         "formal-mcq-18",
-        "formal-mcq-17",
-        "formal-mcq-19",
-        "formal-mcq-16",
-        "formal-mcq-20",
-        "formal-mcq-15"
+        "formal-mcq-08",
+        "formal-mcq-09"
       ],
       "explanation": "本句的「formal logic」指「以明確定義的符號、結構和推理規則建立的形式系統」。",
       "sentenceIndex": 35,
@@ -1809,12 +1662,9 @@ export default {
         "formal logic"
       ],
       "optionReasons": {
-        "formal-mcq-18": "本句指「以明確定義的符號、結構和推理規則建立的形式系統」。",
-        "formal-mcq-17": "「被清楚定義、記錄並按照既定規則運作的制度」是「formal rule/system」的用法，與本句語境不同。",
-        "formal-mcq-19": "「按照嚴格邏輯規則逐步推導出的形式證明」是「formal proof」的用法，與本句語境不同。",
-        "formal-mcq-16": "「角色、權責、層級和規則被清楚訂立的正式架構」是「formal structure/organization」的用法，與本句語境不同。",
-        "formal-mcq-20": "「主要分析作品的形式、結構、構圖或組織方式」是「formal analysis」的用法，與本句語境不同。",
-        "formal-mcq-15": "「由認可機構正式頒發、證明教育或專業水平的資格／學歷」是「formal qualification」的用法，與本句語境不同。"
+        "formal-mcq-18": "本句的「formal logic」指「以明確定義的符號、結構和推理規則建立的形式系統」。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-18"
     },
@@ -1826,11 +1676,8 @@ export default {
       "masked": "Computer scientists often work with ____.",
       "options": [
         "formal-mcq-18",
-        "formal-mcq-17",
-        "formal-mcq-19",
-        "formal-mcq-16",
-        "formal-mcq-20",
-        "formal-mcq-15"
+        "formal-mcq-09",
+        "formal-mcq-08"
       ],
       "explanation": "本句的「formal systems」指「以明確定義的符號、結構和推理規則建立的形式系統」。",
       "sentenceIndex": 36,
@@ -1839,12 +1686,9 @@ export default {
         "formal systems"
       ],
       "optionReasons": {
-        "formal-mcq-18": "本句指「以明確定義的符號、結構和推理規則建立的形式系統」。",
-        "formal-mcq-17": "「被清楚定義、記錄並按照既定規則運作的制度」是「formal rule/system」的用法，與本句語境不同。",
-        "formal-mcq-19": "「按照嚴格邏輯規則逐步推導出的形式證明」是「formal proof」的用法，與本句語境不同。",
-        "formal-mcq-16": "「角色、權責、層級和規則被清楚訂立的正式架構」是「formal structure/organization」的用法，與本句語境不同。",
-        "formal-mcq-20": "「主要分析作品的形式、結構、構圖或組織方式」是「formal analysis」的用法，與本句語境不同。",
-        "formal-mcq-15": "「由認可機構正式頒發、證明教育或專業水平的資格／學歷」是「formal qualification」的用法，與本句語境不同。"
+        "formal-mcq-18": "本句的「formal systems」指「以明確定義的符號、結構和推理規則建立的形式系統」。",
+        "formal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-18"
     },
@@ -1856,11 +1700,9 @@ export default {
       "masked": "The claim requires a ____.",
       "options": [
         "formal-mcq-19",
-        "formal-mcq-18",
-        "formal-mcq-20",
-        "formal-mcq-17",
-        "formal-mcq-21",
-        "formal-mcq-16"
+        "formal-mcq-27",
+        "formal-mcq-08",
+        "formal-mcq-31"
       ],
       "explanation": "本句的「formal proof」指「按照嚴格邏輯規則逐步推導出的形式證明」。",
       "sentenceIndex": 37,
@@ -1869,12 +1711,10 @@ export default {
         "formal proof"
       ],
       "optionReasons": {
-        "formal-mcq-19": "本句指「按照嚴格邏輯規則逐步推導出的形式證明」。",
-        "formal-mcq-18": "「以明確定義的符號、結構和推理規則建立的形式系統」是「formal logic/system」的用法，與本句語境不同。",
-        "formal-mcq-20": "「主要分析作品的形式、結構、構圖或組織方式」是「formal analysis」的用法，與本句語境不同。",
-        "formal-mcq-17": "「被清楚定義、記錄並按照既定規則運作的制度」是「formal rule/system」的用法，與本句語境不同。",
-        "formal-mcq-21": "「依明確幾何、對稱和規則化布局設計的」是「formal garden/design」的用法，與本句語境不同。",
-        "formal-mcq-16": "「角色、權責、層級和規則被清楚訂立的正式架構」是「formal structure/organization」的用法，與本句語境不同。"
+        "formal-mcq-19": "本句的「formal proof」指「按照嚴格邏輯規則逐步推導出的形式證明」。",
+        "formal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-19"
     },
@@ -1886,11 +1726,9 @@ export default {
       "masked": "The software can verify a ____.",
       "options": [
         "formal-mcq-19",
-        "formal-mcq-18",
-        "formal-mcq-20",
-        "formal-mcq-17",
-        "formal-mcq-21",
-        "formal-mcq-16"
+        "formal-mcq-11",
+        "formal-mcq-31",
+        "formal-mcq-27"
       ],
       "explanation": "本句的「formal mathematical proof」指「按照嚴格邏輯規則逐步推導出的形式證明」。",
       "sentenceIndex": 38,
@@ -1899,12 +1737,10 @@ export default {
         "formal mathematical proof"
       ],
       "optionReasons": {
-        "formal-mcq-19": "本句指「按照嚴格邏輯規則逐步推導出的形式證明」。",
-        "formal-mcq-18": "「以明確定義的符號、結構和推理規則建立的形式系統」是「formal logic/system」的用法，與本句語境不同。",
-        "formal-mcq-20": "「主要分析作品的形式、結構、構圖或組織方式」是「formal analysis」的用法，與本句語境不同。",
-        "formal-mcq-17": "「被清楚定義、記錄並按照既定規則運作的制度」是「formal rule/system」的用法，與本句語境不同。",
-        "formal-mcq-21": "「依明確幾何、對稱和規則化布局設計的」是「formal garden/design」的用法，與本句語境不同。",
-        "formal-mcq-16": "「角色、權責、層級和規則被清楚訂立的正式架構」是「formal structure/organization」的用法，與本句語境不同。"
+        "formal-mcq-19": "本句的「formal mathematical proof」指「按照嚴格邏輯規則逐步推導出的形式證明」。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-19"
     },
@@ -1916,11 +1752,9 @@ export default {
       "masked": "The essay includes a ____ of the poem.",
       "options": [
         "formal-mcq-20",
-        "formal-mcq-19",
+        "formal-mcq-26",
         "formal-mcq-21",
-        "formal-mcq-18",
-        "formal-mcq-22",
-        "formal-mcq-17"
+        "formal-mcq-07"
       ],
       "explanation": "本句的「formal analysis」指「主要分析作品的形式、結構、構圖或組織方式」。",
       "sentenceIndex": 39,
@@ -1929,12 +1763,10 @@ export default {
         "formal analysis"
       ],
       "optionReasons": {
-        "formal-mcq-20": "本句指「主要分析作品的形式、結構、構圖或組織方式」。",
-        "formal-mcq-19": "「按照嚴格邏輯規則逐步推導出的形式證明」是「formal proof」的用法，與本句語境不同。",
-        "formal-mcq-21": "「依明確幾何、對稱和規則化布局設計的」是「formal garden/design」的用法，與本句語境不同。",
-        "formal-mcq-18": "「以明確定義的符號、結構和推理規則建立的形式系統」是「formal logic/system」的用法，與本句語境不同。",
-        "formal-mcq-22": "「按正式程序、官方方式或制度規則地」是「formally — official」的用法，與本句語境不同。",
-        "formal-mcq-17": "「被清楚定義、記錄並按照既定規則運作的制度」是「formal rule/system」的用法，與本句語境不同。"
+        "formal-mcq-20": "本句的「formal analysis」指「主要分析作品的形式、結構、構圖或組織方式」。",
+        "formal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-20"
     },
@@ -1946,11 +1778,9 @@ export default {
       "masked": "The critic focused on the painting’s ____.",
       "options": [
         "formal-mcq-20",
-        "formal-mcq-19",
-        "formal-mcq-21",
-        "formal-mcq-18",
-        "formal-mcq-22",
-        "formal-mcq-17"
+        "formal-mcq-30",
+        "formal-mcq-17",
+        "formal-mcq-31"
       ],
       "explanation": "本句的「formal qualities」指「主要分析作品的形式、結構、構圖或組織方式」。",
       "sentenceIndex": 40,
@@ -1959,12 +1789,10 @@ export default {
         "formal qualities"
       ],
       "optionReasons": {
-        "formal-mcq-20": "本句指「主要分析作品的形式、結構、構圖或組織方式」。",
-        "formal-mcq-19": "「按照嚴格邏輯規則逐步推導出的形式證明」是「formal proof」的用法，與本句語境不同。",
-        "formal-mcq-21": "「依明確幾何、對稱和規則化布局設計的」是「formal garden/design」的用法，與本句語境不同。",
-        "formal-mcq-18": "「以明確定義的符號、結構和推理規則建立的形式系統」是「formal logic/system」的用法，與本句語境不同。",
-        "formal-mcq-22": "「按正式程序、官方方式或制度規則地」是「formally — official」的用法，與本句語境不同。",
-        "formal-mcq-17": "「被清楚定義、記錄並按照既定規則運作的制度」是「formal rule/system」的用法，與本句語境不同。"
+        "formal-mcq-20": "本句的「formal qualities」指「主要分析作品的形式、結構、構圖或組織方式」。",
+        "formal-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-20"
     },
@@ -1976,11 +1804,9 @@ export default {
       "masked": "The palace is surrounded by ____.",
       "options": [
         "formal-mcq-21",
+        "formal-mcq-09",
         "formal-mcq-20",
-        "formal-mcq-22",
-        "formal-mcq-19",
-        "formal-mcq-23",
-        "formal-mcq-18"
+        "formal-mcq-12"
       ],
       "explanation": "本句的「formal gardens」指「依明確幾何、對稱和規則化布局設計的」。",
       "sentenceIndex": 41,
@@ -1989,12 +1815,10 @@ export default {
         "formal gardens"
       ],
       "optionReasons": {
-        "formal-mcq-21": "本句指「依明確幾何、對稱和規則化布局設計的」。",
-        "formal-mcq-20": "「主要分析作品的形式、結構、構圖或組織方式」是「formal analysis」的用法，與本句語境不同。",
-        "formal-mcq-22": "「按正式程序、官方方式或制度規則地」是「formally — official」的用法，與本句語境不同。",
-        "formal-mcq-19": "「按照嚴格邏輯規則逐步推導出的形式證明」是「formal proof」的用法，與本句語境不同。",
-        "formal-mcq-23": "「以符合正式場合禮節、服裝或語言規範的方式」是「formally — manner」的用法，與本句語境不同。",
-        "formal-mcq-18": "「以明確定義的符號、結構和推理規則建立的形式系統」是「formal logic/system」的用法，與本句語境不同。"
+        "formal-mcq-21": "本句的「formal gardens」指「依明確幾何、對稱和規則化布局設計的」。",
+        "formal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-21"
     },
@@ -2006,11 +1830,9 @@ export default {
       "masked": "The room has a very ____.",
       "options": [
         "formal-mcq-21",
-        "formal-mcq-20",
-        "formal-mcq-22",
-        "formal-mcq-19",
-        "formal-mcq-23",
-        "formal-mcq-18"
+        "formal-mcq-07",
+        "formal-mcq-27",
+        "formal-mcq-12"
       ],
       "explanation": "本句的「formal layout」指「依明確幾何、對稱和規則化布局設計的」。",
       "sentenceIndex": 42,
@@ -2019,12 +1841,10 @@ export default {
         "formal layout"
       ],
       "optionReasons": {
-        "formal-mcq-21": "本句指「依明確幾何、對稱和規則化布局設計的」。",
-        "formal-mcq-20": "「主要分析作品的形式、結構、構圖或組織方式」是「formal analysis」的用法，與本句語境不同。",
-        "formal-mcq-22": "「按正式程序、官方方式或制度規則地」是「formally — official」的用法，與本句語境不同。",
-        "formal-mcq-19": "「按照嚴格邏輯規則逐步推導出的形式證明」是「formal proof」的用法，與本句語境不同。",
-        "formal-mcq-23": "「以符合正式場合禮節、服裝或語言規範的方式」是「formally — manner」的用法，與本句語境不同。",
-        "formal-mcq-18": "「以明確定義的符號、結構和推理規則建立的形式系統」是「formal logic/system」的用法，與本句語境不同。"
+        "formal-mcq-21": "本句的「formal layout」指「依明確幾何、對稱和規則化布局設計的」。",
+        "formal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-21"
     },
@@ -2036,11 +1856,9 @@ export default {
       "masked": "The decision was ____ on Monday.",
       "options": [
         "formal-mcq-22",
-        "formal-mcq-21",
-        "formal-mcq-23",
-        "formal-mcq-20",
-        "formal-mcq-24",
-        "formal-mcq-19"
+        "formal-mcq-31",
+        "formal-mcq-11",
+        "formal-mcq-20"
       ],
       "explanation": "本句的「formally announced」指「按正式程序、官方方式或制度規則地」。",
       "sentenceIndex": 43,
@@ -2049,12 +1867,10 @@ export default {
         "formally announced"
       ],
       "optionReasons": {
-        "formal-mcq-22": "本句指「按正式程序、官方方式或制度規則地」。",
-        "formal-mcq-21": "「依明確幾何、對稱和規則化布局設計的」是「formal garden/design」的用法，與本句語境不同。",
-        "formal-mcq-23": "「以符合正式場合禮節、服裝或語言規範的方式」是「formally — manner」的用法，與本句語境不同。",
-        "formal-mcq-20": "「主要分析作品的形式、結構、構圖或組織方式」是「formal analysis」的用法，與本句語境不同。",
-        "formal-mcq-24": "「為使某件事正式有效而必須完成的程序或手續」是「formality — procedure」的用法，與本句語境不同。",
-        "formal-mcq-19": "「按照嚴格邏輯規則逐步推導出的形式證明」是「formal proof」的用法，與本句語境不同。"
+        "formal-mcq-22": "本句的「formally announced」指「按正式程序、官方方式或制度規則地」。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-22"
     },
@@ -2066,11 +1882,9 @@ export default {
       "masked": "She was ____ as team leader.",
       "options": [
         "formal-mcq-22",
-        "formal-mcq-21",
-        "formal-mcq-23",
         "formal-mcq-20",
-        "formal-mcq-24",
-        "formal-mcq-19"
+        "formal-mcq-11",
+        "formal-mcq-31"
       ],
       "explanation": "本句的「formally appointed」指「按正式程序、官方方式或制度規則地」。",
       "sentenceIndex": 44,
@@ -2079,12 +1893,10 @@ export default {
         "formally appointed"
       ],
       "optionReasons": {
-        "formal-mcq-22": "本句指「按正式程序、官方方式或制度規則地」。",
-        "formal-mcq-21": "「依明確幾何、對稱和規則化布局設計的」是「formal garden/design」的用法，與本句語境不同。",
-        "formal-mcq-23": "「以符合正式場合禮節、服裝或語言規範的方式」是「formally — manner」的用法，與本句語境不同。",
-        "formal-mcq-20": "「主要分析作品的形式、結構、構圖或組織方式」是「formal analysis」的用法，與本句語境不同。",
-        "formal-mcq-24": "「為使某件事正式有效而必須完成的程序或手續」是「formality — procedure」的用法，與本句語境不同。",
-        "formal-mcq-19": "「按照嚴格邏輯規則逐步推導出的形式證明」是「formal proof」的用法，與本句語境不同。"
+        "formal-mcq-22": "本句的「formally appointed」指「按正式程序、官方方式或制度規則地」。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-22"
     },
@@ -2096,11 +1908,9 @@ export default {
       "masked": "He was dressed ____ for the event.",
       "options": [
         "formal-mcq-23",
-        "formal-mcq-22",
-        "formal-mcq-24",
-        "formal-mcq-21",
-        "formal-mcq-25",
-        "formal-mcq-20"
+        "formal-mcq-20",
+        "formal-mcq-17",
+        "formal-mcq-08"
       ],
       "explanation": "本句的「formally」指「以符合正式場合禮節、服裝或語言規範的方式」。",
       "sentenceIndex": 45,
@@ -2109,12 +1919,10 @@ export default {
         "formally"
       ],
       "optionReasons": {
-        "formal-mcq-23": "本句指「以符合正式場合禮節、服裝或語言規範的方式」。",
-        "formal-mcq-22": "「按正式程序、官方方式或制度規則地」是「formally — official」的用法，與本句語境不同。",
-        "formal-mcq-24": "「為使某件事正式有效而必須完成的程序或手續」是「formality — procedure」的用法，與本句語境不同。",
-        "formal-mcq-21": "「依明確幾何、對稱和規則化布局設計的」是「formal garden/design」的用法，與本句語境不同。",
-        "formal-mcq-25": "「結果實際上已基本確定，但仍需完成的形式／例行程序」是「a mere formality」的用法，與本句語境不同。",
-        "formal-mcq-20": "「主要分析作品的形式、結構、構圖或組織方式」是「formal analysis」的用法，與本句語境不同。"
+        "formal-mcq-23": "本句的「formally」指「以符合正式場合禮節、服裝或語言規範的方式」。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-23"
     },
@@ -2126,11 +1934,9 @@ export default {
       "masked": "She spoke ____ to the senior managers.",
       "options": [
         "formal-mcq-23",
-        "formal-mcq-22",
-        "formal-mcq-24",
-        "formal-mcq-21",
-        "formal-mcq-25",
-        "formal-mcq-20"
+        "formal-mcq-20",
+        "formal-mcq-17",
+        "formal-mcq-08"
       ],
       "explanation": "本句的「formally」指「以符合正式場合禮節、服裝或語言規範的方式」。",
       "sentenceIndex": 46,
@@ -2139,12 +1945,10 @@ export default {
         "formally"
       ],
       "optionReasons": {
-        "formal-mcq-23": "本句指「以符合正式場合禮節、服裝或語言規範的方式」。",
-        "formal-mcq-22": "「按正式程序、官方方式或制度規則地」是「formally — official」的用法，與本句語境不同。",
-        "formal-mcq-24": "「為使某件事正式有效而必須完成的程序或手續」是「formality — procedure」的用法，與本句語境不同。",
-        "formal-mcq-21": "「依明確幾何、對稱和規則化布局設計的」是「formal garden/design」的用法，與本句語境不同。",
-        "formal-mcq-25": "「結果實際上已基本確定，但仍需完成的形式／例行程序」是「a mere formality」的用法，與本句語境不同。",
-        "formal-mcq-20": "「主要分析作品的形式、結構、構圖或組織方式」是「formal analysis」的用法，與本句語境不同。"
+        "formal-mcq-23": "本句的「formally」指「以符合正式場合禮節、服裝或語言規範的方式」。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-23"
     },
@@ -2156,11 +1960,9 @@ export default {
       "masked": "Signing the document is an important ____.",
       "options": [
         "formal-mcq-24",
-        "formal-mcq-23",
-        "formal-mcq-25",
-        "formal-mcq-22",
-        "formal-mcq-26",
-        "formal-mcq-21"
+        "formal-pdf-001",
+        "formal-mcq-31",
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formality」指「為使某件事正式有效而必須完成的程序或手續」。",
       "sentenceIndex": 47,
@@ -2169,12 +1971,10 @@ export default {
         "formality"
       ],
       "optionReasons": {
-        "formal-mcq-24": "本句指「為使某件事正式有效而必須完成的程序或手續」。",
-        "formal-mcq-23": "「以符合正式場合禮節、服裝或語言規範的方式」是「formally — manner」的用法，與本句語境不同。",
-        "formal-mcq-25": "「結果實際上已基本確定，但仍需完成的形式／例行程序」是「a mere formality」的用法，與本句語境不同。",
-        "formal-mcq-22": "「按正式程序、官方方式或制度規則地」是「formally — official」的用法，與本句語境不同。",
-        "formal-mcq-26": "「人際互動中較正式、拘謹及講究禮節的程度」是「formality — social style」的用法，與本句語境不同。",
-        "formal-mcq-21": "「依明確幾何、對稱和規則化布局設計的」是「formal garden/design」的用法，與本句語境不同。"
+        "formal-mcq-24": "本句的「formality」指「為使某件事正式有效而必須完成的程序或手續」。",
+        "formal-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-24"
     },
@@ -2186,11 +1986,9 @@ export default {
       "masked": "There are a few legal ____ to complete.",
       "options": [
         "formal-mcq-24",
-        "formal-mcq-23",
-        "formal-mcq-25",
-        "formal-mcq-22",
-        "formal-mcq-26",
-        "formal-mcq-21"
+        "formal-mcq-11",
+        "formal-mcq-21",
+        "formal-mcq-07"
       ],
       "explanation": "本句的「formalities」指「為使某件事正式有效而必須完成的程序或手續」。",
       "sentenceIndex": 48,
@@ -2199,12 +1997,10 @@ export default {
         "formalities"
       ],
       "optionReasons": {
-        "formal-mcq-24": "本句指「為使某件事正式有效而必須完成的程序或手續」。",
-        "formal-mcq-23": "「以符合正式場合禮節、服裝或語言規範的方式」是「formally — manner」的用法，與本句語境不同。",
-        "formal-mcq-25": "「結果實際上已基本確定，但仍需完成的形式／例行程序」是「a mere formality」的用法，與本句語境不同。",
-        "formal-mcq-22": "「按正式程序、官方方式或制度規則地」是「formally — official」的用法，與本句語境不同。",
-        "formal-mcq-26": "「人際互動中較正式、拘謹及講究禮節的程度」是「formality — social style」的用法，與本句語境不同。",
-        "formal-mcq-21": "「依明確幾何、對稱和規則化布局設計的」是「formal garden/design」的用法，與本句語境不同。"
+        "formal-mcq-24": "本句的「formalities」指「為使某件事正式有效而必須完成的程序或手續」。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-24"
     },
@@ -2216,11 +2012,9 @@ export default {
       "masked": "The final interview is largely a ____; they have already decided to hire her.",
       "options": [
         "formal-mcq-25",
-        "formal-mcq-24",
-        "formal-mcq-26",
-        "formal-mcq-23",
-        "formal-mcq-27",
-        "formal-mcq-22"
+        "formal-mcq-16",
+        "formal-mcq-08",
+        "formal-mcq-31"
       ],
       "explanation": "本句的「formality」指「結果實際上已基本確定，但仍需完成的形式／例行程序」。",
       "sentenceIndex": 49,
@@ -2229,12 +2023,10 @@ export default {
         "formality"
       ],
       "optionReasons": {
-        "formal-mcq-25": "本句指「結果實際上已基本確定，但仍需完成的形式／例行程序」。",
-        "formal-mcq-24": "「為使某件事正式有效而必須完成的程序或手續」是「formality — procedure」的用法，與本句語境不同。",
-        "formal-mcq-26": "「人際互動中較正式、拘謹及講究禮節的程度」是「formality — social style」的用法，與本句語境不同。",
-        "formal-mcq-23": "「以符合正式場合禮節、服裝或語言規範的方式」是「formally — manner」的用法，與本句語境不同。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。",
-        "formal-mcq-22": "「按正式程序、官方方式或制度規則地」是「formally — official」的用法，與本句語境不同。"
+        "formal-mcq-25": "本句的「formality」指「結果實際上已基本確定，但仍需完成的形式／例行程序」。",
+        "formal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-25"
     },
@@ -2246,11 +2038,9 @@ export default {
       "masked": "Once everyone agreed, the vote became a ____.",
       "options": [
         "formal-mcq-25",
-        "formal-mcq-24",
-        "formal-mcq-26",
-        "formal-mcq-23",
-        "formal-mcq-27",
-        "formal-mcq-22"
+        "formal-mcq-31",
+        "formal-mcq-08",
+        "formal-mcq-16"
       ],
       "explanation": "本句的「mere formality」指「結果實際上已基本確定，但仍需完成的形式／例行程序」。",
       "sentenceIndex": 50,
@@ -2259,12 +2049,10 @@ export default {
         "mere formality"
       ],
       "optionReasons": {
-        "formal-mcq-25": "本句指「結果實際上已基本確定，但仍需完成的形式／例行程序」。",
-        "formal-mcq-24": "「為使某件事正式有效而必須完成的程序或手續」是「formality — procedure」的用法，與本句語境不同。",
-        "formal-mcq-26": "「人際互動中較正式、拘謹及講究禮節的程度」是「formality — social style」的用法，與本句語境不同。",
-        "formal-mcq-23": "「以符合正式場合禮節、服裝或語言規範的方式」是「formally — manner」的用法，與本句語境不同。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。",
-        "formal-mcq-22": "「按正式程序、官方方式或制度規則地」是「formally — official」的用法，與本句語境不同。"
+        "formal-mcq-25": "本句的「mere formality」指「結果實際上已基本確定，但仍需完成的形式／例行程序」。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-25"
     },
@@ -2276,11 +2064,9 @@ export default {
       "masked": "There was too much ____ in their conversation.",
       "options": [
         "formal-mcq-26",
-        "formal-mcq-25",
-        "formal-mcq-27",
-        "formal-mcq-24",
-        "formal-mcq-28",
-        "formal-mcq-23"
+        "formal-mcq-20",
+        "formal-mcq-21",
+        "formal-mcq-06"
       ],
       "explanation": "本句的「formality」指「人際互動中較正式、拘謹及講究禮節的程度」。",
       "sentenceIndex": 51,
@@ -2289,12 +2075,10 @@ export default {
         "formality"
       ],
       "optionReasons": {
-        "formal-mcq-26": "本句指「人際互動中較正式、拘謹及講究禮節的程度」。",
-        "formal-mcq-25": "「結果實際上已基本確定，但仍需完成的形式／例行程序」是「a mere formality」的用法，與本句語境不同。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。",
-        "formal-mcq-24": "「為使某件事正式有效而必須完成的程序或手續」是「formality — procedure」的用法，與本句語境不同。",
-        "formal-mcq-28": "「把原本較非正式的安排、關係或程序正式確立／制度化」是「formalize/formalise」的用法，與本句語境不同。",
-        "formal-mcq-23": "「以符合正式場合禮節、服裝或語言規範的方式」是「formally — manner」的用法，與本句語境不同。"
+        "formal-mcq-26": "本句的「formality」指「人際互動中較正式、拘謹及講究禮節的程度」。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-26"
     },
@@ -2306,11 +2090,8 @@ export default {
       "masked": "The manager preferred friendliness to unnecessary ____.",
       "options": [
         "formal-mcq-26",
-        "formal-mcq-25",
-        "formal-mcq-27",
-        "formal-mcq-24",
-        "formal-mcq-28",
-        "formal-mcq-23"
+        "formal-mcq-19",
+        "formal-mcq-06"
       ],
       "explanation": "本句的「formality」指「人際互動中較正式、拘謹及講究禮節的程度」。",
       "sentenceIndex": 52,
@@ -2319,12 +2100,9 @@ export default {
         "formality"
       ],
       "optionReasons": {
-        "formal-mcq-26": "本句指「人際互動中較正式、拘謹及講究禮節的程度」。",
-        "formal-mcq-25": "「結果實際上已基本確定，但仍需完成的形式／例行程序」是「a mere formality」的用法，與本句語境不同。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。",
-        "formal-mcq-24": "「為使某件事正式有效而必須完成的程序或手續」是「formality — procedure」的用法，與本句語境不同。",
-        "formal-mcq-28": "「把原本較非正式的安排、關係或程序正式確立／制度化」是「formalize/formalise」的用法，與本句語境不同。",
-        "formal-mcq-23": "「以符合正式場合禮節、服裝或語言規範的方式」是「formally — manner」的用法，與本句語境不同。"
+        "formal-mcq-26": "本句的「formality」指「人際互動中較正式、拘謹及講究禮節的程度」。",
+        "formal-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-26"
     },
@@ -2336,11 +2114,9 @@ export default {
       "masked": "After completing the ____, we entered the building.",
       "options": [
         "formal-mcq-27",
-        "formal-mcq-26",
-        "formal-mcq-28",
-        "formal-mcq-25",
-        "formal-mcq-29",
-        "formal-mcq-24"
+        "formal-pdf-001",
+        "formal-mcq-07",
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formalities」指「活動、交易或程序開始／完成前必須處理的正式手續」。",
       "sentenceIndex": 53,
@@ -2349,12 +2125,10 @@ export default {
         "formalities"
       ],
       "optionReasons": {
-        "formal-mcq-27": "本句指「活動、交易或程序開始／完成前必須處理的正式手續」。",
-        "formal-mcq-26": "「人際互動中較正式、拘謹及講究禮節的程度」是「formality — social style」的用法，與本句語境不同。",
-        "formal-mcq-28": "「把原本較非正式的安排、關係或程序正式確立／制度化」是「formalize/formalise」的用法，與本句語境不同。",
-        "formal-mcq-25": "「結果實際上已基本確定，但仍需完成的形式／例行程序」是「a mere formality」的用法，與本句語境不同。",
-        "formal-mcq-29": "「把關係、制度或程序轉化為正式、有明確規則形式的過程」是「formalization/formalisation」的用法，與本句語境不同。",
-        "formal-mcq-24": "「為使某件事正式有效而必須完成的程序或手續」是「formality — procedure」的用法，與本句語境不同。"
+        "formal-mcq-27": "本句的「formalities」指「活動、交易或程序開始／完成前必須處理的正式手續」。",
+        "formal-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-27"
     },
@@ -2366,11 +2140,9 @@ export default {
       "masked": "Let’s get the ____ out of the way first.",
       "options": [
         "formal-mcq-27",
-        "formal-mcq-26",
-        "formal-mcq-28",
-        "formal-mcq-25",
-        "formal-mcq-29",
-        "formal-mcq-24"
+        "formal-mcq-07",
+        "formal-mcq-19",
+        "formal-mcq-08"
       ],
       "explanation": "本句的「formalities」指「活動、交易或程序開始／完成前必須處理的正式手續」。",
       "sentenceIndex": 54,
@@ -2379,12 +2151,10 @@ export default {
         "formalities"
       ],
       "optionReasons": {
-        "formal-mcq-27": "本句指「活動、交易或程序開始／完成前必須處理的正式手續」。",
-        "formal-mcq-26": "「人際互動中較正式、拘謹及講究禮節的程度」是「formality — social style」的用法，與本句語境不同。",
-        "formal-mcq-28": "「把原本較非正式的安排、關係或程序正式確立／制度化」是「formalize/formalise」的用法，與本句語境不同。",
-        "formal-mcq-25": "「結果實際上已基本確定，但仍需完成的形式／例行程序」是「a mere formality」的用法，與本句語境不同。",
-        "formal-mcq-29": "「把關係、制度或程序轉化為正式、有明確規則形式的過程」是「formalization/formalisation」的用法，與本句語境不同。",
-        "formal-mcq-24": "「為使某件事正式有效而必須完成的程序或手續」是「formality — procedure」的用法，與本句語境不同。"
+        "formal-mcq-27": "本句的「formalities」指「活動、交易或程序開始／完成前必須處理的正式手續」。",
+        "formal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-27"
     },
@@ -2396,11 +2166,9 @@ export default {
       "masked": "The two companies decided to ____.",
       "options": [
         "formal-mcq-28",
-        "formal-mcq-27",
-        "formal-mcq-29",
-        "formal-mcq-26",
-        "formal-mcq-30",
-        "formal-mcq-25"
+        "formal-mcq-06",
+        "formal-mcq-20",
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formalize their partnership」指「把原本較非正式的安排、關係或程序正式確立／制度化」。",
       "sentenceIndex": 55,
@@ -2409,12 +2177,10 @@ export default {
         "formalize their partnership"
       ],
       "optionReasons": {
-        "formal-mcq-28": "本句指「把原本較非正式的安排、關係或程序正式確立／制度化」。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。",
-        "formal-mcq-29": "「把關係、制度或程序轉化為正式、有明確規則形式的過程」是「formalization/formalisation」的用法，與本句語境不同。",
-        "formal-mcq-26": "「人際互動中較正式、拘謹及講究禮節的程度」是「formality — social style」的用法，與本句語境不同。",
-        "formal-mcq-30": "「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」是「informal — casual」的用法，與本句語境不同。",
-        "formal-mcq-25": "「結果實際上已基本確定，但仍需完成的形式／例行程序」是「a mere formality」的用法，與本句語境不同。"
+        "formal-mcq-28": "本句的「formalize their partnership」指「把原本較非正式的安排、關係或程序正式確立／制度化」。",
+        "formal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-28"
     },
@@ -2426,11 +2192,9 @@ export default {
       "masked": "The agreement was later ____.",
       "options": [
         "formal-mcq-28",
-        "formal-mcq-27",
-        "formal-mcq-29",
-        "formal-mcq-26",
-        "formal-mcq-30",
-        "formal-mcq-25"
+        "formal-mcq-20",
+        "formal-mcq-06",
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formalized in writing」指「把原本較非正式的安排、關係或程序正式確立／制度化」。",
       "sentenceIndex": 56,
@@ -2439,12 +2203,10 @@ export default {
         "formalized in writing"
       ],
       "optionReasons": {
-        "formal-mcq-28": "本句指「把原本較非正式的安排、關係或程序正式確立／制度化」。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。",
-        "formal-mcq-29": "「把關係、制度或程序轉化為正式、有明確規則形式的過程」是「formalization/formalisation」的用法，與本句語境不同。",
-        "formal-mcq-26": "「人際互動中較正式、拘謹及講究禮節的程度」是「formality — social style」的用法，與本句語境不同。",
-        "formal-mcq-30": "「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」是「informal — casual」的用法，與本句語境不同。",
-        "formal-mcq-25": "「結果實際上已基本確定，但仍需完成的形式／例行程序」是「a mere formality」的用法，與本句語境不同。"
+        "formal-mcq-28": "本句的「formalized in writing」指「把原本較非正式的安排、關係或程序正式確立／制度化」。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-28"
     },
@@ -2457,10 +2219,8 @@ export default {
       "options": [
         "formal-pdf-001",
         "formal-mcq-27",
-        "formal-mcq-29",
-        "formal-mcq-26",
-        "formal-mcq-30",
-        "formal-mcq-25"
+        "formal-mcq-07",
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formalize its hiring process」指「把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制」。",
       "sentenceIndex": 57,
@@ -2469,12 +2229,10 @@ export default {
         "formalize its hiring process"
       ],
       "optionReasons": {
-        "formal-pdf-001": "本句指「把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制」。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。",
-        "formal-mcq-29": "「把關係、制度或程序轉化為正式、有明確規則形式的過程」是「formalization/formalisation」的用法，與本句語境不同。",
-        "formal-mcq-26": "「人際互動中較正式、拘謹及講究禮節的程度」是「formality — social style」的用法，與本句語境不同。",
-        "formal-mcq-30": "「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」是「informal — casual」的用法，與本句語境不同。",
-        "formal-mcq-25": "「結果實際上已基本確定，但仍需完成的形式／例行程序」是「a mere formality」的用法，與本句語境不同。"
+        "formal-pdf-001": "本句的「formalize its hiring process」指「把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制」。",
+        "formal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-pdf-001"
     },
@@ -2486,11 +2244,9 @@ export default {
       "masked": "The team needs to ____.",
       "options": [
         "formal-pdf-001",
-        "formal-mcq-27",
-        "formal-mcq-29",
-        "formal-mcq-26",
-        "formal-mcq-30",
-        "formal-mcq-25"
+        "formal-mcq-24",
+        "formal-mcq-07",
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formalize its decision-making process」指「把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制」。",
       "sentenceIndex": 58,
@@ -2499,12 +2255,10 @@ export default {
         "formalize its decision-making process"
       ],
       "optionReasons": {
-        "formal-pdf-001": "本句指「把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制」。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。",
-        "formal-mcq-29": "「把關係、制度或程序轉化為正式、有明確規則形式的過程」是「formalization/formalisation」的用法，與本句語境不同。",
-        "formal-mcq-26": "「人際互動中較正式、拘謹及講究禮節的程度」是「formality — social style」的用法，與本句語境不同。",
-        "formal-mcq-30": "「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」是「informal — casual」的用法，與本句語境不同。",
-        "formal-mcq-25": "「結果實際上已基本確定，但仍需完成的形式／例行程序」是「a mere formality」的用法，與本句語境不同。"
+        "formal-pdf-001": "本句的「formalize its decision-making process」指「把原本較隨意或不明確的做法轉化為有清晰規則、步驟和結構的制」。",
+        "formal-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-pdf-001"
     },
@@ -2516,11 +2270,8 @@ export default {
       "masked": "The ____ of the partnership took several months.",
       "options": [
         "formal-mcq-29",
-        "formal-mcq-28",
-        "formal-mcq-30",
-        "formal-mcq-27",
         "formal-mcq-31",
-        "formal-mcq-26"
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formalization」指「把關係、制度或程序轉化為正式、有明確規則形式的過程」。",
       "sentenceIndex": 59,
@@ -2529,12 +2280,9 @@ export default {
         "formalization"
       ],
       "optionReasons": {
-        "formal-mcq-29": "本句指「把關係、制度或程序轉化為正式、有明確規則形式的過程」。",
-        "formal-mcq-28": "「把原本較非正式的安排、關係或程序正式確立／制度化」是「formalize/formalise」的用法，與本句語境不同。",
-        "formal-mcq-30": "「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」是「informal — casual」的用法，與本句語境不同。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。",
-        "formal-mcq-31": "「適合日常對話或熟人之間使用的較口語、較輕鬆語言」是「informal language」的用法，與本句語境不同。",
-        "formal-mcq-26": "「人際互動中較正式、拘謹及講究禮節的程度」是「formality — social style」的用法，與本句語境不同。"
+        "formal-mcq-29": "本句的「formalization」指「把關係、制度或程序轉化為正式、有明確規則形式的過程」。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-29"
     },
@@ -2546,11 +2294,8 @@ export default {
       "masked": "The organization benefited from greater ____ of its procedures.",
       "options": [
         "formal-mcq-29",
-        "formal-mcq-28",
-        "formal-mcq-30",
-        "formal-mcq-27",
-        "formal-mcq-31",
-        "formal-mcq-26"
+        "formal-mcq-07",
+        "formal-mcq-11"
       ],
       "explanation": "本句的「formalization」指「把關係、制度或程序轉化為正式、有明確規則形式的過程」。",
       "sentenceIndex": 60,
@@ -2559,12 +2304,9 @@ export default {
         "formalization"
       ],
       "optionReasons": {
-        "formal-mcq-29": "本句指「把關係、制度或程序轉化為正式、有明確規則形式的過程」。",
-        "formal-mcq-28": "「把原本較非正式的安排、關係或程序正式確立／制度化」是「formalize/formalise」的用法，與本句語境不同。",
-        "formal-mcq-30": "「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」是「informal — casual」的用法，與本句語境不同。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。",
-        "formal-mcq-31": "「適合日常對話或熟人之間使用的較口語、較輕鬆語言」是「informal language」的用法，與本句語境不同。",
-        "formal-mcq-26": "「人際互動中較正式、拘謹及講究禮節的程度」是「formality — social style」的用法，與本句語境不同。"
+        "formal-mcq-29": "本句的「formalization」指「把關係、制度或程序轉化為正式、有明確規則形式的過程」。",
+        "formal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-29"
     },
@@ -2576,11 +2318,9 @@ export default {
       "masked": "We had an ____ after the meeting.",
       "options": [
         "formal-mcq-30",
-        "formal-mcq-29",
-        "formal-mcq-31",
-        "formal-mcq-28",
-        "formal-mcq-32",
-        "formal-mcq-27"
+        "formal-mcq-21",
+        "formal-mcq-20",
+        "formal-mcq-31"
       ],
       "explanation": "本句的「informal discussion」指「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」。",
       "sentenceIndex": 61,
@@ -2589,12 +2329,10 @@ export default {
         "informal discussion"
       ],
       "optionReasons": {
-        "formal-mcq-30": "本句指「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」。",
-        "formal-mcq-29": "「把關係、制度或程序轉化為正式、有明確規則形式的過程」是「formalization/formalisation」的用法，與本句語境不同。",
-        "formal-mcq-31": "「適合日常對話或熟人之間使用的較口語、較輕鬆語言」是「informal language」的用法，與本句語境不同。",
-        "formal-mcq-28": "「把原本較非正式的安排、關係或程序正式確立／制度化」是「formalize/formalise」的用法，與本句語境不同。",
-        "formal-mcq-32": "「雙方已有共識，但沒有經正式文件、制度或法律程序確立的安排」是「informal agreement」的用法，與本句語境不同。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。"
+        "formal-mcq-30": "本句的「informal discussion」指「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」。",
+        "formal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-30"
     },
@@ -2606,11 +2344,9 @@ export default {
       "masked": "The event was quite ____, so people wore casual clothes.",
       "options": [
         "formal-mcq-30",
-        "formal-mcq-29",
-        "formal-mcq-31",
-        "formal-mcq-28",
-        "formal-mcq-32",
-        "formal-mcq-27"
+        "formal-mcq-20",
+        "formal-mcq-21",
+        "formal-mcq-31"
       ],
       "explanation": "本句的「informal」指「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」。",
       "sentenceIndex": 62,
@@ -2619,12 +2355,10 @@ export default {
         "informal"
       ],
       "optionReasons": {
-        "formal-mcq-30": "本句指「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」。",
-        "formal-mcq-29": "「把關係、制度或程序轉化為正式、有明確規則形式的過程」是「formalization/formalisation」的用法，與本句語境不同。",
-        "formal-mcq-31": "「適合日常對話或熟人之間使用的較口語、較輕鬆語言」是「informal language」的用法，與本句語境不同。",
-        "formal-mcq-28": "「把原本較非正式的安排、關係或程序正式確立／制度化」是「formalize/formalise」的用法，與本句語境不同。",
-        "formal-mcq-32": "「雙方已有共識，但沒有經正式文件、制度或法律程序確立的安排」是「informal agreement」的用法，與本句語境不同。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。"
+        "formal-mcq-30": "本句的「informal」指「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-30"
     },
@@ -2636,11 +2370,9 @@ export default {
       "masked": "This expression is too ____ for an academic report.",
       "options": [
         "formal-mcq-31",
-        "formal-mcq-30",
-        "formal-mcq-32",
-        "formal-mcq-29",
-        "formal-mcq-28",
-        "formal-mcq-27"
+        "formal-mcq-14",
+        "formal-mcq-25",
+        "formal-mcq-26"
       ],
       "explanation": "本句的「informal」指「適合日常對話或熟人之間使用的較口語、較輕鬆語言」。",
       "sentenceIndex": 63,
@@ -2649,12 +2381,10 @@ export default {
         "informal"
       ],
       "optionReasons": {
-        "formal-mcq-31": "本句指「適合日常對話或熟人之間使用的較口語、較輕鬆語言」。",
-        "formal-mcq-30": "「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」是「informal — casual」的用法，與本句語境不同。",
-        "formal-mcq-32": "「雙方已有共識，但沒有經正式文件、制度或法律程序確立的安排」是「informal agreement」的用法，與本句語境不同。",
-        "formal-mcq-29": "「把關係、制度或程序轉化為正式、有明確規則形式的過程」是「formalization/formalisation」的用法，與本句語境不同。",
-        "formal-mcq-28": "「把原本較非正式的安排、關係或程序正式確立／制度化」是「formalize/formalise」的用法，與本句語境不同。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。"
+        "formal-mcq-31": "本句的「informal」指「適合日常對話或熟人之間使用的較口語、較輕鬆語言」。",
+        "formal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-31"
     },
@@ -2666,11 +2396,9 @@ export default {
       "masked": "Friends often use ____ with each other.",
       "options": [
         "formal-mcq-31",
-        "formal-mcq-30",
-        "formal-mcq-32",
-        "formal-mcq-29",
-        "formal-mcq-28",
-        "formal-mcq-27"
+        "formal-mcq-05",
+        "formal-mcq-25",
+        "formal-mcq-12"
       ],
       "explanation": "本句的「informal language」指「適合日常對話或熟人之間使用的較口語、較輕鬆語言」。",
       "sentenceIndex": 64,
@@ -2679,12 +2407,10 @@ export default {
         "informal language"
       ],
       "optionReasons": {
-        "formal-mcq-31": "本句指「適合日常對話或熟人之間使用的較口語、較輕鬆語言」。",
-        "formal-mcq-30": "「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」是「informal — casual」的用法，與本句語境不同。",
-        "formal-mcq-32": "「雙方已有共識，但沒有經正式文件、制度或法律程序確立的安排」是「informal agreement」的用法，與本句語境不同。",
-        "formal-mcq-29": "「把關係、制度或程序轉化為正式、有明確規則形式的過程」是「formalization/formalisation」的用法，與本句語境不同。",
-        "formal-mcq-28": "「把原本較非正式的安排、關係或程序正式確立／制度化」是「formalize/formalise」的用法，與本句語境不同。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。"
+        "formal-mcq-31": "本句的「informal language」指「適合日常對話或熟人之間使用的較口語、較輕鬆語言」。",
+        "formal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-31"
     },
@@ -2696,11 +2422,9 @@ export default {
       "masked": "They had an ____ to share the office.",
       "options": [
         "formal-mcq-32",
-        "formal-mcq-31",
-        "formal-mcq-30",
-        "formal-mcq-29",
-        "formal-mcq-28",
-        "formal-mcq-27"
+        "formal-mcq-20",
+        "formal-mcq-11",
+        "formal-mcq-31"
       ],
       "explanation": "本句的「informal agreement」指「雙方已有共識，但沒有經正式文件、制度或法律程序確立的安排」。",
       "sentenceIndex": 65,
@@ -2709,12 +2433,10 @@ export default {
         "informal agreement"
       ],
       "optionReasons": {
-        "formal-mcq-32": "本句指「雙方已有共識，但沒有經正式文件、制度或法律程序確立的安排」。",
-        "formal-mcq-31": "「適合日常對話或熟人之間使用的較口語、較輕鬆語言」是「informal language」的用法，與本句語境不同。",
-        "formal-mcq-30": "「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」是「informal — casual」的用法，與本句語境不同。",
-        "formal-mcq-29": "「把關係、制度或程序轉化為正式、有明確規則形式的過程」是「formalization/formalisation」的用法，與本句語境不同。",
-        "formal-mcq-28": "「把原本較非正式的安排、關係或程序正式確立／制度化」是「formalize/formalise」的用法，與本句語境不同。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。"
+        "formal-mcq-32": "本句的「informal agreement」指「雙方已有共識，但沒有經正式文件、制度或法律程序確立的安排」。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-32"
     },
@@ -2726,11 +2448,9 @@ export default {
       "masked": "The schedule was based on an ____.",
       "options": [
         "formal-mcq-32",
-        "formal-mcq-31",
-        "formal-mcq-30",
-        "formal-mcq-29",
-        "formal-mcq-28",
-        "formal-mcq-27"
+        "formal-mcq-06",
+        "formal-mcq-11",
+        "formal-mcq-20"
       ],
       "explanation": "本句的「informal arrangement」指「雙方已有共識，但沒有經正式文件、制度或法律程序確立的安排」。",
       "sentenceIndex": 66,
@@ -2739,12 +2459,10 @@ export default {
         "informal arrangement"
       ],
       "optionReasons": {
-        "formal-mcq-32": "本句指「雙方已有共識，但沒有經正式文件、制度或法律程序確立的安排」。",
-        "formal-mcq-31": "「適合日常對話或熟人之間使用的較口語、較輕鬆語言」是「informal language」的用法，與本句語境不同。",
-        "formal-mcq-30": "「不受正式程序、服裝、語體或禮節嚴格限制的；較隨意的」是「informal — casual」的用法，與本句語境不同。",
-        "formal-mcq-29": "「把關係、制度或程序轉化為正式、有明確規則形式的過程」是「formalization/formalisation」的用法，與本句語境不同。",
-        "formal-mcq-28": "「把原本較非正式的安排、關係或程序正式確立／制度化」是「formalize/formalise」的用法，與本句語境不同。",
-        "formal-mcq-27": "「活動、交易或程序開始／完成前必須處理的正式手續」是「formalities」的用法，與本句語境不同。"
+        "formal-mcq-32": "本句的「informal arrangement」指「雙方已有共識，但沒有經正式文件、制度或法律程序確立的安排」。",
+        "formal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "formal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "formal-mcq-32"
     }
@@ -2756,5 +2474,7 @@ export default {
     "sha256": "dee043dd4dc2b42ca770b71874959bd9087d34b9c0b0e918801574f88f29edc2",
     "pages": 27
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -185,11 +185,7 @@ export default {
       "masked": "I still ____ some of the happiest years of my life.",
       "options": [
         "associate-mcq-01",
-        "associate-mcq-02",
-        "associate-mcq-03",
-        "associate-mcq-04",
-        "associate-mcq-05",
-        "associate-mcq-06"
+        "associate-mcq-05"
       ],
       "explanation": "本句的「associate him with」指「在思想中把兩個人、事物、概念或經歷聯繫起來，使其中一個令人想到另一個」。",
       "sentenceIndex": 0,
@@ -198,12 +194,8 @@ export default {
         "associate him with"
       ],
       "optionReasons": {
-        "associate-mcq-01": "本句指「在思想中把兩個人、事物、概念或經歷聯繫起來，使其中一個令人想到另一個」。",
-        "associate-mcq-02": "「與某人、事物、情況、機構或結果存在關聯」與本句語境不同。",
-        "associate-mcq-03": "「與某人來往、交往或保持社交接觸」與本句語境不同。",
-        "associate-mcq-04": "「與某人有工作、商業或專業關係的同事、夥伴或同業人士」與本句語境不同。",
-        "associate-mcq-05": "「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」與本句語境不同。",
-        "associate-mcq-06": "「兩個人、事物、概念或經歷之間的心理或實際聯繫」與本句語境不同。"
+        "associate-mcq-01": "本句的「associate him with」指「在思想中把兩個人、事物、概念或經歷聯繫起來，使其中一個令人想到另一個」。",
+        "associate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-01"
     },
@@ -215,11 +207,7 @@ export default {
       "masked": "Many people ____ that song with summer.",
       "options": [
         "associate-mcq-01",
-        "associate-mcq-02",
-        "associate-mcq-03",
-        "associate-mcq-04",
-        "associate-mcq-05",
-        "associate-mcq-06"
+        "associate-mcq-05"
       ],
       "explanation": "本句的「associate」指「在思想中把兩個人、事物、概念或經歷聯繫起來，使其中一個令人想到另一個」。",
       "sentenceIndex": 1,
@@ -228,12 +216,8 @@ export default {
         "associate"
       ],
       "optionReasons": {
-        "associate-mcq-01": "本句指「在思想中把兩個人、事物、概念或經歷聯繫起來，使其中一個令人想到另一個」。",
-        "associate-mcq-02": "「與某人、事物、情況、機構或結果存在關聯」與本句語境不同。",
-        "associate-mcq-03": "「與某人來往、交往或保持社交接觸」與本句語境不同。",
-        "associate-mcq-04": "「與某人有工作、商業或專業關係的同事、夥伴或同業人士」與本句語境不同。",
-        "associate-mcq-05": "「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」與本句語境不同。",
-        "associate-mcq-06": "「兩個人、事物、概念或經歷之間的心理或實際聯繫」與本句語境不同。"
+        "associate-mcq-01": "本句的「associate」指「在思想中把兩個人、事物、概念或經歷聯繫起來，使其中一個令人想到另一個」。",
+        "associate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-01"
     },
@@ -245,11 +229,7 @@ export default {
       "masked": "I always ____ this smell with my childhood.",
       "options": [
         "associate-mcq-01",
-        "associate-mcq-02",
-        "associate-mcq-03",
-        "associate-mcq-04",
-        "associate-mcq-05",
-        "associate-mcq-06"
+        "associate-mcq-05"
       ],
       "explanation": "本句的「associate」指「在思想中把兩個人、事物、概念或經歷聯繫起來，使其中一個令人想到另一個」。",
       "sentenceIndex": 2,
@@ -258,12 +238,8 @@ export default {
         "associate"
       ],
       "optionReasons": {
-        "associate-mcq-01": "本句指「在思想中把兩個人、事物、概念或經歷聯繫起來，使其中一個令人想到另一個」。",
-        "associate-mcq-02": "「與某人、事物、情況、機構或結果存在關聯」與本句語境不同。",
-        "associate-mcq-03": "「與某人來往、交往或保持社交接觸」與本句語境不同。",
-        "associate-mcq-04": "「與某人有工作、商業或專業關係的同事、夥伴或同業人士」與本句語境不同。",
-        "associate-mcq-05": "「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」與本句語境不同。",
-        "associate-mcq-06": "「兩個人、事物、概念或經歷之間的心理或實際聯繫」與本句語境不同。"
+        "associate-mcq-01": "本句的「associate」指「在思想中把兩個人、事物、概念或經歷聯繫起來，使其中一個令人想到另一個」。",
+        "associate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-01"
     },
@@ -275,11 +251,7 @@ export default {
       "masked": "He rarely ____ people from work outside office hours.",
       "options": [
         "associate-mcq-03",
-        "associate-mcq-02",
-        "associate-mcq-04",
-        "associate-mcq-01",
-        "associate-mcq-05",
-        "associate-mcq-06"
+        "associate-mcq-08"
       ],
       "explanation": "本句的「associates with」指「與某人來往、交往或保持社交接觸」。",
       "sentenceIndex": 5,
@@ -288,12 +260,8 @@ export default {
         "associates with"
       ],
       "optionReasons": {
-        "associate-mcq-03": "本句指「與某人來往、交往或保持社交接觸」。",
-        "associate-mcq-02": "「與某人、事物、情況、機構或結果存在關聯」與本句語境不同。",
-        "associate-mcq-04": "「與某人有工作、商業或專業關係的同事、夥伴或同業人士」與本句語境不同。",
-        "associate-mcq-01": "「在思想中把兩個人、事物、概念或經歷聯繫起來，使其中一個令人想到另一個」與本句語境不同。",
-        "associate-mcq-05": "「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」與本句語境不同。",
-        "associate-mcq-06": "「兩個人、事物、概念或經歷之間的心理或實際聯繫」與本句語境不同。"
+        "associate-mcq-03": "本句的「associates with」指「與某人來往、交往或保持社交接觸」。",
+        "associate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-03"
     },
@@ -305,10 +273,6 @@ export default {
       "masked": "She began to ____ a new group of friends.",
       "options": [
         "associate-mcq-03",
-        "associate-mcq-02",
-        "associate-mcq-04",
-        "associate-mcq-01",
-        "associate-mcq-05",
         "associate-mcq-06"
       ],
       "explanation": "本句的「associate with」指「與某人來往、交往或保持社交接觸」。",
@@ -318,12 +282,8 @@ export default {
         "associate with"
       ],
       "optionReasons": {
-        "associate-mcq-03": "本句指「與某人來往、交往或保持社交接觸」。",
-        "associate-mcq-02": "「與某人、事物、情況、機構或結果存在關聯」與本句語境不同。",
-        "associate-mcq-04": "「與某人有工作、商業或專業關係的同事、夥伴或同業人士」與本句語境不同。",
-        "associate-mcq-01": "「在思想中把兩個人、事物、概念或經歷聯繫起來，使其中一個令人想到另一個」與本句語境不同。",
-        "associate-mcq-05": "「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」與本句語境不同。",
-        "associate-mcq-06": "「兩個人、事物、概念或經歷之間的心理或實際聯繫」與本句語境不同。"
+        "associate-mcq-03": "本句的「associate with」指「與某人來往、交往或保持社交接觸」。",
+        "associate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-03"
     },
@@ -335,11 +295,7 @@ export default {
       "masked": "He introduced me to one of his business ____.",
       "options": [
         "associate-mcq-04",
-        "associate-mcq-03",
-        "associate-mcq-05",
-        "associate-mcq-02",
-        "associate-mcq-06",
-        "associate-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「associates」指「與某人有工作、商業或專業關係的同事、夥伴或同業人士」。",
       "sentenceIndex": 9,
@@ -348,12 +304,8 @@ export default {
         "associates"
       ],
       "optionReasons": {
-        "associate-mcq-04": "本句指「與某人有工作、商業或專業關係的同事、夥伴或同業人士」。",
-        "associate-mcq-03": "「與某人來往、交往或保持社交接觸」與本句語境不同。",
-        "associate-mcq-05": "「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」與本句語境不同。",
-        "associate-mcq-02": "「與某人、事物、情況、機構或結果存在關聯」與本句語境不同。",
-        "associate-mcq-06": "「兩個人、事物、概念或經歷之間的心理或實際聯繫」與本句語境不同。",
-        "associate-mcq-01": "「在思想中把兩個人、事物、概念或經歷聯繫起來，使其中一個令人想到另一個」與本句語境不同。"
+        "associate-mcq-04": "本句的「associates」指「與某人有工作、商業或專業關係的同事、夥伴或同業人士」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-04"
     },
@@ -365,11 +317,7 @@ export default {
       "masked": "Several of her former ____ attended the event.",
       "options": [
         "associate-mcq-04",
-        "associate-mcq-03",
-        "associate-mcq-05",
-        "associate-mcq-02",
-        "associate-mcq-06",
-        "associate-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「associates」指「與某人有工作、商業或專業關係的同事、夥伴或同業人士」。",
       "sentenceIndex": 10,
@@ -378,12 +326,8 @@ export default {
         "associates"
       ],
       "optionReasons": {
-        "associate-mcq-04": "本句指「與某人有工作、商業或專業關係的同事、夥伴或同業人士」。",
-        "associate-mcq-03": "「與某人來往、交往或保持社交接觸」與本句語境不同。",
-        "associate-mcq-05": "「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」與本句語境不同。",
-        "associate-mcq-02": "「與某人、事物、情況、機構或結果存在關聯」與本句語境不同。",
-        "associate-mcq-06": "「兩個人、事物、概念或經歷之間的心理或實際聯繫」與本句語境不同。",
-        "associate-mcq-01": "「在思想中把兩個人、事物、概念或經歷聯繫起來，使其中一個令人想到另一個」與本句語境不同。"
+        "associate-mcq-04": "本句的「associates」指「與某人有工作、商業或專業關係的同事、夥伴或同業人士」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-04"
     },
@@ -395,11 +339,7 @@ export default {
       "masked": "She works as a research ____.",
       "options": [
         "associate-mcq-05",
-        "associate-mcq-04",
-        "associate-mcq-06",
-        "associate-mcq-03",
-        "associate-mcq-07",
-        "associate-mcq-02"
+        "associate-mcq-08"
       ],
       "explanation": "本句的「associate」指「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」。",
       "sentenceIndex": 11,
@@ -408,12 +348,8 @@ export default {
         "associate"
       ],
       "optionReasons": {
-        "associate-mcq-05": "本句指「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」。",
-        "associate-mcq-04": "「與某人有工作、商業或專業關係的同事、夥伴或同業人士」與本句語境不同。",
-        "associate-mcq-06": "「兩個人、事物、概念或經歷之間的心理或實際聯繫」與本句語境不同。",
-        "associate-mcq-03": "「與某人來往、交往或保持社交接觸」與本句語境不同。",
-        "associate-mcq-07": "「因共同職業、興趣、目的或身分組成的正式協會／團體」與本句語境不同。",
-        "associate-mcq-02": "「與某人、事物、情況、機構或結果存在關聯」與本句語境不同。"
+        "associate-mcq-05": "本句的「associate」指「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」。",
+        "associate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-05"
     },
@@ -425,11 +361,7 @@ export default {
       "masked": "He was promoted to ____.",
       "options": [
         "associate-mcq-05",
-        "associate-mcq-04",
-        "associate-mcq-06",
-        "associate-mcq-03",
-        "associate-mcq-07",
-        "associate-mcq-02"
+        "associate-mcq-08"
       ],
       "explanation": "本句的「associate director」指「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」。",
       "sentenceIndex": 12,
@@ -438,12 +370,8 @@ export default {
         "associate director"
       ],
       "optionReasons": {
-        "associate-mcq-05": "本句指「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」。",
-        "associate-mcq-04": "「與某人有工作、商業或專業關係的同事、夥伴或同業人士」與本句語境不同。",
-        "associate-mcq-06": "「兩個人、事物、概念或經歷之間的心理或實際聯繫」與本句語境不同。",
-        "associate-mcq-03": "「與某人來往、交往或保持社交接觸」與本句語境不同。",
-        "associate-mcq-07": "「因共同職業、興趣、目的或身分組成的正式協會／團體」與本句語境不同。",
-        "associate-mcq-02": "「與某人、事物、情況、機構或結果存在關聯」與本句語境不同。"
+        "associate-mcq-05": "本句的「associate director」指「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」。",
+        "associate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-05"
     },
@@ -455,11 +383,7 @@ export default {
       "masked": "He became an ____ of the society.",
       "options": [
         "associate-mcq-05",
-        "associate-mcq-04",
-        "associate-mcq-06",
-        "associate-mcq-03",
-        "associate-mcq-07",
-        "associate-mcq-02"
+        "associate-mcq-06"
       ],
       "explanation": "本句的「associate member」指「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」。",
       "sentenceIndex": 13,
@@ -468,12 +392,8 @@ export default {
         "associate member"
       ],
       "optionReasons": {
-        "associate-mcq-05": "本句指「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」。",
-        "associate-mcq-04": "「與某人有工作、商業或專業關係的同事、夥伴或同業人士」與本句語境不同。",
-        "associate-mcq-06": "「兩個人、事物、概念或經歷之間的心理或實際聯繫」與本句語境不同。",
-        "associate-mcq-03": "「與某人來往、交往或保持社交接觸」與本句語境不同。",
-        "associate-mcq-07": "「因共同職業、興趣、目的或身分組成的正式協會／團體」與本句語境不同。",
-        "associate-mcq-02": "「與某人、事物、情況、機構或結果存在關聯」與本句語境不同。"
+        "associate-mcq-05": "本句的「associate member」指「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」。",
+        "associate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-05"
     },
@@ -485,11 +405,7 @@ export default {
       "masked": "She is an ____ of the journal.",
       "options": [
         "associate-mcq-05",
-        "associate-mcq-04",
-        "associate-mcq-06",
-        "associate-mcq-03",
-        "associate-mcq-07",
-        "associate-mcq-02"
+        "associate-mcq-06"
       ],
       "explanation": "本句的「associate editor」指「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」。",
       "sentenceIndex": 14,
@@ -498,12 +414,8 @@ export default {
         "associate editor"
       ],
       "optionReasons": {
-        "associate-mcq-05": "本句指「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」。",
-        "associate-mcq-04": "「與某人有工作、商業或專業關係的同事、夥伴或同業人士」與本句語境不同。",
-        "associate-mcq-06": "「兩個人、事物、概念或經歷之間的心理或實際聯繫」與本句語境不同。",
-        "associate-mcq-03": "「與某人來往、交往或保持社交接觸」與本句語境不同。",
-        "associate-mcq-07": "「因共同職業、興趣、目的或身分組成的正式協會／團體」與本句語境不同。",
-        "associate-mcq-02": "「與某人、事物、情況、機構或結果存在關聯」與本句語境不同。"
+        "associate-mcq-05": "本句的「associate editor」指「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」。",
+        "associate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-05"
     },
@@ -515,11 +427,7 @@ export default {
       "masked": "The smell has a strong ____ with childhood memories.",
       "options": [
         "associate-mcq-06",
-        "associate-mcq-05",
-        "associate-mcq-07",
-        "associate-mcq-04",
-        "associate-mcq-08",
-        "associate-mcq-03"
+        "associate-mcq-05"
       ],
       "explanation": "本句的「association」指「兩個人、事物、概念或經歷之間的心理或實際聯繫」。",
       "sentenceIndex": 17,
@@ -528,12 +436,8 @@ export default {
         "association"
       ],
       "optionReasons": {
-        "associate-mcq-06": "本句指「兩個人、事物、概念或經歷之間的心理或實際聯繫」。",
-        "associate-mcq-05": "「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」與本句語境不同。",
-        "associate-mcq-07": "「因共同職業、興趣、目的或身分組成的正式協會／團體」與本句語境不同。",
-        "associate-mcq-04": "「與某人有工作、商業或專業關係的同事、夥伴或同業人士」與本句語境不同。",
-        "associate-mcq-08": "「與聯想或事物之間的連結思維有關的」與本句語境不同。",
-        "associate-mcq-03": "「與某人來往、交往或保持社交接觸」與本句語境不同。"
+        "associate-mcq-06": "本句的「association」指「兩個人、事物、概念或經歷之間的心理或實際聯繫」。",
+        "associate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-06"
     },
@@ -545,11 +449,7 @@ export default {
       "masked": "She belongs to a professional ____.",
       "options": [
         "associate-mcq-07",
-        "associate-mcq-06",
-        "associate-mcq-08",
-        "associate-mcq-05",
-        "associate-mcq-04",
-        "associate-mcq-03"
+        "associate-mcq-01"
       ],
       "explanation": "本句的「association」指「因共同職業、興趣、目的或身分組成的正式協會／團體」。",
       "sentenceIndex": 18,
@@ -558,12 +458,8 @@ export default {
         "association"
       ],
       "optionReasons": {
-        "associate-mcq-07": "本句指「因共同職業、興趣、目的或身分組成的正式協會／團體」。",
-        "associate-mcq-06": "「兩個人、事物、概念或經歷之間的心理或實際聯繫」與本句語境不同。",
-        "associate-mcq-08": "「與聯想或事物之間的連結思維有關的」與本句語境不同。",
-        "associate-mcq-05": "「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」與本句語境不同。",
-        "associate-mcq-04": "「與某人有工作、商業或專業關係的同事、夥伴或同業人士」與本句語境不同。",
-        "associate-mcq-03": "「與某人來往、交往或保持社交接觸」與本句語境不同。"
+        "associate-mcq-07": "本句的「association」指「因共同職業、興趣、目的或身分組成的正式協會／團體」。",
+        "associate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-07"
     },
@@ -575,11 +471,7 @@ export default {
       "masked": "The local residents’ ____ held a meeting.",
       "options": [
         "associate-mcq-07",
-        "associate-mcq-06",
-        "associate-mcq-08",
-        "associate-mcq-05",
-        "associate-mcq-04",
-        "associate-mcq-03"
+        "associate-mcq-06"
       ],
       "explanation": "本句的「association」指「因共同職業、興趣、目的或身分組成的正式協會／團體」。",
       "sentenceIndex": 19,
@@ -588,12 +480,8 @@ export default {
         "association"
       ],
       "optionReasons": {
-        "associate-mcq-07": "本句指「因共同職業、興趣、目的或身分組成的正式協會／團體」。",
-        "associate-mcq-06": "「兩個人、事物、概念或經歷之間的心理或實際聯繫」與本句語境不同。",
-        "associate-mcq-08": "「與聯想或事物之間的連結思維有關的」與本句語境不同。",
-        "associate-mcq-05": "「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」與本句語境不同。",
-        "associate-mcq-04": "「與某人有工作、商業或專業關係的同事、夥伴或同業人士」與本句語境不同。",
-        "associate-mcq-03": "「與某人來往、交往或保持社交接觸」與本句語境不同。"
+        "associate-mcq-07": "本句的「association」指「因共同職業、興趣、目的或身分組成的正式協會／團體」。",
+        "associate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-07"
     },
@@ -605,10 +493,6 @@ export default {
       "masked": "The exercise encourages ____ thinking.",
       "options": [
         "associate-mcq-08",
-        "associate-mcq-07",
-        "associate-mcq-06",
-        "associate-mcq-05",
-        "associate-mcq-04",
         "associate-mcq-03"
       ],
       "explanation": "本句的「associative」指「與聯想或事物之間的連結思維有關的」。",
@@ -618,12 +502,8 @@ export default {
         "associative"
       ],
       "optionReasons": {
-        "associate-mcq-08": "本句指「與聯想或事物之間的連結思維有關的」。",
-        "associate-mcq-07": "「因共同職業、興趣、目的或身分組成的正式協會／團體」與本句語境不同。",
-        "associate-mcq-06": "「兩個人、事物、概念或經歷之間的心理或實際聯繫」與本句語境不同。",
-        "associate-mcq-05": "「某些機構中的副級、初級、中階或準會員性質職位；具體含義依機構而定」與本句語境不同。",
-        "associate-mcq-04": "「與某人有工作、商業或專業關係的同事、夥伴或同業人士」與本句語境不同。",
-        "associate-mcq-03": "「與某人來往、交往或保持社交接觸」與本句語境不同。"
+        "associate-mcq-08": "本句的「associative」指「與聯想或事物之間的連結思維有關的」。",
+        "associate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "associate-mcq-08"
     }
@@ -635,5 +515,12 @@ export default {
     "sha256": "e02312297c1b79e3df37dae885fd0b49e811b5e2fdc90a2d06ee5c491d25b613",
     "pages": 11
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

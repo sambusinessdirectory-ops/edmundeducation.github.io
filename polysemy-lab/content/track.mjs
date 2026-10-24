@@ -659,11 +659,9 @@ export default {
       "masked": "The train stopped on the ____.",
       "options": [
         "track-mcq-01",
-        "track-mcq-02",
-        "track-mcq-03",
-        "track-mcq-04",
-        "track-mcq-05",
-        "track-mcq-06"
+        "track-mcq-06",
+        "track-mcq-09",
+        "track-mcq-21"
       ],
       "explanation": "本句的「track」指「軌道；路軌」。",
       "sentenceIndex": 0,
@@ -672,12 +670,10 @@ export default {
         "track"
       ],
       "optionReasons": {
-        "track-mcq-01": "本句指「軌道；路軌」。",
-        "track-mcq-02": "「跑道」與本句語境不同。",
-        "track-mcq-03": "「小徑；泥路」與本句語境不同。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。"
+        "track-mcq-01": "本句的「track」指「軌道；路軌」。",
+        "track-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-01"
     },
@@ -689,11 +685,9 @@ export default {
       "masked": "Workers repaired the railway ____.",
       "options": [
         "track-mcq-01",
-        "track-mcq-02",
-        "track-mcq-03",
-        "track-mcq-04",
-        "track-mcq-05",
-        "track-mcq-06"
+        "track-mcq-06",
+        "track-mcq-22",
+        "track-mcq-11"
       ],
       "explanation": "本句的「tracks」指「軌道；路軌」。",
       "sentenceIndex": 1,
@@ -702,12 +696,10 @@ export default {
         "tracks"
       ],
       "optionReasons": {
-        "track-mcq-01": "本句指「軌道；路軌」。",
-        "track-mcq-02": "「跑道」與本句語境不同。",
-        "track-mcq-03": "「小徑；泥路」與本句語境不同。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。"
+        "track-mcq-01": "本句的「tracks」指「軌道；路軌」。",
+        "track-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-01"
     },
@@ -719,11 +711,9 @@ export default {
       "masked": "Never walk on the ____.",
       "options": [
         "track-mcq-01",
-        "track-mcq-02",
-        "track-mcq-03",
-        "track-mcq-04",
-        "track-mcq-05",
-        "track-mcq-06"
+        "track-mcq-07",
+        "track-mcq-10",
+        "track-mcq-16"
       ],
       "explanation": "本句的「tracks」指「軌道；路軌」。",
       "sentenceIndex": 2,
@@ -732,12 +722,10 @@ export default {
         "tracks"
       ],
       "optionReasons": {
-        "track-mcq-01": "本句指「軌道；路軌」。",
-        "track-mcq-02": "「跑道」與本句語境不同。",
-        "track-mcq-03": "「小徑；泥路」與本句語境不同。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。"
+        "track-mcq-01": "本句的「tracks」指「軌道；路軌」。",
+        "track-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-01"
     },
@@ -749,11 +737,9 @@ export default {
       "masked": "The road crosses the ____.",
       "options": [
         "track-pdf-001",
+        "track-mcq-06",
         "track-mcq-02",
-        "track-mcq-03",
-        "track-mcq-04",
-        "track-mcq-05",
-        "track-mcq-06"
+        "track-mcq-09"
       ],
       "explanation": "本句的「railway tracks」指「供火車行駛的鋼軌路線」。",
       "sentenceIndex": 3,
@@ -762,12 +748,10 @@ export default {
         "railway tracks"
       ],
       "optionReasons": {
-        "track-pdf-001": "本句指「供火車行駛的鋼軌路線」。",
-        "track-mcq-02": "「跑道」與本句語境不同。",
-        "track-mcq-03": "「小徑；泥路」與本句語境不同。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。"
+        "track-pdf-001": "本句的「railway tracks」指「供火車行駛的鋼軌路線」。",
+        "track-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-pdf-001"
     },
@@ -779,11 +763,9 @@ export default {
       "masked": "A tree fell across the ____.",
       "options": [
         "track-pdf-001",
-        "track-mcq-02",
-        "track-mcq-03",
-        "track-mcq-04",
-        "track-mcq-05",
-        "track-mcq-06"
+        "track-mcq-07",
+        "track-mcq-19",
+        "track-mcq-09"
       ],
       "explanation": "本句的「train track」指「供火車行駛的鋼軌路線」。",
       "sentenceIndex": 4,
@@ -792,12 +774,10 @@ export default {
         "train track"
       ],
       "optionReasons": {
-        "track-pdf-001": "本句指「供火車行駛的鋼軌路線」。",
-        "track-mcq-02": "「跑道」與本句語境不同。",
-        "track-mcq-03": "「小徑；泥路」與本句語境不同。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。"
+        "track-pdf-001": "本句的「train track」指「供火車行駛的鋼軌路線」。",
+        "track-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-pdf-001"
     },
@@ -809,11 +789,9 @@ export default {
       "masked": "The runners went onto the ____.",
       "options": [
         "track-mcq-02",
-        "track-mcq-01",
-        "track-mcq-03",
-        "track-mcq-04",
-        "track-mcq-05",
-        "track-mcq-06"
+        "track-mcq-07",
+        "track-mcq-16",
+        "track-mcq-10"
       ],
       "explanation": "本句的「track」指「跑道」。",
       "sentenceIndex": 5,
@@ -822,12 +800,10 @@ export default {
         "track"
       ],
       "optionReasons": {
-        "track-mcq-02": "本句指「跑道」。",
-        "track-mcq-01": "「軌道；路軌」與本句語境不同。",
-        "track-mcq-03": "「小徑；泥路」與本句語境不同。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。"
+        "track-mcq-02": "本句的「track」指「跑道」。",
+        "track-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-02"
     },
@@ -839,11 +815,9 @@ export default {
       "masked": "She trains on the athletics ____ every morning.",
       "options": [
         "track-mcq-02",
-        "track-mcq-01",
-        "track-mcq-03",
-        "track-mcq-04",
-        "track-mcq-05",
-        "track-mcq-06"
+        "track-mcq-06",
+        "track-mcq-12",
+        "track-mcq-22"
       ],
       "explanation": "本句的「track」指「跑道」。",
       "sentenceIndex": 6,
@@ -852,12 +826,10 @@ export default {
         "track"
       ],
       "optionReasons": {
-        "track-mcq-02": "本句指「跑道」。",
-        "track-mcq-01": "「軌道；路軌」與本句語境不同。",
-        "track-mcq-03": "「小徑；泥路」與本句語境不同。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。"
+        "track-mcq-02": "本句的「track」指「跑道」。",
+        "track-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-02"
     },
@@ -869,11 +841,9 @@ export default {
       "masked": "We followed a narrow ____ through the forest.",
       "options": [
         "track-mcq-03",
-        "track-mcq-02",
+        "track-mcq-19",
         "track-mcq-04",
-        "track-mcq-01",
-        "track-mcq-05",
-        "track-mcq-06"
+        "track-mcq-11"
       ],
       "explanation": "本句的「track」指「小徑；泥路」。",
       "sentenceIndex": 9,
@@ -882,12 +852,10 @@ export default {
         "track"
       ],
       "optionReasons": {
-        "track-mcq-03": "本句指「小徑；泥路」。",
-        "track-mcq-02": "「跑道」與本句語境不同。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
-        "track-mcq-01": "「軌道；路軌」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。"
+        "track-mcq-03": "本句的「track」指「小徑；泥路」。",
+        "track-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-03"
     },
@@ -899,11 +867,9 @@ export default {
       "masked": "The farm is reached by a dirt ____.",
       "options": [
         "track-mcq-03",
-        "track-mcq-02",
-        "track-mcq-04",
-        "track-mcq-01",
-        "track-mcq-05",
-        "track-mcq-06"
+        "track-pdf-002",
+        "track-mcq-07",
+        "track-mcq-16"
       ],
       "explanation": "本句的「track」指「小徑；泥路」。",
       "sentenceIndex": 10,
@@ -912,12 +878,10 @@ export default {
         "track"
       ],
       "optionReasons": {
-        "track-mcq-03": "本句指「小徑；泥路」。",
-        "track-mcq-02": "「跑道」與本句語境不同。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
-        "track-mcq-01": "「軌道；路軌」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。"
+        "track-mcq-03": "本句的「track」指「小徑；泥路」。",
+        "track-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-03"
     },
@@ -929,11 +893,9 @@ export default {
       "masked": "We found animal ____ in the mud.",
       "options": [
         "track-mcq-04",
-        "track-mcq-03",
-        "track-mcq-05",
-        "track-mcq-02",
-        "track-mcq-06",
-        "track-mcq-01"
+        "track-mcq-22",
+        "track-pdf-003",
+        "track-mcq-16"
       ],
       "explanation": "本句的「tracks」指「足跡；蹤跡」。",
       "sentenceIndex": 11,
@@ -942,12 +904,10 @@ export default {
         "tracks"
       ],
       "optionReasons": {
-        "track-mcq-04": "本句指「足跡；蹤跡」。",
-        "track-mcq-03": "「小徑；泥路」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-02": "「跑道」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。",
-        "track-mcq-01": "「軌道；路軌」與本句語境不同。"
+        "track-mcq-04": "本句的「tracks」指「足跡；蹤跡」。",
+        "track-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "track-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-04"
     },
@@ -959,11 +919,9 @@ export default {
       "masked": "The snow showed fresh ____.",
       "options": [
         "track-mcq-04",
-        "track-mcq-03",
-        "track-mcq-05",
-        "track-mcq-02",
-        "track-mcq-06",
-        "track-mcq-01"
+        "track-mcq-16",
+        "track-mcq-13",
+        "track-mcq-03"
       ],
       "explanation": "本句的「tracks」指「足跡；蹤跡」。",
       "sentenceIndex": 12,
@@ -972,12 +930,10 @@ export default {
         "tracks"
       ],
       "optionReasons": {
-        "track-mcq-04": "本句指「足跡；蹤跡」。",
-        "track-mcq-03": "「小徑；泥路」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-02": "「跑道」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。",
-        "track-mcq-01": "「軌道；路軌」與本句語境不同。"
+        "track-mcq-04": "本句的「tracks」指「足跡；蹤跡」。",
+        "track-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-04"
     },
@@ -989,11 +945,9 @@ export default {
       "masked": "Scientists ____ using GPS.",
       "options": [
         "track-mcq-05",
-        "track-mcq-04",
-        "track-mcq-06",
         "track-mcq-03",
-        "track-mcq-07",
-        "track-mcq-02"
+        "track-mcq-16",
+        "track-mcq-10"
       ],
       "explanation": "本句的「tracked the animals」指「追蹤；監察」。",
       "sentenceIndex": 15,
@@ -1002,12 +956,10 @@ export default {
         "tracked the animals"
       ],
       "optionReasons": {
-        "track-mcq-05": "本句指「追蹤；監察」。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。",
-        "track-mcq-03": "「小徑；泥路」與本句語境不同。",
-        "track-mcq-07": "「追蹤進度」與本句語境不同。",
-        "track-mcq-02": "「跑道」與本句語境不同。"
+        "track-mcq-05": "本句的「tracked the animals」指「追蹤；監察」。",
+        "track-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-05"
     },
@@ -1019,11 +971,9 @@ export default {
       "masked": "Police are trying to ____.",
       "options": [
         "track-mcq-05",
-        "track-mcq-04",
-        "track-mcq-06",
-        "track-mcq-03",
-        "track-mcq-07",
-        "track-mcq-02"
+        "track-mcq-09",
+        "track-pdf-003",
+        "track-mcq-17"
       ],
       "explanation": "本句的「track the vehicle」指「追蹤；監察」。",
       "sentenceIndex": 16,
@@ -1032,12 +982,10 @@ export default {
         "track the vehicle"
       ],
       "optionReasons": {
-        "track-mcq-05": "本句指「追蹤；監察」。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。",
-        "track-mcq-03": "「小徑；泥路」與本句語境不同。",
-        "track-mcq-07": "「追蹤進度」與本句語境不同。",
-        "track-mcq-02": "「跑道」與本句語境不同。"
+        "track-mcq-05": "本句的「track the vehicle」指「追蹤；監察」。",
+        "track-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "track-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-05"
     },
@@ -1049,11 +997,9 @@ export default {
       "masked": "You can ____ online.",
       "options": [
         "track-mcq-06",
-        "track-mcq-05",
-        "track-mcq-07",
-        "track-mcq-04",
-        "track-mcq-08",
-        "track-mcq-03"
+        "track-pdf-003",
+        "track-mcq-03",
+        "track-mcq-12"
       ],
       "explanation": "本句的「track your package」指「追蹤包裹」。",
       "sentenceIndex": 17,
@@ -1062,12 +1008,10 @@ export default {
         "track your package"
       ],
       "optionReasons": {
-        "track-mcq-06": "本句指「追蹤包裹」。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-07": "「追蹤進度」與本句語境不同。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
-        "track-mcq-08": "「記錄開支」與本句語境不同。",
-        "track-mcq-03": "「小徑；泥路」與本句語境不同。"
+        "track-mcq-06": "本句的「track your package」指「追蹤包裹」。",
+        "track-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-06"
     },
@@ -1079,11 +1023,9 @@ export default {
       "masked": "The app lets customers ____.",
       "options": [
         "track-mcq-06",
-        "track-mcq-05",
-        "track-mcq-07",
-        "track-mcq-04",
-        "track-mcq-08",
-        "track-mcq-03"
+        "track-mcq-03",
+        "track-pdf-001",
+        "track-mcq-11"
       ],
       "explanation": "本句的「track deliveries」指「追蹤包裹」。",
       "sentenceIndex": 18,
@@ -1092,12 +1034,10 @@ export default {
         "track deliveries"
       ],
       "optionReasons": {
-        "track-mcq-06": "本句指「追蹤包裹」。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-07": "「追蹤進度」與本句語境不同。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。",
-        "track-mcq-08": "「記錄開支」與本句語境不同。",
-        "track-mcq-03": "「小徑；泥路」與本句語境不同。"
+        "track-mcq-06": "本句的「track deliveries」指「追蹤包裹」。",
+        "track-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "track-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-06"
     },
@@ -1109,11 +1049,9 @@ export default {
       "masked": "I use a planner to ____.",
       "options": [
         "track-mcq-07",
-        "track-mcq-06",
-        "track-mcq-08",
-        "track-mcq-05",
-        "track-mcq-09",
-        "track-mcq-04"
+        "track-mcq-22",
+        "track-mcq-02",
+        "track-mcq-12"
       ],
       "explanation": "本句的「track my progress」指「追蹤進度」。",
       "sentenceIndex": 19,
@@ -1122,12 +1060,10 @@ export default {
         "track my progress"
       ],
       "optionReasons": {
-        "track-mcq-07": "本句指「追蹤進度」。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。",
-        "track-mcq-08": "「記錄開支」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-09": "「掌握；持續記錄」與本句語境不同。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。"
+        "track-mcq-07": "本句的「track my progress」指「追蹤進度」。",
+        "track-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-07"
     },
@@ -1139,11 +1075,9 @@ export default {
       "masked": "The app helps you ____ over time.",
       "options": [
         "track-mcq-07",
-        "track-mcq-06",
-        "track-mcq-08",
-        "track-mcq-05",
-        "track-mcq-09",
-        "track-mcq-04"
+        "track-mcq-10",
+        "track-mcq-12",
+        "track-mcq-16"
       ],
       "explanation": "本句的「track your progress」指「追蹤進度」。",
       "sentenceIndex": 20,
@@ -1152,12 +1086,10 @@ export default {
         "track your progress"
       ],
       "optionReasons": {
-        "track-mcq-07": "本句指「追蹤進度」。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。",
-        "track-mcq-08": "「記錄開支」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-09": "「掌握；持續記錄」與本句語境不同。",
-        "track-mcq-04": "「足跡；蹤跡」與本句語境不同。"
+        "track-mcq-07": "本句的「track your progress」指「追蹤進度」。",
+        "track-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-07"
     },
@@ -1169,11 +1101,9 @@ export default {
       "masked": "I use an app to ____.",
       "options": [
         "track-mcq-08",
-        "track-mcq-07",
-        "track-mcq-09",
-        "track-mcq-06",
-        "track-mcq-10",
-        "track-mcq-05"
+        "track-mcq-15",
+        "track-mcq-19",
+        "track-mcq-06"
       ],
       "explanation": "本句的「track my spending」指「記錄開支」。",
       "sentenceIndex": 21,
@@ -1182,12 +1112,10 @@ export default {
         "track my spending"
       ],
       "optionReasons": {
-        "track-mcq-08": "本句指「記錄開支」。",
-        "track-mcq-07": "「追蹤進度」與本句語境不同。",
-        "track-mcq-09": "「掌握；持續記錄」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。"
+        "track-mcq-08": "本句的「track my spending」指「記錄開支」。",
+        "track-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-08"
     },
@@ -1199,11 +1127,9 @@ export default {
       "masked": "Businesses need to ____ carefully.",
       "options": [
         "track-mcq-08",
-        "track-mcq-07",
-        "track-mcq-09",
-        "track-mcq-06",
-        "track-mcq-10",
-        "track-mcq-05"
+        "track-mcq-12",
+        "track-mcq-04",
+        "track-pdf-004"
       ],
       "explanation": "本句的「track expenses」指「記錄開支」。",
       "sentenceIndex": 22,
@@ -1212,12 +1138,10 @@ export default {
         "track expenses"
       ],
       "optionReasons": {
-        "track-mcq-08": "本句指「記錄開支」。",
-        "track-mcq-07": "「追蹤進度」與本句語境不同。",
-        "track-mcq-09": "「掌握；持續記錄」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。"
+        "track-mcq-08": "本句的「track expenses」指「記錄開支」。",
+        "track-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "track-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-08"
     },
@@ -1229,11 +1153,9 @@ export default {
       "masked": "Managers ____.",
       "options": [
         "track-pdf-002",
-        "track-mcq-07",
-        "track-mcq-09",
-        "track-mcq-06",
+        "track-mcq-17",
         "track-mcq-10",
-        "track-mcq-05"
+        "track-mcq-16"
       ],
       "explanation": "本句的「track employee performance」指「持續量度和記錄表現的變化」。",
       "sentenceIndex": 23,
@@ -1242,12 +1164,10 @@ export default {
         "track employee performance"
       ],
       "optionReasons": {
-        "track-pdf-002": "本句指「持續量度和記錄表現的變化」。",
-        "track-mcq-07": "「追蹤進度」與本句語境不同。",
-        "track-mcq-09": "「掌握；持續記錄」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。"
+        "track-pdf-002": "本句的「track employee performance」指「持續量度和記錄表現的變化」。",
+        "track-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-pdf-002"
     },
@@ -1259,11 +1179,9 @@ export default {
       "masked": "The system ____ over several months.",
       "options": [
         "track-pdf-002",
-        "track-mcq-07",
-        "track-mcq-09",
         "track-mcq-06",
-        "track-mcq-10",
-        "track-mcq-05"
+        "track-mcq-21",
+        "track-mcq-12"
       ],
       "explanation": "本句的「tracks performance」指「持續量度和記錄表現的變化」。",
       "sentenceIndex": 24,
@@ -1272,12 +1190,10 @@ export default {
         "tracks performance"
       ],
       "optionReasons": {
-        "track-pdf-002": "本句指「持續量度和記錄表現的變化」。",
-        "track-mcq-07": "「追蹤進度」與本句語境不同。",
-        "track-mcq-09": "「掌握；持續記錄」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。",
-        "track-mcq-05": "「追蹤；監察」與本句語境不同。"
+        "track-pdf-002": "本句的「tracks performance」指「持續量度和記錄表現的變化」。",
+        "track-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-pdf-002"
     },
@@ -1289,11 +1205,9 @@ export default {
       "masked": "I use a planner to ____.",
       "options": [
         "track-mcq-09",
-        "track-mcq-08",
-        "track-mcq-10",
-        "track-mcq-07",
-        "track-mcq-11",
-        "track-mcq-06"
+        "track-mcq-13",
+        "track-mcq-19",
+        "track-mcq-03"
       ],
       "explanation": "本句的「keep track of deadlines」指「掌握；持續記錄」。",
       "sentenceIndex": 25,
@@ -1302,12 +1216,10 @@ export default {
         "keep track of deadlines"
       ],
       "optionReasons": {
-        "track-mcq-09": "本句指「掌握；持續記錄」。",
-        "track-mcq-08": "「記錄開支」與本句語境不同。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。",
-        "track-mcq-07": "「追蹤進度」與本句語境不同。",
-        "track-mcq-11": "「忘記時間」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。"
+        "track-mcq-09": "本句的「keep track of deadlines」指「掌握；持續記錄」。",
+        "track-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-09"
     },
@@ -1319,11 +1231,9 @@ export default {
       "masked": "It's difficult to ____ when you're busy.",
       "options": [
         "track-mcq-09",
-        "track-mcq-08",
-        "track-mcq-10",
-        "track-mcq-07",
-        "track-mcq-11",
-        "track-mcq-06"
+        "track-mcq-13",
+        "track-mcq-16",
+        "track-mcq-22"
       ],
       "explanation": "本句的「keep track of everything」指「掌握；持續記錄」。",
       "sentenceIndex": 26,
@@ -1332,12 +1242,10 @@ export default {
         "keep track of everything"
       ],
       "optionReasons": {
-        "track-mcq-09": "本句指「掌握；持續記錄」。",
-        "track-mcq-08": "「記錄開支」與本句語境不同。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。",
-        "track-mcq-07": "「追蹤進度」與本句語境不同。",
-        "track-mcq-11": "「忘記時間」與本句語境不同。",
-        "track-mcq-06": "「追蹤包裹」與本句語境不同。"
+        "track-mcq-09": "本句的「keep track of everything」指「掌握；持續記錄」。",
+        "track-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-09"
     },
@@ -1349,11 +1257,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "track-mcq-10",
-        "track-mcq-09",
-        "track-mcq-11",
-        "track-mcq-08",
-        "track-mcq-12",
-        "track-mcq-07"
+        "track-pdf-001",
+        "track-mcq-22",
+        "track-mcq-05"
       ],
       "explanation": "本句的「lost track of the deadline」指「失去掌握」。",
       "sentenceIndex": 27,
@@ -1362,12 +1268,10 @@ export default {
         "lost track of the deadline"
       ],
       "optionReasons": {
-        "track-mcq-10": "本句指「失去掌握」。",
-        "track-mcq-09": "「掌握；持續記錄」與本句語境不同。",
-        "track-mcq-11": "「忘記時間」與本句語境不同。",
-        "track-mcq-08": "「記錄開支」與本句語境不同。",
-        "track-mcq-12": "「按計劃；在正軌」與本句語境不同。",
-        "track-mcq-07": "「追蹤進度」與本句語境不同。"
+        "track-mcq-10": "本句的「lost track of the deadline」指「失去掌握」。",
+        "track-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-10"
     },
@@ -1379,11 +1283,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "track-mcq-10",
-        "track-mcq-09",
-        "track-mcq-11",
-        "track-mcq-08",
-        "track-mcq-12",
-        "track-mcq-07"
+        "track-mcq-13",
+        "track-mcq-19",
+        "track-mcq-04"
       ],
       "explanation": "本句的「lost track of how much we had spent」指「失去掌握」。",
       "sentenceIndex": 28,
@@ -1392,12 +1294,10 @@ export default {
         "lost track of how much we had spent"
       ],
       "optionReasons": {
-        "track-mcq-10": "本句指「失去掌握」。",
-        "track-mcq-09": "「掌握；持續記錄」與本句語境不同。",
-        "track-mcq-11": "「忘記時間」與本句語境不同。",
-        "track-mcq-08": "「記錄開支」與本句語境不同。",
-        "track-mcq-12": "「按計劃；在正軌」與本句語境不同。",
-        "track-mcq-07": "「追蹤進度」與本句語境不同。"
+        "track-mcq-10": "本句的「lost track of how much we had spent」指「失去掌握」。",
+        "track-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-10"
     },
@@ -1409,11 +1309,9 @@ export default {
       "masked": "I was so focused that I ____.",
       "options": [
         "track-mcq-11",
-        "track-mcq-10",
-        "track-mcq-12",
-        "track-mcq-09",
-        "track-mcq-13",
-        "track-mcq-08"
+        "track-pdf-003",
+        "track-mcq-04",
+        "track-mcq-22"
       ],
       "explanation": "本句的「lost track of time」指「忘記時間」。",
       "sentenceIndex": 29,
@@ -1422,12 +1320,10 @@ export default {
         "lost track of time"
       ],
       "optionReasons": {
-        "track-mcq-11": "本句指「忘記時間」。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。",
-        "track-mcq-12": "「按計劃；在正軌」與本句語境不同。",
-        "track-mcq-09": "「掌握；持續記錄」與本句語境不同。",
-        "track-mcq-13": "「重回正軌」與本句語境不同。",
-        "track-mcq-08": "「記錄開支」與本句語境不同。"
+        "track-mcq-11": "本句的「lost track of time」指「忘記時間」。",
+        "track-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-11"
     },
@@ -1439,11 +1335,9 @@ export default {
       "masked": "We talked for hours and completely ____.",
       "options": [
         "track-mcq-11",
-        "track-mcq-10",
-        "track-mcq-12",
-        "track-mcq-09",
-        "track-mcq-13",
-        "track-mcq-08"
+        "track-mcq-07",
+        "track-mcq-21",
+        "track-mcq-01"
       ],
       "explanation": "本句的「lost track of time」指「忘記時間」。",
       "sentenceIndex": 30,
@@ -1452,12 +1346,10 @@ export default {
         "lost track of time"
       ],
       "optionReasons": {
-        "track-mcq-11": "本句指「忘記時間」。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。",
-        "track-mcq-12": "「按計劃；在正軌」與本句語境不同。",
-        "track-mcq-09": "「掌握；持續記錄」與本句語境不同。",
-        "track-mcq-13": "「重回正軌」與本句語境不同。",
-        "track-mcq-08": "「記錄開支」與本句語境不同。"
+        "track-mcq-11": "本句的「lost track of time」指「忘記時間」。",
+        "track-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-11"
     },
@@ -1469,11 +1361,9 @@ export default {
       "masked": "The project is ____.",
       "options": [
         "track-mcq-12",
-        "track-mcq-11",
-        "track-mcq-13",
-        "track-mcq-10",
-        "track-mcq-14",
-        "track-mcq-09"
+        "track-mcq-09",
+        "track-mcq-18",
+        "track-mcq-04"
       ],
       "explanation": "本句的「on track」指「按計劃；在正軌」。",
       "sentenceIndex": 31,
@@ -1482,12 +1372,10 @@ export default {
         "on track"
       ],
       "optionReasons": {
-        "track-mcq-12": "本句指「按計劃；在正軌」。",
-        "track-mcq-11": "「忘記時間」與本句語境不同。",
-        "track-mcq-13": "「重回正軌」與本句語境不同。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。",
-        "track-mcq-09": "「掌握；持續記錄」與本句語境不同。"
+        "track-mcq-12": "本句的「on track」指「按計劃；在正軌」。",
+        "track-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-12"
     },
@@ -1499,11 +1387,9 @@ export default {
       "masked": "I'm finally ____ with my studies.",
       "options": [
         "track-mcq-12",
-        "track-mcq-11",
-        "track-mcq-13",
-        "track-mcq-10",
-        "track-mcq-14",
-        "track-mcq-09"
+        "track-mcq-03",
+        "track-mcq-19",
+        "track-mcq-05"
       ],
       "explanation": "本句的「on track」指「按計劃；在正軌」。",
       "sentenceIndex": 32,
@@ -1512,12 +1398,10 @@ export default {
         "on track"
       ],
       "optionReasons": {
-        "track-mcq-12": "本句指「按計劃；在正軌」。",
-        "track-mcq-11": "「忘記時間」與本句語境不同。",
-        "track-mcq-13": "「重回正軌」與本句語境不同。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。",
-        "track-mcq-09": "「掌握；持續記錄」與本句語境不同。"
+        "track-mcq-12": "本句的「on track」指「按計劃；在正軌」。",
+        "track-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-12"
     },
@@ -1529,10 +1413,8 @@ export default {
       "masked": "I know how to ____.",
       "options": [
         "track-mcq-13",
-        "track-mcq-12",
-        "track-mcq-14",
         "track-mcq-11",
-        "track-mcq-15",
+        "track-mcq-08",
         "track-mcq-10"
       ],
       "explanation": "本句的「get back on track」指「重回正軌」。",
@@ -1542,12 +1424,10 @@ export default {
         "get back on track"
       ],
       "optionReasons": {
-        "track-mcq-13": "本句指「重回正軌」。",
-        "track-mcq-12": "「按計劃；在正軌」與本句語境不同。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。",
-        "track-mcq-11": "「忘記時間」與本句語境不同。",
-        "track-mcq-15": "「偏離正軌／離題」與本句語境不同。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。"
+        "track-mcq-13": "本句的「get back on track」指「重回正軌」。",
+        "track-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-13"
     },
@@ -1559,11 +1439,9 @@ export default {
       "masked": "After a bad week, I used my planner to ____.",
       "options": [
         "track-mcq-13",
-        "track-mcq-12",
-        "track-mcq-14",
-        "track-mcq-11",
-        "track-mcq-15",
-        "track-mcq-10"
+        "track-mcq-10",
+        "track-mcq-23",
+        "track-mcq-22"
       ],
       "explanation": "本句的「get back on track」指「重回正軌」。",
       "sentenceIndex": 34,
@@ -1572,12 +1450,10 @@ export default {
         "get back on track"
       ],
       "optionReasons": {
-        "track-mcq-13": "本句指「重回正軌」。",
-        "track-mcq-12": "「按計劃；在正軌」與本句語境不同。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。",
-        "track-mcq-11": "「忘記時間」與本句語境不同。",
-        "track-mcq-15": "「偏離正軌／離題」與本句語境不同。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。"
+        "track-mcq-13": "本句的「get back on track」指「重回正軌」。",
+        "track-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-13"
     },
@@ -1589,11 +1465,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "track-mcq-13",
-        "track-mcq-12",
-        "track-mcq-14",
-        "track-mcq-11",
-        "track-mcq-15",
-        "track-mcq-10"
+        "track-mcq-05",
+        "track-mcq-22",
+        "track-mcq-19"
       ],
       "explanation": "本句的「get the project back on track」指「重回正軌」。",
       "sentenceIndex": 35,
@@ -1602,12 +1476,10 @@ export default {
         "get the project back on track"
       ],
       "optionReasons": {
-        "track-mcq-13": "本句指「重回正軌」。",
-        "track-mcq-12": "「按計劃；在正軌」與本句語境不同。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。",
-        "track-mcq-11": "「忘記時間」與本句語境不同。",
-        "track-mcq-15": "「偏離正軌／離題」與本句語境不同。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。"
+        "track-mcq-13": "本句的「get the project back on track」指「重回正軌」。",
+        "track-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-13"
     },
@@ -1619,11 +1491,9 @@ export default {
       "masked": "Better communication ____.",
       "options": [
         "track-mcq-13",
-        "track-mcq-12",
-        "track-mcq-14",
+        "track-mcq-24",
         "track-mcq-11",
-        "track-mcq-15",
-        "track-mcq-10"
+        "track-mcq-19"
       ],
       "explanation": "本句的「put the project back on track」指「重回正軌」。",
       "sentenceIndex": 36,
@@ -1632,12 +1502,10 @@ export default {
         "put the project back on track"
       ],
       "optionReasons": {
-        "track-mcq-13": "本句指「重回正軌」。",
-        "track-mcq-12": "「按計劃；在正軌」與本句語境不同。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。",
-        "track-mcq-11": "「忘記時間」與本句語境不同。",
-        "track-mcq-15": "「偏離正軌／離題」與本句語境不同。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。"
+        "track-mcq-13": "本句的「put the project back on track」指「重回正軌」。",
+        "track-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-13"
     },
@@ -1649,11 +1517,9 @@ export default {
       "masked": "The new routine helped ____.",
       "options": [
         "track-mcq-13",
-        "track-mcq-12",
-        "track-mcq-14",
-        "track-mcq-11",
-        "track-mcq-15",
-        "track-mcq-10"
+        "track-mcq-05",
+        "track-mcq-16",
+        "track-pdf-002"
       ],
       "explanation": "本句的「get my studies back on track」指「重回正軌」。",
       "sentenceIndex": 37,
@@ -1662,12 +1528,10 @@ export default {
         "get my studies back on track"
       ],
       "optionReasons": {
-        "track-mcq-13": "本句指「重回正軌」。",
-        "track-mcq-12": "「按計劃；在正軌」與本句語境不同。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。",
-        "track-mcq-11": "「忘記時間」與本句語境不同。",
-        "track-mcq-15": "「偏離正軌／離題」與本句語境不同。",
-        "track-mcq-10": "「失去掌握」與本句語境不同。"
+        "track-mcq-13": "本句的「get my studies back on track」指「重回正軌」。",
+        "track-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "track-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-13"
     },
@@ -1679,11 +1543,9 @@ export default {
       "masked": "The project has gone ____.",
       "options": [
         "track-mcq-15",
-        "track-mcq-14",
-        "track-mcq-16",
-        "track-mcq-13",
-        "track-mcq-17",
-        "track-mcq-12"
+        "track-mcq-07",
+        "track-pdf-004",
+        "track-mcq-10"
       ],
       "explanation": "本句的「off track」指「偏離正軌／離題」。",
       "sentenceIndex": 38,
@@ -1692,12 +1554,10 @@ export default {
         "off track"
       ],
       "optionReasons": {
-        "track-mcq-15": "本句指「偏離正軌／離題」。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。",
-        "track-mcq-16": "「曲目；歌曲」與本句語境不同。",
-        "track-mcq-13": "「重回正軌」與本句語境不同。",
-        "track-mcq-17": "「音軌」與本句語境不同。",
-        "track-mcq-12": "「按計劃；在正軌」與本句語境不同。"
+        "track-mcq-15": "本句的「off track」指「偏離正軌／離題」。",
+        "track-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "track-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-15"
     },
@@ -1709,11 +1569,9 @@ export default {
       "masked": "We're getting ____—let's return to the main question.",
       "options": [
         "track-mcq-15",
-        "track-mcq-14",
-        "track-mcq-16",
-        "track-mcq-13",
-        "track-mcq-17",
-        "track-mcq-12"
+        "track-mcq-05",
+        "track-mcq-22",
+        "track-mcq-03"
       ],
       "explanation": "本句的「off track」指「偏離正軌／離題」。",
       "sentenceIndex": 39,
@@ -1722,12 +1580,10 @@ export default {
         "off track"
       ],
       "optionReasons": {
-        "track-mcq-15": "本句指「偏離正軌／離題」。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。",
-        "track-mcq-16": "「曲目；歌曲」與本句語境不同。",
-        "track-mcq-13": "「重回正軌」與本句語境不同。",
-        "track-mcq-17": "「音軌」與本句語境不同。",
-        "track-mcq-12": "「按計劃；在正軌」與本句語境不同。"
+        "track-mcq-15": "本句的「off track」指「偏離正軌／離題」。",
+        "track-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-15"
     },
@@ -1739,11 +1595,9 @@ export default {
       "masked": "My routine sometimes ____ during busy weeks.",
       "options": [
         "track-mcq-15",
-        "track-mcq-14",
-        "track-mcq-16",
-        "track-mcq-13",
-        "track-mcq-17",
-        "track-mcq-12"
+        "track-mcq-09",
+        "track-mcq-06",
+        "track-pdf-004"
       ],
       "explanation": "本句的「goes off track」指「偏離正軌／離題」。",
       "sentenceIndex": 40,
@@ -1752,12 +1606,10 @@ export default {
         "goes off track"
       ],
       "optionReasons": {
-        "track-mcq-15": "本句指「偏離正軌／離題」。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。",
-        "track-mcq-16": "「曲目；歌曲」與本句語境不同。",
-        "track-mcq-13": "「重回正軌」與本句語境不同。",
-        "track-mcq-17": "「音軌」與本句語境不同。",
-        "track-mcq-12": "「按計劃；在正軌」與本句語境不同。"
+        "track-mcq-15": "本句的「goes off track」指「偏離正軌／離題」。",
+        "track-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "track-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-15"
     },
@@ -1769,11 +1621,9 @@ export default {
       "masked": "The discussion quickly ____.",
       "options": [
         "track-mcq-15",
-        "track-mcq-14",
-        "track-mcq-16",
-        "track-mcq-13",
-        "track-mcq-17",
-        "track-mcq-12"
+        "track-mcq-18",
+        "track-mcq-03",
+        "track-mcq-09"
       ],
       "explanation": "本句的「went off track」指「偏離正軌／離題」。",
       "sentenceIndex": 41,
@@ -1782,12 +1632,10 @@ export default {
         "went off track"
       ],
       "optionReasons": {
-        "track-mcq-15": "本句指「偏離正軌／離題」。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。",
-        "track-mcq-16": "「曲目；歌曲」與本句語境不同。",
-        "track-mcq-13": "「重回正軌」與本句語境不同。",
-        "track-mcq-17": "「音軌」與本句語境不同。",
-        "track-mcq-12": "「按計劃；在正軌」與本句語境不同。"
+        "track-mcq-15": "本句的「went off track」指「偏離正軌／離題」。",
+        "track-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-15"
     },
@@ -1799,11 +1647,9 @@ export default {
       "masked": "This is my favourite ____ on the album.",
       "options": [
         "track-mcq-16",
+        "track-mcq-05",
         "track-mcq-15",
-        "track-mcq-17",
-        "track-mcq-14",
-        "track-mcq-18",
-        "track-mcq-13"
+        "track-mcq-09"
       ],
       "explanation": "本句的「track」指「曲目；歌曲」。",
       "sentenceIndex": 46,
@@ -1812,12 +1658,10 @@ export default {
         "track"
       ],
       "optionReasons": {
-        "track-mcq-16": "本句指「曲目；歌曲」。",
-        "track-mcq-15": "「偏離正軌／離題」與本句語境不同。",
-        "track-mcq-17": "「音軌」與本句語境不同。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。",
-        "track-mcq-18": "「追查到；找到」與本句語境不同。",
-        "track-mcq-13": "「重回正軌」與本句語境不同。"
+        "track-mcq-16": "本句的「track」指「曲目；歌曲」。",
+        "track-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-16"
     },
@@ -1829,11 +1673,9 @@ export default {
       "masked": "The album contains twelve ____.",
       "options": [
         "track-mcq-16",
-        "track-mcq-15",
-        "track-mcq-17",
-        "track-mcq-14",
-        "track-mcq-18",
-        "track-mcq-13"
+        "track-mcq-03",
+        "track-mcq-06",
+        "track-mcq-12"
       ],
       "explanation": "本句的「tracks」指「曲目；歌曲」。",
       "sentenceIndex": 47,
@@ -1842,12 +1684,10 @@ export default {
         "tracks"
       ],
       "optionReasons": {
-        "track-mcq-16": "本句指「曲目；歌曲」。",
-        "track-mcq-15": "「偏離正軌／離題」與本句語境不同。",
-        "track-mcq-17": "「音軌」與本句語境不同。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。",
-        "track-mcq-18": "「追查到；找到」與本句語境不同。",
-        "track-mcq-13": "「重回正軌」與本句語境不同。"
+        "track-mcq-16": "本句的「tracks」指「曲目；歌曲」。",
+        "track-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-16"
     },
@@ -1859,11 +1699,9 @@ export default {
       "masked": "The video has several ____.",
       "options": [
         "track-mcq-17",
-        "track-mcq-16",
-        "track-mcq-18",
-        "track-mcq-15",
-        "track-mcq-19",
-        "track-mcq-14"
+        "track-pdf-004",
+        "track-mcq-08",
+        "track-mcq-06"
       ],
       "explanation": "本句的「audio tracks」指「音軌」。",
       "sentenceIndex": 48,
@@ -1872,12 +1710,10 @@ export default {
         "audio tracks"
       ],
       "optionReasons": {
-        "track-mcq-17": "本句指「音軌」。",
-        "track-mcq-16": "「曲目；歌曲」與本句語境不同。",
-        "track-mcq-18": "「追查到；找到」與本句語境不同。",
-        "track-mcq-15": "「偏離正軌／離題」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。"
+        "track-mcq-17": "本句的「audio tracks」指「音軌」。",
+        "track-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-17"
     },
@@ -1889,11 +1725,9 @@ export default {
       "masked": "Select the English ____.",
       "options": [
         "track-mcq-17",
-        "track-mcq-16",
-        "track-mcq-18",
-        "track-mcq-15",
-        "track-mcq-19",
-        "track-mcq-14"
+        "track-mcq-04",
+        "track-mcq-09",
+        "track-mcq-21"
       ],
       "explanation": "本句的「audio track」指「音軌」。",
       "sentenceIndex": 49,
@@ -1902,12 +1736,10 @@ export default {
         "audio track"
       ],
       "optionReasons": {
-        "track-mcq-17": "本句指「音軌」。",
-        "track-mcq-16": "「曲目；歌曲」與本句語境不同。",
-        "track-mcq-18": "「追查到；找到」與本句語境不同。",
-        "track-mcq-15": "「偏離正軌／離題」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。"
+        "track-mcq-17": "本句的「audio track」指「音軌」。",
+        "track-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-17"
     },
@@ -1919,11 +1751,9 @@ export default {
       "masked": "The vocals are recorded on a separate ____.",
       "options": [
         "track-mcq-17",
-        "track-mcq-16",
         "track-mcq-18",
-        "track-mcq-15",
         "track-mcq-19",
-        "track-mcq-14"
+        "track-mcq-22"
       ],
       "explanation": "本句的「track」指「音軌」。",
       "sentenceIndex": 52,
@@ -1932,12 +1762,10 @@ export default {
         "track"
       ],
       "optionReasons": {
-        "track-mcq-17": "本句指「音軌」。",
-        "track-mcq-16": "「曲目；歌曲」與本句語境不同。",
-        "track-mcq-18": "「追查到；找到」與本句語境不同。",
-        "track-mcq-15": "「偏離正軌／離題」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。"
+        "track-mcq-17": "本句的「track」指「音軌」。",
+        "track-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-17"
     },
@@ -1949,11 +1777,9 @@ export default {
       "masked": "Add another ____ for the guitar.",
       "options": [
         "track-mcq-17",
-        "track-mcq-16",
-        "track-mcq-18",
-        "track-mcq-15",
-        "track-mcq-19",
-        "track-mcq-14"
+        "track-mcq-06",
+        "track-pdf-004",
+        "track-pdf-002"
       ],
       "explanation": "本句的「track」指「音軌」。",
       "sentenceIndex": 53,
@@ -1962,12 +1788,10 @@ export default {
         "track"
       ],
       "optionReasons": {
-        "track-mcq-17": "本句指「音軌」。",
-        "track-mcq-16": "「曲目；歌曲」與本句語境不同。",
-        "track-mcq-18": "「追查到；找到」與本句語境不同。",
-        "track-mcq-15": "「偏離正軌／離題」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。",
-        "track-mcq-14": "「保持正軌」與本句語境不同。"
+        "track-mcq-17": "本句的「track」指「音軌」。",
+        "track-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "track-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "track-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-17"
     },
@@ -1979,11 +1803,9 @@ export default {
       "masked": "I finally ____.",
       "options": [
         "track-mcq-18",
-        "track-mcq-17",
-        "track-mcq-19",
-        "track-mcq-16",
-        "track-mcq-20",
-        "track-mcq-15"
+        "track-pdf-004",
+        "track-pdf-002",
+        "track-mcq-19"
       ],
       "explanation": "本句的「tracked down the missing file」指「追查到；找到」。",
       "sentenceIndex": 54,
@@ -1992,12 +1814,10 @@ export default {
         "tracked down the missing file"
       ],
       "optionReasons": {
-        "track-mcq-18": "本句指「追查到；找到」。",
-        "track-mcq-17": "「音軌」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。",
-        "track-mcq-16": "「曲目；歌曲」與本句語境不同。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-15": "「偏離正軌／離題」與本句語境不同。"
+        "track-mcq-18": "本句的「tracked down the missing file」指「追查到；找到」。",
+        "track-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "track-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-18"
     },
@@ -2009,10 +1829,8 @@ export default {
       "masked": "Police ____.",
       "options": [
         "track-mcq-18",
-        "track-mcq-17",
-        "track-mcq-19",
-        "track-mcq-16",
-        "track-mcq-20",
+        "track-pdf-004",
+        "track-pdf-002",
         "track-mcq-15"
       ],
       "explanation": "本句的「tracked down the suspect」指「追查到；找到」。",
@@ -2022,12 +1840,10 @@ export default {
         "tracked down the suspect"
       ],
       "optionReasons": {
-        "track-mcq-18": "本句指「追查到；找到」。",
-        "track-mcq-17": "「音軌」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。",
-        "track-mcq-16": "「曲目；歌曲」與本句語境不同。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-15": "「偏離正軌／離題」與本句語境不同。"
+        "track-mcq-18": "本句的「tracked down the suspect」指「追查到；找到」。",
+        "track-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "track-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-18"
     },
@@ -2039,11 +1855,9 @@ export default {
       "masked": "She has a strong ____ of meeting deadlines.",
       "options": [
         "track-mcq-19",
-        "track-mcq-18",
-        "track-mcq-20",
-        "track-mcq-17",
-        "track-mcq-21",
-        "track-mcq-16"
+        "track-mcq-24",
+        "track-mcq-22",
+        "track-mcq-15"
       ],
       "explanation": "本句的「track record」指「往績」。",
       "sentenceIndex": 56,
@@ -2052,12 +1866,10 @@ export default {
         "track record"
       ],
       "optionReasons": {
-        "track-mcq-19": "本句指「往績」。",
-        "track-mcq-18": "「追查到；找到」與本句語境不同。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-17": "「音軌」與本句語境不同。",
-        "track-mcq-21": "「快速途徑」與本句語境不同。",
-        "track-mcq-16": "「曲目；歌曲」與本句語境不同。"
+        "track-mcq-19": "本句的「track record」指「往績」。",
+        "track-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-19"
     },
@@ -2069,11 +1881,9 @@ export default {
       "masked": "The company has an excellent safety ____.",
       "options": [
         "track-mcq-19",
-        "track-mcq-18",
-        "track-mcq-20",
-        "track-mcq-17",
-        "track-mcq-21",
-        "track-mcq-16"
+        "track-pdf-003",
+        "track-mcq-16",
+        "track-mcq-03"
       ],
       "explanation": "本句的「track record」指「往績」。",
       "sentenceIndex": 57,
@@ -2082,12 +1892,10 @@ export default {
         "track record"
       ],
       "optionReasons": {
-        "track-mcq-19": "本句指「往績」。",
-        "track-mcq-18": "「追查到；找到」與本句語境不同。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-17": "「音軌」與本句語境不同。",
-        "track-mcq-21": "「快速途徑」與本句語境不同。",
-        "track-mcq-16": "「曲目；歌曲」與本句語境不同。"
+        "track-mcq-19": "本句的「track record」指「往績」。",
+        "track-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-19"
     },
@@ -2099,11 +1907,9 @@ export default {
       "masked": "We need someone with a ____.",
       "options": [
         "track-mcq-19",
+        "track-mcq-09",
         "track-mcq-18",
-        "track-mcq-20",
-        "track-mcq-17",
-        "track-mcq-21",
-        "track-mcq-16"
+        "track-mcq-12"
       ],
       "explanation": "本句的「proven track record」指「往績」。",
       "sentenceIndex": 58,
@@ -2112,12 +1918,10 @@ export default {
         "proven track record"
       ],
       "optionReasons": {
-        "track-mcq-19": "本句指「往績」。",
-        "track-mcq-18": "「追查到；找到」與本句語境不同。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-17": "「音軌」與本句語境不同。",
-        "track-mcq-21": "「快速途徑」與本句語境不同。",
-        "track-mcq-16": "「曲目；歌曲」與本句語境不同。"
+        "track-mcq-19": "本句的「proven track record」指「往績」。",
+        "track-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-19"
     },
@@ -2129,11 +1933,9 @@ export default {
       "masked": "The candidate has a ____.",
       "options": [
         "track-mcq-19",
-        "track-mcq-18",
-        "track-mcq-20",
-        "track-mcq-17",
-        "track-mcq-21",
-        "track-mcq-16"
+        "track-mcq-05",
+        "track-pdf-003",
+        "track-mcq-10"
       ],
       "explanation": "本句的「proven track record of success」指「往績」。",
       "sentenceIndex": 59,
@@ -2142,12 +1944,10 @@ export default {
         "proven track record of success"
       ],
       "optionReasons": {
-        "track-mcq-19": "本句指「往績」。",
-        "track-mcq-18": "「追查到；找到」與本句語境不同。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-17": "「音軌」與本句語境不同。",
-        "track-mcq-21": "「快速途徑」與本句語境不同。",
-        "track-mcq-16": "「曲目；歌曲」與本句語境不同。"
+        "track-mcq-19": "本句的「proven track record of success」指「往績」。",
+        "track-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "track-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-19"
     },
@@ -2159,11 +1959,9 @@ export default {
       "masked": "She chose the academic ____.",
       "options": [
         "track-pdf-003",
-        "track-mcq-19",
-        "track-mcq-21",
-        "track-mcq-18",
-        "track-mcq-22",
-        "track-mcq-17"
+        "track-mcq-07",
+        "track-mcq-08",
+        "track-mcq-22"
       ],
       "explanation": "本句的「track」指「為某類學生或員工設定的學習、訓練或職業發展路線」。",
       "sentenceIndex": 60,
@@ -2172,12 +1970,10 @@ export default {
         "track"
       ],
       "optionReasons": {
-        "track-pdf-003": "本句指「為某類學生或員工設定的學習、訓練或職業發展路線」。",
-        "track-mcq-19": "「往績」與本句語境不同。",
-        "track-mcq-21": "「快速途徑」與本句語境不同。",
-        "track-mcq-18": "「追查到；找到」與本句語境不同。",
-        "track-mcq-22": "「加快處理」與本句語境不同。",
-        "track-mcq-17": "「音軌」與本句語境不同。"
+        "track-pdf-003": "本句的「track」指「為某類學生或員工設定的學習、訓練或職業發展路線」。",
+        "track-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-pdf-003"
     },
@@ -2189,11 +1985,9 @@ export default {
       "masked": "Employees can follow a management ____ or a technical track.",
       "options": [
         "track-pdf-003",
-        "track-mcq-19",
-        "track-mcq-21",
-        "track-mcq-18",
-        "track-mcq-22",
-        "track-mcq-17"
+        "track-mcq-09",
+        "track-mcq-12",
+        "track-mcq-16"
       ],
       "explanation": "本句的「track」指「為某類學生或員工設定的學習、訓練或職業發展路線」。",
       "sentenceIndex": 61,
@@ -2202,12 +1996,10 @@ export default {
         "track"
       ],
       "optionReasons": {
-        "track-pdf-003": "本句指「為某類學生或員工設定的學習、訓練或職業發展路線」。",
-        "track-mcq-19": "「往績」與本句語境不同。",
-        "track-mcq-21": "「快速途徑」與本句語境不同。",
-        "track-mcq-18": "「追查到；找到」與本句語境不同。",
-        "track-mcq-22": "「加快處理」與本句語境不同。",
-        "track-mcq-17": "「音軌」與本句語境不同。"
+        "track-pdf-003": "本句的「track」指「為某類學生或員工設定的學習、訓練或職業發展路線」。",
+        "track-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-pdf-003"
     },
@@ -2219,11 +2011,9 @@ export default {
       "masked": "She was placed on the management ____.",
       "options": [
         "track-mcq-21",
-        "track-mcq-20",
-        "track-mcq-22",
-        "track-mcq-19",
-        "track-mcq-23",
-        "track-mcq-18"
+        "track-mcq-08",
+        "track-pdf-003",
+        "track-mcq-13"
       ],
       "explanation": "本句的「fast track」指「快速途徑」。",
       "sentenceIndex": 62,
@@ -2232,12 +2022,10 @@ export default {
         "fast track"
       ],
       "optionReasons": {
-        "track-mcq-21": "本句指「快速途徑」。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-22": "「加快處理」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。",
-        "track-mcq-23": "「追蹤器／工具」與本句語境不同。",
-        "track-mcq-18": "「追查到；找到」與本句語境不同。"
+        "track-mcq-21": "本句的「fast track」指「快速途徑」。",
+        "track-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "track-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-21"
     },
@@ -2249,11 +2037,9 @@ export default {
       "masked": "The programme offers a ____ to certification.",
       "options": [
         "track-mcq-21",
-        "track-mcq-20",
-        "track-mcq-22",
-        "track-mcq-19",
-        "track-mcq-23",
-        "track-mcq-18"
+        "track-pdf-004",
+        "track-mcq-11",
+        "track-mcq-19"
       ],
       "explanation": "本句的「fast track」指「快速途徑」。",
       "sentenceIndex": 63,
@@ -2262,12 +2048,10 @@ export default {
         "fast track"
       ],
       "optionReasons": {
-        "track-mcq-21": "本句指「快速途徑」。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-22": "「加快處理」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。",
-        "track-mcq-23": "「追蹤器／工具」與本句語境不同。",
-        "track-mcq-18": "「追查到；找到」與本句語境不同。"
+        "track-mcq-21": "本句的「fast track」指「快速途徑」。",
+        "track-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-21"
     },
@@ -2279,11 +2063,9 @@ export default {
       "masked": "The application was ____.",
       "options": [
         "track-mcq-22",
-        "track-mcq-21",
-        "track-mcq-23",
-        "track-mcq-20",
-        "track-mcq-24",
-        "track-mcq-19"
+        "track-pdf-002",
+        "track-mcq-17",
+        "track-mcq-07"
       ],
       "explanation": "本句的「fast-tracked」指「加快處理」。",
       "sentenceIndex": 64,
@@ -2292,12 +2074,10 @@ export default {
         "fast-tracked"
       ],
       "optionReasons": {
-        "track-mcq-22": "本句指「加快處理」。",
-        "track-mcq-21": "「快速途徑」與本句語境不同。",
-        "track-mcq-23": "「追蹤器／工具」與本句語境不同。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-24": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。"
+        "track-mcq-22": "本句的「fast-tracked」指「加快處理」。",
+        "track-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-22"
     },
@@ -2309,11 +2089,9 @@ export default {
       "masked": "She joined a ____.",
       "options": [
         "track-mcq-22",
-        "track-mcq-21",
-        "track-mcq-23",
-        "track-mcq-20",
-        "track-mcq-24",
-        "track-mcq-19"
+        "track-mcq-08",
+        "track-mcq-05",
+        "track-mcq-12"
       ],
       "explanation": "本句的「fast-track programme」指「加快處理」。",
       "sentenceIndex": 65,
@@ -2322,12 +2100,10 @@ export default {
         "fast-track programme"
       ],
       "optionReasons": {
-        "track-mcq-22": "本句指「加快處理」。",
-        "track-mcq-21": "「快速途徑」與本句語境不同。",
-        "track-mcq-23": "「追蹤器／工具」與本句語境不同。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-24": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。"
+        "track-mcq-22": "本句的「fast-track programme」指「加快處理」。",
+        "track-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-22"
     },
@@ -2339,11 +2115,9 @@ export default {
       "masked": "They adopted a ____.",
       "options": [
         "track-pdf-004",
+        "track-mcq-07",
         "track-mcq-21",
-        "track-mcq-23",
-        "track-mcq-20",
-        "track-mcq-24",
-        "track-mcq-19"
+        "track-mcq-16"
       ],
       "explanation": "本句的「two-track approach」指「figurative: 一條獨立的行動、發展或處理路線」。",
       "sentenceIndex": 66,
@@ -2352,12 +2126,10 @@ export default {
         "two-track approach"
       ],
       "optionReasons": {
-        "track-pdf-004": "本句指「figurative: 一條獨立的行動、發展或處理路線」。",
-        "track-mcq-21": "「快速途徑」與本句語境不同。",
-        "track-mcq-23": "「追蹤器／工具」與本句語境不同。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-24": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。"
+        "track-pdf-004": "本句的「two-track approach」指「figurative: 一條獨立的行動、發展或處理路線」。",
+        "track-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-pdf-004"
     },
@@ -2369,11 +2141,9 @@ export default {
       "masked": "The strategy follows several ____ at the same time.",
       "options": [
         "track-pdf-004",
-        "track-mcq-21",
-        "track-mcq-23",
-        "track-mcq-20",
+        "track-mcq-11",
         "track-mcq-24",
-        "track-mcq-19"
+        "track-mcq-10"
       ],
       "explanation": "本句的「tracks」指「figurative: 一條獨立的行動、發展或處理路線」。",
       "sentenceIndex": 67,
@@ -2382,12 +2152,10 @@ export default {
         "tracks"
       ],
       "optionReasons": {
-        "track-pdf-004": "本句指「figurative: 一條獨立的行動、發展或處理路線」。",
-        "track-mcq-21": "「快速途徑」與本句語境不同。",
-        "track-mcq-23": "「追蹤器／工具」與本句語境不同。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-24": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。"
+        "track-pdf-004": "本句的「tracks」指「figurative: 一條獨立的行動、發展或處理路線」。",
+        "track-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-pdf-004"
     },
@@ -2399,11 +2167,9 @@ export default {
       "masked": "I use a fitness ____.",
       "options": [
         "track-mcq-23",
-        "track-mcq-22",
-        "track-mcq-24",
-        "track-mcq-21",
-        "track-mcq-20",
-        "track-mcq-19"
+        "track-mcq-12",
+        "track-mcq-08",
+        "track-mcq-21"
       ],
       "explanation": "本句的「tracker」指「追蹤器／工具」。",
       "sentenceIndex": 68,
@@ -2412,12 +2178,10 @@ export default {
         "tracker"
       ],
       "optionReasons": {
-        "track-mcq-23": "本句指「追蹤器／工具」。",
-        "track-mcq-22": "「加快處理」與本句語境不同。",
-        "track-mcq-24": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-21": "「快速途徑」與本句語境不同。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。"
+        "track-mcq-23": "本句的「tracker」指「追蹤器／工具」。",
+        "track-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-23"
     },
@@ -2429,11 +2193,9 @@ export default {
       "masked": "The vehicle has a GPS ____.",
       "options": [
         "track-mcq-23",
-        "track-mcq-22",
-        "track-mcq-24",
-        "track-mcq-21",
-        "track-mcq-20",
-        "track-mcq-19"
+        "track-mcq-01",
+        "track-mcq-11",
+        "track-pdf-002"
       ],
       "explanation": "本句的「tracker」指「追蹤器／工具」。",
       "sentenceIndex": 69,
@@ -2442,12 +2204,10 @@ export default {
         "tracker"
       ],
       "optionReasons": {
-        "track-mcq-23": "本句指「追蹤器／工具」。",
-        "track-mcq-22": "「加快處理」與本句語境不同。",
-        "track-mcq-24": "「追蹤；監察」與本句語境不同。",
-        "track-mcq-21": "「快速途徑」與本句語境不同。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。"
+        "track-mcq-23": "本句的「tracker」指「追蹤器／工具」。",
+        "track-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "track-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-23"
     },
@@ -2459,11 +2219,9 @@ export default {
       "masked": "The app provides real-time ____.",
       "options": [
         "track-mcq-24",
-        "track-mcq-23",
-        "track-mcq-22",
-        "track-mcq-21",
-        "track-mcq-20",
-        "track-mcq-19"
+        "track-pdf-002",
+        "track-mcq-03",
+        "track-mcq-12"
       ],
       "explanation": "本句的「tracking」指「追蹤；監察」。",
       "sentenceIndex": 70,
@@ -2472,12 +2230,10 @@ export default {
         "tracking"
       ],
       "optionReasons": {
-        "track-mcq-24": "本句指「追蹤；監察」。",
-        "track-mcq-23": "「追蹤器／工具」與本句語境不同。",
-        "track-mcq-22": "「加快處理」與本句語境不同。",
-        "track-mcq-21": "「快速途徑」與本句語境不同。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。"
+        "track-mcq-24": "本句的「tracking」指「追蹤；監察」。",
+        "track-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-24"
     },
@@ -2489,11 +2245,9 @@ export default {
       "masked": "Progress ____ helps me stay motivated.",
       "options": [
         "track-mcq-24",
-        "track-mcq-23",
         "track-mcq-22",
-        "track-mcq-21",
-        "track-mcq-20",
-        "track-mcq-19"
+        "track-mcq-01",
+        "track-mcq-10"
       ],
       "explanation": "本句的「tracking」指「追蹤；監察」。",
       "sentenceIndex": 71,
@@ -2502,12 +2256,10 @@ export default {
         "tracking"
       ],
       "optionReasons": {
-        "track-mcq-24": "本句指「追蹤；監察」。",
-        "track-mcq-23": "「追蹤器／工具」與本句語境不同。",
-        "track-mcq-22": "「加快處理」與本句語境不同。",
-        "track-mcq-21": "「快速途徑」與本句語境不同。",
-        "track-mcq-20": "「學術／職業路線」與本句語境不同。",
-        "track-mcq-19": "「往績」與本句語境不同。"
+        "track-mcq-24": "本句的「tracking」指「追蹤；監察」。",
+        "track-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "track-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "track-mcq-24"
     }
@@ -2519,5 +2271,7 @@ export default {
     "sha256": "95f548736cca845f8606ef3d4831144d7f6c28a4b16bbae2a7b4eeb73ccf90fa",
     "pages": 25
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

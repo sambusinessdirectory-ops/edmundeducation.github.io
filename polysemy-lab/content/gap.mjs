@@ -930,11 +930,9 @@ export default {
       "masked": "There is a small ____ between the door and the floor.",
       "options": [
         "gap-mcq-01",
-        "gap-mcq-02",
-        "gap-mcq-03",
-        "gap-mcq-04",
-        "gap-mcq-05",
-        "gap-mcq-06"
+        "gap-mcq-15",
+        "gap-mcq-42",
+        "gap-mcq-16"
       ],
       "explanation": "本句的「gap」指「兩物／兩部分之間未被填滿的空隙、缺口」。",
       "sentenceIndex": 0,
@@ -943,12 +941,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-01": "本句指「兩物／兩部分之間未被填滿的空隙、缺口」。",
-        "gap-mcq-02": "「兩個物體之間的間距」與本句語境不同。",
-        "gap-mcq-03": "「圍欄／牆中的缺口」與本句語境不同。",
-        "gap-mcq-04": "「車流中足以通過的空檔」與本句語境不同。",
-        "gap-mcq-05": "「防線中的可利用空檔／缺口」與本句語境不同。",
-        "gap-mcq-06": "「山脈中的低處／山口」與本句語境不同。"
+        "gap-mcq-01": "本句的「gap」指「兩物／兩部分之間未被填滿的空隙、缺口」。",
+        "gap-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-01"
     },
@@ -960,11 +956,9 @@ export default {
       "masked": "Light came through a ____ in the curtains.",
       "options": [
         "gap-mcq-01",
-        "gap-mcq-02",
-        "gap-mcq-03",
-        "gap-mcq-04",
-        "gap-mcq-05",
-        "gap-mcq-06"
+        "gap-mcq-12",
+        "gap-mcq-42",
+        "gap-mcq-24"
       ],
       "explanation": "本句的「gap」指「兩物／兩部分之間未被填滿的空隙、缺口」。",
       "sentenceIndex": 1,
@@ -973,12 +967,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-01": "本句指「兩物／兩部分之間未被填滿的空隙、缺口」。",
-        "gap-mcq-02": "「兩個物體之間的間距」與本句語境不同。",
-        "gap-mcq-03": "「圍欄／牆中的缺口」與本句語境不同。",
-        "gap-mcq-04": "「車流中足以通過的空檔」與本句語境不同。",
-        "gap-mcq-05": "「防線中的可利用空檔／缺口」與本句語境不同。",
-        "gap-mcq-06": "「山脈中的低處／山口」與本句語境不同。"
+        "gap-mcq-01": "本句的「gap」指「兩物／兩部分之間未被填滿的空隙、缺口」。",
+        "gap-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-01"
     },
@@ -990,11 +982,9 @@ export default {
       "masked": "Leave a small ____ between the chairs.",
       "options": [
         "gap-mcq-02",
-        "gap-mcq-01",
-        "gap-mcq-03",
-        "gap-mcq-04",
         "gap-mcq-05",
-        "gap-mcq-06"
+        "gap-mcq-32",
+        "gap-mcq-26"
       ],
       "explanation": "本句的「gap」指「兩個物體之間的間距」。",
       "sentenceIndex": 2,
@@ -1003,12 +993,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-02": "本句指「兩個物體之間的間距」。",
-        "gap-mcq-01": "「兩物／兩部分之間未被填滿的空隙、缺口」與本句語境不同。",
-        "gap-mcq-03": "「圍欄／牆中的缺口」與本句語境不同。",
-        "gap-mcq-04": "「車流中足以通過的空檔」與本句語境不同。",
-        "gap-mcq-05": "「防線中的可利用空檔／缺口」與本句語境不同。",
-        "gap-mcq-06": "「山脈中的低處／山口」與本句語境不同。"
+        "gap-mcq-02": "本句的「gap」指「兩個物體之間的間距」。",
+        "gap-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-02"
     },
@@ -1020,11 +1008,9 @@ export default {
       "masked": "The ____ between the two buildings is very narrow.",
       "options": [
         "gap-mcq-02",
-        "gap-mcq-01",
-        "gap-mcq-03",
-        "gap-mcq-04",
-        "gap-mcq-05",
-        "gap-mcq-06"
+        "gap-mcq-09",
+        "gap-mcq-31",
+        "gap-mcq-03"
       ],
       "explanation": "本句的「gap」指「兩個物體之間的間距」。",
       "sentenceIndex": 3,
@@ -1033,12 +1019,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-02": "本句指「兩個物體之間的間距」。",
-        "gap-mcq-01": "「兩物／兩部分之間未被填滿的空隙、缺口」與本句語境不同。",
-        "gap-mcq-03": "「圍欄／牆中的缺口」與本句語境不同。",
-        "gap-mcq-04": "「車流中足以通過的空檔」與本句語境不同。",
-        "gap-mcq-05": "「防線中的可利用空檔／缺口」與本句語境不同。",
-        "gap-mcq-06": "「山脈中的低處／山口」與本句語境不同。"
+        "gap-mcq-02": "本句的「gap」指「兩個物體之間的間距」。",
+        "gap-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-02"
     },
@@ -1050,11 +1034,9 @@ export default {
       "masked": "The dog escaped through a ____ in the fence.",
       "options": [
         "gap-mcq-03",
-        "gap-mcq-02",
-        "gap-mcq-04",
-        "gap-mcq-01",
-        "gap-mcq-05",
-        "gap-mcq-06"
+        "gap-mcq-42",
+        "gap-mcq-12",
+        "gap-mcq-32"
       ],
       "explanation": "本句的「gap」指「圍欄／牆中的缺口」。",
       "sentenceIndex": 4,
@@ -1063,12 +1045,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-03": "本句指「圍欄／牆中的缺口」。",
-        "gap-mcq-02": "「兩個物體之間的間距」與本句語境不同。",
-        "gap-mcq-04": "「車流中足以通過的空檔」與本句語境不同。",
-        "gap-mcq-01": "「兩物／兩部分之間未被填滿的空隙、缺口」與本句語境不同。",
-        "gap-mcq-05": "「防線中的可利用空檔／缺口」與本句語境不同。",
-        "gap-mcq-06": "「山脈中的低處／山口」與本句語境不同。"
+        "gap-mcq-03": "本句的「gap」指「圍欄／牆中的缺口」。",
+        "gap-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-03"
     },
@@ -1081,10 +1061,8 @@ export default {
       "options": [
         "gap-mcq-03",
         "gap-mcq-02",
-        "gap-mcq-04",
-        "gap-mcq-01",
-        "gap-mcq-05",
-        "gap-mcq-06"
+        "gap-mcq-16",
+        "gap-mcq-54"
       ],
       "explanation": "本句的「gap」指「圍欄／牆中的缺口」。",
       "sentenceIndex": 5,
@@ -1093,12 +1071,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-03": "本句指「圍欄／牆中的缺口」。",
-        "gap-mcq-02": "「兩個物體之間的間距」與本句語境不同。",
-        "gap-mcq-04": "「車流中足以通過的空檔」與本句語境不同。",
-        "gap-mcq-01": "「兩物／兩部分之間未被填滿的空隙、缺口」與本句語境不同。",
-        "gap-mcq-05": "「防線中的可利用空檔／缺口」與本句語境不同。",
-        "gap-mcq-06": "「山脈中的低處／山口」與本句語境不同。"
+        "gap-mcq-03": "本句的「gap」指「圍欄／牆中的缺口」。",
+        "gap-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-03"
     },
@@ -1110,11 +1086,9 @@ export default {
       "masked": "Wait for a ____ in the traffic before crossing.",
       "options": [
         "gap-mcq-04",
-        "gap-mcq-03",
-        "gap-mcq-05",
-        "gap-mcq-02",
-        "gap-mcq-06",
-        "gap-mcq-01"
+        "gap-mcq-51",
+        "gap-mcq-16",
+        "gap-mcq-23"
       ],
       "explanation": "本句的「gap」指「車流中足以通過的空檔」。",
       "sentenceIndex": 6,
@@ -1123,12 +1097,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-04": "本句指「車流中足以通過的空檔」。",
-        "gap-mcq-03": "「圍欄／牆中的缺口」與本句語境不同。",
-        "gap-mcq-05": "「防線中的可利用空檔／缺口」與本句語境不同。",
-        "gap-mcq-02": "「兩個物體之間的間距」與本句語境不同。",
-        "gap-mcq-06": "「山脈中的低處／山口」與本句語境不同。",
-        "gap-mcq-01": "「兩物／兩部分之間未被填滿的空隙、缺口」與本句語境不同。"
+        "gap-mcq-04": "本句的「gap」指「車流中足以通過的空檔」。",
+        "gap-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-04"
     },
@@ -1140,9 +1112,7 @@ export default {
       "masked": "The striker found a ____ in the defence.",
       "options": [
         "gap-mcq-05",
-        "gap-mcq-04",
-        "gap-mcq-06",
-        "gap-mcq-03",
+        "gap-mcq-12",
         "gap-mcq-07",
         "gap-mcq-02"
       ],
@@ -1153,12 +1123,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-05": "本句指「防線中的可利用空檔／缺口」。",
-        "gap-mcq-04": "「車流中足以通過的空檔」與本句語境不同。",
-        "gap-mcq-06": "「山脈中的低處／山口」與本句語境不同。",
-        "gap-mcq-03": "「圍欄／牆中的缺口」與本句語境不同。",
-        "gap-mcq-07": "「牙齒間隙／牙縫」與本句語境不同。",
-        "gap-mcq-02": "「兩個物體之間的間距」與本句語境不同。"
+        "gap-mcq-05": "本句的「gap」指「防線中的可利用空檔／缺口」。",
+        "gap-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-05"
     },
@@ -1170,11 +1138,9 @@ export default {
       "masked": "The road passes through a narrow ____ in the mountains.",
       "options": [
         "gap-mcq-06",
-        "gap-mcq-05",
-        "gap-mcq-07",
-        "gap-mcq-04",
-        "gap-mcq-08",
-        "gap-mcq-03"
+        "gap-mcq-16",
+        "gap-mcq-09",
+        "gap-mcq-30"
       ],
       "explanation": "本句的「gap」指「山脈中的低處／山口」。",
       "sentenceIndex": 8,
@@ -1183,12 +1149,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-06": "本句指「山脈中的低處／山口」。",
-        "gap-mcq-05": "「防線中的可利用空檔／缺口」與本句語境不同。",
-        "gap-mcq-07": "「牙齒間隙／牙縫」與本句語境不同。",
-        "gap-mcq-04": "「車流中足以通過的空檔」與本句語境不同。",
-        "gap-mcq-08": "「兩項事件之間的時間間隔／空檔」與本句語境不同。",
-        "gap-mcq-03": "「圍欄／牆中的缺口」與本句語境不同。"
+        "gap-mcq-06": "本句的「gap」指「山脈中的低處／山口」。",
+        "gap-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-06"
     },
@@ -1200,11 +1164,9 @@ export default {
       "masked": "She has a small ____ between her front teeth.",
       "options": [
         "gap-mcq-07",
-        "gap-mcq-06",
-        "gap-mcq-08",
-        "gap-mcq-05",
-        "gap-mcq-09",
-        "gap-mcq-04"
+        "gap-mcq-58",
+        "gap-mcq-23",
+        "gap-mcq-57"
       ],
       "explanation": "本句的「gap」指「牙齒間隙／牙縫」。",
       "sentenceIndex": 9,
@@ -1213,12 +1175,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-07": "本句指「牙齒間隙／牙縫」。",
-        "gap-mcq-06": "「山脈中的低處／山口」與本句語境不同。",
-        "gap-mcq-08": "「兩項事件之間的時間間隔／空檔」與本句語境不同。",
-        "gap-mcq-05": "「防線中的可利用空檔／缺口」與本句語境不同。",
-        "gap-mcq-09": "「一段沒有工作的就業空窗期」與本句語境不同。",
-        "gap-mcq-04": "「車流中足以通過的空檔」與本句語境不同。"
+        "gap-mcq-07": "本句的「gap」指「牙齒間隙／牙縫」。",
+        "gap-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-07"
     },
@@ -1230,11 +1190,9 @@ export default {
       "masked": "There was a two-hour ____ between the meetings.",
       "options": [
         "gap-mcq-08",
-        "gap-mcq-07",
-        "gap-mcq-09",
-        "gap-mcq-06",
-        "gap-mcq-10",
-        "gap-mcq-05"
+        "gap-mcq-57",
+        "gap-mcq-16",
+        "gap-mcq-23"
       ],
       "explanation": "本句的「gap」指「兩項事件之間的時間間隔／空檔」。",
       "sentenceIndex": 10,
@@ -1243,12 +1201,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-08": "本句指「兩項事件之間的時間間隔／空檔」。",
-        "gap-mcq-07": "「牙齒間隙／牙縫」與本句語境不同。",
-        "gap-mcq-09": "「一段沒有工作的就業空窗期」與本句語境不同。",
-        "gap-mcq-06": "「山脈中的低處／山口」與本句語境不同。",
-        "gap-mcq-10": "「升學／就業階段之間安排的間隔年」與本句語境不同。",
-        "gap-mcq-05": "「防線中的可利用空檔／缺口」與本句語境不同。"
+        "gap-mcq-08": "本句的「gap」指「兩項事件之間的時間間隔／空檔」。",
+        "gap-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-08"
     },
@@ -1260,11 +1216,9 @@ export default {
       "masked": "After a long ____, they met again.",
       "options": [
         "gap-mcq-08",
-        "gap-mcq-07",
-        "gap-mcq-09",
         "gap-mcq-06",
-        "gap-mcq-10",
-        "gap-mcq-05"
+        "gap-mcq-30",
+        "gap-mcq-24"
       ],
       "explanation": "本句的「gap」指「兩項事件之間的時間間隔／空檔」。",
       "sentenceIndex": 11,
@@ -1273,12 +1227,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-08": "本句指「兩項事件之間的時間間隔／空檔」。",
-        "gap-mcq-07": "「牙齒間隙／牙縫」與本句語境不同。",
-        "gap-mcq-09": "「一段沒有工作的就業空窗期」與本句語境不同。",
-        "gap-mcq-06": "「山脈中的低處／山口」與本句語境不同。",
-        "gap-mcq-10": "「升學／就業階段之間安排的間隔年」與本句語境不同。",
-        "gap-mcq-05": "「防線中的可利用空檔／缺口」與本句語境不同。"
+        "gap-mcq-08": "本句的「gap」指「兩項事件之間的時間間隔／空檔」。",
+        "gap-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-08"
     },
@@ -1290,10 +1242,8 @@ export default {
       "masked": "She explained the six-month ____ in her employment history.",
       "options": [
         "gap-mcq-09",
-        "gap-mcq-08",
-        "gap-mcq-10",
-        "gap-mcq-07",
-        "gap-mcq-11",
+        "gap-mcq-30",
+        "gap-mcq-40",
         "gap-mcq-06"
       ],
       "explanation": "本句的「gap」指「一段沒有工作的就業空窗期」。",
@@ -1303,12 +1253,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-09": "本句指「一段沒有工作的就業空窗期」。",
-        "gap-mcq-08": "「兩項事件之間的時間間隔／空檔」與本句語境不同。",
-        "gap-mcq-10": "「升學／就業階段之間安排的間隔年」與本句語境不同。",
-        "gap-mcq-07": "「牙齒間隙／牙縫」與本句語境不同。",
-        "gap-mcq-11": "「兩組數值、水平、狀況等之間的差距」與本句語境不同。",
-        "gap-mcq-06": "「山脈中的低處／山口」與本句語境不同。"
+        "gap-mcq-09": "本句的「gap」指「一段沒有工作的就業空窗期」。",
+        "gap-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-09"
     },
@@ -1320,11 +1268,9 @@ export default {
       "masked": "She took a ____ before university.",
       "options": [
         "gap-mcq-10",
-        "gap-mcq-09",
-        "gap-mcq-11",
-        "gap-mcq-08",
-        "gap-mcq-12",
-        "gap-mcq-07"
+        "gap-mcq-58",
+        "gap-mcq-05",
+        "gap-mcq-37"
       ],
       "explanation": "本句的「gap year」指「升學／就業階段之間安排的間隔年」。",
       "sentenceIndex": 13,
@@ -1333,12 +1279,10 @@ export default {
         "gap year"
       ],
       "optionReasons": {
-        "gap-mcq-10": "本句指「升學／就業階段之間安排的間隔年」。",
-        "gap-mcq-09": "「一段沒有工作的就業空窗期」與本句語境不同。",
-        "gap-mcq-11": "「兩組數值、水平、狀況等之間的差距」與本句語境不同。",
-        "gap-mcq-08": "「兩項事件之間的時間間隔／空檔」與本句語境不同。",
-        "gap-mcq-12": "「薪酬／工資差距」與本句語境不同。",
-        "gap-mcq-07": "「牙齒間隙／牙縫」與本句語境不同。"
+        "gap-mcq-10": "本句的「gap year」指「升學／就業階段之間安排的間隔年」。",
+        "gap-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-10"
     },
@@ -1350,11 +1294,9 @@ export default {
       "masked": "There is a large ____ between rich and poor households.",
       "options": [
         "gap-mcq-11",
-        "gap-mcq-10",
-        "gap-mcq-12",
-        "gap-mcq-09",
-        "gap-mcq-13",
-        "gap-mcq-08"
+        "gap-mcq-03",
+        "gap-mcq-23",
+        "gap-mcq-31"
       ],
       "explanation": "本句的「gap」指「兩組數值、水平、狀況等之間的差距」。",
       "sentenceIndex": 14,
@@ -1363,12 +1305,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-11": "本句指「兩組數值、水平、狀況等之間的差距」。",
-        "gap-mcq-10": "「升學／就業階段之間安排的間隔年」與本句語境不同。",
-        "gap-mcq-12": "「薪酬／工資差距」與本句語境不同。",
-        "gap-mcq-09": "「一段沒有工作的就業空窗期」與本句語境不同。",
-        "gap-mcq-13": "「收入差距」與本句語境不同。",
-        "gap-mcq-08": "「兩項事件之間的時間間隔／空檔」與本句語境不同。"
+        "gap-mcq-11": "本句的「gap」指「兩組數值、水平、狀況等之間的差距」。",
+        "gap-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-11"
     },
@@ -1380,11 +1320,9 @@ export default {
       "masked": "The ____ between expectations and reality was enormous.",
       "options": [
         "gap-mcq-11",
-        "gap-mcq-10",
-        "gap-mcq-12",
-        "gap-mcq-09",
-        "gap-mcq-13",
-        "gap-mcq-08"
+        "gap-mcq-04",
+        "gap-mcq-23",
+        "gap-mcq-03"
       ],
       "explanation": "本句的「gap」指「兩組數值、水平、狀況等之間的差距」。",
       "sentenceIndex": 15,
@@ -1393,12 +1331,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-11": "本句指「兩組數值、水平、狀況等之間的差距」。",
-        "gap-mcq-10": "「升學／就業階段之間安排的間隔年」與本句語境不同。",
-        "gap-mcq-12": "「薪酬／工資差距」與本句語境不同。",
-        "gap-mcq-09": "「一段沒有工作的就業空窗期」與本句語境不同。",
-        "gap-mcq-13": "「收入差距」與本句語境不同。",
-        "gap-mcq-08": "「兩項事件之間的時間間隔／空檔」與本句語境不同。"
+        "gap-mcq-11": "本句的「gap」指「兩組數值、水平、狀況等之間的差距」。",
+        "gap-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-11"
     },
@@ -1410,11 +1346,9 @@ export default {
       "masked": "The report examined the pay ____ between different groups.",
       "options": [
         "gap-mcq-12",
-        "gap-mcq-11",
-        "gap-mcq-13",
-        "gap-mcq-10",
-        "gap-mcq-14",
-        "gap-mcq-09"
+        "gap-mcq-55",
+        "gap-mcq-54",
+        "gap-mcq-24"
       ],
       "explanation": "本句的「gap」指「薪酬／工資差距」。",
       "sentenceIndex": 16,
@@ -1423,12 +1357,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-12": "本句指「薪酬／工資差距」。",
-        "gap-mcq-11": "「兩組數值、水平、狀況等之間的差距」與本句語境不同。",
-        "gap-mcq-13": "「收入差距」與本句語境不同。",
-        "gap-mcq-10": "「升學／就業階段之間安排的間隔年」與本句語境不同。",
-        "gap-mcq-14": "「財富差距」與本句語境不同。",
-        "gap-mcq-09": "「一段沒有工作的就業空窗期」與本句語境不同。"
+        "gap-mcq-12": "本句的「gap」指「薪酬／工資差距」。",
+        "gap-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-12"
     },
@@ -1440,11 +1372,9 @@ export default {
       "masked": "There is a ten-year age ____ between them.",
       "options": [
         "gap-mcq-15",
-        "gap-mcq-14",
-        "gap-mcq-16",
-        "gap-mcq-13",
-        "gap-mcq-17",
-        "gap-mcq-12"
+        "gap-mcq-07",
+        "gap-mcq-37",
+        "gap-mcq-23"
       ],
       "explanation": "本句的「gap」指「年齡差」。",
       "sentenceIndex": 17,
@@ -1453,12 +1383,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-15": "本句指「年齡差」。",
-        "gap-mcq-14": "「財富差距」與本句語境不同。",
-        "gap-mcq-16": "「不同世代在價值觀、態度等方面的代溝」與本句語境不同。",
-        "gap-mcq-13": "「收入差距」與本句語境不同。",
-        "gap-mcq-17": "「教育成果／成就上的群體差距」與本句語境不同。",
-        "gap-mcq-12": "「薪酬／工資差距」與本句語境不同。"
+        "gap-mcq-15": "本句的「gap」指「年齡差」。",
+        "gap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-15"
     },
@@ -1470,11 +1398,9 @@ export default {
       "masked": "Technology can sometimes widen the generation ____.",
       "options": [
         "gap-mcq-16",
-        "gap-mcq-15",
-        "gap-mcq-17",
-        "gap-mcq-14",
-        "gap-mcq-18",
-        "gap-mcq-13"
+        "gap-mcq-03",
+        "gap-mcq-40",
+        "gap-mcq-18"
       ],
       "explanation": "本句的「gap」指「不同世代在價值觀、態度等方面的代溝」。",
       "sentenceIndex": 18,
@@ -1483,12 +1409,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-16": "本句指「不同世代在價值觀、態度等方面的代溝」。",
-        "gap-mcq-15": "「年齡差」與本句語境不同。",
-        "gap-mcq-17": "「教育成果／成就上的群體差距」與本句語境不同。",
-        "gap-mcq-14": "「財富差距」與本句語境不同。",
-        "gap-mcq-18": "「欠缺的知識，或群體間的知識差距」與本句語境不同。",
-        "gap-mcq-13": "「收入差距」與本句語境不同。"
+        "gap-mcq-16": "本句的「gap」指「不同世代在價值觀、態度等方面的代溝」。",
+        "gap-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-16"
     },
@@ -1500,11 +1424,9 @@ export default {
       "masked": "The research aims to fill an important knowledge ____.",
       "options": [
         "gap-mcq-18",
-        "gap-mcq-17",
-        "gap-mcq-19",
-        "gap-mcq-16",
-        "gap-mcq-20",
-        "gap-mcq-15"
+        "gap-mcq-26",
+        "gap-mcq-04",
+        "gap-mcq-25"
       ],
       "explanation": "本句的「gap」指「欠缺的知識，或群體間的知識差距」。",
       "sentenceIndex": 19,
@@ -1513,12 +1435,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-18": "本句指「欠缺的知識，或群體間的知識差距」。",
-        "gap-mcq-17": "「教育成果／成就上的群體差距」與本句語境不同。",
-        "gap-mcq-19": "「所需技能與現有技能之間的缺口」與本句語境不同。",
-        "gap-mcq-16": "「不同世代在價值觀、態度等方面的代溝」與本句語境不同。",
-        "gap-mcq-20": "「學習過程中欠缺的知識／能力」與本句語境不同。",
-        "gap-mcq-15": "「年齡差」與本句語境不同。"
+        "gap-mcq-18": "本句的「gap」指「欠缺的知識，或群體間的知識差距」。",
+        "gap-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-18"
     },
@@ -1530,11 +1450,9 @@ export default {
       "masked": "Employers reported a growing skills ____.",
       "options": [
         "gap-mcq-19",
-        "gap-mcq-18",
-        "gap-mcq-20",
-        "gap-mcq-17",
-        "gap-mcq-21",
-        "gap-mcq-16"
+        "gap-mcq-32",
+        "gap-mcq-25",
+        "gap-mcq-04"
       ],
       "explanation": "本句的「gap」指「所需技能與現有技能之間的缺口」。",
       "sentenceIndex": 20,
@@ -1543,12 +1461,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-19": "本句指「所需技能與現有技能之間的缺口」。",
-        "gap-mcq-18": "「欠缺的知識，或群體間的知識差距」與本句語境不同。",
-        "gap-mcq-20": "「學習過程中欠缺的知識／能力」與本句語境不同。",
-        "gap-mcq-17": "「教育成果／成就上的群體差距」與本句語境不同。",
-        "gap-mcq-21": "「有實際需要但現有供應／服務沒有滿足的缺口」與本句語境不同。",
-        "gap-mcq-16": "「不同世代在價值觀、態度等方面的代溝」與本句語境不同。"
+        "gap-mcq-19": "本句的「gap」指「所需技能與現有技能之間的缺口」。",
+        "gap-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-19"
     },
@@ -1560,11 +1476,9 @@ export default {
       "masked": "Restaurants should not be expected to ____ for free.",
       "options": [
         "gap-mcq-23",
-        "gap-mcq-22",
-        "gap-mcq-24",
-        "gap-mcq-21",
-        "gap-mcq-25",
-        "gap-mcq-20"
+        "gap-mcq-40",
+        "gap-mcq-26",
+        "gap-mcq-12"
       ],
       "explanation": "本句的「fill the gap」指「證據中欠缺的部分」。",
       "sentenceIndex": 21,
@@ -1573,12 +1487,10 @@ export default {
         "fill the gap"
       ],
       "optionReasons": {
-        "gap-mcq-23": "本句指「證據中欠缺的部分」。",
-        "gap-mcq-22": "「服務、資源或容量不足形成的缺口」與本句語境不同。",
-        "gap-mcq-24": "「論證中欠缺的推理步驟」與本句語境不同。",
-        "gap-mcq-21": "「有實際需要但現有供應／服務沒有滿足的缺口」與本句語境不同。",
-        "gap-mcq-25": "「無法回想的一段記憶空白」與本句語境不同。",
-        "gap-mcq-20": "「學習過程中欠缺的知識／能力」與本句語境不同。"
+        "gap-mcq-23": "本句的「fill the gap」指「證據中欠缺的部分」。",
+        "gap-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-23"
     },
@@ -1590,11 +1502,9 @@ export default {
       "masked": "The service fills a major ____ in community care.",
       "options": [
         "gap-mcq-23",
-        "gap-mcq-22",
-        "gap-mcq-24",
-        "gap-mcq-21",
-        "gap-mcq-25",
-        "gap-mcq-20"
+        "gap-mcq-15",
+        "gap-mcq-40",
+        "gap-mcq-16"
       ],
       "explanation": "本句的「gap」指「證據中欠缺的部分」。",
       "sentenceIndex": 22,
@@ -1603,12 +1513,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-23": "本句指「證據中欠缺的部分」。",
-        "gap-mcq-22": "「服務、資源或容量不足形成的缺口」與本句語境不同。",
-        "gap-mcq-24": "「論證中欠缺的推理步驟」與本句語境不同。",
-        "gap-mcq-21": "「有實際需要但現有供應／服務沒有滿足的缺口」與本句語境不同。",
-        "gap-mcq-25": "「無法回想的一段記憶空白」與本句語境不同。",
-        "gap-mcq-20": "「學習過程中欠缺的知識／能力」與本句語境不同。"
+        "gap-mcq-23": "本句的「gap」指「證據中欠缺的部分」。",
+        "gap-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-23"
     },
@@ -1620,11 +1528,9 @@ export default {
       "masked": "The argument contains a logical ____.",
       "options": [
         "gap-mcq-24",
-        "gap-mcq-23",
-        "gap-mcq-25",
-        "gap-mcq-22",
-        "gap-mcq-26",
-        "gap-mcq-21"
+        "gap-mcq-02",
+        "gap-mcq-15",
+        "gap-mcq-32"
       ],
       "explanation": "本句的「gap」指「論證中欠缺的推理步驟」。",
       "sentenceIndex": 23,
@@ -1633,12 +1539,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-24": "本句指「論證中欠缺的推理步驟」。",
-        "gap-mcq-23": "「證據中欠缺的部分」與本句語境不同。",
-        "gap-mcq-25": "「無法回想的一段記憶空白」與本句語境不同。",
-        "gap-mcq-22": "「服務、資源或容量不足形成的缺口」與本句語境不同。",
-        "gap-mcq-26": "「現有產品／服務尚未滿足的市場需要」與本句語境不同。",
-        "gap-mcq-21": "「有實際需要但現有供應／服務沒有滿足的缺口」與本句語境不同。"
+        "gap-mcq-24": "本句的「gap」指「論證中欠缺的推理步驟」。",
+        "gap-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-24"
     },
@@ -1650,11 +1554,9 @@ export default {
       "masked": "There is a ____ in my memory of that evening.",
       "options": [
         "gap-mcq-25",
-        "gap-mcq-24",
-        "gap-mcq-26",
-        "gap-mcq-23",
-        "gap-mcq-27",
-        "gap-mcq-22"
+        "gap-mcq-02",
+        "gap-mcq-54",
+        "gap-mcq-24"
       ],
       "explanation": "本句的「gap」指「無法回想的一段記憶空白」。",
       "sentenceIndex": 24,
@@ -1663,12 +1565,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-25": "本句指「無法回想的一段記憶空白」。",
-        "gap-mcq-24": "「論證中欠缺的推理步驟」與本句語境不同。",
-        "gap-mcq-26": "「現有產品／服務尚未滿足的市場需要」與本句語境不同。",
-        "gap-mcq-23": "「證據中欠缺的部分」與本句語境不同。",
-        "gap-mcq-27": "「所需資金與現有資金之間的缺口」與本句語境不同。",
-        "gap-mcq-22": "「服務、資源或容量不足形成的缺口」與本句語境不同。"
+        "gap-mcq-25": "本句的「gap」指「無法回想的一段記憶空白」。",
+        "gap-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-25"
     },
@@ -1680,11 +1580,9 @@ export default {
       "masked": "They identified a ____ for affordable study spaces.",
       "options": [
         "gap-mcq-26",
-        "gap-mcq-25",
-        "gap-mcq-27",
         "gap-mcq-24",
-        "gap-mcq-28",
-        "gap-mcq-23"
+        "gap-mcq-12",
+        "gap-mcq-55"
       ],
       "explanation": "本句的「gap in the market」指「現有產品／服務尚未滿足的市場需要」。",
       "sentenceIndex": 25,
@@ -1693,12 +1591,10 @@ export default {
         "gap in the market"
       ],
       "optionReasons": {
-        "gap-mcq-26": "本句指「現有產品／服務尚未滿足的市場需要」。",
-        "gap-mcq-25": "「無法回想的一段記憶空白」與本句語境不同。",
-        "gap-mcq-27": "「所需資金與現有資金之間的缺口」與本句語境不同。",
-        "gap-mcq-24": "「論證中欠缺的推理步驟」與本句語境不同。",
-        "gap-mcq-28": "「預算／收入不足的差額」與本句語境不同。",
-        "gap-mcq-23": "「證據中欠缺的部分」與本句語境不同。"
+        "gap-mcq-26": "本句的「gap in the market」指「現有產品／服務尚未滿足的市場需要」。",
+        "gap-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-26"
     },
@@ -1710,11 +1606,9 @@ export default {
       "masked": "The project faces a large funding ____.",
       "options": [
         "gap-mcq-27",
-        "gap-mcq-26",
-        "gap-mcq-28",
-        "gap-mcq-25",
-        "gap-mcq-29",
-        "gap-mcq-24"
+        "gap-mcq-32",
+        "gap-mcq-42",
+        "gap-mcq-25"
       ],
       "explanation": "本句的「gap」指「所需資金與現有資金之間的缺口」。",
       "sentenceIndex": 26,
@@ -1723,12 +1617,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-27": "本句指「所需資金與現有資金之間的缺口」。",
-        "gap-mcq-26": "「現有產品／服務尚未滿足的市場需要」與本句語境不同。",
-        "gap-mcq-28": "「預算／收入不足的差額」與本句語境不同。",
-        "gap-mcq-25": "「無法回想的一段記憶空白」與本句語境不同。",
-        "gap-mcq-29": "「實際經濟產出與潛在產出之間的差額」與本句語境不同。",
-        "gap-mcq-24": "「論證中欠缺的推理步驟」與本句語境不同。"
+        "gap-mcq-27": "本句的「gap」指「所需資金與現有資金之間的缺口」。",
+        "gap-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-27"
     },
@@ -1740,11 +1632,9 @@ export default {
       "masked": "The company conducted a ____.",
       "options": [
         "gap-mcq-30",
-        "gap-mcq-29",
-        "gap-mcq-31",
-        "gap-mcq-28",
         "gap-mcq-32",
-        "gap-mcq-27"
+        "gap-mcq-55",
+        "gap-mcq-24"
       ],
       "explanation": "本句的「gap analysis」指「比較目前狀態與目標狀態的差距分析」。",
       "sentenceIndex": 27,
@@ -1753,12 +1643,10 @@ export default {
         "gap analysis"
       ],
       "optionReasons": {
-        "gap-mcq-30": "本句指「比較目前狀態與目標狀態的差距分析」。",
-        "gap-mcq-29": "「實際經濟產出與潛在產出之間的差額」與本句語境不同。",
-        "gap-mcq-31": "「金融價格圖表上的跳空區域」與本句語境不同。",
-        "gap-mcq-28": "「預算／收入不足的差額」與本句語境不同。",
-        "gap-mcq-32": "「股票等跳空高開／低開」與本句語境不同。",
-        "gap-mcq-27": "「所需資金與現有資金之間的缺口」與本句語境不同。"
+        "gap-mcq-30": "本句的「gap analysis」指「比較目前狀態與目標狀態的差距分析」。",
+        "gap-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-30"
     },
@@ -1770,11 +1658,9 @@ export default {
       "masked": "The stock opened with a large upward ____.",
       "options": [
         "gap-mcq-31",
+        "gap-mcq-24",
         "gap-mcq-30",
-        "gap-mcq-32",
-        "gap-mcq-29",
-        "gap-mcq-33",
-        "gap-mcq-28"
+        "gap-mcq-07"
       ],
       "explanation": "本句的「gap」指「金融價格圖表上的跳空區域」。",
       "sentenceIndex": 28,
@@ -1783,12 +1669,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-31": "本句指「金融價格圖表上的跳空區域」。",
-        "gap-mcq-30": "「比較目前狀態與目標狀態的差距分析」與本句語境不同。",
-        "gap-mcq-32": "「股票等跳空高開／低開」與本句語境不同。",
-        "gap-mcq-29": "「實際經濟產出與潛在產出之間的差額」與本句語境不同。",
-        "gap-mcq-33": "「銀行資產負債風險管理中的專門差額」與本句語境不同。",
-        "gap-mcq-28": "「預算／收入不足的差額」與本句語境不同。"
+        "gap-mcq-31": "本句的「gap」指「金融價格圖表上的跳空區域」。",
+        "gap-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-31"
     },
@@ -1800,11 +1684,9 @@ export default {
       "masked": "The stock ____ after the announcement.",
       "options": [
         "gap-mcq-32",
-        "gap-mcq-31",
-        "gap-mcq-33",
-        "gap-mcq-30",
-        "gap-mcq-34",
-        "gap-mcq-29"
+        "gap-mcq-23",
+        "gap-mcq-12",
+        "gap-mcq-07"
       ],
       "explanation": "本句的「gapped up」指「股票等跳空高開／低開」。",
       "sentenceIndex": 29,
@@ -1813,12 +1695,10 @@ export default {
         "gapped up"
       ],
       "optionReasons": {
-        "gap-mcq-32": "本句指「股票等跳空高開／低開」。",
-        "gap-mcq-31": "「金融價格圖表上的跳空區域」與本句語境不同。",
-        "gap-mcq-33": "「銀行資產負債風險管理中的專門差額」與本句語境不同。",
-        "gap-mcq-30": "「比較目前狀態與目標狀態的差距分析」與本句語境不同。",
-        "gap-mcq-34": "「語言中缺少預期／方便的詞彙形式」與本句語境不同。",
-        "gap-mcq-29": "「實際經濟產出與潛在產出之間的差額」與本句語境不同。"
+        "gap-mcq-32": "本句的「gapped up」指「股票等跳空高開／低開」。",
+        "gap-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-32"
     },
@@ -1830,11 +1710,9 @@ export default {
       "masked": "Complete the ____.",
       "options": [
         "gap-mcq-37",
-        "gap-mcq-36",
-        "gap-mcq-38",
-        "gap-mcq-35",
-        "gap-mcq-39",
-        "gap-mcq-34"
+        "gap-mcq-07",
+        "gap-mcq-42",
+        "gap-mcq-26"
       ],
       "explanation": "本句的「gap-fill exercise」指「在空格中補上所缺詞語的填空練習」。",
       "sentenceIndex": 30,
@@ -1843,12 +1721,10 @@ export default {
         "gap-fill exercise"
       ],
       "optionReasons": {
-        "gap-mcq-37": "本句指「在空格中補上所缺詞語的填空練習」。",
-        "gap-mcq-36": "「並列結構中省略重複成分的語法現象」與本句語境不同。",
-        "gap-mcq-38": "「參與者掌握不同資訊、必須溝通來補足資訊的語言活動」與本句語境不同。",
-        "gap-mcq-35": "「句法分析中沒有顯性詞語出現的位置」與本句語境不同。",
-        "gap-mcq-39": "「固體／半導體物理中的能帶隙」與本句語境不同。",
-        "gap-mcq-34": "「語言中缺少預期／方便的詞彙形式」與本句語境不同。"
+        "gap-mcq-37": "本句的「gap-fill exercise」指「在空格中補上所缺詞語的填空練習」。",
+        "gap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-37"
     },
@@ -1860,10 +1736,8 @@ export default {
       "masked": "The voltage became high enough to jump the spark ____.",
       "options": [
         "gap-mcq-40",
-        "gap-mcq-39",
-        "gap-mcq-41",
-        "gap-mcq-38",
-        "gap-mcq-42",
+        "gap-mcq-23",
+        "gap-mcq-31",
         "gap-mcq-37"
       ],
       "explanation": "本句的「gap」指「兩電極之間可發生火花放電的間隙」。",
@@ -1873,12 +1747,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-40": "本句指「兩電極之間可發生火花放電的間隙」。",
-        "gap-mcq-39": "「固體／半導體物理中的能帶隙」與本句語境不同。",
-        "gap-mcq-41": "「電氣／磁性組件之間的實體氣隙」與本句語境不同。",
-        "gap-mcq-38": "「參與者掌握不同資訊、必須溝通來補足資訊的語言活動」與本句語境不同。",
-        "gap-mcq-42": "「使敏感系統與其他網絡隔離的安全措施」與本句語境不同。",
-        "gap-mcq-37": "「在空格中補上所缺詞語的填空練習」與本句語境不同。"
+        "gap-mcq-40": "本句的「gap」指「兩電極之間可發生火花放電的間隙」。",
+        "gap-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-40"
     },
@@ -1890,11 +1762,9 @@ export default {
       "masked": "The sensitive system is ____ from the public internet.",
       "options": [
         "gap-mcq-42",
-        "gap-mcq-41",
-        "gap-mcq-43",
-        "gap-mcq-40",
-        "gap-mcq-44",
-        "gap-mcq-39"
+        "gap-mcq-04",
+        "gap-mcq-06",
+        "gap-mcq-02"
       ],
       "explanation": "本句的「air-gapped」指「使敏感系統與其他網絡隔離的安全措施」。",
       "sentenceIndex": 32,
@@ -1903,12 +1773,10 @@ export default {
         "air-gapped"
       ],
       "optionReasons": {
-        "gap-mcq-42": "本句指「使敏感系統與其他網絡隔離的安全措施」。",
-        "gap-mcq-41": "「電氣／磁性組件之間的實體氣隙」與本句語境不同。",
-        "gap-mcq-43": "「相鄰細胞直接傳遞離子／小分子的間隙連接」與本句語境不同。",
-        "gap-mcq-40": "「兩電極之間可發生火花放電的間隙」與本句語境不同。",
-        "gap-mcq-44": "「細胞周期中的 G1／G2 gap phases」與本句語境不同。",
-        "gap-mcq-39": "「固體／半導體物理中的能帶隙」與本句語境不同。"
+        "gap-mcq-42": "本句的「air-gapped」指「使敏感系統與其他網絡隔離的安全措施」。",
+        "gap-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-42"
     },
@@ -1920,11 +1788,9 @@ export default {
       "masked": "The player supports ____.",
       "options": [
         "gap-mcq-51",
-        "gap-mcq-50",
-        "gap-mcq-52",
-        "gap-mcq-49",
-        "gap-mcq-53",
-        "gap-mcq-48"
+        "gap-mcq-03",
+        "gap-mcq-12",
+        "gap-mcq-26"
       ],
       "explanation": "本句的「gapless playback」指「音軌之間沒有可聽停頓的無縫播放」。",
       "sentenceIndex": 33,
@@ -1933,12 +1799,10 @@ export default {
         "gapless playback"
       ],
       "optionReasons": {
-        "gap-mcq-51": "本句指「音軌之間沒有可聽停頓的無縫播放」。",
-        "gap-mcq-50": "「生物資訊序列比對中加入／延長空位的罰分」與本句語境不同。",
-        "gap-mcq-52": "「網頁排版元素之間的間距設定」與本句語境不同。",
-        "gap-mcq-49": "「序列比對／基因組中的缺失或未解決位置」與本句語境不同。",
-        "gap-mcq-53": "「文字編輯資料結構中的間隙緩衝區」與本句語境不同。",
-        "gap-mcq-48": "「需要治療／照護與實際獲得服務之間的缺口」與本句語境不同。"
+        "gap-mcq-51": "本句的「gapless playback」指「音軌之間沒有可聽停頓的無縫播放」。",
+        "gap-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-51"
     },
@@ -1950,11 +1814,9 @@ export default {
       "masked": "Leave an expansion ____ around the flooring.",
       "options": [
         "gap-mcq-54",
-        "gap-mcq-53",
-        "gap-mcq-55",
-        "gap-mcq-52",
-        "gap-mcq-56",
-        "gap-mcq-51"
+        "gap-mcq-16",
+        "gap-mcq-03",
+        "gap-mcq-25"
       ],
       "explanation": "本句的「gap」指「為材料熱脹冷縮預留的伸縮間隙」。",
       "sentenceIndex": 34,
@@ -1963,12 +1825,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-54": "本句指「為材料熱脹冷縮預留的伸縮間隙」。",
-        "gap-mcq-53": "「文字編輯資料結構中的間隙緩衝區」與本句語境不同。",
-        "gap-mcq-55": "「列車與月台之間的空隙」與本句語境不同。",
-        "gap-mcq-52": "「網頁排版元素之間的間距設定」與本句語境不同。",
-        "gap-mcq-56": "「小心列車與月台之間的空隙」與本句語境不同。",
-        "gap-mcq-51": "「音軌之間沒有可聽停頓的無縫播放」與本句語境不同。"
+        "gap-mcq-54": "本句的「gap」指「為材料熱脹冷縮預留的伸縮間隙」。",
+        "gap-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-54"
     },
@@ -1980,11 +1840,9 @@ export default {
       "masked": "Please mind the ____ between the train and the platform.",
       "options": [
         "gap-mcq-55",
-        "gap-mcq-54",
-        "gap-mcq-56",
-        "gap-mcq-53",
-        "gap-mcq-57",
-        "gap-mcq-52"
+        "gap-mcq-42",
+        "gap-mcq-23",
+        "gap-mcq-57"
       ],
       "explanation": "本句的「gap」指「列車與月台之間的空隙」。",
       "sentenceIndex": 35,
@@ -1993,12 +1851,10 @@ export default {
         "gap"
       ],
       "optionReasons": {
-        "gap-mcq-55": "本句指「列車與月台之間的空隙」。",
-        "gap-mcq-54": "「為材料熱脹冷縮預留的伸縮間隙」與本句語境不同。",
-        "gap-mcq-56": "「小心列車與月台之間的空隙」與本句語境不同。",
-        "gap-mcq-53": "「文字編輯資料結構中的間隙緩衝區」與本句語境不同。",
-        "gap-mcq-57": "「提供缺少的東西／填補不足」與本句語境不同。",
-        "gap-mcq-52": "「網頁排版元素之間的間距設定」與本句語境不同。"
+        "gap-mcq-55": "本句的「gap」指「列車與月台之間的空隙」。",
+        "gap-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-55"
     },
@@ -2010,11 +1866,9 @@ export default {
       "masked": "The community centre helps ____ in study-space provision.",
       "options": [
         "gap-mcq-57",
-        "gap-mcq-56",
-        "gap-mcq-58",
-        "gap-mcq-55",
-        "gap-mcq-59",
-        "gap-mcq-54"
+        "gap-mcq-31",
+        "gap-mcq-54",
+        "gap-mcq-08"
       ],
       "explanation": "本句的「fill the gap」指「提供缺少的東西／填補不足」。",
       "sentenceIndex": 36,
@@ -2023,12 +1877,10 @@ export default {
         "fill the gap"
       ],
       "optionReasons": {
-        "gap-mcq-57": "本句指「提供缺少的東西／填補不足」。",
-        "gap-mcq-56": "「小心列車與月台之間的空隙」與本句語境不同。",
-        "gap-mcq-58": "「連接兩方、彌合差距」與本句語境不同。",
-        "gap-mcq-55": "「列車與月台之間的空隙」與本句語境不同。",
-        "gap-mcq-59": "「消除／縮小差距」與本句語境不同。",
-        "gap-mcq-54": "「為材料熱脹冷縮預留的伸縮間隙」與本句語境不同。"
+        "gap-mcq-57": "本句的「fill the gap」指「提供缺少的東西／填補不足」。",
+        "gap-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-57"
     },
@@ -2040,11 +1892,9 @@ export default {
       "masked": "The programme aims to ____ between school and employment.",
       "options": [
         "gap-mcq-58",
-        "gap-mcq-57",
-        "gap-mcq-59",
-        "gap-mcq-56",
-        "gap-mcq-60",
-        "gap-mcq-55"
+        "gap-mcq-55",
+        "gap-mcq-03",
+        "gap-mcq-25"
       ],
       "explanation": "本句的「bridge the gap」指「連接兩方、彌合差距」。",
       "sentenceIndex": 37,
@@ -2053,12 +1903,10 @@ export default {
         "bridge the gap"
       ],
       "optionReasons": {
-        "gap-mcq-58": "本句指「連接兩方、彌合差距」。",
-        "gap-mcq-57": "「提供缺少的東西／填補不足」與本句語境不同。",
-        "gap-mcq-59": "「消除／縮小差距」與本句語境不同。",
-        "gap-mcq-56": "「小心列車與月台之間的空隙」與本句語境不同。",
-        "gap-mcq-60": "「擴大差距」與本句語境不同。",
-        "gap-mcq-55": "「列車與月台之間的空隙」與本句語境不同。"
+        "gap-mcq-58": "本句的「bridge the gap」指「連接兩方、彌合差距」。",
+        "gap-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "gap-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gap-mcq-58"
     }
@@ -2070,5 +1918,7 @@ export default {
     "sha256": "3200fe34c6163e04efc377fec69eb70a3ae2ed693a47b3bcc3ae5d6d9e3557b8",
     "pages": 45
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

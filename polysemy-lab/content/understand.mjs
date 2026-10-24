@@ -620,11 +620,9 @@ export default {
       "masked": "I don't ____.",
       "options": [
         "understand-mcq-01",
-        "understand-mcq-02",
-        "understand-mcq-03",
-        "understand-mcq-04",
-        "understand-mcq-05",
-        "understand-mcq-06"
+        "understand-mcq-23",
+        "understand-mcq-13",
+        "understand-mcq-18"
       ],
       "explanation": "本句的「understand this question」指「明白；理解」。",
       "sentenceIndex": 0,
@@ -633,12 +631,10 @@ export default {
         "understand this question"
       ],
       "optionReasons": {
-        "understand-mcq-01": "本句指「明白；理解」。",
-        "understand-mcq-02": "「明白怎樣／為甚麼」與本句語境不同。",
-        "understand-mcq-03": "「明白……」與本句語境不同。",
-        "understand-mcq-04": "「明白某人的意思」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。"
+        "understand-mcq-01": "本句的「understand this question」指「明白；理解」。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-01"
     },
@@ -650,11 +646,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "understand-mcq-01",
-        "understand-mcq-02",
-        "understand-mcq-03",
-        "understand-mcq-04",
-        "understand-mcq-05",
-        "understand-mcq-06"
+        "understand-mcq-23",
+        "understand-mcq-18",
+        "understand-mcq-13"
       ],
       "explanation": "本句的「understands the basic idea」指「明白；理解」。",
       "sentenceIndex": 1,
@@ -663,12 +657,10 @@ export default {
         "understands the basic idea"
       ],
       "optionReasons": {
-        "understand-mcq-01": "本句指「明白；理解」。",
-        "understand-mcq-02": "「明白怎樣／為甚麼」與本句語境不同。",
-        "understand-mcq-03": "「明白……」與本句語境不同。",
-        "understand-mcq-04": "「明白某人的意思」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。"
+        "understand-mcq-01": "本句的「understands the basic idea」指「明白；理解」。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-01"
     },
@@ -680,11 +672,9 @@ export default {
       "masked": "He helped us ____.",
       "options": [
         "understand-mcq-02",
-        "understand-mcq-01",
-        "understand-mcq-03",
-        "understand-mcq-04",
-        "understand-mcq-05",
-        "understand-mcq-06"
+        "understand-mcq-13",
+        "understand-mcq-25",
+        "understand-mcq-23"
       ],
       "explanation": "本句的「understand why the event happened」指「明白怎樣／為甚麼」。",
       "sentenceIndex": 2,
@@ -693,12 +683,10 @@ export default {
         "understand why the event happened"
       ],
       "optionReasons": {
-        "understand-mcq-02": "本句指「明白怎樣／為甚麼」。",
-        "understand-mcq-01": "「明白；理解」與本句語境不同。",
-        "understand-mcq-03": "「明白……」與本句語境不同。",
-        "understand-mcq-04": "「明白某人的意思」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。"
+        "understand-mcq-02": "本句的「understand why the event happened」指「明白怎樣／為甚麼」。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-02"
     },
@@ -710,11 +698,9 @@ export default {
       "masked": "I finally ____.",
       "options": [
         "understand-mcq-02",
-        "understand-mcq-01",
-        "understand-mcq-03",
-        "understand-mcq-04",
-        "understand-mcq-05",
-        "understand-mcq-06"
+        "understand-mcq-25",
+        "understand-mcq-13",
+        "understand-mcq-19"
       ],
       "explanation": "本句的「understand how the system works」指「明白怎樣／為甚麼」。",
       "sentenceIndex": 3,
@@ -723,12 +709,10 @@ export default {
         "understand how the system works"
       ],
       "optionReasons": {
-        "understand-mcq-02": "本句指「明白怎樣／為甚麼」。",
-        "understand-mcq-01": "「明白；理解」與本句語境不同。",
-        "understand-mcq-03": "「明白……」與本句語境不同。",
-        "understand-mcq-04": "「明白某人的意思」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。"
+        "understand-mcq-02": "本句的「understand how the system works」指「明白怎樣／為甚麼」。",
+        "understand-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-02"
     },
@@ -740,11 +724,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "understand-mcq-03",
-        "understand-mcq-02",
-        "understand-mcq-04",
-        "understand-mcq-01",
-        "understand-mcq-05",
-        "understand-mcq-06"
+        "understand-mcq-24",
+        "understand-mcq-23",
+        "understand-mcq-18"
       ],
       "explanation": "本句的「understand that the meeting has been cancelled」指「明白……」。",
       "sentenceIndex": 4,
@@ -753,12 +735,10 @@ export default {
         "understand that the meeting has been cancelled"
       ],
       "optionReasons": {
-        "understand-mcq-03": "本句指「明白……」。",
-        "understand-mcq-02": "「明白怎樣／為甚麼」與本句語境不同。",
-        "understand-mcq-04": "「明白某人的意思」與本句語境不同。",
-        "understand-mcq-01": "「明白；理解」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。"
+        "understand-mcq-03": "本句的「understand that the meeting has been cancelled」指「明白……」。",
+        "understand-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-03"
     },
@@ -770,11 +750,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "understand-mcq-03",
-        "understand-mcq-02",
-        "understand-mcq-04",
-        "understand-mcq-01",
-        "understand-mcq-05",
-        "understand-mcq-06"
+        "understand-mcq-25",
+        "understand-mcq-13",
+        "understand-mcq-19"
       ],
       "explanation": "本句的「understand that mistakes are part of learning」指「明白……」。",
       "sentenceIndex": 5,
@@ -783,12 +761,10 @@ export default {
         "understand that mistakes are part of learning"
       ],
       "optionReasons": {
-        "understand-mcq-03": "本句指「明白……」。",
-        "understand-mcq-02": "「明白怎樣／為甚麼」與本句語境不同。",
-        "understand-mcq-04": "「明白某人的意思」與本句語境不同。",
-        "understand-mcq-01": "「明白；理解」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。"
+        "understand-mcq-03": "本句的「understand that mistakes are part of learning」指「明白……」。",
+        "understand-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-03"
     },
@@ -800,11 +776,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "understand-mcq-04",
-        "understand-mcq-03",
-        "understand-mcq-05",
-        "understand-mcq-02",
-        "understand-mcq-06",
-        "understand-mcq-01"
+        "understand-mcq-26",
+        "understand-mcq-23",
+        "understand-mcq-19"
       ],
       "explanation": "本句的「understand what you're saying」指「明白某人的意思」。",
       "sentenceIndex": 6,
@@ -813,12 +787,10 @@ export default {
         "understand what you're saying"
       ],
       "optionReasons": {
-        "understand-mcq-04": "本句指「明白某人的意思」。",
-        "understand-mcq-03": "「明白……」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-02": "「明白怎樣／為甚麼」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。",
-        "understand-mcq-01": "「明白；理解」與本句語境不同。"
+        "understand-mcq-04": "本句的「understand what you're saying」指「明白某人的意思」。",
+        "understand-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-04"
     },
@@ -830,11 +802,9 @@ export default {
       "masked": "She speaks quickly, but I can still ____.",
       "options": [
         "understand-mcq-04",
-        "understand-mcq-03",
-        "understand-mcq-05",
-        "understand-mcq-02",
-        "understand-mcq-06",
-        "understand-mcq-01"
+        "understand-mcq-24",
+        "understand-mcq-19",
+        "understand-mcq-23"
       ],
       "explanation": "本句的「understand her」指「明白某人的意思」。",
       "sentenceIndex": 7,
@@ -843,12 +813,10 @@ export default {
         "understand her"
       ],
       "optionReasons": {
-        "understand-mcq-04": "本句指「明白某人的意思」。",
-        "understand-mcq-03": "「明白……」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-02": "「明白怎樣／為甚麼」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。",
-        "understand-mcq-01": "「明白；理解」與本句語境不同。"
+        "understand-mcq-04": "本句的「understand her」指「明白某人的意思」。",
+        "understand-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-04"
     },
@@ -860,11 +828,9 @@ export default {
       "masked": "I really ____.",
       "options": [
         "understand-mcq-04",
-        "understand-mcq-03",
-        "understand-mcq-05",
-        "understand-mcq-02",
-        "understand-mcq-06",
-        "understand-mcq-01"
+        "understand-mcq-23",
+        "understand-mcq-26",
+        "understand-mcq-19"
       ],
       "explanation": "本句的「understand how you feel」指「明白某人的意思」。",
       "sentenceIndex": 8,
@@ -873,12 +839,10 @@ export default {
         "understand how you feel"
       ],
       "optionReasons": {
-        "understand-mcq-04": "本句指「明白某人的意思」。",
-        "understand-mcq-03": "「明白……」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-02": "「明白怎樣／為甚麼」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。",
-        "understand-mcq-01": "「明白；理解」與本句語境不同。"
+        "understand-mcq-04": "本句的「understand how you feel」指「明白某人的意思」。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-04"
     },
@@ -890,11 +854,9 @@ export default {
       "masked": "She always tries to ____.",
       "options": [
         "understand-mcq-04",
-        "understand-mcq-03",
-        "understand-mcq-05",
-        "understand-mcq-02",
-        "understand-mcq-06",
-        "understand-mcq-01"
+        "understand-mcq-18",
+        "understand-mcq-25",
+        "understand-mcq-13"
       ],
       "explanation": "本句的「understand her students」指「明白某人的意思」。",
       "sentenceIndex": 9,
@@ -903,12 +865,10 @@ export default {
         "understand her students"
       ],
       "optionReasons": {
-        "understand-mcq-04": "本句指「明白某人的意思」。",
-        "understand-mcq-03": "「明白……」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-02": "「明白怎樣／為甚麼」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。",
-        "understand-mcq-01": "「明白；理解」與本句語境不同。"
+        "understand-mcq-04": "本句的「understand her students」指「明白某人的意思」。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-04"
     },
@@ -920,11 +880,9 @@ export default {
       "masked": "One event could be ____.",
       "options": [
         "understand-mcq-06",
-        "understand-mcq-05",
-        "understand-mcq-07",
-        "understand-mcq-04",
-        "understand-mcq-08",
-        "understand-mcq-03"
+        "understand-mcq-19",
+        "understand-mcq-13",
+        "understand-mcq-18"
       ],
       "explanation": "本句的「understood from different angles」指「從某角度理解」。",
       "sentenceIndex": 10,
@@ -933,12 +891,10 @@ export default {
         "understood from different angles"
       ],
       "optionReasons": {
-        "understand-mcq-06": "本句指「從某角度理解」。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-07": "「把 X 理解為 Y」與本句語境不同。",
-        "understand-mcq-04": "「明白某人的意思」與本句語境不同。",
-        "understand-mcq-08": "「被理解為」與本句語境不同。",
-        "understand-mcq-03": "「明白……」與本句語境不同。"
+        "understand-mcq-06": "本句的「understood from different angles」指「從某角度理解」。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-06"
     },
@@ -950,11 +906,9 @@ export default {
       "masked": "The conflict can be ____.",
       "options": [
         "understand-mcq-06",
-        "understand-mcq-05",
-        "understand-mcq-07",
-        "understand-mcq-04",
-        "understand-mcq-08",
-        "understand-mcq-03"
+        "understand-mcq-18",
+        "understand-mcq-19",
+        "understand-mcq-23"
       ],
       "explanation": "本句的「understood from both sides」指「從某角度理解」。",
       "sentenceIndex": 11,
@@ -963,12 +917,10 @@ export default {
         "understood from both sides"
       ],
       "optionReasons": {
-        "understand-mcq-06": "本句指「從某角度理解」。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-07": "「把 X 理解為 Y」與本句語境不同。",
-        "understand-mcq-04": "「明白某人的意思」與本句語境不同。",
-        "understand-mcq-08": "「被理解為」與本句語境不同。",
-        "understand-mcq-03": "「明白……」與本句語境不同。"
+        "understand-mcq-06": "本句的「understood from both sides」指「從某角度理解」。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-06"
     },
@@ -980,11 +932,9 @@ export default {
       "masked": "The story becomes more interesting when it is ____.",
       "options": [
         "understand-mcq-06",
-        "understand-mcq-05",
-        "understand-mcq-07",
-        "understand-mcq-04",
-        "understand-mcq-08",
-        "understand-mcq-03"
+        "understand-mcq-18",
+        "understand-mcq-23",
+        "understand-mcq-19"
       ],
       "explanation": "本句的「understood from the child's point of view」指「從某角度理解」。",
       "sentenceIndex": 12,
@@ -993,12 +943,10 @@ export default {
         "understood from the child's point of view"
       ],
       "optionReasons": {
-        "understand-mcq-06": "本句指「從某角度理解」。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-07": "「把 X 理解為 Y」與本句語境不同。",
-        "understand-mcq-04": "「明白某人的意思」與本句語境不同。",
-        "understand-mcq-08": "「被理解為」與本句語境不同。",
-        "understand-mcq-03": "「明白……」與本句語境不同。"
+        "understand-mcq-06": "本句的「understood from the child's point of view」指「從某角度理解」。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-06"
     },
@@ -1010,11 +958,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "understand-mcq-07",
-        "understand-mcq-06",
-        "understand-mcq-08",
-        "understand-mcq-05",
-        "understand-mcq-09",
-        "understand-mcq-04"
+        "understand-mcq-18",
+        "understand-mcq-13",
+        "understand-mcq-23"
       ],
       "explanation": "本句的「understood his silence as disagreement」指「把 X 理解為 Y」。",
       "sentenceIndex": 13,
@@ -1023,12 +969,10 @@ export default {
         "understood his silence as disagreement"
       ],
       "optionReasons": {
-        "understand-mcq-07": "本句指「把 X 理解為 Y」。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。",
-        "understand-mcq-08": "「被理解為」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-09": "「讓人明白自己」與本句語境不同。",
-        "understand-mcq-04": "「明白某人的意思」與本句語境不同。"
+        "understand-mcq-07": "本句的「understood his silence as disagreement」指「把 X 理解為 Y」。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-07"
     },
@@ -1040,11 +984,9 @@ export default {
       "masked": "The remark could be ____.",
       "options": [
         "understand-mcq-07",
-        "understand-mcq-06",
-        "understand-mcq-08",
-        "understand-mcq-05",
-        "understand-mcq-09",
-        "understand-mcq-04"
+        "understand-mcq-23",
+        "understand-mcq-13",
+        "understand-mcq-19"
       ],
       "explanation": "本句的「understood as a warning」指「把 X 理解為 Y」。",
       "sentenceIndex": 14,
@@ -1053,12 +995,10 @@ export default {
         "understood as a warning"
       ],
       "optionReasons": {
-        "understand-mcq-07": "本句指「把 X 理解為 Y」。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。",
-        "understand-mcq-08": "「被理解為」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。",
-        "understand-mcq-09": "「讓人明白自己」與本句語境不同。",
-        "understand-mcq-04": "「明白某人的意思」與本句語境不同。"
+        "understand-mcq-07": "本句的「understood as a warning」指「把 X 理解為 Y」。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-07"
     },
@@ -1070,11 +1010,9 @@ export default {
       "masked": "His comment was ____.",
       "options": [
         "understand-mcq-08",
-        "understand-mcq-07",
-        "understand-mcq-09",
-        "understand-mcq-06",
-        "understand-mcq-10",
-        "understand-mcq-05"
+        "understand-mcq-19",
+        "understand-mcq-13",
+        "understand-mcq-23"
       ],
       "explanation": "本句的「understood to mean that he would resign」指「被理解為」。",
       "sentenceIndex": 15,
@@ -1083,12 +1021,10 @@ export default {
         "understood to mean that he would resign"
       ],
       "optionReasons": {
-        "understand-mcq-08": "本句指「被理解為」。",
-        "understand-mcq-07": "「把 X 理解為 Y」與本句語境不同。",
-        "understand-mcq-09": "「讓人明白自己」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。",
-        "understand-mcq-10": "「逐漸明白」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。"
+        "understand-mcq-08": "本句的「understood to mean that he would resign」指「被理解為」。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-08"
     },
@@ -1100,11 +1036,9 @@ export default {
       "masked": "The phrase is generally ____ “be careful.",
       "options": [
         "understand-mcq-08",
-        "understand-mcq-07",
-        "understand-mcq-09",
-        "understand-mcq-06",
-        "understand-mcq-10",
-        "understand-mcq-05"
+        "understand-mcq-18",
+        "understand-mcq-19",
+        "understand-mcq-13"
       ],
       "explanation": "本句的「understood to mean」指「被理解為」。",
       "sentenceIndex": 16,
@@ -1113,12 +1047,10 @@ export default {
         "understood to mean"
       ],
       "optionReasons": {
-        "understand-mcq-08": "本句指「被理解為」。",
-        "understand-mcq-07": "「把 X 理解為 Y」與本句語境不同。",
-        "understand-mcq-09": "「讓人明白自己」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。",
-        "understand-mcq-10": "「逐漸明白」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。"
+        "understand-mcq-08": "本句的「understood to mean」指「被理解為」。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-08"
     },
@@ -1130,11 +1062,9 @@ export default {
       "masked": "I ____ that the lesson was cancelled.",
       "options": [
         "understand-mcq-08",
-        "understand-mcq-07",
-        "understand-mcq-09",
-        "understand-mcq-06",
-        "understand-mcq-10",
-        "understand-mcq-05"
+        "understand-mcq-13",
+        "understand-mcq-23",
+        "understand-mcq-18"
       ],
       "explanation": "本句的「understood you to mean」指「被理解為」。",
       "sentenceIndex": 17,
@@ -1143,12 +1073,10 @@ export default {
         "understood you to mean"
       ],
       "optionReasons": {
-        "understand-mcq-08": "本句指「被理解為」。",
-        "understand-mcq-07": "「把 X 理解為 Y」與本句語境不同。",
-        "understand-mcq-09": "「讓人明白自己」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。",
-        "understand-mcq-10": "「逐漸明白」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。"
+        "understand-mcq-08": "本句的「understood you to mean」指「被理解為」。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-08"
     },
@@ -1160,11 +1088,9 @@ export default {
       "masked": "Did I ____ that you're leaving?",
       "options": [
         "understand-mcq-08",
-        "understand-mcq-07",
-        "understand-mcq-09",
-        "understand-mcq-06",
-        "understand-mcq-10",
-        "understand-mcq-05"
+        "understand-mcq-19",
+        "understand-mcq-18",
+        "understand-mcq-13"
       ],
       "explanation": "本句的「understand you to mean」指「被理解為」。",
       "sentenceIndex": 18,
@@ -1173,12 +1099,10 @@ export default {
         "understand you to mean"
       ],
       "optionReasons": {
-        "understand-mcq-08": "本句指「被理解為」。",
-        "understand-mcq-07": "「把 X 理解為 Y」與本句語境不同。",
-        "understand-mcq-09": "「讓人明白自己」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。",
-        "understand-mcq-10": "「逐漸明白」與本句語境不同。",
-        "understand-mcq-05": "「理解／體諒」與本句語境不同。"
+        "understand-mcq-08": "本句的「understand you to mean」指「被理解為」。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-08"
     },
@@ -1190,11 +1114,9 @@ export default {
       "masked": "Her English is basic, but she can ____.",
       "options": [
         "understand-mcq-09",
-        "understand-mcq-08",
-        "understand-mcq-10",
-        "understand-mcq-07",
-        "understand-mcq-11",
-        "understand-mcq-06"
+        "understand-mcq-23",
+        "understand-mcq-18",
+        "understand-mcq-13"
       ],
       "explanation": "本句的「make herself understood」指「讓人明白自己」。",
       "sentenceIndex": 19,
@@ -1203,12 +1125,10 @@ export default {
         "make herself understood"
       ],
       "optionReasons": {
-        "understand-mcq-09": "本句指「讓人明白自己」。",
-        "understand-mcq-08": "「被理解為」與本句語境不同。",
-        "understand-mcq-10": "「逐漸明白」與本句語境不同。",
-        "understand-mcq-07": "「把 X 理解為 Y」與本句語境不同。",
-        "understand-mcq-11": "「據我理解」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。"
+        "understand-mcq-09": "本句的「make herself understood」指「讓人明白自己」。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-09"
     },
@@ -1220,11 +1140,9 @@ export default {
       "masked": "Speak slowly so you can ____.",
       "options": [
         "understand-mcq-09",
-        "understand-mcq-08",
-        "understand-mcq-10",
-        "understand-mcq-07",
-        "understand-mcq-11",
-        "understand-mcq-06"
+        "understand-mcq-25",
+        "understand-mcq-13",
+        "understand-mcq-19"
       ],
       "explanation": "本句的「make yourself understood」指「讓人明白自己」。",
       "sentenceIndex": 20,
@@ -1233,12 +1151,10 @@ export default {
         "make yourself understood"
       ],
       "optionReasons": {
-        "understand-mcq-09": "本句指「讓人明白自己」。",
-        "understand-mcq-08": "「被理解為」與本句語境不同。",
-        "understand-mcq-10": "「逐漸明白」與本句語境不同。",
-        "understand-mcq-07": "「把 X 理解為 Y」與本句語境不同。",
-        "understand-mcq-11": "「據我理解」與本句語境不同。",
-        "understand-mcq-06": "「從某角度理解」與本句語境不同。"
+        "understand-mcq-09": "本句的「make yourself understood」指「讓人明白自己」。",
+        "understand-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-09"
     },
@@ -1250,11 +1166,9 @@ export default {
       "masked": "I gradually ____ why he taught that way.",
       "options": [
         "understand-mcq-10",
-        "understand-mcq-09",
-        "understand-mcq-11",
-        "understand-mcq-08",
-        "understand-mcq-12",
-        "understand-mcq-07"
+        "understand-mcq-23",
+        "understand-mcq-26",
+        "understand-mcq-18"
       ],
       "explanation": "本句的「came to understand」指「逐漸明白」。",
       "sentenceIndex": 21,
@@ -1263,12 +1177,10 @@ export default {
         "came to understand"
       ],
       "optionReasons": {
-        "understand-mcq-10": "本句指「逐漸明白」。",
-        "understand-mcq-09": "「讓人明白自己」與本句語境不同。",
-        "understand-mcq-11": "「據我理解」與本句語境不同。",
-        "understand-mcq-08": "「被理解為」與本句語境不同。",
-        "understand-mcq-12": "「我明白」與本句語境不同。",
-        "understand-mcq-07": "「把 X 理解為 Y」與本句語境不同。"
+        "understand-mcq-10": "本句的「came to understand」指「逐漸明白」。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-10"
     },
@@ -1280,11 +1192,9 @@ export default {
       "masked": "She ____ the importance of patience.",
       "options": [
         "understand-mcq-10",
-        "understand-mcq-09",
-        "understand-mcq-11",
-        "understand-mcq-08",
-        "understand-mcq-12",
-        "understand-mcq-07"
+        "understand-mcq-13",
+        "understand-mcq-24",
+        "understand-mcq-19"
       ],
       "explanation": "本句的「came to understand」指「逐漸明白」。",
       "sentenceIndex": 22,
@@ -1293,12 +1203,10 @@ export default {
         "came to understand"
       ],
       "optionReasons": {
-        "understand-mcq-10": "本句指「逐漸明白」。",
-        "understand-mcq-09": "「讓人明白自己」與本句語境不同。",
-        "understand-mcq-11": "「據我理解」與本句語境不同。",
-        "understand-mcq-08": "「被理解為」與本句語境不同。",
-        "understand-mcq-12": "「我明白」與本句語境不同。",
-        "understand-mcq-07": "「把 X 理解為 Y」與本句語境不同。"
+        "understand-mcq-10": "本句的「came to understand」指「逐漸明白」。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-10"
     },
@@ -1310,11 +1218,9 @@ export default {
       "masked": "____, the lesson has been moved to Friday.",
       "options": [
         "understand-mcq-11",
-        "understand-mcq-10",
-        "understand-mcq-12",
-        "understand-mcq-09",
-        "understand-mcq-13",
-        "understand-mcq-08"
+        "understand-mcq-19",
+        "understand-mcq-18",
+        "understand-mcq-23"
       ],
       "explanation": "本句的「As I understand it」指「據我理解」。",
       "sentenceIndex": 23,
@@ -1323,12 +1229,10 @@ export default {
         "As I understand it"
       ],
       "optionReasons": {
-        "understand-mcq-11": "本句指「據我理解」。",
-        "understand-mcq-10": "「逐漸明白」與本句語境不同。",
-        "understand-mcq-12": "「我明白」與本句語境不同。",
-        "understand-mcq-09": "「讓人明白自己」與本句語境不同。",
-        "understand-mcq-13": "「我聽說／據我所知」與本句語境不同。",
-        "understand-mcq-08": "「被理解為」與本句語境不同。"
+        "understand-mcq-11": "本句的「As I understand it」指「據我理解」。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-11"
     },
@@ -1340,11 +1244,9 @@ export default {
       "masked": "____, no final decision has been made.",
       "options": [
         "understand-mcq-11",
-        "understand-mcq-10",
-        "understand-mcq-12",
-        "understand-mcq-09",
-        "understand-mcq-13",
-        "understand-mcq-08"
+        "understand-mcq-18",
+        "understand-mcq-23",
+        "understand-mcq-19"
       ],
       "explanation": "本句的「As I understand it」指「據我理解」。",
       "sentenceIndex": 24,
@@ -1353,12 +1255,10 @@ export default {
         "As I understand it"
       ],
       "optionReasons": {
-        "understand-mcq-11": "本句指「據我理解」。",
-        "understand-mcq-10": "「逐漸明白」與本句語境不同。",
-        "understand-mcq-12": "「我明白」與本句語境不同。",
-        "understand-mcq-09": "「讓人明白自己」與本句語境不同。",
-        "understand-mcq-13": "「我聽說／據我所知」與本句語境不同。",
-        "understand-mcq-08": "「被理解為」與本句語境不同。"
+        "understand-mcq-11": "本句的「As I understand it」指「據我理解」。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-11"
     },
@@ -1370,11 +1270,9 @@ export default {
       "masked": "Please submit it by Friday.” > “____",
       "options": [
         "understand-mcq-12",
-        "understand-mcq-11",
-        "understand-mcq-13",
-        "understand-mcq-10",
-        "understand-mcq-14",
-        "understand-mcq-09"
+        "understand-mcq-21",
+        "understand-mcq-18",
+        "understand-mcq-23"
       ],
       "explanation": "本句的「I understand.」指「我明白」。",
       "sentenceIndex": 25,
@@ -1383,12 +1281,10 @@ export default {
         "I understand."
       ],
       "optionReasons": {
-        "understand-mcq-12": "本句指「我明白」。",
-        "understand-mcq-11": "「據我理解」與本句語境不同。",
-        "understand-mcq-13": "「我聽說／據我所知」與本句語境不同。",
-        "understand-mcq-10": "「逐漸明白」與本句語境不同。",
-        "understand-mcq-14": "「據了解」與本句語境不同。",
-        "understand-mcq-09": "「讓人明白自己」與本句語境不同。"
+        "understand-mcq-12": "本句的「I understand.」指「我明白」。",
+        "understand-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-12"
     },
@@ -1400,11 +1296,9 @@ export default {
       "masked": "____ what I need to do.",
       "options": [
         "understand-mcq-12",
-        "understand-mcq-11",
-        "understand-mcq-13",
-        "understand-mcq-10",
-        "understand-mcq-14",
-        "understand-mcq-09"
+        "understand-mcq-21",
+        "understand-mcq-19",
+        "understand-mcq-23"
       ],
       "explanation": "本句的「I understand」指「我明白」。",
       "sentenceIndex": 26,
@@ -1413,12 +1307,10 @@ export default {
         "I understand"
       ],
       "optionReasons": {
-        "understand-mcq-12": "本句指「我明白」。",
-        "understand-mcq-11": "「據我理解」與本句語境不同。",
-        "understand-mcq-13": "「我聽說／據我所知」與本句語境不同。",
-        "understand-mcq-10": "「逐漸明白」與本句語境不同。",
-        "understand-mcq-14": "「據了解」與本句語境不同。",
-        "understand-mcq-09": "「讓人明白自己」與本句語境不同。"
+        "understand-mcq-12": "本句的「I understand」指「我明白」。",
+        "understand-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-12"
     },
@@ -1430,11 +1322,9 @@ export default {
       "masked": "____.",
       "options": [
         "understand-mcq-13",
-        "understand-mcq-12",
-        "understand-mcq-14",
-        "understand-mcq-11",
-        "understand-mcq-15",
-        "understand-mcq-10"
+        "understand-mcq-09",
+        "understand-mcq-26",
+        "understand-mcq-19"
       ],
       "explanation": "本句的「I understand you're leaving the company」指「我聽說／據我所知」。",
       "sentenceIndex": 27,
@@ -1443,12 +1333,10 @@ export default {
         "I understand you're leaving the company"
       ],
       "optionReasons": {
-        "understand-mcq-13": "本句指「我聽說／據我所知」。",
-        "understand-mcq-12": "「我明白」與本句語境不同。",
-        "understand-mcq-14": "「據了解」與本句語境不同。",
-        "understand-mcq-11": "「據我理解」與本句語境不同。",
-        "understand-mcq-15": "「理解；認識」與本句語境不同。",
-        "understand-mcq-10": "「逐漸明白」與本句語境不同。"
+        "understand-mcq-13": "本句的「I understand you're leaving the company」指「我聽說／據我所知」。",
+        "understand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-13"
     },
@@ -1460,11 +1348,9 @@ export default {
       "masked": "____.",
       "options": [
         "understand-mcq-13",
-        "understand-mcq-12",
-        "understand-mcq-14",
-        "understand-mcq-11",
-        "understand-mcq-15",
-        "understand-mcq-10"
+        "understand-mcq-07",
+        "understand-mcq-19",
+        "understand-mcq-18"
       ],
       "explanation": "本句的「I understand that Mr Chan taught here for many years」指「我聽說／據我所知」。",
       "sentenceIndex": 28,
@@ -1473,12 +1359,10 @@ export default {
         "I understand that Mr Chan taught here for many years"
       ],
       "optionReasons": {
-        "understand-mcq-13": "本句指「我聽說／據我所知」。",
-        "understand-mcq-12": "「我明白」與本句語境不同。",
-        "understand-mcq-14": "「據了解」與本句語境不同。",
-        "understand-mcq-11": "「據我理解」與本句語境不同。",
-        "understand-mcq-15": "「理解；認識」與本句語境不同。",
-        "understand-mcq-10": "「逐漸明白」與本句語境不同。"
+        "understand-mcq-13": "本句的「I understand that Mr Chan taught here for many years」指「我聽說／據我所知」。",
+        "understand-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-13"
     },
@@ -1490,11 +1374,9 @@ export default {
       "masked": "____ the decision will be announced tomorrow.",
       "options": [
         "understand-mcq-14",
-        "understand-mcq-13",
-        "understand-mcq-15",
-        "understand-mcq-12",
-        "understand-mcq-16",
-        "understand-mcq-11"
+        "understand-mcq-18",
+        "understand-mcq-23",
+        "understand-mcq-19"
       ],
       "explanation": "本句的「It is understood that」指「據了解」。",
       "sentenceIndex": 29,
@@ -1503,12 +1385,10 @@ export default {
         "It is understood that"
       ],
       "optionReasons": {
-        "understand-mcq-14": "本句指「據了解」。",
-        "understand-mcq-13": "「我聽說／據我所知」與本句語境不同。",
-        "understand-mcq-15": "「理解；認識」與本句語境不同。",
-        "understand-mcq-12": "「我明白」與本句語境不同。",
-        "understand-mcq-16": "「對 X 的理解」與本句語境不同。",
-        "understand-mcq-11": "「據我理解」與本句語境不同。"
+        "understand-mcq-14": "本句的「It is understood that」指「據了解」。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-14"
     },
@@ -1520,11 +1400,9 @@ export default {
       "masked": "____ both sides have agreed.",
       "options": [
         "understand-mcq-14",
-        "understand-mcq-13",
-        "understand-mcq-15",
-        "understand-mcq-12",
-        "understand-mcq-16",
-        "understand-mcq-11"
+        "understand-mcq-23",
+        "understand-mcq-18",
+        "understand-mcq-19"
       ],
       "explanation": "本句的「It is understood that」指「據了解」。",
       "sentenceIndex": 30,
@@ -1533,12 +1411,10 @@ export default {
         "It is understood that"
       ],
       "optionReasons": {
-        "understand-mcq-14": "本句指「據了解」。",
-        "understand-mcq-13": "「我聽說／據我所知」與本句語境不同。",
-        "understand-mcq-15": "「理解；認識」與本句語境不同。",
-        "understand-mcq-12": "「我明白」與本句語境不同。",
-        "understand-mcq-16": "「對 X 的理解」與本句語境不同。",
-        "understand-mcq-11": "「據我理解」與本句語境不同。"
+        "understand-mcq-14": "本句的「It is understood that」指「據了解」。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-14"
     },
@@ -1550,11 +1426,9 @@ export default {
       "masked": "She has a good ____.",
       "options": [
         "understand-mcq-15",
-        "understand-mcq-14",
-        "understand-mcq-16",
-        "understand-mcq-13",
-        "understand-mcq-17",
-        "understand-mcq-12"
+        "understand-mcq-19",
+        "understand-mcq-23",
+        "understand-mcq-13"
       ],
       "explanation": "本句的「understanding of history」指「理解；認識」。",
       "sentenceIndex": 31,
@@ -1563,12 +1437,10 @@ export default {
         "understanding of history"
       ],
       "optionReasons": {
-        "understand-mcq-15": "本句指「理解；認識」。",
-        "understand-mcq-14": "「據了解」與本句語境不同。",
-        "understand-mcq-16": "「對 X 的理解」與本句語境不同。",
-        "understand-mcq-13": "「我聽說／據我所知」與本句語境不同。",
-        "understand-mcq-17": "「共識；諒解」與本句語境不同。",
-        "understand-mcq-12": "「我明白」與本句語境不同。"
+        "understand-mcq-15": "本句的「understanding of history」指「理解；認識」。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-15"
     },
@@ -1580,11 +1452,9 @@ export default {
       "masked": "Reading widely can deepen your ____.",
       "options": [
         "understand-mcq-15",
-        "understand-mcq-14",
-        "understand-mcq-16",
+        "understand-mcq-23",
         "understand-mcq-13",
-        "understand-mcq-17",
-        "understand-mcq-12"
+        "understand-mcq-19"
       ],
       "explanation": "本句的「understanding」指「理解；認識」。",
       "sentenceIndex": 32,
@@ -1593,12 +1463,10 @@ export default {
         "understanding"
       ],
       "optionReasons": {
-        "understand-mcq-15": "本句指「理解；認識」。",
-        "understand-mcq-14": "「據了解」與本句語境不同。",
-        "understand-mcq-16": "「對 X 的理解」與本句語境不同。",
-        "understand-mcq-13": "「我聽說／據我所知」與本句語境不同。",
-        "understand-mcq-17": "「共識；諒解」與本句語境不同。",
-        "understand-mcq-12": "「我明白」與本句語境不同。"
+        "understand-mcq-15": "本句的「understanding」指「理解；認識」。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-15"
     },
@@ -1610,11 +1478,9 @@ export default {
       "masked": "Students need a basic ____.",
       "options": [
         "understand-mcq-16",
-        "understand-mcq-15",
-        "understand-mcq-17",
-        "understand-mcq-14",
+        "understand-mcq-23",
         "understand-mcq-18",
-        "understand-mcq-13"
+        "understand-mcq-19"
       ],
       "explanation": "本句的「understanding of the topic」指「對 X 的理解」。",
       "sentenceIndex": 33,
@@ -1623,12 +1489,10 @@ export default {
         "understanding of the topic"
       ],
       "optionReasons": {
-        "understand-mcq-16": "本句指「對 X 的理解」。",
-        "understand-mcq-15": "「理解；認識」與本句語境不同。",
-        "understand-mcq-17": "「共識；諒解」與本句語境不同。",
-        "understand-mcq-14": "「據了解」與本句語境不同。",
-        "understand-mcq-18": "「達成共識」與本句語境不同。",
-        "understand-mcq-13": "「我聽說／據我所知」與本句語境不同。"
+        "understand-mcq-16": "本句的「understanding of the topic」指「對 X 的理解」。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-16"
     },
@@ -1640,9 +1504,7 @@ export default {
       "masked": "He has a deep ____.",
       "options": [
         "understand-mcq-16",
-        "understand-mcq-15",
-        "understand-mcq-17",
-        "understand-mcq-14",
+        "understand-mcq-19",
         "understand-mcq-18",
         "understand-mcq-13"
       ],
@@ -1653,12 +1515,10 @@ export default {
         "understanding of human behaviour"
       ],
       "optionReasons": {
-        "understand-mcq-16": "本句指「對 X 的理解」。",
-        "understand-mcq-15": "「理解；認識」與本句語境不同。",
-        "understand-mcq-17": "「共識；諒解」與本句語境不同。",
-        "understand-mcq-14": "「據了解」與本句語境不同。",
-        "understand-mcq-18": "「達成共識」與本句語境不同。",
-        "understand-mcq-13": "「我聽說／據我所知」與本句語境不同。"
+        "understand-mcq-16": "本句的「understanding of human behaviour」指「對 X 的理解」。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-16"
     },
@@ -1670,11 +1530,9 @@ export default {
       "masked": "We reached an ____.",
       "options": [
         "understand-mcq-15",
-        "understand-mcq-14",
-        "understand-mcq-16",
         "understand-mcq-13",
-        "understand-mcq-17",
-        "understand-mcq-12"
+        "understand-mcq-19",
+        "understand-mcq-23"
       ],
       "explanation": "本句的「understanding」指「理解；認識」。",
       "sentenceIndex": 35,
@@ -1683,12 +1541,10 @@ export default {
         "understanding"
       ],
       "optionReasons": {
-        "understand-mcq-15": "本句指「理解；認識」。",
-        "understand-mcq-14": "「據了解」與本句語境不同。",
-        "understand-mcq-16": "「對 X 的理解」與本句語境不同。",
-        "understand-mcq-13": "「我聽說／據我所知」與本句語境不同。",
-        "understand-mcq-17": "「共識；諒解」與本句語境不同。",
-        "understand-mcq-12": "「我明白」與本句語境不同。"
+        "understand-mcq-15": "本句的「understanding」指「理解；認識」。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-15"
     },
@@ -1700,11 +1556,9 @@ export default {
       "masked": "There was a clear ____ between the two sides.",
       "options": [
         "understand-mcq-15",
-        "understand-mcq-14",
-        "understand-mcq-16",
+        "understand-mcq-23",
         "understand-mcq-13",
-        "understand-mcq-17",
-        "understand-mcq-12"
+        "understand-mcq-19"
       ],
       "explanation": "本句的「understanding」指「理解；認識」。",
       "sentenceIndex": 36,
@@ -1713,12 +1567,10 @@ export default {
         "understanding"
       ],
       "optionReasons": {
-        "understand-mcq-15": "本句指「理解；認識」。",
-        "understand-mcq-14": "「據了解」與本句語境不同。",
-        "understand-mcq-16": "「對 X 的理解」與本句語境不同。",
-        "understand-mcq-13": "「我聽說／據我所知」與本句語境不同。",
-        "understand-mcq-17": "「共識；諒解」與本句語境不同。",
-        "understand-mcq-12": "「我明白」與本句語境不同。"
+        "understand-mcq-15": "本句的「understanding」指「理解；認識」。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-15"
     },
@@ -1730,11 +1582,9 @@ export default {
       "masked": "After a long discussion, they ____.",
       "options": [
         "understand-mcq-18",
-        "understand-mcq-17",
+        "understand-mcq-08",
         "understand-mcq-19",
-        "understand-mcq-16",
-        "understand-mcq-20",
-        "understand-mcq-15"
+        "understand-mcq-23"
       ],
       "explanation": "本句的「reached an understanding」指「達成共識」。",
       "sentenceIndex": 37,
@@ -1743,12 +1593,10 @@ export default {
         "reached an understanding"
       ],
       "optionReasons": {
-        "understand-mcq-18": "本句指「達成共識」。",
-        "understand-mcq-17": "「共識；諒解」與本句語境不同。",
-        "understand-mcq-19": "「在……前提下」與本句語境不同。",
-        "understand-mcq-16": "「對 X 的理解」與本句語境不同。",
-        "understand-mcq-20": "「相互理解」與本句語境不同。",
-        "understand-mcq-15": "「理解；認識」與本句語境不同。"
+        "understand-mcq-18": "本句的「reached an understanding」指「達成共識」。",
+        "understand-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-18"
     },
@@ -1760,11 +1608,9 @@ export default {
       "masked": "We need to ____ about the schedule.",
       "options": [
         "understand-mcq-18",
-        "understand-mcq-17",
+        "understand-mcq-14",
         "understand-mcq-19",
-        "understand-mcq-16",
-        "understand-mcq-20",
-        "understand-mcq-15"
+        "understand-mcq-23"
       ],
       "explanation": "本句的「come to an understanding」指「達成共識」。",
       "sentenceIndex": 38,
@@ -1773,12 +1619,10 @@ export default {
         "come to an understanding"
       ],
       "optionReasons": {
-        "understand-mcq-18": "本句指「達成共識」。",
-        "understand-mcq-17": "「共識；諒解」與本句語境不同。",
-        "understand-mcq-19": "「在……前提下」與本句語境不同。",
-        "understand-mcq-16": "「對 X 的理解」與本句語境不同。",
-        "understand-mcq-20": "「相互理解」與本句語境不同。",
-        "understand-mcq-15": "「理解；認識」與本句語境不同。"
+        "understand-mcq-18": "本句的「come to an understanding」指「達成共識」。",
+        "understand-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-18"
     },
@@ -1790,11 +1634,9 @@ export default {
       "masked": "I agreed ____ the work would be finished by Friday.",
       "options": [
         "understand-mcq-19",
+        "understand-mcq-08",
         "understand-mcq-18",
-        "understand-mcq-20",
-        "understand-mcq-17",
-        "understand-mcq-21",
-        "understand-mcq-16"
+        "understand-mcq-13"
       ],
       "explanation": "本句的「on the understanding that」指「在……前提下」。",
       "sentenceIndex": 39,
@@ -1803,12 +1645,10 @@ export default {
         "on the understanding that"
       ],
       "optionReasons": {
-        "understand-mcq-19": "本句指「在……前提下」。",
-        "understand-mcq-18": "「達成共識」與本句語境不同。",
-        "understand-mcq-20": "「相互理解」與本句語境不同。",
-        "understand-mcq-17": "「共識；諒解」與本句語境不同。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。",
-        "understand-mcq-16": "「對 X 的理解」與本句語境不同。"
+        "understand-mcq-19": "本句的「on the understanding that」指「在……前提下」。",
+        "understand-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-19"
     },
@@ -1820,11 +1660,9 @@ export default {
       "masked": "She joined the project ____ she could work remotely.",
       "options": [
         "understand-mcq-19",
-        "understand-mcq-18",
-        "understand-mcq-20",
-        "understand-mcq-17",
-        "understand-mcq-21",
-        "understand-mcq-16"
+        "understand-mcq-07",
+        "understand-mcq-13",
+        "understand-mcq-18"
       ],
       "explanation": "本句的「on the understanding that」指「在……前提下」。",
       "sentenceIndex": 40,
@@ -1833,12 +1671,10 @@ export default {
         "on the understanding that"
       ],
       "optionReasons": {
-        "understand-mcq-19": "本句指「在……前提下」。",
-        "understand-mcq-18": "「達成共識」與本句語境不同。",
-        "understand-mcq-20": "「相互理解」與本句語境不同。",
-        "understand-mcq-17": "「共識；諒解」與本句語境不同。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。",
-        "understand-mcq-16": "「對 X 的理解」與本句語境不同。"
+        "understand-mcq-19": "本句的「on the understanding that」指「在……前提下」。",
+        "understand-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-19"
     },
@@ -1850,11 +1686,9 @@ export default {
       "masked": "Good communication builds ____.",
       "options": [
         "understand-mcq-20",
-        "understand-mcq-19",
-        "understand-mcq-21",
+        "understand-mcq-13",
         "understand-mcq-18",
-        "understand-mcq-22",
-        "understand-mcq-17"
+        "understand-mcq-19"
       ],
       "explanation": "本句的「mutual understanding」指「相互理解」。",
       "sentenceIndex": 41,
@@ -1863,12 +1697,10 @@ export default {
         "mutual understanding"
       ],
       "optionReasons": {
-        "understand-mcq-20": "本句指「相互理解」。",
-        "understand-mcq-19": "「在……前提下」與本句語境不同。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。",
-        "understand-mcq-18": "「達成共識」與本句語境不同。",
-        "understand-mcq-22": "「可以理解的」與本句語境不同。",
-        "understand-mcq-17": "「共識；諒解」與本句語境不同。"
+        "understand-mcq-20": "本句的「mutual understanding」指「相互理解」。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-20"
     },
@@ -1880,11 +1712,9 @@ export default {
       "masked": "The discussion improved ____ between the two groups.",
       "options": [
         "understand-mcq-20",
-        "understand-mcq-19",
-        "understand-mcq-21",
         "understand-mcq-18",
-        "understand-mcq-22",
-        "understand-mcq-17"
+        "understand-mcq-13",
+        "understand-mcq-19"
       ],
       "explanation": "本句的「mutual understanding」指「相互理解」。",
       "sentenceIndex": 42,
@@ -1893,12 +1723,10 @@ export default {
         "mutual understanding"
       ],
       "optionReasons": {
-        "understand-mcq-20": "本句指「相互理解」。",
-        "understand-mcq-19": "「在……前提下」與本句語境不同。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。",
-        "understand-mcq-18": "「達成共識」與本句語境不同。",
-        "understand-mcq-22": "「可以理解的」與本句語境不同。",
-        "understand-mcq-17": "「共識；諒解」與本句語境不同。"
+        "understand-mcq-20": "本句的「mutual understanding」指「相互理解」。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-20"
     },
@@ -1910,11 +1738,9 @@ export default {
       "masked": "She is a very ____.",
       "options": [
         "understand-mcq-21",
-        "understand-mcq-20",
-        "understand-mcq-22",
-        "understand-mcq-19",
-        "understand-mcq-23",
-        "understand-mcq-18"
+        "understand-mcq-10",
+        "understand-mcq-13",
+        "understand-mcq-23"
       ],
       "explanation": "本句的「understanding teacher」指「善解人意的」。",
       "sentenceIndex": 43,
@@ -1923,12 +1749,10 @@ export default {
         "understanding teacher"
       ],
       "optionReasons": {
-        "understand-mcq-21": "本句指「善解人意的」。",
-        "understand-mcq-20": "「相互理解」與本句語境不同。",
-        "understand-mcq-22": "「可以理解的」與本句語境不同。",
-        "understand-mcq-19": "「在……前提下」與本句語境不同。",
-        "understand-mcq-23": "「情有可原地」與本句語境不同。",
-        "understand-mcq-18": "「達成共識」與本句語境不同。"
+        "understand-mcq-21": "本句的「understanding teacher」指「善解人意的」。",
+        "understand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-21"
     },
@@ -1940,10 +1764,8 @@ export default {
       "masked": "My manager was ____ about the mistake.",
       "options": [
         "understand-mcq-21",
-        "understand-mcq-20",
-        "understand-mcq-22",
-        "understand-mcq-19",
-        "understand-mcq-23",
+        "understand-mcq-09",
+        "understand-mcq-13",
         "understand-mcq-18"
       ],
       "explanation": "本句的「understanding」指「善解人意的」。",
@@ -1953,12 +1775,10 @@ export default {
         "understanding"
       ],
       "optionReasons": {
-        "understand-mcq-21": "本句指「善解人意的」。",
-        "understand-mcq-20": "「相互理解」與本句語境不同。",
-        "understand-mcq-22": "「可以理解的」與本句語境不同。",
-        "understand-mcq-19": "「在……前提下」與本句語境不同。",
-        "understand-mcq-23": "「情有可原地」與本句語境不同。",
-        "understand-mcq-18": "「達成共識」與本句語境不同。"
+        "understand-mcq-21": "本句的「understanding」指「善解人意的」。",
+        "understand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-21"
     },
@@ -1970,11 +1790,9 @@ export default {
       "masked": "Her reaction was completely ____.",
       "options": [
         "understand-mcq-22",
-        "understand-mcq-21",
         "understand-mcq-23",
-        "understand-mcq-20",
-        "understand-mcq-24",
-        "understand-mcq-19"
+        "understand-mcq-18",
+        "understand-mcq-13"
       ],
       "explanation": "本句的「understandable」指「可以理解的」。",
       "sentenceIndex": 45,
@@ -1983,12 +1801,10 @@ export default {
         "understandable"
       ],
       "optionReasons": {
-        "understand-mcq-22": "本句指「可以理解的」。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。",
-        "understand-mcq-23": "「情有可原地」與本句語境不同。",
-        "understand-mcq-20": "「相互理解」與本句語境不同。",
-        "understand-mcq-24": "「誤解」與本句語境不同。",
-        "understand-mcq-19": "「在……前提下」與本句語境不同。"
+        "understand-mcq-22": "本句的「understandable」指「可以理解的」。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-22"
     },
@@ -2000,10 +1816,8 @@ export default {
       "masked": "It's ____ that he felt nervous.",
       "options": [
         "understand-mcq-22",
-        "understand-mcq-21",
+        "understand-mcq-18",
         "understand-mcq-23",
-        "understand-mcq-20",
-        "understand-mcq-24",
         "understand-mcq-19"
       ],
       "explanation": "本句的「understandable」指「可以理解的」。",
@@ -2013,12 +1827,10 @@ export default {
         "understandable"
       ],
       "optionReasons": {
-        "understand-mcq-22": "本句指「可以理解的」。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。",
-        "understand-mcq-23": "「情有可原地」與本句語境不同。",
-        "understand-mcq-20": "「相互理解」與本句語境不同。",
-        "understand-mcq-24": "「誤解」與本句語境不同。",
-        "understand-mcq-19": "「在……前提下」與本句語境不同。"
+        "understand-mcq-22": "本句的「understandable」指「可以理解的」。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-22"
     },
@@ -2030,11 +1842,9 @@ export default {
       "masked": "The teacher explained the idea in an ____.",
       "options": [
         "understand-mcq-22",
-        "understand-mcq-21",
+        "understand-mcq-19",
         "understand-mcq-23",
-        "understand-mcq-20",
-        "understand-mcq-24",
-        "understand-mcq-19"
+        "understand-mcq-18"
       ],
       "explanation": "本句的「understandable way」指「可以理解的」。",
       "sentenceIndex": 47,
@@ -2043,12 +1853,10 @@ export default {
         "understandable way"
       ],
       "optionReasons": {
-        "understand-mcq-22": "本句指「可以理解的」。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。",
-        "understand-mcq-23": "「情有可原地」與本句語境不同。",
-        "understand-mcq-20": "「相互理解」與本句語境不同。",
-        "understand-mcq-24": "「誤解」與本句語境不同。",
-        "understand-mcq-19": "「在……前提下」與本句語境不同。"
+        "understand-mcq-22": "本句的「understandable way」指「可以理解的」。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-22"
     },
@@ -2060,10 +1868,8 @@ export default {
       "masked": "The instructions are clear and ____.",
       "options": [
         "understand-mcq-22",
-        "understand-mcq-21",
         "understand-mcq-23",
-        "understand-mcq-20",
-        "understand-mcq-24",
+        "understand-mcq-13",
         "understand-mcq-19"
       ],
       "explanation": "本句的「understandable」指「可以理解的」。",
@@ -2073,12 +1879,10 @@ export default {
         "understandable"
       ],
       "optionReasons": {
-        "understand-mcq-22": "本句指「可以理解的」。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。",
-        "understand-mcq-23": "「情有可原地」與本句語境不同。",
-        "understand-mcq-20": "「相互理解」與本句語境不同。",
-        "understand-mcq-24": "「誤解」與本句語境不同。",
-        "understand-mcq-19": "「在……前提下」與本句語境不同。"
+        "understand-mcq-22": "本句的「understandable」指「可以理解的」。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-22"
     },
@@ -2090,11 +1894,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "understand-mcq-23",
-        "understand-mcq-22",
-        "understand-mcq-24",
-        "understand-mcq-21",
-        "understand-mcq-25",
-        "understand-mcq-20"
+        "understand-mcq-16",
+        "understand-mcq-19",
+        "understand-mcq-18"
       ],
       "explanation": "本句的「understandably upset」指「情有可原地」。",
       "sentenceIndex": 49,
@@ -2103,12 +1905,10 @@ export default {
         "understandably upset"
       ],
       "optionReasons": {
-        "understand-mcq-23": "本句指「情有可原地」。",
-        "understand-mcq-22": "「可以理解的」與本句語境不同。",
-        "understand-mcq-24": "「誤解」與本句語境不同。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。",
-        "understand-mcq-25": "「誤解；誤會」與本句語境不同。",
-        "understand-mcq-20": "「相互理解」與本句語境不同。"
+        "understand-mcq-23": "本句的「understandably upset」指「情有可原地」。",
+        "understand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-23"
     },
@@ -2121,10 +1921,8 @@ export default {
       "options": [
         "understand-mcq-23",
         "understand-mcq-22",
-        "understand-mcq-24",
-        "understand-mcq-21",
-        "understand-mcq-25",
-        "understand-mcq-20"
+        "understand-mcq-18",
+        "understand-mcq-13"
       ],
       "explanation": "本句的「understandably nervous」指「情有可原地」。",
       "sentenceIndex": 50,
@@ -2133,12 +1931,10 @@ export default {
         "understandably nervous"
       ],
       "optionReasons": {
-        "understand-mcq-23": "本句指「情有可原地」。",
-        "understand-mcq-22": "「可以理解的」與本句語境不同。",
-        "understand-mcq-24": "「誤解」與本句語境不同。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。",
-        "understand-mcq-25": "「誤解；誤會」與本句語境不同。",
-        "understand-mcq-20": "「相互理解」與本句語境不同。"
+        "understand-mcq-23": "本句的「understandably nervous」指「情有可原地」。",
+        "understand-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-23"
     },
@@ -2150,11 +1946,9 @@ export default {
       "masked": "You ____.",
       "options": [
         "understand-mcq-24",
-        "understand-mcq-23",
-        "understand-mcq-25",
-        "understand-mcq-22",
-        "understand-mcq-26",
-        "understand-mcq-21"
+        "understand-mcq-02",
+        "understand-mcq-19",
+        "understand-mcq-18"
       ],
       "explanation": "本句的「misunderstood what I said」指「誤解」。",
       "sentenceIndex": 51,
@@ -2163,12 +1957,10 @@ export default {
         "misunderstood what I said"
       ],
       "optionReasons": {
-        "understand-mcq-24": "本句指「誤解」。",
-        "understand-mcq-23": "「情有可原地」與本句語境不同。",
-        "understand-mcq-25": "「誤解；誤會」與本句語境不同。",
-        "understand-mcq-22": "「可以理解的」與本句語境不同。",
-        "understand-mcq-26": "「被誤解」與本句語境不同。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。"
+        "understand-mcq-24": "本句的「misunderstood what I said」指「誤解」。",
+        "understand-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-24"
     },
@@ -2180,11 +1972,9 @@ export default {
       "masked": "Don't ____—I'm not criticizing you.",
       "options": [
         "understand-mcq-24",
-        "understand-mcq-23",
-        "understand-mcq-25",
-        "understand-mcq-22",
-        "understand-mcq-26",
-        "understand-mcq-21"
+        "understand-mcq-13",
+        "understand-mcq-19",
+        "understand-mcq-03"
       ],
       "explanation": "本句的「misunderstand me」指「誤解」。",
       "sentenceIndex": 52,
@@ -2193,12 +1983,10 @@ export default {
         "misunderstand me"
       ],
       "optionReasons": {
-        "understand-mcq-24": "本句指「誤解」。",
-        "understand-mcq-23": "「情有可原地」與本句語境不同。",
-        "understand-mcq-25": "「誤解；誤會」與本句語境不同。",
-        "understand-mcq-22": "「可以理解的」與本句語境不同。",
-        "understand-mcq-26": "「被誤解」與本句語境不同。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。"
+        "understand-mcq-24": "本句的「misunderstand me」指「誤解」。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-24"
     },
@@ -2210,11 +1998,9 @@ export default {
       "masked": "There was a ____.",
       "options": [
         "understand-mcq-25",
-        "understand-mcq-24",
-        "understand-mcq-26",
-        "understand-mcq-23",
-        "understand-mcq-22",
-        "understand-mcq-21"
+        "understand-mcq-04",
+        "understand-mcq-18",
+        "understand-mcq-23"
       ],
       "explanation": "本句的「misunderstanding about the instructions」指「誤解；誤會」。",
       "sentenceIndex": 53,
@@ -2223,12 +2009,10 @@ export default {
         "misunderstanding about the instructions"
       ],
       "optionReasons": {
-        "understand-mcq-25": "本句指「誤解；誤會」。",
-        "understand-mcq-24": "「誤解」與本句語境不同。",
-        "understand-mcq-26": "「被誤解」與本句語境不同。",
-        "understand-mcq-23": "「情有可原地」與本句語境不同。",
-        "understand-mcq-22": "「可以理解的」與本句語境不同。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。"
+        "understand-mcq-25": "本句的「misunderstanding about the instructions」指「誤解；誤會」。",
+        "understand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-25"
     },
@@ -2240,11 +2024,9 @@ export default {
       "masked": "The problem came from a ____.",
       "options": [
         "understand-mcq-25",
-        "understand-mcq-24",
-        "understand-mcq-26",
-        "understand-mcq-23",
-        "understand-mcq-22",
-        "understand-mcq-21"
+        "understand-mcq-18",
+        "understand-mcq-03",
+        "understand-mcq-13"
       ],
       "explanation": "本句的「misunderstanding of the rule」指「誤解；誤會」。",
       "sentenceIndex": 54,
@@ -2253,12 +2035,10 @@ export default {
         "misunderstanding of the rule"
       ],
       "optionReasons": {
-        "understand-mcq-25": "本句指「誤解；誤會」。",
-        "understand-mcq-24": "「誤解」與本句語境不同。",
-        "understand-mcq-26": "「被誤解」與本句語境不同。",
-        "understand-mcq-23": "「情有可原地」與本句語境不同。",
-        "understand-mcq-22": "「可以理解的」與本句語境不同。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。"
+        "understand-mcq-25": "本句的「misunderstanding of the rule」指「誤解；誤會」。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-25"
     },
@@ -2270,11 +2050,9 @@ export default {
       "masked": "It was all a ____.",
       "options": [
         "understand-mcq-25",
-        "understand-mcq-24",
-        "understand-mcq-26",
-        "understand-mcq-23",
-        "understand-mcq-22",
-        "understand-mcq-21"
+        "understand-mcq-09",
+        "understand-mcq-13",
+        "understand-mcq-23"
       ],
       "explanation": "本句的「misunderstanding」指「誤解；誤會」。",
       "sentenceIndex": 55,
@@ -2283,12 +2061,10 @@ export default {
         "misunderstanding"
       ],
       "optionReasons": {
-        "understand-mcq-25": "本句指「誤解；誤會」。",
-        "understand-mcq-24": "「誤解」與本句語境不同。",
-        "understand-mcq-26": "「被誤解」與本句語境不同。",
-        "understand-mcq-23": "「情有可原地」與本句語境不同。",
-        "understand-mcq-22": "「可以理解的」與本句語境不同。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。"
+        "understand-mcq-25": "本句的「misunderstanding」指「誤解；誤會」。",
+        "understand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-25"
     },
@@ -2300,11 +2076,9 @@ export default {
       "masked": "They had an argument because of a ____.",
       "options": [
         "understand-mcq-25",
-        "understand-mcq-24",
-        "understand-mcq-26",
-        "understand-mcq-23",
-        "understand-mcq-22",
-        "understand-mcq-21"
+        "understand-mcq-03",
+        "understand-mcq-13",
+        "understand-mcq-23"
       ],
       "explanation": "本句的「misunderstanding」指「誤解；誤會」。",
       "sentenceIndex": 56,
@@ -2313,12 +2087,10 @@ export default {
         "misunderstanding"
       ],
       "optionReasons": {
-        "understand-mcq-25": "本句指「誤解；誤會」。",
-        "understand-mcq-24": "「誤解」與本句語境不同。",
-        "understand-mcq-26": "「被誤解」與本句語境不同。",
-        "understand-mcq-23": "「情有可原地」與本句語境不同。",
-        "understand-mcq-22": "「可以理解的」與本句語境不同。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。"
+        "understand-mcq-25": "本句的「misunderstanding」指「誤解；誤會」。",
+        "understand-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-25"
     },
@@ -2330,11 +2102,9 @@ export default {
       "masked": "His comment was ____.",
       "options": [
         "understand-mcq-26",
-        "understand-mcq-25",
-        "understand-mcq-24",
-        "understand-mcq-23",
-        "understand-mcq-22",
-        "understand-mcq-21"
+        "understand-mcq-18",
+        "understand-mcq-02",
+        "understand-mcq-23"
       ],
       "explanation": "本句的「misunderstood」指「被誤解」。",
       "sentenceIndex": 57,
@@ -2343,12 +2113,10 @@ export default {
         "misunderstood"
       ],
       "optionReasons": {
-        "understand-mcq-26": "本句指「被誤解」。",
-        "understand-mcq-25": "「誤解；誤會」與本句語境不同。",
-        "understand-mcq-24": "「誤解」與本句語境不同。",
-        "understand-mcq-23": "「情有可原地」與本句語境不同。",
-        "understand-mcq-22": "「可以理解的」與本句語境不同。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。"
+        "understand-mcq-26": "本句的「misunderstood」指「被誤解」。",
+        "understand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-26"
     },
@@ -2360,11 +2128,9 @@ export default {
       "masked": "She often feels ____.",
       "options": [
         "understand-mcq-26",
-        "understand-mcq-25",
-        "understand-mcq-24",
+        "understand-mcq-13",
         "understand-mcq-23",
-        "understand-mcq-22",
-        "understand-mcq-21"
+        "understand-mcq-04"
       ],
       "explanation": "本句的「misunderstood」指「被誤解」。",
       "sentenceIndex": 58,
@@ -2373,12 +2139,10 @@ export default {
         "misunderstood"
       ],
       "optionReasons": {
-        "understand-mcq-26": "本句指「被誤解」。",
-        "understand-mcq-25": "「誤解；誤會」與本句語境不同。",
-        "understand-mcq-24": "「誤解」與本句語境不同。",
-        "understand-mcq-23": "「情有可原地」與本句語境不同。",
-        "understand-mcq-22": "「可以理解的」與本句語境不同。",
-        "understand-mcq-21": "「善解人意的」與本句語境不同。"
+        "understand-mcq-26": "本句的「misunderstood」指「被誤解」。",
+        "understand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "understand-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understand-mcq-26"
     }
@@ -2390,5 +2154,7 @@ export default {
     "sha256": "3ce7f7bd652aebe04c5e10eea836c3e2bf12be360c347d86de4f5d650dc16275",
     "pages": 24
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

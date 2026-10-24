@@ -426,11 +426,7 @@ export default {
       "masked": "____ often get trapped in routine.",
       "options": [
         "adult-mcq-01",
-        "adult-mcq-02",
-        "adult-mcq-03",
-        "adult-mcq-04",
-        "adult-mcq-05",
-        "adult-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Adults」指「成年人」。",
       "sentenceIndex": 0,
@@ -439,12 +435,8 @@ export default {
         "Adults"
       ],
       "optionReasons": {
-        "adult-mcq-01": "本句指「成年人」。",
-        "adult-mcq-02": "「成年生活」是「adult life」的用法，與本句語境不同。",
-        "adult-mcq-03": "「成年學習者」是「adult learner」的用法，與本句語境不同。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。"
+        "adult-mcq-01": "本句的「Adults」指「成年人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-01"
     },
@@ -456,11 +448,7 @@ export default {
       "masked": "Children must be accompanied by an ____.",
       "options": [
         "adult-mcq-01",
-        "adult-mcq-02",
-        "adult-mcq-03",
-        "adult-mcq-04",
-        "adult-mcq-05",
-        "adult-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult」指「成年人」。",
       "sentenceIndex": 1,
@@ -469,12 +457,8 @@ export default {
         "adult"
       ],
       "optionReasons": {
-        "adult-mcq-01": "本句指「成年人」。",
-        "adult-mcq-02": "「成年生活」是「adult life」的用法，與本句語境不同。",
-        "adult-mcq-03": "「成年學習者」是「adult learner」的用法，與本句語境不同。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。"
+        "adult-mcq-01": "本句的「adult」指「成年人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-01"
     },
@@ -486,11 +470,7 @@ export default {
       "masked": "There were three ____ and two children in the group.",
       "options": [
         "adult-mcq-01",
-        "adult-mcq-02",
-        "adult-mcq-03",
-        "adult-mcq-04",
-        "adult-mcq-05",
-        "adult-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adults」指「成年人」。",
       "sentenceIndex": 2,
@@ -499,12 +479,8 @@ export default {
         "adults"
       ],
       "optionReasons": {
-        "adult-mcq-01": "本句指「成年人」。",
-        "adult-mcq-02": "「成年生活」是「adult life」的用法，與本句語境不同。",
-        "adult-mcq-03": "「成年學習者」是「adult learner」的用法，與本句語境不同。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。"
+        "adult-mcq-01": "本句的「adults」指「成年人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-01"
     },
@@ -516,11 +492,7 @@ export default {
       "masked": "He entered ____ with very little money.",
       "options": [
         "adult-mcq-01",
-        "adult-mcq-02",
-        "adult-mcq-03",
-        "adult-mcq-04",
-        "adult-mcq-05",
-        "adult-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult life」指「成年人」。",
       "sentenceIndex": 3,
@@ -529,12 +501,8 @@ export default {
         "adult life"
       ],
       "optionReasons": {
-        "adult-mcq-01": "本句指「成年人」。",
-        "adult-mcq-02": "「成年生活」是「adult life」的用法，與本句語境不同。",
-        "adult-mcq-03": "「成年學習者」是「adult learner」的用法，與本句語境不同。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。"
+        "adult-mcq-01": "本句的「adult life」指「成年人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-01"
     },
@@ -546,11 +514,7 @@ export default {
       "masked": "The course is designed for ____.",
       "options": [
         "adult-mcq-01",
-        "adult-mcq-02",
-        "adult-mcq-03",
-        "adult-mcq-04",
-        "adult-mcq-05",
-        "adult-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult learners」指「成年人」。",
       "sentenceIndex": 4,
@@ -559,12 +523,8 @@ export default {
         "adult learners"
       ],
       "optionReasons": {
-        "adult-mcq-01": "本句指「成年人」。",
-        "adult-mcq-02": "「成年生活」是「adult life」的用法，與本句語境不同。",
-        "adult-mcq-03": "「成年學習者」是「adult learner」的用法，與本句語境不同。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。"
+        "adult-mcq-01": "本句的「adult learners」指「成年人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-01"
     },
@@ -576,11 +536,7 @@ export default {
       "masked": "____ brings more freedom but also more responsibility.",
       "options": [
         "adult-mcq-02",
-        "adult-mcq-01",
-        "adult-mcq-03",
-        "adult-mcq-04",
-        "adult-mcq-05",
-        "adult-mcq-06"
+        "adult-mcq-10"
       ],
       "explanation": "本句的「Adult life」指「成年生活」。",
       "sentenceIndex": 5,
@@ -589,12 +545,8 @@ export default {
         "Adult life"
       ],
       "optionReasons": {
-        "adult-mcq-02": "本句指「成年生活」。",
-        "adult-mcq-01": "「成年人」是「an adult」的用法，與本句語境不同。",
-        "adult-mcq-03": "「成年學習者」是「adult learner」的用法，與本句語境不同。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。"
+        "adult-mcq-02": "本句的「Adult life」指「成年生活」。",
+        "adult-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-02"
     },
@@ -606,11 +558,7 @@ export default {
       "masked": "She spent most of her ____ abroad.",
       "options": [
         "adult-mcq-02",
-        "adult-mcq-01",
-        "adult-mcq-03",
-        "adult-mcq-04",
-        "adult-mcq-05",
-        "adult-mcq-06"
+        "adult-mcq-10"
       ],
       "explanation": "本句的「adult life」指「成年生活」。",
       "sentenceIndex": 6,
@@ -619,12 +567,8 @@ export default {
         "adult life"
       ],
       "optionReasons": {
-        "adult-mcq-02": "本句指「成年生活」。",
-        "adult-mcq-01": "「成年人」是「an adult」的用法，與本句語境不同。",
-        "adult-mcq-03": "「成年學習者」是「adult learner」的用法，與本句語境不同。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。"
+        "adult-mcq-02": "本句的「adult life」指「成年生活」。",
+        "adult-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-02"
     },
@@ -636,11 +580,7 @@ export default {
       "masked": "Paying bills is one of the less exciting ____.",
       "options": [
         "adult-mcq-05",
-        "adult-mcq-04",
-        "adult-mcq-06",
-        "adult-mcq-03",
-        "adult-mcq-07",
-        "adult-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult responsibilities」指「成人責任」。",
       "sentenceIndex": 7,
@@ -649,12 +589,8 @@ export default {
         "adult responsibilities"
       ],
       "optionReasons": {
-        "adult-mcq-05": "本句指「成人責任」。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。",
-        "adult-mcq-03": "「成年學習者」是「adult learner」的用法，與本句語境不同。",
-        "adult-mcq-07": "「成人監督」是「adult supervision」的用法，與本句語境不同。",
-        "adult-mcq-02": "「成年生活」是「adult life」的用法，與本句語境不同。"
+        "adult-mcq-05": "本句的「adult responsibilities」指「成人責任」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-05"
     },
@@ -666,11 +602,7 @@ export default {
       "masked": "He gradually learned to handle ____.",
       "options": [
         "adult-mcq-05",
-        "adult-mcq-04",
-        "adult-mcq-06",
-        "adult-mcq-03",
-        "adult-mcq-07",
-        "adult-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult responsibilities」指「成人責任」。",
       "sentenceIndex": 8,
@@ -679,12 +611,8 @@ export default {
         "adult responsibilities"
       ],
       "optionReasons": {
-        "adult-mcq-05": "本句指「成人責任」。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。",
-        "adult-mcq-03": "「成年學習者」是「adult learner」的用法，與本句語境不同。",
-        "adult-mcq-07": "「成人監督」是「adult supervision」的用法，與本句語境不同。",
-        "adult-mcq-02": "「成年生活」是「adult life」的用法，與本句語境不同。"
+        "adult-mcq-05": "本句的「adult responsibilities」指「成人責任」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-05"
     },
@@ -696,11 +624,7 @@ export default {
       "masked": "The teacher expected more ____ from the older students.",
       "options": [
         "adult-mcq-06",
-        "adult-mcq-05",
-        "adult-mcq-07",
-        "adult-mcq-04",
-        "adult-mcq-08",
-        "adult-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult behaviour」指「成熟／成人式行為」。",
       "sentenceIndex": 9,
@@ -709,12 +633,8 @@ export default {
         "adult behaviour"
       ],
       "optionReasons": {
-        "adult-mcq-06": "本句指「成熟／成人式行為」。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-07": "「成人監督」是「adult supervision」的用法，與本句語境不同。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。",
-        "adult-mcq-08": "「成年人口」是「adult population」的用法，與本句語境不同。",
-        "adult-mcq-03": "「成年學習者」是「adult learner」的用法，與本句語境不同。"
+        "adult-mcq-06": "本句的「adult behaviour」指「成熟／成人式行為」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-06"
     },
@@ -726,11 +646,7 @@ export default {
       "masked": "He showed surprisingly ____ for his age.",
       "options": [
         "adult-mcq-06",
-        "adult-mcq-05",
-        "adult-mcq-07",
-        "adult-mcq-04",
-        "adult-mcq-08",
-        "adult-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult behaviour」指「成熟／成人式行為」。",
       "sentenceIndex": 10,
@@ -739,12 +655,8 @@ export default {
         "adult behaviour"
       ],
       "optionReasons": {
-        "adult-mcq-06": "本句指「成熟／成人式行為」。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-07": "「成人監督」是「adult supervision」的用法，與本句語境不同。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。",
-        "adult-mcq-08": "「成年人口」是「adult population」的用法，與本句語境不同。",
-        "adult-mcq-03": "「成年學習者」是「adult learner」的用法，與本句語境不同。"
+        "adult-mcq-06": "本句的「adult behaviour」指「成熟／成人式行為」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-06"
     },
@@ -756,11 +668,7 @@ export default {
       "masked": "Children may use the pool only under ____.",
       "options": [
         "adult-mcq-07",
-        "adult-mcq-06",
-        "adult-mcq-08",
-        "adult-mcq-05",
-        "adult-mcq-09",
-        "adult-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult supervision」指「成人監督」。",
       "sentenceIndex": 11,
@@ -769,12 +677,8 @@ export default {
         "adult supervision"
       ],
       "optionReasons": {
-        "adult-mcq-07": "本句指「成人監督」。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。",
-        "adult-mcq-08": "「成年人口」是「adult population」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-09": "「成年動物」是「adult animal」的用法，與本句語境不同。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。"
+        "adult-mcq-07": "本句的「adult supervision」指「成人監督」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-07"
     },
@@ -786,11 +690,7 @@ export default {
       "masked": "The activity requires ____.",
       "options": [
         "adult-mcq-07",
-        "adult-mcq-06",
-        "adult-mcq-08",
-        "adult-mcq-05",
-        "adult-mcq-09",
-        "adult-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult supervision」指「成人監督」。",
       "sentenceIndex": 12,
@@ -799,12 +699,8 @@ export default {
         "adult supervision"
       ],
       "optionReasons": {
-        "adult-mcq-07": "本句指「成人監督」。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。",
-        "adult-mcq-08": "「成年人口」是「adult population」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-09": "「成年動物」是「adult animal」的用法，與本句語境不同。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。"
+        "adult-mcq-07": "本句的「adult supervision」指「成人監督」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-07"
     },
@@ -816,11 +712,7 @@ export default {
       "masked": "She returned to study through an ____ programme.",
       "options": [
         "adult-mcq-04",
-        "adult-mcq-03",
-        "adult-mcq-05",
-        "adult-mcq-02",
-        "adult-mcq-06",
-        "adult-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult education」指「成人教育」。",
       "sentenceIndex": 13,
@@ -829,12 +721,8 @@ export default {
         "adult education"
       ],
       "optionReasons": {
-        "adult-mcq-04": "本句指「成人教育」。",
-        "adult-mcq-03": "「成年學習者」是「adult learner」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-02": "「成年生活」是「adult life」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。",
-        "adult-mcq-01": "「成年人」是「an adult」的用法，與本句語境不同。"
+        "adult-mcq-04": "本句的「adult education」指「成人教育」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-04"
     },
@@ -846,11 +734,7 @@ export default {
       "masked": "The college offers evening classes in ____.",
       "options": [
         "adult-mcq-04",
-        "adult-mcq-03",
-        "adult-mcq-05",
-        "adult-mcq-02",
-        "adult-mcq-06",
-        "adult-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult education」指「成人教育」。",
       "sentenceIndex": 14,
@@ -859,12 +743,8 @@ export default {
         "adult education"
       ],
       "optionReasons": {
-        "adult-mcq-04": "本句指「成人教育」。",
-        "adult-mcq-03": "「成年學習者」是「adult learner」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-02": "「成年生活」是「adult life」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。",
-        "adult-mcq-01": "「成年人」是「an adult」的用法，與本句語境不同。"
+        "adult-mcq-04": "本句的「adult education」指「成人教育」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-04"
     },
@@ -876,11 +756,7 @@ export default {
       "masked": "____ often have different needs from school students.",
       "options": [
         "adult-mcq-03",
-        "adult-mcq-02",
-        "adult-mcq-04",
-        "adult-mcq-01",
-        "adult-mcq-05",
-        "adult-mcq-06"
+        "adult-mcq-10"
       ],
       "explanation": "本句的「Adult learners」指「成年學習者」。",
       "sentenceIndex": 15,
@@ -889,12 +765,8 @@ export default {
         "Adult learners"
       ],
       "optionReasons": {
-        "adult-mcq-03": "本句指「成年學習者」。",
-        "adult-mcq-02": "「成年生活」是「adult life」的用法，與本句語境不同。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。",
-        "adult-mcq-01": "「成年人」是「an adult」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。"
+        "adult-mcq-03": "本句的「Adult learners」指「成年學習者」。",
+        "adult-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-03"
     },
@@ -906,11 +778,7 @@ export default {
       "masked": "The course is flexible enough for busy ____.",
       "options": [
         "adult-mcq-03",
-        "adult-mcq-02",
-        "adult-mcq-04",
-        "adult-mcq-01",
-        "adult-mcq-05",
-        "adult-mcq-06"
+        "adult-mcq-10"
       ],
       "explanation": "本句的「adult learners」指「成年學習者」。",
       "sentenceIndex": 16,
@@ -919,12 +787,8 @@ export default {
         "adult learners"
       ],
       "optionReasons": {
-        "adult-mcq-03": "本句指「成年學習者」。",
-        "adult-mcq-02": "「成年生活」是「adult life」的用法，與本句語境不同。",
-        "adult-mcq-04": "「成人教育」是「adult education」的用法，與本句語境不同。",
-        "adult-mcq-01": "「成年人」是「an adult」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。"
+        "adult-mcq-03": "本句的「adult learners」指「成年學習者」。",
+        "adult-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-03"
     },
@@ -936,11 +800,7 @@ export default {
       "masked": "Most of the ____ has access to the internet.",
       "options": [
         "adult-mcq-08",
-        "adult-mcq-07",
-        "adult-mcq-09",
-        "adult-mcq-06",
-        "adult-mcq-10",
-        "adult-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult population」指「成年人口」。",
       "sentenceIndex": 17,
@@ -949,12 +809,8 @@ export default {
         "adult population"
       ],
       "optionReasons": {
-        "adult-mcq-08": "本句指「成年人口」。",
-        "adult-mcq-07": "「成人監督」是「adult supervision」的用法，與本句語境不同。",
-        "adult-mcq-09": "「成年動物」是「adult animal」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。",
-        "adult-mcq-10": "「成體階段」是「adult stage」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。"
+        "adult-mcq-08": "本句的「adult population」指「成年人口」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-08"
     },
@@ -966,11 +822,7 @@ export default {
       "masked": "The survey focused on the ____.",
       "options": [
         "adult-mcq-08",
-        "adult-mcq-07",
-        "adult-mcq-09",
-        "adult-mcq-06",
-        "adult-mcq-10",
-        "adult-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult population」指「成年人口」。",
       "sentenceIndex": 18,
@@ -979,12 +831,8 @@ export default {
         "adult population"
       ],
       "optionReasons": {
-        "adult-mcq-08": "本句指「成年人口」。",
-        "adult-mcq-07": "「成人監督」是「adult supervision」的用法，與本句語境不同。",
-        "adult-mcq-09": "「成年動物」是「adult animal」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。",
-        "adult-mcq-10": "「成體階段」是「adult stage」的用法，與本句語境不同。",
-        "adult-mcq-05": "「成人責任」是「adult responsibility」的用法，與本句語境不同。"
+        "adult-mcq-08": "本句的「adult population」指「成年人口」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-08"
     },
@@ -996,11 +844,7 @@ export default {
       "masked": "An ____ can weigh several tonnes.",
       "options": [
         "adult-mcq-09",
-        "adult-mcq-08",
-        "adult-mcq-10",
-        "adult-mcq-07",
-        "adult-mcq-11",
-        "adult-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult elephant」指「成年動物」。",
       "sentenceIndex": 19,
@@ -1009,12 +853,8 @@ export default {
         "adult elephant"
       ],
       "optionReasons": {
-        "adult-mcq-09": "本句指「成年動物」。",
-        "adult-mcq-08": "「成年人口」是「adult population」的用法，與本句語境不同。",
-        "adult-mcq-10": "「成體階段」是「adult stage」的用法，與本句語境不同。",
-        "adult-mcq-07": "「成人監督」是「adult supervision」的用法，與本句語境不同。",
-        "adult-mcq-11": "「成年期」是「adulthood」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。"
+        "adult-mcq-09": "本句的「adult elephant」指「成年動物」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-09"
     },
@@ -1026,11 +866,7 @@ export default {
       "masked": "The young bird looks very different from the ____.",
       "options": [
         "adult-mcq-09",
-        "adult-mcq-08",
-        "adult-mcq-10",
-        "adult-mcq-07",
-        "adult-mcq-11",
-        "adult-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult」指「成年動物」。",
       "sentenceIndex": 20,
@@ -1039,12 +875,8 @@ export default {
         "adult"
       ],
       "optionReasons": {
-        "adult-mcq-09": "本句指「成年動物」。",
-        "adult-mcq-08": "「成年人口」是「adult population」的用法，與本句語境不同。",
-        "adult-mcq-10": "「成體階段」是「adult stage」的用法，與本句語境不同。",
-        "adult-mcq-07": "「成人監督」是「adult supervision」的用法，與本句語境不同。",
-        "adult-mcq-11": "「成年期」是「adulthood」的用法，與本句語境不同。",
-        "adult-mcq-06": "「成熟／成人式行為」是「adult behaviour」的用法，與本句語境不同。"
+        "adult-mcq-09": "本句的「adult」指「成年動物」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-09"
     },
@@ -1056,11 +888,7 @@ export default {
       "masked": "The insect reaches its ____ after several weeks.",
       "options": [
         "adult-mcq-10",
-        "adult-mcq-09",
-        "adult-mcq-11",
-        "adult-mcq-08",
-        "adult-mcq-12",
-        "adult-mcq-07"
+        "adult-mcq-14"
       ],
       "explanation": "本句的「adult stage」指「成體階段」。",
       "sentenceIndex": 21,
@@ -1069,12 +897,8 @@ export default {
         "adult stage"
       ],
       "optionReasons": {
-        "adult-mcq-10": "本句指「成體階段」。",
-        "adult-mcq-09": "「成年動物」是「adult animal」的用法，與本句語境不同。",
-        "adult-mcq-11": "「成年期」是「adulthood」的用法，與本句語境不同。",
-        "adult-mcq-08": "「成年人口」是「adult population」的用法，與本句語境不同。",
-        "adult-mcq-12": "「成年；成熟」是「reach adulthood」的用法，與本句語境不同。",
-        "adult-mcq-07": "「成人監督」是「adult supervision」的用法，與本句語境不同。"
+        "adult-mcq-10": "本句的「adult stage」指「成體階段」。",
+        "adult-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-10"
     },
@@ -1086,11 +910,7 @@ export default {
       "masked": "The ____ looks completely different from the larva.",
       "options": [
         "adult-mcq-10",
-        "adult-mcq-09",
-        "adult-mcq-11",
-        "adult-mcq-08",
-        "adult-mcq-12",
-        "adult-mcq-07"
+        "adult-mcq-13"
       ],
       "explanation": "本句的「adult form」指「成體階段」。",
       "sentenceIndex": 22,
@@ -1099,12 +919,8 @@ export default {
         "adult form"
       ],
       "optionReasons": {
-        "adult-mcq-10": "本句指「成體階段」。",
-        "adult-mcq-09": "「成年動物」是「adult animal」的用法，與本句語境不同。",
-        "adult-mcq-11": "「成年期」是「adulthood」的用法，與本句語境不同。",
-        "adult-mcq-08": "「成年人口」是「adult population」的用法，與本句語境不同。",
-        "adult-mcq-12": "「成年；成熟」是「reach adulthood」的用法，與本句語境不同。",
-        "adult-mcq-07": "「成人監督」是「adult supervision」的用法，與本句語境不同。"
+        "adult-mcq-10": "本句的「adult form」指「成體階段」。",
+        "adult-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-10"
     },
@@ -1116,11 +932,7 @@ export default {
       "masked": "He moved abroad in early ____.",
       "options": [
         "adult-mcq-11",
-        "adult-mcq-10",
-        "adult-mcq-12",
-        "adult-mcq-09",
-        "adult-mcq-13",
-        "adult-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adulthood」指「成年期」。",
       "sentenceIndex": 23,
@@ -1129,12 +941,8 @@ export default {
         "adulthood"
       ],
       "optionReasons": {
-        "adult-mcq-11": "本句指「成年期」。",
-        "adult-mcq-10": "「成體階段」是「adult stage」的用法，與本句語境不同。",
-        "adult-mcq-12": "「成年；成熟」是「reach adulthood」的用法，與本句語境不同。",
-        "adult-mcq-09": "「成年動物」是「adult animal」的用法，與本句語境不同。",
-        "adult-mcq-13": "「進入成年期」是「enter adulthood」的用法，與本句語境不同。",
-        "adult-mcq-08": "「成年人口」是「adult population」的用法，與本句語境不同。"
+        "adult-mcq-11": "本句的「adulthood」指「成年期」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-11"
     },
@@ -1146,11 +954,7 @@ export default {
       "masked": "Habits formed in childhood can continue into ____.",
       "options": [
         "adult-mcq-11",
-        "adult-mcq-10",
-        "adult-mcq-12",
-        "adult-mcq-09",
-        "adult-mcq-13",
-        "adult-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adulthood」指「成年期」。",
       "sentenceIndex": 24,
@@ -1159,12 +963,8 @@ export default {
         "adulthood"
       ],
       "optionReasons": {
-        "adult-mcq-11": "本句指「成年期」。",
-        "adult-mcq-10": "「成體階段」是「adult stage」的用法，與本句語境不同。",
-        "adult-mcq-12": "「成年；成熟」是「reach adulthood」的用法，與本句語境不同。",
-        "adult-mcq-09": "「成年動物」是「adult animal」的用法，與本句語境不同。",
-        "adult-mcq-13": "「進入成年期」是「enter adulthood」的用法，與本句語境不同。",
-        "adult-mcq-08": "「成年人口」是「adult population」的用法，與本句語境不同。"
+        "adult-mcq-11": "本句的「adulthood」指「成年期」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-11"
     },
@@ -1176,11 +976,7 @@ export default {
       "masked": "Many people change significantly before they ____.",
       "options": [
         "adult-mcq-12",
-        "adult-mcq-11",
-        "adult-mcq-13",
-        "adult-mcq-10",
-        "adult-mcq-14",
-        "adult-mcq-09"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reach adulthood」指「成年；成熟」。",
       "sentenceIndex": 25,
@@ -1189,12 +985,8 @@ export default {
         "reach adulthood"
       ],
       "optionReasons": {
-        "adult-mcq-12": "本句指「成年；成熟」。",
-        "adult-mcq-11": "「成年期」是「adulthood」的用法，與本句語境不同。",
-        "adult-mcq-13": "「進入成年期」是「enter adulthood」的用法，與本句語境不同。",
-        "adult-mcq-10": "「成體階段」是「adult stage」的用法，與本句語境不同。",
-        "adult-mcq-14": "「年輕成年人／青年讀物類別」是「young adult」的用法，與本句語境不同。",
-        "adult-mcq-09": "「成年動物」是「adult animal」的用法，與本句語境不同。"
+        "adult-mcq-12": "本句的「reach adulthood」指「成年；成熟」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-12"
     },
@@ -1206,11 +998,7 @@ export default {
       "masked": "The animal takes several years to ____.",
       "options": [
         "adult-mcq-12",
-        "adult-mcq-11",
-        "adult-mcq-13",
-        "adult-mcq-10",
-        "adult-mcq-14",
-        "adult-mcq-09"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reach adulthood」指「成年；成熟」。",
       "sentenceIndex": 26,
@@ -1219,12 +1007,8 @@ export default {
         "reach adulthood"
       ],
       "optionReasons": {
-        "adult-mcq-12": "本句指「成年；成熟」。",
-        "adult-mcq-11": "「成年期」是「adulthood」的用法，與本句語境不同。",
-        "adult-mcq-13": "「進入成年期」是「enter adulthood」的用法，與本句語境不同。",
-        "adult-mcq-10": "「成體階段」是「adult stage」的用法，與本句語境不同。",
-        "adult-mcq-14": "「年輕成年人／青年讀物類別」是「young adult」的用法，與本句語境不同。",
-        "adult-mcq-09": "「成年動物」是「adult animal」的用法，與本句語境不同。"
+        "adult-mcq-12": "本句的「reach adulthood」指「成年；成熟」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-12"
     },
@@ -1236,10 +1020,6 @@ export default {
       "masked": "Young people face many choices as they ____.",
       "options": [
         "adult-mcq-13",
-        "adult-mcq-12",
-        "adult-mcq-14",
-        "adult-mcq-11",
-        "adult-mcq-15",
         "adult-mcq-10"
       ],
       "explanation": "本句的「enter adulthood」指「進入成年期」。",
@@ -1249,12 +1029,8 @@ export default {
         "enter adulthood"
       ],
       "optionReasons": {
-        "adult-mcq-13": "本句指「進入成年期」。",
-        "adult-mcq-12": "「成年；成熟」是「reach adulthood」的用法，與本句語境不同。",
-        "adult-mcq-14": "「年輕成年人／青年讀物類別」是「young adult」的用法，與本句語境不同。",
-        "adult-mcq-11": "「成年期」是「adulthood」的用法，與本句語境不同。",
-        "adult-mcq-15": "「成人內容」是「adult content」的用法，與本句語境不同。",
-        "adult-mcq-10": "「成體階段」是「adult stage」的用法，與本句語境不同。"
+        "adult-mcq-13": "本句的「enter adulthood」指「進入成年期」。",
+        "adult-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-13"
     },
@@ -1266,10 +1042,6 @@ export default {
       "masked": "She became more independent as she ____.",
       "options": [
         "adult-mcq-13",
-        "adult-mcq-12",
-        "adult-mcq-14",
-        "adult-mcq-11",
-        "adult-mcq-15",
         "adult-mcq-10"
       ],
       "explanation": "本句的「entered adulthood」指「進入成年期」。",
@@ -1279,12 +1051,8 @@ export default {
         "entered adulthood"
       ],
       "optionReasons": {
-        "adult-mcq-13": "本句指「進入成年期」。",
-        "adult-mcq-12": "「成年；成熟」是「reach adulthood」的用法，與本句語境不同。",
-        "adult-mcq-14": "「年輕成年人／青年讀物類別」是「young adult」的用法，與本句語境不同。",
-        "adult-mcq-11": "「成年期」是「adulthood」的用法，與本句語境不同。",
-        "adult-mcq-15": "「成人內容」是「adult content」的用法，與本句語境不同。",
-        "adult-mcq-10": "「成體階段」是「adult stage」的用法，與本句語境不同。"
+        "adult-mcq-13": "本句的「entered adulthood」指「進入成年期」。",
+        "adult-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-13"
     },
@@ -1296,11 +1064,7 @@ export default {
       "masked": "The programme is aimed at ____.",
       "options": [
         "adult-mcq-14",
-        "adult-mcq-13",
-        "adult-mcq-15",
-        "adult-mcq-12",
-        "adult-mcq-16",
-        "adult-mcq-11"
+        "adult-mcq-10"
       ],
       "explanation": "本句的「young adults」指「年輕成年人／青年讀物類別」。",
       "sentenceIndex": 29,
@@ -1309,12 +1073,8 @@ export default {
         "young adults"
       ],
       "optionReasons": {
-        "adult-mcq-14": "本句指「年輕成年人／青年讀物類別」。",
-        "adult-mcq-13": "「進入成年期」是「enter adulthood」的用法，與本句語境不同。",
-        "adult-mcq-15": "「成人內容」是「adult content」的用法，與本句語境不同。",
-        "adult-mcq-12": "「成年；成熟」是「reach adulthood」的用法，與本句語境不同。",
-        "adult-mcq-16": "「只限成人的」是「adult-only」的用法，與本句語境不同。",
-        "adult-mcq-11": "「成年期」是「adulthood」的用法，與本句語境不同。"
+        "adult-mcq-14": "本句的「young adults」指「年輕成年人／青年讀物類別」。",
+        "adult-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-14"
     },
@@ -1326,11 +1086,7 @@ export default {
       "masked": "She writes ____.",
       "options": [
         "adult-mcq-14",
-        "adult-mcq-13",
-        "adult-mcq-15",
-        "adult-mcq-12",
-        "adult-mcq-16",
-        "adult-mcq-11"
+        "adult-mcq-10"
       ],
       "explanation": "本句的「young adult fiction」指「年輕成年人／青年讀物類別」。",
       "sentenceIndex": 30,
@@ -1339,12 +1095,8 @@ export default {
         "young adult fiction"
       ],
       "optionReasons": {
-        "adult-mcq-14": "本句指「年輕成年人／青年讀物類別」。",
-        "adult-mcq-13": "「進入成年期」是「enter adulthood」的用法，與本句語境不同。",
-        "adult-mcq-15": "「成人內容」是「adult content」的用法，與本句語境不同。",
-        "adult-mcq-12": "「成年；成熟」是「reach adulthood」的用法，與本句語境不同。",
-        "adult-mcq-16": "「只限成人的」是「adult-only」的用法，與本句語境不同。",
-        "adult-mcq-11": "「成年期」是「adulthood」的用法，與本句語境不同。"
+        "adult-mcq-14": "本句的「young adult fiction」指「年輕成年人／青年讀物類別」。",
+        "adult-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-14"
     },
@@ -1356,11 +1108,7 @@ export default {
       "masked": "The website contains ____.",
       "options": [
         "adult-mcq-15",
-        "adult-mcq-14",
-        "adult-mcq-16",
-        "adult-mcq-13",
-        "adult-mcq-17",
-        "adult-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult content」指「成人內容」。",
       "sentenceIndex": 31,
@@ -1369,12 +1117,8 @@ export default {
         "adult content"
       ],
       "optionReasons": {
-        "adult-mcq-15": "本句指「成人內容」。",
-        "adult-mcq-14": "「年輕成年人／青年讀物類別」是「young adult」的用法，與本句語境不同。",
-        "adult-mcq-16": "「只限成人的」是「adult-only」的用法，與本句語境不同。",
-        "adult-mcq-13": "「進入成年期」是「enter adulthood」的用法，與本句語境不同。",
-        "adult-mcq-17": "「像成人的；成熟的」是「adult-like」的用法，與本句語境不同。",
-        "adult-mcq-12": "「成年；成熟」是「reach adulthood」的用法，與本句語境不同。"
+        "adult-mcq-15": "本句的「adult content」指「成人內容」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-15"
     },
@@ -1386,11 +1130,7 @@ export default {
       "masked": "The programme is restricted because of ____.",
       "options": [
         "adult-mcq-15",
-        "adult-mcq-14",
-        "adult-mcq-16",
-        "adult-mcq-13",
-        "adult-mcq-17",
-        "adult-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult themes」指「成人內容」。",
       "sentenceIndex": 32,
@@ -1399,12 +1139,8 @@ export default {
         "adult themes"
       ],
       "optionReasons": {
-        "adult-mcq-15": "本句指「成人內容」。",
-        "adult-mcq-14": "「年輕成年人／青年讀物類別」是「young adult」的用法，與本句語境不同。",
-        "adult-mcq-16": "「只限成人的」是「adult-only」的用法，與本句語境不同。",
-        "adult-mcq-13": "「進入成年期」是「enter adulthood」的用法，與本句語境不同。",
-        "adult-mcq-17": "「像成人的；成熟的」是「adult-like」的用法，與本句語境不同。",
-        "adult-mcq-12": "「成年；成熟」是「reach adulthood」的用法，與本句語境不同。"
+        "adult-mcq-15": "本句的「adult themes」指「成人內容」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-15"
     },
@@ -1416,11 +1152,7 @@ export default {
       "masked": "This is an ____ event.",
       "options": [
         "adult-mcq-16",
-        "adult-mcq-15",
-        "adult-mcq-17",
-        "adult-mcq-14",
-        "adult-mcq-18",
-        "adult-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult-only」指「只限成人的」。",
       "sentenceIndex": 33,
@@ -1429,12 +1161,8 @@ export default {
         "adult-only"
       ],
       "optionReasons": {
-        "adult-mcq-16": "本句指「只限成人的」。",
-        "adult-mcq-15": "「成人內容」是「adult content」的用法，與本句語境不同。",
-        "adult-mcq-17": "「像成人的；成熟的」是「adult-like」的用法，與本句語境不同。",
-        "adult-mcq-14": "「年輕成年人／青年讀物類別」是「young adult」的用法，與本句語境不同。",
-        "adult-mcq-18": "「做成年人的責任事務」是「adulting」的用法，與本句語境不同。",
-        "adult-mcq-13": "「進入成年期」是「enter adulthood」的用法，與本句語境不同。"
+        "adult-mcq-16": "本句的「adult-only」指「只限成人的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-16"
     },
@@ -1446,11 +1174,7 @@ export default {
       "masked": "The hotel has an ____ pool area.",
       "options": [
         "adult-mcq-16",
-        "adult-mcq-15",
-        "adult-mcq-17",
-        "adult-mcq-14",
-        "adult-mcq-18",
-        "adult-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult-only」指「只限成人的」。",
       "sentenceIndex": 34,
@@ -1459,12 +1183,8 @@ export default {
         "adult-only"
       ],
       "optionReasons": {
-        "adult-mcq-16": "本句指「只限成人的」。",
-        "adult-mcq-15": "「成人內容」是「adult content」的用法，與本句語境不同。",
-        "adult-mcq-17": "「像成人的；成熟的」是「adult-like」的用法，與本句語境不同。",
-        "adult-mcq-14": "「年輕成年人／青年讀物類別」是「young adult」的用法，與本句語境不同。",
-        "adult-mcq-18": "「做成年人的責任事務」是「adulting」的用法，與本句語境不同。",
-        "adult-mcq-13": "「進入成年期」是「enter adulthood」的用法，與本句語境不同。"
+        "adult-mcq-16": "本句的「adult-only」指「只限成人的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-16"
     },
@@ -1476,11 +1196,7 @@ export default {
       "masked": "He showed remarkably ____.",
       "options": [
         "adult-mcq-17",
-        "adult-mcq-16",
-        "adult-mcq-18",
-        "adult-mcq-15",
-        "adult-mcq-14",
-        "adult-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult-like patience」指「像成人的；成熟的」。",
       "sentenceIndex": 35,
@@ -1489,12 +1205,8 @@ export default {
         "adult-like patience"
       ],
       "optionReasons": {
-        "adult-mcq-17": "本句指「像成人的；成熟的」。",
-        "adult-mcq-16": "「只限成人的」是「adult-only」的用法，與本句語境不同。",
-        "adult-mcq-18": "「做成年人的責任事務」是「adulting」的用法，與本句語境不同。",
-        "adult-mcq-15": "「成人內容」是「adult content」的用法，與本句語境不同。",
-        "adult-mcq-14": "「年輕成年人／青年讀物類別」是「young adult」的用法，與本句語境不同。",
-        "adult-mcq-13": "「進入成年期」是「enter adulthood」的用法，與本句語境不同。"
+        "adult-mcq-17": "本句的「adult-like patience」指「像成人的；成熟的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-17"
     },
@@ -1506,11 +1218,7 @@ export default {
       "masked": "Her ____ surprised everyone.",
       "options": [
         "adult-mcq-17",
-        "adult-mcq-16",
-        "adult-mcq-18",
-        "adult-mcq-15",
-        "adult-mcq-14",
-        "adult-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adult-like confidence」指「像成人的；成熟的」。",
       "sentenceIndex": 36,
@@ -1519,12 +1227,8 @@ export default {
         "adult-like confidence"
       ],
       "optionReasons": {
-        "adult-mcq-17": "本句指「像成人的；成熟的」。",
-        "adult-mcq-16": "「只限成人的」是「adult-only」的用法，與本句語境不同。",
-        "adult-mcq-18": "「做成年人的責任事務」是「adulting」的用法，與本句語境不同。",
-        "adult-mcq-15": "「成人內容」是「adult content」的用法，與本句語境不同。",
-        "adult-mcq-14": "「年輕成年人／青年讀物類別」是「young adult」的用法，與本句語境不同。",
-        "adult-mcq-13": "「進入成年期」是「enter adulthood」的用法，與本句語境不同。"
+        "adult-mcq-17": "本句的「adult-like confidence」指「像成人的；成熟的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-17"
     },
@@ -1536,11 +1240,7 @@ export default {
       "masked": "Paying bills and doing taxes are part of ____.",
       "options": [
         "adult-mcq-18",
-        "adult-mcq-17",
-        "adult-mcq-16",
-        "adult-mcq-15",
-        "adult-mcq-14",
-        "adult-mcq-13"
+        "adult-mcq-10"
       ],
       "explanation": "本句的「adulting」指「做成年人的責任事務」。",
       "sentenceIndex": 37,
@@ -1549,12 +1249,8 @@ export default {
         "adulting"
       ],
       "optionReasons": {
-        "adult-mcq-18": "本句指「做成年人的責任事務」。",
-        "adult-mcq-17": "「像成人的；成熟的」是「adult-like」的用法，與本句語境不同。",
-        "adult-mcq-16": "「只限成人的」是「adult-only」的用法，與本句語境不同。",
-        "adult-mcq-15": "「成人內容」是「adult content」的用法，與本句語境不同。",
-        "adult-mcq-14": "「年輕成年人／青年讀物類別」是「young adult」的用法，與本句語境不同。",
-        "adult-mcq-13": "「進入成年期」是「enter adulthood」的用法，與本句語境不同。"
+        "adult-mcq-18": "本句的「adulting」指「做成年人的責任事務」。",
+        "adult-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-18"
     },
@@ -1566,11 +1262,7 @@ export default {
       "masked": "I don't feel like ____ today.",
       "options": [
         "adult-mcq-18",
-        "adult-mcq-17",
-        "adult-mcq-16",
-        "adult-mcq-15",
-        "adult-mcq-14",
-        "adult-mcq-13"
+        "adult-mcq-10"
       ],
       "explanation": "本句的「adulting」指「做成年人的責任事務」。",
       "sentenceIndex": 38,
@@ -1579,12 +1271,8 @@ export default {
         "adulting"
       ],
       "optionReasons": {
-        "adult-mcq-18": "本句指「做成年人的責任事務」。",
-        "adult-mcq-17": "「像成人的；成熟的」是「adult-like」的用法，與本句語境不同。",
-        "adult-mcq-16": "「只限成人的」是「adult-only」的用法，與本句語境不同。",
-        "adult-mcq-15": "「成人內容」是「adult content」的用法，與本句語境不同。",
-        "adult-mcq-14": "「年輕成年人／青年讀物類別」是「young adult」的用法，與本句語境不同。",
-        "adult-mcq-13": "「進入成年期」是「enter adulthood」的用法，與本句語境不同。"
+        "adult-mcq-18": "本句的「adulting」指「做成年人的責任事務」。",
+        "adult-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adult-mcq-18"
     }
@@ -1596,5 +1284,12 @@ export default {
     "sha256": "bd259e9451a4f0b80a9ab778d6e03dfc6d5a6d4d918bfe4e9c0c2c47f6333632",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

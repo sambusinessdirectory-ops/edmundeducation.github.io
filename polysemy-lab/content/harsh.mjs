@@ -196,11 +196,8 @@ export default {
       "masked": "Sea turtles can survive ____.",
       "options": [
         "harsh-mcq-01",
-        "harsh-mcq-02",
-        "harsh-mcq-03",
-        "harsh-mcq-04",
         "harsh-mcq-05",
-        "harsh-mcq-06"
+        "harsh-mcq-07"
       ],
       "explanation": "本句的「harsh natural conditions」指「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」。",
       "sentenceIndex": 0,
@@ -209,12 +206,9 @@ export default {
         "harsh natural conditions"
       ],
       "optionReasons": {
-        "harsh-mcq-01": "本句指「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」。",
-        "harsh-mcq-02": "「對別人過分嚴厲、苛刻或缺乏體諒的」與本句語境不同。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。"
+        "harsh-mcq-01": "本句的「harsh natural conditions」指「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」。",
+        "harsh-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-01"
     },
@@ -226,11 +220,9 @@ export default {
       "masked": "Few plants can survive the ____ desert climate.",
       "options": [
         "harsh-mcq-01",
-        "harsh-mcq-02",
-        "harsh-mcq-03",
-        "harsh-mcq-04",
         "harsh-mcq-05",
-        "harsh-mcq-06"
+        "harsh-mcq-02",
+        "harsh-mcq-04"
       ],
       "explanation": "本句的「harsh」指「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」。",
       "sentenceIndex": 1,
@@ -239,12 +231,10 @@ export default {
         "harsh"
       ],
       "optionReasons": {
-        "harsh-mcq-01": "本句指「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」。",
-        "harsh-mcq-02": "「對別人過分嚴厲、苛刻或缺乏體諒的」與本句語境不同。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。"
+        "harsh-mcq-01": "本句的「harsh」指「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」。",
+        "harsh-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-01"
     },
@@ -256,11 +246,8 @@ export default {
       "masked": "The animals face ____ winters.",
       "options": [
         "harsh-mcq-01",
-        "harsh-mcq-02",
-        "harsh-mcq-03",
-        "harsh-mcq-04",
         "harsh-mcq-05",
-        "harsh-mcq-06"
+        "harsh-mcq-07"
       ],
       "explanation": "本句的「harsh」指「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」。",
       "sentenceIndex": 2,
@@ -269,12 +256,9 @@ export default {
         "harsh"
       ],
       "optionReasons": {
-        "harsh-mcq-01": "本句指「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」。",
-        "harsh-mcq-02": "「對別人過分嚴厲、苛刻或缺乏體諒的」與本句語境不同。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。"
+        "harsh-mcq-01": "本句的「harsh」指「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」。",
+        "harsh-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-01"
     },
@@ -286,11 +270,8 @@ export default {
       "masked": "The punishment seemed unnecessarily ____.",
       "options": [
         "harsh-mcq-02",
-        "harsh-mcq-01",
         "harsh-mcq-03",
-        "harsh-mcq-04",
-        "harsh-mcq-05",
-        "harsh-mcq-06"
+        "harsh-mcq-01"
       ],
       "explanation": "本句的「harsh」指「對別人過分嚴厲、苛刻或缺乏體諒的」。",
       "sentenceIndex": 3,
@@ -299,12 +280,9 @@ export default {
         "harsh"
       ],
       "optionReasons": {
-        "harsh-mcq-02": "本句指「對別人過分嚴厲、苛刻或缺乏體諒的」。",
-        "harsh-mcq-01": "「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」與本句語境不同。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。"
+        "harsh-mcq-02": "本句的「harsh」指「對別人過分嚴厲、苛刻或缺乏體諒的」。",
+        "harsh-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-02"
     },
@@ -316,11 +294,8 @@ export default {
       "masked": "He was sometimes too ____ with his students.",
       "options": [
         "harsh-mcq-02",
-        "harsh-mcq-01",
         "harsh-mcq-03",
-        "harsh-mcq-04",
-        "harsh-mcq-05",
-        "harsh-mcq-06"
+        "harsh-mcq-01"
       ],
       "explanation": "本句的「harsh」指「對別人過分嚴厲、苛刻或缺乏體諒的」。",
       "sentenceIndex": 4,
@@ -329,12 +304,9 @@ export default {
         "harsh"
       ],
       "optionReasons": {
-        "harsh-mcq-02": "本句指「對別人過分嚴厲、苛刻或缺乏體諒的」。",
-        "harsh-mcq-01": "「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」與本句語境不同。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。"
+        "harsh-mcq-02": "本句的「harsh」指「對別人過分嚴厲、苛刻或缺乏體諒的」。",
+        "harsh-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-02"
     },
@@ -346,11 +318,7 @@ export default {
       "masked": "She received some ____ criticism.",
       "options": [
         "harsh-mcq-03",
-        "harsh-mcq-02",
-        "harsh-mcq-04",
-        "harsh-mcq-01",
-        "harsh-mcq-05",
-        "harsh-mcq-06"
+        "harsh-mcq-08"
       ],
       "explanation": "本句的「harsh」指「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」。",
       "sentenceIndex": 5,
@@ -359,12 +327,8 @@ export default {
         "harsh"
       ],
       "optionReasons": {
-        "harsh-mcq-03": "本句指「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」。",
-        "harsh-mcq-02": "「對別人過分嚴厲、苛刻或缺乏體諒的」與本句語境不同。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-01": "「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」與本句語境不同。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。"
+        "harsh-mcq-03": "本句的「harsh」指「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」。",
+        "harsh-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-03"
     },
@@ -377,10 +341,7 @@ export default {
       "options": [
         "harsh-mcq-03",
         "harsh-mcq-02",
-        "harsh-mcq-04",
-        "harsh-mcq-01",
-        "harsh-mcq-05",
-        "harsh-mcq-06"
+        "harsh-mcq-01"
       ],
       "explanation": "本句的「harsh」指「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」。",
       "sentenceIndex": 6,
@@ -389,12 +350,9 @@ export default {
         "harsh"
       ],
       "optionReasons": {
-        "harsh-mcq-03": "本句指「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」。",
-        "harsh-mcq-02": "「對別人過分嚴厲、苛刻或缺乏體諒的」與本句語境不同。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-01": "「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」與本句語境不同。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。"
+        "harsh-mcq-03": "本句的「harsh」指「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」。",
+        "harsh-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-03"
     },
@@ -406,10 +364,8 @@ export default {
       "masked": "The room was filled with ____ white light.",
       "options": [
         "harsh-mcq-04",
-        "harsh-mcq-03",
-        "harsh-mcq-05",
         "harsh-mcq-02",
-        "harsh-mcq-06",
+        "harsh-mcq-05",
         "harsh-mcq-01"
       ],
       "explanation": "本句的「harsh」指「聲音、光線、氣味、質感等強烈得令人不舒服的」。",
@@ -419,12 +375,10 @@ export default {
         "harsh"
       ],
       "optionReasons": {
-        "harsh-mcq-04": "本句指「聲音、光線、氣味、質感等強烈得令人不舒服的」。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-02": "「對別人過分嚴厲、苛刻或缺乏體諒的」與本句語境不同。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。",
-        "harsh-mcq-01": "「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」與本句語境不同。"
+        "harsh-mcq-04": "本句的「harsh」指「聲音、光線、氣味、質感等強烈得令人不舒服的」。",
+        "harsh-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-04"
     },
@@ -436,11 +390,9 @@ export default {
       "masked": "The microphone produced a ____ sound.",
       "options": [
         "harsh-mcq-04",
-        "harsh-mcq-03",
-        "harsh-mcq-05",
         "harsh-mcq-02",
-        "harsh-mcq-06",
-        "harsh-mcq-01"
+        "harsh-mcq-01",
+        "harsh-mcq-05"
       ],
       "explanation": "本句的「harsh」指「聲音、光線、氣味、質感等強烈得令人不舒服的」。",
       "sentenceIndex": 8,
@@ -449,12 +401,10 @@ export default {
         "harsh"
       ],
       "optionReasons": {
-        "harsh-mcq-04": "本句指「聲音、光線、氣味、質感等強烈得令人不舒服的」。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-02": "「對別人過分嚴厲、苛刻或缺乏體諒的」與本句語境不同。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。",
-        "harsh-mcq-01": "「氣候、環境或生活條件非常嚴酷、惡劣、難以承受的」與本句語境不同。"
+        "harsh-mcq-04": "本句的「harsh」指「聲音、光線、氣味、質感等強烈得令人不舒服的」。",
+        "harsh-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-04"
     },
@@ -466,11 +416,8 @@ export default {
       "masked": "This soap is too ____ for sensitive skin.",
       "options": [
         "harsh-mcq-05",
-        "harsh-mcq-04",
-        "harsh-mcq-06",
-        "harsh-mcq-03",
         "harsh-mcq-07",
-        "harsh-mcq-02"
+        "harsh-mcq-01"
       ],
       "explanation": "本句的「harsh」指「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」。",
       "sentenceIndex": 9,
@@ -479,12 +426,9 @@ export default {
         "harsh"
       ],
       "optionReasons": {
-        "harsh-mcq-05": "本句指「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。",
-        "harsh-mcq-07": "「以嚴厲、苛刻、尖銳或令人不舒服的方式」與本句語境不同。",
-        "harsh-mcq-02": "「對別人過分嚴厲、苛刻或缺乏體諒的」與本句語境不同。"
+        "harsh-mcq-05": "本句的「harsh」指「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」。",
+        "harsh-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-05"
     },
@@ -496,10 +440,7 @@ export default {
       "masked": "Avoid ____ chemicals on the surface.",
       "options": [
         "harsh-mcq-05",
-        "harsh-mcq-04",
         "harsh-mcq-06",
-        "harsh-mcq-03",
-        "harsh-mcq-07",
         "harsh-mcq-02"
       ],
       "explanation": "本句的「harsh」指「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」。",
@@ -509,12 +450,9 @@ export default {
         "harsh"
       ],
       "optionReasons": {
-        "harsh-mcq-05": "本句指「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。",
-        "harsh-mcq-07": "「以嚴厲、苛刻、尖銳或令人不舒服的方式」與本句語境不同。",
-        "harsh-mcq-02": "「對別人過分嚴厲、苛刻或缺乏體諒的」與本句語境不同。"
+        "harsh-mcq-05": "本句的「harsh」指「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」。",
+        "harsh-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-05"
     },
@@ -527,10 +465,7 @@ export default {
       "options": [
         "harsh-mcq-06",
         "harsh-mcq-05",
-        "harsh-mcq-07",
-        "harsh-mcq-04",
-        "harsh-mcq-08",
-        "harsh-mcq-03"
+        "harsh-mcq-02"
       ],
       "explanation": "本句的「harsh reality」指「令人難以接受、痛苦但真實的；殘酷／嚴峻」。",
       "sentenceIndex": 13,
@@ -539,12 +474,9 @@ export default {
         "harsh reality"
       ],
       "optionReasons": {
-        "harsh-mcq-06": "本句指「令人難以接受、痛苦但真實的；殘酷／嚴峻」。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-07": "「以嚴厲、苛刻、尖銳或令人不舒服的方式」與本句語境不同。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-08": "「嚴酷、嚴厲、刺激或不柔和的性質」與本句語境不同。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。"
+        "harsh-mcq-06": "本句的「harsh reality」指「令人難以接受、痛苦但真實的；殘酷／嚴峻」。",
+        "harsh-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-06"
     },
@@ -557,10 +489,7 @@ export default {
       "options": [
         "harsh-mcq-06",
         "harsh-mcq-05",
-        "harsh-mcq-07",
-        "harsh-mcq-04",
-        "harsh-mcq-08",
-        "harsh-mcq-03"
+        "harsh-mcq-02"
       ],
       "explanation": "本句的「harsh truth」指「令人難以接受、痛苦但真實的；殘酷／嚴峻」。",
       "sentenceIndex": 14,
@@ -569,12 +498,9 @@ export default {
         "harsh truth"
       ],
       "optionReasons": {
-        "harsh-mcq-06": "本句指「令人難以接受、痛苦但真實的；殘酷／嚴峻」。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-07": "「以嚴厲、苛刻、尖銳或令人不舒服的方式」與本句語境不同。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-08": "「嚴酷、嚴厲、刺激或不柔和的性質」與本句語境不同。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。"
+        "harsh-mcq-06": "本句的「harsh truth」指「令人難以接受、痛苦但真實的；殘酷／嚴峻」。",
+        "harsh-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-06"
     },
@@ -586,11 +512,8 @@ export default {
       "masked": "He was ____ criticized.",
       "options": [
         "harsh-mcq-07",
-        "harsh-mcq-06",
-        "harsh-mcq-08",
         "harsh-mcq-05",
-        "harsh-mcq-04",
-        "harsh-mcq-03"
+        "harsh-mcq-01"
       ],
       "explanation": "本句的「harshly」指「以嚴厲、苛刻、尖銳或令人不舒服的方式」。",
       "sentenceIndex": 15,
@@ -599,12 +522,9 @@ export default {
         "harshly"
       ],
       "optionReasons": {
-        "harsh-mcq-07": "本句指「以嚴厲、苛刻、尖銳或令人不舒服的方式」。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。",
-        "harsh-mcq-08": "「嚴酷、嚴厲、刺激或不柔和的性質」與本句語境不同。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。"
+        "harsh-mcq-07": "本句的「harshly」指「以嚴厲、苛刻、尖銳或令人不舒服的方式」。",
+        "harsh-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-07"
     },
@@ -616,11 +536,8 @@ export default {
       "masked": "She spoke ____ to him.",
       "options": [
         "harsh-mcq-07",
-        "harsh-mcq-06",
-        "harsh-mcq-08",
         "harsh-mcq-05",
-        "harsh-mcq-04",
-        "harsh-mcq-03"
+        "harsh-mcq-01"
       ],
       "explanation": "本句的「harshly」指「以嚴厲、苛刻、尖銳或令人不舒服的方式」。",
       "sentenceIndex": 16,
@@ -629,12 +546,9 @@ export default {
         "harshly"
       ],
       "optionReasons": {
-        "harsh-mcq-07": "本句指「以嚴厲、苛刻、尖銳或令人不舒服的方式」。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。",
-        "harsh-mcq-08": "「嚴酷、嚴厲、刺激或不柔和的性質」與本句語境不同。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。"
+        "harsh-mcq-07": "本句的「harshly」指「以嚴厲、苛刻、尖銳或令人不舒服的方式」。",
+        "harsh-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "harsh-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-07"
     },
@@ -646,10 +560,6 @@ export default {
       "masked": "The ____ of the climate makes farming difficult.",
       "options": [
         "harsh-mcq-08",
-        "harsh-mcq-07",
-        "harsh-mcq-06",
-        "harsh-mcq-05",
-        "harsh-mcq-04",
         "harsh-mcq-03"
       ],
       "explanation": "本句的「harshness」指「嚴酷、嚴厲、刺激或不柔和的性質」。",
@@ -659,12 +569,8 @@ export default {
         "harshness"
       ],
       "optionReasons": {
-        "harsh-mcq-08": "本句指「嚴酷、嚴厲、刺激或不柔和的性質」。",
-        "harsh-mcq-07": "「以嚴厲、苛刻、尖銳或令人不舒服的方式」與本句語境不同。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。"
+        "harsh-mcq-08": "本句的「harshness」指「嚴酷、嚴厲、刺激或不柔和的性質」。",
+        "harsh-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-08"
     },
@@ -676,10 +582,6 @@ export default {
       "masked": "He regretted the ____ of his words.",
       "options": [
         "harsh-mcq-08",
-        "harsh-mcq-07",
-        "harsh-mcq-06",
-        "harsh-mcq-05",
-        "harsh-mcq-04",
         "harsh-mcq-03"
       ],
       "explanation": "本句的「harshness」指「嚴酷、嚴厲、刺激或不柔和的性質」。",
@@ -689,12 +591,8 @@ export default {
         "harshness"
       ],
       "optionReasons": {
-        "harsh-mcq-08": "本句指「嚴酷、嚴厲、刺激或不柔和的性質」。",
-        "harsh-mcq-07": "「以嚴厲、苛刻、尖銳或令人不舒服的方式」與本句語境不同。",
-        "harsh-mcq-06": "「令人難以接受、痛苦但真實的；殘酷／嚴峻」與本句語境不同。",
-        "harsh-mcq-05": "「作用過強，可能刺激或傷害皮膚／物料；與 sensory/severity義相關」與本句語境不同。",
-        "harsh-mcq-04": "「聲音、光線、氣味、質感等強烈得令人不舒服的」與本句語境不同。",
-        "harsh-mcq-03": "「言語或批評強烈尖銳、令人難受；與 severe-treatment 義相關」與本句語境不同。"
+        "harsh-mcq-08": "本句的「harshness」指「嚴酷、嚴厲、刺激或不柔和的性質」。",
+        "harsh-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "harsh-mcq-08"
     }
@@ -706,5 +604,7 @@ export default {
     "sha256": "8efb6f26ac6ee1d7d01748665899f3712f5f85e75cef4746b8e8fc5d5b0962bd",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -466,16 +466,6 @@ export default {
           "A controlled experiment changes one factor at a time.",
           "受控實驗通常一次改變一個主要因素。",
           "受控／對照實驗"
-        ],
-        [
-          "The plants were grown in a controlled environment.",
-          "植物在受控環境中生長。",
-          "受控／對照實驗"
-        ],
-        [
-          "Temperature is kept constant in a controlled environment.",
-          "在受控環境中，溫度保持穩定。",
-          "受控／對照實驗"
         ]
       ],
       "options": [],
@@ -775,6 +765,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "control-reviewed-597c077a25",
+      "title": "溫度、光線、濕度等條件受到刻意調節的環境",
+      "form": "control · source section 23",
+      "en": "溫度、光線、濕度等條件受到刻意調節的環境",
+      "zh": "溫度、光線、濕度等條件受到刻意調節的環境",
+      "note": "對照原始教材第 23 節及例句核實。",
+      "examples": [
+        [
+          "The plants were grown in a controlled environment.",
+          "植物在受控環境中生長。",
+          "溫度、光線、濕度等條件受到刻意調節的環境"
+        ],
+        [
+          "Temperature is kept constant in a controlled environment.",
+          "在受控環境中，溫度保持穩定。",
+          "溫度、光線、濕度等條件受到刻意調節的環境"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -786,11 +798,9 @@ export default {
       "masked": "She has complete ____ over the project.",
       "options": [
         "control-mcq-01",
-        "control-mcq-02",
-        "control-mcq-03",
-        "control-mcq-04",
-        "control-mcq-05",
-        "control-mcq-06"
+        "control-mcq-33",
+        "control-mcq-29",
+        "control-mcq-34"
       ],
       "explanation": "本句的「control」指「控制；掌控」。",
       "sentenceIndex": 0,
@@ -799,12 +809,10 @@ export default {
         "control"
       ],
       "optionReasons": {
-        "control-mcq-01": "本句指「控制；掌控」。",
-        "control-mcq-02": "「在掌握之中；受控」是「under control」的用法，與本句語境不同。",
-        "control-mcq-03": "「失控」是「out of control」的用法，與本句語境不同。",
-        "control-mcq-04": "「掌控局面」是「in control」的用法，與本句語境不同。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。"
+        "control-mcq-01": "本句的「control」指「控制；掌控」。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-01"
     },
@@ -816,11 +824,9 @@ export default {
       "masked": "He struggled to keep ____ of the situation.",
       "options": [
         "control-mcq-01",
-        "control-mcq-02",
-        "control-mcq-03",
-        "control-mcq-04",
-        "control-mcq-05",
-        "control-mcq-06"
+        "control-mcq-33",
+        "control-reviewed-597c077a25",
+        "control-mcq-20"
       ],
       "explanation": "本句的「control」指「控制；掌控」。",
       "sentenceIndex": 1,
@@ -829,12 +835,10 @@ export default {
         "control"
       ],
       "optionReasons": {
-        "control-mcq-01": "本句指「控制；掌控」。",
-        "control-mcq-02": "「在掌握之中；受控」是「under control」的用法，與本句語境不同。",
-        "control-mcq-03": "「失控」是「out of control」的用法，與本句語境不同。",
-        "control-mcq-04": "「掌控局面」是「in control」的用法，與本句語境不同。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。"
+        "control-mcq-01": "本句的「control」指「控制；掌控」。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-01"
     },
@@ -846,11 +850,9 @@ export default {
       "masked": "The driver lost ____ of the car.",
       "options": [
         "control-mcq-01",
-        "control-mcq-02",
-        "control-mcq-03",
-        "control-mcq-04",
-        "control-mcq-05",
-        "control-mcq-06"
+        "control-mcq-20",
+        "control-mcq-29",
+        "control-mcq-33"
       ],
       "explanation": "本句的「control」指「控制；掌控」。",
       "sentenceIndex": 2,
@@ -859,12 +861,10 @@ export default {
         "control"
       ],
       "optionReasons": {
-        "control-mcq-01": "本句指「控制；掌控」。",
-        "control-mcq-02": "「在掌握之中；受控」是「under control」的用法，與本句語境不同。",
-        "control-mcq-03": "「失控」是「out of control」的用法，與本句語境不同。",
-        "control-mcq-04": "「掌控局面」是「in control」的用法，與本句語境不同。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。"
+        "control-mcq-01": "本句的「control」指「控制；掌控」。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-01"
     },
@@ -876,11 +876,9 @@ export default {
       "masked": "I wanted to make sure everything was ____.",
       "options": [
         "control-mcq-02",
-        "control-mcq-01",
-        "control-mcq-03",
-        "control-mcq-04",
-        "control-mcq-05",
-        "control-mcq-06"
+        "control-mcq-34",
+        "control-mcq-20",
+        "control-mcq-28"
       ],
       "explanation": "本句的「under control」指「在掌握之中；受控」。",
       "sentenceIndex": 3,
@@ -889,12 +887,10 @@ export default {
         "under control"
       ],
       "optionReasons": {
-        "control-mcq-02": "本句指「在掌握之中；受控」。",
-        "control-mcq-01": "「控制；掌控」是「control (noun)」的用法，與本句語境不同。",
-        "control-mcq-03": "「失控」是「out of control」的用法，與本句語境不同。",
-        "control-mcq-04": "「掌控局面」是「in control」的用法，與本句語境不同。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。"
+        "control-mcq-02": "本句的「under control」指「在掌握之中；受控」。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-02"
     },
@@ -906,11 +902,9 @@ export default {
       "masked": "The fire is now ____.",
       "options": [
         "control-mcq-02",
-        "control-mcq-01",
-        "control-mcq-03",
-        "control-mcq-04",
-        "control-mcq-05",
-        "control-mcq-06"
+        "control-mcq-29",
+        "control-mcq-34",
+        "control-mcq-20"
       ],
       "explanation": "本句的「under control」指「在掌握之中；受控」。",
       "sentenceIndex": 4,
@@ -919,12 +913,10 @@ export default {
         "under control"
       ],
       "optionReasons": {
-        "control-mcq-02": "本句指「在掌握之中；受控」。",
-        "control-mcq-01": "「控制；掌控」是「control (noun)」的用法，與本句語境不同。",
-        "control-mcq-03": "「失控」是「out of control」的用法，與本句語境不同。",
-        "control-mcq-04": "「掌控局面」是「in control」的用法，與本句語境不同。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。"
+        "control-mcq-02": "本句的「under control」指「在掌握之中；受控」。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-02"
     },
@@ -936,11 +928,9 @@ export default {
       "masked": "The situation quickly got ____.",
       "options": [
         "control-mcq-03",
-        "control-mcq-02",
-        "control-mcq-04",
-        "control-mcq-01",
-        "control-mcq-05",
-        "control-mcq-06"
+        "control-mcq-29",
+        "control-mcq-10",
+        "control-mcq-33"
       ],
       "explanation": "本句的「out of control」指「失控」。",
       "sentenceIndex": 5,
@@ -949,12 +939,10 @@ export default {
         "out of control"
       ],
       "optionReasons": {
-        "control-mcq-03": "本句指「失控」。",
-        "control-mcq-02": "「在掌握之中；受控」是「under control」的用法，與本句語境不同。",
-        "control-mcq-04": "「掌控局面」是「in control」的用法，與本句語境不同。",
-        "control-mcq-01": "「控制；掌控」是「control (noun)」的用法，與本句語境不同。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。"
+        "control-mcq-03": "本句的「out of control」指「失控」。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-03"
     },
@@ -966,11 +954,9 @@ export default {
       "masked": "The car went ____ on the wet road.",
       "options": [
         "control-mcq-03",
-        "control-mcq-02",
-        "control-mcq-04",
-        "control-mcq-01",
-        "control-mcq-05",
-        "control-mcq-06"
+        "control-mcq-29",
+        "control-mcq-24",
+        "control-mcq-20"
       ],
       "explanation": "本句的「out of control」指「失控」。",
       "sentenceIndex": 6,
@@ -979,12 +965,10 @@ export default {
         "out of control"
       ],
       "optionReasons": {
-        "control-mcq-03": "本句指「失控」。",
-        "control-mcq-02": "「在掌握之中；受控」是「under control」的用法，與本句語境不同。",
-        "control-mcq-04": "「掌控局面」是「in control」的用法，與本句語境不同。",
-        "control-mcq-01": "「控制；掌控」是「control (noun)」的用法，與本句語境不同。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。"
+        "control-mcq-03": "本句的「out of control」指「失控」。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-03"
     },
@@ -996,11 +980,9 @@ export default {
       "masked": "She stayed calm and remained ____.",
       "options": [
         "control-mcq-04",
-        "control-mcq-03",
-        "control-mcq-05",
-        "control-mcq-02",
-        "control-mcq-06",
-        "control-mcq-01"
+        "control-mcq-33",
+        "control-mcq-19",
+        "control-mcq-20"
       ],
       "explanation": "本句的「in control」指「掌控局面」。",
       "sentenceIndex": 7,
@@ -1009,12 +991,10 @@ export default {
         "in control"
       ],
       "optionReasons": {
-        "control-mcq-04": "本句指「掌控局面」。",
-        "control-mcq-03": "「失控」是「out of control」的用法，與本句語境不同。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。",
-        "control-mcq-02": "「在掌握之中；受控」是「under control」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。",
-        "control-mcq-01": "「控制；掌控」是「control (noun)」的用法，與本句語境不同。"
+        "control-mcq-04": "本句的「in control」指「掌控局面」。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-04"
     },
@@ -1026,11 +1006,9 @@ export default {
       "masked": "Who is ____ of the project?",
       "options": [
         "control-mcq-04",
-        "control-mcq-03",
-        "control-mcq-05",
-        "control-mcq-02",
-        "control-mcq-06",
-        "control-mcq-01"
+        "control-mcq-18",
+        "control-reviewed-597c077a25",
+        "control-mcq-20"
       ],
       "explanation": "本句的「in control」指「掌控局面」。",
       "sentenceIndex": 8,
@@ -1039,12 +1017,10 @@ export default {
         "in control"
       ],
       "optionReasons": {
-        "control-mcq-04": "本句指「掌控局面」。",
-        "control-mcq-03": "「失控」是「out of control」的用法，與本句語境不同。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。",
-        "control-mcq-02": "「在掌握之中；受控」是「under control」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。",
-        "control-mcq-01": "「控制；掌控」是「control (noun)」的用法，與本句語境不同。"
+        "control-mcq-04": "本句的「in control」指「掌控局面」。",
+        "control-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-04"
     },
@@ -1056,11 +1032,9 @@ export default {
       "masked": "She ____ of the meeting.",
       "options": [
         "control-mcq-05",
-        "control-mcq-04",
-        "control-mcq-06",
-        "control-mcq-03",
-        "control-mcq-07",
-        "control-mcq-02"
+        "control-reviewed-597c077a25",
+        "control-mcq-20",
+        "control-mcq-34"
       ],
       "explanation": "本句的「took control」指「接管；取得控制權」。",
       "sentenceIndex": 9,
@@ -1069,12 +1043,10 @@ export default {
         "took control"
       ],
       "optionReasons": {
-        "control-mcq-05": "本句指「接管；取得控制權」。",
-        "control-mcq-04": "「掌控局面」是「in control」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。",
-        "control-mcq-03": "「失控」是「out of control」的用法，與本句語境不同。",
-        "control-mcq-07": "「重新掌控」是「regain control」的用法，與本句語境不同。",
-        "control-mcq-02": "「在掌握之中；受控」是「under control」的用法，與本句語境不同。"
+        "control-mcq-05": "本句的「took control」指「接管；取得控制權」。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-05"
     },
@@ -1086,11 +1058,9 @@ export default {
       "masked": "The new manager ____ of the department.",
       "options": [
         "control-mcq-05",
-        "control-mcq-04",
-        "control-mcq-06",
-        "control-mcq-03",
-        "control-mcq-07",
-        "control-mcq-02"
+        "control-mcq-33",
+        "control-mcq-34",
+        "control-mcq-20"
       ],
       "explanation": "本句的「took control」指「接管；取得控制權」。",
       "sentenceIndex": 10,
@@ -1099,12 +1069,10 @@ export default {
         "took control"
       ],
       "optionReasons": {
-        "control-mcq-05": "本句指「接管；取得控制權」。",
-        "control-mcq-04": "「掌控局面」是「in control」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。",
-        "control-mcq-03": "「失控」是「out of control」的用法，與本句語境不同。",
-        "control-mcq-07": "「重新掌控」是「regain control」的用法，與本句語境不同。",
-        "control-mcq-02": "「在掌握之中；受控」是「under control」的用法，與本句語境不同。"
+        "control-mcq-05": "本句的「took control」指「接管；取得控制權」。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-05"
     },
@@ -1116,11 +1084,9 @@ export default {
       "masked": "He ____ of his temper.",
       "options": [
         "control-mcq-06",
-        "control-mcq-05",
-        "control-mcq-07",
-        "control-mcq-04",
-        "control-mcq-08",
-        "control-mcq-03"
+        "control-reviewed-597c077a25",
+        "control-mcq-29",
+        "control-mcq-33"
       ],
       "explanation": "本句的「lost control」指「失去控制」。",
       "sentenceIndex": 11,
@@ -1129,12 +1095,10 @@ export default {
         "lost control"
       ],
       "optionReasons": {
-        "control-mcq-06": "本句指「失去控制」。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。",
-        "control-mcq-07": "「重新掌控」是「regain control」的用法，與本句語境不同。",
-        "control-mcq-04": "「掌控局面」是「in control」的用法，與本句語境不同。",
-        "control-mcq-08": "「對……有控制權」是「have control over」的用法，與本句語境不同。",
-        "control-mcq-03": "「失控」是「out of control」的用法，與本句語境不同。"
+        "control-mcq-06": "本句的「lost control」指「失去控制」。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-06"
     },
@@ -1146,11 +1110,9 @@ export default {
       "masked": "The driver ____ of the vehicle.",
       "options": [
         "control-mcq-06",
-        "control-mcq-05",
-        "control-mcq-07",
-        "control-mcq-04",
-        "control-mcq-08",
-        "control-mcq-03"
+        "control-reviewed-597c077a25",
+        "control-mcq-29",
+        "control-mcq-20"
       ],
       "explanation": "本句的「lost control」指「失去控制」。",
       "sentenceIndex": 12,
@@ -1159,12 +1121,10 @@ export default {
         "lost control"
       ],
       "optionReasons": {
-        "control-mcq-06": "本句指「失去控制」。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。",
-        "control-mcq-07": "「重新掌控」是「regain control」的用法，與本句語境不同。",
-        "control-mcq-04": "「掌控局面」是「in control」的用法，與本句語境不同。",
-        "control-mcq-08": "「對……有控制權」是「have control over」的用法，與本句語境不同。",
-        "control-mcq-03": "「失控」是「out of control」的用法，與本句語境不同。"
+        "control-mcq-06": "本句的「lost control」指「失去控制」。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-06"
     },
@@ -1176,11 +1136,9 @@ export default {
       "masked": "She took a moment to ____ of her emotions.",
       "options": [
         "control-mcq-07",
-        "control-mcq-06",
-        "control-mcq-08",
-        "control-mcq-05",
-        "control-mcq-09",
-        "control-mcq-04"
+        "control-mcq-28",
+        "control-mcq-20",
+        "control-mcq-34"
       ],
       "explanation": "本句的「regain control」指「重新掌控」。",
       "sentenceIndex": 13,
@@ -1189,12 +1147,10 @@ export default {
         "regain control"
       ],
       "optionReasons": {
-        "control-mcq-07": "本句指「重新掌控」。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。",
-        "control-mcq-08": "「對……有控制權」是「have control over」的用法，與本句語境不同。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。",
-        "control-mcq-09": "「控制 X」是「control X」的用法，與本句語境不同。",
-        "control-mcq-04": "「掌控局面」是「in control」的用法，與本句語境不同。"
+        "control-mcq-07": "本句的「regain control」指「重新掌控」。",
+        "control-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-07"
     },
@@ -1206,11 +1162,9 @@ export default {
       "masked": "The pilot ____ of the aircraft.",
       "options": [
         "control-mcq-07",
-        "control-mcq-06",
-        "control-mcq-08",
-        "control-mcq-05",
-        "control-mcq-09",
-        "control-mcq-04"
+        "control-mcq-19",
+        "control-mcq-29",
+        "control-reviewed-597c077a25"
       ],
       "explanation": "本句的「regained control」指「重新掌控」。",
       "sentenceIndex": 14,
@@ -1219,12 +1173,10 @@ export default {
         "regained control"
       ],
       "optionReasons": {
-        "control-mcq-07": "本句指「重新掌控」。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。",
-        "control-mcq-08": "「對……有控制權」是「have control over」的用法，與本句語境不同。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。",
-        "control-mcq-09": "「控制 X」是「control X」的用法，與本句語境不同。",
-        "control-mcq-04": "「掌控局面」是「in control」的用法，與本句語境不同。"
+        "control-mcq-07": "本句的「regained control」指「重新掌控」。",
+        "control-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-07"
     },
@@ -1236,11 +1188,9 @@ export default {
       "masked": "You cannot have complete ____.",
       "options": [
         "control-mcq-08",
-        "control-mcq-07",
-        "control-mcq-09",
-        "control-mcq-06",
-        "control-mcq-10",
-        "control-mcq-05"
+        "control-mcq-29",
+        "control-mcq-33",
+        "control-reviewed-597c077a25"
       ],
       "explanation": "本句的「control over everything」指「對……有控制權」。",
       "sentenceIndex": 15,
@@ -1249,12 +1199,10 @@ export default {
         "control over everything"
       ],
       "optionReasons": {
-        "control-mcq-08": "本句指「對……有控制權」。",
-        "control-mcq-07": "「重新掌控」是「regain control」的用法，與本句語境不同。",
-        "control-mcq-09": "「控制 X」是「control X」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。",
-        "control-mcq-10": "「克制自己」是「control yourself」的用法，與本句語境不同。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。"
+        "control-mcq-08": "本句的「control over everything」指「對……有控制權」。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-08"
     },
@@ -1266,11 +1214,9 @@ export default {
       "masked": "The manager has ____.",
       "options": [
         "control-mcq-08",
-        "control-mcq-07",
-        "control-mcq-09",
-        "control-mcq-06",
-        "control-mcq-10",
-        "control-mcq-05"
+        "control-mcq-33",
+        "control-reviewed-597c077a25",
+        "control-mcq-34"
       ],
       "explanation": "本句的「control over the budget」指「對……有控制權」。",
       "sentenceIndex": 16,
@@ -1279,12 +1225,10 @@ export default {
         "control over the budget"
       ],
       "optionReasons": {
-        "control-mcq-08": "本句指「對……有控制權」。",
-        "control-mcq-07": "「重新掌控」是「regain control」的用法，與本句語境不同。",
-        "control-mcq-09": "「控制 X」是「control X」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。",
-        "control-mcq-10": "「克制自己」是「control yourself」的用法，與本句語境不同。",
-        "control-mcq-05": "「接管；取得控制權」是「take control」的用法，與本句語境不同。"
+        "control-mcq-08": "本句的「control over the budget」指「對……有控制權」。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-08"
     },
@@ -1296,11 +1240,9 @@ export default {
       "masked": "The system ____ automatically.",
       "options": [
         "control-mcq-09",
-        "control-mcq-08",
-        "control-mcq-10",
-        "control-mcq-07",
-        "control-mcq-11",
-        "control-mcq-06"
+        "control-mcq-29",
+        "control-reviewed-597c077a25",
+        "control-mcq-20"
       ],
       "explanation": "本句的「controls the temperature」指「控制 X」。",
       "sentenceIndex": 17,
@@ -1309,12 +1251,10 @@ export default {
         "controls the temperature"
       ],
       "optionReasons": {
-        "control-mcq-09": "本句指「控制 X」。",
-        "control-mcq-08": "「對……有控制權」是「have control over」的用法，與本句語境不同。",
-        "control-mcq-10": "「克制自己」是「control yourself」的用法，與本句語境不同。",
-        "control-mcq-07": "「重新掌控」是「regain control」的用法，與本句語境不同。",
-        "control-mcq-11": "「控制情緒」是「control emotions」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。"
+        "control-mcq-09": "本句的「controls the temperature」指「控制 X」。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-09"
     },
@@ -1326,11 +1266,9 @@ export default {
       "masked": "She ____ for the department.",
       "options": [
         "control-mcq-09",
-        "control-mcq-08",
-        "control-mcq-10",
-        "control-mcq-07",
-        "control-mcq-11",
-        "control-mcq-06"
+        "control-mcq-20",
+        "control-mcq-29",
+        "control-mcq-34"
       ],
       "explanation": "本句的「controls the budget」指「控制 X」。",
       "sentenceIndex": 18,
@@ -1339,12 +1277,10 @@ export default {
         "controls the budget"
       ],
       "optionReasons": {
-        "control-mcq-09": "本句指「控制 X」。",
-        "control-mcq-08": "「對……有控制權」是「have control over」的用法，與本句語境不同。",
-        "control-mcq-10": "「克制自己」是「control yourself」的用法，與本句語境不同。",
-        "control-mcq-07": "「重新掌控」是「regain control」的用法，與本句語境不同。",
-        "control-mcq-11": "「控制情緒」是「control emotions」的用法，與本句語境不同。",
-        "control-mcq-06": "「失去控制」是「lose control」的用法，與本句語境不同。"
+        "control-mcq-09": "本句的「controls the budget」指「控制 X」。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-09"
     },
@@ -1356,11 +1292,9 @@ export default {
       "masked": "He was angry but managed to ____.",
       "options": [
         "control-mcq-10",
-        "control-mcq-09",
-        "control-mcq-11",
-        "control-mcq-08",
-        "control-mcq-12",
-        "control-mcq-07"
+        "control-mcq-34",
+        "control-mcq-14",
+        "control-reviewed-597c077a25"
       ],
       "explanation": "本句的「control himself」指「克制自己」。",
       "sentenceIndex": 19,
@@ -1369,12 +1303,10 @@ export default {
         "control himself"
       ],
       "optionReasons": {
-        "control-mcq-10": "本句指「克制自己」。",
-        "control-mcq-09": "「控制 X」是「control X」的用法，與本句語境不同。",
-        "control-mcq-11": "「控制情緒」是「control emotions」的用法，與本句語境不同。",
-        "control-mcq-08": "「對……有控制權」是「have control over」的用法，與本句語境不同。",
-        "control-mcq-12": "「控制成本」是「control costs」的用法，與本句語境不同。",
-        "control-mcq-07": "「重新掌控」是「regain control」的用法，與本句語境不同。"
+        "control-mcq-10": "本句的「control himself」指「克制自己」。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-10"
     },
@@ -1386,11 +1318,9 @@ export default {
       "masked": "Try to ____.",
       "options": [
         "control-mcq-10",
-        "control-mcq-09",
-        "control-mcq-11",
-        "control-mcq-08",
-        "control-mcq-12",
-        "control-mcq-07"
+        "control-mcq-03",
+        "control-reviewed-597c077a25",
+        "control-mcq-20"
       ],
       "explanation": "本句的「control yourself」指「克制自己」。",
       "sentenceIndex": 20,
@@ -1399,12 +1329,10 @@ export default {
         "control yourself"
       ],
       "optionReasons": {
-        "control-mcq-10": "本句指「克制自己」。",
-        "control-mcq-09": "「控制 X」是「control X」的用法，與本句語境不同。",
-        "control-mcq-11": "「控制情緒」是「control emotions」的用法，與本句語境不同。",
-        "control-mcq-08": "「對……有控制權」是「have control over」的用法，與本句語境不同。",
-        "control-mcq-12": "「控制成本」是「control costs」的用法，與本句語境不同。",
-        "control-mcq-07": "「重新掌控」是「regain control」的用法，與本句語境不同。"
+        "control-mcq-10": "本句的「control yourself」指「克制自己」。",
+        "control-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-10"
     },
@@ -1416,11 +1344,9 @@ export default {
       "masked": "She struggled to ____.",
       "options": [
         "control-mcq-11",
-        "control-mcq-10",
-        "control-mcq-12",
-        "control-mcq-09",
-        "control-mcq-13",
-        "control-mcq-08"
+        "control-mcq-34",
+        "control-reviewed-597c077a25",
+        "control-mcq-20"
       ],
       "explanation": "本句的「control her emotions」指「控制情緒」。",
       "sentenceIndex": 21,
@@ -1429,12 +1355,10 @@ export default {
         "control her emotions"
       ],
       "optionReasons": {
-        "control-mcq-11": "本句指「控制情緒」。",
-        "control-mcq-10": "「克制自己」是「control yourself」的用法，與本句語境不同。",
-        "control-mcq-12": "「控制成本」是「control costs」的用法，與本句語境不同。",
-        "control-mcq-09": "「控制 X」是「control X」的用法，與本句語境不同。",
-        "control-mcq-13": "「控制存取」是「control access」的用法，與本句語境不同。",
-        "control-mcq-08": "「對……有控制權」是「have control over」的用法，與本句語境不同。"
+        "control-mcq-11": "本句的「control her emotions」指「控制情緒」。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-11"
     },
@@ -1446,11 +1370,9 @@ export default {
       "masked": "He couldn't ____.",
       "options": [
         "control-mcq-11",
-        "control-mcq-10",
-        "control-mcq-12",
-        "control-mcq-09",
-        "control-mcq-13",
-        "control-mcq-08"
+        "control-reviewed-597c077a25",
+        "control-mcq-29",
+        "control-mcq-34"
       ],
       "explanation": "本句的「control his anger」指「控制情緒」。",
       "sentenceIndex": 22,
@@ -1459,12 +1381,10 @@ export default {
         "control his anger"
       ],
       "optionReasons": {
-        "control-mcq-11": "本句指「控制情緒」。",
-        "control-mcq-10": "「克制自己」是「control yourself」的用法，與本句語境不同。",
-        "control-mcq-12": "「控制成本」是「control costs」的用法，與本句語境不同。",
-        "control-mcq-09": "「控制 X」是「control X」的用法，與本句語境不同。",
-        "control-mcq-13": "「控制存取」是「control access」的用法，與本句語境不同。",
-        "control-mcq-08": "「對……有控制權」是「have control over」的用法，與本句語境不同。"
+        "control-mcq-11": "本句的「control his anger」指「控制情緒」。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-11"
     },
@@ -1476,11 +1396,9 @@ export default {
       "masked": "The company is trying to ____.",
       "options": [
         "control-mcq-12",
-        "control-mcq-11",
-        "control-mcq-13",
-        "control-mcq-10",
-        "control-mcq-14",
-        "control-mcq-09"
+        "control-mcq-20",
+        "control-mcq-33",
+        "control-mcq-34"
       ],
       "explanation": "本句的「control costs」指「控制成本」。",
       "sentenceIndex": 23,
@@ -1489,12 +1407,10 @@ export default {
         "control costs"
       ],
       "optionReasons": {
-        "control-mcq-12": "本句指「控制成本」。",
-        "control-mcq-11": "「控制情緒」是「control emotions」的用法，與本句語境不同。",
-        "control-mcq-13": "「控制存取」是「control access」的用法，與本句語境不同。",
-        "control-mcq-10": "「克制自己」是「control yourself」的用法，與本句語境不同。",
-        "control-mcq-14": "「遙控器／遙控」是「remote control」的用法，與本句語境不同。",
-        "control-mcq-09": "「控制 X」是「control X」的用法，與本句語境不同。"
+        "control-mcq-12": "本句的「control costs」指「控制成本」。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-12"
     },
@@ -1506,11 +1422,9 @@ export default {
       "masked": "We need to ____ this year.",
       "options": [
         "control-mcq-12",
-        "control-mcq-11",
-        "control-mcq-13",
-        "control-mcq-10",
-        "control-mcq-14",
-        "control-mcq-09"
+        "control-mcq-34",
+        "control-reviewed-597c077a25",
+        "control-mcq-20"
       ],
       "explanation": "本句的「control spending」指「控制成本」。",
       "sentenceIndex": 24,
@@ -1519,12 +1433,10 @@ export default {
         "control spending"
       ],
       "optionReasons": {
-        "control-mcq-12": "本句指「控制成本」。",
-        "control-mcq-11": "「控制情緒」是「control emotions」的用法，與本句語境不同。",
-        "control-mcq-13": "「控制存取」是「control access」的用法，與本句語境不同。",
-        "control-mcq-10": "「克制自己」是「control yourself」的用法，與本句語境不同。",
-        "control-mcq-14": "「遙控器／遙控」是「remote control」的用法，與本句語境不同。",
-        "control-mcq-09": "「控制 X」是「control X」的用法，與本句語境不同。"
+        "control-mcq-12": "本句的「control spending」指「控制成本」。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-12"
     },
@@ -1536,11 +1448,9 @@ export default {
       "masked": "Passwords help ____ to the system.",
       "options": [
         "control-mcq-13",
-        "control-mcq-12",
-        "control-mcq-14",
-        "control-mcq-11",
-        "control-mcq-15",
-        "control-mcq-10"
+        "control-mcq-20",
+        "control-mcq-29",
+        "control-mcq-34"
       ],
       "explanation": "本句的「control access」指「控制存取」。",
       "sentenceIndex": 25,
@@ -1549,12 +1459,10 @@ export default {
         "control access"
       ],
       "optionReasons": {
-        "control-mcq-13": "本句指「控制存取」。",
-        "control-mcq-12": "「控制成本」是「control costs」的用法，與本句語境不同。",
-        "control-mcq-14": "「遙控器／遙控」是「remote control」的用法，與本句語境不同。",
-        "control-mcq-11": "「控制情緒」是「control emotions」的用法，與本句語境不同。",
-        "control-mcq-15": "「操控裝置」是「controls」的用法，與本句語境不同。",
-        "control-mcq-10": "「克制自己」是「control yourself」的用法，與本句語境不同。"
+        "control-mcq-13": "本句的「control access」指「控制存取」。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-13"
     },
@@ -1566,11 +1474,9 @@ export default {
       "masked": "Security staff ____ to the building.",
       "options": [
         "control-mcq-13",
-        "control-mcq-12",
-        "control-mcq-14",
-        "control-mcq-11",
-        "control-mcq-15",
-        "control-mcq-10"
+        "control-mcq-33",
+        "control-mcq-29",
+        "control-reviewed-597c077a25"
       ],
       "explanation": "本句的「control access」指「控制存取」。",
       "sentenceIndex": 26,
@@ -1579,12 +1485,10 @@ export default {
         "control access"
       ],
       "optionReasons": {
-        "control-mcq-13": "本句指「控制存取」。",
-        "control-mcq-12": "「控制成本」是「control costs」的用法，與本句語境不同。",
-        "control-mcq-14": "「遙控器／遙控」是「remote control」的用法，與本句語境不同。",
-        "control-mcq-11": "「控制情緒」是「control emotions」的用法，與本句語境不同。",
-        "control-mcq-15": "「操控裝置」是「controls」的用法，與本句語境不同。",
-        "control-mcq-10": "「克制自己」是「control yourself」的用法，與本句語境不同。"
+        "control-mcq-13": "本句的「control access」指「控制存取」。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-13"
     },
@@ -1596,11 +1500,9 @@ export default {
       "masked": "Where's the ____?",
       "options": [
         "control-mcq-14",
-        "control-mcq-13",
-        "control-mcq-15",
-        "control-mcq-12",
-        "control-mcq-16",
-        "control-mcq-11"
+        "control-mcq-20",
+        "control-mcq-24",
+        "control-mcq-29"
       ],
       "explanation": "本句的「remote control」指「遙控器／遙控」。",
       "sentenceIndex": 27,
@@ -1609,12 +1511,10 @@ export default {
         "remote control"
       ],
       "optionReasons": {
-        "control-mcq-14": "本句指「遙控器／遙控」。",
-        "control-mcq-13": "「控制存取」是「control access」的用法，與本句語境不同。",
-        "control-mcq-15": "「操控裝置」是「controls」的用法，與本句語境不同。",
-        "control-mcq-12": "「控制成本」是「control costs」的用法，與本句語境不同。",
-        "control-mcq-16": "「控制面板」是「control panel」的用法，與本句語境不同。",
-        "control-mcq-11": "「控制情緒」是「control emotions」的用法，與本句語境不同。"
+        "control-mcq-14": "本句的「remote control」指「遙控器／遙控」。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-14"
     },
@@ -1626,11 +1526,9 @@ export default {
       "masked": "Use the ____ to change the channel.",
       "options": [
         "control-mcq-14",
-        "control-mcq-13",
-        "control-mcq-15",
-        "control-mcq-12",
-        "control-mcq-16",
-        "control-mcq-11"
+        "control-mcq-29",
+        "control-mcq-20",
+        "control-mcq-10"
       ],
       "explanation": "本句的「remote control」指「遙控器／遙控」。",
       "sentenceIndex": 28,
@@ -1639,12 +1537,10 @@ export default {
         "remote control"
       ],
       "optionReasons": {
-        "control-mcq-14": "本句指「遙控器／遙控」。",
-        "control-mcq-13": "「控制存取」是「control access」的用法，與本句語境不同。",
-        "control-mcq-15": "「操控裝置」是「controls」的用法，與本句語境不同。",
-        "control-mcq-12": "「控制成本」是「control costs」的用法，與本句語境不同。",
-        "control-mcq-16": "「控制面板」是「control panel」的用法，與本句語境不同。",
-        "control-mcq-11": "「控制情緒」是「control emotions」的用法，與本句語境不同。"
+        "control-mcq-14": "本句的「remote control」指「遙控器／遙控」。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-14"
     },
@@ -1656,11 +1552,9 @@ export default {
       "masked": "The machine can be operated by ____.",
       "options": [
         "control-mcq-14",
-        "control-mcq-13",
-        "control-mcq-15",
-        "control-mcq-12",
-        "control-mcq-16",
-        "control-mcq-11"
+        "control-reviewed-597c077a25",
+        "control-mcq-34",
+        "control-mcq-24"
       ],
       "explanation": "本句的「remote control」指「遙控器／遙控」。",
       "sentenceIndex": 29,
@@ -1669,12 +1563,10 @@ export default {
         "remote control"
       ],
       "optionReasons": {
-        "control-mcq-14": "本句指「遙控器／遙控」。",
-        "control-mcq-13": "「控制存取」是「control access」的用法，與本句語境不同。",
-        "control-mcq-15": "「操控裝置」是「controls」的用法，與本句語境不同。",
-        "control-mcq-12": "「控制成本」是「control costs」的用法，與本句語境不同。",
-        "control-mcq-16": "「控制面板」是「control panel」的用法，與本句語境不同。",
-        "control-mcq-11": "「控制情緒」是「control emotions」的用法，與本句語境不同。"
+        "control-mcq-14": "本句的「remote control」指「遙控器／遙控」。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-14"
     },
@@ -1686,11 +1578,9 @@ export default {
       "masked": "The drone is under ____.",
       "options": [
         "control-mcq-14",
-        "control-mcq-13",
-        "control-mcq-15",
-        "control-mcq-12",
-        "control-mcq-16",
-        "control-mcq-11"
+        "control-mcq-20",
+        "control-reviewed-597c077a25",
+        "control-mcq-19"
       ],
       "explanation": "本句的「remote control」指「遙控器／遙控」。",
       "sentenceIndex": 30,
@@ -1699,12 +1589,10 @@ export default {
         "remote control"
       ],
       "optionReasons": {
-        "control-mcq-14": "本句指「遙控器／遙控」。",
-        "control-mcq-13": "「控制存取」是「control access」的用法，與本句語境不同。",
-        "control-mcq-15": "「操控裝置」是「controls」的用法，與本句語境不同。",
-        "control-mcq-12": "「控制成本」是「control costs」的用法，與本句語境不同。",
-        "control-mcq-16": "「控制面板」是「control panel」的用法，與本句語境不同。",
-        "control-mcq-11": "「控制情緒」是「control emotions」的用法，與本句語境不同。"
+        "control-mcq-14": "本句的「remote control」指「遙控器／遙控」。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-14"
     },
@@ -1716,11 +1604,9 @@ export default {
       "masked": "The buttons are on the ____.",
       "options": [
         "control-mcq-16",
-        "control-mcq-15",
-        "control-mcq-17",
-        "control-mcq-14",
-        "control-mcq-18",
-        "control-mcq-13"
+        "control-mcq-34",
+        "control-reviewed-597c077a25",
+        "control-mcq-20"
       ],
       "explanation": "本句的「control panel」指「控制面板」。",
       "sentenceIndex": 31,
@@ -1729,12 +1615,10 @@ export default {
         "control panel"
       ],
       "optionReasons": {
-        "control-mcq-16": "本句指「控制面板」。",
-        "control-mcq-15": "「操控裝置」是「controls」的用法，與本句語境不同。",
-        "control-mcq-17": "「品質控制」是「quality control」的用法，與本句語境不同。",
-        "control-mcq-14": "「遙控器／遙控」是「remote control」的用法，與本句語境不同。",
-        "control-mcq-18": "「交通管制」是「traffic control」的用法，與本句語境不同。",
-        "control-mcq-13": "「控制存取」是「control access」的用法，與本句語境不同。"
+        "control-mcq-16": "本句的「control panel」指「控制面板」。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-16"
     },
@@ -1746,11 +1630,9 @@ export default {
       "masked": "Use the ____ to adjust the temperature.",
       "options": [
         "control-mcq-16",
-        "control-mcq-15",
-        "control-mcq-17",
-        "control-mcq-14",
-        "control-mcq-18",
-        "control-mcq-13"
+        "control-mcq-20",
+        "control-reviewed-597c077a25",
+        "control-mcq-33"
       ],
       "explanation": "本句的「control panel」指「控制面板」。",
       "sentenceIndex": 32,
@@ -1759,12 +1641,10 @@ export default {
         "control panel"
       ],
       "optionReasons": {
-        "control-mcq-16": "本句指「控制面板」。",
-        "control-mcq-15": "「操控裝置」是「controls」的用法，與本句語境不同。",
-        "control-mcq-17": "「品質控制」是「quality control」的用法，與本句語境不同。",
-        "control-mcq-14": "「遙控器／遙控」是「remote control」的用法，與本句語境不同。",
-        "control-mcq-18": "「交通管制」是「traffic control」的用法，與本句語境不同。",
-        "control-mcq-13": "「控制存取」是「control access」的用法，與本句語境不同。"
+        "control-mcq-16": "本句的「control panel」指「控制面板」。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-16"
     },
@@ -1776,11 +1656,9 @@ export default {
       "masked": "The driver checked the ____.",
       "options": [
         "control-mcq-33",
-        "control-mcq-32",
+        "control-mcq-26",
         "control-mcq-34",
-        "control-mcq-31",
-        "control-mcq-30",
-        "control-mcq-29"
+        "control-mcq-28"
       ],
       "explanation": "本句的「controls」指「用來操作機器、車輛、遊戲或系統的按鈕、桿件或介面」。",
       "sentenceIndex": 33,
@@ -1789,12 +1667,10 @@ export default {
         "controls"
       ],
       "optionReasons": {
-        "control-mcq-33": "本句指「用來操作機器、車輛、遊戲或系統的按鈕、桿件或介面」。",
-        "control-mcq-32": "「無法控制的」是「uncontrollable」的用法，與本句語境不同。",
-        "control-mcq-34": "「實驗中用作比較基準的一組」是「36. control group — 對照組」的用法，與本句語境不同。",
-        "control-mcq-31": "「未受控制的」是「uncontrolled」的用法，與本句語境不同。",
-        "control-mcq-30": "「可控制的」是「controllable」的用法，與本句語境不同。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。"
+        "control-mcq-33": "本句的「controls」指「用來操作機器、車輛、遊戲或系統的按鈕、桿件或介面」。",
+        "control-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-33"
     },
@@ -1806,11 +1682,9 @@ export default {
       "masked": "The game has simple ____.",
       "options": [
         "control-mcq-33",
-        "control-mcq-32",
-        "control-mcq-34",
-        "control-mcq-31",
-        "control-mcq-30",
-        "control-mcq-29"
+        "control-mcq-13",
+        "control-mcq-24",
+        "control-mcq-10"
       ],
       "explanation": "本句的「controls」指「用來操作機器、車輛、遊戲或系統的按鈕、桿件或介面」。",
       "sentenceIndex": 34,
@@ -1819,12 +1693,10 @@ export default {
         "controls"
       ],
       "optionReasons": {
-        "control-mcq-33": "本句指「用來操作機器、車輛、遊戲或系統的按鈕、桿件或介面」。",
-        "control-mcq-32": "「無法控制的」是「uncontrollable」的用法，與本句語境不同。",
-        "control-mcq-34": "「實驗中用作比較基準的一組」是「36. control group — 對照組」的用法，與本句語境不同。",
-        "control-mcq-31": "「未受控制的」是「uncontrolled」的用法，與本句語境不同。",
-        "control-mcq-30": "「可控制的」是「controllable」的用法，與本句語境不同。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。"
+        "control-mcq-33": "本句的「controls」指「用來操作機器、車輛、遊戲或系統的按鈕、桿件或介面」。",
+        "control-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-33"
     },
@@ -1836,11 +1708,9 @@ export default {
       "masked": "The factory has strict ____.",
       "options": [
         "control-mcq-17",
-        "control-mcq-16",
-        "control-mcq-18",
-        "control-mcq-15",
-        "control-mcq-19",
-        "control-mcq-14"
+        "control-mcq-29",
+        "control-mcq-20",
+        "control-mcq-33"
       ],
       "explanation": "本句的「quality control」指「品質控制」。",
       "sentenceIndex": 35,
@@ -1849,12 +1719,10 @@ export default {
         "quality control"
       ],
       "optionReasons": {
-        "control-mcq-17": "本句指「品質控制」。",
-        "control-mcq-16": "「控制面板」是「control panel」的用法，與本句語境不同。",
-        "control-mcq-18": "「交通管制」是「traffic control」的用法，與本句語境不同。",
-        "control-mcq-15": "「操控裝置」是「controls」的用法，與本句語境不同。",
-        "control-mcq-19": "「航空交通管制」是「air traffic control」的用法，與本句語境不同。",
-        "control-mcq-14": "「遙控器／遙控」是「remote control」的用法，與本句語境不同。"
+        "control-mcq-17": "本句的「quality control」指「品質控制」。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-17"
     },
@@ -1866,11 +1734,9 @@ export default {
       "masked": "Every product goes through ____.",
       "options": [
         "control-mcq-17",
-        "control-mcq-16",
-        "control-mcq-18",
-        "control-mcq-15",
-        "control-mcq-19",
-        "control-mcq-14"
+        "control-mcq-29",
+        "control-mcq-20",
+        "control-reviewed-597c077a25"
       ],
       "explanation": "本句的「quality control」指「品質控制」。",
       "sentenceIndex": 36,
@@ -1879,12 +1745,10 @@ export default {
         "quality control"
       ],
       "optionReasons": {
-        "control-mcq-17": "本句指「品質控制」。",
-        "control-mcq-16": "「控制面板」是「control panel」的用法，與本句語境不同。",
-        "control-mcq-18": "「交通管制」是「traffic control」的用法，與本句語境不同。",
-        "control-mcq-15": "「操控裝置」是「controls」的用法，與本句語境不同。",
-        "control-mcq-19": "「航空交通管制」是「air traffic control」的用法，與本句語境不同。",
-        "control-mcq-14": "「遙控器／遙控」是「remote control」的用法，與本句語境不同。"
+        "control-mcq-17": "本句的「quality control」指「品質控制」。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-17"
     },
@@ -1896,11 +1760,9 @@ export default {
       "masked": "Police were responsible for ____.",
       "options": [
         "control-mcq-18",
-        "control-mcq-17",
-        "control-mcq-19",
-        "control-mcq-16",
-        "control-mcq-20",
-        "control-mcq-15"
+        "control-mcq-21",
+        "control-mcq-33",
+        "control-mcq-07"
       ],
       "explanation": "本句的「traffic control」指「交通管制」。",
       "sentenceIndex": 37,
@@ -1909,12 +1771,10 @@ export default {
         "traffic control"
       ],
       "optionReasons": {
-        "control-mcq-18": "本句指「交通管制」。",
-        "control-mcq-17": "「品質控制」是「quality control」的用法，與本句語境不同。",
-        "control-mcq-19": "「航空交通管制」是「air traffic control」的用法，與本句語境不同。",
-        "control-mcq-16": "「控制面板」是「control panel」的用法，與本句語境不同。",
-        "control-mcq-20": "「避孕」是「birth control」的用法，與本句語境不同。",
-        "control-mcq-15": "「操控裝置」是「controls」的用法，與本句語境不同。"
+        "control-mcq-18": "本句的「traffic control」指「交通管制」。",
+        "control-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-18"
     },
@@ -1926,11 +1786,9 @@ export default {
       "masked": "Air ____ manages aircraft movements.",
       "options": [
         "control-mcq-18",
-        "control-mcq-17",
-        "control-mcq-19",
-        "control-mcq-16",
+        "control-mcq-21",
         "control-mcq-20",
-        "control-mcq-15"
+        "control-reviewed-597c077a25"
       ],
       "explanation": "本句的「traffic control」指「交通管制」。",
       "sentenceIndex": 38,
@@ -1939,12 +1797,10 @@ export default {
         "traffic control"
       ],
       "optionReasons": {
-        "control-mcq-18": "本句指「交通管制」。",
-        "control-mcq-17": "「品質控制」是「quality control」的用法，與本句語境不同。",
-        "control-mcq-19": "「航空交通管制」是「air traffic control」的用法，與本句語境不同。",
-        "control-mcq-16": "「控制面板」是「control panel」的用法，與本句語境不同。",
-        "control-mcq-20": "「避孕」是「birth control」的用法，與本句語境不同。",
-        "control-mcq-15": "「操控裝置」是「controls」的用法，與本句語境不同。"
+        "control-mcq-18": "本句的「traffic control」指「交通管制」。",
+        "control-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-18"
     },
@@ -1956,11 +1812,9 @@ export default {
       "masked": "The pilot contacted ____.",
       "options": [
         "control-mcq-19",
-        "control-mcq-18",
-        "control-mcq-20",
-        "control-mcq-17",
-        "control-mcq-21",
-        "control-mcq-16"
+        "control-mcq-02",
+        "control-mcq-34",
+        "control-mcq-33"
       ],
       "explanation": "本句的「air traffic control」指「航空交通管制」。",
       "sentenceIndex": 39,
@@ -1969,12 +1823,10 @@ export default {
         "air traffic control"
       ],
       "optionReasons": {
-        "control-mcq-19": "本句指「航空交通管制」。",
-        "control-mcq-18": "「交通管制」是「traffic control」的用法，與本句語境不同。",
-        "control-mcq-20": "「避孕」是「birth control」的用法，與本句語境不同。",
-        "control-mcq-17": "「品質控制」是「quality control」的用法，與本句語境不同。",
-        "control-mcq-21": "「受控／對照實驗」是「controlled experiment」的用法，與本句語境不同。",
-        "control-mcq-16": "「控制面板」是「control panel」的用法，與本句語境不同。"
+        "control-mcq-19": "本句的「air traffic control」指「航空交通管制」。",
+        "control-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-19"
     },
@@ -1986,11 +1838,9 @@ export default {
       "masked": "____ manage aircraft movements.",
       "options": [
         "control-mcq-19",
-        "control-mcq-18",
-        "control-mcq-20",
-        "control-mcq-17",
-        "control-mcq-21",
-        "control-mcq-16"
+        "control-mcq-03",
+        "control-mcq-33",
+        "control-mcq-20"
       ],
       "explanation": "本句的「Air traffic controllers」指「航空交通管制」。",
       "sentenceIndex": 40,
@@ -1999,12 +1849,10 @@ export default {
         "Air traffic controllers"
       ],
       "optionReasons": {
-        "control-mcq-19": "本句指「航空交通管制」。",
-        "control-mcq-18": "「交通管制」是「traffic control」的用法，與本句語境不同。",
-        "control-mcq-20": "「避孕」是「birth control」的用法，與本句語境不同。",
-        "control-mcq-17": "「品質控制」是「quality control」的用法，與本句語境不同。",
-        "control-mcq-21": "「受控／對照實驗」是「controlled experiment」的用法，與本句語境不同。",
-        "control-mcq-16": "「控制面板」是「control panel」的用法，與本句語境不同。"
+        "control-mcq-19": "本句的「Air traffic controllers」指「航空交通管制」。",
+        "control-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-19"
     },
@@ -2016,11 +1864,9 @@ export default {
       "masked": "They discussed different methods of ____.",
       "options": [
         "control-mcq-20",
-        "control-mcq-19",
-        "control-mcq-21",
-        "control-mcq-18",
-        "control-mcq-22",
-        "control-mcq-17"
+        "control-mcq-07",
+        "control-mcq-24",
+        "control-mcq-25"
       ],
       "explanation": "本句的「birth control」指「避孕」。",
       "sentenceIndex": 41,
@@ -2029,12 +1875,10 @@ export default {
         "birth control"
       ],
       "optionReasons": {
-        "control-mcq-20": "本句指「避孕」。",
-        "control-mcq-19": "「航空交通管制」是「air traffic control」的用法，與本句語境不同。",
-        "control-mcq-21": "「受控／對照實驗」是「controlled experiment」的用法，與本句語境不同。",
-        "control-mcq-18": "「交通管制」是「traffic control」的用法，與本句語境不同。",
-        "control-mcq-22": "「對照組」是「control group」的用法，與本句語境不同。",
-        "control-mcq-17": "「品質控制」是「quality control」的用法，與本句語境不同。"
+        "control-mcq-20": "本句的「birth control」指「避孕」。",
+        "control-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-20"
     },
@@ -2046,11 +1890,9 @@ export default {
       "masked": "Access to ____ varies by place.",
       "options": [
         "control-mcq-20",
-        "control-mcq-19",
-        "control-mcq-21",
-        "control-mcq-18",
-        "control-mcq-22",
-        "control-mcq-17"
+        "control-mcq-11",
+        "control-reviewed-597c077a25",
+        "control-mcq-29"
       ],
       "explanation": "本句的「birth control」指「避孕」。",
       "sentenceIndex": 42,
@@ -2059,12 +1901,10 @@ export default {
         "birth control"
       ],
       "optionReasons": {
-        "control-mcq-20": "本句指「避孕」。",
-        "control-mcq-19": "「航空交通管制」是「air traffic control」的用法，與本句語境不同。",
-        "control-mcq-21": "「受控／對照實驗」是「controlled experiment」的用法，與本句語境不同。",
-        "control-mcq-18": "「交通管制」是「traffic control」的用法，與本句語境不同。",
-        "control-mcq-22": "「對照組」是「control group」的用法，與本句語境不同。",
-        "control-mcq-17": "「品質控制」是「quality control」的用法，與本句語境不同。"
+        "control-mcq-20": "本句的「birth control」指「避孕」。",
+        "control-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-20"
     },
@@ -2076,11 +1916,9 @@ export default {
       "masked": "Scientists carried out a ____.",
       "options": [
         "control-mcq-21",
-        "control-mcq-20",
-        "control-mcq-22",
-        "control-mcq-19",
-        "control-mcq-23",
-        "control-mcq-18"
+        "control-mcq-18",
+        "control-mcq-10",
+        "control-mcq-33"
       ],
       "explanation": "本句的「controlled experiment」指「受控／對照實驗」。",
       "sentenceIndex": 43,
@@ -2089,12 +1927,10 @@ export default {
         "controlled experiment"
       ],
       "optionReasons": {
-        "control-mcq-21": "本句指「受控／對照實驗」。",
-        "control-mcq-20": "「避孕」是「birth control」的用法，與本句語境不同。",
-        "control-mcq-22": "「對照組」是「control group」的用法，與本句語境不同。",
-        "control-mcq-19": "「航空交通管制」是「air traffic control」的用法，與本句語境不同。",
-        "control-mcq-23": "「受控的／克制的」是「controlled」的用法，與本句語境不同。",
-        "control-mcq-18": "「交通管制」是「traffic control」的用法，與本句語境不同。"
+        "control-mcq-21": "本句的「controlled experiment」指「受控／對照實驗」。",
+        "control-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-21"
     },
@@ -2106,11 +1942,9 @@ export default {
       "masked": "A ____ changes one factor at a time.",
       "options": [
         "control-mcq-21",
-        "control-mcq-20",
-        "control-mcq-22",
         "control-mcq-19",
-        "control-mcq-23",
-        "control-mcq-18"
+        "control-mcq-20",
+        "control-mcq-29"
       ],
       "explanation": "本句的「controlled experiment」指「受控／對照實驗」。",
       "sentenceIndex": 44,
@@ -2119,74 +1953,68 @@ export default {
         "controlled experiment"
       ],
       "optionReasons": {
-        "control-mcq-21": "本句指「受控／對照實驗」。",
-        "control-mcq-20": "「避孕」是「birth control」的用法，與本句語境不同。",
-        "control-mcq-22": "「對照組」是「control group」的用法，與本句語境不同。",
-        "control-mcq-19": "「航空交通管制」是「air traffic control」的用法，與本句語境不同。",
-        "control-mcq-23": "「受控的／克制的」是「controlled」的用法，與本句語境不同。",
-        "control-mcq-18": "「交通管制」是「traffic control」的用法，與本句語境不同。"
+        "control-mcq-21": "本句的「controlled experiment」指「受控／對照實驗」。",
+        "control-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-21"
     },
     {
       "id": "control-23-0",
-      "sense": "control-mcq-21",
+      "sense": "control-reviewed-597c077a25",
       "en": "The plants were grown in a controlled environment.",
       "zh": "植物在受控環境中生長。",
       "masked": "The plants were grown in a ____.",
       "options": [
-        "control-mcq-21",
+        "control-reviewed-597c077a25",
+        "control-mcq-26",
         "control-mcq-20",
-        "control-mcq-22",
-        "control-mcq-19",
-        "control-mcq-23",
-        "control-mcq-18"
+        "control-mcq-29"
       ],
-      "explanation": "本句的「controlled environment」指「受控／對照實驗」。",
+      "explanation": "對照完整句子：「植物在受控環境中生長。」。這裡的「controlled environment」表示「溫度、光線、濕度等條件受到刻意調節的環境」。",
       "sentenceIndex": 45,
       "sourcePractice": 1,
       "targets": [
         "controlled environment"
       ],
       "optionReasons": {
-        "control-mcq-21": "本句指「受控／對照實驗」。",
-        "control-mcq-20": "「避孕」是「birth control」的用法，與本句語境不同。",
-        "control-mcq-22": "「對照組」是「control group」的用法，與本句語境不同。",
-        "control-mcq-19": "「航空交通管制」是「air traffic control」的用法，與本句語境不同。",
-        "control-mcq-23": "「受控的／克制的」是「controlled」的用法，與本句語境不同。",
-        "control-mcq-18": "「交通管制」是「traffic control」的用法，與本句語境不同。"
+        "control-reviewed-597c077a25": "對照完整句子：「植物在受控環境中生長。」。這裡的「controlled environment」表示「溫度、光線、濕度等條件受到刻意調節的環境」。",
+        "control-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "control-mcq-21"
+      "correctOption": "control-reviewed-597c077a25",
+      "previousCorrectOption": "control-mcq-21",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "control-23-1",
-      "sense": "control-mcq-21",
+      "sense": "control-reviewed-597c077a25",
       "en": "Temperature is kept constant in a controlled environment.",
       "zh": "在受控環境中，溫度保持穩定。",
       "masked": "Temperature is kept constant in a ____.",
       "options": [
-        "control-mcq-21",
-        "control-mcq-20",
-        "control-mcq-22",
+        "control-reviewed-597c077a25",
         "control-mcq-19",
-        "control-mcq-23",
-        "control-mcq-18"
+        "control-mcq-03",
+        "control-mcq-34"
       ],
-      "explanation": "本句的「controlled environment」指「受控／對照實驗」。",
+      "explanation": "對照完整句子：「在受控環境中，溫度保持穩定。」。這裡的「controlled environment」表示「溫度、光線、濕度等條件受到刻意調節的環境」。",
       "sentenceIndex": 46,
       "sourcePractice": 2,
       "targets": [
         "controlled environment"
       ],
       "optionReasons": {
-        "control-mcq-21": "本句指「受控／對照實驗」。",
-        "control-mcq-20": "「避孕」是「birth control」的用法，與本句語境不同。",
-        "control-mcq-22": "「對照組」是「control group」的用法，與本句語境不同。",
-        "control-mcq-19": "「航空交通管制」是「air traffic control」的用法，與本句語境不同。",
-        "control-mcq-23": "「受控的／克制的」是「controlled」的用法，與本句語境不同。",
-        "control-mcq-18": "「交通管制」是「traffic control」的用法，與本句語境不同。"
+        "control-reviewed-597c077a25": "對照完整句子：「在受控環境中，溫度保持穩定。」。這裡的「controlled environment」表示「溫度、光線、濕度等條件受到刻意調節的環境」。",
+        "control-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "control-mcq-21"
+      "correctOption": "control-reviewed-597c077a25",
+      "previousCorrectOption": "control-mcq-21",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "control-24-0",
@@ -2196,11 +2024,9 @@ export default {
       "masked": "She spoke in a calm, ____.",
       "options": [
         "control-mcq-23",
-        "control-mcq-22",
-        "control-mcq-24",
-        "control-mcq-21",
-        "control-mcq-25",
-        "control-mcq-20"
+        "control-mcq-20",
+        "control-mcq-29",
+        "control-mcq-34"
       ],
       "explanation": "本句的「controlled voice」指「受控的／克制的」。",
       "sentenceIndex": 47,
@@ -2209,12 +2035,10 @@ export default {
         "controlled voice"
       ],
       "optionReasons": {
-        "control-mcq-23": "本句指「受控的／克制的」。",
-        "control-mcq-22": "「對照組」是「control group」的用法，與本句語境不同。",
-        "control-mcq-24": "「受管制物質」是「controlled substance」的用法，與本句語境不同。",
-        "control-mcq-21": "「受控／對照實驗」是「controlled experiment」的用法，與本句語境不同。",
-        "control-mcq-25": "「控制欲強的」是「controlling」的用法，與本句語境不同。",
-        "control-mcq-20": "「避孕」是「birth control」的用法，與本句語境不同。"
+        "control-mcq-23": "本句的「controlled voice」指「受控的／克制的」。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-23"
     },
@@ -2226,11 +2050,9 @@ export default {
       "masked": "His response was carefully ____.",
       "options": [
         "control-mcq-23",
-        "control-mcq-22",
-        "control-mcq-24",
-        "control-mcq-21",
-        "control-mcq-25",
-        "control-mcq-20"
+        "control-mcq-20",
+        "control-mcq-34",
+        "control-mcq-29"
       ],
       "explanation": "本句的「controlled」指「受控的／克制的」。",
       "sentenceIndex": 48,
@@ -2239,12 +2061,10 @@ export default {
         "controlled"
       ],
       "optionReasons": {
-        "control-mcq-23": "本句指「受控的／克制的」。",
-        "control-mcq-22": "「對照組」是「control group」的用法，與本句語境不同。",
-        "control-mcq-24": "「受管制物質」是「controlled substance」的用法，與本句語境不同。",
-        "control-mcq-21": "「受控／對照實驗」是「controlled experiment」的用法，與本句語境不同。",
-        "control-mcq-25": "「控制欲強的」是「controlling」的用法，與本句語境不同。",
-        "control-mcq-20": "「避孕」是「birth control」的用法，與本句語境不同。"
+        "control-mcq-23": "本句的「controlled」指「受控的／克制的」。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-23"
     },
@@ -2256,11 +2076,9 @@ export default {
       "masked": "Perform the exercise with slow, ____.",
       "options": [
         "control-mcq-23",
-        "control-mcq-22",
-        "control-mcq-24",
-        "control-mcq-21",
-        "control-mcq-25",
-        "control-mcq-20"
+        "control-mcq-34",
+        "control-mcq-33",
+        "control-mcq-29"
       ],
       "explanation": "本句的「controlled movements」指「受控的／克制的」。",
       "sentenceIndex": 49,
@@ -2269,12 +2087,10 @@ export default {
         "controlled movements"
       ],
       "optionReasons": {
-        "control-mcq-23": "本句指「受控的／克制的」。",
-        "control-mcq-22": "「對照組」是「control group」的用法，與本句語境不同。",
-        "control-mcq-24": "「受管制物質」是「controlled substance」的用法，與本句語境不同。",
-        "control-mcq-21": "「受控／對照實驗」是「controlled experiment」的用法，與本句語境不同。",
-        "control-mcq-25": "「控制欲強的」是「controlling」的用法，與本句語境不同。",
-        "control-mcq-20": "「避孕」是「birth control」的用法，與本句語境不同。"
+        "control-mcq-23": "本句的「controlled movements」指「受控的／克制的」。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-23"
     },
@@ -2286,10 +2102,8 @@ export default {
       "masked": "Her movements were smooth and ____.",
       "options": [
         "control-mcq-23",
-        "control-mcq-22",
-        "control-mcq-24",
-        "control-mcq-21",
-        "control-mcq-25",
+        "control-mcq-29",
+        "control-mcq-34",
         "control-mcq-20"
       ],
       "explanation": "本句的「controlled」指「受控的／克制的」。",
@@ -2299,12 +2113,10 @@ export default {
         "controlled"
       ],
       "optionReasons": {
-        "control-mcq-23": "本句指「受控的／克制的」。",
-        "control-mcq-22": "「對照組」是「control group」的用法，與本句語境不同。",
-        "control-mcq-24": "「受管制物質」是「controlled substance」的用法，與本句語境不同。",
-        "control-mcq-21": "「受控／對照實驗」是「controlled experiment」的用法，與本句語境不同。",
-        "control-mcq-25": "「控制欲強的」是「controlling」的用法，與本句語境不同。",
-        "control-mcq-20": "「避孕」是「birth control」的用法，與本句語境不同。"
+        "control-mcq-23": "本句的「controlled」指「受控的／克制的」。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-23"
     },
@@ -2316,11 +2128,9 @@ export default {
       "masked": "The medicine is classified as a ____.",
       "options": [
         "control-mcq-24",
-        "control-mcq-23",
-        "control-mcq-25",
-        "control-mcq-22",
-        "control-mcq-26",
-        "control-mcq-21"
+        "control-mcq-20",
+        "control-mcq-07",
+        "control-mcq-33"
       ],
       "explanation": "本句的「controlled substance」指「受管制物質」。",
       "sentenceIndex": 51,
@@ -2329,12 +2139,10 @@ export default {
         "controlled substance"
       ],
       "optionReasons": {
-        "control-mcq-24": "本句指「受管制物質」。",
-        "control-mcq-23": "「受控的／克制的」是「controlled」的用法，與本句語境不同。",
-        "control-mcq-25": "「控制欲強的」是「controlling」的用法，與本句語境不同。",
-        "control-mcq-22": "「對照組」是「control group」的用法，與本句語境不同。",
-        "control-mcq-26": "「控股權」是「controlling interest」的用法，與本句語境不同。",
-        "control-mcq-21": "「受控／對照實驗」是「controlled experiment」的用法，與本句語境不同。"
+        "control-mcq-24": "本句的「controlled substance」指「受管制物質」。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-24"
     },
@@ -2346,11 +2154,9 @@ export default {
       "masked": "Strict rules govern the storage of ____.",
       "options": [
         "control-mcq-24",
-        "control-mcq-23",
-        "control-mcq-25",
-        "control-mcq-22",
-        "control-mcq-26",
-        "control-mcq-21"
+        "control-mcq-34",
+        "control-mcq-04",
+        "control-mcq-20"
       ],
       "explanation": "本句的「controlled substances」指「受管制物質」。",
       "sentenceIndex": 52,
@@ -2359,12 +2165,10 @@ export default {
         "controlled substances"
       ],
       "optionReasons": {
-        "control-mcq-24": "本句指「受管制物質」。",
-        "control-mcq-23": "「受控的／克制的」是「controlled」的用法，與本句語境不同。",
-        "control-mcq-25": "「控制欲強的」是「controlling」的用法，與本句語境不同。",
-        "control-mcq-22": "「對照組」是「control group」的用法，與本句語境不同。",
-        "control-mcq-26": "「控股權」是「controlling interest」的用法，與本句語境不同。",
-        "control-mcq-21": "「受控／對照實驗」是「controlled experiment」的用法，與本句語境不同。"
+        "control-mcq-24": "本句的「controlled substances」指「受管制物質」。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-24"
     },
@@ -2376,11 +2180,9 @@ export default {
       "masked": "His behaviour became increasingly ____.",
       "options": [
         "control-mcq-25",
-        "control-mcq-24",
-        "control-mcq-26",
-        "control-mcq-23",
-        "control-mcq-27",
-        "control-mcq-22"
+        "control-mcq-29",
+        "control-reviewed-597c077a25",
+        "control-mcq-34"
       ],
       "explanation": "本句的「controlling」指「控制欲強的」。",
       "sentenceIndex": 53,
@@ -2389,12 +2191,10 @@ export default {
         "controlling"
       ],
       "optionReasons": {
-        "control-mcq-25": "本句指「控制欲強的」。",
-        "control-mcq-24": "「受管制物質」是「controlled substance」的用法，與本句語境不同。",
-        "control-mcq-26": "「控股權」是「controlling interest」的用法，與本句語境不同。",
-        "control-mcq-23": "「受控的／克制的」是「controlled」的用法，與本句語境不同。",
-        "control-mcq-27": "「控制器」是「controller (device)」的用法，與本句語境不同。",
-        "control-mcq-22": "「對照組」是「control group」的用法，與本句語境不同。"
+        "control-mcq-25": "本句的「controlling」指「控制欲強的」。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-25"
     },
@@ -2406,11 +2206,9 @@ export default {
       "masked": "A ____ tries to make decisions for everyone else.",
       "options": [
         "control-mcq-25",
-        "control-mcq-24",
-        "control-mcq-26",
-        "control-mcq-23",
-        "control-mcq-27",
-        "control-mcq-22"
+        "control-mcq-34",
+        "control-mcq-20",
+        "control-mcq-29"
       ],
       "explanation": "本句的「controlling person」指「控制欲強的」。",
       "sentenceIndex": 54,
@@ -2419,12 +2217,10 @@ export default {
         "controlling person"
       ],
       "optionReasons": {
-        "control-mcq-25": "本句指「控制欲強的」。",
-        "control-mcq-24": "「受管制物質」是「controlled substance」的用法，與本句語境不同。",
-        "control-mcq-26": "「控股權」是「controlling interest」的用法，與本句語境不同。",
-        "control-mcq-23": "「受控的／克制的」是「controlled」的用法，與本句語境不同。",
-        "control-mcq-27": "「控制器」是「controller (device)」的用法，與本句語境不同。",
-        "control-mcq-22": "「對照組」是「control group」的用法，與本句語境不同。"
+        "control-mcq-25": "本句的「controlling person」指「控制欲強的」。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-25"
     },
@@ -2436,11 +2232,9 @@ export default {
       "masked": "The company acquired a ____ in the business.",
       "options": [
         "control-mcq-26",
-        "control-mcq-25",
-        "control-mcq-27",
-        "control-mcq-24",
-        "control-mcq-28",
-        "control-mcq-23"
+        "control-reviewed-597c077a25",
+        "control-mcq-18",
+        "control-mcq-33"
       ],
       "explanation": "本句的「controlling interest」指「控股權」。",
       "sentenceIndex": 55,
@@ -2449,12 +2243,10 @@ export default {
         "controlling interest"
       ],
       "optionReasons": {
-        "control-mcq-26": "本句指「控股權」。",
-        "control-mcq-25": "「控制欲強的」是「controlling」的用法，與本句語境不同。",
-        "control-mcq-27": "「控制器」是「controller (device)」的用法，與本句語境不同。",
-        "control-mcq-24": "「受管制物質」是「controlled substance」的用法，與本句語境不同。",
-        "control-mcq-28": "「管制員」是「controller (person)」的用法，與本句語境不同。",
-        "control-mcq-23": "「受控的／克制的」是「controlled」的用法，與本句語境不同。"
+        "control-mcq-26": "本句的「controlling interest」指「控股權」。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-26"
     },
@@ -2466,11 +2258,9 @@ export default {
       "masked": "A ____ allows an investor to influence major decisions.",
       "options": [
         "control-mcq-26",
-        "control-mcq-25",
-        "control-mcq-27",
-        "control-mcq-24",
-        "control-mcq-28",
-        "control-mcq-23"
+        "control-mcq-33",
+        "control-mcq-18",
+        "control-mcq-29"
       ],
       "explanation": "本句的「controlling interest」指「控股權」。",
       "sentenceIndex": 56,
@@ -2479,12 +2269,10 @@ export default {
         "controlling interest"
       ],
       "optionReasons": {
-        "control-mcq-26": "本句指「控股權」。",
-        "control-mcq-25": "「控制欲強的」是「controlling」的用法，與本句語境不同。",
-        "control-mcq-27": "「控制器」是「controller (device)」的用法，與本句語境不同。",
-        "control-mcq-24": "「受管制物質」是「controlled substance」的用法，與本句語境不同。",
-        "control-mcq-28": "「管制員」是「controller (person)」的用法，與本句語境不同。",
-        "control-mcq-23": "「受控的／克制的」是「controlled」的用法，與本句語境不同。"
+        "control-mcq-26": "本句的「controlling interest」指「控股權」。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-26"
     },
@@ -2496,11 +2284,9 @@ export default {
       "masked": "The game ____ is wireless.",
       "options": [
         "control-mcq-27",
-        "control-mcq-26",
-        "control-mcq-28",
-        "control-mcq-25",
+        "control-mcq-20",
         "control-mcq-29",
-        "control-mcq-24"
+        "control-mcq-34"
       ],
       "explanation": "本句的「controller」指「控制器」。",
       "sentenceIndex": 57,
@@ -2509,12 +2295,10 @@ export default {
         "controller"
       ],
       "optionReasons": {
-        "control-mcq-27": "本句指「控制器」。",
-        "control-mcq-26": "「控股權」是「controlling interest」的用法，與本句語境不同。",
-        "control-mcq-28": "「管制員」是「controller (person)」的用法，與本句語境不同。",
-        "control-mcq-25": "「控制欲強的」是「controlling」的用法，與本句語境不同。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。",
-        "control-mcq-24": "「受管制物質」是「controlled substance」的用法，與本句語境不同。"
+        "control-mcq-27": "本句的「controller」指「控制器」。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-27"
     },
@@ -2526,11 +2310,9 @@ export default {
       "masked": "The temperature ____ is broken.",
       "options": [
         "control-mcq-27",
-        "control-mcq-26",
-        "control-mcq-28",
-        "control-mcq-25",
         "control-mcq-29",
-        "control-mcq-24"
+        "control-mcq-34",
+        "control-mcq-20"
       ],
       "explanation": "本句的「controller」指「控制器」。",
       "sentenceIndex": 58,
@@ -2539,12 +2321,10 @@ export default {
         "controller"
       ],
       "optionReasons": {
-        "control-mcq-27": "本句指「控制器」。",
-        "control-mcq-26": "「控股權」是「controlling interest」的用法，與本句語境不同。",
-        "control-mcq-28": "「管制員」是「controller (person)」的用法，與本句語境不同。",
-        "control-mcq-25": "「控制欲強的」是「controlling」的用法，與本句語境不同。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。",
-        "control-mcq-24": "「受管制物質」是「controlled substance」的用法，與本句語境不同。"
+        "control-mcq-27": "本句的「controller」指「控制器」。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-27"
     },
@@ -2556,11 +2336,9 @@ export default {
       "masked": "The air traffic ____ gave the pilot instructions.",
       "options": [
         "control-mcq-28",
-        "control-mcq-27",
-        "control-mcq-29",
-        "control-mcq-26",
-        "control-mcq-30",
-        "control-mcq-25"
+        "control-mcq-03",
+        "control-mcq-20",
+        "control-mcq-33"
       ],
       "explanation": "本句的「controller」指「管制員」。",
       "sentenceIndex": 59,
@@ -2569,12 +2347,10 @@ export default {
         "controller"
       ],
       "optionReasons": {
-        "control-mcq-28": "本句指「管制員」。",
-        "control-mcq-27": "「控制器」是「controller (device)」的用法，與本句語境不同。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。",
-        "control-mcq-26": "「控股權」是「controlling interest」的用法，與本句語境不同。",
-        "control-mcq-30": "「可控制的」是「controllable」的用法，與本句語境不同。",
-        "control-mcq-25": "「控制欲強的」是「controlling」的用法，與本句語境不同。"
+        "control-mcq-28": "本句的「controller」指「管制員」。",
+        "control-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-28"
     },
@@ -2586,11 +2362,9 @@ export default {
       "masked": "The ____ monitored the system.",
       "options": [
         "control-mcq-28",
-        "control-mcq-27",
-        "control-mcq-29",
-        "control-mcq-26",
-        "control-mcq-30",
-        "control-mcq-25"
+        "control-mcq-04",
+        "control-reviewed-597c077a25",
+        "control-mcq-33"
       ],
       "explanation": "本句的「controller」指「管制員」。",
       "sentenceIndex": 60,
@@ -2599,12 +2373,10 @@ export default {
         "controller"
       ],
       "optionReasons": {
-        "control-mcq-28": "本句指「管制員」。",
-        "control-mcq-27": "「控制器」是「controller (device)」的用法，與本句語境不同。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。",
-        "control-mcq-26": "「控股權」是「controlling interest」的用法，與本句語境不同。",
-        "control-mcq-30": "「可控制的」是「controllable」的用法，與本句語境不同。",
-        "control-mcq-25": "「控制欲強的」是「controlling」的用法，與本句語境不同。"
+        "control-mcq-28": "本句的「controller」指「管制員」。",
+        "control-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-28"
     },
@@ -2616,11 +2388,9 @@ export default {
       "masked": "The company hired a new financial ____.",
       "options": [
         "control-mcq-29",
-        "control-mcq-28",
-        "control-mcq-30",
-        "control-mcq-27",
-        "control-mcq-31",
-        "control-mcq-26"
+        "control-mcq-13",
+        "control-reviewed-597c077a25",
+        "control-mcq-33"
       ],
       "explanation": "本句的「controller」指「財務主管」。",
       "sentenceIndex": 61,
@@ -2629,12 +2399,10 @@ export default {
         "controller"
       ],
       "optionReasons": {
-        "control-mcq-29": "本句指「財務主管」。",
-        "control-mcq-28": "「管制員」是「controller (person)」的用法，與本句語境不同。",
-        "control-mcq-30": "「可控制的」是「controllable」的用法，與本句語境不同。",
-        "control-mcq-27": "「控制器」是「controller (device)」的用法，與本句語境不同。",
-        "control-mcq-31": "「未受控制的」是「uncontrolled」的用法，與本句語境不同。",
-        "control-mcq-26": "「控股權」是「controlling interest」的用法，與本句語境不同。"
+        "control-mcq-29": "本句的「controller」指「財務主管」。",
+        "control-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-29"
     },
@@ -2646,11 +2414,9 @@ export default {
       "masked": "The ____ oversees accounting and financial reporting.",
       "options": [
         "control-mcq-29",
-        "control-mcq-28",
-        "control-mcq-30",
-        "control-mcq-27",
         "control-mcq-31",
-        "control-mcq-26"
+        "control-reviewed-597c077a25",
+        "control-mcq-33"
       ],
       "explanation": "本句的「controller」指「財務主管」。",
       "sentenceIndex": 62,
@@ -2659,12 +2425,10 @@ export default {
         "controller"
       ],
       "optionReasons": {
-        "control-mcq-29": "本句指「財務主管」。",
-        "control-mcq-28": "「管制員」是「controller (person)」的用法，與本句語境不同。",
-        "control-mcq-30": "「可控制的」是「controllable」的用法，與本句語境不同。",
-        "control-mcq-27": "「控制器」是「controller (device)」的用法，與本句語境不同。",
-        "control-mcq-31": "「未受控制的」是「uncontrolled」的用法，與本句語境不同。",
-        "control-mcq-26": "「控股權」是「controlling interest」的用法，與本句語境不同。"
+        "control-mcq-29": "本句的「controller」指「財務主管」。",
+        "control-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-29"
     },
@@ -2676,11 +2440,9 @@ export default {
       "masked": "Some risk factors are ____.",
       "options": [
         "control-mcq-30",
-        "control-mcq-29",
-        "control-mcq-31",
-        "control-mcq-28",
-        "control-mcq-32",
-        "control-mcq-27"
+        "control-mcq-33",
+        "control-mcq-20",
+        "control-reviewed-597c077a25"
       ],
       "explanation": "本句的「controllable」指「可控制的」。",
       "sentenceIndex": 63,
@@ -2689,12 +2451,10 @@ export default {
         "controllable"
       ],
       "optionReasons": {
-        "control-mcq-30": "本句指「可控制的」。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。",
-        "control-mcq-31": "「未受控制的」是「uncontrolled」的用法，與本句語境不同。",
-        "control-mcq-28": "「管制員」是「controller (person)」的用法，與本句語境不同。",
-        "control-mcq-32": "「無法控制的」是「uncontrollable」的用法，與本句語境不同。",
-        "control-mcq-27": "「控制器」是「controller (device)」的用法，與本句語境不同。"
+        "control-mcq-30": "本句的「controllable」指「可控制的」。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-30"
     },
@@ -2706,11 +2466,9 @@ export default {
       "masked": "The problem is difficult but ____.",
       "options": [
         "control-mcq-30",
-        "control-mcq-29",
-        "control-mcq-31",
-        "control-mcq-28",
-        "control-mcq-32",
-        "control-mcq-27"
+        "control-mcq-33",
+        "control-reviewed-597c077a25",
+        "control-mcq-34"
       ],
       "explanation": "本句的「controllable」指「可控制的」。",
       "sentenceIndex": 64,
@@ -2719,12 +2477,10 @@ export default {
         "controllable"
       ],
       "optionReasons": {
-        "control-mcq-30": "本句指「可控制的」。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。",
-        "control-mcq-31": "「未受控制的」是「uncontrolled」的用法，與本句語境不同。",
-        "control-mcq-28": "「管制員」是「controller (person)」的用法，與本句語境不同。",
-        "control-mcq-32": "「無法控制的」是「uncontrollable」的用法，與本句語境不同。",
-        "control-mcq-27": "「控制器」是「controller (device)」的用法，與本句語境不同。"
+        "control-mcq-30": "本句的「controllable」指「可控制的」。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-30"
     },
@@ -2736,11 +2492,9 @@ export default {
       "masked": "The fire spread in an ____ way.",
       "options": [
         "control-mcq-31",
-        "control-mcq-30",
-        "control-mcq-32",
-        "control-mcq-29",
+        "control-mcq-34",
         "control-mcq-33",
-        "control-mcq-28"
+        "control-mcq-20"
       ],
       "explanation": "本句的「uncontrolled」指「未受控制的」。",
       "sentenceIndex": 65,
@@ -2749,12 +2503,10 @@ export default {
         "uncontrolled"
       ],
       "optionReasons": {
-        "control-mcq-31": "本句指「未受控制的」。",
-        "control-mcq-30": "「可控制的」是「controllable」的用法，與本句語境不同。",
-        "control-mcq-32": "「無法控制的」是「uncontrollable」的用法，與本句語境不同。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。",
-        "control-mcq-33": "「用來操作機器、車輛、遊戲或系統的按鈕、桿件或介面」是「17. controls（控制裝置；操縱裝置） — 控制鍵；操控裝置」的用法，與本句語境不同。",
-        "control-mcq-28": "「管制員」是「controller (person)」的用法，與本句語境不同。"
+        "control-mcq-31": "本句的「uncontrolled」指「未受控制的」。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-31"
     },
@@ -2766,11 +2518,9 @@ export default {
       "masked": "____ caused financial problems.",
       "options": [
         "control-mcq-31",
-        "control-mcq-30",
-        "control-mcq-32",
-        "control-mcq-29",
-        "control-mcq-33",
-        "control-mcq-28"
+        "control-mcq-20",
+        "control-mcq-34",
+        "control-mcq-29"
       ],
       "explanation": "本句的「Uncontrolled spending」指「未受控制的」。",
       "sentenceIndex": 66,
@@ -2779,12 +2529,10 @@ export default {
         "Uncontrolled spending"
       ],
       "optionReasons": {
-        "control-mcq-31": "本句指「未受控制的」。",
-        "control-mcq-30": "「可控制的」是「controllable」的用法，與本句語境不同。",
-        "control-mcq-32": "「無法控制的」是「uncontrollable」的用法，與本句語境不同。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。",
-        "control-mcq-33": "「用來操作機器、車輛、遊戲或系統的按鈕、桿件或介面」是「17. controls（控制裝置；操縱裝置） — 控制鍵；操控裝置」的用法，與本句語境不同。",
-        "control-mcq-28": "「管制員」是「controller (person)」的用法，與本句語境不同。"
+        "control-mcq-31": "本句的「Uncontrolled spending」指「未受控制的」。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-31"
     },
@@ -2796,11 +2544,9 @@ export default {
       "masked": "She burst into ____.",
       "options": [
         "control-mcq-32",
-        "control-mcq-31",
         "control-mcq-33",
-        "control-mcq-30",
-        "control-mcq-34",
-        "control-mcq-29"
+        "control-reviewed-597c077a25",
+        "control-mcq-20"
       ],
       "explanation": "本句的「uncontrollable laughter」指「無法控制的」。",
       "sentenceIndex": 67,
@@ -2809,12 +2555,10 @@ export default {
         "uncontrollable laughter"
       ],
       "optionReasons": {
-        "control-mcq-32": "本句指「無法控制的」。",
-        "control-mcq-31": "「未受控制的」是「uncontrolled」的用法，與本句語境不同。",
-        "control-mcq-33": "「用來操作機器、車輛、遊戲或系統的按鈕、桿件或介面」是「17. controls（控制裝置；操縱裝置） — 控制鍵；操控裝置」的用法，與本句語境不同。",
-        "control-mcq-30": "「可控制的」是「controllable」的用法，與本句語境不同。",
-        "control-mcq-34": "「實驗中用作比較基準的一組」是「36. control group — 對照組」的用法，與本句語境不同。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。"
+        "control-mcq-32": "本句的「uncontrollable laughter」指「無法控制的」。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-32"
     },
@@ -2826,10 +2570,8 @@ export default {
       "masked": "He felt an ____ to leave.",
       "options": [
         "control-mcq-32",
-        "control-mcq-31",
-        "control-mcq-33",
-        "control-mcq-30",
         "control-mcq-34",
+        "control-reviewed-597c077a25",
         "control-mcq-29"
       ],
       "explanation": "本句的「uncontrollable urge」指「無法控制的」。",
@@ -2839,12 +2581,10 @@ export default {
         "uncontrollable urge"
       ],
       "optionReasons": {
-        "control-mcq-32": "本句指「無法控制的」。",
-        "control-mcq-31": "「未受控制的」是「uncontrolled」的用法，與本句語境不同。",
-        "control-mcq-33": "「用來操作機器、車輛、遊戲或系統的按鈕、桿件或介面」是「17. controls（控制裝置；操縱裝置） — 控制鍵；操控裝置」的用法，與本句語境不同。",
-        "control-mcq-30": "「可控制的」是「controllable」的用法，與本句語境不同。",
-        "control-mcq-34": "「實驗中用作比較基準的一組」是「36. control group — 對照組」的用法，與本句語境不同。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。"
+        "control-mcq-32": "本句的「uncontrollable urge」指「無法控制的」。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-32"
     },
@@ -2856,11 +2596,9 @@ export default {
       "masked": "The joke caused ____.",
       "options": [
         "control-mcq-32",
-        "control-mcq-31",
         "control-mcq-33",
-        "control-mcq-30",
-        "control-mcq-34",
-        "control-mcq-29"
+        "control-mcq-29",
+        "control-reviewed-597c077a25"
       ],
       "explanation": "本句的「uncontrollable laughter」指「無法控制的」。",
       "sentenceIndex": 69,
@@ -2869,12 +2607,10 @@ export default {
         "uncontrollable laughter"
       ],
       "optionReasons": {
-        "control-mcq-32": "本句指「無法控制的」。",
-        "control-mcq-31": "「未受控制的」是「uncontrolled」的用法，與本句語境不同。",
-        "control-mcq-33": "「用來操作機器、車輛、遊戲或系統的按鈕、桿件或介面」是「17. controls（控制裝置；操縱裝置） — 控制鍵；操控裝置」的用法，與本句語境不同。",
-        "control-mcq-30": "「可控制的」是「controllable」的用法，與本句語境不同。",
-        "control-mcq-34": "「實驗中用作比較基準的一組」是「36. control group — 對照組」的用法，與本句語境不同。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。"
+        "control-mcq-32": "本句的「uncontrollable laughter」指「無法控制的」。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-32"
     },
@@ -2886,9 +2622,7 @@ export default {
       "masked": "She broke into ____.",
       "options": [
         "control-mcq-32",
-        "control-mcq-31",
-        "control-mcq-33",
-        "control-mcq-30",
+        "control-reviewed-597c077a25",
         "control-mcq-34",
         "control-mcq-29"
       ],
@@ -2899,12 +2633,10 @@ export default {
         "uncontrollable tears"
       ],
       "optionReasons": {
-        "control-mcq-32": "本句指「無法控制的」。",
-        "control-mcq-31": "「未受控制的」是「uncontrolled」的用法，與本句語境不同。",
-        "control-mcq-33": "「用來操作機器、車輛、遊戲或系統的按鈕、桿件或介面」是「17. controls（控制裝置；操縱裝置） — 控制鍵；操控裝置」的用法，與本句語境不同。",
-        "control-mcq-30": "「可控制的」是「controllable」的用法，與本句語境不同。",
-        "control-mcq-34": "「實驗中用作比較基準的一組」是「36. control group — 對照組」的用法，與本句語境不同。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。"
+        "control-mcq-32": "本句的「uncontrollable tears」指「無法控制的」。",
+        "control-reviewed-597c077a25": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-32"
     },
@@ -2916,11 +2648,9 @@ export default {
       "masked": "The researchers compared the treatment group with a ____.",
       "options": [
         "control-mcq-34",
-        "control-mcq-33",
-        "control-mcq-32",
-        "control-mcq-31",
-        "control-mcq-30",
-        "control-mcq-29"
+        "control-mcq-16",
+        "control-mcq-20",
+        "control-mcq-33"
       ],
       "explanation": "本句的「control group」指「實驗中用作比較基準的一組」。",
       "sentenceIndex": 71,
@@ -2929,12 +2659,10 @@ export default {
         "control group"
       ],
       "optionReasons": {
-        "control-mcq-34": "本句指「實驗中用作比較基準的一組」。",
-        "control-mcq-33": "「用來操作機器、車輛、遊戲或系統的按鈕、桿件或介面」是「17. controls（控制裝置；操縱裝置） — 控制鍵；操控裝置」的用法，與本句語境不同。",
-        "control-mcq-32": "「無法控制的」是「uncontrollable」的用法，與本句語境不同。",
-        "control-mcq-31": "「未受控制的」是「uncontrolled」的用法，與本句語境不同。",
-        "control-mcq-30": "「可控制的」是「controllable」的用法，與本句語境不同。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。"
+        "control-mcq-34": "本句的「control group」指「實驗中用作比較基準的一組」。",
+        "control-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-34"
     },
@@ -2947,10 +2675,8 @@ export default {
       "options": [
         "control-mcq-34",
         "control-mcq-33",
-        "control-mcq-32",
-        "control-mcq-31",
-        "control-mcq-30",
-        "control-mcq-29"
+        "control-mcq-04",
+        "control-mcq-18"
       ],
       "explanation": "本句的「control group」指「實驗中用作比較基準的一組」。",
       "sentenceIndex": 72,
@@ -2959,12 +2685,10 @@ export default {
         "control group"
       ],
       "optionReasons": {
-        "control-mcq-34": "本句指「實驗中用作比較基準的一組」。",
-        "control-mcq-33": "「用來操作機器、車輛、遊戲或系統的按鈕、桿件或介面」是「17. controls（控制裝置；操縱裝置） — 控制鍵；操控裝置」的用法，與本句語境不同。",
-        "control-mcq-32": "「無法控制的」是「uncontrollable」的用法，與本句語境不同。",
-        "control-mcq-31": "「未受控制的」是「uncontrolled」的用法，與本句語境不同。",
-        "control-mcq-30": "「可控制的」是「controllable」的用法，與本句語境不同。",
-        "control-mcq-29": "「財務主管」是「controller (finance)」的用法，與本句語境不同。"
+        "control-mcq-34": "本句的「control group」指「實驗中用作比較基準的一組」。",
+        "control-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "control-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "control-mcq-34"
     }
@@ -2976,5 +2700,7 @@ export default {
     "sha256": "9afe38a08500d9c6f50bc0df63b8205320c4dc9871b853ae77f32195dba18b1d",
     "pages": 26
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

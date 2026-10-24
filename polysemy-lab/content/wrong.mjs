@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "wrong-mcq-01",
-      "title": "表示錯的；不恰當的；不合適的；例句：「我擔心自己會在大家面前說錯話。」",
+      "title": "錯的；不恰當的；不合適的",
       "form": "Passage anchor > “I was always afraid of saying the wrong thing...",
       "en": "Passage anchor > “I was always afraid of saying the wrong thing...",
       "zh": "表示錯的；不恰當的；不合適的；例句：「我擔心自己會在大家面前說錯話。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "wrong-mcq-02",
-      "title": "表示錯的；不正確的；例句：「你的答案是錯的。」",
+      "title": "錯的；不正確的",
       "form": "wrong — not correct or true = incorrect; not factually accurate 錯的；不正確的",
       "en": "wrong — not correct or true = incorrect; not factually accurate 錯的；不正確的",
       "zh": "表示錯的；不正確的；例句：「你的答案是錯的。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "wrong-mcq-03",
-      "title": "表示對……判斷錯誤；弄錯；例句：「我看錯他了。」",
+      "title": "對……判斷錯誤；弄錯",
       "form": "be wrong about something = have an incorrect belief, judgment, or understanding 對……判斷錯誤；弄錯",
       "en": "be wrong about something = have an incorrect belief, judgment, or understanding 對……判斷錯誤；弄錯",
       "zh": "表示對……判斷錯誤；弄錯；例句：「我看錯他了。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "wrong-mcq-04",
-      "title": "表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」",
+      "title": "弄錯；答錯；理解錯",
       "form": "get something wrong = understand, remember, calculate, or identify something incorrectly 弄錯；答錯；理解錯",
       "en": "get something wrong = understand, remember, calculate, or identify something incorrectly 弄錯；答錯；理解錯",
       "zh": "表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "wrong-mcq-05",
-      "title": "表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」",
+      "title": "出錯；出問題；出故障",
       "form": "go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障",
       "en": "go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障",
       "zh": "表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "wrong-mcq-06",
-      "title": "表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」",
+      "title": "錯的；選錯的",
       "form": "the wrong + noun = not the correct one among possible choices 錯的；選錯的",
       "en": "the wrong + noun = not the correct one among possible choices 錯的；選錯的",
       "zh": "表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "wrong-mcq-07",
-      "title": "表示錯的一邊；反面；例句：「你的衣服穿反了。」",
+      "title": "錯的一邊；反面",
       "form": "wrong side = incorrect side, position, or orientation 錯的一邊；反面",
       "en": "wrong side = incorrect side, position, or orientation 錯的一邊；反面",
       "zh": "表示錯的一邊；反面；例句：「你的衣服穿反了。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "wrong-mcq-08",
-      "title": "表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」",
+      "title": "不合適的；不恰當的",
       "form": "wrong — inappropriate or unsuitable = not suitable for a situation 不合適的；不恰當的",
       "en": "wrong — inappropriate or unsuitable = not suitable for a situation 不合適的；不恰當的",
       "zh": "表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "wrong-mcq-09",
-      "title": "表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」",
+      "title": "說錯話；說了不恰當的話",
       "form": "say the wrong thing = say something inappropriate, awkward, offensive, or badly judged 說錯話；說了不恰當的話",
       "en": "say the wrong thing = say something inappropriate, awkward, offensive, or badly judged 說錯話；說了不恰當的話",
       "zh": "表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "wrong-mcq-10",
-      "title": "表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」",
+      "title": "人不對；場合不對；時機不對",
       "form": "wrong person / wrong place / wrong time — situational mismatch = unsuitable or inappropriate in the circumstances 人不對；場合不對；時機不對",
       "en": "wrong person / wrong place / wrong time — situational mismatch = unsuitable or inappropriate in the circumstances 人不對；場合不對；時機不對",
       "zh": "表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "wrong-mcq-11",
-      "title": "表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」",
+      "title": "錯誤的；不道德的；不應該的",
       "form": "wrong — morally bad or unacceptable = morally incorrect, unjust, or unethical 錯誤的；不道德的；不應該的",
       "en": "wrong — morally bad or unacceptable = morally incorrect, unjust, or unethical 錯誤的；不道德的；不應該的",
       "zh": "表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "wrong-mcq-12",
-      "title": "表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」",
+      "title": "是非；對錯；善惡",
       "form": "right and wrong = morally correct and morally incorrect behavior 是非；對錯；善惡",
       "en": "right and wrong = morally correct and morally incorrect behavior 是非；對錯；善惡",
       "zh": "表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "wrong-mcq-13",
-      "title": "表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」",
+      "title": "做錯事；作惡；做不對的事",
       "form": "do wrong = act immorally or unfairly 做錯事；作惡；做不對的事",
       "en": "do wrong = act immorally or unfairly 做錯事；作惡；做不對的事",
       "zh": "表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "wrong-mcq-14",
-      "title": "表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」",
+      "title": "虧待；冤枉；不公正地對待",
       "form": "wrong someone = treat someone unfairly or unjustly 虧待；冤枉；不公正地對待",
       "en": "wrong someone = treat someone unfairly or unjustly 虧待；冤枉；不公正地對待",
       "zh": "表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "wrong-mcq-15",
-      "title": "表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」",
+      "title": "錯事；不義行為；冤屈",
       "form": "a wrong = an unjust or immoral act 錯事；不義行為；冤屈",
       "en": "a wrong = an unjust or immoral act 錯事；不義行為；冤屈",
       "zh": "表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "wrong-mcq-16",
-      "title": "表示有問題；例句：「這台電腦有問題。」",
+      "title": "有問題",
       "form": "something is wrong with something = there is a problem, fault, or abnormality ……有問題；……不對勁",
       "en": "something is wrong with something = there is a problem, fault, or abnormality ……有問題；……不對勁",
       "zh": "表示有問題；例句：「這台電腦有問題。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "wrong-mcq-17",
-      "title": "表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」",
+      "title": "某人不舒服／不對勁／有狀況",
       "form": "something is wrong with someone = someone is unwell, upset, or behaving unusually 某人不舒服／不對勁／有狀況",
       "en": "something is wrong with someone = someone is unwell, upset, or behaving unusually 某人不舒服／不對勁／有狀況",
       "zh": "表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "wrong-mcq-18",
-      "title": "表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」",
+      "title": "怎麼了？出了什麼事？",
       "form": "what’s wrong? = what is the problem? 怎麼了？出了什麼事？",
       "en": "what’s wrong? = what is the problem? 怎麼了？出了什麼事？",
       "zh": "表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "wrong-mcq-19",
-      "title": "表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」",
+      "title": "證明某人錯了",
       "form": "prove someone wrong = show that someone’s belief, prediction, or claim is incorrect 證明某人錯了",
       "en": "prove someone wrong = show that someone’s belief, prediction, or claim is incorrect 證明某人錯了",
       "zh": "表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "wrong-mcq-20",
-      "title": "表示承認自己錯了；例句：「他最後承認自己錯了。」",
+      "title": "承認自己錯了",
       "form": "admit you were wrong = acknowledge that your opinion, belief, or action was incorrect 承認自己錯了",
       "en": "admit you were wrong = acknowledge that your opinion, belief, or action was incorrect 承認自己錯了",
       "zh": "表示承認自己錯了；例句：「他最後承認自己錯了。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "wrong-mcq-21",
-      "title": "表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」",
+      "title": "別誤會我的意思",
       "form": "don’t get me wrong = do not misunderstand what I mean 別誤會我的意思",
       "en": "don’t get me wrong = do not misunderstand what I mean 別誤會我的意思",
       "zh": "表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "wrong-mcq-22",
-      "title": "表示誤解某人；看錯某人；例句：「我想你誤解我了。」",
+      "title": "誤解某人；看錯某人",
       "form": "get someone wrong = misunderstand someone’s meaning, personality, or intention 誤解某人；看錯某人",
       "en": "get someone wrong = misunderstand someone’s meaning, personality, or intention 誤解某人；看錯某人",
       "zh": "表示誤解某人；看錯某人；例句：「我想你誤解我了。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "wrong-mcq-23",
-      "title": "表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」",
+      "title": "錯誤地；不當地；冤枉地",
       "form": "wrongly = incorrectly or unjustly 錯誤地；不當地；冤枉地",
       "en": "wrongly = incorrectly or unjustly 錯誤地；不當地；冤枉地",
       "zh": "表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "wrong-mcq-24",
-      "title": "表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」",
+      "title": "非法地；不公正地；冤枉地",
       "form": "wrongfully = illegally or unjustly, especially in formal/legal contexts 非法地；不公正地；冤枉地",
       "en": "wrongfully = illegally or unjustly, especially in formal/legal contexts 非法地；不公正地；冤枉地",
       "zh": "表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "wrong-mcq-25",
-      "title": "表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」",
+      "title": "一開始就不順；開局不佳",
       "form": "get off on the wrong foot = begin a relationship or activity badly 一開始就不順；開局不佳",
       "en": "get off on the wrong foot = begin a relationship or activity badly 一開始就不順；開局不佳",
       "zh": "表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」",
@@ -557,7 +557,7 @@ export default {
     },
     {
       "id": "wrong-mcq-26",
-      "title": "表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」",
+      "title": "惹某人不高興；讓某人反感",
       "form": "rub someone the wrong way = annoy or irritate someone because of your manner 惹某人不高興；讓某人反感",
       "en": "rub someone the wrong way = annoy or irritate someone because of your manner 惹某人不高興；讓某人反感",
       "zh": "表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」",
@@ -579,7 +579,7 @@ export default {
     },
     {
       "id": "wrong-mcq-27",
-      "title": "表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」",
+      "title": "得罪某人；惹某人不高興",
       "form": "on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興",
       "en": "on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興",
       "zh": "表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」",
@@ -601,7 +601,7 @@ export default {
     },
     {
       "id": "wrong-mcq-28",
-      "title": "表示誤會；搞錯情況；例句：「我想你誤會了。」",
+      "title": "誤會；搞錯情況",
       "form": "the wrong end of the stick = a misunderstanding of a situation 誤會；搞錯情況",
       "en": "the wrong end of the stick = a misunderstanding of a situation 誤會；搞錯情況",
       "zh": "表示誤會；搞錯情況；例句：「我想你誤會了。」",
@@ -645,7 +645,7 @@ export default {
     },
     {
       "id": "wrong-mcq-30",
-      "title": "表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」",
+      "title": "不法行為；不當行為；做壞事",
       "form": "wrongdoing = illegal, immoral, or dishonest behavior 不法行為；不當行為；做壞事",
       "en": "wrongdoing = illegal, immoral, or dishonest behavior 不法行為；不當行為；做壞事",
       "zh": "表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」",
@@ -667,7 +667,7 @@ export default {
     },
     {
       "id": "wrong-mcq-31",
-      "title": "表示做壞事的人；違法者；作惡者；例句：「這項法律旨在懲罰違法者。」",
+      "title": "做壞事的人；違法者；作惡者",
       "form": "wrongdoer = a person who does something illegal or immoral 做壞事的人；違法者；作惡者",
       "en": "wrongdoer = a person who does something illegal or immoral 做壞事的人；違法者；作惡者",
       "zh": "表示做壞事的人；違法者；作惡者；例句：「這項法律旨在懲罰違法者。」",
@@ -689,7 +689,7 @@ export default {
     },
     {
       "id": "wrong-mcq-32",
-      "title": "表示不正當的；非法的；冤枉的；例句：「他提出不當解僱申訴。」",
+      "title": "不正當的；非法的；冤枉的",
       "form": "wrongful = unjust, illegal, or improper 不正當的；非法的；冤枉的",
       "en": "wrongful = unjust, illegal, or improper 不正當的；非法的；冤枉的",
       "zh": "表示不正當的；非法的；冤枉的；例句：「他提出不當解僱申訴。」",
@@ -719,11 +719,9 @@ export default {
       "masked": "I was worried that I might say ____ in front of everyone.",
       "options": [
         "wrong-mcq-01",
-        "wrong-mcq-02",
-        "wrong-mcq-03",
-        "wrong-mcq-04",
-        "wrong-mcq-05",
-        "wrong-mcq-06"
+        "wrong-mcq-25",
+        "wrong-mcq-24",
+        "wrong-mcq-18"
       ],
       "explanation": "本句的「the wrong thing」指「表示錯的；不恰當的；不合適的；例句：「我擔心自己會在大家面前說錯話。」」。",
       "sentenceIndex": 0,
@@ -732,12 +730,10 @@ export default {
         "the wrong thing"
       ],
       "optionReasons": {
-        "wrong-mcq-01": "本句指「表示錯的；不恰當的；不合適的；例句：「我擔心自己會在大家面前說錯話。」」。",
-        "wrong-mcq-02": "「表示錯的；不正確的；例句：「你的答案是錯的。」」是「wrong — not correct or true = incorrect; not factually accurate 錯的；不正確的」的用法，與本句語境不同。",
-        "wrong-mcq-03": "「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」是「be wrong about something = have an incorrect belief, judgment, or understanding 對……判斷錯誤；弄錯」的用法，與本句語境不同。",
-        "wrong-mcq-04": "「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」是「get something wrong = understand, remember, calculate, or identify something incorrectly 弄錯；答錯；理解錯」的用法，與本句語境不同。",
-        "wrong-mcq-05": "「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」是「go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障」的用法，與本句語境不同。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。"
+        "wrong-mcq-01": "本句的「the wrong thing」指「表示錯的；不恰當的；不合適的；例句：「我擔心自己會在大家面前說錯話。」」。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-01"
     },
@@ -749,11 +745,9 @@ export default {
       "masked": "He chose ____ and accidentally offended her.",
       "options": [
         "wrong-mcq-01",
-        "wrong-mcq-02",
-        "wrong-mcq-03",
-        "wrong-mcq-04",
-        "wrong-mcq-05",
-        "wrong-mcq-06"
+        "wrong-mcq-16",
+        "wrong-mcq-17",
+        "wrong-mcq-24"
       ],
       "explanation": "本句的「the wrong words」指「表示錯的；不恰當的；不合適的；例句：「我擔心自己會在大家面前說錯話。」」。",
       "sentenceIndex": 1,
@@ -762,12 +756,10 @@ export default {
         "the wrong words"
       ],
       "optionReasons": {
-        "wrong-mcq-01": "本句指「表示錯的；不恰當的；不合適的；例句：「我擔心自己會在大家面前說錯話。」」。",
-        "wrong-mcq-02": "「表示錯的；不正確的；例句：「你的答案是錯的。」」是「wrong — not correct or true = incorrect; not factually accurate 錯的；不正確的」的用法，與本句語境不同。",
-        "wrong-mcq-03": "「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」是「be wrong about something = have an incorrect belief, judgment, or understanding 對……判斷錯誤；弄錯」的用法，與本句語境不同。",
-        "wrong-mcq-04": "「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」是「get something wrong = understand, remember, calculate, or identify something incorrectly 弄錯；答錯；理解錯」的用法，與本句語境不同。",
-        "wrong-mcq-05": "「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」是「go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障」的用法，與本句語境不同。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。"
+        "wrong-mcq-01": "本句的「the wrong words」指「表示錯的；不恰當的；不合適的；例句：「我擔心自己會在大家面前說錯話。」」。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-01"
     },
@@ -779,11 +771,9 @@ export default {
       "masked": "Your answer is ____.",
       "options": [
         "wrong-mcq-02",
-        "wrong-mcq-01",
-        "wrong-mcq-03",
-        "wrong-mcq-04",
-        "wrong-mcq-05",
-        "wrong-mcq-06"
+        "wrong-mcq-10",
+        "wrong-mcq-31",
+        "wrong-mcq-18"
       ],
       "explanation": "本句的「wrong」指「表示錯的；不正確的；例句：「你的答案是錯的。」」。",
       "sentenceIndex": 2,
@@ -792,12 +782,10 @@ export default {
         "wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-02": "本句指「表示錯的；不正確的；例句：「你的答案是錯的。」」。",
-        "wrong-mcq-01": "「表示錯的；不恰當的；不合適的；例句：「我擔心自己會在大家面前說錯話。」」是「Passage anchor > “I was always afraid of saying the wrong thing...」的用法，與本句語境不同。",
-        "wrong-mcq-03": "「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」是「be wrong about something = have an incorrect belief, judgment, or understanding 對……判斷錯誤；弄錯」的用法，與本句語境不同。",
-        "wrong-mcq-04": "「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」是「get something wrong = understand, remember, calculate, or identify something incorrectly 弄錯；答錯；理解錯」的用法，與本句語境不同。",
-        "wrong-mcq-05": "「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」是「go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障」的用法，與本句語境不同。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。"
+        "wrong-mcq-02": "本句的「wrong」指「表示錯的；不正確的；例句：「你的答案是錯的。」」。",
+        "wrong-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-02"
     },
@@ -809,11 +797,9 @@ export default {
       "masked": "I think we took the ____.",
       "options": [
         "wrong-mcq-02",
-        "wrong-mcq-01",
-        "wrong-mcq-03",
-        "wrong-mcq-04",
-        "wrong-mcq-05",
-        "wrong-mcq-06"
+        "wrong-mcq-17",
+        "wrong-mcq-31",
+        "wrong-mcq-25"
       ],
       "explanation": "本句的「wrong road」指「表示錯的；不正確的；例句：「你的答案是錯的。」」。",
       "sentenceIndex": 3,
@@ -822,12 +808,10 @@ export default {
         "wrong road"
       ],
       "optionReasons": {
-        "wrong-mcq-02": "本句指「表示錯的；不正確的；例句：「你的答案是錯的。」」。",
-        "wrong-mcq-01": "「表示錯的；不恰當的；不合適的；例句：「我擔心自己會在大家面前說錯話。」」是「Passage anchor > “I was always afraid of saying the wrong thing...」的用法，與本句語境不同。",
-        "wrong-mcq-03": "「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」是「be wrong about something = have an incorrect belief, judgment, or understanding 對……判斷錯誤；弄錯」的用法，與本句語境不同。",
-        "wrong-mcq-04": "「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」是「get something wrong = understand, remember, calculate, or identify something incorrectly 弄錯；答錯；理解錯」的用法，與本句語境不同。",
-        "wrong-mcq-05": "「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」是「go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障」的用法，與本句語境不同。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。"
+        "wrong-mcq-02": "本句的「wrong road」指「表示錯的；不正確的；例句：「你的答案是錯的。」」。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-02"
     },
@@ -839,11 +823,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "wrong-mcq-03",
-        "wrong-mcq-02",
-        "wrong-mcq-04",
-        "wrong-mcq-01",
-        "wrong-mcq-05",
-        "wrong-mcq-06"
+        "wrong-mcq-17",
+        "wrong-mcq-25",
+        "wrong-mcq-18"
       ],
       "explanation": "本句的「wrong about him」指「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」。",
       "sentenceIndex": 4,
@@ -852,12 +834,10 @@ export default {
         "wrong about him"
       ],
       "optionReasons": {
-        "wrong-mcq-03": "本句指「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」。",
-        "wrong-mcq-02": "「表示錯的；不正確的；例句：「你的答案是錯的。」」是「wrong — not correct or true = incorrect; not factually accurate 錯的；不正確的」的用法，與本句語境不同。",
-        "wrong-mcq-04": "「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」是「get something wrong = understand, remember, calculate, or identify something incorrectly 弄錯；答錯；理解錯」的用法，與本句語境不同。",
-        "wrong-mcq-01": "「表示錯的；不恰當的；不合適的；例句：「我擔心自己會在大家面前說錯話。」」是「Passage anchor > “I was always afraid of saying the wrong thing...」的用法，與本句語境不同。",
-        "wrong-mcq-05": "「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」是「go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障」的用法，與本句語境不同。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。"
+        "wrong-mcq-03": "本句的「wrong about him」指「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-03"
     },
@@ -869,11 +849,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "wrong-mcq-03",
-        "wrong-mcq-02",
-        "wrong-mcq-04",
-        "wrong-mcq-01",
-        "wrong-mcq-05",
-        "wrong-mcq-06"
+        "wrong-mcq-25",
+        "wrong-mcq-31",
+        "wrong-mcq-08"
       ],
       "explanation": "本句的「wrong about the date」指「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」。",
       "sentenceIndex": 5,
@@ -882,12 +860,10 @@ export default {
         "wrong about the date"
       ],
       "optionReasons": {
-        "wrong-mcq-03": "本句指「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」。",
-        "wrong-mcq-02": "「表示錯的；不正確的；例句：「你的答案是錯的。」」是「wrong — not correct or true = incorrect; not factually accurate 錯的；不正確的」的用法，與本句語境不同。",
-        "wrong-mcq-04": "「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」是「get something wrong = understand, remember, calculate, or identify something incorrectly 弄錯；答錯；理解錯」的用法，與本句語境不同。",
-        "wrong-mcq-01": "「表示錯的；不恰當的；不合適的；例句：「我擔心自己會在大家面前說錯話。」」是「Passage anchor > “I was always afraid of saying the wrong thing...」的用法，與本句語境不同。",
-        "wrong-mcq-05": "「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」是「go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障」的用法，與本句語境不同。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。"
+        "wrong-mcq-03": "本句的「wrong about the date」指「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-03"
     },
@@ -899,11 +875,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "wrong-mcq-04",
-        "wrong-mcq-03",
-        "wrong-mcq-05",
-        "wrong-mcq-02",
-        "wrong-mcq-06",
-        "wrong-mcq-01"
+        "wrong-mcq-25",
+        "wrong-mcq-17",
+        "wrong-mcq-14"
       ],
       "explanation": "本句的「got the address wrong」指「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」。",
       "sentenceIndex": 6,
@@ -912,12 +886,10 @@ export default {
         "got the address wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-04": "本句指「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」。",
-        "wrong-mcq-03": "「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」是「be wrong about something = have an incorrect belief, judgment, or understanding 對……判斷錯誤；弄錯」的用法，與本句語境不同。",
-        "wrong-mcq-05": "「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」是「go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障」的用法，與本句語境不同。",
-        "wrong-mcq-02": "「表示錯的；不正確的；例句：「你的答案是錯的。」」是「wrong — not correct or true = incorrect; not factually accurate 錯的；不正確的」的用法，與本句語境不同。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。",
-        "wrong-mcq-01": "「表示錯的；不恰當的；不合適的；例句：「我擔心自己會在大家面前說錯話。」」是「Passage anchor > “I was always afraid of saying the wrong thing...」的用法，與本句語境不同。"
+        "wrong-mcq-04": "本句的「got the address wrong」指「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-04"
     },
@@ -929,11 +901,9 @@ export default {
       "masked": "Don’t worry if you ____.",
       "options": [
         "wrong-mcq-04",
-        "wrong-mcq-03",
-        "wrong-mcq-05",
-        "wrong-mcq-02",
-        "wrong-mcq-06",
-        "wrong-mcq-01"
+        "wrong-mcq-30",
+        "wrong-mcq-08",
+        "wrong-mcq-10"
       ],
       "explanation": "本句的「get a few questions wrong」指「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」。",
       "sentenceIndex": 7,
@@ -942,12 +912,10 @@ export default {
         "get a few questions wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-04": "本句指「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」。",
-        "wrong-mcq-03": "「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」是「be wrong about something = have an incorrect belief, judgment, or understanding 對……判斷錯誤；弄錯」的用法，與本句語境不同。",
-        "wrong-mcq-05": "「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」是「go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障」的用法，與本句語境不同。",
-        "wrong-mcq-02": "「表示錯的；不正確的；例句：「你的答案是錯的。」」是「wrong — not correct or true = incorrect; not factually accurate 錯的；不正確的」的用法，與本句語境不同。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。",
-        "wrong-mcq-01": "「表示錯的；不恰當的；不合適的；例句：「我擔心自己會在大家面前說錯話。」」是「Passage anchor > “I was always afraid of saying the wrong thing...」的用法，與本句語境不同。"
+        "wrong-mcq-04": "本句的「get a few questions wrong」指「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」。",
+        "wrong-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-04"
     },
@@ -959,11 +927,9 @@ export default {
       "masked": "Something ____ during the experiment.",
       "options": [
         "wrong-mcq-05",
-        "wrong-mcq-04",
-        "wrong-mcq-06",
-        "wrong-mcq-03",
-        "wrong-mcq-07",
-        "wrong-mcq-02"
+        "wrong-mcq-27",
+        "wrong-mcq-30",
+        "wrong-mcq-14"
       ],
       "explanation": "本句的「went wrong」指「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」。",
       "sentenceIndex": 8,
@@ -972,12 +938,10 @@ export default {
         "went wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-05": "本句指「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」。",
-        "wrong-mcq-04": "「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」是「get something wrong = understand, remember, calculate, or identify something incorrectly 弄錯；答錯；理解錯」的用法，與本句語境不同。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。",
-        "wrong-mcq-03": "「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」是「be wrong about something = have an incorrect belief, judgment, or understanding 對……判斷錯誤；弄錯」的用法，與本句語境不同。",
-        "wrong-mcq-07": "「表示錯的一邊；反面；例句：「你的衣服穿反了。」」是「wrong side = incorrect side, position, or orientation 錯的一邊；反面」的用法，與本句語境不同。",
-        "wrong-mcq-02": "「表示錯的；不正確的；例句：「你的答案是錯的。」」是「wrong — not correct or true = incorrect; not factually accurate 錯的；不正確的」的用法，與本句語境不同。"
+        "wrong-mcq-05": "本句的「went wrong」指「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」。",
+        "wrong-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-05"
     },
@@ -989,11 +953,9 @@ export default {
       "masked": "The machine suddenly ____.",
       "options": [
         "wrong-mcq-05",
-        "wrong-mcq-04",
-        "wrong-mcq-06",
-        "wrong-mcq-03",
-        "wrong-mcq-07",
-        "wrong-mcq-02"
+        "wrong-mcq-21",
+        "wrong-mcq-32",
+        "wrong-mcq-10"
       ],
       "explanation": "本句的「went wrong」指「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」。",
       "sentenceIndex": 9,
@@ -1002,12 +964,10 @@ export default {
         "went wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-05": "本句指「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」。",
-        "wrong-mcq-04": "「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」是「get something wrong = understand, remember, calculate, or identify something incorrectly 弄錯；答錯；理解錯」的用法，與本句語境不同。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。",
-        "wrong-mcq-03": "「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」是「be wrong about something = have an incorrect belief, judgment, or understanding 對……判斷錯誤；弄錯」的用法，與本句語境不同。",
-        "wrong-mcq-07": "「表示錯的一邊；反面；例句：「你的衣服穿反了。」」是「wrong side = incorrect side, position, or orientation 錯的一邊；反面」的用法，與本句語境不同。",
-        "wrong-mcq-02": "「表示錯的；不正確的；例句：「你的答案是錯的。」」是「wrong — not correct or true = incorrect; not factually accurate 錯的；不正確的」的用法，與本句語境不同。"
+        "wrong-mcq-05": "本句的「went wrong」指「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」。",
+        "wrong-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-05"
     },
@@ -1019,11 +979,9 @@ export default {
       "masked": "I sent the email to ____.",
       "options": [
         "wrong-mcq-06",
-        "wrong-mcq-05",
-        "wrong-mcq-07",
-        "wrong-mcq-04",
-        "wrong-mcq-08",
-        "wrong-mcq-03"
+        "wrong-mcq-17",
+        "wrong-mcq-18",
+        "wrong-mcq-16"
       ],
       "explanation": "本句的「the wrong person」指「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」。",
       "sentenceIndex": 10,
@@ -1032,12 +990,10 @@ export default {
         "the wrong person"
       ],
       "optionReasons": {
-        "wrong-mcq-06": "本句指「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」。",
-        "wrong-mcq-05": "「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」是「go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障」的用法，與本句語境不同。",
-        "wrong-mcq-07": "「表示錯的一邊；反面；例句：「你的衣服穿反了。」」是「wrong side = incorrect side, position, or orientation 錯的一邊；反面」的用法，與本句語境不同。",
-        "wrong-mcq-04": "「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」是「get something wrong = understand, remember, calculate, or identify something incorrectly 弄錯；答錯；理解錯」的用法，與本句語境不同。",
-        "wrong-mcq-08": "「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」是「wrong — inappropriate or unsuitable = not suitable for a situation 不合適的；不恰當的」的用法，與本句語境不同。",
-        "wrong-mcq-03": "「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」是「be wrong about something = have an incorrect belief, judgment, or understanding 對……判斷錯誤；弄錯」的用法，與本句語境不同。"
+        "wrong-mcq-06": "本句的「the wrong person」指「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-06"
     },
@@ -1049,11 +1005,9 @@ export default {
       "masked": "We got on ____.",
       "options": [
         "wrong-mcq-06",
-        "wrong-mcq-05",
-        "wrong-mcq-07",
-        "wrong-mcq-04",
-        "wrong-mcq-08",
-        "wrong-mcq-03"
+        "wrong-mcq-24",
+        "wrong-mcq-18",
+        "wrong-mcq-31"
       ],
       "explanation": "本句的「the wrong bus」指「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」。",
       "sentenceIndex": 11,
@@ -1062,12 +1016,10 @@ export default {
         "the wrong bus"
       ],
       "optionReasons": {
-        "wrong-mcq-06": "本句指「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」。",
-        "wrong-mcq-05": "「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」是「go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障」的用法，與本句語境不同。",
-        "wrong-mcq-07": "「表示錯的一邊；反面；例句：「你的衣服穿反了。」」是「wrong side = incorrect side, position, or orientation 錯的一邊；反面」的用法，與本句語境不同。",
-        "wrong-mcq-04": "「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」是「get something wrong = understand, remember, calculate, or identify something incorrectly 弄錯；答錯；理解錯」的用法，與本句語境不同。",
-        "wrong-mcq-08": "「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」是「wrong — inappropriate or unsuitable = not suitable for a situation 不合適的；不恰當的」的用法，與本句語境不同。",
-        "wrong-mcq-03": "「表示對……判斷錯誤；弄錯；例句：「我看錯他了。」」是「be wrong about something = have an incorrect belief, judgment, or understanding 對……判斷錯誤；弄錯」的用法，與本句語境不同。"
+        "wrong-mcq-06": "本句的「the wrong bus」指「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」。",
+        "wrong-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-06"
     },
@@ -1079,11 +1031,9 @@ export default {
       "masked": "You’re wearing your shirt ____.",
       "options": [
         "wrong-mcq-07",
-        "wrong-mcq-06",
-        "wrong-mcq-08",
-        "wrong-mcq-05",
-        "wrong-mcq-09",
-        "wrong-mcq-04"
+        "wrong-mcq-27",
+        "wrong-mcq-18",
+        "wrong-mcq-21"
       ],
       "explanation": "本句的「the wrong way round」指「表示錯的一邊；反面；例句：「你的衣服穿反了。」」。",
       "sentenceIndex": 12,
@@ -1092,12 +1042,10 @@ export default {
         "the wrong way round"
       ],
       "optionReasons": {
-        "wrong-mcq-07": "本句指「表示錯的一邊；反面；例句：「你的衣服穿反了。」」。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。",
-        "wrong-mcq-08": "「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」是「wrong — inappropriate or unsuitable = not suitable for a situation 不合適的；不恰當的」的用法，與本句語境不同。",
-        "wrong-mcq-05": "「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」是「go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障」的用法，與本句語境不同。",
-        "wrong-mcq-09": "「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」是「say the wrong thing = say something inappropriate, awkward, offensive, or badly judged 說錯話；說了不恰當的話」的用法，與本句語境不同。",
-        "wrong-mcq-04": "「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」是「get something wrong = understand, remember, calculate, or identify something incorrectly 弄錯；答錯；理解錯」的用法，與本句語境不同。"
+        "wrong-mcq-07": "本句的「the wrong way round」指「表示錯的一邊；反面；例句：「你的衣服穿反了。」」。",
+        "wrong-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-07"
     },
@@ -1109,11 +1057,9 @@ export default {
       "masked": "We parked on ____.",
       "options": [
         "wrong-mcq-07",
-        "wrong-mcq-06",
-        "wrong-mcq-08",
-        "wrong-mcq-05",
-        "wrong-mcq-09",
-        "wrong-mcq-04"
+        "wrong-mcq-31",
+        "wrong-mcq-27",
+        "wrong-mcq-16"
       ],
       "explanation": "本句的「the wrong side of the road」指「表示錯的一邊；反面；例句：「你的衣服穿反了。」」。",
       "sentenceIndex": 13,
@@ -1122,12 +1068,10 @@ export default {
         "the wrong side of the road"
       ],
       "optionReasons": {
-        "wrong-mcq-07": "本句指「表示錯的一邊；反面；例句：「你的衣服穿反了。」」。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。",
-        "wrong-mcq-08": "「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」是「wrong — inappropriate or unsuitable = not suitable for a situation 不合適的；不恰當的」的用法，與本句語境不同。",
-        "wrong-mcq-05": "「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」是「go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障」的用法，與本句語境不同。",
-        "wrong-mcq-09": "「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」是「say the wrong thing = say something inappropriate, awkward, offensive, or badly judged 說錯話；說了不恰當的話」的用法，與本句語境不同。",
-        "wrong-mcq-04": "「表示弄錯；答錯；理解錯；例句：「我把地址弄錯了。」」是「get something wrong = understand, remember, calculate, or identify something incorrectly 弄錯；答錯；理解錯」的用法，與本句語境不同。"
+        "wrong-mcq-07": "本句的「the wrong side of the road」指「表示錯的一邊；反面；例句：「你的衣服穿反了。」」。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-07"
     },
@@ -1139,11 +1083,9 @@ export default {
       "masked": "That was ____ to bring up the issue.",
       "options": [
         "wrong-mcq-08",
-        "wrong-mcq-07",
-        "wrong-mcq-09",
-        "wrong-mcq-06",
-        "wrong-mcq-10",
-        "wrong-mcq-05"
+        "wrong-mcq-11",
+        "wrong-mcq-04",
+        "wrong-mcq-25"
       ],
       "explanation": "本句的「the wrong time」指「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」。",
       "sentenceIndex": 14,
@@ -1152,12 +1094,10 @@ export default {
         "the wrong time"
       ],
       "optionReasons": {
-        "wrong-mcq-08": "本句指「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」。",
-        "wrong-mcq-07": "「表示錯的一邊；反面；例句：「你的衣服穿反了。」」是「wrong side = incorrect side, position, or orientation 錯的一邊；反面」的用法，與本句語境不同。",
-        "wrong-mcq-09": "「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」是「say the wrong thing = say something inappropriate, awkward, offensive, or badly judged 說錯話；說了不恰當的話」的用法，與本句語境不同。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。",
-        "wrong-mcq-10": "「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」是「wrong person / wrong place / wrong time — situational mismatch = unsuitable or inappropriate in the circumstances 人不對；場合不對；時機不對」的用法，與本句語境不同。",
-        "wrong-mcq-05": "「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」是「go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障」的用法，與本句語境不同。"
+        "wrong-mcq-08": "本句的「the wrong time」指「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」。",
+        "wrong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-08"
     },
@@ -1169,11 +1109,9 @@ export default {
       "masked": "He wore ____ for the occasion.",
       "options": [
         "wrong-mcq-08",
-        "wrong-mcq-07",
-        "wrong-mcq-09",
-        "wrong-mcq-06",
-        "wrong-mcq-10",
-        "wrong-mcq-05"
+        "wrong-mcq-25",
+        "wrong-mcq-17",
+        "wrong-mcq-28"
       ],
       "explanation": "本句的「the wrong clothes」指「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」。",
       "sentenceIndex": 15,
@@ -1182,12 +1120,10 @@ export default {
         "the wrong clothes"
       ],
       "optionReasons": {
-        "wrong-mcq-08": "本句指「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」。",
-        "wrong-mcq-07": "「表示錯的一邊；反面；例句：「你的衣服穿反了。」」是「wrong side = incorrect side, position, or orientation 錯的一邊；反面」的用法，與本句語境不同。",
-        "wrong-mcq-09": "「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」是「say the wrong thing = say something inappropriate, awkward, offensive, or badly judged 說錯話；說了不恰當的話」的用法，與本句語境不同。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。",
-        "wrong-mcq-10": "「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」是「wrong person / wrong place / wrong time — situational mismatch = unsuitable or inappropriate in the circumstances 人不對；場合不對；時機不對」的用法，與本句語境不同。",
-        "wrong-mcq-05": "「表示出錯；出問題；出故障；例句：「實驗過程中出了問題。」」是「go wrong = develop incorrectly; fail; stop functioning as intended 出錯；出問題；出故障」的用法，與本句語境不同。"
+        "wrong-mcq-08": "本句的「the wrong clothes」指「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-08"
     },
@@ -1199,11 +1135,9 @@ export default {
       "masked": "I’m always afraid of ____ at formal events.",
       "options": [
         "wrong-mcq-09",
-        "wrong-mcq-08",
-        "wrong-mcq-10",
-        "wrong-mcq-07",
-        "wrong-mcq-11",
-        "wrong-mcq-06"
+        "wrong-mcq-16",
+        "wrong-mcq-25",
+        "wrong-mcq-26"
       ],
       "explanation": "本句的「saying the wrong thing」指「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」。",
       "sentenceIndex": 16,
@@ -1212,12 +1146,10 @@ export default {
         "saying the wrong thing"
       ],
       "optionReasons": {
-        "wrong-mcq-09": "本句指「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」。",
-        "wrong-mcq-08": "「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」是「wrong — inappropriate or unsuitable = not suitable for a situation 不合適的；不恰當的」的用法，與本句語境不同。",
-        "wrong-mcq-10": "「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」是「wrong person / wrong place / wrong time — situational mismatch = unsuitable or inappropriate in the circumstances 人不對；場合不對；時機不對」的用法，與本句語境不同。",
-        "wrong-mcq-07": "「表示錯的一邊；反面；例句：「你的衣服穿反了。」」是「wrong side = incorrect side, position, or orientation 錯的一邊；反面」的用法，與本句語境不同。",
-        "wrong-mcq-11": "「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」是「wrong — morally bad or unacceptable = morally incorrect, unjust, or unethical 錯誤的；不道德的；不應該的」的用法，與本句語境不同。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。"
+        "wrong-mcq-09": "本句的「saying the wrong thing」指「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-09"
     },
@@ -1229,11 +1161,9 @@ export default {
       "masked": "She realized immediately that she had ____.",
       "options": [
         "wrong-mcq-09",
-        "wrong-mcq-08",
-        "wrong-mcq-10",
-        "wrong-mcq-07",
-        "wrong-mcq-11",
-        "wrong-mcq-06"
+        "wrong-mcq-24",
+        "wrong-mcq-31",
+        "wrong-mcq-10"
       ],
       "explanation": "本句的「said the wrong thing」指「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」。",
       "sentenceIndex": 17,
@@ -1242,12 +1172,10 @@ export default {
         "said the wrong thing"
       ],
       "optionReasons": {
-        "wrong-mcq-09": "本句指「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」。",
-        "wrong-mcq-08": "「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」是「wrong — inappropriate or unsuitable = not suitable for a situation 不合適的；不恰當的」的用法，與本句語境不同。",
-        "wrong-mcq-10": "「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」是「wrong person / wrong place / wrong time — situational mismatch = unsuitable or inappropriate in the circumstances 人不對；場合不對；時機不對」的用法，與本句語境不同。",
-        "wrong-mcq-07": "「表示錯的一邊；反面；例句：「你的衣服穿反了。」」是「wrong side = incorrect side, position, or orientation 錯的一邊；反面」的用法，與本句語境不同。",
-        "wrong-mcq-11": "「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」是「wrong — morally bad or unacceptable = morally incorrect, unjust, or unethical 錯誤的；不道德的；不應該的」的用法，與本句語境不同。",
-        "wrong-mcq-06": "「表示錯的；選錯的；例句：「我把電子郵件寄給了錯的人。」」是「the wrong + noun = not the correct one among possible choices 錯的；選錯的」的用法，與本句語境不同。"
+        "wrong-mcq-09": "本句的「said the wrong thing」指「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」。",
+        "wrong-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-09"
     },
@@ -1259,11 +1187,9 @@ export default {
       "masked": "He was the ____.",
       "options": [
         "wrong-mcq-10",
-        "wrong-mcq-09",
         "wrong-mcq-11",
-        "wrong-mcq-08",
-        "wrong-mcq-12",
-        "wrong-mcq-07"
+        "wrong-mcq-16",
+        "wrong-mcq-09"
       ],
       "explanation": "本句的「wrong person for the job」指「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」。",
       "sentenceIndex": 18,
@@ -1272,12 +1198,10 @@ export default {
         "wrong person for the job"
       ],
       "optionReasons": {
-        "wrong-mcq-10": "本句指「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」。",
-        "wrong-mcq-09": "「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」是「say the wrong thing = say something inappropriate, awkward, offensive, or badly judged 說錯話；說了不恰當的話」的用法，與本句語境不同。",
-        "wrong-mcq-11": "「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」是「wrong — morally bad or unacceptable = morally incorrect, unjust, or unethical 錯誤的；不道德的；不應該的」的用法，與本句語境不同。",
-        "wrong-mcq-08": "「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」是「wrong — inappropriate or unsuitable = not suitable for a situation 不合適的；不恰當的」的用法，與本句語境不同。",
-        "wrong-mcq-12": "「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」是「right and wrong = morally correct and morally incorrect behavior 是非；對錯；善惡」的用法，與本句語境不同。",
-        "wrong-mcq-07": "「表示錯的一邊；反面；例句：「你的衣服穿反了。」」是「wrong side = incorrect side, position, or orientation 錯的一邊；反面」的用法，與本句語境不同。"
+        "wrong-mcq-10": "本句的「wrong person for the job」指「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」。",
+        "wrong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-10"
     },
@@ -1289,11 +1213,9 @@ export default {
       "masked": "We were simply in the ____.",
       "options": [
         "wrong-mcq-10",
-        "wrong-mcq-09",
         "wrong-mcq-11",
-        "wrong-mcq-08",
-        "wrong-mcq-12",
-        "wrong-mcq-07"
+        "wrong-mcq-18",
+        "wrong-mcq-16"
       ],
       "explanation": "本句的「wrong place at the wrong time」指「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」。",
       "sentenceIndex": 19,
@@ -1302,12 +1224,10 @@ export default {
         "wrong place at the wrong time"
       ],
       "optionReasons": {
-        "wrong-mcq-10": "本句指「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」。",
-        "wrong-mcq-09": "「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」是「say the wrong thing = say something inappropriate, awkward, offensive, or badly judged 說錯話；說了不恰當的話」的用法，與本句語境不同。",
-        "wrong-mcq-11": "「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」是「wrong — morally bad or unacceptable = morally incorrect, unjust, or unethical 錯誤的；不道德的；不應該的」的用法，與本句語境不同。",
-        "wrong-mcq-08": "「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」是「wrong — inappropriate or unsuitable = not suitable for a situation 不合適的；不恰當的」的用法，與本句語境不同。",
-        "wrong-mcq-12": "「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」是「right and wrong = morally correct and morally incorrect behavior 是非；對錯；善惡」的用法，與本句語境不同。",
-        "wrong-mcq-07": "「表示錯的一邊；反面；例句：「你的衣服穿反了。」」是「wrong side = incorrect side, position, or orientation 錯的一邊；反面」的用法，與本句語境不同。"
+        "wrong-mcq-10": "本句的「wrong place at the wrong time」指「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」。",
+        "wrong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-10"
     },
@@ -1319,11 +1239,9 @@ export default {
       "masked": "It is ____.",
       "options": [
         "wrong-mcq-11",
+        "wrong-mcq-32",
         "wrong-mcq-10",
-        "wrong-mcq-12",
-        "wrong-mcq-09",
-        "wrong-mcq-13",
-        "wrong-mcq-08"
+        "wrong-mcq-17"
       ],
       "explanation": "本句的「wrong to cheat」指「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」。",
       "sentenceIndex": 20,
@@ -1332,12 +1250,10 @@ export default {
         "wrong to cheat"
       ],
       "optionReasons": {
-        "wrong-mcq-11": "本句指「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」。",
-        "wrong-mcq-10": "「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」是「wrong person / wrong place / wrong time — situational mismatch = unsuitable or inappropriate in the circumstances 人不對；場合不對；時機不對」的用法，與本句語境不同。",
-        "wrong-mcq-12": "「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」是「right and wrong = morally correct and morally incorrect behavior 是非；對錯；善惡」的用法，與本句語境不同。",
-        "wrong-mcq-09": "「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」是「say the wrong thing = say something inappropriate, awkward, offensive, or badly judged 說錯話；說了不恰當的話」的用法，與本句語境不同。",
-        "wrong-mcq-13": "「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」是「do wrong = act immorally or unfairly 做錯事；作惡；做不對的事」的用法，與本句語境不同。",
-        "wrong-mcq-08": "「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」是「wrong — inappropriate or unsuitable = not suitable for a situation 不合適的；不恰當的」的用法，與本句語境不同。"
+        "wrong-mcq-11": "本句的「wrong to cheat」指「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」。",
+        "wrong-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-11"
     },
@@ -1349,11 +1265,9 @@ export default {
       "masked": "She knew that what she had done was ____.",
       "options": [
         "wrong-mcq-11",
-        "wrong-mcq-10",
-        "wrong-mcq-12",
-        "wrong-mcq-09",
-        "wrong-mcq-13",
-        "wrong-mcq-08"
+        "wrong-mcq-18",
+        "wrong-mcq-08",
+        "wrong-mcq-27"
       ],
       "explanation": "本句的「wrong」指「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」。",
       "sentenceIndex": 21,
@@ -1362,12 +1276,10 @@ export default {
         "wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-11": "本句指「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」。",
-        "wrong-mcq-10": "「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」是「wrong person / wrong place / wrong time — situational mismatch = unsuitable or inappropriate in the circumstances 人不對；場合不對；時機不對」的用法，與本句語境不同。",
-        "wrong-mcq-12": "「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」是「right and wrong = morally correct and morally incorrect behavior 是非；對錯；善惡」的用法，與本句語境不同。",
-        "wrong-mcq-09": "「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」是「say the wrong thing = say something inappropriate, awkward, offensive, or badly judged 說錯話；說了不恰當的話」的用法，與本句語境不同。",
-        "wrong-mcq-13": "「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」是「do wrong = act immorally or unfairly 做錯事；作惡；做不對的事」的用法，與本句語境不同。",
-        "wrong-mcq-08": "「表示不合適的；不恰當的；例句：「那不是提出這個問題的適當時機。」」是「wrong — inappropriate or unsuitable = not suitable for a situation 不合適的；不恰當的」的用法，與本句語境不同。"
+        "wrong-mcq-11": "本句的「wrong」指「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-11"
     },
@@ -1379,11 +1291,9 @@ export default {
       "masked": "Children gradually learn the difference between ____.",
       "options": [
         "wrong-mcq-12",
-        "wrong-mcq-11",
-        "wrong-mcq-13",
-        "wrong-mcq-10",
-        "wrong-mcq-14",
-        "wrong-mcq-09"
+        "wrong-mcq-17",
+        "wrong-mcq-08",
+        "wrong-mcq-25"
       ],
       "explanation": "本句的「right and wrong」指「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」。",
       "sentenceIndex": 22,
@@ -1392,12 +1302,10 @@ export default {
         "right and wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-12": "本句指「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」。",
-        "wrong-mcq-11": "「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」是「wrong — morally bad or unacceptable = morally incorrect, unjust, or unethical 錯誤的；不道德的；不應該的」的用法，與本句語境不同。",
-        "wrong-mcq-13": "「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」是「do wrong = act immorally or unfairly 做錯事；作惡；做不對的事」的用法，與本句語境不同。",
-        "wrong-mcq-10": "「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」是「wrong person / wrong place / wrong time — situational mismatch = unsuitable or inappropriate in the circumstances 人不對；場合不對；時機不對」的用法，與本句語境不同。",
-        "wrong-mcq-14": "「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」是「wrong someone = treat someone unfairly or unjustly 虧待；冤枉；不公正地對待」的用法，與本句語境不同。",
-        "wrong-mcq-09": "「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」是「say the wrong thing = say something inappropriate, awkward, offensive, or badly judged 說錯話；說了不恰當的話」的用法，與本句語境不同。"
+        "wrong-mcq-12": "本句的「right and wrong」指「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-12"
     },
@@ -1409,11 +1317,9 @@ export default {
       "masked": "The film raises questions about ____.",
       "options": [
         "wrong-mcq-12",
-        "wrong-mcq-11",
-        "wrong-mcq-13",
-        "wrong-mcq-10",
-        "wrong-mcq-14",
-        "wrong-mcq-09"
+        "wrong-mcq-17",
+        "wrong-mcq-18",
+        "wrong-mcq-30"
       ],
       "explanation": "本句的「right and wrong」指「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」。",
       "sentenceIndex": 23,
@@ -1422,12 +1328,10 @@ export default {
         "right and wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-12": "本句指「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」。",
-        "wrong-mcq-11": "「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」是「wrong — morally bad or unacceptable = morally incorrect, unjust, or unethical 錯誤的；不道德的；不應該的」的用法，與本句語境不同。",
-        "wrong-mcq-13": "「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」是「do wrong = act immorally or unfairly 做錯事；作惡；做不對的事」的用法，與本句語境不同。",
-        "wrong-mcq-10": "「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」是「wrong person / wrong place / wrong time — situational mismatch = unsuitable or inappropriate in the circumstances 人不對；場合不對；時機不對」的用法，與本句語境不同。",
-        "wrong-mcq-14": "「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」是「wrong someone = treat someone unfairly or unjustly 虧待；冤枉；不公正地對待」的用法，與本句語境不同。",
-        "wrong-mcq-09": "「表示說錯話；說了不恰當的話；例句：「我在正式場合總怕自己會說錯話。」」是「say the wrong thing = say something inappropriate, awkward, offensive, or badly judged 說錯話；說了不恰當的話」的用法，與本句語境不同。"
+        "wrong-mcq-12": "本句的「right and wrong」指「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-12"
     },
@@ -1439,11 +1343,9 @@ export default {
       "masked": "He knew he had ____.",
       "options": [
         "wrong-mcq-13",
-        "wrong-mcq-12",
+        "wrong-mcq-27",
         "wrong-mcq-14",
-        "wrong-mcq-11",
-        "wrong-mcq-15",
-        "wrong-mcq-10"
+        "wrong-mcq-16"
       ],
       "explanation": "本句的「done wrong」指「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」。",
       "sentenceIndex": 24,
@@ -1452,12 +1354,10 @@ export default {
         "done wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-13": "本句指「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」。",
-        "wrong-mcq-12": "「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」是「right and wrong = morally correct and morally incorrect behavior 是非；對錯；善惡」的用法，與本句語境不同。",
-        "wrong-mcq-14": "「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」是「wrong someone = treat someone unfairly or unjustly 虧待；冤枉；不公正地對待」的用法，與本句語境不同。",
-        "wrong-mcq-11": "「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」是「wrong — morally bad or unacceptable = morally incorrect, unjust, or unethical 錯誤的；不道德的；不應該的」的用法，與本句語境不同。",
-        "wrong-mcq-15": "「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」是「a wrong = an unjust or immoral act 錯事；不義行為；冤屈」的用法，與本句語境不同。",
-        "wrong-mcq-10": "「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」是「wrong person / wrong place / wrong time — situational mismatch = unsuitable or inappropriate in the circumstances 人不對；場合不對；時機不對」的用法，與本句語境不同。"
+        "wrong-mcq-13": "本句的「done wrong」指「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」。",
+        "wrong-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-13"
     },
@@ -1469,11 +1369,9 @@ export default {
       "masked": "People who ____ should still be treated fairly.",
       "options": [
         "wrong-mcq-13",
-        "wrong-mcq-12",
-        "wrong-mcq-14",
-        "wrong-mcq-11",
-        "wrong-mcq-15",
-        "wrong-mcq-10"
+        "wrong-mcq-21",
+        "wrong-mcq-17",
+        "wrong-mcq-24"
       ],
       "explanation": "本句的「do wrong」指「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」。",
       "sentenceIndex": 25,
@@ -1482,12 +1380,10 @@ export default {
         "do wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-13": "本句指「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」。",
-        "wrong-mcq-12": "「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」是「right and wrong = morally correct and morally incorrect behavior 是非；對錯；善惡」的用法，與本句語境不同。",
-        "wrong-mcq-14": "「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」是「wrong someone = treat someone unfairly or unjustly 虧待；冤枉；不公正地對待」的用法，與本句語境不同。",
-        "wrong-mcq-11": "「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」是「wrong — morally bad or unacceptable = morally incorrect, unjust, or unethical 錯誤的；不道德的；不應該的」的用法，與本句語境不同。",
-        "wrong-mcq-15": "「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」是「a wrong = an unjust or immoral act 錯事；不義行為；冤屈」的用法，與本句語境不同。",
-        "wrong-mcq-10": "「表示人不對；場合不對；時機不對；例句：「他不是這份工作的合適人選。」」是「wrong person / wrong place / wrong time — situational mismatch = unsuitable or inappropriate in the circumstances 人不對；場合不對；時機不對」的用法，與本句語境不同。"
+        "wrong-mcq-13": "本句的「do wrong」指「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」。",
+        "wrong-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-13"
     },
@@ -1499,11 +1395,9 @@ export default {
       "masked": "She felt that the company had ____.",
       "options": [
         "wrong-mcq-14",
-        "wrong-mcq-13",
-        "wrong-mcq-15",
-        "wrong-mcq-12",
-        "wrong-mcq-16",
-        "wrong-mcq-11"
+        "wrong-mcq-27",
+        "wrong-mcq-18",
+        "wrong-mcq-30"
       ],
       "explanation": "本句的「wronged her」指「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」。",
       "sentenceIndex": 26,
@@ -1512,12 +1406,10 @@ export default {
         "wronged her"
       ],
       "optionReasons": {
-        "wrong-mcq-14": "本句指「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」。",
-        "wrong-mcq-13": "「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」是「do wrong = act immorally or unfairly 做錯事；作惡；做不對的事」的用法，與本句語境不同。",
-        "wrong-mcq-15": "「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」是「a wrong = an unjust or immoral act 錯事；不義行為；冤屈」的用法，與本句語境不同。",
-        "wrong-mcq-12": "「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」是「right and wrong = morally correct and morally incorrect behavior 是非；對錯；善惡」的用法，與本句語境不同。",
-        "wrong-mcq-16": "「表示有問題；例句：「這台電腦有問題。」」是「something is wrong with something = there is a problem, fault, or abnormality ……有問題；……不對勁」的用法，與本句語境不同。",
-        "wrong-mcq-11": "「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」是「wrong — morally bad or unacceptable = morally incorrect, unjust, or unethical 錯誤的；不道德的；不應該的」的用法，與本句語境不同。"
+        "wrong-mcq-14": "本句的「wronged her」指「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」。",
+        "wrong-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-14"
     },
@@ -1529,11 +1421,9 @@ export default {
       "masked": "He wanted to apologize to those he had ____.",
       "options": [
         "wrong-mcq-14",
-        "wrong-mcq-13",
-        "wrong-mcq-15",
-        "wrong-mcq-12",
-        "wrong-mcq-16",
-        "wrong-mcq-11"
+        "wrong-mcq-21",
+        "wrong-mcq-30",
+        "wrong-mcq-25"
       ],
       "explanation": "本句的「wronged」指「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」。",
       "sentenceIndex": 27,
@@ -1542,12 +1432,10 @@ export default {
         "wronged"
       ],
       "optionReasons": {
-        "wrong-mcq-14": "本句指「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」。",
-        "wrong-mcq-13": "「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」是「do wrong = act immorally or unfairly 做錯事；作惡；做不對的事」的用法，與本句語境不同。",
-        "wrong-mcq-15": "「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」是「a wrong = an unjust or immoral act 錯事；不義行為；冤屈」的用法，與本句語境不同。",
-        "wrong-mcq-12": "「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」是「right and wrong = morally correct and morally incorrect behavior 是非；對錯；善惡」的用法，與本句語境不同。",
-        "wrong-mcq-16": "「表示有問題；例句：「這台電腦有問題。」」是「something is wrong with something = there is a problem, fault, or abnormality ……有問題；……不對勁」的用法，與本句語境不同。",
-        "wrong-mcq-11": "「表示錯誤的；不道德的；不應該的；例句：「作弊是不對的。」」是「wrong — morally bad or unacceptable = morally incorrect, unjust, or unethical 錯誤的；不道德的；不應該的」的用法，與本句語境不同。"
+        "wrong-mcq-14": "本句的「wronged」指「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」。",
+        "wrong-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-14"
     },
@@ -1559,11 +1447,9 @@ export default {
       "masked": "Two ____ don’t make a right.",
       "options": [
         "wrong-mcq-15",
-        "wrong-mcq-14",
-        "wrong-mcq-16",
-        "wrong-mcq-13",
         "wrong-mcq-17",
-        "wrong-mcq-12"
+        "wrong-mcq-08",
+        "wrong-mcq-16"
       ],
       "explanation": "本句的「wrongs」指「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」。",
       "sentenceIndex": 28,
@@ -1572,12 +1458,10 @@ export default {
         "wrongs"
       ],
       "optionReasons": {
-        "wrong-mcq-15": "本句指「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」。",
-        "wrong-mcq-14": "「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」是「wrong someone = treat someone unfairly or unjustly 虧待；冤枉；不公正地對待」的用法，與本句語境不同。",
-        "wrong-mcq-16": "「表示有問題；例句：「這台電腦有問題。」」是「something is wrong with something = there is a problem, fault, or abnormality ……有問題；……不對勁」的用法，與本句語境不同。",
-        "wrong-mcq-13": "「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」是「do wrong = act immorally or unfairly 做錯事；作惡；做不對的事」的用法，與本句語境不同。",
-        "wrong-mcq-17": "「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」是「something is wrong with someone = someone is unwell, upset, or behaving unusually 某人不舒服／不對勁／有狀況」的用法，與本句語境不同。",
-        "wrong-mcq-12": "「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」是「right and wrong = morally correct and morally incorrect behavior 是非；對錯；善惡」的用法，與本句語境不同。"
+        "wrong-mcq-15": "本句的「wrongs」指「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-15"
     },
@@ -1589,11 +1473,9 @@ export default {
       "masked": "The law was intended to correct past ____.",
       "options": [
         "wrong-mcq-15",
-        "wrong-mcq-14",
-        "wrong-mcq-16",
-        "wrong-mcq-13",
+        "wrong-mcq-18",
         "wrong-mcq-17",
-        "wrong-mcq-12"
+        "wrong-mcq-31"
       ],
       "explanation": "本句的「wrongs」指「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」。",
       "sentenceIndex": 29,
@@ -1602,12 +1484,10 @@ export default {
         "wrongs"
       ],
       "optionReasons": {
-        "wrong-mcq-15": "本句指「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」。",
-        "wrong-mcq-14": "「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」是「wrong someone = treat someone unfairly or unjustly 虧待；冤枉；不公正地對待」的用法，與本句語境不同。",
-        "wrong-mcq-16": "「表示有問題；例句：「這台電腦有問題。」」是「something is wrong with something = there is a problem, fault, or abnormality ……有問題；……不對勁」的用法，與本句語境不同。",
-        "wrong-mcq-13": "「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」是「do wrong = act immorally or unfairly 做錯事；作惡；做不對的事」的用法，與本句語境不同。",
-        "wrong-mcq-17": "「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」是「something is wrong with someone = someone is unwell, upset, or behaving unusually 某人不舒服／不對勁／有狀況」的用法，與本句語境不同。",
-        "wrong-mcq-12": "「表示是非；對錯；善惡；例句：「孩子會逐漸學會分辨是非對錯。」」是「right and wrong = morally correct and morally incorrect behavior 是非；對錯；善惡」的用法，與本句語境不同。"
+        "wrong-mcq-15": "本句的「wrongs」指「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-15"
     },
@@ -1619,11 +1499,9 @@ export default {
       "masked": "There’s something ____.",
       "options": [
         "wrong-mcq-16",
-        "wrong-mcq-15",
-        "wrong-mcq-17",
-        "wrong-mcq-14",
-        "wrong-mcq-18",
-        "wrong-mcq-13"
+        "wrong-mcq-23",
+        "wrong-mcq-21",
+        "wrong-mcq-27"
       ],
       "explanation": "本句的「wrong with the computer」指「表示有問題；例句：「這台電腦有問題。」」。",
       "sentenceIndex": 30,
@@ -1632,12 +1510,10 @@ export default {
         "wrong with the computer"
       ],
       "optionReasons": {
-        "wrong-mcq-16": "本句指「表示有問題；例句：「這台電腦有問題。」」。",
-        "wrong-mcq-15": "「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」是「a wrong = an unjust or immoral act 錯事；不義行為；冤屈」的用法，與本句語境不同。",
-        "wrong-mcq-17": "「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」是「something is wrong with someone = someone is unwell, upset, or behaving unusually 某人不舒服／不對勁／有狀況」的用法，與本句語境不同。",
-        "wrong-mcq-14": "「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」是「wrong someone = treat someone unfairly or unjustly 虧待；冤枉；不公正地對待」的用法，與本句語境不同。",
-        "wrong-mcq-18": "「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」是「what’s wrong? = what is the problem? 怎麼了？出了什麼事？」的用法，與本句語境不同。",
-        "wrong-mcq-13": "「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」是「do wrong = act immorally or unfairly 做錯事；作惡；做不對的事」的用法，與本句語境不同。"
+        "wrong-mcq-16": "本句的「wrong with the computer」指「表示有問題；例句：「這台電腦有問題。」」。",
+        "wrong-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-16"
     },
@@ -1649,11 +1525,9 @@ export default {
       "masked": "I think something is ____.",
       "options": [
         "wrong-mcq-16",
-        "wrong-mcq-15",
-        "wrong-mcq-17",
-        "wrong-mcq-14",
-        "wrong-mcq-18",
-        "wrong-mcq-13"
+        "wrong-mcq-07",
+        "wrong-mcq-24",
+        "wrong-mcq-27"
       ],
       "explanation": "本句的「wrong with the engine」指「表示有問題；例句：「這台電腦有問題。」」。",
       "sentenceIndex": 31,
@@ -1662,12 +1536,10 @@ export default {
         "wrong with the engine"
       ],
       "optionReasons": {
-        "wrong-mcq-16": "本句指「表示有問題；例句：「這台電腦有問題。」」。",
-        "wrong-mcq-15": "「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」是「a wrong = an unjust or immoral act 錯事；不義行為；冤屈」的用法，與本句語境不同。",
-        "wrong-mcq-17": "「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」是「something is wrong with someone = someone is unwell, upset, or behaving unusually 某人不舒服／不對勁／有狀況」的用法，與本句語境不同。",
-        "wrong-mcq-14": "「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」是「wrong someone = treat someone unfairly or unjustly 虧待；冤枉；不公正地對待」的用法，與本句語境不同。",
-        "wrong-mcq-18": "「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」是「what’s wrong? = what is the problem? 怎麼了？出了什麼事？」的用法，與本句語境不同。",
-        "wrong-mcq-13": "「表示做錯事；作惡；做不對的事；例句：「他知道自己做錯了事。」」是「do wrong = act immorally or unfairly 做錯事；作惡；做不對的事」的用法，與本句語境不同。"
+        "wrong-mcq-16": "本句的「wrong with the engine」指「表示有問題；例句：「這台電腦有問題。」」。",
+        "wrong-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-16"
     },
@@ -1679,10 +1551,8 @@ export default {
       "masked": "Is something ____?",
       "options": [
         "wrong-mcq-17",
-        "wrong-mcq-16",
-        "wrong-mcq-18",
-        "wrong-mcq-15",
-        "wrong-mcq-19",
+        "wrong-mcq-06",
+        "wrong-mcq-10",
         "wrong-mcq-14"
       ],
       "explanation": "本句的「wrong with you」指「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」。",
@@ -1692,12 +1562,10 @@ export default {
         "wrong with you"
       ],
       "optionReasons": {
-        "wrong-mcq-17": "本句指「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」。",
-        "wrong-mcq-16": "「表示有問題；例句：「這台電腦有問題。」」是「something is wrong with something = there is a problem, fault, or abnormality ……有問題；……不對勁」的用法，與本句語境不同。",
-        "wrong-mcq-18": "「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」是「what’s wrong? = what is the problem? 怎麼了？出了什麼事？」的用法，與本句語境不同。",
-        "wrong-mcq-15": "「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」是「a wrong = an unjust or immoral act 錯事；不義行為；冤屈」的用法，與本句語境不同。",
-        "wrong-mcq-19": "「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」是「prove someone wrong = show that someone’s belief, prediction, or claim is incorrect 證明某人錯了」的用法，與本句語境不同。",
-        "wrong-mcq-14": "「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」是「wrong someone = treat someone unfairly or unjustly 虧待；冤枉；不公正地對待」的用法，與本句語境不同。"
+        "wrong-mcq-17": "本句的「wrong with you」指「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」。",
+        "wrong-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-17"
     },
@@ -1709,11 +1577,9 @@ export default {
       "masked": "I could tell that something was ____.",
       "options": [
         "wrong-mcq-17",
-        "wrong-mcq-16",
-        "wrong-mcq-18",
-        "wrong-mcq-15",
-        "wrong-mcq-19",
-        "wrong-mcq-14"
+        "wrong-mcq-14",
+        "wrong-mcq-31",
+        "wrong-mcq-06"
       ],
       "explanation": "本句的「wrong with her」指「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」。",
       "sentenceIndex": 33,
@@ -1722,12 +1588,10 @@ export default {
         "wrong with her"
       ],
       "optionReasons": {
-        "wrong-mcq-17": "本句指「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」。",
-        "wrong-mcq-16": "「表示有問題；例句：「這台電腦有問題。」」是「something is wrong with something = there is a problem, fault, or abnormality ……有問題；……不對勁」的用法，與本句語境不同。",
-        "wrong-mcq-18": "「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」是「what’s wrong? = what is the problem? 怎麼了？出了什麼事？」的用法，與本句語境不同。",
-        "wrong-mcq-15": "「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」是「a wrong = an unjust or immoral act 錯事；不義行為；冤屈」的用法，與本句語境不同。",
-        "wrong-mcq-19": "「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」是「prove someone wrong = show that someone’s belief, prediction, or claim is incorrect 證明某人錯了」的用法，與本句語境不同。",
-        "wrong-mcq-14": "「表示虧待；冤枉；不公正地對待；例句：「她覺得公司虧待了她。」」是「wrong someone = treat someone unfairly or unjustly 虧待；冤枉；不公正地對待」的用法，與本句語境不同。"
+        "wrong-mcq-17": "本句的「wrong with her」指「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」。",
+        "wrong-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-17"
     },
@@ -1740,10 +1604,8 @@ export default {
       "options": [
         "wrong-mcq-18",
         "wrong-mcq-17",
-        "wrong-mcq-19",
-        "wrong-mcq-16",
-        "wrong-mcq-20",
-        "wrong-mcq-15"
+        "wrong-mcq-06",
+        "wrong-mcq-31"
       ],
       "explanation": "本句的「What’s wrong?」指「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」。",
       "sentenceIndex": 34,
@@ -1752,12 +1614,10 @@ export default {
         "What’s wrong?"
       ],
       "optionReasons": {
-        "wrong-mcq-18": "本句指「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」。",
-        "wrong-mcq-17": "「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」是「something is wrong with someone = someone is unwell, upset, or behaving unusually 某人不舒服／不對勁／有狀況」的用法，與本句語境不同。",
-        "wrong-mcq-19": "「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」是「prove someone wrong = show that someone’s belief, prediction, or claim is incorrect 證明某人錯了」的用法，與本句語境不同。",
-        "wrong-mcq-16": "「表示有問題；例句：「這台電腦有問題。」」是「something is wrong with something = there is a problem, fault, or abnormality ……有問題；……不對勁」的用法，與本句語境不同。",
-        "wrong-mcq-20": "「表示承認自己錯了；例句：「他最後承認自己錯了。」」是「admit you were wrong = acknowledge that your opinion, belief, or action was incorrect 承認自己錯了」的用法，與本句語境不同。",
-        "wrong-mcq-15": "「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」是「a wrong = an unjust or immoral act 錯事；不義行為；冤屈」的用法，與本句語境不同。"
+        "wrong-mcq-18": "本句的「What’s wrong?」指「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-18"
     },
@@ -1769,11 +1629,9 @@ export default {
       "masked": "____",
       "options": [
         "wrong-mcq-18",
-        "wrong-mcq-17",
         "wrong-mcq-19",
-        "wrong-mcq-16",
-        "wrong-mcq-20",
-        "wrong-mcq-15"
+        "wrong-mcq-25",
+        "wrong-mcq-24"
       ],
       "explanation": "本句的「What’s wrong with the printer?」指「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」。",
       "sentenceIndex": 35,
@@ -1782,12 +1640,10 @@ export default {
         "What’s wrong with the printer?"
       ],
       "optionReasons": {
-        "wrong-mcq-18": "本句指「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」。",
-        "wrong-mcq-17": "「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」是「something is wrong with someone = someone is unwell, upset, or behaving unusually 某人不舒服／不對勁／有狀況」的用法，與本句語境不同。",
-        "wrong-mcq-19": "「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」是「prove someone wrong = show that someone’s belief, prediction, or claim is incorrect 證明某人錯了」的用法，與本句語境不同。",
-        "wrong-mcq-16": "「表示有問題；例句：「這台電腦有問題。」」是「something is wrong with something = there is a problem, fault, or abnormality ……有問題；……不對勁」的用法，與本句語境不同。",
-        "wrong-mcq-20": "「表示承認自己錯了；例句：「他最後承認自己錯了。」」是「admit you were wrong = acknowledge that your opinion, belief, or action was incorrect 承認自己錯了」的用法，與本句語境不同。",
-        "wrong-mcq-15": "「表示錯事；不義行為；冤屈；例句：「以錯制錯並不能變成對的。」」是「a wrong = an unjust or immoral act 錯事；不義行為；冤屈」的用法，與本句語境不同。"
+        "wrong-mcq-18": "本句的「What’s wrong with the printer?」指「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」。",
+        "wrong-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-18"
     },
@@ -1800,9 +1656,7 @@ export default {
       "options": [
         "wrong-mcq-19",
         "wrong-mcq-18",
-        "wrong-mcq-20",
-        "wrong-mcq-17",
-        "wrong-mcq-21",
+        "wrong-mcq-31",
         "wrong-mcq-16"
       ],
       "explanation": "本句的「proved them wrong」指「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」。",
@@ -1812,12 +1666,10 @@ export default {
         "proved them wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-19": "本句指「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」。",
-        "wrong-mcq-18": "「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」是「what’s wrong? = what is the problem? 怎麼了？出了什麼事？」的用法，與本句語境不同。",
-        "wrong-mcq-20": "「表示承認自己錯了；例句：「他最後承認自己錯了。」」是「admit you were wrong = acknowledge that your opinion, belief, or action was incorrect 承認自己錯了」的用法，與本句語境不同。",
-        "wrong-mcq-17": "「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」是「something is wrong with someone = someone is unwell, upset, or behaving unusually 某人不舒服／不對勁／有狀況」的用法，與本句語境不同。",
-        "wrong-mcq-21": "「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」是「don’t get me wrong = do not misunderstand what I mean 別誤會我的意思」的用法，與本句語境不同。",
-        "wrong-mcq-16": "「表示有問題；例句：「這台電腦有問題。」」是「something is wrong with something = there is a problem, fault, or abnormality ……有問題；……不對勁」的用法，與本句語境不同。"
+        "wrong-mcq-19": "本句的「proved them wrong」指「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-19"
     },
@@ -1829,11 +1681,9 @@ export default {
       "masked": "I hope the results ____.",
       "options": [
         "wrong-mcq-19",
+        "wrong-mcq-24",
         "wrong-mcq-18",
-        "wrong-mcq-20",
-        "wrong-mcq-17",
-        "wrong-mcq-21",
-        "wrong-mcq-16"
+        "wrong-mcq-10"
       ],
       "explanation": "本句的「prove me wrong」指「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」。",
       "sentenceIndex": 37,
@@ -1842,12 +1692,10 @@ export default {
         "prove me wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-19": "本句指「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」。",
-        "wrong-mcq-18": "「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」是「what’s wrong? = what is the problem? 怎麼了？出了什麼事？」的用法，與本句語境不同。",
-        "wrong-mcq-20": "「表示承認自己錯了；例句：「他最後承認自己錯了。」」是「admit you were wrong = acknowledge that your opinion, belief, or action was incorrect 承認自己錯了」的用法，與本句語境不同。",
-        "wrong-mcq-17": "「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」是「something is wrong with someone = someone is unwell, upset, or behaving unusually 某人不舒服／不對勁／有狀況」的用法，與本句語境不同。",
-        "wrong-mcq-21": "「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」是「don’t get me wrong = do not misunderstand what I mean 別誤會我的意思」的用法，與本句語境不同。",
-        "wrong-mcq-16": "「表示有問題；例句：「這台電腦有問題。」」是「something is wrong with something = there is a problem, fault, or abnormality ……有問題；……不對勁」的用法，與本句語境不同。"
+        "wrong-mcq-19": "本句的「prove me wrong」指「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」。",
+        "wrong-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-19"
     },
@@ -1859,11 +1707,9 @@ export default {
       "masked": "He eventually ____.",
       "options": [
         "wrong-mcq-20",
-        "wrong-mcq-19",
-        "wrong-mcq-21",
-        "wrong-mcq-18",
-        "wrong-mcq-22",
-        "wrong-mcq-17"
+        "wrong-mcq-25",
+        "wrong-mcq-32",
+        "wrong-mcq-26"
       ],
       "explanation": "本句的「admitted he was wrong」指「表示承認自己錯了；例句：「他最後承認自己錯了。」」。",
       "sentenceIndex": 38,
@@ -1872,12 +1718,10 @@ export default {
         "admitted he was wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-20": "本句指「表示承認自己錯了；例句：「他最後承認自己錯了。」」。",
-        "wrong-mcq-19": "「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」是「prove someone wrong = show that someone’s belief, prediction, or claim is incorrect 證明某人錯了」的用法，與本句語境不同。",
-        "wrong-mcq-21": "「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」是「don’t get me wrong = do not misunderstand what I mean 別誤會我的意思」的用法，與本句語境不同。",
-        "wrong-mcq-18": "「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」是「what’s wrong? = what is the problem? 怎麼了？出了什麼事？」的用法，與本句語境不同。",
-        "wrong-mcq-22": "「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」是「get someone wrong = misunderstand someone’s meaning, personality, or intention 誤解某人；看錯某人」的用法，與本句語境不同。",
-        "wrong-mcq-17": "「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」是「something is wrong with someone = someone is unwell, upset, or behaving unusually 某人不舒服／不對勁／有狀況」的用法，與本句語境不同。"
+        "wrong-mcq-20": "本句的「admitted he was wrong」指「表示承認自己錯了；例句：「他最後承認自己錯了。」」。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-20"
     },
@@ -1889,11 +1733,9 @@ export default {
       "masked": "It takes courage to ____.",
       "options": [
         "wrong-mcq-20",
-        "wrong-mcq-19",
-        "wrong-mcq-21",
-        "wrong-mcq-18",
-        "wrong-mcq-22",
-        "wrong-mcq-17"
+        "wrong-mcq-16",
+        "wrong-mcq-30",
+        "wrong-mcq-18"
       ],
       "explanation": "本句的「admit you’re wrong」指「表示承認自己錯了；例句：「他最後承認自己錯了。」」。",
       "sentenceIndex": 39,
@@ -1902,12 +1744,10 @@ export default {
         "admit you’re wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-20": "本句指「表示承認自己錯了；例句：「他最後承認自己錯了。」」。",
-        "wrong-mcq-19": "「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」是「prove someone wrong = show that someone’s belief, prediction, or claim is incorrect 證明某人錯了」的用法，與本句語境不同。",
-        "wrong-mcq-21": "「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」是「don’t get me wrong = do not misunderstand what I mean 別誤會我的意思」的用法，與本句語境不同。",
-        "wrong-mcq-18": "「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」是「what’s wrong? = what is the problem? 怎麼了？出了什麼事？」的用法，與本句語境不同。",
-        "wrong-mcq-22": "「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」是「get someone wrong = misunderstand someone’s meaning, personality, or intention 誤解某人；看錯某人」的用法，與本句語境不同。",
-        "wrong-mcq-17": "「表示某人不舒服／不對勁／有狀況；例句：「你是不是哪裡不舒服／有什麼事？」」是「something is wrong with someone = someone is unwell, upset, or behaving unusually 某人不舒服／不對勁／有狀況」的用法，與本句語境不同。"
+        "wrong-mcq-20": "本句的「admit you’re wrong」指「表示承認自己錯了；例句：「他最後承認自己錯了。」」。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-20"
     },
@@ -1919,10 +1759,8 @@ export default {
       "masked": "____—I like the idea, but it needs work.",
       "options": [
         "wrong-mcq-21",
-        "wrong-mcq-20",
-        "wrong-mcq-22",
         "wrong-mcq-19",
-        "wrong-mcq-23",
+        "wrong-mcq-08",
         "wrong-mcq-18"
       ],
       "explanation": "本句的「Don’t get me wrong」指「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」。",
@@ -1932,12 +1770,10 @@ export default {
         "Don’t get me wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-21": "本句指「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」。",
-        "wrong-mcq-20": "「表示承認自己錯了；例句：「他最後承認自己錯了。」」是「admit you were wrong = acknowledge that your opinion, belief, or action was incorrect 承認自己錯了」的用法，與本句語境不同。",
-        "wrong-mcq-22": "「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」是「get someone wrong = misunderstand someone’s meaning, personality, or intention 誤解某人；看錯某人」的用法，與本句語境不同。",
-        "wrong-mcq-19": "「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」是「prove someone wrong = show that someone’s belief, prediction, or claim is incorrect 證明某人錯了」的用法，與本句語境不同。",
-        "wrong-mcq-23": "「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」是「wrongly = incorrectly or unjustly 錯誤地；不當地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-18": "「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」是「what’s wrong? = what is the problem? 怎麼了？出了什麼事？」的用法，與本句語境不同。"
+        "wrong-mcq-21": "本句的「Don’t get me wrong」指「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」。",
+        "wrong-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-21"
     },
@@ -1949,11 +1785,9 @@ export default {
       "masked": "____, I’m not criticizing you personally.",
       "options": [
         "wrong-mcq-21",
-        "wrong-mcq-20",
-        "wrong-mcq-22",
-        "wrong-mcq-19",
-        "wrong-mcq-23",
-        "wrong-mcq-18"
+        "wrong-mcq-31",
+        "wrong-mcq-10",
+        "wrong-mcq-26"
       ],
       "explanation": "本句的「Don’t get me wrong」指「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」。",
       "sentenceIndex": 41,
@@ -1962,12 +1796,10 @@ export default {
         "Don’t get me wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-21": "本句指「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」。",
-        "wrong-mcq-20": "「表示承認自己錯了；例句：「他最後承認自己錯了。」」是「admit you were wrong = acknowledge that your opinion, belief, or action was incorrect 承認自己錯了」的用法，與本句語境不同。",
-        "wrong-mcq-22": "「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」是「get someone wrong = misunderstand someone’s meaning, personality, or intention 誤解某人；看錯某人」的用法，與本句語境不同。",
-        "wrong-mcq-19": "「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」是「prove someone wrong = show that someone’s belief, prediction, or claim is incorrect 證明某人錯了」的用法，與本句語境不同。",
-        "wrong-mcq-23": "「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」是「wrongly = incorrectly or unjustly 錯誤地；不當地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-18": "「表示怎麼了？出了什麼事？；例句：「你看起來很難過。怎麼了？」」是「what’s wrong? = what is the problem? 怎麼了？出了什麼事？」的用法，與本句語境不同。"
+        "wrong-mcq-21": "本句的「Don’t get me wrong」指「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-21"
     },
@@ -1979,11 +1811,9 @@ export default {
       "masked": "I think you’ve ____.",
       "options": [
         "wrong-mcq-22",
-        "wrong-mcq-21",
-        "wrong-mcq-23",
-        "wrong-mcq-20",
-        "wrong-mcq-24",
-        "wrong-mcq-19"
+        "wrong-mcq-16",
+        "wrong-mcq-31",
+        "wrong-mcq-25"
       ],
       "explanation": "本句的「got me wrong」指「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」。",
       "sentenceIndex": 42,
@@ -1992,12 +1822,10 @@ export default {
         "got me wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-22": "本句指「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」。",
-        "wrong-mcq-21": "「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」是「don’t get me wrong = do not misunderstand what I mean 別誤會我的意思」的用法，與本句語境不同。",
-        "wrong-mcq-23": "「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」是「wrongly = incorrectly or unjustly 錯誤地；不當地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-20": "「表示承認自己錯了；例句：「他最後承認自己錯了。」」是「admit you were wrong = acknowledge that your opinion, belief, or action was incorrect 承認自己錯了」的用法，與本句語境不同。",
-        "wrong-mcq-24": "「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」是「wrongfully = illegally or unjustly, especially in formal/legal contexts 非法地；不公正地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-19": "「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」是「prove someone wrong = show that someone’s belief, prediction, or claim is incorrect 證明某人錯了」的用法，與本句語境不同。"
+        "wrong-mcq-22": "本句的「got me wrong」指「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-22"
     },
@@ -2009,11 +1837,9 @@ export default {
       "masked": "At first, I ____.",
       "options": [
         "wrong-mcq-22",
-        "wrong-mcq-21",
-        "wrong-mcq-23",
-        "wrong-mcq-20",
-        "wrong-mcq-24",
-        "wrong-mcq-19"
+        "wrong-mcq-08",
+        "wrong-mcq-16",
+        "wrong-mcq-14"
       ],
       "explanation": "本句的「got him completely wrong」指「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」。",
       "sentenceIndex": 43,
@@ -2022,12 +1848,10 @@ export default {
         "got him completely wrong"
       ],
       "optionReasons": {
-        "wrong-mcq-22": "本句指「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」。",
-        "wrong-mcq-21": "「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」是「don’t get me wrong = do not misunderstand what I mean 別誤會我的意思」的用法，與本句語境不同。",
-        "wrong-mcq-23": "「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」是「wrongly = incorrectly or unjustly 錯誤地；不當地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-20": "「表示承認自己錯了；例句：「他最後承認自己錯了。」」是「admit you were wrong = acknowledge that your opinion, belief, or action was incorrect 承認自己錯了」的用法，與本句語境不同。",
-        "wrong-mcq-24": "「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」是「wrongfully = illegally or unjustly, especially in formal/legal contexts 非法地；不公正地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-19": "「表示證明某人錯了；例句：「大家都懷疑她，但她最後證明他們錯了。」」是「prove someone wrong = show that someone’s belief, prediction, or claim is incorrect 證明某人錯了」的用法，與本句語境不同。"
+        "wrong-mcq-22": "本句的「got him completely wrong」指「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」。",
+        "wrong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-22"
     },
@@ -2039,11 +1863,9 @@ export default {
       "masked": "She was ____ of stealing.",
       "options": [
         "wrong-mcq-23",
-        "wrong-mcq-22",
-        "wrong-mcq-24",
-        "wrong-mcq-21",
         "wrong-mcq-25",
-        "wrong-mcq-20"
+        "wrong-mcq-26",
+        "wrong-mcq-16"
       ],
       "explanation": "本句的「wrongly accused」指「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」。",
       "sentenceIndex": 44,
@@ -2052,12 +1874,10 @@ export default {
         "wrongly accused"
       ],
       "optionReasons": {
-        "wrong-mcq-23": "本句指「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」。",
-        "wrong-mcq-22": "「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」是「get someone wrong = misunderstand someone’s meaning, personality, or intention 誤解某人；看錯某人」的用法，與本句語境不同。",
-        "wrong-mcq-24": "「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」是「wrongfully = illegally or unjustly, especially in formal/legal contexts 非法地；不公正地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-21": "「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」是「don’t get me wrong = do not misunderstand what I mean 別誤會我的意思」的用法，與本句語境不同。",
-        "wrong-mcq-25": "「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」是「get off on the wrong foot = begin a relationship or activity badly 一開始就不順；開局不佳」的用法，與本句語境不同。",
-        "wrong-mcq-20": "「表示承認自己錯了；例句：「他最後承認自己錯了。」」是「admit you were wrong = acknowledge that your opinion, belief, or action was incorrect 承認自己錯了」的用法，與本句語境不同。"
+        "wrong-mcq-23": "本句的「wrongly accused」指「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-23"
     },
@@ -2069,11 +1889,9 @@ export default {
       "masked": "The report ____ that the event had been cancelled.",
       "options": [
         "wrong-mcq-23",
-        "wrong-mcq-22",
-        "wrong-mcq-24",
-        "wrong-mcq-21",
+        "wrong-mcq-17",
         "wrong-mcq-25",
-        "wrong-mcq-20"
+        "wrong-mcq-10"
       ],
       "explanation": "本句的「wrongly stated」指「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」。",
       "sentenceIndex": 45,
@@ -2082,12 +1900,10 @@ export default {
         "wrongly stated"
       ],
       "optionReasons": {
-        "wrong-mcq-23": "本句指「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」。",
-        "wrong-mcq-22": "「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」是「get someone wrong = misunderstand someone’s meaning, personality, or intention 誤解某人；看錯某人」的用法，與本句語境不同。",
-        "wrong-mcq-24": "「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」是「wrongfully = illegally or unjustly, especially in formal/legal contexts 非法地；不公正地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-21": "「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」是「don’t get me wrong = do not misunderstand what I mean 別誤會我的意思」的用法，與本句語境不同。",
-        "wrong-mcq-25": "「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」是「get off on the wrong foot = begin a relationship or activity badly 一開始就不順；開局不佳」的用法，與本句語境不同。",
-        "wrong-mcq-20": "「表示承認自己錯了；例句：「他最後承認自己錯了。」」是「admit you were wrong = acknowledge that your opinion, belief, or action was incorrect 承認自己錯了」的用法，與本句語境不同。"
+        "wrong-mcq-23": "本句的「wrongly stated」指「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-23"
     },
@@ -2099,10 +1915,8 @@ export default {
       "masked": "He was ____.",
       "options": [
         "wrong-mcq-24",
-        "wrong-mcq-23",
-        "wrong-mcq-25",
-        "wrong-mcq-22",
-        "wrong-mcq-26",
+        "wrong-mcq-27",
+        "wrong-mcq-08",
         "wrong-mcq-21"
       ],
       "explanation": "本句的「wrongfully imprisoned」指「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」。",
@@ -2112,12 +1926,10 @@ export default {
         "wrongfully imprisoned"
       ],
       "optionReasons": {
-        "wrong-mcq-24": "本句指「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」。",
-        "wrong-mcq-23": "「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」是「wrongly = incorrectly or unjustly 錯誤地；不當地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-25": "「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」是「get off on the wrong foot = begin a relationship or activity badly 一開始就不順；開局不佳」的用法，與本句語境不同。",
-        "wrong-mcq-22": "「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」是「get someone wrong = misunderstand someone’s meaning, personality, or intention 誤解某人；看錯某人」的用法，與本句語境不同。",
-        "wrong-mcq-26": "「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」是「rub someone the wrong way = annoy or irritate someone because of your manner 惹某人不高興；讓某人反感」的用法，與本句語境不同。",
-        "wrong-mcq-21": "「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」是「don’t get me wrong = do not misunderstand what I mean 別誤會我的意思」的用法，與本句語境不同。"
+        "wrong-mcq-24": "本句的「wrongfully imprisoned」指「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」。",
+        "wrong-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-24"
     },
@@ -2129,11 +1941,9 @@ export default {
       "masked": "The employee claimed she had been ____.",
       "options": [
         "wrong-mcq-24",
-        "wrong-mcq-23",
-        "wrong-mcq-25",
-        "wrong-mcq-22",
-        "wrong-mcq-26",
-        "wrong-mcq-21"
+        "wrong-mcq-07",
+        "wrong-mcq-08",
+        "wrong-mcq-10"
       ],
       "explanation": "本句的「wrongfully dismissed」指「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」。",
       "sentenceIndex": 47,
@@ -2142,12 +1952,10 @@ export default {
         "wrongfully dismissed"
       ],
       "optionReasons": {
-        "wrong-mcq-24": "本句指「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」。",
-        "wrong-mcq-23": "「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」是「wrongly = incorrectly or unjustly 錯誤地；不當地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-25": "「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」是「get off on the wrong foot = begin a relationship or activity badly 一開始就不順；開局不佳」的用法，與本句語境不同。",
-        "wrong-mcq-22": "「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」是「get someone wrong = misunderstand someone’s meaning, personality, or intention 誤解某人；看錯某人」的用法，與本句語境不同。",
-        "wrong-mcq-26": "「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」是「rub someone the wrong way = annoy or irritate someone because of your manner 惹某人不高興；讓某人反感」的用法，與本句語境不同。",
-        "wrong-mcq-21": "「表示別誤會我的意思；例句：「別誤會我的意思，我喜歡這個構想，只是它還需要改進。」」是「don’t get me wrong = do not misunderstand what I mean 別誤會我的意思」的用法，與本句語境不同。"
+        "wrong-mcq-24": "本句的「wrongfully dismissed」指「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」。",
+        "wrong-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-24"
     },
@@ -2159,11 +1967,9 @@ export default {
       "masked": "We ____, but later became good friends.",
       "options": [
         "wrong-mcq-25",
-        "wrong-mcq-24",
-        "wrong-mcq-26",
-        "wrong-mcq-23",
         "wrong-mcq-27",
-        "wrong-mcq-22"
+        "wrong-mcq-14",
+        "wrong-mcq-11"
       ],
       "explanation": "本句的「got off on the wrong foot」指「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」。",
       "sentenceIndex": 48,
@@ -2172,12 +1978,10 @@ export default {
         "got off on the wrong foot"
       ],
       "optionReasons": {
-        "wrong-mcq-25": "本句指「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」。",
-        "wrong-mcq-24": "「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」是「wrongfully = illegally or unjustly, especially in formal/legal contexts 非法地；不公正地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-26": "「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」是「rub someone the wrong way = annoy or irritate someone because of your manner 惹某人不高興；讓某人反感」的用法，與本句語境不同。",
-        "wrong-mcq-23": "「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」是「wrongly = incorrectly or unjustly 錯誤地；不當地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-27": "「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」是「on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興」的用法，與本句語境不同。",
-        "wrong-mcq-22": "「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」是「get someone wrong = misunderstand someone’s meaning, personality, or intention 誤解某人；看錯某人」的用法，與本句語境不同。"
+        "wrong-mcq-25": "本句的「got off on the wrong foot」指「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」。",
+        "wrong-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-25"
     },
@@ -2189,11 +1993,9 @@ export default {
       "masked": "I don’t want to ____ with my new boss.",
       "options": [
         "wrong-mcq-25",
-        "wrong-mcq-24",
-        "wrong-mcq-26",
-        "wrong-mcq-23",
-        "wrong-mcq-27",
-        "wrong-mcq-22"
+        "wrong-mcq-11",
+        "wrong-mcq-20",
+        "wrong-mcq-21"
       ],
       "explanation": "本句的「get off on the wrong foot」指「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」。",
       "sentenceIndex": 49,
@@ -2202,12 +2004,10 @@ export default {
         "get off on the wrong foot"
       ],
       "optionReasons": {
-        "wrong-mcq-25": "本句指「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」。",
-        "wrong-mcq-24": "「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」是「wrongfully = illegally or unjustly, especially in formal/legal contexts 非法地；不公正地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-26": "「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」是「rub someone the wrong way = annoy or irritate someone because of your manner 惹某人不高興；讓某人反感」的用法，與本句語境不同。",
-        "wrong-mcq-23": "「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」是「wrongly = incorrectly or unjustly 錯誤地；不當地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-27": "「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」是「on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興」的用法，與本句語境不同。",
-        "wrong-mcq-22": "「表示誤解某人；看錯某人；例句：「我想你誤解我了。」」是「get someone wrong = misunderstand someone’s meaning, personality, or intention 誤解某人；看錯某人」的用法，與本句語境不同。"
+        "wrong-mcq-25": "本句的「get off on the wrong foot」指「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」。",
+        "wrong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-25"
     },
@@ -2219,11 +2019,9 @@ export default {
       "masked": "His attitude ____.",
       "options": [
         "wrong-mcq-26",
-        "wrong-mcq-25",
-        "wrong-mcq-27",
-        "wrong-mcq-24",
-        "wrong-mcq-28",
-        "wrong-mcq-23"
+        "wrong-mcq-01",
+        "wrong-mcq-03",
+        "wrong-mcq-31"
       ],
       "explanation": "本句的「rubbed me the wrong way」指「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」。",
       "sentenceIndex": 50,
@@ -2232,12 +2030,10 @@ export default {
         "rubbed me the wrong way"
       ],
       "optionReasons": {
-        "wrong-mcq-26": "本句指「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」。",
-        "wrong-mcq-25": "「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」是「get off on the wrong foot = begin a relationship or activity badly 一開始就不順；開局不佳」的用法，與本句語境不同。",
-        "wrong-mcq-27": "「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」是「on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興」的用法，與本句語境不同。",
-        "wrong-mcq-24": "「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」是「wrongfully = illegally or unjustly, especially in formal/legal contexts 非法地；不公正地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-28": "「表示誤會；搞錯情況；例句：「我想你誤會了。」」是「the wrong end of the stick = a misunderstanding of a situation 誤會；搞錯情況」的用法，與本句語境不同。",
-        "wrong-mcq-23": "「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」是「wrongly = incorrectly or unjustly 錯誤地；不當地；冤枉地」的用法，與本句語境不同。"
+        "wrong-mcq-26": "本句的「rubbed me the wrong way」指「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」。",
+        "wrong-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-26"
     },
@@ -2249,10 +2045,8 @@ export default {
       "masked": "She sometimes ____ without realizing it.",
       "options": [
         "wrong-mcq-26",
-        "wrong-mcq-25",
-        "wrong-mcq-27",
-        "wrong-mcq-24",
-        "wrong-mcq-28",
+        "wrong-mcq-12",
+        "wrong-mcq-16",
         "wrong-mcq-23"
       ],
       "explanation": "本句的「rubs people the wrong way」指「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」。",
@@ -2262,12 +2056,10 @@ export default {
         "rubs people the wrong way"
       ],
       "optionReasons": {
-        "wrong-mcq-26": "本句指「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」。",
-        "wrong-mcq-25": "「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」是「get off on the wrong foot = begin a relationship or activity badly 一開始就不順；開局不佳」的用法，與本句語境不同。",
-        "wrong-mcq-27": "「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」是「on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興」的用法，與本句語境不同。",
-        "wrong-mcq-24": "「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」是「wrongfully = illegally or unjustly, especially in formal/legal contexts 非法地；不公正地；冤枉地」的用法，與本句語境不同。",
-        "wrong-mcq-28": "「表示誤會；搞錯情況；例句：「我想你誤會了。」」是「the wrong end of the stick = a misunderstanding of a situation 誤會；搞錯情況」的用法，與本句語境不同。",
-        "wrong-mcq-23": "「表示錯誤地；不當地；冤枉地；例句：「她被錯誤地／冤枉地指控偷竊。」」是「wrongly = incorrectly or unjustly 錯誤地；不當地；冤枉地」的用法，與本句語境不同。"
+        "wrong-mcq-26": "本句的「rubs people the wrong way」指「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」。",
+        "wrong-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-26"
     },
@@ -2279,11 +2071,9 @@ export default {
       "masked": "You don’t want to get ____.",
       "options": [
         "wrong-mcq-27",
-        "wrong-mcq-26",
-        "wrong-mcq-28",
-        "wrong-mcq-25",
-        "wrong-mcq-29",
-        "wrong-mcq-24"
+        "wrong-mcq-13",
+        "wrong-mcq-32",
+        "wrong-mcq-16"
       ],
       "explanation": "本句的「on the wrong side of the manager」指「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」。",
       "sentenceIndex": 52,
@@ -2292,12 +2082,10 @@ export default {
         "on the wrong side of the manager"
       ],
       "optionReasons": {
-        "wrong-mcq-27": "本句指「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」。",
-        "wrong-mcq-26": "「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」是「rub someone the wrong way = annoy or irritate someone because of your manner 惹某人不高興；讓某人反感」的用法，與本句語境不同。",
-        "wrong-mcq-28": "「表示誤會；搞錯情況；例句：「我想你誤會了。」」是「the wrong end of the stick = a misunderstanding of a situation 誤會；搞錯情況」的用法，與本句語境不同。",
-        "wrong-mcq-25": "「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」是「get off on the wrong foot = begin a relationship or activity badly 一開始就不順；開局不佳」的用法，與本句語境不同。",
-        "wrong-mcq-29": "「別人的錯不能合理化你的錯；以錯制錯仍是錯」是「two wrongs don’t make a right = one bad act does not justify another bad act 別人的錯不能合理化你的錯；以錯制錯仍是錯」的用法，與本句語境不同。",
-        "wrong-mcq-24": "「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」是「wrongfully = illegally or unjustly, especially in formal/legal contexts 非法地；不公正地；冤枉地」的用法，與本句語境不同。"
+        "wrong-mcq-27": "本句的「on the wrong side of the manager」指「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」。",
+        "wrong-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-27"
     },
@@ -2309,11 +2097,9 @@ export default {
       "masked": "He somehow got ____.",
       "options": [
         "wrong-mcq-27",
-        "wrong-mcq-26",
-        "wrong-mcq-28",
-        "wrong-mcq-25",
-        "wrong-mcq-29",
-        "wrong-mcq-24"
+        "wrong-mcq-30",
+        "wrong-mcq-12",
+        "wrong-mcq-18"
       ],
       "explanation": "本句的「on the wrong side of his colleagues」指「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」。",
       "sentenceIndex": 53,
@@ -2322,12 +2108,10 @@ export default {
         "on the wrong side of his colleagues"
       ],
       "optionReasons": {
-        "wrong-mcq-27": "本句指「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」。",
-        "wrong-mcq-26": "「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」是「rub someone the wrong way = annoy or irritate someone because of your manner 惹某人不高興；讓某人反感」的用法，與本句語境不同。",
-        "wrong-mcq-28": "「表示誤會；搞錯情況；例句：「我想你誤會了。」」是「the wrong end of the stick = a misunderstanding of a situation 誤會；搞錯情況」的用法，與本句語境不同。",
-        "wrong-mcq-25": "「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」是「get off on the wrong foot = begin a relationship or activity badly 一開始就不順；開局不佳」的用法，與本句語境不同。",
-        "wrong-mcq-29": "「別人的錯不能合理化你的錯；以錯制錯仍是錯」是「two wrongs don’t make a right = one bad act does not justify another bad act 別人的錯不能合理化你的錯；以錯制錯仍是錯」的用法，與本句語境不同。",
-        "wrong-mcq-24": "「表示非法地；不公正地；冤枉地；例句：「他被冤枉入獄。」」是「wrongfully = illegally or unjustly, especially in formal/legal contexts 非法地；不公正地；冤枉地」的用法，與本句語境不同。"
+        "wrong-mcq-27": "本句的「on the wrong side of his colleagues」指「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」。",
+        "wrong-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-27"
     },
@@ -2339,11 +2123,9 @@ export default {
       "masked": "I think you’ve got ____.",
       "options": [
         "wrong-mcq-28",
-        "wrong-mcq-27",
-        "wrong-mcq-29",
-        "wrong-mcq-26",
-        "wrong-mcq-30",
-        "wrong-mcq-25"
+        "wrong-mcq-14",
+        "wrong-mcq-18",
+        "wrong-mcq-08"
       ],
       "explanation": "本句的「the wrong end of the stick」指「表示誤會；搞錯情況；例句：「我想你誤會了。」」。",
       "sentenceIndex": 54,
@@ -2352,12 +2134,10 @@ export default {
         "the wrong end of the stick"
       ],
       "optionReasons": {
-        "wrong-mcq-28": "本句指「表示誤會；搞錯情況；例句：「我想你誤會了。」」。",
-        "wrong-mcq-27": "「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」是「on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興」的用法，與本句語境不同。",
-        "wrong-mcq-29": "「別人的錯不能合理化你的錯；以錯制錯仍是錯」是「two wrongs don’t make a right = one bad act does not justify another bad act 別人的錯不能合理化你的錯；以錯制錯仍是錯」的用法，與本句語境不同。",
-        "wrong-mcq-26": "「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」是「rub someone the wrong way = annoy or irritate someone because of your manner 惹某人不高興；讓某人反感」的用法，與本句語境不同。",
-        "wrong-mcq-30": "「表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」」是「wrongdoing = illegal, immoral, or dishonest behavior 不法行為；不當行為；做壞事」的用法，與本句語境不同。",
-        "wrong-mcq-25": "「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」是「get off on the wrong foot = begin a relationship or activity badly 一開始就不順；開局不佳」的用法，與本句語境不同。"
+        "wrong-mcq-28": "本句的「the wrong end of the stick」指「表示誤會；搞錯情況；例句：「我想你誤會了。」」。",
+        "wrong-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-28"
     },
@@ -2369,11 +2149,9 @@ export default {
       "masked": "She completely got ____ about my comment.",
       "options": [
         "wrong-mcq-28",
-        "wrong-mcq-27",
-        "wrong-mcq-29",
-        "wrong-mcq-26",
+        "wrong-mcq-16",
         "wrong-mcq-30",
-        "wrong-mcq-25"
+        "wrong-mcq-14"
       ],
       "explanation": "本句的「the wrong end of the stick」指「表示誤會；搞錯情況；例句：「我想你誤會了。」」。",
       "sentenceIndex": 55,
@@ -2382,12 +2160,10 @@ export default {
         "the wrong end of the stick"
       ],
       "optionReasons": {
-        "wrong-mcq-28": "本句指「表示誤會；搞錯情況；例句：「我想你誤會了。」」。",
-        "wrong-mcq-27": "「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」是「on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興」的用法，與本句語境不同。",
-        "wrong-mcq-29": "「別人的錯不能合理化你的錯；以錯制錯仍是錯」是「two wrongs don’t make a right = one bad act does not justify another bad act 別人的錯不能合理化你的錯；以錯制錯仍是錯」的用法，與本句語境不同。",
-        "wrong-mcq-26": "「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」是「rub someone the wrong way = annoy or irritate someone because of your manner 惹某人不高興；讓某人反感」的用法，與本句語境不同。",
-        "wrong-mcq-30": "「表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」」是「wrongdoing = illegal, immoral, or dishonest behavior 不法行為；不當行為；做壞事」的用法，與本句語境不同。",
-        "wrong-mcq-25": "「表示一開始就不順；開局不佳；例句：「我們一開始相處不太順，但後來成了好朋友。」」是「get off on the wrong foot = begin a relationship or activity badly 一開始就不順；開局不佳」的用法，與本句語境不同。"
+        "wrong-mcq-28": "本句的「the wrong end of the stick」指「表示誤會；搞錯情況；例句：「我想你誤會了。」」。",
+        "wrong-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-28"
     },
@@ -2399,11 +2175,9 @@ export default {
       "masked": "He insulted you first, but ____.",
       "options": [
         "wrong-mcq-29",
-        "wrong-mcq-28",
-        "wrong-mcq-30",
-        "wrong-mcq-27",
-        "wrong-mcq-31",
-        "wrong-mcq-26"
+        "wrong-mcq-32",
+        "wrong-mcq-25",
+        "wrong-mcq-31"
       ],
       "explanation": "本句的「two wrongs don’t make a right」指「別人的錯不能合理化你的錯；以錯制錯仍是錯」。",
       "sentenceIndex": 56,
@@ -2412,12 +2186,10 @@ export default {
         "two wrongs don’t make a right"
       ],
       "optionReasons": {
-        "wrong-mcq-29": "本句指「別人的錯不能合理化你的錯；以錯制錯仍是錯」。",
-        "wrong-mcq-28": "「表示誤會；搞錯情況；例句：「我想你誤會了。」」是「the wrong end of the stick = a misunderstanding of a situation 誤會；搞錯情況」的用法，與本句語境不同。",
-        "wrong-mcq-30": "「表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」」是「wrongdoing = illegal, immoral, or dishonest behavior 不法行為；不當行為；做壞事」的用法，與本句語境不同。",
-        "wrong-mcq-27": "「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」是「on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興」的用法，與本句語境不同。",
-        "wrong-mcq-31": "「表示做壞事的人；違法者；作惡者；例句：「這項法律旨在懲罰違法者。」」是「wrongdoer = a person who does something illegal or immoral 做壞事的人；違法者；作惡者」的用法，與本句語境不同。",
-        "wrong-mcq-26": "「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」是「rub someone the wrong way = annoy or irritate someone because of your manner 惹某人不高興；讓某人反感」的用法，與本句語境不同。"
+        "wrong-mcq-29": "本句的「two wrongs don’t make a right」指「別人的錯不能合理化你的錯；以錯制錯仍是錯」。",
+        "wrong-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-29"
     },
@@ -2429,11 +2201,9 @@ export default {
       "masked": "Remember, ____.",
       "options": [
         "wrong-mcq-29",
-        "wrong-mcq-28",
-        "wrong-mcq-30",
-        "wrong-mcq-27",
-        "wrong-mcq-31",
-        "wrong-mcq-26"
+        "wrong-mcq-14",
+        "wrong-mcq-18",
+        "wrong-mcq-31"
       ],
       "explanation": "本句的「two wrongs don’t make a right」指「別人的錯不能合理化你的錯；以錯制錯仍是錯」。",
       "sentenceIndex": 57,
@@ -2442,12 +2212,10 @@ export default {
         "two wrongs don’t make a right"
       ],
       "optionReasons": {
-        "wrong-mcq-29": "本句指「別人的錯不能合理化你的錯；以錯制錯仍是錯」。",
-        "wrong-mcq-28": "「表示誤會；搞錯情況；例句：「我想你誤會了。」」是「the wrong end of the stick = a misunderstanding of a situation 誤會；搞錯情況」的用法，與本句語境不同。",
-        "wrong-mcq-30": "「表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」」是「wrongdoing = illegal, immoral, or dishonest behavior 不法行為；不當行為；做壞事」的用法，與本句語境不同。",
-        "wrong-mcq-27": "「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」是「on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興」的用法，與本句語境不同。",
-        "wrong-mcq-31": "「表示做壞事的人；違法者；作惡者；例句：「這項法律旨在懲罰違法者。」」是「wrongdoer = a person who does something illegal or immoral 做壞事的人；違法者；作惡者」的用法，與本句語境不同。",
-        "wrong-mcq-26": "「表示惹某人不高興；讓某人反感；例句：「他的態度讓我很反感。」」是「rub someone the wrong way = annoy or irritate someone because of your manner 惹某人不高興；讓某人反感」的用法，與本句語境不同。"
+        "wrong-mcq-29": "本句的「two wrongs don’t make a right」指「別人的錯不能合理化你的錯；以錯制錯仍是錯」。",
+        "wrong-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-29"
     },
@@ -2459,11 +2227,9 @@ export default {
       "masked": "The investigation found evidence of ____.",
       "options": [
         "wrong-mcq-30",
-        "wrong-mcq-29",
-        "wrong-mcq-31",
-        "wrong-mcq-28",
-        "wrong-mcq-32",
-        "wrong-mcq-27"
+        "wrong-mcq-14",
+        "wrong-mcq-03",
+        "wrong-mcq-29"
       ],
       "explanation": "本句的「wrongdoing」指「表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」」。",
       "sentenceIndex": 58,
@@ -2472,12 +2238,10 @@ export default {
         "wrongdoing"
       ],
       "optionReasons": {
-        "wrong-mcq-30": "本句指「表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」」。",
-        "wrong-mcq-29": "「別人的錯不能合理化你的錯；以錯制錯仍是錯」是「two wrongs don’t make a right = one bad act does not justify another bad act 別人的錯不能合理化你的錯；以錯制錯仍是錯」的用法，與本句語境不同。",
-        "wrong-mcq-31": "「表示做壞事的人；違法者；作惡者；例句：「這項法律旨在懲罰違法者。」」是「wrongdoer = a person who does something illegal or immoral 做壞事的人；違法者；作惡者」的用法，與本句語境不同。",
-        "wrong-mcq-28": "「表示誤會；搞錯情況；例句：「我想你誤會了。」」是「the wrong end of the stick = a misunderstanding of a situation 誤會；搞錯情況」的用法，與本句語境不同。",
-        "wrong-mcq-32": "「表示不正當的；非法的；冤枉的；例句：「他提出不當解僱申訴。」」是「wrongful = unjust, illegal, or improper 不正當的；非法的；冤枉的」的用法，與本句語境不同。",
-        "wrong-mcq-27": "「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」是「on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興」的用法，與本句語境不同。"
+        "wrong-mcq-30": "本句的「wrongdoing」指「表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」」。",
+        "wrong-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-30"
     },
@@ -2489,11 +2253,9 @@ export default {
       "masked": "He denied any ____.",
       "options": [
         "wrong-mcq-30",
-        "wrong-mcq-29",
-        "wrong-mcq-31",
-        "wrong-mcq-28",
-        "wrong-mcq-32",
-        "wrong-mcq-27"
+        "wrong-mcq-17",
+        "wrong-mcq-11",
+        "wrong-mcq-14"
       ],
       "explanation": "本句的「wrongdoing」指「表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」」。",
       "sentenceIndex": 59,
@@ -2502,12 +2264,10 @@ export default {
         "wrongdoing"
       ],
       "optionReasons": {
-        "wrong-mcq-30": "本句指「表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」」。",
-        "wrong-mcq-29": "「別人的錯不能合理化你的錯；以錯制錯仍是錯」是「two wrongs don’t make a right = one bad act does not justify another bad act 別人的錯不能合理化你的錯；以錯制錯仍是錯」的用法，與本句語境不同。",
-        "wrong-mcq-31": "「表示做壞事的人；違法者；作惡者；例句：「這項法律旨在懲罰違法者。」」是「wrongdoer = a person who does something illegal or immoral 做壞事的人；違法者；作惡者」的用法，與本句語境不同。",
-        "wrong-mcq-28": "「表示誤會；搞錯情況；例句：「我想你誤會了。」」是「the wrong end of the stick = a misunderstanding of a situation 誤會；搞錯情況」的用法，與本句語境不同。",
-        "wrong-mcq-32": "「表示不正當的；非法的；冤枉的；例句：「他提出不當解僱申訴。」」是「wrongful = unjust, illegal, or improper 不正當的；非法的；冤枉的」的用法，與本句語境不同。",
-        "wrong-mcq-27": "「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」是「on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興」的用法，與本句語境不同。"
+        "wrong-mcq-30": "本句的「wrongdoing」指「表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」」。",
+        "wrong-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-30"
     },
@@ -2519,11 +2279,9 @@ export default {
       "masked": "The law is intended to punish ____.",
       "options": [
         "wrong-mcq-31",
-        "wrong-mcq-30",
-        "wrong-mcq-32",
-        "wrong-mcq-29",
-        "wrong-mcq-28",
-        "wrong-mcq-27"
+        "wrong-mcq-26",
+        "wrong-mcq-23",
+        "wrong-mcq-10"
       ],
       "explanation": "本句的「wrongdoers」指「表示做壞事的人；違法者；作惡者；例句：「這項法律旨在懲罰違法者。」」。",
       "sentenceIndex": 60,
@@ -2532,12 +2290,10 @@ export default {
         "wrongdoers"
       ],
       "optionReasons": {
-        "wrong-mcq-31": "本句指「表示做壞事的人；違法者；作惡者；例句：「這項法律旨在懲罰違法者。」」。",
-        "wrong-mcq-30": "「表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」」是「wrongdoing = illegal, immoral, or dishonest behavior 不法行為；不當行為；做壞事」的用法，與本句語境不同。",
-        "wrong-mcq-32": "「表示不正當的；非法的；冤枉的；例句：「他提出不當解僱申訴。」」是「wrongful = unjust, illegal, or improper 不正當的；非法的；冤枉的」的用法，與本句語境不同。",
-        "wrong-mcq-29": "「別人的錯不能合理化你的錯；以錯制錯仍是錯」是「two wrongs don’t make a right = one bad act does not justify another bad act 別人的錯不能合理化你的錯；以錯制錯仍是錯」的用法，與本句語境不同。",
-        "wrong-mcq-28": "「表示誤會；搞錯情況；例句：「我想你誤會了。」」是「the wrong end of the stick = a misunderstanding of a situation 誤會；搞錯情況」的用法，與本句語境不同。",
-        "wrong-mcq-27": "「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」是「on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興」的用法，與本句語境不同。"
+        "wrong-mcq-31": "本句的「wrongdoers」指「表示做壞事的人；違法者；作惡者；例句：「這項法律旨在懲罰違法者。」」。",
+        "wrong-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-31"
     },
@@ -2549,11 +2305,9 @@ export default {
       "masked": "Victims deserve protection from ____.",
       "options": [
         "wrong-mcq-31",
-        "wrong-mcq-30",
-        "wrong-mcq-32",
-        "wrong-mcq-29",
-        "wrong-mcq-28",
-        "wrong-mcq-27"
+        "wrong-mcq-15",
+        "wrong-mcq-18",
+        "wrong-mcq-29"
       ],
       "explanation": "本句的「wrongdoers」指「表示做壞事的人；違法者；作惡者；例句：「這項法律旨在懲罰違法者。」」。",
       "sentenceIndex": 61,
@@ -2562,12 +2316,10 @@ export default {
         "wrongdoers"
       ],
       "optionReasons": {
-        "wrong-mcq-31": "本句指「表示做壞事的人；違法者；作惡者；例句：「這項法律旨在懲罰違法者。」」。",
-        "wrong-mcq-30": "「表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」」是「wrongdoing = illegal, immoral, or dishonest behavior 不法行為；不當行為；做壞事」的用法，與本句語境不同。",
-        "wrong-mcq-32": "「表示不正當的；非法的；冤枉的；例句：「他提出不當解僱申訴。」」是「wrongful = unjust, illegal, or improper 不正當的；非法的；冤枉的」的用法，與本句語境不同。",
-        "wrong-mcq-29": "「別人的錯不能合理化你的錯；以錯制錯仍是錯」是「two wrongs don’t make a right = one bad act does not justify another bad act 別人的錯不能合理化你的錯；以錯制錯仍是錯」的用法，與本句語境不同。",
-        "wrong-mcq-28": "「表示誤會；搞錯情況；例句：「我想你誤會了。」」是「the wrong end of the stick = a misunderstanding of a situation 誤會；搞錯情況」的用法，與本句語境不同。",
-        "wrong-mcq-27": "「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」是「on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興」的用法，與本句語境不同。"
+        "wrong-mcq-31": "本句的「wrongdoers」指「表示做壞事的人；違法者；作惡者；例句：「這項法律旨在懲罰違法者。」」。",
+        "wrong-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-31"
     },
@@ -2579,11 +2331,9 @@ export default {
       "masked": "He filed a ____ claim.",
       "options": [
         "wrong-mcq-32",
-        "wrong-mcq-31",
-        "wrong-mcq-30",
-        "wrong-mcq-29",
-        "wrong-mcq-28",
-        "wrong-mcq-27"
+        "wrong-mcq-11",
+        "wrong-mcq-27",
+        "wrong-mcq-05"
       ],
       "explanation": "本句的「wrongful dismissal」指「表示不正當的；非法的；冤枉的；例句：「他提出不當解僱申訴。」」。",
       "sentenceIndex": 62,
@@ -2592,12 +2342,10 @@ export default {
         "wrongful dismissal"
       ],
       "optionReasons": {
-        "wrong-mcq-32": "本句指「表示不正當的；非法的；冤枉的；例句：「他提出不當解僱申訴。」」。",
-        "wrong-mcq-31": "「表示做壞事的人；違法者；作惡者；例句：「這項法律旨在懲罰違法者。」」是「wrongdoer = a person who does something illegal or immoral 做壞事的人；違法者；作惡者」的用法，與本句語境不同。",
-        "wrong-mcq-30": "「表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」」是「wrongdoing = illegal, immoral, or dishonest behavior 不法行為；不當行為；做壞事」的用法，與本句語境不同。",
-        "wrong-mcq-29": "「別人的錯不能合理化你的錯；以錯制錯仍是錯」是「two wrongs don’t make a right = one bad act does not justify another bad act 別人的錯不能合理化你的錯；以錯制錯仍是錯」的用法，與本句語境不同。",
-        "wrong-mcq-28": "「表示誤會；搞錯情況；例句：「我想你誤會了。」」是「the wrong end of the stick = a misunderstanding of a situation 誤會；搞錯情況」的用法，與本句語境不同。",
-        "wrong-mcq-27": "「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」是「on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興」的用法，與本句語境不同。"
+        "wrong-mcq-32": "本句的「wrongful dismissal」指「表示不正當的；非法的；冤枉的；例句：「他提出不當解僱申訴。」」。",
+        "wrong-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-32"
     },
@@ -2609,11 +2357,9 @@ export default {
       "masked": "The family received compensation for ____.",
       "options": [
         "wrong-mcq-32",
-        "wrong-mcq-31",
-        "wrong-mcq-30",
-        "wrong-mcq-29",
-        "wrong-mcq-28",
-        "wrong-mcq-27"
+        "wrong-mcq-18",
+        "wrong-mcq-07",
+        "wrong-mcq-21"
       ],
       "explanation": "本句的「wrongful imprisonment」指「表示不正當的；非法的；冤枉的；例句：「他提出不當解僱申訴。」」。",
       "sentenceIndex": 63,
@@ -2622,12 +2368,10 @@ export default {
         "wrongful imprisonment"
       ],
       "optionReasons": {
-        "wrong-mcq-32": "本句指「表示不正當的；非法的；冤枉的；例句：「他提出不當解僱申訴。」」。",
-        "wrong-mcq-31": "「表示做壞事的人；違法者；作惡者；例句：「這項法律旨在懲罰違法者。」」是「wrongdoer = a person who does something illegal or immoral 做壞事的人；違法者；作惡者」的用法，與本句語境不同。",
-        "wrong-mcq-30": "「表示不法行為；不當行為；做壞事；例句：「調查發現了不當行為的證據。」」是「wrongdoing = illegal, immoral, or dishonest behavior 不法行為；不當行為；做壞事」的用法，與本句語境不同。",
-        "wrong-mcq-29": "「別人的錯不能合理化你的錯；以錯制錯仍是錯」是「two wrongs don’t make a right = one bad act does not justify another bad act 別人的錯不能合理化你的錯；以錯制錯仍是錯」的用法，與本句語境不同。",
-        "wrong-mcq-28": "「表示誤會；搞錯情況；例句：「我想你誤會了。」」是「the wrong end of the stick = a misunderstanding of a situation 誤會；搞錯情況」的用法，與本句語境不同。",
-        "wrong-mcq-27": "「表示得罪某人；惹某人不高興；例句：「你最好不要得罪經理。」」是「on the wrong side of someone = have made someone angry or hostile toward you 得罪某人；惹某人不高興」的用法，與本句語境不同。"
+        "wrong-mcq-32": "本句的「wrongful imprisonment」指「表示不正當的；非法的；冤枉的；例句：「他提出不當解僱申訴。」」。",
+        "wrong-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wrong-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wrong-mcq-32"
     }
@@ -2639,5 +2383,7 @@ export default {
     "sha256": "7ae9495955cc92b7bb8b8158e99b806c4871364972eb1658c8796b862c4d1f39",
     "pages": 17
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

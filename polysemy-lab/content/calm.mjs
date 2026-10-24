@@ -303,11 +303,7 @@ export default {
       "masked": "She stayed ____ during the emergency.",
       "options": [
         "calm-mcq-01",
-        "calm-mcq-02",
-        "calm-mcq-03",
-        "calm-mcq-04",
-        "calm-mcq-05",
-        "calm-mcq-06"
+        "calm-mcq-12"
       ],
       "explanation": "本句的「calm」指「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」。",
       "sentenceIndex": 0,
@@ -316,12 +312,8 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-01": "本句指「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」。",
-        "calm-mcq-02": "「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」是「calm — atmosphere/tone」的用法，與本句語境不同。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。"
+        "calm-mcq-01": "本句的「calm」指「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」。",
+        "calm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-01"
     },
@@ -333,11 +325,7 @@ export default {
       "masked": "He looked surprisingly ____ before the interview.",
       "options": [
         "calm-mcq-01",
-        "calm-mcq-02",
-        "calm-mcq-03",
-        "calm-mcq-04",
-        "calm-mcq-05",
-        "calm-mcq-06"
+        "calm-mcq-12"
       ],
       "explanation": "本句的「calm」指「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」。",
       "sentenceIndex": 1,
@@ -346,12 +334,8 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-01": "本句指「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」。",
-        "calm-mcq-02": "「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」是「calm — atmosphere/tone」的用法，與本句語境不同。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。"
+        "calm-mcq-01": "本句的「calm」指「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」。",
+        "calm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-01"
     },
@@ -363,11 +347,8 @@ export default {
       "masked": "The advertisement felt ____.",
       "options": [
         "calm-mcq-02",
-        "calm-mcq-01",
-        "calm-mcq-03",
-        "calm-mcq-04",
-        "calm-mcq-05",
-        "calm-mcq-06"
+        "calm-mcq-12",
+        "calm-mcq-11"
       ],
       "explanation": "本句的「calm」指「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」。",
       "sentenceIndex": 2,
@@ -376,12 +357,9 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-02": "本句指「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」。",
-        "calm-mcq-01": "「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」是「calm — person/emotion」的用法，與本句語境不同。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。"
+        "calm-mcq-02": "本句的「calm」指「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」。",
+        "calm-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "calm-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-02"
     },
@@ -393,11 +371,8 @@ export default {
       "masked": "She spoke in a ____ voice.",
       "options": [
         "calm-mcq-02",
-        "calm-mcq-01",
-        "calm-mcq-03",
-        "calm-mcq-04",
-        "calm-mcq-05",
-        "calm-mcq-06"
+        "calm-mcq-09",
+        "calm-mcq-11"
       ],
       "explanation": "本句的「calm」指「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」。",
       "sentenceIndex": 3,
@@ -406,12 +381,9 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-02": "本句指「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」。",
-        "calm-mcq-01": "「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」是「calm — person/emotion」的用法，與本句語境不同。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。"
+        "calm-mcq-02": "本句的「calm」指「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」。",
+        "calm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calm-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-02"
     },
@@ -423,11 +395,8 @@ export default {
       "masked": "The room had a ____ atmosphere.",
       "options": [
         "calm-mcq-02",
-        "calm-mcq-01",
-        "calm-mcq-03",
-        "calm-mcq-04",
-        "calm-mcq-05",
-        "calm-mcq-06"
+        "calm-mcq-09",
+        "calm-mcq-11"
       ],
       "explanation": "本句的「calm」指「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」。",
       "sentenceIndex": 4,
@@ -436,12 +405,9 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-02": "本句指「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」。",
-        "calm-mcq-01": "「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」是「calm — person/emotion」的用法，與本句語境不同。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。"
+        "calm-mcq-02": "本句的「calm」指「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」。",
+        "calm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calm-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-02"
     },
@@ -453,11 +419,7 @@ export default {
       "masked": "The situation remained ____.",
       "options": [
         "calm-mcq-03",
-        "calm-mcq-02",
-        "calm-mcq-04",
-        "calm-mcq-01",
-        "calm-mcq-05",
-        "calm-mcq-06"
+        "calm-mcq-09"
       ],
       "explanation": "本句的「calm」指「沒有騷動、衝突或混亂，狀況穩定的」。",
       "sentenceIndex": 5,
@@ -466,12 +428,8 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-03": "本句指「沒有騷動、衝突或混亂，狀況穩定的」。",
-        "calm-mcq-02": "「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」是「calm — atmosphere/tone」的用法，與本句語境不同。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-01": "「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」是「calm — person/emotion」的用法，與本句語境不同。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。"
+        "calm-mcq-03": "本句的「calm」指「沒有騷動、衝突或混亂，狀況穩定的」。",
+        "calm-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-03"
     },
@@ -483,11 +441,7 @@ export default {
       "masked": "The office is much ____ in the evening.",
       "options": [
         "calm-mcq-03",
-        "calm-mcq-02",
-        "calm-mcq-04",
-        "calm-mcq-01",
-        "calm-mcq-05",
-        "calm-mcq-06"
+        "calm-mcq-09"
       ],
       "explanation": "本句的「calmer」指「沒有騷動、衝突或混亂，狀況穩定的」。",
       "sentenceIndex": 6,
@@ -496,12 +450,8 @@ export default {
         "calmer"
       ],
       "optionReasons": {
-        "calm-mcq-03": "本句指「沒有騷動、衝突或混亂，狀況穩定的」。",
-        "calm-mcq-02": "「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」是「calm — atmosphere/tone」的用法，與本句語境不同。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-01": "「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」是「calm — person/emotion」的用法，與本句語境不同。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。"
+        "calm-mcq-03": "本句的「calmer」指「沒有騷動、衝突或混亂，狀況穩定的」。",
+        "calm-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-03"
     },
@@ -513,11 +463,7 @@ export default {
       "masked": "The weather was warm and ____.",
       "options": [
         "calm-mcq-04",
-        "calm-mcq-03",
-        "calm-mcq-05",
-        "calm-mcq-02",
-        "calm-mcq-06",
-        "calm-mcq-01"
+        "calm-mcq-09"
       ],
       "explanation": "本句的「calm」指「風勢很弱或幾乎沒有風、天氣狀況穩定的」。",
       "sentenceIndex": 7,
@@ -526,12 +472,8 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-04": "本句指「風勢很弱或幾乎沒有風、天氣狀況穩定的」。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-02": "「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」是「calm — atmosphere/tone」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。",
-        "calm-mcq-01": "「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」是「calm — person/emotion」的用法，與本句語境不同。"
+        "calm-mcq-04": "本句的「calm」指「風勢很弱或幾乎沒有風、天氣狀況穩定的」。",
+        "calm-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-04"
     },
@@ -543,11 +485,7 @@ export default {
       "masked": "It was a ____ evening with almost no wind.",
       "options": [
         "calm-mcq-04",
-        "calm-mcq-03",
-        "calm-mcq-05",
-        "calm-mcq-02",
-        "calm-mcq-06",
-        "calm-mcq-01"
+        "calm-mcq-12"
       ],
       "explanation": "本句的「calm」指「風勢很弱或幾乎沒有風、天氣狀況穩定的」。",
       "sentenceIndex": 8,
@@ -556,12 +494,8 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-04": "本句指「風勢很弱或幾乎沒有風、天氣狀況穩定的」。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-02": "「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」是「calm — atmosphere/tone」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。",
-        "calm-mcq-01": "「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」是「calm — person/emotion」的用法，與本句語境不同。"
+        "calm-mcq-04": "本句的「calm」指「風勢很弱或幾乎沒有風、天氣狀況穩定的」。",
+        "calm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-04"
     },
@@ -573,11 +507,8 @@ export default {
       "masked": "The sea was completely ____.",
       "options": [
         "calm-mcq-05",
-        "calm-mcq-04",
-        "calm-mcq-06",
-        "calm-mcq-03",
-        "calm-mcq-07",
-        "calm-mcq-02"
+        "calm-mcq-10",
+        "calm-mcq-12"
       ],
       "explanation": "本句的「calm」指「水面幾乎沒有波浪或明顯擾動、風平浪靜的」。",
       "sentenceIndex": 9,
@@ -586,12 +517,9 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-05": "本句指「水面幾乎沒有波浪或明顯擾動、風平浪靜的」。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。",
-        "calm-mcq-07": "「動盪、衝突或風暴停止後出現的平穩狀態」是「calm — noun: situation」的用法，與本句語境不同。",
-        "calm-mcq-02": "「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」是「calm — atmosphere/tone」的用法，與本句語境不同。"
+        "calm-mcq-05": "本句的「calm」指「水面幾乎沒有波浪或明顯擾動、風平浪靜的」。",
+        "calm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "calm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-05"
     },
@@ -603,11 +531,8 @@ export default {
       "masked": "The boat moved slowly across the ____ water.",
       "options": [
         "calm-mcq-05",
-        "calm-mcq-04",
-        "calm-mcq-06",
-        "calm-mcq-03",
-        "calm-mcq-07",
-        "calm-mcq-02"
+        "calm-mcq-10",
+        "calm-mcq-12"
       ],
       "explanation": "本句的「calm」指「水面幾乎沒有波浪或明顯擾動、風平浪靜的」。",
       "sentenceIndex": 10,
@@ -616,12 +541,9 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-05": "本句指「水面幾乎沒有波浪或明顯擾動、風平浪靜的」。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。",
-        "calm-mcq-07": "「動盪、衝突或風暴停止後出現的平穩狀態」是「calm — noun: situation」的用法，與本句語境不同。",
-        "calm-mcq-02": "「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」是「calm — atmosphere/tone」的用法，與本句語境不同。"
+        "calm-mcq-05": "本句的「calm」指「水面幾乎沒有波浪或明顯擾動、風平浪靜的」。",
+        "calm-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "calm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-05"
     },
@@ -633,11 +555,7 @@ export default {
       "masked": "After the noise stopped, a sense of ____ returned.",
       "options": [
         "calm-mcq-06",
-        "calm-mcq-05",
-        "calm-mcq-07",
-        "calm-mcq-04",
-        "calm-mcq-08",
-        "calm-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「calm」指「沒有焦慮、激動或混亂的平靜／鎮定狀態」。",
       "sentenceIndex": 11,
@@ -646,12 +564,8 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-06": "本句指「沒有焦慮、激動或混亂的平靜／鎮定狀態」。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-07": "「動盪、衝突或風暴停止後出現的平穩狀態」是「calm — noun: situation」的用法，與本句語境不同。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-08": "「減少某人／某情況的焦慮、恐懼、激動或混亂，使其恢復平靜」是「calm — verb」的用法，與本句語境不同。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。"
+        "calm-mcq-06": "本句的「calm」指「沒有焦慮、激動或混亂的平靜／鎮定狀態」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-06"
     },
@@ -663,11 +577,7 @@ export default {
       "masked": "She tried to maintain her ____.",
       "options": [
         "calm-mcq-06",
-        "calm-mcq-05",
-        "calm-mcq-07",
-        "calm-mcq-04",
-        "calm-mcq-08",
-        "calm-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「calm」指「沒有焦慮、激動或混亂的平靜／鎮定狀態」。",
       "sentenceIndex": 12,
@@ -676,12 +586,8 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-06": "本句指「沒有焦慮、激動或混亂的平靜／鎮定狀態」。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-07": "「動盪、衝突或風暴停止後出現的平穩狀態」是「calm — noun: situation」的用法，與本句語境不同。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-08": "「減少某人／某情況的焦慮、恐懼、激動或混亂，使其恢復平靜」是「calm — verb」的用法，與本句語境不同。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。"
+        "calm-mcq-06": "本句的「calm」指「沒有焦慮、激動或混亂的平靜／鎮定狀態」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-06"
     },
@@ -693,11 +599,7 @@ export default {
       "masked": "There was a brief ____ after the storm.",
       "options": [
         "calm-mcq-06",
-        "calm-mcq-05",
-        "calm-mcq-07",
-        "calm-mcq-04",
-        "calm-mcq-08",
-        "calm-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「calm」指「沒有焦慮、激動或混亂的平靜／鎮定狀態」。",
       "sentenceIndex": 13,
@@ -706,12 +608,8 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-06": "本句指「沒有焦慮、激動或混亂的平靜／鎮定狀態」。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-07": "「動盪、衝突或風暴停止後出現的平穩狀態」是「calm — noun: situation」的用法，與本句語境不同。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-08": "「減少某人／某情況的焦慮、恐懼、激動或混亂，使其恢復平靜」是「calm — verb」的用法，與本句語境不同。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。"
+        "calm-mcq-06": "本句的「calm」指「沒有焦慮、激動或混亂的平靜／鎮定狀態」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-06"
     },
@@ -723,11 +621,7 @@ export default {
       "masked": "The city returned to ____ after the disturbance.",
       "options": [
         "calm-mcq-06",
-        "calm-mcq-05",
-        "calm-mcq-07",
-        "calm-mcq-04",
-        "calm-mcq-08",
-        "calm-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「calm」指「沒有焦慮、激動或混亂的平靜／鎮定狀態」。",
       "sentenceIndex": 14,
@@ -736,12 +630,8 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-06": "本句指「沒有焦慮、激動或混亂的平靜／鎮定狀態」。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-07": "「動盪、衝突或風暴停止後出現的平穩狀態」是「calm — noun: situation」的用法，與本句語境不同。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-08": "「減少某人／某情況的焦慮、恐懼、激動或混亂，使其恢復平靜」是「calm — verb」的用法，與本句語境不同。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。"
+        "calm-mcq-06": "本句的「calm」指「沒有焦慮、激動或混亂的平靜／鎮定狀態」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-06"
     },
@@ -753,11 +643,7 @@ export default {
       "masked": "Her voice ____ the child.",
       "options": [
         "calm-mcq-01",
-        "calm-mcq-02",
-        "calm-mcq-03",
-        "calm-mcq-04",
-        "calm-mcq-05",
-        "calm-mcq-06"
+        "calm-mcq-12"
       ],
       "explanation": "本句的「calmed」指「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」。",
       "sentenceIndex": 15,
@@ -766,12 +652,8 @@ export default {
         "calmed"
       ],
       "optionReasons": {
-        "calm-mcq-01": "本句指「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」。",
-        "calm-mcq-02": "「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」是「calm — atmosphere/tone」的用法，與本句語境不同。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。"
+        "calm-mcq-01": "本句的「calmed」指「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」。",
+        "calm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-01"
     },
@@ -783,11 +665,7 @@ export default {
       "masked": "The explanation helped ____ his fears.",
       "options": [
         "calm-mcq-01",
-        "calm-mcq-02",
-        "calm-mcq-03",
-        "calm-mcq-04",
-        "calm-mcq-05",
-        "calm-mcq-06"
+        "calm-mcq-12"
       ],
       "explanation": "本句的「calm」指「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」。",
       "sentenceIndex": 16,
@@ -796,12 +674,8 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-01": "本句指「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」。",
-        "calm-mcq-02": "「沒有急躁、吵鬧或強烈刺激，給人平和安定感的」是「calm — atmosphere/tone」的用法，與本句語境不同。",
-        "calm-mcq-03": "「沒有騷動、衝突或混亂，狀況穩定的」是「calm — situation/environment」的用法，與本句語境不同。",
-        "calm-mcq-04": "「風勢很弱或幾乎沒有風、天氣狀況穩定的」是「calm — weather」的用法，與本句語境不同。",
-        "calm-mcq-05": "「水面幾乎沒有波浪或明顯擾動、風平浪靜的」是「calm — sea/water」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。"
+        "calm-mcq-01": "本句的「calm」指「情緒穩定，沒有明顯焦慮、恐慌、憤怒或激動的」。",
+        "calm-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-01"
     },
@@ -813,11 +687,7 @@ export default {
       "masked": "Officials tried to ____ the situation.",
       "options": [
         "calm-mcq-13",
-        "calm-mcq-12",
-        "calm-mcq-11",
-        "calm-mcq-10",
-        "calm-mcq-09",
-        "calm-mcq-08"
+        "calm-mcq-02"
       ],
       "explanation": "本句的「calm」指「使原本緊張、混亂或激動的情況變得穩定和平靜」。",
       "sentenceIndex": 17,
@@ -826,12 +696,8 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-13": "本句指「使原本緊張、混亂或激動的情況變得穩定和平靜」。",
-        "calm-mcq-12": "「在重大混亂、活動或困難出現前的一段短暫平靜」是「the calm before the storm」的用法，與本句語境不同。",
-        "calm-mcq-11": "「一個人或環境具有安靜、穩定、不激動特質的狀態」是「calmness」的用法，與本句語境不同。",
-        "calm-mcq-10": "「以情緒穩定、不急躁、不激動的方式」是「calmly」的用法，與本句語境不同。",
-        "calm-mcq-09": "「能減少焦慮或緊張，使人逐漸平靜的」是「calming」的用法，與本句語境不同。",
-        "calm-mcq-08": "「減少某人／某情況的焦慮、恐懼、激動或混亂，使其恢復平靜」是「calm — verb」的用法，與本句語境不同。"
+        "calm-mcq-13": "本句的「calm」指「使原本緊張、混亂或激動的情況變得穩定和平靜」。",
+        "calm-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-13"
     },
@@ -843,11 +709,7 @@ export default {
       "masked": "The announcement helped ____ the crowd.",
       "options": [
         "calm-mcq-13",
-        "calm-mcq-12",
-        "calm-mcq-11",
-        "calm-mcq-10",
-        "calm-mcq-09",
-        "calm-mcq-08"
+        "calm-mcq-02"
       ],
       "explanation": "本句的「calm」指「使原本緊張、混亂或激動的情況變得穩定和平靜」。",
       "sentenceIndex": 18,
@@ -856,12 +718,8 @@ export default {
         "calm"
       ],
       "optionReasons": {
-        "calm-mcq-13": "本句指「使原本緊張、混亂或激動的情況變得穩定和平靜」。",
-        "calm-mcq-12": "「在重大混亂、活動或困難出現前的一段短暫平靜」是「the calm before the storm」的用法，與本句語境不同。",
-        "calm-mcq-11": "「一個人或環境具有安靜、穩定、不激動特質的狀態」是「calmness」的用法，與本句語境不同。",
-        "calm-mcq-10": "「以情緒穩定、不急躁、不激動的方式」是「calmly」的用法，與本句語境不同。",
-        "calm-mcq-09": "「能減少焦慮或緊張，使人逐漸平靜的」是「calming」的用法，與本句語境不同。",
-        "calm-mcq-08": "「減少某人／某情況的焦慮、恐懼、激動或混亂，使其恢復平靜」是「calm — verb」的用法，與本句語境不同。"
+        "calm-mcq-13": "本句的「calm」指「使原本緊張、混亂或激動的情況變得穩定和平靜」。",
+        "calm-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-13"
     },
@@ -873,11 +731,7 @@ export default {
       "masked": "The music had a ____ effect.",
       "options": [
         "calm-mcq-09",
-        "calm-mcq-08",
-        "calm-mcq-10",
-        "calm-mcq-07",
-        "calm-mcq-11",
-        "calm-mcq-06"
+        "calm-mcq-04"
       ],
       "explanation": "本句的「calming」指「能減少焦慮或緊張，使人逐漸平靜的」。",
       "sentenceIndex": 19,
@@ -886,12 +740,8 @@ export default {
         "calming"
       ],
       "optionReasons": {
-        "calm-mcq-09": "本句指「能減少焦慮或緊張，使人逐漸平靜的」。",
-        "calm-mcq-08": "「減少某人／某情況的焦慮、恐懼、激動或混亂，使其恢復平靜」是「calm — verb」的用法，與本句語境不同。",
-        "calm-mcq-10": "「以情緒穩定、不急躁、不激動的方式」是「calmly」的用法，與本句語境不同。",
-        "calm-mcq-07": "「動盪、衝突或風暴停止後出現的平穩狀態」是「calm — noun: situation」的用法，與本句語境不同。",
-        "calm-mcq-11": "「一個人或環境具有安靜、穩定、不激動特質的狀態」是「calmness」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。"
+        "calm-mcq-09": "本句的「calming」指「能減少焦慮或緊張，使人逐漸平靜的」。",
+        "calm-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-09"
     },
@@ -903,11 +753,7 @@ export default {
       "masked": "I find the sound of rain very ____.",
       "options": [
         "calm-mcq-09",
-        "calm-mcq-08",
-        "calm-mcq-10",
-        "calm-mcq-07",
-        "calm-mcq-11",
-        "calm-mcq-06"
+        "calm-mcq-03"
       ],
       "explanation": "本句的「calming」指「能減少焦慮或緊張，使人逐漸平靜的」。",
       "sentenceIndex": 20,
@@ -916,12 +762,8 @@ export default {
         "calming"
       ],
       "optionReasons": {
-        "calm-mcq-09": "本句指「能減少焦慮或緊張，使人逐漸平靜的」。",
-        "calm-mcq-08": "「減少某人／某情況的焦慮、恐懼、激動或混亂，使其恢復平靜」是「calm — verb」的用法，與本句語境不同。",
-        "calm-mcq-10": "「以情緒穩定、不急躁、不激動的方式」是「calmly」的用法，與本句語境不同。",
-        "calm-mcq-07": "「動盪、衝突或風暴停止後出現的平穩狀態」是「calm — noun: situation」的用法，與本句語境不同。",
-        "calm-mcq-11": "「一個人或環境具有安靜、穩定、不激動特質的狀態」是「calmness」的用法，與本句語境不同。",
-        "calm-mcq-06": "「沒有焦慮、激動或混亂的平靜／鎮定狀態」是「calm — noun: emotional」的用法，與本句語境不同。"
+        "calm-mcq-09": "本句的「calming」指「能減少焦慮或緊張，使人逐漸平靜的」。",
+        "calm-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-09"
     },
@@ -933,11 +775,7 @@ export default {
       "masked": "She answered the question ____.",
       "options": [
         "calm-mcq-10",
-        "calm-mcq-09",
-        "calm-mcq-11",
-        "calm-mcq-08",
-        "calm-mcq-12",
-        "calm-mcq-07"
+        "calm-mcq-09"
       ],
       "explanation": "本句的「calmly」指「以情緒穩定、不急躁、不激動的方式」。",
       "sentenceIndex": 21,
@@ -946,12 +784,8 @@ export default {
         "calmly"
       ],
       "optionReasons": {
-        "calm-mcq-10": "本句指「以情緒穩定、不急躁、不激動的方式」。",
-        "calm-mcq-09": "「能減少焦慮或緊張，使人逐漸平靜的」是「calming」的用法，與本句語境不同。",
-        "calm-mcq-11": "「一個人或環境具有安靜、穩定、不激動特質的狀態」是「calmness」的用法，與本句語境不同。",
-        "calm-mcq-08": "「減少某人／某情況的焦慮、恐懼、激動或混亂，使其恢復平靜」是「calm — verb」的用法，與本句語境不同。",
-        "calm-mcq-12": "「在重大混亂、活動或困難出現前的一段短暫平靜」是「the calm before the storm」的用法，與本句語境不同。",
-        "calm-mcq-07": "「動盪、衝突或風暴停止後出現的平穩狀態」是「calm — noun: situation」的用法，與本句語境不同。"
+        "calm-mcq-10": "本句的「calmly」指「以情緒穩定、不急躁、不激動的方式」。",
+        "calm-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-10"
     },
@@ -963,11 +797,7 @@ export default {
       "masked": "He ____ explained what had happened.",
       "options": [
         "calm-mcq-10",
-        "calm-mcq-09",
-        "calm-mcq-11",
-        "calm-mcq-08",
-        "calm-mcq-12",
-        "calm-mcq-07"
+        "calm-mcq-09"
       ],
       "explanation": "本句的「calmly」指「以情緒穩定、不急躁、不激動的方式」。",
       "sentenceIndex": 22,
@@ -976,12 +806,8 @@ export default {
         "calmly"
       ],
       "optionReasons": {
-        "calm-mcq-10": "本句指「以情緒穩定、不急躁、不激動的方式」。",
-        "calm-mcq-09": "「能減少焦慮或緊張，使人逐漸平靜的」是「calming」的用法，與本句語境不同。",
-        "calm-mcq-11": "「一個人或環境具有安靜、穩定、不激動特質的狀態」是「calmness」的用法，與本句語境不同。",
-        "calm-mcq-08": "「減少某人／某情況的焦慮、恐懼、激動或混亂，使其恢復平靜」是「calm — verb」的用法，與本句語境不同。",
-        "calm-mcq-12": "「在重大混亂、活動或困難出現前的一段短暫平靜」是「the calm before the storm」的用法，與本句語境不同。",
-        "calm-mcq-07": "「動盪、衝突或風暴停止後出現的平穩狀態」是「calm — noun: situation」的用法，與本句語境不同。"
+        "calm-mcq-10": "本句的「calmly」指「以情緒穩定、不急躁、不激動的方式」。",
+        "calm-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-10"
     },
@@ -993,11 +819,8 @@ export default {
       "masked": "Her ____ helped everyone feel safer.",
       "options": [
         "calm-mcq-11",
-        "calm-mcq-10",
-        "calm-mcq-12",
         "calm-mcq-09",
-        "calm-mcq-13",
-        "calm-mcq-08"
+        "calm-mcq-02"
       ],
       "explanation": "本句的「calmness」指「一個人或環境具有安靜、穩定、不激動特質的狀態」。",
       "sentenceIndex": 23,
@@ -1006,12 +829,9 @@ export default {
         "calmness"
       ],
       "optionReasons": {
-        "calm-mcq-11": "本句指「一個人或環境具有安靜、穩定、不激動特質的狀態」。",
-        "calm-mcq-10": "「以情緒穩定、不急躁、不激動的方式」是「calmly」的用法，與本句語境不同。",
-        "calm-mcq-12": "「在重大混亂、活動或困難出現前的一段短暫平靜」是「the calm before the storm」的用法，與本句語境不同。",
-        "calm-mcq-09": "「能減少焦慮或緊張，使人逐漸平靜的」是「calming」的用法，與本句語境不同。",
-        "calm-mcq-13": "「使原本緊張、混亂或激動的情況變得穩定和平靜」是「9. calm + situation/market/crowd（局勢／人群） — 使局勢穩定；平息」的用法，與本句語境不同。",
-        "calm-mcq-08": "「減少某人／某情況的焦慮、恐懼、激動或混亂，使其恢復平靜」是「calm — verb」的用法，與本句語境不同。"
+        "calm-mcq-11": "本句的「calmness」指「一個人或環境具有安靜、穩定、不激動特質的狀態」。",
+        "calm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calm-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-11"
     },
@@ -1023,11 +843,8 @@ export default {
       "masked": "The design creates a sense of ____.",
       "options": [
         "calm-mcq-11",
-        "calm-mcq-10",
-        "calm-mcq-12",
         "calm-mcq-09",
-        "calm-mcq-13",
-        "calm-mcq-08"
+        "calm-mcq-02"
       ],
       "explanation": "本句的「calmness」指「一個人或環境具有安靜、穩定、不激動特質的狀態」。",
       "sentenceIndex": 24,
@@ -1036,12 +853,9 @@ export default {
         "calmness"
       ],
       "optionReasons": {
-        "calm-mcq-11": "本句指「一個人或環境具有安靜、穩定、不激動特質的狀態」。",
-        "calm-mcq-10": "「以情緒穩定、不急躁、不激動的方式」是「calmly」的用法，與本句語境不同。",
-        "calm-mcq-12": "「在重大混亂、活動或困難出現前的一段短暫平靜」是「the calm before the storm」的用法，與本句語境不同。",
-        "calm-mcq-09": "「能減少焦慮或緊張，使人逐漸平靜的」是「calming」的用法，與本句語境不同。",
-        "calm-mcq-13": "「使原本緊張、混亂或激動的情況變得穩定和平靜」是「9. calm + situation/market/crowd（局勢／人群） — 使局勢穩定；平息」的用法，與本句語境不同。",
-        "calm-mcq-08": "「減少某人／某情況的焦慮、恐懼、激動或混亂，使其恢復平靜」是「calm — verb」的用法，與本句語境不同。"
+        "calm-mcq-11": "本句的「calmness」指「一個人或環境具有安靜、穩定、不激動特質的狀態」。",
+        "calm-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calm-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-11"
     },
@@ -1053,11 +867,7 @@ export default {
       "masked": "The quiet morning felt like ____.",
       "options": [
         "calm-mcq-12",
-        "calm-mcq-11",
-        "calm-mcq-13",
-        "calm-mcq-10",
-        "calm-mcq-09",
-        "calm-mcq-08"
+        "calm-mcq-04"
       ],
       "explanation": "本句的「the calm before the storm」指「在重大混亂、活動或困難出現前的一段短暫平靜」。",
       "sentenceIndex": 25,
@@ -1066,12 +876,8 @@ export default {
         "the calm before the storm"
       ],
       "optionReasons": {
-        "calm-mcq-12": "本句指「在重大混亂、活動或困難出現前的一段短暫平靜」。",
-        "calm-mcq-11": "「一個人或環境具有安靜、穩定、不激動特質的狀態」是「calmness」的用法，與本句語境不同。",
-        "calm-mcq-13": "「使原本緊張、混亂或激動的情況變得穩定和平靜」是「9. calm + situation/market/crowd（局勢／人群） — 使局勢穩定；平息」的用法，與本句語境不同。",
-        "calm-mcq-10": "「以情緒穩定、不急躁、不激動的方式」是「calmly」的用法，與本句語境不同。",
-        "calm-mcq-09": "「能減少焦慮或緊張，使人逐漸平靜的」是「calming」的用法，與本句語境不同。",
-        "calm-mcq-08": "「減少某人／某情況的焦慮、恐懼、激動或混亂，使其恢復平靜」是「calm — verb」的用法，與本句語境不同。"
+        "calm-mcq-12": "本句的「the calm before the storm」指「在重大混亂、活動或困難出現前的一段短暫平靜」。",
+        "calm-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-12"
     },
@@ -1083,11 +889,7 @@ export default {
       "masked": "Everyone was relaxed before the launch, but it was only ____.",
       "options": [
         "calm-mcq-12",
-        "calm-mcq-11",
-        "calm-mcq-13",
-        "calm-mcq-10",
-        "calm-mcq-09",
-        "calm-mcq-08"
+        "calm-mcq-04"
       ],
       "explanation": "本句的「the calm before the storm」指「在重大混亂、活動或困難出現前的一段短暫平靜」。",
       "sentenceIndex": 26,
@@ -1096,12 +898,8 @@ export default {
         "the calm before the storm"
       ],
       "optionReasons": {
-        "calm-mcq-12": "本句指「在重大混亂、活動或困難出現前的一段短暫平靜」。",
-        "calm-mcq-11": "「一個人或環境具有安靜、穩定、不激動特質的狀態」是「calmness」的用法，與本句語境不同。",
-        "calm-mcq-13": "「使原本緊張、混亂或激動的情況變得穩定和平靜」是「9. calm + situation/market/crowd（局勢／人群） — 使局勢穩定；平息」的用法，與本句語境不同。",
-        "calm-mcq-10": "「以情緒穩定、不急躁、不激動的方式」是「calmly」的用法，與本句語境不同。",
-        "calm-mcq-09": "「能減少焦慮或緊張，使人逐漸平靜的」是「calming」的用法，與本句語境不同。",
-        "calm-mcq-08": "「減少某人／某情況的焦慮、恐懼、激動或混亂，使其恢復平靜」是「calm — verb」的用法，與本句語境不同。"
+        "calm-mcq-12": "本句的「the calm before the storm」指「在重大混亂、活動或困難出現前的一段短暫平靜」。",
+        "calm-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calm-mcq-12"
     }
@@ -1113,5 +911,12 @@ export default {
     "sha256": "6fcfbc459390d7a08b07033a9bf1b1488fa3a0192a90729109b850730150063c",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

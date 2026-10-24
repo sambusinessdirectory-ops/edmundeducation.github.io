@@ -504,10 +504,8 @@ export default {
       "masked": "She grows quite a ____.",
       "options": [
         "range-pdf-001",
-        "range-mcq-01",
-        "range-mcq-03",
-        "range-mcq-04",
-        "range-mcq-05",
+        "range-mcq-21",
+        "range-mcq-18",
         "range-mcq-06"
       ],
       "explanation": "本句的「wide range of plants」指「同一大類中包含不同種類、選擇或項目的集合」。",
@@ -517,12 +515,10 @@ export default {
         "wide range of plants"
       ],
       "optionReasons": {
-        "range-pdf-001": "本句指「同一大類中包含不同種類、選擇或項目的集合」。",
-        "range-mcq-01": "「同一大類中包含多種不同類型、選項或形式的集合」與本句語境不同。",
-        "range-mcq-03": "「公司／品牌提供的相關產品種類與型號整體」與本句語境不同。",
-        "range-mcq-04": "「由最低／起點至最高／終點之間所涵蓋的區間」與本句語境不同。",
-        "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。"
+        "range-pdf-001": "本句的「wide range of plants」指「同一大類中包含不同種類、選擇或項目的集合」。",
+        "range-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-pdf-001"
     },
@@ -534,11 +530,9 @@ export default {
       "masked": "The course covers a ____.",
       "options": [
         "range-pdf-001",
-        "range-mcq-01",
-        "range-mcq-03",
-        "range-mcq-04",
-        "range-mcq-05",
-        "range-mcq-06"
+        "range-mcq-08",
+        "range-mcq-15",
+        "range-mcq-10"
       ],
       "explanation": "本句的「range of topics」指「同一大類中包含不同種類、選擇或項目的集合」。",
       "sentenceIndex": 1,
@@ -547,12 +541,10 @@ export default {
         "range of topics"
       ],
       "optionReasons": {
-        "range-pdf-001": "本句指「同一大類中包含不同種類、選擇或項目的集合」。",
-        "range-mcq-01": "「同一大類中包含多種不同類型、選項或形式的集合」與本句語境不同。",
-        "range-mcq-03": "「公司／品牌提供的相關產品種類與型號整體」與本句語境不同。",
-        "range-mcq-04": "「由最低／起點至最高／終點之間所涵蓋的區間」與本句語境不同。",
-        "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。"
+        "range-pdf-001": "本句的「range of topics」指「同一大類中包含不同種類、選擇或項目的集合」。",
+        "range-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-pdf-001"
     },
@@ -564,10 +556,8 @@ export default {
       "masked": "The shop sells a ____.",
       "options": [
         "range-pdf-001",
-        "range-mcq-01",
-        "range-mcq-03",
-        "range-mcq-04",
-        "range-mcq-05",
+        "range-mcq-18",
+        "range-pdf-002",
         "range-mcq-06"
       ],
       "explanation": "本句的「wide range of products」指「同一大類中包含不同種類、選擇或項目的集合」。",
@@ -577,12 +567,10 @@ export default {
         "wide range of products"
       ],
       "optionReasons": {
-        "range-pdf-001": "本句指「同一大類中包含不同種類、選擇或項目的集合」。",
-        "range-mcq-01": "「同一大類中包含多種不同類型、選項或形式的集合」與本句語境不同。",
-        "range-mcq-03": "「公司／品牌提供的相關產品種類與型號整體」與本句語境不同。",
-        "range-mcq-04": "「由最低／起點至最高／終點之間所涵蓋的區間」與本句語境不同。",
-        "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。"
+        "range-pdf-001": "本句的「wide range of products」指「同一大類中包含不同種類、選擇或項目的集合」。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "range-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-pdf-001"
     },
@@ -594,11 +582,9 @@ export default {
       "masked": "The company expanded its ____.",
       "options": [
         "range-mcq-03",
-        "range-mcq-02",
         "range-mcq-04",
-        "range-mcq-01",
-        "range-mcq-05",
-        "range-mcq-06"
+        "range-mcq-08",
+        "range-mcq-10"
       ],
       "explanation": "本句的「product range」指「公司／品牌提供的相關產品種類與型號整體」。",
       "sentenceIndex": 3,
@@ -607,12 +593,10 @@ export default {
         "product range"
       ],
       "optionReasons": {
-        "range-mcq-03": "本句指「公司／品牌提供的相關產品種類與型號整體」。",
-        "range-mcq-02": "「種類或選擇的涵蓋面非常廣」與本句語境不同。",
-        "range-mcq-04": "「由最低／起點至最高／終點之間所涵蓋的區間」與本句語境不同。",
-        "range-mcq-01": "「同一大類中包含多種不同類型、選項或形式的集合」與本句語境不同。",
-        "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。"
+        "range-mcq-03": "本句的「product range」指「公司／品牌提供的相關產品種類與型號整體」。",
+        "range-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-03"
     },
@@ -624,11 +608,9 @@ export default {
       "masked": "This model sits at the top of the company’s ____.",
       "options": [
         "range-mcq-03",
-        "range-mcq-02",
-        "range-mcq-04",
-        "range-mcq-01",
-        "range-mcq-05",
-        "range-mcq-06"
+        "range-mcq-06",
+        "range-mcq-18",
+        "range-mcq-08"
       ],
       "explanation": "本句的「range」指「公司／品牌提供的相關產品種類與型號整體」。",
       "sentenceIndex": 4,
@@ -637,12 +619,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-03": "本句指「公司／品牌提供的相關產品種類與型號整體」。",
-        "range-mcq-02": "「種類或選擇的涵蓋面非常廣」與本句語境不同。",
-        "range-mcq-04": "「由最低／起點至最高／終點之間所涵蓋的區間」與本句語境不同。",
-        "range-mcq-01": "「同一大類中包含多種不同類型、選項或形式的集合」與本句語境不同。",
-        "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。"
+        "range-mcq-03": "本句的「range」指「公司／品牌提供的相關產品種類與型號整體」。",
+        "range-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-03"
     },
@@ -654,11 +634,9 @@ export default {
       "masked": "The temperature stayed within a narrow ____.",
       "options": [
         "range-mcq-04",
+        "range-mcq-11",
         "range-mcq-03",
-        "range-mcq-05",
-        "range-mcq-02",
-        "range-mcq-06",
-        "range-mcq-01"
+        "range-mcq-10"
       ],
       "explanation": "本句的「range」指「由最低／起點至最高／終點之間所涵蓋的區間」。",
       "sentenceIndex": 5,
@@ -667,12 +645,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-04": "本句指「由最低／起點至最高／終點之間所涵蓋的區間」。",
-        "range-mcq-03": "「公司／品牌提供的相關產品種類與型號整體」與本句語境不同。",
-        "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。",
-        "range-mcq-02": "「種類或選擇的涵蓋面非常廣」與本句語境不同。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。",
-        "range-mcq-01": "「同一大類中包含多種不同類型、選項或形式的集合」與本句語境不同。"
+        "range-mcq-04": "本句的「range」指「由最低／起點至最高／終點之間所涵蓋的區間」。",
+        "range-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-04"
     },
@@ -684,11 +660,9 @@ export default {
       "masked": "The scores ____ from 60 to 95.",
       "options": [
         "range-mcq-04",
-        "range-mcq-03",
-        "range-mcq-05",
-        "range-mcq-02",
-        "range-mcq-06",
-        "range-mcq-01"
+        "range-mcq-11",
+        "range-mcq-10",
+        "range-mcq-03"
       ],
       "explanation": "本句的「ranged」指「由最低／起點至最高／終點之間所涵蓋的區間」。",
       "sentenceIndex": 6,
@@ -697,12 +671,10 @@ export default {
         "ranged"
       ],
       "optionReasons": {
-        "range-mcq-04": "本句指「由最低／起點至最高／終點之間所涵蓋的區間」。",
-        "range-mcq-03": "「公司／品牌提供的相關產品種類與型號整體」與本句語境不同。",
-        "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。",
-        "range-mcq-02": "「種類或選擇的涵蓋面非常廣」與本句語境不同。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。",
-        "range-mcq-01": "「同一大類中包含多種不同類型、選項或形式的集合」與本句語境不同。"
+        "range-mcq-04": "本句的「ranged」指「由最低／起點至最高／終點之間所涵蓋的區間」。",
+        "range-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-04"
     },
@@ -714,11 +686,9 @@ export default {
       "masked": "These headphones are outside my ____.",
       "options": [
         "range-mcq-05",
-        "range-mcq-04",
-        "range-mcq-06",
-        "range-mcq-03",
-        "range-mcq-07",
-        "range-mcq-02"
+        "range-mcq-11",
+        "range-mcq-10",
+        "range-mcq-18"
       ],
       "explanation": "本句的「price range」指「某類商品由最低至最高所涵蓋的價格區間」。",
       "sentenceIndex": 7,
@@ -727,12 +697,10 @@ export default {
         "price range"
       ],
       "optionReasons": {
-        "range-mcq-05": "本句指「某類商品由最低至最高所涵蓋的價格區間」。",
-        "range-mcq-04": "「由最低／起點至最高／終點之間所涵蓋的區間」與本句語境不同。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。",
-        "range-mcq-03": "「公司／品牌提供的相關產品種類與型號整體」與本句語境不同。",
-        "range-mcq-07": "「設備、訊號、交通工具或武器能有效到達的最大距離」與本句語境不同。",
-        "range-mcq-02": "「種類或選擇的涵蓋面非常廣」與本句語境不同。"
+        "range-mcq-05": "本句的「price range」指「某類商品由最低至最高所涵蓋的價格區間」。",
+        "range-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-05"
     },
@@ -744,11 +712,9 @@ export default {
       "masked": "The shop offers products in several price ____.",
       "options": [
         "range-mcq-05",
-        "range-mcq-04",
-        "range-mcq-06",
-        "range-mcq-03",
-        "range-mcq-07",
-        "range-mcq-02"
+        "range-mcq-08",
+        "range-mcq-10",
+        "range-mcq-17"
       ],
       "explanation": "本句的「ranges」指「某類商品由最低至最高所涵蓋的價格區間」。",
       "sentenceIndex": 8,
@@ -757,12 +723,10 @@ export default {
         "ranges"
       ],
       "optionReasons": {
-        "range-mcq-05": "本句指「某類商品由最低至最高所涵蓋的價格區間」。",
-        "range-mcq-04": "「由最低／起點至最高／終點之間所涵蓋的區間」與本句語境不同。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。",
-        "range-mcq-03": "「公司／品牌提供的相關產品種類與型號整體」與本句語境不同。",
-        "range-mcq-07": "「設備、訊號、交通工具或武器能有效到達的最大距離」與本句語境不同。",
-        "range-mcq-02": "「種類或選擇的涵蓋面非常廣」與本句語境不同。"
+        "range-mcq-05": "本句的「ranges」指「某類商品由最低至最高所涵蓋的價格區間」。",
+        "range-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-05"
     },
@@ -774,9 +738,7 @@ export default {
       "masked": "The activity is suitable for a wide ____.",
       "options": [
         "range-mcq-06",
-        "range-mcq-05",
-        "range-mcq-07",
-        "range-mcq-04",
+        "range-mcq-10",
         "range-mcq-08",
         "range-mcq-03"
       ],
@@ -787,12 +749,10 @@ export default {
         "age range"
       ],
       "optionReasons": {
-        "range-mcq-06": "本句指「由最低至最高年齡形成的年齡區間」。",
-        "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。",
-        "range-mcq-07": "「設備、訊號、交通工具或武器能有效到達的最大距離」與本句語境不同。",
-        "range-mcq-04": "「由最低／起點至最高／終點之間所涵蓋的區間」與本句語境不同。",
-        "range-mcq-08": "「位於／超出某系統或設備可以有效作用的距離」與本句語境不同。",
-        "range-mcq-03": "「公司／品牌提供的相關產品種類與型號整體」與本句語境不同。"
+        "range-mcq-06": "本句的「age range」指「由最低至最高年齡形成的年齡區間」。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-06"
     },
@@ -804,11 +764,9 @@ export default {
       "masked": "Most participants were in the 20–30 age ____.",
       "options": [
         "range-mcq-06",
-        "range-mcq-05",
-        "range-mcq-07",
-        "range-mcq-04",
-        "range-mcq-08",
-        "range-mcq-03"
+        "range-mcq-16",
+        "range-mcq-17",
+        "range-mcq-11"
       ],
       "explanation": "本句的「range」指「由最低至最高年齡形成的年齡區間」。",
       "sentenceIndex": 10,
@@ -817,12 +775,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-06": "本句指「由最低至最高年齡形成的年齡區間」。",
-        "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。",
-        "range-mcq-07": "「設備、訊號、交通工具或武器能有效到達的最大距離」與本句語境不同。",
-        "range-mcq-04": "「由最低／起點至最高／終點之間所涵蓋的區間」與本句語境不同。",
-        "range-mcq-08": "「位於／超出某系統或設備可以有效作用的距離」與本句語境不同。",
-        "range-mcq-03": "「公司／品牌提供的相關產品種類與型號整體」與本句語境不同。"
+        "range-mcq-06": "本句的「range」指「由最低至最高年齡形成的年齡區間」。",
+        "range-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-06"
     },
@@ -834,11 +790,9 @@ export default {
       "masked": "The device has a wireless ____ of ten metres.",
       "options": [
         "range-mcq-07",
-        "range-mcq-06",
-        "range-mcq-08",
-        "range-mcq-05",
+        "range-mcq-14",
         "range-mcq-09",
-        "range-mcq-04"
+        "range-mcq-18"
       ],
       "explanation": "本句的「range」指「設備、訊號、交通工具或武器能有效到達的最大距離」。",
       "sentenceIndex": 11,
@@ -847,12 +801,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-07": "本句指「設備、訊號、交通工具或武器能有效到達的最大距離」。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。",
-        "range-mcq-08": "「位於／超出某系統或設備可以有效作用的距離」與本句語境不同。",
-        "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。",
-        "range-mcq-09": "「一連串彼此相連／相近的山形成的山脈」與本句語境不同。",
-        "range-mcq-04": "「由最低／起點至最高／終點之間所涵蓋的區間」與本句語境不同。"
+        "range-mcq-07": "本句的「range」指「設備、訊號、交通工具或武器能有效到達的最大距離」。",
+        "range-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-07"
     },
@@ -864,11 +816,9 @@ export default {
       "masked": "The aircraft has a long ____.",
       "options": [
         "range-mcq-07",
-        "range-mcq-06",
-        "range-mcq-08",
-        "range-mcq-05",
+        "range-mcq-18",
         "range-mcq-09",
-        "range-mcq-04"
+        "range-mcq-20"
       ],
       "explanation": "本句的「range」指「設備、訊號、交通工具或武器能有效到達的最大距離」。",
       "sentenceIndex": 12,
@@ -877,12 +827,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-07": "本句指「設備、訊號、交通工具或武器能有效到達的最大距離」。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。",
-        "range-mcq-08": "「位於／超出某系統或設備可以有效作用的距離」與本句語境不同。",
-        "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。",
-        "range-mcq-09": "「一連串彼此相連／相近的山形成的山脈」與本句語境不同。",
-        "range-mcq-04": "「由最低／起點至最高／終點之間所涵蓋的區間」與本句語境不同。"
+        "range-mcq-07": "本句的「range」指「設備、訊號、交通工具或武器能有效到達的最大距離」。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-07"
     },
@@ -894,11 +842,9 @@ export default {
       "masked": "The phone was ____ of the Bluetooth speaker.",
       "options": [
         "range-mcq-08",
-        "range-mcq-07",
-        "range-mcq-09",
+        "range-mcq-03",
         "range-mcq-06",
-        "range-mcq-10",
-        "range-mcq-05"
+        "range-mcq-10"
       ],
       "explanation": "本句的「out of range」指「位於／超出某系統或設備可以有效作用的距離」。",
       "sentenceIndex": 13,
@@ -907,12 +853,10 @@ export default {
         "out of range"
       ],
       "optionReasons": {
-        "range-mcq-08": "本句指「位於／超出某系統或設備可以有效作用的距離」。",
-        "range-mcq-07": "「設備、訊號、交通工具或武器能有效到達的最大距離」與本句語境不同。",
-        "range-mcq-09": "「一連串彼此相連／相近的山形成的山脈」與本句語境不同。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。",
-        "range-mcq-10": "「供牲畜放牧的大型開放土地」與本句語境不同。",
-        "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。"
+        "range-mcq-08": "本句的「out of range」指「位於／超出某系統或設備可以有效作用的距離」。",
+        "range-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-08"
     },
@@ -924,11 +868,9 @@ export default {
       "masked": "The target was within ____.",
       "options": [
         "range-mcq-08",
-        "range-mcq-07",
-        "range-mcq-09",
-        "range-mcq-06",
-        "range-mcq-10",
-        "range-mcq-05"
+        "range-mcq-17",
+        "range-mcq-18",
+        "range-mcq-06"
       ],
       "explanation": "本句的「range」指「位於／超出某系統或設備可以有效作用的距離」。",
       "sentenceIndex": 14,
@@ -937,12 +879,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-08": "本句指「位於／超出某系統或設備可以有效作用的距離」。",
-        "range-mcq-07": "「設備、訊號、交通工具或武器能有效到達的最大距離」與本句語境不同。",
-        "range-mcq-09": "「一連串彼此相連／相近的山形成的山脈」與本句語境不同。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。",
-        "range-mcq-10": "「供牲畜放牧的大型開放土地」與本句語境不同。",
-        "range-mcq-05": "「某類商品由最低至最高所涵蓋的價格區間」與本句語境不同。"
+        "range-mcq-08": "本句的「range」指「位於／超出某系統或設備可以有效作用的距離」。",
+        "range-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-08"
     },
@@ -954,11 +894,9 @@ export default {
       "masked": "The village lies near a mountain ____.",
       "options": [
         "range-mcq-09",
-        "range-mcq-08",
         "range-mcq-10",
-        "range-mcq-07",
-        "range-mcq-11",
-        "range-mcq-06"
+        "range-mcq-20",
+        "range-mcq-18"
       ],
       "explanation": "本句的「range」指「一連串彼此相連／相近的山形成的山脈」。",
       "sentenceIndex": 15,
@@ -967,12 +905,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-09": "本句指「一連串彼此相連／相近的山形成的山脈」。",
-        "range-mcq-08": "「位於／超出某系統或設備可以有效作用的距離」與本句語境不同。",
-        "range-mcq-10": "「供牲畜放牧的大型開放土地」與本句語境不同。",
-        "range-mcq-07": "「設備、訊號、交通工具或武器能有效到達的最大距離」與本句語境不同。",
-        "range-mcq-11": "「專門供射擊練習或武器測試的場地」與本句語境不同。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。"
+        "range-mcq-09": "本句的「range」指「一連串彼此相連／相近的山形成的山脈」。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-09"
     },
@@ -984,11 +920,9 @@ export default {
       "masked": "The Himalayas are a major mountain ____.",
       "options": [
         "range-mcq-09",
-        "range-mcq-08",
-        "range-mcq-10",
-        "range-mcq-07",
+        "range-mcq-18",
         "range-mcq-11",
-        "range-mcq-06"
+        "range-mcq-10"
       ],
       "explanation": "本句的「range」指「一連串彼此相連／相近的山形成的山脈」。",
       "sentenceIndex": 16,
@@ -997,12 +931,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-09": "本句指「一連串彼此相連／相近的山形成的山脈」。",
-        "range-mcq-08": "「位於／超出某系統或設備可以有效作用的距離」與本句語境不同。",
-        "range-mcq-10": "「供牲畜放牧的大型開放土地」與本句語境不同。",
-        "range-mcq-07": "「設備、訊號、交通工具或武器能有效到達的最大距離」與本句語境不同。",
-        "range-mcq-11": "「專門供射擊練習或武器測試的場地」與本句語境不同。",
-        "range-mcq-06": "「由最低至最高年齡形成的年齡區間」與本句語境不同。"
+        "range-mcq-09": "本句的「range」指「一連串彼此相連／相近的山形成的山脈」。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-09"
     },
@@ -1014,11 +946,9 @@ export default {
       "masked": "Cattle were grazing on the open ____.",
       "options": [
         "range-mcq-10",
-        "range-mcq-09",
-        "range-mcq-11",
-        "range-mcq-08",
-        "range-mcq-12",
-        "range-mcq-07"
+        "range-mcq-16",
+        "range-mcq-20",
+        "range-mcq-17"
       ],
       "explanation": "本句的「range」指「供牲畜放牧的大型開放土地」。",
       "sentenceIndex": 17,
@@ -1027,12 +957,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-10": "本句指「供牲畜放牧的大型開放土地」。",
-        "range-mcq-09": "「一連串彼此相連／相近的山形成的山脈」與本句語境不同。",
-        "range-mcq-11": "「專門供射擊練習或武器測試的場地」與本句語境不同。",
-        "range-mcq-08": "「位於／超出某系統或設備可以有效作用的距離」與本句語境不同。",
-        "range-mcq-12": "「專門供高爾夫球手練習擊球的場地」與本句語境不同。",
-        "range-mcq-07": "「設備、訊號、交通工具或武器能有效到達的最大距離」與本句語境不同。"
+        "range-mcq-10": "本句的「range」指「供牲畜放牧的大型開放土地」。",
+        "range-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-10"
     },
@@ -1044,11 +972,9 @@ export default {
       "masked": "The animals roam freely across the ____.",
       "options": [
         "range-mcq-10",
+        "range-mcq-20",
         "range-mcq-09",
-        "range-mcq-11",
-        "range-mcq-08",
-        "range-mcq-12",
-        "range-mcq-07"
+        "range-mcq-15"
       ],
       "explanation": "本句的「range」指「供牲畜放牧的大型開放土地」。",
       "sentenceIndex": 18,
@@ -1057,12 +983,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-10": "本句指「供牲畜放牧的大型開放土地」。",
-        "range-mcq-09": "「一連串彼此相連／相近的山形成的山脈」與本句語境不同。",
-        "range-mcq-11": "「專門供射擊練習或武器測試的場地」與本句語境不同。",
-        "range-mcq-08": "「位於／超出某系統或設備可以有效作用的距離」與本句語境不同。",
-        "range-mcq-12": "「專門供高爾夫球手練習擊球的場地」與本句語境不同。",
-        "range-mcq-07": "「設備、訊號、交通工具或武器能有效到達的最大距離」與本句語境不同。"
+        "range-mcq-10": "本句的「range」指「供牲畜放牧的大型開放土地」。",
+        "range-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-10"
     },
@@ -1074,11 +998,9 @@ export default {
       "masked": "They practised at a shooting ____.",
       "options": [
         "range-mcq-11",
-        "range-mcq-10",
-        "range-mcq-12",
-        "range-mcq-09",
-        "range-mcq-13",
-        "range-mcq-08"
+        "range-mcq-16",
+        "range-mcq-06",
+        "range-mcq-17"
       ],
       "explanation": "本句的「range」指「專門供射擊練習或武器測試的場地」。",
       "sentenceIndex": 19,
@@ -1087,12 +1009,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-11": "本句指「專門供射擊練習或武器測試的場地」。",
-        "range-mcq-10": "「供牲畜放牧的大型開放土地」與本句語境不同。",
-        "range-mcq-12": "「專門供高爾夫球手練習擊球的場地」與本句語境不同。",
-        "range-mcq-09": "「一連串彼此相連／相近的山形成的山脈」與本句語境不同。",
-        "range-mcq-13": "「結合爐頭／焗爐等功能的大型煮食設備」與本句語境不同。",
-        "range-mcq-08": "「位於／超出某系統或設備可以有效作用的距離」與本句語境不同。"
+        "range-mcq-11": "本句的「range」指「專門供射擊練習或武器測試的場地」。",
+        "range-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-11"
     },
@@ -1104,11 +1024,9 @@ export default {
       "masked": "The firing ____ is closed today.",
       "options": [
         "range-mcq-11",
-        "range-mcq-10",
-        "range-mcq-12",
-        "range-mcq-09",
         "range-mcq-13",
-        "range-mcq-08"
+        "range-mcq-15",
+        "range-mcq-17"
       ],
       "explanation": "本句的「range」指「專門供射擊練習或武器測試的場地」。",
       "sentenceIndex": 20,
@@ -1117,12 +1035,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-11": "本句指「專門供射擊練習或武器測試的場地」。",
-        "range-mcq-10": "「供牲畜放牧的大型開放土地」與本句語境不同。",
-        "range-mcq-12": "「專門供高爾夫球手練習擊球的場地」與本句語境不同。",
-        "range-mcq-09": "「一連串彼此相連／相近的山形成的山脈」與本句語境不同。",
-        "range-mcq-13": "「結合爐頭／焗爐等功能的大型煮食設備」與本句語境不同。",
-        "range-mcq-08": "「位於／超出某系統或設備可以有效作用的距離」與本句語境不同。"
+        "range-mcq-11": "本句的「range」指「專門供射擊練習或武器測試的場地」。",
+        "range-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-11"
     },
@@ -1134,11 +1050,9 @@ export default {
       "masked": "He practised his swing at the ____.",
       "options": [
         "range-mcq-12",
-        "range-mcq-11",
-        "range-mcq-13",
-        "range-mcq-10",
-        "range-mcq-14",
-        "range-mcq-09"
+        "range-mcq-17",
+        "range-mcq-07",
+        "range-mcq-18"
       ],
       "explanation": "本句的「driving range」指「專門供高爾夫球手練習擊球的場地」。",
       "sentenceIndex": 21,
@@ -1147,12 +1061,10 @@ export default {
         "driving range"
       ],
       "optionReasons": {
-        "range-mcq-12": "本句指「專門供高爾夫球手練習擊球的場地」。",
-        "range-mcq-11": "「專門供射擊練習或武器測試的場地」與本句語境不同。",
-        "range-mcq-13": "「結合爐頭／焗爐等功能的大型煮食設備」與本句語境不同。",
-        "range-mcq-10": "「供牲畜放牧的大型開放土地」與本句語境不同。",
-        "range-mcq-14": "「關節／身體部位由一位置移至另一位置的完整活動幅度」與本句語境不同。",
-        "range-mcq-09": "「一連串彼此相連／相近的山形成的山脈」與本句語境不同。"
+        "range-mcq-12": "本句的「driving range」指「專門供高爾夫球手練習擊球的場地」。",
+        "range-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-12"
     },
@@ -1164,11 +1076,9 @@ export default {
       "masked": "The hotel has its own driving ____.",
       "options": [
         "range-mcq-12",
-        "range-mcq-11",
         "range-mcq-13",
-        "range-mcq-10",
-        "range-mcq-14",
-        "range-mcq-09"
+        "range-mcq-18",
+        "range-mcq-17"
       ],
       "explanation": "本句的「range」指「專門供高爾夫球手練習擊球的場地」。",
       "sentenceIndex": 22,
@@ -1177,12 +1087,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-12": "本句指「專門供高爾夫球手練習擊球的場地」。",
-        "range-mcq-11": "「專門供射擊練習或武器測試的場地」與本句語境不同。",
-        "range-mcq-13": "「結合爐頭／焗爐等功能的大型煮食設備」與本句語境不同。",
-        "range-mcq-10": "「供牲畜放牧的大型開放土地」與本句語境不同。",
-        "range-mcq-14": "「關節／身體部位由一位置移至另一位置的完整活動幅度」與本句語境不同。",
-        "range-mcq-09": "「一連串彼此相連／相近的山形成的山脈」與本句語境不同。"
+        "range-mcq-12": "本句的「range」指「專門供高爾夫球手練習擊球的場地」。",
+        "range-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-12"
     },
@@ -1195,10 +1103,8 @@ export default {
       "options": [
         "range-mcq-13",
         "range-mcq-12",
-        "range-mcq-14",
-        "range-mcq-11",
-        "range-mcq-15",
-        "range-mcq-10"
+        "range-mcq-18",
+        "range-mcq-17"
       ],
       "explanation": "本句的「range」指「結合爐頭／焗爐等功能的大型煮食設備」。",
       "sentenceIndex": 23,
@@ -1207,12 +1113,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-13": "本句指「結合爐頭／焗爐等功能的大型煮食設備」。",
-        "range-mcq-12": "「專門供高爾夫球手練習擊球的場地」與本句語境不同。",
-        "range-mcq-14": "「關節／身體部位由一位置移至另一位置的完整活動幅度」與本句語境不同。",
-        "range-mcq-11": "「專門供射擊練習或武器測試的場地」與本句語境不同。",
-        "range-mcq-15": "「一個人能唱／發出的最低音至最高音之間的音域」與本句語境不同。",
-        "range-mcq-10": "「供牲畜放牧的大型開放土地」與本句語境不同。"
+        "range-mcq-13": "本句的「range」指「結合爐頭／焗爐等功能的大型煮食設備」。",
+        "range-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-13"
     },
@@ -1224,11 +1128,9 @@ export default {
       "masked": "She replaced the old electric ____.",
       "options": [
         "range-mcq-13",
-        "range-mcq-12",
-        "range-mcq-14",
-        "range-mcq-11",
+        "range-mcq-17",
         "range-mcq-15",
-        "range-mcq-10"
+        "range-mcq-12"
       ],
       "explanation": "本句的「range」指「結合爐頭／焗爐等功能的大型煮食設備」。",
       "sentenceIndex": 24,
@@ -1237,12 +1139,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-13": "本句指「結合爐頭／焗爐等功能的大型煮食設備」。",
-        "range-mcq-12": "「專門供高爾夫球手練習擊球的場地」與本句語境不同。",
-        "range-mcq-14": "「關節／身體部位由一位置移至另一位置的完整活動幅度」與本句語境不同。",
-        "range-mcq-11": "「專門供射擊練習或武器測試的場地」與本句語境不同。",
-        "range-mcq-15": "「一個人能唱／發出的最低音至最高音之間的音域」與本句語境不同。",
-        "range-mcq-10": "「供牲畜放牧的大型開放土地」與本句語境不同。"
+        "range-mcq-13": "本句的「range」指「結合爐頭／焗爐等功能的大型煮食設備」。",
+        "range-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-13"
     },
@@ -1254,11 +1154,9 @@ export default {
       "masked": "The injury reduced the ____ in his shoulder.",
       "options": [
         "range-mcq-14",
-        "range-mcq-13",
-        "range-mcq-15",
-        "range-mcq-12",
-        "range-mcq-16",
-        "range-mcq-11"
+        "range-pdf-001",
+        "range-mcq-10",
+        "range-mcq-07"
       ],
       "explanation": "本句的「range of motion」指「關節／身體部位由一位置移至另一位置的完整活動幅度」。",
       "sentenceIndex": 25,
@@ -1267,12 +1165,10 @@ export default {
         "range of motion"
       ],
       "optionReasons": {
-        "range-mcq-14": "本句指「關節／身體部位由一位置移至另一位置的完整活動幅度」。",
-        "range-mcq-13": "「結合爐頭／焗爐等功能的大型煮食設備」與本句語境不同。",
-        "range-mcq-15": "「一個人能唱／發出的最低音至最高音之間的音域」與本句語境不同。",
-        "range-mcq-12": "「專門供高爾夫球手練習擊球的場地」與本句語境不同。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。",
-        "range-mcq-11": "「專門供射擊練習或武器測試的場地」與本句語境不同。"
+        "range-mcq-14": "本句的「range of motion」指「關節／身體部位由一位置移至另一位置的完整活動幅度」。",
+        "range-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-14"
     },
@@ -1285,10 +1181,8 @@ export default {
       "options": [
         "range-mcq-14",
         "range-mcq-13",
-        "range-mcq-15",
-        "range-mcq-12",
-        "range-mcq-16",
-        "range-mcq-11"
+        "range-mcq-18",
+        "range-mcq-06"
       ],
       "explanation": "本句的「range」指「關節／身體部位由一位置移至另一位置的完整活動幅度」。",
       "sentenceIndex": 26,
@@ -1297,12 +1191,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-14": "本句指「關節／身體部位由一位置移至另一位置的完整活動幅度」。",
-        "range-mcq-13": "「結合爐頭／焗爐等功能的大型煮食設備」與本句語境不同。",
-        "range-mcq-15": "「一個人能唱／發出的最低音至最高音之間的音域」與本句語境不同。",
-        "range-mcq-12": "「專門供高爾夫球手練習擊球的場地」與本句語境不同。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。",
-        "range-mcq-11": "「專門供射擊練習或武器測試的場地」與本句語境不同。"
+        "range-mcq-14": "本句的「range」指「關節／身體部位由一位置移至另一位置的完整活動幅度」。",
+        "range-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-14"
     },
@@ -1314,11 +1206,9 @@ export default {
       "masked": "The singer has an impressive ____.",
       "options": [
         "range-mcq-15",
-        "range-mcq-14",
+        "range-mcq-11",
         "range-mcq-16",
-        "range-mcq-13",
-        "range-mcq-17",
-        "range-mcq-12"
+        "range-mcq-10"
       ],
       "explanation": "本句的「vocal range」指「一個人能唱／發出的最低音至最高音之間的音域」。",
       "sentenceIndex": 27,
@@ -1327,12 +1217,10 @@ export default {
         "vocal range"
       ],
       "optionReasons": {
-        "range-mcq-15": "本句指「一個人能唱／發出的最低音至最高音之間的音域」。",
-        "range-mcq-14": "「關節／身體部位由一位置移至另一位置的完整活動幅度」與本句語境不同。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。",
-        "range-mcq-13": "「結合爐頭／焗爐等功能的大型煮食設備」與本句語境不同。",
-        "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
-        "range-mcq-12": "「專門供高爾夫球手練習擊球的場地」與本句語境不同。"
+        "range-mcq-15": "本句的「vocal range」指「一個人能唱／發出的最低音至最高音之間的音域」。",
+        "range-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-15"
     },
@@ -1344,11 +1232,9 @@ export default {
       "masked": "This song is outside my vocal ____.",
       "options": [
         "range-mcq-15",
-        "range-mcq-14",
         "range-mcq-16",
-        "range-mcq-13",
-        "range-mcq-17",
-        "range-mcq-12"
+        "range-mcq-11",
+        "range-mcq-10"
       ],
       "explanation": "本句的「range」指「一個人能唱／發出的最低音至最高音之間的音域」。",
       "sentenceIndex": 28,
@@ -1357,12 +1243,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-15": "本句指「一個人能唱／發出的最低音至最高音之間的音域」。",
-        "range-mcq-14": "「關節／身體部位由一位置移至另一位置的完整活動幅度」與本句語境不同。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。",
-        "range-mcq-13": "「結合爐頭／焗爐等功能的大型煮食設備」與本句語境不同。",
-        "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
-        "range-mcq-12": "「專門供高爾夫球手練習擊球的場地」與本句語境不同。"
+        "range-mcq-15": "本句的「range」指「一個人能唱／發出的最低音至最高音之間的音域」。",
+        "range-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-15"
     },
@@ -1374,11 +1258,9 @@ export default {
       "masked": "The teacher had an impressive ____.",
       "options": [
         "range-mcq-16",
-        "range-mcq-15",
-        "range-mcq-17",
-        "range-mcq-14",
-        "range-mcq-18",
-        "range-mcq-13"
+        "range-mcq-11",
+        "range-mcq-03",
+        "range-mcq-06"
       ],
       "explanation": "本句的「range of knowledge」指「技能、知識、興趣或能力所能涵蓋的廣度」。",
       "sentenceIndex": 29,
@@ -1387,12 +1269,10 @@ export default {
         "range of knowledge"
       ],
       "optionReasons": {
-        "range-mcq-16": "本句指「技能、知識、興趣或能力所能涵蓋的廣度」。",
-        "range-mcq-15": "「一個人能唱／發出的最低音至最高音之間的音域」與本句語境不同。",
-        "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
-        "range-mcq-14": "「關節／身體部位由一位置移至另一位置的完整活動幅度」與本句語境不同。",
-        "range-mcq-18": "「某個可測量值介乎兩個界線之間」與本句語境不同。",
-        "range-mcq-13": "「結合爐頭／焗爐等功能的大型煮食設備」與本句語境不同。"
+        "range-mcq-16": "本句的「range of knowledge」指「技能、知識、興趣或能力所能涵蓋的廣度」。",
+        "range-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-16"
     },
@@ -1404,11 +1284,9 @@ export default {
       "masked": "The role requires a broad ____ of skills.",
       "options": [
         "range-mcq-16",
-        "range-mcq-15",
-        "range-mcq-17",
-        "range-mcq-14",
-        "range-mcq-18",
-        "range-mcq-13"
+        "range-mcq-07",
+        "range-pdf-002",
+        "range-mcq-18"
       ],
       "explanation": "本句的「range」指「技能、知識、興趣或能力所能涵蓋的廣度」。",
       "sentenceIndex": 30,
@@ -1417,12 +1295,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-16": "本句指「技能、知識、興趣或能力所能涵蓋的廣度」。",
-        "range-mcq-15": "「一個人能唱／發出的最低音至最高音之間的音域」與本句語境不同。",
-        "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
-        "range-mcq-14": "「關節／身體部位由一位置移至另一位置的完整活動幅度」與本句語境不同。",
-        "range-mcq-18": "「某個可測量值介乎兩個界線之間」與本句語境不同。",
-        "range-mcq-13": "「結合爐頭／焗爐等功能的大型煮食設備」與本句語境不同。"
+        "range-mcq-16": "本句的「range」指「技能、知識、興趣或能力所能涵蓋的廣度」。",
+        "range-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "range-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-16"
     },
@@ -1434,11 +1310,9 @@ export default {
       "masked": "The plants ____ tiny herbs to small fruit trees.",
       "options": [
         "range-mcq-17",
-        "range-mcq-16",
-        "range-mcq-18",
         "range-mcq-15",
-        "range-mcq-19",
-        "range-mcq-14"
+        "range-mcq-08",
+        "range-mcq-09"
       ],
       "explanation": "本句的「range from」指「一組事物的種類、程度或數值從 A 延伸到 B」。",
       "sentenceIndex": 31,
@@ -1447,12 +1321,10 @@ export default {
         "range from"
       ],
       "optionReasons": {
-        "range-mcq-17": "本句指「一組事物的種類、程度或數值從 A 延伸到 B」。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。",
-        "range-mcq-18": "「某個可測量值介乎兩個界線之間」與本句語境不同。",
-        "range-mcq-15": "「一個人能唱／發出的最低音至最高音之間的音域」與本句語境不同。",
-        "range-mcq-19": "「一項活動、討論或興趣涵蓋多個不同領域／題目」與本句語境不同。",
-        "range-mcq-14": "「關節／身體部位由一位置移至另一位置的完整活動幅度」與本句語境不同。"
+        "range-mcq-17": "本句的「range from」指「一組事物的種類、程度或數值從 A 延伸到 B」。",
+        "range-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-17"
     },
@@ -1464,11 +1336,9 @@ export default {
       "masked": "Prices ____ from ten to fifty dollars.",
       "options": [
         "range-mcq-17",
-        "range-mcq-16",
-        "range-mcq-18",
-        "range-mcq-15",
-        "range-mcq-19",
-        "range-mcq-14"
+        "range-mcq-09",
+        "range-mcq-12",
+        "range-mcq-10"
       ],
       "explanation": "本句的「range」指「一組事物的種類、程度或數值從 A 延伸到 B」。",
       "sentenceIndex": 32,
@@ -1477,12 +1347,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-17": "本句指「一組事物的種類、程度或數值從 A 延伸到 B」。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。",
-        "range-mcq-18": "「某個可測量值介乎兩個界線之間」與本句語境不同。",
-        "range-mcq-15": "「一個人能唱／發出的最低音至最高音之間的音域」與本句語境不同。",
-        "range-mcq-19": "「一項活動、討論或興趣涵蓋多個不同領域／題目」與本句語境不同。",
-        "range-mcq-14": "「關節／身體部位由一位置移至另一位置的完整活動幅度」與本句語境不同。"
+        "range-mcq-17": "本句的「range」指「一組事物的種類、程度或數值從 A 延伸到 B」。",
+        "range-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-17"
     },
@@ -1494,11 +1362,9 @@ export default {
       "masked": "Temperatures ____ between 15 and 25 degrees.",
       "options": [
         "range-mcq-18",
-        "range-mcq-17",
-        "range-mcq-19",
         "range-mcq-16",
         "range-mcq-20",
-        "range-mcq-15"
+        "range-mcq-03"
       ],
       "explanation": "本句的「range」指「某個可測量值介乎兩個界線之間」。",
       "sentenceIndex": 33,
@@ -1507,12 +1373,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-18": "本句指「某個可測量值介乎兩個界線之間」。",
-        "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
-        "range-mcq-19": "「一項活動、討論或興趣涵蓋多個不同領域／題目」與本句語境不同。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。",
-        "range-mcq-20": "「在廣闊區域內活動、生活或分布」與本句語境不同。",
-        "range-mcq-15": "「一個人能唱／發出的最低音至最高音之間的音域」與本句語境不同。"
+        "range-mcq-18": "本句的「range」指「某個可測量值介乎兩個界線之間」。",
+        "range-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-18"
     },
@@ -1524,11 +1388,9 @@ export default {
       "masked": "Participants ____ in age between eighteen and sixty.",
       "options": [
         "range-mcq-18",
-        "range-mcq-17",
-        "range-mcq-19",
-        "range-mcq-16",
-        "range-mcq-20",
-        "range-mcq-15"
+        "range-mcq-21",
+        "range-mcq-10",
+        "range-mcq-07"
       ],
       "explanation": "本句的「ranged」指「某個可測量值介乎兩個界線之間」。",
       "sentenceIndex": 34,
@@ -1537,12 +1399,10 @@ export default {
         "ranged"
       ],
       "optionReasons": {
-        "range-mcq-18": "本句指「某個可測量值介乎兩個界線之間」。",
-        "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
-        "range-mcq-19": "「一項活動、討論或興趣涵蓋多個不同領域／題目」與本句語境不同。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。",
-        "range-mcq-20": "「在廣闊區域內活動、生活或分布」與本句語境不同。",
-        "range-mcq-15": "「一個人能唱／發出的最低音至最高音之間的音域」與本句語境不同。"
+        "range-mcq-18": "本句的「ranged」指「某個可測量值介乎兩個界線之間」。",
+        "range-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-18"
     },
@@ -1554,11 +1414,9 @@ export default {
       "masked": "The discussion ____ several topics.",
       "options": [
         "range-mcq-19",
-        "range-mcq-18",
-        "range-mcq-20",
-        "range-mcq-17",
-        "range-mcq-21",
-        "range-mcq-16"
+        "range-mcq-03",
+        "range-mcq-07",
+        "range-mcq-12"
       ],
       "explanation": "本句的「ranged over」指「一項活動、討論或興趣涵蓋多個不同領域／題目」。",
       "sentenceIndex": 35,
@@ -1567,12 +1425,10 @@ export default {
         "ranged over"
       ],
       "optionReasons": {
-        "range-mcq-19": "本句指「一項活動、討論或興趣涵蓋多個不同領域／題目」。",
-        "range-mcq-18": "「某個可測量值介乎兩個界線之間」與本句語境不同。",
-        "range-mcq-20": "「在廣闊區域內活動、生活或分布」與本句語境不同。",
-        "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
-        "range-mcq-21": "「負責巡查、保護或管理公園、森林等自然地區的人員」與本句語境不同。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。"
+        "range-mcq-19": "本句的「ranged over」指「一項活動、討論或興趣涵蓋多個不同領域／題目」。",
+        "range-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-19"
     },
@@ -1584,11 +1440,9 @@ export default {
       "masked": "Her interests ____ across science, history, and art.",
       "options": [
         "range-mcq-19",
-        "range-mcq-18",
-        "range-mcq-20",
-        "range-mcq-17",
+        "range-mcq-07",
         "range-mcq-21",
-        "range-mcq-16"
+        "range-mcq-17"
       ],
       "explanation": "本句的「range」指「一項活動、討論或興趣涵蓋多個不同領域／題目」。",
       "sentenceIndex": 36,
@@ -1597,12 +1451,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-19": "本句指「一項活動、討論或興趣涵蓋多個不同領域／題目」。",
-        "range-mcq-18": "「某個可測量值介乎兩個界線之間」與本句語境不同。",
-        "range-mcq-20": "「在廣闊區域內活動、生活或分布」與本句語境不同。",
-        "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
-        "range-mcq-21": "「負責巡查、保護或管理公園、森林等自然地區的人員」與本句語境不同。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。"
+        "range-mcq-19": "本句的「range」指「一項活動、討論或興趣涵蓋多個不同領域／題目」。",
+        "range-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-19"
     },
@@ -1614,11 +1466,9 @@ export default {
       "masked": "The animals ____ widely across the mountains.",
       "options": [
         "range-mcq-20",
-        "range-mcq-19",
-        "range-mcq-21",
-        "range-mcq-18",
         "range-mcq-17",
-        "range-mcq-16"
+        "range-mcq-13",
+        "range-mcq-18"
       ],
       "explanation": "本句的「range」指「在廣闊區域內活動、生活或分布」。",
       "sentenceIndex": 37,
@@ -1627,12 +1477,10 @@ export default {
         "range"
       ],
       "optionReasons": {
-        "range-mcq-20": "本句指「在廣闊區域內活動、生活或分布」。",
-        "range-mcq-19": "「一項活動、討論或興趣涵蓋多個不同領域／題目」與本句語境不同。",
-        "range-mcq-21": "「負責巡查、保護或管理公園、森林等自然地區的人員」與本句語境不同。",
-        "range-mcq-18": "「某個可測量值介乎兩個界線之間」與本句語境不同。",
-        "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。"
+        "range-mcq-20": "本句的「range」指「在廣闊區域內活動、生活或分布」。",
+        "range-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-20"
     },
@@ -1644,11 +1492,9 @@ export default {
       "masked": "The species ____ across much of Asia.",
       "options": [
         "range-mcq-20",
-        "range-mcq-19",
-        "range-mcq-21",
-        "range-mcq-18",
         "range-mcq-17",
-        "range-mcq-16"
+        "range-mcq-09",
+        "range-mcq-07"
       ],
       "explanation": "本句的「ranges」指「在廣闊區域內活動、生活或分布」。",
       "sentenceIndex": 38,
@@ -1657,12 +1503,10 @@ export default {
         "ranges"
       ],
       "optionReasons": {
-        "range-mcq-20": "本句指「在廣闊區域內活動、生活或分布」。",
-        "range-mcq-19": "「一項活動、討論或興趣涵蓋多個不同領域／題目」與本句語境不同。",
-        "range-mcq-21": "「負責巡查、保護或管理公園、森林等自然地區的人員」與本句語境不同。",
-        "range-mcq-18": "「某個可測量值介乎兩個界線之間」與本句語境不同。",
-        "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。"
+        "range-mcq-20": "本句的「ranges」指「在廣闊區域內活動、生活或分布」。",
+        "range-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-20"
     },
@@ -1674,11 +1518,9 @@ export default {
       "masked": "A park ____ showed us the safest path.",
       "options": [
         "range-mcq-21",
-        "range-mcq-20",
-        "range-mcq-19",
-        "range-mcq-18",
+        "range-mcq-16",
         "range-mcq-17",
-        "range-mcq-16"
+        "range-mcq-18"
       ],
       "explanation": "本句的「ranger」指「負責巡查、保護或管理公園、森林等自然地區的人員」。",
       "sentenceIndex": 39,
@@ -1687,12 +1529,10 @@ export default {
         "ranger"
       ],
       "optionReasons": {
-        "range-mcq-21": "本句指「負責巡查、保護或管理公園、森林等自然地區的人員」。",
-        "range-mcq-20": "「在廣闊區域內活動、生活或分布」與本句語境不同。",
-        "range-mcq-19": "「一項活動、討論或興趣涵蓋多個不同領域／題目」與本句語境不同。",
-        "range-mcq-18": "「某個可測量值介乎兩個界線之間」與本句語境不同。",
-        "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。"
+        "range-mcq-21": "本句的「ranger」指「負責巡查、保護或管理公園、森林等自然地區的人員」。",
+        "range-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-21"
     },
@@ -1704,11 +1544,9 @@ export default {
       "masked": "____ protect wildlife and maintain trails.",
       "options": [
         "range-mcq-21",
-        "range-mcq-20",
-        "range-mcq-19",
-        "range-mcq-18",
-        "range-mcq-17",
-        "range-mcq-16"
+        "range-mcq-16",
+        "range-mcq-07",
+        "range-mcq-10"
       ],
       "explanation": "本句的「Rangers」指「負責巡查、保護或管理公園、森林等自然地區的人員」。",
       "sentenceIndex": 40,
@@ -1717,12 +1555,10 @@ export default {
         "Rangers"
       ],
       "optionReasons": {
-        "range-mcq-21": "本句指「負責巡查、保護或管理公園、森林等自然地區的人員」。",
-        "range-mcq-20": "「在廣闊區域內活動、生活或分布」與本句語境不同。",
-        "range-mcq-19": "「一項活動、討論或興趣涵蓋多個不同領域／題目」與本句語境不同。",
-        "range-mcq-18": "「某個可測量值介乎兩個界線之間」與本句語境不同。",
-        "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。"
+        "range-mcq-21": "本句的「Rangers」指「負責巡查、保護或管理公園、森林等自然地區的人員」。",
+        "range-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-mcq-21"
     },
@@ -1734,11 +1570,9 @@ export default {
       "masked": "The ____ patrolled the reserve every morning.",
       "options": [
         "range-pdf-002",
-        "range-mcq-20",
-        "range-mcq-19",
-        "range-mcq-18",
-        "range-mcq-17",
-        "range-mcq-16"
+        "range-mcq-03",
+        "range-mcq-13",
+        "range-mcq-18"
       ],
       "explanation": "本句的「ranger」指「在一定區域內巡查、管理或保護土地／野生動物的人」。",
       "sentenceIndex": 41,
@@ -1747,12 +1581,10 @@ export default {
         "ranger"
       ],
       "optionReasons": {
-        "range-pdf-002": "本句指「在一定區域內巡查、管理或保護土地／野生動物的人」。",
-        "range-mcq-20": "「在廣闊區域內活動、生活或分布」與本句語境不同。",
-        "range-mcq-19": "「一項活動、討論或興趣涵蓋多個不同領域／題目」與本句語境不同。",
-        "range-mcq-18": "「某個可測量值介乎兩個界線之間」與本句語境不同。",
-        "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。"
+        "range-pdf-002": "本句的「ranger」指「在一定區域內巡查、管理或保護土地／野生動物的人」。",
+        "range-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-pdf-002"
     },
@@ -1764,11 +1596,9 @@ export default {
       "masked": "Local ____ monitor animal populations.",
       "options": [
         "range-pdf-002",
-        "range-mcq-20",
-        "range-mcq-19",
+        "range-pdf-001",
         "range-mcq-18",
-        "range-mcq-17",
-        "range-mcq-16"
+        "range-mcq-07"
       ],
       "explanation": "本句的「rangers」指「在一定區域內巡查、管理或保護土地／野生動物的人」。",
       "sentenceIndex": 42,
@@ -1777,12 +1607,10 @@ export default {
         "rangers"
       ],
       "optionReasons": {
-        "range-pdf-002": "本句指「在一定區域內巡查、管理或保護土地／野生動物的人」。",
-        "range-mcq-20": "「在廣闊區域內活動、生活或分布」與本句語境不同。",
-        "range-mcq-19": "「一項活動、討論或興趣涵蓋多個不同領域／題目」與本句語境不同。",
-        "range-mcq-18": "「某個可測量值介乎兩個界線之間」與本句語境不同。",
-        "range-mcq-17": "「一組事物的種類、程度或數值從 A 延伸到 B」與本句語境不同。",
-        "range-mcq-16": "「技能、知識、興趣或能力所能涵蓋的廣度」與本句語境不同。"
+        "range-pdf-002": "本句的「rangers」指「在一定區域內巡查、管理或保護土地／野生動物的人」。",
+        "range-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "range-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "range-pdf-002"
     }
@@ -1794,5 +1622,7 @@ export default {
     "sha256": "6a3273361f98ec68d3809d9c94bbb0b7223f2e8bd9dc702534f50df31306ae39",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

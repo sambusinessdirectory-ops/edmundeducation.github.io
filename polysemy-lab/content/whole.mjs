@@ -614,11 +614,8 @@ export default {
       "masked": "He creates ____ around them.",
       "options": [
         "whole-mcq-01",
-        "whole-mcq-02",
-        "whole-mcq-03",
-        "whole-mcq-04",
-        "whole-mcq-05",
-        "whole-mcq-06"
+        "whole-mcq-09",
+        "whole-mcq-15"
       ],
       "explanation": "本句的「whole worlds」指「某人／某事物的全部，而不是其中一部分」。",
       "sentenceIndex": 0,
@@ -627,12 +624,9 @@ export default {
         "whole worlds"
       ],
       "optionReasons": {
-        "whole-mcq-01": "本句指「某人／某事物的全部，而不是其中一部分」。",
-        "whole-mcq-02": "「指某個完整事物的全部範圍／內容」是「the whole + noun（整個……）」的用法，與本句語境不同。",
-        "whole-mcq-03": "「所有部分仍然存在、沒有破裂、缺失或被分開的」是「whole = complete / with all parts present（完整的）」的用法，與本句語境不同。",
-        "whole-mcq-04": "「保持原本完整形態，沒有被切成較小部分的」是「whole = not cut/divided（完整未切開的）」的用法，與本句語境不同。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。"
+        "whole-mcq-01": "本句的「whole worlds」指「某人／某事物的全部，而不是其中一部分」。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-01"
     },
@@ -644,11 +638,8 @@ export default {
       "masked": "She spent the ____ reading.",
       "options": [
         "whole-mcq-01",
-        "whole-mcq-02",
-        "whole-mcq-03",
-        "whole-mcq-04",
-        "whole-mcq-05",
-        "whole-mcq-06"
+        "whole-mcq-08",
+        "whole-mcq-18"
       ],
       "explanation": "本句的「whole afternoon」指「某人／某事物的全部，而不是其中一部分」。",
       "sentenceIndex": 1,
@@ -657,12 +648,9 @@ export default {
         "whole afternoon"
       ],
       "optionReasons": {
-        "whole-mcq-01": "本句指「某人／某事物的全部，而不是其中一部分」。",
-        "whole-mcq-02": "「指某個完整事物的全部範圍／內容」是「the whole + noun（整個……）」的用法，與本句語境不同。",
-        "whole-mcq-03": "「所有部分仍然存在、沒有破裂、缺失或被分開的」是「whole = complete / with all parts present（完整的）」的用法，與本句語境不同。",
-        "whole-mcq-04": "「保持原本完整形態，沒有被切成較小部分的」是「whole = not cut/divided（完整未切開的）」的用法，與本句語境不同。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。"
+        "whole-mcq-01": "本句的「whole afternoon」指「某人／某事物的全部，而不是其中一部分」。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-01"
     },
@@ -674,11 +662,8 @@ export default {
       "masked": "The ____ came to dinner.",
       "options": [
         "whole-mcq-01",
-        "whole-mcq-02",
-        "whole-mcq-03",
-        "whole-mcq-04",
-        "whole-mcq-05",
-        "whole-mcq-06"
+        "whole-mcq-14",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「whole family」指「某人／某事物的全部，而不是其中一部分」。",
       "sentenceIndex": 2,
@@ -687,12 +672,9 @@ export default {
         "whole family"
       ],
       "optionReasons": {
-        "whole-mcq-01": "本句指「某人／某事物的全部，而不是其中一部分」。",
-        "whole-mcq-02": "「指某個完整事物的全部範圍／內容」是「the whole + noun（整個……）」的用法，與本句語境不同。",
-        "whole-mcq-03": "「所有部分仍然存在、沒有破裂、缺失或被分開的」是「whole = complete / with all parts present（完整的）」的用法，與本句語境不同。",
-        "whole-mcq-04": "「保持原本完整形態，沒有被切成較小部分的」是「whole = not cut/divided（完整未切開的）」的用法，與本句語境不同。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。"
+        "whole-mcq-01": "本句的「whole family」指「某人／某事物的全部，而不是其中一部分」。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-01"
     },
@@ -704,11 +686,8 @@ export default {
       "masked": "I watched the ____.",
       "options": [
         "whole-mcq-02",
-        "whole-mcq-01",
-        "whole-mcq-03",
-        "whole-mcq-04",
-        "whole-mcq-05",
-        "whole-mcq-06"
+        "whole-mcq-09",
+        "whole-mcq-19"
       ],
       "explanation": "本句的「whole film」指「指某個完整事物的全部範圍／內容」。",
       "sentenceIndex": 3,
@@ -717,12 +696,9 @@ export default {
         "whole film"
       ],
       "optionReasons": {
-        "whole-mcq-02": "本句指「指某個完整事物的全部範圍／內容」。",
-        "whole-mcq-01": "「某人／某事物的全部，而不是其中一部分」是「whole = entire / all of something（整個的）」的用法，與本句語境不同。",
-        "whole-mcq-03": "「所有部分仍然存在、沒有破裂、缺失或被分開的」是「whole = complete / with all parts present（完整的）」的用法，與本句語境不同。",
-        "whole-mcq-04": "「保持原本完整形態，沒有被切成較小部分的」是「whole = not cut/divided（完整未切開的）」的用法，與本句語境不同。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。"
+        "whole-mcq-02": "本句的「whole film」指「指某個完整事物的全部範圍／內容」。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-02"
     },
@@ -734,11 +710,8 @@ export default {
       "masked": "The ____ became quiet.",
       "options": [
         "whole-mcq-02",
-        "whole-mcq-01",
-        "whole-mcq-03",
-        "whole-mcq-04",
-        "whole-mcq-05",
-        "whole-mcq-06"
+        "whole-mcq-09",
+        "whole-mcq-20"
       ],
       "explanation": "本句的「whole room」指「指某個完整事物的全部範圍／內容」。",
       "sentenceIndex": 4,
@@ -747,12 +720,9 @@ export default {
         "whole room"
       ],
       "optionReasons": {
-        "whole-mcq-02": "本句指「指某個完整事物的全部範圍／內容」。",
-        "whole-mcq-01": "「某人／某事物的全部，而不是其中一部分」是「whole = entire / all of something（整個的）」的用法，與本句語境不同。",
-        "whole-mcq-03": "「所有部分仍然存在、沒有破裂、缺失或被分開的」是「whole = complete / with all parts present（完整的）」的用法，與本句語境不同。",
-        "whole-mcq-04": "「保持原本完整形態，沒有被切成較小部分的」是「whole = not cut/divided（完整未切開的）」的用法，與本句語境不同。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。"
+        "whole-mcq-02": "本句的「whole room」指「指某個完整事物的全部範圍／內容」。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-02"
     },
@@ -764,11 +734,8 @@ export default {
       "masked": "The vase remained ____ after the fall.",
       "options": [
         "whole-mcq-03",
-        "whole-mcq-02",
-        "whole-mcq-04",
-        "whole-mcq-01",
-        "whole-mcq-05",
-        "whole-mcq-06"
+        "whole-mcq-14",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「whole」指「所有部分仍然存在、沒有破裂、缺失或被分開的」。",
       "sentenceIndex": 5,
@@ -777,12 +744,9 @@ export default {
         "whole"
       ],
       "optionReasons": {
-        "whole-mcq-03": "本句指「所有部分仍然存在、沒有破裂、缺失或被分開的」。",
-        "whole-mcq-02": "「指某個完整事物的全部範圍／內容」是「the whole + noun（整個……）」的用法，與本句語境不同。",
-        "whole-mcq-04": "「保持原本完整形態，沒有被切成較小部分的」是「whole = not cut/divided（完整未切開的）」的用法，與本句語境不同。",
-        "whole-mcq-01": "「某人／某事物的全部，而不是其中一部分」是「whole = entire / all of something（整個的）」的用法，與本句語境不同。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。"
+        "whole-mcq-03": "本句的「whole」指「所有部分仍然存在、沒有破裂、缺失或被分開的」。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-03"
     },
@@ -794,11 +758,8 @@ export default {
       "masked": "Try to keep the egg ____.",
       "options": [
         "whole-mcq-03",
-        "whole-mcq-02",
-        "whole-mcq-04",
-        "whole-mcq-01",
-        "whole-mcq-05",
-        "whole-mcq-06"
+        "whole-mcq-14",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「whole」指「所有部分仍然存在、沒有破裂、缺失或被分開的」。",
       "sentenceIndex": 6,
@@ -807,12 +768,9 @@ export default {
         "whole"
       ],
       "optionReasons": {
-        "whole-mcq-03": "本句指「所有部分仍然存在、沒有破裂、缺失或被分開的」。",
-        "whole-mcq-02": "「指某個完整事物的全部範圍／內容」是「the whole + noun（整個……）」的用法，與本句語境不同。",
-        "whole-mcq-04": "「保持原本完整形態，沒有被切成較小部分的」是「whole = not cut/divided（完整未切開的）」的用法，與本句語境不同。",
-        "whole-mcq-01": "「某人／某事物的全部，而不是其中一部分」是「whole = entire / all of something（整個的）」的用法，與本句語境不同。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。"
+        "whole-mcq-03": "本句的「whole」指「所有部分仍然存在、沒有破裂、缺失或被分開的」。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-03"
     },
@@ -824,11 +782,8 @@ export default {
       "masked": "Add a ____.",
       "options": [
         "whole-mcq-04",
-        "whole-mcq-03",
-        "whole-mcq-05",
-        "whole-mcq-02",
-        "whole-mcq-06",
-        "whole-mcq-01"
+        "whole-mcq-15",
+        "whole-mcq-09"
       ],
       "explanation": "本句的「whole onion」指「保持原本完整形態，沒有被切成較小部分的」。",
       "sentenceIndex": 7,
@@ -837,12 +792,9 @@ export default {
         "whole onion"
       ],
       "optionReasons": {
-        "whole-mcq-04": "本句指「保持原本完整形態，沒有被切成較小部分的」。",
-        "whole-mcq-03": "「所有部分仍然存在、沒有破裂、缺失或被分開的」是「whole = complete / with all parts present（完整的）」的用法，與本句語境不同。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。",
-        "whole-mcq-02": "「指某個完整事物的全部範圍／內容」是「the whole + noun（整個……）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。",
-        "whole-mcq-01": "「某人／某事物的全部，而不是其中一部分」是「whole = entire / all of something（整個的）」的用法，與本句語境不同。"
+        "whole-mcq-04": "本句的「whole onion」指「保持原本完整形態，沒有被切成較小部分的」。",
+        "whole-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-04"
     },
@@ -854,11 +806,8 @@ export default {
       "masked": "She ate the ____.",
       "options": [
         "whole-mcq-04",
-        "whole-mcq-03",
-        "whole-mcq-05",
-        "whole-mcq-02",
-        "whole-mcq-06",
-        "whole-mcq-01"
+        "whole-mcq-14",
+        "whole-mcq-09"
       ],
       "explanation": "本句的「whole apple」指「保持原本完整形態，沒有被切成較小部分的」。",
       "sentenceIndex": 8,
@@ -867,12 +816,9 @@ export default {
         "whole apple"
       ],
       "optionReasons": {
-        "whole-mcq-04": "本句指「保持原本完整形態，沒有被切成較小部分的」。",
-        "whole-mcq-03": "「所有部分仍然存在、沒有破裂、缺失或被分開的」是「whole = complete / with all parts present（完整的）」的用法，與本句語境不同。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。",
-        "whole-mcq-02": "「指某個完整事物的全部範圍／內容」是「the whole + noun（整個……）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。",
-        "whole-mcq-01": "「某人／某事物的全部，而不是其中一部分」是「whole = entire / all of something（整個的）」的用法，與本句語境不同。"
+        "whole-mcq-04": "本句的「whole apple」指「保持原本完整形態，沒有被切成較小部分的」。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-04"
     },
@@ -884,11 +830,8 @@ export default {
       "masked": "The novel creates a ____ of its own.",
       "options": [
         "whole-mcq-05",
-        "whole-mcq-04",
-        "whole-mcq-06",
-        "whole-mcq-03",
-        "whole-mcq-07",
-        "whole-mcq-02"
+        "whole-mcq-18",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「whole universe」指「包含大量互相連結的部分，形成完整而全面的整體」。",
       "sentenceIndex": 9,
@@ -897,12 +840,9 @@ export default {
         "whole universe"
       ],
       "optionReasons": {
-        "whole-mcq-05": "本句指「包含大量互相連結的部分，形成完整而全面的整體」。",
-        "whole-mcq-04": "「保持原本完整形態，沒有被切成較小部分的」是「whole = not cut/divided（完整未切開的）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。",
-        "whole-mcq-03": "「所有部分仍然存在、沒有破裂、缺失或被分開的」是「whole = complete / with all parts present（完整的）」的用法，與本句語境不同。",
-        "whole-mcq-07": "「某件事情／物件的全部內容，而不是其中一部分」是「the whole thing（整件事／整個東西）」的用法，與本句語境不同。",
-        "whole-mcq-02": "「指某個完整事物的全部範圍／內容」是「the whole + noun（整個……）」的用法，與本句語境不同。"
+        "whole-mcq-05": "本句的「whole universe」指「包含大量互相連結的部分，形成完整而全面的整體」。",
+        "whole-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-05"
     },
@@ -914,11 +854,8 @@ export default {
       "masked": "There is a ____ behind the process.",
       "options": [
         "whole-mcq-05",
-        "whole-mcq-04",
-        "whole-mcq-06",
-        "whole-mcq-03",
-        "whole-mcq-07",
-        "whole-mcq-02"
+        "whole-mcq-18",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「whole system」指「包含大量互相連結的部分，形成完整而全面的整體」。",
       "sentenceIndex": 10,
@@ -927,12 +864,9 @@ export default {
         "whole system"
       ],
       "optionReasons": {
-        "whole-mcq-05": "本句指「包含大量互相連結的部分，形成完整而全面的整體」。",
-        "whole-mcq-04": "「保持原本完整形態，沒有被切成較小部分的」是「whole = not cut/divided（完整未切開的）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。",
-        "whole-mcq-03": "「所有部分仍然存在、沒有破裂、缺失或被分開的」是「whole = complete / with all parts present（完整的）」的用法，與本句語境不同。",
-        "whole-mcq-07": "「某件事情／物件的全部內容，而不是其中一部分」是「the whole thing（整件事／整個東西）」的用法，與本句語境不同。",
-        "whole-mcq-02": "「指某個完整事物的全部範圍／內容」是「the whole + noun（整個……）」的用法，與本句語境不同。"
+        "whole-mcq-05": "本句的「whole system」指「包含大量互相連結的部分，形成完整而全面的整體」。",
+        "whole-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-05"
     },
@@ -944,11 +878,8 @@ export default {
       "masked": "He waited a ____.",
       "options": [
         "whole-mcq-06",
-        "whole-mcq-05",
-        "whole-mcq-07",
-        "whole-mcq-04",
-        "whole-mcq-08",
-        "whole-mcq-03"
+        "whole-mcq-19",
+        "whole-mcq-09"
       ],
       "explanation": "本句的「whole hour」指「強調數量、時間或範圍比預期大，或完全沒有減少」。",
       "sentenceIndex": 11,
@@ -957,12 +888,9 @@ export default {
         "whole hour"
       ],
       "optionReasons": {
-        "whole-mcq-06": "本句指「強調數量、時間或範圍比預期大，或完全沒有減少」。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。",
-        "whole-mcq-07": "「某件事情／物件的全部內容，而不是其中一部分」是「the whole thing（整件事／整個東西）」的用法，與本句語境不同。",
-        "whole-mcq-04": "「保持原本完整形態，沒有被切成較小部分的」是「whole = not cut/divided（完整未切開的）」的用法，與本句語境不同。",
-        "whole-mcq-08": "「一直／整段時間時，表示整段時間；一直」是「the whole time（一直／整段時間）」的用法，與本句語境不同。",
-        "whole-mcq-03": "「所有部分仍然存在、沒有破裂、缺失或被分開的」是「whole = complete / with all parts present（完整的）」的用法，與本句語境不同。"
+        "whole-mcq-06": "本句的「whole hour」指「強調數量、時間或範圍比預期大，或完全沒有減少」。",
+        "whole-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-06"
     },
@@ -974,11 +902,8 @@ export default {
       "masked": "She ate a ____ by herself.",
       "options": [
         "whole-mcq-06",
-        "whole-mcq-05",
-        "whole-mcq-07",
-        "whole-mcq-04",
-        "whole-mcq-08",
-        "whole-mcq-03"
+        "whole-mcq-19",
+        "whole-mcq-09"
       ],
       "explanation": "本句的「whole cake」指「強調數量、時間或範圍比預期大，或完全沒有減少」。",
       "sentenceIndex": 12,
@@ -987,12 +912,9 @@ export default {
         "whole cake"
       ],
       "optionReasons": {
-        "whole-mcq-06": "本句指「強調數量、時間或範圍比預期大，或完全沒有減少」。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。",
-        "whole-mcq-07": "「某件事情／物件的全部內容，而不是其中一部分」是「the whole thing（整件事／整個東西）」的用法，與本句語境不同。",
-        "whole-mcq-04": "「保持原本完整形態，沒有被切成較小部分的」是「whole = not cut/divided（完整未切開的）」的用法，與本句語境不同。",
-        "whole-mcq-08": "「一直／整段時間時，表示整段時間；一直」是「the whole time（一直／整段時間）」的用法，與本句語境不同。",
-        "whole-mcq-03": "「所有部分仍然存在、沒有破裂、缺失或被分開的」是「whole = complete / with all parts present（完整的）」的用法，與本句語境不同。"
+        "whole-mcq-06": "本句的「whole cake」指「強調數量、時間或範圍比預期大，或完全沒有減少」。",
+        "whole-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-06"
     },
@@ -1004,11 +926,8 @@ export default {
       "masked": "Tell me the ____.",
       "options": [
         "whole-mcq-07",
-        "whole-mcq-06",
-        "whole-mcq-08",
-        "whole-mcq-05",
-        "whole-mcq-09",
-        "whole-mcq-04"
+        "whole-mcq-15",
+        "whole-mcq-09"
       ],
       "explanation": "本句的「whole thing」指「某件事情／物件的全部內容，而不是其中一部分」。",
       "sentenceIndex": 13,
@@ -1017,12 +936,9 @@ export default {
         "whole thing"
       ],
       "optionReasons": {
-        "whole-mcq-07": "本句指「某件事情／物件的全部內容，而不是其中一部分」。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。",
-        "whole-mcq-08": "「一直／整段時間時，表示整段時間；一直」是「the whole time（一直／整段時間）」的用法，與本句語境不同。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。",
-        "whole-mcq-09": "「從旅程開始到結束的整段路程」是「the whole way（全程）」的用法，與本句語境不同。",
-        "whole-mcq-04": "「保持原本完整形態，沒有被切成較小部分的」是「whole = not cut/divided（完整未切開的）」的用法，與本句語境不同。"
+        "whole-mcq-07": "本句的「whole thing」指「某件事情／物件的全部內容，而不是其中一部分」。",
+        "whole-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-07"
     },
@@ -1034,11 +950,8 @@ export default {
       "masked": "I had to start the ____ again.",
       "options": [
         "whole-mcq-07",
-        "whole-mcq-06",
-        "whole-mcq-08",
-        "whole-mcq-05",
-        "whole-mcq-09",
-        "whole-mcq-04"
+        "whole-mcq-18",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「whole thing」指「某件事情／物件的全部內容，而不是其中一部分」。",
       "sentenceIndex": 14,
@@ -1047,12 +960,9 @@ export default {
         "whole thing"
       ],
       "optionReasons": {
-        "whole-mcq-07": "本句指「某件事情／物件的全部內容，而不是其中一部分」。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。",
-        "whole-mcq-08": "「一直／整段時間時，表示整段時間；一直」是「the whole time（一直／整段時間）」的用法，與本句語境不同。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。",
-        "whole-mcq-09": "「從旅程開始到結束的整段路程」是「the whole way（全程）」的用法，與本句語境不同。",
-        "whole-mcq-04": "「保持原本完整形態，沒有被切成較小部分的」是「whole = not cut/divided（完整未切開的）」的用法，與本句語境不同。"
+        "whole-mcq-07": "本句的「whole thing」指「某件事情／物件的全部內容，而不是其中一部分」。",
+        "whole-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-07"
     },
@@ -1064,11 +974,8 @@ export default {
       "masked": "He knew the answer the ____.",
       "options": [
         "whole-mcq-08",
-        "whole-mcq-07",
-        "whole-mcq-09",
-        "whole-mcq-06",
-        "whole-mcq-10",
-        "whole-mcq-05"
+        "whole-mcq-03",
+        "whole-mcq-14"
       ],
       "explanation": "本句的「whole time」指「一直／整段時間時，表示整段時間；一直」。",
       "sentenceIndex": 15,
@@ -1077,12 +984,9 @@ export default {
         "whole time"
       ],
       "optionReasons": {
-        "whole-mcq-08": "本句指「一直／整段時間時，表示整段時間；一直」。",
-        "whole-mcq-07": "「某件事情／物件的全部內容，而不是其中一部分」是「the whole thing（整件事／整個東西）」的用法，與本句語境不同。",
-        "whole-mcq-09": "「從旅程開始到結束的整段路程」是「the whole way（全程）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。",
-        "whole-mcq-10": "「……的全部時，表示整個；全部」是「the whole of + noun（……的全部）」的用法，與本句語境不同。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。"
+        "whole-mcq-08": "本句的「whole time」指「一直／整段時間時，表示整段時間；一直」。",
+        "whole-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-08"
     },
@@ -1094,11 +998,8 @@ export default {
       "masked": "She was smiling the ____.",
       "options": [
         "whole-mcq-08",
-        "whole-mcq-07",
-        "whole-mcq-09",
-        "whole-mcq-06",
-        "whole-mcq-10",
-        "whole-mcq-05"
+        "whole-mcq-01",
+        "whole-mcq-18"
       ],
       "explanation": "本句的「whole time」指「一直／整段時間時，表示整段時間；一直」。",
       "sentenceIndex": 16,
@@ -1107,12 +1008,9 @@ export default {
         "whole time"
       ],
       "optionReasons": {
-        "whole-mcq-08": "本句指「一直／整段時間時，表示整段時間；一直」。",
-        "whole-mcq-07": "「某件事情／物件的全部內容，而不是其中一部分」是「the whole thing（整件事／整個東西）」的用法，與本句語境不同。",
-        "whole-mcq-09": "「從旅程開始到結束的整段路程」是「the whole way（全程）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。",
-        "whole-mcq-10": "「……的全部時，表示整個；全部」是「the whole of + noun（……的全部）」的用法，與本句語境不同。",
-        "whole-mcq-05": "「包含大量互相連結的部分，形成完整而全面的整體」是「whole = complete in scope/detail（全面的）」的用法，與本句語境不同。"
+        "whole-mcq-08": "本句的「whole time」指「一直／整段時間時，表示整段時間；一直」。",
+        "whole-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-08"
     },
@@ -1124,11 +1022,9 @@ export default {
       "masked": "The child talked the ____.",
       "options": [
         "whole-mcq-09",
-        "whole-mcq-08",
-        "whole-mcq-10",
-        "whole-mcq-07",
-        "whole-mcq-11",
-        "whole-mcq-06"
+        "whole-mcq-20",
+        "whole-mcq-23",
+        "whole-mcq-18"
       ],
       "explanation": "本句的「whole way home」指「從旅程開始到結束的整段路程」。",
       "sentenceIndex": 17,
@@ -1137,12 +1033,10 @@ export default {
         "whole way home"
       ],
       "optionReasons": {
-        "whole-mcq-09": "本句指「從旅程開始到結束的整段路程」。",
-        "whole-mcq-08": "「一直／整段時間時，表示整段時間；一直」是「the whole time（一直／整段時間）」的用法，與本句語境不同。",
-        "whole-mcq-10": "「……的全部時，表示整個；全部」是「the whole of + noun（……的全部）」的用法，與本句語境不同。",
-        "whole-mcq-07": "「某件事情／物件的全部內容，而不是其中一部分」是「the whole thing（整件事／整個東西）」的用法，與本句語境不同。",
-        "whole-mcq-11": "「由不同部分組成的一個完整整體」是「whole — noun = complete thing/entity（整體）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。"
+        "whole-mcq-09": "本句的「whole way home」指「從旅程開始到結束的整段路程」。",
+        "whole-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-09"
     },
@@ -1154,11 +1048,8 @@ export default {
       "masked": "It rained the ____.",
       "options": [
         "whole-mcq-09",
-        "whole-mcq-08",
-        "whole-mcq-10",
-        "whole-mcq-07",
-        "whole-mcq-11",
-        "whole-mcq-06"
+        "whole-mcq-01",
+        "whole-mcq-18"
       ],
       "explanation": "本句的「whole way」指「從旅程開始到結束的整段路程」。",
       "sentenceIndex": 18,
@@ -1167,12 +1058,9 @@ export default {
         "whole way"
       ],
       "optionReasons": {
-        "whole-mcq-09": "本句指「從旅程開始到結束的整段路程」。",
-        "whole-mcq-08": "「一直／整段時間時，表示整段時間；一直」是「the whole time（一直／整段時間）」的用法，與本句語境不同。",
-        "whole-mcq-10": "「……的全部時，表示整個；全部」是「the whole of + noun（……的全部）」的用法，與本句語境不同。",
-        "whole-mcq-07": "「某件事情／物件的全部內容，而不是其中一部分」是「the whole thing（整件事／整個東西）」的用法，與本句語境不同。",
-        "whole-mcq-11": "「由不同部分組成的一個完整整體」是「whole — noun = complete thing/entity（整體）」的用法，與本句語境不同。",
-        "whole-mcq-06": "「強調數量、時間或範圍比預期大，或完全沒有減少」是「a whole + noun = surprisingly large/complete amount（足足一整個）」的用法，與本句語境不同。"
+        "whole-mcq-09": "本句的「whole way」指「從旅程開始到結束的整段路程」。",
+        "whole-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-09"
     },
@@ -1184,11 +1072,9 @@ export default {
       "masked": "She spent the ____ working.",
       "options": [
         "whole-mcq-10",
+        "whole-mcq-18",
         "whole-mcq-09",
-        "whole-mcq-11",
-        "whole-mcq-08",
-        "whole-mcq-12",
-        "whole-mcq-07"
+        "whole-mcq-20"
       ],
       "explanation": "本句的「whole of the afternoon」指「……的全部時，表示整個；全部」。",
       "sentenceIndex": 19,
@@ -1197,12 +1083,10 @@ export default {
         "whole of the afternoon"
       ],
       "optionReasons": {
-        "whole-mcq-10": "本句指「……的全部時，表示整個；全部」。",
-        "whole-mcq-09": "「從旅程開始到結束的整段路程」是「the whole way（全程）」的用法，與本句語境不同。",
-        "whole-mcq-11": "「由不同部分組成的一個完整整體」是「whole — noun = complete thing/entity（整體）」的用法，與本句語境不同。",
-        "whole-mcq-08": "「一直／整段時間時，表示整段時間；一直」是「the whole time（一直／整段時間）」的用法，與本句語境不同。",
-        "whole-mcq-12": "「把所有部分合在一起看，而不是逐一分析個別部分」是「as a whole（整體而言）」的用法，與本句語境不同。",
-        "whole-mcq-07": "「某件事情／物件的全部內容，而不是其中一部分」是「the whole thing（整件事／整個東西）」的用法，與本句語境不同。"
+        "whole-mcq-10": "本句的「whole of the afternoon」指「……的全部時，表示整個；全部」。",
+        "whole-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-10"
     },
@@ -1214,11 +1098,9 @@ export default {
       "masked": "The storm affected the ____.",
       "options": [
         "whole-mcq-10",
-        "whole-mcq-09",
-        "whole-mcq-11",
-        "whole-mcq-08",
-        "whole-mcq-12",
-        "whole-mcq-07"
+        "whole-mcq-14",
+        "whole-mcq-20",
+        "whole-mcq-09"
       ],
       "explanation": "本句的「whole of the region」指「……的全部時，表示整個；全部」。",
       "sentenceIndex": 20,
@@ -1227,12 +1109,10 @@ export default {
         "whole of the region"
       ],
       "optionReasons": {
-        "whole-mcq-10": "本句指「……的全部時，表示整個；全部」。",
-        "whole-mcq-09": "「從旅程開始到結束的整段路程」是「the whole way（全程）」的用法，與本句語境不同。",
-        "whole-mcq-11": "「由不同部分組成的一個完整整體」是「whole — noun = complete thing/entity（整體）」的用法，與本句語境不同。",
-        "whole-mcq-08": "「一直／整段時間時，表示整段時間；一直」是「the whole time（一直／整段時間）」的用法，與本句語境不同。",
-        "whole-mcq-12": "「把所有部分合在一起看，而不是逐一分析個別部分」是「as a whole（整體而言）」的用法，與本句語境不同。",
-        "whole-mcq-07": "「某件事情／物件的全部內容，而不是其中一部分」是「the whole thing（整件事／整個東西）」的用法，與本句語境不同。"
+        "whole-mcq-10": "本句的「whole of the region」指「……的全部時，表示整個；全部」。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-10"
     },
@@ -1244,10 +1124,7 @@ export default {
       "masked": "The parts form a ____.",
       "options": [
         "whole-mcq-11",
-        "whole-mcq-10",
-        "whole-mcq-12",
-        "whole-mcq-09",
-        "whole-mcq-13",
+        "whole-mcq-14",
         "whole-mcq-08"
       ],
       "explanation": "本句的「whole」指「由不同部分組成的一個完整整體」。",
@@ -1257,12 +1134,9 @@ export default {
         "whole"
       ],
       "optionReasons": {
-        "whole-mcq-11": "本句指「由不同部分組成的一個完整整體」。",
-        "whole-mcq-10": "「……的全部時，表示整個；全部」是「the whole of + noun（……的全部）」的用法，與本句語境不同。",
-        "whole-mcq-12": "「把所有部分合在一起看，而不是逐一分析個別部分」是「as a whole（整體而言）」的用法，與本句語境不同。",
-        "whole-mcq-09": "「從旅程開始到結束的整段路程」是「the whole way（全程）」的用法，與本句語境不同。",
-        "whole-mcq-13": "「考慮各方面後作出整體評價；總的來說」是「on the whole（總的來說）」的用法，與本句語境不同。",
-        "whole-mcq-08": "「一直／整段時間時，表示整段時間；一直」是「the whole time（一直／整段時間）」的用法，與本句語境不同。"
+        "whole-mcq-11": "本句的「whole」指「由不同部分組成的一個完整整體」。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-11"
     },
@@ -1274,10 +1148,7 @@ export default {
       "masked": "The picture only makes sense when viewed as a ____.",
       "options": [
         "whole-mcq-11",
-        "whole-mcq-10",
-        "whole-mcq-12",
-        "whole-mcq-09",
-        "whole-mcq-13",
+        "whole-mcq-18",
         "whole-mcq-08"
       ],
       "explanation": "本句的「whole」指「由不同部分組成的一個完整整體」。",
@@ -1287,12 +1158,9 @@ export default {
         "whole"
       ],
       "optionReasons": {
-        "whole-mcq-11": "本句指「由不同部分組成的一個完整整體」。",
-        "whole-mcq-10": "「……的全部時，表示整個；全部」是「the whole of + noun（……的全部）」的用法，與本句語境不同。",
-        "whole-mcq-12": "「把所有部分合在一起看，而不是逐一分析個別部分」是「as a whole（整體而言）」的用法，與本句語境不同。",
-        "whole-mcq-09": "「從旅程開始到結束的整段路程」是「the whole way（全程）」的用法，與本句語境不同。",
-        "whole-mcq-13": "「考慮各方面後作出整體評價；總的來說」是「on the whole（總的來說）」的用法，與本句語境不同。",
-        "whole-mcq-08": "「一直／整段時間時，表示整段時間；一直」是「the whole time（一直／整段時間）」的用法，與本句語境不同。"
+        "whole-mcq-11": "本句的「whole」指「由不同部分組成的一個完整整體」。",
+        "whole-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-11"
     },
@@ -1304,11 +1172,8 @@ export default {
       "masked": "The class performed well ____.",
       "options": [
         "whole-mcq-12",
-        "whole-mcq-11",
-        "whole-mcq-13",
-        "whole-mcq-10",
-        "whole-mcq-14",
-        "whole-mcq-09"
+        "whole-mcq-18",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「as a whole」指「把所有部分合在一起看，而不是逐一分析個別部分」。",
       "sentenceIndex": 23,
@@ -1317,12 +1182,9 @@ export default {
         "as a whole"
       ],
       "optionReasons": {
-        "whole-mcq-12": "本句指「把所有部分合在一起看，而不是逐一分析個別部分」。",
-        "whole-mcq-11": "「由不同部分組成的一個完整整體」是「whole — noun = complete thing/entity（整體）」的用法，與本句語境不同。",
-        "whole-mcq-13": "「考慮各方面後作出整體評價；總的來說」是「on the whole（總的來說）」的用法，與本句語境不同。",
-        "whole-mcq-10": "「……的全部時，表示整個；全部」是「the whole of + noun（……的全部）」的用法，與本句語境不同。",
-        "whole-mcq-14": "「很大量／很大程度；非正式強調語氣」是「a whole lot（很多）」的用法，與本句語境不同。",
-        "whole-mcq-09": "「從旅程開始到結束的整段路程」是「the whole way（全程）」的用法，與本句語境不同。"
+        "whole-mcq-12": "本句的「as a whole」指「把所有部分合在一起看，而不是逐一分析個別部分」。",
+        "whole-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-12"
     },
@@ -1334,11 +1196,8 @@ export default {
       "masked": "The economy ____ is improving.",
       "options": [
         "whole-mcq-12",
-        "whole-mcq-11",
-        "whole-mcq-13",
-        "whole-mcq-10",
-        "whole-mcq-14",
-        "whole-mcq-09"
+        "whole-mcq-08",
+        "whole-mcq-15"
       ],
       "explanation": "本句的「as a whole」指「把所有部分合在一起看，而不是逐一分析個別部分」。",
       "sentenceIndex": 24,
@@ -1347,12 +1206,9 @@ export default {
         "as a whole"
       ],
       "optionReasons": {
-        "whole-mcq-12": "本句指「把所有部分合在一起看，而不是逐一分析個別部分」。",
-        "whole-mcq-11": "「由不同部分組成的一個完整整體」是「whole — noun = complete thing/entity（整體）」的用法，與本句語境不同。",
-        "whole-mcq-13": "「考慮各方面後作出整體評價；總的來說」是「on the whole（總的來說）」的用法，與本句語境不同。",
-        "whole-mcq-10": "「……的全部時，表示整個；全部」是「the whole of + noun（……的全部）」的用法，與本句語境不同。",
-        "whole-mcq-14": "「很大量／很大程度；非正式強調語氣」是「a whole lot（很多）」的用法，與本句語境不同。",
-        "whole-mcq-09": "「從旅程開始到結束的整段路程」是「the whole way（全程）」的用法，與本句語境不同。"
+        "whole-mcq-12": "本句的「as a whole」指「把所有部分合在一起看，而不是逐一分析個別部分」。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-12"
     },
@@ -1364,11 +1220,9 @@ export default {
       "masked": "____, I enjoyed the trip.",
       "options": [
         "whole-mcq-13",
-        "whole-mcq-12",
-        "whole-mcq-14",
-        "whole-mcq-11",
-        "whole-mcq-15",
-        "whole-mcq-10"
+        "whole-mcq-18",
+        "whole-mcq-20",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「On the whole」指「考慮各方面後作出整體評價；總的來說」。",
       "sentenceIndex": 25,
@@ -1377,12 +1231,10 @@ export default {
         "On the whole"
       ],
       "optionReasons": {
-        "whole-mcq-13": "本句指「考慮各方面後作出整體評價；總的來說」。",
-        "whole-mcq-12": "「把所有部分合在一起看，而不是逐一分析個別部分」是「as a whole（整體而言）」的用法，與本句語境不同。",
-        "whole-mcq-14": "「很大量／很大程度；非正式強調語氣」是「a whole lot（很多）」的用法，與本句語境不同。",
-        "whole-mcq-11": "「由不同部分組成的一個完整整體」是「whole — noun = complete thing/entity（整體）」的用法，與本句語境不同。",
-        "whole-mcq-15": "「用非正式方式強調程度差距很大」是「a whole lot + comparative（……得多）」的用法，與本句語境不同。",
-        "whole-mcq-10": "「……的全部時，表示整個；全部」是「the whole of + noun（……的全部）」的用法，與本句語境不同。"
+        "whole-mcq-13": "本句的「On the whole」指「考慮各方面後作出整體評價；總的來說」。",
+        "whole-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-13"
     },
@@ -1394,11 +1246,9 @@ export default {
       "masked": "The results were, ____, positive.",
       "options": [
         "whole-mcq-13",
-        "whole-mcq-12",
+        "whole-mcq-20",
         "whole-mcq-14",
-        "whole-mcq-11",
-        "whole-mcq-15",
-        "whole-mcq-10"
+        "whole-mcq-08"
       ],
       "explanation": "本句的「on the whole」指「考慮各方面後作出整體評價；總的來說」。",
       "sentenceIndex": 26,
@@ -1407,12 +1257,10 @@ export default {
         "on the whole"
       ],
       "optionReasons": {
-        "whole-mcq-13": "本句指「考慮各方面後作出整體評價；總的來說」。",
-        "whole-mcq-12": "「把所有部分合在一起看，而不是逐一分析個別部分」是「as a whole（整體而言）」的用法，與本句語境不同。",
-        "whole-mcq-14": "「很大量／很大程度；非正式強調語氣」是「a whole lot（很多）」的用法，與本句語境不同。",
-        "whole-mcq-11": "「由不同部分組成的一個完整整體」是「whole — noun = complete thing/entity（整體）」的用法，與本句語境不同。",
-        "whole-mcq-15": "「用非正式方式強調程度差距很大」是「a whole lot + comparative（……得多）」的用法，與本句語境不同。",
-        "whole-mcq-10": "「……的全部時，表示整個；全部」是「the whole of + noun（……的全部）」的用法，與本句語境不同。"
+        "whole-mcq-13": "本句的「on the whole」指「考慮各方面後作出整體評價；總的來說」。",
+        "whole-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-13"
     },
@@ -1424,11 +1272,9 @@ export default {
       "masked": "He has a ____ of questions.",
       "options": [
         "whole-mcq-14",
-        "whole-mcq-13",
-        "whole-mcq-15",
-        "whole-mcq-12",
-        "whole-mcq-16",
-        "whole-mcq-11"
+        "whole-mcq-10",
+        "whole-mcq-19",
+        "whole-mcq-09"
       ],
       "explanation": "本句的「whole lot」指「很大量／很大程度；非正式強調語氣」。",
       "sentenceIndex": 27,
@@ -1437,12 +1283,10 @@ export default {
         "whole lot"
       ],
       "optionReasons": {
-        "whole-mcq-14": "本句指「很大量／很大程度；非正式強調語氣」。",
-        "whole-mcq-13": "「考慮各方面後作出整體評價；總的來說」是「on the whole（總的來說）」的用法，與本句語境不同。",
-        "whole-mcq-15": "「用非正式方式強調程度差距很大」是「a whole lot + comparative（……得多）」的用法，與本句語境不同。",
-        "whole-mcq-12": "「把所有部分合在一起看，而不是逐一分析個別部分」是「as a whole（整體而言）」的用法，與本句語境不同。",
-        "whole-mcq-16": "「強調某事物不只是稍微不同，而是整體上有明顯改變」是「a whole new/different + noun（完全不同／全新的）」的用法，與本句語境不同。",
-        "whole-mcq-11": "「由不同部分組成的一個完整整體」是「whole — noun = complete thing/entity（整體）」的用法，與本句語境不同。"
+        "whole-mcq-14": "本句的「whole lot」指「很大量／很大程度；非正式強調語氣」。",
+        "whole-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-14"
     },
@@ -1454,11 +1298,8 @@ export default {
       "masked": "That makes a ____ of difference.",
       "options": [
         "whole-mcq-14",
-        "whole-mcq-13",
-        "whole-mcq-15",
-        "whole-mcq-12",
-        "whole-mcq-16",
-        "whole-mcq-11"
+        "whole-mcq-11",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「whole lot」指「很大量／很大程度；非正式強調語氣」。",
       "sentenceIndex": 28,
@@ -1467,12 +1308,9 @@ export default {
         "whole lot"
       ],
       "optionReasons": {
-        "whole-mcq-14": "本句指「很大量／很大程度；非正式強調語氣」。",
-        "whole-mcq-13": "「考慮各方面後作出整體評價；總的來說」是「on the whole（總的來說）」的用法，與本句語境不同。",
-        "whole-mcq-15": "「用非正式方式強調程度差距很大」是「a whole lot + comparative（……得多）」的用法，與本句語境不同。",
-        "whole-mcq-12": "「把所有部分合在一起看，而不是逐一分析個別部分」是「as a whole（整體而言）」的用法，與本句語境不同。",
-        "whole-mcq-16": "「強調某事物不只是稍微不同，而是整體上有明顯改變」是「a whole new/different + noun（完全不同／全新的）」的用法，與本句語境不同。",
-        "whole-mcq-11": "「由不同部分組成的一個完整整體」是「whole — noun = complete thing/entity（整體）」的用法，與本句語境不同。"
+        "whole-mcq-14": "本句的「whole lot」指「很大量／很大程度；非正式強調語氣」。",
+        "whole-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-14"
     },
@@ -1484,11 +1322,8 @@ export default {
       "masked": "This version is a ____.",
       "options": [
         "whole-mcq-15",
-        "whole-mcq-14",
-        "whole-mcq-16",
-        "whole-mcq-13",
-        "whole-mcq-17",
-        "whole-mcq-12"
+        "whole-mcq-12",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「whole lot better」指「用非正式方式強調程度差距很大」。",
       "sentenceIndex": 29,
@@ -1497,12 +1332,9 @@ export default {
         "whole lot better"
       ],
       "optionReasons": {
-        "whole-mcq-15": "本句指「用非正式方式強調程度差距很大」。",
-        "whole-mcq-14": "「很大量／很大程度；非正式強調語氣」是「a whole lot（很多）」的用法，與本句語境不同。",
-        "whole-mcq-16": "「強調某事物不只是稍微不同，而是整體上有明顯改變」是「a whole new/different + noun（完全不同／全新的）」的用法，與本句語境不同。",
-        "whole-mcq-13": "「考慮各方面後作出整體評價；總的來說」是「on the whole（總的來說）」的用法，與本句語境不同。",
-        "whole-mcq-17": "「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」是「whole number（整數／非負整數）」的用法，與本句語境不同。",
-        "whole-mcq-12": "「把所有部分合在一起看，而不是逐一分析個別部分」是「as a whole（整體而言）」的用法，與本句語境不同。"
+        "whole-mcq-15": "本句的「whole lot better」指「用非正式方式強調程度差距很大」。",
+        "whole-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-15"
     },
@@ -1514,11 +1346,8 @@ export default {
       "masked": "The new system is a ____ to use.",
       "options": [
         "whole-mcq-15",
-        "whole-mcq-14",
-        "whole-mcq-16",
-        "whole-mcq-13",
-        "whole-mcq-17",
-        "whole-mcq-12"
+        "whole-mcq-25",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「whole lot easier」指「用非正式方式強調程度差距很大」。",
       "sentenceIndex": 30,
@@ -1527,12 +1356,9 @@ export default {
         "whole lot easier"
       ],
       "optionReasons": {
-        "whole-mcq-15": "本句指「用非正式方式強調程度差距很大」。",
-        "whole-mcq-14": "「很大量／很大程度；非正式強調語氣」是「a whole lot（很多）」的用法，與本句語境不同。",
-        "whole-mcq-16": "「強調某事物不只是稍微不同，而是整體上有明顯改變」是「a whole new/different + noun（完全不同／全新的）」的用法，與本句語境不同。",
-        "whole-mcq-13": "「考慮各方面後作出整體評價；總的來說」是「on the whole（總的來說）」的用法，與本句語境不同。",
-        "whole-mcq-17": "「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」是「whole number（整數／非負整數）」的用法，與本句語境不同。",
-        "whole-mcq-12": "「把所有部分合在一起看，而不是逐一分析個別部分」是「as a whole（整體而言）」的用法，與本句語境不同。"
+        "whole-mcq-15": "本句的「whole lot easier」指「用非正式方式強調程度差距很大」。",
+        "whole-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-15"
     },
@@ -1544,11 +1370,8 @@ export default {
       "masked": "That creates a ____.",
       "options": [
         "whole-mcq-16",
-        "whole-mcq-15",
-        "whole-mcq-17",
-        "whole-mcq-14",
-        "whole-mcq-18",
-        "whole-mcq-13"
+        "whole-mcq-19",
+        "whole-mcq-09"
       ],
       "explanation": "本句的「whole new problem」指「強調某事物不只是稍微不同，而是整體上有明顯改變」。",
       "sentenceIndex": 31,
@@ -1557,12 +1380,9 @@ export default {
         "whole new problem"
       ],
       "optionReasons": {
-        "whole-mcq-16": "本句指「強調某事物不只是稍微不同，而是整體上有明顯改變」。",
-        "whole-mcq-15": "「用非正式方式強調程度差距很大」是「a whole lot + comparative（……得多）」的用法，與本句語境不同。",
-        "whole-mcq-17": "「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」是「whole number（整數／非負整數）」的用法，與本句語境不同。",
-        "whole-mcq-14": "「很大量／很大程度；非正式強調語氣」是「a whole lot（很多）」的用法，與本句語境不同。",
-        "whole-mcq-18": "「保持接近天然原貌、加工程度較低的食物」是「whole food（天然完整食物）」的用法，與本句語境不同。",
-        "whole-mcq-13": "「考慮各方面後作出整體評價；總的來說」是「on the whole（總的來說）」的用法，與本句語境不同。"
+        "whole-mcq-16": "本句的「whole new problem」指「強調某事物不只是稍微不同，而是整體上有明顯改變」。",
+        "whole-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-16"
     },
@@ -1574,11 +1394,9 @@ export default {
       "masked": "Living abroad is a ____.",
       "options": [
         "whole-mcq-16",
-        "whole-mcq-15",
-        "whole-mcq-17",
-        "whole-mcq-14",
         "whole-mcq-18",
-        "whole-mcq-13"
+        "whole-mcq-20",
+        "whole-mcq-09"
       ],
       "explanation": "本句的「whole different experience」指「強調某事物不只是稍微不同，而是整體上有明顯改變」。",
       "sentenceIndex": 32,
@@ -1587,12 +1405,10 @@ export default {
         "whole different experience"
       ],
       "optionReasons": {
-        "whole-mcq-16": "本句指「強調某事物不只是稍微不同，而是整體上有明顯改變」。",
-        "whole-mcq-15": "「用非正式方式強調程度差距很大」是「a whole lot + comparative（……得多）」的用法，與本句語境不同。",
-        "whole-mcq-17": "「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」是「whole number（整數／非負整數）」的用法，與本句語境不同。",
-        "whole-mcq-14": "「很大量／很大程度；非正式強調語氣」是「a whole lot（很多）」的用法，與本句語境不同。",
-        "whole-mcq-18": "「保持接近天然原貌、加工程度較低的食物」是「whole food（天然完整食物）」的用法，與本句語境不同。",
-        "whole-mcq-13": "「考慮各方面後作出整體評價；總的來說」是「on the whole（總的來說）」的用法，與本句語境不同。"
+        "whole-mcq-16": "本句的「whole different experience」指「強調某事物不只是稍微不同，而是整體上有明顯改變」。",
+        "whole-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-16"
     },
@@ -1604,11 +1420,9 @@ export default {
       "masked": "Three is a ____.",
       "options": [
         "whole-mcq-17",
-        "whole-mcq-16",
-        "whole-mcq-18",
+        "whole-mcq-24",
         "whole-mcq-15",
-        "whole-mcq-19",
-        "whole-mcq-14"
+        "whole-mcq-08"
       ],
       "explanation": "本句的「whole number」指「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」。",
       "sentenceIndex": 33,
@@ -1617,12 +1431,10 @@ export default {
         "whole number"
       ],
       "optionReasons": {
-        "whole-mcq-17": "本句指「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」。",
-        "whole-mcq-16": "「強調某事物不只是稍微不同，而是整體上有明顯改變」是「a whole new/different + noun（完全不同／全新的）」的用法，與本句語境不同。",
-        "whole-mcq-18": "「保持接近天然原貌、加工程度較低的食物」是「whole food（天然完整食物）」的用法，與本句語境不同。",
-        "whole-mcq-15": "「用非正式方式強調程度差距很大」是「a whole lot + comparative（……得多）」的用法，與本句語境不同。",
-        "whole-mcq-19": "「保留麩皮、胚芽及胚乳等主要部分的穀物」是「whole grain（全穀物）」的用法，與本句語境不同。",
-        "whole-mcq-14": "「很大量／很大程度；非正式強調語氣」是「a whole lot（很多）」的用法，與本句語境不同。"
+        "whole-mcq-17": "本句的「whole number」指「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」。",
+        "whole-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-17"
     },
@@ -1634,11 +1446,9 @@ export default {
       "masked": "Write the answer as a ____.",
       "options": [
         "whole-mcq-17",
-        "whole-mcq-16",
-        "whole-mcq-18",
         "whole-mcq-15",
-        "whole-mcq-19",
-        "whole-mcq-14"
+        "whole-mcq-23",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「whole number」指「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」。",
       "sentenceIndex": 34,
@@ -1647,12 +1457,10 @@ export default {
         "whole number"
       ],
       "optionReasons": {
-        "whole-mcq-17": "本句指「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」。",
-        "whole-mcq-16": "「強調某事物不只是稍微不同，而是整體上有明顯改變」是「a whole new/different + noun（完全不同／全新的）」的用法，與本句語境不同。",
-        "whole-mcq-18": "「保持接近天然原貌、加工程度較低的食物」是「whole food（天然完整食物）」的用法，與本句語境不同。",
-        "whole-mcq-15": "「用非正式方式強調程度差距很大」是「a whole lot + comparative（……得多）」的用法，與本句語境不同。",
-        "whole-mcq-19": "「保留麩皮、胚芽及胚乳等主要部分的穀物」是「whole grain（全穀物）」的用法，與本句語境不同。",
-        "whole-mcq-14": "「很大量／很大程度；非正式強調語氣」是「a whole lot（很多）」的用法，與本句語境不同。"
+        "whole-mcq-17": "本句的「whole number」指「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」。",
+        "whole-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-17"
     },
@@ -1664,11 +1472,8 @@ export default {
       "masked": "The diet focuses on ____.",
       "options": [
         "whole-mcq-18",
-        "whole-mcq-17",
-        "whole-mcq-19",
-        "whole-mcq-16",
-        "whole-mcq-20",
-        "whole-mcq-15"
+        "whole-mcq-22",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「whole foods」指「保持接近天然原貌、加工程度較低的食物」。",
       "sentenceIndex": 35,
@@ -1677,12 +1482,9 @@ export default {
         "whole foods"
       ],
       "optionReasons": {
-        "whole-mcq-18": "本句指「保持接近天然原貌、加工程度較低的食物」。",
-        "whole-mcq-17": "「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」是「whole number（整數／非負整數）」的用法，與本句語境不同。",
-        "whole-mcq-19": "「保留麩皮、胚芽及胚乳等主要部分的穀物」是「whole grain（全穀物）」的用法，與本句語境不同。",
-        "whole-mcq-16": "「強調某事物不只是稍微不同，而是整體上有明顯改變」是「a whole new/different + noun（完全不同／全新的）」的用法，與本句語境不同。",
-        "whole-mcq-20": "「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」是「whole milk（全脂奶）」的用法，與本句語境不同。",
-        "whole-mcq-15": "「用非正式方式強調程度差距很大」是「a whole lot + comparative（……得多）」的用法，與本句語境不同。"
+        "whole-mcq-18": "本句的「whole foods」指「保持接近天然原貌、加工程度較低的食物」。",
+        "whole-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-18"
     },
@@ -1694,11 +1496,8 @@ export default {
       "masked": "Fruit, vegetables, and grains can be ____.",
       "options": [
         "whole-mcq-18",
-        "whole-mcq-17",
-        "whole-mcq-19",
-        "whole-mcq-16",
-        "whole-mcq-20",
-        "whole-mcq-15"
+        "whole-mcq-11",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「whole foods」指「保持接近天然原貌、加工程度較低的食物」。",
       "sentenceIndex": 36,
@@ -1707,12 +1506,9 @@ export default {
         "whole foods"
       ],
       "optionReasons": {
-        "whole-mcq-18": "本句指「保持接近天然原貌、加工程度較低的食物」。",
-        "whole-mcq-17": "「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」是「whole number（整數／非負整數）」的用法，與本句語境不同。",
-        "whole-mcq-19": "「保留麩皮、胚芽及胚乳等主要部分的穀物」是「whole grain（全穀物）」的用法，與本句語境不同。",
-        "whole-mcq-16": "「強調某事物不只是稍微不同，而是整體上有明顯改變」是「a whole new/different + noun（完全不同／全新的）」的用法，與本句語境不同。",
-        "whole-mcq-20": "「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」是「whole milk（全脂奶）」的用法，與本句語境不同。",
-        "whole-mcq-15": "「用非正式方式強調程度差距很大」是「a whole lot + comparative（……得多）」的用法，與本句語境不同。"
+        "whole-mcq-18": "本句的「whole foods」指「保持接近天然原貌、加工程度較低的食物」。",
+        "whole-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-18"
     },
@@ -1724,11 +1520,9 @@ export default {
       "masked": "Choose ____ bread.",
       "options": [
         "whole-mcq-19",
-        "whole-mcq-18",
-        "whole-mcq-20",
-        "whole-mcq-17",
-        "whole-mcq-21",
-        "whole-mcq-16"
+        "whole-mcq-13",
+        "whole-mcq-08",
+        "whole-mcq-15"
       ],
       "explanation": "本句的「whole-grain」指「保留麩皮、胚芽及胚乳等主要部分的穀物」。",
       "sentenceIndex": 37,
@@ -1737,12 +1531,10 @@ export default {
         "whole-grain"
       ],
       "optionReasons": {
-        "whole-mcq-19": "本句指「保留麩皮、胚芽及胚乳等主要部分的穀物」。",
-        "whole-mcq-18": "「保持接近天然原貌、加工程度較低的食物」是「whole food（天然完整食物）」的用法，與本句語境不同。",
-        "whole-mcq-20": "「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」是「whole milk（全脂奶）」的用法，與本句語境不同。",
-        "whole-mcq-17": "「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」是「whole number（整數／非負整數）」的用法，與本句語境不同。",
-        "whole-mcq-21": "「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」是「make someone/something whole（恢復完整）」的用法，與本句語境不同。",
-        "whole-mcq-16": "「強調某事物不只是稍微不同，而是整體上有明顯改變」是「a whole new/different + noun（完全不同／全新的）」的用法，與本句語境不同。"
+        "whole-mcq-19": "本句的「whole-grain」指「保留麩皮、胚芽及胚乳等主要部分的穀物」。",
+        "whole-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-19"
     },
@@ -1754,11 +1546,8 @@ export default {
       "masked": "Brown rice is a ____.",
       "options": [
         "whole-mcq-19",
-        "whole-mcq-18",
-        "whole-mcq-20",
-        "whole-mcq-17",
-        "whole-mcq-21",
-        "whole-mcq-16"
+        "whole-mcq-06",
+        "whole-mcq-09"
       ],
       "explanation": "本句的「whole grain」指「保留麩皮、胚芽及胚乳等主要部分的穀物」。",
       "sentenceIndex": 38,
@@ -1767,12 +1556,9 @@ export default {
         "whole grain"
       ],
       "optionReasons": {
-        "whole-mcq-19": "本句指「保留麩皮、胚芽及胚乳等主要部分的穀物」。",
-        "whole-mcq-18": "「保持接近天然原貌、加工程度較低的食物」是「whole food（天然完整食物）」的用法，與本句語境不同。",
-        "whole-mcq-20": "「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」是「whole milk（全脂奶）」的用法，與本句語境不同。",
-        "whole-mcq-17": "「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」是「whole number（整數／非負整數）」的用法，與本句語境不同。",
-        "whole-mcq-21": "「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」是「make someone/something whole（恢復完整）」的用法，與本句語境不同。",
-        "whole-mcq-16": "「強調某事物不只是稍微不同，而是整體上有明顯改變」是「a whole new/different + noun（完全不同／全新的）」的用法，與本句語境不同。"
+        "whole-mcq-19": "本句的「whole grain」指「保留麩皮、胚芽及胚乳等主要部分的穀物」。",
+        "whole-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-19"
     },
@@ -1784,11 +1570,9 @@ export default {
       "masked": "The recipe uses ____.",
       "options": [
         "whole-mcq-20",
-        "whole-mcq-19",
-        "whole-mcq-21",
-        "whole-mcq-18",
-        "whole-mcq-22",
-        "whole-mcq-17"
+        "whole-mcq-27",
+        "whole-mcq-08",
+        "whole-mcq-15"
       ],
       "explanation": "本句的「whole milk」指「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」。",
       "sentenceIndex": 39,
@@ -1797,12 +1581,10 @@ export default {
         "whole milk"
       ],
       "optionReasons": {
-        "whole-mcq-20": "本句指「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」。",
-        "whole-mcq-19": "「保留麩皮、胚芽及胚乳等主要部分的穀物」是「whole grain（全穀物）」的用法，與本句語境不同。",
-        "whole-mcq-21": "「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」是「make someone/something whole（恢復完整）」的用法，與本句語境不同。",
-        "whole-mcq-18": "「保持接近天然原貌、加工程度較低的食物」是「whole food（天然完整食物）」的用法，與本句語境不同。",
-        "whole-mcq-22": "「在情感、心理或身份上感到完整、沒有某部分缺失」是「whole = emotionally complete/integrated（內在完整的）」的用法，與本句語境不同。",
-        "whole-mcq-17": "「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」是「whole number（整數／非負整數）」的用法，與本句語境不同。"
+        "whole-mcq-20": "本句的「whole milk」指「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」。",
+        "whole-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-20"
     },
@@ -1814,11 +1596,9 @@ export default {
       "masked": "Some children prefer ____.",
       "options": [
         "whole-mcq-20",
-        "whole-mcq-19",
-        "whole-mcq-21",
-        "whole-mcq-18",
-        "whole-mcq-22",
-        "whole-mcq-17"
+        "whole-mcq-26",
+        "whole-mcq-08",
+        "whole-mcq-15"
       ],
       "explanation": "本句的「whole milk」指「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」。",
       "sentenceIndex": 40,
@@ -1827,12 +1607,10 @@ export default {
         "whole milk"
       ],
       "optionReasons": {
-        "whole-mcq-20": "本句指「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」。",
-        "whole-mcq-19": "「保留麩皮、胚芽及胚乳等主要部分的穀物」是「whole grain（全穀物）」的用法，與本句語境不同。",
-        "whole-mcq-21": "「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」是「make someone/something whole（恢復完整）」的用法，與本句語境不同。",
-        "whole-mcq-18": "「保持接近天然原貌、加工程度較低的食物」是「whole food（天然完整食物）」的用法，與本句語境不同。",
-        "whole-mcq-22": "「在情感、心理或身份上感到完整、沒有某部分缺失」是「whole = emotionally complete/integrated（內在完整的）」的用法，與本句語境不同。",
-        "whole-mcq-17": "「沒有小數或分數部分的整數；在基礎數學語境通常特指 0、1、2、3……」是「whole number（整數／非負整數）」的用法，與本句語境不同。"
+        "whole-mcq-20": "本句的「whole milk」指「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」。",
+        "whole-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-20"
     },
@@ -1844,11 +1622,9 @@ export default {
       "masked": "The compensation was intended to ____.",
       "options": [
         "whole-mcq-21",
+        "whole-mcq-15",
         "whole-mcq-20",
-        "whole-mcq-22",
-        "whole-mcq-19",
-        "whole-mcq-23",
-        "whole-mcq-18"
+        "whole-mcq-09"
       ],
       "explanation": "本句的「make the customer whole」指「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」。",
       "sentenceIndex": 41,
@@ -1857,12 +1633,10 @@ export default {
         "make the customer whole"
       ],
       "optionReasons": {
-        "whole-mcq-21": "本句指「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」。",
-        "whole-mcq-20": "「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」是「whole milk（全脂奶）」的用法，與本句語境不同。",
-        "whole-mcq-22": "「在情感、心理或身份上感到完整、沒有某部分缺失」是「whole = emotionally complete/integrated（內在完整的）」的用法，與本句語境不同。",
-        "whole-mcq-19": "「保留麩皮、胚芽及胚乳等主要部分的穀物」是「whole grain（全穀物）」的用法，與本句語境不同。",
-        "whole-mcq-23": "「完全地時，表示完全；全然」是「wholly = completely（完全地）」的用法，與本句語境不同。",
-        "whole-mcq-18": "「保持接近天然原貌、加工程度較低的食物」是「whole food（天然完整食物）」的用法，與本句語境不同。"
+        "whole-mcq-21": "本句的「make the customer whole」指「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」。",
+        "whole-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-21"
     },
@@ -1874,11 +1648,9 @@ export default {
       "masked": "She felt that something was missing before she finally felt ____ again.",
       "options": [
         "whole-mcq-21",
-        "whole-mcq-20",
-        "whole-mcq-22",
-        "whole-mcq-19",
-        "whole-mcq-23",
-        "whole-mcq-18"
+        "whole-mcq-15",
+        "whole-mcq-09",
+        "whole-mcq-19"
       ],
       "explanation": "本句的「whole」指「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」。",
       "sentenceIndex": 42,
@@ -1887,12 +1659,10 @@ export default {
         "whole"
       ],
       "optionReasons": {
-        "whole-mcq-21": "本句指「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」。",
-        "whole-mcq-20": "「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」是「whole milk（全脂奶）」的用法，與本句語境不同。",
-        "whole-mcq-22": "「在情感、心理或身份上感到完整、沒有某部分缺失」是「whole = emotionally complete/integrated（內在完整的）」的用法，與本句語境不同。",
-        "whole-mcq-19": "「保留麩皮、胚芽及胚乳等主要部分的穀物」是「whole grain（全穀物）」的用法，與本句語境不同。",
-        "whole-mcq-23": "「完全地時，表示完全；全然」是「wholly = completely（完全地）」的用法，與本句語境不同。",
-        "whole-mcq-18": "「保持接近天然原貌、加工程度較低的食物」是「whole food（天然完整食物）」的用法，與本句語境不同。"
+        "whole-mcq-21": "本句的「whole」指「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」。",
+        "whole-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-21"
     },
@@ -1904,11 +1674,8 @@ export default {
       "masked": "She finally felt ____ again.",
       "options": [
         "whole-mcq-22",
-        "whole-mcq-21",
-        "whole-mcq-23",
-        "whole-mcq-20",
-        "whole-mcq-24",
-        "whole-mcq-19"
+        "whole-mcq-14",
+        "whole-mcq-09"
       ],
       "explanation": "本句的「whole」指「在情感、心理或身份上感到完整、沒有某部分缺失」。",
       "sentenceIndex": 43,
@@ -1917,12 +1684,9 @@ export default {
         "whole"
       ],
       "optionReasons": {
-        "whole-mcq-22": "本句指「在情感、心理或身份上感到完整、沒有某部分缺失」。",
-        "whole-mcq-21": "「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」是「make someone/something whole（恢復完整）」的用法，與本句語境不同。",
-        "whole-mcq-23": "「完全地時，表示完全；全然」是「wholly = completely（完全地）」的用法，與本句語境不同。",
-        "whole-mcq-20": "「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」是「whole milk（全脂奶）」的用法，與本句語境不同。",
-        "whole-mcq-24": "「所有股權／所有權完全由一個實體持有」是「wholly owned（全資擁有）」的用法，與本句語境不同。",
-        "whole-mcq-19": "「保留麩皮、胚芽及胚乳等主要部分的穀物」是「whole grain（全穀物）」的用法，與本句語境不同。"
+        "whole-mcq-22": "本句的「whole」指「在情感、心理或身份上感到完整、沒有某部分缺失」。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-22"
     },
@@ -1934,11 +1698,8 @@ export default {
       "masked": "The experience helped him feel more ____.",
       "options": [
         "whole-mcq-22",
-        "whole-mcq-21",
-        "whole-mcq-23",
-        "whole-mcq-20",
-        "whole-mcq-24",
-        "whole-mcq-19"
+        "whole-mcq-14",
+        "whole-mcq-09"
       ],
       "explanation": "本句的「whole」指「在情感、心理或身份上感到完整、沒有某部分缺失」。",
       "sentenceIndex": 44,
@@ -1947,12 +1708,9 @@ export default {
         "whole"
       ],
       "optionReasons": {
-        "whole-mcq-22": "本句指「在情感、心理或身份上感到完整、沒有某部分缺失」。",
-        "whole-mcq-21": "「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」是「make someone/something whole（恢復完整）」的用法，與本句語境不同。",
-        "whole-mcq-23": "「完全地時，表示完全；全然」是「wholly = completely（完全地）」的用法，與本句語境不同。",
-        "whole-mcq-20": "「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」是「whole milk（全脂奶）」的用法，與本句語境不同。",
-        "whole-mcq-24": "「所有股權／所有權完全由一個實體持有」是「wholly owned（全資擁有）」的用法，與本句語境不同。",
-        "whole-mcq-19": "「保留麩皮、胚芽及胚乳等主要部分的穀物」是「whole grain（全穀物）」的用法，與本句語境不同。"
+        "whole-mcq-22": "本句的「whole」指「在情感、心理或身份上感到完整、沒有某部分缺失」。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-22"
     },
@@ -1964,11 +1722,9 @@ export default {
       "masked": "The decision was ____ unexpected.",
       "options": [
         "whole-mcq-23",
-        "whole-mcq-22",
-        "whole-mcq-24",
-        "whole-mcq-21",
-        "whole-mcq-25",
-        "whole-mcq-20"
+        "whole-mcq-09",
+        "whole-mcq-15",
+        "whole-mcq-19"
       ],
       "explanation": "本句的「wholly」指「完全地時，表示完全；全然」。",
       "sentenceIndex": 45,
@@ -1977,12 +1733,10 @@ export default {
         "wholly"
       ],
       "optionReasons": {
-        "whole-mcq-23": "本句指「完全地時，表示完全；全然」。",
-        "whole-mcq-22": "「在情感、心理或身份上感到完整、沒有某部分缺失」是「whole = emotionally complete/integrated（內在完整的）」的用法，與本句語境不同。",
-        "whole-mcq-24": "「所有股權／所有權完全由一個實體持有」是「wholly owned（全資擁有）」的用法，與本句語境不同。",
-        "whole-mcq-21": "「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」是「make someone/something whole（恢復完整）」的用法，與本句語境不同。",
-        "whole-mcq-25": "「各部分完整結合、沒有缺失的狀態；亦可指心理上的完整感」是「wholeness = state of being complete（完整性）」的用法，與本句語境不同。",
-        "whole-mcq-20": "「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」是「whole milk（全脂奶）」的用法，與本句語境不同。"
+        "whole-mcq-23": "本句的「wholly」指「完全地時，表示完全；全然」。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-23"
     },
@@ -1994,11 +1748,9 @@ export default {
       "masked": "The project is ____ funded by donations.",
       "options": [
         "whole-mcq-23",
-        "whole-mcq-22",
-        "whole-mcq-24",
-        "whole-mcq-21",
-        "whole-mcq-25",
-        "whole-mcq-20"
+        "whole-mcq-14",
+        "whole-mcq-17",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「wholly」指「完全地時，表示完全；全然」。",
       "sentenceIndex": 46,
@@ -2007,12 +1759,10 @@ export default {
         "wholly"
       ],
       "optionReasons": {
-        "whole-mcq-23": "本句指「完全地時，表示完全；全然」。",
-        "whole-mcq-22": "「在情感、心理或身份上感到完整、沒有某部分缺失」是「whole = emotionally complete/integrated（內在完整的）」的用法，與本句語境不同。",
-        "whole-mcq-24": "「所有股權／所有權完全由一個實體持有」是「wholly owned（全資擁有）」的用法，與本句語境不同。",
-        "whole-mcq-21": "「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」是「make someone/something whole（恢復完整）」的用法，與本句語境不同。",
-        "whole-mcq-25": "「各部分完整結合、沒有缺失的狀態；亦可指心理上的完整感」是「wholeness = state of being complete（完整性）」的用法，與本句語境不同。",
-        "whole-mcq-20": "「沒有像低脂／脫脂奶那樣移除大部分脂肪的牛奶」是「whole milk（全脂奶）」的用法，與本句語境不同。"
+        "whole-mcq-23": "本句的「wholly」指「完全地時，表示完全；全然」。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-23"
     },
@@ -2024,11 +1774,9 @@ export default {
       "masked": "It is a ____ subsidiary.",
       "options": [
         "whole-mcq-24",
-        "whole-mcq-23",
-        "whole-mcq-25",
-        "whole-mcq-22",
-        "whole-mcq-26",
-        "whole-mcq-21"
+        "whole-mcq-14",
+        "whole-mcq-17",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「wholly owned」指「所有股權／所有權完全由一個實體持有」。",
       "sentenceIndex": 47,
@@ -2037,12 +1785,10 @@ export default {
         "wholly owned"
       ],
       "optionReasons": {
-        "whole-mcq-24": "本句指「所有股權／所有權完全由一個實體持有」。",
-        "whole-mcq-23": "「完全地時，表示完全；全然」是「wholly = completely（完全地）」的用法，與本句語境不同。",
-        "whole-mcq-25": "「各部分完整結合、沒有缺失的狀態；亦可指心理上的完整感」是「wholeness = state of being complete（完整性）」的用法，與本句語境不同。",
-        "whole-mcq-22": "「在情感、心理或身份上感到完整、沒有某部分缺失」是「whole = emotionally complete/integrated（內在完整的）」的用法，與本句語境不同。",
-        "whole-mcq-26": "「完全真誠、毫無保留地投入或支持的」是「wholehearted = fully sincere/enthusiastic（全心全意的）」的用法，與本句語境不同。",
-        "whole-mcq-21": "「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」是「make someone/something whole（恢復完整）」的用法，與本句語境不同。"
+        "whole-mcq-24": "本句的「wholly owned」指「所有股權／所有權完全由一個實體持有」。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-24"
     },
@@ -2054,11 +1800,9 @@ export default {
       "masked": "The company is ____ by its parent group.",
       "options": [
         "whole-mcq-24",
-        "whole-mcq-23",
-        "whole-mcq-25",
-        "whole-mcq-22",
-        "whole-mcq-26",
-        "whole-mcq-21"
+        "whole-mcq-19",
+        "whole-mcq-08",
+        "whole-mcq-14"
       ],
       "explanation": "本句的「wholly owned」指「所有股權／所有權完全由一個實體持有」。",
       "sentenceIndex": 48,
@@ -2067,12 +1811,10 @@ export default {
         "wholly owned"
       ],
       "optionReasons": {
-        "whole-mcq-24": "本句指「所有股權／所有權完全由一個實體持有」。",
-        "whole-mcq-23": "「完全地時，表示完全；全然」是「wholly = completely（完全地）」的用法，與本句語境不同。",
-        "whole-mcq-25": "「各部分完整結合、沒有缺失的狀態；亦可指心理上的完整感」是「wholeness = state of being complete（完整性）」的用法，與本句語境不同。",
-        "whole-mcq-22": "「在情感、心理或身份上感到完整、沒有某部分缺失」是「whole = emotionally complete/integrated（內在完整的）」的用法，與本句語境不同。",
-        "whole-mcq-26": "「完全真誠、毫無保留地投入或支持的」是「wholehearted = fully sincere/enthusiastic（全心全意的）」的用法，與本句語境不同。",
-        "whole-mcq-21": "「恢復完整、完整感或原有狀態；在法律／金融語境可指充分彌補損失」是「make someone/something whole（恢復完整）」的用法，與本句語境不同。"
+        "whole-mcq-24": "本句的「wholly owned」指「所有股權／所有權完全由一個實體持有」。",
+        "whole-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-24"
     },
@@ -2084,11 +1826,8 @@ export default {
       "masked": "The design has a sense of ____.",
       "options": [
         "whole-mcq-25",
-        "whole-mcq-24",
-        "whole-mcq-26",
-        "whole-mcq-23",
-        "whole-mcq-27",
-        "whole-mcq-22"
+        "whole-mcq-18",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「wholeness」指「各部分完整結合、沒有缺失的狀態；亦可指心理上的完整感」。",
       "sentenceIndex": 49,
@@ -2097,12 +1836,9 @@ export default {
         "wholeness"
       ],
       "optionReasons": {
-        "whole-mcq-25": "本句指「各部分完整結合、沒有缺失的狀態；亦可指心理上的完整感」。",
-        "whole-mcq-24": "「所有股權／所有權完全由一個實體持有」是「wholly owned（全資擁有）」的用法，與本句語境不同。",
-        "whole-mcq-26": "「完全真誠、毫無保留地投入或支持的」是「wholehearted = fully sincere/enthusiastic（全心全意的）」的用法，與本句語境不同。",
-        "whole-mcq-23": "「完全地時，表示完全；全然」是「wholly = completely（完全地）」的用法，與本句語境不同。",
-        "whole-mcq-27": "「以完全真誠、毫無保留的態度」是「wholeheartedly = completely and sincerely（全心全意地）」的用法，與本句語境不同。",
-        "whole-mcq-22": "「在情感、心理或身份上感到完整、沒有某部分缺失」是「whole = emotionally complete/integrated（內在完整的）」的用法，與本句語境不同。"
+        "whole-mcq-25": "本句的「wholeness」指「各部分完整結合、沒有缺失的狀態；亦可指心理上的完整感」。",
+        "whole-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-25"
     },
@@ -2114,11 +1850,8 @@ export default {
       "masked": "She wanted to regain a sense of ____.",
       "options": [
         "whole-mcq-25",
-        "whole-mcq-24",
-        "whole-mcq-26",
-        "whole-mcq-23",
-        "whole-mcq-27",
-        "whole-mcq-22"
+        "whole-mcq-18",
+        "whole-mcq-08"
       ],
       "explanation": "本句的「wholeness」指「各部分完整結合、沒有缺失的狀態；亦可指心理上的完整感」。",
       "sentenceIndex": 50,
@@ -2127,12 +1860,9 @@ export default {
         "wholeness"
       ],
       "optionReasons": {
-        "whole-mcq-25": "本句指「各部分完整結合、沒有缺失的狀態；亦可指心理上的完整感」。",
-        "whole-mcq-24": "「所有股權／所有權完全由一個實體持有」是「wholly owned（全資擁有）」的用法，與本句語境不同。",
-        "whole-mcq-26": "「完全真誠、毫無保留地投入或支持的」是「wholehearted = fully sincere/enthusiastic（全心全意的）」的用法，與本句語境不同。",
-        "whole-mcq-23": "「完全地時，表示完全；全然」是「wholly = completely（完全地）」的用法，與本句語境不同。",
-        "whole-mcq-27": "「以完全真誠、毫無保留的態度」是「wholeheartedly = completely and sincerely（全心全意地）」的用法，與本句語境不同。",
-        "whole-mcq-22": "「在情感、心理或身份上感到完整、沒有某部分缺失」是「whole = emotionally complete/integrated（內在完整的）」的用法，與本句語境不同。"
+        "whole-mcq-25": "本句的「wholeness」指「各部分完整結合、沒有缺失的狀態；亦可指心理上的完整感」。",
+        "whole-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-25"
     },
@@ -2144,11 +1874,9 @@ export default {
       "masked": "She gave the idea her ____.",
       "options": [
         "whole-mcq-26",
-        "whole-mcq-25",
-        "whole-mcq-27",
-        "whole-mcq-24",
-        "whole-mcq-23",
-        "whole-mcq-22"
+        "whole-mcq-09",
+        "whole-mcq-20",
+        "whole-mcq-15"
       ],
       "explanation": "本句的「wholehearted support」指「完全真誠、毫無保留地投入或支持的」。",
       "sentenceIndex": 51,
@@ -2157,12 +1885,10 @@ export default {
         "wholehearted support"
       ],
       "optionReasons": {
-        "whole-mcq-26": "本句指「完全真誠、毫無保留地投入或支持的」。",
-        "whole-mcq-25": "「各部分完整結合、沒有缺失的狀態；亦可指心理上的完整感」是「wholeness = state of being complete（完整性）」的用法，與本句語境不同。",
-        "whole-mcq-27": "「以完全真誠、毫無保留的態度」是「wholeheartedly = completely and sincerely（全心全意地）」的用法，與本句語境不同。",
-        "whole-mcq-24": "「所有股權／所有權完全由一個實體持有」是「wholly owned（全資擁有）」的用法，與本句語境不同。",
-        "whole-mcq-23": "「完全地時，表示完全；全然」是「wholly = completely（完全地）」的用法，與本句語境不同。",
-        "whole-mcq-22": "「在情感、心理或身份上感到完整、沒有某部分缺失」是「whole = emotionally complete/integrated（內在完整的）」的用法，與本句語境不同。"
+        "whole-mcq-26": "本句的「wholehearted support」指「完全真誠、毫無保留地投入或支持的」。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-26"
     },
@@ -2174,11 +1900,9 @@ export default {
       "masked": "He showed ____ for the project.",
       "options": [
         "whole-mcq-26",
-        "whole-mcq-25",
-        "whole-mcq-27",
-        "whole-mcq-24",
-        "whole-mcq-23",
-        "whole-mcq-22"
+        "whole-mcq-17",
+        "whole-mcq-08",
+        "whole-mcq-14"
       ],
       "explanation": "本句的「wholehearted enthusiasm」指「完全真誠、毫無保留地投入或支持的」。",
       "sentenceIndex": 52,
@@ -2187,12 +1911,10 @@ export default {
         "wholehearted enthusiasm"
       ],
       "optionReasons": {
-        "whole-mcq-26": "本句指「完全真誠、毫無保留地投入或支持的」。",
-        "whole-mcq-25": "「各部分完整結合、沒有缺失的狀態；亦可指心理上的完整感」是「wholeness = state of being complete（完整性）」的用法，與本句語境不同。",
-        "whole-mcq-27": "「以完全真誠、毫無保留的態度」是「wholeheartedly = completely and sincerely（全心全意地）」的用法，與本句語境不同。",
-        "whole-mcq-24": "「所有股權／所有權完全由一個實體持有」是「wholly owned（全資擁有）」的用法，與本句語境不同。",
-        "whole-mcq-23": "「完全地時，表示完全；全然」是「wholly = completely（完全地）」的用法，與本句語境不同。",
-        "whole-mcq-22": "「在情感、心理或身份上感到完整、沒有某部分缺失」是「whole = emotionally complete/integrated（內在完整的）」的用法，與本句語境不同。"
+        "whole-mcq-26": "本句的「wholehearted enthusiasm」指「完全真誠、毫無保留地投入或支持的」。",
+        "whole-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-26"
     },
@@ -2204,11 +1926,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "whole-mcq-27",
-        "whole-mcq-26",
-        "whole-mcq-25",
-        "whole-mcq-24",
-        "whole-mcq-23",
-        "whole-mcq-22"
+        "whole-mcq-20",
+        "whole-mcq-08",
+        "whole-mcq-14"
       ],
       "explanation": "本句的「wholeheartedly agree」指「以完全真誠、毫無保留的態度」。",
       "sentenceIndex": 53,
@@ -2217,12 +1937,10 @@ export default {
         "wholeheartedly agree"
       ],
       "optionReasons": {
-        "whole-mcq-27": "本句指「以完全真誠、毫無保留的態度」。",
-        "whole-mcq-26": "「完全真誠、毫無保留地投入或支持的」是「wholehearted = fully sincere/enthusiastic（全心全意的）」的用法，與本句語境不同。",
-        "whole-mcq-25": "「各部分完整結合、沒有缺失的狀態；亦可指心理上的完整感」是「wholeness = state of being complete（完整性）」的用法，與本句語境不同。",
-        "whole-mcq-24": "「所有股權／所有權完全由一個實體持有」是「wholly owned（全資擁有）」的用法，與本句語境不同。",
-        "whole-mcq-23": "「完全地時，表示完全；全然」是「wholly = completely（完全地）」的用法，與本句語境不同。",
-        "whole-mcq-22": "「在情感、心理或身份上感到完整、沒有某部分缺失」是「whole = emotionally complete/integrated（內在完整的）」的用法，與本句語境不同。"
+        "whole-mcq-27": "本句的「wholeheartedly agree」指「以完全真誠、毫無保留的態度」。",
+        "whole-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-27"
     },
@@ -2234,11 +1952,9 @@ export default {
       "masked": "She ____ the plan.",
       "options": [
         "whole-mcq-27",
-        "whole-mcq-26",
-        "whole-mcq-25",
-        "whole-mcq-24",
-        "whole-mcq-23",
-        "whole-mcq-22"
+        "whole-mcq-20",
+        "whole-mcq-09",
+        "whole-mcq-15"
       ],
       "explanation": "本句的「wholeheartedly supported」指「以完全真誠、毫無保留的態度」。",
       "sentenceIndex": 54,
@@ -2247,12 +1963,10 @@ export default {
         "wholeheartedly supported"
       ],
       "optionReasons": {
-        "whole-mcq-27": "本句指「以完全真誠、毫無保留的態度」。",
-        "whole-mcq-26": "「完全真誠、毫無保留地投入或支持的」是「wholehearted = fully sincere/enthusiastic（全心全意的）」的用法，與本句語境不同。",
-        "whole-mcq-25": "「各部分完整結合、沒有缺失的狀態；亦可指心理上的完整感」是「wholeness = state of being complete（完整性）」的用法，與本句語境不同。",
-        "whole-mcq-24": "「所有股權／所有權完全由一個實體持有」是「wholly owned（全資擁有）」的用法，與本句語境不同。",
-        "whole-mcq-23": "「完全地時，表示完全；全然」是「wholly = completely（完全地）」的用法，與本句語境不同。",
-        "whole-mcq-22": "「在情感、心理或身份上感到完整、沒有某部分缺失」是「whole = emotionally complete/integrated（內在完整的）」的用法，與本句語境不同。"
+        "whole-mcq-27": "本句的「wholeheartedly supported」指「以完全真誠、毫無保留的態度」。",
+        "whole-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whole-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whole-mcq-27"
     }
@@ -2264,5 +1978,7 @@ export default {
     "sha256": "976d08dec982cf41ba60aa30faae1e5f4f093126e5a5af22157037768d20df68",
     "pages": 24
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -765,11 +765,9 @@ export default {
       "masked": "I had a ____ about school.",
       "options": [
         "dream-mcq-02",
-        "dream-mcq-01",
-        "dream-mcq-03",
-        "dream-mcq-04",
-        "dream-mcq-05",
-        "dream-mcq-06"
+        "dream-mcq-37",
+        "dream-mcq-26",
+        "dream-mcq-23"
       ],
       "explanation": "本句的「dream」指「做一個夢」。",
       "sentenceIndex": 2,
@@ -778,12 +776,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-02": "本句指「做一個夢」。",
-        "dream-mcq-01": "「睡眠期間經歷的夢境」與本句語境不同。",
-        "dream-mcq-03": "「睡覺時夢見 X」與本句語境不同。",
-        "dream-mcq-04": "「夢見某件事情發生」與本句語境不同。",
-        "dream-mcq-05": "「令人不安／害怕的夢」與本句語境不同。",
-        "dream-mcq-06": "「做夢時知道自己正在做夢的清醒夢」與本句語境不同。"
+        "dream-mcq-02": "本句的「dream」指「做一個夢」。",
+        "dream-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-02"
     },
@@ -795,11 +791,9 @@ export default {
       "masked": "I ____ that I was flying.",
       "options": [
         "dream-mcq-04",
-        "dream-mcq-03",
-        "dream-mcq-05",
-        "dream-mcq-02",
-        "dream-mcq-06",
-        "dream-mcq-01"
+        "dream-mcq-45",
+        "dream-mcq-37",
+        "dream-mcq-27"
       ],
       "explanation": "本句的「dreamed」指「夢見某件事情發生」。",
       "sentenceIndex": 5,
@@ -808,12 +802,10 @@ export default {
         "dreamed"
       ],
       "optionReasons": {
-        "dream-mcq-04": "本句指「夢見某件事情發生」。",
-        "dream-mcq-03": "「睡覺時夢見 X」與本句語境不同。",
-        "dream-mcq-05": "「令人不安／害怕的夢」與本句語境不同。",
-        "dream-mcq-02": "「做一個夢」與本句語境不同。",
-        "dream-mcq-06": "「做夢時知道自己正在做夢的清醒夢」與本句語境不同。",
-        "dream-mcq-01": "「睡眠期間經歷的夢境」與本句語境不同。"
+        "dream-mcq-04": "本句的「dreamed」指「夢見某件事情發生」。",
+        "dream-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-04"
     },
@@ -825,11 +817,9 @@ export default {
       "masked": "The child woke after a bad ____.",
       "options": [
         "dream-mcq-05",
-        "dream-mcq-04",
-        "dream-mcq-06",
-        "dream-mcq-03",
-        "dream-mcq-07",
-        "dream-mcq-02"
+        "dream-mcq-31",
+        "dream-mcq-27",
+        "dream-mcq-37"
       ],
       "explanation": "本句的「dream」指「令人不安／害怕的夢」。",
       "sentenceIndex": 6,
@@ -838,12 +828,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-05": "本句指「令人不安／害怕的夢」。",
-        "dream-mcq-04": "「夢見某件事情發生」與本句語境不同。",
-        "dream-mcq-06": "「做夢時知道自己正在做夢的清醒夢」與本句語境不同。",
-        "dream-mcq-03": "「睡覺時夢見 X」與本句語境不同。",
-        "dream-mcq-07": "「重複出現的夢境」與本句語境不同。",
-        "dream-mcq-02": "「做一個夢」與本句語境不同。"
+        "dream-mcq-05": "本句的「dream」指「令人不安／害怕的夢」。",
+        "dream-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-05"
     },
@@ -855,11 +843,9 @@ export default {
       "masked": "Her ____ recall is unusually good.",
       "options": [
         "dream-mcq-11",
-        "dream-mcq-10",
-        "dream-mcq-12",
-        "dream-mcq-09",
-        "dream-mcq-13",
-        "dream-mcq-08"
+        "dream-mcq-26",
+        "dream-mcq-50",
+        "dream-mcq-32"
       ],
       "explanation": "本句的「dream」指「記住、回憶夢境的能力」。",
       "sentenceIndex": 9,
@@ -868,12 +854,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-11": "本句指「記住、回憶夢境的能力」。",
-        "dream-mcq-10": "「對夢境內容進行解讀」與本句語境不同。",
-        "dream-mcq-12": "「很希望將來實現的人生目標／夢想」與本句語境不同。",
-        "dream-mcq-09": "「伴隨夢遺／遺精的性夢境」與本句語境不同。",
-        "dream-mcq-13": "「夢想將來做到 X」與本句語境不同。",
-        "dream-mcq-08": "「發燒期間的怪異／鮮明夢境；亦可比喻荒誕經歷」與本句語境不同。"
+        "dream-mcq-11": "本句的「dream」指「記住、回憶夢境的能力」。",
+        "dream-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-11"
     },
@@ -885,11 +869,9 @@ export default {
       "masked": "He realized he was ____ and entered a lucid dream.",
       "options": [
         "dream-mcq-06",
-        "dream-mcq-05",
-        "dream-mcq-07",
-        "dream-mcq-04",
-        "dream-mcq-08",
-        "dream-mcq-03"
+        "dream-mcq-33",
+        "dream-mcq-27",
+        "dream-mcq-32"
       ],
       "explanation": "本句的「dreaming」指「做夢時知道自己正在做夢的清醒夢」。",
       "sentenceIndex": 10,
@@ -898,12 +880,10 @@ export default {
         "dreaming"
       ],
       "optionReasons": {
-        "dream-mcq-06": "本句指「做夢時知道自己正在做夢的清醒夢」。",
-        "dream-mcq-05": "「令人不安／害怕的夢」與本句語境不同。",
-        "dream-mcq-07": "「重複出現的夢境」與本句語境不同。",
-        "dream-mcq-04": "「夢見某件事情發生」與本句語境不同。",
-        "dream-mcq-08": "「發燒期間的怪異／鮮明夢境；亦可比喻荒誕經歷」與本句語境不同。",
-        "dream-mcq-03": "「睡覺時夢見 X」與本句語境不同。"
+        "dream-mcq-06": "本句的「dreaming」指「做夢時知道自己正在做夢的清醒夢」。",
+        "dream-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-06"
     },
@@ -915,11 +895,9 @@ export default {
       "masked": "She has a recurring ____ about missing a train.",
       "options": [
         "dream-mcq-07",
-        "dream-mcq-06",
-        "dream-mcq-08",
-        "dream-mcq-05",
-        "dream-mcq-09",
-        "dream-mcq-04"
+        "dream-mcq-23",
+        "dream-mcq-31",
+        "dream-mcq-34"
       ],
       "explanation": "本句的「dream」指「重複出現的夢境」。",
       "sentenceIndex": 11,
@@ -928,12 +906,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-07": "本句指「重複出現的夢境」。",
-        "dream-mcq-06": "「做夢時知道自己正在做夢的清醒夢」與本句語境不同。",
-        "dream-mcq-08": "「發燒期間的怪異／鮮明夢境；亦可比喻荒誕經歷」與本句語境不同。",
-        "dream-mcq-05": "「令人不安／害怕的夢」與本句語境不同。",
-        "dream-mcq-09": "「伴隨夢遺／遺精的性夢境」與本句語境不同。",
-        "dream-mcq-04": "「夢見某件事情發生」與本句語境不同。"
+        "dream-mcq-07": "本句的「dream」指「重複出現的夢境」。",
+        "dream-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-07"
     },
@@ -945,11 +921,9 @@ export default {
       "masked": "The whole evening felt like a fever ____.",
       "options": [
         "dream-mcq-08",
-        "dream-mcq-07",
-        "dream-mcq-09",
-        "dream-mcq-06",
-        "dream-mcq-10",
-        "dream-mcq-05"
+        "dream-mcq-23",
+        "dream-mcq-27",
+        "dream-mcq-31"
       ],
       "explanation": "本句的「dream」指「發燒期間的怪異／鮮明夢境；亦可比喻荒誕經歷」。",
       "sentenceIndex": 12,
@@ -958,12 +932,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-08": "本句指「發燒期間的怪異／鮮明夢境；亦可比喻荒誕經歷」。",
-        "dream-mcq-07": "「重複出現的夢境」與本句語境不同。",
-        "dream-mcq-09": "「伴隨夢遺／遺精的性夢境」與本句語境不同。",
-        "dream-mcq-06": "「做夢時知道自己正在做夢的清醒夢」與本句語境不同。",
-        "dream-mcq-10": "「對夢境內容進行解讀」與本句語境不同。",
-        "dream-mcq-05": "「令人不安／害怕的夢」與本句語境不同。"
+        "dream-mcq-08": "本句的「dream」指「發燒期間的怪異／鮮明夢境；亦可比喻荒誕經歷」。",
+        "dream-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-08"
     },
@@ -975,11 +947,9 @@ export default {
       "masked": "Owning a bakery was her childhood ____.",
       "options": [
         "dream-mcq-14",
-        "dream-mcq-13",
-        "dream-mcq-15",
-        "dream-mcq-12",
-        "dream-mcq-16",
-        "dream-mcq-11"
+        "dream-mcq-24",
+        "dream-mcq-31",
+        "dream-mcq-50"
       ],
       "explanation": "本句的「dream」指「從小已有的夢想」。",
       "sentenceIndex": 19,
@@ -988,12 +958,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-14": "本句指「從小已有的夢想」。",
-        "dream-mcq-13": "「夢想將來做到 X」與本句語境不同。",
-        "dream-mcq-15": "「畢生夢想」與本句語境不同。",
-        "dream-mcq-12": "「很希望將來實現的人生目標／夢想」與本句語境不同。",
-        "dream-mcq-16": "「幾個人共同擁有的夢想」與本句語境不同。",
-        "dream-mcq-11": "「記住、回憶夢境的能力」與本句語境不同。"
+        "dream-mcq-14": "本句的「dream」指「從小已有的夢想」。",
+        "dream-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-14"
     },
@@ -1005,11 +973,9 @@ export default {
       "masked": "The journey fulfilled a lifelong ____.",
       "options": [
         "dream-mcq-15",
-        "dream-mcq-14",
-        "dream-mcq-16",
-        "dream-mcq-13",
-        "dream-mcq-17",
-        "dream-mcq-12"
+        "dream-mcq-45",
+        "dream-mcq-31",
+        "dream-mcq-39"
       ],
       "explanation": "本句的「dream」指「畢生夢想」。",
       "sentenceIndex": 20,
@@ -1018,12 +984,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-15": "本句指「畢生夢想」。",
-        "dream-mcq-14": "「從小已有的夢想」與本句語境不同。",
-        "dream-mcq-16": "「幾個人共同擁有的夢想」與本句語境不同。",
-        "dream-mcq-13": "「夢想將來做到 X」與本句語境不同。",
-        "dream-mcq-17": "「實際追求自己的夢想」與本句語境不同。",
-        "dream-mcq-12": "「很希望將來實現的人生目標／夢想」與本句語境不同。"
+        "dream-mcq-15": "本句的「dream」指「畢生夢想」。",
+        "dream-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-15"
     },
@@ -1035,11 +999,9 @@ export default {
       "masked": "He finally realized his ____ of opening a restaurant.",
       "options": [
         "dream-mcq-18",
-        "dream-mcq-17",
-        "dream-mcq-19",
-        "dream-mcq-16",
-        "dream-mcq-20",
-        "dream-mcq-15"
+        "dream-mcq-24",
+        "dream-mcq-31",
+        "dream-mcq-32"
       ],
       "explanation": "本句的「dream」指「成功把夢想變成現實」。",
       "sentenceIndex": 24,
@@ -1048,12 +1010,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-18": "本句指「成功把夢想變成現實」。",
-        "dream-mcq-17": "「實際追求自己的夢想」與本句語境不同。",
-        "dream-mcq-19": "「長久希望的事情終於實現」與本句語境不同。",
-        "dream-mcq-16": "「幾個人共同擁有的夢想」與本句語境不同。",
-        "dream-mcq-20": "「夢寐以求、幾乎最理想的工作／家／車」與本句語境不同。",
-        "dream-mcq-15": "「畢生夢想」與本句語境不同。"
+        "dream-mcq-18": "本句的「dream」指「成功把夢想變成現實」。",
+        "dream-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-18"
     },
@@ -1065,11 +1025,9 @@ export default {
       "masked": "She finally got her ____ job.",
       "options": [
         "dream-mcq-20",
-        "dream-mcq-19",
-        "dream-mcq-21",
-        "dream-mcq-18",
-        "dream-mcq-22",
-        "dream-mcq-17"
+        "dream-mcq-45",
+        "dream-mcq-31",
+        "dream-mcq-39"
       ],
       "explanation": "本句的「dream」指「夢寐以求、幾乎最理想的工作／家／車」。",
       "sentenceIndex": 28,
@@ -1078,12 +1036,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-20": "本句指「夢寐以求、幾乎最理想的工作／家／車」。",
-        "dream-mcq-19": "「長久希望的事情終於實現」與本句語境不同。",
-        "dream-mcq-21": "「理想、實力極強的人員組合」與本句語境不同。",
-        "dream-mcq-18": "「成功把夢想變成現實」與本句語境不同。",
-        "dream-mcq-22": "「被視為特別理想的兩人搭檔／組合」與本句語境不同。",
-        "dream-mcq-17": "「實際追求自己的夢想」與本句語境不同。"
+        "dream-mcq-20": "本句的「dream」指「夢寐以求、幾乎最理想的工作／家／車」。",
+        "dream-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-20"
     },
@@ -1095,11 +1051,9 @@ export default {
       "masked": "The company assembled a ____ team of designers.",
       "options": [
         "dream-mcq-21",
-        "dream-mcq-20",
-        "dream-mcq-22",
-        "dream-mcq-19",
-        "dream-mcq-23",
-        "dream-mcq-18"
+        "dream-mcq-04",
+        "dream-mcq-07",
+        "dream-mcq-45"
       ],
       "explanation": "本句的「dream」指「理想、實力極強的人員組合」。",
       "sentenceIndex": 30,
@@ -1108,12 +1062,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-21": "本句指「理想、實力極強的人員組合」。",
-        "dream-mcq-20": "「夢寐以求、幾乎最理想的工作／家／車」與本句語境不同。",
-        "dream-mcq-22": "「被視為特別理想的兩人搭檔／組合」與本句語境不同。",
-        "dream-mcq-19": "「長久希望的事情終於實現」與本句語境不同。",
-        "dream-mcq-23": "「非常理想、令人愉快或容易使用」與本句語境不同。",
-        "dream-mcq-18": "「成功把夢想變成現實」與本句語境不同。"
+        "dream-mcq-21": "本句的「dream」指「理想、實力極強的人員組合」。",
+        "dream-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-21"
     },
@@ -1125,11 +1077,9 @@ export default {
       "masked": "The new software is a ____ to use.",
       "options": [
         "dream-mcq-23",
-        "dream-mcq-22",
-        "dream-mcq-24",
-        "dream-mcq-21",
-        "dream-mcq-25",
-        "dream-mcq-20"
+        "dream-mcq-02",
+        "dream-mcq-34",
+        "dream-mcq-37"
       ],
       "explanation": "本句的「dream」指「非常理想、令人愉快或容易使用」。",
       "sentenceIndex": 31,
@@ -1138,12 +1088,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-23": "本句指「非常理想、令人愉快或容易使用」。",
-        "dream-mcq-22": "「被視為特別理想的兩人搭檔／組合」與本句語境不同。",
-        "dream-mcq-24": "「運作／進行得非常順暢」與本句語境不同。",
-        "dream-mcq-21": "「理想、實力極強的人員組合」與本句語境不同。",
-        "dream-mcq-25": "「未必現實的幻想／空想」與本句語境不同。",
-        "dream-mcq-20": "「夢寐以求、幾乎最理想的工作／家／車」與本句語境不同。"
+        "dream-mcq-23": "本句的「dream」指「非常理想、令人愉快或容易使用」。",
+        "dream-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-23"
     },
@@ -1155,11 +1103,9 @@ export default {
       "masked": "The apartment was an absolute ____.",
       "options": [
         "dream-mcq-23",
-        "dream-mcq-22",
-        "dream-mcq-24",
-        "dream-mcq-21",
-        "dream-mcq-25",
-        "dream-mcq-20"
+        "dream-mcq-39",
+        "dream-mcq-11",
+        "dream-mcq-06"
       ],
       "explanation": "本句的「dream」指「非常理想、令人愉快或容易使用」。",
       "sentenceIndex": 32,
@@ -1168,12 +1114,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-23": "本句指「非常理想、令人愉快或容易使用」。",
-        "dream-mcq-22": "「被視為特別理想的兩人搭檔／組合」與本句語境不同。",
-        "dream-mcq-24": "「運作／進行得非常順暢」與本句語境不同。",
-        "dream-mcq-21": "「理想、實力極強的人員組合」與本句語境不同。",
-        "dream-mcq-25": "「未必現實的幻想／空想」與本句語境不同。",
-        "dream-mcq-20": "「夢寐以求、幾乎最理想的工作／家／車」與本句語境不同。"
+        "dream-mcq-23": "本句的「dream」指「非常理想、令人愉快或容易使用」。",
+        "dream-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-23"
     },
@@ -1185,11 +1129,9 @@ export default {
       "masked": "The event went like a ____.",
       "options": [
         "dream-mcq-24",
-        "dream-mcq-23",
-        "dream-mcq-25",
-        "dream-mcq-22",
-        "dream-mcq-26",
-        "dream-mcq-21"
+        "dream-mcq-34",
+        "dream-mcq-20",
+        "dream-mcq-11"
       ],
       "explanation": "本句的「dream」指「運作／進行得非常順暢」。",
       "sentenceIndex": 34,
@@ -1198,12 +1140,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-24": "本句指「運作／進行得非常順暢」。",
-        "dream-mcq-23": "「非常理想、令人愉快或容易使用」與本句語境不同。",
-        "dream-mcq-25": "「未必現實的幻想／空想」與本句語境不同。",
-        "dream-mcq-22": "「被視為特別理想的兩人搭檔／組合」與本句語境不同。",
-        "dream-mcq-26": "「極不現實、幾乎不可能的幻想」與本句語境不同。",
-        "dream-mcq-21": "「理想、實力極強的人員組合」與本句語境不同。"
+        "dream-mcq-24": "本句的「dream」指「運作／進行得非常順暢」。",
+        "dream-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-24"
     },
@@ -1215,11 +1155,9 @@ export default {
       "masked": "The project is still only a ____.",
       "options": [
         "dream-mcq-25",
-        "dream-mcq-24",
-        "dream-mcq-26",
-        "dream-mcq-23",
-        "dream-mcq-27",
-        "dream-mcq-22"
+        "dream-mcq-45",
+        "dream-mcq-06",
+        "dream-mcq-11"
       ],
       "explanation": "本句的「dream」指「未必現實的幻想／空想」。",
       "sentenceIndex": 35,
@@ -1228,12 +1166,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-25": "本句指「未必現實的幻想／空想」。",
-        "dream-mcq-24": "「運作／進行得非常順暢」與本句語境不同。",
-        "dream-mcq-26": "「極不現實、幾乎不可能的幻想」與本句語境不同。",
-        "dream-mcq-23": "「非常理想、令人愉快或容易使用」與本句語境不同。",
-        "dream-mcq-27": "「脫離現實的幻想世界」與本句語境不同。",
-        "dream-mcq-22": "「被視為特別理想的兩人搭檔／組合」與本句語境不同。"
+        "dream-mcq-25": "本句的「dream」指「未必現實的幻想／空想」。",
+        "dream-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-25"
     },
@@ -1245,11 +1181,9 @@ export default {
       "masked": "Without funding, the project may remain a pipe ____.",
       "options": [
         "dream-mcq-26",
-        "dream-mcq-25",
-        "dream-mcq-27",
+        "dream-mcq-02",
         "dream-mcq-24",
-        "dream-mcq-28",
-        "dream-mcq-23"
+        "dream-mcq-32"
       ],
       "explanation": "本句的「dream」指「極不現實、幾乎不可能的幻想」。",
       "sentenceIndex": 36,
@@ -1258,12 +1192,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-26": "本句指「極不現實、幾乎不可能的幻想」。",
-        "dream-mcq-25": "「未必現實的幻想／空想」與本句語境不同。",
-        "dream-mcq-27": "「脫離現實的幻想世界」與本句語境不同。",
-        "dream-mcq-24": "「運作／進行得非常順暢」與本句語境不同。",
-        "dream-mcq-28": "「夢鄉／幻想世界」與本句語境不同。",
-        "dream-mcq-23": "「非常理想、令人愉快或容易使用」與本句語境不同。"
+        "dream-mcq-26": "本句的「dream」指「極不現實、幾乎不可能的幻想」。",
+        "dream-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-26"
     },
@@ -1275,11 +1207,9 @@ export default {
       "masked": "He seems to live in a ____ world.",
       "options": [
         "dream-mcq-27",
-        "dream-mcq-26",
-        "dream-mcq-28",
-        "dream-mcq-25",
-        "dream-mcq-29",
-        "dream-mcq-24"
+        "dream-mcq-24",
+        "dream-mcq-05",
+        "dream-mcq-04"
       ],
       "explanation": "本句的「dream」指「脫離現實的幻想世界」。",
       "sentenceIndex": 37,
@@ -1288,12 +1218,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-27": "本句指「脫離現實的幻想世界」。",
-        "dream-mcq-26": "「極不現實、幾乎不可能的幻想」與本句語境不同。",
-        "dream-mcq-28": "「夢鄉／幻想世界」與本句語境不同。",
-        "dream-mcq-25": "「未必現實的幻想／空想」與本句語境不同。",
-        "dream-mcq-29": "「夢一般、超現實的景象」與本句語境不同。",
-        "dream-mcq-24": "「運作／進行得非常順暢」與本句語境不同。"
+        "dream-mcq-27": "本句的「dream」指「脫離現實的幻想世界」。",
+        "dream-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-27"
     },
@@ -1305,11 +1233,9 @@ export default {
       "masked": "The episode opens with a ____ sequence.",
       "options": [
         "dream-mcq-30",
-        "dream-mcq-29",
-        "dream-mcq-31",
-        "dream-mcq-28",
+        "dream-mcq-24",
         "dream-mcq-32",
-        "dream-mcq-27"
+        "dream-mcq-34"
       ],
       "explanation": "本句的「dream」指「電影／故事中表現人物夢境的段落」。",
       "sentenceIndex": 40,
@@ -1318,12 +1244,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-30": "本句指「電影／故事中表現人物夢境的段落」。",
-        "dream-mcq-29": "「夢一般、超現實的景象」與本句語境不同。",
-        "dream-mcq-31": "「根本不會考慮做某事；絕不會做」與本句語境不同。",
-        "dream-mcq-28": "「夢鄉／幻想世界」與本句語境不同。",
-        "dream-mcq-32": "「從來沒想過……竟會發生」與本句語境不同。",
-        "dream-mcq-27": "「脫離現實的幻想世界」與本句語境不同。"
+        "dream-mcq-30": "本句的「dream」指「電影／故事中表現人物夢境的段落」。",
+        "dream-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-30"
     },
@@ -1335,11 +1259,9 @@ export default {
       "masked": "Do you ____ every night?",
       "options": [
         "dream-mcq-36",
-        "dream-mcq-35",
-        "dream-mcq-37",
-        "dream-mcq-34",
-        "dream-mcq-38",
-        "dream-mcq-33"
+        "dream-mcq-24",
+        "dream-mcq-07",
+        "dream-mcq-03"
       ],
       "explanation": "本句的「dream」指「你做夢吧！／想得美！」。",
       "sentenceIndex": 41,
@@ -1348,12 +1270,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-36": "本句指「你做夢吧！／想得美！」。",
-        "dream-mcq-35": "「想得美！／別做夢了！」與本句語境不同。",
-        "dream-mcq-37": "「好／大得遠超一個人最大膽的想像」與本句語境不同。",
-        "dream-mcq-34": "「在幻想／神遊中消磨時間」與本句語境不同。",
-        "dream-mcq-38": "「敢於設定宏大夢想／胸懷大志」與本句語境不同。",
-        "dream-mcq-33": "「靠想像力構思／想出」與本句語境不同。"
+        "dream-mcq-36": "本句的「dream」指「你做夢吧！／想得美！」。",
+        "dream-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-36"
     },
@@ -1365,11 +1285,9 @@ export default {
       "masked": "I ____ about you.",
       "options": [
         "dream-mcq-03",
-        "dream-mcq-02",
-        "dream-mcq-04",
-        "dream-mcq-01",
-        "dream-mcq-05",
-        "dream-mcq-06"
+        "dream-mcq-24",
+        "dream-mcq-31",
+        "dream-mcq-32"
       ],
       "explanation": "本句的「dreamed」指「睡覺時夢見 X」。",
       "sentenceIndex": 42,
@@ -1378,12 +1296,10 @@ export default {
         "dreamed"
       ],
       "optionReasons": {
-        "dream-mcq-03": "本句指「睡覺時夢見 X」。",
-        "dream-mcq-02": "「做一個夢」與本句語境不同。",
-        "dream-mcq-04": "「夢見某件事情發生」與本句語境不同。",
-        "dream-mcq-01": "「睡眠期間經歷的夢境」與本句語境不同。",
-        "dream-mcq-05": "「令人不安／害怕的夢」與本句語境不同。",
-        "dream-mcq-06": "「做夢時知道自己正在做夢的清醒夢」與本句語境不同。"
+        "dream-mcq-03": "本句的「dreamed」指「睡覺時夢見 X」。",
+        "dream-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-03"
     },
@@ -1395,11 +1311,9 @@ export default {
       "masked": "She ____ that she had missed the examination.",
       "options": [
         "dream-mcq-04",
-        "dream-mcq-03",
-        "dream-mcq-05",
-        "dream-mcq-02",
-        "dream-mcq-06",
-        "dream-mcq-01"
+        "dream-mcq-24",
+        "dream-mcq-25",
+        "dream-mcq-37"
       ],
       "explanation": "本句的「dreamed」指「夢見某件事情發生」。",
       "sentenceIndex": 43,
@@ -1408,12 +1322,10 @@ export default {
         "dreamed"
       ],
       "optionReasons": {
-        "dream-mcq-04": "本句指「夢見某件事情發生」。",
-        "dream-mcq-03": "「睡覺時夢見 X」與本句語境不同。",
-        "dream-mcq-05": "「令人不安／害怕的夢」與本句語境不同。",
-        "dream-mcq-02": "「做一個夢」與本句語境不同。",
-        "dream-mcq-06": "「做夢時知道自己正在做夢的清醒夢」與本句語境不同。",
-        "dream-mcq-01": "「睡眠期間經歷的夢境」與本句語境不同。"
+        "dream-mcq-04": "本句的「dreamed」指「夢見某件事情發生」。",
+        "dream-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-04"
     },
@@ -1425,11 +1337,9 @@ export default {
       "masked": "He ____ of opening a café.",
       "options": [
         "dream-mcq-13",
-        "dream-mcq-12",
-        "dream-mcq-14",
-        "dream-mcq-11",
-        "dream-mcq-15",
-        "dream-mcq-10"
+        "dream-mcq-45",
+        "dream-mcq-08",
+        "dream-mcq-21"
       ],
       "explanation": "本句的「dreamed」指「夢想將來做到 X」。",
       "sentenceIndex": 45,
@@ -1438,12 +1348,10 @@ export default {
         "dreamed"
       ],
       "optionReasons": {
-        "dream-mcq-13": "本句指「夢想將來做到 X」。",
-        "dream-mcq-12": "「很希望將來實現的人生目標／夢想」與本句語境不同。",
-        "dream-mcq-14": "「從小已有的夢想」與本句語境不同。",
-        "dream-mcq-11": "「記住、回憶夢境的能力」與本句語境不同。",
-        "dream-mcq-15": "「畢生夢想」與本句語境不同。",
-        "dream-mcq-10": "「對夢境內容進行解讀」與本句語境不同。"
+        "dream-mcq-13": "本句的「dreamed」指「夢想將來做到 X」。",
+        "dream-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-13"
     },
@@ -1455,11 +1363,9 @@ export default {
       "masked": "I wouldn't ____ of taking credit for her work.",
       "options": [
         "dream-mcq-31",
-        "dream-mcq-30",
-        "dream-mcq-32",
-        "dream-mcq-29",
-        "dream-mcq-33",
-        "dream-mcq-28"
+        "dream-mcq-03",
+        "dream-mcq-18",
+        "dream-mcq-50"
       ],
       "explanation": "本句的「dream」指「根本不會考慮做某事；絕不會做」。",
       "sentenceIndex": 46,
@@ -1468,12 +1374,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-31": "本句指「根本不會考慮做某事；絕不會做」。",
-        "dream-mcq-30": "「電影／故事中表現人物夢境的段落」與本句語境不同。",
-        "dream-mcq-32": "「從來沒想過……竟會發生」與本句語境不同。",
-        "dream-mcq-29": "「夢一般、超現實的景象」與本句語境不同。",
-        "dream-mcq-33": "「靠想像力構思／想出」與本句語境不同。",
-        "dream-mcq-28": "「夢鄉／幻想世界」與本句語境不同。"
+        "dream-mcq-31": "本句的「dream」指「根本不會考慮做某事；絕不會做」。",
+        "dream-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-31"
     },
@@ -1485,11 +1389,9 @@ export default {
       "masked": "I never ____ that the business would become so successful.",
       "options": [
         "dream-mcq-32",
-        "dream-mcq-31",
-        "dream-mcq-33",
-        "dream-mcq-30",
-        "dream-mcq-34",
-        "dream-mcq-29"
+        "dream-mcq-07",
+        "dream-mcq-45",
+        "dream-mcq-03"
       ],
       "explanation": "本句的「dreamed」指「從來沒想過……竟會發生」。",
       "sentenceIndex": 47,
@@ -1498,12 +1400,10 @@ export default {
         "dreamed"
       ],
       "optionReasons": {
-        "dream-mcq-32": "本句指「從來沒想過……竟會發生」。",
-        "dream-mcq-31": "「根本不會考慮做某事；絕不會做」與本句語境不同。",
-        "dream-mcq-33": "「靠想像力構思／想出」與本句語境不同。",
-        "dream-mcq-30": "「電影／故事中表現人物夢境的段落」與本句語境不同。",
-        "dream-mcq-34": "「在幻想／神遊中消磨時間」與本句語境不同。",
-        "dream-mcq-29": "「夢一般、超現實的景象」與本句語境不同。"
+        "dream-mcq-32": "本句的「dreamed」指「從來沒想過……竟會發生」。",
+        "dream-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-32"
     },
@@ -1515,11 +1415,9 @@ export default {
       "masked": "They ____ up a new café concept.",
       "options": [
         "dream-mcq-33",
-        "dream-mcq-32",
-        "dream-mcq-34",
-        "dream-mcq-31",
-        "dream-mcq-35",
-        "dream-mcq-30"
+        "dream-mcq-02",
+        "dream-mcq-24",
+        "dream-mcq-32"
       ],
       "explanation": "本句的「dreamed」指「靠想像力構思／想出」。",
       "sentenceIndex": 49,
@@ -1528,12 +1426,10 @@ export default {
         "dreamed"
       ],
       "optionReasons": {
-        "dream-mcq-33": "本句指「靠想像力構思／想出」。",
-        "dream-mcq-32": "「從來沒想過……竟會發生」與本句語境不同。",
-        "dream-mcq-34": "「在幻想／神遊中消磨時間」與本句語境不同。",
-        "dream-mcq-31": "「根本不會考慮做某事；絕不會做」與本句語境不同。",
-        "dream-mcq-35": "「想得美！／別做夢了！」與本句語境不同。",
-        "dream-mcq-30": "「電影／故事中表現人物夢境的段落」與本句語境不同。"
+        "dream-mcq-33": "本句的「dreamed」指「靠想像力構思／想出」。",
+        "dream-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-33"
     },
@@ -1545,11 +1441,9 @@ export default {
       "masked": "Who ____ up this complicated system?",
       "options": [
         "dream-mcq-33",
-        "dream-mcq-32",
-        "dream-mcq-34",
-        "dream-mcq-31",
-        "dream-mcq-35",
-        "dream-mcq-30"
+        "dream-mcq-04",
+        "dream-mcq-06",
+        "dream-mcq-45"
       ],
       "explanation": "本句的「dreamed」指「靠想像力構思／想出」。",
       "sentenceIndex": 50,
@@ -1558,12 +1452,10 @@ export default {
         "dreamed"
       ],
       "optionReasons": {
-        "dream-mcq-33": "本句指「靠想像力構思／想出」。",
-        "dream-mcq-32": "「從來沒想過……竟會發生」與本句語境不同。",
-        "dream-mcq-34": "「在幻想／神遊中消磨時間」與本句語境不同。",
-        "dream-mcq-31": "「根本不會考慮做某事；絕不會做」與本句語境不同。",
-        "dream-mcq-35": "「想得美！／別做夢了！」與本句語境不同。",
-        "dream-mcq-30": "「電影／故事中表現人物夢境的段落」與本句語境不同。"
+        "dream-mcq-33": "本句的「dreamed」指「靠想像力構思／想出」。",
+        "dream-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-33"
     },
@@ -1575,11 +1467,9 @@ export default {
       "masked": "He ____ away the afternoon.",
       "options": [
         "dream-mcq-34",
-        "dream-mcq-33",
-        "dream-mcq-35",
-        "dream-mcq-32",
-        "dream-mcq-36",
-        "dream-mcq-31"
+        "dream-mcq-02",
+        "dream-mcq-24",
+        "dream-mcq-33"
       ],
       "explanation": "本句的「dreamed」指「在幻想／神遊中消磨時間」。",
       "sentenceIndex": 51,
@@ -1588,12 +1478,10 @@ export default {
         "dreamed"
       ],
       "optionReasons": {
-        "dream-mcq-34": "本句指「在幻想／神遊中消磨時間」。",
-        "dream-mcq-33": "「靠想像力構思／想出」與本句語境不同。",
-        "dream-mcq-35": "「想得美！／別做夢了！」與本句語境不同。",
-        "dream-mcq-32": "「從來沒想過……竟會發生」與本句語境不同。",
-        "dream-mcq-36": "「你做夢吧！／想得美！」與本句語境不同。",
-        "dream-mcq-31": "「根本不會考慮做某事；絕不會做」與本句語境不同。"
+        "dream-mcq-34": "本句的「dreamed」指「在幻想／神遊中消磨時間」。",
+        "dream-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-34"
     },
@@ -1605,11 +1493,9 @@ export default {
       "masked": "In your ____!",
       "options": [
         "dream-mcq-36",
-        "dream-mcq-35",
-        "dream-mcq-37",
-        "dream-mcq-34",
-        "dream-mcq-38",
-        "dream-mcq-33"
+        "dream-mcq-24",
+        "dream-mcq-32",
+        "dream-mcq-31"
       ],
       "explanation": "本句的「dreams」指「你做夢吧！／想得美！」。",
       "sentenceIndex": 52,
@@ -1618,12 +1504,10 @@ export default {
         "dreams"
       ],
       "optionReasons": {
-        "dream-mcq-36": "本句指「你做夢吧！／想得美！」。",
-        "dream-mcq-35": "「想得美！／別做夢了！」與本句語境不同。",
-        "dream-mcq-37": "「好／大得遠超一個人最大膽的想像」與本句語境不同。",
-        "dream-mcq-34": "「在幻想／神遊中消磨時間」與本句語境不同。",
-        "dream-mcq-38": "「敢於設定宏大夢想／胸懷大志」與本句語境不同。",
-        "dream-mcq-33": "「靠想像力構思／想出」與本句語境不同。"
+        "dream-mcq-36": "本句的「dreams」指「你做夢吧！／想得美！」。",
+        "dream-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-36"
     },
@@ -1635,10 +1519,8 @@ export default {
       "masked": "The café became successful beyond his wildest ____.",
       "options": [
         "dream-mcq-37",
-        "dream-mcq-36",
-        "dream-mcq-38",
-        "dream-mcq-35",
-        "dream-mcq-39",
+        "dream-mcq-02",
+        "dream-mcq-45",
         "dream-mcq-34"
       ],
       "explanation": "本句的「dreams」指「好／大得遠超一個人最大膽的想像」。",
@@ -1648,12 +1530,10 @@ export default {
         "dreams"
       ],
       "optionReasons": {
-        "dream-mcq-37": "本句指「好／大得遠超一個人最大膽的想像」。",
-        "dream-mcq-36": "「你做夢吧！／想得美！」與本句語境不同。",
-        "dream-mcq-38": "「敢於設定宏大夢想／胸懷大志」與本句語境不同。",
-        "dream-mcq-35": "「想得美！／別做夢了！」與本句語境不同。",
-        "dream-mcq-39": "「如夢一般美好、順利或不真實」與本句語境不同。",
-        "dream-mcq-34": "「在幻想／神遊中消磨時間」與本句語境不同。"
+        "dream-mcq-37": "本句的「dreams」指「好／大得遠超一個人最大膽的想像」。",
+        "dream-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-37"
     },
@@ -1665,11 +1545,9 @@ export default {
       "masked": "____ big, but plan carefully.",
       "options": [
         "dream-mcq-38",
-        "dream-mcq-37",
-        "dream-mcq-39",
-        "dream-mcq-36",
-        "dream-mcq-40",
-        "dream-mcq-35"
+        "dream-mcq-31",
+        "dream-mcq-45",
+        "dream-mcq-21"
       ],
       "explanation": "本句的「Dream」指「敢於設定宏大夢想／胸懷大志」。",
       "sentenceIndex": 57,
@@ -1678,12 +1556,10 @@ export default {
         "Dream"
       ],
       "optionReasons": {
-        "dream-mcq-38": "本句指「敢於設定宏大夢想／胸懷大志」。",
-        "dream-mcq-37": "「好／大得遠超一個人最大膽的想像」與本句語境不同。",
-        "dream-mcq-39": "「如夢一般美好、順利或不真實」與本句語境不同。",
-        "dream-mcq-36": "「你做夢吧！／想得美！」與本句語境不同。",
-        "dream-mcq-40": "「有夢境般朦朧、超現實的特質」與本句語境不同。",
-        "dream-mcq-35": "「想得美！／別做夢了！」與本句語境不同。"
+        "dream-mcq-38": "本句的「Dream」指「敢於設定宏大夢想／胸懷大志」。",
+        "dream-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-38"
     },
@@ -1695,11 +1571,9 @@ export default {
       "masked": "The holiday felt like a ____.",
       "options": [
         "dream-mcq-39",
-        "dream-mcq-38",
-        "dream-mcq-40",
-        "dream-mcq-37",
-        "dream-mcq-41",
-        "dream-mcq-36"
+        "dream-mcq-50",
+        "dream-mcq-32",
+        "dream-mcq-34"
       ],
       "explanation": "本句的「dream」指「如夢一般美好、順利或不真實」。",
       "sentenceIndex": 59,
@@ -1708,12 +1582,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-39": "本句指「如夢一般美好、順利或不真實」。",
-        "dream-mcq-38": "「敢於設定宏大夢想／胸懷大志」與本句語境不同。",
-        "dream-mcq-40": "「有夢境般朦朧、超現實的特質」與本句語境不同。",
-        "dream-mcq-37": "「好／大得遠超一個人最大膽的想像」與本句語境不同。",
-        "dream-mcq-41": "「有理想、夢想很多的人」與本句語境不同。",
-        "dream-mcq-36": "「你做夢吧！／想得美！」與本句語境不同。"
+        "dream-mcq-39": "本句的「dream」指「如夢一般美好、順利或不真實」。",
+        "dream-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-39"
     },
@@ -1725,11 +1597,9 @@ export default {
       "masked": "He's ____.",
       "options": [
         "dream-mcq-45",
-        "dream-mcq-44",
-        "dream-mcq-46",
-        "dream-mcq-43",
-        "dream-mcq-47",
-        "dream-mcq-42"
+        "dream-mcq-33",
+        "dream-mcq-13",
+        "dream-mcq-26"
       ],
       "explanation": "本句的「dreamy」指「非正式：非常迷人、令人心動的」。",
       "sentenceIndex": 66,
@@ -1738,12 +1608,10 @@ export default {
         "dreamy"
       ],
       "optionReasons": {
-        "dream-mcq-45": "本句指「非正式：非常迷人、令人心動的」。",
-        "dream-mcq-44": "「出神、沉浸於幻想的」與本句語境不同。",
-        "dream-mcq-46": "「沒有記得／感覺到做夢的睡眠」與本句語境不同。",
-        "dream-mcq-43": "「朦朧、柔和、夢幻般的」與本句語境不同。",
-        "dream-mcq-47": "「清醒時產生的幻想／白日夢」與本句語境不同。",
-        "dream-mcq-42": "「脫離現實、只空想而不行動的人」與本句語境不同。"
+        "dream-mcq-45": "本句的「dreamy」指「非正式：非常迷人、令人心動的」。",
+        "dream-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-45"
     },
@@ -1755,11 +1623,9 @@ export default {
       "masked": "The advertisement sells the ____ of effortless luxury.",
       "options": [
         "dream-mcq-50",
-        "dream-mcq-49",
-        "dream-mcq-48",
-        "dream-mcq-47",
-        "dream-mcq-46",
-        "dream-mcq-45"
+        "dream-mcq-31",
+        "dream-mcq-06",
+        "dream-mcq-39"
       ],
       "explanation": "本句的「dream」指「推銷一種理想化、令人嚮往的未來形象」。",
       "sentenceIndex": 71,
@@ -1768,12 +1634,10 @@ export default {
         "dream"
       ],
       "optionReasons": {
-        "dream-mcq-50": "本句指「推銷一種理想化、令人嚮往的未來形象」。",
-        "dream-mcq-49": "「關於機會、向上流動及改善生活等觀念的「美國夢」文化概念」與本句語境不同。",
-        "dream-mcq-48": "「清醒時神遊、幻想」與本句語境不同。",
-        "dream-mcq-47": "「清醒時產生的幻想／白日夢」與本句語境不同。",
-        "dream-mcq-46": "「沒有記得／感覺到做夢的睡眠」與本句語境不同。",
-        "dream-mcq-45": "「非正式：非常迷人、令人心動的」與本句語境不同。"
+        "dream-mcq-50": "本句的「dream」指「推銷一種理想化、令人嚮往的未來形象」。",
+        "dream-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dream-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dream-mcq-50"
     }
@@ -1785,5 +1649,7 @@ export default {
     "sha256": "8da7b98502f10b5dbf33e05dc294668f8976c4816e75c34ec2258186d6e8fee0",
     "pages": 36
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

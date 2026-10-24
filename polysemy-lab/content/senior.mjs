@@ -491,11 +491,8 @@ export default {
       "masked": "I had to speak in front of several ____.",
       "options": [
         "senior-mcq-01",
-        "senior-mcq-02",
-        "senior-mcq-03",
-        "senior-mcq-04",
-        "senior-mcq-05",
-        "senior-mcq-06"
+        "senior-mcq-11",
+        "senior-mcq-08"
       ],
       "explanation": "本句的「senior managers」指「在公司／機構中職級較高、權責較大或資歷較深的」。",
       "sentenceIndex": 0,
@@ -504,12 +501,9 @@ export default {
         "senior managers"
       ],
       "optionReasons": {
-        "senior-mcq-01": "本句指「在公司／機構中職級較高、權責較大或資歷較深的」。",
-        "senior-mcq-02": "「在組織中擁有較高職級、較大責任或決策權的人員／管理層」是「senior staff/management」的用法，與本句語境不同。",
-        "senior-mcq-03": "「在某個專業領域中經驗、地位或責任較高的；資深的」是「senior — professionally experienced」的用法，與本句語境不同。",
-        "senior-mcq-04": "「在職級、資歷或組織地位上高於某人」是「senior to someone — rank」的用法，與本句語境不同。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。"
+        "senior-mcq-01": "本句的「senior managers」指「在公司／機構中職級較高、權責較大或資歷較深的」。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-01"
     },
@@ -521,11 +515,8 @@ export default {
       "masked": "She was promoted to a ____ last year.",
       "options": [
         "senior-mcq-01",
-        "senior-mcq-02",
-        "senior-mcq-03",
-        "senior-mcq-04",
-        "senior-mcq-05",
-        "senior-mcq-06"
+        "senior-mcq-08",
+        "senior-mcq-11"
       ],
       "explanation": "本句的「senior position」指「在公司／機構中職級較高、權責較大或資歷較深的」。",
       "sentenceIndex": 1,
@@ -534,12 +525,9 @@ export default {
         "senior position"
       ],
       "optionReasons": {
-        "senior-mcq-01": "本句指「在公司／機構中職級較高、權責較大或資歷較深的」。",
-        "senior-mcq-02": "「在組織中擁有較高職級、較大責任或決策權的人員／管理層」是「senior staff/management」的用法，與本句語境不同。",
-        "senior-mcq-03": "「在某個專業領域中經驗、地位或責任較高的；資深的」是「senior — professionally experienced」的用法，與本句語境不同。",
-        "senior-mcq-04": "「在職級、資歷或組織地位上高於某人」是「senior to someone — rank」的用法，與本句語境不同。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。"
+        "senior-mcq-01": "本句的「senior position」指「在公司／機構中職級較高、權責較大或資歷較深的」。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-01"
     },
@@ -551,11 +539,8 @@ export default {
       "masked": "The decision must be approved by ____.",
       "options": [
         "senior-mcq-01",
-        "senior-mcq-02",
-        "senior-mcq-03",
-        "senior-mcq-04",
-        "senior-mcq-05",
-        "senior-mcq-06"
+        "senior-mcq-11",
+        "senior-mcq-08"
       ],
       "explanation": "本句的「senior management」指「在公司／機構中職級較高、權責較大或資歷較深的」。",
       "sentenceIndex": 2,
@@ -564,12 +549,9 @@ export default {
         "senior management"
       ],
       "optionReasons": {
-        "senior-mcq-01": "本句指「在公司／機構中職級較高、權責較大或資歷較深的」。",
-        "senior-mcq-02": "「在組織中擁有較高職級、較大責任或決策權的人員／管理層」是「senior staff/management」的用法，與本句語境不同。",
-        "senior-mcq-03": "「在某個專業領域中經驗、地位或責任較高的；資深的」是「senior — professionally experienced」的用法，與本句語境不同。",
-        "senior-mcq-04": "「在職級、資歷或組織地位上高於某人」是「senior to someone — rank」的用法，與本句語境不同。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。"
+        "senior-mcq-01": "本句的「senior management」指「在公司／機構中職級較高、權責較大或資歷較深的」。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-01"
     },
@@ -581,11 +563,8 @@ export default {
       "masked": "Several members of ____ attended the event.",
       "options": [
         "senior-mcq-02",
-        "senior-mcq-01",
-        "senior-mcq-03",
-        "senior-mcq-04",
-        "senior-mcq-05",
-        "senior-mcq-06"
+        "senior-mcq-08",
+        "senior-mcq-11"
       ],
       "explanation": "本句的「senior staff」指「在組織中擁有較高職級、較大責任或決策權的人員／管理層」。",
       "sentenceIndex": 3,
@@ -594,12 +573,9 @@ export default {
         "senior staff"
       ],
       "optionReasons": {
-        "senior-mcq-02": "本句指「在組織中擁有較高職級、較大責任或決策權的人員／管理層」。",
-        "senior-mcq-01": "「在公司／機構中職級較高、權責較大或資歷較深的」是「senior + job/title」的用法，與本句語境不同。",
-        "senior-mcq-03": "「在某個專業領域中經驗、地位或責任較高的；資深的」是「senior — professionally experienced」的用法，與本句語境不同。",
-        "senior-mcq-04": "「在職級、資歷或組織地位上高於某人」是「senior to someone — rank」的用法，與本句語境不同。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。"
+        "senior-mcq-02": "本句的「senior staff」指「在組織中擁有較高職級、較大責任或決策權的人員／管理層」。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-02"
     },
@@ -611,11 +587,8 @@ export default {
       "masked": "The issue was discussed by ____.",
       "options": [
         "senior-mcq-02",
-        "senior-mcq-01",
-        "senior-mcq-03",
-        "senior-mcq-04",
-        "senior-mcq-05",
-        "senior-mcq-06"
+        "senior-mcq-08",
+        "senior-mcq-11"
       ],
       "explanation": "本句的「senior management」指「在組織中擁有較高職級、較大責任或決策權的人員／管理層」。",
       "sentenceIndex": 4,
@@ -624,12 +597,9 @@ export default {
         "senior management"
       ],
       "optionReasons": {
-        "senior-mcq-02": "本句指「在組織中擁有較高職級、較大責任或決策權的人員／管理層」。",
-        "senior-mcq-01": "「在公司／機構中職級較高、權責較大或資歷較深的」是「senior + job/title」的用法，與本句語境不同。",
-        "senior-mcq-03": "「在某個專業領域中經驗、地位或責任較高的；資深的」是「senior — professionally experienced」的用法，與本句語境不同。",
-        "senior-mcq-04": "「在職級、資歷或組織地位上高於某人」是「senior to someone — rank」的用法，與本句語境不同。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。"
+        "senior-mcq-02": "本句的「senior management」指「在組織中擁有較高職級、較大責任或決策權的人員／管理層」。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-02"
     },
@@ -641,11 +611,9 @@ export default {
       "masked": "She is a ____ with twenty years of experience.",
       "options": [
         "senior-mcq-03",
-        "senior-mcq-02",
-        "senior-mcq-04",
-        "senior-mcq-01",
-        "senior-mcq-05",
-        "senior-mcq-06"
+        "senior-mcq-12",
+        "senior-mcq-08",
+        "senior-mcq-10"
       ],
       "explanation": "本句的「senior lawyer」指「在某個專業領域中經驗、地位或責任較高的；資深的」。",
       "sentenceIndex": 5,
@@ -654,12 +622,10 @@ export default {
         "senior lawyer"
       ],
       "optionReasons": {
-        "senior-mcq-03": "本句指「在某個專業領域中經驗、地位或責任較高的；資深的」。",
-        "senior-mcq-02": "「在組織中擁有較高職級、較大責任或決策權的人員／管理層」是「senior staff/management」的用法，與本句語境不同。",
-        "senior-mcq-04": "「在職級、資歷或組織地位上高於某人」是「senior to someone — rank」的用法，與本句語境不同。",
-        "senior-mcq-01": "「在公司／機構中職級較高、權責較大或資歷較深的」是「senior + job/title」的用法，與本句語境不同。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。"
+        "senior-mcq-03": "本句的「senior lawyer」指「在某個專業領域中經驗、地位或責任較高的；資深的」。",
+        "senior-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-03"
     },
@@ -671,11 +637,9 @@ export default {
       "masked": "A ____ reviewed the design.",
       "options": [
         "senior-mcq-03",
-        "senior-mcq-02",
-        "senior-mcq-04",
-        "senior-mcq-01",
-        "senior-mcq-05",
-        "senior-mcq-06"
+        "senior-mcq-12",
+        "senior-mcq-09",
+        "senior-mcq-10"
       ],
       "explanation": "本句的「senior engineer」指「在某個專業領域中經驗、地位或責任較高的；資深的」。",
       "sentenceIndex": 6,
@@ -684,12 +648,10 @@ export default {
         "senior engineer"
       ],
       "optionReasons": {
-        "senior-mcq-03": "本句指「在某個專業領域中經驗、地位或責任較高的；資深的」。",
-        "senior-mcq-02": "「在組織中擁有較高職級、較大責任或決策權的人員／管理層」是「senior staff/management」的用法，與本句語境不同。",
-        "senior-mcq-04": "「在職級、資歷或組織地位上高於某人」是「senior to someone — rank」的用法，與本句語境不同。",
-        "senior-mcq-01": "「在公司／機構中職級較高、權責較大或資歷較深的」是「senior + job/title」的用法，與本句語境不同。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。"
+        "senior-mcq-03": "本句的「senior engineer」指「在某個專業領域中經驗、地位或責任較高的；資深的」。",
+        "senior-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-03"
     },
@@ -701,11 +663,9 @@ export default {
       "masked": "She is ____ in the department.",
       "options": [
         "senior-mcq-04",
-        "senior-mcq-03",
         "senior-mcq-05",
-        "senior-mcq-02",
-        "senior-mcq-06",
-        "senior-mcq-01"
+        "senior-mcq-18",
+        "senior-mcq-11"
       ],
       "explanation": "本句的「senior to me」指「在職級、資歷或組織地位上高於某人」。",
       "sentenceIndex": 7,
@@ -714,12 +674,10 @@ export default {
         "senior to me"
       ],
       "optionReasons": {
-        "senior-mcq-04": "本句指「在職級、資歷或組織地位上高於某人」。",
-        "senior-mcq-03": "「在某個專業領域中經驗、地位或責任較高的；資深的」是「senior — professionally experienced」的用法，與本句語境不同。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。",
-        "senior-mcq-02": "「在組織中擁有較高職級、較大責任或決策權的人員／管理層」是「senior staff/management」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。",
-        "senior-mcq-01": "「在公司／機構中職級較高、權責較大或資歷較深的」是「senior + job/title」的用法，與本句語境不同。"
+        "senior-mcq-04": "本句的「senior to me」指「在職級、資歷或組織地位上高於某人」。",
+        "senior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-04"
     },
@@ -731,11 +689,9 @@ export default {
       "masked": "Several employees are ____.",
       "options": [
         "senior-mcq-04",
-        "senior-mcq-03",
-        "senior-mcq-05",
-        "senior-mcq-02",
-        "senior-mcq-06",
-        "senior-mcq-01"
+        "senior-mcq-10",
+        "senior-mcq-08",
+        "senior-mcq-18"
       ],
       "explanation": "本句的「senior to him」指「在職級、資歷或組織地位上高於某人」。",
       "sentenceIndex": 8,
@@ -744,12 +700,10 @@ export default {
         "senior to him"
       ],
       "optionReasons": {
-        "senior-mcq-04": "本句指「在職級、資歷或組織地位上高於某人」。",
-        "senior-mcq-03": "「在某個專業領域中經驗、地位或責任較高的；資深的」是「senior — professionally experienced」的用法，與本句語境不同。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。",
-        "senior-mcq-02": "「在組織中擁有較高職級、較大責任或決策權的人員／管理層」是「senior staff/management」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。",
-        "senior-mcq-01": "「在公司／機構中職級較高、權責較大或資歷較深的」是「senior + job/title」的用法，與本句語境不同。"
+        "senior-mcq-04": "本句的「senior to him」指「在職級、資歷或組織地位上高於某人」。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-04"
     },
@@ -762,10 +716,8 @@ export default {
       "options": [
         "senior-mcq-05",
         "senior-mcq-04",
-        "senior-mcq-06",
-        "senior-mcq-03",
-        "senior-mcq-07",
-        "senior-mcq-02"
+        "senior-mcq-18",
+        "senior-mcq-11"
       ],
       "explanation": "本句的「senior to」指「年齡相對較大、較年長的」。",
       "sentenceIndex": 9,
@@ -774,12 +726,10 @@ export default {
         "senior to"
       ],
       "optionReasons": {
-        "senior-mcq-05": "本句指「年齡相對較大、較年長的」。",
-        "senior-mcq-04": "「在職級、資歷或組織地位上高於某人」是「senior to someone — rank」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。",
-        "senior-mcq-03": "「在某個專業領域中經驗、地位或責任較高的；資深的」是「senior — professionally experienced」的用法，與本句語境不同。",
-        "senior-mcq-07": "「在教育制度中處於較高年級／較高學習階段的學生」是「senior student/pupil」的用法，與本句語境不同。",
-        "senior-mcq-02": "「在組織中擁有較高職級、較大責任或決策權的人員／管理層」是「senior staff/management」的用法，與本句語境不同。"
+        "senior-mcq-05": "本句的「senior to」指「年齡相對較大、較年長的」。",
+        "senior-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-05"
     },
@@ -791,11 +741,8 @@ export default {
       "masked": "She is the ____ member of the family.",
       "options": [
         "senior-mcq-05",
-        "senior-mcq-04",
-        "senior-mcq-06",
-        "senior-mcq-03",
-        "senior-mcq-07",
-        "senior-mcq-02"
+        "senior-mcq-12",
+        "senior-mcq-18"
       ],
       "explanation": "本句的「senior」指「年齡相對較大、較年長的」。",
       "sentenceIndex": 10,
@@ -804,12 +751,9 @@ export default {
         "senior"
       ],
       "optionReasons": {
-        "senior-mcq-05": "本句指「年齡相對較大、較年長的」。",
-        "senior-mcq-04": "「在職級、資歷或組織地位上高於某人」是「senior to someone — rank」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。",
-        "senior-mcq-03": "「在某個專業領域中經驗、地位或責任較高的；資深的」是「senior — professionally experienced」的用法，與本句語境不同。",
-        "senior-mcq-07": "「在教育制度中處於較高年級／較高學習階段的學生」是「senior student/pupil」的用法，與本句語境不同。",
-        "senior-mcq-02": "「在組織中擁有較高職級、較大責任或決策權的人員／管理層」是「senior staff/management」的用法，與本句語境不同。"
+        "senior-mcq-05": "本句的「senior」指「年齡相對較大、較年長的」。",
+        "senior-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-05"
     },
@@ -821,11 +765,7 @@ export default {
       "masked": "He married a woman ten years his ____.",
       "options": [
         "senior-mcq-06",
-        "senior-mcq-05",
-        "senior-mcq-07",
-        "senior-mcq-04",
-        "senior-mcq-08",
-        "senior-mcq-03"
+        "senior-mcq-15"
       ],
       "explanation": "本句的「senior」指「年齡比某人較大的人」。",
       "sentenceIndex": 11,
@@ -834,12 +774,8 @@ export default {
         "senior"
       ],
       "optionReasons": {
-        "senior-mcq-06": "本句指「年齡比某人較大的人」。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。",
-        "senior-mcq-07": "「在教育制度中處於較高年級／較高學習階段的學生」是「senior student/pupil」的用法，與本句語境不同。",
-        "senior-mcq-04": "「在職級、資歷或組織地位上高於某人」是「senior to someone — rank」的用法，與本句語境不同。",
-        "senior-mcq-08": "「美式教育制度中高中或大學本科階段的最後一年」是「senior year」的用法，與本句語境不同。",
-        "senior-mcq-03": "「在某個專業領域中經驗、地位或責任較高的；資深的」是「senior — professionally experienced」的用法，與本句語境不同。"
+        "senior-mcq-06": "本句的「senior」指「年齡比某人較大的人」。",
+        "senior-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-06"
     },
@@ -851,11 +787,7 @@ export default {
       "masked": "She is several years my ____.",
       "options": [
         "senior-mcq-06",
-        "senior-mcq-05",
-        "senior-mcq-07",
-        "senior-mcq-04",
-        "senior-mcq-08",
-        "senior-mcq-03"
+        "senior-mcq-15"
       ],
       "explanation": "本句的「senior」指「年齡比某人較大的人」。",
       "sentenceIndex": 12,
@@ -864,12 +796,8 @@ export default {
         "senior"
       ],
       "optionReasons": {
-        "senior-mcq-06": "本句指「年齡比某人較大的人」。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。",
-        "senior-mcq-07": "「在教育制度中處於較高年級／較高學習階段的學生」是「senior student/pupil」的用法，與本句語境不同。",
-        "senior-mcq-04": "「在職級、資歷或組織地位上高於某人」是「senior to someone — rank」的用法，與本句語境不同。",
-        "senior-mcq-08": "「美式教育制度中高中或大學本科階段的最後一年」是「senior year」的用法，與本句語境不同。",
-        "senior-mcq-03": "「在某個專業領域中經驗、地位或責任較高的；資深的」是「senior — professionally experienced」的用法，與本句語境不同。"
+        "senior-mcq-06": "本句的「senior」指「年齡比某人較大的人」。",
+        "senior-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-06"
     },
@@ -881,11 +809,8 @@ export default {
       "masked": "She teaches ____.",
       "options": [
         "senior-mcq-07",
-        "senior-mcq-06",
-        "senior-mcq-08",
-        "senior-mcq-05",
-        "senior-mcq-09",
-        "senior-mcq-04"
+        "senior-mcq-12",
+        "senior-mcq-10"
       ],
       "explanation": "本句的「senior students」指「在教育制度中處於較高年級／較高學習階段的學生」。",
       "sentenceIndex": 13,
@@ -894,12 +819,9 @@ export default {
         "senior students"
       ],
       "optionReasons": {
-        "senior-mcq-07": "本句指「在教育制度中處於較高年級／較高學習階段的學生」。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。",
-        "senior-mcq-08": "「美式教育制度中高中或大學本科階段的最後一年」是「senior year」的用法，與本句語境不同。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。",
-        "senior-mcq-09": "「美國高中／大學最後一年級的學生」是「a senior — student」的用法，與本句語境不同。",
-        "senior-mcq-04": "「在職級、資歷或組織地位上高於某人」是「senior to someone — rank」的用法，與本句語境不同。"
+        "senior-mcq-07": "本句的「senior students」指「在教育制度中處於較高年級／較高學習階段的學生」。",
+        "senior-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-07"
     },
@@ -911,11 +833,8 @@ export default {
       "masked": "The school offers advanced courses for ____.",
       "options": [
         "senior-mcq-07",
-        "senior-mcq-06",
-        "senior-mcq-08",
-        "senior-mcq-05",
-        "senior-mcq-09",
-        "senior-mcq-04"
+        "senior-mcq-12",
+        "senior-mcq-10"
       ],
       "explanation": "本句的「senior pupils」指「在教育制度中處於較高年級／較高學習階段的學生」。",
       "sentenceIndex": 14,
@@ -924,12 +843,9 @@ export default {
         "senior pupils"
       ],
       "optionReasons": {
-        "senior-mcq-07": "本句指「在教育制度中處於較高年級／較高學習階段的學生」。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。",
-        "senior-mcq-08": "「美式教育制度中高中或大學本科階段的最後一年」是「senior year」的用法，與本句語境不同。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。",
-        "senior-mcq-09": "「美國高中／大學最後一年級的學生」是「a senior — student」的用法，與本句語境不同。",
-        "senior-mcq-04": "「在職級、資歷或組織地位上高於某人」是「senior to someone — rank」的用法，與本句語境不同。"
+        "senior-mcq-07": "本句的「senior pupils」指「在教育制度中處於較高年級／較高學習階段的學生」。",
+        "senior-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-07"
     },
@@ -941,11 +857,9 @@ export default {
       "masked": "She is in her ____ of college.",
       "options": [
         "senior-mcq-08",
-        "senior-mcq-07",
-        "senior-mcq-09",
-        "senior-mcq-06",
-        "senior-mcq-10",
-        "senior-mcq-05"
+        "senior-mcq-12",
+        "senior-mcq-15",
+        "senior-mcq-10"
       ],
       "explanation": "本句的「senior year」指「美式教育制度中高中或大學本科階段的最後一年」。",
       "sentenceIndex": 15,
@@ -954,12 +868,10 @@ export default {
         "senior year"
       ],
       "optionReasons": {
-        "senior-mcq-08": "本句指「美式教育制度中高中或大學本科階段的最後一年」。",
-        "senior-mcq-07": "「在教育制度中處於較高年級／較高學習階段的學生」是「senior student/pupil」的用法，與本句語境不同。",
-        "senior-mcq-09": "「美國高中／大學最後一年級的學生」是「a senior — student」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。",
-        "senior-mcq-10": "「年紀較大、通常已達退休年齡或被視為長者的人」是「senior citizen」的用法，與本句語境不同。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。"
+        "senior-mcq-08": "本句的「senior year」指「美式教育制度中高中或大學本科階段的最後一年」。",
+        "senior-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-08"
     },
@@ -971,11 +883,9 @@ export default {
       "masked": "He started applying for jobs during his ____.",
       "options": [
         "senior-mcq-08",
-        "senior-mcq-07",
-        "senior-mcq-09",
-        "senior-mcq-06",
-        "senior-mcq-10",
-        "senior-mcq-05"
+        "senior-mcq-12",
+        "senior-mcq-03",
+        "senior-mcq-10"
       ],
       "explanation": "本句的「senior year」指「美式教育制度中高中或大學本科階段的最後一年」。",
       "sentenceIndex": 16,
@@ -984,12 +894,10 @@ export default {
         "senior year"
       ],
       "optionReasons": {
-        "senior-mcq-08": "本句指「美式教育制度中高中或大學本科階段的最後一年」。",
-        "senior-mcq-07": "「在教育制度中處於較高年級／較高學習階段的學生」是「senior student/pupil」的用法，與本句語境不同。",
-        "senior-mcq-09": "「美國高中／大學最後一年級的學生」是「a senior — student」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。",
-        "senior-mcq-10": "「年紀較大、通常已達退休年齡或被視為長者的人」是「senior citizen」的用法，與本句語境不同。",
-        "senior-mcq-05": "「年齡相對較大、較年長的」是「senior — age」的用法，與本句語境不同。"
+        "senior-mcq-08": "本句的「senior year」指「美式教育制度中高中或大學本科階段的最後一年」。",
+        "senior-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-08"
     },
@@ -1001,11 +909,9 @@ export default {
       "masked": "She is a ____ in high school.",
       "options": [
         "senior-mcq-09",
-        "senior-mcq-08",
-        "senior-mcq-10",
-        "senior-mcq-07",
-        "senior-mcq-11",
-        "senior-mcq-06"
+        "senior-mcq-12",
+        "senior-mcq-18",
+        "senior-mcq-10"
       ],
       "explanation": "本句的「senior」指「美國高中／大學最後一年級的學生」。",
       "sentenceIndex": 17,
@@ -1014,12 +920,10 @@ export default {
         "senior"
       ],
       "optionReasons": {
-        "senior-mcq-09": "本句指「美國高中／大學最後一年級的學生」。",
-        "senior-mcq-08": "「美式教育制度中高中或大學本科階段的最後一年」是「senior year」的用法，與本句語境不同。",
-        "senior-mcq-10": "「年紀較大、通常已達退休年齡或被視為長者的人」是「senior citizen」的用法，與本句語境不同。",
-        "senior-mcq-07": "「在教育制度中處於較高年級／較高學習階段的學生」是「senior student/pupil」的用法，與本句語境不同。",
-        "senior-mcq-11": "「比青年／少年級別更高、通常指成人主要競賽層級」是「senior level — sport」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。"
+        "senior-mcq-09": "本句的「senior」指「美國高中／大學最後一年級的學生」。",
+        "senior-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-09"
     },
@@ -1031,11 +935,9 @@ export default {
       "masked": "Most ____ are preparing for graduation.",
       "options": [
         "senior-mcq-09",
-        "senior-mcq-08",
-        "senior-mcq-10",
-        "senior-mcq-07",
-        "senior-mcq-11",
-        "senior-mcq-06"
+        "senior-mcq-12",
+        "senior-mcq-18",
+        "senior-mcq-10"
       ],
       "explanation": "本句的「seniors」指「美國高中／大學最後一年級的學生」。",
       "sentenceIndex": 18,
@@ -1044,12 +946,10 @@ export default {
         "seniors"
       ],
       "optionReasons": {
-        "senior-mcq-09": "本句指「美國高中／大學最後一年級的學生」。",
-        "senior-mcq-08": "「美式教育制度中高中或大學本科階段的最後一年」是「senior year」的用法，與本句語境不同。",
-        "senior-mcq-10": "「年紀較大、通常已達退休年齡或被視為長者的人」是「senior citizen」的用法，與本句語境不同。",
-        "senior-mcq-07": "「在教育制度中處於較高年級／較高學習階段的學生」是「senior student/pupil」的用法，與本句語境不同。",
-        "senior-mcq-11": "「比青年／少年級別更高、通常指成人主要競賽層級」是「senior level — sport」的用法，與本句語境不同。",
-        "senior-mcq-06": "「年齡比某人較大的人」是「someone’s senior」的用法，與本句語境不同。"
+        "senior-mcq-09": "本句的「seniors」指「美國高中／大學最後一年級的學生」。",
+        "senior-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-09"
     },
@@ -1061,11 +961,9 @@ export default {
       "masked": "The museum offers discounts for ____.",
       "options": [
         "senior-mcq-10",
-        "senior-mcq-09",
-        "senior-mcq-11",
-        "senior-mcq-08",
         "senior-mcq-12",
-        "senior-mcq-07"
+        "senior-mcq-18",
+        "senior-mcq-08"
       ],
       "explanation": "本句的「senior citizens」指「年紀較大、通常已達退休年齡或被視為長者的人」。",
       "sentenceIndex": 19,
@@ -1074,12 +972,10 @@ export default {
         "senior citizens"
       ],
       "optionReasons": {
-        "senior-mcq-10": "本句指「年紀較大、通常已達退休年齡或被視為長者的人」。",
-        "senior-mcq-09": "「美國高中／大學最後一年級的學生」是「a senior — student」的用法，與本句語境不同。",
-        "senior-mcq-11": "「比青年／少年級別更高、通常指成人主要競賽層級」是「senior level — sport」的用法，與本句語境不同。",
-        "senior-mcq-08": "「美式教育制度中高中或大學本科階段的最後一年」是「senior year」的用法，與本句語境不同。",
-        "senior-mcq-12": "「某球會／組織中的主要成人競賽隊伍」是「senior team」的用法，與本句語境不同。",
-        "senior-mcq-07": "「在教育制度中處於較高年級／較高學習階段的學生」是「senior student/pupil」的用法，與本句語境不同。"
+        "senior-mcq-10": "本句的「senior citizens」指「年紀較大、通常已達退休年齡或被視為長者的人」。",
+        "senior-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-10"
     },
@@ -1091,11 +987,9 @@ export default {
       "masked": "The programme provides transport for ____.",
       "options": [
         "senior-mcq-10",
-        "senior-mcq-09",
-        "senior-mcq-11",
-        "senior-mcq-08",
-        "senior-mcq-12",
-        "senior-mcq-07"
+        "senior-mcq-04",
+        "senior-mcq-18",
+        "senior-mcq-09"
       ],
       "explanation": "本句的「senior citizens」指「年紀較大、通常已達退休年齡或被視為長者的人」。",
       "sentenceIndex": 20,
@@ -1104,12 +998,10 @@ export default {
         "senior citizens"
       ],
       "optionReasons": {
-        "senior-mcq-10": "本句指「年紀較大、通常已達退休年齡或被視為長者的人」。",
-        "senior-mcq-09": "「美國高中／大學最後一年級的學生」是「a senior — student」的用法，與本句語境不同。",
-        "senior-mcq-11": "「比青年／少年級別更高、通常指成人主要競賽層級」是「senior level — sport」的用法，與本句語境不同。",
-        "senior-mcq-08": "「美式教育制度中高中或大學本科階段的最後一年」是「senior year」的用法，與本句語境不同。",
-        "senior-mcq-12": "「某球會／組織中的主要成人競賽隊伍」是「senior team」的用法，與本句語境不同。",
-        "senior-mcq-07": "「在教育制度中處於較高年級／較高學習階段的學生」是「senior student/pupil」的用法，與本句語境不同。"
+        "senior-mcq-10": "本句的「senior citizens」指「年紀較大、通常已達退休年齡或被視為長者的人」。",
+        "senior-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-10"
     },
@@ -1121,11 +1013,9 @@ export default {
       "masked": "She now competes at ____.",
       "options": [
         "senior-mcq-11",
-        "senior-mcq-10",
-        "senior-mcq-12",
-        "senior-mcq-09",
-        "senior-mcq-13",
-        "senior-mcq-08"
+        "senior-mcq-03",
+        "senior-mcq-05",
+        "senior-mcq-14"
       ],
       "explanation": "本句的「senior level」指「比青年／少年級別更高、通常指成人主要競賽層級」。",
       "sentenceIndex": 21,
@@ -1134,12 +1024,10 @@ export default {
         "senior level"
       ],
       "optionReasons": {
-        "senior-mcq-11": "本句指「比青年／少年級別更高、通常指成人主要競賽層級」。",
-        "senior-mcq-10": "「年紀較大、通常已達退休年齡或被視為長者的人」是「senior citizen」的用法，與本句語境不同。",
-        "senior-mcq-12": "「某球會／組織中的主要成人競賽隊伍」是「senior team」的用法，與本句語境不同。",
-        "senior-mcq-09": "「美國高中／大學最後一年級的學生」是「a senior — student」的用法，與本句語境不同。",
-        "senior-mcq-13": "「在組織、專業或管理架構中較高的層級」是「senior level — organization」的用法，與本句語境不同。",
-        "senior-mcq-08": "「美式教育制度中高中或大學本科階段的最後一年」是「senior year」的用法，與本句語境不同。"
+        "senior-mcq-11": "本句的「senior level」指「比青年／少年級別更高、通常指成人主要競賽層級」。",
+        "senior-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-11"
     },
@@ -1151,11 +1039,9 @@ export default {
       "masked": "He made his debut for the ____.",
       "options": [
         "senior-mcq-11",
-        "senior-mcq-10",
-        "senior-mcq-12",
-        "senior-mcq-09",
-        "senior-mcq-13",
-        "senior-mcq-08"
+        "senior-mcq-14",
+        "senior-mcq-05",
+        "senior-mcq-03"
       ],
       "explanation": "本句的「senior team」指「比青年／少年級別更高、通常指成人主要競賽層級」。",
       "sentenceIndex": 22,
@@ -1164,12 +1050,10 @@ export default {
         "senior team"
       ],
       "optionReasons": {
-        "senior-mcq-11": "本句指「比青年／少年級別更高、通常指成人主要競賽層級」。",
-        "senior-mcq-10": "「年紀較大、通常已達退休年齡或被視為長者的人」是「senior citizen」的用法，與本句語境不同。",
-        "senior-mcq-12": "「某球會／組織中的主要成人競賽隊伍」是「senior team」的用法，與本句語境不同。",
-        "senior-mcq-09": "「美國高中／大學最後一年級的學生」是「a senior — student」的用法，與本句語境不同。",
-        "senior-mcq-13": "「在組織、專業或管理架構中較高的層級」是「senior level — organization」的用法，與本句語境不同。",
-        "senior-mcq-08": "「美式教育制度中高中或大學本科階段的最後一年」是「senior year」的用法，與本句語境不同。"
+        "senior-mcq-11": "本句的「senior team」指「比青年／少年級別更高、通常指成人主要競賽層級」。",
+        "senior-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-11"
     },
@@ -1181,11 +1065,9 @@ export default {
       "masked": "She was promoted from the youth team to the ____.",
       "options": [
         "senior-mcq-12",
-        "senior-mcq-11",
-        "senior-mcq-13",
+        "senior-mcq-08",
         "senior-mcq-10",
-        "senior-mcq-14",
-        "senior-mcq-09"
+        "senior-mcq-03"
       ],
       "explanation": "本句的「senior team」指「某球會／組織中的主要成人競賽隊伍」。",
       "sentenceIndex": 23,
@@ -1194,12 +1076,10 @@ export default {
         "senior team"
       ],
       "optionReasons": {
-        "senior-mcq-12": "本句指「某球會／組織中的主要成人競賽隊伍」。",
-        "senior-mcq-11": "「比青年／少年級別更高、通常指成人主要競賽層級」是「senior level — sport」的用法，與本句語境不同。",
-        "senior-mcq-13": "「在組織、專業或管理架構中較高的層級」是「senior level — organization」的用法，與本句語境不同。",
-        "senior-mcq-10": "「年紀較大、通常已達退休年齡或被視為長者的人」是「senior citizen」的用法，與本句語境不同。",
-        "senior-mcq-14": "「某人在機構中服務的年期及由此產生的年資」是「seniority — length of service」的用法，與本句語境不同。",
-        "senior-mcq-09": "「美國高中／大學最後一年級的學生」是「a senior — student」的用法，與本句語境不同。"
+        "senior-mcq-12": "本句的「senior team」指「某球會／組織中的主要成人競賽隊伍」。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-12"
     },
@@ -1211,11 +1091,8 @@ export default {
       "masked": "He has played ten matches for the ____.",
       "options": [
         "senior-mcq-12",
-        "senior-mcq-11",
-        "senior-mcq-13",
-        "senior-mcq-10",
-        "senior-mcq-14",
-        "senior-mcq-09"
+        "senior-mcq-05",
+        "senior-mcq-03"
       ],
       "explanation": "本句的「senior team」指「某球會／組織中的主要成人競賽隊伍」。",
       "sentenceIndex": 24,
@@ -1224,12 +1101,9 @@ export default {
         "senior team"
       ],
       "optionReasons": {
-        "senior-mcq-12": "本句指「某球會／組織中的主要成人競賽隊伍」。",
-        "senior-mcq-11": "「比青年／少年級別更高、通常指成人主要競賽層級」是「senior level — sport」的用法，與本句語境不同。",
-        "senior-mcq-13": "「在組織、專業或管理架構中較高的層級」是「senior level — organization」的用法，與本句語境不同。",
-        "senior-mcq-10": "「年紀較大、通常已達退休年齡或被視為長者的人」是「senior citizen」的用法，與本句語境不同。",
-        "senior-mcq-14": "「某人在機構中服務的年期及由此產生的年資」是「seniority — length of service」的用法，與本句語境不同。",
-        "senior-mcq-09": "「美國高中／大學最後一年級的學生」是「a senior — student」的用法，與本句語境不同。"
+        "senior-mcq-12": "本句的「senior team」指「某球會／組織中的主要成人競賽隊伍」。",
+        "senior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-12"
     },
@@ -1241,10 +1115,7 @@ export default {
       "masked": "She has experience working at a ____.",
       "options": [
         "senior-mcq-13",
-        "senior-mcq-12",
-        "senior-mcq-14",
-        "senior-mcq-11",
-        "senior-mcq-15",
+        "senior-mcq-08",
         "senior-mcq-10"
       ],
       "explanation": "本句的「senior level」指「在組織、專業或管理架構中較高的層級」。",
@@ -1254,12 +1125,9 @@ export default {
         "senior level"
       ],
       "optionReasons": {
-        "senior-mcq-13": "本句指「在組織、專業或管理架構中較高的層級」。",
-        "senior-mcq-12": "「某球會／組織中的主要成人競賽隊伍」是「senior team」的用法，與本句語境不同。",
-        "senior-mcq-14": "「某人在機構中服務的年期及由此產生的年資」是「seniority — length of service」的用法，與本句語境不同。",
-        "senior-mcq-11": "「比青年／少年級別更高、通常指成人主要競賽層級」是「senior level — sport」的用法，與本句語境不同。",
-        "senior-mcq-15": "「因較高職位或較長資歷而具有的優先地位」是「seniority — rank/precedence」的用法，與本句語境不同。",
-        "senior-mcq-10": "「年紀較大、通常已達退休年齡或被視為長者的人」是「senior citizen」的用法，與本句語境不同。"
+        "senior-mcq-13": "本句的「senior level」指「在組織、專業或管理架構中較高的層級」。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-13"
     },
@@ -1271,10 +1139,7 @@ export default {
       "masked": "The issue requires discussion at ____.",
       "options": [
         "senior-mcq-13",
-        "senior-mcq-12",
-        "senior-mcq-14",
-        "senior-mcq-11",
-        "senior-mcq-15",
+        "senior-mcq-08",
         "senior-mcq-10"
       ],
       "explanation": "本句的「senior level」指「在組織、專業或管理架構中較高的層級」。",
@@ -1284,12 +1149,9 @@ export default {
         "senior level"
       ],
       "optionReasons": {
-        "senior-mcq-13": "本句指「在組織、專業或管理架構中較高的層級」。",
-        "senior-mcq-12": "「某球會／組織中的主要成人競賽隊伍」是「senior team」的用法，與本句語境不同。",
-        "senior-mcq-14": "「某人在機構中服務的年期及由此產生的年資」是「seniority — length of service」的用法，與本句語境不同。",
-        "senior-mcq-11": "「比青年／少年級別更高、通常指成人主要競賽層級」是「senior level — sport」的用法，與本句語境不同。",
-        "senior-mcq-15": "「因較高職位或較長資歷而具有的優先地位」是「seniority — rank/precedence」的用法，與本句語境不同。",
-        "senior-mcq-10": "「年紀較大、通常已達退休年齡或被視為長者的人」是「senior citizen」的用法，與本句語境不同。"
+        "senior-mcq-13": "本句的「senior level」指「在組織、專業或管理架構中較高的層級」。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-13"
     },
@@ -1301,10 +1163,8 @@ export default {
       "masked": "Promotion is partly based on ____.",
       "options": [
         "senior-mcq-14",
-        "senior-mcq-13",
-        "senior-mcq-15",
-        "senior-mcq-12",
-        "senior-mcq-16",
+        "senior-mcq-18",
+        "senior-mcq-05",
         "senior-mcq-11"
       ],
       "explanation": "本句的「seniority」指「某人在機構中服務的年期及由此產生的年資」。",
@@ -1314,12 +1174,10 @@ export default {
         "seniority"
       ],
       "optionReasons": {
-        "senior-mcq-14": "本句指「某人在機構中服務的年期及由此產生的年資」。",
-        "senior-mcq-13": "「在組織、專業或管理架構中較高的層級」是「senior level — organization」的用法，與本句語境不同。",
-        "senior-mcq-15": "「因較高職位或較長資歷而具有的優先地位」是「seniority — rank/precedence」的用法，與本句語境不同。",
-        "senior-mcq-12": "「某球會／組織中的主要成人競賽隊伍」是「senior team」的用法，與本句語境不同。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。",
-        "senior-mcq-11": "「比青年／少年級別更高、通常指成人主要競賽層級」是「senior level — sport」的用法，與本句語境不同。"
+        "senior-mcq-14": "本句的「seniority」指「某人在機構中服務的年期及由此產生的年資」。",
+        "senior-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-14"
     },
@@ -1331,10 +1189,8 @@ export default {
       "masked": "She has greater ____ than most members of the team.",
       "options": [
         "senior-mcq-14",
-        "senior-mcq-13",
-        "senior-mcq-15",
-        "senior-mcq-12",
-        "senior-mcq-16",
+        "senior-mcq-18",
+        "senior-mcq-08",
         "senior-mcq-11"
       ],
       "explanation": "本句的「seniority」指「某人在機構中服務的年期及由此產生的年資」。",
@@ -1344,12 +1200,10 @@ export default {
         "seniority"
       ],
       "optionReasons": {
-        "senior-mcq-14": "本句指「某人在機構中服務的年期及由此產生的年資」。",
-        "senior-mcq-13": "「在組織、專業或管理架構中較高的層級」是「senior level — organization」的用法，與本句語境不同。",
-        "senior-mcq-15": "「因較高職位或較長資歷而具有的優先地位」是「seniority — rank/precedence」的用法，與本句語境不同。",
-        "senior-mcq-12": "「某球會／組織中的主要成人競賽隊伍」是「senior team」的用法，與本句語境不同。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。",
-        "senior-mcq-11": "「比青年／少年級別更高、通常指成人主要競賽層級」是「senior level — sport」的用法，與本句語境不同。"
+        "senior-mcq-14": "本句的「seniority」指「某人在機構中服務的年期及由此產生的年資」。",
+        "senior-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-14"
     },
@@ -1361,10 +1215,8 @@ export default {
       "masked": "Employees with more ____ can choose their holidays first.",
       "options": [
         "senior-mcq-14",
-        "senior-mcq-13",
-        "senior-mcq-15",
-        "senior-mcq-12",
-        "senior-mcq-16",
+        "senior-mcq-18",
+        "senior-mcq-05",
         "senior-mcq-11"
       ],
       "explanation": "本句的「seniority」指「某人在機構中服務的年期及由此產生的年資」。",
@@ -1374,12 +1226,10 @@ export default {
         "seniority"
       ],
       "optionReasons": {
-        "senior-mcq-14": "本句指「某人在機構中服務的年期及由此產生的年資」。",
-        "senior-mcq-13": "「在組織、專業或管理架構中較高的層級」是「senior level — organization」的用法，與本句語境不同。",
-        "senior-mcq-15": "「因較高職位或較長資歷而具有的優先地位」是「seniority — rank/precedence」的用法，與本句語境不同。",
-        "senior-mcq-12": "「某球會／組織中的主要成人競賽隊伍」是「senior team」的用法，與本句語境不同。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。",
-        "senior-mcq-11": "「比青年／少年級別更高、通常指成人主要競賽層級」是「senior level — sport」的用法，與本句語境不同。"
+        "senior-mcq-14": "本句的「seniority」指「某人在機構中服務的年期及由此產生的年資」。",
+        "senior-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-14"
     },
@@ -1391,10 +1241,8 @@ export default {
       "masked": "His pay reflects his years of ____.",
       "options": [
         "senior-mcq-14",
-        "senior-mcq-13",
-        "senior-mcq-15",
-        "senior-mcq-12",
-        "senior-mcq-16",
+        "senior-mcq-18",
+        "senior-mcq-08",
         "senior-mcq-11"
       ],
       "explanation": "本句的「seniority」指「某人在機構中服務的年期及由此產生的年資」。",
@@ -1404,12 +1252,10 @@ export default {
         "seniority"
       ],
       "optionReasons": {
-        "senior-mcq-14": "本句指「某人在機構中服務的年期及由此產生的年資」。",
-        "senior-mcq-13": "「在組織、專業或管理架構中較高的層級」是「senior level — organization」的用法，與本句語境不同。",
-        "senior-mcq-15": "「因較高職位或較長資歷而具有的優先地位」是「seniority — rank/precedence」的用法，與本句語境不同。",
-        "senior-mcq-12": "「某球會／組織中的主要成人競賽隊伍」是「senior team」的用法，與本句語境不同。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。",
-        "senior-mcq-11": "「比青年／少年級別更高、通常指成人主要競賽層級」是「senior level — sport」的用法，與本句語境不同。"
+        "senior-mcq-14": "本句的「seniority」指「某人在機構中服務的年期及由此產生的年資」。",
+        "senior-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-14"
     },
@@ -1421,11 +1267,9 @@ export default {
       "masked": "Decisions are sometimes influenced by ____.",
       "options": [
         "senior-mcq-15",
-        "senior-mcq-14",
-        "senior-mcq-16",
-        "senior-mcq-13",
-        "senior-mcq-17",
-        "senior-mcq-12"
+        "senior-mcq-12",
+        "senior-mcq-09",
+        "senior-mcq-10"
       ],
       "explanation": "本句的「seniority」指「因較高職位或較長資歷而具有的優先地位」。",
       "sentenceIndex": 31,
@@ -1434,12 +1278,10 @@ export default {
         "seniority"
       ],
       "optionReasons": {
-        "senior-mcq-15": "本句指「因較高職位或較長資歷而具有的優先地位」。",
-        "senior-mcq-14": "「某人在機構中服務的年期及由此產生的年資」是「seniority — length of service」的用法，與本句語境不同。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。",
-        "senior-mcq-13": "「在組織、專業或管理架構中較高的層級」是「senior level — organization」的用法，與本句語境不同。",
-        "senior-mcq-17": "「在專業合夥機構中地位、資歷或責任較高的合夥人」是「senior partner」的用法，與本句語境不同。",
-        "senior-mcq-12": "「某球會／組織中的主要成人競賽隊伍」是「senior team」的用法，與本句語境不同。"
+        "senior-mcq-15": "本句的「seniority」指「因較高職位或較長資歷而具有的優先地位」。",
+        "senior-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-15"
     },
@@ -1451,11 +1293,9 @@ export default {
       "masked": "She has ____ the other managers.",
       "options": [
         "senior-mcq-15",
-        "senior-mcq-14",
-        "senior-mcq-16",
-        "senior-mcq-13",
-        "senior-mcq-17",
-        "senior-mcq-12"
+        "senior-mcq-12",
+        "senior-mcq-08",
+        "senior-mcq-10"
       ],
       "explanation": "本句的「seniority over」指「因較高職位或較長資歷而具有的優先地位」。",
       "sentenceIndex": 32,
@@ -1464,12 +1304,10 @@ export default {
         "seniority over"
       ],
       "optionReasons": {
-        "senior-mcq-15": "本句指「因較高職位或較長資歷而具有的優先地位」。",
-        "senior-mcq-14": "「某人在機構中服務的年期及由此產生的年資」是「seniority — length of service」的用法，與本句語境不同。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。",
-        "senior-mcq-13": "「在組織、專業或管理架構中較高的層級」是「senior level — organization」的用法，與本句語境不同。",
-        "senior-mcq-17": "「在專業合夥機構中地位、資歷或責任較高的合夥人」是「senior partner」的用法，與本句語境不同。",
-        "senior-mcq-12": "「某球會／組織中的主要成人競賽隊伍」是「senior team」的用法，與本句語境不同。"
+        "senior-mcq-15": "本句的「seniority over」指「因較高職位或較長資歷而具有的優先地位」。",
+        "senior-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-15"
     },
@@ -1481,11 +1319,8 @@ export default {
       "masked": "She is one of the ____ of the team.",
       "options": [
         "senior-mcq-16",
-        "senior-mcq-15",
-        "senior-mcq-17",
-        "senior-mcq-14",
-        "senior-mcq-18",
-        "senior-mcq-13"
+        "senior-mcq-08",
+        "senior-mcq-10"
       ],
       "explanation": "本句的「senior members」指「視語境指較資深／較高地位，或較年長的成員」。",
       "sentenceIndex": 33,
@@ -1494,12 +1329,9 @@ export default {
         "senior members"
       ],
       "optionReasons": {
-        "senior-mcq-16": "本句指「視語境指較資深／較高地位，或較年長的成員」。",
-        "senior-mcq-15": "「因較高職位或較長資歷而具有的優先地位」是「seniority — rank/precedence」的用法，與本句語境不同。",
-        "senior-mcq-17": "「在專業合夥機構中地位、資歷或責任較高的合夥人」是「senior partner」的用法，與本句語境不同。",
-        "senior-mcq-14": "「某人在機構中服務的年期及由此產生的年資」是「seniority — length of service」的用法，與本句語境不同。",
-        "senior-mcq-18": "「在企業中擁有較高管理和決策責任的高層主管」是「senior executive」的用法，與本句語境不同。",
-        "senior-mcq-13": "「在組織、專業或管理架構中較高的層級」是「senior level — organization」的用法，與本句語境不同。"
+        "senior-mcq-16": "本句的「senior members」指「視語境指較資深／較高地位，或較年長的成員」。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-16"
     },
@@ -1511,11 +1343,8 @@ export default {
       "masked": "The club provides support for its ____.",
       "options": [
         "senior-mcq-16",
-        "senior-mcq-15",
-        "senior-mcq-17",
-        "senior-mcq-14",
-        "senior-mcq-18",
-        "senior-mcq-13"
+        "senior-mcq-09",
+        "senior-mcq-10"
       ],
       "explanation": "本句的「senior members」指「視語境指較資深／較高地位，或較年長的成員」。",
       "sentenceIndex": 34,
@@ -1524,12 +1353,9 @@ export default {
         "senior members"
       ],
       "optionReasons": {
-        "senior-mcq-16": "本句指「視語境指較資深／較高地位，或較年長的成員」。",
-        "senior-mcq-15": "「因較高職位或較長資歷而具有的優先地位」是「seniority — rank/precedence」的用法，與本句語境不同。",
-        "senior-mcq-17": "「在專業合夥機構中地位、資歷或責任較高的合夥人」是「senior partner」的用法，與本句語境不同。",
-        "senior-mcq-14": "「某人在機構中服務的年期及由此產生的年資」是「seniority — length of service」的用法，與本句語境不同。",
-        "senior-mcq-18": "「在企業中擁有較高管理和決策責任的高層主管」是「senior executive」的用法，與本句語境不同。",
-        "senior-mcq-13": "「在組織、專業或管理架構中較高的層級」是「senior level — organization」的用法，與本句語境不同。"
+        "senior-mcq-16": "本句的「senior members」指「視語境指較資深／較高地位，或較年長的成員」。",
+        "senior-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-16"
     },
@@ -1541,11 +1367,8 @@ export default {
       "masked": "The case was reviewed by a ____.",
       "options": [
         "senior-mcq-17",
-        "senior-mcq-16",
-        "senior-mcq-18",
-        "senior-mcq-15",
-        "senior-mcq-19",
-        "senior-mcq-14"
+        "senior-mcq-05",
+        "senior-mcq-11"
       ],
       "explanation": "本句的「senior partner」指「在專業合夥機構中地位、資歷或責任較高的合夥人」。",
       "sentenceIndex": 35,
@@ -1554,12 +1377,9 @@ export default {
         "senior partner"
       ],
       "optionReasons": {
-        "senior-mcq-17": "本句指「在專業合夥機構中地位、資歷或責任較高的合夥人」。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。",
-        "senior-mcq-18": "「在企業中擁有較高管理和決策責任的高層主管」是「senior executive」的用法，與本句語境不同。",
-        "senior-mcq-15": "「因較高職位或較長資歷而具有的優先地位」是「seniority — rank/precedence」的用法，與本句語境不同。",
-        "senior-mcq-19": "「機構中較高／最高層級的領導及決策人員」是「senior leadership」的用法，與本句語境不同。",
-        "senior-mcq-14": "「某人在機構中服務的年期及由此產生的年資」是「seniority — length of service」的用法，與本句語境不同。"
+        "senior-mcq-17": "本句的「senior partner」指「在專業合夥機構中地位、資歷或責任較高的合夥人」。",
+        "senior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-17"
     },
@@ -1571,11 +1391,8 @@ export default {
       "masked": "She became a ____ at the firm.",
       "options": [
         "senior-mcq-17",
-        "senior-mcq-16",
-        "senior-mcq-18",
-        "senior-mcq-15",
-        "senior-mcq-19",
-        "senior-mcq-14"
+        "senior-mcq-09",
+        "senior-mcq-10"
       ],
       "explanation": "本句的「senior partner」指「在專業合夥機構中地位、資歷或責任較高的合夥人」。",
       "sentenceIndex": 36,
@@ -1584,12 +1401,9 @@ export default {
         "senior partner"
       ],
       "optionReasons": {
-        "senior-mcq-17": "本句指「在專業合夥機構中地位、資歷或責任較高的合夥人」。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。",
-        "senior-mcq-18": "「在企業中擁有較高管理和決策責任的高層主管」是「senior executive」的用法，與本句語境不同。",
-        "senior-mcq-15": "「因較高職位或較長資歷而具有的優先地位」是「seniority — rank/precedence」的用法，與本句語境不同。",
-        "senior-mcq-19": "「機構中較高／最高層級的領導及決策人員」是「senior leadership」的用法，與本句語境不同。",
-        "senior-mcq-14": "「某人在機構中服務的年期及由此產生的年資」是「seniority — length of service」的用法，與本句語境不同。"
+        "senior-mcq-17": "本句的「senior partner」指「在專業合夥機構中地位、資歷或責任較高的合夥人」。",
+        "senior-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-17"
     },
@@ -1601,11 +1415,9 @@ export default {
       "masked": "Several ____ attended the presentation.",
       "options": [
         "senior-mcq-18",
-        "senior-mcq-17",
-        "senior-mcq-19",
-        "senior-mcq-16",
-        "senior-mcq-20",
-        "senior-mcq-15"
+        "senior-mcq-14",
+        "senior-mcq-09",
+        "senior-mcq-10"
       ],
       "explanation": "本句的「senior executives」指「在企業中擁有較高管理和決策責任的高層主管」。",
       "sentenceIndex": 37,
@@ -1614,12 +1426,10 @@ export default {
         "senior executives"
       ],
       "optionReasons": {
-        "senior-mcq-18": "本句指「在企業中擁有較高管理和決策責任的高層主管」。",
-        "senior-mcq-17": "「在專業合夥機構中地位、資歷或責任較高的合夥人」是「senior partner」的用法，與本句語境不同。",
-        "senior-mcq-19": "「機構中較高／最高層級的領導及決策人員」是「senior leadership」的用法，與本句語境不同。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。",
-        "senior-mcq-20": "「在組織中擁有較大責任、影響力或決策權的高階職位」是「senior role」的用法，與本句語境不同。",
-        "senior-mcq-15": "「因較高職位或較長資歷而具有的優先地位」是「seniority — rank/precedence」的用法，與本句語境不同。"
+        "senior-mcq-18": "本句的「senior executives」指「在企業中擁有較高管理和決策責任的高層主管」。",
+        "senior-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-18"
     },
@@ -1631,11 +1441,9 @@ export default {
       "masked": "The proposal was reviewed by ____.",
       "options": [
         "senior-mcq-18",
-        "senior-mcq-17",
-        "senior-mcq-19",
-        "senior-mcq-16",
-        "senior-mcq-20",
-        "senior-mcq-15"
+        "senior-mcq-14",
+        "senior-mcq-05",
+        "senior-mcq-11"
       ],
       "explanation": "本句的「senior executives」指「在企業中擁有較高管理和決策責任的高層主管」。",
       "sentenceIndex": 38,
@@ -1644,12 +1452,10 @@ export default {
         "senior executives"
       ],
       "optionReasons": {
-        "senior-mcq-18": "本句指「在企業中擁有較高管理和決策責任的高層主管」。",
-        "senior-mcq-17": "「在專業合夥機構中地位、資歷或責任較高的合夥人」是「senior partner」的用法，與本句語境不同。",
-        "senior-mcq-19": "「機構中較高／最高層級的領導及決策人員」是「senior leadership」的用法，與本句語境不同。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。",
-        "senior-mcq-20": "「在組織中擁有較大責任、影響力或決策權的高階職位」是「senior role」的用法，與本句語境不同。",
-        "senior-mcq-15": "「因較高職位或較長資歷而具有的優先地位」是「seniority — rank/precedence」的用法，與本句語境不同。"
+        "senior-mcq-18": "本句的「senior executives」指「在企業中擁有較高管理和決策責任的高層主管」。",
+        "senior-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-18"
     },
@@ -1661,11 +1467,8 @@ export default {
       "masked": "The issue has been raised with ____.",
       "options": [
         "senior-mcq-19",
-        "senior-mcq-18",
-        "senior-mcq-20",
-        "senior-mcq-17",
-        "senior-mcq-21",
-        "senior-mcq-16"
+        "senior-mcq-10",
+        "senior-mcq-08"
       ],
       "explanation": "本句的「senior leadership」指「機構中較高／最高層級的領導及決策人員」。",
       "sentenceIndex": 39,
@@ -1674,12 +1477,9 @@ export default {
         "senior leadership"
       ],
       "optionReasons": {
-        "senior-mcq-19": "本句指「機構中較高／最高層級的領導及決策人員」。",
-        "senior-mcq-18": "「在企業中擁有較高管理和決策責任的高層主管」是「senior executive」的用法，與本句語境不同。",
-        "senior-mcq-20": "「在組織中擁有較大責任、影響力或決策權的高階職位」是「senior role」的用法，與本句語境不同。",
-        "senior-mcq-17": "「在專業合夥機構中地位、資歷或責任較高的合夥人」是「senior partner」的用法，與本句語境不同。",
-        "senior-mcq-21": "「在某個機構、領域或群體中地位較高、具較大影響力的人」是「senior figure」的用法，與本句語境不同。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。"
+        "senior-mcq-19": "本句的「senior leadership」指「機構中較高／最高層級的領導及決策人員」。",
+        "senior-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-19"
     },
@@ -1691,11 +1491,7 @@ export default {
       "masked": "Support from ____ is essential.",
       "options": [
         "senior-mcq-19",
-        "senior-mcq-18",
-        "senior-mcq-20",
-        "senior-mcq-17",
-        "senior-mcq-21",
-        "senior-mcq-16"
+        "senior-mcq-05"
       ],
       "explanation": "本句的「senior leadership」指「機構中較高／最高層級的領導及決策人員」。",
       "sentenceIndex": 40,
@@ -1704,12 +1500,8 @@ export default {
         "senior leadership"
       ],
       "optionReasons": {
-        "senior-mcq-19": "本句指「機構中較高／最高層級的領導及決策人員」。",
-        "senior-mcq-18": "「在企業中擁有較高管理和決策責任的高層主管」是「senior executive」的用法，與本句語境不同。",
-        "senior-mcq-20": "「在組織中擁有較大責任、影響力或決策權的高階職位」是「senior role」的用法，與本句語境不同。",
-        "senior-mcq-17": "「在專業合夥機構中地位、資歷或責任較高的合夥人」是「senior partner」的用法，與本句語境不同。",
-        "senior-mcq-21": "「在某個機構、領域或群體中地位較高、具較大影響力的人」是「senior figure」的用法，與本句語境不同。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。"
+        "senior-mcq-19": "本句的「senior leadership」指「機構中較高／最高層級的領導及決策人員」。",
+        "senior-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-19"
     },
@@ -1721,11 +1513,8 @@ export default {
       "masked": "She is ready for a more ____.",
       "options": [
         "senior-mcq-20",
-        "senior-mcq-19",
-        "senior-mcq-21",
-        "senior-mcq-18",
-        "senior-mcq-17",
-        "senior-mcq-16"
+        "senior-mcq-11",
+        "senior-mcq-08"
       ],
       "explanation": "本句的「senior role」指「在組織中擁有較大責任、影響力或決策權的高階職位」。",
       "sentenceIndex": 41,
@@ -1734,12 +1523,9 @@ export default {
         "senior role"
       ],
       "optionReasons": {
-        "senior-mcq-20": "本句指「在組織中擁有較大責任、影響力或決策權的高階職位」。",
-        "senior-mcq-19": "「機構中較高／最高層級的領導及決策人員」是「senior leadership」的用法，與本句語境不同。",
-        "senior-mcq-21": "「在某個機構、領域或群體中地位較高、具較大影響力的人」是「senior figure」的用法，與本句語境不同。",
-        "senior-mcq-18": "「在企業中擁有較高管理和決策責任的高層主管」是「senior executive」的用法，與本句語境不同。",
-        "senior-mcq-17": "「在專業合夥機構中地位、資歷或責任較高的合夥人」是「senior partner」的用法，與本句語境不同。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。"
+        "senior-mcq-20": "本句的「senior role」指「在組織中擁有較大責任、影響力或決策權的高階職位」。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-20"
     },
@@ -1751,11 +1537,8 @@ export default {
       "masked": "He moved into a ____ in finance.",
       "options": [
         "senior-mcq-20",
-        "senior-mcq-19",
-        "senior-mcq-21",
-        "senior-mcq-18",
-        "senior-mcq-17",
-        "senior-mcq-16"
+        "senior-mcq-11",
+        "senior-mcq-08"
       ],
       "explanation": "本句的「senior role」指「在組織中擁有較大責任、影響力或決策權的高階職位」。",
       "sentenceIndex": 42,
@@ -1764,12 +1547,9 @@ export default {
         "senior role"
       ],
       "optionReasons": {
-        "senior-mcq-20": "本句指「在組織中擁有較大責任、影響力或決策權的高階職位」。",
-        "senior-mcq-19": "「機構中較高／最高層級的領導及決策人員」是「senior leadership」的用法，與本句語境不同。",
-        "senior-mcq-21": "「在某個機構、領域或群體中地位較高、具較大影響力的人」是「senior figure」的用法，與本句語境不同。",
-        "senior-mcq-18": "「在企業中擁有較高管理和決策責任的高層主管」是「senior executive」的用法，與本句語境不同。",
-        "senior-mcq-17": "「在專業合夥機構中地位、資歷或責任較高的合夥人」是「senior partner」的用法，與本句語境不同。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。"
+        "senior-mcq-20": "本句的「senior role」指「在組織中擁有較大責任、影響力或決策權的高階職位」。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-20"
     },
@@ -1781,11 +1561,8 @@ export default {
       "masked": "A ____ in the organization spoke to the media.",
       "options": [
         "senior-mcq-21",
-        "senior-mcq-20",
-        "senior-mcq-19",
-        "senior-mcq-18",
-        "senior-mcq-17",
-        "senior-mcq-16"
+        "senior-mcq-11",
+        "senior-mcq-08"
       ],
       "explanation": "本句的「senior figure」指「在某個機構、領域或群體中地位較高、具較大影響力的人」。",
       "sentenceIndex": 43,
@@ -1794,12 +1571,9 @@ export default {
         "senior figure"
       ],
       "optionReasons": {
-        "senior-mcq-21": "本句指「在某個機構、領域或群體中地位較高、具較大影響力的人」。",
-        "senior-mcq-20": "「在組織中擁有較大責任、影響力或決策權的高階職位」是「senior role」的用法，與本句語境不同。",
-        "senior-mcq-19": "「機構中較高／最高層級的領導及決策人員」是「senior leadership」的用法，與本句語境不同。",
-        "senior-mcq-18": "「在企業中擁有較高管理和決策責任的高層主管」是「senior executive」的用法，與本句語境不同。",
-        "senior-mcq-17": "「在專業合夥機構中地位、資歷或責任較高的合夥人」是「senior partner」的用法，與本句語境不同。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。"
+        "senior-mcq-21": "本句的「senior figure」指「在某個機構、領域或群體中地位較高、具較大影響力的人」。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-21"
     },
@@ -1811,11 +1585,8 @@ export default {
       "masked": "Several ____ supported the proposal.",
       "options": [
         "senior-mcq-21",
-        "senior-mcq-20",
-        "senior-mcq-19",
-        "senior-mcq-18",
-        "senior-mcq-17",
-        "senior-mcq-16"
+        "senior-mcq-11",
+        "senior-mcq-08"
       ],
       "explanation": "本句的「senior figures」指「在某個機構、領域或群體中地位較高、具較大影響力的人」。",
       "sentenceIndex": 44,
@@ -1824,12 +1595,9 @@ export default {
         "senior figures"
       ],
       "optionReasons": {
-        "senior-mcq-21": "本句指「在某個機構、領域或群體中地位較高、具較大影響力的人」。",
-        "senior-mcq-20": "「在組織中擁有較大責任、影響力或決策權的高階職位」是「senior role」的用法，與本句語境不同。",
-        "senior-mcq-19": "「機構中較高／最高層級的領導及決策人員」是「senior leadership」的用法，與本句語境不同。",
-        "senior-mcq-18": "「在企業中擁有較高管理和決策責任的高層主管」是「senior executive」的用法，與本句語境不同。",
-        "senior-mcq-17": "「在專業合夥機構中地位、資歷或責任較高的合夥人」是「senior partner」的用法，與本句語境不同。",
-        "senior-mcq-16": "「視語境指較資深／較高地位，或較年長的成員」是「senior member」的用法，與本句語境不同。"
+        "senior-mcq-21": "本句的「senior figures」指「在某個機構、領域或群體中地位較高、具較大影響力的人」。",
+        "senior-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "senior-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "senior-mcq-21"
     }
@@ -1841,5 +1609,7 @@ export default {
     "sha256": "a14c9983aec180c9a67b59bd67d56da3158556a97d7e2457ec84a94ca5ec4ad6",
     "pages": 25
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

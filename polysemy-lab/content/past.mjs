@@ -262,11 +262,8 @@ export default {
       "masked": "Most of us walk straight ____ those tiny details.",
       "options": [
         "past-mcq-01",
-        "past-mcq-02",
-        "past-mcq-03",
-        "past-mcq-04",
-        "past-mcq-05",
-        "past-mcq-06"
+        "past-mcq-11",
+        "past-mcq-09"
       ],
       "explanation": "本句的「past」指「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」。",
       "sentenceIndex": 0,
@@ -275,12 +272,9 @@ export default {
         "past"
       ],
       "optionReasons": {
-        "past-mcq-01": "本句指「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」。",
-        "past-mcq-02": "「時間已經越過某個指定時刻，處於更晚的時間」是「past + time（時間）」的用法，與本句語境不同。",
-        "past-mcq-03": "「發生於現在之前的某個時期或屬於以前的事情」是「past = earlier than the present（過去的）」的用法，與本句語境不同。",
-        "past-mcq-04": "「現在之前的時間，以及在那段時間發生的事情或個人經歷」是「the past（過去時期／往事）」的用法，與本句語境不同。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。"
+        "past-mcq-01": "本句的「past」指「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」。",
+        "past-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-01"
     },
@@ -292,11 +286,9 @@ export default {
       "masked": "I walked ____ the station without noticing it.",
       "options": [
         "past-mcq-01",
-        "past-mcq-02",
-        "past-mcq-03",
-        "past-mcq-04",
-        "past-mcq-05",
-        "past-mcq-06"
+        "past-mcq-10",
+        "past-mcq-07",
+        "past-mcq-09"
       ],
       "explanation": "本句的「past」指「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」。",
       "sentenceIndex": 1,
@@ -305,12 +297,10 @@ export default {
         "past"
       ],
       "optionReasons": {
-        "past-mcq-01": "本句指「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」。",
-        "past-mcq-02": "「時間已經越過某個指定時刻，處於更晚的時間」是「past + time（時間）」的用法，與本句語境不同。",
-        "past-mcq-03": "「發生於現在之前的某個時期或屬於以前的事情」是「past = earlier than the present（過去的）」的用法，與本句語境不同。",
-        "past-mcq-04": "「現在之前的時間，以及在那段時間發生的事情或個人經歷」是「the past（過去時期／往事）」的用法，與本句語境不同。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。"
+        "past-mcq-01": "本句的「past」指「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」。",
+        "past-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-01"
     },
@@ -322,11 +312,9 @@ export default {
       "masked": "She drove ____ my house on her way to work.",
       "options": [
         "past-mcq-01",
-        "past-mcq-02",
         "past-mcq-03",
-        "past-mcq-04",
-        "past-mcq-05",
-        "past-mcq-06"
+        "past-mcq-07",
+        "past-mcq-09"
       ],
       "explanation": "本句的「past」指「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」。",
       "sentenceIndex": 2,
@@ -335,12 +323,10 @@ export default {
         "past"
       ],
       "optionReasons": {
-        "past-mcq-01": "本句指「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」。",
-        "past-mcq-02": "「時間已經越過某個指定時刻，處於更晚的時間」是「past + time（時間）」的用法，與本句語境不同。",
-        "past-mcq-03": "「發生於現在之前的某個時期或屬於以前的事情」是「past = earlier than the present（過去的）」的用法，與本句語境不同。",
-        "past-mcq-04": "「現在之前的時間，以及在那段時間發生的事情或個人經歷」是「the past（過去時期／往事）」的用法，與本句語境不同。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。"
+        "past-mcq-01": "本句的「past」指「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」。",
+        "past-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-01"
     },
@@ -352,11 +338,7 @@ export default {
       "masked": "It was already ____ when we left.",
       "options": [
         "past-mcq-02",
-        "past-mcq-01",
-        "past-mcq-03",
-        "past-mcq-04",
-        "past-mcq-05",
-        "past-mcq-06"
+        "past-mcq-09"
       ],
       "explanation": "本句的「past midnight」指「時間已經越過某個指定時刻，處於更晚的時間」。",
       "sentenceIndex": 3,
@@ -365,12 +347,8 @@ export default {
         "past midnight"
       ],
       "optionReasons": {
-        "past-mcq-02": "本句指「時間已經越過某個指定時刻，處於更晚的時間」。",
-        "past-mcq-01": "「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」是「past + person/place/object（位置）」的用法，與本句語境不同。",
-        "past-mcq-03": "「發生於現在之前的某個時期或屬於以前的事情」是「past = earlier than the present（過去的）」的用法，與本句語境不同。",
-        "past-mcq-04": "「現在之前的時間，以及在那段時間發生的事情或個人經歷」是「the past（過去時期／往事）」的用法，與本句語境不同。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。"
+        "past-mcq-02": "本句的「past midnight」指「時間已經越過某個指定時刻，處於更晚的時間」。",
+        "past-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-02"
     },
@@ -382,11 +360,7 @@ export default {
       "masked": "The meeting continued ____.",
       "options": [
         "past-mcq-02",
-        "past-mcq-01",
-        "past-mcq-03",
-        "past-mcq-04",
-        "past-mcq-05",
-        "past-mcq-06"
+        "past-mcq-09"
       ],
       "explanation": "本句的「past six o’clock」指「時間已經越過某個指定時刻，處於更晚的時間」。",
       "sentenceIndex": 4,
@@ -395,12 +369,8 @@ export default {
         "past six o’clock"
       ],
       "optionReasons": {
-        "past-mcq-02": "本句指「時間已經越過某個指定時刻，處於更晚的時間」。",
-        "past-mcq-01": "「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」是「past + person/place/object（位置）」的用法，與本句語境不同。",
-        "past-mcq-03": "「發生於現在之前的某個時期或屬於以前的事情」是「past = earlier than the present（過去的）」的用法，與本句語境不同。",
-        "past-mcq-04": "「現在之前的時間，以及在那段時間發生的事情或個人經歷」是「the past（過去時期／往事）」的用法，與本句語境不同。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。"
+        "past-mcq-02": "本句的「past six o’clock」指「時間已經越過某個指定時刻，處於更晚的時間」。",
+        "past-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-02"
     },
@@ -412,11 +382,9 @@ export default {
       "masked": "Over the ____ few years, the neighbourhood has changed a lot.",
       "options": [
         "past-mcq-03",
-        "past-mcq-02",
-        "past-mcq-04",
         "past-mcq-01",
-        "past-mcq-05",
-        "past-mcq-06"
+        "past-mcq-09",
+        "past-mcq-07"
       ],
       "explanation": "本句的「past」指「發生於現在之前的某個時期或屬於以前的事情」。",
       "sentenceIndex": 5,
@@ -425,12 +393,10 @@ export default {
         "past"
       ],
       "optionReasons": {
-        "past-mcq-03": "本句指「發生於現在之前的某個時期或屬於以前的事情」。",
-        "past-mcq-02": "「時間已經越過某個指定時刻，處於更晚的時間」是「past + time（時間）」的用法，與本句語境不同。",
-        "past-mcq-04": "「現在之前的時間，以及在那段時間發生的事情或個人經歷」是「the past（過去時期／往事）」的用法，與本句語境不同。",
-        "past-mcq-01": "「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」是「past + person/place/object（位置）」的用法，與本句語境不同。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。"
+        "past-mcq-03": "本句的「past」指「發生於現在之前的某個時期或屬於以前的事情」。",
+        "past-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-03"
     },
@@ -442,11 +408,9 @@ export default {
       "masked": "We can learn from ____ mistakes.",
       "options": [
         "past-mcq-03",
-        "past-mcq-02",
-        "past-mcq-04",
         "past-mcq-01",
-        "past-mcq-05",
-        "past-mcq-06"
+        "past-mcq-09",
+        "past-mcq-07"
       ],
       "explanation": "本句的「past」指「發生於現在之前的某個時期或屬於以前的事情」。",
       "sentenceIndex": 6,
@@ -455,12 +419,10 @@ export default {
         "past"
       ],
       "optionReasons": {
-        "past-mcq-03": "本句指「發生於現在之前的某個時期或屬於以前的事情」。",
-        "past-mcq-02": "「時間已經越過某個指定時刻，處於更晚的時間」是「past + time（時間）」的用法，與本句語境不同。",
-        "past-mcq-04": "「現在之前的時間，以及在那段時間發生的事情或個人經歷」是「the past（過去時期／往事）」的用法，與本句語境不同。",
-        "past-mcq-01": "「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」是「past + person/place/object（位置）」的用法，與本句語境不同。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。"
+        "past-mcq-03": "本句的「past」指「發生於現在之前的某個時期或屬於以前的事情」。",
+        "past-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-03"
     },
@@ -472,10 +434,8 @@ export default {
       "masked": "People often remember the ____ differently.",
       "options": [
         "past-mcq-04",
-        "past-mcq-03",
-        "past-mcq-05",
-        "past-mcq-02",
-        "past-mcq-06",
+        "past-mcq-09",
+        "past-mcq-07",
         "past-mcq-01"
       ],
       "explanation": "本句的「past」指「現在之前的時間，以及在那段時間發生的事情或個人經歷」。",
@@ -485,12 +445,10 @@ export default {
         "past"
       ],
       "optionReasons": {
-        "past-mcq-04": "本句指「現在之前的時間，以及在那段時間發生的事情或個人經歷」。",
-        "past-mcq-03": "「發生於現在之前的某個時期或屬於以前的事情」是「past = earlier than the present（過去的）」的用法，與本句語境不同。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。",
-        "past-mcq-02": "「時間已經越過某個指定時刻，處於更晚的時間」是「past + time（時間）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。",
-        "past-mcq-01": "「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」是「past + person/place/object（位置）」的用法，與本句語境不同。"
+        "past-mcq-04": "本句的「past」指「現在之前的時間，以及在那段時間發生的事情或個人經歷」。",
+        "past-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-04"
     },
@@ -502,10 +460,8 @@ export default {
       "masked": "He rarely talks about his ____.",
       "options": [
         "past-mcq-04",
-        "past-mcq-03",
-        "past-mcq-05",
-        "past-mcq-02",
-        "past-mcq-06",
+        "past-mcq-09",
+        "past-mcq-07",
         "past-mcq-01"
       ],
       "explanation": "本句的「past」指「現在之前的時間，以及在那段時間發生的事情或個人經歷」。",
@@ -515,12 +471,10 @@ export default {
         "past"
       ],
       "optionReasons": {
-        "past-mcq-04": "本句指「現在之前的時間，以及在那段時間發生的事情或個人經歷」。",
-        "past-mcq-03": "「發生於現在之前的某個時期或屬於以前的事情」是「past = earlier than the present（過去的）」的用法，與本句語境不同。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。",
-        "past-mcq-02": "「時間已經越過某個指定時刻，處於更晚的時間」是「past + time（時間）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。",
-        "past-mcq-01": "「從某人、地方或物件旁邊經過，並繼續到其另一邊或更遠的位置」是「past + person/place/object（位置）」的用法，與本句語境不同。"
+        "past-mcq-04": "本句的「past」指「現在之前的時間，以及在那段時間發生的事情或個人經歷」。",
+        "past-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-04"
     },
@@ -532,11 +486,8 @@ export default {
       "masked": "The fruit is ____.",
       "options": [
         "past-mcq-05",
-        "past-mcq-04",
-        "past-mcq-06",
-        "past-mcq-03",
-        "past-mcq-07",
-        "past-mcq-02"
+        "past-mcq-08",
+        "past-mcq-07"
       ],
       "explanation": "本句的「past its best」指「已經超過某個階段、年齡、狀態或最佳時期」。",
       "sentenceIndex": 9,
@@ -545,12 +496,9 @@ export default {
         "past its best"
       ],
       "optionReasons": {
-        "past-mcq-05": "本句指「已經超過某個階段、年齡、狀態或最佳時期」。",
-        "past-mcq-04": "「現在之前的時間，以及在那段時間發生的事情或個人經歷」是「the past（過去時期／往事）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。",
-        "past-mcq-03": "「發生於現在之前的某個時期或屬於以前的事情」是「past = earlier than the present（過去的）」的用法，與本句語境不同。",
-        "past-mcq-07": "「已超越某種能力、可能性或可處理範圍」是「past = beyond someone's ability/understanding/control（能力／理解／控制）」的用法，與本句語境不同。",
-        "past-mcq-02": "「時間已經越過某個指定時刻，處於更晚的時間」是「past + time（時間）」的用法，與本句語境不同。"
+        "past-mcq-05": "本句的「past its best」指「已經超過某個階段、年齡、狀態或最佳時期」。",
+        "past-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-05"
     },
@@ -562,11 +510,8 @@ export default {
       "masked": "He is ____ when he wants to stay out all night.",
       "options": [
         "past-mcq-05",
-        "past-mcq-04",
-        "past-mcq-06",
-        "past-mcq-03",
-        "past-mcq-07",
-        "past-mcq-02"
+        "past-mcq-08",
+        "past-mcq-07"
       ],
       "explanation": "本句的「past the age」指「已經超過某個階段、年齡、狀態或最佳時期」。",
       "sentenceIndex": 10,
@@ -575,12 +520,9 @@ export default {
         "past the age"
       ],
       "optionReasons": {
-        "past-mcq-05": "本句指「已經超過某個階段、年齡、狀態或最佳時期」。",
-        "past-mcq-04": "「現在之前的時間，以及在那段時間發生的事情或個人經歷」是「the past（過去時期／往事）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。",
-        "past-mcq-03": "「發生於現在之前的某個時期或屬於以前的事情」是「past = earlier than the present（過去的）」的用法，與本句語境不同。",
-        "past-mcq-07": "「已超越某種能力、可能性或可處理範圍」是「past = beyond someone's ability/understanding/control（能力／理解／控制）」的用法，與本句語境不同。",
-        "past-mcq-02": "「時間已經越過某個指定時刻，處於更晚的時間」是「past + time（時間）」的用法，與本句語境不同。"
+        "past-mcq-05": "本句的「past the age」指「已經超過某個階段、年齡、狀態或最佳時期」。",
+        "past-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-05"
     },
@@ -592,11 +534,9 @@ export default {
       "masked": "Once we got ____ the difficult first stage, the project became easier.",
       "options": [
         "past-mcq-06",
-        "past-mcq-05",
-        "past-mcq-07",
-        "past-mcq-04",
         "past-mcq-08",
-        "past-mcq-03"
+        "past-mcq-03",
+        "past-mcq-07"
       ],
       "explanation": "本句的「past」指「已經越過某個困難、障礙或階段，不再停留在其中」。",
       "sentenceIndex": 11,
@@ -605,12 +545,10 @@ export default {
         "past"
       ],
       "optionReasons": {
-        "past-mcq-06": "本句指「已經越過某個困難、障礙或階段，不再停留在其中」。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。",
-        "past-mcq-07": "「已超越某種能力、可能性或可處理範圍」是「past = beyond someone's ability/understanding/control（能力／理解／控制）」的用法，與本句語境不同。",
-        "past-mcq-04": "「現在之前的時間，以及在那段時間發生的事情或個人經歷」是「the past（過去時期／往事）」的用法，與本句語境不同。",
-        "past-mcq-08": "「位於某個地標之後／另一邊的位置」是「past = further than / on the other side of a point（靜態位置）」的用法，與本句語境不同。",
-        "past-mcq-03": "「發生於現在之前的某個時期或屬於以前的事情」是「past = earlier than the present（過去的）」的用法，與本句語境不同。"
+        "past-mcq-06": "本句的「past」指「已經越過某個困難、障礙或階段，不再停留在其中」。",
+        "past-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-06"
     },
@@ -622,11 +560,9 @@ export default {
       "masked": "She is finally ____ the worst part of the illness.",
       "options": [
         "past-mcq-06",
-        "past-mcq-05",
-        "past-mcq-07",
-        "past-mcq-04",
+        "past-mcq-03",
         "past-mcq-08",
-        "past-mcq-03"
+        "past-mcq-07"
       ],
       "explanation": "本句的「past」指「已經越過某個困難、障礙或階段，不再停留在其中」。",
       "sentenceIndex": 12,
@@ -635,12 +571,10 @@ export default {
         "past"
       ],
       "optionReasons": {
-        "past-mcq-06": "本句指「已經越過某個困難、障礙或階段，不再停留在其中」。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。",
-        "past-mcq-07": "「已超越某種能力、可能性或可處理範圍」是「past = beyond someone's ability/understanding/control（能力／理解／控制）」的用法，與本句語境不同。",
-        "past-mcq-04": "「現在之前的時間，以及在那段時間發生的事情或個人經歷」是「the past（過去時期／往事）」的用法，與本句語境不同。",
-        "past-mcq-08": "「位於某個地標之後／另一邊的位置」是「past = further than / on the other side of a point（靜態位置）」的用法，與本句語境不同。",
-        "past-mcq-03": "「發生於現在之前的某個時期或屬於以前的事情」是「past = earlier than the present（過去的）」的用法，與本句語境不同。"
+        "past-mcq-06": "本句的「past」指「已經越過某個困難、障礙或階段，不再停留在其中」。",
+        "past-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-06"
     },
@@ -652,11 +586,9 @@ export default {
       "masked": "The problem is ____ my understanding.",
       "options": [
         "past-mcq-07",
-        "past-mcq-06",
         "past-mcq-08",
-        "past-mcq-05",
-        "past-mcq-09",
-        "past-mcq-04"
+        "past-mcq-03",
+        "past-mcq-06"
       ],
       "explanation": "本句的「past」指「已超越某種能力、可能性或可處理範圍」。",
       "sentenceIndex": 13,
@@ -665,12 +597,10 @@ export default {
         "past"
       ],
       "optionReasons": {
-        "past-mcq-07": "本句指「已超越某種能力、可能性或可處理範圍」。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。",
-        "past-mcq-08": "「位於某個地標之後／另一邊的位置」是「past = further than / on the other side of a point（靜態位置）」的用法，與本句語境不同。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。",
-        "past-mcq-09": "「某個整點之後已過了若干分鐘」是「half past / ten past, etc.（報時）」的用法，與本句語境不同。",
-        "past-mcq-04": "「現在之前的時間，以及在那段時間發生的事情或個人經歷」是「the past（過去時期／往事）」的用法，與本句語境不同。"
+        "past-mcq-07": "本句的「past」指「已超越某種能力、可能性或可處理範圍」。",
+        "past-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-07"
     },
@@ -682,11 +612,9 @@ export default {
       "masked": "The situation may already be ____ repair.",
       "options": [
         "past-mcq-07",
-        "past-mcq-06",
+        "past-mcq-03",
         "past-mcq-08",
-        "past-mcq-05",
-        "past-mcq-09",
-        "past-mcq-04"
+        "past-mcq-06"
       ],
       "explanation": "本句的「past」指「已超越某種能力、可能性或可處理範圍」。",
       "sentenceIndex": 14,
@@ -695,12 +623,10 @@ export default {
         "past"
       ],
       "optionReasons": {
-        "past-mcq-07": "本句指「已超越某種能力、可能性或可處理範圍」。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。",
-        "past-mcq-08": "「位於某個地標之後／另一邊的位置」是「past = further than / on the other side of a point（靜態位置）」的用法，與本句語境不同。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。",
-        "past-mcq-09": "「某個整點之後已過了若干分鐘」是「half past / ten past, etc.（報時）」的用法，與本句語境不同。",
-        "past-mcq-04": "「現在之前的時間，以及在那段時間發生的事情或個人經歷」是「the past（過去時期／往事）」的用法，與本句語境不同。"
+        "past-mcq-07": "本句的「past」指「已超越某種能力、可能性或可處理範圍」。",
+        "past-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-07"
     },
@@ -712,11 +638,9 @@ export default {
       "masked": "The café is just ____ the bridge.",
       "options": [
         "past-mcq-08",
-        "past-mcq-07",
-        "past-mcq-09",
         "past-mcq-06",
-        "past-mcq-10",
-        "past-mcq-05"
+        "past-mcq-07",
+        "past-mcq-03"
       ],
       "explanation": "本句的「past」指「位於某個地標之後／另一邊的位置」。",
       "sentenceIndex": 15,
@@ -725,12 +649,10 @@ export default {
         "past"
       ],
       "optionReasons": {
-        "past-mcq-08": "本句指「位於某個地標之後／另一邊的位置」。",
-        "past-mcq-07": "「已超越某種能力、可能性或可處理範圍」是「past = beyond someone's ability/understanding/control（能力／理解／控制）」的用法，與本句語境不同。",
-        "past-mcq-09": "「某個整點之後已過了若干分鐘」是「half past / ten past, etc.（報時）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。",
-        "past-mcq-10": "「在現在之前的某段時間；以前」是「Fixed expression: in the past」的用法，與本句語境不同。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。"
+        "past-mcq-08": "本句的「past」指「位於某個地標之後／另一邊的位置」。",
+        "past-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-08"
     },
@@ -742,11 +664,9 @@ export default {
       "masked": "There is a small shop ____ the traffic lights.",
       "options": [
         "past-mcq-08",
-        "past-mcq-07",
-        "past-mcq-09",
         "past-mcq-06",
-        "past-mcq-10",
-        "past-mcq-05"
+        "past-mcq-07",
+        "past-mcq-04"
       ],
       "explanation": "本句的「past」指「位於某個地標之後／另一邊的位置」。",
       "sentenceIndex": 16,
@@ -755,12 +675,10 @@ export default {
         "past"
       ],
       "optionReasons": {
-        "past-mcq-08": "本句指「位於某個地標之後／另一邊的位置」。",
-        "past-mcq-07": "「已超越某種能力、可能性或可處理範圍」是「past = beyond someone's ability/understanding/control（能力／理解／控制）」的用法，與本句語境不同。",
-        "past-mcq-09": "「某個整點之後已過了若干分鐘」是「half past / ten past, etc.（報時）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。",
-        "past-mcq-10": "「在現在之前的某段時間；以前」是「Fixed expression: in the past」的用法，與本句語境不同。",
-        "past-mcq-05": "「已經超過某個階段、年齡、狀態或最佳時期」是「be past + stage/age/condition（階段／年齡／狀態）」的用法，與本句語境不同。"
+        "past-mcq-08": "本句的「past」指「位於某個地標之後／另一邊的位置」。",
+        "past-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-08"
     },
@@ -772,11 +690,9 @@ export default {
       "masked": "It’s ____.",
       "options": [
         "past-mcq-09",
-        "past-mcq-08",
         "past-mcq-10",
         "past-mcq-07",
-        "past-mcq-11",
-        "past-mcq-06"
+        "past-mcq-01"
       ],
       "explanation": "本句的「half past six」指「某個整點之後已過了若干分鐘」。",
       "sentenceIndex": 17,
@@ -785,12 +701,10 @@ export default {
         "half past six"
       ],
       "optionReasons": {
-        "past-mcq-09": "本句指「某個整點之後已過了若干分鐘」。",
-        "past-mcq-08": "「位於某個地標之後／另一邊的位置」是「past = further than / on the other side of a point（靜態位置）」的用法，與本句語境不同。",
-        "past-mcq-10": "「在現在之前的某段時間；以前」是「Fixed expression: in the past」的用法，與本句語境不同。",
-        "past-mcq-07": "「已超越某種能力、可能性或可處理範圍」是「past = beyond someone's ability/understanding/control（能力／理解／控制）」的用法，與本句語境不同。",
-        "past-mcq-11": "「因年齡、時間或發展而不再具有從前的能力、價值或時代適切性」是「Fixed expression: past it」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。"
+        "past-mcq-09": "本句的「half past six」指「某個整點之後已過了若干分鐘」。",
+        "past-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-09"
     },
@@ -802,11 +716,8 @@ export default {
       "masked": "The train leaves at ten ____ eight.",
       "options": [
         "past-mcq-09",
-        "past-mcq-08",
-        "past-mcq-10",
-        "past-mcq-07",
         "past-mcq-11",
-        "past-mcq-06"
+        "past-mcq-01"
       ],
       "explanation": "本句的「past」指「某個整點之後已過了若干分鐘」。",
       "sentenceIndex": 18,
@@ -815,12 +726,9 @@ export default {
         "past"
       ],
       "optionReasons": {
-        "past-mcq-09": "本句指「某個整點之後已過了若干分鐘」。",
-        "past-mcq-08": "「位於某個地標之後／另一邊的位置」是「past = further than / on the other side of a point（靜態位置）」的用法，與本句語境不同。",
-        "past-mcq-10": "「在現在之前的某段時間；以前」是「Fixed expression: in the past」的用法，與本句語境不同。",
-        "past-mcq-07": "「已超越某種能力、可能性或可處理範圍」是「past = beyond someone's ability/understanding/control（能力／理解／控制）」的用法，與本句語境不同。",
-        "past-mcq-11": "「因年齡、時間或發展而不再具有從前的能力、價值或時代適切性」是「Fixed expression: past it」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。"
+        "past-mcq-09": "本句的「past」指「某個整點之後已過了若干分鐘」。",
+        "past-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-09"
     },
@@ -832,11 +740,9 @@ export default {
       "masked": "People communicated very differently ____.",
       "options": [
         "past-mcq-10",
-        "past-mcq-09",
-        "past-mcq-11",
-        "past-mcq-08",
         "past-mcq-07",
-        "past-mcq-06"
+        "past-mcq-09",
+        "past-mcq-01"
       ],
       "explanation": "本句的「in the past」指「在現在之前的某段時間；以前」。",
       "sentenceIndex": 19,
@@ -845,12 +751,10 @@ export default {
         "in the past"
       ],
       "optionReasons": {
-        "past-mcq-10": "本句指「在現在之前的某段時間；以前」。",
-        "past-mcq-09": "「某個整點之後已過了若干分鐘」是「half past / ten past, etc.（報時）」的用法，與本句語境不同。",
-        "past-mcq-11": "「因年齡、時間或發展而不再具有從前的能力、價值或時代適切性」是「Fixed expression: past it」的用法，與本句語境不同。",
-        "past-mcq-08": "「位於某個地標之後／另一邊的位置」是「past = further than / on the other side of a point（靜態位置）」的用法，與本句語境不同。",
-        "past-mcq-07": "「已超越某種能力、可能性或可處理範圍」是「past = beyond someone's ability/understanding/control（能力／理解／控制）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。"
+        "past-mcq-10": "本句的「in the past」指「在現在之前的某段時間；以前」。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-10"
     },
@@ -862,11 +766,9 @@ export default {
       "masked": "I made that mistake several times ____.",
       "options": [
         "past-mcq-10",
-        "past-mcq-09",
-        "past-mcq-11",
-        "past-mcq-08",
+        "past-mcq-01",
         "past-mcq-07",
-        "past-mcq-06"
+        "past-mcq-09"
       ],
       "explanation": "本句的「in the past」指「在現在之前的某段時間；以前」。",
       "sentenceIndex": 20,
@@ -875,12 +777,10 @@ export default {
         "in the past"
       ],
       "optionReasons": {
-        "past-mcq-10": "本句指「在現在之前的某段時間；以前」。",
-        "past-mcq-09": "「某個整點之後已過了若干分鐘」是「half past / ten past, etc.（報時）」的用法，與本句語境不同。",
-        "past-mcq-11": "「因年齡、時間或發展而不再具有從前的能力、價值或時代適切性」是「Fixed expression: past it」的用法，與本句語境不同。",
-        "past-mcq-08": "「位於某個地標之後／另一邊的位置」是「past = further than / on the other side of a point（靜態位置）」的用法，與本句語境不同。",
-        "past-mcq-07": "「已超越某種能力、可能性或可處理範圍」是「past = beyond someone's ability/understanding/control（能力／理解／控制）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。"
+        "past-mcq-10": "本句的「in the past」指「在現在之前的某段時間；以前」。",
+        "past-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-10"
     },
@@ -892,11 +792,8 @@ export default {
       "masked": "Some people said the athlete was ____, but he proved them wrong.",
       "options": [
         "past-mcq-11",
-        "past-mcq-10",
-        "past-mcq-09",
-        "past-mcq-08",
-        "past-mcq-07",
-        "past-mcq-06"
+        "past-mcq-01",
+        "past-mcq-09"
       ],
       "explanation": "本句的「past it」指「因年齡、時間或發展而不再具有從前的能力、價值或時代適切性」。",
       "sentenceIndex": 21,
@@ -905,12 +802,9 @@ export default {
         "past it"
       ],
       "optionReasons": {
-        "past-mcq-11": "本句指「因年齡、時間或發展而不再具有從前的能力、價值或時代適切性」。",
-        "past-mcq-10": "「在現在之前的某段時間；以前」是「Fixed expression: in the past」的用法，與本句語境不同。",
-        "past-mcq-09": "「某個整點之後已過了若干分鐘」是「half past / ten past, etc.（報時）」的用法，與本句語境不同。",
-        "past-mcq-08": "「位於某個地標之後／另一邊的位置」是「past = further than / on the other side of a point（靜態位置）」的用法，與本句語境不同。",
-        "past-mcq-07": "「已超越某種能力、可能性或可處理範圍」是「past = beyond someone's ability/understanding/control（能力／理解／控制）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。"
+        "past-mcq-11": "本句的「past it」指「因年齡、時間或發展而不再具有從前的能力、價值或時代適切性」。",
+        "past-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-11"
     },
@@ -922,11 +816,8 @@ export default {
       "masked": "That technology is completely ____ now.",
       "options": [
         "past-mcq-11",
-        "past-mcq-10",
-        "past-mcq-09",
-        "past-mcq-08",
-        "past-mcq-07",
-        "past-mcq-06"
+        "past-mcq-01",
+        "past-mcq-09"
       ],
       "explanation": "本句的「past it」指「因年齡、時間或發展而不再具有從前的能力、價值或時代適切性」。",
       "sentenceIndex": 22,
@@ -935,12 +826,9 @@ export default {
         "past it"
       ],
       "optionReasons": {
-        "past-mcq-11": "本句指「因年齡、時間或發展而不再具有從前的能力、價值或時代適切性」。",
-        "past-mcq-10": "「在現在之前的某段時間；以前」是「Fixed expression: in the past」的用法，與本句語境不同。",
-        "past-mcq-09": "「某個整點之後已過了若干分鐘」是「half past / ten past, etc.（報時）」的用法，與本句語境不同。",
-        "past-mcq-08": "「位於某個地標之後／另一邊的位置」是「past = further than / on the other side of a point（靜態位置）」的用法，與本句語境不同。",
-        "past-mcq-07": "「已超越某種能力、可能性或可處理範圍」是「past = beyond someone's ability/understanding/control（能力／理解／控制）」的用法，與本句語境不同。",
-        "past-mcq-06": "「已經越過某個困難、障礙或階段，不再停留在其中」是「past + limit/problem/point（界線／難關）」的用法，與本句語境不同。"
+        "past-mcq-11": "本句的「past it」指「因年齡、時間或發展而不再具有從前的能力、價值或時代適切性」。",
+        "past-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "past-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "past-mcq-11"
     }
@@ -952,5 +840,7 @@ export default {
     "sha256": "4dcaf21acefe4febede83d5bd4ee17241465488266b1bd4a95dcb0a33effa572",
     "pages": 11
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

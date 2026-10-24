@@ -431,11 +431,7 @@ export default {
       "masked": "The teacher gave a clear ____ of the theory.",
       "options": [
         "explanation-mcq-01",
-        "explanation-mcq-02",
-        "explanation-mcq-03",
-        "explanation-mcq-04",
-        "explanation-mcq-05",
-        "explanation-mcq-06"
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「explanation」指「幫助別人理解某個概念、情況或內容的解釋／說明」。",
       "sentenceIndex": 2,
@@ -444,12 +440,8 @@ export default {
         "explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-01": "本句指「幫助別人理解某個概念、情況或內容的解釋／說明」。",
-        "explanation-mcq-02": "「對某個主題、理論、過程等所作的解釋」與本句語境不同。",
-        "explanation-mcq-03": "「向別人作出說明或解釋」與本句語境不同。",
-        "explanation-mcq-04": "「用來說明某件事為甚麼發生的原因或說法」與本句語境不同。",
-        "explanation-mcq-05": "「對某事件、結果或行為原因的解釋」與本句語境不同。",
-        "explanation-mcq-06": "「對自己的行為或某種情況所作的交代／說明」與本句語境不同。"
+        "explanation-mcq-01": "本句的「explanation」指「幫助別人理解某個概念、情況或內容的解釋／說明」。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-01"
     },
@@ -461,11 +453,7 @@ export default {
       "masked": "I need a simpler ____.",
       "options": [
         "explanation-mcq-01",
-        "explanation-mcq-02",
-        "explanation-mcq-03",
-        "explanation-mcq-04",
-        "explanation-mcq-05",
-        "explanation-mcq-06"
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「explanation」指「幫助別人理解某個概念、情況或內容的解釋／說明」。",
       "sentenceIndex": 3,
@@ -474,12 +462,8 @@ export default {
         "explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-01": "本句指「幫助別人理解某個概念、情況或內容的解釋／說明」。",
-        "explanation-mcq-02": "「對某個主題、理論、過程等所作的解釋」與本句語境不同。",
-        "explanation-mcq-03": "「向別人作出說明或解釋」與本句語境不同。",
-        "explanation-mcq-04": "「用來說明某件事為甚麼發生的原因或說法」與本句語境不同。",
-        "explanation-mcq-05": "「對某事件、結果或行為原因的解釋」與本句語境不同。",
-        "explanation-mcq-06": "「對自己的行為或某種情況所作的交代／說明」與本句語境不同。"
+        "explanation-mcq-01": "本句的「explanation」指「幫助別人理解某個概念、情況或內容的解釋／說明」。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-01"
     },
@@ -491,11 +475,7 @@ export default {
       "masked": "Her ____ was very clear.",
       "options": [
         "explanation-mcq-02",
-        "explanation-mcq-01",
-        "explanation-mcq-03",
-        "explanation-mcq-04",
-        "explanation-mcq-05",
-        "explanation-mcq-06"
+        "explanation-mcq-04"
       ],
       "explanation": "本句的「explanation of the experiment」指「對某個主題、理論、過程等所作的解釋」。",
       "sentenceIndex": 4,
@@ -504,12 +484,8 @@ export default {
         "explanation of the experiment"
       ],
       "optionReasons": {
-        "explanation-mcq-02": "本句指「對某個主題、理論、過程等所作的解釋」。",
-        "explanation-mcq-01": "「幫助別人理解某個概念、情況或內容的解釋／說明」與本句語境不同。",
-        "explanation-mcq-03": "「向別人作出說明或解釋」與本句語境不同。",
-        "explanation-mcq-04": "「用來說明某件事為甚麼發生的原因或說法」與本句語境不同。",
-        "explanation-mcq-05": "「對某事件、結果或行為原因的解釋」與本句語境不同。",
-        "explanation-mcq-06": "「對自己的行為或某種情況所作的交代／說明」與本句語境不同。"
+        "explanation-mcq-02": "本句的「explanation of the experiment」指「對某個主題、理論、過程等所作的解釋」。",
+        "explanation-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-02"
     },
@@ -521,11 +497,8 @@ export default {
       "masked": "The book gives a useful ____.",
       "options": [
         "explanation-mcq-02",
-        "explanation-mcq-01",
-        "explanation-mcq-03",
-        "explanation-mcq-04",
-        "explanation-mcq-05",
-        "explanation-mcq-06"
+        "explanation-mcq-06",
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「explanation of gravity」指「對某個主題、理論、過程等所作的解釋」。",
       "sentenceIndex": 5,
@@ -534,12 +507,9 @@ export default {
         "explanation of gravity"
       ],
       "optionReasons": {
-        "explanation-mcq-02": "本句指「對某個主題、理論、過程等所作的解釋」。",
-        "explanation-mcq-01": "「幫助別人理解某個概念、情況或內容的解釋／說明」與本句語境不同。",
-        "explanation-mcq-03": "「向別人作出說明或解釋」與本句語境不同。",
-        "explanation-mcq-04": "「用來說明某件事為甚麼發生的原因或說法」與本句語境不同。",
-        "explanation-mcq-05": "「對某事件、結果或行為原因的解釋」與本句語境不同。",
-        "explanation-mcq-06": "「對自己的行為或某種情況所作的交代／說明」與本句語境不同。"
+        "explanation-mcq-02": "本句的「explanation of gravity」指「對某個主題、理論、過程等所作的解釋」。",
+        "explanation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-02"
     },
@@ -551,11 +521,7 @@ export default {
       "masked": "He gave a detailed ____.",
       "options": [
         "explanation-mcq-03",
-        "explanation-mcq-02",
-        "explanation-mcq-04",
-        "explanation-mcq-01",
-        "explanation-mcq-05",
-        "explanation-mcq-06"
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「explanation」指「向別人作出說明或解釋」。",
       "sentenceIndex": 6,
@@ -564,12 +530,8 @@ export default {
         "explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-03": "本句指「向別人作出說明或解釋」。",
-        "explanation-mcq-02": "「對某個主題、理論、過程等所作的解釋」與本句語境不同。",
-        "explanation-mcq-04": "「用來說明某件事為甚麼發生的原因或說法」與本句語境不同。",
-        "explanation-mcq-01": "「幫助別人理解某個概念、情況或內容的解釋／說明」與本句語境不同。",
-        "explanation-mcq-05": "「對某事件、結果或行為原因的解釋」與本句語境不同。",
-        "explanation-mcq-06": "「對自己的行為或某種情況所作的交代／說明」與本句語境不同。"
+        "explanation-mcq-03": "本句的「explanation」指「向別人作出說明或解釋」。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-03"
     },
@@ -581,11 +543,7 @@ export default {
       "masked": "The teacher gave us an ____ of the formula.",
       "options": [
         "explanation-mcq-03",
-        "explanation-mcq-02",
-        "explanation-mcq-04",
-        "explanation-mcq-01",
-        "explanation-mcq-05",
-        "explanation-mcq-06"
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「explanation」指「向別人作出說明或解釋」。",
       "sentenceIndex": 7,
@@ -594,12 +552,8 @@ export default {
         "explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-03": "本句指「向別人作出說明或解釋」。",
-        "explanation-mcq-02": "「對某個主題、理論、過程等所作的解釋」與本句語境不同。",
-        "explanation-mcq-04": "「用來說明某件事為甚麼發生的原因或說法」與本句語境不同。",
-        "explanation-mcq-01": "「幫助別人理解某個概念、情況或內容的解釋／說明」與本句語境不同。",
-        "explanation-mcq-05": "「對某事件、結果或行為原因的解釋」與本句語境不同。",
-        "explanation-mcq-06": "「對自己的行為或某種情況所作的交代／說明」與本句語境不同。"
+        "explanation-mcq-03": "本句的「explanation」指「向別人作出說明或解釋」。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-03"
     },
@@ -611,11 +565,7 @@ export default {
       "masked": "There must be an ____ for the sudden change.",
       "options": [
         "explanation-mcq-04",
-        "explanation-mcq-03",
-        "explanation-mcq-05",
-        "explanation-mcq-02",
-        "explanation-mcq-06",
-        "explanation-mcq-01"
+        "explanation-mcq-07"
       ],
       "explanation": "本句的「explanation」指「用來說明某件事為甚麼發生的原因或說法」。",
       "sentenceIndex": 8,
@@ -624,12 +574,8 @@ export default {
         "explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-04": "本句指「用來說明某件事為甚麼發生的原因或說法」。",
-        "explanation-mcq-03": "「向別人作出說明或解釋」與本句語境不同。",
-        "explanation-mcq-05": "「對某事件、結果或行為原因的解釋」與本句語境不同。",
-        "explanation-mcq-02": "「對某個主題、理論、過程等所作的解釋」與本句語境不同。",
-        "explanation-mcq-06": "「對自己的行為或某種情況所作的交代／說明」與本句語境不同。",
-        "explanation-mcq-01": "「幫助別人理解某個概念、情況或內容的解釋／說明」與本句語境不同。"
+        "explanation-mcq-04": "本句的「explanation」指「用來說明某件事為甚麼發生的原因或說法」。",
+        "explanation-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-04"
     },
@@ -641,11 +587,7 @@ export default {
       "masked": "Scientists are looking for an ____ for the result.",
       "options": [
         "explanation-mcq-04",
-        "explanation-mcq-03",
-        "explanation-mcq-05",
-        "explanation-mcq-02",
-        "explanation-mcq-06",
-        "explanation-mcq-01"
+        "explanation-mcq-02"
       ],
       "explanation": "本句的「explanation」指「用來說明某件事為甚麼發生的原因或說法」。",
       "sentenceIndex": 9,
@@ -654,12 +596,8 @@ export default {
         "explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-04": "本句指「用來說明某件事為甚麼發生的原因或說法」。",
-        "explanation-mcq-03": "「向別人作出說明或解釋」與本句語境不同。",
-        "explanation-mcq-05": "「對某事件、結果或行為原因的解釋」與本句語境不同。",
-        "explanation-mcq-02": "「對某個主題、理論、過程等所作的解釋」與本句語境不同。",
-        "explanation-mcq-06": "「對自己的行為或某種情況所作的交代／說明」與本句語境不同。",
-        "explanation-mcq-01": "「幫助別人理解某個概念、情況或內容的解釋／說明」與本句語境不同。"
+        "explanation-mcq-04": "本句的「explanation」指「用來說明某件事為甚麼發生的原因或說法」。",
+        "explanation-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-04"
     },
@@ -671,11 +609,7 @@ export default {
       "masked": "What is the ____?",
       "options": [
         "explanation-mcq-05",
-        "explanation-mcq-04",
-        "explanation-mcq-06",
-        "explanation-mcq-03",
-        "explanation-mcq-07",
-        "explanation-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「explanation for the delay」指「對某事件、結果或行為原因的解釋」。",
       "sentenceIndex": 10,
@@ -684,12 +618,8 @@ export default {
         "explanation for the delay"
       ],
       "optionReasons": {
-        "explanation-mcq-05": "本句指「對某事件、結果或行為原因的解釋」。",
-        "explanation-mcq-04": "「用來說明某件事為甚麼發生的原因或說法」與本句語境不同。",
-        "explanation-mcq-06": "「對自己的行為或某種情況所作的交代／說明」與本句語境不同。",
-        "explanation-mcq-03": "「向別人作出說明或解釋」與本句語境不同。",
-        "explanation-mcq-07": "「要求某人解釋其行為、決定或某種情況」與本句語境不同。",
-        "explanation-mcq-02": "「對某個主題、理論、過程等所作的解釋」與本句語境不同。"
+        "explanation-mcq-05": "本句的「explanation for the delay」指「對某事件、結果或行為原因的解釋」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-05"
     },
@@ -701,11 +631,7 @@ export default {
       "masked": "There is no simple ____.",
       "options": [
         "explanation-mcq-05",
-        "explanation-mcq-04",
-        "explanation-mcq-06",
-        "explanation-mcq-03",
-        "explanation-mcq-07",
-        "explanation-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「explanation for his behavior」指「對某事件、結果或行為原因的解釋」。",
       "sentenceIndex": 11,
@@ -714,12 +640,8 @@ export default {
         "explanation for his behavior"
       ],
       "optionReasons": {
-        "explanation-mcq-05": "本句指「對某事件、結果或行為原因的解釋」。",
-        "explanation-mcq-04": "「用來說明某件事為甚麼發生的原因或說法」與本句語境不同。",
-        "explanation-mcq-06": "「對自己的行為或某種情況所作的交代／說明」與本句語境不同。",
-        "explanation-mcq-03": "「向別人作出說明或解釋」與本句語境不同。",
-        "explanation-mcq-07": "「要求某人解釋其行為、決定或某種情況」與本句語境不同。",
-        "explanation-mcq-02": "「對某個主題、理論、過程等所作的解釋」與本句語境不同。"
+        "explanation-mcq-05": "本句的「explanation for his behavior」指「對某事件、結果或行為原因的解釋」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-05"
     },
@@ -731,11 +653,8 @@ export default {
       "masked": "The manager asked for an ____.",
       "options": [
         "explanation-mcq-06",
-        "explanation-mcq-05",
-        "explanation-mcq-07",
-        "explanation-mcq-04",
-        "explanation-mcq-08",
-        "explanation-mcq-03"
+        "explanation-mcq-02",
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「explanation」指「對自己的行為或某種情況所作的交代／說明」。",
       "sentenceIndex": 12,
@@ -744,12 +663,9 @@ export default {
         "explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-06": "本句指「對自己的行為或某種情況所作的交代／說明」。",
-        "explanation-mcq-05": "「對某事件、結果或行為原因的解釋」與本句語境不同。",
-        "explanation-mcq-07": "「要求某人解釋其行為、決定或某種情況」與本句語境不同。",
-        "explanation-mcq-04": "「用來說明某件事為甚麼發生的原因或說法」與本句語境不同。",
-        "explanation-mcq-08": "「用來說明某種現象如何或為何發生的理論／機制解釋」與本句語境不同。",
-        "explanation-mcq-03": "「向別人作出說明或解釋」與本句語境不同。"
+        "explanation-mcq-06": "本句的「explanation」指「對自己的行為或某種情況所作的交代／說明」。",
+        "explanation-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-06"
     },
@@ -761,11 +677,8 @@ export default {
       "masked": "She owed them an ____ for leaving suddenly.",
       "options": [
         "explanation-mcq-06",
-        "explanation-mcq-05",
-        "explanation-mcq-07",
-        "explanation-mcq-04",
-        "explanation-mcq-08",
-        "explanation-mcq-03"
+        "explanation-mcq-09",
+        "explanation-mcq-16"
       ],
       "explanation": "本句的「explanation」指「對自己的行為或某種情況所作的交代／說明」。",
       "sentenceIndex": 13,
@@ -774,12 +687,9 @@ export default {
         "explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-06": "本句指「對自己的行為或某種情況所作的交代／說明」。",
-        "explanation-mcq-05": "「對某事件、結果或行為原因的解釋」與本句語境不同。",
-        "explanation-mcq-07": "「要求某人解釋其行為、決定或某種情況」與本句語境不同。",
-        "explanation-mcq-04": "「用來說明某件事為甚麼發生的原因或說法」與本句語境不同。",
-        "explanation-mcq-08": "「用來說明某種現象如何或為何發生的理論／機制解釋」與本句語境不同。",
-        "explanation-mcq-03": "「向別人作出說明或解釋」與本句語境不同。"
+        "explanation-mcq-06": "本句的「explanation」指「對自己的行為或某種情況所作的交代／說明」。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "explanation-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-06"
     },
@@ -791,11 +701,7 @@ export default {
       "masked": "The teacher ____.",
       "options": [
         "explanation-mcq-07",
-        "explanation-mcq-06",
-        "explanation-mcq-08",
-        "explanation-mcq-05",
-        "explanation-mcq-09",
-        "explanation-mcq-04"
+        "explanation-mcq-13"
       ],
       "explanation": "本句的「asked for an explanation」指「要求某人解釋其行為、決定或某種情況」。",
       "sentenceIndex": 14,
@@ -804,12 +710,8 @@ export default {
         "asked for an explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-07": "本句指「要求某人解釋其行為、決定或某種情況」。",
-        "explanation-mcq-06": "「對自己的行為或某種情況所作的交代／說明」與本句語境不同。",
-        "explanation-mcq-08": "「用來說明某種現象如何或為何發生的理論／機制解釋」與本句語境不同。",
-        "explanation-mcq-05": "「對某事件、結果或行為原因的解釋」與本句語境不同。",
-        "explanation-mcq-09": "「對某結果或現象提出的一種合理可能原因」與本句語境不同。",
-        "explanation-mcq-04": "「用來說明某件事為甚麼發生的原因或說法」與本句語境不同。"
+        "explanation-mcq-07": "本句的「asked for an explanation」指「要求某人解釋其行為、決定或某種情況」。",
+        "explanation-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-07"
     },
@@ -821,10 +723,6 @@ export default {
       "masked": "The board ____ for the missing funds.",
       "options": [
         "explanation-mcq-07",
-        "explanation-mcq-06",
-        "explanation-mcq-08",
-        "explanation-mcq-05",
-        "explanation-mcq-09",
         "explanation-mcq-04"
       ],
       "explanation": "本句的「demanded an explanation」指「要求某人解釋其行為、決定或某種情況」。",
@@ -834,12 +732,8 @@ export default {
         "demanded an explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-07": "本句指「要求某人解釋其行為、決定或某種情況」。",
-        "explanation-mcq-06": "「對自己的行為或某種情況所作的交代／說明」與本句語境不同。",
-        "explanation-mcq-08": "「用來說明某種現象如何或為何發生的理論／機制解釋」與本句語境不同。",
-        "explanation-mcq-05": "「對某事件、結果或行為原因的解釋」與本句語境不同。",
-        "explanation-mcq-09": "「對某結果或現象提出的一種合理可能原因」與本句語境不同。",
-        "explanation-mcq-04": "「用來說明某件事為甚麼發生的原因或說法」與本句語境不同。"
+        "explanation-mcq-07": "本句的「demanded an explanation」指「要求某人解釋其行為、決定或某種情況」。",
+        "explanation-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-07"
     },
@@ -851,11 +745,8 @@ export default {
       "masked": "One ____ is measurement error.",
       "options": [
         "explanation-mcq-09",
-        "explanation-mcq-08",
-        "explanation-mcq-10",
-        "explanation-mcq-07",
-        "explanation-mcq-11",
-        "explanation-mcq-06"
+        "explanation-mcq-06",
+        "explanation-mcq-19"
       ],
       "explanation": "本句的「possible explanation」指「對某結果或現象提出的一種合理可能原因」。",
       "sentenceIndex": 18,
@@ -864,12 +755,9 @@ export default {
         "possible explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-09": "本句指「對某結果或現象提出的一種合理可能原因」。",
-        "explanation-mcq-08": "「用來說明某種現象如何或為何發生的理論／機制解釋」與本句語境不同。",
-        "explanation-mcq-10": "「容易理解、能有效消除困惑的解釋」與本句語境不同。",
-        "explanation-mcq-07": "「要求某人解釋其行為、決定或某種情況」與本句語境不同。",
-        "explanation-mcq-11": "「用較簡單方式說明困難內容的解釋」與本句語境不同。",
-        "explanation-mcq-06": "「對自己的行為或某種情況所作的交代／說明」與本句語境不同。"
+        "explanation-mcq-09": "本句的「possible explanation」指「對某結果或現象提出的一種合理可能原因」。",
+        "explanation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "explanation-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-09"
     },
@@ -881,11 +769,7 @@ export default {
       "masked": "The study discusses several ____.",
       "options": [
         "explanation-mcq-09",
-        "explanation-mcq-08",
-        "explanation-mcq-10",
-        "explanation-mcq-07",
-        "explanation-mcq-11",
-        "explanation-mcq-06"
+        "explanation-mcq-07"
       ],
       "explanation": "本句的「possible explanations」指「對某結果或現象提出的一種合理可能原因」。",
       "sentenceIndex": 19,
@@ -894,12 +778,8 @@ export default {
         "possible explanations"
       ],
       "optionReasons": {
-        "explanation-mcq-09": "本句指「對某結果或現象提出的一種合理可能原因」。",
-        "explanation-mcq-08": "「用來說明某種現象如何或為何發生的理論／機制解釋」與本句語境不同。",
-        "explanation-mcq-10": "「容易理解、能有效消除困惑的解釋」與本句語境不同。",
-        "explanation-mcq-07": "「要求某人解釋其行為、決定或某種情況」與本句語境不同。",
-        "explanation-mcq-11": "「用較簡單方式說明困難內容的解釋」與本句語境不同。",
-        "explanation-mcq-06": "「對自己的行為或某種情況所作的交代／說明」與本句語境不同。"
+        "explanation-mcq-09": "本句的「possible explanations」指「對某結果或現象提出的一種合理可能原因」。",
+        "explanation-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-09"
     },
@@ -911,11 +791,7 @@ export default {
       "masked": "A ____ can make a difficult topic much easier.",
       "options": [
         "explanation-mcq-10",
-        "explanation-mcq-09",
-        "explanation-mcq-11",
-        "explanation-mcq-08",
-        "explanation-mcq-12",
-        "explanation-mcq-07"
+        "explanation-mcq-04"
       ],
       "explanation": "本句的「clear explanation」指「容易理解、能有效消除困惑的解釋」。",
       "sentenceIndex": 22,
@@ -924,12 +800,8 @@ export default {
         "clear explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-10": "本句指「容易理解、能有效消除困惑的解釋」。",
-        "explanation-mcq-09": "「對某結果或現象提出的一種合理可能原因」與本句語境不同。",
-        "explanation-mcq-11": "「用較簡單方式說明困難內容的解釋」與本句語境不同。",
-        "explanation-mcq-08": "「用來說明某種現象如何或為何發生的理論／機制解釋」與本句語境不同。",
-        "explanation-mcq-12": "「包含較多細節與完整說明的解釋」與本句語境不同。",
-        "explanation-mcq-07": "「要求某人解釋其行為、決定或某種情況」與本句語境不同。"
+        "explanation-mcq-10": "本句的「clear explanation」指「容易理解、能有效消除困惑的解釋」。",
+        "explanation-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-10"
     },
@@ -941,11 +813,8 @@ export default {
       "masked": "Students benefit from ____ and examples.",
       "options": [
         "explanation-mcq-10",
-        "explanation-mcq-09",
-        "explanation-mcq-11",
-        "explanation-mcq-08",
-        "explanation-mcq-12",
-        "explanation-mcq-07"
+        "explanation-mcq-06",
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「clear explanations」指「容易理解、能有效消除困惑的解釋」。",
       "sentenceIndex": 23,
@@ -954,12 +823,9 @@ export default {
         "clear explanations"
       ],
       "optionReasons": {
-        "explanation-mcq-10": "本句指「容易理解、能有效消除困惑的解釋」。",
-        "explanation-mcq-09": "「對某結果或現象提出的一種合理可能原因」與本句語境不同。",
-        "explanation-mcq-11": "「用較簡單方式說明困難內容的解釋」與本句語境不同。",
-        "explanation-mcq-08": "「用來說明某種現象如何或為何發生的理論／機制解釋」與本句語境不同。",
-        "explanation-mcq-12": "「包含較多細節與完整說明的解釋」與本句語境不同。",
-        "explanation-mcq-07": "「要求某人解釋其行為、決定或某種情況」與本句語境不同。"
+        "explanation-mcq-10": "本句的「clear explanations」指「容易理解、能有效消除困惑的解釋」。",
+        "explanation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-10"
     },
@@ -971,11 +837,7 @@ export default {
       "masked": "Can you give me a ____?",
       "options": [
         "explanation-mcq-11",
-        "explanation-mcq-10",
-        "explanation-mcq-12",
-        "explanation-mcq-09",
-        "explanation-mcq-13",
-        "explanation-mcq-08"
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「simple explanation」指「用較簡單方式說明困難內容的解釋」。",
       "sentenceIndex": 24,
@@ -984,12 +846,8 @@ export default {
         "simple explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-11": "本句指「用較簡單方式說明困難內容的解釋」。",
-        "explanation-mcq-10": "「容易理解、能有效消除困惑的解釋」與本句語境不同。",
-        "explanation-mcq-12": "「包含較多細節與完整說明的解釋」與本句語境不同。",
-        "explanation-mcq-09": "「對某結果或現象提出的一種合理可能原因」與本句語境不同。",
-        "explanation-mcq-13": "「沒有說明原因或沒有作出交代」與本句語境不同。",
-        "explanation-mcq-08": "「用來說明某種現象如何或為何發生的理論／機制解釋」與本句語境不同。"
+        "explanation-mcq-11": "本句的「simple explanation」指「用較簡單方式說明困難內容的解釋」。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-11"
     },
@@ -1001,11 +859,7 @@ export default {
       "masked": "She always found a ____ for difficult ideas.",
       "options": [
         "explanation-mcq-11",
-        "explanation-mcq-10",
-        "explanation-mcq-12",
-        "explanation-mcq-09",
-        "explanation-mcq-13",
-        "explanation-mcq-08"
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「simple explanation」指「用較簡單方式說明困難內容的解釋」。",
       "sentenceIndex": 25,
@@ -1014,12 +868,8 @@ export default {
         "simple explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-11": "本句指「用較簡單方式說明困難內容的解釋」。",
-        "explanation-mcq-10": "「容易理解、能有效消除困惑的解釋」與本句語境不同。",
-        "explanation-mcq-12": "「包含較多細節與完整說明的解釋」與本句語境不同。",
-        "explanation-mcq-09": "「對某結果或現象提出的一種合理可能原因」與本句語境不同。",
-        "explanation-mcq-13": "「沒有說明原因或沒有作出交代」與本句語境不同。",
-        "explanation-mcq-08": "「用來說明某種現象如何或為何發生的理論／機制解釋」與本句語境不同。"
+        "explanation-mcq-11": "本句的「simple explanation」指「用較簡單方式說明困難內容的解釋」。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-11"
     },
@@ -1031,10 +881,6 @@ export default {
       "masked": "The textbook provides a ____.",
       "options": [
         "explanation-mcq-12",
-        "explanation-mcq-11",
-        "explanation-mcq-13",
-        "explanation-mcq-10",
-        "explanation-mcq-14",
         "explanation-mcq-09"
       ],
       "explanation": "本句的「detailed explanation」指「包含較多細節與完整說明的解釋」。",
@@ -1044,12 +890,8 @@ export default {
         "detailed explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-12": "本句指「包含較多細節與完整說明的解釋」。",
-        "explanation-mcq-11": "「用較簡單方式說明困難內容的解釋」與本句語境不同。",
-        "explanation-mcq-13": "「沒有說明原因或沒有作出交代」與本句語境不同。",
-        "explanation-mcq-10": "「容易理解、能有效消除困惑的解釋」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。",
-        "explanation-mcq-09": "「對某結果或現象提出的一種合理可能原因」與本句語境不同。"
+        "explanation-mcq-12": "本句的「detailed explanation」指「包含較多細節與完整說明的解釋」。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-12"
     },
@@ -1061,10 +903,6 @@ export default {
       "masked": "He gave a ____ of the process.",
       "options": [
         "explanation-mcq-12",
-        "explanation-mcq-11",
-        "explanation-mcq-13",
-        "explanation-mcq-10",
-        "explanation-mcq-14",
         "explanation-mcq-09"
       ],
       "explanation": "本句的「detailed explanation」指「包含較多細節與完整說明的解釋」。",
@@ -1074,12 +912,8 @@ export default {
         "detailed explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-12": "本句指「包含較多細節與完整說明的解釋」。",
-        "explanation-mcq-11": "「用較簡單方式說明困難內容的解釋」與本句語境不同。",
-        "explanation-mcq-13": "「沒有說明原因或沒有作出交代」與本句語境不同。",
-        "explanation-mcq-10": "「容易理解、能有效消除困惑的解釋」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。",
-        "explanation-mcq-09": "「對某結果或現象提出的一種合理可能原因」與本句語境不同。"
+        "explanation-mcq-12": "本句的「detailed explanation」指「包含較多細節與完整說明的解釋」。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-12"
     },
@@ -1091,11 +925,7 @@ export default {
       "masked": "There was ____ for the sudden failure.",
       "options": [
         "explanation-mcq-13",
-        "explanation-mcq-12",
-        "explanation-mcq-14",
-        "explanation-mcq-11",
-        "explanation-mcq-15",
-        "explanation-mcq-10"
+        "explanation-mcq-02"
       ],
       "explanation": "本句的「no explanation」指「沒有說明原因或沒有作出交代」。",
       "sentenceIndex": 28,
@@ -1104,12 +934,8 @@ export default {
         "no explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-13": "本句指「沒有說明原因或沒有作出交代」。",
-        "explanation-mcq-12": "「包含較多細節與完整說明的解釋」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。",
-        "explanation-mcq-11": "「用較簡單方式說明困難內容的解釋」與本句語境不同。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-10": "「容易理解、能有效消除困惑的解釋」與本句語境不同。"
+        "explanation-mcq-13": "本句的「no explanation」指「沒有說明原因或沒有作出交代」。",
+        "explanation-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-13"
     },
@@ -1121,11 +947,7 @@ export default {
       "masked": "He left without any ____.",
       "options": [
         "explanation-mcq-13",
-        "explanation-mcq-12",
-        "explanation-mcq-14",
-        "explanation-mcq-11",
-        "explanation-mcq-15",
-        "explanation-mcq-10"
+        "explanation-mcq-16"
       ],
       "explanation": "本句的「explanation」指「沒有說明原因或沒有作出交代」。",
       "sentenceIndex": 29,
@@ -1134,12 +956,8 @@ export default {
         "explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-13": "本句指「沒有說明原因或沒有作出交代」。",
-        "explanation-mcq-12": "「包含較多細節與完整說明的解釋」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。",
-        "explanation-mcq-11": "「用較簡單方式說明困難內容的解釋」與本句語境不同。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-10": "「容易理解、能有效消除困惑的解釋」與本句語境不同。"
+        "explanation-mcq-13": "本句的「explanation」指「沒有說明原因或沒有作出交代」。",
+        "explanation-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-13"
     },
@@ -1151,11 +969,7 @@ export default {
       "masked": "The meeting was cancelled ____.",
       "options": [
         "explanation-mcq-13",
-        "explanation-mcq-12",
-        "explanation-mcq-14",
-        "explanation-mcq-11",
-        "explanation-mcq-15",
-        "explanation-mcq-10"
+        "explanation-mcq-02"
       ],
       "explanation": "本句的「without explanation」指「沒有說明原因或沒有作出交代」。",
       "sentenceIndex": 30,
@@ -1164,12 +978,8 @@ export default {
         "without explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-13": "本句指「沒有說明原因或沒有作出交代」。",
-        "explanation-mcq-12": "「包含較多細節與完整說明的解釋」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。",
-        "explanation-mcq-11": "「用較簡單方式說明困難內容的解釋」與本句語境不同。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-10": "「容易理解、能有效消除困惑的解釋」與本句語境不同。"
+        "explanation-mcq-13": "本句的「without explanation」指「沒有說明原因或沒有作出交代」。",
+        "explanation-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-13"
     },
@@ -1181,11 +991,7 @@ export default {
       "masked": "She disappeared ____.",
       "options": [
         "explanation-mcq-13",
-        "explanation-mcq-12",
-        "explanation-mcq-14",
-        "explanation-mcq-11",
-        "explanation-mcq-15",
-        "explanation-mcq-10"
+        "explanation-mcq-16"
       ],
       "explanation": "本句的「without explanation」指「沒有說明原因或沒有作出交代」。",
       "sentenceIndex": 31,
@@ -1194,12 +1000,8 @@ export default {
         "without explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-13": "本句指「沒有說明原因或沒有作出交代」。",
-        "explanation-mcq-12": "「包含較多細節與完整說明的解釋」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。",
-        "explanation-mcq-11": "「用較簡單方式說明困難內容的解釋」與本句語境不同。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-10": "「容易理解、能有效消除困惑的解釋」與本句語境不同。"
+        "explanation-mcq-13": "本句的「without explanation」指「沒有說明原因或沒有作出交代」。",
+        "explanation-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-13"
     },
@@ -1211,11 +1013,7 @@ export default {
       "masked": "You ____.",
       "options": [
         "explanation-mcq-14",
-        "explanation-mcq-13",
-        "explanation-mcq-15",
-        "explanation-mcq-12",
-        "explanation-mcq-16",
-        "explanation-mcq-11"
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「owe me an explanation」指「有責任向某人解釋或交代」。",
       "sentenceIndex": 32,
@@ -1224,12 +1022,8 @@ export default {
         "owe me an explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-14": "本句指「有責任向某人解釋或交代」。",
-        "explanation-mcq-13": "「沒有說明原因或沒有作出交代」與本句語境不同。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-12": "「包含較多細節與完整說明的解釋」與本句語境不同。",
-        "explanation-mcq-16": "「向某人解釋某件事情」與本句語境不同。",
-        "explanation-mcq-11": "「用較簡單方式說明困難內容的解釋」與本句語境不同。"
+        "explanation-mcq-14": "本句的「owe me an explanation」指「有責任向某人解釋或交代」。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-14"
     },
@@ -1241,11 +1035,7 @@ export default {
       "masked": "He felt he ____.",
       "options": [
         "explanation-mcq-14",
-        "explanation-mcq-13",
-        "explanation-mcq-15",
-        "explanation-mcq-12",
-        "explanation-mcq-16",
-        "explanation-mcq-11"
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「owed his team an explanation」指「有責任向某人解釋或交代」。",
       "sentenceIndex": 33,
@@ -1254,12 +1044,8 @@ export default {
         "owed his team an explanation"
       ],
       "optionReasons": {
-        "explanation-mcq-14": "本句指「有責任向某人解釋或交代」。",
-        "explanation-mcq-13": "「沒有說明原因或沒有作出交代」與本句語境不同。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-12": "「包含較多細節與完整說明的解釋」與本句語境不同。",
-        "explanation-mcq-16": "「向某人解釋某件事情」與本句語境不同。",
-        "explanation-mcq-11": "「用較簡單方式說明困難內容的解釋」與本句語境不同。"
+        "explanation-mcq-14": "本句的「owed his team an explanation」指「有責任向某人解釋或交代」。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-14"
     },
@@ -1271,11 +1057,8 @@ export default {
       "masked": "She ____ clearly.",
       "options": [
         "explanation-mcq-16",
-        "explanation-mcq-15",
-        "explanation-mcq-17",
-        "explanation-mcq-14",
-        "explanation-mcq-18",
-        "explanation-mcq-13"
+        "explanation-mcq-06",
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「explained the idea」指「向某人解釋某件事情」。",
       "sentenceIndex": 34,
@@ -1284,12 +1067,9 @@ export default {
         "explained the idea"
       ],
       "optionReasons": {
-        "explanation-mcq-16": "本句指「向某人解釋某件事情」。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-17": "「說明某事發生的原因／運作方式」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。",
-        "explanation-mcq-18": "「用來解釋或說明內容的」與本句語境不同。",
-        "explanation-mcq-13": "「沒有說明原因或沒有作出交代」與本句語境不同。"
+        "explanation-mcq-16": "本句的「explained the idea」指「向某人解釋某件事情」。",
+        "explanation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-16"
     },
@@ -1301,11 +1081,8 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "explanation-mcq-16",
-        "explanation-mcq-15",
-        "explanation-mcq-17",
-        "explanation-mcq-14",
-        "explanation-mcq-18",
-        "explanation-mcq-13"
+        "explanation-mcq-06",
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「explain why this happened」指「向某人解釋某件事情」。",
       "sentenceIndex": 35,
@@ -1314,12 +1091,9 @@ export default {
         "explain why this happened"
       ],
       "optionReasons": {
-        "explanation-mcq-16": "本句指「向某人解釋某件事情」。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-17": "「說明某事發生的原因／運作方式」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。",
-        "explanation-mcq-18": "「用來解釋或說明內容的」與本句語境不同。",
-        "explanation-mcq-13": "「沒有說明原因或沒有作出交代」與本句語境不同。"
+        "explanation-mcq-16": "本句的「explain why this happened」指「向某人解釋某件事情」。",
+        "explanation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-16"
     },
@@ -1331,11 +1105,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "explanation-mcq-16",
-        "explanation-mcq-15",
-        "explanation-mcq-17",
-        "explanation-mcq-14",
-        "explanation-mcq-18",
-        "explanation-mcq-13"
+        "explanation-mcq-06",
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「explained the formula to us」指「向某人解釋某件事情」。",
       "sentenceIndex": 36,
@@ -1344,12 +1115,9 @@ export default {
         "explained the formula to us"
       ],
       "optionReasons": {
-        "explanation-mcq-16": "本句指「向某人解釋某件事情」。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-17": "「說明某事發生的原因／運作方式」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。",
-        "explanation-mcq-18": "「用來解釋或說明內容的」與本句語境不同。",
-        "explanation-mcq-13": "「沒有說明原因或沒有作出交代」與本句語境不同。"
+        "explanation-mcq-16": "本句的「explained the formula to us」指「向某人解釋某件事情」。",
+        "explanation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-16"
     },
@@ -1361,11 +1129,7 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "explanation-mcq-16",
-        "explanation-mcq-15",
-        "explanation-mcq-17",
-        "explanation-mcq-14",
-        "explanation-mcq-18",
-        "explanation-mcq-13"
+        "explanation-mcq-17"
       ],
       "explanation": "本句的「explain this to me」指「向某人解釋某件事情」。",
       "sentenceIndex": 37,
@@ -1374,12 +1138,8 @@ export default {
         "explain this to me"
       ],
       "optionReasons": {
-        "explanation-mcq-16": "本句指「向某人解釋某件事情」。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-17": "「說明某事發生的原因／運作方式」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。",
-        "explanation-mcq-18": "「用來解釋或說明內容的」與本句語境不同。",
-        "explanation-mcq-13": "「沒有說明原因或沒有作出交代」與本句語境不同。"
+        "explanation-mcq-16": "本句的「explain this to me」指「向某人解釋某件事情」。",
+        "explanation-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-16"
     },
@@ -1391,11 +1151,7 @@ export default {
       "masked": "He ____.",
       "options": [
         "explanation-mcq-17",
-        "explanation-mcq-16",
-        "explanation-mcq-18",
-        "explanation-mcq-15",
-        "explanation-mcq-19",
-        "explanation-mcq-14"
+        "explanation-mcq-07"
       ],
       "explanation": "本句的「explained why the result changed」指「說明某事發生的原因／運作方式」。",
       "sentenceIndex": 38,
@@ -1404,12 +1160,8 @@ export default {
         "explained why the result changed"
       ],
       "optionReasons": {
-        "explanation-mcq-17": "本句指「說明某事發生的原因／運作方式」。",
-        "explanation-mcq-16": "「向某人解釋某件事情」與本句語境不同。",
-        "explanation-mcq-18": "「用來解釋或說明內容的」與本句語境不同。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-19": "「本身已經很清楚，不需要額外解釋的」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。"
+        "explanation-mcq-17": "本句的「explained why the result changed」指「說明某事發生的原因／運作方式」。",
+        "explanation-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-17"
     },
@@ -1421,11 +1173,7 @@ export default {
       "masked": "She ____.",
       "options": [
         "explanation-mcq-17",
-        "explanation-mcq-16",
-        "explanation-mcq-18",
-        "explanation-mcq-15",
-        "explanation-mcq-19",
-        "explanation-mcq-14"
+        "explanation-mcq-02"
       ],
       "explanation": "本句的「explained how the system works」指「說明某事發生的原因／運作方式」。",
       "sentenceIndex": 39,
@@ -1434,12 +1182,8 @@ export default {
         "explained how the system works"
       ],
       "optionReasons": {
-        "explanation-mcq-17": "本句指「說明某事發生的原因／運作方式」。",
-        "explanation-mcq-16": "「向某人解釋某件事情」與本句語境不同。",
-        "explanation-mcq-18": "「用來解釋或說明內容的」與本句語境不同。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-19": "「本身已經很清楚，不需要額外解釋的」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。"
+        "explanation-mcq-17": "本句的「explained how the system works」指「說明某事發生的原因／運作方式」。",
+        "explanation-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-17"
     },
@@ -1451,11 +1195,7 @@ export default {
       "masked": "The diagram includes ____.",
       "options": [
         "explanation-mcq-18",
-        "explanation-mcq-17",
-        "explanation-mcq-19",
-        "explanation-mcq-16",
-        "explanation-mcq-15",
-        "explanation-mcq-14"
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「explanatory notes」指「用來解釋或說明內容的」。",
       "sentenceIndex": 40,
@@ -1464,12 +1204,8 @@ export default {
         "explanatory notes"
       ],
       "optionReasons": {
-        "explanation-mcq-18": "本句指「用來解釋或說明內容的」。",
-        "explanation-mcq-17": "「說明某事發生的原因／運作方式」與本句語境不同。",
-        "explanation-mcq-19": "「本身已經很清楚，不需要額外解釋的」與本句語境不同。",
-        "explanation-mcq-16": "「向某人解釋某件事情」與本句語境不同。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。"
+        "explanation-mcq-18": "本句的「explanatory notes」指「用來解釋或說明內容的」。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-18"
     },
@@ -1481,11 +1217,7 @@ export default {
       "masked": "She added an ____.",
       "options": [
         "explanation-mcq-18",
-        "explanation-mcq-17",
-        "explanation-mcq-19",
-        "explanation-mcq-16",
-        "explanation-mcq-15",
-        "explanation-mcq-14"
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「explanatory paragraph」指「用來解釋或說明內容的」。",
       "sentenceIndex": 41,
@@ -1494,12 +1226,8 @@ export default {
         "explanatory paragraph"
       ],
       "optionReasons": {
-        "explanation-mcq-18": "本句指「用來解釋或說明內容的」。",
-        "explanation-mcq-17": "「說明某事發生的原因／運作方式」與本句語境不同。",
-        "explanation-mcq-19": "「本身已經很清楚，不需要額外解釋的」與本句語境不同。",
-        "explanation-mcq-16": "「向某人解釋某件事情」與本句語境不同。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。"
+        "explanation-mcq-18": "本句的「explanatory paragraph」指「用來解釋或說明內容的」。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-18"
     },
@@ -1511,11 +1239,7 @@ export default {
       "masked": "The instructions are largely ____.",
       "options": [
         "explanation-mcq-19",
-        "explanation-mcq-18",
-        "explanation-mcq-17",
-        "explanation-mcq-16",
-        "explanation-mcq-15",
-        "explanation-mcq-14"
+        "explanation-mcq-04"
       ],
       "explanation": "本句的「self-explanatory」指「本身已經很清楚，不需要額外解釋的」。",
       "sentenceIndex": 42,
@@ -1524,12 +1248,8 @@ export default {
         "self-explanatory"
       ],
       "optionReasons": {
-        "explanation-mcq-19": "本句指「本身已經很清楚，不需要額外解釋的」。",
-        "explanation-mcq-18": "「用來解釋或說明內容的」與本句語境不同。",
-        "explanation-mcq-17": "「說明某事發生的原因／運作方式」與本句語境不同。",
-        "explanation-mcq-16": "「向某人解釋某件事情」與本句語境不同。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。"
+        "explanation-mcq-19": "本句的「self-explanatory」指「本身已經很清楚，不需要額外解釋的」。",
+        "explanation-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-19"
     },
@@ -1541,11 +1261,8 @@ export default {
       "masked": "The chart is ____.",
       "options": [
         "explanation-mcq-19",
-        "explanation-mcq-18",
-        "explanation-mcq-17",
-        "explanation-mcq-16",
-        "explanation-mcq-15",
-        "explanation-mcq-14"
+        "explanation-mcq-06",
+        "explanation-mcq-09"
       ],
       "explanation": "本句的「self-explanatory」指「本身已經很清楚，不需要額外解釋的」。",
       "sentenceIndex": 43,
@@ -1554,12 +1271,9 @@ export default {
         "self-explanatory"
       ],
       "optionReasons": {
-        "explanation-mcq-19": "本句指「本身已經很清楚，不需要額外解釋的」。",
-        "explanation-mcq-18": "「用來解釋或說明內容的」與本句語境不同。",
-        "explanation-mcq-17": "「說明某事發生的原因／運作方式」與本句語境不同。",
-        "explanation-mcq-16": "「向某人解釋某件事情」與本句語境不同。",
-        "explanation-mcq-15": "「透過資訊、原因或例子使某事變得清楚」與本句語境不同。",
-        "explanation-mcq-14": "「有責任向某人解釋或交代」與本句語境不同。"
+        "explanation-mcq-19": "本句的「self-explanatory」指「本身已經很清楚，不需要額外解釋的」。",
+        "explanation-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "explanation-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explanation-mcq-19"
     }
@@ -1571,5 +1285,12 @@ export default {
     "sha256": "747a144fac705a33c5a7125a27ba95451c505783e7bb2bab027b91219d802608",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

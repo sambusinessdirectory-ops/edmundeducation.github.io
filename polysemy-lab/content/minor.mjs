@@ -289,11 +289,9 @@ export default {
       "masked": "The problem was only ____.",
       "options": [
         "minor-mcq-01",
-        "minor-mcq-02",
-        "minor-mcq-03",
-        "minor-mcq-04",
-        "minor-mcq-05",
-        "minor-mcq-06"
+        "minor-mcq-06",
+        "minor-mcq-07",
+        "minor-mcq-04"
       ],
       "explanation": "本句的「minor」指「程度、重要性、影響或嚴重性較低的」。",
       "sentenceIndex": 0,
@@ -302,12 +300,10 @@ export default {
         "minor"
       ],
       "optionReasons": {
-        "minor-mcq-01": "本句指「程度、重要性、影響或嚴重性較低的」。",
-        "minor-mcq-02": "「有一定知名度／地位，但並非主要或頂級的」與本句語境不同。",
-        "minor-mcq-03": "「傷勢、損害或問題程度較輕微的」與本句語境不同。",
-        "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。"
+        "minor-mcq-01": "本句的「minor」指「程度、重要性、影響或嚴重性較低的」。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-01"
     },
@@ -319,11 +315,9 @@ export default {
       "masked": "There were a few ____ changes.",
       "options": [
         "minor-mcq-01",
-        "minor-mcq-02",
-        "minor-mcq-03",
+        "minor-mcq-06",
         "minor-mcq-04",
-        "minor-mcq-05",
-        "minor-mcq-06"
+        "minor-mcq-07"
       ],
       "explanation": "本句的「minor」指「程度、重要性、影響或嚴重性較低的」。",
       "sentenceIndex": 1,
@@ -332,12 +326,10 @@ export default {
         "minor"
       ],
       "optionReasons": {
-        "minor-mcq-01": "本句指「程度、重要性、影響或嚴重性較低的」。",
-        "minor-mcq-02": "「有一定知名度／地位，但並非主要或頂級的」與本句語境不同。",
-        "minor-mcq-03": "「傷勢、損害或問題程度較輕微的」與本句語境不同。",
-        "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。"
+        "minor-mcq-01": "本句的「minor」指「程度、重要性、影響或嚴重性較低的」。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-01"
     },
@@ -349,11 +341,9 @@ export default {
       "masked": "He became a ____ online.",
       "options": [
         "minor-mcq-02",
-        "minor-mcq-01",
-        "minor-mcq-03",
-        "minor-mcq-04",
-        "minor-mcq-05",
-        "minor-mcq-06"
+        "minor-mcq-06",
+        "minor-mcq-10",
+        "minor-mcq-11"
       ],
       "explanation": "本句的「minor celebrity」指「有一定知名度／地位，但並非主要或頂級的」。",
       "sentenceIndex": 2,
@@ -362,12 +352,10 @@ export default {
         "minor celebrity"
       ],
       "optionReasons": {
-        "minor-mcq-02": "本句指「有一定知名度／地位，但並非主要或頂級的」。",
-        "minor-mcq-01": "「程度、重要性、影響或嚴重性較低的」與本句語境不同。",
-        "minor-mcq-03": "「傷勢、損害或問題程度較輕微的」與本句語境不同。",
-        "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。"
+        "minor-mcq-02": "本句的「minor celebrity」指「有一定知名度／地位，但並非主要或頂級的」。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-02"
     },
@@ -379,11 +367,9 @@ export default {
       "masked": "She played a ____ role in the film.",
       "options": [
         "minor-mcq-02",
-        "minor-mcq-01",
-        "minor-mcq-03",
-        "minor-mcq-04",
-        "minor-mcq-05",
-        "minor-mcq-06"
+        "minor-pdf-001",
+        "minor-mcq-06",
+        "minor-mcq-11"
       ],
       "explanation": "本句的「minor」指「有一定知名度／地位，但並非主要或頂級的」。",
       "sentenceIndex": 3,
@@ -392,12 +378,10 @@ export default {
         "minor"
       ],
       "optionReasons": {
-        "minor-mcq-02": "本句指「有一定知名度／地位，但並非主要或頂級的」。",
-        "minor-mcq-01": "「程度、重要性、影響或嚴重性較低的」與本句語境不同。",
-        "minor-mcq-03": "「傷勢、損害或問題程度較輕微的」與本句語境不同。",
-        "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。"
+        "minor-mcq-02": "本句的「minor」指「有一定知名度／地位，但並非主要或頂級的」。",
+        "minor-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-02"
     },
@@ -409,10 +393,8 @@ export default {
       "masked": "He suffered only ____.",
       "options": [
         "minor-mcq-03",
-        "minor-mcq-02",
         "minor-mcq-04",
-        "minor-mcq-01",
-        "minor-mcq-05",
+        "minor-pdf-001",
         "minor-mcq-06"
       ],
       "explanation": "本句的「minor injuries」指「傷勢、損害或問題程度較輕微的」。",
@@ -422,12 +404,10 @@ export default {
         "minor injuries"
       ],
       "optionReasons": {
-        "minor-mcq-03": "本句指「傷勢、損害或問題程度較輕微的」。",
-        "minor-mcq-02": "「有一定知名度／地位，但並非主要或頂級的」與本句語境不同。",
-        "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。",
-        "minor-mcq-01": "「程度、重要性、影響或嚴重性較低的」與本句語境不同。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。"
+        "minor-mcq-03": "本句的「minor injuries」指「傷勢、損害或問題程度較輕微的」。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minor-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-03"
     },
@@ -439,10 +419,8 @@ export default {
       "masked": "The car had ____ damage.",
       "options": [
         "minor-mcq-03",
-        "minor-mcq-02",
+        "minor-pdf-001",
         "minor-mcq-04",
-        "minor-mcq-01",
-        "minor-mcq-05",
         "minor-mcq-06"
       ],
       "explanation": "本句的「minor」指「傷勢、損害或問題程度較輕微的」。",
@@ -452,12 +430,10 @@ export default {
         "minor"
       ],
       "optionReasons": {
-        "minor-mcq-03": "本句指「傷勢、損害或問題程度較輕微的」。",
-        "minor-mcq-02": "「有一定知名度／地位，但並非主要或頂級的」與本句語境不同。",
-        "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。",
-        "minor-mcq-01": "「程度、重要性、影響或嚴重性較低的」與本句語境不同。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。"
+        "minor-mcq-03": "本句的「minor」指「傷勢、損害或問題程度較輕微的」。",
+        "minor-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-03"
     },
@@ -469,11 +445,9 @@ export default {
       "masked": "The law gives extra protection to ____.",
       "options": [
         "minor-mcq-04",
-        "minor-mcq-03",
-        "minor-mcq-05",
-        "minor-mcq-02",
         "minor-mcq-06",
-        "minor-mcq-01"
+        "minor-mcq-08",
+        "minor-mcq-10"
       ],
       "explanation": "本句的「minors」指「尚未達到法定成年年齡的人」。",
       "sentenceIndex": 6,
@@ -482,12 +456,10 @@ export default {
         "minors"
       ],
       "optionReasons": {
-        "minor-mcq-04": "本句指「尚未達到法定成年年齡的人」。",
-        "minor-mcq-03": "「傷勢、損害或問題程度較輕微的」與本句語境不同。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
-        "minor-mcq-02": "「有一定知名度／地位，但並非主要或頂級的」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。",
-        "minor-mcq-01": "「程度、重要性、影響或嚴重性較低的」與本句語境不同。"
+        "minor-mcq-04": "本句的「minors」指「尚未達到法定成年年齡的人」。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-04"
     },
@@ -499,11 +471,9 @@ export default {
       "masked": "A ____ may need parental consent.",
       "options": [
         "minor-mcq-04",
-        "minor-mcq-03",
+        "minor-pdf-001",
         "minor-mcq-05",
-        "minor-mcq-02",
-        "minor-mcq-06",
-        "minor-mcq-01"
+        "minor-mcq-11"
       ],
       "explanation": "本句的「minor」指「尚未達到法定成年年齡的人」。",
       "sentenceIndex": 7,
@@ -512,12 +482,10 @@ export default {
         "minor"
       ],
       "optionReasons": {
-        "minor-mcq-04": "本句指「尚未達到法定成年年齡的人」。",
-        "minor-mcq-03": "「傷勢、損害或問題程度較輕微的」與本句語境不同。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
-        "minor-mcq-02": "「有一定知名度／地位，但並非主要或頂級的」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。",
-        "minor-mcq-01": "「程度、重要性、影響或嚴重性較低的」與本句語境不同。"
+        "minor-mcq-04": "本句的「minor」指「尚未達到法定成年年齡的人」。",
+        "minor-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-04"
     },
@@ -529,11 +497,9 @@ export default {
       "masked": "Her major is economics and her ____ is psychology.",
       "options": [
         "minor-mcq-05",
+        "minor-pdf-001",
         "minor-mcq-04",
-        "minor-mcq-06",
-        "minor-mcq-03",
-        "minor-mcq-07",
-        "minor-mcq-02"
+        "minor-mcq-09"
       ],
       "explanation": "本句的「minor」指「大學中相對於主修科目較次要的副修領域」。",
       "sentenceIndex": 8,
@@ -542,12 +508,10 @@ export default {
         "minor"
       ],
       "optionReasons": {
-        "minor-mcq-05": "本句指「大學中相對於主修科目較次要的副修領域」。",
-        "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。",
-        "minor-mcq-03": "「傷勢、損害或問題程度較輕微的」與本句語境不同。",
-        "minor-mcq-07": "「屬於小調音階／和聲系統的」與本句語境不同。",
-        "minor-mcq-02": "「有一定知名度／地位，但並非主要或頂級的」與本句語境不同。"
+        "minor-mcq-05": "本句的「minor」指「大學中相對於主修科目較次要的副修領域」。",
+        "minor-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-05"
     },
@@ -559,11 +523,9 @@ export default {
       "masked": "He completed a ____ in history.",
       "options": [
         "minor-mcq-05",
-        "minor-mcq-04",
-        "minor-mcq-06",
-        "minor-mcq-03",
         "minor-mcq-07",
-        "minor-mcq-02"
+        "minor-mcq-04",
+        "minor-mcq-09"
       ],
       "explanation": "本句的「minor」指「大學中相對於主修科目較次要的副修領域」。",
       "sentenceIndex": 9,
@@ -572,12 +534,10 @@ export default {
         "minor"
       ],
       "optionReasons": {
-        "minor-mcq-05": "本句指「大學中相對於主修科目較次要的副修領域」。",
-        "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。",
-        "minor-mcq-03": "「傷勢、損害或問題程度較輕微的」與本句語境不同。",
-        "minor-mcq-07": "「屬於小調音階／和聲系統的」與本句語境不同。",
-        "minor-mcq-02": "「有一定知名度／地位，但並非主要或頂級的」與本句語境不同。"
+        "minor-mcq-05": "本句的「minor」指「大學中相對於主修科目較次要的副修領域」。",
+        "minor-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-05"
     },
@@ -589,11 +549,9 @@ export default {
       "masked": "She ____ in French.",
       "options": [
         "minor-mcq-06",
-        "minor-mcq-05",
         "minor-mcq-07",
-        "minor-mcq-04",
-        "minor-mcq-08",
-        "minor-mcq-03"
+        "minor-mcq-11",
+        "minor-mcq-01"
       ],
       "explanation": "本句的「minored」指「以某科作為副修」。",
       "sentenceIndex": 10,
@@ -602,12 +560,10 @@ export default {
         "minored"
       ],
       "optionReasons": {
-        "minor-mcq-06": "本句指「以某科作為副修」。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
-        "minor-mcq-07": "「屬於小調音階／和聲系統的」與本句語境不同。",
-        "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。",
-        "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
-        "minor-mcq-03": "「傷勢、損害或問題程度較輕微的」與本句語境不同。"
+        "minor-mcq-06": "本句的「minored」指「以某科作為副修」。",
+        "minor-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-06"
     },
@@ -619,11 +575,9 @@ export default {
       "masked": "He majored in biology and ____ in chemistry.",
       "options": [
         "minor-mcq-06",
-        "minor-mcq-05",
-        "minor-mcq-07",
-        "minor-mcq-04",
         "minor-mcq-08",
-        "minor-mcq-03"
+        "minor-pdf-001",
+        "minor-mcq-11"
       ],
       "explanation": "本句的「minored」指「以某科作為副修」。",
       "sentenceIndex": 11,
@@ -632,12 +586,10 @@ export default {
         "minored"
       ],
       "optionReasons": {
-        "minor-mcq-06": "本句指「以某科作為副修」。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
-        "minor-mcq-07": "「屬於小調音階／和聲系統的」與本句語境不同。",
-        "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。",
-        "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
-        "minor-mcq-03": "「傷勢、損害或問題程度較輕微的」與本句語境不同。"
+        "minor-mcq-06": "本句的「minored」指「以某科作為副修」。",
+        "minor-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "minor-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-06"
     },
@@ -649,10 +601,8 @@ export default {
       "masked": "The song is written in a ____.",
       "options": [
         "minor-mcq-07",
-        "minor-mcq-06",
         "minor-mcq-08",
-        "minor-mcq-05",
-        "minor-mcq-09",
+        "minor-mcq-11",
         "minor-mcq-04"
       ],
       "explanation": "本句的「minor key」指「屬於小調音階／和聲系統的」。",
@@ -662,12 +612,10 @@ export default {
         "minor key"
       ],
       "optionReasons": {
-        "minor-mcq-07": "本句指「屬於小調音階／和聲系統的」。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。",
-        "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
-        "minor-mcq-09": "「嚴重程度較低的違法／違規行為」與本句語境不同。",
-        "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。"
+        "minor-mcq-07": "本句的「minor key」指「屬於小調音階／和聲系統的」。",
+        "minor-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-07"
     },
@@ -679,11 +627,9 @@ export default {
       "masked": "The melody shifts from major to ____.",
       "options": [
         "minor-mcq-07",
-        "minor-mcq-06",
-        "minor-mcq-08",
-        "minor-mcq-05",
-        "minor-mcq-09",
-        "minor-mcq-04"
+        "minor-mcq-01",
+        "minor-mcq-04",
+        "minor-mcq-06"
       ],
       "explanation": "本句的「minor」指「屬於小調音階／和聲系統的」。",
       "sentenceIndex": 13,
@@ -692,12 +638,10 @@ export default {
         "minor"
       ],
       "optionReasons": {
-        "minor-mcq-07": "本句指「屬於小調音階／和聲系統的」。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。",
-        "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
-        "minor-mcq-09": "「嚴重程度較低的違法／違規行為」與本句語境不同。",
-        "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。"
+        "minor-mcq-07": "本句的「minor」指「屬於小調音階／和聲系統的」。",
+        "minor-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-07"
     },
@@ -709,11 +653,9 @@ export default {
       "masked": "The piece moves into the ____.",
       "options": [
         "minor-pdf-001",
-        "minor-mcq-06",
         "minor-mcq-08",
-        "minor-mcq-05",
-        "minor-mcq-09",
-        "minor-mcq-04"
+        "minor-mcq-11",
+        "minor-mcq-06"
       ],
       "explanation": "本句的「minor」指「小調調性」。",
       "sentenceIndex": 14,
@@ -722,12 +664,10 @@ export default {
         "minor"
       ],
       "optionReasons": {
-        "minor-pdf-001": "本句指「小調調性」。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。",
-        "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
-        "minor-mcq-09": "「嚴重程度較低的違法／違規行為」與本句語境不同。",
-        "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。"
+        "minor-pdf-001": "本句的「minor」指「小調調性」。",
+        "minor-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-pdf-001"
     },
@@ -739,11 +679,9 @@ export default {
       "masked": "The ending is in C ____.",
       "options": [
         "minor-pdf-001",
-        "minor-mcq-06",
         "minor-mcq-08",
-        "minor-mcq-05",
-        "minor-mcq-09",
-        "minor-mcq-04"
+        "minor-mcq-06",
+        "minor-mcq-11"
       ],
       "explanation": "本句的「minor」指「小調調性」。",
       "sentenceIndex": 15,
@@ -752,12 +690,10 @@ export default {
         "minor"
       ],
       "optionReasons": {
-        "minor-pdf-001": "本句指「小調調性」。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。",
-        "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。",
-        "minor-mcq-09": "「嚴重程度較低的違法／違規行為」與本句語境不同。",
-        "minor-mcq-04": "「尚未達到法定成年年齡的人」與本句語境不同。"
+        "minor-pdf-001": "本句的「minor」指「小調調性」。",
+        "minor-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-pdf-001"
     },
@@ -769,11 +705,9 @@ export default {
       "masked": "The team plays in a ____.",
       "options": [
         "minor-mcq-08",
-        "minor-mcq-07",
-        "minor-mcq-09",
         "minor-mcq-06",
-        "minor-mcq-10",
-        "minor-mcq-05"
+        "minor-mcq-04",
+        "minor-mcq-07"
       ],
       "explanation": "本句的「minor league」指「在等級、規模或層級上低於主要類別的」。",
       "sentenceIndex": 16,
@@ -782,12 +716,10 @@ export default {
         "minor league"
       ],
       "optionReasons": {
-        "minor-mcq-08": "本句指「在等級、規模或層級上低於主要類別的」。",
-        "minor-mcq-07": "「屬於小調音階／和聲系統的」與本句語境不同。",
-        "minor-mcq-09": "「嚴重程度較低的違法／違規行為」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。",
-        "minor-mcq-10": "「相對小型、創傷或風險較低的手術」與本句語境不同。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。"
+        "minor-mcq-08": "本句的「minor league」指「在等級、規模或層級上低於主要類別的」。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-08"
     },
@@ -799,11 +731,9 @@ export default {
       "masked": "The road is a ____ route compared with the motorway.",
       "options": [
         "minor-mcq-08",
-        "minor-mcq-07",
-        "minor-mcq-09",
-        "minor-mcq-06",
-        "minor-mcq-10",
-        "minor-mcq-05"
+        "minor-mcq-11",
+        "minor-mcq-04",
+        "minor-pdf-001"
       ],
       "explanation": "本句的「minor」指「在等級、規模或層級上低於主要類別的」。",
       "sentenceIndex": 17,
@@ -812,12 +742,10 @@ export default {
         "minor"
       ],
       "optionReasons": {
-        "minor-mcq-08": "本句指「在等級、規模或層級上低於主要類別的」。",
-        "minor-mcq-07": "「屬於小調音階／和聲系統的」與本句語境不同。",
-        "minor-mcq-09": "「嚴重程度較低的違法／違規行為」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。",
-        "minor-mcq-10": "「相對小型、創傷或風險較低的手術」與本句語境不同。",
-        "minor-mcq-05": "「大學中相對於主修科目較次要的副修領域」與本句語境不同。"
+        "minor-mcq-08": "本句的「minor」指「在等級、規模或層級上低於主要類別的」。",
+        "minor-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minor-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-08"
     },
@@ -829,11 +757,9 @@ export default {
       "masked": "It was treated as a ____.",
       "options": [
         "minor-mcq-09",
-        "minor-mcq-08",
-        "minor-mcq-10",
-        "minor-mcq-07",
-        "minor-mcq-11",
-        "minor-mcq-06"
+        "minor-mcq-06",
+        "minor-pdf-001",
+        "minor-mcq-02"
       ],
       "explanation": "本句的「minor offence」指「嚴重程度較低的違法／違規行為」。",
       "sentenceIndex": 18,
@@ -842,12 +768,10 @@ export default {
         "minor offence"
       ],
       "optionReasons": {
-        "minor-mcq-09": "本句指「嚴重程度較低的違法／違規行為」。",
-        "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
-        "minor-mcq-10": "「相對小型、創傷或風險較低的手術」與本句語境不同。",
-        "minor-mcq-07": "「屬於小調音階／和聲系統的」與本句語境不同。",
-        "minor-mcq-11": "「整體中人數／比例較少的一部分或群體」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。"
+        "minor-mcq-09": "本句的「minor offence」指「嚴重程度較低的違法／違規行為」。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "minor-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-09"
     },
@@ -859,11 +783,9 @@ export default {
       "masked": "He received a warning for a ____ violation.",
       "options": [
         "minor-mcq-09",
-        "minor-mcq-08",
-        "minor-mcq-10",
-        "minor-mcq-07",
-        "minor-mcq-11",
-        "minor-mcq-06"
+        "minor-pdf-001",
+        "minor-mcq-06",
+        "minor-mcq-04"
       ],
       "explanation": "本句的「minor」指「嚴重程度較低的違法／違規行為」。",
       "sentenceIndex": 19,
@@ -872,12 +794,10 @@ export default {
         "minor"
       ],
       "optionReasons": {
-        "minor-mcq-09": "本句指「嚴重程度較低的違法／違規行為」。",
-        "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
-        "minor-mcq-10": "「相對小型、創傷或風險較低的手術」與本句語境不同。",
-        "minor-mcq-07": "「屬於小調音階／和聲系統的」與本句語境不同。",
-        "minor-mcq-11": "「整體中人數／比例較少的一部分或群體」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。"
+        "minor-mcq-09": "本句的「minor」指「嚴重程度較低的違法／違規行為」。",
+        "minor-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-09"
     },
@@ -889,11 +809,9 @@ export default {
       "masked": "She underwent ____.",
       "options": [
         "minor-mcq-10",
-        "minor-mcq-09",
-        "minor-mcq-11",
-        "minor-mcq-08",
-        "minor-mcq-07",
-        "minor-mcq-06"
+        "minor-mcq-04",
+        "minor-mcq-06",
+        "minor-mcq-02"
       ],
       "explanation": "本句的「minor surgery」指「相對小型、創傷或風險較低的手術」。",
       "sentenceIndex": 20,
@@ -902,12 +820,10 @@ export default {
         "minor surgery"
       ],
       "optionReasons": {
-        "minor-mcq-10": "本句指「相對小型、創傷或風險較低的手術」。",
-        "minor-mcq-09": "「嚴重程度較低的違法／違規行為」與本句語境不同。",
-        "minor-mcq-11": "「整體中人數／比例較少的一部分或群體」與本句語境不同。",
-        "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
-        "minor-mcq-07": "「屬於小調音階／和聲系統的」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。"
+        "minor-mcq-10": "本句的「minor surgery」指「相對小型、創傷或風險較低的手術」。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-10"
     },
@@ -919,11 +835,9 @@ export default {
       "masked": "The procedure is considered ____.",
       "options": [
         "minor-mcq-10",
-        "minor-mcq-09",
-        "minor-mcq-11",
-        "minor-mcq-08",
-        "minor-mcq-07",
-        "minor-mcq-06"
+        "minor-mcq-06",
+        "minor-mcq-02",
+        "minor-mcq-04"
       ],
       "explanation": "本句的「minor」指「相對小型、創傷或風險較低的手術」。",
       "sentenceIndex": 21,
@@ -932,12 +846,10 @@ export default {
         "minor"
       ],
       "optionReasons": {
-        "minor-mcq-10": "本句指「相對小型、創傷或風險較低的手術」。",
-        "minor-mcq-09": "「嚴重程度較低的違法／違規行為」與本句語境不同。",
-        "minor-mcq-11": "「整體中人數／比例較少的一部分或群體」與本句語境不同。",
-        "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
-        "minor-mcq-07": "「屬於小調音階／和聲系統的」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。"
+        "minor-mcq-10": "本句的「minor」指「相對小型、創傷或風險較低的手術」。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-10"
     },
@@ -949,11 +861,9 @@ export default {
       "masked": "Only a ____ of students disagreed.",
       "options": [
         "minor-mcq-11",
-        "minor-mcq-10",
-        "minor-mcq-09",
-        "minor-mcq-08",
-        "minor-mcq-07",
-        "minor-mcq-06"
+        "minor-pdf-001",
+        "minor-mcq-06",
+        "minor-mcq-04"
       ],
       "explanation": "本句的「minority」指「整體中人數／比例較少的一部分或群體」。",
       "sentenceIndex": 24,
@@ -962,12 +872,10 @@ export default {
         "minority"
       ],
       "optionReasons": {
-        "minor-mcq-11": "本句指「整體中人數／比例較少的一部分或群體」。",
-        "minor-mcq-10": "「相對小型、創傷或風險較低的手術」與本句語境不同。",
-        "minor-mcq-09": "「嚴重程度較低的違法／違規行為」與本句語境不同。",
-        "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
-        "minor-mcq-07": "「屬於小調音階／和聲系統的」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。"
+        "minor-mcq-11": "本句的「minority」指「整體中人數／比例較少的一部分或群體」。",
+        "minor-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-11"
     },
@@ -979,9 +887,7 @@ export default {
       "masked": "The proposal was supported by a small ____.",
       "options": [
         "minor-mcq-11",
-        "minor-mcq-10",
-        "minor-mcq-09",
-        "minor-mcq-08",
+        "minor-mcq-04",
         "minor-mcq-07",
         "minor-mcq-06"
       ],
@@ -992,12 +898,10 @@ export default {
         "minority"
       ],
       "optionReasons": {
-        "minor-mcq-11": "本句指「整體中人數／比例較少的一部分或群體」。",
-        "minor-mcq-10": "「相對小型、創傷或風險較低的手術」與本句語境不同。",
-        "minor-mcq-09": "「嚴重程度較低的違法／違規行為」與本句語境不同。",
-        "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
-        "minor-mcq-07": "「屬於小調音階／和聲系統的」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。"
+        "minor-mcq-11": "本句的「minority」指「整體中人數／比例較少的一部分或群體」。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-11"
     },
@@ -1009,11 +913,9 @@ export default {
       "masked": "The policy affects ethnic ____.",
       "options": [
         "minor-mcq-11",
-        "minor-mcq-10",
-        "minor-mcq-09",
-        "minor-mcq-08",
         "minor-mcq-07",
-        "minor-mcq-06"
+        "minor-mcq-08",
+        "minor-mcq-04"
       ],
       "explanation": "本句的「minorities」指「整體中人數／比例較少的一部分或群體」。",
       "sentenceIndex": 26,
@@ -1022,12 +924,10 @@ export default {
         "minorities"
       ],
       "optionReasons": {
-        "minor-mcq-11": "本句指「整體中人數／比例較少的一部分或群體」。",
-        "minor-mcq-10": "「相對小型、創傷或風險較低的手術」與本句語境不同。",
-        "minor-mcq-09": "「嚴重程度較低的違法／違規行為」與本句語境不同。",
-        "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
-        "minor-mcq-07": "「屬於小調音階／和聲系統的」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。"
+        "minor-mcq-11": "本句的「minorities」指「整體中人數／比例較少的一部分或群體」。",
+        "minor-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-11"
     },
@@ -1039,11 +939,9 @@ export default {
       "masked": "Religious ____ may face different challenges.",
       "options": [
         "minor-mcq-11",
-        "minor-mcq-10",
-        "minor-mcq-09",
-        "minor-mcq-08",
-        "minor-mcq-07",
-        "minor-mcq-06"
+        "minor-mcq-04",
+        "minor-mcq-02",
+        "minor-mcq-07"
       ],
       "explanation": "本句的「minorities」指「整體中人數／比例較少的一部分或群體」。",
       "sentenceIndex": 27,
@@ -1052,12 +950,10 @@ export default {
         "minorities"
       ],
       "optionReasons": {
-        "minor-mcq-11": "本句指「整體中人數／比例較少的一部分或群體」。",
-        "minor-mcq-10": "「相對小型、創傷或風險較低的手術」與本句語境不同。",
-        "minor-mcq-09": "「嚴重程度較低的違法／違規行為」與本句語境不同。",
-        "minor-mcq-08": "「在等級、規模或層級上低於主要類別的」與本句語境不同。",
-        "minor-mcq-07": "「屬於小調音階／和聲系統的」與本句語境不同。",
-        "minor-mcq-06": "「以某科作為副修」與本句語境不同。"
+        "minor-mcq-11": "本句的「minorities」指「整體中人數／比例較少的一部分或群體」。",
+        "minor-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "minor-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minor-mcq-11"
     }
@@ -1069,5 +965,7 @@ export default {
     "sha256": "46a8c0a92dc515ccee459b23439ed5a7790ea5cfb78b99feeac1351daa526429",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -584,16 +584,6 @@ export default {
           "This issue is at the top of the agenda.",
           "這個議題是議程中最重要的項目之一／首要議題。",
           "某物最高、最上面的位置或部分"
-        ],
-        [
-          "She is one of the country's top athletes.",
-          "她是全國其中一位頂尖運動員。",
-          "某物最高、最上面的位置或部分"
-        ],
-        [
-          "He studied at a top university.",
-          "他曾就讀一所頂尖大學。",
-          "某物最高、最上面的位置或部分"
         ]
       ],
       "options": [],
@@ -664,6 +654,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "top-reviewed-ba19498848",
+      "title": "在質素、能力、聲譽或表現方面屬於最高水平的",
+      "form": "top · source section 10",
+      "en": "在質素、能力、聲譽或表現方面屬於最高水平的",
+      "zh": "在質素、能力、聲譽或表現方面屬於最高水平的",
+      "note": "對照原始教材第 10 節及例句核實。",
+      "examples": [
+        [
+          "She is one of the country's top athletes.",
+          "她是全國其中一位頂尖運動員。",
+          "在質素、能力、聲譽或表現方面屬於最高水平的"
+        ],
+        [
+          "He studied at a top university.",
+          "他曾就讀一所頂尖大學。",
+          "在質素、能力、聲譽或表現方面屬於最高水平的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -675,11 +687,9 @@ export default {
       "masked": "There is a small flag at the ____.",
       "options": [
         "top-mcq-29",
-        "top-mcq-28",
-        "top-mcq-30",
-        "top-mcq-27",
-        "top-mcq-26",
-        "top-mcq-25"
+        "top-mcq-21",
+        "top-mcq-17",
+        "top-mcq-02"
       ],
       "explanation": "本句的「top of the building」指「某物最高、最上面的位置或部分」。",
       "sentenceIndex": 0,
@@ -688,12 +698,10 @@ export default {
         "top of the building"
       ],
       "optionReasons": {
-        "top-mcq-29": "本句指「某物最高、最上面的位置或部分」。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-30": "「位於某物最高或最上方的位置」是「3. at the top — 在最高處；在最上面」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-mcq-29": "本句的「top of the building」指「某物最高、最上面的位置或部分」。",
+        "top-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-29"
     },
@@ -705,11 +713,9 @@ export default {
       "masked": "Put your name at the ____.",
       "options": [
         "top-mcq-29",
-        "top-mcq-28",
-        "top-mcq-30",
-        "top-mcq-27",
-        "top-mcq-26",
-        "top-mcq-25"
+        "top-mcq-24",
+        "top-mcq-21",
+        "top-mcq-02"
       ],
       "explanation": "本句的「top of the page」指「某物最高、最上面的位置或部分」。",
       "sentenceIndex": 1,
@@ -718,12 +724,10 @@ export default {
         "top of the page"
       ],
       "optionReasons": {
-        "top-mcq-29": "本句指「某物最高、最上面的位置或部分」。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-30": "「位於某物最高或最上方的位置」是「3. at the top — 在最高處；在最上面」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-mcq-29": "本句的「top of the page」指「某物最高、最上面的位置或部分」。",
+        "top-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-29"
     },
@@ -735,11 +739,9 @@ export default {
       "masked": "We finally reached the ____.",
       "options": [
         "top-mcq-02",
-        "top-mcq-01",
-        "top-mcq-03",
-        "top-mcq-04",
-        "top-mcq-05",
-        "top-mcq-06"
+        "top-pdf-001",
+        "top-mcq-17",
+        "top-mcq-24"
       ],
       "explanation": "本句的「top of the hill」指「頁頂」。",
       "sentenceIndex": 2,
@@ -748,12 +750,10 @@ export default {
         "top of the hill"
       ],
       "optionReasons": {
-        "top-mcq-02": "本句指「頁頂」。",
-        "top-mcq-01": "「建築物頂部」是「top of the building」的用法，與本句語境不同。",
-        "top-mcq-03": "「山頂」是「top of the mountain」的用法，與本句語境不同。",
-        "top-mcq-04": "「蓋；頂部」是「a top (container)」的用法，與本句語境不同。",
-        "top-mcq-05": "「上衣」是「a top (clothing)」的用法，與本句語境不同。",
-        "top-mcq-06": "「全班第一／頂尖」是「top of the class」的用法，與本句語境不同。"
+        "top-mcq-02": "本句的「top of the hill」指「頁頂」。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-02"
     },
@@ -765,11 +765,9 @@ export default {
       "masked": "There was snow on the ____.",
       "options": [
         "top-mcq-02",
-        "top-mcq-01",
-        "top-mcq-03",
-        "top-mcq-04",
-        "top-mcq-05",
-        "top-mcq-06"
+        "top-pdf-001",
+        "top-mcq-13",
+        "top-mcq-26"
       ],
       "explanation": "本句的「top of the mountain」指「頁頂」。",
       "sentenceIndex": 3,
@@ -778,12 +776,10 @@ export default {
         "top of the mountain"
       ],
       "optionReasons": {
-        "top-mcq-02": "本句指「頁頂」。",
-        "top-mcq-01": "「建築物頂部」是「top of the building」的用法，與本句語境不同。",
-        "top-mcq-03": "「山頂」是「top of the mountain」的用法，與本句語境不同。",
-        "top-mcq-04": "「蓋；頂部」是「a top (container)」的用法，與本句語境不同。",
-        "top-mcq-05": "「上衣」是「a top (clothing)」的用法，與本句語境不同。",
-        "top-mcq-06": "「全班第一／頂尖」是「top of the class」的用法，與本句語境不同。"
+        "top-mcq-02": "本句的「top of the mountain」指「頁頂」。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-02"
     },
@@ -795,11 +791,9 @@ export default {
       "masked": "Her office is ____.",
       "options": [
         "top-mcq-30",
-        "top-mcq-29",
-        "top-mcq-28",
+        "top-mcq-02",
         "top-mcq-27",
-        "top-mcq-26",
-        "top-mcq-25"
+        "top-mcq-24"
       ],
       "explanation": "本句的「at the top of the building」指「位於某物最高或最上方的位置」。",
       "sentenceIndex": 4,
@@ -808,12 +802,10 @@ export default {
         "at the top of the building"
       ],
       "optionReasons": {
-        "top-mcq-30": "本句指「位於某物最高或最上方的位置」。",
-        "top-mcq-29": "「某物最高、最上面的位置或部分」是「1. top（最上面；頂部） — 頂部；上端」的用法，與本句語境不同。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-mcq-30": "本句的「at the top of the building」指「位於某物最高或最上方的位置」。",
+        "top-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-30"
     },
@@ -825,11 +817,9 @@ export default {
       "masked": "The title appears ____.",
       "options": [
         "top-mcq-30",
-        "top-mcq-29",
-        "top-mcq-28",
-        "top-mcq-27",
-        "top-mcq-26",
-        "top-mcq-25"
+        "top-mcq-02",
+        "top-mcq-21",
+        "top-pdf-001"
       ],
       "explanation": "本句的「at the top of the screen」指「位於某物最高或最上方的位置」。",
       "sentenceIndex": 5,
@@ -838,12 +828,10 @@ export default {
         "at the top of the screen"
       ],
       "optionReasons": {
-        "top-mcq-30": "本句指「位於某物最高或最上方的位置」。",
-        "top-mcq-29": "「某物最高、最上面的位置或部分」是「1. top（最上面；頂部） — 頂部；上端」的用法，與本句語境不同。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-mcq-30": "本句的「at the top of the screen」指「位於某物最高或最上方的位置」。",
+        "top-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-30"
     },
@@ -855,11 +843,9 @@ export default {
       "masked": "Put the ____ back on the bottle.",
       "options": [
         "top-mcq-29",
-        "top-mcq-28",
-        "top-mcq-30",
+        "top-mcq-07",
         "top-mcq-27",
-        "top-mcq-26",
-        "top-mcq-25"
+        "top-mcq-18"
       ],
       "explanation": "本句的「top」指「某物最高、最上面的位置或部分」。",
       "sentenceIndex": 6,
@@ -868,12 +854,10 @@ export default {
         "top"
       ],
       "optionReasons": {
-        "top-mcq-29": "本句指「某物最高、最上面的位置或部分」。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-30": "「位於某物最高或最上方的位置」是「3. at the top — 在最高處；在最上面」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-mcq-29": "本句的「top」指「某物最高、最上面的位置或部分」。",
+        "top-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-29"
     },
@@ -885,11 +869,9 @@ export default {
       "masked": "The box has a clear plastic ____.",
       "options": [
         "top-mcq-29",
-        "top-mcq-28",
-        "top-mcq-30",
-        "top-mcq-27",
-        "top-mcq-26",
-        "top-mcq-25"
+        "top-mcq-07",
+        "top-mcq-16",
+        "top-mcq-20"
       ],
       "explanation": "本句的「top」指「某物最高、最上面的位置或部分」。",
       "sentenceIndex": 7,
@@ -898,12 +880,10 @@ export default {
         "top"
       ],
       "optionReasons": {
-        "top-mcq-29": "本句指「某物最高、最上面的位置或部分」。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-30": "「位於某物最高或最上方的位置」是「3. at the top — 在最高處；在最上面」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-mcq-29": "本句的「top」指「某物最高、最上面的位置或部分」。",
+        "top-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-29"
     },
@@ -915,11 +895,9 @@ export default {
       "masked": "She was wearing a white ____ and black trousers.",
       "options": [
         "top-pdf-001",
-        "top-mcq-04",
-        "top-mcq-06",
-        "top-mcq-03",
-        "top-mcq-07",
-        "top-mcq-02"
+        "top-mcq-24",
+        "top-pdf-002",
+        "top-mcq-26"
       ],
       "explanation": "本句的「top」指「穿在上半身的衣服，尤其指女裝上衣」。",
       "sentenceIndex": 8,
@@ -928,12 +906,10 @@ export default {
         "top"
       ],
       "optionReasons": {
-        "top-pdf-001": "本句指「穿在上半身的衣服，尤其指女裝上衣」。",
-        "top-mcq-04": "「蓋；頂部」是「a top (container)」的用法，與本句語境不同。",
-        "top-mcq-06": "「全班第一／頂尖」是「top of the class」的用法，與本句語境不同。",
-        "top-mcq-03": "「山頂」是「top of the mountain」的用法，與本句語境不同。",
-        "top-mcq-07": "「行業頂尖」是「top of the profession」的用法，與本句語境不同。",
-        "top-mcq-02": "「頁頂」是「top of the page」的用法，與本句語境不同。"
+        "top-pdf-001": "本句的「top」指「穿在上半身的衣服，尤其指女裝上衣」。",
+        "top-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "top-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-pdf-001"
     },
@@ -945,11 +921,9 @@ export default {
       "masked": "I bought two new ____ yesterday.",
       "options": [
         "top-pdf-001",
-        "top-mcq-04",
-        "top-mcq-06",
-        "top-mcq-03",
-        "top-mcq-07",
-        "top-mcq-02"
+        "top-mcq-22",
+        "top-mcq-19",
+        "top-pdf-002"
       ],
       "explanation": "本句的「tops」指「穿在上半身的衣服，尤其指女裝上衣」。",
       "sentenceIndex": 9,
@@ -958,12 +932,10 @@ export default {
         "tops"
       ],
       "optionReasons": {
-        "top-pdf-001": "本句指「穿在上半身的衣服，尤其指女裝上衣」。",
-        "top-mcq-04": "「蓋；頂部」是「a top (container)」的用法，與本句語境不同。",
-        "top-mcq-06": "「全班第一／頂尖」是「top of the class」的用法，與本句語境不同。",
-        "top-mcq-03": "「山頂」是「top of the mountain」的用法，與本句語境不同。",
-        "top-mcq-07": "「行業頂尖」是「top of the profession」的用法，與本句語境不同。",
-        "top-mcq-02": "「頁頂」是「top of the page」的用法，與本句語境不同。"
+        "top-pdf-001": "本句的「tops」指「穿在上半身的衣服，尤其指女裝上衣」。",
+        "top-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "top-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-pdf-001"
     },
@@ -975,11 +947,9 @@ export default {
       "masked": "Their team is at the ____.",
       "options": [
         "top-mcq-29",
-        "top-mcq-28",
-        "top-mcq-30",
-        "top-mcq-27",
+        "top-mcq-19",
         "top-mcq-26",
-        "top-mcq-25"
+        "top-pdf-001"
       ],
       "explanation": "本句的「top of the league」指「某物最高、最上面的位置或部分」。",
       "sentenceIndex": 10,
@@ -988,12 +958,10 @@ export default {
         "top of the league"
       ],
       "optionReasons": {
-        "top-mcq-29": "本句指「某物最高、最上面的位置或部分」。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-30": "「位於某物最高或最上方的位置」是「3. at the top — 在最高處；在最上面」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-mcq-29": "本句的「top of the league」指「某物最高、最上面的位置或部分」。",
+        "top-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-29"
     },
@@ -1005,11 +973,9 @@ export default {
       "masked": "She finished at the ____.",
       "options": [
         "top-mcq-29",
-        "top-mcq-28",
-        "top-mcq-30",
         "top-mcq-27",
-        "top-mcq-26",
-        "top-mcq-25"
+        "top-mcq-18",
+        "top-mcq-07"
       ],
       "explanation": "本句的「top of her class」指「某物最高、最上面的位置或部分」。",
       "sentenceIndex": 11,
@@ -1018,12 +984,10 @@ export default {
         "top of her class"
       ],
       "optionReasons": {
-        "top-mcq-29": "本句指「某物最高、最上面的位置或部分」。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-30": "「位於某物最高或最上方的位置」是「3. at the top — 在最高處；在最上面」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-mcq-29": "本句的「top of her class」指「某物最高、最上面的位置或部分」。",
+        "top-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-29"
     },
@@ -1035,11 +999,9 @@ export default {
       "masked": "She is at the ____.",
       "options": [
         "top-mcq-07",
-        "top-mcq-06",
-        "top-mcq-08",
-        "top-mcq-05",
-        "top-mcq-09",
-        "top-mcq-04"
+        "top-mcq-24",
+        "top-mcq-26",
+        "top-mcq-28"
       ],
       "explanation": "本句的「top of her profession」指「行業頂尖」。",
       "sentenceIndex": 12,
@@ -1048,12 +1010,10 @@ export default {
         "top of her profession"
       ],
       "optionReasons": {
-        "top-mcq-07": "本句指「行業頂尖」。",
-        "top-mcq-06": "「全班第一／頂尖」是「top of the class」的用法，與本句語境不同。",
-        "top-mcq-08": "「最高一層」是「top floor」的用法，與本句語境不同。",
-        "top-mcq-05": "「上衣」是「a top (clothing)」的用法，與本句語境不同。",
-        "top-mcq-09": "「首要事項」是「top priority」的用法，與本句語境不同。",
-        "top-mcq-04": "「蓋；頂部」是「a top (container)」的用法，與本句語境不同。"
+        "top-mcq-07": "本句的「top of her profession」指「行業頂尖」。",
+        "top-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-07"
     },
@@ -1065,11 +1025,9 @@ export default {
       "masked": "It takes years to reach the ____.",
       "options": [
         "top-mcq-07",
-        "top-mcq-06",
-        "top-mcq-08",
-        "top-mcq-05",
-        "top-mcq-09",
-        "top-mcq-04"
+        "top-mcq-30",
+        "top-mcq-17",
+        "top-mcq-16"
       ],
       "explanation": "本句的「top of the field」指「行業頂尖」。",
       "sentenceIndex": 13,
@@ -1078,12 +1036,10 @@ export default {
         "top of the field"
       ],
       "optionReasons": {
-        "top-mcq-07": "本句指「行業頂尖」。",
-        "top-mcq-06": "「全班第一／頂尖」是「top of the class」的用法，與本句語境不同。",
-        "top-mcq-08": "「最高一層」是「top floor」的用法，與本句語境不同。",
-        "top-mcq-05": "「上衣」是「a top (clothing)」的用法，與本句語境不同。",
-        "top-mcq-09": "「首要事項」是「top priority」的用法，與本句語境不同。",
-        "top-mcq-04": "「蓋；頂部」是「a top (container)」的用法，與本句語境不同。"
+        "top-mcq-07": "本句的「top of the field」指「行業頂尖」。",
+        "top-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-07"
     },
@@ -1095,11 +1051,9 @@ export default {
       "masked": "The restaurant is on the ____.",
       "options": [
         "top-mcq-29",
-        "top-mcq-28",
-        "top-mcq-30",
-        "top-mcq-27",
-        "top-mcq-26",
-        "top-mcq-25"
+        "top-pdf-001",
+        "top-mcq-16",
+        "top-mcq-18"
       ],
       "explanation": "本句的「top floor」指「某物最高、最上面的位置或部分」。",
       "sentenceIndex": 14,
@@ -1108,12 +1062,10 @@ export default {
         "top floor"
       ],
       "optionReasons": {
-        "top-mcq-29": "本句指「某物最高、最上面的位置或部分」。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-30": "「位於某物最高或最上方的位置」是「3. at the top — 在最高處；在最上面」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-mcq-29": "本句的「top floor」指「某物最高、最上面的位置或部分」。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-29"
     },
@@ -1125,11 +1077,9 @@ export default {
       "masked": "Put the books on the ____.",
       "options": [
         "top-mcq-29",
-        "top-mcq-28",
-        "top-mcq-30",
-        "top-mcq-27",
-        "top-mcq-26",
-        "top-mcq-25"
+        "top-mcq-16",
+        "top-mcq-20",
+        "top-mcq-22"
       ],
       "explanation": "本句的「top shelf」指「某物最高、最上面的位置或部分」。",
       "sentenceIndex": 15,
@@ -1138,12 +1088,10 @@ export default {
         "top shelf"
       ],
       "optionReasons": {
-        "top-mcq-29": "本句指「某物最高、最上面的位置或部分」。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-30": "「位於某物最高或最上方的位置」是「3. at the top — 在最高處；在最上面」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-mcq-29": "本句的「top shelf」指「某物最高、最上面的位置或部分」。",
+        "top-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-29"
     },
@@ -1155,11 +1103,9 @@ export default {
       "masked": "Safety is our ____.",
       "options": [
         "top-mcq-29",
-        "top-mcq-28",
-        "top-mcq-30",
-        "top-mcq-27",
-        "top-mcq-26",
-        "top-mcq-25"
+        "top-mcq-20",
+        "top-mcq-07",
+        "top-mcq-26"
       ],
       "explanation": "本句的「top priority」指「某物最高、最上面的位置或部分」。",
       "sentenceIndex": 16,
@@ -1168,12 +1114,10 @@ export default {
         "top priority"
       ],
       "optionReasons": {
-        "top-mcq-29": "本句指「某物最高、最上面的位置或部分」。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-30": "「位於某物最高或最上方的位置」是「3. at the top — 在最高處；在最上面」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-mcq-29": "本句的「top priority」指「某物最高、最上面的位置或部分」。",
+        "top-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-29"
     },
@@ -1185,11 +1129,9 @@ export default {
       "masked": "This issue is at the ____.",
       "options": [
         "top-mcq-29",
-        "top-mcq-28",
-        "top-mcq-30",
-        "top-mcq-27",
-        "top-mcq-26",
-        "top-mcq-25"
+        "top-mcq-25",
+        "top-mcq-19",
+        "top-mcq-27"
       ],
       "explanation": "本句的「top of the agenda」指「某物最高、最上面的位置或部分」。",
       "sentenceIndex": 17,
@@ -1198,74 +1140,68 @@ export default {
         "top of the agenda"
       ],
       "optionReasons": {
-        "top-mcq-29": "本句指「某物最高、最上面的位置或部分」。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-30": "「位於某物最高或最上方的位置」是「3. at the top — 在最高處；在最上面」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-mcq-29": "本句的「top of the agenda」指「某物最高、最上面的位置或部分」。",
+        "top-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-29"
     },
     {
       "id": "top-10-0",
-      "sense": "top-mcq-29",
+      "sense": "top-reviewed-ba19498848",
       "en": "She is one of the country's top athletes.",
       "zh": "她是全國其中一位頂尖運動員。",
       "masked": "She is one of the country's ____.",
       "options": [
-        "top-mcq-29",
-        "top-mcq-28",
-        "top-mcq-30",
-        "top-mcq-27",
-        "top-mcq-26",
-        "top-mcq-25"
+        "top-reviewed-ba19498848",
+        "top-mcq-25",
+        "top-pdf-001",
+        "top-mcq-19"
       ],
-      "explanation": "本句的「top athletes」指「某物最高、最上面的位置或部分」。",
+      "explanation": "對照完整句子：「她是全國其中一位頂尖運動員。」。這裡的「top athletes」表示「在質素、能力、聲譽或表現方面屬於最高水平的」。",
       "sentenceIndex": 18,
       "sourcePractice": 1,
       "targets": [
         "top athletes"
       ],
       "optionReasons": {
-        "top-mcq-29": "本句指「某物最高、最上面的位置或部分」。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-30": "「位於某物最高或最上方的位置」是「3. at the top — 在最高處；在最上面」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-reviewed-ba19498848": "對照完整句子：「她是全國其中一位頂尖運動員。」。這裡的「top athletes」表示「在質素、能力、聲譽或表現方面屬於最高水平的」。",
+        "top-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "top-mcq-29"
+      "correctOption": "top-reviewed-ba19498848",
+      "previousCorrectOption": "top-mcq-29",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "top-10-1",
-      "sense": "top-mcq-29",
+      "sense": "top-reviewed-ba19498848",
       "en": "He studied at a top university.",
       "zh": "他曾就讀一所頂尖大學。",
       "masked": "He studied at a ____.",
       "options": [
-        "top-mcq-29",
-        "top-mcq-28",
-        "top-mcq-30",
-        "top-mcq-27",
-        "top-mcq-26",
-        "top-mcq-25"
+        "top-reviewed-ba19498848",
+        "top-mcq-23",
+        "top-mcq-20",
+        "top-mcq-19"
       ],
-      "explanation": "本句的「top university」指「某物最高、最上面的位置或部分」。",
+      "explanation": "對照完整句子：「他曾就讀一所頂尖大學。」。這裡的「top university」表示「在質素、能力、聲譽或表現方面屬於最高水平的」。",
       "sentenceIndex": 19,
       "sourcePractice": 2,
       "targets": [
         "top university"
       ],
       "optionReasons": {
-        "top-mcq-29": "本句指「某物最高、最上面的位置或部分」。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-30": "「位於某物最高或最上方的位置」是「3. at the top — 在最高處；在最上面」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-reviewed-ba19498848": "對照完整句子：「他曾就讀一所頂尖大學。」。這裡的「top university」表示「在質素、能力、聲譽或表現方面屬於最高水平的」。",
+        "top-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "top-mcq-29"
+      "correctOption": "top-reviewed-ba19498848",
+      "previousCorrectOption": "top-mcq-29",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "top-11-0",
@@ -1275,11 +1211,9 @@ export default {
       "masked": "The restaurant uses ____.",
       "options": [
         "top-mcq-11",
-        "top-mcq-10",
-        "top-mcq-12",
-        "top-mcq-09",
-        "top-mcq-13",
-        "top-mcq-08"
+        "top-mcq-07",
+        "top-mcq-19",
+        "top-pdf-001"
       ],
       "explanation": "本句的「top-quality ingredients」指「最高品質」。",
       "sentenceIndex": 20,
@@ -1288,12 +1222,10 @@ export default {
         "top-quality ingredients"
       ],
       "optionReasons": {
-        "top-mcq-11": "本句指「最高品質」。",
-        "top-mcq-10": "「頂尖運動員」是「top athlete」的用法，與本句語境不同。",
-        "top-mcq-12": "「最高速度」是「top speed」的用法，與本句語境不同。",
-        "top-mcq-09": "「首要事項」是「top priority」的用法，與本句語境不同。",
-        "top-mcq-13": "「最高層級／水平」是「top level」的用法，與本句語境不同。",
-        "top-mcq-08": "「最高一層」是「top floor」的用法，與本句語境不同。"
+        "top-mcq-11": "本句的「top-quality ingredients」指「最高品質」。",
+        "top-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-11"
     },
@@ -1305,11 +1237,9 @@ export default {
       "masked": "Customers expect ____ at this price.",
       "options": [
         "top-mcq-11",
-        "top-mcq-10",
-        "top-mcq-12",
-        "top-mcq-09",
-        "top-mcq-13",
-        "top-mcq-08"
+        "top-pdf-001",
+        "top-pdf-002",
+        "top-mcq-18"
       ],
       "explanation": "本句的「top quality」指「最高品質」。",
       "sentenceIndex": 21,
@@ -1318,12 +1248,10 @@ export default {
         "top quality"
       ],
       "optionReasons": {
-        "top-mcq-11": "本句指「最高品質」。",
-        "top-mcq-10": "「頂尖運動員」是「top athlete」的用法，與本句語境不同。",
-        "top-mcq-12": "「最高速度」是「top speed」的用法，與本句語境不同。",
-        "top-mcq-09": "「首要事項」是「top priority」的用法，與本句語境不同。",
-        "top-mcq-13": "「最高層級／水平」是「top level」的用法，與本句語境不同。",
-        "top-mcq-08": "「最高一層」是「top floor」的用法，與本句語境不同。"
+        "top-mcq-11": "本句的「top quality」指「最高品質」。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "top-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-11"
     },
@@ -1335,11 +1263,9 @@ export default {
       "masked": "The car can reach a ____ of 220 kilometres per hour.",
       "options": [
         "top-mcq-12",
-        "top-mcq-11",
-        "top-mcq-13",
-        "top-mcq-10",
-        "top-mcq-14",
-        "top-mcq-09"
+        "top-mcq-18",
+        "top-mcq-16",
+        "top-pdf-002"
       ],
       "explanation": "本句的「top speed」指「最高速度」。",
       "sentenceIndex": 22,
@@ -1348,12 +1274,10 @@ export default {
         "top speed"
       ],
       "optionReasons": {
-        "top-mcq-12": "本句指「最高速度」。",
-        "top-mcq-11": "「最高品質」是「top quality」的用法，與本句語境不同。",
-        "top-mcq-13": "「最高層級／水平」是「top level」的用法，與本句語境不同。",
-        "top-mcq-10": "「頂尖運動員」是「top athlete」的用法，與本句語境不同。",
-        "top-mcq-14": "「位居榜首」是「top the charts」的用法，與本句語境不同。",
-        "top-mcq-09": "「首要事項」是「top priority」的用法，與本句語境不同。"
+        "top-mcq-12": "本句的「top speed」指「最高速度」。",
+        "top-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "top-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-12"
     },
@@ -1365,11 +1289,9 @@ export default {
       "masked": "The train was travelling at ____.",
       "options": [
         "top-mcq-12",
-        "top-mcq-11",
-        "top-mcq-13",
-        "top-mcq-10",
-        "top-mcq-14",
-        "top-mcq-09"
+        "top-mcq-23",
+        "top-mcq-21",
+        "top-mcq-16"
       ],
       "explanation": "本句的「top speed」指「最高速度」。",
       "sentenceIndex": 23,
@@ -1378,12 +1300,10 @@ export default {
         "top speed"
       ],
       "optionReasons": {
-        "top-mcq-12": "本句指「最高速度」。",
-        "top-mcq-11": "「最高品質」是「top quality」的用法，與本句語境不同。",
-        "top-mcq-13": "「最高層級／水平」是「top level」的用法，與本句語境不同。",
-        "top-mcq-10": "「頂尖運動員」是「top athlete」的用法，與本句語境不同。",
-        "top-mcq-14": "「位居榜首」是「top the charts」的用法，與本句語境不同。",
-        "top-mcq-09": "「首要事項」是「top priority」的用法，與本句語境不同。"
+        "top-mcq-12": "本句的「top speed」指「最高速度」。",
+        "top-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-12"
     },
@@ -1395,11 +1315,9 @@ export default {
       "masked": "She has competed at the ____ for years.",
       "options": [
         "top-mcq-13",
-        "top-mcq-12",
-        "top-mcq-14",
-        "top-mcq-11",
         "top-mcq-15",
-        "top-mcq-10"
+        "top-mcq-25",
+        "top-mcq-02"
       ],
       "explanation": "本句的「top level」指「最高層級／水平」。",
       "sentenceIndex": 24,
@@ -1408,12 +1326,10 @@ export default {
         "top level"
       ],
       "optionReasons": {
-        "top-mcq-13": "本句指「最高層級／水平」。",
-        "top-mcq-12": "「最高速度」是「top speed」的用法，與本句語境不同。",
-        "top-mcq-14": "「位居榜首」是「top the charts」的用法，與本句語境不同。",
-        "top-mcq-11": "「最高品質」是「top quality」的用法，與本句語境不同。",
-        "top-mcq-15": "「位居首位」是「top the list」的用法，與本句語境不同。",
-        "top-mcq-10": "「頂尖運動員」是「top athlete」的用法，與本句語境不同。"
+        "top-mcq-13": "本句的「top level」指「最高層級／水平」。",
+        "top-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-13"
     },
@@ -1425,11 +1341,9 @@ export default {
       "masked": "The decision was made at the ____.",
       "options": [
         "top-mcq-13",
-        "top-mcq-12",
-        "top-mcq-14",
-        "top-mcq-11",
         "top-mcq-15",
-        "top-mcq-10"
+        "top-mcq-24",
+        "top-mcq-22"
       ],
       "explanation": "本句的「top level of management」指「最高層級／水平」。",
       "sentenceIndex": 25,
@@ -1438,12 +1352,10 @@ export default {
         "top level of management"
       ],
       "optionReasons": {
-        "top-mcq-13": "本句指「最高層級／水平」。",
-        "top-mcq-12": "「最高速度」是「top speed」的用法，與本句語境不同。",
-        "top-mcq-14": "「位居榜首」是「top the charts」的用法，與本句語境不同。",
-        "top-mcq-11": "「最高品質」是「top quality」的用法，與本句語境不同。",
-        "top-mcq-15": "「位居首位」是「top the list」的用法，與本句語境不同。",
-        "top-mcq-10": "「頂尖運動員」是「top athlete」的用法，與本句語境不同。"
+        "top-mcq-13": "本句的「top level of management」指「最高層級／水平」。",
+        "top-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-13"
     },
@@ -1455,11 +1367,9 @@ export default {
       "masked": "The song ____ for three weeks.",
       "options": [
         "top-pdf-002",
-        "top-mcq-13",
-        "top-mcq-15",
-        "top-mcq-12",
-        "top-mcq-16",
-        "top-mcq-11"
+        "top-mcq-27",
+        "top-mcq-26",
+        "top-mcq-23"
       ],
       "explanation": "本句的「topped the charts」指「在排名、成績或排行榜上位居第一」。",
       "sentenceIndex": 26,
@@ -1468,12 +1378,10 @@ export default {
         "topped the charts"
       ],
       "optionReasons": {
-        "top-pdf-002": "本句指「在排名、成績或排行榜上位居第一」。",
-        "top-mcq-13": "「最高層級／水平」是「top level」的用法，與本句語境不同。",
-        "top-mcq-15": "「位居首位」是「top the list」的用法，與本句語境不同。",
-        "top-mcq-12": "「最高速度」是「top speed」的用法，與本句語境不同。",
-        "top-mcq-16": "「超過紀錄／數字」是「top a record/figure」的用法，與本句語境不同。",
-        "top-mcq-11": "「最高品質」是「top quality」的用法，與本句語境不同。"
+        "top-pdf-002": "本句的「topped the charts」指「在排名、成績或排行榜上位居第一」。",
+        "top-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-pdf-002"
     },
@@ -1485,11 +1393,9 @@ export default {
       "masked": "She ____ in mathematics.",
       "options": [
         "top-pdf-002",
-        "top-mcq-13",
-        "top-mcq-15",
-        "top-mcq-12",
-        "top-mcq-16",
-        "top-mcq-11"
+        "top-pdf-001",
+        "top-mcq-22",
+        "top-mcq-16"
       ],
       "explanation": "本句的「topped the class」指「在排名、成績或排行榜上位居第一」。",
       "sentenceIndex": 27,
@@ -1498,12 +1404,10 @@ export default {
         "topped the class"
       ],
       "optionReasons": {
-        "top-pdf-002": "本句指「在排名、成績或排行榜上位居第一」。",
-        "top-mcq-13": "「最高層級／水平」是「top level」的用法，與本句語境不同。",
-        "top-mcq-15": "「位居首位」是「top the list」的用法，與本句語境不同。",
-        "top-mcq-12": "「最高速度」是「top speed」的用法，與本句語境不同。",
-        "top-mcq-16": "「超過紀錄／數字」是「top a record/figure」的用法，與本句語境不同。",
-        "top-mcq-11": "「最高品質」是「top quality」的用法，與本句語境不同。"
+        "top-pdf-002": "本句的「topped the class」指「在排名、成績或排行榜上位居第一」。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-pdf-002"
     },
@@ -1515,11 +1419,9 @@ export default {
       "masked": "Cost ____ of customers' concerns.",
       "options": [
         "top-mcq-15",
-        "top-mcq-14",
-        "top-mcq-16",
-        "top-mcq-13",
-        "top-mcq-17",
-        "top-mcq-12"
+        "top-mcq-12",
+        "top-mcq-02",
+        "top-mcq-23"
       ],
       "explanation": "本句的「tops the list」指「位居首位」。",
       "sentenceIndex": 28,
@@ -1528,12 +1430,10 @@ export default {
         "tops the list"
       ],
       "optionReasons": {
-        "top-mcq-15": "本句指「位居首位」。",
-        "top-mcq-14": "「位居榜首」是「top the charts」的用法，與本句語境不同。",
-        "top-mcq-16": "「超過紀錄／數字」是「top a record/figure」的用法，與本句語境不同。",
-        "top-mcq-13": "「最高層級／水平」是「top level」的用法，與本句語境不同。",
-        "top-mcq-17": "「在上面加 X」是「top with X」的用法，與本句語境不同。",
-        "top-mcq-12": "「最高速度」是「top speed」的用法，與本句語境不同。"
+        "top-mcq-15": "本句的「tops the list」指「位居首位」。",
+        "top-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-15"
     },
@@ -1545,11 +1445,9 @@ export default {
       "masked": "Improving safety ____ of priorities.",
       "options": [
         "top-mcq-15",
-        "top-mcq-14",
-        "top-mcq-16",
-        "top-mcq-13",
-        "top-mcq-17",
-        "top-mcq-12"
+        "top-mcq-24",
+        "top-mcq-21",
+        "top-mcq-19"
       ],
       "explanation": "本句的「tops the list」指「位居首位」。",
       "sentenceIndex": 29,
@@ -1558,12 +1456,10 @@ export default {
         "tops the list"
       ],
       "optionReasons": {
-        "top-mcq-15": "本句指「位居首位」。",
-        "top-mcq-14": "「位居榜首」是「top the charts」的用法，與本句語境不同。",
-        "top-mcq-16": "「超過紀錄／數字」是「top a record/figure」的用法，與本句語境不同。",
-        "top-mcq-13": "「最高層級／水平」是「top level」的用法，與本句語境不同。",
-        "top-mcq-17": "「在上面加 X」是「top with X」的用法，與本句語境不同。",
-        "top-mcq-12": "「最高速度」是「top speed」的用法，與本句語境不同。"
+        "top-mcq-15": "本句的「tops the list」指「位居首位」。",
+        "top-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-15"
     },
@@ -1575,11 +1471,9 @@ export default {
       "masked": "Last year's sales ____ ten million dollars.",
       "options": [
         "top-mcq-16",
-        "top-mcq-15",
-        "top-mcq-17",
-        "top-mcq-14",
-        "top-mcq-18",
-        "top-mcq-13"
+        "top-pdf-001",
+        "top-mcq-13",
+        "top-mcq-02"
       ],
       "explanation": "本句的「topped」指「超過紀錄／數字」。",
       "sentenceIndex": 30,
@@ -1588,12 +1482,10 @@ export default {
         "topped"
       ],
       "optionReasons": {
-        "top-mcq-16": "本句指「超過紀錄／數字」。",
-        "top-mcq-15": "「位居首位」是「top the list」的用法，與本句語境不同。",
-        "top-mcq-17": "「在上面加 X」是「top with X」的用法，與本句語境不同。",
-        "top-mcq-14": "「位居榜首」是「top the charts」的用法，與本句語境不同。",
-        "top-mcq-18": "「配料」是「topping」的用法，與本句語境不同。",
-        "top-mcq-13": "「最高層級／水平」是「top level」的用法，與本句語境不同。"
+        "top-mcq-16": "本句的「topped」指「超過紀錄／數字」。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-16"
     },
@@ -1605,11 +1497,9 @@ export default {
       "masked": "It will be difficult to ____ her performance.",
       "options": [
         "top-mcq-16",
-        "top-mcq-15",
-        "top-mcq-17",
-        "top-mcq-14",
-        "top-mcq-18",
-        "top-mcq-13"
+        "top-mcq-27",
+        "top-mcq-02",
+        "top-mcq-22"
       ],
       "explanation": "本句的「top」指「超過紀錄／數字」。",
       "sentenceIndex": 31,
@@ -1618,12 +1508,10 @@ export default {
         "top"
       ],
       "optionReasons": {
-        "top-mcq-16": "本句指「超過紀錄／數字」。",
-        "top-mcq-15": "「位居首位」是「top the list」的用法，與本句語境不同。",
-        "top-mcq-17": "「在上面加 X」是「top with X」的用法，與本句語境不同。",
-        "top-mcq-14": "「位居榜首」是「top the charts」的用法，與本句語境不同。",
-        "top-mcq-18": "「配料」是「topping」的用法，與本句語境不同。",
-        "top-mcq-13": "「最高層級／水平」是「top level」的用法，與本句語境不同。"
+        "top-mcq-16": "本句的「top」指「超過紀錄／數字」。",
+        "top-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-16"
     },
@@ -1635,11 +1523,9 @@ export default {
       "masked": "The cake was ____.",
       "options": [
         "top-mcq-17",
-        "top-mcq-16",
-        "top-mcq-18",
-        "top-mcq-15",
-        "top-mcq-19",
-        "top-mcq-14"
+        "top-pdf-001",
+        "top-pdf-002",
+        "top-mcq-12"
       ],
       "explanation": "本句的「topped with strawberries」指「在上面加 X」。",
       "sentenceIndex": 32,
@@ -1648,12 +1534,10 @@ export default {
         "topped with strawberries"
       ],
       "optionReasons": {
-        "top-mcq-17": "本句指「在上面加 X」。",
-        "top-mcq-16": "「超過紀錄／數字」是「top a record/figure」的用法，與本句語境不同。",
-        "top-mcq-18": "「配料」是「topping」的用法，與本句語境不同。",
-        "top-mcq-15": "「位居首位」是「top the list」的用法，與本句語境不同。",
-        "top-mcq-19": "「在 X 上面」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-14": "「位居榜首」是「top the charts」的用法，與本句語境不同。"
+        "top-mcq-17": "本句的「topped with strawberries」指「在上面加 X」。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "top-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-17"
     },
@@ -1665,11 +1549,9 @@ export default {
       "masked": "The soup is ____.",
       "options": [
         "top-mcq-17",
-        "top-mcq-16",
-        "top-mcq-18",
-        "top-mcq-15",
-        "top-mcq-19",
-        "top-mcq-14"
+        "top-mcq-29",
+        "top-pdf-002",
+        "top-mcq-25"
       ],
       "explanation": "本句的「topped with fresh herbs」指「在上面加 X」。",
       "sentenceIndex": 33,
@@ -1678,12 +1560,10 @@ export default {
         "topped with fresh herbs"
       ],
       "optionReasons": {
-        "top-mcq-17": "本句指「在上面加 X」。",
-        "top-mcq-16": "「超過紀錄／數字」是「top a record/figure」的用法，與本句語境不同。",
-        "top-mcq-18": "「配料」是「topping」的用法，與本句語境不同。",
-        "top-mcq-15": "「位居首位」是「top the list」的用法，與本句語境不同。",
-        "top-mcq-19": "「在 X 上面」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-14": "「位居榜首」是「top the charts」的用法，與本句語境不同。"
+        "top-mcq-17": "本句的「topped with fresh herbs」指「在上面加 X」。",
+        "top-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "top-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-17"
     },
@@ -1695,11 +1575,9 @@ export default {
       "masked": "What ____ would you like on your pizza?",
       "options": [
         "top-mcq-18",
-        "top-mcq-17",
-        "top-mcq-19",
-        "top-mcq-16",
-        "top-mcq-20",
-        "top-mcq-15"
+        "top-mcq-07",
+        "top-reviewed-ba19498848",
+        "top-mcq-25"
       ],
       "explanation": "本句的「toppings」指「配料」。",
       "sentenceIndex": 34,
@@ -1708,12 +1586,10 @@ export default {
         "toppings"
       ],
       "optionReasons": {
-        "top-mcq-18": "本句指「配料」。",
-        "top-mcq-17": "「在上面加 X」是「top with X」的用法，與本句語境不同。",
-        "top-mcq-19": "「在 X 上面」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-16": "「超過紀錄／數字」是「top a record/figure」的用法，與本句語境不同。",
-        "top-mcq-20": "「除 X 外還……」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-15": "「位居首位」是「top the list」的用法，與本句語境不同。"
+        "top-mcq-18": "本句的「toppings」指「配料」。",
+        "top-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "top-reviewed-ba19498848": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-18"
     },
@@ -1725,11 +1601,9 @@ export default {
       "masked": "The ice cream comes with several different ____.",
       "options": [
         "top-mcq-18",
-        "top-mcq-17",
-        "top-mcq-19",
-        "top-mcq-16",
-        "top-mcq-20",
-        "top-mcq-15"
+        "top-mcq-15",
+        "top-mcq-07",
+        "top-reviewed-ba19498848"
       ],
       "explanation": "本句的「toppings」指「配料」。",
       "sentenceIndex": 35,
@@ -1738,12 +1612,10 @@ export default {
         "toppings"
       ],
       "optionReasons": {
-        "top-mcq-18": "本句指「配料」。",
-        "top-mcq-17": "「在上面加 X」是「top with X」的用法，與本句語境不同。",
-        "top-mcq-19": "「在 X 上面」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-16": "「超過紀錄／數字」是「top a record/figure」的用法，與本句語境不同。",
-        "top-mcq-20": "「除 X 外還……」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-15": "「位居首位」是「top the list」的用法，與本句語境不同。"
+        "top-mcq-18": "本句的「toppings」指「配料」。",
+        "top-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "top-reviewed-ba19498848": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-18"
     },
@@ -1755,11 +1627,9 @@ export default {
       "masked": "The keys are ____.",
       "options": [
         "top-mcq-19",
+        "top-mcq-15",
         "top-mcq-18",
-        "top-mcq-20",
-        "top-mcq-17",
-        "top-mcq-21",
-        "top-mcq-16"
+        "top-mcq-07"
       ],
       "explanation": "本句的「on top of the table」指「在 X 上面」。",
       "sentenceIndex": 36,
@@ -1768,12 +1638,10 @@ export default {
         "on top of the table"
       ],
       "optionReasons": {
-        "top-mcq-19": "本句指「在 X 上面」。",
-        "top-mcq-18": "「配料」是「topping」的用法，與本句語境不同。",
-        "top-mcq-20": "「除 X 外還……」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-17": "「在上面加 X」是「top with X」的用法，與本句語境不同。",
-        "top-mcq-21": "「除此之外；而且」是「on top of that」的用法，與本句語境不同。",
-        "top-mcq-16": "「超過紀錄／數字」是「top a record/figure」的用法，與本句語境不同。"
+        "top-mcq-19": "本句的「on top of the table」指「在 X 上面」。",
+        "top-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-19"
     },
@@ -1785,11 +1653,9 @@ export default {
       "masked": "She put the books ____.",
       "options": [
         "top-mcq-19",
-        "top-mcq-18",
-        "top-mcq-20",
-        "top-mcq-17",
-        "top-mcq-21",
-        "top-mcq-16"
+        "top-mcq-23",
+        "top-mcq-22",
+        "top-mcq-30"
       ],
       "explanation": "本句的「on top of the box」指「在 X 上面」。",
       "sentenceIndex": 37,
@@ -1798,12 +1664,10 @@ export default {
         "on top of the box"
       ],
       "optionReasons": {
-        "top-mcq-19": "本句指「在 X 上面」。",
-        "top-mcq-18": "「配料」是「topping」的用法，與本句語境不同。",
-        "top-mcq-20": "「除 X 外還……」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-17": "「在上面加 X」是「top with X」的用法，與本句語境不同。",
-        "top-mcq-21": "「除此之外；而且」是「on top of that」的用法，與本句語境不同。",
-        "top-mcq-16": "「超過紀錄／數字」是「top a record/figure」的用法，與本句語境不同。"
+        "top-mcq-19": "本句的「on top of the box」指「在 X 上面」。",
+        "top-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-19"
     },
@@ -1815,11 +1679,9 @@ export default {
       "masked": "____ his regular job, he also teaches at night.",
       "options": [
         "top-mcq-20",
-        "top-mcq-19",
-        "top-mcq-21",
-        "top-mcq-18",
-        "top-mcq-22",
-        "top-mcq-17"
+        "top-mcq-07",
+        "top-mcq-16",
+        "top-mcq-22"
       ],
       "explanation": "本句的「On top of」指「除 X 外還……」。",
       "sentenceIndex": 38,
@@ -1828,12 +1690,10 @@ export default {
         "On top of"
       ],
       "optionReasons": {
-        "top-mcq-20": "本句指「除 X 外還……」。",
-        "top-mcq-19": "「在 X 上面」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-21": "「除此之外；而且」是「on top of that」的用法，與本句語境不同。",
-        "top-mcq-18": "「配料」是「topping」的用法，與本句語境不同。",
-        "top-mcq-22": "「掌握 X」是「be on top of X」的用法，與本句語境不同。",
-        "top-mcq-17": "「在上面加 X」是「top with X」的用法，與本句語境不同。"
+        "top-mcq-20": "本句的「On top of」指「除 X 外還……」。",
+        "top-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-20"
     },
@@ -1845,11 +1705,9 @@ export default {
       "masked": "We had to pay a service charge ____ the basic price.",
       "options": [
         "top-mcq-20",
-        "top-mcq-19",
-        "top-mcq-21",
-        "top-mcq-18",
-        "top-mcq-22",
-        "top-mcq-17"
+        "top-mcq-11",
+        "top-mcq-23",
+        "top-mcq-07"
       ],
       "explanation": "本句的「on top of」指「除 X 外還……」。",
       "sentenceIndex": 39,
@@ -1858,12 +1716,10 @@ export default {
         "on top of"
       ],
       "optionReasons": {
-        "top-mcq-20": "本句指「除 X 外還……」。",
-        "top-mcq-19": "「在 X 上面」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-21": "「除此之外；而且」是「on top of that」的用法，與本句語境不同。",
-        "top-mcq-18": "「配料」是「topping」的用法，與本句語境不同。",
-        "top-mcq-22": "「掌握 X」是「be on top of X」的用法，與本句語境不同。",
-        "top-mcq-17": "「在上面加 X」是「top with X」的用法，與本句語境不同。"
+        "top-mcq-20": "本句的「on top of」指「除 X 外還……」。",
+        "top-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-20"
     },
@@ -1875,11 +1731,9 @@ export default {
       "masked": "____, he is kind.",
       "options": [
         "top-mcq-21",
-        "top-mcq-20",
-        "top-mcq-22",
-        "top-mcq-19",
-        "top-mcq-23",
-        "top-mcq-18"
+        "top-mcq-12",
+        "top-mcq-24",
+        "top-mcq-22"
       ],
       "explanation": "本句的「On top of that」指「除此之外；而且」。",
       "sentenceIndex": 40,
@@ -1888,12 +1742,10 @@ export default {
         "On top of that"
       ],
       "optionReasons": {
-        "top-mcq-21": "本句指「除此之外；而且」。",
-        "top-mcq-20": "「除 X 外還……」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-22": "「掌握 X」是「be on top of X」的用法，與本句語境不同。",
-        "top-mcq-19": "「在 X 上面」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-23": "「令某人難以應付」是「get on top of someone」的用法，與本句語境不同。",
-        "top-mcq-18": "「配料」是「topping」的用法，與本句語境不同。"
+        "top-mcq-21": "本句的「On top of that」指「除此之外；而且」。",
+        "top-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-21"
     },
@@ -1905,11 +1757,9 @@ export default {
       "masked": "The hotel was expensive, and ____, the service was terrible.",
       "options": [
         "top-mcq-21",
-        "top-mcq-20",
-        "top-mcq-22",
-        "top-mcq-19",
-        "top-mcq-23",
-        "top-mcq-18"
+        "top-mcq-12",
+        "top-mcq-27",
+        "top-mcq-25"
       ],
       "explanation": "本句的「on top of that」指「除此之外；而且」。",
       "sentenceIndex": 41,
@@ -1918,12 +1768,10 @@ export default {
         "on top of that"
       ],
       "optionReasons": {
-        "top-mcq-21": "本句指「除此之外；而且」。",
-        "top-mcq-20": "「除 X 外還……」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-22": "「掌握 X」是「be on top of X」的用法，與本句語境不同。",
-        "top-mcq-19": "「在 X 上面」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-23": "「令某人難以應付」是「get on top of someone」的用法，與本句語境不同。",
-        "top-mcq-18": "「配料」是「topping」的用法，與本句語境不同。"
+        "top-mcq-21": "本句的「on top of that」指「除此之外；而且」。",
+        "top-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-21"
     },
@@ -1935,11 +1783,9 @@ export default {
       "masked": "She is intelligent and hardworking. ____, she is extremely patient.",
       "options": [
         "top-mcq-21",
-        "top-mcq-20",
-        "top-mcq-22",
-        "top-mcq-19",
+        "top-mcq-26",
         "top-mcq-23",
-        "top-mcq-18"
+        "top-mcq-30"
       ],
       "explanation": "本句的「On top of that」指「除此之外；而且」。",
       "sentenceIndex": 42,
@@ -1948,12 +1794,10 @@ export default {
         "On top of that"
       ],
       "optionReasons": {
-        "top-mcq-21": "本句指「除此之外；而且」。",
-        "top-mcq-20": "「除 X 外還……」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-22": "「掌握 X」是「be on top of X」的用法，與本句語境不同。",
-        "top-mcq-19": "「在 X 上面」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-23": "「令某人難以應付」是「get on top of someone」的用法，與本句語境不同。",
-        "top-mcq-18": "「配料」是「topping」的用法，與本句語境不同。"
+        "top-mcq-21": "本句的「On top of that」指「除此之外；而且」。",
+        "top-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-21"
     },
@@ -1965,11 +1809,9 @@ export default {
       "masked": "I have a lot of work, but I'm ____.",
       "options": [
         "top-mcq-22",
-        "top-mcq-21",
-        "top-mcq-23",
-        "top-mcq-20",
-        "top-mcq-24",
-        "top-mcq-19"
+        "top-pdf-002",
+        "top-mcq-13",
+        "top-mcq-26"
       ],
       "explanation": "本句的「on top of it」指「掌握 X」。",
       "sentenceIndex": 43,
@@ -1978,12 +1820,10 @@ export default {
         "on top of it"
       ],
       "optionReasons": {
-        "top-mcq-22": "本句指「掌握 X」。",
-        "top-mcq-21": "「除此之外；而且」是「on top of that」的用法，與本句語境不同。",
-        "top-mcq-23": "「令某人難以應付」是「get on top of someone」的用法，與本句語境不同。",
-        "top-mcq-20": "「除 X 外還……」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-24": "「非常開心」是「on top of the world」的用法，與本句語境不同。",
-        "top-mcq-19": "「在 X 上面」是「on top of X」的用法，與本句語境不同。"
+        "top-mcq-22": "本句的「on top of it」指「掌握 X」。",
+        "top-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-22"
     },
@@ -1995,11 +1835,9 @@ export default {
       "masked": "You need to stay ____.",
       "options": [
         "top-mcq-22",
-        "top-mcq-21",
+        "top-mcq-18",
         "top-mcq-23",
-        "top-mcq-20",
-        "top-mcq-24",
-        "top-mcq-19"
+        "top-mcq-29"
       ],
       "explanation": "本句的「on top of your finances」指「掌握 X」。",
       "sentenceIndex": 44,
@@ -2008,12 +1846,10 @@ export default {
         "on top of your finances"
       ],
       "optionReasons": {
-        "top-mcq-22": "本句指「掌握 X」。",
-        "top-mcq-21": "「除此之外；而且」是「on top of that」的用法，與本句語境不同。",
-        "top-mcq-23": "「令某人難以應付」是「get on top of someone」的用法，與本句語境不同。",
-        "top-mcq-20": "「除 X 外還……」是「on top of X」的用法，與本句語境不同。",
-        "top-mcq-24": "「非常開心」是「on top of the world」的用法，與本句語境不同。",
-        "top-mcq-19": "「在 X 上面」是「on top of X」的用法，與本句語境不同。"
+        "top-mcq-22": "本句的「on top of your finances」指「掌握 X」。",
+        "top-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-22"
     },
@@ -2025,11 +1861,9 @@ export default {
       "masked": "The workload is beginning to ____.",
       "options": [
         "top-mcq-23",
-        "top-mcq-22",
-        "top-mcq-24",
-        "top-mcq-21",
-        "top-mcq-25",
-        "top-mcq-20"
+        "top-mcq-12",
+        "top-mcq-02",
+        "top-mcq-24"
       ],
       "explanation": "本句的「get on top of me」指「令某人難以應付」。",
       "sentenceIndex": 45,
@@ -2038,12 +1872,10 @@ export default {
         "get on top of me"
       ],
       "optionReasons": {
-        "top-mcq-23": "本句指「令某人難以應付」。",
-        "top-mcq-22": "「掌握 X」是「be on top of X」的用法，與本句語境不同。",
-        "top-mcq-24": "「非常開心」是「on top of the world」的用法，與本句語境不同。",
-        "top-mcq-21": "「除此之外；而且」是「on top of that」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。",
-        "top-mcq-20": "「除 X 外還……」是「on top of X」的用法，與本句語境不同。"
+        "top-mcq-23": "本句的「get on top of me」指「令某人難以應付」。",
+        "top-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-23"
     },
@@ -2055,11 +1887,9 @@ export default {
       "masked": "Don't let the stress ____.",
       "options": [
         "top-mcq-23",
-        "top-mcq-22",
-        "top-mcq-24",
-        "top-mcq-21",
-        "top-mcq-25",
-        "top-mcq-20"
+        "top-mcq-28",
+        "top-pdf-001",
+        "top-mcq-24"
       ],
       "explanation": "本句的「get on top of you」指「令某人難以應付」。",
       "sentenceIndex": 46,
@@ -2068,12 +1898,10 @@ export default {
         "get on top of you"
       ],
       "optionReasons": {
-        "top-mcq-23": "本句指「令某人難以應付」。",
-        "top-mcq-22": "「掌握 X」是「be on top of X」的用法，與本句語境不同。",
-        "top-mcq-24": "「非常開心」是「on top of the world」的用法，與本句語境不同。",
-        "top-mcq-21": "「除此之外；而且」是「on top of that」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。",
-        "top-mcq-20": "「除 X 外還……」是「on top of X」的用法，與本句語境不同。"
+        "top-mcq-23": "本句的「get on top of you」指「令某人難以應付」。",
+        "top-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-23"
     },
@@ -2085,11 +1913,9 @@ export default {
       "masked": "She felt ____ after getting the job.",
       "options": [
         "top-mcq-24",
-        "top-mcq-23",
         "top-mcq-25",
-        "top-mcq-22",
-        "top-mcq-26",
-        "top-mcq-21"
+        "top-mcq-27",
+        "top-mcq-22"
       ],
       "explanation": "本句的「on top of the world」指「非常開心」。",
       "sentenceIndex": 47,
@@ -2098,12 +1924,10 @@ export default {
         "on top of the world"
       ],
       "optionReasons": {
-        "top-mcq-24": "本句指「非常開心」。",
-        "top-mcq-23": "「令某人難以應付」是「get on top of someone」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。",
-        "top-mcq-22": "「掌握 X」是「be on top of X」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-21": "「除此之外；而且」是「on top of that」的用法，與本句語境不同。"
+        "top-mcq-24": "本句的「on top of the world」指「非常開心」。",
+        "top-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-24"
     },
@@ -2115,11 +1939,9 @@ export default {
       "masked": "After winning the competition, he was ____.",
       "options": [
         "top-mcq-24",
-        "top-mcq-23",
-        "top-mcq-25",
-        "top-mcq-22",
-        "top-mcq-26",
-        "top-mcq-21"
+        "top-pdf-001",
+        "top-mcq-02",
+        "top-mcq-23"
       ],
       "explanation": "本句的「on top of the world」指「非常開心」。",
       "sentenceIndex": 48,
@@ -2128,12 +1950,10 @@ export default {
         "on top of the world"
       ],
       "optionReasons": {
-        "top-mcq-24": "本句指「非常開心」。",
-        "top-mcq-23": "「令某人難以應付」是「get on top of someone」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。",
-        "top-mcq-22": "「掌握 X」是「be on top of X」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-21": "「除此之外；而且」是「on top of that」的用法，與本句語境不同。"
+        "top-mcq-24": "本句的「on top of the world」指「非常開心」。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-24"
     },
@@ -2145,10 +1965,8 @@ export default {
       "masked": "We cleaned the house ____.",
       "options": [
         "top-mcq-25",
-        "top-mcq-24",
-        "top-mcq-26",
-        "top-mcq-23",
-        "top-mcq-27",
+        "top-mcq-07",
+        "top-mcq-19",
         "top-mcq-22"
       ],
       "explanation": "本句的「from top to bottom」指「從上到下；徹底地」。",
@@ -2158,12 +1976,10 @@ export default {
         "from top to bottom"
       ],
       "optionReasons": {
-        "top-mcq-25": "本句指「從上到下；徹底地」。",
-        "top-mcq-24": "「非常開心」是「on top of the world」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-23": "「令某人難以應付」是「get on top of someone」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-22": "「掌握 X」是「be on top of X」的用法，與本句語境不同。"
+        "top-mcq-25": "本句的「from top to bottom」指「從上到下；徹底地」。",
+        "top-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-25"
     },
@@ -2175,11 +1991,9 @@ export default {
       "masked": "She examined the document ____.",
       "options": [
         "top-mcq-25",
-        "top-mcq-24",
+        "top-mcq-20",
         "top-mcq-26",
-        "top-mcq-23",
-        "top-mcq-27",
-        "top-mcq-22"
+        "top-pdf-001"
       ],
       "explanation": "本句的「from top to bottom」指「從上到下；徹底地」。",
       "sentenceIndex": 50,
@@ -2188,12 +2002,10 @@ export default {
         "from top to bottom"
       ],
       "optionReasons": {
-        "top-mcq-25": "本句指「從上到下；徹底地」。",
-        "top-mcq-24": "「非常開心」是「on top of the world」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-23": "「令某人難以應付」是「get on top of someone」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-22": "「掌握 X」是「be on top of X」的用法，與本句語境不同。"
+        "top-mcq-25": "本句的「from top to bottom」指「從上到下；徹底地」。",
+        "top-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-25"
     },
@@ -2205,11 +2017,9 @@ export default {
       "masked": "The decorations were a bit ____.",
       "options": [
         "top-mcq-26",
-        "top-mcq-25",
-        "top-mcq-27",
-        "top-mcq-24",
         "top-mcq-28",
-        "top-mcq-23"
+        "top-mcq-17",
+        "top-pdf-002"
       ],
       "explanation": "本句的「over the top」指「過火；誇張」。",
       "sentenceIndex": 51,
@@ -2218,12 +2028,10 @@ export default {
         "over the top"
       ],
       "optionReasons": {
-        "top-mcq-26": "本句指「過火；誇張」。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-24": "「非常開心」是「on top of the world」的用法，與本句語境不同。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-23": "「令某人難以應付」是「get on top of someone」的用法，與本句語境不同。"
+        "top-mcq-26": "本句的「over the top」指「過火；誇張」。",
+        "top-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "top-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-26"
     },
@@ -2235,11 +2043,9 @@ export default {
       "masked": "His reaction was completely ____.",
       "options": [
         "top-mcq-26",
-        "top-mcq-25",
-        "top-mcq-27",
-        "top-mcq-24",
-        "top-mcq-28",
-        "top-mcq-23"
+        "top-mcq-21",
+        "top-mcq-30",
+        "top-mcq-25"
       ],
       "explanation": "本句的「over the top」指「過火；誇張」。",
       "sentenceIndex": 52,
@@ -2248,12 +2054,10 @@ export default {
         "over the top"
       ],
       "optionReasons": {
-        "top-mcq-26": "本句指「過火；誇張」。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-24": "「非常開心」是「on top of the world」的用法，與本句語境不同。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-23": "「令某人難以應付」是「get on top of someone」的用法，與本句語境不同。"
+        "top-mcq-26": "本句的「over the top」指「過火；誇張」。",
+        "top-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-26"
     },
@@ -2265,11 +2069,9 @@ export default {
       "masked": "____, I can think of three examples.",
       "options": [
         "top-mcq-27",
-        "top-mcq-26",
         "top-mcq-28",
-        "top-mcq-25",
-        "top-mcq-29",
-        "top-mcq-24"
+        "top-mcq-15",
+        "top-mcq-18"
       ],
       "explanation": "本句的「Off the top of my head」指「憑記憶隨口回答」。",
       "sentenceIndex": 53,
@@ -2278,12 +2080,10 @@ export default {
         "Off the top of my head"
       ],
       "optionReasons": {
-        "top-mcq-27": "本句指「憑記憶隨口回答」。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。",
-        "top-mcq-29": "「某物最高、最上面的位置或部分」是「1. top（最上面；頂部） — 頂部；上端」的用法，與本句語境不同。",
-        "top-mcq-24": "「非常開心」是「on top of the world」的用法，與本句語境不同。"
+        "top-mcq-27": "本句的「Off the top of my head」指「憑記憶隨口回答」。",
+        "top-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-27"
     },
@@ -2295,11 +2095,9 @@ export default {
       "masked": "I don't know the exact figure ____.",
       "options": [
         "top-mcq-27",
-        "top-mcq-26",
-        "top-mcq-28",
-        "top-mcq-25",
-        "top-mcq-29",
-        "top-mcq-24"
+        "top-mcq-24",
+        "top-mcq-23",
+        "top-mcq-16"
       ],
       "explanation": "本句的「off the top of my head」指「憑記憶隨口回答」。",
       "sentenceIndex": 54,
@@ -2308,12 +2106,10 @@ export default {
         "off the top of my head"
       ],
       "optionReasons": {
-        "top-mcq-27": "本句指「憑記憶隨口回答」。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-28": "「最上面的」是「topmost」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。",
-        "top-mcq-29": "「某物最高、最上面的位置或部分」是「1. top（最上面；頂部） — 頂部；上端」的用法，與本句語境不同。",
-        "top-mcq-24": "「非常開心」是「on top of the world」的用法，與本句語境不同。"
+        "top-mcq-27": "本句的「off the top of my head」指「憑記憶隨口回答」。",
+        "top-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-27"
     },
@@ -2325,11 +2121,9 @@ export default {
       "masked": "The bird sat on the ____.",
       "options": [
         "top-mcq-28",
-        "top-mcq-27",
-        "top-mcq-29",
-        "top-mcq-26",
-        "top-mcq-30",
-        "top-mcq-25"
+        "top-mcq-18",
+        "top-pdf-001",
+        "top-mcq-22"
       ],
       "explanation": "本句的「topmost branch」指「最上面的」。",
       "sentenceIndex": 55,
@@ -2338,12 +2132,10 @@ export default {
         "topmost branch"
       ],
       "optionReasons": {
-        "top-mcq-28": "本句指「最上面的」。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-29": "「某物最高、最上面的位置或部分」是「1. top（最上面；頂部） — 頂部；上端」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-30": "「位於某物最高或最上方的位置」是「3. at the top — 在最高處；在最上面」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-mcq-28": "本句的「topmost branch」指「最上面的」。",
+        "top-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "top-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-28"
     },
@@ -2355,11 +2147,9 @@ export default {
       "masked": "The documents are in the ____.",
       "options": [
         "top-mcq-28",
-        "top-mcq-27",
-        "top-mcq-29",
         "top-mcq-26",
-        "top-mcq-30",
-        "top-mcq-25"
+        "top-mcq-21",
+        "top-mcq-02"
       ],
       "explanation": "本句的「topmost drawer」指「最上面的」。",
       "sentenceIndex": 56,
@@ -2368,12 +2158,10 @@ export default {
         "topmost drawer"
       ],
       "optionReasons": {
-        "top-mcq-28": "本句指「最上面的」。",
-        "top-mcq-27": "「憑記憶隨口回答」是「off the top of your head」的用法，與本句語境不同。",
-        "top-mcq-29": "「某物最高、最上面的位置或部分」是「1. top（最上面；頂部） — 頂部；上端」的用法，與本句語境不同。",
-        "top-mcq-26": "「過火；誇張」是「over the top」的用法，與本句語境不同。",
-        "top-mcq-30": "「位於某物最高或最上方的位置」是「3. at the top — 在最高處；在最上面」的用法，與本句語境不同。",
-        "top-mcq-25": "「從上到下；徹底地」是「from top to bottom」的用法，與本句語境不同。"
+        "top-mcq-28": "本句的「topmost drawer」指「最上面的」。",
+        "top-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "top-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "top-mcq-28"
     }
@@ -2385,5 +2173,7 @@ export default {
     "sha256": "dc9d102e0787063b62c57d23df355fc7f649b62ef38dbf4e15c93f4de03b7e05",
     "pages": 22
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

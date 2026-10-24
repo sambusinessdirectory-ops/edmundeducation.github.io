@@ -127,18 +127,7 @@ export default {
       "en": "sentimental — literary",
       "zh": "與感傷主義／強調情感與感受的文學傳統有關；專門",
       "note": "來源詞義：與感傷主義／強調情感與感受的文學傳統有關；專門",
-      "examples": [
-        [
-          "He has a rather sentimental view of village life.",
-          "他對鄉村生活抱有相當浪漫化／感情化的看法。",
-          "與感傷主義／強調情感與感受的文學傳統有關；專門"
-        ],
-        [
-          "The book avoids a sentimental picture of childhood.",
-          "這本書避免把童年描寫得過於浪漫化／煽情。",
-          "與感傷主義／強調情感與感受的文學傳統有關；專門"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -219,6 +208,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "sentimental-reviewed-917dae5303",
+      "title": "浪漫化的；感情化的",
+      "form": "sentimental · source section 6",
+      "en": "浪漫化的；感情化的",
+      "zh": "浪漫化的；感情化的",
+      "note": "對照原始教材第 6 節及例句核實。",
+      "examples": [
+        [
+          "He has a rather sentimental view of village life.",
+          "他對鄉村生活抱有相當浪漫化／感情化的看法。",
+          "浪漫化的；感情化的"
+        ],
+        [
+          "The book avoids a sentimental picture of childhood.",
+          "這本書避免把童年描寫得過於浪漫化／煽情。",
+          "浪漫化的；感情化的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -230,11 +241,7 @@ export default {
       "masked": "She became ____ when she looked through her childhood photographs.",
       "options": [
         "sentimental-mcq-01",
-        "sentimental-mcq-02",
-        "sentimental-mcq-03",
-        "sentimental-mcq-04",
-        "sentimental-mcq-05",
-        "sentimental-mcq-06"
+        "sentimental-mcq-08"
       ],
       "explanation": "本句的「sentimental」指「因個人回憶、關係或經歷而產生溫柔、懷念或依戀感情的」。",
       "sentenceIndex": 0,
@@ -243,12 +250,8 @@ export default {
         "sentimental"
       ],
       "optionReasons": {
-        "sentimental-mcq-01": "本句指「因個人回憶、關係或經歷而產生溫柔、懷念或依戀感情的」。",
-        "sentimental-mcq-02": "「因回憶、關係或經歷而產生的非金錢情感／紀念價值」與本句語境不同。",
-        "sentimental-mcq-03": "「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」與本句語境不同。",
-        "sentimental-mcq-04": "「基於情感、回憶或依戀而非純粹實際考慮的原因」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。"
+        "sentimental-mcq-01": "本句的「sentimental」指「因個人回憶、關係或經歷而產生溫柔、懷念或依戀感情的」。",
+        "sentimental-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-01"
     },
@@ -260,11 +263,7 @@ export default {
       "masked": "The song has a ____ meaning for me.",
       "options": [
         "sentimental-mcq-01",
-        "sentimental-mcq-02",
-        "sentimental-mcq-03",
-        "sentimental-mcq-04",
-        "sentimental-mcq-05",
-        "sentimental-mcq-06"
+        "sentimental-mcq-08"
       ],
       "explanation": "本句的「sentimental」指「因個人回憶、關係或經歷而產生溫柔、懷念或依戀感情的」。",
       "sentenceIndex": 1,
@@ -273,12 +272,8 @@ export default {
         "sentimental"
       ],
       "optionReasons": {
-        "sentimental-mcq-01": "本句指「因個人回憶、關係或經歷而產生溫柔、懷念或依戀感情的」。",
-        "sentimental-mcq-02": "「因回憶、關係或經歷而產生的非金錢情感／紀念價值」與本句語境不同。",
-        "sentimental-mcq-03": "「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」與本句語境不同。",
-        "sentimental-mcq-04": "「基於情感、回憶或依戀而非純粹實際考慮的原因」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。"
+        "sentimental-mcq-01": "本句的「sentimental」指「因個人回憶、關係或經歷而產生溫柔、懷念或依戀感情的」。",
+        "sentimental-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-01"
     },
@@ -290,11 +285,8 @@ export default {
       "masked": "The jacket has a lot of ____ for me.",
       "options": [
         "sentimental-mcq-02",
-        "sentimental-mcq-01",
-        "sentimental-mcq-03",
-        "sentimental-mcq-04",
-        "sentimental-mcq-05",
-        "sentimental-mcq-06"
+        "sentimental-reviewed-917dae5303",
+        "sentimental-mcq-08"
       ],
       "explanation": "本句的「sentimental value」指「因回憶、關係或經歷而產生的非金錢情感／紀念價值」。",
       "sentenceIndex": 2,
@@ -303,12 +295,9 @@ export default {
         "sentimental value"
       ],
       "optionReasons": {
-        "sentimental-mcq-02": "本句指「因回憶、關係或經歷而產生的非金錢情感／紀念價值」。",
-        "sentimental-mcq-01": "「因個人回憶、關係或經歷而產生溫柔、懷念或依戀感情的」與本句語境不同。",
-        "sentimental-mcq-03": "「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」與本句語境不同。",
-        "sentimental-mcq-04": "「基於情感、回憶或依戀而非純粹實際考慮的原因」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。"
+        "sentimental-mcq-02": "本句的「sentimental value」指「因回憶、關係或經歷而產生的非金錢情感／紀念價值」。",
+        "sentimental-reviewed-917dae5303": "請比較這個意思與句子中標示的用法。",
+        "sentimental-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-02"
     },
@@ -320,11 +309,7 @@ export default {
       "masked": "The watch is not expensive, but it has great ____.",
       "options": [
         "sentimental-mcq-02",
-        "sentimental-mcq-01",
-        "sentimental-mcq-03",
-        "sentimental-mcq-04",
-        "sentimental-mcq-05",
-        "sentimental-mcq-06"
+        "sentimental-mcq-03"
       ],
       "explanation": "本句的「sentimental value」指「因回憶、關係或經歷而產生的非金錢情感／紀念價值」。",
       "sentenceIndex": 3,
@@ -333,12 +318,8 @@ export default {
         "sentimental value"
       ],
       "optionReasons": {
-        "sentimental-mcq-02": "本句指「因回憶、關係或經歷而產生的非金錢情感／紀念價值」。",
-        "sentimental-mcq-01": "「因個人回憶、關係或經歷而產生溫柔、懷念或依戀感情的」與本句語境不同。",
-        "sentimental-mcq-03": "「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」與本句語境不同。",
-        "sentimental-mcq-04": "「基於情感、回憶或依戀而非純粹實際考慮的原因」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。"
+        "sentimental-mcq-02": "本句的「sentimental value」指「因回憶、關係或經歷而產生的非金錢情感／紀念價值」。",
+        "sentimental-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-02"
     },
@@ -350,11 +331,7 @@ export default {
       "masked": "I kept the letter for its ____.",
       "options": [
         "sentimental-mcq-02",
-        "sentimental-mcq-01",
-        "sentimental-mcq-03",
-        "sentimental-mcq-04",
-        "sentimental-mcq-05",
-        "sentimental-mcq-06"
+        "sentimental-mcq-03"
       ],
       "explanation": "本句的「sentimental value」指「因回憶、關係或經歷而產生的非金錢情感／紀念價值」。",
       "sentenceIndex": 4,
@@ -363,12 +340,8 @@ export default {
         "sentimental value"
       ],
       "optionReasons": {
-        "sentimental-mcq-02": "本句指「因回憶、關係或經歷而產生的非金錢情感／紀念價值」。",
-        "sentimental-mcq-01": "「因個人回憶、關係或經歷而產生溫柔、懷念或依戀感情的」與本句語境不同。",
-        "sentimental-mcq-03": "「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」與本句語境不同。",
-        "sentimental-mcq-04": "「基於情感、回憶或依戀而非純粹實際考慮的原因」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。"
+        "sentimental-mcq-02": "本句的「sentimental value」指「因回憶、關係或經歷而產生的非金錢情感／紀念價值」。",
+        "sentimental-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-02"
     },
@@ -380,11 +353,7 @@ export default {
       "masked": "The film becomes too ____ near the end.",
       "options": [
         "sentimental-mcq-03",
-        "sentimental-mcq-02",
-        "sentimental-mcq-04",
-        "sentimental-mcq-01",
-        "sentimental-mcq-05",
-        "sentimental-mcq-06"
+        "sentimental-mcq-04"
       ],
       "explanation": "本句的「sentimental」指「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」。",
       "sentenceIndex": 5,
@@ -393,12 +362,8 @@ export default {
         "sentimental"
       ],
       "optionReasons": {
-        "sentimental-mcq-03": "本句指「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」。",
-        "sentimental-mcq-02": "「因回憶、關係或經歷而產生的非金錢情感／紀念價值」與本句語境不同。",
-        "sentimental-mcq-04": "「基於情感、回憶或依戀而非純粹實際考慮的原因」與本句語境不同。",
-        "sentimental-mcq-01": "「因個人回憶、關係或經歷而產生溫柔、懷念或依戀感情的」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。"
+        "sentimental-mcq-03": "本句的「sentimental」指「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」。",
+        "sentimental-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-03"
     },
@@ -410,11 +375,7 @@ export default {
       "masked": "His speech was sincere without becoming ____.",
       "options": [
         "sentimental-mcq-03",
-        "sentimental-mcq-02",
-        "sentimental-mcq-04",
-        "sentimental-mcq-01",
-        "sentimental-mcq-05",
-        "sentimental-mcq-06"
+        "sentimental-mcq-02"
       ],
       "explanation": "本句的「sentimental」指「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」。",
       "sentenceIndex": 6,
@@ -423,12 +384,8 @@ export default {
         "sentimental"
       ],
       "optionReasons": {
-        "sentimental-mcq-03": "本句指「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」。",
-        "sentimental-mcq-02": "「因回憶、關係或經歷而產生的非金錢情感／紀念價值」與本句語境不同。",
-        "sentimental-mcq-04": "「基於情感、回憶或依戀而非純粹實際考慮的原因」與本句語境不同。",
-        "sentimental-mcq-01": "「因個人回憶、關係或經歷而產生溫柔、懷念或依戀感情的」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。"
+        "sentimental-mcq-03": "本句的「sentimental」指「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」。",
+        "sentimental-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-03"
     },
@@ -440,11 +397,8 @@ export default {
       "masked": "I kept the old chair for ____ reasons.",
       "options": [
         "sentimental-mcq-04",
-        "sentimental-mcq-03",
-        "sentimental-mcq-05",
-        "sentimental-mcq-02",
-        "sentimental-mcq-06",
-        "sentimental-mcq-01"
+        "sentimental-mcq-07",
+        "sentimental-reviewed-917dae5303"
       ],
       "explanation": "本句的「sentimental」指「基於情感、回憶或依戀而非純粹實際考慮的原因」。",
       "sentenceIndex": 7,
@@ -453,12 +407,9 @@ export default {
         "sentimental"
       ],
       "optionReasons": {
-        "sentimental-mcq-04": "本句指「基於情感、回憶或依戀而非純粹實際考慮的原因」。",
-        "sentimental-mcq-03": "「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。",
-        "sentimental-mcq-02": "「因回憶、關係或經歷而產生的非金錢情感／紀念價值」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。",
-        "sentimental-mcq-01": "「因個人回憶、關係或經歷而產生溫柔、懷念或依戀感情的」與本句語境不同。"
+        "sentimental-mcq-04": "本句的「sentimental」指「基於情感、回憶或依戀而非純粹實際考慮的原因」。",
+        "sentimental-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sentimental-reviewed-917dae5303": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-04"
     },
@@ -470,11 +421,7 @@ export default {
       "masked": "His decision was partly ____.",
       "options": [
         "sentimental-mcq-04",
-        "sentimental-mcq-03",
-        "sentimental-mcq-05",
-        "sentimental-mcq-02",
-        "sentimental-mcq-06",
-        "sentimental-mcq-01"
+        "sentimental-mcq-03"
       ],
       "explanation": "本句的「sentimental」指「基於情感、回憶或依戀而非純粹實際考慮的原因」。",
       "sentenceIndex": 8,
@@ -483,12 +430,8 @@ export default {
         "sentimental"
       ],
       "optionReasons": {
-        "sentimental-mcq-04": "本句指「基於情感、回憶或依戀而非純粹實際考慮的原因」。",
-        "sentimental-mcq-03": "「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。",
-        "sentimental-mcq-02": "「因回憶、關係或經歷而產生的非金錢情感／紀念價值」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。",
-        "sentimental-mcq-01": "「因個人回憶、關係或經歷而產生溫柔、懷念或依戀感情的」與本句語境不同。"
+        "sentimental-mcq-04": "本句的「sentimental」指「基於情感、回憶或依戀而非純粹實際考慮的原因」。",
+        "sentimental-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-04"
     },
@@ -501,10 +444,7 @@ export default {
       "options": [
         "sentimental-mcq-05",
         "sentimental-mcq-04",
-        "sentimental-mcq-06",
-        "sentimental-mcq-03",
-        "sentimental-mcq-07",
-        "sentimental-mcq-02"
+        "sentimental-mcq-07"
       ],
       "explanation": "本句的「sentimental」指「對過去、舊物或往事特別念舊、有感情的」。",
       "sentenceIndex": 9,
@@ -513,12 +453,9 @@ export default {
         "sentimental"
       ],
       "optionReasons": {
-        "sentimental-mcq-05": "本句指「對過去、舊物或往事特別念舊、有感情的」。",
-        "sentimental-mcq-04": "「基於情感、回憶或依戀而非純粹實際考慮的原因」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。",
-        "sentimental-mcq-03": "「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」與本句語境不同。",
-        "sentimental-mcq-07": "「感性地、懷念地；亦可指煽情地」與本句語境不同。",
-        "sentimental-mcq-02": "「因回憶、關係或經歷而產生的非金錢情感／紀念價值」與本句語境不同。"
+        "sentimental-mcq-05": "本句的「sentimental」指「對過去、舊物或往事特別念舊、有感情的」。",
+        "sentimental-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sentimental-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-05"
     },
@@ -531,10 +468,7 @@ export default {
       "options": [
         "sentimental-mcq-05",
         "sentimental-mcq-04",
-        "sentimental-mcq-06",
-        "sentimental-mcq-03",
-        "sentimental-mcq-07",
-        "sentimental-mcq-02"
+        "sentimental-mcq-07"
       ],
       "explanation": "本句的「sentimental」指「對過去、舊物或往事特別念舊、有感情的」。",
       "sentenceIndex": 10,
@@ -543,74 +477,63 @@ export default {
         "sentimental"
       ],
       "optionReasons": {
-        "sentimental-mcq-05": "本句指「對過去、舊物或往事特別念舊、有感情的」。",
-        "sentimental-mcq-04": "「基於情感、回憶或依戀而非純粹實際考慮的原因」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。",
-        "sentimental-mcq-03": "「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」與本句語境不同。",
-        "sentimental-mcq-07": "「感性地、懷念地；亦可指煽情地」與本句語境不同。",
-        "sentimental-mcq-02": "「因回憶、關係或經歷而產生的非金錢情感／紀念價值」與本句語境不同。"
+        "sentimental-mcq-05": "本句的「sentimental」指「對過去、舊物或往事特別念舊、有感情的」。",
+        "sentimental-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sentimental-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-05"
     },
     {
       "id": "sentimental-06-0",
-      "sense": "sentimental-mcq-06",
+      "sense": "sentimental-reviewed-917dae5303",
       "en": "He has a rather sentimental view of village life.",
       "zh": "他對鄉村生活抱有相當浪漫化／感情化的看法。",
       "masked": "He has a rather ____ view of village life.",
       "options": [
-        "sentimental-mcq-06",
-        "sentimental-mcq-05",
+        "sentimental-reviewed-917dae5303",
         "sentimental-mcq-07",
-        "sentimental-mcq-04",
-        "sentimental-mcq-08",
-        "sentimental-mcq-03"
+        "sentimental-mcq-04"
       ],
-      "explanation": "本句的「sentimental」指「與感傷主義／強調情感與感受的文學傳統有關；專門」。",
+      "explanation": "對照完整句子：「他對鄉村生活抱有相當浪漫化／感情化的看法。」。這裡的「sentimental」表示「浪漫化的；感情化的」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "sentimental"
       ],
       "optionReasons": {
-        "sentimental-mcq-06": "本句指「與感傷主義／強調情感與感受的文學傳統有關；專門」。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。",
-        "sentimental-mcq-07": "「感性地、懷念地；亦可指煽情地」與本句語境不同。",
-        "sentimental-mcq-04": "「基於情感、回憶或依戀而非純粹實際考慮的原因」與本句語境不同。",
-        "sentimental-mcq-08": "「過度感傷／煽情的特質」與本句語境不同。",
-        "sentimental-mcq-03": "「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」與本句語境不同。"
+        "sentimental-reviewed-917dae5303": "對照完整句子：「他對鄉村生活抱有相當浪漫化／感情化的看法。」。這裡的「sentimental」表示「浪漫化的；感情化的」。",
+        "sentimental-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sentimental-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "sentimental-mcq-06"
+      "correctOption": "sentimental-reviewed-917dae5303",
+      "previousCorrectOption": "sentimental-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "sentimental-06-1",
-      "sense": "sentimental-mcq-06",
+      "sense": "sentimental-reviewed-917dae5303",
       "en": "The book avoids a sentimental picture of childhood.",
       "zh": "這本書避免把童年描寫得過於浪漫化／煽情。",
       "masked": "The book avoids a ____ picture of childhood.",
       "options": [
-        "sentimental-mcq-06",
-        "sentimental-mcq-05",
-        "sentimental-mcq-07",
+        "sentimental-reviewed-917dae5303",
         "sentimental-mcq-04",
-        "sentimental-mcq-08",
-        "sentimental-mcq-03"
+        "sentimental-mcq-08"
       ],
-      "explanation": "本句的「sentimental」指「與感傷主義／強調情感與感受的文學傳統有關；專門」。",
+      "explanation": "對照完整句子：「這本書避免把童年描寫得過於浪漫化／煽情。」。這裡的「sentimental」表示「浪漫化的；感情化的」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "sentimental"
       ],
       "optionReasons": {
-        "sentimental-mcq-06": "本句指「與感傷主義／強調情感與感受的文學傳統有關；專門」。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。",
-        "sentimental-mcq-07": "「感性地、懷念地；亦可指煽情地」與本句語境不同。",
-        "sentimental-mcq-04": "「基於情感、回憶或依戀而非純粹實際考慮的原因」與本句語境不同。",
-        "sentimental-mcq-08": "「過度感傷／煽情的特質」與本句語境不同。",
-        "sentimental-mcq-03": "「感情表達過度、過甜或理想化，以致顯得煽情／多愁善感的」與本句語境不同。"
+        "sentimental-reviewed-917dae5303": "對照完整句子：「這本書避免把童年描寫得過於浪漫化／煽情。」。這裡的「sentimental」表示「浪漫化的；感情化的」。",
+        "sentimental-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sentimental-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "sentimental-mcq-06"
+      "correctOption": "sentimental-reviewed-917dae5303",
+      "previousCorrectOption": "sentimental-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "sentimental-07-0",
@@ -620,11 +543,8 @@ export default {
       "masked": "The course examines the rise of the ____ novel.",
       "options": [
         "sentimental-mcq-08",
-        "sentimental-mcq-07",
-        "sentimental-mcq-09",
-        "sentimental-mcq-06",
         "sentimental-mcq-10",
-        "sentimental-mcq-05"
+        "sentimental-mcq-02"
       ],
       "explanation": "本句的「sentimental」指「過度感傷／煽情的特質」。",
       "sentenceIndex": 13,
@@ -633,12 +553,9 @@ export default {
         "sentimental"
       ],
       "optionReasons": {
-        "sentimental-mcq-08": "本句指「過度感傷／煽情的特質」。",
-        "sentimental-mcq-07": "「感性地、懷念地；亦可指煽情地」與本句語境不同。",
-        "sentimental-mcq-09": "「感傷主義；或過度依賴感情的傾向」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。",
-        "sentimental-mcq-10": "「很念舊、多愁善感或偏重感情的人」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。"
+        "sentimental-mcq-08": "本句的「sentimental」指「過度感傷／煽情的特質」。",
+        "sentimental-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sentimental-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-08"
     },
@@ -650,10 +567,7 @@ export default {
       "masked": "She smiled ____ at the old photograph.",
       "options": [
         "sentimental-mcq-07",
-        "sentimental-mcq-06",
-        "sentimental-mcq-08",
-        "sentimental-mcq-05",
-        "sentimental-mcq-09",
+        "sentimental-reviewed-917dae5303",
         "sentimental-mcq-04"
       ],
       "explanation": "本句的「sentimentally」指「感性地、懷念地；亦可指煽情地」。",
@@ -663,12 +577,9 @@ export default {
         "sentimentally"
       ],
       "optionReasons": {
-        "sentimental-mcq-07": "本句指「感性地、懷念地；亦可指煽情地」。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。",
-        "sentimental-mcq-08": "「過度感傷／煽情的特質」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。",
-        "sentimental-mcq-09": "「感傷主義；或過度依賴感情的傾向」與本句語境不同。",
-        "sentimental-mcq-04": "「基於情感、回憶或依戀而非純粹實際考慮的原因」與本句語境不同。"
+        "sentimental-mcq-07": "本句的「sentimentally」指「感性地、懷念地；亦可指煽情地」。",
+        "sentimental-reviewed-917dae5303": "請比較這個意思與句子中標示的用法。",
+        "sentimental-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-07"
     },
@@ -680,11 +591,8 @@ export default {
       "masked": "The story treats the subject rather ____.",
       "options": [
         "sentimental-mcq-07",
-        "sentimental-mcq-06",
-        "sentimental-mcq-08",
-        "sentimental-mcq-05",
-        "sentimental-mcq-09",
-        "sentimental-mcq-04"
+        "sentimental-mcq-04",
+        "sentimental-mcq-09"
       ],
       "explanation": "本句的「sentimentally」指「感性地、懷念地；亦可指煽情地」。",
       "sentenceIndex": 15,
@@ -693,12 +601,9 @@ export default {
         "sentimentally"
       ],
       "optionReasons": {
-        "sentimental-mcq-07": "本句指「感性地、懷念地；亦可指煽情地」。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。",
-        "sentimental-mcq-08": "「過度感傷／煽情的特質」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。",
-        "sentimental-mcq-09": "「感傷主義；或過度依賴感情的傾向」與本句語境不同。",
-        "sentimental-mcq-04": "「基於情感、回憶或依戀而非純粹實際考慮的原因」與本句語境不同。"
+        "sentimental-mcq-07": "本句的「sentimentally」指「感性地、懷念地；亦可指煽情地」。",
+        "sentimental-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sentimental-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-07"
     },
@@ -710,11 +615,8 @@ export default {
       "masked": "The novel sometimes slips into ____.",
       "options": [
         "sentimental-mcq-08",
-        "sentimental-mcq-07",
-        "sentimental-mcq-09",
-        "sentimental-mcq-06",
-        "sentimental-mcq-10",
-        "sentimental-mcq-05"
+        "sentimental-mcq-04",
+        "sentimental-reviewed-917dae5303"
       ],
       "explanation": "本句的「sentimentality」指「過度感傷／煽情的特質」。",
       "sentenceIndex": 16,
@@ -723,12 +625,9 @@ export default {
         "sentimentality"
       ],
       "optionReasons": {
-        "sentimental-mcq-08": "本句指「過度感傷／煽情的特質」。",
-        "sentimental-mcq-07": "「感性地、懷念地；亦可指煽情地」與本句語境不同。",
-        "sentimental-mcq-09": "「感傷主義；或過度依賴感情的傾向」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。",
-        "sentimental-mcq-10": "「很念舊、多愁善感或偏重感情的人」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。"
+        "sentimental-mcq-08": "本句的「sentimentality」指「過度感傷／煽情的特質」。",
+        "sentimental-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sentimental-reviewed-917dae5303": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-08"
     },
@@ -740,11 +639,8 @@ export default {
       "masked": "The critic accused the film of ____.",
       "options": [
         "sentimental-mcq-09",
-        "sentimental-mcq-08",
-        "sentimental-mcq-10",
-        "sentimental-mcq-07",
-        "sentimental-mcq-06",
-        "sentimental-mcq-05"
+        "sentimental-mcq-02",
+        "sentimental-mcq-07"
       ],
       "explanation": "本句的「sentimentalism」指「感傷主義；或過度依賴感情的傾向」。",
       "sentenceIndex": 17,
@@ -753,12 +649,9 @@ export default {
         "sentimentalism"
       ],
       "optionReasons": {
-        "sentimental-mcq-09": "本句指「感傷主義；或過度依賴感情的傾向」。",
-        "sentimental-mcq-08": "「過度感傷／煽情的特質」與本句語境不同。",
-        "sentimental-mcq-10": "「很念舊、多愁善感或偏重感情的人」與本句語境不同。",
-        "sentimental-mcq-07": "「感性地、懷念地；亦可指煽情地」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。"
+        "sentimental-mcq-09": "本句的「sentimentalism」指「感傷主義；或過度依賴感情的傾向」。",
+        "sentimental-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sentimental-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-09"
     },
@@ -770,11 +663,8 @@ export default {
       "masked": "He is a ____ who keeps every old letter.",
       "options": [
         "sentimental-mcq-10",
-        "sentimental-mcq-09",
-        "sentimental-mcq-08",
-        "sentimental-mcq-07",
-        "sentimental-mcq-06",
-        "sentimental-mcq-05"
+        "sentimental-mcq-04",
+        "sentimental-mcq-08"
       ],
       "explanation": "本句的「sentimentalist」指「很念舊、多愁善感或偏重感情的人」。",
       "sentenceIndex": 18,
@@ -783,12 +673,9 @@ export default {
         "sentimentalist"
       ],
       "optionReasons": {
-        "sentimental-mcq-10": "本句指「很念舊、多愁善感或偏重感情的人」。",
-        "sentimental-mcq-09": "「感傷主義；或過度依賴感情的傾向」與本句語境不同。",
-        "sentimental-mcq-08": "「過度感傷／煽情的特質」與本句語境不同。",
-        "sentimental-mcq-07": "「感性地、懷念地；亦可指煽情地」與本句語境不同。",
-        "sentimental-mcq-06": "「與感傷主義／強調情感與感受的文學傳統有關；專門」與本句語境不同。",
-        "sentimental-mcq-05": "「對過去、舊物或往事特別念舊、有感情的」與本句語境不同。"
+        "sentimental-mcq-10": "本句的「sentimentalist」指「很念舊、多愁善感或偏重感情的人」。",
+        "sentimental-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sentimental-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sentimental-mcq-10"
     }
@@ -800,5 +687,7 @@ export default {
     "sha256": "05e40deb35d896b98a86c457a21a9437740e96f294e583e68559dce56335e525",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

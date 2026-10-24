@@ -306,11 +306,9 @@ export default {
       "masked": "She cut her ____ while cooking.",
       "options": [
         "thumb-mcq-01",
-        "thumb-mcq-02",
-        "thumb-mcq-03",
-        "thumb-mcq-04",
-        "thumb-mcq-05",
-        "thumb-mcq-06"
+        "thumb-mcq-06",
+        "thumb-mcq-11",
+        "thumb-mcq-07"
       ],
       "explanation": "本句的「thumb」指「手掌側面最短、最粗並能與其他手指相對的拇指」。",
       "sentenceIndex": 0,
@@ -319,12 +317,10 @@ export default {
         "thumb"
       ],
       "optionReasons": {
-        "thumb-mcq-01": "本句指「手掌側面最短、最粗並能與其他手指相對的拇指」。",
-        "thumb-mcq-02": "「為拇指而設或形狀像拇指的突出部分」是「thumb — object part」的用法，與本句語境不同。",
-        "thumb-mcq-03": "「用拇指快速、隨意地翻動頁面／翻閱」是「thumb + pages/book」的用法，與本句語境不同。",
-        "thumb-mcq-04": "「用拇指作方向性手勢來指示某人或某處」是「thumb — gesture」的用法，與本句語境不同。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。"
+        "thumb-mcq-01": "本句的「thumb」指「手掌側面最短、最粗並能與其他手指相對的拇指」。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-01"
     },
@@ -336,11 +332,9 @@ export default {
       "masked": "Press the button with your ____.",
       "options": [
         "thumb-mcq-01",
-        "thumb-mcq-02",
-        "thumb-mcq-03",
-        "thumb-mcq-04",
-        "thumb-mcq-05",
-        "thumb-mcq-06"
+        "thumb-mcq-07",
+        "thumb-mcq-06",
+        "thumb-mcq-11"
       ],
       "explanation": "本句的「thumb」指「手掌側面最短、最粗並能與其他手指相對的拇指」。",
       "sentenceIndex": 1,
@@ -349,12 +343,10 @@ export default {
         "thumb"
       ],
       "optionReasons": {
-        "thumb-mcq-01": "本句指「手掌側面最短、最粗並能與其他手指相對的拇指」。",
-        "thumb-mcq-02": "「為拇指而設或形狀像拇指的突出部分」是「thumb — object part」的用法，與本句語境不同。",
-        "thumb-mcq-03": "「用拇指快速、隨意地翻動頁面／翻閱」是「thumb + pages/book」的用法，與本句語境不同。",
-        "thumb-mcq-04": "「用拇指作方向性手勢來指示某人或某處」是「thumb — gesture」的用法，與本句語境不同。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。"
+        "thumb-mcq-01": "本句的「thumb」指「手掌側面最短、最粗並能與其他手指相對的拇指」。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-01"
     },
@@ -366,10 +358,8 @@ export default {
       "masked": "The ____ of the glove has a small tear.",
       "options": [
         "thumb-mcq-02",
-        "thumb-mcq-01",
-        "thumb-mcq-03",
-        "thumb-mcq-04",
-        "thumb-mcq-05",
+        "thumb-mcq-12",
+        "thumb-mcq-07",
         "thumb-mcq-06"
       ],
       "explanation": "本句的「thumb」指「為拇指而設或形狀像拇指的突出部分」。",
@@ -379,12 +369,10 @@ export default {
         "thumb"
       ],
       "optionReasons": {
-        "thumb-mcq-02": "本句指「為拇指而設或形狀像拇指的突出部分」。",
-        "thumb-mcq-01": "「手掌側面最短、最粗並能與其他手指相對的拇指」是「thumb — body part」的用法，與本句語境不同。",
-        "thumb-mcq-03": "「用拇指快速、隨意地翻動頁面／翻閱」是「thumb + pages/book」的用法，與本句語境不同。",
-        "thumb-mcq-04": "「用拇指作方向性手勢來指示某人或某處」是「thumb — gesture」的用法，與本句語境不同。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。"
+        "thumb-mcq-02": "本句的「thumb」指「為拇指而設或形狀像拇指的突出部分」。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-02"
     },
@@ -396,11 +384,9 @@ export default {
       "masked": "Make sure your ____ fits comfortably into the glove.",
       "options": [
         "thumb-mcq-02",
-        "thumb-mcq-01",
-        "thumb-mcq-03",
-        "thumb-mcq-04",
-        "thumb-mcq-05",
-        "thumb-mcq-06"
+        "thumb-mcq-12",
+        "thumb-mcq-11",
+        "thumb-mcq-07"
       ],
       "explanation": "本句的「thumb」指「為拇指而設或形狀像拇指的突出部分」。",
       "sentenceIndex": 3,
@@ -409,12 +395,10 @@ export default {
         "thumb"
       ],
       "optionReasons": {
-        "thumb-mcq-02": "本句指「為拇指而設或形狀像拇指的突出部分」。",
-        "thumb-mcq-01": "「手掌側面最短、最粗並能與其他手指相對的拇指」是「thumb — body part」的用法，與本句語境不同。",
-        "thumb-mcq-03": "「用拇指快速、隨意地翻動頁面／翻閱」是「thumb + pages/book」的用法，與本句語境不同。",
-        "thumb-mcq-04": "「用拇指作方向性手勢來指示某人或某處」是「thumb — gesture」的用法，與本句語境不同。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。"
+        "thumb-mcq-02": "本句的「thumb」指「為拇指而設或形狀像拇指的突出部分」。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-02"
     },
@@ -426,10 +410,8 @@ export default {
       "masked": "She ____ of the gardening book.",
       "options": [
         "thumb-mcq-03",
-        "thumb-mcq-02",
-        "thumb-mcq-04",
-        "thumb-mcq-01",
-        "thumb-mcq-05",
+        "thumb-mcq-07",
+        "thumb-mcq-12",
         "thumb-mcq-06"
       ],
       "explanation": "本句的「thumbed the pages」指「用拇指快速、隨意地翻動頁面／翻閱」。",
@@ -439,12 +421,10 @@ export default {
         "thumbed the pages"
       ],
       "optionReasons": {
-        "thumb-mcq-03": "本句指「用拇指快速、隨意地翻動頁面／翻閱」。",
-        "thumb-mcq-02": "「為拇指而設或形狀像拇指的突出部分」是「thumb — object part」的用法，與本句語境不同。",
-        "thumb-mcq-04": "「用拇指作方向性手勢來指示某人或某處」是「thumb — gesture」的用法，與本句語境不同。",
-        "thumb-mcq-01": "「手掌側面最短、最粗並能與其他手指相對的拇指」是「thumb — body part」的用法，與本句語境不同。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。"
+        "thumb-mcq-03": "本句的「thumbed the pages」指「用拇指快速、隨意地翻動頁面／翻閱」。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-03"
     },
@@ -456,11 +436,9 @@ export default {
       "masked": "He stood there ____.",
       "options": [
         "thumb-mcq-03",
-        "thumb-mcq-02",
-        "thumb-mcq-04",
-        "thumb-mcq-01",
-        "thumb-mcq-05",
-        "thumb-mcq-06"
+        "thumb-mcq-12",
+        "thumb-mcq-06",
+        "thumb-mcq-11"
       ],
       "explanation": "本句的「thumbing the magazine」指「用拇指快速、隨意地翻動頁面／翻閱」。",
       "sentenceIndex": 5,
@@ -469,12 +447,10 @@ export default {
         "thumbing the magazine"
       ],
       "optionReasons": {
-        "thumb-mcq-03": "本句指「用拇指快速、隨意地翻動頁面／翻閱」。",
-        "thumb-mcq-02": "「為拇指而設或形狀像拇指的突出部分」是「thumb — object part」的用法，與本句語境不同。",
-        "thumb-mcq-04": "「用拇指作方向性手勢來指示某人或某處」是「thumb — gesture」的用法，與本句語境不同。",
-        "thumb-mcq-01": "「手掌側面最短、最粗並能與其他手指相對的拇指」是「thumb — body part」的用法，與本句語境不同。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。"
+        "thumb-mcq-03": "本句的「thumbing the magazine」指「用拇指快速、隨意地翻動頁面／翻閱」。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-03"
     },
@@ -486,11 +462,9 @@ export default {
       "masked": "He ____ to show us where to go.",
       "options": [
         "thumb-mcq-04",
-        "thumb-mcq-03",
-        "thumb-mcq-05",
-        "thumb-mcq-02",
-        "thumb-mcq-06",
-        "thumb-mcq-01"
+        "thumb-mcq-12",
+        "thumb-mcq-11",
+        "thumb-mcq-07"
       ],
       "explanation": "本句的「thumbed toward the door」指「用拇指作方向性手勢來指示某人或某處」。",
       "sentenceIndex": 6,
@@ -499,12 +473,10 @@ export default {
         "thumbed toward the door"
       ],
       "optionReasons": {
-        "thumb-mcq-04": "本句指「用拇指作方向性手勢來指示某人或某處」。",
-        "thumb-mcq-03": "「用拇指快速、隨意地翻動頁面／翻閱」是「thumb + pages/book」的用法，與本句語境不同。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。",
-        "thumb-mcq-02": "「為拇指而設或形狀像拇指的突出部分」是「thumb — object part」的用法，與本句語境不同。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。",
-        "thumb-mcq-01": "「手掌側面最短、最粗並能與其他手指相對的拇指」是「thumb — body part」的用法，與本句語境不同。"
+        "thumb-mcq-04": "本句的「thumbed toward the door」指「用拇指作方向性手勢來指示某人或某處」。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-04"
     },
@@ -516,11 +488,9 @@ export default {
       "masked": "She ____ behind her to indicate the garden.",
       "options": [
         "thumb-mcq-04",
-        "thumb-mcq-03",
-        "thumb-mcq-05",
-        "thumb-mcq-02",
-        "thumb-mcq-06",
-        "thumb-mcq-01"
+        "thumb-mcq-11",
+        "thumb-mcq-12",
+        "thumb-mcq-07"
       ],
       "explanation": "本句的「thumbed」指「用拇指作方向性手勢來指示某人或某處」。",
       "sentenceIndex": 7,
@@ -529,12 +499,10 @@ export default {
         "thumbed"
       ],
       "optionReasons": {
-        "thumb-mcq-04": "本句指「用拇指作方向性手勢來指示某人或某處」。",
-        "thumb-mcq-03": "「用拇指快速、隨意地翻動頁面／翻閱」是「thumb + pages/book」的用法，與本句語境不同。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。",
-        "thumb-mcq-02": "「為拇指而設或形狀像拇指的突出部分」是「thumb — object part」的用法，與本句語境不同。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。",
-        "thumb-mcq-01": "「手掌側面最短、最粗並能與其他手指相對的拇指」是「thumb — body part」的用法，與本句語境不同。"
+        "thumb-mcq-04": "本句的「thumbed」指「用拇指作方向性手勢來指示某人或某處」。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-04"
     },
@@ -546,11 +514,9 @@ export default {
       "masked": "They ____ to the next town.",
       "options": [
         "thumb-mcq-05",
-        "thumb-mcq-04",
         "thumb-mcq-06",
-        "thumb-mcq-03",
-        "thumb-mcq-07",
-        "thumb-mcq-02"
+        "thumb-mcq-12",
+        "thumb-mcq-11"
       ],
       "explanation": "本句的「thumbed a ride」指「豎起拇指示意司機停車，以尋求搭便車」。",
       "sentenceIndex": 8,
@@ -559,12 +525,10 @@ export default {
         "thumbed a ride"
       ],
       "optionReasons": {
-        "thumb-mcq-05": "本句指「豎起拇指示意司機停車，以尋求搭便車」。",
-        "thumb-mcq-04": "「用拇指作方向性手勢來指示某人或某處」是「thumb — gesture」的用法，與本句語境不同。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。",
-        "thumb-mcq-03": "「用拇指快速、隨意地翻動頁面／翻閱」是「thumb + pages/book」的用法，與本句語境不同。",
-        "thumb-mcq-07": "「根據實際經驗形成、方便但未必精確的通用準則」是「rule of thumb」的用法，與本句語境不同。",
-        "thumb-mcq-02": "「為拇指而設或形狀像拇指的突出部分」是「thumb — object part」的用法，與本句語境不同。"
+        "thumb-mcq-05": "本句的「thumbed a ride」指「豎起拇指示意司機停車，以尋求搭便車」。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-05"
     },
@@ -576,11 +540,9 @@ export default {
       "masked": "He spent the summer ____ his way across the country.",
       "options": [
         "thumb-mcq-05",
-        "thumb-mcq-04",
-        "thumb-mcq-06",
-        "thumb-mcq-03",
-        "thumb-mcq-07",
-        "thumb-mcq-02"
+        "thumb-mcq-11",
+        "thumb-mcq-12",
+        "thumb-mcq-06"
       ],
       "explanation": "本句的「thumbing」指「豎起拇指示意司機停車，以尋求搭便車」。",
       "sentenceIndex": 9,
@@ -589,12 +551,10 @@ export default {
         "thumbing"
       ],
       "optionReasons": {
-        "thumb-mcq-05": "本句指「豎起拇指示意司機停車，以尋求搭便車」。",
-        "thumb-mcq-04": "「用拇指作方向性手勢來指示某人或某處」是「thumb — gesture」的用法，與本句語境不同。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。",
-        "thumb-mcq-03": "「用拇指快速、隨意地翻動頁面／翻閱」是「thumb + pages/book」的用法，與本句語境不同。",
-        "thumb-mcq-07": "「根據實際經驗形成、方便但未必精確的通用準則」是「rule of thumb」的用法，與本句語境不同。",
-        "thumb-mcq-02": "「為拇指而設或形狀像拇指的突出部分」是「thumb — object part」的用法，與本句語境不同。"
+        "thumb-mcq-05": "本句的「thumbing」指「豎起拇指示意司機停車，以尋求搭便車」。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-05"
     },
@@ -606,11 +566,9 @@ export default {
       "masked": "She seems to have a real ____.",
       "options": [
         "thumb-mcq-06",
-        "thumb-mcq-05",
         "thumb-mcq-07",
-        "thumb-mcq-04",
         "thumb-mcq-08",
-        "thumb-mcq-03"
+        "thumb-mcq-11"
       ],
       "explanation": "本句的「green thumb」指「很擅長種植和照顧植物的能力／園藝天分」。",
       "sentenceIndex": 10,
@@ -619,12 +577,10 @@ export default {
         "green thumb"
       ],
       "optionReasons": {
-        "thumb-mcq-06": "本句指「很擅長種植和照顧植物的能力／園藝天分」。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。",
-        "thumb-mcq-07": "「根據實際經驗形成、方便但未必精確的通用準則」是「rule of thumb」的用法，與本句語境不同。",
-        "thumb-mcq-04": "「用拇指作方向性手勢來指示某人或某處」是「thumb — gesture」的用法，與本句語境不同。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。",
-        "thumb-mcq-03": "「用拇指快速、隨意地翻動頁面／翻閱」是「thumb + pages/book」的用法，與本句語境不同。"
+        "thumb-mcq-06": "本句的「green thumb」指「很擅長種植和照顧植物的能力／園藝天分」。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-06"
     },
@@ -636,11 +592,9 @@ export default {
       "masked": "My neighbour has a green ____; everything she plants seems to grow.",
       "options": [
         "thumb-mcq-06",
-        "thumb-mcq-05",
         "thumb-mcq-07",
-        "thumb-mcq-04",
-        "thumb-mcq-08",
-        "thumb-mcq-03"
+        "thumb-mcq-09",
+        "thumb-mcq-11"
       ],
       "explanation": "本句的「thumb」指「很擅長種植和照顧植物的能力／園藝天分」。",
       "sentenceIndex": 11,
@@ -649,12 +603,10 @@ export default {
         "thumb"
       ],
       "optionReasons": {
-        "thumb-mcq-06": "本句指「很擅長種植和照顧植物的能力／園藝天分」。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。",
-        "thumb-mcq-07": "「根據實際經驗形成、方便但未必精確的通用準則」是「rule of thumb」的用法，與本句語境不同。",
-        "thumb-mcq-04": "「用拇指作方向性手勢來指示某人或某處」是「thumb — gesture」的用法，與本句語境不同。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。",
-        "thumb-mcq-03": "「用拇指快速、隨意地翻動頁面／翻閱」是「thumb + pages/book」的用法，與本句語境不同。"
+        "thumb-mcq-06": "本句的「thumb」指「很擅長種植和照顧植物的能力／園藝天分」。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-06"
     },
@@ -667,10 +619,8 @@ export default {
       "options": [
         "thumb-mcq-06",
         "thumb-mcq-05",
-        "thumb-mcq-07",
-        "thumb-mcq-04",
-        "thumb-mcq-08",
-        "thumb-mcq-03"
+        "thumb-mcq-12",
+        "thumb-mcq-11"
       ],
       "explanation": "本句的「thumb」指「很擅長種植和照顧植物的能力／園藝天分」。",
       "sentenceIndex": 12,
@@ -679,12 +629,10 @@ export default {
         "thumb"
       ],
       "optionReasons": {
-        "thumb-mcq-06": "本句指「很擅長種植和照顧植物的能力／園藝天分」。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。",
-        "thumb-mcq-07": "「根據實際經驗形成、方便但未必精確的通用準則」是「rule of thumb」的用法，與本句語境不同。",
-        "thumb-mcq-04": "「用拇指作方向性手勢來指示某人或某處」是「thumb — gesture」的用法，與本句語境不同。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。",
-        "thumb-mcq-03": "「用拇指快速、隨意地翻動頁面／翻閱」是「thumb + pages/book」的用法，與本句語境不同。"
+        "thumb-mcq-06": "本句的「thumb」指「很擅長種植和照顧植物的能力／園藝天分」。",
+        "thumb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-06"
     },
@@ -696,11 +644,9 @@ export default {
       "masked": "As a ____, water the plants when the top layer of soil feels dry.",
       "options": [
         "thumb-mcq-07",
-        "thumb-mcq-06",
-        "thumb-mcq-08",
-        "thumb-mcq-05",
-        "thumb-mcq-09",
-        "thumb-mcq-04"
+        "thumb-mcq-13",
+        "thumb-mcq-11",
+        "thumb-mcq-12"
       ],
       "explanation": "本句的「rule of thumb」指「根據實際經驗形成、方便但未必精確的通用準則」。",
       "sentenceIndex": 13,
@@ -709,12 +655,10 @@ export default {
         "rule of thumb"
       ],
       "optionReasons": {
-        "thumb-mcq-07": "本句指「根據實際經驗形成、方便但未必精確的通用準則」。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。",
-        "thumb-mcq-09": "「以拇指向下表示反對、否決或負面評價」是「thumbs-down」的用法，與本句語境不同。",
-        "thumb-mcq-04": "「用拇指作方向性手勢來指示某人或某處」是「thumb — gesture」的用法，與本句語境不同。"
+        "thumb-mcq-07": "本句的「rule of thumb」指「根據實際經驗形成、方便但未必精確的通用準則」。",
+        "thumb-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-07"
     },
@@ -726,11 +670,9 @@ export default {
       "masked": "A useful rule of ____ is to leave enough space between the plants.",
       "options": [
         "thumb-mcq-07",
-        "thumb-mcq-06",
-        "thumb-mcq-08",
-        "thumb-mcq-05",
-        "thumb-mcq-09",
-        "thumb-mcq-04"
+        "thumb-mcq-03",
+        "thumb-mcq-11",
+        "thumb-mcq-12"
       ],
       "explanation": "本句的「thumb」指「根據實際經驗形成、方便但未必精確的通用準則」。",
       "sentenceIndex": 14,
@@ -739,12 +681,10 @@ export default {
         "thumb"
       ],
       "optionReasons": {
-        "thumb-mcq-07": "本句指「根據實際經驗形成、方便但未必精確的通用準則」。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。",
-        "thumb-mcq-09": "「以拇指向下表示反對、否決或負面評價」是「thumbs-down」的用法，與本句語境不同。",
-        "thumb-mcq-04": "「用拇指作方向性手勢來指示某人或某處」是「thumb — gesture」的用法，與本句語境不同。"
+        "thumb-mcq-07": "本句的「thumb」指「根據實際經驗形成、方便但未必精確的通用準則」。",
+        "thumb-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-07"
     },
@@ -756,11 +696,9 @@ export default {
       "masked": "She gave me a ____ when she saw the new plants.",
       "options": [
         "thumb-mcq-08",
-        "thumb-mcq-07",
-        "thumb-mcq-09",
         "thumb-mcq-06",
-        "thumb-mcq-10",
-        "thumb-mcq-05"
+        "thumb-mcq-12",
+        "thumb-mcq-11"
       ],
       "explanation": "本句的「thumbs-up」指「以豎起拇指表示贊成、滿意或批准」。",
       "sentenceIndex": 15,
@@ -769,12 +707,10 @@ export default {
         "thumbs-up"
       ],
       "optionReasons": {
-        "thumb-mcq-08": "本句指「以豎起拇指表示贊成、滿意或批准」。",
-        "thumb-mcq-07": "「根據實際經驗形成、方便但未必精確的通用準則」是「rule of thumb」的用法，與本句語境不同。",
-        "thumb-mcq-09": "「以拇指向下表示反對、否決或負面評價」是「thumbs-down」的用法，與本句語境不同。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。",
-        "thumb-mcq-10": "「拇指上的指甲」是「thumbnail — nail」的用法，與本句語境不同。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。"
+        "thumb-mcq-08": "本句的「thumbs-up」指「以豎起拇指表示贊成、滿意或批准」。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-08"
     },
@@ -786,11 +722,9 @@ export default {
       "masked": "The manager gave the project the ____.",
       "options": [
         "thumb-mcq-08",
-        "thumb-mcq-07",
-        "thumb-mcq-09",
-        "thumb-mcq-06",
-        "thumb-mcq-10",
-        "thumb-mcq-05"
+        "thumb-mcq-12",
+        "thumb-mcq-11",
+        "thumb-mcq-06"
       ],
       "explanation": "本句的「thumbs-up」指「以豎起拇指表示贊成、滿意或批准」。",
       "sentenceIndex": 16,
@@ -799,12 +733,10 @@ export default {
         "thumbs-up"
       ],
       "optionReasons": {
-        "thumb-mcq-08": "本句指「以豎起拇指表示贊成、滿意或批准」。",
-        "thumb-mcq-07": "「根據實際經驗形成、方便但未必精確的通用準則」是「rule of thumb」的用法，與本句語境不同。",
-        "thumb-mcq-09": "「以拇指向下表示反對、否決或負面評價」是「thumbs-down」的用法，與本句語境不同。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。",
-        "thumb-mcq-10": "「拇指上的指甲」是「thumbnail — nail」的用法，與本句語境不同。",
-        "thumb-mcq-05": "「豎起拇指示意司機停車，以尋求搭便車」是「thumb a ride」的用法，與本句語境不同。"
+        "thumb-mcq-08": "本句的「thumbs-up」指「以豎起拇指表示贊成、滿意或批准」。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-08"
     },
@@ -816,11 +748,9 @@ export default {
       "masked": "The audience gave the idea a ____.",
       "options": [
         "thumb-mcq-09",
-        "thumb-mcq-08",
-        "thumb-mcq-10",
-        "thumb-mcq-07",
-        "thumb-mcq-11",
-        "thumb-mcq-06"
+        "thumb-mcq-06",
+        "thumb-mcq-12",
+        "thumb-mcq-11"
       ],
       "explanation": "本句的「thumbs-down」指「以拇指向下表示反對、否決或負面評價」。",
       "sentenceIndex": 17,
@@ -829,12 +759,10 @@ export default {
         "thumbs-down"
       ],
       "optionReasons": {
-        "thumb-mcq-09": "本句指「以拇指向下表示反對、否決或負面評價」。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。",
-        "thumb-mcq-10": "「拇指上的指甲」是「thumbnail — nail」的用法，與本句語境不同。",
-        "thumb-mcq-07": "「根據實際經驗形成、方便但未必精確的通用準則」是「rule of thumb」的用法，與本句語境不同。",
-        "thumb-mcq-11": "「代表較大圖片、影片或文件的小型預覽圖像」是「thumbnail — technology」的用法，與本句語境不同。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。"
+        "thumb-mcq-09": "本句的「thumbs-down」指「以拇指向下表示反對、否決或負面評價」。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-09"
     },
@@ -846,11 +774,9 @@ export default {
       "masked": "The proposal received a ____ from the committee.",
       "options": [
         "thumb-mcq-09",
-        "thumb-mcq-08",
-        "thumb-mcq-10",
-        "thumb-mcq-07",
+        "thumb-mcq-12",
         "thumb-mcq-11",
-        "thumb-mcq-06"
+        "thumb-mcq-07"
       ],
       "explanation": "本句的「thumbs-down」指「以拇指向下表示反對、否決或負面評價」。",
       "sentenceIndex": 18,
@@ -859,12 +785,10 @@ export default {
         "thumbs-down"
       ],
       "optionReasons": {
-        "thumb-mcq-09": "本句指「以拇指向下表示反對、否決或負面評價」。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。",
-        "thumb-mcq-10": "「拇指上的指甲」是「thumbnail — nail」的用法，與本句語境不同。",
-        "thumb-mcq-07": "「根據實際經驗形成、方便但未必精確的通用準則」是「rule of thumb」的用法，與本句語境不同。",
-        "thumb-mcq-11": "「代表較大圖片、影片或文件的小型預覽圖像」是「thumbnail — technology」的用法，與本句語境不同。",
-        "thumb-mcq-06": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。"
+        "thumb-mcq-09": "本句的「thumbs-down」指「以拇指向下表示反對、否決或負面評價」。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-09"
     },
@@ -876,11 +800,9 @@ export default {
       "masked": "She broke her ____ while opening the box.",
       "options": [
         "thumb-mcq-10",
-        "thumb-mcq-09",
-        "thumb-mcq-11",
-        "thumb-mcq-08",
         "thumb-mcq-12",
-        "thumb-mcq-07"
+        "thumb-mcq-06",
+        "thumb-mcq-11"
       ],
       "explanation": "本句的「thumbnail」指「拇指上的指甲」。",
       "sentenceIndex": 19,
@@ -889,12 +811,10 @@ export default {
         "thumbnail"
       ],
       "optionReasons": {
-        "thumb-mcq-10": "本句指「拇指上的指甲」。",
-        "thumb-mcq-09": "「以拇指向下表示反對、否決或負面評價」是「thumbs-down」的用法，與本句語境不同。",
-        "thumb-mcq-11": "「代表較大圖片、影片或文件的小型預覽圖像」是「thumbnail — technology」的用法，與本句語境不同。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。",
-        "thumb-mcq-12": "「只呈現主要特點的簡短概述／概略描述」是「thumbnail sketch」的用法，與本句語境不同。",
-        "thumb-mcq-07": "「根據實際經驗形成、方便但未必精確的通用準則」是「rule of thumb」的用法，與本句語境不同。"
+        "thumb-mcq-10": "本句的「thumbnail」指「拇指上的指甲」。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-10"
     },
@@ -906,11 +826,9 @@ export default {
       "masked": "There was dirt under his ____.",
       "options": [
         "thumb-mcq-10",
-        "thumb-mcq-09",
-        "thumb-mcq-11",
-        "thumb-mcq-08",
-        "thumb-mcq-12",
-        "thumb-mcq-07"
+        "thumb-mcq-06",
+        "thumb-mcq-07",
+        "thumb-mcq-11"
       ],
       "explanation": "本句的「thumbnail」指「拇指上的指甲」。",
       "sentenceIndex": 20,
@@ -919,12 +837,10 @@ export default {
         "thumbnail"
       ],
       "optionReasons": {
-        "thumb-mcq-10": "本句指「拇指上的指甲」。",
-        "thumb-mcq-09": "「以拇指向下表示反對、否決或負面評價」是「thumbs-down」的用法，與本句語境不同。",
-        "thumb-mcq-11": "「代表較大圖片、影片或文件的小型預覽圖像」是「thumbnail — technology」的用法，與本句語境不同。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。",
-        "thumb-mcq-12": "「只呈現主要特點的簡短概述／概略描述」是「thumbnail sketch」的用法，與本句語境不同。",
-        "thumb-mcq-07": "「根據實際經驗形成、方便但未必精確的通用準則」是「rule of thumb」的用法，與本句語境不同。"
+        "thumb-mcq-10": "本句的「thumbnail」指「拇指上的指甲」。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-10"
     },
@@ -937,10 +853,8 @@ export default {
       "options": [
         "thumb-mcq-11",
         "thumb-mcq-10",
-        "thumb-mcq-12",
-        "thumb-mcq-09",
-        "thumb-mcq-13",
-        "thumb-mcq-08"
+        "thumb-mcq-06",
+        "thumb-mcq-07"
       ],
       "explanation": "本句的「thumbnail」指「代表較大圖片、影片或文件的小型預覽圖像」。",
       "sentenceIndex": 21,
@@ -949,12 +863,10 @@ export default {
         "thumbnail"
       ],
       "optionReasons": {
-        "thumb-mcq-11": "本句指「代表較大圖片、影片或文件的小型預覽圖像」。",
-        "thumb-mcq-10": "「拇指上的指甲」是「thumbnail — nail」的用法，與本句語境不同。",
-        "thumb-mcq-12": "「只呈現主要特點的簡短概述／概略描述」是「thumbnail sketch」的用法，與本句語境不同。",
-        "thumb-mcq-09": "「以拇指向下表示反對、否決或負面評價」是「thumbs-down」的用法，與本句語境不同。",
-        "thumb-mcq-13": "「由拇指紋路留下、可用作識別的指紋印記」是「thumbprint」的用法，與本句語境不同。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。"
+        "thumb-mcq-11": "本句的「thumbnail」指「代表較大圖片、影片或文件的小型預覽圖像」。",
+        "thumb-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-11"
     },
@@ -966,11 +878,9 @@ export default {
       "masked": "The video ____ should be clear and attractive.",
       "options": [
         "thumb-mcq-11",
-        "thumb-mcq-10",
-        "thumb-mcq-12",
-        "thumb-mcq-09",
-        "thumb-mcq-13",
-        "thumb-mcq-08"
+        "thumb-mcq-06",
+        "thumb-mcq-08",
+        "thumb-mcq-07"
       ],
       "explanation": "本句的「thumbnail」指「代表較大圖片、影片或文件的小型預覽圖像」。",
       "sentenceIndex": 22,
@@ -979,12 +889,10 @@ export default {
         "thumbnail"
       ],
       "optionReasons": {
-        "thumb-mcq-11": "本句指「代表較大圖片、影片或文件的小型預覽圖像」。",
-        "thumb-mcq-10": "「拇指上的指甲」是「thumbnail — nail」的用法，與本句語境不同。",
-        "thumb-mcq-12": "「只呈現主要特點的簡短概述／概略描述」是「thumbnail sketch」的用法，與本句語境不同。",
-        "thumb-mcq-09": "「以拇指向下表示反對、否決或負面評價」是「thumbs-down」的用法，與本句語境不同。",
-        "thumb-mcq-13": "「由拇指紋路留下、可用作識別的指紋印記」是「thumbprint」的用法，與本句語境不同。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。"
+        "thumb-mcq-11": "本句的「thumbnail」指「代表較大圖片、影片或文件的小型預覽圖像」。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-11"
     },
@@ -996,11 +904,9 @@ export default {
       "masked": "The report gives a ____ of the project.",
       "options": [
         "thumb-mcq-12",
-        "thumb-mcq-11",
-        "thumb-mcq-13",
-        "thumb-mcq-10",
-        "thumb-mcq-09",
-        "thumb-mcq-08"
+        "thumb-mcq-07",
+        "thumb-mcq-03",
+        "thumb-mcq-11"
       ],
       "explanation": "本句的「thumbnail sketch」指「只呈現主要特點的簡短概述／概略描述」。",
       "sentenceIndex": 23,
@@ -1009,12 +915,10 @@ export default {
         "thumbnail sketch"
       ],
       "optionReasons": {
-        "thumb-mcq-12": "本句指「只呈現主要特點的簡短概述／概略描述」。",
-        "thumb-mcq-11": "「代表較大圖片、影片或文件的小型預覽圖像」是「thumbnail — technology」的用法，與本句語境不同。",
-        "thumb-mcq-13": "「由拇指紋路留下、可用作識別的指紋印記」是「thumbprint」的用法，與本句語境不同。",
-        "thumb-mcq-10": "「拇指上的指甲」是「thumbnail — nail」的用法，與本句語境不同。",
-        "thumb-mcq-09": "「以拇指向下表示反對、否決或負面評價」是「thumbs-down」的用法，與本句語境不同。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。"
+        "thumb-mcq-12": "本句的「thumbnail sketch」指「只呈現主要特點的簡短概述／概略描述」。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-12"
     },
@@ -1026,11 +930,9 @@ export default {
       "masked": "She gave us a ____ description of her garden.",
       "options": [
         "thumb-mcq-12",
+        "thumb-mcq-05",
         "thumb-mcq-11",
-        "thumb-mcq-13",
-        "thumb-mcq-10",
-        "thumb-mcq-09",
-        "thumb-mcq-08"
+        "thumb-mcq-06"
       ],
       "explanation": "本句的「thumbnail」指「只呈現主要特點的簡短概述／概略描述」。",
       "sentenceIndex": 24,
@@ -1039,12 +941,10 @@ export default {
         "thumbnail"
       ],
       "optionReasons": {
-        "thumb-mcq-12": "本句指「只呈現主要特點的簡短概述／概略描述」。",
-        "thumb-mcq-11": "「代表較大圖片、影片或文件的小型預覽圖像」是「thumbnail — technology」的用法，與本句語境不同。",
-        "thumb-mcq-13": "「由拇指紋路留下、可用作識別的指紋印記」是「thumbprint」的用法，與本句語境不同。",
-        "thumb-mcq-10": "「拇指上的指甲」是「thumbnail — nail」的用法，與本句語境不同。",
-        "thumb-mcq-09": "「以拇指向下表示反對、否決或負面評價」是「thumbs-down」的用法，與本句語境不同。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。"
+        "thumb-mcq-12": "本句的「thumbnail」指「只呈現主要特點的簡短概述／概略描述」。",
+        "thumb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-12"
     },
@@ -1056,11 +956,9 @@ export default {
       "masked": "The device can be unlocked with a ____.",
       "options": [
         "thumb-mcq-13",
-        "thumb-mcq-12",
         "thumb-mcq-11",
-        "thumb-mcq-10",
-        "thumb-mcq-09",
-        "thumb-mcq-08"
+        "thumb-mcq-07",
+        "thumb-mcq-12"
       ],
       "explanation": "本句的「thumbprint」指「由拇指紋路留下、可用作識別的指紋印記」。",
       "sentenceIndex": 25,
@@ -1069,12 +967,10 @@ export default {
         "thumbprint"
       ],
       "optionReasons": {
-        "thumb-mcq-13": "本句指「由拇指紋路留下、可用作識別的指紋印記」。",
-        "thumb-mcq-12": "「只呈現主要特點的簡短概述／概略描述」是「thumbnail sketch」的用法，與本句語境不同。",
-        "thumb-mcq-11": "「代表較大圖片、影片或文件的小型預覽圖像」是「thumbnail — technology」的用法，與本句語境不同。",
-        "thumb-mcq-10": "「拇指上的指甲」是「thumbnail — nail」的用法，與本句語境不同。",
-        "thumb-mcq-09": "「以拇指向下表示反對、否決或負面評價」是「thumbs-down」的用法，與本句語境不同。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。"
+        "thumb-mcq-13": "本句的「thumbprint」指「由拇指紋路留下、可用作識別的指紋印記」。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-13"
     },
@@ -1086,11 +982,9 @@ export default {
       "masked": "The police found a ____ on the glass.",
       "options": [
         "thumb-mcq-13",
-        "thumb-mcq-12",
         "thumb-mcq-11",
-        "thumb-mcq-10",
-        "thumb-mcq-09",
-        "thumb-mcq-08"
+        "thumb-mcq-12",
+        "thumb-mcq-07"
       ],
       "explanation": "本句的「thumbprint」指「由拇指紋路留下、可用作識別的指紋印記」。",
       "sentenceIndex": 26,
@@ -1099,12 +993,10 @@ export default {
         "thumbprint"
       ],
       "optionReasons": {
-        "thumb-mcq-13": "本句指「由拇指紋路留下、可用作識別的指紋印記」。",
-        "thumb-mcq-12": "「只呈現主要特點的簡短概述／概略描述」是「thumbnail sketch」的用法，與本句語境不同。",
-        "thumb-mcq-11": "「代表較大圖片、影片或文件的小型預覽圖像」是「thumbnail — technology」的用法，與本句語境不同。",
-        "thumb-mcq-10": "「拇指上的指甲」是「thumbnail — nail」的用法，與本句語境不同。",
-        "thumb-mcq-09": "「以拇指向下表示反對、否決或負面評價」是「thumbs-down」的用法，與本句語境不同。",
-        "thumb-mcq-08": "「以豎起拇指表示贊成、滿意或批准」是「thumbs-up」的用法，與本句語境不同。"
+        "thumb-mcq-13": "本句的「thumbprint」指「由拇指紋路留下、可用作識別的指紋印記」。",
+        "thumb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thumb-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thumb-mcq-13"
     }
@@ -1116,5 +1008,7 @@ export default {
     "sha256": "5c339d9d1f65346e92b7ad79ad56b1f5c9f454d68efd1129c7ca569dad7481da",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -496,11 +496,9 @@ export default {
       "masked": "A good gift should not just fill a shopping ____.",
       "options": [
         "bag-mcq-01",
-        "bag-mcq-02",
-        "bag-mcq-03",
-        "bag-mcq-04",
-        "bag-mcq-05",
-        "bag-mcq-06"
+        "bag-mcq-13",
+        "bag-mcq-12",
+        "bag-mcq-17"
       ],
       "explanation": "本句的「bag」指「袋；袋子」。",
       "sentenceIndex": 0,
@@ -509,12 +507,10 @@ export default {
         "bag"
       ],
       "optionReasons": {
-        "bag-mcq-01": "本句指「袋；袋子」。",
-        "bag-mcq-02": "「購物袋」與本句語境不同。",
-        "bag-mcq-03": "「紙袋」與本句語境不同。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。"
+        "bag-mcq-01": "本句的「bag」指「袋；袋子」。",
+        "bag-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-01"
     },
@@ -526,11 +522,9 @@ export default {
       "masked": "She put the books in a ____.",
       "options": [
         "bag-mcq-01",
-        "bag-mcq-02",
-        "bag-mcq-03",
-        "bag-mcq-04",
-        "bag-mcq-05",
-        "bag-mcq-06"
+        "bag-mcq-14",
+        "bag-mcq-18",
+        "bag-mcq-21"
       ],
       "explanation": "本句的「bag」指「袋；袋子」。",
       "sentenceIndex": 1,
@@ -539,12 +533,10 @@ export default {
         "bag"
       ],
       "optionReasons": {
-        "bag-mcq-01": "本句指「袋；袋子」。",
-        "bag-mcq-02": "「購物袋」與本句語境不同。",
-        "bag-mcq-03": "「紙袋」與本句語境不同。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。"
+        "bag-mcq-01": "本句的「bag」指「袋；袋子」。",
+        "bag-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-01"
     },
@@ -556,11 +548,9 @@ export default {
       "masked": "I left my ____ on the chair.",
       "options": [
         "bag-mcq-01",
-        "bag-mcq-02",
-        "bag-mcq-03",
-        "bag-mcq-04",
-        "bag-mcq-05",
-        "bag-mcq-06"
+        "bag-mcq-17",
+        "bag-mcq-12",
+        "bag-mcq-08"
       ],
       "explanation": "本句的「bag」指「袋；袋子」。",
       "sentenceIndex": 2,
@@ -569,12 +559,10 @@ export default {
         "bag"
       ],
       "optionReasons": {
-        "bag-mcq-01": "本句指「袋；袋子」。",
-        "bag-mcq-02": "「購物袋」與本句語境不同。",
-        "bag-mcq-03": "「紙袋」與本句語境不同。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。"
+        "bag-mcq-01": "本句的「bag」指「袋；袋子」。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-01"
     },
@@ -586,11 +574,9 @@ export default {
       "masked": "She carried two ____ home.",
       "options": [
         "bag-mcq-02",
-        "bag-mcq-01",
-        "bag-mcq-03",
-        "bag-mcq-04",
-        "bag-mcq-05",
-        "bag-mcq-06"
+        "bag-mcq-18",
+        "bag-mcq-13",
+        "bag-mcq-08"
       ],
       "explanation": "本句的「shopping bags」指「購物袋」。",
       "sentenceIndex": 3,
@@ -599,12 +585,10 @@ export default {
         "shopping bags"
       ],
       "optionReasons": {
-        "bag-mcq-02": "本句指「購物袋」。",
-        "bag-mcq-01": "「袋；袋子」與本句語境不同。",
-        "bag-mcq-03": "「紙袋」與本句語境不同。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。"
+        "bag-mcq-02": "本句的「shopping bags」指「購物袋」。",
+        "bag-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-02"
     },
@@ -616,11 +600,9 @@ export default {
       "masked": "Put the groceries in the ____.",
       "options": [
         "bag-mcq-02",
-        "bag-mcq-01",
-        "bag-mcq-03",
-        "bag-mcq-04",
-        "bag-mcq-05",
-        "bag-mcq-06"
+        "bag-mcq-15",
+        "bag-mcq-12",
+        "bag-mcq-19"
       ],
       "explanation": "本句的「shopping bag」指「購物袋」。",
       "sentenceIndex": 4,
@@ -629,12 +611,10 @@ export default {
         "shopping bag"
       ],
       "optionReasons": {
-        "bag-mcq-02": "本句指「購物袋」。",
-        "bag-mcq-01": "「袋；袋子」與本句語境不同。",
-        "bag-mcq-03": "「紙袋」與本句語境不同。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。"
+        "bag-mcq-02": "本句的「shopping bag」指「購物袋」。",
+        "bag-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-02"
     },
@@ -646,11 +626,9 @@ export default {
       "masked": "The bread came in a ____.",
       "options": [
         "bag-mcq-03",
-        "bag-mcq-02",
-        "bag-mcq-04",
-        "bag-mcq-01",
-        "bag-mcq-05",
-        "bag-mcq-06"
+        "bag-mcq-17",
+        "bag-mcq-12",
+        "bag-mcq-20"
       ],
       "explanation": "本句的「paper bag」指「紙袋」。",
       "sentenceIndex": 5,
@@ -659,12 +637,10 @@ export default {
         "paper bag"
       ],
       "optionReasons": {
-        "bag-mcq-03": "本句指「紙袋」。",
-        "bag-mcq-02": "「購物袋」與本句語境不同。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。",
-        "bag-mcq-01": "「袋；袋子」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。"
+        "bag-mcq-03": "本句的「paper bag」指「紙袋」。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-03"
     },
@@ -676,11 +652,9 @@ export default {
       "masked": "She carried lunch in a ____.",
       "options": [
         "bag-mcq-03",
-        "bag-mcq-02",
-        "bag-mcq-04",
-        "bag-mcq-01",
-        "bag-mcq-05",
-        "bag-mcq-06"
+        "bag-mcq-17",
+        "bag-mcq-16",
+        "bag-mcq-13"
       ],
       "explanation": "本句的「paper bag」指「紙袋」。",
       "sentenceIndex": 6,
@@ -689,12 +663,10 @@ export default {
         "paper bag"
       ],
       "optionReasons": {
-        "bag-mcq-03": "本句指「紙袋」。",
-        "bag-mcq-02": "「購物袋」與本句語境不同。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。",
-        "bag-mcq-01": "「袋；袋子」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。"
+        "bag-mcq-03": "本句的「paper bag」指「紙袋」。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-03"
     },
@@ -706,11 +678,9 @@ export default {
       "masked": "The shop charges for ____.",
       "options": [
         "bag-mcq-04",
-        "bag-mcq-03",
-        "bag-mcq-05",
-        "bag-mcq-02",
-        "bag-mcq-06",
-        "bag-mcq-01"
+        "bag-mcq-17",
+        "bag-mcq-08",
+        "bag-mcq-15"
       ],
       "explanation": "本句的「plastic bags」指「膠袋」。",
       "sentenceIndex": 7,
@@ -719,12 +689,10 @@ export default {
         "plastic bags"
       ],
       "optionReasons": {
-        "bag-mcq-04": "本句指「膠袋」。",
-        "bag-mcq-03": "「紙袋」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-02": "「購物袋」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。",
-        "bag-mcq-01": "「袋；袋子」與本句語境不同。"
+        "bag-mcq-04": "本句的「plastic bags」指「膠袋」。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-04"
     },
@@ -736,11 +704,9 @@ export default {
       "masked": "Try to reuse ____.",
       "options": [
         "bag-mcq-04",
-        "bag-mcq-03",
-        "bag-mcq-05",
-        "bag-mcq-02",
-        "bag-mcq-06",
-        "bag-mcq-01"
+        "bag-mcq-13",
+        "bag-mcq-15",
+        "bag-mcq-16"
       ],
       "explanation": "本句的「plastic bags」指「膠袋」。",
       "sentenceIndex": 8,
@@ -749,12 +715,10 @@ export default {
         "plastic bags"
       ],
       "optionReasons": {
-        "bag-mcq-04": "本句指「膠袋」。",
-        "bag-mcq-03": "「紙袋」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-02": "「購物袋」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。",
-        "bag-mcq-01": "「袋；袋子」與本句語境不同。"
+        "bag-mcq-04": "本句的「plastic bags」指「膠袋」。",
+        "bag-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-04"
     },
@@ -766,11 +730,9 @@ export default {
       "masked": "He bought a ____.",
       "options": [
         "bag-mcq-05",
-        "bag-mcq-04",
-        "bag-mcq-06",
-        "bag-mcq-03",
-        "bag-mcq-07",
-        "bag-mcq-02"
+        "bag-mcq-13",
+        "bag-mcq-21",
+        "bag-mcq-20"
       ],
       "explanation": "本句的「bag of rice」指「一袋 X」。",
       "sentenceIndex": 9,
@@ -779,12 +741,10 @@ export default {
         "bag of rice"
       ],
       "optionReasons": {
-        "bag-mcq-05": "本句指「一袋 X」。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。",
-        "bag-mcq-03": "「紙袋」與本句語境不同。",
-        "bag-mcq-07": "「手袋」與本句語境不同。",
-        "bag-mcq-02": "「購物袋」與本句語境不同。"
+        "bag-mcq-05": "本句的「bag of rice」指「一袋 X」。",
+        "bag-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-05"
     },
@@ -796,11 +756,9 @@ export default {
       "masked": "She opened a ____.",
       "options": [
         "bag-mcq-05",
-        "bag-mcq-04",
-        "bag-mcq-06",
-        "bag-mcq-03",
-        "bag-mcq-07",
-        "bag-mcq-02"
+        "bag-mcq-15",
+        "bag-mcq-13",
+        "bag-mcq-16"
       ],
       "explanation": "本句的「bag of crisps」指「一袋 X」。",
       "sentenceIndex": 10,
@@ -809,12 +767,10 @@ export default {
         "bag of crisps"
       ],
       "optionReasons": {
-        "bag-mcq-05": "本句指「一袋 X」。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。",
-        "bag-mcq-03": "「紙袋」與本句語境不同。",
-        "bag-mcq-07": "「手袋」與本句語境不同。",
-        "bag-mcq-02": "「購物袋」與本句語境不同。"
+        "bag-mcq-05": "本句的「bag of crisps」指「一袋 X」。",
+        "bag-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-05"
     },
@@ -826,11 +782,9 @@ export default {
       "masked": "He collected a ____.",
       "options": [
         "bag-mcq-06",
-        "bag-mcq-05",
-        "bag-mcq-07",
-        "bag-mcq-04",
-        "bag-mcq-08",
-        "bag-mcq-03"
+        "bag-mcq-18",
+        "bag-mcq-14",
+        "bag-mcq-17"
       ],
       "explanation": "本句的「bagful of apples」指「一袋的量」。",
       "sentenceIndex": 11,
@@ -839,12 +793,10 @@ export default {
         "bagful of apples"
       ],
       "optionReasons": {
-        "bag-mcq-06": "本句指「一袋的量」。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-07": "「手袋」與本句語境不同。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。",
-        "bag-mcq-08": "「書包」與本句語境不同。",
-        "bag-mcq-03": "「紙袋」與本句語境不同。"
+        "bag-mcq-06": "本句的「bagful of apples」指「一袋的量」。",
+        "bag-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-06"
     },
@@ -856,11 +808,9 @@ export default {
       "masked": "We brought home a ____.",
       "options": [
         "bag-mcq-06",
-        "bag-mcq-05",
-        "bag-mcq-07",
-        "bag-mcq-04",
-        "bag-mcq-08",
-        "bag-mcq-03"
+        "bag-mcq-15",
+        "bag-mcq-17",
+        "bag-mcq-18"
       ],
       "explanation": "本句的「bagful of books」指「一袋的量」。",
       "sentenceIndex": 12,
@@ -869,12 +819,10 @@ export default {
         "bagful of books"
       ],
       "optionReasons": {
-        "bag-mcq-06": "本句指「一袋的量」。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-07": "「手袋」與本句語境不同。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。",
-        "bag-mcq-08": "「書包」與本句語境不同。",
-        "bag-mcq-03": "「紙袋」與本句語境不同。"
+        "bag-mcq-06": "本句的「bagful of books」指「一袋的量」。",
+        "bag-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-06"
     },
@@ -886,11 +834,9 @@ export default {
       "masked": "She put her phone in her ____.",
       "options": [
         "bag-mcq-07",
-        "bag-mcq-06",
-        "bag-mcq-08",
-        "bag-mcq-05",
-        "bag-mcq-09",
-        "bag-mcq-04"
+        "bag-mcq-12",
+        "bag-mcq-20",
+        "bag-mcq-16"
       ],
       "explanation": "本句的「handbag」指「手袋」。",
       "sentenceIndex": 13,
@@ -899,12 +845,10 @@ export default {
         "handbag"
       ],
       "optionReasons": {
-        "bag-mcq-07": "本句指「手袋」。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。",
-        "bag-mcq-08": "「書包」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-09": "「旅行袋」與本句語境不同。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。"
+        "bag-mcq-07": "本句的「handbag」指「手袋」。",
+        "bag-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-07"
     },
@@ -916,11 +860,9 @@ export default {
       "masked": "Her ____ was under the table.",
       "options": [
         "bag-mcq-07",
-        "bag-mcq-06",
         "bag-mcq-08",
-        "bag-mcq-05",
-        "bag-mcq-09",
-        "bag-mcq-04"
+        "bag-mcq-15",
+        "bag-mcq-20"
       ],
       "explanation": "本句的「handbag」指「手袋」。",
       "sentenceIndex": 14,
@@ -929,12 +871,10 @@ export default {
         "handbag"
       ],
       "optionReasons": {
-        "bag-mcq-07": "本句指「手袋」。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。",
-        "bag-mcq-08": "「書包」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-09": "「旅行袋」與本句語境不同。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。"
+        "bag-mcq-07": "本句的「handbag」指「手袋」。",
+        "bag-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-07"
     },
@@ -946,11 +886,9 @@ export default {
       "masked": "The child packed his books into his ____.",
       "options": [
         "bag-mcq-08",
-        "bag-mcq-07",
-        "bag-mcq-09",
-        "bag-mcq-06",
-        "bag-mcq-10",
-        "bag-mcq-05"
+        "bag-mcq-20",
+        "bag-mcq-02",
+        "bag-mcq-19"
       ],
       "explanation": "本句的「school bag」指「書包」。",
       "sentenceIndex": 15,
@@ -959,12 +897,10 @@ export default {
         "school bag"
       ],
       "optionReasons": {
-        "bag-mcq-08": "本句指「書包」。",
-        "bag-mcq-07": "「手袋」與本句語境不同。",
-        "bag-mcq-09": "「旅行袋」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。",
-        "bag-mcq-10": "「眼袋」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。"
+        "bag-mcq-08": "本句的「school bag」指「書包」。",
+        "bag-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-08"
     },
@@ -976,11 +912,9 @@ export default {
       "masked": "Her ____ is very heavy.",
       "options": [
         "bag-mcq-08",
-        "bag-mcq-07",
-        "bag-mcq-09",
-        "bag-mcq-06",
-        "bag-mcq-10",
-        "bag-mcq-05"
+        "bag-mcq-04",
+        "bag-mcq-12",
+        "bag-mcq-18"
       ],
       "explanation": "本句的「school bag」指「書包」。",
       "sentenceIndex": 16,
@@ -989,12 +923,10 @@ export default {
         "school bag"
       ],
       "optionReasons": {
-        "bag-mcq-08": "本句指「書包」。",
-        "bag-mcq-07": "「手袋」與本句語境不同。",
-        "bag-mcq-09": "「旅行袋」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。",
-        "bag-mcq-10": "「眼袋」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。"
+        "bag-mcq-08": "本句的「school bag」指「書包」。",
+        "bag-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-08"
     },
@@ -1006,11 +938,9 @@ export default {
       "masked": "I packed everything into a small ____.",
       "options": [
         "bag-mcq-09",
-        "bag-mcq-08",
-        "bag-mcq-10",
-        "bag-mcq-07",
-        "bag-mcq-11",
-        "bag-mcq-06"
+        "bag-mcq-19",
+        "bag-mcq-14",
+        "bag-mcq-08"
       ],
       "explanation": "本句的「travel bag」指「旅行袋」。",
       "sentenceIndex": 17,
@@ -1019,12 +949,10 @@ export default {
         "travel bag"
       ],
       "optionReasons": {
-        "bag-mcq-09": "本句指「旅行袋」。",
-        "bag-mcq-08": "「書包」與本句語境不同。",
-        "bag-mcq-10": "「眼袋」與本句語境不同。",
-        "bag-mcq-07": "「手袋」與本句語境不同。",
-        "bag-mcq-11": "「把 X 裝袋」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。"
+        "bag-mcq-09": "本句的「travel bag」指「旅行袋」。",
+        "bag-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-09"
     },
@@ -1036,11 +964,9 @@ export default {
       "masked": "His ____ was already full.",
       "options": [
         "bag-mcq-09",
-        "bag-mcq-08",
-        "bag-mcq-10",
-        "bag-mcq-07",
-        "bag-mcq-11",
-        "bag-mcq-06"
+        "bag-mcq-15",
+        "bag-mcq-19",
+        "bag-mcq-13"
       ],
       "explanation": "本句的「travel bag」指「旅行袋」。",
       "sentenceIndex": 18,
@@ -1049,12 +975,10 @@ export default {
         "travel bag"
       ],
       "optionReasons": {
-        "bag-mcq-09": "本句指「旅行袋」。",
-        "bag-mcq-08": "「書包」與本句語境不同。",
-        "bag-mcq-10": "「眼袋」與本句語境不同。",
-        "bag-mcq-07": "「手袋」與本句語境不同。",
-        "bag-mcq-11": "「把 X 裝袋」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。"
+        "bag-mcq-09": "本句的「travel bag」指「旅行袋」。",
+        "bag-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-09"
     },
@@ -1066,11 +990,9 @@ export default {
       "masked": "He had dark ____.",
       "options": [
         "bag-mcq-10",
-        "bag-mcq-09",
-        "bag-mcq-11",
-        "bag-mcq-08",
-        "bag-mcq-12",
-        "bag-mcq-07"
+        "bag-mcq-15",
+        "bag-mcq-18",
+        "bag-mcq-21"
       ],
       "explanation": "本句的「bags under his eyes」指「眼袋」。",
       "sentenceIndex": 19,
@@ -1079,12 +1001,10 @@ export default {
         "bags under his eyes"
       ],
       "optionReasons": {
-        "bag-mcq-10": "本句指「眼袋」。",
-        "bag-mcq-09": "「旅行袋」與本句語境不同。",
-        "bag-mcq-11": "「把 X 裝袋」與本句語境不同。",
-        "bag-mcq-08": "「書包」與本句語境不同。",
-        "bag-mcq-12": "「搶到便宜貨」與本句語境不同。",
-        "bag-mcq-07": "「手袋」與本句語境不同。"
+        "bag-mcq-10": "本句的「bags under his eyes」指「眼袋」。",
+        "bag-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-10"
     },
@@ -1096,11 +1016,9 @@ export default {
       "masked": "Lack of sleep gave her ____.",
       "options": [
         "bag-mcq-10",
-        "bag-mcq-09",
-        "bag-mcq-11",
-        "bag-mcq-08",
-        "bag-mcq-12",
-        "bag-mcq-07"
+        "bag-mcq-13",
+        "bag-mcq-17",
+        "bag-mcq-21"
       ],
       "explanation": "本句的「bags under her eyes」指「眼袋」。",
       "sentenceIndex": 20,
@@ -1109,12 +1027,10 @@ export default {
         "bags under her eyes"
       ],
       "optionReasons": {
-        "bag-mcq-10": "本句指「眼袋」。",
-        "bag-mcq-09": "「旅行袋」與本句語境不同。",
-        "bag-mcq-11": "「把 X 裝袋」與本句語境不同。",
-        "bag-mcq-08": "「書包」與本句語境不同。",
-        "bag-mcq-12": "「搶到便宜貨」與本句語境不同。",
-        "bag-mcq-07": "「手袋」與本句語境不同。"
+        "bag-mcq-10": "本句的「bags under her eyes」指「眼袋」。",
+        "bag-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-10"
     },
@@ -1126,11 +1042,9 @@ export default {
       "masked": "The cashier ____.",
       "options": [
         "bag-mcq-01",
-        "bag-mcq-02",
-        "bag-mcq-03",
-        "bag-mcq-04",
-        "bag-mcq-05",
-        "bag-mcq-06"
+        "bag-mcq-16",
+        "bag-mcq-18",
+        "bag-mcq-15"
       ],
       "explanation": "本句的「bagged the groceries」指「袋；袋子」。",
       "sentenceIndex": 21,
@@ -1139,12 +1053,10 @@ export default {
         "bagged the groceries"
       ],
       "optionReasons": {
-        "bag-mcq-01": "本句指「袋；袋子」。",
-        "bag-mcq-02": "「購物袋」與本句語境不同。",
-        "bag-mcq-03": "「紙袋」與本句語境不同。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。"
+        "bag-mcq-01": "本句的「bagged the groceries」指「袋；袋子」。",
+        "bag-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-01"
     },
@@ -1156,11 +1068,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "bag-mcq-01",
-        "bag-mcq-02",
-        "bag-mcq-03",
-        "bag-mcq-04",
-        "bag-mcq-05",
-        "bag-mcq-06"
+        "bag-mcq-18",
+        "bag-mcq-12",
+        "bag-mcq-20"
       ],
       "explanation": "本句的「bag these items separately」指「袋；袋子」。",
       "sentenceIndex": 22,
@@ -1169,12 +1079,10 @@ export default {
         "bag these items separately"
       ],
       "optionReasons": {
-        "bag-mcq-01": "本句指「袋；袋子」。",
-        "bag-mcq-02": "「購物袋」與本句語境不同。",
-        "bag-mcq-03": "「紙袋」與本句語境不同。",
-        "bag-mcq-04": "「膠袋」與本句語境不同。",
-        "bag-mcq-05": "「一袋 X」與本句語境不同。",
-        "bag-mcq-06": "「一袋的量」與本句語境不同。"
+        "bag-mcq-01": "本句的「bag these items separately」指「袋；袋子」。",
+        "bag-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-01"
     },
@@ -1186,11 +1094,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "bag-mcq-12",
-        "bag-mcq-11",
-        "bag-mcq-13",
-        "bag-mcq-10",
-        "bag-mcq-14",
-        "bag-mcq-09"
+        "bag-mcq-04",
+        "bag-mcq-20",
+        "bag-mcq-21"
       ],
       "explanation": "本句的「bagged a cheap flight」指「搶到便宜貨」。",
       "sentenceIndex": 23,
@@ -1199,12 +1105,10 @@ export default {
         "bagged a cheap flight"
       ],
       "optionReasons": {
-        "bag-mcq-12": "本句指「搶到便宜貨」。",
-        "bag-mcq-11": "「把 X 裝袋」與本句語境不同。",
-        "bag-mcq-13": "「成功得到工作」與本句語境不同。",
-        "bag-mcq-10": "「眼袋」與本句語境不同。",
-        "bag-mcq-14": "「搶到座位」與本句語境不同。",
-        "bag-mcq-09": "「旅行袋」與本句語境不同。"
+        "bag-mcq-12": "本句的「bagged a cheap flight」指「搶到便宜貨」。",
+        "bag-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-12"
     },
@@ -1216,10 +1120,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "bag-mcq-12",
-        "bag-mcq-11",
-        "bag-mcq-13",
-        "bag-mcq-10",
-        "bag-mcq-14",
+        "bag-mcq-21",
+        "bag-mcq-15",
         "bag-mcq-09"
       ],
       "explanation": "本句的「bagged the last seat」指「搶到便宜貨」。",
@@ -1229,12 +1131,10 @@ export default {
         "bagged the last seat"
       ],
       "optionReasons": {
-        "bag-mcq-12": "本句指「搶到便宜貨」。",
-        "bag-mcq-11": "「把 X 裝袋」與本句語境不同。",
-        "bag-mcq-13": "「成功得到工作」與本句語境不同。",
-        "bag-mcq-10": "「眼袋」與本句語境不同。",
-        "bag-mcq-14": "「搶到座位」與本句語境不同。",
-        "bag-mcq-09": "「旅行袋」與本句語境不同。"
+        "bag-mcq-12": "本句的「bagged the last seat」指「搶到便宜貨」。",
+        "bag-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-12"
     },
@@ -1246,11 +1146,9 @@ export default {
       "masked": "I ____ in the sale.",
       "options": [
         "bag-mcq-12",
-        "bag-mcq-11",
-        "bag-mcq-13",
-        "bag-mcq-10",
-        "bag-mcq-14",
-        "bag-mcq-09"
+        "bag-mcq-06",
+        "bag-mcq-08",
+        "bag-mcq-20"
       ],
       "explanation": "本句的「bagged a bargain」指「搶到便宜貨」。",
       "sentenceIndex": 25,
@@ -1259,12 +1157,10 @@ export default {
         "bagged a bargain"
       ],
       "optionReasons": {
-        "bag-mcq-12": "本句指「搶到便宜貨」。",
-        "bag-mcq-11": "「把 X 裝袋」與本句語境不同。",
-        "bag-mcq-13": "「成功得到工作」與本句語境不同。",
-        "bag-mcq-10": "「眼袋」與本句語境不同。",
-        "bag-mcq-14": "「搶到座位」與本句語境不同。",
-        "bag-mcq-09": "「旅行袋」與本句語境不同。"
+        "bag-mcq-12": "本句的「bagged a bargain」指「搶到便宜貨」。",
+        "bag-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-12"
     },
@@ -1276,11 +1172,9 @@ export default {
       "masked": "She always manages to ____ online.",
       "options": [
         "bag-mcq-12",
-        "bag-mcq-11",
-        "bag-mcq-13",
-        "bag-mcq-10",
-        "bag-mcq-14",
-        "bag-mcq-09"
+        "bag-mcq-03",
+        "bag-mcq-21",
+        "bag-mcq-19"
       ],
       "explanation": "本句的「bag a bargain」指「搶到便宜貨」。",
       "sentenceIndex": 26,
@@ -1289,12 +1183,10 @@ export default {
         "bag a bargain"
       ],
       "optionReasons": {
-        "bag-mcq-12": "本句指「搶到便宜貨」。",
-        "bag-mcq-11": "「把 X 裝袋」與本句語境不同。",
-        "bag-mcq-13": "「成功得到工作」與本句語境不同。",
-        "bag-mcq-10": "「眼袋」與本句語境不同。",
-        "bag-mcq-14": "「搶到座位」與本句語境不同。",
-        "bag-mcq-09": "「旅行袋」與本句語境不同。"
+        "bag-mcq-12": "本句的「bag a bargain」指「搶到便宜貨」。",
+        "bag-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-12"
     },
@@ -1306,11 +1198,9 @@ export default {
       "masked": "She ____ at a design company.",
       "options": [
         "bag-mcq-13",
-        "bag-mcq-12",
-        "bag-mcq-14",
-        "bag-mcq-11",
-        "bag-mcq-15",
-        "bag-mcq-10"
+        "bag-mcq-04",
+        "bag-mcq-18",
+        "bag-mcq-17"
       ],
       "explanation": "本句的「bagged a job」指「成功得到工作」。",
       "sentenceIndex": 27,
@@ -1319,12 +1209,10 @@ export default {
         "bagged a job"
       ],
       "optionReasons": {
-        "bag-mcq-13": "本句指「成功得到工作」。",
-        "bag-mcq-12": "「搶到便宜貨」與本句語境不同。",
-        "bag-mcq-14": "「搶到座位」與本句語境不同。",
-        "bag-mcq-11": "「把 X 裝袋」與本句語境不同。",
-        "bag-mcq-15": "「獵獲動物」與本句語境不同。",
-        "bag-mcq-10": "「眼袋」與本句語境不同。"
+        "bag-mcq-13": "本句的「bagged a job」指「成功得到工作」。",
+        "bag-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-13"
     },
@@ -1336,11 +1224,9 @@ export default {
       "masked": "He finally ____.",
       "options": [
         "bag-mcq-13",
+        "bag-mcq-04",
         "bag-mcq-12",
-        "bag-mcq-14",
-        "bag-mcq-11",
-        "bag-mcq-15",
-        "bag-mcq-10"
+        "bag-mcq-17"
       ],
       "explanation": "本句的「bagged his dream job」指「成功得到工作」。",
       "sentenceIndex": 28,
@@ -1349,12 +1235,10 @@ export default {
         "bagged his dream job"
       ],
       "optionReasons": {
-        "bag-mcq-13": "本句指「成功得到工作」。",
-        "bag-mcq-12": "「搶到便宜貨」與本句語境不同。",
-        "bag-mcq-14": "「搶到座位」與本句語境不同。",
-        "bag-mcq-11": "「把 X 裝袋」與本句語境不同。",
-        "bag-mcq-15": "「獵獲動物」與本句語境不同。",
-        "bag-mcq-10": "「眼袋」與本句語境不同。"
+        "bag-mcq-13": "本句的「bagged his dream job」指「成功得到工作」。",
+        "bag-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-13"
     },
@@ -1366,11 +1250,9 @@ export default {
       "masked": "We arrived early to ____.",
       "options": [
         "bag-mcq-14",
-        "bag-mcq-13",
-        "bag-mcq-15",
-        "bag-mcq-12",
-        "bag-mcq-16",
-        "bag-mcq-11"
+        "bag-mcq-10",
+        "bag-mcq-18",
+        "bag-mcq-17"
       ],
       "explanation": "本句的「bag a good seat」指「搶到座位」。",
       "sentenceIndex": 29,
@@ -1379,12 +1261,10 @@ export default {
         "bag a good seat"
       ],
       "optionReasons": {
-        "bag-mcq-14": "本句指「搶到座位」。",
-        "bag-mcq-13": "「成功得到工作」與本句語境不同。",
-        "bag-mcq-15": "「獵獲動物」與本句語境不同。",
-        "bag-mcq-12": "「搶到便宜貨」與本句語境不同。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。",
-        "bag-mcq-11": "「把 X 裝袋」與本句語境不同。"
+        "bag-mcq-14": "本句的「bag a good seat」指「搶到座位」。",
+        "bag-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-14"
     },
@@ -1396,11 +1276,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "bag-mcq-14",
-        "bag-mcq-13",
-        "bag-mcq-15",
-        "bag-mcq-12",
-        "bag-mcq-16",
-        "bag-mcq-11"
+        "bag-mcq-09",
+        "bag-mcq-17",
+        "bag-mcq-15"
       ],
       "explanation": "本句的「bagged the last empty seat」指「搶到座位」。",
       "sentenceIndex": 30,
@@ -1409,12 +1287,10 @@ export default {
         "bagged the last empty seat"
       ],
       "optionReasons": {
-        "bag-mcq-14": "本句指「搶到座位」。",
-        "bag-mcq-13": "「成功得到工作」與本句語境不同。",
-        "bag-mcq-15": "「獵獲動物」與本句語境不同。",
-        "bag-mcq-12": "「搶到便宜貨」與本句語境不同。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。",
-        "bag-mcq-11": "「把 X 裝袋」與本句語境不同。"
+        "bag-mcq-14": "本句的「bagged the last empty seat」指「搶到座位」。",
+        "bag-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-14"
     },
@@ -1426,11 +1302,9 @@ export default {
       "masked": "The hunter ____.",
       "options": [
         "bag-mcq-15",
-        "bag-mcq-14",
-        "bag-mcq-16",
-        "bag-mcq-13",
-        "bag-mcq-17",
-        "bag-mcq-12"
+        "bag-mcq-07",
+        "bag-mcq-08",
+        "bag-mcq-13"
       ],
       "explanation": "本句的「bagged two birds」指「獵獲動物」。",
       "sentenceIndex": 31,
@@ -1439,12 +1313,10 @@ export default {
         "bagged two birds"
       ],
       "optionReasons": {
-        "bag-mcq-15": "本句指「獵獲動物」。",
-        "bag-mcq-14": "「搶到座位」與本句語境不同。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。",
-        "bag-mcq-13": "「成功得到工作」與本句語境不同。",
-        "bag-mcq-17": "「洩露秘密」與本句語境不同。",
-        "bag-mcq-12": "「搶到便宜貨」與本句語境不同。"
+        "bag-mcq-15": "本句的「bagged two birds」指「獵獲動物」。",
+        "bag-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-15"
     },
@@ -1456,11 +1328,9 @@ export default {
       "masked": "They hoped to ____ before sunset.",
       "options": [
         "bag-mcq-15",
-        "bag-mcq-14",
-        "bag-mcq-16",
-        "bag-mcq-13",
-        "bag-mcq-17",
-        "bag-mcq-12"
+        "bag-mcq-07",
+        "bag-mcq-21",
+        "bag-mcq-14"
       ],
       "explanation": "本句的「bag some game」指「獵獲動物」。",
       "sentenceIndex": 32,
@@ -1469,12 +1339,10 @@ export default {
         "bag some game"
       ],
       "optionReasons": {
-        "bag-mcq-15": "本句指「獵獲動物」。",
-        "bag-mcq-14": "「搶到座位」與本句語境不同。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。",
-        "bag-mcq-13": "「成功得到工作」與本句語境不同。",
-        "bag-mcq-17": "「洩露秘密」與本句語境不同。",
-        "bag-mcq-12": "「搶到便宜貨」與本句語境不同。"
+        "bag-mcq-15": "本句的「bag some game」指「獵獲動物」。",
+        "bag-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-15"
     },
@@ -1486,10 +1354,8 @@ export default {
       "masked": "With ten minutes left, they thought the match was ____.",
       "options": [
         "bag-mcq-16",
-        "bag-mcq-15",
         "bag-mcq-17",
-        "bag-mcq-14",
-        "bag-mcq-18",
+        "bag-mcq-04",
         "bag-mcq-13"
       ],
       "explanation": "本句的「in the bag」指「十拿九穩」。",
@@ -1499,12 +1365,10 @@ export default {
         "in the bag"
       ],
       "optionReasons": {
-        "bag-mcq-16": "本句指「十拿九穩」。",
-        "bag-mcq-15": "「獵獲動物」與本句語境不同。",
-        "bag-mcq-17": "「洩露秘密」與本句語境不同。",
-        "bag-mcq-14": "「搶到座位」與本句語境不同。",
-        "bag-mcq-18": "「好壞參半／質素參差」與本句語境不同。",
-        "bag-mcq-13": "「成功得到工作」與本句語境不同。"
+        "bag-mcq-16": "本句的「in the bag」指「十拿九穩」。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-16"
     },
@@ -1516,11 +1380,9 @@ export default {
       "masked": "After the final interview, she felt the job was ____.",
       "options": [
         "bag-mcq-16",
-        "bag-mcq-15",
-        "bag-mcq-17",
-        "bag-mcq-14",
-        "bag-mcq-18",
-        "bag-mcq-13"
+        "bag-mcq-07",
+        "bag-mcq-20",
+        "bag-mcq-17"
       ],
       "explanation": "本句的「in the bag」指「十拿九穩」。",
       "sentenceIndex": 34,
@@ -1529,12 +1391,10 @@ export default {
         "in the bag"
       ],
       "optionReasons": {
-        "bag-mcq-16": "本句指「十拿九穩」。",
-        "bag-mcq-15": "「獵獲動物」與本句語境不同。",
-        "bag-mcq-17": "「洩露秘密」與本句語境不同。",
-        "bag-mcq-14": "「搶到座位」與本句語境不同。",
-        "bag-mcq-18": "「好壞參半／質素參差」與本句語境不同。",
-        "bag-mcq-13": "「成功得到工作」與本句語境不同。"
+        "bag-mcq-16": "本句的「in the bag」指「十拿九穩」。",
+        "bag-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-16"
     },
@@ -1546,11 +1406,9 @@ export default {
       "masked": "He ____ about the surprise party.",
       "options": [
         "bag-mcq-17",
-        "bag-mcq-16",
-        "bag-mcq-18",
-        "bag-mcq-15",
+        "bag-mcq-04",
         "bag-mcq-19",
-        "bag-mcq-14"
+        "bag-mcq-13"
       ],
       "explanation": "本句的「let the cat out of the bag」指「洩露秘密」。",
       "sentenceIndex": 35,
@@ -1559,12 +1417,10 @@ export default {
         "let the cat out of the bag"
       ],
       "optionReasons": {
-        "bag-mcq-17": "本句指「洩露秘密」。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。",
-        "bag-mcq-18": "「好壞參半／質素參差」與本句語境不同。",
-        "bag-mcq-15": "「獵獲動物」與本句語境不同。",
-        "bag-mcq-19": "「帶齊全部家當」與本句語境不同。",
-        "bag-mcq-14": "「搶到座位」與本句語境不同。"
+        "bag-mcq-17": "本句的「let the cat out of the bag」指「洩露秘密」。",
+        "bag-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-17"
     },
@@ -1576,11 +1432,9 @@ export default {
       "masked": "Don't ____ before Friday.",
       "options": [
         "bag-mcq-17",
-        "bag-mcq-16",
-        "bag-mcq-18",
-        "bag-mcq-15",
+        "bag-mcq-05",
         "bag-mcq-19",
-        "bag-mcq-14"
+        "bag-mcq-20"
       ],
       "explanation": "本句的「let the cat out of the bag」指「洩露秘密」。",
       "sentenceIndex": 36,
@@ -1589,12 +1443,10 @@ export default {
         "let the cat out of the bag"
       ],
       "optionReasons": {
-        "bag-mcq-17": "本句指「洩露秘密」。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。",
-        "bag-mcq-18": "「好壞參半／質素參差」與本句語境不同。",
-        "bag-mcq-15": "「獵獲動物」與本句語境不同。",
-        "bag-mcq-19": "「帶齊全部家當」與本句語境不同。",
-        "bag-mcq-14": "「搶到座位」與本句語境不同。"
+        "bag-mcq-17": "本句的「let the cat out of the bag」指「洩露秘密」。",
+        "bag-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-17"
     },
@@ -1606,9 +1458,7 @@ export default {
       "masked": "The reviews were a ____.",
       "options": [
         "bag-mcq-18",
-        "bag-mcq-17",
-        "bag-mcq-19",
-        "bag-mcq-16",
+        "bag-mcq-09",
         "bag-mcq-20",
         "bag-mcq-15"
       ],
@@ -1619,12 +1469,10 @@ export default {
         "mixed bag"
       ],
       "optionReasons": {
-        "bag-mcq-18": "本句指「好壞參半／質素參差」。",
-        "bag-mcq-17": "「洩露秘密」與本句語境不同。",
-        "bag-mcq-19": "「帶齊全部家當」與本句語境不同。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。",
-        "bag-mcq-20": "「寬鬆的；鬆垮的」與本句語境不同。",
-        "bag-mcq-15": "「獵獲動物」與本句語境不同。"
+        "bag-mcq-18": "本句的「mixed bag」指「好壞參半／質素參差」。",
+        "bag-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-18"
     },
@@ -1636,11 +1484,9 @@ export default {
       "masked": "The course was a ____—some lessons were excellent, others were disappointing.",
       "options": [
         "bag-mcq-18",
-        "bag-mcq-17",
         "bag-mcq-19",
-        "bag-mcq-16",
-        "bag-mcq-20",
-        "bag-mcq-15"
+        "bag-mcq-14",
+        "bag-mcq-09"
       ],
       "explanation": "本句的「mixed bag」指「好壞參半／質素參差」。",
       "sentenceIndex": 38,
@@ -1649,12 +1495,10 @@ export default {
         "mixed bag"
       ],
       "optionReasons": {
-        "bag-mcq-18": "本句指「好壞參半／質素參差」。",
-        "bag-mcq-17": "「洩露秘密」與本句語境不同。",
-        "bag-mcq-19": "「帶齊全部家當」與本句語境不同。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。",
-        "bag-mcq-20": "「寬鬆的；鬆垮的」與本句語境不同。",
-        "bag-mcq-15": "「獵獲動物」與本句語境不同。"
+        "bag-mcq-18": "本句的「mixed bag」指「好壞參半／質素參差」。",
+        "bag-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-18"
     },
@@ -1666,11 +1510,9 @@ export default {
       "masked": "He moved out ____.",
       "options": [
         "bag-mcq-19",
-        "bag-mcq-18",
-        "bag-mcq-20",
+        "bag-mcq-14",
         "bag-mcq-17",
-        "bag-mcq-21",
-        "bag-mcq-16"
+        "bag-mcq-08"
       ],
       "explanation": "本句的「bag and baggage」指「帶齊全部家當」。",
       "sentenceIndex": 39,
@@ -1679,12 +1521,10 @@ export default {
         "bag and baggage"
       ],
       "optionReasons": {
-        "bag-mcq-19": "本句指「帶齊全部家當」。",
-        "bag-mcq-18": "「好壞參半／質素參差」與本句語境不同。",
-        "bag-mcq-20": "「寬鬆的；鬆垮的」與本句語境不同。",
-        "bag-mcq-17": "「洩露秘密」與本句語境不同。",
-        "bag-mcq-21": "「貶義稱呼」與本句語境不同。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。"
+        "bag-mcq-19": "本句的「bag and baggage」指「帶齊全部家當」。",
+        "bag-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-19"
     },
@@ -1696,11 +1536,9 @@ export default {
       "masked": "They left the town ____.",
       "options": [
         "bag-mcq-19",
-        "bag-mcq-18",
-        "bag-mcq-20",
-        "bag-mcq-17",
+        "bag-mcq-14",
         "bag-mcq-21",
-        "bag-mcq-16"
+        "bag-mcq-17"
       ],
       "explanation": "本句的「bag and baggage」指「帶齊全部家當」。",
       "sentenceIndex": 40,
@@ -1709,12 +1547,10 @@ export default {
         "bag and baggage"
       ],
       "optionReasons": {
-        "bag-mcq-19": "本句指「帶齊全部家當」。",
-        "bag-mcq-18": "「好壞參半／質素參差」與本句語境不同。",
-        "bag-mcq-20": "「寬鬆的；鬆垮的」與本句語境不同。",
-        "bag-mcq-17": "「洩露秘密」與本句語境不同。",
-        "bag-mcq-21": "「貶義稱呼」與本句語境不同。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。"
+        "bag-mcq-19": "本句的「bag and baggage」指「帶齊全部家當」。",
+        "bag-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-19"
     },
@@ -1726,11 +1562,9 @@ export default {
       "masked": "He wore a ____.",
       "options": [
         "bag-mcq-20",
-        "bag-mcq-19",
-        "bag-mcq-21",
-        "bag-mcq-18",
+        "bag-mcq-07",
         "bag-mcq-17",
-        "bag-mcq-16"
+        "bag-mcq-19"
       ],
       "explanation": "本句的「baggy shirt」指「寬鬆的；鬆垮的」。",
       "sentenceIndex": 41,
@@ -1739,12 +1573,10 @@ export default {
         "baggy shirt"
       ],
       "optionReasons": {
-        "bag-mcq-20": "本句指「寬鬆的；鬆垮的」。",
-        "bag-mcq-19": "「帶齊全部家當」與本句語境不同。",
-        "bag-mcq-21": "「貶義稱呼」與本句語境不同。",
-        "bag-mcq-18": "「好壞參半／質素參差」與本句語境不同。",
-        "bag-mcq-17": "「洩露秘密」與本句語境不同。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。"
+        "bag-mcq-20": "本句的「baggy shirt」指「寬鬆的；鬆垮的」。",
+        "bag-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-20"
     },
@@ -1756,11 +1588,9 @@ export default {
       "masked": "These trousers are too ____.",
       "options": [
         "bag-mcq-20",
-        "bag-mcq-19",
-        "bag-mcq-21",
-        "bag-mcq-18",
-        "bag-mcq-17",
-        "bag-mcq-16"
+        "bag-mcq-15",
+        "bag-mcq-10",
+        "bag-mcq-21"
       ],
       "explanation": "本句的「baggy」指「寬鬆的；鬆垮的」。",
       "sentenceIndex": 42,
@@ -1769,12 +1599,10 @@ export default {
         "baggy"
       ],
       "optionReasons": {
-        "bag-mcq-20": "本句指「寬鬆的；鬆垮的」。",
-        "bag-mcq-19": "「帶齊全部家當」與本句語境不同。",
-        "bag-mcq-21": "「貶義稱呼」與本句語境不同。",
-        "bag-mcq-18": "「好壞參半／質素參差」與本句語境不同。",
-        "bag-mcq-17": "「洩露秘密」與本句語境不同。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。"
+        "bag-mcq-20": "本句的「baggy」指「寬鬆的；鬆垮的」。",
+        "bag-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-20"
     },
@@ -1786,11 +1614,9 @@ export default {
       "masked": "He looked tired and ____.",
       "options": [
         "bag-mcq-20",
-        "bag-mcq-19",
-        "bag-mcq-21",
-        "bag-mcq-18",
-        "bag-mcq-17",
-        "bag-mcq-16"
+        "bag-mcq-16",
+        "bag-mcq-09",
+        "bag-mcq-19"
       ],
       "explanation": "本句的「baggy-eyed」指「寬鬆的；鬆垮的」。",
       "sentenceIndex": 43,
@@ -1799,12 +1625,10 @@ export default {
         "baggy-eyed"
       ],
       "optionReasons": {
-        "bag-mcq-20": "本句指「寬鬆的；鬆垮的」。",
-        "bag-mcq-19": "「帶齊全部家當」與本句語境不同。",
-        "bag-mcq-21": "「貶義稱呼」與本句語境不同。",
-        "bag-mcq-18": "「好壞參半／質素參差」與本句語境不同。",
-        "bag-mcq-17": "「洩露秘密」與本句語境不同。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。"
+        "bag-mcq-20": "本句的「baggy-eyed」指「寬鬆的；鬆垮的」。",
+        "bag-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-20"
     },
@@ -1816,11 +1640,9 @@ export default {
       "masked": "The skin under her eyes looked slightly ____.",
       "options": [
         "bag-mcq-20",
-        "bag-mcq-19",
-        "bag-mcq-21",
-        "bag-mcq-18",
-        "bag-mcq-17",
-        "bag-mcq-16"
+        "bag-mcq-06",
+        "bag-mcq-14",
+        "bag-mcq-19"
       ],
       "explanation": "本句的「baggy」指「寬鬆的；鬆垮的」。",
       "sentenceIndex": 44,
@@ -1829,12 +1651,10 @@ export default {
         "baggy"
       ],
       "optionReasons": {
-        "bag-mcq-20": "本句指「寬鬆的；鬆垮的」。",
-        "bag-mcq-19": "「帶齊全部家當」與本句語境不同。",
-        "bag-mcq-21": "「貶義稱呼」與本句語境不同。",
-        "bag-mcq-18": "「好壞參半／質素參差」與本句語境不同。",
-        "bag-mcq-17": "「洩露秘密」與本句語境不同。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。"
+        "bag-mcq-20": "本句的「baggy」指「寬鬆的；鬆垮的」。",
+        "bag-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-20"
     },
@@ -1846,11 +1666,9 @@ export default {
       "masked": "Calling someone an “old ____” is insulting.",
       "options": [
         "bag-mcq-21",
-        "bag-mcq-20",
-        "bag-mcq-19",
-        "bag-mcq-18",
-        "bag-mcq-17",
-        "bag-mcq-16"
+        "bag-mcq-05",
+        "bag-mcq-14",
+        "bag-mcq-20"
       ],
       "explanation": "本句的「bag」指「貶義稱呼」。",
       "sentenceIndex": 45,
@@ -1859,12 +1677,10 @@ export default {
         "bag"
       ],
       "optionReasons": {
-        "bag-mcq-21": "本句指「貶義稱呼」。",
-        "bag-mcq-20": "「寬鬆的；鬆垮的」與本句語境不同。",
-        "bag-mcq-19": "「帶齊全部家當」與本句語境不同。",
-        "bag-mcq-18": "「好壞參半／質素參差」與本句語境不同。",
-        "bag-mcq-17": "「洩露秘密」與本句語境不同。",
-        "bag-mcq-16": "「十拿九穩」與本句語境不同。"
+        "bag-mcq-21": "本句的「bag」指「貶義稱呼」。",
+        "bag-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bag-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bag-mcq-21"
     }
@@ -1876,5 +1692,7 @@ export default {
     "sha256": "25965b3054921d5b7d49661f11a634759769bab38769f64cef579ab2cc50ab35",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

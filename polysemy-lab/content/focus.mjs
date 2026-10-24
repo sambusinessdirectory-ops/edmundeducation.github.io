@@ -512,11 +512,8 @@ export default {
       "masked": "I use the headphones when I am trying to ____.",
       "options": [
         "focus-mcq-01",
-        "focus-mcq-02",
-        "focus-mcq-03",
-        "focus-mcq-04",
-        "focus-mcq-05",
-        "focus-mcq-06"
+        "focus-mcq-11",
+        "focus-mcq-10"
       ],
       "explanation": "本句的「focus」指「把自己的注意力集中起來，不讓其他事情分散精神」。",
       "sentenceIndex": 0,
@@ -525,12 +522,9 @@ export default {
         "focus"
       ],
       "optionReasons": {
-        "focus-mcq-01": "本句指「把自己的注意力集中起來，不讓其他事情分散精神」。",
-        "focus-mcq-02": "「把主要注意力、時間或活動集中在某個特定對象上」是「focus on + target」的用法，與本句語境不同。",
-        "focus-mcq-03": "「有意識地把注意力、努力或資源集中到指定目標」是「focus attention/effort on」的用法，與本句語境不同。",
-        "focus-mcq-04": "「一件事情中最受重視、最主要的議題或部分」是「focus — main subject」的用法，與本句語境不同。",
-        "focus-mcq-05": "「大量注意力集中之處／對象」是「focus of attention」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。"
+        "focus-mcq-01": "本句的「focus」指「把自己的注意力集中起來，不讓其他事情分散精神」。",
+        "focus-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-01"
     },
@@ -542,11 +536,8 @@ export default {
       "masked": "It is difficult to ____ when the office is noisy.",
       "options": [
         "focus-mcq-01",
-        "focus-mcq-02",
-        "focus-mcq-03",
-        "focus-mcq-04",
-        "focus-mcq-05",
-        "focus-mcq-06"
+        "focus-mcq-11",
+        "focus-mcq-10"
       ],
       "explanation": "本句的「focus」指「把自己的注意力集中起來，不讓其他事情分散精神」。",
       "sentenceIndex": 1,
@@ -555,12 +546,9 @@ export default {
         "focus"
       ],
       "optionReasons": {
-        "focus-mcq-01": "本句指「把自己的注意力集中起來，不讓其他事情分散精神」。",
-        "focus-mcq-02": "「把主要注意力、時間或活動集中在某個特定對象上」是「focus on + target」的用法，與本句語境不同。",
-        "focus-mcq-03": "「有意識地把注意力、努力或資源集中到指定目標」是「focus attention/effort on」的用法，與本句語境不同。",
-        "focus-mcq-04": "「一件事情中最受重視、最主要的議題或部分」是「focus — main subject」的用法，與本句語境不同。",
-        "focus-mcq-05": "「大量注意力集中之處／對象」是「focus of attention」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。"
+        "focus-mcq-01": "本句的「focus」指「把自己的注意力集中起來，不讓其他事情分散精神」。",
+        "focus-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-01"
     },
@@ -572,11 +560,9 @@ export default {
       "masked": "Take a short break if you can’t ____.",
       "options": [
         "focus-mcq-01",
-        "focus-mcq-02",
-        "focus-mcq-03",
-        "focus-mcq-04",
-        "focus-mcq-05",
-        "focus-mcq-06"
+        "focus-mcq-06",
+        "focus-mcq-18",
+        "focus-mcq-04"
       ],
       "explanation": "本句的「focus」指「把自己的注意力集中起來，不讓其他事情分散精神」。",
       "sentenceIndex": 2,
@@ -585,12 +571,10 @@ export default {
         "focus"
       ],
       "optionReasons": {
-        "focus-mcq-01": "本句指「把自己的注意力集中起來，不讓其他事情分散精神」。",
-        "focus-mcq-02": "「把主要注意力、時間或活動集中在某個特定對象上」是「focus on + target」的用法，與本句語境不同。",
-        "focus-mcq-03": "「有意識地把注意力、努力或資源集中到指定目標」是「focus attention/effort on」的用法，與本句語境不同。",
-        "focus-mcq-04": "「一件事情中最受重視、最主要的議題或部分」是「focus — main subject」的用法，與本句語境不同。",
-        "focus-mcq-05": "「大量注意力集中之處／對象」是「focus of attention」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。"
+        "focus-mcq-01": "本句的「focus」指「把自己的注意力集中起來，不讓其他事情分散精神」。",
+        "focus-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-01"
     },
@@ -602,11 +586,8 @@ export default {
       "masked": "I need to ____ my work.",
       "options": [
         "focus-mcq-02",
-        "focus-mcq-01",
-        "focus-mcq-03",
-        "focus-mcq-04",
-        "focus-mcq-05",
-        "focus-mcq-06"
+        "focus-mcq-06",
+        "focus-mcq-18"
       ],
       "explanation": "本句的「focus on」指「把主要注意力、時間或活動集中在某個特定對象上」。",
       "sentenceIndex": 0,
@@ -615,12 +596,9 @@ export default {
         "focus on"
       ],
       "optionReasons": {
-        "focus-mcq-02": "本句指「把主要注意力、時間或活動集中在某個特定對象上」。",
-        "focus-mcq-01": "「把自己的注意力集中起來，不讓其他事情分散精神」是「focus — mental」的用法，與本句語境不同。",
-        "focus-mcq-03": "「有意識地把注意力、努力或資源集中到指定目標」是「focus attention/effort on」的用法，與本句語境不同。",
-        "focus-mcq-04": "「一件事情中最受重視、最主要的議題或部分」是「focus — main subject」的用法，與本句語境不同。",
-        "focus-mcq-05": "「大量注意力集中之處／對象」是「focus of attention」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。"
+        "focus-mcq-02": "本句的「focus on」指「把主要注意力、時間或活動集中在某個特定對象上」。",
+        "focus-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-02"
     },
@@ -632,10 +610,7 @@ export default {
       "masked": "The discussion ____ customer satisfaction.",
       "options": [
         "focus-mcq-02",
-        "focus-mcq-01",
-        "focus-mcq-03",
-        "focus-mcq-04",
-        "focus-mcq-05",
+        "focus-mcq-18",
         "focus-mcq-06"
       ],
       "explanation": "本句的「focused on」指「把主要注意力、時間或活動集中在某個特定對象上」。",
@@ -645,12 +620,9 @@ export default {
         "focused on"
       ],
       "optionReasons": {
-        "focus-mcq-02": "本句指「把主要注意力、時間或活動集中在某個特定對象上」。",
-        "focus-mcq-01": "「把自己的注意力集中起來，不讓其他事情分散精神」是「focus — mental」的用法，與本句語境不同。",
-        "focus-mcq-03": "「有意識地把注意力、努力或資源集中到指定目標」是「focus attention/effort on」的用法，與本句語境不同。",
-        "focus-mcq-04": "「一件事情中最受重視、最主要的議題或部分」是「focus — main subject」的用法，與本句語境不同。",
-        "focus-mcq-05": "「大量注意力集中之處／對象」是「focus of attention」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。"
+        "focus-mcq-02": "本句的「focused on」指「把主要注意力、時間或活動集中在某個特定對象上」。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-02"
     },
@@ -662,11 +634,8 @@ export default {
       "masked": "We need to ____ the main problem.",
       "options": [
         "focus-mcq-03",
-        "focus-mcq-02",
         "focus-mcq-04",
-        "focus-mcq-01",
-        "focus-mcq-05",
-        "focus-mcq-06"
+        "focus-mcq-10"
       ],
       "explanation": "本句的「focus our attention on」指「有意識地把注意力、努力或資源集中到指定目標」。",
       "sentenceIndex": 0,
@@ -675,12 +644,9 @@ export default {
         "focus our attention on"
       ],
       "optionReasons": {
-        "focus-mcq-03": "本句指「有意識地把注意力、努力或資源集中到指定目標」。",
-        "focus-mcq-02": "「把主要注意力、時間或活動集中在某個特定對象上」是「focus on + target」的用法，與本句語境不同。",
-        "focus-mcq-04": "「一件事情中最受重視、最主要的議題或部分」是「focus — main subject」的用法，與本句語境不同。",
-        "focus-mcq-01": "「把自己的注意力集中起來，不讓其他事情分散精神」是「focus — mental」的用法，與本句語境不同。",
-        "focus-mcq-05": "「大量注意力集中之處／對象」是「focus of attention」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。"
+        "focus-mcq-03": "本句的「focus our attention on」指「有意識地把注意力、努力或資源集中到指定目標」。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-03"
     },
@@ -692,11 +658,8 @@ export default {
       "masked": "The company is ____ new technology.",
       "options": [
         "focus-mcq-03",
-        "focus-mcq-02",
         "focus-mcq-04",
-        "focus-mcq-01",
-        "focus-mcq-05",
-        "focus-mcq-06"
+        "focus-mcq-10"
       ],
       "explanation": "本句的「focusing its resources on」指「有意識地把注意力、努力或資源集中到指定目標」。",
       "sentenceIndex": 1,
@@ -705,12 +668,9 @@ export default {
         "focusing its resources on"
       ],
       "optionReasons": {
-        "focus-mcq-03": "本句指「有意識地把注意力、努力或資源集中到指定目標」。",
-        "focus-mcq-02": "「把主要注意力、時間或活動集中在某個特定對象上」是「focus on + target」的用法，與本句語境不同。",
-        "focus-mcq-04": "「一件事情中最受重視、最主要的議題或部分」是「focus — main subject」的用法，與本句語境不同。",
-        "focus-mcq-01": "「把自己的注意力集中起來，不讓其他事情分散精神」是「focus — mental」的用法，與本句語境不同。",
-        "focus-mcq-05": "「大量注意力集中之處／對象」是「focus of attention」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。"
+        "focus-mcq-03": "本句的「focusing its resources on」指「有意識地把注意力、努力或資源集中到指定目標」。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-03"
     },
@@ -722,11 +682,8 @@ export default {
       "masked": "Comfort was the main ____ of the design.",
       "options": [
         "focus-mcq-04",
-        "focus-mcq-03",
-        "focus-mcq-05",
-        "focus-mcq-02",
-        "focus-mcq-06",
-        "focus-mcq-01"
+        "focus-mcq-10",
+        "focus-mcq-13"
       ],
       "explanation": "本句的「focus」指「一件事情中最受重視、最主要的議題或部分」。",
       "sentenceIndex": 0,
@@ -735,12 +692,9 @@ export default {
         "focus"
       ],
       "optionReasons": {
-        "focus-mcq-04": "本句指「一件事情中最受重視、最主要的議題或部分」。",
-        "focus-mcq-03": "「有意識地把注意力、努力或資源集中到指定目標」是「focus attention/effort on」的用法，與本句語境不同。",
-        "focus-mcq-05": "「大量注意力集中之處／對象」是「focus of attention」的用法，與本句語境不同。",
-        "focus-mcq-02": "「把主要注意力、時間或活動集中在某個特定對象上」是「focus on + target」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。",
-        "focus-mcq-01": "「把自己的注意力集中起來，不讓其他事情分散精神」是「focus — mental」的用法，與本句語境不同。"
+        "focus-mcq-04": "本句的「focus」指「一件事情中最受重視、最主要的議題或部分」。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-04"
     },
@@ -752,11 +706,9 @@ export default {
       "masked": "The ____ of the meeting was customer service.",
       "options": [
         "focus-mcq-04",
-        "focus-mcq-03",
         "focus-mcq-05",
-        "focus-mcq-02",
-        "focus-mcq-06",
-        "focus-mcq-01"
+        "focus-mcq-10",
+        "focus-mcq-08"
       ],
       "explanation": "本句的「focus」指「一件事情中最受重視、最主要的議題或部分」。",
       "sentenceIndex": 1,
@@ -765,12 +717,10 @@ export default {
         "focus"
       ],
       "optionReasons": {
-        "focus-mcq-04": "本句指「一件事情中最受重視、最主要的議題或部分」。",
-        "focus-mcq-03": "「有意識地把注意力、努力或資源集中到指定目標」是「focus attention/effort on」的用法，與本句語境不同。",
-        "focus-mcq-05": "「大量注意力集中之處／對象」是「focus of attention」的用法，與本句語境不同。",
-        "focus-mcq-02": "「把主要注意力、時間或活動集中在某個特定對象上」是「focus on + target」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。",
-        "focus-mcq-01": "「把自己的注意力集中起來，不讓其他事情分散精神」是「focus — mental」的用法，與本句語境不同。"
+        "focus-mcq-04": "本句的「focus」指「一件事情中最受重視、最主要的議題或部分」。",
+        "focus-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-04"
     },
@@ -783,10 +733,8 @@ export default {
       "options": [
         "focus-mcq-05",
         "focus-mcq-04",
-        "focus-mcq-06",
-        "focus-mcq-03",
-        "focus-mcq-07",
-        "focus-mcq-02"
+        "focus-mcq-18",
+        "focus-mcq-06"
       ],
       "explanation": "本句的「focus of attention」指「大量注意力集中之處／對象」。",
       "sentenceIndex": 0,
@@ -795,12 +743,10 @@ export default {
         "focus of attention"
       ],
       "optionReasons": {
-        "focus-mcq-05": "本句指「大量注意力集中之處／對象」。",
-        "focus-mcq-04": "「一件事情中最受重視、最主要的議題或部分」是「focus — main subject」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。",
-        "focus-mcq-03": "「有意識地把注意力、努力或資源集中到指定目標」是「focus attention/effort on」的用法，與本句語境不同。",
-        "focus-mcq-07": "「鏡頭正確對焦，因此影像清晰」是「in focus」的用法，與本句語境不同。",
-        "focus-mcq-02": "「把主要注意力、時間或活動集中在某個特定對象上」是「focus on + target」的用法，與本句語境不同。"
+        "focus-mcq-05": "本句的「focus of attention」指「大量注意力集中之處／對象」。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-05"
     },
@@ -812,11 +758,9 @@ export default {
       "masked": "She suddenly found herself the ____.",
       "options": [
         "focus-mcq-05",
-        "focus-mcq-04",
+        "focus-mcq-18",
         "focus-mcq-06",
-        "focus-mcq-03",
-        "focus-mcq-07",
-        "focus-mcq-02"
+        "focus-mcq-04"
       ],
       "explanation": "本句的「focus of attention」指「大量注意力集中之處／對象」。",
       "sentenceIndex": 1,
@@ -825,12 +769,10 @@ export default {
         "focus of attention"
       ],
       "optionReasons": {
-        "focus-mcq-05": "本句指「大量注意力集中之處／對象」。",
-        "focus-mcq-04": "「一件事情中最受重視、最主要的議題或部分」是「focus — main subject」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。",
-        "focus-mcq-03": "「有意識地把注意力、努力或資源集中到指定目標」是「focus attention/effort on」的用法，與本句語境不同。",
-        "focus-mcq-07": "「鏡頭正確對焦，因此影像清晰」是「in focus」的用法，與本句語境不同。",
-        "focus-mcq-02": "「把主要注意力、時間或活動集中在某個特定對象上」是「focus on + target」的用法，與本句語境不同。"
+        "focus-mcq-05": "本句的「focus of attention」指「大量注意力集中之處／對象」。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-05"
     },
@@ -842,11 +784,9 @@ export default {
       "masked": "The discussion later ____ cost.",
       "options": [
         "focus-mcq-22",
-        "focus-mcq-21",
-        "focus-mcq-20",
-        "focus-mcq-19",
-        "focus-mcq-18",
-        "focus-mcq-17"
+        "focus-mcq-08",
+        "focus-mcq-10",
+        "focus-mcq-21"
       ],
       "explanation": "本句的「shifted its focus to」指「改變目前主要注意或討論的對象」。",
       "sentenceIndex": 0,
@@ -855,12 +795,10 @@ export default {
         "shifted its focus to"
       ],
       "optionReasons": {
-        "focus-mcq-22": "本句指「改變目前主要注意或討論的對象」。",
-        "focus-mcq-21": "「疾病、感染或異常組織集中出現的局部位置／病灶」是「focus — medical」的用法，與本句語境不同。",
-        "focus-mcq-20": "「相機自動調整鏡頭使拍攝主體清晰的功能」是「autofocus」的用法，與本句語境不同。",
-        "focus-mcq-19": "「為了解目標群體意見而召集進行討論的小型研究群組」是「focus group」的用法，與本句語境不同。",
-        "focus-mcq-18": "「光學系統中影響成像與視角的焦距」是「focal length」的用法，與本句語境不同。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。"
+        "focus-mcq-22": "本句的「shifted its focus to」指「改變目前主要注意或討論的對象」。",
+        "focus-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-22"
     },
@@ -872,11 +810,9 @@ export default {
       "masked": "We should ____ the customer.",
       "options": [
         "focus-mcq-22",
-        "focus-mcq-21",
-        "focus-mcq-20",
-        "focus-mcq-19",
-        "focus-mcq-18",
-        "focus-mcq-17"
+        "focus-mcq-10",
+        "focus-mcq-08",
+        "focus-mcq-21"
       ],
       "explanation": "本句的「bring the focus back to」指「改變目前主要注意或討論的對象」。",
       "sentenceIndex": 1,
@@ -885,12 +821,10 @@ export default {
         "bring the focus back to"
       ],
       "optionReasons": {
-        "focus-mcq-22": "本句指「改變目前主要注意或討論的對象」。",
-        "focus-mcq-21": "「疾病、感染或異常組織集中出現的局部位置／病灶」是「focus — medical」的用法，與本句語境不同。",
-        "focus-mcq-20": "「相機自動調整鏡頭使拍攝主體清晰的功能」是「autofocus」的用法，與本句語境不同。",
-        "focus-mcq-19": "「為了解目標群體意見而召集進行討論的小型研究群組」是「focus group」的用法，與本句語境不同。",
-        "focus-mcq-18": "「光學系統中影響成像與視角的焦距」是「focal length」的用法，與本句語境不同。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。"
+        "focus-mcq-22": "本句的「bring the focus back to」指「改變目前主要注意或討論的對象」。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-22"
     },
@@ -902,11 +836,8 @@ export default {
       "masked": "The camera ____ on her face.",
       "options": [
         "focus-mcq-06",
-        "focus-mcq-05",
-        "focus-mcq-07",
-        "focus-mcq-04",
-        "focus-mcq-08",
-        "focus-mcq-03"
+        "focus-mcq-02",
+        "focus-mcq-10"
       ],
       "explanation": "本句的「focused」指「調整鏡頭，使拍攝目標形成清晰影像」。",
       "sentenceIndex": 0,
@@ -915,12 +846,9 @@ export default {
         "focused"
       ],
       "optionReasons": {
-        "focus-mcq-06": "本句指「調整鏡頭，使拍攝目標形成清晰影像」。",
-        "focus-mcq-05": "「大量注意力集中之處／對象」是「focus of attention」的用法，與本句語境不同。",
-        "focus-mcq-07": "「鏡頭正確對焦，因此影像清晰」是「in focus」的用法，與本句語境不同。",
-        "focus-mcq-04": "「一件事情中最受重視、最主要的議題或部分」是「focus — main subject」的用法，與本句語境不同。",
-        "focus-mcq-08": "「沒有正確對焦，因此影像模糊」是「out of focus」的用法，與本句語境不同。",
-        "focus-mcq-03": "「有意識地把注意力、努力或資源集中到指定目標」是「focus attention/effort on」的用法，與本句語境不同。"
+        "focus-mcq-06": "本句的「focused」指「調整鏡頭，使拍攝目標形成清晰影像」。",
+        "focus-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-06"
     },
@@ -933,10 +861,8 @@ export default {
       "options": [
         "focus-mcq-06",
         "focus-mcq-05",
-        "focus-mcq-07",
         "focus-mcq-04",
-        "focus-mcq-08",
-        "focus-mcq-03"
+        "focus-mcq-10"
       ],
       "explanation": "本句的「focus」指「調整鏡頭，使拍攝目標形成清晰影像」。",
       "sentenceIndex": 1,
@@ -945,12 +871,10 @@ export default {
         "focus"
       ],
       "optionReasons": {
-        "focus-mcq-06": "本句指「調整鏡頭，使拍攝目標形成清晰影像」。",
-        "focus-mcq-05": "「大量注意力集中之處／對象」是「focus of attention」的用法，與本句語境不同。",
-        "focus-mcq-07": "「鏡頭正確對焦，因此影像清晰」是「in focus」的用法，與本句語境不同。",
-        "focus-mcq-04": "「一件事情中最受重視、最主要的議題或部分」是「focus — main subject」的用法，與本句語境不同。",
-        "focus-mcq-08": "「沒有正確對焦，因此影像模糊」是「out of focus」的用法，與本句語境不同。",
-        "focus-mcq-03": "「有意識地把注意力、努力或資源集中到指定目標」是「focus attention/effort on」的用法，與本句語境不同。"
+        "focus-mcq-06": "本句的「focus」指「調整鏡頭，使拍攝目標形成清晰影像」。",
+        "focus-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-06"
     },
@@ -962,11 +886,9 @@ export default {
       "masked": "Her face is perfectly ____.",
       "options": [
         "focus-mcq-08",
-        "focus-mcq-07",
+        "focus-mcq-22",
         "focus-mcq-09",
-        "focus-mcq-06",
-        "focus-mcq-10",
-        "focus-mcq-05"
+        "focus-mcq-18"
       ],
       "explanation": "本句的「in focus」指「沒有正確對焦，因此影像模糊」。",
       "sentenceIndex": 0,
@@ -975,12 +897,10 @@ export default {
         "in focus"
       ],
       "optionReasons": {
-        "focus-mcq-08": "本句指「沒有正確對焦，因此影像模糊」。",
-        "focus-mcq-07": "「鏡頭正確對焦，因此影像清晰」是「in focus」的用法，與本句語境不同。",
-        "focus-mcq-09": "「使分散的光線匯聚到特定位置」是「focus light」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。",
-        "focus-mcq-10": "「光線經反射或折射後匯聚的焦點」是「focus — optics」的用法，與本句語境不同。",
-        "focus-mcq-05": "「大量注意力集中之處／對象」是「focus of attention」的用法，與本句語境不同。"
+        "focus-mcq-08": "本句的「in focus」指「沒有正確對焦，因此影像模糊」。",
+        "focus-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-08"
     },
@@ -992,11 +912,8 @@ export default {
       "masked": "The background is slightly ____.",
       "options": [
         "focus-mcq-08",
-        "focus-mcq-07",
-        "focus-mcq-09",
-        "focus-mcq-06",
-        "focus-mcq-10",
-        "focus-mcq-05"
+        "focus-mcq-02",
+        "focus-mcq-10"
       ],
       "explanation": "本句的「out of focus」指「沒有正確對焦，因此影像模糊」。",
       "sentenceIndex": 1,
@@ -1005,12 +922,9 @@ export default {
         "out of focus"
       ],
       "optionReasons": {
-        "focus-mcq-08": "本句指「沒有正確對焦，因此影像模糊」。",
-        "focus-mcq-07": "「鏡頭正確對焦，因此影像清晰」是「in focus」的用法，與本句語境不同。",
-        "focus-mcq-09": "「使分散的光線匯聚到特定位置」是「focus light」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。",
-        "focus-mcq-10": "「光線經反射或折射後匯聚的焦點」是「focus — optics」的用法，與本句語境不同。",
-        "focus-mcq-05": "「大量注意力集中之處／對象」是「focus of attention」的用法，與本句語境不同。"
+        "focus-mcq-08": "本句的「out of focus」指「沒有正確對焦，因此影像模糊」。",
+        "focus-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-08"
     },
@@ -1023,10 +937,8 @@ export default {
       "options": [
         "focus-mcq-09",
         "focus-mcq-08",
-        "focus-mcq-10",
-        "focus-mcq-07",
-        "focus-mcq-11",
-        "focus-mcq-06"
+        "focus-mcq-22",
+        "focus-mcq-18"
       ],
       "explanation": "本句的「focuses」指「使分散的光線匯聚到特定位置」。",
       "sentenceIndex": 0,
@@ -1035,12 +947,10 @@ export default {
         "focuses"
       ],
       "optionReasons": {
-        "focus-mcq-09": "本句指「使分散的光線匯聚到特定位置」。",
-        "focus-mcq-08": "「沒有正確對焦，因此影像模糊」是「out of focus」的用法，與本句語境不同。",
-        "focus-mcq-10": "「光線經反射或折射後匯聚的焦點」是「focus — optics」的用法，與本句語境不同。",
-        "focus-mcq-07": "「鏡頭正確對焦，因此影像清晰」是「in focus」的用法，與本句語境不同。",
-        "focus-mcq-11": "「文章、計劃或活動具有清楚的中心和方向」是「focus — clarity/direction」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。"
+        "focus-mcq-09": "本句的「focuses」指「使分散的光線匯聚到特定位置」。",
+        "focus-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-09"
     },
@@ -1052,11 +962,9 @@ export default {
       "masked": "The mirror ____ the sunlight onto a small area.",
       "options": [
         "focus-mcq-09",
+        "focus-mcq-22",
         "focus-mcq-08",
-        "focus-mcq-10",
-        "focus-mcq-07",
-        "focus-mcq-11",
-        "focus-mcq-06"
+        "focus-mcq-18"
       ],
       "explanation": "本句的「focused」指「使分散的光線匯聚到特定位置」。",
       "sentenceIndex": 1,
@@ -1065,12 +973,10 @@ export default {
         "focused"
       ],
       "optionReasons": {
-        "focus-mcq-09": "本句指「使分散的光線匯聚到特定位置」。",
-        "focus-mcq-08": "「沒有正確對焦，因此影像模糊」是「out of focus」的用法，與本句語境不同。",
-        "focus-mcq-10": "「光線經反射或折射後匯聚的焦點」是「focus — optics」的用法，與本句語境不同。",
-        "focus-mcq-07": "「鏡頭正確對焦，因此影像清晰」是「in focus」的用法，與本句語境不同。",
-        "focus-mcq-11": "「文章、計劃或活動具有清楚的中心和方向」是「focus — clarity/direction」的用法，與本句語境不同。",
-        "focus-mcq-06": "「調整鏡頭，使拍攝目標形成清晰影像」是「focus — camera/lens」的用法，與本句語境不同。"
+        "focus-mcq-09": "本句的「focused」指「使分散的光線匯聚到特定位置」。",
+        "focus-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-09"
     },
@@ -1082,11 +988,9 @@ export default {
       "masked": "The rays meet at the ____.",
       "options": [
         "focus-mcq-10",
-        "focus-mcq-09",
-        "focus-mcq-11",
-        "focus-mcq-08",
-        "focus-mcq-12",
-        "focus-mcq-07"
+        "focus-mcq-01",
+        "focus-mcq-06",
+        "focus-mcq-04"
       ],
       "explanation": "本句的「focus」指「光線經反射或折射後匯聚的焦點」。",
       "sentenceIndex": 0,
@@ -1095,12 +999,10 @@ export default {
         "focus"
       ],
       "optionReasons": {
-        "focus-mcq-10": "本句指「光線經反射或折射後匯聚的焦點」。",
-        "focus-mcq-09": "「使分散的光線匯聚到特定位置」是「focus light」的用法，與本句語境不同。",
-        "focus-mcq-11": "「文章、計劃或活動具有清楚的中心和方向」是「focus — clarity/direction」的用法，與本句語境不同。",
-        "focus-mcq-08": "「沒有正確對焦，因此影像模糊」是「out of focus」的用法，與本句語境不同。",
-        "focus-mcq-12": "「注意力集中、不容易受到其他事情干擾的」是「focused — person」的用法，與本句語境不同。",
-        "focus-mcq-07": "「鏡頭正確對焦，因此影像清晰」是「in focus」的用法，與本句語境不同。"
+        "focus-mcq-10": "本句的「focus」指「光線經反射或折射後匯聚的焦點」。",
+        "focus-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-10"
     },
@@ -1112,11 +1014,8 @@ export default {
       "masked": "The image forms near the ____ of the lens.",
       "options": [
         "focus-mcq-10",
-        "focus-mcq-09",
-        "focus-mcq-11",
-        "focus-mcq-08",
-        "focus-mcq-12",
-        "focus-mcq-07"
+        "focus-mcq-03",
+        "focus-mcq-04"
       ],
       "explanation": "本句的「focus」指「光線經反射或折射後匯聚的焦點」。",
       "sentenceIndex": 1,
@@ -1125,12 +1024,9 @@ export default {
         "focus"
       ],
       "optionReasons": {
-        "focus-mcq-10": "本句指「光線經反射或折射後匯聚的焦點」。",
-        "focus-mcq-09": "「使分散的光線匯聚到特定位置」是「focus light」的用法，與本句語境不同。",
-        "focus-mcq-11": "「文章、計劃或活動具有清楚的中心和方向」是「focus — clarity/direction」的用法，與本句語境不同。",
-        "focus-mcq-08": "「沒有正確對焦，因此影像模糊」是「out of focus」的用法，與本句語境不同。",
-        "focus-mcq-12": "「注意力集中、不容易受到其他事情干擾的」是「focused — person」的用法，與本句語境不同。",
-        "focus-mcq-07": "「鏡頭正確對焦，因此影像清晰」是「in focus」的用法，與本句語境不同。"
+        "focus-mcq-10": "本句的「focus」指「光線經反射或折射後匯聚的焦點」。",
+        "focus-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-10"
     },
@@ -1142,11 +1038,9 @@ export default {
       "masked": "The essay lacks ____.",
       "options": [
         "focus-mcq-11",
-        "focus-mcq-10",
-        "focus-mcq-12",
         "focus-mcq-09",
-        "focus-mcq-13",
-        "focus-mcq-08"
+        "focus-mcq-05",
+        "focus-mcq-18"
       ],
       "explanation": "本句的「focus」指「文章、計劃或活動具有清楚的中心和方向」。",
       "sentenceIndex": 0,
@@ -1155,12 +1049,10 @@ export default {
         "focus"
       ],
       "optionReasons": {
-        "focus-mcq-11": "本句指「文章、計劃或活動具有清楚的中心和方向」。",
-        "focus-mcq-10": "「光線經反射或折射後匯聚的焦點」是「focus — optics」的用法，與本句語境不同。",
-        "focus-mcq-12": "「注意力集中、不容易受到其他事情干擾的」是「focused — person」的用法，與本句語境不同。",
-        "focus-mcq-09": "「使分散的光線匯聚到特定位置」是「focus light」的用法，與本句語境不同。",
-        "focus-mcq-13": "「清楚集中在特定目標或範圍的」是「focused — strategy/activity」的用法，與本句語境不同。",
-        "focus-mcq-08": "「沒有正確對焦，因此影像模糊」是「out of focus」的用法，與本句語境不同。"
+        "focus-mcq-11": "本句的「focus」指「文章、計劃或活動具有清楚的中心和方向」。",
+        "focus-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-11"
     },
@@ -1173,10 +1065,7 @@ export default {
       "options": [
         "focus-mcq-11",
         "focus-mcq-10",
-        "focus-mcq-12",
-        "focus-mcq-09",
-        "focus-mcq-13",
-        "focus-mcq-08"
+        "focus-mcq-05"
       ],
       "explanation": "本句的「focus」指「文章、計劃或活動具有清楚的中心和方向」。",
       "sentenceIndex": 1,
@@ -1185,12 +1074,9 @@ export default {
         "focus"
       ],
       "optionReasons": {
-        "focus-mcq-11": "本句指「文章、計劃或活動具有清楚的中心和方向」。",
-        "focus-mcq-10": "「光線經反射或折射後匯聚的焦點」是「focus — optics」的用法，與本句語境不同。",
-        "focus-mcq-12": "「注意力集中、不容易受到其他事情干擾的」是「focused — person」的用法，與本句語境不同。",
-        "focus-mcq-09": "「使分散的光線匯聚到特定位置」是「focus light」的用法，與本句語境不同。",
-        "focus-mcq-13": "「清楚集中在特定目標或範圍的」是「focused — strategy/activity」的用法，與本句語境不同。",
-        "focus-mcq-08": "「沒有正確對焦，因此影像模糊」是「out of focus」的用法，與本句語境不同。"
+        "focus-mcq-11": "本句的「focus」指「文章、計劃或活動具有清楚的中心和方向」。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-11"
     },
@@ -1202,10 +1088,8 @@ export default {
       "masked": "She remained ____ despite the noise.",
       "options": [
         "focus-mcq-12",
-        "focus-mcq-11",
-        "focus-mcq-13",
-        "focus-mcq-10",
-        "focus-mcq-14",
+        "focus-mcq-18",
+        "focus-mcq-20",
         "focus-mcq-09"
       ],
       "explanation": "本句的「focused」指「注意力集中、不容易受到其他事情干擾的」。",
@@ -1215,12 +1099,10 @@ export default {
         "focused"
       ],
       "optionReasons": {
-        "focus-mcq-12": "本句指「注意力集中、不容易受到其他事情干擾的」。",
-        "focus-mcq-11": "「文章、計劃或活動具有清楚的中心和方向」是「focus — clarity/direction」的用法，與本句語境不同。",
-        "focus-mcq-13": "「清楚集中在特定目標或範圍的」是「focused — strategy/activity」的用法，與本句語境不同。",
-        "focus-mcq-10": "「光線經反射或折射後匯聚的焦點」是「focus — optics」的用法，與本句語境不同。",
-        "focus-mcq-14": "「注意力／思路沒有集中，或影像沒有清楚對焦的」是「unfocused」的用法，與本句語境不同。",
-        "focus-mcq-09": "「使分散的光線匯聚到特定位置」是「focus light」的用法，與本句語境不同。"
+        "focus-mcq-12": "本句的「focused」指「注意力集中、不容易受到其他事情干擾的」。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-12"
     },
@@ -1232,11 +1114,9 @@ export default {
       "masked": "I feel more ____ when I wear these headphones.",
       "options": [
         "focus-mcq-12",
-        "focus-mcq-11",
-        "focus-mcq-13",
+        "focus-mcq-20",
         "focus-mcq-10",
-        "focus-mcq-14",
-        "focus-mcq-09"
+        "focus-mcq-04"
       ],
       "explanation": "本句的「focused」指「注意力集中、不容易受到其他事情干擾的」。",
       "sentenceIndex": 1,
@@ -1245,12 +1125,10 @@ export default {
         "focused"
       ],
       "optionReasons": {
-        "focus-mcq-12": "本句指「注意力集中、不容易受到其他事情干擾的」。",
-        "focus-mcq-11": "「文章、計劃或活動具有清楚的中心和方向」是「focus — clarity/direction」的用法，與本句語境不同。",
-        "focus-mcq-13": "「清楚集中在特定目標或範圍的」是「focused — strategy/activity」的用法，與本句語境不同。",
-        "focus-mcq-10": "「光線經反射或折射後匯聚的焦點」是「focus — optics」的用法，與本句語境不同。",
-        "focus-mcq-14": "「注意力／思路沒有集中，或影像沒有清楚對焦的」是「unfocused」的用法，與本句語境不同。",
-        "focus-mcq-09": "「使分散的光線匯聚到特定位置」是「focus light」的用法，與本句語境不同。"
+        "focus-mcq-12": "本句的「focused」指「注意力集中、不容易受到其他事情干擾的」。",
+        "focus-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-12"
     },
@@ -1262,11 +1140,8 @@ export default {
       "masked": "We need a more ____ strategy.",
       "options": [
         "focus-mcq-13",
-        "focus-mcq-12",
-        "focus-mcq-14",
-        "focus-mcq-11",
-        "focus-mcq-15",
-        "focus-mcq-10"
+        "focus-mcq-18",
+        "focus-mcq-04"
       ],
       "explanation": "本句的「focused」指「清楚集中在特定目標或範圍的」。",
       "sentenceIndex": 0,
@@ -1275,12 +1150,9 @@ export default {
         "focused"
       ],
       "optionReasons": {
-        "focus-mcq-13": "本句指「清楚集中在特定目標或範圍的」。",
-        "focus-mcq-12": "「注意力集中、不容易受到其他事情干擾的」是「focused — person」的用法，與本句語境不同。",
-        "focus-mcq-14": "「注意力／思路沒有集中，或影像沒有清楚對焦的」是「unfocused」的用法，與本句語境不同。",
-        "focus-mcq-11": "「文章、計劃或活動具有清楚的中心和方向」是「focus — clarity/direction」的用法，與本句語境不同。",
-        "focus-mcq-15": "「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」是「refocus」的用法，與本句語境不同。",
-        "focus-mcq-10": "「光線經反射或折射後匯聚的焦點」是「focus — optics」的用法，與本句語境不同。"
+        "focus-mcq-13": "本句的「focused」指「清楚集中在特定目標或範圍的」。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-13"
     },
@@ -1292,11 +1164,8 @@ export default {
       "masked": "The course offers ____ training in communication skills.",
       "options": [
         "focus-mcq-13",
-        "focus-mcq-12",
-        "focus-mcq-14",
-        "focus-mcq-11",
-        "focus-mcq-15",
-        "focus-mcq-10"
+        "focus-mcq-18",
+        "focus-mcq-04"
       ],
       "explanation": "本句的「focused」指「清楚集中在特定目標或範圍的」。",
       "sentenceIndex": 1,
@@ -1305,12 +1174,9 @@ export default {
         "focused"
       ],
       "optionReasons": {
-        "focus-mcq-13": "本句指「清楚集中在特定目標或範圍的」。",
-        "focus-mcq-12": "「注意力集中、不容易受到其他事情干擾的」是「focused — person」的用法，與本句語境不同。",
-        "focus-mcq-14": "「注意力／思路沒有集中，或影像沒有清楚對焦的」是「unfocused」的用法，與本句語境不同。",
-        "focus-mcq-11": "「文章、計劃或活動具有清楚的中心和方向」是「focus — clarity/direction」的用法，與本句語境不同。",
-        "focus-mcq-15": "「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」是「refocus」的用法，與本句語境不同。",
-        "focus-mcq-10": "「光線經反射或折射後匯聚的焦點」是「focus — optics」的用法，與本句語境不同。"
+        "focus-mcq-13": "本句的「focused」指「清楚集中在特定目標或範圍的」。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-13"
     },
@@ -1322,11 +1188,9 @@ export default {
       "masked": "I felt tired and ____.",
       "options": [
         "focus-mcq-14",
-        "focus-mcq-13",
-        "focus-mcq-15",
-        "focus-mcq-12",
-        "focus-mcq-16",
-        "focus-mcq-11"
+        "focus-mcq-04",
+        "focus-mcq-09",
+        "focus-mcq-18"
       ],
       "explanation": "本句的「unfocused」指「注意力／思路沒有集中，或影像沒有清楚對焦的」。",
       "sentenceIndex": 0,
@@ -1335,12 +1199,10 @@ export default {
         "unfocused"
       ],
       "optionReasons": {
-        "focus-mcq-14": "本句指「注意力／思路沒有集中，或影像沒有清楚對焦的」。",
-        "focus-mcq-13": "「清楚集中在特定目標或範圍的」是「focused — strategy/activity」的用法，與本句語境不同。",
-        "focus-mcq-15": "「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」是「refocus」的用法，與本句語境不同。",
-        "focus-mcq-12": "「注意力集中、不容易受到其他事情干擾的」是「focused — person」的用法，與本句語境不同。",
-        "focus-mcq-16": "「位於中心、最值得注意或成為其他事物集中之處的」是「focal」的用法，與本句語境不同。",
-        "focus-mcq-11": "「文章、計劃或活動具有清楚的中心和方向」是「focus — clarity/direction」的用法，與本句語境不同。"
+        "focus-mcq-14": "本句的「unfocused」指「注意力／思路沒有集中，或影像沒有清楚對焦的」。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-14"
     },
@@ -1352,11 +1214,9 @@ export default {
       "masked": "His thoughts seemed ____.",
       "options": [
         "focus-mcq-14",
-        "focus-mcq-13",
-        "focus-mcq-15",
-        "focus-mcq-12",
-        "focus-mcq-16",
-        "focus-mcq-11"
+        "focus-mcq-04",
+        "focus-mcq-09",
+        "focus-mcq-18"
       ],
       "explanation": "本句的「unfocused」指「注意力／思路沒有集中，或影像沒有清楚對焦的」。",
       "sentenceIndex": 1,
@@ -1365,12 +1225,10 @@ export default {
         "unfocused"
       ],
       "optionReasons": {
-        "focus-mcq-14": "本句指「注意力／思路沒有集中，或影像沒有清楚對焦的」。",
-        "focus-mcq-13": "「清楚集中在特定目標或範圍的」是「focused — strategy/activity」的用法，與本句語境不同。",
-        "focus-mcq-15": "「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」是「refocus」的用法，與本句語境不同。",
-        "focus-mcq-12": "「注意力集中、不容易受到其他事情干擾的」是「focused — person」的用法，與本句語境不同。",
-        "focus-mcq-16": "「位於中心、最值得注意或成為其他事物集中之處的」是「focal」的用法，與本句語境不同。",
-        "focus-mcq-11": "「文章、計劃或活動具有清楚的中心和方向」是「focus — clarity/direction」的用法，與本句語境不同。"
+        "focus-mcq-14": "本句的「unfocused」指「注意力／思路沒有集中，或影像沒有清楚對焦的」。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-14"
     },
@@ -1382,11 +1240,9 @@ export default {
       "masked": "The photograph is slightly ____.",
       "options": [
         "focus-mcq-14",
-        "focus-mcq-13",
-        "focus-mcq-15",
-        "focus-mcq-12",
-        "focus-mcq-16",
-        "focus-mcq-11"
+        "focus-mcq-09",
+        "focus-mcq-04",
+        "focus-mcq-18"
       ],
       "explanation": "本句的「unfocused」指「注意力／思路沒有集中，或影像沒有清楚對焦的」。",
       "sentenceIndex": 0,
@@ -1395,12 +1251,10 @@ export default {
         "unfocused"
       ],
       "optionReasons": {
-        "focus-mcq-14": "本句指「注意力／思路沒有集中，或影像沒有清楚對焦的」。",
-        "focus-mcq-13": "「清楚集中在特定目標或範圍的」是「focused — strategy/activity」的用法，與本句語境不同。",
-        "focus-mcq-15": "「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」是「refocus」的用法，與本句語境不同。",
-        "focus-mcq-12": "「注意力集中、不容易受到其他事情干擾的」是「focused — person」的用法，與本句語境不同。",
-        "focus-mcq-16": "「位於中心、最值得注意或成為其他事物集中之處的」是「focal」的用法，與本句語境不同。",
-        "focus-mcq-11": "「文章、計劃或活動具有清楚的中心和方向」是「focus — clarity/direction」的用法，與本句語境不同。"
+        "focus-mcq-14": "本句的「unfocused」指「注意力／思路沒有集中，或影像沒有清楚對焦的」。",
+        "focus-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-14"
     },
@@ -1412,11 +1266,9 @@ export default {
       "masked": "The camera produced several ____ images.",
       "options": [
         "focus-mcq-14",
-        "focus-mcq-13",
-        "focus-mcq-15",
-        "focus-mcq-12",
-        "focus-mcq-16",
-        "focus-mcq-11"
+        "focus-mcq-09",
+        "focus-mcq-04",
+        "focus-mcq-18"
       ],
       "explanation": "本句的「unfocused」指「注意力／思路沒有集中，或影像沒有清楚對焦的」。",
       "sentenceIndex": 1,
@@ -1425,12 +1277,10 @@ export default {
         "unfocused"
       ],
       "optionReasons": {
-        "focus-mcq-14": "本句指「注意力／思路沒有集中，或影像沒有清楚對焦的」。",
-        "focus-mcq-13": "「清楚集中在特定目標或範圍的」是「focused — strategy/activity」的用法，與本句語境不同。",
-        "focus-mcq-15": "「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」是「refocus」的用法，與本句語境不同。",
-        "focus-mcq-12": "「注意力集中、不容易受到其他事情干擾的」是「focused — person」的用法，與本句語境不同。",
-        "focus-mcq-16": "「位於中心、最值得注意或成為其他事物集中之處的」是「focal」的用法，與本句語境不同。",
-        "focus-mcq-11": "「文章、計劃或活動具有清楚的中心和方向」是「focus — clarity/direction」的用法，與本句語境不同。"
+        "focus-mcq-14": "本句的「unfocused」指「注意力／思路沒有集中，或影像沒有清楚對焦的」。",
+        "focus-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-14"
     },
@@ -1442,11 +1292,9 @@ export default {
       "masked": "After the break, I was able to ____.",
       "options": [
         "focus-mcq-15",
-        "focus-mcq-14",
-        "focus-mcq-16",
-        "focus-mcq-13",
-        "focus-mcq-17",
-        "focus-mcq-12"
+        "focus-mcq-18",
+        "focus-mcq-19",
+        "focus-mcq-04"
       ],
       "explanation": "本句的「refocus」指「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」。",
       "sentenceIndex": 0,
@@ -1455,12 +1303,10 @@ export default {
         "refocus"
       ],
       "optionReasons": {
-        "focus-mcq-15": "本句指「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」。",
-        "focus-mcq-14": "「注意力／思路沒有集中，或影像沒有清楚對焦的」是「unfocused」的用法，與本句語境不同。",
-        "focus-mcq-16": "「位於中心、最值得注意或成為其他事物集中之處的」是「focal」的用法，與本句語境不同。",
-        "focus-mcq-13": "「清楚集中在特定目標或範圍的」是「focused — strategy/activity」的用法，與本句語境不同。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。",
-        "focus-mcq-12": "「注意力集中、不容易受到其他事情干擾的」是「focused — person」的用法，與本句語境不同。"
+        "focus-mcq-15": "本句的「refocus」指「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-15"
     },
@@ -1472,11 +1318,9 @@ export default {
       "masked": "The company decided to ____ customer service.",
       "options": [
         "focus-mcq-15",
-        "focus-mcq-14",
-        "focus-mcq-16",
-        "focus-mcq-13",
-        "focus-mcq-17",
-        "focus-mcq-12"
+        "focus-mcq-18",
+        "focus-mcq-04",
+        "focus-mcq-19"
       ],
       "explanation": "本句的「refocus its efforts on」指「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」。",
       "sentenceIndex": 1,
@@ -1485,12 +1329,10 @@ export default {
         "refocus its efforts on"
       ],
       "optionReasons": {
-        "focus-mcq-15": "本句指「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」。",
-        "focus-mcq-14": "「注意力／思路沒有集中，或影像沒有清楚對焦的」是「unfocused」的用法，與本句語境不同。",
-        "focus-mcq-16": "「位於中心、最值得注意或成為其他事物集中之處的」是「focal」的用法，與本句語境不同。",
-        "focus-mcq-13": "「清楚集中在特定目標或範圍的」是「focused — strategy/activity」的用法，與本句語境不同。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。",
-        "focus-mcq-12": "「注意力集中、不容易受到其他事情干擾的」是「focused — person」的用法，與本句語境不同。"
+        "focus-mcq-15": "本句的「refocus its efforts on」指「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-15"
     },
@@ -1502,11 +1344,9 @@ export default {
       "masked": "The camera automatically ____ on the moving subject.",
       "options": [
         "focus-mcq-15",
-        "focus-mcq-14",
-        "focus-mcq-16",
-        "focus-mcq-13",
-        "focus-mcq-17",
-        "focus-mcq-12"
+        "focus-mcq-18",
+        "focus-mcq-19",
+        "focus-mcq-04"
       ],
       "explanation": "本句的「refocused」指「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」。",
       "sentenceIndex": 0,
@@ -1515,12 +1355,10 @@ export default {
         "refocused"
       ],
       "optionReasons": {
-        "focus-mcq-15": "本句指「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」。",
-        "focus-mcq-14": "「注意力／思路沒有集中，或影像沒有清楚對焦的」是「unfocused」的用法，與本句語境不同。",
-        "focus-mcq-16": "「位於中心、最值得注意或成為其他事物集中之處的」是「focal」的用法，與本句語境不同。",
-        "focus-mcq-13": "「清楚集中在特定目標或範圍的」是「focused — strategy/activity」的用法，與本句語境不同。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。",
-        "focus-mcq-12": "「注意力集中、不容易受到其他事情干擾的」是「focused — person」的用法，與本句語境不同。"
+        "focus-mcq-15": "本句的「refocused」指「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-15"
     },
@@ -1532,11 +1370,9 @@ export default {
       "masked": "I had to ____ the lens.",
       "options": [
         "focus-mcq-15",
-        "focus-mcq-14",
-        "focus-mcq-16",
-        "focus-mcq-13",
-        "focus-mcq-17",
-        "focus-mcq-12"
+        "focus-mcq-18",
+        "focus-mcq-04",
+        "focus-mcq-19"
       ],
       "explanation": "本句的「refocus」指「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」。",
       "sentenceIndex": 1,
@@ -1545,12 +1381,10 @@ export default {
         "refocus"
       ],
       "optionReasons": {
-        "focus-mcq-15": "本句指「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」。",
-        "focus-mcq-14": "「注意力／思路沒有集中，或影像沒有清楚對焦的」是「unfocused」的用法，與本句語境不同。",
-        "focus-mcq-16": "「位於中心、最值得注意或成為其他事物集中之處的」是「focal」的用法，與本句語境不同。",
-        "focus-mcq-13": "「清楚集中在特定目標或範圍的」是「focused — strategy/activity」的用法，與本句語境不同。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。",
-        "focus-mcq-12": "「注意力集中、不容易受到其他事情干擾的」是「focused — person」的用法，與本句語境不同。"
+        "focus-mcq-15": "本句的「refocus」指「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-15"
     },
@@ -1562,11 +1396,8 @@ export default {
       "masked": "The fireplace is the ____ of the room.",
       "options": [
         "focus-mcq-16",
-        "focus-mcq-15",
-        "focus-mcq-17",
-        "focus-mcq-14",
-        "focus-mcq-18",
-        "focus-mcq-13"
+        "focus-mcq-08",
+        "focus-mcq-10"
       ],
       "explanation": "本句的「focal point」指「位於中心、最值得注意或成為其他事物集中之處的」。",
       "sentenceIndex": 0,
@@ -1575,12 +1406,9 @@ export default {
         "focal point"
       ],
       "optionReasons": {
-        "focus-mcq-16": "本句指「位於中心、最值得注意或成為其他事物集中之處的」。",
-        "focus-mcq-15": "「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」是「refocus」的用法，與本句語境不同。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。",
-        "focus-mcq-14": "「注意力／思路沒有集中，或影像沒有清楚對焦的」是「unfocused」的用法，與本句語境不同。",
-        "focus-mcq-18": "「光學系統中影響成像與視角的焦距」是「focal length」的用法，與本句語境不同。",
-        "focus-mcq-13": "「清楚集中在特定目標或範圍的」是「focused — strategy/activity」的用法，與本句語境不同。"
+        "focus-mcq-16": "本句的「focal point」指「位於中心、最值得注意或成為其他事物集中之處的」。",
+        "focus-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-16"
     },
@@ -1592,11 +1420,8 @@ export default {
       "masked": "Education became a ____ in the discussion.",
       "options": [
         "focus-mcq-16",
-        "focus-mcq-15",
-        "focus-mcq-17",
-        "focus-mcq-14",
-        "focus-mcq-18",
-        "focus-mcq-13"
+        "focus-mcq-20",
+        "focus-mcq-10"
       ],
       "explanation": "本句的「focal issue」指「位於中心、最值得注意或成為其他事物集中之處的」。",
       "sentenceIndex": 1,
@@ -1605,12 +1430,9 @@ export default {
         "focal issue"
       ],
       "optionReasons": {
-        "focus-mcq-16": "本句指「位於中心、最值得注意或成為其他事物集中之處的」。",
-        "focus-mcq-15": "「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」是「refocus」的用法，與本句語境不同。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。",
-        "focus-mcq-14": "「注意力／思路沒有集中，或影像沒有清楚對焦的」是「unfocused」的用法，與本句語境不同。",
-        "focus-mcq-18": "「光學系統中影響成像與視角的焦距」是「focal length」的用法，與本句語境不同。",
-        "focus-mcq-13": "「清楚集中在特定目標或範圍的」是「focused — strategy/activity」的用法，與本句語境不同。"
+        "focus-mcq-16": "本句的「focal issue」指「位於中心、最值得注意或成為其他事物集中之處的」。",
+        "focus-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-16"
     },
@@ -1622,11 +1444,9 @@ export default {
       "masked": "The painting became the ____ of the room.",
       "options": [
         "focus-mcq-17",
-        "focus-mcq-16",
-        "focus-mcq-18",
-        "focus-mcq-15",
-        "focus-mcq-19",
-        "focus-mcq-14"
+        "focus-mcq-08",
+        "focus-mcq-09",
+        "focus-mcq-18"
       ],
       "explanation": "本句的「focal point」指「視覺、注意力或活動最集中、最重要的中心」。",
       "sentenceIndex": 0,
@@ -1635,12 +1455,10 @@ export default {
         "focal point"
       ],
       "optionReasons": {
-        "focus-mcq-17": "本句指「視覺、注意力或活動最集中、最重要的中心」。",
-        "focus-mcq-16": "「位於中心、最值得注意或成為其他事物集中之處的」是「focal」的用法，與本句語境不同。",
-        "focus-mcq-18": "「光學系統中影響成像與視角的焦距」是「focal length」的用法，與本句語境不同。",
-        "focus-mcq-15": "「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」是「refocus」的用法，與本句語境不同。",
-        "focus-mcq-19": "「為了解目標群體意見而召集進行討論的小型研究群組」是「focus group」的用法，與本句語境不同。",
-        "focus-mcq-14": "「注意力／思路沒有集中，或影像沒有清楚對焦的」是「unfocused」的用法，與本句語境不同。"
+        "focus-mcq-17": "本句的「focal point」指「視覺、注意力或活動最集中、最重要的中心」。",
+        "focus-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-17"
     },
@@ -1652,11 +1470,9 @@ export default {
       "masked": "Customer experience should be the ____ of the strategy.",
       "options": [
         "focus-mcq-17",
-        "focus-mcq-16",
-        "focus-mcq-18",
-        "focus-mcq-15",
-        "focus-mcq-19",
-        "focus-mcq-14"
+        "focus-mcq-06",
+        "focus-mcq-09",
+        "focus-mcq-18"
       ],
       "explanation": "本句的「focal point」指「視覺、注意力或活動最集中、最重要的中心」。",
       "sentenceIndex": 1,
@@ -1665,12 +1481,10 @@ export default {
         "focal point"
       ],
       "optionReasons": {
-        "focus-mcq-17": "本句指「視覺、注意力或活動最集中、最重要的中心」。",
-        "focus-mcq-16": "「位於中心、最值得注意或成為其他事物集中之處的」是「focal」的用法，與本句語境不同。",
-        "focus-mcq-18": "「光學系統中影響成像與視角的焦距」是「focal length」的用法，與本句語境不同。",
-        "focus-mcq-15": "「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」是「refocus」的用法，與本句語境不同。",
-        "focus-mcq-19": "「為了解目標群體意見而召集進行討論的小型研究群組」是「focus group」的用法，與本句語境不同。",
-        "focus-mcq-14": "「注意力／思路沒有集中，或影像沒有清楚對焦的」是「unfocused」的用法，與本句語境不同。"
+        "focus-mcq-17": "本句的「focal point」指「視覺、注意力或活動最集中、最重要的中心」。",
+        "focus-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-17"
     },
@@ -1682,11 +1496,9 @@ export default {
       "masked": "A longer ____ makes distant objects appear larger.",
       "options": [
         "focus-mcq-18",
-        "focus-mcq-17",
-        "focus-mcq-19",
-        "focus-mcq-16",
-        "focus-mcq-20",
-        "focus-mcq-15"
+        "focus-mcq-22",
+        "focus-mcq-21",
+        "focus-mcq-08"
       ],
       "explanation": "本句的「focal length」指「光學系統中影響成像與視角的焦距」。",
       "sentenceIndex": 0,
@@ -1695,12 +1507,10 @@ export default {
         "focal length"
       ],
       "optionReasons": {
-        "focus-mcq-18": "本句指「光學系統中影響成像與視角的焦距」。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。",
-        "focus-mcq-19": "「為了解目標群體意見而召集進行討論的小型研究群組」是「focus group」的用法，與本句語境不同。",
-        "focus-mcq-16": "「位於中心、最值得注意或成為其他事物集中之處的」是「focal」的用法，與本句語境不同。",
-        "focus-mcq-20": "「相機自動調整鏡頭使拍攝主體清晰的功能」是「autofocus」的用法，與本句語境不同。",
-        "focus-mcq-15": "「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」是「refocus」的用法，與本句語境不同。"
+        "focus-mcq-18": "本句的「focal length」指「光學系統中影響成像與視角的焦距」。",
+        "focus-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-18"
     },
@@ -1712,11 +1522,8 @@ export default {
       "masked": "This lens has a fixed ____.",
       "options": [
         "focus-mcq-18",
-        "focus-mcq-17",
-        "focus-mcq-19",
-        "focus-mcq-16",
-        "focus-mcq-20",
-        "focus-mcq-15"
+        "focus-mcq-22",
+        "focus-mcq-13"
       ],
       "explanation": "本句的「focal length」指「光學系統中影響成像與視角的焦距」。",
       "sentenceIndex": 1,
@@ -1725,12 +1532,9 @@ export default {
         "focal length"
       ],
       "optionReasons": {
-        "focus-mcq-18": "本句指「光學系統中影響成像與視角的焦距」。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。",
-        "focus-mcq-19": "「為了解目標群體意見而召集進行討論的小型研究群組」是「focus group」的用法，與本句語境不同。",
-        "focus-mcq-16": "「位於中心、最值得注意或成為其他事物集中之處的」是「focal」的用法，與本句語境不同。",
-        "focus-mcq-20": "「相機自動調整鏡頭使拍攝主體清晰的功能」是「autofocus」的用法，與本句語境不同。",
-        "focus-mcq-15": "「注意力或方向被分散後重新集中；亦可指鏡頭重新對焦」是「refocus」的用法，與本句語境不同。"
+        "focus-mcq-18": "本句的「focal length」指「光學系統中影響成像與視角的焦距」。",
+        "focus-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-18"
     },
@@ -1742,11 +1546,9 @@ export default {
       "masked": "The company tested the advertisement with a ____.",
       "options": [
         "focus-mcq-19",
-        "focus-mcq-18",
-        "focus-mcq-20",
-        "focus-mcq-17",
-        "focus-mcq-21",
-        "focus-mcq-16"
+        "focus-mcq-10",
+        "focus-mcq-04",
+        "focus-mcq-15"
       ],
       "explanation": "本句的「focus group」指「為了解目標群體意見而召集進行討論的小型研究群組」。",
       "sentenceIndex": 0,
@@ -1755,12 +1557,10 @@ export default {
         "focus group"
       ],
       "optionReasons": {
-        "focus-mcq-19": "本句指「為了解目標群體意見而召集進行討論的小型研究群組」。",
-        "focus-mcq-18": "「光學系統中影響成像與視角的焦距」是「focal length」的用法，與本句語境不同。",
-        "focus-mcq-20": "「相機自動調整鏡頭使拍攝主體清晰的功能」是「autofocus」的用法，與本句語境不同。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。",
-        "focus-mcq-21": "「疾病、感染或異常組織集中出現的局部位置／病灶」是「focus — medical」的用法，與本句語境不同。",
-        "focus-mcq-16": "「位於中心、最值得注意或成為其他事物集中之處的」是「focal」的用法，與本句語境不同。"
+        "focus-mcq-19": "本句的「focus group」指「為了解目標群體意見而召集進行討論的小型研究群組」。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-19"
     },
@@ -1772,11 +1572,9 @@ export default {
       "masked": "Participants in the ____ preferred the simpler design.",
       "options": [
         "focus-mcq-19",
-        "focus-mcq-18",
-        "focus-mcq-20",
-        "focus-mcq-17",
-        "focus-mcq-21",
-        "focus-mcq-16"
+        "focus-mcq-04",
+        "focus-mcq-10",
+        "focus-mcq-01"
       ],
       "explanation": "本句的「focus group」指「為了解目標群體意見而召集進行討論的小型研究群組」。",
       "sentenceIndex": 1,
@@ -1785,12 +1583,10 @@ export default {
         "focus group"
       ],
       "optionReasons": {
-        "focus-mcq-19": "本句指「為了解目標群體意見而召集進行討論的小型研究群組」。",
-        "focus-mcq-18": "「光學系統中影響成像與視角的焦距」是「focal length」的用法，與本句語境不同。",
-        "focus-mcq-20": "「相機自動調整鏡頭使拍攝主體清晰的功能」是「autofocus」的用法，與本句語境不同。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。",
-        "focus-mcq-21": "「疾病、感染或異常組織集中出現的局部位置／病灶」是「focus — medical」的用法，與本句語境不同。",
-        "focus-mcq-16": "「位於中心、最值得注意或成為其他事物集中之處的」是「focal」的用法，與本句語境不同。"
+        "focus-mcq-19": "本句的「focus group」指「為了解目標群體意見而召集進行討論的小型研究群組」。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-19"
     },
@@ -1802,11 +1598,9 @@ export default {
       "masked": "The camera has fast ____.",
       "options": [
         "focus-mcq-20",
-        "focus-mcq-19",
-        "focus-mcq-21",
-        "focus-mcq-18",
-        "focus-mcq-22",
-        "focus-mcq-17"
+        "focus-mcq-09",
+        "focus-mcq-05",
+        "focus-mcq-18"
       ],
       "explanation": "本句的「autofocus」指「相機自動調整鏡頭使拍攝主體清晰的功能」。",
       "sentenceIndex": 0,
@@ -1815,12 +1609,10 @@ export default {
         "autofocus"
       ],
       "optionReasons": {
-        "focus-mcq-20": "本句指「相機自動調整鏡頭使拍攝主體清晰的功能」。",
-        "focus-mcq-19": "「為了解目標群體意見而召集進行討論的小型研究群組」是「focus group」的用法，與本句語境不同。",
-        "focus-mcq-21": "「疾病、感染或異常組織集中出現的局部位置／病灶」是「focus — medical」的用法，與本句語境不同。",
-        "focus-mcq-18": "「光學系統中影響成像與視角的焦距」是「focal length」的用法，與本句語境不同。",
-        "focus-mcq-22": "「改變目前主要注意或討論的對象」是「6. bring/shift/change the focus to + topic（話題／優先事項） — 把焦點轉向……」的用法，與本句語境不同。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。"
+        "focus-mcq-20": "本句的「autofocus」指「相機自動調整鏡頭使拍攝主體清晰的功能」。",
+        "focus-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-20"
     },
@@ -1832,11 +1624,9 @@ export default {
       "masked": "The ____ struggled in low light.",
       "options": [
         "focus-mcq-20",
-        "focus-mcq-19",
         "focus-mcq-21",
-        "focus-mcq-18",
-        "focus-mcq-22",
-        "focus-mcq-17"
+        "focus-mcq-10",
+        "focus-mcq-04"
       ],
       "explanation": "本句的「autofocus」指「相機自動調整鏡頭使拍攝主體清晰的功能」。",
       "sentenceIndex": 1,
@@ -1845,12 +1635,10 @@ export default {
         "autofocus"
       ],
       "optionReasons": {
-        "focus-mcq-20": "本句指「相機自動調整鏡頭使拍攝主體清晰的功能」。",
-        "focus-mcq-19": "「為了解目標群體意見而召集進行討論的小型研究群組」是「focus group」的用法，與本句語境不同。",
-        "focus-mcq-21": "「疾病、感染或異常組織集中出現的局部位置／病灶」是「focus — medical」的用法，與本句語境不同。",
-        "focus-mcq-18": "「光學系統中影響成像與視角的焦距」是「focal length」的用法，與本句語境不同。",
-        "focus-mcq-22": "「改變目前主要注意或討論的對象」是「6. bring/shift/change the focus to + topic（話題／優先事項） — 把焦點轉向……」的用法，與本句語境不同。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。"
+        "focus-mcq-20": "本句的「autofocus」指「相機自動調整鏡頭使拍攝主體清晰的功能」。",
+        "focus-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-20"
     },
@@ -1862,11 +1650,8 @@ export default {
       "masked": "Doctors identified the ____.",
       "options": [
         "focus-mcq-21",
-        "focus-mcq-20",
-        "focus-mcq-22",
-        "focus-mcq-19",
-        "focus-mcq-18",
-        "focus-mcq-17"
+        "focus-mcq-11",
+        "focus-mcq-18"
       ],
       "explanation": "本句的「focus of infection」指「疾病、感染或異常組織集中出現的局部位置／病灶」。",
       "sentenceIndex": 0,
@@ -1875,12 +1660,9 @@ export default {
         "focus of infection"
       ],
       "optionReasons": {
-        "focus-mcq-21": "本句指「疾病、感染或異常組織集中出現的局部位置／病灶」。",
-        "focus-mcq-20": "「相機自動調整鏡頭使拍攝主體清晰的功能」是「autofocus」的用法，與本句語境不同。",
-        "focus-mcq-22": "「改變目前主要注意或討論的對象」是「6. bring/shift/change the focus to + topic（話題／優先事項） — 把焦點轉向……」的用法，與本句語境不同。",
-        "focus-mcq-19": "「為了解目標群體意見而召集進行討論的小型研究群組」是「focus group」的用法，與本句語境不同。",
-        "focus-mcq-18": "「光學系統中影響成像與視角的焦距」是「focal length」的用法，與本句語境不同。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。"
+        "focus-mcq-21": "本句的「focus of infection」指「疾病、感染或異常組織集中出現的局部位置／病灶」。",
+        "focus-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-21"
     },
@@ -1892,11 +1674,9 @@ export default {
       "masked": "The scan showed a small ____ of abnormal tissue.",
       "options": [
         "focus-mcq-21",
-        "focus-mcq-20",
-        "focus-mcq-22",
-        "focus-mcq-19",
-        "focus-mcq-18",
-        "focus-mcq-17"
+        "focus-mcq-10",
+        "focus-mcq-06",
+        "focus-mcq-04"
       ],
       "explanation": "本句的「focus」指「疾病、感染或異常組織集中出現的局部位置／病灶」。",
       "sentenceIndex": 1,
@@ -1905,12 +1685,10 @@ export default {
         "focus"
       ],
       "optionReasons": {
-        "focus-mcq-21": "本句指「疾病、感染或異常組織集中出現的局部位置／病灶」。",
-        "focus-mcq-20": "「相機自動調整鏡頭使拍攝主體清晰的功能」是「autofocus」的用法，與本句語境不同。",
-        "focus-mcq-22": "「改變目前主要注意或討論的對象」是「6. bring/shift/change the focus to + topic（話題／優先事項） — 把焦點轉向……」的用法，與本句語境不同。",
-        "focus-mcq-19": "「為了解目標群體意見而召集進行討論的小型研究群組」是「focus group」的用法，與本句語境不同。",
-        "focus-mcq-18": "「光學系統中影響成像與視角的焦距」是「focal length」的用法，與本句語境不同。",
-        "focus-mcq-17": "「視覺、注意力或活動最集中、最重要的中心」是「focal point」的用法，與本句語境不同。"
+        "focus-mcq-21": "本句的「focus」指「疾病、感染或異常組織集中出現的局部位置／病灶」。",
+        "focus-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "focus-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "focus-mcq-21"
     }
@@ -1923,5 +1701,7 @@ export default {
     "pages": 18,
     "sha256": "5ef77846d5fb019d99c38b60310aab11f76d17a584824033fe6cf3f3059fb5df"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -1332,7 +1332,7 @@ export default {
     },
     {
       "id": "hand-mcq-65",
-      "title": "表示手；手掌",
+      "title": "手；手掌",
       "form": "Passage meaning B — in my hand",
       "en": "Passage meaning B — in my hand",
       "zh": "表示手；手掌",
@@ -1354,7 +1354,7 @@ export default {
     },
     {
       "id": "hand-mcq-66",
-      "title": "表示時針",
+      "title": "時針",
       "form": "8. hour hand / minute hand / second hand",
       "en": "8. hour hand / minute hand / second hand",
       "zh": "表示時針",
@@ -1398,7 +1398,7 @@ export default {
     },
     {
       "id": "hand-mcq-68",
-      "title": "表示強硬／堅定的管理手段",
+      "title": "強硬／堅定的管理手段",
       "form": "53. a firm hand",
       "en": "53. a firm hand",
       "zh": "表示強硬／堅定的管理手段",
@@ -1420,7 +1420,7 @@ export default {
     },
     {
       "id": "hand-mcq-69",
-      "title": "表示無微不至地伺候；服侍周到",
+      "title": "無微不至地伺候；服侍周到",
       "form": "64. wait on someone hand and foot",
       "en": "64. wait on someone hand and foot",
       "zh": "表示無微不至地伺候；服侍周到",
@@ -1442,7 +1442,7 @@ export default {
     },
     {
       "id": "hand-mcq-70",
-      "title": "表示手冊；指南",
+      "title": "手冊；指南",
       "form": "70. handbook",
       "en": "70. handbook",
       "zh": "表示手冊；指南",
@@ -1472,11 +1472,9 @@ export default {
       "masked": "I prefer to ____ when taking personal notes.",
       "options": [
         "hand-mcq-65",
-        "hand-mcq-64",
-        "hand-mcq-66",
-        "hand-mcq-63",
-        "hand-mcq-67",
-        "hand-mcq-62"
+        "hand-mcq-39",
+        "hand-mcq-26",
+        "hand-mcq-66"
       ],
       "explanation": "本句的「write by hand」指「表示手；手掌」。",
       "sentenceIndex": 0,
@@ -1485,12 +1483,10 @@ export default {
         "write by hand"
       ],
       "optionReasons": {
-        "hand-mcq-65": "本句指「表示手；手掌」。",
-        "hand-mcq-64": "「某人的手寫字／筆跡」是「handwriting」的用法，與本句語境不同。",
-        "hand-mcq-66": "「表示時針」是「8. hour hand / minute hand / second hand」的用法，與本句語境不同。",
-        "hand-mcq-63": "「由人手用筆而不是鍵盤寫成的」是「handwritten」的用法，與本句語境不同。",
-        "hand-mcq-67": "「把某事處理得很好；掌控得宜」是「27. have something well in hand」的用法，與本句語境不同。",
-        "hand-mcq-62": "「主要以人手而非機器製作的」是「handmade」的用法，與本句語境不同。"
+        "hand-mcq-65": "本句的「write by hand」指「表示手；手掌」。",
+        "hand-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-65"
     },
@@ -1502,11 +1498,9 @@ export default {
       "masked": "The pen felt comfortable ____.",
       "options": [
         "hand-mcq-65",
-        "hand-mcq-64",
-        "hand-mcq-66",
-        "hand-mcq-63",
-        "hand-mcq-67",
-        "hand-mcq-62"
+        "hand-mcq-29",
+        "hand-mcq-33",
+        "hand-mcq-27"
       ],
       "explanation": "本句的「in my hand」指「表示手；手掌」。",
       "sentenceIndex": 1,
@@ -1515,12 +1509,10 @@ export default {
         "in my hand"
       ],
       "optionReasons": {
-        "hand-mcq-65": "本句指「表示手；手掌」。",
-        "hand-mcq-64": "「某人的手寫字／筆跡」是「handwriting」的用法，與本句語境不同。",
-        "hand-mcq-66": "「表示時針」是「8. hour hand / minute hand / second hand」的用法，與本句語境不同。",
-        "hand-mcq-63": "「由人手用筆而不是鍵盤寫成的」是「handwritten」的用法，與本句語境不同。",
-        "hand-mcq-67": "「把某事處理得很好；掌控得宜」是「27. have something well in hand」的用法，與本句語境不同。",
-        "hand-mcq-62": "「主要以人手而非機器製作的」是「handmade」的用法，與本句語境不同。"
+        "hand-mcq-65": "本句的「in my hand」指「表示手；手掌」。",
+        "hand-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-65"
     },
@@ -1532,11 +1524,9 @@ export default {
       "masked": "She held the pen in her ____.",
       "options": [
         "hand-mcq-01",
-        "hand-mcq-02",
-        "hand-mcq-03",
-        "hand-mcq-04",
-        "hand-mcq-05",
-        "hand-mcq-06"
+        "hand-mcq-16",
+        "hand-mcq-45",
+        "hand-mcq-09"
       ],
       "explanation": "本句的「hand」指「手臂末端、包括手掌和手指的身體部位；手」。",
       "sentenceIndex": 2,
@@ -1545,12 +1535,10 @@ export default {
         "hand"
       ],
       "optionReasons": {
-        "hand-mcq-01": "本句指「手臂末端、包括手掌和手指的身體部位；手」。",
-        "hand-mcq-02": "「不靠機器而用手完成；人手／手工」是「by hand」的用法，與本句語境不同。",
-        "hand-mcq-03": "「不用鍵盤而用筆直接書寫；手寫」是「write by hand」的用法，與本句語境不同。",
-        "hand-mcq-04": "「被某人用手拿著；在某人手中」是「in someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-05": "「某人的書寫字體或筆跡」是「hand — handwriting」的用法，與本句語境不同。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。"
+        "hand-mcq-01": "本句的「hand」指「手臂末端、包括手掌和手指的身體部位；手」。",
+        "hand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-01"
     },
@@ -1562,11 +1550,9 @@ export default {
       "masked": "Wash your ____ before eating.",
       "options": [
         "hand-mcq-01",
-        "hand-mcq-02",
-        "hand-mcq-03",
-        "hand-mcq-04",
-        "hand-mcq-05",
-        "hand-mcq-06"
+        "hand-mcq-16",
+        "hand-mcq-36",
+        "hand-mcq-38"
       ],
       "explanation": "本句的「hands」指「手臂末端、包括手掌和手指的身體部位；手」。",
       "sentenceIndex": 3,
@@ -1575,12 +1561,10 @@ export default {
         "hands"
       ],
       "optionReasons": {
-        "hand-mcq-01": "本句指「手臂末端、包括手掌和手指的身體部位；手」。",
-        "hand-mcq-02": "「不靠機器而用手完成；人手／手工」是「by hand」的用法，與本句語境不同。",
-        "hand-mcq-03": "「不用鍵盤而用筆直接書寫；手寫」是「write by hand」的用法，與本句語境不同。",
-        "hand-mcq-04": "「被某人用手拿著；在某人手中」是「in someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-05": "「某人的書寫字體或筆跡」是「hand — handwriting」的用法，與本句語境不同。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。"
+        "hand-mcq-01": "本句的「hands」指「手臂末端、包括手掌和手指的身體部位；手」。",
+        "hand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-01"
     },
@@ -1592,11 +1576,9 @@ export default {
       "masked": "The letter was written ____.",
       "options": [
         "hand-mcq-02",
-        "hand-mcq-01",
-        "hand-mcq-03",
-        "hand-mcq-04",
-        "hand-mcq-05",
-        "hand-mcq-06"
+        "hand-mcq-26",
+        "hand-mcq-50",
+        "hand-mcq-38"
       ],
       "explanation": "本句的「by hand」指「不靠機器而用手完成；人手／手工」。",
       "sentenceIndex": 4,
@@ -1605,12 +1587,10 @@ export default {
         "by hand"
       ],
       "optionReasons": {
-        "hand-mcq-02": "本句指「不靠機器而用手完成；人手／手工」。",
-        "hand-mcq-01": "「手臂末端、包括手掌和手指的身體部位；手」是「hand — body part」的用法，與本句語境不同。",
-        "hand-mcq-03": "「不用鍵盤而用筆直接書寫；手寫」是「write by hand」的用法，與本句語境不同。",
-        "hand-mcq-04": "「被某人用手拿著；在某人手中」是「in someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-05": "「某人的書寫字體或筆跡」是「hand — handwriting」的用法，與本句語境不同。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。"
+        "hand-mcq-02": "本句的「by hand」指「不靠機器而用手完成；人手／手工」。",
+        "hand-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-02"
     },
@@ -1622,11 +1602,9 @@ export default {
       "masked": "Each item is made ____.",
       "options": [
         "hand-mcq-02",
-        "hand-mcq-01",
-        "hand-mcq-03",
-        "hand-mcq-04",
-        "hand-mcq-05",
-        "hand-mcq-06"
+        "hand-mcq-52",
+        "hand-mcq-37",
+        "hand-mcq-66"
       ],
       "explanation": "本句的「by hand」指「不靠機器而用手完成；人手／手工」。",
       "sentenceIndex": 5,
@@ -1635,12 +1613,10 @@ export default {
         "by hand"
       ],
       "optionReasons": {
-        "hand-mcq-02": "本句指「不靠機器而用手完成；人手／手工」。",
-        "hand-mcq-01": "「手臂末端、包括手掌和手指的身體部位；手」是「hand — body part」的用法，與本句語境不同。",
-        "hand-mcq-03": "「不用鍵盤而用筆直接書寫；手寫」是「write by hand」的用法，與本句語境不同。",
-        "hand-mcq-04": "「被某人用手拿著；在某人手中」是「in someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-05": "「某人的書寫字體或筆跡」是「hand — handwriting」的用法，與本句語境不同。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。"
+        "hand-mcq-02": "本句的「by hand」指「不靠機器而用手完成；人手／手工」。",
+        "hand-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-02"
     },
@@ -1652,11 +1628,9 @@ export default {
       "masked": "She had a cup ____.",
       "options": [
         "hand-mcq-04",
-        "hand-mcq-03",
-        "hand-mcq-05",
-        "hand-mcq-02",
-        "hand-mcq-06",
-        "hand-mcq-01"
+        "hand-mcq-26",
+        "hand-mcq-67",
+        "hand-mcq-42"
       ],
       "explanation": "本句的「in her hand」指「被某人用手拿著；在某人手中」。",
       "sentenceIndex": 6,
@@ -1665,12 +1639,10 @@ export default {
         "in her hand"
       ],
       "optionReasons": {
-        "hand-mcq-04": "本句指「被某人用手拿著；在某人手中」。",
-        "hand-mcq-03": "「不用鍵盤而用筆直接書寫；手寫」是「write by hand」的用法，與本句語境不同。",
-        "hand-mcq-05": "「某人的書寫字體或筆跡」是「hand — handwriting」的用法，與本句語境不同。",
-        "hand-mcq-02": "「不靠機器而用手完成；人手／手工」是「by hand」的用法，與本句語境不同。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。",
-        "hand-mcq-01": "「手臂末端、包括手掌和手指的身體部位；手」是「hand — body part」的用法，與本句語境不同。"
+        "hand-mcq-04": "本句的「in her hand」指「被某人用手拿著；在某人手中」。",
+        "hand-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-04"
     },
@@ -1682,11 +1654,9 @@ export default {
       "masked": "The device feels surprisingly light ____.",
       "options": [
         "hand-mcq-04",
-        "hand-mcq-03",
-        "hand-mcq-05",
-        "hand-mcq-02",
-        "hand-mcq-06",
-        "hand-mcq-01"
+        "hand-mcq-41",
+        "hand-mcq-54",
+        "hand-mcq-35"
       ],
       "explanation": "本句的「in the hand」指「被某人用手拿著；在某人手中」。",
       "sentenceIndex": 7,
@@ -1695,12 +1665,10 @@ export default {
         "in the hand"
       ],
       "optionReasons": {
-        "hand-mcq-04": "本句指「被某人用手拿著；在某人手中」。",
-        "hand-mcq-03": "「不用鍵盤而用筆直接書寫；手寫」是「write by hand」的用法，與本句語境不同。",
-        "hand-mcq-05": "「某人的書寫字體或筆跡」是「hand — handwriting」的用法，與本句語境不同。",
-        "hand-mcq-02": "「不靠機器而用手完成；人手／手工」是「by hand」的用法，與本句語境不同。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。",
-        "hand-mcq-01": "「手臂末端、包括手掌和手指的身體部位；手」是「hand — body part」的用法，與本句語境不同。"
+        "hand-mcq-04": "本句的「in the hand」指「被某人用手拿著；在某人手中」。",
+        "hand-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-04"
     },
@@ -1712,11 +1680,9 @@ export default {
       "masked": "The letter was written in a neat ____.",
       "options": [
         "hand-mcq-05",
-        "hand-mcq-04",
-        "hand-mcq-06",
-        "hand-mcq-03",
-        "hand-mcq-07",
-        "hand-mcq-02"
+        "hand-mcq-09",
+        "hand-mcq-50",
+        "hand-mcq-30"
       ],
       "explanation": "本句的「hand」指「某人的書寫字體或筆跡」。",
       "sentenceIndex": 8,
@@ -1725,12 +1691,10 @@ export default {
         "hand"
       ],
       "optionReasons": {
-        "hand-mcq-05": "本句指「某人的書寫字體或筆跡」。",
-        "hand-mcq-04": "「被某人用手拿著；在某人手中」是「in someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。",
-        "hand-mcq-03": "「不用鍵盤而用筆直接書寫；手寫」是「write by hand」的用法，與本句語境不同。",
-        "hand-mcq-07": "「從事實際勞動的工人／人手」是「hand — worker」的用法，與本句語境不同。",
-        "hand-mcq-02": "「不靠機器而用手完成；人手／手工」是「by hand」的用法，與本句語境不同。"
+        "hand-mcq-05": "本句的「hand」指「某人的書寫字體或筆跡」。",
+        "hand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-05"
     },
@@ -1742,11 +1706,9 @@ export default {
       "masked": "I recognized her ____ immediately.",
       "options": [
         "hand-mcq-05",
-        "hand-mcq-04",
-        "hand-mcq-06",
-        "hand-mcq-03",
-        "hand-mcq-07",
-        "hand-mcq-02"
+        "hand-mcq-36",
+        "hand-mcq-49",
+        "hand-mcq-27"
       ],
       "explanation": "本句的「hand」指「某人的書寫字體或筆跡」。",
       "sentenceIndex": 9,
@@ -1755,12 +1717,10 @@ export default {
         "hand"
       ],
       "optionReasons": {
-        "hand-mcq-05": "本句指「某人的書寫字體或筆跡」。",
-        "hand-mcq-04": "「被某人用手拿著；在某人手中」是「in someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。",
-        "hand-mcq-03": "「不用鍵盤而用筆直接書寫；手寫」是「write by hand」的用法，與本句語境不同。",
-        "hand-mcq-07": "「從事實際勞動的工人／人手」是「hand — worker」的用法，與本句語境不同。",
-        "hand-mcq-02": "「不靠機器而用手完成；人手／手工」是「by hand」的用法，與本句語境不同。"
+        "hand-mcq-05": "本句的「hand」指「某人的書寫字體或筆跡」。",
+        "hand-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-05"
     },
@@ -1772,11 +1732,9 @@ export default {
       "masked": "The note was written ____.",
       "options": [
         "hand-mcq-05",
-        "hand-mcq-04",
-        "hand-mcq-06",
-        "hand-mcq-03",
-        "hand-mcq-07",
-        "hand-mcq-02"
+        "hand-mcq-62",
+        "hand-mcq-23",
+        "hand-mcq-10"
       ],
       "explanation": "本句的「in his own hand」指「某人的書寫字體或筆跡」。",
       "sentenceIndex": 10,
@@ -1785,12 +1743,10 @@ export default {
         "in his own hand"
       ],
       "optionReasons": {
-        "hand-mcq-05": "本句指「某人的書寫字體或筆跡」。",
-        "hand-mcq-04": "「被某人用手拿著；在某人手中」是「in someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。",
-        "hand-mcq-03": "「不用鍵盤而用筆直接書寫；手寫」是「write by hand」的用法，與本句語境不同。",
-        "hand-mcq-07": "「從事實際勞動的工人／人手」是「hand — worker」的用法，與本句語境不同。",
-        "hand-mcq-02": "「不靠機器而用手完成；人手／手工」是「by hand」的用法，與本句語境不同。"
+        "hand-mcq-05": "本句的「in his own hand」指「某人的書寫字體或筆跡」。",
+        "hand-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-05"
     },
@@ -1802,11 +1758,9 @@ export default {
       "masked": "The document contains comments ____.",
       "options": [
         "hand-mcq-05",
-        "hand-mcq-04",
-        "hand-mcq-06",
-        "hand-mcq-03",
-        "hand-mcq-07",
-        "hand-mcq-02"
+        "hand-mcq-26",
+        "hand-mcq-70",
+        "hand-mcq-69"
       ],
       "explanation": "本句的「in the author’s hand」指「某人的書寫字體或筆跡」。",
       "sentenceIndex": 11,
@@ -1815,12 +1769,10 @@ export default {
         "in the author’s hand"
       ],
       "optionReasons": {
-        "hand-mcq-05": "本句指「某人的書寫字體或筆跡」。",
-        "hand-mcq-04": "「被某人用手拿著；在某人手中」是「in someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。",
-        "hand-mcq-03": "「不用鍵盤而用筆直接書寫；手寫」是「write by hand」的用法，與本句語境不同。",
-        "hand-mcq-07": "「從事實際勞動的工人／人手」是「hand — worker」的用法，與本句語境不同。",
-        "hand-mcq-02": "「不靠機器而用手完成；人手／手工」是「by hand」的用法，與本句語境不同。"
+        "hand-mcq-05": "本句的「in the author’s hand」指「某人的書寫字體或筆跡」。",
+        "hand-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-05"
     },
@@ -1832,11 +1784,9 @@ export default {
       "masked": "The minute ____ pointed to twelve.",
       "options": [
         "hand-mcq-06",
-        "hand-mcq-05",
-        "hand-mcq-07",
-        "hand-mcq-04",
-        "hand-mcq-08",
-        "hand-mcq-03"
+        "hand-mcq-41",
+        "hand-mcq-17",
+        "hand-mcq-18"
       ],
       "explanation": "本句的「hand」指「鐘錶上指示時間的指針」。",
       "sentenceIndex": 12,
@@ -1845,12 +1795,10 @@ export default {
         "hand"
       ],
       "optionReasons": {
-        "hand-mcq-06": "本句指「鐘錶上指示時間的指針」。",
-        "hand-mcq-05": "「某人的書寫字體或筆跡」是「hand — handwriting」的用法，與本句語境不同。",
-        "hand-mcq-07": "「從事實際勞動的工人／人手」是「hand — worker」的用法，與本句語境不同。",
-        "hand-mcq-04": "「被某人用手拿著；在某人手中」是「in someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-08": "「農場僱用的工人」是「farmhand」的用法，與本句語境不同。",
-        "hand-mcq-03": "「不用鍵盤而用筆直接書寫；手寫」是「write by hand」的用法，與本句語境不同。"
+        "hand-mcq-06": "本句的「hand」指「鐘錶上指示時間的指針」。",
+        "hand-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-06"
     },
@@ -1862,11 +1810,9 @@ export default {
       "masked": "The second ____ moved around the clock face.",
       "options": [
         "hand-mcq-06",
-        "hand-mcq-05",
-        "hand-mcq-07",
-        "hand-mcq-04",
-        "hand-mcq-08",
-        "hand-mcq-03"
+        "hand-mcq-16",
+        "hand-mcq-24",
+        "hand-mcq-54"
       ],
       "explanation": "本句的「hand」指「鐘錶上指示時間的指針」。",
       "sentenceIndex": 13,
@@ -1875,12 +1821,10 @@ export default {
         "hand"
       ],
       "optionReasons": {
-        "hand-mcq-06": "本句指「鐘錶上指示時間的指針」。",
-        "hand-mcq-05": "「某人的書寫字體或筆跡」是「hand — handwriting」的用法，與本句語境不同。",
-        "hand-mcq-07": "「從事實際勞動的工人／人手」是「hand — worker」的用法，與本句語境不同。",
-        "hand-mcq-04": "「被某人用手拿著；在某人手中」是「in someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-08": "「農場僱用的工人」是「farmhand」的用法，與本句語境不同。",
-        "hand-mcq-03": "「不用鍵盤而用筆直接書寫；手寫」是「write by hand」的用法，與本句語境不同。"
+        "hand-mcq-06": "本句的「hand」指「鐘錶上指示時間的指針」。",
+        "hand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-06"
     },
@@ -1892,11 +1836,9 @@ export default {
       "masked": "The ____ was between eight and nine.",
       "options": [
         "hand-mcq-66",
-        "hand-mcq-65",
-        "hand-mcq-67",
-        "hand-mcq-64",
-        "hand-mcq-68",
-        "hand-mcq-63"
+        "hand-mcq-39",
+        "hand-mcq-22",
+        "hand-mcq-04"
       ],
       "explanation": "本句的「hour hand」指「表示時針」。",
       "sentenceIndex": 14,
@@ -1905,12 +1847,10 @@ export default {
         "hour hand"
       ],
       "optionReasons": {
-        "hand-mcq-66": "本句指「表示時針」。",
-        "hand-mcq-65": "「表示手；手掌」是「Passage meaning B — in my hand」的用法，與本句語境不同。",
-        "hand-mcq-67": "「把某事處理得很好；掌控得宜」是「27. have something well in hand」的用法，與本句語境不同。",
-        "hand-mcq-64": "「某人的手寫字／筆跡」是「handwriting」的用法，與本句語境不同。",
-        "hand-mcq-68": "「表示強硬／堅定的管理手段」是「53. a firm hand」的用法，與本句語境不同。",
-        "hand-mcq-63": "「由人手用筆而不是鍵盤寫成的」是「handwritten」的用法，與本句語境不同。"
+        "hand-mcq-66": "本句的「hour hand」指「表示時針」。",
+        "hand-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-66"
     },
@@ -1922,11 +1862,9 @@ export default {
       "masked": "The ____ moved slowly toward six.",
       "options": [
         "hand-mcq-66",
-        "hand-mcq-65",
-        "hand-mcq-67",
-        "hand-mcq-64",
-        "hand-mcq-68",
-        "hand-mcq-63"
+        "hand-mcq-45",
+        "hand-mcq-22",
+        "hand-mcq-18"
       ],
       "explanation": "本句的「minute hand」指「表示時針」。",
       "sentenceIndex": 15,
@@ -1935,12 +1873,10 @@ export default {
         "minute hand"
       ],
       "optionReasons": {
-        "hand-mcq-66": "本句指「表示時針」。",
-        "hand-mcq-65": "「表示手；手掌」是「Passage meaning B — in my hand」的用法，與本句語境不同。",
-        "hand-mcq-67": "「把某事處理得很好；掌控得宜」是「27. have something well in hand」的用法，與本句語境不同。",
-        "hand-mcq-64": "「某人的手寫字／筆跡」是「handwriting」的用法，與本句語境不同。",
-        "hand-mcq-68": "「表示強硬／堅定的管理手段」是「53. a firm hand」的用法，與本句語境不同。",
-        "hand-mcq-63": "「由人手用筆而不是鍵盤寫成的」是「handwritten」的用法，與本句語境不同。"
+        "hand-mcq-66": "本句的「minute hand」指「表示時針」。",
+        "hand-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-66"
     },
@@ -1952,11 +1888,9 @@ export default {
       "masked": "They hired several extra ____ for the harvest.",
       "options": [
         "hand-mcq-07",
-        "hand-mcq-06",
-        "hand-mcq-08",
-        "hand-mcq-05",
-        "hand-mcq-09",
-        "hand-mcq-04"
+        "hand-mcq-66",
+        "hand-mcq-23",
+        "hand-mcq-16"
       ],
       "explanation": "本句的「hands」指「從事實際勞動的工人／人手」。",
       "sentenceIndex": 16,
@@ -1965,12 +1899,10 @@ export default {
         "hands"
       ],
       "optionReasons": {
-        "hand-mcq-07": "本句指「從事實際勞動的工人／人手」。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。",
-        "hand-mcq-08": "「農場僱用的工人」是「farmhand」的用法，與本句語境不同。",
-        "hand-mcq-05": "「某人的書寫字體或筆跡」是「hand — handwriting」的用法，與本句語境不同。",
-        "hand-mcq-09": "「在船上甲板工作的船員」是「deckhand」的用法，與本句語境不同。",
-        "hand-mcq-04": "「被某人用手拿著；在某人手中」是「in someone’s hand」的用法，與本句語境不同。"
+        "hand-mcq-07": "本句的「hands」指「從事實際勞動的工人／人手」。",
+        "hand-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-07"
     },
@@ -1982,11 +1914,9 @@ export default {
       "masked": "We need another pair of ____ in the kitchen.",
       "options": [
         "hand-mcq-07",
-        "hand-mcq-06",
-        "hand-mcq-08",
-        "hand-mcq-05",
-        "hand-mcq-09",
-        "hand-mcq-04"
+        "hand-mcq-39",
+        "hand-mcq-55",
+        "hand-mcq-40"
       ],
       "explanation": "本句的「hands」指「從事實際勞動的工人／人手」。",
       "sentenceIndex": 17,
@@ -1995,12 +1925,10 @@ export default {
         "hands"
       ],
       "optionReasons": {
-        "hand-mcq-07": "本句指「從事實際勞動的工人／人手」。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。",
-        "hand-mcq-08": "「農場僱用的工人」是「farmhand」的用法，與本句語境不同。",
-        "hand-mcq-05": "「某人的書寫字體或筆跡」是「hand — handwriting」的用法，與本句語境不同。",
-        "hand-mcq-09": "「在船上甲板工作的船員」是「deckhand」的用法，與本句語境不同。",
-        "hand-mcq-04": "「被某人用手拿著；在某人手中」是「in someone’s hand」的用法，與本句語境不同。"
+        "hand-mcq-07": "本句的「hands」指「從事實際勞動的工人／人手」。",
+        "hand-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-07"
     },
@@ -2012,11 +1940,9 @@ export default {
       "masked": "He worked as a ____ when he was young.",
       "options": [
         "hand-mcq-08",
-        "hand-mcq-07",
-        "hand-mcq-09",
-        "hand-mcq-06",
-        "hand-mcq-10",
-        "hand-mcq-05"
+        "hand-mcq-54",
+        "hand-mcq-66",
+        "hand-mcq-44"
       ],
       "explanation": "本句的「farmhand」指「農場僱用的工人」。",
       "sentenceIndex": 18,
@@ -2025,12 +1951,10 @@ export default {
         "farmhand"
       ],
       "optionReasons": {
-        "hand-mcq-08": "本句指「農場僱用的工人」。",
-        "hand-mcq-07": "「從事實際勞動的工人／人手」是「hand — worker」的用法，與本句語境不同。",
-        "hand-mcq-09": "「在船上甲板工作的船員」是「deckhand」的用法，與本句語境不同。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。",
-        "hand-mcq-10": "「幫助；援手」是「hand — assistance」的用法，與本句語境不同。",
-        "hand-mcq-05": "「某人的書寫字體或筆跡」是「hand — handwriting」的用法，與本句語境不同。"
+        "hand-mcq-08": "本句的「farmhand」指「農場僱用的工人」。",
+        "hand-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-08"
     },
@@ -2042,11 +1966,9 @@ export default {
       "masked": "The farm hired several seasonal ____.",
       "options": [
         "hand-mcq-08",
-        "hand-mcq-07",
-        "hand-mcq-09",
-        "hand-mcq-06",
-        "hand-mcq-10",
-        "hand-mcq-05"
+        "hand-mcq-35",
+        "hand-mcq-14",
+        "hand-mcq-48"
       ],
       "explanation": "本句的「farmhands」指「農場僱用的工人」。",
       "sentenceIndex": 19,
@@ -2055,12 +1977,10 @@ export default {
         "farmhands"
       ],
       "optionReasons": {
-        "hand-mcq-08": "本句指「農場僱用的工人」。",
-        "hand-mcq-07": "「從事實際勞動的工人／人手」是「hand — worker」的用法，與本句語境不同。",
-        "hand-mcq-09": "「在船上甲板工作的船員」是「deckhand」的用法，與本句語境不同。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。",
-        "hand-mcq-10": "「幫助；援手」是「hand — assistance」的用法，與本句語境不同。",
-        "hand-mcq-05": "「某人的書寫字體或筆跡」是「hand — handwriting」的用法，與本句語境不同。"
+        "hand-mcq-08": "本句的「farmhands」指「農場僱用的工人」。",
+        "hand-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-08"
     },
@@ -2072,11 +1992,9 @@ export default {
       "masked": "He started working as a ____.",
       "options": [
         "hand-mcq-09",
-        "hand-mcq-08",
-        "hand-mcq-10",
-        "hand-mcq-07",
-        "hand-mcq-11",
-        "hand-mcq-06"
+        "hand-mcq-42",
+        "hand-mcq-43",
+        "hand-mcq-44"
       ],
       "explanation": "本句的「deckhand」指「在船上甲板工作的船員」。",
       "sentenceIndex": 20,
@@ -2085,12 +2003,10 @@ export default {
         "deckhand"
       ],
       "optionReasons": {
-        "hand-mcq-09": "本句指「在船上甲板工作的船員」。",
-        "hand-mcq-08": "「農場僱用的工人」是「farmhand」的用法，與本句語境不同。",
-        "hand-mcq-10": "「幫助；援手」是「hand — assistance」的用法，與本句語境不同。",
-        "hand-mcq-07": "「從事實際勞動的工人／人手」是「hand — worker」的用法，與本句語境不同。",
-        "hand-mcq-11": "「幫某人一把」是「give someone a hand — help」的用法，與本句語境不同。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。"
+        "hand-mcq-09": "本句的「deckhand」指「在船上甲板工作的船員」。",
+        "hand-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-09"
     },
@@ -2102,11 +2018,9 @@ export default {
       "masked": "The ____ prepared the ropes.",
       "options": [
         "hand-mcq-09",
-        "hand-mcq-08",
-        "hand-mcq-10",
-        "hand-mcq-07",
-        "hand-mcq-11",
-        "hand-mcq-06"
+        "hand-mcq-45",
+        "hand-mcq-37",
+        "hand-mcq-39"
       ],
       "explanation": "本句的「deckhands」指「在船上甲板工作的船員」。",
       "sentenceIndex": 21,
@@ -2115,12 +2029,10 @@ export default {
         "deckhands"
       ],
       "optionReasons": {
-        "hand-mcq-09": "本句指「在船上甲板工作的船員」。",
-        "hand-mcq-08": "「農場僱用的工人」是「farmhand」的用法，與本句語境不同。",
-        "hand-mcq-10": "「幫助；援手」是「hand — assistance」的用法，與本句語境不同。",
-        "hand-mcq-07": "「從事實際勞動的工人／人手」是「hand — worker」的用法，與本句語境不同。",
-        "hand-mcq-11": "「幫某人一把」是「give someone a hand — help」的用法，與本句語境不同。",
-        "hand-mcq-06": "「鐘錶上指示時間的指針」是「hand — clock/watch」的用法，與本句語境不同。"
+        "hand-mcq-09": "本句的「deckhands」指「在船上甲板工作的船員」。",
+        "hand-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-09"
     },
@@ -2132,11 +2044,9 @@ export default {
       "masked": "The ranch employed a ____.",
       "options": [
         "hand-mcq-10",
-        "hand-mcq-09",
-        "hand-mcq-11",
-        "hand-mcq-08",
-        "hand-mcq-12",
-        "hand-mcq-07"
+        "hand-mcq-41",
+        "hand-mcq-54",
+        "hand-mcq-26"
       ],
       "explanation": "本句的「hired hand」指「幫助；援手」。",
       "sentenceIndex": 22,
@@ -2145,12 +2055,10 @@ export default {
         "hired hand"
       ],
       "optionReasons": {
-        "hand-mcq-10": "本句指「幫助；援手」。",
-        "hand-mcq-09": "「在船上甲板工作的船員」是「deckhand」的用法，與本句語境不同。",
-        "hand-mcq-11": "「幫某人一把」是「give someone a hand — help」的用法，與本句語境不同。",
-        "hand-mcq-08": "「農場僱用的工人」是「farmhand」的用法，與本句語境不同。",
-        "hand-mcq-12": "「為某人鼓掌」是「give someone a hand — applause」的用法，與本句語境不同。",
-        "hand-mcq-07": "「從事實際勞動的工人／人手」是「hand — worker」的用法，與本句語境不同。"
+        "hand-mcq-10": "本句的「hired hand」指「幫助；援手」。",
+        "hand-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-10"
     },
@@ -2162,11 +2070,9 @@ export default {
       "masked": "He began as a ____ before managing the farm.",
       "options": [
         "hand-mcq-10",
-        "hand-mcq-09",
-        "hand-mcq-11",
-        "hand-mcq-08",
-        "hand-mcq-12",
-        "hand-mcq-07"
+        "hand-mcq-27",
+        "hand-mcq-55",
+        "hand-mcq-33"
       ],
       "explanation": "本句的「hired hand」指「幫助；援手」。",
       "sentenceIndex": 23,
@@ -2175,12 +2081,10 @@ export default {
         "hired hand"
       ],
       "optionReasons": {
-        "hand-mcq-10": "本句指「幫助；援手」。",
-        "hand-mcq-09": "「在船上甲板工作的船員」是「deckhand」的用法，與本句語境不同。",
-        "hand-mcq-11": "「幫某人一把」是「give someone a hand — help」的用法，與本句語境不同。",
-        "hand-mcq-08": "「農場僱用的工人」是「farmhand」的用法，與本句語境不同。",
-        "hand-mcq-12": "「為某人鼓掌」是「give someone a hand — applause」的用法，與本句語境不同。",
-        "hand-mcq-07": "「從事實際勞動的工人／人手」是「hand — worker」的用法，與本句語境不同。"
+        "hand-mcq-10": "本句的「hired hand」指「幫助；援手」。",
+        "hand-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-10"
     },
@@ -2192,11 +2096,9 @@ export default {
       "masked": "Could you give me a ____?",
       "options": [
         "hand-mcq-10",
-        "hand-mcq-09",
-        "hand-mcq-11",
-        "hand-mcq-08",
-        "hand-mcq-12",
-        "hand-mcq-07"
+        "hand-mcq-51",
+        "hand-mcq-41",
+        "hand-mcq-29"
       ],
       "explanation": "本句的「hand」指「幫助；援手」。",
       "sentenceIndex": 24,
@@ -2205,12 +2107,10 @@ export default {
         "hand"
       ],
       "optionReasons": {
-        "hand-mcq-10": "本句指「幫助；援手」。",
-        "hand-mcq-09": "「在船上甲板工作的船員」是「deckhand」的用法，與本句語境不同。",
-        "hand-mcq-11": "「幫某人一把」是「give someone a hand — help」的用法，與本句語境不同。",
-        "hand-mcq-08": "「農場僱用的工人」是「farmhand」的用法，與本句語境不同。",
-        "hand-mcq-12": "「為某人鼓掌」是「give someone a hand — applause」的用法，與本句語境不同。",
-        "hand-mcq-07": "「從事實際勞動的工人／人手」是「hand — worker」的用法，與本句語境不同。"
+        "hand-mcq-10": "本句的「hand」指「幫助；援手」。",
+        "hand-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-10"
     },
@@ -2222,11 +2122,9 @@ export default {
       "masked": "Thanks for lending me a ____.",
       "options": [
         "hand-mcq-10",
-        "hand-mcq-09",
-        "hand-mcq-11",
-        "hand-mcq-08",
-        "hand-mcq-12",
-        "hand-mcq-07"
+        "hand-mcq-30",
+        "hand-mcq-45",
+        "hand-mcq-44"
       ],
       "explanation": "本句的「hand」指「幫助；援手」。",
       "sentenceIndex": 25,
@@ -2235,12 +2133,10 @@ export default {
         "hand"
       ],
       "optionReasons": {
-        "hand-mcq-10": "本句指「幫助；援手」。",
-        "hand-mcq-09": "「在船上甲板工作的船員」是「deckhand」的用法，與本句語境不同。",
-        "hand-mcq-11": "「幫某人一把」是「give someone a hand — help」的用法，與本句語境不同。",
-        "hand-mcq-08": "「農場僱用的工人」是「farmhand」的用法，與本句語境不同。",
-        "hand-mcq-12": "「為某人鼓掌」是「give someone a hand — applause」的用法，與本句語境不同。",
-        "hand-mcq-07": "「從事實際勞動的工人／人手」是「hand — worker」的用法，與本句語境不同。"
+        "hand-mcq-10": "本句的「hand」指「幫助；援手」。",
+        "hand-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-10"
     },
@@ -2252,11 +2148,9 @@ export default {
       "masked": "Everyone ____ with the preparations.",
       "options": [
         "hand-mcq-13",
-        "hand-mcq-12",
-        "hand-mcq-14",
-        "hand-mcq-11",
-        "hand-mcq-15",
-        "hand-mcq-10"
+        "hand-mcq-54",
+        "hand-mcq-48",
+        "hand-mcq-42"
       ],
       "explanation": "本句的「lent a hand」指「幫忙；伸出援手」。",
       "sentenceIndex": 26,
@@ -2265,12 +2159,10 @@ export default {
         "lent a hand"
       ],
       "optionReasons": {
-        "hand-mcq-13": "本句指「幫忙；伸出援手」。",
-        "hand-mcq-12": "「為某人鼓掌」是「give someone a hand — applause」的用法，與本句語境不同。",
-        "hand-mcq-14": "「實際的協助／援手」是「helping hand」的用法，與本句語境不同。",
-        "hand-mcq-11": "「幫某人一把」是「give someone a hand — help」的用法，與本句語境不同。",
-        "hand-mcq-15": "「由某人負責、控制或照顧」是「in someone’s hands」的用法，與本句語境不同。",
-        "hand-mcq-10": "「幫助；援手」是「hand — assistance」的用法，與本句語境不同。"
+        "hand-mcq-13": "本句的「lent a hand」指「幫忙；伸出援手」。",
+        "hand-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-13"
     },
@@ -2282,11 +2174,9 @@ export default {
       "masked": "Could you ____ for a minute?",
       "options": [
         "hand-mcq-13",
-        "hand-mcq-12",
-        "hand-mcq-14",
-        "hand-mcq-11",
-        "hand-mcq-15",
-        "hand-mcq-10"
+        "hand-mcq-40",
+        "hand-mcq-16",
+        "hand-mcq-53"
       ],
       "explanation": "本句的「lend me a hand」指「幫忙；伸出援手」。",
       "sentenceIndex": 27,
@@ -2295,12 +2185,10 @@ export default {
         "lend me a hand"
       ],
       "optionReasons": {
-        "hand-mcq-13": "本句指「幫忙；伸出援手」。",
-        "hand-mcq-12": "「為某人鼓掌」是「give someone a hand — applause」的用法，與本句語境不同。",
-        "hand-mcq-14": "「實際的協助／援手」是「helping hand」的用法，與本句語境不同。",
-        "hand-mcq-11": "「幫某人一把」是「give someone a hand — help」的用法，與本句語境不同。",
-        "hand-mcq-15": "「由某人負責、控制或照顧」是「in someone’s hands」的用法，與本句語境不同。",
-        "hand-mcq-10": "「幫助；援手」是「hand — assistance」的用法，與本句語境不同。"
+        "hand-mcq-13": "本句的「lend me a hand」指「幫忙；伸出援手」。",
+        "hand-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-13"
     },
@@ -2312,11 +2200,9 @@ export default {
       "masked": "She offered a ____.",
       "options": [
         "hand-mcq-14",
-        "hand-mcq-13",
-        "hand-mcq-15",
-        "hand-mcq-12",
-        "hand-mcq-16",
-        "hand-mcq-11"
+        "hand-mcq-34",
+        "hand-mcq-50",
+        "hand-mcq-12"
       ],
       "explanation": "本句的「helping hand」指「實際的協助／援手」。",
       "sentenceIndex": 28,
@@ -2325,12 +2211,10 @@ export default {
         "helping hand"
       ],
       "optionReasons": {
-        "hand-mcq-14": "本句指「實際的協助／援手」。",
-        "hand-mcq-13": "「幫忙；伸出援手」是「lend a hand」的用法，與本句語境不同。",
-        "hand-mcq-15": "「由某人負責、控制或照顧」是「in someone’s hands」的用法，與本句語境不同。",
-        "hand-mcq-12": "「為某人鼓掌」是「give someone a hand — applause」的用法，與本句語境不同。",
-        "hand-mcq-16": "「由可靠、有能力的人處理或照顧」是「in safe/capable hands」的用法，與本句語境不同。",
-        "hand-mcq-11": "「幫某人一把」是「give someone a hand — help」的用法，與本句語境不同。"
+        "hand-mcq-14": "本句的「helping hand」指「實際的協助／援手」。",
+        "hand-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-14"
     },
@@ -2342,11 +2226,9 @@ export default {
       "masked": "Everyone needs a ____ sometimes.",
       "options": [
         "hand-mcq-14",
-        "hand-mcq-13",
-        "hand-mcq-15",
-        "hand-mcq-12",
-        "hand-mcq-16",
-        "hand-mcq-11"
+        "hand-mcq-28",
+        "hand-mcq-39",
+        "hand-mcq-40"
       ],
       "explanation": "本句的「helping hand」指「實際的協助／援手」。",
       "sentenceIndex": 29,
@@ -2355,12 +2237,10 @@ export default {
         "helping hand"
       ],
       "optionReasons": {
-        "hand-mcq-14": "本句指「實際的協助／援手」。",
-        "hand-mcq-13": "「幫忙；伸出援手」是「lend a hand」的用法，與本句語境不同。",
-        "hand-mcq-15": "「由某人負責、控制或照顧」是「in someone’s hands」的用法，與本句語境不同。",
-        "hand-mcq-12": "「為某人鼓掌」是「give someone a hand — applause」的用法，與本句語境不同。",
-        "hand-mcq-16": "「由可靠、有能力的人處理或照顧」是「in safe/capable hands」的用法，與本句語境不同。",
-        "hand-mcq-11": "「幫某人一把」是「give someone a hand — help」的用法，與本句語境不同。"
+        "hand-mcq-14": "本句的「helping hand」指「實際的協助／援手」。",
+        "hand-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-14"
     },
@@ -2372,11 +2252,9 @@ export default {
       "masked": "The performer received a big ____.",
       "options": [
         "hand-mcq-12",
-        "hand-mcq-11",
-        "hand-mcq-13",
-        "hand-mcq-10",
-        "hand-mcq-14",
-        "hand-mcq-09"
+        "hand-mcq-68",
+        "hand-mcq-46",
+        "hand-mcq-41"
       ],
       "explanation": "本句的「hand」指「為某人鼓掌」。",
       "sentenceIndex": 30,
@@ -2385,12 +2263,10 @@ export default {
         "hand"
       ],
       "optionReasons": {
-        "hand-mcq-12": "本句指「為某人鼓掌」。",
-        "hand-mcq-11": "「幫某人一把」是「give someone a hand — help」的用法，與本句語境不同。",
-        "hand-mcq-13": "「幫忙；伸出援手」是「lend a hand」的用法，與本句語境不同。",
-        "hand-mcq-10": "「幫助；援手」是「hand — assistance」的用法，與本句語境不同。",
-        "hand-mcq-14": "「實際的協助／援手」是「helping hand」的用法，與本句語境不同。",
-        "hand-mcq-09": "「在船上甲板工作的船員」是「deckhand」的用法，與本句語境不同。"
+        "hand-mcq-12": "本句的「hand」指「為某人鼓掌」。",
+        "hand-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-12"
     },
@@ -2402,11 +2278,9 @@ export default {
       "masked": "Give the volunteers a ____.",
       "options": [
         "hand-mcq-12",
-        "hand-mcq-11",
-        "hand-mcq-13",
-        "hand-mcq-10",
-        "hand-mcq-14",
-        "hand-mcq-09"
+        "hand-mcq-29",
+        "hand-mcq-42",
+        "hand-mcq-50"
       ],
       "explanation": "本句的「hand」指「為某人鼓掌」。",
       "sentenceIndex": 31,
@@ -2415,12 +2289,10 @@ export default {
         "hand"
       ],
       "optionReasons": {
-        "hand-mcq-12": "本句指「為某人鼓掌」。",
-        "hand-mcq-11": "「幫某人一把」是「give someone a hand — help」的用法，與本句語境不同。",
-        "hand-mcq-13": "「幫忙；伸出援手」是「lend a hand」的用法，與本句語境不同。",
-        "hand-mcq-10": "「幫助；援手」是「hand — assistance」的用法，與本句語境不同。",
-        "hand-mcq-14": "「實際的協助／援手」是「helping hand」的用法，與本句語境不同。",
-        "hand-mcq-09": "「在船上甲板工作的船員」是「deckhand」的用法，與本句語境不同。"
+        "hand-mcq-12": "本句的「hand」指「為某人鼓掌」。",
+        "hand-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-12"
     },
@@ -2432,11 +2304,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "hand-mcq-12",
-        "hand-mcq-11",
-        "hand-mcq-13",
-        "hand-mcq-10",
-        "hand-mcq-14",
-        "hand-mcq-09"
+        "hand-mcq-26",
+        "hand-mcq-23",
+        "hand-mcq-49"
       ],
       "explanation": "本句的「give our speaker a big hand」指「為某人鼓掌」。",
       "sentenceIndex": 32,
@@ -2445,12 +2315,10 @@ export default {
         "give our speaker a big hand"
       ],
       "optionReasons": {
-        "hand-mcq-12": "本句指「為某人鼓掌」。",
-        "hand-mcq-11": "「幫某人一把」是「give someone a hand — help」的用法，與本句語境不同。",
-        "hand-mcq-13": "「幫忙；伸出援手」是「lend a hand」的用法，與本句語境不同。",
-        "hand-mcq-10": "「幫助；援手」是「hand — assistance」的用法，與本句語境不同。",
-        "hand-mcq-14": "「實際的協助／援手」是「helping hand」的用法，與本句語境不同。",
-        "hand-mcq-09": "「在船上甲板工作的船員」是「deckhand」的用法，與本句語境不同。"
+        "hand-mcq-12": "本句的「give our speaker a big hand」指「為某人鼓掌」。",
+        "hand-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-12"
     },
@@ -2462,11 +2330,9 @@ export default {
       "masked": "The audience ____.",
       "options": [
         "hand-mcq-12",
-        "hand-mcq-11",
-        "hand-mcq-13",
-        "hand-mcq-10",
-        "hand-mcq-14",
-        "hand-mcq-09"
+        "hand-mcq-40",
+        "hand-mcq-16",
+        "hand-mcq-55"
       ],
       "explanation": "本句的「gave the band a big hand」指「為某人鼓掌」。",
       "sentenceIndex": 33,
@@ -2475,12 +2341,10 @@ export default {
         "gave the band a big hand"
       ],
       "optionReasons": {
-        "hand-mcq-12": "本句指「為某人鼓掌」。",
-        "hand-mcq-11": "「幫某人一把」是「give someone a hand — help」的用法，與本句語境不同。",
-        "hand-mcq-13": "「幫忙；伸出援手」是「lend a hand」的用法，與本句語境不同。",
-        "hand-mcq-10": "「幫助；援手」是「hand — assistance」的用法，與本句語境不同。",
-        "hand-mcq-14": "「實際的協助／援手」是「helping hand」的用法，與本句語境不同。",
-        "hand-mcq-09": "「在船上甲板工作的船員」是「deckhand」的用法，與本句語境不同。"
+        "hand-mcq-12": "本句的「gave the band a big hand」指「為某人鼓掌」。",
+        "hand-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-12"
     },
@@ -2492,11 +2356,9 @@ export default {
       "masked": "The decision is now ____.",
       "options": [
         "hand-mcq-15",
-        "hand-mcq-14",
-        "hand-mcq-16",
-        "hand-mcq-13",
-        "hand-mcq-17",
-        "hand-mcq-12"
+        "hand-mcq-48",
+        "hand-mcq-40",
+        "hand-mcq-22"
       ],
       "explanation": "本句的「in your hands」指「由某人負責、控制或照顧」。",
       "sentenceIndex": 34,
@@ -2505,12 +2367,10 @@ export default {
         "in your hands"
       ],
       "optionReasons": {
-        "hand-mcq-15": "本句指「由某人負責、控制或照顧」。",
-        "hand-mcq-14": "「實際的協助／援手」是「helping hand」的用法，與本句語境不同。",
-        "hand-mcq-16": "「由可靠、有能力的人處理或照顧」是「in safe/capable hands」的用法，與本句語境不同。",
-        "hand-mcq-13": "「幫忙；伸出援手」是「lend a hand」的用法，與本句語境不同。",
-        "hand-mcq-17": "「所有權／控制權從一方轉到另一方；易手」是「change hands」的用法，與本句語境不同。",
-        "hand-mcq-12": "「為某人鼓掌」是「give someone a hand — applause」的用法，與本句語境不同。"
+        "hand-mcq-15": "本句的「in your hands」指「由某人負責、控制或照顧」。",
+        "hand-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-15"
     },
@@ -2522,11 +2382,9 @@ export default {
       "masked": "The project is ____.",
       "options": [
         "hand-mcq-15",
-        "hand-mcq-14",
-        "hand-mcq-16",
-        "hand-mcq-13",
-        "hand-mcq-17",
-        "hand-mcq-12"
+        "hand-mcq-69",
+        "hand-mcq-24",
+        "hand-mcq-70"
       ],
       "explanation": "本句的「in capable hands」指「由某人負責、控制或照顧」。",
       "sentenceIndex": 35,
@@ -2535,12 +2393,10 @@ export default {
         "in capable hands"
       ],
       "optionReasons": {
-        "hand-mcq-15": "本句指「由某人負責、控制或照顧」。",
-        "hand-mcq-14": "「實際的協助／援手」是「helping hand」的用法，與本句語境不同。",
-        "hand-mcq-16": "「由可靠、有能力的人處理或照顧」是「in safe/capable hands」的用法，與本句語境不同。",
-        "hand-mcq-13": "「幫忙；伸出援手」是「lend a hand」的用法，與本句語境不同。",
-        "hand-mcq-17": "「所有權／控制權從一方轉到另一方；易手」是「change hands」的用法，與本句語境不同。",
-        "hand-mcq-12": "「為某人鼓掌」是「give someone a hand — applause」的用法，與本句語境不同。"
+        "hand-mcq-15": "本句的「in capable hands」指「由某人負責、控制或照顧」。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-15"
     },
@@ -2552,11 +2408,9 @@ export default {
       "masked": "Don’t worry—the children are ____.",
       "options": [
         "hand-mcq-16",
-        "hand-mcq-15",
-        "hand-mcq-17",
-        "hand-mcq-14",
-        "hand-mcq-18",
-        "hand-mcq-13"
+        "hand-mcq-06",
+        "hand-mcq-24",
+        "hand-mcq-34"
       ],
       "explanation": "本句的「in safe hands」指「由可靠、有能力的人處理或照顧」。",
       "sentenceIndex": 36,
@@ -2565,12 +2419,10 @@ export default {
         "in safe hands"
       ],
       "optionReasons": {
-        "hand-mcq-16": "本句指「由可靠、有能力的人處理或照顧」。",
-        "hand-mcq-15": "「由某人負責、控制或照顧」是「in someone’s hands」的用法，與本句語境不同。",
-        "hand-mcq-17": "「所有權／控制權從一方轉到另一方；易手」是「change hands」的用法，與本句語境不同。",
-        "hand-mcq-14": "「實際的協助／援手」是「helping hand」的用法，與本句語境不同。",
-        "hand-mcq-18": "「手邊現有、可立即使用」是「on hand」的用法，與本句語境不同。",
-        "hand-mcq-13": "「幫忙；伸出援手」是「lend a hand」的用法，與本句語境不同。"
+        "hand-mcq-16": "本句的「in safe hands」指「由可靠、有能力的人處理或照顧」。",
+        "hand-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-16"
     },
@@ -2582,11 +2434,9 @@ export default {
       "masked": "The company is ____.",
       "options": [
         "hand-mcq-16",
-        "hand-mcq-15",
-        "hand-mcq-17",
-        "hand-mcq-14",
-        "hand-mcq-18",
-        "hand-mcq-13"
+        "hand-mcq-54",
+        "hand-mcq-33",
+        "hand-mcq-01"
       ],
       "explanation": "本句的「in capable hands」指「由可靠、有能力的人處理或照顧」。",
       "sentenceIndex": 37,
@@ -2595,12 +2445,10 @@ export default {
         "in capable hands"
       ],
       "optionReasons": {
-        "hand-mcq-16": "本句指「由可靠、有能力的人處理或照顧」。",
-        "hand-mcq-15": "「由某人負責、控制或照顧」是「in someone’s hands」的用法，與本句語境不同。",
-        "hand-mcq-17": "「所有權／控制權從一方轉到另一方；易手」是「change hands」的用法，與本句語境不同。",
-        "hand-mcq-14": "「實際的協助／援手」是「helping hand」的用法，與本句語境不同。",
-        "hand-mcq-18": "「手邊現有、可立即使用」是「on hand」的用法，與本句語境不同。",
-        "hand-mcq-13": "「幫忙；伸出援手」是「lend a hand」的用法，與本句語境不同。"
+        "hand-mcq-16": "本句的「in capable hands」指「由可靠、有能力的人處理或照顧」。",
+        "hand-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-16"
     },
@@ -2612,11 +2460,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "hand-mcq-15",
-        "hand-mcq-14",
-        "hand-mcq-16",
-        "hand-mcq-13",
-        "hand-mcq-17",
-        "hand-mcq-12"
+        "hand-mcq-10",
+        "hand-mcq-69",
+        "hand-mcq-55"
       ],
       "explanation": "本句的「put the decision in her hands」指「由某人負責、控制或照顧」。",
       "sentenceIndex": 38,
@@ -2625,12 +2471,10 @@ export default {
         "put the decision in her hands"
       ],
       "optionReasons": {
-        "hand-mcq-15": "本句指「由某人負責、控制或照顧」。",
-        "hand-mcq-14": "「實際的協助／援手」是「helping hand」的用法，與本句語境不同。",
-        "hand-mcq-16": "「由可靠、有能力的人處理或照顧」是「in safe/capable hands」的用法，與本句語境不同。",
-        "hand-mcq-13": "「幫忙；伸出援手」是「lend a hand」的用法，與本句語境不同。",
-        "hand-mcq-17": "「所有權／控制權從一方轉到另一方；易手」是「change hands」的用法，與本句語境不同。",
-        "hand-mcq-12": "「為某人鼓掌」是「give someone a hand — applause」的用法，與本句語境不同。"
+        "hand-mcq-15": "本句的「put the decision in her hands」指「由某人負責、控制或照顧」。",
+        "hand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-15"
     },
@@ -2642,11 +2486,9 @@ export default {
       "masked": "I’m happy to ____.",
       "options": [
         "hand-mcq-15",
-        "hand-mcq-14",
-        "hand-mcq-16",
-        "hand-mcq-13",
-        "hand-mcq-17",
-        "hand-mcq-12"
+        "hand-mcq-46",
+        "hand-mcq-37",
+        "hand-mcq-20"
       ],
       "explanation": "本句的「put the project in your hands」指「由某人負責、控制或照顧」。",
       "sentenceIndex": 39,
@@ -2655,12 +2497,10 @@ export default {
         "put the project in your hands"
       ],
       "optionReasons": {
-        "hand-mcq-15": "本句指「由某人負責、控制或照顧」。",
-        "hand-mcq-14": "「實際的協助／援手」是「helping hand」的用法，與本句語境不同。",
-        "hand-mcq-16": "「由可靠、有能力的人處理或照顧」是「in safe/capable hands」的用法，與本句語境不同。",
-        "hand-mcq-13": "「幫忙；伸出援手」是「lend a hand」的用法，與本句語境不同。",
-        "hand-mcq-17": "「所有權／控制權從一方轉到另一方；易手」是「change hands」的用法，與本句語境不同。",
-        "hand-mcq-12": "「為某人鼓掌」是「give someone a hand — applause」的用法，與本句語境不同。"
+        "hand-mcq-15": "本句的「put the project in your hands」指「由某人負責、控制或照顧」。",
+        "hand-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-15"
     },
@@ -2672,11 +2512,9 @@ export default {
       "masked": "The building has ____ several times.",
       "options": [
         "hand-mcq-17",
-        "hand-mcq-16",
-        "hand-mcq-18",
-        "hand-mcq-15",
-        "hand-mcq-19",
-        "hand-mcq-14"
+        "hand-mcq-06",
+        "hand-mcq-22",
+        "hand-mcq-36"
       ],
       "explanation": "本句的「changed hands」指「所有權／控制權從一方轉到另一方；易手」。",
       "sentenceIndex": 40,
@@ -2685,12 +2523,10 @@ export default {
         "changed hands"
       ],
       "optionReasons": {
-        "hand-mcq-17": "本句指「所有權／控制權從一方轉到另一方；易手」。",
-        "hand-mcq-16": "「由可靠、有能力的人處理或照顧」是「in safe/capable hands」的用法，與本句語境不同。",
-        "hand-mcq-18": "「手邊現有、可立即使用」是「on hand」的用法，與本句語境不同。",
-        "hand-mcq-15": "「由某人負責、控制或照顧」是「in someone’s hands」的用法，與本句語境不同。",
-        "hand-mcq-19": "「在附近／手邊；也可指某事即將到來」是「at hand」的用法，與本句語境不同。",
-        "hand-mcq-14": "「實際的協助／援手」是「helping hand」的用法，與本句語境不同。"
+        "hand-mcq-17": "本句的「changed hands」指「所有權／控制權從一方轉到另一方；易手」。",
+        "hand-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-17"
     },
@@ -2702,11 +2538,9 @@ export default {
       "masked": "The company ____ last year.",
       "options": [
         "hand-mcq-17",
-        "hand-mcq-16",
-        "hand-mcq-18",
-        "hand-mcq-15",
-        "hand-mcq-19",
-        "hand-mcq-14"
+        "hand-mcq-40",
+        "hand-mcq-09",
+        "hand-mcq-05"
       ],
       "explanation": "本句的「changed hands」指「所有權／控制權從一方轉到另一方；易手」。",
       "sentenceIndex": 41,
@@ -2715,12 +2549,10 @@ export default {
         "changed hands"
       ],
       "optionReasons": {
-        "hand-mcq-17": "本句指「所有權／控制權從一方轉到另一方；易手」。",
-        "hand-mcq-16": "「由可靠、有能力的人處理或照顧」是「in safe/capable hands」的用法，與本句語境不同。",
-        "hand-mcq-18": "「手邊現有、可立即使用」是「on hand」的用法，與本句語境不同。",
-        "hand-mcq-15": "「由某人負責、控制或照顧」是「in someone’s hands」的用法，與本句語境不同。",
-        "hand-mcq-19": "「在附近／手邊；也可指某事即將到來」是「at hand」的用法，與本句語境不同。",
-        "hand-mcq-14": "「實際的協助／援手」是「helping hand」的用法，與本句語境不同。"
+        "hand-mcq-17": "本句的「changed hands」指「所有權／控制權從一方轉到另一方；易手」。",
+        "hand-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-17"
     },
@@ -2732,11 +2564,9 @@ export default {
       "masked": "Keep some cash ____.",
       "options": [
         "hand-mcq-18",
-        "hand-mcq-17",
-        "hand-mcq-19",
-        "hand-mcq-16",
-        "hand-mcq-20",
-        "hand-mcq-15"
+        "hand-mcq-08",
+        "hand-mcq-69",
+        "hand-mcq-36"
       ],
       "explanation": "本句的「on hand」指「手邊現有、可立即使用」。",
       "sentenceIndex": 42,
@@ -2745,12 +2575,10 @@ export default {
         "on hand"
       ],
       "optionReasons": {
-        "hand-mcq-18": "本句指「手邊現有、可立即使用」。",
-        "hand-mcq-17": "「所有權／控制權從一方轉到另一方；易手」是「change hands」的用法，與本句語境不同。",
-        "hand-mcq-19": "「在附近／手邊；也可指某事即將到來」是「at hand」的用法，與本句語境不同。",
-        "hand-mcq-16": "「由可靠、有能力的人處理或照顧」是「in safe/capable hands」的用法，與本句語境不同。",
-        "hand-mcq-20": "「英式：在手邊、可立即取得」是「to hand」的用法，與本句語境不同。",
-        "hand-mcq-15": "「由某人負責、控制或照顧」是「in someone’s hands」的用法，與本句語境不同。"
+        "hand-mcq-18": "本句的「on hand」指「手邊現有、可立即使用」。",
+        "hand-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-18"
     },
@@ -2762,11 +2590,9 @@ export default {
       "masked": "We always have extra supplies ____.",
       "options": [
         "hand-mcq-18",
-        "hand-mcq-17",
-        "hand-mcq-19",
-        "hand-mcq-16",
-        "hand-mcq-20",
-        "hand-mcq-15"
+        "hand-mcq-05",
+        "hand-mcq-35",
+        "hand-mcq-66"
       ],
       "explanation": "本句的「on hand」指「手邊現有、可立即使用」。",
       "sentenceIndex": 43,
@@ -2775,12 +2601,10 @@ export default {
         "on hand"
       ],
       "optionReasons": {
-        "hand-mcq-18": "本句指「手邊現有、可立即使用」。",
-        "hand-mcq-17": "「所有權／控制權從一方轉到另一方；易手」是「change hands」的用法，與本句語境不同。",
-        "hand-mcq-19": "「在附近／手邊；也可指某事即將到來」是「at hand」的用法，與本句語境不同。",
-        "hand-mcq-16": "「由可靠、有能力的人處理或照顧」是「in safe/capable hands」的用法，與本句語境不同。",
-        "hand-mcq-20": "「英式：在手邊、可立即取得」是「to hand」的用法，與本句語境不同。",
-        "hand-mcq-15": "「由某人負責、控制或照顧」是「in someone’s hands」的用法，與本句語境不同。"
+        "hand-mcq-18": "本句的「on hand」指「手邊現有、可立即使用」。",
+        "hand-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-18"
     },
@@ -2792,11 +2616,9 @@ export default {
       "masked": "Keep a pen ____.",
       "options": [
         "hand-mcq-20",
-        "hand-mcq-19",
-        "hand-mcq-21",
-        "hand-mcq-18",
-        "hand-mcq-22",
-        "hand-mcq-17"
+        "hand-mcq-51",
+        "hand-mcq-54",
+        "hand-mcq-39"
       ],
       "explanation": "本句的「to hand」指「英式：在手邊、可立即取得」。",
       "sentenceIndex": 44,
@@ -2805,12 +2627,10 @@ export default {
         "to hand"
       ],
       "optionReasons": {
-        "hand-mcq-20": "本句指「英式：在手邊、可立即取得」。",
-        "hand-mcq-19": "「在附近／手邊；也可指某事即將到來」是「at hand」的用法，與本句語境不同。",
-        "hand-mcq-21": "「處於控制中；正在處理」是「in hand」的用法，與本句語境不同。",
-        "hand-mcq-18": "「手邊現有、可立即使用」是「on hand」的用法，與本句語境不同。",
-        "hand-mcq-22": "「目前需要處理的事情／眼前任務」是「task/matter at hand」的用法，與本句語境不同。",
-        "hand-mcq-17": "「所有權／控制權從一方轉到另一方；易手」是「change hands」的用法，與本句語境不同。"
+        "hand-mcq-20": "本句的「to hand」指「英式：在手邊、可立即取得」。",
+        "hand-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-20"
     },
@@ -2822,11 +2642,9 @@ export default {
       "masked": "I didn’t have the information ____.",
       "options": [
         "hand-mcq-20",
-        "hand-mcq-19",
-        "hand-mcq-21",
-        "hand-mcq-18",
-        "hand-mcq-22",
-        "hand-mcq-17"
+        "hand-mcq-23",
+        "hand-mcq-09",
+        "hand-mcq-48"
       ],
       "explanation": "本句的「to hand」指「英式：在手邊、可立即取得」。",
       "sentenceIndex": 45,
@@ -2835,12 +2653,10 @@ export default {
         "to hand"
       ],
       "optionReasons": {
-        "hand-mcq-20": "本句指「英式：在手邊、可立即取得」。",
-        "hand-mcq-19": "「在附近／手邊；也可指某事即將到來」是「at hand」的用法，與本句語境不同。",
-        "hand-mcq-21": "「處於控制中；正在處理」是「in hand」的用法，與本句語境不同。",
-        "hand-mcq-18": "「手邊現有、可立即使用」是「on hand」的用法，與本句語境不同。",
-        "hand-mcq-22": "「目前需要處理的事情／眼前任務」是「task/matter at hand」的用法，與本句語境不同。",
-        "hand-mcq-17": "「所有權／控制權從一方轉到另一方；易手」是「change hands」的用法，與本句語境不同。"
+        "hand-mcq-20": "本句的「to hand」指「英式：在手邊、可立即取得」。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-20"
     },
@@ -2852,11 +2668,9 @@ export default {
       "masked": "She has the preparations ____.",
       "options": [
         "hand-mcq-67",
-        "hand-mcq-66",
-        "hand-mcq-68",
-        "hand-mcq-65",
-        "hand-mcq-69",
-        "hand-mcq-64"
+        "hand-mcq-07",
+        "hand-mcq-24",
+        "hand-mcq-23"
       ],
       "explanation": "本句的「well in hand」指「把某事處理得很好；掌控得宜」。",
       "sentenceIndex": 46,
@@ -2865,12 +2679,10 @@ export default {
         "well in hand"
       ],
       "optionReasons": {
-        "hand-mcq-67": "本句指「把某事處理得很好；掌控得宜」。",
-        "hand-mcq-66": "「表示時針」是「8. hour hand / minute hand / second hand」的用法，與本句語境不同。",
-        "hand-mcq-68": "「表示強硬／堅定的管理手段」是「53. a firm hand」的用法，與本句語境不同。",
-        "hand-mcq-65": "「表示手；手掌」是「Passage meaning B — in my hand」的用法，與本句語境不同。",
-        "hand-mcq-69": "「表示無微不至地伺候；服侍周到」是「64. wait on someone hand and foot」的用法，與本句語境不同。",
-        "hand-mcq-64": "「某人的手寫字／筆跡」是「handwriting」的用法，與本句語境不同。"
+        "hand-mcq-67": "本句的「well in hand」指「把某事處理得很好；掌控得宜」。",
+        "hand-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-67"
     },
@@ -2882,11 +2694,9 @@ export default {
       "masked": "The team has the situation ____.",
       "options": [
         "hand-mcq-67",
-        "hand-mcq-66",
-        "hand-mcq-68",
-        "hand-mcq-65",
+        "hand-mcq-55",
         "hand-mcq-69",
-        "hand-mcq-64"
+        "hand-mcq-23"
       ],
       "explanation": "本句的「well in hand」指「把某事處理得很好；掌控得宜」。",
       "sentenceIndex": 47,
@@ -2895,12 +2705,10 @@ export default {
         "well in hand"
       ],
       "optionReasons": {
-        "hand-mcq-67": "本句指「把某事處理得很好；掌控得宜」。",
-        "hand-mcq-66": "「表示時針」是「8. hour hand / minute hand / second hand」的用法，與本句語境不同。",
-        "hand-mcq-68": "「表示強硬／堅定的管理手段」是「53. a firm hand」的用法，與本句語境不同。",
-        "hand-mcq-65": "「表示手；手掌」是「Passage meaning B — in my hand」的用法，與本句語境不同。",
-        "hand-mcq-69": "「表示無微不至地伺候；服侍周到」是「64. wait on someone hand and foot」的用法，與本句語境不同。",
-        "hand-mcq-64": "「某人的手寫字／筆跡」是「handwriting」的用法，與本句語境不同。"
+        "hand-mcq-67": "本句的「well in hand」指「把某事處理得很好；掌控得宜」。",
+        "hand-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-67"
     },
@@ -2912,11 +2720,9 @@ export default {
       "masked": "Let’s focus on the ____.",
       "options": [
         "hand-mcq-22",
-        "hand-mcq-21",
-        "hand-mcq-23",
-        "hand-mcq-20",
-        "hand-mcq-24",
-        "hand-mcq-19"
+        "hand-mcq-35",
+        "hand-mcq-29",
+        "hand-mcq-64"
       ],
       "explanation": "本句的「task at hand」指「目前需要處理的事情／眼前任務」。",
       "sentenceIndex": 48,
@@ -2925,12 +2731,10 @@ export default {
         "task at hand"
       ],
       "optionReasons": {
-        "hand-mcq-22": "本句指「目前需要處理的事情／眼前任務」。",
-        "hand-mcq-21": "「處於控制中；正在處理」是「in hand」的用法，與本句語境不同。",
-        "hand-mcq-23": "「一方面……另一方面……」是「on the one hand...on the other hand」的用法，與本句語境不同。",
-        "hand-mcq-20": "「英式：在手邊、可立即取得」是「to hand」的用法，與本句語境不同。",
-        "hand-mcq-24": "「直接親身取得或經歷的；第一手的」是「firsthand / first-hand」的用法，與本句語境不同。",
-        "hand-mcq-19": "「在附近／手邊；也可指某事即將到來」是「at hand」的用法，與本句語境不同。"
+        "hand-mcq-22": "本句的「task at hand」指「目前需要處理的事情／眼前任務」。",
+        "hand-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-22"
     },
@@ -2942,11 +2746,9 @@ export default {
       "masked": "We should return to the ____.",
       "options": [
         "hand-mcq-22",
-        "hand-mcq-21",
-        "hand-mcq-23",
-        "hand-mcq-20",
-        "hand-mcq-24",
-        "hand-mcq-19"
+        "hand-mcq-69",
+        "hand-mcq-36",
+        "hand-mcq-66"
       ],
       "explanation": "本句的「matter at hand」指「目前需要處理的事情／眼前任務」。",
       "sentenceIndex": 49,
@@ -2955,12 +2757,10 @@ export default {
         "matter at hand"
       ],
       "optionReasons": {
-        "hand-mcq-22": "本句指「目前需要處理的事情／眼前任務」。",
-        "hand-mcq-21": "「處於控制中；正在處理」是「in hand」的用法，與本句語境不同。",
-        "hand-mcq-23": "「一方面……另一方面……」是「on the one hand...on the other hand」的用法，與本句語境不同。",
-        "hand-mcq-20": "「英式：在手邊、可立即取得」是「to hand」的用法，與本句語境不同。",
-        "hand-mcq-24": "「直接親身取得或經歷的；第一手的」是「firsthand / first-hand」的用法，與本句語境不同。",
-        "hand-mcq-19": "「在附近／手邊；也可指某事即將到來」是「at hand」的用法，與本句語境不同。"
+        "hand-mcq-22": "本句的「matter at hand」指「目前需要處理的事情／眼前任務」。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-22"
     },
@@ -2972,11 +2772,9 @@ export default {
       "masked": "____, the job pays well; on the other hand, the hours are long.",
       "options": [
         "hand-mcq-23",
-        "hand-mcq-22",
-        "hand-mcq-24",
-        "hand-mcq-21",
-        "hand-mcq-25",
-        "hand-mcq-20"
+        "hand-mcq-38",
+        "hand-mcq-36",
+        "hand-mcq-01"
       ],
       "explanation": "本句的「On the one hand」指「一方面……另一方面……」。",
       "sentenceIndex": 50,
@@ -2985,12 +2783,10 @@ export default {
         "On the one hand"
       ],
       "optionReasons": {
-        "hand-mcq-23": "本句指「一方面……另一方面……」。",
-        "hand-mcq-22": "「目前需要處理的事情／眼前任務」是「task/matter at hand」的用法，與本句語境不同。",
-        "hand-mcq-24": "「直接親身取得或經歷的；第一手的」是「firsthand / first-hand」的用法，與本句語境不同。",
-        "hand-mcq-21": "「處於控制中；正在處理」是「in hand」的用法，與本句語境不同。",
-        "hand-mcq-25": "「二手的；也指間接得來的資訊」是「secondhand / second-hand」的用法，與本句語境不同。",
-        "hand-mcq-20": "「英式：在手邊、可立即取得」是「to hand」的用法，與本句語境不同。"
+        "hand-mcq-23": "本句的「On the one hand」指「一方面……另一方面……」。",
+        "hand-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-23"
     },
@@ -3002,11 +2798,9 @@ export default {
       "masked": "____, I wanted to leave; on the other hand, I felt responsible for the team.",
       "options": [
         "hand-mcq-23",
-        "hand-mcq-22",
-        "hand-mcq-24",
-        "hand-mcq-21",
-        "hand-mcq-25",
-        "hand-mcq-20"
+        "hand-mcq-50",
+        "hand-mcq-39",
+        "hand-mcq-22"
       ],
       "explanation": "本句的「On the one hand」指「一方面……另一方面……」。",
       "sentenceIndex": 51,
@@ -3015,12 +2809,10 @@ export default {
         "On the one hand"
       ],
       "optionReasons": {
-        "hand-mcq-23": "本句指「一方面……另一方面……」。",
-        "hand-mcq-22": "「目前需要處理的事情／眼前任務」是「task/matter at hand」的用法，與本句語境不同。",
-        "hand-mcq-24": "「直接親身取得或經歷的；第一手的」是「firsthand / first-hand」的用法，與本句語境不同。",
-        "hand-mcq-21": "「處於控制中；正在處理」是「in hand」的用法，與本句語境不同。",
-        "hand-mcq-25": "「二手的；也指間接得來的資訊」是「secondhand / second-hand」的用法，與本句語境不同。",
-        "hand-mcq-20": "「英式：在手邊、可立即取得」是「to hand」的用法，與本句語境不同。"
+        "hand-mcq-23": "本句的「On the one hand」指「一方面……另一方面……」。",
+        "hand-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-23"
     },
@@ -3033,10 +2825,8 @@ export default {
       "options": [
         "hand-mcq-24",
         "hand-mcq-23",
-        "hand-mcq-25",
-        "hand-mcq-22",
-        "hand-mcq-26",
-        "hand-mcq-21"
+        "hand-mcq-08",
+        "hand-mcq-50"
       ],
       "explanation": "本句的「first-hand experience」指「直接親身取得或經歷的；第一手的」。",
       "sentenceIndex": 52,
@@ -3045,12 +2835,10 @@ export default {
         "first-hand experience"
       ],
       "optionReasons": {
-        "hand-mcq-24": "本句指「直接親身取得或經歷的；第一手的」。",
-        "hand-mcq-23": "「一方面……另一方面……」是「on the one hand...on the other hand」的用法，與本句語境不同。",
-        "hand-mcq-25": "「二手的；也指間接得來的資訊」是「secondhand / second-hand」的用法，與本句語境不同。",
-        "hand-mcq-22": "「目前需要處理的事情／眼前任務」是「task/matter at hand」的用法，與本句語境不同。",
-        "hand-mcq-26": "「親身參與實際操作的」是「hands-on」的用法，與本句語境不同。",
-        "hand-mcq-21": "「處於控制中；正在處理」是「in hand」的用法，與本句語境不同。"
+        "hand-mcq-24": "本句的「first-hand experience」指「直接親身取得或經歷的；第一手的」。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-24"
     },
@@ -3062,11 +2850,9 @@ export default {
       "masked": "I heard the account ____.",
       "options": [
         "hand-mcq-24",
-        "hand-mcq-23",
-        "hand-mcq-25",
-        "hand-mcq-22",
-        "hand-mcq-26",
-        "hand-mcq-21"
+        "hand-mcq-39",
+        "hand-mcq-40",
+        "hand-mcq-69"
       ],
       "explanation": "本句的「firsthand」指「直接親身取得或經歷的；第一手的」。",
       "sentenceIndex": 53,
@@ -3075,12 +2861,10 @@ export default {
         "firsthand"
       ],
       "optionReasons": {
-        "hand-mcq-24": "本句指「直接親身取得或經歷的；第一手的」。",
-        "hand-mcq-23": "「一方面……另一方面……」是「on the one hand...on the other hand」的用法，與本句語境不同。",
-        "hand-mcq-25": "「二手的；也指間接得來的資訊」是「secondhand / second-hand」的用法，與本句語境不同。",
-        "hand-mcq-22": "「目前需要處理的事情／眼前任務」是「task/matter at hand」的用法，與本句語境不同。",
-        "hand-mcq-26": "「親身參與實際操作的」是「hands-on」的用法，與本句語境不同。",
-        "hand-mcq-21": "「處於控制中；正在處理」是「in hand」的用法，與本句語境不同。"
+        "hand-mcq-24": "本句的「firsthand」指「直接親身取得或經歷的；第一手的」。",
+        "hand-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-24"
     },
@@ -3092,11 +2876,9 @@ export default {
       "masked": "The course provides ____.",
       "options": [
         "hand-mcq-26",
-        "hand-mcq-25",
-        "hand-mcq-27",
-        "hand-mcq-24",
-        "hand-mcq-28",
-        "hand-mcq-23"
+        "hand-mcq-29",
+        "hand-mcq-12",
+        "hand-mcq-35"
       ],
       "explanation": "本句的「hands-on experience」指「親身參與實際操作的」。",
       "sentenceIndex": 54,
@@ -3105,12 +2887,10 @@ export default {
         "hands-on experience"
       ],
       "optionReasons": {
-        "hand-mcq-26": "本句指「親身參與實際操作的」。",
-        "hand-mcq-25": "「二手的；也指間接得來的資訊」是「secondhand / second-hand」的用法，與本句語境不同。",
-        "hand-mcq-27": "「不直接介入或干預的」是「hands-off」的用法，與本句語境不同。",
-        "hand-mcq-24": "「直接親身取得或經歷的；第一手的」是「firsthand / first-hand」的用法，與本句語境不同。",
-        "hand-mcq-28": "「把某物直接遞給／交給某人」是「hand — verb」的用法，與本句語境不同。",
-        "hand-mcq-23": "「一方面……另一方面……」是「on the one hand...on the other hand」的用法，與本句語境不同。"
+        "hand-mcq-26": "本句的「hands-on experience」指「親身參與實際操作的」。",
+        "hand-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-26"
     },
@@ -3122,11 +2902,9 @@ export default {
       "masked": "She takes a very ____ to management.",
       "options": [
         "hand-mcq-26",
-        "hand-mcq-25",
-        "hand-mcq-27",
-        "hand-mcq-24",
-        "hand-mcq-28",
-        "hand-mcq-23"
+        "hand-mcq-70",
+        "hand-mcq-09",
+        "hand-mcq-06"
       ],
       "explanation": "本句的「hands-on approach」指「親身參與實際操作的」。",
       "sentenceIndex": 55,
@@ -3135,12 +2913,10 @@ export default {
         "hands-on approach"
       ],
       "optionReasons": {
-        "hand-mcq-26": "本句指「親身參與實際操作的」。",
-        "hand-mcq-25": "「二手的；也指間接得來的資訊」是「secondhand / second-hand」的用法，與本句語境不同。",
-        "hand-mcq-27": "「不直接介入或干預的」是「hands-off」的用法，與本句語境不同。",
-        "hand-mcq-24": "「直接親身取得或經歷的；第一手的」是「firsthand / first-hand」的用法，與本句語境不同。",
-        "hand-mcq-28": "「把某物直接遞給／交給某人」是「hand — verb」的用法，與本句語境不同。",
-        "hand-mcq-23": "「一方面……另一方面……」是「on the one hand...on the other hand」的用法，與本句語境不同。"
+        "hand-mcq-26": "本句的「hands-on approach」指「親身參與實際操作的」。",
+        "hand-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-26"
     },
@@ -3152,11 +2928,9 @@ export default {
       "masked": "He prefers a ____.",
       "options": [
         "hand-mcq-27",
-        "hand-mcq-26",
-        "hand-mcq-28",
-        "hand-mcq-25",
-        "hand-mcq-29",
-        "hand-mcq-24"
+        "hand-mcq-30",
+        "hand-mcq-41",
+        "hand-mcq-06"
       ],
       "explanation": "本句的「hands-off management style」指「不直接介入或干預的」。",
       "sentenceIndex": 56,
@@ -3165,12 +2939,10 @@ export default {
         "hands-off management style"
       ],
       "optionReasons": {
-        "hand-mcq-27": "本句指「不直接介入或干預的」。",
-        "hand-mcq-26": "「親身參與實際操作的」是「hands-on」的用法，與本句語境不同。",
-        "hand-mcq-28": "「把某物直接遞給／交給某人」是「hand — verb」的用法，與本句語境不同。",
-        "hand-mcq-25": "「二手的；也指間接得來的資訊」是「secondhand / second-hand」的用法，與本句語境不同。",
-        "hand-mcq-29": "「提交、繳交功課／文件等」是「hand in」的用法，與本句語境不同。",
-        "hand-mcq-24": "「直接親身取得或經歷的；第一手的」是「firsthand / first-hand」的用法，與本句語境不同。"
+        "hand-mcq-27": "本句的「hands-off management style」指「不直接介入或干預的」。",
+        "hand-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-27"
     },
@@ -3182,11 +2954,9 @@ export default {
       "masked": "The government took a largely ____.",
       "options": [
         "hand-mcq-27",
-        "hand-mcq-26",
-        "hand-mcq-28",
-        "hand-mcq-25",
-        "hand-mcq-29",
-        "hand-mcq-24"
+        "hand-mcq-48",
+        "hand-mcq-15",
+        "hand-mcq-02"
       ],
       "explanation": "本句的「hands-off approach」指「不直接介入或干預的」。",
       "sentenceIndex": 57,
@@ -3195,12 +2965,10 @@ export default {
         "hands-off approach"
       ],
       "optionReasons": {
-        "hand-mcq-27": "本句指「不直接介入或干預的」。",
-        "hand-mcq-26": "「親身參與實際操作的」是「hands-on」的用法，與本句語境不同。",
-        "hand-mcq-28": "「把某物直接遞給／交給某人」是「hand — verb」的用法，與本句語境不同。",
-        "hand-mcq-25": "「二手的；也指間接得來的資訊」是「secondhand / second-hand」的用法，與本句語境不同。",
-        "hand-mcq-29": "「提交、繳交功課／文件等」是「hand in」的用法，與本句語境不同。",
-        "hand-mcq-24": "「直接親身取得或經歷的；第一手的」是「firsthand / first-hand」的用法，與本句語境不同。"
+        "hand-mcq-27": "本句的「hands-off approach」指「不直接介入或干預的」。",
+        "hand-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-27"
     },
@@ -3212,11 +2980,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "hand-mcq-28",
-        "hand-mcq-27",
-        "hand-mcq-29",
-        "hand-mcq-26",
-        "hand-mcq-30",
-        "hand-mcq-25"
+        "hand-mcq-10",
+        "hand-mcq-55",
+        "hand-mcq-68"
       ],
       "explanation": "本句的「handed me the pen」指「把某物直接遞給／交給某人」。",
       "sentenceIndex": 58,
@@ -3225,12 +2991,10 @@ export default {
         "handed me the pen"
       ],
       "optionReasons": {
-        "hand-mcq-28": "本句指「把某物直接遞給／交給某人」。",
-        "hand-mcq-27": "「不直接介入或干預的」是「hands-off」的用法，與本句語境不同。",
-        "hand-mcq-29": "「提交、繳交功課／文件等」是「hand in」的用法，與本句語境不同。",
-        "hand-mcq-26": "「親身參與實際操作的」是「hands-on」的用法，與本句語境不同。",
-        "hand-mcq-30": "「向多人派發／分發」是「hand out」的用法，與本句語境不同。",
-        "hand-mcq-25": "「二手的；也指間接得來的資訊」是「secondhand / second-hand」的用法，與本句語境不同。"
+        "hand-mcq-28": "本句的「handed me the pen」指「把某物直接遞給／交給某人」。",
+        "hand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-28"
     },
@@ -3242,11 +3006,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "hand-mcq-28",
-        "hand-mcq-27",
-        "hand-mcq-29",
+        "hand-mcq-22",
         "hand-mcq-26",
-        "hand-mcq-30",
-        "hand-mcq-25"
+        "hand-mcq-42"
       ],
       "explanation": "本句的「hand him the document」指「把某物直接遞給／交給某人」。",
       "sentenceIndex": 59,
@@ -3255,12 +3017,10 @@ export default {
         "hand him the document"
       ],
       "optionReasons": {
-        "hand-mcq-28": "本句指「把某物直接遞給／交給某人」。",
-        "hand-mcq-27": "「不直接介入或干預的」是「hands-off」的用法，與本句語境不同。",
-        "hand-mcq-29": "「提交、繳交功課／文件等」是「hand in」的用法，與本句語境不同。",
-        "hand-mcq-26": "「親身參與實際操作的」是「hands-on」的用法，與本句語境不同。",
-        "hand-mcq-30": "「向多人派發／分發」是「hand out」的用法，與本句語境不同。",
-        "hand-mcq-25": "「二手的；也指間接得來的資訊」是「secondhand / second-hand」的用法，與本句語境不同。"
+        "hand-mcq-28": "本句的「hand him the document」指「把某物直接遞給／交給某人」。",
+        "hand-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-28"
     },
@@ -3272,11 +3032,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "hand-mcq-28",
-        "hand-mcq-27",
-        "hand-mcq-29",
-        "hand-mcq-26",
-        "hand-mcq-30",
-        "hand-mcq-25"
+        "hand-mcq-37",
+        "hand-mcq-01",
+        "hand-mcq-26"
       ],
       "explanation": "本句的「handed the ticket to the guard」指「把某物直接遞給／交給某人」。",
       "sentenceIndex": 60,
@@ -3285,12 +3043,10 @@ export default {
         "handed the ticket to the guard"
       ],
       "optionReasons": {
-        "hand-mcq-28": "本句指「把某物直接遞給／交給某人」。",
-        "hand-mcq-27": "「不直接介入或干預的」是「hands-off」的用法，與本句語境不同。",
-        "hand-mcq-29": "「提交、繳交功課／文件等」是「hand in」的用法，與本句語境不同。",
-        "hand-mcq-26": "「親身參與實際操作的」是「hands-on」的用法，與本句語境不同。",
-        "hand-mcq-30": "「向多人派發／分發」是「hand out」的用法，與本句語境不同。",
-        "hand-mcq-25": "「二手的；也指間接得來的資訊」是「secondhand / second-hand」的用法，與本句語境不同。"
+        "hand-mcq-28": "本句的「handed the ticket to the guard」指「把某物直接遞給／交給某人」。",
+        "hand-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-28"
     },
@@ -3302,11 +3058,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "hand-mcq-28",
-        "hand-mcq-27",
-        "hand-mcq-29",
-        "hand-mcq-26",
-        "hand-mcq-30",
-        "hand-mcq-25"
+        "hand-mcq-54",
+        "hand-mcq-63",
+        "hand-mcq-26"
       ],
       "explanation": "本句的「handed me a cup of tea」指「把某物直接遞給／交給某人」。",
       "sentenceIndex": 61,
@@ -3315,12 +3069,10 @@ export default {
         "handed me a cup of tea"
       ],
       "optionReasons": {
-        "hand-mcq-28": "本句指「把某物直接遞給／交給某人」。",
-        "hand-mcq-27": "「不直接介入或干預的」是「hands-off」的用法，與本句語境不同。",
-        "hand-mcq-29": "「提交、繳交功課／文件等」是「hand in」的用法，與本句語境不同。",
-        "hand-mcq-26": "「親身參與實際操作的」是「hands-on」的用法，與本句語境不同。",
-        "hand-mcq-30": "「向多人派發／分發」是「hand out」的用法，與本句語境不同。",
-        "hand-mcq-25": "「二手的；也指間接得來的資訊」是「secondhand / second-hand」的用法，與本句語境不同。"
+        "hand-mcq-28": "本句的「handed me a cup of tea」指「把某物直接遞給／交給某人」。",
+        "hand-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-28"
     },
@@ -3332,11 +3084,9 @@ export default {
       "masked": "Please ____ tomorrow.",
       "options": [
         "hand-mcq-29",
-        "hand-mcq-28",
-        "hand-mcq-30",
-        "hand-mcq-27",
-        "hand-mcq-31",
-        "hand-mcq-26"
+        "hand-mcq-17",
+        "hand-mcq-47",
+        "hand-mcq-43"
       ],
       "explanation": "本句的「hand in your homework」指「提交、繳交功課／文件等」。",
       "sentenceIndex": 62,
@@ -3345,12 +3095,10 @@ export default {
         "hand in your homework"
       ],
       "optionReasons": {
-        "hand-mcq-29": "本句指「提交、繳交功課／文件等」。",
-        "hand-mcq-28": "「把某物直接遞給／交給某人」是「hand — verb」的用法，與本句語境不同。",
-        "hand-mcq-30": "「向多人派發／分發」是「hand out」的用法，與本句語境不同。",
-        "hand-mcq-27": "「不直接介入或干預的」是「hands-off」的用法，與本句語境不同。",
-        "hand-mcq-31": "「派發給學生、參加者等的講義／資料」是「handout — document」的用法，與本句語境不同。",
-        "hand-mcq-26": "「親身參與實際操作的」是「hands-on」的用法，與本句語境不同。"
+        "hand-mcq-29": "本句的「hand in your homework」指「提交、繳交功課／文件等」。",
+        "hand-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-29"
     },
@@ -3362,11 +3110,9 @@ export default {
       "masked": "She ____ early.",
       "options": [
         "hand-mcq-29",
-        "hand-mcq-28",
         "hand-mcq-30",
-        "hand-mcq-27",
-        "hand-mcq-31",
-        "hand-mcq-26"
+        "hand-mcq-55",
+        "hand-mcq-37"
       ],
       "explanation": "本句的「handed in her report」指「提交、繳交功課／文件等」。",
       "sentenceIndex": 63,
@@ -3375,12 +3121,10 @@ export default {
         "handed in her report"
       ],
       "optionReasons": {
-        "hand-mcq-29": "本句指「提交、繳交功課／文件等」。",
-        "hand-mcq-28": "「把某物直接遞給／交給某人」是「hand — verb」的用法，與本句語境不同。",
-        "hand-mcq-30": "「向多人派發／分發」是「hand out」的用法，與本句語境不同。",
-        "hand-mcq-27": "「不直接介入或干預的」是「hands-off」的用法，與本句語境不同。",
-        "hand-mcq-31": "「派發給學生、參加者等的講義／資料」是「handout — document」的用法，與本句語境不同。",
-        "hand-mcq-26": "「親身參與實際操作的」是「hands-on」的用法，與本句語境不同。"
+        "hand-mcq-29": "本句的「handed in her report」指「提交、繳交功課／文件等」。",
+        "hand-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-29"
     },
@@ -3392,10 +3136,8 @@ export default {
       "masked": "The teacher ____.",
       "options": [
         "hand-mcq-30",
+        "hand-mcq-48",
         "hand-mcq-29",
-        "hand-mcq-31",
-        "hand-mcq-28",
-        "hand-mcq-32",
         "hand-mcq-27"
       ],
       "explanation": "本句的「handed out the worksheets」指「向多人派發／分發」。",
@@ -3405,12 +3147,10 @@ export default {
         "handed out the worksheets"
       ],
       "optionReasons": {
-        "hand-mcq-30": "本句指「向多人派發／分發」。",
-        "hand-mcq-29": "「提交、繳交功課／文件等」是「hand in」的用法，與本句語境不同。",
-        "hand-mcq-31": "「派發給學生、參加者等的講義／資料」是「handout — document」的用法，與本句語境不同。",
-        "hand-mcq-28": "「把某物直接遞給／交給某人」是「hand — verb」的用法，與本句語境不同。",
-        "hand-mcq-32": "「給予的金錢或資源；有時帶「施捨」意味」是「handout — aid」的用法，與本句語境不同。",
-        "hand-mcq-27": "「不直接介入或干預的」是「hands-off」的用法，與本句語境不同。"
+        "hand-mcq-30": "本句的「handed out the worksheets」指「向多人派發／分發」。",
+        "hand-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-30"
     },
@@ -3422,11 +3162,9 @@ export default {
       "masked": "Volunteers ____.",
       "options": [
         "hand-mcq-30",
-        "hand-mcq-29",
-        "hand-mcq-31",
-        "hand-mcq-28",
-        "hand-mcq-32",
-        "hand-mcq-27"
+        "hand-mcq-36",
+        "hand-mcq-27",
+        "hand-mcq-62"
       ],
       "explanation": "本句的「handed out food」指「向多人派發／分發」。",
       "sentenceIndex": 65,
@@ -3435,12 +3173,10 @@ export default {
         "handed out food"
       ],
       "optionReasons": {
-        "hand-mcq-30": "本句指「向多人派發／分發」。",
-        "hand-mcq-29": "「提交、繳交功課／文件等」是「hand in」的用法，與本句語境不同。",
-        "hand-mcq-31": "「派發給學生、參加者等的講義／資料」是「handout — document」的用法，與本句語境不同。",
-        "hand-mcq-28": "「把某物直接遞給／交給某人」是「hand — verb」的用法，與本句語境不同。",
-        "hand-mcq-32": "「給予的金錢或資源；有時帶「施捨」意味」是「handout — aid」的用法，與本句語境不同。",
-        "hand-mcq-27": "「不直接介入或干預的」是「hands-off」的用法，與本句語境不同。"
+        "hand-mcq-30": "本句的「handed out food」指「向多人派發／分發」。",
+        "hand-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-30"
     },
@@ -3452,11 +3188,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "hand-mcq-33",
-        "hand-mcq-32",
-        "hand-mcq-34",
-        "hand-mcq-31",
-        "hand-mcq-35",
-        "hand-mcq-30"
+        "hand-mcq-40",
+        "hand-mcq-02",
+        "hand-mcq-16"
       ],
       "explanation": "本句的「handed over the keys」指「把物品、責任或控制權移交給他人」。",
       "sentenceIndex": 66,
@@ -3465,12 +3199,10 @@ export default {
         "handed over the keys"
       ],
       "optionReasons": {
-        "hand-mcq-33": "本句指「把物品、責任或控制權移交給他人」。",
-        "hand-mcq-32": "「給予的金錢或資源；有時帶「施捨」意味」是「handout — aid」的用法，與本句語境不同。",
-        "hand-mcq-34": "「責任、工作或控制權的交接／移交」是「handover」的用法，與本句語境不同。",
-        "hand-mcq-31": "「派發給學生、參加者等的講義／資料」是「handout — document」的用法，與本句語境不同。",
-        "hand-mcq-35": "「把某物歸還給原持有人」是「hand back」的用法，與本句語境不同。",
-        "hand-mcq-30": "「向多人派發／分發」是「hand out」的用法，與本句語境不同。"
+        "hand-mcq-33": "本句的「handed over the keys」指「把物品、責任或控制權移交給他人」。",
+        "hand-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-33"
     },
@@ -3482,10 +3214,8 @@ export default {
       "masked": "He will ____ next month.",
       "options": [
         "hand-mcq-33",
-        "hand-mcq-32",
-        "hand-mcq-34",
-        "hand-mcq-31",
-        "hand-mcq-35",
+        "hand-mcq-18",
+        "hand-mcq-10",
         "hand-mcq-30"
       ],
       "explanation": "本句的「hand over responsibility」指「把物品、責任或控制權移交給他人」。",
@@ -3495,12 +3225,10 @@ export default {
         "hand over responsibility"
       ],
       "optionReasons": {
-        "hand-mcq-33": "本句指「把物品、責任或控制權移交給他人」。",
-        "hand-mcq-32": "「給予的金錢或資源；有時帶「施捨」意味」是「handout — aid」的用法，與本句語境不同。",
-        "hand-mcq-34": "「責任、工作或控制權的交接／移交」是「handover」的用法，與本句語境不同。",
-        "hand-mcq-31": "「派發給學生、參加者等的講義／資料」是「handout — document」的用法，與本句語境不同。",
-        "hand-mcq-35": "「把某物歸還給原持有人」是「hand back」的用法，與本句語境不同。",
-        "hand-mcq-30": "「向多人派發／分發」是「hand out」的用法，與本句語境不同。"
+        "hand-mcq-33": "本句的「hand over responsibility」指「把物品、責任或控制權移交給他人」。",
+        "hand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-33"
     },
@@ -3512,11 +3240,9 @@ export default {
       "masked": "The ____ went smoothly.",
       "options": [
         "hand-mcq-34",
-        "hand-mcq-33",
-        "hand-mcq-35",
-        "hand-mcq-32",
-        "hand-mcq-36",
-        "hand-mcq-31"
+        "hand-mcq-54",
+        "hand-mcq-51",
+        "hand-mcq-23"
       ],
       "explanation": "本句的「handover」指「責任、工作或控制權的交接／移交」。",
       "sentenceIndex": 68,
@@ -3525,12 +3251,10 @@ export default {
         "handover"
       ],
       "optionReasons": {
-        "hand-mcq-34": "本句指「責任、工作或控制權的交接／移交」。",
-        "hand-mcq-33": "「把物品、責任或控制權移交給他人」是「hand over」的用法，與本句語境不同。",
-        "hand-mcq-35": "「把某物歸還給原持有人」是「hand back」的用法，與本句語境不同。",
-        "hand-mcq-32": "「給予的金錢或資源；有時帶「施捨」意味」是「handout — aid」的用法，與本句語境不同。",
-        "hand-mcq-36": "「把物品、知識或傳統傳給下一代」是「hand down — inheritance」的用法，與本句語境不同。",
-        "hand-mcq-31": "「派發給學生、參加者等的講義／資料」是「handout — document」的用法，與本句語境不同。"
+        "hand-mcq-34": "本句的「handover」指「責任、工作或控制權的交接／移交」。",
+        "hand-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-34"
     },
@@ -3542,11 +3266,9 @@ export default {
       "masked": "They prepared a detailed ____.",
       "options": [
         "hand-mcq-34",
-        "hand-mcq-33",
-        "hand-mcq-35",
-        "hand-mcq-32",
         "hand-mcq-36",
-        "hand-mcq-31"
+        "hand-mcq-66",
+        "hand-mcq-35"
       ],
       "explanation": "本句的「handover document」指「責任、工作或控制權的交接／移交」。",
       "sentenceIndex": 69,
@@ -3555,12 +3277,10 @@ export default {
         "handover document"
       ],
       "optionReasons": {
-        "hand-mcq-34": "本句指「責任、工作或控制權的交接／移交」。",
-        "hand-mcq-33": "「把物品、責任或控制權移交給他人」是「hand over」的用法，與本句語境不同。",
-        "hand-mcq-35": "「把某物歸還給原持有人」是「hand back」的用法，與本句語境不同。",
-        "hand-mcq-32": "「給予的金錢或資源；有時帶「施捨」意味」是「handout — aid」的用法，與本句語境不同。",
-        "hand-mcq-36": "「把物品、知識或傳統傳給下一代」是「hand down — inheritance」的用法，與本句語境不同。",
-        "hand-mcq-31": "「派發給學生、參加者等的講義／資料」是「handout — document」的用法，與本句語境不同。"
+        "hand-mcq-34": "本句的「handover document」指「責任、工作或控制權的交接／移交」。",
+        "hand-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-34"
     },
@@ -3572,11 +3292,9 @@ export default {
       "masked": "She ____ to me.",
       "options": [
         "hand-mcq-35",
-        "hand-mcq-34",
-        "hand-mcq-36",
-        "hand-mcq-33",
-        "hand-mcq-37",
-        "hand-mcq-32"
+        "hand-mcq-24",
+        "hand-mcq-42",
+        "hand-mcq-10"
       ],
       "explanation": "本句的「handed the pen back」指「把某物歸還給原持有人」。",
       "sentenceIndex": 70,
@@ -3585,12 +3303,10 @@ export default {
         "handed the pen back"
       ],
       "optionReasons": {
-        "hand-mcq-35": "本句指「把某物歸還給原持有人」。",
-        "hand-mcq-34": "「責任、工作或控制權的交接／移交」是「handover」的用法，與本句語境不同。",
-        "hand-mcq-36": "「把物品、知識或傳統傳給下一代」是「hand down — inheritance」的用法，與本句語境不同。",
-        "hand-mcq-33": "「把物品、責任或控制權移交給他人」是「hand over」的用法，與本句語境不同。",
-        "hand-mcq-37": "「法院／法官正式公布判決或刑罰」是「hand down — legal」的用法，與本句語境不同。",
-        "hand-mcq-32": "「給予的金錢或資源；有時帶「施捨」意味」是「handout — aid」的用法，與本句語境不同。"
+        "hand-mcq-35": "本句的「handed the pen back」指「把某物歸還給原持有人」。",
+        "hand-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-35"
     },
@@ -3602,11 +3318,9 @@ export default {
       "masked": "Please ____ at the end.",
       "options": [
         "hand-mcq-35",
-        "hand-mcq-34",
-        "hand-mcq-36",
-        "hand-mcq-33",
-        "hand-mcq-37",
-        "hand-mcq-32"
+        "hand-mcq-47",
+        "hand-mcq-24",
+        "hand-mcq-62"
       ],
       "explanation": "本句的「hand back your papers」指「把某物歸還給原持有人」。",
       "sentenceIndex": 71,
@@ -3615,12 +3329,10 @@ export default {
         "hand back your papers"
       ],
       "optionReasons": {
-        "hand-mcq-35": "本句指「把某物歸還給原持有人」。",
-        "hand-mcq-34": "「責任、工作或控制權的交接／移交」是「handover」的用法，與本句語境不同。",
-        "hand-mcq-36": "「把物品、知識或傳統傳給下一代」是「hand down — inheritance」的用法，與本句語境不同。",
-        "hand-mcq-33": "「把物品、責任或控制權移交給他人」是「hand over」的用法，與本句語境不同。",
-        "hand-mcq-37": "「法院／法官正式公布判決或刑罰」是「hand down — legal」的用法，與本句語境不同。",
-        "hand-mcq-32": "「給予的金錢或資源；有時帶「施捨」意味」是「handout — aid」的用法，與本句語境不同。"
+        "hand-mcq-35": "本句的「hand back your papers」指「把某物歸還給原持有人」。",
+        "hand-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-35"
     },
@@ -3632,11 +3344,9 @@ export default {
       "masked": "The watch was ____ from his grandfather.",
       "options": [
         "hand-mcq-36",
-        "hand-mcq-35",
-        "hand-mcq-37",
-        "hand-mcq-34",
-        "hand-mcq-38",
-        "hand-mcq-33"
+        "hand-mcq-04",
+        "hand-mcq-40",
+        "hand-mcq-42"
       ],
       "explanation": "本句的「handed down」指「把物品、知識或傳統傳給下一代」。",
       "sentenceIndex": 72,
@@ -3645,12 +3355,10 @@ export default {
         "handed down"
       ],
       "optionReasons": {
-        "hand-mcq-36": "本句指「把物品、知識或傳統傳給下一代」。",
-        "hand-mcq-35": "「把某物歸還給原持有人」是「hand back」的用法，與本句語境不同。",
-        "hand-mcq-37": "「法院／法官正式公布判決或刑罰」是「hand down — legal」的用法，與本句語境不同。",
-        "hand-mcq-34": "「責任、工作或控制權的交接／移交」是「handover」的用法，與本句語境不同。",
-        "hand-mcq-38": "「把某物轉交下一個人」是「hand on」的用法，與本句語境不同。",
-        "hand-mcq-33": "「把物品、責任或控制權移交給他人」是「hand over」的用法，與本句語境不同。"
+        "hand-mcq-36": "本句的「handed down」指「把物品、知識或傳統傳給下一代」。",
+        "hand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-36"
     },
@@ -3662,11 +3370,9 @@ export default {
       "masked": "The tradition has been ____ for generations.",
       "options": [
         "hand-mcq-36",
-        "hand-mcq-35",
-        "hand-mcq-37",
-        "hand-mcq-34",
-        "hand-mcq-38",
-        "hand-mcq-33"
+        "hand-mcq-67",
+        "hand-mcq-04",
+        "hand-mcq-69"
       ],
       "explanation": "本句的「handed down」指「把物品、知識或傳統傳給下一代」。",
       "sentenceIndex": 73,
@@ -3675,12 +3381,10 @@ export default {
         "handed down"
       ],
       "optionReasons": {
-        "hand-mcq-36": "本句指「把物品、知識或傳統傳給下一代」。",
-        "hand-mcq-35": "「把某物歸還給原持有人」是「hand back」的用法，與本句語境不同。",
-        "hand-mcq-37": "「法院／法官正式公布判決或刑罰」是「hand down — legal」的用法，與本句語境不同。",
-        "hand-mcq-34": "「責任、工作或控制權的交接／移交」是「handover」的用法，與本句語境不同。",
-        "hand-mcq-38": "「把某物轉交下一個人」是「hand on」的用法，與本句語境不同。",
-        "hand-mcq-33": "「把物品、責任或控制權移交給他人」是「hand over」的用法，與本句語境不同。"
+        "hand-mcq-36": "本句的「handed down」指「把物品、知識或傳統傳給下一代」。",
+        "hand-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-36"
     },
@@ -3692,11 +3396,9 @@ export default {
       "masked": "The court ____.",
       "options": [
         "hand-mcq-37",
-        "hand-mcq-36",
-        "hand-mcq-38",
-        "hand-mcq-35",
-        "hand-mcq-39",
-        "hand-mcq-34"
+        "hand-mcq-62",
+        "hand-mcq-10",
+        "hand-mcq-22"
       ],
       "explanation": "本句的「handed down its judgment」指「法院／法官正式公布判決或刑罰」。",
       "sentenceIndex": 74,
@@ -3705,12 +3407,10 @@ export default {
         "handed down its judgment"
       ],
       "optionReasons": {
-        "hand-mcq-37": "本句指「法院／法官正式公布判決或刑罰」。",
-        "hand-mcq-36": "「把物品、知識或傳統傳給下一代」是「hand down — inheritance」的用法，與本句語境不同。",
-        "hand-mcq-38": "「把某物轉交下一個人」是「hand on」的用法，與本句語境不同。",
-        "hand-mcq-35": "「把某物歸還給原持有人」是「hand back」的用法，與本句語境不同。",
-        "hand-mcq-39": "「情況變得無法控制」是「get out of hand」的用法，與本句語境不同。",
-        "hand-mcq-34": "「責任、工作或控制權的交接／移交」是「handover」的用法，與本句語境不同。"
+        "hand-mcq-37": "本句的「handed down its judgment」指「法院／法官正式公布判決或刑罰」。",
+        "hand-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-37"
     },
@@ -3722,11 +3422,9 @@ export default {
       "masked": "The judge ____.",
       "options": [
         "hand-mcq-37",
-        "hand-mcq-36",
-        "hand-mcq-38",
-        "hand-mcq-35",
-        "hand-mcq-39",
-        "hand-mcq-34"
+        "hand-mcq-26",
+        "hand-mcq-02",
+        "hand-mcq-46"
       ],
       "explanation": "本句的「handed down the sentence」指「法院／法官正式公布判決或刑罰」。",
       "sentenceIndex": 75,
@@ -3735,12 +3433,10 @@ export default {
         "handed down the sentence"
       ],
       "optionReasons": {
-        "hand-mcq-37": "本句指「法院／法官正式公布判決或刑罰」。",
-        "hand-mcq-36": "「把物品、知識或傳統傳給下一代」是「hand down — inheritance」的用法，與本句語境不同。",
-        "hand-mcq-38": "「把某物轉交下一個人」是「hand on」的用法，與本句語境不同。",
-        "hand-mcq-35": "「把某物歸還給原持有人」是「hand back」的用法，與本句語境不同。",
-        "hand-mcq-39": "「情況變得無法控制」是「get out of hand」的用法，與本句語境不同。",
-        "hand-mcq-34": "「責任、工作或控制權的交接／移交」是「handover」的用法，與本句語境不同。"
+        "hand-mcq-37": "本句的「handed down the sentence」指「法院／法官正式公布判決或刑罰」。",
+        "hand-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-37"
     },
@@ -3752,11 +3448,9 @@ export default {
       "masked": "Read the note and ____.",
       "options": [
         "hand-mcq-38",
-        "hand-mcq-37",
-        "hand-mcq-39",
-        "hand-mcq-36",
-        "hand-mcq-40",
-        "hand-mcq-35"
+        "hand-mcq-06",
+        "hand-mcq-70",
+        "hand-mcq-39"
       ],
       "explanation": "本句的「hand it on」指「把某物轉交下一個人」。",
       "sentenceIndex": 76,
@@ -3765,12 +3459,10 @@ export default {
         "hand it on"
       ],
       "optionReasons": {
-        "hand-mcq-38": "本句指「把某物轉交下一個人」。",
-        "hand-mcq-37": "「法院／法官正式公布判決或刑罰」是「hand down — legal」的用法，與本句語境不同。",
-        "hand-mcq-39": "「情況變得無法控制」是「get out of hand」的用法，與本句語境不同。",
-        "hand-mcq-36": "「把物品、知識或傳統傳給下一代」是「hand down — inheritance」的用法，與本句語境不同。",
-        "hand-mcq-40": "「不加考慮就立即拒絕」是「out of hand — reject」的用法，與本句語境不同。",
-        "hand-mcq-35": "「把某物歸還給原持有人」是「hand back」的用法，與本句語境不同。"
+        "hand-mcq-38": "本句的「hand it on」指「把某物轉交下一個人」。",
+        "hand-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-38"
     },
@@ -3782,11 +3474,9 @@ export default {
       "masked": "She ____ to her colleague.",
       "options": [
         "hand-mcq-38",
-        "hand-mcq-37",
-        "hand-mcq-39",
-        "hand-mcq-36",
-        "hand-mcq-40",
-        "hand-mcq-35"
+        "hand-mcq-14",
+        "hand-mcq-63",
+        "hand-mcq-54"
       ],
       "explanation": "本句的「handed the information on」指「把某物轉交下一個人」。",
       "sentenceIndex": 77,
@@ -3795,12 +3485,10 @@ export default {
         "handed the information on"
       ],
       "optionReasons": {
-        "hand-mcq-38": "本句指「把某物轉交下一個人」。",
-        "hand-mcq-37": "「法院／法官正式公布判決或刑罰」是「hand down — legal」的用法，與本句語境不同。",
-        "hand-mcq-39": "「情況變得無法控制」是「get out of hand」的用法，與本句語境不同。",
-        "hand-mcq-36": "「把物品、知識或傳統傳給下一代」是「hand down — inheritance」的用法，與本句語境不同。",
-        "hand-mcq-40": "「不加考慮就立即拒絕」是「out of hand — reject」的用法，與本句語境不同。",
-        "hand-mcq-35": "「把某物歸還給原持有人」是「hand back」的用法，與本句語境不同。"
+        "hand-mcq-38": "本句的「handed the information on」指「把某物轉交下一個人」。",
+        "hand-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-38"
     },
@@ -3812,11 +3500,9 @@ export default {
       "masked": "The situation quickly ____.",
       "options": [
         "hand-mcq-39",
-        "hand-mcq-38",
-        "hand-mcq-40",
-        "hand-mcq-37",
-        "hand-mcq-41",
-        "hand-mcq-36"
+        "hand-mcq-35",
+        "hand-mcq-70",
+        "hand-mcq-29"
       ],
       "explanation": "本句的「got out of hand」指「情況變得無法控制」。",
       "sentenceIndex": 78,
@@ -3825,12 +3511,10 @@ export default {
         "got out of hand"
       ],
       "optionReasons": {
-        "hand-mcq-39": "本句指「情況變得無法控制」。",
-        "hand-mcq-38": "「把某物轉交下一個人」是「hand on」的用法，與本句語境不同。",
-        "hand-mcq-40": "「不加考慮就立即拒絕」是「out of hand — reject」的用法，與本句語境不同。",
-        "hand-mcq-37": "「法院／法官正式公布判決或刑罰」是「hand down — legal」的用法，與本句語境不同。",
-        "hand-mcq-41": "「工作或責任太多，忙得不可開交」是「have your hands full」的用法，與本句語境不同。",
-        "hand-mcq-36": "「把物品、知識或傳統傳給下一代」是「hand down — inheritance」的用法，與本句語境不同。"
+        "hand-mcq-39": "本句的「got out of hand」指「情況變得無法控制」。",
+        "hand-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-39"
     },
@@ -3842,11 +3526,9 @@ export default {
       "masked": "The party ____.",
       "options": [
         "hand-mcq-39",
-        "hand-mcq-38",
-        "hand-mcq-40",
-        "hand-mcq-37",
-        "hand-mcq-41",
-        "hand-mcq-36"
+        "hand-mcq-52",
+        "hand-mcq-02",
+        "hand-mcq-27"
       ],
       "explanation": "本句的「got out of hand」指「情況變得無法控制」。",
       "sentenceIndex": 79,
@@ -3855,12 +3537,10 @@ export default {
         "got out of hand"
       ],
       "optionReasons": {
-        "hand-mcq-39": "本句指「情況變得無法控制」。",
-        "hand-mcq-38": "「把某物轉交下一個人」是「hand on」的用法，與本句語境不同。",
-        "hand-mcq-40": "「不加考慮就立即拒絕」是「out of hand — reject」的用法，與本句語境不同。",
-        "hand-mcq-37": "「法院／法官正式公布判決或刑罰」是「hand down — legal」的用法，與本句語境不同。",
-        "hand-mcq-41": "「工作或責任太多，忙得不可開交」是「have your hands full」的用法，與本句語境不同。",
-        "hand-mcq-36": "「把物品、知識或傳統傳給下一代」是「hand down — inheritance」的用法，與本句語境不同。"
+        "hand-mcq-39": "本句的「got out of hand」指「情況變得無法控制」。",
+        "hand-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-39"
     },
@@ -3872,11 +3552,9 @@ export default {
       "masked": "She managed to ____.",
       "options": [
         "hand-mcq-39",
-        "hand-mcq-38",
-        "hand-mcq-40",
-        "hand-mcq-37",
-        "hand-mcq-41",
-        "hand-mcq-36"
+        "hand-mcq-35",
+        "hand-mcq-65",
+        "hand-mcq-26"
       ],
       "explanation": "本句的「keep the discussion in hand」指「情況變得無法控制」。",
       "sentenceIndex": 80,
@@ -3885,12 +3563,10 @@ export default {
         "keep the discussion in hand"
       ],
       "optionReasons": {
-        "hand-mcq-39": "本句指「情況變得無法控制」。",
-        "hand-mcq-38": "「把某物轉交下一個人」是「hand on」的用法，與本句語境不同。",
-        "hand-mcq-40": "「不加考慮就立即拒絕」是「out of hand — reject」的用法，與本句語境不同。",
-        "hand-mcq-37": "「法院／法官正式公布判決或刑罰」是「hand down — legal」的用法，與本句語境不同。",
-        "hand-mcq-41": "「工作或責任太多，忙得不可開交」是「have your hands full」的用法，與本句語境不同。",
-        "hand-mcq-36": "「把物品、知識或傳統傳給下一代」是「hand down — inheritance」的用法，與本句語境不同。"
+        "hand-mcq-39": "本句的「keep the discussion in hand」指「情況變得無法控制」。",
+        "hand-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-39"
     },
@@ -3902,11 +3578,9 @@ export default {
       "masked": "Costs must be ____.",
       "options": [
         "hand-mcq-39",
-        "hand-mcq-38",
-        "hand-mcq-40",
-        "hand-mcq-37",
-        "hand-mcq-41",
-        "hand-mcq-36"
+        "hand-mcq-06",
+        "hand-mcq-64",
+        "hand-mcq-70"
       ],
       "explanation": "本句的「kept in hand」指「情況變得無法控制」。",
       "sentenceIndex": 81,
@@ -3915,12 +3589,10 @@ export default {
         "kept in hand"
       ],
       "optionReasons": {
-        "hand-mcq-39": "本句指「情況變得無法控制」。",
-        "hand-mcq-38": "「把某物轉交下一個人」是「hand on」的用法，與本句語境不同。",
-        "hand-mcq-40": "「不加考慮就立即拒絕」是「out of hand — reject」的用法，與本句語境不同。",
-        "hand-mcq-37": "「法院／法官正式公布判決或刑罰」是「hand down — legal」的用法，與本句語境不同。",
-        "hand-mcq-41": "「工作或責任太多，忙得不可開交」是「have your hands full」的用法，與本句語境不同。",
-        "hand-mcq-36": "「把物品、知識或傳統傳給下一代」是「hand down — inheritance」的用法，與本句語境不同。"
+        "hand-mcq-39": "本句的「kept in hand」指「情況變得無法控制」。",
+        "hand-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-39"
     },
@@ -3932,11 +3604,9 @@ export default {
       "masked": "They rejected the proposal ____.",
       "options": [
         "hand-mcq-40",
-        "hand-mcq-39",
-        "hand-mcq-41",
-        "hand-mcq-38",
-        "hand-mcq-42",
-        "hand-mcq-37"
+        "hand-mcq-45",
+        "hand-mcq-68",
+        "hand-mcq-55"
       ],
       "explanation": "本句的「out of hand」指「不加考慮就立即拒絕」。",
       "sentenceIndex": 82,
@@ -3945,12 +3615,10 @@ export default {
         "out of hand"
       ],
       "optionReasons": {
-        "hand-mcq-40": "本句指「不加考慮就立即拒絕」。",
-        "hand-mcq-39": "「情況變得無法控制」是「get out of hand」的用法，與本句語境不同。",
-        "hand-mcq-41": "「工作或責任太多，忙得不可開交」是「have your hands full」的用法，與本句語境不同。",
-        "hand-mcq-38": "「把某物轉交下一個人」是「hand on」的用法，與本句語境不同。",
-        "hand-mcq-42": "「因規則或情勢限制而無法自由採取行動」是「have your hands tied」的用法，與本句語境不同。",
-        "hand-mcq-37": "「法院／法官正式公布判決或刑罰」是「hand down — legal」的用法，與本句語境不同。"
+        "hand-mcq-40": "本句的「out of hand」指「不加考慮就立即拒絕」。",
+        "hand-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-40"
     },
@@ -3962,11 +3630,9 @@ export default {
       "masked": "Don’t dismiss the idea ____.",
       "options": [
         "hand-mcq-40",
-        "hand-mcq-39",
-        "hand-mcq-41",
-        "hand-mcq-38",
-        "hand-mcq-42",
-        "hand-mcq-37"
+        "hand-mcq-69",
+        "hand-mcq-70",
+        "hand-mcq-48"
       ],
       "explanation": "本句的「out of hand」指「不加考慮就立即拒絕」。",
       "sentenceIndex": 83,
@@ -3975,12 +3641,10 @@ export default {
         "out of hand"
       ],
       "optionReasons": {
-        "hand-mcq-40": "本句指「不加考慮就立即拒絕」。",
-        "hand-mcq-39": "「情況變得無法控制」是「get out of hand」的用法，與本句語境不同。",
-        "hand-mcq-41": "「工作或責任太多，忙得不可開交」是「have your hands full」的用法，與本句語境不同。",
-        "hand-mcq-38": "「把某物轉交下一個人」是「hand on」的用法，與本句語境不同。",
-        "hand-mcq-42": "「因規則或情勢限制而無法自由採取行動」是「have your hands tied」的用法，與本句語境不同。",
-        "hand-mcq-37": "「法院／法官正式公布判決或刑罰」是「hand down — legal」的用法，與本句語境不同。"
+        "hand-mcq-40": "本句的「out of hand」指「不加考慮就立即拒絕」。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-40"
     },
@@ -3992,11 +3656,9 @@ export default {
       "masked": "I ____ this week.",
       "options": [
         "hand-mcq-41",
-        "hand-mcq-40",
-        "hand-mcq-42",
-        "hand-mcq-39",
-        "hand-mcq-43",
-        "hand-mcq-38"
+        "hand-mcq-67",
+        "hand-mcq-49",
+        "hand-mcq-37"
       ],
       "explanation": "本句的「have my hands full」指「工作或責任太多，忙得不可開交」。",
       "sentenceIndex": 84,
@@ -4005,12 +3667,10 @@ export default {
         "have my hands full"
       ],
       "optionReasons": {
-        "hand-mcq-41": "本句指「工作或責任太多，忙得不可開交」。",
-        "hand-mcq-40": "「不加考慮就立即拒絕」是「out of hand — reject」的用法，與本句語境不同。",
-        "hand-mcq-42": "「因規則或情勢限制而無法自由採取行動」是「have your hands tied」的用法，與本句語境不同。",
-        "hand-mcq-39": "「情況變得無法控制」是「get out of hand」的用法，與本句語境不同。",
-        "hand-mcq-43": "「宣布不再負責或介入某人／某事」是「wash your hands of」的用法，與本句語境不同。",
-        "hand-mcq-38": "「把某物轉交下一個人」是「hand on」的用法，與本句語境不同。"
+        "hand-mcq-41": "本句的「have my hands full」指「工作或責任太多，忙得不可開交」。",
+        "hand-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-41"
     },
@@ -4022,11 +3682,9 @@ export default {
       "masked": "With three children, they certainly ____.",
       "options": [
         "hand-mcq-41",
-        "hand-mcq-40",
-        "hand-mcq-42",
-        "hand-mcq-39",
-        "hand-mcq-43",
-        "hand-mcq-38"
+        "hand-mcq-46",
+        "hand-mcq-69",
+        "hand-mcq-12"
       ],
       "explanation": "本句的「have their hands full」指「工作或責任太多，忙得不可開交」。",
       "sentenceIndex": 85,
@@ -4035,12 +3693,10 @@ export default {
         "have their hands full"
       ],
       "optionReasons": {
-        "hand-mcq-41": "本句指「工作或責任太多，忙得不可開交」。",
-        "hand-mcq-40": "「不加考慮就立即拒絕」是「out of hand — reject」的用法，與本句語境不同。",
-        "hand-mcq-42": "「因規則或情勢限制而無法自由採取行動」是「have your hands tied」的用法，與本句語境不同。",
-        "hand-mcq-39": "「情況變得無法控制」是「get out of hand」的用法，與本句語境不同。",
-        "hand-mcq-43": "「宣布不再負責或介入某人／某事」是「wash your hands of」的用法，與本句語境不同。",
-        "hand-mcq-38": "「把某物轉交下一個人」是「hand on」的用法，與本句語境不同。"
+        "hand-mcq-41": "本句的「have their hands full」指「工作或責任太多，忙得不可開交」。",
+        "hand-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-41"
     },
@@ -4052,11 +3708,9 @@ export default {
       "masked": "I’d like to help, but ____.",
       "options": [
         "hand-mcq-42",
-        "hand-mcq-41",
-        "hand-mcq-43",
-        "hand-mcq-40",
-        "hand-mcq-44",
-        "hand-mcq-39"
+        "hand-mcq-29",
+        "hand-mcq-23",
+        "hand-mcq-62"
       ],
       "explanation": "本句的「my hands are tied」指「因規則或情勢限制而無法自由採取行動」。",
       "sentenceIndex": 86,
@@ -4065,12 +3719,10 @@ export default {
         "my hands are tied"
       ],
       "optionReasons": {
-        "hand-mcq-42": "本句指「因規則或情勢限制而無法自由採取行動」。",
-        "hand-mcq-41": "「工作或責任太多，忙得不可開交」是「have your hands full」的用法，與本句語境不同。",
-        "hand-mcq-43": "「宣布不再負責或介入某人／某事」是「wash your hands of」的用法，與本句語境不同。",
-        "hand-mcq-40": "「不加考慮就立即拒絕」是「out of hand — reject」的用法，與本句語境不同。",
-        "hand-mcq-44": "「取得較有利或較強勢的位置；佔上風」是「have/gain the upper hand」的用法，與本句語境不同。",
-        "hand-mcq-39": "「情況變得無法控制」是「get out of hand」的用法，與本句語境不同。"
+        "hand-mcq-42": "本句的「my hands are tied」指「因規則或情勢限制而無法自由採取行動」。",
+        "hand-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-42"
     },
@@ -4082,11 +3734,9 @@ export default {
       "masked": "The manager’s ____ by company policy.",
       "options": [
         "hand-mcq-42",
-        "hand-mcq-41",
-        "hand-mcq-43",
-        "hand-mcq-40",
-        "hand-mcq-44",
-        "hand-mcq-39"
+        "hand-mcq-13",
+        "hand-mcq-64",
+        "hand-mcq-62"
       ],
       "explanation": "本句的「hands were tied」指「因規則或情勢限制而無法自由採取行動」。",
       "sentenceIndex": 87,
@@ -4095,12 +3745,10 @@ export default {
         "hands were tied"
       ],
       "optionReasons": {
-        "hand-mcq-42": "本句指「因規則或情勢限制而無法自由採取行動」。",
-        "hand-mcq-41": "「工作或責任太多，忙得不可開交」是「have your hands full」的用法，與本句語境不同。",
-        "hand-mcq-43": "「宣布不再負責或介入某人／某事」是「wash your hands of」的用法，與本句語境不同。",
-        "hand-mcq-40": "「不加考慮就立即拒絕」是「out of hand — reject」的用法，與本句語境不同。",
-        "hand-mcq-44": "「取得較有利或較強勢的位置；佔上風」是「have/gain the upper hand」的用法，與本句語境不同。",
-        "hand-mcq-39": "「情況變得無法控制」是「get out of hand」的用法，與本句語境不同。"
+        "hand-mcq-42": "本句的「hands were tied」指「因規則或情勢限制而無法自由採取行動」。",
+        "hand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-42"
     },
@@ -4112,11 +3760,9 @@ export default {
       "masked": "He decided to ____.",
       "options": [
         "hand-mcq-43",
-        "hand-mcq-42",
-        "hand-mcq-44",
-        "hand-mcq-41",
-        "hand-mcq-45",
-        "hand-mcq-40"
+        "hand-mcq-47",
+        "hand-mcq-18",
+        "hand-mcq-44"
       ],
       "explanation": "本句的「wash his hands of the whole matter」指「宣布不再負責或介入某人／某事」。",
       "sentenceIndex": 88,
@@ -4125,12 +3771,10 @@ export default {
         "wash his hands of the whole matter"
       ],
       "optionReasons": {
-        "hand-mcq-43": "本句指「宣布不再負責或介入某人／某事」。",
-        "hand-mcq-42": "「因規則或情勢限制而無法自由採取行動」是「have your hands tied」的用法，與本句語境不同。",
-        "hand-mcq-44": "「取得較有利或較強勢的位置；佔上風」是「have/gain the upper hand」的用法，與本句語境不同。",
-        "hand-mcq-41": "「工作或責任太多，忙得不可開交」是「have your hands full」的用法，與本句語境不同。",
-        "hand-mcq-45": "「給某人充分自主權」是「give someone a free hand」的用法，與本句語境不同。",
-        "hand-mcq-40": "「不加考慮就立即拒絕」是「out of hand — reject」的用法，與本句語境不同。"
+        "hand-mcq-43": "本句的「wash his hands of the whole matter」指「宣布不再負責或介入某人／某事」。",
+        "hand-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-43"
     },
@@ -4142,11 +3786,9 @@ export default {
       "masked": "She could not simply ____.",
       "options": [
         "hand-mcq-43",
-        "hand-mcq-42",
-        "hand-mcq-44",
-        "hand-mcq-41",
-        "hand-mcq-45",
-        "hand-mcq-40"
+        "hand-mcq-39",
+        "hand-mcq-67",
+        "hand-mcq-36"
       ],
       "explanation": "本句的「wash her hands of the problem」指「宣布不再負責或介入某人／某事」。",
       "sentenceIndex": 89,
@@ -4155,12 +3797,10 @@ export default {
         "wash her hands of the problem"
       ],
       "optionReasons": {
-        "hand-mcq-43": "本句指「宣布不再負責或介入某人／某事」。",
-        "hand-mcq-42": "「因規則或情勢限制而無法自由採取行動」是「have your hands tied」的用法，與本句語境不同。",
-        "hand-mcq-44": "「取得較有利或較強勢的位置；佔上風」是「have/gain the upper hand」的用法，與本句語境不同。",
-        "hand-mcq-41": "「工作或責任太多，忙得不可開交」是「have your hands full」的用法，與本句語境不同。",
-        "hand-mcq-45": "「給某人充分自主權」是「give someone a free hand」的用法，與本句語境不同。",
-        "hand-mcq-40": "「不加考慮就立即拒絕」是「out of hand — reject」的用法，與本句語境不同。"
+        "hand-mcq-43": "本句的「wash her hands of the problem」指「宣布不再負責或介入某人／某事」。",
+        "hand-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-43"
     },
@@ -4172,11 +3812,9 @@ export default {
       "masked": "Their team ____ in the second half.",
       "options": [
         "hand-mcq-44",
-        "hand-mcq-43",
-        "hand-mcq-45",
-        "hand-mcq-42",
-        "hand-mcq-46",
-        "hand-mcq-41"
+        "hand-mcq-17",
+        "hand-mcq-14",
+        "hand-mcq-69"
       ],
       "explanation": "本句的「gained the upper hand」指「取得較有利或較強勢的位置；佔上風」。",
       "sentenceIndex": 90,
@@ -4185,12 +3823,10 @@ export default {
         "gained the upper hand"
       ],
       "optionReasons": {
-        "hand-mcq-44": "本句指「取得較有利或較強勢的位置；佔上風」。",
-        "hand-mcq-43": "「宣布不再負責或介入某人／某事」是「wash your hands of」的用法，與本句語境不同。",
-        "hand-mcq-45": "「給某人充分自主權」是「give someone a free hand」的用法，與本句語境不同。",
-        "hand-mcq-42": "「因規則或情勢限制而無法自由採取行動」是「have your hands tied」的用法，與本句語境不同。",
-        "hand-mcq-46": "「嘗試做某項新活動；試試身手」是「try your hand at」的用法，與本句語境不同。",
-        "hand-mcq-41": "「工作或責任太多，忙得不可開交」是「have your hands full」的用法，與本句語境不同。"
+        "hand-mcq-44": "本句的「gained the upper hand」指「取得較有利或較強勢的位置；佔上風」。",
+        "hand-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-44"
     },
@@ -4202,11 +3838,9 @@ export default {
       "masked": "Neither side had the ____.",
       "options": [
         "hand-mcq-44",
-        "hand-mcq-43",
-        "hand-mcq-45",
-        "hand-mcq-42",
-        "hand-mcq-46",
-        "hand-mcq-41"
+        "hand-mcq-41",
+        "hand-mcq-23",
+        "hand-mcq-66"
       ],
       "explanation": "本句的「upper hand」指「取得較有利或較強勢的位置；佔上風」。",
       "sentenceIndex": 91,
@@ -4215,12 +3849,10 @@ export default {
         "upper hand"
       ],
       "optionReasons": {
-        "hand-mcq-44": "本句指「取得較有利或較強勢的位置；佔上風」。",
-        "hand-mcq-43": "「宣布不再負責或介入某人／某事」是「wash your hands of」的用法，與本句語境不同。",
-        "hand-mcq-45": "「給某人充分自主權」是「give someone a free hand」的用法，與本句語境不同。",
-        "hand-mcq-42": "「因規則或情勢限制而無法自由採取行動」是「have your hands tied」的用法，與本句語境不同。",
-        "hand-mcq-46": "「嘗試做某項新活動；試試身手」是「try your hand at」的用法，與本句語境不同。",
-        "hand-mcq-41": "「工作或責任太多，忙得不可開交」是「have your hands full」的用法，與本句語境不同。"
+        "hand-mcq-44": "本句的「upper hand」指「取得較有利或較強勢的位置；佔上風」。",
+        "hand-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-44"
     },
@@ -4232,11 +3864,9 @@ export default {
       "masked": "The director gave her ____ to redesign the project.",
       "options": [
         "hand-mcq-45",
-        "hand-mcq-44",
-        "hand-mcq-46",
-        "hand-mcq-43",
-        "hand-mcq-47",
-        "hand-mcq-42"
+        "hand-mcq-26",
+        "hand-mcq-06",
+        "hand-mcq-46"
       ],
       "explanation": "本句的「a free hand」指「給某人充分自主權」。",
       "sentenceIndex": 92,
@@ -4245,12 +3875,10 @@ export default {
         "a free hand"
       ],
       "optionReasons": {
-        "hand-mcq-45": "本句指「給某人充分自主權」。",
-        "hand-mcq-44": "「取得較有利或較強勢的位置；佔上風」是「have/gain the upper hand」的用法，與本句語境不同。",
-        "hand-mcq-46": "「嘗試做某項新活動；試試身手」是「try your hand at」的用法，與本句語境不同。",
-        "hand-mcq-43": "「宣布不再負責或介入某人／某事」是「wash your hands of」的用法，與本句語境不同。",
-        "hand-mcq-47": "「著手做某事，尤其指實際工作」是「turn your hand to」的用法，與本句語境不同。",
-        "hand-mcq-42": "「因規則或情勢限制而無法自由採取行動」是「have your hands tied」的用法，與本句語境不同。"
+        "hand-mcq-45": "本句的「a free hand」指「給某人充分自主權」。",
+        "hand-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-45"
     },
@@ -4262,11 +3890,9 @@ export default {
       "masked": "He was given ____ in choosing the team.",
       "options": [
         "hand-mcq-45",
-        "hand-mcq-44",
-        "hand-mcq-46",
-        "hand-mcq-43",
-        "hand-mcq-47",
-        "hand-mcq-42"
+        "hand-mcq-20",
+        "hand-mcq-27",
+        "hand-mcq-39"
       ],
       "explanation": "本句的「a free hand」指「給某人充分自主權」。",
       "sentenceIndex": 93,
@@ -4275,12 +3901,10 @@ export default {
         "a free hand"
       ],
       "optionReasons": {
-        "hand-mcq-45": "本句指「給某人充分自主權」。",
-        "hand-mcq-44": "「取得較有利或較強勢的位置；佔上風」是「have/gain the upper hand」的用法，與本句語境不同。",
-        "hand-mcq-46": "「嘗試做某項新活動；試試身手」是「try your hand at」的用法，與本句語境不同。",
-        "hand-mcq-43": "「宣布不再負責或介入某人／某事」是「wash your hands of」的用法，與本句語境不同。",
-        "hand-mcq-47": "「著手做某事，尤其指實際工作」是「turn your hand to」的用法，與本句語境不同。",
-        "hand-mcq-42": "「因規則或情勢限制而無法自由採取行動」是「have your hands tied」的用法，與本句語境不同。"
+        "hand-mcq-45": "本句的「a free hand」指「給某人充分自主權」。",
+        "hand-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-45"
     },
@@ -4292,11 +3916,9 @@ export default {
       "masked": "The situation required ____.",
       "options": [
         "hand-mcq-68",
-        "hand-mcq-67",
+        "hand-mcq-37",
         "hand-mcq-69",
-        "hand-mcq-66",
-        "hand-mcq-70",
-        "hand-mcq-65"
+        "hand-mcq-48"
       ],
       "explanation": "本句的「a firm hand」指「表示強硬／堅定的管理手段」。",
       "sentenceIndex": 94,
@@ -4305,12 +3927,10 @@ export default {
         "a firm hand"
       ],
       "optionReasons": {
-        "hand-mcq-68": "本句指「表示強硬／堅定的管理手段」。",
-        "hand-mcq-67": "「把某事處理得很好；掌控得宜」是「27. have something well in hand」的用法，與本句語境不同。",
-        "hand-mcq-69": "「表示無微不至地伺候；服侍周到」是「64. wait on someone hand and foot」的用法，與本句語境不同。",
-        "hand-mcq-66": "「表示時針」是「8. hour hand / minute hand / second hand」的用法，與本句語境不同。",
-        "hand-mcq-70": "「表示手冊；指南」是「70. handbook」的用法，與本句語境不同。",
-        "hand-mcq-65": "「表示手；手掌」是「Passage meaning B — in my hand」的用法，與本句語境不同。"
+        "hand-mcq-68": "本句的「a firm hand」指「表示強硬／堅定的管理手段」。",
+        "hand-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-68"
     },
@@ -4322,11 +3942,9 @@ export default {
       "masked": "She manages the department with ____.",
       "options": [
         "hand-mcq-68",
-        "hand-mcq-67",
-        "hand-mcq-69",
-        "hand-mcq-66",
-        "hand-mcq-70",
-        "hand-mcq-65"
+        "hand-mcq-09",
+        "hand-mcq-37",
+        "hand-mcq-12"
       ],
       "explanation": "本句的「a firm hand」指「表示強硬／堅定的管理手段」。",
       "sentenceIndex": 95,
@@ -4335,12 +3953,10 @@ export default {
         "a firm hand"
       ],
       "optionReasons": {
-        "hand-mcq-68": "本句指「表示強硬／堅定的管理手段」。",
-        "hand-mcq-67": "「把某事處理得很好；掌控得宜」是「27. have something well in hand」的用法，與本句語境不同。",
-        "hand-mcq-69": "「表示無微不至地伺候；服侍周到」是「64. wait on someone hand and foot」的用法，與本句語境不同。",
-        "hand-mcq-66": "「表示時針」是「8. hour hand / minute hand / second hand」的用法，與本句語境不同。",
-        "hand-mcq-70": "「表示手冊；指南」是「70. handbook」的用法，與本句語境不同。",
-        "hand-mcq-65": "「表示手；手掌」是「Passage meaning B — in my hand」的用法，與本句語境不同。"
+        "hand-mcq-68": "本句的「a firm hand」指「表示強硬／堅定的管理手段」。",
+        "hand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-68"
     },
@@ -4352,11 +3968,9 @@ export default {
       "masked": "I decided to ____.",
       "options": [
         "hand-mcq-46",
-        "hand-mcq-45",
-        "hand-mcq-47",
-        "hand-mcq-44",
-        "hand-mcq-48",
-        "hand-mcq-43"
+        "hand-mcq-28",
+        "hand-mcq-23",
+        "hand-mcq-41"
       ],
       "explanation": "本句的「try my hand at painting」指「嘗試做某項新活動；試試身手」。",
       "sentenceIndex": 96,
@@ -4365,12 +3979,10 @@ export default {
         "try my hand at painting"
       ],
       "optionReasons": {
-        "hand-mcq-46": "本句指「嘗試做某項新活動；試試身手」。",
-        "hand-mcq-45": "「給某人充分自主權」是「give someone a free hand」的用法，與本句語境不同。",
-        "hand-mcq-47": "「著手做某事，尤其指實際工作」是「turn your hand to」的用法，與本句語境不同。",
-        "hand-mcq-44": "「取得較有利或較強勢的位置；佔上風」是「have/gain the upper hand」的用法，與本句語境不同。",
-        "hand-mcq-48": "「對某地方或事物非常熟悉；瞭如指掌」是「know something like the back of your hand」的用法，與本句語境不同。",
-        "hand-mcq-43": "「宣布不再負責或介入某人／某事」是「wash your hands of」的用法，與本句語境不同。"
+        "hand-mcq-46": "本句的「try my hand at painting」指「嘗試做某項新活動；試試身手」。",
+        "hand-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-46"
     },
@@ -4382,11 +3994,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "hand-mcq-46",
-        "hand-mcq-45",
-        "hand-mcq-47",
-        "hand-mcq-44",
-        "hand-mcq-48",
-        "hand-mcq-43"
+        "hand-mcq-06",
+        "hand-mcq-38",
+        "hand-mcq-40"
       ],
       "explanation": "本句的「tried her hand at writing fiction」指「嘗試做某項新活動；試試身手」。",
       "sentenceIndex": 97,
@@ -4395,12 +4005,10 @@ export default {
         "tried her hand at writing fiction"
       ],
       "optionReasons": {
-        "hand-mcq-46": "本句指「嘗試做某項新活動；試試身手」。",
-        "hand-mcq-45": "「給某人充分自主權」是「give someone a free hand」的用法，與本句語境不同。",
-        "hand-mcq-47": "「著手做某事，尤其指實際工作」是「turn your hand to」的用法，與本句語境不同。",
-        "hand-mcq-44": "「取得較有利或較強勢的位置；佔上風」是「have/gain the upper hand」的用法，與本句語境不同。",
-        "hand-mcq-48": "「對某地方或事物非常熟悉；瞭如指掌」是「know something like the back of your hand」的用法，與本句語境不同。",
-        "hand-mcq-43": "「宣布不再負責或介入某人／某事」是「wash your hands of」的用法，與本句語境不同。"
+        "hand-mcq-46": "本句的「tried her hand at writing fiction」指「嘗試做某項新活動；試試身手」。",
+        "hand-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-46"
     },
@@ -4412,11 +4020,9 @@ export default {
       "masked": "He can ____.",
       "options": [
         "hand-mcq-47",
-        "hand-mcq-46",
-        "hand-mcq-48",
-        "hand-mcq-45",
-        "hand-mcq-49",
-        "hand-mcq-44"
+        "hand-mcq-30",
+        "hand-mcq-42",
+        "hand-mcq-54"
       ],
       "explanation": "本句的「turn his hand to almost anything」指「著手做某事，尤其指實際工作」。",
       "sentenceIndex": 98,
@@ -4425,12 +4031,10 @@ export default {
         "turn his hand to almost anything"
       ],
       "optionReasons": {
-        "hand-mcq-47": "本句指「著手做某事，尤其指實際工作」。",
-        "hand-mcq-46": "「嘗試做某項新活動；試試身手」是「try your hand at」的用法，與本句語境不同。",
-        "hand-mcq-48": "「對某地方或事物非常熟悉；瞭如指掌」是「know something like the back of your hand」的用法，與本句語境不同。",
-        "hand-mcq-45": "「給某人充分自主權」是「give someone a free hand」的用法，與本句語境不同。",
-        "hand-mcq-49": "「手牽手」是「hand in hand — literal」的用法，與本句語境不同。",
-        "hand-mcq-44": "「取得較有利或較強勢的位置；佔上風」是「have/gain the upper hand」的用法，與本句語境不同。"
+        "hand-mcq-47": "本句的「turn his hand to almost anything」指「著手做某事，尤其指實際工作」。",
+        "hand-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-47"
     },
@@ -4442,11 +4046,9 @@ export default {
       "masked": "She ____ after leaving industry.",
       "options": [
         "hand-mcq-47",
-        "hand-mcq-46",
-        "hand-mcq-48",
-        "hand-mcq-45",
-        "hand-mcq-49",
-        "hand-mcq-44"
+        "hand-mcq-12",
+        "hand-mcq-27",
+        "hand-mcq-23"
       ],
       "explanation": "本句的「turned her hand to teaching」指「著手做某事，尤其指實際工作」。",
       "sentenceIndex": 99,
@@ -4455,12 +4057,10 @@ export default {
         "turned her hand to teaching"
       ],
       "optionReasons": {
-        "hand-mcq-47": "本句指「著手做某事，尤其指實際工作」。",
-        "hand-mcq-46": "「嘗試做某項新活動；試試身手」是「try your hand at」的用法，與本句語境不同。",
-        "hand-mcq-48": "「對某地方或事物非常熟悉；瞭如指掌」是「know something like the back of your hand」的用法，與本句語境不同。",
-        "hand-mcq-45": "「給某人充分自主權」是「give someone a free hand」的用法，與本句語境不同。",
-        "hand-mcq-49": "「手牽手」是「hand in hand — literal」的用法，與本句語境不同。",
-        "hand-mcq-44": "「取得較有利或較強勢的位置；佔上風」是「have/gain the upper hand」的用法，與本句語境不同。"
+        "hand-mcq-47": "本句的「turned her hand to teaching」指「著手做某事，尤其指實際工作」。",
+        "hand-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-47"
     },
@@ -4472,11 +4072,9 @@ export default {
       "masked": "She knows the city ____.",
       "options": [
         "hand-mcq-48",
-        "hand-mcq-47",
-        "hand-mcq-49",
-        "hand-mcq-46",
-        "hand-mcq-50",
-        "hand-mcq-45"
+        "hand-mcq-64",
+        "hand-mcq-69",
+        "hand-mcq-50"
       ],
       "explanation": "本句的「like the back of her hand」指「對某地方或事物非常熟悉；瞭如指掌」。",
       "sentenceIndex": 100,
@@ -4485,12 +4083,10 @@ export default {
         "like the back of her hand"
       ],
       "optionReasons": {
-        "hand-mcq-48": "本句指「對某地方或事物非常熟悉；瞭如指掌」。",
-        "hand-mcq-47": "「著手做某事，尤其指實際工作」是「turn your hand to」的用法，與本句語境不同。",
-        "hand-mcq-49": "「手牽手」是「hand in hand — literal」的用法，與本句語境不同。",
-        "hand-mcq-46": "「嘗試做某項新活動；試試身手」是「try your hand at」的用法，與本句語境不同。",
-        "hand-mcq-50": "「兩件事密切相關、相伴發生」是「go hand in hand」的用法，與本句語境不同。",
-        "hand-mcq-45": "「給某人充分自主權」是「give someone a free hand」的用法，與本句語境不同。"
+        "hand-mcq-48": "本句的「like the back of her hand」指「對某地方或事物非常熟悉；瞭如指掌」。",
+        "hand-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-48"
     },
@@ -4502,11 +4098,9 @@ export default {
       "masked": "He knows the system ____.",
       "options": [
         "hand-mcq-48",
-        "hand-mcq-47",
-        "hand-mcq-49",
-        "hand-mcq-46",
-        "hand-mcq-50",
-        "hand-mcq-45"
+        "hand-mcq-63",
+        "hand-mcq-55",
+        "hand-mcq-50"
       ],
       "explanation": "本句的「like the back of his hand」指「對某地方或事物非常熟悉；瞭如指掌」。",
       "sentenceIndex": 101,
@@ -4515,12 +4109,10 @@ export default {
         "like the back of his hand"
       ],
       "optionReasons": {
-        "hand-mcq-48": "本句指「對某地方或事物非常熟悉；瞭如指掌」。",
-        "hand-mcq-47": "「著手做某事，尤其指實際工作」是「turn your hand to」的用法，與本句語境不同。",
-        "hand-mcq-49": "「手牽手」是「hand in hand — literal」的用法，與本句語境不同。",
-        "hand-mcq-46": "「嘗試做某項新活動；試試身手」是「try your hand at」的用法，與本句語境不同。",
-        "hand-mcq-50": "「兩件事密切相關、相伴發生」是「go hand in hand」的用法，與本句語境不同。",
-        "hand-mcq-45": "「給某人充分自主權」是「give someone a free hand」的用法，與本句語境不同。"
+        "hand-mcq-48": "本句的「like the back of his hand」指「對某地方或事物非常熟悉；瞭如指掌」。",
+        "hand-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-48"
     },
@@ -4532,11 +4124,9 @@ export default {
       "masked": "They walked ____.",
       "options": [
         "hand-mcq-49",
-        "hand-mcq-48",
-        "hand-mcq-50",
-        "hand-mcq-47",
-        "hand-mcq-51",
-        "hand-mcq-46"
+        "hand-mcq-26",
+        "hand-mcq-35",
+        "hand-mcq-06"
       ],
       "explanation": "本句的「hand in hand」指「手牽手」。",
       "sentenceIndex": 102,
@@ -4545,12 +4135,10 @@ export default {
         "hand in hand"
       ],
       "optionReasons": {
-        "hand-mcq-49": "本句指「手牽手」。",
-        "hand-mcq-48": "「對某地方或事物非常熟悉；瞭如指掌」是「know something like the back of your hand」的用法，與本句語境不同。",
-        "hand-mcq-50": "「兩件事密切相關、相伴發生」是「go hand in hand」的用法，與本句語境不同。",
-        "hand-mcq-47": "「著手做某事，尤其指實際工作」是「turn your hand to」的用法，與本句語境不同。",
-        "hand-mcq-51": "「因某人的行為而遭遇某事，常指不好的事情」是「at the hands of」的用法，與本句語境不同。",
-        "hand-mcq-46": "「嘗試做某項新活動；試試身手」是「try your hand at」的用法，與本句語境不同。"
+        "hand-mcq-49": "本句的「hand in hand」指「手牽手」。",
+        "hand-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-49"
     },
@@ -4562,11 +4150,9 @@ export default {
       "masked": "The children stood ____.",
       "options": [
         "hand-mcq-49",
-        "hand-mcq-48",
-        "hand-mcq-50",
-        "hand-mcq-47",
-        "hand-mcq-51",
-        "hand-mcq-46"
+        "hand-mcq-33",
+        "hand-mcq-29",
+        "hand-mcq-16"
       ],
       "explanation": "本句的「hand in hand」指「手牽手」。",
       "sentenceIndex": 103,
@@ -4575,12 +4161,10 @@ export default {
         "hand in hand"
       ],
       "optionReasons": {
-        "hand-mcq-49": "本句指「手牽手」。",
-        "hand-mcq-48": "「對某地方或事物非常熟悉；瞭如指掌」是「know something like the back of your hand」的用法，與本句語境不同。",
-        "hand-mcq-50": "「兩件事密切相關、相伴發生」是「go hand in hand」的用法，與本句語境不同。",
-        "hand-mcq-47": "「著手做某事，尤其指實際工作」是「turn your hand to」的用法，與本句語境不同。",
-        "hand-mcq-51": "「因某人的行為而遭遇某事，常指不好的事情」是「at the hands of」的用法，與本句語境不同。",
-        "hand-mcq-46": "「嘗試做某項新活動；試試身手」是「try your hand at」的用法，與本句語境不同。"
+        "hand-mcq-49": "本句的「hand in hand」指「手牽手」。",
+        "hand-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-49"
     },
@@ -4592,11 +4176,9 @@ export default {
       "masked": "Knowledge and practice often ____.",
       "options": [
         "hand-mcq-50",
-        "hand-mcq-49",
-        "hand-mcq-51",
-        "hand-mcq-48",
-        "hand-mcq-52",
-        "hand-mcq-47"
+        "hand-mcq-65",
+        "hand-mcq-41",
+        "hand-mcq-27"
       ],
       "explanation": "本句的「go hand in hand」指「兩件事密切相關、相伴發生」。",
       "sentenceIndex": 104,
@@ -4605,12 +4187,10 @@ export default {
         "go hand in hand"
       ],
       "optionReasons": {
-        "hand-mcq-50": "本句指「兩件事密切相關、相伴發生」。",
-        "hand-mcq-49": "「手牽手」是「hand in hand — literal」的用法，與本句語境不同。",
-        "hand-mcq-51": "「因某人的行為而遭遇某事，常指不好的事情」是「at the hands of」的用法，與本句語境不同。",
-        "hand-mcq-48": "「對某地方或事物非常熟悉；瞭如指掌」是「know something like the back of your hand」的用法，與本句語境不同。",
-        "hand-mcq-52": "「不等別人處理而自己採取行動」是「take matters into your own hands」的用法，與本句語境不同。",
-        "hand-mcq-47": "「著手做某事，尤其指實際工作」是「turn your hand to」的用法，與本句語境不同。"
+        "hand-mcq-50": "本句的「go hand in hand」指「兩件事密切相關、相伴發生」。",
+        "hand-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-50"
     },
@@ -4622,11 +4202,9 @@ export default {
       "masked": "Freedom and responsibility ____.",
       "options": [
         "hand-mcq-50",
-        "hand-mcq-49",
-        "hand-mcq-51",
-        "hand-mcq-48",
-        "hand-mcq-52",
-        "hand-mcq-47"
+        "hand-mcq-07",
+        "hand-mcq-23",
+        "hand-mcq-27"
       ],
       "explanation": "本句的「go hand in hand」指「兩件事密切相關、相伴發生」。",
       "sentenceIndex": 105,
@@ -4635,12 +4213,10 @@ export default {
         "go hand in hand"
       ],
       "optionReasons": {
-        "hand-mcq-50": "本句指「兩件事密切相關、相伴發生」。",
-        "hand-mcq-49": "「手牽手」是「hand in hand — literal」的用法，與本句語境不同。",
-        "hand-mcq-51": "「因某人的行為而遭遇某事，常指不好的事情」是「at the hands of」的用法，與本句語境不同。",
-        "hand-mcq-48": "「對某地方或事物非常熟悉；瞭如指掌」是「know something like the back of your hand」的用法，與本句語境不同。",
-        "hand-mcq-52": "「不等別人處理而自己採取行動」是「take matters into your own hands」的用法，與本句語境不同。",
-        "hand-mcq-47": "「著手做某事，尤其指實際工作」是「turn your hand to」的用法，與本句語境不同。"
+        "hand-mcq-50": "本句的「go hand in hand」指「兩件事密切相關、相伴發生」。",
+        "hand-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-50"
     },
@@ -4652,11 +4228,9 @@ export default {
       "masked": "They suffered greatly ____ the invaders.",
       "options": [
         "hand-mcq-51",
-        "hand-mcq-50",
-        "hand-mcq-52",
-        "hand-mcq-49",
-        "hand-mcq-53",
-        "hand-mcq-48"
+        "hand-mcq-41",
+        "hand-mcq-62",
+        "hand-mcq-55"
       ],
       "explanation": "本句的「at the hands of」指「因某人的行為而遭遇某事，常指不好的事情」。",
       "sentenceIndex": 106,
@@ -4665,12 +4239,10 @@ export default {
         "at the hands of"
       ],
       "optionReasons": {
-        "hand-mcq-51": "本句指「因某人的行為而遭遇某事，常指不好的事情」。",
-        "hand-mcq-50": "「兩件事密切相關、相伴發生」是「go hand in hand」的用法，與本句語境不同。",
-        "hand-mcq-52": "「不等別人處理而自己採取行動」是「take matters into your own hands」的用法，與本句語境不同。",
-        "hand-mcq-49": "「手牽手」是「hand in hand — literal」的用法，與本句語境不同。",
-        "hand-mcq-53": "「迫使某人比原先預期更早採取行動或決定」是「force someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-48": "「對某地方或事物非常熟悉；瞭如指掌」是「know something like the back of your hand」的用法，與本句語境不同。"
+        "hand-mcq-51": "本句的「at the hands of」指「因某人的行為而遭遇某事，常指不好的事情」。",
+        "hand-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-51"
     },
@@ -4682,11 +4254,9 @@ export default {
       "masked": "He experienced unfair treatment ____ his employer.",
       "options": [
         "hand-mcq-51",
-        "hand-mcq-50",
-        "hand-mcq-52",
-        "hand-mcq-49",
-        "hand-mcq-53",
-        "hand-mcq-48"
+        "hand-mcq-24",
+        "hand-mcq-10",
+        "hand-mcq-55"
       ],
       "explanation": "本句的「at the hands of」指「因某人的行為而遭遇某事，常指不好的事情」。",
       "sentenceIndex": 107,
@@ -4695,12 +4265,10 @@ export default {
         "at the hands of"
       ],
       "optionReasons": {
-        "hand-mcq-51": "本句指「因某人的行為而遭遇某事，常指不好的事情」。",
-        "hand-mcq-50": "「兩件事密切相關、相伴發生」是「go hand in hand」的用法，與本句語境不同。",
-        "hand-mcq-52": "「不等別人處理而自己採取行動」是「take matters into your own hands」的用法，與本句語境不同。",
-        "hand-mcq-49": "「手牽手」是「hand in hand — literal」的用法，與本句語境不同。",
-        "hand-mcq-53": "「迫使某人比原先預期更早採取行動或決定」是「force someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-48": "「對某地方或事物非常熟悉；瞭如指掌」是「know something like the back of your hand」的用法，與本句語境不同。"
+        "hand-mcq-51": "本句的「at the hands of」指「因某人的行為而遭遇某事，常指不好的事情」。",
+        "hand-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-51"
     },
@@ -4712,11 +4280,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "hand-mcq-52",
-        "hand-mcq-51",
-        "hand-mcq-53",
         "hand-mcq-50",
-        "hand-mcq-54",
-        "hand-mcq-49"
+        "hand-mcq-69",
+        "hand-mcq-23"
       ],
       "explanation": "本句的「take matters into her own hands」指「不等別人處理而自己採取行動」。",
       "sentenceIndex": 108,
@@ -4725,12 +4291,10 @@ export default {
         "take matters into her own hands"
       ],
       "optionReasons": {
-        "hand-mcq-52": "本句指「不等別人處理而自己採取行動」。",
-        "hand-mcq-51": "「因某人的行為而遭遇某事，常指不好的事情」是「at the hands of」的用法，與本句語境不同。",
-        "hand-mcq-53": "「迫使某人比原先預期更早採取行動或決定」是「force someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-50": "「兩件事密切相關、相伴發生」是「go hand in hand」的用法，與本句語境不同。",
-        "hand-mcq-54": "「揭露自己的計畫、意圖或底牌」是「show/reveal your hand」的用法，與本句語境不同。",
-        "hand-mcq-49": "「手牽手」是「hand in hand — literal」的用法，與本句語境不同。"
+        "hand-mcq-52": "本句的「take matters into her own hands」指「不等別人處理而自己採取行動」。",
+        "hand-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-52"
     },
@@ -4742,11 +4306,9 @@ export default {
       "masked": "When nobody responded, he ____.",
       "options": [
         "hand-mcq-52",
-        "hand-mcq-51",
-        "hand-mcq-53",
-        "hand-mcq-50",
-        "hand-mcq-54",
-        "hand-mcq-49"
+        "hand-mcq-02",
+        "hand-mcq-18",
+        "hand-mcq-39"
       ],
       "explanation": "本句的「took matters into his own hands」指「不等別人處理而自己採取行動」。",
       "sentenceIndex": 109,
@@ -4755,12 +4317,10 @@ export default {
         "took matters into his own hands"
       ],
       "optionReasons": {
-        "hand-mcq-52": "本句指「不等別人處理而自己採取行動」。",
-        "hand-mcq-51": "「因某人的行為而遭遇某事，常指不好的事情」是「at the hands of」的用法，與本句語境不同。",
-        "hand-mcq-53": "「迫使某人比原先預期更早採取行動或決定」是「force someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-50": "「兩件事密切相關、相伴發生」是「go hand in hand」的用法，與本句語境不同。",
-        "hand-mcq-54": "「揭露自己的計畫、意圖或底牌」是「show/reveal your hand」的用法，與本句語境不同。",
-        "hand-mcq-49": "「手牽手」是「hand in hand — literal」的用法，與本句語境不同。"
+        "hand-mcq-52": "本句的「took matters into his own hands」指「不等別人處理而自己採取行動」。",
+        "hand-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-52"
     },
@@ -4772,11 +4332,9 @@ export default {
       "masked": "The leak ____.",
       "options": [
         "hand-mcq-53",
-        "hand-mcq-52",
-        "hand-mcq-54",
-        "hand-mcq-51",
-        "hand-mcq-55",
-        "hand-mcq-50"
+        "hand-mcq-29",
+        "hand-mcq-06",
+        "hand-mcq-62"
       ],
       "explanation": "本句的「forced the company’s hand」指「迫使某人比原先預期更早採取行動或決定」。",
       "sentenceIndex": 110,
@@ -4785,12 +4343,10 @@ export default {
         "forced the company’s hand"
       ],
       "optionReasons": {
-        "hand-mcq-53": "本句指「迫使某人比原先預期更早採取行動或決定」。",
-        "hand-mcq-52": "「不等別人處理而自己採取行動」是「take matters into your own hands」的用法，與本句語境不同。",
-        "hand-mcq-54": "「揭露自己的計畫、意圖或底牌」是「show/reveal your hand」的用法，與本句語境不同。",
-        "hand-mcq-51": "「因某人的行為而遭遇某事，常指不好的事情」是「at the hands of」的用法，與本句語境不同。",
-        "hand-mcq-55": "「無意中做出讓對方得利的事；正中下懷」是「play into someone’s hands」的用法，與本句語境不同。",
-        "hand-mcq-50": "「兩件事密切相關、相伴發生」是「go hand in hand」的用法，與本句語境不同。"
+        "hand-mcq-53": "本句的「forced the company’s hand」指「迫使某人比原先預期更早採取行動或決定」。",
+        "hand-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-53"
     },
@@ -4802,11 +4358,9 @@ export default {
       "masked": "Circumstances ____.",
       "options": [
         "hand-mcq-53",
-        "hand-mcq-52",
-        "hand-mcq-54",
-        "hand-mcq-51",
-        "hand-mcq-55",
-        "hand-mcq-50"
+        "hand-mcq-50",
+        "hand-mcq-49",
+        "hand-mcq-16"
       ],
       "explanation": "本句的「forced her hand」指「迫使某人比原先預期更早採取行動或決定」。",
       "sentenceIndex": 111,
@@ -4815,12 +4369,10 @@ export default {
         "forced her hand"
       ],
       "optionReasons": {
-        "hand-mcq-53": "本句指「迫使某人比原先預期更早採取行動或決定」。",
-        "hand-mcq-52": "「不等別人處理而自己採取行動」是「take matters into your own hands」的用法，與本句語境不同。",
-        "hand-mcq-54": "「揭露自己的計畫、意圖或底牌」是「show/reveal your hand」的用法，與本句語境不同。",
-        "hand-mcq-51": "「因某人的行為而遭遇某事，常指不好的事情」是「at the hands of」的用法，與本句語境不同。",
-        "hand-mcq-55": "「無意中做出讓對方得利的事；正中下懷」是「play into someone’s hands」的用法，與本句語境不同。",
-        "hand-mcq-50": "「兩件事密切相關、相伴發生」是「go hand in hand」的用法，與本句語境不同。"
+        "hand-mcq-53": "本句的「forced her hand」指「迫使某人比原先預期更早採取行動或決定」。",
+        "hand-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-53"
     },
@@ -4832,11 +4384,9 @@ export default {
       "masked": "He refused to ____ too early.",
       "options": [
         "hand-mcq-54",
-        "hand-mcq-53",
-        "hand-mcq-55",
-        "hand-mcq-52",
-        "hand-mcq-56",
-        "hand-mcq-51"
+        "hand-mcq-01",
+        "hand-mcq-67",
+        "hand-mcq-37"
       ],
       "explanation": "本句的「show his hand」指「揭露自己的計畫、意圖或底牌」。",
       "sentenceIndex": 112,
@@ -4845,12 +4395,10 @@ export default {
         "show his hand"
       ],
       "optionReasons": {
-        "hand-mcq-54": "本句指「揭露自己的計畫、意圖或底牌」。",
-        "hand-mcq-53": "「迫使某人比原先預期更早採取行動或決定」是「force someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-55": "「無意中做出讓對方得利的事；正中下懷」是「play into someone’s hands」的用法，與本句語境不同。",
-        "hand-mcq-52": "「不等別人處理而自己採取行動」是「take matters into your own hands」的用法，與本句語境不同。",
-        "hand-mcq-56": "「方便、實用的」是「handy — useful」的用法，與本句語境不同。",
-        "hand-mcq-51": "「因某人的行為而遭遇某事，常指不好的事情」是「at the hands of」的用法，與本句語境不同。"
+        "hand-mcq-54": "本句的「show his hand」指「揭露自己的計畫、意圖或底牌」。",
+        "hand-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-54"
     },
@@ -4862,11 +4410,9 @@ export default {
       "masked": "The announcement ____.",
       "options": [
         "hand-mcq-54",
-        "hand-mcq-53",
-        "hand-mcq-55",
-        "hand-mcq-52",
-        "hand-mcq-56",
-        "hand-mcq-51"
+        "hand-mcq-47",
+        "hand-mcq-08",
+        "hand-mcq-40"
       ],
       "explanation": "本句的「revealed the company’s hand」指「揭露自己的計畫、意圖或底牌」。",
       "sentenceIndex": 113,
@@ -4875,12 +4421,10 @@ export default {
         "revealed the company’s hand"
       ],
       "optionReasons": {
-        "hand-mcq-54": "本句指「揭露自己的計畫、意圖或底牌」。",
-        "hand-mcq-53": "「迫使某人比原先預期更早採取行動或決定」是「force someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-55": "「無意中做出讓對方得利的事；正中下懷」是「play into someone’s hands」的用法，與本句語境不同。",
-        "hand-mcq-52": "「不等別人處理而自己採取行動」是「take matters into your own hands」的用法，與本句語境不同。",
-        "hand-mcq-56": "「方便、實用的」是「handy — useful」的用法，與本句語境不同。",
-        "hand-mcq-51": "「因某人的行為而遭遇某事，常指不好的事情」是「at the hands of」的用法，與本句語境不同。"
+        "hand-mcq-54": "本句的「revealed the company’s hand」指「揭露自己的計畫、意圖或底牌」。",
+        "hand-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-54"
     },
@@ -4892,11 +4436,9 @@ export default {
       "masked": "Getting angry would only ____.",
       "options": [
         "hand-mcq-55",
-        "hand-mcq-54",
-        "hand-mcq-56",
-        "hand-mcq-53",
-        "hand-mcq-57",
-        "hand-mcq-52"
+        "hand-mcq-30",
+        "hand-mcq-52",
+        "hand-mcq-23"
       ],
       "explanation": "本句的「play into their hands」指「無意中做出讓對方得利的事；正中下懷」。",
       "sentenceIndex": 114,
@@ -4905,12 +4447,10 @@ export default {
         "play into their hands"
       ],
       "optionReasons": {
-        "hand-mcq-55": "本句指「無意中做出讓對方得利的事；正中下懷」。",
-        "hand-mcq-54": "「揭露自己的計畫、意圖或底牌」是「show/reveal your hand」的用法，與本句語境不同。",
-        "hand-mcq-56": "「方便、實用的」是「handy — useful」的用法，與本句語境不同。",
-        "hand-mcq-53": "「迫使某人比原先預期更早採取行動或決定」是「force someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-57": "「放在手邊、容易拿到的」是「handy — nearby」的用法，與本句語境不同。",
-        "hand-mcq-52": "「不等別人處理而自己採取行動」是「take matters into your own hands」的用法，與本句語境不同。"
+        "hand-mcq-55": "本句的「play into their hands」指「無意中做出讓對方得利的事；正中下懷」。",
+        "hand-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-55"
     },
@@ -4922,11 +4462,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "hand-mcq-55",
-        "hand-mcq-54",
-        "hand-mcq-56",
-        "hand-mcq-53",
-        "hand-mcq-57",
-        "hand-mcq-52"
+        "hand-mcq-52",
+        "hand-mcq-50",
+        "hand-mcq-18"
       ],
       "explanation": "本句的「play into your competitor’s hands」指「無意中做出讓對方得利的事；正中下懷」。",
       "sentenceIndex": 115,
@@ -4935,12 +4473,10 @@ export default {
         "play into your competitor’s hands"
       ],
       "optionReasons": {
-        "hand-mcq-55": "本句指「無意中做出讓對方得利的事；正中下懷」。",
-        "hand-mcq-54": "「揭露自己的計畫、意圖或底牌」是「show/reveal your hand」的用法，與本句語境不同。",
-        "hand-mcq-56": "「方便、實用的」是「handy — useful」的用法，與本句語境不同。",
-        "hand-mcq-53": "「迫使某人比原先預期更早採取行動或決定」是「force someone’s hand」的用法，與本句語境不同。",
-        "hand-mcq-57": "「放在手邊、容易拿到的」是「handy — nearby」的用法，與本句語境不同。",
-        "hand-mcq-52": "「不等別人處理而自己採取行動」是「take matters into your own hands」的用法，與本句語境不同。"
+        "hand-mcq-55": "本句的「play into your competitor’s hands」指「無意中做出讓對方得利的事；正中下懷」。",
+        "hand-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-55"
     },
@@ -4952,11 +4488,9 @@ export default {
       "masked": "He expects everyone to ____.",
       "options": [
         "hand-mcq-69",
-        "hand-mcq-68",
-        "hand-mcq-70",
-        "hand-mcq-67",
-        "hand-mcq-66",
-        "hand-mcq-65"
+        "hand-mcq-37",
+        "hand-mcq-64",
+        "hand-mcq-23"
       ],
       "explanation": "本句的「wait on him hand and foot」指「表示無微不至地伺候；服侍周到」。",
       "sentenceIndex": 116,
@@ -4965,12 +4499,10 @@ export default {
         "wait on him hand and foot"
       ],
       "optionReasons": {
-        "hand-mcq-69": "本句指「表示無微不至地伺候；服侍周到」。",
-        "hand-mcq-68": "「表示強硬／堅定的管理手段」是「53. a firm hand」的用法，與本句語境不同。",
-        "hand-mcq-70": "「表示手冊；指南」是「70. handbook」的用法，與本句語境不同。",
-        "hand-mcq-67": "「把某事處理得很好；掌控得宜」是「27. have something well in hand」的用法，與本句語境不同。",
-        "hand-mcq-66": "「表示時針」是「8. hour hand / minute hand / second hand」的用法，與本句語境不同。",
-        "hand-mcq-65": "「表示手；手掌」是「Passage meaning B — in my hand」的用法，與本句語境不同。"
+        "hand-mcq-69": "本句的「wait on him hand and foot」指「表示無微不至地伺候；服侍周到」。",
+        "hand-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-69"
     },
@@ -4982,11 +4514,9 @@ export default {
       "masked": "She refused to ____.",
       "options": [
         "hand-mcq-69",
-        "hand-mcq-68",
         "hand-mcq-70",
-        "hand-mcq-67",
-        "hand-mcq-66",
-        "hand-mcq-65"
+        "hand-mcq-06",
+        "hand-mcq-53"
       ],
       "explanation": "本句的「wait on them hand and foot」指「表示無微不至地伺候；服侍周到」。",
       "sentenceIndex": 117,
@@ -4995,12 +4525,10 @@ export default {
         "wait on them hand and foot"
       ],
       "optionReasons": {
-        "hand-mcq-69": "本句指「表示無微不至地伺候；服侍周到」。",
-        "hand-mcq-68": "「表示強硬／堅定的管理手段」是「53. a firm hand」的用法，與本句語境不同。",
-        "hand-mcq-70": "「表示手冊；指南」是「70. handbook」的用法，與本句語境不同。",
-        "hand-mcq-67": "「把某事處理得很好；掌控得宜」是「27. have something well in hand」的用法，與本句語境不同。",
-        "hand-mcq-66": "「表示時針」是「8. hour hand / minute hand / second hand」的用法，與本句語境不同。",
-        "hand-mcq-65": "「表示手；手掌」是「Passage meaning B — in my hand」的用法，與本句語境不同。"
+        "hand-mcq-69": "本句的「wait on them hand and foot」指「表示無微不至地伺候；服侍周到」。",
+        "hand-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-69"
     },
@@ -5012,11 +4540,9 @@ export default {
       "masked": "She bought a ____.",
       "options": [
         "hand-mcq-62",
-        "hand-mcq-61",
-        "hand-mcq-63",
-        "hand-mcq-60",
-        "hand-mcq-64",
-        "hand-mcq-59"
+        "hand-mcq-50",
+        "hand-mcq-41",
+        "hand-mcq-66"
       ],
       "explanation": "本句的「handmade notebook」指「主要以人手而非機器製作的」。",
       "sentenceIndex": 118,
@@ -5025,12 +4551,10 @@ export default {
         "handmade notebook"
       ],
       "optionReasons": {
-        "hand-mcq-62": "本句指「主要以人手而非機器製作的」。",
-        "hand-mcq-61": "「難以管理或應付的人／事」是「handful — difficult person」的用法，與本句語境不同。",
-        "hand-mcq-63": "「由人手用筆而不是鍵盤寫成的」是「handwritten」的用法，與本句語境不同。",
-        "hand-mcq-60": "「少量／少數」是「handful — small number」的用法，與本句語境不同。",
-        "hand-mcq-64": "「某人的手寫字／筆跡」是「handwriting」的用法，與本句語境不同。",
-        "hand-mcq-59": "「一隻手可以拿住的一把／一捧」是「handful — amount」的用法，與本句語境不同。"
+        "hand-mcq-62": "本句的「handmade notebook」指「主要以人手而非機器製作的」。",
+        "hand-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-62"
     },
@@ -5042,11 +4566,9 @@ export default {
       "masked": "Each bag is ____.",
       "options": [
         "hand-mcq-62",
-        "hand-mcq-61",
-        "hand-mcq-63",
-        "hand-mcq-60",
-        "hand-mcq-64",
-        "hand-mcq-59"
+        "hand-mcq-16",
+        "hand-mcq-39",
+        "hand-mcq-69"
       ],
       "explanation": "本句的「handmade」指「主要以人手而非機器製作的」。",
       "sentenceIndex": 119,
@@ -5055,12 +4577,10 @@ export default {
         "handmade"
       ],
       "optionReasons": {
-        "hand-mcq-62": "本句指「主要以人手而非機器製作的」。",
-        "hand-mcq-61": "「難以管理或應付的人／事」是「handful — difficult person」的用法，與本句語境不同。",
-        "hand-mcq-63": "「由人手用筆而不是鍵盤寫成的」是「handwritten」的用法，與本句語境不同。",
-        "hand-mcq-60": "「少量／少數」是「handful — small number」的用法，與本句語境不同。",
-        "hand-mcq-64": "「某人的手寫字／筆跡」是「handwriting」的用法，與本句語境不同。",
-        "hand-mcq-59": "「一隻手可以拿住的一把／一捧」是「handful — amount」的用法，與本句語境不同。"
+        "hand-mcq-62": "本句的「handmade」指「主要以人手而非機器製作的」。",
+        "hand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-62"
     },
@@ -5072,11 +4592,9 @@ export default {
       "masked": "She included a ____.",
       "options": [
         "hand-mcq-63",
-        "hand-mcq-62",
-        "hand-mcq-64",
-        "hand-mcq-61",
-        "hand-mcq-65",
-        "hand-mcq-60"
+        "hand-mcq-44",
+        "hand-mcq-51",
+        "hand-mcq-26"
       ],
       "explanation": "本句的「handwritten note」指「由人手用筆而不是鍵盤寫成的」。",
       "sentenceIndex": 120,
@@ -5085,12 +4603,10 @@ export default {
         "handwritten note"
       ],
       "optionReasons": {
-        "hand-mcq-63": "本句指「由人手用筆而不是鍵盤寫成的」。",
-        "hand-mcq-62": "「主要以人手而非機器製作的」是「handmade」的用法，與本句語境不同。",
-        "hand-mcq-64": "「某人的手寫字／筆跡」是「handwriting」的用法，與本句語境不同。",
-        "hand-mcq-61": "「難以管理或應付的人／事」是「handful — difficult person」的用法，與本句語境不同。",
-        "hand-mcq-65": "「表示手；手掌」是「Passage meaning B — in my hand」的用法，與本句語境不同。",
-        "hand-mcq-60": "「少量／少數」是「handful — small number」的用法，與本句語境不同。"
+        "hand-mcq-63": "本句的「handwritten note」指「由人手用筆而不是鍵盤寫成的」。",
+        "hand-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-63"
     },
@@ -5102,11 +4618,9 @@ export default {
       "masked": "The message was ____.",
       "options": [
         "hand-mcq-63",
-        "hand-mcq-62",
-        "hand-mcq-64",
-        "hand-mcq-61",
-        "hand-mcq-65",
-        "hand-mcq-60"
+        "hand-mcq-45",
+        "hand-mcq-27",
+        "hand-mcq-22"
       ],
       "explanation": "本句的「handwritten」指「由人手用筆而不是鍵盤寫成的」。",
       "sentenceIndex": 121,
@@ -5115,12 +4629,10 @@ export default {
         "handwritten"
       ],
       "optionReasons": {
-        "hand-mcq-63": "本句指「由人手用筆而不是鍵盤寫成的」。",
-        "hand-mcq-62": "「主要以人手而非機器製作的」是「handmade」的用法，與本句語境不同。",
-        "hand-mcq-64": "「某人的手寫字／筆跡」是「handwriting」的用法，與本句語境不同。",
-        "hand-mcq-61": "「難以管理或應付的人／事」是「handful — difficult person」的用法，與本句語境不同。",
-        "hand-mcq-65": "「表示手；手掌」是「Passage meaning B — in my hand」的用法，與本句語境不同。",
-        "hand-mcq-60": "「少量／少數」是「handful — small number」的用法，與本句語境不同。"
+        "hand-mcq-63": "本句的「handwritten」指「由人手用筆而不是鍵盤寫成的」。",
+        "hand-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-63"
     },
@@ -5132,11 +4644,9 @@ export default {
       "masked": "Your ____ is very neat.",
       "options": [
         "hand-mcq-64",
-        "hand-mcq-63",
-        "hand-mcq-65",
-        "hand-mcq-62",
-        "hand-mcq-66",
-        "hand-mcq-61"
+        "hand-mcq-27",
+        "hand-mcq-50",
+        "hand-mcq-16"
       ],
       "explanation": "本句的「handwriting」指「某人的手寫字／筆跡」。",
       "sentenceIndex": 122,
@@ -5145,12 +4655,10 @@ export default {
         "handwriting"
       ],
       "optionReasons": {
-        "hand-mcq-64": "本句指「某人的手寫字／筆跡」。",
-        "hand-mcq-63": "「由人手用筆而不是鍵盤寫成的」是「handwritten」的用法，與本句語境不同。",
-        "hand-mcq-65": "「表示手；手掌」是「Passage meaning B — in my hand」的用法，與本句語境不同。",
-        "hand-mcq-62": "「主要以人手而非機器製作的」是「handmade」的用法，與本句語境不同。",
-        "hand-mcq-66": "「表示時針」是「8. hour hand / minute hand / second hand」的用法，與本句語境不同。",
-        "hand-mcq-61": "「難以管理或應付的人／事」是「handful — difficult person」的用法，與本句語境不同。"
+        "hand-mcq-64": "本句的「handwriting」指「某人的手寫字／筆跡」。",
+        "hand-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-64"
     },
@@ -5162,11 +4670,9 @@ export default {
       "masked": "I could barely read his ____.",
       "options": [
         "hand-mcq-64",
-        "hand-mcq-63",
-        "hand-mcq-65",
-        "hand-mcq-62",
-        "hand-mcq-66",
-        "hand-mcq-61"
+        "hand-mcq-41",
+        "hand-mcq-54",
+        "hand-mcq-42"
       ],
       "explanation": "本句的「handwriting」指「某人的手寫字／筆跡」。",
       "sentenceIndex": 123,
@@ -5175,12 +4681,10 @@ export default {
         "handwriting"
       ],
       "optionReasons": {
-        "hand-mcq-64": "本句指「某人的手寫字／筆跡」。",
-        "hand-mcq-63": "「由人手用筆而不是鍵盤寫成的」是「handwritten」的用法，與本句語境不同。",
-        "hand-mcq-65": "「表示手；手掌」是「Passage meaning B — in my hand」的用法，與本句語境不同。",
-        "hand-mcq-62": "「主要以人手而非機器製作的」是「handmade」的用法，與本句語境不同。",
-        "hand-mcq-66": "「表示時針」是「8. hour hand / minute hand / second hand」的用法，與本句語境不同。",
-        "hand-mcq-61": "「難以管理或應付的人／事」是「handful — difficult person」的用法，與本句語境不同。"
+        "hand-mcq-64": "本句的「handwriting」指「某人的手寫字／筆跡」。",
+        "hand-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-64"
     },
@@ -5192,11 +4696,9 @@ export default {
       "masked": "Read the employee ____.",
       "options": [
         "hand-mcq-70",
-        "hand-mcq-69",
-        "hand-mcq-68",
-        "hand-mcq-67",
-        "hand-mcq-66",
-        "hand-mcq-65"
+        "hand-mcq-44",
+        "hand-mcq-55",
+        "hand-mcq-05"
       ],
       "explanation": "本句的「handbook」指「表示手冊；指南」。",
       "sentenceIndex": 124,
@@ -5205,12 +4707,10 @@ export default {
         "handbook"
       ],
       "optionReasons": {
-        "hand-mcq-70": "本句指「表示手冊；指南」。",
-        "hand-mcq-69": "「表示無微不至地伺候；服侍周到」是「64. wait on someone hand and foot」的用法，與本句語境不同。",
-        "hand-mcq-68": "「表示強硬／堅定的管理手段」是「53. a firm hand」的用法，與本句語境不同。",
-        "hand-mcq-67": "「把某事處理得很好；掌控得宜」是「27. have something well in hand」的用法，與本句語境不同。",
-        "hand-mcq-66": "「表示時針」是「8. hour hand / minute hand / second hand」的用法，與本句語境不同。",
-        "hand-mcq-65": "「表示手；手掌」是「Passage meaning B — in my hand」的用法，與本句語境不同。"
+        "hand-mcq-70": "本句的「handbook」指「表示手冊；指南」。",
+        "hand-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-70"
     },
@@ -5222,11 +4722,9 @@ export default {
       "masked": "The course ____ explains the rules.",
       "options": [
         "hand-mcq-70",
-        "hand-mcq-69",
-        "hand-mcq-68",
-        "hand-mcq-67",
-        "hand-mcq-66",
-        "hand-mcq-65"
+        "hand-mcq-55",
+        "hand-mcq-05",
+        "hand-mcq-39"
       ],
       "explanation": "本句的「handbook」指「表示手冊；指南」。",
       "sentenceIndex": 125,
@@ -5235,12 +4733,10 @@ export default {
         "handbook"
       ],
       "optionReasons": {
-        "hand-mcq-70": "本句指「表示手冊；指南」。",
-        "hand-mcq-69": "「表示無微不至地伺候；服侍周到」是「64. wait on someone hand and foot」的用法，與本句語境不同。",
-        "hand-mcq-68": "「表示強硬／堅定的管理手段」是「53. a firm hand」的用法，與本句語境不同。",
-        "hand-mcq-67": "「把某事處理得很好；掌控得宜」是「27. have something well in hand」的用法，與本句語境不同。",
-        "hand-mcq-66": "「表示時針」是「8. hour hand / minute hand / second hand」的用法，與本句語境不同。",
-        "hand-mcq-65": "「表示手；手掌」是「Passage meaning B — in my hand」的用法，與本句語境不同。"
+        "hand-mcq-70": "本句的「handbook」指「表示手冊；指南」。",
+        "hand-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hand-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hand-mcq-70"
     }
@@ -5252,5 +4748,7 @@ export default {
     "sha256": "603413cf56652575eb6b29f3366628d37923e263706848d56226c4ea521674ee",
     "pages": 34
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

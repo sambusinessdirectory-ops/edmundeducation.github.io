@@ -1753,11 +1753,9 @@ export default {
       "masked": "The disagreement developed into open ____.",
       "options": [
         "conflict-mcq-02",
-        "conflict-mcq-01",
-        "conflict-mcq-03",
-        "conflict-mcq-04",
-        "conflict-mcq-05",
-        "conflict-mcq-06"
+        "conflict-mcq-53",
+        "conflict-mcq-65",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「conflict」指「人或群體之間因意見、利益、目標等不同而形成的嚴重衝突」。",
       "sentenceIndex": 0,
@@ -1766,12 +1764,10 @@ export default {
         "conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-02": "本句指「人或群體之間因意見、利益、目標等不同而形成的嚴重衝突」。",
-        "conflict-mcq-01": "「故事或戲劇中互相對立的人物、目標、價值或力量所形成的核心衝突」與本句語境不同。",
-        "conflict-mcq-03": "「A 與 B 之間的衝突」與本句語境不同。",
-        "conflict-mcq-04": "「因某議題／資源等而產生的衝突」與本句語境不同。",
-        "conflict-mcq-05": "「與某人發生衝突／不和」與本句語境不同。",
-        "conflict-mcq-06": "「個人與個人之間的人際衝突」與本句語境不同。"
+        "conflict-mcq-02": "本句的「conflict」指「人或群體之間因意見、利益、目標等不同而形成的嚴重衝突」。",
+        "conflict-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-02"
     },
@@ -1783,11 +1779,9 @@ export default {
       "masked": "Good communication can reduce ____.",
       "options": [
         "conflict-mcq-02",
-        "conflict-mcq-01",
-        "conflict-mcq-03",
-        "conflict-mcq-04",
-        "conflict-mcq-05",
-        "conflict-mcq-06"
+        "conflict-mcq-65",
+        "conflict-mcq-32",
+        "conflict-mcq-61"
       ],
       "explanation": "本句的「conflict」指「人或群體之間因意見、利益、目標等不同而形成的嚴重衝突」。",
       "sentenceIndex": 1,
@@ -1796,12 +1790,10 @@ export default {
         "conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-02": "本句指「人或群體之間因意見、利益、目標等不同而形成的嚴重衝突」。",
-        "conflict-mcq-01": "「故事或戲劇中互相對立的人物、目標、價值或力量所形成的核心衝突」與本句語境不同。",
-        "conflict-mcq-03": "「A 與 B 之間的衝突」與本句語境不同。",
-        "conflict-mcq-04": "「因某議題／資源等而產生的衝突」與本句語境不同。",
-        "conflict-mcq-05": "「與某人發生衝突／不和」與本句語境不同。",
-        "conflict-mcq-06": "「個人與個人之間的人際衝突」與本句語境不同。"
+        "conflict-mcq-02": "本句的「conflict」指「人或群體之間因意見、利益、目標等不同而形成的嚴重衝突」。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-02"
     },
@@ -1813,11 +1805,9 @@ export default {
       "masked": "There was growing ____.",
       "options": [
         "conflict-mcq-03",
-        "conflict-mcq-02",
-        "conflict-mcq-04",
-        "conflict-mcq-01",
-        "conflict-mcq-05",
-        "conflict-mcq-06"
+        "conflict-mcq-88",
+        "conflict-mcq-65",
+        "conflict-mcq-58"
       ],
       "explanation": "本句的「conflict between the two groups」指「A 與 B 之間的衝突」。",
       "sentenceIndex": 2,
@@ -1826,12 +1816,10 @@ export default {
         "conflict between the two groups"
       ],
       "optionReasons": {
-        "conflict-mcq-03": "本句指「A 與 B 之間的衝突」。",
-        "conflict-mcq-02": "「人或群體之間因意見、利益、目標等不同而形成的嚴重衝突」與本句語境不同。",
-        "conflict-mcq-04": "「因某議題／資源等而產生的衝突」與本句語境不同。",
-        "conflict-mcq-01": "「故事或戲劇中互相對立的人物、目標、價值或力量所形成的核心衝突」與本句語境不同。",
-        "conflict-mcq-05": "「與某人發生衝突／不和」與本句語境不同。",
-        "conflict-mcq-06": "「個人與個人之間的人際衝突」與本句語境不同。"
+        "conflict-mcq-03": "本句的「conflict between the two groups」指「A 與 B 之間的衝突」。",
+        "conflict-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-03"
     },
@@ -1843,11 +1831,9 @@ export default {
       "masked": "The story focuses on the ____.",
       "options": [
         "conflict-mcq-03",
-        "conflict-mcq-02",
-        "conflict-mcq-04",
-        "conflict-mcq-01",
-        "conflict-mcq-05",
-        "conflict-mcq-06"
+        "conflict-mcq-53",
+        "conflict-mcq-57",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「conflict between parent and child」指「A 與 B 之間的衝突」。",
       "sentenceIndex": 3,
@@ -1856,12 +1842,10 @@ export default {
         "conflict between parent and child"
       ],
       "optionReasons": {
-        "conflict-mcq-03": "本句指「A 與 B 之間的衝突」。",
-        "conflict-mcq-02": "「人或群體之間因意見、利益、目標等不同而形成的嚴重衝突」與本句語境不同。",
-        "conflict-mcq-04": "「因某議題／資源等而產生的衝突」與本句語境不同。",
-        "conflict-mcq-01": "「故事或戲劇中互相對立的人物、目標、價值或力量所形成的核心衝突」與本句語境不同。",
-        "conflict-mcq-05": "「與某人發生衝突／不和」與本句語境不同。",
-        "conflict-mcq-06": "「個人與個人之間的人際衝突」與本句語境不同。"
+        "conflict-mcq-03": "本句的「conflict between parent and child」指「A 與 B 之間的衝突」。",
+        "conflict-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-03"
     },
@@ -1873,11 +1857,9 @@ export default {
       "masked": "The neighbors had a ____.",
       "options": [
         "conflict-mcq-04",
-        "conflict-mcq-03",
-        "conflict-mcq-05",
-        "conflict-mcq-02",
-        "conflict-mcq-06",
-        "conflict-mcq-01"
+        "conflict-mcq-87",
+        "conflict-mcq-65",
+        "conflict-mcq-61"
       ],
       "explanation": "本句的「conflict over parking」指「因某議題／資源等而產生的衝突」。",
       "sentenceIndex": 4,
@@ -1886,12 +1868,10 @@ export default {
         "conflict over parking"
       ],
       "optionReasons": {
-        "conflict-mcq-04": "本句指「因某議題／資源等而產生的衝突」。",
-        "conflict-mcq-03": "「A 與 B 之間的衝突」與本句語境不同。",
-        "conflict-mcq-05": "「與某人發生衝突／不和」與本句語境不同。",
-        "conflict-mcq-02": "「人或群體之間因意見、利益、目標等不同而形成的嚴重衝突」與本句語境不同。",
-        "conflict-mcq-06": "「個人與個人之間的人際衝突」與本句語境不同。",
-        "conflict-mcq-01": "「故事或戲劇中互相對立的人物、目標、價值或力量所形成的核心衝突」與本句語境不同。"
+        "conflict-mcq-04": "本句的「conflict over parking」指「因某議題／資源等而產生的衝突」。",
+        "conflict-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-04"
     },
@@ -1903,11 +1883,9 @@ export default {
       "masked": "The dispute created ____.",
       "options": [
         "conflict-mcq-04",
-        "conflict-mcq-03",
-        "conflict-mcq-05",
-        "conflict-mcq-02",
-        "conflict-mcq-06",
-        "conflict-mcq-01"
+        "conflict-mcq-55",
+        "conflict-mcq-65",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「conflict over resources」指「因某議題／資源等而產生的衝突」。",
       "sentenceIndex": 5,
@@ -1916,12 +1894,10 @@ export default {
         "conflict over resources"
       ],
       "optionReasons": {
-        "conflict-mcq-04": "本句指「因某議題／資源等而產生的衝突」。",
-        "conflict-mcq-03": "「A 與 B 之間的衝突」與本句語境不同。",
-        "conflict-mcq-05": "「與某人發生衝突／不和」與本句語境不同。",
-        "conflict-mcq-02": "「人或群體之間因意見、利益、目標等不同而形成的嚴重衝突」與本句語境不同。",
-        "conflict-mcq-06": "「個人與個人之間的人際衝突」與本句語境不同。",
-        "conflict-mcq-01": "「故事或戲劇中互相對立的人物、目標、價值或力量所形成的核心衝突」與本句語境不同。"
+        "conflict-mcq-04": "本句的「conflict over resources」指「因某議題／資源等而產生的衝突」。",
+        "conflict-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-04"
     },
@@ -1933,11 +1909,9 @@ export default {
       "masked": "He tried to avoid ____.",
       "options": [
         "conflict-mcq-05",
-        "conflict-mcq-04",
-        "conflict-mcq-06",
-        "conflict-mcq-03",
-        "conflict-mcq-07",
-        "conflict-mcq-02"
+        "conflict-mcq-88",
+        "conflict-mcq-65",
+        "conflict-mcq-38"
       ],
       "explanation": "本句的「conflict with his manager」指「與某人發生衝突／不和」。",
       "sentenceIndex": 6,
@@ -1946,12 +1920,10 @@ export default {
         "conflict with his manager"
       ],
       "optionReasons": {
-        "conflict-mcq-05": "本句指「與某人發生衝突／不和」。",
-        "conflict-mcq-04": "「因某議題／資源等而產生的衝突」與本句語境不同。",
-        "conflict-mcq-06": "「個人與個人之間的人際衝突」與本句語境不同。",
-        "conflict-mcq-03": "「A 與 B 之間的衝突」與本句語境不同。",
-        "conflict-mcq-07": "「職場內員工／部門之間的衝突」與本句語境不同。",
-        "conflict-mcq-02": "「人或群體之間因意見、利益、目標等不同而形成的嚴重衝突」與本句語境不同。"
+        "conflict-mcq-05": "本句的「conflict with his manager」指「與某人發生衝突／不和」。",
+        "conflict-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-05"
     },
@@ -1963,11 +1935,9 @@ export default {
       "masked": "She often found herself in ____.",
       "options": [
         "conflict-mcq-05",
-        "conflict-mcq-04",
-        "conflict-mcq-06",
-        "conflict-mcq-03",
-        "conflict-mcq-07",
-        "conflict-mcq-02"
+        "conflict-mcq-30",
+        "conflict-mcq-88",
+        "conflict-mcq-59"
       ],
       "explanation": "本句的「conflict with colleagues」指「與某人發生衝突／不和」。",
       "sentenceIndex": 7,
@@ -1976,12 +1946,10 @@ export default {
         "conflict with colleagues"
       ],
       "optionReasons": {
-        "conflict-mcq-05": "本句指「與某人發生衝突／不和」。",
-        "conflict-mcq-04": "「因某議題／資源等而產生的衝突」與本句語境不同。",
-        "conflict-mcq-06": "「個人與個人之間的人際衝突」與本句語境不同。",
-        "conflict-mcq-03": "「A 與 B 之間的衝突」與本句語境不同。",
-        "conflict-mcq-07": "「職場內員工／部門之間的衝突」與本句語境不同。",
-        "conflict-mcq-02": "「人或群體之間因意見、利益、目標等不同而形成的嚴重衝突」與本句語境不同。"
+        "conflict-mcq-05": "本句的「conflict with colleagues」指「與某人發生衝突／不和」。",
+        "conflict-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-05"
     },
@@ -1993,11 +1961,9 @@ export default {
       "masked": "The workshop teaches students how to handle ____.",
       "options": [
         "conflict-mcq-06",
-        "conflict-mcq-05",
-        "conflict-mcq-07",
-        "conflict-mcq-04",
-        "conflict-mcq-08",
-        "conflict-mcq-03"
+        "conflict-mcq-87",
+        "conflict-mcq-40",
+        "conflict-mcq-20"
       ],
       "explanation": "本句的「interpersonal conflict」指「個人與個人之間的人際衝突」。",
       "sentenceIndex": 8,
@@ -2006,12 +1972,10 @@ export default {
         "interpersonal conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-06": "本句指「個人與個人之間的人際衝突」。",
-        "conflict-mcq-05": "「與某人發生衝突／不和」與本句語境不同。",
-        "conflict-mcq-07": "「職場內員工／部門之間的衝突」與本句語境不同。",
-        "conflict-mcq-04": "「因某議題／資源等而產生的衝突」與本句語境不同。",
-        "conflict-mcq-08": "「家庭成員之間的矛盾／衝突」與本句語境不同。",
-        "conflict-mcq-03": "「A 與 B 之間的衝突」與本句語境不同。"
+        "conflict-mcq-06": "本句的「interpersonal conflict」指「個人與個人之間的人際衝突」。",
+        "conflict-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-06"
     },
@@ -2023,11 +1987,9 @@ export default {
       "masked": "Poor communication often causes ____.",
       "options": [
         "conflict-mcq-06",
-        "conflict-mcq-05",
-        "conflict-mcq-07",
-        "conflict-mcq-04",
-        "conflict-mcq-08",
-        "conflict-mcq-03"
+        "conflict-mcq-36",
+        "conflict-mcq-65",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「interpersonal conflict」指「個人與個人之間的人際衝突」。",
       "sentenceIndex": 9,
@@ -2036,12 +1998,10 @@ export default {
         "interpersonal conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-06": "本句指「個人與個人之間的人際衝突」。",
-        "conflict-mcq-05": "「與某人發生衝突／不和」與本句語境不同。",
-        "conflict-mcq-07": "「職場內員工／部門之間的衝突」與本句語境不同。",
-        "conflict-mcq-04": "「因某議題／資源等而產生的衝突」與本句語境不同。",
-        "conflict-mcq-08": "「家庭成員之間的矛盾／衝突」與本句語境不同。",
-        "conflict-mcq-03": "「A 與 B 之間的衝突」與本句語境不同。"
+        "conflict-mcq-06": "本句的「interpersonal conflict」指「個人與個人之間的人際衝突」。",
+        "conflict-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-06"
     },
@@ -2053,11 +2013,9 @@ export default {
       "masked": "Managers need skills for resolving ____.",
       "options": [
         "conflict-mcq-07",
-        "conflict-mcq-06",
-        "conflict-mcq-08",
-        "conflict-mcq-05",
-        "conflict-mcq-09",
-        "conflict-mcq-04"
+        "conflict-mcq-32",
+        "conflict-mcq-89",
+        "conflict-mcq-34"
       ],
       "explanation": "本句的「workplace conflict」指「職場內員工／部門之間的衝突」。",
       "sentenceIndex": 10,
@@ -2066,12 +2024,10 @@ export default {
         "workplace conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-07": "本句指「職場內員工／部門之間的衝突」。",
-        "conflict-mcq-06": "「個人與個人之間的人際衝突」與本句語境不同。",
-        "conflict-mcq-08": "「家庭成員之間的矛盾／衝突」與本句語境不同。",
-        "conflict-mcq-05": "「與某人發生衝突／不和」與本句語境不同。",
-        "conflict-mcq-09": "「社會群體／利益之間的衝突」與本句語境不同。",
-        "conflict-mcq-04": "「因某議題／資源等而產生的衝突」與本句語境不同。"
+        "conflict-mcq-07": "本句的「workplace conflict」指「職場內員工／部門之間的衝突」。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-07"
     },
@@ -2083,11 +2039,9 @@ export default {
       "masked": "Unclear responsibilities can create ____.",
       "options": [
         "conflict-mcq-07",
-        "conflict-mcq-06",
-        "conflict-mcq-08",
-        "conflict-mcq-05",
-        "conflict-mcq-09",
-        "conflict-mcq-04"
+        "conflict-mcq-57",
+        "conflict-mcq-32",
+        "conflict-mcq-61"
       ],
       "explanation": "本句的「workplace conflict」指「職場內員工／部門之間的衝突」。",
       "sentenceIndex": 11,
@@ -2096,12 +2050,10 @@ export default {
         "workplace conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-07": "本句指「職場內員工／部門之間的衝突」。",
-        "conflict-mcq-06": "「個人與個人之間的人際衝突」與本句語境不同。",
-        "conflict-mcq-08": "「家庭成員之間的矛盾／衝突」與本句語境不同。",
-        "conflict-mcq-05": "「與某人發生衝突／不和」與本句語境不同。",
-        "conflict-mcq-09": "「社會群體／利益之間的衝突」與本句語境不同。",
-        "conflict-mcq-04": "「因某議題／資源等而產生的衝突」與本句語境不同。"
+        "conflict-mcq-07": "本句的「workplace conflict」指「職場內員工／部門之間的衝突」。",
+        "conflict-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-07"
     },
@@ -2113,11 +2065,9 @@ export default {
       "masked": "Financial pressure can increase ____.",
       "options": [
         "conflict-mcq-08",
-        "conflict-mcq-07",
-        "conflict-mcq-09",
-        "conflict-mcq-06",
-        "conflict-mcq-10",
-        "conflict-mcq-05"
+        "conflict-mcq-90",
+        "conflict-mcq-61",
+        "conflict-mcq-34"
       ],
       "explanation": "本句的「family conflict」指「家庭成員之間的矛盾／衝突」。",
       "sentenceIndex": 12,
@@ -2126,12 +2076,10 @@ export default {
         "family conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-08": "本句指「家庭成員之間的矛盾／衝突」。",
-        "conflict-mcq-07": "「職場內員工／部門之間的衝突」與本句語境不同。",
-        "conflict-mcq-09": "「社會群體／利益之間的衝突」與本句語境不同。",
-        "conflict-mcq-06": "「個人與個人之間的人際衝突」與本句語境不同。",
-        "conflict-mcq-10": "「不同社會階級利益之間的階級衝突」與本句語境不同。",
-        "conflict-mcq-05": "「與某人發生衝突／不和」與本句語境不同。"
+        "conflict-mcq-08": "本句的「family conflict」指「家庭成員之間的矛盾／衝突」。",
+        "conflict-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-08"
     },
@@ -2143,11 +2091,9 @@ export default {
       "masked": "The novel explores ____.",
       "options": [
         "conflict-mcq-08",
-        "conflict-mcq-07",
-        "conflict-mcq-09",
-        "conflict-mcq-06",
-        "conflict-mcq-10",
-        "conflict-mcq-05"
+        "conflict-mcq-90",
+        "conflict-mcq-34",
+        "conflict-mcq-61"
       ],
       "explanation": "本句的「family conflict」指「家庭成員之間的矛盾／衝突」。",
       "sentenceIndex": 13,
@@ -2156,12 +2102,10 @@ export default {
         "family conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-08": "本句指「家庭成員之間的矛盾／衝突」。",
-        "conflict-mcq-07": "「職場內員工／部門之間的衝突」與本句語境不同。",
-        "conflict-mcq-09": "「社會群體／利益之間的衝突」與本句語境不同。",
-        "conflict-mcq-06": "「個人與個人之間的人際衝突」與本句語境不同。",
-        "conflict-mcq-10": "「不同社會階級利益之間的階級衝突」與本句語境不同。",
-        "conflict-mcq-05": "「與某人發生衝突／不和」與本句語境不同。"
+        "conflict-mcq-08": "本句的「family conflict」指「家庭成員之間的矛盾／衝突」。",
+        "conflict-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-08"
     },
@@ -2173,11 +2117,9 @@ export default {
       "masked": "Inequality can contribute to ____.",
       "options": [
         "conflict-mcq-09",
-        "conflict-mcq-08",
-        "conflict-mcq-10",
-        "conflict-mcq-07",
-        "conflict-mcq-11",
-        "conflict-mcq-06"
+        "conflict-mcq-32",
+        "conflict-mcq-62",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「social conflict」指「社會群體／利益之間的衝突」。",
       "sentenceIndex": 14,
@@ -2186,12 +2128,10 @@ export default {
         "social conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-09": "本句指「社會群體／利益之間的衝突」。",
-        "conflict-mcq-08": "「家庭成員之間的矛盾／衝突」與本句語境不同。",
-        "conflict-mcq-10": "「不同社會階級利益之間的階級衝突」與本句語境不同。",
-        "conflict-mcq-07": "「職場內員工／部門之間的衝突」與本句語境不同。",
-        "conflict-mcq-11": "「不同文化價值、習俗或期望之間的衝突」與本句語境不同。",
-        "conflict-mcq-06": "「個人與個人之間的人際衝突」與本句語境不同。"
+        "conflict-mcq-09": "本句的「social conflict」指「社會群體／利益之間的衝突」。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-09"
     },
@@ -2203,11 +2143,9 @@ export default {
       "masked": "The period was marked by intense ____.",
       "options": [
         "conflict-mcq-09",
-        "conflict-mcq-08",
-        "conflict-mcq-10",
-        "conflict-mcq-07",
-        "conflict-mcq-11",
-        "conflict-mcq-06"
+        "conflict-mcq-62",
+        "conflict-mcq-32",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「social conflict」指「社會群體／利益之間的衝突」。",
       "sentenceIndex": 15,
@@ -2216,12 +2154,10 @@ export default {
         "social conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-09": "本句指「社會群體／利益之間的衝突」。",
-        "conflict-mcq-08": "「家庭成員之間的矛盾／衝突」與本句語境不同。",
-        "conflict-mcq-10": "「不同社會階級利益之間的階級衝突」與本句語境不同。",
-        "conflict-mcq-07": "「職場內員工／部門之間的衝突」與本句語境不同。",
-        "conflict-mcq-11": "「不同文化價值、習俗或期望之間的衝突」與本句語境不同。",
-        "conflict-mcq-06": "「個人與個人之間的人際衝突」與本句語境不同。"
+        "conflict-mcq-09": "本句的「social conflict」指「社會群體／利益之間的衝突」。",
+        "conflict-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-09"
     },
@@ -2233,11 +2169,9 @@ export default {
       "masked": "The theory emphasizes ____.",
       "options": [
         "conflict-mcq-10",
-        "conflict-mcq-09",
-        "conflict-mcq-11",
-        "conflict-mcq-08",
-        "conflict-mcq-12",
-        "conflict-mcq-07"
+        "conflict-mcq-40",
+        "conflict-mcq-64",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「class conflict」指「不同社會階級利益之間的階級衝突」。",
       "sentenceIndex": 16,
@@ -2246,12 +2180,10 @@ export default {
         "class conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-10": "本句指「不同社會階級利益之間的階級衝突」。",
-        "conflict-mcq-09": "「社會群體／利益之間的衝突」與本句語境不同。",
-        "conflict-mcq-11": "「不同文化價值、習俗或期望之間的衝突」與本句語境不同。",
-        "conflict-mcq-08": "「家庭成員之間的矛盾／衝突」與本句語境不同。",
-        "conflict-mcq-12": "「圍繞政治權力、政策等產生的衝突」與本句語境不同。",
-        "conflict-mcq-07": "「職場內員工／部門之間的衝突」與本句語境不同。"
+        "conflict-mcq-10": "本句的「class conflict」指「不同社會階級利益之間的階級衝突」。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-10"
     },
@@ -2263,11 +2195,9 @@ export default {
       "masked": "The novel depicts tensions created by ____.",
       "options": [
         "conflict-mcq-10",
-        "conflict-mcq-09",
-        "conflict-mcq-11",
-        "conflict-mcq-08",
-        "conflict-mcq-12",
-        "conflict-mcq-07"
+        "conflict-mcq-32",
+        "conflict-mcq-40",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「class conflict」指「不同社會階級利益之間的階級衝突」。",
       "sentenceIndex": 17,
@@ -2276,12 +2206,10 @@ export default {
         "class conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-10": "本句指「不同社會階級利益之間的階級衝突」。",
-        "conflict-mcq-09": "「社會群體／利益之間的衝突」與本句語境不同。",
-        "conflict-mcq-11": "「不同文化價值、習俗或期望之間的衝突」與本句語境不同。",
-        "conflict-mcq-08": "「家庭成員之間的矛盾／衝突」與本句語境不同。",
-        "conflict-mcq-12": "「圍繞政治權力、政策等產生的衝突」與本句語境不同。",
-        "conflict-mcq-07": "「職場內員工／部門之間的衝突」與本句語境不同。"
+        "conflict-mcq-10": "本句的「class conflict」指「不同社會階級利益之間的階級衝突」。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-10"
     },
@@ -2293,11 +2221,9 @@ export default {
       "masked": "The character experiences ____.",
       "options": [
         "conflict-mcq-11",
-        "conflict-mcq-10",
-        "conflict-mcq-12",
-        "conflict-mcq-09",
-        "conflict-mcq-13",
-        "conflict-mcq-08"
+        "conflict-mcq-32",
+        "conflict-mcq-65",
+        "conflict-mcq-34"
       ],
       "explanation": "本句的「cultural conflict」指「不同文化價值、習俗或期望之間的衝突」。",
       "sentenceIndex": 18,
@@ -2306,12 +2232,10 @@ export default {
         "cultural conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-11": "本句指「不同文化價值、習俗或期望之間的衝突」。",
-        "conflict-mcq-10": "「不同社會階級利益之間的階級衝突」與本句語境不同。",
-        "conflict-mcq-12": "「圍繞政治權力、政策等產生的衝突」與本句語境不同。",
-        "conflict-mcq-09": "「社會群體／利益之間的衝突」與本句語境不同。",
-        "conflict-mcq-13": "「國家／武裝團體之間的戰事或武裝衝突」與本句語境不同。",
-        "conflict-mcq-08": "「家庭成員之間的矛盾／衝突」與本句語境不同。"
+        "conflict-mcq-11": "本句的「cultural conflict」指「不同文化價值、習俗或期望之間的衝突」。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-11"
     },
@@ -2323,11 +2247,9 @@ export default {
       "masked": "Different expectations can create ____.",
       "options": [
         "conflict-mcq-11",
-        "conflict-mcq-10",
-        "conflict-mcq-12",
-        "conflict-mcq-09",
-        "conflict-mcq-13",
-        "conflict-mcq-08"
+        "conflict-mcq-32",
+        "conflict-mcq-61",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「cultural conflict」指「不同文化價值、習俗或期望之間的衝突」。",
       "sentenceIndex": 19,
@@ -2336,12 +2258,10 @@ export default {
         "cultural conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-11": "本句指「不同文化價值、習俗或期望之間的衝突」。",
-        "conflict-mcq-10": "「不同社會階級利益之間的階級衝突」與本句語境不同。",
-        "conflict-mcq-12": "「圍繞政治權力、政策等產生的衝突」與本句語境不同。",
-        "conflict-mcq-09": "「社會群體／利益之間的衝突」與本句語境不同。",
-        "conflict-mcq-13": "「國家／武裝團體之間的戰事或武裝衝突」與本句語境不同。",
-        "conflict-mcq-08": "「家庭成員之間的矛盾／衝突」與本句語境不同。"
+        "conflict-mcq-11": "本句的「cultural conflict」指「不同文化價值、習俗或期望之間的衝突」。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-11"
     },
@@ -2353,11 +2273,9 @@ export default {
       "masked": "The reforms caused intense ____.",
       "options": [
         "conflict-mcq-12",
-        "conflict-mcq-11",
-        "conflict-mcq-13",
-        "conflict-mcq-10",
-        "conflict-mcq-14",
-        "conflict-mcq-09"
+        "conflict-mcq-87",
+        "conflict-mcq-38",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「political conflict」指「圍繞政治權力、政策等產生的衝突」。",
       "sentenceIndex": 20,
@@ -2366,12 +2284,10 @@ export default {
         "political conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-12": "本句指「圍繞政治權力、政策等產生的衝突」。",
-        "conflict-mcq-11": "「不同文化價值、習俗或期望之間的衝突」與本句語境不同。",
-        "conflict-mcq-13": "「國家／武裝團體之間的戰事或武裝衝突」與本句語境不同。",
-        "conflict-mcq-10": "「不同社會階級利益之間的階級衝突」與本句語境不同。",
-        "conflict-mcq-14": "「使用武器及武裝力量進行的有組織衝突」與本句語境不同。",
-        "conflict-mcq-09": "「社會群體／利益之間的衝突」與本句語境不同。"
+        "conflict-mcq-12": "本句的「political conflict」指「圍繞政治權力、政策等產生的衝突」。",
+        "conflict-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-12"
     },
@@ -2383,11 +2299,9 @@ export default {
       "masked": "The article examines sources of ____.",
       "options": [
         "conflict-mcq-12",
-        "conflict-mcq-11",
-        "conflict-mcq-13",
-        "conflict-mcq-10",
-        "conflict-mcq-14",
-        "conflict-mcq-09"
+        "conflict-mcq-62",
+        "conflict-mcq-59",
+        "conflict-mcq-20"
       ],
       "explanation": "本句的「political conflict」指「圍繞政治權力、政策等產生的衝突」。",
       "sentenceIndex": 21,
@@ -2396,12 +2310,10 @@ export default {
         "political conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-12": "本句指「圍繞政治權力、政策等產生的衝突」。",
-        "conflict-mcq-11": "「不同文化價值、習俗或期望之間的衝突」與本句語境不同。",
-        "conflict-mcq-13": "「國家／武裝團體之間的戰事或武裝衝突」與本句語境不同。",
-        "conflict-mcq-10": "「不同社會階級利益之間的階級衝突」與本句語境不同。",
-        "conflict-mcq-14": "「使用武器及武裝力量進行的有組織衝突」與本句語境不同。",
-        "conflict-mcq-09": "「社會群體／利益之間的衝突」與本句語境不同。"
+        "conflict-mcq-12": "本句的「political conflict」指「圍繞政治權力、政策等產生的衝突」。",
+        "conflict-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-12"
     },
@@ -2413,11 +2325,9 @@ export default {
       "masked": "Thousands of people were displaced by the ____.",
       "options": [
         "conflict-mcq-13",
-        "conflict-mcq-12",
-        "conflict-mcq-14",
-        "conflict-mcq-11",
-        "conflict-mcq-15",
-        "conflict-mcq-10"
+        "conflict-mcq-90",
+        "conflict-mcq-61",
+        "conflict-mcq-34"
       ],
       "explanation": "本句的「conflict」指「國家／武裝團體之間的戰事或武裝衝突」。",
       "sentenceIndex": 22,
@@ -2426,12 +2336,10 @@ export default {
         "conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-13": "本句指「國家／武裝團體之間的戰事或武裝衝突」。",
-        "conflict-mcq-12": "「圍繞政治權力、政策等產生的衝突」與本句語境不同。",
-        "conflict-mcq-14": "「使用武器及武裝力量進行的有組織衝突」與本句語境不同。",
-        "conflict-mcq-11": "「不同文化價值、習俗或期望之間的衝突」與本句語境不同。",
-        "conflict-mcq-15": "「涉及軍事力量的衝突」與本句語境不同。",
-        "conflict-mcq-10": "「不同社會階級利益之間的階級衝突」與本句語境不同。"
+        "conflict-mcq-13": "本句的「conflict」指「國家／武裝團體之間的戰事或武裝衝突」。",
+        "conflict-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-13"
     },
@@ -2443,11 +2351,9 @@ export default {
       "masked": "The region has suffered years of ____.",
       "options": [
         "conflict-mcq-13",
-        "conflict-mcq-12",
-        "conflict-mcq-14",
-        "conflict-mcq-11",
-        "conflict-mcq-15",
-        "conflict-mcq-10"
+        "conflict-mcq-42",
+        "conflict-mcq-60",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「conflict」指「國家／武裝團體之間的戰事或武裝衝突」。",
       "sentenceIndex": 23,
@@ -2456,12 +2362,10 @@ export default {
         "conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-13": "本句指「國家／武裝團體之間的戰事或武裝衝突」。",
-        "conflict-mcq-12": "「圍繞政治權力、政策等產生的衝突」與本句語境不同。",
-        "conflict-mcq-14": "「使用武器及武裝力量進行的有組織衝突」與本句語境不同。",
-        "conflict-mcq-11": "「不同文化價值、習俗或期望之間的衝突」與本句語境不同。",
-        "conflict-mcq-15": "「涉及軍事力量的衝突」與本句語境不同。",
-        "conflict-mcq-10": "「不同社會階級利益之間的階級衝突」與本句語境不同。"
+        "conflict-mcq-13": "本句的「conflict」指「國家／武裝團體之間的戰事或武裝衝突」。",
+        "conflict-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-13"
     },
@@ -2473,11 +2377,9 @@ export default {
       "masked": "The agreement was intended to end the ____.",
       "options": [
         "conflict-mcq-14",
-        "conflict-mcq-13",
-        "conflict-mcq-15",
-        "conflict-mcq-12",
-        "conflict-mcq-16",
-        "conflict-mcq-11"
+        "conflict-mcq-65",
+        "conflict-mcq-29",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「armed conflict」指「使用武器及武裝力量進行的有組織衝突」。",
       "sentenceIndex": 24,
@@ -2486,12 +2388,10 @@ export default {
         "armed conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-14": "本句指「使用武器及武裝力量進行的有組織衝突」。",
-        "conflict-mcq-13": "「國家／武裝團體之間的戰事或武裝衝突」與本句語境不同。",
-        "conflict-mcq-15": "「涉及軍事力量的衝突」與本句語境不同。",
-        "conflict-mcq-12": "「圍繞政治權力、政策等產生的衝突」與本句語境不同。",
-        "conflict-mcq-16": "「涉及實際暴力的衝突」與本句語境不同。",
-        "conflict-mcq-11": "「不同文化價值、習俗或期望之間的衝突」與本句語境不同。"
+        "conflict-mcq-14": "本句的「armed conflict」指「使用武器及武裝力量進行的有組織衝突」。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-14"
     },
@@ -2503,11 +2403,9 @@ export default {
       "masked": "Civilians were affected by the ____.",
       "options": [
         "conflict-mcq-14",
-        "conflict-mcq-13",
-        "conflict-mcq-15",
-        "conflict-mcq-12",
-        "conflict-mcq-16",
-        "conflict-mcq-11"
+        "conflict-mcq-63",
+        "conflict-mcq-40",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「armed conflict」指「使用武器及武裝力量進行的有組織衝突」。",
       "sentenceIndex": 25,
@@ -2516,12 +2414,10 @@ export default {
         "armed conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-14": "本句指「使用武器及武裝力量進行的有組織衝突」。",
-        "conflict-mcq-13": "「國家／武裝團體之間的戰事或武裝衝突」與本句語境不同。",
-        "conflict-mcq-15": "「涉及軍事力量的衝突」與本句語境不同。",
-        "conflict-mcq-12": "「圍繞政治權力、政策等產生的衝突」與本句語境不同。",
-        "conflict-mcq-16": "「涉及實際暴力的衝突」與本句語境不同。",
-        "conflict-mcq-11": "「不同文化價值、習俗或期望之間的衝突」與本句語境不同。"
+        "conflict-mcq-14": "本句的「armed conflict」指「使用武器及武裝力量進行的有組織衝突」。",
+        "conflict-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-14"
     },
@@ -2533,11 +2429,9 @@ export default {
       "masked": "Both sides wanted to avoid direct ____.",
       "options": [
         "conflict-mcq-15",
-        "conflict-mcq-14",
-        "conflict-mcq-16",
-        "conflict-mcq-13",
-        "conflict-mcq-17",
-        "conflict-mcq-12"
+        "conflict-mcq-63",
+        "conflict-mcq-41",
+        "conflict-mcq-61"
       ],
       "explanation": "本句的「military conflict」指「涉及軍事力量的衝突」。",
       "sentenceIndex": 26,
@@ -2546,12 +2440,10 @@ export default {
         "military conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-15": "本句指「涉及軍事力量的衝突」。",
-        "conflict-mcq-14": "「使用武器及武裝力量進行的有組織衝突」與本句語境不同。",
-        "conflict-mcq-16": "「涉及實際暴力的衝突」與本句語境不同。",
-        "conflict-mcq-13": "「國家／武裝團體之間的戰事或武裝衝突」與本句語境不同。",
-        "conflict-mcq-17": "「正在發生武裝衝突的地區；戰區」與本句語境不同。",
-        "conflict-mcq-12": "「圍繞政治權力、政策等產生的衝突」與本句語境不同。"
+        "conflict-mcq-15": "本句的「military conflict」指「涉及軍事力量的衝突」。",
+        "conflict-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-15"
     },
@@ -2563,11 +2455,9 @@ export default {
       "masked": "The disagreement escalated into ____.",
       "options": [
         "conflict-mcq-16",
-        "conflict-mcq-15",
-        "conflict-mcq-17",
-        "conflict-mcq-14",
-        "conflict-mcq-18",
-        "conflict-mcq-13"
+        "conflict-mcq-29",
+        "conflict-mcq-93",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「violent conflict」指「涉及實際暴力的衝突」。",
       "sentenceIndex": 27,
@@ -2576,12 +2466,10 @@ export default {
         "violent conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-16": "本句指「涉及實際暴力的衝突」。",
-        "conflict-mcq-15": "「涉及軍事力量的衝突」與本句語境不同。",
-        "conflict-mcq-17": "「正在發生武裝衝突的地區；戰區」與本句語境不同。",
-        "conflict-mcq-14": "「使用武器及武裝力量進行的有組織衝突」與本句語境不同。",
-        "conflict-mcq-18": "「因戰爭／武裝衝突受到嚴重影響的地區」與本句語境不同。",
-        "conflict-mcq-13": "「國家／武裝團體之間的戰事或武裝衝突」與本句語境不同。"
+        "conflict-mcq-16": "本句的「violent conflict」指「涉及實際暴力的衝突」。",
+        "conflict-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-16"
     },
@@ -2593,11 +2481,9 @@ export default {
       "masked": "Aid workers entered the ____.",
       "options": [
         "conflict-mcq-17",
-        "conflict-mcq-16",
-        "conflict-mcq-18",
-        "conflict-mcq-15",
-        "conflict-mcq-19",
-        "conflict-mcq-14"
+        "conflict-mcq-37",
+        "conflict-mcq-38",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「conflict zone」指「正在發生武裝衝突的地區；戰區」。",
       "sentenceIndex": 28,
@@ -2606,12 +2492,10 @@ export default {
         "conflict zone"
       ],
       "optionReasons": {
-        "conflict-mcq-17": "本句指「正在發生武裝衝突的地區；戰區」。",
-        "conflict-mcq-16": "「涉及實際暴力的衝突」與本句語境不同。",
-        "conflict-mcq-18": "「因戰爭／武裝衝突受到嚴重影響的地區」與本句語境不同。",
-        "conflict-mcq-15": "「涉及軍事力量的衝突」與本句語境不同。",
-        "conflict-mcq-19": "「一個人內心不同欲望、信念、價值等之間的衝突」與本句語境不同。",
-        "conflict-mcq-14": "「使用武器及武裝力量進行的有組織衝突」與本句語境不同。"
+        "conflict-mcq-17": "本句的「conflict zone」指「正在發生武裝衝突的地區；戰區」。",
+        "conflict-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-17"
     },
@@ -2623,11 +2507,9 @@ export default {
       "masked": "Journalists reported from the ____.",
       "options": [
         "conflict-mcq-17",
-        "conflict-mcq-16",
-        "conflict-mcq-18",
-        "conflict-mcq-15",
-        "conflict-mcq-19",
-        "conflict-mcq-14"
+        "conflict-mcq-59",
+        "conflict-mcq-91",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「conflict zone」指「正在發生武裝衝突的地區；戰區」。",
       "sentenceIndex": 29,
@@ -2636,12 +2518,10 @@ export default {
         "conflict zone"
       ],
       "optionReasons": {
-        "conflict-mcq-17": "本句指「正在發生武裝衝突的地區；戰區」。",
-        "conflict-mcq-16": "「涉及實際暴力的衝突」與本句語境不同。",
-        "conflict-mcq-18": "「因戰爭／武裝衝突受到嚴重影響的地區」與本句語境不同。",
-        "conflict-mcq-15": "「涉及軍事力量的衝突」與本句語境不同。",
-        "conflict-mcq-19": "「一個人內心不同欲望、信念、價值等之間的衝突」與本句語境不同。",
-        "conflict-mcq-14": "「使用武器及武裝力量進行的有組織衝突」與本句語境不同。"
+        "conflict-mcq-17": "本句的「conflict zone」指「正在發生武裝衝突的地區；戰區」。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-91": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-17"
     },
@@ -2653,11 +2533,9 @@ export default {
       "masked": "The organization supports children in ____.",
       "options": [
         "conflict-mcq-18",
-        "conflict-mcq-17",
-        "conflict-mcq-19",
-        "conflict-mcq-16",
-        "conflict-mcq-20",
-        "conflict-mcq-15"
+        "conflict-mcq-65",
+        "conflict-mcq-42",
+        "conflict-mcq-61"
       ],
       "explanation": "本句的「conflict-affected areas」指「因戰爭／武裝衝突受到嚴重影響的地區」。",
       "sentenceIndex": 30,
@@ -2666,12 +2544,10 @@ export default {
         "conflict-affected areas"
       ],
       "optionReasons": {
-        "conflict-mcq-18": "本句指「因戰爭／武裝衝突受到嚴重影響的地區」。",
-        "conflict-mcq-17": "「正在發生武裝衝突的地區；戰區」與本句語境不同。",
-        "conflict-mcq-19": "「一個人內心不同欲望、信念、價值等之間的衝突」與本句語境不同。",
-        "conflict-mcq-16": "「涉及實際暴力的衝突」與本句語境不同。",
-        "conflict-mcq-20": "「內心互相拉扯的矛盾／思想鬥爭」與本句語境不同。",
-        "conflict-mcq-15": "「涉及軍事力量的衝突」與本句語境不同。"
+        "conflict-mcq-18": "本句的「conflict-affected areas」指「因戰爭／武裝衝突受到嚴重影響的地區」。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-18"
     },
@@ -2683,11 +2559,9 @@ export default {
       "masked": "She felt an ____ between loyalty and honesty.",
       "options": [
         "conflict-mcq-19",
-        "conflict-mcq-18",
-        "conflict-mcq-20",
-        "conflict-mcq-17",
-        "conflict-mcq-21",
-        "conflict-mcq-16"
+        "conflict-mcq-32",
+        "conflict-mcq-61",
+        "conflict-mcq-34"
       ],
       "explanation": "本句的「internal conflict」指「一個人內心不同欲望、信念、價值等之間的衝突」。",
       "sentenceIndex": 31,
@@ -2696,12 +2570,10 @@ export default {
         "internal conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-19": "本句指「一個人內心不同欲望、信念、價值等之間的衝突」。",
-        "conflict-mcq-18": "「因戰爭／武裝衝突受到嚴重影響的地區」與本句語境不同。",
-        "conflict-mcq-20": "「內心互相拉扯的矛盾／思想鬥爭」與本句語境不同。",
-        "conflict-mcq-17": "「正在發生武裝衝突的地區；戰區」與本句語境不同。",
-        "conflict-mcq-21": "「不同情感同時存在而造成的內心矛盾」與本句語境不同。",
-        "conflict-mcq-16": "「涉及實際暴力的衝突」與本句語境不同。"
+        "conflict-mcq-19": "本句的「internal conflict」指「一個人內心不同欲望、信念、價值等之間的衝突」。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-19"
     },
@@ -2713,11 +2585,9 @@ export default {
       "masked": "The character’s ____ drives much of the story.",
       "options": [
         "conflict-mcq-19",
-        "conflict-mcq-18",
-        "conflict-mcq-20",
-        "conflict-mcq-17",
-        "conflict-mcq-21",
-        "conflict-mcq-16"
+        "conflict-mcq-32",
+        "conflict-mcq-61",
+        "conflict-mcq-34"
       ],
       "explanation": "本句的「internal conflict」指「一個人內心不同欲望、信念、價值等之間的衝突」。",
       "sentenceIndex": 32,
@@ -2726,12 +2596,10 @@ export default {
         "internal conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-19": "本句指「一個人內心不同欲望、信念、價值等之間的衝突」。",
-        "conflict-mcq-18": "「因戰爭／武裝衝突受到嚴重影響的地區」與本句語境不同。",
-        "conflict-mcq-20": "「內心互相拉扯的矛盾／思想鬥爭」與本句語境不同。",
-        "conflict-mcq-17": "「正在發生武裝衝突的地區；戰區」與本句語境不同。",
-        "conflict-mcq-21": "「不同情感同時存在而造成的內心矛盾」與本句語境不同。",
-        "conflict-mcq-16": "「涉及實際暴力的衝突」與本句語境不同。"
+        "conflict-mcq-19": "本句的「internal conflict」指「一個人內心不同欲望、信念、價值等之間的衝突」。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-19"
     },
@@ -2743,11 +2611,9 @@ export default {
       "masked": "He struggled with an ____.",
       "options": [
         "conflict-mcq-20",
-        "conflict-mcq-19",
-        "conflict-mcq-21",
-        "conflict-mcq-18",
-        "conflict-mcq-22",
-        "conflict-mcq-17"
+        "conflict-mcq-09",
+        "conflict-mcq-62",
+        "conflict-mcq-59"
       ],
       "explanation": "本句的「inner conflict」指「內心互相拉扯的矛盾／思想鬥爭」。",
       "sentenceIndex": 33,
@@ -2756,12 +2622,10 @@ export default {
         "inner conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-20": "本句指「內心互相拉扯的矛盾／思想鬥爭」。",
-        "conflict-mcq-19": "「一個人內心不同欲望、信念、價值等之間的衝突」與本句語境不同。",
-        "conflict-mcq-21": "「不同情感同時存在而造成的內心矛盾」與本句語境不同。",
-        "conflict-mcq-18": "「因戰爭／武裝衝突受到嚴重影響的地區」與本句語境不同。",
-        "conflict-mcq-22": "「不同道德原則／責任互相衝突的情況」與本句語境不同。",
-        "conflict-mcq-17": "「正在發生武裝衝突的地區；戰區」與本句語境不同。"
+        "conflict-mcq-20": "本句的「inner conflict」指「內心互相拉扯的矛盾／思想鬥爭」。",
+        "conflict-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-20"
     },
@@ -2773,11 +2637,9 @@ export default {
       "masked": "Her silence reflects deep ____.",
       "options": [
         "conflict-mcq-20",
-        "conflict-mcq-19",
-        "conflict-mcq-21",
-        "conflict-mcq-18",
-        "conflict-mcq-22",
-        "conflict-mcq-17"
+        "conflict-mcq-73",
+        "conflict-mcq-57",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「inner conflict」指「內心互相拉扯的矛盾／思想鬥爭」。",
       "sentenceIndex": 34,
@@ -2786,12 +2648,10 @@ export default {
         "inner conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-20": "本句指「內心互相拉扯的矛盾／思想鬥爭」。",
-        "conflict-mcq-19": "「一個人內心不同欲望、信念、價值等之間的衝突」與本句語境不同。",
-        "conflict-mcq-21": "「不同情感同時存在而造成的內心矛盾」與本句語境不同。",
-        "conflict-mcq-18": "「因戰爭／武裝衝突受到嚴重影響的地區」與本句語境不同。",
-        "conflict-mcq-22": "「不同道德原則／責任互相衝突的情況」與本句語境不同。",
-        "conflict-mcq-17": "「正在發生武裝衝突的地區；戰區」與本句語境不同。"
+        "conflict-mcq-20": "本句的「inner conflict」指「內心互相拉扯的矛盾／思想鬥爭」。",
+        "conflict-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-20"
     },
@@ -2803,11 +2663,9 @@ export default {
       "masked": "She experienced ____ about leaving.",
       "options": [
         "conflict-mcq-21",
-        "conflict-mcq-20",
-        "conflict-mcq-22",
-        "conflict-mcq-19",
-        "conflict-mcq-23",
-        "conflict-mcq-18"
+        "conflict-mcq-73",
+        "conflict-mcq-61",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「emotional conflict」指「不同情感同時存在而造成的內心矛盾」。",
       "sentenceIndex": 35,
@@ -2816,12 +2674,10 @@ export default {
         "emotional conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-21": "本句指「不同情感同時存在而造成的內心矛盾」。",
-        "conflict-mcq-20": "「內心互相拉扯的矛盾／思想鬥爭」與本句語境不同。",
-        "conflict-mcq-22": "「不同道德原則／責任互相衝突的情況」與本句語境不同。",
-        "conflict-mcq-19": "「一個人內心不同欲望、信念、價值等之間的衝突」與本句語境不同。",
-        "conflict-mcq-23": "「不同價值觀之間的衝突」與本句語境不同。",
-        "conflict-mcq-18": "「因戰爭／武裝衝突受到嚴重影響的地區」與本句語境不同。"
+        "conflict-mcq-21": "本句的「emotional conflict」指「不同情感同時存在而造成的內心矛盾」。",
+        "conflict-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-21"
     },
@@ -2833,11 +2689,9 @@ export default {
       "masked": "Love and resentment created intense ____.",
       "options": [
         "conflict-mcq-21",
-        "conflict-mcq-20",
-        "conflict-mcq-22",
-        "conflict-mcq-19",
-        "conflict-mcq-23",
-        "conflict-mcq-18"
+        "conflict-mcq-33",
+        "conflict-mcq-61",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「emotional conflict」指「不同情感同時存在而造成的內心矛盾」。",
       "sentenceIndex": 36,
@@ -2846,12 +2700,10 @@ export default {
         "emotional conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-21": "本句指「不同情感同時存在而造成的內心矛盾」。",
-        "conflict-mcq-20": "「內心互相拉扯的矛盾／思想鬥爭」與本句語境不同。",
-        "conflict-mcq-22": "「不同道德原則／責任互相衝突的情況」與本句語境不同。",
-        "conflict-mcq-19": "「一個人內心不同欲望、信念、價值等之間的衝突」與本句語境不同。",
-        "conflict-mcq-23": "「不同價值觀之間的衝突」與本句語境不同。",
-        "conflict-mcq-18": "「因戰爭／武裝衝突受到嚴重影響的地區」與本句語境不同。"
+        "conflict-mcq-21": "本句的「emotional conflict」指「不同情感同時存在而造成的內心矛盾」。",
+        "conflict-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-21"
     },
@@ -2863,11 +2715,9 @@ export default {
       "masked": "The situation creates a ____.",
       "options": [
         "conflict-mcq-22",
-        "conflict-mcq-21",
-        "conflict-mcq-23",
-        "conflict-mcq-20",
-        "conflict-mcq-24",
-        "conflict-mcq-19"
+        "conflict-mcq-59",
+        "conflict-mcq-40",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「moral conflict」指「不同道德原則／責任互相衝突的情況」。",
       "sentenceIndex": 37,
@@ -2876,12 +2726,10 @@ export default {
         "moral conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-22": "本句指「不同道德原則／責任互相衝突的情況」。",
-        "conflict-mcq-21": "「不同情感同時存在而造成的內心矛盾」與本句語境不同。",
-        "conflict-mcq-23": "「不同價值觀之間的衝突」與本句語境不同。",
-        "conflict-mcq-20": "「內心互相拉扯的矛盾／思想鬥爭」與本句語境不同。",
-        "conflict-mcq-24": "「個人利益可能影響其專業／公務責任的利益衝突」與本句語境不同。",
-        "conflict-mcq-19": "「一個人內心不同欲望、信念、價值等之間的衝突」與本句語境不同。"
+        "conflict-mcq-22": "本句的「moral conflict」指「不同道德原則／責任互相衝突的情況」。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-22"
     },
@@ -2893,11 +2741,9 @@ export default {
       "masked": "He faced a ____ between loyalty and fairness.",
       "options": [
         "conflict-mcq-22",
-        "conflict-mcq-21",
-        "conflict-mcq-23",
-        "conflict-mcq-20",
-        "conflict-mcq-24",
-        "conflict-mcq-19"
+        "conflict-mcq-32",
+        "conflict-mcq-41",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「moral conflict」指「不同道德原則／責任互相衝突的情況」。",
       "sentenceIndex": 38,
@@ -2906,12 +2752,10 @@ export default {
         "moral conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-22": "本句指「不同道德原則／責任互相衝突的情況」。",
-        "conflict-mcq-21": "「不同情感同時存在而造成的內心矛盾」與本句語境不同。",
-        "conflict-mcq-23": "「不同價值觀之間的衝突」與本句語境不同。",
-        "conflict-mcq-20": "「內心互相拉扯的矛盾／思想鬥爭」與本句語境不同。",
-        "conflict-mcq-24": "「個人利益可能影響其專業／公務責任的利益衝突」與本句語境不同。",
-        "conflict-mcq-19": "「一個人內心不同欲望、信念、價值等之間的衝突」與本句語境不同。"
+        "conflict-mcq-22": "本句的「moral conflict」指「不同道德原則／責任互相衝突的情況」。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-22"
     },
@@ -2923,11 +2767,9 @@ export default {
       "masked": "The debate reflects a deeper ____.",
       "options": [
         "conflict-mcq-23",
-        "conflict-mcq-22",
-        "conflict-mcq-24",
-        "conflict-mcq-21",
-        "conflict-mcq-25",
-        "conflict-mcq-20"
+        "conflict-mcq-40",
+        "conflict-mcq-65",
+        "conflict-mcq-64"
       ],
       "explanation": "本句的「conflict of values」指「不同價值觀之間的衝突」。",
       "sentenceIndex": 39,
@@ -2936,12 +2778,10 @@ export default {
         "conflict of values"
       ],
       "optionReasons": {
-        "conflict-mcq-23": "本句指「不同價值觀之間的衝突」。",
-        "conflict-mcq-22": "「不同道德原則／責任互相衝突的情況」與本句語境不同。",
-        "conflict-mcq-24": "「個人利益可能影響其專業／公務責任的利益衝突」與本句語境不同。",
-        "conflict-mcq-21": "「不同情感同時存在而造成的內心矛盾」與本句語境不同。",
-        "conflict-mcq-25": "「可能形成利益衝突的情況」與本句語境不同。",
-        "conflict-mcq-20": "「內心互相拉扯的矛盾／思想鬥爭」與本句語境不同。"
+        "conflict-mcq-23": "本句的「conflict of values」指「不同價值觀之間的衝突」。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-23"
     },
@@ -2953,11 +2793,9 @@ export default {
       "masked": "Their disagreement came from a ____.",
       "options": [
         "conflict-mcq-23",
-        "conflict-mcq-22",
-        "conflict-mcq-24",
-        "conflict-mcq-21",
-        "conflict-mcq-25",
-        "conflict-mcq-20"
+        "conflict-mcq-30",
+        "conflict-mcq-65",
+        "conflict-mcq-59"
       ],
       "explanation": "本句的「conflict of values」指「不同價值觀之間的衝突」。",
       "sentenceIndex": 40,
@@ -2966,12 +2804,10 @@ export default {
         "conflict of values"
       ],
       "optionReasons": {
-        "conflict-mcq-23": "本句指「不同價值觀之間的衝突」。",
-        "conflict-mcq-22": "「不同道德原則／責任互相衝突的情況」與本句語境不同。",
-        "conflict-mcq-24": "「個人利益可能影響其專業／公務責任的利益衝突」與本句語境不同。",
-        "conflict-mcq-21": "「不同情感同時存在而造成的內心矛盾」與本句語境不同。",
-        "conflict-mcq-25": "「可能形成利益衝突的情況」與本句語境不同。",
-        "conflict-mcq-20": "「內心互相拉扯的矛盾／思想鬥爭」與本句語境不同。"
+        "conflict-mcq-23": "本句的「conflict of values」指「不同價值觀之間的衝突」。",
+        "conflict-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-23"
     },
@@ -2983,11 +2819,9 @@ export default {
       "masked": "The board member disclosed a ____.",
       "options": [
         "conflict-mcq-24",
-        "conflict-mcq-23",
-        "conflict-mcq-25",
-        "conflict-mcq-22",
-        "conflict-mcq-26",
-        "conflict-mcq-21"
+        "conflict-mcq-64",
+        "conflict-mcq-90",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「conflict of interest」指「個人利益可能影響其專業／公務責任的利益衝突」。",
       "sentenceIndex": 41,
@@ -2996,12 +2830,10 @@ export default {
         "conflict of interest"
       ],
       "optionReasons": {
-        "conflict-mcq-24": "本句指「個人利益可能影響其專業／公務責任的利益衝突」。",
-        "conflict-mcq-23": "「不同價值觀之間的衝突」與本句語境不同。",
-        "conflict-mcq-25": "「可能形成利益衝突的情況」與本句語境不同。",
-        "conflict-mcq-22": "「不同道德原則／責任互相衝突的情況」與本句語境不同。",
-        "conflict-mcq-26": "「專業機構在接受工作前進行的利益衝突審查」與本句語境不同。",
-        "conflict-mcq-21": "「不同情感同時存在而造成的內心矛盾」與本句語境不同。"
+        "conflict-mcq-24": "本句的「conflict of interest」指「個人利益可能影響其專業／公務責任的利益衝突」。",
+        "conflict-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-24"
     },
@@ -3013,11 +2845,9 @@ export default {
       "masked": "Staff must avoid situations that create a ____.",
       "options": [
         "conflict-mcq-24",
-        "conflict-mcq-23",
-        "conflict-mcq-25",
-        "conflict-mcq-22",
-        "conflict-mcq-26",
-        "conflict-mcq-21"
+        "conflict-mcq-88",
+        "conflict-mcq-58",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「conflict of interest」指「個人利益可能影響其專業／公務責任的利益衝突」。",
       "sentenceIndex": 42,
@@ -3026,12 +2856,10 @@ export default {
         "conflict of interest"
       ],
       "optionReasons": {
-        "conflict-mcq-24": "本句指「個人利益可能影響其專業／公務責任的利益衝突」。",
-        "conflict-mcq-23": "「不同價值觀之間的衝突」與本句語境不同。",
-        "conflict-mcq-25": "「可能形成利益衝突的情況」與本句語境不同。",
-        "conflict-mcq-22": "「不同道德原則／責任互相衝突的情況」與本句語境不同。",
-        "conflict-mcq-26": "「專業機構在接受工作前進行的利益衝突審查」與本句語境不同。",
-        "conflict-mcq-21": "「不同情感同時存在而造成的內心矛盾」與本句語境不同。"
+        "conflict-mcq-24": "本句的「conflict of interest」指「個人利益可能影響其專業／公務責任的利益衝突」。",
+        "conflict-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-24"
     },
@@ -3043,11 +2871,9 @@ export default {
       "masked": "She declared a ____.",
       "options": [
         "conflict-mcq-25",
-        "conflict-mcq-24",
-        "conflict-mcq-26",
-        "conflict-mcq-23",
-        "conflict-mcq-27",
-        "conflict-mcq-22"
+        "conflict-mcq-63",
+        "conflict-mcq-40",
+        "conflict-mcq-58"
       ],
       "explanation": "本句的「potential conflict of interest」指「可能形成利益衝突的情況」。",
       "sentenceIndex": 43,
@@ -3056,12 +2882,10 @@ export default {
         "potential conflict of interest"
       ],
       "optionReasons": {
-        "conflict-mcq-25": "本句指「可能形成利益衝突的情況」。",
-        "conflict-mcq-24": "「個人利益可能影響其專業／公務責任的利益衝突」與本句語境不同。",
-        "conflict-mcq-26": "「專業機構在接受工作前進行的利益衝突審查」與本句語境不同。",
-        "conflict-mcq-23": "「不同價值觀之間的衝突」與本句語境不同。",
-        "conflict-mcq-27": "「一個人的不同角色提出互不相容要求時產生的衝突」與本句語境不同。",
-        "conflict-mcq-22": "「不同道德原則／責任互相衝突的情況」與本句語境不同。"
+        "conflict-mcq-25": "本句的「potential conflict of interest」指「可能形成利益衝突的情況」。",
+        "conflict-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-25"
     },
@@ -3073,11 +2897,9 @@ export default {
       "masked": "The firm completed a ____ before accepting the client.",
       "options": [
         "conflict-mcq-26",
-        "conflict-mcq-25",
-        "conflict-mcq-27",
-        "conflict-mcq-24",
-        "conflict-mcq-28",
-        "conflict-mcq-23"
+        "conflict-mcq-90",
+        "conflict-mcq-20",
+        "conflict-mcq-59"
       ],
       "explanation": "本句的「conflict check」指「專業機構在接受工作前進行的利益衝突審查」。",
       "sentenceIndex": 44,
@@ -3086,12 +2908,10 @@ export default {
         "conflict check"
       ],
       "optionReasons": {
-        "conflict-mcq-26": "本句指「專業機構在接受工作前進行的利益衝突審查」。",
-        "conflict-mcq-25": "「可能形成利益衝突的情況」與本句語境不同。",
-        "conflict-mcq-27": "「一個人的不同角色提出互不相容要求時產生的衝突」與本句語境不同。",
-        "conflict-mcq-24": "「個人利益可能影響其專業／公務責任的利益衝突」與本句語境不同。",
-        "conflict-mcq-28": "「工作要求與家庭責任互相干擾的衝突」與本句語境不同。",
-        "conflict-mcq-23": "「不同價值觀之間的衝突」與本句語境不同。"
+        "conflict-mcq-26": "本句的「conflict check」指「專業機構在接受工作前進行的利益衝突審查」。",
+        "conflict-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-26"
     },
@@ -3103,11 +2923,9 @@ export default {
       "masked": "Managers sometimes experience ____.",
       "options": [
         "conflict-mcq-27",
-        "conflict-mcq-26",
-        "conflict-mcq-28",
-        "conflict-mcq-25",
-        "conflict-mcq-29",
-        "conflict-mcq-24"
+        "conflict-mcq-65",
+        "conflict-mcq-32",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「role conflict」指「一個人的不同角色提出互不相容要求時產生的衝突」。",
       "sentenceIndex": 45,
@@ -3116,12 +2934,10 @@ export default {
         "role conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-27": "本句指「一個人的不同角色提出互不相容要求時產生的衝突」。",
-        "conflict-mcq-26": "「專業機構在接受工作前進行的利益衝突審查」與本句語境不同。",
-        "conflict-mcq-28": "「工作要求與家庭責任互相干擾的衝突」與本句語境不同。",
-        "conflict-mcq-25": "「可能形成利益衝突的情況」與本句語境不同。",
-        "conflict-mcq-29": "「不同要求／優先事項無法同時滿足的矛盾」與本句語境不同。",
-        "conflict-mcq-24": "「個人利益可能影響其專業／公務責任的利益衝突」與本句語境不同。"
+        "conflict-mcq-27": "本句的「role conflict」指「一個人的不同角色提出互不相容要求時產生的衝突」。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-27"
     },
@@ -3133,11 +2949,9 @@ export default {
       "masked": "Being both a supervisor and a close friend created ____.",
       "options": [
         "conflict-mcq-27",
-        "conflict-mcq-26",
-        "conflict-mcq-28",
-        "conflict-mcq-25",
-        "conflict-mcq-29",
-        "conflict-mcq-24"
+        "conflict-mcq-65",
+        "conflict-mcq-32",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「role conflict」指「一個人的不同角色提出互不相容要求時產生的衝突」。",
       "sentenceIndex": 46,
@@ -3146,12 +2960,10 @@ export default {
         "role conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-27": "本句指「一個人的不同角色提出互不相容要求時產生的衝突」。",
-        "conflict-mcq-26": "「專業機構在接受工作前進行的利益衝突審查」與本句語境不同。",
-        "conflict-mcq-28": "「工作要求與家庭責任互相干擾的衝突」與本句語境不同。",
-        "conflict-mcq-25": "「可能形成利益衝突的情況」與本句語境不同。",
-        "conflict-mcq-29": "「不同要求／優先事項無法同時滿足的矛盾」與本句語境不同。",
-        "conflict-mcq-24": "「個人利益可能影響其專業／公務責任的利益衝突」與本句語境不同。"
+        "conflict-mcq-27": "本句的「role conflict」指「一個人的不同角色提出互不相容要求時產生的衝突」。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-27"
     },
@@ -3163,11 +2975,9 @@ export default {
       "masked": "Long hours can increase ____.",
       "options": [
         "conflict-mcq-28",
-        "conflict-mcq-27",
-        "conflict-mcq-29",
-        "conflict-mcq-26",
-        "conflict-mcq-30",
-        "conflict-mcq-25"
+        "conflict-mcq-41",
+        "conflict-mcq-32",
+        "conflict-mcq-57"
       ],
       "explanation": "本句的「work–family conflict」指「工作要求與家庭責任互相干擾的衝突」。",
       "sentenceIndex": 47,
@@ -3176,12 +2986,10 @@ export default {
         "work–family conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-28": "本句指「工作要求與家庭責任互相干擾的衝突」。",
-        "conflict-mcq-27": "「一個人的不同角色提出互不相容要求時產生的衝突」與本句語境不同。",
-        "conflict-mcq-29": "「不同要求／優先事項無法同時滿足的矛盾」與本句語境不同。",
-        "conflict-mcq-26": "「專業機構在接受工作前進行的利益衝突審查」與本句語境不同。",
-        "conflict-mcq-30": "「規則、資訊、要求、目標等互相不相容／矛盾」與本句語境不同。",
-        "conflict-mcq-25": "「可能形成利益衝突的情況」與本句語境不同。"
+        "conflict-mcq-28": "本句的「work–family conflict」指「工作要求與家庭責任互相干擾的衝突」。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-28"
     },
@@ -3193,11 +3001,9 @@ export default {
       "masked": "There is a ____.",
       "options": [
         "conflict-mcq-29",
-        "conflict-mcq-28",
-        "conflict-mcq-30",
-        "conflict-mcq-27",
-        "conflict-mcq-31",
-        "conflict-mcq-26"
+        "conflict-mcq-09",
+        "conflict-mcq-40",
+        "conflict-mcq-61"
       ],
       "explanation": "本句的「conflict between speed and accuracy」指「不同要求／優先事項無法同時滿足的矛盾」。",
       "sentenceIndex": 48,
@@ -3206,12 +3012,10 @@ export default {
         "conflict between speed and accuracy"
       ],
       "optionReasons": {
-        "conflict-mcq-29": "本句指「不同要求／優先事項無法同時滿足的矛盾」。",
-        "conflict-mcq-28": "「工作要求與家庭責任互相干擾的衝突」與本句語境不同。",
-        "conflict-mcq-30": "「規則、資訊、要求、目標等互相不相容／矛盾」與本句語境不同。",
-        "conflict-mcq-27": "「一個人的不同角色提出互不相容要求時產生的衝突」與本句語境不同。",
-        "conflict-mcq-31": "「與某事互相衝突／不一致」與本句語境不同。",
-        "conflict-mcq-26": "「專業機構在接受工作前進行的利益衝突審查」與本句語境不同。"
+        "conflict-mcq-29": "本句的「conflict between speed and accuracy」指「不同要求／優先事項無法同時滿足的矛盾」。",
+        "conflict-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-29"
     },
@@ -3223,11 +3027,9 @@ export default {
       "masked": "Managers must balance ____.",
       "options": [
         "conflict-mcq-29",
-        "conflict-mcq-28",
-        "conflict-mcq-30",
-        "conflict-mcq-27",
-        "conflict-mcq-31",
-        "conflict-mcq-26"
+        "conflict-mcq-74",
+        "conflict-mcq-65",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「conflicting priorities」指「不同要求／優先事項無法同時滿足的矛盾」。",
       "sentenceIndex": 49,
@@ -3236,12 +3038,10 @@ export default {
         "conflicting priorities"
       ],
       "optionReasons": {
-        "conflict-mcq-29": "本句指「不同要求／優先事項無法同時滿足的矛盾」。",
-        "conflict-mcq-28": "「工作要求與家庭責任互相干擾的衝突」與本句語境不同。",
-        "conflict-mcq-30": "「規則、資訊、要求、目標等互相不相容／矛盾」與本句語境不同。",
-        "conflict-mcq-27": "「一個人的不同角色提出互不相容要求時產生的衝突」與本句語境不同。",
-        "conflict-mcq-31": "「與某事互相衝突／不一致」與本句語境不同。",
-        "conflict-mcq-26": "「專業機構在接受工作前進行的利益衝突審查」與本句語境不同。"
+        "conflict-mcq-29": "本句的「conflicting priorities」指「不同要求／優先事項無法同時滿足的矛盾」。",
+        "conflict-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-29"
     },
@@ -3253,11 +3053,9 @@ export default {
       "masked": "There is a ____.",
       "options": [
         "conflict-mcq-30",
-        "conflict-mcq-29",
-        "conflict-mcq-31",
-        "conflict-mcq-28",
-        "conflict-mcq-32",
-        "conflict-mcq-27"
+        "conflict-mcq-65",
+        "conflict-mcq-26",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「conflict between the two sets of instructions」指「規則、資訊、要求、目標等互相不相容／矛盾」。",
       "sentenceIndex": 50,
@@ -3266,12 +3064,10 @@ export default {
         "conflict between the two sets of instructions"
       ],
       "optionReasons": {
-        "conflict-mcq-30": "本句指「規則、資訊、要求、目標等互相不相容／矛盾」。",
-        "conflict-mcq-29": "「不同要求／優先事項無法同時滿足的矛盾」與本句語境不同。",
-        "conflict-mcq-31": "「與某事互相衝突／不一致」與本句語境不同。",
-        "conflict-mcq-28": "「工作要求與家庭責任互相干擾的衝突」與本句語境不同。",
-        "conflict-mcq-32": "「與某事明顯直接矛盾」與本句語境不同。",
-        "conflict-mcq-27": "「一個人的不同角色提出互不相容要求時產生的衝突」與本句語境不同。"
+        "conflict-mcq-30": "本句的「conflict between the two sets of instructions」指「規則、資訊、要求、目標等互相不相容／矛盾」。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-30"
     },
@@ -3283,11 +3079,9 @@ export default {
       "masked": "The evidence reveals a ____ in the accounts.",
       "options": [
         "conflict-mcq-30",
-        "conflict-mcq-29",
-        "conflict-mcq-31",
-        "conflict-mcq-28",
-        "conflict-mcq-32",
-        "conflict-mcq-27"
+        "conflict-mcq-72",
+        "conflict-mcq-65",
+        "conflict-mcq-62"
       ],
       "explanation": "本句的「conflict」指「規則、資訊、要求、目標等互相不相容／矛盾」。",
       "sentenceIndex": 51,
@@ -3296,12 +3090,10 @@ export default {
         "conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-30": "本句指「規則、資訊、要求、目標等互相不相容／矛盾」。",
-        "conflict-mcq-29": "「不同要求／優先事項無法同時滿足的矛盾」與本句語境不同。",
-        "conflict-mcq-31": "「與某事互相衝突／不一致」與本句語境不同。",
-        "conflict-mcq-28": "「工作要求與家庭責任互相干擾的衝突」與本句語境不同。",
-        "conflict-mcq-32": "「與某事明顯直接矛盾」與本句語境不同。",
-        "conflict-mcq-27": "「一個人的不同角色提出互不相容要求時產生的衝突」與本句語境不同。"
+        "conflict-mcq-30": "本句的「conflict」指「規則、資訊、要求、目標等互相不相容／矛盾」。",
+        "conflict-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-30"
     },
@@ -3313,11 +3105,9 @@ export default {
       "masked": "The rule is ____ existing policy.",
       "options": [
         "conflict-mcq-31",
-        "conflict-mcq-30",
-        "conflict-mcq-32",
-        "conflict-mcq-29",
-        "conflict-mcq-33",
-        "conflict-mcq-28"
+        "conflict-mcq-40",
+        "conflict-mcq-65",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「in conflict with」指「與某事互相衝突／不一致」。",
       "sentenceIndex": 52,
@@ -3326,12 +3116,10 @@ export default {
         "in conflict with"
       ],
       "optionReasons": {
-        "conflict-mcq-31": "本句指「與某事互相衝突／不一致」。",
-        "conflict-mcq-30": "「規則、資訊、要求、目標等互相不相容／矛盾」與本句語境不同。",
-        "conflict-mcq-32": "「與某事明顯直接矛盾」與本句語境不同。",
-        "conflict-mcq-29": "「不同要求／優先事項無法同時滿足的矛盾」與本句語境不同。",
-        "conflict-mcq-33": "「開始與某人發生衝突」與本句語境不同。",
-        "conflict-mcq-28": "「工作要求與家庭責任互相干擾的衝突」與本句語境不同。"
+        "conflict-mcq-31": "本句的「in conflict with」指「與某事互相衝突／不一致」。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-31"
     },
@@ -3343,11 +3131,9 @@ export default {
       "masked": "His actions were ____ his stated values.",
       "options": [
         "conflict-mcq-31",
-        "conflict-mcq-30",
-        "conflict-mcq-32",
-        "conflict-mcq-29",
-        "conflict-mcq-33",
-        "conflict-mcq-28"
+        "conflict-mcq-40",
+        "conflict-mcq-65",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「in conflict with」指「與某事互相衝突／不一致」。",
       "sentenceIndex": 53,
@@ -3356,12 +3142,10 @@ export default {
         "in conflict with"
       ],
       "optionReasons": {
-        "conflict-mcq-31": "本句指「與某事互相衝突／不一致」。",
-        "conflict-mcq-30": "「規則、資訊、要求、目標等互相不相容／矛盾」與本句語境不同。",
-        "conflict-mcq-32": "「與某事明顯直接矛盾」與本句語境不同。",
-        "conflict-mcq-29": "「不同要求／優先事項無法同時滿足的矛盾」與本句語境不同。",
-        "conflict-mcq-33": "「開始與某人發生衝突」與本句語境不同。",
-        "conflict-mcq-28": "「工作要求與家庭責任互相干擾的衝突」與本句語境不同。"
+        "conflict-mcq-31": "本句的「in conflict with」指「與某事互相衝突／不一致」。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-31"
     },
@@ -3373,11 +3157,9 @@ export default {
       "masked": "The requirement is ____ the agreement.",
       "options": [
         "conflict-mcq-32",
-        "conflict-mcq-31",
-        "conflict-mcq-33",
-        "conflict-mcq-30",
-        "conflict-mcq-34",
-        "conflict-mcq-29"
+        "conflict-mcq-42",
+        "conflict-mcq-15",
+        "conflict-mcq-93"
       ],
       "explanation": "本句的「in direct conflict with」指「與某事明顯直接矛盾」。",
       "sentenceIndex": 54,
@@ -3386,12 +3168,10 @@ export default {
         "in direct conflict with"
       ],
       "optionReasons": {
-        "conflict-mcq-32": "本句指「與某事明顯直接矛盾」。",
-        "conflict-mcq-31": "「與某事互相衝突／不一致」與本句語境不同。",
-        "conflict-mcq-33": "「開始與某人發生衝突」與本句語境不同。",
-        "conflict-mcq-30": "「規則、資訊、要求、目標等互相不相容／矛盾」與本句語境不同。",
-        "conflict-mcq-34": "「與規則／法律發生不相容情況」與本句語境不同。",
-        "conflict-mcq-29": "「不同要求／優先事項無法同時滿足的矛盾」與本句語境不同。"
+        "conflict-mcq-32": "本句的「in direct conflict with」指「與某事明顯直接矛盾」。",
+        "conflict-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-32"
     },
@@ -3403,11 +3183,9 @@ export default {
       "masked": "He frequently ____.",
       "options": [
         "conflict-mcq-33",
-        "conflict-mcq-32",
-        "conflict-mcq-34",
-        "conflict-mcq-31",
-        "conflict-mcq-35",
-        "conflict-mcq-30"
+        "conflict-mcq-93",
+        "conflict-mcq-29",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「came into conflict with authority」指「開始與某人發生衝突」。",
       "sentenceIndex": 55,
@@ -3416,12 +3194,10 @@ export default {
         "came into conflict with authority"
       ],
       "optionReasons": {
-        "conflict-mcq-33": "本句指「開始與某人發生衝突」。",
-        "conflict-mcq-32": "「與某事明顯直接矛盾」與本句語境不同。",
-        "conflict-mcq-34": "「與規則／法律發生不相容情況」與本句語境不同。",
-        "conflict-mcq-31": "「與某事互相衝突／不一致」與本句語境不同。",
-        "conflict-mcq-35": "「與另一事物互相矛盾、不相容」與本句語境不同。",
-        "conflict-mcq-30": "「規則、資訊、要求、目標等互相不相容／矛盾」與本句語境不同。"
+        "conflict-mcq-33": "本句的「came into conflict with authority」指「開始與某人發生衝突」。",
+        "conflict-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-33"
     },
@@ -3433,11 +3209,9 @@ export default {
       "masked": "The proposal may ____.",
       "options": [
         "conflict-mcq-34",
-        "conflict-mcq-33",
-        "conflict-mcq-35",
-        "conflict-mcq-32",
-        "conflict-mcq-36",
-        "conflict-mcq-31"
+        "conflict-mcq-91",
+        "conflict-mcq-82",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「come into conflict with existing regulations」指「與規則／法律發生不相容情況」。",
       "sentenceIndex": 56,
@@ -3446,12 +3220,10 @@ export default {
         "come into conflict with existing regulations"
       ],
       "optionReasons": {
-        "conflict-mcq-34": "本句指「與規則／法律發生不相容情況」。",
-        "conflict-mcq-33": "「開始與某人發生衝突」與本句語境不同。",
-        "conflict-mcq-35": "「與另一事物互相矛盾、不相容」與本句語境不同。",
-        "conflict-mcq-32": "「與某事明顯直接矛盾」與本句語境不同。",
-        "conflict-mcq-36": "「不同人的說法互相矛盾」與本句語境不同。",
-        "conflict-mcq-31": "「與某事互相衝突／不一致」與本句語境不同。"
+        "conflict-mcq-34": "本句的「come into conflict with existing regulations」指「與規則／法律發生不相容情況」。",
+        "conflict-mcq-91": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-34"
     },
@@ -3463,11 +3235,9 @@ export default {
       "masked": "His account ____.",
       "options": [
         "conflict-mcq-31",
-        "conflict-mcq-30",
-        "conflict-mcq-32",
-        "conflict-mcq-29",
-        "conflict-mcq-33",
-        "conflict-mcq-28"
+        "conflict-mcq-59",
+        "conflict-mcq-34",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「conflicts with the evidence」指「與某事互相衝突／不一致」。",
       "sentenceIndex": 57,
@@ -3476,12 +3246,10 @@ export default {
         "conflicts with the evidence"
       ],
       "optionReasons": {
-        "conflict-mcq-31": "本句指「與某事互相衝突／不一致」。",
-        "conflict-mcq-30": "「規則、資訊、要求、目標等互相不相容／矛盾」與本句語境不同。",
-        "conflict-mcq-32": "「與某事明顯直接矛盾」與本句語境不同。",
-        "conflict-mcq-29": "「不同要求／優先事項無法同時滿足的矛盾」與本句語境不同。",
-        "conflict-mcq-33": "「開始與某人發生衝突」與本句語境不同。",
-        "conflict-mcq-28": "「工作要求與家庭責任互相干擾的衝突」與本句語境不同。"
+        "conflict-mcq-31": "本句的「conflicts with the evidence」指「與某事互相衝突／不一致」。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-31"
     },
@@ -3493,11 +3261,9 @@ export default {
       "masked": "The new schedule ____.",
       "options": [
         "conflict-mcq-31",
-        "conflict-mcq-30",
-        "conflict-mcq-32",
-        "conflict-mcq-29",
-        "conflict-mcq-33",
-        "conflict-mcq-28"
+        "conflict-mcq-65",
+        "conflict-mcq-40",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「conflicts with my class」指「與某事互相衝突／不一致」。",
       "sentenceIndex": 58,
@@ -3506,12 +3272,10 @@ export default {
         "conflicts with my class"
       ],
       "optionReasons": {
-        "conflict-mcq-31": "本句指「與某事互相衝突／不一致」。",
-        "conflict-mcq-30": "「規則、資訊、要求、目標等互相不相容／矛盾」與本句語境不同。",
-        "conflict-mcq-32": "「與某事明顯直接矛盾」與本句語境不同。",
-        "conflict-mcq-29": "「不同要求／優先事項無法同時滿足的矛盾」與本句語境不同。",
-        "conflict-mcq-33": "「開始與某人發生衝突」與本句語境不同。",
-        "conflict-mcq-28": "「工作要求與家庭責任互相干擾的衝突」與本句語境不同。"
+        "conflict-mcq-31": "本句的「conflicts with my class」指「與某事互相衝突／不一致」。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-31"
     },
@@ -3523,11 +3287,9 @@ export default {
       "masked": "The witnesses’ accounts ____.",
       "options": [
         "conflict-mcq-36",
-        "conflict-mcq-35",
-        "conflict-mcq-37",
-        "conflict-mcq-34",
-        "conflict-mcq-38",
-        "conflict-mcq-33"
+        "conflict-mcq-07",
+        "conflict-mcq-65",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「conflict」指「不同人的說法互相矛盾」。",
       "sentenceIndex": 59,
@@ -3536,12 +3298,10 @@ export default {
         "conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-36": "本句指「不同人的說法互相矛盾」。",
-        "conflict-mcq-35": "「與另一事物互相矛盾、不相容」與本句語境不同。",
-        "conflict-mcq-37": "「不同證據互相不一致」與本句語境不同。",
-        "conflict-mcq-34": "「與規則／法律發生不相容情況」與本句語境不同。",
-        "conflict-mcq-38": "「兩項安排在同一時間進行；撞期」與本句語境不同。",
-        "conflict-mcq-33": "「開始與某人發生衝突」與本句語境不同。"
+        "conflict-mcq-36": "本句的「conflict」指「不同人的說法互相矛盾」。",
+        "conflict-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-36"
     },
@@ -3553,11 +3313,9 @@ export default {
       "masked": "His version ____ hers.",
       "options": [
         "conflict-mcq-36",
-        "conflict-mcq-35",
-        "conflict-mcq-37",
-        "conflict-mcq-34",
-        "conflict-mcq-38",
-        "conflict-mcq-33"
+        "conflict-mcq-03",
+        "conflict-mcq-65",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「conflicts with」指「不同人的說法互相矛盾」。",
       "sentenceIndex": 60,
@@ -3566,12 +3324,10 @@ export default {
         "conflicts with"
       ],
       "optionReasons": {
-        "conflict-mcq-36": "本句指「不同人的說法互相矛盾」。",
-        "conflict-mcq-35": "「與另一事物互相矛盾、不相容」與本句語境不同。",
-        "conflict-mcq-37": "「不同證據互相不一致」與本句語境不同。",
-        "conflict-mcq-34": "「與規則／法律發生不相容情況」與本句語境不同。",
-        "conflict-mcq-38": "「兩項安排在同一時間進行；撞期」與本句語境不同。",
-        "conflict-mcq-33": "「開始與某人發生衝突」與本句語境不同。"
+        "conflict-mcq-36": "本句的「conflicts with」指「不同人的說法互相矛盾」。",
+        "conflict-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-36"
     },
@@ -3583,11 +3339,9 @@ export default {
       "masked": "The available evidence ____.",
       "options": [
         "conflict-mcq-37",
-        "conflict-mcq-36",
-        "conflict-mcq-38",
-        "conflict-mcq-35",
-        "conflict-mcq-39",
-        "conflict-mcq-34"
+        "conflict-mcq-68",
+        "conflict-mcq-41",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「conflicts」指「不同證據互相不一致」。",
       "sentenceIndex": 61,
@@ -3596,12 +3350,10 @@ export default {
         "conflicts"
       ],
       "optionReasons": {
-        "conflict-mcq-37": "本句指「不同證據互相不一致」。",
-        "conflict-mcq-36": "「不同人的說法互相矛盾」與本句語境不同。",
-        "conflict-mcq-38": "「兩項安排在同一時間進行；撞期」與本句語境不同。",
-        "conflict-mcq-35": "「與另一事物互相矛盾、不相容」與本句語境不同。",
-        "conflict-mcq-39": "「時間安排互相重疊／衝突」與本句語境不同。",
-        "conflict-mcq-34": "「與規則／法律發生不相容情況」與本句語境不同。"
+        "conflict-mcq-37": "本句的「conflicts」指「不同證據互相不一致」。",
+        "conflict-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-37"
     },
@@ -3613,11 +3365,9 @@ export default {
       "masked": "Some findings ____.",
       "options": [
         "conflict-mcq-37",
-        "conflict-mcq-36",
-        "conflict-mcq-38",
-        "conflict-mcq-35",
-        "conflict-mcq-39",
-        "conflict-mcq-34"
+        "conflict-mcq-77",
+        "conflict-mcq-40",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「conflict with earlier research」指「不同證據互相不一致」。",
       "sentenceIndex": 62,
@@ -3626,12 +3376,10 @@ export default {
         "conflict with earlier research"
       ],
       "optionReasons": {
-        "conflict-mcq-37": "本句指「不同證據互相不一致」。",
-        "conflict-mcq-36": "「不同人的說法互相矛盾」與本句語境不同。",
-        "conflict-mcq-38": "「兩項安排在同一時間進行；撞期」與本句語境不同。",
-        "conflict-mcq-35": "「與另一事物互相矛盾、不相容」與本句語境不同。",
-        "conflict-mcq-39": "「時間安排互相重疊／衝突」與本句語境不同。",
-        "conflict-mcq-34": "「與規則／法律發生不相容情況」與本句語境不同。"
+        "conflict-mcq-37": "本句的「conflict with earlier research」指「不同證據互相不一致」。",
+        "conflict-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-37"
     },
@@ -3643,11 +3391,9 @@ export default {
       "masked": "I can’t attend because of a ____.",
       "options": [
         "conflict-mcq-38",
-        "conflict-mcq-37",
-        "conflict-mcq-39",
-        "conflict-mcq-36",
-        "conflict-mcq-40",
-        "conflict-mcq-35"
+        "conflict-mcq-25",
+        "conflict-mcq-20",
+        "conflict-mcq-88"
       ],
       "explanation": "本句的「schedule conflict」指「兩項安排在同一時間進行；撞期」。",
       "sentenceIndex": 63,
@@ -3656,12 +3402,10 @@ export default {
         "schedule conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-38": "本句指「兩項安排在同一時間進行；撞期」。",
-        "conflict-mcq-37": "「不同證據互相不一致」與本句語境不同。",
-        "conflict-mcq-39": "「時間安排互相重疊／衝突」與本句語境不同。",
-        "conflict-mcq-36": "「不同人的說法互相矛盾」與本句語境不同。",
-        "conflict-mcq-40": "「預約／場地安排發生重疊」與本句語境不同。",
-        "conflict-mcq-35": "「與另一事物互相矛盾、不相容」與本句語境不同。"
+        "conflict-mcq-38": "本句的「schedule conflict」指「兩項安排在同一時間進行；撞期」。",
+        "conflict-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-88": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-38"
     },
@@ -3673,11 +3417,9 @@ export default {
       "masked": "We need to fix the ____.",
       "options": [
         "conflict-mcq-38",
-        "conflict-mcq-37",
-        "conflict-mcq-39",
-        "conflict-mcq-36",
-        "conflict-mcq-40",
-        "conflict-mcq-35"
+        "conflict-mcq-32",
+        "conflict-mcq-31",
+        "conflict-mcq-34"
       ],
       "explanation": "本句的「scheduling conflict」指「兩項安排在同一時間進行；撞期」。",
       "sentenceIndex": 64,
@@ -3686,12 +3428,10 @@ export default {
         "scheduling conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-38": "本句指「兩項安排在同一時間進行；撞期」。",
-        "conflict-mcq-37": "「不同證據互相不一致」與本句語境不同。",
-        "conflict-mcq-39": "「時間安排互相重疊／衝突」與本句語境不同。",
-        "conflict-mcq-36": "「不同人的說法互相矛盾」與本句語境不同。",
-        "conflict-mcq-40": "「預約／場地安排發生重疊」與本句語境不同。",
-        "conflict-mcq-35": "「與另一事物互相矛盾、不相容」與本句語境不同。"
+        "conflict-mcq-38": "本句的「scheduling conflict」指「兩項安排在同一時間進行；撞期」。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-38"
     },
@@ -3703,11 +3443,9 @@ export default {
       "masked": "There is a ____ between the two meetings.",
       "options": [
         "conflict-mcq-39",
-        "conflict-mcq-38",
-        "conflict-mcq-40",
-        "conflict-mcq-37",
-        "conflict-mcq-41",
-        "conflict-mcq-36"
+        "conflict-mcq-65",
+        "conflict-mcq-88",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「time conflict」指「時間安排互相重疊／衝突」。",
       "sentenceIndex": 65,
@@ -3716,12 +3454,10 @@ export default {
         "time conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-39": "本句指「時間安排互相重疊／衝突」。",
-        "conflict-mcq-38": "「兩項安排在同一時間進行；撞期」與本句語境不同。",
-        "conflict-mcq-40": "「預約／場地安排發生重疊」與本句語境不同。",
-        "conflict-mcq-37": "「不同證據互相不一致」與本句語境不同。",
-        "conflict-mcq-41": "「兩項活動時間撞期」與本句語境不同。",
-        "conflict-mcq-36": "「不同人的說法互相矛盾」與本句語境不同。"
+        "conflict-mcq-39": "本句的「time conflict」指「時間安排互相重疊／衝突」。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-39"
     },
@@ -3733,11 +3469,9 @@ export default {
       "masked": "A ____ meant the room was unavailable.",
       "options": [
         "conflict-mcq-40",
-        "conflict-mcq-39",
-        "conflict-mcq-41",
-        "conflict-mcq-38",
+        "conflict-mcq-08",
         "conflict-mcq-42",
-        "conflict-mcq-37"
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「booking conflict」指「預約／場地安排發生重疊」。",
       "sentenceIndex": 66,
@@ -3746,12 +3480,10 @@ export default {
         "booking conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-40": "本句指「預約／場地安排發生重疊」。",
-        "conflict-mcq-39": "「時間安排互相重疊／衝突」與本句語境不同。",
-        "conflict-mcq-41": "「兩項活動時間撞期」與本句語境不同。",
-        "conflict-mcq-38": "「兩項安排在同一時間進行；撞期」與本句語境不同。",
-        "conflict-mcq-42": "「不同資料值／版本互不相容」與本句語境不同。",
-        "conflict-mcq-37": "「不同證據互相不一致」與本句語境不同。"
+        "conflict-mcq-40": "本句的「booking conflict」指「預約／場地安排發生重疊」。",
+        "conflict-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-40"
     },
@@ -3763,11 +3495,9 @@ export default {
       "masked": "My tutorial ____ the meeting.",
       "options": [
         "conflict-mcq-41",
-        "conflict-mcq-40",
-        "conflict-mcq-42",
-        "conflict-mcq-39",
+        "conflict-mcq-64",
         "conflict-mcq-43",
-        "conflict-mcq-38"
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「conflicts with」指「兩項活動時間撞期」。",
       "sentenceIndex": 67,
@@ -3776,12 +3506,10 @@ export default {
         "conflicts with"
       ],
       "optionReasons": {
-        "conflict-mcq-41": "本句指「兩項活動時間撞期」。",
-        "conflict-mcq-40": "「預約／場地安排發生重疊」與本句語境不同。",
-        "conflict-mcq-42": "「不同資料值／版本互不相容」與本句語境不同。",
-        "conflict-mcq-39": "「時間安排互相重疊／衝突」與本句語境不同。",
-        "conflict-mcq-43": "「不同檔案版本不能一致整合的衝突」與本句語境不同。",
-        "conflict-mcq-38": "「兩項安排在同一時間進行；撞期」與本句語境不同。"
+        "conflict-mcq-41": "本句的「conflicts with」指「兩項活動時間撞期」。",
+        "conflict-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-41"
     },
@@ -3793,11 +3521,9 @@ export default {
       "masked": "The appointment ____ another commitment.",
       "options": [
         "conflict-mcq-41",
-        "conflict-mcq-40",
-        "conflict-mcq-42",
-        "conflict-mcq-39",
-        "conflict-mcq-43",
-        "conflict-mcq-38"
+        "conflict-mcq-12",
+        "conflict-mcq-89",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「conflicts with」指「兩項活動時間撞期」。",
       "sentenceIndex": 68,
@@ -3806,12 +3532,10 @@ export default {
         "conflicts with"
       ],
       "optionReasons": {
-        "conflict-mcq-41": "本句指「兩項活動時間撞期」。",
-        "conflict-mcq-40": "「預約／場地安排發生重疊」與本句語境不同。",
-        "conflict-mcq-42": "「不同資料值／版本互不相容」與本句語境不同。",
-        "conflict-mcq-39": "「時間安排互相重疊／衝突」與本句語境不同。",
-        "conflict-mcq-43": "「不同檔案版本不能一致整合的衝突」與本句語境不同。",
-        "conflict-mcq-38": "「兩項安排在同一時間進行；撞期」與本句語境不同。"
+        "conflict-mcq-41": "本句的「conflicts with」指「兩項活動時間撞期」。",
+        "conflict-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-41"
     },
@@ -3823,11 +3547,9 @@ export default {
       "masked": "The system detected a ____.",
       "options": [
         "conflict-mcq-42",
-        "conflict-mcq-41",
-        "conflict-mcq-43",
+        "conflict-mcq-67",
         "conflict-mcq-40",
-        "conflict-mcq-44",
-        "conflict-mcq-39"
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「data conflict」指「不同資料值／版本互不相容」。",
       "sentenceIndex": 69,
@@ -3836,12 +3558,10 @@ export default {
         "data conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-42": "本句指「不同資料值／版本互不相容」。",
-        "conflict-mcq-41": "「兩項活動時間撞期」與本句語境不同。",
-        "conflict-mcq-43": "「不同檔案版本不能一致整合的衝突」與本句語境不同。",
-        "conflict-mcq-40": "「預約／場地安排發生重疊」與本句語境不同。",
-        "conflict-mcq-44": "「版本控制中不同修改不能自動合併的合併衝突」與本句語境不同。",
-        "conflict-mcq-39": "「時間安排互相重疊／衝突」與本句語境不同。"
+        "conflict-mcq-42": "本句的「data conflict」指「不同資料值／版本互不相容」。",
+        "conflict-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-42"
     },
@@ -3853,11 +3573,9 @@ export default {
       "masked": "Synchronization can create ____.",
       "options": [
         "conflict-mcq-42",
-        "conflict-mcq-41",
-        "conflict-mcq-43",
-        "conflict-mcq-40",
-        "conflict-mcq-44",
-        "conflict-mcq-39"
+        "conflict-mcq-69",
+        "conflict-mcq-32",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「data conflicts」指「不同資料值／版本互不相容」。",
       "sentenceIndex": 70,
@@ -3866,12 +3584,10 @@ export default {
         "data conflicts"
       ],
       "optionReasons": {
-        "conflict-mcq-42": "本句指「不同資料值／版本互不相容」。",
-        "conflict-mcq-41": "「兩項活動時間撞期」與本句語境不同。",
-        "conflict-mcq-43": "「不同檔案版本不能一致整合的衝突」與本句語境不同。",
-        "conflict-mcq-40": "「預約／場地安排發生重疊」與本句語境不同。",
-        "conflict-mcq-44": "「版本控制中不同修改不能自動合併的合併衝突」與本句語境不同。",
-        "conflict-mcq-39": "「時間安排互相重疊／衝突」與本句語境不同。"
+        "conflict-mcq-42": "本句的「data conflicts」指「不同資料值／版本互不相容」。",
+        "conflict-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-42"
     },
@@ -3883,11 +3599,9 @@ export default {
       "masked": "The sync service reported a ____.",
       "options": [
         "conflict-mcq-43",
-        "conflict-mcq-42",
-        "conflict-mcq-44",
         "conflict-mcq-41",
-        "conflict-mcq-45",
-        "conflict-mcq-40"
+        "conflict-mcq-40",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「file conflict」指「不同檔案版本不能一致整合的衝突」。",
       "sentenceIndex": 71,
@@ -3896,12 +3610,10 @@ export default {
         "file conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-43": "本句指「不同檔案版本不能一致整合的衝突」。",
-        "conflict-mcq-42": "「不同資料值／版本互不相容」與本句語境不同。",
-        "conflict-mcq-44": "「版本控制中不同修改不能自動合併的合併衝突」與本句語境不同。",
-        "conflict-mcq-41": "「兩項活動時間撞期」與本句語境不同。",
-        "conflict-mcq-45": "「不同項目使用相同／不相容名稱所造成的命名衝突」與本句語境不同。",
-        "conflict-mcq-40": "「預約／場地安排發生重疊」與本句語境不同。"
+        "conflict-mcq-43": "本句的「file conflict」指「不同檔案版本不能一致整合的衝突」。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-43"
     },
@@ -3913,11 +3625,9 @@ export default {
       "masked": "Both users edited the document, creating a ____.",
       "options": [
         "conflict-mcq-43",
-        "conflict-mcq-42",
-        "conflict-mcq-44",
+        "conflict-mcq-34",
         "conflict-mcq-41",
-        "conflict-mcq-45",
-        "conflict-mcq-40"
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「version conflict」指「不同檔案版本不能一致整合的衝突」。",
       "sentenceIndex": 72,
@@ -3926,12 +3636,10 @@ export default {
         "version conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-43": "本句指「不同檔案版本不能一致整合的衝突」。",
-        "conflict-mcq-42": "「不同資料值／版本互不相容」與本句語境不同。",
-        "conflict-mcq-44": "「版本控制中不同修改不能自動合併的合併衝突」與本句語境不同。",
-        "conflict-mcq-41": "「兩項活動時間撞期」與本句語境不同。",
-        "conflict-mcq-45": "「不同項目使用相同／不相容名稱所造成的命名衝突」與本句語境不同。",
-        "conflict-mcq-40": "「預約／場地安排發生重疊」與本句語境不同。"
+        "conflict-mcq-43": "本句的「version conflict」指「不同檔案版本不能一致整合的衝突」。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-43"
     },
@@ -3943,11 +3651,9 @@ export default {
       "masked": "The developer resolved the ____ manually.",
       "options": [
         "conflict-mcq-44",
-        "conflict-mcq-43",
-        "conflict-mcq-45",
-        "conflict-mcq-42",
-        "conflict-mcq-46",
-        "conflict-mcq-41"
+        "conflict-mcq-65",
+        "conflict-mcq-59",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「merge conflict」指「版本控制中不同修改不能自動合併的合併衝突」。",
       "sentenceIndex": 73,
@@ -3956,12 +3662,10 @@ export default {
         "merge conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-44": "本句指「版本控制中不同修改不能自動合併的合併衝突」。",
-        "conflict-mcq-43": "「不同檔案版本不能一致整合的衝突」與本句語境不同。",
-        "conflict-mcq-45": "「不同項目使用相同／不相容名稱所造成的命名衝突」與本句語境不同。",
-        "conflict-mcq-42": "「不同資料值／版本互不相容」與本句語境不同。",
-        "conflict-mcq-46": "「不同程式／元件互相干擾」與本句語境不同。",
-        "conflict-mcq-41": "「兩項活動時間撞期」與本句語境不同。"
+        "conflict-mcq-44": "本句的「merge conflict」指「版本控制中不同修改不能自動合併的合併衝突」。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-44"
     },
@@ -3973,11 +3677,9 @@ export default {
       "masked": "Editing the same line can create a ____.",
       "options": [
         "conflict-mcq-44",
-        "conflict-mcq-43",
-        "conflict-mcq-45",
-        "conflict-mcq-42",
-        "conflict-mcq-46",
-        "conflict-mcq-41"
+        "conflict-mcq-40",
+        "conflict-mcq-53",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「merge conflict」指「版本控制中不同修改不能自動合併的合併衝突」。",
       "sentenceIndex": 74,
@@ -3986,12 +3688,10 @@ export default {
         "merge conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-44": "本句指「版本控制中不同修改不能自動合併的合併衝突」。",
-        "conflict-mcq-43": "「不同檔案版本不能一致整合的衝突」與本句語境不同。",
-        "conflict-mcq-45": "「不同項目使用相同／不相容名稱所造成的命名衝突」與本句語境不同。",
-        "conflict-mcq-42": "「不同資料值／版本互不相容」與本句語境不同。",
-        "conflict-mcq-46": "「不同程式／元件互相干擾」與本句語境不同。",
-        "conflict-mcq-41": "「兩項活動時間撞期」與本句語境不同。"
+        "conflict-mcq-44": "本句的「merge conflict」指「版本控制中不同修改不能自動合併的合併衝突」。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-44"
     },
@@ -4003,11 +3703,9 @@ export default {
       "masked": "Renaming the variable fixed the ____.",
       "options": [
         "conflict-mcq-45",
-        "conflict-mcq-44",
-        "conflict-mcq-46",
-        "conflict-mcq-43",
-        "conflict-mcq-47",
-        "conflict-mcq-42"
+        "conflict-mcq-65",
+        "conflict-mcq-32",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「naming conflict」指「不同項目使用相同／不相容名稱所造成的命名衝突」。",
       "sentenceIndex": 75,
@@ -4016,12 +3714,10 @@ export default {
         "naming conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-45": "本句指「不同項目使用相同／不相容名稱所造成的命名衝突」。",
-        "conflict-mcq-44": "「版本控制中不同修改不能自動合併的合併衝突」與本句語境不同。",
-        "conflict-mcq-46": "「不同程式／元件互相干擾」與本句語境不同。",
-        "conflict-mcq-43": "「不同檔案版本不能一致整合的衝突」與本句語境不同。",
-        "conflict-mcq-47": "「多個系統項目爭用同一資源而造成的衝突」與本句語境不同。",
-        "conflict-mcq-42": "「不同資料值／版本互不相容」與本句語境不同。"
+        "conflict-mcq-45": "本句的「naming conflict」指「不同項目使用相同／不相容名稱所造成的命名衝突」。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-45"
     },
@@ -4033,11 +3729,9 @@ export default {
       "masked": "The crash may be caused by a ____.",
       "options": [
         "conflict-mcq-46",
-        "conflict-mcq-45",
-        "conflict-mcq-47",
-        "conflict-mcq-44",
-        "conflict-mcq-48",
-        "conflict-mcq-43"
+        "conflict-mcq-74",
+        "conflict-mcq-41",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「software conflict」指「不同程式／元件互相干擾」。",
       "sentenceIndex": 76,
@@ -4046,12 +3740,10 @@ export default {
         "software conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-46": "本句指「不同程式／元件互相干擾」。",
-        "conflict-mcq-45": "「不同項目使用相同／不相容名稱所造成的命名衝突」與本句語境不同。",
-        "conflict-mcq-47": "「多個系統項目爭用同一資源而造成的衝突」與本句語境不同。",
-        "conflict-mcq-44": "「版本控制中不同修改不能自動合併的合併衝突」與本句語境不同。",
-        "conflict-mcq-48": "「推動故事發展的角色／力量之間的核心對立」與本句語境不同。",
-        "conflict-mcq-43": "「不同檔案版本不能一致整合的衝突」與本句語境不同。"
+        "conflict-mcq-46": "本句的「software conflict」指「不同程式／元件互相干擾」。",
+        "conflict-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-46"
     },
@@ -4063,11 +3755,9 @@ export default {
       "masked": "The system prevents ____.",
       "options": [
         "conflict-mcq-47",
-        "conflict-mcq-46",
-        "conflict-mcq-48",
-        "conflict-mcq-45",
-        "conflict-mcq-49",
-        "conflict-mcq-44"
+        "conflict-mcq-32",
+        "conflict-mcq-40",
+        "conflict-mcq-61"
       ],
       "explanation": "本句的「resource conflicts」指「多個系統項目爭用同一資源而造成的衝突」。",
       "sentenceIndex": 77,
@@ -4076,12 +3766,10 @@ export default {
         "resource conflicts"
       ],
       "optionReasons": {
-        "conflict-mcq-47": "本句指「多個系統項目爭用同一資源而造成的衝突」。",
-        "conflict-mcq-46": "「不同程式／元件互相干擾」與本句語境不同。",
-        "conflict-mcq-48": "「推動故事發展的角色／力量之間的核心對立」與本句語境不同。",
-        "conflict-mcq-45": "「不同項目使用相同／不相容名稱所造成的命名衝突」與本句語境不同。",
-        "conflict-mcq-49": "「人物與外部人物、社會、環境等之間的衝突」與本句語境不同。",
-        "conflict-mcq-44": "「版本控制中不同修改不能自動合併的合併衝突」與本句語境不同。"
+        "conflict-mcq-47": "本句的「resource conflicts」指「多個系統項目爭用同一資源而造成的衝突」。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-47"
     },
@@ -4093,11 +3781,9 @@ export default {
       "masked": "The argument creates an ____ between the two characters.",
       "options": [
         "conflict-mcq-49",
-        "conflict-mcq-48",
-        "conflict-mcq-50",
-        "conflict-mcq-47",
-        "conflict-mcq-51",
-        "conflict-mcq-46"
+        "conflict-mcq-36",
+        "conflict-mcq-34",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「external conflict」指「人物與外部人物、社會、環境等之間的衝突」。",
       "sentenceIndex": 80,
@@ -4106,12 +3792,10 @@ export default {
         "external conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-49": "本句指「人物與外部人物、社會、環境等之間的衝突」。",
-        "conflict-mcq-48": "「推動故事發展的角色／力量之間的核心對立」與本句語境不同。",
-        "conflict-mcq-50": "「故事中人物與人物之間的衝突」與本句語境不同。",
-        "conflict-mcq-47": "「多個系統項目爭用同一資源而造成的衝突」與本句語境不同。",
-        "conflict-mcq-51": "「人物與社會規範／制度之間的衝突」與本句語境不同。",
-        "conflict-mcq-46": "「不同程式／元件互相干擾」與本句語境不同。"
+        "conflict-mcq-49": "本句的「external conflict」指「人物與外部人物、社會、環境等之間的衝突」。",
+        "conflict-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-49"
     },
@@ -4123,11 +3807,9 @@ export default {
       "masked": "We received ____.",
       "options": [
         "conflict-mcq-53",
-        "conflict-mcq-52",
-        "conflict-mcq-54",
-        "conflict-mcq-51",
-        "conflict-mcq-55",
-        "conflict-mcq-50"
+        "conflict-mcq-68",
+        "conflict-mcq-65",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「conflicting information」指「彼此不相容、互相矛盾的」。",
       "sentenceIndex": 81,
@@ -4136,12 +3818,10 @@ export default {
         "conflicting information"
       ],
       "optionReasons": {
-        "conflict-mcq-53": "本句指「彼此不相容、互相矛盾的」。",
-        "conflict-mcq-52": "「人物內心不同欲望／價值之間的衝突」與本句語境不同。",
-        "conflict-mcq-54": "「不同來源提供且內容互相矛盾的資訊」與本句語境不同。",
-        "conflict-mcq-51": "「人物與社會規範／制度之間的衝突」與本句語境不同。",
-        "conflict-mcq-55": "「支持不同結論而互相矛盾的證據」與本句語境不同。",
-        "conflict-mcq-50": "「故事中人物與人物之間的衝突」與本句語境不同。"
+        "conflict-mcq-53": "本句的「conflicting information」指「彼此不相容、互相矛盾的」。",
+        "conflict-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-53"
     },
@@ -4153,11 +3833,9 @@ export default {
       "masked": "She faced ____.",
       "options": [
         "conflict-mcq-53",
-        "conflict-mcq-52",
-        "conflict-mcq-54",
-        "conflict-mcq-51",
-        "conflict-mcq-55",
-        "conflict-mcq-50"
+        "conflict-mcq-81",
+        "conflict-mcq-38",
+        "conflict-mcq-62"
       ],
       "explanation": "本句的「conflicting demands」指「彼此不相容、互相矛盾的」。",
       "sentenceIndex": 82,
@@ -4166,12 +3844,10 @@ export default {
         "conflicting demands"
       ],
       "optionReasons": {
-        "conflict-mcq-53": "本句指「彼此不相容、互相矛盾的」。",
-        "conflict-mcq-52": "「人物內心不同欲望／價值之間的衝突」與本句語境不同。",
-        "conflict-mcq-54": "「不同來源提供且內容互相矛盾的資訊」與本句語境不同。",
-        "conflict-mcq-51": "「人物與社會規範／制度之間的衝突」與本句語境不同。",
-        "conflict-mcq-55": "「支持不同結論而互相矛盾的證據」與本句語境不同。",
-        "conflict-mcq-50": "「故事中人物與人物之間的衝突」與本句語境不同。"
+        "conflict-mcq-53": "本句的「conflicting demands」指「彼此不相容、互相矛盾的」。",
+        "conflict-mcq-81": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-53"
     },
@@ -4183,11 +3859,9 @@ export default {
       "masked": "The reports contained ____.",
       "options": [
         "conflict-mcq-54",
-        "conflict-mcq-53",
-        "conflict-mcq-55",
-        "conflict-mcq-52",
-        "conflict-mcq-56",
-        "conflict-mcq-51"
+        "conflict-mcq-13",
+        "conflict-mcq-40",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「conflicting information」指「不同來源提供且內容互相矛盾的資訊」。",
       "sentenceIndex": 83,
@@ -4196,12 +3870,10 @@ export default {
         "conflicting information"
       ],
       "optionReasons": {
-        "conflict-mcq-54": "本句指「不同來源提供且內容互相矛盾的資訊」。",
-        "conflict-mcq-53": "「彼此不相容、互相矛盾的」與本句語境不同。",
-        "conflict-mcq-55": "「支持不同結論而互相矛盾的證據」與本句語境不同。",
-        "conflict-mcq-52": "「人物內心不同欲望／價值之間的衝突」與本句語境不同。",
-        "conflict-mcq-56": "「對同一事件互不一致的說法」與本句語境不同。",
-        "conflict-mcq-51": "「人物與社會規範／制度之間的衝突」與本句語境不同。"
+        "conflict-mcq-54": "本句的「conflicting information」指「不同來源提供且內容互相矛盾的資訊」。",
+        "conflict-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-54"
     },
@@ -4213,11 +3885,9 @@ export default {
       "masked": "The investigation produced ____.",
       "options": [
         "conflict-mcq-55",
-        "conflict-mcq-54",
-        "conflict-mcq-56",
-        "conflict-mcq-53",
-        "conflict-mcq-57",
-        "conflict-mcq-52"
+        "conflict-mcq-24",
+        "conflict-mcq-40",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「conflicting evidence」指「支持不同結論而互相矛盾的證據」。",
       "sentenceIndex": 84,
@@ -4226,12 +3896,10 @@ export default {
         "conflicting evidence"
       ],
       "optionReasons": {
-        "conflict-mcq-55": "本句指「支持不同結論而互相矛盾的證據」。",
-        "conflict-mcq-54": "「不同來源提供且內容互相矛盾的資訊」與本句語境不同。",
-        "conflict-mcq-56": "「對同一事件互不一致的說法」與本句語境不同。",
-        "conflict-mcq-53": "「彼此不相容、互相矛盾的」與本句語境不同。",
-        "conflict-mcq-57": "「無法完全同時滿足的不同利益」與本句語境不同。",
-        "conflict-mcq-52": "「人物內心不同欲望／價值之間的衝突」與本句語境不同。"
+        "conflict-mcq-55": "本句的「conflicting evidence」指「支持不同結論而互相矛盾的證據」。",
+        "conflict-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-55"
     },
@@ -4243,11 +3911,9 @@ export default {
       "masked": "Witnesses gave ____.",
       "options": [
         "conflict-mcq-56",
-        "conflict-mcq-55",
-        "conflict-mcq-57",
-        "conflict-mcq-54",
-        "conflict-mcq-58",
-        "conflict-mcq-53"
+        "conflict-mcq-84",
+        "conflict-mcq-40",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「conflicting accounts」指「對同一事件互不一致的說法」。",
       "sentenceIndex": 85,
@@ -4256,12 +3922,10 @@ export default {
         "conflicting accounts"
       ],
       "optionReasons": {
-        "conflict-mcq-56": "本句指「對同一事件互不一致的說法」。",
-        "conflict-mcq-55": "「支持不同結論而互相矛盾的證據」與本句語境不同。",
-        "conflict-mcq-57": "「無法完全同時滿足的不同利益」與本句語境不同。",
-        "conflict-mcq-54": "「不同來源提供且內容互相矛盾的資訊」與本句語境不同。",
-        "conflict-mcq-58": "「同時要求某人做互不相容事情的要求」與本句語境不同。",
-        "conflict-mcq-53": "「彼此不相容、互相矛盾的」與本句語境不同。"
+        "conflict-mcq-56": "本句的「conflicting accounts」指「對同一事件互不一致的說法」。",
+        "conflict-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-56"
     },
@@ -4273,11 +3937,9 @@ export default {
       "masked": "The decision involved several ____.",
       "options": [
         "conflict-mcq-57",
-        "conflict-mcq-56",
-        "conflict-mcq-58",
-        "conflict-mcq-55",
-        "conflict-mcq-59",
-        "conflict-mcq-54"
+        "conflict-mcq-74",
+        "conflict-mcq-53",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「conflicting interests」指「無法完全同時滿足的不同利益」。",
       "sentenceIndex": 86,
@@ -4286,12 +3948,10 @@ export default {
         "conflicting interests"
       ],
       "optionReasons": {
-        "conflict-mcq-57": "本句指「無法完全同時滿足的不同利益」。",
-        "conflict-mcq-56": "「對同一事件互不一致的說法」與本句語境不同。",
-        "conflict-mcq-58": "「同時要求某人做互不相容事情的要求」與本句語境不同。",
-        "conflict-mcq-55": "「支持不同結論而互相矛盾的證據」與本句語境不同。",
-        "conflict-mcq-59": "「彼此競逐時間／資源的優先事項」與本句語境不同。",
-        "conflict-mcq-54": "「不同來源提供且內容互相矛盾的資訊」與本句語境不同。"
+        "conflict-mcq-57": "本句的「conflicting interests」指「無法完全同時滿足的不同利益」。",
+        "conflict-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-57"
     },
@@ -4303,11 +3963,9 @@ export default {
       "masked": "Teachers often manage ____.",
       "options": [
         "conflict-mcq-58",
-        "conflict-mcq-57",
-        "conflict-mcq-59",
-        "conflict-mcq-56",
-        "conflict-mcq-60",
-        "conflict-mcq-55"
+        "conflict-mcq-17",
+        "conflict-mcq-65",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「conflicting demands」指「同時要求某人做互不相容事情的要求」。",
       "sentenceIndex": 87,
@@ -4316,12 +3974,10 @@ export default {
         "conflicting demands"
       ],
       "optionReasons": {
-        "conflict-mcq-58": "本句指「同時要求某人做互不相容事情的要求」。",
-        "conflict-mcq-57": "「無法完全同時滿足的不同利益」與本句語境不同。",
-        "conflict-mcq-59": "「彼此競逐時間／資源的優先事項」與本句語境不同。",
-        "conflict-mcq-56": "「對同一事件互不一致的說法」與本句語境不同。",
-        "conflict-mcq-60": "「同時存在而互相拉扯的矛盾情緒」與本句語境不同。",
-        "conflict-mcq-55": "「支持不同結論而互相矛盾的證據」與本句語境不同。"
+        "conflict-mcq-58": "本句的「conflicting demands」指「同時要求某人做互不相容事情的要求」。",
+        "conflict-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-58"
     },
@@ -4333,11 +3989,9 @@ export default {
       "masked": "The team had to balance ____.",
       "options": [
         "conflict-mcq-59",
-        "conflict-mcq-58",
-        "conflict-mcq-60",
-        "conflict-mcq-57",
-        "conflict-mcq-61",
-        "conflict-mcq-56"
+        "conflict-mcq-16",
+        "conflict-mcq-34",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「conflicting priorities」指「彼此競逐時間／資源的優先事項」。",
       "sentenceIndex": 88,
@@ -4346,12 +4000,10 @@ export default {
         "conflicting priorities"
       ],
       "optionReasons": {
-        "conflict-mcq-59": "本句指「彼此競逐時間／資源的優先事項」。",
-        "conflict-mcq-58": "「同時要求某人做互不相容事情的要求」與本句語境不同。",
-        "conflict-mcq-60": "「同時存在而互相拉扯的矛盾情緒」與本句語境不同。",
-        "conflict-mcq-57": "「無法完全同時滿足的不同利益」與本句語境不同。",
-        "conflict-mcq-61": "「忠誠對象／責任互相牴觸的情況」與本句語境不同。",
-        "conflict-mcq-56": "「對同一事件互不一致的說法」與本句語境不同。"
+        "conflict-mcq-59": "本句的「conflicting priorities」指「彼此競逐時間／資源的優先事項」。",
+        "conflict-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-59"
     },
@@ -4363,11 +4015,9 @@ export default {
       "masked": "She had ____ about leaving.",
       "options": [
         "conflict-mcq-60",
-        "conflict-mcq-59",
-        "conflict-mcq-61",
-        "conflict-mcq-58",
-        "conflict-mcq-62",
-        "conflict-mcq-57"
+        "conflict-mcq-82",
+        "conflict-mcq-34",
+        "conflict-mcq-88"
       ],
       "explanation": "本句的「conflicting emotions」指「同時存在而互相拉扯的矛盾情緒」。",
       "sentenceIndex": 89,
@@ -4376,12 +4026,10 @@ export default {
         "conflicting emotions"
       ],
       "optionReasons": {
-        "conflict-mcq-60": "本句指「同時存在而互相拉扯的矛盾情緒」。",
-        "conflict-mcq-59": "「彼此競逐時間／資源的優先事項」與本句語境不同。",
-        "conflict-mcq-61": "「忠誠對象／責任互相牴觸的情況」與本句語境不同。",
-        "conflict-mcq-58": "「同時要求某人做互不相容事情的要求」與本句語境不同。",
-        "conflict-mcq-62": "「無法同時完全履行的不同責任」與本句語境不同。",
-        "conflict-mcq-57": "「無法完全同時滿足的不同利益」與本句語境不同。"
+        "conflict-mcq-60": "本句的「conflicting emotions」指「同時存在而互相拉扯的矛盾情緒」。",
+        "conflict-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-88": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-60"
     },
@@ -4393,11 +4041,9 @@ export default {
       "masked": "Relief and sadness created ____.",
       "options": [
         "conflict-mcq-60",
-        "conflict-mcq-59",
-        "conflict-mcq-61",
-        "conflict-mcq-58",
-        "conflict-mcq-62",
-        "conflict-mcq-57"
+        "conflict-mcq-85",
+        "conflict-mcq-40",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「conflicting feelings」指「同時存在而互相拉扯的矛盾情緒」。",
       "sentenceIndex": 90,
@@ -4406,12 +4052,10 @@ export default {
         "conflicting feelings"
       ],
       "optionReasons": {
-        "conflict-mcq-60": "本句指「同時存在而互相拉扯的矛盾情緒」。",
-        "conflict-mcq-59": "「彼此競逐時間／資源的優先事項」與本句語境不同。",
-        "conflict-mcq-61": "「忠誠對象／責任互相牴觸的情況」與本句語境不同。",
-        "conflict-mcq-58": "「同時要求某人做互不相容事情的要求」與本句語境不同。",
-        "conflict-mcq-62": "「無法同時完全履行的不同責任」與本句語境不同。",
-        "conflict-mcq-57": "「無法完全同時滿足的不同利益」與本句語境不同。"
+        "conflict-mcq-60": "本句的「conflicting feelings」指「同時存在而互相拉扯的矛盾情緒」。",
+        "conflict-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-60"
     },
@@ -4423,11 +4067,9 @@ export default {
       "masked": "I feel ____ about the decision.",
       "options": [
         "conflict-mcq-63",
-        "conflict-mcq-62",
-        "conflict-mcq-64",
-        "conflict-mcq-61",
-        "conflict-mcq-65",
-        "conflict-mcq-60"
+        "conflict-mcq-66",
+        "conflict-mcq-40",
+        "conflict-mcq-61"
       ],
       "explanation": "本句的「conflicted」指「受到不同感情、價值或選擇拉扯而內心矛盾的」。",
       "sentenceIndex": 91,
@@ -4436,12 +4078,10 @@ export default {
         "conflicted"
       ],
       "optionReasons": {
-        "conflict-mcq-63": "本句指「受到不同感情、價值或選擇拉扯而內心矛盾的」。",
-        "conflict-mcq-62": "「無法同時完全履行的不同責任」與本句語境不同。",
-        "conflict-mcq-64": "「對某個選擇／問題有互相矛盾的感受」與本句語境不同。",
-        "conflict-mcq-61": "「忠誠對象／責任互相牴觸的情況」與本句語境不同。",
-        "conflict-mcq-65": "「感到內心難以取捨」與本句語境不同。",
-        "conflict-mcq-60": "「同時存在而互相拉扯的矛盾情緒」與本句語境不同。"
+        "conflict-mcq-63": "本句的「conflicted」指「受到不同感情、價值或選擇拉扯而內心矛盾的」。",
+        "conflict-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-63"
     },
@@ -4453,11 +4093,9 @@ export default {
       "masked": "She looked ____.",
       "options": [
         "conflict-mcq-63",
-        "conflict-mcq-62",
-        "conflict-mcq-64",
-        "conflict-mcq-61",
-        "conflict-mcq-65",
-        "conflict-mcq-60"
+        "conflict-mcq-40",
+        "conflict-mcq-67",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「conflicted」指「受到不同感情、價值或選擇拉扯而內心矛盾的」。",
       "sentenceIndex": 92,
@@ -4466,12 +4104,10 @@ export default {
         "conflicted"
       ],
       "optionReasons": {
-        "conflict-mcq-63": "本句指「受到不同感情、價值或選擇拉扯而內心矛盾的」。",
-        "conflict-mcq-62": "「無法同時完全履行的不同責任」與本句語境不同。",
-        "conflict-mcq-64": "「對某個選擇／問題有互相矛盾的感受」與本句語境不同。",
-        "conflict-mcq-61": "「忠誠對象／責任互相牴觸的情況」與本句語境不同。",
-        "conflict-mcq-65": "「感到內心難以取捨」與本句語境不同。",
-        "conflict-mcq-60": "「同時存在而互相拉扯的矛盾情緒」與本句語境不同。"
+        "conflict-mcq-63": "本句的「conflicted」指「受到不同感情、價值或選擇拉扯而內心矛盾的」。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-63"
     },
@@ -4483,11 +4119,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "conflict-mcq-64",
-        "conflict-mcq-63",
-        "conflict-mcq-65",
-        "conflict-mcq-62",
-        "conflict-mcq-66",
-        "conflict-mcq-61"
+        "conflict-mcq-78",
+        "conflict-mcq-34",
+        "conflict-mcq-90"
       ],
       "explanation": "本句的「conflicted about accepting the offer」指「對某個選擇／問題有互相矛盾的感受」。",
       "sentenceIndex": 93,
@@ -4496,12 +4130,10 @@ export default {
         "conflicted about accepting the offer"
       ],
       "optionReasons": {
-        "conflict-mcq-64": "本句指「對某個選擇／問題有互相矛盾的感受」。",
-        "conflict-mcq-63": "「受到不同感情、價值或選擇拉扯而內心矛盾的」與本句語境不同。",
-        "conflict-mcq-65": "「感到內心難以取捨」與本句語境不同。",
-        "conflict-mcq-62": "「無法同時完全履行的不同責任」與本句語境不同。",
-        "conflict-mcq-66": "「尋找方法令衝突得到解決的過程」與本句語境不同。",
-        "conflict-mcq-61": "「忠誠對象／責任互相牴觸的情況」與本句語境不同。"
+        "conflict-mcq-64": "本句的「conflicted about accepting the offer」指「對某個選擇／問題有互相矛盾的感受」。",
+        "conflict-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-90": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-64"
     },
@@ -4513,11 +4145,9 @@ export default {
       "masked": "I ____ because both choices seem reasonable.",
       "options": [
         "conflict-mcq-65",
-        "conflict-mcq-64",
-        "conflict-mcq-66",
-        "conflict-mcq-63",
-        "conflict-mcq-67",
-        "conflict-mcq-62"
+        "conflict-mcq-16",
+        "conflict-mcq-36",
+        "conflict-mcq-34"
       ],
       "explanation": "本句的「feel conflicted」指「感到內心難以取捨」。",
       "sentenceIndex": 94,
@@ -4526,12 +4156,10 @@ export default {
         "feel conflicted"
       ],
       "optionReasons": {
-        "conflict-mcq-65": "本句指「感到內心難以取捨」。",
-        "conflict-mcq-64": "「對某個選擇／問題有互相矛盾的感受」與本句語境不同。",
-        "conflict-mcq-66": "「尋找方法令衝突得到解決的過程」與本句語境不同。",
-        "conflict-mcq-63": "「受到不同感情、價值或選擇拉扯而內心矛盾的」與本句語境不同。",
-        "conflict-mcq-67": "「有系統地控制／處理衝突」與本句語境不同。",
-        "conflict-mcq-62": "「無法同時完全履行的不同責任」與本句語境不同。"
+        "conflict-mcq-65": "本句的「feel conflicted」指「感到內心難以取捨」。",
+        "conflict-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-65"
     },
@@ -4543,11 +4171,9 @@ export default {
       "masked": "Schools can teach ____ skills.",
       "options": [
         "conflict-mcq-66",
-        "conflict-mcq-65",
-        "conflict-mcq-67",
-        "conflict-mcq-64",
-        "conflict-mcq-68",
-        "conflict-mcq-63"
+        "conflict-mcq-30",
+        "conflict-mcq-41",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「conflict resolution」指「尋找方法令衝突得到解決的過程」。",
       "sentenceIndex": 95,
@@ -4556,12 +4182,10 @@ export default {
         "conflict resolution"
       ],
       "optionReasons": {
-        "conflict-mcq-66": "本句指「尋找方法令衝突得到解決的過程」。",
-        "conflict-mcq-65": "「感到內心難以取捨」與本句語境不同。",
-        "conflict-mcq-67": "「有系統地控制／處理衝突」與本句語境不同。",
-        "conflict-mcq-64": "「對某個選擇／問題有互相矛盾的感受」與本句語境不同。",
-        "conflict-mcq-68": "「防止衝突出現或升級」與本句語境不同。",
-        "conflict-mcq-63": "「受到不同感情、價值或選擇拉扯而內心矛盾的」與本句語境不同。"
+        "conflict-mcq-66": "本句的「conflict resolution」指「尋找方法令衝突得到解決的過程」。",
+        "conflict-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-66"
     },
@@ -4573,11 +4197,9 @@ export default {
       "masked": "Listening is important in ____.",
       "options": [
         "conflict-mcq-66",
-        "conflict-mcq-65",
-        "conflict-mcq-67",
-        "conflict-mcq-64",
-        "conflict-mcq-68",
-        "conflict-mcq-63"
+        "conflict-mcq-87",
+        "conflict-mcq-61",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「conflict resolution」指「尋找方法令衝突得到解決的過程」。",
       "sentenceIndex": 96,
@@ -4586,12 +4208,10 @@ export default {
         "conflict resolution"
       ],
       "optionReasons": {
-        "conflict-mcq-66": "本句指「尋找方法令衝突得到解決的過程」。",
-        "conflict-mcq-65": "「感到內心難以取捨」與本句語境不同。",
-        "conflict-mcq-67": "「有系統地控制／處理衝突」與本句語境不同。",
-        "conflict-mcq-64": "「對某個選擇／問題有互相矛盾的感受」與本句語境不同。",
-        "conflict-mcq-68": "「防止衝突出現或升級」與本句語境不同。",
-        "conflict-mcq-63": "「受到不同感情、價值或選擇拉扯而內心矛盾的」與本句語境不同。"
+        "conflict-mcq-66": "本句的「conflict resolution」指「尋找方法令衝突得到解決的過程」。",
+        "conflict-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-66"
     },
@@ -4603,11 +4223,9 @@ export default {
       "masked": "Managers receive training in ____.",
       "options": [
         "conflict-mcq-67",
-        "conflict-mcq-66",
-        "conflict-mcq-68",
-        "conflict-mcq-65",
-        "conflict-mcq-69",
-        "conflict-mcq-64"
+        "conflict-mcq-56",
+        "conflict-mcq-20",
+        "conflict-mcq-34"
       ],
       "explanation": "本句的「conflict management」指「有系統地控制／處理衝突」。",
       "sentenceIndex": 97,
@@ -4616,12 +4234,10 @@ export default {
         "conflict management"
       ],
       "optionReasons": {
-        "conflict-mcq-67": "本句指「有系統地控制／處理衝突」。",
-        "conflict-mcq-66": "「尋找方法令衝突得到解決的過程」與本句語境不同。",
-        "conflict-mcq-68": "「防止衝突出現或升級」與本句語境不同。",
-        "conflict-mcq-65": "「感到內心難以取捨」與本句語境不同。",
-        "conflict-mcq-69": "「由中立第三方協助雙方處理衝突」與本句語境不同。",
-        "conflict-mcq-64": "「對某個選擇／問題有互相矛盾的感受」與本句語境不同。"
+        "conflict-mcq-67": "本句的「conflict management」指「有系統地控制／處理衝突」。",
+        "conflict-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-67"
     },
@@ -4633,11 +4249,9 @@ export default {
       "masked": "Clear communication is useful for ____.",
       "options": [
         "conflict-mcq-68",
-        "conflict-mcq-67",
-        "conflict-mcq-69",
-        "conflict-mcq-66",
-        "conflict-mcq-70",
-        "conflict-mcq-65"
+        "conflict-mcq-42",
+        "conflict-mcq-60",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「conflict prevention」指「防止衝突出現或升級」。",
       "sentenceIndex": 98,
@@ -4646,12 +4260,10 @@ export default {
         "conflict prevention"
       ],
       "optionReasons": {
-        "conflict-mcq-68": "本句指「防止衝突出現或升級」。",
-        "conflict-mcq-67": "「有系統地控制／處理衝突」與本句語境不同。",
-        "conflict-mcq-69": "「由中立第三方協助雙方處理衝突」與本句語境不同。",
-        "conflict-mcq-66": "「尋找方法令衝突得到解決的過程」與本句語境不同。",
-        "conflict-mcq-70": "「解決衝突」與本句語境不同。",
-        "conflict-mcq-65": "「感到內心難以取捨」與本句語境不同。"
+        "conflict-mcq-68": "本句的「conflict prevention」指「防止衝突出現或升級」。",
+        "conflict-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-68"
     },
@@ -4663,11 +4275,9 @@ export default {
       "masked": "The school introduced ____.",
       "options": [
         "conflict-mcq-69",
-        "conflict-mcq-68",
-        "conflict-mcq-70",
-        "conflict-mcq-67",
-        "conflict-mcq-71",
-        "conflict-mcq-66"
+        "conflict-mcq-90",
+        "conflict-mcq-41",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「conflict mediation」指「由中立第三方協助雙方處理衝突」。",
       "sentenceIndex": 99,
@@ -4676,12 +4286,10 @@ export default {
         "conflict mediation"
       ],
       "optionReasons": {
-        "conflict-mcq-69": "本句指「由中立第三方協助雙方處理衝突」。",
-        "conflict-mcq-68": "「防止衝突出現或升級」與本句語境不同。",
-        "conflict-mcq-70": "「解決衝突」與本句語境不同。",
-        "conflict-mcq-67": "「有系統地控制／處理衝突」與本句語境不同。",
-        "conflict-mcq-71": "「平息／解決衝突」與本句語境不同。",
-        "conflict-mcq-66": "「尋找方法令衝突得到解決的過程」與本句語境不同。"
+        "conflict-mcq-69": "本句的「conflict mediation」指「由中立第三方協助雙方處理衝突」。",
+        "conflict-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-69"
     },
@@ -4693,11 +4301,9 @@ export default {
       "masked": "They met to ____.",
       "options": [
         "conflict-mcq-70",
-        "conflict-mcq-69",
-        "conflict-mcq-71",
-        "conflict-mcq-68",
-        "conflict-mcq-72",
-        "conflict-mcq-67"
+        "conflict-mcq-29",
+        "conflict-mcq-34",
+        "conflict-mcq-93"
       ],
       "explanation": "本句的「resolve the conflict」指「解決衝突」。",
       "sentenceIndex": 100,
@@ -4706,12 +4312,10 @@ export default {
         "resolve the conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-70": "本句指「解決衝突」。",
-        "conflict-mcq-69": "「由中立第三方協助雙方處理衝突」與本句語境不同。",
-        "conflict-mcq-71": "「平息／解決衝突」與本句語境不同。",
-        "conflict-mcq-68": "「防止衝突出現或升級」與本句語境不同。",
-        "conflict-mcq-72": "「調解衝突」與本句語境不同。",
-        "conflict-mcq-67": "「有系統地控制／處理衝突」與本句語境不同。"
+        "conflict-mcq-70": "本句的「resolve the conflict」指「解決衝突」。",
+        "conflict-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-70"
     },
@@ -4723,11 +4327,9 @@ export default {
       "masked": "The two sides agreed to ____ peacefully.",
       "options": [
         "conflict-mcq-71",
-        "conflict-mcq-70",
-        "conflict-mcq-72",
-        "conflict-mcq-69",
-        "conflict-mcq-73",
-        "conflict-mcq-68"
+        "conflict-mcq-65",
+        "conflict-mcq-56",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「settle the conflict」指「平息／解決衝突」。",
       "sentenceIndex": 101,
@@ -4736,12 +4338,10 @@ export default {
         "settle the conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-71": "本句指「平息／解決衝突」。",
-        "conflict-mcq-70": "「解決衝突」與本句語境不同。",
-        "conflict-mcq-72": "「調解衝突」與本句語境不同。",
-        "conflict-mcq-69": "「由中立第三方協助雙方處理衝突」與本句語境不同。",
-        "conflict-mcq-73": "「避免與別人發生衝突」與本句語境不同。",
-        "conflict-mcq-68": "「防止衝突出現或升級」與本句語境不同。"
+        "conflict-mcq-71": "本句的「settle the conflict」指「平息／解決衝突」。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-71"
     },
@@ -4753,11 +4353,9 @@ export default {
       "masked": "A counselor helped ____.",
       "options": [
         "conflict-mcq-72",
-        "conflict-mcq-71",
-        "conflict-mcq-73",
-        "conflict-mcq-70",
-        "conflict-mcq-74",
-        "conflict-mcq-69"
+        "conflict-mcq-32",
+        "conflict-mcq-46",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「mediate the conflict」指「調解衝突」。",
       "sentenceIndex": 102,
@@ -4766,12 +4364,10 @@ export default {
         "mediate the conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-72": "本句指「調解衝突」。",
-        "conflict-mcq-71": "「平息／解決衝突」與本句語境不同。",
-        "conflict-mcq-73": "「避免與別人發生衝突」與本句語境不同。",
-        "conflict-mcq-70": "「解決衝突」與本句語境不同。",
-        "conflict-mcq-74": "「引起／造成衝突」與本句語境不同。",
-        "conflict-mcq-69": "「由中立第三方協助雙方處理衝突」與本句語境不同。"
+        "conflict-mcq-72": "本句的「mediate the conflict」指「調解衝突」。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-72"
     },
@@ -4783,11 +4379,9 @@ export default {
       "masked": "He tends to ____.",
       "options": [
         "conflict-mcq-73",
-        "conflict-mcq-72",
-        "conflict-mcq-74",
-        "conflict-mcq-71",
-        "conflict-mcq-75",
-        "conflict-mcq-70"
+        "conflict-mcq-64",
+        "conflict-mcq-59",
+        "conflict-mcq-57"
       ],
       "explanation": "本句的「avoid conflict」指「避免與別人發生衝突」。",
       "sentenceIndex": 103,
@@ -4796,12 +4390,10 @@ export default {
         "avoid conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-73": "本句指「避免與別人發生衝突」。",
-        "conflict-mcq-72": "「調解衝突」與本句語境不同。",
-        "conflict-mcq-74": "「引起／造成衝突」與本句語境不同。",
-        "conflict-mcq-71": "「平息／解決衝突」與本句語境不同。",
-        "conflict-mcq-75": "「使衝突變得更嚴重」與本句語境不同。",
-        "conflict-mcq-70": "「解決衝突」與本句語境不同。"
+        "conflict-mcq-73": "本句的「avoid conflict」指「避免與別人發生衝突」。",
+        "conflict-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-73"
     },
@@ -4813,11 +4405,9 @@ export default {
       "masked": "Remaining silent may sometimes be an attempt to ____.",
       "options": [
         "conflict-mcq-73",
-        "conflict-mcq-72",
-        "conflict-mcq-74",
-        "conflict-mcq-71",
-        "conflict-mcq-75",
-        "conflict-mcq-70"
+        "conflict-mcq-41",
+        "conflict-mcq-29",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「avoid conflict」指「避免與別人發生衝突」。",
       "sentenceIndex": 104,
@@ -4826,12 +4416,10 @@ export default {
         "avoid conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-73": "本句指「避免與別人發生衝突」。",
-        "conflict-mcq-72": "「調解衝突」與本句語境不同。",
-        "conflict-mcq-74": "「引起／造成衝突」與本句語境不同。",
-        "conflict-mcq-71": "「平息／解決衝突」與本句語境不同。",
-        "conflict-mcq-75": "「使衝突變得更嚴重」與本句語境不同。",
-        "conflict-mcq-70": "「解決衝突」與本句語境不同。"
+        "conflict-mcq-73": "本句的「avoid conflict」指「避免與別人發生衝突」。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-73"
     },
@@ -4843,11 +4431,9 @@ export default {
       "masked": "Unclear expectations can ____.",
       "options": [
         "conflict-mcq-74",
-        "conflict-mcq-73",
-        "conflict-mcq-75",
-        "conflict-mcq-72",
-        "conflict-mcq-76",
-        "conflict-mcq-71"
+        "conflict-mcq-65",
+        "conflict-mcq-61",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「cause conflict」指「引起／造成衝突」。",
       "sentenceIndex": 105,
@@ -4856,12 +4442,10 @@ export default {
         "cause conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-74": "本句指「引起／造成衝突」。",
-        "conflict-mcq-73": "「避免與別人發生衝突」與本句語境不同。",
-        "conflict-mcq-75": "「使衝突變得更嚴重」與本句語境不同。",
-        "conflict-mcq-72": "「調解衝突」與本句語境不同。",
-        "conflict-mcq-76": "「緩和可能升級的衝突」與本句語境不同。",
-        "conflict-mcq-71": "「平息／解決衝突」與本句語境不同。"
+        "conflict-mcq-74": "本句的「cause conflict」指「引起／造成衝突」。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-74"
     },
@@ -4873,11 +4457,9 @@ export default {
       "masked": "Competing roles can ____.",
       "options": [
         "conflict-mcq-74",
-        "conflict-mcq-73",
-        "conflict-mcq-75",
-        "conflict-mcq-72",
-        "conflict-mcq-76",
-        "conflict-mcq-71"
+        "conflict-mcq-36",
+        "conflict-mcq-59",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「create conflict」指「引起／造成衝突」。",
       "sentenceIndex": 106,
@@ -4886,12 +4468,10 @@ export default {
         "create conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-74": "本句指「引起／造成衝突」。",
-        "conflict-mcq-73": "「避免與別人發生衝突」與本句語境不同。",
-        "conflict-mcq-75": "「使衝突變得更嚴重」與本句語境不同。",
-        "conflict-mcq-72": "「調解衝突」與本句語境不同。",
-        "conflict-mcq-76": "「緩和可能升級的衝突」與本句語境不同。",
-        "conflict-mcq-71": "「平息／解決衝突」與本句語境不同。"
+        "conflict-mcq-74": "本句的「create conflict」指「引起／造成衝突」。",
+        "conflict-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-74"
     },
@@ -4903,11 +4483,9 @@ export default {
       "masked": "Aggressive language may ____.",
       "options": [
         "conflict-mcq-75",
-        "conflict-mcq-74",
-        "conflict-mcq-76",
-        "conflict-mcq-73",
-        "conflict-mcq-77",
-        "conflict-mcq-72"
+        "conflict-mcq-60",
+        "conflict-mcq-65",
+        "conflict-mcq-88"
       ],
       "explanation": "本句的「escalate the conflict」指「使衝突變得更嚴重」。",
       "sentenceIndex": 107,
@@ -4916,12 +4494,10 @@ export default {
         "escalate the conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-75": "本句指「使衝突變得更嚴重」。",
-        "conflict-mcq-74": "「引起／造成衝突」與本句語境不同。",
-        "conflict-mcq-76": "「緩和可能升級的衝突」與本句語境不同。",
-        "conflict-mcq-73": "「避免與別人發生衝突」與本句語境不同。",
-        "conflict-mcq-77": "「令衝突降低強度／降溫」與本句語境不同。",
-        "conflict-mcq-72": "「調解衝突」與本句語境不同。"
+        "conflict-mcq-75": "本句的「escalate the conflict」指「使衝突變得更嚴重」。",
+        "conflict-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-88": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-75"
     },
@@ -4933,11 +4509,9 @@ export default {
       "masked": "Humor sometimes helps ____.",
       "options": [
         "conflict-mcq-76",
-        "conflict-mcq-75",
-        "conflict-mcq-77",
-        "conflict-mcq-74",
-        "conflict-mcq-78",
-        "conflict-mcq-73"
+        "conflict-mcq-57",
+        "conflict-mcq-59",
+        "conflict-mcq-61"
       ],
       "explanation": "本句的「defuse conflict」指「緩和可能升級的衝突」。",
       "sentenceIndex": 108,
@@ -4946,12 +4520,10 @@ export default {
         "defuse conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-76": "本句指「緩和可能升級的衝突」。",
-        "conflict-mcq-75": "「使衝突變得更嚴重」與本句語境不同。",
-        "conflict-mcq-77": "「令衝突降低強度／降溫」與本句語境不同。",
-        "conflict-mcq-74": "「引起／造成衝突」與本句語境不同。",
-        "conflict-mcq-78": "「仍在持續的衝突」與本句語境不同。",
-        "conflict-mcq-73": "「避免與別人發生衝突」與本句語境不同。"
+        "conflict-mcq-76": "本句的「defuse conflict」指「緩和可能升級的衝突」。",
+        "conflict-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-76"
     },
@@ -4963,11 +4535,9 @@ export default {
       "masked": "Both sides tried to ____.",
       "options": [
         "conflict-mcq-77",
-        "conflict-mcq-76",
-        "conflict-mcq-78",
-        "conflict-mcq-75",
-        "conflict-mcq-79",
-        "conflict-mcq-74"
+        "conflict-mcq-29",
+        "conflict-mcq-41",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「de-escalate the conflict」指「令衝突降低強度／降溫」。",
       "sentenceIndex": 109,
@@ -4976,12 +4546,10 @@ export default {
         "de-escalate the conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-77": "本句指「令衝突降低強度／降溫」。",
-        "conflict-mcq-76": "「緩和可能升級的衝突」與本句語境不同。",
-        "conflict-mcq-78": "「仍在持續的衝突」與本句語境不同。",
-        "conflict-mcq-75": "「使衝突變得更嚴重」與本句語境不同。",
-        "conflict-mcq-79": "「持續很長時間的衝突」與本句語境不同。",
-        "conflict-mcq-74": "「引起／造成衝突」與本句語境不同。"
+        "conflict-mcq-77": "本句的「de-escalate the conflict」指「令衝突降低強度／降溫」。",
+        "conflict-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-77"
     },
@@ -4993,11 +4561,9 @@ export default {
       "masked": "The ____ disrupted daily life.",
       "options": [
         "conflict-mcq-78",
-        "conflict-mcq-77",
-        "conflict-mcq-79",
-        "conflict-mcq-76",
-        "conflict-mcq-80",
-        "conflict-mcq-75"
+        "conflict-mcq-65",
+        "conflict-mcq-42",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「ongoing conflict」指「仍在持續的衝突」。",
       "sentenceIndex": 110,
@@ -5006,12 +4572,10 @@ export default {
         "ongoing conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-78": "本句指「仍在持續的衝突」。",
-        "conflict-mcq-77": "「令衝突降低強度／降溫」與本句語境不同。",
-        "conflict-mcq-79": "「持續很長時間的衝突」與本句語境不同。",
-        "conflict-mcq-76": "「緩和可能升級的衝突」與本句語境不同。",
-        "conflict-mcq-80": "「已公開表現出來的衝突」與本句語境不同。",
-        "conflict-mcq-75": "「使衝突變得更嚴重」與本句語境不同。"
+        "conflict-mcq-78": "本句的「ongoing conflict」指「仍在持續的衝突」。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-78"
     },
@@ -5023,11 +4587,9 @@ export default {
       "masked": "Tensions finally turned into ____.",
       "options": [
         "conflict-mcq-80",
-        "conflict-mcq-79",
-        "conflict-mcq-81",
-        "conflict-mcq-78",
-        "conflict-mcq-82",
-        "conflict-mcq-77"
+        "conflict-mcq-62",
+        "conflict-mcq-34",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「open conflict」指「已公開表現出來的衝突」。",
       "sentenceIndex": 111,
@@ -5036,12 +4598,10 @@ export default {
         "open conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-80": "本句指「已公開表現出來的衝突」。",
-        "conflict-mcq-79": "「持續很長時間的衝突」與本句語境不同。",
-        "conflict-mcq-81": "「尚未公開爆發但已存在的潛在衝突」與本句語境不同。",
-        "conflict-mcq-78": "「仍在持續的衝突」與本句語境不同。",
-        "conflict-mcq-82": "「沒有衝突的」與本句語境不同。",
-        "conflict-mcq-77": "「令衝突降低強度／降溫」與本句語境不同。"
+        "conflict-mcq-80": "本句的「open conflict」指「已公開表現出來的衝突」。",
+        "conflict-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-80"
     },
@@ -5053,11 +4613,9 @@ export default {
       "masked": "The disagreement revealed ____ within the team.",
       "options": [
         "conflict-mcq-81",
-        "conflict-mcq-80",
-        "conflict-mcq-82",
-        "conflict-mcq-79",
-        "conflict-mcq-83",
-        "conflict-mcq-78"
+        "conflict-mcq-57",
+        "conflict-mcq-64",
+        "conflict-mcq-65"
       ],
       "explanation": "本句的「latent conflict」指「尚未公開爆發但已存在的潛在衝突」。",
       "sentenceIndex": 112,
@@ -5066,12 +4624,10 @@ export default {
         "latent conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-81": "本句指「尚未公開爆發但已存在的潛在衝突」。",
-        "conflict-mcq-80": "「已公開表現出來的衝突」與本句語境不同。",
-        "conflict-mcq-82": "「沒有衝突的」與本句語境不同。",
-        "conflict-mcq-79": "「持續很長時間的衝突」與本句語境不同。",
-        "conflict-mcq-83": "「來源未被認為資助武裝衝突的」與本句語境不同。",
-        "conflict-mcq-78": "「仍在持續的衝突」與本句語境不同。"
+        "conflict-mcq-81": "本句的「latent conflict」指「尚未公開爆發但已存在的潛在衝突」。",
+        "conflict-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-81"
     },
@@ -5083,11 +4639,9 @@ export default {
       "masked": "No workplace is completely ____.",
       "options": [
         "conflict-mcq-82",
-        "conflict-mcq-81",
-        "conflict-mcq-83",
-        "conflict-mcq-80",
-        "conflict-mcq-84",
-        "conflict-mcq-79"
+        "conflict-mcq-89",
+        "conflict-mcq-41",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「conflict-free」指「沒有衝突的」。",
       "sentenceIndex": 113,
@@ -5096,12 +4650,10 @@ export default {
         "conflict-free"
       ],
       "optionReasons": {
-        "conflict-mcq-82": "本句指「沒有衝突的」。",
-        "conflict-mcq-81": "「尚未公開爆發但已存在的潛在衝突」與本句語境不同。",
-        "conflict-mcq-83": "「來源未被認為資助武裝衝突的」與本句語境不同。",
-        "conflict-mcq-80": "「已公開表現出來的衝突」與本句語境不同。",
-        "conflict-mcq-84": "「開採／交易可能與資助武裝衝突有關的衝突礦產」與本句語境不同。",
-        "conflict-mcq-79": "「持續很長時間的衝突」與本句語境不同。"
+        "conflict-mcq-82": "本句的「conflict-free」指「沒有衝突的」。",
+        "conflict-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-82"
     },
@@ -5113,11 +4665,9 @@ export default {
       "masked": "Companies may be required to investigate the origin of ____.",
       "options": [
         "conflict-mcq-84",
-        "conflict-mcq-83",
-        "conflict-mcq-85",
-        "conflict-mcq-82",
-        "conflict-mcq-86",
-        "conflict-mcq-81"
+        "conflict-mcq-64",
+        "conflict-mcq-88",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「conflict minerals」指「開採／交易可能與資助武裝衝突有關的衝突礦產」。",
       "sentenceIndex": 114,
@@ -5126,12 +4676,10 @@ export default {
         "conflict minerals"
       ],
       "optionReasons": {
-        "conflict-mcq-84": "本句指「開採／交易可能與資助武裝衝突有關的衝突礦產」。",
-        "conflict-mcq-83": "「來源未被認為資助武裝衝突的」與本句語境不同。",
-        "conflict-mcq-85": "「收益被用來資助武裝衝突的衝突鑽石／血鑽」與本句語境不同。",
-        "conflict-mcq-82": "「沒有衝突的」與本句語境不同。",
-        "conflict-mcq-86": "「多個司法管轄區法律可能適用時產生的法律衝突問題」與本句語境不同。",
-        "conflict-mcq-81": "「尚未公開爆發但已存在的潛在衝突」與本句語境不同。"
+        "conflict-mcq-84": "本句的「conflict minerals」指「開採／交易可能與資助武裝衝突有關的衝突礦產」。",
+        "conflict-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-84"
     },
@@ -5143,11 +4691,9 @@ export default {
       "masked": "Measures were introduced to reduce trade in ____.",
       "options": [
         "conflict-mcq-85",
-        "conflict-mcq-84",
-        "conflict-mcq-86",
-        "conflict-mcq-83",
-        "conflict-mcq-87",
-        "conflict-mcq-82"
+        "conflict-mcq-38",
+        "conflict-mcq-58",
+        "conflict-mcq-88"
       ],
       "explanation": "本句的「conflict diamonds」指「收益被用來資助武裝衝突的衝突鑽石／血鑽」。",
       "sentenceIndex": 115,
@@ -5156,12 +4702,10 @@ export default {
         "conflict diamonds"
       ],
       "optionReasons": {
-        "conflict-mcq-85": "本句指「收益被用來資助武裝衝突的衝突鑽石／血鑽」。",
-        "conflict-mcq-84": "「開採／交易可能與資助武裝衝突有關的衝突礦產」與本句語境不同。",
-        "conflict-mcq-86": "「多個司法管轄區法律可能適用時產生的法律衝突問題」與本句語境不同。",
-        "conflict-mcq-83": "「來源未被認為資助武裝衝突的」與本句語境不同。",
-        "conflict-mcq-87": "「不同規則提出互不相容的要求」與本句語境不同。",
-        "conflict-mcq-82": "「沒有衝突的」與本句語境不同。"
+        "conflict-mcq-85": "本句的「conflict diamonds」指「收益被用來資助武裝衝突的衝突鑽石／血鑽」。",
+        "conflict-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-88": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-85"
     },
@@ -5173,11 +4717,9 @@ export default {
       "masked": "The dispute raises a ____ question.",
       "options": [
         "conflict-mcq-86",
-        "conflict-mcq-85",
-        "conflict-mcq-87",
-        "conflict-mcq-84",
-        "conflict-mcq-88",
-        "conflict-mcq-83"
+        "conflict-mcq-55",
+        "conflict-mcq-65",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「conflict-of-laws」指「多個司法管轄區法律可能適用時產生的法律衝突問題」。",
       "sentenceIndex": 116,
@@ -5186,12 +4728,10 @@ export default {
         "conflict-of-laws"
       ],
       "optionReasons": {
-        "conflict-mcq-86": "本句指「多個司法管轄區法律可能適用時產生的法律衝突問題」。",
-        "conflict-mcq-85": "「收益被用來資助武裝衝突的衝突鑽石／血鑽」與本句語境不同。",
-        "conflict-mcq-87": "「不同規則提出互不相容的要求」與本句語境不同。",
-        "conflict-mcq-84": "「開採／交易可能與資助武裝衝突有關的衝突礦產」與本句語境不同。",
-        "conflict-mcq-88": "「新研究結果與先前研究不一致」與本句語境不同。",
-        "conflict-mcq-83": "「來源未被認為資助武裝衝突的」與本句語境不同。"
+        "conflict-mcq-86": "本句的「conflict-of-laws」指「多個司法管轄區法律可能適用時產生的法律衝突問題」。",
+        "conflict-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-86"
     },
@@ -5203,11 +4743,9 @@ export default {
       "masked": "The two regulations ____.",
       "options": [
         "conflict-mcq-87",
-        "conflict-mcq-86",
-        "conflict-mcq-88",
-        "conflict-mcq-85",
-        "conflict-mcq-89",
-        "conflict-mcq-84"
+        "conflict-mcq-77",
+        "conflict-mcq-65",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「conflict」指「不同規則提出互不相容的要求」。",
       "sentenceIndex": 117,
@@ -5216,12 +4754,10 @@ export default {
         "conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-87": "本句指「不同規則提出互不相容的要求」。",
-        "conflict-mcq-86": "「多個司法管轄區法律可能適用時產生的法律衝突問題」與本句語境不同。",
-        "conflict-mcq-88": "「新研究結果與先前研究不一致」與本句語境不同。",
-        "conflict-mcq-85": "「收益被用來資助武裝衝突的衝突鑽石／血鑽」與本句語境不同。",
-        "conflict-mcq-89": "「不同利益互相牴觸」與本句語境不同。",
-        "conflict-mcq-84": "「開採／交易可能與資助武裝衝突有關的衝突礦產」與本句語境不同。"
+        "conflict-mcq-87": "本句的「conflict」指「不同規則提出互不相容的要求」。",
+        "conflict-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-87"
     },
@@ -5233,11 +4769,9 @@ export default {
       "masked": "One requirement ____ another.",
       "options": [
         "conflict-mcq-87",
-        "conflict-mcq-86",
-        "conflict-mcq-88",
-        "conflict-mcq-85",
-        "conflict-mcq-89",
-        "conflict-mcq-84"
+        "conflict-mcq-24",
+        "conflict-mcq-40",
+        "conflict-mcq-59"
       ],
       "explanation": "本句的「conflicts with」指「不同規則提出互不相容的要求」。",
       "sentenceIndex": 118,
@@ -5246,12 +4780,10 @@ export default {
         "conflicts with"
       ],
       "optionReasons": {
-        "conflict-mcq-87": "本句指「不同規則提出互不相容的要求」。",
-        "conflict-mcq-86": "「多個司法管轄區法律可能適用時產生的法律衝突問題」與本句語境不同。",
-        "conflict-mcq-88": "「新研究結果與先前研究不一致」與本句語境不同。",
-        "conflict-mcq-85": "「收益被用來資助武裝衝突的衝突鑽石／血鑽」與本句語境不同。",
-        "conflict-mcq-89": "「不同利益互相牴觸」與本句語境不同。",
-        "conflict-mcq-84": "「開採／交易可能與資助武裝衝突有關的衝突礦產」與本句語境不同。"
+        "conflict-mcq-87": "本句的「conflicts with」指「不同規則提出互不相容的要求」。",
+        "conflict-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-87"
     },
@@ -5263,11 +4795,9 @@ export default {
       "masked": "The findings ____.",
       "options": [
         "conflict-mcq-88",
-        "conflict-mcq-87",
-        "conflict-mcq-89",
-        "conflict-mcq-86",
-        "conflict-mcq-90",
-        "conflict-mcq-85"
+        "conflict-mcq-24",
+        "conflict-mcq-58",
+        "conflict-mcq-38"
       ],
       "explanation": "本句的「conflict with previous studies」指「新研究結果與先前研究不一致」。",
       "sentenceIndex": 119,
@@ -5276,12 +4806,10 @@ export default {
         "conflict with previous studies"
       ],
       "optionReasons": {
-        "conflict-mcq-88": "本句指「新研究結果與先前研究不一致」。",
-        "conflict-mcq-87": "「不同規則提出互不相容的要求」與本句語境不同。",
-        "conflict-mcq-89": "「不同利益互相牴觸」與本句語境不同。",
-        "conflict-mcq-86": "「多個司法管轄區法律可能適用時產生的法律衝突問題」與本句語境不同。",
-        "conflict-mcq-90": "「不同目標難以同時實現」與本句語境不同。",
-        "conflict-mcq-85": "「收益被用來資助武裝衝突的衝突鑽石／血鑽」與本句語境不同。"
+        "conflict-mcq-88": "本句的「conflict with previous studies」指「新研究結果與先前研究不一致」。",
+        "conflict-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-88"
     },
@@ -5293,11 +4821,9 @@ export default {
       "masked": "Their interests sometimes ____.",
       "options": [
         "conflict-mcq-89",
-        "conflict-mcq-88",
-        "conflict-mcq-90",
-        "conflict-mcq-87",
-        "conflict-mcq-91",
-        "conflict-mcq-86"
+        "conflict-mcq-82",
+        "conflict-mcq-40",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「conflict」指「不同利益互相牴觸」。",
       "sentenceIndex": 120,
@@ -5306,12 +4832,10 @@ export default {
         "conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-89": "本句指「不同利益互相牴觸」。",
-        "conflict-mcq-88": "「新研究結果與先前研究不一致」與本句語境不同。",
-        "conflict-mcq-90": "「不同目標難以同時實現」與本句語境不同。",
-        "conflict-mcq-87": "「不同規則提出互不相容的要求」與本句語境不同。",
-        "conflict-mcq-91": "「不同價值觀互相矛盾」與本句語境不同。",
-        "conflict-mcq-86": "「多個司法管轄區法律可能適用時產生的法律衝突問題」與本句語境不同。"
+        "conflict-mcq-89": "本句的「conflict」指「不同利益互相牴觸」。",
+        "conflict-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-89"
     },
@@ -5323,11 +4847,9 @@ export default {
       "masked": "Short-term and long-term goals may ____.",
       "options": [
         "conflict-mcq-90",
-        "conflict-mcq-89",
-        "conflict-mcq-91",
-        "conflict-mcq-88",
-        "conflict-mcq-92",
-        "conflict-mcq-87"
+        "conflict-mcq-53",
+        "conflict-mcq-74",
+        "conflict-mcq-41"
       ],
       "explanation": "本句的「conflict」指「不同目標難以同時實現」。",
       "sentenceIndex": 121,
@@ -5336,12 +4858,10 @@ export default {
         "conflict"
       ],
       "optionReasons": {
-        "conflict-mcq-90": "本句指「不同目標難以同時實現」。",
-        "conflict-mcq-89": "「不同利益互相牴觸」與本句語境不同。",
-        "conflict-mcq-91": "「不同價值觀互相矛盾」與本句語境不同。",
-        "conflict-mcq-88": "「新研究結果與先前研究不一致」與本句語境不同。",
-        "conflict-mcq-92": "「協調不同活動，使它們不撞期／不互相干擾」與本句語境不同。",
-        "conflict-mcq-87": "「不同規則提出互不相容的要求」與本句語境不同。"
+        "conflict-mcq-90": "本句的「conflict」指「不同目標難以同時實現」。",
+        "conflict-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-90"
     },
@@ -5353,11 +4873,9 @@ export default {
       "masked": "Their values ____ sharply.",
       "options": [
         "conflict-mcq-91",
-        "conflict-mcq-90",
-        "conflict-mcq-92",
-        "conflict-mcq-89",
-        "conflict-mcq-93",
-        "conflict-mcq-88"
+        "conflict-mcq-49",
+        "conflict-mcq-59",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「conflicted」指「不同價值觀互相矛盾」。",
       "sentenceIndex": 122,
@@ -5366,12 +4884,10 @@ export default {
         "conflicted"
       ],
       "optionReasons": {
-        "conflict-mcq-91": "本句指「不同價值觀互相矛盾」。",
-        "conflict-mcq-90": "「不同目標難以同時實現」與本句語境不同。",
-        "conflict-mcq-92": "「協調不同活動，使它們不撞期／不互相干擾」與本句語境不同。",
-        "conflict-mcq-89": "「不同利益互相牴觸」與本句語境不同。",
-        "conflict-mcq-93": "「為避免行動／時間／系統互相干擾而進行的協調」與本句語境不同。",
-        "conflict-mcq-88": "「新研究結果與先前研究不一致」與本句語境不同。"
+        "conflict-mcq-91": "本句的「conflicted」指「不同價值觀互相矛盾」。",
+        "conflict-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-91"
     },
@@ -5383,11 +4899,9 @@ export default {
       "masked": "The bystander faces ____.",
       "options": [
         "conflict-mcq-61",
-        "conflict-mcq-60",
-        "conflict-mcq-62",
-        "conflict-mcq-59",
-        "conflict-mcq-63",
-        "conflict-mcq-58"
+        "conflict-mcq-07",
+        "conflict-mcq-40",
+        "conflict-mcq-63"
       ],
       "explanation": "本句的「conflicting loyalties」指「忠誠對象／責任互相牴觸的情況」。",
       "sentenceIndex": 123,
@@ -5396,12 +4910,10 @@ export default {
         "conflicting loyalties"
       ],
       "optionReasons": {
-        "conflict-mcq-61": "本句指「忠誠對象／責任互相牴觸的情況」。",
-        "conflict-mcq-60": "「同時存在而互相拉扯的矛盾情緒」與本句語境不同。",
-        "conflict-mcq-62": "「無法同時完全履行的不同責任」與本句語境不同。",
-        "conflict-mcq-59": "「彼此競逐時間／資源的優先事項」與本句語境不同。",
-        "conflict-mcq-63": "「受到不同感情、價值或選擇拉扯而內心矛盾的」與本句語境不同。",
-        "conflict-mcq-58": "「同時要求某人做互不相容事情的要求」與本句語境不同。"
+        "conflict-mcq-61": "本句的「conflicting loyalties」指「忠誠對象／責任互相牴觸的情況」。",
+        "conflict-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-61"
     },
@@ -5413,11 +4925,9 @@ export default {
       "masked": "The teacher faced ____.",
       "options": [
         "conflict-mcq-62",
-        "conflict-mcq-61",
-        "conflict-mcq-63",
-        "conflict-mcq-60",
-        "conflict-mcq-64",
-        "conflict-mcq-59"
+        "conflict-mcq-77",
+        "conflict-mcq-20",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「conflicting responsibilities」指「無法同時完全履行的不同責任」。",
       "sentenceIndex": 124,
@@ -5426,12 +4936,10 @@ export default {
         "conflicting responsibilities"
       ],
       "optionReasons": {
-        "conflict-mcq-62": "本句指「無法同時完全履行的不同責任」。",
-        "conflict-mcq-61": "「忠誠對象／責任互相牴觸的情況」與本句語境不同。",
-        "conflict-mcq-63": "「受到不同感情、價值或選擇拉扯而內心矛盾的」與本句語境不同。",
-        "conflict-mcq-60": "「同時存在而互相拉扯的矛盾情緒」與本句語境不同。",
-        "conflict-mcq-64": "「對某個選擇／問題有互相矛盾的感受」與本句語境不同。",
-        "conflict-mcq-59": "「彼此競逐時間／資源的優先事項」與本句語境不同。"
+        "conflict-mcq-62": "本句的「conflicting responsibilities」指「無法同時完全履行的不同責任」。",
+        "conflict-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-62"
     },
@@ -5443,11 +4951,9 @@ export default {
       "masked": "The teams met to ____.",
       "options": [
         "conflict-mcq-92",
-        "conflict-mcq-91",
-        "conflict-mcq-93",
-        "conflict-mcq-90",
-        "conflict-mcq-89",
-        "conflict-mcq-88"
+        "conflict-mcq-15",
+        "conflict-mcq-32",
+        "conflict-mcq-40"
       ],
       "explanation": "本句的「deconflict their schedules」指「協調不同活動，使它們不撞期／不互相干擾」。",
       "sentenceIndex": 125,
@@ -5456,12 +4962,10 @@ export default {
         "deconflict their schedules"
       ],
       "optionReasons": {
-        "conflict-mcq-92": "本句指「協調不同活動，使它們不撞期／不互相干擾」。",
-        "conflict-mcq-91": "「不同價值觀互相矛盾」與本句語境不同。",
-        "conflict-mcq-93": "「為避免行動／時間／系統互相干擾而進行的協調」與本句語境不同。",
-        "conflict-mcq-90": "「不同目標難以同時實現」與本句語境不同。",
-        "conflict-mcq-89": "「不同利益互相牴觸」與本句語境不同。",
-        "conflict-mcq-88": "「新研究結果與先前研究不一致」與本句語境不同。"
+        "conflict-mcq-92": "本句的「deconflict their schedules」指「協調不同活動，使它們不撞期／不互相干擾」。",
+        "conflict-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-92"
     },
@@ -5473,11 +4977,9 @@ export default {
       "masked": "Agencies need to ____.",
       "options": [
         "conflict-mcq-92",
-        "conflict-mcq-91",
-        "conflict-mcq-93",
-        "conflict-mcq-90",
-        "conflict-mcq-89",
-        "conflict-mcq-88"
+        "conflict-mcq-09",
+        "conflict-mcq-59",
+        "conflict-mcq-34"
       ],
       "explanation": "本句的「deconflict operations」指「協調不同活動，使它們不撞期／不互相干擾」。",
       "sentenceIndex": 126,
@@ -5486,12 +4988,10 @@ export default {
         "deconflict operations"
       ],
       "optionReasons": {
-        "conflict-mcq-92": "本句指「協調不同活動，使它們不撞期／不互相干擾」。",
-        "conflict-mcq-91": "「不同價值觀互相矛盾」與本句語境不同。",
-        "conflict-mcq-93": "「為避免行動／時間／系統互相干擾而進行的協調」與本句語境不同。",
-        "conflict-mcq-90": "「不同目標難以同時實現」與本句語境不同。",
-        "conflict-mcq-89": "「不同利益互相牴觸」與本句語境不同。",
-        "conflict-mcq-88": "「新研究結果與先前研究不一致」與本句語境不同。"
+        "conflict-mcq-92": "本句的「deconflict operations」指「協調不同活動，使它們不撞期／不互相干擾」。",
+        "conflict-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-92"
     },
@@ -5503,11 +5003,9 @@ export default {
       "masked": "Better ____ reduced scheduling problems.",
       "options": [
         "conflict-mcq-93",
-        "conflict-mcq-92",
-        "conflict-mcq-91",
-        "conflict-mcq-90",
-        "conflict-mcq-89",
-        "conflict-mcq-88"
+        "conflict-mcq-80",
+        "conflict-mcq-40",
+        "conflict-mcq-32"
       ],
       "explanation": "本句的「deconfliction」指「為避免行動／時間／系統互相干擾而進行的協調」。",
       "sentenceIndex": 127,
@@ -5516,12 +5014,10 @@ export default {
         "deconfliction"
       ],
       "optionReasons": {
-        "conflict-mcq-93": "本句指「為避免行動／時間／系統互相干擾而進行的協調」。",
-        "conflict-mcq-92": "「協調不同活動，使它們不撞期／不互相干擾」與本句語境不同。",
-        "conflict-mcq-91": "「不同價值觀互相矛盾」與本句語境不同。",
-        "conflict-mcq-90": "「不同目標難以同時實現」與本句語境不同。",
-        "conflict-mcq-89": "「不同利益互相牴觸」與本句語境不同。",
-        "conflict-mcq-88": "「新研究結果與先前研究不一致」與本句語境不同。"
+        "conflict-mcq-93": "本句的「deconfliction」指「為避免行動／時間／系統互相干擾而進行的協調」。",
+        "conflict-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "conflict-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conflict-mcq-93"
     }
@@ -5533,5 +5029,7 @@ export default {
     "sha256": "6839516a97e7dee600acc8d01899fc58427113c8ed99294a3635757538f2a51b",
     "pages": 53
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

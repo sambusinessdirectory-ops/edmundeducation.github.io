@@ -316,11 +316,8 @@ export default {
       "masked": "What caught my attention first was the ____.",
       "options": [
         "smell-mcq-01",
-        "smell-mcq-02",
-        "smell-mcq-03",
-        "smell-mcq-04",
-        "smell-mcq-05",
-        "smell-mcq-06"
+        "smell-mcq-11",
+        "smell-mcq-10"
       ],
       "explanation": "本句的「smell」指「鼻子可以感受到的某種氣味」。",
       "sentenceIndex": 0,
@@ -329,12 +326,9 @@ export default {
         "smell"
       ],
       "optionReasons": {
-        "smell-mcq-01": "本句指「鼻子可以感受到的某種氣味」。",
-        "smell-mcq-02": "「令人不舒服的臭味／難聞氣味」是「bad smell」的用法，與本句語境不同。",
-        "smell-mcq-03": "「用鼻子辨認氣味的感官能力」是「sense of smell」的用法，與本句語境不同。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。"
+        "smell-mcq-01": "本句的「smell」指「鼻子可以感受到的某種氣味」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-01"
     },
@@ -346,11 +340,8 @@ export default {
       "masked": "There was a lovely ____ of bread in the shop.",
       "options": [
         "smell-mcq-01",
-        "smell-mcq-02",
-        "smell-mcq-03",
-        "smell-mcq-04",
-        "smell-mcq-05",
-        "smell-mcq-06"
+        "smell-mcq-11",
+        "smell-mcq-10"
       ],
       "explanation": "本句的「smell」指「鼻子可以感受到的某種氣味」。",
       "sentenceIndex": 1,
@@ -359,12 +350,9 @@ export default {
         "smell"
       ],
       "optionReasons": {
-        "smell-mcq-01": "本句指「鼻子可以感受到的某種氣味」。",
-        "smell-mcq-02": "「令人不舒服的臭味／難聞氣味」是「bad smell」的用法，與本句語境不同。",
-        "smell-mcq-03": "「用鼻子辨認氣味的感官能力」是「sense of smell」的用法，與本句語境不同。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。"
+        "smell-mcq-01": "本句的「smell」指「鼻子可以感受到的某種氣味」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-01"
     },
@@ -376,11 +364,8 @@ export default {
       "masked": "I noticed a strange ____ in the room.",
       "options": [
         "smell-mcq-01",
-        "smell-mcq-02",
-        "smell-mcq-03",
-        "smell-mcq-04",
-        "smell-mcq-05",
-        "smell-mcq-06"
+        "smell-mcq-11",
+        "smell-mcq-10"
       ],
       "explanation": "本句的「smell」指「鼻子可以感受到的某種氣味」。",
       "sentenceIndex": 2,
@@ -389,12 +374,9 @@ export default {
         "smell"
       ],
       "optionReasons": {
-        "smell-mcq-01": "本句指「鼻子可以感受到的某種氣味」。",
-        "smell-mcq-02": "「令人不舒服的臭味／難聞氣味」是「bad smell」的用法，與本句語境不同。",
-        "smell-mcq-03": "「用鼻子辨認氣味的感官能力」是「sense of smell」的用法，與本句語境不同。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。"
+        "smell-mcq-01": "本句的「smell」指「鼻子可以感受到的某種氣味」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-01"
     },
@@ -406,11 +388,8 @@ export default {
       "masked": "There was a bad ____ coming from the bin.",
       "options": [
         "smell-mcq-02",
-        "smell-mcq-01",
-        "smell-mcq-03",
-        "smell-mcq-04",
-        "smell-mcq-05",
-        "smell-mcq-06"
+        "smell-mcq-11",
+        "smell-mcq-10"
       ],
       "explanation": "本句的「smell」指「令人不舒服的臭味／難聞氣味」。",
       "sentenceIndex": 3,
@@ -419,12 +398,9 @@ export default {
         "smell"
       ],
       "optionReasons": {
-        "smell-mcq-02": "本句指「令人不舒服的臭味／難聞氣味」。",
-        "smell-mcq-01": "「鼻子可以感受到的某種氣味」是「smell — noun」的用法，與本句語境不同。",
-        "smell-mcq-03": "「用鼻子辨認氣味的感官能力」是「sense of smell」的用法，與本句語境不同。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。"
+        "smell-mcq-02": "本句的「smell」指「令人不舒服的臭味／難聞氣味」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-02"
     },
@@ -436,11 +412,8 @@ export default {
       "masked": "The fridge had an unpleasant ____.",
       "options": [
         "smell-mcq-02",
-        "smell-mcq-01",
-        "smell-mcq-03",
-        "smell-mcq-04",
-        "smell-mcq-05",
-        "smell-mcq-06"
+        "smell-mcq-10",
+        "smell-mcq-11"
       ],
       "explanation": "本句的「smell」指「令人不舒服的臭味／難聞氣味」。",
       "sentenceIndex": 4,
@@ -449,12 +422,9 @@ export default {
         "smell"
       ],
       "optionReasons": {
-        "smell-mcq-02": "本句指「令人不舒服的臭味／難聞氣味」。",
-        "smell-mcq-01": "「鼻子可以感受到的某種氣味」是「smell — noun」的用法，與本句語境不同。",
-        "smell-mcq-03": "「用鼻子辨認氣味的感官能力」是「sense of smell」的用法，與本句語境不同。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。"
+        "smell-mcq-02": "本句的「smell」指「令人不舒服的臭味／難聞氣味」。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-02"
     },
@@ -466,11 +436,9 @@ export default {
       "masked": "Dogs have a very strong ____.",
       "options": [
         "smell-mcq-03",
-        "smell-mcq-02",
-        "smell-mcq-04",
-        "smell-mcq-01",
-        "smell-mcq-05",
-        "smell-mcq-06"
+        "smell-mcq-11",
+        "smell-mcq-10",
+        "smell-mcq-12"
       ],
       "explanation": "本句的「sense of smell」指「用鼻子辨認氣味的感官能力」。",
       "sentenceIndex": 5,
@@ -479,12 +447,10 @@ export default {
         "sense of smell"
       ],
       "optionReasons": {
-        "smell-mcq-03": "本句指「用鼻子辨認氣味的感官能力」。",
-        "smell-mcq-02": "「令人不舒服的臭味／難聞氣味」是「bad smell」的用法，與本句語境不同。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。",
-        "smell-mcq-01": "「鼻子可以感受到的某種氣味」是「smell — noun」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。"
+        "smell-mcq-03": "本句的「sense of smell」指「用鼻子辨認氣味的感官能力」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-03"
     },
@@ -496,11 +462,9 @@ export default {
       "masked": "A cold can temporarily affect your sense of ____.",
       "options": [
         "smell-mcq-03",
-        "smell-mcq-02",
-        "smell-mcq-04",
-        "smell-mcq-01",
-        "smell-mcq-05",
-        "smell-mcq-06"
+        "smell-mcq-11",
+        "smell-mcq-10",
+        "smell-mcq-12"
       ],
       "explanation": "本句的「smell」指「用鼻子辨認氣味的感官能力」。",
       "sentenceIndex": 6,
@@ -509,12 +473,10 @@ export default {
         "smell"
       ],
       "optionReasons": {
-        "smell-mcq-03": "本句指「用鼻子辨認氣味的感官能力」。",
-        "smell-mcq-02": "「令人不舒服的臭味／難聞氣味」是「bad smell」的用法，與本句語境不同。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。",
-        "smell-mcq-01": "「鼻子可以感受到的某種氣味」是「smell — noun」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。"
+        "smell-mcq-03": "本句的「smell」指「用鼻子辨認氣味的感官能力」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-03"
     },
@@ -526,11 +488,8 @@ export default {
       "masked": "I could ____ fresh bread from outside.",
       "options": [
         "smell-mcq-04",
-        "smell-mcq-03",
-        "smell-mcq-05",
-        "smell-mcq-02",
-        "smell-mcq-06",
-        "smell-mcq-01"
+        "smell-mcq-11",
+        "smell-mcq-12"
       ],
       "explanation": "本句的「smell」指「透過嗅覺察覺某種氣味」。",
       "sentenceIndex": 7,
@@ -539,12 +498,9 @@ export default {
         "smell"
       ],
       "optionReasons": {
-        "smell-mcq-04": "本句指「透過嗅覺察覺某種氣味」。",
-        "smell-mcq-03": "「用鼻子辨認氣味的感官能力」是「sense of smell」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-02": "「令人不舒服的臭味／難聞氣味」是「bad smell」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。",
-        "smell-mcq-01": "「鼻子可以感受到的某種氣味」是「smell — noun」的用法，與本句語境不同。"
+        "smell-mcq-04": "本句的「smell」指「透過嗅覺察覺某種氣味」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-04"
     },
@@ -556,11 +512,8 @@ export default {
       "masked": "Can you ____ smoke?",
       "options": [
         "smell-mcq-04",
-        "smell-mcq-03",
-        "smell-mcq-05",
-        "smell-mcq-02",
-        "smell-mcq-06",
-        "smell-mcq-01"
+        "smell-mcq-11",
+        "smell-mcq-12"
       ],
       "explanation": "本句的「smell」指「透過嗅覺察覺某種氣味」。",
       "sentenceIndex": 8,
@@ -569,12 +522,9 @@ export default {
         "smell"
       ],
       "optionReasons": {
-        "smell-mcq-04": "本句指「透過嗅覺察覺某種氣味」。",
-        "smell-mcq-03": "「用鼻子辨認氣味的感官能力」是「sense of smell」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-02": "「令人不舒服的臭味／難聞氣味」是「bad smell」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。",
-        "smell-mcq-01": "「鼻子可以感受到的某種氣味」是「smell — noun」的用法，與本句語境不同。"
+        "smell-mcq-04": "本句的「smell」指「透過嗅覺察覺某種氣味」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-04"
     },
@@ -586,11 +536,9 @@ export default {
       "masked": "The bread ____.",
       "options": [
         "smell-mcq-05",
-        "smell-mcq-04",
-        "smell-mcq-06",
-        "smell-mcq-03",
-        "smell-mcq-07",
-        "smell-mcq-02"
+        "smell-mcq-11",
+        "smell-mcq-10",
+        "smell-mcq-12"
       ],
       "explanation": "本句的「smells amazing」指「某物散發出的氣味呈現某種特質；聞起來……」。",
       "sentenceIndex": 9,
@@ -599,12 +547,10 @@ export default {
         "smells amazing"
       ],
       "optionReasons": {
-        "smell-mcq-05": "本句指「某物散發出的氣味呈現某種特質；聞起來……」。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。",
-        "smell-mcq-03": "「用鼻子辨認氣味的感官能力」是「sense of smell」的用法，與本句語境不同。",
-        "smell-mcq-07": "「氣味與 X 相似」是「smell like X」的用法，與本句語境不同。",
-        "smell-mcq-02": "「令人不舒服的臭味／難聞氣味」是「bad smell」的用法，與本句語境不同。"
+        "smell-mcq-05": "本句的「smells amazing」指「某物散發出的氣味呈現某種特質；聞起來……」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-05"
     },
@@ -616,11 +562,9 @@ export default {
       "masked": "The milk ____ strange.",
       "options": [
         "smell-mcq-05",
-        "smell-mcq-04",
-        "smell-mcq-06",
-        "smell-mcq-03",
-        "smell-mcq-07",
-        "smell-mcq-02"
+        "smell-mcq-10",
+        "smell-mcq-11",
+        "smell-mcq-12"
       ],
       "explanation": "本句的「smells」指「某物散發出的氣味呈現某種特質；聞起來……」。",
       "sentenceIndex": 10,
@@ -629,12 +573,10 @@ export default {
         "smells"
       ],
       "optionReasons": {
-        "smell-mcq-05": "本句指「某物散發出的氣味呈現某種特質；聞起來……」。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。",
-        "smell-mcq-03": "「用鼻子辨認氣味的感官能力」是「sense of smell」的用法，與本句語境不同。",
-        "smell-mcq-07": "「氣味與 X 相似」是「smell like X」的用法，與本句語境不同。",
-        "smell-mcq-02": "「令人不舒服的臭味／難聞氣味」是「bad smell」的用法，與本句語境不同。"
+        "smell-mcq-05": "本句的「smells」指「某物散發出的氣味呈現某種特質；聞起來……」。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-05"
     },
@@ -646,11 +588,9 @@ export default {
       "masked": "The room ____.",
       "options": [
         "smell-mcq-06",
-        "smell-mcq-05",
-        "smell-mcq-07",
-        "smell-mcq-04",
-        "smell-mcq-08",
-        "smell-mcq-03"
+        "smell-mcq-11",
+        "smell-mcq-10",
+        "smell-mcq-12"
       ],
       "explanation": "本句的「smelled of coffee」指「散發出 X 的氣味」。",
       "sentenceIndex": 11,
@@ -659,12 +599,10 @@ export default {
         "smelled of coffee"
       ],
       "optionReasons": {
-        "smell-mcq-06": "本句指「散發出 X 的氣味」。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-07": "「氣味與 X 相似」是「smell like X」的用法，與本句語境不同。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。",
-        "smell-mcq-08": "「主動把某物靠近鼻子辨認氣味」是「smell deliberately」的用法，與本句語境不同。",
-        "smell-mcq-03": "「用鼻子辨認氣味的感官能力」是「sense of smell」的用法，與本句語境不同。"
+        "smell-mcq-06": "本句的「smelled of coffee」指「散發出 X 的氣味」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-06"
     },
@@ -676,11 +614,9 @@ export default {
       "masked": "His clothes ____ of smoke.",
       "options": [
         "smell-mcq-06",
-        "smell-mcq-05",
-        "smell-mcq-07",
-        "smell-mcq-04",
-        "smell-mcq-08",
-        "smell-mcq-03"
+        "smell-mcq-10",
+        "smell-mcq-11",
+        "smell-mcq-12"
       ],
       "explanation": "本句的「smelled」指「散發出 X 的氣味」。",
       "sentenceIndex": 12,
@@ -689,12 +625,10 @@ export default {
         "smelled"
       ],
       "optionReasons": {
-        "smell-mcq-06": "本句指「散發出 X 的氣味」。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-07": "「氣味與 X 相似」是「smell like X」的用法，與本句語境不同。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。",
-        "smell-mcq-08": "「主動把某物靠近鼻子辨認氣味」是「smell deliberately」的用法，與本句語境不同。",
-        "smell-mcq-03": "「用鼻子辨認氣味的感官能力」是「sense of smell」的用法，與本句語境不同。"
+        "smell-mcq-06": "本句的「smelled」指「散發出 X 的氣味」。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-06"
     },
@@ -706,11 +640,8 @@ export default {
       "masked": "This candle ____.",
       "options": [
         "smell-mcq-07",
-        "smell-mcq-06",
-        "smell-mcq-08",
-        "smell-mcq-05",
-        "smell-mcq-09",
-        "smell-mcq-04"
+        "smell-mcq-11",
+        "smell-mcq-10"
       ],
       "explanation": "本句的「smells like vanilla」指「氣味與 X 相似」。",
       "sentenceIndex": 13,
@@ -719,12 +650,9 @@ export default {
         "smells like vanilla"
       ],
       "optionReasons": {
-        "smell-mcq-07": "本句指「氣味與 X 相似」。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。",
-        "smell-mcq-08": "「主動把某物靠近鼻子辨認氣味」是「smell deliberately」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-09": "「本身散發出難聞氣味；發臭」是「smell — bad odour」的用法，與本句語境不同。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。"
+        "smell-mcq-07": "本句的「smells like vanilla」指「氣味與 X 相似」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-07"
     },
@@ -736,11 +664,8 @@ export default {
       "masked": "The kitchen ____ like fresh bread.",
       "options": [
         "smell-mcq-07",
-        "smell-mcq-06",
-        "smell-mcq-08",
-        "smell-mcq-05",
-        "smell-mcq-09",
-        "smell-mcq-04"
+        "smell-mcq-10",
+        "smell-mcq-11"
       ],
       "explanation": "本句的「smelled」指「氣味與 X 相似」。",
       "sentenceIndex": 14,
@@ -749,12 +674,9 @@ export default {
         "smelled"
       ],
       "optionReasons": {
-        "smell-mcq-07": "本句指「氣味與 X 相似」。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。",
-        "smell-mcq-08": "「主動把某物靠近鼻子辨認氣味」是「smell deliberately」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-09": "「本身散發出難聞氣味；發臭」是「smell — bad odour」的用法，與本句語境不同。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。"
+        "smell-mcq-07": "本句的「smelled」指「氣味與 X 相似」。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-07"
     },
@@ -766,11 +688,9 @@ export default {
       "masked": "She ____ the flowers.",
       "options": [
         "smell-mcq-08",
-        "smell-mcq-07",
-        "smell-mcq-09",
-        "smell-mcq-06",
         "smell-mcq-10",
-        "smell-mcq-05"
+        "smell-mcq-11",
+        "smell-mcq-12"
       ],
       "explanation": "本句的「smelled」指「主動把某物靠近鼻子辨認氣味」。",
       "sentenceIndex": 15,
@@ -779,12 +699,10 @@ export default {
         "smelled"
       ],
       "optionReasons": {
-        "smell-mcq-08": "本句指「主動把某物靠近鼻子辨認氣味」。",
-        "smell-mcq-07": "「氣味與 X 相似」是「smell like X」的用法，與本句語境不同。",
-        "smell-mcq-09": "「本身散發出難聞氣味；發臭」是「smell — bad odour」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。",
-        "smell-mcq-10": "「憑直覺察覺危險、麻煩或異常」是「smell — figurative」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。"
+        "smell-mcq-08": "本句的「smelled」指「主動把某物靠近鼻子辨認氣味」。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-08"
     },
@@ -796,11 +714,9 @@ export default {
       "masked": "He ____ the milk before drinking it.",
       "options": [
         "smell-mcq-08",
-        "smell-mcq-07",
-        "smell-mcq-09",
-        "smell-mcq-06",
         "smell-mcq-10",
-        "smell-mcq-05"
+        "smell-mcq-11",
+        "smell-mcq-12"
       ],
       "explanation": "本句的「smelled」指「主動把某物靠近鼻子辨認氣味」。",
       "sentenceIndex": 16,
@@ -809,12 +725,10 @@ export default {
         "smelled"
       ],
       "optionReasons": {
-        "smell-mcq-08": "本句指「主動把某物靠近鼻子辨認氣味」。",
-        "smell-mcq-07": "「氣味與 X 相似」是「smell like X」的用法，與本句語境不同。",
-        "smell-mcq-09": "「本身散發出難聞氣味；發臭」是「smell — bad odour」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。",
-        "smell-mcq-10": "「憑直覺察覺危險、麻煩或異常」是「smell — figurative」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。"
+        "smell-mcq-08": "本句的「smelled」指「主動把某物靠近鼻子辨認氣味」。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-08"
     },
@@ -826,11 +740,9 @@ export default {
       "masked": "The rubbish is starting to ____.",
       "options": [
         "smell-mcq-09",
-        "smell-mcq-08",
         "smell-mcq-10",
-        "smell-mcq-07",
         "smell-mcq-11",
-        "smell-mcq-06"
+        "smell-mcq-12"
       ],
       "explanation": "本句的「smell」指「本身散發出難聞氣味；發臭」。",
       "sentenceIndex": 17,
@@ -839,12 +751,10 @@ export default {
         "smell"
       ],
       "optionReasons": {
-        "smell-mcq-09": "本句指「本身散發出難聞氣味；發臭」。",
-        "smell-mcq-08": "「主動把某物靠近鼻子辨認氣味」是「smell deliberately」的用法，與本句語境不同。",
-        "smell-mcq-10": "「憑直覺察覺危險、麻煩或異常」是「smell — figurative」的用法，與本句語境不同。",
-        "smell-mcq-07": "「氣味與 X 相似」是「smell like X」的用法，與本句語境不同。",
-        "smell-mcq-11": "「覺得事情不對勁，懷疑有人欺騙／隱瞞」是「smell a rat」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。"
+        "smell-mcq-09": "本句的「smell」指「本身散發出難聞氣味；發臭」。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-09"
     },
@@ -856,11 +766,9 @@ export default {
       "masked": "These shoes ____.",
       "options": [
         "smell-mcq-09",
-        "smell-mcq-08",
-        "smell-mcq-10",
-        "smell-mcq-07",
         "smell-mcq-11",
-        "smell-mcq-06"
+        "smell-mcq-10",
+        "smell-mcq-12"
       ],
       "explanation": "本句的「smell」指「本身散發出難聞氣味；發臭」。",
       "sentenceIndex": 18,
@@ -869,12 +777,10 @@ export default {
         "smell"
       ],
       "optionReasons": {
-        "smell-mcq-09": "本句指「本身散發出難聞氣味；發臭」。",
-        "smell-mcq-08": "「主動把某物靠近鼻子辨認氣味」是「smell deliberately」的用法，與本句語境不同。",
-        "smell-mcq-10": "「憑直覺察覺危險、麻煩或異常」是「smell — figurative」的用法，與本句語境不同。",
-        "smell-mcq-07": "「氣味與 X 相似」是「smell like X」的用法，與本句語境不同。",
-        "smell-mcq-11": "「覺得事情不對勁，懷疑有人欺騙／隱瞞」是「smell a rat」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。"
+        "smell-mcq-09": "本句的「smell」指「本身散發出難聞氣味；發臭」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-09"
     },
@@ -886,11 +792,8 @@ export default {
       "masked": "The drain ____.",
       "options": [
         "smell-mcq-02",
-        "smell-mcq-01",
-        "smell-mcq-03",
-        "smell-mcq-04",
-        "smell-mcq-05",
-        "smell-mcq-06"
+        "smell-mcq-11",
+        "smell-mcq-10"
       ],
       "explanation": "本句的「smells awful」指「令人不舒服的臭味／難聞氣味」。",
       "sentenceIndex": 19,
@@ -899,12 +802,9 @@ export default {
         "smells awful"
       ],
       "optionReasons": {
-        "smell-mcq-02": "本句指「令人不舒服的臭味／難聞氣味」。",
-        "smell-mcq-01": "「鼻子可以感受到的某種氣味」是「smell — noun」的用法，與本句語境不同。",
-        "smell-mcq-03": "「用鼻子辨認氣味的感官能力」是「sense of smell」的用法，與本句語境不同。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。"
+        "smell-mcq-02": "本句的「smells awful」指「令人不舒服的臭味／難聞氣味」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-02"
     },
@@ -916,11 +816,8 @@ export default {
       "masked": "Something in the fridge ____ bad.",
       "options": [
         "smell-mcq-02",
-        "smell-mcq-01",
-        "smell-mcq-03",
-        "smell-mcq-04",
-        "smell-mcq-05",
-        "smell-mcq-06"
+        "smell-mcq-11",
+        "smell-mcq-10"
       ],
       "explanation": "本句的「smells」指「令人不舒服的臭味／難聞氣味」。",
       "sentenceIndex": 20,
@@ -929,12 +826,9 @@ export default {
         "smells"
       ],
       "optionReasons": {
-        "smell-mcq-02": "本句指「令人不舒服的臭味／難聞氣味」。",
-        "smell-mcq-01": "「鼻子可以感受到的某種氣味」是「smell — noun」的用法，與本句語境不同。",
-        "smell-mcq-03": "「用鼻子辨認氣味的感官能力」是「sense of smell」的用法，與本句語境不同。",
-        "smell-mcq-04": "「透過嗅覺察覺某種氣味」是「smell + object」的用法，與本句語境不同。",
-        "smell-mcq-05": "「某物散發出的氣味呈現某種特質；聞起來……」是「smell + adjective」的用法，與本句語境不同。",
-        "smell-mcq-06": "「散發出 X 的氣味」是「smell of X」的用法，與本句語境不同。"
+        "smell-mcq-02": "本句的「smells」指「令人不舒服的臭味／難聞氣味」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-02"
     },
@@ -948,9 +842,7 @@ export default {
         "smell-mcq-10",
         "smell-mcq-09",
         "smell-mcq-11",
-        "smell-mcq-08",
-        "smell-mcq-12",
-        "smell-mcq-07"
+        "smell-mcq-12"
       ],
       "explanation": "本句的「smell trouble」指「憑直覺察覺危險、麻煩或異常」。",
       "sentenceIndex": 21,
@@ -959,12 +851,10 @@ export default {
         "smell trouble"
       ],
       "optionReasons": {
-        "smell-mcq-10": "本句指「憑直覺察覺危險、麻煩或異常」。",
-        "smell-mcq-09": "「本身散發出難聞氣味；發臭」是「smell — bad odour」的用法，與本句語境不同。",
-        "smell-mcq-11": "「覺得事情不對勁，懷疑有人欺騙／隱瞞」是「smell a rat」的用法，與本句語境不同。",
-        "smell-mcq-08": "「主動把某物靠近鼻子辨認氣味」是「smell deliberately」的用法，與本句語境不同。",
-        "smell-mcq-12": "「令人感覺帶有某種負面性質、嫌疑或意味」是「smell of + abstract noun」的用法，與本句語境不同。",
-        "smell-mcq-07": "「氣味與 X 相似」是「smell like X」的用法，與本句語境不同。"
+        "smell-mcq-10": "本句的「smell trouble」指「憑直覺察覺危險、麻煩或異常」。",
+        "smell-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-10"
     },
@@ -976,11 +866,9 @@ export default {
       "masked": "She could ____ danger before anyone else reacted.",
       "options": [
         "smell-mcq-10",
-        "smell-mcq-09",
-        "smell-mcq-11",
-        "smell-mcq-08",
+        "smell-mcq-05",
         "smell-mcq-12",
-        "smell-mcq-07"
+        "smell-mcq-11"
       ],
       "explanation": "本句的「smell」指「憑直覺察覺危險、麻煩或異常」。",
       "sentenceIndex": 22,
@@ -989,12 +877,10 @@ export default {
         "smell"
       ],
       "optionReasons": {
-        "smell-mcq-10": "本句指「憑直覺察覺危險、麻煩或異常」。",
-        "smell-mcq-09": "「本身散發出難聞氣味；發臭」是「smell — bad odour」的用法，與本句語境不同。",
-        "smell-mcq-11": "「覺得事情不對勁，懷疑有人欺騙／隱瞞」是「smell a rat」的用法，與本句語境不同。",
-        "smell-mcq-08": "「主動把某物靠近鼻子辨認氣味」是「smell deliberately」的用法，與本句語境不同。",
-        "smell-mcq-12": "「令人感覺帶有某種負面性質、嫌疑或意味」是「smell of + abstract noun」的用法，與本句語境不同。",
-        "smell-mcq-07": "「氣味與 X 相似」是「smell like X」的用法，與本句語境不同。"
+        "smell-mcq-10": "本句的「smell」指「憑直覺察覺危險、麻煩或異常」。",
+        "smell-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-10"
     },
@@ -1006,11 +892,8 @@ export default {
       "masked": "When the story changed again, I ____.",
       "options": [
         "smell-mcq-11",
-        "smell-mcq-10",
-        "smell-mcq-12",
-        "smell-mcq-09",
-        "smell-mcq-13",
-        "smell-mcq-08"
+        "smell-mcq-02",
+        "smell-mcq-10"
       ],
       "explanation": "本句的「smelled a rat」指「覺得事情不對勁，懷疑有人欺騙／隱瞞」。",
       "sentenceIndex": 23,
@@ -1019,12 +902,9 @@ export default {
         "smelled a rat"
       ],
       "optionReasons": {
-        "smell-mcq-11": "本句指「覺得事情不對勁，懷疑有人欺騙／隱瞞」。",
-        "smell-mcq-10": "「憑直覺察覺危險、麻煩或異常」是「smell — figurative」的用法，與本句語境不同。",
-        "smell-mcq-12": "「令人感覺帶有某種負面性質、嫌疑或意味」是「smell of + abstract noun」的用法，與本句語境不同。",
-        "smell-mcq-09": "「本身散發出難聞氣味；發臭」是「smell — bad odour」的用法，與本句語境不同。",
-        "smell-mcq-13": "「散發明顯難聞氣味的」是「smelly」的用法，與本句語境不同。",
-        "smell-mcq-08": "「主動把某物靠近鼻子辨認氣味」是「smell deliberately」的用法，與本句語境不同。"
+        "smell-mcq-11": "本句的「smelled a rat」指「覺得事情不對勁，懷疑有人欺騙／隱瞞」。",
+        "smell-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-11"
     },
@@ -1036,11 +916,8 @@ export default {
       "masked": "She ____ a rat when the figures did not match.",
       "options": [
         "smell-mcq-11",
-        "smell-mcq-10",
-        "smell-mcq-12",
-        "smell-mcq-09",
-        "smell-mcq-13",
-        "smell-mcq-08"
+        "smell-mcq-07",
+        "smell-mcq-10"
       ],
       "explanation": "本句的「smelled」指「覺得事情不對勁，懷疑有人欺騙／隱瞞」。",
       "sentenceIndex": 24,
@@ -1049,12 +926,9 @@ export default {
         "smelled"
       ],
       "optionReasons": {
-        "smell-mcq-11": "本句指「覺得事情不對勁，懷疑有人欺騙／隱瞞」。",
-        "smell-mcq-10": "「憑直覺察覺危險、麻煩或異常」是「smell — figurative」的用法，與本句語境不同。",
-        "smell-mcq-12": "「令人感覺帶有某種負面性質、嫌疑或意味」是「smell of + abstract noun」的用法，與本句語境不同。",
-        "smell-mcq-09": "「本身散發出難聞氣味；發臭」是「smell — bad odour」的用法，與本句語境不同。",
-        "smell-mcq-13": "「散發明顯難聞氣味的」是「smelly」的用法，與本句語境不同。",
-        "smell-mcq-08": "「主動把某物靠近鼻子辨認氣味」是「smell deliberately」的用法，與本句語境不同。"
+        "smell-mcq-11": "本句的「smelled」指「覺得事情不對勁，懷疑有人欺騙／隱瞞」。",
+        "smell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-11"
     },
@@ -1066,11 +940,9 @@ export default {
       "masked": "The whole deal ____.",
       "options": [
         "smell-mcq-12",
-        "smell-mcq-11",
-        "smell-mcq-13",
-        "smell-mcq-10",
         "smell-mcq-09",
-        "smell-mcq-08"
+        "smell-mcq-10",
+        "smell-mcq-11"
       ],
       "explanation": "本句的「smells of corruption」指「令人感覺帶有某種負面性質、嫌疑或意味」。",
       "sentenceIndex": 25,
@@ -1079,12 +951,10 @@ export default {
         "smells of corruption"
       ],
       "optionReasons": {
-        "smell-mcq-12": "本句指「令人感覺帶有某種負面性質、嫌疑或意味」。",
-        "smell-mcq-11": "「覺得事情不對勁，懷疑有人欺騙／隱瞞」是「smell a rat」的用法，與本句語境不同。",
-        "smell-mcq-13": "「散發明顯難聞氣味的」是「smelly」的用法，與本句語境不同。",
-        "smell-mcq-10": "「憑直覺察覺危險、麻煩或異常」是「smell — figurative」的用法，與本句語境不同。",
-        "smell-mcq-09": "「本身散發出難聞氣味；發臭」是「smell — bad odour」的用法，與本句語境不同。",
-        "smell-mcq-08": "「主動把某物靠近鼻子辨認氣味」是「smell deliberately」的用法，與本句語境不同。"
+        "smell-mcq-12": "本句的「smells of corruption」指「令人感覺帶有某種負面性質、嫌疑或意味」。",
+        "smell-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-12"
     },
@@ -1096,11 +966,9 @@ export default {
       "masked": "His explanation ____ of desperation.",
       "options": [
         "smell-mcq-12",
-        "smell-mcq-11",
-        "smell-mcq-13",
         "smell-mcq-10",
-        "smell-mcq-09",
-        "smell-mcq-08"
+        "smell-mcq-06",
+        "smell-mcq-11"
       ],
       "explanation": "本句的「smelled」指「令人感覺帶有某種負面性質、嫌疑或意味」。",
       "sentenceIndex": 26,
@@ -1109,12 +977,10 @@ export default {
         "smelled"
       ],
       "optionReasons": {
-        "smell-mcq-12": "本句指「令人感覺帶有某種負面性質、嫌疑或意味」。",
-        "smell-mcq-11": "「覺得事情不對勁，懷疑有人欺騙／隱瞞」是「smell a rat」的用法，與本句語境不同。",
-        "smell-mcq-13": "「散發明顯難聞氣味的」是「smelly」的用法，與本句語境不同。",
-        "smell-mcq-10": "「憑直覺察覺危險、麻煩或異常」是「smell — figurative」的用法，與本句語境不同。",
-        "smell-mcq-09": "「本身散發出難聞氣味；發臭」是「smell — bad odour」的用法，與本句語境不同。",
-        "smell-mcq-08": "「主動把某物靠近鼻子辨認氣味」是「smell deliberately」的用法，與本句語境不同。"
+        "smell-mcq-12": "本句的「smelled」指「令人感覺帶有某種負面性質、嫌疑或意味」。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-12"
     },
@@ -1126,11 +992,9 @@ export default {
       "masked": "The bin is ____.",
       "options": [
         "smell-mcq-13",
-        "smell-mcq-12",
-        "smell-mcq-11",
         "smell-mcq-10",
-        "smell-mcq-09",
-        "smell-mcq-08"
+        "smell-mcq-11",
+        "smell-mcq-12"
       ],
       "explanation": "本句的「smelly」指「散發明顯難聞氣味的」。",
       "sentenceIndex": 27,
@@ -1139,12 +1003,10 @@ export default {
         "smelly"
       ],
       "optionReasons": {
-        "smell-mcq-13": "本句指「散發明顯難聞氣味的」。",
-        "smell-mcq-12": "「令人感覺帶有某種負面性質、嫌疑或意味」是「smell of + abstract noun」的用法，與本句語境不同。",
-        "smell-mcq-11": "「覺得事情不對勁，懷疑有人欺騙／隱瞞」是「smell a rat」的用法，與本句語境不同。",
-        "smell-mcq-10": "「憑直覺察覺危險、麻煩或異常」是「smell — figurative」的用法，與本句語境不同。",
-        "smell-mcq-09": "「本身散發出難聞氣味；發臭」是「smell — bad odour」的用法，與本句語境不同。",
-        "smell-mcq-08": "「主動把某物靠近鼻子辨認氣味」是「smell deliberately」的用法，與本句語境不同。"
+        "smell-mcq-13": "本句的「smelly」指「散發明顯難聞氣味的」。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-13"
     },
@@ -1156,11 +1018,9 @@ export default {
       "masked": "Take those ____ shoes outside.",
       "options": [
         "smell-mcq-13",
-        "smell-mcq-12",
         "smell-mcq-11",
         "smell-mcq-10",
-        "smell-mcq-09",
-        "smell-mcq-08"
+        "smell-mcq-12"
       ],
       "explanation": "本句的「smelly」指「散發明顯難聞氣味的」。",
       "sentenceIndex": 28,
@@ -1169,12 +1029,10 @@ export default {
         "smelly"
       ],
       "optionReasons": {
-        "smell-mcq-13": "本句指「散發明顯難聞氣味的」。",
-        "smell-mcq-12": "「令人感覺帶有某種負面性質、嫌疑或意味」是「smell of + abstract noun」的用法，與本句語境不同。",
-        "smell-mcq-11": "「覺得事情不對勁，懷疑有人欺騙／隱瞞」是「smell a rat」的用法，與本句語境不同。",
-        "smell-mcq-10": "「憑直覺察覺危險、麻煩或異常」是「smell — figurative」的用法，與本句語境不同。",
-        "smell-mcq-09": "「本身散發出難聞氣味；發臭」是「smell — bad odour」的用法，與本句語境不同。",
-        "smell-mcq-08": "「主動把某物靠近鼻子辨認氣味」是「smell deliberately」的用法，與本句語境不同。"
+        "smell-mcq-13": "本句的「smelly」指「散發明顯難聞氣味的」。",
+        "smell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "smell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "smell-mcq-13"
     }
@@ -1186,5 +1044,7 @@ export default {
     "sha256": "2c1cf534fd613918bd6e376cf8c41f1e9be34190bbafccf281f701af1be52e54",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

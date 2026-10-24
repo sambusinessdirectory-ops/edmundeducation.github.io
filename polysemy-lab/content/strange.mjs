@@ -173,11 +173,7 @@ export default {
       "masked": "In a ____ way, watching it made me slow down mentally.",
       "options": [
         "strange-mcq-01",
-        "strange-mcq-02",
-        "strange-mcq-03",
-        "strange-mcq-04",
-        "strange-mcq-05",
-        "strange-mcq-06"
+        "strange-mcq-07"
       ],
       "explanation": "本句的「strange」指「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」。",
       "sentenceIndex": 0,
@@ -186,12 +182,8 @@ export default {
         "strange"
       ],
       "optionReasons": {
-        "strange-mcq-01": "本句指「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」。",
-        "strange-mcq-02": "「因未曾接觸、不認識或不熟悉而令人感到陌生的」與本句語境不同。",
-        "strange-mcq-03": "「身體或情緒出現與平常不同、難以準確描述的異樣感」與本句語境不同。",
-        "strange-mcq-04": "「以不尋常、難以解釋或出乎意料的方式」與本句語境不同。",
-        "strange-mcq-05": "「奇怪、不尋常或陌生的性質／感覺」與本句語境不同。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。"
+        "strange-mcq-01": "本句的「strange」指「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」。",
+        "strange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-01"
     },
@@ -203,11 +195,7 @@ export default {
       "masked": "I heard a ____ noise outside.",
       "options": [
         "strange-mcq-01",
-        "strange-mcq-02",
-        "strange-mcq-03",
-        "strange-mcq-04",
-        "strange-mcq-05",
-        "strange-mcq-06"
+        "strange-mcq-07"
       ],
       "explanation": "本句的「strange」指「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」。",
       "sentenceIndex": 1,
@@ -216,12 +204,8 @@ export default {
         "strange"
       ],
       "optionReasons": {
-        "strange-mcq-01": "本句指「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」。",
-        "strange-mcq-02": "「因未曾接觸、不認識或不熟悉而令人感到陌生的」與本句語境不同。",
-        "strange-mcq-03": "「身體或情緒出現與平常不同、難以準確描述的異樣感」與本句語境不同。",
-        "strange-mcq-04": "「以不尋常、難以解釋或出乎意料的方式」與本句語境不同。",
-        "strange-mcq-05": "「奇怪、不尋常或陌生的性質／感覺」與本句語境不同。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。"
+        "strange-mcq-01": "本句的「strange」指「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」。",
+        "strange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-01"
     },
@@ -233,11 +217,7 @@ export default {
       "masked": "There was something ____ about his behaviour.",
       "options": [
         "strange-mcq-01",
-        "strange-mcq-02",
-        "strange-mcq-03",
-        "strange-mcq-04",
-        "strange-mcq-05",
-        "strange-mcq-06"
+        "strange-mcq-07"
       ],
       "explanation": "本句的「strange」指「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」。",
       "sentenceIndex": 2,
@@ -246,12 +226,8 @@ export default {
         "strange"
       ],
       "optionReasons": {
-        "strange-mcq-01": "本句指「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」。",
-        "strange-mcq-02": "「因未曾接觸、不認識或不熟悉而令人感到陌生的」與本句語境不同。",
-        "strange-mcq-03": "「身體或情緒出現與平常不同、難以準確描述的異樣感」與本句語境不同。",
-        "strange-mcq-04": "「以不尋常、難以解釋或出乎意料的方式」與本句語境不同。",
-        "strange-mcq-05": "「奇怪、不尋常或陌生的性質／感覺」與本句語境不同。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。"
+        "strange-mcq-01": "本句的「strange」指「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」。",
+        "strange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-01"
     },
@@ -263,11 +239,7 @@ export default {
       "masked": "Everything felt ____ in the new city.",
       "options": [
         "strange-mcq-02",
-        "strange-mcq-01",
-        "strange-mcq-03",
-        "strange-mcq-04",
-        "strange-mcq-05",
-        "strange-mcq-06"
+        "strange-mcq-04"
       ],
       "explanation": "本句的「strange」指「因未曾接觸、不認識或不熟悉而令人感到陌生的」。",
       "sentenceIndex": 3,
@@ -276,12 +248,8 @@ export default {
         "strange"
       ],
       "optionReasons": {
-        "strange-mcq-02": "本句指「因未曾接觸、不認識或不熟悉而令人感到陌生的」。",
-        "strange-mcq-01": "「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」與本句語境不同。",
-        "strange-mcq-03": "「身體或情緒出現與平常不同、難以準確描述的異樣感」與本句語境不同。",
-        "strange-mcq-04": "「以不尋常、難以解釋或出乎意料的方式」與本句語境不同。",
-        "strange-mcq-05": "「奇怪、不尋常或陌生的性質／感覺」與本句語境不同。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。"
+        "strange-mcq-02": "本句的「strange」指「因未曾接觸、不認識或不熟悉而令人感到陌生的」。",
+        "strange-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-02"
     },
@@ -293,11 +261,7 @@ export default {
       "masked": "The room looked ____ without the old furniture.",
       "options": [
         "strange-mcq-02",
-        "strange-mcq-01",
-        "strange-mcq-03",
-        "strange-mcq-04",
-        "strange-mcq-05",
-        "strange-mcq-06"
+        "strange-mcq-04"
       ],
       "explanation": "本句的「strange」指「因未曾接觸、不認識或不熟悉而令人感到陌生的」。",
       "sentenceIndex": 4,
@@ -306,12 +270,8 @@ export default {
         "strange"
       ],
       "optionReasons": {
-        "strange-mcq-02": "本句指「因未曾接觸、不認識或不熟悉而令人感到陌生的」。",
-        "strange-mcq-01": "「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」與本句語境不同。",
-        "strange-mcq-03": "「身體或情緒出現與平常不同、難以準確描述的異樣感」與本句語境不同。",
-        "strange-mcq-04": "「以不尋常、難以解釋或出乎意料的方式」與本句語境不同。",
-        "strange-mcq-05": "「奇怪、不尋常或陌生的性質／感覺」與本句語境不同。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。"
+        "strange-mcq-02": "本句的「strange」指「因未曾接觸、不認識或不熟悉而令人感到陌生的」。",
+        "strange-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-02"
     },
@@ -323,11 +283,7 @@ export default {
       "masked": "A ____ light appeared in the sky.",
       "options": [
         "strange-mcq-04",
-        "strange-mcq-03",
-        "strange-mcq-05",
-        "strange-mcq-02",
-        "strange-mcq-06",
-        "strange-mcq-01"
+        "strange-mcq-07"
       ],
       "explanation": "本句的「strange」指「以不尋常、難以解釋或出乎意料的方式」。",
       "sentenceIndex": 5,
@@ -336,12 +292,8 @@ export default {
         "strange"
       ],
       "optionReasons": {
-        "strange-mcq-04": "本句指「以不尋常、難以解釋或出乎意料的方式」。",
-        "strange-mcq-03": "「身體或情緒出現與平常不同、難以準確描述的異樣感」與本句語境不同。",
-        "strange-mcq-05": "「奇怪、不尋常或陌生的性質／感覺」與本句語境不同。",
-        "strange-mcq-02": "「因未曾接觸、不認識或不熟悉而令人感到陌生的」與本句語境不同。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。",
-        "strange-mcq-01": "「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」與本句語境不同。"
+        "strange-mcq-04": "本句的「strange」指「以不尋常、難以解釋或出乎意料的方式」。",
+        "strange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-04"
     },
@@ -353,11 +305,7 @@ export default {
       "masked": "It was a very ____ coincidence.",
       "options": [
         "strange-mcq-04",
-        "strange-mcq-03",
-        "strange-mcq-05",
-        "strange-mcq-02",
-        "strange-mcq-06",
-        "strange-mcq-01"
+        "strange-mcq-07"
       ],
       "explanation": "本句的「strange」指「以不尋常、難以解釋或出乎意料的方式」。",
       "sentenceIndex": 6,
@@ -366,12 +314,8 @@ export default {
         "strange"
       ],
       "optionReasons": {
-        "strange-mcq-04": "本句指「以不尋常、難以解釋或出乎意料的方式」。",
-        "strange-mcq-03": "「身體或情緒出現與平常不同、難以準確描述的異樣感」與本句語境不同。",
-        "strange-mcq-05": "「奇怪、不尋常或陌生的性質／感覺」與本句語境不同。",
-        "strange-mcq-02": "「因未曾接觸、不認識或不熟悉而令人感到陌生的」與本句語境不同。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。",
-        "strange-mcq-01": "「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」與本句語境不同。"
+        "strange-mcq-04": "本句的「strange」指「以不尋常、難以解釋或出乎意料的方式」。",
+        "strange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-04"
     },
@@ -383,11 +327,7 @@ export default {
       "masked": "I felt ____ after standing up too quickly.",
       "options": [
         "strange-mcq-03",
-        "strange-mcq-02",
-        "strange-mcq-04",
-        "strange-mcq-01",
-        "strange-mcq-05",
-        "strange-mcq-06"
+        "strange-mcq-07"
       ],
       "explanation": "本句的「strange」指「身體或情緒出現與平常不同、難以準確描述的異樣感」。",
       "sentenceIndex": 7,
@@ -396,12 +336,8 @@ export default {
         "strange"
       ],
       "optionReasons": {
-        "strange-mcq-03": "本句指「身體或情緒出現與平常不同、難以準確描述的異樣感」。",
-        "strange-mcq-02": "「因未曾接觸、不認識或不熟悉而令人感到陌生的」與本句語境不同。",
-        "strange-mcq-04": "「以不尋常、難以解釋或出乎意料的方式」與本句語境不同。",
-        "strange-mcq-01": "「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」與本句語境不同。",
-        "strange-mcq-05": "「奇怪、不尋常或陌生的性質／感覺」與本句語境不同。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。"
+        "strange-mcq-03": "本句的「strange」指「身體或情緒出現與平常不同、難以準確描述的異樣感」。",
+        "strange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-03"
     },
@@ -413,11 +349,7 @@ export default {
       "masked": "She felt ____ returning to her old school.",
       "options": [
         "strange-mcq-03",
-        "strange-mcq-02",
-        "strange-mcq-04",
-        "strange-mcq-01",
-        "strange-mcq-05",
-        "strange-mcq-06"
+        "strange-mcq-07"
       ],
       "explanation": "本句的「strange」指「身體或情緒出現與平常不同、難以準確描述的異樣感」。",
       "sentenceIndex": 8,
@@ -426,12 +358,8 @@ export default {
         "strange"
       ],
       "optionReasons": {
-        "strange-mcq-03": "本句指「身體或情緒出現與平常不同、難以準確描述的異樣感」。",
-        "strange-mcq-02": "「因未曾接觸、不認識或不熟悉而令人感到陌生的」與本句語境不同。",
-        "strange-mcq-04": "「以不尋常、難以解釋或出乎意料的方式」與本句語境不同。",
-        "strange-mcq-01": "「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」與本句語境不同。",
-        "strange-mcq-05": "「奇怪、不尋常或陌生的性質／感覺」與本句語境不同。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。"
+        "strange-mcq-03": "本句的「strange」指「身體或情緒出現與平常不同、難以準確描述的異樣感」。",
+        "strange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-03"
     },
@@ -443,11 +371,7 @@ export default {
       "masked": "She was surrounded by ____ faces.",
       "options": [
         "strange-mcq-07",
-        "strange-mcq-06",
-        "strange-mcq-05",
-        "strange-mcq-04",
-        "strange-mcq-03",
-        "strange-mcq-02"
+        "strange-mcq-04"
       ],
       "explanation": "本句的「strange」指「自己不認識的人；陌生人」。",
       "sentenceIndex": 9,
@@ -456,12 +380,8 @@ export default {
         "strange"
       ],
       "optionReasons": {
-        "strange-mcq-07": "本句指「自己不認識的人；陌生人」。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。",
-        "strange-mcq-05": "「奇怪、不尋常或陌生的性質／感覺」與本句語境不同。",
-        "strange-mcq-04": "「以不尋常、難以解釋或出乎意料的方式」與本句語境不同。",
-        "strange-mcq-03": "「身體或情緒出現與平常不同、難以準確描述的異樣感」與本句語境不同。",
-        "strange-mcq-02": "「因未曾接觸、不認識或不熟悉而令人感到陌生的」與本句語境不同。"
+        "strange-mcq-07": "本句的「strange」指「自己不認識的人；陌生人」。",
+        "strange-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-07"
     },
@@ -473,11 +393,7 @@ export default {
       "masked": "The child was nervous around ____ adults.",
       "options": [
         "strange-mcq-07",
-        "strange-mcq-06",
-        "strange-mcq-05",
-        "strange-mcq-04",
-        "strange-mcq-03",
-        "strange-mcq-02"
+        "strange-mcq-01"
       ],
       "explanation": "本句的「strange」指「自己不認識的人；陌生人」。",
       "sentenceIndex": 10,
@@ -486,12 +402,8 @@ export default {
         "strange"
       ],
       "optionReasons": {
-        "strange-mcq-07": "本句指「自己不認識的人；陌生人」。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。",
-        "strange-mcq-05": "「奇怪、不尋常或陌生的性質／感覺」與本句語境不同。",
-        "strange-mcq-04": "「以不尋常、難以解釋或出乎意料的方式」與本句語境不同。",
-        "strange-mcq-03": "「身體或情緒出現與平常不同、難以準確描述的異樣感」與本句語境不同。",
-        "strange-mcq-02": "「因未曾接觸、不認識或不熟悉而令人感到陌生的」與本句語境不同。"
+        "strange-mcq-07": "本句的「strange」指「自己不認識的人；陌生人」。",
+        "strange-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-07"
     },
@@ -503,11 +415,7 @@ export default {
       "masked": "He was behaving ____.",
       "options": [
         "strange-mcq-04",
-        "strange-mcq-03",
-        "strange-mcq-05",
-        "strange-mcq-02",
-        "strange-mcq-06",
-        "strange-mcq-01"
+        "strange-mcq-07"
       ],
       "explanation": "本句的「strangely」指「以不尋常、難以解釋或出乎意料的方式」。",
       "sentenceIndex": 11,
@@ -516,12 +424,8 @@ export default {
         "strangely"
       ],
       "optionReasons": {
-        "strange-mcq-04": "本句指「以不尋常、難以解釋或出乎意料的方式」。",
-        "strange-mcq-03": "「身體或情緒出現與平常不同、難以準確描述的異樣感」與本句語境不同。",
-        "strange-mcq-05": "「奇怪、不尋常或陌生的性質／感覺」與本句語境不同。",
-        "strange-mcq-02": "「因未曾接觸、不認識或不熟悉而令人感到陌生的」與本句語境不同。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。",
-        "strange-mcq-01": "「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」與本句語境不同。"
+        "strange-mcq-04": "本句的「strangely」指「以不尋常、難以解釋或出乎意料的方式」。",
+        "strange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-04"
     },
@@ -533,11 +437,7 @@ export default {
       "masked": "____, I felt calmer after the conversation.",
       "options": [
         "strange-mcq-04",
-        "strange-mcq-03",
-        "strange-mcq-05",
-        "strange-mcq-02",
-        "strange-mcq-06",
-        "strange-mcq-01"
+        "strange-mcq-07"
       ],
       "explanation": "本句的「Strangely」指「以不尋常、難以解釋或出乎意料的方式」。",
       "sentenceIndex": 12,
@@ -546,12 +446,8 @@ export default {
         "Strangely"
       ],
       "optionReasons": {
-        "strange-mcq-04": "本句指「以不尋常、難以解釋或出乎意料的方式」。",
-        "strange-mcq-03": "「身體或情緒出現與平常不同、難以準確描述的異樣感」與本句語境不同。",
-        "strange-mcq-05": "「奇怪、不尋常或陌生的性質／感覺」與本句語境不同。",
-        "strange-mcq-02": "「因未曾接觸、不認識或不熟悉而令人感到陌生的」與本句語境不同。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。",
-        "strange-mcq-01": "「與平常、預期或正常情況不同，令人覺得奇怪或難以解釋的」與本句語境不同。"
+        "strange-mcq-04": "本句的「Strangely」指「以不尋常、難以解釋或出乎意料的方式」。",
+        "strange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-04"
     },
@@ -563,11 +459,7 @@ export default {
       "masked": "The ____ of the situation made everyone uncomfortable.",
       "options": [
         "strange-mcq-05",
-        "strange-mcq-04",
-        "strange-mcq-06",
-        "strange-mcq-03",
-        "strange-mcq-07",
-        "strange-mcq-02"
+        "strange-mcq-03"
       ],
       "explanation": "本句的「strangeness」指「奇怪、不尋常或陌生的性質／感覺」。",
       "sentenceIndex": 13,
@@ -576,12 +468,8 @@ export default {
         "strangeness"
       ],
       "optionReasons": {
-        "strange-mcq-05": "本句指「奇怪、不尋常或陌生的性質／感覺」。",
-        "strange-mcq-04": "「以不尋常、難以解釋或出乎意料的方式」與本句語境不同。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。",
-        "strange-mcq-03": "「身體或情緒出現與平常不同、難以準確描述的異樣感」與本句語境不同。",
-        "strange-mcq-07": "「自己不認識的人；陌生人」與本句語境不同。",
-        "strange-mcq-02": "「因未曾接觸、不認識或不熟悉而令人感到陌生的」與本句語境不同。"
+        "strange-mcq-05": "本句的「strangeness」指「奇怪、不尋常或陌生的性質／感覺」。",
+        "strange-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-05"
     },
@@ -593,11 +481,7 @@ export default {
       "masked": "She gradually became used to the ____ of the new environment.",
       "options": [
         "strange-mcq-05",
-        "strange-mcq-04",
-        "strange-mcq-06",
-        "strange-mcq-03",
-        "strange-mcq-07",
-        "strange-mcq-02"
+        "strange-mcq-03"
       ],
       "explanation": "本句的「strangeness」指「奇怪、不尋常或陌生的性質／感覺」。",
       "sentenceIndex": 14,
@@ -606,12 +490,8 @@ export default {
         "strangeness"
       ],
       "optionReasons": {
-        "strange-mcq-05": "本句指「奇怪、不尋常或陌生的性質／感覺」。",
-        "strange-mcq-04": "「以不尋常、難以解釋或出乎意料的方式」與本句語境不同。",
-        "strange-mcq-06": "「更奇怪的」與本句語境不同。",
-        "strange-mcq-03": "「身體或情緒出現與平常不同、難以準確描述的異樣感」與本句語境不同。",
-        "strange-mcq-07": "「自己不認識的人；陌生人」與本句語境不同。",
-        "strange-mcq-02": "「因未曾接觸、不認識或不熟悉而令人感到陌生的」與本句語境不同。"
+        "strange-mcq-05": "本句的「strangeness」指「奇怪、不尋常或陌生的性質／感覺」。",
+        "strange-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strange-mcq-05"
     }
@@ -623,5 +503,7 @@ export default {
     "sha256": "827836af50d0f93f768aab5b3eb9e197336c330ef45d2eadfe269542fc4e2092",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

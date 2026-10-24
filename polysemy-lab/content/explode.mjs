@@ -359,11 +359,9 @@ export default {
       "masked": "The gas tank ____.",
       "options": [
         "explode-mcq-01",
-        "explode-mcq-02",
-        "explode-mcq-03",
+        "explode-pdf-002",
         "explode-mcq-04",
-        "explode-mcq-05",
-        "explode-mcq-06"
+        "explode-mcq-10"
       ],
       "explanation": "本句的「exploded」指「因壓力、熱力或化學反應突然猛烈破裂並釋放能量」。",
       "sentenceIndex": 0,
@@ -372,12 +370,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-01": "本句指「因壓力、熱力或化學反應突然猛烈破裂並釋放能量」。",
-        "explode-mcq-02": "「使某物爆炸／以爆破方式摧毀」與本句語境不同。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。"
+        "explode-mcq-01": "本句的「exploded」指「因壓力、熱力或化學反應突然猛烈破裂並釋放能量」。",
+        "explode-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-01"
     },
@@ -389,11 +385,9 @@ export default {
       "masked": "The device ____ without warning.",
       "options": [
         "explode-mcq-01",
-        "explode-mcq-02",
-        "explode-mcq-03",
         "explode-mcq-04",
-        "explode-mcq-05",
-        "explode-mcq-06"
+        "explode-mcq-10",
+        "explode-mcq-07"
       ],
       "explanation": "本句的「exploded」指「因壓力、熱力或化學反應突然猛烈破裂並釋放能量」。",
       "sentenceIndex": 1,
@@ -402,12 +396,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-01": "本句指「因壓力、熱力或化學反應突然猛烈破裂並釋放能量」。",
-        "explode-mcq-02": "「使某物爆炸／以爆破方式摧毀」與本句語境不同。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。"
+        "explode-mcq-01": "本句的「exploded」指「因壓力、熱力或化學反應突然猛烈破裂並釋放能量」。",
+        "explode-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-01"
     },
@@ -419,11 +411,9 @@ export default {
       "masked": "The bomb was ____ remotely.",
       "options": [
         "explode-mcq-02",
-        "explode-mcq-01",
-        "explode-mcq-03",
-        "explode-mcq-04",
-        "explode-mcq-05",
-        "explode-mcq-06"
+        "explode-pdf-004",
+        "explode-pdf-002",
+        "explode-mcq-07"
       ],
       "explanation": "本句的「exploded」指「使某物爆炸／以爆破方式摧毀」。",
       "sentenceIndex": 2,
@@ -432,12 +422,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-02": "本句指「使某物爆炸／以爆破方式摧毀」。",
-        "explode-mcq-01": "「因壓力、熱力或化學反應突然猛烈破裂並釋放能量」與本句語境不同。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。"
+        "explode-mcq-02": "本句的「exploded」指「使某物爆炸／以爆破方式摧毀」。",
+        "explode-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "explode-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-02"
     },
@@ -449,11 +437,9 @@ export default {
       "masked": "The engineers safely ____ the old structure.",
       "options": [
         "explode-mcq-02",
-        "explode-mcq-01",
-        "explode-mcq-03",
+        "explode-mcq-11",
         "explode-mcq-04",
-        "explode-mcq-05",
-        "explode-mcq-06"
+        "explode-mcq-07"
       ],
       "explanation": "本句的「exploded」指「使某物爆炸／以爆破方式摧毀」。",
       "sentenceIndex": 3,
@@ -462,12 +448,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-02": "本句指「使某物爆炸／以爆破方式摧毀」。",
-        "explode-mcq-01": "「因壓力、熱力或化學反應突然猛烈破裂並釋放能量」與本句語境不同。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。"
+        "explode-mcq-02": "本句的「exploded」指「使某物爆炸／以爆破方式摧毀」。",
+        "explode-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-02"
     },
@@ -479,11 +463,9 @@ export default {
       "masked": "The notifications were ____.",
       "options": [
         "explode-mcq-03",
+        "explode-pdf-003",
         "explode-mcq-02",
-        "explode-mcq-04",
-        "explode-mcq-01",
-        "explode-mcq-05",
-        "explode-mcq-06"
+        "explode-mcq-12"
       ],
       "explanation": "本句的「exploding」指「數量、程度、需求或活動在短時間內急劇增加」。",
       "sentenceIndex": 4,
@@ -492,12 +474,10 @@ export default {
         "exploding"
       ],
       "optionReasons": {
-        "explode-mcq-03": "本句指「數量、程度、需求或活動在短時間內急劇增加」。",
-        "explode-mcq-02": "「使某物爆炸／以爆破方式摧毀」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-01": "「因壓力、熱力或化學反應突然猛烈破裂並釋放能量」與本句語境不同。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。"
+        "explode-mcq-03": "本句的「exploding」指「數量、程度、需求或活動在短時間內急劇增加」。",
+        "explode-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-03"
     },
@@ -509,11 +489,9 @@ export default {
       "masked": "Online interest in the video ____ overnight.",
       "options": [
         "explode-mcq-03",
-        "explode-mcq-02",
-        "explode-mcq-04",
-        "explode-mcq-01",
-        "explode-mcq-05",
-        "explode-mcq-06"
+        "explode-pdf-003",
+        "explode-mcq-10",
+        "explode-mcq-07"
       ],
       "explanation": "本句的「exploded」指「數量、程度、需求或活動在短時間內急劇增加」。",
       "sentenceIndex": 5,
@@ -522,12 +500,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-03": "本句指「數量、程度、需求或活動在短時間內急劇增加」。",
-        "explode-mcq-02": "「使某物爆炸／以爆破方式摧毀」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-01": "「因壓力、熱力或化學反應突然猛烈破裂並釋放能量」與本句語境不同。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。"
+        "explode-mcq-03": "本句的「exploded」指「數量、程度、需求或活動在短時間內急劇增加」。",
+        "explode-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-03"
     },
@@ -539,11 +515,9 @@ export default {
       "masked": "The song ____ on social media.",
       "options": [
         "explode-mcq-04",
-        "explode-mcq-03",
-        "explode-mcq-05",
-        "explode-mcq-02",
-        "explode-mcq-06",
-        "explode-mcq-01"
+        "explode-mcq-10",
+        "explode-pdf-004",
+        "explode-pdf-002"
       ],
       "explanation": "本句的「exploded」指「知名度／人氣在極短時間內大幅上升」。",
       "sentenceIndex": 6,
@@ -552,12 +526,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-04": "本句指「知名度／人氣在極短時間內大幅上升」。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-02": "「使某物爆炸／以爆破方式摧毀」與本句語境不同。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。",
-        "explode-mcq-01": "「因壓力、熱力或化學反應突然猛烈破裂並釋放能量」與本句語境不同。"
+        "explode-mcq-04": "本句的「exploded」指「知名度／人氣在極短時間內大幅上升」。",
+        "explode-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "explode-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "explode-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-04"
     },
@@ -569,11 +541,9 @@ export default {
       "masked": "Her popularity ____ after the interview.",
       "options": [
         "explode-mcq-04",
-        "explode-mcq-03",
-        "explode-mcq-05",
-        "explode-mcq-02",
-        "explode-mcq-06",
-        "explode-mcq-01"
+        "explode-mcq-12",
+        "explode-mcq-01",
+        "explode-pdf-002"
       ],
       "explanation": "本句的「exploded」指「知名度／人氣在極短時間內大幅上升」。",
       "sentenceIndex": 7,
@@ -582,12 +552,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-04": "本句指「知名度／人氣在極短時間內大幅上升」。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-02": "「使某物爆炸／以爆破方式摧毀」與本句語境不同。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。",
-        "explode-mcq-01": "「因壓力、熱力或化學反應突然猛烈破裂並釋放能量」與本句語境不同。"
+        "explode-mcq-04": "本句的「exploded」指「知名度／人氣在極短時間內大幅上升」。",
+        "explode-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "explode-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-04"
     },
@@ -599,11 +567,9 @@ export default {
       "masked": "He ____ when he saw the damage.",
       "options": [
         "explode-mcq-05",
-        "explode-mcq-04",
-        "explode-mcq-06",
         "explode-mcq-03",
         "explode-mcq-07",
-        "explode-mcq-02"
+        "explode-mcq-10"
       ],
       "explanation": "本句的「exploded」指「憤怒等強烈情緒突然爆發」。",
       "sentenceIndex": 8,
@@ -612,12 +578,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-05": "本句指「憤怒等強烈情緒突然爆發」。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。",
-        "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
-        "explode-mcq-02": "「使某物爆炸／以爆破方式摧毀」與本句語境不同。"
+        "explode-mcq-05": "本句的「exploded」指「憤怒等強烈情緒突然爆發」。",
+        "explode-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-05"
     },
@@ -630,8 +594,6 @@ export default {
       "options": [
         "explode-mcq-05",
         "explode-mcq-04",
-        "explode-mcq-06",
-        "explode-mcq-03",
         "explode-mcq-07",
         "explode-mcq-02"
       ],
@@ -642,12 +604,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-05": "本句指「憤怒等強烈情緒突然爆發」。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。",
-        "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
-        "explode-mcq-02": "「使某物爆炸／以爆破方式摧毀」與本句語境不同。"
+        "explode-mcq-05": "本句的「exploded」指「憤怒等強烈情緒突然爆發」。",
+        "explode-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-05"
     },
@@ -659,11 +619,9 @@ export default {
       "masked": "The manager ____ the staff.",
       "options": [
         "explode-mcq-06",
-        "explode-mcq-05",
-        "explode-mcq-07",
-        "explode-mcq-04",
-        "explode-mcq-08",
-        "explode-mcq-03"
+        "explode-pdf-002",
+        "explode-mcq-02",
+        "explode-mcq-07"
       ],
       "explanation": "本句的「exploded at」指「突然對某人大發脾氣」。",
       "sentenceIndex": 10,
@@ -672,12 +630,10 @@ export default {
         "exploded at"
       ],
       "optionReasons": {
-        "explode-mcq-06": "本句指「突然對某人大發脾氣」。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。"
+        "explode-mcq-06": "本句的「exploded at」指「突然對某人大發脾氣」。",
+        "explode-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-06"
     },
@@ -689,11 +645,9 @@ export default {
       "masked": "He ____ at me over a tiny mistake.",
       "options": [
         "explode-mcq-06",
-        "explode-mcq-05",
-        "explode-mcq-07",
-        "explode-mcq-04",
-        "explode-mcq-08",
-        "explode-mcq-03"
+        "explode-pdf-002",
+        "explode-mcq-10",
+        "explode-mcq-07"
       ],
       "explanation": "本句的「exploded」指「突然對某人大發脾氣」。",
       "sentenceIndex": 11,
@@ -702,12 +656,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-06": "本句指「突然對某人大發脾氣」。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。"
+        "explode-mcq-06": "本句的「exploded」指「突然對某人大發脾氣」。",
+        "explode-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-06"
     },
@@ -719,11 +671,9 @@ export default {
       "masked": "The whole class ____.",
       "options": [
         "explode-pdf-001",
-        "explode-mcq-05",
         "explode-mcq-07",
-        "explode-mcq-04",
-        "explode-mcq-08",
-        "explode-mcq-03"
+        "explode-pdf-002",
+        "explode-mcq-04"
       ],
       "explanation": "本句的「exploded with laughter」指「笑聲突然強烈爆發」。",
       "sentenceIndex": 12,
@@ -732,12 +682,10 @@ export default {
         "exploded with laughter"
       ],
       "optionReasons": {
-        "explode-pdf-001": "本句指「笑聲突然強烈爆發」。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。"
+        "explode-pdf-001": "本句的「exploded with laughter」指「笑聲突然強烈爆發」。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explode-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-pdf-001"
     },
@@ -749,11 +697,9 @@ export default {
       "masked": "Everyone ____ into laughter.",
       "options": [
         "explode-pdf-001",
-        "explode-mcq-05",
+        "explode-mcq-03",
         "explode-mcq-07",
-        "explode-mcq-04",
-        "explode-mcq-08",
-        "explode-mcq-03"
+        "explode-mcq-02"
       ],
       "explanation": "本句的「exploded」指「笑聲突然強烈爆發」。",
       "sentenceIndex": 13,
@@ -762,12 +708,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-pdf-001": "本句指「笑聲突然強烈爆發」。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。"
+        "explode-pdf-001": "本句的「exploded」指「笑聲突然強烈爆發」。",
+        "explode-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-pdf-001"
     },
@@ -779,11 +723,9 @@ export default {
       "masked": "The city’s population ____ in the 1990s.",
       "options": [
         "explode-pdf-002",
-        "explode-mcq-05",
-        "explode-mcq-07",
-        "explode-mcq-04",
-        "explode-mcq-08",
-        "explode-mcq-03"
+        "explode-mcq-02",
+        "explode-mcq-01",
+        "explode-mcq-07"
       ],
       "explanation": "本句的「exploded」指「規模、人口、需求等迅速擴張」。",
       "sentenceIndex": 14,
@@ -792,12 +734,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-pdf-002": "本句指「規模、人口、需求等迅速擴張」。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。"
+        "explode-pdf-002": "本句的「exploded」指「規模、人口、需求等迅速擴張」。",
+        "explode-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-pdf-002"
     },
@@ -809,11 +749,9 @@ export default {
       "masked": "Demand for online services ____.",
       "options": [
         "explode-pdf-002",
-        "explode-mcq-05",
-        "explode-mcq-07",
-        "explode-mcq-04",
-        "explode-mcq-08",
-        "explode-mcq-03"
+        "explode-pdf-003",
+        "explode-mcq-02",
+        "explode-mcq-04"
       ],
       "explanation": "本句的「exploded」指「規模、人口、需求等迅速擴張」。",
       "sentenceIndex": 15,
@@ -822,12 +760,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-pdf-002": "本句指「規模、人口、需求等迅速擴張」。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。"
+        "explode-pdf-002": "本句的「exploded」指「規模、人口、需求等迅速擴張」。",
+        "explode-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-pdf-002"
     },
@@ -839,11 +775,9 @@ export default {
       "masked": "The glass bottle ____ in the heat.",
       "options": [
         "explode-pdf-003",
-        "explode-mcq-05",
+        "explode-mcq-10",
         "explode-mcq-07",
-        "explode-mcq-04",
-        "explode-mcq-08",
-        "explode-mcq-03"
+        "explode-mcq-04"
       ],
       "explanation": "本句的「exploded」指「物件突然猛烈破裂」。",
       "sentenceIndex": 16,
@@ -852,12 +786,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-pdf-003": "本句指「物件突然猛烈破裂」。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。"
+        "explode-pdf-003": "本句的「exploded」指「物件突然猛烈破裂」。",
+        "explode-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-pdf-003"
     },
@@ -869,11 +801,9 @@ export default {
       "masked": "The tyre ____ while the car was moving.",
       "options": [
         "explode-pdf-003",
-        "explode-mcq-05",
+        "explode-mcq-13",
         "explode-mcq-07",
-        "explode-mcq-04",
-        "explode-mcq-08",
-        "explode-mcq-03"
+        "explode-mcq-02"
       ],
       "explanation": "本句的「exploded」指「物件突然猛烈破裂」。",
       "sentenceIndex": 17,
@@ -882,12 +812,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-pdf-003": "本句指「物件突然猛烈破裂」。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
-        "explode-mcq-03": "「數量、程度、需求或活動在短時間內急劇增加」與本句語境不同。"
+        "explode-pdf-003": "本句的「exploded」指「物件突然猛烈破裂」。",
+        "explode-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-pdf-003"
     },
@@ -899,11 +827,9 @@ export default {
       "masked": "The study ____ that young people do not read.",
       "options": [
         "explode-mcq-07",
-        "explode-mcq-06",
-        "explode-mcq-08",
-        "explode-mcq-05",
-        "explode-mcq-09",
-        "explode-mcq-04"
+        "explode-mcq-03",
+        "explode-mcq-11",
+        "explode-mcq-02"
       ],
       "explanation": "本句的「exploded the myth」指「用證據推翻某個廣泛相信但錯誤的說法／理論」。",
       "sentenceIndex": 18,
@@ -912,12 +838,10 @@ export default {
         "exploded the myth"
       ],
       "optionReasons": {
-        "explode-mcq-07": "本句指「用證據推翻某個廣泛相信但錯誤的說法／理論」。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-09": "「數量、人口、活動等突然大幅增長」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。"
+        "explode-mcq-07": "本句的「exploded the myth」指「用證據推翻某個廣泛相信但錯誤的說法／理論」。",
+        "explode-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-07"
     },
@@ -929,11 +853,9 @@ export default {
       "masked": "New evidence ____ the old theory.",
       "options": [
         "explode-mcq-07",
+        "explode-mcq-02",
         "explode-mcq-06",
-        "explode-mcq-08",
-        "explode-mcq-05",
-        "explode-mcq-09",
-        "explode-mcq-04"
+        "explode-mcq-13"
       ],
       "explanation": "本句的「exploded」指「用證據推翻某個廣泛相信但錯誤的說法／理論」。",
       "sentenceIndex": 19,
@@ -942,12 +864,10 @@ export default {
         "exploded"
       ],
       "optionReasons": {
-        "explode-mcq-07": "本句指「用證據推翻某個廣泛相信但錯誤的說法／理論」。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。",
-        "explode-mcq-09": "「數量、人口、活動等突然大幅增長」與本句語境不同。",
-        "explode-mcq-04": "「知名度／人氣在極短時間內大幅上升」與本句語境不同。"
+        "explode-mcq-07": "本句的「exploded」指「用證據推翻某個廣泛相信但錯誤的說法／理論」。",
+        "explode-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-07"
     },
@@ -959,11 +879,9 @@ export default {
       "masked": "The ____ damaged several buildings.",
       "options": [
         "explode-mcq-08",
-        "explode-mcq-07",
-        "explode-mcq-09",
-        "explode-mcq-06",
-        "explode-mcq-10",
-        "explode-mcq-05"
+        "explode-pdf-002",
+        "explode-mcq-04",
+        "explode-mcq-07"
       ],
       "explanation": "本句的「explosion」指「突然猛烈釋放能量造成的爆炸事件」。",
       "sentenceIndex": 20,
@@ -972,12 +890,10 @@ export default {
         "explosion"
       ],
       "optionReasons": {
-        "explode-mcq-08": "本句指「突然猛烈釋放能量造成的爆炸事件」。",
-        "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
-        "explode-mcq-09": "「數量、人口、活動等突然大幅增長」與本句語境不同。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。",
-        "explode-mcq-10": "「容易爆炸或能引起爆炸的」與本句語境不同。",
-        "explode-mcq-05": "「憤怒等強烈情緒突然爆發」與本句語境不同。"
+        "explode-mcq-08": "本句的「explosion」指「突然猛烈釋放能量造成的爆炸事件」。",
+        "explode-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-08"
     },
@@ -989,11 +905,9 @@ export default {
       "masked": "There has been an ____ in online content.",
       "options": [
         "explode-mcq-09",
-        "explode-mcq-08",
-        "explode-mcq-10",
+        "explode-mcq-02",
         "explode-mcq-07",
-        "explode-mcq-11",
-        "explode-mcq-06"
+        "explode-mcq-13"
       ],
       "explanation": "本句的「explosion」指「數量、人口、活動等突然大幅增長」。",
       "sentenceIndex": 21,
@@ -1002,12 +916,10 @@ export default {
         "explosion"
       ],
       "optionReasons": {
-        "explode-mcq-09": "本句指「數量、人口、活動等突然大幅增長」。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
-        "explode-mcq-10": "「容易爆炸或能引起爆炸的」與本句語境不同。",
-        "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
-        "explode-mcq-11": "「發展速度極快、變化突然劇烈的」與本句語境不同。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。"
+        "explode-mcq-09": "本句的「explosion」指「數量、人口、活動等突然大幅增長」。",
+        "explode-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-09"
     },
@@ -1019,11 +931,8 @@ export default {
       "masked": "His comment caused an ____.",
       "options": [
         "explode-mcq-09",
-        "explode-mcq-08",
         "explode-mcq-10",
-        "explode-mcq-07",
-        "explode-mcq-11",
-        "explode-mcq-06"
+        "explode-mcq-07"
       ],
       "explanation": "本句的「explosion of anger」指「數量、人口、活動等突然大幅增長」。",
       "sentenceIndex": 22,
@@ -1032,12 +941,9 @@ export default {
         "explosion of anger"
       ],
       "optionReasons": {
-        "explode-mcq-09": "本句指「數量、人口、活動等突然大幅增長」。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
-        "explode-mcq-10": "「容易爆炸或能引起爆炸的」與本句語境不同。",
-        "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。",
-        "explode-mcq-11": "「發展速度極快、變化突然劇烈的」與本句語境不同。",
-        "explode-mcq-06": "「突然對某人大發脾氣」與本句語境不同。"
+        "explode-mcq-09": "本句的「explosion of anger」指「數量、人口、活動等突然大幅增長」。",
+        "explode-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-09"
     },
@@ -1049,10 +955,8 @@ export default {
       "masked": "The material is highly ____.",
       "options": [
         "explode-mcq-10",
-        "explode-mcq-09",
+        "explode-mcq-04",
         "explode-mcq-11",
-        "explode-mcq-08",
-        "explode-mcq-12",
         "explode-mcq-07"
       ],
       "explanation": "本句的「explosive」指「容易爆炸或能引起爆炸的」。",
@@ -1062,12 +966,10 @@ export default {
         "explosive"
       ],
       "optionReasons": {
-        "explode-mcq-10": "本句指「容易爆炸或能引起爆炸的」。",
-        "explode-mcq-09": "「數量、人口、活動等突然大幅增長」與本句語境不同。",
-        "explode-mcq-11": "「發展速度極快、變化突然劇烈的」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。",
-        "explode-mcq-12": "「很容易引發激烈爭論、衝突或情緒爆發的」與本句語境不同。",
-        "explode-mcq-07": "「用證據推翻某個廣泛相信但錯誤的說法／理論」與本句語境不同。"
+        "explode-mcq-10": "本句的「explosive」指「容易爆炸或能引起爆炸的」。",
+        "explode-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-10"
     },
@@ -1079,11 +981,9 @@ export default {
       "masked": "The company experienced ____.",
       "options": [
         "explode-mcq-11",
-        "explode-mcq-10",
-        "explode-mcq-12",
-        "explode-mcq-09",
-        "explode-mcq-13",
-        "explode-mcq-08"
+        "explode-mcq-02",
+        "explode-mcq-07",
+        "explode-mcq-04"
       ],
       "explanation": "本句的「explosive growth」指「發展速度極快、變化突然劇烈的」。",
       "sentenceIndex": 24,
@@ -1092,12 +992,10 @@ export default {
         "explosive growth"
       ],
       "optionReasons": {
-        "explode-mcq-11": "本句指「發展速度極快、變化突然劇烈的」。",
-        "explode-mcq-10": "「容易爆炸或能引起爆炸的」與本句語境不同。",
-        "explode-mcq-12": "「很容易引發激烈爭論、衝突或情緒爆發的」與本句語境不同。",
-        "explode-mcq-09": "「數量、人口、活動等突然大幅增長」與本句語境不同。",
-        "explode-mcq-13": "「能在極短時間內產生大量力量／速度的」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。"
+        "explode-mcq-11": "本句的「explosive growth」指「發展速度極快、變化突然劇烈的」。",
+        "explode-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-11"
     },
@@ -1109,11 +1007,9 @@ export default {
       "masked": "It is an ____.",
       "options": [
         "explode-mcq-12",
-        "explode-mcq-11",
         "explode-mcq-13",
-        "explode-mcq-10",
         "explode-mcq-09",
-        "explode-mcq-08"
+        "explode-mcq-02"
       ],
       "explanation": "本句的「explosive political issue」指「很容易引發激烈爭論、衝突或情緒爆發的」。",
       "sentenceIndex": 25,
@@ -1122,12 +1018,10 @@ export default {
         "explosive political issue"
       ],
       "optionReasons": {
-        "explode-mcq-12": "本句指「很容易引發激烈爭論、衝突或情緒爆發的」。",
-        "explode-mcq-11": "「發展速度極快、變化突然劇烈的」與本句語境不同。",
-        "explode-mcq-13": "「能在極短時間內產生大量力量／速度的」與本句語境不同。",
-        "explode-mcq-10": "「容易爆炸或能引起爆炸的」與本句語境不同。",
-        "explode-mcq-09": "「數量、人口、活動等突然大幅增長」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。"
+        "explode-mcq-12": "本句的「explosive political issue」指「很容易引發激烈爭論、衝突或情緒爆發的」。",
+        "explode-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-12"
     },
@@ -1139,11 +1033,9 @@ export default {
       "masked": "She has ____.",
       "options": [
         "explode-mcq-13",
-        "explode-mcq-12",
-        "explode-mcq-11",
-        "explode-mcq-10",
-        "explode-mcq-09",
-        "explode-mcq-08"
+        "explode-mcq-07",
+        "explode-mcq-02",
+        "explode-pdf-003"
       ],
       "explanation": "本句的「explosive speed」指「能在極短時間內產生大量力量／速度的」。",
       "sentenceIndex": 26,
@@ -1152,12 +1044,10 @@ export default {
         "explosive speed"
       ],
       "optionReasons": {
-        "explode-mcq-13": "本句指「能在極短時間內產生大量力量／速度的」。",
-        "explode-mcq-12": "「很容易引發激烈爭論、衝突或情緒爆發的」與本句語境不同。",
-        "explode-mcq-11": "「發展速度極快、變化突然劇烈的」與本句語境不同。",
-        "explode-mcq-10": "「容易爆炸或能引起爆炸的」與本句語境不同。",
-        "explode-mcq-09": "「數量、人口、活動等突然大幅增長」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。"
+        "explode-mcq-13": "本句的「explosive speed」指「能在極短時間內產生大量力量／速度的」。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "explode-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-mcq-13"
     },
@@ -1169,11 +1059,9 @@ export default {
       "masked": "Sales grew ____.",
       "options": [
         "explode-pdf-004",
-        "explode-mcq-12",
-        "explode-mcq-11",
-        "explode-mcq-10",
-        "explode-mcq-09",
-        "explode-mcq-08"
+        "explode-mcq-02",
+        "explode-pdf-002",
+        "explode-mcq-07"
       ],
       "explanation": "本句的「explosively」指「以突然、強烈、急劇的方式」。",
       "sentenceIndex": 27,
@@ -1182,12 +1070,10 @@ export default {
         "explosively"
       ],
       "optionReasons": {
-        "explode-pdf-004": "本句指「以突然、強烈、急劇的方式」。",
-        "explode-mcq-12": "「很容易引發激烈爭論、衝突或情緒爆發的」與本句語境不同。",
-        "explode-mcq-11": "「發展速度極快、變化突然劇烈的」與本句語境不同。",
-        "explode-mcq-10": "「容易爆炸或能引起爆炸的」與本句語境不同。",
-        "explode-mcq-09": "「數量、人口、活動等突然大幅增長」與本句語境不同。",
-        "explode-mcq-08": "「突然猛烈釋放能量造成的爆炸事件」與本句語境不同。"
+        "explode-pdf-004": "本句的「explosively」指「以突然、強烈、急劇的方式」。",
+        "explode-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "explode-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "explode-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "explode-pdf-004"
     }
@@ -1199,5 +1085,7 @@ export default {
     "sha256": "e2261e1fa2d327893cac2859cd997713a34bcace72e2757442d2dab651bed805",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

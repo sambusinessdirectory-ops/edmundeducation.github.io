@@ -369,11 +369,7 @@ export default {
       "masked": "They took out a ____ to buy their first home.",
       "options": [
         "mortgage-mcq-01",
-        "mortgage-mcq-02",
-        "mortgage-mcq-03",
-        "mortgage-mcq-04",
-        "mortgage-mcq-05",
-        "mortgage-mcq-06"
+        "mortgage-mcq-08"
       ],
       "explanation": "本句的「mortgage」指「以土地／物業作擔保而取得、通常用於購置物業的貸款」。",
       "sentenceIndex": 0,
@@ -382,12 +378,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-01": "本句指「以土地／物業作擔保而取得、通常用於購置物業的貸款」。",
-        "mortgage-mcq-02": "「為保障債務償還而在物業上設定的抵押擔保安排」與本句語境不同。",
-        "mortgage-mcq-03": "「把物業作為債務擔保以取得貸款」與本句語境不同。",
-        "mortgage-mcq-04": "「借款人定期支付的按揭供款」與本句語境不同。",
-        "mortgage-mcq-05": "「尚未償還的按揭貸款金額」與本句語境不同。",
-        "mortgage-mcq-06": "「按揭須在其中償還的約定期間」與本句語境不同。"
+        "mortgage-mcq-01": "本句的「mortgage」指「以土地／物業作擔保而取得、通常用於購置物業的貸款」。",
+        "mortgage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-01"
     },
@@ -399,10 +391,6 @@ export default {
       "masked": "It may take decades to repay a ____.",
       "options": [
         "mortgage-mcq-01",
-        "mortgage-mcq-02",
-        "mortgage-mcq-03",
-        "mortgage-mcq-04",
-        "mortgage-mcq-05",
         "mortgage-mcq-06"
       ],
       "explanation": "本句的「mortgage」指「以土地／物業作擔保而取得、通常用於購置物業的貸款」。",
@@ -412,12 +400,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-01": "本句指「以土地／物業作擔保而取得、通常用於購置物業的貸款」。",
-        "mortgage-mcq-02": "「為保障債務償還而在物業上設定的抵押擔保安排」與本句語境不同。",
-        "mortgage-mcq-03": "「把物業作為債務擔保以取得貸款」與本句語境不同。",
-        "mortgage-mcq-04": "「借款人定期支付的按揭供款」與本句語境不同。",
-        "mortgage-mcq-05": "「尚未償還的按揭貸款金額」與本句語境不同。",
-        "mortgage-mcq-06": "「按揭須在其中償還的約定期間」與本句語境不同。"
+        "mortgage-mcq-01": "本句的「mortgage」指「以土地／物業作擔保而取得、通常用於購置物業的貸款」。",
+        "mortgage-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-01"
     },
@@ -429,11 +413,7 @@ export default {
       "masked": "Their monthly ____ is high.",
       "options": [
         "mortgage-mcq-04",
-        "mortgage-mcq-03",
-        "mortgage-mcq-05",
-        "mortgage-mcq-02",
-        "mortgage-mcq-06",
-        "mortgage-mcq-01"
+        "mortgage-mcq-18"
       ],
       "explanation": "本句的「mortgage payment」指「借款人定期支付的按揭供款」。",
       "sentenceIndex": 10,
@@ -442,12 +422,8 @@ export default {
         "mortgage payment"
       ],
       "optionReasons": {
-        "mortgage-mcq-04": "本句指「借款人定期支付的按揭供款」。",
-        "mortgage-mcq-03": "「把物業作為債務擔保以取得貸款」與本句語境不同。",
-        "mortgage-mcq-05": "「尚未償還的按揭貸款金額」與本句語境不同。",
-        "mortgage-mcq-02": "「為保障債務償還而在物業上設定的抵押擔保安排」與本句語境不同。",
-        "mortgage-mcq-06": "「按揭須在其中償還的約定期間」與本句語境不同。",
-        "mortgage-mcq-01": "「以土地／物業作擔保而取得、通常用於購置物業的貸款」與本句語境不同。"
+        "mortgage-mcq-04": "本句的「mortgage payment」指「借款人定期支付的按揭供款」。",
+        "mortgage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-04"
     },
@@ -459,11 +435,7 @@ export default {
       "masked": "Higher interest rates can increase ____ payments.",
       "options": [
         "mortgage-mcq-04",
-        "mortgage-mcq-03",
-        "mortgage-mcq-05",
-        "mortgage-mcq-02",
-        "mortgage-mcq-06",
-        "mortgage-mcq-01"
+        "mortgage-mcq-18"
       ],
       "explanation": "本句的「mortgage」指「借款人定期支付的按揭供款」。",
       "sentenceIndex": 11,
@@ -472,12 +444,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-04": "本句指「借款人定期支付的按揭供款」。",
-        "mortgage-mcq-03": "「把物業作為債務擔保以取得貸款」與本句語境不同。",
-        "mortgage-mcq-05": "「尚未償還的按揭貸款金額」與本句語境不同。",
-        "mortgage-mcq-02": "「為保障債務償還而在物業上設定的抵押擔保安排」與本句語境不同。",
-        "mortgage-mcq-06": "「按揭須在其中償還的約定期間」與本句語境不同。",
-        "mortgage-mcq-01": "「以土地／物業作擔保而取得、通常用於購置物業的貸款」與本句語境不同。"
+        "mortgage-mcq-04": "本句的「mortgage」指「借款人定期支付的按揭供款」。",
+        "mortgage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-04"
     },
@@ -489,11 +457,7 @@ export default {
       "masked": "The outstanding ____ balance is still substantial.",
       "options": [
         "mortgage-mcq-05",
-        "mortgage-mcq-04",
-        "mortgage-mcq-06",
-        "mortgage-mcq-03",
-        "mortgage-mcq-07",
-        "mortgage-mcq-02"
+        "mortgage-mcq-18"
       ],
       "explanation": "本句的「mortgage」指「尚未償還的按揭貸款金額」。",
       "sentenceIndex": 18,
@@ -502,12 +466,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-05": "本句指「尚未償還的按揭貸款金額」。",
-        "mortgage-mcq-04": "「借款人定期支付的按揭供款」與本句語境不同。",
-        "mortgage-mcq-06": "「按揭須在其中償還的約定期間」與本句語境不同。",
-        "mortgage-mcq-03": "「把物業作為債務擔保以取得貸款」與本句語境不同。",
-        "mortgage-mcq-07": "「按揭貸款所適用的利率」與本句語境不同。",
-        "mortgage-mcq-02": "「為保障債務償還而在物業上設定的抵押擔保安排」與本句語境不同。"
+        "mortgage-mcq-05": "本句的「mortgage」指「尚未償還的按揭貸款金額」。",
+        "mortgage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-05"
     },
@@ -519,11 +479,7 @@ export default {
       "masked": "Each repayment reduces the ____ balance.",
       "options": [
         "mortgage-mcq-05",
-        "mortgage-mcq-04",
-        "mortgage-mcq-06",
-        "mortgage-mcq-03",
-        "mortgage-mcq-07",
-        "mortgage-mcq-02"
+        "mortgage-mcq-16"
       ],
       "explanation": "本句的「mortgage」指「尚未償還的按揭貸款金額」。",
       "sentenceIndex": 19,
@@ -532,12 +488,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-05": "本句指「尚未償還的按揭貸款金額」。",
-        "mortgage-mcq-04": "「借款人定期支付的按揭供款」與本句語境不同。",
-        "mortgage-mcq-06": "「按揭須在其中償還的約定期間」與本句語境不同。",
-        "mortgage-mcq-03": "「把物業作為債務擔保以取得貸款」與本句語境不同。",
-        "mortgage-mcq-07": "「按揭貸款所適用的利率」與本句語境不同。",
-        "mortgage-mcq-02": "「為保障債務償還而在物業上設定的抵押擔保安排」與本句語境不同。"
+        "mortgage-mcq-05": "本句的「mortgage」指「尚未償還的按揭貸款金額」。",
+        "mortgage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-05"
     },
@@ -549,11 +501,7 @@ export default {
       "masked": "They chose a thirty-year ____ term.",
       "options": [
         "mortgage-mcq-06",
-        "mortgage-mcq-05",
-        "mortgage-mcq-07",
-        "mortgage-mcq-04",
-        "mortgage-mcq-08",
-        "mortgage-mcq-03"
+        "mortgage-mcq-16"
       ],
       "explanation": "本句的「mortgage」指「按揭須在其中償還的約定期間」。",
       "sentenceIndex": 24,
@@ -562,12 +510,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-06": "本句指「按揭須在其中償還的約定期間」。",
-        "mortgage-mcq-05": "「尚未償還的按揭貸款金額」與本句語境不同。",
-        "mortgage-mcq-07": "「按揭貸款所適用的利率」與本句語境不同。",
-        "mortgage-mcq-04": "「借款人定期支付的按揭供款」與本句語境不同。",
-        "mortgage-mcq-08": "「利率在指定期間固定不變的按揭」與本句語境不同。",
-        "mortgage-mcq-03": "「把物業作為債務擔保以取得貸款」與本句語境不同。"
+        "mortgage-mcq-06": "本句的「mortgage」指「按揭須在其中償還的約定期間」。",
+        "mortgage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-06"
     },
@@ -579,11 +523,7 @@ export default {
       "masked": "A longer ____ term can reduce monthly payments.",
       "options": [
         "mortgage-mcq-06",
-        "mortgage-mcq-05",
-        "mortgage-mcq-07",
-        "mortgage-mcq-04",
-        "mortgage-mcq-08",
-        "mortgage-mcq-03"
+        "mortgage-mcq-01"
       ],
       "explanation": "本句的「mortgage」指「按揭須在其中償還的約定期間」。",
       "sentenceIndex": 25,
@@ -592,12 +532,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-06": "本句指「按揭須在其中償還的約定期間」。",
-        "mortgage-mcq-05": "「尚未償還的按揭貸款金額」與本句語境不同。",
-        "mortgage-mcq-07": "「按揭貸款所適用的利率」與本句語境不同。",
-        "mortgage-mcq-04": "「借款人定期支付的按揭供款」與本句語境不同。",
-        "mortgage-mcq-08": "「利率在指定期間固定不變的按揭」與本句語境不同。",
-        "mortgage-mcq-03": "「把物業作為債務擔保以取得貸款」與本句語境不同。"
+        "mortgage-mcq-06": "本句的「mortgage」指「按揭須在其中償還的約定期間」。",
+        "mortgage-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-06"
     },
@@ -609,11 +545,7 @@ export default {
       "masked": "____ rates have a major effect on affordability.",
       "options": [
         "mortgage-mcq-07",
-        "mortgage-mcq-06",
-        "mortgage-mcq-08",
-        "mortgage-mcq-05",
-        "mortgage-mcq-09",
-        "mortgage-mcq-04"
+        "mortgage-mcq-16"
       ],
       "explanation": "本句的「Mortgage」指「按揭貸款所適用的利率」。",
       "sentenceIndex": 26,
@@ -622,12 +554,8 @@ export default {
         "Mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-07": "本句指「按揭貸款所適用的利率」。",
-        "mortgage-mcq-06": "「按揭須在其中償還的約定期間」與本句語境不同。",
-        "mortgage-mcq-08": "「利率在指定期間固定不變的按揭」與本句語境不同。",
-        "mortgage-mcq-05": "「尚未償還的按揭貸款金額」與本句語境不同。",
-        "mortgage-mcq-09": "「利率可以隨基準／條款變化的按揭」與本句語境不同。",
-        "mortgage-mcq-04": "「借款人定期支付的按揭供款」與本句語境不同。"
+        "mortgage-mcq-07": "本句的「Mortgage」指「按揭貸款所適用的利率」。",
+        "mortgage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-07"
     },
@@ -639,11 +567,7 @@ export default {
       "masked": "The borrower compared ____ rates from several lenders.",
       "options": [
         "mortgage-mcq-07",
-        "mortgage-mcq-06",
-        "mortgage-mcq-08",
-        "mortgage-mcq-05",
-        "mortgage-mcq-09",
-        "mortgage-mcq-04"
+        "mortgage-mcq-18"
       ],
       "explanation": "本句的「mortgage」指「按揭貸款所適用的利率」。",
       "sentenceIndex": 27,
@@ -652,12 +576,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-07": "本句指「按揭貸款所適用的利率」。",
-        "mortgage-mcq-06": "「按揭須在其中償還的約定期間」與本句語境不同。",
-        "mortgage-mcq-08": "「利率在指定期間固定不變的按揭」與本句語境不同。",
-        "mortgage-mcq-05": "「尚未償還的按揭貸款金額」與本句語境不同。",
-        "mortgage-mcq-09": "「利率可以隨基準／條款變化的按揭」與本句語境不同。",
-        "mortgage-mcq-04": "「借款人定期支付的按揭供款」與本句語境不同。"
+        "mortgage-mcq-07": "本句的「mortgage」指「按揭貸款所適用的利率」。",
+        "mortgage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-07"
     },
@@ -669,11 +589,7 @@ export default {
       "masked": "They chose a fixed-rate ____.",
       "options": [
         "mortgage-mcq-08",
-        "mortgage-mcq-07",
-        "mortgage-mcq-09",
-        "mortgage-mcq-06",
-        "mortgage-mcq-10",
-        "mortgage-mcq-05"
+        "mortgage-mcq-01"
       ],
       "explanation": "本句的「mortgage」指「利率在指定期間固定不變的按揭」。",
       "sentenceIndex": 30,
@@ -682,12 +598,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-08": "本句指「利率在指定期間固定不變的按揭」。",
-        "mortgage-mcq-07": "「按揭貸款所適用的利率」與本句語境不同。",
-        "mortgage-mcq-09": "「利率可以隨基準／條款變化的按揭」與本句語境不同。",
-        "mortgage-mcq-06": "「按揭須在其中償還的約定期間」與本句語境不同。",
-        "mortgage-mcq-10": "「家庭是否有能力持續承擔按揭供款的程度」與本句語境不同。",
-        "mortgage-mcq-05": "「尚未償還的按揭貸款金額」與本句語境不同。"
+        "mortgage-mcq-08": "本句的「mortgage」指「利率在指定期間固定不變的按揭」。",
+        "mortgage-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-08"
     },
@@ -699,11 +611,7 @@ export default {
       "masked": "Payments on a variable-rate ____ can change.",
       "options": [
         "mortgage-mcq-09",
-        "mortgage-mcq-08",
-        "mortgage-mcq-10",
-        "mortgage-mcq-07",
-        "mortgage-mcq-11",
-        "mortgage-mcq-06"
+        "mortgage-mcq-16"
       ],
       "explanation": "本句的「mortgage」指「利率可以隨基準／條款變化的按揭」。",
       "sentenceIndex": 31,
@@ -712,12 +620,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-09": "本句指「利率可以隨基準／條款變化的按揭」。",
-        "mortgage-mcq-08": "「利率在指定期間固定不變的按揭」與本句語境不同。",
-        "mortgage-mcq-10": "「家庭是否有能力持續承擔按揭供款的程度」與本句語境不同。",
-        "mortgage-mcq-07": "「按揭貸款所適用的利率」與本句語境不同。",
-        "mortgage-mcq-11": "「已到期但尚未支付的按揭供款」與本句語境不同。",
-        "mortgage-mcq-06": "「按揭須在其中償還的約定期間」與本句語境不同。"
+        "mortgage-mcq-09": "本句的「mortgage」指「利率可以隨基準／條款變化的按揭」。",
+        "mortgage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-09"
     },
@@ -729,11 +633,7 @@ export default {
       "masked": "Higher rates reduce ____ affordability.",
       "options": [
         "mortgage-mcq-10",
-        "mortgage-mcq-09",
-        "mortgage-mcq-11",
-        "mortgage-mcq-08",
-        "mortgage-mcq-12",
-        "mortgage-mcq-07"
+        "mortgage-mcq-18"
       ],
       "explanation": "本句的「mortgage」指「家庭是否有能力持續承擔按揭供款的程度」。",
       "sentenceIndex": 39,
@@ -742,12 +642,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-10": "本句指「家庭是否有能力持續承擔按揭供款的程度」。",
-        "mortgage-mcq-09": "「利率可以隨基準／條款變化的按揭」與本句語境不同。",
-        "mortgage-mcq-11": "「已到期但尚未支付的按揭供款」與本句語境不同。",
-        "mortgage-mcq-08": "「利率在指定期間固定不變的按揭」與本句語境不同。",
-        "mortgage-mcq-12": "「借款人沒有履行按揭還款等重要義務」與本句語境不同。",
-        "mortgage-mcq-07": "「按揭貸款所適用的利率」與本句語境不同。"
+        "mortgage-mcq-10": "本句的「mortgage」指「家庭是否有能力持續承擔按揭供款的程度」。",
+        "mortgage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-10"
     },
@@ -759,11 +655,7 @@ export default {
       "masked": "The bank assessed the couple’s ____ affordability.",
       "options": [
         "mortgage-mcq-10",
-        "mortgage-mcq-09",
-        "mortgage-mcq-11",
-        "mortgage-mcq-08",
-        "mortgage-mcq-12",
-        "mortgage-mcq-07"
+        "mortgage-mcq-18"
       ],
       "explanation": "本句的「mortgage」指「家庭是否有能力持續承擔按揭供款的程度」。",
       "sentenceIndex": 40,
@@ -772,12 +664,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-10": "本句指「家庭是否有能力持續承擔按揭供款的程度」。",
-        "mortgage-mcq-09": "「利率可以隨基準／條款變化的按揭」與本句語境不同。",
-        "mortgage-mcq-11": "「已到期但尚未支付的按揭供款」與本句語境不同。",
-        "mortgage-mcq-08": "「利率在指定期間固定不變的按揭」與本句語境不同。",
-        "mortgage-mcq-12": "「借款人沒有履行按揭還款等重要義務」與本句語境不同。",
-        "mortgage-mcq-07": "「按揭貸款所適用的利率」與本句語境不同。"
+        "mortgage-mcq-10": "本句的「mortgage」指「家庭是否有能力持續承擔按揭供款的程度」。",
+        "mortgage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-10"
     },
@@ -789,11 +677,7 @@ export default {
       "masked": "The borrower fell into ____ arrears.",
       "options": [
         "mortgage-mcq-11",
-        "mortgage-mcq-10",
-        "mortgage-mcq-12",
-        "mortgage-mcq-09",
-        "mortgage-mcq-13",
-        "mortgage-mcq-08"
+        "mortgage-mcq-16"
       ],
       "explanation": "本句的「mortgage」指「已到期但尚未支付的按揭供款」。",
       "sentenceIndex": 43,
@@ -802,12 +686,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-11": "本句指「已到期但尚未支付的按揭供款」。",
-        "mortgage-mcq-10": "「家庭是否有能力持續承擔按揭供款的程度」與本句語境不同。",
-        "mortgage-mcq-12": "「借款人沒有履行按揭還款等重要義務」與本句語境不同。",
-        "mortgage-mcq-09": "「利率可以隨基準／條款變化的按揭」與本句語境不同。",
-        "mortgage-mcq-13": "「以新的融資安排取代／重新安排原有按揭」與本句語境不同。",
-        "mortgage-mcq-08": "「利率在指定期間固定不變的按揭」與本句語境不同。"
+        "mortgage-mcq-11": "本句的「mortgage」指「已到期但尚未支付的按揭供款」。",
+        "mortgage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-11"
     },
@@ -819,11 +699,7 @@ export default {
       "masked": "Failure to make required payments may lead to ____ default.",
       "options": [
         "mortgage-mcq-12",
-        "mortgage-mcq-11",
-        "mortgage-mcq-13",
-        "mortgage-mcq-10",
-        "mortgage-mcq-14",
-        "mortgage-mcq-09"
+        "mortgage-mcq-18"
       ],
       "explanation": "本句的「mortgage」指「借款人沒有履行按揭還款等重要義務」。",
       "sentenceIndex": 44,
@@ -832,12 +708,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-12": "本句指「借款人沒有履行按揭還款等重要義務」。",
-        "mortgage-mcq-11": "「已到期但尚未支付的按揭供款」與本句語境不同。",
-        "mortgage-mcq-13": "「以新的融資安排取代／重新安排原有按揭」與本句語境不同。",
-        "mortgage-mcq-10": "「家庭是否有能力持續承擔按揭供款的程度」與本句語境不同。",
-        "mortgage-mcq-14": "「讓合資格業主利用物業淨值取得資金的一類按揭產品」與本句語境不同。",
-        "mortgage-mcq-09": "「利率可以隨基準／條款變化的按揭」與本句語境不同。"
+        "mortgage-mcq-12": "本句的「mortgage」指「借款人沒有履行按揭還款等重要義務」。",
+        "mortgage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-12"
     },
@@ -849,11 +721,7 @@ export default {
       "masked": "A reverse ____ allows eligible homeowners to access part of their home equity.",
       "options": [
         "mortgage-mcq-14",
-        "mortgage-mcq-13",
-        "mortgage-mcq-15",
-        "mortgage-mcq-12",
-        "mortgage-mcq-16",
-        "mortgage-mcq-11"
+        "contrast-duration"
       ],
       "explanation": "本句的「mortgage」指「讓合資格業主利用物業淨值取得資金的一類按揭產品」。",
       "sentenceIndex": 51,
@@ -862,12 +730,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-14": "本句指「讓合資格業主利用物業淨值取得資金的一類按揭產品」。",
-        "mortgage-mcq-13": "「以新的融資安排取代／重新安排原有按揭」與本句語境不同。",
-        "mortgage-mcq-15": "「接受抵押擔保的一方，通常是貸款人」與本句語境不同。",
-        "mortgage-mcq-12": "「借款人沒有履行按揭還款等重要義務」與本句語境不同。",
-        "mortgage-mcq-16": "「提供物業作抵押擔保的一方，通常是借款人／業主」與本句語境不同。",
-        "mortgage-mcq-11": "「已到期但尚未支付的按揭供款」與本句語境不同。"
+        "mortgage-mcq-14": "本句的「mortgage」指「讓合資格業主利用物業淨值取得資金的一類按揭產品」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-14"
     },
@@ -879,11 +743,7 @@ export default {
       "masked": "The loan structure differs from an ordinary home ____.",
       "options": [
         "mortgage-mcq-14",
-        "mortgage-mcq-13",
-        "mortgage-mcq-15",
-        "mortgage-mcq-12",
-        "mortgage-mcq-16",
-        "mortgage-mcq-11"
+        "contrast-duration"
       ],
       "explanation": "本句的「mortgage」指「讓合資格業主利用物業淨值取得資金的一類按揭產品」。",
       "sentenceIndex": 52,
@@ -892,12 +752,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-14": "本句指「讓合資格業主利用物業淨值取得資金的一類按揭產品」。",
-        "mortgage-mcq-13": "「以新的融資安排取代／重新安排原有按揭」與本句語境不同。",
-        "mortgage-mcq-15": "「接受抵押擔保的一方，通常是貸款人」與本句語境不同。",
-        "mortgage-mcq-12": "「借款人沒有履行按揭還款等重要義務」與本句語境不同。",
-        "mortgage-mcq-16": "「提供物業作抵押擔保的一方，通常是借款人／業主」與本句語境不同。",
-        "mortgage-mcq-11": "「已到期但尚未支付的按揭供款」與本句語境不同。"
+        "mortgage-mcq-14": "本句的「mortgage」指「讓合資格業主利用物業淨值取得資金的一類按揭產品」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-14"
     },
@@ -909,11 +765,7 @@ export default {
       "masked": "____ securities are linked to pools of mortgage loans.",
       "options": [
         "mortgage-mcq-17",
-        "mortgage-mcq-16",
-        "mortgage-mcq-18",
-        "mortgage-mcq-15",
-        "mortgage-mcq-19",
-        "mortgage-mcq-14"
+        "mortgage-mcq-18"
       ],
       "explanation": "本句的「Mortgage-backed」指「以一組按揭貸款相關現金流為基礎的金融證券」。",
       "sentenceIndex": 59,
@@ -922,12 +774,8 @@ export default {
         "Mortgage-backed"
       ],
       "optionReasons": {
-        "mortgage-mcq-17": "本句指「以一組按揭貸款相關現金流為基礎的金融證券」。",
-        "mortgage-mcq-16": "「提供物業作抵押擔保的一方，通常是借款人／業主」與本句語境不同。",
-        "mortgage-mcq-18": "「為取得眼前利益而犧牲／預支未來的資源、自由或機會」與本句語境不同。",
-        "mortgage-mcq-15": "「接受抵押擔保的一方，通常是貸款人」與本句語境不同。",
-        "mortgage-mcq-19": "「針對指定按揭違約風險提供的保險安排」與本句語境不同。",
-        "mortgage-mcq-14": "「讓合資格業主利用物業淨值取得資金的一類按揭產品」與本句語境不同。"
+        "mortgage-mcq-17": "本句的「Mortgage-backed」指「以一組按揭貸款相關現金流為基礎的金融證券」。",
+        "mortgage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-17"
     },
@@ -939,11 +787,7 @@ export default {
       "masked": "Investors buy and sell ____ securities.",
       "options": [
         "mortgage-mcq-17",
-        "mortgage-mcq-16",
-        "mortgage-mcq-18",
-        "mortgage-mcq-15",
-        "mortgage-mcq-19",
-        "mortgage-mcq-14"
+        "mortgage-mcq-18"
       ],
       "explanation": "本句的「mortgage-backed」指「以一組按揭貸款相關現金流為基礎的金融證券」。",
       "sentenceIndex": 60,
@@ -952,12 +796,8 @@ export default {
         "mortgage-backed"
       ],
       "optionReasons": {
-        "mortgage-mcq-17": "本句指「以一組按揭貸款相關現金流為基礎的金融證券」。",
-        "mortgage-mcq-16": "「提供物業作抵押擔保的一方，通常是借款人／業主」與本句語境不同。",
-        "mortgage-mcq-18": "「為取得眼前利益而犧牲／預支未來的資源、自由或機會」與本句語境不同。",
-        "mortgage-mcq-15": "「接受抵押擔保的一方，通常是貸款人」與本句語境不同。",
-        "mortgage-mcq-19": "「針對指定按揭違約風險提供的保險安排」與本句語境不同。",
-        "mortgage-mcq-14": "「讓合資格業主利用物業淨值取得資金的一類按揭產品」與本句語境不同。"
+        "mortgage-mcq-17": "本句的「mortgage-backed」指「以一組按揭貸款相關現金流為基礎的金融證券」。",
+        "mortgage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-17"
     },
@@ -969,11 +809,7 @@ export default {
       "masked": "Borrowing excessively can ____.",
       "options": [
         "mortgage-mcq-18",
-        "mortgage-mcq-17",
-        "mortgage-mcq-19",
-        "mortgage-mcq-16",
-        "mortgage-mcq-15",
-        "mortgage-mcq-14"
+        "mortgage-mcq-06"
       ],
       "explanation": "本句的「mortgage the future」指「為取得眼前利益而犧牲／預支未來的資源、自由或機會」。",
       "sentenceIndex": 67,
@@ -982,12 +818,8 @@ export default {
         "mortgage the future"
       ],
       "optionReasons": {
-        "mortgage-mcq-18": "本句指「為取得眼前利益而犧牲／預支未來的資源、自由或機會」。",
-        "mortgage-mcq-17": "「以一組按揭貸款相關現金流為基礎的金融證券」與本句語境不同。",
-        "mortgage-mcq-19": "「針對指定按揭違約風險提供的保險安排」與本句語境不同。",
-        "mortgage-mcq-16": "「提供物業作抵押擔保的一方，通常是借款人／業主」與本句語境不同。",
-        "mortgage-mcq-15": "「接受抵押擔保的一方，通常是貸款人」與本句語境不同。",
-        "mortgage-mcq-14": "「讓合資格業主利用物業淨值取得資金的一類按揭產品」與本句語境不同。"
+        "mortgage-mcq-18": "本句的「mortgage the future」指「為取得眼前利益而犧牲／預支未來的資源、自由或機會」。",
+        "mortgage-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-18"
     },
@@ -999,11 +831,7 @@ export default {
       "masked": "Short-term gains should not be achieved by ____ future generations.",
       "options": [
         "mortgage-mcq-18",
-        "mortgage-mcq-17",
-        "mortgage-mcq-19",
-        "mortgage-mcq-16",
-        "mortgage-mcq-15",
-        "mortgage-mcq-14"
+        "mortgage-mcq-12"
       ],
       "explanation": "本句的「mortgaging」指「為取得眼前利益而犧牲／預支未來的資源、自由或機會」。",
       "sentenceIndex": 68,
@@ -1012,12 +840,8 @@ export default {
         "mortgaging"
       ],
       "optionReasons": {
-        "mortgage-mcq-18": "本句指「為取得眼前利益而犧牲／預支未來的資源、自由或機會」。",
-        "mortgage-mcq-17": "「以一組按揭貸款相關現金流為基礎的金融證券」與本句語境不同。",
-        "mortgage-mcq-19": "「針對指定按揭違約風險提供的保險安排」與本句語境不同。",
-        "mortgage-mcq-16": "「提供物業作抵押擔保的一方，通常是借款人／業主」與本句語境不同。",
-        "mortgage-mcq-15": "「接受抵押擔保的一方，通常是貸款人」與本句語境不同。",
-        "mortgage-mcq-14": "「讓合資格業主利用物業淨值取得資金的一類按揭產品」與本句語境不同。"
+        "mortgage-mcq-18": "本句的「mortgaging」指「為取得眼前利益而犧牲／預支未來的資源、自由或機會」。",
+        "mortgage-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-18"
     },
@@ -1029,11 +853,7 @@ export default {
       "masked": "The homeowner is the ____.",
       "options": [
         "mortgage-mcq-16",
-        "mortgage-mcq-15",
-        "mortgage-mcq-17",
-        "mortgage-mcq-14",
-        "mortgage-mcq-18",
-        "mortgage-mcq-13"
+        "mortgage-mcq-06"
       ],
       "explanation": "本句的「mortgagor」指「提供物業作抵押擔保的一方，通常是借款人／業主」。",
       "sentenceIndex": 73,
@@ -1042,12 +862,8 @@ export default {
         "mortgagor"
       ],
       "optionReasons": {
-        "mortgage-mcq-16": "本句指「提供物業作抵押擔保的一方，通常是借款人／業主」。",
-        "mortgage-mcq-15": "「接受抵押擔保的一方，通常是貸款人」與本句語境不同。",
-        "mortgage-mcq-17": "「以一組按揭貸款相關現金流為基礎的金融證券」與本句語境不同。",
-        "mortgage-mcq-14": "「讓合資格業主利用物業淨值取得資金的一類按揭產品」與本句語境不同。",
-        "mortgage-mcq-18": "「為取得眼前利益而犧牲／預支未來的資源、自由或機會」與本句語境不同。",
-        "mortgage-mcq-13": "「以新的融資安排取代／重新安排原有按揭」與本句語境不同。"
+        "mortgage-mcq-16": "本句的「mortgagor」指「提供物業作抵押擔保的一方，通常是借款人／業主」。",
+        "mortgage-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-16"
     },
@@ -1059,11 +875,7 @@ export default {
       "masked": "The ____ agrees to use the property as security.",
       "options": [
         "mortgage-mcq-16",
-        "mortgage-mcq-15",
-        "mortgage-mcq-17",
-        "mortgage-mcq-14",
-        "mortgage-mcq-18",
-        "mortgage-mcq-13"
+        "mortgage-mcq-08"
       ],
       "explanation": "本句的「mortgagor」指「提供物業作抵押擔保的一方，通常是借款人／業主」。",
       "sentenceIndex": 74,
@@ -1072,12 +884,8 @@ export default {
         "mortgagor"
       ],
       "optionReasons": {
-        "mortgage-mcq-16": "本句指「提供物業作抵押擔保的一方，通常是借款人／業主」。",
-        "mortgage-mcq-15": "「接受抵押擔保的一方，通常是貸款人」與本句語境不同。",
-        "mortgage-mcq-17": "「以一組按揭貸款相關現金流為基礎的金融證券」與本句語境不同。",
-        "mortgage-mcq-14": "「讓合資格業主利用物業淨值取得資金的一類按揭產品」與本句語境不同。",
-        "mortgage-mcq-18": "「為取得眼前利益而犧牲／預支未來的資源、自由或機會」與本句語境不同。",
-        "mortgage-mcq-13": "「以新的融資安排取代／重新安排原有按揭」與本句語境不同。"
+        "mortgage-mcq-16": "本句的「mortgagor」指「提供物業作抵押擔保的一方，通常是借款人／業主」。",
+        "mortgage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-16"
     },
@@ -1089,11 +897,7 @@ export default {
       "masked": "The loan may require ____ insurance.",
       "options": [
         "mortgage-mcq-19",
-        "mortgage-mcq-18",
-        "mortgage-mcq-17",
-        "mortgage-mcq-16",
-        "mortgage-mcq-15",
-        "mortgage-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mortgage」指「針對指定按揭違約風險提供的保險安排」。",
       "sentenceIndex": 76,
@@ -1102,12 +906,8 @@ export default {
         "mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-19": "本句指「針對指定按揭違約風險提供的保險安排」。",
-        "mortgage-mcq-18": "「為取得眼前利益而犧牲／預支未來的資源、自由或機會」與本句語境不同。",
-        "mortgage-mcq-17": "「以一組按揭貸款相關現金流為基礎的金融證券」與本句語境不同。",
-        "mortgage-mcq-16": "「提供物業作抵押擔保的一方，通常是借款人／業主」與本句語境不同。",
-        "mortgage-mcq-15": "「接受抵押擔保的一方，通常是貸款人」與本句語境不同。",
-        "mortgage-mcq-14": "「讓合資格業主利用物業淨值取得資金的一類按揭產品」與本句語境不同。"
+        "mortgage-mcq-19": "本句的「mortgage」指「針對指定按揭違約風險提供的保險安排」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-19"
     },
@@ -1119,11 +919,7 @@ export default {
       "masked": "____ insurance generally protects the lender against specified borrower-default risk.",
       "options": [
         "mortgage-mcq-19",
-        "mortgage-mcq-18",
-        "mortgage-mcq-17",
-        "mortgage-mcq-16",
-        "mortgage-mcq-15",
-        "mortgage-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Mortgage」指「針對指定按揭違約風險提供的保險安排」。",
       "sentenceIndex": 77,
@@ -1132,12 +928,8 @@ export default {
         "Mortgage"
       ],
       "optionReasons": {
-        "mortgage-mcq-19": "本句指「針對指定按揭違約風險提供的保險安排」。",
-        "mortgage-mcq-18": "「為取得眼前利益而犧牲／預支未來的資源、自由或機會」與本句語境不同。",
-        "mortgage-mcq-17": "「以一組按揭貸款相關現金流為基礎的金融證券」與本句語境不同。",
-        "mortgage-mcq-16": "「提供物業作抵押擔保的一方，通常是借款人／業主」與本句語境不同。",
-        "mortgage-mcq-15": "「接受抵押擔保的一方，通常是貸款人」與本句語境不同。",
-        "mortgage-mcq-14": "「讓合資格業主利用物業淨值取得資金的一類按揭產品」與本句語境不同。"
+        "mortgage-mcq-19": "本句的「Mortgage」指「針對指定按揭違約風險提供的保險安排」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mortgage-mcq-19"
     }
@@ -1149,5 +941,16 @@ export default {
     "sha256": "e42a30bfcfe98878a19da9c4369007331e665ce73288c454a73a4402f0669c25",
     "pages": 46
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    },
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

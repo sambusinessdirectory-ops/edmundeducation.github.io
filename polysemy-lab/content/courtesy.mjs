@@ -236,16 +236,6 @@ export default {
           "The manuscript is reproduced by courtesy of the library.",
           "這份手稿承蒙圖書館允許／協助而得以重印。",
           "承蒙……允許／協助"
-        ],
-        [
-          "We spent three hours at the airport, courtesy of a delayed flight.",
-          "拜航班延誤所賜，我們在機場待了三個小時。",
-          "承蒙……允許／協助"
-        ],
-        [
-          "My shoes are soaked, courtesy of the rain.",
-          "拜這場雨所賜，我的鞋全濕了。",
-          "承蒙……允許／協助"
         ]
       ],
       "options": [],
@@ -552,6 +542,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "courtesy-reviewed-1e25138d3f",
+      "title": "多虧／拜……所賜",
+      "form": "courtesy · source section 14",
+      "en": "多虧／拜……所賜",
+      "zh": "多虧／拜……所賜",
+      "note": "對照原始教材第 14 節及例句核實。",
+      "examples": [
+        [
+          "We spent three hours at the airport, courtesy of a delayed flight.",
+          "拜航班延誤所賜，我們在機場待了三個小時。",
+          "多虧／拜……所賜"
+        ],
+        [
+          "My shoes are soaked, courtesy of the rain.",
+          "拜這場雨所賜，我的鞋全濕了。",
+          "多虧／拜……所賜"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -563,11 +575,9 @@ export default {
       "masked": "Shared spaces depend on everyday ____.",
       "options": [
         "courtesy-mcq-01",
-        "courtesy-mcq-02",
-        "courtesy-mcq-03",
-        "courtesy-mcq-04",
-        "courtesy-mcq-05",
-        "courtesy-mcq-06"
+        "courtesy-mcq-12",
+        "courtesy-mcq-14",
+        "courtesy-reviewed-1e25138d3f"
       ],
       "explanation": "本句的「courtesy」指「待人時表現出的禮貌、尊重和體諒」。",
       "sentenceIndex": 0,
@@ -576,12 +586,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-01": "本句指「待人時表現出的禮貌、尊重和體諒」。",
-        "courtesy-mcq-02": "「日常生活中顧及他人、不造成不必要不便的基本禮貌」與本句語境不同。",
-        "courtesy-mcq-03": "「社會交往中一般人應有的基本禮數」與本句語境不同。",
-        "courtesy-mcq-04": "「一次具體的禮貌／體貼行為」與本句語境不同。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。"
+        "courtesy-mcq-01": "本句的「courtesy」指「待人時表現出的禮貌、尊重和體諒」。",
+        "courtesy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-01"
     },
@@ -593,11 +601,9 @@ export default {
       "masked": "He treated everyone with ____.",
       "options": [
         "courtesy-mcq-01",
-        "courtesy-mcq-02",
-        "courtesy-mcq-03",
-        "courtesy-mcq-04",
-        "courtesy-mcq-05",
-        "courtesy-mcq-06"
+        "courtesy-mcq-10",
+        "courtesy-reviewed-1e25138d3f",
+        "courtesy-mcq-14"
       ],
       "explanation": "本句的「courtesy」指「待人時表現出的禮貌、尊重和體諒」。",
       "sentenceIndex": 1,
@@ -606,12 +612,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-01": "本句指「待人時表現出的禮貌、尊重和體諒」。",
-        "courtesy-mcq-02": "「日常生活中顧及他人、不造成不必要不便的基本禮貌」與本句語境不同。",
-        "courtesy-mcq-03": "「社會交往中一般人應有的基本禮數」與本句語境不同。",
-        "courtesy-mcq-04": "「一次具體的禮貌／體貼行為」與本句語境不同。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。"
+        "courtesy-mcq-01": "本句的「courtesy」指「待人時表現出的禮貌、尊重和體諒」。",
+        "courtesy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-01"
     },
@@ -623,11 +627,9 @@ export default {
       "masked": "____ costs nothing.",
       "options": [
         "courtesy-mcq-01",
-        "courtesy-mcq-02",
-        "courtesy-mcq-03",
-        "courtesy-mcq-04",
-        "courtesy-mcq-05",
-        "courtesy-mcq-06"
+        "courtesy-mcq-10",
+        "courtesy-reviewed-1e25138d3f",
+        "courtesy-mcq-14"
       ],
       "explanation": "本句的「Courtesy」指「待人時表現出的禮貌、尊重和體諒」。",
       "sentenceIndex": 2,
@@ -636,12 +638,10 @@ export default {
         "Courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-01": "本句指「待人時表現出的禮貌、尊重和體諒」。",
-        "courtesy-mcq-02": "「日常生活中顧及他人、不造成不必要不便的基本禮貌」與本句語境不同。",
-        "courtesy-mcq-03": "「社會交往中一般人應有的基本禮數」與本句語境不同。",
-        "courtesy-mcq-04": "「一次具體的禮貌／體貼行為」與本句語境不同。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。"
+        "courtesy-mcq-01": "本句的「Courtesy」指「待人時表現出的禮貌、尊重和體諒」。",
+        "courtesy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-01"
     },
@@ -653,11 +653,9 @@ export default {
       "masked": "It is common ____ to let people leave the train before you board.",
       "options": [
         "courtesy-mcq-03",
-        "courtesy-mcq-02",
-        "courtesy-mcq-04",
-        "courtesy-mcq-01",
-        "courtesy-mcq-05",
-        "courtesy-mcq-06"
+        "courtesy-mcq-10",
+        "courtesy-mcq-09",
+        "courtesy-reviewed-1e25138d3f"
       ],
       "explanation": "本句的「courtesy」指「社會交往中一般人應有的基本禮數」。",
       "sentenceIndex": 3,
@@ -666,12 +664,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-03": "本句指「社會交往中一般人應有的基本禮數」。",
-        "courtesy-mcq-02": "「日常生活中顧及他人、不造成不必要不便的基本禮貌」與本句語境不同。",
-        "courtesy-mcq-04": "「一次具體的禮貌／體貼行為」與本句語境不同。",
-        "courtesy-mcq-01": "「待人時表現出的禮貌、尊重和體諒」與本句語境不同。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。"
+        "courtesy-mcq-03": "本句的「courtesy」指「社會交往中一般人應有的基本禮數」。",
+        "courtesy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-03"
     },
@@ -683,11 +679,9 @@ export default {
       "masked": "He did not even have the common ____ to reply.",
       "options": [
         "courtesy-mcq-03",
-        "courtesy-mcq-02",
-        "courtesy-mcq-04",
-        "courtesy-mcq-01",
-        "courtesy-mcq-05",
-        "courtesy-mcq-06"
+        "courtesy-mcq-10",
+        "courtesy-reviewed-1e25138d3f",
+        "courtesy-mcq-09"
       ],
       "explanation": "本句的「courtesy」指「社會交往中一般人應有的基本禮數」。",
       "sentenceIndex": 4,
@@ -696,12 +690,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-03": "本句指「社會交往中一般人應有的基本禮數」。",
-        "courtesy-mcq-02": "「日常生活中顧及他人、不造成不必要不便的基本禮貌」與本句語境不同。",
-        "courtesy-mcq-04": "「一次具體的禮貌／體貼行為」與本句語境不同。",
-        "courtesy-mcq-01": "「待人時表現出的禮貌、尊重和體諒」與本句語境不同。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。"
+        "courtesy-mcq-03": "本句的「courtesy」指「社會交往中一般人應有的基本禮數」。",
+        "courtesy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-03"
     },
@@ -713,11 +705,9 @@ export default {
       "masked": "Please show some ____ to people waiting for a table.",
       "options": [
         "courtesy-mcq-04",
-        "courtesy-mcq-03",
-        "courtesy-mcq-05",
-        "courtesy-mcq-02",
-        "courtesy-mcq-06",
-        "courtesy-mcq-01"
+        "courtesy-mcq-09",
+        "courtesy-reviewed-1e25138d3f",
+        "courtesy-mcq-13"
       ],
       "explanation": "本句的「courtesy」指「一次具體的禮貌／體貼行為」。",
       "sentenceIndex": 5,
@@ -726,12 +716,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-04": "本句指「一次具體的禮貌／體貼行為」。",
-        "courtesy-mcq-03": "「社會交往中一般人應有的基本禮數」與本句語境不同。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。",
-        "courtesy-mcq-02": "「日常生活中顧及他人、不造成不必要不便的基本禮貌」與本句語境不同。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。",
-        "courtesy-mcq-01": "「待人時表現出的禮貌、尊重和體諒」與本句語境不同。"
+        "courtesy-mcq-04": "本句的「courtesy」指「一次具體的禮貌／體貼行為」。",
+        "courtesy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-04"
     },
@@ -743,11 +731,9 @@ export default {
       "masked": "Keeping your voice down is a matter of ____.",
       "options": [
         "courtesy-mcq-04",
-        "courtesy-mcq-03",
-        "courtesy-mcq-05",
-        "courtesy-mcq-02",
-        "courtesy-mcq-06",
-        "courtesy-mcq-01"
+        "courtesy-mcq-13",
+        "courtesy-mcq-12",
+        "courtesy-mcq-09"
       ],
       "explanation": "本句的「courtesy」指「一次具體的禮貌／體貼行為」。",
       "sentenceIndex": 6,
@@ -756,12 +742,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-04": "本句指「一次具體的禮貌／體貼行為」。",
-        "courtesy-mcq-03": "「社會交往中一般人應有的基本禮數」與本句語境不同。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。",
-        "courtesy-mcq-02": "「日常生活中顧及他人、不造成不必要不便的基本禮貌」與本句語境不同。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。",
-        "courtesy-mcq-01": "「待人時表現出的禮貌、尊重和體諒」與本句語境不同。"
+        "courtesy-mcq-04": "本句的「courtesy」指「一次具體的禮貌／體貼行為」。",
+        "courtesy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-04"
     },
@@ -773,11 +757,9 @@ export default {
       "masked": "Sending a short reply would be a simple ____.",
       "options": [
         "courtesy-mcq-04",
-        "courtesy-mcq-03",
-        "courtesy-mcq-05",
-        "courtesy-mcq-02",
-        "courtesy-mcq-06",
-        "courtesy-mcq-01"
+        "courtesy-mcq-12",
+        "courtesy-reviewed-1e25138d3f",
+        "courtesy-mcq-13"
       ],
       "explanation": "本句的「courtesy」指「一次具體的禮貌／體貼行為」。",
       "sentenceIndex": 7,
@@ -786,12 +768,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-04": "本句指「一次具體的禮貌／體貼行為」。",
-        "courtesy-mcq-03": "「社會交往中一般人應有的基本禮數」與本句語境不同。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。",
-        "courtesy-mcq-02": "「日常生活中顧及他人、不造成不必要不便的基本禮貌」與本句語境不同。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。",
-        "courtesy-mcq-01": "「待人時表現出的禮貌、尊重和體諒」與本句語境不同。"
+        "courtesy-mcq-04": "本句的「courtesy」指「一次具體的禮貌／體貼行為」。",
+        "courtesy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-04"
     },
@@ -803,11 +783,9 @@ export default {
       "masked": "They extended every ____ to their guests.",
       "options": [
         "courtesy-mcq-04",
-        "courtesy-mcq-03",
-        "courtesy-mcq-05",
-        "courtesy-mcq-02",
-        "courtesy-mcq-06",
-        "courtesy-mcq-01"
+        "courtesy-mcq-12",
+        "courtesy-mcq-13",
+        "courtesy-mcq-09"
       ],
       "explanation": "本句的「courtesy」指「一次具體的禮貌／體貼行為」。",
       "sentenceIndex": 8,
@@ -816,12 +794,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-04": "本句指「一次具體的禮貌／體貼行為」。",
-        "courtesy-mcq-03": "「社會交往中一般人應有的基本禮數」與本句語境不同。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。",
-        "courtesy-mcq-02": "「日常生活中顧及他人、不造成不必要不便的基本禮貌」與本句語境不同。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。",
-        "courtesy-mcq-01": "「待人時表現出的禮貌、尊重和體諒」與本句語境不同。"
+        "courtesy-mcq-04": "本句的「courtesy」指「一次具體的禮貌／體貼行為」。",
+        "courtesy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-04"
     },
@@ -833,11 +809,9 @@ export default {
       "masked": "They exchanged the usual ____ before the meeting.",
       "options": [
         "courtesy-pdf-001",
-        "courtesy-mcq-04",
-        "courtesy-mcq-06",
-        "courtesy-mcq-03",
-        "courtesy-mcq-07",
-        "courtesy-mcq-02"
+        "courtesy-mcq-10",
+        "courtesy-reviewed-1e25138d3f",
+        "courtesy-mcq-09"
       ],
       "explanation": "本句的「courtesies」指「互相問候、寒暄、作禮貌性交流」。",
       "sentenceIndex": 9,
@@ -846,12 +820,10 @@ export default {
         "courtesies"
       ],
       "optionReasons": {
-        "courtesy-pdf-001": "本句指「互相問候、寒暄、作禮貌性交流」。",
-        "courtesy-mcq-04": "「一次具體的禮貌／體貼行為」與本句語境不同。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。",
-        "courtesy-mcq-03": "「社會交往中一般人應有的基本禮數」與本句語境不同。",
-        "courtesy-mcq-07": "「因為禮貌上的考量」與本句語境不同。",
-        "courtesy-mcq-02": "「日常生活中顧及他人、不造成不必要不便的基本禮貌」與本句語境不同。"
+        "courtesy-pdf-001": "本句的「courtesies」指「互相問候、寒暄、作禮貌性交流」。",
+        "courtesy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-pdf-001"
     },
@@ -863,11 +835,9 @@ export default {
       "masked": "We contacted residents in advance as a ____.",
       "options": [
         "courtesy-mcq-06",
-        "courtesy-mcq-05",
-        "courtesy-mcq-07",
-        "courtesy-mcq-04",
-        "courtesy-mcq-08",
-        "courtesy-mcq-03"
+        "courtesy-mcq-13",
+        "courtesy-mcq-12",
+        "courtesy-reviewed-1e25138d3f"
       ],
       "explanation": "本句的「courtesy」指「出於禮貌／善意而做，通常並非嚴格義務」。",
       "sentenceIndex": 10,
@@ -876,12 +846,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-06": "本句指「出於禮貌／善意而做，通常並非嚴格義務」。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。",
-        "courtesy-mcq-07": "「因為禮貌上的考量」與本句語境不同。",
-        "courtesy-mcq-04": "「一次具體的禮貌／體貼行為」與本句語境不同。",
-        "courtesy-mcq-08": "「至少有基本禮貌去做某事」與本句語境不同。",
-        "courtesy-mcq-03": "「社會交往中一般人應有的基本禮數」與本句語境不同。"
+        "courtesy-mcq-06": "本句的「courtesy」指「出於禮貌／善意而做，通常並非嚴格義務」。",
+        "courtesy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-06"
     },
@@ -893,10 +861,8 @@ export default {
       "masked": "The company refunded the charge as a ____.",
       "options": [
         "courtesy-mcq-06",
-        "courtesy-mcq-05",
-        "courtesy-mcq-07",
-        "courtesy-mcq-04",
-        "courtesy-mcq-08",
+        "courtesy-mcq-10",
+        "courtesy-reviewed-1e25138d3f",
         "courtesy-mcq-03"
       ],
       "explanation": "本句的「courtesy」指「出於禮貌／善意而做，通常並非嚴格義務」。",
@@ -906,12 +872,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-06": "本句指「出於禮貌／善意而做，通常並非嚴格義務」。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。",
-        "courtesy-mcq-07": "「因為禮貌上的考量」與本句語境不同。",
-        "courtesy-mcq-04": "「一次具體的禮貌／體貼行為」與本句語境不同。",
-        "courtesy-mcq-08": "「至少有基本禮貌去做某事」與本句語境不同。",
-        "courtesy-mcq-03": "「社會交往中一般人應有的基本禮數」與本句語境不同。"
+        "courtesy-mcq-06": "本句的「courtesy」指「出於禮貌／善意而做，通常並非嚴格義務」。",
+        "courtesy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-06"
     },
@@ -923,11 +887,9 @@ export default {
       "masked": "I stayed until the end out of ____.",
       "options": [
         "courtesy-mcq-07",
-        "courtesy-mcq-06",
-        "courtesy-mcq-08",
-        "courtesy-mcq-05",
         "courtesy-mcq-09",
-        "courtesy-mcq-04"
+        "courtesy-mcq-10",
+        "courtesy-mcq-14"
       ],
       "explanation": "本句的「courtesy」指「因為禮貌上的考量」。",
       "sentenceIndex": 12,
@@ -936,12 +898,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-07": "本句指「因為禮貌上的考量」。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。",
-        "courtesy-mcq-08": "「至少有基本禮貌去做某事」與本句語境不同。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。",
-        "courtesy-mcq-09": "「出於尊重而至少為某人做某事」與本句語境不同。",
-        "courtesy-mcq-04": "「一次具體的禮貌／體貼行為」與本句語境不同。"
+        "courtesy-mcq-07": "本句的「courtesy」指「因為禮貌上的考量」。",
+        "courtesy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-07"
     },
@@ -953,11 +913,9 @@ export default {
       "masked": "She listened out of ____, although she disagreed.",
       "options": [
         "courtesy-mcq-07",
-        "courtesy-mcq-06",
-        "courtesy-mcq-08",
-        "courtesy-mcq-05",
-        "courtesy-mcq-09",
-        "courtesy-mcq-04"
+        "courtesy-mcq-10",
+        "courtesy-mcq-14",
+        "courtesy-mcq-09"
       ],
       "explanation": "本句的「courtesy」指「因為禮貌上的考量」。",
       "sentenceIndex": 13,
@@ -966,12 +924,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-07": "本句指「因為禮貌上的考量」。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。",
-        "courtesy-mcq-08": "「至少有基本禮貌去做某事」與本句語境不同。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。",
-        "courtesy-mcq-09": "「出於尊重而至少為某人做某事」與本句語境不同。",
-        "courtesy-mcq-04": "「一次具體的禮貌／體貼行為」與本句語境不同。"
+        "courtesy-mcq-07": "本句的「courtesy」指「因為禮貌上的考量」。",
+        "courtesy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-07"
     },
@@ -983,11 +939,9 @@ export default {
       "masked": "You could at least have the ____ to tell me you were going to be late.",
       "options": [
         "courtesy-mcq-08",
-        "courtesy-mcq-07",
-        "courtesy-mcq-09",
-        "courtesy-mcq-06",
-        "courtesy-mcq-10",
-        "courtesy-mcq-05"
+        "courtesy-mcq-12",
+        "courtesy-mcq-13",
+        "courtesy-reviewed-1e25138d3f"
       ],
       "explanation": "本句的「courtesy」指「至少有基本禮貌去做某事」。",
       "sentenceIndex": 14,
@@ -996,12 +950,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-08": "本句指「至少有基本禮貌去做某事」。",
-        "courtesy-mcq-07": "「因為禮貌上的考量」與本句語境不同。",
-        "courtesy-mcq-09": "「出於尊重而至少為某人做某事」與本句語境不同。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。",
-        "courtesy-mcq-10": "「由 X 提供／贊助／授權」與本句語境不同。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。"
+        "courtesy-mcq-08": "本句的「courtesy」指「至少有基本禮貌去做某事」。",
+        "courtesy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-08"
     },
@@ -1013,11 +965,9 @@ export default {
       "masked": "He did not even have the ____ to apologize.",
       "options": [
         "courtesy-mcq-08",
-        "courtesy-mcq-07",
-        "courtesy-mcq-09",
-        "courtesy-mcq-06",
-        "courtesy-mcq-10",
-        "courtesy-mcq-05"
+        "courtesy-mcq-12",
+        "courtesy-mcq-13",
+        "courtesy-reviewed-1e25138d3f"
       ],
       "explanation": "本句的「courtesy」指「至少有基本禮貌去做某事」。",
       "sentenceIndex": 15,
@@ -1026,12 +976,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-08": "本句指「至少有基本禮貌去做某事」。",
-        "courtesy-mcq-07": "「因為禮貌上的考量」與本句語境不同。",
-        "courtesy-mcq-09": "「出於尊重而至少為某人做某事」與本句語境不同。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。",
-        "courtesy-mcq-10": "「由 X 提供／贊助／授權」與本句語境不同。",
-        "courtesy-mcq-05": "「社交寒暄、禮節、客套行為」與本句語境不同。"
+        "courtesy-mcq-08": "本句的「courtesy」指「至少有基本禮貌去做某事」。",
+        "courtesy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-08"
     },
@@ -1043,11 +991,9 @@ export default {
       "masked": "Please do me the ____ listening before you answer.",
       "options": [
         "courtesy-mcq-09",
-        "courtesy-mcq-08",
-        "courtesy-mcq-10",
         "courtesy-mcq-07",
-        "courtesy-mcq-11",
-        "courtesy-mcq-06"
+        "courtesy-mcq-10",
+        "courtesy-mcq-03"
       ],
       "explanation": "本句的「courtesy of」指「出於尊重而至少為某人做某事」。",
       "sentenceIndex": 16,
@@ -1056,12 +1002,10 @@ export default {
         "courtesy of"
       ],
       "optionReasons": {
-        "courtesy-mcq-09": "本句指「出於尊重而至少為某人做某事」。",
-        "courtesy-mcq-08": "「至少有基本禮貌去做某事」與本句語境不同。",
-        "courtesy-mcq-10": "「由 X 提供／贊助／授權」與本句語境不同。",
-        "courtesy-mcq-07": "「因為禮貌上的考量」與本句語境不同。",
-        "courtesy-mcq-11": "「拜 X 所賜；由 X 所造成」與本句語境不同。",
-        "courtesy-mcq-06": "「出於禮貌／善意而做，通常並非嚴格義務」與本句語境不同。"
+        "courtesy-mcq-09": "本句的「courtesy of」指「出於尊重而至少為某人做某事」。",
+        "courtesy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-09"
     },
@@ -1073,11 +1017,9 @@ export default {
       "masked": "Refreshments are provided ____ of the hotel.",
       "options": [
         "courtesy-mcq-10",
-        "courtesy-mcq-09",
-        "courtesy-mcq-11",
-        "courtesy-mcq-08",
-        "courtesy-mcq-12",
-        "courtesy-mcq-07"
+        "courtesy-pdf-002",
+        "courtesy-reviewed-1e25138d3f",
+        "courtesy-mcq-03"
       ],
       "explanation": "本句的「courtesy」指「由 X 提供／贊助／授權」。",
       "sentenceIndex": 17,
@@ -1086,12 +1028,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-10": "本句指「由 X 提供／贊助／授權」。",
-        "courtesy-mcq-09": "「出於尊重而至少為某人做某事」與本句語境不同。",
-        "courtesy-mcq-11": "「拜 X 所賜；由 X 所造成」與本句語境不同。",
-        "courtesy-mcq-08": "「至少有基本禮貌去做某事」與本句語境不同。",
-        "courtesy-mcq-12": "「承蒙……允許／協助」與本句語境不同。",
-        "courtesy-mcq-07": "「因為禮貌上的考量」與本句語境不同。"
+        "courtesy-mcq-10": "本句的「courtesy」指「由 X 提供／贊助／授權」。",
+        "courtesy-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-10"
     },
@@ -1103,11 +1043,9 @@ export default {
       "masked": "The photographs appear ____ of the museum.",
       "options": [
         "courtesy-mcq-10",
-        "courtesy-mcq-09",
-        "courtesy-mcq-11",
-        "courtesy-mcq-08",
-        "courtesy-mcq-12",
-        "courtesy-mcq-07"
+        "courtesy-mcq-18",
+        "courtesy-mcq-14",
+        "courtesy-mcq-27"
       ],
       "explanation": "本句的「courtesy」指「由 X 提供／贊助／授權」。",
       "sentenceIndex": 18,
@@ -1116,12 +1054,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-10": "本句指「由 X 提供／贊助／授權」。",
-        "courtesy-mcq-09": "「出於尊重而至少為某人做某事」與本句語境不同。",
-        "courtesy-mcq-11": "「拜 X 所賜；由 X 所造成」與本句語境不同。",
-        "courtesy-mcq-08": "「至少有基本禮貌去做某事」與本句語境不同。",
-        "courtesy-mcq-12": "「承蒙……允許／協助」與本句語境不同。",
-        "courtesy-mcq-07": "「因為禮貌上的考量」與本句語境不同。"
+        "courtesy-mcq-10": "本句的「courtesy」指「由 X 提供／贊助／授權」。",
+        "courtesy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-10"
     },
@@ -1133,11 +1069,9 @@ export default {
       "masked": "The manuscript is reproduced by ____ of the library.",
       "options": [
         "courtesy-mcq-12",
-        "courtesy-mcq-11",
+        "courtesy-mcq-06",
         "courtesy-mcq-13",
-        "courtesy-mcq-10",
-        "courtesy-mcq-14",
-        "courtesy-mcq-09"
+        "courtesy-mcq-03"
       ],
       "explanation": "本句的「courtesy」指「承蒙……允許／協助」。",
       "sentenceIndex": 19,
@@ -1146,74 +1080,68 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-12": "本句指「承蒙……允許／協助」。",
-        "courtesy-mcq-11": "「拜 X 所賜；由 X 所造成」與本句語境不同。",
-        "courtesy-mcq-13": "「維修期間等免費／臨時提供的代用車」與本句語境不同。",
-        "courtesy-mcq-10": "「由 X 提供／贊助／授權」與本句語境不同。",
-        "courtesy-mcq-14": "「免費接駁交通」與本句語境不同。",
-        "courtesy-mcq-09": "「出於尊重而至少為某人做某事」與本句語境不同。"
+        "courtesy-mcq-12": "本句的「courtesy」指「承蒙……允許／協助」。",
+        "courtesy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-12"
     },
     {
       "id": "courtesy-14-0",
-      "sense": "courtesy-mcq-12",
+      "sense": "courtesy-reviewed-1e25138d3f",
       "en": "We spent three hours at the airport, courtesy of a delayed flight.",
       "zh": "拜航班延誤所賜，我們在機場待了三個小時。",
       "masked": "We spent three hours at the airport, ____ of a delayed flight.",
       "options": [
-        "courtesy-mcq-12",
-        "courtesy-mcq-11",
+        "courtesy-reviewed-1e25138d3f",
+        "courtesy-mcq-07",
         "courtesy-mcq-13",
-        "courtesy-mcq-10",
-        "courtesy-mcq-14",
-        "courtesy-mcq-09"
+        "courtesy-mcq-12"
       ],
-      "explanation": "本句的「courtesy」指「承蒙……允許／協助」。",
+      "explanation": "對照完整句子：「拜航班延誤所賜，我們在機場待了三個小時。」。這裡的「courtesy」表示「多虧／拜……所賜」。",
       "sentenceIndex": 20,
       "sourcePractice": 22,
       "targets": [
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-12": "本句指「承蒙……允許／協助」。",
-        "courtesy-mcq-11": "「拜 X 所賜；由 X 所造成」與本句語境不同。",
-        "courtesy-mcq-13": "「維修期間等免費／臨時提供的代用車」與本句語境不同。",
-        "courtesy-mcq-10": "「由 X 提供／贊助／授權」與本句語境不同。",
-        "courtesy-mcq-14": "「免費接駁交通」與本句語境不同。",
-        "courtesy-mcq-09": "「出於尊重而至少為某人做某事」與本句語境不同。"
+        "courtesy-reviewed-1e25138d3f": "對照完整句子：「拜航班延誤所賜，我們在機場待了三個小時。」。這裡的「courtesy」表示「多虧／拜……所賜」。",
+        "courtesy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "courtesy-mcq-12"
+      "correctOption": "courtesy-reviewed-1e25138d3f",
+      "previousCorrectOption": "courtesy-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "courtesy-14-1",
-      "sense": "courtesy-mcq-12",
+      "sense": "courtesy-reviewed-1e25138d3f",
       "en": "My shoes are soaked, courtesy of the rain.",
       "zh": "拜這場雨所賜，我的鞋全濕了。",
       "masked": "My shoes are soaked, ____ of the rain.",
       "options": [
-        "courtesy-mcq-12",
-        "courtesy-mcq-11",
-        "courtesy-mcq-13",
-        "courtesy-mcq-10",
+        "courtesy-reviewed-1e25138d3f",
         "courtesy-mcq-14",
-        "courtesy-mcq-09"
+        "courtesy-mcq-32",
+        "courtesy-mcq-08"
       ],
-      "explanation": "本句的「courtesy」指「承蒙……允許／協助」。",
+      "explanation": "對照完整句子：「拜這場雨所賜，我的鞋全濕了。」。這裡的「courtesy」表示「多虧／拜……所賜」。",
       "sentenceIndex": 21,
       "sourcePractice": 23,
       "targets": [
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-12": "本句指「承蒙……允許／協助」。",
-        "courtesy-mcq-11": "「拜 X 所賜；由 X 所造成」與本句語境不同。",
-        "courtesy-mcq-13": "「維修期間等免費／臨時提供的代用車」與本句語境不同。",
-        "courtesy-mcq-10": "「由 X 提供／贊助／授權」與本句語境不同。",
-        "courtesy-mcq-14": "「免費接駁交通」與本句語境不同。",
-        "courtesy-mcq-09": "「出於尊重而至少為某人做某事」與本句語境不同。"
+        "courtesy-reviewed-1e25138d3f": "對照完整句子：「拜這場雨所賜，我的鞋全濕了。」。這裡的「courtesy」表示「多虧／拜……所賜」。",
+        "courtesy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "courtesy-mcq-12"
+      "correctOption": "courtesy-reviewed-1e25138d3f",
+      "previousCorrectOption": "courtesy-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "courtesy-16-0",
@@ -1223,11 +1151,9 @@ export default {
       "masked": "The garage provided a ____ while mine was being repaired.",
       "options": [
         "courtesy-mcq-13",
-        "courtesy-mcq-12",
-        "courtesy-mcq-14",
-        "courtesy-mcq-11",
-        "courtesy-mcq-15",
-        "courtesy-mcq-10"
+        "courtesy-mcq-31",
+        "courtesy-reviewed-1e25138d3f",
+        "courtesy-mcq-12"
       ],
       "explanation": "本句的「courtesy car」指「維修期間等免費／臨時提供的代用車」。",
       "sentenceIndex": 22,
@@ -1236,12 +1162,10 @@ export default {
         "courtesy car"
       ],
       "optionReasons": {
-        "courtesy-mcq-13": "本句指「維修期間等免費／臨時提供的代用車」。",
-        "courtesy-mcq-12": "「承蒙……允許／協助」與本句語境不同。",
-        "courtesy-mcq-14": "「免費接駁交通」與本句語境不同。",
-        "courtesy-mcq-11": "「拜 X 所賜；由 X 所造成」與本句語境不同。",
-        "courtesy-mcq-15": "「免費供顧客／訪客使用的服務電話」與本句語境不同。",
-        "courtesy-mcq-10": "「由 X 提供／贊助／授權」與本句語境不同。"
+        "courtesy-mcq-13": "本句的「courtesy car」指「維修期間等免費／臨時提供的代用車」。",
+        "courtesy-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-13"
     },
@@ -1253,11 +1177,9 @@ export default {
       "masked": "A ____ shuttle runs between the hotel and the airport.",
       "options": [
         "courtesy-mcq-14",
-        "courtesy-mcq-13",
-        "courtesy-mcq-15",
         "courtesy-mcq-12",
-        "courtesy-mcq-16",
-        "courtesy-mcq-11"
+        "courtesy-pdf-002",
+        "courtesy-reviewed-1e25138d3f"
       ],
       "explanation": "本句的「courtesy」指「免費接駁交通」。",
       "sentenceIndex": 23,
@@ -1266,12 +1188,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-14": "本句指「免費接駁交通」。",
-        "courtesy-mcq-13": "「維修期間等免費／臨時提供的代用車」與本句語境不同。",
-        "courtesy-mcq-15": "「免費供顧客／訪客使用的服務電話」與本句語境不同。",
-        "courtesy-mcq-12": "「承蒙……允許／協助」與本句語境不同。",
-        "courtesy-mcq-16": "「免費提供的贈閱本／副本」與本句語境不同。",
-        "courtesy-mcq-11": "「拜 X 所賜；由 X 所造成」與本句語境不同。"
+        "courtesy-mcq-14": "本句的「courtesy」指「免費接駁交通」。",
+        "courtesy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "courtesy-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-14"
     },
@@ -1283,11 +1203,9 @@ export default {
       "masked": "I’m making a ____ to confirm tomorrow’s appointment.",
       "options": [
         "courtesy-mcq-18",
-        "courtesy-mcq-17",
-        "courtesy-mcq-19",
-        "courtesy-mcq-16",
-        "courtesy-mcq-20",
-        "courtesy-mcq-15"
+        "courtesy-mcq-12",
+        "courtesy-mcq-09",
+        "courtesy-reviewed-1e25138d3f"
       ],
       "explanation": "本句的「courtesy call」指「為保持禮貌、確認或關係而打的禮貌性電話」。",
       "sentenceIndex": 24,
@@ -1296,12 +1214,10 @@ export default {
         "courtesy call"
       ],
       "optionReasons": {
-        "courtesy-mcq-18": "本句指「為保持禮貌、確認或關係而打的禮貌性電話」。",
-        "courtesy-mcq-17": "「車門等操作時自動亮起的便利照明／車廂燈」與本句語境不同。",
-        "courtesy-mcq-19": "「外交／機構場合的禮節性拜訪」與本句語境不同。",
-        "courtesy-mcq-16": "「免費提供的贈閱本／副本」與本句語境不同。",
-        "courtesy-mcq-20": "「出於社交禮貌使用的稱謂」與本句語境不同。",
-        "courtesy-mcq-15": "「免費供顧客／訪客使用的服務電話」與本句語境不同。"
+        "courtesy-mcq-18": "本句的「courtesy call」指「為保持禮貌、確認或關係而打的禮貌性電話」。",
+        "courtesy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-18"
     },
@@ -1313,11 +1229,9 @@ export default {
       "masked": "The delegation paid a ____ call on the director.",
       "options": [
         "courtesy-mcq-19",
-        "courtesy-mcq-18",
-        "courtesy-mcq-20",
-        "courtesy-mcq-17",
-        "courtesy-mcq-21",
-        "courtesy-mcq-16"
+        "courtesy-mcq-13",
+        "courtesy-mcq-12",
+        "courtesy-mcq-31"
       ],
       "explanation": "本句的「courtesy」指「外交／機構場合的禮節性拜訪」。",
       "sentenceIndex": 25,
@@ -1326,12 +1240,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-19": "本句指「外交／機構場合的禮節性拜訪」。",
-        "courtesy-mcq-18": "「為保持禮貌、確認或關係而打的禮貌性電話」與本句語境不同。",
-        "courtesy-mcq-20": "「出於社交禮貌使用的稱謂」與本句語境不同。",
-        "courtesy-mcq-17": "「車門等操作時自動亮起的便利照明／車廂燈」與本句語境不同。",
-        "courtesy-mcq-21": "「按慣例使用、而非本人實質持有的禮遇頭銜」與本句語境不同。",
-        "courtesy-mcq-16": "「免費提供的贈閱本／副本」與本句語境不同。"
+        "courtesy-mcq-19": "本句的「courtesy」指「外交／機構場合的禮節性拜訪」。",
+        "courtesy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-19"
     },
@@ -1343,11 +1255,9 @@ export default {
       "masked": "She informed the other doctor as a matter of professional ____.",
       "options": [
         "courtesy-mcq-27",
-        "courtesy-mcq-26",
-        "courtesy-mcq-28",
-        "courtesy-mcq-25",
-        "courtesy-mcq-29",
-        "courtesy-mcq-24"
+        "courtesy-mcq-10",
+        "courtesy-mcq-09",
+        "courtesy-reviewed-1e25138d3f"
       ],
       "explanation": "本句的「courtesy」指「同行之間的專業禮讓；亦可指傳統的同行優惠服務」。",
       "sentenceIndex": 26,
@@ -1356,12 +1266,10 @@ export default {
         "courtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-27": "本句指「同行之間的專業禮讓；亦可指傳統的同行優惠服務」。",
-        "courtesy-mcq-26": "「為減少氣味、顧及他人而中途沖廁；非正式」與本句語境不同。",
-        "courtesy-mcq-28": "「作為提醒／善意安排而發出的禮貌性通知」與本句語境不同。",
-        "courtesy-mcq-25": "「某些美式超市中的顧客服務／包裝店員」與本句語境不同。",
-        "courtesy-mcq-29": "「有禮貌、尊重並以合宜態度對待他人的」與本句語境不同。",
-        "courtesy-mcq-24": "「某些棒球／壘球規則下的特別代跑球員」與本句語境不同。"
+        "courtesy-mcq-27": "本句的「courtesy」指「同行之間的專業禮讓；亦可指傳統的同行優惠服務」。",
+        "courtesy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-27"
     },
@@ -1373,11 +1281,9 @@ export default {
       "masked": "The staff were friendly and ____.",
       "options": [
         "courtesy-pdf-002",
-        "courtesy-mcq-28",
-        "courtesy-mcq-30",
-        "courtesy-mcq-27",
-        "courtesy-mcq-31",
-        "courtesy-mcq-26"
+        "courtesy-mcq-12",
+        "courtesy-mcq-14",
+        "courtesy-reviewed-1e25138d3f"
       ],
       "explanation": "本句的「courteous」指「在說話和行為上尊重別人、符合良好禮貌規範」。",
       "sentenceIndex": 27,
@@ -1386,12 +1292,10 @@ export default {
         "courteous"
       ],
       "optionReasons": {
-        "courtesy-pdf-002": "本句指「在說話和行為上尊重別人、符合良好禮貌規範」。",
-        "courtesy-mcq-28": "「作為提醒／善意安排而發出的禮貌性通知」與本句語境不同。",
-        "courtesy-mcq-30": "「有禮貌地」與本句語境不同。",
-        "courtesy-mcq-27": "「同行之間的專業禮讓；亦可指傳統的同行優惠服務」與本句語境不同。",
-        "courtesy-mcq-31": "「缺乏禮貌、失禮的」與本句語境不同。",
-        "courtesy-mcq-26": "「為減少氣味、顧及他人而中途沖廁；非正式」與本句語境不同。"
+        "courtesy-pdf-002": "本句的「courteous」指「在說話和行為上尊重別人、符合良好禮貌規範」。",
+        "courtesy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-pdf-002"
     },
@@ -1403,11 +1307,9 @@ export default {
       "masked": "She ____ asked them to lower their voices.",
       "options": [
         "courtesy-mcq-30",
-        "courtesy-mcq-29",
-        "courtesy-mcq-31",
-        "courtesy-mcq-28",
-        "courtesy-mcq-32",
-        "courtesy-mcq-27"
+        "courtesy-mcq-13",
+        "courtesy-reviewed-1e25138d3f",
+        "courtesy-mcq-09"
       ],
       "explanation": "本句的「courteously」指「有禮貌地」。",
       "sentenceIndex": 28,
@@ -1416,12 +1318,10 @@ export default {
         "courteously"
       ],
       "optionReasons": {
-        "courtesy-mcq-30": "本句指「有禮貌地」。",
-        "courtesy-mcq-29": "「有禮貌、尊重並以合宜態度對待他人的」與本句語境不同。",
-        "courtesy-mcq-31": "「缺乏禮貌、失禮的」與本句語境不同。",
-        "courtesy-mcq-28": "「作為提醒／善意安排而發出的禮貌性通知」與本句語境不同。",
-        "courtesy-mcq-32": "「無禮／一次失禮行為」與本句語境不同。",
-        "courtesy-mcq-27": "「同行之間的專業禮讓；亦可指傳統的同行優惠服務」與本句語境不同。"
+        "courtesy-mcq-30": "本句的「courteously」指「有禮貌地」。",
+        "courtesy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-30"
     },
@@ -1433,11 +1333,9 @@ export default {
       "masked": "It would be ____ to ignore the other guests.",
       "options": [
         "courtesy-mcq-31",
-        "courtesy-mcq-30",
-        "courtesy-mcq-32",
-        "courtesy-mcq-29",
-        "courtesy-mcq-28",
-        "courtesy-mcq-27"
+        "courtesy-reviewed-1e25138d3f",
+        "courtesy-mcq-12",
+        "courtesy-mcq-13"
       ],
       "explanation": "本句的「discourteous」指「缺乏禮貌、失禮的」。",
       "sentenceIndex": 29,
@@ -1446,12 +1344,10 @@ export default {
         "discourteous"
       ],
       "optionReasons": {
-        "courtesy-mcq-31": "本句指「缺乏禮貌、失禮的」。",
-        "courtesy-mcq-30": "「有禮貌地」與本句語境不同。",
-        "courtesy-mcq-32": "「無禮／一次失禮行為」與本句語境不同。",
-        "courtesy-mcq-29": "「有禮貌、尊重並以合宜態度對待他人的」與本句語境不同。",
-        "courtesy-mcq-28": "「作為提醒／善意安排而發出的禮貌性通知」與本句語境不同。",
-        "courtesy-mcq-27": "「同行之間的專業禮讓；亦可指傳統的同行優惠服務」與本句語境不同。"
+        "courtesy-mcq-31": "本句的「discourteous」指「缺乏禮貌、失禮的」。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-31"
     },
@@ -1463,11 +1359,9 @@ export default {
       "masked": "Leaving without thanking the host was a ____.",
       "options": [
         "courtesy-mcq-32",
-        "courtesy-mcq-31",
-        "courtesy-mcq-30",
-        "courtesy-mcq-29",
-        "courtesy-mcq-28",
-        "courtesy-mcq-27"
+        "courtesy-mcq-14",
+        "courtesy-mcq-10",
+        "courtesy-reviewed-1e25138d3f"
       ],
       "explanation": "本句的「discourtesy」指「無禮／一次失禮行為」。",
       "sentenceIndex": 30,
@@ -1476,12 +1370,10 @@ export default {
         "discourtesy"
       ],
       "optionReasons": {
-        "courtesy-mcq-32": "本句指「無禮／一次失禮行為」。",
-        "courtesy-mcq-31": "「缺乏禮貌、失禮的」與本句語境不同。",
-        "courtesy-mcq-30": "「有禮貌地」與本句語境不同。",
-        "courtesy-mcq-29": "「有禮貌、尊重並以合宜態度對待他人的」與本句語境不同。",
-        "courtesy-mcq-28": "「作為提醒／善意安排而發出的禮貌性通知」與本句語境不同。",
-        "courtesy-mcq-27": "「同行之間的專業禮讓；亦可指傳統的同行優惠服務」與本句語境不同。"
+        "courtesy-mcq-32": "本句的「discourtesy」指「無禮／一次失禮行為」。",
+        "courtesy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "courtesy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "courtesy-reviewed-1e25138d3f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "courtesy-mcq-32"
     }
@@ -1493,5 +1385,7 @@ export default {
     "sha256": "69c906ebc07b1a647e715fdb07775cc8d082ef27d82fc988f168422b1d0c0f2b",
     "pages": 26
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

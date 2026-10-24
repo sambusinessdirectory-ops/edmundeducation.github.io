@@ -1299,11 +1299,8 @@ export default {
       "masked": "She kept a ____ during the school year.",
       "options": [
         "diary-mcq-01",
-        "diary-mcq-02",
-        "diary-mcq-03",
-        "diary-mcq-04",
-        "diary-mcq-05",
-        "diary-mcq-06"
+        "diary-mcq-54",
+        "diary-mcq-51"
       ],
       "explanation": "本句的「diary」指「按日期記錄個人事件、思想與感受的日記」。",
       "sentenceIndex": 0,
@@ -1312,12 +1309,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-01": "本句指「按日期記錄個人事件、思想與感受的日記」。",
-        "diary-mcq-02": "「日記中的一篇／一則獨立記錄」與本句語境不同。",
-        "diary-mcq-03": "「寫一篇日記式記錄」與本句語境不同。",
-        "diary-mcq-04": "「在日記中新增一項／一篇記錄」與本句語境不同。",
-        "diary-mcq-05": "「長期、有規律地寫日記」與本句語境不同。",
-        "diary-mcq-06": "「在自己的日記中寫下內容」與本句語境不同。"
+        "diary-mcq-01": "本句的「diary」指「按日期記錄個人事件、思想與感受的日記」。",
+        "diary-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-01"
     },
@@ -1329,11 +1323,8 @@ export default {
       "masked": "Write a ____ entry from the victim’s point of view.",
       "options": [
         "diary-mcq-02",
-        "diary-mcq-01",
-        "diary-mcq-03",
-        "diary-mcq-04",
-        "diary-mcq-05",
-        "diary-mcq-06"
+        "diary-mcq-54",
+        "diary-mcq-51"
       ],
       "explanation": "本句的「diary」指「日記中的一篇／一則獨立記錄」。",
       "sentenceIndex": 1,
@@ -1342,12 +1333,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-02": "本句指「日記中的一篇／一則獨立記錄」。",
-        "diary-mcq-01": "「按日期記錄個人事件、思想與感受的日記」與本句語境不同。",
-        "diary-mcq-03": "「寫一篇日記式記錄」與本句語境不同。",
-        "diary-mcq-04": "「在日記中新增一項／一篇記錄」與本句語境不同。",
-        "diary-mcq-05": "「長期、有規律地寫日記」與本句語境不同。",
-        "diary-mcq-06": "「在自己的日記中寫下內容」與本句語境不同。"
+        "diary-mcq-02": "本句的「diary」指「日記中的一篇／一則獨立記錄」。",
+        "diary-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-02"
     },
@@ -1359,11 +1347,9 @@ export default {
       "masked": "Her final ____ entry described how she felt.",
       "options": [
         "diary-mcq-02",
-        "diary-mcq-01",
-        "diary-mcq-03",
-        "diary-mcq-04",
-        "diary-mcq-05",
-        "diary-mcq-06"
+        "diary-mcq-55",
+        "diary-mcq-56",
+        "diary-mcq-58"
       ],
       "explanation": "本句的「diary」指「日記中的一篇／一則獨立記錄」。",
       "sentenceIndex": 2,
@@ -1372,12 +1358,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-02": "本句指「日記中的一篇／一則獨立記錄」。",
-        "diary-mcq-01": "「按日期記錄個人事件、思想與感受的日記」與本句語境不同。",
-        "diary-mcq-03": "「寫一篇日記式記錄」與本句語境不同。",
-        "diary-mcq-04": "「在日記中新增一項／一篇記錄」與本句語境不同。",
-        "diary-mcq-05": "「長期、有規律地寫日記」與本句語境不同。",
-        "diary-mcq-06": "「在自己的日記中寫下內容」與本句語境不同。"
+        "diary-mcq-02": "本句的「diary」指「日記中的一篇／一則獨立記錄」。",
+        "diary-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-02"
     },
@@ -1389,11 +1373,8 @@ export default {
       "masked": "Students were asked to write a ____ entry after the role-play.",
       "options": [
         "diary-mcq-03",
-        "diary-mcq-02",
-        "diary-mcq-04",
-        "diary-mcq-01",
-        "diary-mcq-05",
-        "diary-mcq-06"
+        "diary-mcq-55",
+        "diary-mcq-56"
       ],
       "explanation": "本句的「diary」指「寫一篇日記式記錄」。",
       "sentenceIndex": 3,
@@ -1402,12 +1383,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-03": "本句指「寫一篇日記式記錄」。",
-        "diary-mcq-02": "「日記中的一篇／一則獨立記錄」與本句語境不同。",
-        "diary-mcq-04": "「在日記中新增一項／一篇記錄」與本句語境不同。",
-        "diary-mcq-01": "「按日期記錄個人事件、思想與感受的日記」與本句語境不同。",
-        "diary-mcq-05": "「長期、有規律地寫日記」與本句語境不同。",
-        "diary-mcq-06": "「在自己的日記中寫下內容」與本句語境不同。"
+        "diary-mcq-03": "本句的「diary」指「寫一篇日記式記錄」。",
+        "diary-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-03"
     },
@@ -1419,11 +1397,8 @@ export default {
       "masked": "She made a ____ entry every evening.",
       "options": [
         "diary-mcq-04",
-        "diary-mcq-03",
-        "diary-mcq-05",
-        "diary-mcq-02",
-        "diary-mcq-06",
-        "diary-mcq-01"
+        "diary-mcq-51",
+        "diary-mcq-54"
       ],
       "explanation": "本句的「diary」指「在日記中新增一項／一篇記錄」。",
       "sentenceIndex": 4,
@@ -1432,12 +1407,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-04": "本句指「在日記中新增一項／一篇記錄」。",
-        "diary-mcq-03": "「寫一篇日記式記錄」與本句語境不同。",
-        "diary-mcq-05": "「長期、有規律地寫日記」與本句語境不同。",
-        "diary-mcq-02": "「日記中的一篇／一則獨立記錄」與本句語境不同。",
-        "diary-mcq-06": "「在自己的日記中寫下內容」與本句語境不同。",
-        "diary-mcq-01": "「按日期記錄個人事件、思想與感受的日記」與本句語境不同。"
+        "diary-mcq-04": "本句的「diary」指「在日記中新增一項／一篇記錄」。",
+        "diary-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-04"
     },
@@ -1449,11 +1421,9 @@ export default {
       "masked": "He has kept a ____ since he was a teenager.",
       "options": [
         "diary-mcq-05",
-        "diary-mcq-04",
-        "diary-mcq-06",
-        "diary-mcq-03",
-        "diary-mcq-07",
-        "diary-mcq-02"
+        "diary-mcq-51",
+        "diary-mcq-54",
+        "diary-mcq-26"
       ],
       "explanation": "本句的「diary」指「長期、有規律地寫日記」。",
       "sentenceIndex": 5,
@@ -1462,12 +1432,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-05": "本句指「長期、有規律地寫日記」。",
-        "diary-mcq-04": "「在日記中新增一項／一篇記錄」與本句語境不同。",
-        "diary-mcq-06": "「在自己的日記中寫下內容」與本句語境不同。",
-        "diary-mcq-03": "「寫一篇日記式記錄」與本句語境不同。",
-        "diary-mcq-07": "「撰寫／持續創作一份日記」與本句語境不同。",
-        "diary-mcq-02": "「日記中的一篇／一則獨立記錄」與本句語境不同。"
+        "diary-mcq-05": "本句的「diary」指「長期、有規律地寫日記」。",
+        "diary-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-05"
     },
@@ -1479,11 +1447,8 @@ export default {
       "masked": "She wrote in her ____ before bed.",
       "options": [
         "diary-mcq-06",
-        "diary-mcq-05",
-        "diary-mcq-07",
-        "diary-mcq-04",
-        "diary-mcq-08",
-        "diary-mcq-03"
+        "diary-mcq-55",
+        "diary-mcq-25"
       ],
       "explanation": "本句的「diary」指「在自己的日記中寫下內容」。",
       "sentenceIndex": 6,
@@ -1492,12 +1457,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-06": "本句指「在自己的日記中寫下內容」。",
-        "diary-mcq-05": "「長期、有規律地寫日記」與本句語境不同。",
-        "diary-mcq-07": "「撰寫／持續創作一份日記」與本句語境不同。",
-        "diary-mcq-04": "「在日記中新增一項／一篇記錄」與本句語境不同。",
-        "diary-mcq-08": "「記錄個人生活與思想的個人日記」與本句語境不同。",
-        "diary-mcq-03": "「寫一篇日記式記錄」與本句語境不同。"
+        "diary-mcq-06": "本句的「diary」指「在自己的日記中寫下內容」。",
+        "diary-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-06"
     },
@@ -1509,11 +1471,9 @@ export default {
       "masked": "She keeps a digital ____ on her tablet.",
       "options": [
         "diary-mcq-14",
-        "diary-mcq-13",
-        "diary-mcq-15",
-        "diary-mcq-12",
-        "diary-mcq-16",
-        "diary-mcq-11"
+        "diary-mcq-51",
+        "diary-mcq-54",
+        "diary-mcq-24"
       ],
       "explanation": "本句的「diary」指「以電子裝置保存的數碼日記」。",
       "sentenceIndex": 7,
@@ -1522,12 +1482,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-14": "本句指「以電子裝置保存的數碼日記」。",
-        "diary-mcq-13": "「紙本日記；依語境亦可指紙本行事簿」與本句語境不同。",
-        "diary-mcq-15": "「電子形式的個人日記」與本句語境不同。",
-        "diary-mcq-12": "「手寫日記」與本句語境不同。",
-        "diary-mcq-16": "「電子日程表／電子行事曆」與本句語境不同。",
-        "diary-mcq-11": "「每天或幾乎每天記錄的日記」與本句語境不同。"
+        "diary-mcq-14": "本句的「diary」指「以電子裝置保存的數碼日記」。",
+        "diary-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-14"
     },
@@ -1539,11 +1497,8 @@ export default {
       "masked": "The students created a short video ____.",
       "options": [
         "diary-mcq-18",
-        "diary-mcq-17",
-        "diary-mcq-19",
-        "diary-mcq-16",
-        "diary-mcq-20",
-        "diary-mcq-15"
+        "diary-mcq-54",
+        "diary-mcq-51"
       ],
       "explanation": "本句的「diary」指「以影片形式連續記錄生活／經歷的視像日記」。",
       "sentenceIndex": 8,
@@ -1552,12 +1507,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-18": "本句指「以影片形式連續記錄生活／經歷的視像日記」。",
-        "diary-mcq-17": "「在網上保存／發布的日記」與本句語境不同。",
-        "diary-mcq-19": "「以聲音錄製的日記」與本句語境不同。",
-        "diary-mcq-16": "「電子日程表／電子行事曆」與本句語境不同。",
-        "diary-mcq-20": "「主要以相片按時間記錄的攝影日記」與本句語境不同。",
-        "diary-mcq-15": "「電子形式的個人日記」與本句語境不同。"
+        "diary-mcq-18": "本句的「diary」指「以影片形式連續記錄生活／經歷的視像日記」。",
+        "diary-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-18"
     },
@@ -1569,11 +1521,8 @@ export default {
       "masked": "She kept a travel ____ during her trip.",
       "options": [
         "diary-mcq-21",
-        "diary-mcq-20",
-        "diary-mcq-22",
-        "diary-mcq-19",
-        "diary-mcq-23",
-        "diary-mcq-18"
+        "diary-mcq-54",
+        "diary-mcq-51"
       ],
       "explanation": "本句的「diary」指「記錄旅程經歷的旅行日記」。",
       "sentenceIndex": 9,
@@ -1582,12 +1531,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-21": "本句指「記錄旅程經歷的旅行日記」。",
-        "diary-mcq-20": "「主要以相片按時間記錄的攝影日記」與本句語境不同。",
-        "diary-mcq-22": "「記錄假期經歷的假期日記」與本句語境不同。",
-        "diary-mcq-19": "「以聲音錄製的日記」與本句語境不同。",
-        "diary-mcq-23": "「田野研究期間記錄觀察與反思的田野日誌」與本句語境不同。",
-        "diary-mcq-18": "「以影片形式連續記錄生活／經歷的視像日記」與本句語境不同。"
+        "diary-mcq-21": "本句的「diary」指「記錄旅程經歷的旅行日記」。",
+        "diary-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-21"
     },
@@ -1599,11 +1545,8 @@ export default {
       "masked": "The researcher recorded observations in a field ____.",
       "options": [
         "diary-mcq-23",
-        "diary-mcq-22",
-        "diary-mcq-24",
-        "diary-mcq-21",
-        "diary-mcq-25",
-        "diary-mcq-20"
+        "diary-mcq-51",
+        "diary-mcq-14"
       ],
       "explanation": "本句的「diary」指「田野研究期間記錄觀察與反思的田野日誌」。",
       "sentenceIndex": 10,
@@ -1612,12 +1555,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-23": "本句指「田野研究期間記錄觀察與反思的田野日誌」。",
-        "diary-mcq-22": "「記錄假期經歷的假期日記」與本句語境不同。",
-        "diary-mcq-24": "「記錄研究決策、過程及反思的研究日誌」與本句語境不同。",
-        "diary-mcq-21": "「記錄旅程經歷的旅行日記」與本句語境不同。",
-        "diary-mcq-25": "「以反思經驗／學習為主要目的的反思日誌」與本句語境不同。",
-        "diary-mcq-20": "「主要以相片按時間記錄的攝影日記」與本句語境不同。"
+        "diary-mcq-23": "本句的「diary」指「田野研究期間記錄觀察與反思的田野日誌」。",
+        "diary-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-23"
     },
@@ -1629,11 +1569,9 @@ export default {
       "masked": "Researchers were asked to maintain a research ____.",
       "options": [
         "diary-mcq-24",
-        "diary-mcq-23",
-        "diary-mcq-25",
-        "diary-mcq-22",
-        "diary-mcq-26",
-        "diary-mcq-21"
+        "diary-mcq-54",
+        "diary-mcq-51",
+        "diary-mcq-14"
       ],
       "explanation": "本句的「diary」指「記錄研究決策、過程及反思的研究日誌」。",
       "sentenceIndex": 11,
@@ -1642,12 +1580,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-24": "本句指「記錄研究決策、過程及反思的研究日誌」。",
-        "diary-mcq-23": "「田野研究期間記錄觀察與反思的田野日誌」與本句語境不同。",
-        "diary-mcq-25": "「以反思經驗／學習為主要目的的反思日誌」與本句語境不同。",
-        "diary-mcq-22": "「記錄假期經歷的假期日記」與本句語境不同。",
-        "diary-mcq-26": "「持續記錄所學、困難、策略和進展的學習日誌」與本句語境不同。",
-        "diary-mcq-21": "「記錄旅程經歷的旅行日記」與本句語境不同。"
+        "diary-mcq-24": "本句的「diary」指「記錄研究決策、過程及反思的研究日誌」。",
+        "diary-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-24"
     },
@@ -1659,11 +1595,9 @@ export default {
       "masked": "Trainee teachers kept a reflective ____.",
       "options": [
         "diary-mcq-25",
-        "diary-mcq-24",
-        "diary-mcq-26",
-        "diary-mcq-23",
-        "diary-mcq-27",
-        "diary-mcq-22"
+        "diary-mcq-59",
+        "diary-mcq-05",
+        "diary-mcq-50"
       ],
       "explanation": "本句的「diary」指「以反思經驗／學習為主要目的的反思日誌」。",
       "sentenceIndex": 12,
@@ -1672,12 +1606,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-25": "本句指「以反思經驗／學習為主要目的的反思日誌」。",
-        "diary-mcq-24": "「記錄研究決策、過程及反思的研究日誌」與本句語境不同。",
-        "diary-mcq-26": "「持續記錄所學、困難、策略和進展的學習日誌」與本句語境不同。",
-        "diary-mcq-23": "「田野研究期間記錄觀察與反思的田野日誌」與本句語境不同。",
-        "diary-mcq-27": "「記錄學習活動、時間及進度的學習日誌」與本句語境不同。",
-        "diary-mcq-22": "「記錄假期經歷的假期日記」與本句語境不同。"
+        "diary-mcq-25": "本句的「diary」指「以反思經驗／學習為主要目的的反思日誌」。",
+        "diary-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-25"
     },
@@ -1689,11 +1621,9 @@ export default {
       "masked": "Students completed a weekly learning ____.",
       "options": [
         "diary-mcq-26",
-        "diary-mcq-25",
-        "diary-mcq-27",
-        "diary-mcq-24",
-        "diary-mcq-28",
-        "diary-mcq-23"
+        "diary-mcq-51",
+        "diary-mcq-54",
+        "diary-mcq-05"
       ],
       "explanation": "本句的「diary」指「持續記錄所學、困難、策略和進展的學習日誌」。",
       "sentenceIndex": 13,
@@ -1702,12 +1632,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-26": "本句指「持續記錄所學、困難、策略和進展的學習日誌」。",
-        "diary-mcq-25": "「以反思經驗／學習為主要目的的反思日誌」與本句語境不同。",
-        "diary-mcq-27": "「記錄學習活動、時間及進度的學習日誌」與本句語境不同。",
-        "diary-mcq-24": "「記錄研究決策、過程及反思的研究日誌」與本句語境不同。",
-        "diary-mcq-28": "「記錄閱讀內容及個人回應的閱讀日誌」與本句語境不同。",
-        "diary-mcq-23": "「田野研究期間記錄觀察與反思的田野日誌」與本句語境不同。"
+        "diary-mcq-26": "本句的「diary」指「持續記錄所學、困難、策略和進展的學習日誌」。",
+        "diary-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-26"
     },
@@ -1719,11 +1647,9 @@ export default {
       "masked": "Students kept a reading ____ throughout the term.",
       "options": [
         "diary-mcq-28",
-        "diary-mcq-27",
-        "diary-mcq-29",
-        "diary-mcq-26",
-        "diary-mcq-30",
-        "diary-mcq-25"
+        "diary-mcq-51",
+        "diary-mcq-54",
+        "diary-mcq-05"
       ],
       "explanation": "本句的「diary」指「記錄閱讀內容及個人回應的閱讀日誌」。",
       "sentenceIndex": 14,
@@ -1732,12 +1658,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-28": "本句指「記錄閱讀內容及個人回應的閱讀日誌」。",
-        "diary-mcq-27": "「記錄學習活動、時間及進度的學習日誌」與本句語境不同。",
-        "diary-mcq-29": "「記錄語言學習經歷和進度的語言學習日誌」與本句語境不同。",
-        "diary-mcq-26": "「持續記錄所學、困難、策略和進展的學習日誌」與本句語境不同。",
-        "diary-mcq-30": "「記錄每天工作活動／事項的工作日誌」與本句語境不同。",
-        "diary-mcq-25": "「以反思經驗／學習為主要目的的反思日誌」與本句語境不同。"
+        "diary-mcq-28": "本句的「diary」指「記錄閱讀內容及個人回應的閱讀日誌」。",
+        "diary-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-28"
     },
@@ -1749,11 +1673,9 @@ export default {
       "masked": "He keeps a detailed work ____.",
       "options": [
         "diary-mcq-30",
-        "diary-mcq-29",
-        "diary-mcq-31",
-        "diary-mcq-28",
-        "diary-mcq-32",
-        "diary-mcq-27"
+        "diary-mcq-55",
+        "diary-mcq-56",
+        "diary-mcq-05"
       ],
       "explanation": "本句的「diary」指「記錄每天工作活動／事項的工作日誌」。",
       "sentenceIndex": 15,
@@ -1762,12 +1684,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-30": "本句指「記錄每天工作活動／事項的工作日誌」。",
-        "diary-mcq-29": "「記錄語言學習經歷和進度的語言學習日誌」與本句語境不同。",
-        "diary-mcq-31": "「按時間記錄專案進展與決策的專案日誌」與本句語境不同。",
-        "diary-mcq-28": "「記錄閱讀內容及個人回應的閱讀日誌」與本句語境不同。",
-        "diary-mcq-32": "「記錄運動／訓練內容及進度的訓練日誌」與本句語境不同。",
-        "diary-mcq-27": "「記錄學習活動、時間及進度的學習日誌」與本句語境不同。"
+        "diary-mcq-30": "本句的「diary」指「記錄每天工作活動／事項的工作日誌」。",
+        "diary-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-30"
     },
@@ -1779,11 +1699,9 @@ export default {
       "masked": "She kept a food ____ for a week.",
       "options": [
         "diary-mcq-34",
-        "diary-mcq-33",
-        "diary-mcq-35",
-        "diary-mcq-32",
-        "diary-mcq-36",
-        "diary-mcq-31"
+        "diary-mcq-55",
+        "diary-mcq-56",
+        "diary-mcq-58"
       ],
       "explanation": "本句的「diary」指「按日記錄飲食內容的飲食日誌」。",
       "sentenceIndex": 16,
@@ -1792,12 +1710,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-34": "本句指「按日記錄飲食內容的飲食日誌」。",
-        "diary-mcq-33": "「持續記錄運動活動的運動日誌」與本句語境不同。",
-        "diary-mcq-35": "「為營養／飲食分析而記錄的膳食日誌」與本句語境不同。",
-        "diary-mcq-32": "「記錄運動／訓練內容及進度的訓練日誌」與本句語境不同。",
-        "diary-mcq-36": "「持續記錄症狀時間、程度、誘因等的症狀日誌」與本句語境不同。",
-        "diary-mcq-31": "「按時間記錄專案進展與決策的專案日誌」與本句語境不同。"
+        "diary-mcq-34": "本句的「diary」指「按日記錄飲食內容的飲食日誌」。",
+        "diary-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-34"
     },
@@ -1809,11 +1725,8 @@ export default {
       "masked": "Patients were asked to keep a symptom ____.",
       "options": [
         "diary-mcq-36",
-        "diary-mcq-35",
-        "diary-mcq-37",
-        "diary-mcq-34",
-        "diary-mcq-38",
-        "diary-mcq-33"
+        "diary-mcq-51",
+        "diary-mcq-14"
       ],
       "explanation": "本句的「diary」指「持續記錄症狀時間、程度、誘因等的症狀日誌」。",
       "sentenceIndex": 17,
@@ -1822,12 +1735,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-36": "本句指「持續記錄症狀時間、程度、誘因等的症狀日誌」。",
-        "diary-mcq-35": "「為營養／飲食分析而記錄的膳食日誌」與本句語境不同。",
-        "diary-mcq-37": "「持續記錄疼痛程度及相關因素的疼痛日誌」與本句語境不同。",
-        "diary-mcq-34": "「按日記錄飲食內容的飲食日誌」與本句語境不同。",
-        "diary-mcq-38": "「持續記錄偏頭痛／頭痛發作的日誌」與本句語境不同。",
-        "diary-mcq-33": "「持續記錄運動活動的運動日誌」與本句語境不同。"
+        "diary-mcq-36": "本句的「diary」指「持續記錄症狀時間、程度、誘因等的症狀日誌」。",
+        "diary-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-36"
     },
@@ -1839,11 +1749,9 @@ export default {
       "masked": "Participants completed a sleep ____.",
       "options": [
         "diary-mcq-39",
-        "diary-mcq-38",
-        "diary-mcq-40",
-        "diary-mcq-37",
-        "diary-mcq-41",
-        "diary-mcq-36"
+        "diary-mcq-50",
+        "diary-mcq-14",
+        "diary-mcq-58"
       ],
       "explanation": "本句的「diary」指「記錄入睡、醒來、睡眠時間等的睡眠日誌」。",
       "sentenceIndex": 18,
@@ -1852,12 +1760,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-39": "本句指「記錄入睡、醒來、睡眠時間等的睡眠日誌」。",
-        "diary-mcq-38": "「持續記錄偏頭痛／頭痛發作的日誌」與本句語境不同。",
-        "diary-mcq-40": "「持續記錄情緒變化的情緒日誌」與本句語境不同。",
-        "diary-mcq-37": "「持續記錄疼痛程度及相關因素的疼痛日誌」與本句語境不同。",
-        "diary-mcq-41": "「記錄用藥時間／反應的用藥日誌」與本句語境不同。",
-        "diary-mcq-36": "「持續記錄症狀時間、程度、誘因等的症狀日誌」與本句語境不同。"
+        "diary-mcq-39": "本句的「diary」指「記錄入睡、醒來、睡眠時間等的睡眠日誌」。",
+        "diary-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-39"
     },
@@ -1869,11 +1775,9 @@ export default {
       "masked": "A mood ____ can help identify patterns.",
       "options": [
         "diary-mcq-40",
-        "diary-mcq-39",
-        "diary-mcq-41",
-        "diary-mcq-38",
-        "diary-mcq-42",
-        "diary-mcq-37"
+        "diary-mcq-54",
+        "diary-mcq-51",
+        "diary-mcq-14"
       ],
       "explanation": "本句的「diary」指「持續記錄情緒變化的情緒日誌」。",
       "sentenceIndex": 19,
@@ -1882,12 +1786,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-40": "本句指「持續記錄情緒變化的情緒日誌」。",
-        "diary-mcq-39": "「記錄入睡、醒來、睡眠時間等的睡眠日誌」與本句語境不同。",
-        "diary-mcq-41": "「記錄用藥時間／反應的用藥日誌」與本句語境不同。",
-        "diary-mcq-38": "「持續記錄偏頭痛／頭痛發作的日誌」與本句語境不同。",
-        "diary-mcq-42": "「記錄懷孕期間經歷的懷孕日記」與本句語境不同。",
-        "diary-mcq-37": "「持續記錄疼痛程度及相關因素的疼痛日誌」與本句語境不同。"
+        "diary-mcq-40": "本句的「diary」指「持續記錄情緒變化的情緒日誌」。",
+        "diary-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-40"
     },
@@ -1899,11 +1801,8 @@ export default {
       "masked": "Let me check my ____.",
       "options": [
         "diary-pdf-plain-055",
-        "diary-mcq-14",
-        "diary-mcq-16",
-        "diary-mcq-13",
-        "diary-mcq-17",
-        "diary-mcq-12"
+        "diary-mcq-55",
+        "diary-mcq-05"
       ],
       "explanation": "本句的「diary」指「記錄未來約會及安排的行事曆／日程表」。",
       "sentenceIndex": 20,
@@ -1912,12 +1811,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-pdf-plain-055": "本句指「記錄未來約會及安排的行事曆／日程表」。",
-        "diary-mcq-14": "「以電子裝置保存的數碼日記」與本句語境不同。",
-        "diary-mcq-16": "「電子日程表／電子行事曆」與本句語境不同。",
-        "diary-mcq-13": "「紙本日記；依語境亦可指紙本行事簿」與本句語境不同。",
-        "diary-mcq-17": "「在網上保存／發布的日記」與本句語境不同。",
-        "diary-mcq-12": "「手寫日記」與本句語境不同。"
+        "diary-pdf-plain-055": "本句的「diary」指「記錄未來約會及安排的行事曆／日程表」。",
+        "diary-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-pdf-plain-055"
     },
@@ -1929,11 +1825,8 @@ export default {
       "masked": "My ____ is full next week.",
       "options": [
         "diary-pdf-plain-055",
-        "diary-mcq-14",
-        "diary-mcq-16",
-        "diary-mcq-13",
-        "diary-mcq-17",
-        "diary-mcq-12"
+        "diary-mcq-55",
+        "diary-mcq-14"
       ],
       "explanation": "本句的「diary」指「記錄未來約會及安排的行事曆／日程表」。",
       "sentenceIndex": 21,
@@ -1942,12 +1835,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-pdf-plain-055": "本句指「記錄未來約會及安排的行事曆／日程表」。",
-        "diary-mcq-14": "「以電子裝置保存的數碼日記」與本句語境不同。",
-        "diary-mcq-16": "「電子日程表／電子行事曆」與本句語境不同。",
-        "diary-mcq-13": "「紙本日記；依語境亦可指紙本行事簿」與本句語境不同。",
-        "diary-mcq-17": "「在網上保存／發布的日記」與本句語境不同。",
-        "diary-mcq-12": "「手寫日記」與本句語境不同。"
+        "diary-pdf-plain-055": "本句的「diary」指「記錄未來約會及安排的行事曆／日程表」。",
+        "diary-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-pdf-plain-055"
     },
@@ -1959,11 +1849,8 @@ export default {
       "masked": "I’ll check my ____ and call you back.",
       "options": [
         "diary-mcq-50",
-        "diary-mcq-49",
-        "diary-mcq-51",
-        "diary-mcq-48",
-        "diary-mcq-52",
-        "diary-mcq-47"
+        "diary-mcq-54",
+        "diary-mcq-01"
       ],
       "explanation": "本句的「diary」指「英式：查看自己的行程／日程表」。",
       "sentenceIndex": 22,
@@ -1972,12 +1859,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-50": "本句指「英式：查看自己的行程／日程表」。",
-        "diary-mcq-49": "「可隨身攜帶的小型行事簿」與本句語境不同。",
-        "diary-mcq-51": "「英式：把活動／會議排入行程」與本句語境不同。",
-        "diary-mcq-48": "「放在桌上使用的紙本日程簿」與本句語境不同。",
-        "diary-mcq-52": "「英式商務：安排一個日期／時間」與本句語境不同。",
-        "diary-mcq-47": "「專門記錄預約／約會的行事簿」與本句語境不同。"
+        "diary-mcq-50": "本句的「diary」指「英式：查看自己的行程／日程表」。",
+        "diary-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-50"
     },
@@ -1989,11 +1873,8 @@ export default {
       "masked": "Let’s put the meeting in the ____ for Thursday.",
       "options": [
         "diary-mcq-51",
-        "diary-mcq-50",
-        "diary-mcq-52",
-        "diary-mcq-49",
-        "diary-mcq-53",
-        "diary-mcq-48"
+        "diary-mcq-01",
+        "diary-mcq-25"
       ],
       "explanation": "本句的「diary」指「英式：把活動／會議排入行程」。",
       "sentenceIndex": 23,
@@ -2002,12 +1883,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-51": "本句指「英式：把活動／會議排入行程」。",
-        "diary-mcq-50": "「英式：查看自己的行程／日程表」與本句語境不同。",
-        "diary-mcq-52": "「英式商務：安排一個日期／時間」與本句語境不同。",
-        "diary-mcq-49": "「可隨身攜帶的小型行事簿」與本句語境不同。",
-        "diary-mcq-53": "「行程已經排滿」與本句語境不同。",
-        "diary-mcq-48": "「放在桌上使用的紙本日程簿」與本句語境不同。"
+        "diary-mcq-51": "本句的「diary」指「英式：把活動／會議排入行程」。",
+        "diary-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-51"
     },
@@ -2019,11 +1897,8 @@ export default {
       "masked": "Let’s get a meeting in the ____.",
       "options": [
         "diary-mcq-52",
-        "diary-mcq-51",
-        "diary-mcq-53",
-        "diary-mcq-50",
-        "diary-mcq-54",
-        "diary-mcq-49"
+        "diary-mcq-59",
+        "diary-mcq-15"
       ],
       "explanation": "本句的「diary」指「英式商務：安排一個日期／時間」。",
       "sentenceIndex": 24,
@@ -2032,12 +1907,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-52": "本句指「英式商務：安排一個日期／時間」。",
-        "diary-mcq-51": "「英式：把活動／會議排入行程」與本句語境不同。",
-        "diary-mcq-53": "「行程已經排滿」與本句語境不同。",
-        "diary-mcq-50": "「英式：查看自己的行程／日程表」與本句語境不同。",
-        "diary-mcq-54": "「把既有安排移開以騰出時間」與本句語境不同。",
-        "diary-mcq-49": "「可隨身攜帶的小型行事簿」與本句語境不同。"
+        "diary-mcq-52": "本句的「diary」指「英式商務：安排一個日期／時間」。",
+        "diary-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-52"
     },
@@ -2049,11 +1921,9 @@ export default {
       "masked": "She cleared her ____ for the afternoon.",
       "options": [
         "diary-mcq-54",
-        "diary-mcq-53",
-        "diary-mcq-55",
-        "diary-mcq-52",
-        "diary-mcq-56",
-        "diary-mcq-51"
+        "diary-mcq-40",
+        "diary-mcq-50",
+        "diary-mcq-05"
       ],
       "explanation": "本句的「diary」指「把既有安排移開以騰出時間」。",
       "sentenceIndex": 25,
@@ -2062,12 +1932,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-54": "本句指「把既有安排移開以騰出時間」。",
-        "diary-mcq-53": "「行程已經排滿」與本句語境不同。",
-        "diary-mcq-55": "「英式：兩個預約時間衝突；撞期」與本句語境不同。",
-        "diary-mcq-52": "「英式商務：安排一個日期／時間」與本句語境不同。",
-        "diary-mcq-56": "「管理他人的會議、約會和日程安排」與本句語境不同。",
-        "diary-mcq-51": "「英式：把活動／會議排入行程」與本句語境不同。"
+        "diary-mcq-54": "本句的「diary」指「把既有安排移開以騰出時間」。",
+        "diary-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-54"
     },
@@ -2079,11 +1947,9 @@ export default {
       "masked": "We had to postpone because of a ____ clash.",
       "options": [
         "diary-mcq-55",
-        "diary-mcq-54",
-        "diary-mcq-56",
-        "diary-mcq-53",
-        "diary-mcq-57",
-        "diary-mcq-52"
+        "diary-mcq-40",
+        "diary-mcq-14",
+        "diary-mcq-56"
       ],
       "explanation": "本句的「diary」指「英式：兩個預約時間衝突；撞期」。",
       "sentenceIndex": 26,
@@ -2092,12 +1958,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-55": "本句指「英式：兩個預約時間衝突；撞期」。",
-        "diary-mcq-54": "「把既有安排移開以騰出時間」與本句語境不同。",
-        "diary-mcq-56": "「管理他人的會議、約會和日程安排」與本句語境不同。",
-        "diary-mcq-53": "「行程已經排滿」與本句語境不同。",
-        "diary-mcq-57": "「多人共用的行事曆／日程表」與本句語境不同。",
-        "diary-mcq-52": "「英式商務：安排一個日期／時間」與本句語境不同。"
+        "diary-mcq-55": "本句的「diary」指「英式：兩個預約時間衝突；撞期」。",
+        "diary-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-55"
     },
@@ -2109,11 +1973,9 @@ export default {
       "masked": "The assistant handles the director’s ____ management.",
       "options": [
         "diary-mcq-56",
-        "diary-mcq-55",
-        "diary-mcq-57",
-        "diary-mcq-54",
-        "diary-mcq-58",
-        "diary-mcq-53"
+        "diary-mcq-28",
+        "diary-mcq-05",
+        "diary-mcq-55"
       ],
       "explanation": "本句的「diary」指「管理他人的會議、約會和日程安排」。",
       "sentenceIndex": 27,
@@ -2122,12 +1984,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-56": "本句指「管理他人的會議、約會和日程安排」。",
-        "diary-mcq-55": "「英式：兩個預約時間衝突；撞期」與本句語境不同。",
-        "diary-mcq-57": "「多人共用的行事曆／日程表」與本句語境不同。",
-        "diary-mcq-54": "「把既有安排移開以騰出時間」與本句語境不同。",
-        "diary-mcq-58": "「值得預先記入行事曆的重要日期」與本句語境不同。",
-        "diary-mcq-53": "「行程已經排滿」與本句語境不同。"
+        "diary-mcq-56": "本句的「diary」指「管理他人的會議、約會和日程安排」。",
+        "diary-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-56"
     },
@@ -2139,11 +1999,8 @@ export default {
       "masked": "All meetings are stored in the shared electronic ____.",
       "options": [
         "diary-mcq-15",
-        "diary-mcq-14",
-        "diary-mcq-16",
-        "diary-mcq-13",
-        "diary-mcq-17",
-        "diary-mcq-12"
+        "diary-mcq-55",
+        "diary-mcq-25"
       ],
       "explanation": "本句的「diary」指「電子形式的個人日記」。",
       "sentenceIndex": 28,
@@ -2152,12 +2009,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-15": "本句指「電子形式的個人日記」。",
-        "diary-mcq-14": "「以電子裝置保存的數碼日記」與本句語境不同。",
-        "diary-mcq-16": "「電子日程表／電子行事曆」與本句語境不同。",
-        "diary-mcq-13": "「紙本日記；依語境亦可指紙本行事簿」與本句語境不同。",
-        "diary-mcq-17": "「在網上保存／發布的日記」與本句語境不同。",
-        "diary-mcq-12": "「手寫日記」與本句語境不同。"
+        "diary-mcq-15": "本句的「diary」指「電子形式的個人日記」。",
+        "diary-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-15"
     },
@@ -2169,11 +2023,9 @@ export default {
       "masked": "Here is a date for your ____: 15 June.",
       "options": [
         "diary-mcq-58",
-        "diary-mcq-57",
-        "diary-mcq-59",
-        "diary-mcq-56",
-        "diary-mcq-60",
-        "diary-mcq-55"
+        "diary-mcq-54",
+        "diary-mcq-40",
+        "diary-mcq-50"
       ],
       "explanation": "本句的「diary」指「值得預先記入行事曆的重要日期」。",
       "sentenceIndex": 29,
@@ -2182,12 +2034,10 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-58": "本句指「值得預先記入行事曆的重要日期」。",
-        "diary-mcq-57": "「多人共用的行事曆／日程表」與本句語境不同。",
-        "diary-mcq-59": "「行事曆中的一項預約／活動記錄」與本句語境不同。",
-        "diary-mcq-56": "「管理他人的會議、約會和日程安排」與本句語境不同。",
-        "diary-mcq-60": "「讓參與者在一段時間反覆記錄經驗的日誌研究」與本句語境不同。",
-        "diary-mcq-55": "「英式：兩個預約時間衝突；撞期」與本句語境不同。"
+        "diary-mcq-58": "本句的「diary」指「值得預先記入行事曆的重要日期」。",
+        "diary-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-58"
     },
@@ -2199,11 +2049,8 @@ export default {
       "masked": "The meeting appears as a ____ entry for Tuesday.",
       "options": [
         "diary-mcq-59",
-        "diary-mcq-58",
-        "diary-mcq-60",
-        "diary-mcq-57",
-        "diary-mcq-61",
-        "diary-mcq-56"
+        "diary-mcq-52",
+        "diary-mcq-15"
       ],
       "explanation": "本句的「diary」指「行事曆中的一項預約／活動記錄」。",
       "sentenceIndex": 30,
@@ -2212,12 +2059,9 @@ export default {
         "diary"
       ],
       "optionReasons": {
-        "diary-mcq-59": "本句指「行事曆中的一項預約／活動記錄」。",
-        "diary-mcq-58": "「值得預先記入行事曆的重要日期」與本句語境不同。",
-        "diary-mcq-60": "「讓參與者在一段時間反覆記錄經驗的日誌研究」與本句語境不同。",
-        "diary-mcq-57": "「多人共用的行事曆／日程表」與本句語境不同。",
-        "diary-mcq-61": "「每天收集參與者日誌資料的研究方法」與本句語境不同。",
-        "diary-mcq-56": "「管理他人的會議、約會和日程安排」與本句語境不同。"
+        "diary-mcq-59": "本句的「diary」指「行事曆中的一項預約／活動記錄」。",
+        "diary-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "diary-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "diary-mcq-59"
     }
@@ -2229,5 +2073,7 @@ export default {
     "sha256": "0c2b836a11d692c1c530656962a36ab9e6d52a7023cbbb0075628531d9d623ca",
     "pages": 89
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

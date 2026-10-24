@@ -529,11 +529,9 @@ export default {
       "masked": "She works in a ____ environment.",
       "options": [
         "fast-mcq-01",
-        "fast-mcq-02",
-        "fast-mcq-03",
-        "fast-mcq-04",
-        "fast-mcq-05",
-        "fast-mcq-06"
+        "fast-mcq-16",
+        "fast-mcq-10",
+        "fast-mcq-23"
       ],
       "explanation": "本句的「fast-paced」指「以高速移動的；快的」。",
       "sentenceIndex": 0,
@@ -542,12 +540,10 @@ export default {
         "fast-paced"
       ],
       "optionReasons": {
-        "fast-mcq-01": "本句指「以高速移動的；快的」。",
-        "fast-mcq-02": "「在短時間內發生或迅速變化的；快速的」與本句語境不同。",
-        "fast-mcq-03": "「能以很高速度進行某項活動的」與本句語境不同。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。"
+        "fast-mcq-01": "本句的「fast-paced」指「以高速移動的；快的」。",
+        "fast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-01"
     },
@@ -559,11 +555,9 @@ export default {
       "masked": "Life in a big city can feel extremely ____.",
       "options": [
         "fast-mcq-01",
-        "fast-mcq-02",
-        "fast-mcq-03",
-        "fast-mcq-04",
-        "fast-mcq-05",
-        "fast-mcq-06"
+        "fast-mcq-14",
+        "fast-mcq-23",
+        "fast-mcq-08"
       ],
       "explanation": "本句的「fast-paced」指「以高速移動的；快的」。",
       "sentenceIndex": 1,
@@ -572,12 +566,10 @@ export default {
         "fast-paced"
       ],
       "optionReasons": {
-        "fast-mcq-01": "本句指「以高速移動的；快的」。",
-        "fast-mcq-02": "「在短時間內發生或迅速變化的；快速的」與本句語境不同。",
-        "fast-mcq-03": "「能以很高速度進行某項活動的」與本句語境不同。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。"
+        "fast-mcq-01": "本句的「fast-paced」指「以高速移動的；快的」。",
+        "fast-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-01"
     },
@@ -589,11 +581,9 @@ export default {
       "masked": "That is a very ____ car.",
       "options": [
         "fast-mcq-01",
-        "fast-mcq-02",
-        "fast-mcq-03",
-        "fast-mcq-04",
-        "fast-mcq-05",
-        "fast-mcq-06"
+        "fast-mcq-08",
+        "fast-mcq-15",
+        "fast-mcq-23"
       ],
       "explanation": "本句的「fast」指「以高速移動的；快的」。",
       "sentenceIndex": 2,
@@ -602,12 +592,10 @@ export default {
         "fast"
       ],
       "optionReasons": {
-        "fast-mcq-01": "本句指「以高速移動的；快的」。",
-        "fast-mcq-02": "「在短時間內發生或迅速變化的；快速的」與本句語境不同。",
-        "fast-mcq-03": "「能以很高速度進行某項活動的」與本句語境不同。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。"
+        "fast-mcq-01": "本句的「fast」指「以高速移動的；快的」。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-01"
     },
@@ -619,11 +607,9 @@ export default {
       "masked": "He is a ____ runner.",
       "options": [
         "fast-mcq-01",
-        "fast-mcq-02",
-        "fast-mcq-03",
-        "fast-mcq-04",
-        "fast-mcq-05",
-        "fast-mcq-06"
+        "fast-mcq-08",
+        "fast-mcq-23",
+        "fast-mcq-11"
       ],
       "explanation": "本句的「fast」指「以高速移動的；快的」。",
       "sentenceIndex": 3,
@@ -632,12 +618,10 @@ export default {
         "fast"
       ],
       "optionReasons": {
-        "fast-mcq-01": "本句指「以高速移動的；快的」。",
-        "fast-mcq-02": "「在短時間內發生或迅速變化的；快速的」與本句語境不同。",
-        "fast-mcq-03": "「能以很高速度進行某項活動的」與本句語境不同。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。"
+        "fast-mcq-01": "本句的「fast」指「以高速移動的；快的」。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-01"
     },
@@ -649,11 +633,9 @@ export default {
       "masked": "We need a ____.",
       "options": [
         "fast-mcq-02",
-        "fast-mcq-01",
-        "fast-mcq-03",
-        "fast-mcq-04",
-        "fast-mcq-05",
-        "fast-mcq-06"
+        "fast-mcq-11",
+        "fast-mcq-23",
+        "fast-mcq-08"
       ],
       "explanation": "本句的「fast response」指「在短時間內發生或迅速變化的；快速的」。",
       "sentenceIndex": 4,
@@ -662,12 +644,10 @@ export default {
         "fast response"
       ],
       "optionReasons": {
-        "fast-mcq-02": "本句指「在短時間內發生或迅速變化的；快速的」。",
-        "fast-mcq-01": "「以高速移動的；快的」與本句語境不同。",
-        "fast-mcq-03": "「能以很高速度進行某項活動的」與本句語境不同。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。"
+        "fast-mcq-02": "本句的「fast response」指「在短時間內發生或迅速變化的；快速的」。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-02"
     },
@@ -679,11 +659,9 @@ export default {
       "masked": "The company experienced ____.",
       "options": [
         "fast-mcq-02",
-        "fast-mcq-01",
-        "fast-mcq-03",
-        "fast-mcq-04",
-        "fast-mcq-05",
-        "fast-mcq-06"
+        "fast-mcq-07",
+        "fast-mcq-10",
+        "fast-mcq-08"
       ],
       "explanation": "本句的「fast growth」指「在短時間內發生或迅速變化的；快速的」。",
       "sentenceIndex": 5,
@@ -692,12 +670,10 @@ export default {
         "fast growth"
       ],
       "optionReasons": {
-        "fast-mcq-02": "本句指「在短時間內發生或迅速變化的；快速的」。",
-        "fast-mcq-01": "「以高速移動的；快的」與本句語境不同。",
-        "fast-mcq-03": "「能以很高速度進行某項活動的」與本句語境不同。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。"
+        "fast-mcq-02": "本句的「fast growth」指「在短時間內發生或迅速變化的；快速的」。",
+        "fast-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-02"
     },
@@ -709,11 +685,9 @@ export default {
       "masked": "She is a ____.",
       "options": [
         "fast-mcq-03",
-        "fast-mcq-02",
-        "fast-mcq-04",
-        "fast-mcq-01",
-        "fast-mcq-05",
-        "fast-mcq-06"
+        "fast-mcq-06",
+        "fast-mcq-10",
+        "fast-mcq-22"
       ],
       "explanation": "本句的「fast reader」指「能以很高速度進行某項活動的」。",
       "sentenceIndex": 6,
@@ -722,12 +696,10 @@ export default {
         "fast reader"
       ],
       "optionReasons": {
-        "fast-mcq-03": "本句指「能以很高速度進行某項活動的」。",
-        "fast-mcq-02": "「在短時間內發生或迅速變化的；快速的」與本句語境不同。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。",
-        "fast-mcq-01": "「以高速移動的；快的」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。"
+        "fast-mcq-03": "本句的「fast reader」指「能以很高速度進行某項活動的」。",
+        "fast-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-03"
     },
@@ -739,11 +711,9 @@ export default {
       "masked": "He is a ____.",
       "options": [
         "fast-mcq-03",
-        "fast-mcq-02",
-        "fast-mcq-04",
-        "fast-mcq-01",
-        "fast-mcq-05",
-        "fast-mcq-06"
+        "fast-mcq-22",
+        "fast-mcq-06",
+        "fast-mcq-10"
       ],
       "explanation": "本句的「fast learner」指「能以很高速度進行某項活動的」。",
       "sentenceIndex": 7,
@@ -752,12 +722,10 @@ export default {
         "fast learner"
       ],
       "optionReasons": {
-        "fast-mcq-03": "本句指「能以很高速度進行某項活動的」。",
-        "fast-mcq-02": "「在短時間內發生或迅速變化的；快速的」與本句語境不同。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。",
-        "fast-mcq-01": "「以高速移動的；快的」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。"
+        "fast-mcq-03": "本句的「fast learner」指「能以很高速度進行某項活動的」。",
+        "fast-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-03"
     },
@@ -769,11 +737,9 @@ export default {
       "masked": "The car was moving ____.",
       "options": [
         "fast-mcq-04",
-        "fast-mcq-03",
-        "fast-mcq-05",
-        "fast-mcq-02",
-        "fast-mcq-06",
-        "fast-mcq-01"
+        "fast-mcq-15",
+        "fast-mcq-11",
+        "fast-mcq-10"
       ],
       "explanation": "本句的「fast」指「以很快速度；快速地」。",
       "sentenceIndex": 8,
@@ -782,12 +748,10 @@ export default {
         "fast"
       ],
       "optionReasons": {
-        "fast-mcq-04": "本句指「以很快速度；快速地」。",
-        "fast-mcq-03": "「能以很高速度進行某項活動的」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-02": "「在短時間內發生或迅速變化的；快速的」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。",
-        "fast-mcq-01": "「以高速移動的；快的」與本句語境不同。"
+        "fast-mcq-04": "本句的「fast」指「以很快速度；快速地」。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-04"
     },
@@ -799,11 +763,9 @@ export default {
       "masked": "Time seems to pass ____.",
       "options": [
         "fast-mcq-04",
-        "fast-mcq-03",
-        "fast-mcq-05",
-        "fast-mcq-02",
-        "fast-mcq-06",
-        "fast-mcq-01"
+        "fast-mcq-07",
+        "fast-mcq-16",
+        "fast-mcq-10"
       ],
       "explanation": "本句的「fast」指「以很快速度；快速地」。",
       "sentenceIndex": 9,
@@ -812,12 +774,10 @@ export default {
         "fast"
       ],
       "optionReasons": {
-        "fast-mcq-04": "本句指「以很快速度；快速地」。",
-        "fast-mcq-03": "「能以很高速度進行某項活動的」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-02": "「在短時間內發生或迅速變化的；快速的」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。",
-        "fast-mcq-01": "「以高速移動的；快的」與本句語境不同。"
+        "fast-mcq-04": "本句的「fast」指「以很快速度；快速地」。",
+        "fast-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-04"
     },
@@ -829,11 +789,9 @@ export default {
       "masked": "Journalism can be a ____ profession.",
       "options": [
         "fast-mcq-05",
-        "fast-mcq-04",
-        "fast-mcq-06",
-        "fast-mcq-03",
-        "fast-mcq-07",
-        "fast-mcq-02"
+        "fast-mcq-11",
+        "fast-mcq-10",
+        "fast-mcq-15"
       ],
       "explanation": "本句的「fast-paced」指「活動多、變化快、節奏緊湊的」。",
       "sentenceIndex": 12,
@@ -842,12 +800,10 @@ export default {
         "fast-paced"
       ],
       "optionReasons": {
-        "fast-mcq-05": "本句指「活動多、變化快、節奏緊湊的」。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。",
-        "fast-mcq-03": "「能以很高速度進行某項活動的」與本句語境不同。",
-        "fast-mcq-07": "「牢牢固定、不容易移動的，較正式／舊式」與本句語境不同。",
-        "fast-mcq-02": "「在短時間內發生或迅速變化的；快速的」與本句語境不同。"
+        "fast-mcq-05": "本句的「fast-paced」指「活動多、變化快、節奏緊湊的」。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-05"
     },
@@ -859,11 +815,9 @@ export default {
       "masked": "He enjoys the energy of a ____.",
       "options": [
         "fast-mcq-05",
-        "fast-mcq-04",
-        "fast-mcq-06",
-        "fast-mcq-03",
-        "fast-mcq-07",
-        "fast-mcq-02"
+        "fast-mcq-15",
+        "fast-mcq-12",
+        "fast-mcq-23"
       ],
       "explanation": "本句的「fast-paced workplace」指「活動多、變化快、節奏緊湊的」。",
       "sentenceIndex": 13,
@@ -872,12 +826,10 @@ export default {
         "fast-paced workplace"
       ],
       "optionReasons": {
-        "fast-mcq-05": "本句指「活動多、變化快、節奏緊湊的」。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。",
-        "fast-mcq-03": "「能以很高速度進行某項活動的」與本句語境不同。",
-        "fast-mcq-07": "「牢牢固定、不容易移動的，較正式／舊式」與本句語境不同。",
-        "fast-mcq-02": "「在短時間內發生或迅速變化的；快速的」與本句語境不同。"
+        "fast-mcq-05": "本句的「fast-paced workplace」指「活動多、變化快、節奏緊湊的」。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-05"
     },
@@ -889,11 +841,9 @@ export default {
       "masked": "My watch is five minutes ____.",
       "options": [
         "fast-mcq-06",
-        "fast-mcq-05",
-        "fast-mcq-07",
-        "fast-mcq-04",
-        "fast-mcq-08",
-        "fast-mcq-03"
+        "fast-mcq-03",
+        "fast-mcq-11",
+        "fast-mcq-08"
       ],
       "explanation": "本句的「fast」指「顯示的時間比實際時間更晚；走快了的」。",
       "sentenceIndex": 16,
@@ -902,12 +852,10 @@ export default {
         "fast"
       ],
       "optionReasons": {
-        "fast-mcq-06": "本句指「顯示的時間比實際時間更晚；走快了的」。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-07": "「牢牢固定、不容易移動的，較正式／舊式」與本句語境不同。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。",
-        "fast-mcq-08": "「緊緊抓住、不放開」與本句語境不同。",
-        "fast-mcq-03": "「能以很高速度進行某項活動的」與本句語境不同。"
+        "fast-mcq-06": "本句的「fast」指「顯示的時間比實際時間更晚；走快了的」。",
+        "fast-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-06"
     },
@@ -919,11 +867,9 @@ export default {
       "masked": "That clock runs ____.",
       "options": [
         "fast-mcq-06",
-        "fast-mcq-05",
-        "fast-mcq-07",
-        "fast-mcq-04",
-        "fast-mcq-08",
-        "fast-mcq-03"
+        "fast-mcq-12",
+        "fast-mcq-10",
+        "fast-mcq-11"
       ],
       "explanation": "本句的「fast」指「顯示的時間比實際時間更晚；走快了的」。",
       "sentenceIndex": 17,
@@ -932,12 +878,10 @@ export default {
         "fast"
       ],
       "optionReasons": {
-        "fast-mcq-06": "本句指「顯示的時間比實際時間更晚；走快了的」。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-07": "「牢牢固定、不容易移動的，較正式／舊式」與本句語境不同。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。",
-        "fast-mcq-08": "「緊緊抓住、不放開」與本句語境不同。",
-        "fast-mcq-03": "「能以很高速度進行某項活動的」與本句語境不同。"
+        "fast-mcq-06": "本句的「fast」指「顯示的時間比實際時間更晚；走快了的」。",
+        "fast-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-06"
     },
@@ -949,11 +893,9 @@ export default {
       "masked": "The rope was made ____ to the post.",
       "options": [
         "fast-mcq-07",
-        "fast-mcq-06",
+        "fast-mcq-18",
         "fast-mcq-08",
-        "fast-mcq-05",
-        "fast-mcq-09",
-        "fast-mcq-04"
+        "fast-mcq-14"
       ],
       "explanation": "本句的「fast」指「牢牢固定、不容易移動的，較正式／舊式」。",
       "sentenceIndex": 20,
@@ -962,12 +904,10 @@ export default {
         "fast"
       ],
       "optionReasons": {
-        "fast-mcq-07": "本句指「牢牢固定、不容易移動的，較正式／舊式」。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。",
-        "fast-mcq-08": "「緊緊抓住、不放開」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-09": "「堅守信念、原則等」與本句語境不同。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。"
+        "fast-mcq-07": "本句的「fast」指「牢牢固定、不容易移動的，較正式／舊式」。",
+        "fast-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-07"
     },
@@ -979,11 +919,9 @@ export default {
       "masked": "The door was held ____.",
       "options": [
         "fast-mcq-07",
-        "fast-mcq-06",
+        "fast-mcq-19",
         "fast-mcq-08",
-        "fast-mcq-05",
-        "fast-mcq-09",
-        "fast-mcq-04"
+        "fast-mcq-15"
       ],
       "explanation": "本句的「fast」指「牢牢固定、不容易移動的，較正式／舊式」。",
       "sentenceIndex": 21,
@@ -992,12 +930,10 @@ export default {
         "fast"
       ],
       "optionReasons": {
-        "fast-mcq-07": "本句指「牢牢固定、不容易移動的，較正式／舊式」。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。",
-        "fast-mcq-08": "「緊緊抓住、不放開」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-09": "「堅守信念、原則等」與本句語境不同。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。"
+        "fast-mcq-07": "本句的「fast」指「牢牢固定、不容易移動的，較正式／舊式」。",
+        "fast-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-07"
     },
@@ -1009,11 +945,9 @@ export default {
       "masked": "____ to the rope.",
       "options": [
         "fast-mcq-08",
-        "fast-mcq-07",
-        "fast-mcq-09",
-        "fast-mcq-06",
-        "fast-mcq-10",
-        "fast-mcq-05"
+        "fast-mcq-11",
+        "fast-mcq-01",
+        "fast-mcq-15"
       ],
       "explanation": "本句的「Hold fast」指「緊緊抓住、不放開」。",
       "sentenceIndex": 22,
@@ -1022,12 +956,10 @@ export default {
         "Hold fast"
       ],
       "optionReasons": {
-        "fast-mcq-08": "本句指「緊緊抓住、不放開」。",
-        "fast-mcq-07": "「牢牢固定、不容易移動的，較正式／舊式」與本句語境不同。",
-        "fast-mcq-09": "「堅守信念、原則等」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。",
-        "fast-mcq-10": "「睡得很沉；熟睡的」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。"
+        "fast-mcq-08": "本句的「Hold fast」指「緊緊抓住、不放開」。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-08"
     },
@@ -1039,11 +971,9 @@ export default {
       "masked": "She ____ her principles.",
       "options": [
         "fast-mcq-08",
-        "fast-mcq-07",
-        "fast-mcq-09",
-        "fast-mcq-06",
-        "fast-mcq-10",
-        "fast-mcq-05"
+        "fast-mcq-11",
+        "fast-mcq-14",
+        "fast-mcq-19"
       ],
       "explanation": "本句的「held fast to」指「緊緊抓住、不放開」。",
       "sentenceIndex": 23,
@@ -1052,12 +982,10 @@ export default {
         "held fast to"
       ],
       "optionReasons": {
-        "fast-mcq-08": "本句指「緊緊抓住、不放開」。",
-        "fast-mcq-07": "「牢牢固定、不容易移動的，較正式／舊式」與本句語境不同。",
-        "fast-mcq-09": "「堅守信念、原則等」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。",
-        "fast-mcq-10": "「睡得很沉；熟睡的」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。"
+        "fast-mcq-08": "本句的「held fast to」指「緊緊抓住、不放開」。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-08"
     },
@@ -1069,11 +997,9 @@ export default {
       "masked": "The child was ____.",
       "options": [
         "fast-mcq-10",
-        "fast-mcq-09",
-        "fast-mcq-11",
-        "fast-mcq-08",
-        "fast-mcq-12",
-        "fast-mcq-07"
+        "fast-mcq-01",
+        "fast-mcq-22",
+        "fast-mcq-11"
       ],
       "explanation": "本句的「fast asleep」指「睡得很沉；熟睡的」。",
       "sentenceIndex": 24,
@@ -1082,12 +1008,10 @@ export default {
         "fast asleep"
       ],
       "optionReasons": {
-        "fast-mcq-10": "本句指「睡得很沉；熟睡的」。",
-        "fast-mcq-09": "「堅守信念、原則等」與本句語境不同。",
-        "fast-mcq-11": "「顏色在清洗／光照下不容易褪色的」與本句語境不同。",
-        "fast-mcq-08": "「緊緊抓住、不放開」與本句語境不同。",
-        "fast-mcq-12": "「最大光圈較大、能讓較多光進入的大光圈鏡頭」與本句語境不同。",
-        "fast-mcq-07": "「牢牢固定、不容易移動的，較正式／舊式」與本句語境不同。"
+        "fast-mcq-10": "本句的「fast asleep」指「睡得很沉；熟睡的」。",
+        "fast-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-10"
     },
@@ -1099,11 +1023,9 @@ export default {
       "masked": "He fell ____ on the sofa.",
       "options": [
         "fast-mcq-10",
-        "fast-mcq-09",
-        "fast-mcq-11",
-        "fast-mcq-08",
-        "fast-mcq-12",
-        "fast-mcq-07"
+        "fast-mcq-04",
+        "fast-mcq-15",
+        "fast-mcq-11"
       ],
       "explanation": "本句的「fast asleep」指「睡得很沉；熟睡的」。",
       "sentenceIndex": 25,
@@ -1112,12 +1034,10 @@ export default {
         "fast asleep"
       ],
       "optionReasons": {
-        "fast-mcq-10": "本句指「睡得很沉；熟睡的」。",
-        "fast-mcq-09": "「堅守信念、原則等」與本句語境不同。",
-        "fast-mcq-11": "「顏色在清洗／光照下不容易褪色的」與本句語境不同。",
-        "fast-mcq-08": "「緊緊抓住、不放開」與本句語境不同。",
-        "fast-mcq-12": "「最大光圈較大、能讓較多光進入的大光圈鏡頭」與本句語境不同。",
-        "fast-mcq-07": "「牢牢固定、不容易移動的，較正式／舊式」與本句語境不同。"
+        "fast-mcq-10": "本句的「fast asleep」指「睡得很沉；熟睡的」。",
+        "fast-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-10"
     },
@@ -1129,11 +1049,9 @@ export default {
       "masked": "The fabric is ____.",
       "options": [
         "fast-mcq-11",
-        "fast-mcq-10",
-        "fast-mcq-12",
-        "fast-mcq-09",
-        "fast-mcq-13",
-        "fast-mcq-08"
+        "fast-mcq-15",
+        "fast-mcq-01",
+        "fast-mcq-22"
       ],
       "explanation": "本句的「colourfast」指「顏色在清洗／光照下不容易褪色的」。",
       "sentenceIndex": 26,
@@ -1142,12 +1060,10 @@ export default {
         "colourfast"
       ],
       "optionReasons": {
-        "fast-mcq-11": "本句指「顏色在清洗／光照下不容易褪色的」。",
-        "fast-mcq-10": "「睡得很沉；熟睡的」與本句語境不同。",
-        "fast-mcq-12": "「最大光圈較大、能讓較多光進入的大光圈鏡頭」與本句語境不同。",
-        "fast-mcq-09": "「堅守信念、原則等」與本句語境不同。",
-        "fast-mcq-13": "「處理、傳輸或回應速度高的」與本句語境不同。",
-        "fast-mcq-08": "「緊緊抓住、不放開」與本句語境不同。"
+        "fast-mcq-11": "本句的「colourfast」指「顏色在清洗／光照下不容易褪色的」。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-11"
     },
@@ -1159,11 +1075,9 @@ export default {
       "masked": "Artists need ____ pigments.",
       "options": [
         "fast-mcq-11",
-        "fast-mcq-10",
-        "fast-mcq-12",
-        "fast-mcq-09",
-        "fast-mcq-13",
-        "fast-mcq-08"
+        "fast-mcq-06",
+        "fast-mcq-19",
+        "fast-mcq-21"
       ],
       "explanation": "本句的「lightfast」指「顏色在清洗／光照下不容易褪色的」。",
       "sentenceIndex": 27,
@@ -1172,12 +1086,10 @@ export default {
         "lightfast"
       ],
       "optionReasons": {
-        "fast-mcq-11": "本句指「顏色在清洗／光照下不容易褪色的」。",
-        "fast-mcq-10": "「睡得很沉；熟睡的」與本句語境不同。",
-        "fast-mcq-12": "「最大光圈較大、能讓較多光進入的大光圈鏡頭」與本句語境不同。",
-        "fast-mcq-09": "「堅守信念、原則等」與本句語境不同。",
-        "fast-mcq-13": "「處理、傳輸或回應速度高的」與本句語境不同。",
-        "fast-mcq-08": "「緊緊抓住、不放開」與本句語境不同。"
+        "fast-mcq-11": "本句的「lightfast」指「顏色在清洗／光照下不容易褪色的」。",
+        "fast-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-11"
     },
@@ -1189,11 +1101,9 @@ export default {
       "masked": "A ____ is useful in low light.",
       "options": [
         "fast-mcq-12",
-        "fast-mcq-11",
-        "fast-mcq-13",
-        "fast-mcq-10",
-        "fast-mcq-14",
-        "fast-mcq-09"
+        "fast-mcq-05",
+        "fast-mcq-08",
+        "fast-mcq-15"
       ],
       "explanation": "本句的「fast lens」指「最大光圈較大、能讓較多光進入的大光圈鏡頭」。",
       "sentenceIndex": 28,
@@ -1202,12 +1112,10 @@ export default {
         "fast lens"
       ],
       "optionReasons": {
-        "fast-mcq-12": "本句指「最大光圈較大、能讓較多光進入的大光圈鏡頭」。",
-        "fast-mcq-11": "「顏色在清洗／光照下不容易褪色的」與本句語境不同。",
-        "fast-mcq-13": "「處理、傳輸或回應速度高的」與本句語境不同。",
-        "fast-mcq-10": "「睡得很沉；熟睡的」與本句語境不同。",
-        "fast-mcq-14": "「一段時間內不進食；禁食／齋戒」與本句語境不同。",
-        "fast-mcq-09": "「堅守信念、原則等」與本句語境不同。"
+        "fast-mcq-12": "本句的「fast lens」指「最大光圈較大、能讓較多光進入的大光圈鏡頭」。",
+        "fast-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-12"
     },
@@ -1219,11 +1127,9 @@ export default {
       "masked": "She bought a ____.",
       "options": [
         "fast-mcq-12",
-        "fast-mcq-11",
-        "fast-mcq-13",
-        "fast-mcq-10",
-        "fast-mcq-14",
-        "fast-mcq-09"
+        "fast-mcq-22",
+        "fast-mcq-15",
+        "fast-mcq-23"
       ],
       "explanation": "本句的「fast prime lens」指「最大光圈較大、能讓較多光進入的大光圈鏡頭」。",
       "sentenceIndex": 29,
@@ -1232,12 +1138,10 @@ export default {
         "fast prime lens"
       ],
       "optionReasons": {
-        "fast-mcq-12": "本句指「最大光圈較大、能讓較多光進入的大光圈鏡頭」。",
-        "fast-mcq-11": "「顏色在清洗／光照下不容易褪色的」與本句語境不同。",
-        "fast-mcq-13": "「處理、傳輸或回應速度高的」與本句語境不同。",
-        "fast-mcq-10": "「睡得很沉；熟睡的」與本句語境不同。",
-        "fast-mcq-14": "「一段時間內不進食；禁食／齋戒」與本句語境不同。",
-        "fast-mcq-09": "「堅守信念、原則等」與本句語境不同。"
+        "fast-mcq-12": "本句的「fast prime lens」指「最大光圈較大、能讓較多光進入的大光圈鏡頭」。",
+        "fast-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-12"
     },
@@ -1249,11 +1153,9 @@ export default {
       "masked": "This is a very ____.",
       "options": [
         "fast-mcq-01",
-        "fast-mcq-02",
-        "fast-mcq-03",
-        "fast-mcq-04",
-        "fast-mcq-05",
-        "fast-mcq-06"
+        "fast-mcq-14",
+        "fast-mcq-08",
+        "fast-mcq-10"
       ],
       "explanation": "本句的「fast processor」指「以高速移動的；快的」。",
       "sentenceIndex": 30,
@@ -1262,12 +1164,10 @@ export default {
         "fast processor"
       ],
       "optionReasons": {
-        "fast-mcq-01": "本句指「以高速移動的；快的」。",
-        "fast-mcq-02": "「在短時間內發生或迅速變化的；快速的」與本句語境不同。",
-        "fast-mcq-03": "「能以很高速度進行某項活動的」與本句語境不同。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。"
+        "fast-mcq-01": "本句的「fast processor」指「以高速移動的；快的」。",
+        "fast-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-01"
     },
@@ -1279,11 +1179,9 @@ export default {
       "masked": "We need a ____.",
       "options": [
         "fast-mcq-01",
-        "fast-mcq-02",
-        "fast-mcq-03",
-        "fast-mcq-04",
-        "fast-mcq-05",
-        "fast-mcq-06"
+        "fast-mcq-08",
+        "fast-mcq-10",
+        "fast-mcq-15"
       ],
       "explanation": "本句的「fast internet connection」指「以高速移動的；快的」。",
       "sentenceIndex": 31,
@@ -1292,12 +1190,10 @@ export default {
         "fast internet connection"
       ],
       "optionReasons": {
-        "fast-mcq-01": "本句指「以高速移動的；快的」。",
-        "fast-mcq-02": "「在短時間內發生或迅速變化的；快速的」與本句語境不同。",
-        "fast-mcq-03": "「能以很高速度進行某項活動的」與本句語境不同。",
-        "fast-mcq-04": "「以很快速度；快速地」與本句語境不同。",
-        "fast-mcq-05": "「活動多、變化快、節奏緊湊的」與本句語境不同。",
-        "fast-mcq-06": "「顯示的時間比實際時間更晚；走快了的」與本句語境不同。"
+        "fast-mcq-01": "本句的「fast internet connection」指「以高速移動的；快的」。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-01"
     },
@@ -1309,11 +1205,9 @@ export default {
       "masked": "Some people ____ for religious reasons.",
       "options": [
         "fast-mcq-14",
-        "fast-mcq-13",
-        "fast-mcq-15",
-        "fast-mcq-12",
-        "fast-mcq-16",
-        "fast-mcq-11"
+        "fast-mcq-11",
+        "fast-mcq-22",
+        "fast-mcq-18"
       ],
       "explanation": "本句的「fast」指「一段時間內不進食；禁食／齋戒」。",
       "sentenceIndex": 32,
@@ -1322,12 +1216,10 @@ export default {
         "fast"
       ],
       "optionReasons": {
-        "fast-mcq-14": "本句指「一段時間內不進食；禁食／齋戒」。",
-        "fast-mcq-13": "「處理、傳輸或回應速度高的」與本句語境不同。",
-        "fast-mcq-15": "「禁食或齋戒的一段時間」與本句語境不同。",
-        "fast-mcq-12": "「最大光圈較大、能讓較多光進入的大光圈鏡頭」與本句語境不同。",
-        "fast-mcq-16": "「一段時間不進食的狀態；禁食／空腹」與本句語境不同。",
-        "fast-mcq-11": "「顏色在清洗／光照下不容易褪色的」與本句語境不同。"
+        "fast-mcq-14": "本句的「fast」指「一段時間內不進食；禁食／齋戒」。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-14"
     },
@@ -1339,11 +1231,9 @@ export default {
       "masked": "Patients may need to ____ before certain tests.",
       "options": [
         "fast-mcq-14",
-        "fast-mcq-13",
-        "fast-mcq-15",
-        "fast-mcq-12",
-        "fast-mcq-16",
-        "fast-mcq-11"
+        "fast-mcq-08",
+        "fast-mcq-07",
+        "fast-mcq-23"
       ],
       "explanation": "本句的「fast」指「一段時間內不進食；禁食／齋戒」。",
       "sentenceIndex": 33,
@@ -1352,12 +1242,10 @@ export default {
         "fast"
       ],
       "optionReasons": {
-        "fast-mcq-14": "本句指「一段時間內不進食；禁食／齋戒」。",
-        "fast-mcq-13": "「處理、傳輸或回應速度高的」與本句語境不同。",
-        "fast-mcq-15": "「禁食或齋戒的一段時間」與本句語境不同。",
-        "fast-mcq-12": "「最大光圈較大、能讓較多光進入的大光圈鏡頭」與本句語境不同。",
-        "fast-mcq-16": "「一段時間不進食的狀態；禁食／空腹」與本句語境不同。",
-        "fast-mcq-11": "「顏色在清洗／光照下不容易褪色的」與本句語境不同。"
+        "fast-mcq-14": "本句的「fast」指「一段時間內不進食；禁食／齋戒」。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-14"
     },
@@ -1369,11 +1257,9 @@ export default {
       "masked": "He ended his ____ in the evening.",
       "options": [
         "fast-mcq-15",
-        "fast-mcq-14",
-        "fast-mcq-16",
-        "fast-mcq-13",
-        "fast-mcq-17",
-        "fast-mcq-12"
+        "fast-mcq-07",
+        "fast-mcq-23",
+        "fast-mcq-22"
       ],
       "explanation": "本句的「fast」指「禁食或齋戒的一段時間」。",
       "sentenceIndex": 34,
@@ -1382,12 +1268,10 @@ export default {
         "fast"
       ],
       "optionReasons": {
-        "fast-mcq-15": "本句指「禁食或齋戒的一段時間」。",
-        "fast-mcq-14": "「一段時間內不進食；禁食／齋戒」與本句語境不同。",
-        "fast-mcq-16": "「一段時間不進食的狀態；禁食／空腹」與本句語境不同。",
-        "fast-mcq-13": "「處理、傳輸或回應速度高的」與本句語境不同。",
-        "fast-mcq-17": "「移動快或變化迅速的」與本句語境不同。",
-        "fast-mcq-12": "「最大光圈較大、能讓較多光進入的大光圈鏡頭」與本句語境不同。"
+        "fast-mcq-15": "本句的「fast」指「禁食或齋戒的一段時間」。",
+        "fast-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-15"
     },
@@ -1399,11 +1283,9 @@ export default {
       "masked": "The religious ____ lasts several hours.",
       "options": [
         "fast-mcq-15",
-        "fast-mcq-14",
-        "fast-mcq-16",
-        "fast-mcq-13",
-        "fast-mcq-17",
-        "fast-mcq-12"
+        "fast-mcq-18",
+        "fast-mcq-10",
+        "fast-mcq-05"
       ],
       "explanation": "本句的「fast」指「禁食或齋戒的一段時間」。",
       "sentenceIndex": 35,
@@ -1412,12 +1294,10 @@ export default {
         "fast"
       ],
       "optionReasons": {
-        "fast-mcq-15": "本句指「禁食或齋戒的一段時間」。",
-        "fast-mcq-14": "「一段時間內不進食；禁食／齋戒」與本句語境不同。",
-        "fast-mcq-16": "「一段時間不進食的狀態；禁食／空腹」與本句語境不同。",
-        "fast-mcq-13": "「處理、傳輸或回應速度高的」與本句語境不同。",
-        "fast-mcq-17": "「移動快或變化迅速的」與本句語境不同。",
-        "fast-mcq-12": "「最大光圈較大、能讓較多光進入的大光圈鏡頭」與本句語境不同。"
+        "fast-mcq-15": "本句的「fast」指「禁食或齋戒的一段時間」。",
+        "fast-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-15"
     },
@@ -1429,11 +1309,9 @@ export default {
       "masked": "The test requires eight hours of ____.",
       "options": [
         "fast-mcq-16",
-        "fast-mcq-15",
-        "fast-mcq-17",
-        "fast-mcq-14",
-        "fast-mcq-18",
-        "fast-mcq-13"
+        "fast-mcq-05",
+        "fast-mcq-08",
+        "fast-mcq-20"
       ],
       "explanation": "本句的「fasting」指「一段時間不進食的狀態；禁食／空腹」。",
       "sentenceIndex": 36,
@@ -1442,12 +1320,10 @@ export default {
         "fasting"
       ],
       "optionReasons": {
-        "fast-mcq-16": "本句指「一段時間不進食的狀態；禁食／空腹」。",
-        "fast-mcq-15": "「禁食或齋戒的一段時間」與本句語境不同。",
-        "fast-mcq-17": "「移動快或變化迅速的」與本句語境不同。",
-        "fast-mcq-14": "「一段時間內不進食；禁食／齋戒」與本句語境不同。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。",
-        "fast-mcq-13": "「處理、傳輸或回應速度高的」與本句語境不同。"
+        "fast-mcq-16": "本句的「fasting」指「一段時間不進食的狀態；禁食／空腹」。",
+        "fast-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-16"
     },
@@ -1459,11 +1335,9 @@ export default {
       "masked": "She was ____ before the blood test.",
       "options": [
         "fast-mcq-16",
-        "fast-mcq-15",
-        "fast-mcq-17",
-        "fast-mcq-14",
-        "fast-mcq-18",
-        "fast-mcq-13"
+        "fast-mcq-23",
+        "fast-mcq-07",
+        "fast-mcq-21"
       ],
       "explanation": "本句的「fasting」指「一段時間不進食的狀態；禁食／空腹」。",
       "sentenceIndex": 37,
@@ -1472,12 +1346,10 @@ export default {
         "fasting"
       ],
       "optionReasons": {
-        "fast-mcq-16": "本句指「一段時間不進食的狀態；禁食／空腹」。",
-        "fast-mcq-15": "「禁食或齋戒的一段時間」與本句語境不同。",
-        "fast-mcq-17": "「移動快或變化迅速的」與本句語境不同。",
-        "fast-mcq-14": "「一段時間內不進食；禁食／齋戒」與本句語境不同。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。",
-        "fast-mcq-13": "「處理、傳輸或回應速度高的」與本句語境不同。"
+        "fast-mcq-16": "本句的「fasting」指「一段時間不進食的狀態；禁食／空腹」。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-16"
     },
@@ -1489,11 +1361,9 @@ export default {
       "masked": "It is a ____.",
       "options": [
         "fast-mcq-17",
+        "fast-mcq-10",
         "fast-mcq-16",
-        "fast-mcq-18",
-        "fast-mcq-15",
-        "fast-mcq-19",
-        "fast-mcq-14"
+        "fast-mcq-23"
       ],
       "explanation": "本句的「fast-moving industry」指「移動快或變化迅速的」。",
       "sentenceIndex": 38,
@@ -1502,12 +1372,10 @@ export default {
         "fast-moving industry"
       ],
       "optionReasons": {
-        "fast-mcq-17": "本句指「移動快或變化迅速的」。",
-        "fast-mcq-16": "「一段時間不進食的狀態；禁食／空腹」與本句語境不同。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。",
-        "fast-mcq-15": "「禁食或齋戒的一段時間」與本句語境不同。",
-        "fast-mcq-19": "「讓程序、專案等更快進行的快速通道／加速處理」與本句語境不同。",
-        "fast-mcq-14": "「一段時間內不進食；禁食／齋戒」與本句語境不同。"
+        "fast-mcq-17": "本句的「fast-moving industry」指「移動快或變化迅速的」。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-17"
     },
@@ -1520,10 +1388,8 @@ export default {
       "options": [
         "fast-mcq-17",
         "fast-mcq-16",
-        "fast-mcq-18",
-        "fast-mcq-15",
-        "fast-mcq-19",
-        "fast-mcq-14"
+        "fast-mcq-10",
+        "fast-mcq-08"
       ],
       "explanation": "本句的「fast-moving」指「移動快或變化迅速的」。",
       "sentenceIndex": 39,
@@ -1532,12 +1398,10 @@ export default {
         "fast-moving"
       ],
       "optionReasons": {
-        "fast-mcq-17": "本句指「移動快或變化迅速的」。",
-        "fast-mcq-16": "「一段時間不進食的狀態；禁食／空腹」與本句語境不同。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。",
-        "fast-mcq-15": "「禁食或齋戒的一段時間」與本句語境不同。",
-        "fast-mcq-19": "「讓程序、專案等更快進行的快速通道／加速處理」與本句語境不同。",
-        "fast-mcq-14": "「一段時間內不進食；禁食／齋戒」與本句語境不同。"
+        "fast-mcq-17": "本句的「fast-moving」指「移動快或變化迅速的」。",
+        "fast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-17"
     },
@@ -1549,11 +1413,9 @@ export default {
       "masked": "It is a ____.",
       "options": [
         "fast-mcq-18",
-        "fast-mcq-17",
-        "fast-mcq-19",
+        "fast-mcq-08",
         "fast-mcq-16",
-        "fast-mcq-20",
-        "fast-mcq-15"
+        "fast-mcq-11"
       ],
       "explanation": "本句的「fast-growing company」指「規模、數量等快速增長的」。",
       "sentenceIndex": 40,
@@ -1562,12 +1424,10 @@ export default {
         "fast-growing company"
       ],
       "optionReasons": {
-        "fast-mcq-18": "本句指「規模、數量等快速增長的」。",
-        "fast-mcq-17": "「移動快或變化迅速的」與本句語境不同。",
-        "fast-mcq-19": "「讓程序、專案等更快進行的快速通道／加速處理」與本句語境不同。",
-        "fast-mcq-16": "「一段時間不進食的狀態；禁食／空腹」與本句語境不同。",
-        "fast-mcq-20": "「供較高速車輛使用的快線／高速車道」與本句語境不同。",
-        "fast-mcq-15": "「禁食或齋戒的一段時間」與本句語境不同。"
+        "fast-mcq-18": "本句的「fast-growing company」指「規模、數量等快速增長的」。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-18"
     },
@@ -1579,11 +1439,9 @@ export default {
       "masked": "The city has a ____.",
       "options": [
         "fast-mcq-18",
-        "fast-mcq-17",
-        "fast-mcq-19",
-        "fast-mcq-16",
-        "fast-mcq-20",
-        "fast-mcq-15"
+        "fast-mcq-15",
+        "fast-mcq-12",
+        "fast-mcq-11"
       ],
       "explanation": "本句的「fast-growing population」指「規模、數量等快速增長的」。",
       "sentenceIndex": 41,
@@ -1592,12 +1450,10 @@ export default {
         "fast-growing population"
       ],
       "optionReasons": {
-        "fast-mcq-18": "本句指「規模、數量等快速增長的」。",
-        "fast-mcq-17": "「移動快或變化迅速的」與本句語境不同。",
-        "fast-mcq-19": "「讓程序、專案等更快進行的快速通道／加速處理」與本句語境不同。",
-        "fast-mcq-16": "「一段時間不進食的狀態；禁食／空腹」與本句語境不同。",
-        "fast-mcq-20": "「供較高速車輛使用的快線／高速車道」與本句語境不同。",
-        "fast-mcq-15": "「禁食或齋戒的一段時間」與本句語境不同。"
+        "fast-mcq-18": "本句的「fast-growing population」指「規模、數量等快速增長的」。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-18"
     },
@@ -1609,11 +1465,9 @@ export default {
       "masked": "The application entered the ____.",
       "options": [
         "fast-mcq-19",
-        "fast-mcq-18",
-        "fast-mcq-20",
-        "fast-mcq-17",
-        "fast-mcq-21",
-        "fast-mcq-16"
+        "fast-mcq-08",
+        "fast-mcq-10",
+        "fast-mcq-07"
       ],
       "explanation": "本句的「fast-track process」指「讓程序、專案等更快進行的快速通道／加速處理」。",
       "sentenceIndex": 42,
@@ -1622,12 +1476,10 @@ export default {
         "fast-track process"
       ],
       "optionReasons": {
-        "fast-mcq-19": "本句指「讓程序、專案等更快進行的快速通道／加速處理」。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。",
-        "fast-mcq-20": "「供較高速車輛使用的快線／高速車道」與本句語境不同。",
-        "fast-mcq-17": "「移動快或變化迅速的」與本句語境不同。",
-        "fast-mcq-21": "「快節奏、高壓、競爭激烈的生活方式」與本句語境不同。",
-        "fast-mcq-16": "「一段時間不進食的狀態；禁食／空腹」與本句語境不同。"
+        "fast-mcq-19": "本句的「fast-track process」指「讓程序、專案等更快進行的快速通道／加速處理」。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-19"
     },
@@ -1639,11 +1491,9 @@ export default {
       "masked": "The project was ____.",
       "options": [
         "fast-mcq-19",
-        "fast-mcq-18",
-        "fast-mcq-20",
-        "fast-mcq-17",
-        "fast-mcq-21",
-        "fast-mcq-16"
+        "fast-mcq-11",
+        "fast-mcq-10",
+        "fast-mcq-15"
       ],
       "explanation": "本句的「fast-tracked」指「讓程序、專案等更快進行的快速通道／加速處理」。",
       "sentenceIndex": 43,
@@ -1652,12 +1502,10 @@ export default {
         "fast-tracked"
       ],
       "optionReasons": {
-        "fast-mcq-19": "本句指「讓程序、專案等更快進行的快速通道／加速處理」。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。",
-        "fast-mcq-20": "「供較高速車輛使用的快線／高速車道」與本句語境不同。",
-        "fast-mcq-17": "「移動快或變化迅速的」與本句語境不同。",
-        "fast-mcq-21": "「快節奏、高壓、競爭激烈的生活方式」與本句語境不同。",
-        "fast-mcq-16": "「一段時間不進食的狀態；禁食／空腹」與本句語境不同。"
+        "fast-mcq-19": "本句的「fast-tracked」指「讓程序、專案等更快進行的快速通道／加速處理」。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-19"
     },
@@ -1669,11 +1517,9 @@ export default {
       "masked": "Please respond ____.",
       "options": [
         "fast-mcq-20",
-        "fast-mcq-19",
-        "fast-mcq-21",
-        "fast-mcq-18",
-        "fast-mcq-22",
-        "fast-mcq-17"
+        "fast-mcq-11",
+        "fast-mcq-23",
+        "fast-mcq-10"
       ],
       "explanation": "本句的「as fast as possible」指「供較高速車輛使用的快線／高速車道」。",
       "sentenceIndex": 44,
@@ -1682,12 +1528,10 @@ export default {
         "as fast as possible"
       ],
       "optionReasons": {
-        "fast-mcq-20": "本句指「供較高速車輛使用的快線／高速車道」。",
-        "fast-mcq-19": "「讓程序、專案等更快進行的快速通道／加速處理」與本句語境不同。",
-        "fast-mcq-21": "「快節奏、高壓、競爭激烈的生活方式」與本句語境不同。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。",
-        "fast-mcq-22": "「節奏非常快而且激烈的」與本句語境不同。",
-        "fast-mcq-17": "「移動快或變化迅速的」與本句語境不同。"
+        "fast-mcq-20": "本句的「as fast as possible」指「供較高速車輛使用的快線／高速車道」。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-20"
     },
@@ -1699,11 +1543,9 @@ export default {
       "masked": "He ran ____.",
       "options": [
         "fast-mcq-20",
-        "fast-mcq-19",
-        "fast-mcq-21",
-        "fast-mcq-18",
-        "fast-mcq-22",
-        "fast-mcq-17"
+        "fast-mcq-11",
+        "fast-mcq-15",
+        "fast-mcq-23"
       ],
       "explanation": "本句的「as fast as possible」指「供較高速車輛使用的快線／高速車道」。",
       "sentenceIndex": 45,
@@ -1712,12 +1554,10 @@ export default {
         "as fast as possible"
       ],
       "optionReasons": {
-        "fast-mcq-20": "本句指「供較高速車輛使用的快線／高速車道」。",
-        "fast-mcq-19": "「讓程序、專案等更快進行的快速通道／加速處理」與本句語境不同。",
-        "fast-mcq-21": "「快節奏、高壓、競爭激烈的生活方式」與本句語境不同。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。",
-        "fast-mcq-22": "「節奏非常快而且激烈的」與本句語境不同。",
-        "fast-mcq-17": "「移動快或變化迅速的」與本句語境不同。"
+        "fast-mcq-20": "本句的「as fast as possible」指「供較高速車輛使用的快線／高速車道」。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-20"
     },
@@ -1729,11 +1569,9 @@ export default {
       "masked": "The action was ____.",
       "options": [
         "fast-mcq-22",
-        "fast-mcq-21",
-        "fast-mcq-23",
-        "fast-mcq-20",
-        "fast-mcq-19",
-        "fast-mcq-18"
+        "fast-mcq-03",
+        "fast-mcq-14",
+        "fast-mcq-23"
       ],
       "explanation": "本句的「fast and furious」指「節奏非常快而且激烈的」。",
       "sentenceIndex": 46,
@@ -1742,12 +1580,10 @@ export default {
         "fast and furious"
       ],
       "optionReasons": {
-        "fast-mcq-22": "本句指「節奏非常快而且激烈的」。",
-        "fast-mcq-21": "「快節奏、高壓、競爭激烈的生活方式」與本句語境不同。",
-        "fast-mcq-23": "「對規則、事實等草率、不負責任甚至不誠實地處理」與本句語境不同。",
-        "fast-mcq-20": "「供較高速車輛使用的快線／高速車道」與本句語境不同。",
-        "fast-mcq-19": "「讓程序、專案等更快進行的快速通道／加速處理」與本句語境不同。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。"
+        "fast-mcq-22": "本句的「fast and furious」指「節奏非常快而且激烈的」。",
+        "fast-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-22"
     },
@@ -1759,11 +1595,9 @@ export default {
       "masked": "The first few minutes were ____.",
       "options": [
         "fast-mcq-22",
-        "fast-mcq-21",
-        "fast-mcq-23",
-        "fast-mcq-20",
-        "fast-mcq-19",
-        "fast-mcq-18"
+        "fast-mcq-07",
+        "fast-mcq-08",
+        "fast-mcq-16"
       ],
       "explanation": "本句的「fast and furious」指「節奏非常快而且激烈的」。",
       "sentenceIndex": 47,
@@ -1772,12 +1606,10 @@ export default {
         "fast and furious"
       ],
       "optionReasons": {
-        "fast-mcq-22": "本句指「節奏非常快而且激烈的」。",
-        "fast-mcq-21": "「快節奏、高壓、競爭激烈的生活方式」與本句語境不同。",
-        "fast-mcq-23": "「對規則、事實等草率、不負責任甚至不誠實地處理」與本句語境不同。",
-        "fast-mcq-20": "「供較高速車輛使用的快線／高速車道」與本句語境不同。",
-        "fast-mcq-19": "「讓程序、專案等更快進行的快速通道／加速處理」與本句語境不同。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。"
+        "fast-mcq-22": "本句的「fast and furious」指「節奏非常快而且激烈的」。",
+        "fast-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-22"
     },
@@ -1789,11 +1621,9 @@ export default {
       "masked": "He had a reputation for ____.",
       "options": [
         "fast-mcq-21",
-        "fast-mcq-20",
-        "fast-mcq-22",
-        "fast-mcq-19",
-        "fast-mcq-23",
-        "fast-mcq-18"
+        "fast-mcq-12",
+        "fast-mcq-15",
+        "fast-mcq-08"
       ],
       "explanation": "本句的「living fast」指「快節奏、高壓、競爭激烈的生活方式」。",
       "sentenceIndex": 48,
@@ -1802,12 +1632,10 @@ export default {
         "living fast"
       ],
       "optionReasons": {
-        "fast-mcq-21": "本句指「快節奏、高壓、競爭激烈的生活方式」。",
-        "fast-mcq-20": "「供較高速車輛使用的快線／高速車道」與本句語境不同。",
-        "fast-mcq-22": "「節奏非常快而且激烈的」與本句語境不同。",
-        "fast-mcq-19": "「讓程序、專案等更快進行的快速通道／加速處理」與本句語境不同。",
-        "fast-mcq-23": "「對規則、事實等草率、不負責任甚至不誠實地處理」與本句語境不同。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。"
+        "fast-mcq-21": "本句的「living fast」指「快節奏、高壓、競爭激烈的生活方式」。",
+        "fast-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-21"
     },
@@ -1819,11 +1647,9 @@ export default {
       "masked": "The phrase “live ____” often suggests risk-taking.",
       "options": [
         "fast-mcq-21",
-        "fast-mcq-20",
-        "fast-mcq-22",
-        "fast-mcq-19",
         "fast-mcq-23",
-        "fast-mcq-18"
+        "fast-mcq-16",
+        "fast-mcq-12"
       ],
       "explanation": "本句的「fast」指「快節奏、高壓、競爭激烈的生活方式」。",
       "sentenceIndex": 49,
@@ -1832,12 +1658,10 @@ export default {
         "fast"
       ],
       "optionReasons": {
-        "fast-mcq-21": "本句指「快節奏、高壓、競爭激烈的生活方式」。",
-        "fast-mcq-20": "「供較高速車輛使用的快線／高速車道」與本句語境不同。",
-        "fast-mcq-22": "「節奏非常快而且激烈的」與本句語境不同。",
-        "fast-mcq-19": "「讓程序、專案等更快進行的快速通道／加速處理」與本句語境不同。",
-        "fast-mcq-23": "「對規則、事實等草率、不負責任甚至不誠實地處理」與本句語境不同。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。"
+        "fast-mcq-21": "本句的「fast」指「快節奏、高壓、競爭激烈的生活方式」。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-21"
     },
@@ -1849,11 +1673,9 @@ export default {
       "masked": "The car moved into the ____.",
       "options": [
         "fast-mcq-21",
-        "fast-mcq-20",
-        "fast-mcq-22",
-        "fast-mcq-19",
-        "fast-mcq-23",
-        "fast-mcq-18"
+        "fast-mcq-15",
+        "fast-mcq-10",
+        "fast-mcq-07"
       ],
       "explanation": "本句的「fast lane」指「快節奏、高壓、競爭激烈的生活方式」。",
       "sentenceIndex": 50,
@@ -1862,12 +1684,10 @@ export default {
         "fast lane"
       ],
       "optionReasons": {
-        "fast-mcq-21": "本句指「快節奏、高壓、競爭激烈的生活方式」。",
-        "fast-mcq-20": "「供較高速車輛使用的快線／高速車道」與本句語境不同。",
-        "fast-mcq-22": "「節奏非常快而且激烈的」與本句語境不同。",
-        "fast-mcq-19": "「讓程序、專案等更快進行的快速通道／加速處理」與本句語境不同。",
-        "fast-mcq-23": "「對規則、事實等草率、不負責任甚至不誠實地處理」與本句語境不同。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。"
+        "fast-mcq-21": "本句的「fast lane」指「快節奏、高壓、競爭激烈的生活方式」。",
+        "fast-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-21"
     },
@@ -1879,11 +1699,9 @@ export default {
       "masked": "She grew tired of life in the ____.",
       "options": [
         "fast-mcq-21",
-        "fast-mcq-20",
-        "fast-mcq-22",
-        "fast-mcq-19",
-        "fast-mcq-23",
-        "fast-mcq-18"
+        "fast-mcq-07",
+        "fast-mcq-16",
+        "fast-mcq-23"
       ],
       "explanation": "本句的「fast lane」指「快節奏、高壓、競爭激烈的生活方式」。",
       "sentenceIndex": 51,
@@ -1892,12 +1710,10 @@ export default {
         "fast lane"
       ],
       "optionReasons": {
-        "fast-mcq-21": "本句指「快節奏、高壓、競爭激烈的生活方式」。",
-        "fast-mcq-20": "「供較高速車輛使用的快線／高速車道」與本句語境不同。",
-        "fast-mcq-22": "「節奏非常快而且激烈的」與本句語境不同。",
-        "fast-mcq-19": "「讓程序、專案等更快進行的快速通道／加速處理」與本句語境不同。",
-        "fast-mcq-23": "「對規則、事實等草率、不負責任甚至不誠實地處理」與本句語境不同。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。"
+        "fast-mcq-21": "本句的「fast lane」指「快節奏、高壓、競爭激烈的生活方式」。",
+        "fast-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-21"
     },
@@ -1909,11 +1725,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "fast-mcq-23",
+        "fast-mcq-12",
         "fast-mcq-22",
-        "fast-mcq-21",
-        "fast-mcq-20",
-        "fast-mcq-19",
-        "fast-mcq-18"
+        "fast-mcq-02"
       ],
       "explanation": "本句的「play fast and loose with the facts」指「對規則、事實等草率、不負責任甚至不誠實地處理」。",
       "sentenceIndex": 52,
@@ -1922,12 +1736,10 @@ export default {
         "play fast and loose with the facts"
       ],
       "optionReasons": {
-        "fast-mcq-23": "本句指「對規則、事實等草率、不負責任甚至不誠實地處理」。",
-        "fast-mcq-22": "「節奏非常快而且激烈的」與本句語境不同。",
-        "fast-mcq-21": "「快節奏、高壓、競爭激烈的生活方式」與本句語境不同。",
-        "fast-mcq-20": "「供較高速車輛使用的快線／高速車道」與本句語境不同。",
-        "fast-mcq-19": "「讓程序、專案等更快進行的快速通道／加速處理」與本句語境不同。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。"
+        "fast-mcq-23": "本句的「play fast and loose with the facts」指「對規則、事實等草率、不負責任甚至不誠實地處理」。",
+        "fast-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-23"
     },
@@ -1939,11 +1751,9 @@ export default {
       "masked": "The company was accused of ____.",
       "options": [
         "fast-mcq-23",
-        "fast-mcq-22",
-        "fast-mcq-21",
-        "fast-mcq-20",
-        "fast-mcq-19",
-        "fast-mcq-18"
+        "fast-mcq-11",
+        "fast-mcq-17",
+        "fast-mcq-22"
       ],
       "explanation": "本句的「playing fast and loose with the rules」指「對規則、事實等草率、不負責任甚至不誠實地處理」。",
       "sentenceIndex": 53,
@@ -1952,12 +1762,10 @@ export default {
         "playing fast and loose with the rules"
       ],
       "optionReasons": {
-        "fast-mcq-23": "本句指「對規則、事實等草率、不負責任甚至不誠實地處理」。",
-        "fast-mcq-22": "「節奏非常快而且激烈的」與本句語境不同。",
-        "fast-mcq-21": "「快節奏、高壓、競爭激烈的生活方式」與本句語境不同。",
-        "fast-mcq-20": "「供較高速車輛使用的快線／高速車道」與本句語境不同。",
-        "fast-mcq-19": "「讓程序、專案等更快進行的快速通道／加速處理」與本句語境不同。",
-        "fast-mcq-18": "「規模、數量等快速增長的」與本句語境不同。"
+        "fast-mcq-23": "本句的「playing fast and loose with the rules」指「對規則、事實等草率、不負責任甚至不誠實地處理」。",
+        "fast-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fast-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fast-mcq-23"
     }
@@ -1969,5 +1777,7 @@ export default {
     "sha256": "90038dd968d9bd4076f6e0ca3354eb585b71a4426dc24a8a96d122cbf5eecb21",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

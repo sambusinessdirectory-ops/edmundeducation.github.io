@@ -447,11 +447,9 @@ export default {
       "masked": "He understood exactly why I had been ____.",
       "options": [
         "upset-mcq-01",
-        "upset-mcq-02",
-        "upset-mcq-03",
-        "upset-mcq-04",
-        "upset-mcq-05",
-        "upset-mcq-06"
+        "upset-mcq-20",
+        "upset-mcq-10",
+        "upset-mcq-18"
       ],
       "explanation": "本句的「upset」指「難過的；心煩的」。",
       "sentenceIndex": 0,
@@ -460,12 +458,10 @@ export default {
         "upset"
       ],
       "optionReasons": {
-        "upset-mcq-01": "本句指「難過的；心煩的」。",
-        "upset-mcq-02": "「感到難過」是「feel upset」的用法，與本句語境不同。",
-        "upset-mcq-03": "「變得難過／心煩」是「get upset」的用法，與本句語境不同。",
-        "upset-mcq-04": "「對 X 感到難過」是「upset about X」的用法，與本句語境不同。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。"
+        "upset-mcq-01": "本句的「upset」指「難過的；心煩的」。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-01"
     },
@@ -477,11 +473,9 @@ export default {
       "masked": "She was ____ after the argument.",
       "options": [
         "upset-mcq-01",
-        "upset-mcq-02",
-        "upset-mcq-03",
-        "upset-mcq-04",
-        "upset-mcq-05",
-        "upset-mcq-06"
+        "upset-mcq-10",
+        "upset-mcq-12",
+        "upset-mcq-18"
       ],
       "explanation": "本句的「upset」指「難過的；心煩的」。",
       "sentenceIndex": 1,
@@ -490,12 +484,10 @@ export default {
         "upset"
       ],
       "optionReasons": {
-        "upset-mcq-01": "本句指「難過的；心煩的」。",
-        "upset-mcq-02": "「感到難過」是「feel upset」的用法，與本句語境不同。",
-        "upset-mcq-03": "「變得難過／心煩」是「get upset」的用法，與本句語境不同。",
-        "upset-mcq-04": "「對 X 感到難過」是「upset about X」的用法，與本句語境不同。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。"
+        "upset-mcq-01": "本句的「upset」指「難過的；心煩的」。",
+        "upset-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-01"
     },
@@ -507,11 +499,9 @@ export default {
       "masked": "I was really ____ by what he said.",
       "options": [
         "upset-mcq-01",
-        "upset-mcq-02",
-        "upset-mcq-03",
-        "upset-mcq-04",
-        "upset-mcq-05",
-        "upset-mcq-06"
+        "upset-mcq-20",
+        "upset-mcq-18",
+        "upset-mcq-13"
       ],
       "explanation": "本句的「upset」指「難過的；心煩的」。",
       "sentenceIndex": 2,
@@ -520,12 +510,10 @@ export default {
         "upset"
       ],
       "optionReasons": {
-        "upset-mcq-01": "本句指「難過的；心煩的」。",
-        "upset-mcq-02": "「感到難過」是「feel upset」的用法，與本句語境不同。",
-        "upset-mcq-03": "「變得難過／心煩」是「get upset」的用法，與本句語境不同。",
-        "upset-mcq-04": "「對 X 感到難過」是「upset about X」的用法，與本句語境不同。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。"
+        "upset-mcq-01": "本句的「upset」指「難過的；心煩的」。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-01"
     },
@@ -537,11 +525,9 @@ export default {
       "masked": "I ____ after the meeting.",
       "options": [
         "upset-mcq-02",
-        "upset-mcq-01",
-        "upset-mcq-03",
-        "upset-mcq-04",
-        "upset-mcq-05",
-        "upset-mcq-06"
+        "upset-mcq-17",
+        "upset-mcq-13",
+        "upset-mcq-20"
       ],
       "explanation": "本句的「felt upset」指「感到難過」。",
       "sentenceIndex": 3,
@@ -550,12 +536,10 @@ export default {
         "felt upset"
       ],
       "optionReasons": {
-        "upset-mcq-02": "本句指「感到難過」。",
-        "upset-mcq-01": "「難過的；心煩的」是「upset (adj.)」的用法，與本句語境不同。",
-        "upset-mcq-03": "「變得難過／心煩」是「get upset」的用法，與本句語境不同。",
-        "upset-mcq-04": "「對 X 感到難過」是「upset about X」的用法，與本句語境不同。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。"
+        "upset-mcq-02": "本句的「felt upset」指「感到難過」。",
+        "upset-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-02"
     },
@@ -567,11 +551,9 @@ export default {
       "masked": "It's normal to ____ after being treated unfairly.",
       "options": [
         "upset-mcq-02",
-        "upset-mcq-01",
-        "upset-mcq-03",
-        "upset-mcq-04",
-        "upset-mcq-05",
-        "upset-mcq-06"
+        "upset-mcq-12",
+        "upset-mcq-13",
+        "upset-mcq-16"
       ],
       "explanation": "本句的「feel upset」指「感到難過」。",
       "sentenceIndex": 4,
@@ -580,12 +562,10 @@ export default {
         "feel upset"
       ],
       "optionReasons": {
-        "upset-mcq-02": "本句指「感到難過」。",
-        "upset-mcq-01": "「難過的；心煩的」是「upset (adj.)」的用法，與本句語境不同。",
-        "upset-mcq-03": "「變得難過／心煩」是「get upset」的用法，與本句語境不同。",
-        "upset-mcq-04": "「對 X 感到難過」是「upset about X」的用法，與本句語境不同。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。"
+        "upset-mcq-02": "本句的「feel upset」指「感到難過」。",
+        "upset-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-02"
     },
@@ -597,11 +577,9 @@ export default {
       "masked": "He ____ when he heard the criticism.",
       "options": [
         "upset-mcq-03",
-        "upset-mcq-02",
-        "upset-mcq-04",
-        "upset-mcq-01",
-        "upset-mcq-05",
-        "upset-mcq-06"
+        "upset-mcq-12",
+        "upset-mcq-16",
+        "upset-mcq-18"
       ],
       "explanation": "本句的「got upset」指「變得難過／心煩」。",
       "sentenceIndex": 5,
@@ -610,12 +588,10 @@ export default {
         "got upset"
       ],
       "optionReasons": {
-        "upset-mcq-03": "本句指「變得難過／心煩」。",
-        "upset-mcq-02": "「感到難過」是「feel upset」的用法，與本句語境不同。",
-        "upset-mcq-04": "「對 X 感到難過」是「upset about X」的用法，與本句語境不同。",
-        "upset-mcq-01": "「難過的；心煩的」是「upset (adj.)」的用法，與本句語境不同。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。"
+        "upset-mcq-03": "本句的「got upset」指「變得難過／心煩」。",
+        "upset-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-03"
     },
@@ -627,11 +603,9 @@ export default {
       "masked": "Don't ____ over one mistake.",
       "options": [
         "upset-mcq-03",
-        "upset-mcq-02",
-        "upset-mcq-04",
-        "upset-mcq-01",
-        "upset-mcq-05",
-        "upset-mcq-06"
+        "upset-mcq-18",
+        "upset-mcq-12",
+        "upset-mcq-17"
       ],
       "explanation": "本句的「get upset」指「變得難過／心煩」。",
       "sentenceIndex": 6,
@@ -640,12 +614,10 @@ export default {
         "get upset"
       ],
       "optionReasons": {
-        "upset-mcq-03": "本句指「變得難過／心煩」。",
-        "upset-mcq-02": "「感到難過」是「feel upset」的用法，與本句語境不同。",
-        "upset-mcq-04": "「對 X 感到難過」是「upset about X」的用法，與本句語境不同。",
-        "upset-mcq-01": "「難過的；心煩的」是「upset (adj.)」的用法，與本句語境不同。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。"
+        "upset-mcq-03": "本句的「get upset」指「變得難過／心煩」。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-03"
     },
@@ -657,11 +629,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "upset-mcq-04",
-        "upset-mcq-03",
-        "upset-mcq-05",
-        "upset-mcq-02",
-        "upset-mcq-06",
-        "upset-mcq-01"
+        "upset-mcq-17",
+        "upset-mcq-18",
+        "upset-mcq-12"
       ],
       "explanation": "本句的「upset about the misunderstanding」指「對 X 感到難過」。",
       "sentenceIndex": 7,
@@ -670,12 +640,10 @@ export default {
         "upset about the misunderstanding"
       ],
       "optionReasons": {
-        "upset-mcq-04": "本句指「對 X 感到難過」。",
-        "upset-mcq-03": "「變得難過／心煩」是「get upset」的用法，與本句語境不同。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。",
-        "upset-mcq-02": "「感到難過」是「feel upset」的用法，與本句語境不同。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。",
-        "upset-mcq-01": "「難過的；心煩的」是「upset (adj.)」的用法，與本句語境不同。"
+        "upset-mcq-04": "本句的「upset about the misunderstanding」指「對 X 感到難過」。",
+        "upset-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-04"
     },
@@ -687,11 +655,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "upset-mcq-04",
-        "upset-mcq-03",
-        "upset-mcq-05",
-        "upset-mcq-02",
-        "upset-mcq-06",
-        "upset-mcq-01"
+        "upset-mcq-13",
+        "upset-mcq-18",
+        "upset-mcq-20"
       ],
       "explanation": "本句的「upset about what happened」指「對 X 感到難過」。",
       "sentenceIndex": 8,
@@ -700,12 +666,10 @@ export default {
         "upset about what happened"
       ],
       "optionReasons": {
-        "upset-mcq-04": "本句指「對 X 感到難過」。",
-        "upset-mcq-03": "「變得難過／心煩」是「get upset」的用法，與本句語境不同。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。",
-        "upset-mcq-02": "「感到難過」是「feel upset」的用法，與本句語境不同。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。",
-        "upset-mcq-01": "「難過的；心煩的」是「upset (adj.)」的用法，與本句語境不同。"
+        "upset-mcq-04": "本句的「upset about what happened」指「對 X 感到難過」。",
+        "upset-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-04"
     },
@@ -717,11 +681,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "upset-mcq-19",
-        "upset-mcq-18",
         "upset-mcq-20",
         "upset-mcq-17",
-        "upset-mcq-16",
-        "upset-mcq-15"
+        "upset-mcq-10"
       ],
       "explanation": "本句的「upset by his comment」指「X 是造成情緒難受或不安的原因」。",
       "sentenceIndex": 9,
@@ -730,12 +692,10 @@ export default {
         "upset by his comment"
       ],
       "optionReasons": {
-        "upset-mcq-19": "本句指「X 是造成情緒難受或不安的原因」。",
-        "upset-mcq-18": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "upset-mcq-20": "「令容器或物件失去平衡而翻倒」是「13. upset（verb：弄翻；打翻） — 弄翻；打翻」的用法，與本句語境不同。",
-        "upset-mcq-17": "「爆冷擊敗對手」是「upset an opponent」的用法，與本句語境不同。",
-        "upset-mcq-16": "「爆冷；意外結果」是「an upset」的用法，與本句語境不同。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。"
+        "upset-mcq-19": "本句的「upset by his comment」指「X 是造成情緒難受或不安的原因」。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-19"
     },
@@ -747,11 +707,9 @@ export default {
       "masked": "She was deeply ____.",
       "options": [
         "upset-mcq-19",
-        "upset-mcq-18",
+        "upset-mcq-10",
         "upset-mcq-20",
-        "upset-mcq-17",
-        "upset-mcq-16",
-        "upset-mcq-15"
+        "upset-mcq-16"
       ],
       "explanation": "本句的「upset by the news」指「X 是造成情緒難受或不安的原因」。",
       "sentenceIndex": 10,
@@ -760,12 +718,10 @@ export default {
         "upset by the news"
       ],
       "optionReasons": {
-        "upset-mcq-19": "本句指「X 是造成情緒難受或不安的原因」。",
-        "upset-mcq-18": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "upset-mcq-20": "「令容器或物件失去平衡而翻倒」是「13. upset（verb：弄翻；打翻） — 弄翻；打翻」的用法，與本句語境不同。",
-        "upset-mcq-17": "「爆冷擊敗對手」是「upset an opponent」的用法，與本句語境不同。",
-        "upset-mcq-16": "「爆冷；意外結果」是「an upset」的用法，與本句語境不同。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。"
+        "upset-mcq-19": "本句的「upset by the news」指「X 是造成情緒難受或不安的原因」。",
+        "upset-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-19"
     },
@@ -777,11 +733,9 @@ export default {
       "masked": "I was ____ for blaming me unfairly.",
       "options": [
         "upset-mcq-06",
-        "upset-mcq-05",
-        "upset-mcq-07",
-        "upset-mcq-04",
-        "upset-mcq-08",
-        "upset-mcq-03"
+        "upset-mcq-13",
+        "upset-mcq-17",
+        "upset-mcq-20"
       ],
       "explanation": "本句的「upset with Kevin」指「對某人不滿」。",
       "sentenceIndex": 11,
@@ -790,12 +744,10 @@ export default {
         "upset with Kevin"
       ],
       "optionReasons": {
-        "upset-mcq-06": "本句指「對某人不滿」。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。",
-        "upset-mcq-07": "「令某人難過」是「upset someone」的用法，與本句語境不同。",
-        "upset-mcq-04": "「對 X 感到難過」是「upset about X」的用法，與本句語境不同。",
-        "upset-mcq-08": "「令人難過／不安的」是「upsetting」的用法，與本句語境不同。",
-        "upset-mcq-03": "「變得難過／心煩」是「get upset」的用法，與本句語境不同。"
+        "upset-mcq-06": "本句的「upset with Kevin」指「對某人不滿」。",
+        "upset-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-06"
     },
@@ -807,11 +759,9 @@ export default {
       "masked": "She's still ____.",
       "options": [
         "upset-mcq-06",
-        "upset-mcq-05",
-        "upset-mcq-07",
-        "upset-mcq-04",
-        "upset-mcq-08",
-        "upset-mcq-03"
+        "upset-mcq-18",
+        "upset-mcq-16",
+        "upset-mcq-13"
       ],
       "explanation": "本句的「upset with me」指「對某人不滿」。",
       "sentenceIndex": 12,
@@ -820,12 +770,10 @@ export default {
         "upset with me"
       ],
       "optionReasons": {
-        "upset-mcq-06": "本句指「對某人不滿」。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。",
-        "upset-mcq-07": "「令某人難過」是「upset someone」的用法，與本句語境不同。",
-        "upset-mcq-04": "「對 X 感到難過」是「upset about X」的用法，與本句語境不同。",
-        "upset-mcq-08": "「令人難過／不安的」是「upsetting」的用法，與本句語境不同。",
-        "upset-mcq-03": "「變得難過／心煩」是「get upset」的用法，與本句語境不同。"
+        "upset-mcq-06": "本句的「upset with me」指「對某人不滿」。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-06"
     },
@@ -837,11 +785,9 @@ export default {
       "masked": "I didn't mean to ____.",
       "options": [
         "upset-mcq-07",
-        "upset-mcq-06",
-        "upset-mcq-08",
-        "upset-mcq-05",
-        "upset-mcq-09",
-        "upset-mcq-04"
+        "upset-mcq-12",
+        "upset-mcq-13",
+        "upset-mcq-17"
       ],
       "explanation": "本句的「upset you」指「令某人難過」。",
       "sentenceIndex": 13,
@@ -850,12 +796,10 @@ export default {
         "upset you"
       ],
       "optionReasons": {
-        "upset-mcq-07": "本句指「令某人難過」。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。",
-        "upset-mcq-08": "「令人難過／不安的」是「upsetting」的用法，與本句語境不同。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。",
-        "upset-mcq-09": "「令人難過的消息」是「upsetting news」的用法，與本句語境不同。",
-        "upset-mcq-04": "「對 X 感到難過」是「upset about X」的用法，與本句語境不同。"
+        "upset-mcq-07": "本句的「upset you」指「令某人難過」。",
+        "upset-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-07"
     },
@@ -867,11 +811,9 @@ export default {
       "masked": "His words ____ more than I expected.",
       "options": [
         "upset-mcq-07",
-        "upset-mcq-06",
-        "upset-mcq-08",
-        "upset-mcq-05",
-        "upset-mcq-09",
-        "upset-mcq-04"
+        "upset-mcq-18",
+        "upset-mcq-12",
+        "upset-mcq-16"
       ],
       "explanation": "本句的「upset me」指「令某人難過」。",
       "sentenceIndex": 14,
@@ -880,12 +822,10 @@ export default {
         "upset me"
       ],
       "optionReasons": {
-        "upset-mcq-07": "本句指「令某人難過」。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。",
-        "upset-mcq-08": "「令人難過／不安的」是「upsetting」的用法，與本句語境不同。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。",
-        "upset-mcq-09": "「令人難過的消息」是「upsetting news」的用法，與本句語境不同。",
-        "upset-mcq-04": "「對 X 感到難過」是「upset about X」的用法，與本句語境不同。"
+        "upset-mcq-07": "本句的「upset me」指「令某人難過」。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-07"
     },
@@ -897,11 +837,9 @@ export default {
       "masked": "It was an ____.",
       "options": [
         "upset-mcq-08",
-        "upset-mcq-07",
-        "upset-mcq-09",
-        "upset-mcq-06",
-        "upset-mcq-10",
-        "upset-mcq-05"
+        "upset-mcq-13",
+        "upset-mcq-18",
+        "upset-mcq-12"
       ],
       "explanation": "本句的「upsetting experience」指「令人難過／不安的」。",
       "sentenceIndex": 15,
@@ -910,12 +848,10 @@ export default {
         "upsetting experience"
       ],
       "optionReasons": {
-        "upset-mcq-08": "本句指「令人難過／不安的」。",
-        "upset-mcq-07": "「令某人難過」是「upset someone」的用法，與本句語境不同。",
-        "upset-mcq-09": "「令人難過的消息」是「upsetting news」的用法，與本句語境不同。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。",
-        "upset-mcq-10": "「打亂計劃」是「upset a plan」的用法，與本句語境不同。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。"
+        "upset-mcq-08": "本句的「upsetting experience」指「令人難過／不安的」。",
+        "upset-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-08"
     },
@@ -927,11 +863,9 @@ export default {
       "masked": "The news was extremely ____.",
       "options": [
         "upset-mcq-08",
-        "upset-mcq-07",
-        "upset-mcq-09",
-        "upset-mcq-06",
-        "upset-mcq-10",
-        "upset-mcq-05"
+        "upset-mcq-12",
+        "upset-mcq-17",
+        "upset-mcq-10"
       ],
       "explanation": "本句的「upsetting」指「令人難過／不安的」。",
       "sentenceIndex": 16,
@@ -940,12 +874,10 @@ export default {
         "upsetting"
       ],
       "optionReasons": {
-        "upset-mcq-08": "本句指「令人難過／不安的」。",
-        "upset-mcq-07": "「令某人難過」是「upset someone」的用法，與本句語境不同。",
-        "upset-mcq-09": "「令人難過的消息」是「upsetting news」的用法，與本句語境不同。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。",
-        "upset-mcq-10": "「打亂計劃」是「upset a plan」的用法，與本句語境不同。",
-        "upset-mcq-05": "「被 X 弄得難過」是「upset by X」的用法，與本句語境不同。"
+        "upset-mcq-08": "本句的「upsetting」指「令人難過／不安的」。",
+        "upset-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-08"
     },
@@ -957,11 +889,9 @@ export default {
       "masked": "She received some ____.",
       "options": [
         "upset-mcq-09",
-        "upset-mcq-08",
-        "upset-mcq-10",
-        "upset-mcq-07",
-        "upset-mcq-11",
-        "upset-mcq-06"
+        "upset-mcq-16",
+        "upset-mcq-13",
+        "upset-mcq-12"
       ],
       "explanation": "本句的「upsetting news」指「令人難過的消息」。",
       "sentenceIndex": 17,
@@ -970,12 +900,10 @@ export default {
         "upsetting news"
       ],
       "optionReasons": {
-        "upset-mcq-09": "本句指「令人難過的消息」。",
-        "upset-mcq-08": "「令人難過／不安的」是「upsetting」的用法，與本句語境不同。",
-        "upset-mcq-10": "「打亂計劃」是「upset a plan」的用法，與本句語境不同。",
-        "upset-mcq-07": "「令某人難過」是「upset someone」的用法，與本句語境不同。",
-        "upset-mcq-11": "「打亂時間表」是「upset a schedule」的用法，與本句語境不同。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。"
+        "upset-mcq-09": "本句的「upsetting news」指「令人難過的消息」。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-09"
     },
@@ -987,11 +915,9 @@ export default {
       "masked": "Being blamed in public was an ____.",
       "options": [
         "upset-mcq-09",
-        "upset-mcq-08",
-        "upset-mcq-10",
-        "upset-mcq-07",
-        "upset-mcq-11",
-        "upset-mcq-06"
+        "upset-mcq-16",
+        "upset-mcq-13",
+        "upset-mcq-18"
       ],
       "explanation": "本句的「upsetting experience」指「令人難過的消息」。",
       "sentenceIndex": 18,
@@ -1000,12 +926,10 @@ export default {
         "upsetting experience"
       ],
       "optionReasons": {
-        "upset-mcq-09": "本句指「令人難過的消息」。",
-        "upset-mcq-08": "「令人難過／不安的」是「upsetting」的用法，與本句語境不同。",
-        "upset-mcq-10": "「打亂計劃」是「upset a plan」的用法，與本句語境不同。",
-        "upset-mcq-07": "「令某人難過」是「upset someone」的用法，與本句語境不同。",
-        "upset-mcq-11": "「打亂時間表」是「upset a schedule」的用法，與本句語境不同。",
-        "upset-mcq-06": "「對某人不滿」是「upset with someone」的用法，與本句語境不同。"
+        "upset-mcq-09": "本句的「upsetting experience」指「令人難過的消息」。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-09"
     },
@@ -1017,11 +941,9 @@ export default {
       "masked": "The delay ____.",
       "options": [
         "upset-mcq-10",
-        "upset-mcq-09",
-        "upset-mcq-11",
-        "upset-mcq-08",
-        "upset-mcq-12",
-        "upset-mcq-07"
+        "upset-mcq-07",
+        "upset-mcq-16",
+        "upset-mcq-18"
       ],
       "explanation": "本句的「upset our plans」指「打亂計劃」。",
       "sentenceIndex": 19,
@@ -1030,12 +952,10 @@ export default {
         "upset our plans"
       ],
       "optionReasons": {
-        "upset-mcq-10": "本句指「打亂計劃」。",
-        "upset-mcq-09": "「令人難過的消息」是「upsetting news」的用法，與本句語境不同。",
-        "upset-mcq-11": "「打亂時間表」是「upset a schedule」的用法，與本句語境不同。",
-        "upset-mcq-08": "「令人難過／不安的」是「upsetting」的用法，與本句語境不同。",
-        "upset-mcq-12": "「打破平衡」是「upset the balance」的用法，與本句語境不同。",
-        "upset-mcq-07": "「令某人難過」是「upset someone」的用法，與本句語境不同。"
+        "upset-mcq-10": "本句的「upset our plans」指「打亂計劃」。",
+        "upset-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-10"
     },
@@ -1047,11 +967,9 @@ export default {
       "masked": "The weather ____.",
       "options": [
         "upset-mcq-10",
-        "upset-mcq-09",
-        "upset-mcq-11",
-        "upset-mcq-08",
-        "upset-mcq-12",
-        "upset-mcq-07"
+        "upset-mcq-01",
+        "upset-mcq-17",
+        "upset-mcq-20"
       ],
       "explanation": "本句的「upset the schedule」指「打亂計劃」。",
       "sentenceIndex": 20,
@@ -1060,12 +978,10 @@ export default {
         "upset the schedule"
       ],
       "optionReasons": {
-        "upset-mcq-10": "本句指「打亂計劃」。",
-        "upset-mcq-09": "「令人難過的消息」是「upsetting news」的用法，與本句語境不同。",
-        "upset-mcq-11": "「打亂時間表」是「upset a schedule」的用法，與本句語境不同。",
-        "upset-mcq-08": "「令人難過／不安的」是「upsetting」的用法，與本句語境不同。",
-        "upset-mcq-12": "「打破平衡」是「upset the balance」的用法，與本句語境不同。",
-        "upset-mcq-07": "「令某人難過」是「upset someone」的用法，與本句語境不同。"
+        "upset-mcq-10": "本句的「upset the schedule」指「打亂計劃」。",
+        "upset-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-10"
     },
@@ -1077,11 +993,9 @@ export default {
       "masked": "The change ____ between the two sides.",
       "options": [
         "upset-mcq-12",
-        "upset-mcq-11",
-        "upset-mcq-13",
-        "upset-mcq-10",
-        "upset-mcq-14",
-        "upset-mcq-09"
+        "upset-mcq-06",
+        "upset-mcq-16",
+        "upset-mcq-18"
       ],
       "explanation": "本句的「upset the balance」指「打破平衡」。",
       "sentenceIndex": 21,
@@ -1090,12 +1004,10 @@ export default {
         "upset the balance"
       ],
       "optionReasons": {
-        "upset-mcq-12": "本句指「打破平衡」。",
-        "upset-mcq-11": "「打亂時間表」是「upset a schedule」的用法，與本句語境不同。",
-        "upset-mcq-13": "「打亂秩序／次序」是「upset the order」的用法，與本句語境不同。",
-        "upset-mcq-10": "「打亂計劃」是「upset a plan」的用法，與本句語境不同。",
-        "upset-mcq-14": "「弄翻杯子」是「upset a cup」的用法，與本句語境不同。",
-        "upset-mcq-09": "「令人難過的消息」是「upsetting news」的用法，與本句語境不同。"
+        "upset-mcq-12": "本句的「upset the balance」指「打破平衡」。",
+        "upset-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-12"
     },
@@ -1107,11 +1019,9 @@ export default {
       "masked": "Too much pressure can ____ of the system.",
       "options": [
         "upset-mcq-12",
-        "upset-mcq-11",
-        "upset-mcq-13",
-        "upset-mcq-10",
-        "upset-mcq-14",
-        "upset-mcq-09"
+        "upset-mcq-17",
+        "upset-mcq-09",
+        "upset-mcq-18"
       ],
       "explanation": "本句的「upset the balance」指「打破平衡」。",
       "sentenceIndex": 22,
@@ -1120,12 +1030,10 @@ export default {
         "upset the balance"
       ],
       "optionReasons": {
-        "upset-mcq-12": "本句指「打破平衡」。",
-        "upset-mcq-11": "「打亂時間表」是「upset a schedule」的用法，與本句語境不同。",
-        "upset-mcq-13": "「打亂秩序／次序」是「upset the order」的用法，與本句語境不同。",
-        "upset-mcq-10": "「打亂計劃」是「upset a plan」的用法，與本句語境不同。",
-        "upset-mcq-14": "「弄翻杯子」是「upset a cup」的用法，與本句語境不同。",
-        "upset-mcq-09": "「令人難過的消息」是「upsetting news」的用法，與本句語境不同。"
+        "upset-mcq-12": "本句的「upset the balance」指「打破平衡」。",
+        "upset-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-12"
     },
@@ -1137,11 +1045,9 @@ export default {
       "masked": "The interruption ____ of the programme.",
       "options": [
         "upset-mcq-13",
-        "upset-mcq-12",
-        "upset-mcq-14",
-        "upset-mcq-11",
-        "upset-mcq-15",
-        "upset-mcq-10"
+        "upset-mcq-04",
+        "upset-mcq-20",
+        "upset-mcq-17"
       ],
       "explanation": "本句的「upset the order」指「打亂秩序／次序」。",
       "sentenceIndex": 23,
@@ -1150,12 +1056,10 @@ export default {
         "upset the order"
       ],
       "optionReasons": {
-        "upset-mcq-13": "本句指「打亂秩序／次序」。",
-        "upset-mcq-12": "「打破平衡」是「upset the balance」的用法，與本句語境不同。",
-        "upset-mcq-14": "「弄翻杯子」是「upset a cup」的用法，與本句語境不同。",
-        "upset-mcq-11": "「打亂時間表」是「upset a schedule」的用法，與本句語境不同。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。",
-        "upset-mcq-10": "「打亂計劃」是「upset a plan」的用法，與本句語境不同。"
+        "upset-mcq-13": "本句的「upset the order」指「打亂秩序／次序」。",
+        "upset-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-13"
     },
@@ -1167,11 +1071,9 @@ export default {
       "masked": "Moving one part may ____.",
       "options": [
         "upset-mcq-13",
-        "upset-mcq-12",
-        "upset-mcq-14",
-        "upset-mcq-11",
-        "upset-mcq-15",
-        "upset-mcq-10"
+        "upset-mcq-06",
+        "upset-mcq-18",
+        "upset-mcq-20"
       ],
       "explanation": "本句的「upset the whole order」指「打亂秩序／次序」。",
       "sentenceIndex": 24,
@@ -1180,12 +1082,10 @@ export default {
         "upset the whole order"
       ],
       "optionReasons": {
-        "upset-mcq-13": "本句指「打亂秩序／次序」。",
-        "upset-mcq-12": "「打破平衡」是「upset the balance」的用法，與本句語境不同。",
-        "upset-mcq-14": "「弄翻杯子」是「upset a cup」的用法，與本句語境不同。",
-        "upset-mcq-11": "「打亂時間表」是「upset a schedule」的用法，與本句語境不同。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。",
-        "upset-mcq-10": "「打亂計劃」是「upset a plan」的用法，與本句語境不同。"
+        "upset-mcq-13": "本句的「upset the whole order」指「打亂秩序／次序」。",
+        "upset-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-13"
     },
@@ -1197,11 +1097,9 @@ export default {
       "masked": "He accidentally ____.",
       "options": [
         "upset-mcq-20",
-        "upset-mcq-19",
-        "upset-mcq-18",
-        "upset-mcq-17",
-        "upset-mcq-16",
-        "upset-mcq-15"
+        "upset-mcq-10",
+        "upset-mcq-06",
+        "upset-mcq-16"
       ],
       "explanation": "本句的「upset the cup」指「令容器或物件失去平衡而翻倒」。",
       "sentenceIndex": 25,
@@ -1210,12 +1108,10 @@ export default {
         "upset the cup"
       ],
       "optionReasons": {
-        "upset-mcq-20": "本句指「令容器或物件失去平衡而翻倒」。",
-        "upset-mcq-19": "「X 是造成情緒難受或不安的原因」是「5. be upset by something — 被某事弄得難過／不安」的用法，與本句語境不同。",
-        "upset-mcq-18": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "upset-mcq-17": "「爆冷擊敗對手」是「upset an opponent」的用法，與本句語境不同。",
-        "upset-mcq-16": "「爆冷；意外結果」是「an upset」的用法，與本句語境不同。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。"
+        "upset-mcq-20": "本句的「upset the cup」指「令容器或物件失去平衡而翻倒」。",
+        "upset-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-20"
     },
@@ -1227,11 +1123,9 @@ export default {
       "masked": "The dog ____.",
       "options": [
         "upset-mcq-20",
-        "upset-mcq-19",
         "upset-mcq-18",
-        "upset-mcq-17",
-        "upset-mcq-16",
-        "upset-mcq-15"
+        "upset-mcq-03",
+        "upset-mcq-16"
       ],
       "explanation": "本句的「upset the bowl」指「令容器或物件失去平衡而翻倒」。",
       "sentenceIndex": 26,
@@ -1240,12 +1134,10 @@ export default {
         "upset the bowl"
       ],
       "optionReasons": {
-        "upset-mcq-20": "本句指「令容器或物件失去平衡而翻倒」。",
-        "upset-mcq-19": "「X 是造成情緒難受或不安的原因」是「5. be upset by something — 被某事弄得難過／不安」的用法，與本句語境不同。",
-        "upset-mcq-18": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "upset-mcq-17": "「爆冷擊敗對手」是「upset an opponent」的用法，與本句語境不同。",
-        "upset-mcq-16": "「爆冷；意外結果」是「an upset」的用法，與本句語境不同。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。"
+        "upset-mcq-20": "本句的「upset the bowl」指「令容器或物件失去平衡而翻倒」。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-20"
     },
@@ -1257,11 +1149,9 @@ export default {
       "masked": "The incident caused a lot of ____.",
       "options": [
         "upset-mcq-15",
-        "upset-mcq-14",
+        "upset-mcq-20",
         "upset-mcq-16",
-        "upset-mcq-13",
-        "upset-mcq-17",
-        "upset-mcq-12"
+        "upset-mcq-10"
       ],
       "explanation": "本句的「upset」指「不快；困擾」。",
       "sentenceIndex": 27,
@@ -1270,12 +1160,10 @@ export default {
         "upset"
       ],
       "optionReasons": {
-        "upset-mcq-15": "本句指「不快；困擾」。",
-        "upset-mcq-14": "「弄翻杯子」是「upset a cup」的用法，與本句語境不同。",
-        "upset-mcq-16": "「爆冷；意外結果」是「an upset」的用法，與本句語境不同。",
-        "upset-mcq-13": "「打亂秩序／次序」是「upset the order」的用法，與本句語境不同。",
-        "upset-mcq-17": "「爆冷擊敗對手」是「upset an opponent」的用法，與本句語境不同。",
-        "upset-mcq-12": "「打破平衡」是「upset the balance」的用法，與本句語境不同。"
+        "upset-mcq-15": "本句的「upset」指「不快；困擾」。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-15"
     },
@@ -1287,11 +1175,9 @@ export default {
       "masked": "There was considerable ____ after the announcement.",
       "options": [
         "upset-mcq-15",
-        "upset-mcq-14",
-        "upset-mcq-16",
-        "upset-mcq-13",
+        "upset-mcq-20",
         "upset-mcq-17",
-        "upset-mcq-12"
+        "upset-mcq-10"
       ],
       "explanation": "本句的「upset」指「不快；困擾」。",
       "sentenceIndex": 28,
@@ -1300,12 +1186,10 @@ export default {
         "upset"
       ],
       "optionReasons": {
-        "upset-mcq-15": "本句指「不快；困擾」。",
-        "upset-mcq-14": "「弄翻杯子」是「upset a cup」的用法，與本句語境不同。",
-        "upset-mcq-16": "「爆冷；意外結果」是「an upset」的用法，與本句語境不同。",
-        "upset-mcq-13": "「打亂秩序／次序」是「upset the order」的用法，與本句語境不同。",
-        "upset-mcq-17": "「爆冷擊敗對手」是「upset an opponent」的用法，與本句語境不同。",
-        "upset-mcq-12": "「打破平衡」是「upset the balance」的用法，與本句語境不同。"
+        "upset-mcq-15": "本句的「upset」指「不快；困擾」。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-15"
     },
@@ -1317,11 +1201,9 @@ export default {
       "masked": "The match ended in a major ____.",
       "options": [
         "upset-mcq-16",
-        "upset-mcq-15",
-        "upset-mcq-17",
-        "upset-mcq-14",
-        "upset-mcq-18",
-        "upset-mcq-13"
+        "upset-mcq-02",
+        "upset-mcq-10",
+        "upset-mcq-12"
       ],
       "explanation": "本句的「upset」指「爆冷；意外結果」。",
       "sentenceIndex": 29,
@@ -1330,12 +1212,10 @@ export default {
         "upset"
       ],
       "optionReasons": {
-        "upset-mcq-16": "本句指「爆冷；意外結果」。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。",
-        "upset-mcq-17": "「爆冷擊敗對手」是「upset an opponent」的用法，與本句語境不同。",
-        "upset-mcq-14": "「弄翻杯子」是「upset a cup」的用法，與本句語境不同。",
-        "upset-mcq-18": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "upset-mcq-13": "「打亂秩序／次序」是「upset the order」的用法，與本句語境不同。"
+        "upset-mcq-16": "本句的「upset」指「爆冷；意外結果」。",
+        "upset-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-16"
     },
@@ -1347,11 +1227,9 @@ export default {
       "masked": "The lower-ranked player caused an ____.",
       "options": [
         "upset-mcq-16",
-        "upset-mcq-15",
-        "upset-mcq-17",
-        "upset-mcq-14",
-        "upset-mcq-18",
-        "upset-mcq-13"
+        "upset-mcq-06",
+        "upset-mcq-13",
+        "upset-mcq-18"
       ],
       "explanation": "本句的「upset」指「爆冷；意外結果」。",
       "sentenceIndex": 30,
@@ -1360,12 +1238,10 @@ export default {
         "upset"
       ],
       "optionReasons": {
-        "upset-mcq-16": "本句指「爆冷；意外結果」。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。",
-        "upset-mcq-17": "「爆冷擊敗對手」是「upset an opponent」的用法，與本句語境不同。",
-        "upset-mcq-14": "「弄翻杯子」是「upset a cup」的用法，與本句語境不同。",
-        "upset-mcq-18": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "upset-mcq-13": "「打亂秩序／次序」是「upset the order」的用法，與本句語境不同。"
+        "upset-mcq-16": "本句的「upset」指「爆冷；意外結果」。",
+        "upset-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-16"
     },
@@ -1377,11 +1253,9 @@ export default {
       "masked": "The underdog ____.",
       "options": [
         "upset-mcq-17",
-        "upset-mcq-16",
-        "upset-mcq-18",
-        "upset-mcq-15",
-        "upset-mcq-19",
-        "upset-mcq-14"
+        "upset-mcq-03",
+        "upset-mcq-20",
+        "upset-mcq-13"
       ],
       "explanation": "本句的「upset the defending champion」指「爆冷擊敗對手」。",
       "sentenceIndex": 31,
@@ -1390,12 +1264,10 @@ export default {
         "upset the defending champion"
       ],
       "optionReasons": {
-        "upset-mcq-17": "本句指「爆冷擊敗對手」。",
-        "upset-mcq-16": "「爆冷；意外結果」是「an upset」的用法，與本句語境不同。",
-        "upset-mcq-18": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。",
-        "upset-mcq-19": "「X 是造成情緒難受或不安的原因」是「5. be upset by something — 被某事弄得難過／不安」的用法，與本句語境不同。",
-        "upset-mcq-14": "「弄翻杯子」是「upset a cup」的用法，與本句語境不同。"
+        "upset-mcq-17": "本句的「upset the defending champion」指「爆冷擊敗對手」。",
+        "upset-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-17"
     },
@@ -1407,11 +1279,9 @@ export default {
       "masked": "The team ____.",
       "options": [
         "upset-mcq-17",
-        "upset-mcq-16",
+        "upset-mcq-01",
         "upset-mcq-18",
-        "upset-mcq-15",
-        "upset-mcq-19",
-        "upset-mcq-14"
+        "upset-mcq-20"
       ],
       "explanation": "本句的「upset a much stronger opponent」指「爆冷擊敗對手」。",
       "sentenceIndex": 32,
@@ -1420,12 +1290,10 @@ export default {
         "upset a much stronger opponent"
       ],
       "optionReasons": {
-        "upset-mcq-17": "本句指「爆冷擊敗對手」。",
-        "upset-mcq-16": "「爆冷；意外結果」是「an upset」的用法，與本句語境不同。",
-        "upset-mcq-18": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。",
-        "upset-mcq-19": "「X 是造成情緒難受或不安的原因」是「5. be upset by something — 被某事弄得難過／不安」的用法，與本句語境不同。",
-        "upset-mcq-14": "「弄翻杯子」是「upset a cup」的用法，與本句語境不同。"
+        "upset-mcq-17": "本句的「upset a much stronger opponent」指「爆冷擊敗對手」。",
+        "upset-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-17"
     },
@@ -1437,11 +1305,9 @@ export default {
       "masked": "I have an ____.",
       "options": [
         "upset-mcq-18",
-        "upset-mcq-17",
-        "upset-mcq-19",
-        "upset-mcq-16",
         "upset-mcq-20",
-        "upset-mcq-15"
+        "upset-mcq-06",
+        "upset-mcq-10"
       ],
       "explanation": "本句的「upset stomach」指「腸胃不適」。",
       "sentenceIndex": 33,
@@ -1450,12 +1316,10 @@ export default {
         "upset stomach"
       ],
       "optionReasons": {
-        "upset-mcq-18": "本句指「腸胃不適」。",
-        "upset-mcq-17": "「爆冷擊敗對手」是「upset an opponent」的用法，與本句語境不同。",
-        "upset-mcq-19": "「X 是造成情緒難受或不安的原因」是「5. be upset by something — 被某事弄得難過／不安」的用法，與本句語境不同。",
-        "upset-mcq-16": "「爆冷；意外結果」是「an upset」的用法，與本句語境不同。",
-        "upset-mcq-20": "「令容器或物件失去平衡而翻倒」是「13. upset（verb：弄翻；打翻） — 弄翻；打翻」的用法，與本句語境不同。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。"
+        "upset-mcq-18": "本句的「upset stomach」指「腸胃不適」。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-18"
     },
@@ -1467,11 +1331,9 @@ export default {
       "masked": "The food gave him an ____.",
       "options": [
         "upset-mcq-18",
-        "upset-mcq-17",
-        "upset-mcq-19",
-        "upset-mcq-16",
         "upset-mcq-20",
-        "upset-mcq-15"
+        "upset-mcq-10",
+        "upset-mcq-02"
       ],
       "explanation": "本句的「upset stomach」指「腸胃不適」。",
       "sentenceIndex": 34,
@@ -1480,12 +1342,10 @@ export default {
         "upset stomach"
       ],
       "optionReasons": {
-        "upset-mcq-18": "本句指「腸胃不適」。",
-        "upset-mcq-17": "「爆冷擊敗對手」是「upset an opponent」的用法，與本句語境不同。",
-        "upset-mcq-19": "「X 是造成情緒難受或不安的原因」是「5. be upset by something — 被某事弄得難過／不安」的用法，與本句語境不同。",
-        "upset-mcq-16": "「爆冷；意外結果」是「an upset」的用法，與本句語境不同。",
-        "upset-mcq-20": "「令容器或物件失去平衡而翻倒」是「13. upset（verb：弄翻；打翻） — 弄翻；打翻」的用法，與本句語境不同。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。"
+        "upset-mcq-18": "本句的「upset stomach」指「腸胃不適」。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-18"
     },
@@ -1497,11 +1357,9 @@ export default {
       "masked": "An ____ can make it hard to eat.",
       "options": [
         "upset-mcq-18",
-        "upset-mcq-17",
-        "upset-mcq-19",
+        "upset-mcq-07",
         "upset-mcq-16",
-        "upset-mcq-20",
-        "upset-mcq-15"
+        "upset-mcq-12"
       ],
       "explanation": "本句的「upset stomach」指「腸胃不適」。",
       "sentenceIndex": 35,
@@ -1510,12 +1368,10 @@ export default {
         "upset stomach"
       ],
       "optionReasons": {
-        "upset-mcq-18": "本句指「腸胃不適」。",
-        "upset-mcq-17": "「爆冷擊敗對手」是「upset an opponent」的用法，與本句語境不同。",
-        "upset-mcq-19": "「X 是造成情緒難受或不安的原因」是「5. be upset by something — 被某事弄得難過／不安」的用法，與本句語境不同。",
-        "upset-mcq-16": "「爆冷；意外結果」是「an upset」的用法，與本句語境不同。",
-        "upset-mcq-20": "「令容器或物件失去平衡而翻倒」是「13. upset（verb：弄翻；打翻） — 弄翻；打翻」的用法，與本句語境不同。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。"
+        "upset-mcq-18": "本句的「upset stomach」指「腸胃不適」。",
+        "upset-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-18"
     },
@@ -1527,11 +1383,9 @@ export default {
       "masked": "The system was temporarily ____ by the sudden change.",
       "options": [
         "upset-mcq-18",
-        "upset-mcq-17",
-        "upset-mcq-19",
-        "upset-mcq-16",
         "upset-mcq-20",
-        "upset-mcq-15"
+        "upset-mcq-06",
+        "upset-mcq-16"
       ],
       "explanation": "本句的「upset」指「腸胃不適」。",
       "sentenceIndex": 36,
@@ -1540,12 +1394,10 @@ export default {
         "upset"
       ],
       "optionReasons": {
-        "upset-mcq-18": "本句指「腸胃不適」。",
-        "upset-mcq-17": "「爆冷擊敗對手」是「upset an opponent」的用法，與本句語境不同。",
-        "upset-mcq-19": "「X 是造成情緒難受或不安的原因」是「5. be upset by something — 被某事弄得難過／不安」的用法，與本句語境不同。",
-        "upset-mcq-16": "「爆冷；意外結果」是「an upset」的用法，與本句語境不同。",
-        "upset-mcq-20": "「令容器或物件失去平衡而翻倒」是「13. upset（verb：弄翻；打翻） — 弄翻；打翻」的用法，與本句語境不同。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。"
+        "upset-mcq-18": "本句的「upset」指「腸胃不適」。",
+        "upset-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-18"
     },
@@ -1557,11 +1409,9 @@ export default {
       "masked": "The argument ____.",
       "options": [
         "upset-mcq-20",
-        "upset-mcq-19",
-        "upset-mcq-18",
-        "upset-mcq-17",
         "upset-mcq-16",
-        "upset-mcq-15"
+        "upset-mcq-18",
+        "upset-mcq-03"
       ],
       "explanation": "本句的「upset her for the rest of the day」指「令容器或物件失去平衡而翻倒」。",
       "sentenceIndex": 37,
@@ -1570,12 +1420,10 @@ export default {
         "upset her for the rest of the day"
       ],
       "optionReasons": {
-        "upset-mcq-20": "本句指「令容器或物件失去平衡而翻倒」。",
-        "upset-mcq-19": "「X 是造成情緒難受或不安的原因」是「5. be upset by something — 被某事弄得難過／不安」的用法，與本句語境不同。",
-        "upset-mcq-18": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "upset-mcq-17": "「爆冷擊敗對手」是「upset an opponent」的用法，與本句語境不同。",
-        "upset-mcq-16": "「爆冷；意外結果」是「an upset」的用法，與本句語境不同。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。"
+        "upset-mcq-20": "本句的「upset her for the rest of the day」指「令容器或物件失去平衡而翻倒」。",
+        "upset-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-20"
     },
@@ -1587,11 +1435,9 @@ export default {
       "masked": "Try not to let one comment ____.",
       "options": [
         "upset-mcq-20",
-        "upset-mcq-19",
-        "upset-mcq-18",
-        "upset-mcq-17",
-        "upset-mcq-16",
-        "upset-mcq-15"
+        "upset-mcq-01",
+        "upset-mcq-10",
+        "upset-mcq-18"
       ],
       "explanation": "本句的「upset you」指「令容器或物件失去平衡而翻倒」。",
       "sentenceIndex": 38,
@@ -1600,12 +1446,10 @@ export default {
         "upset you"
       ],
       "optionReasons": {
-        "upset-mcq-20": "本句指「令容器或物件失去平衡而翻倒」。",
-        "upset-mcq-19": "「X 是造成情緒難受或不安的原因」是「5. be upset by something — 被某事弄得難過／不安」的用法，與本句語境不同。",
-        "upset-mcq-18": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "upset-mcq-17": "「爆冷擊敗對手」是「upset an opponent」的用法，與本句語境不同。",
-        "upset-mcq-16": "「爆冷；意外結果」是「an upset」的用法，與本句語境不同。",
-        "upset-mcq-15": "「不快；困擾」是「upset (noun)」的用法，與本句語境不同。"
+        "upset-mcq-20": "本句的「upset you」指「令容器或物件失去平衡而翻倒」。",
+        "upset-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "upset-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upset-mcq-20"
     }
@@ -1617,5 +1461,7 @@ export default {
     "sha256": "e7137f4e9863ab271ab5f75a11ac51823acbd95f298e3ead231da1a2bd2c5222",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

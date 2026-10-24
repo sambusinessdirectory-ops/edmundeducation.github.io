@@ -237,16 +237,6 @@ export default {
       "note": "來源詞義：今天較早時",
       "examples": [
         [
-          "The meeting ended earlier than expected.",
-          "會議比預期早結束。",
-          "今天較早時"
-        ],
-        [
-          "She recovered earlier than expected.",
-          "她比預期更早康復。",
-          "今天較早時"
-        ],
-        [
           "I spoke to him earlier today.",
           "我今天較早時和他談過。",
           "今天較早時"
@@ -467,16 +457,6 @@ export default {
       "note": "來源詞義：早開始；提早出發",
       "examples": [
         [
-          "We had an early lunch.",
-          "我們提早吃了午飯。",
-          "早開始；提早出發"
-        ],
-        [
-          "The team made an early start.",
-          "團隊提早開始。",
-          "早開始；提早出發"
-        ],
-        [
           "We need an early start tomorrow.",
           "我們明天要一早開始／早起。",
           "早開始；提早出發"
@@ -577,6 +557,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "early-reviewed-8b6247e20d",
+      "title": "發生時間比原先預測更早",
+      "form": "early · source section 12",
+      "en": "發生時間比原先預測更早",
+      "zh": "發生時間比原先預測更早",
+      "note": "對照原始教材第 12 節及例句核實。",
+      "examples": [
+        [
+          "The meeting ended earlier than expected.",
+          "會議比預期早結束。",
+          "發生時間比原先預測更早"
+        ],
+        [
+          "She recovered earlier than expected.",
+          "她比預期更早康復。",
+          "發生時間比原先預測更早"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "early-reviewed-68b72919fd",
+      "title": "比通常或原定時間更早發生",
+      "form": "early · source section 24",
+      "en": "比通常或原定時間更早發生",
+      "zh": "比通常或原定時間更早發生",
+      "note": "對照原始教材第 24 節及例句核實。",
+      "examples": [
+        [
+          "We had an early lunch.",
+          "我們提早吃了午飯。",
+          "比通常或原定時間更早發生"
+        ],
+        [
+          "The team made an early start.",
+          "團隊提早開始。",
+          "比通常或原定時間更早發生"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -588,11 +612,9 @@ export default {
       "masked": "I began waking up ____.",
       "options": [
         "early-mcq-01",
-        "early-mcq-02",
-        "early-mcq-03",
-        "early-mcq-04",
-        "early-mcq-05",
-        "early-mcq-06"
+        "early-pdf-002",
+        "early-mcq-06",
+        "early-mcq-15"
       ],
       "explanation": "本句的「earlier」指「早；提早」。",
       "sentenceIndex": 0,
@@ -601,12 +623,10 @@ export default {
         "earlier"
       ],
       "optionReasons": {
-        "early-mcq-01": "本句指「早；提早」。",
-        "early-mcq-02": "「早起」與本句語境不同。",
-        "early-mcq-03": "「提早到」與本句語境不同。",
-        "early-mcq-04": "「清晨」與本句語境不同。",
-        "early-mcq-05": "「早期階段」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。"
+        "early-mcq-01": "本句的「earlier」指「早；提早」。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-01"
     },
@@ -618,11 +638,9 @@ export default {
       "masked": "I arrived ____ for the meeting.",
       "options": [
         "early-mcq-01",
-        "early-mcq-02",
-        "early-mcq-03",
+        "early-pdf-002",
         "early-mcq-04",
-        "early-mcq-05",
-        "early-mcq-06"
+        "early-mcq-15"
       ],
       "explanation": "本句的「early」指「早；提早」。",
       "sentenceIndex": 1,
@@ -631,12 +649,10 @@ export default {
         "early"
       ],
       "optionReasons": {
-        "early-mcq-01": "本句指「早；提早」。",
-        "early-mcq-02": "「早起」與本句語境不同。",
-        "early-mcq-03": "「提早到」與本句語境不同。",
-        "early-mcq-04": "「清晨」與本句語境不同。",
-        "early-mcq-05": "「早期階段」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。"
+        "early-mcq-01": "本句的「early」指「早；提早」。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-01"
     },
@@ -648,11 +664,9 @@ export default {
       "masked": "She went to bed ____.",
       "options": [
         "early-mcq-01",
-        "early-mcq-02",
-        "early-mcq-03",
         "early-mcq-04",
-        "early-mcq-05",
-        "early-mcq-06"
+        "early-mcq-15",
+        "early-pdf-002"
       ],
       "explanation": "本句的「early」指「早；提早」。",
       "sentenceIndex": 2,
@@ -661,12 +675,10 @@ export default {
         "early"
       ],
       "optionReasons": {
-        "early-mcq-01": "本句指「早；提早」。",
-        "early-mcq-02": "「早起」與本句語境不同。",
-        "early-mcq-03": "「提早到」與本句語境不同。",
-        "early-mcq-04": "「清晨」與本句語境不同。",
-        "early-mcq-05": "「早期階段」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。"
+        "early-mcq-01": "本句的「early」指「早；提早」。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-01"
     },
@@ -678,11 +690,9 @@ export default {
       "masked": "I do my best work in the ____.",
       "options": [
         "early-mcq-04",
-        "early-mcq-03",
-        "early-mcq-05",
-        "early-mcq-02",
-        "early-mcq-06",
-        "early-mcq-01"
+        "early-mcq-18",
+        "early-mcq-15",
+        "early-mcq-06"
       ],
       "explanation": "本句的「early morning」指「清晨」。",
       "sentenceIndex": 3,
@@ -691,12 +701,10 @@ export default {
         "early morning"
       ],
       "optionReasons": {
-        "early-mcq-04": "本句指「清晨」。",
-        "early-mcq-03": "「提早到」與本句語境不同。",
-        "early-mcq-05": "「早期階段」與本句語境不同。",
-        "early-mcq-02": "「早起」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。",
-        "early-mcq-01": "「早；提早」與本句語境不同。"
+        "early-mcq-04": "本句的「early morning」指「清晨」。",
+        "early-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-04"
     },
@@ -708,11 +716,9 @@ export default {
       "masked": "We left in the ____.",
       "options": [
         "early-mcq-04",
-        "early-mcq-03",
-        "early-mcq-05",
-        "early-mcq-02",
+        "early-mcq-18",
         "early-mcq-06",
-        "early-mcq-01"
+        "early-pdf-002"
       ],
       "explanation": "本句的「early morning」指「清晨」。",
       "sentenceIndex": 4,
@@ -721,12 +727,10 @@ export default {
         "early morning"
       ],
       "optionReasons": {
-        "early-mcq-04": "本句指「清晨」。",
-        "early-mcq-03": "「提早到」與本句語境不同。",
-        "early-mcq-05": "「早期階段」與本句語境不同。",
-        "early-mcq-02": "「早起」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。",
-        "early-mcq-01": "「早；提早」與本句語境不同。"
+        "early-mcq-04": "本句的「early morning」指「清晨」。",
+        "early-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-04"
     },
@@ -738,11 +742,9 @@ export default {
       "masked": "I usually exercise ____.",
       "options": [
         "early-mcq-04",
-        "early-mcq-03",
-        "early-mcq-05",
-        "early-mcq-02",
-        "early-mcq-06",
-        "early-mcq-01"
+        "early-mcq-08",
+        "early-pdf-002",
+        "early-mcq-15"
       ],
       "explanation": "本句的「early in the morning」指「清晨」。",
       "sentenceIndex": 5,
@@ -751,12 +753,10 @@ export default {
         "early in the morning"
       ],
       "optionReasons": {
-        "early-mcq-04": "本句指「清晨」。",
-        "early-mcq-03": "「提早到」與本句語境不同。",
-        "early-mcq-05": "「早期階段」與本句語境不同。",
-        "early-mcq-02": "「早起」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。",
-        "early-mcq-01": "「早；提早」與本句語境不同。"
+        "early-mcq-04": "本句的「early in the morning」指「清晨」。",
+        "early-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-04"
     },
@@ -768,11 +768,9 @@ export default {
       "masked": "The streets are quiet ____.",
       "options": [
         "early-mcq-04",
-        "early-mcq-03",
-        "early-mcq-05",
-        "early-mcq-02",
         "early-mcq-06",
-        "early-mcq-01"
+        "early-mcq-15",
+        "early-mcq-18"
       ],
       "explanation": "本句的「early in the morning」指「清晨」。",
       "sentenceIndex": 6,
@@ -781,12 +779,10 @@ export default {
         "early in the morning"
       ],
       "optionReasons": {
-        "early-mcq-04": "本句指「清晨」。",
-        "early-mcq-03": "「提早到」與本句語境不同。",
-        "early-mcq-05": "「早期階段」與本句語境不同。",
-        "early-mcq-02": "「早起」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。",
-        "early-mcq-01": "「早；提早」與本句語境不同。"
+        "early-mcq-04": "本句的「early in the morning」指「清晨」。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-04"
     },
@@ -799,10 +795,8 @@ export default {
       "options": [
         "early-pdf-001",
         "early-mcq-04",
-        "early-mcq-06",
-        "early-mcq-03",
-        "early-mcq-07",
-        "early-mcq-02"
+        "early-mcq-19",
+        "early-mcq-21"
       ],
       "explanation": "本句的「early」指「比原定、通常或預期時間早」。",
       "sentenceIndex": 7,
@@ -811,12 +805,10 @@ export default {
         "early"
       ],
       "optionReasons": {
-        "early-pdf-001": "本句指「比原定、通常或預期時間早」。",
-        "early-mcq-04": "「清晨」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。",
-        "early-mcq-03": "「提早到」與本句語境不同。",
-        "early-mcq-07": "「早年」與本句語境不同。",
-        "early-mcq-02": "「早起」與本句語境不同。"
+        "early-pdf-001": "本句的「early」指「比原定、通常或預期時間早」。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-pdf-001"
     },
@@ -829,10 +821,8 @@ export default {
       "options": [
         "early-pdf-001",
         "early-mcq-04",
-        "early-mcq-06",
-        "early-mcq-03",
-        "early-mcq-07",
-        "early-mcq-02"
+        "early-mcq-12",
+        "early-mcq-23"
       ],
       "explanation": "本句的「early」指「比原定、通常或預期時間早」。",
       "sentenceIndex": 8,
@@ -841,12 +831,10 @@ export default {
         "early"
       ],
       "optionReasons": {
-        "early-pdf-001": "本句指「比原定、通常或預期時間早」。",
-        "early-mcq-04": "「清晨」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。",
-        "early-mcq-03": "「提早到」與本句語境不同。",
-        "early-mcq-07": "「早年」與本句語境不同。",
-        "early-mcq-02": "「早起」與本句語境不同。"
+        "early-pdf-001": "本句的「early」指「比原定、通常或預期時間早」。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-pdf-001"
     },
@@ -858,11 +846,9 @@ export default {
       "masked": "The project is still in its ____.",
       "options": [
         "early-mcq-05",
-        "early-mcq-04",
-        "early-mcq-06",
-        "early-mcq-03",
-        "early-mcq-07",
-        "early-mcq-02"
+        "early-mcq-15",
+        "early-mcq-20",
+        "early-mcq-11"
       ],
       "explanation": "本句的「early stages」指「早期階段」。",
       "sentenceIndex": 9,
@@ -871,12 +857,10 @@ export default {
         "early stages"
       ],
       "optionReasons": {
-        "early-mcq-05": "本句指「早期階段」。",
-        "early-mcq-04": "「清晨」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。",
-        "early-mcq-03": "「提早到」與本句語境不同。",
-        "early-mcq-07": "「早年」與本句語境不同。",
-        "early-mcq-02": "「早起」與本句語境不同。"
+        "early-mcq-05": "本句的「early stages」指「早期階段」。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-05"
     },
@@ -889,10 +873,8 @@ export default {
       "options": [
         "early-mcq-05",
         "early-mcq-04",
-        "early-mcq-06",
-        "early-mcq-03",
-        "early-mcq-07",
-        "early-mcq-02"
+        "early-mcq-15",
+        "early-mcq-12"
       ],
       "explanation": "本句的「early part of the course」指「早期階段」。",
       "sentenceIndex": 10,
@@ -901,12 +883,10 @@ export default {
         "early part of the course"
       ],
       "optionReasons": {
-        "early-mcq-05": "本句指「早期階段」。",
-        "early-mcq-04": "「清晨」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。",
-        "early-mcq-03": "「提早到」與本句語境不同。",
-        "early-mcq-07": "「早年」與本句語境不同。",
-        "early-mcq-02": "「早起」與本句語境不同。"
+        "early-mcq-05": "本句的「early part of the course」指「早期階段」。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-05"
     },
@@ -918,11 +898,9 @@ export default {
       "masked": "The idea is still at an ____.",
       "options": [
         "early-mcq-05",
+        "early-mcq-15",
         "early-mcq-04",
-        "early-mcq-06",
-        "early-mcq-03",
-        "early-mcq-07",
-        "early-mcq-02"
+        "early-mcq-12"
       ],
       "explanation": "本句的「early stage」指「早期階段」。",
       "sentenceIndex": 11,
@@ -931,12 +909,10 @@ export default {
         "early stage"
       ],
       "optionReasons": {
-        "early-mcq-05": "本句指「早期階段」。",
-        "early-mcq-04": "「清晨」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。",
-        "early-mcq-03": "「提早到」與本句語境不同。",
-        "early-mcq-07": "「早年」與本句語境不同。",
-        "early-mcq-02": "「早起」與本句語境不同。"
+        "early-mcq-05": "本句的「early stage」指「早期階段」。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-05"
     },
@@ -948,11 +924,9 @@ export default {
       "masked": "Problems are easier to fix at an ____.",
       "options": [
         "early-mcq-05",
+        "early-mcq-15",
         "early-mcq-04",
-        "early-mcq-06",
-        "early-mcq-03",
-        "early-mcq-07",
-        "early-mcq-02"
+        "early-mcq-12"
       ],
       "explanation": "本句的「early stage」指「早期階段」。",
       "sentenceIndex": 12,
@@ -961,12 +935,10 @@ export default {
         "early stage"
       ],
       "optionReasons": {
-        "early-mcq-05": "本句指「早期階段」。",
-        "early-mcq-04": "「清晨」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。",
-        "early-mcq-03": "「提早到」與本句語境不同。",
-        "early-mcq-07": "「早年」與本句語境不同。",
-        "early-mcq-02": "「早起」與本句語境不同。"
+        "early-mcq-05": "本句的「early stage」指「早期階段」。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-05"
     },
@@ -978,11 +950,9 @@ export default {
       "masked": "It's still ____.",
       "options": [
         "early-mcq-06",
-        "early-mcq-05",
-        "early-mcq-07",
-        "early-mcq-04",
-        "early-mcq-08",
-        "early-mcq-03"
+        "early-mcq-12",
+        "early-mcq-20",
+        "early-reviewed-8b6247e20d"
       ],
       "explanation": "本句的「early days」指「初期」。",
       "sentenceIndex": 13,
@@ -991,12 +961,10 @@ export default {
         "early days"
       ],
       "optionReasons": {
-        "early-mcq-06": "本句指「初期」。",
-        "early-mcq-05": "「早期階段」與本句語境不同。",
-        "early-mcq-07": "「早年」與本句語境不同。",
-        "early-mcq-04": "「清晨」與本句語境不同。",
-        "early-mcq-08": "「人生早期」與本句語境不同。",
-        "early-mcq-03": "「提早到」與本句語境不同。"
+        "early-mcq-06": "本句的「early days」指「初期」。",
+        "early-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "early-reviewed-8b6247e20d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-06"
     },
@@ -1008,11 +976,9 @@ export default {
       "masked": "In the ____ of the company, only five people worked there.",
       "options": [
         "early-mcq-06",
-        "early-mcq-05",
         "early-mcq-07",
         "early-mcq-04",
-        "early-mcq-08",
-        "early-mcq-03"
+        "early-pdf-002"
       ],
       "explanation": "本句的「early days」指「初期」。",
       "sentenceIndex": 14,
@@ -1021,12 +987,10 @@ export default {
         "early days"
       ],
       "optionReasons": {
-        "early-mcq-06": "本句指「初期」。",
-        "early-mcq-05": "「早期階段」與本句語境不同。",
-        "early-mcq-07": "「早年」與本句語境不同。",
-        "early-mcq-04": "「清晨」與本句語境不同。",
-        "early-mcq-08": "「人生早期」與本句語境不同。",
-        "early-mcq-03": "「提早到」與本句語境不同。"
+        "early-mcq-06": "本句的「early days」指「初期」。",
+        "early-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-06"
     },
@@ -1039,9 +1003,7 @@ export default {
       "options": [
         "early-mcq-07",
         "early-mcq-06",
-        "early-mcq-08",
-        "early-mcq-05",
-        "early-mcq-09",
+        "early-pdf-002",
         "early-mcq-04"
       ],
       "explanation": "本句的「early years」指「早年」。",
@@ -1051,12 +1013,10 @@ export default {
         "early years"
       ],
       "optionReasons": {
-        "early-mcq-07": "本句指「早年」。",
-        "early-mcq-06": "「初期」與本句語境不同。",
-        "early-mcq-08": "「人生早期」與本句語境不同。",
-        "early-mcq-05": "「早期階段」與本句語境不同。",
-        "early-mcq-09": "「一開始；早期」與本句語境不同。",
-        "early-mcq-04": "「清晨」與本句語境不同。"
+        "early-mcq-07": "本句的「early years」指「早年」。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-07"
     },
@@ -1068,11 +1028,9 @@ export default {
       "masked": "His ____ shaped his personality.",
       "options": [
         "early-mcq-07",
-        "early-mcq-06",
-        "early-mcq-08",
-        "early-mcq-05",
-        "early-mcq-09",
-        "early-mcq-04"
+        "early-mcq-04",
+        "early-pdf-002",
+        "early-mcq-15"
       ],
       "explanation": "本句的「early years」指「早年」。",
       "sentenceIndex": 16,
@@ -1081,12 +1039,10 @@ export default {
         "early years"
       ],
       "optionReasons": {
-        "early-mcq-07": "本句指「早年」。",
-        "early-mcq-06": "「初期」與本句語境不同。",
-        "early-mcq-08": "「人生早期」與本句語境不同。",
-        "early-mcq-05": "「早期階段」與本句語境不同。",
-        "early-mcq-09": "「一開始；早期」與本句語境不同。",
-        "early-mcq-04": "「清晨」與本句語境不同。"
+        "early-mcq-07": "本句的「early years」指「早年」。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-07"
     },
@@ -1098,11 +1054,9 @@ export default {
       "masked": "She developed good habits ____.",
       "options": [
         "early-mcq-08",
-        "early-mcq-07",
-        "early-mcq-09",
-        "early-mcq-06",
-        "early-mcq-10",
-        "early-mcq-05"
+        "early-mcq-04",
+        "early-mcq-15",
+        "early-pdf-002"
       ],
       "explanation": "本句的「early in life」指「人生早期」。",
       "sentenceIndex": 17,
@@ -1111,12 +1065,10 @@ export default {
         "early in life"
       ],
       "optionReasons": {
-        "early-mcq-08": "本句指「人生早期」。",
-        "early-mcq-07": "「早年」與本句語境不同。",
-        "early-mcq-09": "「一開始；早期」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。",
-        "early-mcq-10": "「較早；更早」與本句語境不同。",
-        "early-mcq-05": "「早期階段」與本句語境不同。"
+        "early-mcq-08": "本句的「early in life」指「人生早期」。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-08"
     },
@@ -1128,11 +1080,9 @@ export default {
       "masked": "Learning this skill ____ can be helpful.",
       "options": [
         "early-mcq-08",
-        "early-mcq-07",
-        "early-mcq-09",
-        "early-mcq-06",
-        "early-mcq-10",
-        "early-mcq-05"
+        "early-pdf-002",
+        "early-mcq-15",
+        "early-mcq-04"
       ],
       "explanation": "本句的「early in life」指「人生早期」。",
       "sentenceIndex": 18,
@@ -1141,12 +1091,10 @@ export default {
         "early in life"
       ],
       "optionReasons": {
-        "early-mcq-08": "本句指「人生早期」。",
-        "early-mcq-07": "「早年」與本句語境不同。",
-        "early-mcq-09": "「一開始；早期」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。",
-        "early-mcq-10": "「較早；更早」與本句語境不同。",
-        "early-mcq-05": "「早期階段」與本句語境不同。"
+        "early-mcq-08": "本句的「early in life」指「人生早期」。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-08"
     },
@@ -1158,11 +1106,9 @@ export default {
       "masked": "I realized ____ that I needed better time management.",
       "options": [
         "early-mcq-09",
-        "early-mcq-08",
-        "early-mcq-10",
-        "early-mcq-07",
-        "early-mcq-11",
-        "early-mcq-06"
+        "early-mcq-04",
+        "early-mcq-15",
+        "early-mcq-22"
       ],
       "explanation": "本句的「early on」指「一開始；早期」。",
       "sentenceIndex": 19,
@@ -1171,12 +1117,10 @@ export default {
         "early on"
       ],
       "optionReasons": {
-        "early-mcq-09": "本句指「一開始；早期」。",
-        "early-mcq-08": "「人生早期」與本句語境不同。",
-        "early-mcq-10": "「較早；更早」與本句語境不同。",
-        "early-mcq-07": "「早年」與本句語境不同。",
-        "early-mcq-11": "「今天較早時」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。"
+        "early-mcq-09": "本句的「early on」指「一開始；早期」。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-09"
     },
@@ -1188,11 +1132,9 @@ export default {
       "masked": "The team faced problems ____.",
       "options": [
         "early-mcq-09",
-        "early-mcq-08",
-        "early-mcq-10",
-        "early-mcq-07",
-        "early-mcq-11",
-        "early-mcq-06"
+        "early-mcq-20",
+        "early-mcq-15",
+        "early-mcq-11"
       ],
       "explanation": "本句的「early on」指「一開始；早期」。",
       "sentenceIndex": 20,
@@ -1201,12 +1143,10 @@ export default {
         "early on"
       ],
       "optionReasons": {
-        "early-mcq-09": "本句指「一開始；早期」。",
-        "early-mcq-08": "「人生早期」與本句語境不同。",
-        "early-mcq-10": "「較早；更早」與本句語境不同。",
-        "early-mcq-07": "「早年」與本句語境不同。",
-        "early-mcq-11": "「今天較早時」與本句語境不同。",
-        "early-mcq-06": "「初期」與本句語境不同。"
+        "early-mcq-09": "本句的「early on」指「一開始；早期」。",
+        "early-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-09"
     },
@@ -1218,11 +1158,9 @@ export default {
       "masked": "I started getting up ____.",
       "options": [
         "early-mcq-10",
-        "early-mcq-09",
-        "early-mcq-11",
-        "early-mcq-08",
-        "early-mcq-12",
-        "early-mcq-07"
+        "early-mcq-20",
+        "early-mcq-15",
+        "early-mcq-06"
       ],
       "explanation": "本句的「earlier」指「較早；更早」。",
       "sentenceIndex": 21,
@@ -1231,12 +1169,10 @@ export default {
         "earlier"
       ],
       "optionReasons": {
-        "early-mcq-10": "本句指「較早；更早」。",
-        "early-mcq-09": "「一開始；早期」與本句語境不同。",
-        "early-mcq-11": "「今天較早時」與本句語境不同。",
-        "early-mcq-08": "「人生早期」與本句語境不同。",
-        "early-mcq-12": "「較早版本」與本句語境不同。",
-        "early-mcq-07": "「早年」與本句語境不同。"
+        "early-mcq-10": "本句的「earlier」指「較早；更早」。",
+        "early-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-10"
     },
@@ -1248,11 +1184,9 @@ export default {
       "masked": "She arrived ____.",
       "options": [
         "early-mcq-10",
-        "early-mcq-09",
-        "early-mcq-11",
-        "early-mcq-08",
-        "early-mcq-12",
-        "early-mcq-07"
+        "early-mcq-20",
+        "early-mcq-06",
+        "early-mcq-15"
       ],
       "explanation": "本句的「earlier than me」指「較早；更早」。",
       "sentenceIndex": 22,
@@ -1261,74 +1195,68 @@ export default {
         "earlier than me"
       ],
       "optionReasons": {
-        "early-mcq-10": "本句指「較早；更早」。",
-        "early-mcq-09": "「一開始；早期」與本句語境不同。",
-        "early-mcq-11": "「今天較早時」與本句語境不同。",
-        "early-mcq-08": "「人生早期」與本句語境不同。",
-        "early-mcq-12": "「較早版本」與本句語境不同。",
-        "early-mcq-07": "「早年」與本句語境不同。"
+        "early-mcq-10": "本句的「earlier than me」指「較早；更早」。",
+        "early-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-10"
     },
     {
       "id": "early-12-0",
-      "sense": "early-mcq-11",
+      "sense": "early-reviewed-8b6247e20d",
       "en": "The meeting ended earlier than expected.",
       "zh": "會議比預期早結束。",
       "masked": "The meeting ended ____.",
       "options": [
-        "early-mcq-11",
-        "early-mcq-10",
-        "early-mcq-12",
-        "early-mcq-09",
-        "early-mcq-13",
-        "early-mcq-08"
+        "early-reviewed-8b6247e20d",
+        "early-mcq-04",
+        "early-mcq-06",
+        "early-mcq-12"
       ],
-      "explanation": "本句的「earlier than expected」指「今天較早時」。",
+      "explanation": "對照完整句子：「會議比預期早結束。」。這裡的「earlier than expected」表示「發生時間比原先預測更早」。",
       "sentenceIndex": 23,
       "sourcePractice": 1,
       "targets": [
         "earlier than expected"
       ],
       "optionReasons": {
-        "early-mcq-11": "本句指「今天較早時」。",
-        "early-mcq-10": "「較早；更早」與本句語境不同。",
-        "early-mcq-12": "「較早版本」與本句語境不同。",
-        "early-mcq-09": "「一開始；早期」與本句語境不同。",
-        "early-mcq-13": "「最早」與本句語境不同。",
-        "early-mcq-08": "「人生早期」與本句語境不同。"
+        "early-reviewed-8b6247e20d": "對照完整句子：「會議比預期早結束。」。這裡的「earlier than expected」表示「發生時間比原先預測更早」。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "early-mcq-11"
+      "correctOption": "early-reviewed-8b6247e20d",
+      "previousCorrectOption": "early-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "early-12-1",
-      "sense": "early-mcq-11",
+      "sense": "early-reviewed-8b6247e20d",
       "en": "She recovered earlier than expected.",
       "zh": "她比預期更早康復。",
       "masked": "She recovered ____.",
       "options": [
-        "early-mcq-11",
-        "early-mcq-10",
-        "early-mcq-12",
-        "early-mcq-09",
-        "early-mcq-13",
-        "early-mcq-08"
+        "early-reviewed-8b6247e20d",
+        "early-mcq-06",
+        "early-mcq-04",
+        "early-mcq-19"
       ],
-      "explanation": "本句的「earlier than expected」指「今天較早時」。",
+      "explanation": "對照完整句子：「她比預期更早康復。」。這裡的「earlier than expected」表示「發生時間比原先預測更早」。",
       "sentenceIndex": 24,
       "sourcePractice": 2,
       "targets": [
         "earlier than expected"
       ],
       "optionReasons": {
-        "early-mcq-11": "本句指「今天較早時」。",
-        "early-mcq-10": "「較早；更早」與本句語境不同。",
-        "early-mcq-12": "「較早版本」與本句語境不同。",
-        "early-mcq-09": "「一開始；早期」與本句語境不同。",
-        "early-mcq-13": "「最早」與本句語境不同。",
-        "early-mcq-08": "「人生早期」與本句語境不同。"
+        "early-reviewed-8b6247e20d": "對照完整句子：「她比預期更早康復。」。這裡的「earlier than expected」表示「發生時間比原先預測更早」。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "early-mcq-11"
+      "correctOption": "early-reviewed-8b6247e20d",
+      "previousCorrectOption": "early-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "early-13-0",
@@ -1338,11 +1266,9 @@ export default {
       "masked": "I spoke to him ____.",
       "options": [
         "early-mcq-11",
-        "early-mcq-10",
-        "early-mcq-12",
-        "early-mcq-09",
-        "early-mcq-13",
-        "early-mcq-08"
+        "early-mcq-04",
+        "early-mcq-06",
+        "early-mcq-15"
       ],
       "explanation": "本句的「earlier today」指「今天較早時」。",
       "sentenceIndex": 25,
@@ -1351,12 +1277,10 @@ export default {
         "earlier today"
       ],
       "optionReasons": {
-        "early-mcq-11": "本句指「今天較早時」。",
-        "early-mcq-10": "「較早；更早」與本句語境不同。",
-        "early-mcq-12": "「較早版本」與本句語境不同。",
-        "early-mcq-09": "「一開始；早期」與本句語境不同。",
-        "early-mcq-13": "「最早」與本句語境不同。",
-        "early-mcq-08": "「人生早期」與本句語境不同。"
+        "early-mcq-11": "本句的「earlier today」指「今天較早時」。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-11"
     },
@@ -1368,11 +1292,9 @@ export default {
       "masked": "The issue came up ____.",
       "options": [
         "early-mcq-11",
-        "early-mcq-10",
-        "early-mcq-12",
-        "early-mcq-09",
-        "early-mcq-13",
-        "early-mcq-08"
+        "early-mcq-06",
+        "early-mcq-04",
+        "early-mcq-15"
       ],
       "explanation": "本句的「earlier this week」指「今天較早時」。",
       "sentenceIndex": 26,
@@ -1381,12 +1303,10 @@ export default {
         "earlier this week"
       ],
       "optionReasons": {
-        "early-mcq-11": "本句指「今天較早時」。",
-        "early-mcq-10": "「較早；更早」與本句語境不同。",
-        "early-mcq-12": "「較早版本」與本句語境不同。",
-        "early-mcq-09": "「一開始；早期」與本句語境不同。",
-        "early-mcq-13": "「最早」與本句語境不同。",
-        "early-mcq-08": "「人生早期」與本句語境不同。"
+        "early-mcq-11": "本句的「earlier this week」指「今天較早時」。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-11"
     },
@@ -1398,11 +1318,9 @@ export default {
       "masked": "In an ____, the ending was different.",
       "options": [
         "early-mcq-12",
-        "early-mcq-11",
-        "early-mcq-13",
-        "early-mcq-10",
-        "early-mcq-14",
-        "early-mcq-09"
+        "early-mcq-20",
+        "early-mcq-06",
+        "early-mcq-15"
       ],
       "explanation": "本句的「earlier version」指「較早版本」。",
       "sentenceIndex": 27,
@@ -1411,12 +1329,10 @@ export default {
         "earlier version"
       ],
       "optionReasons": {
-        "early-mcq-12": "本句指「較早版本」。",
-        "early-mcq-11": "「今天較早時」與本句語境不同。",
-        "early-mcq-13": "「最早」與本句語境不同。",
-        "early-mcq-10": "「較早；更早」與本句語境不同。",
-        "early-mcq-14": "「最早也要」與本句語境不同。",
-        "early-mcq-09": "「一開始；早期」與本句語境不同。"
+        "early-mcq-12": "本句的「earlier version」指「較早版本」。",
+        "early-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-12"
     },
@@ -1428,11 +1344,9 @@ export default {
       "masked": "My ____ was less organised.",
       "options": [
         "early-mcq-12",
-        "early-mcq-11",
-        "early-mcq-13",
-        "early-mcq-10",
-        "early-mcq-14",
-        "early-mcq-09"
+        "early-mcq-15",
+        "early-pdf-002",
+        "early-mcq-06"
       ],
       "explanation": "本句的「earlier work」指「較早版本」。",
       "sentenceIndex": 28,
@@ -1441,12 +1355,10 @@ export default {
         "earlier work"
       ],
       "optionReasons": {
-        "early-mcq-12": "本句指「較早版本」。",
-        "early-mcq-11": "「今天較早時」與本句語境不同。",
-        "early-mcq-13": "「最早」與本句語境不同。",
-        "early-mcq-10": "「較早；更早」與本句語境不同。",
-        "early-mcq-14": "「最早也要」與本句語境不同。",
-        "early-mcq-09": "「一開始；早期」與本句語境不同。"
+        "early-mcq-12": "本句的「earlier work」指「較早版本」。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-12"
     },
@@ -1458,11 +1370,9 @@ export default {
       "masked": "What is the ____ time you can arrive?",
       "options": [
         "early-mcq-13",
-        "early-mcq-12",
-        "early-mcq-14",
-        "early-mcq-11",
+        "early-mcq-20",
         "early-mcq-15",
-        "early-mcq-10"
+        "early-mcq-06"
       ],
       "explanation": "本句的「earliest」指「最早」。",
       "sentenceIndex": 29,
@@ -1471,12 +1381,10 @@ export default {
         "earliest"
       ],
       "optionReasons": {
-        "early-mcq-13": "本句指「最早」。",
-        "early-mcq-12": "「較早版本」與本句語境不同。",
-        "early-mcq-14": "「最早也要」與本句語境不同。",
-        "early-mcq-11": "「今天較早時」與本句語境不同。",
-        "early-mcq-15": "「預警」與本句語境不同。",
-        "early-mcq-10": "「較早；更早」與本句語境不同。"
+        "early-mcq-13": "本句的「earliest」指「最早」。",
+        "early-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-13"
     },
@@ -1488,11 +1396,9 @@ export default {
       "masked": "This is one of his ____.",
       "options": [
         "early-mcq-13",
-        "early-mcq-12",
-        "early-mcq-14",
-        "early-mcq-11",
-        "early-mcq-15",
-        "early-mcq-10"
+        "early-mcq-20",
+        "early-mcq-06",
+        "early-mcq-15"
       ],
       "explanation": "本句的「earliest works」指「最早」。",
       "sentenceIndex": 30,
@@ -1501,12 +1407,10 @@ export default {
         "earliest works"
       ],
       "optionReasons": {
-        "early-mcq-13": "本句指「最早」。",
-        "early-mcq-12": "「較早版本」與本句語境不同。",
-        "early-mcq-14": "「最早也要」與本句語境不同。",
-        "early-mcq-11": "「今天較早時」與本句語境不同。",
-        "early-mcq-15": "「預警」與本句語境不同。",
-        "early-mcq-10": "「較早；更早」與本句語境不同。"
+        "early-mcq-13": "本句的「earliest works」指「最早」。",
+        "early-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-13"
     },
@@ -1518,11 +1422,9 @@ export default {
       "masked": "The work will be finished on Friday ____.",
       "options": [
         "early-mcq-14",
-        "early-mcq-13",
+        "early-mcq-20",
         "early-mcq-15",
-        "early-mcq-12",
-        "early-mcq-16",
-        "early-mcq-11"
+        "early-mcq-06"
       ],
       "explanation": "本句的「at the earliest」指「最早也要」。",
       "sentenceIndex": 31,
@@ -1531,12 +1433,10 @@ export default {
         "at the earliest"
       ],
       "optionReasons": {
-        "early-mcq-14": "本句指「最早也要」。",
-        "early-mcq-13": "「最早」與本句語境不同。",
-        "early-mcq-15": "「預警」與本句語境不同。",
-        "early-mcq-12": "「較早版本」與本句語境不同。",
-        "early-mcq-16": "「早期警號」與本句語境不同。",
-        "early-mcq-11": "「今天較早時」與本句語境不同。"
+        "early-mcq-14": "本句的「at the earliest」指「最早也要」。",
+        "early-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-14"
     },
@@ -1548,11 +1448,9 @@ export default {
       "masked": "I can arrive at six ____.",
       "options": [
         "early-mcq-14",
-        "early-mcq-13",
-        "early-mcq-15",
-        "early-mcq-12",
-        "early-mcq-16",
-        "early-mcq-11"
+        "early-mcq-20",
+        "early-mcq-06",
+        "early-mcq-15"
       ],
       "explanation": "本句的「at the earliest」指「最早也要」。",
       "sentenceIndex": 32,
@@ -1561,12 +1459,10 @@ export default {
         "at the earliest"
       ],
       "optionReasons": {
-        "early-mcq-14": "本句指「最早也要」。",
-        "early-mcq-13": "「最早」與本句語境不同。",
-        "early-mcq-15": "「預警」與本句語境不同。",
-        "early-mcq-12": "「較早版本」與本句語境不同。",
-        "early-mcq-16": "「早期警號」與本句語境不同。",
-        "early-mcq-11": "「今天較早時」與本句語境不同。"
+        "early-mcq-14": "本句的「at the earliest」指「最早也要」。",
+        "early-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-14"
     },
@@ -1578,11 +1474,9 @@ export default {
       "masked": "The system provides an ____ of possible problems.",
       "options": [
         "early-mcq-15",
-        "early-mcq-14",
-        "early-mcq-16",
-        "early-mcq-13",
-        "early-mcq-17",
-        "early-mcq-12"
+        "early-mcq-09",
+        "early-mcq-04",
+        "early-mcq-23"
       ],
       "explanation": "本句的「early warning」指「預警」。",
       "sentenceIndex": 33,
@@ -1591,12 +1485,10 @@ export default {
         "early warning"
       ],
       "optionReasons": {
-        "early-mcq-15": "本句指「預警」。",
-        "early-mcq-14": "「最早也要」與本句語境不同。",
-        "early-mcq-16": "「早期警號」與本句語境不同。",
-        "early-mcq-13": "「最早」與本句語境不同。",
-        "early-mcq-17": "「早期採用者」與本句語境不同。",
-        "early-mcq-12": "「較早版本」與本句語境不同。"
+        "early-mcq-15": "本句的「early warning」指「預警」。",
+        "early-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-15"
     },
@@ -1608,10 +1500,8 @@ export default {
       "masked": "These symptoms can be an ____.",
       "options": [
         "early-mcq-15",
-        "early-mcq-14",
-        "early-mcq-16",
-        "early-mcq-13",
         "early-mcq-17",
+        "early-reviewed-68b72919fd",
         "early-mcq-12"
       ],
       "explanation": "本句的「early warning sign」指「預警」。",
@@ -1621,12 +1511,10 @@ export default {
         "early warning sign"
       ],
       "optionReasons": {
-        "early-mcq-15": "本句指「預警」。",
-        "early-mcq-14": "「最早也要」與本句語境不同。",
-        "early-mcq-16": "「早期警號」與本句語境不同。",
-        "early-mcq-13": "「最早」與本句語境不同。",
-        "early-mcq-17": "「早期採用者」與本句語境不同。",
-        "early-mcq-12": "「較早版本」與本句語境不同。"
+        "early-mcq-15": "本句的「early warning sign」指「預警」。",
+        "early-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "early-reviewed-68b72919fd": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-15"
     },
@@ -1638,11 +1526,9 @@ export default {
       "masked": "Constant tiredness can be an ____ of overwork.",
       "options": [
         "early-mcq-16",
-        "early-mcq-15",
-        "early-mcq-17",
-        "early-mcq-14",
-        "early-mcq-18",
-        "early-mcq-13"
+        "early-mcq-04",
+        "early-pdf-002",
+        "early-mcq-12"
       ],
       "explanation": "本句的「early warning sign」指「早期警號」。",
       "sentenceIndex": 35,
@@ -1651,12 +1537,10 @@ export default {
         "early warning sign"
       ],
       "optionReasons": {
-        "early-mcq-16": "本句指「早期警號」。",
-        "early-mcq-15": "「預警」與本句語境不同。",
-        "early-mcq-17": "「早期採用者」與本句語境不同。",
-        "early-mcq-14": "「最早也要」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。",
-        "early-mcq-13": "「最早」與本句語境不同。"
+        "early-mcq-16": "本句的「early warning sign」指「早期警號」。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-16"
     },
@@ -1668,11 +1552,9 @@ export default {
       "masked": "We ignored the ____.",
       "options": [
         "early-mcq-16",
-        "early-mcq-15",
-        "early-mcq-17",
-        "early-mcq-14",
-        "early-mcq-18",
-        "early-mcq-13"
+        "early-pdf-002",
+        "early-mcq-04",
+        "early-mcq-23"
       ],
       "explanation": "本句的「early warning signs」指「早期警號」。",
       "sentenceIndex": 36,
@@ -1681,12 +1563,10 @@ export default {
         "early warning signs"
       ],
       "optionReasons": {
-        "early-mcq-16": "本句指「早期警號」。",
-        "early-mcq-15": "「預警」與本句語境不同。",
-        "early-mcq-17": "「早期採用者」與本句語境不同。",
-        "early-mcq-14": "「最早也要」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。",
-        "early-mcq-13": "「最早」與本句語境不同。"
+        "early-mcq-16": "本句的「early warning signs」指「早期警號」。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-16"
     },
@@ -1698,11 +1578,9 @@ export default {
       "masked": "He is an ____ of new technology.",
       "options": [
         "early-mcq-17",
-        "early-mcq-16",
-        "early-mcq-18",
         "early-mcq-15",
-        "early-mcq-19",
-        "early-mcq-14"
+        "early-mcq-04",
+        "early-pdf-002"
       ],
       "explanation": "本句的「early adopter」指「早期採用者」。",
       "sentenceIndex": 37,
@@ -1711,12 +1589,10 @@ export default {
         "early adopter"
       ],
       "optionReasons": {
-        "early-mcq-17": "本句指「早期採用者」。",
-        "early-mcq-16": "「早期警號」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。",
-        "early-mcq-15": "「預警」與本句語境不同。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-14": "「最早也要」與本句語境不同。"
+        "early-mcq-17": "本句的「early adopter」指「早期採用者」。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-17"
     },
@@ -1728,11 +1604,9 @@ export default {
       "masked": "____ often try products before most people do.",
       "options": [
         "early-mcq-17",
-        "early-mcq-16",
-        "early-mcq-18",
         "early-mcq-15",
-        "early-mcq-19",
-        "early-mcq-14"
+        "early-pdf-002",
+        "early-mcq-04"
       ],
       "explanation": "本句的「Early adopters」指「早期採用者」。",
       "sentenceIndex": 38,
@@ -1741,12 +1615,10 @@ export default {
         "Early adopters"
       ],
       "optionReasons": {
-        "early-mcq-17": "本句指「早期採用者」。",
-        "early-mcq-16": "「早期警號」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。",
-        "early-mcq-15": "「預警」與本句語境不同。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-14": "「最早也要」與本句語境不同。"
+        "early-mcq-17": "本句的「Early adopters」指「早期採用者」。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-17"
     },
@@ -1758,11 +1630,9 @@ export default {
       "masked": "I'm an ____.",
       "options": [
         "early-mcq-18",
-        "early-mcq-17",
-        "early-mcq-19",
-        "early-mcq-16",
-        "early-mcq-20",
-        "early-mcq-15"
+        "early-pdf-002",
+        "early-mcq-15",
+        "early-mcq-04"
       ],
       "explanation": "本句的「early bird」指「早起／早到的人」。",
       "sentenceIndex": 39,
@@ -1771,12 +1641,10 @@ export default {
         "early bird"
       ],
       "optionReasons": {
-        "early-mcq-18": "本句指「早起／早到的人」。",
-        "early-mcq-17": "「早期採用者」與本句語境不同。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-16": "「早期警號」與本句語境不同。",
-        "early-mcq-20": "「凌晨時分」與本句語境不同。",
-        "early-mcq-15": "「預警」與本句語境不同。"
+        "early-mcq-18": "本句的「early bird」指「早起／早到的人」。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-18"
     },
@@ -1788,11 +1656,9 @@ export default {
       "masked": "She's always the ____ at meetings.",
       "options": [
         "early-mcq-18",
-        "early-mcq-17",
-        "early-mcq-19",
-        "early-mcq-16",
-        "early-mcq-20",
-        "early-mcq-15"
+        "early-pdf-002",
+        "early-mcq-04",
+        "early-mcq-06"
       ],
       "explanation": "本句的「early bird」指「早起／早到的人」。",
       "sentenceIndex": 40,
@@ -1801,12 +1667,10 @@ export default {
         "early bird"
       ],
       "optionReasons": {
-        "early-mcq-18": "本句指「早起／早到的人」。",
-        "early-mcq-17": "「早期採用者」與本句語境不同。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-16": "「早期警號」與本句語境不同。",
-        "early-mcq-20": "「凌晨時分」與本句語境不同。",
-        "early-mcq-15": "「預警」與本句語境不同。"
+        "early-mcq-18": "本句的「early bird」指「早起／早到的人」。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-18"
     },
@@ -1818,11 +1682,9 @@ export default {
       "masked": "We booked early to get the ____.",
       "options": [
         "early-mcq-19",
-        "early-mcq-18",
-        "early-mcq-20",
-        "early-mcq-17",
-        "early-mcq-21",
-        "early-mcq-16"
+        "early-mcq-06",
+        "early-mcq-04",
+        "early-pdf-002"
       ],
       "explanation": "本句的「early-bird discount」指「早鳥優惠」。",
       "sentenceIndex": 41,
@@ -1831,12 +1693,10 @@ export default {
         "early-bird discount"
       ],
       "optionReasons": {
-        "early-mcq-19": "本句指「早鳥優惠」。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。",
-        "early-mcq-20": "「凌晨時分」與本句語境不同。",
-        "early-mcq-17": "「早期採用者」與本句語境不同。",
-        "early-mcq-21": "「早開始；提早出發」與本句語境不同。",
-        "early-mcq-16": "「早期警號」與本句語境不同。"
+        "early-mcq-19": "本句的「early-bird discount」指「早鳥優惠」。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-19"
     },
@@ -1848,11 +1708,9 @@ export default {
       "masked": "____ are cheaper.",
       "options": [
         "early-mcq-19",
-        "early-mcq-18",
+        "early-mcq-06",
         "early-mcq-20",
-        "early-mcq-17",
-        "early-mcq-21",
-        "early-mcq-16"
+        "early-mcq-15"
       ],
       "explanation": "本句的「Early-bird tickets」指「早鳥優惠」。",
       "sentenceIndex": 42,
@@ -1861,12 +1719,10 @@ export default {
         "Early-bird tickets"
       ],
       "optionReasons": {
-        "early-mcq-19": "本句指「早鳥優惠」。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。",
-        "early-mcq-20": "「凌晨時分」與本句語境不同。",
-        "early-mcq-17": "「早期採用者」與本句語境不同。",
-        "early-mcq-21": "「早開始；提早出發」與本句語境不同。",
-        "early-mcq-16": "「早期警號」與本句語境不同。"
+        "early-mcq-19": "本句的「Early-bird tickets」指「早鳥優惠」。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-19"
     },
@@ -1878,11 +1734,9 @@ export default {
       "masked": "We worked into ____.",
       "options": [
         "early-mcq-20",
-        "early-mcq-19",
-        "early-mcq-21",
-        "early-mcq-18",
-        "early-mcq-22",
-        "early-mcq-17"
+        "early-mcq-07",
+        "early-mcq-15",
+        "early-mcq-06"
       ],
       "explanation": "本句的「the early hours」指「凌晨時分」。",
       "sentenceIndex": 43,
@@ -1891,12 +1745,10 @@ export default {
         "the early hours"
       ],
       "optionReasons": {
-        "early-mcq-20": "本句指「凌晨時分」。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-21": "「早開始；提早出發」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。",
-        "early-mcq-22": "「提早退休」與本句語境不同。",
-        "early-mcq-17": "「早期採用者」與本句語境不同。"
+        "early-mcq-20": "本句的「the early hours」指「凌晨時分」。",
+        "early-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-20"
     },
@@ -1908,11 +1760,9 @@ export default {
       "masked": "The party continued until ____.",
       "options": [
         "early-mcq-20",
-        "early-mcq-19",
-        "early-mcq-21",
-        "early-mcq-18",
+        "early-mcq-17",
         "early-mcq-22",
-        "early-mcq-17"
+        "early-mcq-12"
       ],
       "explanation": "本句的「the early hours of the morning」指「凌晨時分」。",
       "sentenceIndex": 44,
@@ -1921,12 +1771,10 @@ export default {
         "the early hours of the morning"
       ],
       "optionReasons": {
-        "early-mcq-20": "本句指「凌晨時分」。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-21": "「早開始；提早出發」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。",
-        "early-mcq-22": "「提早退休」與本句語境不同。",
-        "early-mcq-17": "「早期採用者」與本句語境不同。"
+        "early-mcq-20": "本句的「the early hours of the morning」指「凌晨時分」。",
+        "early-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-20"
     },
@@ -1938,11 +1786,9 @@ export default {
       "masked": "I'll call you in the ____.",
       "options": [
         "early-pdf-002",
-        "early-mcq-20",
-        "early-mcq-22",
-        "early-mcq-19",
-        "early-mcq-23",
-        "early-mcq-18"
+        "early-mcq-07",
+        "early-mcq-04",
+        "early-mcq-15"
       ],
       "explanation": "本句的「early evening」指「該時段開始不久的部分」。",
       "sentenceIndex": 45,
@@ -1951,12 +1797,10 @@ export default {
         "early evening"
       ],
       "optionReasons": {
-        "early-pdf-002": "本句指「該時段開始不久的部分」。",
-        "early-mcq-20": "「凌晨時分」與本句語境不同。",
-        "early-mcq-22": "「提早退休」與本句語境不同。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-23": "「提早釋放／推出」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。"
+        "early-pdf-002": "本句的「early evening」指「該時段開始不久的部分」。",
+        "early-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-pdf-002"
     },
@@ -1968,11 +1812,9 @@ export default {
       "masked": "The rain should stop by ____.",
       "options": [
         "early-pdf-002",
-        "early-mcq-20",
-        "early-mcq-22",
-        "early-mcq-19",
-        "early-mcq-23",
-        "early-mcq-18"
+        "early-mcq-07",
+        "early-mcq-04",
+        "early-mcq-06"
       ],
       "explanation": "本句的「early afternoon」指「該時段開始不久的部分」。",
       "sentenceIndex": 46,
@@ -1981,74 +1823,68 @@ export default {
         "early afternoon"
       ],
       "optionReasons": {
-        "early-pdf-002": "本句指「該時段開始不久的部分」。",
-        "early-mcq-20": "「凌晨時分」與本句語境不同。",
-        "early-mcq-22": "「提早退休」與本句語境不同。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-23": "「提早釋放／推出」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。"
+        "early-pdf-002": "本句的「early afternoon」指「該時段開始不久的部分」。",
+        "early-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-pdf-002"
     },
     {
       "id": "early-24-0",
-      "sense": "early-mcq-21",
+      "sense": "early-reviewed-68b72919fd",
       "en": "We had an early lunch.",
       "zh": "我們提早吃了午飯。",
       "masked": "We had an ____.",
       "options": [
-        "early-mcq-21",
-        "early-mcq-20",
-        "early-mcq-22",
-        "early-mcq-19",
-        "early-mcq-23",
-        "early-mcq-18"
+        "early-reviewed-68b72919fd",
+        "early-mcq-04",
+        "early-mcq-06",
+        "early-mcq-15"
       ],
-      "explanation": "本句的「early lunch」指「早開始；提早出發」。",
+      "explanation": "對照完整句子：「我們提早吃了午飯。」。這裡的「early lunch」表示「比通常或原定時間更早發生」。",
       "sentenceIndex": 47,
       "sourcePractice": 1,
       "targets": [
         "early lunch"
       ],
       "optionReasons": {
-        "early-mcq-21": "本句指「早開始；提早出發」。",
-        "early-mcq-20": "「凌晨時分」與本句語境不同。",
-        "early-mcq-22": "「提早退休」與本句語境不同。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-23": "「提早釋放／推出」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。"
+        "early-reviewed-68b72919fd": "對照完整句子：「我們提早吃了午飯。」。這裡的「early lunch」表示「比通常或原定時間更早發生」。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "early-mcq-21"
+      "correctOption": "early-reviewed-68b72919fd",
+      "previousCorrectOption": "early-mcq-21",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "early-24-1",
-      "sense": "early-mcq-21",
+      "sense": "early-reviewed-68b72919fd",
       "en": "The team made an early start.",
       "zh": "團隊提早開始。",
       "masked": "The team made an ____.",
       "options": [
-        "early-mcq-21",
-        "early-mcq-20",
-        "early-mcq-22",
-        "early-mcq-19",
-        "early-mcq-23",
-        "early-mcq-18"
+        "early-reviewed-68b72919fd",
+        "early-mcq-06",
+        "early-mcq-15",
+        "early-mcq-04"
       ],
-      "explanation": "本句的「early start」指「早開始；提早出發」。",
+      "explanation": "對照完整句子：「團隊提早開始。」。這裡的「early start」表示「比通常或原定時間更早發生」。",
       "sentenceIndex": 48,
       "sourcePractice": 2,
       "targets": [
         "early start"
       ],
       "optionReasons": {
-        "early-mcq-21": "本句指「早開始；提早出發」。",
-        "early-mcq-20": "「凌晨時分」與本句語境不同。",
-        "early-mcq-22": "「提早退休」與本句語境不同。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-23": "「提早釋放／推出」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。"
+        "early-reviewed-68b72919fd": "對照完整句子：「團隊提早開始。」。這裡的「early start」表示「比通常或原定時間更早發生」。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "early-mcq-21"
+      "correctOption": "early-reviewed-68b72919fd",
+      "previousCorrectOption": "early-mcq-21",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "early-25-0",
@@ -2059,10 +1895,8 @@ export default {
       "options": [
         "early-mcq-21",
         "early-mcq-20",
-        "early-mcq-22",
-        "early-mcq-19",
-        "early-mcq-23",
-        "early-mcq-18"
+        "early-mcq-06",
+        "early-mcq-15"
       ],
       "explanation": "本句的「early start」指「早開始；提早出發」。",
       "sentenceIndex": 49,
@@ -2071,12 +1905,10 @@ export default {
         "early start"
       ],
       "optionReasons": {
-        "early-mcq-21": "本句指「早開始；提早出發」。",
-        "early-mcq-20": "「凌晨時分」與本句語境不同。",
-        "early-mcq-22": "「提早退休」與本句語境不同。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-23": "「提早釋放／推出」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。"
+        "early-mcq-21": "本句的「early start」指「早開始；提早出發」。",
+        "early-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-21"
     },
@@ -2089,10 +1921,8 @@ export default {
       "options": [
         "early-mcq-21",
         "early-mcq-20",
-        "early-mcq-22",
-        "early-mcq-19",
-        "early-mcq-23",
-        "early-mcq-18"
+        "early-mcq-15",
+        "early-mcq-06"
       ],
       "explanation": "本句的「early start」指「早開始；提早出發」。",
       "sentenceIndex": 50,
@@ -2101,12 +1931,10 @@ export default {
         "early start"
       ],
       "optionReasons": {
-        "early-mcq-21": "本句指「早開始；提早出發」。",
-        "early-mcq-20": "「凌晨時分」與本句語境不同。",
-        "early-mcq-22": "「提早退休」與本句語境不同。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-23": "「提早釋放／推出」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。"
+        "early-mcq-21": "本句的「early start」指「早開始；提早出發」。",
+        "early-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-21"
     },
@@ -2118,11 +1946,9 @@ export default {
       "masked": "He took ____.",
       "options": [
         "early-mcq-22",
-        "early-mcq-21",
-        "early-mcq-23",
-        "early-mcq-20",
-        "early-mcq-19",
-        "early-mcq-18"
+        "early-mcq-04",
+        "early-mcq-15",
+        "early-pdf-002"
       ],
       "explanation": "本句的「early retirement」指「提早退休」。",
       "sentenceIndex": 51,
@@ -2131,12 +1957,10 @@ export default {
         "early retirement"
       ],
       "optionReasons": {
-        "early-mcq-22": "本句指「提早退休」。",
-        "early-mcq-21": "「早開始；提早出發」與本句語境不同。",
-        "early-mcq-23": "「提早釋放／推出」與本句語境不同。",
-        "early-mcq-20": "「凌晨時分」與本句語境不同。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。"
+        "early-mcq-22": "本句的「early retirement」指「提早退休」。",
+        "early-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-22"
     },
@@ -2148,11 +1972,9 @@ export default {
       "masked": "The company offered an ____ package.",
       "options": [
         "early-mcq-22",
-        "early-mcq-21",
-        "early-mcq-23",
         "early-mcq-20",
-        "early-mcq-19",
-        "early-mcq-18"
+        "early-mcq-15",
+        "early-mcq-06"
       ],
       "explanation": "本句的「early retirement」指「提早退休」。",
       "sentenceIndex": 52,
@@ -2161,12 +1983,10 @@ export default {
         "early retirement"
       ],
       "optionReasons": {
-        "early-mcq-22": "本句指「提早退休」。",
-        "early-mcq-21": "「早開始；提早出發」與本句語境不同。",
-        "early-mcq-23": "「提早釋放／推出」與本句語境不同。",
-        "early-mcq-20": "「凌晨時分」與本句語境不同。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。"
+        "early-mcq-22": "本句的「early retirement」指「提早退休」。",
+        "early-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-22"
     },
@@ -2178,11 +1998,9 @@ export default {
       "masked": "He was granted ____ from prison.",
       "options": [
         "early-mcq-23",
-        "early-mcq-22",
-        "early-mcq-21",
-        "early-mcq-20",
-        "early-mcq-19",
-        "early-mcq-18"
+        "early-mcq-06",
+        "early-mcq-15",
+        "early-pdf-002"
       ],
       "explanation": "本句的「early release」指「提早釋放／推出」。",
       "sentenceIndex": 53,
@@ -2191,12 +2009,10 @@ export default {
         "early release"
       ],
       "optionReasons": {
-        "early-mcq-23": "本句指「提早釋放／推出」。",
-        "early-mcq-22": "「提早退休」與本句語境不同。",
-        "early-mcq-21": "「早開始；提早出發」與本句語境不同。",
-        "early-mcq-20": "「凌晨時分」與本句語境不同。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。"
+        "early-mcq-23": "本句的「early release」指「提早釋放／推出」。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-23"
     },
@@ -2208,11 +2024,9 @@ export default {
       "masked": "The studio announced an ____ of the film.",
       "options": [
         "early-mcq-23",
-        "early-mcq-22",
-        "early-mcq-21",
-        "early-mcq-20",
-        "early-mcq-19",
-        "early-mcq-18"
+        "early-mcq-06",
+        "early-pdf-002",
+        "early-mcq-15"
       ],
       "explanation": "本句的「early release」指「提早釋放／推出」。",
       "sentenceIndex": 54,
@@ -2221,12 +2035,10 @@ export default {
         "early release"
       ],
       "optionReasons": {
-        "early-mcq-23": "本句指「提早釋放／推出」。",
-        "early-mcq-22": "「提早退休」與本句語境不同。",
-        "early-mcq-21": "「早開始；提早出發」與本句語境不同。",
-        "early-mcq-20": "「凌晨時分」與本句語境不同。",
-        "early-mcq-19": "「早鳥優惠」與本句語境不同。",
-        "early-mcq-18": "「早起／早到的人」與本句語境不同。"
+        "early-mcq-23": "本句的「early release」指「提早釋放／推出」。",
+        "early-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "early-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "early-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "early-mcq-23"
     }
@@ -2238,5 +2050,7 @@ export default {
     "sha256": "15601104017e1b8586f4948795d1cf1d447c2208352c49226fe3e3d819e28750",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

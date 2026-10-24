@@ -182,7 +182,7 @@ export default {
     },
     {
       "id": "suspect-mcq-09",
-      "title": "表示某物看起來可疑",
+      "title": "某物看起來可疑",
       "form": "something looks suspicious — 某物看起來可疑",
       "en": "something looks suspicious — 某物看起來可疑",
       "zh": "表示某物看起來可疑",
@@ -207,11 +207,7 @@ export default {
       "masked": "I ____ the book will give me a lot to think about.",
       "options": [
         "suspect-mcq-01",
-        "suspect-mcq-02",
-        "suspect-mcq-03",
-        "suspect-mcq-04",
-        "suspect-mcq-05",
-        "suspect-mcq-06"
+        "suspect-mcq-07"
       ],
       "explanation": "本句的「suspect」指「根據跡象或推測，認為某件事大概是真的，但並不完全確定」。",
       "sentenceIndex": 0,
@@ -220,12 +216,8 @@ export default {
         "suspect"
       ],
       "optionReasons": {
-        "suspect-mcq-01": "本句指「根據跡象或推測，認為某件事大概是真的，但並不完全確定」。",
-        "suspect-mcq-02": "「懷疑某人做了不當、違法或不誠實的事情」是「suspect someone of something」的用法，與本句語境不同。",
-        "suspect-mcq-03": "「被認為可能涉及犯罪或不法行為的人；嫌疑人」是「suspect — noun」的用法，與本句語境不同。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。"
+        "suspect-mcq-01": "本句的「suspect」指「根據跡象或推測，認為某件事大概是真的，但並不完全確定」。",
+        "suspect-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-01"
     },
@@ -237,11 +229,7 @@ export default {
       "masked": "I ____ he already knows the answer.",
       "options": [
         "suspect-mcq-01",
-        "suspect-mcq-02",
-        "suspect-mcq-03",
-        "suspect-mcq-04",
-        "suspect-mcq-05",
-        "suspect-mcq-06"
+        "suspect-mcq-07"
       ],
       "explanation": "本句的「suspect」指「根據跡象或推測，認為某件事大概是真的，但並不完全確定」。",
       "sentenceIndex": 1,
@@ -250,12 +238,8 @@ export default {
         "suspect"
       ],
       "optionReasons": {
-        "suspect-mcq-01": "本句指「根據跡象或推測，認為某件事大概是真的，但並不完全確定」。",
-        "suspect-mcq-02": "「懷疑某人做了不當、違法或不誠實的事情」是「suspect someone of something」的用法，與本句語境不同。",
-        "suspect-mcq-03": "「被認為可能涉及犯罪或不法行為的人；嫌疑人」是「suspect — noun」的用法，與本句語境不同。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。"
+        "suspect-mcq-01": "本句的「suspect」指「根據跡象或推測，認為某件事大概是真的，但並不完全確定」。",
+        "suspect-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-01"
     },
@@ -267,11 +251,7 @@ export default {
       "masked": "She ____ that something was wrong.",
       "options": [
         "suspect-mcq-01",
-        "suspect-mcq-02",
-        "suspect-mcq-03",
-        "suspect-mcq-04",
-        "suspect-mcq-05",
-        "suspect-mcq-06"
+        "suspect-mcq-09"
       ],
       "explanation": "本句的「suspected」指「根據跡象或推測，認為某件事大概是真的，但並不完全確定」。",
       "sentenceIndex": 2,
@@ -280,12 +260,8 @@ export default {
         "suspected"
       ],
       "optionReasons": {
-        "suspect-mcq-01": "本句指「根據跡象或推測，認為某件事大概是真的，但並不完全確定」。",
-        "suspect-mcq-02": "「懷疑某人做了不當、違法或不誠實的事情」是「suspect someone of something」的用法，與本句語境不同。",
-        "suspect-mcq-03": "「被認為可能涉及犯罪或不法行為的人；嫌疑人」是「suspect — noun」的用法，與本句語境不同。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。"
+        "suspect-mcq-01": "本句的「suspected」指「根據跡象或推測，認為某件事大概是真的，但並不完全確定」。",
+        "suspect-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-01"
     },
@@ -297,11 +273,8 @@ export default {
       "masked": "The police ____ him of theft.",
       "options": [
         "suspect-mcq-02",
-        "suspect-mcq-01",
-        "suspect-mcq-03",
-        "suspect-mcq-04",
-        "suspect-mcq-05",
-        "suspect-mcq-06"
+        "suspect-mcq-08",
+        "suspect-mcq-09"
       ],
       "explanation": "本句的「suspected」指「懷疑某人做了不當、違法或不誠實的事情」。",
       "sentenceIndex": 3,
@@ -310,12 +283,9 @@ export default {
         "suspected"
       ],
       "optionReasons": {
-        "suspect-mcq-02": "本句指「懷疑某人做了不當、違法或不誠實的事情」。",
-        "suspect-mcq-01": "「根據跡象或推測，認為某件事大概是真的，但並不完全確定」是「suspect — think probably true」的用法，與本句語境不同。",
-        "suspect-mcq-03": "「被認為可能涉及犯罪或不法行為的人；嫌疑人」是「suspect — noun」的用法，與本句語境不同。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。"
+        "suspect-mcq-02": "本句的「suspected」指「懷疑某人做了不當、違法或不誠實的事情」。",
+        "suspect-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "suspect-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-02"
     },
@@ -327,11 +297,8 @@ export default {
       "masked": "She ____ her colleague of lying.",
       "options": [
         "suspect-mcq-02",
-        "suspect-mcq-01",
-        "suspect-mcq-03",
-        "suspect-mcq-04",
-        "suspect-mcq-05",
-        "suspect-mcq-06"
+        "suspect-mcq-08",
+        "suspect-mcq-09"
       ],
       "explanation": "本句的「suspected」指「懷疑某人做了不當、違法或不誠實的事情」。",
       "sentenceIndex": 4,
@@ -340,12 +307,9 @@ export default {
         "suspected"
       ],
       "optionReasons": {
-        "suspect-mcq-02": "本句指「懷疑某人做了不當、違法或不誠實的事情」。",
-        "suspect-mcq-01": "「根據跡象或推測，認為某件事大概是真的，但並不完全確定」是「suspect — think probably true」的用法，與本句語境不同。",
-        "suspect-mcq-03": "「被認為可能涉及犯罪或不法行為的人；嫌疑人」是「suspect — noun」的用法，與本句語境不同。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。"
+        "suspect-mcq-02": "本句的「suspected」指「懷疑某人做了不當、違法或不誠實的事情」。",
+        "suspect-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "suspect-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-02"
     },
@@ -357,11 +321,7 @@ export default {
       "masked": "Doctors ____ an infection.",
       "options": [
         "suspect-mcq-08",
-        "suspect-mcq-07",
-        "suspect-mcq-09",
-        "suspect-mcq-06",
-        "suspect-mcq-05",
-        "suspect-mcq-04"
+        "suspect-mcq-07"
       ],
       "explanation": "本句的「suspected」指「認為某個問題、原因、疾病或風險可能存在」。",
       "sentenceIndex": 5,
@@ -370,12 +330,8 @@ export default {
         "suspected"
       ],
       "optionReasons": {
-        "suspect-mcq-08": "本句指「認為某個問題、原因、疾病或風險可能存在」。",
-        "suspect-mcq-07": "「懷疑地；或異常得令人起疑地」是「suspiciously」的用法，與本句語境不同。",
-        "suspect-mcq-09": "「表示某物看起來可疑」是「something looks suspicious — 某物看起來可疑」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。"
+        "suspect-mcq-08": "本句的「suspected」指「認為某個問題、原因、疾病或風險可能存在」。",
+        "suspect-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-08"
     },
@@ -387,10 +343,6 @@ export default {
       "masked": "They ____ a problem with the engine.",
       "options": [
         "suspect-mcq-08",
-        "suspect-mcq-07",
-        "suspect-mcq-09",
-        "suspect-mcq-06",
-        "suspect-mcq-05",
         "suspect-mcq-04"
       ],
       "explanation": "本句的「suspected」指「認為某個問題、原因、疾病或風險可能存在」。",
@@ -400,12 +352,8 @@ export default {
         "suspected"
       ],
       "optionReasons": {
-        "suspect-mcq-08": "本句指「認為某個問題、原因、疾病或風險可能存在」。",
-        "suspect-mcq-07": "「懷疑地；或異常得令人起疑地」是「suspiciously」的用法，與本句語境不同。",
-        "suspect-mcq-09": "「表示某物看起來可疑」是「something looks suspicious — 某物看起來可疑」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。"
+        "suspect-mcq-08": "本句的「suspected」指「認為某個問題、原因、疾病或風險可能存在」。",
+        "suspect-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-08"
     },
@@ -417,11 +365,7 @@ export default {
       "masked": "The police arrested a ____.",
       "options": [
         "suspect-mcq-03",
-        "suspect-mcq-02",
-        "suspect-mcq-04",
-        "suspect-mcq-01",
-        "suspect-mcq-05",
-        "suspect-mcq-06"
+        "suspect-mcq-07"
       ],
       "explanation": "本句的「suspect」指「被認為可能涉及犯罪或不法行為的人；嫌疑人」。",
       "sentenceIndex": 7,
@@ -430,12 +374,8 @@ export default {
         "suspect"
       ],
       "optionReasons": {
-        "suspect-mcq-03": "本句指「被認為可能涉及犯罪或不法行為的人；嫌疑人」。",
-        "suspect-mcq-02": "「懷疑某人做了不當、違法或不誠實的事情」是「suspect someone of something」的用法，與本句語境不同。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。",
-        "suspect-mcq-01": "「根據跡象或推測，認為某件事大概是真的，但並不完全確定」是「suspect — think probably true」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。"
+        "suspect-mcq-03": "本句的「suspect」指「被認為可能涉及犯罪或不法行為的人；嫌疑人」。",
+        "suspect-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-03"
     },
@@ -447,11 +387,7 @@ export default {
       "masked": "The main ____ was questioned for several hours.",
       "options": [
         "suspect-mcq-03",
-        "suspect-mcq-02",
-        "suspect-mcq-04",
-        "suspect-mcq-01",
-        "suspect-mcq-05",
-        "suspect-mcq-06"
+        "suspect-mcq-07"
       ],
       "explanation": "本句的「suspect」指「被認為可能涉及犯罪或不法行為的人；嫌疑人」。",
       "sentenceIndex": 8,
@@ -460,12 +396,8 @@ export default {
         "suspect"
       ],
       "optionReasons": {
-        "suspect-mcq-03": "本句指「被認為可能涉及犯罪或不法行為的人；嫌疑人」。",
-        "suspect-mcq-02": "「懷疑某人做了不當、違法或不誠實的事情」是「suspect someone of something」的用法，與本句語境不同。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。",
-        "suspect-mcq-01": "「根據跡象或推測，認為某件事大概是真的，但並不完全確定」是「suspect — think probably true」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。"
+        "suspect-mcq-03": "本句的「suspect」指「被認為可能涉及犯罪或不法行為的人；嫌疑人」。",
+        "suspect-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-03"
     },
@@ -477,11 +409,7 @@ export default {
       "masked": "The evidence is ____.",
       "options": [
         "suspect-mcq-04",
-        "suspect-mcq-03",
-        "suspect-mcq-05",
-        "suspect-mcq-02",
-        "suspect-mcq-06",
-        "suspect-mcq-01"
+        "suspect-mcq-08"
       ],
       "explanation": "本句的「suspect」指「真實性、可靠性或正當性令人懷疑的；可疑的」。",
       "sentenceIndex": 9,
@@ -490,12 +418,8 @@ export default {
         "suspect"
       ],
       "optionReasons": {
-        "suspect-mcq-04": "本句指「真實性、可靠性或正當性令人懷疑的；可疑的」。",
-        "suspect-mcq-03": "「被認為可能涉及犯罪或不法行為的人；嫌疑人」是「suspect — noun」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-02": "「懷疑某人做了不當、違法或不誠實的事情」是「suspect someone of something」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。",
-        "suspect-mcq-01": "「根據跡象或推測，認為某件事大概是真的，但並不完全確定」是「suspect — think probably true」的用法，與本句語境不同。"
+        "suspect-mcq-04": "本句的「suspect」指「真實性、可靠性或正當性令人懷疑的；可疑的」。",
+        "suspect-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-04"
     },
@@ -507,11 +431,7 @@ export default {
       "masked": "His explanation seemed ____.",
       "options": [
         "suspect-mcq-04",
-        "suspect-mcq-03",
-        "suspect-mcq-05",
-        "suspect-mcq-02",
-        "suspect-mcq-06",
-        "suspect-mcq-01"
+        "suspect-mcq-08"
       ],
       "explanation": "本句的「suspect」指「真實性、可靠性或正當性令人懷疑的；可疑的」。",
       "sentenceIndex": 10,
@@ -520,12 +440,8 @@ export default {
         "suspect"
       ],
       "optionReasons": {
-        "suspect-mcq-04": "本句指「真實性、可靠性或正當性令人懷疑的；可疑的」。",
-        "suspect-mcq-03": "「被認為可能涉及犯罪或不法行為的人；嫌疑人」是「suspect — noun」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-02": "「懷疑某人做了不當、違法或不誠實的事情」是「suspect someone of something」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。",
-        "suspect-mcq-01": "「根據跡象或推測，認為某件事大概是真的，但並不完全確定」是「suspect — think probably true」的用法，與本句語境不同。"
+        "suspect-mcq-04": "本句的「suspect」指「真實性、可靠性或正當性令人懷疑的；可疑的」。",
+        "suspect-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-04"
     },
@@ -537,11 +453,7 @@ export default {
       "masked": "She had a ____ that he was hiding something.",
       "options": [
         "suspect-mcq-05",
-        "suspect-mcq-04",
-        "suspect-mcq-06",
-        "suspect-mcq-03",
-        "suspect-mcq-07",
-        "suspect-mcq-02"
+        "suspect-mcq-09"
       ],
       "explanation": "本句的「suspicion」指「懷疑、疑心；認為可能有問題的感覺」。",
       "sentenceIndex": 11,
@@ -550,12 +462,8 @@ export default {
         "suspicion"
       ],
       "optionReasons": {
-        "suspect-mcq-05": "本句指「懷疑、疑心；認為可能有問題的感覺」。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。",
-        "suspect-mcq-03": "「被認為可能涉及犯罪或不法行為的人；嫌疑人」是「suspect — noun」的用法，與本句語境不同。",
-        "suspect-mcq-07": "「懷疑地；或異常得令人起疑地」是「suspiciously」的用法，與本句語境不同。",
-        "suspect-mcq-02": "「懷疑某人做了不當、違法或不誠實的事情」是「suspect someone of something」的用法，與本句語境不同。"
+        "suspect-mcq-05": "本句的「suspicion」指「懷疑、疑心；認為可能有問題的感覺」。",
+        "suspect-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-05"
     },
@@ -567,11 +475,7 @@ export default {
       "masked": "The police became increasingly ____ of his story.",
       "options": [
         "suspect-mcq-05",
-        "suspect-mcq-04",
-        "suspect-mcq-06",
-        "suspect-mcq-03",
-        "suspect-mcq-07",
-        "suspect-mcq-02"
+        "suspect-mcq-09"
       ],
       "explanation": "本句的「suspicious」指「懷疑、疑心；認為可能有問題的感覺」。",
       "sentenceIndex": 12,
@@ -580,12 +484,8 @@ export default {
         "suspicious"
       ],
       "optionReasons": {
-        "suspect-mcq-05": "本句指「懷疑、疑心；認為可能有問題的感覺」。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。",
-        "suspect-mcq-03": "「被認為可能涉及犯罪或不法行為的人；嫌疑人」是「suspect — noun」的用法，與本句語境不同。",
-        "suspect-mcq-07": "「懷疑地；或異常得令人起疑地」是「suspiciously」的用法，與本句語境不同。",
-        "suspect-mcq-02": "「懷疑某人做了不當、違法或不誠實的事情」是「suspect someone of something」的用法，與本句語境不同。"
+        "suspect-mcq-05": "本句的「suspicious」指「懷疑、疑心；認為可能有問題的感覺」。",
+        "suspect-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-05"
     },
@@ -597,11 +497,8 @@ export default {
       "masked": "She was ____ his explanation.",
       "options": [
         "suspect-mcq-02",
-        "suspect-mcq-01",
-        "suspect-mcq-03",
-        "suspect-mcq-04",
-        "suspect-mcq-05",
-        "suspect-mcq-06"
+        "suspect-mcq-08",
+        "suspect-mcq-09"
       ],
       "explanation": "本句的「suspicious of」指「懷疑某人做了不當、違法或不誠實的事情」。",
       "sentenceIndex": 13,
@@ -610,12 +507,9 @@ export default {
         "suspicious of"
       ],
       "optionReasons": {
-        "suspect-mcq-02": "本句指「懷疑某人做了不當、違法或不誠實的事情」。",
-        "suspect-mcq-01": "「根據跡象或推測，認為某件事大概是真的，但並不完全確定」是「suspect — think probably true」的用法，與本句語境不同。",
-        "suspect-mcq-03": "「被認為可能涉及犯罪或不法行為的人；嫌疑人」是「suspect — noun」的用法，與本句語境不同。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。"
+        "suspect-mcq-02": "本句的「suspicious of」指「懷疑某人做了不當、違法或不誠實的事情」。",
+        "suspect-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "suspect-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-02"
     },
@@ -628,10 +522,7 @@ export default {
       "options": [
         "suspect-mcq-09",
         "suspect-mcq-08",
-        "suspect-mcq-07",
-        "suspect-mcq-06",
-        "suspect-mcq-05",
-        "suspect-mcq-04"
+        "suspect-mcq-02"
       ],
       "explanation": "本句的「suspicious」指「表示某物看起來可疑」。",
       "sentenceIndex": 14,
@@ -640,12 +531,9 @@ export default {
         "suspicious"
       ],
       "optionReasons": {
-        "suspect-mcq-09": "本句指「表示某物看起來可疑」。",
-        "suspect-mcq-08": "「認為某個問題、原因、疾病或風險可能存在」是「3. suspect = doubt the honesty, safety, or reliability of something（可疑） — 對……有疑心；覺」的用法，與本句語境不同。",
-        "suspect-mcq-07": "「懷疑地；或異常得令人起疑地」是「suspiciously」的用法，與本句語境不同。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。"
+        "suspect-mcq-09": "本句的「suspicious」指「表示某物看起來可疑」。",
+        "suspect-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "suspect-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-09"
     },
@@ -657,11 +545,7 @@ export default {
       "masked": "He looked at me ____.",
       "options": [
         "suspect-mcq-07",
-        "suspect-mcq-06",
-        "suspect-mcq-08",
-        "suspect-mcq-05",
-        "suspect-mcq-09",
-        "suspect-mcq-04"
+        "suspect-mcq-08"
       ],
       "explanation": "本句的「suspiciously」指「懷疑地；或異常得令人起疑地」。",
       "sentenceIndex": 15,
@@ -670,12 +554,8 @@ export default {
         "suspiciously"
       ],
       "optionReasons": {
-        "suspect-mcq-07": "本句指「懷疑地；或異常得令人起疑地」。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。",
-        "suspect-mcq-08": "「認為某個問題、原因、疾病或風險可能存在」是「3. suspect = doubt the honesty, safety, or reliability of something（可疑） — 對……有疑心；覺」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-09": "「表示某物看起來可疑」是「something looks suspicious — 某物看起來可疑」的用法，與本句語境不同。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。"
+        "suspect-mcq-07": "本句的「suspiciously」指「懷疑地；或異常得令人起疑地」。",
+        "suspect-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-07"
     },
@@ -687,11 +567,7 @@ export default {
       "masked": "The price was ____ low.",
       "options": [
         "suspect-mcq-07",
-        "suspect-mcq-06",
-        "suspect-mcq-08",
-        "suspect-mcq-05",
-        "suspect-mcq-09",
-        "suspect-mcq-04"
+        "suspect-mcq-08"
       ],
       "explanation": "本句的「suspiciously」指「懷疑地；或異常得令人起疑地」。",
       "sentenceIndex": 16,
@@ -700,12 +576,8 @@ export default {
         "suspiciously"
       ],
       "optionReasons": {
-        "suspect-mcq-07": "本句指「懷疑地；或異常得令人起疑地」。",
-        "suspect-mcq-06": "「對某人／某事有懷疑；或本身令人起疑的」是「suspicious」的用法，與本句語境不同。",
-        "suspect-mcq-08": "「認為某個問題、原因、疾病或風險可能存在」是「3. suspect = doubt the honesty, safety, or reliability of something（可疑） — 對……有疑心；覺」的用法，與本句語境不同。",
-        "suspect-mcq-05": "「懷疑、疑心；認為可能有問題的感覺」是「suspicion」的用法，與本句語境不同。",
-        "suspect-mcq-09": "「表示某物看起來可疑」是「something looks suspicious — 某物看起來可疑」的用法，與本句語境不同。",
-        "suspect-mcq-04": "「真實性、可靠性或正當性令人懷疑的；可疑的」是「suspect — adjective」的用法，與本句語境不同。"
+        "suspect-mcq-07": "本句的「suspiciously」指「懷疑地；或異常得令人起疑地」。",
+        "suspect-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suspect-mcq-07"
     }
@@ -717,5 +589,7 @@ export default {
     "sha256": "2fb8045c40e863a3acea3a1ae6e5b83d99bb9258acaccbea1f5b54e9d0db40ab",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

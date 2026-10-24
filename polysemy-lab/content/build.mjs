@@ -768,11 +768,8 @@ export default {
       "masked": "He is really into ____.",
       "options": [
         "build-mcq-01",
-        "build-mcq-02",
-        "build-mcq-03",
-        "build-mcq-04",
-        "build-mcq-05",
-        "build-mcq-06"
+        "build-mcq-08",
+        "build-mcq-10"
       ],
       "explanation": "本句的「building things」指「把材料、零件或部分組合起來，形成完整的物件或結構」。",
       "sentenceIndex": 0,
@@ -781,12 +778,9 @@ export default {
         "building things"
       ],
       "optionReasons": {
-        "build-mcq-01": "本句指「把材料、零件或部分組合起來，形成完整的物件或結構」。",
-        "build-mcq-02": "「把各個零件或部分組合起來，製成一件完整物品」是「build = make by assembling parts（組裝／製作）」的用法，與本句語境不同。",
-        "build-mcq-03": "「建造較大型、固定或具結構性的實體設施」是「build a bridge/road/wall（大型結構）」的用法，與本句語境不同。",
-        "build-mcq-04": "「經過時間和努力，逐步建立某種抽象事物」是「build = create something gradually（建立）」的用法，與本句語境不同。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。"
+        "build-mcq-01": "本句的「building things」指「把材料、零件或部分組合起來，形成完整的物件或結構」。",
+        "build-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-01"
     },
@@ -798,11 +792,8 @@ export default {
       "masked": "The children ____ a tower with blocks.",
       "options": [
         "build-mcq-01",
-        "build-mcq-02",
-        "build-mcq-03",
-        "build-mcq-04",
-        "build-mcq-05",
-        "build-mcq-06"
+        "build-mcq-14",
+        "build-mcq-10"
       ],
       "explanation": "本句的「built」指「把材料、零件或部分組合起來，形成完整的物件或結構」。",
       "sentenceIndex": 1,
@@ -811,12 +802,9 @@ export default {
         "built"
       ],
       "optionReasons": {
-        "build-mcq-01": "本句指「把材料、零件或部分組合起來，形成完整的物件或結構」。",
-        "build-mcq-02": "「把各個零件或部分組合起來，製成一件完整物品」是「build = make by assembling parts（組裝／製作）」的用法，與本句語境不同。",
-        "build-mcq-03": "「建造較大型、固定或具結構性的實體設施」是「build a bridge/road/wall（大型結構）」的用法，與本句語境不同。",
-        "build-mcq-04": "「經過時間和努力，逐步建立某種抽象事物」是「build = create something gradually（建立）」的用法，與本句語境不同。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。"
+        "build-mcq-01": "本句的「built」指「把材料、零件或部分組合起來，形成完整的物件或結構」。",
+        "build-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-01"
     },
@@ -828,11 +816,8 @@ export default {
       "masked": "They are ____ a new school.",
       "options": [
         "build-mcq-01",
-        "build-mcq-02",
-        "build-mcq-03",
-        "build-mcq-04",
-        "build-mcq-05",
-        "build-mcq-06"
+        "build-mcq-08",
+        "build-mcq-10"
       ],
       "explanation": "本句的「building」指「把材料、零件或部分組合起來，形成完整的物件或結構」。",
       "sentenceIndex": 2,
@@ -841,12 +826,9 @@ export default {
         "building"
       ],
       "optionReasons": {
-        "build-mcq-01": "本句指「把材料、零件或部分組合起來，形成完整的物件或結構」。",
-        "build-mcq-02": "「把各個零件或部分組合起來，製成一件完整物品」是「build = make by assembling parts（組裝／製作）」的用法，與本句語境不同。",
-        "build-mcq-03": "「建造較大型、固定或具結構性的實體設施」是「build a bridge/road/wall（大型結構）」的用法，與本句語境不同。",
-        "build-mcq-04": "「經過時間和努力，逐步建立某種抽象事物」是「build = create something gradually（建立）」的用法，與本句語境不同。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。"
+        "build-mcq-01": "本句的「building」指「把材料、零件或部分組合起來，形成完整的物件或結構」。",
+        "build-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-01"
     },
@@ -858,11 +840,9 @@ export default {
       "masked": "He ____ a model rocket.",
       "options": [
         "build-mcq-02",
-        "build-mcq-01",
+        "build-mcq-07",
         "build-mcq-03",
-        "build-mcq-04",
-        "build-mcq-05",
-        "build-mcq-06"
+        "build-mcq-15"
       ],
       "explanation": "本句的「built」指「把各個零件或部分組合起來，製成一件完整物品」。",
       "sentenceIndex": 3,
@@ -871,12 +851,10 @@ export default {
         "built"
       ],
       "optionReasons": {
-        "build-mcq-02": "本句指「把各個零件或部分組合起來，製成一件完整物品」。",
-        "build-mcq-01": "「把材料、零件或部分組合起來，形成完整的物件或結構」是「build = construct something physical（建造）」的用法，與本句語境不同。",
-        "build-mcq-03": "「建造較大型、固定或具結構性的實體設施」是「build a bridge/road/wall（大型結構）」的用法，與本句語境不同。",
-        "build-mcq-04": "「經過時間和努力，逐步建立某種抽象事物」是「build = create something gradually（建立）」的用法，與本句語境不同。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。"
+        "build-mcq-02": "本句的「built」指「把各個零件或部分組合起來，製成一件完整物品」。",
+        "build-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-02"
     },
@@ -888,11 +866,9 @@ export default {
       "masked": "She ____ the computer herself.",
       "options": [
         "build-mcq-02",
-        "build-mcq-01",
-        "build-mcq-03",
-        "build-mcq-04",
-        "build-mcq-05",
-        "build-mcq-06"
+        "build-mcq-17",
+        "build-mcq-28",
+        "build-mcq-19"
       ],
       "explanation": "本句的「built」指「把各個零件或部分組合起來，製成一件完整物品」。",
       "sentenceIndex": 4,
@@ -901,12 +877,10 @@ export default {
         "built"
       ],
       "optionReasons": {
-        "build-mcq-02": "本句指「把各個零件或部分組合起來，製成一件完整物品」。",
-        "build-mcq-01": "「把材料、零件或部分組合起來，形成完整的物件或結構」是「build = construct something physical（建造）」的用法，與本句語境不同。",
-        "build-mcq-03": "「建造較大型、固定或具結構性的實體設施」是「build a bridge/road/wall（大型結構）」的用法，與本句語境不同。",
-        "build-mcq-04": "「經過時間和努力，逐步建立某種抽象事物」是「build = create something gradually（建立）」的用法，與本句語境不同。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。"
+        "build-mcq-02": "本句的「built」指「把各個零件或部分組合起來，製成一件完整物品」。",
+        "build-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-02"
     },
@@ -918,11 +892,9 @@ export default {
       "masked": "Workers are ____ a bridge across the river.",
       "options": [
         "build-mcq-03",
-        "build-mcq-02",
-        "build-mcq-04",
-        "build-mcq-01",
-        "build-mcq-05",
-        "build-mcq-06"
+        "build-mcq-15",
+        "build-mcq-27",
+        "build-mcq-02"
       ],
       "explanation": "本句的「building」指「建造較大型、固定或具結構性的實體設施」。",
       "sentenceIndex": 5,
@@ -931,12 +903,10 @@ export default {
         "building"
       ],
       "optionReasons": {
-        "build-mcq-03": "本句指「建造較大型、固定或具結構性的實體設施」。",
-        "build-mcq-02": "「把各個零件或部分組合起來，製成一件完整物品」是「build = make by assembling parts（組裝／製作）」的用法，與本句語境不同。",
-        "build-mcq-04": "「經過時間和努力，逐步建立某種抽象事物」是「build = create something gradually（建立）」的用法，與本句語境不同。",
-        "build-mcq-01": "「把材料、零件或部分組合起來，形成完整的物件或結構」是「build = construct something physical（建造）」的用法，與本句語境不同。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。"
+        "build-mcq-03": "本句的「building」指「建造較大型、固定或具結構性的實體設施」。",
+        "build-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-03"
     },
@@ -948,11 +918,9 @@ export default {
       "masked": "They ____ a wall around the garden.",
       "options": [
         "build-mcq-03",
-        "build-mcq-02",
-        "build-mcq-04",
-        "build-mcq-01",
-        "build-mcq-05",
-        "build-mcq-06"
+        "build-mcq-32",
+        "build-mcq-15",
+        "build-mcq-19"
       ],
       "explanation": "本句的「built」指「建造較大型、固定或具結構性的實體設施」。",
       "sentenceIndex": 6,
@@ -961,12 +929,10 @@ export default {
         "built"
       ],
       "optionReasons": {
-        "build-mcq-03": "本句指「建造較大型、固定或具結構性的實體設施」。",
-        "build-mcq-02": "「把各個零件或部分組合起來，製成一件完整物品」是「build = make by assembling parts（組裝／製作）」的用法，與本句語境不同。",
-        "build-mcq-04": "「經過時間和努力，逐步建立某種抽象事物」是「build = create something gradually（建立）」的用法，與本句語境不同。",
-        "build-mcq-01": "「把材料、零件或部分組合起來，形成完整的物件或結構」是「build = construct something physical（建造）」的用法，與本句語境不同。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。"
+        "build-mcq-03": "本句的「built」指「建造較大型、固定或具結構性的實體設施」。",
+        "build-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-03"
     },
@@ -978,11 +944,9 @@ export default {
       "masked": "It takes time to ____ trust.",
       "options": [
         "build-mcq-04",
-        "build-mcq-03",
-        "build-mcq-05",
         "build-mcq-02",
-        "build-mcq-06",
-        "build-mcq-01"
+        "build-mcq-23",
+        "build-mcq-27"
       ],
       "explanation": "本句的「build」指「經過時間和努力，逐步建立某種抽象事物」。",
       "sentenceIndex": 7,
@@ -991,12 +955,10 @@ export default {
         "build"
       ],
       "optionReasons": {
-        "build-mcq-04": "本句指「經過時間和努力，逐步建立某種抽象事物」。",
-        "build-mcq-03": "「建造較大型、固定或具結構性的實體設施」是「build a bridge/road/wall（大型結構）」的用法，與本句語境不同。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。",
-        "build-mcq-02": "「把各個零件或部分組合起來，製成一件完整物品」是「build = make by assembling parts（組裝／製作）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。",
-        "build-mcq-01": "「把材料、零件或部分組合起來，形成完整的物件或結構」是「build = construct something physical（建造）」的用法，與本句語境不同。"
+        "build-mcq-04": "本句的「build」指「經過時間和努力，逐步建立某種抽象事物」。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-04"
     },
@@ -1008,11 +970,9 @@ export default {
       "masked": "They worked hard to ____ a strong relationship.",
       "options": [
         "build-mcq-04",
-        "build-mcq-03",
-        "build-mcq-05",
+        "build-mcq-27",
         "build-mcq-02",
-        "build-mcq-06",
-        "build-mcq-01"
+        "build-mcq-23"
       ],
       "explanation": "本句的「build」指「經過時間和努力，逐步建立某種抽象事物」。",
       "sentenceIndex": 8,
@@ -1021,12 +981,10 @@ export default {
         "build"
       ],
       "optionReasons": {
-        "build-mcq-04": "本句指「經過時間和努力，逐步建立某種抽象事物」。",
-        "build-mcq-03": "「建造較大型、固定或具結構性的實體設施」是「build a bridge/road/wall（大型結構）」的用法，與本句語境不同。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。",
-        "build-mcq-02": "「把各個零件或部分組合起來，製成一件完整物品」是「build = make by assembling parts（組裝／製作）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。",
-        "build-mcq-01": "「把材料、零件或部分組合起來，形成完整的物件或結構」是「build = construct something physical（建造）」的用法，與本句語境不同。"
+        "build-mcq-04": "本句的「build」指「經過時間和努力，逐步建立某種抽象事物」。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-04"
     },
@@ -1038,11 +996,9 @@ export default {
       "masked": "She quickly ____ with the children.",
       "options": [
         "build-mcq-05",
-        "build-mcq-04",
-        "build-mcq-06",
-        "build-mcq-03",
-        "build-mcq-07",
-        "build-mcq-02"
+        "build-mcq-27",
+        "build-mcq-19",
+        "build-mcq-18"
       ],
       "explanation": "本句的「built a good relationship」指「經過互動、時間和努力逐漸建立人際連結」。",
       "sentenceIndex": 9,
@@ -1051,12 +1007,10 @@ export default {
         "built a good relationship"
       ],
       "optionReasons": {
-        "build-mcq-05": "本句指「經過互動、時間和努力逐漸建立人際連結」。",
-        "build-mcq-04": "「經過時間和努力，逐步建立某種抽象事物」是「build = create something gradually（建立）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。",
-        "build-mcq-03": "「建造較大型、固定或具結構性的實體設施」是「build a bridge/road/wall（大型結構）」的用法，與本句語境不同。",
-        "build-mcq-07": "「逐漸增加某人的自信和把握」是「build confidence（建立信心）」的用法，與本句語境不同。",
-        "build-mcq-02": "「把各個零件或部分組合起來，製成一件完整物品」是「build = make by assembling parts（組裝／製作）」的用法，與本句語境不同。"
+        "build-mcq-05": "本句的「built a good relationship」指「經過互動、時間和努力逐漸建立人際連結」。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-05"
     },
@@ -1068,11 +1022,9 @@ export default {
       "masked": "Regular communication helps ____.",
       "options": [
         "build-mcq-05",
-        "build-mcq-04",
-        "build-mcq-06",
-        "build-mcq-03",
-        "build-mcq-07",
-        "build-mcq-02"
+        "build-mcq-18",
+        "build-mcq-27",
+        "build-mcq-19"
       ],
       "explanation": "本句的「build relationships」指「經過互動、時間和努力逐漸建立人際連結」。",
       "sentenceIndex": 10,
@@ -1081,12 +1033,10 @@ export default {
         "build relationships"
       ],
       "optionReasons": {
-        "build-mcq-05": "本句指「經過互動、時間和努力逐漸建立人際連結」。",
-        "build-mcq-04": "「經過時間和努力，逐步建立某種抽象事物」是「build = create something gradually（建立）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。",
-        "build-mcq-03": "「建造較大型、固定或具結構性的實體設施」是「build a bridge/road/wall（大型結構）」的用法，與本句語境不同。",
-        "build-mcq-07": "「逐漸增加某人的自信和把握」是「build confidence（建立信心）」的用法，與本句語境不同。",
-        "build-mcq-02": "「把各個零件或部分組合起來，製成一件完整物品」是「build = make by assembling parts（組裝／製作）」的用法，與本句語境不同。"
+        "build-mcq-05": "本句的「build relationships」指「經過互動、時間和努力逐漸建立人際連結」。",
+        "build-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-05"
     },
@@ -1098,11 +1048,9 @@ export default {
       "masked": "Honesty helps ____.",
       "options": [
         "build-mcq-06",
-        "build-mcq-05",
-        "build-mcq-07",
-        "build-mcq-04",
-        "build-mcq-08",
-        "build-mcq-03"
+        "build-mcq-18",
+        "build-mcq-02",
+        "build-mcq-27"
       ],
       "explanation": "本句的「build trust」指「經過行動和時間逐步令人產生信任」。",
       "sentenceIndex": 11,
@@ -1111,12 +1059,10 @@ export default {
         "build trust"
       ],
       "optionReasons": {
-        "build-mcq-06": "本句指「經過行動和時間逐步令人產生信任」。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。",
-        "build-mcq-07": "「逐漸增加某人的自信和把握」是「build confidence（建立信心）」的用法，與本句語境不同。",
-        "build-mcq-04": "「經過時間和努力，逐步建立某種抽象事物」是「build = create something gradually（建立）」的用法，與本句語境不同。",
-        "build-mcq-08": "「透過學習和練習逐漸增加能力或知識」是「build skills / knowledge（培養能力／累積知識）」的用法，與本句語境不同。",
-        "build-mcq-03": "「建造較大型、固定或具結構性的實體設施」是「build a bridge/road/wall（大型結構）」的用法，與本句語境不同。"
+        "build-mcq-06": "本句的「build trust」指「經過行動和時間逐步令人產生信任」。",
+        "build-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-06"
     },
@@ -1128,11 +1074,9 @@ export default {
       "masked": "It took years to ____ their trust.",
       "options": [
         "build-mcq-06",
-        "build-mcq-05",
-        "build-mcq-07",
-        "build-mcq-04",
-        "build-mcq-08",
-        "build-mcq-03"
+        "build-mcq-02",
+        "build-mcq-22",
+        "build-mcq-27"
       ],
       "explanation": "本句的「build」指「經過行動和時間逐步令人產生信任」。",
       "sentenceIndex": 12,
@@ -1141,12 +1085,10 @@ export default {
         "build"
       ],
       "optionReasons": {
-        "build-mcq-06": "本句指「經過行動和時間逐步令人產生信任」。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。",
-        "build-mcq-07": "「逐漸增加某人的自信和把握」是「build confidence（建立信心）」的用法，與本句語境不同。",
-        "build-mcq-04": "「經過時間和努力，逐步建立某種抽象事物」是「build = create something gradually（建立）」的用法，與本句語境不同。",
-        "build-mcq-08": "「透過學習和練習逐漸增加能力或知識」是「build skills / knowledge（培養能力／累積知識）」的用法，與本句語境不同。",
-        "build-mcq-03": "「建造較大型、固定或具結構性的實體設施」是「build a bridge/road/wall（大型結構）」的用法，與本句語境不同。"
+        "build-mcq-06": "本句的「build」指「經過行動和時間逐步令人產生信任」。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-06"
     },
@@ -1158,11 +1100,9 @@ export default {
       "masked": "Practice can ____.",
       "options": [
         "build-mcq-07",
-        "build-mcq-06",
-        "build-mcq-08",
-        "build-mcq-05",
-        "build-mcq-09",
-        "build-mcq-04"
+        "build-mcq-01",
+        "build-mcq-30",
+        "build-mcq-19"
       ],
       "explanation": "本句的「build confidence」指「逐漸增加某人的自信和把握」。",
       "sentenceIndex": 13,
@@ -1171,12 +1111,10 @@ export default {
         "build confidence"
       ],
       "optionReasons": {
-        "build-mcq-07": "本句指「逐漸增加某人的自信和把握」。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。",
-        "build-mcq-08": "「透過學習和練習逐漸增加能力或知識」是「build skills / knowledge（培養能力／累積知識）」的用法，與本句語境不同。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。",
-        "build-mcq-09": "「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」是「build a reputation（建立聲譽）」的用法，與本句語境不同。",
-        "build-mcq-04": "「經過時間和努力，逐步建立某種抽象事物」是「build = create something gradually（建立）」的用法，與本句語境不同。"
+        "build-mcq-07": "本句的「build confidence」指「逐漸增加某人的自信和把握」。",
+        "build-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-07"
     },
@@ -1188,11 +1126,9 @@ export default {
       "masked": "The teacher helped him ____.",
       "options": [
         "build-mcq-07",
-        "build-mcq-06",
-        "build-mcq-08",
-        "build-mcq-05",
-        "build-mcq-09",
-        "build-mcq-04"
+        "build-mcq-02",
+        "build-mcq-33",
+        "build-mcq-19"
       ],
       "explanation": "本句的「build his confidence」指「逐漸增加某人的自信和把握」。",
       "sentenceIndex": 14,
@@ -1201,12 +1137,10 @@ export default {
         "build his confidence"
       ],
       "optionReasons": {
-        "build-mcq-07": "本句指「逐漸增加某人的自信和把握」。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。",
-        "build-mcq-08": "「透過學習和練習逐漸增加能力或知識」是「build skills / knowledge（培養能力／累積知識）」的用法，與本句語境不同。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。",
-        "build-mcq-09": "「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」是「build a reputation（建立聲譽）」的用法，與本句語境不同。",
-        "build-mcq-04": "「經過時間和努力，逐步建立某種抽象事物」是「build = create something gradually（建立）」的用法，與本句語境不同。"
+        "build-mcq-07": "本句的「build his confidence」指「逐漸增加某人的自信和把握」。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-07"
     },
@@ -1218,11 +1152,9 @@ export default {
       "masked": "Reading helps children ____.",
       "options": [
         "build-mcq-08",
-        "build-mcq-07",
-        "build-mcq-09",
-        "build-mcq-06",
-        "build-mcq-10",
-        "build-mcq-05"
+        "build-mcq-26",
+        "build-mcq-19",
+        "build-mcq-23"
       ],
       "explanation": "本句的「build vocabulary」指「透過學習和練習逐漸增加能力或知識」。",
       "sentenceIndex": 15,
@@ -1231,12 +1163,10 @@ export default {
         "build vocabulary"
       ],
       "optionReasons": {
-        "build-mcq-08": "本句指「透過學習和練習逐漸增加能力或知識」。",
-        "build-mcq-07": "「逐漸增加某人的自信和把握」是「build confidence（建立信心）」的用法，與本句語境不同。",
-        "build-mcq-09": "「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」是「build a reputation（建立聲譽）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。",
-        "build-mcq-10": "「創立並逐步發展一個機構、事業或系統」是「build a business/company/organization（建立事業／機構）」的用法，與本句語境不同。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。"
+        "build-mcq-08": "本句的「build vocabulary」指「透過學習和練習逐漸增加能力或知識」。",
+        "build-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-08"
     },
@@ -1248,11 +1178,9 @@ export default {
       "masked": "The course helps students ____.",
       "options": [
         "build-mcq-08",
-        "build-mcq-07",
-        "build-mcq-09",
-        "build-mcq-06",
-        "build-mcq-10",
-        "build-mcq-05"
+        "build-mcq-03",
+        "build-mcq-19",
+        "build-mcq-20"
       ],
       "explanation": "本句的「build practical skills」指「透過學習和練習逐漸增加能力或知識」。",
       "sentenceIndex": 16,
@@ -1261,12 +1189,10 @@ export default {
         "build practical skills"
       ],
       "optionReasons": {
-        "build-mcq-08": "本句指「透過學習和練習逐漸增加能力或知識」。",
-        "build-mcq-07": "「逐漸增加某人的自信和把握」是「build confidence（建立信心）」的用法，與本句語境不同。",
-        "build-mcq-09": "「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」是「build a reputation（建立聲譽）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。",
-        "build-mcq-10": "「創立並逐步發展一個機構、事業或系統」是「build a business/company/organization（建立事業／機構）」的用法，與本句語境不同。",
-        "build-mcq-05": "「經過互動、時間和努力逐漸建立人際連結」是「build a relationship（建立關係）」的用法，與本句語境不同。"
+        "build-mcq-08": "本句的「build practical skills」指「透過學習和練習逐漸增加能力或知識」。",
+        "build-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-08"
     },
@@ -1278,11 +1204,9 @@ export default {
       "masked": "The company has ____.",
       "options": [
         "build-mcq-09",
-        "build-mcq-08",
-        "build-mcq-10",
-        "build-mcq-07",
-        "build-mcq-11",
-        "build-mcq-06"
+        "build-mcq-19",
+        "build-mcq-27",
+        "build-mcq-15"
       ],
       "explanation": "本句的「built a strong reputation」指「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」。",
       "sentenceIndex": 17,
@@ -1291,12 +1215,10 @@ export default {
         "built a strong reputation"
       ],
       "optionReasons": {
-        "build-mcq-09": "本句指「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」。",
-        "build-mcq-08": "「透過學習和練習逐漸增加能力或知識」是「build skills / knowledge（培養能力／累積知識）」的用法，與本句語境不同。",
-        "build-mcq-10": "「創立並逐步發展一個機構、事業或系統」是「build a business/company/organization（建立事業／機構）」的用法，與本句語境不同。",
-        "build-mcq-07": "「逐漸增加某人的自信和把握」是「build confidence（建立信心）」的用法，與本句語境不同。",
-        "build-mcq-11": "「組成團隊並逐步培養成員之間的合作能力」是「build a team（建立團隊）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。"
+        "build-mcq-09": "本句的「built a strong reputation」指「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-09"
     },
@@ -1308,11 +1230,9 @@ export default {
       "masked": "She ____ for being reliable.",
       "options": [
         "build-mcq-09",
-        "build-mcq-08",
-        "build-mcq-10",
-        "build-mcq-07",
-        "build-mcq-11",
-        "build-mcq-06"
+        "build-mcq-02",
+        "build-mcq-19",
+        "build-mcq-15"
       ],
       "explanation": "本句的「built a reputation」指「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」。",
       "sentenceIndex": 18,
@@ -1321,12 +1241,10 @@ export default {
         "built a reputation"
       ],
       "optionReasons": {
-        "build-mcq-09": "本句指「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」。",
-        "build-mcq-08": "「透過學習和練習逐漸增加能力或知識」是「build skills / knowledge（培養能力／累積知識）」的用法，與本句語境不同。",
-        "build-mcq-10": "「創立並逐步發展一個機構、事業或系統」是「build a business/company/organization（建立事業／機構）」的用法，與本句語境不同。",
-        "build-mcq-07": "「逐漸增加某人的自信和把握」是「build confidence（建立信心）」的用法，與本句語境不同。",
-        "build-mcq-11": "「組成團隊並逐步培養成員之間的合作能力」是「build a team（建立團隊）」的用法，與本句語境不同。",
-        "build-mcq-06": "「經過行動和時間逐步令人產生信任」是「build trust（建立信任）」的用法，與本句語境不同。"
+        "build-mcq-09": "本句的「built a reputation」指「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-09"
     },
@@ -1338,11 +1256,9 @@ export default {
       "masked": "He ____ the company from nothing.",
       "options": [
         "build-mcq-10",
-        "build-mcq-09",
-        "build-mcq-11",
+        "build-mcq-02",
         "build-mcq-08",
-        "build-mcq-12",
-        "build-mcq-07"
+        "build-mcq-33"
       ],
       "explanation": "本句的「built」指「創立並逐步發展一個機構、事業或系統」。",
       "sentenceIndex": 19,
@@ -1351,12 +1267,10 @@ export default {
         "built"
       ],
       "optionReasons": {
-        "build-mcq-10": "本句指「創立並逐步發展一個機構、事業或系統」。",
-        "build-mcq-09": "「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」是「build a reputation（建立聲譽）」的用法，與本句語境不同。",
-        "build-mcq-11": "「組成團隊並逐步培養成員之間的合作能力」是「build a team（建立團隊）」的用法，與本句語境不同。",
-        "build-mcq-08": "「透過學習和練習逐漸增加能力或知識」是「build skills / knowledge（培養能力／累積知識）」的用法，與本句語境不同。",
-        "build-mcq-12": "「設計、建立並逐步完成一個複雜系統或架構」是「build a system/network/platform（建立系統／網絡）」的用法，與本句語境不同。",
-        "build-mcq-07": "「逐漸增加某人的自信和把握」是「build confidence（建立信心）」的用法，與本句語境不同。"
+        "build-mcq-10": "本句的「built」指「創立並逐步發展一個機構、事業或系統」。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-10"
     },
@@ -1368,11 +1282,9 @@ export default {
       "masked": "They spent years ____ the business.",
       "options": [
         "build-mcq-10",
-        "build-mcq-09",
-        "build-mcq-11",
+        "build-mcq-02",
         "build-mcq-08",
-        "build-mcq-12",
-        "build-mcq-07"
+        "build-mcq-03"
       ],
       "explanation": "本句的「building」指「創立並逐步發展一個機構、事業或系統」。",
       "sentenceIndex": 20,
@@ -1381,12 +1293,10 @@ export default {
         "building"
       ],
       "optionReasons": {
-        "build-mcq-10": "本句指「創立並逐步發展一個機構、事業或系統」。",
-        "build-mcq-09": "「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」是「build a reputation（建立聲譽）」的用法，與本句語境不同。",
-        "build-mcq-11": "「組成團隊並逐步培養成員之間的合作能力」是「build a team（建立團隊）」的用法，與本句語境不同。",
-        "build-mcq-08": "「透過學習和練習逐漸增加能力或知識」是「build skills / knowledge（培養能力／累積知識）」的用法，與本句語境不同。",
-        "build-mcq-12": "「設計、建立並逐步完成一個複雜系統或架構」是「build a system/network/platform（建立系統／網絡）」的用法，與本句語境不同。",
-        "build-mcq-07": "「逐漸增加某人的自信和把握」是「build confidence（建立信心）」的用法，與本句語境不同。"
+        "build-mcq-10": "本句的「building」指「創立並逐步發展一個機構、事業或系統」。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-10"
     },
@@ -1398,11 +1308,9 @@ export default {
       "masked": "The manager is trying to ____.",
       "options": [
         "build-mcq-11",
-        "build-mcq-10",
-        "build-mcq-12",
-        "build-mcq-09",
         "build-mcq-13",
-        "build-mcq-08"
+        "build-mcq-30",
+        "build-mcq-19"
       ],
       "explanation": "本句的「build a strong team」指「組成團隊並逐步培養成員之間的合作能力」。",
       "sentenceIndex": 21,
@@ -1411,12 +1319,10 @@ export default {
         "build a strong team"
       ],
       "optionReasons": {
-        "build-mcq-11": "本句指「組成團隊並逐步培養成員之間的合作能力」。",
-        "build-mcq-10": "「創立並逐步發展一個機構、事業或系統」是「build a business/company/organization（建立事業／機構）」的用法，與本句語境不同。",
-        "build-mcq-12": "「設計、建立並逐步完成一個複雜系統或架構」是「build a system/network/platform（建立系統／網絡）」的用法，與本句語境不同。",
-        "build-mcq-09": "「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」是「build a reputation（建立聲譽）」的用法，與本句語境不同。",
-        "build-mcq-13": "「設計和建立軟件、程式或數碼產品」是「build software/app（軟件）」的用法，與本句語境不同。",
-        "build-mcq-08": "「透過學習和練習逐漸增加能力或知識」是「build skills / knowledge（培養能力／累積知識）」的用法，與本句語境不同。"
+        "build-mcq-11": "本句的「build a strong team」指「組成團隊並逐步培養成員之間的合作能力」。",
+        "build-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-11"
     },
@@ -1428,11 +1334,9 @@ export default {
       "masked": "It takes time to ____ an effective team.",
       "options": [
         "build-mcq-11",
-        "build-mcq-10",
-        "build-mcq-12",
-        "build-mcq-09",
-        "build-mcq-13",
-        "build-mcq-08"
+        "build-mcq-24",
+        "build-mcq-30",
+        "build-mcq-27"
       ],
       "explanation": "本句的「build」指「組成團隊並逐步培養成員之間的合作能力」。",
       "sentenceIndex": 22,
@@ -1441,12 +1345,10 @@ export default {
         "build"
       ],
       "optionReasons": {
-        "build-mcq-11": "本句指「組成團隊並逐步培養成員之間的合作能力」。",
-        "build-mcq-10": "「創立並逐步發展一個機構、事業或系統」是「build a business/company/organization（建立事業／機構）」的用法，與本句語境不同。",
-        "build-mcq-12": "「設計、建立並逐步完成一個複雜系統或架構」是「build a system/network/platform（建立系統／網絡）」的用法，與本句語境不同。",
-        "build-mcq-09": "「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」是「build a reputation（建立聲譽）」的用法，與本句語境不同。",
-        "build-mcq-13": "「設計和建立軟件、程式或數碼產品」是「build software/app（軟件）」的用法，與本句語境不同。",
-        "build-mcq-08": "「透過學習和練習逐漸增加能力或知識」是「build skills / knowledge（培養能力／累積知識）」的用法，與本句語境不同。"
+        "build-mcq-11": "本句的「build」指「組成團隊並逐步培養成員之間的合作能力」。",
+        "build-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-11"
     },
@@ -1458,11 +1360,9 @@ export default {
       "masked": "Engineers ____ a new communication system.",
       "options": [
         "build-mcq-12",
-        "build-mcq-11",
-        "build-mcq-13",
-        "build-mcq-10",
-        "build-mcq-14",
-        "build-mcq-09"
+        "build-mcq-18",
+        "build-mcq-19",
+        "build-mcq-30"
       ],
       "explanation": "本句的「built」指「設計、建立並逐步完成一個複雜系統或架構」。",
       "sentenceIndex": 23,
@@ -1471,12 +1371,10 @@ export default {
         "built"
       ],
       "optionReasons": {
-        "build-mcq-12": "本句指「設計、建立並逐步完成一個複雜系統或架構」。",
-        "build-mcq-11": "「組成團隊並逐步培養成員之間的合作能力」是「build a team（建立團隊）」的用法，與本句語境不同。",
-        "build-mcq-13": "「設計和建立軟件、程式或數碼產品」是「build software/app（軟件）」的用法，與本句語境不同。",
-        "build-mcq-10": "「創立並逐步發展一個機構、事業或系統」是「build a business/company/organization（建立事業／機構）」的用法，與本句語境不同。",
-        "build-mcq-14": "「某種力量、感覺、壓力或程度逐漸增加」是「build = increase gradually（逐漸增加）」的用法，與本句語境不同。",
-        "build-mcq-09": "「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」是「build a reputation（建立聲譽）」的用法，與本句語境不同。"
+        "build-mcq-12": "本句的「built」指「設計、建立並逐步完成一個複雜系統或架構」。",
+        "build-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-12"
     },
@@ -1488,11 +1386,9 @@ export default {
       "masked": "The company is ____ an online platform.",
       "options": [
         "build-mcq-12",
-        "build-mcq-11",
-        "build-mcq-13",
-        "build-mcq-10",
-        "build-mcq-14",
-        "build-mcq-09"
+        "build-mcq-18",
+        "build-mcq-19",
+        "build-mcq-30"
       ],
       "explanation": "本句的「building」指「設計、建立並逐步完成一個複雜系統或架構」。",
       "sentenceIndex": 24,
@@ -1501,12 +1397,10 @@ export default {
         "building"
       ],
       "optionReasons": {
-        "build-mcq-12": "本句指「設計、建立並逐步完成一個複雜系統或架構」。",
-        "build-mcq-11": "「組成團隊並逐步培養成員之間的合作能力」是「build a team（建立團隊）」的用法，與本句語境不同。",
-        "build-mcq-13": "「設計和建立軟件、程式或數碼產品」是「build software/app（軟件）」的用法，與本句語境不同。",
-        "build-mcq-10": "「創立並逐步發展一個機構、事業或系統」是「build a business/company/organization（建立事業／機構）」的用法，與本句語境不同。",
-        "build-mcq-14": "「某種力量、感覺、壓力或程度逐漸增加」是「build = increase gradually（逐漸增加）」的用法，與本句語境不同。",
-        "build-mcq-09": "「經過一段時間，讓別人逐漸形成對某人／機構的固定評價」是「build a reputation（建立聲譽）」的用法，與本句語境不同。"
+        "build-mcq-12": "本句的「building」指「設計、建立並逐步完成一個複雜系統或架構」。",
+        "build-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-12"
     },
@@ -1518,11 +1412,9 @@ export default {
       "masked": "The team ____ an app for students.",
       "options": [
         "build-mcq-13",
-        "build-mcq-12",
-        "build-mcq-14",
-        "build-mcq-11",
-        "build-mcq-15",
-        "build-mcq-10"
+        "build-mcq-19",
+        "build-mcq-08",
+        "build-mcq-22"
       ],
       "explanation": "本句的「built」指「設計和建立軟件、程式或數碼產品」。",
       "sentenceIndex": 25,
@@ -1531,12 +1423,10 @@ export default {
         "built"
       ],
       "optionReasons": {
-        "build-mcq-13": "本句指「設計和建立軟件、程式或數碼產品」。",
-        "build-mcq-12": "「設計、建立並逐步完成一個複雜系統或架構」是「build a system/network/platform（建立系統／網絡）」的用法，與本句語境不同。",
-        "build-mcq-14": "「某種力量、感覺、壓力或程度逐漸增加」是「build = increase gradually（逐漸增加）」的用法，與本句語境不同。",
-        "build-mcq-11": "「組成團隊並逐步培養成員之間的合作能力」是「build a team（建立團隊）」的用法，與本句語境不同。",
-        "build-mcq-15": "「情緒、壓力或氣氛逐步增強，而不是突然出現」是「tension / pressure / excitement builds（逐漸累積）」的用法，與本句語境不同。",
-        "build-mcq-10": "「創立並逐步發展一個機構、事業或系統」是「build a business/company/organization（建立事業／機構）」的用法，與本句語境不同。"
+        "build-mcq-13": "本句的「built」指「設計和建立軟件、程式或數碼產品」。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-13"
     },
@@ -1548,11 +1438,9 @@ export default {
       "masked": "They are ____ new software.",
       "options": [
         "build-mcq-13",
-        "build-mcq-12",
-        "build-mcq-14",
-        "build-mcq-11",
+        "build-mcq-18",
         "build-mcq-15",
-        "build-mcq-10"
+        "build-mcq-19"
       ],
       "explanation": "本句的「building」指「設計和建立軟件、程式或數碼產品」。",
       "sentenceIndex": 26,
@@ -1561,12 +1449,10 @@ export default {
         "building"
       ],
       "optionReasons": {
-        "build-mcq-13": "本句指「設計和建立軟件、程式或數碼產品」。",
-        "build-mcq-12": "「設計、建立並逐步完成一個複雜系統或架構」是「build a system/network/platform（建立系統／網絡）」的用法，與本句語境不同。",
-        "build-mcq-14": "「某種力量、感覺、壓力或程度逐漸增加」是「build = increase gradually（逐漸增加）」的用法，與本句語境不同。",
-        "build-mcq-11": "「組成團隊並逐步培養成員之間的合作能力」是「build a team（建立團隊）」的用法，與本句語境不同。",
-        "build-mcq-15": "「情緒、壓力或氣氛逐步增強，而不是突然出現」是「tension / pressure / excitement builds（逐漸累積）」的用法，與本句語境不同。",
-        "build-mcq-10": "「創立並逐步發展一個機構、事業或系統」是「build a business/company/organization（建立事業／機構）」的用法，與本句語境不同。"
+        "build-mcq-13": "本句的「building」指「設計和建立軟件、程式或數碼產品」。",
+        "build-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-13"
     },
@@ -1578,11 +1464,9 @@ export default {
       "masked": "Pressure began to ____.",
       "options": [
         "build-mcq-14",
-        "build-mcq-13",
-        "build-mcq-15",
-        "build-mcq-12",
-        "build-mcq-16",
-        "build-mcq-11"
+        "build-mcq-25",
+        "build-mcq-19",
+        "build-mcq-30"
       ],
       "explanation": "本句的「build」指「某種力量、感覺、壓力或程度逐漸增加」。",
       "sentenceIndex": 27,
@@ -1591,12 +1475,10 @@ export default {
         "build"
       ],
       "optionReasons": {
-        "build-mcq-14": "本句指「某種力量、感覺、壓力或程度逐漸增加」。",
-        "build-mcq-13": "「設計和建立軟件、程式或數碼產品」是「build software/app（軟件）」的用法，與本句語境不同。",
-        "build-mcq-15": "「情緒、壓力或氣氛逐步增強，而不是突然出現」是「tension / pressure / excitement builds（逐漸累積）」的用法，與本句語境不同。",
-        "build-mcq-12": "「設計、建立並逐步完成一個複雜系統或架構」是「build a system/network/platform（建立系統／網絡）」的用法，與本句語境不同。",
-        "build-mcq-16": "「某物、某種程度或數量隨時間逐步增加／累積」是「build up = increase gradually（逐步累積）」的用法，與本句語境不同。",
-        "build-mcq-11": "「組成團隊並逐步培養成員之間的合作能力」是「build a team（建立團隊）」的用法，與本句語境不同。"
+        "build-mcq-14": "本句的「build」指「某種力量、感覺、壓力或程度逐漸增加」。",
+        "build-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-14"
     },
@@ -1608,11 +1490,9 @@ export default {
       "masked": "Excitement ____ as the event approached.",
       "options": [
         "build-mcq-14",
-        "build-mcq-13",
-        "build-mcq-15",
-        "build-mcq-12",
-        "build-mcq-16",
-        "build-mcq-11"
+        "build-mcq-19",
+        "build-mcq-03",
+        "build-mcq-02"
       ],
       "explanation": "本句的「built」指「某種力量、感覺、壓力或程度逐漸增加」。",
       "sentenceIndex": 28,
@@ -1621,12 +1501,10 @@ export default {
         "built"
       ],
       "optionReasons": {
-        "build-mcq-14": "本句指「某種力量、感覺、壓力或程度逐漸增加」。",
-        "build-mcq-13": "「設計和建立軟件、程式或數碼產品」是「build software/app（軟件）」的用法，與本句語境不同。",
-        "build-mcq-15": "「情緒、壓力或氣氛逐步增強，而不是突然出現」是「tension / pressure / excitement builds（逐漸累積）」的用法，與本句語境不同。",
-        "build-mcq-12": "「設計、建立並逐步完成一個複雜系統或架構」是「build a system/network/platform（建立系統／網絡）」的用法，與本句語境不同。",
-        "build-mcq-16": "「某物、某種程度或數量隨時間逐步增加／累積」是「build up = increase gradually（逐步累積）」的用法，與本句語境不同。",
-        "build-mcq-11": "「組成團隊並逐步培養成員之間的合作能力」是「build a team（建立團隊）」的用法，與本句語境不同。"
+        "build-mcq-14": "本句的「built」指「某種力量、感覺、壓力或程度逐漸增加」。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-14"
     },
@@ -1638,11 +1516,9 @@ export default {
       "masked": "Tension was ____ in the room.",
       "options": [
         "build-mcq-15",
-        "build-mcq-14",
-        "build-mcq-16",
-        "build-mcq-13",
-        "build-mcq-17",
-        "build-mcq-12"
+        "build-mcq-03",
+        "build-mcq-20",
+        "build-mcq-18"
       ],
       "explanation": "本句的「building」指「情緒、壓力或氣氛逐步增強，而不是突然出現」。",
       "sentenceIndex": 29,
@@ -1651,12 +1527,10 @@ export default {
         "building"
       ],
       "optionReasons": {
-        "build-mcq-15": "本句指「情緒、壓力或氣氛逐步增強，而不是突然出現」。",
-        "build-mcq-14": "「某種力量、感覺、壓力或程度逐漸增加」是「build = increase gradually（逐漸增加）」的用法，與本句語境不同。",
-        "build-mcq-16": "「某物、某種程度或數量隨時間逐步增加／累積」是「build up = increase gradually（逐步累積）」的用法，與本句語境不同。",
-        "build-mcq-13": "「設計和建立軟件、程式或數碼產品」是「build software/app（軟件）」的用法，與本句語境不同。",
-        "build-mcq-17": "「經過一段時間逐步增加某種能力、力量或程度」是「build up strength/confidence（逐步增強）」的用法，與本句語境不同。",
-        "build-mcq-12": "「設計、建立並逐步完成一個複雜系統或架構」是「build a system/network/platform（建立系統／網絡）」的用法，與本句語境不同。"
+        "build-mcq-15": "本句的「building」指「情緒、壓力或氣氛逐步增強，而不是突然出現」。",
+        "build-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-15"
     },
@@ -1668,11 +1542,9 @@ export default {
       "masked": "Anticipation ____ throughout the week.",
       "options": [
         "build-mcq-15",
-        "build-mcq-14",
-        "build-mcq-16",
-        "build-mcq-13",
-        "build-mcq-17",
-        "build-mcq-12"
+        "build-mcq-22",
+        "build-mcq-33",
+        "build-mcq-20"
       ],
       "explanation": "本句的「built」指「情緒、壓力或氣氛逐步增強，而不是突然出現」。",
       "sentenceIndex": 30,
@@ -1681,12 +1553,10 @@ export default {
         "built"
       ],
       "optionReasons": {
-        "build-mcq-15": "本句指「情緒、壓力或氣氛逐步增強，而不是突然出現」。",
-        "build-mcq-14": "「某種力量、感覺、壓力或程度逐漸增加」是「build = increase gradually（逐漸增加）」的用法，與本句語境不同。",
-        "build-mcq-16": "「某物、某種程度或數量隨時間逐步增加／累積」是「build up = increase gradually（逐步累積）」的用法，與本句語境不同。",
-        "build-mcq-13": "「設計和建立軟件、程式或數碼產品」是「build software/app（軟件）」的用法，與本句語境不同。",
-        "build-mcq-17": "「經過一段時間逐步增加某種能力、力量或程度」是「build up strength/confidence（逐步增強）」的用法，與本句語境不同。",
-        "build-mcq-12": "「設計、建立並逐步完成一個複雜系統或架構」是「build a system/network/platform（建立系統／網絡）」的用法，與本句語境不同。"
+        "build-mcq-15": "本句的「built」指「情緒、壓力或氣氛逐步增強，而不是突然出現」。",
+        "build-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-15"
     },
@@ -1698,11 +1568,9 @@ export default {
       "masked": "Stress can ____ over time.",
       "options": [
         "build-mcq-16",
-        "build-mcq-15",
-        "build-mcq-17",
-        "build-mcq-14",
-        "build-mcq-18",
-        "build-mcq-13"
+        "build-mcq-23",
+        "build-mcq-02",
+        "build-mcq-30"
       ],
       "explanation": "本句的「build up」指「某物、某種程度或數量隨時間逐步增加／累積」。",
       "sentenceIndex": 31,
@@ -1711,12 +1579,10 @@ export default {
         "build up"
       ],
       "optionReasons": {
-        "build-mcq-16": "本句指「某物、某種程度或數量隨時間逐步增加／累積」。",
-        "build-mcq-15": "「情緒、壓力或氣氛逐步增強，而不是突然出現」是「tension / pressure / excitement builds（逐漸累積）」的用法，與本句語境不同。",
-        "build-mcq-17": "「經過一段時間逐步增加某種能力、力量或程度」是「build up strength/confidence（逐步增強）」的用法，與本句語境不同。",
-        "build-mcq-14": "「某種力量、感覺、壓力或程度逐漸增加」是「build = increase gradually（逐漸增加）」的用法，與本句語境不同。",
-        "build-mcq-18": "「刻意提高別人對某人／某物的期待、形象或重要性」是「build someone/something up（提升形象／吹捧）」的用法，與本句語境不同。",
-        "build-mcq-13": "「設計和建立軟件、程式或數碼產品」是「build software/app（軟件）」的用法，與本句語境不同。"
+        "build-mcq-16": "本句的「build up」指「某物、某種程度或數量隨時間逐步增加／累積」。",
+        "build-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-16"
     },
@@ -1728,11 +1594,9 @@ export default {
       "masked": "Dust had ____ on the shelves.",
       "options": [
         "build-mcq-16",
-        "build-mcq-15",
-        "build-mcq-17",
-        "build-mcq-14",
-        "build-mcq-18",
-        "build-mcq-13"
+        "build-mcq-02",
+        "build-mcq-23",
+        "build-mcq-30"
       ],
       "explanation": "本句的「built up」指「某物、某種程度或數量隨時間逐步增加／累積」。",
       "sentenceIndex": 32,
@@ -1741,12 +1605,10 @@ export default {
         "built up"
       ],
       "optionReasons": {
-        "build-mcq-16": "本句指「某物、某種程度或數量隨時間逐步增加／累積」。",
-        "build-mcq-15": "「情緒、壓力或氣氛逐步增強，而不是突然出現」是「tension / pressure / excitement builds（逐漸累積）」的用法，與本句語境不同。",
-        "build-mcq-17": "「經過一段時間逐步增加某種能力、力量或程度」是「build up strength/confidence（逐步增強）」的用法，與本句語境不同。",
-        "build-mcq-14": "「某種力量、感覺、壓力或程度逐漸增加」是「build = increase gradually（逐漸增加）」的用法，與本句語境不同。",
-        "build-mcq-18": "「刻意提高別人對某人／某物的期待、形象或重要性」是「build someone/something up（提升形象／吹捧）」的用法，與本句語境不同。",
-        "build-mcq-13": "「設計和建立軟件、程式或數碼產品」是「build software/app（軟件）」的用法，與本句語境不同。"
+        "build-mcq-16": "本句的「built up」指「某物、某種程度或數量隨時間逐步增加／累積」。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-16"
     },
@@ -1758,11 +1620,9 @@ export default {
       "masked": "She is slowly ____.",
       "options": [
         "build-mcq-17",
-        "build-mcq-16",
-        "build-mcq-18",
-        "build-mcq-15",
-        "build-mcq-19",
-        "build-mcq-14"
+        "build-mcq-03",
+        "build-mcq-02",
+        "build-mcq-19"
       ],
       "explanation": "本句的「building up her strength」指「經過一段時間逐步增加某種能力、力量或程度」。",
       "sentenceIndex": 33,
@@ -1771,12 +1631,10 @@ export default {
         "building up her strength"
       ],
       "optionReasons": {
-        "build-mcq-17": "本句指「經過一段時間逐步增加某種能力、力量或程度」。",
-        "build-mcq-16": "「某物、某種程度或數量隨時間逐步增加／累積」是「build up = increase gradually（逐步累積）」的用法，與本句語境不同。",
-        "build-mcq-18": "「刻意提高別人對某人／某物的期待、形象或重要性」是「build someone/something up（提升形象／吹捧）」的用法，與本句語境不同。",
-        "build-mcq-15": "「情緒、壓力或氣氛逐步增強，而不是突然出現」是「tension / pressure / excitement builds（逐漸累積）」的用法，與本句語境不同。",
-        "build-mcq-19": "「以已有成果、想法或基礎作起點，進一步發展」是「build on = develop from an existing foundation（以……為基礎發展）」的用法，與本句語境不同。",
-        "build-mcq-14": "「某種力量、感覺、壓力或程度逐漸增加」是「build = increase gradually（逐漸增加）」的用法，與本句語境不同。"
+        "build-mcq-17": "本句的「building up her strength」指「經過一段時間逐步增加某種能力、力量或程度」。",
+        "build-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-17"
     },
@@ -1788,11 +1646,9 @@ export default {
       "masked": "Small successes helped him ____.",
       "options": [
         "build-mcq-17",
-        "build-mcq-16",
-        "build-mcq-18",
-        "build-mcq-15",
-        "build-mcq-19",
-        "build-mcq-14"
+        "build-mcq-30",
+        "build-mcq-22",
+        "build-mcq-02"
       ],
       "explanation": "本句的「build up confidence」指「經過一段時間逐步增加某種能力、力量或程度」。",
       "sentenceIndex": 34,
@@ -1801,12 +1657,10 @@ export default {
         "build up confidence"
       ],
       "optionReasons": {
-        "build-mcq-17": "本句指「經過一段時間逐步增加某種能力、力量或程度」。",
-        "build-mcq-16": "「某物、某種程度或數量隨時間逐步增加／累積」是「build up = increase gradually（逐步累積）」的用法，與本句語境不同。",
-        "build-mcq-18": "「刻意提高別人對某人／某物的期待、形象或重要性」是「build someone/something up（提升形象／吹捧）」的用法，與本句語境不同。",
-        "build-mcq-15": "「情緒、壓力或氣氛逐步增強，而不是突然出現」是「tension / pressure / excitement builds（逐漸累積）」的用法，與本句語境不同。",
-        "build-mcq-19": "「以已有成果、想法或基礎作起點，進一步發展」是「build on = develop from an existing foundation（以……為基礎發展）」的用法，與本句語境不同。",
-        "build-mcq-14": "「某種力量、感覺、壓力或程度逐漸增加」是「build = increase gradually（逐漸增加）」的用法，與本句語境不同。"
+        "build-mcq-17": "本句的「build up confidence」指「經過一段時間逐步增加某種能力、力量或程度」。",
+        "build-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-17"
     },
@@ -1818,11 +1672,9 @@ export default {
       "masked": "The media ____ as a future star.",
       "options": [
         "build-mcq-18",
-        "build-mcq-17",
-        "build-mcq-19",
-        "build-mcq-16",
         "build-mcq-20",
-        "build-mcq-15"
+        "build-mcq-06",
+        "build-mcq-30"
       ],
       "explanation": "本句的「built him up」指「刻意提高別人對某人／某物的期待、形象或重要性」。",
       "sentenceIndex": 35,
@@ -1831,12 +1683,10 @@ export default {
         "built him up"
       ],
       "optionReasons": {
-        "build-mcq-18": "本句指「刻意提高別人對某人／某物的期待、形象或重要性」。",
-        "build-mcq-17": "「經過一段時間逐步增加某種能力、力量或程度」是「build up strength/confidence（逐步增強）」的用法，與本句語境不同。",
-        "build-mcq-19": "「以已有成果、想法或基礎作起點，進一步發展」是「build on = develop from an existing foundation（以……為基礎發展）」的用法，與本句語境不同。",
-        "build-mcq-16": "「某物、某種程度或數量隨時間逐步增加／累積」是「build up = increase gradually（逐步累積）」的用法，與本句語境不同。",
-        "build-mcq-20": "「在設計或規劃時把某物納入其中，成為整體的一部分」是「build into = incorporate/include as part of something（納入設計）」的用法，與本句語境不同。",
-        "build-mcq-15": "「情緒、壓力或氣氛逐步增強，而不是突然出現」是「tension / pressure / excitement builds（逐漸累積）」的用法，與本句語境不同。"
+        "build-mcq-18": "本句的「built him up」指「刻意提高別人對某人／某物的期待、形象或重要性」。",
+        "build-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-18"
     },
@@ -1848,11 +1698,9 @@ export default {
       "masked": "They ____ the product before its launch.",
       "options": [
         "build-mcq-18",
-        "build-mcq-17",
-        "build-mcq-19",
-        "build-mcq-16",
-        "build-mcq-20",
-        "build-mcq-15"
+        "build-mcq-13",
+        "build-mcq-15",
+        "build-mcq-30"
       ],
       "explanation": "本句的「built up」指「刻意提高別人對某人／某物的期待、形象或重要性」。",
       "sentenceIndex": 36,
@@ -1861,12 +1709,10 @@ export default {
         "built up"
       ],
       "optionReasons": {
-        "build-mcq-18": "本句指「刻意提高別人對某人／某物的期待、形象或重要性」。",
-        "build-mcq-17": "「經過一段時間逐步增加某種能力、力量或程度」是「build up strength/confidence（逐步增強）」的用法，與本句語境不同。",
-        "build-mcq-19": "「以已有成果、想法或基礎作起點，進一步發展」是「build on = develop from an existing foundation（以……為基礎發展）」的用法，與本句語境不同。",
-        "build-mcq-16": "「某物、某種程度或數量隨時間逐步增加／累積」是「build up = increase gradually（逐步累積）」的用法，與本句語境不同。",
-        "build-mcq-20": "「在設計或規劃時把某物納入其中，成為整體的一部分」是「build into = incorporate/include as part of something（納入設計）」的用法，與本句語境不同。",
-        "build-mcq-15": "「情緒、壓力或氣氛逐步增強，而不是突然出現」是「tension / pressure / excitement builds（逐漸累積）」的用法，與本句語境不同。"
+        "build-mcq-18": "本句的「built up」指「刻意提高別人對某人／某物的期待、形象或重要性」。",
+        "build-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-18"
     },
@@ -1878,11 +1724,9 @@ export default {
       "masked": "The new plan ____ earlier work.",
       "options": [
         "build-mcq-19",
-        "build-mcq-18",
-        "build-mcq-20",
-        "build-mcq-17",
-        "build-mcq-21",
-        "build-mcq-16"
+        "build-mcq-33",
+        "build-mcq-22",
+        "build-mcq-08"
       ],
       "explanation": "本句的「builds on」指「以已有成果、想法或基礎作起點，進一步發展」。",
       "sentenceIndex": 37,
@@ -1891,12 +1735,10 @@ export default {
         "builds on"
       ],
       "optionReasons": {
-        "build-mcq-19": "本句指「以已有成果、想法或基礎作起點，進一步發展」。",
-        "build-mcq-18": "「刻意提高別人對某人／某物的期待、形象或重要性」是「build someone/something up（提升形象／吹捧）」的用法，與本句語境不同。",
-        "build-mcq-20": "「在設計或規劃時把某物納入其中，成為整體的一部分」是「build into = incorporate/include as part of something（納入設計）」的用法，與本句語境不同。",
-        "build-mcq-17": "「經過一段時間逐步增加某種能力、力量或程度」是「build up strength/confidence（逐步增強）」的用法，與本句語境不同。",
-        "build-mcq-21": "「在設計／製造時已經包含在內，而不是後來另外加上的」是「built-in = included as a permanent part（內置的）」的用法，與本句語境不同。",
-        "build-mcq-16": "「某物、某種程度或數量隨時間逐步增加／累積」是「build up = increase gradually（逐步累積）」的用法，與本句語境不同。"
+        "build-mcq-19": "本句的「builds on」指「以已有成果、想法或基礎作起點，進一步發展」。",
+        "build-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-19"
     },
@@ -1908,11 +1750,9 @@ export default {
       "masked": "We should ____ what we have learned.",
       "options": [
         "build-mcq-19",
-        "build-mcq-18",
-        "build-mcq-20",
-        "build-mcq-17",
-        "build-mcq-21",
-        "build-mcq-16"
+        "build-mcq-32",
+        "build-mcq-25",
+        "build-mcq-15"
       ],
       "explanation": "本句的「build on」指「以已有成果、想法或基礎作起點，進一步發展」。",
       "sentenceIndex": 38,
@@ -1921,12 +1761,10 @@ export default {
         "build on"
       ],
       "optionReasons": {
-        "build-mcq-19": "本句指「以已有成果、想法或基礎作起點，進一步發展」。",
-        "build-mcq-18": "「刻意提高別人對某人／某物的期待、形象或重要性」是「build someone/something up（提升形象／吹捧）」的用法，與本句語境不同。",
-        "build-mcq-20": "「在設計或規劃時把某物納入其中，成為整體的一部分」是「build into = incorporate/include as part of something（納入設計）」的用法，與本句語境不同。",
-        "build-mcq-17": "「經過一段時間逐步增加某種能力、力量或程度」是「build up strength/confidence（逐步增強）」的用法，與本句語境不同。",
-        "build-mcq-21": "「在設計／製造時已經包含在內，而不是後來另外加上的」是「built-in = included as a permanent part（內置的）」的用法，與本句語境不同。",
-        "build-mcq-16": "「某物、某種程度或數量隨時間逐步增加／累積」是「build up = increase gradually（逐步累積）」的用法，與本句語境不同。"
+        "build-mcq-19": "本句的「build on」指「以已有成果、想法或基礎作起點，進一步發展」。",
+        "build-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-19"
     },
@@ -1938,11 +1776,9 @@ export default {
       "masked": "Safety features are ____ the system.",
       "options": [
         "build-mcq-20",
-        "build-mcq-19",
-        "build-mcq-21",
-        "build-mcq-18",
-        "build-mcq-22",
-        "build-mcq-17"
+        "build-mcq-08",
+        "build-mcq-24",
+        "build-mcq-10"
       ],
       "explanation": "本句的「built into」指「在設計或規劃時把某物納入其中，成為整體的一部分」。",
       "sentenceIndex": 39,
@@ -1951,12 +1787,10 @@ export default {
         "built into"
       ],
       "optionReasons": {
-        "build-mcq-20": "本句指「在設計或規劃時把某物納入其中，成為整體的一部分」。",
-        "build-mcq-19": "「以已有成果、想法或基礎作起點，進一步發展」是「build on = develop from an existing foundation（以……為基礎發展）」的用法，與本句語境不同。",
-        "build-mcq-21": "「在設計／製造時已經包含在內，而不是後來另外加上的」是「built-in = included as a permanent part（內置的）」的用法，與本句語境不同。",
-        "build-mcq-18": "「刻意提高別人對某人／某物的期待、形象或重要性」是「build someone/something up（提升形象／吹捧）」的用法，與本句語境不同。",
-        "build-mcq-22": "「一個人的身體結構、體型和身材」是「build = body shape / physique（體格）」的用法，與本句語境不同。",
-        "build-mcq-17": "「經過一段時間逐步增加某種能力、力量或程度」是「build up strength/confidence（逐步增強）」的用法，與本句語境不同。"
+        "build-mcq-20": "本句的「built into」指「在設計或規劃時把某物納入其中，成為整體的一部分」。",
+        "build-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-20"
     },
@@ -1968,11 +1802,9 @@ export default {
       "masked": "Extra time was ____ the schedule.",
       "options": [
         "build-mcq-20",
-        "build-mcq-19",
-        "build-mcq-21",
-        "build-mcq-18",
-        "build-mcq-22",
-        "build-mcq-17"
+        "build-mcq-08",
+        "build-mcq-33",
+        "build-mcq-10"
       ],
       "explanation": "本句的「built into」指「在設計或規劃時把某物納入其中，成為整體的一部分」。",
       "sentenceIndex": 40,
@@ -1981,12 +1813,10 @@ export default {
         "built into"
       ],
       "optionReasons": {
-        "build-mcq-20": "本句指「在設計或規劃時把某物納入其中，成為整體的一部分」。",
-        "build-mcq-19": "「以已有成果、想法或基礎作起點，進一步發展」是「build on = develop from an existing foundation（以……為基礎發展）」的用法，與本句語境不同。",
-        "build-mcq-21": "「在設計／製造時已經包含在內，而不是後來另外加上的」是「built-in = included as a permanent part（內置的）」的用法，與本句語境不同。",
-        "build-mcq-18": "「刻意提高別人對某人／某物的期待、形象或重要性」是「build someone/something up（提升形象／吹捧）」的用法，與本句語境不同。",
-        "build-mcq-22": "「一個人的身體結構、體型和身材」是「build = body shape / physique（體格）」的用法，與本句語境不同。",
-        "build-mcq-17": "「經過一段時間逐步增加某種能力、力量或程度」是「build up strength/confidence（逐步增強）」的用法，與本句語境不同。"
+        "build-mcq-20": "本句的「built into」指「在設計或規劃時把某物納入其中，成為整體的一部分」。",
+        "build-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-20"
     },
@@ -1998,11 +1828,9 @@ export default {
       "masked": "The laptop has a ____.",
       "options": [
         "build-mcq-21",
-        "build-mcq-20",
-        "build-mcq-22",
-        "build-mcq-19",
-        "build-mcq-23",
-        "build-mcq-18"
+        "build-mcq-30",
+        "build-mcq-27",
+        "build-mcq-11"
       ],
       "explanation": "本句的「built-in camera」指「在設計／製造時已經包含在內，而不是後來另外加上的」。",
       "sentenceIndex": 41,
@@ -2011,12 +1839,10 @@ export default {
         "built-in camera"
       ],
       "optionReasons": {
-        "build-mcq-21": "本句指「在設計／製造時已經包含在內，而不是後來另外加上的」。",
-        "build-mcq-20": "「在設計或規劃時把某物納入其中，成為整體的一部分」是「build into = incorporate/include as part of something（納入設計）」的用法，與本句語境不同。",
-        "build-mcq-22": "「一個人的身體結構、體型和身材」是「build = body shape / physique（體格）」的用法，與本句語境不同。",
-        "build-mcq-19": "「以已有成果、想法或基礎作起點，進一步發展」是「build on = develop from an existing foundation（以……為基礎發展）」的用法，與本句語境不同。",
-        "build-mcq-23": "「用來描述一個人的身體結構和體型」是「of medium/slight/heavy build（體型描述）」的用法，與本句語境不同。",
-        "build-mcq-18": "「刻意提高別人對某人／某物的期待、形象或重要性」是「build someone/something up（提升形象／吹捧）」的用法，與本句語境不同。"
+        "build-mcq-21": "本句的「built-in camera」指「在設計／製造時已經包含在內，而不是後來另外加上的」。",
+        "build-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-21"
     },
@@ -2028,10 +1854,8 @@ export default {
       "masked": "The system includes ____.",
       "options": [
         "build-mcq-21",
-        "build-mcq-20",
-        "build-mcq-22",
-        "build-mcq-19",
-        "build-mcq-23",
+        "build-mcq-15",
+        "build-mcq-30",
         "build-mcq-18"
       ],
       "explanation": "本句的「built-in protection」指「在設計／製造時已經包含在內，而不是後來另外加上的」。",
@@ -2041,12 +1865,10 @@ export default {
         "built-in protection"
       ],
       "optionReasons": {
-        "build-mcq-21": "本句指「在設計／製造時已經包含在內，而不是後來另外加上的」。",
-        "build-mcq-20": "「在設計或規劃時把某物納入其中，成為整體的一部分」是「build into = incorporate/include as part of something（納入設計）」的用法，與本句語境不同。",
-        "build-mcq-22": "「一個人的身體結構、體型和身材」是「build = body shape / physique（體格）」的用法，與本句語境不同。",
-        "build-mcq-19": "「以已有成果、想法或基礎作起點，進一步發展」是「build on = develop from an existing foundation（以……為基礎發展）」的用法，與本句語境不同。",
-        "build-mcq-23": "「用來描述一個人的身體結構和體型」是「of medium/slight/heavy build（體型描述）」的用法，與本句語境不同。",
-        "build-mcq-18": "「刻意提高別人對某人／某物的期待、形象或重要性」是「build someone/something up（提升形象／吹捧）」的用法，與本句語境不同。"
+        "build-mcq-21": "本句的「built-in protection」指「在設計／製造時已經包含在內，而不是後來另外加上的」。",
+        "build-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-21"
     },
@@ -2058,11 +1880,9 @@ export default {
       "masked": "He has a strong ____.",
       "options": [
         "build-mcq-22",
-        "build-mcq-21",
-        "build-mcq-23",
-        "build-mcq-20",
-        "build-mcq-24",
-        "build-mcq-19"
+        "build-mcq-04",
+        "build-mcq-27",
+        "build-mcq-08"
       ],
       "explanation": "本句的「build」指「一個人的身體結構、體型和身材」。",
       "sentenceIndex": 43,
@@ -2071,12 +1891,10 @@ export default {
         "build"
       ],
       "optionReasons": {
-        "build-mcq-22": "本句指「一個人的身體結構、體型和身材」。",
-        "build-mcq-21": "「在設計／製造時已經包含在內，而不是後來另外加上的」是「built-in = included as a permanent part（內置的）」的用法，與本句語境不同。",
-        "build-mcq-23": "「用來描述一個人的身體結構和體型」是「of medium/slight/heavy build（體型描述）」的用法，與本句語境不同。",
-        "build-mcq-20": "「在設計或規劃時把某物納入其中，成為整體的一部分」是「build into = incorporate/include as part of something（納入設計）」的用法，與本句語境不同。",
-        "build-mcq-24": "「某個產品或物件的結構、配置或製造方式」是「build = design/configuration of a product（版本／構造）」的用法，與本句語境不同。",
-        "build-mcq-19": "「以已有成果、想法或基礎作起點，進一步發展」是「build on = develop from an existing foundation（以……為基礎發展）」的用法，與本句語境不同。"
+        "build-mcq-22": "本句的「build」指「一個人的身體結構、體型和身材」。",
+        "build-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-22"
     },
@@ -2088,10 +1906,8 @@ export default {
       "masked": "She is small in ____.",
       "options": [
         "build-mcq-22",
-        "build-mcq-21",
-        "build-mcq-23",
-        "build-mcq-20",
-        "build-mcq-24",
+        "build-mcq-14",
+        "build-mcq-26",
         "build-mcq-19"
       ],
       "explanation": "本句的「build」指「一個人的身體結構、體型和身材」。",
@@ -2101,12 +1917,10 @@ export default {
         "build"
       ],
       "optionReasons": {
-        "build-mcq-22": "本句指「一個人的身體結構、體型和身材」。",
-        "build-mcq-21": "「在設計／製造時已經包含在內，而不是後來另外加上的」是「built-in = included as a permanent part（內置的）」的用法，與本句語境不同。",
-        "build-mcq-23": "「用來描述一個人的身體結構和體型」是「of medium/slight/heavy build（體型描述）」的用法，與本句語境不同。",
-        "build-mcq-20": "「在設計或規劃時把某物納入其中，成為整體的一部分」是「build into = incorporate/include as part of something（納入設計）」的用法，與本句語境不同。",
-        "build-mcq-24": "「某個產品或物件的結構、配置或製造方式」是「build = design/configuration of a product（版本／構造）」的用法，與本句語境不同。",
-        "build-mcq-19": "「以已有成果、想法或基礎作起點，進一步發展」是「build on = develop from an existing foundation（以……為基礎發展）」的用法，與本句語境不同。"
+        "build-mcq-22": "本句的「build」指「一個人的身體結構、體型和身材」。",
+        "build-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-22"
     },
@@ -2118,11 +1932,9 @@ export default {
       "masked": "He is of medium ____.",
       "options": [
         "build-mcq-23",
-        "build-mcq-22",
-        "build-mcq-24",
-        "build-mcq-21",
-        "build-mcq-25",
-        "build-mcq-20"
+        "build-mcq-29",
+        "build-mcq-27",
+        "build-mcq-19"
       ],
       "explanation": "本句的「build」指「用來描述一個人的身體結構和體型」。",
       "sentenceIndex": 45,
@@ -2131,12 +1943,10 @@ export default {
         "build"
       ],
       "optionReasons": {
-        "build-mcq-23": "本句指「用來描述一個人的身體結構和體型」。",
-        "build-mcq-22": "「一個人的身體結構、體型和身材」是「build = body shape / physique（體格）」的用法，與本句語境不同。",
-        "build-mcq-24": "「某個產品或物件的結構、配置或製造方式」是「build = design/configuration of a product（版本／構造）」的用法，與本句語境不同。",
-        "build-mcq-21": "「在設計／製造時已經包含在內，而不是後來另外加上的」是「built-in = included as a permanent part（內置的）」的用法，與本句語境不同。",
-        "build-mcq-25": "「產品在材料、組裝、結構和製造方面的整體質素」是「build quality（造工）」的用法，與本句語境不同。",
-        "build-mcq-20": "「在設計或規劃時把某物納入其中，成為整體的一部分」是「build into = incorporate/include as part of something（納入設計）」的用法，與本句語境不同。"
+        "build-mcq-23": "本句的「build」指「用來描述一個人的身體結構和體型」。",
+        "build-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-23"
     },
@@ -2148,11 +1958,9 @@ export default {
       "masked": "The man was tall and of heavy ____.",
       "options": [
         "build-mcq-23",
-        "build-mcq-22",
-        "build-mcq-24",
-        "build-mcq-21",
-        "build-mcq-25",
-        "build-mcq-20"
+        "build-mcq-26",
+        "build-mcq-17",
+        "build-mcq-19"
       ],
       "explanation": "本句的「build」指「用來描述一個人的身體結構和體型」。",
       "sentenceIndex": 46,
@@ -2161,12 +1969,10 @@ export default {
         "build"
       ],
       "optionReasons": {
-        "build-mcq-23": "本句指「用來描述一個人的身體結構和體型」。",
-        "build-mcq-22": "「一個人的身體結構、體型和身材」是「build = body shape / physique（體格）」的用法，與本句語境不同。",
-        "build-mcq-24": "「某個產品或物件的結構、配置或製造方式」是「build = design/configuration of a product（版本／構造）」的用法，與本句語境不同。",
-        "build-mcq-21": "「在設計／製造時已經包含在內，而不是後來另外加上的」是「built-in = included as a permanent part（內置的）」的用法，與本句語境不同。",
-        "build-mcq-25": "「產品在材料、組裝、結構和製造方面的整體質素」是「build quality（造工）」的用法，與本句語境不同。",
-        "build-mcq-20": "「在設計或規劃時把某物納入其中，成為整體的一部分」是「build into = incorporate/include as part of something（納入設計）」的用法，與本句語境不同。"
+        "build-mcq-23": "本句的「build」指「用來描述一個人的身體結構和體型」。",
+        "build-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-23"
     },
@@ -2178,11 +1984,9 @@ export default {
       "masked": "The laptop has a solid ____.",
       "options": [
         "build-mcq-24",
-        "build-mcq-23",
-        "build-mcq-25",
-        "build-mcq-22",
-        "build-mcq-26",
-        "build-mcq-21"
+        "build-mcq-32",
+        "build-mcq-19",
+        "build-mcq-15"
       ],
       "explanation": "本句的「build」指「某個產品或物件的結構、配置或製造方式」。",
       "sentenceIndex": 47,
@@ -2191,12 +1995,10 @@ export default {
         "build"
       ],
       "optionReasons": {
-        "build-mcq-24": "本句指「某個產品或物件的結構、配置或製造方式」。",
-        "build-mcq-23": "「用來描述一個人的身體結構和體型」是「of medium/slight/heavy build（體型描述）」的用法，與本句語境不同。",
-        "build-mcq-25": "「產品在材料、組裝、結構和製造方面的整體質素」是「build quality（造工）」的用法，與本句語境不同。",
-        "build-mcq-22": "「一個人的身體結構、體型和身材」是「build = body shape / physique（體格）」的用法，與本句語境不同。",
-        "build-mcq-26": "「把程式碼編譯／組合後產生的特定軟件版本」是「build = software version generated from source code（軟件版本）」的用法，與本句語境不同。",
-        "build-mcq-21": "「在設計／製造時已經包含在內，而不是後來另外加上的」是「built-in = included as a permanent part（內置的）」的用法，與本句語境不同。"
+        "build-mcq-24": "本句的「build」指「某個產品或物件的結構、配置或製造方式」。",
+        "build-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-24"
     },
@@ -2208,11 +2010,9 @@ export default {
       "masked": "The two models have different ____.",
       "options": [
         "build-mcq-24",
-        "build-mcq-23",
-        "build-mcq-25",
-        "build-mcq-22",
-        "build-mcq-26",
-        "build-mcq-21"
+        "build-mcq-16",
+        "build-mcq-19",
+        "build-mcq-20"
       ],
       "explanation": "本句的「builds」指「某個產品或物件的結構、配置或製造方式」。",
       "sentenceIndex": 48,
@@ -2221,12 +2021,10 @@ export default {
         "builds"
       ],
       "optionReasons": {
-        "build-mcq-24": "本句指「某個產品或物件的結構、配置或製造方式」。",
-        "build-mcq-23": "「用來描述一個人的身體結構和體型」是「of medium/slight/heavy build（體型描述）」的用法，與本句語境不同。",
-        "build-mcq-25": "「產品在材料、組裝、結構和製造方面的整體質素」是「build quality（造工）」的用法，與本句語境不同。",
-        "build-mcq-22": "「一個人的身體結構、體型和身材」是「build = body shape / physique（體格）」的用法，與本句語境不同。",
-        "build-mcq-26": "「把程式碼編譯／組合後產生的特定軟件版本」是「build = software version generated from source code（軟件版本）」的用法，與本句語境不同。",
-        "build-mcq-21": "「在設計／製造時已經包含在內，而不是後來另外加上的」是「built-in = included as a permanent part（內置的）」的用法，與本句語境不同。"
+        "build-mcq-24": "本句的「builds」指「某個產品或物件的結構、配置或製造方式」。",
+        "build-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-24"
     },
@@ -2238,11 +2036,9 @@ export default {
       "masked": "The phone has excellent ____.",
       "options": [
         "build-mcq-25",
-        "build-mcq-24",
-        "build-mcq-26",
-        "build-mcq-23",
-        "build-mcq-27",
-        "build-mcq-22"
+        "build-mcq-19",
+        "build-mcq-32",
+        "build-mcq-27"
       ],
       "explanation": "本句的「build quality」指「產品在材料、組裝、結構和製造方面的整體質素」。",
       "sentenceIndex": 49,
@@ -2251,12 +2047,10 @@ export default {
         "build quality"
       ],
       "optionReasons": {
-        "build-mcq-25": "本句指「產品在材料、組裝、結構和製造方面的整體質素」。",
-        "build-mcq-24": "「某個產品或物件的結構、配置或製造方式」是「build = design/configuration of a product（版本／構造）」的用法，與本句語境不同。",
-        "build-mcq-26": "「把程式碼編譯／組合後產生的特定軟件版本」是「build = software version generated from source code（軟件版本）」的用法，與本句語境不同。",
-        "build-mcq-23": "「用來描述一個人的身體結構和體型」是「of medium/slight/heavy build（體型描述）」的用法，與本句語境不同。",
-        "build-mcq-27": "「在軟件開發中把原始程式碼處理成可執行或可部署版本」是「build — verb in computing = compile/create software（構建／編譯）」的用法，與本句語境不同。",
-        "build-mcq-22": "「一個人的身體結構、體型和身材」是「build = body shape / physique（體格）」的用法，與本句語境不同。"
+        "build-mcq-25": "本句的「build quality」指「產品在材料、組裝、結構和製造方面的整體質素」。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-25"
     },
@@ -2268,11 +2062,9 @@ export default {
       "masked": "The cheaper model has weaker ____.",
       "options": [
         "build-mcq-25",
-        "build-mcq-24",
-        "build-mcq-26",
-        "build-mcq-23",
-        "build-mcq-27",
-        "build-mcq-22"
+        "build-mcq-32",
+        "build-mcq-15",
+        "build-mcq-19"
       ],
       "explanation": "本句的「build quality」指「產品在材料、組裝、結構和製造方面的整體質素」。",
       "sentenceIndex": 50,
@@ -2281,12 +2073,10 @@ export default {
         "build quality"
       ],
       "optionReasons": {
-        "build-mcq-25": "本句指「產品在材料、組裝、結構和製造方面的整體質素」。",
-        "build-mcq-24": "「某個產品或物件的結構、配置或製造方式」是「build = design/configuration of a product（版本／構造）」的用法，與本句語境不同。",
-        "build-mcq-26": "「把程式碼編譯／組合後產生的特定軟件版本」是「build = software version generated from source code（軟件版本）」的用法，與本句語境不同。",
-        "build-mcq-23": "「用來描述一個人的身體結構和體型」是「of medium/slight/heavy build（體型描述）」的用法，與本句語境不同。",
-        "build-mcq-27": "「在軟件開發中把原始程式碼處理成可執行或可部署版本」是「build — verb in computing = compile/create software（構建／編譯）」的用法，與本句語境不同。",
-        "build-mcq-22": "「一個人的身體結構、體型和身材」是「build = body shape / physique（體格）」的用法，與本句語境不同。"
+        "build-mcq-25": "本句的「build quality」指「產品在材料、組裝、結構和製造方面的整體質素」。",
+        "build-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-25"
     },
@@ -2298,11 +2088,9 @@ export default {
       "masked": "The latest ____ fixes several bugs.",
       "options": [
         "build-mcq-26",
-        "build-mcq-25",
-        "build-mcq-27",
-        "build-mcq-24",
-        "build-mcq-28",
-        "build-mcq-23"
+        "build-mcq-22",
+        "build-mcq-19",
+        "build-mcq-08"
       ],
       "explanation": "本句的「build」指「把程式碼編譯／組合後產生的特定軟件版本」。",
       "sentenceIndex": 51,
@@ -2311,12 +2099,10 @@ export default {
         "build"
       ],
       "optionReasons": {
-        "build-mcq-26": "本句指「把程式碼編譯／組合後產生的特定軟件版本」。",
-        "build-mcq-25": "「產品在材料、組裝、結構和製造方面的整體質素」是「build quality（造工）」的用法，與本句語境不同。",
-        "build-mcq-27": "「在軟件開發中把原始程式碼處理成可執行或可部署版本」是「build — verb in computing = compile/create software（構建／編譯）」的用法，與本句語境不同。",
-        "build-mcq-24": "「某個產品或物件的結構、配置或製造方式」是「build = design/configuration of a product（版本／構造）」的用法，與本句語境不同。",
-        "build-mcq-28": "「建築商／建造者時，表示建築工人；建築商；建造者」是「builder = person/company that builds（建築商／建造者）」的用法，與本句語境不同。",
-        "build-mcq-23": "「用來描述一個人的身體結構和體型」是「of medium/slight/heavy build（體型描述）」的用法，與本句語境不同。"
+        "build-mcq-26": "本句的「build」指「把程式碼編譯／組合後產生的特定軟件版本」。",
+        "build-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-26"
     },
@@ -2328,11 +2114,9 @@ export default {
       "masked": "We tested a new ____ of the app.",
       "options": [
         "build-mcq-26",
-        "build-mcq-25",
-        "build-mcq-27",
-        "build-mcq-24",
-        "build-mcq-28",
-        "build-mcq-23"
+        "build-mcq-08",
+        "build-mcq-22",
+        "build-mcq-19"
       ],
       "explanation": "本句的「build」指「把程式碼編譯／組合後產生的特定軟件版本」。",
       "sentenceIndex": 52,
@@ -2341,12 +2125,10 @@ export default {
         "build"
       ],
       "optionReasons": {
-        "build-mcq-26": "本句指「把程式碼編譯／組合後產生的特定軟件版本」。",
-        "build-mcq-25": "「產品在材料、組裝、結構和製造方面的整體質素」是「build quality（造工）」的用法，與本句語境不同。",
-        "build-mcq-27": "「在軟件開發中把原始程式碼處理成可執行或可部署版本」是「build — verb in computing = compile/create software（構建／編譯）」的用法，與本句語境不同。",
-        "build-mcq-24": "「某個產品或物件的結構、配置或製造方式」是「build = design/configuration of a product（版本／構造）」的用法，與本句語境不同。",
-        "build-mcq-28": "「建築商／建造者時，表示建築工人；建築商；建造者」是「builder = person/company that builds（建築商／建造者）」的用法，與本句語境不同。",
-        "build-mcq-23": "「用來描述一個人的身體結構和體型」是「of medium/slight/heavy build（體型描述）」的用法，與本句語境不同。"
+        "build-mcq-26": "本句的「build」指「把程式碼編譯／組合後產生的特定軟件版本」。",
+        "build-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-26"
     },
@@ -2358,11 +2140,9 @@ export default {
       "masked": "The system automatically ____ the application.",
       "options": [
         "build-mcq-27",
-        "build-mcq-26",
-        "build-mcq-28",
-        "build-mcq-25",
-        "build-mcq-29",
-        "build-mcq-24"
+        "build-mcq-22",
+        "build-mcq-21",
+        "build-mcq-15"
       ],
       "explanation": "本句的「builds」指「在軟件開發中把原始程式碼處理成可執行或可部署版本」。",
       "sentenceIndex": 53,
@@ -2371,12 +2151,10 @@ export default {
         "builds"
       ],
       "optionReasons": {
-        "build-mcq-27": "本句指「在軟件開發中把原始程式碼處理成可執行或可部署版本」。",
-        "build-mcq-26": "「把程式碼編譯／組合後產生的特定軟件版本」是「build = software version generated from source code（軟件版本）」的用法，與本句語境不同。",
-        "build-mcq-28": "「建築商／建造者時，表示建築工人；建築商；建造者」是「builder = person/company that builds（建築商／建造者）」的用法，與本句語境不同。",
-        "build-mcq-25": "「產品在材料、組裝、結構和製造方面的整體質素」是「build quality（造工）」的用法，與本句語境不同。",
-        "build-mcq-29": "「有助逐步增加、建立或培養某種能力／特質的事物」是「builder = something that develops a quality（培養……的東西）」的用法，與本句語境不同。",
-        "build-mcq-24": "「某個產品或物件的結構、配置或製造方式」是「build = design/configuration of a product（版本／構造）」的用法，與本句語境不同。"
+        "build-mcq-27": "本句的「builds」指「在軟件開發中把原始程式碼處理成可執行或可部署版本」。",
+        "build-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-27"
     },
@@ -2388,11 +2166,9 @@ export default {
       "masked": "The code failed to ____.",
       "options": [
         "build-mcq-27",
-        "build-mcq-26",
-        "build-mcq-28",
-        "build-mcq-25",
-        "build-mcq-29",
-        "build-mcq-24"
+        "build-mcq-22",
+        "build-mcq-04",
+        "build-mcq-08"
       ],
       "explanation": "本句的「build」指「在軟件開發中把原始程式碼處理成可執行或可部署版本」。",
       "sentenceIndex": 54,
@@ -2401,12 +2177,10 @@ export default {
         "build"
       ],
       "optionReasons": {
-        "build-mcq-27": "本句指「在軟件開發中把原始程式碼處理成可執行或可部署版本」。",
-        "build-mcq-26": "「把程式碼編譯／組合後產生的特定軟件版本」是「build = software version generated from source code（軟件版本）」的用法，與本句語境不同。",
-        "build-mcq-28": "「建築商／建造者時，表示建築工人；建築商；建造者」是「builder = person/company that builds（建築商／建造者）」的用法，與本句語境不同。",
-        "build-mcq-25": "「產品在材料、組裝、結構和製造方面的整體質素」是「build quality（造工）」的用法，與本句語境不同。",
-        "build-mcq-29": "「有助逐步增加、建立或培養某種能力／特質的事物」是「builder = something that develops a quality（培養……的東西）」的用法，與本句語境不同。",
-        "build-mcq-24": "「某個產品或物件的結構、配置或製造方式」是「build = design/configuration of a product（版本／構造）」的用法，與本句語境不同。"
+        "build-mcq-27": "本句的「build」指「在軟件開發中把原始程式碼處理成可執行或可部署版本」。",
+        "build-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-27"
     },
@@ -2418,11 +2192,9 @@ export default {
       "masked": "The ____ finished the house last month.",
       "options": [
         "build-mcq-28",
+        "build-mcq-08",
         "build-mcq-27",
-        "build-mcq-29",
-        "build-mcq-26",
-        "build-mcq-30",
-        "build-mcq-25"
+        "build-mcq-02"
       ],
       "explanation": "本句的「builder」指「建築商／建造者時，表示建築工人；建築商；建造者」。",
       "sentenceIndex": 55,
@@ -2431,12 +2203,10 @@ export default {
         "builder"
       ],
       "optionReasons": {
-        "build-mcq-28": "本句指「建築商／建造者時，表示建築工人；建築商；建造者」。",
-        "build-mcq-27": "「在軟件開發中把原始程式碼處理成可執行或可部署版本」是「build — verb in computing = compile/create software（構建／編譯）」的用法，與本句語境不同。",
-        "build-mcq-29": "「有助逐步增加、建立或培養某種能力／特質的事物」是「builder = something that develops a quality（培養……的東西）」的用法，與本句語境不同。",
-        "build-mcq-26": "「把程式碼編譯／組合後產生的特定軟件版本」是「build = software version generated from source code（軟件版本）」的用法，與本句語境不同。",
-        "build-mcq-30": "「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」是「building = structure/building（建築物）」的用法，與本句語境不同。",
-        "build-mcq-25": "「產品在材料、組裝、結構和製造方面的整體質素」是「build quality（造工）」的用法，與本句語境不同。"
+        "build-mcq-28": "本句的「builder」指「建築商／建造者時，表示建築工人；建築商；建造者」。",
+        "build-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-28"
     },
@@ -2448,11 +2218,9 @@ export default {
       "masked": "They hired a local ____.",
       "options": [
         "build-mcq-28",
-        "build-mcq-27",
-        "build-mcq-29",
-        "build-mcq-26",
-        "build-mcq-30",
-        "build-mcq-25"
+        "build-mcq-02",
+        "build-mcq-14",
+        "build-mcq-27"
       ],
       "explanation": "本句的「builder」指「建築商／建造者時，表示建築工人；建築商；建造者」。",
       "sentenceIndex": 56,
@@ -2461,12 +2229,10 @@ export default {
         "builder"
       ],
       "optionReasons": {
-        "build-mcq-28": "本句指「建築商／建造者時，表示建築工人；建築商；建造者」。",
-        "build-mcq-27": "「在軟件開發中把原始程式碼處理成可執行或可部署版本」是「build — verb in computing = compile/create software（構建／編譯）」的用法，與本句語境不同。",
-        "build-mcq-29": "「有助逐步增加、建立或培養某種能力／特質的事物」是「builder = something that develops a quality（培養……的東西）」的用法，與本句語境不同。",
-        "build-mcq-26": "「把程式碼編譯／組合後產生的特定軟件版本」是「build = software version generated from source code（軟件版本）」的用法，與本句語境不同。",
-        "build-mcq-30": "「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」是「building = structure/building（建築物）」的用法，與本句語境不同。",
-        "build-mcq-25": "「產品在材料、組裝、結構和製造方面的整體質素」是「build quality（造工）」的用法，與本句語境不同。"
+        "build-mcq-28": "本句的「builder」指「建築商／建造者時，表示建築工人；建築商；建造者」。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-28"
     },
@@ -2478,11 +2244,9 @@ export default {
       "masked": "Team sports can be a great confidence ____.",
       "options": [
         "build-mcq-29",
-        "build-mcq-28",
-        "build-mcq-30",
-        "build-mcq-27",
-        "build-mcq-31",
-        "build-mcq-26"
+        "build-mcq-02",
+        "build-mcq-22",
+        "build-mcq-27"
       ],
       "explanation": "本句的「builder」指「有助逐步增加、建立或培養某種能力／特質的事物」。",
       "sentenceIndex": 57,
@@ -2491,12 +2255,10 @@ export default {
         "builder"
       ],
       "optionReasons": {
-        "build-mcq-29": "本句指「有助逐步增加、建立或培養某種能力／特質的事物」。",
-        "build-mcq-28": "「建築商／建造者時，表示建築工人；建築商；建造者」是「builder = person/company that builds（建築商／建造者）」的用法，與本句語境不同。",
-        "build-mcq-30": "「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」是「building = structure/building（建築物）」的用法，與本句語境不同。",
-        "build-mcq-27": "「在軟件開發中把原始程式碼處理成可執行或可部署版本」是「build — verb in computing = compile/create software（構建／編譯）」的用法，與本句語境不同。",
-        "build-mcq-31": "「建造實體或逐步建立某種抽象事物的過程」是「building = process of creating/developing（建設／建立過程）」的用法，與本句語境不同。",
-        "build-mcq-26": "「把程式碼編譯／組合後產生的特定軟件版本」是「build = software version generated from source code（軟件版本）」的用法，與本句語境不同。"
+        "build-mcq-29": "本句的「builder」指「有助逐步增加、建立或培養某種能力／特質的事物」。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-29"
     },
@@ -2508,11 +2270,9 @@ export default {
       "masked": "The exercise is a good vocabulary ____.",
       "options": [
         "build-mcq-29",
-        "build-mcq-28",
-        "build-mcq-30",
         "build-mcq-27",
-        "build-mcq-31",
-        "build-mcq-26"
+        "build-mcq-22",
+        "build-mcq-02"
       ],
       "explanation": "本句的「builder」指「有助逐步增加、建立或培養某種能力／特質的事物」。",
       "sentenceIndex": 58,
@@ -2521,12 +2281,10 @@ export default {
         "builder"
       ],
       "optionReasons": {
-        "build-mcq-29": "本句指「有助逐步增加、建立或培養某種能力／特質的事物」。",
-        "build-mcq-28": "「建築商／建造者時，表示建築工人；建築商；建造者」是「builder = person/company that builds（建築商／建造者）」的用法，與本句語境不同。",
-        "build-mcq-30": "「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」是「building = structure/building（建築物）」的用法，與本句語境不同。",
-        "build-mcq-27": "「在軟件開發中把原始程式碼處理成可執行或可部署版本」是「build — verb in computing = compile/create software（構建／編譯）」的用法，與本句語境不同。",
-        "build-mcq-31": "「建造實體或逐步建立某種抽象事物的過程」是「building = process of creating/developing（建設／建立過程）」的用法，與本句語境不同。",
-        "build-mcq-26": "「把程式碼編譯／組合後產生的特定軟件版本」是「build = software version generated from source code（軟件版本）」的用法，與本句語境不同。"
+        "build-mcq-29": "本句的「builder」指「有助逐步增加、建立或培養某種能力／特質的事物」。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-29"
     },
@@ -2538,11 +2296,9 @@ export default {
       "masked": "That ____ is over a hundred years old.",
       "options": [
         "build-mcq-30",
-        "build-mcq-29",
-        "build-mcq-31",
-        "build-mcq-28",
-        "build-mcq-32",
-        "build-mcq-27"
+        "build-mcq-14",
+        "build-mcq-21",
+        "build-mcq-22"
       ],
       "explanation": "本句的「building」指「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」。",
       "sentenceIndex": 59,
@@ -2551,12 +2307,10 @@ export default {
         "building"
       ],
       "optionReasons": {
-        "build-mcq-30": "本句指「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」。",
-        "build-mcq-29": "「有助逐步增加、建立或培養某種能力／特質的事物」是「builder = something that develops a quality（培養……的東西）」的用法，與本句語境不同。",
-        "build-mcq-31": "「建造實體或逐步建立某種抽象事物的過程」是「building = process of creating/developing（建設／建立過程）」的用法，與本句語境不同。",
-        "build-mcq-28": "「建築商／建造者時，表示建築工人；建築商；建造者」是「builder = person/company that builds（建築商／建造者）」的用法，與本句語境不同。",
-        "build-mcq-32": "「加強團隊合作、信任和關係的活動／過程」是「team-building（團隊建設）」的用法，與本句語境不同。",
-        "build-mcq-27": "「在軟件開發中把原始程式碼處理成可執行或可部署版本」是「build — verb in computing = compile/create software（構建／編譯）」的用法，與本句語境不同。"
+        "build-mcq-30": "本句的「building」指「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」。",
+        "build-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-30"
     },
@@ -2568,11 +2322,9 @@ export default {
       "masked": "The office ____ has twenty floors.",
       "options": [
         "build-mcq-30",
-        "build-mcq-29",
-        "build-mcq-31",
-        "build-mcq-28",
-        "build-mcq-32",
-        "build-mcq-27"
+        "build-mcq-14",
+        "build-mcq-21",
+        "build-mcq-23"
       ],
       "explanation": "本句的「building」指「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」。",
       "sentenceIndex": 60,
@@ -2581,12 +2333,10 @@ export default {
         "building"
       ],
       "optionReasons": {
-        "build-mcq-30": "本句指「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」。",
-        "build-mcq-29": "「有助逐步增加、建立或培養某種能力／特質的事物」是「builder = something that develops a quality（培養……的東西）」的用法，與本句語境不同。",
-        "build-mcq-31": "「建造實體或逐步建立某種抽象事物的過程」是「building = process of creating/developing（建設／建立過程）」的用法，與本句語境不同。",
-        "build-mcq-28": "「建築商／建造者時，表示建築工人；建築商；建造者」是「builder = person/company that builds（建築商／建造者）」的用法，與本句語境不同。",
-        "build-mcq-32": "「加強團隊合作、信任和關係的活動／過程」是「team-building（團隊建設）」的用法，與本句語境不同。",
-        "build-mcq-27": "「在軟件開發中把原始程式碼處理成可執行或可部署版本」是「build — verb in computing = compile/create software（構建／編譯）」的用法，與本句語境不同。"
+        "build-mcq-30": "本句的「building」指「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」。",
+        "build-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-30"
     },
@@ -2598,11 +2348,9 @@ export default {
       "masked": "Trust ____ takes time.",
       "options": [
         "build-mcq-31",
-        "build-mcq-30",
-        "build-mcq-32",
-        "build-mcq-29",
-        "build-mcq-33",
-        "build-mcq-28"
+        "build-mcq-02",
+        "build-mcq-23",
+        "build-mcq-19"
       ],
       "explanation": "本句的「building」指「建造實體或逐步建立某種抽象事物的過程」。",
       "sentenceIndex": 61,
@@ -2611,12 +2359,10 @@ export default {
         "building"
       ],
       "optionReasons": {
-        "build-mcq-31": "本句指「建造實體或逐步建立某種抽象事物的過程」。",
-        "build-mcq-30": "「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」是「building = structure/building（建築物）」的用法，與本句語境不同。",
-        "build-mcq-32": "「加強團隊合作、信任和關係的活動／過程」是「team-building（團隊建設）」的用法，與本句語境不同。",
-        "build-mcq-29": "「有助逐步增加、建立或培養某種能力／特質的事物」是「builder = something that develops a quality（培養……的東西）」的用法，與本句語境不同。",
-        "build-mcq-33": "「在某物被破壞、失去或削弱後再次建立」是「rebuild = build again（重建）」的用法，與本句語境不同。",
-        "build-mcq-28": "「建築商／建造者時，表示建築工人；建築商；建造者」是「builder = person/company that builds（建築商／建造者）」的用法，與本句語境不同。"
+        "build-mcq-31": "本句的「building」指「建造實體或逐步建立某種抽象事物的過程」。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-31"
     },
@@ -2628,11 +2374,9 @@ export default {
       "masked": "Team ____ is important.",
       "options": [
         "build-mcq-31",
-        "build-mcq-30",
-        "build-mcq-32",
-        "build-mcq-29",
-        "build-mcq-33",
-        "build-mcq-28"
+        "build-mcq-02",
+        "build-mcq-27",
+        "build-mcq-30"
       ],
       "explanation": "本句的「building」指「建造實體或逐步建立某種抽象事物的過程」。",
       "sentenceIndex": 62,
@@ -2641,12 +2385,10 @@ export default {
         "building"
       ],
       "optionReasons": {
-        "build-mcq-31": "本句指「建造實體或逐步建立某種抽象事物的過程」。",
-        "build-mcq-30": "「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」是「building = structure/building（建築物）」的用法，與本句語境不同。",
-        "build-mcq-32": "「加強團隊合作、信任和關係的活動／過程」是「team-building（團隊建設）」的用法，與本句語境不同。",
-        "build-mcq-29": "「有助逐步增加、建立或培養某種能力／特質的事物」是「builder = something that develops a quality（培養……的東西）」的用法，與本句語境不同。",
-        "build-mcq-33": "「在某物被破壞、失去或削弱後再次建立」是「rebuild = build again（重建）」的用法，與本句語境不同。",
-        "build-mcq-28": "「建築商／建造者時，表示建築工人；建築商；建造者」是「builder = person/company that builds（建築商／建造者）」的用法，與本句語境不同。"
+        "build-mcq-31": "本句的「building」指「建造實體或逐步建立某種抽象事物的過程」。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-31"
     },
@@ -2658,11 +2400,9 @@ export default {
       "masked": "The company organized a ____ activity.",
       "options": [
         "build-mcq-32",
-        "build-mcq-31",
-        "build-mcq-33",
-        "build-mcq-30",
-        "build-mcq-34",
-        "build-mcq-29"
+        "build-mcq-25",
+        "build-mcq-19",
+        "build-mcq-27"
       ],
       "explanation": "本句的「team-building」指「加強團隊合作、信任和關係的活動／過程」。",
       "sentenceIndex": 63,
@@ -2671,12 +2411,10 @@ export default {
         "team-building"
       ],
       "optionReasons": {
-        "build-mcq-32": "本句指「加強團隊合作、信任和關係的活動／過程」。",
-        "build-mcq-31": "「建造實體或逐步建立某種抽象事物的過程」是「building = process of creating/developing（建設／建立過程）」的用法，與本句語境不同。",
-        "build-mcq-33": "「在某物被破壞、失去或削弱後再次建立」是「rebuild = build again（重建）」的用法，與本句語境不同。",
-        "build-mcq-30": "「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」是「building = structure/building（建築物）」的用法，與本句語境不同。",
-        "build-mcq-34": "「在受挫、損失或破壞後逐步恢復原有結構、狀態或能力」是「rebuild your life/confidence（重新建立）」的用法，與本句語境不同。",
-        "build-mcq-29": "「有助逐步增加、建立或培養某種能力／特質的事物」是「builder = something that develops a quality（培養……的東西）」的用法，與本句語境不同。"
+        "build-mcq-32": "本句的「team-building」指「加強團隊合作、信任和關係的活動／過程」。",
+        "build-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-32"
     },
@@ -2688,11 +2426,9 @@ export default {
       "masked": "Good communication is important for ____.",
       "options": [
         "build-mcq-32",
-        "build-mcq-31",
-        "build-mcq-33",
-        "build-mcq-30",
-        "build-mcq-34",
-        "build-mcq-29"
+        "build-mcq-03",
+        "build-mcq-19",
+        "build-mcq-15"
       ],
       "explanation": "本句的「team-building」指「加強團隊合作、信任和關係的活動／過程」。",
       "sentenceIndex": 64,
@@ -2701,12 +2437,10 @@ export default {
         "team-building"
       ],
       "optionReasons": {
-        "build-mcq-32": "本句指「加強團隊合作、信任和關係的活動／過程」。",
-        "build-mcq-31": "「建造實體或逐步建立某種抽象事物的過程」是「building = process of creating/developing（建設／建立過程）」的用法，與本句語境不同。",
-        "build-mcq-33": "「在某物被破壞、失去或削弱後再次建立」是「rebuild = build again（重建）」的用法，與本句語境不同。",
-        "build-mcq-30": "「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」是「building = structure/building（建築物）」的用法，與本句語境不同。",
-        "build-mcq-34": "「在受挫、損失或破壞後逐步恢復原有結構、狀態或能力」是「rebuild your life/confidence（重新建立）」的用法，與本句語境不同。",
-        "build-mcq-29": "「有助逐步增加、建立或培養某種能力／特質的事物」是「builder = something that develops a quality（培養……的東西）」的用法，與本句語境不同。"
+        "build-mcq-32": "本句的「team-building」指「加強團隊合作、信任和關係的活動／過程」。",
+        "build-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-32"
     },
@@ -2718,11 +2452,9 @@ export default {
       "masked": "They ____ the bridge after the storm.",
       "options": [
         "build-mcq-33",
-        "build-mcq-32",
-        "build-mcq-34",
-        "build-mcq-31",
-        "build-mcq-30",
-        "build-mcq-29"
+        "build-mcq-02",
+        "build-mcq-23",
+        "build-mcq-14"
       ],
       "explanation": "本句的「rebuilt」指「在某物被破壞、失去或削弱後再次建立」。",
       "sentenceIndex": 65,
@@ -2731,12 +2463,10 @@ export default {
         "rebuilt"
       ],
       "optionReasons": {
-        "build-mcq-33": "本句指「在某物被破壞、失去或削弱後再次建立」。",
-        "build-mcq-32": "「加強團隊合作、信任和關係的活動／過程」是「team-building（團隊建設）」的用法，與本句語境不同。",
-        "build-mcq-34": "「在受挫、損失或破壞後逐步恢復原有結構、狀態或能力」是「rebuild your life/confidence（重新建立）」的用法，與本句語境不同。",
-        "build-mcq-31": "「建造實體或逐步建立某種抽象事物的過程」是「building = process of creating/developing（建設／建立過程）」的用法，與本句語境不同。",
-        "build-mcq-30": "「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」是「building = structure/building（建築物）」的用法，與本句語境不同。",
-        "build-mcq-29": "「有助逐步增加、建立或培養某種能力／特質的事物」是「builder = something that develops a quality（培養……的東西）」的用法，與本句語境不同。"
+        "build-mcq-33": "本句的「rebuilt」指「在某物被破壞、失去或削弱後再次建立」。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-33"
     },
@@ -2748,11 +2478,9 @@ export default {
       "masked": "It took years to ____.",
       "options": [
         "build-mcq-33",
-        "build-mcq-32",
-        "build-mcq-34",
-        "build-mcq-31",
-        "build-mcq-30",
-        "build-mcq-29"
+        "build-mcq-07",
+        "build-mcq-20",
+        "build-mcq-19"
       ],
       "explanation": "本句的「rebuild trust」指「在某物被破壞、失去或削弱後再次建立」。",
       "sentenceIndex": 66,
@@ -2761,12 +2489,10 @@ export default {
         "rebuild trust"
       ],
       "optionReasons": {
-        "build-mcq-33": "本句指「在某物被破壞、失去或削弱後再次建立」。",
-        "build-mcq-32": "「加強團隊合作、信任和關係的活動／過程」是「team-building（團隊建設）」的用法，與本句語境不同。",
-        "build-mcq-34": "「在受挫、損失或破壞後逐步恢復原有結構、狀態或能力」是「rebuild your life/confidence（重新建立）」的用法，與本句語境不同。",
-        "build-mcq-31": "「建造實體或逐步建立某種抽象事物的過程」是「building = process of creating/developing（建設／建立過程）」的用法，與本句語境不同。",
-        "build-mcq-30": "「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」是「building = structure/building（建築物）」的用法，與本句語境不同。",
-        "build-mcq-29": "「有助逐步增加、建立或培養某種能力／特質的事物」是「builder = something that develops a quality（培養……的東西）」的用法，與本句語境不同。"
+        "build-mcq-33": "本句的「rebuild trust」指「在某物被破壞、失去或削弱後再次建立」。",
+        "build-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-33"
     },
@@ -2778,11 +2504,9 @@ export default {
       "masked": "She slowly ____.",
       "options": [
         "build-mcq-34",
-        "build-mcq-33",
-        "build-mcq-32",
-        "build-mcq-31",
-        "build-mcq-30",
-        "build-mcq-29"
+        "build-mcq-20",
+        "build-mcq-18",
+        "build-mcq-27"
       ],
       "explanation": "本句的「rebuilt her life」指「在受挫、損失或破壞後逐步恢復原有結構、狀態或能力」。",
       "sentenceIndex": 67,
@@ -2791,12 +2515,10 @@ export default {
         "rebuilt her life"
       ],
       "optionReasons": {
-        "build-mcq-34": "本句指「在受挫、損失或破壞後逐步恢復原有結構、狀態或能力」。",
-        "build-mcq-33": "「在某物被破壞、失去或削弱後再次建立」是「rebuild = build again（重建）」的用法，與本句語境不同。",
-        "build-mcq-32": "「加強團隊合作、信任和關係的活動／過程」是「team-building（團隊建設）」的用法，與本句語境不同。",
-        "build-mcq-31": "「建造實體或逐步建立某種抽象事物的過程」是「building = process of creating/developing（建設／建立過程）」的用法，與本句語境不同。",
-        "build-mcq-30": "「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」是「building = structure/building（建築物）」的用法，與本句語境不同。",
-        "build-mcq-29": "「有助逐步增加、建立或培養某種能力／特質的事物」是「builder = something that develops a quality（培養……的東西）」的用法，與本句語境不同。"
+        "build-mcq-34": "本句的「rebuilt her life」指「在受挫、損失或破壞後逐步恢復原有結構、狀態或能力」。",
+        "build-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-34"
     },
@@ -2808,11 +2530,9 @@ export default {
       "masked": "He needed time to ____.",
       "options": [
         "build-mcq-34",
-        "build-mcq-33",
-        "build-mcq-32",
-        "build-mcq-31",
-        "build-mcq-30",
-        "build-mcq-29"
+        "build-mcq-28",
+        "build-mcq-02",
+        "build-mcq-27"
       ],
       "explanation": "本句的「rebuild his confidence」指「在受挫、損失或破壞後逐步恢復原有結構、狀態或能力」。",
       "sentenceIndex": 68,
@@ -2821,12 +2541,10 @@ export default {
         "rebuild his confidence"
       ],
       "optionReasons": {
-        "build-mcq-34": "本句指「在受挫、損失或破壞後逐步恢復原有結構、狀態或能力」。",
-        "build-mcq-33": "「在某物被破壞、失去或削弱後再次建立」是「rebuild = build again（重建）」的用法，與本句語境不同。",
-        "build-mcq-32": "「加強團隊合作、信任和關係的活動／過程」是「team-building（團隊建設）」的用法，與本句語境不同。",
-        "build-mcq-31": "「建造實體或逐步建立某種抽象事物的過程」是「building = process of creating/developing（建設／建立過程）」的用法，與本句語境不同。",
-        "build-mcq-30": "「由牆、屋頂等構成，供人居住、工作或進行活動的固定建築物」是「building = structure/building（建築物）」的用法，與本句語境不同。",
-        "build-mcq-29": "「有助逐步增加、建立或培養某種能力／特質的事物」是「builder = something that develops a quality（培養……的東西）」的用法，與本句語境不同。"
+        "build-mcq-34": "本句的「rebuild his confidence」指「在受挫、損失或破壞後逐步恢復原有結構、狀態或能力」。",
+        "build-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "build-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "build-mcq-34"
     }
@@ -2838,5 +2556,7 @@ export default {
     "sha256": "28453cdb9b0aa1eb25090af7a7138d1ed5a6d08d136b72fe12b00c0e69bf8e3f",
     "pages": 26
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

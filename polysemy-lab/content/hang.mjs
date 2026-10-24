@@ -345,11 +345,9 @@ export default {
       "masked": "She ____ the painting above the sofa.",
       "options": [
         "hang-mcq-01",
-        "hang-mcq-02",
-        "hang-mcq-03",
+        "hang-mcq-10",
         "hang-mcq-04",
-        "hang-mcq-05",
-        "hang-mcq-06"
+        "hang-mcq-07"
       ],
       "explanation": "本句的「hung」指「讓物件由上方支撐並向下懸垂」。",
       "sentenceIndex": 0,
@@ -358,12 +356,10 @@ export default {
         "hung"
       ],
       "optionReasons": {
-        "hang-mcq-01": "本句指「讓物件由上方支撐並向下懸垂」。",
-        "hang-mcq-02": "「把畫作、照片等固定在牆上展示」是「hang — artwork」的用法，與本句語境不同。",
-        "hang-mcq-03": "「某物處於被懸掛／垂下的狀態」是「hang — intransitive」的用法，與本句語境不同。",
-        "hang-mcq-04": "「把衣物掛起保存或晾乾」是「hang clothes」的用法，與本句語境不同。",
-        "hang-mcq-05": "「身體部位自然或無力地垂下」是「hang — body part」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。"
+        "hang-mcq-01": "本句的「hung」指「讓物件由上方支撐並向下懸垂」。",
+        "hang-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-01"
     },
@@ -375,11 +371,9 @@ export default {
       "masked": "A lamp ____ from the ceiling.",
       "options": [
         "hang-mcq-01",
-        "hang-mcq-02",
-        "hang-mcq-03",
-        "hang-mcq-04",
-        "hang-mcq-05",
-        "hang-mcq-06"
+        "hang-mcq-12",
+        "hang-mcq-07",
+        "hang-pdf-001"
       ],
       "explanation": "本句的「hung」指「讓物件由上方支撐並向下懸垂」。",
       "sentenceIndex": 1,
@@ -388,12 +382,10 @@ export default {
         "hung"
       ],
       "optionReasons": {
-        "hang-mcq-01": "本句指「讓物件由上方支撐並向下懸垂」。",
-        "hang-mcq-02": "「把畫作、照片等固定在牆上展示」是「hang — artwork」的用法，與本句語境不同。",
-        "hang-mcq-03": "「某物處於被懸掛／垂下的狀態」是「hang — intransitive」的用法，與本句語境不同。",
-        "hang-mcq-04": "「把衣物掛起保存或晾乾」是「hang clothes」的用法，與本句語境不同。",
-        "hang-mcq-05": "「身體部位自然或無力地垂下」是「hang — body part」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。"
+        "hang-mcq-01": "本句的「hung」指「讓物件由上方支撐並向下懸垂」。",
+        "hang-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hang-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-01"
     },
@@ -405,11 +397,9 @@ export default {
       "masked": "I can imagine ____ it in the living room.",
       "options": [
         "hang-mcq-02",
-        "hang-mcq-01",
-        "hang-mcq-03",
         "hang-mcq-04",
         "hang-mcq-05",
-        "hang-mcq-06"
+        "hang-mcq-07"
       ],
       "explanation": "本句的「hanging」指「把畫作、照片等固定在牆上展示」。",
       "sentenceIndex": 2,
@@ -418,12 +408,10 @@ export default {
         "hanging"
       ],
       "optionReasons": {
-        "hang-mcq-02": "本句指「把畫作、照片等固定在牆上展示」。",
-        "hang-mcq-01": "「讓物件由上方支撐並向下懸垂」是「hang — physical」的用法，與本句語境不同。",
-        "hang-mcq-03": "「某物處於被懸掛／垂下的狀態」是「hang — intransitive」的用法，與本句語境不同。",
-        "hang-mcq-04": "「把衣物掛起保存或晾乾」是「hang clothes」的用法，與本句語境不同。",
-        "hang-mcq-05": "「身體部位自然或無力地垂下」是「hang — body part」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。"
+        "hang-mcq-02": "本句的「hanging」指「把畫作、照片等固定在牆上展示」。",
+        "hang-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-02"
     },
@@ -435,11 +423,9 @@ export default {
       "masked": "They ____ several photographs along the hallway.",
       "options": [
         "hang-mcq-02",
-        "hang-mcq-01",
-        "hang-mcq-03",
-        "hang-mcq-04",
-        "hang-mcq-05",
-        "hang-mcq-06"
+        "hang-mcq-07",
+        "hang-pdf-001",
+        "hang-mcq-03"
       ],
       "explanation": "本句的「hung」指「把畫作、照片等固定在牆上展示」。",
       "sentenceIndex": 3,
@@ -448,12 +434,10 @@ export default {
         "hung"
       ],
       "optionReasons": {
-        "hang-mcq-02": "本句指「把畫作、照片等固定在牆上展示」。",
-        "hang-mcq-01": "「讓物件由上方支撐並向下懸垂」是「hang — physical」的用法，與本句語境不同。",
-        "hang-mcq-03": "「某物處於被懸掛／垂下的狀態」是「hang — intransitive」的用法，與本句語境不同。",
-        "hang-mcq-04": "「把衣物掛起保存或晾乾」是「hang clothes」的用法，與本句語境不同。",
-        "hang-mcq-05": "「身體部位自然或無力地垂下」是「hang — body part」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。"
+        "hang-mcq-02": "本句的「hung」指「把畫作、照片等固定在牆上展示」。",
+        "hang-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hang-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-02"
     },
@@ -465,11 +449,9 @@ export default {
       "masked": "The curtains ____ to the floor.",
       "options": [
         "hang-mcq-03",
-        "hang-mcq-02",
-        "hang-mcq-04",
-        "hang-mcq-01",
-        "hang-mcq-05",
-        "hang-mcq-06"
+        "hang-mcq-06",
+        "hang-mcq-08",
+        "hang-mcq-10"
       ],
       "explanation": "本句的「hang」指「某物處於被懸掛／垂下的狀態」。",
       "sentenceIndex": 4,
@@ -478,12 +460,10 @@ export default {
         "hang"
       ],
       "optionReasons": {
-        "hang-mcq-03": "本句指「某物處於被懸掛／垂下的狀態」。",
-        "hang-mcq-02": "「把畫作、照片等固定在牆上展示」是「hang — artwork」的用法，與本句語境不同。",
-        "hang-mcq-04": "「把衣物掛起保存或晾乾」是「hang clothes」的用法，與本句語境不同。",
-        "hang-mcq-01": "「讓物件由上方支撐並向下懸垂」是「hang — physical」的用法，與本句語境不同。",
-        "hang-mcq-05": "「身體部位自然或無力地垂下」是「hang — body part」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。"
+        "hang-mcq-03": "本句的「hang」指「某物處於被懸掛／垂下的狀態」。",
+        "hang-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-03"
     },
@@ -496,10 +476,8 @@ export default {
       "options": [
         "hang-mcq-03",
         "hang-mcq-02",
-        "hang-mcq-04",
-        "hang-mcq-01",
-        "hang-mcq-05",
-        "hang-mcq-06"
+        "hang-mcq-08",
+        "hang-mcq-11"
       ],
       "explanation": "本句的「hanging」指「某物處於被懸掛／垂下的狀態」。",
       "sentenceIndex": 5,
@@ -508,12 +486,10 @@ export default {
         "hanging"
       ],
       "optionReasons": {
-        "hang-mcq-03": "本句指「某物處於被懸掛／垂下的狀態」。",
-        "hang-mcq-02": "「把畫作、照片等固定在牆上展示」是「hang — artwork」的用法，與本句語境不同。",
-        "hang-mcq-04": "「把衣物掛起保存或晾乾」是「hang clothes」的用法，與本句語境不同。",
-        "hang-mcq-01": "「讓物件由上方支撐並向下懸垂」是「hang — physical」的用法，與本句語境不同。",
-        "hang-mcq-05": "「身體部位自然或無力地垂下」是「hang — body part」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。"
+        "hang-mcq-03": "本句的「hanging」指「某物處於被懸掛／垂下的狀態」。",
+        "hang-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-03"
     },
@@ -525,11 +501,9 @@ export default {
       "masked": "____ your coat by the door.",
       "options": [
         "hang-mcq-04",
-        "hang-mcq-03",
-        "hang-mcq-05",
-        "hang-mcq-02",
+        "hang-mcq-08",
         "hang-mcq-06",
-        "hang-mcq-01"
+        "hang-mcq-02"
       ],
       "explanation": "本句的「Hang」指「把衣物掛起保存或晾乾」。",
       "sentenceIndex": 6,
@@ -538,12 +512,10 @@ export default {
         "Hang"
       ],
       "optionReasons": {
-        "hang-mcq-04": "本句指「把衣物掛起保存或晾乾」。",
-        "hang-mcq-03": "「某物處於被懸掛／垂下的狀態」是「hang — intransitive」的用法，與本句語境不同。",
-        "hang-mcq-05": "「身體部位自然或無力地垂下」是「hang — body part」的用法，與本句語境不同。",
-        "hang-mcq-02": "「把畫作、照片等固定在牆上展示」是「hang — artwork」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。",
-        "hang-mcq-01": "「讓物件由上方支撐並向下懸垂」是「hang — physical」的用法，與本句語境不同。"
+        "hang-mcq-04": "本句的「Hang」指「把衣物掛起保存或晾乾」。",
+        "hang-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-04"
     },
@@ -555,10 +527,8 @@ export default {
       "masked": "She ____ the washing outside.",
       "options": [
         "hang-mcq-04",
-        "hang-mcq-03",
-        "hang-mcq-05",
-        "hang-mcq-02",
-        "hang-mcq-06",
+        "hang-mcq-09",
+        "hang-pdf-002",
         "hang-mcq-01"
       ],
       "explanation": "本句的「hung」指「把衣物掛起保存或晾乾」。",
@@ -568,12 +538,10 @@ export default {
         "hung"
       ],
       "optionReasons": {
-        "hang-mcq-04": "本句指「把衣物掛起保存或晾乾」。",
-        "hang-mcq-03": "「某物處於被懸掛／垂下的狀態」是「hang — intransitive」的用法，與本句語境不同。",
-        "hang-mcq-05": "「身體部位自然或無力地垂下」是「hang — body part」的用法，與本句語境不同。",
-        "hang-mcq-02": "「把畫作、照片等固定在牆上展示」是「hang — artwork」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。",
-        "hang-mcq-01": "「讓物件由上方支撐並向下懸垂」是「hang — physical」的用法，與本句語境不同。"
+        "hang-mcq-04": "本句的「hung」指「把衣物掛起保存或晾乾」。",
+        "hang-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hang-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-04"
     },
@@ -585,11 +553,9 @@ export default {
       "masked": "His arms ____ loosely by his sides.",
       "options": [
         "hang-mcq-05",
-        "hang-mcq-04",
-        "hang-mcq-06",
-        "hang-mcq-03",
-        "hang-mcq-07",
-        "hang-mcq-02"
+        "hang-mcq-12",
+        "hang-mcq-11",
+        "hang-mcq-09"
       ],
       "explanation": "本句的「hung」指「身體部位自然或無力地垂下」。",
       "sentenceIndex": 8,
@@ -598,12 +564,10 @@ export default {
         "hung"
       ],
       "optionReasons": {
-        "hang-mcq-05": "本句指「身體部位自然或無力地垂下」。",
-        "hang-mcq-04": "「把衣物掛起保存或晾乾」是「hang clothes」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。",
-        "hang-mcq-03": "「某物處於被懸掛／垂下的狀態」是「hang — intransitive」的用法，與本句語境不同。",
-        "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。",
-        "hang-mcq-02": "「把畫作、照片等固定在牆上展示」是「hang — artwork」的用法，與本句語境不同。"
+        "hang-mcq-05": "本句的「hung」指「身體部位自然或無力地垂下」。",
+        "hang-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-05"
     },
@@ -615,11 +579,9 @@ export default {
       "masked": "She ____ her head in embarrassment.",
       "options": [
         "hang-mcq-05",
-        "hang-mcq-04",
-        "hang-mcq-06",
-        "hang-mcq-03",
-        "hang-mcq-07",
-        "hang-mcq-02"
+        "hang-pdf-002",
+        "hang-mcq-12",
+        "hang-mcq-09"
       ],
       "explanation": "本句的「hung」指「身體部位自然或無力地垂下」。",
       "sentenceIndex": 9,
@@ -628,12 +590,10 @@ export default {
         "hung"
       ],
       "optionReasons": {
-        "hang-mcq-05": "本句指「身體部位自然或無力地垂下」。",
-        "hang-mcq-04": "「把衣物掛起保存或晾乾」是「hang clothes」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。",
-        "hang-mcq-03": "「某物處於被懸掛／垂下的狀態」是「hang — intransitive」的用法，與本句語境不同。",
-        "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。",
-        "hang-mcq-02": "「把畫作、照片等固定在牆上展示」是「hang — artwork」的用法，與本句語境不同。"
+        "hang-mcq-05": "本句的「hung」指「身體部位自然或無力地垂下」。",
+        "hang-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-05"
     },
@@ -647,9 +607,7 @@ export default {
         "hang-mcq-06",
         "hang-mcq-05",
         "hang-mcq-07",
-        "hang-mcq-04",
-        "hang-mcq-08",
-        "hang-mcq-03"
+        "hang-mcq-11"
       ],
       "explanation": "本句的「hung his head」指「因羞愧、失望等而低下頭」。",
       "sentenceIndex": 10,
@@ -658,12 +616,10 @@ export default {
         "hung his head"
       ],
       "optionReasons": {
-        "hang-mcq-06": "本句指「因羞愧、失望等而低下頭」。",
-        "hang-mcq-05": "「身體部位自然或無力地垂下」是「hang — body part」的用法，與本句語境不同。",
-        "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。",
-        "hang-mcq-04": "「把衣物掛起保存或晾乾」是「hang clothes」的用法，與本句語境不同。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
-        "hang-mcq-03": "「某物處於被懸掛／垂下的狀態」是「hang — intransitive」的用法，與本句語境不同。"
+        "hang-mcq-06": "本句的「hung his head」指「因羞愧、失望等而低下頭」。",
+        "hang-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-06"
     },
@@ -675,11 +631,9 @@ export default {
       "masked": "She ____ her head in shame.",
       "options": [
         "hang-mcq-06",
-        "hang-mcq-05",
-        "hang-mcq-07",
+        "hang-mcq-01",
         "hang-mcq-04",
-        "hang-mcq-08",
-        "hang-mcq-03"
+        "hang-mcq-07"
       ],
       "explanation": "本句的「hung」指「因羞愧、失望等而低下頭」。",
       "sentenceIndex": 11,
@@ -688,12 +642,10 @@ export default {
         "hung"
       ],
       "optionReasons": {
-        "hang-mcq-06": "本句指「因羞愧、失望等而低下頭」。",
-        "hang-mcq-05": "「身體部位自然或無力地垂下」是「hang — body part」的用法，與本句語境不同。",
-        "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。",
-        "hang-mcq-04": "「把衣物掛起保存或晾乾」是「hang clothes」的用法，與本句語境不同。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
-        "hang-mcq-03": "「某物處於被懸掛／垂下的狀態」是「hang — intransitive」的用法，與本句語境不同。"
+        "hang-mcq-06": "本句的「hung」指「因羞愧、失望等而低下頭」。",
+        "hang-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-06"
     },
@@ -705,10 +657,8 @@ export default {
       "masked": "The prisoner was ____.",
       "options": [
         "hang-mcq-07",
-        "hang-mcq-06",
-        "hang-mcq-08",
-        "hang-mcq-05",
-        "hang-mcq-09",
+        "hang-pdf-002",
+        "hang-mcq-13",
         "hang-mcq-04"
       ],
       "explanation": "本句的「hanged」指「以吊頸方式處死某人；此義用 hanged」。",
@@ -718,12 +668,10 @@ export default {
         "hanged"
       ],
       "optionReasons": {
-        "hang-mcq-07": "本句指「以吊頸方式處死某人；此義用 hanged」。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
-        "hang-mcq-05": "「身體部位自然或無力地垂下」是「hang — body part」的用法，與本句語境不同。",
-        "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
-        "hang-mcq-04": "「把衣物掛起保存或晾乾」是「hang clothes」的用法，與本句語境不同。"
+        "hang-mcq-07": "本句的「hanged」指「以吊頸方式處死某人；此義用 hanged」。",
+        "hang-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-07"
     },
@@ -735,10 +683,8 @@ export default {
       "masked": "In the past, some criminals were ____ for serious offences.",
       "options": [
         "hang-mcq-07",
-        "hang-mcq-06",
-        "hang-mcq-08",
-        "hang-mcq-05",
-        "hang-mcq-09",
+        "hang-mcq-13",
+        "hang-pdf-002",
         "hang-mcq-04"
       ],
       "explanation": "本句的「hanged」指「以吊頸方式處死某人；此義用 hanged」。",
@@ -748,12 +694,10 @@ export default {
         "hanged"
       ],
       "optionReasons": {
-        "hang-mcq-07": "本句指「以吊頸方式處死某人；此義用 hanged」。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
-        "hang-mcq-05": "「身體部位自然或無力地垂下」是「hang — body part」的用法，與本句語境不同。",
-        "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
-        "hang-mcq-04": "「把衣物掛起保存或晾乾」是「hang clothes」的用法，與本句語境不同。"
+        "hang-mcq-07": "本句的「hanged」指「以吊頸方式處死某人；此義用 hanged」。",
+        "hang-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hang-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-07"
     },
@@ -765,11 +709,9 @@ export default {
       "masked": "A faint smell of paint ____.",
       "options": [
         "hang-mcq-08",
-        "hang-mcq-07",
-        "hang-mcq-09",
-        "hang-mcq-06",
-        "hang-mcq-10",
-        "hang-mcq-05"
+        "hang-mcq-04",
+        "hang-mcq-05",
+        "hang-mcq-07"
       ],
       "explanation": "本句的「hung in the air」指「氣味、煙霧、氣氛等持續停留／瀰漫」。",
       "sentenceIndex": 14,
@@ -778,12 +720,10 @@ export default {
         "hung in the air"
       ],
       "optionReasons": {
-        "hang-mcq-08": "本句指「氣味、煙霧、氣氛等持續停留／瀰漫」。",
-        "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。",
-        "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。",
-        "hang-mcq-10": "「程式／系統停止回應或卡死」是「hang — computing」的用法，與本句語境不同。",
-        "hang-mcq-05": "「身體部位自然或無力地垂下」是「hang — body part」的用法，與本句語境不同。"
+        "hang-mcq-08": "本句的「hung in the air」指「氣味、煙霧、氣氛等持續停留／瀰漫」。",
+        "hang-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-08"
     },
@@ -795,11 +735,9 @@ export default {
       "masked": "Silence ____ over the room.",
       "options": [
         "hang-mcq-08",
-        "hang-mcq-07",
-        "hang-mcq-09",
-        "hang-mcq-06",
-        "hang-mcq-10",
-        "hang-mcq-05"
+        "hang-mcq-05",
+        "hang-mcq-04",
+        "hang-mcq-12"
       ],
       "explanation": "本句的「hung」指「氣味、煙霧、氣氛等持續停留／瀰漫」。",
       "sentenceIndex": 15,
@@ -808,12 +746,10 @@ export default {
         "hung"
       ],
       "optionReasons": {
-        "hang-mcq-08": "本句指「氣味、煙霧、氣氛等持續停留／瀰漫」。",
-        "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。",
-        "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。",
-        "hang-mcq-10": "「程式／系統停止回應或卡死」是「hang — computing」的用法，與本句語境不同。",
-        "hang-mcq-05": "「身體部位自然或無力地垂下」是「hang — body part」的用法，與本句語境不同。"
+        "hang-mcq-08": "本句的「hung」指「氣味、煙霧、氣氛等持續停留／瀰漫」。",
+        "hang-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-08"
     },
@@ -825,11 +761,9 @@ export default {
       "masked": "Uncertainty ____ the project.",
       "options": [
         "hang-mcq-09",
-        "hang-mcq-08",
-        "hang-mcq-10",
+        "hang-mcq-01",
         "hang-mcq-07",
-        "hang-mcq-11",
-        "hang-mcq-06"
+        "hang-mcq-05"
       ],
       "explanation": "本句的「hung over」指「某種威脅、不確定性等持續籠罩」。",
       "sentenceIndex": 16,
@@ -838,12 +772,10 @@ export default {
         "hung over"
       ],
       "optionReasons": {
-        "hang-mcq-09": "本句指「某種威脅、不確定性等持續籠罩」。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
-        "hang-mcq-10": "「程式／系統停止回應或卡死」是「hang — computing」的用法，與本句語境不同。",
-        "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。",
-        "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。"
+        "hang-mcq-09": "本句的「hung over」指「某種威脅、不確定性等持續籠罩」。",
+        "hang-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-09"
     },
@@ -855,11 +787,9 @@ export default {
       "masked": "The threat of closure ____ over the museum.",
       "options": [
         "hang-mcq-09",
-        "hang-mcq-08",
-        "hang-mcq-10",
-        "hang-mcq-07",
-        "hang-mcq-11",
-        "hang-mcq-06"
+        "hang-mcq-03",
+        "hang-mcq-13",
+        "hang-mcq-04"
       ],
       "explanation": "本句的「hung」指「某種威脅、不確定性等持續籠罩」。",
       "sentenceIndex": 17,
@@ -868,12 +798,10 @@ export default {
         "hung"
       ],
       "optionReasons": {
-        "hang-mcq-09": "本句指「某種威脅、不確定性等持續籠罩」。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
-        "hang-mcq-10": "「程式／系統停止回應或卡死」是「hang — computing」的用法，與本句語境不同。",
-        "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。",
-        "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。"
+        "hang-mcq-09": "本句的「hung」指「某種威脅、不確定性等持續籠罩」。",
+        "hang-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-09"
     },
@@ -885,11 +813,9 @@ export default {
       "masked": "We just ____ around the gallery after lunch.",
       "options": [
         "hang-pdf-001",
-        "hang-mcq-08",
-        "hang-mcq-10",
-        "hang-mcq-07",
-        "hang-mcq-11",
-        "hang-mcq-06"
+        "hang-mcq-12",
+        "hang-mcq-09",
+        "hang-mcq-05"
       ],
       "explanation": "本句的「hung」指「在某處停留、逗留」。",
       "sentenceIndex": 18,
@@ -898,12 +824,10 @@ export default {
         "hung"
       ],
       "optionReasons": {
-        "hang-pdf-001": "本句指「在某處停留、逗留」。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
-        "hang-mcq-10": "「程式／系統停止回應或卡死」是「hang — computing」的用法，與本句語境不同。",
-        "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。",
-        "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。"
+        "hang-pdf-001": "本句的「hung」指「在某處停留、逗留」。",
+        "hang-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-pdf-001"
     },
@@ -915,11 +839,9 @@ export default {
       "masked": "They were ____ outside the café.",
       "options": [
         "hang-pdf-001",
-        "hang-mcq-08",
-        "hang-mcq-10",
-        "hang-mcq-07",
-        "hang-mcq-11",
-        "hang-mcq-06"
+        "hang-mcq-02",
+        "hang-mcq-01",
+        "hang-mcq-04"
       ],
       "explanation": "本句的「hanging」指「在某處停留、逗留」。",
       "sentenceIndex": 19,
@@ -928,12 +850,10 @@ export default {
         "hanging"
       ],
       "optionReasons": {
-        "hang-pdf-001": "本句指「在某處停留、逗留」。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
-        "hang-mcq-10": "「程式／系統停止回應或卡死」是「hang — computing」的用法，與本句語境不同。",
-        "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。",
-        "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
-        "hang-mcq-06": "「因羞愧、失望等而低下頭」是「hang one’s head」的用法，與本句語境不同。"
+        "hang-pdf-001": "本句的「hanging」指「在某處停留、逗留」。",
+        "hang-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-pdf-001"
     },
@@ -945,11 +865,9 @@ export default {
       "masked": "The success of the plan may ____ one decision.",
       "options": [
         "hang-pdf-002",
-        "hang-mcq-09",
-        "hang-mcq-11",
-        "hang-mcq-08",
+        "hang-mcq-07",
         "hang-mcq-12",
-        "hang-mcq-07"
+        "hang-mcq-05"
       ],
       "explanation": "本句的「hang on」指「取決於……」。",
       "sentenceIndex": 20,
@@ -958,12 +876,10 @@ export default {
         "hang on"
       ],
       "optionReasons": {
-        "hang-pdf-002": "本句指「取決於……」。",
-        "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
-        "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
-        "hang-mcq-12": "「掛在牆上的布藝或裝飾作品」是「wall hanging」的用法，與本句語境不同。",
-        "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。"
+        "hang-pdf-002": "本句的「hang on」指「取決於……」。",
+        "hang-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-pdf-002"
     },
@@ -975,11 +891,9 @@ export default {
       "masked": "Everything ____ on whether funding is approved.",
       "options": [
         "hang-pdf-002",
-        "hang-mcq-09",
-        "hang-mcq-11",
-        "hang-mcq-08",
-        "hang-mcq-12",
-        "hang-mcq-07"
+        "hang-mcq-05",
+        "hang-pdf-001",
+        "hang-mcq-02"
       ],
       "explanation": "本句的「hangs」指「取決於……」。",
       "sentenceIndex": 21,
@@ -988,12 +902,10 @@ export default {
         "hangs"
       ],
       "optionReasons": {
-        "hang-pdf-002": "本句指「取決於……」。",
-        "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
-        "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
-        "hang-mcq-12": "「掛在牆上的布藝或裝飾作品」是「wall hanging」的用法，與本句語境不同。",
-        "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。"
+        "hang-pdf-002": "本句的「hangs」指「取決於……」。",
+        "hang-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hang-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-pdf-002"
     },
@@ -1005,11 +917,9 @@ export default {
       "masked": "The program ____ while opening the file.",
       "options": [
         "hang-mcq-10",
-        "hang-mcq-09",
-        "hang-mcq-11",
-        "hang-mcq-08",
-        "hang-mcq-12",
-        "hang-mcq-07"
+        "hang-mcq-13",
+        "hang-mcq-04",
+        "hang-mcq-01"
       ],
       "explanation": "本句的「hung」指「程式／系統停止回應或卡死」。",
       "sentenceIndex": 22,
@@ -1018,12 +928,10 @@ export default {
         "hung"
       ],
       "optionReasons": {
-        "hang-mcq-10": "本句指「程式／系統停止回應或卡死」。",
-        "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
-        "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
-        "hang-mcq-12": "「掛在牆上的布藝或裝飾作品」是「wall hanging」的用法，與本句語境不同。",
-        "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。"
+        "hang-mcq-10": "本句的「hung」指「程式／系統停止回應或卡死」。",
+        "hang-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-10"
     },
@@ -1035,11 +943,9 @@ export default {
       "masked": "The system keeps ____ when I start the application.",
       "options": [
         "hang-mcq-10",
-        "hang-mcq-09",
+        "hang-mcq-06",
         "hang-mcq-11",
-        "hang-mcq-08",
-        "hang-mcq-12",
-        "hang-mcq-07"
+        "hang-mcq-02"
       ],
       "explanation": "本句的「hanging」指「程式／系統停止回應或卡死」。",
       "sentenceIndex": 23,
@@ -1048,12 +954,10 @@ export default {
         "hanging"
       ],
       "optionReasons": {
-        "hang-mcq-10": "本句指「程式／系統停止回應或卡死」。",
-        "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
-        "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。",
-        "hang-mcq-12": "「掛在牆上的布藝或裝飾作品」是「wall hanging」的用法，與本句語境不同。",
-        "hang-mcq-07": "「以吊頸方式處死某人；此義用 hanged」是「hang — execution」的用法，與本句語境不同。"
+        "hang-mcq-10": "本句的「hanging」指「程式／系統停止回應或卡死」。",
+        "hang-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-10"
     },
@@ -1065,11 +969,9 @@ export default {
       "masked": "The question was left ____.",
       "options": [
         "hang-mcq-11",
-        "hang-mcq-10",
-        "hang-mcq-12",
-        "hang-mcq-09",
-        "hang-mcq-13",
-        "hang-mcq-08"
+        "hang-mcq-03",
+        "hang-mcq-08",
+        "hang-mcq-04"
       ],
       "explanation": "本句的「hanging」指「問題或決定沒有得到解決／定案」。",
       "sentenceIndex": 24,
@@ -1078,12 +980,10 @@ export default {
         "hanging"
       ],
       "optionReasons": {
-        "hang-mcq-11": "本句指「問題或決定沒有得到解決／定案」。",
-        "hang-mcq-10": "「程式／系統停止回應或卡死」是「hang — computing」的用法，與本句語境不同。",
-        "hang-mcq-12": "「掛在牆上的布藝或裝飾作品」是「wall hanging」的用法，與本句語境不同。",
-        "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
-        "hang-mcq-13": "「掛在牆上／空中的裝飾物，尤其是布藝作品」是「14. hanging = decorative/fabric object suspended vertically — 掛飾；掛毯」的用法，與本句語境不同。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。"
+        "hang-mcq-11": "本句的「hanging」指「問題或決定沒有得到解決／定案」。",
+        "hang-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-11"
     },
@@ -1095,10 +995,8 @@ export default {
       "masked": "The decision remained ____ for weeks.",
       "options": [
         "hang-mcq-11",
-        "hang-mcq-10",
-        "hang-mcq-12",
-        "hang-mcq-09",
-        "hang-mcq-13",
+        "hang-mcq-06",
+        "hang-mcq-04",
         "hang-mcq-08"
       ],
       "explanation": "本句的「hanging」指「問題或決定沒有得到解決／定案」。",
@@ -1108,12 +1006,10 @@ export default {
         "hanging"
       ],
       "optionReasons": {
-        "hang-mcq-11": "本句指「問題或決定沒有得到解決／定案」。",
-        "hang-mcq-10": "「程式／系統停止回應或卡死」是「hang — computing」的用法，與本句語境不同。",
-        "hang-mcq-12": "「掛在牆上的布藝或裝飾作品」是「wall hanging」的用法，與本句語境不同。",
-        "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
-        "hang-mcq-13": "「掛在牆上／空中的裝飾物，尤其是布藝作品」是「14. hanging = decorative/fabric object suspended vertically — 掛飾；掛毯」的用法，與本句語境不同。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。"
+        "hang-mcq-11": "本句的「hanging」指「問題或決定沒有得到解決／定案」。",
+        "hang-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-11"
     },
@@ -1125,10 +1021,8 @@ export default {
       "masked": "The wall was decorated with a textile ____.",
       "options": [
         "hang-mcq-13",
-        "hang-mcq-12",
-        "hang-mcq-11",
-        "hang-mcq-10",
-        "hang-mcq-09",
+        "hang-mcq-05",
+        "hang-pdf-002",
         "hang-mcq-08"
       ],
       "explanation": "本句的「hanging」指「掛在牆上／空中的裝飾物，尤其是布藝作品」。",
@@ -1138,12 +1032,10 @@ export default {
         "hanging"
       ],
       "optionReasons": {
-        "hang-mcq-13": "本句指「掛在牆上／空中的裝飾物，尤其是布藝作品」。",
-        "hang-mcq-12": "「掛在牆上的布藝或裝飾作品」是「wall hanging」的用法，與本句語境不同。",
-        "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
-        "hang-mcq-10": "「程式／系統停止回應或卡死」是「hang — computing」的用法，與本句語境不同。",
-        "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。"
+        "hang-mcq-13": "本句的「hanging」指「掛在牆上／空中的裝飾物，尤其是布藝作品」。",
+        "hang-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hang-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-13"
     },
@@ -1155,10 +1047,8 @@ export default {
       "masked": "The museum displayed a large wall ____.",
       "options": [
         "hang-mcq-13",
-        "hang-mcq-12",
-        "hang-mcq-11",
-        "hang-mcq-10",
-        "hang-mcq-09",
+        "hang-mcq-05",
+        "hang-mcq-07",
         "hang-mcq-08"
       ],
       "explanation": "本句的「hanging」指「掛在牆上／空中的裝飾物，尤其是布藝作品」。",
@@ -1168,12 +1058,10 @@ export default {
         "hanging"
       ],
       "optionReasons": {
-        "hang-mcq-13": "本句指「掛在牆上／空中的裝飾物，尤其是布藝作品」。",
-        "hang-mcq-12": "「掛在牆上的布藝或裝飾作品」是「wall hanging」的用法，與本句語境不同。",
-        "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
-        "hang-mcq-10": "「程式／系統停止回應或卡死」是「hang — computing」的用法，與本句語境不同。",
-        "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。"
+        "hang-mcq-13": "本句的「hanging」指「掛在牆上／空中的裝飾物，尤其是布藝作品」。",
+        "hang-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-13"
     },
@@ -1185,11 +1073,9 @@ export default {
       "masked": "The room has a woven ____.",
       "options": [
         "hang-mcq-12",
-        "hang-mcq-11",
-        "hang-mcq-13",
+        "hang-mcq-06",
         "hang-mcq-10",
-        "hang-mcq-09",
-        "hang-mcq-08"
+        "hang-mcq-11"
       ],
       "explanation": "本句的「wall hanging」指「掛在牆上的布藝或裝飾作品」。",
       "sentenceIndex": 28,
@@ -1198,12 +1084,10 @@ export default {
         "wall hanging"
       ],
       "optionReasons": {
-        "hang-mcq-12": "本句指「掛在牆上的布藝或裝飾作品」。",
-        "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
-        "hang-mcq-13": "「掛在牆上／空中的裝飾物，尤其是布藝作品」是「14. hanging = decorative/fabric object suspended vertically — 掛飾；掛毯」的用法，與本句語境不同。",
-        "hang-mcq-10": "「程式／系統停止回應或卡死」是「hang — computing」的用法，與本句語境不同。",
-        "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。"
+        "hang-mcq-12": "本句的「wall hanging」指「掛在牆上的布藝或裝飾作品」。",
+        "hang-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-12"
     },
@@ -1215,11 +1099,9 @@ export default {
       "masked": "The wall ____ adds texture to the space.",
       "options": [
         "hang-mcq-12",
-        "hang-mcq-11",
-        "hang-mcq-13",
-        "hang-mcq-10",
-        "hang-mcq-09",
-        "hang-mcq-08"
+        "hang-mcq-08",
+        "hang-mcq-07",
+        "hang-mcq-10"
       ],
       "explanation": "本句的「hanging」指「掛在牆上的布藝或裝飾作品」。",
       "sentenceIndex": 29,
@@ -1228,12 +1110,10 @@ export default {
         "hanging"
       ],
       "optionReasons": {
-        "hang-mcq-12": "本句指「掛在牆上的布藝或裝飾作品」。",
-        "hang-mcq-11": "「問題或決定沒有得到解決／定案」是「hanging — unresolved」的用法，與本句語境不同。",
-        "hang-mcq-13": "「掛在牆上／空中的裝飾物，尤其是布藝作品」是「14. hanging = decorative/fabric object suspended vertically — 掛飾；掛毯」的用法，與本句語境不同。",
-        "hang-mcq-10": "「程式／系統停止回應或卡死」是「hang — computing」的用法，與本句語境不同。",
-        "hang-mcq-09": "「某種威脅、不確定性等持續籠罩」是「hang over」的用法，與本句語境不同。",
-        "hang-mcq-08": "「氣味、煙霧、氣氛等持續停留／瀰漫」是「hang in the air」的用法，與本句語境不同。"
+        "hang-mcq-12": "本句的「hanging」指「掛在牆上的布藝或裝飾作品」。",
+        "hang-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hang-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hang-mcq-12"
     }
@@ -1245,5 +1125,7 @@ export default {
     "sha256": "c54a81afe615ffe89d63264f9a3c765bed7896a9032ff395a2c5f574879a1d61",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

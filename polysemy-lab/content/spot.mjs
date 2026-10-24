@@ -636,10 +636,8 @@ export default {
       "masked": "I quickly developed a ____.",
       "options": [
         "spot-mcq-01",
-        "spot-mcq-02",
         "spot-mcq-03",
-        "spot-mcq-04",
-        "spot-mcq-05",
+        "spot-mcq-14",
         "spot-mcq-06"
       ],
       "explanation": "本句的「soft spot for him」指「對某人／某物有特別的喜愛、疼惜或偏愛」。",
@@ -649,12 +647,10 @@ export default {
         "soft spot for him"
       ],
       "optionReasons": {
-        "spot-mcq-01": "本句指「對某人／某物有特別的喜愛、疼惜或偏愛」。",
-        "spot-mcq-02": "「某個具體、通常範圍較小的位置或地方」是「spot — place」的用法，與本句語境不同。",
-        "spot-mcq-03": "「某個明確而具體的位置」是「spot — exact position」的用法，與本句語境不同。",
-        "spot-mcq-04": "「課程、團隊、活動等留給某人的名額／位置」是「spot — available place」的用法，與本句語境不同。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。"
+        "spot-mcq-01": "本句的「soft spot for him」指「對某人／某物有特別的喜愛、疼惜或偏愛」。",
+        "spot-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-01"
     },
@@ -667,10 +663,8 @@ export default {
       "options": [
         "spot-mcq-01",
         "spot-mcq-02",
-        "spot-mcq-03",
-        "spot-mcq-04",
-        "spot-mcq-05",
-        "spot-mcq-06"
+        "spot-mcq-16",
+        "spot-mcq-25"
       ],
       "explanation": "本句的「soft spot for」指「對某人／某物有特別的喜愛、疼惜或偏愛」。",
       "sentenceIndex": 1,
@@ -679,12 +673,10 @@ export default {
         "soft spot for"
       ],
       "optionReasons": {
-        "spot-mcq-01": "本句指「對某人／某物有特別的喜愛、疼惜或偏愛」。",
-        "spot-mcq-02": "「某個具體、通常範圍較小的位置或地方」是「spot — place」的用法，與本句語境不同。",
-        "spot-mcq-03": "「某個明確而具體的位置」是「spot — exact position」的用法，與本句語境不同。",
-        "spot-mcq-04": "「課程、團隊、活動等留給某人的名額／位置」是「spot — available place」的用法，與本句語境不同。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。"
+        "spot-mcq-01": "本句的「soft spot for」指「對某人／某物有特別的喜愛、疼惜或偏愛」。",
+        "spot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-01"
     },
@@ -696,11 +688,9 @@ export default {
       "masked": "She has a ____ old books.",
       "options": [
         "spot-mcq-01",
-        "spot-mcq-02",
-        "spot-mcq-03",
-        "spot-mcq-04",
         "spot-mcq-05",
-        "spot-mcq-06"
+        "spot-mcq-15",
+        "spot-mcq-26"
       ],
       "explanation": "本句的「soft spot for」指「對某人／某物有特別的喜愛、疼惜或偏愛」。",
       "sentenceIndex": 2,
@@ -709,12 +699,10 @@ export default {
         "soft spot for"
       ],
       "optionReasons": {
-        "spot-mcq-01": "本句指「對某人／某物有特別的喜愛、疼惜或偏愛」。",
-        "spot-mcq-02": "「某個具體、通常範圍較小的位置或地方」是「spot — place」的用法，與本句語境不同。",
-        "spot-mcq-03": "「某個明確而具體的位置」是「spot — exact position」的用法，與本句語境不同。",
-        "spot-mcq-04": "「課程、團隊、活動等留給某人的名額／位置」是「spot — available place」的用法，與本句語境不同。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。"
+        "spot-mcq-01": "本句的「soft spot for」指「對某人／某物有特別的喜愛、疼惜或偏愛」。",
+        "spot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-01"
     },
@@ -726,11 +714,9 @@ export default {
       "masked": "This is a good ____ for a picnic.",
       "options": [
         "spot-mcq-02",
+        "spot-mcq-15",
         "spot-mcq-01",
-        "spot-mcq-03",
-        "spot-mcq-04",
-        "spot-mcq-05",
-        "spot-mcq-06"
+        "spot-mcq-12"
       ],
       "explanation": "本句的「spot」指「某個具體、通常範圍較小的位置或地方」。",
       "sentenceIndex": 3,
@@ -739,12 +725,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-02": "本句指「某個具體、通常範圍較小的位置或地方」。",
-        "spot-mcq-01": "「對某人／某物有特別的喜愛、疼惜或偏愛」是「a soft spot for」的用法，與本句語境不同。",
-        "spot-mcq-03": "「某個明確而具體的位置」是「spot — exact position」的用法，與本句語境不同。",
-        "spot-mcq-04": "「課程、團隊、活動等留給某人的名額／位置」是「spot — available place」的用法，與本句語境不同。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。"
+        "spot-mcq-02": "本句的「spot」指「某個具體、通常範圍較小的位置或地方」。",
+        "spot-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-02"
     },
@@ -756,11 +740,9 @@ export default {
       "masked": "We found a quiet ____ near the river.",
       "options": [
         "spot-mcq-02",
-        "spot-mcq-01",
-        "spot-mcq-03",
-        "spot-mcq-04",
-        "spot-mcq-05",
-        "spot-mcq-06"
+        "spot-pdf-001",
+        "spot-mcq-09",
+        "spot-mcq-20"
       ],
       "explanation": "本句的「spot」指「某個具體、通常範圍較小的位置或地方」。",
       "sentenceIndex": 4,
@@ -769,12 +751,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-02": "本句指「某個具體、通常範圍較小的位置或地方」。",
-        "spot-mcq-01": "「對某人／某物有特別的喜愛、疼惜或偏愛」是「a soft spot for」的用法，與本句語境不同。",
-        "spot-mcq-03": "「某個明確而具體的位置」是「spot — exact position」的用法，與本句語境不同。",
-        "spot-mcq-04": "「課程、團隊、活動等留給某人的名額／位置」是「spot — available place」的用法，與本句語境不同。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。"
+        "spot-mcq-02": "本句的「spot」指「某個具體、通常範圍較小的位置或地方」。",
+        "spot-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-02"
     },
@@ -786,11 +766,9 @@ export default {
       "masked": "Put the chair back in the same ____.",
       "options": [
         "spot-mcq-03",
-        "spot-mcq-02",
-        "spot-mcq-04",
-        "spot-mcq-01",
-        "spot-mcq-05",
-        "spot-mcq-06"
+        "spot-mcq-07",
+        "spot-mcq-25",
+        "spot-mcq-24"
       ],
       "explanation": "本句的「spot」指「某個明確而具體的位置」。",
       "sentenceIndex": 5,
@@ -799,12 +777,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-03": "本句指「某個明確而具體的位置」。",
-        "spot-mcq-02": "「某個具體、通常範圍較小的位置或地方」是「spot — place」的用法，與本句語境不同。",
-        "spot-mcq-04": "「課程、團隊、活動等留給某人的名額／位置」是「spot — available place」的用法，與本句語境不同。",
-        "spot-mcq-01": "「對某人／某物有特別的喜愛、疼惜或偏愛」是「a soft spot for」的用法，與本句語境不同。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。"
+        "spot-mcq-03": "本句的「spot」指「某個明確而具體的位置」。",
+        "spot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-03"
     },
@@ -816,11 +792,9 @@ export default {
       "masked": "That is the exact ____ where we met.",
       "options": [
         "spot-mcq-03",
-        "spot-mcq-02",
-        "spot-mcq-04",
-        "spot-mcq-01",
-        "spot-mcq-05",
-        "spot-mcq-06"
+        "spot-mcq-20",
+        "spot-mcq-24",
+        "spot-mcq-12"
       ],
       "explanation": "本句的「spot」指「某個明確而具體的位置」。",
       "sentenceIndex": 6,
@@ -829,12 +803,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-03": "本句指「某個明確而具體的位置」。",
-        "spot-mcq-02": "「某個具體、通常範圍較小的位置或地方」是「spot — place」的用法，與本句語境不同。",
-        "spot-mcq-04": "「課程、團隊、活動等留給某人的名額／位置」是「spot — available place」的用法，與本句語境不同。",
-        "spot-mcq-01": "「對某人／某物有特別的喜愛、疼惜或偏愛」是「a soft spot for」的用法，與本句語境不同。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。"
+        "spot-mcq-03": "本句的「spot」指「某個明確而具體的位置」。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-03"
     },
@@ -846,11 +818,9 @@ export default {
       "masked": "There is one ____ left in the class.",
       "options": [
         "spot-mcq-04",
-        "spot-mcq-03",
-        "spot-mcq-05",
-        "spot-mcq-02",
-        "spot-mcq-06",
-        "spot-mcq-01"
+        "spot-mcq-16",
+        "spot-mcq-11",
+        "spot-mcq-21"
       ],
       "explanation": "本句的「spot」指「課程、團隊、活動等留給某人的名額／位置」。",
       "sentenceIndex": 7,
@@ -859,12 +829,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-04": "本句指「課程、團隊、活動等留給某人的名額／位置」。",
-        "spot-mcq-03": "「某個明確而具體的位置」是「spot — exact position」的用法，與本句語境不同。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。",
-        "spot-mcq-02": "「某個具體、通常範圍較小的位置或地方」是「spot — place」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。",
-        "spot-mcq-01": "「對某人／某物有特別的喜愛、疼惜或偏愛」是「a soft spot for」的用法，與本句語境不同。"
+        "spot-mcq-04": "本句的「spot」指「課程、團隊、活動等留給某人的名額／位置」。",
+        "spot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-04"
     },
@@ -876,11 +844,9 @@ export default {
       "masked": "She earned a ____ on the team.",
       "options": [
         "spot-mcq-04",
-        "spot-mcq-03",
-        "spot-mcq-05",
-        "spot-mcq-02",
-        "spot-mcq-06",
-        "spot-mcq-01"
+        "spot-mcq-19",
+        "spot-mcq-11",
+        "spot-mcq-07"
       ],
       "explanation": "本句的「spot」指「課程、團隊、活動等留給某人的名額／位置」。",
       "sentenceIndex": 8,
@@ -889,12 +855,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-04": "本句指「課程、團隊、活動等留給某人的名額／位置」。",
-        "spot-mcq-03": "「某個明確而具體的位置」是「spot — exact position」的用法，與本句語境不同。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。",
-        "spot-mcq-02": "「某個具體、通常範圍較小的位置或地方」是「spot — place」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。",
-        "spot-mcq-01": "「對某人／某物有特別的喜愛、疼惜或偏愛」是「a soft spot for」的用法，與本句語境不同。"
+        "spot-mcq-04": "本句的「spot」指「課程、團隊、活動等留給某人的名額／位置」。",
+        "spot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-04"
     },
@@ -906,11 +870,9 @@ export default {
       "masked": "The song reached the top ____.",
       "options": [
         "spot-mcq-05",
-        "spot-mcq-04",
-        "spot-mcq-06",
-        "spot-mcq-03",
-        "spot-mcq-07",
-        "spot-mcq-02"
+        "spot-mcq-24",
+        "spot-mcq-26",
+        "spot-mcq-10"
       ],
       "explanation": "本句的「spot」指「排名、名單或次序中的某個位置」。",
       "sentenceIndex": 9,
@@ -919,12 +881,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-05": "本句指「排名、名單或次序中的某個位置」。",
-        "spot-mcq-04": "「課程、團隊、活動等留給某人的名額／位置」是「spot — available place」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。",
-        "spot-mcq-03": "「某個明確而具體的位置」是「spot — exact position」的用法，與本句語境不同。",
-        "spot-mcq-07": "「表面上的小污漬或髒痕」是「spot — stain」的用法，與本句語境不同。",
-        "spot-mcq-02": "「某個具體、通常範圍較小的位置或地方」是「spot — place」的用法，與本句語境不同。"
+        "spot-mcq-05": "本句的「spot」指「排名、名單或次序中的某個位置」。",
+        "spot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-05"
     },
@@ -936,11 +896,9 @@ export default {
       "masked": "The team moved into second ____.",
       "options": [
         "spot-mcq-05",
-        "spot-mcq-04",
-        "spot-mcq-06",
-        "spot-mcq-03",
-        "spot-mcq-07",
-        "spot-mcq-02"
+        "spot-mcq-25",
+        "spot-mcq-20",
+        "spot-mcq-18"
       ],
       "explanation": "本句的「spot」指「排名、名單或次序中的某個位置」。",
       "sentenceIndex": 10,
@@ -949,12 +907,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-05": "本句指「排名、名單或次序中的某個位置」。",
-        "spot-mcq-04": "「課程、團隊、活動等留給某人的名額／位置」是「spot — available place」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。",
-        "spot-mcq-03": "「某個明確而具體的位置」是「spot — exact position」的用法，與本句語境不同。",
-        "spot-mcq-07": "「表面上的小污漬或髒痕」是「spot — stain」的用法，與本句語境不同。",
-        "spot-mcq-02": "「某個具體、通常範圍較小的位置或地方」是「spot — place」的用法，與本句語境不同。"
+        "spot-mcq-05": "本句的「spot」指「排名、名單或次序中的某個位置」。",
+        "spot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-05"
     },
@@ -966,11 +922,9 @@ export default {
       "masked": "The dog has black ____ on its back.",
       "options": [
         "spot-mcq-06",
-        "spot-mcq-05",
-        "spot-mcq-07",
-        "spot-mcq-04",
-        "spot-mcq-08",
-        "spot-mcq-03"
+        "spot-mcq-01",
+        "spot-mcq-03",
+        "spot-mcq-25"
       ],
       "explanation": "本句的「spots」指「表面上一小塊與周圍顏色／外觀不同的斑點」。",
       "sentenceIndex": 11,
@@ -979,12 +933,10 @@ export default {
         "spots"
       ],
       "optionReasons": {
-        "spot-mcq-06": "本句指「表面上一小塊與周圍顏色／外觀不同的斑點」。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。",
-        "spot-mcq-07": "「表面上的小污漬或髒痕」是「spot — stain」的用法，與本句語境不同。",
-        "spot-mcq-04": "「課程、團隊、活動等留給某人的名額／位置」是「spot — available place」的用法，與本句語境不同。",
-        "spot-mcq-08": "「皮膚上的暗瘡、小紅點或瑕疵」是「spot — skin」的用法，與本句語境不同。",
-        "spot-mcq-03": "「某個明確而具體的位置」是「spot — exact position」的用法，與本句語境不同。"
+        "spot-mcq-06": "本句的「spots」指「表面上一小塊與周圍顏色／外觀不同的斑點」。",
+        "spot-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-06"
     },
@@ -996,11 +948,9 @@ export default {
       "masked": "There was a red ____ on the wall.",
       "options": [
         "spot-mcq-06",
-        "spot-mcq-05",
-        "spot-mcq-07",
-        "spot-mcq-04",
-        "spot-mcq-08",
-        "spot-mcq-03"
+        "spot-mcq-16",
+        "spot-mcq-14",
+        "spot-mcq-01"
       ],
       "explanation": "本句的「spot」指「表面上一小塊與周圍顏色／外觀不同的斑點」。",
       "sentenceIndex": 12,
@@ -1009,12 +959,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-06": "本句指「表面上一小塊與周圍顏色／外觀不同的斑點」。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。",
-        "spot-mcq-07": "「表面上的小污漬或髒痕」是「spot — stain」的用法，與本句語境不同。",
-        "spot-mcq-04": "「課程、團隊、活動等留給某人的名額／位置」是「spot — available place」的用法，與本句語境不同。",
-        "spot-mcq-08": "「皮膚上的暗瘡、小紅點或瑕疵」是「spot — skin」的用法，與本句語境不同。",
-        "spot-mcq-03": "「某個明確而具體的位置」是「spot — exact position」的用法，與本句語境不同。"
+        "spot-mcq-06": "本句的「spot」指「表面上一小塊與周圍顏色／外觀不同的斑點」。",
+        "spot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-06"
     },
@@ -1026,11 +974,9 @@ export default {
       "masked": "There is a ____ of coffee on your shirt.",
       "options": [
         "spot-mcq-07",
-        "spot-mcq-06",
-        "spot-mcq-08",
-        "spot-mcq-05",
         "spot-mcq-09",
-        "spot-mcq-04"
+        "spot-mcq-12",
+        "spot-mcq-20"
       ],
       "explanation": "本句的「spot」指「表面上的小污漬或髒痕」。",
       "sentenceIndex": 13,
@@ -1039,12 +985,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-07": "本句指「表面上的小污漬或髒痕」。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。",
-        "spot-mcq-08": "「皮膚上的暗瘡、小紅點或瑕疵」是「spot — skin」的用法，與本句語境不同。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。",
-        "spot-mcq-09": "「少量的某物；一點」是「a spot of something」的用法，與本句語境不同。",
-        "spot-mcq-04": "「課程、團隊、活動等留給某人的名額／位置」是「spot — available place」的用法，與本句語境不同。"
+        "spot-mcq-07": "本句的「spot」指「表面上的小污漬或髒痕」。",
+        "spot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-07"
     },
@@ -1056,11 +1000,9 @@ export default {
       "masked": "She tried to remove the ____ from the carpet.",
       "options": [
         "spot-mcq-07",
-        "spot-mcq-06",
-        "spot-mcq-08",
-        "spot-mcq-05",
-        "spot-mcq-09",
-        "spot-mcq-04"
+        "spot-mcq-12",
+        "spot-mcq-24",
+        "spot-mcq-10"
       ],
       "explanation": "本句的「spot」指「表面上的小污漬或髒痕」。",
       "sentenceIndex": 14,
@@ -1069,12 +1011,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-07": "本句指「表面上的小污漬或髒痕」。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。",
-        "spot-mcq-08": "「皮膚上的暗瘡、小紅點或瑕疵」是「spot — skin」的用法，與本句語境不同。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。",
-        "spot-mcq-09": "「少量的某物；一點」是「a spot of something」的用法，與本句語境不同。",
-        "spot-mcq-04": "「課程、團隊、活動等留給某人的名額／位置」是「spot — available place」的用法，與本句語境不同。"
+        "spot-mcq-07": "本句的「spot」指「表面上的小污漬或髒痕」。",
+        "spot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-07"
     },
@@ -1086,11 +1026,9 @@ export default {
       "masked": "He has a ____ on his forehead.",
       "options": [
         "spot-mcq-08",
-        "spot-mcq-07",
-        "spot-mcq-09",
-        "spot-mcq-06",
         "spot-mcq-10",
-        "spot-mcq-05"
+        "spot-mcq-25",
+        "spot-mcq-03"
       ],
       "explanation": "本句的「spot」指「皮膚上的暗瘡、小紅點或瑕疵」。",
       "sentenceIndex": 15,
@@ -1099,12 +1037,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-08": "本句指「皮膚上的暗瘡、小紅點或瑕疵」。",
-        "spot-mcq-07": "「表面上的小污漬或髒痕」是「spot — stain」的用法，與本句語境不同。",
-        "spot-mcq-09": "「少量的某物；一點」是「a spot of something」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。",
-        "spot-mcq-10": "「某人所處的特定情況，尤其指困難處境」是「spot — situation」的用法，與本句語境不同。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。"
+        "spot-mcq-08": "本句的「spot」指「皮膚上的暗瘡、小紅點或瑕疵」。",
+        "spot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-08"
     },
@@ -1116,11 +1052,9 @@ export default {
       "masked": "Teenagers often worry about ____.",
       "options": [
         "spot-mcq-08",
-        "spot-mcq-07",
-        "spot-mcq-09",
-        "spot-mcq-06",
-        "spot-mcq-10",
-        "spot-mcq-05"
+        "spot-mcq-01",
+        "spot-mcq-05",
+        "spot-mcq-11"
       ],
       "explanation": "本句的「spots」指「皮膚上的暗瘡、小紅點或瑕疵」。",
       "sentenceIndex": 16,
@@ -1129,12 +1063,10 @@ export default {
         "spots"
       ],
       "optionReasons": {
-        "spot-mcq-08": "本句指「皮膚上的暗瘡、小紅點或瑕疵」。",
-        "spot-mcq-07": "「表面上的小污漬或髒痕」是「spot — stain」的用法，與本句語境不同。",
-        "spot-mcq-09": "「少量的某物；一點」是「a spot of something」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。",
-        "spot-mcq-10": "「某人所處的特定情況，尤其指困難處境」是「spot — situation」的用法，與本句語境不同。",
-        "spot-mcq-05": "「排名、名單或次序中的某個位置」是「spot — ranking」的用法，與本句語境不同。"
+        "spot-mcq-08": "本句的「spots」指「皮膚上的暗瘡、小紅點或瑕疵」。",
+        "spot-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-08"
     },
@@ -1146,11 +1078,9 @@ export default {
       "masked": "Would you like a ____ of tea?",
       "options": [
         "spot-mcq-09",
-        "spot-mcq-08",
-        "spot-mcq-10",
-        "spot-mcq-07",
-        "spot-mcq-11",
-        "spot-mcq-06"
+        "spot-mcq-27",
+        "spot-mcq-13",
+        "spot-mcq-05"
       ],
       "explanation": "本句的「spot」指「少量的某物；一點」。",
       "sentenceIndex": 17,
@@ -1159,12 +1089,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-09": "本句指「少量的某物；一點」。",
-        "spot-mcq-08": "「皮膚上的暗瘡、小紅點或瑕疵」是「spot — skin」的用法，與本句語境不同。",
-        "spot-mcq-10": "「某人所處的特定情況，尤其指困難處境」是「spot — situation」的用法，與本句語境不同。",
-        "spot-mcq-07": "「表面上的小污漬或髒痕」是「spot — stain」的用法，與本句語境不同。",
-        "spot-mcq-11": "「在事情發生的確切現場」是「on the spot — location」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。"
+        "spot-mcq-09": "本句的「spot」指「少量的某物；一點」。",
+        "spot-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-09"
     },
@@ -1176,11 +1104,9 @@ export default {
       "masked": "We had a ____ of rain in the afternoon.",
       "options": [
         "spot-mcq-09",
-        "spot-mcq-08",
-        "spot-mcq-10",
-        "spot-mcq-07",
-        "spot-mcq-11",
-        "spot-mcq-06"
+        "spot-pdf-001",
+        "spot-mcq-02",
+        "spot-mcq-20"
       ],
       "explanation": "本句的「spot」指「少量的某物；一點」。",
       "sentenceIndex": 18,
@@ -1189,12 +1115,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-09": "本句指「少量的某物；一點」。",
-        "spot-mcq-08": "「皮膚上的暗瘡、小紅點或瑕疵」是「spot — skin」的用法，與本句語境不同。",
-        "spot-mcq-10": "「某人所處的特定情況，尤其指困難處境」是「spot — situation」的用法，與本句語境不同。",
-        "spot-mcq-07": "「表面上的小污漬或髒痕」是「spot — stain」的用法，與本句語境不同。",
-        "spot-mcq-11": "「在事情發生的確切現場」是「on the spot — location」的用法，與本句語境不同。",
-        "spot-mcq-06": "「表面上一小塊與周圍顏色／外觀不同的斑點」是「spot — mark」的用法，與本句語境不同。"
+        "spot-mcq-09": "本句的「spot」指「少量的某物；一點」。",
+        "spot-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-09"
     },
@@ -1206,11 +1130,9 @@ export default {
       "masked": "He found himself in a difficult ____.",
       "options": [
         "spot-mcq-10",
-        "spot-mcq-09",
-        "spot-mcq-11",
-        "spot-mcq-08",
-        "spot-mcq-12",
-        "spot-mcq-07"
+        "spot-mcq-19",
+        "spot-mcq-05",
+        "spot-mcq-12"
       ],
       "explanation": "本句的「spot」指「某人所處的特定情況，尤其指困難處境」。",
       "sentenceIndex": 19,
@@ -1219,12 +1141,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-10": "本句指「某人所處的特定情況，尤其指困難處境」。",
-        "spot-mcq-09": "「少量的某物；一點」是「a spot of something」的用法，與本句語境不同。",
-        "spot-mcq-11": "「在事情發生的確切現場」是「on the spot — location」的用法，與本句語境不同。",
-        "spot-mcq-08": "「皮膚上的暗瘡、小紅點或瑕疵」是「spot — skin」的用法，與本句語境不同。",
-        "spot-mcq-12": "「當場立即做某事」是「on the spot — immediately」的用法，與本句語境不同。",
-        "spot-mcq-07": "「表面上的小污漬或髒痕」是「spot — stain」的用法，與本句語境不同。"
+        "spot-mcq-10": "本句的「spot」指「某人所處的特定情況，尤其指困難處境」。",
+        "spot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-10"
     },
@@ -1236,11 +1156,9 @@ export default {
       "masked": "Can you help me out of this tight ____?",
       "options": [
         "spot-mcq-10",
-        "spot-mcq-09",
-        "spot-mcq-11",
-        "spot-mcq-08",
-        "spot-mcq-12",
-        "spot-mcq-07"
+        "spot-mcq-17",
+        "spot-mcq-25",
+        "spot-mcq-22"
       ],
       "explanation": "本句的「spot」指「某人所處的特定情況，尤其指困難處境」。",
       "sentenceIndex": 20,
@@ -1249,12 +1167,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-10": "本句指「某人所處的特定情況，尤其指困難處境」。",
-        "spot-mcq-09": "「少量的某物；一點」是「a spot of something」的用法，與本句語境不同。",
-        "spot-mcq-11": "「在事情發生的確切現場」是「on the spot — location」的用法，與本句語境不同。",
-        "spot-mcq-08": "「皮膚上的暗瘡、小紅點或瑕疵」是「spot — skin」的用法，與本句語境不同。",
-        "spot-mcq-12": "「當場立即做某事」是「on the spot — immediately」的用法，與本句語境不同。",
-        "spot-mcq-07": "「表面上的小污漬或髒痕」是「spot — stain」的用法，與本句語境不同。"
+        "spot-mcq-10": "本句的「spot」指「某人所處的特定情況，尤其指困難處境」。",
+        "spot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-10"
     },
@@ -1266,11 +1182,9 @@ export default {
       "masked": "She accepted the offer ____.",
       "options": [
         "spot-mcq-12",
-        "spot-mcq-11",
-        "spot-mcq-13",
-        "spot-mcq-10",
-        "spot-mcq-14",
-        "spot-mcq-09"
+        "spot-mcq-25",
+        "spot-mcq-07",
+        "spot-mcq-27"
       ],
       "explanation": "本句的「on the spot」指「當場立即做某事」。",
       "sentenceIndex": 21,
@@ -1279,12 +1193,10 @@ export default {
         "on the spot"
       ],
       "optionReasons": {
-        "spot-mcq-12": "本句指「當場立即做某事」。",
-        "spot-mcq-11": "「在事情發生的確切現場」是「on the spot — location」的用法，與本句語境不同。",
-        "spot-mcq-13": "「迫使某人即時回答／決定而令其感到為難」是「put someone on the spot」的用法，與本句語境不同。",
-        "spot-mcq-10": "「某人所處的特定情況，尤其指困難處境」是「spot — situation」的用法，與本句語境不同。",
-        "spot-mcq-14": "「正好滿足當下需要、慾望或感受」是「hit the spot」的用法，與本句語境不同。",
-        "spot-mcq-09": "「少量的某物；一點」是「a spot of something」的用法，與本句語境不同。"
+        "spot-mcq-12": "本句的「on the spot」指「當場立即做某事」。",
+        "spot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-12"
     },
@@ -1296,11 +1208,9 @@ export default {
       "masked": "He was hired ____.",
       "options": [
         "spot-mcq-12",
-        "spot-mcq-11",
-        "spot-mcq-13",
-        "spot-mcq-10",
-        "spot-mcq-14",
-        "spot-mcq-09"
+        "spot-mcq-06",
+        "spot-mcq-08",
+        "spot-mcq-03"
       ],
       "explanation": "本句的「on the spot」指「當場立即做某事」。",
       "sentenceIndex": 22,
@@ -1309,12 +1219,10 @@ export default {
         "on the spot"
       ],
       "optionReasons": {
-        "spot-mcq-12": "本句指「當場立即做某事」。",
-        "spot-mcq-11": "「在事情發生的確切現場」是「on the spot — location」的用法，與本句語境不同。",
-        "spot-mcq-13": "「迫使某人即時回答／決定而令其感到為難」是「put someone on the spot」的用法，與本句語境不同。",
-        "spot-mcq-10": "「某人所處的特定情況，尤其指困難處境」是「spot — situation」的用法，與本句語境不同。",
-        "spot-mcq-14": "「正好滿足當下需要、慾望或感受」是「hit the spot」的用法，與本句語境不同。",
-        "spot-mcq-09": "「少量的某物；一點」是「a spot of something」的用法，與本句語境不同。"
+        "spot-mcq-12": "本句的「on the spot」指「當場立即做某事」。",
+        "spot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-12"
     },
@@ -1326,11 +1234,9 @@ export default {
       "masked": "A reporter was ____ within minutes.",
       "options": [
         "spot-mcq-11",
-        "spot-mcq-10",
-        "spot-mcq-12",
-        "spot-mcq-09",
-        "spot-mcq-13",
-        "spot-mcq-08"
+        "spot-mcq-18",
+        "spot-mcq-02",
+        "spot-mcq-25"
       ],
       "explanation": "本句的「on the spot」指「在事情發生的確切現場」。",
       "sentenceIndex": 23,
@@ -1339,12 +1245,10 @@ export default {
         "on the spot"
       ],
       "optionReasons": {
-        "spot-mcq-11": "本句指「在事情發生的確切現場」。",
-        "spot-mcq-10": "「某人所處的特定情況，尤其指困難處境」是「spot — situation」的用法，與本句語境不同。",
-        "spot-mcq-12": "「當場立即做某事」是「on the spot — immediately」的用法，與本句語境不同。",
-        "spot-mcq-09": "「少量的某物；一點」是「a spot of something」的用法，與本句語境不同。",
-        "spot-mcq-13": "「迫使某人即時回答／決定而令其感到為難」是「put someone on the spot」的用法，與本句語境不同。",
-        "spot-mcq-08": "「皮膚上的暗瘡、小紅點或瑕疵」是「spot — skin」的用法，與本句語境不同。"
+        "spot-mcq-11": "本句的「on the spot」指「在事情發生的確切現場」。",
+        "spot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-11"
     },
@@ -1356,11 +1260,9 @@ export default {
       "masked": "Doctors treated him ____.",
       "options": [
         "spot-mcq-11",
-        "spot-mcq-10",
-        "spot-mcq-12",
-        "spot-mcq-09",
-        "spot-mcq-13",
-        "spot-mcq-08"
+        "spot-mcq-02",
+        "spot-mcq-25",
+        "spot-mcq-01"
       ],
       "explanation": "本句的「on the spot」指「在事情發生的確切現場」。",
       "sentenceIndex": 24,
@@ -1369,12 +1271,10 @@ export default {
         "on the spot"
       ],
       "optionReasons": {
-        "spot-mcq-11": "本句指「在事情發生的確切現場」。",
-        "spot-mcq-10": "「某人所處的特定情況，尤其指困難處境」是「spot — situation」的用法，與本句語境不同。",
-        "spot-mcq-12": "「當場立即做某事」是「on the spot — immediately」的用法，與本句語境不同。",
-        "spot-mcq-09": "「少量的某物；一點」是「a spot of something」的用法，與本句語境不同。",
-        "spot-mcq-13": "「迫使某人即時回答／決定而令其感到為難」是「put someone on the spot」的用法，與本句語境不同。",
-        "spot-mcq-08": "「皮膚上的暗瘡、小紅點或瑕疵」是「spot — skin」的用法，與本句語境不同。"
+        "spot-mcq-11": "本句的「on the spot」指「在事情發生的確切現場」。",
+        "spot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-11"
     },
@@ -1386,11 +1286,9 @@ export default {
       "masked": "That question really ____.",
       "options": [
         "spot-mcq-13",
-        "spot-mcq-12",
-        "spot-mcq-14",
-        "spot-mcq-11",
-        "spot-mcq-15",
-        "spot-mcq-10"
+        "spot-mcq-07",
+        "spot-mcq-24",
+        "spot-mcq-05"
       ],
       "explanation": "本句的「put me on the spot」指「迫使某人即時回答／決定而令其感到為難」。",
       "sentenceIndex": 25,
@@ -1399,12 +1297,10 @@ export default {
         "put me on the spot"
       ],
       "optionReasons": {
-        "spot-mcq-13": "本句指「迫使某人即時回答／決定而令其感到為難」。",
-        "spot-mcq-12": "「當場立即做某事」是「on the spot — immediately」的用法，與本句語境不同。",
-        "spot-mcq-14": "「正好滿足當下需要、慾望或感受」是「hit the spot」的用法，與本句語境不同。",
-        "spot-mcq-11": "「在事情發生的確切現場」是「on the spot — location」的用法，與本句語境不同。",
-        "spot-mcq-15": "「在不容易察覺的情況下看見、發現或認出」是「spot — notice」的用法，與本句語境不同。",
-        "spot-mcq-10": "「某人所處的特定情況，尤其指困難處境」是「spot — situation」的用法，與本句語境不同。"
+        "spot-mcq-13": "本句的「put me on the spot」指「迫使某人即時回答／決定而令其感到為難」。",
+        "spot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-13"
     },
@@ -1416,11 +1312,9 @@ export default {
       "masked": "Don’t ____ in front of everyone.",
       "options": [
         "spot-mcq-13",
-        "spot-mcq-12",
-        "spot-mcq-14",
-        "spot-mcq-11",
-        "spot-mcq-15",
-        "spot-mcq-10"
+        "spot-mcq-02",
+        "spot-mcq-18",
+        "spot-mcq-24"
       ],
       "explanation": "本句的「put her on the spot」指「迫使某人即時回答／決定而令其感到為難」。",
       "sentenceIndex": 26,
@@ -1429,12 +1323,10 @@ export default {
         "put her on the spot"
       ],
       "optionReasons": {
-        "spot-mcq-13": "本句指「迫使某人即時回答／決定而令其感到為難」。",
-        "spot-mcq-12": "「當場立即做某事」是「on the spot — immediately」的用法，與本句語境不同。",
-        "spot-mcq-14": "「正好滿足當下需要、慾望或感受」是「hit the spot」的用法，與本句語境不同。",
-        "spot-mcq-11": "「在事情發生的確切現場」是「on the spot — location」的用法，與本句語境不同。",
-        "spot-mcq-15": "「在不容易察覺的情況下看見、發現或認出」是「spot — notice」的用法，與本句語境不同。",
-        "spot-mcq-10": "「某人所處的特定情況，尤其指困難處境」是「spot — situation」的用法，與本句語境不同。"
+        "spot-mcq-13": "本句的「put her on the spot」指「迫使某人即時回答／決定而令其感到為難」。",
+        "spot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-13"
     },
@@ -1446,10 +1338,8 @@ export default {
       "masked": "That hot soup really ____.",
       "options": [
         "spot-mcq-14",
-        "spot-mcq-13",
-        "spot-mcq-15",
-        "spot-mcq-12",
-        "spot-mcq-16",
+        "spot-mcq-10",
+        "spot-mcq-20",
         "spot-mcq-11"
       ],
       "explanation": "本句的「hit the spot」指「正好滿足當下需要、慾望或感受」。",
@@ -1459,12 +1349,10 @@ export default {
         "hit the spot"
       ],
       "optionReasons": {
-        "spot-mcq-14": "本句指「正好滿足當下需要、慾望或感受」。",
-        "spot-mcq-13": "「迫使某人即時回答／決定而令其感到為難」是「put someone on the spot」的用法，與本句語境不同。",
-        "spot-mcq-15": "「在不容易察覺的情況下看見、發現或認出」是「spot — notice」的用法，與本句語境不同。",
-        "spot-mcq-12": "「當場立即做某事」是「on the spot — immediately」的用法，與本句語境不同。",
-        "spot-mcq-16": "「從跡象、模式或資訊中辨認出目標／問題」是「spot — detect」的用法，與本句語境不同。",
-        "spot-mcq-11": "「在事情發生的確切現場」是「on the spot — location」的用法，與本句語境不同。"
+        "spot-mcq-14": "本句的「hit the spot」指「正好滿足當下需要、慾望或感受」。",
+        "spot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-14"
     },
@@ -1476,11 +1364,9 @@ export default {
       "masked": "A short walk was just what I needed—it ____.",
       "options": [
         "spot-mcq-14",
-        "spot-mcq-13",
-        "spot-mcq-15",
-        "spot-mcq-12",
-        "spot-mcq-16",
-        "spot-mcq-11"
+        "spot-mcq-23",
+        "spot-mcq-25",
+        "spot-mcq-10"
       ],
       "explanation": "本句的「hit the spot」指「正好滿足當下需要、慾望或感受」。",
       "sentenceIndex": 28,
@@ -1489,12 +1375,10 @@ export default {
         "hit the spot"
       ],
       "optionReasons": {
-        "spot-mcq-14": "本句指「正好滿足當下需要、慾望或感受」。",
-        "spot-mcq-13": "「迫使某人即時回答／決定而令其感到為難」是「put someone on the spot」的用法，與本句語境不同。",
-        "spot-mcq-15": "「在不容易察覺的情況下看見、發現或認出」是「spot — notice」的用法，與本句語境不同。",
-        "spot-mcq-12": "「當場立即做某事」是「on the spot — immediately」的用法，與本句語境不同。",
-        "spot-mcq-16": "「從跡象、模式或資訊中辨認出目標／問題」是「spot — detect」的用法，與本句語境不同。",
-        "spot-mcq-11": "「在事情發生的確切現場」是「on the spot — location」的用法，與本句語境不同。"
+        "spot-mcq-14": "本句的「hit the spot」指「正好滿足當下需要、慾望或感受」。",
+        "spot-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-14"
     },
@@ -1506,11 +1390,9 @@ export default {
       "masked": "I ____ Leo across the room.",
       "options": [
         "spot-mcq-15",
-        "spot-mcq-14",
-        "spot-mcq-16",
-        "spot-mcq-13",
-        "spot-mcq-17",
-        "spot-mcq-12"
+        "spot-mcq-04",
+        "spot-mcq-19",
+        "spot-mcq-26"
       ],
       "explanation": "本句的「spotted」指「在不容易察覺的情況下看見、發現或認出」。",
       "sentenceIndex": 29,
@@ -1519,12 +1401,10 @@ export default {
         "spotted"
       ],
       "optionReasons": {
-        "spot-mcq-15": "本句指「在不容易察覺的情況下看見、發現或認出」。",
-        "spot-mcq-14": "「正好滿足當下需要、慾望或感受」是「hit the spot」的用法，與本句語境不同。",
-        "spot-mcq-16": "「從跡象、模式或資訊中辨認出目標／問題」是「spot — detect」的用法，與本句語境不同。",
-        "spot-mcq-13": "「迫使某人即時回答／決定而令其感到為難」是「put someone on the spot」的用法，與本句語境不同。",
-        "spot-mcq-17": "「在某物表面留下斑點或污漬」是「spot — mark/stain verb」的用法，與本句語境不同。",
-        "spot-mcq-12": "「當場立即做某事」是「on the spot — immediately」的用法，與本句語境不同。"
+        "spot-mcq-15": "本句的「spotted」指「在不容易察覺的情況下看見、發現或認出」。",
+        "spot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-15"
     },
@@ -1536,11 +1416,9 @@ export default {
       "masked": "Can you ____ the mistake?",
       "options": [
         "spot-mcq-15",
-        "spot-mcq-14",
-        "spot-mcq-16",
         "spot-mcq-13",
-        "spot-mcq-17",
-        "spot-mcq-12"
+        "spot-mcq-21",
+        "spot-mcq-24"
       ],
       "explanation": "本句的「spot」指「在不容易察覺的情況下看見、發現或認出」。",
       "sentenceIndex": 30,
@@ -1549,12 +1427,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-15": "本句指「在不容易察覺的情況下看見、發現或認出」。",
-        "spot-mcq-14": "「正好滿足當下需要、慾望或感受」是「hit the spot」的用法，與本句語境不同。",
-        "spot-mcq-16": "「從跡象、模式或資訊中辨認出目標／問題」是「spot — detect」的用法，與本句語境不同。",
-        "spot-mcq-13": "「迫使某人即時回答／決定而令其感到為難」是「put someone on the spot」的用法，與本句語境不同。",
-        "spot-mcq-17": "「在某物表面留下斑點或污漬」是「spot — mark/stain verb」的用法，與本句語境不同。",
-        "spot-mcq-12": "「當場立即做某事」是「on the spot — immediately」的用法，與本句語境不同。"
+        "spot-mcq-15": "本句的「spot」指「在不容易察覺的情況下看見、發現或認出」。",
+        "spot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-15"
     },
@@ -1566,11 +1442,9 @@ export default {
       "masked": "Can you ____ between the two pictures?",
       "options": [
         "spot-mcq-27",
-        "spot-mcq-26",
-        "spot-mcq-25",
+        "spot-mcq-12",
         "spot-mcq-24",
-        "spot-mcq-23",
-        "spot-mcq-22"
+        "spot-mcq-05"
       ],
       "explanation": "本句的「spot the difference」指「察覺兩個相似事物之間的不同之處」。",
       "sentenceIndex": 31,
@@ -1579,12 +1453,10 @@ export default {
         "spot the difference"
       ],
       "optionReasons": {
-        "spot-mcq-27": "本句指「察覺兩個相似事物之間的不同之處」。",
-        "spot-mcq-26": "「非常準確、恰到好處或完全正確」是「spot-on」的用法，與本句語境不同。",
-        "spot-mcq-25": "「臨時／隨機抽取部分項目進行檢查」是「spot check」的用法，與本句語境不同。",
-        "spot-mcq-24": "「美麗景點；亦可指面部美人痣」是「beauty spot」的用法，與本句語境不同。",
-        "spot-mcq-23": "「無法看見的區域；亦指自己未察覺的弱點／問題」是「blind spot」的用法，與本句語境不同。",
-        "spot-mcq-22": "「沒有錯誤、不當行為或負面紀錄的」是「spotless — figurative」的用法，與本句語境不同。"
+        "spot-mcq-27": "本句的「spot the difference」指「察覺兩個相似事物之間的不同之處」。",
+        "spot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-27"
     },
@@ -1596,11 +1468,9 @@ export default {
       "masked": "It took me a while to ____.",
       "options": [
         "spot-mcq-27",
-        "spot-mcq-26",
-        "spot-mcq-25",
-        "spot-mcq-24",
-        "spot-mcq-23",
-        "spot-mcq-22"
+        "spot-mcq-21",
+        "spot-mcq-12",
+        "spot-mcq-24"
       ],
       "explanation": "本句的「spot the difference」指「察覺兩個相似事物之間的不同之處」。",
       "sentenceIndex": 32,
@@ -1609,12 +1479,10 @@ export default {
         "spot the difference"
       ],
       "optionReasons": {
-        "spot-mcq-27": "本句指「察覺兩個相似事物之間的不同之處」。",
-        "spot-mcq-26": "「非常準確、恰到好處或完全正確」是「spot-on」的用法，與本句語境不同。",
-        "spot-mcq-25": "「臨時／隨機抽取部分項目進行檢查」是「spot check」的用法，與本句語境不同。",
-        "spot-mcq-24": "「美麗景點；亦可指面部美人痣」是「beauty spot」的用法，與本句語境不同。",
-        "spot-mcq-23": "「無法看見的區域；亦指自己未察覺的弱點／問題」是「blind spot」的用法，與本句語境不同。",
-        "spot-mcq-22": "「沒有錯誤、不當行為或負面紀錄的」是「spotless — figurative」的用法，與本句語境不同。"
+        "spot-mcq-27": "本句的「spot the difference」指「察覺兩個相似事物之間的不同之處」。",
+        "spot-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-27"
     },
@@ -1626,11 +1494,9 @@ export default {
       "masked": "Experienced teachers can often ____ problems early.",
       "options": [
         "spot-mcq-16",
-        "spot-mcq-15",
-        "spot-mcq-17",
-        "spot-mcq-14",
-        "spot-mcq-18",
-        "spot-mcq-13"
+        "spot-mcq-26",
+        "spot-mcq-27",
+        "spot-mcq-11"
       ],
       "explanation": "本句的「spot」指「從跡象、模式或資訊中辨認出目標／問題」。",
       "sentenceIndex": 33,
@@ -1639,12 +1505,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-16": "本句指「從跡象、模式或資訊中辨認出目標／問題」。",
-        "spot-mcq-15": "「在不容易察覺的情況下看見、發現或認出」是「spot — notice」的用法，與本句語境不同。",
-        "spot-mcq-17": "「在某物表面留下斑點或污漬」是「spot — mark/stain verb」的用法，與本句語境不同。",
-        "spot-mcq-14": "「正好滿足當下需要、慾望或感受」是「hit the spot」的用法，與本句語境不同。",
-        "spot-mcq-18": "「表面帶有多個斑點或花紋的」是「spotted」的用法，與本句語境不同。",
-        "spot-mcq-13": "「迫使某人即時回答／決定而令其感到為難」是「put someone on the spot」的用法，與本句語境不同。"
+        "spot-mcq-16": "本句的「spot」指「從跡象、模式或資訊中辨認出目標／問題」。",
+        "spot-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-16"
     },
@@ -1656,11 +1520,9 @@ export default {
       "masked": "The software can ____ unusual patterns.",
       "options": [
         "spot-mcq-16",
-        "spot-mcq-15",
+        "spot-mcq-20",
         "spot-mcq-17",
-        "spot-mcq-14",
-        "spot-mcq-18",
-        "spot-mcq-13"
+        "spot-mcq-01"
       ],
       "explanation": "本句的「spot」指「從跡象、模式或資訊中辨認出目標／問題」。",
       "sentenceIndex": 34,
@@ -1669,12 +1531,10 @@ export default {
         "spot"
       ],
       "optionReasons": {
-        "spot-mcq-16": "本句指「從跡象、模式或資訊中辨認出目標／問題」。",
-        "spot-mcq-15": "「在不容易察覺的情況下看見、發現或認出」是「spot — notice」的用法，與本句語境不同。",
-        "spot-mcq-17": "「在某物表面留下斑點或污漬」是「spot — mark/stain verb」的用法，與本句語境不同。",
-        "spot-mcq-14": "「正好滿足當下需要、慾望或感受」是「hit the spot」的用法，與本句語境不同。",
-        "spot-mcq-18": "「表面帶有多個斑點或花紋的」是「spotted」的用法，與本句語境不同。",
-        "spot-mcq-13": "「迫使某人即時回答／決定而令其感到為難」是「put someone on the spot」的用法，與本句語境不同。"
+        "spot-mcq-16": "本句的「spot」指「從跡象、模式或資訊中辨認出目標／問題」。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-16"
     },
@@ -1686,11 +1546,9 @@ export default {
       "masked": "She ____ an old friend in the crowd.",
       "options": [
         "spot-pdf-001",
-        "spot-mcq-15",
-        "spot-mcq-17",
-        "spot-mcq-14",
-        "spot-mcq-18",
-        "spot-mcq-13"
+        "spot-mcq-05",
+        "spot-mcq-12",
+        "spot-mcq-08"
       ],
       "explanation": "本句的「spotted」指「在人群或一定距離中看見並辨認出某人」。",
       "sentenceIndex": 35,
@@ -1699,12 +1557,10 @@ export default {
         "spotted"
       ],
       "optionReasons": {
-        "spot-pdf-001": "本句指「在人群或一定距離中看見並辨認出某人」。",
-        "spot-mcq-15": "「在不容易察覺的情況下看見、發現或認出」是「spot — notice」的用法，與本句語境不同。",
-        "spot-mcq-17": "「在某物表面留下斑點或污漬」是「spot — mark/stain verb」的用法，與本句語境不同。",
-        "spot-mcq-14": "「正好滿足當下需要、慾望或感受」是「hit the spot」的用法，與本句語境不同。",
-        "spot-mcq-18": "「表面帶有多個斑點或花紋的」是「spotted」的用法，與本句語境不同。",
-        "spot-mcq-13": "「迫使某人即時回答／決定而令其感到為難」是「put someone on the spot」的用法，與本句語境不同。"
+        "spot-pdf-001": "本句的「spotted」指「在人群或一定距離中看見並辨認出某人」。",
+        "spot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-pdf-001"
     },
@@ -1716,11 +1572,9 @@ export default {
       "masked": "I ____ him immediately.",
       "options": [
         "spot-pdf-001",
-        "spot-mcq-15",
-        "spot-mcq-17",
-        "spot-mcq-14",
-        "spot-mcq-18",
-        "spot-mcq-13"
+        "spot-mcq-21",
+        "spot-mcq-12",
+        "spot-mcq-14"
       ],
       "explanation": "本句的「spotted」指「在人群或一定距離中看見並辨認出某人」。",
       "sentenceIndex": 36,
@@ -1729,12 +1583,10 @@ export default {
         "spotted"
       ],
       "optionReasons": {
-        "spot-pdf-001": "本句指「在人群或一定距離中看見並辨認出某人」。",
-        "spot-mcq-15": "「在不容易察覺的情況下看見、發現或認出」是「spot — notice」的用法，與本句語境不同。",
-        "spot-mcq-17": "「在某物表面留下斑點或污漬」是「spot — mark/stain verb」的用法，與本句語境不同。",
-        "spot-mcq-14": "「正好滿足當下需要、慾望或感受」是「hit the spot」的用法，與本句語境不同。",
-        "spot-mcq-18": "「表面帶有多個斑點或花紋的」是「spotted」的用法，與本句語境不同。",
-        "spot-mcq-13": "「迫使某人即時回答／決定而令其感到為難」是「put someone on the spot」的用法，與本句語境不同。"
+        "spot-pdf-001": "本句的「spotted」指「在人群或一定距離中看見並辨認出某人」。",
+        "spot-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-pdf-001"
     },
@@ -1746,11 +1598,9 @@ export default {
       "masked": "Mud ____ his trousers.",
       "options": [
         "spot-mcq-17",
-        "spot-mcq-16",
-        "spot-mcq-18",
-        "spot-mcq-15",
-        "spot-mcq-19",
-        "spot-mcq-14"
+        "spot-mcq-25",
+        "spot-mcq-02",
+        "spot-mcq-11"
       ],
       "explanation": "本句的「spotted」指「在某物表面留下斑點或污漬」。",
       "sentenceIndex": 37,
@@ -1759,12 +1609,10 @@ export default {
         "spotted"
       ],
       "optionReasons": {
-        "spot-mcq-17": "本句指「在某物表面留下斑點或污漬」。",
-        "spot-mcq-16": "「從跡象、模式或資訊中辨認出目標／問題」是「spot — detect」的用法，與本句語境不同。",
-        "spot-mcq-18": "「表面帶有多個斑點或花紋的」是「spotted」的用法，與本句語境不同。",
-        "spot-mcq-15": "「在不容易察覺的情況下看見、發現或認出」是「spot — notice」的用法，與本句語境不同。",
-        "spot-mcq-19": "「布滿斑點或小圓點的」是「spotty — physical」的用法，與本句語境不同。",
-        "spot-mcq-14": "「正好滿足當下需要、慾望或感受」是「hit the spot」的用法，與本句語境不同。"
+        "spot-mcq-17": "本句的「spotted」指「在某物表面留下斑點或污漬」。",
+        "spot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-17"
     },
@@ -1777,10 +1625,8 @@ export default {
       "options": [
         "spot-mcq-17",
         "spot-mcq-16",
-        "spot-mcq-18",
-        "spot-mcq-15",
-        "spot-mcq-19",
-        "spot-mcq-14"
+        "spot-mcq-20",
+        "spot-mcq-11"
       ],
       "explanation": "本句的「spotted」指「在某物表面留下斑點或污漬」。",
       "sentenceIndex": 38,
@@ -1789,12 +1635,10 @@ export default {
         "spotted"
       ],
       "optionReasons": {
-        "spot-mcq-17": "本句指「在某物表面留下斑點或污漬」。",
-        "spot-mcq-16": "「從跡象、模式或資訊中辨認出目標／問題」是「spot — detect」的用法，與本句語境不同。",
-        "spot-mcq-18": "「表面帶有多個斑點或花紋的」是「spotted」的用法，與本句語境不同。",
-        "spot-mcq-15": "「在不容易察覺的情況下看見、發現或認出」是「spot — notice」的用法，與本句語境不同。",
-        "spot-mcq-19": "「布滿斑點或小圓點的」是「spotty — physical」的用法，與本句語境不同。",
-        "spot-mcq-14": "「正好滿足當下需要、慾望或感受」是「hit the spot」的用法，與本句語境不同。"
+        "spot-mcq-17": "本句的「spotted」指「在某物表面留下斑點或污漬」。",
+        "spot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-17"
     },
@@ -1806,11 +1650,9 @@ export default {
       "masked": "We saw a ____ dog.",
       "options": [
         "spot-mcq-18",
-        "spot-mcq-17",
-        "spot-mcq-19",
-        "spot-mcq-16",
-        "spot-mcq-20",
-        "spot-mcq-15"
+        "spot-mcq-11",
+        "spot-mcq-26",
+        "spot-mcq-05"
       ],
       "explanation": "本句的「spotted」指「表面帶有多個斑點或花紋的」。",
       "sentenceIndex": 39,
@@ -1819,12 +1661,10 @@ export default {
         "spotted"
       ],
       "optionReasons": {
-        "spot-mcq-18": "本句指「表面帶有多個斑點或花紋的」。",
-        "spot-mcq-17": "「在某物表面留下斑點或污漬」是「spot — mark/stain verb」的用法，與本句語境不同。",
-        "spot-mcq-19": "「布滿斑點或小圓點的」是「spotty — physical」的用法，與本句語境不同。",
-        "spot-mcq-16": "「從跡象、模式或資訊中辨認出目標／問題」是「spot — detect」的用法，與本句語境不同。",
-        "spot-mcq-20": "「品質、表現或覆蓋不穩定、斷斷續續的」是「spotty — figurative」的用法，與本句語境不同。",
-        "spot-mcq-15": "「在不容易察覺的情況下看見、發現或認出」是「spot — notice」的用法，與本句語境不同。"
+        "spot-mcq-18": "本句的「spotted」指「表面帶有多個斑點或花紋的」。",
+        "spot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-18"
     },
@@ -1836,11 +1676,9 @@ export default {
       "masked": "The bird has a ____ chest.",
       "options": [
         "spot-mcq-18",
-        "spot-mcq-17",
-        "spot-mcq-19",
-        "spot-mcq-16",
         "spot-mcq-20",
-        "spot-mcq-15"
+        "spot-mcq-25",
+        "spot-mcq-14"
       ],
       "explanation": "本句的「spotted」指「表面帶有多個斑點或花紋的」。",
       "sentenceIndex": 40,
@@ -1849,12 +1687,10 @@ export default {
         "spotted"
       ],
       "optionReasons": {
-        "spot-mcq-18": "本句指「表面帶有多個斑點或花紋的」。",
-        "spot-mcq-17": "「在某物表面留下斑點或污漬」是「spot — mark/stain verb」的用法，與本句語境不同。",
-        "spot-mcq-19": "「布滿斑點或小圓點的」是「spotty — physical」的用法，與本句語境不同。",
-        "spot-mcq-16": "「從跡象、模式或資訊中辨認出目標／問題」是「spot — detect」的用法，與本句語境不同。",
-        "spot-mcq-20": "「品質、表現或覆蓋不穩定、斷斷續續的」是「spotty — figurative」的用法，與本句語境不同。",
-        "spot-mcq-15": "「在不容易察覺的情況下看見、發現或認出」是「spot — notice」的用法，與本句語境不同。"
+        "spot-mcq-18": "本句的「spotted」指「表面帶有多個斑點或花紋的」。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-18"
     },
@@ -1866,11 +1702,9 @@ export default {
       "masked": "The horse has a ____ coat.",
       "options": [
         "spot-mcq-19",
-        "spot-mcq-18",
-        "spot-mcq-20",
-        "spot-mcq-17",
-        "spot-mcq-21",
-        "spot-mcq-16"
+        "spot-mcq-26",
+        "spot-pdf-001",
+        "spot-mcq-20"
       ],
       "explanation": "本句的「spotty」指「布滿斑點或小圓點的」。",
       "sentenceIndex": 41,
@@ -1879,12 +1713,10 @@ export default {
         "spotty"
       ],
       "optionReasons": {
-        "spot-mcq-19": "本句指「布滿斑點或小圓點的」。",
-        "spot-mcq-18": "「表面帶有多個斑點或花紋的」是「spotted」的用法，與本句語境不同。",
-        "spot-mcq-20": "「品質、表現或覆蓋不穩定、斷斷續續的」是「spotty — figurative」的用法，與本句語境不同。",
-        "spot-mcq-17": "「在某物表面留下斑點或污漬」是「spot — mark/stain verb」的用法，與本句語境不同。",
-        "spot-mcq-21": "「完全沒有污點或髒污的；一塵不染」是「spotless — physical」的用法，與本句語境不同。",
-        "spot-mcq-16": "「從跡象、模式或資訊中辨認出目標／問題」是「spot — detect」的用法，與本句語境不同。"
+        "spot-mcq-19": "本句的「spotty」指「布滿斑點或小圓點的」。",
+        "spot-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "spot-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-19"
     },
@@ -1896,11 +1728,9 @@ export default {
       "masked": "He wore a ____ shirt.",
       "options": [
         "spot-mcq-19",
-        "spot-mcq-18",
-        "spot-mcq-20",
-        "spot-mcq-17",
-        "spot-mcq-21",
-        "spot-mcq-16"
+        "spot-mcq-26",
+        "spot-mcq-05",
+        "spot-mcq-10"
       ],
       "explanation": "本句的「spotty」指「布滿斑點或小圓點的」。",
       "sentenceIndex": 42,
@@ -1909,12 +1739,10 @@ export default {
         "spotty"
       ],
       "optionReasons": {
-        "spot-mcq-19": "本句指「布滿斑點或小圓點的」。",
-        "spot-mcq-18": "「表面帶有多個斑點或花紋的」是「spotted」的用法，與本句語境不同。",
-        "spot-mcq-20": "「品質、表現或覆蓋不穩定、斷斷續續的」是「spotty — figurative」的用法，與本句語境不同。",
-        "spot-mcq-17": "「在某物表面留下斑點或污漬」是「spot — mark/stain verb」的用法，與本句語境不同。",
-        "spot-mcq-21": "「完全沒有污點或髒污的；一塵不染」是「spotless — physical」的用法，與本句語境不同。",
-        "spot-mcq-16": "「從跡象、模式或資訊中辨認出目標／問題」是「spot — detect」的用法，與本句語境不同。"
+        "spot-mcq-19": "本句的「spotty」指「布滿斑點或小圓點的」。",
+        "spot-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-19"
     },
@@ -1927,10 +1755,8 @@ export default {
       "options": [
         "spot-mcq-20",
         "spot-mcq-19",
-        "spot-mcq-21",
-        "spot-mcq-18",
-        "spot-mcq-22",
-        "spot-mcq-17"
+        "spot-mcq-14",
+        "spot-mcq-26"
       ],
       "explanation": "本句的「spotty」指「品質、表現或覆蓋不穩定、斷斷續續的」。",
       "sentenceIndex": 43,
@@ -1939,12 +1765,10 @@ export default {
         "spotty"
       ],
       "optionReasons": {
-        "spot-mcq-20": "本句指「品質、表現或覆蓋不穩定、斷斷續續的」。",
-        "spot-mcq-19": "「布滿斑點或小圓點的」是「spotty — physical」的用法，與本句語境不同。",
-        "spot-mcq-21": "「完全沒有污點或髒污的；一塵不染」是「spotless — physical」的用法，與本句語境不同。",
-        "spot-mcq-18": "「表面帶有多個斑點或花紋的」是「spotted」的用法，與本句語境不同。",
-        "spot-mcq-22": "「沒有錯誤、不當行為或負面紀錄的」是「spotless — figurative」的用法，與本句語境不同。",
-        "spot-mcq-17": "「在某物表面留下斑點或污漬」是「spot — mark/stain verb」的用法，與本句語境不同。"
+        "spot-mcq-20": "本句的「spotty」指「品質、表現或覆蓋不穩定、斷斷續續的」。",
+        "spot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-20"
     },
@@ -1956,11 +1780,9 @@ export default {
       "masked": "Her attendance has been ____ this term.",
       "options": [
         "spot-mcq-20",
-        "spot-mcq-19",
-        "spot-mcq-21",
-        "spot-mcq-18",
-        "spot-mcq-22",
-        "spot-mcq-17"
+        "spot-mcq-01",
+        "spot-mcq-09",
+        "spot-mcq-03"
       ],
       "explanation": "本句的「spotty」指「品質、表現或覆蓋不穩定、斷斷續續的」。",
       "sentenceIndex": 44,
@@ -1969,12 +1791,10 @@ export default {
         "spotty"
       ],
       "optionReasons": {
-        "spot-mcq-20": "本句指「品質、表現或覆蓋不穩定、斷斷續續的」。",
-        "spot-mcq-19": "「布滿斑點或小圓點的」是「spotty — physical」的用法，與本句語境不同。",
-        "spot-mcq-21": "「完全沒有污點或髒污的；一塵不染」是「spotless — physical」的用法，與本句語境不同。",
-        "spot-mcq-18": "「表面帶有多個斑點或花紋的」是「spotted」的用法，與本句語境不同。",
-        "spot-mcq-22": "「沒有錯誤、不當行為或負面紀錄的」是「spotless — figurative」的用法，與本句語境不同。",
-        "spot-mcq-17": "「在某物表面留下斑點或污漬」是「spot — mark/stain verb」的用法，與本句語境不同。"
+        "spot-mcq-20": "本句的「spotty」指「品質、表現或覆蓋不穩定、斷斷續續的」。",
+        "spot-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-20"
     },
@@ -1986,11 +1806,9 @@ export default {
       "masked": "The kitchen was ____.",
       "options": [
         "spot-mcq-21",
-        "spot-mcq-20",
-        "spot-mcq-22",
-        "spot-mcq-19",
-        "spot-mcq-23",
-        "spot-mcq-18"
+        "spot-mcq-12",
+        "spot-mcq-02",
+        "spot-mcq-01"
       ],
       "explanation": "本句的「spotless」指「完全沒有污點或髒污的；一塵不染」。",
       "sentenceIndex": 45,
@@ -1999,12 +1817,10 @@ export default {
         "spotless"
       ],
       "optionReasons": {
-        "spot-mcq-21": "本句指「完全沒有污點或髒污的；一塵不染」。",
-        "spot-mcq-20": "「品質、表現或覆蓋不穩定、斷斷續續的」是「spotty — figurative」的用法，與本句語境不同。",
-        "spot-mcq-22": "「沒有錯誤、不當行為或負面紀錄的」是「spotless — figurative」的用法，與本句語境不同。",
-        "spot-mcq-19": "「布滿斑點或小圓點的」是「spotty — physical」的用法，與本句語境不同。",
-        "spot-mcq-23": "「無法看見的區域；亦指自己未察覺的弱點／問題」是「blind spot」的用法，與本句語境不同。",
-        "spot-mcq-18": "「表面帶有多個斑點或花紋的」是「spotted」的用法，與本句語境不同。"
+        "spot-mcq-21": "本句的「spotless」指「完全沒有污點或髒污的；一塵不染」。",
+        "spot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-21"
     },
@@ -2017,10 +1833,8 @@ export default {
       "options": [
         "spot-mcq-21",
         "spot-mcq-20",
-        "spot-mcq-22",
-        "spot-mcq-19",
-        "spot-mcq-23",
-        "spot-mcq-18"
+        "spot-mcq-10",
+        "spot-mcq-12"
       ],
       "explanation": "本句的「spotless」指「完全沒有污點或髒污的；一塵不染」。",
       "sentenceIndex": 46,
@@ -2029,12 +1843,10 @@ export default {
         "spotless"
       ],
       "optionReasons": {
-        "spot-mcq-21": "本句指「完全沒有污點或髒污的；一塵不染」。",
-        "spot-mcq-20": "「品質、表現或覆蓋不穩定、斷斷續續的」是「spotty — figurative」的用法，與本句語境不同。",
-        "spot-mcq-22": "「沒有錯誤、不當行為或負面紀錄的」是「spotless — figurative」的用法，與本句語境不同。",
-        "spot-mcq-19": "「布滿斑點或小圓點的」是「spotty — physical」的用法，與本句語境不同。",
-        "spot-mcq-23": "「無法看見的區域；亦指自己未察覺的弱點／問題」是「blind spot」的用法，與本句語境不同。",
-        "spot-mcq-18": "「表面帶有多個斑點或花紋的」是「spotted」的用法，與本句語境不同。"
+        "spot-mcq-21": "本句的「spotless」指「完全沒有污點或髒污的；一塵不染」。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-21"
     },
@@ -2046,11 +1858,9 @@ export default {
       "masked": "He has a ____ record.",
       "options": [
         "spot-mcq-22",
-        "spot-mcq-21",
-        "spot-mcq-23",
+        "spot-mcq-05",
         "spot-mcq-20",
-        "spot-mcq-24",
-        "spot-mcq-19"
+        "spot-mcq-16"
       ],
       "explanation": "本句的「spotless」指「沒有錯誤、不當行為或負面紀錄的」。",
       "sentenceIndex": 47,
@@ -2059,12 +1869,10 @@ export default {
         "spotless"
       ],
       "optionReasons": {
-        "spot-mcq-22": "本句指「沒有錯誤、不當行為或負面紀錄的」。",
-        "spot-mcq-21": "「完全沒有污點或髒污的；一塵不染」是「spotless — physical」的用法，與本句語境不同。",
-        "spot-mcq-23": "「無法看見的區域；亦指自己未察覺的弱點／問題」是「blind spot」的用法，與本句語境不同。",
-        "spot-mcq-20": "「品質、表現或覆蓋不穩定、斷斷續續的」是「spotty — figurative」的用法，與本句語境不同。",
-        "spot-mcq-24": "「美麗景點；亦可指面部美人痣」是「beauty spot」的用法，與本句語境不同。",
-        "spot-mcq-19": "「布滿斑點或小圓點的」是「spotty — physical」的用法，與本句語境不同。"
+        "spot-mcq-22": "本句的「spotless」指「沒有錯誤、不當行為或負面紀錄的」。",
+        "spot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-22"
     },
@@ -2076,11 +1884,9 @@ export default {
       "masked": "The company wants to maintain a ____ reputation.",
       "options": [
         "spot-mcq-22",
-        "spot-mcq-21",
-        "spot-mcq-23",
-        "spot-mcq-20",
-        "spot-mcq-24",
-        "spot-mcq-19"
+        "spot-mcq-15",
+        "spot-mcq-02",
+        "spot-mcq-01"
       ],
       "explanation": "本句的「spotless」指「沒有錯誤、不當行為或負面紀錄的」。",
       "sentenceIndex": 48,
@@ -2089,12 +1895,10 @@ export default {
         "spotless"
       ],
       "optionReasons": {
-        "spot-mcq-22": "本句指「沒有錯誤、不當行為或負面紀錄的」。",
-        "spot-mcq-21": "「完全沒有污點或髒污的；一塵不染」是「spotless — physical」的用法，與本句語境不同。",
-        "spot-mcq-23": "「無法看見的區域；亦指自己未察覺的弱點／問題」是「blind spot」的用法，與本句語境不同。",
-        "spot-mcq-20": "「品質、表現或覆蓋不穩定、斷斷續續的」是「spotty — figurative」的用法，與本句語境不同。",
-        "spot-mcq-24": "「美麗景點；亦可指面部美人痣」是「beauty spot」的用法，與本句語境不同。",
-        "spot-mcq-19": "「布滿斑點或小圓點的」是「spotty — physical」的用法，與本句語境不同。"
+        "spot-mcq-22": "本句的「spotless」指「沒有錯誤、不當行為或負面紀錄的」。",
+        "spot-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-22"
     },
@@ -2106,9 +1910,7 @@ export default {
       "masked": "The cyclist was in the driver’s ____.",
       "options": [
         "spot-mcq-23",
-        "spot-mcq-22",
-        "spot-mcq-24",
-        "spot-mcq-21",
+        "spot-mcq-01",
         "spot-mcq-25",
         "spot-mcq-20"
       ],
@@ -2119,12 +1921,10 @@ export default {
         "blind spot"
       ],
       "optionReasons": {
-        "spot-mcq-23": "本句指「無法看見的區域；亦指自己未察覺的弱點／問題」。",
-        "spot-mcq-22": "「沒有錯誤、不當行為或負面紀錄的」是「spotless — figurative」的用法，與本句語境不同。",
-        "spot-mcq-24": "「美麗景點；亦可指面部美人痣」是「beauty spot」的用法，與本句語境不同。",
-        "spot-mcq-21": "「完全沒有污點或髒污的；一塵不染」是「spotless — physical」的用法，與本句語境不同。",
-        "spot-mcq-25": "「臨時／隨機抽取部分項目進行檢查」是「spot check」的用法，與本句語境不同。",
-        "spot-mcq-20": "「品質、表現或覆蓋不穩定、斷斷續續的」是「spotty — figurative」的用法，與本句語境不同。"
+        "spot-mcq-23": "本句的「blind spot」指「無法看見的區域；亦指自己未察覺的弱點／問題」。",
+        "spot-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-23"
     },
@@ -2136,11 +1936,9 @@ export default {
       "masked": "We all have emotional ____.",
       "options": [
         "spot-mcq-23",
-        "spot-mcq-22",
-        "spot-mcq-24",
-        "spot-mcq-21",
-        "spot-mcq-25",
-        "spot-mcq-20"
+        "spot-mcq-20",
+        "spot-mcq-12",
+        "spot-mcq-01"
       ],
       "explanation": "本句的「blind spots」指「無法看見的區域；亦指自己未察覺的弱點／問題」。",
       "sentenceIndex": 50,
@@ -2149,12 +1947,10 @@ export default {
         "blind spots"
       ],
       "optionReasons": {
-        "spot-mcq-23": "本句指「無法看見的區域；亦指自己未察覺的弱點／問題」。",
-        "spot-mcq-22": "「沒有錯誤、不當行為或負面紀錄的」是「spotless — figurative」的用法，與本句語境不同。",
-        "spot-mcq-24": "「美麗景點；亦可指面部美人痣」是「beauty spot」的用法，與本句語境不同。",
-        "spot-mcq-21": "「完全沒有污點或髒污的；一塵不染」是「spotless — physical」的用法，與本句語境不同。",
-        "spot-mcq-25": "「臨時／隨機抽取部分項目進行檢查」是「spot check」的用法，與本句語境不同。",
-        "spot-mcq-20": "「品質、表現或覆蓋不穩定、斷斷續續的」是「spotty — figurative」的用法，與本句語境不同。"
+        "spot-mcq-23": "本句的「blind spots」指「無法看見的區域；亦指自己未察覺的弱點／問題」。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-23"
     },
@@ -2166,11 +1962,9 @@ export default {
       "masked": "The lake is a famous local ____.",
       "options": [
         "spot-mcq-24",
-        "spot-mcq-23",
-        "spot-mcq-25",
-        "spot-mcq-22",
-        "spot-mcq-26",
-        "spot-mcq-21"
+        "spot-mcq-15",
+        "spot-mcq-04",
+        "spot-mcq-26"
       ],
       "explanation": "本句的「beauty spot」指「美麗景點；亦可指面部美人痣」。",
       "sentenceIndex": 51,
@@ -2179,12 +1973,10 @@ export default {
         "beauty spot"
       ],
       "optionReasons": {
-        "spot-mcq-24": "本句指「美麗景點；亦可指面部美人痣」。",
-        "spot-mcq-23": "「無法看見的區域；亦指自己未察覺的弱點／問題」是「blind spot」的用法，與本句語境不同。",
-        "spot-mcq-25": "「臨時／隨機抽取部分項目進行檢查」是「spot check」的用法，與本句語境不同。",
-        "spot-mcq-22": "「沒有錯誤、不當行為或負面紀錄的」是「spotless — figurative」的用法，與本句語境不同。",
-        "spot-mcq-26": "「非常準確、恰到好處或完全正確」是「spot-on」的用法，與本句語境不同。",
-        "spot-mcq-21": "「完全沒有污點或髒污的；一塵不染」是「spotless — physical」的用法，與本句語境不同。"
+        "spot-mcq-24": "本句的「beauty spot」指「美麗景點；亦可指面部美人痣」。",
+        "spot-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-24"
     },
@@ -2196,11 +1988,9 @@ export default {
       "masked": "She has a small ____ near her mouth.",
       "options": [
         "spot-mcq-24",
-        "spot-mcq-23",
-        "spot-mcq-25",
+        "spot-mcq-20",
         "spot-mcq-22",
-        "spot-mcq-26",
-        "spot-mcq-21"
+        "spot-mcq-12"
       ],
       "explanation": "本句的「beauty spot」指「美麗景點；亦可指面部美人痣」。",
       "sentenceIndex": 52,
@@ -2209,12 +1999,10 @@ export default {
         "beauty spot"
       ],
       "optionReasons": {
-        "spot-mcq-24": "本句指「美麗景點；亦可指面部美人痣」。",
-        "spot-mcq-23": "「無法看見的區域；亦指自己未察覺的弱點／問題」是「blind spot」的用法，與本句語境不同。",
-        "spot-mcq-25": "「臨時／隨機抽取部分項目進行檢查」是「spot check」的用法，與本句語境不同。",
-        "spot-mcq-22": "「沒有錯誤、不當行為或負面紀錄的」是「spotless — figurative」的用法，與本句語境不同。",
-        "spot-mcq-26": "「非常準確、恰到好處或完全正確」是「spot-on」的用法，與本句語境不同。",
-        "spot-mcq-21": "「完全沒有污點或髒污的；一塵不染」是「spotless — physical」的用法，與本句語境不同。"
+        "spot-mcq-24": "本句的「beauty spot」指「美麗景點；亦可指面部美人痣」。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-24"
     },
@@ -2226,11 +2014,9 @@ export default {
       "masked": "The manager carried out a ____.",
       "options": [
         "spot-mcq-25",
-        "spot-mcq-24",
-        "spot-mcq-26",
-        "spot-mcq-23",
+        "spot-mcq-02",
         "spot-mcq-27",
-        "spot-mcq-22"
+        "spot-mcq-11"
       ],
       "explanation": "本句的「spot check」指「臨時／隨機抽取部分項目進行檢查」。",
       "sentenceIndex": 53,
@@ -2239,12 +2025,10 @@ export default {
         "spot check"
       ],
       "optionReasons": {
-        "spot-mcq-25": "本句指「臨時／隨機抽取部分項目進行檢查」。",
-        "spot-mcq-24": "「美麗景點；亦可指面部美人痣」是「beauty spot」的用法，與本句語境不同。",
-        "spot-mcq-26": "「非常準確、恰到好處或完全正確」是「spot-on」的用法，與本句語境不同。",
-        "spot-mcq-23": "「無法看見的區域；亦指自己未察覺的弱點／問題」是「blind spot」的用法，與本句語境不同。",
-        "spot-mcq-27": "「察覺兩個相似事物之間的不同之處」是「16. spot the difference（找不同） — 找出差異」的用法，與本句語境不同。",
-        "spot-mcq-22": "「沒有錯誤、不當行為或負面紀錄的」是「spotless — figurative」的用法，與本句語境不同。"
+        "spot-mcq-25": "本句的「spot check」指「臨時／隨機抽取部分項目進行檢查」。",
+        "spot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-25"
     },
@@ -2256,11 +2040,9 @@ export default {
       "masked": "Police conduct regular ____.",
       "options": [
         "spot-mcq-25",
-        "spot-mcq-24",
-        "spot-mcq-26",
-        "spot-mcq-23",
-        "spot-mcq-27",
-        "spot-mcq-22"
+        "spot-mcq-19",
+        "spot-mcq-11",
+        "spot-pdf-001"
       ],
       "explanation": "本句的「spot checks」指「臨時／隨機抽取部分項目進行檢查」。",
       "sentenceIndex": 54,
@@ -2269,12 +2051,10 @@ export default {
         "spot checks"
       ],
       "optionReasons": {
-        "spot-mcq-25": "本句指「臨時／隨機抽取部分項目進行檢查」。",
-        "spot-mcq-24": "「美麗景點；亦可指面部美人痣」是「beauty spot」的用法，與本句語境不同。",
-        "spot-mcq-26": "「非常準確、恰到好處或完全正確」是「spot-on」的用法，與本句語境不同。",
-        "spot-mcq-23": "「無法看見的區域；亦指自己未察覺的弱點／問題」是「blind spot」的用法，與本句語境不同。",
-        "spot-mcq-27": "「察覺兩個相似事物之間的不同之處」是「16. spot the difference（找不同） — 找出差異」的用法，與本句語境不同。",
-        "spot-mcq-22": "「沒有錯誤、不當行為或負面紀錄的」是「spotless — figurative」的用法，與本句語境不同。"
+        "spot-mcq-25": "本句的「spot checks」指「臨時／隨機抽取部分項目進行檢查」。",
+        "spot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spot-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-25"
     },
@@ -2286,11 +2066,9 @@ export default {
       "masked": "Your description is ____.",
       "options": [
         "spot-mcq-26",
-        "spot-mcq-25",
-        "spot-mcq-27",
-        "spot-mcq-24",
-        "spot-mcq-23",
-        "spot-mcq-22"
+        "spot-mcq-17",
+        "spot-mcq-20",
+        "spot-mcq-13"
       ],
       "explanation": "本句的「spot-on」指「非常準確、恰到好處或完全正確」。",
       "sentenceIndex": 55,
@@ -2299,12 +2077,10 @@ export default {
         "spot-on"
       ],
       "optionReasons": {
-        "spot-mcq-26": "本句指「非常準確、恰到好處或完全正確」。",
-        "spot-mcq-25": "「臨時／隨機抽取部分項目進行檢查」是「spot check」的用法，與本句語境不同。",
-        "spot-mcq-27": "「察覺兩個相似事物之間的不同之處」是「16. spot the difference（找不同） — 找出差異」的用法，與本句語境不同。",
-        "spot-mcq-24": "「美麗景點；亦可指面部美人痣」是「beauty spot」的用法，與本句語境不同。",
-        "spot-mcq-23": "「無法看見的區域；亦指自己未察覺的弱點／問題」是「blind spot」的用法，與本句語境不同。",
-        "spot-mcq-22": "「沒有錯誤、不當行為或負面紀錄的」是「spotless — figurative」的用法，與本句語境不同。"
+        "spot-mcq-26": "本句的「spot-on」指「非常準確、恰到好處或完全正確」。",
+        "spot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-26"
     },
@@ -2316,11 +2092,9 @@ export default {
       "masked": "His prediction was ____.",
       "options": [
         "spot-mcq-26",
-        "spot-mcq-25",
-        "spot-mcq-27",
-        "spot-mcq-24",
-        "spot-mcq-23",
-        "spot-mcq-22"
+        "spot-mcq-09",
+        "spot-mcq-07",
+        "spot-mcq-20"
       ],
       "explanation": "本句的「spot-on」指「非常準確、恰到好處或完全正確」。",
       "sentenceIndex": 56,
@@ -2329,12 +2103,10 @@ export default {
         "spot-on"
       ],
       "optionReasons": {
-        "spot-mcq-26": "本句指「非常準確、恰到好處或完全正確」。",
-        "spot-mcq-25": "「臨時／隨機抽取部分項目進行檢查」是「spot check」的用法，與本句語境不同。",
-        "spot-mcq-27": "「察覺兩個相似事物之間的不同之處」是「16. spot the difference（找不同） — 找出差異」的用法，與本句語境不同。",
-        "spot-mcq-24": "「美麗景點；亦可指面部美人痣」是「beauty spot」的用法，與本句語境不同。",
-        "spot-mcq-23": "「無法看見的區域；亦指自己未察覺的弱點／問題」是「blind spot」的用法，與本句語境不同。",
-        "spot-mcq-22": "「沒有錯誤、不當行為或負面紀錄的」是「spotless — figurative」的用法，與本句語境不同。"
+        "spot-mcq-26": "本句的「spot-on」指「非常準確、恰到好處或完全正確」。",
+        "spot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spot-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spot-mcq-26"
     }
@@ -2346,5 +2118,7 @@ export default {
     "sha256": "110dc92859a9a8173aafa504a92ad7e3910b18634acf17437524b4e0963a11ad",
     "pages": 22
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

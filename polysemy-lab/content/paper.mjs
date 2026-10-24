@@ -56,7 +56,7 @@ export default {
     },
     {
       "id": "paper-mcq-03",
-      "title": "表示後面的物件主要由紙製成",
+      "title": "後面的物件主要由紙製成",
       "form": "paper + noun — material modifier",
       "en": "paper + noun — material modifier",
       "zh": "表示後面的物件主要由紙製成",
@@ -558,11 +558,9 @@ export default {
       "masked": "He can spend hours … folding ____ out of old notebooks.",
       "options": [
         "paper-mcq-01",
-        "paper-mcq-02",
-        "paper-mcq-03",
         "paper-mcq-04",
-        "paper-mcq-05",
-        "paper-mcq-06"
+        "paper-mcq-13",
+        "paper-mcq-16"
       ],
       "explanation": "本句的「paper rockets」指「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」。",
       "sentenceIndex": 0,
@@ -571,12 +569,10 @@ export default {
         "paper rockets"
       ],
       "optionReasons": {
-        "paper-mcq-01": "本句指「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」。",
-        "paper-mcq-02": "「一張／一片紙；用來量化不可數的 paper」是「piece/sheet of paper」的用法，與本句語境不同。",
-        "paper-mcq-03": "「表示後面的物件主要由紙製成」是「paper + noun — material modifier」的用法，與本句語境不同。",
-        "paper-mcq-04": "「一份報紙／報章」是「paper — newspaper」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。"
+        "paper-mcq-01": "本句的「paper rockets」指「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」。",
+        "paper-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-01"
     },
@@ -588,11 +584,9 @@ export default {
       "masked": "She wrote the address on a piece of ____.",
       "options": [
         "paper-mcq-01",
-        "paper-mcq-02",
-        "paper-mcq-03",
         "paper-mcq-04",
-        "paper-mcq-05",
-        "paper-mcq-06"
+        "paper-mcq-16",
+        "paper-mcq-08"
       ],
       "explanation": "本句的「paper」指「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」。",
       "sentenceIndex": 1,
@@ -601,12 +595,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-01": "本句指「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」。",
-        "paper-mcq-02": "「一張／一片紙；用來量化不可數的 paper」是「piece/sheet of paper」的用法，與本句語境不同。",
-        "paper-mcq-03": "「表示後面的物件主要由紙製成」是「paper + noun — material modifier」的用法，與本句語境不同。",
-        "paper-mcq-04": "「一份報紙／報章」是「paper — newspaper」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。"
+        "paper-mcq-01": "本句的「paper」指「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」。",
+        "paper-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-01"
     },
@@ -618,11 +610,9 @@ export default {
       "masked": "The children used coloured ____ to make decorations.",
       "options": [
         "paper-mcq-01",
-        "paper-mcq-02",
-        "paper-mcq-03",
-        "paper-mcq-04",
+        "paper-mcq-13",
         "paper-mcq-05",
-        "paper-mcq-06"
+        "paper-mcq-16"
       ],
       "explanation": "本句的「paper」指「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」。",
       "sentenceIndex": 2,
@@ -631,12 +621,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-01": "本句指「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」。",
-        "paper-mcq-02": "「一張／一片紙；用來量化不可數的 paper」是「piece/sheet of paper」的用法，與本句語境不同。",
-        "paper-mcq-03": "「表示後面的物件主要由紙製成」是「paper + noun — material modifier」的用法，與本句語境不同。",
-        "paper-mcq-04": "「一份報紙／報章」是「paper — newspaper」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。"
+        "paper-mcq-01": "本句的「paper」指「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」。",
+        "paper-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-01"
     },
@@ -648,11 +636,9 @@ export default {
       "masked": "Can I have a sheet of ____?",
       "options": [
         "paper-mcq-02",
-        "paper-mcq-01",
-        "paper-mcq-03",
-        "paper-mcq-04",
+        "paper-mcq-06",
         "paper-mcq-05",
-        "paper-mcq-06"
+        "paper-mcq-16"
       ],
       "explanation": "本句的「paper」指「一張／一片紙；用來量化不可數的 paper」。",
       "sentenceIndex": 3,
@@ -661,12 +647,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-02": "本句指「一張／一片紙；用來量化不可數的 paper」。",
-        "paper-mcq-01": "「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」是「paper — material」的用法，與本句語境不同。",
-        "paper-mcq-03": "「表示後面的物件主要由紙製成」是「paper + noun — material modifier」的用法，與本句語境不同。",
-        "paper-mcq-04": "「一份報紙／報章」是「paper — newspaper」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。"
+        "paper-mcq-02": "本句的「paper」指「一張／一片紙；用來量化不可數的 paper」。",
+        "paper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-02"
     },
@@ -678,11 +662,9 @@ export default {
       "masked": "He folded a piece of ____ into a plane.",
       "options": [
         "paper-mcq-02",
-        "paper-mcq-01",
-        "paper-mcq-03",
-        "paper-mcq-04",
-        "paper-mcq-05",
-        "paper-mcq-06"
+        "paper-mcq-10",
+        "paper-mcq-08",
+        "paper-mcq-16"
       ],
       "explanation": "本句的「paper」指「一張／一片紙；用來量化不可數的 paper」。",
       "sentenceIndex": 4,
@@ -691,12 +673,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-02": "本句指「一張／一片紙；用來量化不可數的 paper」。",
-        "paper-mcq-01": "「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」是「paper — material」的用法，與本句語境不同。",
-        "paper-mcq-03": "「表示後面的物件主要由紙製成」是「paper + noun — material modifier」的用法，與本句語境不同。",
-        "paper-mcq-04": "「一份報紙／報章」是「paper — newspaper」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。"
+        "paper-mcq-02": "本句的「paper」指「一張／一片紙；用來量化不可數的 paper」。",
+        "paper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-02"
     },
@@ -708,11 +688,9 @@ export default {
       "masked": "Leo made a ____.",
       "options": [
         "paper-mcq-03",
-        "paper-mcq-02",
-        "paper-mcq-04",
-        "paper-mcq-01",
-        "paper-mcq-05",
-        "paper-mcq-06"
+        "paper-mcq-07",
+        "paper-mcq-08",
+        "paper-mcq-05"
       ],
       "explanation": "本句的「paper rocket」指「表示後面的物件主要由紙製成」。",
       "sentenceIndex": 5,
@@ -721,12 +699,10 @@ export default {
         "paper rocket"
       ],
       "optionReasons": {
-        "paper-mcq-03": "本句指「表示後面的物件主要由紙製成」。",
-        "paper-mcq-02": "「一張／一片紙；用來量化不可數的 paper」是「piece/sheet of paper」的用法，與本句語境不同。",
-        "paper-mcq-04": "「一份報紙／報章」是「paper — newspaper」的用法，與本句語境不同。",
-        "paper-mcq-01": "「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」是「paper — material」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。"
+        "paper-mcq-03": "本句的「paper rocket」指「表示後面的物件主要由紙製成」。",
+        "paper-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-03"
     },
@@ -738,10 +714,8 @@ export default {
       "masked": "She carried a ____.",
       "options": [
         "paper-mcq-03",
-        "paper-mcq-02",
-        "paper-mcq-04",
-        "paper-mcq-01",
         "paper-mcq-05",
+        "paper-mcq-08",
         "paper-mcq-06"
       ],
       "explanation": "本句的「paper bag」指「表示後面的物件主要由紙製成」。",
@@ -751,12 +725,10 @@ export default {
         "paper bag"
       ],
       "optionReasons": {
-        "paper-mcq-03": "本句指「表示後面的物件主要由紙製成」。",
-        "paper-mcq-02": "「一張／一片紙；用來量化不可數的 paper」是「piece/sheet of paper」的用法，與本句語境不同。",
-        "paper-mcq-04": "「一份報紙／報章」是「paper — newspaper」的用法，與本句語境不同。",
-        "paper-mcq-01": "「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」是「paper — material」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。"
+        "paper-mcq-03": "本句的「paper bag」指「表示後面的物件主要由紙製成」。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-03"
     },
@@ -768,11 +740,9 @@ export default {
       "masked": "I read it in the ____ this morning.",
       "options": [
         "paper-mcq-04",
-        "paper-mcq-03",
-        "paper-mcq-05",
-        "paper-mcq-02",
-        "paper-mcq-06",
-        "paper-mcq-01"
+        "paper-mcq-01",
+        "paper-mcq-22",
+        "paper-mcq-08"
       ],
       "explanation": "本句的「paper」指「一份報紙／報章」。",
       "sentenceIndex": 7,
@@ -781,12 +751,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-04": "本句指「一份報紙／報章」。",
-        "paper-mcq-03": "「表示後面的物件主要由紙製成」是「paper + noun — material modifier」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。",
-        "paper-mcq-02": "「一張／一片紙；用來量化不可數的 paper」是「piece/sheet of paper」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。",
-        "paper-mcq-01": "「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」是「paper — material」的用法，與本句語境不同。"
+        "paper-mcq-04": "本句的「paper」指「一份報紙／報章」。",
+        "paper-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-04"
     },
@@ -798,11 +766,9 @@ export default {
       "masked": "Which ____ do you normally read?",
       "options": [
         "paper-mcq-04",
-        "paper-mcq-03",
-        "paper-mcq-05",
-        "paper-mcq-02",
-        "paper-mcq-06",
-        "paper-mcq-01"
+        "paper-mcq-18",
+        "paper-mcq-08",
+        "paper-mcq-24"
       ],
       "explanation": "本句的「paper」指「一份報紙／報章」。",
       "sentenceIndex": 8,
@@ -811,12 +777,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-04": "本句指「一份報紙／報章」。",
-        "paper-mcq-03": "「表示後面的物件主要由紙製成」是「paper + noun — material modifier」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。",
-        "paper-mcq-02": "「一張／一片紙；用來量化不可數的 paper」是「piece/sheet of paper」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。",
-        "paper-mcq-01": "「用於書寫、印刷、繪畫、包裝或手工製作的薄片材料」是「paper — material」的用法，與本句語境不同。"
+        "paper-mcq-04": "本句的「paper」指「一份報紙／報章」。",
+        "paper-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-04"
     },
@@ -828,11 +792,9 @@ export default {
       "masked": "The story was all over the ____.",
       "options": [
         "paper-mcq-05",
-        "paper-mcq-04",
-        "paper-mcq-06",
-        "paper-mcq-03",
-        "paper-mcq-07",
-        "paper-mcq-02"
+        "paper-mcq-18",
+        "paper-mcq-02",
+        "paper-mcq-03"
       ],
       "explanation": "本句的「papers」指「多份報章作為新聞媒體的集合稱呼」。",
       "sentenceIndex": 9,
@@ -841,12 +803,10 @@ export default {
         "papers"
       ],
       "optionReasons": {
-        "paper-mcq-05": "本句指「多份報章作為新聞媒體的集合稱呼」。",
-        "paper-mcq-04": "「一份報紙／報章」是「paper — newspaper」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。",
-        "paper-mcq-03": "「表示後面的物件主要由紙製成」是「paper + noun — material modifier」的用法，與本句語境不同。",
-        "paper-mcq-07": "「學生為課程撰寫的較正式文章／報告」是「paper — student assignment」的用法，與本句語境不同。",
-        "paper-mcq-02": "「一張／一片紙；用來量化不可數的 paper」是「piece/sheet of paper」的用法，與本句語境不同。"
+        "paper-mcq-05": "本句的「papers」指「多份報章作為新聞媒體的集合稱呼」。",
+        "paper-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-05"
     },
@@ -858,11 +818,9 @@ export default {
       "masked": "The ____ criticized the decision.",
       "options": [
         "paper-mcq-05",
-        "paper-mcq-04",
-        "paper-mcq-06",
-        "paper-mcq-03",
-        "paper-mcq-07",
-        "paper-mcq-02"
+        "paper-mcq-08",
+        "paper-mcq-15",
+        "paper-mcq-22"
       ],
       "explanation": "本句的「papers」指「多份報章作為新聞媒體的集合稱呼」。",
       "sentenceIndex": 10,
@@ -871,12 +829,10 @@ export default {
         "papers"
       ],
       "optionReasons": {
-        "paper-mcq-05": "本句指「多份報章作為新聞媒體的集合稱呼」。",
-        "paper-mcq-04": "「一份報紙／報章」是「paper — newspaper」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。",
-        "paper-mcq-03": "「表示後面的物件主要由紙製成」是「paper + noun — material modifier」的用法，與本句語境不同。",
-        "paper-mcq-07": "「學生為課程撰寫的較正式文章／報告」是「paper — student assignment」的用法，與本句語境不同。",
-        "paper-mcq-02": "「一張／一片紙；用來量化不可數的 paper」是「piece/sheet of paper」的用法，與本句語境不同。"
+        "paper-mcq-05": "本句的「papers」指「多份報章作為新聞媒體的集合稱呼」。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-05"
     },
@@ -888,11 +844,9 @@ export default {
       "masked": "She published a ____ on language learning.",
       "options": [
         "paper-mcq-06",
-        "paper-mcq-05",
-        "paper-mcq-07",
-        "paper-mcq-04",
-        "paper-mcq-08",
-        "paper-mcq-03"
+        "paper-mcq-13",
+        "paper-mcq-23",
+        "paper-mcq-02"
       ],
       "explanation": "本句的「paper」指「正式呈現研究、理論或學術分析的論文／文章」。",
       "sentenceIndex": 11,
@@ -901,12 +855,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-06": "本句指「正式呈現研究、理論或學術分析的論文／文章」。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。",
-        "paper-mcq-07": "「學生為課程撰寫的較正式文章／報告」是「paper — student assignment」的用法，與本句語境不同。",
-        "paper-mcq-04": "「一份報紙／報章」是「paper — newspaper」的用法，與本句語境不同。",
-        "paper-mcq-08": "「考試中的試卷、卷別或科目」是「paper — exam」的用法，與本句語境不同。",
-        "paper-mcq-03": "「表示後面的物件主要由紙製成」是「paper + noun — material modifier」的用法，與本句語境不同。"
+        "paper-mcq-06": "本句的「paper」指「正式呈現研究、理論或學術分析的論文／文章」。",
+        "paper-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-06"
     },
@@ -918,11 +870,9 @@ export default {
       "masked": "I read several research ____ before writing the report.",
       "options": [
         "paper-mcq-06",
-        "paper-mcq-05",
-        "paper-mcq-07",
-        "paper-mcq-04",
-        "paper-mcq-08",
-        "paper-mcq-03"
+        "paper-mcq-13",
+        "paper-mcq-03",
+        "paper-mcq-14"
       ],
       "explanation": "本句的「papers」指「正式呈現研究、理論或學術分析的論文／文章」。",
       "sentenceIndex": 12,
@@ -931,12 +881,10 @@ export default {
         "papers"
       ],
       "optionReasons": {
-        "paper-mcq-06": "本句指「正式呈現研究、理論或學術分析的論文／文章」。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。",
-        "paper-mcq-07": "「學生為課程撰寫的較正式文章／報告」是「paper — student assignment」的用法，與本句語境不同。",
-        "paper-mcq-04": "「一份報紙／報章」是「paper — newspaper」的用法，與本句語境不同。",
-        "paper-mcq-08": "「考試中的試卷、卷別或科目」是「paper — exam」的用法，與本句語境不同。",
-        "paper-mcq-03": "「表示後面的物件主要由紙製成」是「paper + noun — material modifier」的用法，與本句語境不同。"
+        "paper-mcq-06": "本句的「papers」指「正式呈現研究、理論或學術分析的論文／文章」。",
+        "paper-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-06"
     },
@@ -948,11 +896,9 @@ export default {
       "masked": "I have to write a ten-page ____.",
       "options": [
         "paper-mcq-07",
-        "paper-mcq-06",
-        "paper-mcq-08",
-        "paper-mcq-05",
-        "paper-mcq-09",
-        "paper-mcq-04"
+        "paper-mcq-23",
+        "paper-mcq-24",
+        "paper-mcq-13"
       ],
       "explanation": "本句的「paper」指「學生為課程撰寫的較正式文章／報告」。",
       "sentenceIndex": 13,
@@ -961,12 +907,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-07": "本句指「學生為課程撰寫的較正式文章／報告」。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。",
-        "paper-mcq-08": "「考試中的試卷、卷別或科目」是「paper — exam」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。",
-        "paper-mcq-09": "「正式、法律、身份或需要簽署的文件」是「papers — official documents」的用法，與本句語境不同。",
-        "paper-mcq-04": "「一份報紙／報章」是「paper — newspaper」的用法，與本句語境不同。"
+        "paper-mcq-07": "本句的「paper」指「學生為課程撰寫的較正式文章／報告」。",
+        "paper-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-07"
     },
@@ -978,11 +922,9 @@ export default {
       "masked": "Her history ____ is due on Friday.",
       "options": [
         "paper-mcq-07",
-        "paper-mcq-06",
-        "paper-mcq-08",
-        "paper-mcq-05",
-        "paper-mcq-09",
-        "paper-mcq-04"
+        "paper-mcq-24",
+        "paper-mcq-02",
+        "paper-mcq-21"
       ],
       "explanation": "本句的「paper」指「學生為課程撰寫的較正式文章／報告」。",
       "sentenceIndex": 14,
@@ -991,12 +933,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-07": "本句指「學生為課程撰寫的較正式文章／報告」。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。",
-        "paper-mcq-08": "「考試中的試卷、卷別或科目」是「paper — exam」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。",
-        "paper-mcq-09": "「正式、法律、身份或需要簽署的文件」是「papers — official documents」的用法，與本句語境不同。",
-        "paper-mcq-04": "「一份報紙／報章」是「paper — newspaper」的用法，與本句語境不同。"
+        "paper-mcq-07": "本句的「paper」指「學生為課程撰寫的較正式文章／報告」。",
+        "paper-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-07"
     },
@@ -1008,11 +948,9 @@ export default {
       "masked": "Turn over your exam ____.",
       "options": [
         "paper-mcq-08",
-        "paper-mcq-07",
-        "paper-mcq-09",
-        "paper-mcq-06",
-        "paper-mcq-10",
-        "paper-mcq-05"
+        "paper-mcq-02",
+        "paper-mcq-17",
+        "paper-mcq-16"
       ],
       "explanation": "本句的「paper」指「考試中的試卷、卷別或科目」。",
       "sentenceIndex": 15,
@@ -1021,12 +959,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-08": "本句指「考試中的試卷、卷別或科目」。",
-        "paper-mcq-07": "「學生為課程撰寫的較正式文章／報告」是「paper — student assignment」的用法，與本句語境不同。",
-        "paper-mcq-09": "「正式、法律、身份或需要簽署的文件」是「papers — official documents」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。",
-        "paper-mcq-10": "「以書面文件形式存在的內容／紀錄」是「paper — written record」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。"
+        "paper-mcq-08": "本句的「paper」指「考試中的試卷、卷別或科目」。",
+        "paper-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-08"
     },
@@ -1038,11 +974,9 @@ export default {
       "masked": "The mathematics ____ was difficult.",
       "options": [
         "paper-mcq-08",
-        "paper-mcq-07",
-        "paper-mcq-09",
-        "paper-mcq-06",
-        "paper-mcq-10",
-        "paper-mcq-05"
+        "paper-mcq-14",
+        "paper-mcq-19",
+        "paper-mcq-23"
       ],
       "explanation": "本句的「paper」指「考試中的試卷、卷別或科目」。",
       "sentenceIndex": 16,
@@ -1051,12 +985,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-08": "本句指「考試中的試卷、卷別或科目」。",
-        "paper-mcq-07": "「學生為課程撰寫的較正式文章／報告」是「paper — student assignment」的用法，與本句語境不同。",
-        "paper-mcq-09": "「正式、法律、身份或需要簽署的文件」是「papers — official documents」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。",
-        "paper-mcq-10": "「以書面文件形式存在的內容／紀錄」是「paper — written record」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。"
+        "paper-mcq-08": "本句的「paper」指「考試中的試卷、卷別或科目」。",
+        "paper-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-08"
     },
@@ -1068,11 +1000,9 @@ export default {
       "masked": "I have two ____ tomorrow.",
       "options": [
         "paper-mcq-08",
-        "paper-mcq-07",
-        "paper-mcq-09",
-        "paper-mcq-06",
+        "paper-mcq-16",
         "paper-mcq-10",
-        "paper-mcq-05"
+        "paper-mcq-13"
       ],
       "explanation": "本句的「papers」指「考試中的試卷、卷別或科目」。",
       "sentenceIndex": 17,
@@ -1081,12 +1011,10 @@ export default {
         "papers"
       ],
       "optionReasons": {
-        "paper-mcq-08": "本句指「考試中的試卷、卷別或科目」。",
-        "paper-mcq-07": "「學生為課程撰寫的較正式文章／報告」是「paper — student assignment」的用法，與本句語境不同。",
-        "paper-mcq-09": "「正式、法律、身份或需要簽署的文件」是「papers — official documents」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。",
-        "paper-mcq-10": "「以書面文件形式存在的內容／紀錄」是「paper — written record」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。"
+        "paper-mcq-08": "本句的「papers」指「考試中的試卷、卷別或科目」。",
+        "paper-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-08"
     },
@@ -1098,11 +1026,9 @@ export default {
       "masked": "The listening ____ lasts forty minutes.",
       "options": [
         "paper-mcq-08",
-        "paper-mcq-07",
-        "paper-mcq-09",
-        "paper-mcq-06",
-        "paper-mcq-10",
-        "paper-mcq-05"
+        "paper-mcq-22",
+        "paper-mcq-12",
+        "paper-mcq-23"
       ],
       "explanation": "本句的「paper」指「考試中的試卷、卷別或科目」。",
       "sentenceIndex": 18,
@@ -1111,12 +1037,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-08": "本句指「考試中的試卷、卷別或科目」。",
-        "paper-mcq-07": "「學生為課程撰寫的較正式文章／報告」是「paper — student assignment」的用法，與本句語境不同。",
-        "paper-mcq-09": "「正式、法律、身份或需要簽署的文件」是「papers — official documents」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。",
-        "paper-mcq-10": "「以書面文件形式存在的內容／紀錄」是「paper — written record」的用法，與本句語境不同。",
-        "paper-mcq-05": "「多份報章作為新聞媒體的集合稱呼」是「the papers」的用法，與本句語境不同。"
+        "paper-mcq-08": "本句的「paper」指「考試中的試卷、卷別或科目」。",
+        "paper-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-08"
     },
@@ -1128,11 +1052,9 @@ export default {
       "masked": "Please bring your identity ____.",
       "options": [
         "paper-mcq-09",
-        "paper-mcq-08",
-        "paper-mcq-10",
-        "paper-mcq-07",
-        "paper-mcq-11",
-        "paper-mcq-06"
+        "paper-mcq-15",
+        "paper-mcq-22",
+        "paper-mcq-08"
       ],
       "explanation": "本句的「papers」指「正式、法律、身份或需要簽署的文件」。",
       "sentenceIndex": 19,
@@ -1141,12 +1063,10 @@ export default {
         "papers"
       ],
       "optionReasons": {
-        "paper-mcq-09": "本句指「正式、法律、身份或需要簽署的文件」。",
-        "paper-mcq-08": "「考試中的試卷、卷別或科目」是「paper — exam」的用法，與本句語境不同。",
-        "paper-mcq-10": "「以書面文件形式存在的內容／紀錄」是「paper — written record」的用法，與本句語境不同。",
-        "paper-mcq-07": "「學生為課程撰寫的較正式文章／報告」是「paper — student assignment」的用法，與本句語境不同。",
-        "paper-mcq-11": "「按書面資料或理論條件來看，而非實際情況」是「on paper」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。"
+        "paper-mcq-09": "本句的「papers」指「正式、法律、身份或需要簽署的文件」。",
+        "paper-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-09"
     },
@@ -1158,11 +1078,9 @@ export default {
       "masked": "He signed the ____ before leaving.",
       "options": [
         "paper-mcq-09",
+        "paper-mcq-15",
         "paper-mcq-08",
-        "paper-mcq-10",
-        "paper-mcq-07",
-        "paper-mcq-11",
-        "paper-mcq-06"
+        "paper-mcq-22"
       ],
       "explanation": "本句的「papers」指「正式、法律、身份或需要簽署的文件」。",
       "sentenceIndex": 20,
@@ -1171,12 +1089,10 @@ export default {
         "papers"
       ],
       "optionReasons": {
-        "paper-mcq-09": "本句指「正式、法律、身份或需要簽署的文件」。",
-        "paper-mcq-08": "「考試中的試卷、卷別或科目」是「paper — exam」的用法，與本句語境不同。",
-        "paper-mcq-10": "「以書面文件形式存在的內容／紀錄」是「paper — written record」的用法，與本句語境不同。",
-        "paper-mcq-07": "「學生為課程撰寫的較正式文章／報告」是「paper — student assignment」的用法，與本句語境不同。",
-        "paper-mcq-11": "「按書面資料或理論條件來看，而非實際情況」是「on paper」的用法，與本句語境不同。",
-        "paper-mcq-06": "「正式呈現研究、理論或學術分析的論文／文章」是「paper — academic article」的用法，與本句語境不同。"
+        "paper-mcq-09": "本句的「papers」指「正式、法律、身份或需要簽署的文件」。",
+        "paper-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-09"
     },
@@ -1188,11 +1104,9 @@ export default {
       "masked": "We need to get everything down on ____.",
       "options": [
         "paper-mcq-10",
-        "paper-mcq-09",
-        "paper-mcq-11",
-        "paper-mcq-08",
-        "paper-mcq-12",
-        "paper-mcq-07"
+        "paper-mcq-05",
+        "paper-mcq-22",
+        "paper-mcq-23"
       ],
       "explanation": "本句的「paper」指「以書面文件形式存在的內容／紀錄」。",
       "sentenceIndex": 21,
@@ -1201,12 +1115,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-10": "本句指「以書面文件形式存在的內容／紀錄」。",
-        "paper-mcq-09": "「正式、法律、身份或需要簽署的文件」是「papers — official documents」的用法，與本句語境不同。",
-        "paper-mcq-11": "「按書面資料或理論條件來看，而非實際情況」是「on paper」的用法，與本句語境不同。",
-        "paper-mcq-08": "「考試中的試卷、卷別或科目」是「paper — exam」的用法，與本句語境不同。",
-        "paper-mcq-12": "「把想法、安排或協議寫成書面形式」是「put something on paper」的用法，與本句語境不同。",
-        "paper-mcq-07": "「學生為課程撰寫的較正式文章／報告」是「paper — student assignment」的用法，與本句語境不同。"
+        "paper-mcq-10": "本句的「paper」指「以書面文件形式存在的內容／紀錄」。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-10"
     },
@@ -1218,11 +1130,9 @@ export default {
       "masked": "There is no agreement on ____ yet.",
       "options": [
         "paper-mcq-10",
-        "paper-mcq-09",
-        "paper-mcq-11",
-        "paper-mcq-08",
-        "paper-mcq-12",
-        "paper-mcq-07"
+        "paper-mcq-04",
+        "paper-mcq-22",
+        "paper-mcq-08"
       ],
       "explanation": "本句的「paper」指「以書面文件形式存在的內容／紀錄」。",
       "sentenceIndex": 22,
@@ -1231,12 +1141,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-10": "本句指「以書面文件形式存在的內容／紀錄」。",
-        "paper-mcq-09": "「正式、法律、身份或需要簽署的文件」是「papers — official documents」的用法，與本句語境不同。",
-        "paper-mcq-11": "「按書面資料或理論條件來看，而非實際情況」是「on paper」的用法，與本句語境不同。",
-        "paper-mcq-08": "「考試中的試卷、卷別或科目」是「paper — exam」的用法，與本句語境不同。",
-        "paper-mcq-12": "「把想法、安排或協議寫成書面形式」是「put something on paper」的用法，與本句語境不同。",
-        "paper-mcq-07": "「學生為課程撰寫的較正式文章／報告」是「paper — student assignment」的用法，與本句語境不同。"
+        "paper-mcq-10": "本句的「paper」指「以書面文件形式存在的內容／紀錄」。",
+        "paper-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-10"
     },
@@ -1248,11 +1156,9 @@ export default {
       "masked": "The plan looks good ____.",
       "options": [
         "paper-mcq-11",
-        "paper-mcq-10",
-        "paper-mcq-12",
-        "paper-mcq-09",
-        "paper-mcq-13",
-        "paper-mcq-08"
+        "paper-mcq-08",
+        "paper-mcq-15",
+        "paper-mcq-05"
       ],
       "explanation": "本句的「on paper」指「按書面資料或理論條件來看，而非實際情況」。",
       "sentenceIndex": 23,
@@ -1261,12 +1167,10 @@ export default {
         "on paper"
       ],
       "optionReasons": {
-        "paper-mcq-11": "本句指「按書面資料或理論條件來看，而非實際情況」。",
-        "paper-mcq-10": "「以書面文件形式存在的內容／紀錄」是「paper — written record」的用法，與本句語境不同。",
-        "paper-mcq-12": "「把想法、安排或協議寫成書面形式」是「put something on paper」的用法，與本句語境不同。",
-        "paper-mcq-09": "「正式、法律、身份或需要簽署的文件」是「papers — official documents」的用法，與本句語境不同。",
-        "paper-mcq-13": "「實體紙幣／鈔票」是「paper money」的用法，與本句語境不同。",
-        "paper-mcq-08": "「考試中的試卷、卷別或科目」是「paper — exam」的用法，與本句語境不同。"
+        "paper-mcq-11": "本句的「on paper」指「按書面資料或理論條件來看，而非實際情況」。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-11"
     },
@@ -1278,10 +1182,8 @@ export default {
       "masked": "____, the team should be very strong.",
       "options": [
         "paper-mcq-11",
-        "paper-mcq-10",
-        "paper-mcq-12",
-        "paper-mcq-09",
-        "paper-mcq-13",
+        "paper-mcq-23",
+        "paper-mcq-04",
         "paper-mcq-08"
       ],
       "explanation": "本句的「On paper」指「按書面資料或理論條件來看，而非實際情況」。",
@@ -1291,12 +1193,10 @@ export default {
         "On paper"
       ],
       "optionReasons": {
-        "paper-mcq-11": "本句指「按書面資料或理論條件來看，而非實際情況」。",
-        "paper-mcq-10": "「以書面文件形式存在的內容／紀錄」是「paper — written record」的用法，與本句語境不同。",
-        "paper-mcq-12": "「把想法、安排或協議寫成書面形式」是「put something on paper」的用法，與本句語境不同。",
-        "paper-mcq-09": "「正式、法律、身份或需要簽署的文件」是「papers — official documents」的用法，與本句語境不同。",
-        "paper-mcq-13": "「實體紙幣／鈔票」是「paper money」的用法，與本句語境不同。",
-        "paper-mcq-08": "「考試中的試卷、卷別或科目」是「paper — exam」的用法，與本句語境不同。"
+        "paper-mcq-11": "本句的「On paper」指「按書面資料或理論條件來看，而非實際情況」。",
+        "paper-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-11"
     },
@@ -1308,11 +1208,9 @@ export default {
       "masked": "Try to ____.",
       "options": [
         "paper-mcq-12",
-        "paper-mcq-11",
-        "paper-mcq-13",
-        "paper-mcq-10",
-        "paper-mcq-14",
-        "paper-mcq-09"
+        "paper-mcq-16",
+        "paper-mcq-21",
+        "paper-mcq-02"
       ],
       "explanation": "本句的「put your ideas on paper」指「把想法、安排或協議寫成書面形式」。",
       "sentenceIndex": 25,
@@ -1321,12 +1219,10 @@ export default {
         "put your ideas on paper"
       ],
       "optionReasons": {
-        "paper-mcq-12": "本句指「把想法、安排或協議寫成書面形式」。",
-        "paper-mcq-11": "「按書面資料或理論條件來看，而非實際情況」是「on paper」的用法，與本句語境不同。",
-        "paper-mcq-13": "「實體紙幣／鈔票」是「paper money」的用法，與本句語境不同。",
-        "paper-mcq-10": "「以書面文件形式存在的內容／紀錄」是「paper — written record」的用法，與本句語境不同。",
-        "paper-mcq-14": "「用來覆蓋裝飾牆面的牆紙」是「paper — wallpaper」的用法，與本句語境不同。",
-        "paper-mcq-09": "「正式、法律、身份或需要簽署的文件」是「papers — official documents」的用法，與本句語境不同。"
+        "paper-mcq-12": "本句的「put your ideas on paper」指「把想法、安排或協議寫成書面形式」。",
+        "paper-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-12"
     },
@@ -1338,11 +1234,9 @@ export default {
       "masked": "The agreement was finally ____.",
       "options": [
         "paper-mcq-12",
-        "paper-mcq-11",
-        "paper-mcq-13",
-        "paper-mcq-10",
-        "paper-mcq-14",
-        "paper-mcq-09"
+        "paper-mcq-24",
+        "paper-mcq-16",
+        "paper-mcq-15"
       ],
       "explanation": "本句的「put on paper」指「把想法、安排或協議寫成書面形式」。",
       "sentenceIndex": 26,
@@ -1351,12 +1245,10 @@ export default {
         "put on paper"
       ],
       "optionReasons": {
-        "paper-mcq-12": "本句指「把想法、安排或協議寫成書面形式」。",
-        "paper-mcq-11": "「按書面資料或理論條件來看，而非實際情況」是「on paper」的用法，與本句語境不同。",
-        "paper-mcq-13": "「實體紙幣／鈔票」是「paper money」的用法，與本句語境不同。",
-        "paper-mcq-10": "「以書面文件形式存在的內容／紀錄」是「paper — written record」的用法，與本句語境不同。",
-        "paper-mcq-14": "「用來覆蓋裝飾牆面的牆紙」是「paper — wallpaper」的用法，與本句語境不同。",
-        "paper-mcq-09": "「正式、法律、身份或需要簽署的文件」是「papers — official documents」的用法，與本句語境不同。"
+        "paper-mcq-12": "本句的「put on paper」指「把想法、安排或協議寫成書面形式」。",
+        "paper-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-12"
     },
@@ -1368,11 +1260,9 @@ export default {
       "masked": "Many countries are using less ____.",
       "options": [
         "paper-mcq-13",
-        "paper-mcq-12",
-        "paper-mcq-14",
-        "paper-mcq-11",
-        "paper-mcq-15",
-        "paper-mcq-10"
+        "paper-mcq-06",
+        "paper-mcq-24",
+        "paper-mcq-16"
       ],
       "explanation": "本句的「paper money」指「實體紙幣／鈔票」。",
       "sentenceIndex": 27,
@@ -1381,12 +1271,10 @@ export default {
         "paper money"
       ],
       "optionReasons": {
-        "paper-mcq-13": "本句指「實體紙幣／鈔票」。",
-        "paper-mcq-12": "「把想法、安排或協議寫成書面形式」是「put something on paper」的用法，與本句語境不同。",
-        "paper-mcq-14": "「用來覆蓋裝飾牆面的牆紙」是「paper — wallpaper」的用法，與本句語境不同。",
-        "paper-mcq-11": "「按書面資料或理論條件來看，而非實際情況」是「on paper」的用法，與本句語境不同。",
-        "paper-mcq-15": "「在牆面貼上牆紙」是「paper — verb」的用法，與本句語境不同。",
-        "paper-mcq-10": "「以書面文件形式存在的內容／紀錄」是「paper — written record」的用法，與本句語境不同。"
+        "paper-mcq-13": "本句的「paper money」指「實體紙幣／鈔票」。",
+        "paper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-13"
     },
@@ -1398,11 +1286,9 @@ export default {
       "masked": "He paid with ____.",
       "options": [
         "paper-mcq-13",
-        "paper-mcq-12",
-        "paper-mcq-14",
-        "paper-mcq-11",
-        "paper-mcq-15",
-        "paper-mcq-10"
+        "paper-mcq-07",
+        "paper-mcq-08",
+        "paper-mcq-24"
       ],
       "explanation": "本句的「paper currency」指「實體紙幣／鈔票」。",
       "sentenceIndex": 28,
@@ -1411,12 +1297,10 @@ export default {
         "paper currency"
       ],
       "optionReasons": {
-        "paper-mcq-13": "本句指「實體紙幣／鈔票」。",
-        "paper-mcq-12": "「把想法、安排或協議寫成書面形式」是「put something on paper」的用法，與本句語境不同。",
-        "paper-mcq-14": "「用來覆蓋裝飾牆面的牆紙」是「paper — wallpaper」的用法，與本句語境不同。",
-        "paper-mcq-11": "「按書面資料或理論條件來看，而非實際情況」是「on paper」的用法，與本句語境不同。",
-        "paper-mcq-15": "「在牆面貼上牆紙」是「paper — verb」的用法，與本句語境不同。",
-        "paper-mcq-10": "「以書面文件形式存在的內容／紀錄」是「paper — written record」的用法，與本句語境不同。"
+        "paper-mcq-13": "本句的「paper currency」指「實體紙幣／鈔票」。",
+        "paper-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-13"
     },
@@ -1428,11 +1312,9 @@ export default {
       "masked": "They chose a patterned ____ for the bedroom walls.",
       "options": [
         "paper-mcq-14",
-        "paper-mcq-13",
-        "paper-mcq-15",
+        "paper-mcq-24",
         "paper-mcq-12",
-        "paper-mcq-16",
-        "paper-mcq-11"
+        "paper-mcq-05"
       ],
       "explanation": "本句的「paper」指「用來覆蓋裝飾牆面的牆紙」。",
       "sentenceIndex": 29,
@@ -1441,12 +1323,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-14": "本句指「用來覆蓋裝飾牆面的牆紙」。",
-        "paper-mcq-13": "「實體紙幣／鈔票」是「paper money」的用法，與本句語境不同。",
-        "paper-mcq-15": "「在牆面貼上牆紙」是「paper — verb」的用法，與本句語境不同。",
-        "paper-mcq-12": "「把想法、安排或協議寫成書面形式」是「put something on paper」的用法，與本句語境不同。",
-        "paper-mcq-16": "「表面掩蓋問題而沒有真正處理根本原因」是「paper over」的用法，與本句語境不同。",
-        "paper-mcq-11": "「按書面資料或理論條件來看，而非實際情況」是「on paper」的用法，與本句語境不同。"
+        "paper-mcq-14": "本句的「paper」指「用來覆蓋裝飾牆面的牆紙」。",
+        "paper-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-14"
     },
@@ -1458,11 +1338,9 @@ export default {
       "masked": "The old ____ was peeling off the wall.",
       "options": [
         "paper-mcq-14",
-        "paper-mcq-13",
-        "paper-mcq-15",
-        "paper-mcq-12",
-        "paper-mcq-16",
-        "paper-mcq-11"
+        "paper-mcq-07",
+        "paper-mcq-05",
+        "paper-mcq-08"
       ],
       "explanation": "本句的「paper」指「用來覆蓋裝飾牆面的牆紙」。",
       "sentenceIndex": 30,
@@ -1471,12 +1349,10 @@ export default {
         "paper"
       ],
       "optionReasons": {
-        "paper-mcq-14": "本句指「用來覆蓋裝飾牆面的牆紙」。",
-        "paper-mcq-13": "「實體紙幣／鈔票」是「paper money」的用法，與本句語境不同。",
-        "paper-mcq-15": "「在牆面貼上牆紙」是「paper — verb」的用法，與本句語境不同。",
-        "paper-mcq-12": "「把想法、安排或協議寫成書面形式」是「put something on paper」的用法，與本句語境不同。",
-        "paper-mcq-16": "「表面掩蓋問題而沒有真正處理根本原因」是「paper over」的用法，與本句語境不同。",
-        "paper-mcq-11": "「按書面資料或理論條件來看，而非實際情況」是「on paper」的用法，與本句語境不同。"
+        "paper-mcq-14": "本句的「paper」指「用來覆蓋裝飾牆面的牆紙」。",
+        "paper-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-14"
     },
@@ -1488,11 +1364,9 @@ export default {
       "masked": "They ____ the bedroom walls.",
       "options": [
         "paper-mcq-15",
-        "paper-mcq-14",
-        "paper-mcq-16",
-        "paper-mcq-13",
-        "paper-mcq-17",
-        "paper-mcq-12"
+        "paper-mcq-07",
+        "paper-mcq-22",
+        "paper-mcq-05"
       ],
       "explanation": "本句的「papered」指「在牆面貼上牆紙」。",
       "sentenceIndex": 31,
@@ -1501,12 +1375,10 @@ export default {
         "papered"
       ],
       "optionReasons": {
-        "paper-mcq-15": "本句指「在牆面貼上牆紙」。",
-        "paper-mcq-14": "「用來覆蓋裝飾牆面的牆紙」是「paper — wallpaper」的用法，與本句語境不同。",
-        "paper-mcq-16": "「表面掩蓋問題而沒有真正處理根本原因」是「paper over」的用法，與本句語境不同。",
-        "paper-mcq-13": "「實體紙幣／鈔票」是「paper money」的用法，與本句語境不同。",
-        "paper-mcq-17": "「由文件／紀錄形成、可供追查的證據鏈」是「paper trail」的用法，與本句語境不同。",
-        "paper-mcq-12": "「把想法、安排或協議寫成書面形式」是「put something on paper」的用法，與本句語境不同。"
+        "paper-mcq-15": "本句的「papered」指「在牆面貼上牆紙」。",
+        "paper-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-15"
     },
@@ -1518,11 +1390,9 @@ export default {
       "masked": "The room was ____ in a floral design.",
       "options": [
         "paper-mcq-15",
-        "paper-mcq-14",
-        "paper-mcq-16",
-        "paper-mcq-13",
-        "paper-mcq-17",
-        "paper-mcq-12"
+        "paper-mcq-10",
+        "paper-mcq-22",
+        "paper-mcq-05"
       ],
       "explanation": "本句的「papered」指「在牆面貼上牆紙」。",
       "sentenceIndex": 32,
@@ -1531,12 +1401,10 @@ export default {
         "papered"
       ],
       "optionReasons": {
-        "paper-mcq-15": "本句指「在牆面貼上牆紙」。",
-        "paper-mcq-14": "「用來覆蓋裝飾牆面的牆紙」是「paper — wallpaper」的用法，與本句語境不同。",
-        "paper-mcq-16": "「表面掩蓋問題而沒有真正處理根本原因」是「paper over」的用法，與本句語境不同。",
-        "paper-mcq-13": "「實體紙幣／鈔票」是「paper money」的用法，與本句語境不同。",
-        "paper-mcq-17": "「由文件／紀錄形成、可供追查的證據鏈」是「paper trail」的用法，與本句語境不同。",
-        "paper-mcq-12": "「把想法、安排或協議寫成書面形式」是「put something on paper」的用法，與本句語境不同。"
+        "paper-mcq-15": "本句的「papered」指「在牆面貼上牆紙」。",
+        "paper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-15"
     },
@@ -1548,11 +1416,9 @@ export default {
       "masked": "They tried to ____ their disagreements.",
       "options": [
         "paper-mcq-16",
-        "paper-mcq-15",
-        "paper-mcq-17",
-        "paper-mcq-14",
-        "paper-mcq-18",
-        "paper-mcq-13"
+        "paper-mcq-21",
+        "paper-mcq-04",
+        "paper-mcq-01"
       ],
       "explanation": "本句的「paper over」指「表面掩蓋問題而沒有真正處理根本原因」。",
       "sentenceIndex": 33,
@@ -1561,12 +1427,10 @@ export default {
         "paper over"
       ],
       "optionReasons": {
-        "paper-mcq-16": "本句指「表面掩蓋問題而沒有真正處理根本原因」。",
-        "paper-mcq-15": "「在牆面貼上牆紙」是「paper — verb」的用法，與本句語境不同。",
-        "paper-mcq-17": "「由文件／紀錄形成、可供追查的證據鏈」是「paper trail」的用法，與本句語境不同。",
-        "paper-mcq-14": "「用來覆蓋裝飾牆面的牆紙」是「paper — wallpaper」的用法，與本句語境不同。",
-        "paper-mcq-18": "「填寫、整理、提交或處理正式文件的行政工作」是「paperwork」的用法，與本句語境不同。",
-        "paper-mcq-13": "「實體紙幣／鈔票」是「paper money」的用法，與本句語境不同。"
+        "paper-mcq-16": "本句的「paper over」指「表面掩蓋問題而沒有真正處理根本原因」。",
+        "paper-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-16"
     },
@@ -1578,10 +1442,8 @@ export default {
       "masked": "The new policy only ____ the deeper problem.",
       "options": [
         "paper-mcq-16",
-        "paper-mcq-15",
-        "paper-mcq-17",
-        "paper-mcq-14",
-        "paper-mcq-18",
+        "paper-mcq-19",
+        "paper-mcq-08",
         "paper-mcq-13"
       ],
       "explanation": "本句的「papers over」指「表面掩蓋問題而沒有真正處理根本原因」。",
@@ -1591,12 +1453,10 @@ export default {
         "papers over"
       ],
       "optionReasons": {
-        "paper-mcq-16": "本句指「表面掩蓋問題而沒有真正處理根本原因」。",
-        "paper-mcq-15": "「在牆面貼上牆紙」是「paper — verb」的用法，與本句語境不同。",
-        "paper-mcq-17": "「由文件／紀錄形成、可供追查的證據鏈」是「paper trail」的用法，與本句語境不同。",
-        "paper-mcq-14": "「用來覆蓋裝飾牆面的牆紙」是「paper — wallpaper」的用法，與本句語境不同。",
-        "paper-mcq-18": "「填寫、整理、提交或處理正式文件的行政工作」是「paperwork」的用法，與本句語境不同。",
-        "paper-mcq-13": "「實體紙幣／鈔票」是「paper money」的用法，與本句語境不同。"
+        "paper-mcq-16": "本句的「papers over」指「表面掩蓋問題而沒有真正處理根本原因」。",
+        "paper-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-16"
     },
@@ -1608,11 +1468,9 @@ export default {
       "masked": "The transactions left a clear ____.",
       "options": [
         "paper-mcq-17",
-        "paper-mcq-16",
-        "paper-mcq-18",
-        "paper-mcq-15",
-        "paper-mcq-19",
-        "paper-mcq-14"
+        "paper-mcq-23",
+        "paper-mcq-14",
+        "paper-mcq-05"
       ],
       "explanation": "本句的「paper trail」指「由文件／紀錄形成、可供追查的證據鏈」。",
       "sentenceIndex": 35,
@@ -1621,12 +1479,10 @@ export default {
         "paper trail"
       ],
       "optionReasons": {
-        "paper-mcq-17": "本句指「由文件／紀錄形成、可供追查的證據鏈」。",
-        "paper-mcq-16": "「表面掩蓋問題而沒有真正處理根本原因」是「paper over」的用法，與本句語境不同。",
-        "paper-mcq-18": "「填寫、整理、提交或處理正式文件的行政工作」是「paperwork」的用法，與本句語境不同。",
-        "paper-mcq-15": "「在牆面貼上牆紙」是「paper — verb」的用法，與本句語境不同。",
-        "paper-mcq-19": "「定期出版並刊載新聞資訊的報紙」是「newspaper」的用法，與本句語境不同。",
-        "paper-mcq-14": "「用來覆蓋裝飾牆面的牆紙」是「paper — wallpaper」的用法，與本句語境不同。"
+        "paper-mcq-17": "本句的「paper trail」指「由文件／紀錄形成、可供追查的證據鏈」。",
+        "paper-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-17"
     },
@@ -1638,11 +1494,9 @@ export default {
       "masked": "Investigators followed the ____.",
       "options": [
         "paper-mcq-17",
-        "paper-mcq-16",
-        "paper-mcq-18",
-        "paper-mcq-15",
-        "paper-mcq-19",
-        "paper-mcq-14"
+        "paper-mcq-08",
+        "paper-mcq-23",
+        "paper-mcq-04"
       ],
       "explanation": "本句的「paper trail」指「由文件／紀錄形成、可供追查的證據鏈」。",
       "sentenceIndex": 36,
@@ -1651,12 +1505,10 @@ export default {
         "paper trail"
       ],
       "optionReasons": {
-        "paper-mcq-17": "本句指「由文件／紀錄形成、可供追查的證據鏈」。",
-        "paper-mcq-16": "「表面掩蓋問題而沒有真正處理根本原因」是「paper over」的用法，與本句語境不同。",
-        "paper-mcq-18": "「填寫、整理、提交或處理正式文件的行政工作」是「paperwork」的用法，與本句語境不同。",
-        "paper-mcq-15": "「在牆面貼上牆紙」是「paper — verb」的用法，與本句語境不同。",
-        "paper-mcq-19": "「定期出版並刊載新聞資訊的報紙」是「newspaper」的用法，與本句語境不同。",
-        "paper-mcq-14": "「用來覆蓋裝飾牆面的牆紙」是「paper — wallpaper」的用法，與本句語境不同。"
+        "paper-mcq-17": "本句的「paper trail」指「由文件／紀錄形成、可供追查的證據鏈」。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-17"
     },
@@ -1668,11 +1520,9 @@ export default {
       "masked": "I spent all morning doing ____.",
       "options": [
         "paper-mcq-18",
-        "paper-mcq-17",
-        "paper-mcq-19",
-        "paper-mcq-16",
-        "paper-mcq-20",
-        "paper-mcq-15"
+        "paper-mcq-21",
+        "paper-mcq-04",
+        "paper-mcq-14"
       ],
       "explanation": "本句的「paperwork」指「填寫、整理、提交或處理正式文件的行政工作」。",
       "sentenceIndex": 37,
@@ -1681,12 +1531,10 @@ export default {
         "paperwork"
       ],
       "optionReasons": {
-        "paper-mcq-18": "本句指「填寫、整理、提交或處理正式文件的行政工作」。",
-        "paper-mcq-17": "「由文件／紀錄形成、可供追查的證據鏈」是「paper trail」的用法，與本句語境不同。",
-        "paper-mcq-19": "「定期出版並刊載新聞資訊的報紙」是「newspaper」的用法，與本句語境不同。",
-        "paper-mcq-16": "「表面掩蓋問題而沒有真正處理根本原因」是「paper over」的用法，與本句語境不同。",
-        "paper-mcq-20": "「主要使用數碼文件而不依賴實體紙張的」是「paperless」的用法，與本句語境不同。",
-        "paper-mcq-15": "「在牆面貼上牆紙」是「paper — verb」的用法，與本句語境不同。"
+        "paper-mcq-18": "本句的「paperwork」指「填寫、整理、提交或處理正式文件的行政工作」。",
+        "paper-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-18"
     },
@@ -1698,11 +1546,9 @@ export default {
       "masked": "There is a lot of ____ involved.",
       "options": [
         "paper-mcq-18",
-        "paper-mcq-17",
-        "paper-mcq-19",
-        "paper-mcq-16",
-        "paper-mcq-20",
-        "paper-mcq-15"
+        "paper-mcq-08",
+        "paper-mcq-04",
+        "paper-mcq-23"
       ],
       "explanation": "本句的「paperwork」指「填寫、整理、提交或處理正式文件的行政工作」。",
       "sentenceIndex": 38,
@@ -1711,12 +1557,10 @@ export default {
         "paperwork"
       ],
       "optionReasons": {
-        "paper-mcq-18": "本句指「填寫、整理、提交或處理正式文件的行政工作」。",
-        "paper-mcq-17": "「由文件／紀錄形成、可供追查的證據鏈」是「paper trail」的用法，與本句語境不同。",
-        "paper-mcq-19": "「定期出版並刊載新聞資訊的報紙」是「newspaper」的用法，與本句語境不同。",
-        "paper-mcq-16": "「表面掩蓋問題而沒有真正處理根本原因」是「paper over」的用法，與本句語境不同。",
-        "paper-mcq-20": "「主要使用數碼文件而不依賴實體紙張的」是「paperless」的用法，與本句語境不同。",
-        "paper-mcq-15": "「在牆面貼上牆紙」是「paper — verb」的用法，與本句語境不同。"
+        "paper-mcq-18": "本句的「paperwork」指「填寫、整理、提交或處理正式文件的行政工作」。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-18"
     },
@@ -1728,11 +1572,9 @@ export default {
       "masked": "My grandfather reads the ____ every morning.",
       "options": [
         "paper-mcq-19",
-        "paper-mcq-18",
-        "paper-mcq-20",
-        "paper-mcq-17",
-        "paper-mcq-21",
-        "paper-mcq-16"
+        "paper-mcq-22",
+        "paper-mcq-08",
+        "paper-mcq-13"
       ],
       "explanation": "本句的「newspaper」指「定期出版並刊載新聞資訊的報紙」。",
       "sentenceIndex": 39,
@@ -1741,12 +1583,10 @@ export default {
         "newspaper"
       ],
       "optionReasons": {
-        "paper-mcq-19": "本句指「定期出版並刊載新聞資訊的報紙」。",
-        "paper-mcq-18": "「填寫、整理、提交或處理正式文件的行政工作」是「paperwork」的用法，與本句語境不同。",
-        "paper-mcq-20": "「主要使用數碼文件而不依賴實體紙張的」是「paperless」的用法，與本句語境不同。",
-        "paper-mcq-17": "「由文件／紀錄形成、可供追查的證據鏈」是「paper trail」的用法，與本句語境不同。",
-        "paper-mcq-21": "「在薄、乾、脆或質感方面像紙的」是「papery」的用法，與本句語境不同。",
-        "paper-mcq-16": "「表面掩蓋問題而沒有真正處理根本原因」是「paper over」的用法，與本句語境不同。"
+        "paper-mcq-19": "本句的「newspaper」指「定期出版並刊載新聞資訊的報紙」。",
+        "paper-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-19"
     },
@@ -1758,11 +1598,9 @@ export default {
       "masked": "The story appeared in several ____.",
       "options": [
         "paper-mcq-19",
-        "paper-mcq-18",
-        "paper-mcq-20",
-        "paper-mcq-17",
-        "paper-mcq-21",
-        "paper-mcq-16"
+        "paper-mcq-22",
+        "paper-mcq-08",
+        "paper-mcq-03"
       ],
       "explanation": "本句的「newspapers」指「定期出版並刊載新聞資訊的報紙」。",
       "sentenceIndex": 40,
@@ -1771,12 +1609,10 @@ export default {
         "newspapers"
       ],
       "optionReasons": {
-        "paper-mcq-19": "本句指「定期出版並刊載新聞資訊的報紙」。",
-        "paper-mcq-18": "「填寫、整理、提交或處理正式文件的行政工作」是「paperwork」的用法，與本句語境不同。",
-        "paper-mcq-20": "「主要使用數碼文件而不依賴實體紙張的」是「paperless」的用法，與本句語境不同。",
-        "paper-mcq-17": "「由文件／紀錄形成、可供追查的證據鏈」是「paper trail」的用法，與本句語境不同。",
-        "paper-mcq-21": "「在薄、乾、脆或質感方面像紙的」是「papery」的用法，與本句語境不同。",
-        "paper-mcq-16": "「表面掩蓋問題而沒有真正處理根本原因」是「paper over」的用法，與本句語境不同。"
+        "paper-mcq-19": "本句的「newspapers」指「定期出版並刊載新聞資訊的報紙」。",
+        "paper-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-19"
     },
@@ -1788,11 +1624,9 @@ export default {
       "masked": "The office is moving toward a ____ system.",
       "options": [
         "paper-mcq-20",
-        "paper-mcq-19",
-        "paper-mcq-21",
-        "paper-mcq-18",
-        "paper-mcq-22",
-        "paper-mcq-17"
+        "paper-mcq-24",
+        "paper-mcq-08",
+        "paper-mcq-23"
       ],
       "explanation": "本句的「paperless」指「主要使用數碼文件而不依賴實體紙張的」。",
       "sentenceIndex": 41,
@@ -1801,12 +1635,10 @@ export default {
         "paperless"
       ],
       "optionReasons": {
-        "paper-mcq-20": "本句指「主要使用數碼文件而不依賴實體紙張的」。",
-        "paper-mcq-19": "「定期出版並刊載新聞資訊的報紙」是「newspaper」的用法，與本句語境不同。",
-        "paper-mcq-21": "「在薄、乾、脆或質感方面像紙的」是「papery」的用法，與本句語境不同。",
-        "paper-mcq-18": "「填寫、整理、提交或處理正式文件的行政工作」是「paperwork」的用法，與本句語境不同。",
-        "paper-mcq-22": "「表面強大但實際力量薄弱的人／組織／威脅」是「paper tiger」的用法，與本句語境不同。",
-        "paper-mcq-17": "「由文件／紀錄形成、可供追查的證據鏈」是「paper trail」的用法，與本句語境不同。"
+        "paper-mcq-20": "本句的「paperless」指「主要使用數碼文件而不依賴實體紙張的」。",
+        "paper-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-20"
     },
@@ -1818,11 +1650,9 @@ export default {
       "masked": "Many banks now offer ____ statements.",
       "options": [
         "paper-mcq-20",
-        "paper-mcq-19",
-        "paper-mcq-21",
-        "paper-mcq-18",
-        "paper-mcq-22",
-        "paper-mcq-17"
+        "paper-mcq-08",
+        "paper-mcq-24",
+        "paper-mcq-21"
       ],
       "explanation": "本句的「paperless」指「主要使用數碼文件而不依賴實體紙張的」。",
       "sentenceIndex": 42,
@@ -1831,12 +1661,10 @@ export default {
         "paperless"
       ],
       "optionReasons": {
-        "paper-mcq-20": "本句指「主要使用數碼文件而不依賴實體紙張的」。",
-        "paper-mcq-19": "「定期出版並刊載新聞資訊的報紙」是「newspaper」的用法，與本句語境不同。",
-        "paper-mcq-21": "「在薄、乾、脆或質感方面像紙的」是「papery」的用法，與本句語境不同。",
-        "paper-mcq-18": "「填寫、整理、提交或處理正式文件的行政工作」是「paperwork」的用法，與本句語境不同。",
-        "paper-mcq-22": "「表面強大但實際力量薄弱的人／組織／威脅」是「paper tiger」的用法，與本句語境不同。",
-        "paper-mcq-17": "「由文件／紀錄形成、可供追查的證據鏈」是「paper trail」的用法，與本句語境不同。"
+        "paper-mcq-20": "本句的「paperless」指「主要使用數碼文件而不依賴實體紙張的」。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-20"
     },
@@ -1848,11 +1676,9 @@ export default {
       "masked": "The flower has thin, ____ petals.",
       "options": [
         "paper-mcq-21",
-        "paper-mcq-20",
-        "paper-mcq-22",
-        "paper-mcq-19",
-        "paper-mcq-23",
-        "paper-mcq-18"
+        "paper-mcq-05",
+        "paper-mcq-17",
+        "paper-mcq-08"
       ],
       "explanation": "本句的「papery」指「在薄、乾、脆或質感方面像紙的」。",
       "sentenceIndex": 43,
@@ -1861,12 +1687,10 @@ export default {
         "papery"
       ],
       "optionReasons": {
-        "paper-mcq-21": "本句指「在薄、乾、脆或質感方面像紙的」。",
-        "paper-mcq-20": "「主要使用數碼文件而不依賴實體紙張的」是「paperless」的用法，與本句語境不同。",
-        "paper-mcq-22": "「表面強大但實際力量薄弱的人／組織／威脅」是「paper tiger」的用法，與本句語境不同。",
-        "paper-mcq-19": "「定期出版並刊載新聞資訊的報紙」是「newspaper」的用法，與本句語境不同。",
-        "paper-mcq-23": "「像紙一樣極薄的」是「paper-thin — literal」的用法，與本句語境不同。",
-        "paper-mcq-18": "「填寫、整理、提交或處理正式文件的行政工作」是「paperwork」的用法，與本句語境不同。"
+        "paper-mcq-21": "本句的「papery」指「在薄、乾、脆或質感方面像紙的」。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-21"
     },
@@ -1878,11 +1702,9 @@ export default {
       "masked": "The leaves become dry and ____.",
       "options": [
         "paper-mcq-21",
-        "paper-mcq-20",
-        "paper-mcq-22",
-        "paper-mcq-19",
-        "paper-mcq-23",
-        "paper-mcq-18"
+        "paper-mcq-07",
+        "paper-mcq-08",
+        "paper-mcq-05"
       ],
       "explanation": "本句的「papery」指「在薄、乾、脆或質感方面像紙的」。",
       "sentenceIndex": 44,
@@ -1891,12 +1713,10 @@ export default {
         "papery"
       ],
       "optionReasons": {
-        "paper-mcq-21": "本句指「在薄、乾、脆或質感方面像紙的」。",
-        "paper-mcq-20": "「主要使用數碼文件而不依賴實體紙張的」是「paperless」的用法，與本句語境不同。",
-        "paper-mcq-22": "「表面強大但實際力量薄弱的人／組織／威脅」是「paper tiger」的用法，與本句語境不同。",
-        "paper-mcq-19": "「定期出版並刊載新聞資訊的報紙」是「newspaper」的用法，與本句語境不同。",
-        "paper-mcq-23": "「像紙一樣極薄的」是「paper-thin — literal」的用法，與本句語境不同。",
-        "paper-mcq-18": "「填寫、整理、提交或處理正式文件的行政工作」是「paperwork」的用法，與本句語境不同。"
+        "paper-mcq-21": "本句的「papery」指「在薄、乾、脆或質感方面像紙的」。",
+        "paper-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-21"
     },
@@ -1908,11 +1728,9 @@ export default {
       "masked": "The organization looked powerful but turned out to be a ____.",
       "options": [
         "paper-mcq-22",
-        "paper-mcq-21",
-        "paper-mcq-23",
-        "paper-mcq-20",
-        "paper-mcq-24",
-        "paper-mcq-19"
+        "paper-mcq-19",
+        "paper-mcq-14",
+        "paper-mcq-08"
       ],
       "explanation": "本句的「paper tiger」指「表面強大但實際力量薄弱的人／組織／威脅」。",
       "sentenceIndex": 45,
@@ -1921,12 +1739,10 @@ export default {
         "paper tiger"
       ],
       "optionReasons": {
-        "paper-mcq-22": "本句指「表面強大但實際力量薄弱的人／組織／威脅」。",
-        "paper-mcq-21": "「在薄、乾、脆或質感方面像紙的」是「papery」的用法，與本句語境不同。",
-        "paper-mcq-23": "「像紙一樣極薄的」是「paper-thin — literal」的用法，與本句語境不同。",
-        "paper-mcq-20": "「主要使用數碼文件而不依賴實體紙張的」是「paperless」的用法，與本句語境不同。",
-        "paper-mcq-24": "「差距、理由、支持等非常薄弱或微小的」是「paper-thin — figurative」的用法，與本句語境不同。",
-        "paper-mcq-19": "「定期出版並刊載新聞資訊的報紙」是「newspaper」的用法，與本句語境不同。"
+        "paper-mcq-22": "本句的「paper tiger」指「表面強大但實際力量薄弱的人／組織／威脅」。",
+        "paper-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-22"
     },
@@ -1938,11 +1754,9 @@ export default {
       "masked": "Critics described the threat as a ____.",
       "options": [
         "paper-mcq-22",
-        "paper-mcq-21",
-        "paper-mcq-23",
-        "paper-mcq-20",
-        "paper-mcq-24",
-        "paper-mcq-19"
+        "paper-mcq-04",
+        "paper-mcq-18",
+        "paper-mcq-08"
       ],
       "explanation": "本句的「paper tiger」指「表面強大但實際力量薄弱的人／組織／威脅」。",
       "sentenceIndex": 46,
@@ -1951,12 +1765,10 @@ export default {
         "paper tiger"
       ],
       "optionReasons": {
-        "paper-mcq-22": "本句指「表面強大但實際力量薄弱的人／組織／威脅」。",
-        "paper-mcq-21": "「在薄、乾、脆或質感方面像紙的」是「papery」的用法，與本句語境不同。",
-        "paper-mcq-23": "「像紙一樣極薄的」是「paper-thin — literal」的用法，與本句語境不同。",
-        "paper-mcq-20": "「主要使用數碼文件而不依賴實體紙張的」是「paperless」的用法，與本句語境不同。",
-        "paper-mcq-24": "「差距、理由、支持等非常薄弱或微小的」是「paper-thin — figurative」的用法，與本句語境不同。",
-        "paper-mcq-19": "「定期出版並刊載新聞資訊的報紙」是「newspaper」的用法，與本句語境不同。"
+        "paper-mcq-22": "本句的「paper tiger」指「表面強大但實際力量薄弱的人／組織／威脅」。",
+        "paper-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-22"
     },
@@ -1968,11 +1780,9 @@ export default {
       "masked": "The slices were ____.",
       "options": [
         "paper-mcq-23",
-        "paper-mcq-22",
-        "paper-mcq-24",
-        "paper-mcq-21",
-        "paper-mcq-20",
-        "paper-mcq-19"
+        "paper-mcq-12",
+        "paper-mcq-05",
+        "paper-mcq-08"
       ],
       "explanation": "本句的「paper-thin」指「像紙一樣極薄的」。",
       "sentenceIndex": 47,
@@ -1981,12 +1791,10 @@ export default {
         "paper-thin"
       ],
       "optionReasons": {
-        "paper-mcq-23": "本句指「像紙一樣極薄的」。",
-        "paper-mcq-22": "「表面強大但實際力量薄弱的人／組織／威脅」是「paper tiger」的用法，與本句語境不同。",
-        "paper-mcq-24": "「差距、理由、支持等非常薄弱或微小的」是「paper-thin — figurative」的用法，與本句語境不同。",
-        "paper-mcq-21": "「在薄、乾、脆或質感方面像紙的」是「papery」的用法，與本句語境不同。",
-        "paper-mcq-20": "「主要使用數碼文件而不依賴實體紙張的」是「paperless」的用法，與本句語境不同。",
-        "paper-mcq-19": "「定期出版並刊載新聞資訊的報紙」是「newspaper」的用法，與本句語境不同。"
+        "paper-mcq-23": "本句的「paper-thin」指「像紙一樣極薄的」。",
+        "paper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-23"
     },
@@ -1998,11 +1806,9 @@ export default {
       "masked": "There was only a ____ wall between the rooms.",
       "options": [
         "paper-mcq-23",
-        "paper-mcq-22",
-        "paper-mcq-24",
-        "paper-mcq-21",
-        "paper-mcq-20",
-        "paper-mcq-19"
+        "paper-mcq-09",
+        "paper-mcq-05",
+        "paper-mcq-16"
       ],
       "explanation": "本句的「paper-thin」指「像紙一樣極薄的」。",
       "sentenceIndex": 48,
@@ -2011,12 +1817,10 @@ export default {
         "paper-thin"
       ],
       "optionReasons": {
-        "paper-mcq-23": "本句指「像紙一樣極薄的」。",
-        "paper-mcq-22": "「表面強大但實際力量薄弱的人／組織／威脅」是「paper tiger」的用法，與本句語境不同。",
-        "paper-mcq-24": "「差距、理由、支持等非常薄弱或微小的」是「paper-thin — figurative」的用法，與本句語境不同。",
-        "paper-mcq-21": "「在薄、乾、脆或質感方面像紙的」是「papery」的用法，與本句語境不同。",
-        "paper-mcq-20": "「主要使用數碼文件而不依賴實體紙張的」是「paperless」的用法，與本句語境不同。",
-        "paper-mcq-19": "「定期出版並刊載新聞資訊的報紙」是「newspaper」的用法，與本句語境不同。"
+        "paper-mcq-23": "本句的「paper-thin」指「像紙一樣極薄的」。",
+        "paper-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-23"
     },
@@ -2028,11 +1832,9 @@ export default {
       "masked": "They won by a ____ margin.",
       "options": [
         "paper-mcq-24",
-        "paper-mcq-23",
-        "paper-mcq-22",
-        "paper-mcq-21",
-        "paper-mcq-20",
-        "paper-mcq-19"
+        "paper-mcq-15",
+        "paper-mcq-09",
+        "paper-mcq-05"
       ],
       "explanation": "本句的「paper-thin」指「差距、理由、支持等非常薄弱或微小的」。",
       "sentenceIndex": 49,
@@ -2041,12 +1843,10 @@ export default {
         "paper-thin"
       ],
       "optionReasons": {
-        "paper-mcq-24": "本句指「差距、理由、支持等非常薄弱或微小的」。",
-        "paper-mcq-23": "「像紙一樣極薄的」是「paper-thin — literal」的用法，與本句語境不同。",
-        "paper-mcq-22": "「表面強大但實際力量薄弱的人／組織／威脅」是「paper tiger」的用法，與本句語境不同。",
-        "paper-mcq-21": "「在薄、乾、脆或質感方面像紙的」是「papery」的用法，與本句語境不同。",
-        "paper-mcq-20": "「主要使用數碼文件而不依賴實體紙張的」是「paperless」的用法，與本句語境不同。",
-        "paper-mcq-19": "「定期出版並刊載新聞資訊的報紙」是「newspaper」的用法，與本句語境不同。"
+        "paper-mcq-24": "本句的「paper-thin」指「差距、理由、支持等非常薄弱或微小的」。",
+        "paper-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-24"
     },
@@ -2058,11 +1858,9 @@ export default {
       "masked": "His excuse was ____.",
       "options": [
         "paper-mcq-24",
-        "paper-mcq-23",
-        "paper-mcq-22",
-        "paper-mcq-21",
-        "paper-mcq-20",
-        "paper-mcq-19"
+        "paper-mcq-13",
+        "paper-mcq-02",
+        "paper-mcq-10"
       ],
       "explanation": "本句的「paper-thin」指「差距、理由、支持等非常薄弱或微小的」。",
       "sentenceIndex": 50,
@@ -2071,12 +1869,10 @@ export default {
         "paper-thin"
       ],
       "optionReasons": {
-        "paper-mcq-24": "本句指「差距、理由、支持等非常薄弱或微小的」。",
-        "paper-mcq-23": "「像紙一樣極薄的」是「paper-thin — literal」的用法，與本句語境不同。",
-        "paper-mcq-22": "「表面強大但實際力量薄弱的人／組織／威脅」是「paper tiger」的用法，與本句語境不同。",
-        "paper-mcq-21": "「在薄、乾、脆或質感方面像紙的」是「papery」的用法，與本句語境不同。",
-        "paper-mcq-20": "「主要使用數碼文件而不依賴實體紙張的」是「paperless」的用法，與本句語境不同。",
-        "paper-mcq-19": "「定期出版並刊載新聞資訊的報紙」是「newspaper」的用法，與本句語境不同。"
+        "paper-mcq-24": "本句的「paper-thin」指「差距、理由、支持等非常薄弱或微小的」。",
+        "paper-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "paper-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "paper-mcq-24"
     }
@@ -2088,5 +1884,7 @@ export default {
     "sha256": "a16341bac06f8afabbed48a131c27f1a68726ccfa99a761fdcbbb0e4fdc812ef",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

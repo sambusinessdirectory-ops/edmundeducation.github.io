@@ -243,7 +243,7 @@ export default {
     },
     {
       "id": "apologise-mcq-12",
-      "title": "表示歉意",
+      "title": "歉意",
       "form": "offer an apology",
       "en": "offer an apology",
       "zh": "表示歉意",
@@ -439,18 +439,7 @@ export default {
       "en": "apologetic smile",
       "zh": "帶歉意的微笑",
       "note": "來源詞義：帶歉意的微笑",
-      "examples": [
-        [
-          "He sounded apologetic on the phone.",
-          "他在電話裏聽起來很抱歉。",
-          "帶歉意的微笑"
-        ],
-        [
-          "She looked apologetic after realizing her mistake.",
-          "她意識到錯誤後看起來很有歉意。",
-          "帶歉意的微笑"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -529,6 +518,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "apologise-reviewed-6dc0ad3aab",
+      "title": "聽起來／看起來很抱歉",
+      "form": "apologise · source section 22",
+      "en": "聽起來／看起來很抱歉",
+      "zh": "聽起來／看起來很抱歉",
+      "note": "對照原始教材第 22 節及例句核實。",
+      "examples": [
+        [
+          "He sounded apologetic on the phone.",
+          "他在電話裏聽起來很抱歉。",
+          "聽起來／看起來很抱歉"
+        ],
+        [
+          "She looked apologetic after realizing her mistake.",
+          "她意識到錯誤後看起來很有歉意。",
+          "聽起來／看起來很抱歉"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -540,11 +551,7 @@ export default {
       "masked": "Kevin ____ the next day.",
       "options": [
         "apologise-mcq-02",
-        "apologise-mcq-01",
-        "apologise-mcq-03",
-        "apologise-mcq-04",
-        "apologise-mcq-05",
-        "apologise-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「apologised to me」指「向某人道歉」。",
       "sentenceIndex": 0,
@@ -553,12 +560,8 @@ export default {
         "apologised to me"
       ],
       "optionReasons": {
-        "apologise-mcq-02": "本句指「向某人道歉」。",
-        "apologise-mcq-01": "「道歉」與本句語境不同。",
-        "apologise-mcq-03": "「為 X 道歉」與本句語境不同。",
-        "apologise-mcq-04": "「為做了 X 道歉」與本句語境不同。",
-        "apologise-mcq-05": "「因 B 向 A 道歉」與本句語境不同。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。"
+        "apologise-mcq-02": "本句的「apologised to me」指「向某人道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-02"
     },
@@ -570,11 +573,7 @@ export default {
       "masked": "You should ____.",
       "options": [
         "apologise-mcq-02",
-        "apologise-mcq-01",
-        "apologise-mcq-03",
-        "apologise-mcq-04",
-        "apologise-mcq-05",
-        "apologise-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「apologise to her」指「向某人道歉」。",
       "sentenceIndex": 1,
@@ -583,12 +582,8 @@ export default {
         "apologise to her"
       ],
       "optionReasons": {
-        "apologise-mcq-02": "本句指「向某人道歉」。",
-        "apologise-mcq-01": "「道歉」與本句語境不同。",
-        "apologise-mcq-03": "「為 X 道歉」與本句語境不同。",
-        "apologise-mcq-04": "「為做了 X 道歉」與本句語境不同。",
-        "apologise-mcq-05": "「因 B 向 A 道歉」與本句語境不同。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。"
+        "apologise-mcq-02": "本句的「apologise to her」指「向某人道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-02"
     },
@@ -600,11 +595,7 @@ export default {
       "masked": "He finally ____.",
       "options": [
         "apologise-mcq-02",
-        "apologise-mcq-01",
-        "apologise-mcq-03",
-        "apologise-mcq-04",
-        "apologise-mcq-05",
-        "apologise-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「apologised to his teammate」指「向某人道歉」。",
       "sentenceIndex": 2,
@@ -613,12 +604,8 @@ export default {
         "apologised to his teammate"
       ],
       "optionReasons": {
-        "apologise-mcq-02": "本句指「向某人道歉」。",
-        "apologise-mcq-01": "「道歉」與本句語境不同。",
-        "apologise-mcq-03": "「為 X 道歉」與本句語境不同。",
-        "apologise-mcq-04": "「為做了 X 道歉」與本句語境不同。",
-        "apologise-mcq-05": "「因 B 向 A 道歉」與本句語境不同。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。"
+        "apologise-mcq-02": "本句的「apologised to his teammate」指「向某人道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-02"
     },
@@ -630,11 +617,7 @@ export default {
       "masked": "He ____.",
       "options": [
         "apologise-mcq-03",
-        "apologise-mcq-02",
-        "apologise-mcq-04",
-        "apologise-mcq-01",
-        "apologise-mcq-05",
-        "apologise-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「apologised for his behaviour」指「為 X 道歉」。",
       "sentenceIndex": 3,
@@ -643,12 +626,8 @@ export default {
         "apologised for his behaviour"
       ],
       "optionReasons": {
-        "apologise-mcq-03": "本句指「為 X 道歉」。",
-        "apologise-mcq-02": "「向某人道歉」與本句語境不同。",
-        "apologise-mcq-04": "「為做了 X 道歉」與本句語境不同。",
-        "apologise-mcq-01": "「道歉」與本句語境不同。",
-        "apologise-mcq-05": "「因 B 向 A 道歉」與本句語境不同。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。"
+        "apologise-mcq-03": "本句的「apologised for his behaviour」指「為 X 道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-03"
     },
@@ -660,11 +639,7 @@ export default {
       "masked": "She ____.",
       "options": [
         "apologise-mcq-03",
-        "apologise-mcq-02",
-        "apologise-mcq-04",
-        "apologise-mcq-01",
-        "apologise-mcq-05",
-        "apologise-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「apologised for the delay」指「為 X 道歉」。",
       "sentenceIndex": 4,
@@ -673,12 +648,8 @@ export default {
         "apologised for the delay"
       ],
       "optionReasons": {
-        "apologise-mcq-03": "本句指「為 X 道歉」。",
-        "apologise-mcq-02": "「向某人道歉」與本句語境不同。",
-        "apologise-mcq-04": "「為做了 X 道歉」與本句語境不同。",
-        "apologise-mcq-01": "「道歉」與本句語境不同。",
-        "apologise-mcq-05": "「因 B 向 A 道歉」與本句語境不同。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。"
+        "apologise-mcq-03": "本句的「apologised for the delay」指「為 X 道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-03"
     },
@@ -690,11 +661,7 @@ export default {
       "masked": "He ____ in front of the group.",
       "options": [
         "apologise-mcq-04",
-        "apologise-mcq-03",
-        "apologise-mcq-05",
-        "apologise-mcq-02",
-        "apologise-mcq-06",
-        "apologise-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「apologised for embarrassing me」指「為做了 X 道歉」。",
       "sentenceIndex": 5,
@@ -703,12 +670,8 @@ export default {
         "apologised for embarrassing me"
       ],
       "optionReasons": {
-        "apologise-mcq-04": "本句指「為做了 X 道歉」。",
-        "apologise-mcq-03": "「為 X 道歉」與本句語境不同。",
-        "apologise-mcq-05": "「因 B 向 A 道歉」與本句語境不同。",
-        "apologise-mcq-02": "「向某人道歉」與本句語境不同。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。",
-        "apologise-mcq-01": "「道歉」與本句語境不同。"
+        "apologise-mcq-04": "本句的「apologised for embarrassing me」指「為做了 X 道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-04"
     },
@@ -720,11 +683,7 @@ export default {
       "masked": "She ____.",
       "options": [
         "apologise-mcq-04",
-        "apologise-mcq-03",
-        "apologise-mcq-05",
-        "apologise-mcq-02",
-        "apologise-mcq-06",
-        "apologise-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「apologised for arriving late」指「為做了 X 道歉」。",
       "sentenceIndex": 6,
@@ -733,12 +692,8 @@ export default {
         "apologised for arriving late"
       ],
       "optionReasons": {
-        "apologise-mcq-04": "本句指「為做了 X 道歉」。",
-        "apologise-mcq-03": "「為 X 道歉」與本句語境不同。",
-        "apologise-mcq-05": "「因 B 向 A 道歉」與本句語境不同。",
-        "apologise-mcq-02": "「向某人道歉」與本句語境不同。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。",
-        "apologise-mcq-01": "「道歉」與本句語境不同。"
+        "apologise-mcq-04": "本句的「apologised for arriving late」指「為做了 X 道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-04"
     },
@@ -750,11 +705,8 @@ export default {
       "masked": "Kevin ____.",
       "options": [
         "apologise-mcq-05",
-        "apologise-mcq-04",
-        "apologise-mcq-06",
-        "apologise-mcq-03",
-        "apologise-mcq-07",
-        "apologise-mcq-02"
+        "apologise-reviewed-6dc0ad3aab",
+        "apologise-mcq-23"
       ],
       "explanation": "本句的「apologised to me for blaming me unfairly」指「因 B 向 A 道歉」。",
       "sentenceIndex": 7,
@@ -763,12 +715,9 @@ export default {
         "apologised to me for blaming me unfairly"
       ],
       "optionReasons": {
-        "apologise-mcq-05": "本句指「因 B 向 A 道歉」。",
-        "apologise-mcq-04": "「為做了 X 道歉」與本句語境不同。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。",
-        "apologise-mcq-03": "「為 X 道歉」與本句語境不同。",
-        "apologise-mcq-07": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-02": "「向某人道歉」與本句語境不同。"
+        "apologise-mcq-05": "本句的「apologised to me for blaming me unfairly」指「因 B 向 A 道歉」。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。",
+        "apologise-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-05"
     },
@@ -780,11 +729,8 @@ export default {
       "masked": "I ____.",
       "options": [
         "apologise-mcq-05",
-        "apologise-mcq-04",
-        "apologise-mcq-06",
-        "apologise-mcq-03",
-        "apologise-mcq-07",
-        "apologise-mcq-02"
+        "apologise-reviewed-6dc0ad3aab",
+        "apologise-mcq-23"
       ],
       "explanation": "本句的「apologised to my teacher for missing the class」指「因 B 向 A 道歉」。",
       "sentenceIndex": 8,
@@ -793,12 +739,9 @@ export default {
         "apologised to my teacher for missing the class"
       ],
       "optionReasons": {
-        "apologise-mcq-05": "本句指「因 B 向 A 道歉」。",
-        "apologise-mcq-04": "「為做了 X 道歉」與本句語境不同。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。",
-        "apologise-mcq-03": "「為 X 道歉」與本句語境不同。",
-        "apologise-mcq-07": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-02": "「向某人道歉」與本句語境不同。"
+        "apologise-mcq-05": "本句的「apologised to my teacher for missing the class」指「因 B 向 A 道歉」。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。",
+        "apologise-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-05"
     },
@@ -810,11 +753,8 @@ export default {
       "masked": "He came over and ____.",
       "options": [
         "apologise-mcq-06",
-        "apologise-mcq-05",
-        "apologise-mcq-07",
-        "apologise-mcq-04",
-        "apologise-mcq-08",
-        "apologise-mcq-03"
+        "apologise-reviewed-6dc0ad3aab",
+        "apologise-mcq-23"
       ],
       "explanation": "本句的「apologised properly」指「認真道歉」。",
       "sentenceIndex": 9,
@@ -823,12 +763,9 @@ export default {
         "apologised properly"
       ],
       "optionReasons": {
-        "apologise-mcq-06": "本句指「認真道歉」。",
-        "apologise-mcq-05": "「因 B 向 A 道歉」與本句語境不同。",
-        "apologise-mcq-07": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-04": "「為做了 X 道歉」與本句語境不同。",
-        "apologise-mcq-08": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-03": "「為 X 道歉」與本句語境不同。"
+        "apologise-mcq-06": "本句的「apologised properly」指「認真道歉」。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。",
+        "apologise-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-06"
     },
@@ -840,11 +777,7 @@ export default {
       "masked": "If you hurt someone, you should ____.",
       "options": [
         "apologise-mcq-06",
-        "apologise-mcq-05",
-        "apologise-mcq-07",
-        "apologise-mcq-04",
-        "apologise-mcq-08",
-        "apologise-mcq-03"
+        "apologise-mcq-19"
       ],
       "explanation": "本句的「apologise properly」指「認真道歉」。",
       "sentenceIndex": 10,
@@ -853,12 +786,8 @@ export default {
         "apologise properly"
       ],
       "optionReasons": {
-        "apologise-mcq-06": "本句指「認真道歉」。",
-        "apologise-mcq-05": "「因 B 向 A 道歉」與本句語境不同。",
-        "apologise-mcq-07": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-04": "「為做了 X 道歉」與本句語境不同。",
-        "apologise-mcq-08": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-03": "「為 X 道歉」與本句語境不同。"
+        "apologise-mcq-06": "本句的「apologise properly」指「認真道歉」。",
+        "apologise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-06"
     },
@@ -870,11 +799,7 @@ export default {
       "masked": "She ____ for what she had said.",
       "options": [
         "apologise-mcq-07",
-        "apologise-mcq-06",
-        "apologise-mcq-08",
-        "apologise-mcq-05",
-        "apologise-mcq-09",
-        "apologise-mcq-04"
+        "apologise-mcq-19"
       ],
       "explanation": "本句的「apologised sincerely」指「真誠道歉」。",
       "sentenceIndex": 11,
@@ -883,12 +808,8 @@ export default {
         "apologised sincerely"
       ],
       "optionReasons": {
-        "apologise-mcq-07": "本句指「真誠道歉」。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。",
-        "apologise-mcq-08": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-05": "「因 B 向 A 道歉」與本句語境不同。",
-        "apologise-mcq-09": "「親自道歉」與本句語境不同。",
-        "apologise-mcq-04": "「為做了 X 道歉」與本句語境不同。"
+        "apologise-mcq-07": "本句的「apologised sincerely」指「真誠道歉」。",
+        "apologise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-07"
     },
@@ -900,11 +821,8 @@ export default {
       "masked": "He ____ and accepted responsibility.",
       "options": [
         "apologise-mcq-07",
-        "apologise-mcq-06",
-        "apologise-mcq-08",
-        "apologise-mcq-05",
-        "apologise-mcq-09",
-        "apologise-mcq-04"
+        "apologise-mcq-22",
+        "apologise-reviewed-6dc0ad3aab"
       ],
       "explanation": "本句的「genuinely apologised」指「真誠道歉」。",
       "sentenceIndex": 12,
@@ -913,12 +831,9 @@ export default {
         "genuinely apologised"
       ],
       "optionReasons": {
-        "apologise-mcq-07": "本句指「真誠道歉」。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。",
-        "apologise-mcq-08": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-05": "「因 B 向 A 道歉」與本句語境不同。",
-        "apologise-mcq-09": "「親自道歉」與本句語境不同。",
-        "apologise-mcq-04": "「為做了 X 道歉」與本句語境不同。"
+        "apologise-mcq-07": "本句的「genuinely apologised」指「真誠道歉」。",
+        "apologise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-07"
     },
@@ -930,11 +845,8 @@ export default {
       "masked": "The company ____ for the mistake.",
       "options": [
         "apologise-mcq-08",
-        "apologise-mcq-07",
-        "apologise-mcq-09",
-        "apologise-mcq-06",
-        "apologise-mcq-10",
-        "apologise-mcq-05"
+        "apologise-reviewed-6dc0ad3aab",
+        "apologise-mcq-22"
       ],
       "explanation": "本句的「apologised publicly」指「公開道歉」。",
       "sentenceIndex": 13,
@@ -943,12 +855,9 @@ export default {
         "apologised publicly"
       ],
       "optionReasons": {
-        "apologise-mcq-08": "本句指「公開道歉」。",
-        "apologise-mcq-07": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-09": "「親自道歉」與本句語境不同。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。",
-        "apologise-mcq-10": "「道歉；歉意」與本句語境不同。",
-        "apologise-mcq-05": "「因 B 向 A 道歉」與本句語境不同。"
+        "apologise-mcq-08": "本句的「apologised publicly」指「公開道歉」。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。",
+        "apologise-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-08"
     },
@@ -960,11 +869,8 @@ export default {
       "masked": "He chose to ____ because the criticism had also been public.",
       "options": [
         "apologise-mcq-08",
-        "apologise-mcq-07",
-        "apologise-mcq-09",
-        "apologise-mcq-06",
-        "apologise-mcq-10",
-        "apologise-mcq-05"
+        "apologise-reviewed-6dc0ad3aab",
+        "apologise-mcq-23"
       ],
       "explanation": "本句的「apologise publicly」指「公開道歉」。",
       "sentenceIndex": 14,
@@ -973,12 +879,9 @@ export default {
         "apologise publicly"
       ],
       "optionReasons": {
-        "apologise-mcq-08": "本句指「公開道歉」。",
-        "apologise-mcq-07": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-09": "「親自道歉」與本句語境不同。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。",
-        "apologise-mcq-10": "「道歉；歉意」與本句語境不同。",
-        "apologise-mcq-05": "「因 B 向 A 道歉」與本句語境不同。"
+        "apologise-mcq-08": "本句的「apologise publicly」指「公開道歉」。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。",
+        "apologise-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-08"
     },
@@ -990,11 +893,7 @@ export default {
       "masked": "He came to ____.",
       "options": [
         "apologise-mcq-09",
-        "apologise-mcq-08",
-        "apologise-mcq-10",
-        "apologise-mcq-07",
-        "apologise-mcq-11",
-        "apologise-mcq-06"
+        "apologise-mcq-19"
       ],
       "explanation": "本句的「apologise in person」指「親自道歉」。",
       "sentenceIndex": 15,
@@ -1003,12 +902,8 @@ export default {
         "apologise in person"
       ],
       "optionReasons": {
-        "apologise-mcq-09": "本句指「親自道歉」。",
-        "apologise-mcq-08": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-10": "「道歉；歉意」與本句語境不同。",
-        "apologise-mcq-07": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-11": "「作出道歉」與本句語境不同。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。"
+        "apologise-mcq-09": "本句的「apologise in person」指「親自道歉」。",
+        "apologise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-09"
     },
@@ -1020,11 +915,8 @@ export default {
       "masked": "She felt that a text message was not enough, so she ____.",
       "options": [
         "apologise-mcq-09",
-        "apologise-mcq-08",
-        "apologise-mcq-10",
-        "apologise-mcq-07",
-        "apologise-mcq-11",
-        "apologise-mcq-06"
+        "apologise-mcq-22",
+        "apologise-reviewed-6dc0ad3aab"
       ],
       "explanation": "本句的「apologised in person」指「親自道歉」。",
       "sentenceIndex": 16,
@@ -1033,12 +925,9 @@ export default {
         "apologised in person"
       ],
       "optionReasons": {
-        "apologise-mcq-09": "本句指「親自道歉」。",
-        "apologise-mcq-08": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-10": "「道歉；歉意」與本句語境不同。",
-        "apologise-mcq-07": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-11": "「作出道歉」與本句語境不同。",
-        "apologise-mcq-06": "「認真道歉」與本句語境不同。"
+        "apologise-mcq-09": "本句的「apologised in person」指「親自道歉」。",
+        "apologise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-09"
     },
@@ -1050,11 +939,7 @@ export default {
       "masked": "His ____ sounded sincere.",
       "options": [
         "apologise-mcq-10",
-        "apologise-mcq-09",
-        "apologise-mcq-11",
-        "apologise-mcq-08",
-        "apologise-mcq-12",
-        "apologise-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「apology」指「道歉；歉意」。",
       "sentenceIndex": 17,
@@ -1063,12 +948,8 @@ export default {
         "apology"
       ],
       "optionReasons": {
-        "apologise-mcq-10": "本句指「道歉；歉意」。",
-        "apologise-mcq-09": "「親自道歉」與本句語境不同。",
-        "apologise-mcq-11": "「作出道歉」與本句語境不同。",
-        "apologise-mcq-08": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-12": "「表示歉意」與本句語境不同。",
-        "apologise-mcq-07": "「真誠道歉」與本句語境不同。"
+        "apologise-mcq-10": "本句的「apology」指「道歉；歉意」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-10"
     },
@@ -1080,11 +961,7 @@ export default {
       "masked": "I accepted his ____.",
       "options": [
         "apologise-mcq-10",
-        "apologise-mcq-09",
-        "apologise-mcq-11",
-        "apologise-mcq-08",
-        "apologise-mcq-12",
-        "apologise-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「apology」指「道歉；歉意」。",
       "sentenceIndex": 18,
@@ -1093,12 +970,8 @@ export default {
         "apology"
       ],
       "optionReasons": {
-        "apologise-mcq-10": "本句指「道歉；歉意」。",
-        "apologise-mcq-09": "「親自道歉」與本句語境不同。",
-        "apologise-mcq-11": "「作出道歉」與本句語境不同。",
-        "apologise-mcq-08": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-12": "「表示歉意」與本句語境不同。",
-        "apologise-mcq-07": "「真誠道歉」與本句語境不同。"
+        "apologise-mcq-10": "本句的「apology」指「道歉；歉意」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-10"
     },
@@ -1110,11 +983,7 @@ export default {
       "masked": "He ____ to the whole group.",
       "options": [
         "apologise-mcq-11",
-        "apologise-mcq-10",
-        "apologise-mcq-12",
-        "apologise-mcq-09",
-        "apologise-mcq-13",
-        "apologise-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「made an apology」指「作出道歉」。",
       "sentenceIndex": 19,
@@ -1123,12 +992,8 @@ export default {
         "made an apology"
       ],
       "optionReasons": {
-        "apologise-mcq-11": "本句指「作出道歉」。",
-        "apologise-mcq-10": "「道歉；歉意」與本句語境不同。",
-        "apologise-mcq-12": "「表示歉意」與本句語境不同。",
-        "apologise-mcq-09": "「親自道歉」與本句語境不同。",
-        "apologise-mcq-13": "「應向某人道歉」與本句語境不同。",
-        "apologise-mcq-08": "「公開道歉」與本句語境不同。"
+        "apologise-mcq-11": "本句的「made an apology」指「作出道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-11"
     },
@@ -1140,11 +1005,7 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "apologise-mcq-11",
-        "apologise-mcq-10",
-        "apologise-mcq-12",
-        "apologise-mcq-09",
-        "apologise-mcq-13",
-        "apologise-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「made a formal apology」指「作出道歉」。",
       "sentenceIndex": 20,
@@ -1153,12 +1014,8 @@ export default {
         "made a formal apology"
       ],
       "optionReasons": {
-        "apologise-mcq-11": "本句指「作出道歉」。",
-        "apologise-mcq-10": "「道歉；歉意」與本句語境不同。",
-        "apologise-mcq-12": "「表示歉意」與本句語境不同。",
-        "apologise-mcq-09": "「親自道歉」與本句語境不同。",
-        "apologise-mcq-13": "「應向某人道歉」與本句語境不同。",
-        "apologise-mcq-08": "「公開道歉」與本句語境不同。"
+        "apologise-mcq-11": "本句的「made a formal apology」指「作出道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-11"
     },
@@ -1170,11 +1027,7 @@ export default {
       "masked": "The company ____ to customers.",
       "options": [
         "apologise-mcq-12",
-        "apologise-mcq-11",
-        "apologise-mcq-13",
-        "apologise-mcq-10",
-        "apologise-mcq-14",
-        "apologise-mcq-09"
+        "contrast-purchase"
       ],
       "explanation": "本句的「offered an apology」指「表示歉意」。",
       "sentenceIndex": 21,
@@ -1183,12 +1036,8 @@ export default {
         "offered an apology"
       ],
       "optionReasons": {
-        "apologise-mcq-12": "本句指「表示歉意」。",
-        "apologise-mcq-11": "「作出道歉」與本句語境不同。",
-        "apologise-mcq-13": "「應向某人道歉」與本句語境不同。",
-        "apologise-mcq-10": "「道歉；歉意」與本句語境不同。",
-        "apologise-mcq-14": "「接受道歉」與本句語境不同。",
-        "apologise-mcq-09": "「親自道歉」與本句語境不同。"
+        "apologise-mcq-12": "本句的「offered an apology」指「表示歉意」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-12"
     },
@@ -1200,11 +1049,7 @@ export default {
       "masked": "He ____.",
       "options": [
         "apologise-mcq-12",
-        "apologise-mcq-11",
-        "apologise-mcq-13",
-        "apologise-mcq-10",
-        "apologise-mcq-14",
-        "apologise-mcq-09"
+        "contrast-purchase"
       ],
       "explanation": "本句的「offered a sincere apology」指「表示歉意」。",
       "sentenceIndex": 22,
@@ -1213,12 +1058,8 @@ export default {
         "offered a sincere apology"
       ],
       "optionReasons": {
-        "apologise-mcq-12": "本句指「表示歉意」。",
-        "apologise-mcq-11": "「作出道歉」與本句語境不同。",
-        "apologise-mcq-13": "「應向某人道歉」與本句語境不同。",
-        "apologise-mcq-10": "「道歉；歉意」與本句語境不同。",
-        "apologise-mcq-14": "「接受道歉」與本句語境不同。",
-        "apologise-mcq-09": "「親自道歉」與本句語境不同。"
+        "apologise-mcq-12": "本句的「offered a sincere apology」指「表示歉意」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-12"
     },
@@ -1230,11 +1071,7 @@ export default {
       "masked": "You ____.",
       "options": [
         "apologise-mcq-13",
-        "apologise-mcq-12",
-        "apologise-mcq-14",
-        "apologise-mcq-11",
-        "apologise-mcq-15",
-        "apologise-mcq-10"
+        "apologise-mcq-19"
       ],
       "explanation": "本句的「owe her an apology」指「應向某人道歉」。",
       "sentenceIndex": 23,
@@ -1243,12 +1080,8 @@ export default {
         "owe her an apology"
       ],
       "optionReasons": {
-        "apologise-mcq-13": "本句指「應向某人道歉」。",
-        "apologise-mcq-12": "「表示歉意」與本句語境不同。",
-        "apologise-mcq-14": "「接受道歉」與本句語境不同。",
-        "apologise-mcq-11": "「作出道歉」與本句語境不同。",
-        "apologise-mcq-15": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-10": "「道歉；歉意」與本句語境不同。"
+        "apologise-mcq-13": "本句的「owe her an apology」指「應向某人道歉」。",
+        "apologise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-13"
     },
@@ -1260,11 +1093,8 @@ export default {
       "masked": "Kevin realized that he ____.",
       "options": [
         "apologise-mcq-13",
-        "apologise-mcq-12",
-        "apologise-mcq-14",
-        "apologise-mcq-11",
-        "apologise-mcq-15",
-        "apologise-mcq-10"
+        "apologise-reviewed-6dc0ad3aab",
+        "apologise-mcq-23"
       ],
       "explanation": "本句的「owed me an apology」指「應向某人道歉」。",
       "sentenceIndex": 24,
@@ -1273,12 +1103,9 @@ export default {
         "owed me an apology"
       ],
       "optionReasons": {
-        "apologise-mcq-13": "本句指「應向某人道歉」。",
-        "apologise-mcq-12": "「表示歉意」與本句語境不同。",
-        "apologise-mcq-14": "「接受道歉」與本句語境不同。",
-        "apologise-mcq-11": "「作出道歉」與本句語境不同。",
-        "apologise-mcq-15": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-10": "「道歉；歉意」與本句語境不同。"
+        "apologise-mcq-13": "本句的「owed me an apology」指「應向某人道歉」。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。",
+        "apologise-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-13"
     },
@@ -1290,11 +1117,7 @@ export default {
       "masked": "She wasn't ready to ____ immediately.",
       "options": [
         "apologise-mcq-14",
-        "apologise-mcq-13",
-        "apologise-mcq-15",
-        "apologise-mcq-12",
-        "apologise-mcq-16",
-        "apologise-mcq-11"
+        "apologise-mcq-19"
       ],
       "explanation": "本句的「accept the apology」指「接受道歉」。",
       "sentenceIndex": 25,
@@ -1303,12 +1126,8 @@ export default {
         "accept the apology"
       ],
       "optionReasons": {
-        "apologise-mcq-14": "本句指「接受道歉」。",
-        "apologise-mcq-13": "「應向某人道歉」與本句語境不同。",
-        "apologise-mcq-15": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-12": "「表示歉意」與本句語境不同。",
-        "apologise-mcq-16": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-11": "「作出道歉」與本句語境不同。"
+        "apologise-mcq-14": "本句的「accept the apology」指「接受道歉」。",
+        "apologise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-14"
     },
@@ -1320,11 +1139,8 @@ export default {
       "masked": "She ____ because she felt it was insincere.",
       "options": [
         "apologise-mcq-14",
-        "apologise-mcq-13",
-        "apologise-mcq-15",
-        "apologise-mcq-12",
-        "apologise-mcq-16",
-        "apologise-mcq-11"
+        "apologise-mcq-23",
+        "apologise-reviewed-6dc0ad3aab"
       ],
       "explanation": "本句的「refused his apology」指「接受道歉」。",
       "sentenceIndex": 26,
@@ -1333,12 +1149,9 @@ export default {
         "refused his apology"
       ],
       "optionReasons": {
-        "apologise-mcq-14": "本句指「接受道歉」。",
-        "apologise-mcq-13": "「應向某人道歉」與本句語境不同。",
-        "apologise-mcq-15": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-12": "「表示歉意」與本句語境不同。",
-        "apologise-mcq-16": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-11": "「作出道歉」與本句語境不同。"
+        "apologise-mcq-14": "本句的「refused his apology」指「接受道歉」。",
+        "apologise-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-14"
     },
@@ -1350,11 +1163,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "apologise-mcq-14",
-        "apologise-mcq-13",
-        "apologise-mcq-15",
-        "apologise-mcq-12",
-        "apologise-mcq-16",
-        "apologise-mcq-11"
+        "apologise-mcq-22",
+        "apologise-reviewed-6dc0ad3aab"
       ],
       "explanation": "本句的「rejected the apology」指「接受道歉」。",
       "sentenceIndex": 27,
@@ -1363,12 +1173,9 @@ export default {
         "rejected the apology"
       ],
       "optionReasons": {
-        "apologise-mcq-14": "本句指「接受道歉」。",
-        "apologise-mcq-13": "「應向某人道歉」與本句語境不同。",
-        "apologise-mcq-15": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-12": "「表示歉意」與本句語境不同。",
-        "apologise-mcq-16": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-11": "「作出道歉」與本句語境不同。"
+        "apologise-mcq-14": "本句的「rejected the apology」指「接受道歉」。",
+        "apologise-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-14"
     },
@@ -1380,11 +1187,8 @@ export default {
       "masked": "It felt like a ____.",
       "options": [
         "apologise-mcq-15",
-        "apologise-mcq-14",
-        "apologise-mcq-16",
-        "apologise-mcq-13",
-        "apologise-mcq-17",
-        "apologise-mcq-12"
+        "apologise-reviewed-6dc0ad3aab",
+        "apologise-mcq-23"
       ],
       "explanation": "本句的「genuine apology」指「真誠道歉」。",
       "sentenceIndex": 28,
@@ -1393,12 +1197,9 @@ export default {
         "genuine apology"
       ],
       "optionReasons": {
-        "apologise-mcq-15": "本句指「真誠道歉」。",
-        "apologise-mcq-14": "「接受道歉」與本句語境不同。",
-        "apologise-mcq-16": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-13": "「應向某人道歉」與本句語境不同。",
-        "apologise-mcq-17": "「正式道歉」與本句語境不同。",
-        "apologise-mcq-12": "「表示歉意」與本句語境不同。"
+        "apologise-mcq-15": "本句的「genuine apology」指「真誠道歉」。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。",
+        "apologise-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-15"
     },
@@ -1410,11 +1211,8 @@ export default {
       "masked": "A ____ can repair trust.",
       "options": [
         "apologise-mcq-15",
-        "apologise-mcq-14",
-        "apologise-mcq-16",
-        "apologise-mcq-13",
-        "apologise-mcq-17",
-        "apologise-mcq-12"
+        "apologise-mcq-23",
+        "apologise-reviewed-6dc0ad3aab"
       ],
       "explanation": "本句的「sincere apology」指「真誠道歉」。",
       "sentenceIndex": 29,
@@ -1423,12 +1221,9 @@ export default {
         "sincere apology"
       ],
       "optionReasons": {
-        "apologise-mcq-15": "本句指「真誠道歉」。",
-        "apologise-mcq-14": "「接受道歉」與本句語境不同。",
-        "apologise-mcq-16": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-13": "「應向某人道歉」與本句語境不同。",
-        "apologise-mcq-17": "「正式道歉」與本句語境不同。",
-        "apologise-mcq-12": "「表示歉意」與本句語境不同。"
+        "apologise-mcq-15": "本句的「sincere apology」指「真誠道歉」。",
+        "apologise-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-15"
     },
@@ -1440,11 +1235,8 @@ export default {
       "masked": "The organization issued a ____.",
       "options": [
         "apologise-mcq-16",
-        "apologise-mcq-15",
-        "apologise-mcq-17",
-        "apologise-mcq-14",
-        "apologise-mcq-18",
-        "apologise-mcq-13"
+        "apologise-mcq-23",
+        "apologise-reviewed-6dc0ad3aab"
       ],
       "explanation": "本句的「public apology」指「公開道歉」。",
       "sentenceIndex": 30,
@@ -1453,12 +1245,9 @@ export default {
         "public apology"
       ],
       "optionReasons": {
-        "apologise-mcq-16": "本句指「公開道歉」。",
-        "apologise-mcq-15": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-17": "「正式道歉」與本句語境不同。",
-        "apologise-mcq-14": "「接受道歉」與本句語境不同。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。",
-        "apologise-mcq-13": "「應向某人道歉」與本句語境不同。"
+        "apologise-mcq-16": "本句的「public apology」指「公開道歉」。",
+        "apologise-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-16"
     },
@@ -1470,11 +1259,8 @@ export default {
       "masked": "He made a ____ for his comments.",
       "options": [
         "apologise-mcq-16",
-        "apologise-mcq-15",
-        "apologise-mcq-17",
-        "apologise-mcq-14",
-        "apologise-mcq-18",
-        "apologise-mcq-13"
+        "apologise-reviewed-6dc0ad3aab",
+        "apologise-mcq-22"
       ],
       "explanation": "本句的「public apology」指「公開道歉」。",
       "sentenceIndex": 31,
@@ -1483,12 +1269,9 @@ export default {
         "public apology"
       ],
       "optionReasons": {
-        "apologise-mcq-16": "本句指「公開道歉」。",
-        "apologise-mcq-15": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-17": "「正式道歉」與本句語境不同。",
-        "apologise-mcq-14": "「接受道歉」與本句語境不同。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。",
-        "apologise-mcq-13": "「應向某人道歉」與本句語境不同。"
+        "apologise-mcq-16": "本句的「public apology」指「公開道歉」。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。",
+        "apologise-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-16"
     },
@@ -1500,11 +1283,7 @@ export default {
       "masked": "The school sent a ____ to the family.",
       "options": [
         "apologise-mcq-17",
-        "apologise-mcq-16",
-        "apologise-mcq-18",
-        "apologise-mcq-15",
-        "apologise-mcq-19",
-        "apologise-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「formal apology」指「正式道歉」。",
       "sentenceIndex": 32,
@@ -1513,12 +1292,8 @@ export default {
         "formal apology"
       ],
       "optionReasons": {
-        "apologise-mcq-17": "本句指「正式道歉」。",
-        "apologise-mcq-16": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。",
-        "apologise-mcq-15": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-14": "「接受道歉」與本句語境不同。"
+        "apologise-mcq-17": "本句的「formal apology」指「正式道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-17"
     },
@@ -1530,11 +1305,7 @@ export default {
       "masked": "She requested a ____.",
       "options": [
         "apologise-mcq-17",
-        "apologise-mcq-16",
-        "apologise-mcq-18",
-        "apologise-mcq-15",
-        "apologise-mcq-19",
-        "apologise-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「formal apology」指「正式道歉」。",
       "sentenceIndex": 33,
@@ -1543,12 +1314,8 @@ export default {
         "formal apology"
       ],
       "optionReasons": {
-        "apologise-mcq-17": "本句指「正式道歉」。",
-        "apologise-mcq-16": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。",
-        "apologise-mcq-15": "「真誠道歉」與本句語境不同。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-14": "「接受道歉」與本句語境不同。"
+        "apologise-mcq-17": "本句的「formal apology」指「正式道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-17"
     },
@@ -1560,11 +1327,7 @@ export default {
       "masked": "He submitted a ____.",
       "options": [
         "apologise-mcq-18",
-        "apologise-mcq-17",
-        "apologise-mcq-19",
-        "apologise-mcq-16",
-        "apologise-mcq-20",
-        "apologise-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「written apology」指「書面道歉」。",
       "sentenceIndex": 34,
@@ -1573,12 +1336,8 @@ export default {
         "written apology"
       ],
       "optionReasons": {
-        "apologise-mcq-18": "本句指「書面道歉」。",
-        "apologise-mcq-17": "「正式道歉」與本句語境不同。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-16": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-20": "「帶歉意的微笑」與本句語境不同。",
-        "apologise-mcq-15": "「真誠道歉」與本句語境不同。"
+        "apologise-mcq-18": "本句的「written apology」指「書面道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-18"
     },
@@ -1590,11 +1349,7 @@ export default {
       "masked": "The company sent a ____ by email.",
       "options": [
         "apologise-mcq-18",
-        "apologise-mcq-17",
-        "apologise-mcq-19",
-        "apologise-mcq-16",
-        "apologise-mcq-20",
-        "apologise-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「written apology」指「書面道歉」。",
       "sentenceIndex": 35,
@@ -1603,12 +1358,8 @@ export default {
         "written apology"
       ],
       "optionReasons": {
-        "apologise-mcq-18": "本句指「書面道歉」。",
-        "apologise-mcq-17": "「正式道歉」與本句語境不同。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-16": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-20": "「帶歉意的微笑」與本句語境不同。",
-        "apologise-mcq-15": "「真誠道歉」與本句語境不同。"
+        "apologise-mcq-18": "本句的「written apology」指「書面道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-18"
     },
@@ -1620,11 +1371,7 @@ export default {
       "masked": "His ____ was sincere.",
       "options": [
         "apologise-mcq-18",
-        "apologise-mcq-17",
-        "apologise-mcq-19",
-        "apologise-mcq-16",
-        "apologise-mcq-20",
-        "apologise-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「apology for the mistake」指「書面道歉」。",
       "sentenceIndex": 36,
@@ -1633,12 +1380,8 @@ export default {
         "apology for the mistake"
       ],
       "optionReasons": {
-        "apologise-mcq-18": "本句指「書面道歉」。",
-        "apologise-mcq-17": "「正式道歉」與本句語境不同。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-16": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-20": "「帶歉意的微笑」與本句語境不同。",
-        "apologise-mcq-15": "「真誠道歉」與本句語境不同。"
+        "apologise-mcq-18": "本句的「apology for the mistake」指「書面道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-18"
     },
@@ -1650,11 +1393,7 @@ export default {
       "masked": "We received an ____.",
       "options": [
         "apologise-mcq-18",
-        "apologise-mcq-17",
-        "apologise-mcq-19",
-        "apologise-mcq-16",
-        "apologise-mcq-20",
-        "apologise-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「apology for the delay」指「書面道歉」。",
       "sentenceIndex": 37,
@@ -1663,12 +1402,8 @@ export default {
         "apology for the delay"
       ],
       "optionReasons": {
-        "apologise-mcq-18": "本句指「書面道歉」。",
-        "apologise-mcq-17": "「正式道歉」與本句語境不同。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-16": "「公開道歉」與本句語境不同。",
-        "apologise-mcq-20": "「帶歉意的微笑」與本句語境不同。",
-        "apologise-mcq-15": "「真誠道歉」與本句語境不同。"
+        "apologise-mcq-18": "本句的「apology for the delay」指「書面道歉」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-18"
     },
@@ -1680,11 +1415,7 @@ export default {
       "masked": "He looked genuinely ____.",
       "options": [
         "apologise-mcq-19",
-        "apologise-mcq-18",
-        "apologise-mcq-20",
-        "apologise-mcq-17",
-        "apologise-mcq-21",
-        "apologise-mcq-16"
+        "apologise-mcq-08"
       ],
       "explanation": "本句的「apologetic」指「抱歉的；帶歉意的」。",
       "sentenceIndex": 40,
@@ -1693,12 +1424,8 @@ export default {
         "apologetic"
       ],
       "optionReasons": {
-        "apologise-mcq-19": "本句指「抱歉的；帶歉意的」。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。",
-        "apologise-mcq-20": "「帶歉意的微笑」與本句語境不同。",
-        "apologise-mcq-17": "「正式道歉」與本句語境不同。",
-        "apologise-mcq-21": "「帶歉意地」與本句語境不同。",
-        "apologise-mcq-16": "「公開道歉」與本句語境不同。"
+        "apologise-mcq-19": "本句的「apologetic」指「抱歉的；帶歉意的」。",
+        "apologise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-19"
     },
@@ -1710,11 +1437,7 @@ export default {
       "masked": "She gave me an ____.",
       "options": [
         "apologise-mcq-19",
-        "apologise-mcq-18",
-        "apologise-mcq-20",
-        "apologise-mcq-17",
-        "apologise-mcq-21",
-        "apologise-mcq-16"
+        "apologise-mcq-14"
       ],
       "explanation": "本句的「apologetic smile」指「抱歉的；帶歉意的」。",
       "sentenceIndex": 41,
@@ -1723,74 +1446,62 @@ export default {
         "apologetic smile"
       ],
       "optionReasons": {
-        "apologise-mcq-19": "本句指「抱歉的；帶歉意的」。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。",
-        "apologise-mcq-20": "「帶歉意的微笑」與本句語境不同。",
-        "apologise-mcq-17": "「正式道歉」與本句語境不同。",
-        "apologise-mcq-21": "「帶歉意地」與本句語境不同。",
-        "apologise-mcq-16": "「公開道歉」與本句語境不同。"
+        "apologise-mcq-19": "本句的「apologetic smile」指「抱歉的；帶歉意的」。",
+        "apologise-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-19"
     },
     {
       "id": "apologise-22-0",
-      "sense": "apologise-mcq-20",
+      "sense": "apologise-reviewed-6dc0ad3aab",
       "en": "He sounded apologetic on the phone.",
       "zh": "他在電話裏聽起來很抱歉。",
       "masked": "He sounded ____ on the phone.",
       "options": [
-        "apologise-mcq-20",
-        "apologise-mcq-19",
-        "apologise-mcq-21",
-        "apologise-mcq-18",
-        "apologise-mcq-22",
-        "apologise-mcq-17"
+        "apologise-reviewed-6dc0ad3aab",
+        "apologise-mcq-16",
+        "apologise-mcq-23"
       ],
-      "explanation": "本句的「apologetic」指「帶歉意的微笑」。",
+      "explanation": "對照完整句子：「他在電話裏聽起來很抱歉。」。這裡的「apologetic」表示「聽起來／看起來很抱歉」。",
       "sentenceIndex": 42,
       "sourcePractice": 1,
       "targets": [
         "apologetic"
       ],
       "optionReasons": {
-        "apologise-mcq-20": "本句指「帶歉意的微笑」。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-21": "「帶歉意地」與本句語境不同。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。",
-        "apologise-mcq-22": "「毫無歉意的」與本句語境不同。",
-        "apologise-mcq-17": "「正式道歉」與本句語境不同。"
+        "apologise-reviewed-6dc0ad3aab": "對照完整句子：「他在電話裏聽起來很抱歉。」。這裡的「apologetic」表示「聽起來／看起來很抱歉」。",
+        "apologise-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "apologise-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "apologise-mcq-20"
+      "correctOption": "apologise-reviewed-6dc0ad3aab",
+      "previousCorrectOption": "apologise-mcq-20",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "apologise-22-1",
-      "sense": "apologise-mcq-20",
+      "sense": "apologise-reviewed-6dc0ad3aab",
       "en": "She looked apologetic after realizing her mistake.",
       "zh": "她意識到錯誤後看起來很有歉意。",
       "masked": "She looked ____ after realizing her mistake.",
       "options": [
-        "apologise-mcq-20",
-        "apologise-mcq-19",
-        "apologise-mcq-21",
-        "apologise-mcq-18",
-        "apologise-mcq-22",
-        "apologise-mcq-17"
+        "apologise-reviewed-6dc0ad3aab",
+        "apologise-mcq-05",
+        "apologise-mcq-22"
       ],
-      "explanation": "本句的「apologetic」指「帶歉意的微笑」。",
+      "explanation": "對照完整句子：「她意識到錯誤後看起來很有歉意。」。這裡的「apologetic」表示「聽起來／看起來很抱歉」。",
       "sentenceIndex": 43,
       "sourcePractice": 2,
       "targets": [
         "apologetic"
       ],
       "optionReasons": {
-        "apologise-mcq-20": "本句指「帶歉意的微笑」。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-21": "「帶歉意地」與本句語境不同。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。",
-        "apologise-mcq-22": "「毫無歉意的」與本句語境不同。",
-        "apologise-mcq-17": "「正式道歉」與本句語境不同。"
+        "apologise-reviewed-6dc0ad3aab": "對照完整句子：「她意識到錯誤後看起來很有歉意。」。這裡的「apologetic」表示「聽起來／看起來很抱歉」。",
+        "apologise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "apologise-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "apologise-mcq-20"
+      "correctOption": "apologise-reviewed-6dc0ad3aab",
+      "previousCorrectOption": "apologise-mcq-20",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "apologise-23-0",
@@ -1800,11 +1511,7 @@ export default {
       "masked": "I'm sorry,” he said ____.",
       "options": [
         "apologise-mcq-21",
-        "apologise-mcq-20",
-        "apologise-mcq-22",
-        "apologise-mcq-19",
-        "apologise-mcq-23",
-        "apologise-mcq-18"
+        "contrast-purchase"
       ],
       "explanation": "本句的「apologetically」指「帶歉意地」。",
       "sentenceIndex": 44,
@@ -1813,12 +1520,8 @@ export default {
         "apologetically"
       ],
       "optionReasons": {
-        "apologise-mcq-21": "本句指「帶歉意地」。",
-        "apologise-mcq-20": "「帶歉意的微笑」與本句語境不同。",
-        "apologise-mcq-22": "「毫無歉意的」與本句語境不同。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-23": "「毫無歉意地／坦然地」與本句語境不同。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。"
+        "apologise-mcq-21": "本句的「apologetically」指「帶歉意地」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-21"
     },
@@ -1830,11 +1533,7 @@ export default {
       "masked": "She smiled ____.",
       "options": [
         "apologise-mcq-21",
-        "apologise-mcq-20",
-        "apologise-mcq-22",
-        "apologise-mcq-19",
-        "apologise-mcq-23",
-        "apologise-mcq-18"
+        "contrast-purchase"
       ],
       "explanation": "本句的「apologetically」指「帶歉意地」。",
       "sentenceIndex": 45,
@@ -1843,12 +1542,8 @@ export default {
         "apologetically"
       ],
       "optionReasons": {
-        "apologise-mcq-21": "本句指「帶歉意地」。",
-        "apologise-mcq-20": "「帶歉意的微笑」與本句語境不同。",
-        "apologise-mcq-22": "「毫無歉意的」與本句語境不同。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-23": "「毫無歉意地／坦然地」與本句語境不同。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。"
+        "apologise-mcq-21": "本句的「apologetically」指「帶歉意地」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-21"
     },
@@ -1860,11 +1555,8 @@ export default {
       "masked": "He was completely ____ about his decision.",
       "options": [
         "apologise-mcq-22",
-        "apologise-mcq-21",
-        "apologise-mcq-23",
-        "apologise-mcq-20",
-        "apologise-mcq-19",
-        "apologise-mcq-18"
+        "apologise-reviewed-6dc0ad3aab",
+        "apologise-mcq-05"
       ],
       "explanation": "本句的「unapologetic」指「毫無歉意的」。",
       "sentenceIndex": 46,
@@ -1873,12 +1565,9 @@ export default {
         "unapologetic"
       ],
       "optionReasons": {
-        "apologise-mcq-22": "本句指「毫無歉意的」。",
-        "apologise-mcq-21": "「帶歉意地」與本句語境不同。",
-        "apologise-mcq-23": "「毫無歉意地／坦然地」與本句語境不同。",
-        "apologise-mcq-20": "「帶歉意的微笑」與本句語境不同。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。"
+        "apologise-mcq-22": "本句的「unapologetic」指「毫無歉意的」。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。",
+        "apologise-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-22"
     },
@@ -1890,11 +1579,8 @@ export default {
       "masked": "She remained ____ despite the criticism.",
       "options": [
         "apologise-mcq-22",
-        "apologise-mcq-21",
-        "apologise-mcq-23",
-        "apologise-mcq-20",
-        "apologise-mcq-19",
-        "apologise-mcq-18"
+        "apologise-mcq-14",
+        "apologise-reviewed-6dc0ad3aab"
       ],
       "explanation": "本句的「unapologetic」指「毫無歉意的」。",
       "sentenceIndex": 47,
@@ -1903,12 +1589,9 @@ export default {
         "unapologetic"
       ],
       "optionReasons": {
-        "apologise-mcq-22": "本句指「毫無歉意的」。",
-        "apologise-mcq-21": "「帶歉意地」與本句語境不同。",
-        "apologise-mcq-23": "「毫無歉意地／坦然地」與本句語境不同。",
-        "apologise-mcq-20": "「帶歉意的微笑」與本句語境不同。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。"
+        "apologise-mcq-22": "本句的「unapologetic」指「毫無歉意的」。",
+        "apologise-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-22"
     },
@@ -1920,11 +1603,8 @@ export default {
       "masked": "She is ____ ambitious.",
       "options": [
         "apologise-mcq-23",
-        "apologise-mcq-22",
-        "apologise-mcq-21",
-        "apologise-mcq-20",
-        "apologise-mcq-19",
-        "apologise-mcq-18"
+        "apologise-mcq-08",
+        "apologise-reviewed-6dc0ad3aab"
       ],
       "explanation": "本句的「unapologetically」指「毫無歉意地／坦然地」。",
       "sentenceIndex": 48,
@@ -1933,12 +1613,9 @@ export default {
         "unapologetically"
       ],
       "optionReasons": {
-        "apologise-mcq-23": "本句指「毫無歉意地／坦然地」。",
-        "apologise-mcq-22": "「毫無歉意的」與本句語境不同。",
-        "apologise-mcq-21": "「帶歉意地」與本句語境不同。",
-        "apologise-mcq-20": "「帶歉意的微笑」與本句語境不同。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。"
+        "apologise-mcq-23": "本句的「unapologetically」指「毫無歉意地／坦然地」。",
+        "apologise-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-23"
     },
@@ -1950,11 +1627,8 @@ export default {
       "masked": "The design is ____ bold.",
       "options": [
         "apologise-mcq-23",
-        "apologise-mcq-22",
-        "apologise-mcq-21",
-        "apologise-mcq-20",
-        "apologise-mcq-19",
-        "apologise-mcq-18"
+        "apologise-mcq-07",
+        "apologise-reviewed-6dc0ad3aab"
       ],
       "explanation": "本句的「unapologetically」指「毫無歉意地／坦然地」。",
       "sentenceIndex": 49,
@@ -1963,12 +1637,9 @@ export default {
         "unapologetically"
       ],
       "optionReasons": {
-        "apologise-mcq-23": "本句指「毫無歉意地／坦然地」。",
-        "apologise-mcq-22": "「毫無歉意的」與本句語境不同。",
-        "apologise-mcq-21": "「帶歉意地」與本句語境不同。",
-        "apologise-mcq-20": "「帶歉意的微笑」與本句語境不同。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。"
+        "apologise-mcq-23": "本句的「unapologetically」指「毫無歉意地／坦然地」。",
+        "apologise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-23"
     },
@@ -1980,11 +1651,8 @@ export default {
       "masked": "He said ____, but he never really apologised.",
       "options": [
         "apologise-mcq-23",
-        "apologise-mcq-22",
-        "apologise-mcq-21",
-        "apologise-mcq-20",
-        "apologise-mcq-19",
-        "apologise-mcq-18"
+        "apologise-mcq-16",
+        "apologise-reviewed-6dc0ad3aab"
       ],
       "explanation": "本句的「sorry」指「毫無歉意地／坦然地」。",
       "sentenceIndex": 50,
@@ -1993,12 +1661,9 @@ export default {
         "sorry"
       ],
       "optionReasons": {
-        "apologise-mcq-23": "本句指「毫無歉意地／坦然地」。",
-        "apologise-mcq-22": "「毫無歉意的」與本句語境不同。",
-        "apologise-mcq-21": "「帶歉意地」與本句語境不同。",
-        "apologise-mcq-20": "「帶歉意的微笑」與本句語境不同。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。"
+        "apologise-mcq-23": "本句的「sorry」指「毫無歉意地／坦然地」。",
+        "apologise-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-23"
     },
@@ -2010,11 +1675,8 @@ export default {
       "masked": "A real apology often involves more than simply saying ____.",
       "options": [
         "apologise-mcq-23",
-        "apologise-mcq-22",
-        "apologise-mcq-21",
-        "apologise-mcq-20",
-        "apologise-mcq-19",
-        "apologise-mcq-18"
+        "apologise-mcq-07",
+        "apologise-reviewed-6dc0ad3aab"
       ],
       "explanation": "本句的「sorry」指「毫無歉意地／坦然地」。",
       "sentenceIndex": 51,
@@ -2023,12 +1685,9 @@ export default {
         "sorry"
       ],
       "optionReasons": {
-        "apologise-mcq-23": "本句指「毫無歉意地／坦然地」。",
-        "apologise-mcq-22": "「毫無歉意的」與本句語境不同。",
-        "apologise-mcq-21": "「帶歉意地」與本句語境不同。",
-        "apologise-mcq-20": "「帶歉意的微笑」與本句語境不同。",
-        "apologise-mcq-19": "「抱歉的；帶歉意的」與本句語境不同。",
-        "apologise-mcq-18": "「書面道歉」與本句語境不同。"
+        "apologise-mcq-23": "本句的「sorry」指「毫無歉意地／坦然地」。",
+        "apologise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "apologise-reviewed-6dc0ad3aab": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "apologise-mcq-23"
     }
@@ -2040,5 +1699,12 @@ export default {
     "sha256": "7ed75783608e6669ed081daf084c468a7cb776a10ac33038f269e992354a8510",
     "pages": 22
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

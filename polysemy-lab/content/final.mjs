@@ -327,11 +327,9 @@ export default {
       "masked": "Result and ____ reflection",
       "options": [
         "final-mcq-01",
-        "final-mcq-02",
-        "final-mcq-03",
-        "final-mcq-04",
-        "final-mcq-05",
-        "final-mcq-06"
+        "final-mcq-14",
+        "final-mcq-10",
+        "final-mcq-07"
       ],
       "explanation": "本句的「final」指「在一連串事情、階段或內容中位於最末端的」。",
       "sentenceIndex": 0,
@@ -340,12 +338,10 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-01": "本句指「在一連串事情、階段或內容中位於最末端的」。",
-        "final-mcq-02": "「經過修改後正式確定、不再預計作重大改變的版本」是「final version/draft」的用法，與本句語境不同。",
-        "final-mcq-03": "「已作最後定案、不再接受進一步更改的決定／答案」是「final decision/answer」的用法，與本句語境不同。",
-        "final-mcq-04": "「某件事結束前最後一次可採取行動或回應的機會」是「final chance/warning」的用法，與本句語境不同。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。"
+        "final-mcq-01": "本句的「final」指「在一連串事情、階段或內容中位於最末端的」。",
+        "final-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-01"
     },
@@ -357,11 +353,9 @@ export default {
       "masked": "The ____ chapter explains what happened afterwards.",
       "options": [
         "final-mcq-01",
-        "final-mcq-02",
-        "final-mcq-03",
-        "final-mcq-04",
-        "final-mcq-05",
-        "final-mcq-06"
+        "final-mcq-14",
+        "final-mcq-10",
+        "final-mcq-07"
       ],
       "explanation": "本句的「final」指「在一連串事情、階段或內容中位於最末端的」。",
       "sentenceIndex": 1,
@@ -370,12 +364,10 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-01": "本句指「在一連串事情、階段或內容中位於最末端的」。",
-        "final-mcq-02": "「經過修改後正式確定、不再預計作重大改變的版本」是「final version/draft」的用法，與本句語境不同。",
-        "final-mcq-03": "「已作最後定案、不再接受進一步更改的決定／答案」是「final decision/answer」的用法，與本句語境不同。",
-        "final-mcq-04": "「某件事結束前最後一次可採取行動或回應的機會」是「final chance/warning」的用法，與本句語境不同。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。"
+        "final-mcq-01": "本句的「final」指「在一連串事情、階段或內容中位於最末端的」。",
+        "final-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-01"
     },
@@ -388,10 +380,8 @@ export default {
       "options": [
         "final-mcq-01",
         "final-mcq-02",
-        "final-mcq-03",
-        "final-mcq-04",
-        "final-mcq-05",
-        "final-mcq-06"
+        "final-mcq-09",
+        "final-mcq-04"
       ],
       "explanation": "本句的「final」指「在一連串事情、階段或內容中位於最末端的」。",
       "sentenceIndex": 2,
@@ -400,12 +390,10 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-01": "本句指「在一連串事情、階段或內容中位於最末端的」。",
-        "final-mcq-02": "「經過修改後正式確定、不再預計作重大改變的版本」是「final version/draft」的用法，與本句語境不同。",
-        "final-mcq-03": "「已作最後定案、不再接受進一步更改的決定／答案」是「final decision/answer」的用法，與本句語境不同。",
-        "final-mcq-04": "「某件事結束前最後一次可採取行動或回應的機會」是「final chance/warning」的用法，與本句語境不同。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。"
+        "final-mcq-01": "本句的「final」指「在一連串事情、階段或內容中位於最末端的」。",
+        "final-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-01"
     },
@@ -418,10 +406,8 @@ export default {
       "options": [
         "final-mcq-02",
         "final-mcq-01",
-        "final-mcq-03",
         "final-mcq-04",
-        "final-mcq-05",
-        "final-mcq-06"
+        "final-mcq-09"
       ],
       "explanation": "本句的「final」指「經過修改後正式確定、不再預計作重大改變的版本」。",
       "sentenceIndex": 0,
@@ -430,12 +416,10 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-02": "本句指「經過修改後正式確定、不再預計作重大改變的版本」。",
-        "final-mcq-01": "「在一連串事情、階段或內容中位於最末端的」是「final — last stage/part」的用法，與本句語境不同。",
-        "final-mcq-03": "「已作最後定案、不再接受進一步更改的決定／答案」是「final decision/answer」的用法，與本句語境不同。",
-        "final-mcq-04": "「某件事結束前最後一次可採取行動或回應的機會」是「final chance/warning」的用法，與本句語境不同。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。"
+        "final-mcq-02": "本句的「final」指「經過修改後正式確定、不再預計作重大改變的版本」。",
+        "final-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-02"
     },
@@ -448,10 +432,8 @@ export default {
       "options": [
         "final-mcq-02",
         "final-mcq-01",
-        "final-mcq-03",
         "final-mcq-04",
-        "final-mcq-05",
-        "final-mcq-06"
+        "final-mcq-09"
       ],
       "explanation": "本句的「final」指「經過修改後正式確定、不再預計作重大改變的版本」。",
       "sentenceIndex": 1,
@@ -460,12 +442,10 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-02": "本句指「經過修改後正式確定、不再預計作重大改變的版本」。",
-        "final-mcq-01": "「在一連串事情、階段或內容中位於最末端的」是「final — last stage/part」的用法，與本句語境不同。",
-        "final-mcq-03": "「已作最後定案、不再接受進一步更改的決定／答案」是「final decision/answer」的用法，與本句語境不同。",
-        "final-mcq-04": "「某件事結束前最後一次可採取行動或回應的機會」是「final chance/warning」的用法，與本句語境不同。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。"
+        "final-mcq-02": "本句的「final」指「經過修改後正式確定、不再預計作重大改變的版本」。",
+        "final-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-02"
     },
@@ -477,11 +457,8 @@ export default {
       "masked": "The manager’s decision is ____.",
       "options": [
         "final-mcq-03",
-        "final-mcq-02",
-        "final-mcq-04",
-        "final-mcq-01",
-        "final-mcq-05",
-        "final-mcq-06"
+        "final-mcq-08",
+        "final-mcq-10"
       ],
       "explanation": "本句的「final」指「已作最後定案、不再接受進一步更改的決定／答案」。",
       "sentenceIndex": 2,
@@ -490,12 +467,9 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-03": "本句指「已作最後定案、不再接受進一步更改的決定／答案」。",
-        "final-mcq-02": "「經過修改後正式確定、不再預計作重大改變的版本」是「final version/draft」的用法，與本句語境不同。",
-        "final-mcq-04": "「某件事結束前最後一次可採取行動或回應的機會」是「final chance/warning」的用法，與本句語境不同。",
-        "final-mcq-01": "「在一連串事情、階段或內容中位於最末端的」是「final — last stage/part」的用法，與本句語境不同。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。"
+        "final-mcq-03": "本句的「final」指「已作最後定案、不再接受進一步更改的決定／答案」。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-03"
     },
@@ -507,11 +481,8 @@ export default {
       "masked": "Is that your ____ answer?",
       "options": [
         "final-mcq-03",
-        "final-mcq-02",
-        "final-mcq-04",
-        "final-mcq-01",
-        "final-mcq-05",
-        "final-mcq-06"
+        "final-mcq-08",
+        "final-mcq-10"
       ],
       "explanation": "本句的「final」指「已作最後定案、不再接受進一步更改的決定／答案」。",
       "sentenceIndex": 3,
@@ -520,12 +491,9 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-03": "本句指「已作最後定案、不再接受進一步更改的決定／答案」。",
-        "final-mcq-02": "「經過修改後正式確定、不再預計作重大改變的版本」是「final version/draft」的用法，與本句語境不同。",
-        "final-mcq-04": "「某件事結束前最後一次可採取行動或回應的機會」是「final chance/warning」的用法，與本句語境不同。",
-        "final-mcq-01": "「在一連串事情、階段或內容中位於最末端的」是「final — last stage/part」的用法，與本句語境不同。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。"
+        "final-mcq-03": "本句的「final」指「已作最後定案、不再接受進一步更改的決定／答案」。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-03"
     },
@@ -537,11 +505,9 @@ export default {
       "masked": "This is your ____ chance to apply.",
       "options": [
         "final-mcq-04",
-        "final-mcq-03",
-        "final-mcq-05",
-        "final-mcq-02",
-        "final-mcq-06",
-        "final-mcq-01"
+        "final-mcq-08",
+        "final-mcq-10",
+        "final-mcq-09"
       ],
       "explanation": "本句的「final」指「某件事結束前最後一次可採取行動或回應的機會」。",
       "sentenceIndex": 0,
@@ -550,12 +516,10 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-04": "本句指「某件事結束前最後一次可採取行動或回應的機會」。",
-        "final-mcq-03": "「已作最後定案、不再接受進一步更改的決定／答案」是「final decision/answer」的用法，與本句語境不同。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。",
-        "final-mcq-02": "「經過修改後正式確定、不再預計作重大改變的版本」是「final version/draft」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。",
-        "final-mcq-01": "「在一連串事情、階段或內容中位於最末端的」是「final — last stage/part」的用法，與本句語境不同。"
+        "final-mcq-04": "本句的「final」指「某件事結束前最後一次可採取行動或回應的機會」。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-04"
     },
@@ -567,11 +531,9 @@ export default {
       "masked": "The passengers received a ____ warning before boarding closed.",
       "options": [
         "final-mcq-04",
-        "final-mcq-03",
-        "final-mcq-05",
-        "final-mcq-02",
-        "final-mcq-06",
-        "final-mcq-01"
+        "final-mcq-08",
+        "final-mcq-10",
+        "final-mcq-09"
       ],
       "explanation": "本句的「final」指「某件事結束前最後一次可採取行動或回應的機會」。",
       "sentenceIndex": 1,
@@ -580,12 +542,10 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-04": "本句指「某件事結束前最後一次可採取行動或回應的機會」。",
-        "final-mcq-03": "「已作最後定案、不再接受進一步更改的決定／答案」是「final decision/answer」的用法，與本句語境不同。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。",
-        "final-mcq-02": "「經過修改後正式確定、不再預計作重大改變的版本」是「final version/draft」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。",
-        "final-mcq-01": "「在一連串事情、階段或內容中位於最末端的」是「final — last stage/part」的用法，與本句語境不同。"
+        "final-mcq-04": "本句的「final」指「某件事結束前最後一次可採取行動或回應的機會」。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-04"
     },
@@ -597,11 +557,8 @@ export default {
       "masked": "He spent his ____ years near the coast.",
       "options": [
         "final-mcq-05",
-        "final-mcq-04",
-        "final-mcq-06",
-        "final-mcq-03",
-        "final-mcq-07",
-        "final-mcq-02"
+        "final-mcq-08",
+        "final-mcq-09"
       ],
       "explanation": "本句的「final」指「某段生命或經歷永久結束前最後發生的」。",
       "sentenceIndex": 0,
@@ -610,12 +567,9 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-05": "本句指「某段生命或經歷永久結束前最後發生的」。",
-        "final-mcq-04": "「某件事結束前最後一次可採取行動或回應的機會」是「final chance/warning」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。",
-        "final-mcq-03": "「已作最後定案、不再接受進一步更改的決定／答案」是「final decision/answer」的用法，與本句語境不同。",
-        "final-mcq-07": "「決定冠軍或最終勝者的最後比賽」是「a final」的用法，與本句語境不同。",
-        "final-mcq-02": "「經過修改後正式確定、不再預計作重大改變的版本」是「final version/draft」的用法，與本句語境不同。"
+        "final-mcq-05": "本句的「final」指「某段生命或經歷永久結束前最後發生的」。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-05"
     },
@@ -627,11 +581,8 @@ export default {
       "masked": "Those were her ____ words.",
       "options": [
         "final-mcq-05",
-        "final-mcq-04",
-        "final-mcq-06",
-        "final-mcq-03",
-        "final-mcq-07",
-        "final-mcq-02"
+        "final-mcq-08",
+        "final-mcq-09"
       ],
       "explanation": "本句的「final」指「某段生命或經歷永久結束前最後發生的」。",
       "sentenceIndex": 1,
@@ -640,12 +591,9 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-05": "本句指「某段生命或經歷永久結束前最後發生的」。",
-        "final-mcq-04": "「某件事結束前最後一次可採取行動或回應的機會」是「final chance/warning」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。",
-        "final-mcq-03": "「已作最後定案、不再接受進一步更改的決定／答案」是「final decision/answer」的用法，與本句語境不同。",
-        "final-mcq-07": "「決定冠軍或最終勝者的最後比賽」是「a final」的用法，與本句語境不同。",
-        "final-mcq-02": "「經過修改後正式確定、不再預計作重大改變的版本」是「final version/draft」的用法，與本句語境不同。"
+        "final-mcq-05": "本句的「final」指「某段生命或經歷永久結束前最後發生的」。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-05"
     },
@@ -657,11 +605,8 @@ export default {
       "masked": "The two teams will meet in the ____ match.",
       "options": [
         "final-mcq-06",
-        "final-mcq-05",
-        "final-mcq-07",
-        "final-mcq-04",
-        "final-mcq-08",
-        "final-mcq-03"
+        "final-mcq-14",
+        "final-mcq-10"
       ],
       "explanation": "本句的「final」指「用來決定最終冠軍或勝者的最後階段」。",
       "sentenceIndex": 0,
@@ -670,12 +615,9 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-06": "本句指「用來決定最終冠軍或勝者的最後階段」。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。",
-        "final-mcq-07": "「決定冠軍或最終勝者的最後比賽」是「a final」的用法，與本句語境不同。",
-        "final-mcq-04": "「某件事結束前最後一次可採取行動或回應的機會」是「final chance/warning」的用法，與本句語境不同。",
-        "final-mcq-08": "「學期、課程或學位階段末期的重要考試」是「final/finals — exam」的用法，與本句語境不同。",
-        "final-mcq-03": "「已作最後定案、不再接受進一步更改的決定／答案」是「final decision/answer」的用法，與本句語境不同。"
+        "final-mcq-06": "本句的「final」指「用來決定最終冠軍或勝者的最後階段」。",
+        "final-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-06"
     },
@@ -687,11 +629,8 @@ export default {
       "masked": "She reached the ____ round of the competition.",
       "options": [
         "final-mcq-06",
-        "final-mcq-05",
-        "final-mcq-07",
-        "final-mcq-04",
-        "final-mcq-08",
-        "final-mcq-03"
+        "final-mcq-14",
+        "final-mcq-10"
       ],
       "explanation": "本句的「final」指「用來決定最終冠軍或勝者的最後階段」。",
       "sentenceIndex": 1,
@@ -700,12 +639,9 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-06": "本句指「用來決定最終冠軍或勝者的最後階段」。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。",
-        "final-mcq-07": "「決定冠軍或最終勝者的最後比賽」是「a final」的用法，與本句語境不同。",
-        "final-mcq-04": "「某件事結束前最後一次可採取行動或回應的機會」是「final chance/warning」的用法，與本句語境不同。",
-        "final-mcq-08": "「學期、課程或學位階段末期的重要考試」是「final/finals — exam」的用法，與本句語境不同。",
-        "final-mcq-03": "「已作最後定案、不再接受進一步更改的決定／答案」是「final decision/answer」的用法，與本句語境不同。"
+        "final-mcq-06": "本句的「final」指「用來決定最終冠軍或勝者的最後階段」。",
+        "final-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-06"
     },
@@ -717,11 +653,9 @@ export default {
       "masked": "They reached the ____ for the first time.",
       "options": [
         "final-mcq-07",
-        "final-mcq-06",
         "final-mcq-08",
-        "final-mcq-05",
-        "final-mcq-09",
-        "final-mcq-04"
+        "final-mcq-14",
+        "final-mcq-10"
       ],
       "explanation": "本句的「final」指「決定冠軍或最終勝者的最後比賽」。",
       "sentenceIndex": 0,
@@ -730,12 +664,10 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-07": "本句指「決定冠軍或最終勝者的最後比賽」。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。",
-        "final-mcq-08": "「學期、課程或學位階段末期的重要考試」是「final/finals — exam」的用法，與本句語境不同。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。",
-        "final-mcq-09": "「在所有討論後擁有作出最終決定的權力」是「final say/word」的用法，與本句語境不同。",
-        "final-mcq-04": "「某件事結束前最後一次可採取行動或回應的機會」是「final chance/warning」的用法，與本句語境不同。"
+        "final-mcq-07": "本句的「final」指「決定冠軍或最終勝者的最後比賽」。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-07"
     },
@@ -747,11 +679,9 @@ export default {
       "masked": "The ____ will be played on Sunday.",
       "options": [
         "final-mcq-07",
-        "final-mcq-06",
         "final-mcq-08",
-        "final-mcq-05",
-        "final-mcq-09",
-        "final-mcq-04"
+        "final-mcq-14",
+        "final-mcq-10"
       ],
       "explanation": "本句的「final」指「決定冠軍或最終勝者的最後比賽」。",
       "sentenceIndex": 1,
@@ -760,12 +690,10 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-07": "本句指「決定冠軍或最終勝者的最後比賽」。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。",
-        "final-mcq-08": "「學期、課程或學位階段末期的重要考試」是「final/finals — exam」的用法，與本句語境不同。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。",
-        "final-mcq-09": "「在所有討論後擁有作出最終決定的權力」是「final say/word」的用法，與本句語境不同。",
-        "final-mcq-04": "「某件事結束前最後一次可採取行動或回應的機會」是「final chance/warning」的用法，與本句語境不同。"
+        "final-mcq-07": "本句的「final」指「決定冠軍或最終勝者的最後比賽」。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-07"
     },
@@ -778,10 +706,8 @@ export default {
       "options": [
         "final-mcq-08",
         "final-mcq-07",
-        "final-mcq-09",
-        "final-mcq-06",
-        "final-mcq-10",
-        "final-mcq-05"
+        "final-mcq-14",
+        "final-mcq-10"
       ],
       "explanation": "本句的「final」指「學期、課程或學位階段末期的重要考試」。",
       "sentenceIndex": 0,
@@ -790,12 +716,10 @@ export default {
         "final"
       ],
       "optionReasons": {
-        "final-mcq-08": "本句指「學期、課程或學位階段末期的重要考試」。",
-        "final-mcq-07": "「決定冠軍或最終勝者的最後比賽」是「a final」的用法，與本句語境不同。",
-        "final-mcq-09": "「在所有討論後擁有作出最終決定的權力」是「final say/word」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。",
-        "final-mcq-10": "「經過等待、延誤或努力後，某事終於發生」是「finally — at last」的用法，與本句語境不同。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。"
+        "final-mcq-08": "本句的「final」指「學期、課程或學位階段末期的重要考試」。",
+        "final-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-08"
     },
@@ -807,11 +731,9 @@ export default {
       "masked": "She is studying for her ____.",
       "options": [
         "final-mcq-08",
-        "final-mcq-07",
-        "final-mcq-09",
-        "final-mcq-06",
+        "final-mcq-12",
         "final-mcq-10",
-        "final-mcq-05"
+        "final-mcq-09"
       ],
       "explanation": "本句的「finals」指「學期、課程或學位階段末期的重要考試」。",
       "sentenceIndex": 1,
@@ -820,12 +742,10 @@ export default {
         "finals"
       ],
       "optionReasons": {
-        "final-mcq-08": "本句指「學期、課程或學位階段末期的重要考試」。",
-        "final-mcq-07": "「決定冠軍或最終勝者的最後比賽」是「a final」的用法，與本句語境不同。",
-        "final-mcq-09": "「在所有討論後擁有作出最終決定的權力」是「final say/word」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。",
-        "final-mcq-10": "「經過等待、延誤或努力後，某事終於發生」是「finally — at last」的用法，與本句語境不同。",
-        "final-mcq-05": "「某段生命或經歷永久結束前最後發生的」是「final years/words」的用法，與本句語境不同。"
+        "final-mcq-08": "本句的「finals」指「學期、課程或學位階段末期的重要考試」。",
+        "final-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-08"
     },
@@ -838,10 +758,8 @@ export default {
       "options": [
         "final-mcq-09",
         "final-mcq-08",
-        "final-mcq-10",
-        "final-mcq-07",
-        "final-mcq-11",
-        "final-mcq-06"
+        "final-mcq-04",
+        "final-mcq-10"
       ],
       "explanation": "本句的「final say」指「在所有討論後擁有作出最終決定的權力」。",
       "sentenceIndex": 0,
@@ -850,12 +768,10 @@ export default {
         "final say"
       ],
       "optionReasons": {
-        "final-mcq-09": "本句指「在所有討論後擁有作出最終決定的權力」。",
-        "final-mcq-08": "「學期、課程或學位階段末期的重要考試」是「final/finals — exam」的用法，與本句語境不同。",
-        "final-mcq-10": "「經過等待、延誤或努力後，某事終於發生」是「finally — at last」的用法，與本句語境不同。",
-        "final-mcq-07": "「決定冠軍或最終勝者的最後比賽」是「a final」的用法，與本句語境不同。",
-        "final-mcq-11": "「用來引出一連串內容或步驟中的最後一項」是「finally — last point」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。"
+        "final-mcq-09": "本句的「final say」指「在所有討論後擁有作出最終決定的權力」。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-09"
     },
@@ -868,10 +784,8 @@ export default {
       "options": [
         "final-mcq-09",
         "final-mcq-08",
-        "final-mcq-10",
-        "final-mcq-07",
-        "final-mcq-11",
-        "final-mcq-06"
+        "final-mcq-04",
+        "final-mcq-10"
       ],
       "explanation": "本句的「final word」指「在所有討論後擁有作出最終決定的權力」。",
       "sentenceIndex": 1,
@@ -880,12 +794,10 @@ export default {
         "final word"
       ],
       "optionReasons": {
-        "final-mcq-09": "本句指「在所有討論後擁有作出最終決定的權力」。",
-        "final-mcq-08": "「學期、課程或學位階段末期的重要考試」是「final/finals — exam」的用法，與本句語境不同。",
-        "final-mcq-10": "「經過等待、延誤或努力後，某事終於發生」是「finally — at last」的用法，與本句語境不同。",
-        "final-mcq-07": "「決定冠軍或最終勝者的最後比賽」是「a final」的用法，與本句語境不同。",
-        "final-mcq-11": "「用來引出一連串內容或步驟中的最後一項」是「finally — last point」的用法，與本句語境不同。",
-        "final-mcq-06": "「用來決定最終冠軍或勝者的最後階段」是「final — competition」的用法，與本句語境不同。"
+        "final-mcq-09": "本句的「final word」指「在所有討論後擁有作出最終決定的權力」。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-09"
     },
@@ -897,11 +809,9 @@ export default {
       "masked": "The train ____ arrived.",
       "options": [
         "final-mcq-10",
-        "final-mcq-09",
-        "final-mcq-11",
+        "final-mcq-14",
         "final-mcq-08",
-        "final-mcq-12",
-        "final-mcq-07"
+        "final-mcq-11"
       ],
       "explanation": "本句的「finally」指「經過等待、延誤或努力後，某事終於發生」。",
       "sentenceIndex": 0,
@@ -910,12 +820,10 @@ export default {
         "finally"
       ],
       "optionReasons": {
-        "final-mcq-10": "本句指「經過等待、延誤或努力後，某事終於發生」。",
-        "final-mcq-09": "「在所有討論後擁有作出最終決定的權力」是「final say/word」的用法，與本句語境不同。",
-        "final-mcq-11": "「用來引出一連串內容或步驟中的最後一項」是「finally — last point」的用法，與本句語境不同。",
-        "final-mcq-08": "「學期、課程或學位階段末期的重要考試」是「final/finals — exam」的用法，與本句語境不同。",
-        "final-mcq-12": "「完成最後修改或安排，使某件事正式確定」是「finalize/finalise」的用法，與本句語境不同。",
-        "final-mcq-07": "「決定冠軍或最終勝者的最後比賽」是「a final」的用法，與本句語境不同。"
+        "final-mcq-10": "本句的「finally」指「經過等待、延誤或努力後，某事終於發生」。",
+        "final-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-10"
     },
@@ -927,11 +835,9 @@ export default {
       "masked": "After several attempts, we ____ solved the problem.",
       "options": [
         "final-mcq-10",
-        "final-mcq-09",
-        "final-mcq-11",
+        "final-mcq-14",
         "final-mcq-08",
-        "final-mcq-12",
-        "final-mcq-07"
+        "final-mcq-11"
       ],
       "explanation": "本句的「finally」指「經過等待、延誤或努力後，某事終於發生」。",
       "sentenceIndex": 1,
@@ -940,12 +846,10 @@ export default {
         "finally"
       ],
       "optionReasons": {
-        "final-mcq-10": "本句指「經過等待、延誤或努力後，某事終於發生」。",
-        "final-mcq-09": "「在所有討論後擁有作出最終決定的權力」是「final say/word」的用法，與本句語境不同。",
-        "final-mcq-11": "「用來引出一連串內容或步驟中的最後一項」是「finally — last point」的用法，與本句語境不同。",
-        "final-mcq-08": "「學期、課程或學位階段末期的重要考試」是「final/finals — exam」的用法，與本句語境不同。",
-        "final-mcq-12": "「完成最後修改或安排，使某件事正式確定」是「finalize/finalise」的用法，與本句語境不同。",
-        "final-mcq-07": "「決定冠軍或最終勝者的最後比賽」是「a final」的用法，與本句語境不同。"
+        "final-mcq-10": "本句的「finally」指「經過等待、延誤或努力後，某事終於發生」。",
+        "final-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-10"
     },
@@ -957,11 +861,9 @@ export default {
       "masked": "____, I would like to discuss the results.",
       "options": [
         "final-mcq-11",
-        "final-mcq-10",
-        "final-mcq-12",
-        "final-mcq-09",
-        "final-mcq-13",
-        "final-mcq-08"
+        "final-mcq-08",
+        "final-mcq-14",
+        "final-mcq-10"
       ],
       "explanation": "本句的「Finally」指「用來引出一連串內容或步驟中的最後一項」。",
       "sentenceIndex": 0,
@@ -970,12 +872,10 @@ export default {
         "Finally"
       ],
       "optionReasons": {
-        "final-mcq-11": "本句指「用來引出一連串內容或步驟中的最後一項」。",
-        "final-mcq-10": "「經過等待、延誤或努力後，某事終於發生」是「finally — at last」的用法，與本句語境不同。",
-        "final-mcq-12": "「完成最後修改或安排，使某件事正式確定」是「finalize/finalise」的用法，與本句語境不同。",
-        "final-mcq-09": "「在所有討論後擁有作出最終決定的權力」是「final say/word」的用法，與本句語境不同。",
-        "final-mcq-13": "「成功進入比賽、獎項或選拔最後階段的人／隊伍」是「finalist」的用法，與本句語境不同。",
-        "final-mcq-08": "「學期、課程或學位階段末期的重要考試」是「final/finals — exam」的用法，與本句語境不同。"
+        "final-mcq-11": "本句的「Finally」指「用來引出一連串內容或步驟中的最後一項」。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-11"
     },
@@ -987,11 +887,9 @@ export default {
       "masked": "First, check the battery; then restart the device; ____, test the connection.",
       "options": [
         "final-mcq-11",
-        "final-mcq-10",
-        "final-mcq-12",
-        "final-mcq-09",
-        "final-mcq-13",
-        "final-mcq-08"
+        "final-mcq-14",
+        "final-mcq-08",
+        "final-mcq-10"
       ],
       "explanation": "本句的「finally」指「用來引出一連串內容或步驟中的最後一項」。",
       "sentenceIndex": 1,
@@ -1000,12 +898,10 @@ export default {
         "finally"
       ],
       "optionReasons": {
-        "final-mcq-11": "本句指「用來引出一連串內容或步驟中的最後一項」。",
-        "final-mcq-10": "「經過等待、延誤或努力後，某事終於發生」是「finally — at last」的用法，與本句語境不同。",
-        "final-mcq-12": "「完成最後修改或安排，使某件事正式確定」是「finalize/finalise」的用法，與本句語境不同。",
-        "final-mcq-09": "「在所有討論後擁有作出最終決定的權力」是「final say/word」的用法，與本句語境不同。",
-        "final-mcq-13": "「成功進入比賽、獎項或選拔最後階段的人／隊伍」是「finalist」的用法，與本句語境不同。",
-        "final-mcq-08": "「學期、課程或學位階段末期的重要考試」是「final/finals — exam」的用法，與本句語境不同。"
+        "final-mcq-11": "本句的「finally」指「用來引出一連串內容或步驟中的最後一項」。",
+        "final-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-11"
     },
@@ -1017,10 +913,8 @@ export default {
       "masked": "We need to ____ the schedule today.",
       "options": [
         "final-mcq-12",
-        "final-mcq-11",
-        "final-mcq-13",
+        "final-mcq-08",
         "final-mcq-10",
-        "final-mcq-14",
         "final-mcq-09"
       ],
       "explanation": "本句的「finalize」指「完成最後修改或安排，使某件事正式確定」。",
@@ -1030,12 +924,10 @@ export default {
         "finalize"
       ],
       "optionReasons": {
-        "final-mcq-12": "本句指「完成最後修改或安排，使某件事正式確定」。",
-        "final-mcq-11": "「用來引出一連串內容或步驟中的最後一項」是「finally — last point」的用法，與本句語境不同。",
-        "final-mcq-13": "「成功進入比賽、獎項或選拔最後階段的人／隊伍」是「finalist」的用法，與本句語境不同。",
-        "final-mcq-10": "「經過等待、延誤或努力後，某事終於發生」是「finally — at last」的用法，與本句語境不同。",
-        "final-mcq-14": "「某事已完全結束或定案、不再有改變餘地的狀態」是「finality」的用法，與本句語境不同。",
-        "final-mcq-09": "「在所有討論後擁有作出最終決定的權力」是「final say/word」的用法，與本句語境不同。"
+        "final-mcq-12": "本句的「finalize」指「完成最後修改或安排，使某件事正式確定」。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-12"
     },
@@ -1047,10 +939,8 @@ export default {
       "masked": "The two sides ____ the agreement last week.",
       "options": [
         "final-mcq-12",
-        "final-mcq-11",
-        "final-mcq-13",
+        "final-mcq-08",
         "final-mcq-10",
-        "final-mcq-14",
         "final-mcq-09"
       ],
       "explanation": "本句的「finalised」指「完成最後修改或安排，使某件事正式確定」。",
@@ -1060,12 +950,10 @@ export default {
         "finalised"
       ],
       "optionReasons": {
-        "final-mcq-12": "本句指「完成最後修改或安排，使某件事正式確定」。",
-        "final-mcq-11": "「用來引出一連串內容或步驟中的最後一項」是「finally — last point」的用法，與本句語境不同。",
-        "final-mcq-13": "「成功進入比賽、獎項或選拔最後階段的人／隊伍」是「finalist」的用法，與本句語境不同。",
-        "final-mcq-10": "「經過等待、延誤或努力後，某事終於發生」是「finally — at last」的用法，與本句語境不同。",
-        "final-mcq-14": "「某事已完全結束或定案、不再有改變餘地的狀態」是「finality」的用法，與本句語境不同。",
-        "final-mcq-09": "「在所有討論後擁有作出最終決定的權力」是「final say/word」的用法，與本句語境不同。"
+        "final-mcq-12": "本句的「finalised」指「完成最後修改或安排，使某件事正式確定」。",
+        "final-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-12"
     },
@@ -1077,11 +965,8 @@ export default {
       "masked": "She was one of five ____.",
       "options": [
         "final-mcq-13",
-        "final-mcq-12",
         "final-mcq-14",
-        "final-mcq-11",
-        "final-mcq-10",
-        "final-mcq-09"
+        "final-mcq-10"
       ],
       "explanation": "本句的「finalists」指「成功進入比賽、獎項或選拔最後階段的人／隊伍」。",
       "sentenceIndex": 0,
@@ -1090,12 +975,9 @@ export default {
         "finalists"
       ],
       "optionReasons": {
-        "final-mcq-13": "本句指「成功進入比賽、獎項或選拔最後階段的人／隊伍」。",
-        "final-mcq-12": "「完成最後修改或安排，使某件事正式確定」是「finalize/finalise」的用法，與本句語境不同。",
-        "final-mcq-14": "「某事已完全結束或定案、不再有改變餘地的狀態」是「finality」的用法，與本句語境不同。",
-        "final-mcq-11": "「用來引出一連串內容或步驟中的最後一項」是「finally — last point」的用法，與本句語境不同。",
-        "final-mcq-10": "「經過等待、延誤或努力後，某事終於發生」是「finally — at last」的用法，與本句語境不同。",
-        "final-mcq-09": "「在所有討論後擁有作出最終決定的權力」是「final say/word」的用法，與本句語境不同。"
+        "final-mcq-13": "本句的「finalists」指「成功進入比賽、獎項或選拔最後階段的人／隊伍」。",
+        "final-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-13"
     },
@@ -1107,11 +989,8 @@ export default {
       "masked": "The two ____ will compete tomorrow.",
       "options": [
         "final-mcq-13",
-        "final-mcq-12",
         "final-mcq-14",
-        "final-mcq-11",
-        "final-mcq-10",
-        "final-mcq-09"
+        "final-mcq-10"
       ],
       "explanation": "本句的「finalists」指「成功進入比賽、獎項或選拔最後階段的人／隊伍」。",
       "sentenceIndex": 1,
@@ -1120,12 +999,9 @@ export default {
         "finalists"
       ],
       "optionReasons": {
-        "final-mcq-13": "本句指「成功進入比賽、獎項或選拔最後階段的人／隊伍」。",
-        "final-mcq-12": "「完成最後修改或安排，使某件事正式確定」是「finalize/finalise」的用法，與本句語境不同。",
-        "final-mcq-14": "「某事已完全結束或定案、不再有改變餘地的狀態」是「finality」的用法，與本句語境不同。",
-        "final-mcq-11": "「用來引出一連串內容或步驟中的最後一項」是「finally — last point」的用法，與本句語境不同。",
-        "final-mcq-10": "「經過等待、延誤或努力後，某事終於發生」是「finally — at last」的用法，與本句語境不同。",
-        "final-mcq-09": "「在所有討論後擁有作出最終決定的權力」是「final say/word」的用法，與本句語境不同。"
+        "final-mcq-13": "本句的「finalists」指「成功進入比賽、獎項或選拔最後階段的人／隊伍」。",
+        "final-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-13"
     },
@@ -1137,11 +1013,9 @@ export default {
       "masked": "There was a sense of ____ in his decision.",
       "options": [
         "final-mcq-14",
-        "final-mcq-13",
-        "final-mcq-12",
-        "final-mcq-11",
         "final-mcq-10",
-        "final-mcq-09"
+        "final-mcq-01",
+        "final-mcq-07"
       ],
       "explanation": "本句的「finality」指「某事已完全結束或定案、不再有改變餘地的狀態」。",
       "sentenceIndex": 0,
@@ -1150,12 +1024,10 @@ export default {
         "finality"
       ],
       "optionReasons": {
-        "final-mcq-14": "本句指「某事已完全結束或定案、不再有改變餘地的狀態」。",
-        "final-mcq-13": "「成功進入比賽、獎項或選拔最後階段的人／隊伍」是「finalist」的用法，與本句語境不同。",
-        "final-mcq-12": "「完成最後修改或安排，使某件事正式確定」是「finalize/finalise」的用法，與本句語境不同。",
-        "final-mcq-11": "「用來引出一連串內容或步驟中的最後一項」是「finally — last point」的用法，與本句語境不同。",
-        "final-mcq-10": "「經過等待、延誤或努力後，某事終於發生」是「finally — at last」的用法，與本句語境不同。",
-        "final-mcq-09": "「在所有討論後擁有作出最終決定的權力」是「final say/word」的用法，與本句語境不同。"
+        "final-mcq-14": "本句的「finality」指「某事已完全結束或定案、不再有改變餘地的狀態」。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-14"
     },
@@ -1168,10 +1040,7 @@ export default {
       "options": [
         "final-mcq-14",
         "final-mcq-13",
-        "final-mcq-12",
-        "final-mcq-11",
-        "final-mcq-10",
-        "final-mcq-09"
+        "final-mcq-10"
       ],
       "explanation": "本句的「finality」指「某事已完全結束或定案、不再有改變餘地的狀態」。",
       "sentenceIndex": 1,
@@ -1180,12 +1049,9 @@ export default {
         "finality"
       ],
       "optionReasons": {
-        "final-mcq-14": "本句指「某事已完全結束或定案、不再有改變餘地的狀態」。",
-        "final-mcq-13": "「成功進入比賽、獎項或選拔最後階段的人／隊伍」是「finalist」的用法，與本句語境不同。",
-        "final-mcq-12": "「完成最後修改或安排，使某件事正式確定」是「finalize/finalise」的用法，與本句語境不同。",
-        "final-mcq-11": "「用來引出一連串內容或步驟中的最後一項」是「finally — last point」的用法，與本句語境不同。",
-        "final-mcq-10": "「經過等待、延誤或努力後，某事終於發生」是「finally — at last」的用法，與本句語境不同。",
-        "final-mcq-09": "「在所有討論後擁有作出最終決定的權力」是「final say/word」的用法，與本句語境不同。"
+        "final-mcq-14": "本句的「finality」指「某事已完全結束或定案、不再有改變餘地的狀態」。",
+        "final-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "final-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "final-mcq-14"
     }
@@ -1198,5 +1064,7 @@ export default {
     "pages": 15,
     "sha256": "1471cddf3ddc19b7846002f8b06d0d438a1ca266cabfb334339fba28ea0c1370"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "sharp-mcq-02",
-      "title": "表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」",
+      "title": "鋒利的；尖銳的",
       "form": "sharp — having an edge or point that can cut or pierce = having a very thin cutting edge or fine point 鋒利的；尖銳的",
       "en": "sharp — having an edge or point that can cut or pierce = having a very thin cutting edge or fine point 鋒利的；尖銳的",
       "zh": "表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "sharp-mcq-03",
-      "title": "表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」",
+      "title": "磨利；削尖",
       "form": "sharpen — make or become sharp sharpen = make an edge or point sharper 磨利；削尖",
       "en": "sharpen — make or become sharp sharpen = make an edge or point sharper 磨利；削尖",
       "zh": "表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "sharp-mcq-04",
-      "title": "表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」",
+      "title": "尖的；尖角的；輪廓分明的",
       "form": "sharp — forming a narrow or pointed shape = having an angular, pointed, or clearly defined form 尖的；尖角的；輪廓分明的",
       "en": "sharp — forming a narrow or pointed shape = having an angular, pointed, or clearly defined form 尖的；尖角的；輪廓分明的",
       "zh": "表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "sharp-mcq-05",
-      "title": "表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」",
+      "title": "急轉的；陡轉的",
       "form": "sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的",
       "en": "sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的",
       "zh": "表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "sharp-mcq-06",
-      "title": "表示急轉向右；例句：「這條路突然急轉向右。」",
+      "title": "急轉向右",
       "form": "sharply — suddenly changing direction",
       "en": "sharply — suddenly changing direction",
       "zh": "表示急轉向右；例句：「這條路突然急轉向右。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "sharp-mcq-07",
-      "title": "表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」",
+      "title": "尖銳的疼痛；劇痛；刺痛",
       "form": "sharp pain = sudden, intense, and clearly localized pain 尖銳的疼痛；劇痛；刺痛",
       "en": "sharp pain = sudden, intense, and clearly localized pain 尖銳的疼痛；劇痛；刺痛",
       "zh": "表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "sharp-mcq-10",
-      "title": "表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」",
+      "title": "頭腦敏銳的；機靈的；聰明的",
       "form": "sharp — mentally quick and intelligent = quick to understand, notice, or think 頭腦敏銳的；機靈的；聰明的",
       "en": "sharp — mentally quick and intelligent = quick to understand, notice, or think 頭腦敏銳的；機靈的；聰明的",
       "zh": "表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "sharp-mcq-11",
-      "title": "表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」",
+      "title": "敏銳的頭腦；敏捷的思維",
       "form": "a sharp mind / sharp intellect = an intelligent mind that understands things quickly and accurately 敏銳的頭腦；敏捷的思維",
       "en": "a sharp mind / sharp intellect = an intelligent mind that understands things quickly and accurately 敏銳的頭腦；敏捷的思維",
       "zh": "表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "sharp-mcq-12",
-      "title": "表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」",
+      "title": "觀察敏銳的；有洞察力的",
       "form": "sharp — perceptive; good at noticing details = highly observant or perceptive 觀察敏銳的；有洞察力的",
       "en": "sharp — perceptive; good at noticing details = highly observant or perceptive 觀察敏銳的；有洞察力的",
       "zh": "表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "sharp-mcq-13",
-      "title": "表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」",
+      "title": "對……眼光敏銳；善於識別……",
       "form": "have a sharp eye for something = be particularly good at noticing, selecting, or judging something 對……眼光敏銳；善於識別……",
       "en": "have a sharp eye for something = be particularly good at noticing, selecting, or judging something 對……眼光敏銳；善於識別……",
       "zh": "表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "sharp-mcq-14",
-      "title": "表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」",
+      "title": "敏銳的視力／聽力／感官",
       "form": "sharp eyesight / hearing / senses = highly sensitive and capable of detecting small details 敏銳的視力／聽力／感官",
       "en": "sharp eyesight / hearing / senses = highly sensitive and capable of detecting small details 敏銳的視力／聽力／感官",
       "zh": "表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "sharp-mcq-16",
-      "title": "表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」",
+      "title": "嚴厲的；尖刻的；不客氣的",
       "form": "sharp — severe, critical, or harsh in speech = spoken in an angry, severe, or strongly critical manner 嚴厲的；尖刻的；不客氣的",
       "en": "sharp — severe, critical, or harsh in speech = spoken in an angry, severe, or strongly critical manner 嚴厲的；尖刻的；不客氣的",
       "zh": "表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "sharp-mcq-17",
-      "title": "表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」",
+      "title": "尖刻的話；刺人的話",
       "form": "sharp words / sharp tongue sharp words = harsh or cutting remarks 尖刻的話；刺人的話 a sharp tongue = tendency to speak critically or hurtfully 說話尖刻；嘴巴厲害",
       "en": "sharp words / sharp tongue sharp words = harsh or cutting remarks 尖刻的話；刺人的話 a sharp tongue = tendency to speak critically or hurtfully 說話尖刻；嘴巴厲害",
       "zh": "表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "sharp-mcq-18",
-      "title": "表示嚴厲地；例句：「住手，」她嚴厲地說。」",
+      "title": "嚴厲地",
       "form": "sharply — angrily, sternly, or critically",
       "en": "sharply — angrily, sternly, or critically",
       "zh": "表示嚴厲地；例句：「住手，」她嚴厲地說。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "sharp-mcq-19",
-      "title": "表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」",
+      "title": "急劇的；大幅而突然的",
       "form": "sharp increase / rise = large and sudden 急劇的；大幅而突然的",
       "en": "sharp increase / rise = large and sudden 急劇的；大幅而突然的",
       "zh": "表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "sharp-mcq-20",
-      "title": "表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」",
+      "title": "急劇下降的；大幅下跌的",
       "form": "sharp fall / drop / decline = large and sudden downward change 急劇下降的；大幅下跌的",
       "en": "sharp fall / drop / decline = large and sudden downward change 急劇下降的；大幅下跌的",
       "zh": "表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "sharp-mcq-21",
-      "title": "表示急劇地；大幅地；例句：「今年成本大幅上升。」",
+      "title": "急劇地；大幅地",
       "form": "sharply — by a large amount and suddenly = rapidly and substantially 急劇地；大幅地",
       "en": "sharply — by a large amount and suddenly = rapidly and substantially 急劇地；大幅地",
       "zh": "表示急劇地；大幅地；例句：「今年成本大幅上升。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "sharp-mcq-22",
-      "title": "表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」",
+      "title": "鮮明的對比；強烈反差",
       "form": "sharp contrast = a very clear and striking difference 鮮明的對比；強烈反差",
       "en": "sharp contrast = a very clear and striking difference 鮮明的對比；強烈反差",
       "zh": "表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "sharp-mcq-23",
-      "title": "表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」",
+      "title": "截然不同的；嚴重分歧的",
       "form": "sharply different / sharply divided = clearly or strongly different / divided 截然不同的；嚴重分歧的",
       "en": "sharply different / sharply divided = clearly or strongly different / divided 截然不同的；嚴重分歧的",
       "zh": "表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "sharp-mcq-24",
-      "title": "表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」",
+      "title": "清晰的；輪廓分明的；鮮明的",
       "form": "sharp — clear and clearly defined = having distinct lines, boundaries, or visual details 清晰的；輪廓分明的；鮮明的",
       "en": "sharp — clear and clearly defined = having distinct lines, boundaries, or visual details 清晰的；輪廓分明的；鮮明的",
       "zh": "表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "sharp-mcq-25",
-      "title": "表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」",
+      "title": "清晰的；對焦準確的",
       "form": "sharp image / focus = visually clear and well focused 清晰的；對焦準確的",
       "en": "sharp image / focus = visually clear and well focused 清晰的；對焦準確的",
       "zh": "表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」",
@@ -557,7 +557,7 @@ export default {
     },
     {
       "id": "sharp-mcq-26",
-      "title": "表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」",
+      "title": "使更清晰；使更明確；強化",
       "form": "sharpen an image / distinction / argument The physical “make sharper” meaning extends metaphorically to: = make clearer, stronger, or more precise 使更清晰；使更明確；強化",
       "en": "sharpen an image / distinction / argument The physical “make sharper” meaning extends metaphorically to: = make clearer, stronger, or more precise 使更清晰；使更明確；強化",
       "zh": "表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」",
@@ -579,7 +579,7 @@ export default {
     },
     {
       "id": "sharp-mcq-27",
-      "title": "表示整；準時；正好；例句：「會議九點整開始。」",
+      "title": "整；準時；正好",
       "form": "at six sharp = exactly at the stated time 整；準時；正好",
       "en": "at six sharp = exactly at the stated time 整；準時；正好",
       "zh": "表示整；準時；正好；例句：「會議九點整開始。」",
@@ -645,7 +645,7 @@ export default {
     },
     {
       "id": "sharp-mcq-30",
-      "title": "表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」",
+      "title": "偏高的；升高的",
       "form": "sharp — slightly higher than the correct musical pitch = above the intended pitch 偏高的；升高的",
       "en": "sharp — slightly higher than the correct musical pitch = above the intended pitch 偏高的；升高的",
       "zh": "表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」",
@@ -667,7 +667,7 @@ export default {
     },
     {
       "id": "sharp-mcq-31",
-      "title": "表示升記號；升音；例句：「在 F 前加一個升記號。」",
+      "title": "升記號；升音",
       "form": "sharp — the musical symbol ♯ / a raised note In music, sharp can also be a noun. a sharp = a symbol or note indicating one semitone higher 升記號；升音",
       "en": "sharp — the musical symbol ♯ / a raised note In music, sharp can also be a noun. a sharp = a symbol or note indicating one semitone higher 升記號；升音",
       "zh": "表示升記號；升音；例句：「在 F 前加一個升記號。」",
@@ -689,7 +689,7 @@ export default {
     },
     {
       "id": "sharp-mcq-32",
-      "title": "表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」",
+      "title": "刺骨的；凜冽的",
       "form": "sharp — very cold in a fresh, biting way = noticeably and unpleasantly cold 刺骨的；凜冽的",
       "en": "sharp — very cold in a fresh, biting way = noticeably and unpleasantly cold 刺骨的；凜冽的",
       "zh": "表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」",
@@ -711,7 +711,7 @@ export default {
     },
     {
       "id": "sharp-mcq-33",
-      "title": "表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」",
+      "title": "突然的；猛烈的",
       "form": "sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的",
       "en": "sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的",
       "zh": "表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」",
@@ -755,7 +755,7 @@ export default {
     },
     {
       "id": "sharp-mcq-35",
-      "title": "表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」",
+      "title": "削鉛筆器；磨刀器；磨具",
       "form": "sharpener = a tool used to sharpen something 削鉛筆器；磨刀器；磨具",
       "en": "sharpener = a tool used to sharpen something 削鉛筆器；磨刀器；磨具",
       "zh": "表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」",
@@ -777,7 +777,7 @@ export default {
     },
     {
       "id": "sharp-mcq-36",
-      "title": "表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」",
+      "title": "機智；敏捷的才思",
       "form": "sharp wit = quick, clever humour or intelligence 機智；敏捷的才思",
       "en": "sharp wit = quick, clever humour or intelligence 機智；敏捷的才思",
       "zh": "表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」",
@@ -799,7 +799,7 @@ export default {
     },
     {
       "id": "sharp-mcq-37",
-      "title": "表示嚴厲批評；尖銳批評；例句：「該提案受到嚴厲批評。」",
+      "title": "嚴厲批評；尖銳批評",
       "form": "sharp criticism = strong, severe criticism 嚴厲批評；尖銳批評",
       "en": "sharp criticism = strong, severe criticism 嚴厲批評；尖銳批評",
       "zh": "表示嚴厲批評；尖銳批評；例句：「該提案受到嚴厲批評。」",
@@ -821,7 +821,7 @@ export default {
     },
     {
       "id": "sharp-mcq-38",
-      "title": "表示明確的區別；鮮明的界線；例句：「這套理論對兩個概念作出明確區分。」",
+      "title": "明確的區別；鮮明的界線",
       "form": "sharp distinction / division = very clear difference or boundary 明確的區別；鮮明的界線",
       "en": "sharp distinction / division = very clear difference or boundary 明確的區別；鮮明的界線",
       "zh": "表示明確的區別；鮮明的界線；例句：「這套理論對兩個概念作出明確區分。」",
@@ -851,11 +851,9 @@ export default {
       "masked": "She had ____ in quiet students.",
       "options": [
         "sharp-mcq-01",
-        "sharp-mcq-02",
-        "sharp-mcq-03",
-        "sharp-mcq-04",
-        "sharp-mcq-05",
-        "sharp-mcq-06"
+        "sharp-mcq-09",
+        "sharp-mcq-23",
+        "sharp-mcq-32"
       ],
       "explanation": "本句的「a sharp eye for potential」指「敏銳的；眼光銳利的；善於察覺的」。",
       "sentenceIndex": 0,
@@ -864,12 +862,10 @@ export default {
         "a sharp eye for potential"
       ],
       "optionReasons": {
-        "sharp-mcq-01": "本句指「敏銳的；眼光銳利的；善於察覺的」。",
-        "sharp-mcq-02": "「表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」」是「sharp — having an edge or point that can cut or pierce = having a very thin cutting edge or fine point 鋒利的；尖銳的」的用法，與本句語境不同。",
-        "sharp-mcq-03": "「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」是「sharpen — make or become sharp sharpen = make an edge or point sharper 磨利；削尖」的用法，與本句語境不同。",
-        "sharp-mcq-04": "「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」是「sharp — forming a narrow or pointed shape = having an angular, pointed, or clearly defined form 尖的；尖角的；輪廓分明的」的用法，與本句語境不同。",
-        "sharp-mcq-05": "「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」是「sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的」的用法，與本句語境不同。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。"
+        "sharp-mcq-01": "本句的「a sharp eye for potential」指「敏銳的；眼光銳利的；善於察覺的」。",
+        "sharp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-01"
     },
@@ -881,11 +877,9 @@ export default {
       "masked": "A good editor needs ____.",
       "options": [
         "sharp-mcq-01",
-        "sharp-mcq-02",
-        "sharp-mcq-03",
+        "sharp-mcq-06",
         "sharp-mcq-04",
-        "sharp-mcq-05",
-        "sharp-mcq-06"
+        "sharp-mcq-34"
       ],
       "explanation": "本句的「a sharp eye for detail」指「敏銳的；眼光銳利的；善於察覺的」。",
       "sentenceIndex": 1,
@@ -894,12 +888,10 @@ export default {
         "a sharp eye for detail"
       ],
       "optionReasons": {
-        "sharp-mcq-01": "本句指「敏銳的；眼光銳利的；善於察覺的」。",
-        "sharp-mcq-02": "「表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」」是「sharp — having an edge or point that can cut or pierce = having a very thin cutting edge or fine point 鋒利的；尖銳的」的用法，與本句語境不同。",
-        "sharp-mcq-03": "「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」是「sharpen — make or become sharp sharpen = make an edge or point sharper 磨利；削尖」的用法，與本句語境不同。",
-        "sharp-mcq-04": "「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」是「sharp — forming a narrow or pointed shape = having an angular, pointed, or clearly defined form 尖的；尖角的；輪廓分明的」的用法，與本句語境不同。",
-        "sharp-mcq-05": "「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」是「sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的」的用法，與本句語境不同。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。"
+        "sharp-mcq-01": "本句的「a sharp eye for detail」指「敏銳的；眼光銳利的；善於察覺的」。",
+        "sharp-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-01"
     },
@@ -911,11 +903,9 @@ export default {
       "masked": "Be careful—the knife is extremely ____.",
       "options": [
         "sharp-mcq-02",
-        "sharp-mcq-01",
-        "sharp-mcq-03",
-        "sharp-mcq-04",
-        "sharp-mcq-05",
-        "sharp-mcq-06"
+        "sharp-mcq-26",
+        "sharp-mcq-23",
+        "sharp-mcq-34"
       ],
       "explanation": "本句的「sharp」指「表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」」。",
       "sentenceIndex": 2,
@@ -924,12 +914,10 @@ export default {
         "sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-02": "本句指「表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」」。",
-        "sharp-mcq-01": "「敏銳的；眼光銳利的；善於察覺的」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。",
-        "sharp-mcq-03": "「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」是「sharpen — make or become sharp sharpen = make an edge or point sharper 磨利；削尖」的用法，與本句語境不同。",
-        "sharp-mcq-04": "「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」是「sharp — forming a narrow or pointed shape = having an angular, pointed, or clearly defined form 尖的；尖角的；輪廓分明的」的用法，與本句語境不同。",
-        "sharp-mcq-05": "「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」是「sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的」的用法，與本句語境不同。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。"
+        "sharp-mcq-02": "本句的「sharp」指「表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」」。",
+        "sharp-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-02"
     },
@@ -941,11 +929,9 @@ export default {
       "masked": "The plant has ____.",
       "options": [
         "sharp-mcq-02",
-        "sharp-mcq-01",
-        "sharp-mcq-03",
-        "sharp-mcq-04",
-        "sharp-mcq-05",
-        "sharp-mcq-06"
+        "sharp-mcq-27",
+        "sharp-mcq-36",
+        "sharp-mcq-28"
       ],
       "explanation": "本句的「sharp thorns」指「表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」」。",
       "sentenceIndex": 3,
@@ -954,12 +940,10 @@ export default {
         "sharp thorns"
       ],
       "optionReasons": {
-        "sharp-mcq-02": "本句指「表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」」。",
-        "sharp-mcq-01": "「敏銳的；眼光銳利的；善於察覺的」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。",
-        "sharp-mcq-03": "「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」是「sharpen — make or become sharp sharpen = make an edge or point sharper 磨利；削尖」的用法，與本句語境不同。",
-        "sharp-mcq-04": "「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」是「sharp — forming a narrow or pointed shape = having an angular, pointed, or clearly defined form 尖的；尖角的；輪廓分明的」的用法，與本句語境不同。",
-        "sharp-mcq-05": "「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」是「sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的」的用法，與本句語境不同。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。"
+        "sharp-mcq-02": "本句的「sharp thorns」指「表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」」。",
+        "sharp-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-02"
     },
@@ -971,11 +955,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "sharp-mcq-03",
-        "sharp-mcq-02",
-        "sharp-mcq-04",
-        "sharp-mcq-01",
-        "sharp-mcq-05",
-        "sharp-mcq-06"
+        "sharp-mcq-32",
+        "sharp-mcq-38",
+        "sharp-mcq-29"
       ],
       "explanation": "本句的「sharpen this pencil」指「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」。",
       "sentenceIndex": 4,
@@ -984,12 +966,10 @@ export default {
         "sharpen this pencil"
       ],
       "optionReasons": {
-        "sharp-mcq-03": "本句指「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」。",
-        "sharp-mcq-02": "「表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」」是「sharp — having an edge or point that can cut or pierce = having a very thin cutting edge or fine point 鋒利的；尖銳的」的用法，與本句語境不同。",
-        "sharp-mcq-04": "「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」是「sharp — forming a narrow or pointed shape = having an angular, pointed, or clearly defined form 尖的；尖角的；輪廓分明的」的用法，與本句語境不同。",
-        "sharp-mcq-01": "「敏銳的；眼光銳利的；善於察覺的」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。",
-        "sharp-mcq-05": "「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」是「sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的」的用法，與本句語境不同。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。"
+        "sharp-mcq-03": "本句的「sharpen this pencil」指「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」。",
+        "sharp-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-03"
     },
@@ -1001,11 +981,9 @@ export default {
       "masked": "He ____ before cooking.",
       "options": [
         "sharp-mcq-03",
-        "sharp-mcq-02",
-        "sharp-mcq-04",
-        "sharp-mcq-01",
-        "sharp-mcq-05",
-        "sharp-mcq-06"
+        "sharp-mcq-27",
+        "sharp-mcq-28",
+        "sharp-mcq-34"
       ],
       "explanation": "本句的「sharpened the knife」指「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」。",
       "sentenceIndex": 5,
@@ -1014,12 +992,10 @@ export default {
         "sharpened the knife"
       ],
       "optionReasons": {
-        "sharp-mcq-03": "本句指「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」。",
-        "sharp-mcq-02": "「表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」」是「sharp — having an edge or point that can cut or pierce = having a very thin cutting edge or fine point 鋒利的；尖銳的」的用法，與本句語境不同。",
-        "sharp-mcq-04": "「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」是「sharp — forming a narrow or pointed shape = having an angular, pointed, or clearly defined form 尖的；尖角的；輪廓分明的」的用法，與本句語境不同。",
-        "sharp-mcq-01": "「敏銳的；眼光銳利的；善於察覺的」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。",
-        "sharp-mcq-05": "「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」是「sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的」的用法，與本句語境不同。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。"
+        "sharp-mcq-03": "本句的「sharpened the knife」指「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」。",
+        "sharp-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-03"
     },
@@ -1031,11 +1007,9 @@ export default {
       "masked": "The mountain has a ____.",
       "options": [
         "sharp-mcq-04",
-        "sharp-mcq-03",
-        "sharp-mcq-05",
-        "sharp-mcq-02",
-        "sharp-mcq-06",
-        "sharp-mcq-01"
+        "sharp-mcq-27",
+        "sharp-mcq-28",
+        "sharp-mcq-35"
       ],
       "explanation": "本句的「sharp peak」指「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」。",
       "sentenceIndex": 6,
@@ -1044,12 +1018,10 @@ export default {
         "sharp peak"
       ],
       "optionReasons": {
-        "sharp-mcq-04": "本句指「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」。",
-        "sharp-mcq-03": "「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」是「sharpen — make or become sharp sharpen = make an edge or point sharper 磨利；削尖」的用法，與本句語境不同。",
-        "sharp-mcq-05": "「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」是「sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的」的用法，與本句語境不同。",
-        "sharp-mcq-02": "「表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」」是「sharp — having an edge or point that can cut or pierce = having a very thin cutting edge or fine point 鋒利的；尖銳的」的用法，與本句語境不同。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。",
-        "sharp-mcq-01": "「敏銳的；眼光銳利的；善於察覺的」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。"
+        "sharp-mcq-04": "本句的「sharp peak」指「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」。",
+        "sharp-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-04"
     },
@@ -1061,11 +1033,9 @@ export default {
       "masked": "The building is known for its ____.",
       "options": [
         "sharp-mcq-04",
-        "sharp-mcq-03",
-        "sharp-mcq-05",
-        "sharp-mcq-02",
-        "sharp-mcq-06",
-        "sharp-mcq-01"
+        "sharp-mcq-31",
+        "sharp-mcq-01",
+        "sharp-mcq-08"
       ],
       "explanation": "本句的「sharp angles」指「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」。",
       "sentenceIndex": 7,
@@ -1074,12 +1044,10 @@ export default {
         "sharp angles"
       ],
       "optionReasons": {
-        "sharp-mcq-04": "本句指「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」。",
-        "sharp-mcq-03": "「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」是「sharpen — make or become sharp sharpen = make an edge or point sharper 磨利；削尖」的用法，與本句語境不同。",
-        "sharp-mcq-05": "「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」是「sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的」的用法，與本句語境不同。",
-        "sharp-mcq-02": "「表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」」是「sharp — having an edge or point that can cut or pierce = having a very thin cutting edge or fine point 鋒利的；尖銳的」的用法，與本句語境不同。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。",
-        "sharp-mcq-01": "「敏銳的；眼光銳利的；善於察覺的」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。"
+        "sharp-mcq-04": "本句的「sharp angles」指「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」。",
+        "sharp-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-04"
     },
@@ -1091,11 +1059,9 @@ export default {
       "masked": "There is a ____ in the road ahead.",
       "options": [
         "sharp-mcq-05",
-        "sharp-mcq-04",
-        "sharp-mcq-06",
         "sharp-mcq-03",
-        "sharp-mcq-07",
-        "sharp-mcq-02"
+        "sharp-mcq-31",
+        "sharp-mcq-29"
       ],
       "explanation": "本句的「sharp bend」指「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」。",
       "sentenceIndex": 8,
@@ -1104,12 +1070,10 @@ export default {
         "sharp bend"
       ],
       "optionReasons": {
-        "sharp-mcq-05": "本句指「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」。",
-        "sharp-mcq-04": "「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」是「sharp — forming a narrow or pointed shape = having an angular, pointed, or clearly defined form 尖的；尖角的；輪廓分明的」的用法，與本句語境不同。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。",
-        "sharp-mcq-03": "「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」是「sharpen — make or become sharp sharpen = make an edge or point sharper 磨利；削尖」的用法，與本句語境不同。",
-        "sharp-mcq-07": "「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」是「sharp pain = sudden, intense, and clearly localized pain 尖銳的疼痛；劇痛；刺痛」的用法，與本句語境不同。",
-        "sharp-mcq-02": "「表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」」是「sharp — having an edge or point that can cut or pierce = having a very thin cutting edge or fine point 鋒利的；尖銳的」的用法，與本句語境不同。"
+        "sharp-mcq-05": "本句的「sharp bend」指「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」。",
+        "sharp-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-05"
     },
@@ -1121,11 +1085,9 @@ export default {
       "masked": "The driver made a ____ to the left.",
       "options": [
         "sharp-mcq-05",
-        "sharp-mcq-04",
-        "sharp-mcq-06",
-        "sharp-mcq-03",
-        "sharp-mcq-07",
-        "sharp-mcq-02"
+        "sharp-mcq-26",
+        "sharp-mcq-15",
+        "sharp-mcq-23"
       ],
       "explanation": "本句的「sharp turn」指「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」。",
       "sentenceIndex": 9,
@@ -1134,12 +1096,10 @@ export default {
         "sharp turn"
       ],
       "optionReasons": {
-        "sharp-mcq-05": "本句指「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」。",
-        "sharp-mcq-04": "「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」是「sharp — forming a narrow or pointed shape = having an angular, pointed, or clearly defined form 尖的；尖角的；輪廓分明的」的用法，與本句語境不同。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。",
-        "sharp-mcq-03": "「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」是「sharpen — make or become sharp sharpen = make an edge or point sharper 磨利；削尖」的用法，與本句語境不同。",
-        "sharp-mcq-07": "「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」是「sharp pain = sudden, intense, and clearly localized pain 尖銳的疼痛；劇痛；刺痛」的用法，與本句語境不同。",
-        "sharp-mcq-02": "「表示鋒利的；尖銳的；例句：「小心，這把刀非常鋒利。」」是「sharp — having an edge or point that can cut or pierce = having a very thin cutting edge or fine point 鋒利的；尖銳的」的用法，與本句語境不同。"
+        "sharp-mcq-05": "本句的「sharp turn」指「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」。",
+        "sharp-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-05"
     },
@@ -1151,11 +1111,9 @@ export default {
       "masked": "The road turns ____ to the right.",
       "options": [
         "sharp-mcq-06",
-        "sharp-mcq-05",
-        "sharp-mcq-07",
-        "sharp-mcq-04",
-        "sharp-mcq-08",
-        "sharp-mcq-03"
+        "sharp-mcq-31",
+        "sharp-mcq-28",
+        "sharp-mcq-36"
       ],
       "explanation": "本句的「sharply」指「表示急轉向右；例句：「這條路突然急轉向右。」」。",
       "sentenceIndex": 10,
@@ -1164,12 +1122,10 @@ export default {
         "sharply"
       ],
       "optionReasons": {
-        "sharp-mcq-06": "本句指「表示急轉向右；例句：「這條路突然急轉向右。」」。",
-        "sharp-mcq-05": "「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」是「sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的」的用法，與本句語境不同。",
-        "sharp-mcq-07": "「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」是「sharp pain = sudden, intense, and clearly localized pain 尖銳的疼痛；劇痛；刺痛」的用法，與本句語境不同。",
-        "sharp-mcq-04": "「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」是「sharp — forming a narrow or pointed shape = having an angular, pointed, or clearly defined form 尖的；尖角的；輪廓分明的」的用法，與本句語境不同。",
-        "sharp-mcq-08": "「強烈的；刺鼻的；刺耳的；刺人的」是「sharp — strongly affecting the senses = intense, penetrating, or strongly noticeable to a sense 強烈的；刺鼻的；刺耳的；刺人的」的用法，與本句語境不同。",
-        "sharp-mcq-03": "「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」是「sharpen — make or become sharp sharpen = make an edge or point sharper 磨利；削尖」的用法，與本句語境不同。"
+        "sharp-mcq-06": "本句的「sharply」指「表示急轉向右；例句：「這條路突然急轉向右。」」。",
+        "sharp-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-06"
     },
@@ -1181,11 +1137,9 @@ export default {
       "masked": "She turned ____ and walked away.",
       "options": [
         "sharp-mcq-06",
-        "sharp-mcq-05",
-        "sharp-mcq-07",
-        "sharp-mcq-04",
-        "sharp-mcq-08",
-        "sharp-mcq-03"
+        "sharp-mcq-15",
+        "sharp-mcq-02",
+        "sharp-mcq-33"
       ],
       "explanation": "本句的「sharply」指「表示急轉向右；例句：「這條路突然急轉向右。」」。",
       "sentenceIndex": 11,
@@ -1194,12 +1148,10 @@ export default {
         "sharply"
       ],
       "optionReasons": {
-        "sharp-mcq-06": "本句指「表示急轉向右；例句：「這條路突然急轉向右。」」。",
-        "sharp-mcq-05": "「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」是「sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的」的用法，與本句語境不同。",
-        "sharp-mcq-07": "「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」是「sharp pain = sudden, intense, and clearly localized pain 尖銳的疼痛；劇痛；刺痛」的用法，與本句語境不同。",
-        "sharp-mcq-04": "「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」是「sharp — forming a narrow or pointed shape = having an angular, pointed, or clearly defined form 尖的；尖角的；輪廓分明的」的用法，與本句語境不同。",
-        "sharp-mcq-08": "「強烈的；刺鼻的；刺耳的；刺人的」是「sharp — strongly affecting the senses = intense, penetrating, or strongly noticeable to a sense 強烈的；刺鼻的；刺耳的；刺人的」的用法，與本句語境不同。",
-        "sharp-mcq-03": "「表示磨利；削尖；例句：「我需要把這支鉛筆削尖。」」是「sharpen — make or become sharp sharpen = make an edge or point sharper 磨利；削尖」的用法，與本句語境不同。"
+        "sharp-mcq-06": "本句的「sharply」指「表示急轉向右；例句：「這條路突然急轉向右。」」。",
+        "sharp-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-06"
     },
@@ -1211,11 +1163,9 @@ export default {
       "masked": "I felt a ____ in my shoulder.",
       "options": [
         "sharp-mcq-07",
+        "sharp-mcq-34",
         "sharp-mcq-06",
-        "sharp-mcq-08",
-        "sharp-mcq-05",
-        "sharp-mcq-09",
-        "sharp-mcq-04"
+        "sharp-mcq-23"
       ],
       "explanation": "本句的「sharp pain」指「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」。",
       "sentenceIndex": 12,
@@ -1224,12 +1174,10 @@ export default {
         "sharp pain"
       ],
       "optionReasons": {
-        "sharp-mcq-07": "本句指「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。",
-        "sharp-mcq-08": "「強烈的；刺鼻的；刺耳的；刺人的」是「sharp — strongly affecting the senses = intense, penetrating, or strongly noticeable to a sense 強烈的；刺鼻的；刺耳的；刺人的」的用法，與本句語境不同。",
-        "sharp-mcq-05": "「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」是「sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的」的用法，與本句語境不同。",
-        "sharp-mcq-09": "「味道強烈的；酸澀的；辛辣刺激的」是「sharp — strong, acidic, bitter, or pungent in flavour = having a strong taste that produces a biting sensation 味道強烈的；酸澀的；辛辣刺激的」的用法，與本句語境不同。",
-        "sharp-mcq-04": "「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」是「sharp — forming a narrow or pointed shape = having an angular, pointed, or clearly defined form 尖的；尖角的；輪廓分明的」的用法，與本句語境不同。"
+        "sharp-mcq-07": "本句的「sharp pain」指「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」。",
+        "sharp-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-07"
     },
@@ -1241,11 +1189,9 @@ export default {
       "masked": "He experienced a ____ when he stood up.",
       "options": [
         "sharp-mcq-07",
-        "sharp-mcq-06",
-        "sharp-mcq-08",
-        "sharp-mcq-05",
-        "sharp-mcq-09",
-        "sharp-mcq-04"
+        "sharp-mcq-25",
+        "sharp-mcq-31",
+        "sharp-mcq-35"
       ],
       "explanation": "本句的「sharp pain」指「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」。",
       "sentenceIndex": 13,
@@ -1254,12 +1200,10 @@ export default {
         "sharp pain"
       ],
       "optionReasons": {
-        "sharp-mcq-07": "本句指「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。",
-        "sharp-mcq-08": "「強烈的；刺鼻的；刺耳的；刺人的」是「sharp — strongly affecting the senses = intense, penetrating, or strongly noticeable to a sense 強烈的；刺鼻的；刺耳的；刺人的」的用法，與本句語境不同。",
-        "sharp-mcq-05": "「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」是「sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的」的用法，與本句語境不同。",
-        "sharp-mcq-09": "「味道強烈的；酸澀的；辛辣刺激的」是「sharp — strong, acidic, bitter, or pungent in flavour = having a strong taste that produces a biting sensation 味道強烈的；酸澀的；辛辣刺激的」的用法，與本句語境不同。",
-        "sharp-mcq-04": "「表示尖的；尖角的；輪廓分明的；例句：「那座山有一個尖尖的山峰。」」是「sharp — forming a narrow or pointed shape = having an angular, pointed, or clearly defined form 尖的；尖角的；輪廓分明的」的用法，與本句語境不同。"
+        "sharp-mcq-07": "本句的「sharp pain」指「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」。",
+        "sharp-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-07"
     },
@@ -1271,11 +1215,9 @@ export default {
       "masked": "There was a ____ of vinegar in the room.",
       "options": [
         "sharp-mcq-08",
-        "sharp-mcq-07",
-        "sharp-mcq-09",
         "sharp-mcq-06",
-        "sharp-mcq-10",
-        "sharp-mcq-05"
+        "sharp-mcq-34",
+        "sharp-mcq-02"
       ],
       "explanation": "本句的「sharp smell」指「強烈的；刺鼻的；刺耳的；刺人的」。",
       "sentenceIndex": 14,
@@ -1284,12 +1226,10 @@ export default {
         "sharp smell"
       ],
       "optionReasons": {
-        "sharp-mcq-08": "本句指「強烈的；刺鼻的；刺耳的；刺人的」。",
-        "sharp-mcq-07": "「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」是「sharp pain = sudden, intense, and clearly localized pain 尖銳的疼痛；劇痛；刺痛」的用法，與本句語境不同。",
-        "sharp-mcq-09": "「味道強烈的；酸澀的；辛辣刺激的」是「sharp — strong, acidic, bitter, or pungent in flavour = having a strong taste that produces a biting sensation 味道強烈的；酸澀的；辛辣刺激的」的用法，與本句語境不同。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。",
-        "sharp-mcq-10": "「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」是「sharp — mentally quick and intelligent = quick to understand, notice, or think 頭腦敏銳的；機靈的；聰明的」的用法，與本句語境不同。",
-        "sharp-mcq-05": "「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」是「sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的」的用法，與本句語境不同。"
+        "sharp-mcq-08": "本句的「sharp smell」指「強烈的；刺鼻的；刺耳的；刺人的」。",
+        "sharp-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-08"
     },
@@ -1301,11 +1241,9 @@ export default {
       "masked": "A ____ came from behind us.",
       "options": [
         "sharp-mcq-08",
-        "sharp-mcq-07",
-        "sharp-mcq-09",
-        "sharp-mcq-06",
-        "sharp-mcq-10",
-        "sharp-mcq-05"
+        "sharp-mcq-12",
+        "sharp-mcq-30",
+        "sharp-mcq-27"
       ],
       "explanation": "本句的「sharp sound」指「強烈的；刺鼻的；刺耳的；刺人的」。",
       "sentenceIndex": 15,
@@ -1314,12 +1252,10 @@ export default {
         "sharp sound"
       ],
       "optionReasons": {
-        "sharp-mcq-08": "本句指「強烈的；刺鼻的；刺耳的；刺人的」。",
-        "sharp-mcq-07": "「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」是「sharp pain = sudden, intense, and clearly localized pain 尖銳的疼痛；劇痛；刺痛」的用法，與本句語境不同。",
-        "sharp-mcq-09": "「味道強烈的；酸澀的；辛辣刺激的」是「sharp — strong, acidic, bitter, or pungent in flavour = having a strong taste that produces a biting sensation 味道強烈的；酸澀的；辛辣刺激的」的用法，與本句語境不同。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。",
-        "sharp-mcq-10": "「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」是「sharp — mentally quick and intelligent = quick to understand, notice, or think 頭腦敏銳的；機靈的；聰明的」的用法，與本句語境不同。",
-        "sharp-mcq-05": "「表示急轉的；陡轉的；例句：「前面的道路有一個急彎。」」是「sharp — a sudden or tight change of direction = changing direction suddenly or at a small angle 急轉的；陡轉的」的用法，與本句語境不同。"
+        "sharp-mcq-08": "本句的「sharp sound」指「強烈的；刺鼻的；刺耳的；刺人的」。",
+        "sharp-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-08"
     },
@@ -1331,11 +1267,9 @@ export default {
       "masked": "The cheese has a pleasantly ____.",
       "options": [
         "sharp-mcq-09",
-        "sharp-mcq-08",
-        "sharp-mcq-10",
-        "sharp-mcq-07",
-        "sharp-mcq-11",
-        "sharp-mcq-06"
+        "sharp-mcq-38",
+        "sharp-mcq-15",
+        "sharp-mcq-02"
       ],
       "explanation": "本句的「sharp flavour」指「味道強烈的；酸澀的；辛辣刺激的」。",
       "sentenceIndex": 16,
@@ -1344,12 +1278,10 @@ export default {
         "sharp flavour"
       ],
       "optionReasons": {
-        "sharp-mcq-09": "本句指「味道強烈的；酸澀的；辛辣刺激的」。",
-        "sharp-mcq-08": "「強烈的；刺鼻的；刺耳的；刺人的」是「sharp — strongly affecting the senses = intense, penetrating, or strongly noticeable to a sense 強烈的；刺鼻的；刺耳的；刺人的」的用法，與本句語境不同。",
-        "sharp-mcq-10": "「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」是「sharp — mentally quick and intelligent = quick to understand, notice, or think 頭腦敏銳的；機靈的；聰明的」的用法，與本句語境不同。",
-        "sharp-mcq-07": "「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」是「sharp pain = sudden, intense, and clearly localized pain 尖銳的疼痛；劇痛；刺痛」的用法，與本句語境不同。",
-        "sharp-mcq-11": "「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」是「a sharp mind / sharp intellect = an intelligent mind that understands things quickly and accurately 敏銳的頭腦；敏捷的思維」的用法，與本句語境不同。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。"
+        "sharp-mcq-09": "本句的「sharp flavour」指「味道強烈的；酸澀的；辛辣刺激的」。",
+        "sharp-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-09"
     },
@@ -1361,11 +1293,9 @@ export default {
       "masked": "The sauce had a slightly ____.",
       "options": [
         "sharp-mcq-09",
-        "sharp-mcq-08",
-        "sharp-mcq-10",
-        "sharp-mcq-07",
-        "sharp-mcq-11",
-        "sharp-mcq-06"
+        "sharp-mcq-35",
+        "sharp-mcq-05",
+        "sharp-mcq-25"
       ],
       "explanation": "本句的「sharp taste」指「味道強烈的；酸澀的；辛辣刺激的」。",
       "sentenceIndex": 17,
@@ -1374,12 +1304,10 @@ export default {
         "sharp taste"
       ],
       "optionReasons": {
-        "sharp-mcq-09": "本句指「味道強烈的；酸澀的；辛辣刺激的」。",
-        "sharp-mcq-08": "「強烈的；刺鼻的；刺耳的；刺人的」是「sharp — strongly affecting the senses = intense, penetrating, or strongly noticeable to a sense 強烈的；刺鼻的；刺耳的；刺人的」的用法，與本句語境不同。",
-        "sharp-mcq-10": "「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」是「sharp — mentally quick and intelligent = quick to understand, notice, or think 頭腦敏銳的；機靈的；聰明的」的用法，與本句語境不同。",
-        "sharp-mcq-07": "「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」是「sharp pain = sudden, intense, and clearly localized pain 尖銳的疼痛；劇痛；刺痛」的用法，與本句語境不同。",
-        "sharp-mcq-11": "「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」是「a sharp mind / sharp intellect = an intelligent mind that understands things quickly and accurately 敏銳的頭腦；敏捷的思維」的用法，與本句語境不同。",
-        "sharp-mcq-06": "「表示急轉向右；例句：「這條路突然急轉向右。」」是「sharply — suddenly changing direction」的用法，與本句語境不同。"
+        "sharp-mcq-09": "本句的「sharp taste」指「味道強烈的；酸澀的；辛辣刺激的」。",
+        "sharp-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-09"
     },
@@ -1391,11 +1319,9 @@ export default {
       "masked": "She is still mentally ____ in her eighties.",
       "options": [
         "sharp-mcq-10",
-        "sharp-mcq-09",
-        "sharp-mcq-11",
-        "sharp-mcq-08",
-        "sharp-mcq-12",
-        "sharp-mcq-07"
+        "sharp-mcq-27",
+        "sharp-mcq-25",
+        "sharp-mcq-32"
       ],
       "explanation": "本句的「sharp」指「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」。",
       "sentenceIndex": 18,
@@ -1404,12 +1330,10 @@ export default {
         "sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-10": "本句指「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」。",
-        "sharp-mcq-09": "「味道強烈的；酸澀的；辛辣刺激的」是「sharp — strong, acidic, bitter, or pungent in flavour = having a strong taste that produces a biting sensation 味道強烈的；酸澀的；辛辣刺激的」的用法，與本句語境不同。",
-        "sharp-mcq-11": "「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」是「a sharp mind / sharp intellect = an intelligent mind that understands things quickly and accurately 敏銳的頭腦；敏捷的思維」的用法，與本句語境不同。",
-        "sharp-mcq-08": "「強烈的；刺鼻的；刺耳的；刺人的」是「sharp — strongly affecting the senses = intense, penetrating, or strongly noticeable to a sense 強烈的；刺鼻的；刺耳的；刺人的」的用法，與本句語境不同。",
-        "sharp-mcq-12": "「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」是「sharp — perceptive; good at noticing details = highly observant or perceptive 觀察敏銳的；有洞察力的」的用法，與本句語境不同。",
-        "sharp-mcq-07": "「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」是「sharp pain = sudden, intense, and clearly localized pain 尖銳的疼痛；劇痛；刺痛」的用法，與本句語境不同。"
+        "sharp-mcq-10": "本句的「sharp」指「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」。",
+        "sharp-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-10"
     },
@@ -1421,11 +1345,9 @@ export default {
       "masked": "You need to stay ____ during the interview.",
       "options": [
         "sharp-mcq-10",
-        "sharp-mcq-09",
-        "sharp-mcq-11",
-        "sharp-mcq-08",
-        "sharp-mcq-12",
-        "sharp-mcq-07"
+        "sharp-mcq-25",
+        "sharp-mcq-19",
+        "sharp-mcq-28"
       ],
       "explanation": "本句的「sharp」指「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」。",
       "sentenceIndex": 19,
@@ -1434,12 +1356,10 @@ export default {
         "sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-10": "本句指「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」。",
-        "sharp-mcq-09": "「味道強烈的；酸澀的；辛辣刺激的」是「sharp — strong, acidic, bitter, or pungent in flavour = having a strong taste that produces a biting sensation 味道強烈的；酸澀的；辛辣刺激的」的用法，與本句語境不同。",
-        "sharp-mcq-11": "「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」是「a sharp mind / sharp intellect = an intelligent mind that understands things quickly and accurately 敏銳的頭腦；敏捷的思維」的用法，與本句語境不同。",
-        "sharp-mcq-08": "「強烈的；刺鼻的；刺耳的；刺人的」是「sharp — strongly affecting the senses = intense, penetrating, or strongly noticeable to a sense 強烈的；刺鼻的；刺耳的；刺人的」的用法，與本句語境不同。",
-        "sharp-mcq-12": "「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」是「sharp — perceptive; good at noticing details = highly observant or perceptive 觀察敏銳的；有洞察力的」的用法，與本句語境不同。",
-        "sharp-mcq-07": "「表示尖銳的疼痛；劇痛；刺痛；例句：「我的肩膀突然感到一陣劇烈刺痛。」」是「sharp pain = sudden, intense, and clearly localized pain 尖銳的疼痛；劇痛；刺痛」的用法，與本句語境不同。"
+        "sharp-mcq-10": "本句的「sharp」指「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」。",
+        "sharp-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-10"
     },
@@ -1451,11 +1371,9 @@ export default {
       "masked": "He has a remarkably ____.",
       "options": [
         "sharp-mcq-11",
-        "sharp-mcq-10",
-        "sharp-mcq-12",
-        "sharp-mcq-09",
-        "sharp-mcq-13",
-        "sharp-mcq-08"
+        "sharp-mcq-29",
+        "sharp-mcq-26",
+        "sharp-mcq-03"
       ],
       "explanation": "本句的「sharp mind」指「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」。",
       "sentenceIndex": 20,
@@ -1464,12 +1382,10 @@ export default {
         "sharp mind"
       ],
       "optionReasons": {
-        "sharp-mcq-11": "本句指「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」。",
-        "sharp-mcq-10": "「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」是「sharp — mentally quick and intelligent = quick to understand, notice, or think 頭腦敏銳的；機靈的；聰明的」的用法，與本句語境不同。",
-        "sharp-mcq-12": "「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」是「sharp — perceptive; good at noticing details = highly observant or perceptive 觀察敏銳的；有洞察力的」的用法，與本句語境不同。",
-        "sharp-mcq-09": "「味道強烈的；酸澀的；辛辣刺激的」是「sharp — strong, acidic, bitter, or pungent in flavour = having a strong taste that produces a biting sensation 味道強烈的；酸澀的；辛辣刺激的」的用法，與本句語境不同。",
-        "sharp-mcq-13": "「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」是「have a sharp eye for something = be particularly good at noticing, selecting, or judging something 對……眼光敏銳；善於識別……」的用法，與本句語境不同。",
-        "sharp-mcq-08": "「強烈的；刺鼻的；刺耳的；刺人的」是「sharp — strongly affecting the senses = intense, penetrating, or strongly noticeable to a sense 強烈的；刺鼻的；刺耳的；刺人的」的用法，與本句語境不同。"
+        "sharp-mcq-11": "本句的「sharp mind」指「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」。",
+        "sharp-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-11"
     },
@@ -1481,11 +1397,9 @@ export default {
       "masked": "Her ____ impressed everyone in the discussion.",
       "options": [
         "sharp-mcq-11",
-        "sharp-mcq-10",
-        "sharp-mcq-12",
-        "sharp-mcq-09",
-        "sharp-mcq-13",
-        "sharp-mcq-08"
+        "sharp-mcq-05",
+        "sharp-mcq-27",
+        "sharp-mcq-03"
       ],
       "explanation": "本句的「sharp intellect」指「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」。",
       "sentenceIndex": 21,
@@ -1494,12 +1408,10 @@ export default {
         "sharp intellect"
       ],
       "optionReasons": {
-        "sharp-mcq-11": "本句指「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」。",
-        "sharp-mcq-10": "「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」是「sharp — mentally quick and intelligent = quick to understand, notice, or think 頭腦敏銳的；機靈的；聰明的」的用法，與本句語境不同。",
-        "sharp-mcq-12": "「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」是「sharp — perceptive; good at noticing details = highly observant or perceptive 觀察敏銳的；有洞察力的」的用法，與本句語境不同。",
-        "sharp-mcq-09": "「味道強烈的；酸澀的；辛辣刺激的」是「sharp — strong, acidic, bitter, or pungent in flavour = having a strong taste that produces a biting sensation 味道強烈的；酸澀的；辛辣刺激的」的用法，與本句語境不同。",
-        "sharp-mcq-13": "「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」是「have a sharp eye for something = be particularly good at noticing, selecting, or judging something 對……眼光敏銳；善於識別……」的用法，與本句語境不同。",
-        "sharp-mcq-08": "「強烈的；刺鼻的；刺耳的；刺人的」是「sharp — strongly affecting the senses = intense, penetrating, or strongly noticeable to a sense 強烈的；刺鼻的；刺耳的；刺人的」的用法，與本句語境不同。"
+        "sharp-mcq-11": "本句的「sharp intellect」指「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」。",
+        "sharp-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-11"
     },
@@ -1511,11 +1423,9 @@ export default {
       "masked": "A detective needs ____.",
       "options": [
         "sharp-mcq-12",
-        "sharp-mcq-11",
-        "sharp-mcq-13",
-        "sharp-mcq-10",
-        "sharp-mcq-14",
-        "sharp-mcq-09"
+        "sharp-mcq-17",
+        "sharp-mcq-27",
+        "sharp-mcq-34"
       ],
       "explanation": "本句的「sharp powers of observation」指「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」。",
       "sentenceIndex": 22,
@@ -1524,12 +1434,10 @@ export default {
         "sharp powers of observation"
       ],
       "optionReasons": {
-        "sharp-mcq-12": "本句指「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」。",
-        "sharp-mcq-11": "「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」是「a sharp mind / sharp intellect = an intelligent mind that understands things quickly and accurately 敏銳的頭腦；敏捷的思維」的用法，與本句語境不同。",
-        "sharp-mcq-13": "「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」是「have a sharp eye for something = be particularly good at noticing, selecting, or judging something 對……眼光敏銳；善於識別……」的用法，與本句語境不同。",
-        "sharp-mcq-10": "「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」是「sharp — mentally quick and intelligent = quick to understand, notice, or think 頭腦敏銳的；機靈的；聰明的」的用法，與本句語境不同。",
-        "sharp-mcq-14": "「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」是「sharp eyesight / hearing / senses = highly sensitive and capable of detecting small details 敏銳的視力／聽力／感官」的用法，與本句語境不同。",
-        "sharp-mcq-09": "「味道強烈的；酸澀的；辛辣刺激的」是「sharp — strong, acidic, bitter, or pungent in flavour = having a strong taste that produces a biting sensation 味道強烈的；酸澀的；辛辣刺激的」的用法，與本句語境不同。"
+        "sharp-mcq-12": "本句的「sharp powers of observation」指「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」。",
+        "sharp-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-12"
     },
@@ -1541,11 +1449,9 @@ export default {
       "masked": "His ____ helped him notice the inconsistency.",
       "options": [
         "sharp-mcq-12",
-        "sharp-mcq-11",
-        "sharp-mcq-13",
-        "sharp-mcq-10",
-        "sharp-mcq-14",
-        "sharp-mcq-09"
+        "sharp-mcq-24",
+        "sharp-mcq-09",
+        "sharp-mcq-27"
       ],
       "explanation": "本句的「sharp observation」指「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」。",
       "sentenceIndex": 23,
@@ -1554,12 +1460,10 @@ export default {
         "sharp observation"
       ],
       "optionReasons": {
-        "sharp-mcq-12": "本句指「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」。",
-        "sharp-mcq-11": "「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」是「a sharp mind / sharp intellect = an intelligent mind that understands things quickly and accurately 敏銳的頭腦；敏捷的思維」的用法，與本句語境不同。",
-        "sharp-mcq-13": "「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」是「have a sharp eye for something = be particularly good at noticing, selecting, or judging something 對……眼光敏銳；善於識別……」的用法，與本句語境不同。",
-        "sharp-mcq-10": "「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」是「sharp — mentally quick and intelligent = quick to understand, notice, or think 頭腦敏銳的；機靈的；聰明的」的用法，與本句語境不同。",
-        "sharp-mcq-14": "「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」是「sharp eyesight / hearing / senses = highly sensitive and capable of detecting small details 敏銳的視力／聽力／感官」的用法，與本句語境不同。",
-        "sharp-mcq-09": "「味道強烈的；酸澀的；辛辣刺激的」是「sharp — strong, acidic, bitter, or pungent in flavour = having a strong taste that produces a biting sensation 味道強烈的；酸澀的；辛辣刺激的」的用法，與本句語境不同。"
+        "sharp-mcq-12": "本句的「sharp observation」指「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」。",
+        "sharp-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-12"
     },
@@ -1571,11 +1475,9 @@ export default {
       "masked": "She has ____.",
       "options": [
         "sharp-mcq-13",
-        "sharp-mcq-12",
-        "sharp-mcq-14",
-        "sharp-mcq-11",
-        "sharp-mcq-15",
-        "sharp-mcq-10"
+        "sharp-mcq-05",
+        "sharp-mcq-08",
+        "sharp-mcq-04"
       ],
       "explanation": "本句的「a sharp eye for talent」指「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」。",
       "sentenceIndex": 24,
@@ -1584,12 +1486,10 @@ export default {
         "a sharp eye for talent"
       ],
       "optionReasons": {
-        "sharp-mcq-13": "本句指「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」。",
-        "sharp-mcq-12": "「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」是「sharp — perceptive; good at noticing details = highly observant or perceptive 觀察敏銳的；有洞察力的」的用法，與本句語境不同。",
-        "sharp-mcq-14": "「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」是「sharp eyesight / hearing / senses = highly sensitive and capable of detecting small details 敏銳的視力／聽力／感官」的用法，與本句語境不同。",
-        "sharp-mcq-11": "「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」是「a sharp mind / sharp intellect = an intelligent mind that understands things quickly and accurately 敏銳的頭腦；敏捷的思維」的用法，與本句語境不同。",
-        "sharp-mcq-15": "「保持敏銳；保持警覺；保持最佳狀態」是「keep / stay sharp = remain mentally alert, capable, and quick 保持敏銳；保持警覺；保持最佳狀態」的用法，與本句語境不同。",
-        "sharp-mcq-10": "「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」是「sharp — mentally quick and intelligent = quick to understand, notice, or think 頭腦敏銳的；機靈的；聰明的」的用法，與本句語境不同。"
+        "sharp-mcq-13": "本句的「a sharp eye for talent」指「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」。",
+        "sharp-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-13"
     },
@@ -1601,11 +1501,9 @@ export default {
       "masked": "He has ____.",
       "options": [
         "sharp-mcq-13",
-        "sharp-mcq-12",
-        "sharp-mcq-14",
-        "sharp-mcq-11",
-        "sharp-mcq-15",
-        "sharp-mcq-10"
+        "sharp-mcq-05",
+        "sharp-mcq-23",
+        "sharp-mcq-26"
       ],
       "explanation": "本句的「a sharp eye for small errors」指「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」。",
       "sentenceIndex": 25,
@@ -1614,12 +1512,10 @@ export default {
         "a sharp eye for small errors"
       ],
       "optionReasons": {
-        "sharp-mcq-13": "本句指「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」。",
-        "sharp-mcq-12": "「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」是「sharp — perceptive; good at noticing details = highly observant or perceptive 觀察敏銳的；有洞察力的」的用法，與本句語境不同。",
-        "sharp-mcq-14": "「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」是「sharp eyesight / hearing / senses = highly sensitive and capable of detecting small details 敏銳的視力／聽力／感官」的用法，與本句語境不同。",
-        "sharp-mcq-11": "「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」是「a sharp mind / sharp intellect = an intelligent mind that understands things quickly and accurately 敏銳的頭腦；敏捷的思維」的用法，與本句語境不同。",
-        "sharp-mcq-15": "「保持敏銳；保持警覺；保持最佳狀態」是「keep / stay sharp = remain mentally alert, capable, and quick 保持敏銳；保持警覺；保持最佳狀態」的用法，與本句語境不同。",
-        "sharp-mcq-10": "「表示頭腦敏銳的；機靈的；聰明的；例句：「她八十多歲了，頭腦依然十分敏銳。」」是「sharp — mentally quick and intelligent = quick to understand, notice, or think 頭腦敏銳的；機靈的；聰明的」的用法，與本句語境不同。"
+        "sharp-mcq-13": "本句的「a sharp eye for small errors」指「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」。",
+        "sharp-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-13"
     },
@@ -1631,11 +1527,9 @@ export default {
       "masked": "Eagles have extremely ____.",
       "options": [
         "sharp-mcq-14",
-        "sharp-mcq-13",
-        "sharp-mcq-15",
-        "sharp-mcq-12",
-        "sharp-mcq-16",
-        "sharp-mcq-11"
+        "sharp-mcq-25",
+        "sharp-mcq-09",
+        "sharp-mcq-21"
       ],
       "explanation": "本句的「sharp eyesight」指「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」。",
       "sentenceIndex": 26,
@@ -1644,12 +1538,10 @@ export default {
         "sharp eyesight"
       ],
       "optionReasons": {
-        "sharp-mcq-14": "本句指「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」。",
-        "sharp-mcq-13": "「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」是「have a sharp eye for something = be particularly good at noticing, selecting, or judging something 對……眼光敏銳；善於識別……」的用法，與本句語境不同。",
-        "sharp-mcq-15": "「保持敏銳；保持警覺；保持最佳狀態」是「keep / stay sharp = remain mentally alert, capable, and quick 保持敏銳；保持警覺；保持最佳狀態」的用法，與本句語境不同。",
-        "sharp-mcq-12": "「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」是「sharp — perceptive; good at noticing details = highly observant or perceptive 觀察敏銳的；有洞察力的」的用法，與本句語境不同。",
-        "sharp-mcq-16": "「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」是「sharp — severe, critical, or harsh in speech = spoken in an angry, severe, or strongly critical manner 嚴厲的；尖刻的；不客氣的」的用法，與本句語境不同。",
-        "sharp-mcq-11": "「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」是「a sharp mind / sharp intellect = an intelligent mind that understands things quickly and accurately 敏銳的頭腦；敏捷的思維」的用法，與本句語境不同。"
+        "sharp-mcq-14": "本句的「sharp eyesight」指「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」。",
+        "sharp-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-14"
     },
@@ -1661,11 +1553,9 @@ export default {
       "masked": "His hearing remained ____ despite his age.",
       "options": [
         "sharp-mcq-14",
-        "sharp-mcq-13",
-        "sharp-mcq-15",
-        "sharp-mcq-12",
-        "sharp-mcq-16",
-        "sharp-mcq-11"
+        "sharp-mcq-24",
+        "sharp-mcq-28",
+        "sharp-mcq-35"
       ],
       "explanation": "本句的「sharp」指「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」。",
       "sentenceIndex": 27,
@@ -1674,12 +1564,10 @@ export default {
         "sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-14": "本句指「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」。",
-        "sharp-mcq-13": "「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」是「have a sharp eye for something = be particularly good at noticing, selecting, or judging something 對……眼光敏銳；善於識別……」的用法，與本句語境不同。",
-        "sharp-mcq-15": "「保持敏銳；保持警覺；保持最佳狀態」是「keep / stay sharp = remain mentally alert, capable, and quick 保持敏銳；保持警覺；保持最佳狀態」的用法，與本句語境不同。",
-        "sharp-mcq-12": "「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」是「sharp — perceptive; good at noticing details = highly observant or perceptive 觀察敏銳的；有洞察力的」的用法，與本句語境不同。",
-        "sharp-mcq-16": "「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」是「sharp — severe, critical, or harsh in speech = spoken in an angry, severe, or strongly critical manner 嚴厲的；尖刻的；不客氣的」的用法，與本句語境不同。",
-        "sharp-mcq-11": "「表示敏銳的頭腦；敏捷的思維；例句：「他有非常敏銳的頭腦。」」是「a sharp mind / sharp intellect = an intelligent mind that understands things quickly and accurately 敏銳的頭腦；敏捷的思維」的用法，與本句語境不同。"
+        "sharp-mcq-14": "本句的「sharp」指「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」。",
+        "sharp-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-14"
     },
@@ -1691,11 +1579,9 @@ export default {
       "masked": "Regular reading helps me ____.",
       "options": [
         "sharp-mcq-15",
-        "sharp-mcq-14",
-        "sharp-mcq-16",
-        "sharp-mcq-13",
-        "sharp-mcq-17",
-        "sharp-mcq-12"
+        "sharp-mcq-05",
+        "sharp-mcq-09",
+        "sharp-mcq-30"
       ],
       "explanation": "本句的「stay sharp」指「保持敏銳；保持警覺；保持最佳狀態」。",
       "sentenceIndex": 28,
@@ -1704,12 +1590,10 @@ export default {
         "stay sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-15": "本句指「保持敏銳；保持警覺；保持最佳狀態」。",
-        "sharp-mcq-14": "「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」是「sharp eyesight / hearing / senses = highly sensitive and capable of detecting small details 敏銳的視力／聽力／感官」的用法，與本句語境不同。",
-        "sharp-mcq-16": "「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」是「sharp — severe, critical, or harsh in speech = spoken in an angry, severe, or strongly critical manner 嚴厲的；尖刻的；不客氣的」的用法，與本句語境不同。",
-        "sharp-mcq-13": "「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」是「have a sharp eye for something = be particularly good at noticing, selecting, or judging something 對……眼光敏銳；善於識別……」的用法，與本句語境不同。",
-        "sharp-mcq-17": "「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」是「sharp words / sharp tongue sharp words = harsh or cutting remarks 尖刻的話；刺人的話 a sharp tongue = tendency to speak critically or hurtfully 說話尖刻；嘴巴厲害」的用法，與本句語境不同。",
-        "sharp-mcq-12": "「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」是「sharp — perceptive; good at noticing details = highly observant or perceptive 觀察敏銳的；有洞察力的」的用法，與本句語境不同。"
+        "sharp-mcq-15": "本句的「stay sharp」指「保持敏銳；保持警覺；保持最佳狀態」。",
+        "sharp-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-15"
     },
@@ -1721,11 +1605,9 @@ export default {
       "masked": "You need to ____ during a long match.",
       "options": [
         "sharp-mcq-15",
-        "sharp-mcq-14",
-        "sharp-mcq-16",
-        "sharp-mcq-13",
-        "sharp-mcq-17",
-        "sharp-mcq-12"
+        "sharp-mcq-18",
+        "sharp-mcq-20",
+        "sharp-mcq-33"
       ],
       "explanation": "本句的「keep sharp」指「保持敏銳；保持警覺；保持最佳狀態」。",
       "sentenceIndex": 29,
@@ -1734,12 +1616,10 @@ export default {
         "keep sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-15": "本句指「保持敏銳；保持警覺；保持最佳狀態」。",
-        "sharp-mcq-14": "「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」是「sharp eyesight / hearing / senses = highly sensitive and capable of detecting small details 敏銳的視力／聽力／感官」的用法，與本句語境不同。",
-        "sharp-mcq-16": "「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」是「sharp — severe, critical, or harsh in speech = spoken in an angry, severe, or strongly critical manner 嚴厲的；尖刻的；不客氣的」的用法，與本句語境不同。",
-        "sharp-mcq-13": "「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」是「have a sharp eye for something = be particularly good at noticing, selecting, or judging something 對……眼光敏銳；善於識別……」的用法，與本句語境不同。",
-        "sharp-mcq-17": "「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」是「sharp words / sharp tongue sharp words = harsh or cutting remarks 尖刻的話；刺人的話 a sharp tongue = tendency to speak critically or hurtfully 說話尖刻；嘴巴厲害」的用法，與本句語境不同。",
-        "sharp-mcq-12": "「表示觀察敏銳的；有洞察力的；例句：「偵探需要敏銳的觀察力。」」是「sharp — perceptive; good at noticing details = highly observant or perceptive 觀察敏銳的；有洞察力的」的用法，與本句語境不同。"
+        "sharp-mcq-15": "本句的「keep sharp」指「保持敏銳；保持警覺；保持最佳狀態」。",
+        "sharp-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-15"
     },
@@ -1751,11 +1631,9 @@ export default {
       "masked": "She gave him a ____.",
       "options": [
         "sharp-mcq-16",
-        "sharp-mcq-15",
-        "sharp-mcq-17",
-        "sharp-mcq-14",
-        "sharp-mcq-18",
-        "sharp-mcq-13"
+        "sharp-mcq-22",
+        "sharp-mcq-27",
+        "sharp-mcq-33"
       ],
       "explanation": "本句的「sharp reply」指「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」。",
       "sentenceIndex": 30,
@@ -1764,12 +1642,10 @@ export default {
         "sharp reply"
       ],
       "optionReasons": {
-        "sharp-mcq-16": "本句指「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」。",
-        "sharp-mcq-15": "「保持敏銳；保持警覺；保持最佳狀態」是「keep / stay sharp = remain mentally alert, capable, and quick 保持敏銳；保持警覺；保持最佳狀態」的用法，與本句語境不同。",
-        "sharp-mcq-17": "「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」是「sharp words / sharp tongue sharp words = harsh or cutting remarks 尖刻的話；刺人的話 a sharp tongue = tendency to speak critically or hurtfully 說話尖刻；嘴巴厲害」的用法，與本句語境不同。",
-        "sharp-mcq-14": "「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」是「sharp eyesight / hearing / senses = highly sensitive and capable of detecting small details 敏銳的視力／聽力／感官」的用法，與本句語境不同。",
-        "sharp-mcq-18": "「表示嚴厲地；例句：「住手，」她嚴厲地說。」」是「sharply — angrily, sternly, or critically」的用法，與本句語境不同。",
-        "sharp-mcq-13": "「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」是「have a sharp eye for something = be particularly good at noticing, selecting, or judging something 對……眼光敏銳；善於識別……」的用法，與本句語境不同。"
+        "sharp-mcq-16": "本句的「sharp reply」指「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」。",
+        "sharp-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-16"
     },
@@ -1781,11 +1657,9 @@ export default {
       "masked": "His manager issued a ____.",
       "options": [
         "sharp-mcq-16",
-        "sharp-mcq-15",
-        "sharp-mcq-17",
-        "sharp-mcq-14",
-        "sharp-mcq-18",
-        "sharp-mcq-13"
+        "sharp-mcq-20",
+        "sharp-mcq-24",
+        "sharp-mcq-34"
       ],
       "explanation": "本句的「sharp warning」指「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」。",
       "sentenceIndex": 31,
@@ -1794,12 +1668,10 @@ export default {
         "sharp warning"
       ],
       "optionReasons": {
-        "sharp-mcq-16": "本句指「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」。",
-        "sharp-mcq-15": "「保持敏銳；保持警覺；保持最佳狀態」是「keep / stay sharp = remain mentally alert, capable, and quick 保持敏銳；保持警覺；保持最佳狀態」的用法，與本句語境不同。",
-        "sharp-mcq-17": "「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」是「sharp words / sharp tongue sharp words = harsh or cutting remarks 尖刻的話；刺人的話 a sharp tongue = tendency to speak critically or hurtfully 說話尖刻；嘴巴厲害」的用法，與本句語境不同。",
-        "sharp-mcq-14": "「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」是「sharp eyesight / hearing / senses = highly sensitive and capable of detecting small details 敏銳的視力／聽力／感官」的用法，與本句語境不同。",
-        "sharp-mcq-18": "「表示嚴厲地；例句：「住手，」她嚴厲地說。」」是「sharply — angrily, sternly, or critically」的用法，與本句語境不同。",
-        "sharp-mcq-13": "「表示對……眼光敏銳；善於識別……；例句：「她對人才有敏銳的眼光。」」是「have a sharp eye for something = be particularly good at noticing, selecting, or judging something 對……眼光敏銳；善於識別……」的用法，與本句語境不同。"
+        "sharp-mcq-16": "本句的「sharp warning」指「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」。",
+        "sharp-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-16"
     },
@@ -1811,11 +1683,9 @@ export default {
       "masked": "They exchanged a few ____.",
       "options": [
         "sharp-mcq-17",
-        "sharp-mcq-16",
-        "sharp-mcq-18",
-        "sharp-mcq-15",
-        "sharp-mcq-19",
-        "sharp-mcq-14"
+        "sharp-mcq-29",
+        "sharp-mcq-22",
+        "sharp-mcq-12"
       ],
       "explanation": "本句的「sharp words」指「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」。",
       "sentenceIndex": 32,
@@ -1824,12 +1694,10 @@ export default {
         "sharp words"
       ],
       "optionReasons": {
-        "sharp-mcq-17": "本句指「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」。",
-        "sharp-mcq-16": "「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」是「sharp — severe, critical, or harsh in speech = spoken in an angry, severe, or strongly critical manner 嚴厲的；尖刻的；不客氣的」的用法，與本句語境不同。",
-        "sharp-mcq-18": "「表示嚴厲地；例句：「住手，」她嚴厲地說。」」是「sharply — angrily, sternly, or critically」的用法，與本句語境不同。",
-        "sharp-mcq-15": "「保持敏銳；保持警覺；保持最佳狀態」是「keep / stay sharp = remain mentally alert, capable, and quick 保持敏銳；保持警覺；保持最佳狀態」的用法，與本句語境不同。",
-        "sharp-mcq-19": "「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」是「sharp increase / rise = large and sudden 急劇的；大幅而突然的」的用法，與本句語境不同。",
-        "sharp-mcq-14": "「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」是「sharp eyesight / hearing / senses = highly sensitive and capable of detecting small details 敏銳的視力／聽力／感官」的用法，與本句語境不同。"
+        "sharp-mcq-17": "本句的「sharp words」指「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」。",
+        "sharp-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-17"
     },
@@ -1841,11 +1709,9 @@ export default {
       "masked": "She is kind-hearted despite having ____.",
       "options": [
         "sharp-mcq-17",
-        "sharp-mcq-16",
-        "sharp-mcq-18",
-        "sharp-mcq-15",
-        "sharp-mcq-19",
-        "sharp-mcq-14"
+        "sharp-mcq-22",
+        "sharp-mcq-28",
+        "sharp-mcq-11"
       ],
       "explanation": "本句的「a sharp tongue」指「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」。",
       "sentenceIndex": 33,
@@ -1854,12 +1720,10 @@ export default {
         "a sharp tongue"
       ],
       "optionReasons": {
-        "sharp-mcq-17": "本句指「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」。",
-        "sharp-mcq-16": "「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」是「sharp — severe, critical, or harsh in speech = spoken in an angry, severe, or strongly critical manner 嚴厲的；尖刻的；不客氣的」的用法，與本句語境不同。",
-        "sharp-mcq-18": "「表示嚴厲地；例句：「住手，」她嚴厲地說。」」是「sharply — angrily, sternly, or critically」的用法，與本句語境不同。",
-        "sharp-mcq-15": "「保持敏銳；保持警覺；保持最佳狀態」是「keep / stay sharp = remain mentally alert, capable, and quick 保持敏銳；保持警覺；保持最佳狀態」的用法，與本句語境不同。",
-        "sharp-mcq-19": "「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」是「sharp increase / rise = large and sudden 急劇的；大幅而突然的」的用法，與本句語境不同。",
-        "sharp-mcq-14": "「表示敏銳的視力／聽力／感官；例句：「老鷹擁有極為敏銳的視力。」」是「sharp eyesight / hearing / senses = highly sensitive and capable of detecting small details 敏銳的視力／聽力／感官」的用法，與本句語境不同。"
+        "sharp-mcq-17": "本句的「a sharp tongue」指「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」。",
+        "sharp-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-17"
     },
@@ -1871,11 +1735,9 @@ export default {
       "masked": "Stop that,” she said ____.",
       "options": [
         "sharp-mcq-18",
-        "sharp-mcq-17",
-        "sharp-mcq-19",
-        "sharp-mcq-16",
-        "sharp-mcq-20",
-        "sharp-mcq-15"
+        "sharp-mcq-29",
+        "sharp-mcq-21",
+        "sharp-mcq-30"
       ],
       "explanation": "本句的「sharply」指「表示嚴厲地；例句：「住手，」她嚴厲地說。」」。",
       "sentenceIndex": 34,
@@ -1884,12 +1746,10 @@ export default {
         "sharply"
       ],
       "optionReasons": {
-        "sharp-mcq-18": "本句指「表示嚴厲地；例句：「住手，」她嚴厲地說。」」。",
-        "sharp-mcq-17": "「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」是「sharp words / sharp tongue sharp words = harsh or cutting remarks 尖刻的話；刺人的話 a sharp tongue = tendency to speak critically or hurtfully 說話尖刻；嘴巴厲害」的用法，與本句語境不同。",
-        "sharp-mcq-19": "「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」是「sharp increase / rise = large and sudden 急劇的；大幅而突然的」的用法，與本句語境不同。",
-        "sharp-mcq-16": "「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」是「sharp — severe, critical, or harsh in speech = spoken in an angry, severe, or strongly critical manner 嚴厲的；尖刻的；不客氣的」的用法，與本句語境不同。",
-        "sharp-mcq-20": "「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」是「sharp fall / drop / decline = large and sudden downward change 急劇下降的；大幅下跌的」的用法，與本句語境不同。",
-        "sharp-mcq-15": "「保持敏銳；保持警覺；保持最佳狀態」是「keep / stay sharp = remain mentally alert, capable, and quick 保持敏銳；保持警覺；保持最佳狀態」的用法，與本句語境不同。"
+        "sharp-mcq-18": "本句的「sharply」指「表示嚴厲地；例句：「住手，」她嚴厲地說。」」。",
+        "sharp-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-18"
     },
@@ -1901,11 +1761,9 @@ export default {
       "masked": "He spoke ____ to the waiter.",
       "options": [
         "sharp-mcq-18",
-        "sharp-mcq-17",
-        "sharp-mcq-19",
-        "sharp-mcq-16",
-        "sharp-mcq-20",
-        "sharp-mcq-15"
+        "sharp-mcq-10",
+        "sharp-mcq-34",
+        "sharp-mcq-26"
       ],
       "explanation": "本句的「sharply」指「表示嚴厲地；例句：「住手，」她嚴厲地說。」」。",
       "sentenceIndex": 35,
@@ -1914,12 +1772,10 @@ export default {
         "sharply"
       ],
       "optionReasons": {
-        "sharp-mcq-18": "本句指「表示嚴厲地；例句：「住手，」她嚴厲地說。」」。",
-        "sharp-mcq-17": "「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」是「sharp words / sharp tongue sharp words = harsh or cutting remarks 尖刻的話；刺人的話 a sharp tongue = tendency to speak critically or hurtfully 說話尖刻；嘴巴厲害」的用法，與本句語境不同。",
-        "sharp-mcq-19": "「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」是「sharp increase / rise = large and sudden 急劇的；大幅而突然的」的用法，與本句語境不同。",
-        "sharp-mcq-16": "「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」是「sharp — severe, critical, or harsh in speech = spoken in an angry, severe, or strongly critical manner 嚴厲的；尖刻的；不客氣的」的用法，與本句語境不同。",
-        "sharp-mcq-20": "「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」是「sharp fall / drop / decline = large and sudden downward change 急劇下降的；大幅下跌的」的用法，與本句語境不同。",
-        "sharp-mcq-15": "「保持敏銳；保持警覺；保持最佳狀態」是「keep / stay sharp = remain mentally alert, capable, and quick 保持敏銳；保持警覺；保持最佳狀態」的用法，與本句語境不同。"
+        "sharp-mcq-18": "本句的「sharply」指「表示嚴厲地；例句：「住手，」她嚴厲地說。」」。",
+        "sharp-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-18"
     },
@@ -1932,10 +1788,8 @@ export default {
       "options": [
         "sharp-mcq-19",
         "sharp-mcq-18",
-        "sharp-mcq-20",
-        "sharp-mcq-17",
-        "sharp-mcq-21",
-        "sharp-mcq-16"
+        "sharp-mcq-22",
+        "sharp-mcq-13"
       ],
       "explanation": "本句的「sharp increase」指「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」。",
       "sentenceIndex": 36,
@@ -1944,12 +1798,10 @@ export default {
         "sharp increase"
       ],
       "optionReasons": {
-        "sharp-mcq-19": "本句指「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」。",
-        "sharp-mcq-18": "「表示嚴厲地；例句：「住手，」她嚴厲地說。」」是「sharply — angrily, sternly, or critically」的用法，與本句語境不同。",
-        "sharp-mcq-20": "「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」是「sharp fall / drop / decline = large and sudden downward change 急劇下降的；大幅下跌的」的用法，與本句語境不同。",
-        "sharp-mcq-17": "「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」是「sharp words / sharp tongue sharp words = harsh or cutting remarks 尖刻的話；刺人的話 a sharp tongue = tendency to speak critically or hurtfully 說話尖刻；嘴巴厲害」的用法，與本句語境不同。",
-        "sharp-mcq-21": "「表示急劇地；大幅地；例句：「今年成本大幅上升。」」是「sharply — by a large amount and suddenly = rapidly and substantially 急劇地；大幅地」的用法，與本句語境不同。",
-        "sharp-mcq-16": "「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」是「sharp — severe, critical, or harsh in speech = spoken in an angry, severe, or strongly critical manner 嚴厲的；尖刻的；不客氣的」的用法，與本句語境不同。"
+        "sharp-mcq-19": "本句的「sharp increase」指「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」。",
+        "sharp-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-19"
     },
@@ -1961,11 +1813,9 @@ export default {
       "masked": "The city recorded a ____ in demand.",
       "options": [
         "sharp-mcq-19",
-        "sharp-mcq-18",
-        "sharp-mcq-20",
-        "sharp-mcq-17",
-        "sharp-mcq-21",
-        "sharp-mcq-16"
+        "sharp-mcq-34",
+        "sharp-mcq-22",
+        "sharp-mcq-28"
       ],
       "explanation": "本句的「sharp rise」指「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」。",
       "sentenceIndex": 37,
@@ -1974,12 +1824,10 @@ export default {
         "sharp rise"
       ],
       "optionReasons": {
-        "sharp-mcq-19": "本句指「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」。",
-        "sharp-mcq-18": "「表示嚴厲地；例句：「住手，」她嚴厲地說。」」是「sharply — angrily, sternly, or critically」的用法，與本句語境不同。",
-        "sharp-mcq-20": "「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」是「sharp fall / drop / decline = large and sudden downward change 急劇下降的；大幅下跌的」的用法，與本句語境不同。",
-        "sharp-mcq-17": "「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」是「sharp words / sharp tongue sharp words = harsh or cutting remarks 尖刻的話；刺人的話 a sharp tongue = tendency to speak critically or hurtfully 說話尖刻；嘴巴厲害」的用法，與本句語境不同。",
-        "sharp-mcq-21": "「表示急劇地；大幅地；例句：「今年成本大幅上升。」」是「sharply — by a large amount and suddenly = rapidly and substantially 急劇地；大幅地」的用法，與本句語境不同。",
-        "sharp-mcq-16": "「表示嚴厲的；尖刻的；不客氣的；例句：「她給了他一個尖銳而不客氣的回答。」」是「sharp — severe, critical, or harsh in speech = spoken in an angry, severe, or strongly critical manner 嚴厲的；尖刻的；不客氣的」的用法，與本句語境不同。"
+        "sharp-mcq-19": "本句的「sharp rise」指「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」。",
+        "sharp-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-19"
     },
@@ -1991,11 +1839,9 @@ export default {
       "masked": "The company suffered a ____.",
       "options": [
         "sharp-mcq-20",
-        "sharp-mcq-19",
-        "sharp-mcq-21",
         "sharp-mcq-18",
-        "sharp-mcq-22",
-        "sharp-mcq-17"
+        "sharp-mcq-01",
+        "sharp-mcq-08"
       ],
       "explanation": "本句的「sharp fall in sales」指「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」。",
       "sentenceIndex": 38,
@@ -2004,12 +1850,10 @@ export default {
         "sharp fall in sales"
       ],
       "optionReasons": {
-        "sharp-mcq-20": "本句指「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」。",
-        "sharp-mcq-19": "「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」是「sharp increase / rise = large and sudden 急劇的；大幅而突然的」的用法，與本句語境不同。",
-        "sharp-mcq-21": "「表示急劇地；大幅地；例句：「今年成本大幅上升。」」是「sharply — by a large amount and suddenly = rapidly and substantially 急劇地；大幅地」的用法，與本句語境不同。",
-        "sharp-mcq-18": "「表示嚴厲地；例句：「住手，」她嚴厲地說。」」是「sharply — angrily, sternly, or critically」的用法，與本句語境不同。",
-        "sharp-mcq-22": "「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」是「sharp contrast = a very clear and striking difference 鮮明的對比；強烈反差」的用法，與本句語境不同。",
-        "sharp-mcq-17": "「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」是「sharp words / sharp tongue sharp words = harsh or cutting remarks 尖刻的話；刺人的話 a sharp tongue = tendency to speak critically or hurtfully 說話尖刻；嘴巴厲害」的用法，與本句語境不同。"
+        "sharp-mcq-20": "本句的「sharp fall in sales」指「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」。",
+        "sharp-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-20"
     },
@@ -2021,11 +1865,9 @@ export default {
       "masked": "Temperatures will show a ____ tonight.",
       "options": [
         "sharp-mcq-20",
-        "sharp-mcq-19",
-        "sharp-mcq-21",
-        "sharp-mcq-18",
-        "sharp-mcq-22",
-        "sharp-mcq-17"
+        "sharp-mcq-09",
+        "sharp-mcq-26",
+        "sharp-mcq-37"
       ],
       "explanation": "本句的「sharp drop」指「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」。",
       "sentenceIndex": 39,
@@ -2034,12 +1876,10 @@ export default {
         "sharp drop"
       ],
       "optionReasons": {
-        "sharp-mcq-20": "本句指「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」。",
-        "sharp-mcq-19": "「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」是「sharp increase / rise = large and sudden 急劇的；大幅而突然的」的用法，與本句語境不同。",
-        "sharp-mcq-21": "「表示急劇地；大幅地；例句：「今年成本大幅上升。」」是「sharply — by a large amount and suddenly = rapidly and substantially 急劇地；大幅地」的用法，與本句語境不同。",
-        "sharp-mcq-18": "「表示嚴厲地；例句：「住手，」她嚴厲地說。」」是「sharply — angrily, sternly, or critically」的用法，與本句語境不同。",
-        "sharp-mcq-22": "「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」是「sharp contrast = a very clear and striking difference 鮮明的對比；強烈反差」的用法，與本句語境不同。",
-        "sharp-mcq-17": "「表示尖刻的話；刺人的話；例句：「他們互相說了幾句尖銳難聽的話。」」是「sharp words / sharp tongue sharp words = harsh or cutting remarks 尖刻的話；刺人的話 a sharp tongue = tendency to speak critically or hurtfully 說話尖刻；嘴巴厲害」的用法，與本句語境不同。"
+        "sharp-mcq-20": "本句的「sharp drop」指「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」。",
+        "sharp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-20"
     },
@@ -2051,11 +1891,9 @@ export default {
       "masked": "Costs have risen ____ this year.",
       "options": [
         "sharp-mcq-21",
-        "sharp-mcq-20",
-        "sharp-mcq-22",
-        "sharp-mcq-19",
-        "sharp-mcq-23",
-        "sharp-mcq-18"
+        "sharp-mcq-38",
+        "sharp-mcq-31",
+        "sharp-mcq-08"
       ],
       "explanation": "本句的「sharply」指「表示急劇地；大幅地；例句：「今年成本大幅上升。」」。",
       "sentenceIndex": 40,
@@ -2064,12 +1902,10 @@ export default {
         "sharply"
       ],
       "optionReasons": {
-        "sharp-mcq-21": "本句指「表示急劇地；大幅地；例句：「今年成本大幅上升。」」。",
-        "sharp-mcq-20": "「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」是「sharp fall / drop / decline = large and sudden downward change 急劇下降的；大幅下跌的」的用法，與本句語境不同。",
-        "sharp-mcq-22": "「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」是「sharp contrast = a very clear and striking difference 鮮明的對比；強烈反差」的用法，與本句語境不同。",
-        "sharp-mcq-19": "「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」是「sharp increase / rise = large and sudden 急劇的；大幅而突然的」的用法，與本句語境不同。",
-        "sharp-mcq-23": "「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」是「sharply different / sharply divided = clearly or strongly different / divided 截然不同的；嚴重分歧的」的用法，與本句語境不同。",
-        "sharp-mcq-18": "「表示嚴厲地；例句：「住手，」她嚴厲地說。」」是「sharply — angrily, sternly, or critically」的用法，與本句語境不同。"
+        "sharp-mcq-21": "本句的「sharply」指「表示急劇地；大幅地；例句：「今年成本大幅上升。」」。",
+        "sharp-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-21"
     },
@@ -2081,11 +1917,9 @@ export default {
       "masked": "Demand fell ____ after the holiday.",
       "options": [
         "sharp-mcq-21",
-        "sharp-mcq-20",
-        "sharp-mcq-22",
-        "sharp-mcq-19",
-        "sharp-mcq-23",
-        "sharp-mcq-18"
+        "sharp-mcq-25",
+        "sharp-mcq-08",
+        "sharp-mcq-16"
       ],
       "explanation": "本句的「sharply」指「表示急劇地；大幅地；例句：「今年成本大幅上升。」」。",
       "sentenceIndex": 41,
@@ -2094,12 +1928,10 @@ export default {
         "sharply"
       ],
       "optionReasons": {
-        "sharp-mcq-21": "本句指「表示急劇地；大幅地；例句：「今年成本大幅上升。」」。",
-        "sharp-mcq-20": "「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」是「sharp fall / drop / decline = large and sudden downward change 急劇下降的；大幅下跌的」的用法，與本句語境不同。",
-        "sharp-mcq-22": "「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」是「sharp contrast = a very clear and striking difference 鮮明的對比；強烈反差」的用法，與本句語境不同。",
-        "sharp-mcq-19": "「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」是「sharp increase / rise = large and sudden 急劇的；大幅而突然的」的用法，與本句語境不同。",
-        "sharp-mcq-23": "「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」是「sharply different / sharply divided = clearly or strongly different / divided 截然不同的；嚴重分歧的」的用法，與本句語境不同。",
-        "sharp-mcq-18": "「表示嚴厲地；例句：「住手，」她嚴厲地說。」」是「sharply — angrily, sternly, or critically」的用法，與本句語境不同。"
+        "sharp-mcq-21": "本句的「sharply」指「表示急劇地；大幅地；例句：「今年成本大幅上升。」」。",
+        "sharp-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-21"
     },
@@ -2111,11 +1943,9 @@ export default {
       "masked": "Her calm personality was in ____ to his.",
       "options": [
         "sharp-mcq-22",
-        "sharp-mcq-21",
-        "sharp-mcq-23",
-        "sharp-mcq-20",
-        "sharp-mcq-24",
-        "sharp-mcq-19"
+        "sharp-mcq-28",
+        "sharp-mcq-19",
+        "sharp-mcq-32"
       ],
       "explanation": "本句的「sharp contrast」指「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」。",
       "sentenceIndex": 42,
@@ -2124,12 +1954,10 @@ export default {
         "sharp contrast"
       ],
       "optionReasons": {
-        "sharp-mcq-22": "本句指「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」。",
-        "sharp-mcq-21": "「表示急劇地；大幅地；例句：「今年成本大幅上升。」」是「sharply — by a large amount and suddenly = rapidly and substantially 急劇地；大幅地」的用法，與本句語境不同。",
-        "sharp-mcq-23": "「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」是「sharply different / sharply divided = clearly or strongly different / divided 截然不同的；嚴重分歧的」的用法，與本句語境不同。",
-        "sharp-mcq-20": "「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」是「sharp fall / drop / decline = large and sudden downward change 急劇下降的；大幅下跌的」的用法，與本句語境不同。",
-        "sharp-mcq-24": "「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」是「sharp — clear and clearly defined = having distinct lines, boundaries, or visual details 清晰的；輪廓分明的；鮮明的」的用法，與本句語境不同。",
-        "sharp-mcq-19": "「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」是「sharp increase / rise = large and sudden 急劇的；大幅而突然的」的用法，與本句語境不同。"
+        "sharp-mcq-22": "本句的「sharp contrast」指「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」。",
+        "sharp-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-22"
     },
@@ -2141,11 +1969,9 @@ export default {
       "masked": "There is a ____ between the two approaches.",
       "options": [
         "sharp-mcq-22",
-        "sharp-mcq-21",
-        "sharp-mcq-23",
-        "sharp-mcq-20",
-        "sharp-mcq-24",
-        "sharp-mcq-19"
+        "sharp-mcq-30",
+        "sharp-mcq-25",
+        "sharp-mcq-36"
       ],
       "explanation": "本句的「sharp contrast」指「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」。",
       "sentenceIndex": 43,
@@ -2154,12 +1980,10 @@ export default {
         "sharp contrast"
       ],
       "optionReasons": {
-        "sharp-mcq-22": "本句指「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」。",
-        "sharp-mcq-21": "「表示急劇地；大幅地；例句：「今年成本大幅上升。」」是「sharply — by a large amount and suddenly = rapidly and substantially 急劇地；大幅地」的用法，與本句語境不同。",
-        "sharp-mcq-23": "「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」是「sharply different / sharply divided = clearly or strongly different / divided 截然不同的；嚴重分歧的」的用法，與本句語境不同。",
-        "sharp-mcq-20": "「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」是「sharp fall / drop / decline = large and sudden downward change 急劇下降的；大幅下跌的」的用法，與本句語境不同。",
-        "sharp-mcq-24": "「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」是「sharp — clear and clearly defined = having distinct lines, boundaries, or visual details 清晰的；輪廓分明的；鮮明的」的用法，與本句語境不同。",
-        "sharp-mcq-19": "「表示急劇的；大幅而突然的；例句：「價格出現急劇上升。」」是「sharp increase / rise = large and sudden 急劇的；大幅而突然的」的用法，與本句語境不同。"
+        "sharp-mcq-22": "本句的「sharp contrast」指「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」。",
+        "sharp-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-22"
     },
@@ -2171,11 +1995,9 @@ export default {
       "masked": "Their opinions are ____.",
       "options": [
         "sharp-mcq-23",
-        "sharp-mcq-22",
-        "sharp-mcq-24",
-        "sharp-mcq-21",
-        "sharp-mcq-25",
-        "sharp-mcq-20"
+        "sharp-mcq-03",
+        "sharp-mcq-15",
+        "sharp-mcq-28"
       ],
       "explanation": "本句的「sharply different」指「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」。",
       "sentenceIndex": 44,
@@ -2184,12 +2006,10 @@ export default {
         "sharply different"
       ],
       "optionReasons": {
-        "sharp-mcq-23": "本句指「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」。",
-        "sharp-mcq-22": "「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」是「sharp contrast = a very clear and striking difference 鮮明的對比；強烈反差」的用法，與本句語境不同。",
-        "sharp-mcq-24": "「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」是「sharp — clear and clearly defined = having distinct lines, boundaries, or visual details 清晰的；輪廓分明的；鮮明的」的用法，與本句語境不同。",
-        "sharp-mcq-21": "「表示急劇地；大幅地；例句：「今年成本大幅上升。」」是「sharply — by a large amount and suddenly = rapidly and substantially 急劇地；大幅地」的用法，與本句語境不同。",
-        "sharp-mcq-25": "「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」是「sharp image / focus = visually clear and well focused 清晰的；對焦準確的」的用法，與本句語境不同。",
-        "sharp-mcq-20": "「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」是「sharp fall / drop / decline = large and sudden downward change 急劇下降的；大幅下跌的」的用法，與本句語境不同。"
+        "sharp-mcq-23": "本句的「sharply different」指「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」。",
+        "sharp-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-23"
     },
@@ -2202,10 +2022,8 @@ export default {
       "options": [
         "sharp-mcq-23",
         "sharp-mcq-22",
-        "sharp-mcq-24",
-        "sharp-mcq-21",
-        "sharp-mcq-25",
-        "sharp-mcq-20"
+        "sharp-mcq-30",
+        "sharp-mcq-03"
       ],
       "explanation": "本句的「sharply divided」指「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」。",
       "sentenceIndex": 45,
@@ -2214,12 +2032,10 @@ export default {
         "sharply divided"
       ],
       "optionReasons": {
-        "sharp-mcq-23": "本句指「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」。",
-        "sharp-mcq-22": "「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」是「sharp contrast = a very clear and striking difference 鮮明的對比；強烈反差」的用法，與本句語境不同。",
-        "sharp-mcq-24": "「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」是「sharp — clear and clearly defined = having distinct lines, boundaries, or visual details 清晰的；輪廓分明的；鮮明的」的用法，與本句語境不同。",
-        "sharp-mcq-21": "「表示急劇地；大幅地；例句：「今年成本大幅上升。」」是「sharply — by a large amount and suddenly = rapidly and substantially 急劇地；大幅地」的用法，與本句語境不同。",
-        "sharp-mcq-25": "「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」是「sharp image / focus = visually clear and well focused 清晰的；對焦準確的」的用法，與本句語境不同。",
-        "sharp-mcq-20": "「表示急劇下降的；大幅下跌的；例句：「公司的銷售額出現大幅下降。」」是「sharp fall / drop / decline = large and sudden downward change 急劇下降的；大幅下跌的」的用法，與本句語境不同。"
+        "sharp-mcq-23": "本句的「sharply divided」指「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」。",
+        "sharp-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-23"
     },
@@ -2231,11 +2047,9 @@ export default {
       "masked": "The photograph is extremely ____.",
       "options": [
         "sharp-mcq-24",
-        "sharp-mcq-23",
-        "sharp-mcq-25",
-        "sharp-mcq-22",
-        "sharp-mcq-26",
-        "sharp-mcq-21"
+        "sharp-mcq-13",
+        "sharp-mcq-09",
+        "sharp-mcq-16"
       ],
       "explanation": "本句的「sharp」指「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」。",
       "sentenceIndex": 46,
@@ -2244,12 +2058,10 @@ export default {
         "sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-24": "本句指「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」。",
-        "sharp-mcq-23": "「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」是「sharply different / sharply divided = clearly or strongly different / divided 截然不同的；嚴重分歧的」的用法，與本句語境不同。",
-        "sharp-mcq-25": "「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」是「sharp image / focus = visually clear and well focused 清晰的；對焦準確的」的用法，與本句語境不同。",
-        "sharp-mcq-22": "「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」是「sharp contrast = a very clear and striking difference 鮮明的對比；強烈反差」的用法，與本句語境不同。",
-        "sharp-mcq-26": "「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」是「sharpen an image / distinction / argument The physical “make sharper” meaning extends metaphorically to: = make clearer, stronger, or more precise 使更清晰；使更明確；強化」的用法，與本句語境不同。",
-        "sharp-mcq-21": "「表示急劇地；大幅地；例句：「今年成本大幅上升。」」是「sharply — by a large amount and suddenly = rapidly and substantially 急劇地；大幅地」的用法，與本句語境不同。"
+        "sharp-mcq-24": "本句的「sharp」指「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」。",
+        "sharp-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-24"
     },
@@ -2261,11 +2073,9 @@ export default {
       "masked": "The mountains stood out in ____.",
       "options": [
         "sharp-mcq-24",
-        "sharp-mcq-23",
-        "sharp-mcq-25",
-        "sharp-mcq-22",
-        "sharp-mcq-26",
-        "sharp-mcq-21"
+        "sharp-mcq-19",
+        "sharp-mcq-32",
+        "sharp-mcq-02"
       ],
       "explanation": "本句的「sharp detail」指「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」。",
       "sentenceIndex": 47,
@@ -2274,12 +2084,10 @@ export default {
         "sharp detail"
       ],
       "optionReasons": {
-        "sharp-mcq-24": "本句指「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」。",
-        "sharp-mcq-23": "「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」是「sharply different / sharply divided = clearly or strongly different / divided 截然不同的；嚴重分歧的」的用法，與本句語境不同。",
-        "sharp-mcq-25": "「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」是「sharp image / focus = visually clear and well focused 清晰的；對焦準確的」的用法，與本句語境不同。",
-        "sharp-mcq-22": "「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」是「sharp contrast = a very clear and striking difference 鮮明的對比；強烈反差」的用法，與本句語境不同。",
-        "sharp-mcq-26": "「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」是「sharpen an image / distinction / argument The physical “make sharper” meaning extends metaphorically to: = make clearer, stronger, or more precise 使更清晰；使更明確；強化」的用法，與本句語境不同。",
-        "sharp-mcq-21": "「表示急劇地；大幅地；例句：「今年成本大幅上升。」」是「sharply — by a large amount and suddenly = rapidly and substantially 急劇地；大幅地」的用法，與本句語境不同。"
+        "sharp-mcq-24": "本句的「sharp detail」指「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」。",
+        "sharp-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-24"
     },
@@ -2291,11 +2099,9 @@ export default {
       "masked": "This lens produces very ____.",
       "options": [
         "sharp-mcq-25",
-        "sharp-mcq-24",
-        "sharp-mcq-26",
-        "sharp-mcq-23",
-        "sharp-mcq-27",
-        "sharp-mcq-22"
+        "sharp-mcq-36",
+        "sharp-mcq-17",
+        "sharp-mcq-12"
       ],
       "explanation": "本句的「sharp images」指「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」。",
       "sentenceIndex": 48,
@@ -2304,12 +2110,10 @@ export default {
         "sharp images"
       ],
       "optionReasons": {
-        "sharp-mcq-25": "本句指「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」。",
-        "sharp-mcq-24": "「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」是「sharp — clear and clearly defined = having distinct lines, boundaries, or visual details 清晰的；輪廓分明的；鮮明的」的用法，與本句語境不同。",
-        "sharp-mcq-26": "「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」是「sharpen an image / distinction / argument The physical “make sharper” meaning extends metaphorically to: = make clearer, stronger, or more precise 使更清晰；使更明確；強化」的用法，與本句語境不同。",
-        "sharp-mcq-23": "「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」是「sharply different / sharply divided = clearly or strongly different / divided 截然不同的；嚴重分歧的」的用法，與本句語境不同。",
-        "sharp-mcq-27": "「表示整；準時；正好；例句：「會議九點整開始。」」是「at six sharp = exactly at the stated time 整；準時；正好」的用法，與本句語境不同。",
-        "sharp-mcq-22": "「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」是「sharp contrast = a very clear and striking difference 鮮明的對比；強烈反差」的用法，與本句語境不同。"
+        "sharp-mcq-25": "本句的「sharp images」指「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」。",
+        "sharp-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-25"
     },
@@ -2321,11 +2125,9 @@ export default {
       "masked": "The subject is not completely ____ in this photograph.",
       "options": [
         "sharp-mcq-25",
-        "sharp-mcq-24",
-        "sharp-mcq-26",
-        "sharp-mcq-23",
-        "sharp-mcq-27",
-        "sharp-mcq-22"
+        "sharp-mcq-33",
+        "sharp-mcq-17",
+        "sharp-mcq-11"
       ],
       "explanation": "本句的「sharp」指「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」。",
       "sentenceIndex": 49,
@@ -2334,12 +2136,10 @@ export default {
         "sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-25": "本句指「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」。",
-        "sharp-mcq-24": "「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」是「sharp — clear and clearly defined = having distinct lines, boundaries, or visual details 清晰的；輪廓分明的；鮮明的」的用法，與本句語境不同。",
-        "sharp-mcq-26": "「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」是「sharpen an image / distinction / argument The physical “make sharper” meaning extends metaphorically to: = make clearer, stronger, or more precise 使更清晰；使更明確；強化」的用法，與本句語境不同。",
-        "sharp-mcq-23": "「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」是「sharply different / sharply divided = clearly or strongly different / divided 截然不同的；嚴重分歧的」的用法，與本句語境不同。",
-        "sharp-mcq-27": "「表示整；準時；正好；例句：「會議九點整開始。」」是「at six sharp = exactly at the stated time 整；準時；正好」的用法，與本句語境不同。",
-        "sharp-mcq-22": "「表示鮮明的對比；強烈反差；例句：「她沉著的個性與他的性格形成鮮明對比。」」是「sharp contrast = a very clear and striking difference 鮮明的對比；強烈反差」的用法，與本句語境不同。"
+        "sharp-mcq-25": "本句的「sharp」指「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」。",
+        "sharp-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-25"
     },
@@ -2351,11 +2151,9 @@ export default {
       "masked": "The new evidence ____ between the two theories.",
       "options": [
         "sharp-mcq-26",
-        "sharp-mcq-25",
-        "sharp-mcq-27",
-        "sharp-mcq-24",
+        "sharp-mcq-35",
         "sharp-mcq-28",
-        "sharp-mcq-23"
+        "sharp-mcq-05"
       ],
       "explanation": "本句的「sharpened the distinction」指「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」。",
       "sentenceIndex": 50,
@@ -2364,12 +2162,10 @@ export default {
         "sharpened the distinction"
       ],
       "optionReasons": {
-        "sharp-mcq-26": "本句指「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」。",
-        "sharp-mcq-25": "「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」是「sharp image / focus = visually clear and well focused 清晰的；對焦準確的」的用法，與本句語境不同。",
-        "sharp-mcq-27": "「表示整；準時；正好；例句：「會議九點整開始。」」是「at six sharp = exactly at the stated time 整；準時；正好」的用法，與本句語境不同。",
-        "sharp-mcq-24": "「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」是「sharp — clear and clearly defined = having distinct lines, boundaries, or visual details 清晰的；輪廓分明的；鮮明的」的用法，與本句語境不同。",
-        "sharp-mcq-28": "「俐落有型的；穿著體面的；帥氣的」是「sharp — smart, stylish, and well dressed = fashionable and neat in appearance 俐落有型的；穿著體面的；帥氣的」的用法，與本句語境不同。",
-        "sharp-mcq-23": "「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」是「sharply different / sharply divided = clearly or strongly different / divided 截然不同的；嚴重分歧的」的用法，與本句語境不同。"
+        "sharp-mcq-26": "本句的「sharpened the distinction」指「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」。",
+        "sharp-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-26"
     },
@@ -2381,11 +2177,9 @@ export default {
       "masked": "Editing helped ____.",
       "options": [
         "sharp-mcq-26",
-        "sharp-mcq-25",
-        "sharp-mcq-27",
-        "sharp-mcq-24",
-        "sharp-mcq-28",
-        "sharp-mcq-23"
+        "sharp-mcq-23",
+        "sharp-mcq-14",
+        "sharp-mcq-21"
       ],
       "explanation": "本句的「sharpen her argument」指「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」。",
       "sentenceIndex": 51,
@@ -2394,12 +2188,10 @@ export default {
         "sharpen her argument"
       ],
       "optionReasons": {
-        "sharp-mcq-26": "本句指「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」。",
-        "sharp-mcq-25": "「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」是「sharp image / focus = visually clear and well focused 清晰的；對焦準確的」的用法，與本句語境不同。",
-        "sharp-mcq-27": "「表示整；準時；正好；例句：「會議九點整開始。」」是「at six sharp = exactly at the stated time 整；準時；正好」的用法，與本句語境不同。",
-        "sharp-mcq-24": "「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」是「sharp — clear and clearly defined = having distinct lines, boundaries, or visual details 清晰的；輪廓分明的；鮮明的」的用法，與本句語境不同。",
-        "sharp-mcq-28": "「俐落有型的；穿著體面的；帥氣的」是「sharp — smart, stylish, and well dressed = fashionable and neat in appearance 俐落有型的；穿著體面的；帥氣的」的用法，與本句語境不同。",
-        "sharp-mcq-23": "「表示截然不同的；嚴重分歧的；例句：「他們的看法截然不同。」」是「sharply different / sharply divided = clearly or strongly different / divided 截然不同的；嚴重分歧的」的用法，與本句語境不同。"
+        "sharp-mcq-26": "本句的「sharpen her argument」指「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」。",
+        "sharp-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-26"
     },
@@ -2411,11 +2203,9 @@ export default {
       "masked": "The meeting begins at nine ____.",
       "options": [
         "sharp-mcq-27",
-        "sharp-mcq-26",
         "sharp-mcq-28",
-        "sharp-mcq-25",
-        "sharp-mcq-29",
-        "sharp-mcq-24"
+        "sharp-mcq-30",
+        "sharp-mcq-10"
       ],
       "explanation": "本句的「sharp」指「表示整；準時；正好；例句：「會議九點整開始。」」。",
       "sentenceIndex": 52,
@@ -2424,12 +2214,10 @@ export default {
         "sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-27": "本句指「表示整；準時；正好；例句：「會議九點整開始。」」。",
-        "sharp-mcq-26": "「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」是「sharpen an image / distinction / argument The physical “make sharper” meaning extends metaphorically to: = make clearer, stronger, or more precise 使更清晰；使更明確；強化」的用法，與本句語境不同。",
-        "sharp-mcq-28": "「俐落有型的；穿著體面的；帥氣的」是「sharp — smart, stylish, and well dressed = fashionable and neat in appearance 俐落有型的；穿著體面的；帥氣的」的用法，與本句語境不同。",
-        "sharp-mcq-25": "「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」是「sharp image / focus = visually clear and well focused 清晰的；對焦準確的」的用法，與本句語境不同。",
-        "sharp-mcq-29": "「很會穿衣服的人；衣著有型的人」是「sharp dresser = someone who dresses stylishly and neatly 很會穿衣服的人；衣著有型的人」的用法，與本句語境不同。",
-        "sharp-mcq-24": "「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」是「sharp — clear and clearly defined = having distinct lines, boundaries, or visual details 清晰的；輪廓分明的；鮮明的」的用法，與本句語境不同。"
+        "sharp-mcq-27": "本句的「sharp」指「表示整；準時；正好；例句：「會議九點整開始。」」。",
+        "sharp-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-27"
     },
@@ -2441,11 +2229,9 @@ export default {
       "masked": "Be here at seven ____.",
       "options": [
         "sharp-mcq-27",
-        "sharp-mcq-26",
-        "sharp-mcq-28",
-        "sharp-mcq-25",
-        "sharp-mcq-29",
-        "sharp-mcq-24"
+        "sharp-mcq-01",
+        "sharp-mcq-35",
+        "sharp-mcq-28"
       ],
       "explanation": "本句的「sharp」指「表示整；準時；正好；例句：「會議九點整開始。」」。",
       "sentenceIndex": 53,
@@ -2454,12 +2240,10 @@ export default {
         "sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-27": "本句指「表示整；準時；正好；例句：「會議九點整開始。」」。",
-        "sharp-mcq-26": "「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」是「sharpen an image / distinction / argument The physical “make sharper” meaning extends metaphorically to: = make clearer, stronger, or more precise 使更清晰；使更明確；強化」的用法，與本句語境不同。",
-        "sharp-mcq-28": "「俐落有型的；穿著體面的；帥氣的」是「sharp — smart, stylish, and well dressed = fashionable and neat in appearance 俐落有型的；穿著體面的；帥氣的」的用法，與本句語境不同。",
-        "sharp-mcq-25": "「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」是「sharp image / focus = visually clear and well focused 清晰的；對焦準確的」的用法，與本句語境不同。",
-        "sharp-mcq-29": "「很會穿衣服的人；衣著有型的人」是「sharp dresser = someone who dresses stylishly and neatly 很會穿衣服的人；衣著有型的人」的用法，與本句語境不同。",
-        "sharp-mcq-24": "「表示清晰的；輪廓分明的；鮮明的；例句：「這張照片非常清晰。」」是「sharp — clear and clearly defined = having distinct lines, boundaries, or visual details 清晰的；輪廓分明的；鮮明的」的用法，與本句語境不同。"
+        "sharp-mcq-27": "本句的「sharp」指「表示整；準時；正好；例句：「會議九點整開始。」」。",
+        "sharp-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-27"
     },
@@ -2471,11 +2255,9 @@ export default {
       "masked": "You look ____ in that suit.",
       "options": [
         "sharp-mcq-28",
-        "sharp-mcq-27",
-        "sharp-mcq-29",
-        "sharp-mcq-26",
-        "sharp-mcq-30",
-        "sharp-mcq-25"
+        "sharp-mcq-20",
+        "sharp-mcq-25",
+        "sharp-mcq-14"
       ],
       "explanation": "本句的「sharp」指「俐落有型的；穿著體面的；帥氣的」。",
       "sentenceIndex": 54,
@@ -2484,12 +2266,10 @@ export default {
         "sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-28": "本句指「俐落有型的；穿著體面的；帥氣的」。",
-        "sharp-mcq-27": "「表示整；準時；正好；例句：「會議九點整開始。」」是「at six sharp = exactly at the stated time 整；準時；正好」的用法，與本句語境不同。",
-        "sharp-mcq-29": "「很會穿衣服的人；衣著有型的人」是「sharp dresser = someone who dresses stylishly and neatly 很會穿衣服的人；衣著有型的人」的用法，與本句語境不同。",
-        "sharp-mcq-26": "「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」是「sharpen an image / distinction / argument The physical “make sharper” meaning extends metaphorically to: = make clearer, stronger, or more precise 使更清晰；使更明確；強化」的用法，與本句語境不同。",
-        "sharp-mcq-30": "「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」是「sharp — slightly higher than the correct musical pitch = above the intended pitch 偏高的；升高的」的用法，與本句語境不同。",
-        "sharp-mcq-25": "「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」是「sharp image / focus = visually clear and well focused 清晰的；對焦準確的」的用法，與本句語境不同。"
+        "sharp-mcq-28": "本句的「sharp」指「俐落有型的；穿著體面的；帥氣的」。",
+        "sharp-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-28"
     },
@@ -2501,11 +2281,9 @@ export default {
       "masked": "He arrived looking extremely ____.",
       "options": [
         "sharp-mcq-28",
-        "sharp-mcq-27",
-        "sharp-mcq-29",
-        "sharp-mcq-26",
-        "sharp-mcq-30",
-        "sharp-mcq-25"
+        "sharp-mcq-10",
+        "sharp-mcq-05",
+        "sharp-mcq-37"
       ],
       "explanation": "本句的「sharp」指「俐落有型的；穿著體面的；帥氣的」。",
       "sentenceIndex": 55,
@@ -2514,12 +2292,10 @@ export default {
         "sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-28": "本句指「俐落有型的；穿著體面的；帥氣的」。",
-        "sharp-mcq-27": "「表示整；準時；正好；例句：「會議九點整開始。」」是「at six sharp = exactly at the stated time 整；準時；正好」的用法，與本句語境不同。",
-        "sharp-mcq-29": "「很會穿衣服的人；衣著有型的人」是「sharp dresser = someone who dresses stylishly and neatly 很會穿衣服的人；衣著有型的人」的用法，與本句語境不同。",
-        "sharp-mcq-26": "「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」是「sharpen an image / distinction / argument The physical “make sharper” meaning extends metaphorically to: = make clearer, stronger, or more precise 使更清晰；使更明確；強化」的用法，與本句語境不同。",
-        "sharp-mcq-30": "「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」是「sharp — slightly higher than the correct musical pitch = above the intended pitch 偏高的；升高的」的用法，與本句語境不同。",
-        "sharp-mcq-25": "「表示清晰的；對焦準確的；例句：「這個鏡頭能拍出非常清晰的影像。」」是「sharp image / focus = visually clear and well focused 清晰的；對焦準確的」的用法，與本句語境不同。"
+        "sharp-mcq-28": "本句的「sharp」指「俐落有型的；穿著體面的；帥氣的」。",
+        "sharp-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-28"
     },
@@ -2531,11 +2307,9 @@ export default {
       "masked": "He has always been a ____.",
       "options": [
         "sharp-mcq-29",
-        "sharp-mcq-28",
-        "sharp-mcq-30",
+        "sharp-mcq-26",
         "sharp-mcq-27",
-        "sharp-mcq-31",
-        "sharp-mcq-26"
+        "sharp-mcq-18"
       ],
       "explanation": "本句的「sharp dresser」指「很會穿衣服的人；衣著有型的人」。",
       "sentenceIndex": 56,
@@ -2544,12 +2318,10 @@ export default {
         "sharp dresser"
       ],
       "optionReasons": {
-        "sharp-mcq-29": "本句指「很會穿衣服的人；衣著有型的人」。",
-        "sharp-mcq-28": "「俐落有型的；穿著體面的；帥氣的」是「sharp — smart, stylish, and well dressed = fashionable and neat in appearance 俐落有型的；穿著體面的；帥氣的」的用法，與本句語境不同。",
-        "sharp-mcq-30": "「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」是「sharp — slightly higher than the correct musical pitch = above the intended pitch 偏高的；升高的」的用法，與本句語境不同。",
-        "sharp-mcq-27": "「表示整；準時；正好；例句：「會議九點整開始。」」是「at six sharp = exactly at the stated time 整；準時；正好」的用法，與本句語境不同。",
-        "sharp-mcq-31": "「表示升記號；升音；例句：「在 F 前加一個升記號。」」是「sharp — the musical symbol ♯ / a raised note In music, sharp can also be a noun. a sharp = a symbol or note indicating one semitone higher 升記號；升音」的用法，與本句語境不同。",
-        "sharp-mcq-26": "「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」是「sharpen an image / distinction / argument The physical “make sharper” meaning extends metaphorically to: = make clearer, stronger, or more precise 使更清晰；使更明確；強化」的用法，與本句語境不同。"
+        "sharp-mcq-29": "本句的「sharp dresser」指「很會穿衣服的人；衣著有型的人」。",
+        "sharp-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-29"
     },
@@ -2561,11 +2333,9 @@ export default {
       "masked": "Her grandfather was known as a ____.",
       "options": [
         "sharp-mcq-29",
-        "sharp-mcq-28",
-        "sharp-mcq-30",
-        "sharp-mcq-27",
-        "sharp-mcq-31",
-        "sharp-mcq-26"
+        "sharp-mcq-24",
+        "sharp-mcq-08",
+        "sharp-mcq-05"
       ],
       "explanation": "本句的「sharp dresser」指「很會穿衣服的人；衣著有型的人」。",
       "sentenceIndex": 57,
@@ -2574,12 +2344,10 @@ export default {
         "sharp dresser"
       ],
       "optionReasons": {
-        "sharp-mcq-29": "本句指「很會穿衣服的人；衣著有型的人」。",
-        "sharp-mcq-28": "「俐落有型的；穿著體面的；帥氣的」是「sharp — smart, stylish, and well dressed = fashionable and neat in appearance 俐落有型的；穿著體面的；帥氣的」的用法，與本句語境不同。",
-        "sharp-mcq-30": "「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」是「sharp — slightly higher than the correct musical pitch = above the intended pitch 偏高的；升高的」的用法，與本句語境不同。",
-        "sharp-mcq-27": "「表示整；準時；正好；例句：「會議九點整開始。」」是「at six sharp = exactly at the stated time 整；準時；正好」的用法，與本句語境不同。",
-        "sharp-mcq-31": "「表示升記號；升音；例句：「在 F 前加一個升記號。」」是「sharp — the musical symbol ♯ / a raised note In music, sharp can also be a noun. a sharp = a symbol or note indicating one semitone higher 升記號；升音」的用法，與本句語境不同。",
-        "sharp-mcq-26": "「表示使更清晰；使更明確；強化；例句：「新證據使兩種理論之間的區別更加明確。」」是「sharpen an image / distinction / argument The physical “make sharper” meaning extends metaphorically to: = make clearer, stronger, or more precise 使更清晰；使更明確；強化」的用法，與本句語境不同。"
+        "sharp-mcq-29": "本句的「sharp dresser」指「很會穿衣服的人；衣著有型的人」。",
+        "sharp-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-29"
     },
@@ -2591,11 +2359,9 @@ export default {
       "masked": "That note sounds slightly ____.",
       "options": [
         "sharp-mcq-30",
-        "sharp-mcq-29",
-        "sharp-mcq-31",
-        "sharp-mcq-28",
-        "sharp-mcq-32",
-        "sharp-mcq-27"
+        "sharp-mcq-09",
+        "sharp-mcq-19",
+        "sharp-mcq-15"
       ],
       "explanation": "本句的「sharp」指「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」。",
       "sentenceIndex": 58,
@@ -2604,12 +2370,10 @@ export default {
         "sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-30": "本句指「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」。",
-        "sharp-mcq-29": "「很會穿衣服的人；衣著有型的人」是「sharp dresser = someone who dresses stylishly and neatly 很會穿衣服的人；衣著有型的人」的用法，與本句語境不同。",
-        "sharp-mcq-31": "「表示升記號；升音；例句：「在 F 前加一個升記號。」」是「sharp — the musical symbol ♯ / a raised note In music, sharp can also be a noun. a sharp = a symbol or note indicating one semitone higher 升記號；升音」的用法，與本句語境不同。",
-        "sharp-mcq-28": "「俐落有型的；穿著體面的；帥氣的」是「sharp — smart, stylish, and well dressed = fashionable and neat in appearance 俐落有型的；穿著體面的；帥氣的」的用法，與本句語境不同。",
-        "sharp-mcq-32": "「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」是「sharp — very cold in a fresh, biting way = noticeably and unpleasantly cold 刺骨的；凜冽的」的用法，與本句語境不同。",
-        "sharp-mcq-27": "「表示整；準時；正好；例句：「會議九點整開始。」」是「at six sharp = exactly at the stated time 整；準時；正好」的用法，與本句語境不同。"
+        "sharp-mcq-30": "本句的「sharp」指「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」。",
+        "sharp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-30"
     },
@@ -2622,10 +2386,8 @@ export default {
       "options": [
         "sharp-mcq-30",
         "sharp-mcq-29",
-        "sharp-mcq-31",
-        "sharp-mcq-28",
-        "sharp-mcq-32",
-        "sharp-mcq-27"
+        "sharp-mcq-19",
+        "sharp-mcq-12"
       ],
       "explanation": "本句的「sharp」指「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」。",
       "sentenceIndex": 59,
@@ -2634,12 +2396,10 @@ export default {
         "sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-30": "本句指「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」。",
-        "sharp-mcq-29": "「很會穿衣服的人；衣著有型的人」是「sharp dresser = someone who dresses stylishly and neatly 很會穿衣服的人；衣著有型的人」的用法，與本句語境不同。",
-        "sharp-mcq-31": "「表示升記號；升音；例句：「在 F 前加一個升記號。」」是「sharp — the musical symbol ♯ / a raised note In music, sharp can also be a noun. a sharp = a symbol or note indicating one semitone higher 升記號；升音」的用法，與本句語境不同。",
-        "sharp-mcq-28": "「俐落有型的；穿著體面的；帥氣的」是「sharp — smart, stylish, and well dressed = fashionable and neat in appearance 俐落有型的；穿著體面的；帥氣的」的用法，與本句語境不同。",
-        "sharp-mcq-32": "「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」是「sharp — very cold in a fresh, biting way = noticeably and unpleasantly cold 刺骨的；凜冽的」的用法，與本句語境不同。",
-        "sharp-mcq-27": "「表示整；準時；正好；例句：「會議九點整開始。」」是「at six sharp = exactly at the stated time 整；準時；正好」的用法，與本句語境不同。"
+        "sharp-mcq-30": "本句的「sharp」指「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」。",
+        "sharp-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-30"
     },
@@ -2651,11 +2411,9 @@ export default {
       "masked": "Put a ____ before the F.",
       "options": [
         "sharp-mcq-31",
-        "sharp-mcq-30",
-        "sharp-mcq-32",
+        "sharp-mcq-19",
         "sharp-mcq-29",
-        "sharp-mcq-33",
-        "sharp-mcq-28"
+        "sharp-mcq-15"
       ],
       "explanation": "本句的「sharp」指「表示升記號；升音；例句：「在 F 前加一個升記號。」」。",
       "sentenceIndex": 60,
@@ -2664,12 +2422,10 @@ export default {
         "sharp"
       ],
       "optionReasons": {
-        "sharp-mcq-31": "本句指「表示升記號；升音；例句：「在 F 前加一個升記號。」」。",
-        "sharp-mcq-30": "「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」是「sharp — slightly higher than the correct musical pitch = above the intended pitch 偏高的；升高的」的用法，與本句語境不同。",
-        "sharp-mcq-32": "「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」是「sharp — very cold in a fresh, biting way = noticeably and unpleasantly cold 刺骨的；凜冽的」的用法，與本句語境不同。",
-        "sharp-mcq-29": "「很會穿衣服的人；衣著有型的人」是「sharp dresser = someone who dresses stylishly and neatly 很會穿衣服的人；衣著有型的人」的用法，與本句語境不同。",
-        "sharp-mcq-33": "「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」是「sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的」的用法，與本句語境不同。",
-        "sharp-mcq-28": "「俐落有型的；穿著體面的；帥氣的」是「sharp — smart, stylish, and well dressed = fashionable and neat in appearance 俐落有型的；穿著體面的；帥氣的」的用法，與本句語境不同。"
+        "sharp-mcq-31": "本句的「sharp」指「表示升記號；升音；例句：「在 F 前加一個升記號。」」。",
+        "sharp-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-31"
     },
@@ -2681,11 +2437,9 @@ export default {
       "masked": "This piece contains several ____.",
       "options": [
         "sharp-mcq-31",
-        "sharp-mcq-30",
-        "sharp-mcq-32",
-        "sharp-mcq-29",
-        "sharp-mcq-33",
-        "sharp-mcq-28"
+        "sharp-mcq-37",
+        "sharp-mcq-38",
+        "sharp-mcq-15"
       ],
       "explanation": "本句的「sharps」指「表示升記號；升音；例句：「在 F 前加一個升記號。」」。",
       "sentenceIndex": 61,
@@ -2694,12 +2448,10 @@ export default {
         "sharps"
       ],
       "optionReasons": {
-        "sharp-mcq-31": "本句指「表示升記號；升音；例句：「在 F 前加一個升記號。」」。",
-        "sharp-mcq-30": "「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」是「sharp — slightly higher than the correct musical pitch = above the intended pitch 偏高的；升高的」的用法，與本句語境不同。",
-        "sharp-mcq-32": "「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」是「sharp — very cold in a fresh, biting way = noticeably and unpleasantly cold 刺骨的；凜冽的」的用法，與本句語境不同。",
-        "sharp-mcq-29": "「很會穿衣服的人；衣著有型的人」是「sharp dresser = someone who dresses stylishly and neatly 很會穿衣服的人；衣著有型的人」的用法，與本句語境不同。",
-        "sharp-mcq-33": "「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」是「sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的」的用法，與本句語境不同。",
-        "sharp-mcq-28": "「俐落有型的；穿著體面的；帥氣的」是「sharp — smart, stylish, and well dressed = fashionable and neat in appearance 俐落有型的；穿著體面的；帥氣的」的用法，與本句語境不同。"
+        "sharp-mcq-31": "本句的「sharps」指「表示升記號；升音；例句：「在 F 前加一個升記號。」」。",
+        "sharp-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-31"
     },
@@ -2711,11 +2463,9 @@ export default {
       "masked": "A ____ blew across the field.",
       "options": [
         "sharp-mcq-32",
-        "sharp-mcq-31",
-        "sharp-mcq-33",
+        "sharp-mcq-12",
         "sharp-mcq-30",
-        "sharp-mcq-34",
-        "sharp-mcq-29"
+        "sharp-mcq-19"
       ],
       "explanation": "本句的「sharp wind」指「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」。",
       "sentenceIndex": 62,
@@ -2724,12 +2474,10 @@ export default {
         "sharp wind"
       ],
       "optionReasons": {
-        "sharp-mcq-32": "本句指「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」。",
-        "sharp-mcq-31": "「表示升記號；升音；例句：「在 F 前加一個升記號。」」是「sharp — the musical symbol ♯ / a raised note In music, sharp can also be a noun. a sharp = a symbol or note indicating one semitone higher 升記號；升音」的用法，與本句語境不同。",
-        "sharp-mcq-33": "「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」是「sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的」的用法，與本句語境不同。",
-        "sharp-mcq-30": "「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」是「sharp — slightly higher than the correct musical pitch = above the intended pitch 偏高的；升高的」的用法，與本句語境不同。",
-        "sharp-mcq-34": "「不正當手段；狡猾而不公平的做法」是「sharp practice = clever but dishonest or unfair business behaviour 不正當手段；狡猾而不公平的做法」的用法，與本句語境不同。",
-        "sharp-mcq-29": "「很會穿衣服的人；衣著有型的人」是「sharp dresser = someone who dresses stylishly and neatly 很會穿衣服的人；衣著有型的人」的用法，與本句語境不同。"
+        "sharp-mcq-32": "本句的「sharp wind」指「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」。",
+        "sharp-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-32"
     },
@@ -2741,11 +2489,9 @@ export default {
       "masked": "There was a ____ in the morning air.",
       "options": [
         "sharp-mcq-32",
-        "sharp-mcq-31",
-        "sharp-mcq-33",
-        "sharp-mcq-30",
-        "sharp-mcq-34",
-        "sharp-mcq-29"
+        "sharp-mcq-19",
+        "sharp-mcq-14",
+        "sharp-mcq-24"
       ],
       "explanation": "本句的「sharp chill」指「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」。",
       "sentenceIndex": 63,
@@ -2754,12 +2500,10 @@ export default {
         "sharp chill"
       ],
       "optionReasons": {
-        "sharp-mcq-32": "本句指「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」。",
-        "sharp-mcq-31": "「表示升記號；升音；例句：「在 F 前加一個升記號。」」是「sharp — the musical symbol ♯ / a raised note In music, sharp can also be a noun. a sharp = a symbol or note indicating one semitone higher 升記號；升音」的用法，與本句語境不同。",
-        "sharp-mcq-33": "「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」是「sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的」的用法，與本句語境不同。",
-        "sharp-mcq-30": "「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」是「sharp — slightly higher than the correct musical pitch = above the intended pitch 偏高的；升高的」的用法，與本句語境不同。",
-        "sharp-mcq-34": "「不正當手段；狡猾而不公平的做法」是「sharp practice = clever but dishonest or unfair business behaviour 不正當手段；狡猾而不公平的做法」的用法，與本句語境不同。",
-        "sharp-mcq-29": "「很會穿衣服的人；衣著有型的人」是「sharp dresser = someone who dresses stylishly and neatly 很會穿衣服的人；衣著有型的人」的用法，與本句語境不同。"
+        "sharp-mcq-32": "本句的「sharp chill」指「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」。",
+        "sharp-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-32"
     },
@@ -2771,11 +2515,9 @@ export default {
       "masked": "She took a ____.",
       "options": [
         "sharp-mcq-33",
-        "sharp-mcq-32",
-        "sharp-mcq-34",
+        "sharp-mcq-11",
         "sharp-mcq-31",
-        "sharp-mcq-35",
-        "sharp-mcq-30"
+        "sharp-mcq-37"
       ],
       "explanation": "本句的「sharp breath」指「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」。",
       "sentenceIndex": 64,
@@ -2784,12 +2526,10 @@ export default {
         "sharp breath"
       ],
       "optionReasons": {
-        "sharp-mcq-33": "本句指「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」。",
-        "sharp-mcq-32": "「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」是「sharp — very cold in a fresh, biting way = noticeably and unpleasantly cold 刺骨的；凜冽的」的用法，與本句語境不同。",
-        "sharp-mcq-34": "「不正當手段；狡猾而不公平的做法」是「sharp practice = clever but dishonest or unfair business behaviour 不正當手段；狡猾而不公平的做法」的用法，與本句語境不同。",
-        "sharp-mcq-31": "「表示升記號；升音；例句：「在 F 前加一個升記號。」」是「sharp — the musical symbol ♯ / a raised note In music, sharp can also be a noun. a sharp = a symbol or note indicating one semitone higher 升記號；升音」的用法，與本句語境不同。",
-        "sharp-mcq-35": "「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」是「sharpener = a tool used to sharpen something 削鉛筆器；磨刀器；磨具」的用法，與本句語境不同。",
-        "sharp-mcq-30": "「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」是「sharp — slightly higher than the correct musical pitch = above the intended pitch 偏高的；升高的」的用法，與本句語境不同。"
+        "sharp-mcq-33": "本句的「sharp breath」指「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」。",
+        "sharp-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-33"
     },
@@ -2801,11 +2541,9 @@ export default {
       "masked": "He gave the rope a ____.",
       "options": [
         "sharp-mcq-33",
-        "sharp-mcq-32",
-        "sharp-mcq-34",
-        "sharp-mcq-31",
-        "sharp-mcq-35",
-        "sharp-mcq-30"
+        "sharp-mcq-11",
+        "sharp-mcq-38",
+        "sharp-mcq-06"
       ],
       "explanation": "本句的「sharp pull」指「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」。",
       "sentenceIndex": 65,
@@ -2814,12 +2552,10 @@ export default {
         "sharp pull"
       ],
       "optionReasons": {
-        "sharp-mcq-33": "本句指「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」。",
-        "sharp-mcq-32": "「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」是「sharp — very cold in a fresh, biting way = noticeably and unpleasantly cold 刺骨的；凜冽的」的用法，與本句語境不同。",
-        "sharp-mcq-34": "「不正當手段；狡猾而不公平的做法」是「sharp practice = clever but dishonest or unfair business behaviour 不正當手段；狡猾而不公平的做法」的用法，與本句語境不同。",
-        "sharp-mcq-31": "「表示升記號；升音；例句：「在 F 前加一個升記號。」」是「sharp — the musical symbol ♯ / a raised note In music, sharp can also be a noun. a sharp = a symbol or note indicating one semitone higher 升記號；升音」的用法，與本句語境不同。",
-        "sharp-mcq-35": "「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」是「sharpener = a tool used to sharpen something 削鉛筆器；磨刀器；磨具」的用法，與本句語境不同。",
-        "sharp-mcq-30": "「表示偏高的；升高的；例句：「那個音聽起來有一點偏高。」」是「sharp — slightly higher than the correct musical pitch = above the intended pitch 偏高的；升高的」的用法，與本句語境不同。"
+        "sharp-mcq-33": "本句的「sharp pull」指「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」。",
+        "sharp-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-33"
     },
@@ -2831,11 +2567,9 @@ export default {
       "masked": "The company was accused of ____.",
       "options": [
         "sharp-mcq-34",
-        "sharp-mcq-33",
-        "sharp-mcq-35",
-        "sharp-mcq-32",
-        "sharp-mcq-36",
-        "sharp-mcq-31"
+        "sharp-mcq-02",
+        "sharp-mcq-30",
+        "sharp-mcq-38"
       ],
       "explanation": "本句的「sharp practice」指「不正當手段；狡猾而不公平的做法」。",
       "sentenceIndex": 66,
@@ -2844,12 +2578,10 @@ export default {
         "sharp practice"
       ],
       "optionReasons": {
-        "sharp-mcq-34": "本句指「不正當手段；狡猾而不公平的做法」。",
-        "sharp-mcq-33": "「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」是「sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的」的用法，與本句語境不同。",
-        "sharp-mcq-35": "「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」是「sharpener = a tool used to sharpen something 削鉛筆器；磨刀器；磨具」的用法，與本句語境不同。",
-        "sharp-mcq-32": "「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」是「sharp — very cold in a fresh, biting way = noticeably and unpleasantly cold 刺骨的；凜冽的」的用法，與本句語境不同。",
-        "sharp-mcq-36": "「表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」」是「sharp wit = quick, clever humour or intelligence 機智；敏捷的才思」的用法，與本句語境不同。",
-        "sharp-mcq-31": "「表示升記號；升音；例句：「在 F 前加一個升記號。」」是「sharp — the musical symbol ♯ / a raised note In music, sharp can also be a noun. a sharp = a symbol or note indicating one semitone higher 升記號；升音」的用法，與本句語境不同。"
+        "sharp-mcq-34": "本句的「sharp practice」指「不正當手段；狡猾而不公平的做法」。",
+        "sharp-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-34"
     },
@@ -2861,11 +2593,9 @@ export default {
       "masked": "Regulators introduced rules to prevent ____.",
       "options": [
         "sharp-mcq-34",
-        "sharp-mcq-33",
-        "sharp-mcq-35",
-        "sharp-mcq-32",
-        "sharp-mcq-36",
-        "sharp-mcq-31"
+        "sharp-mcq-25",
+        "sharp-mcq-05",
+        "sharp-mcq-30"
       ],
       "explanation": "本句的「sharp practices」指「不正當手段；狡猾而不公平的做法」。",
       "sentenceIndex": 67,
@@ -2874,12 +2604,10 @@ export default {
         "sharp practices"
       ],
       "optionReasons": {
-        "sharp-mcq-34": "本句指「不正當手段；狡猾而不公平的做法」。",
-        "sharp-mcq-33": "「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」是「sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的」的用法，與本句語境不同。",
-        "sharp-mcq-35": "「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」是「sharpener = a tool used to sharpen something 削鉛筆器；磨刀器；磨具」的用法，與本句語境不同。",
-        "sharp-mcq-32": "「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」是「sharp — very cold in a fresh, biting way = noticeably and unpleasantly cold 刺骨的；凜冽的」的用法，與本句語境不同。",
-        "sharp-mcq-36": "「表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」」是「sharp wit = quick, clever humour or intelligence 機智；敏捷的才思」的用法，與本句語境不同。",
-        "sharp-mcq-31": "「表示升記號；升音；例句：「在 F 前加一個升記號。」」是「sharp — the musical symbol ♯ / a raised note In music, sharp can also be a noun. a sharp = a symbol or note indicating one semitone higher 升記號；升音」的用法，與本句語境不同。"
+        "sharp-mcq-34": "本句的「sharp practices」指「不正當手段；狡猾而不公平的做法」。",
+        "sharp-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-34"
     },
@@ -2891,11 +2619,9 @@ export default {
       "masked": "Can I borrow your pencil ____?",
       "options": [
         "sharp-mcq-35",
-        "sharp-mcq-34",
-        "sharp-mcq-36",
-        "sharp-mcq-33",
-        "sharp-mcq-37",
-        "sharp-mcq-32"
+        "sharp-mcq-38",
+        "sharp-mcq-12",
+        "sharp-mcq-21"
       ],
       "explanation": "本句的「sharpener」指「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」。",
       "sentenceIndex": 68,
@@ -2904,12 +2630,10 @@ export default {
         "sharpener"
       ],
       "optionReasons": {
-        "sharp-mcq-35": "本句指「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」。",
-        "sharp-mcq-34": "「不正當手段；狡猾而不公平的做法」是「sharp practice = clever but dishonest or unfair business behaviour 不正當手段；狡猾而不公平的做法」的用法，與本句語境不同。",
-        "sharp-mcq-36": "「表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」」是「sharp wit = quick, clever humour or intelligence 機智；敏捷的才思」的用法，與本句語境不同。",
-        "sharp-mcq-33": "「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」是「sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的」的用法，與本句語境不同。",
-        "sharp-mcq-37": "「表示嚴厲批評；尖銳批評；例句：「該提案受到嚴厲批評。」」是「sharp criticism = strong, severe criticism 嚴厲批評；尖銳批評」的用法，與本句語境不同。",
-        "sharp-mcq-32": "「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」是「sharp — very cold in a fresh, biting way = noticeably and unpleasantly cold 刺骨的；凜冽的」的用法，與本句語境不同。"
+        "sharp-mcq-35": "本句的「sharpener」指「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」。",
+        "sharp-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-35"
     },
@@ -2921,11 +2645,9 @@ export default {
       "masked": "He used a knife ____ before preparing dinner.",
       "options": [
         "sharp-mcq-35",
-        "sharp-mcq-34",
-        "sharp-mcq-36",
-        "sharp-mcq-33",
-        "sharp-mcq-37",
-        "sharp-mcq-32"
+        "sharp-mcq-12",
+        "sharp-mcq-05",
+        "sharp-mcq-25"
       ],
       "explanation": "本句的「sharpener」指「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」。",
       "sentenceIndex": 69,
@@ -2934,12 +2656,10 @@ export default {
         "sharpener"
       ],
       "optionReasons": {
-        "sharp-mcq-35": "本句指「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」。",
-        "sharp-mcq-34": "「不正當手段；狡猾而不公平的做法」是「sharp practice = clever but dishonest or unfair business behaviour 不正當手段；狡猾而不公平的做法」的用法，與本句語境不同。",
-        "sharp-mcq-36": "「表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」」是「sharp wit = quick, clever humour or intelligence 機智；敏捷的才思」的用法，與本句語境不同。",
-        "sharp-mcq-33": "「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」是「sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的」的用法，與本句語境不同。",
-        "sharp-mcq-37": "「表示嚴厲批評；尖銳批評；例句：「該提案受到嚴厲批評。」」是「sharp criticism = strong, severe criticism 嚴厲批評；尖銳批評」的用法，與本句語境不同。",
-        "sharp-mcq-32": "「表示刺骨的；凜冽的；例句：「一陣凜冽的寒風吹過田野。」」是「sharp — very cold in a fresh, biting way = noticeably and unpleasantly cold 刺骨的；凜冽的」的用法，與本句語境不同。"
+        "sharp-mcq-35": "本句的「sharpener」指「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」。",
+        "sharp-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-35"
     },
@@ -2951,11 +2671,9 @@ export default {
       "masked": "She is famous for her ____.",
       "options": [
         "sharp-mcq-36",
-        "sharp-mcq-35",
-        "sharp-mcq-37",
-        "sharp-mcq-34",
-        "sharp-mcq-38",
-        "sharp-mcq-33"
+        "sharp-mcq-24",
+        "sharp-mcq-03",
+        "sharp-mcq-09"
       ],
       "explanation": "本句的「sharp wit」指「表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」」。",
       "sentenceIndex": 70,
@@ -2964,12 +2682,10 @@ export default {
         "sharp wit"
       ],
       "optionReasons": {
-        "sharp-mcq-36": "本句指「表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」」。",
-        "sharp-mcq-35": "「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」是「sharpener = a tool used to sharpen something 削鉛筆器；磨刀器；磨具」的用法，與本句語境不同。",
-        "sharp-mcq-37": "「表示嚴厲批評；尖銳批評；例句：「該提案受到嚴厲批評。」」是「sharp criticism = strong, severe criticism 嚴厲批評；尖銳批評」的用法，與本句語境不同。",
-        "sharp-mcq-34": "「不正當手段；狡猾而不公平的做法」是「sharp practice = clever but dishonest or unfair business behaviour 不正當手段；狡猾而不公平的做法」的用法，與本句語境不同。",
-        "sharp-mcq-38": "「表示明確的區別；鮮明的界線；例句：「這套理論對兩個概念作出明確區分。」」是「sharp distinction / division = very clear difference or boundary 明確的區別；鮮明的界線」的用法，與本句語境不同。",
-        "sharp-mcq-33": "「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」是「sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的」的用法，與本句語境不同。"
+        "sharp-mcq-36": "本句的「sharp wit」指「表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」」。",
+        "sharp-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-36"
     },
@@ -2981,11 +2697,9 @@ export default {
       "masked": "His ____ made him an entertaining speaker.",
       "options": [
         "sharp-mcq-36",
-        "sharp-mcq-35",
-        "sharp-mcq-37",
-        "sharp-mcq-34",
-        "sharp-mcq-38",
-        "sharp-mcq-33"
+        "sharp-mcq-03",
+        "sharp-mcq-16",
+        "sharp-mcq-22"
       ],
       "explanation": "本句的「sharp wit」指「表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」」。",
       "sentenceIndex": 71,
@@ -2994,12 +2708,10 @@ export default {
         "sharp wit"
       ],
       "optionReasons": {
-        "sharp-mcq-36": "本句指「表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」」。",
-        "sharp-mcq-35": "「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」是「sharpener = a tool used to sharpen something 削鉛筆器；磨刀器；磨具」的用法，與本句語境不同。",
-        "sharp-mcq-37": "「表示嚴厲批評；尖銳批評；例句：「該提案受到嚴厲批評。」」是「sharp criticism = strong, severe criticism 嚴厲批評；尖銳批評」的用法，與本句語境不同。",
-        "sharp-mcq-34": "「不正當手段；狡猾而不公平的做法」是「sharp practice = clever but dishonest or unfair business behaviour 不正當手段；狡猾而不公平的做法」的用法，與本句語境不同。",
-        "sharp-mcq-38": "「表示明確的區別；鮮明的界線；例句：「這套理論對兩個概念作出明確區分。」」是「sharp distinction / division = very clear difference or boundary 明確的區別；鮮明的界線」的用法，與本句語境不同。",
-        "sharp-mcq-33": "「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」是「sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的」的用法，與本句語境不同。"
+        "sharp-mcq-36": "本句的「sharp wit」指「表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」」。",
+        "sharp-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-36"
     },
@@ -3011,11 +2723,9 @@ export default {
       "masked": "The proposal received ____.",
       "options": [
         "sharp-mcq-37",
-        "sharp-mcq-36",
         "sharp-mcq-38",
-        "sharp-mcq-35",
-        "sharp-mcq-34",
-        "sharp-mcq-33"
+        "sharp-mcq-09",
+        "sharp-mcq-27"
       ],
       "explanation": "本句的「sharp criticism」指「表示嚴厲批評；尖銳批評；例句：「該提案受到嚴厲批評。」」。",
       "sentenceIndex": 72,
@@ -3024,12 +2734,10 @@ export default {
         "sharp criticism"
       ],
       "optionReasons": {
-        "sharp-mcq-37": "本句指「表示嚴厲批評；尖銳批評；例句：「該提案受到嚴厲批評。」」。",
-        "sharp-mcq-36": "「表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」」是「sharp wit = quick, clever humour or intelligence 機智；敏捷的才思」的用法，與本句語境不同。",
-        "sharp-mcq-38": "「表示明確的區別；鮮明的界線；例句：「這套理論對兩個概念作出明確區分。」」是「sharp distinction / division = very clear difference or boundary 明確的區別；鮮明的界線」的用法，與本句語境不同。",
-        "sharp-mcq-35": "「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」是「sharpener = a tool used to sharpen something 削鉛筆器；磨刀器；磨具」的用法，與本句語境不同。",
-        "sharp-mcq-34": "「不正當手段；狡猾而不公平的做法」是「sharp practice = clever but dishonest or unfair business behaviour 不正當手段；狡猾而不公平的做法」的用法，與本句語境不同。",
-        "sharp-mcq-33": "「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」是「sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的」的用法，與本句語境不同。"
+        "sharp-mcq-37": "本句的「sharp criticism」指「表示嚴厲批評；尖銳批評；例句：「該提案受到嚴厲批評。」」。",
+        "sharp-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-37"
     },
@@ -3041,11 +2749,9 @@ export default {
       "masked": "Her comments drew ____ from colleagues.",
       "options": [
         "sharp-mcq-37",
+        "sharp-mcq-09",
         "sharp-mcq-36",
-        "sharp-mcq-38",
-        "sharp-mcq-35",
-        "sharp-mcq-34",
-        "sharp-mcq-33"
+        "sharp-mcq-06"
       ],
       "explanation": "本句的「sharp criticism」指「表示嚴厲批評；尖銳批評；例句：「該提案受到嚴厲批評。」」。",
       "sentenceIndex": 73,
@@ -3054,12 +2760,10 @@ export default {
         "sharp criticism"
       ],
       "optionReasons": {
-        "sharp-mcq-37": "本句指「表示嚴厲批評；尖銳批評；例句：「該提案受到嚴厲批評。」」。",
-        "sharp-mcq-36": "「表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」」是「sharp wit = quick, clever humour or intelligence 機智；敏捷的才思」的用法，與本句語境不同。",
-        "sharp-mcq-38": "「表示明確的區別；鮮明的界線；例句：「這套理論對兩個概念作出明確區分。」」是「sharp distinction / division = very clear difference or boundary 明確的區別；鮮明的界線」的用法，與本句語境不同。",
-        "sharp-mcq-35": "「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」是「sharpener = a tool used to sharpen something 削鉛筆器；磨刀器；磨具」的用法，與本句語境不同。",
-        "sharp-mcq-34": "「不正當手段；狡猾而不公平的做法」是「sharp practice = clever but dishonest or unfair business behaviour 不正當手段；狡猾而不公平的做法」的用法，與本句語境不同。",
-        "sharp-mcq-33": "「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」是「sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的」的用法，與本句語境不同。"
+        "sharp-mcq-37": "本句的「sharp criticism」指「表示嚴厲批評；尖銳批評；例句：「該提案受到嚴厲批評。」」。",
+        "sharp-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-37"
     },
@@ -3071,11 +2775,9 @@ export default {
       "masked": "The theory makes a ____ between the two concepts.",
       "options": [
         "sharp-mcq-38",
-        "sharp-mcq-37",
-        "sharp-mcq-36",
-        "sharp-mcq-35",
-        "sharp-mcq-34",
-        "sharp-mcq-33"
+        "sharp-mcq-11",
+        "sharp-mcq-30",
+        "sharp-mcq-06"
       ],
       "explanation": "本句的「sharp distinction」指「表示明確的區別；鮮明的界線；例句：「這套理論對兩個概念作出明確區分。」」。",
       "sentenceIndex": 74,
@@ -3084,12 +2786,10 @@ export default {
         "sharp distinction"
       ],
       "optionReasons": {
-        "sharp-mcq-38": "本句指「表示明確的區別；鮮明的界線；例句：「這套理論對兩個概念作出明確區分。」」。",
-        "sharp-mcq-37": "「表示嚴厲批評；尖銳批評；例句：「該提案受到嚴厲批評。」」是「sharp criticism = strong, severe criticism 嚴厲批評；尖銳批評」的用法，與本句語境不同。",
-        "sharp-mcq-36": "「表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」」是「sharp wit = quick, clever humour or intelligence 機智；敏捷的才思」的用法，與本句語境不同。",
-        "sharp-mcq-35": "「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」是「sharpener = a tool used to sharpen something 削鉛筆器；磨刀器；磨具」的用法，與本句語境不同。",
-        "sharp-mcq-34": "「不正當手段；狡猾而不公平的做法」是「sharp practice = clever but dishonest or unfair business behaviour 不正當手段；狡猾而不公平的做法」的用法，與本句語境不同。",
-        "sharp-mcq-33": "「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」是「sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的」的用法，與本句語境不同。"
+        "sharp-mcq-38": "本句的「sharp distinction」指「表示明確的區別；鮮明的界線；例句：「這套理論對兩個概念作出明確區分。」」。",
+        "sharp-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-38"
     },
@@ -3101,11 +2801,9 @@ export default {
       "masked": "There is no ____ between the two categories.",
       "options": [
         "sharp-mcq-38",
-        "sharp-mcq-37",
-        "sharp-mcq-36",
+        "sharp-mcq-02",
         "sharp-mcq-35",
-        "sharp-mcq-34",
-        "sharp-mcq-33"
+        "sharp-mcq-19"
       ],
       "explanation": "本句的「sharp division」指「表示明確的區別；鮮明的界線；例句：「這套理論對兩個概念作出明確區分。」」。",
       "sentenceIndex": 75,
@@ -3114,12 +2812,10 @@ export default {
         "sharp division"
       ],
       "optionReasons": {
-        "sharp-mcq-38": "本句指「表示明確的區別；鮮明的界線；例句：「這套理論對兩個概念作出明確區分。」」。",
-        "sharp-mcq-37": "「表示嚴厲批評；尖銳批評；例句：「該提案受到嚴厲批評。」」是「sharp criticism = strong, severe criticism 嚴厲批評；尖銳批評」的用法，與本句語境不同。",
-        "sharp-mcq-36": "「表示機智；敏捷的才思；例句：「她以敏捷的機智聞名。」」是「sharp wit = quick, clever humour or intelligence 機智；敏捷的才思」的用法，與本句語境不同。",
-        "sharp-mcq-35": "「表示削鉛筆器；磨刀器；磨具；例句：「我可以借你的削鉛筆器嗎？」」是「sharpener = a tool used to sharpen something 削鉛筆器；磨刀器；磨具」的用法，與本句語境不同。",
-        "sharp-mcq-34": "「不正當手段；狡猾而不公平的做法」是「sharp practice = clever but dishonest or unfair business behaviour 不正當手段；狡猾而不公平的做法」的用法，與本句語境不同。",
-        "sharp-mcq-33": "「表示突然的；猛烈的；例句：「她突然猛吸了一口氣。」」是「sharp — sudden and forceful = abrupt, quick, and often strong 突然的；猛烈的」的用法，與本句語境不同。"
+        "sharp-mcq-38": "本句的「sharp division」指「表示明確的區別；鮮明的界線；例句：「這套理論對兩個概念作出明確區分。」」。",
+        "sharp-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "sharp-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sharp-mcq-38"
     }
@@ -3131,5 +2827,7 @@ export default {
     "sha256": "36a456bc420566cbd4c8a7547fb6a75a98f97120f6f0688ceabccdfa9a668380",
     "pages": 21
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

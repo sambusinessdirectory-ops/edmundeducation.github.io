@@ -899,11 +899,9 @@ export default {
       "masked": "I try not to ____.",
       "options": [
         "take-mcq-01",
-        "take-mcq-02",
-        "take-mcq-03",
-        "take-mcq-04",
-        "take-mcq-05",
-        "take-mcq-06"
+        "take-mcq-34",
+        "take-mcq-20",
+        "take-mcq-35"
       ],
       "explanation": "本句的「take her presence for granted」指「因習以為常或認為會一直存在，而沒有充分珍惜、感激或重視」。",
       "sentenceIndex": 0,
@@ -912,12 +910,10 @@ export default {
         "take her presence for granted"
       ],
       "optionReasons": {
-        "take-mcq-01": "本句指「因習以為常或認為會一直存在，而沒有充分珍惜、感激或重視」。",
-        "take-mcq-02": "「未經確認便想當然地認為某事必然如此」是「take for granted — assumption」的用法，與本句語境不同。",
-        "take-mcq-03": "「用手拿起、取得或帶走某物」是「take — pick up」的用法，與本句語境不同。",
-        "take-mcq-04": "「把某物由目前位置帶到另一地方」是「take something somewhere」的用法，與本句語境不同。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。"
+        "take-mcq-01": "本句的「take her presence for granted」指「因習以為常或認為會一直存在，而沒有充分珍惜、感激或重視」。",
+        "take-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-01"
     },
@@ -929,11 +925,9 @@ export default {
       "masked": "We often ____.",
       "options": [
         "take-mcq-01",
-        "take-mcq-02",
         "take-mcq-03",
-        "take-mcq-04",
-        "take-mcq-05",
-        "take-mcq-06"
+        "take-mcq-14",
+        "take-mcq-30"
       ],
       "explanation": "本句的「take clean water for granted」指「因習以為常或認為會一直存在，而沒有充分珍惜、感激或重視」。",
       "sentenceIndex": 1,
@@ -942,12 +936,10 @@ export default {
         "take clean water for granted"
       ],
       "optionReasons": {
-        "take-mcq-01": "本句指「因習以為常或認為會一直存在，而沒有充分珍惜、感激或重視」。",
-        "take-mcq-02": "「未經確認便想當然地認為某事必然如此」是「take for granted — assumption」的用法，與本句語境不同。",
-        "take-mcq-03": "「用手拿起、取得或帶走某物」是「take — pick up」的用法，與本句語境不同。",
-        "take-mcq-04": "「把某物由目前位置帶到另一地方」是「take something somewhere」的用法，與本句語境不同。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。"
+        "take-mcq-01": "本句的「take clean water for granted」指「因習以為常或認為會一直存在，而沒有充分珍惜、感激或重視」。",
+        "take-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-01"
     },
@@ -959,11 +951,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "take-mcq-01",
-        "take-mcq-02",
-        "take-mcq-03",
-        "take-mcq-04",
-        "take-mcq-05",
-        "take-mcq-06"
+        "take-mcq-08",
+        "take-mcq-34",
+        "take-mcq-21"
       ],
       "explanation": "本句的「take your family for granted」指「因習以為常或認為會一直存在，而沒有充分珍惜、感激或重視」。",
       "sentenceIndex": 2,
@@ -972,12 +962,10 @@ export default {
         "take your family for granted"
       ],
       "optionReasons": {
-        "take-mcq-01": "本句指「因習以為常或認為會一直存在，而沒有充分珍惜、感激或重視」。",
-        "take-mcq-02": "「未經確認便想當然地認為某事必然如此」是「take for granted — assumption」的用法，與本句語境不同。",
-        "take-mcq-03": "「用手拿起、取得或帶走某物」是「take — pick up」的用法，與本句語境不同。",
-        "take-mcq-04": "「把某物由目前位置帶到另一地方」是「take something somewhere」的用法，與本句語境不同。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。"
+        "take-mcq-01": "本句的「take your family for granted」指「因習以為常或認為會一直存在，而沒有充分珍惜、感激或重視」。",
+        "take-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-01"
     },
@@ -989,11 +977,9 @@ export default {
       "masked": "She ____ the cup from the table.",
       "options": [
         "take-mcq-03",
-        "take-mcq-02",
-        "take-mcq-04",
-        "take-mcq-01",
-        "take-mcq-05",
-        "take-mcq-06"
+        "take-mcq-19",
+        "take-mcq-15",
+        "take-mcq-16"
       ],
       "explanation": "本句的「took」指「用手拿起、取得或帶走某物」。",
       "sentenceIndex": 3,
@@ -1002,12 +988,10 @@ export default {
         "took"
       ],
       "optionReasons": {
-        "take-mcq-03": "本句指「用手拿起、取得或帶走某物」。",
-        "take-mcq-02": "「未經確認便想當然地認為某事必然如此」是「take for granted — assumption」的用法，與本句語境不同。",
-        "take-mcq-04": "「把某物由目前位置帶到另一地方」是「take something somewhere」的用法，與本句語境不同。",
-        "take-mcq-01": "「因習以為常或認為會一直存在，而沒有充分珍惜、感激或重視」是「take for granted — appreciation」的用法，與本句語境不同。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。"
+        "take-mcq-03": "本句的「took」指「用手拿起、取得或帶走某物」。",
+        "take-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-03"
     },
@@ -1019,11 +1003,9 @@ export default {
       "masked": "Please ____ one.",
       "options": [
         "take-mcq-03",
-        "take-mcq-02",
-        "take-mcq-04",
-        "take-mcq-01",
-        "take-mcq-05",
-        "take-mcq-06"
+        "take-mcq-24",
+        "take-mcq-30",
+        "take-mcq-05"
       ],
       "explanation": "本句的「take」指「用手拿起、取得或帶走某物」。",
       "sentenceIndex": 4,
@@ -1032,12 +1014,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-03": "本句指「用手拿起、取得或帶走某物」。",
-        "take-mcq-02": "「未經確認便想當然地認為某事必然如此」是「take for granted — assumption」的用法，與本句語境不同。",
-        "take-mcq-04": "「把某物由目前位置帶到另一地方」是「take something somewhere」的用法，與本句語境不同。",
-        "take-mcq-01": "「因習以為常或認為會一直存在，而沒有充分珍惜、感激或重視」是「take for granted — appreciation」的用法，與本句語境不同。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。"
+        "take-mcq-03": "本句的「take」指「用手拿起、取得或帶走某物」。",
+        "take-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-03"
     },
@@ -1049,11 +1029,9 @@ export default {
       "masked": "Can you ____ these books upstairs?",
       "options": [
         "take-mcq-04",
-        "take-mcq-03",
-        "take-mcq-05",
-        "take-mcq-02",
-        "take-mcq-06",
-        "take-mcq-01"
+        "take-mcq-16",
+        "take-mcq-39",
+        "take-mcq-12"
       ],
       "explanation": "本句的「take」指「把某物由目前位置帶到另一地方」。",
       "sentenceIndex": 5,
@@ -1062,12 +1040,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-04": "本句指「把某物由目前位置帶到另一地方」。",
-        "take-mcq-03": "「用手拿起、取得或帶走某物」是「take — pick up」的用法，與本句語境不同。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。",
-        "take-mcq-02": "「未經確認便想當然地認為某事必然如此」是「take for granted — assumption」的用法，與本句語境不同。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。",
-        "take-mcq-01": "「因習以為常或認為會一直存在，而沒有充分珍惜、感激或重視」是「take for granted — appreciation」的用法，與本句語境不同。"
+        "take-mcq-04": "本句的「take」指「把某物由目前位置帶到另一地方」。",
+        "take-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-04"
     },
@@ -1079,11 +1055,9 @@ export default {
       "masked": "She ____ the fruit into the kitchen.",
       "options": [
         "take-mcq-04",
-        "take-mcq-03",
-        "take-mcq-05",
-        "take-mcq-02",
-        "take-mcq-06",
-        "take-mcq-01"
+        "take-mcq-09",
+        "take-mcq-15",
+        "take-mcq-29"
       ],
       "explanation": "本句的「took」指「把某物由目前位置帶到另一地方」。",
       "sentenceIndex": 6,
@@ -1092,12 +1066,10 @@ export default {
         "took"
       ],
       "optionReasons": {
-        "take-mcq-04": "本句指「把某物由目前位置帶到另一地方」。",
-        "take-mcq-03": "「用手拿起、取得或帶走某物」是「take — pick up」的用法，與本句語境不同。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。",
-        "take-mcq-02": "「未經確認便想當然地認為某事必然如此」是「take for granted — assumption」的用法，與本句語境不同。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。",
-        "take-mcq-01": "「因習以為常或認為會一直存在，而沒有充分珍惜、感激或重視」是「take for granted — appreciation」的用法，與本句語境不同。"
+        "take-mcq-04": "本句的「took」指「把某物由目前位置帶到另一地方」。",
+        "take-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-04"
     },
@@ -1109,11 +1081,9 @@ export default {
       "masked": "I’ll ____ you home.",
       "options": [
         "take-mcq-05",
-        "take-mcq-04",
-        "take-mcq-06",
-        "take-mcq-03",
-        "take-mcq-07",
-        "take-mcq-02"
+        "take-mcq-33",
+        "take-mcq-30",
+        "take-mcq-07"
       ],
       "explanation": "本句的「take」指「陪同或運送某人去另一地方」。",
       "sentenceIndex": 7,
@@ -1122,12 +1092,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-05": "本句指「陪同或運送某人去另一地方」。",
-        "take-mcq-04": "「把某物由目前位置帶到另一地方」是「take something somewhere」的用法，與本句語境不同。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。",
-        "take-mcq-03": "「用手拿起、取得或帶走某物」是「take — pick up」的用法，與本句語境不同。",
-        "take-mcq-07": "「某件事需要某段時間完成」是「take time」的用法，與本句語境不同。",
-        "take-mcq-02": "「未經確認便想當然地認為某事必然如此」是「take for granted — assumption」的用法，與本句語境不同。"
+        "take-mcq-05": "本句的「take」指「陪同或運送某人去另一地方」。",
+        "take-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-05"
     },
@@ -1139,11 +1107,9 @@ export default {
       "masked": "She ____ her grandmother to the hospital.",
       "options": [
         "take-mcq-05",
-        "take-mcq-04",
-        "take-mcq-06",
-        "take-mcq-03",
-        "take-mcq-07",
-        "take-mcq-02"
+        "take-mcq-34",
+        "take-mcq-18",
+        "take-mcq-10"
       ],
       "explanation": "本句的「took」指「陪同或運送某人去另一地方」。",
       "sentenceIndex": 8,
@@ -1152,12 +1118,10 @@ export default {
         "took"
       ],
       "optionReasons": {
-        "take-mcq-05": "本句指「陪同或運送某人去另一地方」。",
-        "take-mcq-04": "「把某物由目前位置帶到另一地方」是「take something somewhere」的用法，與本句語境不同。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。",
-        "take-mcq-03": "「用手拿起、取得或帶走某物」是「take — pick up」的用法，與本句語境不同。",
-        "take-mcq-07": "「某件事需要某段時間完成」是「take time」的用法，與本句語境不同。",
-        "take-mcq-02": "「未經確認便想當然地認為某事必然如此」是「take for granted — assumption」的用法，與本句語境不同。"
+        "take-mcq-05": "本句的「took」指「陪同或運送某人去另一地方」。",
+        "take-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-05"
     },
@@ -1169,11 +1133,9 @@ export default {
       "masked": "I usually ____ the bus to work.",
       "options": [
         "take-mcq-06",
-        "take-mcq-05",
-        "take-mcq-07",
-        "take-mcq-04",
-        "take-mcq-08",
-        "take-mcq-03"
+        "take-mcq-21",
+        "take-mcq-30",
+        "take-mcq-14"
       ],
       "explanation": "本句的「take」指「乘搭某種交通工具」。",
       "sentenceIndex": 9,
@@ -1182,12 +1144,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-06": "本句指「乘搭某種交通工具」。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。",
-        "take-mcq-07": "「某件事需要某段時間完成」是「take time」的用法，與本句語境不同。",
-        "take-mcq-04": "「把某物由目前位置帶到另一地方」是「take something somewhere」的用法，與本句語境不同。",
-        "take-mcq-08": "「接受、收下或採納某物」是「take — accept」的用法，與本句語境不同。",
-        "take-mcq-03": "「用手拿起、取得或帶走某物」是「take — pick up」的用法，與本句語境不同。"
+        "take-mcq-06": "本句的「take」指「乘搭某種交通工具」。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-06"
     },
@@ -1199,11 +1159,9 @@ export default {
       "masked": "We ____ a taxi home.",
       "options": [
         "take-mcq-06",
-        "take-mcq-05",
-        "take-mcq-07",
-        "take-mcq-04",
-        "take-mcq-08",
-        "take-mcq-03"
+        "take-mcq-14",
+        "take-mcq-23",
+        "take-mcq-19"
       ],
       "explanation": "本句的「took」指「乘搭某種交通工具」。",
       "sentenceIndex": 10,
@@ -1212,12 +1170,10 @@ export default {
         "took"
       ],
       "optionReasons": {
-        "take-mcq-06": "本句指「乘搭某種交通工具」。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。",
-        "take-mcq-07": "「某件事需要某段時間完成」是「take time」的用法，與本句語境不同。",
-        "take-mcq-04": "「把某物由目前位置帶到另一地方」是「take something somewhere」的用法，與本句語境不同。",
-        "take-mcq-08": "「接受、收下或採納某物」是「take — accept」的用法，與本句語境不同。",
-        "take-mcq-03": "「用手拿起、取得或帶走某物」是「take — pick up」的用法，與本句語境不同。"
+        "take-mcq-06": "本句的「took」指「乘搭某種交通工具」。",
+        "take-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-06"
     },
@@ -1229,11 +1185,9 @@ export default {
       "masked": "The journey ____ two hours.",
       "options": [
         "take-mcq-07",
-        "take-mcq-06",
-        "take-mcq-08",
-        "take-mcq-05",
-        "take-mcq-09",
-        "take-mcq-04"
+        "take-mcq-39",
+        "take-mcq-04",
+        "take-mcq-13"
       ],
       "explanation": "本句的「takes」指「某件事需要某段時間完成」。",
       "sentenceIndex": 11,
@@ -1242,12 +1196,10 @@ export default {
         "takes"
       ],
       "optionReasons": {
-        "take-mcq-07": "本句指「某件事需要某段時間完成」。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。",
-        "take-mcq-08": "「接受、收下或採納某物」是「take — accept」的用法，與本句語境不同。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。",
-        "take-mcq-09": "「接受並通常採納別人的建議」是「take advice」的用法，與本句語境不同。",
-        "take-mcq-04": "「把某物由目前位置帶到另一地方」是「take something somewhere」的用法，與本句語境不同。"
+        "take-mcq-07": "本句的「takes」指「某件事需要某段時間完成」。",
+        "take-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-07"
     },
@@ -1259,11 +1211,9 @@ export default {
       "masked": "It ____ me a week to finish the report.",
       "options": [
         "take-mcq-07",
-        "take-mcq-06",
-        "take-mcq-08",
-        "take-mcq-05",
-        "take-mcq-09",
-        "take-mcq-04"
+        "take-mcq-39",
+        "take-mcq-37",
+        "take-mcq-13"
       ],
       "explanation": "本句的「took」指「某件事需要某段時間完成」。",
       "sentenceIndex": 12,
@@ -1272,12 +1222,10 @@ export default {
         "took"
       ],
       "optionReasons": {
-        "take-mcq-07": "本句指「某件事需要某段時間完成」。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。",
-        "take-mcq-08": "「接受、收下或採納某物」是「take — accept」的用法，與本句語境不同。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。",
-        "take-mcq-09": "「接受並通常採納別人的建議」是「take advice」的用法，與本句語境不同。",
-        "take-mcq-04": "「把某物由目前位置帶到另一地方」是「take something somewhere」的用法，與本句語境不同。"
+        "take-mcq-07": "本句的「took」指「某件事需要某段時間完成」。",
+        "take-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-07"
     },
@@ -1289,11 +1237,9 @@ export default {
       "masked": "Learning a language ____.",
       "options": [
         "take-mcq-07",
-        "take-mcq-06",
-        "take-mcq-08",
-        "take-mcq-05",
-        "take-mcq-09",
-        "take-mcq-04"
+        "take-mcq-19",
+        "take-mcq-16",
+        "take-mcq-25"
       ],
       "explanation": "本句的「takes time」指「某件事需要某段時間完成」。",
       "sentenceIndex": 13,
@@ -1302,12 +1248,10 @@ export default {
         "takes time"
       ],
       "optionReasons": {
-        "take-mcq-07": "本句指「某件事需要某段時間完成」。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。",
-        "take-mcq-08": "「接受、收下或採納某物」是「take — accept」的用法，與本句語境不同。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。",
-        "take-mcq-09": "「接受並通常採納別人的建議」是「take advice」的用法，與本句語境不同。",
-        "take-mcq-04": "「把某物由目前位置帶到另一地方」是「take something somewhere」的用法，與本句語境不同。"
+        "take-mcq-07": "本句的「takes time」指「某件事需要某段時間完成」。",
+        "take-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-07"
     },
@@ -1319,11 +1263,9 @@ export default {
       "masked": "____ your time.",
       "options": [
         "take-mcq-07",
-        "take-mcq-06",
-        "take-mcq-08",
-        "take-mcq-05",
-        "take-mcq-09",
-        "take-mcq-04"
+        "take-mcq-25",
+        "take-mcq-39",
+        "take-mcq-16"
       ],
       "explanation": "本句的「Take」指「某件事需要某段時間完成」。",
       "sentenceIndex": 14,
@@ -1332,12 +1274,10 @@ export default {
         "Take"
       ],
       "optionReasons": {
-        "take-mcq-07": "本句指「某件事需要某段時間完成」。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。",
-        "take-mcq-08": "「接受、收下或採納某物」是「take — accept」的用法，與本句語境不同。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。",
-        "take-mcq-09": "「接受並通常採納別人的建議」是「take advice」的用法，與本句語境不同。",
-        "take-mcq-04": "「把某物由目前位置帶到另一地方」是「take something somewhere」的用法，與本句語境不同。"
+        "take-mcq-07": "本句的「Take」指「某件事需要某段時間完成」。",
+        "take-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-07"
     },
@@ -1349,11 +1289,9 @@ export default {
       "masked": "She refused to ____ the money.",
       "options": [
         "take-mcq-08",
-        "take-mcq-07",
-        "take-mcq-09",
-        "take-mcq-06",
-        "take-mcq-10",
-        "take-mcq-05"
+        "take-mcq-32",
+        "take-mcq-13",
+        "take-pdf-001"
       ],
       "explanation": "本句的「take」指「接受、收下或採納某物」。",
       "sentenceIndex": 15,
@@ -1362,12 +1300,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-08": "本句指「接受、收下或採納某物」。",
-        "take-mcq-07": "「某件事需要某段時間完成」是「take time」的用法，與本句語境不同。",
-        "take-mcq-09": "「接受並通常採納別人的建議」是「take advice」的用法，與本句語境不同。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。",
-        "take-mcq-10": "「開始採取實際行動處理事情」是「take action」的用法，與本句語境不同。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。"
+        "take-mcq-08": "本句的「take」指「接受、收下或採納某物」。",
+        "take-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "take-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-08"
     },
@@ -1379,11 +1315,9 @@ export default {
       "masked": "I’ll ____ your advice.",
       "options": [
         "take-mcq-08",
-        "take-mcq-07",
-        "take-mcq-09",
-        "take-mcq-06",
-        "take-mcq-10",
-        "take-mcq-05"
+        "take-mcq-30",
+        "take-mcq-05",
+        "take-mcq-19"
       ],
       "explanation": "本句的「take」指「接受、收下或採納某物」。",
       "sentenceIndex": 16,
@@ -1392,12 +1326,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-08": "本句指「接受、收下或採納某物」。",
-        "take-mcq-07": "「某件事需要某段時間完成」是「take time」的用法，與本句語境不同。",
-        "take-mcq-09": "「接受並通常採納別人的建議」是「take advice」的用法，與本句語境不同。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。",
-        "take-mcq-10": "「開始採取實際行動處理事情」是「take action」的用法，與本句語境不同。",
-        "take-mcq-05": "「陪同或運送某人去另一地方」是「take someone somewhere」的用法，與本句語境不同。"
+        "take-mcq-08": "本句的「take」指「接受、收下或採納某物」。",
+        "take-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-08"
     },
@@ -1409,11 +1341,9 @@ export default {
       "masked": "He should ____ his doctor’s advice.",
       "options": [
         "take-mcq-09",
-        "take-mcq-08",
-        "take-mcq-10",
-        "take-mcq-07",
-        "take-mcq-11",
-        "take-mcq-06"
+        "take-mcq-12",
+        "take-mcq-32",
+        "take-mcq-04"
       ],
       "explanation": "本句的「take」指「接受並通常採納別人的建議」。",
       "sentenceIndex": 17,
@@ -1422,12 +1352,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-09": "本句指「接受並通常採納別人的建議」。",
-        "take-mcq-08": "「接受、收下或採納某物」是「take — accept」的用法，與本句語境不同。",
-        "take-mcq-10": "「開始採取實際行動處理事情」是「take action」的用法，與本句語境不同。",
-        "take-mcq-07": "「某件事需要某段時間完成」是「take time」的用法，與本句語境不同。",
-        "take-mcq-11": "「承認並接受自己的責任／義務」是「take responsibility」的用法，與本句語境不同。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。"
+        "take-mcq-09": "本句的「take」指「接受並通常採納別人的建議」。",
+        "take-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-09"
     },
@@ -1439,11 +1367,9 @@ export default {
       "masked": "She rarely ____ from others.",
       "options": [
         "take-mcq-09",
-        "take-mcq-08",
-        "take-mcq-10",
-        "take-mcq-07",
-        "take-mcq-11",
-        "take-mcq-06"
+        "take-mcq-12",
+        "take-mcq-39",
+        "take-mcq-04"
       ],
       "explanation": "本句的「takes advice」指「接受並通常採納別人的建議」。",
       "sentenceIndex": 18,
@@ -1452,12 +1378,10 @@ export default {
         "takes advice"
       ],
       "optionReasons": {
-        "take-mcq-09": "本句指「接受並通常採納別人的建議」。",
-        "take-mcq-08": "「接受、收下或採納某物」是「take — accept」的用法，與本句語境不同。",
-        "take-mcq-10": "「開始採取實際行動處理事情」是「take action」的用法，與本句語境不同。",
-        "take-mcq-07": "「某件事需要某段時間完成」是「take time」的用法，與本句語境不同。",
-        "take-mcq-11": "「承認並接受自己的責任／義務」是「take responsibility」的用法，與本句語境不同。",
-        "take-mcq-06": "「乘搭某種交通工具」是「take transport」的用法，與本句語境不同。"
+        "take-mcq-09": "本句的「takes advice」指「接受並通常採納別人的建議」。",
+        "take-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-09"
     },
@@ -1469,11 +1393,9 @@ export default {
       "masked": "The company needs to ____.",
       "options": [
         "take-mcq-10",
-        "take-mcq-09",
-        "take-mcq-11",
-        "take-mcq-08",
-        "take-mcq-12",
-        "take-mcq-07"
+        "take-mcq-20",
+        "take-mcq-19",
+        "take-mcq-35"
       ],
       "explanation": "本句的「take action」指「開始採取實際行動處理事情」。",
       "sentenceIndex": 19,
@@ -1482,12 +1404,10 @@ export default {
         "take action"
       ],
       "optionReasons": {
-        "take-mcq-10": "本句指「開始採取實際行動處理事情」。",
-        "take-mcq-09": "「接受並通常採納別人的建議」是「take advice」的用法，與本句語境不同。",
-        "take-mcq-11": "「承認並接受自己的責任／義務」是「take responsibility」的用法，與本句語境不同。",
-        "take-mcq-08": "「接受、收下或採納某物」是「take — accept」的用法，與本句語境不同。",
-        "take-mcq-12": "「參與某項活動、事件或討論」是「take part」的用法，與本句語境不同。",
-        "take-mcq-07": "「某件事需要某段時間完成」是「take time」的用法，與本句語境不同。"
+        "take-mcq-10": "本句的「take action」指「開始採取實際行動處理事情」。",
+        "take-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-10"
     },
@@ -1499,11 +1419,9 @@ export default {
       "masked": "We must ____ before the problem gets worse.",
       "options": [
         "take-mcq-10",
-        "take-mcq-09",
-        "take-mcq-11",
-        "take-mcq-08",
-        "take-mcq-12",
-        "take-mcq-07"
+        "take-mcq-15",
+        "take-mcq-20",
+        "take-mcq-35"
       ],
       "explanation": "本句的「take action」指「開始採取實際行動處理事情」。",
       "sentenceIndex": 20,
@@ -1512,12 +1430,10 @@ export default {
         "take action"
       ],
       "optionReasons": {
-        "take-mcq-10": "本句指「開始採取實際行動處理事情」。",
-        "take-mcq-09": "「接受並通常採納別人的建議」是「take advice」的用法，與本句語境不同。",
-        "take-mcq-11": "「承認並接受自己的責任／義務」是「take responsibility」的用法，與本句語境不同。",
-        "take-mcq-08": "「接受、收下或採納某物」是「take — accept」的用法，與本句語境不同。",
-        "take-mcq-12": "「參與某項活動、事件或討論」是「take part」的用法，與本句語境不同。",
-        "take-mcq-07": "「某件事需要某段時間完成」是「take time」的用法，與本句語境不同。"
+        "take-mcq-10": "本句的「take action」指「開始採取實際行動處理事情」。",
+        "take-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-10"
     },
@@ -1529,11 +1445,9 @@ export default {
       "masked": "She ____ for the mistake.",
       "options": [
         "take-mcq-11",
-        "take-mcq-10",
-        "take-mcq-12",
-        "take-mcq-09",
-        "take-mcq-13",
-        "take-mcq-08"
+        "take-mcq-19",
+        "take-mcq-06",
+        "take-mcq-16"
       ],
       "explanation": "本句的「took responsibility」指「承認並接受自己的責任／義務」。",
       "sentenceIndex": 21,
@@ -1542,12 +1456,10 @@ export default {
         "took responsibility"
       ],
       "optionReasons": {
-        "take-mcq-11": "本句指「承認並接受自己的責任／義務」。",
-        "take-mcq-10": "「開始採取實際行動處理事情」是「take action」的用法，與本句語境不同。",
-        "take-mcq-12": "「參與某項活動、事件或討論」是「take part」的用法，與本句語境不同。",
-        "take-mcq-09": "「接受並通常採納別人的建議」是「take advice」的用法，與本句語境不同。",
-        "take-mcq-13": "「發生；舉行」是「take place」的用法，與本句語境不同。",
-        "take-mcq-08": "「接受、收下或採納某物」是「take — accept」的用法，與本句語境不同。"
+        "take-mcq-11": "本句的「took responsibility」指「承認並接受自己的責任／義務」。",
+        "take-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-11"
     },
@@ -1559,11 +1471,9 @@ export default {
       "masked": "Leaders should ____ for their decisions.",
       "options": [
         "take-mcq-11",
-        "take-mcq-10",
-        "take-mcq-12",
-        "take-mcq-09",
-        "take-mcq-13",
-        "take-mcq-08"
+        "take-mcq-17",
+        "take-mcq-36",
+        "take-mcq-21"
       ],
       "explanation": "本句的「take responsibility」指「承認並接受自己的責任／義務」。",
       "sentenceIndex": 22,
@@ -1572,12 +1482,10 @@ export default {
         "take responsibility"
       ],
       "optionReasons": {
-        "take-mcq-11": "本句指「承認並接受自己的責任／義務」。",
-        "take-mcq-10": "「開始採取實際行動處理事情」是「take action」的用法，與本句語境不同。",
-        "take-mcq-12": "「參與某項活動、事件或討論」是「take part」的用法，與本句語境不同。",
-        "take-mcq-09": "「接受並通常採納別人的建議」是「take advice」的用法，與本句語境不同。",
-        "take-mcq-13": "「發生；舉行」是「take place」的用法，與本句語境不同。",
-        "take-mcq-08": "「接受、收下或採納某物」是「take — accept」的用法，與本句語境不同。"
+        "take-mcq-11": "本句的「take responsibility」指「承認並接受自己的責任／義務」。",
+        "take-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-11"
     },
@@ -1589,11 +1497,9 @@ export default {
       "masked": "She ____ in the discussion.",
       "options": [
         "take-mcq-12",
+        "take-mcq-20",
         "take-mcq-11",
-        "take-mcq-13",
-        "take-mcq-10",
-        "take-mcq-14",
-        "take-mcq-09"
+        "take-mcq-06"
       ],
       "explanation": "本句的「took part」指「參與某項活動、事件或討論」。",
       "sentenceIndex": 23,
@@ -1602,12 +1508,10 @@ export default {
         "took part"
       ],
       "optionReasons": {
-        "take-mcq-12": "本句指「參與某項活動、事件或討論」。",
-        "take-mcq-11": "「承認並接受自己的責任／義務」是「take responsibility」的用法，與本句語境不同。",
-        "take-mcq-13": "「發生；舉行」是「take place」的用法，與本句語境不同。",
-        "take-mcq-10": "「開始採取實際行動處理事情」是「take action」的用法，與本句語境不同。",
-        "take-mcq-14": "「暫停活動並休息」是「take a break/rest」的用法，與本句語境不同。",
-        "take-mcq-09": "「接受並通常採納別人的建議」是「take advice」的用法，與本句語境不同。"
+        "take-mcq-12": "本句的「took part」指「參與某項活動、事件或討論」。",
+        "take-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-12"
     },
@@ -1619,11 +1523,9 @@ export default {
       "masked": "Many students ____ in the event.",
       "options": [
         "take-mcq-12",
-        "take-mcq-11",
-        "take-mcq-13",
-        "take-mcq-10",
-        "take-mcq-14",
-        "take-mcq-09"
+        "take-mcq-30",
+        "take-mcq-05",
+        "take-mcq-39"
       ],
       "explanation": "本句的「took part」指「參與某項活動、事件或討論」。",
       "sentenceIndex": 24,
@@ -1632,12 +1534,10 @@ export default {
         "took part"
       ],
       "optionReasons": {
-        "take-mcq-12": "本句指「參與某項活動、事件或討論」。",
-        "take-mcq-11": "「承認並接受自己的責任／義務」是「take responsibility」的用法，與本句語境不同。",
-        "take-mcq-13": "「發生；舉行」是「take place」的用法，與本句語境不同。",
-        "take-mcq-10": "「開始採取實際行動處理事情」是「take action」的用法，與本句語境不同。",
-        "take-mcq-14": "「暫停活動並休息」是「take a break/rest」的用法，與本句語境不同。",
-        "take-mcq-09": "「接受並通常採納別人的建議」是「take advice」的用法，與本句語境不同。"
+        "take-mcq-12": "本句的「took part」指「參與某項活動、事件或討論」。",
+        "take-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-12"
     },
@@ -1649,11 +1549,9 @@ export default {
       "masked": "The meeting will ____ on Friday.",
       "options": [
         "take-mcq-13",
-        "take-mcq-12",
-        "take-mcq-14",
-        "take-mcq-11",
-        "take-mcq-15",
-        "take-mcq-10"
+        "take-mcq-28",
+        "take-mcq-09",
+        "take-mcq-12"
       ],
       "explanation": "本句的「take place」指「發生；舉行」。",
       "sentenceIndex": 25,
@@ -1662,12 +1560,10 @@ export default {
         "take place"
       ],
       "optionReasons": {
-        "take-mcq-13": "本句指「發生；舉行」。",
-        "take-mcq-12": "「參與某項活動、事件或討論」是「take part」的用法，與本句語境不同。",
-        "take-mcq-14": "「暫停活動並休息」是「take a break/rest」的用法，與本句語境不同。",
-        "take-mcq-11": "「承認並接受自己的責任／義務」是「take responsibility」的用法，與本句語境不同。",
-        "take-mcq-15": "「坐下」是「take a seat」的用法，與本句語境不同。",
-        "take-mcq-10": "「開始採取實際行動處理事情」是「take action」的用法，與本句語境不同。"
+        "take-mcq-13": "本句的「take place」指「發生；舉行」。",
+        "take-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-13"
     },
@@ -1679,11 +1575,9 @@ export default {
       "masked": "The accident ____ at night.",
       "options": [
         "take-mcq-13",
-        "take-mcq-12",
-        "take-mcq-14",
-        "take-mcq-11",
-        "take-mcq-15",
-        "take-mcq-10"
+        "take-mcq-17",
+        "take-mcq-35",
+        "take-mcq-18"
       ],
       "explanation": "本句的「took place」指「發生；舉行」。",
       "sentenceIndex": 26,
@@ -1692,12 +1586,10 @@ export default {
         "took place"
       ],
       "optionReasons": {
-        "take-mcq-13": "本句指「發生；舉行」。",
-        "take-mcq-12": "「參與某項活動、事件或討論」是「take part」的用法，與本句語境不同。",
-        "take-mcq-14": "「暫停活動並休息」是「take a break/rest」的用法，與本句語境不同。",
-        "take-mcq-11": "「承認並接受自己的責任／義務」是「take responsibility」的用法，與本句語境不同。",
-        "take-mcq-15": "「坐下」是「take a seat」的用法，與本句語境不同。",
-        "take-mcq-10": "「開始採取實際行動處理事情」是「take action」的用法，與本句語境不同。"
+        "take-mcq-13": "本句的「took place」指「發生；舉行」。",
+        "take-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-13"
     },
@@ -1709,11 +1601,9 @@ export default {
       "masked": "Let’s ____.",
       "options": [
         "take-mcq-14",
-        "take-mcq-13",
-        "take-mcq-15",
-        "take-mcq-12",
-        "take-mcq-16",
-        "take-mcq-11"
+        "take-mcq-01",
+        "take-mcq-21",
+        "take-mcq-32"
       ],
       "explanation": "本句的「take a break」指「暫停活動並休息」。",
       "sentenceIndex": 27,
@@ -1722,12 +1612,10 @@ export default {
         "take a break"
       ],
       "optionReasons": {
-        "take-mcq-14": "本句指「暫停活動並休息」。",
-        "take-mcq-13": "「發生；舉行」是「take place」的用法，與本句語境不同。",
-        "take-mcq-15": "「坐下」是「take a seat」的用法，與本句語境不同。",
-        "take-mcq-12": "「參與某項活動、事件或討論」是「take part」的用法，與本句語境不同。",
-        "take-mcq-16": "「看一下／查看」是「take a look」的用法，與本句語境不同。",
-        "take-mcq-11": "「承認並接受自己的責任／義務」是「take responsibility」的用法，與本句語境不同。"
+        "take-mcq-14": "本句的「take a break」指「暫停活動並休息」。",
+        "take-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-14"
     },
@@ -1739,11 +1627,9 @@ export default {
       "masked": "She ____ after lunch.",
       "options": [
         "take-mcq-14",
-        "take-mcq-13",
-        "take-mcq-15",
-        "take-mcq-12",
-        "take-mcq-16",
-        "take-mcq-11"
+        "take-mcq-21",
+        "take-mcq-36",
+        "take-mcq-34"
       ],
       "explanation": "本句的「took a short rest」指「暫停活動並休息」。",
       "sentenceIndex": 28,
@@ -1752,12 +1638,10 @@ export default {
         "took a short rest"
       ],
       "optionReasons": {
-        "take-mcq-14": "本句指「暫停活動並休息」。",
-        "take-mcq-13": "「發生；舉行」是「take place」的用法，與本句語境不同。",
-        "take-mcq-15": "「坐下」是「take a seat」的用法，與本句語境不同。",
-        "take-mcq-12": "「參與某項活動、事件或討論」是「take part」的用法，與本句語境不同。",
-        "take-mcq-16": "「看一下／查看」是「take a look」的用法，與本句語境不同。",
-        "take-mcq-11": "「承認並接受自己的責任／義務」是「take responsibility」的用法，與本句語境不同。"
+        "take-mcq-14": "本句的「took a short rest」指「暫停活動並休息」。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-14"
     },
@@ -1769,11 +1653,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "take-mcq-15",
-        "take-mcq-14",
-        "take-mcq-16",
+        "take-mcq-06",
         "take-mcq-13",
-        "take-mcq-17",
-        "take-mcq-12"
+        "take-mcq-31"
       ],
       "explanation": "本句的「take a seat」指「坐下」。",
       "sentenceIndex": 29,
@@ -1782,12 +1664,10 @@ export default {
         "take a seat"
       ],
       "optionReasons": {
-        "take-mcq-15": "本句指「坐下」。",
-        "take-mcq-14": "「暫停活動並休息」是「take a break/rest」的用法，與本句語境不同。",
-        "take-mcq-16": "「看一下／查看」是「take a look」的用法，與本句語境不同。",
-        "take-mcq-13": "「發生；舉行」是「take place」的用法，與本句語境不同。",
-        "take-mcq-17": "「把重要資訊寫下作記錄」是「take notes」的用法，與本句語境不同。",
-        "take-mcq-12": "「參與某項活動、事件或討論」是「take part」的用法，與本句語境不同。"
+        "take-mcq-15": "本句的「take a seat」指「坐下」。",
+        "take-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-15"
     },
@@ -1799,11 +1679,9 @@ export default {
       "masked": "She ____ near the window.",
       "options": [
         "take-mcq-15",
-        "take-mcq-14",
-        "take-mcq-16",
-        "take-mcq-13",
-        "take-mcq-17",
-        "take-mcq-12"
+        "take-mcq-01",
+        "take-mcq-05",
+        "take-mcq-13"
       ],
       "explanation": "本句的「took a seat」指「坐下」。",
       "sentenceIndex": 30,
@@ -1812,12 +1690,10 @@ export default {
         "took a seat"
       ],
       "optionReasons": {
-        "take-mcq-15": "本句指「坐下」。",
-        "take-mcq-14": "「暫停活動並休息」是「take a break/rest」的用法，與本句語境不同。",
-        "take-mcq-16": "「看一下／查看」是「take a look」的用法，與本句語境不同。",
-        "take-mcq-13": "「發生；舉行」是「take place」的用法，與本句語境不同。",
-        "take-mcq-17": "「把重要資訊寫下作記錄」是「take notes」的用法，與本句語境不同。",
-        "take-mcq-12": "「參與某項活動、事件或討論」是「take part」的用法，與本句語境不同。"
+        "take-mcq-15": "本句的「took a seat」指「坐下」。",
+        "take-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-15"
     },
@@ -1829,11 +1705,9 @@ export default {
       "masked": "Can you ____ at this?",
       "options": [
         "take-mcq-16",
-        "take-mcq-15",
-        "take-mcq-17",
-        "take-mcq-14",
-        "take-mcq-18",
-        "take-mcq-13"
+        "take-mcq-31",
+        "take-mcq-01",
+        "take-mcq-21"
       ],
       "explanation": "本句的「take a look」指「看一下／查看」。",
       "sentenceIndex": 31,
@@ -1842,12 +1716,10 @@ export default {
         "take a look"
       ],
       "optionReasons": {
-        "take-mcq-16": "本句指「看一下／查看」。",
-        "take-mcq-15": "「坐下」是「take a seat」的用法，與本句語境不同。",
-        "take-mcq-17": "「把重要資訊寫下作記錄」是「take notes」的用法，與本句語境不同。",
-        "take-mcq-14": "「暫停活動並休息」是「take a break/rest」的用法，與本句語境不同。",
-        "take-mcq-18": "「拍攝照片」是「take a photo」的用法，與本句語境不同。",
-        "take-mcq-13": "「發生；舉行」是「take place」的用法，與本句語境不同。"
+        "take-mcq-16": "本句的「take a look」指「看一下／查看」。",
+        "take-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-16"
     },
@@ -1859,11 +1731,9 @@ export default {
       "masked": "She ____ at the letter.",
       "options": [
         "take-mcq-16",
+        "take-mcq-38",
         "take-mcq-15",
-        "take-mcq-17",
-        "take-mcq-14",
-        "take-mcq-18",
-        "take-mcq-13"
+        "take-mcq-36"
       ],
       "explanation": "本句的「took a quick look」指「看一下／查看」。",
       "sentenceIndex": 32,
@@ -1872,12 +1742,10 @@ export default {
         "took a quick look"
       ],
       "optionReasons": {
-        "take-mcq-16": "本句指「看一下／查看」。",
-        "take-mcq-15": "「坐下」是「take a seat」的用法，與本句語境不同。",
-        "take-mcq-17": "「把重要資訊寫下作記錄」是「take notes」的用法，與本句語境不同。",
-        "take-mcq-14": "「暫停活動並休息」是「take a break/rest」的用法，與本句語境不同。",
-        "take-mcq-18": "「拍攝照片」是「take a photo」的用法，與本句語境不同。",
-        "take-mcq-13": "「發生；舉行」是「take place」的用法，與本句語境不同。"
+        "take-mcq-16": "本句的「took a quick look」指「看一下／查看」。",
+        "take-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-16"
     },
@@ -1889,11 +1757,9 @@ export default {
       "masked": "Students should ____ during the lecture.",
       "options": [
         "take-mcq-17",
-        "take-mcq-16",
-        "take-mcq-18",
-        "take-mcq-15",
+        "take-mcq-08",
         "take-mcq-19",
-        "take-mcq-14"
+        "take-mcq-22"
       ],
       "explanation": "本句的「take notes」指「把重要資訊寫下作記錄」。",
       "sentenceIndex": 33,
@@ -1902,12 +1768,10 @@ export default {
         "take notes"
       ],
       "optionReasons": {
-        "take-mcq-17": "本句指「把重要資訊寫下作記錄」。",
-        "take-mcq-16": "「看一下／查看」是「take a look」的用法，與本句語境不同。",
-        "take-mcq-18": "「拍攝照片」是「take a photo」的用法，與本句語境不同。",
-        "take-mcq-15": "「坐下」是「take a seat」的用法，與本句語境不同。",
-        "take-mcq-19": "「服用藥物」是「take medicine」的用法，與本句語境不同。",
-        "take-mcq-14": "「暫停活動並休息」是「take a break/rest」的用法，與本句語境不同。"
+        "take-mcq-17": "本句的「take notes」指「把重要資訊寫下作記錄」。",
+        "take-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-17"
     },
@@ -1919,11 +1783,9 @@ export default {
       "masked": "I ____ while she was speaking.",
       "options": [
         "take-mcq-17",
-        "take-mcq-16",
-        "take-mcq-18",
+        "take-mcq-12",
         "take-mcq-15",
-        "take-mcq-19",
-        "take-mcq-14"
+        "take-mcq-08"
       ],
       "explanation": "本句的「took notes」指「把重要資訊寫下作記錄」。",
       "sentenceIndex": 34,
@@ -1932,12 +1794,10 @@ export default {
         "took notes"
       ],
       "optionReasons": {
-        "take-mcq-17": "本句指「把重要資訊寫下作記錄」。",
-        "take-mcq-16": "「看一下／查看」是「take a look」的用法，與本句語境不同。",
-        "take-mcq-18": "「拍攝照片」是「take a photo」的用法，與本句語境不同。",
-        "take-mcq-15": "「坐下」是「take a seat」的用法，與本句語境不同。",
-        "take-mcq-19": "「服用藥物」是「take medicine」的用法，與本句語境不同。",
-        "take-mcq-14": "「暫停活動並休息」是「take a break/rest」的用法，與本句語境不同。"
+        "take-mcq-17": "本句的「took notes」指「把重要資訊寫下作記錄」。",
+        "take-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-17"
     },
@@ -1949,11 +1809,9 @@ export default {
       "masked": "Can you ____ of us?",
       "options": [
         "take-mcq-18",
-        "take-mcq-17",
-        "take-mcq-19",
-        "take-mcq-16",
-        "take-mcq-20",
-        "take-mcq-15"
+        "take-mcq-35",
+        "take-mcq-26",
+        "take-mcq-19"
       ],
       "explanation": "本句的「take a photo」指「拍攝照片」。",
       "sentenceIndex": 35,
@@ -1962,12 +1820,10 @@ export default {
         "take a photo"
       ],
       "optionReasons": {
-        "take-mcq-18": "本句指「拍攝照片」。",
-        "take-mcq-17": "「把重要資訊寫下作記錄」是「take notes」的用法，與本句語境不同。",
-        "take-mcq-19": "「服用藥物」是「take medicine」的用法，與本句語境不同。",
-        "take-mcq-16": "「看一下／查看」是「take a look」的用法，與本句語境不同。",
-        "take-mcq-20": "「進食／飲用；較正式或醫療用法」是「take food/drink」的用法，與本句語境不同。",
-        "take-mcq-15": "「坐下」是「take a seat」的用法，與本句語境不同。"
+        "take-mcq-18": "本句的「take a photo」指「拍攝照片」。",
+        "take-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-18"
     },
@@ -1979,11 +1835,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "take-mcq-18",
-        "take-mcq-17",
-        "take-mcq-19",
-        "take-mcq-16",
-        "take-mcq-20",
-        "take-mcq-15"
+        "take-mcq-12",
+        "take-mcq-07",
+        "take-mcq-03"
       ],
       "explanation": "本句的「took several pictures」指「拍攝照片」。",
       "sentenceIndex": 36,
@@ -1992,12 +1846,10 @@ export default {
         "took several pictures"
       ],
       "optionReasons": {
-        "take-mcq-18": "本句指「拍攝照片」。",
-        "take-mcq-17": "「把重要資訊寫下作記錄」是「take notes」的用法，與本句語境不同。",
-        "take-mcq-19": "「服用藥物」是「take medicine」的用法，與本句語境不同。",
-        "take-mcq-16": "「看一下／查看」是「take a look」的用法，與本句語境不同。",
-        "take-mcq-20": "「進食／飲用；較正式或醫療用法」是「take food/drink」的用法，與本句語境不同。",
-        "take-mcq-15": "「坐下」是「take a seat」的用法，與本句語境不同。"
+        "take-mcq-18": "本句的「took several pictures」指「拍攝照片」。",
+        "take-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-18"
     },
@@ -2009,11 +1861,9 @@ export default {
       "masked": "You should ____ this medicine twice a day.",
       "options": [
         "take-mcq-19",
-        "take-mcq-18",
-        "take-mcq-20",
-        "take-mcq-17",
-        "take-mcq-21",
-        "take-mcq-16"
+        "take-mcq-24",
+        "take-mcq-14",
+        "take-mcq-26"
       ],
       "explanation": "本句的「take」指「服用藥物」。",
       "sentenceIndex": 37,
@@ -2022,12 +1872,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-19": "本句指「服用藥物」。",
-        "take-mcq-18": "「拍攝照片」是「take a photo」的用法，與本句語境不同。",
-        "take-mcq-20": "「進食／飲用；較正式或醫療用法」是「take food/drink」的用法，與本句語境不同。",
-        "take-mcq-17": "「把重要資訊寫下作記錄」是「take notes」的用法，與本句語境不同。",
-        "take-mcq-21": "「從多個選項中選擇某一個」是「take — choose」的用法，與本句語境不同。",
-        "take-mcq-16": "「看一下／查看」是「take a look」的用法，與本句語境不同。"
+        "take-mcq-19": "本句的「take」指「服用藥物」。",
+        "take-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-19"
     },
@@ -2039,11 +1887,9 @@ export default {
       "masked": "She forgot to ____ her tablets.",
       "options": [
         "take-mcq-19",
-        "take-mcq-18",
-        "take-mcq-20",
-        "take-mcq-17",
-        "take-mcq-21",
-        "take-mcq-16"
+        "take-mcq-25",
+        "take-mcq-38",
+        "take-mcq-24"
       ],
       "explanation": "本句的「take」指「服用藥物」。",
       "sentenceIndex": 38,
@@ -2052,12 +1898,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-19": "本句指「服用藥物」。",
-        "take-mcq-18": "「拍攝照片」是「take a photo」的用法，與本句語境不同。",
-        "take-mcq-20": "「進食／飲用；較正式或醫療用法」是「take food/drink」的用法，與本句語境不同。",
-        "take-mcq-17": "「把重要資訊寫下作記錄」是「take notes」的用法，與本句語境不同。",
-        "take-mcq-21": "「從多個選項中選擇某一個」是「take — choose」的用法，與本句語境不同。",
-        "take-mcq-16": "「看一下／查看」是「take a look」的用法，與本句語境不同。"
+        "take-mcq-19": "本句的「take」指「服用藥物」。",
+        "take-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-19"
     },
@@ -2069,11 +1913,9 @@ export default {
       "masked": "The patient can ____ liquids.",
       "options": [
         "take-mcq-20",
-        "take-mcq-19",
-        "take-mcq-21",
         "take-mcq-18",
-        "take-mcq-22",
-        "take-mcq-17"
+        "take-mcq-38",
+        "take-mcq-23"
       ],
       "explanation": "本句的「take」指「進食／飲用；較正式或醫療用法」。",
       "sentenceIndex": 39,
@@ -2082,12 +1924,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-20": "本句指「進食／飲用；較正式或醫療用法」。",
-        "take-mcq-19": "「服用藥物」是「take medicine」的用法，與本句語境不同。",
-        "take-mcq-21": "「從多個選項中選擇某一個」是「take — choose」的用法，與本句語境不同。",
-        "take-mcq-18": "「拍攝照片」是「take a photo」的用法，與本句語境不同。",
-        "take-mcq-22": "「選擇並沿某條路線前進」是「take a route」的用法，與本句語境不同。",
-        "take-mcq-17": "「把重要資訊寫下作記錄」是「take notes」的用法，與本句語境不同。"
+        "take-mcq-20": "本句的「take」指「進食／飲用；較正式或醫療用法」。",
+        "take-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-20"
     },
@@ -2099,11 +1939,9 @@ export default {
       "masked": "He was unable to ____ solid food.",
       "options": [
         "take-mcq-20",
-        "take-mcq-19",
+        "take-mcq-23",
         "take-mcq-21",
-        "take-mcq-18",
-        "take-mcq-22",
-        "take-mcq-17"
+        "take-mcq-34"
       ],
       "explanation": "本句的「take」指「進食／飲用；較正式或醫療用法」。",
       "sentenceIndex": 40,
@@ -2112,12 +1950,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-20": "本句指「進食／飲用；較正式或醫療用法」。",
-        "take-mcq-19": "「服用藥物」是「take medicine」的用法，與本句語境不同。",
-        "take-mcq-21": "「從多個選項中選擇某一個」是「take — choose」的用法，與本句語境不同。",
-        "take-mcq-18": "「拍攝照片」是「take a photo」的用法，與本句語境不同。",
-        "take-mcq-22": "「選擇並沿某條路線前進」是「take a route」的用法，與本句語境不同。",
-        "take-mcq-17": "「把重要資訊寫下作記錄」是「take notes」的用法，與本句語境不同。"
+        "take-mcq-20": "本句的「take」指「進食／飲用；較正式或醫療用法」。",
+        "take-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-20"
     },
@@ -2129,11 +1965,9 @@ export default {
       "masked": "I’ll ____ the blue one.",
       "options": [
         "take-mcq-21",
-        "take-mcq-20",
-        "take-mcq-22",
-        "take-mcq-19",
-        "take-mcq-23",
-        "take-mcq-18"
+        "take-mcq-01",
+        "take-mcq-31",
+        "take-mcq-32"
       ],
       "explanation": "本句的「take」指「從多個選項中選擇某一個」。",
       "sentenceIndex": 41,
@@ -2142,12 +1976,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-21": "本句指「從多個選項中選擇某一個」。",
-        "take-mcq-20": "「進食／飲用；較正式或醫療用法」是「take food/drink」的用法，與本句語境不同。",
-        "take-mcq-22": "「選擇並沿某條路線前進」是「take a route」的用法，與本句語境不同。",
-        "take-mcq-19": "「服用藥物」是「take medicine」的用法，與本句語境不同。",
-        "take-mcq-23": "「把某事解讀／理解為某種意思」是「take something as X」的用法，與本句語境不同。",
-        "take-mcq-18": "「拍攝照片」是「take a photo」的用法，與本句語境不同。"
+        "take-mcq-21": "本句的「take」指「從多個選項中選擇某一個」。",
+        "take-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-21"
     },
@@ -2159,11 +1991,9 @@ export default {
       "masked": "Which route shall we ____?",
       "options": [
         "take-mcq-21",
-        "take-mcq-20",
-        "take-mcq-22",
-        "take-mcq-19",
-        "take-mcq-23",
-        "take-mcq-18"
+        "take-mcq-28",
+        "take-pdf-001",
+        "take-mcq-23"
       ],
       "explanation": "本句的「take」指「從多個選項中選擇某一個」。",
       "sentenceIndex": 42,
@@ -2172,12 +2002,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-21": "本句指「從多個選項中選擇某一個」。",
-        "take-mcq-20": "「進食／飲用；較正式或醫療用法」是「take food/drink」的用法，與本句語境不同。",
-        "take-mcq-22": "「選擇並沿某條路線前進」是「take a route」的用法，與本句語境不同。",
-        "take-mcq-19": "「服用藥物」是「take medicine」的用法，與本句語境不同。",
-        "take-mcq-23": "「把某事解讀／理解為某種意思」是「take something as X」的用法，與本句語境不同。",
-        "take-mcq-18": "「拍攝照片」是「take a photo」的用法，與本句語境不同。"
+        "take-mcq-21": "本句的「take」指「從多個選項中選擇某一個」。",
+        "take-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "take-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-21"
     },
@@ -2189,11 +2017,9 @@ export default {
       "masked": "We ____ the shorter route.",
       "options": [
         "take-mcq-22",
-        "take-mcq-21",
-        "take-mcq-23",
-        "take-mcq-20",
-        "take-mcq-24",
-        "take-mcq-19"
+        "take-mcq-12",
+        "take-mcq-36",
+        "take-mcq-35"
       ],
       "explanation": "本句的「took」指「選擇並沿某條路線前進」。",
       "sentenceIndex": 43,
@@ -2202,12 +2028,10 @@ export default {
         "took"
       ],
       "optionReasons": {
-        "take-mcq-22": "本句指「選擇並沿某條路線前進」。",
-        "take-mcq-21": "「從多個選項中選擇某一個」是「take — choose」的用法，與本句語境不同。",
-        "take-mcq-23": "「把某事解讀／理解為某種意思」是「take something as X」的用法，與本句語境不同。",
-        "take-mcq-20": "「進食／飲用；較正式或醫療用法」是「take food/drink」的用法，與本句語境不同。",
-        "take-mcq-24": "「認為某事重要並以認真態度處理」是「take seriously」的用法，與本句語境不同。",
-        "take-mcq-19": "「服用藥物」是「take medicine」的用法，與本句語境不同。"
+        "take-mcq-22": "本句的「took」指「選擇並沿某條路線前進」。",
+        "take-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-22"
     },
@@ -2219,11 +2043,9 @@ export default {
       "masked": "____ the second road on the left.",
       "options": [
         "take-mcq-22",
-        "take-mcq-21",
-        "take-mcq-23",
-        "take-mcq-20",
-        "take-mcq-24",
-        "take-mcq-19"
+        "take-mcq-38",
+        "take-mcq-26",
+        "take-mcq-15"
       ],
       "explanation": "本句的「Take」指「選擇並沿某條路線前進」。",
       "sentenceIndex": 44,
@@ -2232,12 +2054,10 @@ export default {
         "Take"
       ],
       "optionReasons": {
-        "take-mcq-22": "本句指「選擇並沿某條路線前進」。",
-        "take-mcq-21": "「從多個選項中選擇某一個」是「take — choose」的用法，與本句語境不同。",
-        "take-mcq-23": "「把某事解讀／理解為某種意思」是「take something as X」的用法，與本句語境不同。",
-        "take-mcq-20": "「進食／飲用；較正式或醫療用法」是「take food/drink」的用法，與本句語境不同。",
-        "take-mcq-24": "「認為某事重要並以認真態度處理」是「take seriously」的用法，與本句語境不同。",
-        "take-mcq-19": "「服用藥物」是「take medicine」的用法，與本句語境不同。"
+        "take-mcq-22": "本句的「Take」指「選擇並沿某條路線前進」。",
+        "take-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-22"
     },
@@ -2249,11 +2069,9 @@ export default {
       "masked": "How did you ____ his comment?",
       "options": [
         "take-mcq-23",
-        "take-mcq-22",
-        "take-mcq-24",
-        "take-mcq-21",
-        "take-mcq-25",
-        "take-mcq-20"
+        "take-mcq-26",
+        "take-mcq-31",
+        "take-mcq-39"
       ],
       "explanation": "本句的「take」指「把某事解讀／理解為某種意思」。",
       "sentenceIndex": 45,
@@ -2262,12 +2080,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-23": "本句指「把某事解讀／理解為某種意思」。",
-        "take-mcq-22": "「選擇並沿某條路線前進」是「take a route」的用法，與本句語境不同。",
-        "take-mcq-24": "「認為某事重要並以認真態度處理」是「take seriously」的用法，與本句語境不同。",
-        "take-mcq-21": "「從多個選項中選擇某一個」是「take — choose」的用法，與本句語境不同。",
-        "take-mcq-25": "「因某句話／行為感到受冒犯」是「take offence」的用法，與本句語境不同。",
-        "take-mcq-20": "「進食／飲用；較正式或醫療用法」是「take food/drink」的用法，與本句語境不同。"
+        "take-mcq-23": "本句的「take」指「把某事解讀／理解為某種意思」。",
+        "take-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-23"
     },
@@ -2279,11 +2095,9 @@ export default {
       "masked": "I ____ her silence as agreement.",
       "options": [
         "take-mcq-23",
-        "take-mcq-22",
-        "take-mcq-24",
-        "take-mcq-21",
-        "take-mcq-25",
-        "take-mcq-20"
+        "take-mcq-04",
+        "take-mcq-18",
+        "take-mcq-09"
       ],
       "explanation": "本句的「took」指「把某事解讀／理解為某種意思」。",
       "sentenceIndex": 46,
@@ -2292,12 +2106,10 @@ export default {
         "took"
       ],
       "optionReasons": {
-        "take-mcq-23": "本句指「把某事解讀／理解為某種意思」。",
-        "take-mcq-22": "「選擇並沿某條路線前進」是「take a route」的用法，與本句語境不同。",
-        "take-mcq-24": "「認為某事重要並以認真態度處理」是「take seriously」的用法，與本句語境不同。",
-        "take-mcq-21": "「從多個選項中選擇某一個」是「take — choose」的用法，與本句語境不同。",
-        "take-mcq-25": "「因某句話／行為感到受冒犯」是「take offence」的用法，與本句語境不同。",
-        "take-mcq-20": "「進食／飲用；較正式或醫療用法」是「take food/drink」的用法，與本句語境不同。"
+        "take-mcq-23": "本句的「took」指「把某事解讀／理解為某種意思」。",
+        "take-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-23"
     },
@@ -2309,11 +2121,9 @@ export default {
       "masked": "You should ____ this problem seriously.",
       "options": [
         "take-mcq-24",
-        "take-mcq-23",
-        "take-mcq-25",
-        "take-mcq-22",
-        "take-mcq-26",
-        "take-mcq-21"
+        "take-mcq-12",
+        "take-mcq-34",
+        "take-mcq-15"
       ],
       "explanation": "本句的「take」指「認為某事重要並以認真態度處理」。",
       "sentenceIndex": 47,
@@ -2322,12 +2132,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-24": "本句指「認為某事重要並以認真態度處理」。",
-        "take-mcq-23": "「把某事解讀／理解為某種意思」是「take something as X」的用法，與本句語境不同。",
-        "take-mcq-25": "「因某句話／行為感到受冒犯」是「take offence」的用法，與本句語境不同。",
-        "take-mcq-22": "「選擇並沿某條路線前進」是「take a route」的用法，與本句語境不同。",
-        "take-mcq-26": "「對某人／某事產生或保持興趣」是「take an interest in」的用法，與本句語境不同。",
-        "take-mcq-21": "「從多個選項中選擇某一個」是「take — choose」的用法，與本句語境不同。"
+        "take-mcq-24": "本句的「take」指「認為某事重要並以認真態度處理」。",
+        "take-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-24"
     },
@@ -2339,11 +2147,9 @@ export default {
       "masked": "She ____ her work very seriously.",
       "options": [
         "take-mcq-24",
-        "take-mcq-23",
         "take-mcq-25",
-        "take-mcq-22",
-        "take-mcq-26",
-        "take-mcq-21"
+        "take-mcq-32",
+        "take-mcq-38"
       ],
       "explanation": "本句的「takes」指「認為某事重要並以認真態度處理」。",
       "sentenceIndex": 48,
@@ -2352,12 +2158,10 @@ export default {
         "takes"
       ],
       "optionReasons": {
-        "take-mcq-24": "本句指「認為某事重要並以認真態度處理」。",
-        "take-mcq-23": "「把某事解讀／理解為某種意思」是「take something as X」的用法，與本句語境不同。",
-        "take-mcq-25": "「因某句話／行為感到受冒犯」是「take offence」的用法，與本句語境不同。",
-        "take-mcq-22": "「選擇並沿某條路線前進」是「take a route」的用法，與本句語境不同。",
-        "take-mcq-26": "「對某人／某事產生或保持興趣」是「take an interest in」的用法，與本句語境不同。",
-        "take-mcq-21": "「從多個選項中選擇某一個」是「take — choose」的用法，與本句語境不同。"
+        "take-mcq-24": "本句的「takes」指「認為某事重要並以認真態度處理」。",
+        "take-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-24"
     },
@@ -2369,10 +2173,8 @@ export default {
       "masked": "I hope you don’t ____.",
       "options": [
         "take-mcq-25",
-        "take-mcq-24",
-        "take-mcq-26",
-        "take-mcq-23",
-        "take-mcq-27",
+        "take-mcq-36",
+        "take-mcq-39",
         "take-mcq-22"
       ],
       "explanation": "本句的「take offence」指「因某句話／行為感到受冒犯」。",
@@ -2382,12 +2184,10 @@ export default {
         "take offence"
       ],
       "optionReasons": {
-        "take-mcq-25": "本句指「因某句話／行為感到受冒犯」。",
-        "take-mcq-24": "「認為某事重要並以認真態度處理」是「take seriously」的用法，與本句語境不同。",
-        "take-mcq-26": "「對某人／某事產生或保持興趣」是「take an interest in」的用法，與本句語境不同。",
-        "take-mcq-23": "「把某事解讀／理解為某種意思」是「take something as X」的用法，與本句語境不同。",
-        "take-mcq-27": "「開始掌握某事／局面的控制權」是「take control」的用法，與本句語境不同。",
-        "take-mcq-22": "「選擇並沿某條路線前進」是「take a route」的用法，與本句語境不同。"
+        "take-mcq-25": "本句的「take offence」指「因某句話／行為感到受冒犯」。",
+        "take-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-25"
     },
@@ -2399,11 +2199,9 @@ export default {
       "masked": "She ____ at his remark.",
       "options": [
         "take-mcq-25",
-        "take-mcq-24",
-        "take-mcq-26",
-        "take-mcq-23",
-        "take-mcq-27",
-        "take-mcq-22"
+        "take-mcq-04",
+        "take-mcq-20",
+        "take-mcq-24"
       ],
       "explanation": "本句的「took offence」指「因某句話／行為感到受冒犯」。",
       "sentenceIndex": 50,
@@ -2412,12 +2210,10 @@ export default {
         "took offence"
       ],
       "optionReasons": {
-        "take-mcq-25": "本句指「因某句話／行為感到受冒犯」。",
-        "take-mcq-24": "「認為某事重要並以認真態度處理」是「take seriously」的用法，與本句語境不同。",
-        "take-mcq-26": "「對某人／某事產生或保持興趣」是「take an interest in」的用法，與本句語境不同。",
-        "take-mcq-23": "「把某事解讀／理解為某種意思」是「take something as X」的用法，與本句語境不同。",
-        "take-mcq-27": "「開始掌握某事／局面的控制權」是「take control」的用法，與本句語境不同。",
-        "take-mcq-22": "「選擇並沿某條路線前進」是「take a route」的用法，與本句語境不同。"
+        "take-mcq-25": "本句的「took offence」指「因某句話／行為感到受冒犯」。",
+        "take-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-25"
     },
@@ -2429,11 +2225,9 @@ export default {
       "masked": "She ____ local history.",
       "options": [
         "take-mcq-26",
-        "take-mcq-25",
-        "take-mcq-27",
-        "take-mcq-24",
-        "take-mcq-28",
-        "take-mcq-23"
+        "take-mcq-33",
+        "take-mcq-16",
+        "take-mcq-37"
       ],
       "explanation": "本句的「takes a strong interest in」指「對某人／某事產生或保持興趣」。",
       "sentenceIndex": 51,
@@ -2442,12 +2236,10 @@ export default {
         "takes a strong interest in"
       ],
       "optionReasons": {
-        "take-mcq-26": "本句指「對某人／某事產生或保持興趣」。",
-        "take-mcq-25": "「因某句話／行為感到受冒犯」是「take offence」的用法，與本句語境不同。",
-        "take-mcq-27": "「開始掌握某事／局面的控制權」是「take control」的用法，與本句語境不同。",
-        "take-mcq-24": "「認為某事重要並以認真態度處理」是「take seriously」的用法，與本句語境不同。",
-        "take-mcq-28": "「開始負責並主導某事」是「take charge」的用法，與本句語境不同。",
-        "take-mcq-23": "「把某事解讀／理解為某種意思」是「take something as X」的用法，與本句語境不同。"
+        "take-mcq-26": "本句的「takes a strong interest in」指「對某人／某事產生或保持興趣」。",
+        "take-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-26"
     },
@@ -2459,11 +2251,9 @@ export default {
       "masked": "He began to ____ photography.",
       "options": [
         "take-mcq-26",
-        "take-mcq-25",
-        "take-mcq-27",
-        "take-mcq-24",
-        "take-mcq-28",
-        "take-mcq-23"
+        "take-mcq-11",
+        "take-mcq-14",
+        "take-mcq-21"
       ],
       "explanation": "本句的「take an interest in」指「對某人／某事產生或保持興趣」。",
       "sentenceIndex": 52,
@@ -2472,12 +2262,10 @@ export default {
         "take an interest in"
       ],
       "optionReasons": {
-        "take-mcq-26": "本句指「對某人／某事產生或保持興趣」。",
-        "take-mcq-25": "「因某句話／行為感到受冒犯」是「take offence」的用法，與本句語境不同。",
-        "take-mcq-27": "「開始掌握某事／局面的控制權」是「take control」的用法，與本句語境不同。",
-        "take-mcq-24": "「認為某事重要並以認真態度處理」是「take seriously」的用法，與本句語境不同。",
-        "take-mcq-28": "「開始負責並主導某事」是「take charge」的用法，與本句語境不同。",
-        "take-mcq-23": "「把某事解讀／理解為某種意思」是「take something as X」的用法，與本句語境不同。"
+        "take-mcq-26": "本句的「take an interest in」指「對某人／某事產生或保持興趣」。",
+        "take-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-26"
     },
@@ -2489,11 +2277,9 @@ export default {
       "masked": "____ on your way home.",
       "options": [
         "take-pdf-001",
-        "take-mcq-26",
-        "take-mcq-28",
-        "take-mcq-25",
-        "take-mcq-29",
-        "take-mcq-24"
+        "take-mcq-08",
+        "take-mcq-04",
+        "take-mcq-15"
       ],
       "explanation": "本句的「Take care」指「小心／保重；take care of 則常指照顧或處理」。",
       "sentenceIndex": 53,
@@ -2502,12 +2288,10 @@ export default {
         "Take care"
       ],
       "optionReasons": {
-        "take-pdf-001": "本句指「小心／保重；take care of 則常指照顧或處理」。",
-        "take-mcq-26": "「對某人／某事產生或保持興趣」是「take an interest in」的用法，與本句語境不同。",
-        "take-mcq-28": "「開始負責並主導某事」是「take charge」的用法，與本句語境不同。",
-        "take-mcq-25": "「因某句話／行為感到受冒犯」是「take offence」的用法，與本句語境不同。",
-        "take-mcq-29": "「開始正式生效或產生實際作用」是「take effect」的用法，與本句語境不同。",
-        "take-mcq-24": "「認為某事重要並以認真態度處理」是「take seriously」的用法，與本句語境不同。"
+        "take-pdf-001": "本句的「Take care」指「小心／保重；take care of 則常指照顧或處理」。",
+        "take-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-pdf-001"
     },
@@ -2519,11 +2303,9 @@ export default {
       "masked": "She ____ of her grandmother.",
       "options": [
         "take-pdf-001",
-        "take-mcq-26",
-        "take-mcq-28",
-        "take-mcq-25",
-        "take-mcq-29",
-        "take-mcq-24"
+        "take-mcq-13",
+        "take-mcq-15",
+        "take-mcq-37"
       ],
       "explanation": "本句的「takes care」指「小心／保重；take care of 則常指照顧或處理」。",
       "sentenceIndex": 54,
@@ -2532,12 +2314,10 @@ export default {
         "takes care"
       ],
       "optionReasons": {
-        "take-pdf-001": "本句指「小心／保重；take care of 則常指照顧或處理」。",
-        "take-mcq-26": "「對某人／某事產生或保持興趣」是「take an interest in」的用法，與本句語境不同。",
-        "take-mcq-28": "「開始負責並主導某事」是「take charge」的用法，與本句語境不同。",
-        "take-mcq-25": "「因某句話／行為感到受冒犯」是「take offence」的用法，與本句語境不同。",
-        "take-mcq-29": "「開始正式生效或產生實際作用」是「take effect」的用法，與本句語境不同。",
-        "take-mcq-24": "「認為某事重要並以認真態度處理」是「take seriously」的用法，與本句語境不同。"
+        "take-pdf-001": "本句的「takes care」指「小心／保重；take care of 則常指照顧或處理」。",
+        "take-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-pdf-001"
     },
@@ -2549,11 +2329,9 @@ export default {
       "masked": "She ____ of the situation.",
       "options": [
         "take-mcq-27",
-        "take-mcq-26",
-        "take-mcq-28",
-        "take-mcq-25",
-        "take-mcq-29",
-        "take-mcq-24"
+        "take-mcq-17",
+        "take-mcq-16",
+        "take-mcq-20"
       ],
       "explanation": "本句的「took control」指「開始掌握某事／局面的控制權」。",
       "sentenceIndex": 55,
@@ -2562,12 +2340,10 @@ export default {
         "took control"
       ],
       "optionReasons": {
-        "take-mcq-27": "本句指「開始掌握某事／局面的控制權」。",
-        "take-mcq-26": "「對某人／某事產生或保持興趣」是「take an interest in」的用法，與本句語境不同。",
-        "take-mcq-28": "「開始負責並主導某事」是「take charge」的用法，與本句語境不同。",
-        "take-mcq-25": "「因某句話／行為感到受冒犯」是「take offence」的用法，與本句語境不同。",
-        "take-mcq-29": "「開始正式生效或產生實際作用」是「take effect」的用法，與本句語境不同。",
-        "take-mcq-24": "「認為某事重要並以認真態度處理」是「take seriously」的用法，與本句語境不同。"
+        "take-mcq-27": "本句的「took control」指「開始掌握某事／局面的控制權」。",
+        "take-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-27"
     },
@@ -2579,11 +2355,9 @@ export default {
       "masked": "The new manager quickly ____.",
       "options": [
         "take-mcq-27",
-        "take-mcq-26",
-        "take-mcq-28",
         "take-mcq-25",
-        "take-mcq-29",
-        "take-mcq-24"
+        "take-mcq-22",
+        "take-mcq-06"
       ],
       "explanation": "本句的「took control」指「開始掌握某事／局面的控制權」。",
       "sentenceIndex": 56,
@@ -2592,12 +2366,10 @@ export default {
         "took control"
       ],
       "optionReasons": {
-        "take-mcq-27": "本句指「開始掌握某事／局面的控制權」。",
-        "take-mcq-26": "「對某人／某事產生或保持興趣」是「take an interest in」的用法，與本句語境不同。",
-        "take-mcq-28": "「開始負責並主導某事」是「take charge」的用法，與本句語境不同。",
-        "take-mcq-25": "「因某句話／行為感到受冒犯」是「take offence」的用法，與本句語境不同。",
-        "take-mcq-29": "「開始正式生效或產生實際作用」是「take effect」的用法，與本句語境不同。",
-        "take-mcq-24": "「認為某事重要並以認真態度處理」是「take seriously」的用法，與本句語境不同。"
+        "take-mcq-27": "本句的「took control」指「開始掌握某事／局面的控制權」。",
+        "take-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-27"
     },
@@ -2609,11 +2381,9 @@ export default {
       "masked": "She ____ of the project.",
       "options": [
         "take-mcq-28",
-        "take-mcq-27",
-        "take-mcq-29",
-        "take-mcq-26",
-        "take-mcq-30",
-        "take-mcq-25"
+        "take-mcq-17",
+        "take-mcq-20",
+        "take-mcq-36"
       ],
       "explanation": "本句的「took charge」指「開始負責並主導某事」。",
       "sentenceIndex": 57,
@@ -2622,12 +2392,10 @@ export default {
         "took charge"
       ],
       "optionReasons": {
-        "take-mcq-28": "本句指「開始負責並主導某事」。",
-        "take-mcq-27": "「開始掌握某事／局面的控制權」是「take control」的用法，與本句語境不同。",
-        "take-mcq-29": "「開始正式生效或產生實際作用」是「take effect」的用法，與本句語境不同。",
-        "take-mcq-26": "「對某人／某事產生或保持興趣」是「take an interest in」的用法，與本句語境不同。",
-        "take-mcq-30": "「逐漸形成清晰結構或樣貌」是「take shape」的用法，與本句語境不同。",
-        "take-mcq-25": "「因某句話／行為感到受冒犯」是「take offence」的用法，與本句語境不同。"
+        "take-mcq-28": "本句的「took charge」指「開始負責並主導某事」。",
+        "take-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-28"
     },
@@ -2639,11 +2407,9 @@ export default {
       "masked": "Someone needs to ____.",
       "options": [
         "take-mcq-28",
-        "take-mcq-27",
-        "take-mcq-29",
-        "take-mcq-26",
-        "take-mcq-30",
-        "take-mcq-25"
+        "take-mcq-12",
+        "take-mcq-17",
+        "take-mcq-04"
       ],
       "explanation": "本句的「take charge」指「開始負責並主導某事」。",
       "sentenceIndex": 58,
@@ -2652,12 +2418,10 @@ export default {
         "take charge"
       ],
       "optionReasons": {
-        "take-mcq-28": "本句指「開始負責並主導某事」。",
-        "take-mcq-27": "「開始掌握某事／局面的控制權」是「take control」的用法，與本句語境不同。",
-        "take-mcq-29": "「開始正式生效或產生實際作用」是「take effect」的用法，與本句語境不同。",
-        "take-mcq-26": "「對某人／某事產生或保持興趣」是「take an interest in」的用法，與本句語境不同。",
-        "take-mcq-30": "「逐漸形成清晰結構或樣貌」是「take shape」的用法，與本句語境不同。",
-        "take-mcq-25": "「因某句話／行為感到受冒犯」是「take offence」的用法，與本句語境不同。"
+        "take-mcq-28": "本句的「take charge」指「開始負責並主導某事」。",
+        "take-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-28"
     },
@@ -2669,11 +2433,9 @@ export default {
       "masked": "The new rule ____ next month.",
       "options": [
         "take-mcq-29",
-        "take-mcq-28",
-        "take-mcq-30",
-        "take-mcq-27",
-        "take-mcq-31",
-        "take-mcq-26"
+        "take-mcq-18",
+        "take-mcq-12",
+        "take-mcq-17"
       ],
       "explanation": "本句的「takes effect」指「開始正式生效或產生實際作用」。",
       "sentenceIndex": 59,
@@ -2682,12 +2444,10 @@ export default {
         "takes effect"
       ],
       "optionReasons": {
-        "take-mcq-29": "本句指「開始正式生效或產生實際作用」。",
-        "take-mcq-28": "「開始負責並主導某事」是「take charge」的用法，與本句語境不同。",
-        "take-mcq-30": "「逐漸形成清晰結構或樣貌」是「take shape」的用法，與本句語境不同。",
-        "take-mcq-27": "「開始掌握某事／局面的控制權」是「take control」的用法，與本句語境不同。",
-        "take-mcq-31": "「接受不確定結果而冒險行動」是「take a chance/risk」的用法，與本句語境不同。",
-        "take-mcq-26": "「對某人／某事產生或保持興趣」是「take an interest in」的用法，與本句語境不同。"
+        "take-mcq-29": "本句的「takes effect」指「開始正式生效或產生實際作用」。",
+        "take-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-29"
     },
@@ -2699,11 +2459,9 @@ export default {
       "masked": "The medicine began to ____.",
       "options": [
         "take-mcq-29",
-        "take-mcq-28",
-        "take-mcq-30",
-        "take-mcq-27",
-        "take-mcq-31",
-        "take-mcq-26"
+        "take-mcq-05",
+        "take-mcq-03",
+        "take-mcq-06"
       ],
       "explanation": "本句的「take effect」指「開始正式生效或產生實際作用」。",
       "sentenceIndex": 60,
@@ -2712,12 +2470,10 @@ export default {
         "take effect"
       ],
       "optionReasons": {
-        "take-mcq-29": "本句指「開始正式生效或產生實際作用」。",
-        "take-mcq-28": "「開始負責並主導某事」是「take charge」的用法，與本句語境不同。",
-        "take-mcq-30": "「逐漸形成清晰結構或樣貌」是「take shape」的用法，與本句語境不同。",
-        "take-mcq-27": "「開始掌握某事／局面的控制權」是「take control」的用法，與本句語境不同。",
-        "take-mcq-31": "「接受不確定結果而冒險行動」是「take a chance/risk」的用法，與本句語境不同。",
-        "take-mcq-26": "「對某人／某事產生或保持興趣」是「take an interest in」的用法，與本句語境不同。"
+        "take-mcq-29": "本句的「take effect」指「開始正式生效或產生實際作用」。",
+        "take-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-29"
     },
@@ -2729,11 +2485,9 @@ export default {
       "masked": "The plan is beginning to ____.",
       "options": [
         "take-mcq-30",
-        "take-mcq-29",
-        "take-mcq-31",
-        "take-mcq-28",
-        "take-mcq-32",
-        "take-mcq-27"
+        "take-pdf-001",
+        "take-mcq-14",
+        "take-mcq-11"
       ],
       "explanation": "本句的「take shape」指「逐漸形成清晰結構或樣貌」。",
       "sentenceIndex": 61,
@@ -2742,12 +2496,10 @@ export default {
         "take shape"
       ],
       "optionReasons": {
-        "take-mcq-30": "本句指「逐漸形成清晰結構或樣貌」。",
-        "take-mcq-29": "「開始正式生效或產生實際作用」是「take effect」的用法，與本句語境不同。",
-        "take-mcq-31": "「接受不確定結果而冒險行動」是「take a chance/risk」的用法，與本句語境不同。",
-        "take-mcq-28": "「開始負責並主導某事」是「take charge」的用法，與本句語境不同。",
-        "take-mcq-32": "「參加考試／應考」是「take an exam」的用法，與本句語境不同。",
-        "take-mcq-27": "「開始掌握某事／局面的控制權」是「take control」的用法，與本句語境不同。"
+        "take-mcq-30": "本句的「take shape」指「逐漸形成清晰結構或樣貌」。",
+        "take-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-30"
     },
@@ -2759,11 +2511,9 @@ export default {
       "masked": "The new building slowly ____.",
       "options": [
         "take-mcq-30",
-        "take-mcq-29",
-        "take-mcq-31",
-        "take-mcq-28",
-        "take-mcq-32",
-        "take-mcq-27"
+        "take-mcq-17",
+        "take-mcq-16",
+        "take-mcq-36"
       ],
       "explanation": "本句的「took shape」指「逐漸形成清晰結構或樣貌」。",
       "sentenceIndex": 62,
@@ -2772,12 +2522,10 @@ export default {
         "took shape"
       ],
       "optionReasons": {
-        "take-mcq-30": "本句指「逐漸形成清晰結構或樣貌」。",
-        "take-mcq-29": "「開始正式生效或產生實際作用」是「take effect」的用法，與本句語境不同。",
-        "take-mcq-31": "「接受不確定結果而冒險行動」是「take a chance/risk」的用法，與本句語境不同。",
-        "take-mcq-28": "「開始負責並主導某事」是「take charge」的用法，與本句語境不同。",
-        "take-mcq-32": "「參加考試／應考」是「take an exam」的用法，與本句語境不同。",
-        "take-mcq-27": "「開始掌握某事／局面的控制權」是「take control」的用法，與本句語境不同。"
+        "take-mcq-30": "本句的「took shape」指「逐漸形成清晰結構或樣貌」。",
+        "take-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-30"
     },
@@ -2789,11 +2537,9 @@ export default {
       "masked": "Sometimes you have to ____.",
       "options": [
         "take-mcq-31",
-        "take-mcq-30",
-        "take-mcq-32",
         "take-mcq-29",
-        "take-mcq-33",
-        "take-mcq-28"
+        "take-mcq-21",
+        "take-mcq-16"
       ],
       "explanation": "本句的「take a chance」指「接受不確定結果而冒險行動」。",
       "sentenceIndex": 63,
@@ -2802,12 +2548,10 @@ export default {
         "take a chance"
       ],
       "optionReasons": {
-        "take-mcq-31": "本句指「接受不確定結果而冒險行動」。",
-        "take-mcq-30": "「逐漸形成清晰結構或樣貌」是「take shape」的用法，與本句語境不同。",
-        "take-mcq-32": "「參加考試／應考」是「take an exam」的用法，與本句語境不同。",
-        "take-mcq-29": "「開始正式生效或產生實際作用」是「take effect」的用法，與本句語境不同。",
-        "take-mcq-33": "「報讀並參與某個課程」是「take a course」的用法，與本句語境不同。",
-        "take-mcq-28": "「開始負責並主導某事」是「take charge」的用法，與本句語境不同。"
+        "take-mcq-31": "本句的「take a chance」指「接受不確定結果而冒險行動」。",
+        "take-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-31"
     },
@@ -2819,11 +2563,9 @@ export default {
       "masked": "They decided to ____.",
       "options": [
         "take-mcq-31",
-        "take-mcq-30",
-        "take-mcq-32",
-        "take-mcq-29",
-        "take-mcq-33",
-        "take-mcq-28"
+        "take-mcq-01",
+        "take-mcq-27",
+        "take-mcq-15"
       ],
       "explanation": "本句的「take the risk」指「接受不確定結果而冒險行動」。",
       "sentenceIndex": 64,
@@ -2832,12 +2574,10 @@ export default {
         "take the risk"
       ],
       "optionReasons": {
-        "take-mcq-31": "本句指「接受不確定結果而冒險行動」。",
-        "take-mcq-30": "「逐漸形成清晰結構或樣貌」是「take shape」的用法，與本句語境不同。",
-        "take-mcq-32": "「參加考試／應考」是「take an exam」的用法，與本句語境不同。",
-        "take-mcq-29": "「開始正式生效或產生實際作用」是「take effect」的用法，與本句語境不同。",
-        "take-mcq-33": "「報讀並參與某個課程」是「take a course」的用法，與本句語境不同。",
-        "take-mcq-28": "「開始負責並主導某事」是「take charge」的用法，與本句語境不同。"
+        "take-mcq-31": "本句的「take the risk」指「接受不確定結果而冒險行動」。",
+        "take-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-31"
     },
@@ -2849,11 +2589,9 @@ export default {
       "masked": "She will ____ next week.",
       "options": [
         "take-mcq-32",
-        "take-mcq-31",
-        "take-mcq-33",
-        "take-mcq-30",
-        "take-mcq-34",
-        "take-mcq-29"
+        "take-mcq-07",
+        "take-mcq-11",
+        "take-mcq-01"
       ],
       "explanation": "本句的「take the exam」指「參加考試／應考」。",
       "sentenceIndex": 65,
@@ -2862,12 +2600,10 @@ export default {
         "take the exam"
       ],
       "optionReasons": {
-        "take-mcq-32": "本句指「參加考試／應考」。",
-        "take-mcq-31": "「接受不確定結果而冒險行動」是「take a chance/risk」的用法，與本句語境不同。",
-        "take-mcq-33": "「報讀並參與某個課程」是「take a course」的用法，與本句語境不同。",
-        "take-mcq-30": "「逐漸形成清晰結構或樣貌」是「take shape」的用法，與本句語境不同。",
-        "take-mcq-34": "「承受／忍受壓力、痛苦或不舒服的事」是「take — tolerate」的用法，與本句語境不同。",
-        "take-mcq-29": "「開始正式生效或產生實際作用」是「take effect」的用法，與本句語境不同。"
+        "take-mcq-32": "本句的「take the exam」指「參加考試／應考」。",
+        "take-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-32"
     },
@@ -2879,11 +2615,9 @@ export default {
       "masked": "Students must ____ two tests.",
       "options": [
         "take-mcq-32",
-        "take-mcq-31",
-        "take-mcq-33",
-        "take-mcq-30",
-        "take-mcq-34",
-        "take-mcq-29"
+        "take-mcq-21",
+        "take-mcq-10",
+        "take-mcq-11"
       ],
       "explanation": "本句的「take」指「參加考試／應考」。",
       "sentenceIndex": 66,
@@ -2892,12 +2626,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-32": "本句指「參加考試／應考」。",
-        "take-mcq-31": "「接受不確定結果而冒險行動」是「take a chance/risk」的用法，與本句語境不同。",
-        "take-mcq-33": "「報讀並參與某個課程」是「take a course」的用法，與本句語境不同。",
-        "take-mcq-30": "「逐漸形成清晰結構或樣貌」是「take shape」的用法，與本句語境不同。",
-        "take-mcq-34": "「承受／忍受壓力、痛苦或不舒服的事」是「take — tolerate」的用法，與本句語境不同。",
-        "take-mcq-29": "「開始正式生效或產生實際作用」是「take effect」的用法，與本句語境不同。"
+        "take-mcq-32": "本句的「take」指「參加考試／應考」。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-32"
     },
@@ -2909,11 +2641,9 @@ export default {
       "masked": "I’m ____ an English course.",
       "options": [
         "take-mcq-33",
-        "take-mcq-32",
         "take-mcq-34",
-        "take-mcq-31",
         "take-mcq-35",
-        "take-mcq-30"
+        "take-mcq-01"
       ],
       "explanation": "本句的「taking」指「報讀並參與某個課程」。",
       "sentenceIndex": 67,
@@ -2922,12 +2652,10 @@ export default {
         "taking"
       ],
       "optionReasons": {
-        "take-mcq-33": "本句指「報讀並參與某個課程」。",
-        "take-mcq-32": "「參加考試／應考」是「take an exam」的用法，與本句語境不同。",
-        "take-mcq-34": "「承受／忍受壓力、痛苦或不舒服的事」是「take — tolerate」的用法，與本句語境不同。",
-        "take-mcq-31": "「接受不確定結果而冒險行動」是「take a chance/risk」的用法，與本句語境不同。",
-        "take-mcq-35": "「能接受批評／玩笑」是「take criticism/jokes」的用法，與本句語境不同。",
-        "take-mcq-30": "「逐漸形成清晰結構或樣貌」是「take shape」的用法，與本句語境不同。"
+        "take-mcq-33": "本句的「taking」指「報讀並參與某個課程」。",
+        "take-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-33"
     },
@@ -2939,11 +2667,9 @@ export default {
       "masked": "She ____ a cooking class.",
       "options": [
         "take-mcq-33",
-        "take-mcq-32",
+        "take-mcq-21",
         "take-mcq-34",
-        "take-mcq-31",
-        "take-mcq-35",
-        "take-mcq-30"
+        "take-mcq-06"
       ],
       "explanation": "本句的「took」指「報讀並參與某個課程」。",
       "sentenceIndex": 68,
@@ -2952,12 +2678,10 @@ export default {
         "took"
       ],
       "optionReasons": {
-        "take-mcq-33": "本句指「報讀並參與某個課程」。",
-        "take-mcq-32": "「參加考試／應考」是「take an exam」的用法，與本句語境不同。",
-        "take-mcq-34": "「承受／忍受壓力、痛苦或不舒服的事」是「take — tolerate」的用法，與本句語境不同。",
-        "take-mcq-31": "「接受不確定結果而冒險行動」是「take a chance/risk」的用法，與本句語境不同。",
-        "take-mcq-35": "「能接受批評／玩笑」是「take criticism/jokes」的用法，與本句語境不同。",
-        "take-mcq-30": "「逐漸形成清晰結構或樣貌」是「take shape」的用法，與本句語境不同。"
+        "take-mcq-33": "本句的「took」指「報讀並參與某個課程」。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-33"
     },
@@ -2969,11 +2693,9 @@ export default {
       "masked": "I can’t ____ the noise anymore.",
       "options": [
         "take-mcq-34",
-        "take-mcq-33",
-        "take-mcq-35",
-        "take-mcq-32",
-        "take-mcq-36",
-        "take-mcq-31"
+        "take-mcq-21",
+        "take-mcq-16",
+        "take-mcq-24"
       ],
       "explanation": "本句的「take」指「承受／忍受壓力、痛苦或不舒服的事」。",
       "sentenceIndex": 69,
@@ -2982,12 +2704,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-34": "本句指「承受／忍受壓力、痛苦或不舒服的事」。",
-        "take-mcq-33": "「報讀並參與某個課程」是「take a course」的用法，與本句語境不同。",
-        "take-mcq-35": "「能接受批評／玩笑」是「take criticism/jokes」的用法，與本句語境不同。",
-        "take-mcq-32": "「參加考試／應考」是「take an exam」的用法，與本句語境不同。",
-        "take-mcq-36": "「佔用或消耗時間、空間、精力等」是「take — use resources」的用法，與本句語境不同。",
-        "take-mcq-31": "「接受不確定結果而冒險行動」是「take a chance/risk」的用法，與本句語境不同。"
+        "take-mcq-34": "本句的「take」指「承受／忍受壓力、痛苦或不舒服的事」。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-34"
     },
@@ -3000,10 +2720,8 @@ export default {
       "options": [
         "take-mcq-34",
         "take-mcq-33",
-        "take-mcq-35",
-        "take-mcq-32",
-        "take-mcq-36",
-        "take-mcq-31"
+        "take-mcq-16",
+        "take-pdf-001"
       ],
       "explanation": "本句的「take」指「承受／忍受壓力、痛苦或不舒服的事」。",
       "sentenceIndex": 70,
@@ -3012,12 +2730,10 @@ export default {
         "take"
       ],
       "optionReasons": {
-        "take-mcq-34": "本句指「承受／忍受壓力、痛苦或不舒服的事」。",
-        "take-mcq-33": "「報讀並參與某個課程」是「take a course」的用法，與本句語境不同。",
-        "take-mcq-35": "「能接受批評／玩笑」是「take criticism/jokes」的用法，與本句語境不同。",
-        "take-mcq-32": "「參加考試／應考」是「take an exam」的用法，與本句語境不同。",
-        "take-mcq-36": "「佔用或消耗時間、空間、精力等」是「take — use resources」的用法，與本句語境不同。",
-        "take-mcq-31": "「接受不確定結果而冒險行動」是「take a chance/risk」的用法，與本句語境不同。"
+        "take-mcq-34": "本句的「take」指「承受／忍受壓力、痛苦或不舒服的事」。",
+        "take-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "take-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-34"
     },
@@ -3029,11 +2745,9 @@ export default {
       "masked": "He doesn’t ____ well.",
       "options": [
         "take-mcq-35",
-        "take-mcq-34",
-        "take-mcq-36",
-        "take-mcq-33",
-        "take-mcq-37",
-        "take-mcq-32"
+        "take-mcq-23",
+        "take-mcq-24",
+        "take-mcq-21"
       ],
       "explanation": "本句的「take criticism」指「能接受批評／玩笑」。",
       "sentenceIndex": 71,
@@ -3042,12 +2756,10 @@ export default {
         "take criticism"
       ],
       "optionReasons": {
-        "take-mcq-35": "本句指「能接受批評／玩笑」。",
-        "take-mcq-34": "「承受／忍受壓力、痛苦或不舒服的事」是「take — tolerate」的用法，與本句語境不同。",
-        "take-mcq-36": "「佔用或消耗時間、空間、精力等」是「take — use resources」的用法，與本句語境不同。",
-        "take-mcq-33": "「報讀並參與某個課程」是「take a course」的用法，與本句語境不同。",
-        "take-mcq-37": "「奪取、取得或控制位置／優勢」是「take — capture/seize」的用法，與本句語境不同。",
-        "take-mcq-32": "「參加考試／應考」是「take an exam」的用法，與本句語境不同。"
+        "take-mcq-35": "本句的「take criticism」指「能接受批評／玩笑」。",
+        "take-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-35"
     },
@@ -3059,11 +2771,9 @@ export default {
       "masked": "She can ____.",
       "options": [
         "take-mcq-35",
-        "take-mcq-34",
-        "take-mcq-36",
-        "take-mcq-33",
-        "take-mcq-37",
-        "take-mcq-32"
+        "take-mcq-17",
+        "take-mcq-14",
+        "take-mcq-04"
       ],
       "explanation": "本句的「take a joke」指「能接受批評／玩笑」。",
       "sentenceIndex": 72,
@@ -3072,12 +2782,10 @@ export default {
         "take a joke"
       ],
       "optionReasons": {
-        "take-mcq-35": "本句指「能接受批評／玩笑」。",
-        "take-mcq-34": "「承受／忍受壓力、痛苦或不舒服的事」是「take — tolerate」的用法，與本句語境不同。",
-        "take-mcq-36": "「佔用或消耗時間、空間、精力等」是「take — use resources」的用法，與本句語境不同。",
-        "take-mcq-33": "「報讀並參與某個課程」是「take a course」的用法，與本句語境不同。",
-        "take-mcq-37": "「奪取、取得或控制位置／優勢」是「take — capture/seize」的用法，與本句語境不同。",
-        "take-mcq-32": "「參加考試／應考」是「take an exam」的用法，與本句語境不同。"
+        "take-mcq-35": "本句的「take a joke」指「能接受批評／玩笑」。",
+        "take-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-35"
     },
@@ -3089,11 +2797,9 @@ export default {
       "masked": "The sofa ____ too much space.",
       "options": [
         "take-mcq-36",
-        "take-mcq-35",
-        "take-mcq-37",
-        "take-mcq-34",
-        "take-mcq-38",
-        "take-mcq-33"
+        "take-mcq-27",
+        "take-mcq-13",
+        "take-mcq-17"
       ],
       "explanation": "本句的「takes up」指「佔用或消耗時間、空間、精力等」。",
       "sentenceIndex": 73,
@@ -3102,12 +2808,10 @@ export default {
         "takes up"
       ],
       "optionReasons": {
-        "take-mcq-36": "本句指「佔用或消耗時間、空間、精力等」。",
-        "take-mcq-35": "「能接受批評／玩笑」是「take criticism/jokes」的用法，與本句語境不同。",
-        "take-mcq-37": "「奪取、取得或控制位置／優勢」是「take — capture/seize」的用法，與本句語境不同。",
-        "take-mcq-34": "「承受／忍受壓力、痛苦或不舒服的事」是「take — tolerate」的用法，與本句語境不同。",
-        "take-mcq-38": "「取得領先或開始帶頭主導」是「take the lead」的用法，與本句語境不同。",
-        "take-mcq-33": "「報讀並參與某個課程」是「take a course」的用法，與本句語境不同。"
+        "take-mcq-36": "本句的「takes up」指「佔用或消耗時間、空間、精力等」。",
+        "take-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-36"
     },
@@ -3119,11 +2823,9 @@ export default {
       "masked": "This job ____ a lot of energy.",
       "options": [
         "take-mcq-36",
-        "take-mcq-35",
-        "take-mcq-37",
-        "take-mcq-34",
         "take-mcq-38",
-        "take-mcq-33"
+        "take-mcq-13",
+        "take-mcq-15"
       ],
       "explanation": "本句的「takes」指「佔用或消耗時間、空間、精力等」。",
       "sentenceIndex": 74,
@@ -3132,12 +2834,10 @@ export default {
         "takes"
       ],
       "optionReasons": {
-        "take-mcq-36": "本句指「佔用或消耗時間、空間、精力等」。",
-        "take-mcq-35": "「能接受批評／玩笑」是「take criticism/jokes」的用法，與本句語境不同。",
-        "take-mcq-37": "「奪取、取得或控制位置／優勢」是「take — capture/seize」的用法，與本句語境不同。",
-        "take-mcq-34": "「承受／忍受壓力、痛苦或不舒服的事」是「take — tolerate」的用法，與本句語境不同。",
-        "take-mcq-38": "「取得領先或開始帶頭主導」是「take the lead」的用法，與本句語境不同。",
-        "take-mcq-33": "「報讀並參與某個課程」是「take a course」的用法，與本句語境不同。"
+        "take-mcq-36": "本句的「takes」指「佔用或消耗時間、空間、精力等」。",
+        "take-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-36"
     },
@@ -3149,11 +2849,9 @@ export default {
       "masked": "The army ____ the city.",
       "options": [
         "take-mcq-37",
-        "take-mcq-36",
-        "take-mcq-38",
-        "take-mcq-35",
-        "take-mcq-39",
-        "take-mcq-34"
+        "take-mcq-34",
+        "take-mcq-06",
+        "take-mcq-26"
       ],
       "explanation": "本句的「took」指「奪取、取得或控制位置／優勢」。",
       "sentenceIndex": 75,
@@ -3162,12 +2860,10 @@ export default {
         "took"
       ],
       "optionReasons": {
-        "take-mcq-37": "本句指「奪取、取得或控制位置／優勢」。",
-        "take-mcq-36": "「佔用或消耗時間、空間、精力等」是「take — use resources」的用法，與本句語境不同。",
-        "take-mcq-38": "「取得領先或開始帶頭主導」是「take the lead」的用法，與本句語境不同。",
-        "take-mcq-35": "「能接受批評／玩笑」是「take criticism/jokes」的用法，與本句語境不同。",
-        "take-mcq-39": "「拍攝、量度或記錄影像／數據」是「take — record」的用法，與本句語境不同。",
-        "take-mcq-34": "「承受／忍受壓力、痛苦或不舒服的事」是「take — tolerate」的用法，與本句語境不同。"
+        "take-mcq-37": "本句的「took」指「奪取、取得或控制位置／優勢」。",
+        "take-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-37"
     },
@@ -3179,11 +2875,9 @@ export default {
       "masked": "The team ____ the lead.",
       "options": [
         "take-mcq-37",
-        "take-mcq-36",
-        "take-mcq-38",
-        "take-mcq-35",
         "take-mcq-39",
-        "take-mcq-34"
+        "take-mcq-33",
+        "take-mcq-21"
       ],
       "explanation": "本句的「took」指「奪取、取得或控制位置／優勢」。",
       "sentenceIndex": 76,
@@ -3192,12 +2886,10 @@ export default {
         "took"
       ],
       "optionReasons": {
-        "take-mcq-37": "本句指「奪取、取得或控制位置／優勢」。",
-        "take-mcq-36": "「佔用或消耗時間、空間、精力等」是「take — use resources」的用法，與本句語境不同。",
-        "take-mcq-38": "「取得領先或開始帶頭主導」是「take the lead」的用法，與本句語境不同。",
-        "take-mcq-35": "「能接受批評／玩笑」是「take criticism/jokes」的用法，與本句語境不同。",
-        "take-mcq-39": "「拍攝、量度或記錄影像／數據」是「take — record」的用法，與本句語境不同。",
-        "take-mcq-34": "「承受／忍受壓力、痛苦或不舒服的事」是「take — tolerate」的用法，與本句語境不同。"
+        "take-mcq-37": "本句的「took」指「奪取、取得或控制位置／優勢」。",
+        "take-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-37"
     },
@@ -3209,11 +2901,9 @@ export default {
       "masked": "She ____ in the project.",
       "options": [
         "take-mcq-38",
-        "take-mcq-37",
-        "take-mcq-39",
-        "take-mcq-36",
-        "take-mcq-35",
-        "take-mcq-34"
+        "take-mcq-22",
+        "take-mcq-06",
+        "take-mcq-26"
       ],
       "explanation": "本句的「took the lead」指「取得領先或開始帶頭主導」。",
       "sentenceIndex": 77,
@@ -3222,12 +2912,10 @@ export default {
         "took the lead"
       ],
       "optionReasons": {
-        "take-mcq-38": "本句指「取得領先或開始帶頭主導」。",
-        "take-mcq-37": "「奪取、取得或控制位置／優勢」是「take — capture/seize」的用法，與本句語境不同。",
-        "take-mcq-39": "「拍攝、量度或記錄影像／數據」是「take — record」的用法，與本句語境不同。",
-        "take-mcq-36": "「佔用或消耗時間、空間、精力等」是「take — use resources」的用法，與本句語境不同。",
-        "take-mcq-35": "「能接受批評／玩笑」是「take criticism/jokes」的用法，與本句語境不同。",
-        "take-mcq-34": "「承受／忍受壓力、痛苦或不舒服的事」是「take — tolerate」的用法，與本句語境不同。"
+        "take-mcq-38": "本句的「took the lead」指「取得領先或開始帶頭主導」。",
+        "take-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-38"
     },
@@ -3239,11 +2927,9 @@ export default {
       "masked": "The runner ____ after the final turn.",
       "options": [
         "take-mcq-38",
-        "take-mcq-37",
-        "take-mcq-39",
+        "take-mcq-22",
         "take-mcq-36",
-        "take-mcq-35",
-        "take-mcq-34"
+        "take-mcq-18"
       ],
       "explanation": "本句的「took the lead」指「取得領先或開始帶頭主導」。",
       "sentenceIndex": 78,
@@ -3252,12 +2938,10 @@ export default {
         "took the lead"
       ],
       "optionReasons": {
-        "take-mcq-38": "本句指「取得領先或開始帶頭主導」。",
-        "take-mcq-37": "「奪取、取得或控制位置／優勢」是「take — capture/seize」的用法，與本句語境不同。",
-        "take-mcq-39": "「拍攝、量度或記錄影像／數據」是「take — record」的用法，與本句語境不同。",
-        "take-mcq-36": "「佔用或消耗時間、空間、精力等」是「take — use resources」的用法，與本句語境不同。",
-        "take-mcq-35": "「能接受批評／玩笑」是「take criticism/jokes」的用法，與本句語境不同。",
-        "take-mcq-34": "「承受／忍受壓力、痛苦或不舒服的事」是「take — tolerate」的用法，與本句語境不同。"
+        "take-mcq-38": "本句的「took the lead」指「取得領先或開始帶頭主導」。",
+        "take-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-38"
     },
@@ -3269,11 +2953,9 @@ export default {
       "masked": "The camera ____ excellent pictures.",
       "options": [
         "take-mcq-39",
-        "take-mcq-38",
-        "take-mcq-37",
-        "take-mcq-36",
-        "take-mcq-35",
-        "take-mcq-34"
+        "take-pdf-001",
+        "take-mcq-28",
+        "take-mcq-21"
       ],
       "explanation": "本句的「takes」指「拍攝、量度或記錄影像／數據」。",
       "sentenceIndex": 79,
@@ -3282,12 +2964,10 @@ export default {
         "takes"
       ],
       "optionReasons": {
-        "take-mcq-39": "本句指「拍攝、量度或記錄影像／數據」。",
-        "take-mcq-38": "「取得領先或開始帶頭主導」是「take the lead」的用法，與本句語境不同。",
-        "take-mcq-37": "「奪取、取得或控制位置／優勢」是「take — capture/seize」的用法，與本句語境不同。",
-        "take-mcq-36": "「佔用或消耗時間、空間、精力等」是「take — use resources」的用法，與本句語境不同。",
-        "take-mcq-35": "「能接受批評／玩笑」是「take criticism/jokes」的用法，與本句語境不同。",
-        "take-mcq-34": "「承受／忍受壓力、痛苦或不舒服的事」是「take — tolerate」的用法，與本句語境不同。"
+        "take-mcq-39": "本句的「takes」指「拍攝、量度或記錄影像／數據」。",
+        "take-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-39"
     },
@@ -3299,11 +2979,9 @@ export default {
       "masked": "The device ____ a reading every minute.",
       "options": [
         "take-mcq-39",
-        "take-mcq-38",
-        "take-mcq-37",
-        "take-mcq-36",
-        "take-mcq-35",
-        "take-mcq-34"
+        "take-mcq-06",
+        "take-mcq-10",
+        "take-mcq-37"
       ],
       "explanation": "本句的「takes」指「拍攝、量度或記錄影像／數據」。",
       "sentenceIndex": 80,
@@ -3312,12 +2990,10 @@ export default {
         "takes"
       ],
       "optionReasons": {
-        "take-mcq-39": "本句指「拍攝、量度或記錄影像／數據」。",
-        "take-mcq-38": "「取得領先或開始帶頭主導」是「take the lead」的用法，與本句語境不同。",
-        "take-mcq-37": "「奪取、取得或控制位置／優勢」是「take — capture/seize」的用法，與本句語境不同。",
-        "take-mcq-36": "「佔用或消耗時間、空間、精力等」是「take — use resources」的用法，與本句語境不同。",
-        "take-mcq-35": "「能接受批評／玩笑」是「take criticism/jokes」的用法，與本句語境不同。",
-        "take-mcq-34": "「承受／忍受壓力、痛苦或不舒服的事」是「take — tolerate」的用法，與本句語境不同。"
+        "take-mcq-39": "本句的「takes」指「拍攝、量度或記錄影像／數據」。",
+        "take-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "take-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "take-mcq-39"
     }
@@ -3329,5 +3005,7 @@ export default {
     "sha256": "9832d79ad025f6c1d74cc0fd5b0009dbe0bd0181f5bc1ac5fc420eaa0e4731c7",
     "pages": 27
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

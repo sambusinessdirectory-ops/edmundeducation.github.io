@@ -310,11 +310,9 @@ export default {
       "masked": "Nicotine is highly ____.",
       "options": [
         "addictive-mcq-01",
-        "addictive-mcq-02",
-        "addictive-mcq-03",
-        "addictive-mcq-04",
-        "addictive-mcq-05",
-        "addictive-mcq-06"
+        "addictive-mcq-08",
+        "addictive-mcq-12",
+        "addictive-mcq-15"
       ],
       "explanation": "本句的「addictive」指「能促使人形成強烈依賴、難以停止使用／進行的」。",
       "sentenceIndex": 0,
@@ -323,12 +321,10 @@ export default {
         "addictive"
       ],
       "optionReasons": {
-        "addictive-mcq-01": "本句指「能促使人形成強烈依賴、難以停止使用／進行的」。",
-        "addictive-mcq-02": "「成癮風險／強化作用特別高的」與本句語境不同。",
-        "addictive-mcq-03": "「已形成難以控制的依賴／成癮狀態的」與本句語境不同。",
-        "addictive-mcq-04": "「即使造成負面後果仍難以控制地持續使用某物質／進行某行為的狀態」與本句語境不同。",
-        "addictive-mcq-05": "「對某種精神活性物質形成成癮」與本句語境不同。",
-        "addictive-mcq-06": "「對某活動形成強迫性、難以控制的重複行為」與本句語境不同。"
+        "addictive-mcq-01": "本句的「addictive」指「能促使人形成強烈依賴、難以停止使用／進行的」。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-01"
     },
@@ -340,11 +336,9 @@ export default {
       "masked": "Some substances can be extremely ____.",
       "options": [
         "addictive-mcq-01",
-        "addictive-mcq-02",
-        "addictive-mcq-03",
-        "addictive-mcq-04",
-        "addictive-mcq-05",
-        "addictive-mcq-06"
+        "addictive-mcq-08",
+        "addictive-mcq-12",
+        "addictive-mcq-09"
       ],
       "explanation": "本句的「addictive」指「能促使人形成強烈依賴、難以停止使用／進行的」。",
       "sentenceIndex": 1,
@@ -353,12 +347,10 @@ export default {
         "addictive"
       ],
       "optionReasons": {
-        "addictive-mcq-01": "本句指「能促使人形成強烈依賴、難以停止使用／進行的」。",
-        "addictive-mcq-02": "「成癮風險／強化作用特別高的」與本句語境不同。",
-        "addictive-mcq-03": "「已形成難以控制的依賴／成癮狀態的」與本句語境不同。",
-        "addictive-mcq-04": "「即使造成負面後果仍難以控制地持續使用某物質／進行某行為的狀態」與本句語境不同。",
-        "addictive-mcq-05": "「對某種精神活性物質形成成癮」與本句語境不同。",
-        "addictive-mcq-06": "「對某活動形成強迫性、難以控制的重複行為」與本句語境不同。"
+        "addictive-mcq-01": "本句的「addictive」指「能促使人形成強烈依賴、難以停止使用／進行的」。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-01"
     },
@@ -370,11 +362,9 @@ export default {
       "masked": "The substance is ____.",
       "options": [
         "addictive-mcq-02",
-        "addictive-mcq-01",
-        "addictive-mcq-03",
-        "addictive-mcq-04",
-        "addictive-mcq-05",
-        "addictive-mcq-06"
+        "addictive-mcq-12",
+        "addictive-mcq-08",
+        "addictive-mcq-09"
       ],
       "explanation": "本句的「highly addictive」指「成癮風險／強化作用特別高的」。",
       "sentenceIndex": 2,
@@ -383,12 +373,10 @@ export default {
         "highly addictive"
       ],
       "optionReasons": {
-        "addictive-mcq-02": "本句指「成癮風險／強化作用特別高的」。",
-        "addictive-mcq-01": "「能促使人形成強烈依賴、難以停止使用／進行的」與本句語境不同。",
-        "addictive-mcq-03": "「已形成難以控制的依賴／成癮狀態的」與本句語境不同。",
-        "addictive-mcq-04": "「即使造成負面後果仍難以控制地持續使用某物質／進行某行為的狀態」與本句語境不同。",
-        "addictive-mcq-05": "「對某種精神活性物質形成成癮」與本句語境不同。",
-        "addictive-mcq-06": "「對某活動形成強迫性、難以控制的重複行為」與本句語境不同。"
+        "addictive-mcq-02": "本句的「highly addictive」指「成癮風險／強化作用特別高的」。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-02"
     },
@@ -400,11 +388,9 @@ export default {
       "masked": "Highly ____ substances require careful regulation.",
       "options": [
         "addictive-mcq-02",
-        "addictive-mcq-01",
-        "addictive-mcq-03",
-        "addictive-mcq-04",
-        "addictive-mcq-05",
-        "addictive-mcq-06"
+        "addictive-mcq-12",
+        "addictive-mcq-08",
+        "addictive-mcq-04"
       ],
       "explanation": "本句的「addictive」指「成癮風險／強化作用特別高的」。",
       "sentenceIndex": 3,
@@ -413,12 +399,10 @@ export default {
         "addictive"
       ],
       "optionReasons": {
-        "addictive-mcq-02": "本句指「成癮風險／強化作用特別高的」。",
-        "addictive-mcq-01": "「能促使人形成強烈依賴、難以停止使用／進行的」與本句語境不同。",
-        "addictive-mcq-03": "「已形成難以控制的依賴／成癮狀態的」與本句語境不同。",
-        "addictive-mcq-04": "「即使造成負面後果仍難以控制地持續使用某物質／進行某行為的狀態」與本句語境不同。",
-        "addictive-mcq-05": "「對某種精神活性物質形成成癮」與本句語境不同。",
-        "addictive-mcq-06": "「對某活動形成強迫性、難以控制的重複行為」與本句語境不同。"
+        "addictive-mcq-02": "本句的「addictive」指「成癮風險／強化作用特別高的」。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-02"
     },
@@ -430,11 +414,9 @@ export default {
       "masked": "The clinic treats people with substance ____.",
       "options": [
         "addictive-mcq-04",
-        "addictive-mcq-03",
-        "addictive-mcq-05",
-        "addictive-mcq-02",
-        "addictive-mcq-06",
-        "addictive-mcq-01"
+        "addictive-mcq-12",
+        "addictive-mcq-15",
+        "addictive-mcq-08"
       ],
       "explanation": "本句的「addiction」指「即使造成負面後果仍難以控制地持續使用某物質／進行某行為的狀態」。",
       "sentenceIndex": 5,
@@ -443,12 +425,10 @@ export default {
         "addiction"
       ],
       "optionReasons": {
-        "addictive-mcq-04": "本句指「即使造成負面後果仍難以控制地持續使用某物質／進行某行為的狀態」。",
-        "addictive-mcq-03": "「已形成難以控制的依賴／成癮狀態的」與本句語境不同。",
-        "addictive-mcq-05": "「對某種精神活性物質形成成癮」與本句語境不同。",
-        "addictive-mcq-02": "「成癮風險／強化作用特別高的」與本句語境不同。",
-        "addictive-mcq-06": "「對某活動形成強迫性、難以控制的重複行為」與本句語境不同。",
-        "addictive-mcq-01": "「能促使人形成強烈依賴、難以停止使用／進行的」與本句語境不同。"
+        "addictive-mcq-04": "本句的「addiction」指「即使造成負面後果仍難以控制地持續使用某物質／進行某行為的狀態」。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-04"
     },
@@ -460,11 +440,9 @@ export default {
       "masked": "The programme focuses on ____.",
       "options": [
         "addictive-mcq-05",
-        "addictive-mcq-04",
-        "addictive-mcq-06",
-        "addictive-mcq-03",
-        "addictive-mcq-07",
-        "addictive-mcq-02"
+        "addictive-mcq-09",
+        "addictive-mcq-08",
+        "addictive-mcq-12"
       ],
       "explanation": "本句的「substance addiction」指「對某種精神活性物質形成成癮」。",
       "sentenceIndex": 6,
@@ -473,12 +451,10 @@ export default {
         "substance addiction"
       ],
       "optionReasons": {
-        "addictive-mcq-05": "本句指「對某種精神活性物質形成成癮」。",
-        "addictive-mcq-04": "「即使造成負面後果仍難以控制地持續使用某物質／進行某行為的狀態」與本句語境不同。",
-        "addictive-mcq-06": "「對某活動形成強迫性、難以控制的重複行為」與本句語境不同。",
-        "addictive-mcq-03": "「已形成難以控制的依賴／成癮狀態的」與本句語境不同。",
-        "addictive-mcq-07": "「對社交媒體使用形成難以控制的強迫性模式」與本句語境不同。",
-        "addictive-mcq-02": "「成癮風險／強化作用特別高的」與本句語境不同。"
+        "addictive-mcq-05": "本句的「substance addiction」指「對某種精神活性物質形成成癮」。",
+        "addictive-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-05"
     },
@@ -490,11 +466,9 @@ export default {
       "masked": "Some researchers study ____.",
       "options": [
         "addictive-mcq-06",
-        "addictive-mcq-05",
-        "addictive-mcq-07",
-        "addictive-mcq-04",
+        "addictive-mcq-11",
         "addictive-mcq-08",
-        "addictive-mcq-03"
+        "addictive-mcq-09"
       ],
       "explanation": "本句的「behavioural addiction」指「對某活動形成強迫性、難以控制的重複行為」。",
       "sentenceIndex": 8,
@@ -503,12 +477,10 @@ export default {
         "behavioural addiction"
       ],
       "optionReasons": {
-        "addictive-mcq-06": "本句指「對某活動形成強迫性、難以控制的重複行為」。",
-        "addictive-mcq-05": "「對某種精神活性物質形成成癮」與本句語境不同。",
-        "addictive-mcq-07": "「對社交媒體使用形成難以控制的強迫性模式」與本句語境不同。",
-        "addictive-mcq-04": "「即使造成負面後果仍難以控制地持續使用某物質／進行某行為的狀態」與本句語境不同。",
-        "addictive-mcq-08": "「透過獎勵、提示等機制增加使用者反覆使用的設計」與本句語境不同。",
-        "addictive-mcq-03": "「已形成難以控制的依賴／成癮狀態的」與本句語境不同。"
+        "addictive-mcq-06": "本句的「behavioural addiction」指「對某活動形成強迫性、難以控制的重複行為」。",
+        "addictive-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-06"
     },
@@ -520,11 +492,9 @@ export default {
       "masked": "The study examined possible ____.",
       "options": [
         "addictive-mcq-07",
-        "addictive-mcq-06",
+        "addictive-mcq-12",
         "addictive-mcq-08",
-        "addictive-mcq-05",
-        "addictive-mcq-09",
-        "addictive-mcq-04"
+        "addictive-mcq-13"
       ],
       "explanation": "本句的「social-media addiction」指「對社交媒體使用形成難以控制的強迫性模式」。",
       "sentenceIndex": 11,
@@ -533,12 +503,10 @@ export default {
         "social-media addiction"
       ],
       "optionReasons": {
-        "addictive-mcq-07": "本句指「對社交媒體使用形成難以控制的強迫性模式」。",
-        "addictive-mcq-06": "「對某活動形成強迫性、難以控制的重複行為」與本句語境不同。",
-        "addictive-mcq-08": "「透過獎勵、提示等機制增加使用者反覆使用的設計」與本句語境不同。",
-        "addictive-mcq-05": "「對某種精神活性物質形成成癮」與本句語境不同。",
-        "addictive-mcq-09": "「吸引力強到令人很想持續觀看／使用的內容」與本句語境不同。",
-        "addictive-mcq-04": "「即使造成負面後果仍難以控制地持續使用某物質／進行某行為的狀態」與本句語境不同。"
+        "addictive-mcq-07": "本句的「social-media addiction」指「對社交媒體使用形成難以控制的強迫性模式」。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-07"
     },
@@ -550,11 +518,9 @@ export default {
       "masked": "The article criticises ____ in social apps.",
       "options": [
         "addictive-mcq-08",
-        "addictive-mcq-07",
-        "addictive-mcq-09",
-        "addictive-mcq-06",
-        "addictive-mcq-10",
-        "addictive-mcq-05"
+        "addictive-mcq-12",
+        "addictive-mcq-15",
+        "addictive-mcq-09"
       ],
       "explanation": "本句的「addictive design」指「透過獎勵、提示等機制增加使用者反覆使用的設計」。",
       "sentenceIndex": 13,
@@ -563,12 +529,10 @@ export default {
         "addictive design"
       ],
       "optionReasons": {
-        "addictive-mcq-08": "本句指「透過獎勵、提示等機制增加使用者反覆使用的設計」。",
-        "addictive-mcq-07": "「對社交媒體使用形成難以控制的強迫性模式」與本句語境不同。",
-        "addictive-mcq-09": "「吸引力強到令人很想持續觀看／使用的內容」與本句語境不同。",
-        "addictive-mcq-06": "「對某活動形成強迫性、難以控制的重複行為」與本句語境不同。",
-        "addictive-mcq-10": "「好玩／好看／好吃得令人誇張地「停不下來」」與本句語境不同。",
-        "addictive-mcq-05": "「對某種精神活性物質形成成癮」與本句語境不同。"
+        "addictive-mcq-08": "本句的「addictive design」指「透過獎勵、提示等機制增加使用者反覆使用的設計」。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-08"
     },
@@ -580,11 +544,9 @@ export default {
       "masked": "Notifications can be part of an ____ design pattern.",
       "options": [
         "addictive-mcq-08",
-        "addictive-mcq-07",
-        "addictive-mcq-09",
-        "addictive-mcq-06",
-        "addictive-mcq-10",
-        "addictive-mcq-05"
+        "addictive-mcq-12",
+        "addictive-mcq-02",
+        "addictive-mcq-01"
       ],
       "explanation": "本句的「addictive」指「透過獎勵、提示等機制增加使用者反覆使用的設計」。",
       "sentenceIndex": 14,
@@ -593,12 +555,10 @@ export default {
         "addictive"
       ],
       "optionReasons": {
-        "addictive-mcq-08": "本句指「透過獎勵、提示等機制增加使用者反覆使用的設計」。",
-        "addictive-mcq-07": "「對社交媒體使用形成難以控制的強迫性模式」與本句語境不同。",
-        "addictive-mcq-09": "「吸引力強到令人很想持續觀看／使用的內容」與本句語境不同。",
-        "addictive-mcq-06": "「對某活動形成強迫性、難以控制的重複行為」與本句語境不同。",
-        "addictive-mcq-10": "「好玩／好看／好吃得令人誇張地「停不下來」」與本句語境不同。",
-        "addictive-mcq-05": "「對某種精神活性物質形成成癮」與本句語境不同。"
+        "addictive-mcq-08": "本句的「addictive」指「透過獎勵、提示等機制增加使用者反覆使用的設計」。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-08"
     },
@@ -610,11 +570,9 @@ export default {
       "masked": "Short videos can feel extremely ____.",
       "options": [
         "addictive-mcq-09",
-        "addictive-mcq-08",
-        "addictive-mcq-10",
-        "addictive-mcq-07",
         "addictive-mcq-11",
-        "addictive-mcq-06"
+        "addictive-mcq-12",
+        "addictive-mcq-08"
       ],
       "explanation": "本句的「addictive」指「吸引力強到令人很想持續觀看／使用的內容」。",
       "sentenceIndex": 18,
@@ -623,12 +581,10 @@ export default {
         "addictive"
       ],
       "optionReasons": {
-        "addictive-mcq-09": "本句指「吸引力強到令人很想持續觀看／使用的內容」。",
-        "addictive-mcq-08": "「透過獎勵、提示等機制增加使用者反覆使用的設計」與本句語境不同。",
-        "addictive-mcq-10": "「好玩／好看／好吃得令人誇張地「停不下來」」與本句語境不同。",
-        "addictive-mcq-07": "「對社交媒體使用形成難以控制的強迫性模式」與本句語境不同。",
-        "addictive-mcq-11": "「有成癮問題的人」與本句語境不同。",
-        "addictive-mcq-06": "「對某活動形成強迫性、難以控制的重複行為」與本句語境不同。"
+        "addictive-mcq-09": "本句的「addictive」指「吸引力強到令人很想持續觀看／使用的內容」。",
+        "addictive-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-09"
     },
@@ -640,11 +596,9 @@ export default {
       "masked": "The platform is full of ____ content.",
       "options": [
         "addictive-mcq-09",
-        "addictive-mcq-08",
-        "addictive-mcq-10",
-        "addictive-mcq-07",
-        "addictive-mcq-11",
-        "addictive-mcq-06"
+        "addictive-mcq-12",
+        "addictive-mcq-14",
+        "addictive-mcq-08"
       ],
       "explanation": "本句的「addictive」指「吸引力強到令人很想持續觀看／使用的內容」。",
       "sentenceIndex": 19,
@@ -653,12 +607,10 @@ export default {
         "addictive"
       ],
       "optionReasons": {
-        "addictive-mcq-09": "本句指「吸引力強到令人很想持續觀看／使用的內容」。",
-        "addictive-mcq-08": "「透過獎勵、提示等機制增加使用者反覆使用的設計」與本句語境不同。",
-        "addictive-mcq-10": "「好玩／好看／好吃得令人誇張地「停不下來」」與本句語境不同。",
-        "addictive-mcq-07": "「對社交媒體使用形成難以控制的強迫性模式」與本句語境不同。",
-        "addictive-mcq-11": "「有成癮問題的人」與本句語境不同。",
-        "addictive-mcq-06": "「對某活動形成強迫性、難以控制的重複行為」與本句語境不同。"
+        "addictive-mcq-09": "本句的「addictive」指「吸引力強到令人很想持續觀看／使用的內容」。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-09"
     },
@@ -670,11 +622,9 @@ export default {
       "masked": "The programme supports recovering ____.",
       "options": [
         "addictive-mcq-11",
-        "addictive-mcq-10",
-        "addictive-mcq-12",
+        "addictive-mcq-08",
         "addictive-mcq-09",
-        "addictive-mcq-13",
-        "addictive-mcq-08"
+        "addictive-mcq-12"
       ],
       "explanation": "本句的「addicts」指「有成癮問題的人」。",
       "sentenceIndex": 34,
@@ -683,12 +633,10 @@ export default {
         "addicts"
       ],
       "optionReasons": {
-        "addictive-mcq-11": "本句指「有成癮問題的人」。",
-        "addictive-mcq-10": "「好玩／好看／好吃得令人誇張地「停不下來」」與本句語境不同。",
-        "addictive-mcq-12": "「對某活動極度熱衷／沉迷的人」與本句語境不同。",
-        "addictive-mcq-09": "「吸引力強到令人很想持續觀看／使用的內容」與本句語境不同。",
-        "addictive-mcq-13": "「某物質／行為促成成癮的潛在程度」與本句語境不同。",
-        "addictive-mcq-08": "「透過獎勵、提示等機制增加使用者反覆使用的設計」與本句語境不同。"
+        "addictive-mcq-11": "本句的「addicts」指「有成癮問題的人」。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-11"
     },
@@ -700,11 +648,9 @@ export default {
       "masked": "He’s a fitness ____.",
       "options": [
         "addictive-mcq-12",
-        "addictive-mcq-11",
-        "addictive-mcq-13",
-        "addictive-mcq-10",
         "addictive-mcq-14",
-        "addictive-mcq-09"
+        "addictive-mcq-07",
+        "addictive-mcq-08"
       ],
       "explanation": "本句的「addict」指「對某活動極度熱衷／沉迷的人」。",
       "sentenceIndex": 35,
@@ -713,12 +659,10 @@ export default {
         "addict"
       ],
       "optionReasons": {
-        "addictive-mcq-12": "本句指「對某活動極度熱衷／沉迷的人」。",
-        "addictive-mcq-11": "「有成癮問題的人」與本句語境不同。",
-        "addictive-mcq-13": "「某物質／行為促成成癮的潛在程度」與本句語境不同。",
-        "addictive-mcq-10": "「好玩／好看／好吃得令人誇張地「停不下來」」與本句語境不同。",
-        "addictive-mcq-14": "「發展成成癮問題的可能性」與本句語境不同。",
-        "addictive-mcq-09": "「吸引力強到令人很想持續觀看／使用的內容」與本句語境不同。"
+        "addictive-mcq-12": "本句的「addict」指「對某活動極度熱衷／沉迷的人」。",
+        "addictive-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-12"
     },
@@ -730,11 +674,9 @@ export default {
       "masked": "The substance has high ____.",
       "options": [
         "addictive-mcq-13",
-        "addictive-mcq-12",
-        "addictive-mcq-14",
-        "addictive-mcq-11",
-        "addictive-mcq-15",
-        "addictive-mcq-10"
+        "addictive-mcq-09",
+        "addictive-mcq-08",
+        "addictive-mcq-07"
       ],
       "explanation": "本句的「addictive potential」指「某物質／行為促成成癮的潛在程度」。",
       "sentenceIndex": 43,
@@ -743,12 +685,10 @@ export default {
         "addictive potential"
       ],
       "optionReasons": {
-        "addictive-mcq-13": "本句指「某物質／行為促成成癮的潛在程度」。",
-        "addictive-mcq-12": "「對某活動極度熱衷／沉迷的人」與本句語境不同。",
-        "addictive-mcq-14": "「發展成成癮問題的可能性」與本句語境不同。",
-        "addictive-mcq-11": "「有成癮問題的人」與本句語境不同。",
-        "addictive-mcq-15": "「不具有／具有較低成癮性的」與本句語境不同。",
-        "addictive-mcq-10": "「好玩／好看／好吃得令人誇張地「停不下來」」與本句語境不同。"
+        "addictive-mcq-13": "本句的「addictive potential」指「某物質／行為促成成癮的潛在程度」。",
+        "addictive-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-13"
     },
@@ -760,11 +700,9 @@ export default {
       "masked": "Researchers compared the ____ potential of different behaviours.",
       "options": [
         "addictive-mcq-13",
-        "addictive-mcq-12",
-        "addictive-mcq-14",
-        "addictive-mcq-11",
-        "addictive-mcq-15",
-        "addictive-mcq-10"
+        "addictive-mcq-09",
+        "addictive-mcq-08",
+        "addictive-mcq-07"
       ],
       "explanation": "本句的「addictive」指「某物質／行為促成成癮的潛在程度」。",
       "sentenceIndex": 44,
@@ -773,12 +711,10 @@ export default {
         "addictive"
       ],
       "optionReasons": {
-        "addictive-mcq-13": "本句指「某物質／行為促成成癮的潛在程度」。",
-        "addictive-mcq-12": "「對某活動極度熱衷／沉迷的人」與本句語境不同。",
-        "addictive-mcq-14": "「發展成成癮問題的可能性」與本句語境不同。",
-        "addictive-mcq-11": "「有成癮問題的人」與本句語境不同。",
-        "addictive-mcq-15": "「不具有／具有較低成癮性的」與本句語境不同。",
-        "addictive-mcq-10": "「好玩／好看／好吃得令人誇張地「停不下來」」與本句語境不同。"
+        "addictive-mcq-13": "本句的「addictive」指「某物質／行為促成成癮的潛在程度」。",
+        "addictive-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-13"
     },
@@ -790,11 +726,9 @@ export default {
       "masked": "The treatment carries some ____.",
       "options": [
         "addictive-mcq-14",
-        "addictive-mcq-13",
-        "addictive-mcq-15",
+        "addictive-mcq-08",
         "addictive-mcq-12",
-        "addictive-mcq-16",
-        "addictive-mcq-11"
+        "addictive-mcq-09"
       ],
       "explanation": "本句的「addiction risk」指「發展成成癮問題的可能性」。",
       "sentenceIndex": 45,
@@ -803,12 +737,10 @@ export default {
         "addiction risk"
       ],
       "optionReasons": {
-        "addictive-mcq-14": "本句指「發展成成癮問題的可能性」。",
-        "addictive-mcq-13": "「某物質／行為促成成癮的潛在程度」與本句語境不同。",
-        "addictive-mcq-15": "「不具有／具有較低成癮性的」與本句語境不同。",
-        "addictive-mcq-12": "「對某活動極度熱衷／沉迷的人」與本句語境不同。",
-        "addictive-mcq-16": "「某物質／活動令人形成成癮的程度」與本句語境不同。",
-        "addictive-mcq-11": "「有成癮問題的人」與本句語境不同。"
+        "addictive-mcq-14": "本句的「addiction risk」指「發展成成癮問題的可能性」。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-14"
     },
@@ -820,10 +752,8 @@ export default {
       "masked": "The treatment aims to use a ____ alternative.",
       "options": [
         "addictive-mcq-15",
-        "addictive-mcq-14",
-        "addictive-mcq-16",
-        "addictive-mcq-13",
-        "addictive-mcq-17",
+        "addictive-mcq-09",
+        "addictive-mcq-08",
         "addictive-mcq-12"
       ],
       "explanation": "本句的「non-addictive」指「不具有／具有較低成癮性的」。",
@@ -833,12 +763,10 @@ export default {
         "non-addictive"
       ],
       "optionReasons": {
-        "addictive-mcq-15": "本句指「不具有／具有較低成癮性的」。",
-        "addictive-mcq-14": "「發展成成癮問題的可能性」與本句語境不同。",
-        "addictive-mcq-16": "「某物質／活動令人形成成癮的程度」與本句語境不同。",
-        "addictive-mcq-13": "「某物質／行為促成成癮的潛在程度」與本句語境不同。",
-        "addictive-mcq-17": "「以令人不斷想重複使用／觀看／進行的方式」與本句語境不同。",
-        "addictive-mcq-12": "「對某活動極度熱衷／沉迷的人」與本句語境不同。"
+        "addictive-mcq-15": "本句的「non-addictive」指「不具有／具有較低成癮性的」。",
+        "addictive-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-15"
     },
@@ -850,11 +778,9 @@ export default {
       "masked": "Non-____ does not necessarily mean risk-free.",
       "options": [
         "addictive-mcq-15",
-        "addictive-mcq-14",
-        "addictive-mcq-16",
-        "addictive-mcq-13",
-        "addictive-mcq-17",
-        "addictive-mcq-12"
+        "addictive-mcq-12",
+        "addictive-mcq-09",
+        "addictive-mcq-08"
       ],
       "explanation": "本句的「addictive」指「不具有／具有較低成癮性的」。",
       "sentenceIndex": 61,
@@ -863,12 +789,10 @@ export default {
         "addictive"
       ],
       "optionReasons": {
-        "addictive-mcq-15": "本句指「不具有／具有較低成癮性的」。",
-        "addictive-mcq-14": "「發展成成癮問題的可能性」與本句語境不同。",
-        "addictive-mcq-16": "「某物質／活動令人形成成癮的程度」與本句語境不同。",
-        "addictive-mcq-13": "「某物質／行為促成成癮的潛在程度」與本句語境不同。",
-        "addictive-mcq-17": "「以令人不斷想重複使用／觀看／進行的方式」與本句語境不同。",
-        "addictive-mcq-12": "「對某活動極度熱衷／沉迷的人」與本句語境不同。"
+        "addictive-mcq-15": "本句的「addictive」指「不具有／具有較低成癮性的」。",
+        "addictive-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "addictive-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "addictive-mcq-15"
     }
@@ -880,5 +804,7 @@ export default {
     "sha256": "915d315579785f9d5f7f4753be19f52d6a7d9c655b42740c22a748050dc34724",
     "pages": 40
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

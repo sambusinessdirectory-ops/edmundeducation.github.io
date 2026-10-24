@@ -42,26 +42,6 @@ export default {
           "They are looking for a house to rent.",
           "他們正在找一間可租的住宅。",
           "房子；住宅"
-        ],
-        [
-          "The bill passed the House.",
-          "法案獲議院通過。",
-          "房子；住宅"
-        ],
-        [
-          "Members returned to the House for the debate.",
-          "議員返回議會參與辯論。",
-          "房子；住宅"
-        ],
-        [
-          "She works for a major publishing house.",
-          "她在一家大型出版社工作。",
-          "房子；住宅"
-        ],
-        [
-          "The fashion house launched a new collection.",
-          "那家時裝品牌／公司推出新系列。",
-          "房子；住宅"
         ]
       ],
       "options": [],
@@ -608,7 +588,7 @@ export default {
     },
     {
       "id": "house-mcq-28",
-      "title": "表示某個正式議會議院名稱",
+      "title": "某個正式議會議院名稱",
       "form": "5. the House of Commons / House of Lords — 下議院／上議院",
       "en": "5. the House of Commons / House of Lords — 下議院／上議院",
       "zh": "表示某個正式議會議院名稱",
@@ -649,6 +629,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "house-reviewed-78f84a4157",
+      "title": "某些國家議會制度中的一個議院或立法機構",
+      "form": "house · source section 4",
+      "en": "某些國家議會制度中的一個議院或立法機構",
+      "zh": "某些國家議會制度中的一個議院或立法機構",
+      "note": "對照原始教材第 4 節及例句核實。",
+      "examples": [
+        [
+          "The bill passed the House.",
+          "法案獲議院通過。",
+          "某些國家議會制度中的一個議院或立法機構"
+        ],
+        [
+          "Members returned to the House for the debate.",
+          "議員返回議會參與辯論。",
+          "某些國家議會制度中的一個議院或立法機構"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "house-reviewed-3ed4648872",
+      "title": "某些行業中的公司、商號或機構，尤其常見於出版、時裝、設計等領域",
+      "form": "house · source section 6",
+      "en": "某些行業中的公司、商號或機構，尤其常見於出版、時裝、設計等領域",
+      "zh": "某些行業中的公司、商號或機構，尤其常見於出版、時裝、設計等領域",
+      "note": "對照原始教材第 6 節及例句核實。",
+      "examples": [
+        [
+          "She works for a major publishing house.",
+          "她在一家大型出版社工作。",
+          "某些行業中的公司、商號或機構，尤其常見於出版、時裝、設計等領域"
+        ],
+        [
+          "The fashion house launched a new collection.",
+          "那家時裝品牌／公司推出新系列。",
+          "某些行業中的公司、商號或機構，尤其常見於出版、時裝、設計等領域"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -660,11 +684,9 @@ export default {
       "masked": "They bought a small ____ near the station.",
       "options": [
         "house-mcq-01",
-        "house-mcq-02",
-        "house-mcq-03",
-        "house-mcq-04",
-        "house-mcq-05",
-        "house-mcq-06"
+        "house-reviewed-3ed4648872",
+        "house-mcq-29",
+        "house-mcq-22"
       ],
       "explanation": "本句的「house」指「房子；住宅」。",
       "sentenceIndex": 0,
@@ -673,12 +695,10 @@ export default {
         "house"
       ],
       "optionReasons": {
-        "house-mcq-01": "本句指「房子；住宅」。",
-        "house-mcq-02": "「在某人家」是「at someone's house」的用法，與本句語境不同。",
-        "house-mcq-03": "「樓價／房價」是「house prices」的用法，與本句語境不同。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。"
+        "house-mcq-01": "本句的「house」指「房子；住宅」。",
+        "house-reviewed-3ed4648872": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-01"
     },
@@ -690,11 +710,9 @@ export default {
       "masked": "Her ____ has three bedrooms.",
       "options": [
         "house-mcq-01",
-        "house-mcq-02",
-        "house-mcq-03",
-        "house-mcq-04",
         "house-mcq-05",
-        "house-mcq-06"
+        "house-mcq-17",
+        "house-mcq-07"
       ],
       "explanation": "本句的「house」指「房子；住宅」。",
       "sentenceIndex": 1,
@@ -703,12 +721,10 @@ export default {
         "house"
       ],
       "optionReasons": {
-        "house-mcq-01": "本句指「房子；住宅」。",
-        "house-mcq-02": "「在某人家」是「at someone's house」的用法，與本句語境不同。",
-        "house-mcq-03": "「樓價／房價」是「house prices」的用法，與本句語境不同。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。"
+        "house-mcq-01": "本句的「house」指「房子；住宅」。",
+        "house-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-01"
     },
@@ -720,11 +736,9 @@ export default {
       "masked": "Come over to my ____ this weekend.",
       "options": [
         "house-mcq-01",
-        "house-mcq-02",
-        "house-mcq-03",
-        "house-mcq-04",
-        "house-mcq-05",
-        "house-mcq-06"
+        "house-mcq-28",
+        "house-mcq-22",
+        "house-mcq-29"
       ],
       "explanation": "本句的「house」指「房子；住宅」。",
       "sentenceIndex": 2,
@@ -733,12 +747,10 @@ export default {
         "house"
       ],
       "optionReasons": {
-        "house-mcq-01": "本句指「房子；住宅」。",
-        "house-mcq-02": "「在某人家」是「at someone's house」的用法，與本句語境不同。",
-        "house-mcq-03": "「樓價／房價」是「house prices」的用法，與本句語境不同。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。"
+        "house-mcq-01": "本句的「house」指「房子；住宅」。",
+        "house-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-01"
     },
@@ -750,11 +762,9 @@ export default {
       "masked": "We had dinner at her ____.",
       "options": [
         "house-mcq-01",
-        "house-mcq-02",
-        "house-mcq-03",
-        "house-mcq-04",
-        "house-mcq-05",
-        "house-mcq-06"
+        "house-mcq-13",
+        "house-mcq-17",
+        "house-mcq-11"
       ],
       "explanation": "本句的「house」指「房子；住宅」。",
       "sentenceIndex": 3,
@@ -763,12 +773,10 @@ export default {
         "house"
       ],
       "optionReasons": {
-        "house-mcq-01": "本句指「房子；住宅」。",
-        "house-mcq-02": "「在某人家」是「at someone's house」的用法，與本句語境不同。",
-        "house-mcq-03": "「樓價／房價」是「house prices」的用法，與本句語境不同。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。"
+        "house-mcq-01": "本句的「house」指「房子；住宅」。",
+        "house-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-01"
     },
@@ -780,11 +788,9 @@ export default {
       "masked": "____ have risen sharply.",
       "options": [
         "house-mcq-01",
-        "house-mcq-02",
-        "house-mcq-03",
-        "house-mcq-04",
-        "house-mcq-05",
-        "house-mcq-06"
+        "house-mcq-14",
+        "house-mcq-29",
+        "house-mcq-13"
       ],
       "explanation": "本句的「House prices」指「房子；住宅」。",
       "sentenceIndex": 4,
@@ -793,12 +799,10 @@ export default {
         "House prices"
       ],
       "optionReasons": {
-        "house-mcq-01": "本句指「房子；住宅」。",
-        "house-mcq-02": "「在某人家」是「at someone's house」的用法，與本句語境不同。",
-        "house-mcq-03": "「樓價／房價」是「house prices」的用法，與本句語境不同。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。"
+        "house-mcq-01": "本句的「House prices」指「房子；住宅」。",
+        "house-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-01"
     },
@@ -810,11 +814,9 @@ export default {
       "masked": "They are looking for a ____.",
       "options": [
         "house-mcq-01",
-        "house-mcq-02",
-        "house-mcq-03",
-        "house-mcq-04",
-        "house-mcq-05",
-        "house-mcq-06"
+        "house-mcq-25",
+        "house-mcq-11",
+        "house-mcq-15"
       ],
       "explanation": "本句的「house to rent」指「房子；住宅」。",
       "sentenceIndex": 5,
@@ -823,74 +825,68 @@ export default {
         "house to rent"
       ],
       "optionReasons": {
-        "house-mcq-01": "本句指「房子；住宅」。",
-        "house-mcq-02": "「在某人家」是「at someone's house」的用法，與本句語境不同。",
-        "house-mcq-03": "「樓價／房價」是「house prices」的用法，與本句語境不同。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。"
+        "house-mcq-01": "本句的「house to rent」指「房子；住宅」。",
+        "house-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-01"
     },
     {
       "id": "house-04-0",
-      "sense": "house-mcq-01",
+      "sense": "house-reviewed-78f84a4157",
       "en": "The bill passed the House.",
       "zh": "法案獲議院通過。",
       "masked": "The bill passed the ____.",
       "options": [
-        "house-mcq-01",
-        "house-mcq-02",
-        "house-mcq-03",
-        "house-mcq-04",
-        "house-mcq-05",
-        "house-mcq-06"
+        "house-reviewed-78f84a4157",
+        "house-mcq-16",
+        "house-mcq-08",
+        "house-mcq-18"
       ],
-      "explanation": "本句的「House」指「房子；住宅」。",
+      "explanation": "對照完整句子：「法案獲議院通過。」。這裡的「House」表示「某些國家議會制度中的一個議院或立法機構」。",
       "sentenceIndex": 6,
       "sourcePractice": 1,
       "targets": [
         "House"
       ],
       "optionReasons": {
-        "house-mcq-01": "本句指「房子；住宅」。",
-        "house-mcq-02": "「在某人家」是「at someone's house」的用法，與本句語境不同。",
-        "house-mcq-03": "「樓價／房價」是「house prices」的用法，與本句語境不同。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。"
+        "house-reviewed-78f84a4157": "對照完整句子：「法案獲議院通過。」。這裡的「House」表示「某些國家議會制度中的一個議院或立法機構」。",
+        "house-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "house-mcq-01"
+      "correctOption": "house-reviewed-78f84a4157",
+      "previousCorrectOption": "house-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "house-04-1",
-      "sense": "house-mcq-01",
+      "sense": "house-reviewed-78f84a4157",
       "en": "Members returned to the House for the debate.",
       "zh": "議員返回議會參與辯論。",
       "masked": "Members returned to the ____ for the debate.",
       "options": [
-        "house-mcq-01",
-        "house-mcq-02",
-        "house-mcq-03",
-        "house-mcq-04",
-        "house-mcq-05",
-        "house-mcq-06"
+        "house-reviewed-78f84a4157",
+        "house-mcq-29",
+        "house-mcq-14",
+        "house-mcq-17"
       ],
-      "explanation": "本句的「House」指「房子；住宅」。",
+      "explanation": "對照完整句子：「議員返回議會參與辯論。」。這裡的「House」表示「某些國家議會制度中的一個議院或立法機構」。",
       "sentenceIndex": 7,
       "sourcePractice": 2,
       "targets": [
         "House"
       ],
       "optionReasons": {
-        "house-mcq-01": "本句指「房子；住宅」。",
-        "house-mcq-02": "「在某人家」是「at someone's house」的用法，與本句語境不同。",
-        "house-mcq-03": "「樓價／房價」是「house prices」的用法，與本句語境不同。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。"
+        "house-reviewed-78f84a4157": "對照完整句子：「議員返回議會參與辯論。」。這裡的「House」表示「某些國家議會制度中的一個議院或立法機構」。",
+        "house-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "house-mcq-01"
+      "correctOption": "house-reviewed-78f84a4157",
+      "previousCorrectOption": "house-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "house-05-0",
@@ -901,10 +897,8 @@ export default {
       "options": [
         "house-mcq-28",
         "house-mcq-27",
-        "house-mcq-29",
-        "house-mcq-26",
-        "house-mcq-25",
-        "house-mcq-24"
+        "house-mcq-05",
+        "house-mcq-07"
       ],
       "explanation": "本句的「House of Commons」指「表示某個正式議會議院名稱」。",
       "sentenceIndex": 8,
@@ -913,12 +907,10 @@ export default {
         "House of Commons"
       ],
       "optionReasons": {
-        "house-mcq-28": "本句指「表示某個正式議會議院名稱」。",
-        "house-mcq-27": "「博得滿堂喝采」是「bring the house down」的用法，與本句語境不同。",
-        "house-mcq-29": "「informal: 很快變得非常投契、相處得極好」是「30. get on like a house on fire — 一拍即合；非常投契」的用法，與本句語境不同。",
-        "house-mcq-26": "「軟禁；居家監禁」是「house arrest」的用法，與本句語境不同。",
-        "house-mcq-25": "「室內植物」是「houseplant」的用法，與本句語境不同。",
-        "house-mcq-24": "「家務」是「housework」的用法，與本句語境不同。"
+        "house-mcq-28": "本句的「House of Commons」指「表示某個正式議會議院名稱」。",
+        "house-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-28"
     },
@@ -930,11 +922,9 @@ export default {
       "masked": "The ____ reviewed the bill.",
       "options": [
         "house-mcq-28",
-        "house-mcq-27",
-        "house-mcq-29",
-        "house-mcq-26",
-        "house-mcq-25",
-        "house-mcq-24"
+        "house-mcq-12",
+        "house-mcq-13",
+        "house-mcq-14"
       ],
       "explanation": "本句的「House of Lords」指「表示某個正式議會議院名稱」。",
       "sentenceIndex": 9,
@@ -943,74 +933,68 @@ export default {
         "House of Lords"
       ],
       "optionReasons": {
-        "house-mcq-28": "本句指「表示某個正式議會議院名稱」。",
-        "house-mcq-27": "「博得滿堂喝采」是「bring the house down」的用法，與本句語境不同。",
-        "house-mcq-29": "「informal: 很快變得非常投契、相處得極好」是「30. get on like a house on fire — 一拍即合；非常投契」的用法，與本句語境不同。",
-        "house-mcq-26": "「軟禁；居家監禁」是「house arrest」的用法，與本句語境不同。",
-        "house-mcq-25": "「室內植物」是「houseplant」的用法，與本句語境不同。",
-        "house-mcq-24": "「家務」是「housework」的用法，與本句語境不同。"
+        "house-mcq-28": "本句的「House of Lords」指「表示某個正式議會議院名稱」。",
+        "house-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-28"
     },
     {
       "id": "house-06-0",
-      "sense": "house-mcq-01",
+      "sense": "house-reviewed-3ed4648872",
       "en": "She works for a major publishing house.",
       "zh": "她在一家大型出版社工作。",
       "masked": "She works for a major publishing ____.",
       "options": [
-        "house-mcq-01",
-        "house-mcq-02",
-        "house-mcq-03",
-        "house-mcq-04",
-        "house-mcq-05",
-        "house-mcq-06"
+        "house-reviewed-3ed4648872",
+        "house-mcq-11",
+        "house-mcq-28",
+        "house-mcq-21"
       ],
-      "explanation": "本句的「house」指「房子；住宅」。",
+      "explanation": "對照完整句子：「她在一家大型出版社工作。」。這裡的「house」表示「某些行業中的公司、商號或機構，尤其常見於出版、時裝、設計等領域」。",
       "sentenceIndex": 10,
       "sourcePractice": 1,
       "targets": [
         "house"
       ],
       "optionReasons": {
-        "house-mcq-01": "本句指「房子；住宅」。",
-        "house-mcq-02": "「在某人家」是「at someone's house」的用法，與本句語境不同。",
-        "house-mcq-03": "「樓價／房價」是「house prices」的用法，與本句語境不同。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。"
+        "house-reviewed-3ed4648872": "對照完整句子：「她在一家大型出版社工作。」。這裡的「house」表示「某些行業中的公司、商號或機構，尤其常見於出版、時裝、設計等領域」。",
+        "house-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "house-mcq-01"
+      "correctOption": "house-reviewed-3ed4648872",
+      "previousCorrectOption": "house-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "house-06-1",
-      "sense": "house-mcq-01",
+      "sense": "house-reviewed-3ed4648872",
       "en": "The fashion house launched a new collection.",
       "zh": "那家時裝品牌／公司推出新系列。",
       "masked": "The fashion ____ launched a new collection.",
       "options": [
-        "house-mcq-01",
-        "house-mcq-02",
-        "house-mcq-03",
-        "house-mcq-04",
-        "house-mcq-05",
-        "house-mcq-06"
+        "house-reviewed-3ed4648872",
+        "house-mcq-25",
+        "house-mcq-12",
+        "house-mcq-07"
       ],
-      "explanation": "本句的「house」指「房子；住宅」。",
+      "explanation": "對照完整句子：「那家時裝品牌／公司推出新系列。」。這裡的「house」表示「某些行業中的公司、商號或機構，尤其常見於出版、時裝、設計等領域」。",
       "sentenceIndex": 11,
       "sourcePractice": 2,
       "targets": [
         "house"
       ],
       "optionReasons": {
-        "house-mcq-01": "本句指「房子；住宅」。",
-        "house-mcq-02": "「在某人家」是「at someone's house」的用法，與本句語境不同。",
-        "house-mcq-03": "「樓價／房價」是「house prices」的用法，與本句語境不同。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。"
+        "house-reviewed-3ed4648872": "對照完整句子：「那家時裝品牌／公司推出新系列。」。這裡的「house」表示「某些行業中的公司、商號或機構，尤其常見於出版、時裝、設計等領域」。",
+        "house-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "house-mcq-01"
+      "correctOption": "house-reviewed-3ed4648872",
+      "previousCorrectOption": "house-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "house-07-0",
@@ -1020,11 +1004,9 @@ export default {
       "masked": "The novel was accepted by a small ____.",
       "options": [
         "house-mcq-05",
-        "house-mcq-04",
-        "house-mcq-06",
-        "house-mcq-03",
-        "house-mcq-07",
-        "house-mcq-02"
+        "house-mcq-16",
+        "house-mcq-17",
+        "house-mcq-19"
       ],
       "explanation": "本句的「publishing house」指「出版社」。",
       "sentenceIndex": 12,
@@ -1033,12 +1015,10 @@ export default {
         "publishing house"
       ],
       "optionReasons": {
-        "house-mcq-05": "本句指「出版社」。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。",
-        "house-mcq-03": "「樓價／房價」是「house prices」的用法，與本句語境不同。",
-        "house-mcq-07": "「X 家族／王朝」是「House of X」的用法，與本句語境不同。",
-        "house-mcq-02": "「在某人家」是「at someone's house」的用法，與本句語境不同。"
+        "house-mcq-05": "本句的「publishing house」指「出版社」。",
+        "house-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-05"
     },
@@ -1050,11 +1030,9 @@ export default {
       "masked": "Several ____ attended the book fair.",
       "options": [
         "house-mcq-05",
-        "house-mcq-04",
-        "house-mcq-06",
-        "house-mcq-03",
-        "house-mcq-07",
-        "house-mcq-02"
+        "house-mcq-19",
+        "house-mcq-24",
+        "house-mcq-06"
       ],
       "explanation": "本句的「publishing houses」指「出版社」。",
       "sentenceIndex": 13,
@@ -1063,12 +1041,10 @@ export default {
         "publishing houses"
       ],
       "optionReasons": {
-        "house-mcq-05": "本句指「出版社」。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。",
-        "house-mcq-03": "「樓價／房價」是「house prices」的用法，與本句語境不同。",
-        "house-mcq-07": "「X 家族／王朝」是「House of X」的用法，與本句語境不同。",
-        "house-mcq-02": "「在某人家」是「at someone's house」的用法，與本句語境不同。"
+        "house-mcq-05": "本句的「publishing houses」指「出版社」。",
+        "house-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-05"
     },
@@ -1080,11 +1056,9 @@ export default {
       "masked": "She designs for a French ____.",
       "options": [
         "house-mcq-06",
-        "house-mcq-05",
-        "house-mcq-07",
-        "house-mcq-04",
-        "house-mcq-08",
-        "house-mcq-03"
+        "house-mcq-25",
+        "house-mcq-21",
+        "house-mcq-17"
       ],
       "explanation": "本句的「fashion house」指「時裝公司／品牌」。",
       "sentenceIndex": 14,
@@ -1093,12 +1067,10 @@ export default {
         "fashion house"
       ],
       "optionReasons": {
-        "house-mcq-06": "本句指「時裝公司／品牌」。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。",
-        "house-mcq-07": "「X 家族／王朝」是「House of X」的用法，與本句語境不同。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。",
-        "house-mcq-08": "「學社」是「school house」的用法，與本句語境不同。",
-        "house-mcq-03": "「樓價／房價」是「house prices」的用法，與本句語境不同。"
+        "house-mcq-06": "本句的「fashion house」指「時裝公司／品牌」。",
+        "house-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-06"
     },
@@ -1110,11 +1082,9 @@ export default {
       "masked": "The ____ is known for luxury clothing.",
       "options": [
         "house-mcq-06",
-        "house-mcq-05",
-        "house-mcq-07",
-        "house-mcq-04",
-        "house-mcq-08",
-        "house-mcq-03"
+        "house-mcq-16",
+        "house-mcq-28",
+        "house-mcq-18"
       ],
       "explanation": "本句的「fashion house」指「時裝公司／品牌」。",
       "sentenceIndex": 15,
@@ -1123,12 +1093,10 @@ export default {
         "fashion house"
       ],
       "optionReasons": {
-        "house-mcq-06": "本句指「時裝公司／品牌」。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。",
-        "house-mcq-07": "「X 家族／王朝」是「House of X」的用法，與本句語境不同。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。",
-        "house-mcq-08": "「學社」是「school house」的用法，與本句語境不同。",
-        "house-mcq-03": "「樓價／房價」是「house prices」的用法，與本句語境不同。"
+        "house-mcq-06": "本句的「fashion house」指「時裝公司／品牌」。",
+        "house-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-06"
     },
@@ -1141,10 +1109,8 @@ export default {
       "options": [
         "house-mcq-07",
         "house-mcq-06",
-        "house-mcq-08",
-        "house-mcq-05",
-        "house-mcq-09",
-        "house-mcq-04"
+        "house-mcq-25",
+        "house-mcq-20"
       ],
       "explanation": "本句的「House of Windsor」指「X 家族／王朝」。",
       "sentenceIndex": 16,
@@ -1153,12 +1119,10 @@ export default {
         "House of Windsor"
       ],
       "optionReasons": {
-        "house-mcq-07": "本句指「X 家族／王朝」。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。",
-        "house-mcq-08": "「學社」是「school house」的用法，與本句語境不同。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。",
-        "house-mcq-09": "「全場觀眾」是「the house (theatre)」的用法，與本句語境不同。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。"
+        "house-mcq-07": "本句的「House of Windsor」指「X 家族／王朝」。",
+        "house-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-07"
     },
@@ -1170,11 +1134,9 @@ export default {
       "masked": "Two noble ____ competed for power.",
       "options": [
         "house-mcq-07",
-        "house-mcq-06",
-        "house-mcq-08",
         "house-mcq-05",
-        "house-mcq-09",
-        "house-mcq-04"
+        "house-mcq-01",
+        "house-mcq-17"
       ],
       "explanation": "本句的「houses」指「X 家族／王朝」。",
       "sentenceIndex": 17,
@@ -1183,12 +1145,10 @@ export default {
         "houses"
       ],
       "optionReasons": {
-        "house-mcq-07": "本句指「X 家族／王朝」。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。",
-        "house-mcq-08": "「學社」是「school house」的用法，與本句語境不同。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。",
-        "house-mcq-09": "「全場觀眾」是「the house (theatre)」的用法，與本句語境不同。",
-        "house-mcq-04": "「議院」是「House (parliament)」的用法，與本句語境不同。"
+        "house-mcq-07": "本句的「houses」指「X 家族／王朝」。",
+        "house-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-07"
     },
@@ -1200,11 +1160,9 @@ export default {
       "masked": "Students compete for points for their ____.",
       "options": [
         "house-mcq-08",
-        "house-mcq-07",
-        "house-mcq-09",
-        "house-mcq-06",
+        "house-mcq-24",
         "house-mcq-10",
-        "house-mcq-05"
+        "house-mcq-28"
       ],
       "explanation": "本句的「house」指「學社」。",
       "sentenceIndex": 18,
@@ -1213,12 +1171,10 @@ export default {
         "house"
       ],
       "optionReasons": {
-        "house-mcq-08": "本句指「學社」。",
-        "house-mcq-07": "「X 家族／王朝」是「House of X」的用法，與本句語境不同。",
-        "house-mcq-09": "「全場觀眾」是「the house (theatre)」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。",
-        "house-mcq-10": "「滿座」是「full house」的用法，與本句語境不同。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。"
+        "house-mcq-08": "本句的「house」指「學社」。",
+        "house-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-08"
     },
@@ -1230,11 +1186,9 @@ export default {
       "masked": "She belongs to the blue ____.",
       "options": [
         "house-mcq-08",
-        "house-mcq-07",
-        "house-mcq-09",
-        "house-mcq-06",
+        "house-mcq-26",
         "house-mcq-10",
-        "house-mcq-05"
+        "house-mcq-25"
       ],
       "explanation": "本句的「house」指「學社」。",
       "sentenceIndex": 19,
@@ -1243,12 +1197,10 @@ export default {
         "house"
       ],
       "optionReasons": {
-        "house-mcq-08": "本句指「學社」。",
-        "house-mcq-07": "「X 家族／王朝」是「House of X」的用法，與本句語境不同。",
-        "house-mcq-09": "「全場觀眾」是「the house (theatre)」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。",
-        "house-mcq-10": "「滿座」是「full house」的用法，與本句語境不同。",
-        "house-mcq-05": "「出版社」是「publishing house」的用法，與本句語境不同。"
+        "house-mcq-08": "本句的「house」指「學社」。",
+        "house-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-08"
     },
@@ -1260,11 +1212,9 @@ export default {
       "masked": "The show played to a full ____.",
       "options": [
         "house-mcq-09",
-        "house-mcq-08",
-        "house-mcq-10",
-        "house-mcq-07",
-        "house-mcq-11",
-        "house-mcq-06"
+        "house-mcq-21",
+        "house-mcq-05",
+        "house-mcq-13"
       ],
       "explanation": "本句的「house」指「全場觀眾」。",
       "sentenceIndex": 20,
@@ -1273,12 +1223,10 @@ export default {
         "house"
       ],
       "optionReasons": {
-        "house-mcq-09": "本句指「全場觀眾」。",
-        "house-mcq-08": "「學社」是「school house」的用法，與本句語境不同。",
-        "house-mcq-10": "「滿座」是「full house」的用法，與本句語境不同。",
-        "house-mcq-07": "「X 家族／王朝」是「House of X」的用法，與本句語境不同。",
-        "house-mcq-11": "「葫蘆」是「full house (poker)」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。"
+        "house-mcq-09": "本句的「house」指「全場觀眾」。",
+        "house-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-09"
     },
@@ -1290,11 +1238,9 @@ export default {
       "masked": "The actor thanked the ____ at the end.",
       "options": [
         "house-mcq-09",
-        "house-mcq-08",
-        "house-mcq-10",
-        "house-mcq-07",
-        "house-mcq-11",
-        "house-mcq-06"
+        "house-mcq-29",
+        "house-mcq-28",
+        "house-mcq-27"
       ],
       "explanation": "本句的「house」指「全場觀眾」。",
       "sentenceIndex": 21,
@@ -1303,12 +1249,10 @@ export default {
         "house"
       ],
       "optionReasons": {
-        "house-mcq-09": "本句指「全場觀眾」。",
-        "house-mcq-08": "「學社」是「school house」的用法，與本句語境不同。",
-        "house-mcq-10": "「滿座」是「full house」的用法，與本句語境不同。",
-        "house-mcq-07": "「X 家族／王朝」是「House of X」的用法，與本句語境不同。",
-        "house-mcq-11": "「葫蘆」是「full house (poker)」的用法，與本句語境不同。",
-        "house-mcq-06": "「時裝公司／品牌」是「fashion house」的用法，與本句語境不同。"
+        "house-mcq-09": "本句的「house」指「全場觀眾」。",
+        "house-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-09"
     },
@@ -1320,11 +1264,9 @@ export default {
       "masked": "The concert attracted a ____.",
       "options": [
         "house-mcq-10",
-        "house-mcq-09",
-        "house-mcq-11",
-        "house-mcq-08",
         "house-mcq-12",
-        "house-mcq-07"
+        "house-mcq-21",
+        "house-mcq-15"
       ],
       "explanation": "本句的「full house」指「滿座」。",
       "sentenceIndex": 22,
@@ -1333,12 +1275,10 @@ export default {
         "full house"
       ],
       "optionReasons": {
-        "house-mcq-10": "本句指「滿座」。",
-        "house-mcq-09": "「全場觀眾」是「the house (theatre)」的用法，與本句語境不同。",
-        "house-mcq-11": "「葫蘆」是「full house (poker)」的用法，與本句語境不同。",
-        "house-mcq-08": "「學社」是「school house」的用法，與本句語境不同。",
-        "house-mcq-12": "「店家自選／招牌酒」是「house wine」的用法，與本句語境不同。",
-        "house-mcq-07": "「X 家族／王朝」是「House of X」的用法，與本句語境不同。"
+        "house-mcq-10": "本句的「full house」指「滿座」。",
+        "house-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-10"
     },
@@ -1350,11 +1290,9 @@ export default {
       "masked": "They performed to a ____ every night.",
       "options": [
         "house-mcq-10",
-        "house-mcq-09",
-        "house-mcq-11",
-        "house-mcq-08",
+        "house-mcq-28",
         "house-mcq-12",
-        "house-mcq-07"
+        "house-mcq-16"
       ],
       "explanation": "本句的「full house」指「滿座」。",
       "sentenceIndex": 23,
@@ -1363,12 +1301,10 @@ export default {
         "full house"
       ],
       "optionReasons": {
-        "house-mcq-10": "本句指「滿座」。",
-        "house-mcq-09": "「全場觀眾」是「the house (theatre)」的用法，與本句語境不同。",
-        "house-mcq-11": "「葫蘆」是「full house (poker)」的用法，與本句語境不同。",
-        "house-mcq-08": "「學社」是「school house」的用法，與本句語境不同。",
-        "house-mcq-12": "「店家自選／招牌酒」是「house wine」的用法，與本句語境不同。",
-        "house-mcq-07": "「X 家族／王朝」是「House of X」的用法，與本句語境不同。"
+        "house-mcq-10": "本句的「full house」指「滿座」。",
+        "house-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-10"
     },
@@ -1380,11 +1316,9 @@ export default {
       "masked": "He won with a ____.",
       "options": [
         "house-mcq-11",
-        "house-mcq-10",
+        "house-mcq-17",
         "house-mcq-12",
-        "house-mcq-09",
-        "house-mcq-13",
-        "house-mcq-08"
+        "house-mcq-26"
       ],
       "explanation": "本句的「full house」指「葫蘆」。",
       "sentenceIndex": 24,
@@ -1393,12 +1327,10 @@ export default {
         "full house"
       ],
       "optionReasons": {
-        "house-mcq-11": "本句指「葫蘆」。",
-        "house-mcq-10": "「滿座」是「full house」的用法，與本句語境不同。",
-        "house-mcq-12": "「店家自選／招牌酒」是「house wine」的用法，與本句語境不同。",
-        "house-mcq-09": "「全場觀眾」是「the house (theatre)」的用法，與本句語境不同。",
-        "house-mcq-13": "「機構統一風格」是「house style」的用法，與本句語境不同。",
-        "house-mcq-08": "「學社」是「school house」的用法，與本句語境不同。"
+        "house-mcq-11": "本句的「full house」指「葫蘆」。",
+        "house-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-11"
     },
@@ -1410,11 +1342,9 @@ export default {
       "masked": "A ____ beats a flush in standard poker rankings.",
       "options": [
         "house-mcq-11",
-        "house-mcq-10",
-        "house-mcq-12",
-        "house-mcq-09",
-        "house-mcq-13",
-        "house-mcq-08"
+        "house-mcq-01",
+        "house-reviewed-3ed4648872",
+        "house-mcq-27"
       ],
       "explanation": "本句的「full house」指「葫蘆」。",
       "sentenceIndex": 25,
@@ -1423,12 +1353,10 @@ export default {
         "full house"
       ],
       "optionReasons": {
-        "house-mcq-11": "本句指「葫蘆」。",
-        "house-mcq-10": "「滿座」是「full house」的用法，與本句語境不同。",
-        "house-mcq-12": "「店家自選／招牌酒」是「house wine」的用法，與本句語境不同。",
-        "house-mcq-09": "「全場觀眾」是「the house (theatre)」的用法，與本句語境不同。",
-        "house-mcq-13": "「機構統一風格」是「house style」的用法，與本句語境不同。",
-        "house-mcq-08": "「學社」是「school house」的用法，與本句語境不同。"
+        "house-mcq-11": "本句的「full house」指「葫蘆」。",
+        "house-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "house-reviewed-3ed4648872": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-11"
     },
@@ -1440,11 +1368,9 @@ export default {
       "masked": "We ordered the ____.",
       "options": [
         "house-mcq-12",
-        "house-mcq-11",
-        "house-mcq-13",
-        "house-mcq-10",
-        "house-mcq-14",
-        "house-mcq-09"
+        "house-mcq-17",
+        "house-mcq-18",
+        "house-mcq-27"
       ],
       "explanation": "本句的「house wine」指「店家自選／招牌酒」。",
       "sentenceIndex": 26,
@@ -1453,12 +1379,10 @@ export default {
         "house wine"
       ],
       "optionReasons": {
-        "house-mcq-12": "本句指「店家自選／招牌酒」。",
-        "house-mcq-11": "「葫蘆」是「full house (poker)」的用法，與本句語境不同。",
-        "house-mcq-13": "「機構統一風格」是「house style」的用法，與本句語境不同。",
-        "house-mcq-10": "「滿座」是「full house」的用法，與本句語境不同。",
-        "house-mcq-14": "「浩室音樂」是「house music」的用法，與本句語境不同。",
-        "house-mcq-09": "「全場觀眾」是「the house (theatre)」的用法，與本句語境不同。"
+        "house-mcq-12": "本句的「house wine」指「店家自選／招牌酒」。",
+        "house-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-12"
     },
@@ -1470,11 +1394,9 @@ export default {
       "masked": "Try the ____.",
       "options": [
         "house-mcq-12",
-        "house-mcq-11",
         "house-mcq-13",
         "house-mcq-10",
-        "house-mcq-14",
-        "house-mcq-09"
+        "house-mcq-05"
       ],
       "explanation": "本句的「house special」指「店家自選／招牌酒」。",
       "sentenceIndex": 27,
@@ -1483,12 +1405,10 @@ export default {
         "house special"
       ],
       "optionReasons": {
-        "house-mcq-12": "本句指「店家自選／招牌酒」。",
-        "house-mcq-11": "「葫蘆」是「full house (poker)」的用法，與本句語境不同。",
-        "house-mcq-13": "「機構統一風格」是「house style」的用法，與本句語境不同。",
-        "house-mcq-10": "「滿座」是「full house」的用法，與本句語境不同。",
-        "house-mcq-14": "「浩室音樂」是「house music」的用法，與本句語境不同。",
-        "house-mcq-09": "「全場觀眾」是「the house (theatre)」的用法，與本句語境不同。"
+        "house-mcq-12": "本句的「house special」指「店家自選／招牌酒」。",
+        "house-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-12"
     },
@@ -1500,11 +1420,9 @@ export default {
       "masked": "The newspaper follows a strict ____.",
       "options": [
         "house-mcq-13",
-        "house-mcq-12",
-        "house-mcq-14",
+        "house-mcq-10",
         "house-mcq-11",
-        "house-mcq-15",
-        "house-mcq-10"
+        "house-mcq-16"
       ],
       "explanation": "本句的「house style」指「機構統一風格」。",
       "sentenceIndex": 28,
@@ -1513,12 +1431,10 @@ export default {
         "house style"
       ],
       "optionReasons": {
-        "house-mcq-13": "本句指「機構統一風格」。",
-        "house-mcq-12": "「店家自選／招牌酒」是「house wine」的用法，與本句語境不同。",
-        "house-mcq-14": "「浩室音樂」是「house music」的用法，與本句語境不同。",
-        "house-mcq-11": "「葫蘆」是「full house (poker)」的用法，與本句語境不同。",
-        "house-mcq-15": "「安置某人」是「house someone」的用法，與本句語境不同。",
-        "house-mcq-10": "「滿座」是「full house」的用法，與本句語境不同。"
+        "house-mcq-13": "本句的「house style」指「機構統一風格」。",
+        "house-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-13"
     },
@@ -1530,11 +1446,9 @@ export default {
       "masked": "Editors must follow the publisher's ____.",
       "options": [
         "house-mcq-13",
+        "house-mcq-25",
         "house-mcq-12",
-        "house-mcq-14",
-        "house-mcq-11",
-        "house-mcq-15",
-        "house-mcq-10"
+        "house-mcq-09"
       ],
       "explanation": "本句的「house style」指「機構統一風格」。",
       "sentenceIndex": 29,
@@ -1543,12 +1457,10 @@ export default {
         "house style"
       ],
       "optionReasons": {
-        "house-mcq-13": "本句指「機構統一風格」。",
-        "house-mcq-12": "「店家自選／招牌酒」是「house wine」的用法，與本句語境不同。",
-        "house-mcq-14": "「浩室音樂」是「house music」的用法，與本句語境不同。",
-        "house-mcq-11": "「葫蘆」是「full house (poker)」的用法，與本句語境不同。",
-        "house-mcq-15": "「安置某人」是「house someone」的用法，與本句語境不同。",
-        "house-mcq-10": "「滿座」是「full house」的用法，與本句語境不同。"
+        "house-mcq-13": "本句的「house style」指「機構統一風格」。",
+        "house-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-13"
     },
@@ -1560,11 +1472,9 @@ export default {
       "masked": "The club mainly plays ____.",
       "options": [
         "house-mcq-14",
-        "house-mcq-13",
-        "house-mcq-15",
-        "house-mcq-12",
         "house-mcq-16",
-        "house-mcq-11"
+        "house-mcq-07",
+        "house-mcq-27"
       ],
       "explanation": "本句的「house」指「浩室音樂」。",
       "sentenceIndex": 30,
@@ -1573,12 +1483,10 @@ export default {
         "house"
       ],
       "optionReasons": {
-        "house-mcq-14": "本句指「浩室音樂」。",
-        "house-mcq-13": "「機構統一風格」是「house style」的用法，與本句語境不同。",
-        "house-mcq-15": "「安置某人」是「house someone」的用法，與本句語境不同。",
-        "house-mcq-12": "「店家自選／招牌酒」是「house wine」的用法，與本句語境不同。",
-        "house-mcq-16": "「容納／收藏某物」是「house something」的用法，與本句語境不同。",
-        "house-mcq-11": "「葫蘆」是「full house (poker)」的用法，與本句語境不同。"
+        "house-mcq-14": "本句的「house」指「浩室音樂」。",
+        "house-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-14"
     },
@@ -1590,11 +1498,9 @@ export default {
       "masked": "She listens to electronic music, especially ____.",
       "options": [
         "house-mcq-14",
-        "house-mcq-13",
-        "house-mcq-15",
-        "house-mcq-12",
-        "house-mcq-16",
-        "house-mcq-11"
+        "house-mcq-27",
+        "house-mcq-07",
+        "house-mcq-28"
       ],
       "explanation": "本句的「house」指「浩室音樂」。",
       "sentenceIndex": 31,
@@ -1603,12 +1509,10 @@ export default {
         "house"
       ],
       "optionReasons": {
-        "house-mcq-14": "本句指「浩室音樂」。",
-        "house-mcq-13": "「機構統一風格」是「house style」的用法，與本句語境不同。",
-        "house-mcq-15": "「安置某人」是「house someone」的用法，與本句語境不同。",
-        "house-mcq-12": "「店家自選／招牌酒」是「house wine」的用法，與本句語境不同。",
-        "house-mcq-16": "「容納／收藏某物」是「house something」的用法，與本句語境不同。",
-        "house-mcq-11": "「葫蘆」是「full house (poker)」的用法，與本句語境不同。"
+        "house-mcq-14": "本句的「house」指「浩室音樂」。",
+        "house-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-14"
     },
@@ -1620,11 +1524,9 @@ export default {
       "masked": "The building ____ hundreds of students.",
       "options": [
         "house-mcq-15",
-        "house-mcq-14",
-        "house-mcq-16",
-        "house-mcq-13",
         "house-mcq-17",
-        "house-mcq-12"
+        "house-mcq-19",
+        "house-mcq-09"
       ],
       "explanation": "本句的「houses」指「安置某人」。",
       "sentenceIndex": 32,
@@ -1633,12 +1535,10 @@ export default {
         "houses"
       ],
       "optionReasons": {
-        "house-mcq-15": "本句指「安置某人」。",
-        "house-mcq-14": "「浩室音樂」是「house music」的用法，與本句語境不同。",
-        "house-mcq-16": "「容納／收藏某物」是「house something」的用法，與本句語境不同。",
-        "house-mcq-13": "「機構統一風格」是「house style」的用法，與本句語境不同。",
-        "house-mcq-17": "「設於／存放於」是「be housed in」的用法，與本句語境不同。",
-        "house-mcq-12": "「店家自選／招牌酒」是「house wine」的用法，與本句語境不同。"
+        "house-mcq-15": "本句的「houses」指「安置某人」。",
+        "house-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-15"
     },
@@ -1650,11 +1550,9 @@ export default {
       "masked": "The centre can ____ fifty people overnight.",
       "options": [
         "house-mcq-15",
-        "house-mcq-14",
-        "house-mcq-16",
-        "house-mcq-13",
-        "house-mcq-17",
-        "house-mcq-12"
+        "house-mcq-26",
+        "house-mcq-21",
+        "house-mcq-28"
       ],
       "explanation": "本句的「house」指「安置某人」。",
       "sentenceIndex": 33,
@@ -1663,12 +1561,10 @@ export default {
         "house"
       ],
       "optionReasons": {
-        "house-mcq-15": "本句指「安置某人」。",
-        "house-mcq-14": "「浩室音樂」是「house music」的用法，與本句語境不同。",
-        "house-mcq-16": "「容納／收藏某物」是「house something」的用法，與本句語境不同。",
-        "house-mcq-13": "「機構統一風格」是「house style」的用法，與本句語境不同。",
-        "house-mcq-17": "「設於／存放於」是「be housed in」的用法，與本句語境不同。",
-        "house-mcq-12": "「店家自選／招牌酒」是「house wine」的用法，與本句語境不同。"
+        "house-mcq-15": "本句的「house」指「安置某人」。",
+        "house-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-15"
     },
@@ -1680,11 +1576,9 @@ export default {
       "masked": "The museum ____ a large collection of paintings.",
       "options": [
         "house-mcq-16",
-        "house-mcq-15",
-        "house-mcq-17",
-        "house-mcq-14",
-        "house-mcq-18",
-        "house-mcq-13"
+        "house-mcq-23",
+        "house-mcq-27",
+        "house-mcq-25"
       ],
       "explanation": "本句的「houses」指「容納／收藏某物」。",
       "sentenceIndex": 34,
@@ -1693,12 +1587,10 @@ export default {
         "houses"
       ],
       "optionReasons": {
-        "house-mcq-16": "本句指「容納／收藏某物」。",
-        "house-mcq-15": "「安置某人」是「house someone」的用法，與本句語境不同。",
-        "house-mcq-17": "「設於／存放於」是「be housed in」的用法，與本句語境不同。",
-        "house-mcq-14": "「浩室音樂」是「house music」的用法，與本句語境不同。",
-        "house-mcq-18": "「住房；住宅供應」是「housing」的用法，與本句語境不同。",
-        "house-mcq-13": "「機構統一風格」是「house style」的用法，與本句語境不同。"
+        "house-mcq-16": "本句的「houses」指「容納／收藏某物」。",
+        "house-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-16"
     },
@@ -1710,11 +1602,9 @@ export default {
       "masked": "The building ____ several offices.",
       "options": [
         "house-mcq-16",
-        "house-mcq-15",
-        "house-mcq-17",
         "house-mcq-14",
-        "house-mcq-18",
-        "house-mcq-13"
+        "house-mcq-29",
+        "house-mcq-06"
       ],
       "explanation": "本句的「houses」指「容納／收藏某物」。",
       "sentenceIndex": 35,
@@ -1723,12 +1613,10 @@ export default {
         "houses"
       ],
       "optionReasons": {
-        "house-mcq-16": "本句指「容納／收藏某物」。",
-        "house-mcq-15": "「安置某人」是「house someone」的用法，與本句語境不同。",
-        "house-mcq-17": "「設於／存放於」是「be housed in」的用法，與本句語境不同。",
-        "house-mcq-14": "「浩室音樂」是「house music」的用法，與本句語境不同。",
-        "house-mcq-18": "「住房；住宅供應」是「housing」的用法，與本句語境不同。",
-        "house-mcq-13": "「機構統一風格」是「house style」的用法，與本句語境不同。"
+        "house-mcq-16": "本句的「houses」指「容納／收藏某物」。",
+        "house-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-16"
     },
@@ -1740,11 +1628,9 @@ export default {
       "masked": "The archive is ____ an old building.",
       "options": [
         "house-mcq-17",
-        "house-mcq-16",
-        "house-mcq-18",
-        "house-mcq-15",
-        "house-mcq-19",
-        "house-mcq-14"
+        "house-mcq-10",
+        "house-mcq-08",
+        "house-mcq-13"
       ],
       "explanation": "本句的「housed in」指「設於／存放於」。",
       "sentenceIndex": 36,
@@ -1753,12 +1639,10 @@ export default {
         "housed in"
       ],
       "optionReasons": {
-        "house-mcq-17": "本句指「設於／存放於」。",
-        "house-mcq-16": "「容納／收藏某物」是「house something」的用法，與本句語境不同。",
-        "house-mcq-18": "「住房；住宅供應」是「housing」的用法，與本句語境不同。",
-        "house-mcq-15": "「安置某人」是「house someone」的用法，與本句語境不同。",
-        "house-mcq-19": "「公營住房」是「public housing」的用法，與本句語境不同。",
-        "house-mcq-14": "「浩室音樂」是「house music」的用法，與本句語境不同。"
+        "house-mcq-17": "本句的「housed in」指「設於／存放於」。",
+        "house-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-17"
     },
@@ -1770,11 +1654,9 @@ export default {
       "masked": "The collection is ____ a secure room.",
       "options": [
         "house-mcq-17",
-        "house-mcq-16",
-        "house-mcq-18",
-        "house-mcq-15",
-        "house-mcq-19",
-        "house-mcq-14"
+        "house-mcq-07",
+        "house-mcq-25",
+        "house-mcq-05"
       ],
       "explanation": "本句的「housed in」指「設於／存放於」。",
       "sentenceIndex": 37,
@@ -1783,12 +1665,10 @@ export default {
         "housed in"
       ],
       "optionReasons": {
-        "house-mcq-17": "本句指「設於／存放於」。",
-        "house-mcq-16": "「容納／收藏某物」是「house something」的用法，與本句語境不同。",
-        "house-mcq-18": "「住房；住宅供應」是「housing」的用法，與本句語境不同。",
-        "house-mcq-15": "「安置某人」是「house someone」的用法，與本句語境不同。",
-        "house-mcq-19": "「公營住房」是「public housing」的用法，與本句語境不同。",
-        "house-mcq-14": "「浩室音樂」是「house music」的用法，與本句語境不同。"
+        "house-mcq-17": "本句的「housed in」指「設於／存放於」。",
+        "house-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-17"
     },
@@ -1800,11 +1680,9 @@ export default {
       "masked": "The city needs more affordable ____.",
       "options": [
         "house-mcq-18",
-        "house-mcq-17",
-        "house-mcq-19",
-        "house-mcq-16",
-        "house-mcq-20",
-        "house-mcq-15"
+        "house-reviewed-3ed4648872",
+        "house-mcq-24",
+        "house-mcq-16"
       ],
       "explanation": "本句的「housing」指「住房；住宅供應」。",
       "sentenceIndex": 38,
@@ -1813,12 +1691,10 @@ export default {
         "housing"
       ],
       "optionReasons": {
-        "house-mcq-18": "本句指「住房；住宅供應」。",
-        "house-mcq-17": "「設於／存放於」是「be housed in」的用法，與本句語境不同。",
-        "house-mcq-19": "「公營住房」是「public housing」的用法，與本句語境不同。",
-        "house-mcq-16": "「容納／收藏某物」是「house something」的用法，與本句語境不同。",
-        "house-mcq-20": "「外殼；機殼」是「housing (technical)」的用法，與本句語境不同。",
-        "house-mcq-15": "「安置某人」是「house someone」的用法，與本句語境不同。"
+        "house-mcq-18": "本句的「housing」指「住房；住宅供應」。",
+        "house-reviewed-3ed4648872": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-18"
     },
@@ -1830,11 +1706,9 @@ export default {
       "masked": "____ have increased.",
       "options": [
         "house-mcq-18",
-        "house-mcq-17",
-        "house-mcq-19",
         "house-mcq-16",
-        "house-mcq-20",
-        "house-mcq-15"
+        "house-mcq-09",
+        "house-mcq-07"
       ],
       "explanation": "本句的「Housing costs」指「住房；住宅供應」。",
       "sentenceIndex": 39,
@@ -1843,12 +1717,10 @@ export default {
         "Housing costs"
       ],
       "optionReasons": {
-        "house-mcq-18": "本句指「住房；住宅供應」。",
-        "house-mcq-17": "「設於／存放於」是「be housed in」的用法，與本句語境不同。",
-        "house-mcq-19": "「公營住房」是「public housing」的用法，與本句語境不同。",
-        "house-mcq-16": "「容納／收藏某物」是「house something」的用法，與本句語境不同。",
-        "house-mcq-20": "「外殼；機殼」是「housing (technical)」的用法，與本句語境不同。",
-        "house-mcq-15": "「安置某人」是「house someone」的用法，與本句語境不同。"
+        "house-mcq-18": "本句的「Housing costs」指「住房；住宅供應」。",
+        "house-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-18"
     },
@@ -1860,11 +1732,9 @@ export default {
       "masked": "The government plans to build more ____.",
       "options": [
         "house-mcq-19",
-        "house-mcq-18",
-        "house-mcq-20",
-        "house-mcq-17",
-        "house-mcq-21",
-        "house-mcq-16"
+        "house-mcq-28",
+        "house-mcq-11",
+        "house-mcq-14"
       ],
       "explanation": "本句的「public housing」指「公營住房」。",
       "sentenceIndex": 40,
@@ -1873,12 +1743,10 @@ export default {
         "public housing"
       ],
       "optionReasons": {
-        "house-mcq-19": "本句指「公營住房」。",
-        "house-mcq-18": "「住房；住宅供應」是「housing」的用法，與本句語境不同。",
-        "house-mcq-20": "「外殼；機殼」是「housing (technical)」的用法，與本句語境不同。",
-        "house-mcq-17": "「設於／存放於」是「be housed in」的用法，與本句語境不同。",
-        "house-mcq-21": "「家庭；住戶」是「household」的用法，與本句語境不同。",
-        "house-mcq-16": "「容納／收藏某物」是「house something」的用法，與本句語境不同。"
+        "house-mcq-19": "本句的「public housing」指「公營住房」。",
+        "house-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-19"
     },
@@ -1890,11 +1758,9 @@ export default {
       "masked": "Many families depend on ____.",
       "options": [
         "house-mcq-19",
-        "house-mcq-18",
-        "house-mcq-20",
-        "house-mcq-17",
-        "house-mcq-21",
-        "house-mcq-16"
+        "house-mcq-05",
+        "house-mcq-16",
+        "house-mcq-24"
       ],
       "explanation": "本句的「social housing」指「公營住房」。",
       "sentenceIndex": 41,
@@ -1903,12 +1769,10 @@ export default {
         "social housing"
       ],
       "optionReasons": {
-        "house-mcq-19": "本句指「公營住房」。",
-        "house-mcq-18": "「住房；住宅供應」是「housing」的用法，與本句語境不同。",
-        "house-mcq-20": "「外殼；機殼」是「housing (technical)」的用法，與本句語境不同。",
-        "house-mcq-17": "「設於／存放於」是「be housed in」的用法，與本句語境不同。",
-        "house-mcq-21": "「家庭；住戶」是「household」的用法，與本句語境不同。",
-        "house-mcq-16": "「容納／收藏某物」是「house something」的用法，與本句語境不同。"
+        "house-mcq-19": "本句的「social housing」指「公營住房」。",
+        "house-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-19"
     },
@@ -1920,11 +1784,9 @@ export default {
       "masked": "The motor is protected by a metal ____.",
       "options": [
         "house-mcq-20",
-        "house-mcq-19",
-        "house-mcq-21",
-        "house-mcq-18",
-        "house-mcq-22",
-        "house-mcq-17"
+        "house-mcq-05",
+        "house-mcq-29",
+        "house-mcq-09"
       ],
       "explanation": "本句的「housing」指「外殼；機殼」。",
       "sentenceIndex": 42,
@@ -1933,12 +1795,10 @@ export default {
         "housing"
       ],
       "optionReasons": {
-        "house-mcq-20": "本句指「外殼；機殼」。",
-        "house-mcq-19": "「公營住房」是「public housing」的用法，與本句語境不同。",
-        "house-mcq-21": "「家庭；住戶」是「household」的用法，與本句語境不同。",
-        "house-mcq-18": "「住房；住宅供應」是「housing」的用法，與本句語境不同。",
-        "house-mcq-22": "「家居用品」是「household goods」的用法，與本句語境不同。",
-        "house-mcq-17": "「設於／存放於」是「be housed in」的用法，與本句語境不同。"
+        "house-mcq-20": "本句的「housing」指「外殼；機殼」。",
+        "house-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-20"
     },
@@ -1950,11 +1810,9 @@ export default {
       "masked": "Remove the plastic ____ carefully.",
       "options": [
         "house-mcq-20",
-        "house-mcq-19",
-        "house-mcq-21",
-        "house-mcq-18",
-        "house-mcq-22",
-        "house-mcq-17"
+        "house-mcq-05",
+        "house-mcq-14",
+        "house-mcq-12"
       ],
       "explanation": "本句的「housing」指「外殼；機殼」。",
       "sentenceIndex": 43,
@@ -1963,12 +1821,10 @@ export default {
         "housing"
       ],
       "optionReasons": {
-        "house-mcq-20": "本句指「外殼；機殼」。",
-        "house-mcq-19": "「公營住房」是「public housing」的用法，與本句語境不同。",
-        "house-mcq-21": "「家庭；住戶」是「household」的用法，與本句語境不同。",
-        "house-mcq-18": "「住房；住宅供應」是「housing」的用法，與本句語境不同。",
-        "house-mcq-22": "「家居用品」是「household goods」的用法，與本句語境不同。",
-        "house-mcq-17": "「設於／存放於」是「be housed in」的用法，與本句語境不同。"
+        "house-mcq-20": "本句的「housing」指「外殼；機殼」。",
+        "house-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-20"
     },
@@ -1980,11 +1836,9 @@ export default {
       "masked": "The average ____ has three people.",
       "options": [
         "house-mcq-21",
-        "house-mcq-20",
-        "house-mcq-22",
-        "house-mcq-19",
-        "house-mcq-23",
-        "house-mcq-18"
+        "house-mcq-16",
+        "house-mcq-29",
+        "house-mcq-13"
       ],
       "explanation": "本句的「household」指「家庭；住戶」。",
       "sentenceIndex": 44,
@@ -1993,12 +1847,10 @@ export default {
         "household"
       ],
       "optionReasons": {
-        "house-mcq-21": "本句指「家庭；住戶」。",
-        "house-mcq-20": "「外殼；機殼」是「housing (technical)」的用法，與本句語境不同。",
-        "house-mcq-22": "「家居用品」是「household goods」的用法，與本句語境不同。",
-        "house-mcq-19": "「公營住房」是「public housing」的用法，與本句語境不同。",
-        "house-mcq-23": "「家喻戶曉的人／品牌」是「household name」的用法，與本句語境不同。",
-        "house-mcq-18": "「住房；住宅供應」是「housing」的用法，與本句語境不同。"
+        "house-mcq-21": "本句的「household」指「家庭；住戶」。",
+        "house-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-21"
     },
@@ -2010,11 +1862,9 @@ export default {
       "masked": "Each ____ received a notice.",
       "options": [
         "house-mcq-21",
-        "house-mcq-20",
-        "house-mcq-22",
-        "house-mcq-19",
-        "house-mcq-23",
-        "house-mcq-18"
+        "house-mcq-06",
+        "house-mcq-17",
+        "house-mcq-16"
       ],
       "explanation": "本句的「household」指「家庭；住戶」。",
       "sentenceIndex": 45,
@@ -2023,12 +1873,10 @@ export default {
         "household"
       ],
       "optionReasons": {
-        "house-mcq-21": "本句指「家庭；住戶」。",
-        "house-mcq-20": "「外殼；機殼」是「housing (technical)」的用法，與本句語境不同。",
-        "house-mcq-22": "「家居用品」是「household goods」的用法，與本句語境不同。",
-        "house-mcq-19": "「公營住房」是「public housing」的用法，與本句語境不同。",
-        "house-mcq-23": "「家喻戶曉的人／品牌」是「household name」的用法，與本句語境不同。",
-        "house-mcq-18": "「住房；住宅供應」是「housing」的用法，與本句語境不同。"
+        "house-mcq-21": "本句的「household」指「家庭；住戶」。",
+        "house-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-21"
     },
@@ -2040,11 +1888,9 @@ export default {
       "masked": "Food is a major ____.",
       "options": [
         "house-mcq-22",
-        "house-mcq-21",
-        "house-mcq-23",
-        "house-mcq-20",
-        "house-mcq-24",
-        "house-mcq-19"
+        "house-mcq-08",
+        "house-mcq-18",
+        "house-mcq-14"
       ],
       "explanation": "本句的「household expense」指「家居用品」。",
       "sentenceIndex": 46,
@@ -2053,12 +1899,10 @@ export default {
         "household expense"
       ],
       "optionReasons": {
-        "house-mcq-22": "本句指「家居用品」。",
-        "house-mcq-21": "「家庭；住戶」是「household」的用法，與本句語境不同。",
-        "house-mcq-23": "「家喻戶曉的人／品牌」是「household name」的用法，與本句語境不同。",
-        "house-mcq-20": "「外殼；機殼」是「housing (technical)」的用法，與本句語境不同。",
-        "house-mcq-24": "「家務」是「housework」的用法，與本句語境不同。",
-        "house-mcq-19": "「公營住房」是「public housing」的用法，與本句語境不同。"
+        "house-mcq-22": "本句的「household expense」指「家居用品」。",
+        "house-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-22"
     },
@@ -2070,11 +1914,9 @@ export default {
       "masked": "The shop sells ____.",
       "options": [
         "house-mcq-22",
-        "house-mcq-21",
-        "house-mcq-23",
-        "house-mcq-20",
-        "house-mcq-24",
-        "house-mcq-19"
+        "house-mcq-25",
+        "house-mcq-08",
+        "house-mcq-01"
       ],
       "explanation": "本句的「household goods」指「家居用品」。",
       "sentenceIndex": 47,
@@ -2083,12 +1925,10 @@ export default {
         "household goods"
       ],
       "optionReasons": {
-        "house-mcq-22": "本句指「家居用品」。",
-        "house-mcq-21": "「家庭；住戶」是「household」的用法，與本句語境不同。",
-        "house-mcq-23": "「家喻戶曉的人／品牌」是「household name」的用法，與本句語境不同。",
-        "house-mcq-20": "「外殼；機殼」是「housing (technical)」的用法，與本句語境不同。",
-        "house-mcq-24": "「家務」是「housework」的用法，與本句語境不同。",
-        "house-mcq-19": "「公營住房」是「public housing」的用法，與本句語境不同。"
+        "house-mcq-22": "本句的「household goods」指「家居用品」。",
+        "house-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-22"
     },
@@ -2100,11 +1940,9 @@ export default {
       "masked": "The actor became a ____.",
       "options": [
         "house-mcq-23",
-        "house-mcq-22",
-        "house-mcq-24",
-        "house-mcq-21",
-        "house-mcq-25",
-        "house-mcq-20"
+        "house-mcq-28",
+        "house-mcq-16",
+        "house-mcq-05"
       ],
       "explanation": "本句的「household name」指「家喻戶曉的人／品牌」。",
       "sentenceIndex": 48,
@@ -2113,12 +1951,10 @@ export default {
         "household name"
       ],
       "optionReasons": {
-        "house-mcq-23": "本句指「家喻戶曉的人／品牌」。",
-        "house-mcq-22": "「家居用品」是「household goods」的用法，與本句語境不同。",
-        "house-mcq-24": "「家務」是「housework」的用法，與本句語境不同。",
-        "house-mcq-21": "「家庭；住戶」是「household」的用法，與本句語境不同。",
-        "house-mcq-25": "「室內植物」是「houseplant」的用法，與本句語境不同。",
-        "house-mcq-20": "「外殼；機殼」是「housing (technical)」的用法，與本句語境不同。"
+        "house-mcq-23": "本句的「household name」指「家喻戶曉的人／品牌」。",
+        "house-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-23"
     },
@@ -2130,11 +1966,9 @@ export default {
       "masked": "The brand is now a ____.",
       "options": [
         "house-mcq-23",
-        "house-mcq-22",
-        "house-mcq-24",
-        "house-mcq-21",
-        "house-mcq-25",
-        "house-mcq-20"
+        "house-mcq-11",
+        "house-mcq-19",
+        "house-mcq-27"
       ],
       "explanation": "本句的「household name」指「家喻戶曉的人／品牌」。",
       "sentenceIndex": 49,
@@ -2143,12 +1977,10 @@ export default {
         "household name"
       ],
       "optionReasons": {
-        "house-mcq-23": "本句指「家喻戶曉的人／品牌」。",
-        "house-mcq-22": "「家居用品」是「household goods」的用法，與本句語境不同。",
-        "house-mcq-24": "「家務」是「housework」的用法，與本句語境不同。",
-        "house-mcq-21": "「家庭；住戶」是「household」的用法，與本句語境不同。",
-        "house-mcq-25": "「室內植物」是「houseplant」的用法，與本句語境不同。",
-        "house-mcq-20": "「外殼；機殼」是「housing (technical)」的用法，與本句語境不同。"
+        "house-mcq-23": "本句的「household name」指「家喻戶曉的人／品牌」。",
+        "house-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-23"
     },
@@ -2160,11 +1992,9 @@ export default {
       "masked": "We share the ____.",
       "options": [
         "house-mcq-24",
-        "house-mcq-23",
-        "house-mcq-25",
-        "house-mcq-22",
-        "house-mcq-26",
-        "house-mcq-21"
+        "house-mcq-10",
+        "house-mcq-19",
+        "house-mcq-29"
       ],
       "explanation": "本句的「housework」指「家務」。",
       "sentenceIndex": 50,
@@ -2173,12 +2003,10 @@ export default {
         "housework"
       ],
       "optionReasons": {
-        "house-mcq-24": "本句指「家務」。",
-        "house-mcq-23": "「家喻戶曉的人／品牌」是「household name」的用法，與本句語境不同。",
-        "house-mcq-25": "「室內植物」是「houseplant」的用法，與本句語境不同。",
-        "house-mcq-22": "「家居用品」是「household goods」的用法，與本句語境不同。",
-        "house-mcq-26": "「軟禁；居家監禁」是「house arrest」的用法，與本句語境不同。",
-        "house-mcq-21": "「家庭；住戶」是「household」的用法，與本句語境不同。"
+        "house-mcq-24": "本句的「housework」指「家務」。",
+        "house-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-24"
     },
@@ -2190,11 +2018,9 @@ export default {
       "masked": "She spent the morning doing ____.",
       "options": [
         "house-mcq-24",
-        "house-mcq-23",
-        "house-mcq-25",
-        "house-mcq-22",
-        "house-mcq-26",
-        "house-mcq-21"
+        "house-mcq-08",
+        "house-mcq-10",
+        "house-mcq-09"
       ],
       "explanation": "本句的「housework」指「家務」。",
       "sentenceIndex": 51,
@@ -2203,12 +2029,10 @@ export default {
         "housework"
       ],
       "optionReasons": {
-        "house-mcq-24": "本句指「家務」。",
-        "house-mcq-23": "「家喻戶曉的人／品牌」是「household name」的用法，與本句語境不同。",
-        "house-mcq-25": "「室內植物」是「houseplant」的用法，與本句語境不同。",
-        "house-mcq-22": "「家居用品」是「household goods」的用法，與本句語境不同。",
-        "house-mcq-26": "「軟禁；居家監禁」是「house arrest」的用法，與本句語境不同。",
-        "house-mcq-21": "「家庭；住戶」是「household」的用法，與本句語境不同。"
+        "house-mcq-24": "本句的「housework」指「家務」。",
+        "house-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-24"
     },
@@ -2220,11 +2044,9 @@ export default {
       "masked": "She has several ____ by the window.",
       "options": [
         "house-mcq-25",
-        "house-mcq-24",
-        "house-mcq-26",
-        "house-mcq-23",
-        "house-mcq-27",
-        "house-mcq-22"
+        "house-mcq-22",
+        "house-mcq-29",
+        "house-mcq-20"
       ],
       "explanation": "本句的「houseplants」指「室內植物」。",
       "sentenceIndex": 52,
@@ -2233,12 +2055,10 @@ export default {
         "houseplants"
       ],
       "optionReasons": {
-        "house-mcq-25": "本句指「室內植物」。",
-        "house-mcq-24": "「家務」是「housework」的用法，與本句語境不同。",
-        "house-mcq-26": "「軟禁；居家監禁」是「house arrest」的用法，與本句語境不同。",
-        "house-mcq-23": "「家喻戶曉的人／品牌」是「household name」的用法，與本句語境不同。",
-        "house-mcq-27": "「博得滿堂喝采」是「bring the house down」的用法，與本句語境不同。",
-        "house-mcq-22": "「家居用品」是「household goods」的用法，與本句語境不同。"
+        "house-mcq-25": "本句的「houseplants」指「室內植物」。",
+        "house-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-25"
     },
@@ -2250,11 +2070,9 @@ export default {
       "masked": "This is an easy ____ to care for.",
       "options": [
         "house-mcq-25",
-        "house-mcq-24",
-        "house-mcq-26",
-        "house-mcq-23",
-        "house-mcq-27",
-        "house-mcq-22"
+        "house-mcq-07",
+        "house-mcq-12",
+        "house-mcq-28"
       ],
       "explanation": "本句的「houseplant」指「室內植物」。",
       "sentenceIndex": 53,
@@ -2263,12 +2081,10 @@ export default {
         "houseplant"
       ],
       "optionReasons": {
-        "house-mcq-25": "本句指「室內植物」。",
-        "house-mcq-24": "「家務」是「housework」的用法，與本句語境不同。",
-        "house-mcq-26": "「軟禁；居家監禁」是「house arrest」的用法，與本句語境不同。",
-        "house-mcq-23": "「家喻戶曉的人／品牌」是「household name」的用法，與本句語境不同。",
-        "house-mcq-27": "「博得滿堂喝采」是「bring the house down」的用法，與本句語境不同。",
-        "house-mcq-22": "「家居用品」是「household goods」的用法，與本句語境不同。"
+        "house-mcq-25": "本句的「houseplant」指「室內植物」。",
+        "house-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-25"
     },
@@ -2280,11 +2096,9 @@ export default {
       "masked": "He was placed under ____.",
       "options": [
         "house-mcq-26",
-        "house-mcq-25",
-        "house-mcq-27",
-        "house-mcq-24",
         "house-mcq-28",
-        "house-mcq-23"
+        "house-mcq-29",
+        "house-mcq-25"
       ],
       "explanation": "本句的「house arrest」指「軟禁；居家監禁」。",
       "sentenceIndex": 54,
@@ -2293,12 +2107,10 @@ export default {
         "house arrest"
       ],
       "optionReasons": {
-        "house-mcq-26": "本句指「軟禁；居家監禁」。",
-        "house-mcq-25": "「室內植物」是「houseplant」的用法，與本句語境不同。",
-        "house-mcq-27": "「博得滿堂喝采」是「bring the house down」的用法，與本句語境不同。",
-        "house-mcq-24": "「家務」是「housework」的用法，與本句語境不同。",
-        "house-mcq-28": "「表示某個正式議會議院名稱」是「5. the House of Commons / House of Lords — 下議院／上議院」的用法，與本句語境不同。",
-        "house-mcq-23": "「家喻戶曉的人／品牌」是「household name」的用法，與本句語境不同。"
+        "house-mcq-26": "本句的「house arrest」指「軟禁；居家監禁」。",
+        "house-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-26"
     },
@@ -2310,11 +2122,9 @@ export default {
       "masked": "She remained under ____ for several months.",
       "options": [
         "house-mcq-26",
-        "house-mcq-25",
-        "house-mcq-27",
-        "house-mcq-24",
-        "house-mcq-28",
-        "house-mcq-23"
+        "house-mcq-06",
+        "house-mcq-10",
+        "house-mcq-08"
       ],
       "explanation": "本句的「house arrest」指「軟禁；居家監禁」。",
       "sentenceIndex": 55,
@@ -2323,12 +2133,10 @@ export default {
         "house arrest"
       ],
       "optionReasons": {
-        "house-mcq-26": "本句指「軟禁；居家監禁」。",
-        "house-mcq-25": "「室內植物」是「houseplant」的用法，與本句語境不同。",
-        "house-mcq-27": "「博得滿堂喝采」是「bring the house down」的用法，與本句語境不同。",
-        "house-mcq-24": "「家務」是「housework」的用法，與本句語境不同。",
-        "house-mcq-28": "「表示某個正式議會議院名稱」是「5. the House of Commons / House of Lords — 下議院／上議院」的用法，與本句語境不同。",
-        "house-mcq-23": "「家喻戶曉的人／品牌」是「household name」的用法，與本句語境不同。"
+        "house-mcq-26": "本句的「house arrest」指「軟禁；居家監禁」。",
+        "house-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-26"
     },
@@ -2340,11 +2148,9 @@ export default {
       "masked": "Her final song ____.",
       "options": [
         "house-mcq-27",
-        "house-mcq-26",
-        "house-mcq-28",
-        "house-mcq-25",
-        "house-mcq-29",
-        "house-mcq-24"
+        "house-mcq-01",
+        "house-mcq-15",
+        "house-mcq-28"
       ],
       "explanation": "本句的「brought the house down」指「博得滿堂喝采」。",
       "sentenceIndex": 56,
@@ -2353,12 +2159,10 @@ export default {
         "brought the house down"
       ],
       "optionReasons": {
-        "house-mcq-27": "本句指「博得滿堂喝采」。",
-        "house-mcq-26": "「軟禁；居家監禁」是「house arrest」的用法，與本句語境不同。",
-        "house-mcq-28": "「表示某個正式議會議院名稱」是「5. the House of Commons / House of Lords — 下議院／上議院」的用法，與本句語境不同。",
-        "house-mcq-25": "「室內植物」是「houseplant」的用法，與本句語境不同。",
-        "house-mcq-29": "「informal: 很快變得非常投契、相處得極好」是「30. get on like a house on fire — 一拍即合；非常投契」的用法，與本句語境不同。",
-        "house-mcq-24": "「家務」是「housework」的用法，與本句語境不同。"
+        "house-mcq-27": "本句的「brought the house down」指「博得滿堂喝采」。",
+        "house-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-27"
     },
@@ -2371,10 +2175,8 @@ export default {
       "options": [
         "house-mcq-27",
         "house-mcq-26",
-        "house-mcq-28",
-        "house-mcq-25",
-        "house-mcq-29",
-        "house-mcq-24"
+        "house-mcq-09",
+        "house-mcq-29"
       ],
       "explanation": "本句的「brought the house down」指「博得滿堂喝采」。",
       "sentenceIndex": 57,
@@ -2383,12 +2185,10 @@ export default {
         "brought the house down"
       ],
       "optionReasons": {
-        "house-mcq-27": "本句指「博得滿堂喝采」。",
-        "house-mcq-26": "「軟禁；居家監禁」是「house arrest」的用法，與本句語境不同。",
-        "house-mcq-28": "「表示某個正式議會議院名稱」是「5. the House of Commons / House of Lords — 下議院／上議院」的用法，與本句語境不同。",
-        "house-mcq-25": "「室內植物」是「houseplant」的用法，與本句語境不同。",
-        "house-mcq-29": "「informal: 很快變得非常投契、相處得極好」是「30. get on like a house on fire — 一拍即合；非常投契」的用法，與本句語境不同。",
-        "house-mcq-24": "「家務」是「housework」的用法，與本句語境不同。"
+        "house-mcq-27": "本句的「brought the house down」指「博得滿堂喝采」。",
+        "house-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-27"
     },
@@ -2400,11 +2200,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "house-mcq-29",
-        "house-mcq-28",
-        "house-mcq-27",
-        "house-mcq-26",
-        "house-mcq-25",
-        "house-mcq-24"
+        "house-reviewed-78f84a4157",
+        "house-mcq-17",
+        "house-mcq-14"
       ],
       "explanation": "本句的「got on like a house on fire」指「informal: 很快變得非常投契、相處得極好」。",
       "sentenceIndex": 58,
@@ -2413,12 +2211,10 @@ export default {
         "got on like a house on fire"
       ],
       "optionReasons": {
-        "house-mcq-29": "本句指「informal: 很快變得非常投契、相處得極好」。",
-        "house-mcq-28": "「表示某個正式議會議院名稱」是「5. the House of Commons / House of Lords — 下議院／上議院」的用法，與本句語境不同。",
-        "house-mcq-27": "「博得滿堂喝采」是「bring the house down」的用法，與本句語境不同。",
-        "house-mcq-26": "「軟禁；居家監禁」是「house arrest」的用法，與本句語境不同。",
-        "house-mcq-25": "「室內植物」是「houseplant」的用法，與本句語境不同。",
-        "house-mcq-24": "「家務」是「housework」的用法，與本句語境不同。"
+        "house-mcq-29": "本句的「got on like a house on fire」指「informal: 很快變得非常投契、相處得極好」。",
+        "house-reviewed-78f84a4157": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-29"
     },
@@ -2430,11 +2226,9 @@ export default {
       "masked": "The two children ____.",
       "options": [
         "house-mcq-29",
-        "house-mcq-28",
+        "house-reviewed-78f84a4157",
         "house-mcq-27",
-        "house-mcq-26",
-        "house-mcq-25",
-        "house-mcq-24"
+        "house-mcq-01"
       ],
       "explanation": "本句的「get on like a house on fire」指「informal: 很快變得非常投契、相處得極好」。",
       "sentenceIndex": 59,
@@ -2443,12 +2237,10 @@ export default {
         "get on like a house on fire"
       ],
       "optionReasons": {
-        "house-mcq-29": "本句指「informal: 很快變得非常投契、相處得極好」。",
-        "house-mcq-28": "「表示某個正式議會議院名稱」是「5. the House of Commons / House of Lords — 下議院／上議院」的用法，與本句語境不同。",
-        "house-mcq-27": "「博得滿堂喝采」是「bring the house down」的用法，與本句語境不同。",
-        "house-mcq-26": "「軟禁；居家監禁」是「house arrest」的用法，與本句語境不同。",
-        "house-mcq-25": "「室內植物」是「houseplant」的用法，與本句語境不同。",
-        "house-mcq-24": "「家務」是「housework」的用法，與本句語境不同。"
+        "house-mcq-29": "本句的「get on like a house on fire」指「informal: 很快變得非常投契、相處得極好」。",
+        "house-reviewed-78f84a4157": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "house-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "house-mcq-29"
     }
@@ -2460,5 +2252,7 @@ export default {
     "sha256": "c85554e7c6921e47c60f455188d6aa432a303efcc3dea453dc1f9b2a62b06756",
     "pages": 23
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -449,11 +449,9 @@ export default {
       "masked": "Being with him feels like opening a ____.",
       "options": [
         "window-mcq-01",
-        "window-mcq-02",
-        "window-mcq-03",
-        "window-mcq-04",
-        "window-mcq-05",
-        "window-mcq-06"
+        "window-mcq-21",
+        "window-mcq-07",
+        "window-mcq-20"
       ],
       "explanation": "本句的「window」指「窗；窗戶」。",
       "sentenceIndex": 0,
@@ -462,12 +460,10 @@ export default {
         "window"
       ],
       "optionReasons": {
-        "window-mcq-01": "本句指「窗；窗戶」。",
-        "window-mcq-02": "「打開窗戶」是「open a window」的用法，與本句語境不同。",
-        "window-mcq-03": "「從窗戶往外看」是「look out of the window」的用法，與本句語境不同。",
-        "window-mcq-04": "「窗框」是「window frame」的用法，與本句語境不同。",
-        "window-mcq-05": "「靠窗座位」是「window seat」的用法，與本句語境不同。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。"
+        "window-mcq-01": "本句的「window」指「窗；窗戶」。",
+        "window-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-01"
     },
@@ -479,11 +475,9 @@ export default {
       "masked": "She opened the ____ to let some fresh air in.",
       "options": [
         "window-mcq-01",
-        "window-mcq-02",
-        "window-mcq-03",
-        "window-mcq-04",
-        "window-mcq-05",
-        "window-mcq-06"
+        "window-mcq-20",
+        "window-mcq-07",
+        "window-mcq-12"
       ],
       "explanation": "本句的「window」指「窗；窗戶」。",
       "sentenceIndex": 1,
@@ -492,12 +486,10 @@ export default {
         "window"
       ],
       "optionReasons": {
-        "window-mcq-01": "本句指「窗；窗戶」。",
-        "window-mcq-02": "「打開窗戶」是「open a window」的用法，與本句語境不同。",
-        "window-mcq-03": "「從窗戶往外看」是「look out of the window」的用法，與本句語境不同。",
-        "window-mcq-04": "「窗框」是「window frame」的用法，與本句語境不同。",
-        "window-mcq-05": "「靠窗座位」是「window seat」的用法，與本句語境不同。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。"
+        "window-mcq-01": "本句的「window」指「窗；窗戶」。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-01"
     },
@@ -509,11 +501,9 @@ export default {
       "masked": "Rain was hitting the ____.",
       "options": [
         "window-mcq-01",
-        "window-mcq-02",
-        "window-mcq-03",
-        "window-mcq-04",
-        "window-mcq-05",
-        "window-mcq-06"
+        "window-mcq-20",
+        "window-mcq-21",
+        "window-mcq-07"
       ],
       "explanation": "本句的「window」指「窗；窗戶」。",
       "sentenceIndex": 2,
@@ -522,12 +512,10 @@ export default {
         "window"
       ],
       "optionReasons": {
-        "window-mcq-01": "本句指「窗；窗戶」。",
-        "window-mcq-02": "「打開窗戶」是「open a window」的用法，與本句語境不同。",
-        "window-mcq-03": "「從窗戶往外看」是「look out of the window」的用法，與本句語境不同。",
-        "window-mcq-04": "「窗框」是「window frame」的用法，與本句語境不同。",
-        "window-mcq-05": "「靠窗座位」是「window seat」的用法，與本句語境不同。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。"
+        "window-mcq-01": "本句的「window」指「窗；窗戶」。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-01"
     },
@@ -539,11 +527,9 @@ export default {
       "masked": "He stood by the ____ and looked outside.",
       "options": [
         "window-mcq-03",
-        "window-mcq-02",
-        "window-mcq-04",
-        "window-mcq-01",
-        "window-mcq-05",
-        "window-mcq-06"
+        "window-mcq-12",
+        "window-mcq-20",
+        "window-mcq-19"
       ],
       "explanation": "本句的「window」指「從窗戶往外看」。",
       "sentenceIndex": 3,
@@ -552,12 +538,10 @@ export default {
         "window"
       ],
       "optionReasons": {
-        "window-mcq-03": "本句指「從窗戶往外看」。",
-        "window-mcq-02": "「打開窗戶」是「open a window」的用法，與本句語境不同。",
-        "window-mcq-04": "「窗框」是「window frame」的用法，與本句語境不同。",
-        "window-mcq-01": "「窗；窗戶」是「window」的用法，與本句語境不同。",
-        "window-mcq-05": "「靠窗座位」是「window seat」的用法，與本句語境不同。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。"
+        "window-mcq-03": "本句的「window」指「從窗戶往外看」。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-03"
     },
@@ -569,11 +553,9 @@ export default {
       "masked": "I could see the mountains through the ____.",
       "options": [
         "window-mcq-03",
-        "window-mcq-02",
-        "window-mcq-04",
-        "window-mcq-01",
-        "window-mcq-05",
-        "window-mcq-06"
+        "window-mcq-12",
+        "window-mcq-19",
+        "window-mcq-20"
       ],
       "explanation": "本句的「window」指「從窗戶往外看」。",
       "sentenceIndex": 4,
@@ -582,12 +564,10 @@ export default {
         "window"
       ],
       "optionReasons": {
-        "window-mcq-03": "本句指「從窗戶往外看」。",
-        "window-mcq-02": "「打開窗戶」是「open a window」的用法，與本句語境不同。",
-        "window-mcq-04": "「窗框」是「window frame」的用法，與本句語境不同。",
-        "window-mcq-01": "「窗；窗戶」是「window」的用法，與本句語境不同。",
-        "window-mcq-05": "「靠窗座位」是「window seat」的用法，與本句語境不同。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。"
+        "window-mcq-03": "本句的「window」指「從窗戶往外看」。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-03"
     },
@@ -599,11 +579,9 @@ export default {
       "masked": "The ____ needs repainting.",
       "options": [
         "window-mcq-04",
-        "window-mcq-03",
-        "window-mcq-05",
-        "window-mcq-02",
-        "window-mcq-06",
-        "window-mcq-01"
+        "window-mcq-07",
+        "window-mcq-21",
+        "window-mcq-20"
       ],
       "explanation": "本句的「window frame」指「窗框」。",
       "sentenceIndex": 5,
@@ -612,12 +590,10 @@ export default {
         "window frame"
       ],
       "optionReasons": {
-        "window-mcq-04": "本句指「窗框」。",
-        "window-mcq-03": "「從窗戶往外看」是「look out of the window」的用法，與本句語境不同。",
-        "window-mcq-05": "「靠窗座位」是「window seat」的用法，與本句語境不同。",
-        "window-mcq-02": "「打開窗戶」是「open a window」的用法，與本句語境不同。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。",
-        "window-mcq-01": "「窗；窗戶」是「window」的用法，與本句語境不同。"
+        "window-mcq-04": "本句的「window frame」指「窗框」。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-04"
     },
@@ -629,11 +605,9 @@ export default {
       "masked": "Water had collected around the ____.",
       "options": [
         "window-mcq-04",
-        "window-mcq-03",
-        "window-mcq-05",
-        "window-mcq-02",
-        "window-mcq-06",
-        "window-mcq-01"
+        "window-mcq-21",
+        "window-mcq-07",
+        "window-mcq-20"
       ],
       "explanation": "本句的「window frame」指「窗框」。",
       "sentenceIndex": 6,
@@ -642,12 +616,10 @@ export default {
         "window frame"
       ],
       "optionReasons": {
-        "window-mcq-04": "本句指「窗框」。",
-        "window-mcq-03": "「從窗戶往外看」是「look out of the window」的用法，與本句語境不同。",
-        "window-mcq-05": "「靠窗座位」是「window seat」的用法，與本句語境不同。",
-        "window-mcq-02": "「打開窗戶」是「open a window」的用法，與本句語境不同。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。",
-        "window-mcq-01": "「窗；窗戶」是「window」的用法，與本句語境不同。"
+        "window-mcq-04": "本句的「window frame」指「窗框」。",
+        "window-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-04"
     },
@@ -659,11 +631,9 @@ export default {
       "masked": "I'd like a ____, please.",
       "options": [
         "window-mcq-05",
-        "window-mcq-04",
-        "window-mcq-06",
-        "window-mcq-03",
+        "window-mcq-21",
         "window-mcq-07",
-        "window-mcq-02"
+        "window-mcq-20"
       ],
       "explanation": "本句的「window seat」指「靠窗座位」。",
       "sentenceIndex": 7,
@@ -672,12 +642,10 @@ export default {
         "window seat"
       ],
       "optionReasons": {
-        "window-mcq-05": "本句指「靠窗座位」。",
-        "window-mcq-04": "「窗框」是「window frame」的用法，與本句語境不同。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。",
-        "window-mcq-03": "「從窗戶往外看」是「look out of the window」的用法，與本句語境不同。",
-        "window-mcq-07": "「只看不買；逛街看貨」是「window shopping」的用法，與本句語境不同。",
-        "window-mcq-02": "「打開窗戶」是「open a window」的用法，與本句語境不同。"
+        "window-mcq-05": "本句的「window seat」指「靠窗座位」。",
+        "window-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-05"
     },
@@ -689,11 +657,9 @@ export default {
       "masked": "She always chooses the ____ on flights.",
       "options": [
         "window-mcq-05",
-        "window-mcq-04",
-        "window-mcq-06",
-        "window-mcq-03",
-        "window-mcq-07",
-        "window-mcq-02"
+        "window-mcq-12",
+        "window-mcq-19",
+        "window-mcq-07"
       ],
       "explanation": "本句的「window seat」指「靠窗座位」。",
       "sentenceIndex": 8,
@@ -702,12 +668,10 @@ export default {
         "window seat"
       ],
       "optionReasons": {
-        "window-mcq-05": "本句指「靠窗座位」。",
-        "window-mcq-04": "「窗框」是「window frame」的用法，與本句語境不同。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。",
-        "window-mcq-03": "「從窗戶往外看」是「look out of the window」的用法，與本句語境不同。",
-        "window-mcq-07": "「只看不買；逛街看貨」是「window shopping」的用法，與本句語境不同。",
-        "window-mcq-02": "「打開窗戶」是「open a window」的用法，與本句語境不同。"
+        "window-mcq-05": "本句的「window seat」指「靠窗座位」。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-05"
     },
@@ -719,11 +683,9 @@ export default {
       "masked": "The dress was displayed in the ____.",
       "options": [
         "window-mcq-06",
-        "window-mcq-05",
-        "window-mcq-07",
-        "window-mcq-04",
-        "window-mcq-08",
-        "window-mcq-03"
+        "window-mcq-19",
+        "window-mcq-12",
+        "window-mcq-20"
       ],
       "explanation": "本句的「shop window」指「櫥窗」。",
       "sentenceIndex": 9,
@@ -732,12 +694,10 @@ export default {
         "shop window"
       ],
       "optionReasons": {
-        "window-mcq-06": "本句指「櫥窗」。",
-        "window-mcq-05": "「靠窗座位」是「window seat」的用法，與本句語境不同。",
-        "window-mcq-07": "「只看不買；逛街看貨」是「window shopping」的用法，與本句語境不同。",
-        "window-mcq-04": "「窗框」是「window frame」的用法，與本句語境不同。",
-        "window-mcq-08": "「機會窗口」是「window of opportunity」的用法，與本句語境不同。",
-        "window-mcq-03": "「從窗戶往外看」是「look out of the window」的用法，與本句語境不同。"
+        "window-mcq-06": "本句的「shop window」指「櫥窗」。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-06"
     },
@@ -749,11 +709,9 @@ export default {
       "masked": "He stopped to look at the watches in the ____.",
       "options": [
         "window-mcq-06",
-        "window-mcq-05",
         "window-mcq-07",
-        "window-mcq-04",
-        "window-mcq-08",
-        "window-mcq-03"
+        "window-mcq-19",
+        "window-mcq-20"
       ],
       "explanation": "本句的「display window」指「櫥窗」。",
       "sentenceIndex": 10,
@@ -762,12 +720,10 @@ export default {
         "display window"
       ],
       "optionReasons": {
-        "window-mcq-06": "本句指「櫥窗」。",
-        "window-mcq-05": "「靠窗座位」是「window seat」的用法，與本句語境不同。",
-        "window-mcq-07": "「只看不買；逛街看貨」是「window shopping」的用法，與本句語境不同。",
-        "window-mcq-04": "「窗框」是「window frame」的用法，與本句語境不同。",
-        "window-mcq-08": "「機會窗口」是「window of opportunity」的用法，與本句語境不同。",
-        "window-mcq-03": "「從窗戶往外看」是「look out of the window」的用法，與本句語境不同。"
+        "window-mcq-06": "本句的「display window」指「櫥窗」。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-06"
     },
@@ -779,11 +735,9 @@ export default {
       "masked": "We spent the afternoon ____.",
       "options": [
         "window-mcq-07",
-        "window-mcq-06",
-        "window-mcq-08",
-        "window-mcq-05",
-        "window-mcq-09",
-        "window-mcq-04"
+        "window-mcq-17",
+        "window-mcq-19",
+        "window-mcq-12"
       ],
       "explanation": "本句的「window shopping」指「只看不買；逛街看貨」。",
       "sentenceIndex": 11,
@@ -792,12 +746,10 @@ export default {
         "window shopping"
       ],
       "optionReasons": {
-        "window-mcq-07": "本句指「只看不買；逛街看貨」。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。",
-        "window-mcq-08": "「機會窗口」是「window of opportunity」的用法，與本句語境不同。",
-        "window-mcq-05": "「靠窗座位」是「window seat」的用法，與本句語境不同。",
-        "window-mcq-09": "「了解 X 的窗口」是「window into X」的用法，與本句語境不同。",
-        "window-mcq-04": "「窗框」是「window frame」的用法，與本句語境不同。"
+        "window-mcq-07": "本句的「window shopping」指「只看不買；逛街看貨」。",
+        "window-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-07"
     },
@@ -809,11 +761,9 @@ export default {
       "masked": "I wasn't planning to buy anything—I was just ____.",
       "options": [
         "window-mcq-07",
-        "window-mcq-06",
-        "window-mcq-08",
-        "window-mcq-05",
-        "window-mcq-09",
-        "window-mcq-04"
+        "window-mcq-18",
+        "window-mcq-11",
+        "window-mcq-19"
       ],
       "explanation": "本句的「window shopping」指「只看不買；逛街看貨」。",
       "sentenceIndex": 12,
@@ -822,12 +772,10 @@ export default {
         "window shopping"
       ],
       "optionReasons": {
-        "window-mcq-07": "本句指「只看不買；逛街看貨」。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。",
-        "window-mcq-08": "「機會窗口」是「window of opportunity」的用法，與本句語境不同。",
-        "window-mcq-05": "「靠窗座位」是「window seat」的用法，與本句語境不同。",
-        "window-mcq-09": "「了解 X 的窗口」是「window into X」的用法，與本句語境不同。",
-        "window-mcq-04": "「窗框」是「window frame」的用法，與本句語境不同。"
+        "window-mcq-07": "本句的「window shopping」指「只看不買；逛街看貨」。",
+        "window-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-07"
     },
@@ -840,10 +788,8 @@ export default {
       "options": [
         "window-mcq-08",
         "window-mcq-07",
-        "window-mcq-09",
-        "window-mcq-06",
-        "window-mcq-10",
-        "window-mcq-05"
+        "window-mcq-12",
+        "window-mcq-20"
       ],
       "explanation": "本句的「window of opportunity」指「機會窗口」。",
       "sentenceIndex": 13,
@@ -852,12 +798,10 @@ export default {
         "window of opportunity"
       ],
       "optionReasons": {
-        "window-mcq-08": "本句指「機會窗口」。",
-        "window-mcq-07": "「只看不買；逛街看貨」是「window shopping」的用法，與本句語境不同。",
-        "window-mcq-09": "「了解 X 的窗口」是「window into X」的用法，與本句語境不同。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。",
-        "window-mcq-10": "「窺見／了解 X 的窗口」是「window on X」的用法，與本句語境不同。",
-        "window-mcq-05": "「靠窗座位」是「window seat」的用法，與本句語境不同。"
+        "window-mcq-08": "本句的「window of opportunity」指「機會窗口」。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-08"
     },
@@ -869,11 +813,9 @@ export default {
       "masked": "The ____ may close soon.",
       "options": [
         "window-mcq-08",
-        "window-mcq-07",
-        "window-mcq-09",
-        "window-mcq-06",
-        "window-mcq-10",
-        "window-mcq-05"
+        "window-mcq-19",
+        "window-mcq-12",
+        "window-mcq-20"
       ],
       "explanation": "本句的「window of opportunity」指「機會窗口」。",
       "sentenceIndex": 14,
@@ -882,12 +824,10 @@ export default {
         "window of opportunity"
       ],
       "optionReasons": {
-        "window-mcq-08": "本句指「機會窗口」。",
-        "window-mcq-07": "「只看不買；逛街看貨」是「window shopping」的用法，與本句語境不同。",
-        "window-mcq-09": "「了解 X 的窗口」是「window into X」的用法，與本句語境不同。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。",
-        "window-mcq-10": "「窺見／了解 X 的窗口」是「window on X」的用法，與本句語境不同。",
-        "window-mcq-05": "「靠窗座位」是「window seat」的用法，與本句語境不同。"
+        "window-mcq-08": "本句的「window of opportunity」指「機會窗口」。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-08"
     },
@@ -899,11 +839,9 @@ export default {
       "masked": "The diary provides a ____.",
       "options": [
         "window-mcq-09",
-        "window-mcq-08",
-        "window-mcq-10",
         "window-mcq-07",
-        "window-mcq-11",
-        "window-mcq-06"
+        "window-mcq-20",
+        "window-mcq-19"
       ],
       "explanation": "本句的「window into her private life」指「了解 X 的窗口」。",
       "sentenceIndex": 15,
@@ -912,12 +850,10 @@ export default {
         "window into her private life"
       ],
       "optionReasons": {
-        "window-mcq-09": "本句指「了解 X 的窗口」。",
-        "window-mcq-08": "「機會窗口」是「window of opportunity」的用法，與本句語境不同。",
-        "window-mcq-10": "「窺見／了解 X 的窗口」是「window on X」的用法，與本句語境不同。",
-        "window-mcq-07": "「只看不買；逛街看貨」是「window shopping」的用法，與本句語境不同。",
-        "window-mcq-11": "「時間窗口」是「time window」的用法，與本句語境不同。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。"
+        "window-mcq-09": "本句的「window into her private life」指「了解 X 的窗口」。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-09"
     },
@@ -929,11 +865,9 @@ export default {
       "masked": "Children's drawings can offer a ____.",
       "options": [
         "window-mcq-09",
-        "window-mcq-08",
-        "window-mcq-10",
+        "window-mcq-20",
         "window-mcq-07",
-        "window-mcq-11",
-        "window-mcq-06"
+        "window-mcq-19"
       ],
       "explanation": "本句的「window into their imagination」指「了解 X 的窗口」。",
       "sentenceIndex": 16,
@@ -942,12 +876,10 @@ export default {
         "window into their imagination"
       ],
       "optionReasons": {
-        "window-mcq-09": "本句指「了解 X 的窗口」。",
-        "window-mcq-08": "「機會窗口」是「window of opportunity」的用法，與本句語境不同。",
-        "window-mcq-10": "「窺見／了解 X 的窗口」是「window on X」的用法，與本句語境不同。",
-        "window-mcq-07": "「只看不買；逛街看貨」是「window shopping」的用法，與本句語境不同。",
-        "window-mcq-11": "「時間窗口」是「time window」的用法，與本句語境不同。",
-        "window-mcq-06": "「櫥窗」是「shop/display window」的用法，與本句語境不同。"
+        "window-mcq-09": "本句的「window into their imagination」指「了解 X 的窗口」。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-09"
     },
@@ -959,11 +891,9 @@ export default {
       "masked": "We only have a two-hour ____ to complete the work.",
       "options": [
         "window-mcq-11",
-        "window-mcq-10",
         "window-mcq-12",
-        "window-mcq-09",
-        "window-mcq-13",
-        "window-mcq-08"
+        "window-mcq-07",
+        "window-mcq-20"
       ],
       "explanation": "本句的「time window」指「時間窗口」。",
       "sentenceIndex": 17,
@@ -972,12 +902,10 @@ export default {
         "time window"
       ],
       "optionReasons": {
-        "window-mcq-11": "本句指「時間窗口」。",
-        "window-mcq-10": "「窺見／了解 X 的窗口」是「window on X」的用法，與本句語境不同。",
-        "window-mcq-12": "「轉會期」是「transfer window」的用法，與本句語境不同。",
-        "window-mcq-09": "「了解 X 的窗口」是「window into X」的用法，與本句語境不同。",
-        "window-mcq-13": "「電腦視窗」是「computer window」的用法，與本句語境不同。",
-        "window-mcq-08": "「機會窗口」是「window of opportunity」的用法，與本句語境不同。"
+        "window-mcq-11": "本句的「time window」指「時間窗口」。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-11"
     },
@@ -989,11 +917,9 @@ export default {
       "masked": "The delivery must arrive within the agreed ____.",
       "options": [
         "window-mcq-11",
-        "window-mcq-10",
         "window-mcq-12",
-        "window-mcq-09",
-        "window-mcq-13",
-        "window-mcq-08"
+        "window-mcq-19",
+        "window-mcq-07"
       ],
       "explanation": "本句的「time window」指「時間窗口」。",
       "sentenceIndex": 18,
@@ -1002,12 +928,10 @@ export default {
         "time window"
       ],
       "optionReasons": {
-        "window-mcq-11": "本句指「時間窗口」。",
-        "window-mcq-10": "「窺見／了解 X 的窗口」是「window on X」的用法，與本句語境不同。",
-        "window-mcq-12": "「轉會期」是「transfer window」的用法，與本句語境不同。",
-        "window-mcq-09": "「了解 X 的窗口」是「window into X」的用法，與本句語境不同。",
-        "window-mcq-13": "「電腦視窗」是「computer window」的用法，與本句語境不同。",
-        "window-mcq-08": "「機會窗口」是「window of opportunity」的用法，與本句語境不同。"
+        "window-mcq-11": "本句的「time window」指「時間窗口」。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-11"
     },
@@ -1019,11 +943,9 @@ export default {
       "masked": "The club signed two players during the summer ____.",
       "options": [
         "window-mcq-12",
-        "window-mcq-11",
-        "window-mcq-13",
-        "window-mcq-10",
-        "window-mcq-14",
-        "window-mcq-09"
+        "window-mcq-17",
+        "window-mcq-20",
+        "window-mcq-07"
       ],
       "explanation": "本句的「transfer window」指「轉會期」。",
       "sentenceIndex": 19,
@@ -1032,12 +954,10 @@ export default {
         "transfer window"
       ],
       "optionReasons": {
-        "window-mcq-12": "本句指「轉會期」。",
-        "window-mcq-11": "「時間窗口」是「time window」的用法，與本句語境不同。",
-        "window-mcq-13": "「電腦視窗」是「computer window」的用法，與本句語境不同。",
-        "window-mcq-10": "「窺見／了解 X 的窗口」是「window on X」的用法，與本句語境不同。",
-        "window-mcq-14": "「瀏覽器視窗」是「browser window」的用法，與本句語境不同。",
-        "window-mcq-09": "「了解 X 的窗口」是「window into X」的用法，與本句語境不同。"
+        "window-mcq-12": "本句的「transfer window」指「轉會期」。",
+        "window-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-12"
     },
@@ -1049,11 +969,9 @@ export default {
       "masked": "The ____ closes at the end of the month.",
       "options": [
         "window-mcq-12",
-        "window-mcq-11",
-        "window-mcq-13",
-        "window-mcq-10",
-        "window-mcq-14",
-        "window-mcq-09"
+        "window-mcq-19",
+        "window-mcq-06",
+        "window-mcq-20"
       ],
       "explanation": "本句的「transfer window」指「轉會期」。",
       "sentenceIndex": 20,
@@ -1062,12 +980,10 @@ export default {
         "transfer window"
       ],
       "optionReasons": {
-        "window-mcq-12": "本句指「轉會期」。",
-        "window-mcq-11": "「時間窗口」是「time window」的用法，與本句語境不同。",
-        "window-mcq-13": "「電腦視窗」是「computer window」的用法，與本句語境不同。",
-        "window-mcq-10": "「窺見／了解 X 的窗口」是「window on X」的用法，與本句語境不同。",
-        "window-mcq-14": "「瀏覽器視窗」是「browser window」的用法，與本句語境不同。",
-        "window-mcq-09": "「了解 X 的窗口」是「window into X」的用法，與本句語境不同。"
+        "window-mcq-12": "本句的「transfer window」指「轉會期」。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-12"
     },
@@ -1079,11 +995,9 @@ export default {
       "masked": "Open a new ____ in your browser.",
       "options": [
         "window-mcq-20",
-        "window-mcq-19",
-        "window-mcq-21",
-        "window-mcq-18",
-        "window-mcq-17",
-        "window-mcq-16"
+        "window-mcq-12",
+        "window-mcq-15",
+        "window-mcq-18"
       ],
       "explanation": "本句的「window」指「電腦螢幕上顯示某個程式、文件或內容的獨立區域」。",
       "sentenceIndex": 21,
@@ -1092,12 +1006,10 @@ export default {
         "window"
       ],
       "optionReasons": {
-        "window-mcq-20": "本句指「電腦螢幕上顯示某個程式、文件或內容的獨立區域」。",
-        "window-mcq-19": "「表面功夫；裝門面」是「window dressing (fig.)」的用法，與本句語境不同。",
-        "window-mcq-21": "「讓人觀察、了解某個世界、時期或主題的途徑」是「18. window on something — 展示／了解某事的窗口」的用法，與本句語境不同。",
-        "window-mcq-18": "「櫥窗陳列」是「window dressing」的用法，與本句語境不同。",
-        "window-mcq-17": "「視窗模式」是「windowed mode」的用法，與本句語境不同。",
-        "window-mcq-16": "「無窗的」是「windowless」的用法，與本句語境不同。"
+        "window-mcq-20": "本句的「window」指「電腦螢幕上顯示某個程式、文件或內容的獨立區域」。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-20"
     },
@@ -1109,11 +1021,9 @@ export default {
       "masked": "Move the ____ to the other side of the screen.",
       "options": [
         "window-mcq-20",
-        "window-mcq-19",
-        "window-mcq-21",
-        "window-mcq-18",
-        "window-mcq-17",
-        "window-mcq-16"
+        "window-mcq-07",
+        "window-mcq-03",
+        "window-mcq-14"
       ],
       "explanation": "本句的「window」指「電腦螢幕上顯示某個程式、文件或內容的獨立區域」。",
       "sentenceIndex": 22,
@@ -1122,12 +1032,10 @@ export default {
         "window"
       ],
       "optionReasons": {
-        "window-mcq-20": "本句指「電腦螢幕上顯示某個程式、文件或內容的獨立區域」。",
-        "window-mcq-19": "「表面功夫；裝門面」是「window dressing (fig.)」的用法，與本句語境不同。",
-        "window-mcq-21": "「讓人觀察、了解某個世界、時期或主題的途徑」是「18. window on something — 展示／了解某事的窗口」的用法，與本句語境不同。",
-        "window-mcq-18": "「櫥窗陳列」是「window dressing」的用法，與本句語境不同。",
-        "window-mcq-17": "「視窗模式」是「windowed mode」的用法，與本句語境不同。",
-        "window-mcq-16": "「無窗的」是「windowless」的用法，與本句語境不同。"
+        "window-mcq-20": "本句的「window」指「電腦螢幕上顯示某個程式、文件或內容的獨立區域」。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-20"
     },
@@ -1139,11 +1047,9 @@ export default {
       "masked": "The link opened in a new ____.",
       "options": [
         "window-mcq-14",
-        "window-mcq-13",
-        "window-mcq-15",
-        "window-mcq-12",
-        "window-mcq-16",
-        "window-mcq-11"
+        "window-mcq-20",
+        "window-mcq-19",
+        "window-mcq-07"
       ],
       "explanation": "本句的「browser window」指「瀏覽器視窗」。",
       "sentenceIndex": 23,
@@ -1152,12 +1058,10 @@ export default {
         "browser window"
       ],
       "optionReasons": {
-        "window-mcq-14": "本句指「瀏覽器視窗」。",
-        "window-mcq-13": "「電腦視窗」是「computer window」的用法，與本句語境不同。",
-        "window-mcq-15": "「彈出視窗」是「pop-up window」的用法，與本句語境不同。",
-        "window-mcq-12": "「轉會期」是「transfer window」的用法，與本句語境不同。",
-        "window-mcq-16": "「無窗的」是「windowless」的用法，與本句語境不同。",
-        "window-mcq-11": "「時間窗口」是「time window」的用法，與本句語境不同。"
+        "window-mcq-14": "本句的「browser window」指「瀏覽器視窗」。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-14"
     },
@@ -1169,11 +1073,9 @@ export default {
       "masked": "Close the extra ____.",
       "options": [
         "window-mcq-14",
-        "window-mcq-13",
-        "window-mcq-15",
-        "window-mcq-12",
-        "window-mcq-16",
-        "window-mcq-11"
+        "window-mcq-20",
+        "window-mcq-07",
+        "window-mcq-19"
       ],
       "explanation": "本句的「browser windows」指「瀏覽器視窗」。",
       "sentenceIndex": 24,
@@ -1182,12 +1084,10 @@ export default {
         "browser windows"
       ],
       "optionReasons": {
-        "window-mcq-14": "本句指「瀏覽器視窗」。",
-        "window-mcq-13": "「電腦視窗」是「computer window」的用法，與本句語境不同。",
-        "window-mcq-15": "「彈出視窗」是「pop-up window」的用法，與本句語境不同。",
-        "window-mcq-12": "「轉會期」是「transfer window」的用法，與本句語境不同。",
-        "window-mcq-16": "「無窗的」是「windowless」的用法，與本句語境不同。",
-        "window-mcq-11": "「時間窗口」是「time window」的用法，與本句語境不同。"
+        "window-mcq-14": "本句的「browser windows」指「瀏覽器視窗」。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-14"
     },
@@ -1199,11 +1099,9 @@ export default {
       "masked": "A ____ appeared on the screen.",
       "options": [
         "window-mcq-15",
-        "window-mcq-14",
-        "window-mcq-16",
-        "window-mcq-13",
-        "window-mcq-17",
-        "window-mcq-12"
+        "window-mcq-19",
+        "window-mcq-12",
+        "window-mcq-20"
       ],
       "explanation": "本句的「pop-up window」指「彈出視窗」。",
       "sentenceIndex": 25,
@@ -1212,12 +1110,10 @@ export default {
         "pop-up window"
       ],
       "optionReasons": {
-        "window-mcq-15": "本句指「彈出視窗」。",
-        "window-mcq-14": "「瀏覽器視窗」是「browser window」的用法，與本句語境不同。",
-        "window-mcq-16": "「無窗的」是「windowless」的用法，與本句語境不同。",
-        "window-mcq-13": "「電腦視窗」是「computer window」的用法，與本句語境不同。",
-        "window-mcq-17": "「視窗模式」是「windowed mode」的用法，與本句語境不同。",
-        "window-mcq-12": "「轉會期」是「transfer window」的用法，與本句語境不同。"
+        "window-mcq-15": "本句的「pop-up window」指「彈出視窗」。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-15"
     },
@@ -1229,11 +1125,9 @@ export default {
       "masked": "Close the ____ to continue.",
       "options": [
         "window-mcq-15",
-        "window-mcq-14",
-        "window-mcq-16",
-        "window-mcq-13",
-        "window-mcq-17",
-        "window-mcq-12"
+        "window-mcq-12",
+        "window-mcq-07",
+        "window-mcq-19"
       ],
       "explanation": "本句的「pop-up window」指「彈出視窗」。",
       "sentenceIndex": 26,
@@ -1242,12 +1136,10 @@ export default {
         "pop-up window"
       ],
       "optionReasons": {
-        "window-mcq-15": "本句指「彈出視窗」。",
-        "window-mcq-14": "「瀏覽器視窗」是「browser window」的用法，與本句語境不同。",
-        "window-mcq-16": "「無窗的」是「windowless」的用法，與本句語境不同。",
-        "window-mcq-13": "「電腦視窗」是「computer window」的用法，與本句語境不同。",
-        "window-mcq-17": "「視窗模式」是「windowed mode」的用法，與本句語境不同。",
-        "window-mcq-12": "「轉會期」是「transfer window」的用法，與本句語境不同。"
+        "window-mcq-15": "本句的「pop-up window」指「彈出視窗」。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-15"
     },
@@ -1259,11 +1151,9 @@ export default {
       "masked": "He worked in a small ____.",
       "options": [
         "window-mcq-16",
-        "window-mcq-15",
-        "window-mcq-17",
-        "window-mcq-14",
-        "window-mcq-18",
-        "window-mcq-13"
+        "window-mcq-21",
+        "window-mcq-20",
+        "window-mcq-07"
       ],
       "explanation": "本句的「windowless office」指「無窗的」。",
       "sentenceIndex": 27,
@@ -1272,12 +1162,10 @@ export default {
         "windowless office"
       ],
       "optionReasons": {
-        "window-mcq-16": "本句指「無窗的」。",
-        "window-mcq-15": "「彈出視窗」是「pop-up window」的用法，與本句語境不同。",
-        "window-mcq-17": "「視窗模式」是「windowed mode」的用法，與本句語境不同。",
-        "window-mcq-14": "「瀏覽器視窗」是「browser window」的用法，與本句語境不同。",
-        "window-mcq-18": "「櫥窗陳列」是「window dressing」的用法，與本句語境不同。",
-        "window-mcq-13": "「電腦視窗」是「computer window」的用法，與本句語境不同。"
+        "window-mcq-16": "本句的「windowless office」指「無窗的」。",
+        "window-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-16"
     },
@@ -1289,11 +1177,9 @@ export default {
       "masked": "The storage room is completely ____.",
       "options": [
         "window-mcq-16",
-        "window-mcq-15",
-        "window-mcq-17",
-        "window-mcq-14",
-        "window-mcq-18",
-        "window-mcq-13"
+        "window-mcq-20",
+        "window-mcq-07",
+        "window-mcq-21"
       ],
       "explanation": "本句的「windowless」指「無窗的」。",
       "sentenceIndex": 28,
@@ -1302,12 +1188,10 @@ export default {
         "windowless"
       ],
       "optionReasons": {
-        "window-mcq-16": "本句指「無窗的」。",
-        "window-mcq-15": "「彈出視窗」是「pop-up window」的用法，與本句語境不同。",
-        "window-mcq-17": "「視窗模式」是「windowed mode」的用法，與本句語境不同。",
-        "window-mcq-14": "「瀏覽器視窗」是「browser window」的用法，與本句語境不同。",
-        "window-mcq-18": "「櫥窗陳列」是「window dressing」的用法，與本句語境不同。",
-        "window-mcq-13": "「電腦視窗」是「computer window」的用法，與本句語境不同。"
+        "window-mcq-16": "本句的「windowless」指「無窗的」。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-16"
     },
@@ -1319,11 +1203,9 @@ export default {
       "masked": "The studio is a bright, ____.",
       "options": [
         "window-mcq-17",
-        "window-mcq-16",
-        "window-mcq-18",
-        "window-mcq-15",
         "window-mcq-19",
-        "window-mcq-14"
+        "window-mcq-12",
+        "window-mcq-07"
       ],
       "explanation": "本句的「windowed space」指「視窗模式」。",
       "sentenceIndex": 29,
@@ -1332,12 +1214,10 @@ export default {
         "windowed space"
       ],
       "optionReasons": {
-        "window-mcq-17": "本句指「視窗模式」。",
-        "window-mcq-16": "「無窗的」是「windowless」的用法，與本句語境不同。",
-        "window-mcq-18": "「櫥窗陳列」是「window dressing」的用法，與本句語境不同。",
-        "window-mcq-15": "「彈出視窗」是「pop-up window」的用法，與本句語境不同。",
-        "window-mcq-19": "「表面功夫；裝門面」是「window dressing (fig.)」的用法，與本句語境不同。",
-        "window-mcq-14": "「瀏覽器視窗」是「browser window」的用法，與本句語境不同。"
+        "window-mcq-17": "本句的「windowed space」指「視窗模式」。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-17"
     },
@@ -1349,11 +1229,9 @@ export default {
       "masked": "The game can run in ____.",
       "options": [
         "window-mcq-17",
-        "window-mcq-16",
-        "window-mcq-18",
-        "window-mcq-15",
         "window-mcq-19",
-        "window-mcq-14"
+        "window-mcq-20",
+        "window-mcq-12"
       ],
       "explanation": "本句的「windowed mode」指「視窗模式」。",
       "sentenceIndex": 30,
@@ -1362,12 +1240,10 @@ export default {
         "windowed mode"
       ],
       "optionReasons": {
-        "window-mcq-17": "本句指「視窗模式」。",
-        "window-mcq-16": "「無窗的」是「windowless」的用法，與本句語境不同。",
-        "window-mcq-18": "「櫥窗陳列」是「window dressing」的用法，與本句語境不同。",
-        "window-mcq-15": "「彈出視窗」是「pop-up window」的用法，與本句語境不同。",
-        "window-mcq-19": "「表面功夫；裝門面」是「window dressing (fig.)」的用法，與本句語境不同。",
-        "window-mcq-14": "「瀏覽器視窗」是「browser window」的用法，與本句語境不同。"
+        "window-mcq-17": "本句的「windowed mode」指「視窗模式」。",
+        "window-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-17"
     },
@@ -1379,11 +1255,9 @@ export default {
       "masked": "She works in ____ for a department store.",
       "options": [
         "window-mcq-18",
-        "window-mcq-17",
-        "window-mcq-19",
-        "window-mcq-16",
-        "window-mcq-20",
-        "window-mcq-15"
+        "window-mcq-12",
+        "window-mcq-07",
+        "window-mcq-20"
       ],
       "explanation": "本句的「window dressing」指「櫥窗陳列」。",
       "sentenceIndex": 31,
@@ -1392,12 +1266,10 @@ export default {
         "window dressing"
       ],
       "optionReasons": {
-        "window-mcq-18": "本句指「櫥窗陳列」。",
-        "window-mcq-17": "「視窗模式」是「windowed mode」的用法，與本句語境不同。",
-        "window-mcq-19": "「表面功夫；裝門面」是「window dressing (fig.)」的用法，與本句語境不同。",
-        "window-mcq-16": "「無窗的」是「windowless」的用法，與本句語境不同。",
-        "window-mcq-20": "「電腦螢幕上顯示某個程式、文件或內容的獨立區域」是「11. window（電腦視窗） — 視窗」的用法，與本句語境不同。",
-        "window-mcq-15": "「彈出視窗」是「pop-up window」的用法，與本句語境不同。"
+        "window-mcq-18": "本句的「window dressing」指「櫥窗陳列」。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-18"
     },
@@ -1409,11 +1281,9 @@ export default {
       "masked": "Good ____ can attract customers.",
       "options": [
         "window-mcq-18",
-        "window-mcq-17",
-        "window-mcq-19",
-        "window-mcq-16",
+        "window-mcq-07",
         "window-mcq-20",
-        "window-mcq-15"
+        "window-mcq-21"
       ],
       "explanation": "本句的「window dressing」指「櫥窗陳列」。",
       "sentenceIndex": 32,
@@ -1422,12 +1292,10 @@ export default {
         "window dressing"
       ],
       "optionReasons": {
-        "window-mcq-18": "本句指「櫥窗陳列」。",
-        "window-mcq-17": "「視窗模式」是「windowed mode」的用法，與本句語境不同。",
-        "window-mcq-19": "「表面功夫；裝門面」是「window dressing (fig.)」的用法，與本句語境不同。",
-        "window-mcq-16": "「無窗的」是「windowless」的用法，與本句語境不同。",
-        "window-mcq-20": "「電腦螢幕上顯示某個程式、文件或內容的獨立區域」是「11. window（電腦視窗） — 視窗」的用法，與本句語境不同。",
-        "window-mcq-15": "「彈出視窗」是「pop-up window」的用法，與本句語境不同。"
+        "window-mcq-18": "本句的「window dressing」指「櫥窗陳列」。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-18"
     },
@@ -1439,11 +1307,9 @@ export default {
       "masked": "Critics said the changes were merely ____.",
       "options": [
         "window-mcq-19",
-        "window-mcq-18",
+        "window-mcq-03",
         "window-mcq-20",
-        "window-mcq-17",
-        "window-mcq-21",
-        "window-mcq-16"
+        "window-mcq-18"
       ],
       "explanation": "本句的「window dressing」指「表面功夫；裝門面」。",
       "sentenceIndex": 33,
@@ -1452,12 +1318,10 @@ export default {
         "window dressing"
       ],
       "optionReasons": {
-        "window-mcq-19": "本句指「表面功夫；裝門面」。",
-        "window-mcq-18": "「櫥窗陳列」是「window dressing」的用法，與本句語境不同。",
-        "window-mcq-20": "「電腦螢幕上顯示某個程式、文件或內容的獨立區域」是「11. window（電腦視窗） — 視窗」的用法，與本句語境不同。",
-        "window-mcq-17": "「視窗模式」是「windowed mode」的用法，與本句語境不同。",
-        "window-mcq-21": "「讓人觀察、了解某個世界、時期或主題的途徑」是「18. window on something — 展示／了解某事的窗口」的用法，與本句語境不同。",
-        "window-mcq-16": "「無窗的」是「windowless」的用法，與本句語境不同。"
+        "window-mcq-19": "本句的「window dressing」指「表面功夫；裝門面」。",
+        "window-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-19"
     },
@@ -1469,11 +1333,9 @@ export default {
       "masked": "The policy looked impressive, but much of it was ____.",
       "options": [
         "window-mcq-19",
-        "window-mcq-18",
-        "window-mcq-20",
-        "window-mcq-17",
-        "window-mcq-21",
-        "window-mcq-16"
+        "window-mcq-03",
+        "window-mcq-12",
+        "window-mcq-18"
       ],
       "explanation": "本句的「window dressing」指「表面功夫；裝門面」。",
       "sentenceIndex": 34,
@@ -1482,12 +1344,10 @@ export default {
         "window dressing"
       ],
       "optionReasons": {
-        "window-mcq-19": "本句指「表面功夫；裝門面」。",
-        "window-mcq-18": "「櫥窗陳列」是「window dressing」的用法，與本句語境不同。",
-        "window-mcq-20": "「電腦螢幕上顯示某個程式、文件或內容的獨立區域」是「11. window（電腦視窗） — 視窗」的用法，與本句語境不同。",
-        "window-mcq-17": "「視窗模式」是「windowed mode」的用法，與本句語境不同。",
-        "window-mcq-21": "「讓人觀察、了解某個世界、時期或主題的途徑」是「18. window on something — 展示／了解某事的窗口」的用法，與本句語境不同。",
-        "window-mcq-16": "「無窗的」是「windowless」的用法，與本句語境不同。"
+        "window-mcq-19": "本句的「window dressing」指「表面功夫；裝門面」。",
+        "window-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-19"
     },
@@ -1499,11 +1359,9 @@ export default {
       "masked": "The documentary offers a ____.",
       "options": [
         "window-mcq-21",
-        "window-mcq-20",
-        "window-mcq-19",
-        "window-mcq-18",
-        "window-mcq-17",
-        "window-mcq-16"
+        "window-mcq-16",
+        "window-mcq-07",
+        "window-mcq-20"
       ],
       "explanation": "本句的「window on rural life」指「讓人觀察、了解某個世界、時期或主題的途徑」。",
       "sentenceIndex": 35,
@@ -1512,12 +1370,10 @@ export default {
         "window on rural life"
       ],
       "optionReasons": {
-        "window-mcq-21": "本句指「讓人觀察、了解某個世界、時期或主題的途徑」。",
-        "window-mcq-20": "「電腦螢幕上顯示某個程式、文件或內容的獨立區域」是「11. window（電腦視窗） — 視窗」的用法，與本句語境不同。",
-        "window-mcq-19": "「表面功夫；裝門面」是「window dressing (fig.)」的用法，與本句語境不同。",
-        "window-mcq-18": "「櫥窗陳列」是「window dressing」的用法，與本句語境不同。",
-        "window-mcq-17": "「視窗模式」是「windowed mode」的用法，與本句語境不同。",
-        "window-mcq-16": "「無窗的」是「windowless」的用法，與本句語境不同。"
+        "window-mcq-21": "本句的「window on rural life」指「讓人觀察、了解某個世界、時期或主題的途徑」。",
+        "window-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-21"
     },
@@ -1529,11 +1385,9 @@ export default {
       "masked": "The exhibition gives visitors a ____.",
       "options": [
         "window-mcq-21",
-        "window-mcq-20",
-        "window-mcq-19",
-        "window-mcq-18",
-        "window-mcq-17",
-        "window-mcq-16"
+        "window-mcq-05",
+        "window-mcq-03",
+        "window-mcq-20"
       ],
       "explanation": "本句的「window on the past」指「讓人觀察、了解某個世界、時期或主題的途徑」。",
       "sentenceIndex": 36,
@@ -1542,12 +1396,10 @@ export default {
         "window on the past"
       ],
       "optionReasons": {
-        "window-mcq-21": "本句指「讓人觀察、了解某個世界、時期或主題的途徑」。",
-        "window-mcq-20": "「電腦螢幕上顯示某個程式、文件或內容的獨立區域」是「11. window（電腦視窗） — 視窗」的用法，與本句語境不同。",
-        "window-mcq-19": "「表面功夫；裝門面」是「window dressing (fig.)」的用法，與本句語境不同。",
-        "window-mcq-18": "「櫥窗陳列」是「window dressing」的用法，與本句語境不同。",
-        "window-mcq-17": "「視窗模式」是「windowed mode」的用法，與本句語境不同。",
-        "window-mcq-16": "「無窗的」是「windowless」的用法，與本句語境不同。"
+        "window-mcq-21": "本句的「window on the past」指「讓人觀察、了解某個世界、時期或主題的途徑」。",
+        "window-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "window-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "window-mcq-21"
     }
@@ -1559,5 +1411,7 @@ export default {
     "sha256": "343ea41ba0d1104ea43b6791d8a5746c64be43fc6de6d31febb9980dc84809cd",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

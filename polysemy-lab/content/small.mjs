@@ -359,11 +359,9 @@ export default {
       "masked": "She lives in a ____ apartment.",
       "options": [
         "small-mcq-01",
-        "small-mcq-02",
-        "small-mcq-03",
-        "small-mcq-04",
-        "small-mcq-05",
-        "small-mcq-06"
+        "small-mcq-06",
+        "small-mcq-10",
+        "small-mcq-05"
       ],
       "explanation": "本句的「small」指「在實際尺寸、面積或體積上較小的」。",
       "sentenceIndex": 0,
@@ -372,12 +370,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-01": "本句指「在實際尺寸、面積或體積上較小的」。",
-        "small-mcq-02": "「數量、金額或份量較少的」是「small — amount/number」的用法，與本句語境不同。",
-        "small-mcq-03": "「在程度、範圍或影響上有限，而不是大幅或全面的」是「small — degree/extent」的用法，與本句語境不同。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。"
+        "small-mcq-01": "本句的「small」指「在實際尺寸、面積或體積上較小的」。",
+        "small-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-01"
     },
@@ -389,11 +385,9 @@ export default {
       "masked": "The headphones come in a ____ case.",
       "options": [
         "small-mcq-01",
-        "small-mcq-02",
-        "small-mcq-03",
-        "small-mcq-04",
-        "small-mcq-05",
-        "small-mcq-06"
+        "small-mcq-09",
+        "small-mcq-10",
+        "small-mcq-05"
       ],
       "explanation": "本句的「small」指「在實際尺寸、面積或體積上較小的」。",
       "sentenceIndex": 1,
@@ -402,12 +396,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-01": "本句指「在實際尺寸、面積或體積上較小的」。",
-        "small-mcq-02": "「數量、金額或份量較少的」是「small — amount/number」的用法，與本句語境不同。",
-        "small-mcq-03": "「在程度、範圍或影響上有限，而不是大幅或全面的」是「small — degree/extent」的用法，與本句語境不同。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。"
+        "small-mcq-01": "本句的「small」指「在實際尺寸、面積或體積上較小的」。",
+        "small-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-01"
     },
@@ -419,11 +411,9 @@ export default {
       "masked": "Only a ____ number of customers complained.",
       "options": [
         "small-mcq-02",
-        "small-mcq-01",
-        "small-mcq-03",
-        "small-mcq-04",
-        "small-mcq-05",
-        "small-mcq-06"
+        "small-mcq-10",
+        "small-mcq-12",
+        "small-mcq-01"
       ],
       "explanation": "本句的「small」指「數量、金額或份量較少的」。",
       "sentenceIndex": 2,
@@ -432,12 +422,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-02": "本句指「數量、金額或份量較少的」。",
-        "small-mcq-01": "「在實際尺寸、面積或體積上較小的」是「small — physical size」的用法，與本句語境不同。",
-        "small-mcq-03": "「在程度、範圍或影響上有限，而不是大幅或全面的」是「small — degree/extent」的用法，與本句語境不同。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。"
+        "small-mcq-02": "本句的「small」指「數量、金額或份量較少的」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-02"
     },
@@ -449,11 +437,9 @@ export default {
       "masked": "We paid a ____ fee for delivery.",
       "options": [
         "small-mcq-02",
-        "small-mcq-01",
-        "small-mcq-03",
-        "small-mcq-04",
-        "small-mcq-05",
-        "small-mcq-06"
+        "small-mcq-10",
+        "small-mcq-12",
+        "small-mcq-01"
       ],
       "explanation": "本句的「small」指「數量、金額或份量較少的」。",
       "sentenceIndex": 3,
@@ -462,12 +448,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-02": "本句指「數量、金額或份量較少的」。",
-        "small-mcq-01": "「在實際尺寸、面積或體積上較小的」是「small — physical size」的用法，與本句語境不同。",
-        "small-mcq-03": "「在程度、範圍或影響上有限，而不是大幅或全面的」是「small — degree/extent」的用法，與本句語境不同。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。"
+        "small-mcq-02": "本句的「small」指「數量、金額或份量較少的」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-02"
     },
@@ -479,11 +463,9 @@ export default {
       "masked": "The headphones seemed like a ____ escape from everyday chaos.",
       "options": [
         "small-mcq-03",
-        "small-mcq-02",
-        "small-mcq-04",
-        "small-mcq-01",
         "small-mcq-05",
-        "small-mcq-06"
+        "small-mcq-10",
+        "small-mcq-01"
       ],
       "explanation": "本句的「small」指「在程度、範圍或影響上有限，而不是大幅或全面的」。",
       "sentenceIndex": 4,
@@ -492,12 +474,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-03": "本句指「在程度、範圍或影響上有限，而不是大幅或全面的」。",
-        "small-mcq-02": "「數量、金額或份量較少的」是「small — amount/number」的用法，與本句語境不同。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。",
-        "small-mcq-01": "「在實際尺寸、面積或體積上較小的」是「small — physical size」的用法，與本句語境不同。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。"
+        "small-mcq-03": "本句的「small」指「在程度、範圍或影響上有限，而不是大幅或全面的」。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-03"
     },
@@ -509,11 +489,9 @@ export default {
       "masked": "Even a ____ improvement would make the journey more comfortable.",
       "options": [
         "small-mcq-03",
-        "small-mcq-02",
-        "small-mcq-04",
-        "small-mcq-01",
-        "small-mcq-05",
-        "small-mcq-06"
+        "small-mcq-10",
+        "small-mcq-07",
+        "small-mcq-05"
       ],
       "explanation": "本句的「small」指「在程度、範圍或影響上有限，而不是大幅或全面的」。",
       "sentenceIndex": 5,
@@ -522,12 +500,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-03": "本句指「在程度、範圍或影響上有限，而不是大幅或全面的」。",
-        "small-mcq-02": "「數量、金額或份量較少的」是「small — amount/number」的用法，與本句語境不同。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。",
-        "small-mcq-01": "「在實際尺寸、面積或體積上較小的」是「small — physical size」的用法，與本句語境不同。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。"
+        "small-mcq-03": "本句的「small」指「在程度、範圍或影響上有限，而不是大幅或全面的」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-03"
     },
@@ -539,11 +515,9 @@ export default {
       "masked": "The change had only a ____ effect on sales.",
       "options": [
         "small-mcq-03",
-        "small-mcq-02",
-        "small-mcq-04",
-        "small-mcq-01",
         "small-mcq-05",
-        "small-mcq-06"
+        "small-pdf-001",
+        "small-mcq-10"
       ],
       "explanation": "本句的「small」指「在程度、範圍或影響上有限，而不是大幅或全面的」。",
       "sentenceIndex": 6,
@@ -552,12 +526,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-03": "本句指「在程度、範圍或影響上有限，而不是大幅或全面的」。",
-        "small-mcq-02": "「數量、金額或份量較少的」是「small — amount/number」的用法，與本句語境不同。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。",
-        "small-mcq-01": "「在實際尺寸、面積或體積上較小的」是「small — physical size」的用法，與本句語境不同。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。"
+        "small-mcq-03": "本句的「small」指「在程度、範圍或影響上有限，而不是大幅或全面的」。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "small-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-03"
     },
@@ -569,11 +541,9 @@ export default {
       "masked": "It was only a ____ mistake.",
       "options": [
         "small-mcq-04",
-        "small-mcq-03",
-        "small-mcq-05",
-        "small-mcq-02",
-        "small-mcq-06",
-        "small-mcq-01"
+        "small-mcq-10",
+        "small-mcq-12",
+        "small-mcq-07"
       ],
       "explanation": "本句的「small」指「嚴重程度或重要性較低、影響有限的」。",
       "sentenceIndex": 7,
@@ -582,12 +552,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-04": "本句指「嚴重程度或重要性較低、影響有限的」。",
-        "small-mcq-03": "「在程度、範圍或影響上有限，而不是大幅或全面的」是「small — degree/extent」的用法，與本句語境不同。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-02": "「數量、金額或份量較少的」是「small — amount/number」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。",
-        "small-mcq-01": "「在實際尺寸、面積或體積上較小的」是「small — physical size」的用法，與本句語境不同。"
+        "small-mcq-04": "本句的「small」指「嚴重程度或重要性較低、影響有限的」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-04"
     },
@@ -599,11 +567,9 @@ export default {
       "masked": "We still have a few ____ problems to solve.",
       "options": [
         "small-mcq-04",
-        "small-mcq-03",
-        "small-mcq-05",
-        "small-mcq-02",
-        "small-mcq-06",
-        "small-mcq-01"
+        "small-mcq-10",
+        "small-mcq-01",
+        "small-mcq-12"
       ],
       "explanation": "本句的「small」指「嚴重程度或重要性較低、影響有限的」。",
       "sentenceIndex": 8,
@@ -612,12 +578,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-04": "本句指「嚴重程度或重要性較低、影響有限的」。",
-        "small-mcq-03": "「在程度、範圍或影響上有限，而不是大幅或全面的」是「small — degree/extent」的用法，與本句語境不同。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-02": "「數量、金額或份量較少的」是「small — amount/number」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。",
-        "small-mcq-01": "「在實際尺寸、面積或體積上較小的」是「small — physical size」的用法，與本句語境不同。"
+        "small-mcq-04": "本句的「small」指「嚴重程度或重要性較低、影響有限的」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-04"
     },
@@ -629,11 +593,9 @@ export default {
       "masked": "There is only a ____ chance of rain.",
       "options": [
         "small-mcq-05",
-        "small-mcq-04",
-        "small-mcq-06",
-        "small-mcq-03",
-        "small-mcq-07",
-        "small-mcq-02"
+        "small-mcq-12",
+        "small-mcq-10",
+        "small-mcq-03"
       ],
       "explanation": "本句的「small」指「某件事發生的可能性較低的」。",
       "sentenceIndex": 9,
@@ -642,12 +604,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-05": "本句指「某件事發生的可能性較低的」。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。",
-        "small-mcq-03": "「在程度、範圍或影響上有限，而不是大幅或全面的」是「small — degree/extent」的用法，與本句語境不同。",
-        "small-mcq-07": "「年紀尚小、通常身形亦較小的兒童」是「small child」的用法，與本句語境不同。",
-        "small-mcq-02": "「數量、金額或份量較少的」是「small — amount/number」的用法，與本句語境不同。"
+        "small-mcq-05": "本句的「small」指「某件事發生的可能性較低的」。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-05"
     },
@@ -659,11 +619,9 @@ export default {
       "masked": "We have a ____ chance of finishing today.",
       "options": [
         "small-mcq-05",
-        "small-mcq-04",
-        "small-mcq-06",
-        "small-mcq-03",
-        "small-mcq-07",
-        "small-mcq-02"
+        "small-mcq-09",
+        "small-mcq-12",
+        "small-mcq-10"
       ],
       "explanation": "本句的「small」指「某件事發生的可能性較低的」。",
       "sentenceIndex": 10,
@@ -672,12 +630,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-05": "本句指「某件事發生的可能性較低的」。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。",
-        "small-mcq-03": "「在程度、範圍或影響上有限，而不是大幅或全面的」是「small — degree/extent」的用法，與本句語境不同。",
-        "small-mcq-07": "「年紀尚小、通常身形亦較小的兒童」是「small child」的用法，與本句語境不同。",
-        "small-mcq-02": "「數量、金額或份量較少的」是「small — amount/number」的用法，與本句語境不同。"
+        "small-mcq-05": "本句的「small」指「某件事發生的可能性較低的」。",
+        "small-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-05"
     },
@@ -689,11 +645,9 @@ export default {
       "masked": "She works for a ____ technology company.",
       "options": [
         "small-mcq-06",
-        "small-mcq-05",
-        "small-mcq-07",
-        "small-mcq-04",
-        "small-mcq-08",
-        "small-mcq-03"
+        "small-mcq-10",
+        "small-mcq-13",
+        "small-mcq-05"
       ],
       "explanation": "本句的「small」指「人員、資源或營運規模相對有限的」。",
       "sentenceIndex": 11,
@@ -702,12 +656,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-06": "本句指「人員、資源或營運規模相對有限的」。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-07": "「年紀尚小、通常身形亦較小的兒童」是「small child」的用法，與本句語境不同。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。",
-        "small-mcq-08": "「音量較低、力量微弱，常帶膽怯感的聲音」是「small voice」的用法，與本句語境不同。",
-        "small-mcq-03": "「在程度、範圍或影響上有限，而不是大幅或全面的」是「small — degree/extent」的用法，與本句語境不同。"
+        "small-mcq-06": "本句的「small」指「人員、資源或營運規模相對有限的」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-06"
     },
@@ -719,11 +671,9 @@ export default {
       "masked": "The café is a ____ family business.",
       "options": [
         "small-mcq-06",
-        "small-mcq-05",
-        "small-mcq-07",
-        "small-mcq-04",
-        "small-mcq-08",
-        "small-mcq-03"
+        "small-mcq-10",
+        "small-mcq-01",
+        "small-mcq-05"
       ],
       "explanation": "本句的「small」指「人員、資源或營運規模相對有限的」。",
       "sentenceIndex": 12,
@@ -732,12 +682,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-06": "本句指「人員、資源或營運規模相對有限的」。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-07": "「年紀尚小、通常身形亦較小的兒童」是「small child」的用法，與本句語境不同。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。",
-        "small-mcq-08": "「音量較低、力量微弱，常帶膽怯感的聲音」是「small voice」的用法，與本句語境不同。",
-        "small-mcq-03": "「在程度、範圍或影響上有限，而不是大幅或全面的」是「small — degree/extent」的用法，與本句語境不同。"
+        "small-mcq-06": "本句的「small」指「人員、資源或營運規模相對有限的」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-06"
     },
@@ -749,11 +697,9 @@ export default {
       "masked": "We moved there when I was ____.",
       "options": [
         "small-mcq-07",
-        "small-mcq-06",
-        "small-mcq-08",
-        "small-mcq-05",
         "small-mcq-09",
-        "small-mcq-04"
+        "small-mcq-12",
+        "small-mcq-05"
       ],
       "explanation": "本句的「small」指「年紀尚小、通常身形亦較小的兒童」。",
       "sentenceIndex": 13,
@@ -762,12 +708,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-07": "本句指「年紀尚小、通常身形亦較小的兒童」。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。",
-        "small-mcq-08": "「音量較低、力量微弱，常帶膽怯感的聲音」是「small voice」的用法，與本句語境不同。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-09": "「在人數、資金或活動範圍方面規模有限的」是「small-scale」的用法，與本句語境不同。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。"
+        "small-mcq-07": "本句的「small」指「年紀尚小、通常身形亦較小的兒童」。",
+        "small-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-07"
     },
@@ -780,10 +724,8 @@ export default {
       "options": [
         "small-mcq-07",
         "small-mcq-06",
-        "small-mcq-08",
         "small-mcq-05",
-        "small-mcq-09",
-        "small-mcq-04"
+        "small-mcq-12"
       ],
       "explanation": "本句的「small」指「年紀尚小、通常身形亦較小的兒童」。",
       "sentenceIndex": 14,
@@ -792,12 +734,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-07": "本句指「年紀尚小、通常身形亦較小的兒童」。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。",
-        "small-mcq-08": "「音量較低、力量微弱，常帶膽怯感的聲音」是「small voice」的用法，與本句語境不同。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-09": "「在人數、資金或活動範圍方面規模有限的」是「small-scale」的用法，與本句語境不同。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。"
+        "small-mcq-07": "本句的「small」指「年紀尚小、通常身形亦較小的兒童」。",
+        "small-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-07"
     },
@@ -809,11 +749,9 @@ export default {
       "masked": "She answered in a ____ voice.",
       "options": [
         "small-mcq-08",
-        "small-mcq-07",
-        "small-mcq-09",
-        "small-mcq-06",
         "small-mcq-10",
-        "small-mcq-05"
+        "small-mcq-09",
+        "small-mcq-12"
       ],
       "explanation": "本句的「small」指「音量較低、力量微弱，常帶膽怯感的聲音」。",
       "sentenceIndex": 15,
@@ -822,12 +760,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-08": "本句指「音量較低、力量微弱，常帶膽怯感的聲音」。",
-        "small-mcq-07": "「年紀尚小、通常身形亦較小的兒童」是「small child」的用法，與本句語境不同。",
-        "small-mcq-09": "「在人數、資金或活動範圍方面規模有限的」是「small-scale」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。",
-        "small-mcq-10": "「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」是「small talk」的用法，與本句語境不同。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。"
+        "small-mcq-08": "本句的「small」指「音量較低、力量微弱，常帶膽怯感的聲音」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-08"
     },
@@ -839,11 +775,9 @@ export default {
       "masked": "A ____ voice came from the back of the room.",
       "options": [
         "small-mcq-08",
-        "small-mcq-07",
-        "small-mcq-09",
-        "small-mcq-06",
         "small-mcq-10",
-        "small-mcq-05"
+        "small-mcq-09",
+        "small-mcq-12"
       ],
       "explanation": "本句的「small」指「音量較低、力量微弱，常帶膽怯感的聲音」。",
       "sentenceIndex": 16,
@@ -852,12 +786,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-08": "本句指「音量較低、力量微弱，常帶膽怯感的聲音」。",
-        "small-mcq-07": "「年紀尚小、通常身形亦較小的兒童」是「small child」的用法，與本句語境不同。",
-        "small-mcq-09": "「在人數、資金或活動範圍方面規模有限的」是「small-scale」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。",
-        "small-mcq-10": "「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」是「small talk」的用法，與本句語境不同。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。"
+        "small-mcq-08": "本句的「small」指「音量較低、力量微弱，常帶膽怯感的聲音」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-08"
     },
@@ -869,11 +801,9 @@ export default {
       "masked": "The company began with a ____-scale trial.",
       "options": [
         "small-mcq-09",
-        "small-mcq-08",
-        "small-mcq-10",
-        "small-mcq-07",
-        "small-mcq-11",
-        "small-mcq-06"
+        "small-mcq-05",
+        "small-mcq-13",
+        "small-mcq-10"
       ],
       "explanation": "本句的「small」指「在人數、資金或活動範圍方面規模有限的」。",
       "sentenceIndex": 17,
@@ -882,12 +812,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-09": "本句指「在人數、資金或活動範圍方面規模有限的」。",
-        "small-mcq-08": "「音量較低、力量微弱，常帶膽怯感的聲音」是「small voice」的用法，與本句語境不同。",
-        "small-mcq-10": "「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」是「small talk」的用法，與本句語境不同。",
-        "small-mcq-07": "「年紀尚小、通常身形亦較小的兒童」是「small child」的用法，與本句語境不同。",
-        "small-mcq-11": "「小面值零錢；亦可指微不足道的小額金錢」是「small change」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。"
+        "small-mcq-09": "本句的「small」指「在人數、資金或活動範圍方面規模有限的」。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-09"
     },
@@ -899,11 +827,9 @@ export default {
       "masked": "They run a ____-scale farming operation.",
       "options": [
         "small-mcq-09",
-        "small-mcq-08",
         "small-mcq-10",
-        "small-mcq-07",
-        "small-mcq-11",
-        "small-mcq-06"
+        "small-mcq-08",
+        "small-mcq-13"
       ],
       "explanation": "本句的「small」指「在人數、資金或活動範圍方面規模有限的」。",
       "sentenceIndex": 18,
@@ -912,12 +838,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-09": "本句指「在人數、資金或活動範圍方面規模有限的」。",
-        "small-mcq-08": "「音量較低、力量微弱，常帶膽怯感的聲音」是「small voice」的用法，與本句語境不同。",
-        "small-mcq-10": "「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」是「small talk」的用法，與本句語境不同。",
-        "small-mcq-07": "「年紀尚小、通常身形亦較小的兒童」是「small child」的用法，與本句語境不同。",
-        "small-mcq-11": "「小面值零錢；亦可指微不足道的小額金錢」是「small change」的用法，與本句語境不同。",
-        "small-mcq-06": "「人員、資源或營運規模相對有限的」是「small business/group」的用法，與本句語境不同。"
+        "small-mcq-09": "本句的「small」指「在人數、資金或活動範圍方面規模有限的」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-09"
     },
@@ -929,11 +853,9 @@ export default {
       "masked": "The software was designed for ____ businesses.",
       "options": [
         "small-mcq-06",
-        "small-mcq-05",
-        "small-mcq-07",
-        "small-mcq-04",
-        "small-mcq-08",
-        "small-mcq-03"
+        "small-mcq-10",
+        "small-pdf-001",
+        "small-mcq-05"
       ],
       "explanation": "本句的「small」指「人員、資源或營運規模相對有限的」。",
       "sentenceIndex": 19,
@@ -942,12 +864,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-06": "本句指「人員、資源或營運規模相對有限的」。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-07": "「年紀尚小、通常身形亦較小的兒童」是「small child」的用法，與本句語境不同。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。",
-        "small-mcq-08": "「音量較低、力量微弱，常帶膽怯感的聲音」是「small voice」的用法，與本句語境不同。",
-        "small-mcq-03": "「在程度、範圍或影響上有限，而不是大幅或全面的」是「small — degree/extent」的用法，與本句語境不同。"
+        "small-mcq-06": "本句的「small」指「人員、資源或營運規模相對有限的」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-06"
     },
@@ -959,11 +879,9 @@ export default {
       "masked": "Many ____ businesses rely on local customers.",
       "options": [
         "small-mcq-06",
-        "small-mcq-05",
+        "small-mcq-10",
         "small-mcq-07",
-        "small-mcq-04",
-        "small-mcq-08",
-        "small-mcq-03"
+        "small-mcq-05"
       ],
       "explanation": "本句的「small」指「人員、資源或營運規模相對有限的」。",
       "sentenceIndex": 20,
@@ -972,12 +890,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-06": "本句指「人員、資源或營運規模相對有限的」。",
-        "small-mcq-05": "「某件事發生的可能性較低的」是「small chance」的用法，與本句語境不同。",
-        "small-mcq-07": "「年紀尚小、通常身形亦較小的兒童」是「small child」的用法，與本句語境不同。",
-        "small-mcq-04": "「嚴重程度或重要性較低、影響有限的」是「small — importance/problem」的用法，與本句語境不同。",
-        "small-mcq-08": "「音量較低、力量微弱，常帶膽怯感的聲音」是「small voice」的用法，與本句語境不同。",
-        "small-mcq-03": "「在程度、範圍或影響上有限，而不是大幅或全面的」是「small — degree/extent」的用法，與本句語境不同。"
+        "small-mcq-06": "本句的「small」指「人員、資源或營運規模相對有限的」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-06"
     },
@@ -989,11 +905,9 @@ export default {
       "masked": "We made ____ talk while waiting for the meeting to begin.",
       "options": [
         "small-mcq-10",
-        "small-mcq-09",
-        "small-mcq-11",
-        "small-mcq-08",
-        "small-mcq-12",
-        "small-mcq-07"
+        "small-mcq-02",
+        "small-mcq-05",
+        "small-mcq-12"
       ],
       "explanation": "本句的「small」指「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」。",
       "sentenceIndex": 21,
@@ -1002,12 +916,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-10": "本句指「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」。",
-        "small-mcq-09": "「在人數、資金或活動範圍方面規模有限的」是「small-scale」的用法，與本句語境不同。",
-        "small-mcq-11": "「小面值零錢；亦可指微不足道的小額金錢」是「small change」的用法，與本句語境不同。",
-        "small-mcq-08": "「音量較低、力量微弱，常帶膽怯感的聲音」是「small voice」的用法，與本句語境不同。",
-        "small-mcq-12": "「以細小字體列出的條款、限制或容易被忽略的細節」是「small print」的用法，與本句語境不同。",
-        "small-mcq-07": "「年紀尚小、通常身形亦較小的兒童」是「small child」的用法，與本句語境不同。"
+        "small-mcq-10": "本句的「small」指「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」。",
+        "small-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-10"
     },
@@ -1019,11 +931,9 @@ export default {
       "masked": "He finds ____ talk with strangers difficult.",
       "options": [
         "small-mcq-10",
-        "small-mcq-09",
-        "small-mcq-11",
+        "small-mcq-01",
         "small-mcq-08",
-        "small-mcq-12",
-        "small-mcq-07"
+        "small-mcq-12"
       ],
       "explanation": "本句的「small」指「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」。",
       "sentenceIndex": 22,
@@ -1032,12 +942,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-10": "本句指「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」。",
-        "small-mcq-09": "「在人數、資金或活動範圍方面規模有限的」是「small-scale」的用法，與本句語境不同。",
-        "small-mcq-11": "「小面值零錢；亦可指微不足道的小額金錢」是「small change」的用法，與本句語境不同。",
-        "small-mcq-08": "「音量較低、力量微弱，常帶膽怯感的聲音」是「small voice」的用法，與本句語境不同。",
-        "small-mcq-12": "「以細小字體列出的條款、限制或容易被忽略的細節」是「small print」的用法，與本句語境不同。",
-        "small-mcq-07": "「年紀尚小、通常身形亦較小的兒童」是「small child」的用法，與本句語境不同。"
+        "small-mcq-10": "本句的「small」指「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」。",
+        "small-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-10"
     },
@@ -1050,10 +958,8 @@ export default {
       "options": [
         "small-pdf-001",
         "small-mcq-10",
-        "small-mcq-12",
-        "small-mcq-09",
-        "small-mcq-13",
-        "small-mcq-08"
+        "small-mcq-06",
+        "small-mcq-12"
       ],
       "explanation": "本句的「small」指「面值較小的硬幣；亦可比喻金額小得不值得特別在意」。",
       "sentenceIndex": 23,
@@ -1062,12 +968,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-pdf-001": "本句指「面值較小的硬幣；亦可比喻金額小得不值得特別在意」。",
-        "small-mcq-10": "「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」是「small talk」的用法，與本句語境不同。",
-        "small-mcq-12": "「以細小字體列出的條款、限制或容易被忽略的細節」是「small print」的用法，與本句語境不同。",
-        "small-mcq-09": "「在人數、資金或活動範圍方面規模有限的」是「small-scale」的用法，與本句語境不同。",
-        "small-mcq-13": "「思想狹窄、不願接受不同觀點或過度計較小事的」是「small-minded」的用法，與本句語境不同。",
-        "small-mcq-08": "「音量較低、力量微弱，常帶膽怯感的聲音」是「small voice」的用法，與本句語境不同。"
+        "small-pdf-001": "本句的「small」指「面值較小的硬幣；亦可比喻金額小得不值得特別在意」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-pdf-001"
     },
@@ -1079,11 +983,9 @@ export default {
       "masked": "For a large company, that amount is ____ change.",
       "options": [
         "small-pdf-001",
+        "small-mcq-03",
         "small-mcq-10",
-        "small-mcq-12",
-        "small-mcq-09",
-        "small-mcq-13",
-        "small-mcq-08"
+        "small-mcq-12"
       ],
       "explanation": "本句的「small」指「面值較小的硬幣；亦可比喻金額小得不值得特別在意」。",
       "sentenceIndex": 24,
@@ -1092,12 +994,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-pdf-001": "本句指「面值較小的硬幣；亦可比喻金額小得不值得特別在意」。",
-        "small-mcq-10": "「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」是「small talk」的用法，與本句語境不同。",
-        "small-mcq-12": "「以細小字體列出的條款、限制或容易被忽略的細節」是「small print」的用法，與本句語境不同。",
-        "small-mcq-09": "「在人數、資金或活動範圍方面規模有限的」是「small-scale」的用法，與本句語境不同。",
-        "small-mcq-13": "「思想狹窄、不願接受不同觀點或過度計較小事的」是「small-minded」的用法，與本句語境不同。",
-        "small-mcq-08": "「音量較低、力量微弱，常帶膽怯感的聲音」是「small voice」的用法，與本句語境不同。"
+        "small-pdf-001": "本句的「small」指「面值較小的硬幣；亦可比喻金額小得不值得特別在意」。",
+        "small-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-pdf-001"
     },
@@ -1109,11 +1009,9 @@ export default {
       "masked": "Always read the ____ print before signing a contract.",
       "options": [
         "small-mcq-12",
-        "small-mcq-11",
-        "small-mcq-13",
+        "small-mcq-02",
         "small-mcq-10",
-        "small-mcq-14",
-        "small-mcq-09"
+        "small-mcq-05"
       ],
       "explanation": "本句的「small」指「以細小字體列出的條款、限制或容易被忽略的細節」。",
       "sentenceIndex": 25,
@@ -1122,12 +1020,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-12": "本句指「以細小字體列出的條款、限制或容易被忽略的細節」。",
-        "small-mcq-11": "「小面值零錢；亦可指微不足道的小額金錢」是「small change」的用法，與本句語境不同。",
-        "small-mcq-13": "「思想狹窄、不願接受不同觀點或過度計較小事的」是「small-minded」的用法，與本句語境不同。",
-        "small-mcq-10": "「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」是「small talk」的用法，與本句語境不同。",
-        "small-mcq-14": "「在尺寸、數量、規模或程度上較小的狀態」是「smallness」的用法，與本句語境不同。",
-        "small-mcq-09": "「在人數、資金或活動範圍方面規模有限的」是「small-scale」的用法，與本句語境不同。"
+        "small-mcq-12": "本句的「small」指「以細小字體列出的條款、限制或容易被忽略的細節」。",
+        "small-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-12"
     },
@@ -1139,11 +1035,9 @@ export default {
       "masked": "The offer looked good until I read the ____ print.",
       "options": [
         "small-mcq-12",
-        "small-mcq-11",
-        "small-mcq-13",
-        "small-mcq-10",
-        "small-mcq-14",
-        "small-mcq-09"
+        "small-mcq-02",
+        "small-mcq-05",
+        "small-mcq-10"
       ],
       "explanation": "本句的「small」指「以細小字體列出的條款、限制或容易被忽略的細節」。",
       "sentenceIndex": 26,
@@ -1152,12 +1046,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-12": "本句指「以細小字體列出的條款、限制或容易被忽略的細節」。",
-        "small-mcq-11": "「小面值零錢；亦可指微不足道的小額金錢」是「small change」的用法，與本句語境不同。",
-        "small-mcq-13": "「思想狹窄、不願接受不同觀點或過度計較小事的」是「small-minded」的用法，與本句語境不同。",
-        "small-mcq-10": "「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」是「small talk」的用法，與本句語境不同。",
-        "small-mcq-14": "「在尺寸、數量、規模或程度上較小的狀態」是「smallness」的用法，與本句語境不同。",
-        "small-mcq-09": "「在人數、資金或活動範圍方面規模有限的」是「small-scale」的用法，與本句語境不同。"
+        "small-mcq-12": "本句的「small」指「以細小字體列出的條款、限制或容易被忽略的細節」。",
+        "small-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-12"
     },
@@ -1169,11 +1061,9 @@ export default {
       "masked": "It would be ____-minded to reject the idea simply because it came from a competitor.",
       "options": [
         "small-mcq-13",
-        "small-mcq-12",
-        "small-mcq-14",
-        "small-mcq-11",
-        "small-mcq-15",
-        "small-mcq-10"
+        "small-mcq-10",
+        "small-mcq-06",
+        "small-mcq-12"
       ],
       "explanation": "本句的「small」指「思想狹窄、不願接受不同觀點或過度計較小事的」。",
       "sentenceIndex": 27,
@@ -1182,12 +1072,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-13": "本句指「思想狹窄、不願接受不同觀點或過度計較小事的」。",
-        "small-mcq-12": "「以細小字體列出的條款、限制或容易被忽略的細節」是「small print」的用法，與本句語境不同。",
-        "small-mcq-14": "「在尺寸、數量、規模或程度上較小的狀態」是「smallness」的用法，與本句語境不同。",
-        "small-mcq-11": "「小面值零錢；亦可指微不足道的小額金錢」是「small change」的用法，與本句語境不同。",
-        "small-mcq-15": "「強調某事相當重要、困難或值得重視，絕非小事」是「no small + noun」的用法，與本句語境不同。",
-        "small-mcq-10": "「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」是「small talk」的用法，與本句語境不同。"
+        "small-mcq-13": "本句的「small」指「思想狹窄、不願接受不同觀點或過度計較小事的」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-13"
     },
@@ -1199,11 +1087,9 @@ export default {
       "masked": "She disliked the ____-minded gossip in the office.",
       "options": [
         "small-mcq-13",
-        "small-mcq-12",
-        "small-mcq-14",
-        "small-mcq-11",
-        "small-mcq-15",
-        "small-mcq-10"
+        "small-mcq-09",
+        "small-mcq-10",
+        "small-mcq-08"
       ],
       "explanation": "本句的「small」指「思想狹窄、不願接受不同觀點或過度計較小事的」。",
       "sentenceIndex": 28,
@@ -1212,12 +1098,10 @@ export default {
         "small"
       ],
       "optionReasons": {
-        "small-mcq-13": "本句指「思想狹窄、不願接受不同觀點或過度計較小事的」。",
-        "small-mcq-12": "「以細小字體列出的條款、限制或容易被忽略的細節」是「small print」的用法，與本句語境不同。",
-        "small-mcq-14": "「在尺寸、數量、規模或程度上較小的狀態」是「smallness」的用法，與本句語境不同。",
-        "small-mcq-11": "「小面值零錢；亦可指微不足道的小額金錢」是「small change」的用法，與本句語境不同。",
-        "small-mcq-15": "「強調某事相當重要、困難或值得重視，絕非小事」是「no small + noun」的用法，與本句語境不同。",
-        "small-mcq-10": "「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」是「small talk」的用法，與本句語境不同。"
+        "small-mcq-13": "本句的「small」指「思想狹窄、不願接受不同觀點或過度計較小事的」。",
+        "small-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-13"
     },
@@ -1229,11 +1113,9 @@ export default {
       "masked": "The ____ of the room made it difficult to fit all the furniture.",
       "options": [
         "small-mcq-14",
-        "small-mcq-13",
-        "small-mcq-15",
+        "small-mcq-10",
         "small-mcq-12",
-        "small-mcq-11",
-        "small-mcq-10"
+        "small-mcq-05"
       ],
       "explanation": "本句的「smallness」指「在尺寸、數量、規模或程度上較小的狀態」。",
       "sentenceIndex": 29,
@@ -1242,12 +1124,10 @@ export default {
         "smallness"
       ],
       "optionReasons": {
-        "small-mcq-14": "本句指「在尺寸、數量、規模或程度上較小的狀態」。",
-        "small-mcq-13": "「思想狹窄、不願接受不同觀點或過度計較小事的」是「small-minded」的用法，與本句語境不同。",
-        "small-mcq-15": "「強調某事相當重要、困難或值得重視，絕非小事」是「no small + noun」的用法，與本句語境不同。",
-        "small-mcq-12": "「以細小字體列出的條款、限制或容易被忽略的細節」是「small print」的用法，與本句語境不同。",
-        "small-mcq-11": "「小面值零錢；亦可指微不足道的小額金錢」是「small change」的用法，與本句語境不同。",
-        "small-mcq-10": "「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」是「small talk」的用法，與本句語境不同。"
+        "small-mcq-14": "本句的「smallness」指「在尺寸、數量、規模或程度上較小的狀態」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-14"
     },
@@ -1259,11 +1139,9 @@ export default {
       "masked": "The ____ of the sample limits the study.",
       "options": [
         "small-mcq-14",
-        "small-mcq-13",
-        "small-mcq-15",
+        "small-mcq-10",
         "small-mcq-12",
-        "small-mcq-11",
-        "small-mcq-10"
+        "small-mcq-05"
       ],
       "explanation": "本句的「smallness」指「在尺寸、數量、規模或程度上較小的狀態」。",
       "sentenceIndex": 30,
@@ -1272,12 +1150,10 @@ export default {
         "smallness"
       ],
       "optionReasons": {
-        "small-mcq-14": "本句指「在尺寸、數量、規模或程度上較小的狀態」。",
-        "small-mcq-13": "「思想狹窄、不願接受不同觀點或過度計較小事的」是「small-minded」的用法，與本句語境不同。",
-        "small-mcq-15": "「強調某事相當重要、困難或值得重視，絕非小事」是「no small + noun」的用法，與本句語境不同。",
-        "small-mcq-12": "「以細小字體列出的條款、限制或容易被忽略的細節」是「small print」的用法，與本句語境不同。",
-        "small-mcq-11": "「小面值零錢；亦可指微不足道的小額金錢」是「small change」的用法，與本句語境不同。",
-        "small-mcq-10": "「關於普通輕鬆話題的簡短社交寒暄，而非深入討論」是「small talk」的用法，與本句語境不同。"
+        "small-mcq-14": "本句的「smallness」指「在尺寸、數量、規模或程度上較小的狀態」。",
+        "small-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "small-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "small-mcq-14"
     }
@@ -1289,5 +1165,7 @@ export default {
     "sha256": "f6e48ab1de1719ef2cdf1b8c0225b556e3c79f15920ad1b6d90fbec60c496d6d",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

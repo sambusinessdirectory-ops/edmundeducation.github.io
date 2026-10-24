@@ -195,11 +195,7 @@ export default {
       "masked": "The ____ noise makes concentration difficult.",
       "options": [
         "constant-mcq-01",
-        "constant-mcq-02",
-        "constant-mcq-03",
-        "constant-mcq-04",
-        "constant-mcq-05",
-        "constant-mcq-06"
+        "constant-mcq-04"
       ],
       "explanation": "本句的「constant」指「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」。",
       "sentenceIndex": 0,
@@ -208,12 +204,8 @@ export default {
         "constant"
       ],
       "optionReasons": {
-        "constant-mcq-01": "本句指「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」。",
-        "constant-mcq-02": "「長期一直存在、陪伴或造成影響的」與本句語境不同。",
-        "constant-mcq-03": "「數值、狀態、速度等保持同一水平，不發生變化的」與本句語境不同。",
-        "constant-mcq-04": "「在忠誠、感情、支持或信念方面堅定不移的；較正式」與本句語境不同。",
-        "constant-mcq-05": "「在特定數學／科學系統中保持固定的量或數值；常數」與本句語境不同。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。"
+        "constant-mcq-01": "本句的「constant」指「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」。",
+        "constant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-01"
     },
@@ -225,11 +217,7 @@ export default {
       "masked": "She receives ____ phone calls during the day.",
       "options": [
         "constant-mcq-01",
-        "constant-mcq-02",
-        "constant-mcq-03",
-        "constant-mcq-04",
-        "constant-mcq-05",
-        "constant-mcq-06"
+        "constant-mcq-04"
       ],
       "explanation": "本句的「constant」指「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」。",
       "sentenceIndex": 1,
@@ -238,12 +226,8 @@ export default {
         "constant"
       ],
       "optionReasons": {
-        "constant-mcq-01": "本句指「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」。",
-        "constant-mcq-02": "「長期一直存在、陪伴或造成影響的」與本句語境不同。",
-        "constant-mcq-03": "「數值、狀態、速度等保持同一水平，不發生變化的」與本句語境不同。",
-        "constant-mcq-04": "「在忠誠、感情、支持或信念方面堅定不移的；較正式」與本句語境不同。",
-        "constant-mcq-05": "「在特定數學／科學系統中保持固定的量或數值；常數」與本句語境不同。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。"
+        "constant-mcq-01": "本句的「constant」指「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」。",
+        "constant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-01"
     },
@@ -255,11 +239,7 @@ export default {
       "masked": "The machine needs ____ attention.",
       "options": [
         "constant-mcq-01",
-        "constant-mcq-02",
-        "constant-mcq-03",
-        "constant-mcq-04",
-        "constant-mcq-05",
-        "constant-mcq-06"
+        "constant-mcq-04"
       ],
       "explanation": "本句的「constant」指「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」。",
       "sentenceIndex": 2,
@@ -268,12 +248,8 @@ export default {
         "constant"
       ],
       "optionReasons": {
-        "constant-mcq-01": "本句指「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」。",
-        "constant-mcq-02": "「長期一直存在、陪伴或造成影響的」與本句語境不同。",
-        "constant-mcq-03": "「數值、狀態、速度等保持同一水平，不發生變化的」與本句語境不同。",
-        "constant-mcq-04": "「在忠誠、感情、支持或信念方面堅定不移的；較正式」與本句語境不同。",
-        "constant-mcq-05": "「在特定數學／科學系統中保持固定的量或數值；常數」與本句語境不同。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。"
+        "constant-mcq-01": "本句的「constant」指「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」。",
+        "constant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-01"
     },
@@ -285,11 +261,8 @@ export default {
       "masked": "Her dog was her ____.",
       "options": [
         "constant-mcq-02",
-        "constant-mcq-01",
-        "constant-mcq-03",
         "constant-mcq-04",
-        "constant-mcq-05",
-        "constant-mcq-06"
+        "constant-mcq-07"
       ],
       "explanation": "本句的「constant companion」指「長期一直存在、陪伴或造成影響的」。",
       "sentenceIndex": 3,
@@ -298,12 +271,9 @@ export default {
         "constant companion"
       ],
       "optionReasons": {
-        "constant-mcq-02": "本句指「長期一直存在、陪伴或造成影響的」。",
-        "constant-mcq-01": "「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」與本句語境不同。",
-        "constant-mcq-03": "「數值、狀態、速度等保持同一水平，不發生變化的」與本句語境不同。",
-        "constant-mcq-04": "「在忠誠、感情、支持或信念方面堅定不移的；較正式」與本句語境不同。",
-        "constant-mcq-05": "「在特定數學／科學系統中保持固定的量或數值；常數」與本句語境不同。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。"
+        "constant-mcq-02": "本句的「constant companion」指「長期一直存在、陪伴或造成影響的」。",
+        "constant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "constant-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-02"
     },
@@ -315,11 +285,8 @@ export default {
       "masked": "Money was a ____ of worry.",
       "options": [
         "constant-mcq-02",
-        "constant-mcq-01",
-        "constant-mcq-03",
-        "constant-mcq-04",
-        "constant-mcq-05",
-        "constant-mcq-06"
+        "constant-mcq-07",
+        "constant-mcq-04"
       ],
       "explanation": "本句的「constant source」指「長期一直存在、陪伴或造成影響的」。",
       "sentenceIndex": 4,
@@ -328,12 +295,9 @@ export default {
         "constant source"
       ],
       "optionReasons": {
-        "constant-mcq-02": "本句指「長期一直存在、陪伴或造成影響的」。",
-        "constant-mcq-01": "「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」與本句語境不同。",
-        "constant-mcq-03": "「數值、狀態、速度等保持同一水平，不發生變化的」與本句語境不同。",
-        "constant-mcq-04": "「在忠誠、感情、支持或信念方面堅定不移的；較正式」與本句語境不同。",
-        "constant-mcq-05": "「在特定數學／科學系統中保持固定的量或數值；常數」與本句語境不同。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。"
+        "constant-mcq-02": "本句的「constant source」指「長期一直存在、陪伴或造成影響的」。",
+        "constant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "constant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-02"
     },
@@ -345,11 +309,8 @@ export default {
       "masked": "The scar was a ____ of the accident.",
       "options": [
         "constant-mcq-02",
-        "constant-mcq-01",
-        "constant-mcq-03",
-        "constant-mcq-04",
-        "constant-mcq-05",
-        "constant-mcq-06"
+        "constant-mcq-07",
+        "constant-mcq-04"
       ],
       "explanation": "本句的「constant reminder」指「長期一直存在、陪伴或造成影響的」。",
       "sentenceIndex": 5,
@@ -358,12 +319,9 @@ export default {
         "constant reminder"
       ],
       "optionReasons": {
-        "constant-mcq-02": "本句指「長期一直存在、陪伴或造成影響的」。",
-        "constant-mcq-01": "「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」與本句語境不同。",
-        "constant-mcq-03": "「數值、狀態、速度等保持同一水平，不發生變化的」與本句語境不同。",
-        "constant-mcq-04": "「在忠誠、感情、支持或信念方面堅定不移的；較正式」與本句語境不同。",
-        "constant-mcq-05": "「在特定數學／科學系統中保持固定的量或數值；常數」與本句語境不同。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。"
+        "constant-mcq-02": "本句的「constant reminder」指「長期一直存在、陪伴或造成影響的」。",
+        "constant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "constant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-02"
     },
@@ -375,11 +333,8 @@ export default {
       "masked": "Keep the temperature ____.",
       "options": [
         "constant-mcq-03",
-        "constant-mcq-02",
-        "constant-mcq-04",
-        "constant-mcq-01",
-        "constant-mcq-05",
-        "constant-mcq-06"
+        "constant-mcq-07",
+        "constant-mcq-04"
       ],
       "explanation": "本句的「constant」指「數值、狀態、速度等保持同一水平，不發生變化的」。",
       "sentenceIndex": 6,
@@ -388,12 +343,9 @@ export default {
         "constant"
       ],
       "optionReasons": {
-        "constant-mcq-03": "本句指「數值、狀態、速度等保持同一水平，不發生變化的」。",
-        "constant-mcq-02": "「長期一直存在、陪伴或造成影響的」與本句語境不同。",
-        "constant-mcq-04": "「在忠誠、感情、支持或信念方面堅定不移的；較正式」與本句語境不同。",
-        "constant-mcq-01": "「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」與本句語境不同。",
-        "constant-mcq-05": "「在特定數學／科學系統中保持固定的量或數值；常數」與本句語境不同。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。"
+        "constant-mcq-03": "本句的「constant」指「數值、狀態、速度等保持同一水平，不發生變化的」。",
+        "constant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "constant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-03"
     },
@@ -405,11 +357,8 @@ export default {
       "masked": "The car travelled at a ____ speed.",
       "options": [
         "constant-mcq-03",
-        "constant-mcq-02",
-        "constant-mcq-04",
-        "constant-mcq-01",
-        "constant-mcq-05",
-        "constant-mcq-06"
+        "constant-mcq-07",
+        "constant-mcq-04"
       ],
       "explanation": "本句的「constant」指「數值、狀態、速度等保持同一水平，不發生變化的」。",
       "sentenceIndex": 7,
@@ -418,12 +367,9 @@ export default {
         "constant"
       ],
       "optionReasons": {
-        "constant-mcq-03": "本句指「數值、狀態、速度等保持同一水平，不發生變化的」。",
-        "constant-mcq-02": "「長期一直存在、陪伴或造成影響的」與本句語境不同。",
-        "constant-mcq-04": "「在忠誠、感情、支持或信念方面堅定不移的；較正式」與本句語境不同。",
-        "constant-mcq-01": "「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」與本句語境不同。",
-        "constant-mcq-05": "「在特定數學／科學系統中保持固定的量或數值；常數」與本句語境不同。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。"
+        "constant-mcq-03": "本句的「constant」指「數值、狀態、速度等保持同一水平，不發生變化的」。",
+        "constant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "constant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-03"
     },
@@ -435,11 +381,8 @@ export default {
       "masked": "The pressure remained ____ throughout the experiment.",
       "options": [
         "constant-mcq-03",
-        "constant-mcq-02",
-        "constant-mcq-04",
-        "constant-mcq-01",
-        "constant-mcq-05",
-        "constant-mcq-06"
+        "constant-mcq-07",
+        "constant-mcq-04"
       ],
       "explanation": "本句的「constant」指「數值、狀態、速度等保持同一水平，不發生變化的」。",
       "sentenceIndex": 8,
@@ -448,12 +391,9 @@ export default {
         "constant"
       ],
       "optionReasons": {
-        "constant-mcq-03": "本句指「數值、狀態、速度等保持同一水平，不發生變化的」。",
-        "constant-mcq-02": "「長期一直存在、陪伴或造成影響的」與本句語境不同。",
-        "constant-mcq-04": "「在忠誠、感情、支持或信念方面堅定不移的；較正式」與本句語境不同。",
-        "constant-mcq-01": "「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」與本句語境不同。",
-        "constant-mcq-05": "「在特定數學／科學系統中保持固定的量或數值；常數」與本句語境不同。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。"
+        "constant-mcq-03": "本句的「constant」指「數值、狀態、速度等保持同一水平，不發生變化的」。",
+        "constant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "constant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-03"
     },
@@ -465,11 +405,8 @@ export default {
       "masked": "She remained ____ in her support for him.",
       "options": [
         "constant-mcq-04",
-        "constant-mcq-03",
-        "constant-mcq-05",
-        "constant-mcq-02",
-        "constant-mcq-06",
-        "constant-mcq-01"
+        "constant-mcq-07",
+        "constant-mcq-02"
       ],
       "explanation": "本句的「constant」指「在忠誠、感情、支持或信念方面堅定不移的；較正式」。",
       "sentenceIndex": 9,
@@ -478,12 +415,9 @@ export default {
         "constant"
       ],
       "optionReasons": {
-        "constant-mcq-04": "本句指「在忠誠、感情、支持或信念方面堅定不移的；較正式」。",
-        "constant-mcq-03": "「數值、狀態、速度等保持同一水平，不發生變化的」與本句語境不同。",
-        "constant-mcq-05": "「在特定數學／科學系統中保持固定的量或數值；常數」與本句語境不同。",
-        "constant-mcq-02": "「長期一直存在、陪伴或造成影響的」與本句語境不同。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。",
-        "constant-mcq-01": "「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」與本句語境不同。"
+        "constant-mcq-04": "本句的「constant」指「在忠誠、感情、支持或信念方面堅定不移的；較正式」。",
+        "constant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "constant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-04"
     },
@@ -495,11 +429,8 @@ export default {
       "masked": "He was a ____ and loyal friend.",
       "options": [
         "constant-mcq-04",
-        "constant-mcq-03",
-        "constant-mcq-05",
         "constant-mcq-02",
-        "constant-mcq-06",
-        "constant-mcq-01"
+        "constant-mcq-07"
       ],
       "explanation": "本句的「constant」指「在忠誠、感情、支持或信念方面堅定不移的；較正式」。",
       "sentenceIndex": 10,
@@ -508,12 +439,9 @@ export default {
         "constant"
       ],
       "optionReasons": {
-        "constant-mcq-04": "本句指「在忠誠、感情、支持或信念方面堅定不移的；較正式」。",
-        "constant-mcq-03": "「數值、狀態、速度等保持同一水平，不發生變化的」與本句語境不同。",
-        "constant-mcq-05": "「在特定數學／科學系統中保持固定的量或數值；常數」與本句語境不同。",
-        "constant-mcq-02": "「長期一直存在、陪伴或造成影響的」與本句語境不同。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。",
-        "constant-mcq-01": "「持續存在或非常頻繁地反覆發生，幾乎沒有明顯中斷」與本句語境不同。"
+        "constant-mcq-04": "本句的「constant」指「在忠誠、感情、支持或信念方面堅定不移的；較正式」。",
+        "constant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "constant-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-04"
     },
@@ -525,11 +453,8 @@ export default {
       "masked": "In this equation, 5 is a ____.",
       "options": [
         "constant-mcq-05",
-        "constant-mcq-04",
-        "constant-mcq-06",
-        "constant-mcq-03",
         "constant-mcq-07",
-        "constant-mcq-02"
+        "constant-mcq-04"
       ],
       "explanation": "本句的「constant」指「在特定數學／科學系統中保持固定的量或數值；常數」。",
       "sentenceIndex": 11,
@@ -538,12 +463,9 @@ export default {
         "constant"
       ],
       "optionReasons": {
-        "constant-mcq-05": "本句指「在特定數學／科學系統中保持固定的量或數值；常數」。",
-        "constant-mcq-04": "「在忠誠、感情、支持或信念方面堅定不移的；較正式」與本句語境不同。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。",
-        "constant-mcq-03": "「數值、狀態、速度等保持同一水平，不發生變化的」與本句語境不同。",
-        "constant-mcq-07": "「不斷地；非常頻繁地」與本句語境不同。",
-        "constant-mcq-02": "「長期一直存在、陪伴或造成影響的」與本句語境不同。"
+        "constant-mcq-05": "本句的「constant」指「在特定數學／科學系統中保持固定的量或數值；常數」。",
+        "constant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "constant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-05"
     },
@@ -555,11 +477,8 @@ export default {
       "masked": "Scientists measured the physical ____ very precisely.",
       "options": [
         "constant-mcq-05",
-        "constant-mcq-04",
-        "constant-mcq-06",
-        "constant-mcq-03",
         "constant-mcq-07",
-        "constant-mcq-02"
+        "constant-mcq-04"
       ],
       "explanation": "本句的「constant」指「在特定數學／科學系統中保持固定的量或數值；常數」。",
       "sentenceIndex": 12,
@@ -568,12 +487,9 @@ export default {
         "constant"
       ],
       "optionReasons": {
-        "constant-mcq-05": "本句指「在特定數學／科學系統中保持固定的量或數值；常數」。",
-        "constant-mcq-04": "「在忠誠、感情、支持或信念方面堅定不移的；較正式」與本句語境不同。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。",
-        "constant-mcq-03": "「數值、狀態、速度等保持同一水平，不發生變化的」與本句語境不同。",
-        "constant-mcq-07": "「不斷地；非常頻繁地」與本句語境不同。",
-        "constant-mcq-02": "「長期一直存在、陪伴或造成影響的」與本句語境不同。"
+        "constant-mcq-05": "本句的「constant」指「在特定數學／科學系統中保持固定的量或數值；常數」。",
+        "constant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "constant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-05"
     },
@@ -585,10 +501,7 @@ export default {
       "masked": "The children were ____ interrupting.",
       "options": [
         "constant-mcq-07",
-        "constant-mcq-06",
-        "constant-mcq-08",
-        "constant-mcq-05",
-        "constant-mcq-09",
+        "constant-mcq-02",
         "constant-mcq-04"
       ],
       "explanation": "本句的「constantly」指「不斷地；非常頻繁地」。",
@@ -598,12 +511,9 @@ export default {
         "constantly"
       ],
       "optionReasons": {
-        "constant-mcq-07": "本句指「不斷地；非常頻繁地」。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。",
-        "constant-mcq-08": "「恆定性；亦可指忠貞、堅定」與本句語境不同。",
-        "constant-mcq-05": "「在特定數學／科學系統中保持固定的量或數值；常數」與本句語境不同。",
-        "constant-mcq-09": "「多變、不穩定或不忠貞的；較低頻」與本句語境不同。",
-        "constant-mcq-04": "「在忠誠、感情、支持或信念方面堅定不移的；較正式」與本句語境不同。"
+        "constant-mcq-07": "本句的「constantly」指「不斷地；非常頻繁地」。",
+        "constant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "constant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-07"
     },
@@ -615,11 +525,8 @@ export default {
       "masked": "The technology is ____ changing.",
       "options": [
         "constant-mcq-07",
-        "constant-mcq-06",
-        "constant-mcq-08",
-        "constant-mcq-05",
-        "constant-mcq-09",
-        "constant-mcq-04"
+        "constant-mcq-04",
+        "constant-mcq-02"
       ],
       "explanation": "本句的「constantly」指「不斷地；非常頻繁地」。",
       "sentenceIndex": 16,
@@ -628,12 +535,9 @@ export default {
         "constantly"
       ],
       "optionReasons": {
-        "constant-mcq-07": "本句指「不斷地；非常頻繁地」。",
-        "constant-mcq-06": "「程式中被視為固定、不可隨意改變的值」與本句語境不同。",
-        "constant-mcq-08": "「恆定性；亦可指忠貞、堅定」與本句語境不同。",
-        "constant-mcq-05": "「在特定數學／科學系統中保持固定的量或數值；常數」與本句語境不同。",
-        "constant-mcq-09": "「多變、不穩定或不忠貞的；較低頻」與本句語境不同。",
-        "constant-mcq-04": "「在忠誠、感情、支持或信念方面堅定不移的；較正式」與本句語境不同。"
+        "constant-mcq-07": "本句的「constantly」指「不斷地；非常頻繁地」。",
+        "constant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "constant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "constant-mcq-07"
     }
@@ -645,5 +549,7 @@ export default {
     "sha256": "38cdeac1f9f205430ecd082365427273734a9e2b5fb6ecb0bb305ebc71e1ec75",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

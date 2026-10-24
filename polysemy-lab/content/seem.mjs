@@ -282,11 +282,8 @@ export default {
       "masked": "She ____ today.",
       "options": [
         "seem-mcq-01",
-        "seem-mcq-02",
-        "seem-mcq-03",
-        "seem-mcq-04",
-        "seem-mcq-05",
-        "seem-mcq-06"
+        "seem-mcq-07",
+        "seem-pdf-001"
       ],
       "explanation": "本句的「seems tired」指「根據外在跡象或個人判斷，看起來具有某種狀態或特質」。",
       "sentenceIndex": 0,
@@ -295,12 +292,9 @@ export default {
         "seems tired"
       ],
       "optionReasons": {
-        "seem-mcq-01": "本句指「根據外在跡象或個人判斷，看起來具有某種狀態或特質」。",
-        "seem-mcq-02": "「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」是「seem to + verb」的用法，與本句語境不同。",
-        "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。"
+        "seem-mcq-01": "本句的「seems tired」指「根據外在跡象或個人判斷，看起來具有某種狀態或特質」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-01"
     },
@@ -312,11 +306,8 @@ export default {
       "masked": "The office ____.",
       "options": [
         "seem-mcq-01",
-        "seem-mcq-02",
-        "seem-mcq-03",
-        "seem-mcq-04",
-        "seem-mcq-05",
-        "seem-mcq-06"
+        "seem-mcq-07",
+        "seem-pdf-001"
       ],
       "explanation": "本句的「seemed unusually quiet」指「根據外在跡象或個人判斷，看起來具有某種狀態或特質」。",
       "sentenceIndex": 1,
@@ -325,12 +316,9 @@ export default {
         "seemed unusually quiet"
       ],
       "optionReasons": {
-        "seem-mcq-01": "本句指「根據外在跡象或個人判斷，看起來具有某種狀態或特質」。",
-        "seem-mcq-02": "「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」是「seem to + verb」的用法，與本句語境不同。",
-        "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。"
+        "seem-mcq-01": "本句的「seemed unusually quiet」指「根據外在跡象或個人判斷，看起來具有某種狀態或特質」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-01"
     },
@@ -342,11 +330,8 @@ export default {
       "masked": "Everything ____ into the background.",
       "options": [
         "seem-mcq-02",
-        "seem-mcq-01",
-        "seem-mcq-03",
-        "seem-mcq-04",
-        "seem-mcq-05",
-        "seem-mcq-06"
+        "seem-mcq-07",
+        "seem-pdf-001"
       ],
       "explanation": "本句的「seemed to fade」指「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」。",
       "sentenceIndex": 0,
@@ -355,12 +340,9 @@ export default {
         "seemed to fade"
       ],
       "optionReasons": {
-        "seem-mcq-02": "本句指「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」。",
-        "seem-mcq-01": "「根據外在跡象或個人判斷，看起來具有某種狀態或特質」是「seem + adjective」的用法，與本句語境不同。",
-        "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。"
+        "seem-mcq-02": "本句的「seemed to fade」指「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-02"
     },
@@ -372,11 +354,8 @@ export default {
       "masked": "The headphones ____ most of the background noise.",
       "options": [
         "seem-mcq-02",
-        "seem-mcq-01",
-        "seem-mcq-03",
-        "seem-mcq-04",
-        "seem-mcq-05",
-        "seem-mcq-06"
+        "seem-mcq-07",
+        "seem-pdf-001"
       ],
       "explanation": "本句的「seem to reduce」指「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」。",
       "sentenceIndex": 1,
@@ -385,12 +364,9 @@ export default {
         "seem to reduce"
       ],
       "optionReasons": {
-        "seem-mcq-02": "本句指「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」。",
-        "seem-mcq-01": "「根據外在跡象或個人判斷，看起來具有某種狀態或特質」是「seem + adjective」的用法，與本句語境不同。",
-        "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。"
+        "seem-mcq-02": "本句的「seem to reduce」指「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-02"
     },
@@ -402,11 +378,8 @@ export default {
       "masked": "He ____ the problem immediately.",
       "options": [
         "seem-mcq-02",
-        "seem-mcq-01",
-        "seem-mcq-03",
-        "seem-mcq-04",
-        "seem-mcq-05",
-        "seem-mcq-06"
+        "seem-pdf-001",
+        "seem-mcq-07"
       ],
       "explanation": "本句的「seemed to understand」指「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」。",
       "sentenceIndex": 2,
@@ -415,12 +388,9 @@ export default {
         "seemed to understand"
       ],
       "optionReasons": {
-        "seem-mcq-02": "本句指「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」。",
-        "seem-mcq-01": "「根據外在跡象或個人判斷，看起來具有某種狀態或特質」是「seem + adjective」的用法，與本句語境不同。",
-        "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。"
+        "seem-mcq-02": "本句的「seemed to understand」指「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-02"
     },
@@ -432,11 +402,7 @@ export default {
       "masked": "This ____ the best solution.",
       "options": [
         "seem-mcq-03",
-        "seem-mcq-02",
-        "seem-mcq-04",
-        "seem-mcq-01",
-        "seem-mcq-05",
-        "seem-mcq-06"
+        "seem-mcq-07"
       ],
       "explanation": "本句的「seems to be」指「根據目前跡象判斷，某人／某事看來是或處於某種狀態」。",
       "sentenceIndex": 0,
@@ -445,12 +411,8 @@ export default {
         "seems to be"
       ],
       "optionReasons": {
-        "seem-mcq-03": "本句指「根據目前跡象判斷，某人／某事看來是或處於某種狀態」。",
-        "seem-mcq-02": "「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」是「seem to + verb」的用法，與本句語境不同。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
-        "seem-mcq-01": "「根據外在跡象或個人判斷，看起來具有某種狀態或特質」是「seem + adjective」的用法，與本句語境不同。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。"
+        "seem-mcq-03": "本句的「seems to be」指「根據目前跡象判斷，某人／某事看來是或處於某種狀態」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-03"
     },
@@ -462,11 +424,7 @@ export default {
       "masked": "The system ____ working normally again.",
       "options": [
         "seem-mcq-03",
-        "seem-mcq-02",
-        "seem-mcq-04",
-        "seem-mcq-01",
-        "seem-mcq-05",
-        "seem-mcq-06"
+        "seem-mcq-07"
       ],
       "explanation": "本句的「seems to be」指「根據目前跡象判斷，某人／某事看來是或處於某種狀態」。",
       "sentenceIndex": 1,
@@ -475,12 +433,8 @@ export default {
         "seems to be"
       ],
       "optionReasons": {
-        "seem-mcq-03": "本句指「根據目前跡象判斷，某人／某事看來是或處於某種狀態」。",
-        "seem-mcq-02": "「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」是「seem to + verb」的用法，與本句語境不同。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
-        "seem-mcq-01": "「根據外在跡象或個人判斷，看起來具有某種狀態或特質」是「seem + adjective」的用法，與本句語境不同。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。"
+        "seem-mcq-03": "本句的「seems to be」指「根據目前跡象判斷，某人／某事看來是或處於某種狀態」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-03"
     },
@@ -492,11 +446,9 @@ export default {
       "masked": "____ the problem has been fixed.",
       "options": [
         "seem-mcq-04",
-        "seem-mcq-03",
-        "seem-mcq-05",
-        "seem-mcq-02",
-        "seem-mcq-06",
-        "seem-mcq-01"
+        "seem-mcq-07",
+        "seem-mcq-10",
+        "seem-mcq-05"
       ],
       "explanation": "本句的「It seems that」指「根據目前資料或跡象，判斷某件事情可能屬實」。",
       "sentenceIndex": 0,
@@ -505,12 +457,10 @@ export default {
         "It seems that"
       ],
       "optionReasons": {
-        "seem-mcq-04": "本句指「根據目前資料或跡象，判斷某件事情可能屬實」。",
-        "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-02": "「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」是「seem to + verb」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。",
-        "seem-mcq-01": "「根據外在跡象或個人判斷，看起來具有某種狀態或特質」是「seem + adjective」的用法，與本句語境不同。"
+        "seem-mcq-04": "本句的「It seems that」指「根據目前資料或跡象，判斷某件事情可能屬實」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-04"
     },
@@ -522,11 +472,9 @@ export default {
       "masked": "____ nobody noticed the mistake.",
       "options": [
         "seem-mcq-04",
-        "seem-mcq-03",
+        "seem-mcq-07",
         "seem-mcq-05",
-        "seem-mcq-02",
-        "seem-mcq-06",
-        "seem-mcq-01"
+        "seem-mcq-10"
       ],
       "explanation": "本句的「It seems」指「根據目前資料或跡象，判斷某件事情可能屬實」。",
       "sentenceIndex": 1,
@@ -535,12 +483,10 @@ export default {
         "It seems"
       ],
       "optionReasons": {
-        "seem-mcq-04": "本句指「根據目前資料或跡象，判斷某件事情可能屬實」。",
-        "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-02": "「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」是「seem to + verb」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。",
-        "seem-mcq-01": "「根據外在跡象或個人判斷，看起來具有某種狀態或特質」是「seem + adjective」的用法，與本句語境不同。"
+        "seem-mcq-04": "本句的「It seems」指「根據目前資料或跡象，判斷某件事情可能屬實」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-04"
     },
@@ -552,11 +498,9 @@ export default {
       "masked": "It ____ a good idea.",
       "options": [
         "seem-mcq-05",
-        "seem-mcq-04",
-        "seem-mcq-06",
-        "seem-mcq-03",
         "seem-mcq-07",
-        "seem-mcq-02"
+        "seem-mcq-08",
+        "seem-mcq-10"
       ],
       "explanation": "本句的「seems like」指「從整體印象來看，感覺像某種事物或情況」。",
       "sentenceIndex": 0,
@@ -565,12 +509,10 @@ export default {
         "seems like"
       ],
       "optionReasons": {
-        "seem-mcq-05": "本句指「從整體印象來看，感覺像某種事物或情況」。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。",
-        "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。",
-        "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
-        "seem-mcq-02": "「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」是「seem to + verb」的用法，與本句語境不同。"
+        "seem-mcq-05": "本句的「seems like」指「從整體印象來看，感覺像某種事物或情況」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-05"
     },
@@ -582,11 +524,9 @@ export default {
       "masked": "It ____ everyone is working from home today.",
       "options": [
         "seem-mcq-05",
-        "seem-mcq-04",
-        "seem-mcq-06",
-        "seem-mcq-03",
+        "seem-mcq-08",
         "seem-mcq-07",
-        "seem-mcq-02"
+        "seem-mcq-10"
       ],
       "explanation": "本句的「seems like」指「從整體印象來看，感覺像某種事物或情況」。",
       "sentenceIndex": 1,
@@ -595,12 +535,10 @@ export default {
         "seems like"
       ],
       "optionReasons": {
-        "seem-mcq-05": "本句指「從整體印象來看，感覺像某種事物或情況」。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。",
-        "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。",
-        "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
-        "seem-mcq-02": "「從觀察或感覺判斷，某個動作或情況似乎正在／曾經發生」是「seem to + verb」的用法，與本句語境不同。"
+        "seem-mcq-05": "本句的「seems like」指「從整體印象來看，感覺像某種事物或情況」。",
+        "seem-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-05"
     },
@@ -612,11 +550,8 @@ export default {
       "masked": "It ____ the noise had disappeared completely.",
       "options": [
         "seem-mcq-06",
-        "seem-mcq-05",
         "seem-mcq-07",
-        "seem-mcq-04",
-        "seem-mcq-08",
-        "seem-mcq-03"
+        "seem-pdf-001"
       ],
       "explanation": "本句的「seemed as if」指「根據跡象或感受，彷彿某種情況真的存在或發生」。",
       "sentenceIndex": 0,
@@ -625,12 +560,9 @@ export default {
         "seemed as if"
       ],
       "optionReasons": {
-        "seem-mcq-06": "本句指「根據跡象或感受，彷彿某種情況真的存在或發生」。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
-        "seem-mcq-08": "「以較保留、謹慎的方式表示現有證據似乎支持某判斷」是「would seem」的用法，與本句語境不同。",
-        "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。"
+        "seem-mcq-06": "本句的「seemed as if」指「根據跡象或感受，彷彿某種情況真的存在或發生」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-06"
     },
@@ -642,11 +574,8 @@ export default {
       "masked": "She ____ she had not slept all night.",
       "options": [
         "seem-mcq-06",
-        "seem-mcq-05",
         "seem-mcq-07",
-        "seem-mcq-04",
-        "seem-mcq-08",
-        "seem-mcq-03"
+        "seem-pdf-001"
       ],
       "explanation": "本句的「seemed as though」指「根據跡象或感受，彷彿某種情況真的存在或發生」。",
       "sentenceIndex": 1,
@@ -655,12 +584,9 @@ export default {
         "seemed as though"
       ],
       "optionReasons": {
-        "seem-mcq-06": "本句指「根據跡象或感受，彷彿某種情況真的存在或發生」。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
-        "seem-mcq-08": "「以較保留、謹慎的方式表示現有證據似乎支持某判斷」是「would seem」的用法，與本句語境不同。",
-        "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。"
+        "seem-mcq-06": "本句的「seemed as though」指「根據跡象或感受，彷彿某種情況真的存在或發生」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-06"
     },
@@ -672,11 +598,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "seem-pdf-001",
-        "seem-mcq-05",
+        "seem-mcq-10",
         "seem-mcq-07",
-        "seem-mcq-04",
-        "seem-mcq-08",
-        "seem-mcq-03"
+        "seem-mcq-08"
       ],
       "explanation": "本句的「seems a reliable person」指「給人的印象是某種人物、事物或類型」。",
       "sentenceIndex": 0,
@@ -685,12 +609,10 @@ export default {
         "seems a reliable person"
       ],
       "optionReasons": {
-        "seem-pdf-001": "本句指「給人的印象是某種人物、事物或類型」。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
-        "seem-mcq-08": "「以較保留、謹慎的方式表示現有證據似乎支持某判斷」是「would seem」的用法，與本句語境不同。",
-        "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。"
+        "seem-pdf-001": "本句的「seems a reliable person」指「給人的印象是某種人物、事物或類型」。",
+        "seem-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-pdf-001"
     },
@@ -702,11 +624,8 @@ export default {
       "masked": "It ____ at the time.",
       "options": [
         "seem-pdf-001",
-        "seem-mcq-05",
-        "seem-mcq-07",
-        "seem-mcq-04",
-        "seem-mcq-08",
-        "seem-mcq-03"
+        "seem-mcq-02",
+        "seem-mcq-07"
       ],
       "explanation": "本句的「seemed a strange decision」指「給人的印象是某種人物、事物或類型」。",
       "sentenceIndex": 1,
@@ -715,12 +634,9 @@ export default {
         "seemed a strange decision"
       ],
       "optionReasons": {
-        "seem-pdf-001": "本句指「給人的印象是某種人物、事物或類型」。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。",
-        "seem-mcq-08": "「以較保留、謹慎的方式表示現有證據似乎支持某判斷」是「would seem」的用法，與本句語境不同。",
-        "seem-mcq-03": "「根據目前跡象判斷，某人／某事看來是或處於某種狀態」是「seem to be」的用法，與本句語境不同。"
+        "seem-pdf-001": "本句的「seemed a strange decision」指「給人的印象是某種人物、事物或類型」。",
+        "seem-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-pdf-001"
     },
@@ -732,11 +648,9 @@ export default {
       "masked": "I ____ my keys.",
       "options": [
         "seem-mcq-07",
-        "seem-mcq-06",
+        "seem-mcq-10",
         "seem-mcq-08",
-        "seem-mcq-05",
-        "seem-mcq-09",
-        "seem-mcq-04"
+        "seem-pdf-001"
       ],
       "explanation": "本句的「can’t seem to find」指「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」。",
       "sentenceIndex": 0,
@@ -745,12 +659,10 @@ export default {
         "can’t seem to find"
       ],
       "optionReasons": {
-        "seem-mcq-07": "本句指「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。",
-        "seem-mcq-08": "「以較保留、謹慎的方式表示現有證據似乎支持某判斷」是「would seem」的用法，與本句語境不同。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-09": "「根據目前掌握的情況，看來確實如此」是「so it seems / it seems so」的用法，與本句語境不同。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。"
+        "seem-mcq-07": "本句的「can’t seem to find」指「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」。",
+        "seem-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-07"
     },
@@ -762,11 +674,9 @@ export default {
       "masked": "She ____ in the noisy office.",
       "options": [
         "seem-mcq-07",
-        "seem-mcq-06",
-        "seem-mcq-08",
-        "seem-mcq-05",
-        "seem-mcq-09",
-        "seem-mcq-04"
+        "seem-mcq-04",
+        "seem-mcq-10",
+        "seem-pdf-001"
       ],
       "explanation": "本句的「can’t seem to concentrate」指「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」。",
       "sentenceIndex": 1,
@@ -775,12 +685,10 @@ export default {
         "can’t seem to concentrate"
       ],
       "optionReasons": {
-        "seem-mcq-07": "本句指「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。",
-        "seem-mcq-08": "「以較保留、謹慎的方式表示現有證據似乎支持某判斷」是「would seem」的用法，與本句語境不同。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。",
-        "seem-mcq-09": "「根據目前掌握的情況，看來確實如此」是「so it seems / it seems so」的用法，與本句語境不同。",
-        "seem-mcq-04": "「根據目前資料或跡象，判斷某件事情可能屬實」是「it seems (that)…」的用法，與本句語境不同。"
+        "seem-mcq-07": "本句的「can’t seem to concentrate」指「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」。",
+        "seem-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-07"
     },
@@ -792,11 +700,9 @@ export default {
       "masked": "It ____ that demand is falling.",
       "options": [
         "seem-mcq-08",
-        "seem-mcq-07",
-        "seem-mcq-09",
-        "seem-mcq-06",
         "seem-mcq-10",
-        "seem-mcq-05"
+        "seem-mcq-07",
+        "seem-pdf-001"
       ],
       "explanation": "本句的「would seem」指「以較保留、謹慎的方式表示現有證據似乎支持某判斷」。",
       "sentenceIndex": 0,
@@ -805,12 +711,10 @@ export default {
         "would seem"
       ],
       "optionReasons": {
-        "seem-mcq-08": "本句指「以較保留、謹慎的方式表示現有證據似乎支持某判斷」。",
-        "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
-        "seem-mcq-09": "「根據目前掌握的情況，看來確實如此」是「so it seems / it seems so」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。",
-        "seem-mcq-10": "「從表面看來具有某種性質，但實際情況未必如此的」是「seeming」的用法，與本句語境不同。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。"
+        "seem-mcq-08": "本句的「would seem」指「以較保留、謹慎的方式表示現有證據似乎支持某判斷」。",
+        "seem-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-08"
     },
@@ -822,11 +726,9 @@ export default {
       "masked": "The two problems ____ connected.",
       "options": [
         "seem-mcq-08",
-        "seem-mcq-07",
-        "seem-mcq-09",
-        "seem-mcq-06",
+        "seem-mcq-05",
         "seem-mcq-10",
-        "seem-mcq-05"
+        "seem-mcq-07"
       ],
       "explanation": "本句的「would seem to be」指「以較保留、謹慎的方式表示現有證據似乎支持某判斷」。",
       "sentenceIndex": 1,
@@ -835,12 +737,10 @@ export default {
         "would seem to be"
       ],
       "optionReasons": {
-        "seem-mcq-08": "本句指「以較保留、謹慎的方式表示現有證據似乎支持某判斷」。",
-        "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
-        "seem-mcq-09": "「根據目前掌握的情況，看來確實如此」是「so it seems / it seems so」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。",
-        "seem-mcq-10": "「從表面看來具有某種性質，但實際情況未必如此的」是「seeming」的用法，與本句語境不同。",
-        "seem-mcq-05": "「從整體印象來看，感覺像某種事物或情況」是「seem like…」的用法，與本句語境不同。"
+        "seem-mcq-08": "本句的「would seem to be」指「以較保留、謹慎的方式表示現有證據似乎支持某判斷」。",
+        "seem-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-08"
     },
@@ -852,11 +752,9 @@ export default {
       "masked": "Her ____ disappeared when the interview began.",
       "options": [
         "seem-mcq-10",
-        "seem-mcq-09",
-        "seem-mcq-11",
-        "seem-mcq-08",
         "seem-mcq-07",
-        "seem-mcq-06"
+        "seem-pdf-001",
+        "seem-mcq-08"
       ],
       "explanation": "本句的「seeming confidence」指「從表面看來具有某種性質，但實際情況未必如此的」。",
       "sentenceIndex": 0,
@@ -865,12 +763,10 @@ export default {
         "seeming confidence"
       ],
       "optionReasons": {
-        "seem-mcq-10": "本句指「從表面看來具有某種性質，但實際情況未必如此的」。",
-        "seem-mcq-09": "「根據目前掌握的情況，看來確實如此」是「so it seems / it seems so」的用法，與本句語境不同。",
-        "seem-mcq-11": "「根據表面或目前跡象看似如此，但並非完全確定」是「seemingly」的用法，與本句語境不同。",
-        "seem-mcq-08": "「以較保留、謹慎的方式表示現有證據似乎支持某判斷」是「would seem」的用法，與本句語境不同。",
-        "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。"
+        "seem-mcq-10": "本句的「seeming confidence」指「從表面看來具有某種性質，但實際情況未必如此的」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-10"
     },
@@ -882,11 +778,9 @@ export default {
       "masked": "There is a ____ between the two statements.",
       "options": [
         "seem-mcq-10",
-        "seem-mcq-09",
-        "seem-mcq-11",
         "seem-mcq-08",
         "seem-mcq-07",
-        "seem-mcq-06"
+        "seem-pdf-001"
       ],
       "explanation": "本句的「seeming contradiction」指「從表面看來具有某種性質，但實際情況未必如此的」。",
       "sentenceIndex": 1,
@@ -895,12 +789,10 @@ export default {
         "seeming contradiction"
       ],
       "optionReasons": {
-        "seem-mcq-10": "本句指「從表面看來具有某種性質，但實際情況未必如此的」。",
-        "seem-mcq-09": "「根據目前掌握的情況，看來確實如此」是「so it seems / it seems so」的用法，與本句語境不同。",
-        "seem-mcq-11": "「根據表面或目前跡象看似如此，但並非完全確定」是「seemingly」的用法，與本句語境不同。",
-        "seem-mcq-08": "「以較保留、謹慎的方式表示現有證據似乎支持某判斷」是「would seem」的用法，與本句語境不同。",
-        "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。"
+        "seem-mcq-10": "本句的「seeming contradiction」指「從表面看來具有某種性質，但實際情況未必如此的」。",
+        "seem-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-10"
     },
@@ -912,11 +804,9 @@ export default {
       "masked": "A ____ simple problem took hours to solve.",
       "options": [
         "seem-mcq-11",
-        "seem-mcq-10",
-        "seem-mcq-09",
-        "seem-mcq-08",
         "seem-mcq-07",
-        "seem-mcq-06"
+        "seem-pdf-001",
+        "seem-mcq-08"
       ],
       "explanation": "本句的「seemingly」指「根據表面或目前跡象看似如此，但並非完全確定」。",
       "sentenceIndex": 0,
@@ -925,12 +815,10 @@ export default {
         "seemingly"
       ],
       "optionReasons": {
-        "seem-mcq-11": "本句指「根據表面或目前跡象看似如此，但並非完全確定」。",
-        "seem-mcq-10": "「從表面看來具有某種性質，但實際情況未必如此的」是「seeming」的用法，與本句語境不同。",
-        "seem-mcq-09": "「根據目前掌握的情況，看來確實如此」是「so it seems / it seems so」的用法，與本句語境不同。",
-        "seem-mcq-08": "「以較保留、謹慎的方式表示現有證據似乎支持某判斷」是「would seem」的用法，與本句語境不同。",
-        "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。"
+        "seem-mcq-11": "本句的「seemingly」指「根據表面或目前跡象看似如此，但並非完全確定」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-11"
     },
@@ -942,11 +830,9 @@ export default {
       "masked": "The two events were ____ unrelated.",
       "options": [
         "seem-mcq-11",
-        "seem-mcq-10",
-        "seem-mcq-09",
-        "seem-mcq-08",
         "seem-mcq-07",
-        "seem-mcq-06"
+        "seem-pdf-001",
+        "seem-mcq-08"
       ],
       "explanation": "本句的「seemingly」指「根據表面或目前跡象看似如此，但並非完全確定」。",
       "sentenceIndex": 1,
@@ -955,12 +841,10 @@ export default {
         "seemingly"
       ],
       "optionReasons": {
-        "seem-mcq-11": "本句指「根據表面或目前跡象看似如此，但並非完全確定」。",
-        "seem-mcq-10": "「從表面看來具有某種性質，但實際情況未必如此的」是「seeming」的用法，與本句語境不同。",
-        "seem-mcq-09": "「根據目前掌握的情況，看來確實如此」是「so it seems / it seems so」的用法，與本句語境不同。",
-        "seem-mcq-08": "「以較保留、謹慎的方式表示現有證據似乎支持某判斷」是「would seem」的用法，與本句語境不同。",
-        "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。"
+        "seem-mcq-11": "本句的「seemingly」指「根據表面或目前跡象看似如此，但並非完全確定」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-11"
     },
@@ -972,11 +856,9 @@ export default {
       "masked": "The company has ____ solved the technical problem.",
       "options": [
         "seem-mcq-11",
-        "seem-mcq-10",
-        "seem-mcq-09",
-        "seem-mcq-08",
         "seem-mcq-07",
-        "seem-mcq-06"
+        "seem-pdf-001",
+        "seem-mcq-08"
       ],
       "explanation": "本句的「seemingly」指「根據表面或目前跡象看似如此，但並非完全確定」。",
       "sentenceIndex": 0,
@@ -985,12 +867,10 @@ export default {
         "seemingly"
       ],
       "optionReasons": {
-        "seem-mcq-11": "本句指「根據表面或目前跡象看似如此，但並非完全確定」。",
-        "seem-mcq-10": "「從表面看來具有某種性質，但實際情況未必如此的」是「seeming」的用法，與本句語境不同。",
-        "seem-mcq-09": "「根據目前掌握的情況，看來確實如此」是「so it seems / it seems so」的用法，與本句語境不同。",
-        "seem-mcq-08": "「以較保留、謹慎的方式表示現有證據似乎支持某判斷」是「would seem」的用法，與本句語境不同。",
-        "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。"
+        "seem-mcq-11": "本句的「seemingly」指「根據表面或目前跡象看似如此，但並非完全確定」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-11"
     },
@@ -1002,11 +882,9 @@ export default {
       "masked": "She was ____ unaware of the change.",
       "options": [
         "seem-mcq-11",
-        "seem-mcq-10",
-        "seem-mcq-09",
-        "seem-mcq-08",
         "seem-mcq-07",
-        "seem-mcq-06"
+        "seem-pdf-001",
+        "seem-mcq-08"
       ],
       "explanation": "本句的「seemingly」指「根據表面或目前跡象看似如此，但並非完全確定」。",
       "sentenceIndex": 1,
@@ -1015,12 +893,10 @@ export default {
         "seemingly"
       ],
       "optionReasons": {
-        "seem-mcq-11": "本句指「根據表面或目前跡象看似如此，但並非完全確定」。",
-        "seem-mcq-10": "「從表面看來具有某種性質，但實際情況未必如此的」是「seeming」的用法，與本句語境不同。",
-        "seem-mcq-09": "「根據目前掌握的情況，看來確實如此」是「so it seems / it seems so」的用法，與本句語境不同。",
-        "seem-mcq-08": "「以較保留、謹慎的方式表示現有證據似乎支持某判斷」是「would seem」的用法，與本句語境不同。",
-        "seem-mcq-07": "「嘗試後仍做不到某事，帶有「不知道為甚麼就是不行」的語氣」是「can't seem to…」的用法，與本句語境不同。",
-        "seem-mcq-06": "「根據跡象或感受，彷彿某種情況真的存在或發生」是「seem as if/as though…」的用法，與本句語境不同。"
+        "seem-mcq-11": "本句的「seemingly」指「根據表面或目前跡象看似如此，但並非完全確定」。",
+        "seem-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seem-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "seem-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seem-mcq-11"
     }
@@ -1033,5 +909,7 @@ export default {
     "pages": 14,
     "sha256": "2f0393a1090f44ae2c9850e9e845c27e55bdfc41273ac9c5e5bea9d46369a155"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -230,7 +230,7 @@ export default {
     },
     {
       "id": "deal-mcq-10",
-      "title": "表示很多",
+      "title": "很多",
       "form": "Useful expression: a great deal — 很多",
       "en": "Useful expression: a great deal — 很多",
       "zh": "表示很多",
@@ -252,7 +252,7 @@ export default {
     },
     {
       "id": "deal-mcq-11",
-      "title": "表示大不了的事／重要事情",
+      "title": "大不了的事／重要事情",
       "form": "Useful expression: big deal — 大不了的事／重要事情",
       "en": "Useful expression: big deal — 大不了的事／重要事情",
       "zh": "表示大不了的事／重要事情",
@@ -282,11 +282,9 @@ export default {
       "masked": "It shaped the way I ____ pressure and mistakes.",
       "options": [
         "deal-mcq-01",
-        "deal-mcq-02",
-        "deal-mcq-03",
-        "deal-mcq-04",
-        "deal-mcq-05",
-        "deal-mcq-06"
+        "deal-mcq-10",
+        "deal-mcq-06",
+        "deal-mcq-07"
       ],
       "explanation": "本句的「deal with」指「處理、應付或面對某個問題、情況、壓力或人物」。",
       "sentenceIndex": 0,
@@ -295,12 +293,10 @@ export default {
         "deal with"
       ],
       "optionReasons": {
-        "deal-mcq-01": "本句指「處理、應付或面對某個問題、情況、壓力或人物」。",
-        "deal-mcq-02": "「某書籍、文章、報告等涉及、討論或探討某個主題」是「deal with — be about/discuss」的用法，與本句語境不同。",
-        "deal-mcq-03": "「把牌分發給玩家」是「deal — distribute cards」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-01": "本句的「deal with」指「處理、應付或面對某個問題、情況、壓力或人物」。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-01"
     },
@@ -312,11 +308,9 @@ export default {
       "masked": "She is good at ____ difficult situations.",
       "options": [
         "deal-mcq-01",
-        "deal-mcq-02",
-        "deal-mcq-03",
-        "deal-mcq-04",
-        "deal-mcq-05",
-        "deal-mcq-06"
+        "deal-mcq-10",
+        "deal-mcq-06",
+        "deal-mcq-11"
       ],
       "explanation": "本句的「dealing with」指「處理、應付或面對某個問題、情況、壓力或人物」。",
       "sentenceIndex": 1,
@@ -325,12 +319,10 @@ export default {
         "dealing with"
       ],
       "optionReasons": {
-        "deal-mcq-01": "本句指「處理、應付或面對某個問題、情況、壓力或人物」。",
-        "deal-mcq-02": "「某書籍、文章、報告等涉及、討論或探討某個主題」是「deal with — be about/discuss」的用法，與本句語境不同。",
-        "deal-mcq-03": "「把牌分發給玩家」是「deal — distribute cards」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-01": "本句的「dealing with」指「處理、應付或面對某個問題、情況、壓力或人物」。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-01"
     },
@@ -342,11 +334,9 @@ export default {
       "masked": "We need to ____ this problem before it gets worse.",
       "options": [
         "deal-mcq-01",
-        "deal-mcq-02",
-        "deal-mcq-03",
-        "deal-mcq-04",
-        "deal-mcq-05",
-        "deal-mcq-06"
+        "deal-mcq-07",
+        "deal-mcq-10",
+        "deal-mcq-03"
       ],
       "explanation": "本句的「deal with」指「處理、應付或面對某個問題、情況、壓力或人物」。",
       "sentenceIndex": 2,
@@ -355,12 +345,10 @@ export default {
         "deal with"
       ],
       "optionReasons": {
-        "deal-mcq-01": "本句指「處理、應付或面對某個問題、情況、壓力或人物」。",
-        "deal-mcq-02": "「某書籍、文章、報告等涉及、討論或探討某個主題」是「deal with — be about/discuss」的用法，與本句語境不同。",
-        "deal-mcq-03": "「把牌分發給玩家」是「deal — distribute cards」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-01": "本句的「deal with」指「處理、應付或面對某個問題、情況、壓力或人物」。",
+        "deal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-01"
     },
@@ -372,11 +360,9 @@ export default {
       "masked": "He knows how to ____ angry customers.",
       "options": [
         "deal-mcq-01",
-        "deal-mcq-02",
+        "deal-mcq-11",
         "deal-mcq-03",
-        "deal-mcq-04",
-        "deal-mcq-05",
-        "deal-mcq-06"
+        "deal-mcq-05"
       ],
       "explanation": "本句的「deal with」指「處理、應付或面對某個問題、情況、壓力或人物」。",
       "sentenceIndex": 3,
@@ -385,12 +371,10 @@ export default {
         "deal with"
       ],
       "optionReasons": {
-        "deal-mcq-01": "本句指「處理、應付或面對某個問題、情況、壓力或人物」。",
-        "deal-mcq-02": "「某書籍、文章、報告等涉及、討論或探討某個主題」是「deal with — be about/discuss」的用法，與本句語境不同。",
-        "deal-mcq-03": "「把牌分發給玩家」是「deal — distribute cards」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-01": "本句的「deal with」指「處理、應付或面對某個問題、情況、壓力或人物」。",
+        "deal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-01"
     },
@@ -402,11 +386,9 @@ export default {
       "masked": "Teachers often have to ____ many different personalities.",
       "options": [
         "deal-mcq-01",
-        "deal-mcq-02",
-        "deal-mcq-03",
-        "deal-mcq-04",
-        "deal-mcq-05",
-        "deal-mcq-06"
+        "deal-mcq-06",
+        "deal-mcq-07",
+        "deal-mcq-03"
       ],
       "explanation": "本句的「deal with」指「處理、應付或面對某個問題、情況、壓力或人物」。",
       "sentenceIndex": 4,
@@ -415,12 +397,10 @@ export default {
         "deal with"
       ],
       "optionReasons": {
-        "deal-mcq-01": "本句指「處理、應付或面對某個問題、情況、壓力或人物」。",
-        "deal-mcq-02": "「某書籍、文章、報告等涉及、討論或探討某個主題」是「deal with — be about/discuss」的用法，與本句語境不同。",
-        "deal-mcq-03": "「把牌分發給玩家」是「deal — distribute cards」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-01": "本句的「deal with」指「處理、應付或面對某個問題、情況、壓力或人物」。",
+        "deal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-01"
     },
@@ -432,10 +412,8 @@ export default {
       "masked": "The book ____ childhood and memory.",
       "options": [
         "deal-mcq-02",
-        "deal-mcq-01",
         "deal-mcq-03",
-        "deal-mcq-04",
-        "deal-mcq-05",
+        "deal-mcq-10",
         "deal-mcq-06"
       ],
       "explanation": "本句的「deals with」指「某書籍、文章、報告等涉及、討論或探討某個主題」。",
@@ -445,12 +423,10 @@ export default {
         "deals with"
       ],
       "optionReasons": {
-        "deal-mcq-02": "本句指「某書籍、文章、報告等涉及、討論或探討某個主題」。",
-        "deal-mcq-01": "「處理、應付或面對某個問題、情況、壓力或人物」是「deal with — handle/manage」的用法，與本句語境不同。",
-        "deal-mcq-03": "「把牌分發給玩家」是「deal — distribute cards」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-02": "本句的「deals with」指「某書籍、文章、報告等涉及、討論或探討某個主題」。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-02"
     },
@@ -462,11 +438,9 @@ export default {
       "masked": "The report ____ several environmental issues.",
       "options": [
         "deal-mcq-02",
-        "deal-mcq-01",
-        "deal-mcq-03",
-        "deal-mcq-04",
-        "deal-mcq-05",
-        "deal-mcq-06"
+        "deal-mcq-08",
+        "deal-mcq-10",
+        "deal-mcq-11"
       ],
       "explanation": "本句的「deals with」指「某書籍、文章、報告等涉及、討論或探討某個主題」。",
       "sentenceIndex": 6,
@@ -475,12 +449,10 @@ export default {
         "deals with"
       ],
       "optionReasons": {
-        "deal-mcq-02": "本句指「某書籍、文章、報告等涉及、討論或探討某個主題」。",
-        "deal-mcq-01": "「處理、應付或面對某個問題、情況、壓力或人物」是「deal with — handle/manage」的用法，與本句語境不同。",
-        "deal-mcq-03": "「把牌分發給玩家」是「deal — distribute cards」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-02": "本句的「deals with」指「某書籍、文章、報告等涉及、討論或探討某個主題」。",
+        "deal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-02"
     },
@@ -492,11 +464,9 @@ export default {
       "masked": "It’s your turn to ____.",
       "options": [
         "deal-mcq-03",
-        "deal-mcq-02",
-        "deal-mcq-04",
-        "deal-mcq-01",
-        "deal-mcq-05",
-        "deal-mcq-06"
+        "deal-mcq-07",
+        "deal-mcq-06",
+        "deal-mcq-01"
       ],
       "explanation": "本句的「deal」指「把牌分發給玩家」。",
       "sentenceIndex": 7,
@@ -505,12 +475,10 @@ export default {
         "deal"
       ],
       "optionReasons": {
-        "deal-mcq-03": "本句指「把牌分發給玩家」。",
-        "deal-mcq-02": "「某書籍、文章、報告等涉及、討論或探討某個主題」是「deal with — be about/discuss」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-01": "「處理、應付或面對某個問題、情況、壓力或人物」是「deal with — handle/manage」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-03": "本句的「deal」指「把牌分發給玩家」。",
+        "deal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-03"
     },
@@ -522,11 +490,9 @@ export default {
       "masked": "She ____ five cards to each player.",
       "options": [
         "deal-mcq-03",
-        "deal-mcq-02",
-        "deal-mcq-04",
-        "deal-mcq-01",
-        "deal-mcq-05",
-        "deal-mcq-06"
+        "deal-mcq-07",
+        "deal-mcq-09",
+        "deal-mcq-02"
       ],
       "explanation": "本句的「dealt」指「把牌分發給玩家」。",
       "sentenceIndex": 8,
@@ -535,12 +501,10 @@ export default {
         "dealt"
       ],
       "optionReasons": {
-        "deal-mcq-03": "本句指「把牌分發給玩家」。",
-        "deal-mcq-02": "「某書籍、文章、報告等涉及、討論或探討某個主題」是「deal with — be about/discuss」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-01": "「處理、應付或面對某個問題、情況、壓力或人物」是「deal with — handle/manage」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-03": "本句的「dealt」指「把牌分發給玩家」。",
+        "deal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-03"
     },
@@ -552,11 +516,9 @@ export default {
       "masked": "The cards were ____ evenly.",
       "options": [
         "deal-mcq-03",
-        "deal-mcq-02",
-        "deal-mcq-04",
-        "deal-mcq-01",
         "deal-mcq-05",
-        "deal-mcq-06"
+        "deal-mcq-07",
+        "deal-mcq-10"
       ],
       "explanation": "本句的「dealt」指「把牌分發給玩家」。",
       "sentenceIndex": 9,
@@ -565,12 +527,10 @@ export default {
         "dealt"
       ],
       "optionReasons": {
-        "deal-mcq-03": "本句指「把牌分發給玩家」。",
-        "deal-mcq-02": "「某書籍、文章、報告等涉及、討論或探討某個主題」是「deal with — be about/discuss」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-01": "「處理、應付或面對某個問題、情況、壓力或人物」是「deal with — handle/manage」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-03": "本句的「dealt」指「把牌分發給玩家」。",
+        "deal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-03"
     },
@@ -582,11 +542,9 @@ export default {
       "masked": "Fate had ____ him a difficult hand.",
       "options": [
         "deal-mcq-03",
-        "deal-mcq-02",
-        "deal-mcq-04",
         "deal-mcq-01",
         "deal-mcq-05",
-        "deal-mcq-06"
+        "deal-mcq-07"
       ],
       "explanation": "本句的「dealt」指「把牌分發給玩家」。",
       "sentenceIndex": 10,
@@ -595,12 +553,10 @@ export default {
         "dealt"
       ],
       "optionReasons": {
-        "deal-mcq-03": "本句指「把牌分發給玩家」。",
-        "deal-mcq-02": "「某書籍、文章、報告等涉及、討論或探討某個主題」是「deal with — be about/discuss」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-01": "「處理、應付或面對某個問題、情況、壓力或人物」是「deal with — handle/manage」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-03": "本句的「dealt」指「把牌分發給玩家」。",
+        "deal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-03"
     },
@@ -612,11 +568,9 @@ export default {
       "masked": "The company ____ in office furniture.",
       "options": [
         "deal-mcq-04",
+        "deal-mcq-07",
         "deal-mcq-03",
-        "deal-mcq-05",
-        "deal-mcq-02",
-        "deal-mcq-06",
-        "deal-mcq-01"
+        "deal-mcq-10"
       ],
       "explanation": "本句的「deals」指「經營、買賣某類商品或與某人進行商業往來」。",
       "sentenceIndex": 11,
@@ -625,12 +579,10 @@ export default {
         "deals"
       ],
       "optionReasons": {
-        "deal-mcq-04": "本句指「經營、買賣某類商品或與某人進行商業往來」。",
-        "deal-mcq-03": "「把牌分發給玩家」是「deal — distribute cards」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-02": "「某書籍、文章、報告等涉及、討論或探討某個主題」是「deal with — be about/discuss」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。",
-        "deal-mcq-01": "「處理、應付或面對某個問題、情況、壓力或人物」是「deal with — handle/manage」的用法，與本句語境不同。"
+        "deal-mcq-04": "本句的「deals」指「經營、買賣某類商品或與某人進行商業往來」。",
+        "deal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-04"
     },
@@ -643,10 +595,8 @@ export default {
       "options": [
         "deal-mcq-04",
         "deal-mcq-03",
-        "deal-mcq-05",
-        "deal-mcq-02",
-        "deal-mcq-06",
-        "deal-mcq-01"
+        "deal-mcq-07",
+        "deal-mcq-02"
       ],
       "explanation": "本句的「deal」指「經營、買賣某類商品或與某人進行商業往來」。",
       "sentenceIndex": 12,
@@ -655,12 +605,10 @@ export default {
         "deal"
       ],
       "optionReasons": {
-        "deal-mcq-04": "本句指「經營、買賣某類商品或與某人進行商業往來」。",
-        "deal-mcq-03": "「把牌分發給玩家」是「deal — distribute cards」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-02": "「某書籍、文章、報告等涉及、討論或探討某個主題」是「deal with — be about/discuss」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。",
-        "deal-mcq-01": "「處理、應付或面對某個問題、情況、壓力或人物」是「deal with — handle/manage」的用法，與本句語境不同。"
+        "deal-mcq-04": "本句的「deal」指「經營、買賣某類商品或與某人進行商業往來」。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-04"
     },
@@ -672,11 +620,9 @@ export default {
       "masked": "They reached a ____ after several hours of discussion.",
       "options": [
         "deal-mcq-05",
-        "deal-mcq-04",
-        "deal-mcq-06",
-        "deal-mcq-03",
-        "deal-mcq-07",
-        "deal-mcq-02"
+        "deal-mcq-11",
+        "deal-mcq-02",
+        "deal-mcq-03"
       ],
       "explanation": "本句的「deal」指「雙方或多方達成的商業、財務或其他協議／安排」。",
       "sentenceIndex": 13,
@@ -685,12 +631,10 @@ export default {
         "deal"
       ],
       "optionReasons": {
-        "deal-mcq-05": "本句指「雙方或多方達成的商業、財務或其他協議／安排」。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。",
-        "deal-mcq-03": "「把牌分發給玩家」是「deal — distribute cards」的用法，與本句語境不同。",
-        "deal-mcq-07": "「很多；大量；固定數量表達」是「a great deal」的用法，與本句語境不同。",
-        "deal-mcq-02": "「某書籍、文章、報告等涉及、討論或探討某個主題」是「deal with — be about/discuss」的用法，與本句語境不同。"
+        "deal-mcq-05": "本句的「deal」指「雙方或多方達成的商業、財務或其他協議／安排」。",
+        "deal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-05"
     },
@@ -702,11 +646,9 @@ export default {
       "masked": "The two companies signed a major business ____.",
       "options": [
         "deal-mcq-05",
-        "deal-mcq-04",
-        "deal-mcq-06",
-        "deal-mcq-03",
-        "deal-mcq-07",
-        "deal-mcq-02"
+        "deal-mcq-02",
+        "deal-mcq-01",
+        "deal-mcq-10"
       ],
       "explanation": "本句的「deal」指「雙方或多方達成的商業、財務或其他協議／安排」。",
       "sentenceIndex": 14,
@@ -715,12 +657,10 @@ export default {
         "deal"
       ],
       "optionReasons": {
-        "deal-mcq-05": "本句指「雙方或多方達成的商業、財務或其他協議／安排」。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。",
-        "deal-mcq-03": "「把牌分發給玩家」是「deal — distribute cards」的用法，與本句語境不同。",
-        "deal-mcq-07": "「很多；大量；固定數量表達」是「a great deal」的用法，與本句語境不同。",
-        "deal-mcq-02": "「某書籍、文章、報告等涉及、討論或探討某個主題」是「deal with — be about/discuss」的用法，與本句語境不同。"
+        "deal-mcq-05": "本句的「deal」指「雙方或多方達成的商業、財務或其他協議／安排」。",
+        "deal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-05"
     },
@@ -732,11 +672,9 @@ export default {
       "masked": "That laptop was a great ____.",
       "options": [
         "deal-mcq-06",
-        "deal-mcq-05",
-        "deal-mcq-07",
-        "deal-mcq-04",
-        "deal-mcq-08",
-        "deal-mcq-03"
+        "deal-mcq-01",
+        "deal-mcq-02",
+        "deal-mcq-10"
       ],
       "explanation": "本句的「deal」指「條件或價格有利、很划算的交易；與 transaction 義相關」。",
       "sentenceIndex": 15,
@@ -745,12 +683,10 @@ export default {
         "deal"
       ],
       "optionReasons": {
-        "deal-mcq-06": "本句指「條件或價格有利、很划算的交易；與 transaction 義相關」。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-07": "「很多；大量；固定數量表達」是「a great deal」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-08": "「專門買賣某類商品的人或公司」是「dealer」的用法，與本句語境不同。",
-        "deal-mcq-03": "「把牌分發給玩家」是「deal — distribute cards」的用法，與本句語境不同。"
+        "deal-mcq-06": "本句的「deal」指「條件或價格有利、很划算的交易；與 transaction 義相關」。",
+        "deal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-06"
     },
@@ -762,11 +698,9 @@ export default {
       "masked": "The hotel is offering a special ____ this weekend.",
       "options": [
         "deal-mcq-06",
-        "deal-mcq-05",
         "deal-mcq-07",
-        "deal-mcq-04",
-        "deal-mcq-08",
-        "deal-mcq-03"
+        "deal-mcq-01",
+        "deal-mcq-10"
       ],
       "explanation": "本句的「deal」指「條件或價格有利、很划算的交易；與 transaction 義相關」。",
       "sentenceIndex": 16,
@@ -775,12 +709,10 @@ export default {
         "deal"
       ],
       "optionReasons": {
-        "deal-mcq-06": "本句指「條件或價格有利、很划算的交易；與 transaction 義相關」。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-07": "「很多；大量；固定數量表達」是「a great deal」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。",
-        "deal-mcq-08": "「專門買賣某類商品的人或公司」是「dealer」的用法，與本句語境不同。",
-        "deal-mcq-03": "「把牌分發給玩家」是「deal — distribute cards」的用法，與本句語境不同。"
+        "deal-mcq-06": "本句的「deal」指「條件或價格有利、很划算的交易；與 transaction 義相關」。",
+        "deal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-06"
     },
@@ -792,11 +724,9 @@ export default {
       "masked": "She learned a great ____ from the experience.",
       "options": [
         "deal-mcq-07",
-        "deal-mcq-06",
-        "deal-mcq-08",
-        "deal-mcq-05",
-        "deal-mcq-09",
-        "deal-mcq-04"
+        "deal-mcq-10",
+        "deal-mcq-04",
+        "deal-mcq-03"
       ],
       "explanation": "本句的「deal」指「很多；大量；固定數量表達」。",
       "sentenceIndex": 17,
@@ -805,12 +735,10 @@ export default {
         "deal"
       ],
       "optionReasons": {
-        "deal-mcq-07": "本句指「很多；大量；固定數量表達」。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。",
-        "deal-mcq-08": "「專門買賣某類商品的人或公司」是「dealer」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-09": "「某人所得到的待遇、條件或安排」是「10. deal = treatment received（待遇） — 待遇」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。"
+        "deal-mcq-07": "本句的「deal」指「很多；大量；固定數量表達」。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-07"
     },
@@ -822,11 +750,9 @@ export default {
       "masked": "The change caused a good ____ of confusion.",
       "options": [
         "deal-mcq-07",
-        "deal-mcq-06",
-        "deal-mcq-08",
-        "deal-mcq-05",
-        "deal-mcq-09",
-        "deal-mcq-04"
+        "deal-mcq-04",
+        "deal-mcq-02",
+        "deal-mcq-10"
       ],
       "explanation": "本句的「deal」指「很多；大量；固定數量表達」。",
       "sentenceIndex": 18,
@@ -835,12 +761,10 @@ export default {
         "deal"
       ],
       "optionReasons": {
-        "deal-mcq-07": "本句指「很多；大量；固定數量表達」。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。",
-        "deal-mcq-08": "「專門買賣某類商品的人或公司」是「dealer」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。",
-        "deal-mcq-09": "「某人所得到的待遇、條件或安排」是「10. deal = treatment received（待遇） — 待遇」的用法，與本句語境不同。",
-        "deal-mcq-04": "「經營、買賣某類商品或與某人進行商業往來」是「deal — trade/do business」的用法，與本句語境不同。"
+        "deal-mcq-07": "本句的「deal」指「很多；大量；固定數量表達」。",
+        "deal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-07"
     },
@@ -852,11 +776,9 @@ export default {
       "masked": "Everyone deserves a fair ____.",
       "options": [
         "deal-mcq-09",
-        "deal-mcq-08",
-        "deal-mcq-10",
-        "deal-mcq-07",
-        "deal-mcq-11",
-        "deal-mcq-06"
+        "deal-mcq-02",
+        "deal-mcq-03",
+        "deal-mcq-11"
       ],
       "explanation": "本句的「deal」指「某人所得到的待遇、條件或安排」。",
       "sentenceIndex": 19,
@@ -865,12 +787,10 @@ export default {
         "deal"
       ],
       "optionReasons": {
-        "deal-mcq-09": "本句指「某人所得到的待遇、條件或安排」。",
-        "deal-mcq-08": "「專門買賣某類商品的人或公司」是「dealer」的用法，與本句語境不同。",
-        "deal-mcq-10": "「表示很多」是「Useful expression: a great deal — 很多」的用法，與本句語境不同。",
-        "deal-mcq-07": "「很多；大量；固定數量表達」是「a great deal」的用法，與本句語境不同。",
-        "deal-mcq-11": "「表示大不了的事／重要事情」是「Useful expression: big deal — 大不了的事／重要事情」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-09": "本句的「deal」指「某人所得到的待遇、條件或安排」。",
+        "deal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-09"
     },
@@ -882,11 +802,9 @@ export default {
       "masked": "Workers were demanding a better ____.",
       "options": [
         "deal-mcq-09",
-        "deal-mcq-08",
-        "deal-mcq-10",
         "deal-mcq-07",
-        "deal-mcq-11",
-        "deal-mcq-06"
+        "deal-mcq-03",
+        "deal-mcq-10"
       ],
       "explanation": "本句的「deal」指「某人所得到的待遇、條件或安排」。",
       "sentenceIndex": 20,
@@ -895,12 +813,10 @@ export default {
         "deal"
       ],
       "optionReasons": {
-        "deal-mcq-09": "本句指「某人所得到的待遇、條件或安排」。",
-        "deal-mcq-08": "「專門買賣某類商品的人或公司」是「dealer」的用法，與本句語境不同。",
-        "deal-mcq-10": "「表示很多」是「Useful expression: a great deal — 很多」的用法，與本句語境不同。",
-        "deal-mcq-07": "「很多；大量；固定數量表達」是「a great deal」的用法，與本句語境不同。",
-        "deal-mcq-11": "「表示大不了的事／重要事情」是「Useful expression: big deal — 大不了的事／重要事情」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-09": "本句的「deal」指「某人所得到的待遇、條件或安排」。",
+        "deal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-09"
     },
@@ -912,11 +828,9 @@ export default {
       "masked": "He works for a car ____.",
       "options": [
         "deal-mcq-08",
-        "deal-mcq-07",
-        "deal-mcq-09",
-        "deal-mcq-06",
         "deal-mcq-10",
-        "deal-mcq-05"
+        "deal-mcq-03",
+        "deal-mcq-11"
       ],
       "explanation": "本句的「dealer」指「專門買賣某類商品的人或公司」。",
       "sentenceIndex": 21,
@@ -925,12 +839,10 @@ export default {
         "dealer"
       ],
       "optionReasons": {
-        "deal-mcq-08": "本句指「專門買賣某類商品的人或公司」。",
-        "deal-mcq-07": "「很多；大量；固定數量表達」是「a great deal」的用法，與本句語境不同。",
-        "deal-mcq-09": "「某人所得到的待遇、條件或安排」是「10. deal = treatment received（待遇） — 待遇」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。",
-        "deal-mcq-10": "「表示很多」是「Useful expression: a great deal — 很多」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。"
+        "deal-mcq-08": "本句的「dealer」指「專門買賣某類商品的人或公司」。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-08"
     },
@@ -942,11 +854,9 @@ export default {
       "masked": "The gallery contacted an art ____.",
       "options": [
         "deal-mcq-08",
-        "deal-mcq-07",
-        "deal-mcq-09",
-        "deal-mcq-06",
-        "deal-mcq-10",
-        "deal-mcq-05"
+        "deal-mcq-03",
+        "deal-mcq-11",
+        "deal-mcq-10"
       ],
       "explanation": "本句的「dealer」指「專門買賣某類商品的人或公司」。",
       "sentenceIndex": 22,
@@ -955,12 +865,10 @@ export default {
         "dealer"
       ],
       "optionReasons": {
-        "deal-mcq-08": "本句指「專門買賣某類商品的人或公司」。",
-        "deal-mcq-07": "「很多；大量；固定數量表達」是「a great deal」的用法，與本句語境不同。",
-        "deal-mcq-09": "「某人所得到的待遇、條件或安排」是「10. deal = treatment received（待遇） — 待遇」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。",
-        "deal-mcq-10": "「表示很多」是「Useful expression: a great deal — 很多」的用法，與本句語境不同。",
-        "deal-mcq-05": "「雙方或多方達成的商業、財務或其他協議／安排」是「a deal — agreement/transaction」的用法，與本句語境不同。"
+        "deal-mcq-08": "本句的「dealer」指「專門買賣某類商品的人或公司」。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-08"
     },
@@ -973,10 +881,8 @@ export default {
       "options": [
         "deal-mcq-10",
         "deal-mcq-09",
-        "deal-mcq-11",
-        "deal-mcq-08",
         "deal-mcq-07",
-        "deal-mcq-06"
+        "deal-mcq-02"
       ],
       "explanation": "本句的「deal」指「表示很多」。",
       "sentenceIndex": 23,
@@ -985,12 +891,10 @@ export default {
         "deal"
       ],
       "optionReasons": {
-        "deal-mcq-10": "本句指「表示很多」。",
-        "deal-mcq-09": "「某人所得到的待遇、條件或安排」是「10. deal = treatment received（待遇） — 待遇」的用法，與本句語境不同。",
-        "deal-mcq-11": "「表示大不了的事／重要事情」是「Useful expression: big deal — 大不了的事／重要事情」的用法，與本句語境不同。",
-        "deal-mcq-08": "「專門買賣某類商品的人或公司」是「dealer」的用法，與本句語境不同。",
-        "deal-mcq-07": "「很多；大量；固定數量表達」是「a great deal」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-10": "本句的「deal」指「表示很多」。",
+        "deal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-10"
     },
@@ -1002,11 +906,9 @@ export default {
       "masked": "We spent a great ____ of time on the project.",
       "options": [
         "deal-mcq-10",
-        "deal-mcq-09",
-        "deal-mcq-11",
-        "deal-mcq-08",
-        "deal-mcq-07",
-        "deal-mcq-06"
+        "deal-mcq-03",
+        "deal-mcq-06",
+        "deal-mcq-01"
       ],
       "explanation": "本句的「deal」指「表示很多」。",
       "sentenceIndex": 24,
@@ -1015,12 +917,10 @@ export default {
         "deal"
       ],
       "optionReasons": {
-        "deal-mcq-10": "本句指「表示很多」。",
-        "deal-mcq-09": "「某人所得到的待遇、條件或安排」是「10. deal = treatment received（待遇） — 待遇」的用法，與本句語境不同。",
-        "deal-mcq-11": "「表示大不了的事／重要事情」是「Useful expression: big deal — 大不了的事／重要事情」的用法，與本句語境不同。",
-        "deal-mcq-08": "「專門買賣某類商品的人或公司」是「dealer」的用法，與本句語境不同。",
-        "deal-mcq-07": "「很多；大量；固定數量表達」是「a great deal」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-10": "本句的「deal」指「表示很多」。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-10"
     },
@@ -1032,11 +932,9 @@ export default {
       "masked": "It’s not a big ____.",
       "options": [
         "deal-mcq-11",
+        "deal-mcq-04",
         "deal-mcq-10",
-        "deal-mcq-09",
-        "deal-mcq-08",
-        "deal-mcq-07",
-        "deal-mcq-06"
+        "deal-mcq-03"
       ],
       "explanation": "本句的「deal」指「表示大不了的事／重要事情」。",
       "sentenceIndex": 25,
@@ -1045,12 +943,10 @@ export default {
         "deal"
       ],
       "optionReasons": {
-        "deal-mcq-11": "本句指「表示大不了的事／重要事情」。",
-        "deal-mcq-10": "「表示很多」是「Useful expression: a great deal — 很多」的用法，與本句語境不同。",
-        "deal-mcq-09": "「某人所得到的待遇、條件或安排」是「10. deal = treatment received（待遇） — 待遇」的用法，與本句語境不同。",
-        "deal-mcq-08": "「專門買賣某類商品的人或公司」是「dealer」的用法，與本句語境不同。",
-        "deal-mcq-07": "「很多；大量；固定數量表達」是「a great deal」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-11": "本句的「deal」指「表示大不了的事／重要事情」。",
+        "deal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-11"
     },
@@ -1062,11 +958,9 @@ export default {
       "masked": "Winning the award was a big ____ for her.",
       "options": [
         "deal-mcq-11",
-        "deal-mcq-10",
-        "deal-mcq-09",
-        "deal-mcq-08",
-        "deal-mcq-07",
-        "deal-mcq-06"
+        "deal-mcq-03",
+        "deal-mcq-01",
+        "deal-mcq-10"
       ],
       "explanation": "本句的「deal」指「表示大不了的事／重要事情」。",
       "sentenceIndex": 26,
@@ -1075,12 +969,10 @@ export default {
         "deal"
       ],
       "optionReasons": {
-        "deal-mcq-11": "本句指「表示大不了的事／重要事情」。",
-        "deal-mcq-10": "「表示很多」是「Useful expression: a great deal — 很多」的用法，與本句語境不同。",
-        "deal-mcq-09": "「某人所得到的待遇、條件或安排」是「10. deal = treatment received（待遇） — 待遇」的用法，與本句語境不同。",
-        "deal-mcq-08": "「專門買賣某類商品的人或公司」是「dealer」的用法，與本句語境不同。",
-        "deal-mcq-07": "「很多；大量；固定數量表達」是「a great deal」的用法，與本句語境不同。",
-        "deal-mcq-06": "「條件或價格有利、很划算的交易；與 transaction 義相關」是「a good deal — bargain」的用法，與本句語境不同。"
+        "deal-mcq-11": "本句的「deal」指「表示大不了的事／重要事情」。",
+        "deal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "deal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deal-mcq-11"
     }
@@ -1092,5 +984,7 @@ export default {
     "sha256": "0dcf85e345bdb9fcab04e87cffe04beb815863ba3bdddaff0f97f2d61e652bc5",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -1615,11 +1615,9 @@ export default {
       "masked": "The final ____ is deeper understanding, not simply performance.",
       "options": [
         "goal-mcq-01",
-        "goal-mcq-02",
-        "goal-mcq-03",
-        "goal-mcq-04",
-        "goal-mcq-05",
-        "goal-mcq-06"
+        "goal-mcq-89",
+        "goal-mcq-13",
+        "goal-mcq-62"
       ],
       "explanation": "本句的「goal」指「某活動最終希望達成的目的／成果；目標」。",
       "sentenceIndex": 0,
@@ -1628,12 +1626,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-01": "本句指「某活動最終希望達成的目的／成果；目標」。",
-        "goal-mcq-02": "「經過其他步驟後最終要實現的目標」與本句語境不同。",
-        "goal-mcq-03": "「最重要、最高層次的最終目標」與本句語境不同。",
-        "goal-mcq-04": "「最後希望得到的結果」與本句語境不同。",
-        "goal-mcq-05": "「最主要／首要目標」與本句語境不同。",
-        "goal-mcq-06": "「涵蓋多個較小目標的整體目標」與本句語境不同。"
+        "goal-mcq-01": "本句的「goal」指「某活動最終希望達成的目的／成果；目標」。",
+        "goal-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-01"
     },
@@ -1645,11 +1641,9 @@ export default {
       "masked": "The activity has a clear educational ____.",
       "options": [
         "goal-mcq-01",
-        "goal-mcq-02",
-        "goal-mcq-03",
-        "goal-mcq-04",
-        "goal-mcq-05",
-        "goal-mcq-06"
+        "goal-mcq-85",
+        "goal-mcq-13",
+        "goal-mcq-62"
       ],
       "explanation": "本句的「goal」指「某活動最終希望達成的目的／成果；目標」。",
       "sentenceIndex": 1,
@@ -1658,12 +1652,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-01": "本句指「某活動最終希望達成的目的／成果；目標」。",
-        "goal-mcq-02": "「經過其他步驟後最終要實現的目標」與本句語境不同。",
-        "goal-mcq-03": "「最重要、最高層次的最終目標」與本句語境不同。",
-        "goal-mcq-04": "「最後希望得到的結果」與本句語境不同。",
-        "goal-mcq-05": "「最主要／首要目標」與本句語境不同。",
-        "goal-mcq-06": "「涵蓋多個較小目標的整體目標」與本句語境不同。"
+        "goal-mcq-01": "本句的「goal」指「某活動最終希望達成的目的／成果；目標」。",
+        "goal-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-01"
     },
@@ -1675,11 +1667,9 @@ export default {
       "masked": "Winning the discussion is not the final ____; understanding the issue is.",
       "options": [
         "goal-mcq-02",
-        "goal-mcq-01",
-        "goal-mcq-03",
-        "goal-mcq-04",
-        "goal-mcq-05",
-        "goal-mcq-06"
+        "goal-mcq-84",
+        "goal-mcq-62",
+        "goal-mcq-10"
       ],
       "explanation": "本句的「goal」指「經過其他步驟後最終要實現的目標」。",
       "sentenceIndex": 2,
@@ -1688,12 +1678,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-02": "本句指「經過其他步驟後最終要實現的目標」。",
-        "goal-mcq-01": "「某活動最終希望達成的目的／成果；目標」與本句語境不同。",
-        "goal-mcq-03": "「最重要、最高層次的最終目標」與本句語境不同。",
-        "goal-mcq-04": "「最後希望得到的結果」與本句語境不同。",
-        "goal-mcq-05": "「最主要／首要目標」與本句語境不同。",
-        "goal-mcq-06": "「涵蓋多個較小目標的整體目標」與本句語境不同。"
+        "goal-mcq-02": "本句的「goal」指「經過其他步驟後最終要實現的目標」。",
+        "goal-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-02"
     },
@@ -1705,11 +1693,9 @@ export default {
       "masked": "The ultimate ____ of education is not merely passing exams.",
       "options": [
         "goal-mcq-03",
-        "goal-mcq-02",
-        "goal-mcq-04",
-        "goal-mcq-01",
-        "goal-mcq-05",
-        "goal-mcq-06"
+        "goal-mcq-84",
+        "goal-mcq-13",
+        "goal-mcq-10"
       ],
       "explanation": "本句的「goal」指「最重要、最高層次的最終目標」。",
       "sentenceIndex": 3,
@@ -1718,12 +1704,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-03": "本句指「最重要、最高層次的最終目標」。",
-        "goal-mcq-02": "「經過其他步驟後最終要實現的目標」與本句語境不同。",
-        "goal-mcq-04": "「最後希望得到的結果」與本句語境不同。",
-        "goal-mcq-01": "「某活動最終希望達成的目的／成果；目標」與本句語境不同。",
-        "goal-mcq-05": "「最主要／首要目標」與本句語境不同。",
-        "goal-mcq-06": "「涵蓋多個較小目標的整體目標」與本句語境不同。"
+        "goal-mcq-03": "本句的「goal」指「最重要、最高層次的最終目標」。",
+        "goal-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-03"
     },
@@ -1735,11 +1719,9 @@ export default {
       "masked": "Keep the end ____ in mind.",
       "options": [
         "goal-mcq-04",
-        "goal-mcq-03",
-        "goal-mcq-05",
-        "goal-mcq-02",
-        "goal-mcq-06",
-        "goal-mcq-01"
+        "goal-mcq-45",
+        "goal-mcq-89",
+        "goal-mcq-52"
       ],
       "explanation": "本句的「goal」指「最後希望得到的結果」。",
       "sentenceIndex": 4,
@@ -1748,12 +1730,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-04": "本句指「最後希望得到的結果」。",
-        "goal-mcq-03": "「最重要、最高層次的最終目標」與本句語境不同。",
-        "goal-mcq-05": "「最主要／首要目標」與本句語境不同。",
-        "goal-mcq-02": "「經過其他步驟後最終要實現的目標」與本句語境不同。",
-        "goal-mcq-06": "「涵蓋多個較小目標的整體目標」與本句語境不同。",
-        "goal-mcq-01": "「某活動最終希望達成的目的／成果；目標」與本句語境不同。"
+        "goal-mcq-04": "本句的「goal」指「最後希望得到的結果」。",
+        "goal-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-04"
     },
@@ -1765,11 +1745,9 @@ export default {
       "masked": "The overall ____ is to improve communication.",
       "options": [
         "goal-mcq-06",
-        "goal-mcq-05",
-        "goal-mcq-07",
-        "goal-mcq-04",
-        "goal-mcq-08",
-        "goal-mcq-03"
+        "goal-mcq-19",
+        "goal-mcq-84",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goal」指「涵蓋多個較小目標的整體目標」。",
       "sentenceIndex": 5,
@@ -1778,12 +1756,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-06": "本句指「涵蓋多個較小目標的整體目標」。",
-        "goal-mcq-05": "「最主要／首要目標」與本句語境不同。",
-        "goal-mcq-07": "「清楚界定的具體目標」與本句語境不同。",
-        "goal-mcq-04": "「最後希望得到的結果」與本句語境不同。",
-        "goal-mcq-08": "「個人希望實現的目標」與本句語境不同。",
-        "goal-mcq-03": "「最重要、最高層次的最終目標」與本句語境不同。"
+        "goal-mcq-06": "本句的「goal」指「涵蓋多個較小目標的整體目標」。",
+        "goal-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-06"
     },
@@ -1795,11 +1771,9 @@ export default {
       "masked": "Improving her confidence became a personal ____.",
       "options": [
         "goal-mcq-08",
-        "goal-mcq-07",
-        "goal-mcq-09",
-        "goal-mcq-06",
-        "goal-mcq-10",
-        "goal-mcq-05"
+        "goal-mcq-14",
+        "goal-mcq-85",
+        "goal-mcq-52"
       ],
       "explanation": "本句的「goal」指「個人希望實現的目標」。",
       "sentenceIndex": 6,
@@ -1808,12 +1782,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-08": "本句指「個人希望實現的目標」。",
-        "goal-mcq-07": "「清楚界定的具體目標」與本句語境不同。",
-        "goal-mcq-09": "「對人生長期方向的重要目標」與本句語境不同。",
-        "goal-mcq-06": "「涵蓋多個較小目標的整體目標」與本句語境不同。",
-        "goal-mcq-10": "「希望在職業／事業上達成的成果」與本句語境不同。",
-        "goal-mcq-05": "「最主要／首要目標」與本句語境不同。"
+        "goal-mcq-08": "本句的「goal」指「個人希望實現的目標」。",
+        "goal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-08"
     },
@@ -1825,11 +1797,9 @@ export default {
       "masked": "One of his life ____ is to write a novel.",
       "options": [
         "goal-mcq-09",
-        "goal-mcq-08",
-        "goal-mcq-10",
-        "goal-mcq-07",
-        "goal-mcq-11",
-        "goal-mcq-06"
+        "goal-mcq-19",
+        "goal-mcq-89",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goals」指「對人生長期方向的重要目標」。",
       "sentenceIndex": 7,
@@ -1838,12 +1808,10 @@ export default {
         "goals"
       ],
       "optionReasons": {
-        "goal-mcq-09": "本句指「對人生長期方向的重要目標」。",
-        "goal-mcq-08": "「個人希望實現的目標」與本句語境不同。",
-        "goal-mcq-10": "「希望在職業／事業上達成的成果」與本句語境不同。",
-        "goal-mcq-07": "「清楚界定的具體目標」與本句語境不同。",
-        "goal-mcq-11": "「學業方面希望達成的目標」與本句語境不同。",
-        "goal-mcq-06": "「涵蓋多個較小目標的整體目標」與本句語境不同。"
+        "goal-mcq-09": "本句的「goals」指「對人生長期方向的重要目標」。",
+        "goal-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-09"
     },
@@ -1855,11 +1823,9 @@ export default {
       "masked": "She discussed her long-term career ____.",
       "options": [
         "goal-mcq-10",
-        "goal-mcq-09",
-        "goal-mcq-11",
-        "goal-mcq-08",
-        "goal-mcq-12",
-        "goal-mcq-07"
+        "goal-mcq-18",
+        "goal-mcq-85",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goals」指「希望在職業／事業上達成的成果」。",
       "sentenceIndex": 8,
@@ -1868,12 +1834,10 @@ export default {
         "goals"
       ],
       "optionReasons": {
-        "goal-mcq-10": "本句指「希望在職業／事業上達成的成果」。",
-        "goal-mcq-09": "「對人生長期方向的重要目標」與本句語境不同。",
-        "goal-mcq-11": "「學業方面希望達成的目標」與本句語境不同。",
-        "goal-mcq-08": "「個人希望實現的目標」與本句語境不同。",
-        "goal-mcq-12": "「教育活動預期達到的目標」與本句語境不同。",
-        "goal-mcq-07": "「清楚界定的具體目標」與本句語境不同。"
+        "goal-mcq-10": "本句的「goals」指「希望在職業／事業上達成的成果」。",
+        "goal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-10"
     },
@@ -1885,11 +1849,9 @@ export default {
       "masked": "Every activity should serve a clear learning ____.",
       "options": [
         "goal-mcq-13",
-        "goal-mcq-12",
-        "goal-mcq-14",
-        "goal-mcq-11",
-        "goal-mcq-15",
-        "goal-mcq-10"
+        "goal-mcq-03",
+        "goal-mcq-84",
+        "goal-mcq-62"
       ],
       "explanation": "本句的「goal」指「學習者應掌握的知識、技能或理解」。",
       "sentenceIndex": 9,
@@ -1898,12 +1860,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-13": "本句指「學習者應掌握的知識、技能或理解」。",
-        "goal-mcq-12": "「教育活動預期達到的目標」與本句語境不同。",
-        "goal-mcq-14": "「某一堂課預期達到的學習成果」與本句語境不同。",
-        "goal-mcq-11": "「學業方面希望達成的目標」與本句語境不同。",
-        "goal-mcq-15": "「引導教學設計的廣泛學習目標」與本句語境不同。",
-        "goal-mcq-10": "「希望在職業／事業上達成的成果」與本句語境不同。"
+        "goal-mcq-13": "本句的「goal」指「學習者應掌握的知識、技能或理解」。",
+        "goal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-13"
     },
@@ -1915,11 +1875,9 @@ export default {
       "masked": "The teacher explained the lesson ____.",
       "options": [
         "goal-mcq-14",
-        "goal-mcq-13",
-        "goal-mcq-15",
-        "goal-mcq-12",
-        "goal-mcq-16",
-        "goal-mcq-11"
+        "goal-mcq-75",
+        "goal-mcq-85",
+        "goal-mcq-04"
       ],
       "explanation": "本句的「goals」指「某一堂課預期達到的學習成果」。",
       "sentenceIndex": 10,
@@ -1928,12 +1886,10 @@ export default {
         "goals"
       ],
       "optionReasons": {
-        "goal-mcq-14": "本句指「某一堂課預期達到的學習成果」。",
-        "goal-mcq-13": "「學習者應掌握的知識、技能或理解」與本句語境不同。",
-        "goal-mcq-15": "「引導教學設計的廣泛學習目標」與本句語境不同。",
-        "goal-mcq-12": "「教育活動預期達到的目標」與本句語境不同。",
-        "goal-mcq-16": "「企業希望達成的業務成果」與本句語境不同。",
-        "goal-mcq-11": "「學業方面希望達成的目標」與本句語境不同。"
+        "goal-mcq-14": "本句的「goals」指「某一堂課預期達到的學習成果」。",
+        "goal-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-14"
     },
@@ -1945,11 +1901,9 @@ export default {
       "masked": "Expanding internationally is a strategic ____.",
       "options": [
         "goal-mcq-18",
-        "goal-mcq-17",
-        "goal-mcq-19",
-        "goal-mcq-16",
-        "goal-mcq-20",
-        "goal-mcq-15"
+        "goal-mcq-48",
+        "goal-mcq-89",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goal」指「配合長期策略的重要目標」。",
       "sentenceIndex": 11,
@@ -1958,12 +1912,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-18": "本句指「配合長期策略的重要目標」。",
-        "goal-mcq-17": "「組織整體希望實現的成果」與本句語境不同。",
-        "goal-mcq-19": "「專案最終希望達到的成果」與本句語境不同。",
-        "goal-mcq-16": "「企業希望達成的業務成果」與本句語境不同。",
-        "goal-mcq-20": "「金錢／財務方面希望達成的結果」與本句語境不同。",
-        "goal-mcq-15": "「引導教學設計的廣泛學習目標」與本句語境不同。"
+        "goal-mcq-18": "本句的「goal」指「配合長期策略的重要目標」。",
+        "goal-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-18"
     },
@@ -1975,11 +1927,9 @@ export default {
       "masked": "The team agreed on the project’s main ____.",
       "options": [
         "goal-mcq-19",
-        "goal-mcq-18",
-        "goal-mcq-20",
-        "goal-mcq-17",
-        "goal-mcq-21",
-        "goal-mcq-16"
+        "goal-mcq-41",
+        "goal-mcq-85",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goal」指「專案最終希望達到的成果」。",
       "sentenceIndex": 12,
@@ -1988,12 +1938,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-19": "本句指「專案最終希望達到的成果」。",
-        "goal-mcq-18": "「配合長期策略的重要目標」與本句語境不同。",
-        "goal-mcq-20": "「金錢／財務方面希望達成的結果」與本句語境不同。",
-        "goal-mcq-17": "「組織整體希望實現的成果」與本句語境不同。",
-        "goal-mcq-21": "「銷售方面希望達到的數量／成果」與本句語境不同。",
-        "goal-mcq-16": "「企業希望達成的業務成果」與本句語境不同。"
+        "goal-mcq-19": "本句的「goal」指「專案最終希望達到的成果」。",
+        "goal-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-19"
     },
@@ -2005,11 +1953,9 @@ export default {
       "masked": "Break a long-term ____ into smaller steps.",
       "options": [
         "goal-mcq-27",
-        "goal-mcq-26",
-        "goal-mcq-28",
-        "goal-mcq-25",
-        "goal-mcq-29",
-        "goal-mcq-24"
+        "goal-mcq-84",
+        "goal-mcq-10",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goal」指「需要較長時間才能實現的長期目標」。",
       "sentenceIndex": 13,
@@ -2018,12 +1964,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-27": "本句指「需要較長時間才能實現的長期目標」。",
-        "goal-mcq-26": "「預期較快達成的短期目標」與本句語境不同。",
-        "goal-mcq-28": "「當前最先需要達成的目標」與本句語境不同。",
-        "goal-mcq-25": "「著重學懂、提升能力與真正掌握內容的目標」與本句語境不同。",
-        "goal-mcq-29": "「介乎起點與最終目標之間的階段性目標」與本句語境不同。",
-        "goal-mcq-24": "「著重展示／證明能力或表現的成就目標」與本句語境不同。"
+        "goal-mcq-27": "本句的「goal」指「需要較長時間才能實現的長期目標」。",
+        "goal-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-27"
     },
@@ -2035,11 +1979,9 @@ export default {
       "masked": "The team set a stretch ____ for growth.",
       "options": [
         "goal-mcq-34",
-        "goal-mcq-33",
-        "goal-mcq-35",
-        "goal-mcq-32",
-        "goal-mcq-36",
-        "goal-mcq-31"
+        "goal-mcq-89",
+        "goal-mcq-10",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goal」指「刻意設定得比一般要求更具挑戰性的目標」。",
       "sentenceIndex": 14,
@@ -2048,12 +1990,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-34": "本句指「刻意設定得比一般要求更具挑戰性的目標」。",
-        "goal-mcq-33": "「需要很大努力才能完成的高目標」與本句語境不同。",
-        "goal-mcq-35": "「可透過數據／明確指標衡量的目標」與本句語境不同。",
-        "goal-mcq-32": "「可以實際完成的目標」與本句語境不同。",
-        "goal-mcq-36": "「按 SMART 目標設定框架形成的目標」與本句語境不同。",
-        "goal-mcq-31": "「按實際條件有合理機會達成的目標」與本句語境不同。"
+        "goal-mcq-34": "本句的「goal」指「刻意設定得比一般要求更具挑戰性的目標」。",
+        "goal-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-34"
     },
@@ -2065,11 +2005,9 @@ export default {
       "masked": "Speed and accuracy can become conflicting ____.",
       "options": [
         "goal-mcq-39",
-        "goal-mcq-38",
-        "goal-mcq-40",
-        "goal-mcq-37",
-        "goal-mcq-41",
-        "goal-mcq-36"
+        "goal-mcq-10",
+        "goal-mcq-62",
+        "goal-mcq-84"
       ],
       "explanation": "本句的「goals」指「難以同時實現、彼此牴觸的目標」。",
       "sentenceIndex": 16,
@@ -2078,12 +2016,10 @@ export default {
         "goals"
       ],
       "optionReasons": {
-        "goal-mcq-39": "本句指「難以同時實現、彼此牴觸的目標」。",
-        "goal-mcq-38": "「互相爭奪時間／資源的目標」與本句語境不同。",
-        "goal-mcq-40": "「多個目標彼此干擾／不相容的情況」與本句語境不同。",
-        "goal-mcq-37": "「多人／多組共同追求的目標」與本句語境不同。",
-        "goal-mcq-41": "「個人、團隊與組織目標彼此一致／互相支持」與本句語境不同。",
-        "goal-mcq-36": "「按 SMART 目標設定框架形成的目標」與本句語境不同。"
+        "goal-mcq-39": "本句的「goals」指「難以同時實現、彼此牴觸的目標」。",
+        "goal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-39"
     },
@@ -2095,11 +2031,9 @@ export default {
       "masked": "Good management requires ____ alignment.",
       "options": [
         "goal-mcq-41",
-        "goal-mcq-40",
-        "goal-mcq-42",
-        "goal-mcq-39",
-        "goal-mcq-43",
-        "goal-mcq-38"
+        "goal-mcq-19",
+        "goal-mcq-85",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goal」指「個人、團隊與組織目標彼此一致／互相支持」。",
       "sentenceIndex": 17,
@@ -2108,12 +2042,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-41": "本句指「個人、團隊與組織目標彼此一致／互相支持」。",
-        "goal-mcq-40": "「多個目標彼此干擾／不相容的情況」與本句語境不同。",
-        "goal-mcq-42": "「由高層至子目標組成的目標層級」與本句語境不同。",
-        "goal-mcq-39": "「難以同時實現、彼此牴觸的目標」與本句語境不同。",
-        "goal-mcq-43": "「決定自己要達到甚麼結果；設定目標」與本句語境不同。",
-        "goal-mcq-38": "「互相爭奪時間／資源的目標」與本句語境不同。"
+        "goal-mcq-41": "本句的「goal」指「個人、團隊與組織目標彼此一致／互相支持」。",
+        "goal-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-41"
     },
@@ -2125,11 +2057,9 @@ export default {
       "masked": "Set a clear ____ before beginning.",
       "options": [
         "goal-mcq-43",
-        "goal-mcq-42",
-        "goal-mcq-44",
-        "goal-mcq-41",
-        "goal-mcq-45",
-        "goal-mcq-40"
+        "goal-mcq-85",
+        "goal-mcq-13",
+        "goal-mcq-52"
       ],
       "explanation": "本句的「goal」指「決定自己要達到甚麼結果；設定目標」。",
       "sentenceIndex": 18,
@@ -2138,12 +2068,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-43": "本句指「決定自己要達到甚麼結果；設定目標」。",
-        "goal-mcq-42": "「由高層至子目標組成的目標層級」與本句語境不同。",
-        "goal-mcq-44": "「正式確立／清楚界定目標」與本句語境不同。",
-        "goal-mcq-41": "「個人、團隊與組織目標彼此一致／互相支持」與本句語境不同。",
-        "goal-mcq-45": "「設定、明確化及規劃目標的過程」與本句語境不同。",
-        "goal-mcq-40": "「多個目標彼此干擾／不相容的情況」與本句語境不同。"
+        "goal-mcq-43": "本句的「goal」指「決定自己要達到甚麼結果；設定目標」。",
+        "goal-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-43"
     },
@@ -2155,11 +2083,9 @@ export default {
       "masked": "Effective ____ setting can improve focus.",
       "options": [
         "goal-mcq-45",
-        "goal-mcq-44",
-        "goal-mcq-46",
-        "goal-mcq-43",
-        "goal-mcq-47",
-        "goal-mcq-42"
+        "goal-mcq-84",
+        "goal-mcq-14",
+        "goal-mcq-04"
       ],
       "explanation": "本句的「goal」指「設定、明確化及規劃目標的過程」。",
       "sentenceIndex": 19,
@@ -2168,12 +2094,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-45": "本句指「設定、明確化及規劃目標的過程」。",
-        "goal-mcq-44": "「正式確立／清楚界定目標」與本句語境不同。",
-        "goal-mcq-46": "「持續努力追求某項目標」與本句語境不同。",
-        "goal-mcq-43": "「決定自己要達到甚麼結果；設定目標」與本句語境不同。",
-        "goal-mcq-47": "「朝某個目標逐步努力」與本句語境不同。",
-        "goal-mcq-42": "「由高層至子目標組成的目標層級」與本句語境不同。"
+        "goal-mcq-45": "本句的「goal」指「設定、明確化及規劃目標的過程」。",
+        "goal-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-45"
     },
@@ -2185,11 +2109,9 @@ export default {
       "masked": "She continued to pursue her ____.",
       "options": [
         "goal-mcq-46",
-        "goal-mcq-45",
-        "goal-mcq-47",
-        "goal-mcq-44",
-        "goal-mcq-48",
-        "goal-mcq-43"
+        "goal-mcq-10",
+        "goal-mcq-84",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goal」指「持續努力追求某項目標」。",
       "sentenceIndex": 20,
@@ -2198,12 +2120,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-46": "本句指「持續努力追求某項目標」。",
-        "goal-mcq-45": "「設定、明確化及規劃目標的過程」與本句語境不同。",
-        "goal-mcq-47": "「朝某個目標逐步努力」與本句語境不同。",
-        "goal-mcq-44": "「正式確立／清楚界定目標」與本句語境不同。",
-        "goal-mcq-48": "「成功到達希望的結果」與本句語境不同。",
-        "goal-mcq-43": "「決定自己要達到甚麼結果；設定目標」與本句語境不同。"
+        "goal-mcq-46": "本句的「goal」指「持續努力追求某項目標」。",
+        "goal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-46"
     },
@@ -2215,11 +2135,9 @@ export default {
       "masked": "Students worked toward a shared ____.",
       "options": [
         "goal-mcq-47",
-        "goal-mcq-46",
-        "goal-mcq-48",
-        "goal-mcq-45",
-        "goal-mcq-49",
-        "goal-mcq-44"
+        "goal-mcq-19",
+        "goal-mcq-62",
+        "goal-mcq-82"
       ],
       "explanation": "本句的「goal」指「朝某個目標逐步努力」。",
       "sentenceIndex": 21,
@@ -2228,12 +2146,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-47": "本句指「朝某個目標逐步努力」。",
-        "goal-mcq-46": "「持續努力追求某項目標」與本句語境不同。",
-        "goal-mcq-48": "「成功到達希望的結果」與本句語境不同。",
-        "goal-mcq-45": "「設定、明確化及規劃目標的過程」與本句語境不同。",
-        "goal-mcq-49": "「成功完成／達成目標」與本句語境不同。",
-        "goal-mcq-44": "「正式確立／清楚界定目標」與本句語境不同。"
+        "goal-mcq-47": "本句的「goal」指「朝某個目標逐步努力」。",
+        "goal-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-82": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-47"
     },
@@ -2245,11 +2161,9 @@ export default {
       "masked": "She finally reached her ____.",
       "options": [
         "goal-mcq-48",
-        "goal-mcq-47",
-        "goal-mcq-49",
         "goal-mcq-46",
-        "goal-mcq-50",
-        "goal-mcq-45"
+        "goal-mcq-85",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goal」指「成功到達希望的結果」。",
       "sentenceIndex": 22,
@@ -2258,12 +2172,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-48": "本句指「成功到達希望的結果」。",
-        "goal-mcq-47": "「朝某個目標逐步努力」與本句語境不同。",
-        "goal-mcq-49": "「成功完成／達成目標」與本句語境不同。",
-        "goal-mcq-46": "「持續努力追求某項目標」與本句語境不同。",
-        "goal-mcq-50": "「正式：成功實現目標」與本句語境不同。",
-        "goal-mcq-45": "「設定、明確化及規劃目標的過程」與本句語境不同。"
+        "goal-mcq-48": "本句的「goal」指「成功到達希望的結果」。",
+        "goal-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-48"
     },
@@ -2275,11 +2187,9 @@ export default {
       "masked": "Sales met the annual ____.",
       "options": [
         "goal-mcq-51",
-        "goal-mcq-50",
-        "goal-mcq-52",
-        "goal-mcq-49",
-        "goal-mcq-53",
-        "goal-mcq-48"
+        "goal-mcq-85",
+        "goal-mcq-13",
+        "goal-mcq-62"
       ],
       "explanation": "本句的「goal」指「達到既定目標水平」。",
       "sentenceIndex": 24,
@@ -2288,12 +2198,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-51": "本句指「達到既定目標水平」。",
-        "goal-mcq-50": "「正式：成功實現目標」與本句語境不同。",
-        "goal-mcq-52": "「非正式／商務：成功達標」與本句語境不同。",
-        "goal-mcq-49": "「成功完成／達成目標」與本句語境不同。",
-        "goal-mcq-53": "「表現超過原先設定的目標」與本句語境不同。",
-        "goal-mcq-48": "「成功到達希望的結果」與本句語境不同。"
+        "goal-mcq-51": "本句的「goal」指「達到既定目標水平」。",
+        "goal-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-51"
     },
@@ -2305,11 +2213,9 @@ export default {
       "masked": "The team hit its revenue ____.",
       "options": [
         "goal-mcq-52",
-        "goal-mcq-51",
-        "goal-mcq-53",
-        "goal-mcq-50",
-        "goal-mcq-54",
-        "goal-mcq-49"
+        "goal-mcq-04",
+        "goal-mcq-85",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goal」指「非正式／商務：成功達標」。",
       "sentenceIndex": 25,
@@ -2318,12 +2224,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-52": "本句指「非正式／商務：成功達標」。",
-        "goal-mcq-51": "「達到既定目標水平」與本句語境不同。",
-        "goal-mcq-53": "「表現超過原先設定的目標」與本句語境不同。",
-        "goal-mcq-50": "「正式：成功實現目標」與本句語境不同。",
-        "goal-mcq-54": "「未能達到既定目標」與本句語境不同。",
-        "goal-mcq-49": "「成功完成／達成目標」與本句語境不同。"
+        "goal-mcq-52": "本句的「goal」指「非正式／商務：成功達標」。",
+        "goal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-52"
     },
@@ -2335,11 +2239,9 @@ export default {
       "masked": "The campaign fell short of its ____.",
       "options": [
         "goal-mcq-54",
-        "goal-mcq-53",
-        "goal-mcq-55",
-        "goal-mcq-52",
-        "goal-mcq-56",
-        "goal-mcq-51"
+        "goal-mcq-84",
+        "goal-mcq-04",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goal」指「未能達到既定目標」。",
       "sentenceIndex": 27,
@@ -2348,12 +2250,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-54": "本句指「未能達到既定目標」。",
-        "goal-mcq-53": "「表現超過原先設定的目標」與本句語境不同。",
-        "goal-mcq-55": "「停止再追求某項目標」與本句語境不同。",
-        "goal-mcq-52": "「非正式／商務：成功達標」與本句語境不同。",
-        "goal-mcq-56": "「成功達成目標」與本句語境不同。",
-        "goal-mcq-51": "「達到既定目標水平」與本句語境不同。"
+        "goal-mcq-54": "本句的「goal」指「未能達到既定目標」。",
+        "goal-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-54"
     },
@@ -2365,11 +2265,9 @@ export default {
       "masked": "She is highly ____.",
       "options": [
         "goal-mcq-59",
-        "goal-mcq-58",
-        "goal-mcq-60",
-        "goal-mcq-57",
-        "goal-mcq-61",
-        "goal-mcq-56"
+        "goal-mcq-89",
+        "goal-mcq-13",
+        "goal-mcq-62"
       ],
       "explanation": "本句的「goal-oriented」指「非常著重設定並達成目標的」。",
       "sentenceIndex": 28,
@@ -2378,12 +2276,10 @@ export default {
         "goal-oriented"
       ],
       "optionReasons": {
-        "goal-mcq-59": "本句指「非常著重設定並達成目標的」。",
-        "goal-mcq-58": "「距離達成目標越來越近的進展」與本句語境不同。",
-        "goal-mcq-60": "「行動有明確目標引導的」與本句語境不同。",
-        "goal-mcq-57": "「達成目標的過程／程度」與本句語境不同。",
-        "goal-mcq-61": "「由目標強力驅動的」與本句語境不同。",
-        "goal-mcq-56": "「成功達成目標」與本句語境不同。"
+        "goal-mcq-59": "本句的「goal-oriented」指「非常著重設定並達成目標的」。",
+        "goal-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-59"
     },
@@ -2395,11 +2291,9 @@ export default {
       "masked": "Human behavior is often ____.",
       "options": [
         "goal-mcq-60",
-        "goal-mcq-59",
-        "goal-mcq-61",
-        "goal-mcq-58",
-        "goal-mcq-62",
-        "goal-mcq-57"
+        "goal-mcq-14",
+        "goal-mcq-89",
+        "goal-mcq-04"
       ],
       "explanation": "本句的「goal-directed」指「行動有明確目標引導的」。",
       "sentenceIndex": 29,
@@ -2408,12 +2302,10 @@ export default {
         "goal-directed"
       ],
       "optionReasons": {
-        "goal-mcq-60": "本句指「行動有明確目標引導的」。",
-        "goal-mcq-59": "「非常著重設定並達成目標的」與本句語境不同。",
-        "goal-mcq-61": "「由目標強力驅動的」與本句語境不同。",
-        "goal-mcq-58": "「距離達成目標越來越近的進展」與本句語境不同。",
-        "goal-mcq-62": "「為取得預期結果而選擇／調整的行為」與本句語境不同。",
-        "goal-mcq-57": "「達成目標的過程／程度」與本句語境不同。"
+        "goal-mcq-60": "本句的「goal-directed」指「行動有明確目標引導的」。",
+        "goal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-60"
     },
@@ -2425,11 +2317,9 @@ export default {
       "masked": "The study examined ____ behavior.",
       "options": [
         "goal-mcq-62",
-        "goal-mcq-61",
-        "goal-mcq-63",
-        "goal-mcq-60",
-        "goal-mcq-64",
-        "goal-mcq-59"
+        "goal-mcq-82",
+        "goal-mcq-59",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goal-directed」指「為取得預期結果而選擇／調整的行為」。",
       "sentenceIndex": 30,
@@ -2438,12 +2328,10 @@ export default {
         "goal-directed"
       ],
       "optionReasons": {
-        "goal-mcq-62": "本句指「為取得預期結果而選擇／調整的行為」。",
-        "goal-mcq-61": "「由目標強力驅動的」與本句語境不同。",
-        "goal-mcq-63": "「認知中對希望達到狀態的心理表徵」與本句語境不同。",
-        "goal-mcq-60": "「行動有明確目標引導的」與本句語境不同。",
-        "goal-mcq-64": "「一個人堅持追求某目標的程度」與本句語境不同。",
-        "goal-mcq-59": "「非常著重設定並達成目標的」與本句語境不同。"
+        "goal-mcq-62": "本句的「goal-directed」指「為取得預期結果而選擇／調整的行為」。",
+        "goal-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-62"
     },
@@ -2455,11 +2343,9 @@ export default {
       "masked": "The search ends when the ____ state is reached.",
       "options": [
         "goal-mcq-74",
-        "goal-mcq-73",
-        "goal-mcq-75",
-        "goal-mcq-72",
-        "goal-mcq-76",
-        "goal-mcq-71"
+        "goal-mcq-13",
+        "goal-mcq-89",
+        "goal-mcq-62"
       ],
       "explanation": "本句的「goal」指「搜尋／規劃系統希望到達的目標狀態」。",
       "sentenceIndex": 31,
@@ -2468,12 +2354,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-74": "本句指「搜尋／規劃系統希望到達的目標狀態」。",
-        "goal-mcq-73": "「以避免負面結果為方向的目標」與本句語境不同。",
-        "goal-mcq-75": "「搜尋中檢查目前狀態是否已滿足目標的測試」與本句語境不同。",
-        "goal-mcq-72": "「以取得正面結果為方向的目標」與本句語境不同。",
-        "goal-mcq-76": "「定義甚麼情況算達成目標的條件」與本句語境不同。",
-        "goal-mcq-71": "「以金錢、地位等外在結果為主的目標」與本句語境不同。"
+        "goal-mcq-74": "本句的「goal」指「搜尋／規劃系統希望到達的目標狀態」。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-74"
     },
@@ -2485,11 +2369,9 @@ export default {
       "masked": "The algorithm performs a ____ test on each candidate state.",
       "options": [
         "goal-mcq-75",
-        "goal-mcq-74",
-        "goal-mcq-76",
-        "goal-mcq-73",
-        "goal-mcq-77",
-        "goal-mcq-72"
+        "goal-mcq-14",
+        "goal-mcq-84",
+        "goal-mcq-04"
       ],
       "explanation": "本句的「goal」指「搜尋中檢查目前狀態是否已滿足目標的測試」。",
       "sentenceIndex": 32,
@@ -2498,12 +2380,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-75": "本句指「搜尋中檢查目前狀態是否已滿足目標的測試」。",
-        "goal-mcq-74": "「搜尋／規劃系統希望到達的目標狀態」與本句語境不同。",
-        "goal-mcq-76": "「定義甚麼情況算達成目標的條件」與本句語境不同。",
-        "goal-mcq-73": "「以避免負面結果為方向的目標」與本句語境不同。",
-        "goal-mcq-77": "「搜尋樹中符合目標條件的節點」與本句語境不同。",
-        "goal-mcq-72": "「以取得正面結果為方向的目標」與本句語境不同。"
+        "goal-mcq-75": "本句的「goal」指「搜尋中檢查目前狀態是否已滿足目標的測試」。",
+        "goal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-75"
     },
@@ -2515,11 +2395,8 @@ export default {
       "masked": "Use ____ Seek to find the required sales figure.",
       "options": [
         "goal-mcq-81",
-        "goal-mcq-80",
-        "goal-mcq-82",
-        "goal-mcq-79",
-        "goal-mcq-83",
-        "goal-mcq-78"
+        "goal-mcq-13",
+        "goal-mcq-89"
       ],
       "explanation": "本句的「Goal」指「試算表中反推所需輸入值以達成指定結果的目標搜尋功能」。",
       "sentenceIndex": 33,
@@ -2528,12 +2405,9 @@ export default {
         "Goal"
       ],
       "optionReasons": {
-        "goal-mcq-81": "本句指「試算表中反推所需輸入值以達成指定結果的目標搜尋功能」。",
-        "goal-mcq-80": "「透過最小化各項目標偏差處理多目標問題的目標規劃法」與本句語境不同。",
-        "goal-mcq-82": "「足球、曲棍球等比賽中球要進入才能得分的球門」與本句語境不同。",
-        "goal-mcq-79": "「遊戲／AI 中從當前狀態規劃行動以達成目標的方法」與本句語境不同。",
-        "goal-mcq-83": "「成功把球／冰球送入球門所取得的一次入球／得分」與本句語境不同。",
-        "goal-mcq-78": "「根據是否有助達成目標來選擇行動的智能體」與本句語境不同。"
+        "goal-mcq-81": "本句的「Goal」指「試算表中反推所需輸入值以達成指定結果的目標搜尋功能」。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-89": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-81"
     },
@@ -2545,11 +2419,9 @@ export default {
       "masked": "The ball went into the ____.",
       "options": [
         "goal-mcq-82",
-        "goal-mcq-81",
-        "goal-mcq-83",
-        "goal-mcq-80",
-        "goal-mcq-84",
-        "goal-mcq-79"
+        "goal-mcq-62",
+        "goal-mcq-41",
+        "goal-mcq-19"
       ],
       "explanation": "本句的「goal」指「足球、曲棍球等比賽中球要進入才能得分的球門」。",
       "sentenceIndex": 34,
@@ -2558,12 +2430,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-82": "本句指「足球、曲棍球等比賽中球要進入才能得分的球門」。",
-        "goal-mcq-81": "「試算表中反推所需輸入值以達成指定結果的目標搜尋功能」與本句語境不同。",
-        "goal-mcq-83": "「成功把球／冰球送入球門所取得的一次入球／得分」與本句語境不同。",
-        "goal-mcq-80": "「透過最小化各項目標偏差處理多目標問題的目標規劃法」與本句語境不同。",
-        "goal-mcq-84": "「成功攻入一球」與本句語境不同。",
-        "goal-mcq-79": "「遊戲／AI 中從當前狀態規劃行動以達成目標的方法」與本句語境不同。"
+        "goal-mcq-82": "本句的「goal」指「足球、曲棍球等比賽中球要進入才能得分的球門」。",
+        "goal-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-82"
     },
@@ -2575,11 +2445,9 @@ export default {
       "masked": "He stood in front of the ____.",
       "options": [
         "goal-mcq-82",
-        "goal-mcq-81",
-        "goal-mcq-83",
-        "goal-mcq-80",
-        "goal-mcq-84",
-        "goal-mcq-79"
+        "goal-mcq-10",
+        "goal-mcq-51",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goal」指「足球、曲棍球等比賽中球要進入才能得分的球門」。",
       "sentenceIndex": 35,
@@ -2588,12 +2456,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-82": "本句指「足球、曲棍球等比賽中球要進入才能得分的球門」。",
-        "goal-mcq-81": "「試算表中反推所需輸入值以達成指定結果的目標搜尋功能」與本句語境不同。",
-        "goal-mcq-83": "「成功把球／冰球送入球門所取得的一次入球／得分」與本句語境不同。",
-        "goal-mcq-80": "「透過最小化各項目標偏差處理多目標問題的目標規劃法」與本句語境不同。",
-        "goal-mcq-84": "「成功攻入一球」與本句語境不同。",
-        "goal-mcq-79": "「遊戲／AI 中從當前狀態規劃行動以達成目標的方法」與本句語境不同。"
+        "goal-mcq-82": "本句的「goal」指「足球、曲棍球等比賽中球要進入才能得分的球門」。",
+        "goal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-82"
     },
@@ -2605,11 +2471,9 @@ export default {
       "masked": "He scored the winning ____.",
       "options": [
         "goal-mcq-84",
-        "goal-mcq-83",
-        "goal-mcq-85",
-        "goal-mcq-82",
-        "goal-mcq-86",
-        "goal-mcq-81"
+        "goal-mcq-27",
+        "goal-mcq-04",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goal」指「成功攻入一球」。",
       "sentenceIndex": 39,
@@ -2618,12 +2482,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-84": "本句指「成功攻入一球」。",
-        "goal-mcq-83": "「成功把球／冰球送入球門所取得的一次入球／得分」與本句語境不同。",
-        "goal-mcq-85": "「被對方攻入一球；失球」與本句語境不同。",
-        "goal-mcq-82": "「足球、曲棍球等比賽中球要進入才能得分的球門」與本句語境不同。",
-        "goal-mcq-86": "「最終令球隊取勝的致勝球」與本句語境不同。",
-        "goal-mcq-81": "「試算表中反推所需輸入值以達成指定結果的目標搜尋功能」與本句語境不同。"
+        "goal-mcq-84": "本句的「goal」指「成功攻入一球」。",
+        "goal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-84"
     },
@@ -2635,11 +2497,9 @@ export default {
       "masked": "The team conceded two ____.",
       "options": [
         "goal-mcq-85",
-        "goal-mcq-84",
-        "goal-mcq-86",
-        "goal-mcq-83",
-        "goal-mcq-87",
-        "goal-mcq-82"
+        "goal-mcq-59",
+        "goal-mcq-14",
+        "goal-mcq-04"
       ],
       "explanation": "本句的「goals」指「被對方攻入一球；失球」。",
       "sentenceIndex": 40,
@@ -2648,12 +2508,10 @@ export default {
         "goals"
       ],
       "optionReasons": {
-        "goal-mcq-85": "本句指「被對方攻入一球；失球」。",
-        "goal-mcq-84": "「成功攻入一球」與本句語境不同。",
-        "goal-mcq-86": "「最終令球隊取勝的致勝球」與本句語境不同。",
-        "goal-mcq-83": "「成功把球／冰球送入球門所取得的一次入球／得分」與本句語境不同。",
-        "goal-mcq-87": "「令比分恢復平手的扳平球」與本句語境不同。",
-        "goal-mcq-82": "「足球、曲棍球等比賽中球要進入才能得分的球門」與本句語境不同。"
+        "goal-mcq-85": "本句的「goals」指「被對方攻入一球；失球」。",
+        "goal-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-85"
     },
@@ -2665,11 +2523,9 @@ export default {
       "masked": "The teams were separated by ____ difference.",
       "options": [
         "goal-mcq-89",
-        "goal-mcq-88",
-        "goal-mcq-90",
-        "goal-mcq-87",
-        "goal-mcq-91",
-        "goal-mcq-86"
+        "goal-mcq-19",
+        "goal-mcq-27",
+        "goal-mcq-13"
       ],
       "explanation": "本句的「goal」指「入球數減失球數所得的得失球差」。",
       "sentenceIndex": 41,
@@ -2678,12 +2534,10 @@ export default {
         "goal"
       ],
       "optionReasons": {
-        "goal-mcq-89": "本句指「入球數減失球數所得的得失球差」。",
-        "goal-mcq-88": "「比賽中的第一個入球」與本句語境不同。",
-        "goal-mcq-90": "「球隊的入球數／失球數」與本句語境不同。",
-        "goal-mcq-87": "「令比分恢復平手的扳平球」與本句語境不同。",
-        "goal-mcq-91": "「球場末端包含球門的球門線」與本句語境不同。",
-        "goal-mcq-86": "「最終令球隊取勝的致勝球」與本句語境不同。"
+        "goal-mcq-89": "本句的「goal」指「入球數減失球數所得的得失球差」。",
+        "goal-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "goal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "goal-mcq-89"
     }
@@ -2695,5 +2549,7 @@ export default {
     "sha256": "4bb3ec9f100eda5844272d1b39d2d0289ab9b891b15ff675a3ab129f3b5d8a88",
     "pages": 98
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -45,11 +45,6 @@ export default {
           "The magician made the card disappear.",
           "魔術師令紙牌看似消失了。",
           "表演魔術技巧和幻術的人"
-        ],
-        [
-          "He is a magician with numbers.",
-          "他是個處理數字的高手／奇才。",
-          "表演魔術技巧和幻術的人"
         ]
       ],
       "options": [],
@@ -197,11 +192,6 @@ export default {
       "note": "來源詞義：被期望能一次解決複雜問題的單一萬能方法",
       "examples": [
         [
-          "She used magic to open the door.",
-          "她用魔法打開了門。",
-          "被期望能一次解決複雜問題的單一萬能方法"
-        ],
-        [
           "There is no magic bullet for improving mental wellbeing.",
           "改善心理健康沒有甚麼一招見效的萬靈解法。",
           "被期望能一次解決複雜問題的單一萬能方法"
@@ -238,16 +228,6 @@ export default {
         [
           "She seems to have the magic touch with customers.",
           "她似乎特別懂得應付顧客／有一套神奇本領。",
-          "特別擅長令事情成功的本領"
-        ],
-        [
-          "The app does a bit of digital magic behind the scenes.",
-          "這個應用程式在幕後做了一些像數碼魔法般的處理。",
-          "特別擅長令事情成功的本領"
-        ],
-        [
-          "The performance had real magic.",
-          "這場演出真的有一種難以言喻的魅力。",
           "特別擅長令事情成功的本領"
         ]
       ],
@@ -398,38 +378,104 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "magical-reviewed-dd9c856360",
+      "title": "被想像為能以超自然方式改變現實的力量",
+      "form": "magical · source section 5",
+      "en": "被想像為能以超自然方式改變現實的力量",
+      "zh": "被想像為能以超自然方式改變現實的力量",
+      "note": "對照原始教材第 5 節及例句核實。",
+      "examples": [
+        [
+          "She used magic to open the door.",
+          "她用魔法打開了門。",
+          "被想像為能以超自然方式改變現實的力量"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "magical-reviewed-05d3cb8ed6",
+      "title": "像魔法般的科技效果",
+      "form": "magical · source section 31",
+      "en": "像魔法般的科技效果",
+      "zh": "像魔法般的科技效果",
+      "note": "對照原始教材第 31 節及例句核實。",
+      "examples": [
+        [
+          "The app does a bit of digital magic behind the scenes.",
+          "這個應用程式在幕後做了一些像數碼魔法般的處理。",
+          "像魔法般的科技效果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "magical-reviewed-c76cb037fd",
+      "title": "難以言喻的魅力；奇妙效果",
+      "form": "magical · source section 49",
+      "en": "難以言喻的魅力；奇妙效果",
+      "zh": "難以言喻的魅力；奇妙效果",
+      "note": "對照原始教材第 49 節及例句核實。",
+      "examples": [
+        [
+          "The performance had real magic.",
+          "這場演出真的有一種難以言喻的魅力。",
+          "難以言喻的魅力；奇妙效果"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "magical-reviewed-66f3dfc6a4",
+      "title": "高手；奇才",
+      "form": "magical · source section 72",
+      "en": "高手；奇才",
+      "zh": "高手；奇才",
+      "note": "對照原始教材第 72 節及例句核實。",
+      "examples": [
+        [
+          "He is a magician with numbers.",
+          "他是個處理數字的高手／奇才。",
+          "高手；奇才"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "magical-05-0",
-      "sense": "magical-mcq-12",
+      "sense": "magical-reviewed-dd9c856360",
       "en": "She used magic to open the door.",
       "zh": "她用魔法打開了門。",
       "masked": "She used ____ to open the door.",
       "options": [
+        "magical-reviewed-dd9c856360",
+        "magical-mcq-20",
         "magical-mcq-12",
-        "magical-mcq-11",
-        "magical-mcq-13",
-        "magical-mcq-10",
-        "magical-mcq-14",
-        "magical-mcq-09"
+        "magical-mcq-11"
       ],
-      "explanation": "本句的「magic」指「被期望能一次解決複雜問題的單一萬能方法」。",
+      "explanation": "對照完整句子：「她用魔法打開了門。」。這裡的「magic」表示「被想像為能以超自然方式改變現實的力量」。",
       "sentenceIndex": 8,
       "sourcePractice": 5,
       "targets": [
         "magic"
       ],
       "optionReasons": {
-        "magical-mcq-12": "本句指「被期望能一次解決複雜問題的單一萬能方法」。",
-        "magical-mcq-11": "「被認為能帶來成功的簡單秘訣／公式」與本句語境不同。",
-        "magical-mcq-13": "「象徵不用實際付出便能瞬間改變／解決事情的方法」與本句語境不同。",
-        "magical-mcq-10": "「被想像成能簡單、立即解決複雜問題的萬靈方法」與本句語境不同。",
-        "magical-mcq-14": "「特別擅長令事情成功的本領」與本句語境不同。",
-        "magical-mcq-09": "「好得／奇妙得幾乎令人覺得像魔法一樣」與本句語境不同。"
+        "magical-reviewed-dd9c856360": "對照完整句子：「她用魔法打開了門。」。這裡的「magic」表示「被想像為能以超自然方式改變現實的力量」。",
+        "magical-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "magical-mcq-12"
+      "correctOption": "magical-reviewed-dd9c856360",
+      "previousCorrectOption": "magical-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "magical-06-0",
@@ -439,11 +485,9 @@ export default {
       "masked": "He performs ____ on stage.",
       "options": [
         "magical-mcq-02",
-        "magical-mcq-01",
-        "magical-mcq-03",
-        "magical-mcq-04",
-        "magical-mcq-05",
-        "magical-mcq-06"
+        "magical-reviewed-66f3dfc6a4",
+        "magical-mcq-16",
+        "magical-mcq-12"
       ],
       "explanation": "本句的「magic」指「透過技巧、錯覺和表演製造「不可能效果」的魔術」。",
       "sentenceIndex": 9,
@@ -452,12 +496,10 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magical-mcq-02": "本句指「透過技巧、錯覺和表演製造「不可能效果」的魔術」。",
-        "magical-mcq-01": "「被想像為能以超自然方式改變現實的力量」與本句語境不同。",
-        "magical-mcq-03": "「表演魔術技巧和幻術的人」與本句語境不同。",
-        "magical-mcq-04": "「在故事中真正使用超自然魔法的人」與本句語境不同。",
-        "magical-mcq-05": "「與魔法、咒語或超自然力量有關的」與本句語境不同。",
-        "magical-mcq-06": "「美好、特別或驚奇到彷彿帶有魔法、近乎不真實的」與本句語境不同。"
+        "magical-mcq-02": "本句的「magic」指「透過技巧、錯覺和表演製造「不可能效果」的魔術」。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-02"
     },
@@ -469,11 +511,9 @@ export default {
       "masked": "The ____ made the card disappear.",
       "options": [
         "magical-mcq-03",
-        "magical-mcq-02",
-        "magical-mcq-04",
-        "magical-mcq-01",
-        "magical-mcq-05",
-        "magical-mcq-06"
+        "magical-reviewed-66f3dfc6a4",
+        "magical-mcq-12",
+        "magical-mcq-16"
       ],
       "explanation": "本句的「magician」指「表演魔術技巧和幻術的人」。",
       "sentenceIndex": 10,
@@ -482,12 +522,10 @@ export default {
         "magician"
       ],
       "optionReasons": {
-        "magical-mcq-03": "本句指「表演魔術技巧和幻術的人」。",
-        "magical-mcq-02": "「透過技巧、錯覺和表演製造「不可能效果」的魔術」與本句語境不同。",
-        "magical-mcq-04": "「在故事中真正使用超自然魔法的人」與本句語境不同。",
-        "magical-mcq-01": "「被想像為能以超自然方式改變現實的力量」與本句語境不同。",
-        "magical-mcq-05": "「與魔法、咒語或超自然力量有關的」與本句語境不同。",
-        "magical-mcq-06": "「美好、特別或驚奇到彷彿帶有魔法、近乎不真實的」與本句語境不同。"
+        "magical-mcq-03": "本句的「magician」指「表演魔術技巧和幻術的人」。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-03"
     },
@@ -499,11 +537,9 @@ export default {
       "masked": "Seeing the northern lights was a ____.",
       "options": [
         "magical-mcq-07",
-        "magical-mcq-06",
-        "magical-mcq-08",
-        "magical-mcq-05",
-        "magical-mcq-09",
-        "magical-mcq-04"
+        "magical-mcq-12",
+        "magical-mcq-17",
+        "magical-reviewed-66f3dfc6a4"
       ],
       "explanation": "本句的「magical experience」指「令人產生強烈奇妙、夢幻和驚喜感的經歷」。",
       "sentenceIndex": 13,
@@ -512,12 +548,10 @@ export default {
         "magical experience"
       ],
       "optionReasons": {
-        "magical-mcq-07": "本句指「令人產生強烈奇妙、夢幻和驚喜感的經歷」。",
-        "magical-mcq-06": "「美好、特別或驚奇到彷彿帶有魔法、近乎不真實的」與本句語境不同。",
-        "magical-mcq-08": "「環境美好、迷人到有夢幻／魔法感的氣氛」與本句語境不同。",
-        "magical-mcq-05": "「與魔法、咒語或超自然力量有關的」與本句語境不同。",
-        "magical-mcq-09": "「好得／奇妙得幾乎令人覺得像魔法一樣」與本句語境不同。",
-        "magical-mcq-04": "「在故事中真正使用超自然魔法的人」與本句語境不同。"
+        "magical-mcq-07": "本句的「magical experience」指「令人產生強烈奇妙、夢幻和驚喜感的經歷」。",
+        "magical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-07"
     },
@@ -529,11 +563,9 @@ export default {
       "masked": "The concert felt genuinely ____.",
       "options": [
         "magical-mcq-07",
-        "magical-mcq-06",
-        "magical-mcq-08",
-        "magical-mcq-05",
-        "magical-mcq-09",
-        "magical-mcq-04"
+        "magical-mcq-12",
+        "magical-reviewed-66f3dfc6a4",
+        "magical-mcq-17"
       ],
       "explanation": "本句的「magical」指「令人產生強烈奇妙、夢幻和驚喜感的經歷」。",
       "sentenceIndex": 14,
@@ -542,12 +574,10 @@ export default {
         "magical"
       ],
       "optionReasons": {
-        "magical-mcq-07": "本句指「令人產生強烈奇妙、夢幻和驚喜感的經歷」。",
-        "magical-mcq-06": "「美好、特別或驚奇到彷彿帶有魔法、近乎不真實的」與本句語境不同。",
-        "magical-mcq-08": "「環境美好、迷人到有夢幻／魔法感的氣氛」與本句語境不同。",
-        "magical-mcq-05": "「與魔法、咒語或超自然力量有關的」與本句語境不同。",
-        "magical-mcq-09": "「好得／奇妙得幾乎令人覺得像魔法一樣」與本句語境不同。",
-        "magical-mcq-04": "「在故事中真正使用超自然魔法的人」與本句語境不同。"
+        "magical-mcq-07": "本句的「magical」指「令人產生強烈奇妙、夢幻和驚喜感的經歷」。",
+        "magical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-07"
     },
@@ -559,11 +589,9 @@ export default {
       "masked": "The lights created a ____.",
       "options": [
         "magical-mcq-08",
-        "magical-mcq-07",
-        "magical-mcq-09",
-        "magical-mcq-06",
-        "magical-mcq-10",
-        "magical-mcq-05"
+        "magical-mcq-16",
+        "magical-reviewed-66f3dfc6a4",
+        "magical-mcq-11"
       ],
       "explanation": "本句的「magical atmosphere」指「環境美好、迷人到有夢幻／魔法感的氣氛」。",
       "sentenceIndex": 17,
@@ -572,12 +600,10 @@ export default {
         "magical atmosphere"
       ],
       "optionReasons": {
-        "magical-mcq-08": "本句指「環境美好、迷人到有夢幻／魔法感的氣氛」。",
-        "magical-mcq-07": "「令人產生強烈奇妙、夢幻和驚喜感的經歷」與本句語境不同。",
-        "magical-mcq-09": "「好得／奇妙得幾乎令人覺得像魔法一樣」與本句語境不同。",
-        "magical-mcq-06": "「美好、特別或驚奇到彷彿帶有魔法、近乎不真實的」與本句語境不同。",
-        "magical-mcq-10": "「被想像成能簡單、立即解決複雜問題的萬靈方法」與本句語境不同。",
-        "magical-mcq-05": "「與魔法、咒語或超自然力量有關的」與本句語境不同。"
+        "magical-mcq-08": "本句的「magical atmosphere」指「環境美好、迷人到有夢幻／魔法感的氣氛」。",
+        "magical-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-08"
     },
@@ -589,11 +615,9 @@ export default {
       "masked": "Snow gave the town a ____ atmosphere.",
       "options": [
         "magical-mcq-08",
-        "magical-mcq-07",
-        "magical-mcq-09",
-        "magical-mcq-06",
-        "magical-mcq-10",
-        "magical-mcq-05"
+        "magical-mcq-15",
+        "magical-reviewed-66f3dfc6a4",
+        "magical-mcq-11"
       ],
       "explanation": "本句的「magical」指「環境美好、迷人到有夢幻／魔法感的氣氛」。",
       "sentenceIndex": 18,
@@ -602,12 +626,10 @@ export default {
         "magical"
       ],
       "optionReasons": {
-        "magical-mcq-08": "本句指「環境美好、迷人到有夢幻／魔法感的氣氛」。",
-        "magical-mcq-07": "「令人產生強烈奇妙、夢幻和驚喜感的經歷」與本句語境不同。",
-        "magical-mcq-09": "「好得／奇妙得幾乎令人覺得像魔法一樣」與本句語境不同。",
-        "magical-mcq-06": "「美好、特別或驚奇到彷彿帶有魔法、近乎不真實的」與本句語境不同。",
-        "magical-mcq-10": "「被想像成能簡單、立即解決複雜問題的萬靈方法」與本句語境不同。",
-        "magical-mcq-05": "「與魔法、咒語或超自然力量有關的」與本句語境不同。"
+        "magical-mcq-08": "本句的「magical」指「環境美好、迷人到有夢幻／魔法感的氣氛」。",
+        "magical-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-08"
     },
@@ -619,11 +641,9 @@ export default {
       "masked": "There is no ____ to the problem.",
       "options": [
         "magical-mcq-10",
-        "magical-mcq-09",
-        "magical-mcq-11",
-        "magical-mcq-08",
-        "magical-mcq-12",
-        "magical-mcq-07"
+        "magical-mcq-17",
+        "magical-mcq-07",
+        "magical-reviewed-66f3dfc6a4"
       ],
       "explanation": "本句的「magic solution」指「被想像成能簡單、立即解決複雜問題的萬靈方法」。",
       "sentenceIndex": 29,
@@ -632,12 +652,10 @@ export default {
         "magic solution"
       ],
       "optionReasons": {
-        "magical-mcq-10": "本句指「被想像成能簡單、立即解決複雜問題的萬靈方法」。",
-        "magical-mcq-09": "「好得／奇妙得幾乎令人覺得像魔法一樣」與本句語境不同。",
-        "magical-mcq-11": "「被認為能帶來成功的簡單秘訣／公式」與本句語境不同。",
-        "magical-mcq-08": "「環境美好、迷人到有夢幻／魔法感的氣氛」與本句語境不同。",
-        "magical-mcq-12": "「被期望能一次解決複雜問題的單一萬能方法」與本句語境不同。",
-        "magical-mcq-07": "「令人產生強烈奇妙、夢幻和驚喜感的經歷」與本句語境不同。"
+        "magical-mcq-10": "本句的「magic solution」指「被想像成能簡單、立即解決複雜問題的萬靈方法」。",
+        "magical-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-10"
     },
@@ -649,11 +667,9 @@ export default {
       "masked": "There is no ____ for creativity.",
       "options": [
         "magical-mcq-11",
-        "magical-mcq-10",
-        "magical-mcq-12",
-        "magical-mcq-09",
-        "magical-mcq-13",
-        "magical-mcq-08"
+        "magical-reviewed-dd9c856360",
+        "magical-reviewed-66f3dfc6a4",
+        "magical-mcq-20"
       ],
       "explanation": "本句的「magic formula」指「被認為能帶來成功的簡單秘訣／公式」。",
       "sentenceIndex": 30,
@@ -662,12 +678,10 @@ export default {
         "magic formula"
       ],
       "optionReasons": {
-        "magical-mcq-11": "本句指「被認為能帶來成功的簡單秘訣／公式」。",
-        "magical-mcq-10": "「被想像成能簡單、立即解決複雜問題的萬靈方法」與本句語境不同。",
-        "magical-mcq-12": "「被期望能一次解決複雜問題的單一萬能方法」與本句語境不同。",
-        "magical-mcq-09": "「好得／奇妙得幾乎令人覺得像魔法一樣」與本句語境不同。",
-        "magical-mcq-13": "「象徵不用實際付出便能瞬間改變／解決事情的方法」與本句語境不同。",
-        "magical-mcq-08": "「環境美好、迷人到有夢幻／魔法感的氣氛」與本句語境不同。"
+        "magical-mcq-11": "本句的「magic formula」指「被認為能帶來成功的簡單秘訣／公式」。",
+        "magical-reviewed-dd9c856360": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-11"
     },
@@ -679,11 +693,9 @@ export default {
       "masked": "There is no ____ for improving mental wellbeing.",
       "options": [
         "magical-mcq-12",
-        "magical-mcq-11",
-        "magical-mcq-13",
-        "magical-mcq-10",
-        "magical-mcq-14",
-        "magical-mcq-09"
+        "magical-reviewed-66f3dfc6a4",
+        "magical-mcq-02",
+        "magical-mcq-17"
       ],
       "explanation": "本句的「magic bullet」指「被期望能一次解決複雜問題的單一萬能方法」。",
       "sentenceIndex": 32,
@@ -692,12 +704,10 @@ export default {
         "magic bullet"
       ],
       "optionReasons": {
-        "magical-mcq-12": "本句指「被期望能一次解決複雜問題的單一萬能方法」。",
-        "magical-mcq-11": "「被認為能帶來成功的簡單秘訣／公式」與本句語境不同。",
-        "magical-mcq-13": "「象徵不用實際付出便能瞬間改變／解決事情的方法」與本句語境不同。",
-        "magical-mcq-10": "「被想像成能簡單、立即解決複雜問題的萬靈方法」與本句語境不同。",
-        "magical-mcq-14": "「特別擅長令事情成功的本領」與本句語境不同。",
-        "magical-mcq-09": "「好得／奇妙得幾乎令人覺得像魔法一樣」與本句語境不同。"
+        "magical-mcq-12": "本句的「magic bullet」指「被期望能一次解決複雜問題的單一萬能方法」。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-12"
     },
@@ -709,11 +719,9 @@ export default {
       "masked": "The fairy waved a ____.",
       "options": [
         "magical-mcq-13",
-        "magical-mcq-12",
-        "magical-mcq-14",
         "magical-mcq-11",
-        "magical-mcq-15",
-        "magical-mcq-10"
+        "magical-reviewed-c76cb037fd",
+        "magical-reviewed-66f3dfc6a4"
       ],
       "explanation": "本句的「magic wand」指「象徵不用實際付出便能瞬間改變／解決事情的方法」。",
       "sentenceIndex": 33,
@@ -722,12 +730,10 @@ export default {
         "magic wand"
       ],
       "optionReasons": {
-        "magical-mcq-13": "本句指「象徵不用實際付出便能瞬間改變／解決事情的方法」。",
-        "magical-mcq-12": "「被期望能一次解決複雜問題的單一萬能方法」與本句語境不同。",
-        "magical-mcq-14": "「特別擅長令事情成功的本領」與本句語境不同。",
-        "magical-mcq-11": "「被認為能帶來成功的簡單秘訣／公式」與本句語境不同。",
-        "magical-mcq-15": "「發揮自己特別擅長的技巧，使事情明顯改善」與本句語境不同。",
-        "magical-mcq-10": "「被想像成能簡單、立即解決複雜問題的萬靈方法」與本句語境不同。"
+        "magical-mcq-13": "本句的「magic wand」指「象徵不用實際付出便能瞬間改變／解決事情的方法」。",
+        "magical-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-c76cb037fd": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-13"
     },
@@ -739,11 +745,9 @@ export default {
       "masked": "She seems to have the ____ with customers.",
       "options": [
         "magical-mcq-14",
-        "magical-mcq-13",
-        "magical-mcq-15",
+        "magical-reviewed-66f3dfc6a4",
         "magical-mcq-12",
-        "magical-mcq-16",
-        "magical-mcq-11"
+        "magical-mcq-17"
       ],
       "explanation": "本句的「magic touch」指「特別擅長令事情成功的本領」。",
       "sentenceIndex": 35,
@@ -752,12 +756,10 @@ export default {
         "magic touch"
       ],
       "optionReasons": {
-        "magical-mcq-14": "本句指「特別擅長令事情成功的本領」。",
-        "magical-mcq-13": "「象徵不用實際付出便能瞬間改變／解決事情的方法」與本句語境不同。",
-        "magical-mcq-15": "「發揮自己特別擅長的技巧，使事情明顯改善」與本句語境不同。",
-        "magical-mcq-12": "「被期望能一次解決複雜問題的單一萬能方法」與本句語境不同。",
-        "magical-mcq-16": "「X 難以完全解釋但非常吸引、奇妙的魅力」與本句語境不同。",
-        "magical-mcq-11": "「被認為能帶來成功的簡單秘訣／公式」與本句語境不同。"
+        "magical-mcq-14": "本句的「magic touch」指「特別擅長令事情成功的本領」。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-14"
     },
@@ -769,11 +771,9 @@ export default {
       "masked": "Can you ____ on this design?",
       "options": [
         "magical-mcq-15",
-        "magical-mcq-14",
-        "magical-mcq-16",
-        "magical-mcq-13",
-        "magical-mcq-17",
-        "magical-mcq-12"
+        "magical-mcq-12",
+        "magical-mcq-09",
+        "magical-reviewed-66f3dfc6a4"
       ],
       "explanation": "本句的「work your magic」指「發揮自己特別擅長的技巧，使事情明顯改善」。",
       "sentenceIndex": 36,
@@ -782,12 +782,10 @@ export default {
         "work your magic"
       ],
       "optionReasons": {
-        "magical-mcq-15": "本句指「發揮自己特別擅長的技巧，使事情明顯改善」。",
-        "magical-mcq-14": "「特別擅長令事情成功的本領」與本句語境不同。",
-        "magical-mcq-16": "「X 難以完全解釋但非常吸引、奇妙的魅力」與本句語境不同。",
-        "magical-mcq-13": "「象徵不用實際付出便能瞬間改變／解決事情的方法」與本句語境不同。",
-        "magical-mcq-17": "「把魔幻事件自然融入現實世界敘事的藝術／文學風格」與本句語境不同。",
-        "magical-mcq-12": "「被期望能一次解決複雜問題的單一萬能方法」與本句語境不同。"
+        "magical-mcq-15": "本句的「work your magic」指「發揮自己特別擅長的技巧，使事情明顯改善」。",
+        "magical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-15"
     },
@@ -799,11 +797,9 @@ export default {
       "masked": "The film captures ____.",
       "options": [
         "magical-mcq-16",
-        "magical-mcq-15",
         "magical-mcq-17",
         "magical-mcq-14",
-        "magical-mcq-18",
-        "magical-mcq-13"
+        "magical-reviewed-66f3dfc6a4"
       ],
       "explanation": "本句的「the magic of childhood」指「X 難以完全解釋但非常吸引、奇妙的魅力」。",
       "sentenceIndex": 38,
@@ -812,44 +808,40 @@ export default {
         "the magic of childhood"
       ],
       "optionReasons": {
-        "magical-mcq-16": "本句指「X 難以完全解釋但非常吸引、奇妙的魅力」。",
-        "magical-mcq-15": "「發揮自己特別擅長的技巧，使事情明顯改善」與本句語境不同。",
-        "magical-mcq-17": "「把魔幻事件自然融入現實世界敘事的藝術／文學風格」與本句語境不同。",
-        "magical-mcq-14": "「特別擅長令事情成功的本領」與本句語境不同。",
-        "magical-mcq-18": "「錯誤地相信思想、儀式或無關事件具有直接因果／超自然力量的思維」與本句語境不同。",
-        "magical-mcq-13": "「象徵不用實際付出便能瞬間改變／解決事情的方法」與本句語境不同。"
+        "magical-mcq-16": "本句的「the magic of childhood」指「X 難以完全解釋但非常吸引、奇妙的魅力」。",
+        "magical-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-16"
     },
     {
       "id": "magical-31-0",
-      "sense": "magical-mcq-14",
+      "sense": "magical-reviewed-05d3cb8ed6",
       "en": "The app does a bit of digital magic behind the scenes.",
       "zh": "這個應用程式在幕後做了一些像數碼魔法般的處理。",
       "masked": "The app does a bit of ____ behind the scenes.",
       "options": [
-        "magical-mcq-14",
-        "magical-mcq-13",
-        "magical-mcq-15",
-        "magical-mcq-12",
+        "magical-reviewed-05d3cb8ed6",
+        "magical-reviewed-66f3dfc6a4",
         "magical-mcq-16",
-        "magical-mcq-11"
+        "magical-mcq-20"
       ],
-      "explanation": "本句的「digital magic」指「特別擅長令事情成功的本領」。",
+      "explanation": "對照完整句子：「這個應用程式在幕後做了一些像數碼魔法般的處理。」。這裡的「digital magic」表示「像魔法般的科技效果」。",
       "sentenceIndex": 42,
       "sourcePractice": 31,
       "targets": [
         "digital magic"
       ],
       "optionReasons": {
-        "magical-mcq-14": "本句指「特別擅長令事情成功的本領」。",
-        "magical-mcq-13": "「象徵不用實際付出便能瞬間改變／解決事情的方法」與本句語境不同。",
-        "magical-mcq-15": "「發揮自己特別擅長的技巧，使事情明顯改善」與本句語境不同。",
-        "magical-mcq-12": "「被期望能一次解決複雜問題的單一萬能方法」與本句語境不同。",
-        "magical-mcq-16": "「X 難以完全解釋但非常吸引、奇妙的魅力」與本句語境不同。",
-        "magical-mcq-11": "「被認為能帶來成功的簡單秘訣／公式」與本句語境不同。"
+        "magical-reviewed-05d3cb8ed6": "對照完整句子：「這個應用程式在幕後做了一些像數碼魔法般的處理。」。這裡的「digital magic」表示「像魔法般的科技效果」。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "magical-mcq-14"
+      "correctOption": "magical-reviewed-05d3cb8ed6",
+      "previousCorrectOption": "magical-mcq-14",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "magical-44-0",
@@ -859,11 +851,9 @@ export default {
       "masked": "The novel uses ____.",
       "options": [
         "magical-mcq-17",
-        "magical-mcq-16",
-        "magical-mcq-18",
-        "magical-mcq-15",
-        "magical-mcq-19",
-        "magical-mcq-14"
+        "magical-pdf-001",
+        "magical-mcq-12",
+        "magical-mcq-16"
       ],
       "explanation": "本句的「magical realism」指「把魔幻事件自然融入現實世界敘事的藝術／文學風格」。",
       "sentenceIndex": 55,
@@ -872,12 +862,10 @@ export default {
         "magical realism"
       ],
       "optionReasons": {
-        "magical-mcq-17": "本句指「把魔幻事件自然融入現實世界敘事的藝術／文學風格」。",
-        "magical-mcq-16": "「X 難以完全解釋但非常吸引、奇妙的魅力」與本句語境不同。",
-        "magical-mcq-18": "「錯誤地相信思想、儀式或無關事件具有直接因果／超自然力量的思維」與本句語境不同。",
-        "magical-mcq-15": "「發揮自己特別擅長的技巧，使事情明顯改善」與本句語境不同。",
-        "magical-mcq-19": "「技巧／創意出色得像超乎尋常的一刻」與本句語境不同。",
-        "magical-mcq-14": "「特別擅長令事情成功的本領」與本句語境不同。"
+        "magical-mcq-17": "本句的「magical realism」指「把魔幻事件自然融入現實世界敘事的藝術／文學風格」。",
+        "magical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-17"
     },
@@ -889,11 +877,9 @@ export default {
       "masked": "____ realism mixes ordinary life with extraordinary events.",
       "options": [
         "magical-mcq-17",
-        "magical-mcq-16",
-        "magical-mcq-18",
-        "magical-mcq-15",
-        "magical-mcq-19",
-        "magical-mcq-14"
+        "magical-mcq-12",
+        "magical-pdf-001",
+        "magical-mcq-16"
       ],
       "explanation": "本句的「Magical」指「把魔幻事件自然融入現實世界敘事的藝術／文學風格」。",
       "sentenceIndex": 56,
@@ -902,12 +888,10 @@ export default {
         "Magical"
       ],
       "optionReasons": {
-        "magical-mcq-17": "本句指「把魔幻事件自然融入現實世界敘事的藝術／文學風格」。",
-        "magical-mcq-16": "「X 難以完全解釋但非常吸引、奇妙的魅力」與本句語境不同。",
-        "magical-mcq-18": "「錯誤地相信思想、儀式或無關事件具有直接因果／超自然力量的思維」與本句語境不同。",
-        "magical-mcq-15": "「發揮自己特別擅長的技巧，使事情明顯改善」與本句語境不同。",
-        "magical-mcq-19": "「技巧／創意出色得像超乎尋常的一刻」與本句語境不同。",
-        "magical-mcq-14": "「特別擅長令事情成功的本領」與本句語境不同。"
+        "magical-mcq-17": "本句的「Magical」指「把魔幻事件自然融入現實世界敘事的藝術／文學風格」。",
+        "magical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "magical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-17"
     },
@@ -919,11 +903,9 @@ export default {
       "masked": "Children sometimes show ____.",
       "options": [
         "magical-mcq-18",
-        "magical-mcq-17",
-        "magical-mcq-19",
-        "magical-mcq-16",
-        "magical-mcq-20",
-        "magical-mcq-15"
+        "magical-mcq-12",
+        "magical-reviewed-66f3dfc6a4",
+        "magical-mcq-20"
       ],
       "explanation": "本句的「magical thinking」指「錯誤地相信思想、儀式或無關事件具有直接因果／超自然力量的思維」。",
       "sentenceIndex": 57,
@@ -932,12 +914,10 @@ export default {
         "magical thinking"
       ],
       "optionReasons": {
-        "magical-mcq-18": "本句指「錯誤地相信思想、儀式或無關事件具有直接因果／超自然力量的思維」。",
-        "magical-mcq-17": "「把魔幻事件自然融入現實世界敘事的藝術／文學風格」與本句語境不同。",
-        "magical-mcq-19": "「技巧／創意出色得像超乎尋常的一刻」與本句語境不同。",
-        "magical-mcq-16": "「X 難以完全解釋但非常吸引、奇妙的魅力」與本句語境不同。",
-        "magical-mcq-20": "「原本令人著迷、夢幻或特別的感覺已消失」與本句語境不同。",
-        "magical-mcq-15": "「發揮自己特別擅長的技巧，使事情明顯改善」與本句語境不同。"
+        "magical-mcq-18": "本句的「magical thinking」指「錯誤地相信思想、儀式或無關事件具有直接因果／超自然力量的思維」。",
+        "magical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-18"
     },
@@ -949,11 +929,9 @@ export default {
       "masked": "____ thinking may involve believing that thoughts can directly cause unrelated events.",
       "options": [
         "magical-mcq-18",
-        "magical-mcq-17",
-        "magical-mcq-19",
-        "magical-mcq-16",
-        "magical-mcq-20",
-        "magical-mcq-15"
+        "magical-mcq-12",
+        "magical-reviewed-66f3dfc6a4",
+        "magical-mcq-20"
       ],
       "explanation": "本句的「Magical」指「錯誤地相信思想、儀式或無關事件具有直接因果／超自然力量的思維」。",
       "sentenceIndex": 58,
@@ -962,12 +940,10 @@ export default {
         "Magical"
       ],
       "optionReasons": {
-        "magical-mcq-18": "本句指「錯誤地相信思想、儀式或無關事件具有直接因果／超自然力量的思維」。",
-        "magical-mcq-17": "「把魔幻事件自然融入現實世界敘事的藝術／文學風格」與本句語境不同。",
-        "magical-mcq-19": "「技巧／創意出色得像超乎尋常的一刻」與本句語境不同。",
-        "magical-mcq-16": "「X 難以完全解釋但非常吸引、奇妙的魅力」與本句語境不同。",
-        "magical-mcq-20": "「原本令人著迷、夢幻或特別的感覺已消失」與本句語境不同。",
-        "magical-mcq-15": "「發揮自己特別擅長的技巧，使事情明顯改善」與本句語境不同。"
+        "magical-mcq-18": "本句的「Magical」指「錯誤地相信思想、儀式或無關事件具有直接因果／超自然力量的思維」。",
+        "magical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-18"
     },
@@ -979,11 +955,9 @@ export default {
       "masked": "The player produced a moment of ____.",
       "options": [
         "magical-pdf-001",
-        "magical-mcq-13",
-        "magical-mcq-15",
-        "magical-mcq-12",
-        "magical-mcq-16",
-        "magical-mcq-11"
+        "magical-mcq-10",
+        "magical-mcq-08",
+        "magical-reviewed-66f3dfc6a4"
       ],
       "explanation": "本句的「magic」指「技巧／創意出色到彷彿超乎尋常的一刻」。",
       "sentenceIndex": 59,
@@ -992,44 +966,40 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magical-pdf-001": "本句指「技巧／創意出色到彷彿超乎尋常的一刻」。",
-        "magical-mcq-13": "「象徵不用實際付出便能瞬間改變／解決事情的方法」與本句語境不同。",
-        "magical-mcq-15": "「發揮自己特別擅長的技巧，使事情明顯改善」與本句語境不同。",
-        "magical-mcq-12": "「被期望能一次解決複雜問題的單一萬能方法」與本句語境不同。",
-        "magical-mcq-16": "「X 難以完全解釋但非常吸引、奇妙的魅力」與本句語境不同。",
-        "magical-mcq-11": "「被認為能帶來成功的簡單秘訣／公式」與本句語境不同。"
+        "magical-pdf-001": "本句的「magic」指「技巧／創意出色到彷彿超乎尋常的一刻」。",
+        "magical-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-pdf-001"
     },
     {
       "id": "magical-49-0",
-      "sense": "magical-mcq-14",
+      "sense": "magical-reviewed-c76cb037fd",
       "en": "The performance had real magic.",
       "zh": "這場演出真的有一種難以言喻的魅力。",
       "masked": "The performance had real ____.",
       "options": [
-        "magical-mcq-14",
+        "magical-reviewed-c76cb037fd",
+        "magical-mcq-20",
         "magical-mcq-13",
-        "magical-mcq-15",
-        "magical-mcq-12",
-        "magical-mcq-16",
         "magical-mcq-11"
       ],
-      "explanation": "本句的「magic」指「特別擅長令事情成功的本領」。",
+      "explanation": "對照完整句子：「這場演出真的有一種難以言喻的魅力。」。這裡的「magic」表示「難以言喻的魅力；奇妙效果」。",
       "sentenceIndex": 60,
       "sourcePractice": 49,
       "targets": [
         "magic"
       ],
       "optionReasons": {
-        "magical-mcq-14": "本句指「特別擅長令事情成功的本領」。",
-        "magical-mcq-13": "「象徵不用實際付出便能瞬間改變／解決事情的方法」與本句語境不同。",
-        "magical-mcq-15": "「發揮自己特別擅長的技巧，使事情明顯改善」與本句語境不同。",
-        "magical-mcq-12": "「被期望能一次解決複雜問題的單一萬能方法」與本句語境不同。",
-        "magical-mcq-16": "「X 難以完全解釋但非常吸引、奇妙的魅力」與本句語境不同。",
-        "magical-mcq-11": "「被認為能帶來成功的簡單秘訣／公式」與本句語境不同。"
+        "magical-reviewed-c76cb037fd": "對照完整句子：「這場演出真的有一種難以言喻的魅力。」。這裡的「magic」表示「難以言喻的魅力；奇妙效果」。",
+        "magical-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "magical-mcq-14"
+      "correctOption": "magical-reviewed-c76cb037fd",
+      "previousCorrectOption": "magical-mcq-14",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "magical-50-0",
@@ -1039,11 +1009,9 @@ export default {
       "masked": "After months of pressure, ____.",
       "options": [
         "magical-mcq-20",
-        "magical-mcq-19",
-        "magical-mcq-21",
-        "magical-mcq-18",
-        "magical-mcq-22",
-        "magical-mcq-17"
+        "magical-mcq-13",
+        "magical-reviewed-66f3dfc6a4",
+        "magical-reviewed-05d3cb8ed6"
       ],
       "explanation": "本句的「the magic was gone」指「原本令人著迷、夢幻或特別的感覺已消失」。",
       "sentenceIndex": 61,
@@ -1052,44 +1020,40 @@ export default {
         "the magic was gone"
       ],
       "optionReasons": {
-        "magical-mcq-20": "本句指「原本令人著迷、夢幻或特別的感覺已消失」。",
-        "magical-mcq-19": "「技巧／創意出色得像超乎尋常的一刻」與本句語境不同。",
-        "magical-mcq-21": "「透過魔法發生」與本句語境不同。",
-        "magical-mcq-18": "「錯誤地相信思想、儀式或無關事件具有直接因果／超自然力量的思維」與本句語境不同。",
-        "magical-mcq-22": "「彷彿不需正常過程便神奇地發生」與本句語境不同。",
-        "magical-mcq-17": "「把魔幻事件自然融入現實世界敘事的藝術／文學風格」與本句語境不同。"
+        "magical-mcq-20": "本句的「the magic was gone」指「原本令人著迷、夢幻或特別的感覺已消失」。",
+        "magical-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-05d3cb8ed6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-20"
     },
     {
       "id": "magical-72-0",
-      "sense": "magical-mcq-03",
+      "sense": "magical-reviewed-66f3dfc6a4",
       "en": "He is a magician with numbers.",
       "zh": "他是個處理數字的高手／奇才。",
       "masked": "He is a ____.",
       "options": [
-        "magical-mcq-03",
-        "magical-mcq-02",
-        "magical-mcq-04",
-        "magical-mcq-01",
-        "magical-mcq-05",
-        "magical-mcq-06"
+        "magical-reviewed-66f3dfc6a4",
+        "magical-mcq-08",
+        "magical-mcq-10",
+        "magical-mcq-15"
       ],
-      "explanation": "本句的「magician with numbers」指「表演魔術技巧和幻術的人」。",
+      "explanation": "對照完整句子：「他是個處理數字的高手／奇才。」。這裡的「magician with numbers」表示「高手；奇才」。",
       "sentenceIndex": 78,
       "sourcePractice": 72,
       "targets": [
         "magician with numbers"
       ],
       "optionReasons": {
-        "magical-mcq-03": "本句指「表演魔術技巧和幻術的人」。",
-        "magical-mcq-02": "「透過技巧、錯覺和表演製造「不可能效果」的魔術」與本句語境不同。",
-        "magical-mcq-04": "「在故事中真正使用超自然魔法的人」與本句語境不同。",
-        "magical-mcq-01": "「被想像為能以超自然方式改變現實的力量」與本句語境不同。",
-        "magical-mcq-05": "「與魔法、咒語或超自然力量有關的」與本句語境不同。",
-        "magical-mcq-06": "「美好、特別或驚奇到彷彿帶有魔法、近乎不真實的」與本句語境不同。"
+        "magical-reviewed-66f3dfc6a4": "對照完整句子：「他是個處理數字的高手／奇才。」。這裡的「magician with numbers」表示「高手；奇才」。",
+        "magical-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "magical-mcq-03"
+      "correctOption": "magical-reviewed-66f3dfc6a4",
+      "previousCorrectOption": "magical-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "magical-75-0",
@@ -1099,11 +1063,9 @@ export default {
       "masked": "The sudden connection felt ____.",
       "options": [
         "magical-mcq-09",
-        "magical-mcq-08",
-        "magical-mcq-10",
-        "magical-mcq-07",
-        "magical-mcq-11",
-        "magical-mcq-06"
+        "magical-mcq-15",
+        "magical-reviewed-66f3dfc6a4",
+        "magical-mcq-12"
       ],
       "explanation": "本句的「almost magical」指「好得／奇妙得幾乎令人覺得像魔法一樣」。",
       "sentenceIndex": 80,
@@ -1112,12 +1074,10 @@ export default {
         "almost magical"
       ],
       "optionReasons": {
-        "magical-mcq-09": "本句指「好得／奇妙得幾乎令人覺得像魔法一樣」。",
-        "magical-mcq-08": "「環境美好、迷人到有夢幻／魔法感的氣氛」與本句語境不同。",
-        "magical-mcq-10": "「被想像成能簡單、立即解決複雜問題的萬靈方法」與本句語境不同。",
-        "magical-mcq-07": "「令人產生強烈奇妙、夢幻和驚喜感的經歷」與本句語境不同。",
-        "magical-mcq-11": "「被認為能帶來成功的簡單秘訣／公式」與本句語境不同。",
-        "magical-mcq-06": "「美好、特別或驚奇到彷彿帶有魔法、近乎不真實的」與本句語境不同。"
+        "magical-mcq-09": "本句的「almost magical」指「好得／奇妙得幾乎令人覺得像魔法一樣」。",
+        "magical-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "magical-reviewed-66f3dfc6a4": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-09"
     },
@@ -1129,11 +1089,9 @@ export default {
       "masked": "Seeing the numbers rise so quickly felt almost ____.",
       "options": [
         "magical-mcq-09",
-        "magical-mcq-08",
-        "magical-mcq-10",
-        "magical-mcq-07",
-        "magical-mcq-11",
-        "magical-mcq-06"
+        "magical-mcq-15",
+        "magical-mcq-12",
+        "magical-mcq-17"
       ],
       "explanation": "本句的「magical」指「好得／奇妙得幾乎令人覺得像魔法一樣」。",
       "sentenceIndex": 81,
@@ -1142,12 +1100,10 @@ export default {
         "magical"
       ],
       "optionReasons": {
-        "magical-mcq-09": "本句指「好得／奇妙得幾乎令人覺得像魔法一樣」。",
-        "magical-mcq-08": "「環境美好、迷人到有夢幻／魔法感的氣氛」與本句語境不同。",
-        "magical-mcq-10": "「被想像成能簡單、立即解決複雜問題的萬靈方法」與本句語境不同。",
-        "magical-mcq-07": "「令人產生強烈奇妙、夢幻和驚喜感的經歷」與本句語境不同。",
-        "magical-mcq-11": "「被認為能帶來成功的簡單秘訣／公式」與本句語境不同。",
-        "magical-mcq-06": "「美好、特別或驚奇到彷彿帶有魔法、近乎不真實的」與本句語境不同。"
+        "magical-mcq-09": "本句的「magical」指「好得／奇妙得幾乎令人覺得像魔法一樣」。",
+        "magical-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "magical-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magical-mcq-09"
     }
@@ -1159,5 +1115,7 @@ export default {
     "sha256": "b4ab3c4f07b81155b5dad6eb1870265c36666838350a2c682f068832dbc47b40",
     "pages": 48
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

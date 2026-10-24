@@ -614,11 +614,9 @@ export default {
       "masked": "What ____ are the flowers?",
       "options": [
         "colour-mcq-01",
-        "colour-mcq-02",
-        "colour-mcq-03",
-        "colour-mcq-04",
-        "colour-mcq-05",
-        "colour-mcq-06"
+        "colour-mcq-27",
+        "colour-mcq-13",
+        "colour-mcq-23"
       ],
       "explanation": "本句的「colour」指「人眼感受到的紅、藍、綠、黃等視覺色彩特徵」。",
       "sentenceIndex": 0,
@@ -627,12 +625,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-01": "本句指「人眼感受到的紅、藍、綠、黃等視覺色彩特徵」。",
-        "colour-mcq-02": "「某物所呈現的具體色調或色澤」是「colour = particular shade/tone（色調）」的用法，與本句語境不同。",
-        "colour-mcq-03": "「令某事更生動、有趣、多樣化或更有情感層次的元素」是「colour = vividness / interest / variety（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-04": "「令敘述、報告或故事更具體、生動和富有人情味的細節」是「colour = detailed vivid character in description（描寫）」的用法，與本句語境不同。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。"
+        "colour-mcq-01": "本句的「colour」指「人眼感受到的紅、藍、綠、黃等視覺色彩特徵」。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-01"
     },
@@ -644,11 +640,9 @@ export default {
       "masked": "The room is decorated in warm ____.",
       "options": [
         "colour-mcq-01",
-        "colour-mcq-02",
-        "colour-mcq-03",
-        "colour-mcq-04",
-        "colour-mcq-05",
-        "colour-mcq-06"
+        "colour-mcq-14",
+        "colour-mcq-24",
+        "colour-mcq-27"
       ],
       "explanation": "本句的「colours」指「人眼感受到的紅、藍、綠、黃等視覺色彩特徵」。",
       "sentenceIndex": 1,
@@ -657,12 +651,10 @@ export default {
         "colours"
       ],
       "optionReasons": {
-        "colour-mcq-01": "本句指「人眼感受到的紅、藍、綠、黃等視覺色彩特徵」。",
-        "colour-mcq-02": "「某物所呈現的具體色調或色澤」是「colour = particular shade/tone（色調）」的用法，與本句語境不同。",
-        "colour-mcq-03": "「令某事更生動、有趣、多樣化或更有情感層次的元素」是「colour = vividness / interest / variety（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-04": "「令敘述、報告或故事更具體、生動和富有人情味的細節」是「colour = detailed vivid character in description（描寫）」的用法，與本句語境不同。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。"
+        "colour-mcq-01": "本句的「colours」指「人眼感受到的紅、藍、綠、黃等視覺色彩特徵」。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-01"
     },
@@ -674,11 +666,9 @@ export default {
       "masked": "The leaves changed ____ in autumn.",
       "options": [
         "colour-mcq-02",
-        "colour-mcq-01",
         "colour-mcq-03",
-        "colour-mcq-04",
-        "colour-mcq-05",
-        "colour-mcq-06"
+        "colour-mcq-25",
+        "colour-mcq-24"
       ],
       "explanation": "本句的「colour」指「某物所呈現的具體色調或色澤」。",
       "sentenceIndex": 2,
@@ -687,12 +677,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-02": "本句指「某物所呈現的具體色調或色澤」。",
-        "colour-mcq-01": "「人眼感受到的紅、藍、綠、黃等視覺色彩特徵」是「colour = visible hue（顏色）」的用法，與本句語境不同。",
-        "colour-mcq-03": "「令某事更生動、有趣、多樣化或更有情感層次的元素」是「colour = vividness / interest / variety（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-04": "「令敘述、報告或故事更具體、生動和富有人情味的細節」是「colour = detailed vivid character in description（描寫）」的用法，與本句語境不同。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。"
+        "colour-mcq-02": "本句的「colour」指「某物所呈現的具體色調或色澤」。",
+        "colour-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-02"
     },
@@ -704,11 +692,9 @@ export default {
       "masked": "The paint has a soft natural ____.",
       "options": [
         "colour-mcq-02",
-        "colour-mcq-01",
-        "colour-mcq-03",
-        "colour-mcq-04",
-        "colour-mcq-05",
-        "colour-mcq-06"
+        "colour-mcq-13",
+        "colour-mcq-10",
+        "colour-mcq-23"
       ],
       "explanation": "本句的「colour」指「某物所呈現的具體色調或色澤」。",
       "sentenceIndex": 3,
@@ -717,12 +703,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-02": "本句指「某物所呈現的具體色調或色澤」。",
-        "colour-mcq-01": "「人眼感受到的紅、藍、綠、黃等視覺色彩特徵」是「colour = visible hue（顏色）」的用法，與本句語境不同。",
-        "colour-mcq-03": "「令某事更生動、有趣、多樣化或更有情感層次的元素」是「colour = vividness / interest / variety（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-04": "「令敘述、報告或故事更具體、生動和富有人情味的細節」是「colour = detailed vivid character in description（描寫）」的用法，與本句語境不同。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。"
+        "colour-mcq-02": "本句的「colour」指「某物所呈現的具體色調或色澤」。",
+        "colour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-02"
     },
@@ -734,11 +718,9 @@ export default {
       "masked": "Gardening adds ____ to her everyday life.",
       "options": [
         "colour-mcq-03",
-        "colour-mcq-02",
-        "colour-mcq-04",
-        "colour-mcq-01",
-        "colour-mcq-05",
-        "colour-mcq-06"
+        "colour-mcq-25",
+        "colour-mcq-26",
+        "colour-mcq-14"
       ],
       "explanation": "本句的「colour」指「令某事更生動、有趣、多樣化或更有情感層次的元素」。",
       "sentenceIndex": 4,
@@ -747,12 +729,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-03": "本句指「令某事更生動、有趣、多樣化或更有情感層次的元素」。",
-        "colour-mcq-02": "「某物所呈現的具體色調或色澤」是「colour = particular shade/tone（色調）」的用法，與本句語境不同。",
-        "colour-mcq-04": "「令敘述、報告或故事更具體、生動和富有人情味的細節」是「colour = detailed vivid character in description（描寫）」的用法，與本句語境不同。",
-        "colour-mcq-01": "「人眼感受到的紅、藍、綠、黃等視覺色彩特徵」是「colour = visible hue（顏色）」的用法，與本句語境不同。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。"
+        "colour-mcq-03": "本句的「colour」指「令某事更生動、有趣、多樣化或更有情感層次的元素」。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-03"
     },
@@ -765,10 +745,8 @@ export default {
       "options": [
         "colour-mcq-03",
         "colour-mcq-02",
-        "colour-mcq-04",
-        "colour-mcq-01",
-        "colour-mcq-05",
-        "colour-mcq-06"
+        "colour-mcq-14",
+        "colour-mcq-25"
       ],
       "explanation": "本句的「colour」指「令某事更生動、有趣、多樣化或更有情感層次的元素」。",
       "sentenceIndex": 5,
@@ -777,12 +755,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-03": "本句指「令某事更生動、有趣、多樣化或更有情感層次的元素」。",
-        "colour-mcq-02": "「某物所呈現的具體色調或色澤」是「colour = particular shade/tone（色調）」的用法，與本句語境不同。",
-        "colour-mcq-04": "「令敘述、報告或故事更具體、生動和富有人情味的細節」是「colour = detailed vivid character in description（描寫）」的用法，與本句語境不同。",
-        "colour-mcq-01": "「人眼感受到的紅、藍、綠、黃等視覺色彩特徵」是「colour = visible hue（顏色）」的用法，與本句語境不同。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。"
+        "colour-mcq-03": "本句的「colour」指「令某事更生動、有趣、多樣化或更有情感層次的元素」。",
+        "colour-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-03"
     },
@@ -794,11 +770,9 @@ export default {
       "masked": "Her stories brought ____ to the history lesson.",
       "options": [
         "colour-mcq-03",
-        "colour-mcq-02",
-        "colour-mcq-04",
-        "colour-mcq-01",
-        "colour-mcq-05",
-        "colour-mcq-06"
+        "colour-mcq-09",
+        "colour-mcq-25",
+        "colour-mcq-14"
       ],
       "explanation": "本句的「colour」指「令某事更生動、有趣、多樣化或更有情感層次的元素」。",
       "sentenceIndex": 6,
@@ -807,12 +781,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-03": "本句指「令某事更生動、有趣、多樣化或更有情感層次的元素」。",
-        "colour-mcq-02": "「某物所呈現的具體色調或色澤」是「colour = particular shade/tone（色調）」的用法，與本句語境不同。",
-        "colour-mcq-04": "「令敘述、報告或故事更具體、生動和富有人情味的細節」是「colour = detailed vivid character in description（描寫）」的用法，與本句語境不同。",
-        "colour-mcq-01": "「人眼感受到的紅、藍、綠、黃等視覺色彩特徵」是「colour = visible hue（顏色）」的用法，與本句語境不同。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。"
+        "colour-mcq-03": "本句的「colour」指「令某事更生動、有趣、多樣化或更有情感層次的元素」。",
+        "colour-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-03"
     },
@@ -824,11 +796,9 @@ export default {
       "masked": "The writer adds ____ with small everyday details.",
       "options": [
         "colour-mcq-04",
-        "colour-mcq-03",
-        "colour-mcq-05",
-        "colour-mcq-02",
-        "colour-mcq-06",
-        "colour-mcq-01"
+        "colour-mcq-27",
+        "colour-mcq-09",
+        "colour-mcq-23"
       ],
       "explanation": "本句的「colour」指「令敘述、報告或故事更具體、生動和富有人情味的細節」。",
       "sentenceIndex": 7,
@@ -837,12 +807,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-04": "本句指「令敘述、報告或故事更具體、生動和富有人情味的細節」。",
-        "colour-mcq-03": "「令某事更生動、有趣、多樣化或更有情感層次的元素」是「colour = vividness / interest / variety（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。",
-        "colour-mcq-02": "「某物所呈現的具體色調或色澤」是「colour = particular shade/tone（色調）」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。",
-        "colour-mcq-01": "「人眼感受到的紅、藍、綠、黃等視覺色彩特徵」是「colour = visible hue（顏色）」的用法，與本句語境不同。"
+        "colour-mcq-04": "本句的「colour」指「令敘述、報告或故事更具體、生動和富有人情味的細節」。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-04"
     },
@@ -854,11 +822,9 @@ export default {
       "masked": "The interview gave the report more ____.",
       "options": [
         "colour-mcq-04",
-        "colour-mcq-03",
-        "colour-mcq-05",
-        "colour-mcq-02",
-        "colour-mcq-06",
-        "colour-mcq-01"
+        "colour-mcq-01",
+        "colour-mcq-25",
+        "colour-mcq-06"
       ],
       "explanation": "本句的「colour」指「令敘述、報告或故事更具體、生動和富有人情味的細節」。",
       "sentenceIndex": 8,
@@ -867,12 +833,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-04": "本句指「令敘述、報告或故事更具體、生動和富有人情味的細節」。",
-        "colour-mcq-03": "「令某事更生動、有趣、多樣化或更有情感層次的元素」是「colour = vividness / interest / variety（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。",
-        "colour-mcq-02": "「某物所呈現的具體色調或色澤」是「colour = particular shade/tone（色調）」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。",
-        "colour-mcq-01": "「人眼感受到的紅、藍、綠、黃等視覺色彩特徵」是「colour = visible hue（顏色）」的用法，與本句語境不同。"
+        "colour-mcq-04": "本句的「colour」指「令敘述、報告或故事更具體、生動和富有人情味的細節」。",
+        "colour-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-04"
     },
@@ -884,11 +848,9 @@ export default {
       "masked": "The market gives the town plenty of ____.",
       "options": [
         "colour-mcq-05",
-        "colour-mcq-04",
-        "colour-mcq-06",
-        "colour-mcq-03",
-        "colour-mcq-07",
-        "colour-mcq-02"
+        "colour-mcq-09",
+        "colour-mcq-27",
+        "colour-mcq-14"
       ],
       "explanation": "本句的「local colour」指「某地獨特的風俗、人物、語言、景觀和生活氣息」。",
       "sentenceIndex": 9,
@@ -897,12 +859,10 @@ export default {
         "local colour"
       ],
       "optionReasons": {
-        "colour-mcq-05": "本句指「某地獨特的風俗、人物、語言、景觀和生活氣息」。",
-        "colour-mcq-04": "「令敘述、報告或故事更具體、生動和富有人情味的細節」是「colour = detailed vivid character in description（描寫）」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。",
-        "colour-mcq-03": "「令某事更生動、有趣、多樣化或更有情感層次的元素」是「colour = vividness / interest / variety（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-07": "「生物或物件天然呈現出的色素／顏色」是「colour = natural pigment in skin/hair/etc.（天然色素／顏色）」的用法，與本句語境不同。",
-        "colour-mcq-02": "「某物所呈現的具體色調或色澤」是「colour = particular shade/tone（色調）」的用法，與本句語境不同。"
+        "colour-mcq-05": "本句的「local colour」指「某地獨特的風俗、人物、語言、景觀和生活氣息」。",
+        "colour-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-05"
     },
@@ -914,11 +874,9 @@ export default {
       "masked": "The novel is full of local ____.",
       "options": [
         "colour-mcq-05",
-        "colour-mcq-04",
-        "colour-mcq-06",
-        "colour-mcq-03",
-        "colour-mcq-07",
-        "colour-mcq-02"
+        "colour-mcq-22",
+        "colour-mcq-14",
+        "colour-mcq-27"
       ],
       "explanation": "本句的「colour」指「某地獨特的風俗、人物、語言、景觀和生活氣息」。",
       "sentenceIndex": 10,
@@ -927,12 +885,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-05": "本句指「某地獨特的風俗、人物、語言、景觀和生活氣息」。",
-        "colour-mcq-04": "「令敘述、報告或故事更具體、生動和富有人情味的細節」是「colour = detailed vivid character in description（描寫）」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。",
-        "colour-mcq-03": "「令某事更生動、有趣、多樣化或更有情感層次的元素」是「colour = vividness / interest / variety（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-07": "「生物或物件天然呈現出的色素／顏色」是「colour = natural pigment in skin/hair/etc.（天然色素／顏色）」的用法，與本句語境不同。",
-        "colour-mcq-02": "「某物所呈現的具體色調或色澤」是「colour = particular shade/tone（色調）」的用法，與本句語境不同。"
+        "colour-mcq-05": "本句的「colour」指「某地獨特的風俗、人物、語言、景觀和生活氣息」。",
+        "colour-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-05"
     },
@@ -944,11 +900,9 @@ export default {
       "masked": "The cold brought some ____ to her cheeks.",
       "options": [
         "colour-mcq-06",
-        "colour-mcq-05",
-        "colour-mcq-07",
-        "colour-mcq-04",
-        "colour-mcq-08",
-        "colour-mcq-03"
+        "colour-mcq-03",
+        "colour-mcq-27",
+        "colour-mcq-24"
       ],
       "explanation": "本句的「colour」指「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」。",
       "sentenceIndex": 11,
@@ -957,12 +911,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-06": "本句指「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。",
-        "colour-mcq-07": "「生物或物件天然呈現出的色素／顏色」是「colour = natural pigment in skin/hair/etc.（天然色素／顏色）」的用法，與本句語境不同。",
-        "colour-mcq-04": "「令敘述、報告或故事更具體、生動和富有人情味的細節」是「colour = detailed vivid character in description（描寫）」的用法，與本句語境不同。",
-        "colour-mcq-08": "「用來產生、改變或加深顏色的顏料、染料或色素」是「colour = pigment/dye/paint substance（顏料／染料）」的用法，與本句語境不同。",
-        "colour-mcq-03": "「令某事更生動、有趣、多樣化或更有情感層次的元素」是「colour = vividness / interest / variety（比喻）」的用法，與本句語境不同。"
+        "colour-mcq-06": "本句的「colour」指「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」。",
+        "colour-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-06"
     },
@@ -974,11 +926,9 @@ export default {
       "masked": "He lost ____ in his face when he heard the news.",
       "options": [
         "colour-mcq-06",
-        "colour-mcq-05",
-        "colour-mcq-07",
-        "colour-mcq-04",
-        "colour-mcq-08",
-        "colour-mcq-03"
+        "colour-mcq-13",
+        "colour-mcq-27",
+        "colour-mcq-05"
       ],
       "explanation": "本句的「colour」指「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」。",
       "sentenceIndex": 12,
@@ -987,12 +937,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-06": "本句指「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。",
-        "colour-mcq-07": "「生物或物件天然呈現出的色素／顏色」是「colour = natural pigment in skin/hair/etc.（天然色素／顏色）」的用法，與本句語境不同。",
-        "colour-mcq-04": "「令敘述、報告或故事更具體、生動和富有人情味的細節」是「colour = detailed vivid character in description（描寫）」的用法，與本句語境不同。",
-        "colour-mcq-08": "「用來產生、改變或加深顏色的顏料、染料或色素」是「colour = pigment/dye/paint substance（顏料／染料）」的用法，與本句語境不同。",
-        "colour-mcq-03": "「令某事更生動、有趣、多樣化或更有情感層次的元素」是「colour = vividness / interest / variety（比喻）」的用法，與本句語境不同。"
+        "colour-mcq-06": "本句的「colour」指「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」。",
+        "colour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-06"
     },
@@ -1004,11 +952,9 @@ export default {
       "masked": "The fruit develops a deeper ____ as it ripens.",
       "options": [
         "colour-mcq-07",
-        "colour-mcq-06",
-        "colour-mcq-08",
-        "colour-mcq-05",
-        "colour-mcq-09",
-        "colour-mcq-04"
+        "colour-mcq-24",
+        "colour-mcq-25",
+        "colour-mcq-14"
       ],
       "explanation": "本句的「colour」指「生物或物件天然呈現出的色素／顏色」。",
       "sentenceIndex": 13,
@@ -1017,12 +963,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-07": "本句指「生物或物件天然呈現出的色素／顏色」。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。",
-        "colour-mcq-08": "「用來產生、改變或加深顏色的顏料、染料或色素」是「colour = pigment/dye/paint substance（顏料／染料）」的用法，與本句語境不同。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。",
-        "colour-mcq-09": "「使某物呈現某種顏色，或替某物上色／染色」是「colour = verb, make something a particular colour」的用法，與本句語境不同。",
-        "colour-mcq-04": "「令敘述、報告或故事更具體、生動和富有人情味的細節」是「colour = detailed vivid character in description（描寫）」的用法，與本句語境不同。"
+        "colour-mcq-07": "本句的「colour」指「生物或物件天然呈現出的色素／顏色」。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-07"
     },
@@ -1034,11 +978,9 @@ export default {
       "masked": "The flower has very little natural ____.",
       "options": [
         "colour-mcq-07",
-        "colour-mcq-06",
-        "colour-mcq-08",
-        "colour-mcq-05",
-        "colour-mcq-09",
-        "colour-mcq-04"
+        "colour-mcq-24",
+        "colour-mcq-25",
+        "colour-mcq-05"
       ],
       "explanation": "本句的「colour」指「生物或物件天然呈現出的色素／顏色」。",
       "sentenceIndex": 14,
@@ -1047,12 +989,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-07": "本句指「生物或物件天然呈現出的色素／顏色」。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。",
-        "colour-mcq-08": "「用來產生、改變或加深顏色的顏料、染料或色素」是「colour = pigment/dye/paint substance（顏料／染料）」的用法，與本句語境不同。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。",
-        "colour-mcq-09": "「使某物呈現某種顏色，或替某物上色／染色」是「colour = verb, make something a particular colour」的用法，與本句語境不同。",
-        "colour-mcq-04": "「令敘述、報告或故事更具體、生動和富有人情味的細節」是「colour = detailed vivid character in description（描寫）」的用法，與本句語境不同。"
+        "colour-mcq-07": "本句的「colour」指「生物或物件天然呈現出的色素／顏色」。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-07"
     },
@@ -1064,11 +1004,9 @@ export default {
       "masked": "Add a little food ____ to the icing.",
       "options": [
         "colour-mcq-08",
-        "colour-mcq-07",
-        "colour-mcq-09",
-        "colour-mcq-06",
-        "colour-mcq-10",
-        "colour-mcq-05"
+        "colour-mcq-25",
+        "colour-mcq-24",
+        "colour-mcq-14"
       ],
       "explanation": "本句的「colour」指「用來產生、改變或加深顏色的顏料、染料或色素」。",
       "sentenceIndex": 15,
@@ -1077,12 +1015,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-08": "本句指「用來產生、改變或加深顏色的顏料、染料或色素」。",
-        "colour-mcq-07": "「生物或物件天然呈現出的色素／顏色」是「colour = natural pigment in skin/hair/etc.（天然色素／顏色）」的用法，與本句語境不同。",
-        "colour-mcq-09": "「使某物呈現某種顏色，或替某物上色／染色」是「colour = verb, make something a particular colour」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。",
-        "colour-mcq-10": "「使看法、判斷或描述受到情緒、經驗或偏見影響」是「colour = affect/bias someone’s judgment（比喻動詞）」的用法，與本句語境不同。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。"
+        "colour-mcq-08": "本句的「colour」指「用來產生、改變或加深顏色的顏料、染料或色素」。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-08"
     },
@@ -1094,11 +1030,9 @@ export default {
       "masked": "The artist mixed several ____.",
       "options": [
         "colour-mcq-08",
-        "colour-mcq-07",
-        "colour-mcq-09",
-        "colour-mcq-06",
         "colour-mcq-10",
-        "colour-mcq-05"
+        "colour-mcq-14",
+        "colour-mcq-24"
       ],
       "explanation": "本句的「colours」指「用來產生、改變或加深顏色的顏料、染料或色素」。",
       "sentenceIndex": 16,
@@ -1107,12 +1041,10 @@ export default {
         "colours"
       ],
       "optionReasons": {
-        "colour-mcq-08": "本句指「用來產生、改變或加深顏色的顏料、染料或色素」。",
-        "colour-mcq-07": "「生物或物件天然呈現出的色素／顏色」是「colour = natural pigment in skin/hair/etc.（天然色素／顏色）」的用法，與本句語境不同。",
-        "colour-mcq-09": "「使某物呈現某種顏色，或替某物上色／染色」是「colour = verb, make something a particular colour」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。",
-        "colour-mcq-10": "「使看法、判斷或描述受到情緒、經驗或偏見影響」是「colour = affect/bias someone’s judgment（比喻動詞）」的用法，與本句語境不同。",
-        "colour-mcq-05": "「某地獨特的風俗、人物、語言、景觀和生活氣息」是「local colour（地方特色）」的用法，與本句語境不同。"
+        "colour-mcq-08": "本句的「colours」指「用來產生、改變或加深顏色的顏料、染料或色素」。",
+        "colour-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-08"
     },
@@ -1124,11 +1056,9 @@ export default {
       "masked": "The children ____ the picture.",
       "options": [
         "colour-mcq-09",
-        "colour-mcq-08",
-        "colour-mcq-10",
-        "colour-mcq-07",
-        "colour-mcq-11",
-        "colour-mcq-06"
+        "colour-mcq-14",
+        "colour-mcq-03",
+        "colour-mcq-25"
       ],
       "explanation": "本句的「coloured」指「使某物呈現某種顏色，或替某物上色／染色」。",
       "sentenceIndex": 17,
@@ -1137,12 +1067,10 @@ export default {
         "coloured"
       ],
       "optionReasons": {
-        "colour-mcq-09": "本句指「使某物呈現某種顏色，或替某物上色／染色」。",
-        "colour-mcq-08": "「用來產生、改變或加深顏色的顏料、染料或色素」是「colour = pigment/dye/paint substance（顏料／染料）」的用法，與本句語境不同。",
-        "colour-mcq-10": "「使看法、判斷或描述受到情緒、經驗或偏見影響」是「colour = affect/bias someone’s judgment（比喻動詞）」的用法，與本句語境不同。",
-        "colour-mcq-07": "「生物或物件天然呈現出的色素／顏色」是「colour = natural pigment in skin/hair/etc.（天然色素／顏色）」的用法，與本句語境不同。",
-        "colour-mcq-11": "「令某事帶有某種情緒、風格、態度或特色」是「colour = influence the tone/character of something」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。"
+        "colour-mcq-09": "本句的「coloured」指「使某物呈現某種顏色，或替某物上色／染色」。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-09"
     },
@@ -1154,11 +1082,9 @@ export default {
       "masked": "The sunset ____ the sky orange.",
       "options": [
         "colour-mcq-09",
-        "colour-mcq-08",
+        "colour-mcq-13",
         "colour-mcq-10",
-        "colour-mcq-07",
-        "colour-mcq-11",
-        "colour-mcq-06"
+        "colour-mcq-23"
       ],
       "explanation": "本句的「coloured」指「使某物呈現某種顏色，或替某物上色／染色」。",
       "sentenceIndex": 18,
@@ -1167,12 +1093,10 @@ export default {
         "coloured"
       ],
       "optionReasons": {
-        "colour-mcq-09": "本句指「使某物呈現某種顏色，或替某物上色／染色」。",
-        "colour-mcq-08": "「用來產生、改變或加深顏色的顏料、染料或色素」是「colour = pigment/dye/paint substance（顏料／染料）」的用法，與本句語境不同。",
-        "colour-mcq-10": "「使看法、判斷或描述受到情緒、經驗或偏見影響」是「colour = affect/bias someone’s judgment（比喻動詞）」的用法，與本句語境不同。",
-        "colour-mcq-07": "「生物或物件天然呈現出的色素／顏色」是「colour = natural pigment in skin/hair/etc.（天然色素／顏色）」的用法，與本句語境不同。",
-        "colour-mcq-11": "「令某事帶有某種情緒、風格、態度或特色」是「colour = influence the tone/character of something」的用法，與本句語境不同。",
-        "colour-mcq-06": "「臉部或皮膚因血液循環、健康、情緒等呈現的色澤」是「colour = complexion / skin tone（膚色／氣色）」的用法，與本句語境不同。"
+        "colour-mcq-09": "本句的「coloured」指「使某物呈現某種顏色，或替某物上色／染色」。",
+        "colour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-09"
     },
@@ -1184,11 +1108,9 @@ export default {
       "masked": "Past experience can ____ our judgment.",
       "options": [
         "colour-mcq-10",
-        "colour-mcq-09",
-        "colour-mcq-11",
-        "colour-mcq-08",
-        "colour-mcq-12",
-        "colour-mcq-07"
+        "colour-mcq-23",
+        "colour-mcq-07",
+        "colour-mcq-24"
       ],
       "explanation": "本句的「colour」指「使看法、判斷或描述受到情緒、經驗或偏見影響」。",
       "sentenceIndex": 19,
@@ -1197,12 +1119,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-10": "本句指「使看法、判斷或描述受到情緒、經驗或偏見影響」。",
-        "colour-mcq-09": "「使某物呈現某種顏色，或替某物上色／染色」是「colour = verb, make something a particular colour」的用法，與本句語境不同。",
-        "colour-mcq-11": "「令某事帶有某種情緒、風格、態度或特色」是「colour = influence the tone/character of something」的用法，與本句語境不同。",
-        "colour-mcq-08": "「用來產生、改變或加深顏色的顏料、染料或色素」是「colour = pigment/dye/paint substance（顏料／染料）」的用法，與本句語境不同。",
-        "colour-mcq-12": "「含有很多鮮明或不同顏色的」是「colourful = full of bright colours（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-07": "「生物或物件天然呈現出的色素／顏色」是「colour = natural pigment in skin/hair/etc.（天然色素／顏色）」的用法，與本句語境不同。"
+        "colour-mcq-10": "本句的「colour」指「使看法、判斷或描述受到情緒、經驗或偏見影響」。",
+        "colour-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-10"
     },
@@ -1214,11 +1134,9 @@ export default {
       "masked": "His opinion was ____ by personal feelings.",
       "options": [
         "colour-mcq-10",
-        "colour-mcq-09",
-        "colour-mcq-11",
-        "colour-mcq-08",
-        "colour-mcq-12",
-        "colour-mcq-07"
+        "colour-mcq-23",
+        "colour-mcq-22",
+        "colour-mcq-16"
       ],
       "explanation": "本句的「coloured」指「使看法、判斷或描述受到情緒、經驗或偏見影響」。",
       "sentenceIndex": 20,
@@ -1227,12 +1145,10 @@ export default {
         "coloured"
       ],
       "optionReasons": {
-        "colour-mcq-10": "本句指「使看法、判斷或描述受到情緒、經驗或偏見影響」。",
-        "colour-mcq-09": "「使某物呈現某種顏色，或替某物上色／染色」是「colour = verb, make something a particular colour」的用法，與本句語境不同。",
-        "colour-mcq-11": "「令某事帶有某種情緒、風格、態度或特色」是「colour = influence the tone/character of something」的用法，與本句語境不同。",
-        "colour-mcq-08": "「用來產生、改變或加深顏色的顏料、染料或色素」是「colour = pigment/dye/paint substance（顏料／染料）」的用法，與本句語境不同。",
-        "colour-mcq-12": "「含有很多鮮明或不同顏色的」是「colourful = full of bright colours（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-07": "「生物或物件天然呈現出的色素／顏色」是「colour = natural pigment in skin/hair/etc.（天然色素／顏色）」的用法，與本句語境不同。"
+        "colour-mcq-10": "本句的「coloured」指「使看法、判斷或描述受到情緒、經驗或偏見影響」。",
+        "colour-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-10"
     },
@@ -1244,11 +1160,9 @@ export default {
       "masked": "Her childhood memories ____ much of her writing.",
       "options": [
         "colour-mcq-11",
-        "colour-mcq-10",
-        "colour-mcq-12",
-        "colour-mcq-09",
-        "colour-mcq-13",
-        "colour-mcq-08"
+        "colour-mcq-14",
+        "colour-mcq-08",
+        "colour-mcq-04"
       ],
       "explanation": "本句的「colour」指「令某事帶有某種情緒、風格、態度或特色」。",
       "sentenceIndex": 21,
@@ -1257,12 +1171,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-11": "本句指「令某事帶有某種情緒、風格、態度或特色」。",
-        "colour-mcq-10": "「使看法、判斷或描述受到情緒、經驗或偏見影響」是「colour = affect/bias someone’s judgment（比喻動詞）」的用法，與本句語境不同。",
-        "colour-mcq-12": "「含有很多鮮明或不同顏色的」是「colourful = full of bright colours（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-09": "「使某物呈現某種顏色，或替某物上色／染色」是「colour = verb, make something a particular colour」的用法，與本句語境不同。",
-        "colour-mcq-13": "「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」是「colourful = interesting / lively / full of character（人物／故事）」的用法，與本句語境不同。",
-        "colour-mcq-08": "「用來產生、改變或加深顏色的顏料、染料或色素」是「colour = pigment/dye/paint substance（顏料／染料）」的用法，與本句語境不同。"
+        "colour-mcq-11": "本句的「colour」指「令某事帶有某種情緒、風格、態度或特色」。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-11"
     },
@@ -1274,11 +1186,9 @@ export default {
       "masked": "Humour ____ the whole conversation.",
       "options": [
         "colour-mcq-11",
-        "colour-mcq-10",
-        "colour-mcq-12",
-        "colour-mcq-09",
-        "colour-mcq-13",
-        "colour-mcq-08"
+        "colour-mcq-14",
+        "colour-mcq-07",
+        "colour-mcq-23"
       ],
       "explanation": "本句的「colours」指「令某事帶有某種情緒、風格、態度或特色」。",
       "sentenceIndex": 22,
@@ -1287,12 +1197,10 @@ export default {
         "colours"
       ],
       "optionReasons": {
-        "colour-mcq-11": "本句指「令某事帶有某種情緒、風格、態度或特色」。",
-        "colour-mcq-10": "「使看法、判斷或描述受到情緒、經驗或偏見影響」是「colour = affect/bias someone’s judgment（比喻動詞）」的用法，與本句語境不同。",
-        "colour-mcq-12": "「含有很多鮮明或不同顏色的」是「colourful = full of bright colours（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-09": "「使某物呈現某種顏色，或替某物上色／染色」是「colour = verb, make something a particular colour」的用法，與本句語境不同。",
-        "colour-mcq-13": "「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」是「colourful = interesting / lively / full of character（人物／故事）」的用法，與本句語境不同。",
-        "colour-mcq-08": "「用來產生、改變或加深顏色的顏料、染料或色素」是「colour = pigment/dye/paint substance（顏料／染料）」的用法，與本句語境不同。"
+        "colour-mcq-11": "本句的「colours」指「令某事帶有某種情緒、風格、態度或特色」。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-11"
     },
@@ -1304,11 +1212,9 @@ export default {
       "masked": "The garden is full of ____ flowers.",
       "options": [
         "colour-mcq-12",
-        "colour-mcq-11",
-        "colour-mcq-13",
-        "colour-mcq-10",
-        "colour-mcq-14",
-        "colour-mcq-09"
+        "colour-mcq-04",
+        "colour-mcq-25",
+        "colour-mcq-06"
       ],
       "explanation": "本句的「colourful」指「含有很多鮮明或不同顏色的」。",
       "sentenceIndex": 23,
@@ -1317,12 +1223,10 @@ export default {
         "colourful"
       ],
       "optionReasons": {
-        "colour-mcq-12": "本句指「含有很多鮮明或不同顏色的」。",
-        "colour-mcq-11": "「令某事帶有某種情緒、風格、態度或特色」是「colour = influence the tone/character of something」的用法，與本句語境不同。",
-        "colour-mcq-13": "「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」是「colourful = interesting / lively / full of character（人物／故事）」的用法，與本句語境不同。",
-        "colour-mcq-10": "「使看法、判斷或描述受到情緒、經驗或偏見影響」是「colour = affect/bias someone’s judgment（比喻動詞）」的用法，與本句語境不同。",
-        "colour-mcq-14": "「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」是「colourful = involving scandal/crime/excitement（委婉）」的用法，與本句語境不同。",
-        "colour-mcq-09": "「使某物呈現某種顏色，或替某物上色／染色」是「colour = verb, make something a particular colour」的用法，與本句語境不同。"
+        "colour-mcq-12": "本句的「colourful」指「含有很多鮮明或不同顏色的」。",
+        "colour-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-12"
     },
@@ -1334,11 +1238,9 @@ export default {
       "masked": "She wore a ____ dress.",
       "options": [
         "colour-mcq-12",
-        "colour-mcq-11",
         "colour-mcq-13",
         "colour-mcq-10",
-        "colour-mcq-14",
-        "colour-mcq-09"
+        "colour-mcq-23"
       ],
       "explanation": "本句的「colourful」指「含有很多鮮明或不同顏色的」。",
       "sentenceIndex": 24,
@@ -1347,12 +1249,10 @@ export default {
         "colourful"
       ],
       "optionReasons": {
-        "colour-mcq-12": "本句指「含有很多鮮明或不同顏色的」。",
-        "colour-mcq-11": "「令某事帶有某種情緒、風格、態度或特色」是「colour = influence the tone/character of something」的用法，與本句語境不同。",
-        "colour-mcq-13": "「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」是「colourful = interesting / lively / full of character（人物／故事）」的用法，與本句語境不同。",
-        "colour-mcq-10": "「使看法、判斷或描述受到情緒、經驗或偏見影響」是「colour = affect/bias someone’s judgment（比喻動詞）」的用法，與本句語境不同。",
-        "colour-mcq-14": "「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」是「colourful = involving scandal/crime/excitement（委婉）」的用法，與本句語境不同。",
-        "colour-mcq-09": "「使某物呈現某種顏色，或替某物上色／染色」是「colour = verb, make something a particular colour」的用法，與本句語境不同。"
+        "colour-mcq-12": "本句的「colourful」指「含有很多鮮明或不同顏色的」。",
+        "colour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-12"
     },
@@ -1364,11 +1264,9 @@ export default {
       "masked": "He had a ____.",
       "options": [
         "colour-mcq-13",
-        "colour-mcq-12",
-        "colour-mcq-14",
-        "colour-mcq-11",
-        "colour-mcq-15",
-        "colour-mcq-10"
+        "colour-mcq-20",
+        "colour-mcq-23",
+        "colour-mcq-27"
       ],
       "explanation": "本句的「colourful life」指「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」。",
       "sentenceIndex": 25,
@@ -1377,12 +1275,10 @@ export default {
         "colourful life"
       ],
       "optionReasons": {
-        "colour-mcq-13": "本句指「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」。",
-        "colour-mcq-12": "「含有很多鮮明或不同顏色的」是「colourful = full of bright colours（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-14": "「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」是「colourful = involving scandal/crime/excitement（委婉）」的用法，與本句語境不同。",
-        "colour-mcq-11": "「令某事帶有某種情緒、風格、態度或特色」是「colour = influence the tone/character of something」的用法，與本句語境不同。",
-        "colour-mcq-15": "「外觀時，表示無色的；缺乏色彩的」是「colourless = without colour（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-10": "「使看法、判斷或描述受到情緒、經驗或偏見影響」是「colour = affect/bias someone’s judgment（比喻動詞）」的用法，與本句語境不同。"
+        "colour-mcq-13": "本句的「colourful life」指「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」。",
+        "colour-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-13"
     },
@@ -1394,11 +1290,9 @@ export default {
       "masked": "She is one of the most ____ characters in the book.",
       "options": [
         "colour-mcq-13",
-        "colour-mcq-12",
-        "colour-mcq-14",
-        "colour-mcq-11",
-        "colour-mcq-15",
-        "colour-mcq-10"
+        "colour-mcq-01",
+        "colour-mcq-26",
+        "colour-mcq-23"
       ],
       "explanation": "本句的「colourful」指「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」。",
       "sentenceIndex": 26,
@@ -1407,12 +1301,10 @@ export default {
         "colourful"
       ],
       "optionReasons": {
-        "colour-mcq-13": "本句指「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」。",
-        "colour-mcq-12": "「含有很多鮮明或不同顏色的」是「colourful = full of bright colours（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-14": "「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」是「colourful = involving scandal/crime/excitement（委婉）」的用法，與本句語境不同。",
-        "colour-mcq-11": "「令某事帶有某種情緒、風格、態度或特色」是「colour = influence the tone/character of something」的用法，與本句語境不同。",
-        "colour-mcq-15": "「外觀時，表示無色的；缺乏色彩的」是「colourless = without colour（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-10": "「使看法、判斷或描述受到情緒、經驗或偏見影響」是「colour = affect/bias someone’s judgment（比喻動詞）」的用法，與本句語境不同。"
+        "colour-mcq-13": "本句的「colourful」指「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」。",
+        "colour-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-13"
     },
@@ -1424,11 +1316,9 @@ export default {
       "masked": "The politician had a ____.",
       "options": [
         "colour-mcq-14",
-        "colour-mcq-13",
-        "colour-mcq-15",
-        "colour-mcq-12",
-        "colour-mcq-16",
-        "colour-mcq-11"
+        "colour-mcq-09",
+        "colour-mcq-27",
+        "colour-mcq-24"
       ],
       "explanation": "本句的「colourful past」指「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」。",
       "sentenceIndex": 27,
@@ -1437,12 +1327,10 @@ export default {
         "colourful past"
       ],
       "optionReasons": {
-        "colour-mcq-14": "本句指「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」。",
-        "colour-mcq-13": "「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」是「colourful = interesting / lively / full of character（人物／故事）」的用法，與本句語境不同。",
-        "colour-mcq-15": "「外觀時，表示無色的；缺乏色彩的」是「colourless = without colour（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-12": "「含有很多鮮明或不同顏色的」是「colourful = full of bright colours（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-16": "「缺乏生氣、特色、情感或個性的」是「colourless = dull / lacking personality（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-11": "「令某事帶有某種情緒、風格、態度或特色」是「colour = influence the tone/character of something」的用法，與本句語境不同。"
+        "colour-mcq-14": "本句的「colourful past」指「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」。",
+        "colour-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-14"
     },
@@ -1454,11 +1342,9 @@ export default {
       "masked": "His ____ history attracted media attention.",
       "options": [
         "colour-mcq-14",
-        "colour-mcq-13",
-        "colour-mcq-15",
-        "colour-mcq-12",
-        "colour-mcq-16",
-        "colour-mcq-11"
+        "colour-mcq-18",
+        "colour-mcq-27",
+        "colour-mcq-03"
       ],
       "explanation": "本句的「colourful」指「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」。",
       "sentenceIndex": 28,
@@ -1467,12 +1353,10 @@ export default {
         "colourful"
       ],
       "optionReasons": {
-        "colour-mcq-14": "本句指「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」。",
-        "colour-mcq-13": "「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」是「colourful = interesting / lively / full of character（人物／故事）」的用法，與本句語境不同。",
-        "colour-mcq-15": "「外觀時，表示無色的；缺乏色彩的」是「colourless = without colour（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-12": "「含有很多鮮明或不同顏色的」是「colourful = full of bright colours（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-16": "「缺乏生氣、特色、情感或個性的」是「colourless = dull / lacking personality（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-11": "「令某事帶有某種情緒、風格、態度或特色」是「colour = influence the tone/character of something」的用法，與本句語境不同。"
+        "colour-mcq-14": "本句的「colourful」指「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」。",
+        "colour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-14"
     },
@@ -1484,11 +1368,9 @@ export default {
       "masked": "The liquid is ____.",
       "options": [
         "colour-mcq-15",
-        "colour-mcq-14",
-        "colour-mcq-16",
-        "colour-mcq-13",
-        "colour-mcq-17",
-        "colour-mcq-12"
+        "colour-mcq-27",
+        "colour-mcq-24",
+        "colour-mcq-14"
       ],
       "explanation": "本句的「colourless」指「外觀時，表示無色的；缺乏色彩的」。",
       "sentenceIndex": 29,
@@ -1497,12 +1379,10 @@ export default {
         "colourless"
       ],
       "optionReasons": {
-        "colour-mcq-15": "本句指「外觀時，表示無色的；缺乏色彩的」。",
-        "colour-mcq-14": "「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」是「colourful = involving scandal/crime/excitement（委婉）」的用法，與本句語境不同。",
-        "colour-mcq-16": "「缺乏生氣、特色、情感或個性的」是「colourless = dull / lacking personality（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-13": "「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」是「colourful = interesting / lively / full of character（人物／故事）」的用法，與本句語境不同。",
-        "colour-mcq-17": "「替圖畫、形狀等加上顏色的活動／過程」是「colouring = act/activity of adding colour」的用法，與本句語境不同。",
-        "colour-mcq-12": "「含有很多鮮明或不同顏色的」是「colourful = full of bright colours（外觀）」的用法，與本句語境不同。"
+        "colour-mcq-15": "本句的「colourless」指「外觀時，表示無色的；缺乏色彩的」。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-15"
     },
@@ -1514,11 +1394,9 @@ export default {
       "masked": "The gas is ____ and odourless.",
       "options": [
         "colour-mcq-15",
-        "colour-mcq-14",
-        "colour-mcq-16",
-        "colour-mcq-13",
-        "colour-mcq-17",
-        "colour-mcq-12"
+        "colour-mcq-04",
+        "colour-mcq-25",
+        "colour-mcq-14"
       ],
       "explanation": "本句的「colourless」指「外觀時，表示無色的；缺乏色彩的」。",
       "sentenceIndex": 30,
@@ -1527,12 +1405,10 @@ export default {
         "colourless"
       ],
       "optionReasons": {
-        "colour-mcq-15": "本句指「外觀時，表示無色的；缺乏色彩的」。",
-        "colour-mcq-14": "「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」是「colourful = involving scandal/crime/excitement（委婉）」的用法，與本句語境不同。",
-        "colour-mcq-16": "「缺乏生氣、特色、情感或個性的」是「colourless = dull / lacking personality（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-13": "「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」是「colourful = interesting / lively / full of character（人物／故事）」的用法，與本句語境不同。",
-        "colour-mcq-17": "「替圖畫、形狀等加上顏色的活動／過程」是「colouring = act/activity of adding colour」的用法，與本句語境不同。",
-        "colour-mcq-12": "「含有很多鮮明或不同顏色的」是「colourful = full of bright colours（外觀）」的用法，與本句語境不同。"
+        "colour-mcq-15": "本句的「colourless」指「外觀時，表示無色的；缺乏色彩的」。",
+        "colour-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-15"
     },
@@ -1544,11 +1420,9 @@ export default {
       "masked": "The speech was accurate but ____.",
       "options": [
         "colour-mcq-16",
-        "colour-mcq-15",
-        "colour-mcq-17",
+        "colour-mcq-27",
         "colour-mcq-14",
-        "colour-mcq-18",
-        "colour-mcq-13"
+        "colour-mcq-02"
       ],
       "explanation": "本句的「colourless」指「缺乏生氣、特色、情感或個性的」。",
       "sentenceIndex": 31,
@@ -1557,12 +1431,10 @@ export default {
         "colourless"
       ],
       "optionReasons": {
-        "colour-mcq-16": "本句指「缺乏生氣、特色、情感或個性的」。",
-        "colour-mcq-15": "「外觀時，表示無色的；缺乏色彩的」是「colourless = without colour（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-17": "「替圖畫、形狀等加上顏色的活動／過程」是「colouring = act/activity of adding colour」的用法，與本句語境不同。",
-        "colour-mcq-14": "「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」是「colourful = involving scandal/crime/excitement（委婉）」的用法，與本句語境不同。",
-        "colour-mcq-18": "「某物呈現的整體顏色特徵，或用來使其著色的物質」是「colouring = natural/artificial colouring of something」的用法，與本句語境不同。",
-        "colour-mcq-13": "「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」是「colourful = interesting / lively / full of character（人物／故事）」的用法，與本句語境不同。"
+        "colour-mcq-16": "本句的「colourless」指「缺乏生氣、特色、情感或個性的」。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-16"
     },
@@ -1574,11 +1446,9 @@ export default {
       "masked": "The character felt rather ____.",
       "options": [
         "colour-mcq-16",
-        "colour-mcq-15",
-        "colour-mcq-17",
+        "colour-mcq-27",
         "colour-mcq-14",
-        "colour-mcq-18",
-        "colour-mcq-13"
+        "colour-mcq-26"
       ],
       "explanation": "本句的「colourless」指「缺乏生氣、特色、情感或個性的」。",
       "sentenceIndex": 32,
@@ -1587,12 +1457,10 @@ export default {
         "colourless"
       ],
       "optionReasons": {
-        "colour-mcq-16": "本句指「缺乏生氣、特色、情感或個性的」。",
-        "colour-mcq-15": "「外觀時，表示無色的；缺乏色彩的」是「colourless = without colour（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-17": "「替圖畫、形狀等加上顏色的活動／過程」是「colouring = act/activity of adding colour」的用法，與本句語境不同。",
-        "colour-mcq-14": "「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」是「colourful = involving scandal/crime/excitement（委婉）」的用法，與本句語境不同。",
-        "colour-mcq-18": "「某物呈現的整體顏色特徵，或用來使其著色的物質」是「colouring = natural/artificial colouring of something」的用法，與本句語境不同。",
-        "colour-mcq-13": "「經歷、個性或內容豐富、生動、有趣而令人印象深刻的」是「colourful = interesting / lively / full of character（人物／故事）」的用法，與本句語境不同。"
+        "colour-mcq-16": "本句的「colourless」指「缺乏生氣、特色、情感或個性的」。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-16"
     },
@@ -1604,10 +1472,8 @@ export default {
       "masked": "The children spent the afternoon ____.",
       "options": [
         "colour-mcq-17",
-        "colour-mcq-16",
-        "colour-mcq-18",
-        "colour-mcq-15",
-        "colour-mcq-19",
+        "colour-mcq-10",
+        "colour-mcq-24",
         "colour-mcq-14"
       ],
       "explanation": "本句的「colouring」指「替圖畫、形狀等加上顏色的活動／過程」。",
@@ -1617,12 +1483,10 @@ export default {
         "colouring"
       ],
       "optionReasons": {
-        "colour-mcq-17": "本句指「替圖畫、形狀等加上顏色的活動／過程」。",
-        "colour-mcq-16": "「缺乏生氣、特色、情感或個性的」是「colourless = dull / lacking personality（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-18": "「某物呈現的整體顏色特徵，或用來使其著色的物質」是「colouring = natural/artificial colouring of something」的用法，與本句語境不同。",
-        "colour-mcq-15": "「外觀時，表示無色的；缺乏色彩的」是「colourless = without colour（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-19": "「設計中有系統地選擇、搭配的一組顏色」是「colour scheme（設計）」的用法，與本句語境不同。",
-        "colour-mcq-14": "「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」是「colourful = involving scandal/crime/excitement（委婉）」的用法，與本句語境不同。"
+        "colour-mcq-17": "本句的「colouring」指「替圖畫、形狀等加上顏色的活動／過程」。",
+        "colour-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-17"
     },
@@ -1634,10 +1498,8 @@ export default {
       "masked": "____ can be relaxing.",
       "options": [
         "colour-mcq-17",
-        "colour-mcq-16",
-        "colour-mcq-18",
-        "colour-mcq-15",
-        "colour-mcq-19",
+        "colour-mcq-24",
+        "colour-mcq-10",
         "colour-mcq-14"
       ],
       "explanation": "本句的「Colouring」指「替圖畫、形狀等加上顏色的活動／過程」。",
@@ -1647,12 +1509,10 @@ export default {
         "Colouring"
       ],
       "optionReasons": {
-        "colour-mcq-17": "本句指「替圖畫、形狀等加上顏色的活動／過程」。",
-        "colour-mcq-16": "「缺乏生氣、特色、情感或個性的」是「colourless = dull / lacking personality（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-18": "「某物呈現的整體顏色特徵，或用來使其著色的物質」是「colouring = natural/artificial colouring of something」的用法，與本句語境不同。",
-        "colour-mcq-15": "「外觀時，表示無色的；缺乏色彩的」是「colourless = without colour（外觀）」的用法，與本句語境不同。",
-        "colour-mcq-19": "「設計中有系統地選擇、搭配的一組顏色」是「colour scheme（設計）」的用法，與本句語境不同。",
-        "colour-mcq-14": "「經歷豐富，但可能包含爭議、冒險、醜聞或不尋常事件」是「colourful = involving scandal/crime/excitement（委婉）」的用法，與本句語境不同。"
+        "colour-mcq-17": "本句的「Colouring」指「替圖畫、形狀等加上顏色的活動／過程」。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-17"
     },
@@ -1664,11 +1524,9 @@ export default {
       "masked": "The bird has unusual ____.",
       "options": [
         "colour-mcq-18",
-        "colour-mcq-17",
-        "colour-mcq-19",
-        "colour-mcq-16",
-        "colour-mcq-20",
-        "colour-mcq-15"
+        "colour-mcq-13",
+        "colour-mcq-27",
+        "colour-mcq-05"
       ],
       "explanation": "本句的「colouring」指「某物呈現的整體顏色特徵，或用來使其著色的物質」。",
       "sentenceIndex": 35,
@@ -1677,12 +1535,10 @@ export default {
         "colouring"
       ],
       "optionReasons": {
-        "colour-mcq-18": "本句指「某物呈現的整體顏色特徵，或用來使其著色的物質」。",
-        "colour-mcq-17": "「替圖畫、形狀等加上顏色的活動／過程」是「colouring = act/activity of adding colour」的用法，與本句語境不同。",
-        "colour-mcq-19": "「設計中有系統地選擇、搭配的一組顏色」是「colour scheme（設計）」的用法，與本句語境不同。",
-        "colour-mcq-16": "「缺乏生氣、特色、情感或個性的」是「colourless = dull / lacking personality（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-20": "「用不同顏色代表不同類別、狀態或功能的標示系統」是「colour code（系統／標示）」的用法，與本句語境不同。",
-        "colour-mcq-15": "「外觀時，表示無色的；缺乏色彩的」是「colourless = without colour（外觀）」的用法，與本句語境不同。"
+        "colour-mcq-18": "本句的「colouring」指「某物呈現的整體顏色特徵，或用來使其著色的物質」。",
+        "colour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-18"
     },
@@ -1694,11 +1550,9 @@ export default {
       "masked": "The product contains artificial ____.",
       "options": [
         "colour-mcq-18",
-        "colour-mcq-17",
-        "colour-mcq-19",
-        "colour-mcq-16",
-        "colour-mcq-20",
-        "colour-mcq-15"
+        "colour-mcq-14",
+        "colour-mcq-25",
+        "colour-mcq-24"
       ],
       "explanation": "本句的「colouring」指「某物呈現的整體顏色特徵，或用來使其著色的物質」。",
       "sentenceIndex": 36,
@@ -1707,12 +1561,10 @@ export default {
         "colouring"
       ],
       "optionReasons": {
-        "colour-mcq-18": "本句指「某物呈現的整體顏色特徵，或用來使其著色的物質」。",
-        "colour-mcq-17": "「替圖畫、形狀等加上顏色的活動／過程」是「colouring = act/activity of adding colour」的用法，與本句語境不同。",
-        "colour-mcq-19": "「設計中有系統地選擇、搭配的一組顏色」是「colour scheme（設計）」的用法，與本句語境不同。",
-        "colour-mcq-16": "「缺乏生氣、特色、情感或個性的」是「colourless = dull / lacking personality（比喻）」的用法，與本句語境不同。",
-        "colour-mcq-20": "「用不同顏色代表不同類別、狀態或功能的標示系統」是「colour code（系統／標示）」的用法，與本句語境不同。",
-        "colour-mcq-15": "「外觀時，表示無色的；缺乏色彩的」是「colourless = without colour（外觀）」的用法，與本句語境不同。"
+        "colour-mcq-18": "本句的「colouring」指「某物呈現的整體顏色特徵，或用來使其著色的物質」。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-18"
     },
@@ -1724,11 +1576,9 @@ export default {
       "masked": "The room has a simple ____.",
       "options": [
         "colour-mcq-19",
-        "colour-mcq-18",
-        "colour-mcq-20",
-        "colour-mcq-17",
-        "colour-mcq-21",
-        "colour-mcq-16"
+        "colour-mcq-24",
+        "colour-mcq-25",
+        "colour-mcq-14"
       ],
       "explanation": "本句的「colour scheme」指「設計中有系統地選擇、搭配的一組顏色」。",
       "sentenceIndex": 37,
@@ -1737,12 +1587,10 @@ export default {
         "colour scheme"
       ],
       "optionReasons": {
-        "colour-mcq-19": "本句指「設計中有系統地選擇、搭配的一組顏色」。",
-        "colour-mcq-18": "「某物呈現的整體顏色特徵，或用來使其著色的物質」是「colouring = natural/artificial colouring of something」的用法，與本句語境不同。",
-        "colour-mcq-20": "「用不同顏色代表不同類別、狀態或功能的標示系統」是「colour code（系統／標示）」的用法，與本句語境不同。",
-        "colour-mcq-17": "「替圖畫、形狀等加上顏色的活動／過程」是「colouring = act/activity of adding colour」的用法，與本句語境不同。",
-        "colour-mcq-21": "「使用顏色來區分、分類或辨識資訊的」是「colour-coded =」的用法，與本句語境不同。",
-        "colour-mcq-16": "「缺乏生氣、特色、情感或個性的」是「colourless = dull / lacking personality（比喻）」的用法，與本句語境不同。"
+        "colour-mcq-19": "本句的「colour scheme」指「設計中有系統地選擇、搭配的一組顏色」。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-19"
     },
@@ -1754,11 +1602,9 @@ export default {
       "masked": "The designer changed the ____ scheme.",
       "options": [
         "colour-mcq-19",
-        "colour-mcq-18",
-        "colour-mcq-20",
-        "colour-mcq-17",
-        "colour-mcq-21",
-        "colour-mcq-16"
+        "colour-mcq-05",
+        "colour-mcq-27",
+        "colour-mcq-13"
       ],
       "explanation": "本句的「colour」指「設計中有系統地選擇、搭配的一組顏色」。",
       "sentenceIndex": 38,
@@ -1767,12 +1613,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-19": "本句指「設計中有系統地選擇、搭配的一組顏色」。",
-        "colour-mcq-18": "「某物呈現的整體顏色特徵，或用來使其著色的物質」是「colouring = natural/artificial colouring of something」的用法，與本句語境不同。",
-        "colour-mcq-20": "「用不同顏色代表不同類別、狀態或功能的標示系統」是「colour code（系統／標示）」的用法，與本句語境不同。",
-        "colour-mcq-17": "「替圖畫、形狀等加上顏色的活動／過程」是「colouring = act/activity of adding colour」的用法，與本句語境不同。",
-        "colour-mcq-21": "「使用顏色來區分、分類或辨識資訊的」是「colour-coded =」的用法，與本句語境不同。",
-        "colour-mcq-16": "「缺乏生氣、特色、情感或個性的」是「colourless = dull / lacking personality（比喻）」的用法，與本句語境不同。"
+        "colour-mcq-19": "本句的「colour」指「設計中有系統地選擇、搭配的一組顏色」。",
+        "colour-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-19"
     },
@@ -1784,11 +1628,9 @@ export default {
       "masked": "The files are ____ by category.",
       "options": [
         "colour-mcq-20",
-        "colour-mcq-19",
-        "colour-mcq-21",
-        "colour-mcq-18",
-        "colour-mcq-22",
-        "colour-mcq-17"
+        "colour-mcq-14",
+        "colour-mcq-10",
+        "colour-mcq-24"
       ],
       "explanation": "本句的「colour-coded」指「用不同顏色代表不同類別、狀態或功能的標示系統」。",
       "sentenceIndex": 39,
@@ -1797,12 +1639,10 @@ export default {
         "colour-coded"
       ],
       "optionReasons": {
-        "colour-mcq-20": "本句指「用不同顏色代表不同類別、狀態或功能的標示系統」。",
-        "colour-mcq-19": "「設計中有系統地選擇、搭配的一組顏色」是「colour scheme（設計）」的用法，與本句語境不同。",
-        "colour-mcq-21": "「使用顏色來區分、分類或辨識資訊的」是「colour-coded =」的用法，與本句語境不同。",
-        "colour-mcq-18": "「某物呈現的整體顏色特徵，或用來使其著色的物質」是「colouring = natural/artificial colouring of something」的用法，與本句語境不同。",
-        "colour-mcq-22": "「以完整顏色呈現，而不是黑白」是「in colour = in colours rather than black and white」的用法，與本句語境不同。",
-        "colour-mcq-17": "「替圖畫、形狀等加上顏色的活動／過程」是「colouring = act/activity of adding colour」的用法，與本句語境不同。"
+        "colour-mcq-20": "本句的「colour-coded」指「用不同顏色代表不同類別、狀態或功能的標示系統」。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-20"
     },
@@ -1814,11 +1654,9 @@ export default {
       "masked": "The hospital uses a ____ code for different zones.",
       "options": [
         "colour-mcq-20",
-        "colour-mcq-19",
-        "colour-mcq-21",
-        "colour-mcq-18",
-        "colour-mcq-22",
-        "colour-mcq-17"
+        "colour-mcq-27",
+        "colour-mcq-14",
+        "colour-mcq-03"
       ],
       "explanation": "本句的「colour」指「用不同顏色代表不同類別、狀態或功能的標示系統」。",
       "sentenceIndex": 40,
@@ -1827,12 +1665,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-20": "本句指「用不同顏色代表不同類別、狀態或功能的標示系統」。",
-        "colour-mcq-19": "「設計中有系統地選擇、搭配的一組顏色」是「colour scheme（設計）」的用法，與本句語境不同。",
-        "colour-mcq-21": "「使用顏色來區分、分類或辨識資訊的」是「colour-coded =」的用法，與本句語境不同。",
-        "colour-mcq-18": "「某物呈現的整體顏色特徵，或用來使其著色的物質」是「colouring = natural/artificial colouring of something」的用法，與本句語境不同。",
-        "colour-mcq-22": "「以完整顏色呈現，而不是黑白」是「in colour = in colours rather than black and white」的用法，與本句語境不同。",
-        "colour-mcq-17": "「替圖畫、形狀等加上顏色的活動／過程」是「colouring = act/activity of adding colour」的用法，與本句語境不同。"
+        "colour-mcq-20": "本句的「colour」指「用不同顏色代表不同類別、狀態或功能的標示系統」。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-20"
     },
@@ -1844,11 +1680,9 @@ export default {
       "masked": "The map is ____.",
       "options": [
         "colour-mcq-21",
-        "colour-mcq-20",
-        "colour-mcq-22",
-        "colour-mcq-19",
-        "colour-mcq-23",
-        "colour-mcq-18"
+        "colour-mcq-03",
+        "colour-mcq-25",
+        "colour-mcq-05"
       ],
       "explanation": "本句的「colour-coded」指「使用顏色來區分、分類或辨識資訊的」。",
       "sentenceIndex": 41,
@@ -1857,12 +1691,10 @@ export default {
         "colour-coded"
       ],
       "optionReasons": {
-        "colour-mcq-21": "本句指「使用顏色來區分、分類或辨識資訊的」。",
-        "colour-mcq-20": "「用不同顏色代表不同類別、狀態或功能的標示系統」是「colour code（系統／標示）」的用法，與本句語境不同。",
-        "colour-mcq-22": "「以完整顏色呈現，而不是黑白」是「in colour = in colours rather than black and white」的用法，與本句語境不同。",
-        "colour-mcq-19": "「設計中有系統地選擇、搭配的一組顏色」是「colour scheme（設計）」的用法，與本句語境不同。",
-        "colour-mcq-23": "「健康時，表示身體不適的；氣色不佳的」是「off-colour / off-color（健康）」的用法，與本句語境不同。",
-        "colour-mcq-18": "「某物呈現的整體顏色特徵，或用來使其著色的物質」是「colouring = natural/artificial colouring of something」的用法，與本句語境不同。"
+        "colour-mcq-21": "本句的「colour-coded」指「使用顏色來區分、分類或辨識資訊的」。",
+        "colour-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-21"
     },
@@ -1874,11 +1706,9 @@ export default {
       "masked": "Each team uses a ____ label.",
       "options": [
         "colour-mcq-21",
-        "colour-mcq-20",
-        "colour-mcq-22",
-        "colour-mcq-19",
-        "colour-mcq-23",
-        "colour-mcq-18"
+        "colour-mcq-25",
+        "colour-mcq-03",
+        "colour-mcq-14"
       ],
       "explanation": "本句的「colour-coded」指「使用顏色來區分、分類或辨識資訊的」。",
       "sentenceIndex": 42,
@@ -1887,12 +1717,10 @@ export default {
         "colour-coded"
       ],
       "optionReasons": {
-        "colour-mcq-21": "本句指「使用顏色來區分、分類或辨識資訊的」。",
-        "colour-mcq-20": "「用不同顏色代表不同類別、狀態或功能的標示系統」是「colour code（系統／標示）」的用法，與本句語境不同。",
-        "colour-mcq-22": "「以完整顏色呈現，而不是黑白」是「in colour = in colours rather than black and white」的用法，與本句語境不同。",
-        "colour-mcq-19": "「設計中有系統地選擇、搭配的一組顏色」是「colour scheme（設計）」的用法，與本句語境不同。",
-        "colour-mcq-23": "「健康時，表示身體不適的；氣色不佳的」是「off-colour / off-color（健康）」的用法，與本句語境不同。",
-        "colour-mcq-18": "「某物呈現的整體顏色特徵，或用來使其著色的物質」是「colouring = natural/artificial colouring of something」的用法，與本句語境不同。"
+        "colour-mcq-21": "本句的「colour-coded」指「使用顏色來區分、分類或辨識資訊的」。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-21"
     },
@@ -1904,11 +1732,9 @@ export default {
       "masked": "The photographs were printed ____.",
       "options": [
         "colour-mcq-22",
-        "colour-mcq-21",
-        "colour-mcq-23",
-        "colour-mcq-20",
+        "colour-mcq-05",
         "colour-mcq-24",
-        "colour-mcq-19"
+        "colour-mcq-27"
       ],
       "explanation": "本句的「in colour」指「以完整顏色呈現，而不是黑白」。",
       "sentenceIndex": 43,
@@ -1917,12 +1743,10 @@ export default {
         "in colour"
       ],
       "optionReasons": {
-        "colour-mcq-22": "本句指「以完整顏色呈現，而不是黑白」。",
-        "colour-mcq-21": "「使用顏色來區分、分類或辨識資訊的」是「colour-coded =」的用法，與本句語境不同。",
-        "colour-mcq-23": "「健康時，表示身體不適的；氣色不佳的」是「off-colour / off-color（健康）」的用法，與本句語境不同。",
-        "colour-mcq-20": "「用不同顏色代表不同類別、狀態或功能的標示系統」是「colour code（系統／標示）」的用法，與本句語境不同。",
-        "colour-mcq-24": "「帶有性、粗俗或不太適宜內容的」是「off-colour = slightly rude/indecent（內容）」的用法，與本句語境不同。",
-        "colour-mcq-19": "「設計中有系統地選擇、搭配的一組顏色」是「colour scheme（設計）」的用法，與本句語境不同。"
+        "colour-mcq-22": "本句的「in colour」指「以完整顏色呈現，而不是黑白」。",
+        "colour-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-22"
     },
@@ -1934,11 +1758,9 @@ export default {
       "masked": "The film was shot in ____.",
       "options": [
         "colour-mcq-22",
-        "colour-mcq-21",
-        "colour-mcq-23",
-        "colour-mcq-20",
-        "colour-mcq-24",
-        "colour-mcq-19"
+        "colour-mcq-10",
+        "colour-mcq-13",
+        "colour-mcq-23"
       ],
       "explanation": "本句的「colour」指「以完整顏色呈現，而不是黑白」。",
       "sentenceIndex": 44,
@@ -1947,12 +1769,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-22": "本句指「以完整顏色呈現，而不是黑白」。",
-        "colour-mcq-21": "「使用顏色來區分、分類或辨識資訊的」是「colour-coded =」的用法，與本句語境不同。",
-        "colour-mcq-23": "「健康時，表示身體不適的；氣色不佳的」是「off-colour / off-color（健康）」的用法，與本句語境不同。",
-        "colour-mcq-20": "「用不同顏色代表不同類別、狀態或功能的標示系統」是「colour code（系統／標示）」的用法，與本句語境不同。",
-        "colour-mcq-24": "「帶有性、粗俗或不太適宜內容的」是「off-colour = slightly rude/indecent（內容）」的用法，與本句語境不同。",
-        "colour-mcq-19": "「設計中有系統地選擇、搭配的一組顏色」是「colour scheme（設計）」的用法，與本句語境不同。"
+        "colour-mcq-22": "本句的「colour」指「以完整顏色呈現，而不是黑白」。",
+        "colour-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-22"
     },
@@ -1964,11 +1784,9 @@ export default {
       "masked": "You look a bit ____ today.",
       "options": [
         "colour-mcq-23",
-        "colour-mcq-22",
-        "colour-mcq-24",
-        "colour-mcq-21",
-        "colour-mcq-25",
-        "colour-mcq-20"
+        "colour-mcq-27",
+        "colour-mcq-13",
+        "colour-mcq-26"
       ],
       "explanation": "本句的「off-colour」指「健康時，表示身體不適的；氣色不佳的」。",
       "sentenceIndex": 45,
@@ -1977,12 +1795,10 @@ export default {
         "off-colour"
       ],
       "optionReasons": {
-        "colour-mcq-23": "本句指「健康時，表示身體不適的；氣色不佳的」。",
-        "colour-mcq-22": "「以完整顏色呈現，而不是黑白」是「in colour = in colours rather than black and white」的用法，與本句語境不同。",
-        "colour-mcq-24": "「帶有性、粗俗或不太適宜內容的」是「off-colour = slightly rude/indecent（內容）」的用法，與本句語境不同。",
-        "colour-mcq-21": "「使用顏色來區分、分類或辨識資訊的」是「colour-coded =」的用法，與本句語境不同。",
-        "colour-mcq-25": "「在某種情況下暴露真正性格、態度或意圖」是「show one’s true colours（成語）」的用法，與本句語境不同。",
-        "colour-mcq-20": "「用不同顏色代表不同類別、狀態或功能的標示系統」是「colour code（系統／標示）」的用法，與本句語境不同。"
+        "colour-mcq-23": "本句的「off-colour」指「健康時，表示身體不適的；氣色不佳的」。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-23"
     },
@@ -1994,11 +1810,9 @@ export default {
       "masked": "She felt off-____ and went home early.",
       "options": [
         "colour-mcq-23",
-        "colour-mcq-22",
-        "colour-mcq-24",
-        "colour-mcq-21",
-        "colour-mcq-25",
-        "colour-mcq-20"
+        "colour-mcq-03",
+        "colour-mcq-14",
+        "colour-mcq-25"
       ],
       "explanation": "本句的「colour」指「健康時，表示身體不適的；氣色不佳的」。",
       "sentenceIndex": 46,
@@ -2007,12 +1821,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-23": "本句指「健康時，表示身體不適的；氣色不佳的」。",
-        "colour-mcq-22": "「以完整顏色呈現，而不是黑白」是「in colour = in colours rather than black and white」的用法，與本句語境不同。",
-        "colour-mcq-24": "「帶有性、粗俗或不太適宜內容的」是「off-colour = slightly rude/indecent（內容）」的用法，與本句語境不同。",
-        "colour-mcq-21": "「使用顏色來區分、分類或辨識資訊的」是「colour-coded =」的用法，與本句語境不同。",
-        "colour-mcq-25": "「在某種情況下暴露真正性格、態度或意圖」是「show one’s true colours（成語）」的用法，與本句語境不同。",
-        "colour-mcq-20": "「用不同顏色代表不同類別、狀態或功能的標示系統」是「colour code（系統／標示）」的用法，與本句語境不同。"
+        "colour-mcq-23": "本句的「colour」指「健康時，表示身體不適的；氣色不佳的」。",
+        "colour-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-23"
     },
@@ -2024,11 +1836,9 @@ export default {
       "masked": "He made an ____.",
       "options": [
         "colour-mcq-24",
-        "colour-mcq-23",
-        "colour-mcq-25",
-        "colour-mcq-22",
-        "colour-mcq-26",
-        "colour-mcq-21"
+        "colour-mcq-18",
+        "colour-mcq-14",
+        "colour-mcq-10"
       ],
       "explanation": "本句的「off-colour joke」指「帶有性、粗俗或不太適宜內容的」。",
       "sentenceIndex": 47,
@@ -2037,12 +1847,10 @@ export default {
         "off-colour joke"
       ],
       "optionReasons": {
-        "colour-mcq-24": "本句指「帶有性、粗俗或不太適宜內容的」。",
-        "colour-mcq-23": "「健康時，表示身體不適的；氣色不佳的」是「off-colour / off-color（健康）」的用法，與本句語境不同。",
-        "colour-mcq-25": "「在某種情況下暴露真正性格、態度或意圖」是「show one’s true colours（成語）」的用法，與本句語境不同。",
-        "colour-mcq-22": "「以完整顏色呈現，而不是黑白」是「in colour = in colours rather than black and white」的用法，與本句語境不同。",
-        "colour-mcq-26": "「表現非常出色地完成／通過某事」是「with flying colours（成語）」的用法，與本句語境不同。",
-        "colour-mcq-21": "「使用顏色來區分、分類或辨識資訊的」是「colour-coded =」的用法，與本句語境不同。"
+        "colour-mcq-24": "本句的「off-colour joke」指「帶有性、粗俗或不太適宜內容的」。",
+        "colour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-24"
     },
@@ -2054,11 +1862,9 @@ export default {
       "masked": "The comment was considered off-____.",
       "options": [
         "colour-mcq-24",
-        "colour-mcq-23",
-        "colour-mcq-25",
+        "colour-mcq-03",
         "colour-mcq-22",
-        "colour-mcq-26",
-        "colour-mcq-21"
+        "colour-mcq-27"
       ],
       "explanation": "本句的「colour」指「帶有性、粗俗或不太適宜內容的」。",
       "sentenceIndex": 48,
@@ -2067,12 +1873,10 @@ export default {
         "colour"
       ],
       "optionReasons": {
-        "colour-mcq-24": "本句指「帶有性、粗俗或不太適宜內容的」。",
-        "colour-mcq-23": "「健康時，表示身體不適的；氣色不佳的」是「off-colour / off-color（健康）」的用法，與本句語境不同。",
-        "colour-mcq-25": "「在某種情況下暴露真正性格、態度或意圖」是「show one’s true colours（成語）」的用法，與本句語境不同。",
-        "colour-mcq-22": "「以完整顏色呈現，而不是黑白」是「in colour = in colours rather than black and white」的用法，與本句語境不同。",
-        "colour-mcq-26": "「表現非常出色地完成／通過某事」是「with flying colours（成語）」的用法，與本句語境不同。",
-        "colour-mcq-21": "「使用顏色來區分、分類或辨識資訊的」是「colour-coded =」的用法，與本句語境不同。"
+        "colour-mcq-24": "本句的「colour」指「帶有性、粗俗或不太適宜內容的」。",
+        "colour-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-24"
     },
@@ -2084,11 +1888,9 @@ export default {
       "masked": "He showed his ____ when the situation became difficult.",
       "options": [
         "colour-mcq-25",
-        "colour-mcq-24",
-        "colour-mcq-26",
-        "colour-mcq-23",
-        "colour-mcq-27",
-        "colour-mcq-22"
+        "colour-mcq-02",
+        "colour-mcq-14",
+        "colour-mcq-05"
       ],
       "explanation": "本句的「true colours」指「在某種情況下暴露真正性格、態度或意圖」。",
       "sentenceIndex": 49,
@@ -2097,12 +1899,10 @@ export default {
         "true colours"
       ],
       "optionReasons": {
-        "colour-mcq-25": "本句指「在某種情況下暴露真正性格、態度或意圖」。",
-        "colour-mcq-24": "「帶有性、粗俗或不太適宜內容的」是「off-colour = slightly rude/indecent（內容）」的用法，與本句語境不同。",
-        "colour-mcq-26": "「表現非常出色地完成／通過某事」是「with flying colours（成語）」的用法，與本句語境不同。",
-        "colour-mcq-23": "「健康時，表示身體不適的；氣色不佳的」是「off-colour / off-color（健康）」的用法，與本句語境不同。",
-        "colour-mcq-27": "「公開、明確地表明自己的立場，並願意堅持它」是「nail one’s colours to the mast（較文學／BrE）」的用法，與本句語境不同。",
-        "colour-mcq-22": "「以完整顏色呈現，而不是黑白」是「in colour = in colours rather than black and white」的用法，與本句語境不同。"
+        "colour-mcq-25": "本句的「true colours」指「在某種情況下暴露真正性格、態度或意圖」。",
+        "colour-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-25"
     },
@@ -2114,11 +1914,9 @@ export default {
       "masked": "Pressure often makes people show their true ____.",
       "options": [
         "colour-mcq-25",
-        "colour-mcq-24",
-        "colour-mcq-26",
-        "colour-mcq-23",
-        "colour-mcq-27",
-        "colour-mcq-22"
+        "colour-mcq-06",
+        "colour-mcq-05",
+        "colour-mcq-12"
       ],
       "explanation": "本句的「colours」指「在某種情況下暴露真正性格、態度或意圖」。",
       "sentenceIndex": 50,
@@ -2127,12 +1925,10 @@ export default {
         "colours"
       ],
       "optionReasons": {
-        "colour-mcq-25": "本句指「在某種情況下暴露真正性格、態度或意圖」。",
-        "colour-mcq-24": "「帶有性、粗俗或不太適宜內容的」是「off-colour = slightly rude/indecent（內容）」的用法，與本句語境不同。",
-        "colour-mcq-26": "「表現非常出色地完成／通過某事」是「with flying colours（成語）」的用法，與本句語境不同。",
-        "colour-mcq-23": "「健康時，表示身體不適的；氣色不佳的」是「off-colour / off-color（健康）」的用法，與本句語境不同。",
-        "colour-mcq-27": "「公開、明確地表明自己的立場，並願意堅持它」是「nail one’s colours to the mast（較文學／BrE）」的用法，與本句語境不同。",
-        "colour-mcq-22": "「以完整顏色呈現，而不是黑白」是「in colour = in colours rather than black and white」的用法，與本句語境不同。"
+        "colour-mcq-25": "本句的「colours」指「在某種情況下暴露真正性格、態度或意圖」。",
+        "colour-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-25"
     },
@@ -2144,11 +1940,9 @@ export default {
       "masked": "She passed the exam ____.",
       "options": [
         "colour-mcq-26",
-        "colour-mcq-25",
-        "colour-mcq-27",
         "colour-mcq-24",
-        "colour-mcq-23",
-        "colour-mcq-22"
+        "colour-mcq-05",
+        "colour-mcq-27"
       ],
       "explanation": "本句的「with flying colours」指「表現非常出色地完成／通過某事」。",
       "sentenceIndex": 51,
@@ -2157,12 +1951,10 @@ export default {
         "with flying colours"
       ],
       "optionReasons": {
-        "colour-mcq-26": "本句指「表現非常出色地完成／通過某事」。",
-        "colour-mcq-25": "「在某種情況下暴露真正性格、態度或意圖」是「show one’s true colours（成語）」的用法，與本句語境不同。",
-        "colour-mcq-27": "「公開、明確地表明自己的立場，並願意堅持它」是「nail one’s colours to the mast（較文學／BrE）」的用法，與本句語境不同。",
-        "colour-mcq-24": "「帶有性、粗俗或不太適宜內容的」是「off-colour = slightly rude/indecent（內容）」的用法，與本句語境不同。",
-        "colour-mcq-23": "「健康時，表示身體不適的；氣色不佳的」是「off-colour / off-color（健康）」的用法，與本句語境不同。",
-        "colour-mcq-22": "「以完整顏色呈現，而不是黑白」是「in colour = in colours rather than black and white」的用法，與本句語境不同。"
+        "colour-mcq-26": "本句的「with flying colours」指「表現非常出色地完成／通過某事」。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-26"
     },
@@ -2174,11 +1966,9 @@ export default {
       "masked": "The team completed the project with flying ____.",
       "options": [
         "colour-mcq-26",
-        "colour-mcq-25",
-        "colour-mcq-27",
         "colour-mcq-24",
-        "colour-mcq-23",
-        "colour-mcq-22"
+        "colour-mcq-27",
+        "colour-mcq-05"
       ],
       "explanation": "本句的「colours」指「表現非常出色地完成／通過某事」。",
       "sentenceIndex": 52,
@@ -2187,12 +1977,10 @@ export default {
         "colours"
       ],
       "optionReasons": {
-        "colour-mcq-26": "本句指「表現非常出色地完成／通過某事」。",
-        "colour-mcq-25": "「在某種情況下暴露真正性格、態度或意圖」是「show one’s true colours（成語）」的用法，與本句語境不同。",
-        "colour-mcq-27": "「公開、明確地表明自己的立場，並願意堅持它」是「nail one’s colours to the mast（較文學／BrE）」的用法，與本句語境不同。",
-        "colour-mcq-24": "「帶有性、粗俗或不太適宜內容的」是「off-colour = slightly rude/indecent（內容）」的用法，與本句語境不同。",
-        "colour-mcq-23": "「健康時，表示身體不適的；氣色不佳的」是「off-colour / off-color（健康）」的用法，與本句語境不同。",
-        "colour-mcq-22": "「以完整顏色呈現，而不是黑白」是「in colour = in colours rather than black and white」的用法，與本句語境不同。"
+        "colour-mcq-26": "本句的「colours」指「表現非常出色地完成／通過某事」。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-26"
     },
@@ -2204,11 +1992,9 @@ export default {
       "masked": "He finally nailed his ____ to the mast.",
       "options": [
         "colour-mcq-27",
-        "colour-mcq-26",
-        "colour-mcq-25",
-        "colour-mcq-24",
+        "colour-mcq-19",
         "colour-mcq-23",
-        "colour-mcq-22"
+        "colour-mcq-24"
       ],
       "explanation": "本句的「colours」指「公開、明確地表明自己的立場，並願意堅持它」。",
       "sentenceIndex": 53,
@@ -2217,12 +2003,10 @@ export default {
         "colours"
       ],
       "optionReasons": {
-        "colour-mcq-27": "本句指「公開、明確地表明自己的立場，並願意堅持它」。",
-        "colour-mcq-26": "「表現非常出色地完成／通過某事」是「with flying colours（成語）」的用法，與本句語境不同。",
-        "colour-mcq-25": "「在某種情況下暴露真正性格、態度或意圖」是「show one’s true colours（成語）」的用法，與本句語境不同。",
-        "colour-mcq-24": "「帶有性、粗俗或不太適宜內容的」是「off-colour = slightly rude/indecent（內容）」的用法，與本句語境不同。",
-        "colour-mcq-23": "「健康時，表示身體不適的；氣色不佳的」是「off-colour / off-color（健康）」的用法，與本句語境不同。",
-        "colour-mcq-22": "「以完整顏色呈現，而不是黑白」是「in colour = in colours rather than black and white」的用法，與本句語境不同。"
+        "colour-mcq-27": "本句的「colours」指「公開、明確地表明自己的立場，並願意堅持它」。",
+        "colour-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-27"
     },
@@ -2234,11 +2018,9 @@ export default {
       "masked": "She was willing to nail her ____ to the mast on the issue.",
       "options": [
         "colour-mcq-27",
-        "colour-mcq-26",
-        "colour-mcq-25",
+        "colour-mcq-17",
         "colour-mcq-24",
-        "colour-mcq-23",
-        "colour-mcq-22"
+        "colour-mcq-23"
       ],
       "explanation": "本句的「colours」指「公開、明確地表明自己的立場，並願意堅持它」。",
       "sentenceIndex": 54,
@@ -2247,12 +2029,10 @@ export default {
         "colours"
       ],
       "optionReasons": {
-        "colour-mcq-27": "本句指「公開、明確地表明自己的立場，並願意堅持它」。",
-        "colour-mcq-26": "「表現非常出色地完成／通過某事」是「with flying colours（成語）」的用法，與本句語境不同。",
-        "colour-mcq-25": "「在某種情況下暴露真正性格、態度或意圖」是「show one’s true colours（成語）」的用法，與本句語境不同。",
-        "colour-mcq-24": "「帶有性、粗俗或不太適宜內容的」是「off-colour = slightly rude/indecent（內容）」的用法，與本句語境不同。",
-        "colour-mcq-23": "「健康時，表示身體不適的；氣色不佳的」是「off-colour / off-color（健康）」的用法，與本句語境不同。",
-        "colour-mcq-22": "「以完整顏色呈現，而不是黑白」是「in colour = in colours rather than black and white」的用法，與本句語境不同。"
+        "colour-mcq-27": "本句的「colours」指「公開、明確地表明自己的立場，並願意堅持它」。",
+        "colour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "colour-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "colour-mcq-27"
     }
@@ -2264,5 +2044,7 @@ export default {
     "sha256": "b33911f60d8e03bcbe6b6a534f28f330d8f9dd81540a55e0d8f3e9dbe5c3f3a5",
     "pages": 20
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -868,11 +868,8 @@ export default {
       "masked": "The job pays a good ____.",
       "options": [
         "wage-mcq-01",
-        "wage-mcq-02",
-        "wage-mcq-03",
-        "wage-mcq-04",
-        "wage-mcq-05",
-        "wage-mcq-06"
+        "wage-mcq-64",
+        "wage-mcq-14"
       ],
       "explanation": "本句的「wage」指「僱主就員工提供勞動而支付的工資／薪酬」。",
       "sentenceIndex": 0,
@@ -881,12 +878,9 @@ export default {
         "wage"
       ],
       "optionReasons": {
-        "wage-mcq-01": "本句指「僱主就員工提供勞動而支付的工資／薪酬」。",
-        "wage-mcq-02": "「員工實際收到／應收到的工資，常用複數」與本句語境不同。",
-        "wage-mcq-03": "「每工作一小時所支付的時薪」與本句語境不同。",
-        "wage-mcq-04": "「日薪／週薪」與本句語境不同。",
-        "wage-mcq-05": "「每單位時間或產量的工資率」與本句語境不同。",
-        "wage-mcq-06": "「按完成件數／產量計算的工資」與本句語境不同。"
+        "wage-mcq-01": "本句的「wage」指「僱主就員工提供勞動而支付的工資／薪酬」。",
+        "wage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-01"
     },
@@ -898,11 +892,8 @@ export default {
       "masked": "Workers demanded higher ____.",
       "options": [
         "wage-mcq-01",
-        "wage-mcq-02",
-        "wage-mcq-03",
-        "wage-mcq-04",
-        "wage-mcq-05",
-        "wage-mcq-06"
+        "wage-mcq-64",
+        "wage-mcq-14"
       ],
       "explanation": "本句的「wages」指「僱主就員工提供勞動而支付的工資／薪酬」。",
       "sentenceIndex": 1,
@@ -911,12 +902,9 @@ export default {
         "wages"
       ],
       "optionReasons": {
-        "wage-mcq-01": "本句指「僱主就員工提供勞動而支付的工資／薪酬」。",
-        "wage-mcq-02": "「員工實際收到／應收到的工資，常用複數」與本句語境不同。",
-        "wage-mcq-03": "「每工作一小時所支付的時薪」與本句語境不同。",
-        "wage-mcq-04": "「日薪／週薪」與本句語境不同。",
-        "wage-mcq-05": "「每單位時間或產量的工資率」與本句語境不同。",
-        "wage-mcq-06": "「按完成件數／產量計算的工資」與本句語境不同。"
+        "wage-mcq-01": "本句的「wages」指「僱主就員工提供勞動而支付的工資／薪酬」。",
+        "wage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-01"
     },
@@ -928,11 +916,8 @@ export default {
       "masked": "The hourly ____ is $18.",
       "options": [
         "wage-mcq-03",
-        "wage-mcq-02",
-        "wage-mcq-04",
-        "wage-mcq-01",
-        "wage-mcq-05",
-        "wage-mcq-06"
+        "wage-mcq-64",
+        "wage-mcq-14"
       ],
       "explanation": "本句的「wage」指「每工作一小時所支付的時薪」。",
       "sentenceIndex": 4,
@@ -941,12 +926,9 @@ export default {
         "wage"
       ],
       "optionReasons": {
-        "wage-mcq-03": "本句指「每工作一小時所支付的時薪」。",
-        "wage-mcq-02": "「員工實際收到／應收到的工資，常用複數」與本句語境不同。",
-        "wage-mcq-04": "「日薪／週薪」與本句語境不同。",
-        "wage-mcq-01": "「僱主就員工提供勞動而支付的工資／薪酬」與本句語境不同。",
-        "wage-mcq-05": "「每單位時間或產量的工資率」與本句語境不同。",
-        "wage-mcq-06": "「按完成件數／產量計算的工資」與本句語境不同。"
+        "wage-mcq-03": "本句的「wage」指「每工作一小時所支付的時薪」。",
+        "wage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-03"
     },
@@ -958,11 +940,8 @@ export default {
       "masked": "The ____ rate increased.",
       "options": [
         "wage-mcq-05",
-        "wage-mcq-04",
-        "wage-mcq-06",
-        "wage-mcq-03",
-        "wage-mcq-07",
-        "wage-mcq-02"
+        "wage-mcq-64",
+        "wage-mcq-14"
       ],
       "explanation": "本句的「wage」指「每單位時間或產量的工資率」。",
       "sentenceIndex": 5,
@@ -971,12 +950,9 @@ export default {
         "wage"
       ],
       "optionReasons": {
-        "wage-mcq-05": "本句指「每單位時間或產量的工資率」。",
-        "wage-mcq-04": "「日薪／週薪」與本句語境不同。",
-        "wage-mcq-06": "「按完成件數／產量計算的工資」與本句語境不同。",
-        "wage-mcq-03": "「每工作一小時所支付的時薪」與本句語境不同。",
-        "wage-mcq-07": "「未計額外津貼、加班等前的基本工資」與本句語境不同。",
-        "wage-mcq-02": "「員工實際收到／應收到的工資，常用複數」與本句語境不同。"
+        "wage-mcq-05": "本句的「wage」指「每單位時間或產量的工資率」。",
+        "wage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-05"
     },
@@ -988,11 +964,8 @@ export default {
       "masked": "The sector is known for low ____.",
       "options": [
         "wage-mcq-10",
-        "wage-mcq-09",
-        "wage-mcq-11",
-        "wage-mcq-08",
-        "wage-mcq-12",
-        "wage-mcq-07"
+        "wage-mcq-14",
+        "wage-mcq-64"
       ],
       "explanation": "本句的「wages」指「低／高工資」。",
       "sentenceIndex": 6,
@@ -1001,12 +974,9 @@ export default {
         "wages"
       ],
       "optionReasons": {
-        "wage-mcq-10": "本句指「低／高工資」。",
-        "wage-mcq-09": "「扣除相關款項後的淨工資」與本句語境不同。",
-        "wage-mcq-11": "「法律／制度規定僱主至少須支付的工資」與本句語境不同。",
-        "wage-mcq-08": "「未扣除稅款等前的工資總額」與本句語境不同。",
-        "wage-mcq-12": "「以能支持工人及家庭體面生活為目標的工資概念」與本句語境不同。",
-        "wage-mcq-07": "「未計額外津貼、加班等前的基本工資」與本句語境不同。"
+        "wage-mcq-10": "本句的「wages」指「低／高工資」。",
+        "wage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-10"
     },
@@ -1018,11 +988,8 @@ export default {
       "masked": "The starting ____ is $17 per hour.",
       "options": [
         "wage-mcq-14",
-        "wage-mcq-13",
-        "wage-mcq-15",
-        "wage-mcq-12",
-        "wage-mcq-16",
-        "wage-mcq-11"
+        "wage-mcq-26",
+        "wage-mcq-64"
       ],
       "explanation": "本句的「wage」指「入職起薪」。",
       "sentenceIndex": 8,
@@ -1031,12 +998,9 @@ export default {
         "wage"
       ],
       "optionReasons": {
-        "wage-mcq-14": "本句指「入職起薪」。",
-        "wage-mcq-13": "「某地區／職種的通行或制度指定工資水平」與本句語境不同。",
-        "wage-mcq-15": "「加薪／工資上升」與本句語境不同。",
-        "wage-mcq-12": "「以能支持工人及家庭體面生活為目標的工資概念」與本句語境不同。",
-        "wage-mcq-16": "「減薪」與本句語境不同。",
-        "wage-mcq-11": "「法律／制度規定僱主至少須支付的工資」與本句語境不同。"
+        "wage-mcq-14": "本句的「wage」指「入職起薪」。",
+        "wage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-14"
     },
@@ -1048,11 +1012,8 @@ export default {
       "masked": "Employees received a 5% ____ increase.",
       "options": [
         "wage-mcq-15",
-        "wage-mcq-14",
-        "wage-mcq-16",
-        "wage-mcq-13",
-        "wage-mcq-17",
-        "wage-mcq-12"
+        "wage-mcq-64",
+        "wage-mcq-14"
       ],
       "explanation": "本句的「wage」指「加薪／工資上升」。",
       "sentenceIndex": 9,
@@ -1061,12 +1022,9 @@ export default {
         "wage"
       ],
       "optionReasons": {
-        "wage-mcq-15": "本句指「加薪／工資上升」。",
-        "wage-mcq-14": "「入職起薪」與本句語境不同。",
-        "wage-mcq-16": "「減薪」與本句語境不同。",
-        "wage-mcq-13": "「某地區／職種的通行或制度指定工資水平」與本句語境不同。",
-        "wage-mcq-17": "「在一段期間不提高工資」與本句語境不同。",
-        "wage-mcq-12": "「以能支持工人及家庭體面生活為目標的工資概念」與本句語境不同。"
+        "wage-mcq-15": "本句的「wage」指「加薪／工資上升」。",
+        "wage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-15"
     },
@@ -1078,11 +1036,8 @@ export default {
       "masked": "The company introduced ____ cuts.",
       "options": [
         "wage-mcq-16",
-        "wage-mcq-15",
-        "wage-mcq-17",
-        "wage-mcq-14",
-        "wage-mcq-18",
-        "wage-mcq-13"
+        "wage-mcq-28",
+        "wage-mcq-61"
       ],
       "explanation": "本句的「wage」指「減薪」。",
       "sentenceIndex": 10,
@@ -1091,12 +1046,9 @@ export default {
         "wage"
       ],
       "optionReasons": {
-        "wage-mcq-16": "本句指「減薪」。",
-        "wage-mcq-15": "「加薪／工資上升」與本句語境不同。",
-        "wage-mcq-17": "「在一段期間不提高工資」與本句語境不同。",
-        "wage-mcq-14": "「入職起薪」與本句語境不同。",
-        "wage-mcq-18": "「工資／加薪幅度的上限」與本句語境不同。",
-        "wage-mcq-13": "「某地區／職種的通行或制度指定工資水平」與本句語境不同。"
+        "wage-mcq-16": "本句的「wage」指「減薪」。",
+        "wage-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-16"
     },
@@ -1108,11 +1060,8 @@ export default {
       "masked": "The union submitted a ____ demand.",
       "options": [
         "wage-mcq-21",
-        "wage-mcq-20",
-        "wage-mcq-22",
-        "wage-mcq-19",
-        "wage-mcq-23",
-        "wage-mcq-18"
+        "wage-mcq-64",
+        "wage-mcq-14"
       ],
       "explanation": "本句的「wage」指「要求加薪；法律語境亦可指工資申索」。",
       "sentenceIndex": 11,
@@ -1121,12 +1070,9 @@ export default {
         "wage"
       ],
       "optionReasons": {
-        "wage-mcq-21": "本句指「要求加薪；法律語境亦可指工資申索」。",
-        "wage-mcq-20": "「僱主與工人就工資進行協商」與本句語境不同。",
-        "wage-mcq-22": "「談判後達成的工資協議」與本句語境不同。",
-        "wage-mcq-19": "「不應／不得低於的工資下限」與本句語境不同。",
-        "wage-mcq-23": "「按職級等劃分的工資等級／範圍」與本句語境不同。",
-        "wage-mcq-18": "「工資／加薪幅度的上限」與本句語境不同。"
+        "wage-mcq-21": "本句的「wage」指「要求加薪；法律語境亦可指工資申索」。",
+        "wage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-21"
     },
@@ -1138,11 +1084,8 @@ export default {
       "masked": "The restaurant's ____ bill is rising.",
       "options": [
         "wage-mcq-26",
-        "wage-mcq-25",
-        "wage-mcq-27",
-        "wage-mcq-24",
-        "wage-mcq-28",
-        "wage-mcq-23"
+        "wage-mcq-61",
+        "wage-mcq-16"
       ],
       "explanation": "本句的「wage」指「僱主支付所有員工工資的總額」。",
       "sentenceIndex": 12,
@@ -1151,12 +1094,9 @@ export default {
         "wage"
       ],
       "optionReasons": {
-        "wage-mcq-26": "本句指「僱主支付所有員工工資的總額」。",
-        "wage-mcq-25": "「因技能、資格、時段等獲得的額外工資優勢」與本句語境不同。",
-        "wage-mcq-27": "「對僱主而言的工資成本」與本句語境不同。",
-        "wage-mcq-24": "「不同工作／群體之間的工資差異」與本句語境不同。",
-        "wage-mcq-28": "「以僱傭工資為主要勞動收入的人」與本句語境不同。",
-        "wage-mcq-23": "「按職級等劃分的工資等級／範圍」與本句語境不同。"
+        "wage-mcq-26": "本句的「wage」指「僱主支付所有員工工資的總額」。",
+        "wage-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-26"
     },
@@ -1168,11 +1108,8 @@ export default {
       "masked": "The tax affects many low-____ earners.",
       "options": [
         "wage-mcq-28",
-        "wage-mcq-27",
-        "wage-mcq-29",
-        "wage-mcq-26",
-        "wage-mcq-30",
-        "wage-mcq-25"
+        "wage-mcq-64",
+        "wage-mcq-16"
       ],
       "explanation": "本句的「wage」指「以僱傭工資為主要勞動收入的人」。",
       "sentenceIndex": 13,
@@ -1181,12 +1118,9 @@ export default {
         "wage"
       ],
       "optionReasons": {
-        "wage-mcq-28": "本句指「以僱傭工資為主要勞動收入的人」。",
-        "wage-mcq-27": "「對僱主而言的工資成本」與本句語境不同。",
-        "wage-mcq-29": "「以提供勞動換取僱主工資的僱傭勞動」與本句語境不同。",
-        "wage-mcq-26": "「僱主支付所有員工工資的總額」與本句語境不同。",
-        "wage-mcq-30": "「受僱於僱主並取得工資的就業」與本句語境不同。",
-        "wage-mcq-25": "「因技能、資格、時段等獲得的額外工資優勢」與本句語境不同。"
+        "wage-mcq-28": "本句的「wage」指「以僱傭工資為主要勞動收入的人」。",
+        "wage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-28"
     },
@@ -1198,11 +1132,8 @@ export default {
       "masked": "Workers are owed three months of ____ arrears.",
       "options": [
         "wage-mcq-50",
-        "wage-mcq-49",
-        "wage-mcq-51",
-        "wage-mcq-48",
-        "wage-mcq-52",
-        "wage-mcq-47"
+        "wage-mcq-63",
+        "wage-mcq-14"
       ],
       "explanation": "本句的「wage」指「已到期但尚未支付的欠薪」。",
       "sentenceIndex": 14,
@@ -1211,12 +1142,9 @@ export default {
         "wage"
       ],
       "optionReasons": {
-        "wage-mcq-50": "本句指「已到期但尚未支付的欠薪」。",
-        "wage-mcq-49": "「在失業、病假等期間替代部分原工資的福利收入」與本句語境不同。",
-        "wage-mcq-51": "「應付但沒有支付的工資」與本句語境不同。",
-        "wage-mcq-48": "「政府／制度用以補貼工資或僱傭成本的支持」與本句語境不同。",
-        "wage-mcq-52": "「對之前欠付／少付期間補發的工資」與本句語境不同。",
-        "wage-mcq-47": "「公共服務／社會福利等被視為對私人收入的補充；專業概念」與本句語境不同。"
+        "wage-mcq-50": "本句的「wage」指「已到期但尚未支付的欠薪」。",
+        "wage-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-50"
     },
@@ -1228,11 +1156,8 @@ export default {
       "masked": "The two states ____ war for years.",
       "options": [
         "wage-mcq-61",
-        "wage-mcq-60",
-        "wage-mcq-62",
-        "wage-mcq-59",
-        "wage-mcq-63",
-        "wage-mcq-58"
+        "wage-mcq-50",
+        "wage-mcq-14"
       ],
       "explanation": "本句的「waged」指「發動並持續進行戰爭／鬥爭」。",
       "sentenceIndex": 16,
@@ -1241,12 +1166,9 @@ export default {
         "waged"
       ],
       "optionReasons": {
-        "wage-mcq-61": "本句指「發動並持續進行戰爭／鬥爭」。",
-        "wage-mcq-60": "「某行為所得的報應／後果；較舊式」與本句語境不同。",
-        "wage-mcq-62": "「比喻對 X 展開強力而持續的打擊」與本句語境不同。",
-        "wage-mcq-59": "「已由員工賺取但期末尚未支付的應計工資」與本句語境不同。",
-        "wage-mcq-63": "「有組織地展開並持續進行一場運動」與本句語境不同。",
-        "wage-mcq-58": "「會計上的工資費用」與本句語境不同。"
+        "wage-mcq-61": "本句的「waged」指「發動並持續進行戰爭／鬥爭」。",
+        "wage-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-61"
     },
@@ -1258,11 +1180,8 @@ export default {
       "masked": "The company ____ war on unnecessary costs.",
       "options": [
         "wage-mcq-61",
-        "wage-mcq-60",
-        "wage-mcq-62",
-        "wage-mcq-59",
-        "wage-mcq-63",
-        "wage-mcq-58"
+        "wage-mcq-26",
+        "wage-mcq-16"
       ],
       "explanation": "本句的「waged」指「發動並持續進行戰爭／鬥爭」。",
       "sentenceIndex": 17,
@@ -1271,12 +1190,9 @@ export default {
         "waged"
       ],
       "optionReasons": {
-        "wage-mcq-61": "本句指「發動並持續進行戰爭／鬥爭」。",
-        "wage-mcq-60": "「某行為所得的報應／後果；較舊式」與本句語境不同。",
-        "wage-mcq-62": "「比喻對 X 展開強力而持續的打擊」與本句語境不同。",
-        "wage-mcq-59": "「已由員工賺取但期末尚未支付的應計工資」與本句語境不同。",
-        "wage-mcq-63": "「有組織地展開並持續進行一場運動」與本句語境不同。",
-        "wage-mcq-58": "「會計上的工資費用」與本句語境不同。"
+        "wage-mcq-61": "本句的「waged」指「發動並持續進行戰爭／鬥爭」。",
+        "wage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-61"
     },
@@ -1288,11 +1204,8 @@ export default {
       "masked": "They ____ a campaign to improve safety.",
       "options": [
         "wage-mcq-63",
-        "wage-mcq-62",
-        "wage-mcq-64",
-        "wage-mcq-61",
-        "wage-mcq-65",
-        "wage-mcq-60"
+        "wage-mcq-21",
+        "wage-mcq-14"
       ],
       "explanation": "本句的「waged」指「有組織地展開並持續進行一場運動」。",
       "sentenceIndex": 18,
@@ -1301,12 +1214,9 @@ export default {
         "waged"
       ],
       "optionReasons": {
-        "wage-mcq-63": "本句指「有組織地展開並持續進行一場運動」。",
-        "wage-mcq-62": "「比喻對 X 展開強力而持續的打擊」與本句語境不同。",
-        "wage-mcq-64": "「正式：進行長期戰鬥／鬥爭」與本句語境不同。",
-        "wage-mcq-61": "「發動並持續進行戰爭／鬥爭」與本句語境不同。",
-        "wage-mcq-65": "「戰爭／運動等被持續進行」與本句語境不同。",
-        "wage-mcq-60": "「某行為所得的報應／後果；較舊式」與本句語境不同。"
+        "wage-mcq-63": "本句的「waged」指「有組織地展開並持續進行一場運動」。",
+        "wage-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-63"
     },
@@ -1318,11 +1228,8 @@ export default {
       "masked": "Doctors are ____ a battle against the disease.",
       "options": [
         "wage-mcq-64",
-        "wage-mcq-63",
-        "wage-mcq-65",
-        "wage-mcq-62",
-        "wage-mcq-66",
-        "wage-mcq-61"
+        "wage-mcq-26",
+        "wage-mcq-14"
       ],
       "explanation": "本句的「waging」指「正式：進行長期戰鬥／鬥爭」。",
       "sentenceIndex": 19,
@@ -1331,12 +1238,9 @@ export default {
         "waging"
       ],
       "optionReasons": {
-        "wage-mcq-64": "本句指「正式：進行長期戰鬥／鬥爭」。",
-        "wage-mcq-63": "「有組織地展開並持續進行一場運動」與本句語境不同。",
-        "wage-mcq-65": "「戰爭／運動等被持續進行」與本句語境不同。",
-        "wage-mcq-62": "「比喻對 X 展開強力而持續的打擊」與本句語境不同。",
-        "wage-mcq-66": "「古義：抵押／保證物」與本句語境不同。",
-        "wage-mcq-61": "「發動並持續進行戰爭／鬥爭」與本句語境不同。"
+        "wage-mcq-64": "本句的「waging」指「正式：進行長期戰鬥／鬥爭」。",
+        "wage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wage-mcq-64"
     }
@@ -1348,5 +1252,7 @@ export default {
     "sha256": "521dcfd4a4b200799d0a3cf96b1b59d391da29e9e2349c2c45b5e721c7e031ae",
     "pages": 53
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

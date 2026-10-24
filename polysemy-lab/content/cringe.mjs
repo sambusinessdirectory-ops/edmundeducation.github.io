@@ -191,11 +191,7 @@ export default {
       "masked": "The dog ____ when it heard the loud noise.",
       "options": [
         "cringe-mcq-01",
-        "cringe-mcq-02",
-        "cringe-mcq-03",
-        "cringe-mcq-04",
-        "cringe-mcq-05",
-        "cringe-mcq-06"
+        "cringe-mcq-03"
       ],
       "explanation": "本句的「cringed」指「因害怕、痛楚或不適而把身體縮起來／退縮」。",
       "sentenceIndex": 0,
@@ -204,12 +200,8 @@ export default {
         "cringed"
       ],
       "optionReasons": {
-        "cringe-mcq-01": "本句指「因害怕、痛楚或不適而把身體縮起來／退縮」。",
-        "cringe-mcq-02": "「因某件事尷尬、難堪或看不下去而產生強烈不適反應」與本句語境不同。",
-        "cringe-mcq-03": "「對某件事感到尷尬得難受／不忍直視」與本句語境不同。",
-        "cringe-mcq-04": "「令人強烈感到尷尬、做作、不自然或不酷的」與本句語境不同。",
-        "cringe-mcq-05": "「看到別人的行為時產生的替人尷尬感」與本句語境不同。",
-        "cringe-mcq-06": "「尷尬、做作、令人不自在的」與本句語境不同。"
+        "cringe-mcq-01": "本句的「cringed」指「因害怕、痛楚或不適而把身體縮起來／退縮」。",
+        "cringe-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-01"
     },
@@ -221,11 +213,7 @@ export default {
       "masked": "He ____ away from the blow.",
       "options": [
         "cringe-mcq-01",
-        "cringe-mcq-02",
-        "cringe-mcq-03",
-        "cringe-mcq-04",
-        "cringe-mcq-05",
-        "cringe-mcq-06"
+        "cringe-mcq-04"
       ],
       "explanation": "本句的「cringed」指「因害怕、痛楚或不適而把身體縮起來／退縮」。",
       "sentenceIndex": 1,
@@ -234,12 +222,8 @@ export default {
         "cringed"
       ],
       "optionReasons": {
-        "cringe-mcq-01": "本句指「因害怕、痛楚或不適而把身體縮起來／退縮」。",
-        "cringe-mcq-02": "「因某件事尷尬、難堪或看不下去而產生強烈不適反應」與本句語境不同。",
-        "cringe-mcq-03": "「對某件事感到尷尬得難受／不忍直視」與本句語境不同。",
-        "cringe-mcq-04": "「令人強烈感到尷尬、做作、不自然或不酷的」與本句語境不同。",
-        "cringe-mcq-05": "「看到別人的行為時產生的替人尷尬感」與本句語境不同。",
-        "cringe-mcq-06": "「尷尬、做作、令人不自在的」與本句語境不同。"
+        "cringe-mcq-01": "本句的「cringed」指「因害怕、痛楚或不適而把身體縮起來／退縮」。",
+        "cringe-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-01"
     },
@@ -251,11 +235,7 @@ export default {
       "masked": "I ____ when I heard my old recording.",
       "options": [
         "cringe-mcq-02",
-        "cringe-mcq-01",
-        "cringe-mcq-03",
-        "cringe-mcq-04",
-        "cringe-mcq-05",
-        "cringe-mcq-06"
+        "cringe-mcq-08"
       ],
       "explanation": "本句的「cringed」指「因某件事尷尬、難堪或看不下去而產生強烈不適反應」。",
       "sentenceIndex": 2,
@@ -264,12 +244,8 @@ export default {
         "cringed"
       ],
       "optionReasons": {
-        "cringe-mcq-02": "本句指「因某件事尷尬、難堪或看不下去而產生強烈不適反應」。",
-        "cringe-mcq-01": "「因害怕、痛楚或不適而把身體縮起來／退縮」與本句語境不同。",
-        "cringe-mcq-03": "「對某件事感到尷尬得難受／不忍直視」與本句語境不同。",
-        "cringe-mcq-04": "「令人強烈感到尷尬、做作、不自然或不酷的」與本句語境不同。",
-        "cringe-mcq-05": "「看到別人的行為時產生的替人尷尬感」與本句語境不同。",
-        "cringe-mcq-06": "「尷尬、做作、令人不自在的」與本句語境不同。"
+        "cringe-mcq-02": "本句的「cringed」指「因某件事尷尬、難堪或看不下去而產生強烈不適反應」。",
+        "cringe-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-02"
     },
@@ -281,11 +257,7 @@ export default {
       "masked": "She ____ at the awkward joke.",
       "options": [
         "cringe-mcq-02",
-        "cringe-mcq-01",
-        "cringe-mcq-03",
-        "cringe-mcq-04",
-        "cringe-mcq-05",
-        "cringe-mcq-06"
+        "cringe-mcq-08"
       ],
       "explanation": "本句的「cringed」指「因某件事尷尬、難堪或看不下去而產生強烈不適反應」。",
       "sentenceIndex": 3,
@@ -294,12 +266,8 @@ export default {
         "cringed"
       ],
       "optionReasons": {
-        "cringe-mcq-02": "本句指「因某件事尷尬、難堪或看不下去而產生強烈不適反應」。",
-        "cringe-mcq-01": "「因害怕、痛楚或不適而把身體縮起來／退縮」與本句語境不同。",
-        "cringe-mcq-03": "「對某件事感到尷尬得難受／不忍直視」與本句語境不同。",
-        "cringe-mcq-04": "「令人強烈感到尷尬、做作、不自然或不酷的」與本句語境不同。",
-        "cringe-mcq-05": "「看到別人的行為時產生的替人尷尬感」與本句語境不同。",
-        "cringe-mcq-06": "「尷尬、做作、令人不自在的」與本句語境不同。"
+        "cringe-mcq-02": "本句的「cringed」指「因某件事尷尬、難堪或看不下去而產生強烈不適反應」。",
+        "cringe-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-02"
     },
@@ -311,11 +279,7 @@ export default {
       "masked": "I ____ some of my old posts.",
       "options": [
         "cringe-mcq-03",
-        "cringe-mcq-02",
-        "cringe-mcq-04",
-        "cringe-mcq-01",
-        "cringe-mcq-05",
-        "cringe-mcq-06"
+        "cringe-mcq-08"
       ],
       "explanation": "本句的「cringe at」指「對某件事感到尷尬得難受／不忍直視」。",
       "sentenceIndex": 4,
@@ -324,12 +288,8 @@ export default {
         "cringe at"
       ],
       "optionReasons": {
-        "cringe-mcq-03": "本句指「對某件事感到尷尬得難受／不忍直視」。",
-        "cringe-mcq-02": "「因某件事尷尬、難堪或看不下去而產生強烈不適反應」與本句語境不同。",
-        "cringe-mcq-04": "「令人強烈感到尷尬、做作、不自然或不酷的」與本句語境不同。",
-        "cringe-mcq-01": "「因害怕、痛楚或不適而把身體縮起來／退縮」與本句語境不同。",
-        "cringe-mcq-05": "「看到別人的行為時產生的替人尷尬感」與本句語境不同。",
-        "cringe-mcq-06": "「尷尬、做作、令人不自在的」與本句語境不同。"
+        "cringe-mcq-03": "本句的「cringe at」指「對某件事感到尷尬得難受／不忍直視」。",
+        "cringe-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-03"
     },
@@ -341,11 +301,7 @@ export default {
       "masked": "He ____ at the memory of what he had said.",
       "options": [
         "cringe-mcq-03",
-        "cringe-mcq-02",
-        "cringe-mcq-04",
-        "cringe-mcq-01",
-        "cringe-mcq-05",
-        "cringe-mcq-06"
+        "cringe-mcq-08"
       ],
       "explanation": "本句的「cringed」指「對某件事感到尷尬得難受／不忍直視」。",
       "sentenceIndex": 5,
@@ -354,12 +310,8 @@ export default {
         "cringed"
       ],
       "optionReasons": {
-        "cringe-mcq-03": "本句指「對某件事感到尷尬得難受／不忍直視」。",
-        "cringe-mcq-02": "「因某件事尷尬、難堪或看不下去而產生強烈不適反應」與本句語境不同。",
-        "cringe-mcq-04": "「令人強烈感到尷尬、做作、不自然或不酷的」與本句語境不同。",
-        "cringe-mcq-01": "「因害怕、痛楚或不適而把身體縮起來／退縮」與本句語境不同。",
-        "cringe-mcq-05": "「看到別人的行為時產生的替人尷尬感」與本句語境不同。",
-        "cringe-mcq-06": "「尷尬、做作、令人不自在的」與本句語境不同。"
+        "cringe-mcq-03": "本句的「cringed」指「對某件事感到尷尬得難受／不忍直視」。",
+        "cringe-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-03"
     },
@@ -371,10 +323,6 @@ export default {
       "masked": "Someone said the video was ____.",
       "options": [
         "cringe-mcq-04",
-        "cringe-mcq-03",
-        "cringe-mcq-05",
-        "cringe-mcq-02",
-        "cringe-mcq-06",
         "cringe-mcq-01"
       ],
       "explanation": "本句的「cringe」指「令人強烈感到尷尬、做作、不自然或不酷的」。",
@@ -384,12 +332,8 @@ export default {
         "cringe"
       ],
       "optionReasons": {
-        "cringe-mcq-04": "本句指「令人強烈感到尷尬、做作、不自然或不酷的」。",
-        "cringe-mcq-03": "「對某件事感到尷尬得難受／不忍直視」與本句語境不同。",
-        "cringe-mcq-05": "「看到別人的行為時產生的替人尷尬感」與本句語境不同。",
-        "cringe-mcq-02": "「因某件事尷尬、難堪或看不下去而產生強烈不適反應」與本句語境不同。",
-        "cringe-mcq-06": "「尷尬、做作、令人不自在的」與本句語境不同。",
-        "cringe-mcq-01": "「因害怕、痛楚或不適而把身體縮起來／退縮」與本句語境不同。"
+        "cringe-mcq-04": "本句的「cringe」指「令人強烈感到尷尬、做作、不自然或不酷的」。",
+        "cringe-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-04"
     },
@@ -401,10 +345,6 @@ export default {
       "masked": "That caption is a bit ____.",
       "options": [
         "cringe-mcq-04",
-        "cringe-mcq-03",
-        "cringe-mcq-05",
-        "cringe-mcq-02",
-        "cringe-mcq-06",
         "cringe-mcq-01"
       ],
       "explanation": "本句的「cringe」指「令人強烈感到尷尬、做作、不自然或不酷的」。",
@@ -414,12 +354,8 @@ export default {
         "cringe"
       ],
       "optionReasons": {
-        "cringe-mcq-04": "本句指「令人強烈感到尷尬、做作、不自然或不酷的」。",
-        "cringe-mcq-03": "「對某件事感到尷尬得難受／不忍直視」與本句語境不同。",
-        "cringe-mcq-05": "「看到別人的行為時產生的替人尷尬感」與本句語境不同。",
-        "cringe-mcq-02": "「因某件事尷尬、難堪或看不下去而產生強烈不適反應」與本句語境不同。",
-        "cringe-mcq-06": "「尷尬、做作、令人不自在的」與本句語境不同。",
-        "cringe-mcq-01": "「因害怕、痛楚或不適而把身體縮起來／退縮」與本句語境不同。"
+        "cringe-mcq-04": "本句的「cringe」指「令人強烈感到尷尬、做作、不自然或不酷的」。",
+        "cringe-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-04"
     },
@@ -431,11 +367,7 @@ export default {
       "masked": "The whole scene was pure ____.",
       "options": [
         "cringe-mcq-05",
-        "cringe-mcq-04",
-        "cringe-mcq-06",
-        "cringe-mcq-03",
-        "cringe-mcq-07",
-        "cringe-mcq-02"
+        "cringe-mcq-08"
       ],
       "explanation": "本句的「cringe」指「看到別人的行為時產生的替人尷尬感」。",
       "sentenceIndex": 8,
@@ -444,12 +376,8 @@ export default {
         "cringe"
       ],
       "optionReasons": {
-        "cringe-mcq-05": "本句指「看到別人的行為時產生的替人尷尬感」。",
-        "cringe-mcq-04": "「令人強烈感到尷尬、做作、不自然或不酷的」與本句語境不同。",
-        "cringe-mcq-06": "「尷尬、做作、令人不自在的」與本句語境不同。",
-        "cringe-mcq-03": "「對某件事感到尷尬得難受／不忍直視」與本句語境不同。",
-        "cringe-mcq-07": "「尷尬程度高到令人想避開／難以觀看的」與本句語境不同。",
-        "cringe-mcq-02": "「因某件事尷尬、難堪或看不下去而產生強烈不適反應」與本句語境不同。"
+        "cringe-mcq-05": "本句的「cringe」指「看到別人的行為時產生的替人尷尬感」。",
+        "cringe-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-05"
     },
@@ -461,11 +389,7 @@ export default {
       "masked": "I couldn’t handle the ____.",
       "options": [
         "cringe-mcq-05",
-        "cringe-mcq-04",
-        "cringe-mcq-06",
-        "cringe-mcq-03",
-        "cringe-mcq-07",
-        "cringe-mcq-02"
+        "cringe-mcq-08"
       ],
       "explanation": "本句的「cringe」指「看到別人的行為時產生的替人尷尬感」。",
       "sentenceIndex": 9,
@@ -474,12 +398,8 @@ export default {
         "cringe"
       ],
       "optionReasons": {
-        "cringe-mcq-05": "本句指「看到別人的行為時產生的替人尷尬感」。",
-        "cringe-mcq-04": "「令人強烈感到尷尬、做作、不自然或不酷的」與本句語境不同。",
-        "cringe-mcq-06": "「尷尬、做作、令人不自在的」與本句語境不同。",
-        "cringe-mcq-03": "「對某件事感到尷尬得難受／不忍直視」與本句語境不同。",
-        "cringe-mcq-07": "「尷尬程度高到令人想避開／難以觀看的」與本句語境不同。",
-        "cringe-mcq-02": "「因某件事尷尬、難堪或看不下去而產生強烈不適反應」與本句語境不同。"
+        "cringe-mcq-05": "本句的「cringe」指「看到別人的行為時產生的替人尷尬感」。",
+        "cringe-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-05"
     },
@@ -491,11 +411,7 @@ export default {
       "masked": "The joke was really ____.",
       "options": [
         "cringe-mcq-06",
-        "cringe-mcq-05",
-        "cringe-mcq-07",
-        "cringe-mcq-04",
-        "cringe-mcq-08",
-        "cringe-mcq-03"
+        "cringe-mcq-01"
       ],
       "explanation": "本句的「cringey」指「尷尬、做作、令人不自在的」。",
       "sentenceIndex": 10,
@@ -504,12 +420,8 @@ export default {
         "cringey"
       ],
       "optionReasons": {
-        "cringe-mcq-06": "本句指「尷尬、做作、令人不自在的」。",
-        "cringe-mcq-05": "「看到別人的行為時產生的替人尷尬感」與本句語境不同。",
-        "cringe-mcq-07": "「尷尬程度高到令人想避開／難以觀看的」與本句語境不同。",
-        "cringe-mcq-04": "「令人強烈感到尷尬、做作、不自然或不酷的」與本句語境不同。",
-        "cringe-mcq-08": "「因害怕或自卑而過度順從、卑躬屈膝」與本句語境不同。",
-        "cringe-mcq-03": "「對某件事感到尷尬得難受／不忍直視」與本句語境不同。"
+        "cringe-mcq-06": "本句的「cringey」指「尷尬、做作、令人不自在的」。",
+        "cringe-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-06"
     },
@@ -521,11 +433,7 @@ export default {
       "masked": "His attempt to sound cool was ____.",
       "options": [
         "cringe-mcq-06",
-        "cringe-mcq-05",
-        "cringe-mcq-07",
-        "cringe-mcq-04",
-        "cringe-mcq-08",
-        "cringe-mcq-03"
+        "cringe-mcq-01"
       ],
       "explanation": "本句的「cringey」指「尷尬、做作、令人不自在的」。",
       "sentenceIndex": 11,
@@ -534,12 +442,8 @@ export default {
         "cringey"
       ],
       "optionReasons": {
-        "cringe-mcq-06": "本句指「尷尬、做作、令人不自在的」。",
-        "cringe-mcq-05": "「看到別人的行為時產生的替人尷尬感」與本句語境不同。",
-        "cringe-mcq-07": "「尷尬程度高到令人想避開／難以觀看的」與本句語境不同。",
-        "cringe-mcq-04": "「令人強烈感到尷尬、做作、不自然或不酷的」與本句語境不同。",
-        "cringe-mcq-08": "「因害怕或自卑而過度順從、卑躬屈膝」與本句語境不同。",
-        "cringe-mcq-03": "「對某件事感到尷尬得難受／不忍直視」與本句語境不同。"
+        "cringe-mcq-06": "本句的「cringey」指「尷尬、做作、令人不自在的」。",
+        "cringe-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-06"
     },
@@ -551,11 +455,7 @@ export default {
       "masked": "The interview had several ____ moments.",
       "options": [
         "cringe-mcq-07",
-        "cringe-mcq-06",
-        "cringe-mcq-08",
-        "cringe-mcq-05",
-        "cringe-mcq-04",
-        "cringe-mcq-03"
+        "cringe-mcq-01"
       ],
       "explanation": "本句的「cringeworthy」指「尷尬程度高到令人想避開／難以觀看的」。",
       "sentenceIndex": 12,
@@ -564,12 +464,8 @@ export default {
         "cringeworthy"
       ],
       "optionReasons": {
-        "cringe-mcq-07": "本句指「尷尬程度高到令人想避開／難以觀看的」。",
-        "cringe-mcq-06": "「尷尬、做作、令人不自在的」與本句語境不同。",
-        "cringe-mcq-08": "「因害怕或自卑而過度順從、卑躬屈膝」與本句語境不同。",
-        "cringe-mcq-05": "「看到別人的行為時產生的替人尷尬感」與本句語境不同。",
-        "cringe-mcq-04": "「令人強烈感到尷尬、做作、不自然或不酷的」與本句語境不同。",
-        "cringe-mcq-03": "「對某件事感到尷尬得難受／不忍直視」與本句語境不同。"
+        "cringe-mcq-07": "本句的「cringeworthy」指「尷尬程度高到令人想避開／難以觀看的」。",
+        "cringe-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-07"
     },
@@ -581,11 +477,7 @@ export default {
       "masked": "The speech was painfully ____.",
       "options": [
         "cringe-mcq-07",
-        "cringe-mcq-06",
-        "cringe-mcq-08",
-        "cringe-mcq-05",
-        "cringe-mcq-04",
-        "cringe-mcq-03"
+        "cringe-mcq-01"
       ],
       "explanation": "本句的「cringeworthy」指「尷尬程度高到令人想避開／難以觀看的」。",
       "sentenceIndex": 13,
@@ -594,12 +486,8 @@ export default {
         "cringeworthy"
       ],
       "optionReasons": {
-        "cringe-mcq-07": "本句指「尷尬程度高到令人想避開／難以觀看的」。",
-        "cringe-mcq-06": "「尷尬、做作、令人不自在的」與本句語境不同。",
-        "cringe-mcq-08": "「因害怕或自卑而過度順從、卑躬屈膝」與本句語境不同。",
-        "cringe-mcq-05": "「看到別人的行為時產生的替人尷尬感」與本句語境不同。",
-        "cringe-mcq-04": "「令人強烈感到尷尬、做作、不自然或不酷的」與本句語境不同。",
-        "cringe-mcq-03": "「對某件事感到尷尬得難受／不忍直視」與本句語境不同。"
+        "cringe-mcq-07": "本句的「cringeworthy」指「尷尬程度高到令人想避開／難以觀看的」。",
+        "cringe-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-07"
     },
@@ -611,11 +499,7 @@ export default {
       "masked": "He refused to ____ before powerful people.",
       "options": [
         "cringe-mcq-08",
-        "cringe-mcq-07",
-        "cringe-mcq-06",
-        "cringe-mcq-05",
-        "cringe-mcq-04",
-        "cringe-mcq-03"
+        "cringe-mcq-05"
       ],
       "explanation": "本句的「cringe」指「因害怕或自卑而過度順從、卑躬屈膝」。",
       "sentenceIndex": 14,
@@ -624,12 +508,8 @@ export default {
         "cringe"
       ],
       "optionReasons": {
-        "cringe-mcq-08": "本句指「因害怕或自卑而過度順從、卑躬屈膝」。",
-        "cringe-mcq-07": "「尷尬程度高到令人想避開／難以觀看的」與本句語境不同。",
-        "cringe-mcq-06": "「尷尬、做作、令人不自在的」與本句語境不同。",
-        "cringe-mcq-05": "「看到別人的行為時產生的替人尷尬感」與本句語境不同。",
-        "cringe-mcq-04": "「令人強烈感到尷尬、做作、不自然或不酷的」與本句語境不同。",
-        "cringe-mcq-03": "「對某件事感到尷尬得難受／不忍直視」與本句語境不同。"
+        "cringe-mcq-08": "本句的「cringe」指「因害怕或自卑而過度順從、卑躬屈膝」。",
+        "cringe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-08"
     },
@@ -641,11 +521,7 @@ export default {
       "masked": "They ____ before the ruler.",
       "options": [
         "cringe-mcq-08",
-        "cringe-mcq-07",
-        "cringe-mcq-06",
-        "cringe-mcq-05",
-        "cringe-mcq-04",
-        "cringe-mcq-03"
+        "cringe-mcq-05"
       ],
       "explanation": "本句的「cringed」指「因害怕或自卑而過度順從、卑躬屈膝」。",
       "sentenceIndex": 15,
@@ -654,12 +530,8 @@ export default {
         "cringed"
       ],
       "optionReasons": {
-        "cringe-mcq-08": "本句指「因害怕或自卑而過度順從、卑躬屈膝」。",
-        "cringe-mcq-07": "「尷尬程度高到令人想避開／難以觀看的」與本句語境不同。",
-        "cringe-mcq-06": "「尷尬、做作、令人不自在的」與本句語境不同。",
-        "cringe-mcq-05": "「看到別人的行為時產生的替人尷尬感」與本句語境不同。",
-        "cringe-mcq-04": "「令人強烈感到尷尬、做作、不自然或不酷的」與本句語境不同。",
-        "cringe-mcq-03": "「對某件事感到尷尬得難受／不忍直視」與本句語境不同。"
+        "cringe-mcq-08": "本句的「cringed」指「因害怕或自卑而過度順從、卑躬屈膝」。",
+        "cringe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cringe-mcq-08"
     }
@@ -671,5 +543,7 @@ export default {
     "sha256": "e1d29a25a63c52d306bec880e8217b573afecbde5443b72239ac84ced0e4c377",
     "pages": 11
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

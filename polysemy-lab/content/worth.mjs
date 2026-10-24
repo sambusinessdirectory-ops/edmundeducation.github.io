@@ -102,16 +102,6 @@ export default {
       "note": "來源詞義：某人／某物所具有的價值、用處或重要性",
       "examples": [
         [
-          "The idea is worth consideration.",
-          "這個想法值得考慮。",
-          "某人／某物所具有的價值、用處或重要性"
-        ],
-        [
-          "The issue is worth further discussion.",
-          "這個問題值得進一步討論。",
-          "某人／某物所具有的價值、用處或重要性"
-        ],
-        [
           "The painting’s artistic worth is widely recognized.",
           "這幅畫的藝術價值廣受認可。",
           "某人／某物所具有的價值、用處或重要性"
@@ -408,6 +398,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "worth-reviewed-ae976183e5",
+      "title": "某事值得投入某種注意、研究、努力或討論",
+      "form": "worth · source section 5",
+      "en": "某事值得投入某種注意、研究、努力或討論",
+      "zh": "某事值得投入某種注意、研究、努力或討論",
+      "note": "對照原始教材第 5 節及例句核實。",
+      "examples": [
+        [
+          "The idea is worth consideration.",
+          "這個想法值得考慮。",
+          "某事值得投入某種注意、研究、努力或討論"
+        ],
+        [
+          "The issue is worth further discussion.",
+          "這個問題值得進一步討論。",
+          "某事值得投入某種注意、研究、努力或討論"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -419,11 +431,9 @@ export default {
       "masked": "The painting is ____ several million dollars.",
       "options": [
         "worth-mcq-01",
-        "worth-mcq-02",
-        "worth-mcq-03",
+        "worth-pdf-001",
         "worth-mcq-04",
-        "worth-mcq-05",
-        "worth-mcq-06"
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worth」指「某物的金錢價值相當於指定數額」。",
       "sentenceIndex": 0,
@@ -432,12 +442,10 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-01": "本句指「某物的金錢價值相當於指定數額」。",
-        "worth-mcq-02": "「得到的好處、價值或享受足以抵得上所付出的成本／努力」是「be worth it」的用法，與本句語境不同。",
-        "worth-mcq-03": "「某件事有足夠價值，值得投入時間、金錢或精力去做」是「be worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-04": "「某件事非常值得做」是「be well worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。"
+        "worth-mcq-01": "本句的「worth」指「某物的金錢價值相當於指定數額」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-01"
     },
@@ -449,11 +457,9 @@ export default {
       "masked": "How much is this watch ____?",
       "options": [
         "worth-mcq-01",
-        "worth-mcq-02",
-        "worth-mcq-03",
-        "worth-mcq-04",
-        "worth-mcq-05",
-        "worth-mcq-06"
+        "worth-pdf-001",
+        "worth-mcq-16",
+        "worth-mcq-07"
       ],
       "explanation": "本句的「worth」指「某物的金錢價值相當於指定數額」。",
       "sentenceIndex": 1,
@@ -462,12 +468,10 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-01": "本句指「某物的金錢價值相當於指定數額」。",
-        "worth-mcq-02": "「得到的好處、價值或享受足以抵得上所付出的成本／努力」是「be worth it」的用法，與本句語境不同。",
-        "worth-mcq-03": "「某件事有足夠價值，值得投入時間、金錢或精力去做」是「be worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-04": "「某件事非常值得做」是「be well worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。"
+        "worth-mcq-01": "本句的「worth」指「某物的金錢價值相當於指定數額」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-01"
     },
@@ -479,11 +483,9 @@ export default {
       "masked": "I think it would be ____.",
       "options": [
         "worth-mcq-02",
-        "worth-mcq-01",
-        "worth-mcq-03",
+        "worth-pdf-001",
         "worth-mcq-04",
-        "worth-mcq-05",
-        "worth-mcq-06"
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worth it」指「得到的好處、價值或享受足以抵得上所付出的成本／努力」。",
       "sentenceIndex": 2,
@@ -492,12 +494,10 @@ export default {
         "worth it"
       ],
       "optionReasons": {
-        "worth-mcq-02": "本句指「得到的好處、價值或享受足以抵得上所付出的成本／努力」。",
-        "worth-mcq-01": "「某物的金錢價值相當於指定數額」是「be worth + amount」的用法，與本句語境不同。",
-        "worth-mcq-03": "「某件事有足夠價值，值得投入時間、金錢或精力去做」是「be worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-04": "「某件事非常值得做」是「be well worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。"
+        "worth-mcq-02": "本句的「worth it」指「得到的好處、價值或享受足以抵得上所付出的成本／努力」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-02"
     },
@@ -509,11 +509,9 @@ export default {
       "masked": "The ticket was expensive, but the exhibition was ____ it.",
       "options": [
         "worth-mcq-02",
-        "worth-mcq-01",
-        "worth-mcq-03",
+        "worth-pdf-001",
         "worth-mcq-04",
-        "worth-mcq-05",
-        "worth-mcq-06"
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worth」指「得到的好處、價值或享受足以抵得上所付出的成本／努力」。",
       "sentenceIndex": 3,
@@ -522,12 +520,10 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-02": "本句指「得到的好處、價值或享受足以抵得上所付出的成本／努力」。",
-        "worth-mcq-01": "「某物的金錢價值相當於指定數額」是「be worth + amount」的用法，與本句語境不同。",
-        "worth-mcq-03": "「某件事有足夠價值，值得投入時間、金錢或精力去做」是「be worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-04": "「某件事非常值得做」是「be well worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。"
+        "worth-mcq-02": "本句的「worth」指「得到的好處、價值或享受足以抵得上所付出的成本／努力」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-02"
     },
@@ -539,11 +535,9 @@ export default {
       "masked": "The exhibition is ____.",
       "options": [
         "worth-mcq-03",
-        "worth-mcq-02",
-        "worth-mcq-04",
-        "worth-mcq-01",
-        "worth-mcq-05",
-        "worth-mcq-06"
+        "worth-mcq-07",
+        "worth-pdf-001",
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worth seeing」指「某件事有足夠價值，值得投入時間、金錢或精力去做」。",
       "sentenceIndex": 4,
@@ -552,12 +546,10 @@ export default {
         "worth seeing"
       ],
       "optionReasons": {
-        "worth-mcq-03": "本句指「某件事有足夠價值，值得投入時間、金錢或精力去做」。",
-        "worth-mcq-02": "「得到的好處、價值或享受足以抵得上所付出的成本／努力」是「be worth it」的用法，與本句語境不同。",
-        "worth-mcq-04": "「某件事非常值得做」是「be well worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-01": "「某物的金錢價值相當於指定數額」是「be worth + amount」的用法，與本句語境不同。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。"
+        "worth-mcq-03": "本句的「worth seeing」指「某件事有足夠價值，值得投入時間、金錢或精力去做」。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-03"
     },
@@ -569,11 +561,9 @@ export default {
       "masked": "This book is ____ reading twice.",
       "options": [
         "worth-mcq-03",
-        "worth-mcq-02",
-        "worth-mcq-04",
-        "worth-mcq-01",
-        "worth-mcq-05",
-        "worth-mcq-06"
+        "worth-pdf-001",
+        "worth-mcq-07",
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worth」指「某件事有足夠價值，值得投入時間、金錢或精力去做」。",
       "sentenceIndex": 5,
@@ -582,12 +572,10 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-03": "本句指「某件事有足夠價值，值得投入時間、金錢或精力去做」。",
-        "worth-mcq-02": "「得到的好處、價值或享受足以抵得上所付出的成本／努力」是「be worth it」的用法，與本句語境不同。",
-        "worth-mcq-04": "「某件事非常值得做」是「be well worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-01": "「某物的金錢價值相當於指定數額」是「be worth + amount」的用法，與本句語境不同。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。"
+        "worth-mcq-03": "本句的「worth」指「某件事有足夠價值，值得投入時間、金錢或精力去做」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-03"
     },
@@ -599,11 +587,9 @@ export default {
       "masked": "The museum is ____.",
       "options": [
         "worth-mcq-04",
-        "worth-mcq-03",
-        "worth-mcq-05",
-        "worth-mcq-02",
-        "worth-mcq-06",
-        "worth-mcq-01"
+        "worth-mcq-07",
+        "worth-mcq-08",
+        "worth-pdf-001"
       ],
       "explanation": "本句的「well worth visiting」指「某件事非常值得做」。",
       "sentenceIndex": 6,
@@ -612,12 +598,10 @@ export default {
         "well worth visiting"
       ],
       "optionReasons": {
-        "worth-mcq-04": "本句指「某件事非常值得做」。",
-        "worth-mcq-03": "「某件事有足夠價值，值得投入時間、金錢或精力去做」是「be worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。",
-        "worth-mcq-02": "「得到的好處、價值或享受足以抵得上所付出的成本／努力」是「be worth it」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。",
-        "worth-mcq-01": "「某物的金錢價值相當於指定數額」是「be worth + amount」的用法，與本句語境不同。"
+        "worth-mcq-04": "本句的「well worth visiting」指「某件事非常值得做」。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-04"
     },
@@ -629,11 +613,9 @@ export default {
       "masked": "The long journey was well ____ making.",
       "options": [
         "worth-mcq-04",
-        "worth-mcq-03",
-        "worth-mcq-05",
-        "worth-mcq-02",
-        "worth-mcq-06",
-        "worth-mcq-01"
+        "worth-pdf-001",
+        "worth-mcq-07",
+        "worth-mcq-08"
       ],
       "explanation": "本句的「worth」指「某件事非常值得做」。",
       "sentenceIndex": 7,
@@ -642,74 +624,68 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-04": "本句指「某件事非常值得做」。",
-        "worth-mcq-03": "「某件事有足夠價值，值得投入時間、金錢或精力去做」是「be worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。",
-        "worth-mcq-02": "「得到的好處、價值或享受足以抵得上所付出的成本／努力」是「be worth it」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。",
-        "worth-mcq-01": "「某物的金錢價值相當於指定數額」是「be worth + amount」的用法，與本句語境不同。"
+        "worth-mcq-04": "本句的「worth」指「某件事非常值得做」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-04"
     },
     {
       "id": "worth-05-0",
-      "sense": "worth-mcq-05",
+      "sense": "worth-reviewed-ae976183e5",
       "en": "The idea is worth consideration.",
       "zh": "這個想法值得考慮。",
       "masked": "The idea is ____.",
       "options": [
-        "worth-mcq-05",
-        "worth-mcq-04",
-        "worth-mcq-06",
-        "worth-mcq-03",
-        "worth-mcq-07",
-        "worth-mcq-02"
+        "worth-reviewed-ae976183e5",
+        "worth-pdf-001",
+        "worth-mcq-11",
+        "worth-mcq-07"
       ],
-      "explanation": "本句的「worth consideration」指「某人／某物所具有的價值、用處或重要性」。",
+      "explanation": "對照完整句子：「這個想法值得考慮。」。這裡的「worth consideration」表示「某事值得投入某種注意、研究、努力或討論」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "worth consideration"
       ],
       "optionReasons": {
-        "worth-mcq-05": "本句指「某人／某物所具有的價值、用處或重要性」。",
-        "worth-mcq-04": "「某件事非常值得做」是「be well worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。",
-        "worth-mcq-03": "「某件事有足夠價值，值得投入時間、金錢或精力去做」是「be worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
-        "worth-mcq-02": "「得到的好處、價值或享受足以抵得上所付出的成本／努力」是「be worth it」的用法，與本句語境不同。"
+        "worth-reviewed-ae976183e5": "對照完整句子：「這個想法值得考慮。」。這裡的「worth consideration」表示「某事值得投入某種注意、研究、努力或討論」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "worth-mcq-05"
+      "correctOption": "worth-reviewed-ae976183e5",
+      "previousCorrectOption": "worth-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "worth-05-1",
-      "sense": "worth-mcq-05",
+      "sense": "worth-reviewed-ae976183e5",
       "en": "The issue is worth further discussion.",
       "zh": "這個問題值得進一步討論。",
       "masked": "The issue is ____ further discussion.",
       "options": [
-        "worth-mcq-05",
-        "worth-mcq-04",
-        "worth-mcq-06",
-        "worth-mcq-03",
-        "worth-mcq-07",
-        "worth-mcq-02"
+        "worth-reviewed-ae976183e5",
+        "worth-pdf-001",
+        "worth-mcq-01",
+        "worth-mcq-14"
       ],
-      "explanation": "本句的「worth」指「某人／某物所具有的價值、用處或重要性」。",
+      "explanation": "對照完整句子：「這個問題值得進一步討論。」。這裡的「worth」表示「某事值得投入某種注意、研究、努力或討論」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-05": "本句指「某人／某物所具有的價值、用處或重要性」。",
-        "worth-mcq-04": "「某件事非常值得做」是「be well worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。",
-        "worth-mcq-03": "「某件事有足夠價值，值得投入時間、金錢或精力去做」是「be worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
-        "worth-mcq-02": "「得到的好處、價值或享受足以抵得上所付出的成本／努力」是「be worth it」的用法，與本句語境不同。"
+        "worth-reviewed-ae976183e5": "對照完整句子：「這個問題值得進一步討論。」。這裡的「worth」表示「某事值得投入某種注意、研究、努力或討論」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "worth-mcq-05"
+      "correctOption": "worth-reviewed-ae976183e5",
+      "previousCorrectOption": "worth-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "worth-06-0",
@@ -719,11 +695,9 @@ export default {
       "masked": "The painting’s artistic ____ is widely recognized.",
       "options": [
         "worth-mcq-05",
-        "worth-mcq-04",
-        "worth-mcq-06",
-        "worth-mcq-03",
         "worth-mcq-07",
-        "worth-mcq-02"
+        "worth-mcq-04",
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worth」指「某人／某物所具有的價值、用處或重要性」。",
       "sentenceIndex": 10,
@@ -732,12 +706,10 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-05": "本句指「某人／某物所具有的價值、用處或重要性」。",
-        "worth-mcq-04": "「某件事非常值得做」是「be well worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。",
-        "worth-mcq-03": "「某件事有足夠價值，值得投入時間、金錢或精力去做」是「be worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
-        "worth-mcq-02": "「得到的好處、價值或享受足以抵得上所付出的成本／努力」是「be worth it」的用法，與本句語境不同。"
+        "worth-mcq-05": "本句的「worth」指「某人／某物所具有的價值、用處或重要性」。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-05"
     },
@@ -749,11 +721,9 @@ export default {
       "masked": "His contribution proved its ____ over time.",
       "options": [
         "worth-mcq-05",
-        "worth-mcq-04",
-        "worth-mcq-06",
-        "worth-mcq-03",
         "worth-mcq-07",
-        "worth-mcq-02"
+        "worth-reviewed-ae976183e5",
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worth」指「某人／某物所具有的價值、用處或重要性」。",
       "sentenceIndex": 11,
@@ -762,12 +732,10 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-05": "本句指「某人／某物所具有的價值、用處或重要性」。",
-        "worth-mcq-04": "「某件事非常值得做」是「be well worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。",
-        "worth-mcq-03": "「某件事有足夠價值，值得投入時間、金錢或精力去做」是「be worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
-        "worth-mcq-02": "「得到的好處、價值或享受足以抵得上所付出的成本／努力」是「be worth it」的用法，與本句語境不同。"
+        "worth-mcq-05": "本句的「worth」指「某人／某物所具有的價值、用處或重要性」。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-reviewed-ae976183e5": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-05"
     },
@@ -779,11 +747,9 @@ export default {
       "masked": "The young artist quickly ____.",
       "options": [
         "worth-mcq-06",
-        "worth-mcq-05",
         "worth-mcq-07",
-        "worth-mcq-04",
-        "worth-mcq-08",
-        "worth-mcq-03"
+        "worth-mcq-14",
+        "worth-mcq-04"
       ],
       "explanation": "本句的「proved her worth」指「透過表現證明自己的能力、價值或重要性」。",
       "sentenceIndex": 12,
@@ -792,12 +758,10 @@ export default {
         "proved her worth"
       ],
       "optionReasons": {
-        "worth-mcq-06": "本句指「透過表現證明自己的能力、價值或重要性」。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
-        "worth-mcq-04": "「某件事非常值得做」是「be well worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-08": "「得到的好處足以補償投入的時間、金錢或努力」是「worthwhile」的用法，與本句語境不同。",
-        "worth-mcq-03": "「某件事有足夠價值，值得投入時間、金錢或精力去做」是「be worth + -ing」的用法，與本句語境不同。"
+        "worth-mcq-06": "本句的「proved her worth」指「透過表現證明自己的能力、價值或重要性」。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-06"
     },
@@ -809,11 +773,9 @@ export default {
       "masked": "He was given a chance to prove his ____ to the team.",
       "options": [
         "worth-mcq-06",
-        "worth-mcq-05",
         "worth-mcq-07",
-        "worth-mcq-04",
-        "worth-mcq-08",
-        "worth-mcq-03"
+        "worth-mcq-14",
+        "worth-mcq-04"
       ],
       "explanation": "本句的「worth」指「透過表現證明自己的能力、價值或重要性」。",
       "sentenceIndex": 13,
@@ -822,12 +784,10 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-06": "本句指「透過表現證明自己的能力、價值或重要性」。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
-        "worth-mcq-04": "「某件事非常值得做」是「be well worth + -ing」的用法，與本句語境不同。",
-        "worth-mcq-08": "「得到的好處足以補償投入的時間、金錢或努力」是「worthwhile」的用法，與本句語境不同。",
-        "worth-mcq-03": "「某件事有足夠價值，值得投入時間、金錢或精力去做」是「be worth + -ing」的用法，與本句語境不同。"
+        "worth-mcq-06": "本句的「worth」指「透過表現證明自己的能力、價值或重要性」。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-06"
     },
@@ -839,11 +799,9 @@ export default {
       "masked": "____, I think the smaller frame looks better.",
       "options": [
         "worth-mcq-07",
-        "worth-mcq-06",
-        "worth-mcq-08",
-        "worth-mcq-05",
-        "worth-mcq-09",
-        "worth-mcq-04"
+        "worth-mcq-03",
+        "worth-pdf-001",
+        "worth-mcq-14"
       ],
       "explanation": "本句的「For what it’s worth」指「不確定資訊／意見是否有幫助，但仍提出供參考」。",
       "sentenceIndex": 14,
@@ -852,12 +810,10 @@ export default {
         "For what it’s worth"
       ],
       "optionReasons": {
-        "worth-mcq-07": "本句指「不確定資訊／意見是否有幫助，但仍提出供參考」。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。",
-        "worth-mcq-08": "「得到的好處足以補償投入的時間、金錢或努力」是「worthwhile」的用法，與本句語境不同。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。",
-        "worth-mcq-09": "「因品質、目的或品格而值得尊敬、支持或注意」是「worthy」的用法，與本句語境不同。",
-        "worth-mcq-04": "「某件事非常值得做」是「be well worth + -ing」的用法，與本句語境不同。"
+        "worth-mcq-07": "本句的「For what it’s worth」指「不確定資訊／意見是否有幫助，但仍提出供參考」。",
+        "worth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-07"
     },
@@ -869,11 +825,9 @@ export default {
       "masked": "For what it’s ____, I had the same reaction.",
       "options": [
         "worth-mcq-07",
-        "worth-mcq-06",
         "worth-mcq-08",
-        "worth-mcq-05",
-        "worth-mcq-09",
-        "worth-mcq-04"
+        "worth-mcq-04",
+        "worth-pdf-001"
       ],
       "explanation": "本句的「worth」指「不確定資訊／意見是否有幫助，但仍提出供參考」。",
       "sentenceIndex": 15,
@@ -882,12 +836,10 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-07": "本句指「不確定資訊／意見是否有幫助，但仍提出供參考」。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。",
-        "worth-mcq-08": "「得到的好處足以補償投入的時間、金錢或努力」是「worthwhile」的用法，與本句語境不同。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。",
-        "worth-mcq-09": "「因品質、目的或品格而值得尊敬、支持或注意」是「worthy」的用法，與本句語境不同。",
-        "worth-mcq-04": "「某件事非常值得做」是「be well worth + -ing」的用法，與本句語境不同。"
+        "worth-mcq-07": "本句的「worth」指「不確定資訊／意見是否有幫助，但仍提出供參考」。",
+        "worth-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-07"
     },
@@ -899,11 +851,8 @@ export default {
       "masked": "The visit was ____.",
       "options": [
         "worth-mcq-08",
-        "worth-mcq-07",
         "worth-mcq-09",
-        "worth-mcq-06",
-        "worth-mcq-10",
-        "worth-mcq-05"
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worthwhile」指「得到的好處足以補償投入的時間、金錢或努力」。",
       "sentenceIndex": 16,
@@ -912,12 +861,9 @@ export default {
         "worthwhile"
       ],
       "optionReasons": {
-        "worth-mcq-08": "本句指「得到的好處足以補償投入的時間、金錢或努力」。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
-        "worth-mcq-09": "「因品質、目的或品格而值得尊敬、支持或注意」是「worthy」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。",
-        "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。"
+        "worth-mcq-08": "本句的「worthwhile」指「得到的好處足以補償投入的時間、金錢或努力」。",
+        "worth-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-08"
     },
@@ -929,11 +875,9 @@ export default {
       "masked": "Learning to appreciate art is a ____ experience.",
       "options": [
         "worth-mcq-08",
-        "worth-mcq-07",
-        "worth-mcq-09",
-        "worth-mcq-06",
-        "worth-mcq-10",
-        "worth-mcq-05"
+        "worth-mcq-04",
+        "worth-pdf-001",
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worthwhile」指「得到的好處足以補償投入的時間、金錢或努力」。",
       "sentenceIndex": 17,
@@ -942,12 +886,10 @@ export default {
         "worthwhile"
       ],
       "optionReasons": {
-        "worth-mcq-08": "本句指「得到的好處足以補償投入的時間、金錢或努力」。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
-        "worth-mcq-09": "「因品質、目的或品格而值得尊敬、支持或注意」是「worthy」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。",
-        "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。"
+        "worth-mcq-08": "本句的「worthwhile」指「得到的好處足以補償投入的時間、金錢或努力」。",
+        "worth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-08"
     },
@@ -959,11 +901,8 @@ export default {
       "masked": "It is ____ the two versions.",
       "options": [
         "worth-mcq-08",
-        "worth-mcq-07",
         "worth-mcq-09",
-        "worth-mcq-06",
-        "worth-mcq-10",
-        "worth-mcq-05"
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worthwhile to compare」指「得到的好處足以補償投入的時間、金錢或努力」。",
       "sentenceIndex": 18,
@@ -972,12 +911,9 @@ export default {
         "worthwhile to compare"
       ],
       "optionReasons": {
-        "worth-mcq-08": "本句指「得到的好處足以補償投入的時間、金錢或努力」。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
-        "worth-mcq-09": "「因品質、目的或品格而值得尊敬、支持或注意」是「worthy」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。",
-        "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。"
+        "worth-mcq-08": "本句的「worthwhile to compare」指「得到的好處足以補償投入的時間、金錢或努力」。",
+        "worth-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-08"
     },
@@ -989,11 +925,9 @@ export default {
       "masked": "It is ____ spending time on the details.",
       "options": [
         "worth-mcq-08",
-        "worth-mcq-07",
-        "worth-mcq-09",
-        "worth-mcq-06",
-        "worth-mcq-10",
-        "worth-mcq-05"
+        "worth-pdf-001",
+        "worth-mcq-04",
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worthwhile」指「得到的好處足以補償投入的時間、金錢或努力」。",
       "sentenceIndex": 19,
@@ -1002,12 +936,10 @@ export default {
         "worthwhile"
       ],
       "optionReasons": {
-        "worth-mcq-08": "本句指「得到的好處足以補償投入的時間、金錢或努力」。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
-        "worth-mcq-09": "「因品質、目的或品格而值得尊敬、支持或注意」是「worthy」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。",
-        "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。",
-        "worth-mcq-05": "「某人／某物所具有的價值、用處或重要性」是「worth — noun」的用法，與本句語境不同。"
+        "worth-mcq-08": "本句的「worthwhile」指「得到的好處足以補償投入的時間、金錢或努力」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-08"
     },
@@ -1020,10 +952,7 @@ export default {
       "options": [
         "worth-mcq-09",
         "worth-mcq-08",
-        "worth-mcq-10",
-        "worth-mcq-07",
-        "worth-mcq-11",
-        "worth-mcq-06"
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worthy」指「因品質、目的或品格而值得尊敬、支持或注意」。",
       "sentenceIndex": 20,
@@ -1032,12 +961,9 @@ export default {
         "worthy"
       ],
       "optionReasons": {
-        "worth-mcq-09": "本句指「因品質、目的或品格而值得尊敬、支持或注意」。",
-        "worth-mcq-08": "「得到的好處足以補償投入的時間、金錢或努力」是「worthwhile」的用法，與本句語境不同。",
-        "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。"
+        "worth-mcq-09": "本句的「worthy」指「因品質、目的或品格而值得尊敬、支持或注意」。",
+        "worth-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-09"
     },
@@ -1050,10 +976,7 @@ export default {
       "options": [
         "worth-mcq-09",
         "worth-mcq-08",
-        "worth-mcq-10",
-        "worth-mcq-07",
-        "worth-mcq-11",
-        "worth-mcq-06"
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worthy」指「因品質、目的或品格而值得尊敬、支持或注意」。",
       "sentenceIndex": 21,
@@ -1062,12 +985,9 @@ export default {
         "worthy"
       ],
       "optionReasons": {
-        "worth-mcq-09": "本句指「因品質、目的或品格而值得尊敬、支持或注意」。",
-        "worth-mcq-08": "「得到的好處足以補償投入的時間、金錢或努力」是「worthwhile」的用法，與本句語境不同。",
-        "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。"
+        "worth-mcq-09": "本句的「worthy」指「因品質、目的或品格而值得尊敬、支持或注意」。",
+        "worth-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-09"
     },
@@ -1079,10 +999,8 @@ export default {
       "masked": "The painting is ____.",
       "options": [
         "worth-mcq-10",
-        "worth-mcq-09",
-        "worth-mcq-11",
-        "worth-mcq-08",
-        "worth-mcq-12",
+        "worth-reviewed-ae976183e5",
+        "worth-mcq-14",
         "worth-mcq-07"
       ],
       "explanation": "本句的「worthy of admiration」指「品質／表現足以配得上某種評價或待遇」。",
@@ -1092,12 +1010,10 @@ export default {
         "worthy of admiration"
       ],
       "optionReasons": {
-        "worth-mcq-10": "本句指「品質／表現足以配得上某種評價或待遇」。",
-        "worth-mcq-09": "「因品質、目的或品格而值得尊敬、支持或注意」是「worthy」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。",
-        "worth-mcq-08": "「得到的好處足以補償投入的時間、金錢或努力」是「worthwhile」的用法，與本句語境不同。",
-        "worth-mcq-12": "「沒有實際用途、意義或價值」是「worthless — practical」的用法，與本句語境不同。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。"
+        "worth-mcq-10": "本句的「worthy of admiration」指「品質／表現足以配得上某種評價或待遇」。",
+        "worth-reviewed-ae976183e5": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-10"
     },
@@ -1109,11 +1025,9 @@ export default {
       "masked": "The achievement is ____ of recognition.",
       "options": [
         "worth-mcq-10",
-        "worth-mcq-09",
-        "worth-mcq-11",
-        "worth-mcq-08",
-        "worth-mcq-12",
-        "worth-mcq-07"
+        "worth-reviewed-ae976183e5",
+        "worth-mcq-07",
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worthy」指「品質／表現足以配得上某種評價或待遇」。",
       "sentenceIndex": 23,
@@ -1122,12 +1036,10 @@ export default {
         "worthy"
       ],
       "optionReasons": {
-        "worth-mcq-10": "本句指「品質／表現足以配得上某種評價或待遇」。",
-        "worth-mcq-09": "「因品質、目的或品格而值得尊敬、支持或注意」是「worthy」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。",
-        "worth-mcq-08": "「得到的好處足以補償投入的時間、金錢或努力」是「worthwhile」的用法，與本句語境不同。",
-        "worth-mcq-12": "「沒有實際用途、意義或價值」是「worthless — practical」的用法，與本句語境不同。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。"
+        "worth-mcq-10": "本句的「worthy」指「品質／表現足以配得上某種評價或待遇」。",
+        "worth-reviewed-ae976183e5": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-10"
     },
@@ -1139,11 +1051,9 @@ export default {
       "masked": "The museum wanted a display ____ of the artist.",
       "options": [
         "worth-pdf-001",
-        "worth-mcq-08",
-        "worth-mcq-10",
         "worth-mcq-07",
-        "worth-mcq-11",
-        "worth-mcq-06"
+        "worth-reviewed-ae976183e5",
+        "worth-mcq-12"
       ],
       "explanation": "本句的「worthy」指「品質高到與 X 的重要性／地位相稱」。",
       "sentenceIndex": 24,
@@ -1152,12 +1062,10 @@ export default {
         "worthy"
       ],
       "optionReasons": {
-        "worth-pdf-001": "本句指「品質高到與 X 的重要性／地位相稱」。",
-        "worth-mcq-08": "「得到的好處足以補償投入的時間、金錢或努力」是「worthwhile」的用法，與本句語境不同。",
-        "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。"
+        "worth-pdf-001": "本句的「worthy」指「品質高到與 X 的重要性／地位相稱」。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-reviewed-ae976183e5": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-pdf-001"
     },
@@ -1169,11 +1077,9 @@ export default {
       "masked": "It was a performance ____ of the occasion.",
       "options": [
         "worth-pdf-001",
-        "worth-mcq-08",
-        "worth-mcq-10",
-        "worth-mcq-07",
         "worth-mcq-11",
-        "worth-mcq-06"
+        "worth-reviewed-ae976183e5",
+        "worth-mcq-07"
       ],
       "explanation": "本句的「worthy」指「品質高到與 X 的重要性／地位相稱」。",
       "sentenceIndex": 25,
@@ -1182,12 +1088,10 @@ export default {
         "worthy"
       ],
       "optionReasons": {
-        "worth-pdf-001": "本句指「品質高到與 X 的重要性／地位相稱」。",
-        "worth-mcq-08": "「得到的好處足以補償投入的時間、金錢或努力」是「worthwhile」的用法，與本句語境不同。",
-        "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。",
-        "worth-mcq-07": "「不確定資訊／意見是否有幫助，但仍提出供參考」是「for what it’s worth」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。",
-        "worth-mcq-06": "「透過表現證明自己的能力、價值或重要性」是「prove one’s worth」的用法，與本句語境不同。"
+        "worth-pdf-001": "本句的「worthy」指「品質高到與 X 的重要性／地位相稱」。",
+        "worth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "worth-reviewed-ae976183e5": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-pdf-001"
     },
@@ -1199,11 +1103,9 @@ export default {
       "masked": "The fake painting turned out to be ____.",
       "options": [
         "worth-mcq-11",
-        "worth-mcq-10",
-        "worth-mcq-12",
-        "worth-mcq-09",
-        "worth-mcq-13",
-        "worth-mcq-08"
+        "worth-mcq-07",
+        "worth-pdf-001",
+        "worth-reviewed-ae976183e5"
       ],
       "explanation": "本句的「worthless」指「幾乎沒有任何金錢價值」。",
       "sentenceIndex": 26,
@@ -1212,12 +1114,10 @@ export default {
         "worthless"
       ],
       "optionReasons": {
-        "worth-mcq-11": "本句指「幾乎沒有任何金錢價值」。",
-        "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。",
-        "worth-mcq-12": "「沒有實際用途、意義或價值」是「worthless — practical」的用法，與本句語境不同。",
-        "worth-mcq-09": "「因品質、目的或品格而值得尊敬、支持或注意」是「worthy」的用法，與本句語境不同。",
-        "worth-mcq-13": "「一個人對自己是否有價值、值得尊重的內在感受」是「self-worth」的用法，與本句語境不同。",
-        "worth-mcq-08": "「得到的好處足以補償投入的時間、金錢或努力」是「worthwhile」的用法，與本句語境不同。"
+        "worth-mcq-11": "本句的「worthless」指「幾乎沒有任何金錢價值」。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-reviewed-ae976183e5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-11"
     },
@@ -1229,11 +1129,9 @@ export default {
       "masked": "The damaged tickets were ____.",
       "options": [
         "worth-mcq-11",
-        "worth-mcq-10",
-        "worth-mcq-12",
-        "worth-mcq-09",
-        "worth-mcq-13",
-        "worth-mcq-08"
+        "worth-pdf-001",
+        "worth-mcq-07",
+        "worth-mcq-16"
       ],
       "explanation": "本句的「worthless」指「幾乎沒有任何金錢價值」。",
       "sentenceIndex": 27,
@@ -1242,12 +1140,10 @@ export default {
         "worthless"
       ],
       "optionReasons": {
-        "worth-mcq-11": "本句指「幾乎沒有任何金錢價值」。",
-        "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。",
-        "worth-mcq-12": "「沒有實際用途、意義或價值」是「worthless — practical」的用法，與本句語境不同。",
-        "worth-mcq-09": "「因品質、目的或品格而值得尊敬、支持或注意」是「worthy」的用法，與本句語境不同。",
-        "worth-mcq-13": "「一個人對自己是否有價值、值得尊重的內在感受」是「self-worth」的用法，與本句語境不同。",
-        "worth-mcq-08": "「得到的好處足以補償投入的時間、金錢或努力」是「worthwhile」的用法，與本句語境不同。"
+        "worth-mcq-11": "本句的「worthless」指「幾乎沒有任何金錢價值」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-11"
     },
@@ -1259,11 +1155,9 @@ export default {
       "masked": "The information was outdated and ____.",
       "options": [
         "worth-mcq-12",
-        "worth-mcq-11",
-        "worth-mcq-13",
-        "worth-mcq-10",
+        "worth-pdf-001",
         "worth-mcq-14",
-        "worth-mcq-09"
+        "worth-mcq-07"
       ],
       "explanation": "本句的「worthless」指「沒有實際用途、意義或價值」。",
       "sentenceIndex": 28,
@@ -1272,12 +1166,10 @@ export default {
         "worthless"
       ],
       "optionReasons": {
-        "worth-mcq-12": "本句指「沒有實際用途、意義或價值」。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。",
-        "worth-mcq-13": "「一個人對自己是否有價值、值得尊重的內在感受」是「self-worth」的用法，與本句語境不同。",
-        "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。",
-        "worth-mcq-14": "「資產總值減去負債後的淨財富」是「net worth」的用法，與本句語境不同。",
-        "worth-mcq-09": "「因品質、目的或品格而值得尊敬、支持或注意」是「worthy」的用法，與本句語境不同。"
+        "worth-mcq-12": "本句的「worthless」指「沒有實際用途、意義或價值」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-12"
     },
@@ -1289,11 +1181,9 @@ export default {
       "masked": "Without evidence, the claim is practically ____.",
       "options": [
         "worth-mcq-12",
-        "worth-mcq-11",
-        "worth-mcq-13",
-        "worth-mcq-10",
-        "worth-mcq-14",
-        "worth-mcq-09"
+        "worth-pdf-001",
+        "worth-mcq-16",
+        "worth-mcq-07"
       ],
       "explanation": "本句的「worthless」指「沒有實際用途、意義或價值」。",
       "sentenceIndex": 29,
@@ -1302,12 +1192,10 @@ export default {
         "worthless"
       ],
       "optionReasons": {
-        "worth-mcq-12": "本句指「沒有實際用途、意義或價值」。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。",
-        "worth-mcq-13": "「一個人對自己是否有價值、值得尊重的內在感受」是「self-worth」的用法，與本句語境不同。",
-        "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。",
-        "worth-mcq-14": "「資產總值減去負債後的淨財富」是「net worth」的用法，與本句語境不同。",
-        "worth-mcq-09": "「因品質、目的或品格而值得尊敬、支持或注意」是「worthy」的用法，與本句語境不同。"
+        "worth-mcq-12": "本句的「worthless」指「沒有實際用途、意義或價值」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-12"
     },
@@ -1319,11 +1207,8 @@ export default {
       "masked": "A job should not determine your ____.",
       "options": [
         "worth-mcq-13",
-        "worth-mcq-12",
-        "worth-mcq-14",
-        "worth-mcq-11",
-        "worth-mcq-15",
-        "worth-mcq-10"
+        "worth-pdf-001",
+        "worth-mcq-14"
       ],
       "explanation": "本句的「self-worth」指「一個人對自己是否有價值、值得尊重的內在感受」。",
       "sentenceIndex": 30,
@@ -1332,12 +1217,9 @@ export default {
         "self-worth"
       ],
       "optionReasons": {
-        "worth-mcq-13": "本句指「一個人對自己是否有價值、值得尊重的內在感受」。",
-        "worth-mcq-12": "「沒有實際用途、意義或價值」是「worthless — practical」的用法，與本句語境不同。",
-        "worth-mcq-14": "「資產總值減去負債後的淨財富」是「net worth」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。",
-        "worth-mcq-15": "「價值或數量相當於 X 的 Y」是「X worth of Y」的用法，與本句語境不同。",
-        "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。"
+        "worth-mcq-13": "本句的「self-worth」指「一個人對自己是否有價值、值得尊重的內在感受」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-13"
     },
@@ -1349,11 +1231,8 @@ export default {
       "masked": "Success can affect a person’s sense of self-____.",
       "options": [
         "worth-mcq-13",
-        "worth-mcq-12",
         "worth-mcq-14",
-        "worth-mcq-11",
-        "worth-mcq-15",
-        "worth-mcq-10"
+        "worth-pdf-001"
       ],
       "explanation": "本句的「worth」指「一個人對自己是否有價值、值得尊重的內在感受」。",
       "sentenceIndex": 31,
@@ -1362,12 +1241,9 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-13": "本句指「一個人對自己是否有價值、值得尊重的內在感受」。",
-        "worth-mcq-12": "「沒有實際用途、意義或價值」是「worthless — practical」的用法，與本句語境不同。",
-        "worth-mcq-14": "「資產總值減去負債後的淨財富」是「net worth」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。",
-        "worth-mcq-15": "「價值或數量相當於 X 的 Y」是「X worth of Y」的用法，與本句語境不同。",
-        "worth-mcq-10": "「品質／表現足以配得上某種評價或待遇」是「worthy of」的用法，與本句語境不同。"
+        "worth-mcq-13": "本句的「worth」指「一個人對自己是否有價值、值得尊重的內在感受」。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-13"
     },
@@ -1379,11 +1255,9 @@ export default {
       "masked": "The company’s ____ increased.",
       "options": [
         "worth-mcq-14",
-        "worth-mcq-13",
-        "worth-mcq-15",
-        "worth-mcq-12",
-        "worth-mcq-16",
-        "worth-mcq-11"
+        "worth-mcq-10",
+        "worth-mcq-05",
+        "worth-mcq-07"
       ],
       "explanation": "本句的「net worth」指「資產總值減去負債後的淨財富」。",
       "sentenceIndex": 32,
@@ -1392,12 +1266,10 @@ export default {
         "net worth"
       ],
       "optionReasons": {
-        "worth-mcq-14": "本句指「資產總值減去負債後的淨財富」。",
-        "worth-mcq-13": "「一個人對自己是否有價值、值得尊重的內在感受」是「self-worth」的用法，與本句語境不同。",
-        "worth-mcq-15": "「價值或數量相當於 X 的 Y」是「X worth of Y」的用法，與本句語境不同。",
-        "worth-mcq-12": "「沒有實際用途、意義或價值」是「worthless — practical」的用法，與本句語境不同。",
-        "worth-mcq-16": "「所得回報足以值得某人花時間／精力去做」是「worth one’s while」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。"
+        "worth-mcq-14": "本句的「net worth」指「資產總值減去負債後的淨財富」。",
+        "worth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-14"
     },
@@ -1409,11 +1281,9 @@ export default {
       "masked": "Net ____ is calculated by subtracting liabilities from assets.",
       "options": [
         "worth-mcq-14",
-        "worth-mcq-13",
-        "worth-mcq-15",
-        "worth-mcq-12",
-        "worth-mcq-16",
-        "worth-mcq-11"
+        "worth-pdf-001",
+        "worth-mcq-08",
+        "worth-mcq-04"
       ],
       "explanation": "本句的「worth」指「資產總值減去負債後的淨財富」。",
       "sentenceIndex": 33,
@@ -1422,12 +1292,10 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-14": "本句指「資產總值減去負債後的淨財富」。",
-        "worth-mcq-13": "「一個人對自己是否有價值、值得尊重的內在感受」是「self-worth」的用法，與本句語境不同。",
-        "worth-mcq-15": "「價值或數量相當於 X 的 Y」是「X worth of Y」的用法，與本句語境不同。",
-        "worth-mcq-12": "「沒有實際用途、意義或價值」是「worthless — practical」的用法，與本句語境不同。",
-        "worth-mcq-16": "「所得回報足以值得某人花時間／精力去做」是「worth one’s while」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。"
+        "worth-mcq-14": "本句的「worth」指「資產總值減去負債後的淨財富」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-14"
     },
@@ -1439,11 +1307,9 @@ export default {
       "masked": "We bought fifty dollars’ ____ books.",
       "options": [
         "worth-mcq-15",
-        "worth-mcq-14",
-        "worth-mcq-16",
-        "worth-mcq-13",
-        "worth-mcq-12",
-        "worth-mcq-11"
+        "worth-mcq-07",
+        "worth-pdf-001",
+        "worth-mcq-14"
       ],
       "explanation": "本句的「worth of」指「價值或數量相當於 X 的 Y」。",
       "sentenceIndex": 34,
@@ -1452,12 +1318,10 @@ export default {
         "worth of"
       ],
       "optionReasons": {
-        "worth-mcq-15": "本句指「價值或數量相當於 X 的 Y」。",
-        "worth-mcq-14": "「資產總值減去負債後的淨財富」是「net worth」的用法，與本句語境不同。",
-        "worth-mcq-16": "「所得回報足以值得某人花時間／精力去做」是「worth one’s while」的用法，與本句語境不同。",
-        "worth-mcq-13": "「一個人對自己是否有價值、值得尊重的內在感受」是「self-worth」的用法，與本句語境不同。",
-        "worth-mcq-12": "「沒有實際用途、意義或價值」是「worthless — practical」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。"
+        "worth-mcq-15": "本句的「worth of」指「價值或數量相當於 X 的 Y」。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-15"
     },
@@ -1469,11 +1333,9 @@ export default {
       "masked": "She has a week’s ____ of work to finish.",
       "options": [
         "worth-mcq-15",
-        "worth-mcq-14",
-        "worth-mcq-16",
-        "worth-mcq-13",
-        "worth-mcq-12",
-        "worth-mcq-11"
+        "worth-mcq-07",
+        "worth-pdf-001",
+        "worth-mcq-16"
       ],
       "explanation": "本句的「worth」指「價值或數量相當於 X 的 Y」。",
       "sentenceIndex": 35,
@@ -1482,12 +1344,10 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-15": "本句指「價值或數量相當於 X 的 Y」。",
-        "worth-mcq-14": "「資產總值減去負債後的淨財富」是「net worth」的用法，與本句語境不同。",
-        "worth-mcq-16": "「所得回報足以值得某人花時間／精力去做」是「worth one’s while」的用法，與本句語境不同。",
-        "worth-mcq-13": "「一個人對自己是否有價值、值得尊重的內在感受」是「self-worth」的用法，與本句語境不同。",
-        "worth-mcq-12": "「沒有實際用途、意義或價值」是「worthless — practical」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。"
+        "worth-mcq-15": "本句的「worth」指「價值或數量相當於 X 的 Y」。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-15"
     },
@@ -1499,11 +1359,9 @@ export default {
       "masked": "The folder contains a month’s ____ of photographs.",
       "options": [
         "worth-mcq-15",
-        "worth-mcq-14",
-        "worth-mcq-16",
-        "worth-mcq-13",
-        "worth-mcq-12",
-        "worth-mcq-11"
+        "worth-mcq-07",
+        "worth-pdf-001",
+        "worth-reviewed-ae976183e5"
       ],
       "explanation": "本句的「worth」指「價值或數量相當於 X 的 Y」。",
       "sentenceIndex": 36,
@@ -1512,12 +1370,10 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-15": "本句指「價值或數量相當於 X 的 Y」。",
-        "worth-mcq-14": "「資產總值減去負債後的淨財富」是「net worth」的用法，與本句語境不同。",
-        "worth-mcq-16": "「所得回報足以值得某人花時間／精力去做」是「worth one’s while」的用法，與本句語境不同。",
-        "worth-mcq-13": "「一個人對自己是否有價值、值得尊重的內在感受」是「self-worth」的用法，與本句語境不同。",
-        "worth-mcq-12": "「沒有實際用途、意義或價值」是「worthless — practical」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。"
+        "worth-mcq-15": "本句的「worth」指「價值或數量相當於 X 的 Y」。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-reviewed-ae976183e5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-15"
     },
@@ -1529,11 +1385,9 @@ export default {
       "masked": "We completed a day’s ____ of work in three hours.",
       "options": [
         "worth-mcq-15",
-        "worth-mcq-14",
-        "worth-mcq-16",
-        "worth-mcq-13",
-        "worth-mcq-12",
-        "worth-mcq-11"
+        "worth-mcq-07",
+        "worth-pdf-001",
+        "worth-mcq-16"
       ],
       "explanation": "本句的「worth」指「價值或數量相當於 X 的 Y」。",
       "sentenceIndex": 37,
@@ -1542,12 +1396,10 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-15": "本句指「價值或數量相當於 X 的 Y」。",
-        "worth-mcq-14": "「資產總值減去負債後的淨財富」是「net worth」的用法，與本句語境不同。",
-        "worth-mcq-16": "「所得回報足以值得某人花時間／精力去做」是「worth one’s while」的用法，與本句語境不同。",
-        "worth-mcq-13": "「一個人對自己是否有價值、值得尊重的內在感受」是「self-worth」的用法，與本句語境不同。",
-        "worth-mcq-12": "「沒有實際用途、意義或價值」是「worthless — practical」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。"
+        "worth-mcq-15": "本句的「worth」指「價值或數量相當於 X 的 Y」。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-15"
     },
@@ -1559,10 +1411,8 @@ export default {
       "masked": "The exhibition is ____.",
       "options": [
         "worth-mcq-16",
-        "worth-mcq-15",
-        "worth-mcq-14",
-        "worth-mcq-13",
-        "worth-mcq-12",
+        "worth-pdf-001",
+        "worth-mcq-07",
         "worth-mcq-11"
       ],
       "explanation": "本句的「worth your while」指「所得回報足以值得某人花時間／精力去做」。",
@@ -1572,12 +1422,10 @@ export default {
         "worth your while"
       ],
       "optionReasons": {
-        "worth-mcq-16": "本句指「所得回報足以值得某人花時間／精力去做」。",
-        "worth-mcq-15": "「價值或數量相當於 X 的 Y」是「X worth of Y」的用法，與本句語境不同。",
-        "worth-mcq-14": "「資產總值減去負債後的淨財富」是「net worth」的用法，與本句語境不同。",
-        "worth-mcq-13": "「一個人對自己是否有價值、值得尊重的內在感受」是「self-worth」的用法，與本句語境不同。",
-        "worth-mcq-12": "「沒有實際用途、意義或價值」是「worthless — practical」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。"
+        "worth-mcq-16": "本句的「worth your while」指「所得回報足以值得某人花時間／精力去做」。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-16"
     },
@@ -1589,11 +1437,9 @@ export default {
       "masked": "It may be ____ your while to compare prices.",
       "options": [
         "worth-mcq-16",
-        "worth-mcq-15",
-        "worth-mcq-14",
-        "worth-mcq-13",
-        "worth-mcq-12",
-        "worth-mcq-11"
+        "worth-mcq-07",
+        "worth-pdf-001",
+        "worth-mcq-01"
       ],
       "explanation": "本句的「worth」指「所得回報足以值得某人花時間／精力去做」。",
       "sentenceIndex": 39,
@@ -1602,12 +1448,10 @@ export default {
         "worth"
       ],
       "optionReasons": {
-        "worth-mcq-16": "本句指「所得回報足以值得某人花時間／精力去做」。",
-        "worth-mcq-15": "「價值或數量相當於 X 的 Y」是「X worth of Y」的用法，與本句語境不同。",
-        "worth-mcq-14": "「資產總值減去負債後的淨財富」是「net worth」的用法，與本句語境不同。",
-        "worth-mcq-13": "「一個人對自己是否有價值、值得尊重的內在感受」是「self-worth」的用法，與本句語境不同。",
-        "worth-mcq-12": "「沒有實際用途、意義或價值」是「worthless — practical」的用法，與本句語境不同。",
-        "worth-mcq-11": "「幾乎沒有任何金錢價值」是「worthless — monetary」的用法，與本句語境不同。"
+        "worth-mcq-16": "本句的「worth」指「所得回報足以值得某人花時間／精力去做」。",
+        "worth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "worth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "worth-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "worth-mcq-16"
     }
@@ -1619,5 +1463,7 @@ export default {
     "sha256": "86638790a92fc7c528aec733490804f7d7a3a948e70245b3b65ce706e13508f6",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

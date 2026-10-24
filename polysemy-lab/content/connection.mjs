@@ -511,11 +511,9 @@ export default {
       "masked": "Check the ____ between the hose and the tap.",
       "options": [
         "connection-mcq-01",
-        "connection-mcq-02",
-        "connection-mcq-03",
-        "connection-mcq-04",
-        "connection-mcq-05",
-        "connection-mcq-06"
+        "connection-mcq-17",
+        "connection-mcq-11",
+        "connection-mcq-05"
       ],
       "explanation": "本句的「connection」指「兩個或多個物件實際接合、相連的狀態或位置」。",
       "sentenceIndex": 0,
@@ -524,12 +522,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-01": "本句指「兩個或多個物件實際接合、相連的狀態或位置」。",
-        "connection-mcq-02": "「人與人之間因家庭、友誼、工作等形成的關係」與本句語境不同。",
-        "connection-mcq-03": "「人與人之間因互動、理解或分享形成的親近／歸屬感」與本句語境不同。",
-        "connection-mcq-04": "「兩件事在原因、影響、邏輯或相似性上的關聯」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。"
+        "connection-mcq-01": "本句的「connection」指「兩個或多個物件實際接合、相連的狀態或位置」。",
+        "connection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-01"
     },
@@ -541,11 +537,9 @@ export default {
       "masked": "The cable ____ is loose.",
       "options": [
         "connection-mcq-01",
-        "connection-mcq-02",
-        "connection-mcq-03",
-        "connection-mcq-04",
-        "connection-mcq-05",
-        "connection-mcq-06"
+        "connection-mcq-11",
+        "connection-mcq-17",
+        "connection-mcq-05"
       ],
       "explanation": "本句的「connection」指「兩個或多個物件實際接合、相連的狀態或位置」。",
       "sentenceIndex": 1,
@@ -554,12 +548,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-01": "本句指「兩個或多個物件實際接合、相連的狀態或位置」。",
-        "connection-mcq-02": "「人與人之間因家庭、友誼、工作等形成的關係」與本句語境不同。",
-        "connection-mcq-03": "「人與人之間因互動、理解或分享形成的親近／歸屬感」與本句語境不同。",
-        "connection-mcq-04": "「兩件事在原因、影響、邏輯或相似性上的關聯」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。"
+        "connection-mcq-01": "本句的「connection」指「兩個或多個物件實際接合、相連的狀態或位置」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-01"
     },
@@ -571,11 +563,9 @@ export default {
       "masked": "She has a close ____ with her neighbours.",
       "options": [
         "connection-mcq-02",
-        "connection-mcq-01",
-        "connection-mcq-03",
-        "connection-mcq-04",
-        "connection-mcq-05",
-        "connection-mcq-06"
+        "connection-mcq-17",
+        "connection-mcq-11",
+        "connection-pdf-003"
       ],
       "explanation": "本句的「connection」指「人與人之間因家庭、友誼、工作等形成的關係」。",
       "sentenceIndex": 2,
@@ -584,12 +574,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-02": "本句指「人與人之間因家庭、友誼、工作等形成的關係」。",
-        "connection-mcq-01": "「兩個或多個物件實際接合、相連的狀態或位置」與本句語境不同。",
-        "connection-mcq-03": "「人與人之間因互動、理解或分享形成的親近／歸屬感」與本句語境不同。",
-        "connection-mcq-04": "「兩件事在原因、影響、邏輯或相似性上的關聯」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。"
+        "connection-mcq-02": "本句的「connection」指「人與人之間因家庭、友誼、工作等形成的關係」。",
+        "connection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-02"
     },
@@ -601,11 +589,9 @@ export default {
       "masked": "Family ____ can be very important.",
       "options": [
         "connection-mcq-02",
-        "connection-mcq-01",
-        "connection-mcq-03",
-        "connection-mcq-04",
-        "connection-mcq-05",
-        "connection-mcq-06"
+        "connection-pdf-003",
+        "connection-mcq-17",
+        "connection-mcq-11"
       ],
       "explanation": "本句的「connections」指「人與人之間因家庭、友誼、工作等形成的關係」。",
       "sentenceIndex": 3,
@@ -614,12 +600,10 @@ export default {
         "connections"
       ],
       "optionReasons": {
-        "connection-mcq-02": "本句指「人與人之間因家庭、友誼、工作等形成的關係」。",
-        "connection-mcq-01": "「兩個或多個物件實際接合、相連的狀態或位置」與本句語境不同。",
-        "connection-mcq-03": "「人與人之間因互動、理解或分享形成的親近／歸屬感」與本句語境不同。",
-        "connection-mcq-04": "「兩件事在原因、影響、邏輯或相似性上的關聯」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。"
+        "connection-mcq-02": "本句的「connections」指「人與人之間因家庭、友誼、工作等形成的關係」。",
+        "connection-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-02"
     },
@@ -631,11 +615,9 @@ export default {
       "masked": "Gardening is also about care, generosity, and ____.",
       "options": [
         "connection-mcq-03",
-        "connection-mcq-02",
-        "connection-mcq-04",
-        "connection-mcq-01",
         "connection-mcq-05",
-        "connection-mcq-06"
+        "connection-mcq-11",
+        "connection-mcq-09"
       ],
       "explanation": "本句的「connection」指「人與人之間因互動、理解或分享形成的親近／歸屬感」。",
       "sentenceIndex": 4,
@@ -644,12 +626,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-03": "本句指「人與人之間因互動、理解或分享形成的親近／歸屬感」。",
-        "connection-mcq-02": "「人與人之間因家庭、友誼、工作等形成的關係」與本句語境不同。",
-        "connection-mcq-04": "「兩件事在原因、影響、邏輯或相似性上的關聯」與本句語境不同。",
-        "connection-mcq-01": "「兩個或多個物件實際接合、相連的狀態或位置」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。"
+        "connection-mcq-03": "本句的「connection」指「人與人之間因互動、理解或分享形成的親近／歸屬感」。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-03"
     },
@@ -661,11 +641,9 @@ export default {
       "masked": "Sharing food can create a sense of ____.",
       "options": [
         "connection-mcq-03",
-        "connection-mcq-02",
-        "connection-mcq-04",
-        "connection-mcq-01",
-        "connection-mcq-05",
-        "connection-mcq-06"
+        "connection-mcq-09",
+        "connection-pdf-003",
+        "connection-mcq-05"
       ],
       "explanation": "本句的「connection」指「人與人之間因互動、理解或分享形成的親近／歸屬感」。",
       "sentenceIndex": 5,
@@ -674,12 +652,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-03": "本句指「人與人之間因互動、理解或分享形成的親近／歸屬感」。",
-        "connection-mcq-02": "「人與人之間因家庭、友誼、工作等形成的關係」與本句語境不同。",
-        "connection-mcq-04": "「兩件事在原因、影響、邏輯或相似性上的關聯」與本句語境不同。",
-        "connection-mcq-01": "「兩個或多個物件實際接合、相連的狀態或位置」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。"
+        "connection-mcq-03": "本句的「connection」指「人與人之間因互動、理解或分享形成的親近／歸屬感」。",
+        "connection-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "connection-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-03"
     },
@@ -691,11 +667,9 @@ export default {
       "masked": "She feels a strong ____ with her community.",
       "options": [
         "connection-mcq-03",
-        "connection-mcq-02",
-        "connection-mcq-04",
+        "connection-mcq-11",
         "connection-mcq-01",
-        "connection-mcq-05",
-        "connection-mcq-06"
+        "connection-mcq-05"
       ],
       "explanation": "本句的「connection」指「人與人之間因互動、理解或分享形成的親近／歸屬感」。",
       "sentenceIndex": 6,
@@ -704,12 +678,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-03": "本句指「人與人之間因互動、理解或分享形成的親近／歸屬感」。",
-        "connection-mcq-02": "「人與人之間因家庭、友誼、工作等形成的關係」與本句語境不同。",
-        "connection-mcq-04": "「兩件事在原因、影響、邏輯或相似性上的關聯」與本句語境不同。",
-        "connection-mcq-01": "「兩個或多個物件實際接合、相連的狀態或位置」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。"
+        "connection-mcq-03": "本句的「connection」指「人與人之間因互動、理解或分享形成的親近／歸屬感」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-03"
     },
@@ -721,11 +693,9 @@ export default {
       "masked": "Researchers found a ____ between sleep and memory.",
       "options": [
         "connection-mcq-04",
-        "connection-mcq-03",
+        "connection-pdf-002",
         "connection-mcq-05",
-        "connection-mcq-02",
-        "connection-mcq-06",
-        "connection-mcq-01"
+        "connection-mcq-11"
       ],
       "explanation": "本句的「connection」指「兩件事在原因、影響、邏輯或相似性上的關聯」。",
       "sentenceIndex": 7,
@@ -734,12 +704,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-04": "本句指「兩件事在原因、影響、邏輯或相似性上的關聯」。",
-        "connection-mcq-03": "「人與人之間因互動、理解或分享形成的親近／歸屬感」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-02": "「人與人之間因家庭、友誼、工作等形成的關係」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
-        "connection-mcq-01": "「兩個或多個物件實際接合、相連的狀態或位置」與本句語境不同。"
+        "connection-mcq-04": "本句的「connection」指「兩件事在原因、影響、邏輯或相似性上的關聯」。",
+        "connection-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-04"
     },
@@ -751,11 +719,9 @@ export default {
       "masked": "I don’t see the ____ between these two ideas.",
       "options": [
         "connection-mcq-04",
-        "connection-mcq-03",
-        "connection-mcq-05",
-        "connection-mcq-02",
-        "connection-mcq-06",
-        "connection-mcq-01"
+        "connection-mcq-11",
+        "connection-mcq-07",
+        "connection-mcq-05"
       ],
       "explanation": "本句的「connection」指「兩件事在原因、影響、邏輯或相似性上的關聯」。",
       "sentenceIndex": 8,
@@ -764,12 +730,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-04": "本句指「兩件事在原因、影響、邏輯或相似性上的關聯」。",
-        "connection-mcq-03": "「人與人之間因互動、理解或分享形成的親近／歸屬感」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-02": "「人與人之間因家庭、友誼、工作等形成的關係」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
-        "connection-mcq-01": "「兩個或多個物件實際接合、相連的狀態或位置」與本句語境不同。"
+        "connection-mcq-04": "本句的「connection」指「兩件事在原因、影響、邏輯或相似性上的關聯」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-04"
     },
@@ -781,11 +745,9 @@ export default {
       "masked": "There may be a ____ between stress and poor sleep.",
       "options": [
         "connection-pdf-001",
-        "connection-mcq-03",
-        "connection-mcq-05",
-        "connection-mcq-02",
-        "connection-mcq-06",
-        "connection-mcq-01"
+        "connection-mcq-07",
+        "connection-mcq-11",
+        "connection-pdf-003"
       ],
       "explanation": "本句的「connection」指「某事件、因素或條件與另一結果之間存在某種影響或關聯」。",
       "sentenceIndex": 9,
@@ -794,12 +756,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-pdf-001": "本句指「某事件、因素或條件與另一結果之間存在某種影響或關聯」。",
-        "connection-mcq-03": "「人與人之間因互動、理解或分享形成的親近／歸屬感」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-02": "「人與人之間因家庭、友誼、工作等形成的關係」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
-        "connection-mcq-01": "「兩個或多個物件實際接合、相連的狀態或位置」與本句語境不同。"
+        "connection-pdf-001": "本句的「connection」指「某事件、因素或條件與另一結果之間存在某種影響或關聯」。",
+        "connection-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-pdf-001"
     },
@@ -811,11 +771,9 @@ export default {
       "masked": "The report found no clear ____ between the two events.",
       "options": [
         "connection-pdf-001",
-        "connection-mcq-03",
-        "connection-mcq-05",
-        "connection-mcq-02",
-        "connection-mcq-06",
-        "connection-mcq-01"
+        "connection-mcq-11",
+        "connection-mcq-07",
+        "connection-pdf-003"
       ],
       "explanation": "本句的「connection」指「某事件、因素或條件與另一結果之間存在某種影響或關聯」。",
       "sentenceIndex": 10,
@@ -824,12 +782,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-pdf-001": "本句指「某事件、因素或條件與另一結果之間存在某種影響或關聯」。",
-        "connection-mcq-03": "「人與人之間因互動、理解或分享形成的親近／歸屬感」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-02": "「人與人之間因家庭、友誼、工作等形成的關係」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
-        "connection-mcq-01": "「兩個或多個物件實際接合、相連的狀態或位置」與本句語境不同。"
+        "connection-pdf-001": "本句的「connection」指「某事件、因素或條件與另一結果之間存在某種影響或關聯」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "connection-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-pdf-001"
     },
@@ -841,11 +797,9 @@ export default {
       "masked": "We have a ____ in Singapore.",
       "options": [
         "connection-mcq-05",
-        "connection-mcq-04",
-        "connection-mcq-06",
-        "connection-mcq-03",
-        "connection-mcq-07",
-        "connection-mcq-02"
+        "connection-mcq-17",
+        "connection-mcq-20",
+        "connection-mcq-11"
       ],
       "explanation": "本句的「connection」指「由一班交通工具轉乘另一班的銜接安排」。",
       "sentenceIndex": 11,
@@ -854,12 +808,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-05": "本句指「由一班交通工具轉乘另一班的銜接安排」。",
-        "connection-mcq-04": "「兩件事在原因、影響、邏輯或相似性上的關聯」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
-        "connection-mcq-03": "「人與人之間因互動、理解或分享形成的親近／歸屬感」與本句語境不同。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。",
-        "connection-mcq-02": "「人與人之間因家庭、友誼、工作等形成的關係」與本句語境不同。"
+        "connection-mcq-05": "本句的「connection」指「由一班交通工具轉乘另一班的銜接安排」。",
+        "connection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-05"
     },
@@ -871,11 +823,9 @@ export default {
       "masked": "I missed my train ____.",
       "options": [
         "connection-mcq-05",
-        "connection-mcq-04",
-        "connection-mcq-06",
         "connection-mcq-03",
-        "connection-mcq-07",
-        "connection-mcq-02"
+        "connection-mcq-16",
+        "connection-mcq-11"
       ],
       "explanation": "本句的「connection」指「由一班交通工具轉乘另一班的銜接安排」。",
       "sentenceIndex": 12,
@@ -884,12 +834,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-05": "本句指「由一班交通工具轉乘另一班的銜接安排」。",
-        "connection-mcq-04": "「兩件事在原因、影響、邏輯或相似性上的關聯」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
-        "connection-mcq-03": "「人與人之間因互動、理解或分享形成的親近／歸屬感」與本句語境不同。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。",
-        "connection-mcq-02": "「人與人之間因家庭、友誼、工作等形成的關係」與本句語境不同。"
+        "connection-mcq-05": "本句的「connection」指「由一班交通工具轉乘另一班的銜接安排」。",
+        "connection-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-05"
     },
@@ -901,11 +849,9 @@ export default {
       "masked": "There is a direct rail ____ between the two cities.",
       "options": [
         "connection-mcq-06",
-        "connection-mcq-05",
-        "connection-mcq-07",
-        "connection-mcq-04",
-        "connection-mcq-08",
-        "connection-mcq-03"
+        "connection-mcq-17",
+        "connection-mcq-11",
+        "connection-mcq-18"
       ],
       "explanation": "本句的「connection」指「兩個地方之間的交通路線／接駁服務」。",
       "sentenceIndex": 13,
@@ -914,12 +860,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-06": "本句指「兩個地方之間的交通路線／接駁服務」。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。",
-        "connection-mcq-04": "「兩件事在原因、影響、邏輯或相似性上的關聯」與本句語境不同。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。",
-        "connection-mcq-03": "「人與人之間因互動、理解或分享形成的親近／歸屬感」與本句語境不同。"
+        "connection-mcq-06": "本句的「connection」指「兩個地方之間的交通路線／接駁服務」。",
+        "connection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-06"
     },
@@ -931,11 +875,9 @@ export default {
       "masked": "The village has poor bus ____.",
       "options": [
         "connection-mcq-06",
-        "connection-mcq-05",
-        "connection-mcq-07",
-        "connection-mcq-04",
-        "connection-mcq-08",
-        "connection-mcq-03"
+        "connection-mcq-11",
+        "connection-mcq-09",
+        "connection-mcq-07"
       ],
       "explanation": "本句的「connections」指「兩個地方之間的交通路線／接駁服務」。",
       "sentenceIndex": 14,
@@ -944,12 +886,10 @@ export default {
         "connections"
       ],
       "optionReasons": {
-        "connection-mcq-06": "本句指「兩個地方之間的交通路線／接駁服務」。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。",
-        "connection-mcq-04": "「兩件事在原因、影響、邏輯或相似性上的關聯」與本句語境不同。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。",
-        "connection-mcq-03": "「人與人之間因互動、理解或分享形成的親近／歸屬感」與本句語境不同。"
+        "connection-mcq-06": "本句的「connections」指「兩個地方之間的交通路線／接駁服務」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-06"
     },
@@ -961,11 +901,9 @@ export default {
       "masked": "The internet ____ is unstable.",
       "options": [
         "connection-mcq-07",
-        "connection-mcq-06",
-        "connection-mcq-08",
-        "connection-mcq-05",
-        "connection-mcq-09",
-        "connection-mcq-04"
+        "connection-pdf-001",
+        "connection-mcq-11",
+        "connection-pdf-003"
       ],
       "explanation": "本句的「connection」指「裝置與網絡、伺服器等建立的通訊連線」。",
       "sentenceIndex": 15,
@@ -974,12 +912,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-07": "本句指「裝置與網絡、伺服器等建立的通訊連線」。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
-        "connection-mcq-04": "「兩件事在原因、影響、邏輯或相似性上的關聯」與本句語境不同。"
+        "connection-mcq-07": "本句的「connection」指「裝置與網絡、伺服器等建立的通訊連線」。",
+        "connection-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-07"
     },
@@ -991,11 +927,9 @@ export default {
       "masked": "I lost my Wi-Fi ____.",
       "options": [
         "connection-mcq-07",
-        "connection-mcq-06",
-        "connection-mcq-08",
-        "connection-mcq-05",
-        "connection-mcq-09",
-        "connection-mcq-04"
+        "connection-mcq-11",
+        "connection-mcq-16",
+        "connection-mcq-19"
       ],
       "explanation": "本句的「connection」指「裝置與網絡、伺服器等建立的通訊連線」。",
       "sentenceIndex": 16,
@@ -1004,12 +938,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-07": "本句指「裝置與網絡、伺服器等建立的通訊連線」。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。",
-        "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
-        "connection-mcq-04": "「兩件事在原因、影響、邏輯或相似性上的關聯」與本句語境不同。"
+        "connection-mcq-07": "本句的「connection」指「裝置與網絡、伺服器等建立的通訊連線」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-07"
     },
@@ -1021,11 +953,9 @@ export default {
       "masked": "The phone ____ was poor.",
       "options": [
         "connection-pdf-002",
-        "connection-mcq-07",
-        "connection-mcq-09",
-        "connection-mcq-06",
-        "connection-mcq-10",
-        "connection-mcq-05"
+        "connection-mcq-11",
+        "connection-mcq-17",
+        "connection-pdf-003"
       ],
       "explanation": "本句的「connection」指「通話雙方之間的通訊連線狀態」。",
       "sentenceIndex": 17,
@@ -1034,12 +964,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-pdf-002": "本句指「通話雙方之間的通訊連線狀態」。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。",
-        "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
-        "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。"
+        "connection-pdf-002": "本句的「connection」指「通話雙方之間的通訊連線狀態」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "connection-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-pdf-002"
     },
@@ -1051,11 +979,9 @@ export default {
       "masked": "We were cut off because the ____ failed.",
       "options": [
         "connection-pdf-002",
-        "connection-mcq-07",
-        "connection-mcq-09",
-        "connection-mcq-06",
-        "connection-mcq-10",
-        "connection-mcq-05"
+        "connection-mcq-11",
+        "connection-mcq-17",
+        "connection-pdf-003"
       ],
       "explanation": "本句的「connection」指「通話雙方之間的通訊連線狀態」。",
       "sentenceIndex": 18,
@@ -1064,12 +990,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-pdf-002": "本句指「通話雙方之間的通訊連線狀態」。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。",
-        "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
-        "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。"
+        "connection-pdf-002": "本句的「connection」指「通話雙方之間的通訊連線狀態」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "connection-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-pdf-002"
     },
@@ -1081,10 +1005,8 @@ export default {
       "masked": "The electrician checked all the electrical ____.",
       "options": [
         "connection-mcq-08",
-        "connection-mcq-07",
-        "connection-mcq-09",
-        "connection-mcq-06",
-        "connection-mcq-10",
+        "connection-mcq-16",
+        "connection-mcq-11",
         "connection-mcq-05"
       ],
       "explanation": "本句的「connections」指「電路中導體、接點或設備之間的實體連接」。",
@@ -1094,12 +1016,10 @@ export default {
         "connections"
       ],
       "optionReasons": {
-        "connection-mcq-08": "本句指「電路中導體、接點或設備之間的實體連接」。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。",
-        "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
-        "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。"
+        "connection-mcq-08": "本句的「connections」指「電路中導體、接點或設備之間的實體連接」。",
+        "connection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-08"
     },
@@ -1111,10 +1031,8 @@ export default {
       "masked": "A loose ____ can cause the light to flicker.",
       "options": [
         "connection-mcq-08",
-        "connection-mcq-07",
-        "connection-mcq-09",
-        "connection-mcq-06",
-        "connection-mcq-10",
+        "connection-mcq-17",
+        "connection-mcq-11",
         "connection-mcq-05"
       ],
       "explanation": "本句的「connection」指「電路中導體、接點或設備之間的實體連接」。",
@@ -1124,12 +1042,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-08": "本句指「電路中導體、接點或設備之間的實體連接」。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。",
-        "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。",
-        "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
-        "connection-mcq-05": "「由一班交通工具轉乘另一班的銜接安排」與本句語境不同。"
+        "connection-mcq-08": "本句的「connection」指「電路中導體、接點或設備之間的實體連接」。",
+        "connection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-08"
     },
@@ -1141,11 +1057,9 @@ export default {
       "masked": "He got the interview through a professional ____.",
       "options": [
         "connection-mcq-09",
-        "connection-mcq-08",
-        "connection-mcq-10",
-        "connection-mcq-07",
         "connection-mcq-11",
-        "connection-mcq-06"
+        "connection-mcq-06",
+        "connection-mcq-07"
       ],
       "explanation": "本句的「connection」指「能提供資訊、機會、影響力或協助的人脈關係」。",
       "sentenceIndex": 21,
@@ -1154,12 +1068,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-09": "本句指「能提供資訊、機會、影響力或協助的人脈關係」。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。",
-        "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。",
-        "connection-mcq-11": "「與……有關；關於……，較正式」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。"
+        "connection-mcq-09": "本句的「connection」指「能提供資訊、機會、影響力或協助的人脈關係」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-09"
     },
@@ -1171,11 +1083,9 @@ export default {
       "masked": "She has useful ____ in the industry.",
       "options": [
         "connection-mcq-09",
-        "connection-mcq-08",
-        "connection-mcq-10",
-        "connection-mcq-07",
+        "connection-mcq-06",
         "connection-mcq-11",
-        "connection-mcq-06"
+        "connection-mcq-07"
       ],
       "explanation": "本句的「connections」指「能提供資訊、機會、影響力或協助的人脈關係」。",
       "sentenceIndex": 22,
@@ -1184,12 +1094,10 @@ export default {
         "connections"
       ],
       "optionReasons": {
-        "connection-mcq-09": "本句指「能提供資訊、機會、影響力或協助的人脈關係」。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。",
-        "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。",
-        "connection-mcq-11": "「與……有關；關於……，較正式」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。"
+        "connection-mcq-09": "本句的「connections」指「能提供資訊、機會、影響力或協助的人脈關係」。",
+        "connection-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-09"
     },
@@ -1201,11 +1109,9 @@ export default {
       "masked": "You need good ____ to get into that circle.",
       "options": [
         "connection-mcq-09",
-        "connection-mcq-08",
-        "connection-mcq-10",
-        "connection-mcq-07",
+        "connection-mcq-05",
         "connection-mcq-11",
-        "connection-mcq-06"
+        "connection-pdf-003"
       ],
       "explanation": "本句的「connections」指「能提供資訊、機會、影響力或協助的人脈關係」。",
       "sentenceIndex": 23,
@@ -1214,12 +1120,10 @@ export default {
         "connections"
       ],
       "optionReasons": {
-        "connection-mcq-09": "本句指「能提供資訊、機會、影響力或協助的人脈關係」。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。",
-        "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。",
-        "connection-mcq-11": "「與……有關；關於……，較正式」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。"
+        "connection-mcq-09": "本句的「connections」指「能提供資訊、機會、影響力或協助的人脈關係」。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-09"
     },
@@ -1231,11 +1135,9 @@ export default {
       "masked": "His political ____ helped him gain access.",
       "options": [
         "connection-mcq-09",
-        "connection-mcq-08",
-        "connection-mcq-10",
-        "connection-mcq-07",
+        "connection-mcq-06",
         "connection-mcq-11",
-        "connection-mcq-06"
+        "connection-mcq-07"
       ],
       "explanation": "本句的「connections」指「能提供資訊、機會、影響力或協助的人脈關係」。",
       "sentenceIndex": 24,
@@ -1244,12 +1146,10 @@ export default {
         "connections"
       ],
       "optionReasons": {
-        "connection-mcq-09": "本句指「能提供資訊、機會、影響力或協助的人脈關係」。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。",
-        "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。",
-        "connection-mcq-11": "「與……有關；關於……，較正式」與本句語境不同。",
-        "connection-mcq-06": "「兩個地方之間的交通路線／接駁服務」與本句語境不同。"
+        "connection-mcq-09": "本句的「connections」指「能提供資訊、機會、影響力或協助的人脈關係」。",
+        "connection-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-09"
     },
@@ -1261,11 +1161,9 @@ export default {
       "masked": "Police investigated his possible ____ with the group.",
       "options": [
         "connection-mcq-10",
-        "connection-mcq-09",
         "connection-mcq-11",
-        "connection-mcq-08",
-        "connection-mcq-12",
-        "connection-mcq-07"
+        "connection-mcq-16",
+        "connection-mcq-18"
       ],
       "explanation": "本句的「connection」指「某人／某機構與另一事件、團體或活動之間的牽連」。",
       "sentenceIndex": 25,
@@ -1274,12 +1172,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-10": "本句指「某人／某機構與另一事件、團體或活動之間的牽連」。",
-        "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
-        "connection-mcq-11": "「與……有關；關於……，較正式」與本句語境不同。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。",
-        "connection-mcq-12": "「把兩個或多個物件／地方接起來」與本句語境不同。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。"
+        "connection-mcq-10": "本句的「connection」指「某人／某機構與另一事件、團體或活動之間的牽連」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-10"
     },
@@ -1291,11 +1187,9 @@ export default {
       "masked": "The company denied any ____ with the scheme.",
       "options": [
         "connection-mcq-10",
-        "connection-mcq-09",
         "connection-mcq-11",
-        "connection-mcq-08",
-        "connection-mcq-12",
-        "connection-mcq-07"
+        "connection-mcq-16",
+        "connection-mcq-15"
       ],
       "explanation": "本句的「connection」指「某人／某機構與另一事件、團體或活動之間的牽連」。",
       "sentenceIndex": 26,
@@ -1304,12 +1198,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-10": "本句指「某人／某機構與另一事件、團體或活動之間的牽連」。",
-        "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
-        "connection-mcq-11": "「與……有關；關於……，較正式」與本句語境不同。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。",
-        "connection-mcq-12": "「把兩個或多個物件／地方接起來」與本句語境不同。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。"
+        "connection-mcq-10": "本句的「connection」指「某人／某機構與另一事件、團體或活動之間的牽連」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-10"
     },
@@ -1321,11 +1213,9 @@ export default {
       "masked": "He was questioned in ____ the robbery.",
       "options": [
         "connection-mcq-10",
-        "connection-mcq-09",
+        "connection-mcq-16",
         "connection-mcq-11",
-        "connection-mcq-08",
-        "connection-mcq-12",
-        "connection-mcq-07"
+        "connection-mcq-18"
       ],
       "explanation": "本句的「connection with」指「某人／某機構與另一事件、團體或活動之間的牽連」。",
       "sentenceIndex": 27,
@@ -1334,12 +1224,10 @@ export default {
         "connection with"
       ],
       "optionReasons": {
-        "connection-mcq-10": "本句指「某人／某機構與另一事件、團體或活動之間的牽連」。",
-        "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
-        "connection-mcq-11": "「與……有關；關於……，較正式」與本句語境不同。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。",
-        "connection-mcq-12": "「把兩個或多個物件／地方接起來」與本句語境不同。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。"
+        "connection-mcq-10": "本句的「connection with」指「某人／某機構與另一事件、團體或活動之間的牽連」。",
+        "connection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-10"
     },
@@ -1351,11 +1239,9 @@ export default {
       "masked": "Two people were arrested in ____ with the case.",
       "options": [
         "connection-mcq-10",
-        "connection-mcq-09",
         "connection-mcq-11",
-        "connection-mcq-08",
-        "connection-mcq-12",
-        "connection-mcq-07"
+        "connection-mcq-16",
+        "connection-mcq-15"
       ],
       "explanation": "本句的「connection」指「某人／某機構與另一事件、團體或活動之間的牽連」。",
       "sentenceIndex": 28,
@@ -1364,12 +1250,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-10": "本句指「某人／某機構與另一事件、團體或活動之間的牽連」。",
-        "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
-        "connection-mcq-11": "「與……有關；關於……，較正式」與本句語境不同。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。",
-        "connection-mcq-12": "「把兩個或多個物件／地方接起來」與本句語境不同。",
-        "connection-mcq-07": "「裝置與網絡、伺服器等建立的通訊連線」與本句語境不同。"
+        "connection-mcq-10": "本句的「connection」指「某人／某機構與另一事件、團體或活動之間的牽連」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-10"
     },
@@ -1381,11 +1265,9 @@ export default {
       "masked": "I’m writing in ____ your application.",
       "options": [
         "connection-mcq-11",
-        "connection-mcq-10",
-        "connection-mcq-12",
-        "connection-mcq-09",
-        "connection-mcq-13",
-        "connection-mcq-08"
+        "connection-mcq-17",
+        "connection-mcq-07",
+        "connection-mcq-05"
       ],
       "explanation": "本句的「connection with」指「與……有關；關於……，較正式」。",
       "sentenceIndex": 29,
@@ -1394,12 +1276,10 @@ export default {
         "connection with"
       ],
       "optionReasons": {
-        "connection-mcq-11": "本句指「與……有關；關於……，較正式」。",
-        "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
-        "connection-mcq-12": "「把兩個或多個物件／地方接起來」與本句語境不同。",
-        "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
-        "connection-mcq-13": "「與某人建立理解、互動或情感共鳴」與本句語境不同。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。"
+        "connection-mcq-11": "本句的「connection with」指「與……有關；關於……，較正式」。",
+        "connection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-11"
     },
@@ -1411,11 +1291,9 @@ export default {
       "masked": "Several questions were raised in ____ with the project.",
       "options": [
         "connection-mcq-11",
-        "connection-mcq-10",
-        "connection-mcq-12",
-        "connection-mcq-09",
-        "connection-mcq-13",
-        "connection-mcq-08"
+        "connection-pdf-003",
+        "connection-mcq-03",
+        "connection-mcq-05"
       ],
       "explanation": "本句的「connection」指「與……有關；關於……，較正式」。",
       "sentenceIndex": 30,
@@ -1424,12 +1302,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-mcq-11": "本句指「與……有關；關於……，較正式」。",
-        "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
-        "connection-mcq-12": "「把兩個或多個物件／地方接起來」與本句語境不同。",
-        "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
-        "connection-mcq-13": "「與某人建立理解、互動或情感共鳴」與本句語境不同。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。"
+        "connection-mcq-11": "本句的「connection」指「與……有關；關於……，較正式」。",
+        "connection-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-11"
     },
@@ -1441,11 +1317,9 @@ export default {
       "masked": "Water was leaking from the pipe ____.",
       "options": [
         "connection-pdf-003",
-        "connection-mcq-10",
-        "connection-mcq-12",
         "connection-mcq-09",
-        "connection-mcq-13",
-        "connection-mcq-08"
+        "connection-pdf-002",
+        "connection-mcq-11"
       ],
       "explanation": "本句的「connection」指「實際把兩個部件接在一起的位置／接口」。",
       "sentenceIndex": 31,
@@ -1454,12 +1328,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-pdf-003": "本句指「實際把兩個部件接在一起的位置／接口」。",
-        "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
-        "connection-mcq-12": "「把兩個或多個物件／地方接起來」與本句語境不同。",
-        "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
-        "connection-mcq-13": "「與某人建立理解、互動或情感共鳴」與本句語境不同。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。"
+        "connection-pdf-003": "本句的「connection」指「實際把兩個部件接在一起的位置／接口」。",
+        "connection-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "connection-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-pdf-003"
     },
@@ -1471,11 +1343,9 @@ export default {
       "masked": "Check the ____ point before switching on the machine.",
       "options": [
         "connection-pdf-003",
-        "connection-mcq-10",
-        "connection-mcq-12",
-        "connection-mcq-09",
-        "connection-mcq-13",
-        "connection-mcq-08"
+        "connection-mcq-17",
+        "connection-pdf-002",
+        "connection-mcq-11"
       ],
       "explanation": "本句的「connection」指「實際把兩個部件接在一起的位置／接口」。",
       "sentenceIndex": 32,
@@ -1484,12 +1354,10 @@ export default {
         "connection"
       ],
       "optionReasons": {
-        "connection-pdf-003": "本句指「實際把兩個部件接在一起的位置／接口」。",
-        "connection-mcq-10": "「某人／某機構與另一事件、團體或活動之間的牽連」與本句語境不同。",
-        "connection-mcq-12": "「把兩個或多個物件／地方接起來」與本句語境不同。",
-        "connection-mcq-09": "「能提供資訊、機會、影響力或協助的人脈關係」與本句語境不同。",
-        "connection-mcq-13": "「與某人建立理解、互動或情感共鳴」與本句語境不同。",
-        "connection-mcq-08": "「電路中導體、接點或設備之間的實體連接」與本句語境不同。"
+        "connection-pdf-003": "本句的「connection」指「實際把兩個部件接在一起的位置／接口」。",
+        "connection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "connection-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-pdf-003"
     },
@@ -1501,10 +1369,8 @@ export default {
       "masked": "Students need to ____ theory with practice.",
       "options": [
         "connection-mcq-14",
-        "connection-mcq-13",
-        "connection-mcq-15",
-        "connection-mcq-12",
         "connection-mcq-16",
+        "connection-mcq-05",
         "connection-mcq-11"
       ],
       "explanation": "本句的「connect」指「辨認或建立兩件事之間的關係」。",
@@ -1514,12 +1380,10 @@ export default {
         "connect"
       ],
       "optionReasons": {
-        "connection-mcq-14": "本句指「辨認或建立兩件事之間的關係」。",
-        "connection-mcq-13": "「與某人建立理解、互動或情感共鳴」與本句語境不同。",
-        "connection-mcq-15": "「已建立物理／網絡連接的」與本句語境不同。",
-        "connection-mcq-12": "「把兩個或多個物件／地方接起來」與本句語境不同。",
-        "connection-mcq-16": "「在主題、原因或影響上彼此有關的」與本句語境不同。",
-        "connection-mcq-11": "「與……有關；關於……，較正式」與本句語境不同。"
+        "connection-mcq-14": "本句的「connect」指「辨認或建立兩件事之間的關係」。",
+        "connection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-14"
     },
@@ -1531,11 +1395,9 @@ export default {
       "masked": "The printer is ____ to the computer.",
       "options": [
         "connection-mcq-15",
-        "connection-mcq-14",
-        "connection-mcq-16",
-        "connection-mcq-13",
         "connection-mcq-17",
-        "connection-mcq-12"
+        "connection-mcq-11",
+        "connection-pdf-003"
       ],
       "explanation": "本句的「connected」指「已建立物理／網絡連接的」。",
       "sentenceIndex": 34,
@@ -1544,12 +1406,10 @@ export default {
         "connected"
       ],
       "optionReasons": {
-        "connection-mcq-15": "本句指「已建立物理／網絡連接的」。",
-        "connection-mcq-14": "「辨認或建立兩件事之間的關係」與本句語境不同。",
-        "connection-mcq-16": "「在主題、原因或影響上彼此有關的」與本句語境不同。",
-        "connection-mcq-13": "「與某人建立理解、互動或情感共鳴」與本句語境不同。",
-        "connection-mcq-17": "「認識很多有影響力或能提供機會的人」與本句語境不同。",
-        "connection-mcq-12": "「把兩個或多個物件／地方接起來」與本句語境不同。"
+        "connection-mcq-15": "本句的「connected」指「已建立物理／網絡連接的」。",
+        "connection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-15"
     },
@@ -1561,11 +1421,9 @@ export default {
       "masked": "The two problems are closely ____.",
       "options": [
         "connection-mcq-16",
-        "connection-mcq-15",
-        "connection-mcq-17",
-        "connection-mcq-14",
-        "connection-mcq-18",
-        "connection-mcq-13"
+        "connection-mcq-19",
+        "connection-mcq-07",
+        "connection-mcq-05"
       ],
       "explanation": "本句的「connected」指「在主題、原因或影響上彼此有關的」。",
       "sentenceIndex": 35,
@@ -1574,12 +1432,10 @@ export default {
         "connected"
       ],
       "optionReasons": {
-        "connection-mcq-16": "本句指「在主題、原因或影響上彼此有關的」。",
-        "connection-mcq-15": "「已建立物理／網絡連接的」與本句語境不同。",
-        "connection-mcq-17": "「認識很多有影響力或能提供機會的人」與本句語境不同。",
-        "connection-mcq-14": "「辨認或建立兩件事之間的關係」與本句語境不同。",
-        "connection-mcq-18": "「應相連的系統／設備目前沒有建立連接」與本句語境不同。",
-        "connection-mcq-13": "「與某人建立理解、互動或情感共鳴」與本句語境不同。"
+        "connection-mcq-16": "本句的「connected」指「在主題、原因或影響上彼此有關的」。",
+        "connection-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-16"
     },
@@ -1591,11 +1447,9 @@ export default {
       "masked": "He is very well ____ in the business world.",
       "options": [
         "connection-mcq-17",
-        "connection-mcq-16",
-        "connection-mcq-18",
-        "connection-mcq-15",
-        "connection-mcq-19",
-        "connection-mcq-14"
+        "connection-mcq-11",
+        "connection-mcq-07",
+        "connection-mcq-05"
       ],
       "explanation": "本句的「connected」指「認識很多有影響力或能提供機會的人」。",
       "sentenceIndex": 36,
@@ -1604,12 +1458,10 @@ export default {
         "connected"
       ],
       "optionReasons": {
-        "connection-mcq-17": "本句指「認識很多有影響力或能提供機會的人」。",
-        "connection-mcq-16": "「在主題、原因或影響上彼此有關的」與本句語境不同。",
-        "connection-mcq-18": "「應相連的系統／設備目前沒有建立連接」與本句語境不同。",
-        "connection-mcq-15": "「已建立物理／網絡連接的」與本句語境不同。",
-        "connection-mcq-19": "「各部分之間缺乏清楚邏輯或關聯」與本句語境不同。",
-        "connection-mcq-14": "「辨認或建立兩件事之間的關係」與本句語境不同。"
+        "connection-mcq-17": "本句的「connected」指「認識很多有影響力或能提供機會的人」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-17"
     },
@@ -1622,10 +1474,8 @@ export default {
       "options": [
         "connection-mcq-18",
         "connection-mcq-17",
-        "connection-mcq-19",
-        "connection-mcq-16",
-        "connection-mcq-20",
-        "connection-mcq-15"
+        "connection-mcq-11",
+        "connection-mcq-10"
       ],
       "explanation": "本句的「disconnected」指「應相連的系統／設備目前沒有建立連接」。",
       "sentenceIndex": 37,
@@ -1634,12 +1484,10 @@ export default {
         "disconnected"
       ],
       "optionReasons": {
-        "connection-mcq-18": "本句指「應相連的系統／設備目前沒有建立連接」。",
-        "connection-mcq-17": "「認識很多有影響力或能提供機會的人」與本句語境不同。",
-        "connection-mcq-19": "「各部分之間缺乏清楚邏輯或關聯」與本句語境不同。",
-        "connection-mcq-16": "「在主題、原因或影響上彼此有關的」與本句語境不同。",
-        "connection-mcq-20": "「缺乏與人群、社區或環境之間的情感連結」與本句語境不同。",
-        "connection-mcq-15": "「已建立物理／網絡連接的」與本句語境不同。"
+        "connection-mcq-18": "本句的「disconnected」指「應相連的系統／設備目前沒有建立連接」。",
+        "connection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-18"
     },
@@ -1651,10 +1499,8 @@ export default {
       "masked": "The ideas felt ____.",
       "options": [
         "connection-mcq-19",
-        "connection-mcq-18",
-        "connection-mcq-20",
-        "connection-mcq-17",
-        "connection-mcq-21",
+        "connection-mcq-11",
+        "connection-mcq-07",
         "connection-mcq-16"
       ],
       "explanation": "本句的「disconnected」指「各部分之間缺乏清楚邏輯或關聯」。",
@@ -1664,12 +1510,10 @@ export default {
         "disconnected"
       ],
       "optionReasons": {
-        "connection-mcq-19": "本句指「各部分之間缺乏清楚邏輯或關聯」。",
-        "connection-mcq-18": "「應相連的系統／設備目前沒有建立連接」與本句語境不同。",
-        "connection-mcq-20": "「缺乏與人群、社區或環境之間的情感連結」與本句語境不同。",
-        "connection-mcq-17": "「認識很多有影響力或能提供機會的人」與本句語境不同。",
-        "connection-mcq-21": "「裝置、系統、道路等彼此建立連線／連通的能力或程度」與本句語境不同。",
-        "connection-mcq-16": "「在主題、原因或影響上彼此有關的」與本句語境不同。"
+        "connection-mcq-19": "本句的「disconnected」指「各部分之間缺乏清楚邏輯或關聯」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-19"
     },
@@ -1681,11 +1525,9 @@ export default {
       "masked": "She felt ____ from her community.",
       "options": [
         "connection-mcq-20",
-        "connection-mcq-19",
-        "connection-mcq-21",
-        "connection-mcq-18",
-        "connection-mcq-17",
-        "connection-mcq-16"
+        "connection-mcq-05",
+        "connection-pdf-003",
+        "connection-mcq-17"
       ],
       "explanation": "本句的「disconnected」指「缺乏與人群、社區或環境之間的情感連結」。",
       "sentenceIndex": 39,
@@ -1694,12 +1536,10 @@ export default {
         "disconnected"
       ],
       "optionReasons": {
-        "connection-mcq-20": "本句指「缺乏與人群、社區或環境之間的情感連結」。",
-        "connection-mcq-19": "「各部分之間缺乏清楚邏輯或關聯」與本句語境不同。",
-        "connection-mcq-21": "「裝置、系統、道路等彼此建立連線／連通的能力或程度」與本句語境不同。",
-        "connection-mcq-18": "「應相連的系統／設備目前沒有建立連接」與本句語境不同。",
-        "connection-mcq-17": "「認識很多有影響力或能提供機會的人」與本句語境不同。",
-        "connection-mcq-16": "「在主題、原因或影響上彼此有關的」與本句語境不同。"
+        "connection-mcq-20": "本句的「disconnected」指「缺乏與人群、社區或環境之間的情感連結」。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "connection-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-20"
     },
@@ -1711,11 +1551,9 @@ export default {
       "masked": "The hotel offers excellent internet ____.",
       "options": [
         "connection-mcq-21",
-        "connection-mcq-20",
         "connection-mcq-19",
-        "connection-mcq-18",
-        "connection-mcq-17",
-        "connection-mcq-16"
+        "connection-mcq-11",
+        "connection-mcq-05"
       ],
       "explanation": "本句的「connectivity」指「裝置、系統、道路等彼此建立連線／連通的能力或程度」。",
       "sentenceIndex": 40,
@@ -1724,12 +1562,10 @@ export default {
         "connectivity"
       ],
       "optionReasons": {
-        "connection-mcq-21": "本句指「裝置、系統、道路等彼此建立連線／連通的能力或程度」。",
-        "connection-mcq-20": "「缺乏與人群、社區或環境之間的情感連結」與本句語境不同。",
-        "connection-mcq-19": "「各部分之間缺乏清楚邏輯或關聯」與本句語境不同。",
-        "connection-mcq-18": "「應相連的系統／設備目前沒有建立連接」與本句語境不同。",
-        "connection-mcq-17": "「認識很多有影響力或能提供機會的人」與本句語境不同。",
-        "connection-mcq-16": "「在主題、原因或影響上彼此有關的」與本句語境不同。"
+        "connection-mcq-21": "本句的「connectivity」指「裝置、系統、道路等彼此建立連線／連通的能力或程度」。",
+        "connection-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-21"
     },
@@ -1741,11 +1577,9 @@ export default {
       "masked": "The project aims to improve transport ____.",
       "options": [
         "connection-mcq-21",
-        "connection-mcq-20",
+        "connection-mcq-11",
         "connection-mcq-19",
-        "connection-mcq-18",
-        "connection-mcq-17",
-        "connection-mcq-16"
+        "connection-pdf-003"
       ],
       "explanation": "本句的「connectivity」指「裝置、系統、道路等彼此建立連線／連通的能力或程度」。",
       "sentenceIndex": 41,
@@ -1754,12 +1588,10 @@ export default {
         "connectivity"
       ],
       "optionReasons": {
-        "connection-mcq-21": "本句指「裝置、系統、道路等彼此建立連線／連通的能力或程度」。",
-        "connection-mcq-20": "「缺乏與人群、社區或環境之間的情感連結」與本句語境不同。",
-        "connection-mcq-19": "「各部分之間缺乏清楚邏輯或關聯」與本句語境不同。",
-        "connection-mcq-18": "「應相連的系統／設備目前沒有建立連接」與本句語境不同。",
-        "connection-mcq-17": "「認識很多有影響力或能提供機會的人」與本句語境不同。",
-        "connection-mcq-16": "「在主題、原因或影響上彼此有關的」與本句語境不同。"
+        "connection-mcq-21": "本句的「connectivity」指「裝置、系統、道路等彼此建立連線／連通的能力或程度」。",
+        "connection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "connection-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "connection-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "connection-mcq-21"
     }
@@ -1771,5 +1603,7 @@ export default {
     "sha256": "d7ffc2b939d7ea34c909be7e759c8797e941e29ac6f4281e0d61a4d12d0375b3",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

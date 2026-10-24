@@ -460,11 +460,7 @@ export default {
       "masked": "I became calmer and more ____.",
       "options": [
         "reliable-mcq-01",
-        "reliable-mcq-02",
-        "reliable-mcq-03",
-        "reliable-mcq-04",
-        "reliable-mcq-05",
-        "reliable-mcq-06"
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「reliable」指「可靠的；值得信賴的」。",
       "sentenceIndex": 0,
@@ -473,12 +469,8 @@ export default {
         "reliable"
       ],
       "optionReasons": {
-        "reliable-mcq-01": "本句指「可靠的；值得信賴的」。",
-        "reliable-mcq-02": "「可靠的員工」與本句語境不同。",
-        "reliable-mcq-03": "「可靠的隊友」與本句語境不同。",
-        "reliable-mcq-04": "「可靠來源」與本句語境不同。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。"
+        "reliable-mcq-01": "本句的「reliable」指「可靠的；值得信賴的」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-01"
     },
@@ -490,11 +482,7 @@ export default {
       "masked": "Kevin is very ____ and always finishes his work on time.",
       "options": [
         "reliable-mcq-01",
-        "reliable-mcq-02",
-        "reliable-mcq-03",
-        "reliable-mcq-04",
-        "reliable-mcq-05",
-        "reliable-mcq-06"
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「reliable」指「可靠的；值得信賴的」。",
       "sentenceIndex": 1,
@@ -503,12 +491,8 @@ export default {
         "reliable"
       ],
       "optionReasons": {
-        "reliable-mcq-01": "本句指「可靠的；值得信賴的」。",
-        "reliable-mcq-02": "「可靠的員工」與本句語境不同。",
-        "reliable-mcq-03": "「可靠的隊友」與本句語境不同。",
-        "reliable-mcq-04": "「可靠來源」與本句語境不同。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。"
+        "reliable-mcq-01": "本句的「reliable」指「可靠的；值得信賴的」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-01"
     },
@@ -520,11 +504,7 @@ export default {
       "masked": "We need someone ____ to lead the group.",
       "options": [
         "reliable-mcq-01",
-        "reliable-mcq-02",
-        "reliable-mcq-03",
-        "reliable-mcq-04",
-        "reliable-mcq-05",
-        "reliable-mcq-06"
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「reliable」指「可靠的；值得信賴的」。",
       "sentenceIndex": 2,
@@ -533,12 +513,8 @@ export default {
         "reliable"
       ],
       "optionReasons": {
-        "reliable-mcq-01": "本句指「可靠的；值得信賴的」。",
-        "reliable-mcq-02": "「可靠的員工」與本句語境不同。",
-        "reliable-mcq-03": "「可靠的隊友」與本句語境不同。",
-        "reliable-mcq-04": "「可靠來源」與本句語境不同。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。"
+        "reliable-mcq-01": "本句的「reliable」指「可靠的；值得信賴的」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-01"
     },
@@ -550,11 +526,8 @@ export default {
       "masked": "She is a very ____.",
       "options": [
         "reliable-mcq-02",
-        "reliable-mcq-01",
-        "reliable-mcq-03",
-        "reliable-mcq-04",
-        "reliable-mcq-05",
-        "reliable-mcq-06"
+        "reliable-mcq-14",
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「reliable employee」指「可靠的員工」。",
       "sentenceIndex": 3,
@@ -563,12 +536,9 @@ export default {
         "reliable employee"
       ],
       "optionReasons": {
-        "reliable-mcq-02": "本句指「可靠的員工」。",
-        "reliable-mcq-01": "「可靠的；值得信賴的」與本句語境不同。",
-        "reliable-mcq-03": "「可靠的隊友」與本句語境不同。",
-        "reliable-mcq-04": "「可靠來源」與本句語境不同。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。"
+        "reliable-mcq-02": "本句的「reliable employee」指「可靠的員工」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-02"
     },
@@ -580,11 +550,8 @@ export default {
       "masked": "A ____ can be trusted to meet deadlines.",
       "options": [
         "reliable-mcq-02",
-        "reliable-mcq-01",
-        "reliable-mcq-03",
-        "reliable-mcq-04",
-        "reliable-mcq-05",
-        "reliable-mcq-06"
+        "reliable-mcq-18",
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliable worker」指「可靠的員工」。",
       "sentenceIndex": 4,
@@ -593,12 +560,9 @@ export default {
         "reliable worker"
       ],
       "optionReasons": {
-        "reliable-mcq-02": "本句指「可靠的員工」。",
-        "reliable-mcq-01": "「可靠的；值得信賴的」與本句語境不同。",
-        "reliable-mcq-03": "「可靠的隊友」與本句語境不同。",
-        "reliable-mcq-04": "「可靠來源」與本句語境不同。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。"
+        "reliable-mcq-02": "本句的「reliable worker」指「可靠的員工」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-02"
     },
@@ -610,11 +574,8 @@ export default {
       "masked": "He is a ____ who never lets the group down.",
       "options": [
         "reliable-mcq-03",
-        "reliable-mcq-02",
-        "reliable-mcq-04",
-        "reliable-mcq-01",
-        "reliable-mcq-05",
-        "reliable-mcq-06"
+        "reliable-mcq-14",
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「reliable teammate」指「可靠的隊友」。",
       "sentenceIndex": 5,
@@ -623,12 +584,9 @@ export default {
         "reliable teammate"
       ],
       "optionReasons": {
-        "reliable-mcq-03": "本句指「可靠的隊友」。",
-        "reliable-mcq-02": "「可靠的員工」與本句語境不同。",
-        "reliable-mcq-04": "「可靠來源」與本句語境不同。",
-        "reliable-mcq-01": "「可靠的；值得信賴的」與本句語境不同。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。"
+        "reliable-mcq-03": "本句的「reliable teammate」指「可靠的隊友」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-03"
     },
@@ -640,11 +598,8 @@ export default {
       "masked": "I know I can depend on her because she is ____.",
       "options": [
         "reliable-mcq-03",
-        "reliable-mcq-02",
-        "reliable-mcq-04",
-        "reliable-mcq-01",
-        "reliable-mcq-05",
-        "reliable-mcq-06"
+        "reliable-mcq-14",
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「reliable」指「可靠的隊友」。",
       "sentenceIndex": 6,
@@ -653,12 +608,9 @@ export default {
         "reliable"
       ],
       "optionReasons": {
-        "reliable-mcq-03": "本句指「可靠的隊友」。",
-        "reliable-mcq-02": "「可靠的員工」與本句語境不同。",
-        "reliable-mcq-04": "「可靠來源」與本句語境不同。",
-        "reliable-mcq-01": "「可靠的；值得信賴的」與本句語境不同。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。"
+        "reliable-mcq-03": "本句的「reliable」指「可靠的隊友」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-03"
     },
@@ -670,11 +622,8 @@ export default {
       "masked": "Make sure you use a ____.",
       "options": [
         "reliable-mcq-04",
-        "reliable-mcq-03",
-        "reliable-mcq-05",
-        "reliable-mcq-02",
-        "reliable-mcq-06",
-        "reliable-mcq-01"
+        "reliable-mcq-18",
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliable source」指「可靠來源」。",
       "sentenceIndex": 7,
@@ -683,12 +632,9 @@ export default {
         "reliable source"
       ],
       "optionReasons": {
-        "reliable-mcq-04": "本句指「可靠來源」。",
-        "reliable-mcq-03": "「可靠的隊友」與本句語境不同。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。",
-        "reliable-mcq-02": "「可靠的員工」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。",
-        "reliable-mcq-01": "「可靠的；值得信賴的」與本句語境不同。"
+        "reliable-mcq-04": "本句的「reliable source」指「可靠來源」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-04"
     },
@@ -700,11 +646,8 @@ export default {
       "masked": "The information came from a ____.",
       "options": [
         "reliable-mcq-04",
-        "reliable-mcq-03",
-        "reliable-mcq-05",
-        "reliable-mcq-02",
-        "reliable-mcq-06",
-        "reliable-mcq-01"
+        "reliable-mcq-18",
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliable source」指「可靠來源」。",
       "sentenceIndex": 8,
@@ -713,12 +656,9 @@ export default {
         "reliable source"
       ],
       "optionReasons": {
-        "reliable-mcq-04": "本句指「可靠來源」。",
-        "reliable-mcq-03": "「可靠的隊友」與本句語境不同。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。",
-        "reliable-mcq-02": "「可靠的員工」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。",
-        "reliable-mcq-01": "「可靠的；值得信賴的」與本句語境不同。"
+        "reliable-mcq-04": "本句的「reliable source」指「可靠來源」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-04"
     },
@@ -730,11 +670,8 @@ export default {
       "masked": "We need ____ before making a decision.",
       "options": [
         "reliable-mcq-05",
-        "reliable-mcq-04",
-        "reliable-mcq-06",
-        "reliable-mcq-03",
-        "reliable-mcq-07",
-        "reliable-mcq-02"
+        "reliable-mcq-18",
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliable information」指「可靠資訊」。",
       "sentenceIndex": 9,
@@ -743,12 +680,9 @@ export default {
         "reliable information"
       ],
       "optionReasons": {
-        "reliable-mcq-05": "本句指「可靠資訊」。",
-        "reliable-mcq-04": "「可靠來源」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。",
-        "reliable-mcq-03": "「可靠的隊友」與本句語境不同。",
-        "reliable-mcq-07": "「可靠方法」與本句語境不同。",
-        "reliable-mcq-02": "「可靠的員工」與本句語境不同。"
+        "reliable-mcq-05": "本句的「reliable information」指「可靠資訊」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-05"
     },
@@ -760,11 +694,8 @@ export default {
       "masked": "It is difficult to find ____ online.",
       "options": [
         "reliable-mcq-05",
-        "reliable-mcq-04",
-        "reliable-mcq-06",
-        "reliable-mcq-03",
-        "reliable-mcq-07",
-        "reliable-mcq-02"
+        "reliable-mcq-18",
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliable information」指「可靠資訊」。",
       "sentenceIndex": 10,
@@ -773,12 +704,9 @@ export default {
         "reliable information"
       ],
       "optionReasons": {
-        "reliable-mcq-05": "本句指「可靠資訊」。",
-        "reliable-mcq-04": "「可靠來源」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。",
-        "reliable-mcq-03": "「可靠的隊友」與本句語境不同。",
-        "reliable-mcq-07": "「可靠方法」與本句語境不同。",
-        "reliable-mcq-02": "「可靠的員工」與本句語境不同。"
+        "reliable-mcq-05": "本句的「reliable information」指「可靠資訊」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-05"
     },
@@ -790,11 +718,8 @@ export default {
       "masked": "The claim was supported by ____.",
       "options": [
         "reliable-mcq-06",
-        "reliable-mcq-05",
-        "reliable-mcq-07",
-        "reliable-mcq-04",
-        "reliable-mcq-08",
-        "reliable-mcq-03"
+        "reliable-mcq-18",
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliable evidence」指「可靠證據」。",
       "sentenceIndex": 11,
@@ -803,12 +728,9 @@ export default {
         "reliable evidence"
       ],
       "optionReasons": {
-        "reliable-mcq-06": "本句指「可靠證據」。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。",
-        "reliable-mcq-07": "「可靠方法」與本句語境不同。",
-        "reliable-mcq-04": "「可靠來源」與本句語境不同。",
-        "reliable-mcq-08": "「可靠系統」與本句語境不同。",
-        "reliable-mcq-03": "「可靠的隊友」與本句語境不同。"
+        "reliable-mcq-06": "本句的「reliable evidence」指「可靠證據」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-06"
     },
@@ -820,11 +742,8 @@ export default {
       "masked": "We should not reach a conclusion without ____.",
       "options": [
         "reliable-mcq-06",
-        "reliable-mcq-05",
-        "reliable-mcq-07",
-        "reliable-mcq-04",
-        "reliable-mcq-08",
-        "reliable-mcq-03"
+        "reliable-mcq-18",
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliable evidence」指「可靠證據」。",
       "sentenceIndex": 12,
@@ -833,12 +752,9 @@ export default {
         "reliable evidence"
       ],
       "optionReasons": {
-        "reliable-mcq-06": "本句指「可靠證據」。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。",
-        "reliable-mcq-07": "「可靠方法」與本句語境不同。",
-        "reliable-mcq-04": "「可靠來源」與本句語境不同。",
-        "reliable-mcq-08": "「可靠系統」與本句語境不同。",
-        "reliable-mcq-03": "「可靠的隊友」與本句語境不同。"
+        "reliable-mcq-06": "本句的「reliable evidence」指「可靠證據」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-06"
     },
@@ -850,11 +766,8 @@ export default {
       "masked": "This is a ____ for measuring progress.",
       "options": [
         "reliable-mcq-07",
-        "reliable-mcq-06",
-        "reliable-mcq-08",
-        "reliable-mcq-05",
-        "reliable-mcq-09",
-        "reliable-mcq-04"
+        "reliable-mcq-14",
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「reliable method」指「可靠方法」。",
       "sentenceIndex": 13,
@@ -863,12 +776,9 @@ export default {
         "reliable method"
       ],
       "optionReasons": {
-        "reliable-mcq-07": "本句指「可靠方法」。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。",
-        "reliable-mcq-08": "「可靠系統」與本句語境不同。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。",
-        "reliable-mcq-09": "「性能可靠的車」與本句語境不同。",
-        "reliable-mcq-04": "「可靠來源」與本句語境不同。"
+        "reliable-mcq-07": "本句的「reliable method」指「可靠方法」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-07"
     },
@@ -880,11 +790,8 @@ export default {
       "masked": "We need a more ____ to collect the data.",
       "options": [
         "reliable-mcq-07",
-        "reliable-mcq-06",
-        "reliable-mcq-08",
-        "reliable-mcq-05",
-        "reliable-mcq-09",
-        "reliable-mcq-04"
+        "reliable-mcq-14",
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「reliable way」指「可靠方法」。",
       "sentenceIndex": 14,
@@ -893,12 +800,9 @@ export default {
         "reliable way"
       ],
       "optionReasons": {
-        "reliable-mcq-07": "本句指「可靠方法」。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。",
-        "reliable-mcq-08": "「可靠系統」與本句語境不同。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。",
-        "reliable-mcq-09": "「性能可靠的車」與本句語境不同。",
-        "reliable-mcq-04": "「可靠來源」與本句語境不同。"
+        "reliable-mcq-07": "本句的「reliable way」指「可靠方法」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-07"
     },
@@ -910,11 +814,7 @@ export default {
       "masked": "The company needs a ____ for storing files.",
       "options": [
         "reliable-mcq-08",
-        "reliable-mcq-07",
-        "reliable-mcq-09",
-        "reliable-mcq-06",
-        "reliable-mcq-10",
-        "reliable-mcq-05"
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliable system」指「可靠系統」。",
       "sentenceIndex": 15,
@@ -923,12 +823,8 @@ export default {
         "reliable system"
       ],
       "optionReasons": {
-        "reliable-mcq-08": "本句指「可靠系統」。",
-        "reliable-mcq-07": "「可靠方法」與本句語境不同。",
-        "reliable-mcq-09": "「性能可靠的車」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。",
-        "reliable-mcq-10": "「穩定可靠的服務」與本句語境不同。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。"
+        "reliable-mcq-08": "本句的「reliable system」指「可靠系統」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-08"
     },
@@ -940,11 +836,7 @@ export default {
       "masked": "A ____ should work consistently.",
       "options": [
         "reliable-mcq-08",
-        "reliable-mcq-07",
-        "reliable-mcq-09",
-        "reliable-mcq-06",
-        "reliable-mcq-10",
-        "reliable-mcq-05"
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliable system」指「可靠系統」。",
       "sentenceIndex": 16,
@@ -953,12 +845,8 @@ export default {
         "reliable system"
       ],
       "optionReasons": {
-        "reliable-mcq-08": "本句指「可靠系統」。",
-        "reliable-mcq-07": "「可靠方法」與本句語境不同。",
-        "reliable-mcq-09": "「性能可靠的車」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。",
-        "reliable-mcq-10": "「穩定可靠的服務」與本句語境不同。",
-        "reliable-mcq-05": "「可靠資訊」與本句語境不同。"
+        "reliable-mcq-08": "本句的「reliable system」指「可靠系統」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-08"
     },
@@ -970,11 +858,8 @@ export default {
       "masked": "This car is old but very ____.",
       "options": [
         "reliable-mcq-09",
-        "reliable-mcq-08",
-        "reliable-mcq-10",
-        "reliable-mcq-07",
-        "reliable-mcq-11",
-        "reliable-mcq-06"
+        "reliable-mcq-14",
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「reliable」指「性能可靠的車」。",
       "sentenceIndex": 17,
@@ -983,12 +868,9 @@ export default {
         "reliable"
       ],
       "optionReasons": {
-        "reliable-mcq-09": "本句指「性能可靠的車」。",
-        "reliable-mcq-08": "「可靠系統」與本句語境不同。",
-        "reliable-mcq-10": "「穩定可靠的服務」與本句語境不同。",
-        "reliable-mcq-07": "「可靠方法」與本句語境不同。",
-        "reliable-mcq-11": "「可靠結果」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。"
+        "reliable-mcq-09": "本句的「reliable」指「性能可靠的車」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-09"
     },
@@ -1000,11 +882,8 @@ export default {
       "masked": "We need a ____ for daily use.",
       "options": [
         "reliable-mcq-09",
-        "reliable-mcq-08",
-        "reliable-mcq-10",
-        "reliable-mcq-07",
-        "reliable-mcq-11",
-        "reliable-mcq-06"
+        "reliable-mcq-18",
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliable machine」指「性能可靠的車」。",
       "sentenceIndex": 18,
@@ -1013,12 +892,9 @@ export default {
         "reliable machine"
       ],
       "optionReasons": {
-        "reliable-mcq-09": "本句指「性能可靠的車」。",
-        "reliable-mcq-08": "「可靠系統」與本句語境不同。",
-        "reliable-mcq-10": "「穩定可靠的服務」與本句語境不同。",
-        "reliable-mcq-07": "「可靠方法」與本句語境不同。",
-        "reliable-mcq-11": "「可靠結果」與本句語境不同。",
-        "reliable-mcq-06": "「可靠證據」與本句語境不同。"
+        "reliable-mcq-09": "本句的「reliable machine」指「性能可靠的車」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-09"
     },
@@ -1030,11 +906,7 @@ export default {
       "masked": "The company provides a ____.",
       "options": [
         "reliable-mcq-10",
-        "reliable-mcq-09",
-        "reliable-mcq-11",
-        "reliable-mcq-08",
-        "reliable-mcq-12",
-        "reliable-mcq-07"
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliable delivery service」指「穩定可靠的服務」。",
       "sentenceIndex": 19,
@@ -1043,12 +915,8 @@ export default {
         "reliable delivery service"
       ],
       "optionReasons": {
-        "reliable-mcq-10": "本句指「穩定可靠的服務」。",
-        "reliable-mcq-09": "「性能可靠的車」與本句語境不同。",
-        "reliable-mcq-11": "「可靠結果」與本句語境不同。",
-        "reliable-mcq-08": "「可靠系統」與本句語境不同。",
-        "reliable-mcq-12": "「可靠性」與本句語境不同。",
-        "reliable-mcq-07": "「可靠方法」與本句語境不同。"
+        "reliable-mcq-10": "本句的「reliable delivery service」指「穩定可靠的服務」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-10"
     },
@@ -1060,11 +928,7 @@ export default {
       "masked": "Customers expect ____.",
       "options": [
         "reliable-mcq-10",
-        "reliable-mcq-09",
-        "reliable-mcq-11",
-        "reliable-mcq-08",
-        "reliable-mcq-12",
-        "reliable-mcq-07"
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliable service」指「穩定可靠的服務」。",
       "sentenceIndex": 20,
@@ -1073,12 +937,8 @@ export default {
         "reliable service"
       ],
       "optionReasons": {
-        "reliable-mcq-10": "本句指「穩定可靠的服務」。",
-        "reliable-mcq-09": "「性能可靠的車」與本句語境不同。",
-        "reliable-mcq-11": "「可靠結果」與本句語境不同。",
-        "reliable-mcq-08": "「可靠系統」與本句語境不同。",
-        "reliable-mcq-12": "「可靠性」與本句語境不同。",
-        "reliable-mcq-07": "「可靠方法」與本句語境不同。"
+        "reliable-mcq-10": "本句的「reliable service」指「穩定可靠的服務」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-10"
     },
@@ -1090,11 +950,8 @@ export default {
       "masked": "The experiment produced ____.",
       "options": [
         "reliable-mcq-11",
-        "reliable-mcq-10",
-        "reliable-mcq-12",
-        "reliable-mcq-09",
-        "reliable-mcq-13",
-        "reliable-mcq-08"
+        "reliable-mcq-14",
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「reliable results」指「可靠結果」。",
       "sentenceIndex": 21,
@@ -1103,12 +960,9 @@ export default {
         "reliable results"
       ],
       "optionReasons": {
-        "reliable-mcq-11": "本句指「可靠結果」。",
-        "reliable-mcq-10": "「穩定可靠的服務」與本句語境不同。",
-        "reliable-mcq-12": "「可靠性」與本句語境不同。",
-        "reliable-mcq-09": "「性能可靠的車」與本句語境不同。",
-        "reliable-mcq-13": "「可靠性；穩定性」與本句語境不同。",
-        "reliable-mcq-08": "「可靠系統」與本句語境不同。"
+        "reliable-mcq-11": "本句的「reliable results」指「可靠結果」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-11"
     },
@@ -1120,11 +974,8 @@ export default {
       "masked": "A larger sample may produce more ____.",
       "options": [
         "reliable-mcq-11",
-        "reliable-mcq-10",
-        "reliable-mcq-12",
-        "reliable-mcq-09",
-        "reliable-mcq-13",
-        "reliable-mcq-08"
+        "reliable-mcq-14",
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「reliable results」指「可靠結果」。",
       "sentenceIndex": 22,
@@ -1133,12 +984,9 @@ export default {
         "reliable results"
       ],
       "optionReasons": {
-        "reliable-mcq-11": "本句指「可靠結果」。",
-        "reliable-mcq-10": "「穩定可靠的服務」與本句語境不同。",
-        "reliable-mcq-12": "「可靠性」與本句語境不同。",
-        "reliable-mcq-09": "「性能可靠的車」與本句語境不同。",
-        "reliable-mcq-13": "「可靠性；穩定性」與本句語境不同。",
-        "reliable-mcq-08": "「可靠系統」與本句語境不同。"
+        "reliable-mcq-11": "本句的「reliable results」指「可靠結果」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-11"
     },
@@ -1150,11 +998,8 @@ export default {
       "masked": "Her ____ made her an important member of the team.",
       "options": [
         "reliable-mcq-12",
-        "reliable-mcq-11",
-        "reliable-mcq-13",
-        "reliable-mcq-10",
-        "reliable-mcq-14",
-        "reliable-mcq-09"
+        "reliable-mcq-18",
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliability」指「可靠性」。",
       "sentenceIndex": 23,
@@ -1163,12 +1008,9 @@ export default {
         "reliability"
       ],
       "optionReasons": {
-        "reliable-mcq-12": "本句指「可靠性」。",
-        "reliable-mcq-11": "「可靠結果」與本句語境不同。",
-        "reliable-mcq-13": "「可靠性；穩定性」與本句語境不同。",
-        "reliable-mcq-10": "「穩定可靠的服務」與本句語境不同。",
-        "reliable-mcq-14": "「信度」與本句語境不同。",
-        "reliable-mcq-09": "「性能可靠的車」與本句語境不同。"
+        "reliable-mcq-12": "本句的「reliability」指「可靠性」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-12"
     },
@@ -1180,11 +1022,8 @@ export default {
       "masked": "Employers value punctuality and ____.",
       "options": [
         "reliable-mcq-12",
-        "reliable-mcq-11",
-        "reliable-mcq-13",
-        "reliable-mcq-10",
         "reliable-mcq-14",
-        "reliable-mcq-09"
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「reliability」指「可靠性」。",
       "sentenceIndex": 24,
@@ -1193,12 +1032,9 @@ export default {
         "reliability"
       ],
       "optionReasons": {
-        "reliable-mcq-12": "本句指「可靠性」。",
-        "reliable-mcq-11": "「可靠結果」與本句語境不同。",
-        "reliable-mcq-13": "「可靠性；穩定性」與本句語境不同。",
-        "reliable-mcq-10": "「穩定可靠的服務」與本句語境不同。",
-        "reliable-mcq-14": "「信度」與本句語境不同。",
-        "reliable-mcq-09": "「性能可靠的車」與本句語境不同。"
+        "reliable-mcq-12": "本句的「reliability」指「可靠性」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-12"
     },
@@ -1210,11 +1046,7 @@ export default {
       "masked": "The ____ has improved.",
       "options": [
         "reliable-mcq-13",
-        "reliable-mcq-12",
-        "reliable-mcq-14",
-        "reliable-mcq-11",
-        "reliable-mcq-15",
-        "reliable-mcq-10"
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliability of the system」指「可靠性；穩定性」。",
       "sentenceIndex": 25,
@@ -1223,12 +1055,8 @@ export default {
         "reliability of the system"
       ],
       "optionReasons": {
-        "reliable-mcq-13": "本句指「可靠性；穩定性」。",
-        "reliable-mcq-12": "「可靠性」與本句語境不同。",
-        "reliable-mcq-14": "「信度」與本句語境不同。",
-        "reliable-mcq-11": "「可靠結果」與本句語境不同。",
-        "reliable-mcq-15": "「可靠地；穩定地」與本句語境不同。",
-        "reliable-mcq-10": "「穩定可靠的服務」與本句語境不同。"
+        "reliable-mcq-13": "本句的「reliability of the system」指「可靠性；穩定性」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-13"
     },
@@ -1240,11 +1068,7 @@ export default {
       "masked": "Engineers tested the product for ____.",
       "options": [
         "reliable-mcq-13",
-        "reliable-mcq-12",
-        "reliable-mcq-14",
-        "reliable-mcq-11",
-        "reliable-mcq-15",
-        "reliable-mcq-10"
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliability」指「可靠性；穩定性」。",
       "sentenceIndex": 26,
@@ -1253,12 +1077,8 @@ export default {
         "reliability"
       ],
       "optionReasons": {
-        "reliable-mcq-13": "本句指「可靠性；穩定性」。",
-        "reliable-mcq-12": "「可靠性」與本句語境不同。",
-        "reliable-mcq-14": "「信度」與本句語境不同。",
-        "reliable-mcq-11": "「可靠結果」與本句語境不同。",
-        "reliable-mcq-15": "「可靠地；穩定地」與本句語境不同。",
-        "reliable-mcq-10": "「穩定可靠的服務」與本句語境不同。"
+        "reliable-mcq-13": "本句的「reliability」指「可靠性；穩定性」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-13"
     },
@@ -1270,11 +1090,8 @@ export default {
       "masked": "Researchers checked the ____.",
       "options": [
         "reliable-mcq-14",
-        "reliable-mcq-13",
-        "reliable-mcq-15",
-        "reliable-mcq-12",
-        "reliable-mcq-16",
-        "reliable-mcq-11"
+        "reliable-mcq-20",
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「reliability of the questionnaire」指「信度」。",
       "sentenceIndex": 27,
@@ -1283,12 +1100,9 @@ export default {
         "reliability of the questionnaire"
       ],
       "optionReasons": {
-        "reliable-mcq-14": "本句指「信度」。",
-        "reliable-mcq-13": "「可靠性；穩定性」與本句語境不同。",
-        "reliable-mcq-15": "「可靠地；穩定地」與本句語境不同。",
-        "reliable-mcq-12": "「可靠性」與本句語境不同。",
-        "reliable-mcq-16": "「不可靠的」與本句語境不同。",
-        "reliable-mcq-11": "「可靠結果」與本句語境不同。"
+        "reliable-mcq-14": "本句的「reliability of the questionnaire」指「信度」。",
+        "reliable-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-14"
     },
@@ -1300,11 +1114,8 @@ export default {
       "masked": "The test has high ____.",
       "options": [
         "reliable-mcq-14",
-        "reliable-mcq-13",
-        "reliable-mcq-15",
-        "reliable-mcq-12",
-        "reliable-mcq-16",
-        "reliable-mcq-11"
+        "reliable-mcq-11",
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「reliability」指「信度」。",
       "sentenceIndex": 28,
@@ -1313,12 +1124,9 @@ export default {
         "reliability"
       ],
       "optionReasons": {
-        "reliable-mcq-14": "本句指「信度」。",
-        "reliable-mcq-13": "「可靠性；穩定性」與本句語境不同。",
-        "reliable-mcq-15": "「可靠地；穩定地」與本句語境不同。",
-        "reliable-mcq-12": "「可靠性」與本句語境不同。",
-        "reliable-mcq-16": "「不可靠的」與本句語境不同。",
-        "reliable-mcq-11": "「可靠結果」與本句語境不同。"
+        "reliable-mcq-14": "本句的「reliability」指「信度」。",
+        "reliable-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-14"
     },
@@ -1330,11 +1138,7 @@ export default {
       "masked": "The system now works ____.",
       "options": [
         "reliable-mcq-15",
-        "reliable-mcq-14",
-        "reliable-mcq-16",
-        "reliable-mcq-13",
-        "reliable-mcq-17",
-        "reliable-mcq-12"
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliably」指「可靠地；穩定地」。",
       "sentenceIndex": 29,
@@ -1343,12 +1147,8 @@ export default {
         "reliably"
       ],
       "optionReasons": {
-        "reliable-mcq-15": "本句指「可靠地；穩定地」。",
-        "reliable-mcq-14": "「信度」與本句語境不同。",
-        "reliable-mcq-16": "「不可靠的」與本句語境不同。",
-        "reliable-mcq-13": "「可靠性；穩定性」與本句語境不同。",
-        "reliable-mcq-17": "「不可靠來源」與本句語境不同。",
-        "reliable-mcq-12": "「可靠性」與本句語境不同。"
+        "reliable-mcq-15": "本句的「reliably」指「可靠地；穩定地」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-15"
     },
@@ -1360,11 +1160,7 @@ export default {
       "masked": "She ____ completes her work on time.",
       "options": [
         "reliable-mcq-15",
-        "reliable-mcq-14",
-        "reliable-mcq-16",
-        "reliable-mcq-13",
-        "reliable-mcq-17",
-        "reliable-mcq-12"
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「reliably」指「可靠地；穩定地」。",
       "sentenceIndex": 30,
@@ -1373,12 +1169,8 @@ export default {
         "reliably"
       ],
       "optionReasons": {
-        "reliable-mcq-15": "本句指「可靠地；穩定地」。",
-        "reliable-mcq-14": "「信度」與本句語境不同。",
-        "reliable-mcq-16": "「不可靠的」與本句語境不同。",
-        "reliable-mcq-13": "「可靠性；穩定性」與本句語境不同。",
-        "reliable-mcq-17": "「不可靠來源」與本句語境不同。",
-        "reliable-mcq-12": "「可靠性」與本句語境不同。"
+        "reliable-mcq-15": "本句的「reliably」指「可靠地；穩定地」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-15"
     },
@@ -1390,11 +1182,8 @@ export default {
       "masked": "He is talented but ____.",
       "options": [
         "reliable-mcq-16",
-        "reliable-mcq-15",
-        "reliable-mcq-17",
         "reliable-mcq-14",
-        "reliable-mcq-18",
-        "reliable-mcq-13"
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「unreliable」指「不可靠的」。",
       "sentenceIndex": 31,
@@ -1403,12 +1192,9 @@ export default {
         "unreliable"
       ],
       "optionReasons": {
-        "reliable-mcq-16": "本句指「不可靠的」。",
-        "reliable-mcq-15": "「可靠地；穩定地」與本句語境不同。",
-        "reliable-mcq-17": "「不可靠來源」與本句語境不同。",
-        "reliable-mcq-14": "「信度」與本句語境不同。",
-        "reliable-mcq-18": "「不穩定系統」與本句語境不同。",
-        "reliable-mcq-13": "「可靠性；穩定性」與本句語境不同。"
+        "reliable-mcq-16": "本句的「unreliable」指「不可靠的」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-16"
     },
@@ -1420,11 +1206,8 @@ export default {
       "masked": "It's difficult to work with someone who is ____.",
       "options": [
         "reliable-mcq-16",
-        "reliable-mcq-15",
-        "reliable-mcq-17",
         "reliable-mcq-14",
-        "reliable-mcq-18",
-        "reliable-mcq-13"
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「unreliable」指「不可靠的」。",
       "sentenceIndex": 32,
@@ -1433,12 +1216,9 @@ export default {
         "unreliable"
       ],
       "optionReasons": {
-        "reliable-mcq-16": "本句指「不可靠的」。",
-        "reliable-mcq-15": "「可靠地；穩定地」與本句語境不同。",
-        "reliable-mcq-17": "「不可靠來源」與本句語境不同。",
-        "reliable-mcq-14": "「信度」與本句語境不同。",
-        "reliable-mcq-18": "「不穩定系統」與本句語境不同。",
-        "reliable-mcq-13": "「可靠性；穩定性」與本句語境不同。"
+        "reliable-mcq-16": "本句的「unreliable」指「不可靠的」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-16"
     },
@@ -1450,10 +1230,7 @@ export default {
       "masked": "The article relied on an ____.",
       "options": [
         "reliable-mcq-17",
-        "reliable-mcq-16",
         "reliable-mcq-18",
-        "reliable-mcq-15",
-        "reliable-mcq-19",
         "reliable-mcq-14"
       ],
       "explanation": "本句的「unreliable source」指「不可靠來源」。",
@@ -1463,12 +1240,9 @@ export default {
         "unreliable source"
       ],
       "optionReasons": {
-        "reliable-mcq-17": "本句指「不可靠來源」。",
-        "reliable-mcq-16": "「不可靠的」與本句語境不同。",
-        "reliable-mcq-18": "「不穩定系統」與本句語境不同。",
-        "reliable-mcq-15": "「可靠地；穩定地」與本句語境不同。",
-        "reliable-mcq-19": "「不可靠性」與本句語境不同。",
-        "reliable-mcq-14": "「信度」與本句語境不同。"
+        "reliable-mcq-17": "本句的「unreliable source」指「不可靠來源」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-17"
     },
@@ -1480,11 +1254,8 @@ export default {
       "masked": "Be careful with ____ online.",
       "options": [
         "reliable-mcq-17",
-        "reliable-mcq-16",
-        "reliable-mcq-18",
-        "reliable-mcq-15",
-        "reliable-mcq-19",
-        "reliable-mcq-14"
+        "reliable-mcq-14",
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「unreliable information」指「不可靠來源」。",
       "sentenceIndex": 34,
@@ -1493,12 +1264,9 @@ export default {
         "unreliable information"
       ],
       "optionReasons": {
-        "reliable-mcq-17": "本句指「不可靠來源」。",
-        "reliable-mcq-16": "「不可靠的」與本句語境不同。",
-        "reliable-mcq-18": "「不穩定系統」與本句語境不同。",
-        "reliable-mcq-15": "「可靠地；穩定地」與本句語境不同。",
-        "reliable-mcq-19": "「不可靠性」與本句語境不同。",
-        "reliable-mcq-14": "「信度」與本句語境不同。"
+        "reliable-mcq-17": "本句的「unreliable information」指「不可靠來源」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-17"
     },
@@ -1510,11 +1278,8 @@ export default {
       "masked": "The old printer is extremely ____.",
       "options": [
         "reliable-mcq-18",
-        "reliable-mcq-17",
-        "reliable-mcq-19",
-        "reliable-mcq-16",
-        "reliable-mcq-20",
-        "reliable-mcq-15"
+        "reliable-mcq-06",
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「unreliable」指「不穩定系統」。",
       "sentenceIndex": 35,
@@ -1523,12 +1288,9 @@ export default {
         "unreliable"
       ],
       "optionReasons": {
-        "reliable-mcq-18": "本句指「不穩定系統」。",
-        "reliable-mcq-17": "「不可靠來源」與本句語境不同。",
-        "reliable-mcq-19": "「不可靠性」與本句語境不同。",
-        "reliable-mcq-16": "「不可靠的」與本句語境不同。",
-        "reliable-mcq-20": "「不可靠敘述者」與本句語境不同。",
-        "reliable-mcq-15": "「可靠地；穩定地」與本句語境不同。"
+        "reliable-mcq-18": "本句的「unreliable」指「不穩定系統」。",
+        "reliable-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-18"
     },
@@ -1540,11 +1302,8 @@ export default {
       "masked": "The internet connection has become ____.",
       "options": [
         "reliable-mcq-18",
-        "reliable-mcq-17",
-        "reliable-mcq-19",
-        "reliable-mcq-16",
-        "reliable-mcq-20",
-        "reliable-mcq-15"
+        "reliable-mcq-14",
+        "reliable-mcq-19"
       ],
       "explanation": "本句的「unreliable」指「不穩定系統」。",
       "sentenceIndex": 36,
@@ -1553,12 +1312,9 @@ export default {
         "unreliable"
       ],
       "optionReasons": {
-        "reliable-mcq-18": "本句指「不穩定系統」。",
-        "reliable-mcq-17": "「不可靠來源」與本句語境不同。",
-        "reliable-mcq-19": "「不可靠性」與本句語境不同。",
-        "reliable-mcq-16": "「不可靠的」與本句語境不同。",
-        "reliable-mcq-20": "「不可靠敘述者」與本句語境不同。",
-        "reliable-mcq-15": "「可靠地；穩定地」與本句語境不同。"
+        "reliable-mcq-18": "本句的「unreliable」指「不穩定系統」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-18"
     },
@@ -1570,11 +1326,8 @@ export default {
       "masked": "The system's ____ caused repeated delays.",
       "options": [
         "reliable-mcq-19",
-        "reliable-mcq-18",
-        "reliable-mcq-20",
-        "reliable-mcq-17",
-        "reliable-mcq-16",
-        "reliable-mcq-15"
+        "reliable-mcq-14",
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「unreliability」指「不可靠性」。",
       "sentenceIndex": 37,
@@ -1583,12 +1336,9 @@ export default {
         "unreliability"
       ],
       "optionReasons": {
-        "reliable-mcq-19": "本句指「不可靠性」。",
-        "reliable-mcq-18": "「不穩定系統」與本句語境不同。",
-        "reliable-mcq-20": "「不可靠敘述者」與本句語境不同。",
-        "reliable-mcq-17": "「不可靠來源」與本句語境不同。",
-        "reliable-mcq-16": "「不可靠的」與本句語境不同。",
-        "reliable-mcq-15": "「可靠地；穩定地」與本句語境不同。"
+        "reliable-mcq-19": "本句的「unreliability」指「不可靠性」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-19"
     },
@@ -1600,11 +1350,8 @@ export default {
       "masked": "His ____ frustrated the whole team.",
       "options": [
         "reliable-mcq-19",
-        "reliable-mcq-18",
-        "reliable-mcq-20",
-        "reliable-mcq-17",
-        "reliable-mcq-16",
-        "reliable-mcq-15"
+        "reliable-mcq-14",
+        "reliable-mcq-18"
       ],
       "explanation": "本句的「unreliability」指「不可靠性」。",
       "sentenceIndex": 38,
@@ -1613,12 +1360,9 @@ export default {
         "unreliability"
       ],
       "optionReasons": {
-        "reliable-mcq-19": "本句指「不可靠性」。",
-        "reliable-mcq-18": "「不穩定系統」與本句語境不同。",
-        "reliable-mcq-20": "「不可靠敘述者」與本句語境不同。",
-        "reliable-mcq-17": "「不可靠來源」與本句語境不同。",
-        "reliable-mcq-16": "「不可靠的」與本句語境不同。",
-        "reliable-mcq-15": "「可靠地；穩定地」與本句語境不同。"
+        "reliable-mcq-19": "本句的「unreliability」指「不可靠性」。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-19"
     },
@@ -1630,11 +1374,8 @@ export default {
       "masked": "The novel is told by an ____.",
       "options": [
         "reliable-mcq-20",
-        "reliable-mcq-19",
         "reliable-mcq-18",
-        "reliable-mcq-17",
-        "reliable-mcq-16",
-        "reliable-mcq-15"
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「unreliable narrator」指「不可靠敘述者」。",
       "sentenceIndex": 39,
@@ -1643,12 +1384,9 @@ export default {
         "unreliable narrator"
       ],
       "optionReasons": {
-        "reliable-mcq-20": "本句指「不可靠敘述者」。",
-        "reliable-mcq-19": "「不可靠性」與本句語境不同。",
-        "reliable-mcq-18": "「不穩定系統」與本句語境不同。",
-        "reliable-mcq-17": "「不可靠來源」與本句語境不同。",
-        "reliable-mcq-16": "「不可靠的」與本句語境不同。",
-        "reliable-mcq-15": "「可靠地；穩定地」與本句語境不同。"
+        "reliable-mcq-20": "本句的「unreliable narrator」指「不可靠敘述者」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-20"
     },
@@ -1660,11 +1398,8 @@ export default {
       "masked": "Readers gradually realize that the narrator is ____.",
       "options": [
         "reliable-mcq-20",
-        "reliable-mcq-19",
         "reliable-mcq-18",
-        "reliable-mcq-17",
-        "reliable-mcq-16",
-        "reliable-mcq-15"
+        "reliable-mcq-14"
       ],
       "explanation": "本句的「unreliable」指「不可靠敘述者」。",
       "sentenceIndex": 40,
@@ -1673,12 +1408,9 @@ export default {
         "unreliable"
       ],
       "optionReasons": {
-        "reliable-mcq-20": "本句指「不可靠敘述者」。",
-        "reliable-mcq-19": "「不可靠性」與本句語境不同。",
-        "reliable-mcq-18": "「不穩定系統」與本句語境不同。",
-        "reliable-mcq-17": "「不可靠來源」與本句語境不同。",
-        "reliable-mcq-16": "「不可靠的」與本句語境不同。",
-        "reliable-mcq-15": "「可靠地；穩定地」與本句語境不同。"
+        "reliable-mcq-20": "本句的「unreliable」指「不可靠敘述者」。",
+        "reliable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reliable-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reliable-mcq-20"
     }
@@ -1690,5 +1422,7 @@ export default {
     "sha256": "9f69f20537776c8f8f3e7a2af7a0a32d7709beff5d096dd9c498a68fe3cb7239",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

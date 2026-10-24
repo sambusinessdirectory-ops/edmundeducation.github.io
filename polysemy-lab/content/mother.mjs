@@ -321,16 +321,6 @@ export default {
           "I was very close to my maternal grandmother.",
           "我跟自己的外婆非常親近。",
           "一個人的母親的母親；外婆／母系祖母"
-        ],
-        [
-          "There are many teachers on my maternal side.",
-          "我母系家族裡有很多老師。",
-          "一個人的母親的母親；外婆／母系祖母"
-        ],
-        [
-          "The tradition comes from her maternal side.",
-          "這個傳統來自她的母系一方。",
-          "一個人的母親的母親；外婆／母系祖母"
         ]
       ],
       "options": [],
@@ -586,6 +576,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "mother-reviewed-c90bfaf988",
+      "title": "與母親血緣／家庭一方有關",
+      "form": "mother · source section 18",
+      "en": "與母親血緣／家庭一方有關",
+      "zh": "與母親血緣／家庭一方有關",
+      "note": "對照原始教材第 18 節及例句核實。",
+      "examples": [
+        [
+          "There are many teachers on my maternal side.",
+          "我母系家族裡有很多老師。",
+          "與母親血緣／家庭一方有關"
+        ],
+        [
+          "The tradition comes from her maternal side.",
+          "這個傳統來自她的母系一方。",
+          "與母親血緣／家庭一方有關"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -597,11 +609,9 @@ export default {
       "masked": "She is my grandmother on my ____.",
       "options": [
         "mother-mcq-01",
-        "mother-mcq-02",
-        "mother-mcq-03",
-        "mother-mcq-04",
-        "mother-mcq-05",
-        "mother-mcq-06"
+        "mother-mcq-20",
+        "mother-mcq-21",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「mother’s side」指「某人的女性家長／母親」。",
       "sentenceIndex": 0,
@@ -610,12 +620,10 @@ export default {
         "mother’s side"
       ],
       "optionReasons": {
-        "mother-mcq-01": "本句指「某人的女性家長／母親」。",
-        "mother-mcq-02": "「與某人母親一方有親屬關係的家庭支系」是「mother’s side」的用法，與本句語境不同。",
-        "mother-mcq-03": "「生下某人的女性，常用來與養母等身份區分」是「birth mother」的用法，與本句語境不同。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-01": "本句的「mother’s side」指「某人的女性家長／母親」。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-01"
     },
@@ -627,11 +635,9 @@ export default {
       "masked": "My ____ lives nearby.",
       "options": [
         "mother-mcq-01",
-        "mother-mcq-02",
-        "mother-mcq-03",
-        "mother-mcq-04",
-        "mother-mcq-05",
-        "mother-mcq-06"
+        "mother-mcq-15",
+        "mother-mcq-21",
+        "mother-mcq-20"
       ],
       "explanation": "本句的「mother」指「某人的女性家長／母親」。",
       "sentenceIndex": 1,
@@ -640,12 +646,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-01": "本句指「某人的女性家長／母親」。",
-        "mother-mcq-02": "「與某人母親一方有親屬關係的家庭支系」是「mother’s side」的用法，與本句語境不同。",
-        "mother-mcq-03": "「生下某人的女性，常用來與養母等身份區分」是「birth mother」的用法，與本句語境不同。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-01": "本句的「mother」指「某人的女性家長／母親」。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-01"
     },
@@ -657,11 +661,9 @@ export default {
       "masked": "She became a ____ at the age of thirty.",
       "options": [
         "mother-mcq-01",
-        "mother-mcq-02",
-        "mother-mcq-03",
-        "mother-mcq-04",
-        "mother-mcq-05",
-        "mother-mcq-06"
+        "mother-mcq-20",
+        "mother-mcq-14",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「mother」指「某人的女性家長／母親」。",
       "sentenceIndex": 2,
@@ -670,12 +672,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-01": "本句指「某人的女性家長／母親」。",
-        "mother-mcq-02": "「與某人母親一方有親屬關係的家庭支系」是「mother’s side」的用法，與本句語境不同。",
-        "mother-mcq-03": "「生下某人的女性，常用來與養母等身份區分」是「birth mother」的用法，與本句語境不同。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-01": "本句的「mother」指「某人的女性家長／母親」。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-01"
     },
@@ -687,11 +687,9 @@ export default {
       "masked": "Her ____ taught her how to cook.",
       "options": [
         "mother-mcq-02",
-        "mother-mcq-01",
-        "mother-mcq-03",
-        "mother-mcq-04",
-        "mother-mcq-05",
-        "mother-mcq-06"
+        "mother-mcq-06",
+        "mother-mcq-15",
+        "mother-mcq-21"
       ],
       "explanation": "本句的「mother」指「與某人母親一方有親屬關係的家庭支系」。",
       "sentenceIndex": 3,
@@ -700,12 +698,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-02": "本句指「與某人母親一方有親屬關係的家庭支系」。",
-        "mother-mcq-01": "「某人的女性家長／母親」是「mother — parent」的用法，與本句語境不同。",
-        "mother-mcq-03": "「生下某人的女性，常用來與養母等身份區分」是「birth mother」的用法，與本句語境不同。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-02": "本句的「mother」指「與某人母親一方有親屬關係的家庭支系」。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-02"
     },
@@ -717,11 +713,9 @@ export default {
       "masked": "I called my ____ yesterday.",
       "options": [
         "mother-mcq-02",
-        "mother-mcq-01",
-        "mother-mcq-03",
-        "mother-mcq-04",
-        "mother-mcq-05",
-        "mother-mcq-06"
+        "mother-mcq-21",
+        "mother-mcq-06",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「mother」指「與某人母親一方有親屬關係的家庭支系」。",
       "sentenceIndex": 4,
@@ -730,12 +724,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-02": "本句指「與某人母親一方有親屬關係的家庭支系」。",
-        "mother-mcq-01": "「某人的女性家長／母親」是「mother — parent」的用法，與本句語境不同。",
-        "mother-mcq-03": "「生下某人的女性，常用來與養母等身份區分」是「birth mother」的用法，與本句語境不同。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-02": "本句的「mother」指「與某人母親一方有親屬關係的家庭支系」。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-02"
     },
@@ -747,10 +739,8 @@ export default {
       "masked": "Most of my relatives on my ____ live nearby.",
       "options": [
         "mother-mcq-02",
-        "mother-mcq-01",
-        "mother-mcq-03",
-        "mother-mcq-04",
-        "mother-mcq-05",
+        "mother-mcq-15",
+        "mother-mcq-22",
         "mother-mcq-06"
       ],
       "explanation": "本句的「mother’s side」指「與某人母親一方有親屬關係的家庭支系」。",
@@ -760,12 +750,10 @@ export default {
         "mother’s side"
       ],
       "optionReasons": {
-        "mother-mcq-02": "本句指「與某人母親一方有親屬關係的家庭支系」。",
-        "mother-mcq-01": "「某人的女性家長／母親」是「mother — parent」的用法，與本句語境不同。",
-        "mother-mcq-03": "「生下某人的女性，常用來與養母等身份區分」是「birth mother」的用法，與本句語境不同。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-02": "本句的「mother’s side」指「與某人母親一方有親屬關係的家庭支系」。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-02"
     },
@@ -777,11 +765,9 @@ export default {
       "masked": "I get my dark hair from my ____’s side of the family.",
       "options": [
         "mother-mcq-02",
-        "mother-mcq-01",
-        "mother-mcq-03",
-        "mother-mcq-04",
-        "mother-mcq-05",
-        "mother-mcq-06"
+        "mother-mcq-06",
+        "mother-mcq-14",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「mother」指「與某人母親一方有親屬關係的家庭支系」。",
       "sentenceIndex": 6,
@@ -790,12 +776,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-02": "本句指「與某人母親一方有親屬關係的家庭支系」。",
-        "mother-mcq-01": "「某人的女性家長／母親」是「mother — parent」的用法，與本句語境不同。",
-        "mother-mcq-03": "「生下某人的女性，常用來與養母等身份區分」是「birth mother」的用法，與本句語境不同。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-02": "本句的「mother」指「與某人母親一方有親屬關係的家庭支系」。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-02"
     },
@@ -807,11 +791,9 @@ export default {
       "masked": "She later contacted her ____.",
       "options": [
         "mother-mcq-03",
-        "mother-mcq-02",
-        "mother-mcq-04",
-        "mother-mcq-01",
-        "mother-mcq-05",
-        "mother-mcq-06"
+        "mother-mcq-15",
+        "mother-mcq-20",
+        "mother-mcq-08"
       ],
       "explanation": "本句的「birth mother」指「生下某人的女性，常用來與養母等身份區分」。",
       "sentenceIndex": 7,
@@ -820,12 +802,10 @@ export default {
         "birth mother"
       ],
       "optionReasons": {
-        "mother-mcq-03": "本句指「生下某人的女性，常用來與養母等身份區分」。",
-        "mother-mcq-02": "「與某人母親一方有親屬關係的家庭支系」是「mother’s side」的用法，與本句語境不同。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。",
-        "mother-mcq-01": "「某人的女性家長／母親」是「mother — parent」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-03": "本句的「birth mother」指「生下某人的女性，常用來與養母等身份區分」。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-03"
     },
@@ -837,11 +817,9 @@ export default {
       "masked": "He knows very little about his birth ____.",
       "options": [
         "mother-mcq-03",
-        "mother-mcq-02",
-        "mother-mcq-04",
-        "mother-mcq-01",
-        "mother-mcq-05",
-        "mother-mcq-06"
+        "mother-mcq-22",
+        "mother-mcq-15",
+        "mother-pdf-reviewed-01"
       ],
       "explanation": "本句的「mother」指「生下某人的女性，常用來與養母等身份區分」。",
       "sentenceIndex": 8,
@@ -850,12 +828,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-03": "本句指「生下某人的女性，常用來與養母等身份區分」。",
-        "mother-mcq-02": "「與某人母親一方有親屬關係的家庭支系」是「mother’s side」的用法，與本句語境不同。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。",
-        "mother-mcq-01": "「某人的女性家長／母親」是「mother — parent」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-03": "本句的「mother」指「生下某人的女性，常用來與養母等身份區分」。",
+        "mother-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-03"
     },
@@ -867,11 +843,9 @@ export default {
       "masked": "Her ____ lives abroad.",
       "options": [
         "mother-mcq-04",
-        "mother-mcq-03",
-        "mother-mcq-05",
-        "mother-mcq-02",
-        "mother-mcq-06",
-        "mother-mcq-01"
+        "mother-mcq-15",
+        "mother-mcq-11",
+        "mother-mcq-14"
       ],
       "explanation": "本句的「biological mother」指「與某人在生物學／遺傳上具有母子女關係的女性」。",
       "sentenceIndex": 9,
@@ -880,12 +854,10 @@ export default {
         "biological mother"
       ],
       "optionReasons": {
-        "mother-mcq-04": "本句指「與某人在生物學／遺傳上具有母子女關係的女性」。",
-        "mother-mcq-03": "「生下某人的女性，常用來與養母等身份區分」是「birth mother」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-02": "「與某人母親一方有親屬關係的家庭支系」是「mother’s side」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。",
-        "mother-mcq-01": "「某人的女性家長／母親」是「mother — parent」的用法，與本句語境不同。"
+        "mother-mcq-04": "本句的「biological mother」指「與某人在生物學／遺傳上具有母子女關係的女性」。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-04"
     },
@@ -897,11 +869,9 @@ export default {
       "masked": "The records identify his biological ____.",
       "options": [
         "mother-mcq-04",
-        "mother-mcq-03",
-        "mother-mcq-05",
-        "mother-mcq-02",
-        "mother-mcq-06",
-        "mother-mcq-01"
+        "mother-mcq-15",
+        "mother-mcq-08",
+        "mother-mcq-22"
       ],
       "explanation": "本句的「mother」指「與某人在生物學／遺傳上具有母子女關係的女性」。",
       "sentenceIndex": 10,
@@ -910,12 +880,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-04": "本句指「與某人在生物學／遺傳上具有母子女關係的女性」。",
-        "mother-mcq-03": "「生下某人的女性，常用來與養母等身份區分」是「birth mother」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-02": "「與某人母親一方有親屬關係的家庭支系」是「mother’s side」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。",
-        "mother-mcq-01": "「某人的女性家長／母親」是「mother — parent」的用法，與本句語境不同。"
+        "mother-mcq-04": "本句的「mother」指「與某人在生物學／遺傳上具有母子女關係的女性」。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-04"
     },
@@ -927,11 +895,7 @@ export default {
       "masked": "She was raised by her ____.",
       "options": [
         "mother-mcq-05",
-        "mother-mcq-04",
-        "mother-mcq-06",
-        "mother-mcq-03",
-        "mother-mcq-07",
-        "mother-mcq-02"
+        "mother-mcq-21"
       ],
       "explanation": "本句的「adoptive mother」指「透過正式收養關係成為某人母親的女性」。",
       "sentenceIndex": 11,
@@ -940,12 +904,8 @@ export default {
         "adoptive mother"
       ],
       "optionReasons": {
-        "mother-mcq-05": "本句指「透過正式收養關係成為某人母親的女性」。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。",
-        "mother-mcq-03": "「生下某人的女性，常用來與養母等身份區分」是「birth mother」的用法，與本句語境不同。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
-        "mother-mcq-02": "「與某人母親一方有親屬關係的家庭支系」是「mother’s side」的用法，與本句語境不同。"
+        "mother-mcq-05": "本句的「adoptive mother」指「透過正式收養關係成為某人母親的女性」。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-05"
     },
@@ -957,11 +917,7 @@ export default {
       "masked": "Her adoptive ____ supported her throughout childhood.",
       "options": [
         "mother-mcq-05",
-        "mother-mcq-04",
-        "mother-mcq-06",
-        "mother-mcq-03",
-        "mother-mcq-07",
-        "mother-mcq-02"
+        "mother-mcq-21"
       ],
       "explanation": "本句的「mother」指「透過正式收養關係成為某人母親的女性」。",
       "sentenceIndex": 12,
@@ -970,12 +926,8 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-05": "本句指「透過正式收養關係成為某人母親的女性」。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。",
-        "mother-mcq-03": "「生下某人的女性，常用來與養母等身份區分」是「birth mother」的用法，與本句語境不同。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
-        "mother-mcq-02": "「與某人母親一方有親屬關係的家庭支系」是「mother’s side」的用法，與本句語境不同。"
+        "mother-mcq-05": "本句的「mother」指「透過正式收養關係成為某人母親的女性」。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-05"
     },
@@ -987,11 +939,9 @@ export default {
       "masked": "His ____ cared for him for several years.",
       "options": [
         "mother-mcq-06",
-        "mother-mcq-05",
-        "mother-mcq-07",
-        "mother-mcq-04",
-        "mother-mcq-08",
-        "mother-mcq-03"
+        "mother-mcq-14",
+        "mother-mcq-13",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「foster mother」指「在寄養安排中負責照顧孩子的女性」。",
       "sentenceIndex": 13,
@@ -1000,12 +950,10 @@ export default {
         "foster mother"
       ],
       "optionReasons": {
-        "mother-mcq-06": "本句指「在寄養安排中負責照顧孩子的女性」。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。",
-        "mother-mcq-08": "「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」是「mother figure」的用法，與本句語境不同。",
-        "mother-mcq-03": "「生下某人的女性，常用來與養母等身份區分」是「birth mother」的用法，與本句語境不同。"
+        "mother-mcq-06": "本句的「foster mother」指「在寄養安排中負責照顧孩子的女性」。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-06"
     },
@@ -1017,11 +965,9 @@ export default {
       "masked": "She remained close to her foster ____.",
       "options": [
         "mother-mcq-06",
-        "mother-mcq-05",
-        "mother-mcq-07",
-        "mother-mcq-04",
-        "mother-mcq-08",
-        "mother-mcq-03"
+        "mother-mcq-17",
+        "mother-mcq-21",
+        "mother-mcq-10"
       ],
       "explanation": "本句的「mother」指「在寄養安排中負責照顧孩子的女性」。",
       "sentenceIndex": 14,
@@ -1030,12 +976,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-06": "本句指「在寄養安排中負責照顧孩子的女性」。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。",
-        "mother-mcq-08": "「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」是「mother figure」的用法，與本句語境不同。",
-        "mother-mcq-03": "「生下某人的女性，常用來與養母等身份區分」是「birth mother」的用法，與本句語境不同。"
+        "mother-mcq-06": "本句的「mother」指「在寄養安排中負責照顧孩子的女性」。",
+        "mother-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-06"
     },
@@ -1047,11 +991,9 @@ export default {
       "masked": "The class is designed for ____.",
       "options": [
         "mother-mcq-07",
-        "mother-mcq-06",
-        "mother-mcq-08",
-        "mother-mcq-05",
-        "mother-mcq-09",
-        "mother-mcq-04"
+        "mother-mcq-20",
+        "mother-mcq-21",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「expectant mothers」指「正在懷孕、即將成為母親的女性」。",
       "sentenceIndex": 15,
@@ -1060,12 +1002,10 @@ export default {
         "expectant mothers"
       ],
       "optionReasons": {
-        "mother-mcq-07": "本句指「正在懷孕、即將成為母親的女性」。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。",
-        "mother-mcq-08": "「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」是「mother figure」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-09": "「像母親般照顧、保護、關心某人；有時可暗示照顧過度」是「mother — verb」的用法，與本句語境不同。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。"
+        "mother-mcq-07": "本句的「expectant mothers」指「正在懷孕、即將成為母親的女性」。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-07"
     },
@@ -1077,11 +1017,9 @@ export default {
       "masked": "The ____ was excited about the baby.",
       "options": [
         "mother-mcq-07",
-        "mother-mcq-06",
-        "mother-mcq-08",
-        "mother-mcq-05",
-        "mother-mcq-09",
-        "mother-mcq-04"
+        "mother-mcq-21",
+        "mother-mcq-20",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「mother-to-be」指「正在懷孕、即將成為母親的女性」。",
       "sentenceIndex": 16,
@@ -1090,12 +1028,10 @@ export default {
         "mother-to-be"
       ],
       "optionReasons": {
-        "mother-mcq-07": "本句指「正在懷孕、即將成為母親的女性」。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。",
-        "mother-mcq-08": "「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」是「mother figure」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。",
-        "mother-mcq-09": "「像母親般照顧、保護、關心某人；有時可暗示照顧過度」是「mother — verb」的用法，與本句語境不同。",
-        "mother-mcq-04": "「與某人在生物學／遺傳上具有母子女關係的女性」是「biological mother」的用法，與本句語境不同。"
+        "mother-mcq-07": "本句的「mother-to-be」指「正在懷孕、即將成為母親的女性」。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-07"
     },
@@ -1107,11 +1043,9 @@ export default {
       "masked": "She was like a ____ to the younger children.",
       "options": [
         "mother-pdf-001",
-        "mother-mcq-07",
-        "mother-mcq-09",
-        "mother-mcq-06",
-        "mother-mcq-10",
-        "mother-mcq-05"
+        "mother-mcq-15",
+        "mother-mcq-22",
+        "mother-reviewed-c90bfaf988"
       ],
       "explanation": "本句的「mother」指「即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性」。",
       "sentenceIndex": 17,
@@ -1120,12 +1054,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-pdf-001": "本句指「即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性」。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
-        "mother-mcq-09": "「像母親般照顧、保護、關心某人；有時可暗示照顧過度」是「mother — verb」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。"
+        "mother-pdf-001": "本句的「mother」指「即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性」。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mother-reviewed-c90bfaf988": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-pdf-001"
     },
@@ -1137,11 +1069,9 @@ export default {
       "masked": "She became a ____ to children who needed support.",
       "options": [
         "mother-pdf-001",
-        "mother-mcq-07",
-        "mother-mcq-09",
-        "mother-mcq-06",
-        "mother-mcq-10",
-        "mother-mcq-05"
+        "mother-mcq-15",
+        "mother-mcq-22",
+        "mother-mcq-18"
       ],
       "explanation": "本句的「mother」指「即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性」。",
       "sentenceIndex": 18,
@@ -1150,12 +1080,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-pdf-001": "本句指「即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性」。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
-        "mother-mcq-09": "「像母親般照顧、保護、關心某人；有時可暗示照顧過度」是「mother — verb」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。"
+        "mother-pdf-001": "本句的「mother」指「即使沒有生物學母女／母子關係，仍承擔照顧、保護和培育角色的女性」。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-pdf-001"
     },
@@ -1167,11 +1095,9 @@ export default {
       "masked": "My grandmother was a ____ to me.",
       "options": [
         "mother-mcq-08",
-        "mother-mcq-07",
-        "mother-mcq-09",
-        "mother-mcq-06",
-        "mother-mcq-10",
-        "mother-mcq-05"
+        "mother-mcq-15",
+        "mother-mcq-14",
+        "mother-mcq-17"
       ],
       "explanation": "本句的「mother figure」指「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」。",
       "sentenceIndex": 19,
@@ -1180,12 +1106,10 @@ export default {
         "mother figure"
       ],
       "optionReasons": {
-        "mother-mcq-08": "本句指「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
-        "mother-mcq-09": "「像母親般照顧、保護、關心某人；有時可暗示照顧過度」是「mother — verb」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。"
+        "mother-mcq-08": "本句的「mother figure」指「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-08"
     },
@@ -1197,11 +1121,9 @@ export default {
       "masked": "She became a ____ figure for the younger members of the team.",
       "options": [
         "mother-mcq-08",
-        "mother-mcq-07",
-        "mother-mcq-09",
-        "mother-mcq-06",
-        "mother-mcq-10",
-        "mother-mcq-05"
+        "mother-mcq-21",
+        "mother-mcq-15",
+        "mother-mcq-04"
       ],
       "explanation": "本句的「mother」指「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」。",
       "sentenceIndex": 20,
@@ -1210,12 +1132,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-08": "本句指「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
-        "mother-mcq-09": "「像母親般照顧、保護、關心某人；有時可暗示照顧過度」是「mother — verb」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
-        "mother-mcq-05": "「透過正式收養關係成為某人母親的女性」是「adoptive mother」的用法，與本句語境不同。"
+        "mother-mcq-08": "本句的「mother」指「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-08"
     },
@@ -1227,11 +1147,9 @@ export default {
       "masked": "She tended to ____ the younger members of the group.",
       "options": [
         "mother-mcq-09",
-        "mother-mcq-08",
-        "mother-mcq-10",
-        "mother-mcq-07",
-        "mother-mcq-11",
-        "mother-mcq-06"
+        "mother-mcq-14",
+        "mother-mcq-15",
+        "mother-pdf-reviewed-01"
       ],
       "explanation": "本句的「mother」指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
       "sentenceIndex": 21,
@@ -1240,12 +1158,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-09": "本句指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
-        "mother-mcq-08": "「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」是「mother figure」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-09": "本句的「mother」指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-09"
     },
@@ -1257,11 +1173,9 @@ export default {
       "masked": "He doesn’t need you to ____ him.",
       "options": [
         "mother-mcq-09",
-        "mother-mcq-08",
-        "mother-mcq-10",
-        "mother-mcq-07",
-        "mother-mcq-11",
-        "mother-mcq-06"
+        "mother-mcq-14",
+        "mother-mcq-15",
+        "mother-pdf-reviewed-01"
       ],
       "explanation": "本句的「mother」指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
       "sentenceIndex": 22,
@@ -1270,12 +1184,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-09": "本句指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
-        "mother-mcq-08": "「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」是「mother figure」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-09": "本句的「mother」指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-09"
     },
@@ -1287,11 +1199,9 @@ export default {
       "masked": "Stop ____ me—I can take care of myself.",
       "options": [
         "mother-mcq-09",
-        "mother-mcq-08",
-        "mother-mcq-10",
-        "mother-mcq-07",
-        "mother-mcq-11",
-        "mother-mcq-06"
+        "mother-mcq-15",
+        "mother-mcq-14",
+        "mother-mcq-20"
       ],
       "explanation": "本句的「mothering」指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
       "sentenceIndex": 23,
@@ -1300,12 +1210,10 @@ export default {
         "mothering"
       ],
       "optionReasons": {
-        "mother-mcq-09": "本句指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
-        "mother-mcq-08": "「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」是「mother figure」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-09": "本句的「mothering」指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-09"
     },
@@ -1317,11 +1225,9 @@ export default {
       "masked": "She has a habit of ____ everyone.",
       "options": [
         "mother-mcq-09",
-        "mother-mcq-08",
-        "mother-mcq-10",
-        "mother-mcq-07",
-        "mother-mcq-11",
-        "mother-mcq-06"
+        "mother-mcq-14",
+        "mother-mcq-15",
+        "mother-mcq-20"
       ],
       "explanation": "本句的「mothering」指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
       "sentenceIndex": 24,
@@ -1330,12 +1236,10 @@ export default {
         "mothering"
       ],
       "optionReasons": {
-        "mother-mcq-09": "本句指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
-        "mother-mcq-08": "「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」是「mother figure」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-09": "本句的「mothering」指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-09"
     },
@@ -1347,11 +1251,9 @@ export default {
       "masked": "The child needed warmth and ____.",
       "options": [
         "mother-mcq-09",
-        "mother-mcq-08",
-        "mother-mcq-10",
-        "mother-mcq-07",
-        "mother-mcq-11",
-        "mother-mcq-06"
+        "mother-mcq-22",
+        "mother-mcq-15",
+        "mother-pdf-reviewed-01"
       ],
       "explanation": "本句的「mothering」指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
       "sentenceIndex": 25,
@@ -1360,12 +1262,10 @@ export default {
         "mothering"
       ],
       "optionReasons": {
-        "mother-mcq-09": "本句指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
-        "mother-mcq-08": "「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」是「mother figure」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-09": "本句的「mothering」指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
+        "mother-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-09"
     },
@@ -1377,11 +1277,9 @@ export default {
       "masked": "She has a naturally ____ manner.",
       "options": [
         "mother-mcq-09",
-        "mother-mcq-08",
-        "mother-mcq-10",
-        "mother-mcq-07",
-        "mother-mcq-11",
-        "mother-mcq-06"
+        "mother-mcq-15",
+        "mother-mcq-22",
+        "mother-pdf-reviewed-01"
       ],
       "explanation": "本句的「mothering」指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
       "sentenceIndex": 26,
@@ -1390,12 +1288,10 @@ export default {
         "mothering"
       ],
       "optionReasons": {
-        "mother-mcq-09": "本句指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
-        "mother-mcq-08": "「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」是「mother figure」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。",
-        "mother-mcq-06": "「在寄養安排中負責照顧孩子的女性」是「foster mother」的用法，與本句語境不同。"
+        "mother-mcq-09": "本句的「mothering」指「像母親般照顧、保護、關心某人；有時可暗示照顧過度」。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mother-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-09"
     },
@@ -1407,11 +1303,9 @@ export default {
       "masked": "She wrote about her experience of ____.",
       "options": [
         "mother-mcq-10",
-        "mother-mcq-09",
-        "mother-mcq-11",
-        "mother-mcq-08",
-        "mother-mcq-12",
-        "mother-mcq-07"
+        "mother-mcq-20",
+        "mother-mcq-15",
+        "mother-mcq-06"
       ],
       "explanation": "本句的「motherhood」指「作為母親的身份、狀態和生活經驗」。",
       "sentenceIndex": 27,
@@ -1420,12 +1314,10 @@ export default {
         "motherhood"
       ],
       "optionReasons": {
-        "mother-mcq-10": "本句指「作為母親的身份、狀態和生活經驗」。",
-        "mother-mcq-09": "「像母親般照顧、保護、關心某人；有時可暗示照顧過度」是「mother — verb」的用法，與本句語境不同。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。",
-        "mother-mcq-08": "「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」是「mother figure」的用法，與本句語境不同。",
-        "mother-mcq-12": "「與母親、母系親屬或母性有關」是「maternal」的用法，與本句語境不同。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。"
+        "mother-mcq-10": "本句的「motherhood」指「作為母親的身份、狀態和生活經驗」。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-10"
     },
@@ -1437,11 +1329,9 @@ export default {
       "masked": "____ changed her priorities.",
       "options": [
         "mother-mcq-10",
-        "mother-mcq-09",
-        "mother-mcq-11",
-        "mother-mcq-08",
-        "mother-mcq-12",
-        "mother-mcq-07"
+        "mother-mcq-22",
+        "mother-mcq-15",
+        "mother-mcq-06"
       ],
       "explanation": "本句的「Motherhood」指「作為母親的身份、狀態和生活經驗」。",
       "sentenceIndex": 28,
@@ -1450,12 +1340,10 @@ export default {
         "Motherhood"
       ],
       "optionReasons": {
-        "mother-mcq-10": "本句指「作為母親的身份、狀態和生活經驗」。",
-        "mother-mcq-09": "「像母親般照顧、保護、關心某人；有時可暗示照顧過度」是「mother — verb」的用法，與本句語境不同。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。",
-        "mother-mcq-08": "「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」是「mother figure」的用法，與本句語境不同。",
-        "mother-mcq-12": "「與母親、母系親屬或母性有關」是「maternal」的用法，與本句語境不同。",
-        "mother-mcq-07": "「正在懷孕、即將成為母親的女性」是「expectant mother」的用法，與本句語境不同。"
+        "mother-mcq-10": "本句的「Motherhood」指「作為母親的身份、狀態和生活經驗」。",
+        "mother-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-10"
     },
@@ -1467,11 +1355,9 @@ export default {
       "masked": "She gave me a ____.",
       "options": [
         "mother-mcq-11",
-        "mother-mcq-10",
-        "mother-mcq-12",
-        "mother-mcq-09",
-        "mother-mcq-13",
-        "mother-mcq-08"
+        "mother-mcq-21",
+        "mother-mcq-06",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「motherly hug」指「顯示慈愛母親般的關心、溫柔或保護」。",
       "sentenceIndex": 29,
@@ -1480,12 +1366,10 @@ export default {
         "motherly hug"
       ],
       "optionReasons": {
-        "mother-mcq-11": "本句指「顯示慈愛母親般的關心、溫柔或保護」。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
-        "mother-mcq-12": "「與母親、母系親屬或母性有關」是「maternal」的用法，與本句語境不同。",
-        "mother-mcq-09": "「像母親般照顧、保護、關心某人；有時可暗示照顧過度」是「mother — verb」的用法，與本句語境不同。",
-        "mother-mcq-13": "「一個人的母親的母親；外婆／母系祖母」是「maternal grandmother」的用法，與本句語境不同。",
-        "mother-mcq-08": "「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」是「mother figure」的用法，與本句語境不同。"
+        "mother-mcq-11": "本句的「motherly hug」指「顯示慈愛母親般的關心、溫柔或保護」。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-11"
     },
@@ -1497,11 +1381,9 @@ export default {
       "masked": "Her ____ warmth made everyone comfortable.",
       "options": [
         "mother-mcq-11",
-        "mother-mcq-10",
-        "mother-mcq-12",
-        "mother-mcq-09",
-        "mother-mcq-13",
-        "mother-mcq-08"
+        "mother-mcq-21",
+        "mother-mcq-15",
+        "mother-mcq-06"
       ],
       "explanation": "本句的「motherly」指「顯示慈愛母親般的關心、溫柔或保護」。",
       "sentenceIndex": 30,
@@ -1510,12 +1392,10 @@ export default {
         "motherly"
       ],
       "optionReasons": {
-        "mother-mcq-11": "本句指「顯示慈愛母親般的關心、溫柔或保護」。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
-        "mother-mcq-12": "「與母親、母系親屬或母性有關」是「maternal」的用法，與本句語境不同。",
-        "mother-mcq-09": "「像母親般照顧、保護、關心某人；有時可暗示照顧過度」是「mother — verb」的用法，與本句語境不同。",
-        "mother-mcq-13": "「一個人的母親的母親；外婆／母系祖母」是「maternal grandmother」的用法，與本句語境不同。",
-        "mother-mcq-08": "「沒有必要是實際母親，但在情感／照顧上扮演母親角色的人」是「mother figure」的用法，與本句語境不同。"
+        "mother-mcq-11": "本句的「motherly」指「顯示慈愛母親般的關心、溫柔或保護」。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-11"
     },
@@ -1527,11 +1407,9 @@ export default {
       "masked": "My ____ lives nearby.",
       "options": [
         "mother-mcq-12",
-        "mother-mcq-11",
-        "mother-mcq-13",
-        "mother-mcq-10",
         "mother-mcq-14",
-        "mother-mcq-09"
+        "mother-mcq-20",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「maternal grandmother」指「與母親、母系親屬或母性有關」。",
       "sentenceIndex": 31,
@@ -1540,12 +1418,10 @@ export default {
         "maternal grandmother"
       ],
       "optionReasons": {
-        "mother-mcq-12": "本句指「與母親、母系親屬或母性有關」。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。",
-        "mother-mcq-13": "「一個人的母親的母親；外婆／母系祖母」是「maternal grandmother」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
-        "mother-mcq-14": "「比喻上產生、孕育或促成其他事物的來源」是「mother — source/origin」的用法，與本句語境不同。",
-        "mother-mcq-09": "「像母親般照顧、保護、關心某人；有時可暗示照顧過度」是「mother — verb」的用法，與本句語境不同。"
+        "mother-mcq-12": "本句的「maternal grandmother」指「與母親、母系親屬或母性有關」。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-12"
     },
@@ -1557,11 +1433,9 @@ export default {
       "masked": "She felt a strong ____ instinct.",
       "options": [
         "mother-mcq-12",
-        "mother-mcq-11",
-        "mother-mcq-13",
-        "mother-mcq-10",
-        "mother-mcq-14",
-        "mother-mcq-09"
+        "mother-mcq-15",
+        "mother-mcq-21",
+        "mother-mcq-20"
       ],
       "explanation": "本句的「maternal」指「與母親、母系親屬或母性有關」。",
       "sentenceIndex": 32,
@@ -1570,12 +1444,10 @@ export default {
         "maternal"
       ],
       "optionReasons": {
-        "mother-mcq-12": "本句指「與母親、母系親屬或母性有關」。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。",
-        "mother-mcq-13": "「一個人的母親的母親；外婆／母系祖母」是「maternal grandmother」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。",
-        "mother-mcq-14": "「比喻上產生、孕育或促成其他事物的來源」是「mother — source/origin」的用法，與本句語境不同。",
-        "mother-mcq-09": "「像母親般照顧、保護、關心某人；有時可暗示照顧過度」是「mother — verb」的用法，與本句語境不同。"
+        "mother-mcq-12": "本句的「maternal」指「與母親、母系親屬或母性有關」。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-12"
     },
@@ -1587,11 +1459,9 @@ export default {
       "masked": "She is my ____.",
       "options": [
         "mother-mcq-13",
-        "mother-mcq-12",
-        "mother-mcq-14",
-        "mother-mcq-11",
-        "mother-mcq-15",
-        "mother-mcq-10"
+        "mother-mcq-06",
+        "mother-mcq-21",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「maternal grandmother」指「一個人的母親的母親；外婆／母系祖母」。",
       "sentenceIndex": 33,
@@ -1600,12 +1470,10 @@ export default {
         "maternal grandmother"
       ],
       "optionReasons": {
-        "mother-mcq-13": "本句指「一個人的母親的母親；外婆／母系祖母」。",
-        "mother-mcq-12": "「與母親、母系親屬或母性有關」是「maternal」的用法，與本句語境不同。",
-        "mother-mcq-14": "「比喻上產生、孕育或促成其他事物的來源」是「mother — source/origin」的用法，與本句語境不同。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。"
+        "mother-mcq-13": "本句的「maternal grandmother」指「一個人的母親的母親；外婆／母系祖母」。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-13"
     },
@@ -1617,11 +1485,9 @@ export default {
       "masked": "I was very close to my ____ grandmother.",
       "options": [
         "mother-mcq-13",
-        "mother-mcq-12",
-        "mother-mcq-14",
-        "mother-mcq-11",
-        "mother-mcq-15",
-        "mother-mcq-10"
+        "mother-mcq-21",
+        "mother-mcq-06",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「maternal」指「一個人的母親的母親；外婆／母系祖母」。",
       "sentenceIndex": 34,
@@ -1630,74 +1496,68 @@ export default {
         "maternal"
       ],
       "optionReasons": {
-        "mother-mcq-13": "本句指「一個人的母親的母親；外婆／母系祖母」。",
-        "mother-mcq-12": "「與母親、母系親屬或母性有關」是「maternal」的用法，與本句語境不同。",
-        "mother-mcq-14": "「比喻上產生、孕育或促成其他事物的來源」是「mother — source/origin」的用法，與本句語境不同。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。"
+        "mother-mcq-13": "本句的「maternal」指「一個人的母親的母親；外婆／母系祖母」。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-13"
     },
     {
       "id": "mother-18-0",
-      "sense": "mother-mcq-13",
+      "sense": "mother-reviewed-c90bfaf988",
       "en": "There are many teachers on my maternal side.",
       "zh": "我母系家族裡有很多老師。",
       "masked": "There are many teachers on my ____.",
       "options": [
-        "mother-mcq-13",
-        "mother-mcq-12",
-        "mother-mcq-14",
-        "mother-mcq-11",
+        "mother-reviewed-c90bfaf988",
         "mother-mcq-15",
-        "mother-mcq-10"
+        "mother-mcq-21",
+        "mother-mcq-06"
       ],
-      "explanation": "本句的「maternal side」指「一個人的母親的母親；外婆／母系祖母」。",
+      "explanation": "對照完整句子：「我母系家族裡有很多老師。」。這裡的「maternal side」表示「與母親血緣／家庭一方有關」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "maternal side"
       ],
       "optionReasons": {
-        "mother-mcq-13": "本句指「一個人的母親的母親；外婆／母系祖母」。",
-        "mother-mcq-12": "「與母親、母系親屬或母性有關」是「maternal」的用法，與本句語境不同。",
-        "mother-mcq-14": "「比喻上產生、孕育或促成其他事物的來源」是「mother — source/origin」的用法，與本句語境不同。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。"
+        "mother-reviewed-c90bfaf988": "對照完整句子：「我母系家族裡有很多老師。」。這裡的「maternal side」表示「與母親血緣／家庭一方有關」。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "mother-mcq-13"
+      "correctOption": "mother-reviewed-c90bfaf988",
+      "previousCorrectOption": "mother-mcq-13",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "mother-18-1",
-      "sense": "mother-mcq-13",
+      "sense": "mother-reviewed-c90bfaf988",
       "en": "The tradition comes from her maternal side.",
       "zh": "這個傳統來自她的母系一方。",
       "masked": "The tradition comes from her ____ side.",
       "options": [
-        "mother-mcq-13",
-        "mother-mcq-12",
+        "mother-reviewed-c90bfaf988",
+        "mother-mcq-06",
         "mother-mcq-14",
-        "mother-mcq-11",
-        "mother-mcq-15",
-        "mother-mcq-10"
+        "mother-mcq-20"
       ],
-      "explanation": "本句的「maternal」指「一個人的母親的母親；外婆／母系祖母」。",
+      "explanation": "對照完整句子：「這個傳統來自她的母系一方。」。這裡的「maternal」表示「與母親血緣／家庭一方有關」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "maternal"
       ],
       "optionReasons": {
-        "mother-mcq-13": "本句指「一個人的母親的母親；外婆／母系祖母」。",
-        "mother-mcq-12": "「與母親、母系親屬或母性有關」是「maternal」的用法，與本句語境不同。",
-        "mother-mcq-14": "「比喻上產生、孕育或促成其他事物的來源」是「mother — source/origin」的用法，與本句語境不同。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。",
-        "mother-mcq-10": "「作為母親的身份、狀態和生活經驗」是「motherhood」的用法，與本句語境不同。"
+        "mother-reviewed-c90bfaf988": "對照完整句子：「這個傳統來自她的母系一方。」。這裡的「maternal」表示「與母親血緣／家庭一方有關」。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "mother-mcq-13"
+      "correctOption": "mother-reviewed-c90bfaf988",
+      "previousCorrectOption": "mother-mcq-13",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "mother-19-0",
@@ -1708,10 +1568,8 @@ export default {
       "options": [
         "mother-mcq-14",
         "mother-mcq-13",
-        "mother-mcq-15",
-        "mother-mcq-12",
-        "mother-mcq-16",
-        "mother-mcq-11"
+        "mother-mcq-06",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「mother of invention」指「比喻上產生、孕育或促成其他事物的來源」。",
       "sentenceIndex": 37,
@@ -1720,12 +1578,10 @@ export default {
         "mother of invention"
       ],
       "optionReasons": {
-        "mother-mcq-14": "本句指「比喻上產生、孕育或促成其他事物的來源」。",
-        "mother-mcq-13": "「一個人的母親的母親；外婆／母系祖母」是「maternal grandmother」的用法，與本句語境不同。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。",
-        "mother-mcq-12": "「與母親、母系親屬或母性有關」是「maternal」的用法，與本句語境不同。",
-        "mother-mcq-16": "「把自然界人格化成母親形象的表達」是「Mother Nature」的用法，與本句語境不同。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。"
+        "mother-mcq-14": "本句的「mother of invention」指「比喻上產生、孕育或促成其他事物的來源」。",
+        "mother-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-14"
     },
@@ -1737,11 +1593,9 @@ export default {
       "masked": "The city became the ____ of a new artistic movement.",
       "options": [
         "mother-mcq-14",
-        "mother-mcq-13",
+        "mother-mcq-01",
         "mother-mcq-15",
-        "mother-mcq-12",
-        "mother-mcq-16",
-        "mother-mcq-11"
+        "mother-mcq-20"
       ],
       "explanation": "本句的「mother」指「比喻上產生、孕育或促成其他事物的來源」。",
       "sentenceIndex": 38,
@@ -1750,12 +1604,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-14": "本句指「比喻上產生、孕育或促成其他事物的來源」。",
-        "mother-mcq-13": "「一個人的母親的母親；外婆／母系祖母」是「maternal grandmother」的用法，與本句語境不同。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。",
-        "mother-mcq-12": "「與母親、母系親屬或母性有關」是「maternal」的用法，與本句語境不同。",
-        "mother-mcq-16": "「把自然界人格化成母親形象的表達」是「Mother Nature」的用法，與本句語境不同。",
-        "mother-mcq-11": "「顯示慈愛母親般的關心、溫柔或保護」是「motherly」的用法，與本句語境不同。"
+        "mother-mcq-14": "本句的「mother」指「比喻上產生、孕育或促成其他事物的來源」。",
+        "mother-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-14"
     },
@@ -1767,11 +1619,9 @@ export default {
       "masked": "They faced ____.",
       "options": [
         "mother-mcq-15",
-        "mother-mcq-14",
-        "mother-mcq-16",
-        "mother-mcq-13",
-        "mother-mcq-17",
-        "mother-mcq-12"
+        "mother-mcq-11",
+        "mother-mcq-21",
+        "mother-mcq-18"
       ],
       "explanation": "本句的「the mother of all storms」指「非正式誇張地表示某類事物中極大、極強的一個」。",
       "sentenceIndex": 39,
@@ -1780,12 +1630,10 @@ export default {
         "the mother of all storms"
       ],
       "optionReasons": {
-        "mother-mcq-15": "本句指「非正式誇張地表示某類事物中極大、極強的一個」。",
-        "mother-mcq-14": "「比喻上產生、孕育或促成其他事物的來源」是「mother — source/origin」的用法，與本句語境不同。",
-        "mother-mcq-16": "「把自然界人格化成母親形象的表達」是「Mother Nature」的用法，與本句語境不同。",
-        "mother-mcq-13": "「一個人的母親的母親；外婆／母系祖母」是「maternal grandmother」的用法，與本句語境不同。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。",
-        "mother-mcq-12": "「與母親、母系親屬或母性有關」是「maternal」的用法，與本句語境不同。"
+        "mother-mcq-15": "本句的「the mother of all storms」指「非正式誇張地表示某類事物中極大、極強的一個」。",
+        "mother-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-15"
     },
@@ -1797,11 +1645,9 @@ export default {
       "masked": "That was the ____ of all traffic jams.",
       "options": [
         "mother-mcq-15",
-        "mother-mcq-14",
-        "mother-mcq-16",
-        "mother-mcq-13",
-        "mother-mcq-17",
-        "mother-mcq-12"
+        "mother-mcq-06",
+        "mother-mcq-12",
+        "mother-mcq-21"
       ],
       "explanation": "本句的「mother」指「非正式誇張地表示某類事物中極大、極強的一個」。",
       "sentenceIndex": 40,
@@ -1810,12 +1656,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-15": "本句指「非正式誇張地表示某類事物中極大、極強的一個」。",
-        "mother-mcq-14": "「比喻上產生、孕育或促成其他事物的來源」是「mother — source/origin」的用法，與本句語境不同。",
-        "mother-mcq-16": "「把自然界人格化成母親形象的表達」是「Mother Nature」的用法，與本句語境不同。",
-        "mother-mcq-13": "「一個人的母親的母親；外婆／母系祖母」是「maternal grandmother」的用法，與本句語境不同。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。",
-        "mother-mcq-12": "「與母親、母系親屬或母性有關」是「maternal」的用法，與本句語境不同。"
+        "mother-mcq-15": "本句的「mother」指「非正式誇張地表示某類事物中極大、極強的一個」。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-15"
     },
@@ -1827,11 +1671,9 @@ export default {
       "masked": "You cannot control ____.",
       "options": [
         "mother-mcq-16",
-        "mother-mcq-15",
-        "mother-mcq-17",
-        "mother-mcq-14",
-        "mother-mcq-18",
-        "mother-mcq-13"
+        "mother-mcq-20",
+        "mother-mcq-21",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「Mother Nature」指「把自然界人格化成母親形象的表達」。",
       "sentenceIndex": 41,
@@ -1840,12 +1682,10 @@ export default {
         "Mother Nature"
       ],
       "optionReasons": {
-        "mother-mcq-16": "本句指「把自然界人格化成母親形象的表達」。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。",
-        "mother-mcq-14": "「比喻上產生、孕育或促成其他事物的來源」是「mother — source/origin」的用法，與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」是「mother country」的用法，與本句語境不同。",
-        "mother-mcq-13": "「一個人的母親的母親；外婆／母系祖母」是「maternal grandmother」的用法，與本句語境不同。"
+        "mother-mcq-16": "本句的「Mother Nature」指「把自然界人格化成母親形象的表達」。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-16"
     },
@@ -1857,11 +1697,9 @@ export default {
       "masked": "____ Nature can be unpredictable.",
       "options": [
         "mother-mcq-16",
+        "mother-mcq-22",
         "mother-mcq-15",
-        "mother-mcq-17",
-        "mother-mcq-14",
-        "mother-mcq-18",
-        "mother-mcq-13"
+        "mother-mcq-06"
       ],
       "explanation": "本句的「Mother」指「把自然界人格化成母親形象的表達」。",
       "sentenceIndex": 42,
@@ -1870,12 +1708,10 @@ export default {
         "Mother"
       ],
       "optionReasons": {
-        "mother-mcq-16": "本句指「把自然界人格化成母親形象的表達」。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。",
-        "mother-mcq-14": "「比喻上產生、孕育或促成其他事物的來源」是「mother — source/origin」的用法，與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」是「mother country」的用法，與本句語境不同。",
-        "mother-mcq-13": "「一個人的母親的母親；外婆／母系祖母」是「maternal grandmother」的用法，與本句語境不同。"
+        "mother-mcq-16": "本句的「Mother」指「把自然界人格化成母親形象的表達」。",
+        "mother-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-16"
     },
@@ -1887,11 +1723,9 @@ export default {
       "masked": "Cantonese is her ____.",
       "options": [
         "mother-mcq-17",
-        "mother-mcq-16",
-        "mother-mcq-18",
-        "mother-mcq-15",
-        "mother-mcq-19",
-        "mother-mcq-14"
+        "mother-mcq-21",
+        "mother-mcq-20",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「mother tongue」指「一個人早期自然習得、最具根基的語言；母語」。",
       "sentenceIndex": 43,
@@ -1900,12 +1734,10 @@ export default {
         "mother tongue"
       ],
       "optionReasons": {
-        "mother-mcq-17": "本句指「一個人早期自然習得、最具根基的語言；母語」。",
-        "mother-mcq-16": "「把自然界人格化成母親形象的表達」是「Mother Nature」的用法，與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」是「mother country」的用法，與本句語境不同。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-14": "「比喻上產生、孕育或促成其他事物的來源」是「mother — source/origin」的用法，與本句語境不同。"
+        "mother-mcq-17": "本句的「mother tongue」指「一個人早期自然習得、最具根基的語言；母語」。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-17"
     },
@@ -1917,11 +1749,9 @@ export default {
       "masked": "People often express emotion differently in their ____ tongue.",
       "options": [
         "mother-mcq-17",
-        "mother-mcq-16",
-        "mother-mcq-18",
-        "mother-mcq-15",
-        "mother-mcq-19",
-        "mother-mcq-14"
+        "mother-mcq-14",
+        "mother-mcq-20",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「mother」指「一個人早期自然習得、最具根基的語言；母語」。",
       "sentenceIndex": 44,
@@ -1930,12 +1760,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-17": "本句指「一個人早期自然習得、最具根基的語言；母語」。",
-        "mother-mcq-16": "「把自然界人格化成母親形象的表達」是「Mother Nature」的用法，與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」是「mother country」的用法，與本句語境不同。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-14": "「比喻上產生、孕育或促成其他事物的來源」是「mother — source/origin」的用法，與本句語境不同。"
+        "mother-mcq-17": "本句的「mother」指「一個人早期自然習得、最具根基的語言；母語」。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-17"
     },
@@ -1947,11 +1775,9 @@ export default {
       "masked": "The term ____ is much more common in everyday English.",
       "options": [
         "mother-mcq-17",
-        "mother-mcq-16",
-        "mother-mcq-18",
-        "mother-mcq-15",
-        "mother-mcq-19",
-        "mother-mcq-14"
+        "mother-mcq-14",
+        "mother-mcq-20",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「mother tongue」指「一個人早期自然習得、最具根基的語言；母語」。",
       "sentenceIndex": 45,
@@ -1960,12 +1786,10 @@ export default {
         "mother tongue"
       ],
       "optionReasons": {
-        "mother-mcq-17": "本句指「一個人早期自然習得、最具根基的語言；母語」。",
-        "mother-mcq-16": "「把自然界人格化成母親形象的表達」是「Mother Nature」的用法，與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」是「mother country」的用法，與本句語境不同。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-14": "「比喻上產生、孕育或促成其他事物的來源」是「mother — source/origin」的用法，與本句語境不同。"
+        "mother-mcq-17": "本句的「mother tongue」指「一個人早期自然習得、最具根基的語言；母語」。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-17"
     },
@@ -1977,11 +1801,9 @@ export default {
       "masked": "In linguistics, a parent language can be the source of ____ languages.",
       "options": [
         "mother-mcq-17",
-        "mother-mcq-16",
-        "mother-mcq-18",
-        "mother-mcq-15",
-        "mother-mcq-19",
-        "mother-mcq-14"
+        "mother-mcq-14",
+        "mother-mcq-06",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「daughter」指「一個人早期自然習得、最具根基的語言；母語」。",
       "sentenceIndex": 46,
@@ -1990,12 +1812,10 @@ export default {
         "daughter"
       ],
       "optionReasons": {
-        "mother-mcq-17": "本句指「一個人早期自然習得、最具根基的語言；母語」。",
-        "mother-mcq-16": "「把自然界人格化成母親形象的表達」是「Mother Nature」的用法，與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」是「mother country」的用法，與本句語境不同。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-14": "「比喻上產生、孕育或促成其他事物的來源」是「mother — source/origin」的用法，與本句語境不同。"
+        "mother-mcq-17": "本句的「daughter」指「一個人早期自然習得、最具根基的語言；母語」。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-17"
     },
@@ -2007,11 +1827,9 @@ export default {
       "masked": "Many immigrants maintained ties with their ____.",
       "options": [
         "mother-mcq-18",
-        "mother-mcq-17",
-        "mother-mcq-19",
-        "mother-mcq-16",
         "mother-mcq-20",
-        "mother-mcq-15"
+        "mother-mcq-06",
+        "mother-pdf-reviewed-01"
       ],
       "explanation": "本句的「mother country」指「被視為某人／群體來源的祖國／母國；用語較傳統」。",
       "sentenceIndex": 47,
@@ -2020,12 +1838,10 @@ export default {
         "mother country"
       ],
       "optionReasons": {
-        "mother-mcq-18": "本句指「被視為某人／群體來源的祖國／母國；用語較傳統」。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-16": "「把自然界人格化成母親形象的表達」是「Mother Nature」的用法，與本句語境不同。",
-        "mother-mcq-20": "「電腦內連接主要電子元件的核心電路板」是「motherboard」的用法，與本句語境不同。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。"
+        "mother-mcq-18": "本句的「mother country」指「被視為某人／群體來源的祖國／母國；用語較傳統」。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mother-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-18"
     },
@@ -2037,11 +1853,9 @@ export default {
       "masked": "The expression ____ country can sound historical in some contexts.",
       "options": [
         "mother-mcq-18",
-        "mother-mcq-17",
-        "mother-mcq-19",
-        "mother-mcq-16",
         "mother-mcq-20",
-        "mother-mcq-15"
+        "mother-mcq-15",
+        "mother-mcq-06"
       ],
       "explanation": "本句的「mother」指「被視為某人／群體來源的祖國／母國；用語較傳統」。",
       "sentenceIndex": 48,
@@ -2050,12 +1864,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-18": "本句指「被視為某人／群體來源的祖國／母國；用語較傳統」。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-16": "「把自然界人格化成母親形象的表達」是「Mother Nature」的用法，與本句語境不同。",
-        "mother-mcq-20": "「電腦內連接主要電子元件的核心電路板」是「motherboard」的用法，與本句語境不同。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。"
+        "mother-mcq-18": "本句的「mother」指「被視為某人／群體來源的祖國／母國；用語較傳統」。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-18"
     },
@@ -2067,11 +1879,9 @@ export default {
       "masked": "The smaller boats returned to the ____.",
       "options": [
         "mother-mcq-22",
-        "mother-mcq-21",
-        "mother-mcq-20",
-        "mother-mcq-19",
-        "mother-mcq-18",
-        "mother-mcq-17"
+        "mother-mcq-02",
+        "mother-pdf-reviewed-01",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「mother ship」指「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」。",
       "sentenceIndex": 49,
@@ -2080,12 +1890,10 @@ export default {
         "mother ship"
       ],
       "optionReasons": {
-        "mother-mcq-22": "本句指「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」。",
-        "mother-mcq-21": "「能分裂／產生其他細胞的原始細胞」是「mother cell」的用法，與本句語境不同。",
-        "mother-mcq-20": "「電腦內連接主要電子元件的核心電路板」是「motherboard」的用法，與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」是「mother country」的用法，與本句語境不同。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。"
+        "mother-mcq-22": "本句的「mother ship」指「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」。",
+        "mother-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mother-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-22"
     },
@@ -2097,11 +1905,7 @@ export default {
       "masked": "The spacecraft returned to the ____.",
       "options": [
         "mother-mcq-22",
-        "mother-mcq-21",
-        "mother-mcq-20",
-        "mother-mcq-19",
-        "mother-mcq-18",
-        "mother-mcq-17"
+        "mother-mcq-05"
       ],
       "explanation": "本句的「mothership」指「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」。",
       "sentenceIndex": 50,
@@ -2110,12 +1914,8 @@ export default {
         "mothership"
       ],
       "optionReasons": {
-        "mother-mcq-22": "本句指「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」。",
-        "mother-mcq-21": "「能分裂／產生其他細胞的原始細胞」是「mother cell」的用法，與本句語境不同。",
-        "mother-mcq-20": "「電腦內連接主要電子元件的核心電路板」是「motherboard」的用法，與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」是「mother country」的用法，與本句語境不同。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。"
+        "mother-mcq-22": "本句的「mothership」指「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」。",
+        "mother-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-22"
     },
@@ -2127,11 +1927,9 @@ export default {
       "masked": "The subsidiary is controlled by its ____.",
       "options": [
         "mother-mcq-18",
-        "mother-mcq-17",
-        "mother-mcq-19",
-        "mother-mcq-16",
+        "mother-mcq-15",
         "mother-mcq-20",
-        "mother-mcq-15"
+        "mother-mcq-21"
       ],
       "explanation": "本句的「parent company」指「被視為某人／群體來源的祖國／母國；用語較傳統」。",
       "sentenceIndex": 51,
@@ -2140,12 +1938,10 @@ export default {
         "parent company"
       ],
       "optionReasons": {
-        "mother-mcq-18": "本句指「被視為某人／群體來源的祖國／母國；用語較傳統」。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-16": "「把自然界人格化成母親形象的表達」是「Mother Nature」的用法，與本句語境不同。",
-        "mother-mcq-20": "「電腦內連接主要電子元件的核心電路板」是「motherboard」的用法，與本句語境不同。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。"
+        "mother-mcq-18": "本句的「parent company」指「被視為某人／群體來源的祖國／母國；用語較傳統」。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-18"
     },
@@ -2157,11 +1953,9 @@ export default {
       "masked": "In business English, parent company is usually preferred to ____ company.",
       "options": [
         "mother-mcq-18",
-        "mother-mcq-17",
-        "mother-mcq-19",
-        "mother-mcq-16",
-        "mother-mcq-20",
-        "mother-mcq-15"
+        "mother-mcq-21",
+        "mother-pdf-reviewed-01",
+        "mother-mcq-20"
       ],
       "explanation": "本句的「mother」指「被視為某人／群體來源的祖國／母國；用語較傳統」。",
       "sentenceIndex": 52,
@@ -2170,12 +1964,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-mcq-18": "本句指「被視為某人／群體來源的祖國／母國；用語較傳統」。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-16": "「把自然界人格化成母親形象的表達」是「Mother Nature」的用法，與本句語境不同。",
-        "mother-mcq-20": "「電腦內連接主要電子元件的核心電路板」是「motherboard」的用法，與本句語境不同。",
-        "mother-mcq-15": "「非正式誇張地表示某類事物中極大、極強的一個」是「the mother of all X」的用法，與本句語境不同。"
+        "mother-mcq-18": "本句的「mother」指「被視為某人／群體來源的祖國／母國；用語較傳統」。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-18"
     },
@@ -2187,11 +1979,9 @@ export default {
       "masked": "The computer’s ____ needs replacing.",
       "options": [
         "mother-mcq-20",
-        "mother-mcq-19",
-        "mother-mcq-21",
-        "mother-mcq-18",
-        "mother-mcq-22",
-        "mother-mcq-17"
+        "mother-mcq-14",
+        "mother-mcq-01",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「motherboard」指「電腦內連接主要電子元件的核心電路板」。",
       "sentenceIndex": 53,
@@ -2200,12 +1990,10 @@ export default {
         "motherboard"
       ],
       "optionReasons": {
-        "mother-mcq-20": "本句指「電腦內連接主要電子元件的核心電路板」。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-21": "「能分裂／產生其他細胞的原始細胞」是「mother cell」的用法，與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」是「mother country」的用法，與本句語境不同。",
-        "mother-mcq-22": "「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」是「25. mother ship / mothership（母艦／母船） — 母艦；母船；母機」的用法，與本句語境不同。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。"
+        "mother-mcq-20": "本句的「motherboard」指「電腦內連接主要電子元件的核心電路板」。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-20"
     },
@@ -2217,11 +2005,9 @@ export default {
       "masked": "The processor is installed on the ____.",
       "options": [
         "mother-mcq-20",
-        "mother-mcq-19",
+        "mother-mcq-01",
         "mother-mcq-21",
-        "mother-mcq-18",
-        "mother-mcq-22",
-        "mother-mcq-17"
+        "mother-mcq-15"
       ],
       "explanation": "本句的「motherboard」指「電腦內連接主要電子元件的核心電路板」。",
       "sentenceIndex": 54,
@@ -2230,12 +2016,10 @@ export default {
         "motherboard"
       ],
       "optionReasons": {
-        "mother-mcq-20": "本句指「電腦內連接主要電子元件的核心電路板」。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-21": "「能分裂／產生其他細胞的原始細胞」是「mother cell」的用法，與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」是「mother country」的用法，與本句語境不同。",
-        "mother-mcq-22": "「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」是「25. mother ship / mothership（母艦／母船） — 母艦；母船；母機」的用法，與本句語境不同。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。"
+        "mother-mcq-20": "本句的「motherboard」指「電腦內連接主要電子元件的核心電路板」。",
+        "mother-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-20"
     },
@@ -2247,11 +2031,9 @@ export default {
       "masked": "The ____ divides into new cells.",
       "options": [
         "mother-mcq-21",
-        "mother-mcq-20",
-        "mother-mcq-22",
-        "mother-mcq-19",
-        "mother-mcq-18",
-        "mother-mcq-17"
+        "mother-mcq-02",
+        "mother-pdf-reviewed-01",
+        "mother-mcq-06"
       ],
       "explanation": "本句的「mother cell」指「能分裂／產生其他細胞的原始細胞」。",
       "sentenceIndex": 55,
@@ -2260,12 +2042,10 @@ export default {
         "mother cell"
       ],
       "optionReasons": {
-        "mother-mcq-21": "本句指「能分裂／產生其他細胞的原始細胞」。",
-        "mother-mcq-20": "「電腦內連接主要電子元件的核心電路板」是「motherboard」的用法，與本句語境不同。",
-        "mother-mcq-22": "「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」是「25. mother ship / mothership（母艦／母船） — 母艦；母船；母機」的用法，與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」是「mother country」的用法，與本句語境不同。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。"
+        "mother-mcq-21": "本句的「mother cell」指「能分裂／產生其他細胞的原始細胞」。",
+        "mother-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mother-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-21"
     },
@@ -2277,11 +2057,9 @@ export default {
       "masked": "Each ____ cell develops from the mother cell.",
       "options": [
         "mother-mcq-21",
-        "mother-mcq-20",
-        "mother-mcq-22",
-        "mother-mcq-19",
-        "mother-mcq-18",
-        "mother-mcq-17"
+        "mother-mcq-17",
+        "mother-mcq-12",
+        "mother-mcq-06"
       ],
       "explanation": "本句的「daughter」指「能分裂／產生其他細胞的原始細胞」。",
       "sentenceIndex": 56,
@@ -2290,12 +2068,10 @@ export default {
         "daughter"
       ],
       "optionReasons": {
-        "mother-mcq-21": "本句指「能分裂／產生其他細胞的原始細胞」。",
-        "mother-mcq-20": "「電腦內連接主要電子元件的核心電路板」是「motherboard」的用法，與本句語境不同。",
-        "mother-mcq-22": "「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」是「25. mother ship / mothership（母艦／母船） — 母艦；母船；母機」的用法，與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」是「mothership」的用法，與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」是「mother country」的用法，與本句語境不同。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」是「mother tongue」的用法，與本句語境不同。"
+        "mother-mcq-21": "本句的「daughter」指「能分裂／產生其他細胞的原始細胞」。",
+        "mother-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-mcq-21"
     },
@@ -2308,10 +2084,8 @@ export default {
       "options": [
         "mother-pdf-reviewed-01",
         "mother-mcq-20",
-        "mother-mcq-22",
-        "mother-mcq-19",
-        "mother-mcq-18",
-        "mother-mcq-17"
+        "mother-mcq-14",
+        "mother-mcq-15"
       ],
       "explanation": "本句的「mother」指「動物的雌性親代」。",
       "sentenceIndex": 57,
@@ -2320,12 +2094,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-pdf-reviewed-01": "本句指「動物的雌性親代」。",
-        "mother-mcq-20": "「電腦內連接主要電子元件的核心電路板」與本句語境不同。",
-        "mother-mcq-22": "「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」與本句語境不同。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」與本句語境不同。"
+        "mother-pdf-reviewed-01": "本句的「mother」指「動物的雌性親代」。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-pdf-reviewed-01"
     },
@@ -2338,10 +2110,8 @@ export default {
       "options": [
         "mother-pdf-reviewed-01",
         "mother-mcq-20",
-        "mother-mcq-22",
-        "mother-mcq-19",
-        "mother-mcq-18",
-        "mother-mcq-17"
+        "mother-mcq-21",
+        "mother-mcq-18"
       ],
       "explanation": "本句的「mother」指「動物的雌性親代」。",
       "sentenceIndex": 58,
@@ -2350,12 +2120,10 @@ export default {
         "mother"
       ],
       "optionReasons": {
-        "mother-pdf-reviewed-01": "本句指「動物的雌性親代」。",
-        "mother-mcq-20": "「電腦內連接主要電子元件的核心電路板」與本句語境不同。",
-        "mother-mcq-22": "「供其他較小船隻、飛行器或裝置依附、補給或出發的主要載具」與本句語境不同。",
-        "mother-mcq-19": "「供其他較小載具出發、依附或補給的主要載具」與本句語境不同。",
-        "mother-mcq-18": "「被視為某人／群體來源的祖國／母國；用語較傳統」與本句語境不同。",
-        "mother-mcq-17": "「一個人早期自然習得、最具根基的語言；母語」與本句語境不同。"
+        "mother-pdf-reviewed-01": "本句的「mother」指「動物的雌性親代」。",
+        "mother-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mother-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mother-pdf-reviewed-01"
     }
@@ -2367,5 +2135,7 @@ export default {
     "sha256": "405090f09b3c91fcb56b9d3512459550a5416fcbf6f27b7725f87788adef4d13",
     "pages": 27
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

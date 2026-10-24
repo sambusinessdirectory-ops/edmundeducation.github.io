@@ -455,11 +455,9 @@ export default {
       "masked": "The painting was damaged by repeated ____.",
       "options": [
         "touch-mcq-01",
-        "touch-mcq-02",
-        "touch-mcq-03",
-        "touch-mcq-04",
-        "touch-mcq-05",
-        "touch-mcq-06"
+        "touch-mcq-10",
+        "touch-pdf-005",
+        "touch-pdf-004"
       ],
       "explanation": "本句的「touch」指「身體或物件表面彼此接觸的動作／感覺」。",
       "sentenceIndex": 0,
@@ -468,12 +466,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-01": "本句指「身體或物件表面彼此接觸的動作／感覺」。",
-        "touch-mcq-02": "「使身體／物件表面接觸另一表面」與本句語境不同。",
-        "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
+        "touch-mcq-01": "本句的「touch」指「身體或物件表面彼此接觸的動作／感覺」。",
+        "touch-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-01"
     },
@@ -485,11 +481,9 @@ export default {
       "masked": "The fabric feels soft to the ____.",
       "options": [
         "touch-mcq-01",
-        "touch-mcq-02",
-        "touch-mcq-03",
-        "touch-mcq-04",
-        "touch-mcq-05",
-        "touch-mcq-06"
+        "touch-mcq-11",
+        "touch-mcq-09",
+        "touch-mcq-05"
       ],
       "explanation": "本句的「touch」指「身體或物件表面彼此接觸的動作／感覺」。",
       "sentenceIndex": 1,
@@ -498,12 +492,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-01": "本句指「身體或物件表面彼此接觸的動作／感覺」。",
-        "touch-mcq-02": "「使身體／物件表面接觸另一表面」與本句語境不同。",
-        "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
+        "touch-mcq-01": "本句的「touch」指「身體或物件表面彼此接觸的動作／感覺」。",
+        "touch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-01"
     },
@@ -515,11 +507,9 @@ export default {
       "masked": "Please do not ____ the artwork.",
       "options": [
         "touch-mcq-02",
-        "touch-mcq-01",
-        "touch-mcq-03",
-        "touch-mcq-04",
+        "touch-pdf-002",
         "touch-mcq-05",
-        "touch-mcq-06"
+        "touch-mcq-10"
       ],
       "explanation": "本句的「touch」指「使身體／物件表面接觸另一表面」。",
       "sentenceIndex": 2,
@@ -528,12 +518,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-02": "本句指「使身體／物件表面接觸另一表面」。",
-        "touch-mcq-01": "「身體或物件表面彼此接觸的動作／感覺」與本句語境不同。",
-        "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
+        "touch-mcq-02": "本句的「touch」指「使身體／物件表面接觸另一表面」。",
+        "touch-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-02"
     },
@@ -545,11 +533,9 @@ export default {
       "masked": "She ____ the frame lightly.",
       "options": [
         "touch-mcq-02",
-        "touch-mcq-01",
-        "touch-mcq-03",
-        "touch-mcq-04",
-        "touch-mcq-05",
-        "touch-mcq-06"
+        "touch-mcq-12",
+        "touch-pdf-005",
+        "touch-mcq-05"
       ],
       "explanation": "本句的「touched」指「使身體／物件表面接觸另一表面」。",
       "sentenceIndex": 3,
@@ -558,12 +544,10 @@ export default {
         "touched"
       ],
       "optionReasons": {
-        "touch-mcq-02": "本句指「使身體／物件表面接觸另一表面」。",
-        "touch-mcq-01": "「身體或物件表面彼此接觸的動作／感覺」與本句語境不同。",
-        "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
+        "touch-mcq-02": "本句的「touched」指「使身體／物件表面接觸另一表面」。",
+        "touch-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-02"
     },
@@ -575,11 +559,9 @@ export default {
       "masked": "The curtain almost ____ the floor.",
       "options": [
         "touch-pdf-001",
-        "touch-mcq-01",
-        "touch-mcq-03",
-        "touch-mcq-04",
-        "touch-mcq-05",
-        "touch-mcq-06"
+        "touch-pdf-006",
+        "touch-pdf-004",
+        "touch-pdf-003"
       ],
       "explanation": "本句的「touches」指「兩個物體或表面相接或幾乎相接」。",
       "sentenceIndex": 4,
@@ -588,12 +570,10 @@ export default {
         "touches"
       ],
       "optionReasons": {
-        "touch-pdf-001": "本句指「兩個物體或表面相接或幾乎相接」。",
-        "touch-mcq-01": "「身體或物件表面彼此接觸的動作／感覺」與本句語境不同。",
-        "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
+        "touch-pdf-001": "本句的「touches」指「兩個物體或表面相接或幾乎相接」。",
+        "touch-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-pdf-001"
     },
@@ -605,11 +585,9 @@ export default {
       "masked": "Their shoulders ____.",
       "options": [
         "touch-pdf-001",
-        "touch-mcq-01",
-        "touch-mcq-03",
-        "touch-mcq-04",
-        "touch-mcq-05",
-        "touch-mcq-06"
+        "touch-pdf-003",
+        "touch-pdf-004",
+        "touch-mcq-07"
       ],
       "explanation": "本句的「touched」指「兩個物體或表面相接或幾乎相接」。",
       "sentenceIndex": 5,
@@ -618,12 +596,10 @@ export default {
         "touched"
       ],
       "optionReasons": {
-        "touch-pdf-001": "本句指「兩個物體或表面相接或幾乎相接」。",
-        "touch-mcq-01": "「身體或物件表面彼此接觸的動作／感覺」與本句語境不同。",
-        "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
+        "touch-pdf-001": "本句的「touched」指「兩個物體或表面相接或幾乎相接」。",
+        "touch-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-pdf-001"
     },
@@ -635,11 +611,9 @@ export default {
       "masked": "Add a ____ of sugar.",
       "options": [
         "touch-mcq-03",
-        "touch-mcq-02",
-        "touch-mcq-04",
-        "touch-mcq-01",
-        "touch-mcq-05",
-        "touch-mcq-06"
+        "touch-mcq-08",
+        "touch-mcq-12",
+        "touch-mcq-11"
       ],
       "explanation": "本句的「touch」指「少量但可以察覺的 X」。",
       "sentenceIndex": 6,
@@ -648,12 +622,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-03": "本句指「少量但可以察覺的 X」。",
-        "touch-mcq-02": "「使身體／物件表面接觸另一表面」與本句語境不同。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
-        "touch-mcq-01": "「身體或物件表面彼此接觸的動作／感覺」與本句語境不同。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
+        "touch-mcq-03": "本句的「touch」指「少量但可以察覺的 X」。",
+        "touch-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-03"
     },
@@ -665,11 +637,9 @@ export default {
       "masked": "The room has a ____ of blue.",
       "options": [
         "touch-mcq-03",
-        "touch-mcq-02",
-        "touch-mcq-04",
-        "touch-mcq-01",
-        "touch-mcq-05",
-        "touch-mcq-06"
+        "touch-pdf-004",
+        "touch-mcq-11",
+        "touch-pdf-006"
       ],
       "explanation": "本句的「touch」指「少量但可以察覺的 X」。",
       "sentenceIndex": 7,
@@ -678,12 +648,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-03": "本句指「少量但可以察覺的 X」。",
-        "touch-mcq-02": "「使身體／物件表面接觸另一表面」與本句語境不同。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
-        "touch-mcq-01": "「身體或物件表面彼此接觸的動作／感覺」與本句語境不同。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
+        "touch-mcq-03": "本句的「touch」指「少量但可以察覺的 X」。",
+        "touch-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-03"
     },
@@ -695,11 +663,9 @@ export default {
       "masked": "Flowers added a nice ____ to the table.",
       "options": [
         "touch-mcq-04",
-        "touch-mcq-03",
-        "touch-mcq-05",
-        "touch-mcq-02",
-        "touch-mcq-06",
-        "touch-mcq-01"
+        "touch-mcq-10",
+        "touch-mcq-13",
+        "touch-pdf-005"
       ],
       "explanation": "本句的「touch」指「小而能改善整體效果／感受的細節」。",
       "sentenceIndex": 8,
@@ -708,12 +674,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-04": "本句指「小而能改善整體效果／感受的細節」。",
-        "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-02": "「使身體／物件表面接觸另一表面」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。",
-        "touch-mcq-01": "「身體或物件表面彼此接觸的動作／感覺」與本句語境不同。"
+        "touch-mcq-04": "本句的「touch」指「小而能改善整體效果／感受的細節」。",
+        "touch-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-04"
     },
@@ -725,11 +689,9 @@ export default {
       "masked": "The handwritten note was a thoughtful ____.",
       "options": [
         "touch-mcq-04",
-        "touch-mcq-03",
-        "touch-mcq-05",
-        "touch-mcq-02",
-        "touch-mcq-06",
-        "touch-mcq-01"
+        "touch-mcq-10",
+        "touch-pdf-004",
+        "touch-mcq-13"
       ],
       "explanation": "本句的「touch」指「小而能改善整體效果／感受的細節」。",
       "sentenceIndex": 9,
@@ -738,12 +700,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-04": "本句指「小而能改善整體效果／感受的細節」。",
-        "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-02": "「使身體／物件表面接觸另一表面」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。",
-        "touch-mcq-01": "「身體或物件表面彼此接觸的動作／感覺」與本句語境不同。"
+        "touch-mcq-04": "本句的「touch」指「小而能改善整體效果／感受的細節」。",
+        "touch-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-04"
     },
@@ -755,11 +715,9 @@ export default {
       "masked": "That ____ goes a long way.",
       "options": [
         "touch-mcq-05",
-        "touch-mcq-04",
-        "touch-mcq-06",
-        "touch-mcq-03",
-        "touch-mcq-07",
-        "touch-mcq-02"
+        "touch-mcq-02",
+        "touch-pdf-006",
+        "touch-mcq-03"
       ],
       "explanation": "本句的「personal touch」指「令服務／互動更有人情味、更個人化的小細節」。",
       "sentenceIndex": 10,
@@ -768,12 +726,10 @@ export default {
         "personal touch"
       ],
       "optionReasons": {
-        "touch-mcq-05": "本句指「令服務／互動更有人情味、更個人化的小細節」。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。",
-        "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。",
-        "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
-        "touch-mcq-02": "「使身體／物件表面接觸另一表面」與本句語境不同。"
+        "touch-mcq-05": "本句的「personal touch」指「令服務／互動更有人情味、更個人化的小細節」。",
+        "touch-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-05"
     },
@@ -785,10 +741,8 @@ export default {
       "masked": "Remembering customers’ names adds a personal ____.",
       "options": [
         "touch-mcq-05",
-        "touch-mcq-04",
-        "touch-mcq-06",
-        "touch-mcq-03",
-        "touch-mcq-07",
+        "touch-mcq-09",
+        "touch-pdf-006",
         "touch-mcq-02"
       ],
       "explanation": "本句的「touch」指「令服務／互動更有人情味、更個人化的小細節」。",
@@ -798,12 +752,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-05": "本句指「令服務／互動更有人情味、更個人化的小細節」。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。",
-        "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。",
-        "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
-        "touch-mcq-02": "「使身體／物件表面接觸另一表面」與本句語境不同。"
+        "touch-mcq-05": "本句的「touch」指「令服務／互動更有人情味、更個人化的小細節」。",
+        "touch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-05"
     },
@@ -815,11 +767,9 @@ export default {
       "masked": "The painting shows a delicate ____.",
       "options": [
         "touch-mcq-06",
-        "touch-mcq-05",
-        "touch-mcq-07",
-        "touch-mcq-04",
-        "touch-mcq-08",
-        "touch-mcq-03"
+        "touch-mcq-10",
+        "touch-mcq-12",
+        "touch-mcq-02"
       ],
       "explanation": "本句的「touch」指「某人在藝術、處事等方面的個人手法／分寸感」。",
       "sentenceIndex": 12,
@@ -828,12 +778,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-06": "本句指「某人在藝術、處事等方面的個人手法／分寸感」。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
-        "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
-        "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。"
+        "touch-mcq-06": "本句的「touch」指「某人在藝術、處事等方面的個人手法／分寸感」。",
+        "touch-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-06"
     },
@@ -845,10 +793,8 @@ export default {
       "masked": "She has a light ____ with colour.",
       "options": [
         "touch-mcq-06",
-        "touch-mcq-05",
-        "touch-mcq-07",
-        "touch-mcq-04",
-        "touch-mcq-08",
+        "touch-pdf-004",
+        "touch-mcq-11",
         "touch-mcq-03"
       ],
       "explanation": "本句的「touch」指「某人在藝術、處事等方面的個人手法／分寸感」。",
@@ -858,12 +804,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-06": "本句指「某人在藝術、處事等方面的個人手法／分寸感」。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
-        "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
-        "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。"
+        "touch-mcq-06": "本句的「touch」指「某人在藝術、處事等方面的個人手法／分寸感」。",
+        "touch-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-06"
     },
@@ -875,11 +819,9 @@ export default {
       "masked": "He has a good ____ with customers.",
       "options": [
         "touch-pdf-002",
-        "touch-mcq-05",
-        "touch-mcq-07",
-        "touch-mcq-04",
-        "touch-mcq-08",
-        "touch-mcq-03"
+        "touch-pdf-005",
+        "touch-mcq-13",
+        "touch-pdf-001"
       ],
       "explanation": "本句的「touch」指「處理人或事情時的細膩技巧／分寸感」。",
       "sentenceIndex": 14,
@@ -888,12 +830,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-pdf-002": "本句指「處理人或事情時的細膩技巧／分寸感」。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
-        "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
-        "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。"
+        "touch-pdf-002": "本句的「touch」指「處理人或事情時的細膩技巧／分寸感」。",
+        "touch-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-pdf-002"
     },
@@ -905,11 +845,9 @@ export default {
       "masked": "She handled the complaint with a light ____.",
       "options": [
         "touch-pdf-002",
-        "touch-mcq-05",
-        "touch-mcq-07",
-        "touch-mcq-04",
-        "touch-mcq-08",
-        "touch-mcq-03"
+        "touch-mcq-13",
+        "touch-mcq-10",
+        "touch-pdf-004"
       ],
       "explanation": "本句的「touch」指「處理人或事情時的細膩技巧／分寸感」。",
       "sentenceIndex": 15,
@@ -918,12 +856,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-pdf-002": "本句指「處理人或事情時的細膩技巧／分寸感」。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。",
-        "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
-        "touch-mcq-03": "「少量但可以察覺的 X」與本句語境不同。"
+        "touch-pdf-002": "本句的「touch」指「處理人或事情時的細膩技巧／分寸感」。",
+        "touch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-pdf-002"
     },
@@ -935,11 +871,9 @@ export default {
       "masked": "The story ____ me deeply.",
       "options": [
         "touch-mcq-07",
-        "touch-mcq-06",
-        "touch-mcq-08",
-        "touch-mcq-05",
-        "touch-mcq-09",
-        "touch-mcq-04"
+        "touch-mcq-10",
+        "touch-pdf-001",
+        "touch-pdf-004"
       ],
       "explanation": "本句的「touched」指「令某人產生感動或強烈情緒」。",
       "sentenceIndex": 16,
@@ -948,12 +882,10 @@ export default {
         "touched"
       ],
       "optionReasons": {
-        "touch-mcq-07": "本句指「令某人產生感動或強烈情緒」。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。",
-        "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-09": "「影響、涉及某人或某事」與本句語境不同。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。"
+        "touch-mcq-07": "本句的「touched」指「令某人產生感動或強烈情緒」。",
+        "touch-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-07"
     },
@@ -965,11 +897,9 @@ export default {
       "masked": "Her kindness ____ everyone.",
       "options": [
         "touch-mcq-07",
-        "touch-mcq-06",
-        "touch-mcq-08",
-        "touch-mcq-05",
-        "touch-mcq-09",
-        "touch-mcq-04"
+        "touch-mcq-02",
+        "touch-mcq-03",
+        "touch-mcq-11"
       ],
       "explanation": "本句的「touched」指「令某人產生感動或強烈情緒」。",
       "sentenceIndex": 17,
@@ -978,12 +908,10 @@ export default {
         "touched"
       ],
       "optionReasons": {
-        "touch-mcq-07": "本句指「令某人產生感動或強烈情緒」。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。",
-        "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。",
-        "touch-mcq-09": "「影響、涉及某人或某事」與本句語境不同。",
-        "touch-mcq-04": "「小而能改善整體效果／感受的細節」與本句語境不同。"
+        "touch-mcq-07": "本句的「touched」指「令某人產生感動或強烈情緒」。",
+        "touch-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-07"
     },
@@ -995,11 +923,9 @@ export default {
       "masked": "It was a ____ speech.",
       "options": [
         "touch-mcq-08",
-        "touch-mcq-07",
-        "touch-mcq-09",
-        "touch-mcq-06",
-        "touch-mcq-10",
-        "touch-mcq-05"
+        "touch-pdf-003",
+        "touch-pdf-001",
+        "touch-pdf-005"
       ],
       "explanation": "本句的「touching」指「令人感動、觸動情緒的」。",
       "sentenceIndex": 18,
@@ -1008,12 +934,10 @@ export default {
         "touching"
       ],
       "optionReasons": {
-        "touch-mcq-08": "本句指「令人感動、觸動情緒的」。",
-        "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
-        "touch-mcq-09": "「影響、涉及某人或某事」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。"
+        "touch-mcq-08": "本句的「touching」指「令人感動、觸動情緒的」。",
+        "touch-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-08"
     },
@@ -1025,11 +949,9 @@ export default {
       "masked": "The reunion was deeply ____.",
       "options": [
         "touch-mcq-08",
-        "touch-mcq-07",
-        "touch-mcq-09",
-        "touch-mcq-06",
-        "touch-mcq-10",
-        "touch-mcq-05"
+        "touch-mcq-11",
+        "touch-pdf-005",
+        "touch-mcq-03"
       ],
       "explanation": "本句的「touching」指「令人感動、觸動情緒的」。",
       "sentenceIndex": 19,
@@ -1038,12 +960,10 @@ export default {
         "touching"
       ],
       "optionReasons": {
-        "touch-mcq-08": "本句指「令人感動、觸動情緒的」。",
-        "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
-        "touch-mcq-09": "「影響、涉及某人或某事」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
-        "touch-mcq-05": "「令服務／互動更有人情味、更個人化的小細節」與本句語境不同。"
+        "touch-mcq-08": "本句的「touching」指「令人感動、觸動情緒的」。",
+        "touch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-08"
     },
@@ -1055,11 +975,9 @@ export default {
       "masked": "The change ____ every part of the business.",
       "options": [
         "touch-mcq-09",
-        "touch-mcq-08",
-        "touch-mcq-10",
-        "touch-mcq-07",
-        "touch-mcq-11",
-        "touch-mcq-06"
+        "touch-pdf-006",
+        "touch-pdf-004",
+        "touch-mcq-02"
       ],
       "explanation": "本句的「touched」指「影響、涉及某人或某事」。",
       "sentenceIndex": 20,
@@ -1068,12 +986,10 @@ export default {
         "touched"
       ],
       "optionReasons": {
-        "touch-mcq-09": "本句指「影響、涉及某人或某事」。",
-        "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
-        "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
+        "touch-mcq-09": "本句的「touched」指「影響、涉及某人或某事」。",
+        "touch-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-09"
     },
@@ -1085,11 +1001,9 @@ export default {
       "masked": "The report ____ several important issues.",
       "options": [
         "touch-mcq-09",
-        "touch-mcq-08",
-        "touch-mcq-10",
-        "touch-mcq-07",
-        "touch-mcq-11",
-        "touch-mcq-06"
+        "touch-mcq-13",
+        "touch-pdf-006",
+        "touch-pdf-003"
       ],
       "explanation": "本句的「touches」指「影響、涉及某人或某事」。",
       "sentenceIndex": 21,
@@ -1098,12 +1012,10 @@ export default {
         "touches"
       ],
       "optionReasons": {
-        "touch-mcq-09": "本句指「影響、涉及某人或某事」。",
-        "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
-        "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
+        "touch-mcq-09": "本句的「touches」指「影響、涉及某人或某事」。",
+        "touch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-09"
     },
@@ -1115,11 +1027,9 @@ export default {
       "masked": "We stayed in ____ after leaving the office.",
       "options": [
         "touch-pdf-003",
-        "touch-mcq-08",
-        "touch-mcq-10",
-        "touch-mcq-07",
-        "touch-mcq-11",
-        "touch-mcq-06"
+        "touch-mcq-09",
+        "touch-mcq-02",
+        "touch-mcq-03"
       ],
       "explanation": "本句的「touch」指「與人保持的聯絡／關係」。",
       "sentenceIndex": 22,
@@ -1128,12 +1038,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-pdf-003": "本句指「與人保持的聯絡／關係」。",
-        "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
-        "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
+        "touch-pdf-003": "本句的「touch」指「與人保持的聯絡／關係」。",
+        "touch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-pdf-003"
     },
@@ -1145,11 +1053,9 @@ export default {
       "masked": "I lost ____ with several old colleagues.",
       "options": [
         "touch-pdf-003",
-        "touch-mcq-08",
-        "touch-mcq-10",
+        "touch-pdf-001",
         "touch-mcq-07",
-        "touch-mcq-11",
-        "touch-mcq-06"
+        "touch-pdf-004"
       ],
       "explanation": "本句的「touch」指「與人保持的聯絡／關係」。",
       "sentenceIndex": 23,
@@ -1158,12 +1064,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-pdf-003": "本句指「與人保持的聯絡／關係」。",
-        "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
-        "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-06": "「某人在藝術、處事等方面的個人手法／分寸感」與本句語境不同。"
+        "touch-pdf-003": "本句的「touch」指「與人保持的聯絡／關係」。",
+        "touch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-pdf-003"
     },
@@ -1175,11 +1079,9 @@ export default {
       "masked": "She is still ____ her old manager.",
       "options": [
         "touch-mcq-10",
-        "touch-mcq-09",
-        "touch-mcq-11",
-        "touch-mcq-08",
-        "touch-mcq-12",
-        "touch-mcq-07"
+        "touch-mcq-04",
+        "touch-pdf-005",
+        "touch-pdf-004"
       ],
       "explanation": "本句的「in touch with」指「與人保持聯絡；或保持了解某情況」。",
       "sentenceIndex": 24,
@@ -1188,12 +1090,10 @@ export default {
         "in touch with"
       ],
       "optionReasons": {
-        "touch-mcq-10": "本句指「與人保持聯絡；或保持了解某情況」。",
-        "touch-mcq-09": "「影響、涉及某人或某事」與本句語境不同。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
-        "touch-mcq-12": "「球員碰到或控制球的一次動作／技巧」與本句語境不同。",
-        "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。"
+        "touch-mcq-10": "本句的「in touch with」指「與人保持聯絡；或保持了解某情況」。",
+        "touch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-10"
     },
@@ -1205,11 +1105,9 @@ export default {
       "masked": "Good businesses stay in ____ with what customers want.",
       "options": [
         "touch-mcq-10",
-        "touch-mcq-09",
-        "touch-mcq-11",
         "touch-mcq-08",
-        "touch-mcq-12",
-        "touch-mcq-07"
+        "touch-mcq-02",
+        "touch-mcq-06"
       ],
       "explanation": "本句的「touch」指「與人保持聯絡；或保持了解某情況」。",
       "sentenceIndex": 25,
@@ -1218,12 +1116,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-10": "本句指「與人保持聯絡；或保持了解某情況」。",
-        "touch-mcq-09": "「影響、涉及某人或某事」與本句語境不同。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。",
-        "touch-mcq-12": "「球員碰到或控制球的一次動作／技巧」與本句語境不同。",
-        "touch-mcq-07": "「令某人產生感動或強烈情緒」與本句語境不同。"
+        "touch-mcq-10": "本句的「touch」指「與人保持聯絡；或保持了解某情況」。",
+        "touch-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-10"
     },
@@ -1235,11 +1131,9 @@ export default {
       "masked": "I’ve been ____ with him for years.",
       "options": [
         "touch-mcq-11",
-        "touch-mcq-10",
         "touch-mcq-12",
-        "touch-mcq-09",
-        "touch-mcq-13",
-        "touch-mcq-08"
+        "touch-pdf-004",
+        "touch-mcq-02"
       ],
       "explanation": "本句的「out of touch」指「與人失去聯絡；或與現況／需求脫節」。",
       "sentenceIndex": 26,
@@ -1248,12 +1142,10 @@ export default {
         "out of touch"
       ],
       "optionReasons": {
-        "touch-mcq-11": "本句指「與人失去聯絡；或與現況／需求脫節」。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
-        "touch-mcq-12": "「球員碰到或控制球的一次動作／技巧」與本句語境不同。",
-        "touch-mcq-09": "「影響、涉及某人或某事」與本句語境不同。",
-        "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
-        "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。"
+        "touch-mcq-11": "本句的「out of touch」指「與人失去聯絡；或與現況／需求脫節」。",
+        "touch-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-11"
     },
@@ -1265,11 +1157,9 @@ export default {
       "masked": "The company is out of ____ with younger customers.",
       "options": [
         "touch-mcq-11",
-        "touch-mcq-10",
-        "touch-mcq-12",
-        "touch-mcq-09",
-        "touch-mcq-13",
-        "touch-mcq-08"
+        "touch-mcq-01",
+        "touch-mcq-03",
+        "touch-pdf-004"
       ],
       "explanation": "本句的「touch」指「與人失去聯絡；或與現況／需求脫節」。",
       "sentenceIndex": 27,
@@ -1278,12 +1168,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-11": "本句指「與人失去聯絡；或與現況／需求脫節」。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
-        "touch-mcq-12": "「球員碰到或控制球的一次動作／技巧」與本句語境不同。",
-        "touch-mcq-09": "「影響、涉及某人或某事」與本句語境不同。",
-        "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
-        "touch-mcq-08": "「令人感動、觸動情緒的」與本句語境不同。"
+        "touch-mcq-11": "本句的「touch」指「與人失去聯絡；或與現況／需求脫節」。",
+        "touch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-11"
     },
@@ -1295,11 +1183,9 @@ export default {
       "masked": "That was his first ____ of the ball.",
       "options": [
         "touch-mcq-12",
-        "touch-mcq-11",
-        "touch-mcq-13",
-        "touch-mcq-10",
-        "touch-mcq-14",
-        "touch-mcq-09"
+        "touch-mcq-02",
+        "touch-mcq-06",
+        "touch-pdf-003"
       ],
       "explanation": "本句的「touch」指「球員碰到或控制球的一次動作／技巧」。",
       "sentenceIndex": 28,
@@ -1308,12 +1194,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-12": "本句指「球員碰到或控制球的一次動作／技巧」。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
-        "touch-mcq-14": "「對批評／某話題很敏感，容易不高興的」與本句語境不同。",
-        "touch-mcq-09": "「影響、涉及某人或某事」與本句語境不同。"
+        "touch-mcq-12": "本句的「touch」指「球員碰到或控制球的一次動作／技巧」。",
+        "touch-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-12"
     },
@@ -1325,11 +1209,9 @@ export default {
       "masked": "She has an excellent first ____.",
       "options": [
         "touch-mcq-12",
-        "touch-mcq-11",
         "touch-mcq-13",
-        "touch-mcq-10",
-        "touch-mcq-14",
-        "touch-mcq-09"
+        "touch-pdf-001",
+        "touch-pdf-005"
       ],
       "explanation": "本句的「touch」指「球員碰到或控制球的一次動作／技巧」。",
       "sentenceIndex": 29,
@@ -1338,12 +1220,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-12": "本句指「球員碰到或控制球的一次動作／技巧」。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
-        "touch-mcq-14": "「對批評／某話題很敏感，容易不高興的」與本句語境不同。",
-        "touch-mcq-09": "「影響、涉及某人或某事」與本句語境不同。"
+        "touch-mcq-12": "本句的「touch」指「球員碰到或控制球的一次動作／技巧」。",
+        "touch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-12"
     },
@@ -1355,11 +1235,9 @@ export default {
       "masked": "The screen responds to ____.",
       "options": [
         "touch-mcq-13",
-        "touch-mcq-12",
-        "touch-mcq-14",
         "touch-mcq-11",
-        "touch-mcq-15",
-        "touch-mcq-10"
+        "touch-mcq-09",
+        "touch-mcq-03"
       ],
       "explanation": "本句的「touch」指「透過手指接觸螢幕輸入指令」。",
       "sentenceIndex": 30,
@@ -1368,12 +1246,10 @@ export default {
         "touch"
       ],
       "optionReasons": {
-        "touch-mcq-13": "本句指「透過手指接觸螢幕輸入指令」。",
-        "touch-mcq-12": "「球員碰到或控制球的一次動作／技巧」與本句語境不同。",
-        "touch-mcq-14": "「對批評／某話題很敏感，容易不高興的」與本句語境不同。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-15": "「敏感而需要小心處理的」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。"
+        "touch-mcq-13": "本句的「touch」指「透過手指接觸螢幕輸入指令」。",
+        "touch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-13"
     },
@@ -1385,11 +1261,9 @@ export default {
       "masked": "____ the icon to open the app.",
       "options": [
         "touch-mcq-13",
-        "touch-mcq-12",
-        "touch-mcq-14",
-        "touch-mcq-11",
-        "touch-mcq-15",
-        "touch-mcq-10"
+        "touch-mcq-04",
+        "touch-pdf-003",
+        "touch-pdf-005"
       ],
       "explanation": "本句的「Touch」指「透過手指接觸螢幕輸入指令」。",
       "sentenceIndex": 31,
@@ -1398,12 +1272,10 @@ export default {
         "Touch"
       ],
       "optionReasons": {
-        "touch-mcq-13": "本句指「透過手指接觸螢幕輸入指令」。",
-        "touch-mcq-12": "「球員碰到或控制球的一次動作／技巧」與本句語境不同。",
-        "touch-mcq-14": "「對批評／某話題很敏感，容易不高興的」與本句語境不同。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-15": "「敏感而需要小心處理的」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。"
+        "touch-mcq-13": "本句的「Touch」指「透過手指接觸螢幕輸入指令」。",
+        "touch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-mcq-13"
     },
@@ -1415,11 +1287,9 @@ export default {
       "masked": "The controls are ____.",
       "options": [
         "touch-pdf-004",
-        "touch-mcq-11",
-        "touch-mcq-13",
-        "touch-mcq-10",
-        "touch-mcq-14",
-        "touch-mcq-09"
+        "touch-mcq-09",
+        "touch-pdf-001",
+        "touch-pdf-003"
       ],
       "explanation": "本句的「touch-sensitive」指「能偵測觸碰並作出反應的」。",
       "sentenceIndex": 34,
@@ -1428,12 +1298,10 @@ export default {
         "touch-sensitive"
       ],
       "optionReasons": {
-        "touch-pdf-004": "本句指「能偵測觸碰並作出反應的」。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
-        "touch-mcq-14": "「對批評／某話題很敏感，容易不高興的」與本句語境不同。",
-        "touch-mcq-09": "「影響、涉及某人或某事」與本句語境不同。"
+        "touch-pdf-004": "本句的「touch-sensitive」指「能偵測觸碰並作出反應的」。",
+        "touch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-pdf-004"
     },
@@ -1445,11 +1313,9 @@ export default {
       "masked": "The lamp has a ____ base.",
       "options": [
         "touch-pdf-004",
-        "touch-mcq-11",
-        "touch-mcq-13",
-        "touch-mcq-10",
-        "touch-mcq-14",
-        "touch-mcq-09"
+        "touch-pdf-003",
+        "touch-mcq-07",
+        "touch-mcq-05"
       ],
       "explanation": "本句的「touch-sensitive」指「能偵測觸碰並作出反應的」。",
       "sentenceIndex": 35,
@@ -1458,12 +1324,10 @@ export default {
         "touch-sensitive"
       ],
       "optionReasons": {
-        "touch-pdf-004": "本句指「能偵測觸碰並作出反應的」。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。",
-        "touch-mcq-14": "「對批評／某話題很敏感，容易不高興的」與本句語境不同。",
-        "touch-mcq-09": "「影響、涉及某人或某事」與本句語境不同。"
+        "touch-pdf-004": "本句的「touch-sensitive」指「能偵測觸碰並作出反應的」。",
+        "touch-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-pdf-004"
     },
@@ -1476,9 +1340,7 @@ export default {
       "options": [
         "touch-pdf-005",
         "touch-mcq-13",
-        "touch-mcq-15",
-        "touch-mcq-12",
-        "touch-mcq-11",
+        "touch-pdf-001",
         "touch-mcq-10"
       ],
       "explanation": "本句的「touchy」指「容易引起不快，或某人很容易因某事被冒犯」。",
@@ -1488,12 +1350,10 @@ export default {
         "touchy"
       ],
       "optionReasons": {
-        "touch-pdf-005": "本句指「容易引起不快，或某人很容易因某事被冒犯」。",
-        "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
-        "touch-mcq-15": "「敏感而需要小心處理的」與本句語境不同。",
-        "touch-mcq-12": "「球員碰到或控制球的一次動作／技巧」與本句語境不同。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。"
+        "touch-pdf-005": "本句的「touchy」指「容易引起不快，或某人很容易因某事被冒犯」。",
+        "touch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-pdf-005"
     },
@@ -1505,11 +1365,9 @@ export default {
       "masked": "That is a ____ subject.",
       "options": [
         "touch-pdf-005",
-        "touch-mcq-13",
-        "touch-mcq-15",
-        "touch-mcq-12",
-        "touch-mcq-11",
-        "touch-mcq-10"
+        "touch-mcq-01",
+        "touch-mcq-10",
+        "touch-pdf-002"
       ],
       "explanation": "本句的「touchy」指「容易引起不快，或某人很容易因某事被冒犯」。",
       "sentenceIndex": 39,
@@ -1518,12 +1376,10 @@ export default {
         "touchy"
       ],
       "optionReasons": {
-        "touch-pdf-005": "本句指「容易引起不快，或某人很容易因某事被冒犯」。",
-        "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
-        "touch-mcq-15": "「敏感而需要小心處理的」與本句語境不同。",
-        "touch-mcq-12": "「球員碰到或控制球的一次動作／技巧」與本句語境不同。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。"
+        "touch-pdf-005": "本句的「touchy」指「容易引起不快，或某人很容易因某事被冒犯」。",
+        "touch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-pdf-005"
     },
@@ -1535,11 +1391,9 @@ export default {
       "masked": "The negotiation is a ____ issue.",
       "options": [
         "touch-pdf-006",
-        "touch-mcq-14",
-        "touch-mcq-13",
-        "touch-mcq-12",
         "touch-mcq-11",
-        "touch-mcq-10"
+        "touch-mcq-13",
+        "touch-mcq-09"
       ],
       "explanation": "本句的「touchy」指「情況敏感，處理不當容易出問題」。",
       "sentenceIndex": 40,
@@ -1548,12 +1402,10 @@ export default {
         "touchy"
       ],
       "optionReasons": {
-        "touch-pdf-006": "本句指「情況敏感，處理不當容易出問題」。",
-        "touch-mcq-14": "「對批評／某話題很敏感，容易不高興的」與本句語境不同。",
-        "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
-        "touch-mcq-12": "「球員碰到或控制球的一次動作／技巧」與本句語境不同。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。"
+        "touch-pdf-006": "本句的「touchy」指「情況敏感，處理不當容易出問題」。",
+        "touch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-pdf-006"
     },
@@ -1565,11 +1417,9 @@ export default {
       "masked": "It’s a ____ situation.",
       "options": [
         "touch-pdf-006",
-        "touch-mcq-14",
-        "touch-mcq-13",
-        "touch-mcq-12",
-        "touch-mcq-11",
-        "touch-mcq-10"
+        "touch-mcq-03",
+        "touch-pdf-003",
+        "touch-mcq-09"
       ],
       "explanation": "本句的「touchy」指「情況敏感，處理不當容易出問題」。",
       "sentenceIndex": 41,
@@ -1578,12 +1428,10 @@ export default {
         "touchy"
       ],
       "optionReasons": {
-        "touch-pdf-006": "本句指「情況敏感，處理不當容易出問題」。",
-        "touch-mcq-14": "「對批評／某話題很敏感，容易不高興的」與本句語境不同。",
-        "touch-mcq-13": "「透過手指接觸螢幕輸入指令」與本句語境不同。",
-        "touch-mcq-12": "「球員碰到或控制球的一次動作／技巧」與本句語境不同。",
-        "touch-mcq-11": "「與人失去聯絡；或與現況／需求脫節」與本句語境不同。",
-        "touch-mcq-10": "「與人保持聯絡；或保持了解某情況」與本句語境不同。"
+        "touch-pdf-006": "本句的「touchy」指「情況敏感，處理不當容易出問題」。",
+        "touch-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "touch-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "touch-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "touch-pdf-006"
     }
@@ -1595,5 +1443,7 @@ export default {
     "sha256": "f30a88f69a4d7d171ca876e1a26be2584adbab5903154341277c11c9e36bd603",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

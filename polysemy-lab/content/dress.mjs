@@ -333,11 +333,9 @@ export default {
       "masked": "I can wear the jacket over a simple ____.",
       "options": [
         "dress-mcq-01",
-        "dress-mcq-02",
-        "dress-mcq-03",
-        "dress-mcq-04",
-        "dress-mcq-05",
-        "dress-mcq-06"
+        "dress-mcq-09",
+        "dress-mcq-07",
+        "dress-mcq-11"
       ],
       "explanation": "本句的「dress」指「一件由上身延伸到下身的連身衣服；連身裙／洋裝」。",
       "sentenceIndex": 0,
@@ -346,12 +344,10 @@ export default {
         "dress"
       ],
       "optionReasons": {
-        "dress-mcq-01": "本句指「一件由上身延伸到下身的連身衣服；連身裙／洋裝」。",
-        "dress-mcq-02": "「某種場合、群體或文化的整體衣着／服裝方式」與本句語境不同。",
-        "dress-mcq-03": "「穿衣服、穿好衣服」與本句語境不同。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。"
+        "dress-mcq-01": "本句的「dress」指「一件由上身延伸到下身的連身衣服；連身裙／洋裝」。",
+        "dress-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-01"
     },
@@ -363,11 +359,9 @@ export default {
       "masked": "She wore a long blue ____.",
       "options": [
         "dress-mcq-01",
-        "dress-mcq-02",
-        "dress-mcq-03",
-        "dress-mcq-04",
+        "dress-mcq-07",
         "dress-mcq-05",
-        "dress-mcq-06"
+        "dress-mcq-08"
       ],
       "explanation": "本句的「dress」指「一件由上身延伸到下身的連身衣服；連身裙／洋裝」。",
       "sentenceIndex": 1,
@@ -376,12 +370,10 @@ export default {
         "dress"
       ],
       "optionReasons": {
-        "dress-mcq-01": "本句指「一件由上身延伸到下身的連身衣服；連身裙／洋裝」。",
-        "dress-mcq-02": "「某種場合、群體或文化的整體衣着／服裝方式」與本句語境不同。",
-        "dress-mcq-03": "「穿衣服、穿好衣服」與本句語境不同。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。"
+        "dress-mcq-01": "本句的「dress」指「一件由上身延伸到下身的連身衣服；連身裙／洋裝」。",
+        "dress-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-01"
     },
@@ -393,11 +385,9 @@ export default {
       "masked": "I bought a summer ____ for the trip.",
       "options": [
         "dress-mcq-01",
-        "dress-mcq-02",
-        "dress-mcq-03",
-        "dress-mcq-04",
-        "dress-mcq-05",
-        "dress-mcq-06"
+        "dress-mcq-07",
+        "dress-mcq-11",
+        "dress-mcq-15"
       ],
       "explanation": "本句的「dress」指「一件由上身延伸到下身的連身衣服；連身裙／洋裝」。",
       "sentenceIndex": 2,
@@ -406,12 +396,10 @@ export default {
         "dress"
       ],
       "optionReasons": {
-        "dress-mcq-01": "本句指「一件由上身延伸到下身的連身衣服；連身裙／洋裝」。",
-        "dress-mcq-02": "「某種場合、群體或文化的整體衣着／服裝方式」與本句語境不同。",
-        "dress-mcq-03": "「穿衣服、穿好衣服」與本句語境不同。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。"
+        "dress-mcq-01": "本句的「dress」指「一件由上身延伸到下身的連身衣服；連身裙／洋裝」。",
+        "dress-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-01"
     },
@@ -423,11 +411,9 @@ export default {
       "masked": "Traditional ____ varies from region to region.",
       "options": [
         "dress-mcq-02",
-        "dress-mcq-01",
-        "dress-mcq-03",
-        "dress-mcq-04",
-        "dress-mcq-05",
-        "dress-mcq-06"
+        "dress-mcq-08",
+        "dress-mcq-07",
+        "dress-mcq-11"
       ],
       "explanation": "本句的「dress」指「某種場合、群體或文化的整體衣着／服裝方式」。",
       "sentenceIndex": 3,
@@ -436,12 +422,10 @@ export default {
         "dress"
       ],
       "optionReasons": {
-        "dress-mcq-02": "本句指「某種場合、群體或文化的整體衣着／服裝方式」。",
-        "dress-mcq-01": "「一件由上身延伸到下身的連身衣服；連身裙／洋裝」與本句語境不同。",
-        "dress-mcq-03": "「穿衣服、穿好衣服」與本句語境不同。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。"
+        "dress-mcq-02": "本句的「dress」指「某種場合、群體或文化的整體衣着／服裝方式」。",
+        "dress-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-02"
     },
@@ -453,11 +437,9 @@ export default {
       "masked": "The event requires formal ____.",
       "options": [
         "dress-mcq-02",
-        "dress-mcq-01",
-        "dress-mcq-03",
-        "dress-mcq-04",
-        "dress-mcq-05",
-        "dress-mcq-06"
+        "dress-mcq-08",
+        "dress-mcq-15",
+        "dress-mcq-11"
       ],
       "explanation": "本句的「dress」指「某種場合、群體或文化的整體衣着／服裝方式」。",
       "sentenceIndex": 4,
@@ -466,12 +448,10 @@ export default {
         "dress"
       ],
       "optionReasons": {
-        "dress-mcq-02": "本句指「某種場合、群體或文化的整體衣着／服裝方式」。",
-        "dress-mcq-01": "「一件由上身延伸到下身的連身衣服；連身裙／洋裝」與本句語境不同。",
-        "dress-mcq-03": "「穿衣服、穿好衣服」與本句語境不同。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。"
+        "dress-mcq-02": "本句的「dress」指「某種場合、群體或文化的整體衣着／服裝方式」。",
+        "dress-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-02"
     },
@@ -483,11 +463,9 @@ export default {
       "masked": "I got up and ____ quickly.",
       "options": [
         "dress-mcq-03",
-        "dress-mcq-02",
-        "dress-mcq-04",
-        "dress-mcq-01",
-        "dress-mcq-05",
-        "dress-mcq-06"
+        "dress-mcq-09",
+        "dress-mcq-06",
+        "dress-mcq-07"
       ],
       "explanation": "本句的「dressed」指「穿衣服、穿好衣服」。",
       "sentenceIndex": 5,
@@ -496,12 +474,10 @@ export default {
         "dressed"
       ],
       "optionReasons": {
-        "dress-mcq-03": "本句指「穿衣服、穿好衣服」。",
-        "dress-mcq-02": "「某種場合、群體或文化的整體衣着／服裝方式」與本句語境不同。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-01": "「一件由上身延伸到下身的連身衣服；連身裙／洋裝」與本句語境不同。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。"
+        "dress-mcq-03": "本句的「dressed」指「穿衣服、穿好衣服」。",
+        "dress-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-03"
     },
@@ -513,11 +489,9 @@ export default {
       "masked": "She was still ____ when I called.",
       "options": [
         "dress-mcq-03",
-        "dress-mcq-02",
-        "dress-mcq-04",
-        "dress-mcq-01",
-        "dress-mcq-05",
-        "dress-mcq-06"
+        "dress-mcq-09",
+        "dress-mcq-06",
+        "dress-mcq-12"
       ],
       "explanation": "本句的「dressing」指「穿衣服、穿好衣服」。",
       "sentenceIndex": 6,
@@ -526,12 +500,10 @@ export default {
         "dressing"
       ],
       "optionReasons": {
-        "dress-mcq-03": "本句指「穿衣服、穿好衣服」。",
-        "dress-mcq-02": "「某種場合、群體或文化的整體衣着／服裝方式」與本句語境不同。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-01": "「一件由上身延伸到下身的連身衣服；連身裙／洋裝」與本句語境不同。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。"
+        "dress-mcq-03": "本句的「dressing」指「穿衣服、穿好衣服」。",
+        "dress-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-03"
     },
@@ -543,11 +515,9 @@ export default {
       "masked": "She ____ the child for school.",
       "options": [
         "dress-mcq-03",
-        "dress-mcq-02",
-        "dress-mcq-04",
-        "dress-mcq-01",
-        "dress-mcq-05",
-        "dress-mcq-06"
+        "dress-mcq-07",
+        "dress-mcq-09",
+        "dress-mcq-11"
       ],
       "explanation": "本句的「dressed」指「穿衣服、穿好衣服」。",
       "sentenceIndex": 7,
@@ -556,12 +526,10 @@ export default {
         "dressed"
       ],
       "optionReasons": {
-        "dress-mcq-03": "本句指「穿衣服、穿好衣服」。",
-        "dress-mcq-02": "「某種場合、群體或文化的整體衣着／服裝方式」與本句語境不同。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-01": "「一件由上身延伸到下身的連身衣服；連身裙／洋裝」與本句語境不同。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。"
+        "dress-mcq-03": "本句的「dressed」指「穿衣服、穿好衣服」。",
+        "dress-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-03"
     },
@@ -573,11 +541,9 @@ export default {
       "masked": "He needed help to ____ himself.",
       "options": [
         "dress-mcq-03",
-        "dress-mcq-02",
-        "dress-mcq-04",
-        "dress-mcq-01",
-        "dress-mcq-05",
-        "dress-mcq-06"
+        "dress-mcq-07",
+        "dress-mcq-06",
+        "dress-mcq-15"
       ],
       "explanation": "本句的「dress」指「穿衣服、穿好衣服」。",
       "sentenceIndex": 8,
@@ -586,12 +552,10 @@ export default {
         "dress"
       ],
       "optionReasons": {
-        "dress-mcq-03": "本句指「穿衣服、穿好衣服」。",
-        "dress-mcq-02": "「某種場合、群體或文化的整體衣着／服裝方式」與本句語境不同。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-01": "「一件由上身延伸到下身的連身衣服；連身裙／洋裝」與本句語境不同。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。"
+        "dress-mcq-03": "本句的「dress」指「穿衣服、穿好衣服」。",
+        "dress-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-03"
     },
@@ -603,11 +567,9 @@ export default {
       "masked": "She always ____ elegantly.",
       "options": [
         "dress-mcq-05",
-        "dress-mcq-04",
         "dress-mcq-06",
-        "dress-mcq-03",
-        "dress-mcq-07",
-        "dress-mcq-02"
+        "dress-mcq-01",
+        "dress-mcq-12"
       ],
       "explanation": "本句的「dresses」指「按某種風格、顏色或正式程度穿着打扮」。",
       "sentenceIndex": 9,
@@ -616,12 +578,10 @@ export default {
         "dresses"
       ],
       "optionReasons": {
-        "dress-mcq-05": "本句指「按某種風格、顏色或正式程度穿着打扮」。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。",
-        "dress-mcq-03": "「穿衣服、穿好衣服」與本句語境不同。",
-        "dress-mcq-07": "「在食物上加醬汁、油或調味料」與本句語境不同。",
-        "dress-mcq-02": "「某種場合、群體或文化的整體衣着／服裝方式」與本句語境不同。"
+        "dress-mcq-05": "本句的「dresses」指「按某種風格、顏色或正式程度穿着打扮」。",
+        "dress-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-05"
     },
@@ -633,11 +593,9 @@ export default {
       "masked": "He was ____ black.",
       "options": [
         "dress-mcq-05",
-        "dress-mcq-04",
         "dress-mcq-06",
-        "dress-mcq-03",
-        "dress-mcq-07",
-        "dress-mcq-02"
+        "dress-mcq-08",
+        "dress-mcq-07"
       ],
       "explanation": "本句的「dressed in」指「按某種風格、顏色或正式程度穿着打扮」。",
       "sentenceIndex": 10,
@@ -646,12 +604,10 @@ export default {
         "dressed in"
       ],
       "optionReasons": {
-        "dress-mcq-05": "本句指「按某種風格、顏色或正式程度穿着打扮」。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。",
-        "dress-mcq-03": "「穿衣服、穿好衣服」與本句語境不同。",
-        "dress-mcq-07": "「在食物上加醬汁、油或調味料」與本句語境不同。",
-        "dress-mcq-02": "「某種場合、群體或文化的整體衣着／服裝方式」與本句語境不同。"
+        "dress-mcq-05": "本句的「dressed in」指「按某種風格、顏色或正式程度穿着打扮」。",
+        "dress-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-05"
     },
@@ -663,11 +619,9 @@ export default {
       "masked": "You don’t need to ____ for dinner.",
       "options": [
         "dress-mcq-05",
-        "dress-mcq-04",
-        "dress-mcq-06",
-        "dress-mcq-03",
-        "dress-mcq-07",
-        "dress-mcq-02"
+        "dress-mcq-16",
+        "dress-mcq-11",
+        "dress-mcq-12"
       ],
       "explanation": "本句的「dress」指「按某種風格、顏色或正式程度穿着打扮」。",
       "sentenceIndex": 11,
@@ -676,12 +630,10 @@ export default {
         "dress"
       ],
       "optionReasons": {
-        "dress-mcq-05": "本句指「按某種風格、顏色或正式程度穿着打扮」。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。",
-        "dress-mcq-03": "「穿衣服、穿好衣服」與本句語境不同。",
-        "dress-mcq-07": "「在食物上加醬汁、油或調味料」與本句語境不同。",
-        "dress-mcq-02": "「某種場合、群體或文化的整體衣着／服裝方式」與本句語境不同。"
+        "dress-mcq-05": "本句的「dress」指「按某種風格、顏色或正式程度穿着打扮」。",
+        "dress-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-05"
     },
@@ -693,11 +645,9 @@ export default {
       "masked": "Everyone was beautifully ____.",
       "options": [
         "dress-mcq-05",
-        "dress-mcq-04",
-        "dress-mcq-06",
-        "dress-mcq-03",
-        "dress-mcq-07",
-        "dress-mcq-02"
+        "dress-mcq-12",
+        "dress-mcq-08",
+        "dress-mcq-09"
       ],
       "explanation": "本句的「dressed」指「按某種風格、顏色或正式程度穿着打扮」。",
       "sentenceIndex": 12,
@@ -706,12 +656,10 @@ export default {
         "dressed"
       ],
       "optionReasons": {
-        "dress-mcq-05": "本句指「按某種風格、顏色或正式程度穿着打扮」。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。",
-        "dress-mcq-03": "「穿衣服、穿好衣服」與本句語境不同。",
-        "dress-mcq-07": "「在食物上加醬汁、油或調味料」與本句語境不同。",
-        "dress-mcq-02": "「某種場合、群體或文化的整體衣着／服裝方式」與本句語境不同。"
+        "dress-mcq-05": "本句的「dressed」指「按某種風格、顏色或正式程度穿着打扮」。",
+        "dress-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-05"
     },
@@ -724,10 +672,8 @@ export default {
       "options": [
         "dress-mcq-06",
         "dress-mcq-05",
-        "dress-mcq-07",
-        "dress-mcq-04",
-        "dress-mcq-08",
-        "dress-mcq-03"
+        "dress-mcq-16",
+        "dress-mcq-12"
       ],
       "explanation": "本句的「dressed」指「清潔並用敷料／繃帶包紮傷口」。",
       "sentenceIndex": 13,
@@ -736,12 +682,10 @@ export default {
         "dressed"
       ],
       "optionReasons": {
-        "dress-mcq-06": "本句指「清潔並用敷料／繃帶包紮傷口」。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。",
-        "dress-mcq-07": "「在食物上加醬汁、油或調味料」與本句語境不同。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-08": "「把魚、禽肉等清理並處理好供烹調」與本句語境不同。",
-        "dress-mcq-03": "「穿衣服、穿好衣服」與本句語境不同。"
+        "dress-mcq-06": "本句的「dressed」指「清潔並用敷料／繃帶包紮傷口」。",
+        "dress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-06"
     },
@@ -753,11 +697,9 @@ export default {
       "masked": "The cut should be ____ daily.",
       "options": [
         "dress-mcq-06",
+        "dress-mcq-02",
         "dress-mcq-05",
-        "dress-mcq-07",
-        "dress-mcq-04",
-        "dress-mcq-08",
-        "dress-mcq-03"
+        "dress-mcq-12"
       ],
       "explanation": "本句的「dressed」指「清潔並用敷料／繃帶包紮傷口」。",
       "sentenceIndex": 14,
@@ -766,12 +708,10 @@ export default {
         "dressed"
       ],
       "optionReasons": {
-        "dress-mcq-06": "本句指「清潔並用敷料／繃帶包紮傷口」。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。",
-        "dress-mcq-07": "「在食物上加醬汁、油或調味料」與本句語境不同。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。",
-        "dress-mcq-08": "「把魚、禽肉等清理並處理好供烹調」與本句語境不同。",
-        "dress-mcq-03": "「穿衣服、穿好衣服」與本句語境不同。"
+        "dress-mcq-06": "本句的「dressed」指「清潔並用敷料／繃帶包紮傷口」。",
+        "dress-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-06"
     },
@@ -783,11 +723,9 @@ export default {
       "masked": "____ the salad just before serving.",
       "options": [
         "dress-mcq-07",
-        "dress-mcq-06",
-        "dress-mcq-08",
         "dress-mcq-05",
-        "dress-mcq-09",
-        "dress-mcq-04"
+        "dress-mcq-02",
+        "dress-mcq-01"
       ],
       "explanation": "本句的「Dress」指「在食物上加醬汁、油或調味料」。",
       "sentenceIndex": 15,
@@ -796,12 +734,10 @@ export default {
         "Dress"
       ],
       "optionReasons": {
-        "dress-mcq-07": "本句指「在食物上加醬汁、油或調味料」。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。",
-        "dress-mcq-08": "「把魚、禽肉等清理並處理好供烹調」與本句語境不同。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。",
-        "dress-mcq-09": "「修整、切削或加工材料表面」與本句語境不同。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。"
+        "dress-mcq-07": "本句的「Dress」指「在食物上加醬汁、油或調味料」。",
+        "dress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-07"
     },
@@ -813,11 +749,9 @@ export default {
       "masked": "The vegetables were lightly ____ with olive oil.",
       "options": [
         "dress-mcq-07",
-        "dress-mcq-06",
-        "dress-mcq-08",
-        "dress-mcq-05",
-        "dress-mcq-09",
-        "dress-mcq-04"
+        "dress-mcq-03",
+        "dress-mcq-15",
+        "dress-mcq-06"
       ],
       "explanation": "本句的「dressed」指「在食物上加醬汁、油或調味料」。",
       "sentenceIndex": 16,
@@ -826,12 +760,10 @@ export default {
         "dressed"
       ],
       "optionReasons": {
-        "dress-mcq-07": "本句指「在食物上加醬汁、油或調味料」。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。",
-        "dress-mcq-08": "「把魚、禽肉等清理並處理好供烹調」與本句語境不同。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。",
-        "dress-mcq-09": "「修整、切削或加工材料表面」與本句語境不同。",
-        "dress-mcq-04": "「替某人穿衣」與本句語境不同。"
+        "dress-mcq-07": "本句的「dressed」指「在食物上加醬汁、油或調味料」。",
+        "dress-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-07"
     },
@@ -843,11 +775,9 @@ export default {
       "masked": "The fish was cleaned and ____ before cooking.",
       "options": [
         "dress-mcq-08",
-        "dress-mcq-07",
-        "dress-mcq-09",
-        "dress-mcq-06",
-        "dress-mcq-10",
-        "dress-mcq-05"
+        "dress-mcq-15",
+        "dress-mcq-02",
+        "dress-mcq-09"
       ],
       "explanation": "本句的「dressed」指「把魚、禽肉等清理並處理好供烹調」。",
       "sentenceIndex": 17,
@@ -856,12 +786,10 @@ export default {
         "dressed"
       ],
       "optionReasons": {
-        "dress-mcq-08": "本句指「把魚、禽肉等清理並處理好供烹調」。",
-        "dress-mcq-07": "「在食物上加醬汁、油或調味料」與本句語境不同。",
-        "dress-mcq-09": "「修整、切削或加工材料表面」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。",
-        "dress-mcq-10": "「為櫥窗、舞台、電影場景等作視覺佈置」與本句語境不同。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。"
+        "dress-mcq-08": "本句的「dressed」指「把魚、禽肉等清理並處理好供烹調」。",
+        "dress-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-08"
     },
@@ -873,11 +801,9 @@ export default {
       "masked": "The birds were ____ for the kitchen.",
       "options": [
         "dress-mcq-08",
-        "dress-mcq-07",
         "dress-mcq-09",
-        "dress-mcq-06",
-        "dress-mcq-10",
-        "dress-mcq-05"
+        "dress-mcq-05",
+        "dress-mcq-16"
       ],
       "explanation": "本句的「dressed」指「把魚、禽肉等清理並處理好供烹調」。",
       "sentenceIndex": 18,
@@ -886,12 +812,10 @@ export default {
         "dressed"
       ],
       "optionReasons": {
-        "dress-mcq-08": "本句指「把魚、禽肉等清理並處理好供烹調」。",
-        "dress-mcq-07": "「在食物上加醬汁、油或調味料」與本句語境不同。",
-        "dress-mcq-09": "「修整、切削或加工材料表面」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。",
-        "dress-mcq-10": "「為櫥窗、舞台、電影場景等作視覺佈置」與本句語境不同。",
-        "dress-mcq-05": "「按某種風格、顏色或正式程度穿着打扮」與本句語境不同。"
+        "dress-mcq-08": "本句的「dressed」指「把魚、禽肉等清理並處理好供烹調」。",
+        "dress-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-08"
     },
@@ -904,10 +828,8 @@ export default {
       "options": [
         "dress-mcq-09",
         "dress-mcq-08",
-        "dress-mcq-10",
-        "dress-mcq-07",
-        "dress-mcq-11",
-        "dress-mcq-06"
+        "dress-mcq-12",
+        "dress-mcq-01"
       ],
       "explanation": "本句的「dressed」指「修整、切削或加工材料表面」。",
       "sentenceIndex": 19,
@@ -916,12 +838,10 @@ export default {
         "dressed"
       ],
       "optionReasons": {
-        "dress-mcq-09": "本句指「修整、切削或加工材料表面」。",
-        "dress-mcq-08": "「把魚、禽肉等清理並處理好供烹調」與本句語境不同。",
-        "dress-mcq-10": "「為櫥窗、舞台、電影場景等作視覺佈置」與本句語境不同。",
-        "dress-mcq-07": "「在食物上加醬汁、油或調味料」與本句語境不同。",
-        "dress-mcq-11": "「傷口敷料」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。"
+        "dress-mcq-09": "本句的「dressed」指「修整、切削或加工材料表面」。",
+        "dress-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-09"
     },
@@ -933,11 +853,9 @@ export default {
       "masked": "The timber was ____ to produce a smooth surface.",
       "options": [
         "dress-mcq-09",
-        "dress-mcq-08",
-        "dress-mcq-10",
-        "dress-mcq-07",
-        "dress-mcq-11",
-        "dress-mcq-06"
+        "dress-mcq-03",
+        "dress-mcq-15",
+        "dress-mcq-12"
       ],
       "explanation": "本句的「dressed」指「修整、切削或加工材料表面」。",
       "sentenceIndex": 20,
@@ -946,12 +864,10 @@ export default {
         "dressed"
       ],
       "optionReasons": {
-        "dress-mcq-09": "本句指「修整、切削或加工材料表面」。",
-        "dress-mcq-08": "「把魚、禽肉等清理並處理好供烹調」與本句語境不同。",
-        "dress-mcq-10": "「為櫥窗、舞台、電影場景等作視覺佈置」與本句語境不同。",
-        "dress-mcq-07": "「在食物上加醬汁、油或調味料」與本句語境不同。",
-        "dress-mcq-11": "「傷口敷料」與本句語境不同。",
-        "dress-mcq-06": "「清潔並用敷料／繃帶包紮傷口」與本句語境不同。"
+        "dress-mcq-09": "本句的「dressed」指「修整、切削或加工材料表面」。",
+        "dress-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-09"
     },
@@ -963,11 +879,9 @@ export default {
       "masked": "The nurse changed the ____.",
       "options": [
         "dress-mcq-11",
-        "dress-mcq-10",
-        "dress-mcq-12",
-        "dress-mcq-09",
-        "dress-mcq-13",
-        "dress-mcq-08"
+        "dress-mcq-16",
+        "dress-mcq-08",
+        "dress-mcq-12"
       ],
       "explanation": "本句的「dressing」指「傷口敷料」。",
       "sentenceIndex": 23,
@@ -976,12 +890,10 @@ export default {
         "dressing"
       ],
       "optionReasons": {
-        "dress-mcq-11": "本句指「傷口敷料」。",
-        "dress-mcq-10": "「為櫥窗、舞台、電影場景等作視覺佈置」與本句語境不同。",
-        "dress-mcq-12": "「沙律醬／調味汁」與本句語境不同。",
-        "dress-mcq-09": "「修整、切削或加工材料表面」與本句語境不同。",
-        "dress-mcq-13": "「幫演員／模特兒穿換服裝的人」與本句語境不同。",
-        "dress-mcq-08": "「把魚、禽肉等清理並處理好供烹調」與本句語境不同。"
+        "dress-mcq-11": "本句的「dressing」指「傷口敷料」。",
+        "dress-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-11"
     },
@@ -993,10 +905,8 @@ export default {
       "masked": "Would you like ____ on your salad?",
       "options": [
         "dress-mcq-12",
-        "dress-mcq-11",
-        "dress-mcq-13",
-        "dress-mcq-10",
-        "dress-mcq-14",
+        "dress-mcq-06",
+        "dress-mcq-16",
         "dress-mcq-09"
       ],
       "explanation": "本句的「dressing」指「沙律醬／調味汁」。",
@@ -1006,12 +916,10 @@ export default {
         "dressing"
       ],
       "optionReasons": {
-        "dress-mcq-12": "本句指「沙律醬／調味汁」。",
-        "dress-mcq-11": "「傷口敷料」與本句語境不同。",
-        "dress-mcq-13": "「幫演員／模特兒穿換服裝的人」與本句語境不同。",
-        "dress-mcq-10": "「為櫥窗、舞台、電影場景等作視覺佈置」與本句語境不同。",
-        "dress-mcq-14": "「抽屜衣櫃／餐具櫃，依英美語境而異」與本句語境不同。",
-        "dress-mcq-09": "「修整、切削或加工材料表面」與本句語境不同。"
+        "dress-mcq-12": "本句的「dressing」指「沙律醬／調味汁」。",
+        "dress-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-12"
     },
@@ -1023,11 +931,9 @@ export default {
       "masked": "The restaurant is quite ____.",
       "options": [
         "dress-mcq-15",
-        "dress-mcq-14",
-        "dress-mcq-16",
-        "dress-mcq-13",
-        "dress-mcq-12",
-        "dress-mcq-11"
+        "dress-mcq-03",
+        "dress-mcq-08",
+        "dress-mcq-06"
       ],
       "explanation": "本句的「dressy」指「較正式、漂亮、講究的」。",
       "sentenceIndex": 26,
@@ -1036,12 +942,10 @@ export default {
         "dressy"
       ],
       "optionReasons": {
-        "dress-mcq-15": "本句指「較正式、漂亮、講究的」。",
-        "dress-mcq-14": "「抽屜衣櫃／餐具櫃，依英美語境而異」與本句語境不同。",
-        "dress-mcq-16": "「脫衣服」與本句語境不同。",
-        "dress-mcq-13": "「幫演員／模特兒穿換服裝的人」與本句語境不同。",
-        "dress-mcq-12": "「沙律醬／調味汁」與本句語境不同。",
-        "dress-mcq-11": "「傷口敷料」與本句語境不同。"
+        "dress-mcq-15": "本句的「dressy」指「較正式、漂亮、講究的」。",
+        "dress-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-15"
     },
@@ -1053,11 +957,9 @@ export default {
       "masked": "She chose a ____ blouse.",
       "options": [
         "dress-mcq-15",
-        "dress-mcq-14",
-        "dress-mcq-16",
-        "dress-mcq-13",
-        "dress-mcq-12",
-        "dress-mcq-11"
+        "dress-mcq-06",
+        "dress-mcq-03",
+        "dress-mcq-08"
       ],
       "explanation": "本句的「dressy」指「較正式、漂亮、講究的」。",
       "sentenceIndex": 27,
@@ -1066,12 +968,10 @@ export default {
         "dressy"
       ],
       "optionReasons": {
-        "dress-mcq-15": "本句指「較正式、漂亮、講究的」。",
-        "dress-mcq-14": "「抽屜衣櫃／餐具櫃，依英美語境而異」與本句語境不同。",
-        "dress-mcq-16": "「脫衣服」與本句語境不同。",
-        "dress-mcq-13": "「幫演員／模特兒穿換服裝的人」與本句語境不同。",
-        "dress-mcq-12": "「沙律醬／調味汁」與本句語境不同。",
-        "dress-mcq-11": "「傷口敷料」與本句語境不同。"
+        "dress-mcq-15": "本句的「dressy」指「較正式、漂亮、講究的」。",
+        "dress-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-15"
     },
@@ -1083,11 +983,9 @@ export default {
       "masked": "He ____ and went to bed.",
       "options": [
         "dress-mcq-16",
-        "dress-mcq-15",
-        "dress-mcq-14",
-        "dress-mcq-13",
-        "dress-mcq-12",
-        "dress-mcq-11"
+        "dress-mcq-05",
+        "dress-mcq-09",
+        "dress-mcq-12"
       ],
       "explanation": "本句的「undressed」指「脫衣服」。",
       "sentenceIndex": 28,
@@ -1096,12 +994,10 @@ export default {
         "undressed"
       ],
       "optionReasons": {
-        "dress-mcq-16": "本句指「脫衣服」。",
-        "dress-mcq-15": "「較正式、漂亮、講究的」與本句語境不同。",
-        "dress-mcq-14": "「抽屜衣櫃／餐具櫃，依英美語境而異」與本句語境不同。",
-        "dress-mcq-13": "「幫演員／模特兒穿換服裝的人」與本句語境不同。",
-        "dress-mcq-12": "「沙律醬／調味汁」與本句語境不同。",
-        "dress-mcq-11": "「傷口敷料」與本句語境不同。"
+        "dress-mcq-16": "本句的「undressed」指「脫衣服」。",
+        "dress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dress-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dress-mcq-16"
     }
@@ -1113,5 +1009,7 @@ export default {
     "sha256": "b68ba8c9b44401fbd0acee7bb2a7f79ffc011c9f5e75ef23a27c86c294c4ad14",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

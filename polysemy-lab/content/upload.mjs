@@ -481,11 +481,7 @@ export default {
       "masked": "He said that I had not ____.",
       "options": [
         "upload-mcq-01",
-        "upload-mcq-02",
-        "upload-mcq-03",
-        "upload-mcq-04",
-        "upload-mcq-05",
-        "upload-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploaded my part on time」指「上傳」。",
       "sentenceIndex": 0,
@@ -494,12 +490,8 @@ export default {
         "uploaded my part on time"
       ],
       "optionReasons": {
-        "upload-mcq-01": "本句指「上傳」。",
-        "upload-mcq-02": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "upload-mcq-03": "「上傳照片」是「upload a photo」的用法，與本句語境不同。",
-        "upload-mcq-04": "「上傳影片」是「upload a video」的用法，與本句語境不同。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。"
+        "upload-mcq-01": "本句的「uploaded my part on time」指「上傳」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-01"
     },
@@ -511,11 +503,7 @@ export default {
       "masked": "Please ____ before midnight.",
       "options": [
         "upload-mcq-01",
-        "upload-mcq-02",
-        "upload-mcq-03",
-        "upload-mcq-04",
-        "upload-mcq-05",
-        "upload-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload the file」指「上傳」。",
       "sentenceIndex": 1,
@@ -524,12 +512,8 @@ export default {
         "upload the file"
       ],
       "optionReasons": {
-        "upload-mcq-01": "本句指「上傳」。",
-        "upload-mcq-02": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "upload-mcq-03": "「上傳照片」是「upload a photo」的用法，與本句語境不同。",
-        "upload-mcq-04": "「上傳影片」是「upload a video」的用法，與本句語境不同。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。"
+        "upload-mcq-01": "本句的「upload the file」指「上傳」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-01"
     },
@@ -541,11 +525,7 @@ export default {
       "masked": "I ____ to the shared folder.",
       "options": [
         "upload-mcq-01",
-        "upload-mcq-02",
-        "upload-mcq-03",
-        "upload-mcq-04",
-        "upload-mcq-05",
-        "upload-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploaded the presentation」指「上傳」。",
       "sentenceIndex": 2,
@@ -554,12 +534,8 @@ export default {
         "uploaded the presentation"
       ],
       "optionReasons": {
-        "upload-mcq-01": "本句指「上傳」。",
-        "upload-mcq-02": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "upload-mcq-03": "「上傳照片」是「upload a photo」的用法，與本句語境不同。",
-        "upload-mcq-04": "「上傳影片」是「upload a video」的用法，與本句語境不同。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。"
+        "upload-mcq-01": "本句的「uploaded the presentation」指「上傳」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-01"
     },
@@ -571,11 +547,7 @@ export default {
       "masked": "Click here to ____.",
       "options": [
         "upload-mcq-02",
-        "upload-mcq-01",
-        "upload-mcq-03",
-        "upload-mcq-04",
-        "upload-mcq-05",
-        "upload-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload a file」指「上傳檔案」。",
       "sentenceIndex": 3,
@@ -584,12 +556,8 @@ export default {
         "upload a file"
       ],
       "optionReasons": {
-        "upload-mcq-02": "本句指「上傳檔案」。",
-        "upload-mcq-01": "「上傳」是「upload (verb)」的用法，與本句語境不同。",
-        "upload-mcq-03": "「上傳照片」是「upload a photo」的用法，與本句語境不同。",
-        "upload-mcq-04": "「上傳影片」是「upload a video」的用法，與本句語境不同。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。"
+        "upload-mcq-02": "本句的「upload a file」指「上傳檔案」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-02"
     },
@@ -601,11 +569,7 @@ export default {
       "masked": "She ____ successfully.",
       "options": [
         "upload-mcq-02",
-        "upload-mcq-01",
-        "upload-mcq-03",
-        "upload-mcq-04",
-        "upload-mcq-05",
-        "upload-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploaded the file」指「上傳檔案」。",
       "sentenceIndex": 4,
@@ -614,12 +578,8 @@ export default {
         "uploaded the file"
       ],
       "optionReasons": {
-        "upload-mcq-02": "本句指「上傳檔案」。",
-        "upload-mcq-01": "「上傳」是「upload (verb)」的用法，與本句語境不同。",
-        "upload-mcq-03": "「上傳照片」是「upload a photo」的用法，與本句語境不同。",
-        "upload-mcq-04": "「上傳影片」是「upload a video」的用法，與本句語境不同。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。"
+        "upload-mcq-02": "本句的「uploaded the file」指「上傳檔案」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-02"
     },
@@ -631,11 +591,7 @@ export default {
       "masked": "I ____ to the website.",
       "options": [
         "upload-mcq-03",
-        "upload-mcq-02",
-        "upload-mcq-04",
-        "upload-mcq-01",
-        "upload-mcq-05",
-        "upload-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploaded a photo」指「上傳照片」。",
       "sentenceIndex": 5,
@@ -644,12 +600,8 @@ export default {
         "uploaded a photo"
       ],
       "optionReasons": {
-        "upload-mcq-03": "本句指「上傳照片」。",
-        "upload-mcq-02": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "upload-mcq-04": "「上傳影片」是「upload a video」的用法，與本句語境不同。",
-        "upload-mcq-01": "「上傳」是「upload (verb)」的用法，與本句語境不同。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。"
+        "upload-mcq-03": "本句的「uploaded a photo」指「上傳照片」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-03"
     },
@@ -661,11 +613,7 @@ export default {
       "masked": "You can ____ directly from your phone.",
       "options": [
         "upload-mcq-03",
-        "upload-mcq-02",
-        "upload-mcq-04",
-        "upload-mcq-01",
-        "upload-mcq-05",
-        "upload-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload images」指「上傳照片」。",
       "sentenceIndex": 6,
@@ -674,12 +622,8 @@ export default {
         "upload images"
       ],
       "optionReasons": {
-        "upload-mcq-03": "本句指「上傳照片」。",
-        "upload-mcq-02": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "upload-mcq-04": "「上傳影片」是「upload a video」的用法，與本句語境不同。",
-        "upload-mcq-01": "「上傳」是「upload (verb)」的用法，與本句語境不同。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。"
+        "upload-mcq-03": "本句的「upload images」指「上傳照片」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-03"
     },
@@ -691,11 +635,7 @@ export default {
       "masked": "He ____ last night.",
       "options": [
         "upload-mcq-04",
-        "upload-mcq-03",
-        "upload-mcq-05",
-        "upload-mcq-02",
-        "upload-mcq-06",
-        "upload-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploaded the video」指「上傳影片」。",
       "sentenceIndex": 7,
@@ -704,12 +644,8 @@ export default {
         "uploaded the video"
       ],
       "optionReasons": {
-        "upload-mcq-04": "本句指「上傳影片」。",
-        "upload-mcq-03": "「上傳照片」是「upload a photo」的用法，與本句語境不同。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。",
-        "upload-mcq-02": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。",
-        "upload-mcq-01": "「上傳」是「upload (verb)」的用法，與本句語境不同。"
+        "upload-mcq-04": "本句的「uploaded the video」指「上傳影片」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-04"
     },
@@ -721,11 +657,7 @@ export default {
       "masked": "The video took a long time to ____.",
       "options": [
         "upload-mcq-04",
-        "upload-mcq-03",
-        "upload-mcq-05",
-        "upload-mcq-02",
-        "upload-mcq-06",
-        "upload-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload」指「上傳影片」。",
       "sentenceIndex": 8,
@@ -734,12 +666,8 @@ export default {
         "upload"
       ],
       "optionReasons": {
-        "upload-mcq-04": "本句指「上傳影片」。",
-        "upload-mcq-03": "「上傳照片」是「upload a photo」的用法，與本句語境不同。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。",
-        "upload-mcq-02": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。",
-        "upload-mcq-01": "「上傳」是「upload (verb)」的用法，與本句語境不同。"
+        "upload-mcq-04": "本句的「upload」指「上傳影片」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-04"
     },
@@ -751,11 +679,7 @@ export default {
       "masked": "Applicants must ____ online.",
       "options": [
         "upload-mcq-05",
-        "upload-mcq-04",
-        "upload-mcq-06",
-        "upload-mcq-03",
-        "upload-mcq-07",
-        "upload-mcq-02"
+        "contrast-energy"
       ],
       "explanation": "本句的「upload their documents」指「上傳文件」。",
       "sentenceIndex": 9,
@@ -764,12 +688,8 @@ export default {
         "upload their documents"
       ],
       "optionReasons": {
-        "upload-mcq-05": "本句指「上傳文件」。",
-        "upload-mcq-04": "「上傳影片」是「upload a video」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。",
-        "upload-mcq-03": "「上傳照片」是「upload a photo」的用法，與本句語境不同。",
-        "upload-mcq-07": "「從 X 上傳」是「upload from X」的用法，與本句語境不同。",
-        "upload-mcq-02": "「上傳檔案」是「upload a file」的用法，與本句語境不同。"
+        "upload-mcq-05": "本句的「upload their documents」指「上傳文件」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-05"
     },
@@ -781,11 +701,7 @@ export default {
       "masked": "I forgot to ____.",
       "options": [
         "upload-mcq-05",
-        "upload-mcq-04",
-        "upload-mcq-06",
-        "upload-mcq-03",
-        "upload-mcq-07",
-        "upload-mcq-02"
+        "contrast-energy"
       ],
       "explanation": "本句的「upload the document」指「上傳文件」。",
       "sentenceIndex": 10,
@@ -794,12 +710,8 @@ export default {
         "upload the document"
       ],
       "optionReasons": {
-        "upload-mcq-05": "本句指「上傳文件」。",
-        "upload-mcq-04": "「上傳影片」是「upload a video」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。",
-        "upload-mcq-03": "「上傳照片」是「upload a photo」的用法，與本句語境不同。",
-        "upload-mcq-07": "「從 X 上傳」是「upload from X」的用法，與本句語境不同。",
-        "upload-mcq-02": "「上傳檔案」是「upload a file」的用法，與本句語境不同。"
+        "upload-mcq-05": "本句的「upload the document」指「上傳文件」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-05"
     },
@@ -811,11 +723,7 @@ export default {
       "masked": "I ____.",
       "options": [
         "upload-mcq-06",
-        "upload-mcq-05",
-        "upload-mcq-07",
-        "upload-mcq-04",
-        "upload-mcq-08",
-        "upload-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploaded the slides to the shared folder」指「上傳到 X」。",
       "sentenceIndex": 11,
@@ -824,12 +732,8 @@ export default {
         "uploaded the slides to the shared folder"
       ],
       "optionReasons": {
-        "upload-mcq-06": "本句指「上傳到 X」。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。",
-        "upload-mcq-07": "「從 X 上傳」是「upload from X」的用法，與本句語境不同。",
-        "upload-mcq-04": "「上傳影片」是「upload a video」的用法，與本句語境不同。",
-        "upload-mcq-08": "「上傳到雲端」是「upload to the cloud」的用法，與本句語境不同。",
-        "upload-mcq-03": "「上傳照片」是「upload a photo」的用法，與本句語境不同。"
+        "upload-mcq-06": "本句的「uploaded the slides to the shared folder」指「上傳到 X」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-06"
     },
@@ -841,11 +745,7 @@ export default {
       "masked": "She ____.",
       "options": [
         "upload-mcq-06",
-        "upload-mcq-05",
-        "upload-mcq-07",
-        "upload-mcq-04",
-        "upload-mcq-08",
-        "upload-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploaded the photo to the website」指「上傳到 X」。",
       "sentenceIndex": 12,
@@ -854,12 +754,8 @@ export default {
         "uploaded the photo to the website"
       ],
       "optionReasons": {
-        "upload-mcq-06": "本句指「上傳到 X」。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。",
-        "upload-mcq-07": "「從 X 上傳」是「upload from X」的用法，與本句語境不同。",
-        "upload-mcq-04": "「上傳影片」是「upload a video」的用法，與本句語境不同。",
-        "upload-mcq-08": "「上傳到雲端」是「upload to the cloud」的用法，與本句語境不同。",
-        "upload-mcq-03": "「上傳照片」是「upload a photo」的用法，與本句語境不同。"
+        "upload-mcq-06": "本句的「uploaded the photo to the website」指「上傳到 X」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-06"
     },
@@ -871,11 +767,7 @@ export default {
       "masked": "You can ____.",
       "options": [
         "upload-mcq-07",
-        "upload-mcq-06",
-        "upload-mcq-08",
-        "upload-mcq-05",
-        "upload-mcq-09",
-        "upload-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload files from your computer」指「從 X 上傳」。",
       "sentenceIndex": 13,
@@ -884,12 +776,8 @@ export default {
         "upload files from your computer"
       ],
       "optionReasons": {
-        "upload-mcq-07": "本句指「從 X 上傳」。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。",
-        "upload-mcq-08": "「上傳到雲端」是「upload to the cloud」的用法，與本句語境不同。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。",
-        "upload-mcq-09": "「成功上傳」是「upload successfully」的用法，與本句語境不同。",
-        "upload-mcq-04": "「上傳影片」是「upload a video」的用法，與本句語境不同。"
+        "upload-mcq-07": "本句的「upload files from your computer」指「從 X 上傳」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-07"
     },
@@ -901,11 +789,7 @@ export default {
       "masked": "The app lets you ____.",
       "options": [
         "upload-mcq-07",
-        "upload-mcq-06",
-        "upload-mcq-08",
-        "upload-mcq-05",
-        "upload-mcq-09",
-        "upload-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload photos from your phone」指「從 X 上傳」。",
       "sentenceIndex": 14,
@@ -914,12 +798,8 @@ export default {
         "upload photos from your phone"
       ],
       "optionReasons": {
-        "upload-mcq-07": "本句指「從 X 上傳」。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。",
-        "upload-mcq-08": "「上傳到雲端」是「upload to the cloud」的用法，與本句語境不同。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。",
-        "upload-mcq-09": "「成功上傳」是「upload successfully」的用法，與本句語境不同。",
-        "upload-mcq-04": "「上傳影片」是「upload a video」的用法，與本句語境不同。"
+        "upload-mcq-07": "本句的「upload photos from your phone」指「從 X 上傳」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-07"
     },
@@ -931,11 +811,7 @@ export default {
       "masked": "All photos are automatically ____.",
       "options": [
         "upload-mcq-08",
-        "upload-mcq-07",
-        "upload-mcq-09",
-        "upload-mcq-06",
-        "upload-mcq-10",
-        "upload-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploaded to the cloud」指「上傳到雲端」。",
       "sentenceIndex": 15,
@@ -944,12 +820,8 @@ export default {
         "uploaded to the cloud"
       ],
       "optionReasons": {
-        "upload-mcq-08": "本句指「上傳到雲端」。",
-        "upload-mcq-07": "「從 X 上傳」是「upload from X」的用法，與本句語境不同。",
-        "upload-mcq-09": "「成功上傳」是「upload successfully」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。",
-        "upload-mcq-10": "「上傳失敗」是「upload failed」的用法，與本句語境不同。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。"
+        "upload-mcq-08": "本句的「uploaded to the cloud」指「上傳到雲端」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-08"
     },
@@ -961,11 +833,7 @@ export default {
       "masked": "I ____.",
       "options": [
         "upload-mcq-08",
-        "upload-mcq-07",
-        "upload-mcq-09",
-        "upload-mcq-06",
-        "upload-mcq-10",
-        "upload-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploaded the backup to the cloud」指「上傳到雲端」。",
       "sentenceIndex": 16,
@@ -974,12 +842,8 @@ export default {
         "uploaded the backup to the cloud"
       ],
       "optionReasons": {
-        "upload-mcq-08": "本句指「上傳到雲端」。",
-        "upload-mcq-07": "「從 X 上傳」是「upload from X」的用法，與本句語境不同。",
-        "upload-mcq-09": "「成功上傳」是「upload successfully」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。",
-        "upload-mcq-10": "「上傳失敗」是「upload failed」的用法，與本句語境不同。",
-        "upload-mcq-05": "「上傳文件」是「upload a document」的用法，與本句語境不同。"
+        "upload-mcq-08": "本句的「uploaded the backup to the cloud」指「上傳到雲端」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-08"
     },
@@ -991,11 +855,7 @@ export default {
       "masked": "The document ____.",
       "options": [
         "upload-mcq-09",
-        "upload-mcq-08",
-        "upload-mcq-10",
-        "upload-mcq-07",
-        "upload-mcq-11",
-        "upload-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploaded successfully」指「成功上傳」。",
       "sentenceIndex": 17,
@@ -1004,12 +864,8 @@ export default {
         "uploaded successfully"
       ],
       "optionReasons": {
-        "upload-mcq-09": "本句指「成功上傳」。",
-        "upload-mcq-08": "「上傳到雲端」是「upload to the cloud」的用法，與本句語境不同。",
-        "upload-mcq-10": "「上傳失敗」是「upload failed」的用法，與本句語境不同。",
-        "upload-mcq-07": "「從 X 上傳」是「upload from X」的用法，與本句語境不同。",
-        "upload-mcq-11": "「上傳」是「upload (noun: process)」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。"
+        "upload-mcq-09": "本句的「uploaded successfully」指「成功上傳」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-09"
     },
@@ -1021,11 +877,7 @@ export default {
       "masked": "Check whether all files were ____.",
       "options": [
         "upload-mcq-09",
-        "upload-mcq-08",
-        "upload-mcq-10",
-        "upload-mcq-07",
-        "upload-mcq-11",
-        "upload-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploaded successfully」指「成功上傳」。",
       "sentenceIndex": 18,
@@ -1034,12 +886,8 @@ export default {
         "uploaded successfully"
       ],
       "optionReasons": {
-        "upload-mcq-09": "本句指「成功上傳」。",
-        "upload-mcq-08": "「上傳到雲端」是「upload to the cloud」的用法，與本句語境不同。",
-        "upload-mcq-10": "「上傳失敗」是「upload failed」的用法，與本句語境不同。",
-        "upload-mcq-07": "「從 X 上傳」是「upload from X」的用法，與本句語境不同。",
-        "upload-mcq-11": "「上傳」是「upload (noun: process)」的用法，與本句語境不同。",
-        "upload-mcq-06": "「上傳到 X」是「upload to X」的用法，與本句語境不同。"
+        "upload-mcq-09": "本句的「uploaded successfully」指「成功上傳」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-09"
     },
@@ -1051,11 +899,7 @@ export default {
       "masked": "The ____ because the connection was unstable.",
       "options": [
         "upload-mcq-10",
-        "upload-mcq-09",
-        "upload-mcq-11",
-        "upload-mcq-08",
-        "upload-mcq-12",
-        "upload-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload failed」指「上傳失敗」。",
       "sentenceIndex": 19,
@@ -1064,12 +908,8 @@ export default {
         "upload failed"
       ],
       "optionReasons": {
-        "upload-mcq-10": "本句指「上傳失敗」。",
-        "upload-mcq-09": "「成功上傳」是「upload successfully」的用法，與本句語境不同。",
-        "upload-mcq-11": "「上傳」是「upload (noun: process)」的用法，與本句語境不同。",
-        "upload-mcq-08": "「上傳到雲端」是「upload to the cloud」的用法，與本句語境不同。",
-        "upload-mcq-12": "「上傳內容」是「upload (noun: content)」的用法，與本句語境不同。",
-        "upload-mcq-07": "「從 X 上傳」是「upload from X」的用法，與本句語境不同。"
+        "upload-mcq-10": "本句的「upload failed」指「上傳失敗」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-10"
     },
@@ -1081,11 +921,7 @@ export default {
       "masked": "Try again if the ____.",
       "options": [
         "upload-mcq-10",
-        "upload-mcq-09",
-        "upload-mcq-11",
-        "upload-mcq-08",
-        "upload-mcq-12",
-        "upload-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload fails」指「上傳失敗」。",
       "sentenceIndex": 20,
@@ -1094,12 +930,8 @@ export default {
         "upload fails"
       ],
       "optionReasons": {
-        "upload-mcq-10": "本句指「上傳失敗」。",
-        "upload-mcq-09": "「成功上傳」是「upload successfully」的用法，與本句語境不同。",
-        "upload-mcq-11": "「上傳」是「upload (noun: process)」的用法，與本句語境不同。",
-        "upload-mcq-08": "「上傳到雲端」是「upload to the cloud」的用法，與本句語境不同。",
-        "upload-mcq-12": "「上傳內容」是「upload (noun: content)」的用法，與本句語境不同。",
-        "upload-mcq-07": "「從 X 上傳」是「upload from X」的用法，與本句語境不同。"
+        "upload-mcq-10": "本句的「upload fails」指「上傳失敗」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-10"
     },
@@ -1111,11 +943,7 @@ export default {
       "masked": "The ____ took ten minutes.",
       "options": [
         "upload-mcq-22",
-        "upload-mcq-21",
-        "upload-mcq-20",
-        "upload-mcq-19",
-        "upload-mcq-18",
-        "upload-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload」指「把檔案傳到遠端系統的動作或過程」。",
       "sentenceIndex": 21,
@@ -1124,12 +952,8 @@ export default {
         "upload"
       ],
       "optionReasons": {
-        "upload-mcq-22": "本句指「把檔案傳到遠端系統的動作或過程」。",
-        "upload-mcq-21": "「正在上傳」是「uploading」的用法，與本句語境不同。",
-        "upload-mcq-20": "「已上傳的」是「uploaded」的用法，與本句語境不同。",
-        "upload-mcq-19": "「上傳工具」是「uploader (tool)」的用法，與本句語境不同。",
-        "upload-mcq-18": "「上傳者」是「uploader (person)」的用法，與本句語境不同。",
-        "upload-mcq-17": "「自動上傳」是「automatic upload」的用法，與本句語境不同。"
+        "upload-mcq-22": "本句的「upload」指「把檔案傳到遠端系統的動作或過程」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-22"
     },
@@ -1141,11 +965,7 @@ export default {
       "masked": "The ____ was interrupted.",
       "options": [
         "upload-mcq-22",
-        "upload-mcq-21",
-        "upload-mcq-20",
-        "upload-mcq-19",
-        "upload-mcq-18",
-        "upload-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload」指「把檔案傳到遠端系統的動作或過程」。",
       "sentenceIndex": 22,
@@ -1154,12 +974,8 @@ export default {
         "upload"
       ],
       "optionReasons": {
-        "upload-mcq-22": "本句指「把檔案傳到遠端系統的動作或過程」。",
-        "upload-mcq-21": "「正在上傳」是「uploading」的用法，與本句語境不同。",
-        "upload-mcq-20": "「已上傳的」是「uploaded」的用法，與本句語境不同。",
-        "upload-mcq-19": "「上傳工具」是「uploader (tool)」的用法，與本句語境不同。",
-        "upload-mcq-18": "「上傳者」是「uploader (person)」的用法，與本句語境不同。",
-        "upload-mcq-17": "「自動上傳」是「automatic upload」的用法，與本句語境不同。"
+        "upload-mcq-22": "本句的「upload」指「把檔案傳到遠端系統的動作或過程」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-22"
     },
@@ -1171,11 +987,7 @@ export default {
       "masked": "His latest ____ has already been viewed thousands of times.",
       "options": [
         "upload-mcq-22",
-        "upload-mcq-21",
-        "upload-mcq-20",
-        "upload-mcq-19",
-        "upload-mcq-18",
-        "upload-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload」指「把檔案傳到遠端系統的動作或過程」。",
       "sentenceIndex": 23,
@@ -1184,12 +996,8 @@ export default {
         "upload"
       ],
       "optionReasons": {
-        "upload-mcq-22": "本句指「把檔案傳到遠端系統的動作或過程」。",
-        "upload-mcq-21": "「正在上傳」是「uploading」的用法，與本句語境不同。",
-        "upload-mcq-20": "「已上傳的」是「uploaded」的用法，與本句語境不同。",
-        "upload-mcq-19": "「上傳工具」是「uploader (tool)」的用法，與本句語境不同。",
-        "upload-mcq-18": "「上傳者」是「uploader (person)」的用法，與本句語境不同。",
-        "upload-mcq-17": "「自動上傳」是「automatic upload」的用法，與本句語境不同。"
+        "upload-mcq-22": "本句的「upload」指「把檔案傳到遠端系統的動作或過程」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-22"
     },
@@ -1201,11 +1009,7 @@ export default {
       "masked": "The platform removed several illegal ____.",
       "options": [
         "upload-mcq-22",
-        "upload-mcq-21",
-        "upload-mcq-20",
-        "upload-mcq-19",
-        "upload-mcq-18",
-        "upload-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploads」指「把檔案傳到遠端系統的動作或過程」。",
       "sentenceIndex": 24,
@@ -1214,12 +1018,8 @@ export default {
         "uploads"
       ],
       "optionReasons": {
-        "upload-mcq-22": "本句指「把檔案傳到遠端系統的動作或過程」。",
-        "upload-mcq-21": "「正在上傳」是「uploading」的用法，與本句語境不同。",
-        "upload-mcq-20": "「已上傳的」是「uploaded」的用法，與本句語境不同。",
-        "upload-mcq-19": "「上傳工具」是「uploader (tool)」的用法，與本句語境不同。",
-        "upload-mcq-18": "「上傳者」是「uploader (person)」的用法，與本句語境不同。",
-        "upload-mcq-17": "「自動上傳」是「automatic upload」的用法，與本句語境不同。"
+        "upload-mcq-22": "本句的「uploads」指「把檔案傳到遠端系統的動作或過程」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-22"
     },
@@ -1231,11 +1031,7 @@ export default {
       "masked": "My ____ is much slower than my download speed.",
       "options": [
         "upload-mcq-13",
-        "upload-mcq-12",
-        "upload-mcq-14",
-        "upload-mcq-11",
-        "upload-mcq-15",
-        "upload-mcq-10"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload speed」指「上傳速度」。",
       "sentenceIndex": 25,
@@ -1244,12 +1040,8 @@ export default {
         "upload speed"
       ],
       "optionReasons": {
-        "upload-mcq-13": "本句指「上傳速度」。",
-        "upload-mcq-12": "「上傳內容」是「upload (noun: content)」的用法，與本句語境不同。",
-        "upload-mcq-14": "「上傳限制」是「upload limit」的用法，與本句語境不同。",
-        "upload-mcq-11": "「上傳」是「upload (noun: process)」的用法，與本句語境不同。",
-        "upload-mcq-15": "「上傳按鈕」是「upload button」的用法，與本句語境不同。",
-        "upload-mcq-10": "「上傳失敗」是「upload failed」的用法，與本句語境不同。"
+        "upload-mcq-13": "本句的「upload speed」指「上傳速度」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-13"
     },
@@ -1261,11 +1053,7 @@ export default {
       "masked": "Video calls need a stable ____.",
       "options": [
         "upload-mcq-13",
-        "upload-mcq-12",
-        "upload-mcq-14",
-        "upload-mcq-11",
-        "upload-mcq-15",
-        "upload-mcq-10"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload speed」指「上傳速度」。",
       "sentenceIndex": 26,
@@ -1274,12 +1062,8 @@ export default {
         "upload speed"
       ],
       "optionReasons": {
-        "upload-mcq-13": "本句指「上傳速度」。",
-        "upload-mcq-12": "「上傳內容」是「upload (noun: content)」的用法，與本句語境不同。",
-        "upload-mcq-14": "「上傳限制」是「upload limit」的用法，與本句語境不同。",
-        "upload-mcq-11": "「上傳」是「upload (noun: process)」的用法，與本句語境不同。",
-        "upload-mcq-15": "「上傳按鈕」是「upload button」的用法，與本句語境不同。",
-        "upload-mcq-10": "「上傳失敗」是「upload failed」的用法，與本句語境不同。"
+        "upload-mcq-13": "本句的「upload speed」指「上傳速度」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-13"
     },
@@ -1291,11 +1075,7 @@ export default {
       "masked": "The site has a 20 MB ____.",
       "options": [
         "upload-mcq-14",
-        "upload-mcq-13",
-        "upload-mcq-15",
-        "upload-mcq-12",
-        "upload-mcq-16",
-        "upload-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload limit」指「上傳限制」。",
       "sentenceIndex": 27,
@@ -1304,12 +1084,8 @@ export default {
         "upload limit"
       ],
       "optionReasons": {
-        "upload-mcq-14": "本句指「上傳限制」。",
-        "upload-mcq-13": "「上傳速度」是「upload speed」的用法，與本句語境不同。",
-        "upload-mcq-15": "「上傳按鈕」是「upload button」的用法，與本句語境不同。",
-        "upload-mcq-12": "「上傳內容」是「upload (noun: content)」的用法，與本句語境不同。",
-        "upload-mcq-16": "「批量上傳」是「bulk upload」的用法，與本句語境不同。",
-        "upload-mcq-11": "「上傳」是「upload (noun: process)」的用法，與本句語境不同。"
+        "upload-mcq-14": "本句的「upload limit」指「上傳限制」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-14"
     },
@@ -1321,11 +1097,7 @@ export default {
       "masked": "Your file exceeds the ____.",
       "options": [
         "upload-mcq-14",
-        "upload-mcq-13",
-        "upload-mcq-15",
-        "upload-mcq-12",
-        "upload-mcq-16",
-        "upload-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload limit」指「上傳限制」。",
       "sentenceIndex": 28,
@@ -1334,12 +1106,8 @@ export default {
         "upload limit"
       ],
       "optionReasons": {
-        "upload-mcq-14": "本句指「上傳限制」。",
-        "upload-mcq-13": "「上傳速度」是「upload speed」的用法，與本句語境不同。",
-        "upload-mcq-15": "「上傳按鈕」是「upload button」的用法，與本句語境不同。",
-        "upload-mcq-12": "「上傳內容」是「upload (noun: content)」的用法，與本句語境不同。",
-        "upload-mcq-16": "「批量上傳」是「bulk upload」的用法，與本句語境不同。",
-        "upload-mcq-11": "「上傳」是「upload (noun: process)」的用法，與本句語境不同。"
+        "upload-mcq-14": "本句的「upload limit」指「上傳限制」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-14"
     },
@@ -1351,11 +1119,7 @@ export default {
       "masked": "Click the ____ to add your file.",
       "options": [
         "upload-mcq-15",
-        "upload-mcq-14",
-        "upload-mcq-16",
-        "upload-mcq-13",
-        "upload-mcq-17",
-        "upload-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload button」指「上傳按鈕」。",
       "sentenceIndex": 29,
@@ -1364,12 +1128,8 @@ export default {
         "upload button"
       ],
       "optionReasons": {
-        "upload-mcq-15": "本句指「上傳按鈕」。",
-        "upload-mcq-14": "「上傳限制」是「upload limit」的用法，與本句語境不同。",
-        "upload-mcq-16": "「批量上傳」是「bulk upload」的用法，與本句語境不同。",
-        "upload-mcq-13": "「上傳速度」是「upload speed」的用法，與本句語境不同。",
-        "upload-mcq-17": "「自動上傳」是「automatic upload」的用法，與本句語境不同。",
-        "upload-mcq-12": "「上傳內容」是「upload (noun: content)」的用法，與本句語境不同。"
+        "upload-mcq-15": "本句的「upload button」指「上傳按鈕」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-15"
     },
@@ -1381,11 +1141,7 @@ export default {
       "masked": "I couldn't find the ____.",
       "options": [
         "upload-mcq-15",
-        "upload-mcq-14",
-        "upload-mcq-16",
-        "upload-mcq-13",
-        "upload-mcq-17",
-        "upload-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upload button」指「上傳按鈕」。",
       "sentenceIndex": 30,
@@ -1394,12 +1150,8 @@ export default {
         "upload button"
       ],
       "optionReasons": {
-        "upload-mcq-15": "本句指「上傳按鈕」。",
-        "upload-mcq-14": "「上傳限制」是「upload limit」的用法，與本句語境不同。",
-        "upload-mcq-16": "「批量上傳」是「bulk upload」的用法，與本句語境不同。",
-        "upload-mcq-13": "「上傳速度」是「upload speed」的用法，與本句語境不同。",
-        "upload-mcq-17": "「自動上傳」是「automatic upload」的用法，與本句語境不同。",
-        "upload-mcq-12": "「上傳內容」是「upload (noun: content)」的用法，與本句語境不同。"
+        "upload-mcq-15": "本句的「upload button」指「上傳按鈕」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-15"
     },
@@ -1411,11 +1163,7 @@ export default {
       "masked": "The system supports ____.",
       "options": [
         "upload-mcq-16",
-        "upload-mcq-15",
-        "upload-mcq-17",
-        "upload-mcq-14",
-        "upload-mcq-18",
-        "upload-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「bulk upload」指「批量上傳」。",
       "sentenceIndex": 31,
@@ -1424,12 +1172,8 @@ export default {
         "bulk upload"
       ],
       "optionReasons": {
-        "upload-mcq-16": "本句指「批量上傳」。",
-        "upload-mcq-15": "「上傳按鈕」是「upload button」的用法，與本句語境不同。",
-        "upload-mcq-17": "「自動上傳」是「automatic upload」的用法，與本句語境不同。",
-        "upload-mcq-14": "「上傳限制」是「upload limit」的用法，與本句語境不同。",
-        "upload-mcq-18": "「上傳者」是「uploader (person)」的用法，與本句語境不同。",
-        "upload-mcq-13": "「上傳速度」是「upload speed」的用法，與本句語境不同。"
+        "upload-mcq-16": "本句的「bulk upload」指「批量上傳」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-16"
     },
@@ -1441,11 +1185,7 @@ export default {
       "masked": "We used ____ to add hundreds of files.",
       "options": [
         "upload-mcq-16",
-        "upload-mcq-15",
-        "upload-mcq-17",
-        "upload-mcq-14",
-        "upload-mcq-18",
-        "upload-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「bulk upload」指「批量上傳」。",
       "sentenceIndex": 32,
@@ -1454,12 +1194,8 @@ export default {
         "bulk upload"
       ],
       "optionReasons": {
-        "upload-mcq-16": "本句指「批量上傳」。",
-        "upload-mcq-15": "「上傳按鈕」是「upload button」的用法，與本句語境不同。",
-        "upload-mcq-17": "「自動上傳」是「automatic upload」的用法，與本句語境不同。",
-        "upload-mcq-14": "「上傳限制」是「upload limit」的用法，與本句語境不同。",
-        "upload-mcq-18": "「上傳者」是「uploader (person)」的用法，與本句語境不同。",
-        "upload-mcq-13": "「上傳速度」是「upload speed」的用法，與本句語境不同。"
+        "upload-mcq-16": "本句的「bulk upload」指「批量上傳」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-16"
     },
@@ -1471,11 +1207,7 @@ export default {
       "masked": "Turn on ____ for your photos.",
       "options": [
         "upload-mcq-17",
-        "upload-mcq-16",
-        "upload-mcq-18",
-        "upload-mcq-15",
-        "upload-mcq-19",
-        "upload-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「automatic upload」指「自動上傳」。",
       "sentenceIndex": 33,
@@ -1484,12 +1216,8 @@ export default {
         "automatic upload"
       ],
       "optionReasons": {
-        "upload-mcq-17": "本句指「自動上傳」。",
-        "upload-mcq-16": "「批量上傳」是「bulk upload」的用法，與本句語境不同。",
-        "upload-mcq-18": "「上傳者」是「uploader (person)」的用法，與本句語境不同。",
-        "upload-mcq-15": "「上傳按鈕」是「upload button」的用法，與本句語境不同。",
-        "upload-mcq-19": "「上傳工具」是「uploader (tool)」的用法，與本句語境不同。",
-        "upload-mcq-14": "「上傳限制」是「upload limit」的用法，與本句語境不同。"
+        "upload-mcq-17": "本句的「automatic upload」指「自動上傳」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-17"
     },
@@ -1501,11 +1229,7 @@ export default {
       "masked": "The app supports ____ in the background.",
       "options": [
         "upload-mcq-17",
-        "upload-mcq-16",
-        "upload-mcq-18",
-        "upload-mcq-15",
-        "upload-mcq-19",
-        "upload-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「automatic uploads」指「自動上傳」。",
       "sentenceIndex": 34,
@@ -1514,12 +1238,8 @@ export default {
         "automatic uploads"
       ],
       "optionReasons": {
-        "upload-mcq-17": "本句指「自動上傳」。",
-        "upload-mcq-16": "「批量上傳」是「bulk upload」的用法，與本句語境不同。",
-        "upload-mcq-18": "「上傳者」是「uploader (person)」的用法，與本句語境不同。",
-        "upload-mcq-15": "「上傳按鈕」是「upload button」的用法，與本句語境不同。",
-        "upload-mcq-19": "「上傳工具」是「uploader (tool)」的用法，與本句語境不同。",
-        "upload-mcq-14": "「上傳限制」是「upload limit」的用法，與本句語境不同。"
+        "upload-mcq-17": "本句的「automatic uploads」指「自動上傳」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-17"
     },
@@ -1531,11 +1251,7 @@ export default {
       "masked": "The ____ deleted the video.",
       "options": [
         "upload-mcq-18",
-        "upload-mcq-17",
-        "upload-mcq-19",
-        "upload-mcq-16",
-        "upload-mcq-20",
-        "upload-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploader」指「上傳者」。",
       "sentenceIndex": 35,
@@ -1544,12 +1260,8 @@ export default {
         "uploader"
       ],
       "optionReasons": {
-        "upload-mcq-18": "本句指「上傳者」。",
-        "upload-mcq-17": "「自動上傳」是「automatic upload」的用法，與本句語境不同。",
-        "upload-mcq-19": "「上傳工具」是「uploader (tool)」的用法，與本句語境不同。",
-        "upload-mcq-16": "「批量上傳」是「bulk upload」的用法，與本句語境不同。",
-        "upload-mcq-20": "「已上傳的」是「uploaded」的用法，與本句語境不同。",
-        "upload-mcq-15": "「上傳按鈕」是「upload button」的用法，與本句語境不同。"
+        "upload-mcq-18": "本句的「uploader」指「上傳者」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-18"
     },
@@ -1561,11 +1273,7 @@ export default {
       "masked": "The platform contacted the original ____.",
       "options": [
         "upload-mcq-18",
-        "upload-mcq-17",
-        "upload-mcq-19",
-        "upload-mcq-16",
-        "upload-mcq-20",
-        "upload-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploader」指「上傳者」。",
       "sentenceIndex": 36,
@@ -1574,12 +1282,8 @@ export default {
         "uploader"
       ],
       "optionReasons": {
-        "upload-mcq-18": "本句指「上傳者」。",
-        "upload-mcq-17": "「自動上傳」是「automatic upload」的用法，與本句語境不同。",
-        "upload-mcq-19": "「上傳工具」是「uploader (tool)」的用法，與本句語境不同。",
-        "upload-mcq-16": "「批量上傳」是「bulk upload」的用法，與本句語境不同。",
-        "upload-mcq-20": "「已上傳的」是「uploaded」的用法，與本句語境不同。",
-        "upload-mcq-15": "「上傳按鈕」是「upload button」的用法，與本句語境不同。"
+        "upload-mcq-18": "本句的「uploader」指「上傳者」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-18"
     },
@@ -1591,11 +1295,7 @@ export default {
       "masked": "The website includes a simple file ____.",
       "options": [
         "upload-mcq-19",
-        "upload-mcq-18",
-        "upload-mcq-20",
-        "upload-mcq-17",
-        "upload-mcq-21",
-        "upload-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploader」指「上傳工具」。",
       "sentenceIndex": 37,
@@ -1604,12 +1304,8 @@ export default {
         "uploader"
       ],
       "optionReasons": {
-        "upload-mcq-19": "本句指「上傳工具」。",
-        "upload-mcq-18": "「上傳者」是「uploader (person)」的用法，與本句語境不同。",
-        "upload-mcq-20": "「已上傳的」是「uploaded」的用法，與本句語境不同。",
-        "upload-mcq-17": "「自動上傳」是「automatic upload」的用法，與本句語境不同。",
-        "upload-mcq-21": "「正在上傳」是「uploading」的用法，與本句語境不同。",
-        "upload-mcq-16": "「批量上傳」是「bulk upload」的用法，與本句語境不同。"
+        "upload-mcq-19": "本句的「uploader」指「上傳工具」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-19"
     },
@@ -1621,11 +1317,7 @@ export default {
       "masked": "The new ____ supports drag-and-drop.",
       "options": [
         "upload-mcq-19",
-        "upload-mcq-18",
-        "upload-mcq-20",
-        "upload-mcq-17",
-        "upload-mcq-21",
-        "upload-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploader」指「上傳工具」。",
       "sentenceIndex": 38,
@@ -1634,12 +1326,8 @@ export default {
         "uploader"
       ],
       "optionReasons": {
-        "upload-mcq-19": "本句指「上傳工具」。",
-        "upload-mcq-18": "「上傳者」是「uploader (person)」的用法，與本句語境不同。",
-        "upload-mcq-20": "「已上傳的」是「uploaded」的用法，與本句語境不同。",
-        "upload-mcq-17": "「自動上傳」是「automatic upload」的用法，與本句語境不同。",
-        "upload-mcq-21": "「正在上傳」是「uploading」的用法，與本句語境不同。",
-        "upload-mcq-16": "「批量上傳」是「bulk upload」的用法，與本句語境不同。"
+        "upload-mcq-19": "本句的「uploader」指「上傳工具」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-19"
     },
@@ -1651,11 +1339,7 @@ export default {
       "masked": "Check the ____.",
       "options": [
         "upload-mcq-20",
-        "upload-mcq-19",
-        "upload-mcq-21",
-        "upload-mcq-18",
-        "upload-mcq-22",
-        "upload-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploaded files」指「已上傳的」。",
       "sentenceIndex": 39,
@@ -1664,12 +1348,8 @@ export default {
         "uploaded files"
       ],
       "optionReasons": {
-        "upload-mcq-20": "本句指「已上傳的」。",
-        "upload-mcq-19": "「上傳工具」是「uploader (tool)」的用法，與本句語境不同。",
-        "upload-mcq-21": "「正在上傳」是「uploading」的用法，與本句語境不同。",
-        "upload-mcq-18": "「上傳者」是「uploader (person)」的用法，與本句語境不同。",
-        "upload-mcq-22": "「把檔案傳到遠端系統的動作或過程」是「11. upload（noun：上傳動作） — 上傳」的用法，與本句語境不同。",
-        "upload-mcq-17": "「自動上傳」是「automatic upload」的用法，與本句語境不同。"
+        "upload-mcq-20": "本句的「uploaded files」指「已上傳的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-20"
     },
@@ -1681,11 +1361,7 @@ export default {
       "masked": "The ____ was incomplete.",
       "options": [
         "upload-mcq-20",
-        "upload-mcq-19",
-        "upload-mcq-21",
-        "upload-mcq-18",
-        "upload-mcq-22",
-        "upload-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uploaded document」指「已上傳的」。",
       "sentenceIndex": 40,
@@ -1694,12 +1370,8 @@ export default {
         "uploaded document"
       ],
       "optionReasons": {
-        "upload-mcq-20": "本句指「已上傳的」。",
-        "upload-mcq-19": "「上傳工具」是「uploader (tool)」的用法，與本句語境不同。",
-        "upload-mcq-21": "「正在上傳」是「uploading」的用法，與本句語境不同。",
-        "upload-mcq-18": "「上傳者」是「uploader (person)」的用法，與本句語境不同。",
-        "upload-mcq-22": "「把檔案傳到遠端系統的動作或過程」是「11. upload（noun：上傳動作） — 上傳」的用法，與本句語境不同。",
-        "upload-mcq-17": "「自動上傳」是「automatic upload」的用法，與本句語境不同。"
+        "upload-mcq-20": "本句的「uploaded document」指「已上傳的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upload-mcq-20"
     }
@@ -1711,5 +1383,16 @@ export default {
     "sha256": "e2542820706d3bb6dd9f9b4c6ca3dd3b76be7e4105ebcb07d1b30c83510df2e9",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    },
+    {
+      "id": "contrast-energy",
+      "title": "消耗身體的體力或精力"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

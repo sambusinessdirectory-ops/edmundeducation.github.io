@@ -1887,11 +1887,8 @@ export default {
       "masked": "Departments such as marketing, ____ and operations may have different priorities.",
       "options": [
         "finance-mcq-01",
-        "finance-mcq-02",
-        "finance-mcq-03",
-        "finance-mcq-04",
-        "finance-mcq-05",
-        "finance-mcq-06"
+        "finance-mcq-21",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「財務 money-management」。",
       "sentenceIndex": 0,
@@ -1900,12 +1897,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-01": "本句指「財務 money-management」。",
-        "finance-mcq-02": "「財務部 organizational unit」與本句語境不同。",
-        "finance-mcq-03": "「財務團隊 finance staff」與本句語境不同。",
-        "finance-mcq-04": "「財務職能 organizational function」與本句語境不同。",
-        "finance-mcq-05": "「從事金融／財務工作 profession」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。"
+        "finance-mcq-01": "本句的「finance」指「財務 money-management」。",
+        "finance-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-01"
     },
@@ -1917,11 +1911,8 @@ export default {
       "masked": "She works in ____.",
       "options": [
         "finance-mcq-01",
-        "finance-mcq-02",
-        "finance-mcq-03",
-        "finance-mcq-04",
-        "finance-mcq-05",
-        "finance-mcq-06"
+        "finance-mcq-31",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「財務 money-management」。",
       "sentenceIndex": 1,
@@ -1930,12 +1921,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-01": "本句指「財務 money-management」。",
-        "finance-mcq-02": "「財務部 organizational unit」與本句語境不同。",
-        "finance-mcq-03": "「財務團隊 finance staff」與本句語境不同。",
-        "finance-mcq-04": "「財務職能 organizational function」與本句語境不同。",
-        "finance-mcq-05": "「從事金融／財務工作 profession」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。"
+        "finance-mcq-01": "本句的「finance」指「財務 money-management」。",
+        "finance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-01"
     },
@@ -1947,11 +1935,8 @@ export default {
       "masked": "____ needs to approve the budget before the project begins.",
       "options": [
         "finance-mcq-01",
-        "finance-mcq-02",
-        "finance-mcq-03",
-        "finance-mcq-04",
-        "finance-mcq-05",
-        "finance-mcq-06"
+        "finance-mcq-33",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「Finance」指「財務 money-management」。",
       "sentenceIndex": 2,
@@ -1960,12 +1945,9 @@ export default {
         "Finance"
       ],
       "optionReasons": {
-        "finance-mcq-01": "本句指「財務 money-management」。",
-        "finance-mcq-02": "「財務部 organizational unit」與本句語境不同。",
-        "finance-mcq-03": "「財務團隊 finance staff」與本句語境不同。",
-        "finance-mcq-04": "「財務職能 organizational function」與本句語境不同。",
-        "finance-mcq-05": "「從事金融／財務工作 profession」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。"
+        "finance-mcq-01": "本句的「Finance」指「財務 money-management」。",
+        "finance-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-01"
     },
@@ -1977,11 +1959,8 @@ export default {
       "masked": "The ____ department approved the payment.",
       "options": [
         "finance-mcq-02",
-        "finance-mcq-01",
-        "finance-mcq-03",
-        "finance-mcq-04",
-        "finance-mcq-05",
-        "finance-mcq-06"
+        "finance-mcq-31",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「財務部 organizational unit」。",
       "sentenceIndex": 3,
@@ -1990,12 +1969,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-02": "本句指「財務部 organizational unit」。",
-        "finance-mcq-01": "「財務 money-management」與本句語境不同。",
-        "finance-mcq-03": "「財務團隊 finance staff」與本句語境不同。",
-        "finance-mcq-04": "「財務職能 organizational function」與本句語境不同。",
-        "finance-mcq-05": "「從事金融／財務工作 profession」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。"
+        "finance-mcq-02": "本句的「finance」指「財務部 organizational unit」。",
+        "finance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-02"
     },
@@ -2007,11 +1983,8 @@ export default {
       "masked": "Send the invoice to the ____ department.",
       "options": [
         "finance-mcq-02",
-        "finance-mcq-01",
-        "finance-mcq-03",
-        "finance-mcq-04",
-        "finance-mcq-05",
-        "finance-mcq-06"
+        "finance-mcq-34",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「財務部 organizational unit」。",
       "sentenceIndex": 4,
@@ -2020,12 +1993,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-02": "本句指「財務部 organizational unit」。",
-        "finance-mcq-01": "「財務 money-management」與本句語境不同。",
-        "finance-mcq-03": "「財務團隊 finance staff」與本句語境不同。",
-        "finance-mcq-04": "「財務職能 organizational function」與本句語境不同。",
-        "finance-mcq-05": "「從事金融／財務工作 profession」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。"
+        "finance-mcq-02": "本句的「finance」指「財務部 organizational unit」。",
+        "finance-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-02"
     },
@@ -2037,11 +2007,8 @@ export default {
       "masked": "The ____ team reviewed the projected costs.",
       "options": [
         "finance-mcq-03",
-        "finance-mcq-02",
-        "finance-mcq-04",
-        "finance-mcq-01",
-        "finance-mcq-05",
-        "finance-mcq-06"
+        "finance-mcq-31",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「財務團隊 finance staff」。",
       "sentenceIndex": 5,
@@ -2050,12 +2017,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-03": "本句指「財務團隊 finance staff」。",
-        "finance-mcq-02": "「財務部 organizational unit」與本句語境不同。",
-        "finance-mcq-04": "「財務職能 organizational function」與本句語境不同。",
-        "finance-mcq-01": "「財務 money-management」與本句語境不同。",
-        "finance-mcq-05": "「從事金融／財務工作 profession」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。"
+        "finance-mcq-03": "本句的「finance」指「財務團隊 finance staff」。",
+        "finance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-03"
     },
@@ -2067,11 +2031,8 @@ export default {
       "masked": "Marketing worked closely with the ____ team.",
       "options": [
         "finance-mcq-03",
-        "finance-mcq-02",
-        "finance-mcq-04",
-        "finance-mcq-01",
-        "finance-mcq-05",
-        "finance-mcq-06"
+        "finance-mcq-32",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「財務團隊 finance staff」。",
       "sentenceIndex": 6,
@@ -2080,12 +2041,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-03": "本句指「財務團隊 finance staff」。",
-        "finance-mcq-02": "「財務部 organizational unit」與本句語境不同。",
-        "finance-mcq-04": "「財務職能 organizational function」與本句語境不同。",
-        "finance-mcq-01": "「財務 money-management」與本句語境不同。",
-        "finance-mcq-05": "「從事金融／財務工作 profession」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。"
+        "finance-mcq-03": "本句的「finance」指「財務團隊 finance staff」。",
+        "finance-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-03"
     },
@@ -2097,11 +2055,8 @@ export default {
       "masked": "Technology has transformed the ____ function.",
       "options": [
         "finance-mcq-04",
-        "finance-mcq-03",
-        "finance-mcq-05",
-        "finance-mcq-02",
-        "finance-mcq-06",
-        "finance-mcq-01"
+        "finance-mcq-08",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「財務職能 organizational function」。",
       "sentenceIndex": 7,
@@ -2110,12 +2065,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-04": "本句指「財務職能 organizational function」。",
-        "finance-mcq-03": "「財務團隊 finance staff」與本句語境不同。",
-        "finance-mcq-05": "「從事金融／財務工作 profession」與本句語境不同。",
-        "finance-mcq-02": "「財務部 organizational unit」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。",
-        "finance-mcq-01": "「財務 money-management」與本句語境不同。"
+        "finance-mcq-04": "本句的「finance」指「財務職能 organizational function」。",
+        "finance-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-04"
     },
@@ -2127,11 +2079,8 @@ export default {
       "masked": "The ____ function supports planning and decision-making.",
       "options": [
         "finance-mcq-04",
-        "finance-mcq-03",
-        "finance-mcq-05",
-        "finance-mcq-02",
-        "finance-mcq-06",
-        "finance-mcq-01"
+        "finance-mcq-40",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「財務職能 organizational function」。",
       "sentenceIndex": 8,
@@ -2140,12 +2089,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-04": "本句指「財務職能 organizational function」。",
-        "finance-mcq-03": "「財務團隊 finance staff」與本句語境不同。",
-        "finance-mcq-05": "「從事金融／財務工作 profession」與本句語境不同。",
-        "finance-mcq-02": "「財務部 organizational unit」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。",
-        "finance-mcq-01": "「財務 money-management」與本句語境不同。"
+        "finance-mcq-04": "本句的「finance」指「財務職能 organizational function」。",
+        "finance-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-04"
     },
@@ -2157,11 +2103,7 @@ export default {
       "masked": "He has worked in ____ for ten years.",
       "options": [
         "finance-mcq-05",
-        "finance-mcq-04",
-        "finance-mcq-06",
-        "finance-mcq-03",
-        "finance-mcq-07",
-        "finance-mcq-02"
+        "finance-mcq-23"
       ],
       "explanation": "本句的「finance」指「從事金融／財務工作 profession」。",
       "sentenceIndex": 9,
@@ -2170,12 +2112,8 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-05": "本句指「從事金融／財務工作 profession」。",
-        "finance-mcq-04": "「財務職能 organizational function」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。",
-        "finance-mcq-03": "「財務團隊 finance staff」與本句語境不同。",
-        "finance-mcq-07": "「取得融資 acquire funds」與本句語境不同。",
-        "finance-mcq-02": "「財務部 organizational unit」與本句語境不同。"
+        "finance-mcq-05": "本句的「finance」指「從事金融／財務工作 profession」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-05"
     },
@@ -2187,11 +2125,7 @@ export default {
       "masked": "Many graduates hope to build a career in ____.",
       "options": [
         "finance-mcq-05",
-        "finance-mcq-04",
-        "finance-mcq-06",
-        "finance-mcq-03",
-        "finance-mcq-07",
-        "finance-mcq-02"
+        "finance-mcq-23"
       ],
       "explanation": "本句的「finance」指「從事金融／財務工作 profession」。",
       "sentenceIndex": 10,
@@ -2200,12 +2134,8 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-05": "本句指「從事金融／財務工作 profession」。",
-        "finance-mcq-04": "「財務職能 organizational function」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。",
-        "finance-mcq-03": "「財務團隊 finance staff」與本句語境不同。",
-        "finance-mcq-07": "「取得融資 acquire funds」與本句語境不同。",
-        "finance-mcq-02": "「財務部 organizational unit」與本句語境不同。"
+        "finance-mcq-05": "本句的「finance」指「從事金融／財務工作 profession」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-05"
     },
@@ -2217,10 +2147,6 @@ export default {
       "masked": "The company obtained ____ from a bank.",
       "options": [
         "finance-mcq-07",
-        "finance-mcq-06",
-        "finance-mcq-08",
-        "finance-mcq-05",
-        "finance-mcq-09",
         "finance-mcq-04"
       ],
       "explanation": "本句的「finance」指「取得融資 acquire funds」。",
@@ -2230,12 +2156,8 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-07": "本句指「取得融資 acquire funds」。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。",
-        "finance-mcq-08": "「成功取得融資 funding obtained」與本句語境不同。",
-        "finance-mcq-05": "「從事金融／財務工作 profession」與本句語境不同。",
-        "finance-mcq-09": "「籌集資金 funding」與本句語境不同。",
-        "finance-mcq-04": "「財務職能 organizational function」與本句語境不同。"
+        "finance-mcq-07": "本句的「finance」指「取得融資 acquire funds」。",
+        "finance-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-07"
     },
@@ -2247,11 +2169,7 @@ export default {
       "masked": "New businesses may find it difficult to obtain ____.",
       "options": [
         "finance-mcq-07",
-        "finance-mcq-06",
-        "finance-mcq-08",
-        "finance-mcq-05",
-        "finance-mcq-09",
-        "finance-mcq-04"
+        "finance-mcq-66"
       ],
       "explanation": "本句的「finance」指「取得融資 acquire funds」。",
       "sentenceIndex": 14,
@@ -2260,12 +2178,8 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-07": "本句指「取得融資 acquire funds」。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。",
-        "finance-mcq-08": "「成功取得融資 funding obtained」與本句語境不同。",
-        "finance-mcq-05": "「從事金融／財務工作 profession」與本句語境不同。",
-        "finance-mcq-09": "「籌集資金 funding」與本句語境不同。",
-        "finance-mcq-04": "「財務職能 organizational function」與本句語境不同。"
+        "finance-mcq-07": "本句的「finance」指「取得融資 acquire funds」。",
+        "finance-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-07"
     },
@@ -2277,11 +2191,8 @@ export default {
       "masked": "The developer secured ____ for the project.",
       "options": [
         "finance-mcq-08",
-        "finance-mcq-07",
-        "finance-mcq-09",
-        "finance-mcq-06",
-        "finance-mcq-10",
-        "finance-mcq-05"
+        "finance-mcq-01",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「成功取得融資 funding obtained」。",
       "sentenceIndex": 15,
@@ -2290,12 +2201,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-08": "本句指「成功取得融資 funding obtained」。",
-        "finance-mcq-07": "「取得融資 acquire funds」與本句語境不同。",
-        "finance-mcq-09": "「籌集資金 funding」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。",
-        "finance-mcq-10": "「資金來源 funding source」與本句語境不同。",
-        "finance-mcq-05": "「從事金融／財務工作 profession」與本句語境不同。"
+        "finance-mcq-08": "本句的「finance」指「成功取得融資 funding obtained」。",
+        "finance-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-08"
     },
@@ -2307,11 +2215,8 @@ export default {
       "masked": "The expansion was delayed because the company had not secured enough ____.",
       "options": [
         "finance-mcq-08",
-        "finance-mcq-07",
-        "finance-mcq-09",
-        "finance-mcq-06",
-        "finance-mcq-10",
-        "finance-mcq-05"
+        "finance-mcq-43",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「成功取得融資 funding obtained」。",
       "sentenceIndex": 16,
@@ -2320,12 +2225,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-08": "本句指「成功取得融資 funding obtained」。",
-        "finance-mcq-07": "「取得融資 acquire funds」與本句語境不同。",
-        "finance-mcq-09": "「籌集資金 funding」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。",
-        "finance-mcq-10": "「資金來源 funding source」與本句語境不同。",
-        "finance-mcq-05": "「從事金融／財務工作 profession」與本句語境不同。"
+        "finance-mcq-08": "本句的「finance」指「成功取得融資 funding obtained」。",
+        "finance-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-08"
     },
@@ -2337,11 +2239,8 @@ export default {
       "masked": "The company needs to raise ____ for expansion.",
       "options": [
         "finance-mcq-09",
-        "finance-mcq-08",
-        "finance-mcq-10",
-        "finance-mcq-07",
-        "finance-mcq-11",
-        "finance-mcq-06"
+        "finance-mcq-17",
+        "finance-mcq-31"
       ],
       "explanation": "本句的「finance」指「籌集資金 funding」。",
       "sentenceIndex": 17,
@@ -2350,12 +2249,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-09": "本句指「籌集資金 funding」。",
-        "finance-mcq-08": "「成功取得融資 funding obtained」與本句語境不同。",
-        "finance-mcq-10": "「資金來源 funding source」與本句語境不同。",
-        "finance-mcq-07": "「取得融資 acquire funds」與本句語境不同。",
-        "finance-mcq-11": "「財務狀況 overall money situation」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。"
+        "finance-mcq-09": "本句的「finance」指「籌集資金 funding」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-09"
     },
@@ -2367,11 +2263,8 @@ export default {
       "masked": "Businesses can raise ____ through debt or equity.",
       "options": [
         "finance-mcq-09",
-        "finance-mcq-08",
-        "finance-mcq-10",
-        "finance-mcq-07",
-        "finance-mcq-11",
-        "finance-mcq-06"
+        "finance-mcq-17",
+        "finance-mcq-08"
       ],
       "explanation": "本句的「finance」指「籌集資金 funding」。",
       "sentenceIndex": 18,
@@ -2380,12 +2273,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-09": "本句指「籌集資金 funding」。",
-        "finance-mcq-08": "「成功取得融資 funding obtained」與本句語境不同。",
-        "finance-mcq-10": "「資金來源 funding source」與本句語境不同。",
-        "finance-mcq-07": "「取得融資 acquire funds」與本句語境不同。",
-        "finance-mcq-11": "「財務狀況 overall money situation」與本句語境不同。",
-        "finance-mcq-06": "「資金；融資 money available」與本句語境不同。"
+        "finance-mcq-09": "本句的「finance」指「籌集資金 funding」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-09"
     },
@@ -2397,11 +2287,9 @@ export default {
       "masked": "Bank loans are one possible source of ____.",
       "options": [
         "finance-mcq-10",
-        "finance-mcq-09",
-        "finance-mcq-11",
-        "finance-mcq-08",
-        "finance-mcq-12",
-        "finance-mcq-07"
+        "finance-mcq-17",
+        "finance-mcq-24",
+        "finance-mcq-33"
       ],
       "explanation": "本句的「finance」指「資金來源 funding source」。",
       "sentenceIndex": 19,
@@ -2410,12 +2298,10 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-10": "本句指「資金來源 funding source」。",
-        "finance-mcq-09": "「籌集資金 funding」與本句語境不同。",
-        "finance-mcq-11": "「財務狀況 overall money situation」與本句語境不同。",
-        "finance-mcq-08": "「成功取得融資 funding obtained」與本句語境不同。",
-        "finance-mcq-12": "「個人財務 individual finances」與本句語境不同。",
-        "finance-mcq-07": "「取得融資 acquire funds」與本句語境不同。"
+        "finance-mcq-10": "本句的「finance」指「資金來源 funding source」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-10"
     },
@@ -2427,11 +2313,9 @@ export default {
       "masked": "The business uses several sources of ____.",
       "options": [
         "finance-mcq-10",
-        "finance-mcq-09",
-        "finance-mcq-11",
-        "finance-mcq-08",
-        "finance-mcq-12",
-        "finance-mcq-07"
+        "finance-mcq-17",
+        "finance-mcq-26",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「資金來源 funding source」。",
       "sentenceIndex": 20,
@@ -2440,12 +2324,10 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-10": "本句指「資金來源 funding source」。",
-        "finance-mcq-09": "「籌集資金 funding」與本句語境不同。",
-        "finance-mcq-11": "「財務狀況 overall money situation」與本句語境不同。",
-        "finance-mcq-08": "「成功取得融資 funding obtained」與本句語境不同。",
-        "finance-mcq-12": "「個人財務 individual finances」與本句語境不同。",
-        "finance-mcq-07": "「取得融資 acquire funds」與本句語境不同。"
+        "finance-mcq-10": "本句的「finance」指「資金來源 funding source」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-10"
     },
@@ -2457,11 +2339,8 @@ export default {
       "masked": "The course teaches students how to manage their personal ____.",
       "options": [
         "finance-mcq-12",
-        "finance-mcq-11",
-        "finance-mcq-13",
-        "finance-mcq-10",
-        "finance-mcq-14",
-        "finance-mcq-09"
+        "finance-mcq-21",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finances」指「個人財務 individual finances」。",
       "sentenceIndex": 23,
@@ -2470,12 +2349,9 @@ export default {
         "finances"
       ],
       "optionReasons": {
-        "finance-mcq-12": "本句指「個人財務 individual finances」。",
-        "finance-mcq-11": "「財務狀況 overall money situation」與本句語境不同。",
-        "finance-mcq-13": "「公司財務狀況 organization」與本句語境不同。",
-        "finance-mcq-10": "「資金來源 funding source」與本句語境不同。",
-        "finance-mcq-14": "「公共／政府財政 state finances」與本句語境不同。",
-        "finance-mcq-09": "「籌集資金 funding」與本句語境不同。"
+        "finance-mcq-12": "本句的「finances」指「個人財務 individual finances」。",
+        "finance-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-12"
     },
@@ -2487,11 +2363,8 @@ export default {
       "masked": "Unexpected expenses can put pressure on personal ____.",
       "options": [
         "finance-mcq-12",
-        "finance-mcq-11",
-        "finance-mcq-13",
-        "finance-mcq-10",
-        "finance-mcq-14",
-        "finance-mcq-09"
+        "finance-mcq-21",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finances」指「個人財務 individual finances」。",
       "sentenceIndex": 24,
@@ -2500,12 +2373,9 @@ export default {
         "finances"
       ],
       "optionReasons": {
-        "finance-mcq-12": "本句指「個人財務 individual finances」。",
-        "finance-mcq-11": "「財務狀況 overall money situation」與本句語境不同。",
-        "finance-mcq-13": "「公司財務狀況 organization」與本句語境不同。",
-        "finance-mcq-10": "「資金來源 funding source」與本句語境不同。",
-        "finance-mcq-14": "「公共／政府財政 state finances」與本句語境不同。",
-        "finance-mcq-09": "「籌集資金 funding」與本句語境不同。"
+        "finance-mcq-12": "本句的「finances」指「個人財務 individual finances」。",
+        "finance-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-12"
     },
@@ -2517,11 +2387,8 @@ export default {
       "masked": "Investors examined the company's ____.",
       "options": [
         "finance-mcq-13",
-        "finance-mcq-12",
-        "finance-mcq-14",
-        "finance-mcq-11",
-        "finance-mcq-15",
-        "finance-mcq-10"
+        "finance-mcq-30",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finances」指「公司財務狀況 organization」。",
       "sentenceIndex": 25,
@@ -2530,12 +2397,9 @@ export default {
         "finances"
       ],
       "optionReasons": {
-        "finance-mcq-13": "本句指「公司財務狀況 organization」。",
-        "finance-mcq-12": "「個人財務 individual finances」與本句語境不同。",
-        "finance-mcq-14": "「公共／政府財政 state finances」與本句語境不同。",
-        "finance-mcq-11": "「財務狀況 overall money situation」與本句語境不同。",
-        "finance-mcq-15": "「金融學／財務學 academic field」與本句語境不同。",
-        "finance-mcq-10": "「資金來源 funding source」與本句語境不同。"
+        "finance-mcq-13": "本句的「finances」指「公司財務狀況 organization」。",
+        "finance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-13"
     },
@@ -2547,11 +2411,7 @@ export default {
       "masked": "The crisis severely damaged the firm's ____.",
       "options": [
         "finance-mcq-13",
-        "finance-mcq-12",
-        "finance-mcq-14",
-        "finance-mcq-11",
-        "finance-mcq-15",
-        "finance-mcq-10"
+        "finance-mcq-28"
       ],
       "explanation": "本句的「finances」指「公司財務狀況 organization」。",
       "sentenceIndex": 26,
@@ -2560,12 +2420,8 @@ export default {
         "finances"
       ],
       "optionReasons": {
-        "finance-mcq-13": "本句指「公司財務狀況 organization」。",
-        "finance-mcq-12": "「個人財務 individual finances」與本句語境不同。",
-        "finance-mcq-14": "「公共／政府財政 state finances」與本句語境不同。",
-        "finance-mcq-11": "「財務狀況 overall money situation」與本句語境不同。",
-        "finance-mcq-15": "「金融學／財務學 academic field」與本句語境不同。",
-        "finance-mcq-10": "「資金來源 funding source」與本句語境不同。"
+        "finance-mcq-13": "本句的「finances」指「公司財務狀況 organization」。",
+        "finance-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-13"
     },
@@ -2577,11 +2433,8 @@ export default {
       "masked": "Higher spending placed pressure on public ____.",
       "options": [
         "finance-mcq-14",
-        "finance-mcq-13",
-        "finance-mcq-15",
-        "finance-mcq-12",
-        "finance-mcq-16",
-        "finance-mcq-11"
+        "finance-mcq-31",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finances」指「公共／政府財政 state finances」。",
       "sentenceIndex": 27,
@@ -2590,12 +2443,9 @@ export default {
         "finances"
       ],
       "optionReasons": {
-        "finance-mcq-14": "本句指「公共／政府財政 state finances」。",
-        "finance-mcq-13": "「公司財務狀況 organization」與本句語境不同。",
-        "finance-mcq-15": "「金融學／財務學 academic field」與本句語境不同。",
-        "finance-mcq-12": "「個人財務 individual finances」與本句語境不同。",
-        "finance-mcq-16": "「公司財務／企業融資 firm capital decisions」與本句語境不同。",
-        "finance-mcq-11": "「財務狀況 overall money situation」與本句語境不同。"
+        "finance-mcq-14": "本句的「finances」指「公共／政府財政 state finances」。",
+        "finance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-14"
     },
@@ -2607,11 +2457,7 @@ export default {
       "masked": "The report examines the condition of the country's public ____.",
       "options": [
         "finance-mcq-14",
-        "finance-mcq-13",
-        "finance-mcq-15",
-        "finance-mcq-12",
-        "finance-mcq-16",
-        "finance-mcq-11"
+        "finance-mcq-07"
       ],
       "explanation": "本句的「finances」指「公共／政府財政 state finances」。",
       "sentenceIndex": 28,
@@ -2620,12 +2466,8 @@ export default {
         "finances"
       ],
       "optionReasons": {
-        "finance-mcq-14": "本句指「公共／政府財政 state finances」。",
-        "finance-mcq-13": "「公司財務狀況 organization」與本句語境不同。",
-        "finance-mcq-15": "「金融學／財務學 academic field」與本句語境不同。",
-        "finance-mcq-12": "「個人財務 individual finances」與本句語境不同。",
-        "finance-mcq-16": "「公司財務／企業融資 firm capital decisions」與本句語境不同。",
-        "finance-mcq-11": "「財務狀況 overall money situation」與本句語境不同。"
+        "finance-mcq-14": "本句的「finances」指「公共／政府財政 state finances」。",
+        "finance-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-14"
     },
@@ -2637,11 +2479,7 @@ export default {
       "masked": "She works in corporate ____.",
       "options": [
         "finance-mcq-16",
-        "finance-mcq-15",
-        "finance-mcq-17",
-        "finance-mcq-14",
-        "finance-mcq-18",
-        "finance-mcq-13"
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「公司財務／企業融資 firm capital decisions」。",
       "sentenceIndex": 35,
@@ -2650,12 +2488,8 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-16": "本句指「公司財務／企業融資 firm capital decisions」。",
-        "finance-mcq-15": "「金融學／財務學 academic field」與本句語境不同。",
-        "finance-mcq-17": "「個人理財 household money」與本句語境不同。",
-        "finance-mcq-14": "「公共／政府財政 state finances」與本句語境不同。",
-        "finance-mcq-18": "「公共財政 government」與本句語境不同。",
-        "finance-mcq-13": "「公司財務狀況 organization」與本句語境不同。"
+        "finance-mcq-16": "本句的「finance」指「公司財務／企業融資 firm capital decisions」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-16"
     },
@@ -2667,11 +2501,7 @@ export default {
       "masked": "Corporate ____ examines how firms raise and use capital.",
       "options": [
         "finance-mcq-16",
-        "finance-mcq-15",
-        "finance-mcq-17",
-        "finance-mcq-14",
-        "finance-mcq-18",
-        "finance-mcq-13"
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「公司財務／企業融資 firm capital decisions」。",
       "sentenceIndex": 36,
@@ -2680,12 +2510,8 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-16": "本句指「公司財務／企業融資 firm capital decisions」。",
-        "finance-mcq-15": "「金融學／財務學 academic field」與本句語境不同。",
-        "finance-mcq-17": "「個人理財 household money」與本句語境不同。",
-        "finance-mcq-14": "「公共／政府財政 state finances」與本句語境不同。",
-        "finance-mcq-18": "「公共財政 government」與本句語境不同。",
-        "finance-mcq-13": "「公司財務狀況 organization」與本句語境不同。"
+        "finance-mcq-16": "本句的「finance」指「公司財務／企業融資 firm capital decisions」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-16"
     },
@@ -2697,11 +2523,7 @@ export default {
       "masked": "Whether to borrow or issue shares is a corporate-____ decision.",
       "options": [
         "finance-mcq-16",
-        "finance-mcq-15",
-        "finance-mcq-17",
-        "finance-mcq-14",
-        "finance-mcq-18",
-        "finance-mcq-13"
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「公司財務／企業融資 firm capital decisions」。",
       "sentenceIndex": 37,
@@ -2710,12 +2532,8 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-16": "本句指「公司財務／企業融資 firm capital decisions」。",
-        "finance-mcq-15": "「金融學／財務學 academic field」與本句語境不同。",
-        "finance-mcq-17": "「個人理財 household money」與本句語境不同。",
-        "finance-mcq-14": "「公共／政府財政 state finances」與本句語境不同。",
-        "finance-mcq-18": "「公共財政 government」與本句語境不同。",
-        "finance-mcq-13": "「公司財務狀況 organization」與本句語境不同。"
+        "finance-mcq-16": "本句的「finance」指「公司財務／企業融資 firm capital decisions」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-16"
     },
@@ -2727,11 +2545,7 @@ export default {
       "masked": "Capital investment is central to corporate ____.",
       "options": [
         "finance-mcq-16",
-        "finance-mcq-15",
-        "finance-mcq-17",
-        "finance-mcq-14",
-        "finance-mcq-18",
-        "finance-mcq-13"
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「公司財務／企業融資 firm capital decisions」。",
       "sentenceIndex": 38,
@@ -2740,12 +2554,8 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-16": "本句指「公司財務／企業融資 firm capital decisions」。",
-        "finance-mcq-15": "「金融學／財務學 academic field」與本句語境不同。",
-        "finance-mcq-17": "「個人理財 household money」與本句語境不同。",
-        "finance-mcq-14": "「公共／政府財政 state finances」與本句語境不同。",
-        "finance-mcq-18": "「公共財政 government」與本句語境不同。",
-        "finance-mcq-13": "「公司財務狀況 organization」與本句語境不同。"
+        "finance-mcq-16": "本句的「finance」指「公司財務／企業融資 firm capital decisions」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-16"
     },
@@ -2757,11 +2567,9 @@ export default {
       "masked": "The book explains the basics of personal ____.",
       "options": [
         "finance-mcq-17",
-        "finance-mcq-16",
-        "finance-mcq-18",
-        "finance-mcq-15",
-        "finance-mcq-19",
-        "finance-mcq-14"
+        "finance-mcq-30",
+        "finance-mcq-77",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「個人理財 household money」。",
       "sentenceIndex": 39,
@@ -2770,12 +2578,10 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-17": "本句指「個人理財 household money」。",
-        "finance-mcq-16": "「公司財務／企業融資 firm capital decisions」與本句語境不同。",
-        "finance-mcq-18": "「公共財政 government」與本句語境不同。",
-        "finance-mcq-15": "「金融學／財務學 academic field」與本句語境不同。",
-        "finance-mcq-19": "「國際金融 cross-border」與本句語境不同。",
-        "finance-mcq-14": "「公共／政府財政 state finances」與本句語境不同。"
+        "finance-mcq-17": "本句的「finance」指「個人理財 household money」。",
+        "finance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-17"
     },
@@ -2787,11 +2593,9 @@ export default {
       "masked": "Saving and budgeting are important parts of personal ____.",
       "options": [
         "finance-mcq-17",
-        "finance-mcq-16",
-        "finance-mcq-18",
-        "finance-mcq-15",
-        "finance-mcq-19",
-        "finance-mcq-14"
+        "finance-mcq-35",
+        "finance-mcq-64",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「個人理財 household money」。",
       "sentenceIndex": 40,
@@ -2800,12 +2604,10 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-17": "本句指「個人理財 household money」。",
-        "finance-mcq-16": "「公司財務／企業融資 firm capital decisions」與本句語境不同。",
-        "finance-mcq-18": "「公共財政 government」與本句語境不同。",
-        "finance-mcq-15": "「金融學／財務學 academic field」與本句語境不同。",
-        "finance-mcq-19": "「國際金融 cross-border」與本句語境不同。",
-        "finance-mcq-14": "「公共／政府財政 state finances」與本句語境不同。"
+        "finance-mcq-17": "本句的「finance」指「個人理財 household money」。",
+        "finance-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-17"
     },
@@ -2817,11 +2619,9 @@ export default {
       "masked": "Young adults often need reliable personal-____ advice.",
       "options": [
         "finance-mcq-17",
-        "finance-mcq-16",
-        "finance-mcq-18",
-        "finance-mcq-15",
-        "finance-mcq-19",
-        "finance-mcq-14"
+        "finance-mcq-08",
+        "finance-mcq-82",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「個人理財 household money」。",
       "sentenceIndex": 41,
@@ -2830,12 +2630,10 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-17": "本句指「個人理財 household money」。",
-        "finance-mcq-16": "「公司財務／企業融資 firm capital decisions」與本句語境不同。",
-        "finance-mcq-18": "「公共財政 government」與本句語境不同。",
-        "finance-mcq-15": "「金融學／財務學 academic field」與本句語境不同。",
-        "finance-mcq-19": "「國際金融 cross-border」與本句語境不同。",
-        "finance-mcq-14": "「公共／政府財政 state finances」與本句語境不同。"
+        "finance-mcq-17": "本句的「finance」指「個人理財 household money」。",
+        "finance-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-17"
     },
@@ -2847,11 +2645,9 @@ export default {
       "masked": "The website provides basic personal-____ guidance.",
       "options": [
         "finance-mcq-17",
-        "finance-mcq-16",
-        "finance-mcq-18",
-        "finance-mcq-15",
-        "finance-mcq-19",
-        "finance-mcq-14"
+        "finance-mcq-24",
+        "finance-mcq-27",
+        "finance-mcq-64"
       ],
       "explanation": "本句的「finance」指「個人理財 household money」。",
       "sentenceIndex": 42,
@@ -2860,12 +2656,10 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-17": "本句指「個人理財 household money」。",
-        "finance-mcq-16": "「公司財務／企業融資 firm capital decisions」與本句語境不同。",
-        "finance-mcq-18": "「公共財政 government」與本句語境不同。",
-        "finance-mcq-15": "「金融學／財務學 academic field」與本句語境不同。",
-        "finance-mcq-19": "「國際金融 cross-border」與本句語境不同。",
-        "finance-mcq-14": "「公共／政府財政 state finances」與本句語境不同。"
+        "finance-mcq-17": "本句的「finance」指「個人理財 household money」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-17"
     },
@@ -2877,11 +2671,8 @@ export default {
       "masked": "Public ____ studies government revenue and spending.",
       "options": [
         "finance-mcq-18",
-        "finance-mcq-17",
-        "finance-mcq-19",
-        "finance-mcq-16",
-        "finance-mcq-20",
-        "finance-mcq-15"
+        "finance-mcq-33",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「公共財政 government」。",
       "sentenceIndex": 43,
@@ -2890,12 +2681,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-18": "本句指「公共財政 government」。",
-        "finance-mcq-17": "「個人理財 household money」與本句語境不同。",
-        "finance-mcq-19": "「國際金融 cross-border」與本句語境不同。",
-        "finance-mcq-16": "「公司財務／企業融資 firm capital decisions」與本句語境不同。",
-        "finance-mcq-20": "「融資；提供資金 fund」與本句語境不同。",
-        "finance-mcq-15": "「金融學／財務學 academic field」與本句語境不同。"
+        "finance-mcq-18": "本句的「finance」指「公共財政 government」。",
+        "finance-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-18"
     },
@@ -2907,11 +2695,8 @@ export default {
       "masked": "Taxation is a central topic in public ____.",
       "options": [
         "finance-mcq-18",
-        "finance-mcq-17",
-        "finance-mcq-19",
-        "finance-mcq-16",
-        "finance-mcq-20",
-        "finance-mcq-15"
+        "finance-mcq-24",
+        "finance-mcq-32"
       ],
       "explanation": "本句的「finance」指「公共財政 government」。",
       "sentenceIndex": 44,
@@ -2920,12 +2705,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-18": "本句指「公共財政 government」。",
-        "finance-mcq-17": "「個人理財 household money」與本句語境不同。",
-        "finance-mcq-19": "「國際金融 cross-border」與本句語境不同。",
-        "finance-mcq-16": "「公司財務／企業融資 firm capital decisions」與本句語境不同。",
-        "finance-mcq-20": "「融資；提供資金 fund」與本句語境不同。",
-        "finance-mcq-15": "「金融學／財務學 academic field」與本句語境不同。"
+        "finance-mcq-18": "本句的「finance」指「公共財政 government」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-18"
     },
@@ -2937,11 +2719,9 @@ export default {
       "masked": "She specialises in international ____.",
       "options": [
         "finance-mcq-19",
-        "finance-mcq-18",
-        "finance-mcq-20",
         "finance-mcq-17",
-        "finance-mcq-21",
-        "finance-mcq-16"
+        "finance-mcq-24",
+        "finance-mcq-32"
       ],
       "explanation": "本句的「finance」指「國際金融 cross-border」。",
       "sentenceIndex": 48,
@@ -2950,12 +2730,10 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-19": "本句指「國際金融 cross-border」。",
-        "finance-mcq-18": "「公共財政 government」與本句語境不同。",
-        "finance-mcq-20": "「融資；提供資金 fund」與本句語境不同。",
-        "finance-mcq-17": "「個人理財 household money」與本句語境不同。",
-        "finance-mcq-21": "「為項目融資 funding」與本句語境不同。",
-        "finance-mcq-16": "「公司財務／企業融資 firm capital decisions」與本句語境不同。"
+        "finance-mcq-19": "本句的「finance」指「國際金融 cross-border」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-19"
     },
@@ -2967,11 +2745,8 @@ export default {
       "masked": "Exchange rates are important in international ____.",
       "options": [
         "finance-mcq-19",
-        "finance-mcq-18",
-        "finance-mcq-20",
-        "finance-mcq-17",
-        "finance-mcq-21",
-        "finance-mcq-16"
+        "finance-mcq-23",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「finance」指「國際金融 cross-border」。",
       "sentenceIndex": 49,
@@ -2980,12 +2755,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-19": "本句指「國際金融 cross-border」。",
-        "finance-mcq-18": "「公共財政 government」與本句語境不同。",
-        "finance-mcq-20": "「融資；提供資金 fund」與本句語境不同。",
-        "finance-mcq-17": "「個人理財 household money」與本句語境不同。",
-        "finance-mcq-21": "「為項目融資 funding」與本句語境不同。",
-        "finance-mcq-16": "「公司財務／企業融資 firm capital decisions」與本句語境不同。"
+        "finance-mcq-19": "本句的「finance」指「國際金融 cross-border」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-19"
     },
@@ -2997,11 +2769,8 @@ export default {
       "masked": "Investors helped ____ the project.",
       "options": [
         "finance-mcq-21",
-        "finance-mcq-20",
-        "finance-mcq-22",
-        "finance-mcq-19",
-        "finance-mcq-23",
-        "finance-mcq-18"
+        "finance-mcq-79",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「為項目融資 funding」。",
       "sentenceIndex": 54,
@@ -3010,12 +2779,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-21": "本句指「為項目融資 funding」。",
-        "finance-mcq-20": "「融資；提供資金 fund」與本句語境不同。",
-        "finance-mcq-22": "「為購買提供貸款 consumer funding」與本句語境不同。",
-        "finance-mcq-19": "「國際金融 cross-border」與本句語境不同。",
-        "finance-mcq-23": "「由……出資 funding source」與本句語境不同。",
-        "finance-mcq-18": "「公共財政 government」與本句語境不同。"
+        "finance-mcq-21": "本句的「finance」指「為項目融資 funding」。",
+        "finance-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-21"
     },
@@ -3027,11 +2793,8 @@ export default {
       "masked": "The project was ____ partly by bank loans.",
       "options": [
         "finance-mcq-21",
-        "finance-mcq-20",
-        "finance-mcq-22",
-        "finance-mcq-19",
-        "finance-mcq-23",
-        "finance-mcq-18"
+        "finance-mcq-49",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financed」指「為項目融資 funding」。",
       "sentenceIndex": 55,
@@ -3040,12 +2803,9 @@ export default {
         "financed"
       ],
       "optionReasons": {
-        "finance-mcq-21": "本句指「為項目融資 funding」。",
-        "finance-mcq-20": "「融資；提供資金 fund」與本句語境不同。",
-        "finance-mcq-22": "「為購買提供貸款 consumer funding」與本句語境不同。",
-        "finance-mcq-19": "「國際金融 cross-border」與本句語境不同。",
-        "finance-mcq-23": "「由……出資 funding source」與本句語境不同。",
-        "finance-mcq-18": "「公共財政 government」與本句語境不同。"
+        "finance-mcq-21": "本句的「financed」指「為項目融資 funding」。",
+        "finance-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-21"
     },
@@ -3057,11 +2817,9 @@ export default {
       "masked": "We ____ the car through the dealer.",
       "options": [
         "finance-mcq-22",
-        "finance-mcq-21",
-        "finance-mcq-23",
-        "finance-mcq-20",
-        "finance-mcq-24",
-        "finance-mcq-19"
+        "finance-mcq-31",
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financed」指「為購買提供貸款 consumer funding」。",
       "sentenceIndex": 56,
@@ -3070,12 +2828,10 @@ export default {
         "financed"
       ],
       "optionReasons": {
-        "finance-mcq-22": "本句指「為購買提供貸款 consumer funding」。",
-        "finance-mcq-21": "「為項目融資 funding」與本句語境不同。",
-        "finance-mcq-23": "「由……出資 funding source」與本句語境不同。",
-        "finance-mcq-20": "「融資；提供資金 fund」與本句語境不同。",
-        "finance-mcq-24": "「自資；自行籌資 own money」與本句語境不同。",
-        "finance-mcq-19": "「國際金融 cross-border」與本句語境不同。"
+        "finance-mcq-22": "本句的「financed」指「為購買提供貸款 consumer funding」。",
+        "finance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-22"
     },
@@ -3087,11 +2843,9 @@ export default {
       "masked": "The bank can ____ up to 80 percent of the purchase price.",
       "options": [
         "finance-mcq-22",
-        "finance-mcq-21",
-        "finance-mcq-23",
-        "finance-mcq-20",
+        "finance-mcq-30",
         "finance-mcq-24",
-        "finance-mcq-19"
+        "finance-mcq-17"
       ],
       "explanation": "本句的「finance」指「為購買提供貸款 consumer funding」。",
       "sentenceIndex": 57,
@@ -3100,12 +2854,10 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-22": "本句指「為購買提供貸款 consumer funding」。",
-        "finance-mcq-21": "「為項目融資 funding」與本句語境不同。",
-        "finance-mcq-23": "「由……出資 funding source」與本句語境不同。",
-        "finance-mcq-20": "「融資；提供資金 fund」與本句語境不同。",
-        "finance-mcq-24": "「自資；自行籌資 own money」與本句語境不同。",
-        "finance-mcq-19": "「國際金融 cross-border」與本句語境不同。"
+        "finance-mcq-22": "本句的「finance」指「為購買提供貸款 consumer funding」。",
+        "finance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-22"
     },
@@ -3117,11 +2869,7 @@ export default {
       "masked": "The project is ____ by private investors.",
       "options": [
         "finance-mcq-23",
-        "finance-mcq-22",
-        "finance-mcq-24",
-        "finance-mcq-21",
-        "finance-mcq-25",
-        "finance-mcq-20"
+        "finance-mcq-78"
       ],
       "explanation": "本句的「financed」指「由……出資 funding source」。",
       "sentenceIndex": 60,
@@ -3130,12 +2878,8 @@ export default {
         "financed"
       ],
       "optionReasons": {
-        "finance-mcq-23": "本句指「由……出資 funding source」。",
-        "finance-mcq-22": "「為購買提供貸款 consumer funding」與本句語境不同。",
-        "finance-mcq-24": "「自資；自行籌資 own money」與本句語境不同。",
-        "finance-mcq-21": "「為項目融資 funding」與本句語境不同。",
-        "finance-mcq-25": "「融資；資金安排 funding process」與本句語境不同。",
-        "finance-mcq-20": "「融資；提供資金 fund」與本句語境不同。"
+        "finance-mcq-23": "本句的「financed」指「由……出資 funding source」。",
+        "finance-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-23"
     },
@@ -3147,11 +2891,7 @@ export default {
       "masked": "The programme was ____ through public funds.",
       "options": [
         "finance-mcq-23",
-        "finance-mcq-22",
-        "finance-mcq-24",
-        "finance-mcq-21",
-        "finance-mcq-25",
-        "finance-mcq-20"
+        "finance-mcq-47"
       ],
       "explanation": "本句的「financed」指「由……出資 funding source」。",
       "sentenceIndex": 61,
@@ -3160,12 +2900,8 @@ export default {
         "financed"
       ],
       "optionReasons": {
-        "finance-mcq-23": "本句指「由……出資 funding source」。",
-        "finance-mcq-22": "「為購買提供貸款 consumer funding」與本句語境不同。",
-        "finance-mcq-24": "「自資；自行籌資 own money」與本句語境不同。",
-        "finance-mcq-21": "「為項目融資 funding」與本句語境不同。",
-        "finance-mcq-25": "「融資；資金安排 funding process」與本句語境不同。",
-        "finance-mcq-20": "「融資；提供資金 fund」與本句語境不同。"
+        "finance-mcq-23": "本句的「financed」指「由……出資 funding source」。",
+        "finance-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-23"
     },
@@ -3177,11 +2913,8 @@ export default {
       "masked": "The company self-____ its early growth.",
       "options": [
         "finance-mcq-24",
-        "finance-mcq-23",
-        "finance-mcq-25",
-        "finance-mcq-22",
-        "finance-mcq-26",
-        "finance-mcq-21"
+        "finance-mcq-80",
+        "finance-mcq-31"
       ],
       "explanation": "本句的「financed」指「自資；自行籌資 own money」。",
       "sentenceIndex": 62,
@@ -3190,12 +2923,9 @@ export default {
         "financed"
       ],
       "optionReasons": {
-        "finance-mcq-24": "本句指「自資；自行籌資 own money」。",
-        "finance-mcq-23": "「由……出資 funding source」與本句語境不同。",
-        "finance-mcq-25": "「融資；資金安排 funding process」與本句語境不同。",
-        "finance-mcq-22": "「為購買提供貸款 consumer funding」與本句語境不同。",
-        "finance-mcq-26": "「債務融資 borrowing」與本句語境不同。",
-        "finance-mcq-21": "「為項目融資 funding」與本句語境不同。"
+        "finance-mcq-24": "本句的「financed」指「自資；自行籌資 own money」。",
+        "finance-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-24"
     },
@@ -3207,11 +2937,8 @@ export default {
       "masked": "She decided to self-____ the course.",
       "options": [
         "finance-mcq-24",
-        "finance-mcq-23",
-        "finance-mcq-25",
-        "finance-mcq-22",
-        "finance-mcq-26",
-        "finance-mcq-21"
+        "finance-mcq-12",
+        "finance-mcq-29"
       ],
       "explanation": "本句的「finance」指「自資；自行籌資 own money」。",
       "sentenceIndex": 63,
@@ -3220,12 +2947,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-24": "本句指「自資；自行籌資 own money」。",
-        "finance-mcq-23": "「由……出資 funding source」與本句語境不同。",
-        "finance-mcq-25": "「融資；資金安排 funding process」與本句語境不同。",
-        "finance-mcq-22": "「為購買提供貸款 consumer funding」與本句語境不同。",
-        "finance-mcq-26": "「債務融資 borrowing」與本句語境不同。",
-        "finance-mcq-21": "「為項目融資 funding」與本句語境不同。"
+        "finance-mcq-24": "本句的「finance」指「自資；自行籌資 own money」。",
+        "finance-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-24"
     },
@@ -3237,11 +2961,8 @@ export default {
       "masked": "The company needs additional ____.",
       "options": [
         "finance-mcq-25",
-        "finance-mcq-24",
-        "finance-mcq-26",
-        "finance-mcq-23",
-        "finance-mcq-27",
-        "finance-mcq-22"
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financing」指「融資；資金安排 funding process」。",
       "sentenceIndex": 64,
@@ -3250,12 +2971,9 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-25": "本句指「融資；資金安排 funding process」。",
-        "finance-mcq-24": "「自資；自行籌資 own money」與本句語境不同。",
-        "finance-mcq-26": "「債務融資 borrowing」與本句語境不同。",
-        "finance-mcq-23": "「由……出資 funding source」與本句語境不同。",
-        "finance-mcq-27": "「股權融資 ownership capital」與本句語境不同。",
-        "finance-mcq-22": "「為購買提供貸款 consumer funding」與本句語境不同。"
+        "finance-mcq-25": "本句的「financing」指「融資；資金安排 funding process」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-25"
     },
@@ -3267,11 +2985,8 @@ export default {
       "masked": "The deal depends on obtaining suitable ____.",
       "options": [
         "finance-mcq-25",
-        "finance-mcq-24",
-        "finance-mcq-26",
-        "finance-mcq-23",
-        "finance-mcq-27",
-        "finance-mcq-22"
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financing」指「融資；資金安排 funding process」。",
       "sentenceIndex": 65,
@@ -3280,12 +2995,9 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-25": "本句指「融資；資金安排 funding process」。",
-        "finance-mcq-24": "「自資；自行籌資 own money」與本句語境不同。",
-        "finance-mcq-26": "「債務融資 borrowing」與本句語境不同。",
-        "finance-mcq-23": "「由……出資 funding source」與本句語境不同。",
-        "finance-mcq-27": "「股權融資 ownership capital」與本句語境不同。",
-        "finance-mcq-22": "「為購買提供貸款 consumer funding」與本句語境不同。"
+        "finance-mcq-25": "本句的「financing」指「融資；資金安排 funding process」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-25"
     },
@@ -3297,11 +3009,8 @@ export default {
       "masked": "The company used debt ____ to fund expansion.",
       "options": [
         "finance-mcq-26",
-        "finance-mcq-25",
-        "finance-mcq-27",
-        "finance-mcq-24",
-        "finance-mcq-28",
-        "finance-mcq-23"
+        "finance-mcq-18",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financing」指「債務融資 borrowing」。",
       "sentenceIndex": 66,
@@ -3310,12 +3019,9 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-26": "本句指「債務融資 borrowing」。",
-        "finance-mcq-25": "「融資；資金安排 funding process」與本句語境不同。",
-        "finance-mcq-27": "「股權融資 ownership capital」與本句語境不同。",
-        "finance-mcq-24": "「自資；自行籌資 own money」與本句語境不同。",
-        "finance-mcq-28": "「銀行融資 bank funding」與本句語境不同。",
-        "finance-mcq-23": "「由……出資 funding source」與本句語境不同。"
+        "finance-mcq-26": "本句的「financing」指「債務融資 borrowing」。",
+        "finance-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-26"
     },
@@ -3327,11 +3033,9 @@ export default {
       "masked": "Bank loans are a common form of debt ____.",
       "options": [
         "finance-mcq-26",
-        "finance-mcq-25",
-        "finance-mcq-27",
-        "finance-mcq-24",
-        "finance-mcq-28",
-        "finance-mcq-23"
+        "finance-mcq-76",
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financing」指「債務融資 borrowing」。",
       "sentenceIndex": 67,
@@ -3340,12 +3044,10 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-26": "本句指「債務融資 borrowing」。",
-        "finance-mcq-25": "「融資；資金安排 funding process」與本句語境不同。",
-        "finance-mcq-27": "「股權融資 ownership capital」與本句語境不同。",
-        "finance-mcq-24": "「自資；自行籌資 own money」與本句語境不同。",
-        "finance-mcq-28": "「銀行融資 bank funding」與本句語境不同。",
-        "finance-mcq-23": "「由……出資 funding source」與本句語境不同。"
+        "finance-mcq-26": "本句的「financing」指「債務融資 borrowing」。",
+        "finance-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-26"
     },
@@ -3357,10 +3059,7 @@ export default {
       "masked": "The start-up raised money through equity ____.",
       "options": [
         "finance-mcq-27",
-        "finance-mcq-26",
-        "finance-mcq-28",
-        "finance-mcq-25",
-        "finance-mcq-29",
+        "finance-mcq-66",
         "finance-mcq-24"
       ],
       "explanation": "本句的「financing」指「股權融資 ownership capital」。",
@@ -3370,12 +3069,9 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-27": "本句指「股權融資 ownership capital」。",
-        "finance-mcq-26": "「債務融資 borrowing」與本句語境不同。",
-        "finance-mcq-28": "「銀行融資 bank funding」與本句語境不同。",
-        "finance-mcq-25": "「融資；資金安排 funding process」與本句語境不同。",
-        "finance-mcq-29": "「外部融資 outside capital」與本句語境不同。",
-        "finance-mcq-24": "「自資；自行籌資 own money」與本句語境不同。"
+        "finance-mcq-27": "本句的「financing」指「股權融資 ownership capital」。",
+        "finance-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-27"
     },
@@ -3387,10 +3083,7 @@ export default {
       "masked": "Equity ____ involves giving investors an ownership interest.",
       "options": [
         "finance-mcq-27",
-        "finance-mcq-26",
-        "finance-mcq-28",
-        "finance-mcq-25",
-        "finance-mcq-29",
+        "finance-mcq-14",
         "finance-mcq-24"
       ],
       "explanation": "本句的「financing」指「股權融資 ownership capital」。",
@@ -3400,12 +3093,9 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-27": "本句指「股權融資 ownership capital」。",
-        "finance-mcq-26": "「債務融資 borrowing」與本句語境不同。",
-        "finance-mcq-28": "「銀行融資 bank funding」與本句語境不同。",
-        "finance-mcq-25": "「融資；資金安排 funding process」與本句語境不同。",
-        "finance-mcq-29": "「外部融資 outside capital」與本句語境不同。",
-        "finance-mcq-24": "「自資；自行籌資 own money」與本句語境不同。"
+        "finance-mcq-27": "本句的「financing」指「股權融資 ownership capital」。",
+        "finance-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-27"
     },
@@ -3417,11 +3107,7 @@ export default {
       "masked": "The business relies heavily on bank ____.",
       "options": [
         "finance-mcq-28",
-        "finance-mcq-27",
-        "finance-mcq-29",
-        "finance-mcq-26",
-        "finance-mcq-30",
-        "finance-mcq-25"
+        "finance-mcq-79"
       ],
       "explanation": "本句的「financing」指「銀行融資 bank funding」。",
       "sentenceIndex": 70,
@@ -3430,12 +3116,8 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-28": "本句指「銀行融資 bank funding」。",
-        "finance-mcq-27": "「股權融資 ownership capital」與本句語境不同。",
-        "finance-mcq-29": "「外部融資 outside capital」與本句語境不同。",
-        "finance-mcq-26": "「債務融資 borrowing」與本句語境不同。",
-        "finance-mcq-30": "「內部融資 internal funds」與本句語境不同。",
-        "finance-mcq-25": "「融資；資金安排 funding process」與本句語境不同。"
+        "finance-mcq-28": "本句的「financing」指「銀行融資 bank funding」。",
+        "finance-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-28"
     },
@@ -3447,11 +3129,7 @@ export default {
       "masked": "Bank ____ became more expensive.",
       "options": [
         "finance-mcq-28",
-        "finance-mcq-27",
-        "finance-mcq-29",
-        "finance-mcq-26",
-        "finance-mcq-30",
-        "finance-mcq-25"
+        "finance-mcq-47"
       ],
       "explanation": "本句的「financing」指「銀行融資 bank funding」。",
       "sentenceIndex": 71,
@@ -3460,12 +3138,8 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-28": "本句指「銀行融資 bank funding」。",
-        "finance-mcq-27": "「股權融資 ownership capital」與本句語境不同。",
-        "finance-mcq-29": "「外部融資 outside capital」與本句語境不同。",
-        "finance-mcq-26": "「債務融資 borrowing」與本句語境不同。",
-        "finance-mcq-30": "「內部融資 internal funds」與本句語境不同。",
-        "finance-mcq-25": "「融資；資金安排 funding process」與本句語境不同。"
+        "finance-mcq-28": "本句的「financing」指「銀行融資 bank funding」。",
+        "finance-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-28"
     },
@@ -3477,11 +3151,8 @@ export default {
       "masked": "Rapid expansion required external ____.",
       "options": [
         "finance-mcq-29",
-        "finance-mcq-28",
-        "finance-mcq-30",
-        "finance-mcq-27",
-        "finance-mcq-31",
-        "finance-mcq-26"
+        "finance-mcq-72",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financing」指「外部融資 outside capital」。",
       "sentenceIndex": 72,
@@ -3490,12 +3161,9 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-29": "本句指「外部融資 outside capital」。",
-        "finance-mcq-28": "「銀行融資 bank funding」與本句語境不同。",
-        "finance-mcq-30": "「內部融資 internal funds」與本句語境不同。",
-        "finance-mcq-27": "「股權融資 ownership capital」與本句語境不同。",
-        "finance-mcq-31": "「按揭融資 property」與本句語境不同。",
-        "finance-mcq-26": "「債務融資 borrowing」與本句語境不同。"
+        "finance-mcq-29": "本句的「financing」指「外部融資 outside capital」。",
+        "finance-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-29"
     },
@@ -3507,11 +3175,8 @@ export default {
       "masked": "External ____ may come from lenders or investors.",
       "options": [
         "finance-mcq-29",
-        "finance-mcq-28",
-        "finance-mcq-30",
-        "finance-mcq-27",
-        "finance-mcq-31",
-        "finance-mcq-26"
+        "finance-mcq-44",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financing」指「外部融資 outside capital」。",
       "sentenceIndex": 73,
@@ -3520,12 +3185,9 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-29": "本句指「外部融資 outside capital」。",
-        "finance-mcq-28": "「銀行融資 bank funding」與本句語境不同。",
-        "finance-mcq-30": "「內部融資 internal funds」與本句語境不同。",
-        "finance-mcq-27": "「股權融資 ownership capital」與本句語境不同。",
-        "finance-mcq-31": "「按揭融資 property」與本句語境不同。",
-        "finance-mcq-26": "「債務融資 borrowing」與本句語境不同。"
+        "finance-mcq-29": "本句的「financing」指「外部融資 outside capital」。",
+        "finance-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-29"
     },
@@ -3537,11 +3199,8 @@ export default {
       "masked": "The company funded the investment through internal ____.",
       "options": [
         "finance-mcq-30",
-        "finance-mcq-29",
-        "finance-mcq-31",
-        "finance-mcq-28",
-        "finance-mcq-32",
-        "finance-mcq-27"
+        "finance-mcq-03",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financing」指「內部融資 internal funds」。",
       "sentenceIndex": 74,
@@ -3550,12 +3209,9 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-30": "本句指「內部融資 internal funds」。",
-        "finance-mcq-29": "「外部融資 outside capital」與本句語境不同。",
-        "finance-mcq-31": "「按揭融資 property」與本句語境不同。",
-        "finance-mcq-28": "「銀行融資 bank funding」與本句語境不同。",
-        "finance-mcq-32": "「汽車融資／車貸 vehicle purchase」與本句語境不同。",
-        "finance-mcq-27": "「股權融資 ownership capital」與本句語境不同。"
+        "finance-mcq-30": "本句的「financing」指「內部融資 internal funds」。",
+        "finance-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-30"
     },
@@ -3567,11 +3223,8 @@ export default {
       "masked": "Retained profits can provide internal ____.",
       "options": [
         "finance-mcq-30",
-        "finance-mcq-29",
-        "finance-mcq-31",
-        "finance-mcq-28",
-        "finance-mcq-32",
-        "finance-mcq-27"
+        "finance-mcq-47",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financing」指「內部融資 internal funds」。",
       "sentenceIndex": 75,
@@ -3580,12 +3233,9 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-30": "本句指「內部融資 internal funds」。",
-        "finance-mcq-29": "「外部融資 outside capital」與本句語境不同。",
-        "finance-mcq-31": "「按揭融資 property」與本句語境不同。",
-        "finance-mcq-28": "「銀行融資 bank funding」與本句語境不同。",
-        "finance-mcq-32": "「汽車融資／車貸 vehicle purchase」與本句語境不同。",
-        "finance-mcq-27": "「股權融資 ownership capital」與本句語境不同。"
+        "finance-mcq-30": "本句的「financing」指「內部融資 internal funds」。",
+        "finance-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-30"
     },
@@ -3597,11 +3247,8 @@ export default {
       "masked": "Buyers often require mortgage ____.",
       "options": [
         "finance-mcq-31",
-        "finance-mcq-30",
-        "finance-mcq-32",
-        "finance-mcq-29",
-        "finance-mcq-33",
-        "finance-mcq-28"
+        "finance-mcq-03",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financing」指「按揭融資 property」。",
       "sentenceIndex": 76,
@@ -3610,12 +3257,9 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-31": "本句指「按揭融資 property」。",
-        "finance-mcq-30": "「內部融資 internal funds」與本句語境不同。",
-        "finance-mcq-32": "「汽車融資／車貸 vehicle purchase」與本句語境不同。",
-        "finance-mcq-29": "「外部融資 outside capital」與本句語境不同。",
-        "finance-mcq-33": "「項目融資 project cash flows」與本句語境不同。",
-        "finance-mcq-28": "「銀行融資 bank funding」與本句語境不同。"
+        "finance-mcq-31": "本句的「financing」指「按揭融資 property」。",
+        "finance-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-31"
     },
@@ -3627,11 +3271,8 @@ export default {
       "masked": "Higher interest rates increased the cost of mortgage ____.",
       "options": [
         "finance-mcq-31",
-        "finance-mcq-30",
-        "finance-mcq-32",
-        "finance-mcq-29",
-        "finance-mcq-33",
-        "finance-mcq-28"
+        "finance-mcq-43",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financing」指「按揭融資 property」。",
       "sentenceIndex": 77,
@@ -3640,12 +3281,9 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-31": "本句指「按揭融資 property」。",
-        "finance-mcq-30": "「內部融資 internal funds」與本句語境不同。",
-        "finance-mcq-32": "「汽車融資／車貸 vehicle purchase」與本句語境不同。",
-        "finance-mcq-29": "「外部融資 outside capital」與本句語境不同。",
-        "finance-mcq-33": "「項目融資 project cash flows」與本句語境不同。",
-        "finance-mcq-28": "「銀行融資 bank funding」與本句語境不同。"
+        "finance-mcq-31": "本句的「financing」指「按揭融資 property」。",
+        "finance-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-31"
     },
@@ -3657,11 +3295,8 @@ export default {
       "masked": "The dealer offers vehicle ____.",
       "options": [
         "finance-mcq-32",
-        "finance-mcq-31",
-        "finance-mcq-33",
-        "finance-mcq-30",
-        "finance-mcq-34",
-        "finance-mcq-29"
+        "finance-mcq-14",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financing」指「汽車融資／車貸 vehicle purchase」。",
       "sentenceIndex": 78,
@@ -3670,12 +3305,9 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-32": "本句指「汽車融資／車貸 vehicle purchase」。",
-        "finance-mcq-31": "「按揭融資 property」與本句語境不同。",
-        "finance-mcq-33": "「項目融資 project cash flows」與本句語境不同。",
-        "finance-mcq-30": "「內部融資 internal funds」與本句語境不同。",
-        "finance-mcq-34": "「貿易融資 trade transactions」與本句語境不同。",
-        "finance-mcq-29": "「外部融資 outside capital」與本句語境不同。"
+        "finance-mcq-32": "本句的「financing」指「汽車融資／車貸 vehicle purchase」。",
+        "finance-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-32"
     },
@@ -3687,11 +3319,8 @@ export default {
       "masked": "The monthly payment depends on the ____ terms.",
       "options": [
         "finance-mcq-32",
-        "finance-mcq-31",
-        "finance-mcq-33",
-        "finance-mcq-30",
-        "finance-mcq-34",
-        "finance-mcq-29"
+        "finance-mcq-01",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financing」指「汽車融資／車貸 vehicle purchase」。",
       "sentenceIndex": 79,
@@ -3700,12 +3329,9 @@ export default {
         "financing"
       ],
       "optionReasons": {
-        "finance-mcq-32": "本句指「汽車融資／車貸 vehicle purchase」。",
-        "finance-mcq-31": "「按揭融資 property」與本句語境不同。",
-        "finance-mcq-33": "「項目融資 project cash flows」與本句語境不同。",
-        "finance-mcq-30": "「內部融資 internal funds」與本句語境不同。",
-        "finance-mcq-34": "「貿易融資 trade transactions」與本句語境不同。",
-        "finance-mcq-29": "「外部融資 outside capital」與本句語境不同。"
+        "finance-mcq-32": "本句的「financing」指「汽車融資／車貸 vehicle purchase」。",
+        "finance-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-32"
     },
@@ -3717,11 +3343,8 @@ export default {
       "masked": "The infrastructure scheme uses project ____.",
       "options": [
         "finance-mcq-33",
-        "finance-mcq-32",
-        "finance-mcq-34",
-        "finance-mcq-31",
-        "finance-mcq-35",
-        "finance-mcq-30"
+        "finance-mcq-52",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「項目融資 project cash flows」。",
       "sentenceIndex": 80,
@@ -3730,12 +3353,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-33": "本句指「項目融資 project cash flows」。",
-        "finance-mcq-32": "「汽車融資／車貸 vehicle purchase」與本句語境不同。",
-        "finance-mcq-34": "「貿易融資 trade transactions」與本句語境不同。",
-        "finance-mcq-31": "「按揭融資 property」與本句語境不同。",
-        "finance-mcq-35": "「發展融資 development projects」與本句語境不同。",
-        "finance-mcq-30": "「內部融資 internal funds」與本句語境不同。"
+        "finance-mcq-33": "本句的「finance」指「項目融資 project cash flows」。",
+        "finance-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-33"
     },
@@ -3747,11 +3367,8 @@ export default {
       "masked": "Project ____ often relies heavily on the project's future cash flows.",
       "options": [
         "finance-mcq-33",
-        "finance-mcq-32",
-        "finance-mcq-34",
-        "finance-mcq-31",
-        "finance-mcq-35",
-        "finance-mcq-30"
+        "finance-mcq-02",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「項目融資 project cash flows」。",
       "sentenceIndex": 81,
@@ -3760,12 +3377,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-33": "本句指「項目融資 project cash flows」。",
-        "finance-mcq-32": "「汽車融資／車貸 vehicle purchase」與本句語境不同。",
-        "finance-mcq-34": "「貿易融資 trade transactions」與本句語境不同。",
-        "finance-mcq-31": "「按揭融資 property」與本句語境不同。",
-        "finance-mcq-35": "「發展融資 development projects」與本句語境不同。",
-        "finance-mcq-30": "「內部融資 internal funds」與本句語境不同。"
+        "finance-mcq-33": "本句的「finance」指「項目融資 project cash flows」。",
+        "finance-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-33"
     },
@@ -3777,11 +3391,8 @@ export default {
       "masked": "The advisers designed the project-____ structure.",
       "options": [
         "finance-mcq-33",
-        "finance-mcq-32",
-        "finance-mcq-34",
-        "finance-mcq-31",
-        "finance-mcq-35",
-        "finance-mcq-30"
+        "finance-mcq-02",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「項目融資 project cash flows」。",
       "sentenceIndex": 82,
@@ -3790,12 +3401,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-33": "本句指「項目融資 project cash flows」。",
-        "finance-mcq-32": "「汽車融資／車貸 vehicle purchase」與本句語境不同。",
-        "finance-mcq-34": "「貿易融資 trade transactions」與本句語境不同。",
-        "finance-mcq-31": "「按揭融資 property」與本句語境不同。",
-        "finance-mcq-35": "「發展融資 development projects」與本句語境不同。",
-        "finance-mcq-30": "「內部融資 internal funds」與本句語境不同。"
+        "finance-mcq-33": "本句的「finance」指「項目融資 project cash flows」。",
+        "finance-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-33"
     },
@@ -3807,11 +3415,7 @@ export default {
       "masked": "Risk allocation is important in project ____.",
       "options": [
         "finance-mcq-33",
-        "finance-mcq-32",
-        "finance-mcq-34",
-        "finance-mcq-31",
-        "finance-mcq-35",
-        "finance-mcq-30"
+        "finance-mcq-81"
       ],
       "explanation": "本句的「finance」指「項目融資 project cash flows」。",
       "sentenceIndex": 83,
@@ -3820,12 +3424,8 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-33": "本句指「項目融資 project cash flows」。",
-        "finance-mcq-32": "「汽車融資／車貸 vehicle purchase」與本句語境不同。",
-        "finance-mcq-34": "「貿易融資 trade transactions」與本句語境不同。",
-        "finance-mcq-31": "「按揭融資 property」與本句語境不同。",
-        "finance-mcq-35": "「發展融資 development projects」與本句語境不同。",
-        "finance-mcq-30": "「內部融資 internal funds」與本句語境不同。"
+        "finance-mcq-33": "本句的「finance」指「項目融資 project cash flows」。",
+        "finance-mcq-81": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-33"
     },
@@ -3837,11 +3437,9 @@ export default {
       "masked": "Banks provide trade ____ to importers and exporters.",
       "options": [
         "finance-mcq-34",
-        "finance-mcq-33",
-        "finance-mcq-35",
-        "finance-mcq-32",
-        "finance-mcq-36",
-        "finance-mcq-31"
+        "finance-mcq-76",
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「貿易融資 trade transactions」。",
       "sentenceIndex": 84,
@@ -3850,12 +3448,10 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-34": "本句指「貿易融資 trade transactions」。",
-        "finance-mcq-33": "「項目融資 project cash flows」與本句語境不同。",
-        "finance-mcq-35": "「發展融資 development projects」與本句語境不同。",
-        "finance-mcq-32": "「汽車融資／車貸 vehicle purchase」與本句語境不同。",
-        "finance-mcq-36": "「可持續金融 sustainability」與本句語境不同。",
-        "finance-mcq-31": "「按揭融資 property」與本句語境不同。"
+        "finance-mcq-34": "本句的「finance」指「貿易融資 trade transactions」。",
+        "finance-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-34"
     },
@@ -3867,11 +3463,9 @@ export default {
       "masked": "Letters of credit are commonly associated with trade ____.",
       "options": [
         "finance-mcq-34",
-        "finance-mcq-33",
-        "finance-mcq-35",
-        "finance-mcq-32",
-        "finance-mcq-36",
-        "finance-mcq-31"
+        "finance-mcq-75",
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「貿易融資 trade transactions」。",
       "sentenceIndex": 85,
@@ -3880,12 +3474,10 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-34": "本句指「貿易融資 trade transactions」。",
-        "finance-mcq-33": "「項目融資 project cash flows」與本句語境不同。",
-        "finance-mcq-35": "「發展融資 development projects」與本句語境不同。",
-        "finance-mcq-32": "「汽車融資／車貸 vehicle purchase」與本句語境不同。",
-        "finance-mcq-36": "「可持續金融 sustainability」與本句語境不同。",
-        "finance-mcq-31": "「按揭融資 property」與本句語境不同。"
+        "finance-mcq-34": "本句的「finance」指「貿易融資 trade transactions」。",
+        "finance-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-34"
     },
@@ -3897,11 +3489,8 @@ export default {
       "masked": "The institution provides development ____ for infrastructure projects.",
       "options": [
         "finance-mcq-35",
-        "finance-mcq-34",
-        "finance-mcq-36",
-        "finance-mcq-33",
-        "finance-mcq-37",
-        "finance-mcq-32"
+        "finance-mcq-04",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「發展融資 development projects」。",
       "sentenceIndex": 86,
@@ -3910,12 +3499,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-35": "本句指「發展融資 development projects」。",
-        "finance-mcq-34": "「貿易融資 trade transactions」與本句語境不同。",
-        "finance-mcq-36": "「可持續金融 sustainability」與本句語境不同。",
-        "finance-mcq-33": "「項目融資 project cash flows」與本句語境不同。",
-        "finance-mcq-37": "「綠色金融 environment」與本句語境不同。",
-        "finance-mcq-32": "「汽車融資／車貸 vehicle purchase」與本句語境不同。"
+        "finance-mcq-35": "本句的「finance」指「發展融資 development projects」。",
+        "finance-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-35"
     },
@@ -3927,11 +3513,8 @@ export default {
       "masked": "Development ____ can support projects that have economic or social benefits.",
       "options": [
         "finance-mcq-35",
-        "finance-mcq-34",
-        "finance-mcq-36",
-        "finance-mcq-33",
-        "finance-mcq-37",
-        "finance-mcq-32"
+        "finance-mcq-44",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「發展融資 development projects」。",
       "sentenceIndex": 87,
@@ -3940,12 +3523,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-35": "本句指「發展融資 development projects」。",
-        "finance-mcq-34": "「貿易融資 trade transactions」與本句語境不同。",
-        "finance-mcq-36": "「可持續金融 sustainability」與本句語境不同。",
-        "finance-mcq-33": "「項目融資 project cash flows」與本句語境不同。",
-        "finance-mcq-37": "「綠色金融 environment」與本句語境不同。",
-        "finance-mcq-32": "「汽車融資／車貸 vehicle purchase」與本句語境不同。"
+        "finance-mcq-35": "本句的「finance」指「發展融資 development projects」。",
+        "finance-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-35"
     },
@@ -3957,11 +3537,8 @@ export default {
       "masked": "Banks are expanding their sustainable-____ activities.",
       "options": [
         "finance-mcq-36",
-        "finance-mcq-35",
-        "finance-mcq-37",
-        "finance-mcq-34",
-        "finance-mcq-38",
-        "finance-mcq-33"
+        "finance-mcq-23",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「finance」指「可持續金融 sustainability」。",
       "sentenceIndex": 88,
@@ -3970,12 +3547,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-36": "本句指「可持續金融 sustainability」。",
-        "finance-mcq-35": "「發展融資 development projects」與本句語境不同。",
-        "finance-mcq-37": "「綠色金融 environment」與本句語境不同。",
-        "finance-mcq-34": "「貿易融資 trade transactions」與本句語境不同。",
-        "finance-mcq-38": "「伊斯蘭金融 Islamic principles」與本句語境不同。",
-        "finance-mcq-33": "「項目融資 project cash flows」與本句語境不同。"
+        "finance-mcq-36": "本句的「finance」指「可持續金融 sustainability」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-36"
     },
@@ -3987,11 +3561,8 @@ export default {
       "masked": "Sustainable ____ incorporates environmental and social considerations.",
       "options": [
         "finance-mcq-36",
-        "finance-mcq-35",
-        "finance-mcq-37",
-        "finance-mcq-34",
-        "finance-mcq-38",
-        "finance-mcq-33"
+        "finance-mcq-23",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「finance」指「可持續金融 sustainability」。",
       "sentenceIndex": 89,
@@ -4000,12 +3571,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-36": "本句指「可持續金融 sustainability」。",
-        "finance-mcq-35": "「發展融資 development projects」與本句語境不同。",
-        "finance-mcq-37": "「綠色金融 environment」與本句語境不同。",
-        "finance-mcq-34": "「貿易融資 trade transactions」與本句語境不同。",
-        "finance-mcq-38": "「伊斯蘭金融 Islamic principles」與本句語境不同。",
-        "finance-mcq-33": "「項目融資 project cash flows」與本句語境不同。"
+        "finance-mcq-36": "本句的「finance」指「可持續金融 sustainability」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-36"
     },
@@ -4017,11 +3585,9 @@ export default {
       "masked": "The government wants to attract more green ____.",
       "options": [
         "finance-mcq-37",
-        "finance-mcq-36",
-        "finance-mcq-38",
-        "finance-mcq-35",
-        "finance-mcq-39",
-        "finance-mcq-34"
+        "finance-mcq-24",
+        "finance-mcq-17",
+        "finance-mcq-32"
       ],
       "explanation": "本句的「finance」指「綠色金融 environment」。",
       "sentenceIndex": 90,
@@ -4030,12 +3596,10 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-37": "本句指「綠色金融 environment」。",
-        "finance-mcq-36": "「可持續金融 sustainability」與本句語境不同。",
-        "finance-mcq-38": "「伊斯蘭金融 Islamic principles」與本句語境不同。",
-        "finance-mcq-35": "「發展融資 development projects」與本句語境不同。",
-        "finance-mcq-39": "「小額金融 underserved borrowers」與本句語境不同。",
-        "finance-mcq-34": "「貿易融資 trade transactions」與本句語境不同。"
+        "finance-mcq-37": "本句的「finance」指「綠色金融 environment」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-37"
     },
@@ -4047,11 +3611,8 @@ export default {
       "masked": "Green ____ supports environmentally beneficial projects.",
       "options": [
         "finance-mcq-37",
-        "finance-mcq-36",
-        "finance-mcq-38",
-        "finance-mcq-35",
-        "finance-mcq-39",
-        "finance-mcq-34"
+        "finance-mcq-17",
+        "finance-mcq-23"
       ],
       "explanation": "本句的「finance」指「綠色金融 environment」。",
       "sentenceIndex": 91,
@@ -4060,12 +3621,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-37": "本句指「綠色金融 environment」。",
-        "finance-mcq-36": "「可持續金融 sustainability」與本句語境不同。",
-        "finance-mcq-38": "「伊斯蘭金融 Islamic principles」與本句語境不同。",
-        "finance-mcq-35": "「發展融資 development projects」與本句語境不同。",
-        "finance-mcq-39": "「小額金融 underserved borrowers」與本句語境不同。",
-        "finance-mcq-34": "「貿易融資 trade transactions」與本句語境不同。"
+        "finance-mcq-37": "本句的「finance」指「綠色金融 environment」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-37"
     },
@@ -4077,11 +3635,9 @@ export default {
       "masked": "The bank operates an Islamic ____ division.",
       "options": [
         "finance-mcq-38",
-        "finance-mcq-37",
-        "finance-mcq-39",
-        "finance-mcq-36",
-        "finance-mcq-40",
-        "finance-mcq-35"
+        "finance-mcq-24",
+        "finance-mcq-17",
+        "finance-mcq-27"
       ],
       "explanation": "本句的「finance」指「伊斯蘭金融 Islamic principles」。",
       "sentenceIndex": 92,
@@ -4090,12 +3646,10 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-38": "本句指「伊斯蘭金融 Islamic principles」。",
-        "finance-mcq-37": "「綠色金融 environment」與本句語境不同。",
-        "finance-mcq-39": "「小額金融 underserved borrowers」與本句語境不同。",
-        "finance-mcq-36": "「可持續金融 sustainability」與本句語境不同。",
-        "finance-mcq-40": "「結構性融資 structured arrangements」與本句語境不同。",
-        "finance-mcq-35": "「發展融資 development projects」與本句語境不同。"
+        "finance-mcq-38": "本句的「finance」指「伊斯蘭金融 Islamic principles」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-38"
     },
@@ -4107,11 +3661,8 @@ export default {
       "masked": "Islamic ____ follows principles derived from Islamic law.",
       "options": [
         "finance-mcq-38",
-        "finance-mcq-37",
-        "finance-mcq-39",
-        "finance-mcq-36",
-        "finance-mcq-40",
-        "finance-mcq-35"
+        "finance-mcq-23",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「finance」指「伊斯蘭金融 Islamic principles」。",
       "sentenceIndex": 93,
@@ -4120,12 +3671,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-38": "本句指「伊斯蘭金融 Islamic principles」。",
-        "finance-mcq-37": "「綠色金融 environment」與本句語境不同。",
-        "finance-mcq-39": "「小額金融 underserved borrowers」與本句語境不同。",
-        "finance-mcq-36": "「可持續金融 sustainability」與本句語境不同。",
-        "finance-mcq-40": "「結構性融資 structured arrangements」與本句語境不同。",
-        "finance-mcq-35": "「發展融資 development projects」與本句語境不同。"
+        "finance-mcq-38": "本句的「finance」指「伊斯蘭金融 Islamic principles」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-38"
     },
@@ -4137,11 +3685,8 @@ export default {
       "masked": "She works in structured ____.",
       "options": [
         "finance-mcq-40",
-        "finance-mcq-39",
-        "finance-mcq-41",
-        "finance-mcq-38",
-        "finance-mcq-42",
-        "finance-mcq-37"
+        "finance-mcq-61",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「結構性融資 structured arrangements」。",
       "sentenceIndex": 94,
@@ -4150,12 +3695,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-40": "本句指「結構性融資 structured arrangements」。",
-        "finance-mcq-39": "「小額金融 underserved borrowers」與本句語境不同。",
-        "finance-mcq-41": "「高階金融 large-scale finance」與本句語境不同。",
-        "finance-mcq-38": "「伊斯蘭金融 Islamic principles」與本句語境不同。",
-        "finance-mcq-42": "「財務的；金融的 related adjective」與本句語境不同。",
-        "finance-mcq-37": "「綠色金融 environment」與本句語境不同。"
+        "finance-mcq-40": "本句的「finance」指「結構性融資 structured arrangements」。",
+        "finance-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-40"
     },
@@ -4167,11 +3709,8 @@ export default {
       "masked": "Structured ____ can involve complex arrangements combining different financial claims.",
       "options": [
         "finance-mcq-40",
-        "finance-mcq-39",
-        "finance-mcq-41",
-        "finance-mcq-38",
-        "finance-mcq-42",
-        "finance-mcq-37"
+        "finance-mcq-69",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「finance」指「結構性融資 structured arrangements」。",
       "sentenceIndex": 95,
@@ -4180,12 +3719,9 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-40": "本句指「結構性融資 structured arrangements」。",
-        "finance-mcq-39": "「小額金融 underserved borrowers」與本句語境不同。",
-        "finance-mcq-41": "「高階金融 large-scale finance」與本句語境不同。",
-        "finance-mcq-38": "「伊斯蘭金融 Islamic principles」與本句語境不同。",
-        "finance-mcq-42": "「財務的；金融的 related adjective」與本句語境不同。",
-        "finance-mcq-37": "「綠色金融 environment」與本句語境不同。"
+        "finance-mcq-40": "本句的「finance」指「結構性融資 structured arrangements」。",
+        "finance-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-40"
     },
@@ -4197,11 +3733,9 @@ export default {
       "masked": "The novel is set in the world of high ____.",
       "options": [
         "finance-mcq-41",
-        "finance-mcq-40",
-        "finance-mcq-42",
-        "finance-mcq-39",
-        "finance-mcq-43",
-        "finance-mcq-38"
+        "finance-mcq-24",
+        "finance-mcq-17",
+        "finance-mcq-29"
       ],
       "explanation": "本句的「finance」指「高階金融 large-scale finance」。",
       "sentenceIndex": 96,
@@ -4210,12 +3744,10 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-41": "本句指「高階金融 large-scale finance」。",
-        "finance-mcq-40": "「結構性融資 structured arrangements」與本句語境不同。",
-        "finance-mcq-42": "「財務的；金融的 related adjective」與本句語境不同。",
-        "finance-mcq-39": "「小額金融 underserved borrowers」與本句語境不同。",
-        "finance-mcq-43": "「財務事務 money matters」與本句語境不同。",
-        "finance-mcq-38": "「伊斯蘭金融 Islamic principles」與本句語境不同。"
+        "finance-mcq-41": "本句的「finance」指「高階金融 large-scale finance」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-41"
     },
@@ -4227,11 +3759,9 @@ export default {
       "masked": "He built a career in high ____.",
       "options": [
         "finance-mcq-41",
-        "finance-mcq-40",
-        "finance-mcq-42",
-        "finance-mcq-39",
-        "finance-mcq-43",
-        "finance-mcq-38"
+        "finance-mcq-24",
+        "finance-mcq-17",
+        "finance-mcq-08"
       ],
       "explanation": "本句的「finance」指「高階金融 large-scale finance」。",
       "sentenceIndex": 97,
@@ -4240,12 +3770,10 @@ export default {
         "finance"
       ],
       "optionReasons": {
-        "finance-mcq-41": "本句指「高階金融 large-scale finance」。",
-        "finance-mcq-40": "「結構性融資 structured arrangements」與本句語境不同。",
-        "finance-mcq-42": "「財務的；金融的 related adjective」與本句語境不同。",
-        "finance-mcq-39": "「小額金融 underserved borrowers」與本句語境不同。",
-        "finance-mcq-43": "「財務事務 money matters」與本句語境不同。",
-        "finance-mcq-38": "「伊斯蘭金融 Islamic principles」與本句語境不同。"
+        "finance-mcq-41": "本句的「finance」指「高階金融 large-scale finance」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-41"
     },
@@ -4257,11 +3785,7 @@ export default {
       "masked": "The company faces several ____ challenges.",
       "options": [
         "finance-mcq-42",
-        "finance-mcq-41",
-        "finance-mcq-43",
-        "finance-mcq-40",
-        "finance-mcq-44",
-        "finance-mcq-39"
+        "finance-mcq-23"
       ],
       "explanation": "本句的「financial」指「財務的；金融的 related adjective」。",
       "sentenceIndex": 98,
@@ -4270,12 +3794,8 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-42": "本句指「財務的；金融的 related adjective」。",
-        "finance-mcq-41": "「高階金融 large-scale finance」與本句語境不同。",
-        "finance-mcq-43": "「財務事務 money matters」與本句語境不同。",
-        "finance-mcq-40": "「結構性融資 structured arrangements」與本句語境不同。",
-        "finance-mcq-44": "「財務管理 managing money」與本句語境不同。",
-        "finance-mcq-39": "「小額金融 underserved borrowers」與本句語境不同。"
+        "finance-mcq-42": "本句的「financial」指「財務的；金融的 related adjective」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-42"
     },
@@ -4287,11 +3807,7 @@ export default {
       "masked": "We need more accurate ____ information.",
       "options": [
         "finance-mcq-42",
-        "finance-mcq-41",
-        "finance-mcq-43",
-        "finance-mcq-40",
-        "finance-mcq-44",
-        "finance-mcq-39"
+        "finance-mcq-23"
       ],
       "explanation": "本句的「financial」指「財務的；金融的 related adjective」。",
       "sentenceIndex": 99,
@@ -4300,12 +3816,8 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-42": "本句指「財務的；金融的 related adjective」。",
-        "finance-mcq-41": "「高階金融 large-scale finance」與本句語境不同。",
-        "finance-mcq-43": "「財務事務 money matters」與本句語境不同。",
-        "finance-mcq-40": "「結構性融資 structured arrangements」與本句語境不同。",
-        "finance-mcq-44": "「財務管理 managing money」與本句語境不同。",
-        "finance-mcq-39": "「小額金融 underserved borrowers」與本句語境不同。"
+        "finance-mcq-42": "本句的「financial」指「財務的；金融的 related adjective」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-42"
     },
@@ -4317,11 +3829,8 @@ export default {
       "masked": "She manages the family's ____ affairs.",
       "options": [
         "finance-mcq-43",
-        "finance-mcq-42",
-        "finance-mcq-44",
-        "finance-mcq-41",
-        "finance-mcq-45",
-        "finance-mcq-40"
+        "finance-mcq-27",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務事務 money matters」。",
       "sentenceIndex": 100,
@@ -4330,12 +3839,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-43": "本句指「財務事務 money matters」。",
-        "finance-mcq-42": "「財務的；金融的 related adjective」與本句語境不同。",
-        "finance-mcq-44": "「財務管理 managing money」與本句語境不同。",
-        "finance-mcq-41": "「高階金融 large-scale finance」與本句語境不同。",
-        "finance-mcq-45": "「財務規劃 future planning」與本句語境不同。",
-        "finance-mcq-40": "「結構性融資 structured arrangements」與本句語境不同。"
+        "finance-mcq-43": "本句的「financial」指「財務事務 money matters」。",
+        "finance-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-43"
     },
@@ -4347,11 +3853,8 @@ export default {
       "masked": "The organisation appointed someone to oversee its ____ affairs.",
       "options": [
         "finance-mcq-43",
-        "finance-mcq-42",
-        "finance-mcq-44",
-        "finance-mcq-41",
-        "finance-mcq-45",
-        "finance-mcq-40"
+        "finance-mcq-29",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務事務 money matters」。",
       "sentenceIndex": 101,
@@ -4360,12 +3863,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-43": "本句指「財務事務 money matters」。",
-        "finance-mcq-42": "「財務的；金融的 related adjective」與本句語境不同。",
-        "finance-mcq-44": "「財務管理 managing money」與本句語境不同。",
-        "finance-mcq-41": "「高階金融 large-scale finance」與本句語境不同。",
-        "finance-mcq-45": "「財務規劃 future planning」與本句語境不同。",
-        "finance-mcq-40": "「結構性融資 structured arrangements」與本句語境不同。"
+        "finance-mcq-43": "本句的「financial」指「財務事務 money matters」。",
+        "finance-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-43"
     },
@@ -4377,11 +3877,8 @@ export default {
       "masked": "Good ____ management is essential for a growing company.",
       "options": [
         "finance-mcq-44",
-        "finance-mcq-43",
-        "finance-mcq-45",
-        "finance-mcq-42",
-        "finance-mcq-46",
-        "finance-mcq-41"
+        "finance-mcq-40",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務管理 managing money」。",
       "sentenceIndex": 102,
@@ -4390,12 +3887,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-44": "本句指「財務管理 managing money」。",
-        "finance-mcq-43": "「財務事務 money matters」與本句語境不同。",
-        "finance-mcq-45": "「財務規劃 future planning」與本句語境不同。",
-        "finance-mcq-42": "「財務的；金融的 related adjective」與本句語境不同。",
-        "finance-mcq-46": "「財務狀況 point-in-time condition」與本句語境不同。",
-        "finance-mcq-41": "「高階金融 large-scale finance」與本句語境不同。"
+        "finance-mcq-44": "本句的「financial」指「財務管理 managing money」。",
+        "finance-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-44"
     },
@@ -4407,11 +3901,8 @@ export default {
       "masked": "The course covers budgeting and ____ management.",
       "options": [
         "finance-mcq-44",
-        "finance-mcq-43",
-        "finance-mcq-45",
-        "finance-mcq-42",
-        "finance-mcq-46",
-        "finance-mcq-41"
+        "finance-mcq-33",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務管理 managing money」。",
       "sentenceIndex": 103,
@@ -4420,12 +3911,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-44": "本句指「財務管理 managing money」。",
-        "finance-mcq-43": "「財務事務 money matters」與本句語境不同。",
-        "finance-mcq-45": "「財務規劃 future planning」與本句語境不同。",
-        "finance-mcq-42": "「財務的；金融的 related adjective」與本句語境不同。",
-        "finance-mcq-46": "「財務狀況 point-in-time condition」與本句語境不同。",
-        "finance-mcq-41": "「高階金融 large-scale finance」與本句語境不同。"
+        "finance-mcq-44": "本句的「financial」指「財務管理 managing money」。",
+        "finance-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-44"
     },
@@ -4437,11 +3925,8 @@ export default {
       "masked": "Long-term ____ planning reduces uncertainty.",
       "options": [
         "finance-mcq-45",
-        "finance-mcq-44",
-        "finance-mcq-46",
-        "finance-mcq-43",
-        "finance-mcq-47",
-        "finance-mcq-42"
+        "finance-mcq-32",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務規劃 future planning」。",
       "sentenceIndex": 104,
@@ -4450,12 +3935,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-45": "本句指「財務規劃 future planning」。",
-        "finance-mcq-44": "「財務管理 managing money」與本句語境不同。",
-        "finance-mcq-46": "「財務狀況 point-in-time condition」與本句語境不同。",
-        "finance-mcq-43": "「財務事務 money matters」與本句語境不同。",
-        "finance-mcq-47": "「財務健康程度 sustainability」與本句語境不同。",
-        "finance-mcq-42": "「財務的；金融的 related adjective」與本句語境不同。"
+        "finance-mcq-45": "本句的「financial」指「財務規劃 future planning」。",
+        "finance-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-45"
     },
@@ -4467,11 +3949,8 @@ export default {
       "masked": "Retirement requires careful ____ planning.",
       "options": [
         "finance-mcq-45",
-        "finance-mcq-44",
-        "finance-mcq-46",
-        "finance-mcq-43",
-        "finance-mcq-47",
-        "finance-mcq-42"
+        "finance-mcq-30",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務規劃 future planning」。",
       "sentenceIndex": 105,
@@ -4480,12 +3959,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-45": "本句指「財務規劃 future planning」。",
-        "finance-mcq-44": "「財務管理 managing money」與本句語境不同。",
-        "finance-mcq-46": "「財務狀況 point-in-time condition」與本句語境不同。",
-        "finance-mcq-43": "「財務事務 money matters」與本句語境不同。",
-        "finance-mcq-47": "「財務健康程度 sustainability」與本句語境不同。",
-        "finance-mcq-42": "「財務的；金融的 related adjective」與本句語境不同。"
+        "finance-mcq-45": "本句的「financial」指「財務規劃 future planning」。",
+        "finance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-45"
     },
@@ -4497,11 +3973,8 @@ export default {
       "masked": "The company is in a strong ____ position.",
       "options": [
         "finance-mcq-46",
-        "finance-mcq-45",
-        "finance-mcq-47",
-        "finance-mcq-44",
-        "finance-mcq-48",
-        "finance-mcq-43"
+        "finance-mcq-30",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務狀況 point-in-time condition」。",
       "sentenceIndex": 106,
@@ -4510,12 +3983,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-46": "本句指「財務狀況 point-in-time condition」。",
-        "finance-mcq-45": "「財務規劃 future planning」與本句語境不同。",
-        "finance-mcq-47": "「財務健康程度 sustainability」與本句語境不同。",
-        "finance-mcq-44": "「財務管理 managing money」與本句語境不同。",
-        "finance-mcq-48": "「財務表現 results」與本句語境不同。",
-        "finance-mcq-43": "「財務事務 money matters」與本句語境不同。"
+        "finance-mcq-46": "本句的「financial」指「財務狀況 point-in-time condition」。",
+        "finance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-46"
     },
@@ -4527,11 +3997,7 @@ export default {
       "masked": "Management reviewed the organisation's ____ position.",
       "options": [
         "finance-mcq-46",
-        "finance-mcq-45",
-        "finance-mcq-47",
-        "finance-mcq-44",
-        "finance-mcq-48",
-        "finance-mcq-43"
+        "finance-mcq-07"
       ],
       "explanation": "本句的「financial」指「財務狀況 point-in-time condition」。",
       "sentenceIndex": 107,
@@ -4540,12 +4006,8 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-46": "本句指「財務狀況 point-in-time condition」。",
-        "finance-mcq-45": "「財務規劃 future planning」與本句語境不同。",
-        "finance-mcq-47": "「財務健康程度 sustainability」與本句語境不同。",
-        "finance-mcq-44": "「財務管理 managing money」與本句語境不同。",
-        "finance-mcq-48": "「財務表現 results」與本句語境不同。",
-        "finance-mcq-43": "「財務事務 money matters」與本句語境不同。"
+        "finance-mcq-46": "本句的「financial」指「財務狀況 point-in-time condition」。",
+        "finance-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-46"
     },
@@ -4557,11 +4019,8 @@ export default {
       "masked": "Auditors assessed the company's ____ condition.",
       "options": [
         "finance-mcq-46",
-        "finance-mcq-45",
-        "finance-mcq-47",
-        "finance-mcq-44",
-        "finance-mcq-48",
-        "finance-mcq-43"
+        "finance-mcq-08",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務狀況 point-in-time condition」。",
       "sentenceIndex": 108,
@@ -4570,12 +4029,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-46": "本句指「財務狀況 point-in-time condition」。",
-        "finance-mcq-45": "「財務規劃 future planning」與本句語境不同。",
-        "finance-mcq-47": "「財務健康程度 sustainability」與本句語境不同。",
-        "finance-mcq-44": "「財務管理 managing money」與本句語境不同。",
-        "finance-mcq-48": "「財務表現 results」與本句語境不同。",
-        "finance-mcq-43": "「財務事務 money matters」與本句語境不同。"
+        "finance-mcq-46": "本句的「financial」指「財務狀況 point-in-time condition」。",
+        "finance-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-46"
     },
@@ -4587,11 +4043,8 @@ export default {
       "masked": "The firm's ____ condition deteriorated.",
       "options": [
         "finance-mcq-46",
-        "finance-mcq-45",
-        "finance-mcq-47",
-        "finance-mcq-44",
-        "finance-mcq-48",
-        "finance-mcq-43"
+        "finance-mcq-32",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務狀況 point-in-time condition」。",
       "sentenceIndex": 109,
@@ -4600,12 +4053,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-46": "本句指「財務狀況 point-in-time condition」。",
-        "finance-mcq-45": "「財務規劃 future planning」與本句語境不同。",
-        "finance-mcq-47": "「財務健康程度 sustainability」與本句語境不同。",
-        "finance-mcq-44": "「財務管理 managing money」與本句語境不同。",
-        "finance-mcq-48": "「財務表現 results」與本句語境不同。",
-        "finance-mcq-43": "「財務事務 money matters」與本句語境不同。"
+        "finance-mcq-46": "本句的「financial」指「財務狀況 point-in-time condition」。",
+        "finance-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-46"
     },
@@ -4617,11 +4067,8 @@ export default {
       "masked": "Cash flow is important to a company's ____ health.",
       "options": [
         "finance-mcq-47",
-        "finance-mcq-46",
-        "finance-mcq-48",
-        "finance-mcq-45",
-        "finance-mcq-49",
-        "finance-mcq-44"
+        "finance-mcq-21",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務健康程度 sustainability」。",
       "sentenceIndex": 110,
@@ -4630,12 +4077,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-47": "本句指「財務健康程度 sustainability」。",
-        "finance-mcq-46": "「財務狀況 point-in-time condition」與本句語境不同。",
-        "finance-mcq-48": "「財務表現 results」與本句語境不同。",
-        "finance-mcq-45": "「財務規劃 future planning」與本句語境不同。",
-        "finance-mcq-49": "「財務業績 reported outcome」與本句語境不同。",
-        "finance-mcq-44": "「財務管理 managing money」與本句語境不同。"
+        "finance-mcq-47": "本句的「financial」指「財務健康程度 sustainability」。",
+        "finance-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-47"
     },
@@ -4647,11 +4091,8 @@ export default {
       "masked": "The report assesses the ____ health of small firms.",
       "options": [
         "finance-mcq-47",
-        "finance-mcq-46",
-        "finance-mcq-48",
-        "finance-mcq-45",
-        "finance-mcq-49",
-        "finance-mcq-44"
+        "finance-mcq-27",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務健康程度 sustainability」。",
       "sentenceIndex": 111,
@@ -4660,12 +4101,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-47": "本句指「財務健康程度 sustainability」。",
-        "finance-mcq-46": "「財務狀況 point-in-time condition」與本句語境不同。",
-        "finance-mcq-48": "「財務表現 results」與本句語境不同。",
-        "finance-mcq-45": "「財務規劃 future planning」與本句語境不同。",
-        "finance-mcq-49": "「財務業績 reported outcome」與本句語境不同。",
-        "finance-mcq-44": "「財務管理 managing money」與本句語境不同。"
+        "finance-mcq-47": "本句的「financial」指「財務健康程度 sustainability」。",
+        "finance-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-47"
     },
@@ -4677,11 +4115,8 @@ export default {
       "masked": "The board reviewed the company's ____ performance.",
       "options": [
         "finance-mcq-48",
-        "finance-mcq-47",
-        "finance-mcq-49",
-        "finance-mcq-46",
-        "finance-mcq-50",
-        "finance-mcq-45"
+        "finance-mcq-34",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務表現 results」。",
       "sentenceIndex": 114,
@@ -4690,12 +4125,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-48": "本句指「財務表現 results」。",
-        "finance-mcq-47": "「財務健康程度 sustainability」與本句語境不同。",
-        "finance-mcq-49": "「財務業績 reported outcome」與本句語境不同。",
-        "finance-mcq-46": "「財務狀況 point-in-time condition」與本句語境不同。",
-        "finance-mcq-50": "「財務報表 formal statement」與本句語境不同。",
-        "finance-mcq-45": "「財務規劃 future planning」與本句語境不同。"
+        "finance-mcq-48": "本句的「financial」指「財務表現 results」。",
+        "finance-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-48"
     },
@@ -4707,11 +4139,7 @@ export default {
       "masked": "Higher sales improved ____ performance.",
       "options": [
         "finance-mcq-48",
-        "finance-mcq-47",
-        "finance-mcq-49",
-        "finance-mcq-46",
-        "finance-mcq-50",
-        "finance-mcq-45"
+        "finance-mcq-07"
       ],
       "explanation": "本句的「financial」指「財務表現 results」。",
       "sentenceIndex": 115,
@@ -4720,12 +4148,8 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-48": "本句指「財務表現 results」。",
-        "finance-mcq-47": "「財務健康程度 sustainability」與本句語境不同。",
-        "finance-mcq-49": "「財務業績 reported outcome」與本句語境不同。",
-        "finance-mcq-46": "「財務狀況 point-in-time condition」與本句語境不同。",
-        "finance-mcq-50": "「財務報表 formal statement」與本句語境不同。",
-        "finance-mcq-45": "「財務規劃 future planning」與本句語境不同。"
+        "finance-mcq-48": "本句的「financial」指「財務表現 results」。",
+        "finance-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-48"
     },
@@ -4737,11 +4161,8 @@ export default {
       "masked": "The company announced its annual ____ results.",
       "options": [
         "finance-mcq-49",
-        "finance-mcq-48",
-        "finance-mcq-50",
-        "finance-mcq-47",
-        "finance-mcq-51",
-        "finance-mcq-46"
+        "finance-mcq-21",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務業績 reported outcome」。",
       "sentenceIndex": 116,
@@ -4750,12 +4171,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-49": "本句指「財務業績 reported outcome」。",
-        "finance-mcq-48": "「財務表現 results」與本句語境不同。",
-        "finance-mcq-50": "「財務報表 formal statement」與本句語境不同。",
-        "finance-mcq-47": "「財務健康程度 sustainability」與本句語境不同。",
-        "finance-mcq-51": "「財務匯報 reporting process」與本句語境不同。",
-        "finance-mcq-46": "「財務狀況 point-in-time condition」與本句語境不同。"
+        "finance-mcq-49": "本句的「financial」指「財務業績 reported outcome」。",
+        "finance-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-49"
     },
@@ -4767,11 +4185,8 @@ export default {
       "masked": "____ results were stronger than expected.",
       "options": [
         "finance-mcq-49",
-        "finance-mcq-48",
-        "finance-mcq-50",
-        "finance-mcq-47",
-        "finance-mcq-51",
-        "finance-mcq-46"
+        "finance-mcq-24",
+        "finance-mcq-33"
       ],
       "explanation": "本句的「Financial」指「財務業績 reported outcome」。",
       "sentenceIndex": 117,
@@ -4780,12 +4195,9 @@ export default {
         "Financial"
       ],
       "optionReasons": {
-        "finance-mcq-49": "本句指「財務業績 reported outcome」。",
-        "finance-mcq-48": "「財務表現 results」與本句語境不同。",
-        "finance-mcq-50": "「財務報表 formal statement」與本句語境不同。",
-        "finance-mcq-47": "「財務健康程度 sustainability」與本句語境不同。",
-        "finance-mcq-51": "「財務匯報 reporting process」與本句語境不同。",
-        "finance-mcq-46": "「財務狀況 point-in-time condition」與本句語境不同。"
+        "finance-mcq-49": "本句的「Financial」指「財務業績 reported outcome」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-49"
     },
@@ -4797,11 +4209,8 @@ export default {
       "masked": "Investors examined the company's ____ statements.",
       "options": [
         "finance-mcq-50",
-        "finance-mcq-49",
-        "finance-mcq-51",
-        "finance-mcq-48",
-        "finance-mcq-52",
-        "finance-mcq-47"
+        "finance-mcq-29",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務報表 formal statement」。",
       "sentenceIndex": 120,
@@ -4810,12 +4219,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-50": "本句指「財務報表 formal statement」。",
-        "finance-mcq-49": "「財務業績 reported outcome」與本句語境不同。",
-        "finance-mcq-51": "「財務匯報 reporting process」與本句語境不同。",
-        "finance-mcq-48": "「財務表現 results」與本句語境不同。",
-        "finance-mcq-52": "「財政年度 accounting period」與本句語境不同。",
-        "finance-mcq-47": "「財務健康程度 sustainability」與本句語境不同。"
+        "finance-mcq-50": "本句的「financial」指「財務報表 formal statement」。",
+        "finance-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-50"
     },
@@ -4827,11 +4233,8 @@ export default {
       "masked": "____ statements provide information about a company's financial position and performance.",
       "options": [
         "finance-mcq-50",
-        "finance-mcq-49",
-        "finance-mcq-51",
-        "finance-mcq-48",
-        "finance-mcq-52",
-        "finance-mcq-47"
+        "finance-mcq-31",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「Financial」指「財務報表 formal statement」。",
       "sentenceIndex": 121,
@@ -4840,12 +4243,9 @@ export default {
         "Financial"
       ],
       "optionReasons": {
-        "finance-mcq-50": "本句指「財務報表 formal statement」。",
-        "finance-mcq-49": "「財務業績 reported outcome」與本句語境不同。",
-        "finance-mcq-51": "「財務匯報 reporting process」與本句語境不同。",
-        "finance-mcq-48": "「財務表現 results」與本句語境不同。",
-        "finance-mcq-52": "「財政年度 accounting period」與本句語境不同。",
-        "finance-mcq-47": "「財務健康程度 sustainability」與本句語境不同。"
+        "finance-mcq-50": "本句的「Financial」指「財務報表 formal statement」。",
+        "finance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-50"
     },
@@ -4857,11 +4257,8 @@ export default {
       "masked": "The annual ____ report was published yesterday.",
       "options": [
         "finance-mcq-51",
-        "finance-mcq-50",
-        "finance-mcq-52",
-        "finance-mcq-49",
-        "finance-mcq-53",
-        "finance-mcq-48"
+        "finance-mcq-30",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務匯報 reporting process」。",
       "sentenceIndex": 122,
@@ -4870,12 +4267,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-51": "本句指「財務匯報 reporting process」。",
-        "finance-mcq-50": "「財務報表 formal statement」與本句語境不同。",
-        "finance-mcq-52": "「財政年度 accounting period」與本句語境不同。",
-        "finance-mcq-49": "「財務業績 reported outcome」與本句語境不同。",
-        "finance-mcq-53": "「金融機構 finance organization」與本句語境不同。",
-        "finance-mcq-48": "「財務表現 results」與本句語境不同。"
+        "finance-mcq-51": "本句的「financial」指「財務匯報 reporting process」。",
+        "finance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-51"
     },
@@ -4887,11 +4281,8 @@ export default {
       "masked": "Accurate ____ reporting builds investor confidence.",
       "options": [
         "finance-mcq-51",
-        "finance-mcq-50",
-        "finance-mcq-52",
-        "finance-mcq-49",
-        "finance-mcq-53",
-        "finance-mcq-48"
+        "finance-mcq-31",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務匯報 reporting process」。",
       "sentenceIndex": 123,
@@ -4900,12 +4291,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-51": "本句指「財務匯報 reporting process」。",
-        "finance-mcq-50": "「財務報表 formal statement」與本句語境不同。",
-        "finance-mcq-52": "「財政年度 accounting period」與本句語境不同。",
-        "finance-mcq-49": "「財務業績 reported outcome」與本句語境不同。",
-        "finance-mcq-53": "「金融機構 finance organization」與本句語境不同。",
-        "finance-mcq-48": "「財務表現 results」與本句語境不同。"
+        "finance-mcq-51": "本句的「financial」指「財務匯報 reporting process」。",
+        "finance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-51"
     },
@@ -4917,11 +4305,8 @@ export default {
       "masked": "The company strengthened its ____ controls.",
       "options": [
         "finance-mcq-51",
-        "finance-mcq-50",
-        "finance-mcq-52",
-        "finance-mcq-49",
-        "finance-mcq-53",
-        "finance-mcq-48"
+        "finance-mcq-31",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial-reporting」指「財務匯報 reporting process」。",
       "sentenceIndex": 124,
@@ -4930,12 +4315,9 @@ export default {
         "financial-reporting"
       ],
       "optionReasons": {
-        "finance-mcq-51": "本句指「財務匯報 reporting process」。",
-        "finance-mcq-50": "「財務報表 formal statement」與本句語境不同。",
-        "finance-mcq-52": "「財政年度 accounting period」與本句語境不同。",
-        "finance-mcq-49": "「財務業績 reported outcome」與本句語境不同。",
-        "finance-mcq-53": "「金融機構 finance organization」與本句語境不同。",
-        "finance-mcq-48": "「財務表現 results」與本句語境不同。"
+        "finance-mcq-51": "本句的「financial-reporting」指「財務匯報 reporting process」。",
+        "finance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-51"
     },
@@ -4947,11 +4329,8 @@ export default {
       "masked": "Revenue increased during the last ____ year.",
       "options": [
         "finance-mcq-52",
-        "finance-mcq-51",
-        "finance-mcq-53",
-        "finance-mcq-50",
-        "finance-mcq-54",
-        "finance-mcq-49"
+        "finance-mcq-26",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財政年度 accounting period」。",
       "sentenceIndex": 127,
@@ -4960,12 +4339,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-52": "本句指「財政年度 accounting period」。",
-        "finance-mcq-51": "「財務匯報 reporting process」與本句語境不同。",
-        "finance-mcq-53": "「金融機構 finance organization」與本句語境不同。",
-        "finance-mcq-50": "「財務報表 formal statement」與本句語境不同。",
-        "finance-mcq-54": "「金融業 industry」與本句語境不同。",
-        "finance-mcq-49": "「財務業績 reported outcome」與本句語境不同。"
+        "finance-mcq-52": "本句的「financial」指「財政年度 accounting period」。",
+        "finance-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-52"
     },
@@ -4977,11 +4353,8 @@ export default {
       "masked": "The ____ year ends in March.",
       "options": [
         "finance-mcq-52",
-        "finance-mcq-51",
-        "finance-mcq-53",
-        "finance-mcq-50",
-        "finance-mcq-54",
-        "finance-mcq-49"
+        "finance-mcq-32",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財政年度 accounting period」。",
       "sentenceIndex": 128,
@@ -4990,12 +4363,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-52": "本句指「財政年度 accounting period」。",
-        "finance-mcq-51": "「財務匯報 reporting process」與本句語境不同。",
-        "finance-mcq-53": "「金融機構 finance organization」與本句語境不同。",
-        "finance-mcq-50": "「財務報表 formal statement」與本句語境不同。",
-        "finance-mcq-54": "「金融業 industry」與本句語境不同。",
-        "finance-mcq-49": "「財務業績 reported outcome」與本句語境不同。"
+        "finance-mcq-52": "本句的「financial」指「財政年度 accounting period」。",
+        "finance-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-52"
     },
@@ -5007,11 +4377,8 @@ export default {
       "masked": "The company published its full-year ____ results.",
       "options": [
         "finance-mcq-52",
-        "finance-mcq-51",
-        "finance-mcq-53",
-        "finance-mcq-50",
-        "finance-mcq-54",
-        "finance-mcq-49"
+        "finance-mcq-30",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財政年度 accounting period」。",
       "sentenceIndex": 129,
@@ -5020,12 +4387,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-52": "本句指「財政年度 accounting period」。",
-        "finance-mcq-51": "「財務匯報 reporting process」與本句語境不同。",
-        "finance-mcq-53": "「金融機構 finance organization」與本句語境不同。",
-        "finance-mcq-50": "「財務報表 formal statement」與本句語境不同。",
-        "finance-mcq-54": "「金融業 industry」與本句語境不同。",
-        "finance-mcq-49": "「財務業績 reported outcome」與本句語境不同。"
+        "finance-mcq-52": "本句的「financial」指「財政年度 accounting period」。",
+        "finance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-52"
     },
@@ -5037,11 +4401,8 @@ export default {
       "masked": "Costs rose during the ____ year.",
       "options": [
         "finance-mcq-52",
-        "finance-mcq-51",
-        "finance-mcq-53",
-        "finance-mcq-50",
-        "finance-mcq-54",
-        "finance-mcq-49"
+        "finance-mcq-24",
+        "finance-mcq-40"
       ],
       "explanation": "本句的「financial」指「財政年度 accounting period」。",
       "sentenceIndex": 130,
@@ -5050,12 +4411,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-52": "本句指「財政年度 accounting period」。",
-        "finance-mcq-51": "「財務匯報 reporting process」與本句語境不同。",
-        "finance-mcq-53": "「金融機構 finance organization」與本句語境不同。",
-        "finance-mcq-50": "「財務報表 formal statement」與本句語境不同。",
-        "finance-mcq-54": "「金融業 industry」與本句語境不同。",
-        "finance-mcq-49": "「財務業績 reported outcome」與本句語境不同。"
+        "finance-mcq-52": "本句的「financial」指「財政年度 accounting period」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-52"
     },
@@ -5067,11 +4425,9 @@ export default {
       "masked": "Banks are major ____ institutions.",
       "options": [
         "finance-mcq-53",
-        "finance-mcq-52",
-        "finance-mcq-54",
-        "finance-mcq-51",
-        "finance-mcq-55",
-        "finance-mcq-50"
+        "finance-mcq-24",
+        "finance-mcq-17",
+        "finance-mcq-29"
       ],
       "explanation": "本句的「financial」指「金融機構 finance organization」。",
       "sentenceIndex": 131,
@@ -5080,12 +4436,10 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-53": "本句指「金融機構 finance organization」。",
-        "finance-mcq-52": "「財政年度 accounting period」與本句語境不同。",
-        "finance-mcq-54": "「金融業 industry」與本句語境不同。",
-        "finance-mcq-51": "「財務匯報 reporting process」與本句語境不同。",
-        "finance-mcq-55": "「金融服務 services」與本句語境不同。",
-        "finance-mcq-50": "「財務報表 formal statement」與本句語境不同。"
+        "finance-mcq-53": "本句的「financial」指「金融機構 finance organization」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-53"
     },
@@ -5097,11 +4451,8 @@ export default {
       "masked": "____ institutions are subject to regulation.",
       "options": [
         "finance-mcq-53",
-        "finance-mcq-52",
-        "finance-mcq-54",
-        "finance-mcq-51",
-        "finance-mcq-55",
-        "finance-mcq-50"
+        "finance-mcq-23",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「Financial」指「金融機構 finance organization」。",
       "sentenceIndex": 132,
@@ -5110,12 +4461,9 @@ export default {
         "Financial"
       ],
       "optionReasons": {
-        "finance-mcq-53": "本句指「金融機構 finance organization」。",
-        "finance-mcq-52": "「財政年度 accounting period」與本句語境不同。",
-        "finance-mcq-54": "「金融業 industry」與本句語境不同。",
-        "finance-mcq-51": "「財務匯報 reporting process」與本句語境不同。",
-        "finance-mcq-55": "「金融服務 services」與本句語境不同。",
-        "finance-mcq-50": "「財務報表 formal statement」與本句語境不同。"
+        "finance-mcq-53": "本句的「Financial」指「金融機構 finance organization」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-53"
     },
@@ -5127,11 +4475,8 @@ export default {
       "masked": "She works in the ____ sector.",
       "options": [
         "finance-mcq-54",
-        "finance-mcq-53",
-        "finance-mcq-55",
-        "finance-mcq-52",
-        "finance-mcq-56",
-        "finance-mcq-51"
+        "finance-mcq-17",
+        "finance-mcq-23"
       ],
       "explanation": "本句的「financial」指「金融業 industry」。",
       "sentenceIndex": 133,
@@ -5140,12 +4485,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-54": "本句指「金融業 industry」。",
-        "finance-mcq-53": "「金融機構 finance organization」與本句語境不同。",
-        "finance-mcq-55": "「金融服務 services」與本句語境不同。",
-        "finance-mcq-52": "「財政年度 accounting period」與本句語境不同。",
-        "finance-mcq-56": "「金融體系 system」與本句語境不同。",
-        "finance-mcq-51": "「財務匯報 reporting process」與本句語境不同。"
+        "finance-mcq-54": "本句的「financial」指「金融業 industry」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-54"
     },
@@ -5157,11 +4499,8 @@ export default {
       "masked": "The ____ sector plays a major role in the economy.",
       "options": [
         "finance-mcq-54",
-        "finance-mcq-53",
-        "finance-mcq-55",
-        "finance-mcq-52",
-        "finance-mcq-56",
-        "finance-mcq-51"
+        "finance-mcq-17",
+        "finance-mcq-23"
       ],
       "explanation": "本句的「financial」指「金融業 industry」。",
       "sentenceIndex": 134,
@@ -5170,12 +4509,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-54": "本句指「金融業 industry」。",
-        "finance-mcq-53": "「金融機構 finance organization」與本句語境不同。",
-        "finance-mcq-55": "「金融服務 services」與本句語境不同。",
-        "finance-mcq-52": "「財政年度 accounting period」與本句語境不同。",
-        "finance-mcq-56": "「金融體系 system」與本句語境不同。",
-        "finance-mcq-51": "「財務匯報 reporting process」與本句語境不同。"
+        "finance-mcq-54": "本句的「financial」指「金融業 industry」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-54"
     },
@@ -5187,11 +4523,8 @@ export default {
       "masked": "The company provides ____ services to businesses.",
       "options": [
         "finance-mcq-55",
-        "finance-mcq-54",
-        "finance-mcq-56",
-        "finance-mcq-53",
-        "finance-mcq-57",
-        "finance-mcq-52"
+        "finance-mcq-23",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「financial」指「金融服務 services」。",
       "sentenceIndex": 135,
@@ -5200,12 +4533,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-55": "本句指「金融服務 services」。",
-        "finance-mcq-54": "「金融業 industry」與本句語境不同。",
-        "finance-mcq-56": "「金融體系 system」與本句語境不同。",
-        "finance-mcq-53": "「金融機構 finance organization」與本句語境不同。",
-        "finance-mcq-57": "「金融市場 trading market」與本句語境不同。",
-        "finance-mcq-52": "「財政年度 accounting period」與本句語境不同。"
+        "finance-mcq-55": "本句的「financial」指「金融服務 services」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-55"
     },
@@ -5217,11 +4547,9 @@ export default {
       "masked": "Banking and insurance are major parts of ____ services.",
       "options": [
         "finance-mcq-55",
-        "finance-mcq-54",
-        "finance-mcq-56",
-        "finance-mcq-53",
-        "finance-mcq-57",
-        "finance-mcq-52"
+        "finance-mcq-17",
+        "finance-mcq-24",
+        "finance-mcq-40"
       ],
       "explanation": "本句的「financial」指「金融服務 services」。",
       "sentenceIndex": 136,
@@ -5230,12 +4558,10 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-55": "本句指「金融服務 services」。",
-        "finance-mcq-54": "「金融業 industry」與本句語境不同。",
-        "finance-mcq-56": "「金融體系 system」與本句語境不同。",
-        "finance-mcq-53": "「金融機構 finance organization」與本句語境不同。",
-        "finance-mcq-57": "「金融市場 trading market」與本句語境不同。",
-        "finance-mcq-52": "「財政年度 accounting period」與本句語境不同。"
+        "finance-mcq-55": "本句的「financial」指「金融服務 services」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-55"
     },
@@ -5247,11 +4573,8 @@ export default {
       "masked": "Banks form part of the ____ system.",
       "options": [
         "finance-mcq-56",
-        "finance-mcq-55",
-        "finance-mcq-57",
-        "finance-mcq-54",
-        "finance-mcq-58",
-        "finance-mcq-53"
+        "finance-mcq-23",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「financial」指「金融體系 system」。",
       "sentenceIndex": 137,
@@ -5260,12 +4583,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-56": "本句指「金融體系 system」。",
-        "finance-mcq-55": "「金融服務 services」與本句語境不同。",
-        "finance-mcq-57": "「金融市場 trading market」與本句語境不同。",
-        "finance-mcq-54": "「金融業 industry」與本句語境不同。",
-        "finance-mcq-58": "「金融資產 asset」與本句語境不同。",
-        "finance-mcq-53": "「金融機構 finance organization」與本句語境不同。"
+        "finance-mcq-56": "本句的「financial」指「金融體系 system」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-56"
     },
@@ -5277,11 +4597,9 @@ export default {
       "masked": "Confidence is important for ____ stability.",
       "options": [
         "finance-mcq-56",
-        "finance-mcq-55",
-        "finance-mcq-57",
-        "finance-mcq-54",
-        "finance-mcq-58",
-        "finance-mcq-53"
+        "finance-mcq-24",
+        "finance-mcq-17",
+        "finance-mcq-26"
       ],
       "explanation": "本句的「financial-system」指「金融體系 system」。",
       "sentenceIndex": 138,
@@ -5290,12 +4608,10 @@ export default {
         "financial-system"
       ],
       "optionReasons": {
-        "finance-mcq-56": "本句指「金融體系 system」。",
-        "finance-mcq-55": "「金融服務 services」與本句語境不同。",
-        "finance-mcq-57": "「金融市場 trading market」與本句語境不同。",
-        "finance-mcq-54": "「金融業 industry」與本句語境不同。",
-        "finance-mcq-58": "「金融資產 asset」與本句語境不同。",
-        "finance-mcq-53": "「金融機構 finance organization」與本句語境不同。"
+        "finance-mcq-56": "本句的「financial-system」指「金融體系 system」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-56"
     },
@@ -5307,11 +4623,8 @@ export default {
       "masked": "The announcement affected ____ markets.",
       "options": [
         "finance-mcq-57",
-        "finance-mcq-56",
-        "finance-mcq-58",
-        "finance-mcq-55",
-        "finance-mcq-59",
-        "finance-mcq-54"
+        "finance-mcq-23",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「financial」指「金融市場 trading market」。",
       "sentenceIndex": 139,
@@ -5320,12 +4633,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-57": "本句指「金融市場 trading market」。",
-        "finance-mcq-56": "「金融體系 system」與本句語境不同。",
-        "finance-mcq-58": "「金融資產 asset」與本句語境不同。",
-        "finance-mcq-55": "「金融服務 services」與本句語境不同。",
-        "finance-mcq-59": "「金融工具 financial contract」與本句語境不同。",
-        "finance-mcq-54": "「金融業 industry」與本句語境不同。"
+        "finance-mcq-57": "本句的「financial」指「金融市場 trading market」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-57"
     },
@@ -5337,11 +4647,9 @@ export default {
       "masked": "____ markets allow capital to move between investors and borrowers.",
       "options": [
         "finance-mcq-57",
-        "finance-mcq-56",
-        "finance-mcq-58",
-        "finance-mcq-55",
-        "finance-mcq-59",
-        "finance-mcq-54"
+        "finance-mcq-17",
+        "finance-mcq-24",
+        "finance-mcq-31"
       ],
       "explanation": "本句的「Financial」指「金融市場 trading market」。",
       "sentenceIndex": 140,
@@ -5350,12 +4658,10 @@ export default {
         "Financial"
       ],
       "optionReasons": {
-        "finance-mcq-57": "本句指「金融市場 trading market」。",
-        "finance-mcq-56": "「金融體系 system」與本句語境不同。",
-        "finance-mcq-58": "「金融資產 asset」與本句語境不同。",
-        "finance-mcq-55": "「金融服務 services」與本句語境不同。",
-        "finance-mcq-59": "「金融工具 financial contract」與本句語境不同。",
-        "finance-mcq-54": "「金融業 industry」與本句語境不同。"
+        "finance-mcq-57": "本句的「Financial」指「金融市場 trading market」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-57"
     },
@@ -5367,11 +4673,8 @@ export default {
       "masked": "Shares and bonds are ____ assets.",
       "options": [
         "finance-mcq-58",
-        "finance-mcq-57",
-        "finance-mcq-59",
-        "finance-mcq-56",
-        "finance-mcq-60",
-        "finance-mcq-55"
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「金融資產 asset」。",
       "sentenceIndex": 141,
@@ -5380,12 +4683,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-58": "本句指「金融資產 asset」。",
-        "finance-mcq-57": "「金融市場 trading market」與本句語境不同。",
-        "finance-mcq-59": "「金融工具 financial contract」與本句語境不同。",
-        "finance-mcq-56": "「金融體系 system」與本句語境不同。",
-        "finance-mcq-60": "「金融／財務負債 obligation」與本句語境不同。",
-        "finance-mcq-55": "「金融服務 services」與本句語境不同。"
+        "finance-mcq-58": "本句的「financial」指「金融資產 asset」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-58"
     },
@@ -5397,11 +4697,8 @@ export default {
       "masked": "The fund holds a range of ____ assets.",
       "options": [
         "finance-mcq-58",
-        "finance-mcq-57",
-        "finance-mcq-59",
-        "finance-mcq-56",
-        "finance-mcq-60",
-        "finance-mcq-55"
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「金融資產 asset」。",
       "sentenceIndex": 142,
@@ -5410,12 +4707,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-58": "本句指「金融資產 asset」。",
-        "finance-mcq-57": "「金融市場 trading market」與本句語境不同。",
-        "finance-mcq-59": "「金融工具 financial contract」與本句語境不同。",
-        "finance-mcq-56": "「金融體系 system」與本句語境不同。",
-        "finance-mcq-60": "「金融／財務負債 obligation」與本句語境不同。",
-        "finance-mcq-55": "「金融服務 services」與本句語境不同。"
+        "finance-mcq-58": "本句的「financial」指「金融資產 asset」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-58"
     },
@@ -5427,11 +4721,9 @@ export default {
       "masked": "A bond is a ____ instrument.",
       "options": [
         "finance-mcq-59",
-        "finance-mcq-58",
-        "finance-mcq-60",
-        "finance-mcq-57",
-        "finance-mcq-61",
-        "finance-mcq-56"
+        "finance-mcq-17",
+        "finance-mcq-24",
+        "finance-mcq-35"
       ],
       "explanation": "本句的「financial」指「金融工具 financial contract」。",
       "sentenceIndex": 143,
@@ -5440,12 +4732,10 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-59": "本句指「金融工具 financial contract」。",
-        "finance-mcq-58": "「金融資產 asset」與本句語境不同。",
-        "finance-mcq-60": "「金融／財務負債 obligation」與本句語境不同。",
-        "finance-mcq-57": "「金融市場 trading market」與本句語境不同。",
-        "finance-mcq-61": "「財務風險 money risk」與本句語境不同。",
-        "finance-mcq-56": "「金融體系 system」與本句語境不同。"
+        "finance-mcq-59": "本句的「financial」指「金融工具 financial contract」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-59"
     },
@@ -5457,11 +4747,9 @@ export default {
       "masked": "Different ____ instruments carry different risks.",
       "options": [
         "finance-mcq-59",
-        "finance-mcq-58",
-        "finance-mcq-60",
-        "finance-mcq-57",
-        "finance-mcq-61",
-        "finance-mcq-56"
+        "finance-mcq-24",
+        "finance-mcq-17",
+        "finance-mcq-30"
       ],
       "explanation": "本句的「financial」指「金融工具 financial contract」。",
       "sentenceIndex": 144,
@@ -5470,12 +4758,10 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-59": "本句指「金融工具 financial contract」。",
-        "finance-mcq-58": "「金融資產 asset」與本句語境不同。",
-        "finance-mcq-60": "「金融／財務負債 obligation」與本句語境不同。",
-        "finance-mcq-57": "「金融市場 trading market」與本句語境不同。",
-        "finance-mcq-61": "「財務風險 money risk」與本句語境不同。",
-        "finance-mcq-56": "「金融體系 system」與本句語境不同。"
+        "finance-mcq-59": "本句的「financial」指「金融工具 financial contract」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-59"
     },
@@ -5487,11 +4773,7 @@ export default {
       "masked": "The company has significant ____ liabilities.",
       "options": [
         "finance-mcq-60",
-        "finance-mcq-59",
-        "finance-mcq-61",
-        "finance-mcq-58",
-        "finance-mcq-62",
-        "finance-mcq-57"
+        "finance-mcq-23"
       ],
       "explanation": "本句的「financial」指「金融／財務負債 obligation」。",
       "sentenceIndex": 145,
@@ -5500,12 +4782,8 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-60": "本句指「金融／財務負債 obligation」。",
-        "finance-mcq-59": "「金融工具 financial contract」與本句語境不同。",
-        "finance-mcq-61": "「財務風險 money risk」與本句語境不同。",
-        "finance-mcq-58": "「金融資產 asset」與本句語境不同。",
-        "finance-mcq-62": "「金融危機 systemic crisis」與本句語境不同。",
-        "finance-mcq-57": "「金融市場 trading market」與本句語境不同。"
+        "finance-mcq-60": "本句的「financial」指「金融／財務負債 obligation」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-60"
     },
@@ -5517,11 +4795,7 @@ export default {
       "masked": "Debt creates a ____ liability.",
       "options": [
         "finance-mcq-60",
-        "finance-mcq-59",
-        "finance-mcq-61",
-        "finance-mcq-58",
-        "finance-mcq-62",
-        "finance-mcq-57"
+        "finance-mcq-23"
       ],
       "explanation": "本句的「financial」指「金融／財務負債 obligation」。",
       "sentenceIndex": 146,
@@ -5530,12 +4804,8 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-60": "本句指「金融／財務負債 obligation」。",
-        "finance-mcq-59": "「金融工具 financial contract」與本句語境不同。",
-        "finance-mcq-61": "「財務風險 money risk」與本句語境不同。",
-        "finance-mcq-58": "「金融資產 asset」與本句語境不同。",
-        "finance-mcq-62": "「金融危機 systemic crisis」與本句語境不同。",
-        "finance-mcq-57": "「金融市場 trading market」與本句語境不同。"
+        "finance-mcq-60": "本句的「financial」指「金融／財務負債 obligation」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-60"
     },
@@ -5547,11 +4817,7 @@ export default {
       "masked": "Borrowing increases ____ risk.",
       "options": [
         "finance-mcq-61",
-        "finance-mcq-60",
-        "finance-mcq-62",
-        "finance-mcq-59",
-        "finance-mcq-63",
-        "finance-mcq-58"
+        "finance-mcq-23"
       ],
       "explanation": "本句的「financial」指「財務風險 money risk」。",
       "sentenceIndex": 147,
@@ -5560,12 +4826,8 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-61": "本句指「財務風險 money risk」。",
-        "finance-mcq-60": "「金融／財務負債 obligation」與本句語境不同。",
-        "finance-mcq-62": "「金融危機 systemic crisis」與本句語境不同。",
-        "finance-mcq-59": "「金融工具 financial contract」與本句語境不同。",
-        "finance-mcq-63": "「金融／財務穩定 stability」與本句語境不同。",
-        "finance-mcq-58": "「金融資產 asset」與本句語境不同。"
+        "finance-mcq-61": "本句的「financial」指「財務風險 money risk」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-61"
     },
@@ -5577,11 +4839,8 @@ export default {
       "masked": "Managers should identify major ____ risks early.",
       "options": [
         "finance-mcq-61",
-        "finance-mcq-60",
-        "finance-mcq-62",
-        "finance-mcq-59",
-        "finance-mcq-63",
-        "finance-mcq-58"
+        "finance-mcq-08",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務風險 money risk」。",
       "sentenceIndex": 148,
@@ -5590,12 +4849,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-61": "本句指「財務風險 money risk」。",
-        "finance-mcq-60": "「金融／財務負債 obligation」與本句語境不同。",
-        "finance-mcq-62": "「金融危機 systemic crisis」與本句語境不同。",
-        "finance-mcq-59": "「金融工具 financial contract」與本句語境不同。",
-        "finance-mcq-63": "「金融／財務穩定 stability」與本句語境不同。",
-        "finance-mcq-58": "「金融資產 asset」與本句語境不同。"
+        "finance-mcq-61": "本句的「financial」指「財務風險 money risk」。",
+        "finance-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-61"
     },
@@ -5607,11 +4863,9 @@ export default {
       "masked": "The country experienced a severe ____ crisis.",
       "options": [
         "finance-mcq-62",
-        "finance-mcq-61",
-        "finance-mcq-63",
-        "finance-mcq-60",
-        "finance-mcq-64",
-        "finance-mcq-59"
+        "finance-mcq-24",
+        "finance-mcq-17",
+        "finance-mcq-26"
       ],
       "explanation": "本句的「financial」指「金融危機 systemic crisis」。",
       "sentenceIndex": 149,
@@ -5620,12 +4874,10 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-62": "本句指「金融危機 systemic crisis」。",
-        "finance-mcq-61": "「財務風險 money risk」與本句語境不同。",
-        "finance-mcq-63": "「金融／財務穩定 stability」與本句語境不同。",
-        "finance-mcq-60": "「金融／財務負債 obligation」與本句語境不同。",
-        "finance-mcq-64": "「經濟保障 personal security」與本句語境不同。",
-        "finance-mcq-59": "「金融工具 financial contract」與本句語境不同。"
+        "finance-mcq-62": "本句的「financial」指「金融危機 systemic crisis」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-62"
     },
@@ -5637,11 +4889,9 @@ export default {
       "masked": "____ crises can damage banks, firms and households.",
       "options": [
         "finance-mcq-62",
-        "finance-mcq-61",
-        "finance-mcq-63",
-        "finance-mcq-60",
-        "finance-mcq-64",
-        "finance-mcq-59"
+        "finance-mcq-24",
+        "finance-mcq-17",
+        "finance-mcq-27"
       ],
       "explanation": "本句的「Financial」指「金融危機 systemic crisis」。",
       "sentenceIndex": 150,
@@ -5650,12 +4900,10 @@ export default {
         "Financial"
       ],
       "optionReasons": {
-        "finance-mcq-62": "本句指「金融危機 systemic crisis」。",
-        "finance-mcq-61": "「財務風險 money risk」與本句語境不同。",
-        "finance-mcq-63": "「金融／財務穩定 stability」與本句語境不同。",
-        "finance-mcq-60": "「金融／財務負債 obligation」與本句語境不同。",
-        "finance-mcq-64": "「經濟保障 personal security」與本句語境不同。",
-        "finance-mcq-59": "「金融工具 financial contract」與本句語境不同。"
+        "finance-mcq-62": "本句的「Financial」指「金融危機 systemic crisis」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-62"
     },
@@ -5667,11 +4915,7 @@ export default {
       "masked": "Regulators seek to protect ____ stability.",
       "options": [
         "finance-mcq-63",
-        "finance-mcq-62",
-        "finance-mcq-64",
-        "finance-mcq-61",
-        "finance-mcq-65",
-        "finance-mcq-60"
+        "finance-mcq-23"
       ],
       "explanation": "本句的「financial」指「金融／財務穩定 stability」。",
       "sentenceIndex": 151,
@@ -5680,12 +4924,8 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-63": "本句指「金融／財務穩定 stability」。",
-        "finance-mcq-62": "「金融危機 systemic crisis」與本句語境不同。",
-        "finance-mcq-64": "「經濟保障 personal security」與本句語境不同。",
-        "finance-mcq-61": "「財務風險 money risk」與本句語境不同。",
-        "finance-mcq-65": "「經濟支援 support」與本句語境不同。",
-        "finance-mcq-60": "「金融／財務負債 obligation」與本句語境不同。"
+        "finance-mcq-63": "本句的「financial」指「金融／財務穩定 stability」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-63"
     },
@@ -5697,11 +4937,7 @@ export default {
       "masked": "Stable cash flow improves a company's ____ stability.",
       "options": [
         "finance-mcq-63",
-        "finance-mcq-62",
-        "finance-mcq-64",
-        "finance-mcq-61",
-        "finance-mcq-65",
-        "finance-mcq-60"
+        "finance-mcq-23"
       ],
       "explanation": "本句的「financial」指「金融／財務穩定 stability」。",
       "sentenceIndex": 152,
@@ -5710,12 +4946,8 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-63": "本句指「金融／財務穩定 stability」。",
-        "finance-mcq-62": "「金融危機 systemic crisis」與本句語境不同。",
-        "finance-mcq-64": "「經濟保障 personal security」與本句語境不同。",
-        "finance-mcq-61": "「財務風險 money risk」與本句語境不同。",
-        "finance-mcq-65": "「經濟支援 support」與本句語境不同。",
-        "finance-mcq-60": "「金融／財務負債 obligation」與本句語境不同。"
+        "finance-mcq-63": "本句的「financial」指「金融／財務穩定 stability」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-63"
     },
@@ -5727,11 +4959,9 @@ export default {
       "masked": "She saves regularly for greater ____ security.",
       "options": [
         "finance-mcq-64",
-        "finance-mcq-63",
-        "finance-mcq-65",
-        "finance-mcq-62",
-        "finance-mcq-66",
-        "finance-mcq-61"
+        "finance-mcq-24",
+        "finance-mcq-30",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「financial」指「經濟保障 personal security」。",
       "sentenceIndex": 153,
@@ -5740,12 +4970,10 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-64": "本句指「經濟保障 personal security」。",
-        "finance-mcq-63": "「金融／財務穩定 stability」與本句語境不同。",
-        "finance-mcq-65": "「經濟支援 support」與本句語境不同。",
-        "finance-mcq-62": "「金融危機 systemic crisis」與本句語境不同。",
-        "finance-mcq-66": "「財務援助 assistance」與本句語境不同。",
-        "finance-mcq-61": "「財務風險 money risk」與本句語境不同。"
+        "finance-mcq-64": "本句的「financial」指「經濟保障 personal security」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-64"
     },
@@ -5757,11 +4985,9 @@ export default {
       "masked": "Stable employment can provide ____ security.",
       "options": [
         "finance-mcq-64",
-        "finance-mcq-63",
-        "finance-mcq-65",
-        "finance-mcq-62",
-        "finance-mcq-66",
-        "finance-mcq-61"
+        "finance-mcq-34",
+        "finance-mcq-24",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「financial」指「經濟保障 personal security」。",
       "sentenceIndex": 154,
@@ -5770,12 +4996,10 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-64": "本句指「經濟保障 personal security」。",
-        "finance-mcq-63": "「金融／財務穩定 stability」與本句語境不同。",
-        "finance-mcq-65": "「經濟支援 support」與本句語境不同。",
-        "finance-mcq-62": "「金融危機 systemic crisis」與本句語境不同。",
-        "finance-mcq-66": "「財務援助 assistance」與本句語境不同。",
-        "finance-mcq-61": "「財務風險 money risk」與本句語境不同。"
+        "finance-mcq-64": "本句的「financial」指「經濟保障 personal security」。",
+        "finance-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-64"
     },
@@ -5787,11 +5011,9 @@ export default {
       "masked": "Students may receive ____ support.",
       "options": [
         "finance-mcq-65",
-        "finance-mcq-64",
-        "finance-mcq-66",
-        "finance-mcq-63",
-        "finance-mcq-67",
-        "finance-mcq-62"
+        "finance-mcq-29",
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「經濟支援 support」。",
       "sentenceIndex": 155,
@@ -5800,12 +5022,10 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-65": "本句指「經濟支援 support」。",
-        "finance-mcq-64": "「經濟保障 personal security」與本句語境不同。",
-        "finance-mcq-66": "「財務援助 assistance」與本句語境不同。",
-        "finance-mcq-63": "「金融／財務穩定 stability」與本句語境不同。",
-        "finance-mcq-67": "「經濟援助／助學金 aid」與本句語境不同。",
-        "finance-mcq-62": "「金融危機 systemic crisis」與本句語境不同。"
+        "finance-mcq-65": "本句的「financial」指「經濟支援 support」。",
+        "finance-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-65"
     },
@@ -5817,11 +5037,9 @@ export default {
       "masked": "The project depends on continued ____ support.",
       "options": [
         "finance-mcq-65",
-        "finance-mcq-64",
-        "finance-mcq-66",
-        "finance-mcq-63",
-        "finance-mcq-67",
-        "finance-mcq-62"
+        "finance-mcq-21",
+        "finance-mcq-24",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「financial」指「經濟支援 support」。",
       "sentenceIndex": 156,
@@ -5830,12 +5048,10 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-65": "本句指「經濟支援 support」。",
-        "finance-mcq-64": "「經濟保障 personal security」與本句語境不同。",
-        "finance-mcq-66": "「財務援助 assistance」與本句語境不同。",
-        "finance-mcq-63": "「金融／財務穩定 stability」與本句語境不同。",
-        "finance-mcq-67": "「經濟援助／助學金 aid」與本句語境不同。",
-        "finance-mcq-62": "「金融危機 systemic crisis」與本句語境不同。"
+        "finance-mcq-65": "本句的「financial」指「經濟支援 support」。",
+        "finance-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-65"
     },
@@ -5847,11 +5063,8 @@ export default {
       "masked": "Families can apply for ____ assistance.",
       "options": [
         "finance-mcq-66",
-        "finance-mcq-65",
-        "finance-mcq-67",
-        "finance-mcq-64",
-        "finance-mcq-68",
-        "finance-mcq-63"
+        "finance-mcq-32",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務援助 assistance」。",
       "sentenceIndex": 157,
@@ -5860,12 +5073,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-66": "本句指「財務援助 assistance」。",
-        "finance-mcq-65": "「經濟支援 support」與本句語境不同。",
-        "finance-mcq-67": "「經濟援助／助學金 aid」與本句語境不同。",
-        "finance-mcq-64": "「經濟保障 personal security」與本句語境不同。",
-        "finance-mcq-68": "「財務資源；財力 money resources」與本句語境不同。",
-        "finance-mcq-63": "「金融／財務穩定 stability」與本句語境不同。"
+        "finance-mcq-66": "本句的「financial」指「財務援助 assistance」。",
+        "finance-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-66"
     },
@@ -5877,11 +5087,8 @@ export default {
       "masked": "The programme offers ____ assistance to small businesses.",
       "options": [
         "finance-mcq-66",
-        "finance-mcq-65",
-        "finance-mcq-67",
-        "finance-mcq-64",
-        "finance-mcq-68",
-        "finance-mcq-63"
+        "finance-mcq-27",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務援助 assistance」。",
       "sentenceIndex": 158,
@@ -5890,12 +5097,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-66": "本句指「財務援助 assistance」。",
-        "finance-mcq-65": "「經濟支援 support」與本句語境不同。",
-        "finance-mcq-67": "「經濟援助／助學金 aid」與本句語境不同。",
-        "finance-mcq-64": "「經濟保障 personal security」與本句語境不同。",
-        "finance-mcq-68": "「財務資源；財力 money resources」與本句語境不同。",
-        "finance-mcq-63": "「金融／財務穩定 stability」與本句語境不同。"
+        "finance-mcq-66": "本句的「financial」指「財務援助 assistance」。",
+        "finance-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-66"
     },
@@ -5907,11 +5111,9 @@ export default {
       "masked": "She applied for ____ aid to attend university.",
       "options": [
         "finance-mcq-67",
-        "finance-mcq-66",
-        "finance-mcq-68",
-        "finance-mcq-65",
-        "finance-mcq-69",
-        "finance-mcq-64"
+        "finance-mcq-24",
+        "finance-mcq-17",
+        "finance-mcq-27"
       ],
       "explanation": "本句的「financial」指「經濟援助／助學金 aid」。",
       "sentenceIndex": 159,
@@ -5920,12 +5122,10 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-67": "本句指「經濟援助／助學金 aid」。",
-        "finance-mcq-66": "「財務援助 assistance」與本句語境不同。",
-        "finance-mcq-68": "「財務資源；財力 money resources」與本句語境不同。",
-        "finance-mcq-65": "「經濟支援 support」與本句語境不同。",
-        "finance-mcq-69": "「財務承擔 future obligation」與本句語境不同。",
-        "finance-mcq-64": "「經濟保障 personal security」與本句語境不同。"
+        "finance-mcq-67": "本句的「financial」指「經濟援助／助學金 aid」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-67"
     },
@@ -5937,11 +5137,8 @@ export default {
       "masked": "____ aid can include grants, loans and scholarships.",
       "options": [
         "finance-mcq-67",
-        "finance-mcq-66",
-        "finance-mcq-68",
-        "finance-mcq-65",
-        "finance-mcq-69",
-        "finance-mcq-64"
+        "finance-mcq-28",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「Financial」指「經濟援助／助學金 aid」。",
       "sentenceIndex": 160,
@@ -5950,12 +5147,9 @@ export default {
         "Financial"
       ],
       "optionReasons": {
-        "finance-mcq-67": "本句指「經濟援助／助學金 aid」。",
-        "finance-mcq-66": "「財務援助 assistance」與本句語境不同。",
-        "finance-mcq-68": "「財務資源；財力 money resources」與本句語境不同。",
-        "finance-mcq-65": "「經濟支援 support」與本句語境不同。",
-        "finance-mcq-69": "「財務承擔 future obligation」與本句語境不同。",
-        "finance-mcq-64": "「經濟保障 personal security」與本句語境不同。"
+        "finance-mcq-67": "本句的「Financial」指「經濟援助／助學金 aid」。",
+        "finance-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-67"
     },
@@ -5967,11 +5161,8 @@ export default {
       "masked": "The organisation lacks sufficient ____ resources.",
       "options": [
         "finance-mcq-68",
-        "finance-mcq-67",
-        "finance-mcq-69",
-        "finance-mcq-66",
-        "finance-mcq-70",
-        "finance-mcq-65"
+        "finance-mcq-30",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務資源；財力 money resources」。",
       "sentenceIndex": 161,
@@ -5980,12 +5171,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-68": "本句指「財務資源；財力 money resources」。",
-        "finance-mcq-67": "「經濟援助／助學金 aid」與本句語境不同。",
-        "finance-mcq-69": "「財務承擔 future obligation」與本句語境不同。",
-        "finance-mcq-66": "「財務援助 assistance」與本句語境不同。",
-        "finance-mcq-70": "「財務負擔 cost pressure」與本句語境不同。",
-        "finance-mcq-65": "「經濟支援 support」與本句語境不同。"
+        "finance-mcq-68": "本句的「financial」指「財務資源；財力 money resources」。",
+        "finance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-68"
     },
@@ -5997,11 +5185,8 @@ export default {
       "masked": "Larger firms often have greater ____ resources.",
       "options": [
         "finance-mcq-68",
-        "finance-mcq-67",
-        "finance-mcq-69",
-        "finance-mcq-66",
-        "finance-mcq-70",
-        "finance-mcq-65"
+        "finance-mcq-30",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務資源；財力 money resources」。",
       "sentenceIndex": 162,
@@ -6010,12 +5195,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-68": "本句指「財務資源；財力 money resources」。",
-        "finance-mcq-67": "「經濟援助／助學金 aid」與本句語境不同。",
-        "finance-mcq-69": "「財務承擔 future obligation」與本句語境不同。",
-        "finance-mcq-66": "「財務援助 assistance」與本句語境不同。",
-        "finance-mcq-70": "「財務負擔 cost pressure」與本句語境不同。",
-        "finance-mcq-65": "「經濟支援 support」與本句語境不同。"
+        "finance-mcq-68": "本句的「financial」指「財務資源；財力 money resources」。",
+        "finance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-68"
     },
@@ -6027,11 +5209,8 @@ export default {
       "masked": "Buying a home is a major ____ commitment.",
       "options": [
         "finance-mcq-69",
-        "finance-mcq-68",
-        "finance-mcq-70",
-        "finance-mcq-67",
-        "finance-mcq-71",
-        "finance-mcq-66"
+        "finance-mcq-40",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務承擔 future obligation」。",
       "sentenceIndex": 163,
@@ -6040,12 +5219,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-69": "本句指「財務承擔 future obligation」。",
-        "finance-mcq-68": "「財務資源；財力 money resources」與本句語境不同。",
-        "finance-mcq-70": "「財務負擔 cost pressure」與本句語境不同。",
-        "finance-mcq-67": "「經濟援助／助學金 aid」與本句語境不同。",
-        "finance-mcq-71": "「財務困難 problems」與本句語境不同。",
-        "finance-mcq-66": "「財務援助 assistance」與本句語境不同。"
+        "finance-mcq-69": "本句的「financial」指「財務承擔 future obligation」。",
+        "finance-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-69"
     },
@@ -6057,11 +5233,8 @@ export default {
       "masked": "The project requires a long-term ____ commitment.",
       "options": [
         "finance-mcq-69",
-        "finance-mcq-68",
-        "finance-mcq-70",
-        "finance-mcq-67",
-        "finance-mcq-71",
-        "finance-mcq-66"
+        "finance-mcq-08",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務承擔 future obligation」。",
       "sentenceIndex": 164,
@@ -6070,12 +5243,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-69": "本句指「財務承擔 future obligation」。",
-        "finance-mcq-68": "「財務資源；財力 money resources」與本句語境不同。",
-        "finance-mcq-70": "「財務負擔 cost pressure」與本句語境不同。",
-        "finance-mcq-67": "「經濟援助／助學金 aid」與本句語境不同。",
-        "finance-mcq-71": "「財務困難 problems」與本句語境不同。",
-        "finance-mcq-66": "「財務援助 assistance」與本句語境不同。"
+        "finance-mcq-69": "本句的「financial」指「財務承擔 future obligation」。",
+        "finance-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-69"
     },
@@ -6087,11 +5257,8 @@ export default {
       "masked": "Medical costs created a heavy ____ burden.",
       "options": [
         "finance-mcq-70",
-        "finance-mcq-69",
-        "finance-mcq-71",
-        "finance-mcq-68",
-        "finance-mcq-72",
-        "finance-mcq-67"
+        "finance-mcq-27",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務負擔 cost pressure」。",
       "sentenceIndex": 165,
@@ -6100,12 +5267,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-70": "本句指「財務負擔 cost pressure」。",
-        "finance-mcq-69": "「財務承擔 future obligation」與本句語境不同。",
-        "finance-mcq-71": "「財務困難 problems」與本句語境不同。",
-        "finance-mcq-68": "「財務資源；財力 money resources」與本句語境不同。",
-        "finance-mcq-72": "「財務困境 serious stress」與本句語境不同。",
-        "finance-mcq-67": "「經濟援助／助學金 aid」與本句語境不同。"
+        "finance-mcq-70": "本句的「financial」指「財務負擔 cost pressure」。",
+        "finance-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-70"
     },
@@ -6117,11 +5281,8 @@ export default {
       "masked": "The project should not place an unfair ____ burden on one department.",
       "options": [
         "finance-mcq-70",
-        "finance-mcq-69",
-        "finance-mcq-71",
-        "finance-mcq-68",
-        "finance-mcq-72",
-        "finance-mcq-67"
+        "finance-mcq-30",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務負擔 cost pressure」。",
       "sentenceIndex": 166,
@@ -6130,12 +5291,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-70": "本句指「財務負擔 cost pressure」。",
-        "finance-mcq-69": "「財務承擔 future obligation」與本句語境不同。",
-        "finance-mcq-71": "「財務困難 problems」與本句語境不同。",
-        "finance-mcq-68": "「財務資源；財力 money resources」與本句語境不同。",
-        "finance-mcq-72": "「財務困境 serious stress」與本句語境不同。",
-        "finance-mcq-67": "「經濟援助／助學金 aid」與本句語境不同。"
+        "finance-mcq-70": "本句的「financial」指「財務負擔 cost pressure」。",
+        "finance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-70"
     },
@@ -6147,11 +5305,8 @@ export default {
       "masked": "The company is experiencing ____ difficulties.",
       "options": [
         "finance-mcq-71",
-        "finance-mcq-70",
-        "finance-mcq-72",
-        "finance-mcq-69",
-        "finance-mcq-73",
-        "finance-mcq-68"
+        "finance-mcq-29",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務困難 problems」。",
       "sentenceIndex": 169,
@@ -6160,12 +5315,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-71": "本句指「財務困難 problems」。",
-        "finance-mcq-70": "「財務負擔 cost pressure」與本句語境不同。",
-        "finance-mcq-72": "「財務困境 serious stress」與本句語境不同。",
-        "finance-mcq-69": "「財務承擔 future obligation」與本句語境不同。",
-        "finance-mcq-73": "「財務損失 loss」與本句語境不同。",
-        "finance-mcq-68": "「財務資源；財力 money resources」與本句語境不同。"
+        "finance-mcq-71": "本句的「financial」指「財務困難 problems」。",
+        "finance-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-71"
     },
@@ -6177,11 +5329,8 @@ export default {
       "masked": "Unexpected expenses pushed the family into ____ difficulty.",
       "options": [
         "finance-mcq-71",
-        "finance-mcq-70",
-        "finance-mcq-72",
-        "finance-mcq-69",
-        "finance-mcq-73",
-        "finance-mcq-68"
+        "finance-mcq-29",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務困難 problems」。",
       "sentenceIndex": 170,
@@ -6190,12 +5339,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-71": "本句指「財務困難 problems」。",
-        "finance-mcq-70": "「財務負擔 cost pressure」與本句語境不同。",
-        "finance-mcq-72": "「財務困境 serious stress」與本句語境不同。",
-        "finance-mcq-69": "「財務承擔 future obligation」與本句語境不同。",
-        "finance-mcq-73": "「財務損失 loss」與本句語境不同。",
-        "finance-mcq-68": "「財務資源；財力 money resources」與本句語境不同。"
+        "finance-mcq-71": "本句的「financial」指「財務困難 problems」。",
+        "finance-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-71"
     },
@@ -6207,11 +5353,8 @@ export default {
       "masked": "The company showed signs of ____ distress.",
       "options": [
         "finance-mcq-72",
-        "finance-mcq-71",
-        "finance-mcq-73",
-        "finance-mcq-70",
-        "finance-mcq-74",
-        "finance-mcq-69"
+        "finance-mcq-35",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務困境 serious stress」。",
       "sentenceIndex": 171,
@@ -6220,12 +5363,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-72": "本句指「財務困境 serious stress」。",
-        "finance-mcq-71": "「財務困難 problems」與本句語境不同。",
-        "finance-mcq-73": "「財務損失 loss」與本句語境不同。",
-        "finance-mcq-70": "「財務負擔 cost pressure」與本句語境不同。",
-        "finance-mcq-74": "「金錢收益 gain」與本句語境不同。",
-        "finance-mcq-69": "「財務承擔 future obligation」與本句語境不同。"
+        "finance-mcq-72": "本句的「financial」指「財務困境 serious stress」。",
+        "finance-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-72"
     },
@@ -6237,11 +5377,8 @@ export default {
       "masked": "Heavy debt can push firms into ____ distress.",
       "options": [
         "finance-mcq-72",
-        "finance-mcq-71",
-        "finance-mcq-73",
-        "finance-mcq-70",
-        "finance-mcq-74",
-        "finance-mcq-69"
+        "finance-mcq-32",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務困境 serious stress」。",
       "sentenceIndex": 172,
@@ -6250,12 +5387,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-72": "本句指「財務困境 serious stress」。",
-        "finance-mcq-71": "「財務困難 problems」與本句語境不同。",
-        "finance-mcq-73": "「財務損失 loss」與本句語境不同。",
-        "finance-mcq-70": "「財務負擔 cost pressure」與本句語境不同。",
-        "finance-mcq-74": "「金錢收益 gain」與本句語境不同。",
-        "finance-mcq-69": "「財務承擔 future obligation」與本句語境不同。"
+        "finance-mcq-72": "本句的「financial」指「財務困境 serious stress」。",
+        "finance-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-72"
     },
@@ -6267,11 +5401,8 @@ export default {
       "masked": "The mistake caused a significant ____ loss.",
       "options": [
         "finance-mcq-73",
-        "finance-mcq-72",
-        "finance-mcq-74",
-        "finance-mcq-71",
-        "finance-mcq-75",
-        "finance-mcq-70"
+        "finance-mcq-31",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務損失 loss」。",
       "sentenceIndex": 173,
@@ -6280,12 +5411,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-73": "本句指「財務損失 loss」。",
-        "finance-mcq-72": "「財務困境 serious stress」與本句語境不同。",
-        "finance-mcq-74": "「金錢收益 gain」與本句語境不同。",
-        "finance-mcq-71": "「財務困難 problems」與本句語境不同。",
-        "finance-mcq-75": "「金錢誘因 motivation」與本句語境不同。",
-        "finance-mcq-70": "「財務負擔 cost pressure」與本句語境不同。"
+        "finance-mcq-73": "本句的「financial」指「財務損失 loss」。",
+        "finance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-73"
     },
@@ -6297,11 +5425,8 @@ export default {
       "masked": "Insurance can protect against certain ____ losses.",
       "options": [
         "finance-mcq-73",
-        "finance-mcq-72",
-        "finance-mcq-74",
-        "finance-mcq-71",
-        "finance-mcq-75",
-        "finance-mcq-70"
+        "finance-mcq-08",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務損失 loss」。",
       "sentenceIndex": 174,
@@ -6310,12 +5435,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-73": "本句指「財務損失 loss」。",
-        "finance-mcq-72": "「財務困境 serious stress」與本句語境不同。",
-        "finance-mcq-74": "「金錢收益 gain」與本句語境不同。",
-        "finance-mcq-71": "「財務困難 problems」與本句語境不同。",
-        "finance-mcq-75": "「金錢誘因 motivation」與本句語境不同。",
-        "finance-mcq-70": "「財務負擔 cost pressure」與本句語境不同。"
+        "finance-mcq-73": "本句的「financial」指「財務損失 loss」。",
+        "finance-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-73"
     },
@@ -6327,11 +5449,8 @@ export default {
       "masked": "He had no personal ____ gain from the decision.",
       "options": [
         "finance-mcq-74",
-        "finance-mcq-73",
-        "finance-mcq-75",
-        "finance-mcq-72",
-        "finance-mcq-76",
-        "finance-mcq-71"
+        "finance-mcq-17",
+        "finance-mcq-23"
       ],
       "explanation": "本句的「financial」指「金錢收益 gain」。",
       "sentenceIndex": 175,
@@ -6340,12 +5459,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-74": "本句指「金錢收益 gain」。",
-        "finance-mcq-73": "「財務損失 loss」與本句語境不同。",
-        "finance-mcq-75": "「金錢誘因 motivation」與本句語境不同。",
-        "finance-mcq-72": "「財務困境 serious stress」與本句語境不同。",
-        "finance-mcq-76": "「金錢回報 reward」與本句語境不同。",
-        "finance-mcq-71": "「財務困難 problems」與本句語境不同。"
+        "finance-mcq-74": "本句的「financial」指「金錢收益 gain」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-74"
     },
@@ -6357,11 +5473,9 @@ export default {
       "masked": "The arrangement offered little ____ gain.",
       "options": [
         "finance-mcq-74",
-        "finance-mcq-73",
-        "finance-mcq-75",
-        "finance-mcq-72",
-        "finance-mcq-76",
-        "finance-mcq-71"
+        "finance-mcq-31",
+        "finance-mcq-24",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「financial」指「金錢收益 gain」。",
       "sentenceIndex": 176,
@@ -6370,12 +5484,10 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-74": "本句指「金錢收益 gain」。",
-        "finance-mcq-73": "「財務損失 loss」與本句語境不同。",
-        "finance-mcq-75": "「金錢誘因 motivation」與本句語境不同。",
-        "finance-mcq-72": "「財務困境 serious stress」與本句語境不同。",
-        "finance-mcq-76": "「金錢回報 reward」與本句語境不同。",
-        "finance-mcq-71": "「財務困難 problems」與本句語境不同。"
+        "finance-mcq-74": "本句的「financial」指「金錢收益 gain」。",
+        "finance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-74"
     },
@@ -6387,11 +5499,8 @@ export default {
       "masked": "The company offered a ____ incentive for early retirement.",
       "options": [
         "finance-mcq-75",
-        "finance-mcq-74",
-        "finance-mcq-76",
-        "finance-mcq-73",
-        "finance-mcq-77",
-        "finance-mcq-72"
+        "finance-mcq-28",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「financial」指「金錢誘因 motivation」。",
       "sentenceIndex": 179,
@@ -6400,12 +5509,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-75": "本句指「金錢誘因 motivation」。",
-        "finance-mcq-74": "「金錢收益 gain」與本句語境不同。",
-        "finance-mcq-76": "「金錢回報 reward」與本句語境不同。",
-        "finance-mcq-73": "「財務損失 loss」與本句語境不同。",
-        "finance-mcq-77": "「經濟獨立 self-support」與本句語境不同。",
-        "finance-mcq-72": "「財務困境 serious stress」與本句語境不同。"
+        "finance-mcq-75": "本句的「financial」指「金錢誘因 motivation」。",
+        "finance-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-75"
     },
@@ -6417,11 +5523,9 @@ export default {
       "masked": "____ incentives can influence behaviour.",
       "options": [
         "finance-mcq-75",
-        "finance-mcq-74",
-        "finance-mcq-76",
-        "finance-mcq-73",
-        "finance-mcq-77",
-        "finance-mcq-72"
+        "finance-mcq-29",
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「Financial」指「金錢誘因 motivation」。",
       "sentenceIndex": 180,
@@ -6430,12 +5534,10 @@ export default {
         "Financial"
       ],
       "optionReasons": {
-        "finance-mcq-75": "本句指「金錢誘因 motivation」。",
-        "finance-mcq-74": "「金錢收益 gain」與本句語境不同。",
-        "finance-mcq-76": "「金錢回報 reward」與本句語境不同。",
-        "finance-mcq-73": "「財務損失 loss」與本句語境不同。",
-        "finance-mcq-77": "「經濟獨立 self-support」與本句語境不同。",
-        "finance-mcq-72": "「財務困境 serious stress」與本句語境不同。"
+        "finance-mcq-75": "本句的「Financial」指「金錢誘因 motivation」。",
+        "finance-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-75"
     },
@@ -6447,11 +5549,9 @@ export default {
       "masked": "The role offers significant ____ rewards.",
       "options": [
         "finance-mcq-76",
-        "finance-mcq-75",
-        "finance-mcq-77",
-        "finance-mcq-74",
-        "finance-mcq-78",
-        "finance-mcq-73"
+        "finance-mcq-27",
+        "finance-mcq-24",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「financial」指「金錢回報 reward」。",
       "sentenceIndex": 181,
@@ -6460,12 +5560,10 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-76": "本句指「金錢回報 reward」。",
-        "finance-mcq-75": "「金錢誘因 motivation」與本句語境不同。",
-        "finance-mcq-77": "「經濟獨立 self-support」與本句語境不同。",
-        "finance-mcq-74": "「金錢收益 gain」與本句語境不同。",
-        "finance-mcq-78": "「財務／理財素養 money knowledge」與本句語境不同。",
-        "finance-mcq-73": "「財務損失 loss」與本句語境不同。"
+        "finance-mcq-76": "本句的「financial」指「金錢回報 reward」。",
+        "finance-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-76"
     },
@@ -6477,11 +5575,9 @@ export default {
       "masked": "Not everyone is motivated primarily by ____ reward.",
       "options": [
         "finance-mcq-76",
-        "finance-mcq-75",
-        "finance-mcq-77",
-        "finance-mcq-74",
-        "finance-mcq-78",
-        "finance-mcq-73"
+        "finance-mcq-27",
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「金錢回報 reward」。",
       "sentenceIndex": 182,
@@ -6490,12 +5586,10 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-76": "本句指「金錢回報 reward」。",
-        "finance-mcq-75": "「金錢誘因 motivation」與本句語境不同。",
-        "finance-mcq-77": "「經濟獨立 self-support」與本句語境不同。",
-        "finance-mcq-74": "「金錢收益 gain」與本句語境不同。",
-        "finance-mcq-78": "「財務／理財素養 money knowledge」與本句語境不同。",
-        "finance-mcq-73": "「財務損失 loss」與本句語境不同。"
+        "finance-mcq-76": "本句的「financial」指「金錢回報 reward」。",
+        "finance-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-76"
     },
@@ -6507,11 +5601,9 @@ export default {
       "masked": "She wanted to achieve ____ independence.",
       "options": [
         "finance-mcq-77",
-        "finance-mcq-76",
-        "finance-mcq-78",
-        "finance-mcq-75",
-        "finance-mcq-79",
-        "finance-mcq-74"
+        "finance-mcq-31",
+        "finance-mcq-24",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「financial」指「經濟獨立 self-support」。",
       "sentenceIndex": 183,
@@ -6520,12 +5612,10 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-77": "本句指「經濟獨立 self-support」。",
-        "finance-mcq-76": "「金錢回報 reward」與本句語境不同。",
-        "finance-mcq-78": "「財務／理財素養 money knowledge」與本句語境不同。",
-        "finance-mcq-75": "「金錢誘因 motivation」與本句語境不同。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。",
-        "finance-mcq-74": "「金錢收益 gain」與本句語境不同。"
+        "finance-mcq-77": "本句的「financial」指「經濟獨立 self-support」。",
+        "finance-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-77"
     },
@@ -6537,11 +5627,9 @@ export default {
       "masked": "A stable income helped him become ____ independent.",
       "options": [
         "finance-mcq-77",
-        "finance-mcq-76",
-        "finance-mcq-78",
-        "finance-mcq-75",
-        "finance-mcq-79",
-        "finance-mcq-74"
+        "finance-mcq-29",
+        "finance-mcq-24",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「financially」指「經濟獨立 self-support」。",
       "sentenceIndex": 184,
@@ -6550,12 +5638,10 @@ export default {
         "financially"
       ],
       "optionReasons": {
-        "finance-mcq-77": "本句指「經濟獨立 self-support」。",
-        "finance-mcq-76": "「金錢回報 reward」與本句語境不同。",
-        "finance-mcq-78": "「財務／理財素養 money knowledge」與本句語境不同。",
-        "finance-mcq-75": "「金錢誘因 motivation」與本句語境不同。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。",
-        "finance-mcq-74": "「金錢收益 gain」與本句語境不同。"
+        "finance-mcq-77": "本句的「financially」指「經濟獨立 self-support」。",
+        "finance-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-77"
     },
@@ -6567,11 +5653,9 @@ export default {
       "masked": "They want to be ____ secure before starting a family.",
       "options": [
         "finance-mcq-82",
-        "finance-mcq-81",
-        "finance-mcq-83",
-        "finance-mcq-80",
-        "finance-mcq-84",
-        "finance-mcq-79"
+        "finance-mcq-21",
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financially」指「經濟有保障 security」。",
       "sentenceIndex": 187,
@@ -6580,12 +5664,10 @@ export default {
         "financially"
       ],
       "optionReasons": {
-        "finance-mcq-82": "本句指「經濟有保障 security」。",
-        "finance-mcq-81": "「財務上可行 viability」與本句語境不同。",
-        "finance-mcq-83": "「金融家；出資者 capital provider」與本句語境不同。",
-        "finance-mcq-80": "「在財務上 adverb」與本句語境不同。",
-        "finance-mcq-84": "「金融化 growing finance influence」與本句語境不同。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。"
+        "finance-mcq-82": "本句的「financially」指「經濟有保障 security」。",
+        "finance-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-82"
     },
@@ -6597,11 +5679,8 @@ export default {
       "masked": "She is ____ secure enough to retire.",
       "options": [
         "finance-mcq-82",
-        "finance-mcq-81",
-        "finance-mcq-83",
-        "finance-mcq-80",
-        "finance-mcq-84",
-        "finance-mcq-79"
+        "finance-mcq-28",
+        "finance-mcq-17"
       ],
       "explanation": "本句的「financially」指「經濟有保障 security」。",
       "sentenceIndex": 188,
@@ -6610,12 +5689,9 @@ export default {
         "financially"
       ],
       "optionReasons": {
-        "finance-mcq-82": "本句指「經濟有保障 security」。",
-        "finance-mcq-81": "「財務上可行 viability」與本句語境不同。",
-        "finance-mcq-83": "「金融家；出資者 capital provider」與本句語境不同。",
-        "finance-mcq-80": "「在財務上 adverb」與本句語境不同。",
-        "finance-mcq-84": "「金融化 growing finance influence」與本句語境不同。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。"
+        "finance-mcq-82": "本句的「financially」指「經濟有保障 security」。",
+        "finance-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-82"
     },
@@ -6627,11 +5703,8 @@ export default {
       "masked": "Schools are placing greater emphasis on ____ literacy.",
       "options": [
         "finance-mcq-78",
-        "finance-mcq-77",
-        "finance-mcq-79",
-        "finance-mcq-76",
-        "finance-mcq-80",
-        "finance-mcq-75"
+        "finance-mcq-29",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務／理財素養 money knowledge」。",
       "sentenceIndex": 191,
@@ -6640,12 +5713,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-78": "本句指「財務／理財素養 money knowledge」。",
-        "finance-mcq-77": "「經濟獨立 self-support」與本句語境不同。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。",
-        "finance-mcq-76": "「金錢回報 reward」與本句語境不同。",
-        "finance-mcq-80": "「在財務上 adverb」與本句語境不同。",
-        "finance-mcq-75": "「金錢誘因 motivation」與本句語境不同。"
+        "finance-mcq-78": "本句的「financial」指「財務／理財素養 money knowledge」。",
+        "finance-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-78"
     },
@@ -6657,11 +5727,8 @@ export default {
       "masked": "____ literacy includes understanding budgets, debt and saving.",
       "options": [
         "finance-mcq-78",
-        "finance-mcq-77",
-        "finance-mcq-79",
-        "finance-mcq-76",
-        "finance-mcq-80",
-        "finance-mcq-75"
+        "finance-mcq-21",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「Financial」指「財務／理財素養 money knowledge」。",
       "sentenceIndex": 192,
@@ -6670,12 +5737,9 @@ export default {
         "Financial"
       ],
       "optionReasons": {
-        "finance-mcq-78": "本句指「財務／理財素養 money knowledge」。",
-        "finance-mcq-77": "「經濟獨立 self-support」與本句語境不同。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。",
-        "finance-mcq-76": "「金錢回報 reward」與本句語境不同。",
-        "finance-mcq-80": "「在財務上 adverb」與本句語境不同。",
-        "finance-mcq-75": "「金錢誘因 motivation」與本句語境不同。"
+        "finance-mcq-78": "本句的「Financial」指「財務／理財素養 money knowledge」。",
+        "finance-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-78"
     },
@@ -6687,11 +5751,8 @@ export default {
       "masked": "She spoke to a ____ adviser about retirement.",
       "options": [
         "finance-mcq-79",
-        "finance-mcq-78",
-        "finance-mcq-80",
-        "finance-mcq-77",
-        "finance-mcq-81",
-        "finance-mcq-76"
+        "finance-mcq-29",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務顧問 adviser」。",
       "sentenceIndex": 193,
@@ -6700,12 +5761,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-79": "本句指「財務顧問 adviser」。",
-        "finance-mcq-78": "「財務／理財素養 money knowledge」與本句語境不同。",
-        "finance-mcq-80": "「在財務上 adverb」與本句語境不同。",
-        "finance-mcq-77": "「經濟獨立 self-support」與本句語境不同。",
-        "finance-mcq-81": "「財務上可行 viability」與本句語境不同。",
-        "finance-mcq-76": "「金錢回報 reward」與本句語境不同。"
+        "finance-mcq-79": "本句的「financial」指「財務顧問 adviser」。",
+        "finance-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-79"
     },
@@ -6717,11 +5775,8 @@ export default {
       "masked": "A ____ adviser may help clients plan investments and savings.",
       "options": [
         "finance-mcq-79",
-        "finance-mcq-78",
-        "finance-mcq-80",
-        "finance-mcq-77",
-        "finance-mcq-81",
-        "finance-mcq-76"
+        "finance-mcq-30",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financial」指「財務顧問 adviser」。",
       "sentenceIndex": 194,
@@ -6730,12 +5785,9 @@ export default {
         "financial"
       ],
       "optionReasons": {
-        "finance-mcq-79": "本句指「財務顧問 adviser」。",
-        "finance-mcq-78": "「財務／理財素養 money knowledge」與本句語境不同。",
-        "finance-mcq-80": "「在財務上 adverb」與本句語境不同。",
-        "finance-mcq-77": "「經濟獨立 self-support」與本句語境不同。",
-        "finance-mcq-81": "「財務上可行 viability」與本句語境不同。",
-        "finance-mcq-76": "「金錢回報 reward」與本句語境不同。"
+        "finance-mcq-79": "本句的「financial」指「財務顧問 adviser」。",
+        "finance-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-79"
     },
@@ -6747,11 +5799,7 @@ export default {
       "masked": "The project is ____ viable.",
       "options": [
         "finance-mcq-80",
-        "finance-mcq-79",
-        "finance-mcq-81",
-        "finance-mcq-78",
-        "finance-mcq-82",
-        "finance-mcq-77"
+        "finance-mcq-23"
       ],
       "explanation": "本句的「financially」指「在財務上 adverb」。",
       "sentenceIndex": 197,
@@ -6760,12 +5808,8 @@ export default {
         "financially"
       ],
       "optionReasons": {
-        "finance-mcq-80": "本句指「在財務上 adverb」。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。",
-        "finance-mcq-81": "「財務上可行 viability」與本句語境不同。",
-        "finance-mcq-78": "「財務／理財素養 money knowledge」與本句語境不同。",
-        "finance-mcq-82": "「經濟有保障 security」與本句語境不同。",
-        "finance-mcq-77": "「經濟獨立 self-support」與本句語境不同。"
+        "finance-mcq-80": "本句的「financially」指「在財務上 adverb」。",
+        "finance-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-80"
     },
@@ -6777,11 +5821,8 @@ export default {
       "masked": "The decision affected her ____.",
       "options": [
         "finance-mcq-80",
-        "finance-mcq-79",
-        "finance-mcq-81",
-        "finance-mcq-78",
-        "finance-mcq-82",
-        "finance-mcq-77"
+        "finance-mcq-32",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financially」指「在財務上 adverb」。",
       "sentenceIndex": 198,
@@ -6790,12 +5831,9 @@ export default {
         "financially"
       ],
       "optionReasons": {
-        "finance-mcq-80": "本句指「在財務上 adverb」。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。",
-        "finance-mcq-81": "「財務上可行 viability」與本句語境不同。",
-        "finance-mcq-78": "「財務／理財素養 money knowledge」與本句語境不同。",
-        "finance-mcq-82": "「經濟有保障 security」與本句語境不同。",
-        "finance-mcq-77": "「經濟獨立 self-support」與本句語境不同。"
+        "finance-mcq-80": "本句的「financially」指「在財務上 adverb」。",
+        "finance-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-80"
     },
@@ -6807,11 +5845,7 @@ export default {
       "masked": "The proposal is technically possible but not ____ viable.",
       "options": [
         "finance-mcq-81",
-        "finance-mcq-80",
-        "finance-mcq-82",
-        "finance-mcq-79",
-        "finance-mcq-83",
-        "finance-mcq-78"
+        "finance-mcq-33"
       ],
       "explanation": "本句的「financially」指「財務上可行 viability」。",
       "sentenceIndex": 199,
@@ -6820,12 +5854,8 @@ export default {
         "financially"
       ],
       "optionReasons": {
-        "finance-mcq-81": "本句指「財務上可行 viability」。",
-        "finance-mcq-80": "「在財務上 adverb」與本句語境不同。",
-        "finance-mcq-82": "「經濟有保障 security」與本句語境不同。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。",
-        "finance-mcq-83": "「金融家；出資者 capital provider」與本句語境不同。",
-        "finance-mcq-78": "「財務／理財素養 money knowledge」與本句語境不同。"
+        "finance-mcq-81": "本句的「financially」指「財務上可行 viability」。",
+        "finance-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-81"
     },
@@ -6837,11 +5867,7 @@ export default {
       "masked": "The business must become ____ viable.",
       "options": [
         "finance-mcq-81",
-        "finance-mcq-80",
-        "finance-mcq-82",
-        "finance-mcq-79",
-        "finance-mcq-83",
-        "finance-mcq-78"
+        "finance-mcq-40"
       ],
       "explanation": "本句的「financially」指「財務上可行 viability」。",
       "sentenceIndex": 200,
@@ -6850,12 +5876,8 @@ export default {
         "financially"
       ],
       "optionReasons": {
-        "finance-mcq-81": "本句指「財務上可行 viability」。",
-        "finance-mcq-80": "「在財務上 adverb」與本句語境不同。",
-        "finance-mcq-82": "「經濟有保障 security」與本句語境不同。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。",
-        "finance-mcq-83": "「金融家；出資者 capital provider」與本句語境不同。",
-        "finance-mcq-78": "「財務／理財素養 money knowledge」與本句語境不同。"
+        "finance-mcq-81": "本句的「financially」指「財務上可行 viability」。",
+        "finance-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-81"
     },
@@ -6867,11 +5889,8 @@ export default {
       "masked": "The service needs a ____ sustainable model.",
       "options": [
         "finance-mcq-80",
-        "finance-mcq-79",
-        "finance-mcq-81",
-        "finance-mcq-78",
-        "finance-mcq-82",
-        "finance-mcq-77"
+        "finance-mcq-24",
+        "finance-mcq-30"
       ],
       "explanation": "本句的「financially」指「在財務上 adverb」。",
       "sentenceIndex": 201,
@@ -6880,12 +5899,9 @@ export default {
         "financially"
       ],
       "optionReasons": {
-        "finance-mcq-80": "本句指「在財務上 adverb」。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。",
-        "finance-mcq-81": "「財務上可行 viability」與本句語境不同。",
-        "finance-mcq-78": "「財務／理財素養 money knowledge」與本句語境不同。",
-        "finance-mcq-82": "「經濟有保障 security」與本句語境不同。",
-        "finance-mcq-77": "「經濟獨立 self-support」與本句語境不同。"
+        "finance-mcq-80": "本句的「financially」指「在財務上 adverb」。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-80"
     },
@@ -6897,11 +5913,7 @@ export default {
       "masked": "Growth is useful only if it is ____ sustainable.",
       "options": [
         "finance-mcq-80",
-        "finance-mcq-79",
-        "finance-mcq-81",
-        "finance-mcq-78",
-        "finance-mcq-82",
-        "finance-mcq-77"
+        "finance-mcq-07"
       ],
       "explanation": "本句的「financially」指「在財務上 adverb」。",
       "sentenceIndex": 202,
@@ -6910,12 +5922,8 @@ export default {
         "financially"
       ],
       "optionReasons": {
-        "finance-mcq-80": "本句指「在財務上 adverb」。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。",
-        "finance-mcq-81": "「財務上可行 viability」與本句語境不同。",
-        "finance-mcq-78": "「財務／理財素養 money knowledge」與本句語境不同。",
-        "finance-mcq-82": "「經濟有保障 security」與本句語境不同。",
-        "finance-mcq-77": "「經濟獨立 self-support」與本句語境不同。"
+        "finance-mcq-80": "本句的「financially」指「在財務上 adverb」。",
+        "finance-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-80"
     },
@@ -6927,11 +5935,8 @@ export default {
       "masked": "The company needs to act ____ responsibly.",
       "options": [
         "finance-mcq-80",
-        "finance-mcq-79",
-        "finance-mcq-81",
-        "finance-mcq-78",
-        "finance-mcq-82",
-        "finance-mcq-77"
+        "finance-mcq-35",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financially」指「在財務上 adverb」。",
       "sentenceIndex": 203,
@@ -6940,12 +5945,9 @@ export default {
         "financially"
       ],
       "optionReasons": {
-        "finance-mcq-80": "本句指「在財務上 adverb」。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。",
-        "finance-mcq-81": "「財務上可行 viability」與本句語境不同。",
-        "finance-mcq-78": "「財務／理財素養 money knowledge」與本句語境不同。",
-        "finance-mcq-82": "「經濟有保障 security」與本句語境不同。",
-        "finance-mcq-77": "「經濟獨立 self-support」與本句語境不同。"
+        "finance-mcq-80": "本句的「financially」指「在財務上 adverb」。",
+        "finance-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-80"
     },
@@ -6957,11 +5959,8 @@ export default {
       "masked": "Borrowing within your means is ____ responsible.",
       "options": [
         "finance-mcq-80",
-        "finance-mcq-79",
-        "finance-mcq-81",
-        "finance-mcq-78",
-        "finance-mcq-82",
-        "finance-mcq-77"
+        "finance-mcq-33",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financially」指「在財務上 adverb」。",
       "sentenceIndex": 204,
@@ -6970,12 +5969,9 @@ export default {
         "financially"
       ],
       "optionReasons": {
-        "finance-mcq-80": "本句指「在財務上 adverb」。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。",
-        "finance-mcq-81": "「財務上可行 viability」與本句語境不同。",
-        "finance-mcq-78": "「財務／理財素養 money knowledge」與本句語境不同。",
-        "finance-mcq-82": "「經濟有保障 security」與本句語境不同。",
-        "finance-mcq-77": "「經濟獨立 self-support」與本句語境不同。"
+        "finance-mcq-80": "本句的「financially」指「在財務上 adverb」。",
+        "finance-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-80"
     },
@@ -6987,11 +5983,8 @@ export default {
       "masked": "The project attracted several prominent ____.",
       "options": [
         "finance-mcq-83",
-        "finance-mcq-82",
-        "finance-mcq-84",
-        "finance-mcq-81",
-        "finance-mcq-80",
-        "finance-mcq-79"
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financiers」指「金融家；出資者 capital provider」。",
       "sentenceIndex": 207,
@@ -7000,12 +5993,9 @@ export default {
         "financiers"
       ],
       "optionReasons": {
-        "finance-mcq-83": "本句指「金融家；出資者 capital provider」。",
-        "finance-mcq-82": "「經濟有保障 security」與本句語境不同。",
-        "finance-mcq-84": "「金融化 growing finance influence」與本句語境不同。",
-        "finance-mcq-81": "「財務上可行 viability」與本句語境不同。",
-        "finance-mcq-80": "「在財務上 adverb」與本句語境不同。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。"
+        "finance-mcq-83": "本句的「financiers」指「金融家；出資者 capital provider」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-83"
     },
@@ -7017,11 +6007,8 @@ export default {
       "masked": "The ____ provided capital for several companies.",
       "options": [
         "finance-mcq-83",
-        "finance-mcq-82",
-        "finance-mcq-84",
-        "finance-mcq-81",
-        "finance-mcq-80",
-        "finance-mcq-79"
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financier」指「金融家；出資者 capital provider」。",
       "sentenceIndex": 208,
@@ -7030,12 +6017,9 @@ export default {
         "financier"
       ],
       "optionReasons": {
-        "finance-mcq-83": "本句指「金融家；出資者 capital provider」。",
-        "finance-mcq-82": "「經濟有保障 security」與本句語境不同。",
-        "finance-mcq-84": "「金融化 growing finance influence」與本句語境不同。",
-        "finance-mcq-81": "「財務上可行 viability」與本句語境不同。",
-        "finance-mcq-80": "「在財務上 adverb」與本句語境不同。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。"
+        "finance-mcq-83": "本句的「financier」指「金融家；出資者 capital provider」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-83"
     },
@@ -7047,11 +6031,8 @@ export default {
       "masked": "The project's main ____ withdrew support.",
       "options": [
         "finance-mcq-83",
-        "finance-mcq-82",
-        "finance-mcq-84",
-        "finance-mcq-81",
-        "finance-mcq-80",
-        "finance-mcq-79"
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financier」指「金融家；出資者 capital provider」。",
       "sentenceIndex": 209,
@@ -7060,12 +6041,9 @@ export default {
         "financier"
       ],
       "optionReasons": {
-        "finance-mcq-83": "本句指「金融家；出資者 capital provider」。",
-        "finance-mcq-82": "「經濟有保障 security」與本句語境不同。",
-        "finance-mcq-84": "「金融化 growing finance influence」與本句語境不同。",
-        "finance-mcq-81": "「財務上可行 viability」與本句語境不同。",
-        "finance-mcq-80": "「在財務上 adverb」與本句語境不同。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。"
+        "finance-mcq-83": "本句的「financier」指「金融家；出資者 capital provider」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-83"
     },
@@ -7077,11 +6055,8 @@ export default {
       "masked": "They searched for an international ____.",
       "options": [
         "finance-mcq-83",
-        "finance-mcq-82",
-        "finance-mcq-84",
-        "finance-mcq-81",
-        "finance-mcq-80",
-        "finance-mcq-79"
+        "finance-mcq-17",
+        "finance-mcq-24"
       ],
       "explanation": "本句的「financier」指「金融家；出資者 capital provider」。",
       "sentenceIndex": 210,
@@ -7090,12 +6065,9 @@ export default {
         "financier"
       ],
       "optionReasons": {
-        "finance-mcq-83": "本句指「金融家；出資者 capital provider」。",
-        "finance-mcq-82": "「經濟有保障 security」與本句語境不同。",
-        "finance-mcq-84": "「金融化 growing finance influence」與本句語境不同。",
-        "finance-mcq-81": "「財務上可行 viability」與本句語境不同。",
-        "finance-mcq-80": "「在財務上 adverb」與本句語境不同。",
-        "finance-mcq-79": "「財務顧問 adviser」與本句語境不同。"
+        "finance-mcq-83": "本句的「financier」指「金融家；出資者 capital provider」。",
+        "finance-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "finance-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "finance-mcq-83"
     }
@@ -7107,5 +6079,7 @@ export default {
     "sha256": "b7edbaf1a9aeb7488527058b2bce148ace940d464d3e5e1fe1e086dfaa15257a",
     "pages": 76
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

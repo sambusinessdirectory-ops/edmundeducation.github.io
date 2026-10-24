@@ -66,11 +66,6 @@ export default {
           "That's the correct answer.",
           "那是正確答案。",
           "正確答案"
-        ],
-        [
-          "He gave the wrong answer.",
-          "他給了錯誤答案。",
-          "正確答案"
         ]
       ],
       "options": [],
@@ -480,6 +475,23 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "answer-reviewed-4dd3849168",
+      "title": "不符合事實、規則或標準解答的錯誤答案",
+      "form": "answer · source section 3",
+      "en": "不符合事實、規則或標準解答的錯誤答案",
+      "zh": "不符合事實、規則或標準解答的錯誤答案",
+      "note": "對照原始教材第 3 節及例句核實。",
+      "examples": [
+        [
+          "He gave the wrong answer.",
+          "他給了錯誤答案。",
+          "不符合事實、規則或標準解答的錯誤答案"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -491,11 +503,9 @@ export default {
       "masked": "He did not simply tell us the ____.",
       "options": [
         "answer-mcq-01",
-        "answer-mcq-02",
-        "answer-mcq-03",
-        "answer-mcq-04",
-        "answer-mcq-05",
-        "answer-mcq-06"
+        "answer-mcq-09",
+        "answer-mcq-12",
+        "answer-mcq-17"
       ],
       "explanation": "本句的「answer」指「答案；回答」。",
       "sentenceIndex": 0,
@@ -504,12 +514,10 @@ export default {
         "answer"
       ],
       "optionReasons": {
-        "answer-mcq-01": "本句指「答案；回答」。",
-        "answer-mcq-02": "「問題答案」是「answer to a question」的用法，與本句語境不同。",
-        "answer-mcq-03": "「正確答案」是「correct answer」的用法，與本句語境不同。",
-        "answer-mcq-04": "「作答；回覆」是「give an answer」的用法，與本句語境不同。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。"
+        "answer-mcq-01": "本句的「answer」指「答案；回答」。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-01"
     },
@@ -521,11 +529,9 @@ export default {
       "masked": "I don't know the ____ to this question.",
       "options": [
         "answer-mcq-01",
-        "answer-mcq-02",
-        "answer-mcq-03",
-        "answer-mcq-04",
-        "answer-mcq-05",
-        "answer-mcq-06"
+        "answer-mcq-16",
+        "answer-mcq-12",
+        "answer-mcq-08"
       ],
       "explanation": "本句的「answer」指「答案；回答」。",
       "sentenceIndex": 1,
@@ -534,12 +540,10 @@ export default {
         "answer"
       ],
       "optionReasons": {
-        "answer-mcq-01": "本句指「答案；回答」。",
-        "answer-mcq-02": "「問題答案」是「answer to a question」的用法，與本句語境不同。",
-        "answer-mcq-03": "「正確答案」是「correct answer」的用法，與本句語境不同。",
-        "answer-mcq-04": "「作答；回覆」是「give an answer」的用法，與本句語境不同。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。"
+        "answer-mcq-01": "本句的「answer」指「答案；回答」。",
+        "answer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-01"
     },
@@ -551,11 +555,9 @@ export default {
       "masked": "Her ____ was correct.",
       "options": [
         "answer-mcq-01",
-        "answer-mcq-02",
-        "answer-mcq-03",
-        "answer-mcq-04",
-        "answer-mcq-05",
-        "answer-mcq-06"
+        "answer-mcq-09",
+        "answer-mcq-08",
+        "answer-mcq-15"
       ],
       "explanation": "本句的「answer」指「答案；回答」。",
       "sentenceIndex": 2,
@@ -564,12 +566,10 @@ export default {
         "answer"
       ],
       "optionReasons": {
-        "answer-mcq-01": "本句指「答案；回答」。",
-        "answer-mcq-02": "「問題答案」是「answer to a question」的用法，與本句語境不同。",
-        "answer-mcq-03": "「正確答案」是「correct answer」的用法，與本句語境不同。",
-        "answer-mcq-04": "「作答；回覆」是「give an answer」的用法，與本句語境不同。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。"
+        "answer-mcq-01": "本句的「answer」指「答案；回答」。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-01"
     },
@@ -581,11 +581,9 @@ export default {
       "masked": "What's the ____?",
       "options": [
         "answer-mcq-02",
-        "answer-mcq-01",
-        "answer-mcq-03",
-        "answer-mcq-04",
-        "answer-mcq-05",
-        "answer-mcq-06"
+        "answer-mcq-12",
+        "answer-mcq-08",
+        "answer-mcq-21"
       ],
       "explanation": "本句的「answer to question five」指「問題答案」。",
       "sentenceIndex": 3,
@@ -594,12 +592,10 @@ export default {
         "answer to question five"
       ],
       "optionReasons": {
-        "answer-mcq-02": "本句指「問題答案」。",
-        "answer-mcq-01": "「答案；回答」是「answer (noun)」的用法，與本句語境不同。",
-        "answer-mcq-03": "「正確答案」是「correct answer」的用法，與本句語境不同。",
-        "answer-mcq-04": "「作答；回覆」是「give an answer」的用法，與本句語境不同。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。"
+        "answer-mcq-02": "本句的「answer to question five」指「問題答案」。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-02"
     },
@@ -611,11 +607,9 @@ export default {
       "masked": "There may be more than one possible ____.",
       "options": [
         "answer-mcq-02",
-        "answer-mcq-01",
-        "answer-mcq-03",
-        "answer-mcq-04",
-        "answer-mcq-05",
-        "answer-mcq-06"
+        "answer-mcq-11",
+        "answer-mcq-15",
+        "answer-mcq-16"
       ],
       "explanation": "本句的「answer to the question」指「問題答案」。",
       "sentenceIndex": 4,
@@ -624,12 +618,10 @@ export default {
         "answer to the question"
       ],
       "optionReasons": {
-        "answer-mcq-02": "本句指「問題答案」。",
-        "answer-mcq-01": "「答案；回答」是「answer (noun)」的用法，與本句語境不同。",
-        "answer-mcq-03": "「正確答案」是「correct answer」的用法，與本句語境不同。",
-        "answer-mcq-04": "「作答；回覆」是「give an answer」的用法，與本句語境不同。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。"
+        "answer-mcq-02": "本句的「answer to the question」指「問題答案」。",
+        "answer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-02"
     },
@@ -641,11 +633,9 @@ export default {
       "masked": "That's the ____.",
       "options": [
         "answer-mcq-03",
-        "answer-mcq-02",
-        "answer-mcq-04",
-        "answer-mcq-01",
-        "answer-mcq-05",
-        "answer-mcq-06"
+        "answer-mcq-11",
+        "answer-mcq-15",
+        "answer-mcq-08"
       ],
       "explanation": "本句的「correct answer」指「正確答案」。",
       "sentenceIndex": 5,
@@ -654,44 +644,40 @@ export default {
         "correct answer"
       ],
       "optionReasons": {
-        "answer-mcq-03": "本句指「正確答案」。",
-        "answer-mcq-02": "「問題答案」是「answer to a question」的用法，與本句語境不同。",
-        "answer-mcq-04": "「作答；回覆」是「give an answer」的用法，與本句語境不同。",
-        "answer-mcq-01": "「答案；回答」是「answer (noun)」的用法，與本句語境不同。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。"
+        "answer-mcq-03": "本句的「correct answer」指「正確答案」。",
+        "answer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-03"
     },
     {
       "id": "answer-03-1",
-      "sense": "answer-mcq-03",
+      "sense": "answer-reviewed-4dd3849168",
       "en": "He gave the wrong answer.",
       "zh": "他給了錯誤答案。",
       "masked": "He gave the ____.",
       "options": [
-        "answer-mcq-03",
-        "answer-mcq-02",
-        "answer-mcq-04",
-        "answer-mcq-01",
-        "answer-mcq-05",
-        "answer-mcq-06"
+        "answer-reviewed-4dd3849168",
+        "answer-mcq-08",
+        "answer-mcq-17",
+        "answer-mcq-15"
       ],
-      "explanation": "本句的「wrong answer」指「正確答案」。",
+      "explanation": "對照完整句子：「他給了錯誤答案。」。這裡的「wrong answer」表示「不符合事實、規則或標準解答的錯誤答案」。",
       "sentenceIndex": 6,
       "sourcePractice": 2,
       "targets": [
         "wrong answer"
       ],
       "optionReasons": {
-        "answer-mcq-03": "本句指「正確答案」。",
-        "answer-mcq-02": "「問題答案」是「answer to a question」的用法，與本句語境不同。",
-        "answer-mcq-04": "「作答；回覆」是「give an answer」的用法，與本句語境不同。",
-        "answer-mcq-01": "「答案；回答」是「answer (noun)」的用法，與本句語境不同。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。"
+        "answer-reviewed-4dd3849168": "對照完整句子：「他給了錯誤答案。」。這裡的「wrong answer」表示「不符合事實、規則或標準解答的錯誤答案」。",
+        "answer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "answer-mcq-03"
+      "correctOption": "answer-reviewed-4dd3849168",
+      "previousCorrectOption": "answer-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "answer-04-0",
@@ -701,11 +687,9 @@ export default {
       "masked": "She refused to ____.",
       "options": [
         "answer-mcq-04",
-        "answer-mcq-03",
-        "answer-mcq-05",
-        "answer-mcq-02",
-        "answer-mcq-06",
-        "answer-mcq-01"
+        "answer-mcq-13",
+        "answer-mcq-17",
+        "answer-mcq-15"
       ],
       "explanation": "本句的「give an answer」指「作答；回覆」。",
       "sentenceIndex": 7,
@@ -714,12 +698,10 @@ export default {
         "give an answer"
       ],
       "optionReasons": {
-        "answer-mcq-04": "本句指「作答；回覆」。",
-        "answer-mcq-03": "「正確答案」是「correct answer」的用法，與本句語境不同。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。",
-        "answer-mcq-02": "「問題答案」是「answer to a question」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。",
-        "answer-mcq-01": "「答案；回答」是「answer (noun)」的用法，與本句語境不同。"
+        "answer-mcq-04": "本句的「give an answer」指「作答；回覆」。",
+        "answer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-04"
     },
@@ -731,11 +713,9 @@ export default {
       "masked": "Give me a clear ____.",
       "options": [
         "answer-mcq-04",
-        "answer-mcq-03",
-        "answer-mcq-05",
-        "answer-mcq-02",
-        "answer-mcq-06",
-        "answer-mcq-01"
+        "answer-mcq-12",
+        "answer-mcq-15",
+        "answer-mcq-09"
       ],
       "explanation": "本句的「answer」指「作答；回覆」。",
       "sentenceIndex": 8,
@@ -744,12 +724,10 @@ export default {
         "answer"
       ],
       "optionReasons": {
-        "answer-mcq-04": "本句指「作答；回覆」。",
-        "answer-mcq-03": "「正確答案」是「correct answer」的用法，與本句語境不同。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。",
-        "answer-mcq-02": "「問題答案」是「answer to a question」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。",
-        "answer-mcq-01": "「答案；回答」是「answer (noun)」的用法，與本句語境不同。"
+        "answer-mcq-04": "本句的「answer」指「作答；回覆」。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-04"
     },
@@ -761,11 +739,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "answer-mcq-05",
-        "answer-mcq-04",
-        "answer-mcq-06",
-        "answer-mcq-03",
-        "answer-mcq-07",
-        "answer-mcq-02"
+        "answer-mcq-15",
+        "answer-mcq-09",
+        "answer-mcq-16"
       ],
       "explanation": "本句的「answer this question」指「回答問題」。",
       "sentenceIndex": 9,
@@ -774,12 +750,10 @@ export default {
         "answer this question"
       ],
       "optionReasons": {
-        "answer-mcq-05": "本句指「回答問題」。",
-        "answer-mcq-04": "「作答；回覆」是「give an answer」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。",
-        "answer-mcq-03": "「正確答案」是「correct answer」的用法，與本句語境不同。",
-        "answer-mcq-07": "「回答說……」是「answer that...」的用法，與本句語境不同。",
-        "answer-mcq-02": "「問題答案」是「answer to a question」的用法，與本句語境不同。"
+        "answer-mcq-05": "本句的「answer this question」指「回答問題」。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-05"
     },
@@ -791,11 +765,9 @@ export default {
       "masked": "He ____ carefully.",
       "options": [
         "answer-mcq-05",
-        "answer-mcq-04",
-        "answer-mcq-06",
-        "answer-mcq-03",
-        "answer-mcq-07",
-        "answer-mcq-02"
+        "answer-mcq-09",
+        "answer-mcq-08",
+        "answer-mcq-15"
       ],
       "explanation": "本句的「answered every question」指「回答問題」。",
       "sentenceIndex": 10,
@@ -804,12 +776,10 @@ export default {
         "answered every question"
       ],
       "optionReasons": {
-        "answer-mcq-05": "本句指「回答問題」。",
-        "answer-mcq-04": "「作答；回覆」是「give an answer」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。",
-        "answer-mcq-03": "「正確答案」是「correct answer」的用法，與本句語境不同。",
-        "answer-mcq-07": "「回答說……」是「answer that...」的用法，與本句語境不同。",
-        "answer-mcq-02": "「問題答案」是「answer to a question」的用法，與本句語境不同。"
+        "answer-mcq-05": "本句的「answered every question」指「回答問題」。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-05"
     },
@@ -821,11 +791,9 @@ export default {
       "masked": "She didn't ____.",
       "options": [
         "answer-mcq-06",
-        "answer-mcq-05",
-        "answer-mcq-07",
-        "answer-mcq-04",
-        "answer-mcq-08",
-        "answer-mcq-03"
+        "answer-mcq-12",
+        "answer-mcq-15",
+        "answer-mcq-09"
       ],
       "explanation": "本句的「answer me」指「回答某人」。",
       "sentenceIndex": 11,
@@ -834,12 +802,10 @@ export default {
         "answer me"
       ],
       "optionReasons": {
-        "answer-mcq-06": "本句指「回答某人」。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。",
-        "answer-mcq-07": "「回答說……」是「answer that...」的用法，與本句語境不同。",
-        "answer-mcq-04": "「作答；回覆」是「give an answer」的用法，與本句語境不同。",
-        "answer-mcq-08": "「接電話」是「answer the phone」的用法，與本句語境不同。",
-        "answer-mcq-03": "「正確答案」是「correct answer」的用法，與本句語境不同。"
+        "answer-mcq-06": "本句的「answer me」指「回答某人」。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-06"
     },
@@ -851,11 +817,9 @@ export default {
       "masked": "He ____ politely.",
       "options": [
         "answer-mcq-06",
-        "answer-mcq-05",
-        "answer-mcq-07",
-        "answer-mcq-04",
+        "answer-mcq-09",
         "answer-mcq-08",
-        "answer-mcq-03"
+        "answer-mcq-17"
       ],
       "explanation": "本句的「answered the teacher」指「回答某人」。",
       "sentenceIndex": 12,
@@ -864,12 +828,10 @@ export default {
         "answered the teacher"
       ],
       "optionReasons": {
-        "answer-mcq-06": "本句指「回答某人」。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。",
-        "answer-mcq-07": "「回答說……」是「answer that...」的用法，與本句語境不同。",
-        "answer-mcq-04": "「作答；回覆」是「give an answer」的用法，與本句語境不同。",
-        "answer-mcq-08": "「接電話」是「answer the phone」的用法，與本句語境不同。",
-        "answer-mcq-03": "「正確答案」是「correct answer」的用法，與本句語境不同。"
+        "answer-mcq-06": "本句的「answered the teacher」指「回答某人」。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-06"
     },
@@ -881,11 +843,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "answer-mcq-07",
-        "answer-mcq-06",
-        "answer-mcq-08",
-        "answer-mcq-05",
-        "answer-mcq-09",
-        "answer-mcq-04"
+        "answer-mcq-13",
+        "answer-mcq-15",
+        "answer-mcq-16"
       ],
       "explanation": "本句的「answered that he didn't know」指「回答說……」。",
       "sentenceIndex": 13,
@@ -894,12 +854,10 @@ export default {
         "answered that he didn't know"
       ],
       "optionReasons": {
-        "answer-mcq-07": "本句指「回答說……」。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。",
-        "answer-mcq-08": "「接電話」是「answer the phone」的用法，與本句語境不同。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。",
-        "answer-mcq-09": "「應門」是「answer the door」的用法，與本句語境不同。",
-        "answer-mcq-04": "「作答；回覆」是「give an answer」的用法，與本句語境不同。"
+        "answer-mcq-07": "本句的「answered that he didn't know」指「回答說……」。",
+        "answer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-07"
     },
@@ -911,11 +869,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "answer-mcq-07",
-        "answer-mcq-06",
-        "answer-mcq-08",
-        "answer-mcq-05",
-        "answer-mcq-09",
-        "answer-mcq-04"
+        "answer-mcq-15",
+        "answer-mcq-12",
+        "answer-mcq-09"
       ],
       "explanation": "本句的「answered that the meeting had been cancelled」指「回答說……」。",
       "sentenceIndex": 14,
@@ -924,12 +880,10 @@ export default {
         "answered that the meeting had been cancelled"
       ],
       "optionReasons": {
-        "answer-mcq-07": "本句指「回答說……」。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。",
-        "answer-mcq-08": "「接電話」是「answer the phone」的用法，與本句語境不同。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。",
-        "answer-mcq-09": "「應門」是「answer the door」的用法，與本句語境不同。",
-        "answer-mcq-04": "「作答；回覆」是「give an answer」的用法，與本句語境不同。"
+        "answer-mcq-07": "本句的「answered that the meeting had been cancelled」指「回答說……」。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-07"
     },
@@ -941,11 +895,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "answer-mcq-08",
-        "answer-mcq-07",
-        "answer-mcq-09",
-        "answer-mcq-06",
-        "answer-mcq-10",
-        "answer-mcq-05"
+        "answer-mcq-21",
+        "answer-mcq-02",
+        "answer-mcq-17"
       ],
       "explanation": "本句的「answer the phone」指「接電話」。",
       "sentenceIndex": 15,
@@ -954,12 +906,10 @@ export default {
         "answer the phone"
       ],
       "optionReasons": {
-        "answer-mcq-08": "本句指「接電話」。",
-        "answer-mcq-07": "「回答說……」是「answer that...」的用法，與本句語境不同。",
-        "answer-mcq-09": "「應門」是「answer the door」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。",
-        "answer-mcq-10": "「回覆電郵」是「answer an email」的用法，與本句語境不同。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。"
+        "answer-mcq-08": "本句的「answer the phone」指「接電話」。",
+        "answer-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-08"
     },
@@ -971,11 +921,9 @@ export default {
       "masked": "No one ____.",
       "options": [
         "answer-mcq-08",
-        "answer-mcq-07",
-        "answer-mcq-09",
-        "answer-mcq-06",
-        "answer-mcq-10",
-        "answer-mcq-05"
+        "answer-mcq-11",
+        "answer-reviewed-4dd3849168",
+        "answer-mcq-17"
       ],
       "explanation": "本句的「answered the phone」指「接電話」。",
       "sentenceIndex": 16,
@@ -984,12 +932,10 @@ export default {
         "answered the phone"
       ],
       "optionReasons": {
-        "answer-mcq-08": "本句指「接電話」。",
-        "answer-mcq-07": "「回答說……」是「answer that...」的用法，與本句語境不同。",
-        "answer-mcq-09": "「應門」是「answer the door」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。",
-        "answer-mcq-10": "「回覆電郵」是「answer an email」的用法，與本句語境不同。",
-        "answer-mcq-05": "「回答問題」是「answer a question」的用法，與本句語境不同。"
+        "answer-mcq-08": "本句的「answered the phone」指「接電話」。",
+        "answer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "answer-reviewed-4dd3849168": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-08"
     },
@@ -1001,11 +947,9 @@ export default {
       "masked": "Someone's knocking—can you ____?",
       "options": [
         "answer-mcq-09",
-        "answer-mcq-08",
-        "answer-mcq-10",
-        "answer-mcq-07",
-        "answer-mcq-11",
-        "answer-mcq-06"
+        "answer-mcq-15",
+        "answer-mcq-12",
+        "answer-mcq-08"
       ],
       "explanation": "本句的「answer the door」指「應門」。",
       "sentenceIndex": 17,
@@ -1014,12 +958,10 @@ export default {
         "answer the door"
       ],
       "optionReasons": {
-        "answer-mcq-09": "本句指「應門」。",
-        "answer-mcq-08": "「接電話」是「answer the phone」的用法，與本句語境不同。",
-        "answer-mcq-10": "「回覆電郵」是「answer an email」的用法，與本句語境不同。",
-        "answer-mcq-07": "「回答說……」是「answer that...」的用法，與本句語境不同。",
-        "answer-mcq-11": "「回應投訴」是「answer a complaint」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。"
+        "answer-mcq-09": "本句的「answer the door」指「應門」。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-09"
     },
@@ -1031,11 +973,9 @@ export default {
       "masked": "She ____ in her slippers.",
       "options": [
         "answer-mcq-09",
-        "answer-mcq-08",
-        "answer-mcq-10",
-        "answer-mcq-07",
-        "answer-mcq-11",
-        "answer-mcq-06"
+        "answer-mcq-15",
+        "answer-mcq-05",
+        "answer-reviewed-4dd3849168"
       ],
       "explanation": "本句的「answered the door」指「應門」。",
       "sentenceIndex": 18,
@@ -1044,12 +984,10 @@ export default {
         "answered the door"
       ],
       "optionReasons": {
-        "answer-mcq-09": "本句指「應門」。",
-        "answer-mcq-08": "「接電話」是「answer the phone」的用法，與本句語境不同。",
-        "answer-mcq-10": "「回覆電郵」是「answer an email」的用法，與本句語境不同。",
-        "answer-mcq-07": "「回答說……」是「answer that...」的用法，與本句語境不同。",
-        "answer-mcq-11": "「回應投訴」是「answer a complaint」的用法，與本句語境不同。",
-        "answer-mcq-06": "「回答某人」是「answer someone」的用法，與本句語境不同。"
+        "answer-mcq-09": "本句的「answered the door」指「應門」。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "answer-reviewed-4dd3849168": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-09"
     },
@@ -1061,11 +999,9 @@ export default {
       "masked": "I haven't ____ yet.",
       "options": [
         "answer-mcq-10",
-        "answer-mcq-09",
-        "answer-mcq-11",
-        "answer-mcq-08",
-        "answer-mcq-12",
-        "answer-mcq-07"
+        "answer-mcq-13",
+        "answer-mcq-14",
+        "answer-mcq-17"
       ],
       "explanation": "本句的「answered his email」指「回覆電郵」。",
       "sentenceIndex": 19,
@@ -1074,12 +1010,10 @@ export default {
         "answered his email"
       ],
       "optionReasons": {
-        "answer-mcq-10": "本句指「回覆電郵」。",
-        "answer-mcq-09": "「應門」是「answer the door」的用法，與本句語境不同。",
-        "answer-mcq-11": "「回應投訴」是「answer a complaint」的用法，與本句語境不同。",
-        "answer-mcq-08": "「接電話」是「answer the phone」的用法，與本句語境不同。",
-        "answer-mcq-12": "「解決辦法」是「answer (solution)」的用法，與本句語境不同。",
-        "answer-mcq-07": "「回答說……」是「answer that...」的用法，與本句語境不同。"
+        "answer-mcq-10": "本句的「answered his email」指「回覆電郵」。",
+        "answer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-10"
     },
@@ -1091,11 +1025,9 @@ export default {
       "masked": "She always ____ quickly.",
       "options": [
         "answer-mcq-10",
-        "answer-mcq-09",
-        "answer-mcq-11",
-        "answer-mcq-08",
-        "answer-mcq-12",
-        "answer-mcq-07"
+        "answer-mcq-02",
+        "answer-mcq-15",
+        "answer-mcq-09"
       ],
       "explanation": "本句的「answers messages」指「回覆電郵」。",
       "sentenceIndex": 20,
@@ -1104,12 +1036,10 @@ export default {
         "answers messages"
       ],
       "optionReasons": {
-        "answer-mcq-10": "本句指「回覆電郵」。",
-        "answer-mcq-09": "「應門」是「answer the door」的用法，與本句語境不同。",
-        "answer-mcq-11": "「回應投訴」是「answer a complaint」的用法，與本句語境不同。",
-        "answer-mcq-08": "「接電話」是「answer the phone」的用法，與本句語境不同。",
-        "answer-mcq-12": "「解決辦法」是「answer (solution)」的用法，與本句語境不同。",
-        "answer-mcq-07": "「回答說……」是「answer that...」的用法，與本句語境不同。"
+        "answer-mcq-10": "本句的「answers messages」指「回覆電郵」。",
+        "answer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-10"
     },
@@ -1121,11 +1051,9 @@ export default {
       "masked": "The company ____ within two days.",
       "options": [
         "answer-mcq-11",
-        "answer-mcq-10",
-        "answer-mcq-12",
-        "answer-mcq-09",
-        "answer-mcq-13",
-        "answer-mcq-08"
+        "answer-mcq-02",
+        "answer-mcq-08",
+        "answer-mcq-15"
       ],
       "explanation": "本句的「answered the complaint」指「回應投訴」。",
       "sentenceIndex": 21,
@@ -1134,12 +1062,10 @@ export default {
         "answered the complaint"
       ],
       "optionReasons": {
-        "answer-mcq-11": "本句指「回應投訴」。",
-        "answer-mcq-10": "「回覆電郵」是「answer an email」的用法，與本句語境不同。",
-        "answer-mcq-12": "「解決辦法」是「answer (solution)」的用法，與本句語境不同。",
-        "answer-mcq-09": "「應門」是「answer the door」的用法，與本句語境不同。",
-        "answer-mcq-13": "「問題解決方案」是「answer to a problem」的用法，與本句語境不同。",
-        "answer-mcq-08": "「接電話」是「answer the phone」的用法，與本句語境不同。"
+        "answer-mcq-11": "本句的「answered the complaint」指「回應投訴」。",
+        "answer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-11"
     },
@@ -1151,11 +1077,9 @@ export default {
       "masked": "He never ____.",
       "options": [
         "answer-mcq-11",
-        "answer-mcq-10",
-        "answer-mcq-12",
-        "answer-mcq-09",
+        "answer-mcq-14",
         "answer-mcq-13",
-        "answer-mcq-08"
+        "answer-mcq-17"
       ],
       "explanation": "本句的「answered my request」指「回應投訴」。",
       "sentenceIndex": 22,
@@ -1164,12 +1088,10 @@ export default {
         "answered my request"
       ],
       "optionReasons": {
-        "answer-mcq-11": "本句指「回應投訴」。",
-        "answer-mcq-10": "「回覆電郵」是「answer an email」的用法，與本句語境不同。",
-        "answer-mcq-12": "「解決辦法」是「answer (solution)」的用法，與本句語境不同。",
-        "answer-mcq-09": "「應門」是「answer the door」的用法，與本句語境不同。",
-        "answer-mcq-13": "「問題解決方案」是「answer to a problem」的用法，與本句語境不同。",
-        "answer-mcq-08": "「接電話」是「answer the phone」的用法，與本句語境不同。"
+        "answer-mcq-11": "本句的「answered my request」指「回應投訴」。",
+        "answer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-11"
     },
@@ -1181,11 +1103,9 @@ export default {
       "masked": "There is no easy ____ to this problem.",
       "options": [
         "answer-mcq-12",
-        "answer-mcq-11",
-        "answer-mcq-13",
-        "answer-mcq-10",
-        "answer-mcq-14",
-        "answer-mcq-09"
+        "answer-mcq-15",
+        "answer-mcq-09",
+        "answer-mcq-19"
       ],
       "explanation": "本句的「answer」指「解決辦法」。",
       "sentenceIndex": 23,
@@ -1194,12 +1114,10 @@ export default {
         "answer"
       ],
       "optionReasons": {
-        "answer-mcq-12": "本句指「解決辦法」。",
-        "answer-mcq-11": "「回應投訴」是「answer a complaint」的用法，與本句語境不同。",
-        "answer-mcq-13": "「問題解決方案」是「answer to a problem」的用法，與本句語境不同。",
-        "answer-mcq-10": "「回覆電郵」是「answer an email」的用法，與本句語境不同。",
-        "answer-mcq-14": "「沒有簡單答案」是「no easy answer」的用法，與本句語境不同。",
-        "answer-mcq-09": "「應門」是「answer the door」的用法，與本句語境不同。"
+        "answer-mcq-12": "本句的「answer」指「解決辦法」。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-12"
     },
@@ -1211,11 +1129,9 @@ export default {
       "masked": "Education alone is not the ____.",
       "options": [
         "answer-mcq-12",
-        "answer-mcq-11",
-        "answer-mcq-13",
-        "answer-mcq-10",
+        "answer-mcq-15",
         "answer-mcq-14",
-        "answer-mcq-09"
+        "answer-mcq-16"
       ],
       "explanation": "本句的「answer」指「解決辦法」。",
       "sentenceIndex": 24,
@@ -1224,12 +1140,10 @@ export default {
         "answer"
       ],
       "optionReasons": {
-        "answer-mcq-12": "本句指「解決辦法」。",
-        "answer-mcq-11": "「回應投訴」是「answer a complaint」的用法，與本句語境不同。",
-        "answer-mcq-13": "「問題解決方案」是「answer to a problem」的用法，與本句語境不同。",
-        "answer-mcq-10": "「回覆電郵」是「answer an email」的用法，與本句語境不同。",
-        "answer-mcq-14": "「沒有簡單答案」是「no easy answer」的用法，與本句語境不同。",
-        "answer-mcq-09": "「應門」是「answer the door」的用法，與本句語境不同。"
+        "answer-mcq-12": "本句的「answer」指「解決辦法」。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-12"
     },
@@ -1241,11 +1155,9 @@ export default {
       "masked": "Technology may be part of the ____.",
       "options": [
         "answer-mcq-13",
-        "answer-mcq-12",
-        "answer-mcq-14",
         "answer-mcq-11",
-        "answer-mcq-15",
-        "answer-mcq-10"
+        "answer-mcq-10",
+        "answer-mcq-16"
       ],
       "explanation": "本句的「answer to the problem」指「問題解決方案」。",
       "sentenceIndex": 25,
@@ -1254,12 +1166,10 @@ export default {
         "answer to the problem"
       ],
       "optionReasons": {
-        "answer-mcq-13": "本句指「問題解決方案」。",
-        "answer-mcq-12": "「解決辦法」是「answer (solution)」的用法，與本句語境不同。",
-        "answer-mcq-14": "「沒有簡單答案」是「no easy answer」的用法，與本句語境不同。",
-        "answer-mcq-11": "「回應投訴」是「answer a complaint」的用法，與本句語境不同。",
-        "answer-mcq-15": "「頂嘴」是「answer back」的用法，與本句語境不同。",
-        "answer-mcq-10": "「回覆電郵」是「answer an email」的用法，與本句語境不同。"
+        "answer-mcq-13": "本句的「answer to the problem」指「問題解決方案」。",
+        "answer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-13"
     },
@@ -1271,11 +1181,9 @@ export default {
       "masked": "There is no single ____.",
       "options": [
         "answer-mcq-13",
-        "answer-mcq-12",
-        "answer-mcq-14",
-        "answer-mcq-11",
         "answer-mcq-15",
-        "answer-mcq-10"
+        "answer-mcq-16",
+        "answer-mcq-07"
       ],
       "explanation": "本句的「answer to poverty」指「問題解決方案」。",
       "sentenceIndex": 26,
@@ -1284,12 +1192,10 @@ export default {
         "answer to poverty"
       ],
       "optionReasons": {
-        "answer-mcq-13": "本句指「問題解決方案」。",
-        "answer-mcq-12": "「解決辦法」是「answer (solution)」的用法，與本句語境不同。",
-        "answer-mcq-14": "「沒有簡單答案」是「no easy answer」的用法，與本句語境不同。",
-        "answer-mcq-11": "「回應投訴」是「answer a complaint」的用法，與本句語境不同。",
-        "answer-mcq-15": "「頂嘴」是「answer back」的用法，與本句語境不同。",
-        "answer-mcq-10": "「回覆電郵」是「answer an email」的用法，與本句語境不同。"
+        "answer-mcq-13": "本句的「answer to poverty」指「問題解決方案」。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-13"
     },
@@ -1301,11 +1207,9 @@ export default {
       "masked": "There is ____.",
       "options": [
         "answer-mcq-14",
-        "answer-mcq-13",
         "answer-mcq-15",
         "answer-mcq-12",
-        "answer-mcq-16",
-        "answer-mcq-11"
+        "answer-mcq-10"
       ],
       "explanation": "本句的「no easy answer」指「沒有簡單答案」。",
       "sentenceIndex": 27,
@@ -1314,12 +1218,10 @@ export default {
         "no easy answer"
       ],
       "optionReasons": {
-        "answer-mcq-14": "本句指「沒有簡單答案」。",
-        "answer-mcq-13": "「問題解決方案」是「answer to a problem」的用法，與本句語境不同。",
-        "answer-mcq-15": "「頂嘴」是「answer back」的用法，與本句語境不同。",
-        "answer-mcq-12": "「解決辦法」是「answer (solution)」的用法，與本句語境不同。",
-        "answer-mcq-16": "「向某人負責」是「answer to someone」的用法，與本句語境不同。",
-        "answer-mcq-11": "「回應投訴」是「answer a complaint」的用法，與本句語境不同。"
+        "answer-mcq-14": "本句的「no easy answer」指「沒有簡單答案」。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-14"
     },
@@ -1331,11 +1233,9 @@ export default {
       "masked": "The issue has ____.",
       "options": [
         "answer-mcq-14",
-        "answer-mcq-13",
-        "answer-mcq-15",
-        "answer-mcq-12",
+        "answer-mcq-10",
         "answer-mcq-16",
-        "answer-mcq-11"
+        "answer-mcq-12"
       ],
       "explanation": "本句的「no simple answer」指「沒有簡單答案」。",
       "sentenceIndex": 28,
@@ -1344,12 +1244,10 @@ export default {
         "no simple answer"
       ],
       "optionReasons": {
-        "answer-mcq-14": "本句指「沒有簡單答案」。",
-        "answer-mcq-13": "「問題解決方案」是「answer to a problem」的用法，與本句語境不同。",
-        "answer-mcq-15": "「頂嘴」是「answer back」的用法，與本句語境不同。",
-        "answer-mcq-12": "「解決辦法」是「answer (solution)」的用法，與本句語境不同。",
-        "answer-mcq-16": "「向某人負責」是「answer to someone」的用法，與本句語境不同。",
-        "answer-mcq-11": "「回應投訴」是「answer a complaint」的用法，與本句語境不同。"
+        "answer-mcq-14": "本句的「no simple answer」指「沒有簡單答案」。",
+        "answer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-14"
     },
@@ -1361,11 +1259,9 @@ export default {
       "masked": "Don't ____ to your teacher.",
       "options": [
         "answer-mcq-15",
-        "answer-mcq-14",
-        "answer-mcq-16",
-        "answer-mcq-13",
-        "answer-mcq-17",
-        "answer-mcq-12"
+        "answer-mcq-10",
+        "answer-mcq-05",
+        "answer-mcq-11"
       ],
       "explanation": "本句的「answer back」指「頂嘴」。",
       "sentenceIndex": 29,
@@ -1374,12 +1270,10 @@ export default {
         "answer back"
       ],
       "optionReasons": {
-        "answer-mcq-15": "本句指「頂嘴」。",
-        "answer-mcq-14": "「沒有簡單答案」是「no easy answer」的用法，與本句語境不同。",
-        "answer-mcq-16": "「向某人負責」是「answer to someone」的用法，與本句語境不同。",
-        "answer-mcq-13": "「問題解決方案」是「answer to a problem」的用法，與本句語境不同。",
-        "answer-mcq-17": "「為某事負責」是「answer for something」的用法，與本句語境不同。",
-        "answer-mcq-12": "「解決辦法」是「answer (solution)」的用法，與本句語境不同。"
+        "answer-mcq-15": "本句的「answer back」指「頂嘴」。",
+        "answer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-15"
     },
@@ -1391,11 +1285,9 @@ export default {
       "masked": "The child ____ angrily.",
       "options": [
         "answer-mcq-15",
-        "answer-mcq-14",
-        "answer-mcq-16",
-        "answer-mcq-13",
-        "answer-mcq-17",
-        "answer-mcq-12"
+        "answer-mcq-06",
+        "answer-mcq-12",
+        "answer-mcq-09"
       ],
       "explanation": "本句的「answered back」指「頂嘴」。",
       "sentenceIndex": 30,
@@ -1404,12 +1296,10 @@ export default {
         "answered back"
       ],
       "optionReasons": {
-        "answer-mcq-15": "本句指「頂嘴」。",
-        "answer-mcq-14": "「沒有簡單答案」是「no easy answer」的用法，與本句語境不同。",
-        "answer-mcq-16": "「向某人負責」是「answer to someone」的用法，與本句語境不同。",
-        "answer-mcq-13": "「問題解決方案」是「answer to a problem」的用法，與本句語境不同。",
-        "answer-mcq-17": "「為某事負責」是「answer for something」的用法，與本句語境不同。",
-        "answer-mcq-12": "「解決辦法」是「answer (solution)」的用法，與本句語境不同。"
+        "answer-mcq-15": "本句的「answered back」指「頂嘴」。",
+        "answer-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-15"
     },
@@ -1421,11 +1311,9 @@ export default {
       "masked": "Managers ____.",
       "options": [
         "answer-mcq-16",
-        "answer-mcq-15",
-        "answer-mcq-17",
+        "answer-mcq-10",
         "answer-mcq-14",
-        "answer-mcq-18",
-        "answer-mcq-13"
+        "answer-mcq-15"
       ],
       "explanation": "本句的「answer to the director」指「向某人負責」。",
       "sentenceIndex": 31,
@@ -1434,12 +1322,10 @@ export default {
         "answer to the director"
       ],
       "optionReasons": {
-        "answer-mcq-16": "本句指「向某人負責」。",
-        "answer-mcq-15": "「頂嘴」是「answer back」的用法，與本句語境不同。",
-        "answer-mcq-17": "「為某事負責」是「answer for something」的用法，與本句語境不同。",
-        "answer-mcq-14": "「沒有簡單答案」是「no easy answer」的用法，與本句語境不同。",
-        "answer-mcq-18": "「向……負責」是「answerable to」的用法，與本句語境不同。",
-        "answer-mcq-13": "「問題解決方案」是「answer to a problem」的用法，與本句語境不同。"
+        "answer-mcq-16": "本句的「answer to the director」指「向某人負責」。",
+        "answer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-16"
     },
@@ -1451,11 +1337,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "answer-mcq-16",
-        "answer-mcq-15",
-        "answer-mcq-17",
-        "answer-mcq-14",
-        "answer-mcq-18",
-        "answer-mcq-13"
+        "answer-reviewed-4dd3849168",
+        "answer-mcq-08",
+        "answer-mcq-05"
       ],
       "explanation": "本句的「answers directly to the chief executive」指「向某人負責」。",
       "sentenceIndex": 32,
@@ -1464,12 +1348,10 @@ export default {
         "answers directly to the chief executive"
       ],
       "optionReasons": {
-        "answer-mcq-16": "本句指「向某人負責」。",
-        "answer-mcq-15": "「頂嘴」是「answer back」的用法，與本句語境不同。",
-        "answer-mcq-17": "「為某事負責」是「answer for something」的用法，與本句語境不同。",
-        "answer-mcq-14": "「沒有簡單答案」是「no easy answer」的用法，與本句語境不同。",
-        "answer-mcq-18": "「向……負責」是「answerable to」的用法，與本句語境不同。",
-        "answer-mcq-13": "「問題解決方案」是「answer to a problem」的用法，與本句語境不同。"
+        "answer-mcq-16": "本句的「answers directly to the chief executive」指「向某人負責」。",
+        "answer-reviewed-4dd3849168": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-16"
     },
@@ -1481,11 +1363,9 @@ export default {
       "masked": "Someone must ____.",
       "options": [
         "answer-mcq-17",
-        "answer-mcq-16",
-        "answer-mcq-18",
-        "answer-mcq-15",
-        "answer-mcq-19",
-        "answer-mcq-14"
+        "answer-mcq-07",
+        "answer-mcq-09",
+        "answer-mcq-12"
       ],
       "explanation": "本句的「answer for this mistake」指「為某事負責」。",
       "sentenceIndex": 33,
@@ -1494,12 +1374,10 @@ export default {
         "answer for this mistake"
       ],
       "optionReasons": {
-        "answer-mcq-17": "本句指「為某事負責」。",
-        "answer-mcq-16": "「向某人負責」是「answer to someone」的用法，與本句語境不同。",
-        "answer-mcq-18": "「向……負責」是「answerable to」的用法，與本句語境不同。",
-        "answer-mcq-15": "「頂嘴」是「answer back」的用法，與本句語境不同。",
-        "answer-mcq-19": "「可回答的問題」是「answerable question」的用法，與本句語境不同。",
-        "answer-mcq-14": "「沒有簡單答案」是「no easy answer」的用法，與本句語境不同。"
+        "answer-mcq-17": "本句的「answer for this mistake」指「為某事負責」。",
+        "answer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-17"
     },
@@ -1511,11 +1389,9 @@ export default {
       "masked": "He will have to ____.",
       "options": [
         "answer-mcq-17",
-        "answer-mcq-16",
-        "answer-mcq-18",
-        "answer-mcq-15",
-        "answer-mcq-19",
-        "answer-mcq-14"
+        "answer-mcq-02",
+        "answer-mcq-21",
+        "answer-mcq-08"
       ],
       "explanation": "本句的「answer for his actions」指「為某事負責」。",
       "sentenceIndex": 34,
@@ -1524,12 +1400,10 @@ export default {
         "answer for his actions"
       ],
       "optionReasons": {
-        "answer-mcq-17": "本句指「為某事負責」。",
-        "answer-mcq-16": "「向某人負責」是「answer to someone」的用法，與本句語境不同。",
-        "answer-mcq-18": "「向……負責」是「answerable to」的用法，與本句語境不同。",
-        "answer-mcq-15": "「頂嘴」是「answer back」的用法，與本句語境不同。",
-        "answer-mcq-19": "「可回答的問題」是「answerable question」的用法，與本句語境不同。",
-        "answer-mcq-14": "「沒有簡單答案」是「no easy answer」的用法，與本句語境不同。"
+        "answer-mcq-17": "本句的「answer for his actions」指「為某事負責」。",
+        "answer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-17"
     },
@@ -1541,11 +1415,9 @@ export default {
       "masked": "The committee is ____.",
       "options": [
         "answer-mcq-16",
-        "answer-mcq-15",
-        "answer-mcq-17",
-        "answer-mcq-14",
-        "answer-mcq-18",
-        "answer-mcq-13"
+        "answer-mcq-07",
+        "answer-mcq-13",
+        "answer-mcq-09"
       ],
       "explanation": "本句的「answerable to the public」指「向某人負責」。",
       "sentenceIndex": 35,
@@ -1554,12 +1426,10 @@ export default {
         "answerable to the public"
       ],
       "optionReasons": {
-        "answer-mcq-16": "本句指「向某人負責」。",
-        "answer-mcq-15": "「頂嘴」是「answer back」的用法，與本句語境不同。",
-        "answer-mcq-17": "「為某事負責」是「answer for something」的用法，與本句語境不同。",
-        "answer-mcq-14": "「沒有簡單答案」是「no easy answer」的用法，與本句語境不同。",
-        "answer-mcq-18": "「向……負責」是「answerable to」的用法，與本句語境不同。",
-        "answer-mcq-13": "「問題解決方案」是「answer to a problem」的用法，與本句語境不同。"
+        "answer-mcq-16": "本句的「answerable to the public」指「向某人負責」。",
+        "answer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-16"
     },
@@ -1571,11 +1441,9 @@ export default {
       "masked": "Managers are ____.",
       "options": [
         "answer-mcq-16",
-        "answer-mcq-15",
-        "answer-mcq-17",
-        "answer-mcq-14",
-        "answer-mcq-18",
-        "answer-mcq-13"
+        "answer-mcq-12",
+        "answer-mcq-19",
+        "answer-mcq-09"
       ],
       "explanation": "本句的「answerable to senior staff」指「向某人負責」。",
       "sentenceIndex": 36,
@@ -1584,12 +1452,10 @@ export default {
         "answerable to senior staff"
       ],
       "optionReasons": {
-        "answer-mcq-16": "本句指「向某人負責」。",
-        "answer-mcq-15": "「頂嘴」是「answer back」的用法，與本句語境不同。",
-        "answer-mcq-17": "「為某事負責」是「answer for something」的用法，與本句語境不同。",
-        "answer-mcq-14": "「沒有簡單答案」是「no easy answer」的用法，與本句語境不同。",
-        "answer-mcq-18": "「向……負責」是「answerable to」的用法，與本句語境不同。",
-        "answer-mcq-13": "「問題解決方案」是「answer to a problem」的用法，與本句語境不同。"
+        "answer-mcq-16": "本句的「answerable to senior staff」指「向某人負責」。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-16"
     },
@@ -1601,11 +1467,9 @@ export default {
       "masked": "He is ____.",
       "options": [
         "answer-mcq-17",
-        "answer-mcq-16",
-        "answer-mcq-18",
-        "answer-mcq-15",
-        "answer-mcq-19",
-        "answer-mcq-14"
+        "answer-mcq-11",
+        "answer-mcq-14",
+        "answer-mcq-13"
       ],
       "explanation": "本句的「answerable for the decision」指「為某事負責」。",
       "sentenceIndex": 37,
@@ -1614,12 +1478,10 @@ export default {
         "answerable for the decision"
       ],
       "optionReasons": {
-        "answer-mcq-17": "本句指「為某事負責」。",
-        "answer-mcq-16": "「向某人負責」是「answer to someone」的用法，與本句語境不同。",
-        "answer-mcq-18": "「向……負責」是「answerable to」的用法，與本句語境不同。",
-        "answer-mcq-15": "「頂嘴」是「answer back」的用法，與本句語境不同。",
-        "answer-mcq-19": "「可回答的問題」是「answerable question」的用法，與本句語境不同。",
-        "answer-mcq-14": "「沒有簡單答案」是「no easy answer」的用法，與本句語境不同。"
+        "answer-mcq-17": "本句的「answerable for the decision」指「為某事負責」。",
+        "answer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-17"
     },
@@ -1631,11 +1493,9 @@ export default {
       "masked": "The company is ____.",
       "options": [
         "answer-mcq-17",
-        "answer-mcq-16",
-        "answer-mcq-18",
-        "answer-mcq-15",
-        "answer-mcq-19",
-        "answer-mcq-14"
+        "answer-mcq-03",
+        "answer-mcq-10",
+        "answer-mcq-19"
       ],
       "explanation": "本句的「answerable for any damage」指「為某事負責」。",
       "sentenceIndex": 38,
@@ -1644,12 +1504,10 @@ export default {
         "answerable for any damage"
       ],
       "optionReasons": {
-        "answer-mcq-17": "本句指「為某事負責」。",
-        "answer-mcq-16": "「向某人負責」是「answer to someone」的用法，與本句語境不同。",
-        "answer-mcq-18": "「向……負責」是「answerable to」的用法，與本句語境不同。",
-        "answer-mcq-15": "「頂嘴」是「answer back」的用法，與本句語境不同。",
-        "answer-mcq-19": "「可回答的問題」是「answerable question」的用法，與本句語境不同。",
-        "answer-mcq-14": "「沒有簡單答案」是「no easy answer」的用法，與本句語境不同。"
+        "answer-mcq-17": "本句的「answerable for any damage」指「為某事負責」。",
+        "answer-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-17"
     },
@@ -1661,11 +1519,9 @@ export default {
       "masked": "The question is difficult but ____.",
       "options": [
         "answer-mcq-19",
-        "answer-mcq-18",
-        "answer-mcq-20",
-        "answer-mcq-17",
-        "answer-mcq-21",
-        "answer-mcq-16"
+        "answer-mcq-12",
+        "answer-mcq-16",
+        "answer-mcq-08"
       ],
       "explanation": "本句的「answerable」指「可回答的問題」。",
       "sentenceIndex": 39,
@@ -1674,12 +1530,10 @@ export default {
         "answerable"
       ],
       "optionReasons": {
-        "answer-mcq-19": "本句指「可回答的問題」。",
-        "answer-mcq-18": "「向……負責」是「answerable to」的用法，與本句語境不同。",
-        "answer-mcq-20": "「未解答的問題」是「unanswered question」的用法，與本句語境不同。",
-        "answer-mcq-17": "「為某事負責」是「answer for something」的用法，與本句語境不同。",
-        "answer-mcq-21": "「回應／滿足需要」是「answer a need」的用法，與本句語境不同。",
-        "answer-mcq-16": "「向某人負責」是「answer to someone」的用法，與本句語境不同。"
+        "answer-mcq-19": "本句的「answerable」指「可回答的問題」。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-19"
     },
@@ -1691,11 +1545,9 @@ export default {
       "masked": "Not every historical question is fully ____.",
       "options": [
         "answer-mcq-19",
-        "answer-mcq-18",
-        "answer-mcq-20",
         "answer-mcq-17",
-        "answer-mcq-21",
-        "answer-mcq-16"
+        "answer-mcq-12",
+        "answer-mcq-08"
       ],
       "explanation": "本句的「answerable」指「可回答的問題」。",
       "sentenceIndex": 40,
@@ -1704,12 +1556,10 @@ export default {
         "answerable"
       ],
       "optionReasons": {
-        "answer-mcq-19": "本句指「可回答的問題」。",
-        "answer-mcq-18": "「向……負責」是「answerable to」的用法，與本句語境不同。",
-        "answer-mcq-20": "「未解答的問題」是「unanswered question」的用法，與本句語境不同。",
-        "answer-mcq-17": "「為某事負責」是「answer for something」的用法，與本句語境不同。",
-        "answer-mcq-21": "「回應／滿足需要」是「answer a need」的用法，與本句語境不同。",
-        "answer-mcq-16": "「向某人負責」是「answer to someone」的用法，與本句語境不同。"
+        "answer-mcq-19": "本句的「answerable」指「可回答的問題」。",
+        "answer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-19"
     },
@@ -1721,11 +1571,9 @@ export default {
       "masked": "Many questions remain ____.",
       "options": [
         "answer-mcq-20",
-        "answer-mcq-19",
+        "answer-mcq-15",
         "answer-mcq-21",
-        "answer-mcq-18",
-        "answer-mcq-17",
-        "answer-mcq-16"
+        "answer-mcq-17"
       ],
       "explanation": "本句的「unanswered」指「未解答的問題」。",
       "sentenceIndex": 41,
@@ -1734,12 +1582,10 @@ export default {
         "unanswered"
       ],
       "optionReasons": {
-        "answer-mcq-20": "本句指「未解答的問題」。",
-        "answer-mcq-19": "「可回答的問題」是「answerable question」的用法，與本句語境不同。",
-        "answer-mcq-21": "「回應／滿足需要」是「answer a need」的用法，與本句語境不同。",
-        "answer-mcq-18": "「向……負責」是「answerable to」的用法，與本句語境不同。",
-        "answer-mcq-17": "「為某事負責」是「answer for something」的用法，與本句語境不同。",
-        "answer-mcq-16": "「向某人負責」是「answer to someone」的用法，與本句語境不同。"
+        "answer-mcq-20": "本句的「unanswered」指「未解答的問題」。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-20"
     },
@@ -1751,11 +1597,9 @@ export default {
       "masked": "The investigation left several ____.",
       "options": [
         "answer-mcq-20",
-        "answer-mcq-19",
-        "answer-mcq-21",
-        "answer-mcq-18",
-        "answer-mcq-17",
-        "answer-mcq-16"
+        "answer-mcq-09",
+        "answer-mcq-10",
+        "answer-mcq-15"
       ],
       "explanation": "本句的「unanswered questions」指「未解答的問題」。",
       "sentenceIndex": 42,
@@ -1764,12 +1608,10 @@ export default {
         "unanswered questions"
       ],
       "optionReasons": {
-        "answer-mcq-20": "本句指「未解答的問題」。",
-        "answer-mcq-19": "「可回答的問題」是「answerable question」的用法，與本句語境不同。",
-        "answer-mcq-21": "「回應／滿足需要」是「answer a need」的用法，與本句語境不同。",
-        "answer-mcq-18": "「向……負責」是「answerable to」的用法，與本句語境不同。",
-        "answer-mcq-17": "「為某事負責」是「answer for something」的用法，與本句語境不同。",
-        "answer-mcq-16": "「向某人負責」是「answer to someone」的用法，與本句語境不同。"
+        "answer-mcq-20": "本句的「unanswered questions」指「未解答的問題」。",
+        "answer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-20"
     },
@@ -1781,11 +1623,9 @@ export default {
       "masked": "The new service ____ in the community.",
       "options": [
         "answer-mcq-21",
-        "answer-mcq-20",
-        "answer-mcq-19",
-        "answer-mcq-18",
         "answer-mcq-17",
-        "answer-mcq-16"
+        "answer-mcq-02",
+        "answer-mcq-15"
       ],
       "explanation": "本句的「answers a real need」指「回應／滿足需要」。",
       "sentenceIndex": 43,
@@ -1794,12 +1634,10 @@ export default {
         "answers a real need"
       ],
       "optionReasons": {
-        "answer-mcq-21": "本句指「回應／滿足需要」。",
-        "answer-mcq-20": "「未解答的問題」是「unanswered question」的用法，與本句語境不同。",
-        "answer-mcq-19": "「可回答的問題」是「answerable question」的用法，與本句語境不同。",
-        "answer-mcq-18": "「向……負責」是「answerable to」的用法，與本句語境不同。",
-        "answer-mcq-17": "「為某事負責」是「answer for something」的用法，與本句語境不同。",
-        "answer-mcq-16": "「向某人負責」是「answer to someone」的用法，與本句語境不同。"
+        "answer-mcq-21": "本句的「answers a real need」指「回應／滿足需要」。",
+        "answer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-21"
     },
@@ -1811,11 +1649,9 @@ export default {
       "masked": "The product was designed to ____.",
       "options": [
         "answer-mcq-21",
-        "answer-mcq-20",
-        "answer-mcq-19",
-        "answer-mcq-18",
-        "answer-mcq-17",
-        "answer-mcq-16"
+        "answer-mcq-08",
+        "answer-mcq-12",
+        "answer-mcq-02"
       ],
       "explanation": "本句的「answer growing demand」指「回應／滿足需要」。",
       "sentenceIndex": 44,
@@ -1824,12 +1660,10 @@ export default {
         "answer growing demand"
       ],
       "optionReasons": {
-        "answer-mcq-21": "本句指「回應／滿足需要」。",
-        "answer-mcq-20": "「未解答的問題」是「unanswered question」的用法，與本句語境不同。",
-        "answer-mcq-19": "「可回答的問題」是「answerable question」的用法，與本句語境不同。",
-        "answer-mcq-18": "「向……負責」是「answerable to」的用法，與本句語境不同。",
-        "answer-mcq-17": "「為某事負責」是「answer for something」的用法，與本句語境不同。",
-        "answer-mcq-16": "「向某人負責」是「answer to someone」的用法，與本句語境不同。"
+        "answer-mcq-21": "本句的「answer growing demand」指「回應／滿足需要」。",
+        "answer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "answer-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "answer-mcq-21"
     }
@@ -1841,5 +1675,7 @@ export default {
     "sha256": "8d74c4bceb46f228b51cbc8330a24102f4499ada89e0f5d7357278d433a30c71",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

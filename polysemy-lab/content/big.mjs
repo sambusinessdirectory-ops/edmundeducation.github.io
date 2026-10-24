@@ -625,16 +625,6 @@ export default {
           "I messed up big time.",
           "我這次犯了很嚴重的錯。",
           "程度非常大／嚴重；或取得重大成功"
-        ],
-        [
-          "She finally reached the big time.",
-          "她終於躋身成功／成名的頂級舞台。",
-          "程度非常大／嚴重；或取得重大成功"
-        ],
-        [
-          "He dreams of making it to the big time.",
-          "他夢想有一天能成名／進入頂尖層次。",
-          "程度非常大／嚴重；或取得重大成功"
         ]
       ],
       "options": [],
@@ -815,6 +805,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "big-reviewed-3dc1a062ea",
+      "title": "高度成功、知名或重要的職業／娛樂層次",
+      "form": "big · source section 37",
+      "en": "高度成功、知名或重要的職業／娛樂層次",
+      "zh": "高度成功、知名或重要的職業／娛樂層次",
+      "note": "對照原始教材第 37 節及例句核實。",
+      "examples": [
+        [
+          "She finally reached the big time.",
+          "她終於躋身成功／成名的頂級舞台。",
+          "高度成功、知名或重要的職業／娛樂層次"
+        ],
+        [
+          "He dreams of making it to the big time.",
+          "他夢想有一天能成名／進入頂尖層次。",
+          "高度成功、知名或重要的職業／娛樂層次"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -826,11 +838,9 @@ export default {
       "masked": "They live in a ____.",
       "options": [
         "big-mcq-01",
-        "big-mcq-02",
-        "big-mcq-03",
-        "big-mcq-04",
-        "big-mcq-05",
-        "big-mcq-06"
+        "big-mcq-09",
+        "big-mcq-20",
+        "big-mcq-23"
       ],
       "explanation": "本句的「big house」指「整體尺寸、體積或佔用空間較大的」。",
       "sentenceIndex": 0,
@@ -839,12 +849,10 @@ export default {
         "big house"
       ],
       "optionReasons": {
-        "big-mcq-01": "本句指「整體尺寸、體積或佔用空間較大的」。",
-        "big-mcq-02": "「數量、幅度或總量相當大的」是「big — amount/number」的用法，與本句語境不同。",
-        "big-mcq-03": "「差異、改變或增幅的程度很明顯／很大」是「big difference/change」的用法，與本句語境不同。",
-        "big-mcq-04": "「對結果、人生、計劃或情況有重大影響／意義的」是「big — important」的用法，與本句語境不同。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。"
+        "big-mcq-01": "本句的「big house」指「整體尺寸、體積或佔用空間較大的」。",
+        "big-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-01"
     },
@@ -856,11 +864,9 @@ export default {
       "masked": "That is a very ____.",
       "options": [
         "big-mcq-01",
-        "big-mcq-02",
-        "big-mcq-03",
-        "big-mcq-04",
-        "big-mcq-05",
-        "big-mcq-06"
+        "big-mcq-23",
+        "big-mcq-06",
+        "big-reviewed-3dc1a062ea"
       ],
       "explanation": "本句的「big table」指「整體尺寸、體積或佔用空間較大的」。",
       "sentenceIndex": 1,
@@ -869,12 +875,10 @@ export default {
         "big table"
       ],
       "optionReasons": {
-        "big-mcq-01": "本句指「整體尺寸、體積或佔用空間較大的」。",
-        "big-mcq-02": "「數量、幅度或總量相當大的」是「big — amount/number」的用法，與本句語境不同。",
-        "big-mcq-03": "「差異、改變或增幅的程度很明顯／很大」是「big difference/change」的用法，與本句語境不同。",
-        "big-mcq-04": "「對結果、人生、計劃或情況有重大影響／意義的」是「big — important」的用法，與本句語境不同。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。"
+        "big-mcq-01": "本句的「big table」指「整體尺寸、體積或佔用空間較大的」。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "big-reviewed-3dc1a062ea": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-01"
     },
@@ -886,11 +890,9 @@ export default {
       "masked": "He is a ____.",
       "options": [
         "big-mcq-01",
-        "big-mcq-02",
-        "big-mcq-03",
-        "big-mcq-04",
-        "big-mcq-05",
-        "big-mcq-06"
+        "big-mcq-06",
+        "big-mcq-29",
+        "big-mcq-09"
       ],
       "explanation": "本句的「big man」指「整體尺寸、體積或佔用空間較大的」。",
       "sentenceIndex": 2,
@@ -899,12 +901,10 @@ export default {
         "big man"
       ],
       "optionReasons": {
-        "big-mcq-01": "本句指「整體尺寸、體積或佔用空間較大的」。",
-        "big-mcq-02": "「數量、幅度或總量相當大的」是「big — amount/number」的用法，與本句語境不同。",
-        "big-mcq-03": "「差異、改變或增幅的程度很明顯／很大」是「big difference/change」的用法，與本句語境不同。",
-        "big-mcq-04": "「對結果、人生、計劃或情況有重大影響／意義的」是「big — important」的用法，與本句語境不同。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。"
+        "big-mcq-01": "本句的「big man」指「整體尺寸、體積或佔用空間較大的」。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-01"
     },
@@ -916,10 +916,8 @@ export default {
       "masked": "It’s a ____.",
       "options": [
         "big-mcq-01",
-        "big-mcq-02",
-        "big-mcq-03",
-        "big-mcq-04",
-        "big-mcq-05",
+        "big-mcq-09",
+        "big-mcq-13",
         "big-mcq-06"
       ],
       "explanation": "本句的「big dog」指「整體尺寸、體積或佔用空間較大的」。",
@@ -929,12 +927,10 @@ export default {
         "big dog"
       ],
       "optionReasons": {
-        "big-mcq-01": "本句指「整體尺寸、體積或佔用空間較大的」。",
-        "big-mcq-02": "「數量、幅度或總量相當大的」是「big — amount/number」的用法，與本句語境不同。",
-        "big-mcq-03": "「差異、改變或增幅的程度很明顯／很大」是「big difference/change」的用法，與本句語境不同。",
-        "big-mcq-04": "「對結果、人生、計劃或情況有重大影響／意義的」是「big — important」的用法，與本句語境不同。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。"
+        "big-mcq-01": "本句的「big dog」指「整體尺寸、體積或佔用空間較大的」。",
+        "big-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-01"
     },
@@ -946,11 +942,9 @@ export default {
       "masked": "They made a ____.",
       "options": [
         "big-mcq-02",
-        "big-mcq-01",
-        "big-mcq-03",
-        "big-mcq-04",
-        "big-mcq-05",
-        "big-mcq-06"
+        "big-mcq-06",
+        "big-mcq-24",
+        "big-mcq-23"
       ],
       "explanation": "本句的「big profit」指「數量、幅度或總量相當大的」。",
       "sentenceIndex": 4,
@@ -959,12 +953,10 @@ export default {
         "big profit"
       ],
       "optionReasons": {
-        "big-mcq-02": "本句指「數量、幅度或總量相當大的」。",
-        "big-mcq-01": "「整體尺寸、體積或佔用空間較大的」是「big — physical size」的用法，與本句語境不同。",
-        "big-mcq-03": "「差異、改變或增幅的程度很明顯／很大」是「big difference/change」的用法，與本句語境不同。",
-        "big-mcq-04": "「對結果、人生、計劃或情況有重大影響／意義的」是「big — important」的用法，與本句語境不同。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。"
+        "big-mcq-02": "本句的「big profit」指「數量、幅度或總量相當大的」。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-02"
     },
@@ -976,10 +968,8 @@ export default {
       "masked": "There was a ____ in demand.",
       "options": [
         "big-mcq-02",
-        "big-mcq-01",
-        "big-mcq-03",
-        "big-mcq-04",
-        "big-mcq-05",
+        "big-mcq-20",
+        "big-mcq-29",
         "big-mcq-06"
       ],
       "explanation": "本句的「big increase」指「數量、幅度或總量相當大的」。",
@@ -989,12 +979,10 @@ export default {
         "big increase"
       ],
       "optionReasons": {
-        "big-mcq-02": "本句指「數量、幅度或總量相當大的」。",
-        "big-mcq-01": "「整體尺寸、體積或佔用空間較大的」是「big — physical size」的用法，與本句語境不同。",
-        "big-mcq-03": "「差異、改變或增幅的程度很明顯／很大」是「big difference/change」的用法，與本句語境不同。",
-        "big-mcq-04": "「對結果、人生、計劃或情況有重大影響／意義的」是「big — important」的用法，與本句語境不同。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。"
+        "big-mcq-02": "本句的「big increase」指「數量、幅度或總量相當大的」。",
+        "big-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-02"
     },
@@ -1006,11 +994,9 @@ export default {
       "masked": "There is a ____ between the two versions.",
       "options": [
         "big-mcq-03",
-        "big-mcq-02",
-        "big-mcq-04",
-        "big-mcq-01",
-        "big-mcq-05",
-        "big-mcq-06"
+        "big-pdf-reviewed-01",
+        "big-mcq-12",
+        "big-mcq-24"
       ],
       "explanation": "本句的「big difference」指「差異、改變或增幅的程度很明顯／很大」。",
       "sentenceIndex": 6,
@@ -1019,12 +1005,10 @@ export default {
         "big difference"
       ],
       "optionReasons": {
-        "big-mcq-03": "本句指「差異、改變或增幅的程度很明顯／很大」。",
-        "big-mcq-02": "「數量、幅度或總量相當大的」是「big — amount/number」的用法，與本句語境不同。",
-        "big-mcq-04": "「對結果、人生、計劃或情況有重大影響／意義的」是「big — important」的用法，與本句語境不同。",
-        "big-mcq-01": "「整體尺寸、體積或佔用空間較大的」是「big — physical size」的用法，與本句語境不同。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。"
+        "big-mcq-03": "本句的「big difference」指「差異、改變或增幅的程度很明顯／很大」。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-03"
     },
@@ -1036,11 +1020,9 @@ export default {
       "masked": "The new system made a ____.",
       "options": [
         "big-mcq-03",
-        "big-mcq-02",
-        "big-mcq-04",
-        "big-mcq-01",
-        "big-mcq-05",
-        "big-mcq-06"
+        "big-mcq-13",
+        "big-mcq-24",
+        "big-mcq-23"
       ],
       "explanation": "本句的「big change」指「差異、改變或增幅的程度很明顯／很大」。",
       "sentenceIndex": 7,
@@ -1049,12 +1031,10 @@ export default {
         "big change"
       ],
       "optionReasons": {
-        "big-mcq-03": "本句指「差異、改變或增幅的程度很明顯／很大」。",
-        "big-mcq-02": "「數量、幅度或總量相當大的」是「big — amount/number」的用法，與本句語境不同。",
-        "big-mcq-04": "「對結果、人生、計劃或情況有重大影響／意義的」是「big — important」的用法，與本句語境不同。",
-        "big-mcq-01": "「整體尺寸、體積或佔用空間較大的」是「big — physical size」的用法，與本句語境不同。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。"
+        "big-mcq-03": "本句的「big change」指「差異、改變或增幅的程度很明顯／很大」。",
+        "big-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-03"
     },
@@ -1066,11 +1046,9 @@ export default {
       "masked": "That was a ____.",
       "options": [
         "big-mcq-04",
-        "big-mcq-03",
-        "big-mcq-05",
-        "big-mcq-02",
-        "big-mcq-06",
-        "big-mcq-01"
+        "big-mcq-24",
+        "big-mcq-15",
+        "big-pdf-reviewed-01"
       ],
       "explanation": "本句的「big decision」指「對結果、人生、計劃或情況有重大影響／意義的」。",
       "sentenceIndex": 8,
@@ -1079,12 +1057,10 @@ export default {
         "big decision"
       ],
       "optionReasons": {
-        "big-mcq-04": "本句指「對結果、人生、計劃或情況有重大影響／意義的」。",
-        "big-mcq-03": "「差異、改變或增幅的程度很明顯／很大」是「big difference/change」的用法，與本句語境不同。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。",
-        "big-mcq-02": "「數量、幅度或總量相當大的」是「big — amount/number」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。",
-        "big-mcq-01": "「整體尺寸、體積或佔用空間較大的」是「big — physical size」的用法，與本句語境不同。"
+        "big-mcq-04": "本句的「big decision」指「對結果、人生、計劃或情況有重大影響／意義的」。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-04"
     },
@@ -1096,11 +1072,9 @@ export default {
       "masked": "The presentation was a ____ for her.",
       "options": [
         "big-mcq-04",
-        "big-mcq-03",
-        "big-mcq-05",
-        "big-mcq-02",
-        "big-mcq-06",
-        "big-mcq-01"
+        "big-mcq-15",
+        "big-pdf-reviewed-01",
+        "big-mcq-23"
       ],
       "explanation": "本句的「big moment」指「對結果、人生、計劃或情況有重大影響／意義的」。",
       "sentenceIndex": 9,
@@ -1109,12 +1083,10 @@ export default {
         "big moment"
       ],
       "optionReasons": {
-        "big-mcq-04": "本句指「對結果、人生、計劃或情況有重大影響／意義的」。",
-        "big-mcq-03": "「差異、改變或增幅的程度很明顯／很大」是「big difference/change」的用法，與本句語境不同。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。",
-        "big-mcq-02": "「數量、幅度或總量相當大的」是「big — amount/number」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。",
-        "big-mcq-01": "「整體尺寸、體積或佔用空間較大的」是「big — physical size」的用法，與本句語境不同。"
+        "big-mcq-04": "本句的「big moment」指「對結果、人生、計劃或情況有重大影響／意義的」。",
+        "big-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-04"
     },
@@ -1126,11 +1098,9 @@ export default {
       "masked": "We need to discuss the ____.",
       "options": [
         "big-mcq-29",
-        "big-mcq-28",
-        "big-mcq-30",
-        "big-mcq-27",
-        "big-mcq-31",
-        "big-mcq-26"
+        "big-mcq-16",
+        "big-pdf-reviewed-01",
+        "big-mcq-32"
       ],
       "explanation": "本句的「big question」指「重要性高、會帶來明顯後果的」。",
       "sentenceIndex": 10,
@@ -1139,12 +1109,10 @@ export default {
         "big question"
       ],
       "optionReasons": {
-        "big-mcq-29": "本句指「重要性高、會帶來明顯後果的」。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。",
-        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」是「21. big = mature / grown-up（像大人一樣） — 成熟；長大了」的用法，與本句語境不同。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」是「big picture」的用法，與本句語境不同。",
-        "big-mcq-31": "「反應／情緒的強度或影響程度高」是「23. big emotion/reaction（強烈情緒／反應） — 很大的；強烈的」的用法，與本句語境不同。",
-        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」是「big time」的用法，與本句語境不同。"
+        "big-mcq-29": "本句的「big question」指「重要性高、會帶來明顯後果的」。",
+        "big-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-29"
     },
@@ -1156,11 +1124,9 @@ export default {
       "masked": "This is a ____ for the team.",
       "options": [
         "big-mcq-29",
-        "big-mcq-28",
-        "big-mcq-30",
-        "big-mcq-27",
-        "big-mcq-31",
-        "big-mcq-26"
+        "big-mcq-24",
+        "big-mcq-14",
+        "big-mcq-12"
       ],
       "explanation": "本句的「big issue」指「重要性高、會帶來明顯後果的」。",
       "sentenceIndex": 11,
@@ -1169,12 +1135,10 @@ export default {
         "big issue"
       ],
       "optionReasons": {
-        "big-mcq-29": "本句指「重要性高、會帶來明顯後果的」。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。",
-        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」是「21. big = mature / grown-up（像大人一樣） — 成熟；長大了」的用法，與本句語境不同。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」是「big picture」的用法，與本句語境不同。",
-        "big-mcq-31": "「反應／情緒的強度或影響程度高」是「23. big emotion/reaction（強烈情緒／反應） — 很大的；強烈的」的用法，與本句語境不同。",
-        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」是「big time」的用法，與本句語境不同。"
+        "big-mcq-29": "本句的「big issue」指「重要性高、會帶來明顯後果的」。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-29"
     },
@@ -1186,11 +1150,9 @@ export default {
       "masked": "We have a ____.",
       "options": [
         "big-mcq-05",
-        "big-mcq-04",
-        "big-mcq-06",
-        "big-mcq-03",
-        "big-mcq-07",
-        "big-mcq-02"
+        "big-pdf-reviewed-01",
+        "big-mcq-23",
+        "big-mcq-24"
       ],
       "explanation": "本句的「big problem」指「嚴重、影響範圍大或難以處理的問題」。",
       "sentenceIndex": 12,
@@ -1199,12 +1161,10 @@ export default {
         "big problem"
       ],
       "optionReasons": {
-        "big-mcq-05": "本句指「嚴重、影響範圍大或難以處理的問題」。",
-        "big-mcq-04": "「對結果、人生、計劃或情況有重大影響／意義的」是「big — important」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。",
-        "big-mcq-03": "「差異、改變或增幅的程度很明顯／很大」是「big difference/change」的用法，與本句語境不同。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。",
-        "big-mcq-02": "「數量、幅度或總量相當大的」是「big — amount/number」的用法，與本句語境不同。"
+        "big-mcq-05": "本句的「big problem」指「嚴重、影響範圍大或難以處理的問題」。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-05"
     },
@@ -1216,11 +1176,9 @@ export default {
       "masked": "That mistake could become a ____.",
       "options": [
         "big-mcq-05",
-        "big-mcq-04",
-        "big-mcq-06",
-        "big-mcq-03",
-        "big-mcq-07",
-        "big-mcq-02"
+        "big-mcq-24",
+        "big-pdf-reviewed-01",
+        "big-mcq-23"
       ],
       "explanation": "本句的「big problem」指「嚴重、影響範圍大或難以處理的問題」。",
       "sentenceIndex": 13,
@@ -1229,12 +1187,10 @@ export default {
         "big problem"
       ],
       "optionReasons": {
-        "big-mcq-05": "本句指「嚴重、影響範圍大或難以處理的問題」。",
-        "big-mcq-04": "「對結果、人生、計劃或情況有重大影響／意義的」是「big — important」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。",
-        "big-mcq-03": "「差異、改變或增幅的程度很明顯／很大」是「big difference/change」的用法，與本句語境不同。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。",
-        "big-mcq-02": "「數量、幅度或總量相當大的」是「big — amount/number」的用法，與本句語境不同。"
+        "big-mcq-05": "本句的「big problem」指「嚴重、影響範圍大或難以處理的問題」。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-05"
     },
@@ -1246,11 +1202,9 @@ export default {
       "masked": "She shows love through small actions rather than ____.",
       "options": [
         "big-mcq-06",
-        "big-mcq-05",
-        "big-mcq-07",
-        "big-mcq-04",
-        "big-mcq-08",
-        "big-mcq-03"
+        "big-mcq-16",
+        "big-mcq-32",
+        "big-mcq-33"
       ],
       "explanation": "本句的「big speeches」指「表達、場合或行動顯得隆重、戲劇化或很有聲勢」。",
       "sentenceIndex": 14,
@@ -1259,12 +1213,10 @@ export default {
         "big speeches"
       ],
       "optionReasons": {
-        "big-mcq-06": "本句指「表達、場合或行動顯得隆重、戲劇化或很有聲勢」。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。",
-        "big-mcq-04": "「對結果、人生、計劃或情況有重大影響／意義的」是「big — important」的用法，與本句語境不同。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。",
-        "big-mcq-03": "「差異、改變或增幅的程度很明顯／很大」是「big difference/change」的用法，與本句語境不同。"
+        "big-mcq-06": "本句的「big speeches」指「表達、場合或行動顯得隆重、戲劇化或很有聲勢」。",
+        "big-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-06"
     },
@@ -1276,11 +1228,9 @@ export default {
       "masked": "He made a ____ about changing his life.",
       "options": [
         "big-mcq-06",
-        "big-mcq-05",
-        "big-mcq-07",
-        "big-mcq-04",
-        "big-mcq-08",
-        "big-mcq-03"
+        "big-mcq-09",
+        "big-mcq-32",
+        "big-mcq-20"
       ],
       "explanation": "本句的「big speech」指「表達、場合或行動顯得隆重、戲劇化或很有聲勢」。",
       "sentenceIndex": 15,
@@ -1289,12 +1239,10 @@ export default {
         "big speech"
       ],
       "optionReasons": {
-        "big-mcq-06": "本句指「表達、場合或行動顯得隆重、戲劇化或很有聲勢」。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。",
-        "big-mcq-04": "「對結果、人生、計劃或情況有重大影響／意義的」是「big — important」的用法，與本句語境不同。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。",
-        "big-mcq-03": "「差異、改變或增幅的程度很明顯／很大」是「big difference/change」的用法，與本句語境不同。"
+        "big-mcq-06": "本句的「big speech」指「表達、場合或行動顯得隆重、戲劇化或很有聲勢」。",
+        "big-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-06"
     },
@@ -1306,11 +1254,9 @@ export default {
       "masked": "They made a ____.",
       "options": [
         "big-mcq-06",
-        "big-mcq-05",
-        "big-mcq-07",
-        "big-mcq-04",
-        "big-mcq-08",
-        "big-mcq-03"
+        "big-mcq-02",
+        "big-mcq-17",
+        "big-pdf-reviewed-01"
       ],
       "explanation": "本句的「big announcement」指「表達、場合或行動顯得隆重、戲劇化或很有聲勢」。",
       "sentenceIndex": 16,
@@ -1319,12 +1265,10 @@ export default {
         "big announcement"
       ],
       "optionReasons": {
-        "big-mcq-06": "本句指「表達、場合或行動顯得隆重、戲劇化或很有聲勢」。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。",
-        "big-mcq-04": "「對結果、人生、計劃或情況有重大影響／意義的」是「big — important」的用法，與本句語境不同。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。",
-        "big-mcq-03": "「差異、改變或增幅的程度很明顯／很大」是「big difference/change」的用法，與本句語境不同。"
+        "big-mcq-06": "本句的「big announcement」指「表達、場合或行動顯得隆重、戲劇化或很有聲勢」。",
+        "big-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-06"
     },
@@ -1336,11 +1280,9 @@ export default {
       "masked": "The wedding was a ____.",
       "options": [
         "big-mcq-08",
-        "big-mcq-07",
-        "big-mcq-09",
-        "big-mcq-06",
-        "big-mcq-10",
-        "big-mcq-05"
+        "big-pdf-reviewed-01",
+        "big-mcq-12",
+        "big-mcq-23"
       ],
       "explanation": "本句的「big event」指「規模很大或具有重大個人／社會意義的活動」。",
       "sentenceIndex": 17,
@@ -1349,12 +1291,10 @@ export default {
         "big event"
       ],
       "optionReasons": {
-        "big-mcq-08": "本句指「規模很大或具有重大個人／社會意義的活動」。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。",
-        "big-mcq-09": "「成功或受歡迎程度非常高」是「big success/hit」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。"
+        "big-mcq-08": "本句的「big event」指「規模很大或具有重大個人／社會意義的活動」。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-08"
     },
@@ -1366,11 +1306,9 @@ export default {
       "masked": "They are preparing for a ____.",
       "options": [
         "big-mcq-08",
-        "big-mcq-07",
-        "big-mcq-09",
-        "big-mcq-06",
-        "big-mcq-10",
-        "big-mcq-05"
+        "big-mcq-23",
+        "big-mcq-20",
+        "big-mcq-24"
       ],
       "explanation": "本句的「big occasion」指「規模很大或具有重大個人／社會意義的活動」。",
       "sentenceIndex": 18,
@@ -1379,12 +1317,10 @@ export default {
         "big occasion"
       ],
       "optionReasons": {
-        "big-mcq-08": "本句指「規模很大或具有重大個人／社會意義的活動」。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。",
-        "big-mcq-09": "「成功或受歡迎程度非常高」是「big success/hit」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。",
-        "big-mcq-05": "「嚴重、影響範圍大或難以處理的問題」是「big problem」的用法，與本句語境不同。"
+        "big-mcq-08": "本句的「big occasion」指「規模很大或具有重大個人／社會意義的活動」。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-08"
     },
@@ -1396,11 +1332,9 @@ export default {
       "masked": "The film was a ____.",
       "options": [
         "big-mcq-09",
-        "big-mcq-08",
-        "big-mcq-10",
-        "big-mcq-07",
-        "big-mcq-11",
-        "big-mcq-06"
+        "big-mcq-24",
+        "big-mcq-17",
+        "big-mcq-01"
       ],
       "explanation": "本句的「big success」指「成功或受歡迎程度非常高」。",
       "sentenceIndex": 19,
@@ -1409,12 +1343,10 @@ export default {
         "big success"
       ],
       "optionReasons": {
-        "big-mcq-09": "本句指「成功或受歡迎程度非常高」。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。"
+        "big-mcq-09": "本句的「big success」指「成功或受歡迎程度非常高」。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-09"
     },
@@ -1426,11 +1358,9 @@ export default {
       "masked": "The product became a ____.",
       "options": [
         "big-mcq-09",
-        "big-mcq-08",
-        "big-mcq-10",
-        "big-mcq-07",
-        "big-mcq-11",
-        "big-mcq-06"
+        "big-pdf-reviewed-01",
+        "big-mcq-01",
+        "big-mcq-24"
       ],
       "explanation": "本句的「big hit」指「成功或受歡迎程度非常高」。",
       "sentenceIndex": 20,
@@ -1439,12 +1369,10 @@ export default {
         "big hit"
       ],
       "optionReasons": {
-        "big-mcq-09": "本句指「成功或受歡迎程度非常高」。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。"
+        "big-mcq-09": "本句的「big hit」指「成功或受歡迎程度非常高」。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-09"
     },
@@ -1456,11 +1384,9 @@ export default {
       "masked": "The event was a ____.",
       "options": [
         "big-mcq-09",
-        "big-mcq-08",
-        "big-mcq-10",
-        "big-mcq-07",
-        "big-mcq-11",
-        "big-mcq-06"
+        "big-mcq-25",
+        "big-mcq-17",
+        "big-pdf-reviewed-01"
       ],
       "explanation": "本句的「big success」指「成功或受歡迎程度非常高」。",
       "sentenceIndex": 21,
@@ -1469,12 +1395,10 @@ export default {
         "big success"
       ],
       "optionReasons": {
-        "big-mcq-09": "本句指「成功或受歡迎程度非常高」。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。"
+        "big-mcq-09": "本句的「big success」指「成功或受歡迎程度非常高」。",
+        "big-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-09"
     },
@@ -1486,11 +1410,9 @@ export default {
       "masked": "Her first video was a ____.",
       "options": [
         "big-mcq-09",
-        "big-mcq-08",
-        "big-mcq-10",
-        "big-mcq-07",
-        "big-mcq-11",
-        "big-mcq-06"
+        "big-mcq-06",
+        "big-mcq-24",
+        "big-mcq-01"
       ],
       "explanation": "本句的「big hit」指「成功或受歡迎程度非常高」。",
       "sentenceIndex": 22,
@@ -1499,12 +1421,10 @@ export default {
         "big hit"
       ],
       "optionReasons": {
-        "big-mcq-09": "本句指「成功或受歡迎程度非常高」。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。",
-        "big-mcq-06": "「表達、場合或行動顯得隆重、戲劇化或很有聲勢」是「big — grand/dramatic」的用法，與本句語境不同。"
+        "big-mcq-09": "本句的「big hit」指「成功或受歡迎程度非常高」。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-09"
     },
@@ -1516,11 +1436,9 @@ export default {
       "masked": "He is a ____ in the industry.",
       "options": [
         "big-mcq-10",
-        "big-mcq-09",
-        "big-mcq-11",
-        "big-mcq-08",
-        "big-mcq-12",
-        "big-mcq-07"
+        "big-mcq-16",
+        "big-mcq-24",
+        "big-mcq-21"
       ],
       "explanation": "本句的「big name」指「在某領域具有高知名度、地位或影響力的人／機構」。",
       "sentenceIndex": 23,
@@ -1529,12 +1447,10 @@ export default {
         "big name"
       ],
       "optionReasons": {
-        "big-mcq-10": "本句指「在某領域具有高知名度、地位或影響力的人／機構」。",
-        "big-mcq-09": "「成功或受歡迎程度非常高」是「big success/hit」的用法，與本句語境不同。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。"
+        "big-mcq-10": "本句的「big name」指「在某領域具有高知名度、地位或影響力的人／機構」。",
+        "big-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-10"
     },
@@ -1546,11 +1462,9 @@ export default {
       "masked": "She became a ____.",
       "options": [
         "big-mcq-10",
-        "big-mcq-09",
-        "big-mcq-11",
-        "big-mcq-08",
-        "big-mcq-12",
-        "big-mcq-07"
+        "big-mcq-24",
+        "big-mcq-14",
+        "big-mcq-21"
       ],
       "explanation": "本句的「big star」指「在某領域具有高知名度、地位或影響力的人／機構」。",
       "sentenceIndex": 24,
@@ -1559,12 +1473,10 @@ export default {
         "big star"
       ],
       "optionReasons": {
-        "big-mcq-10": "本句指「在某領域具有高知名度、地位或影響力的人／機構」。",
-        "big-mcq-09": "「成功或受歡迎程度非常高」是「big success/hit」的用法，與本句語境不同。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。"
+        "big-mcq-10": "本句的「big star」指「在某領域具有高知名度、地位或影響力的人／機構」。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-10"
     },
@@ -1576,11 +1488,9 @@ export default {
       "masked": "Several ____ attended the event.",
       "options": [
         "big-mcq-10",
-        "big-mcq-09",
-        "big-mcq-11",
-        "big-mcq-08",
-        "big-mcq-12",
-        "big-mcq-07"
+        "big-mcq-14",
+        "big-mcq-06",
+        "big-mcq-16"
       ],
       "explanation": "本句的「big names」指「在某領域具有高知名度、地位或影響力的人／機構」。",
       "sentenceIndex": 25,
@@ -1589,12 +1499,10 @@ export default {
         "big names"
       ],
       "optionReasons": {
-        "big-mcq-10": "本句指「在某領域具有高知名度、地位或影響力的人／機構」。",
-        "big-mcq-09": "「成功或受歡迎程度非常高」是「big success/hit」的用法，與本句語境不同。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。"
+        "big-mcq-10": "本句的「big names」指「在某領域具有高知名度、地位或影響力的人／機構」。",
+        "big-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-10"
     },
@@ -1606,11 +1514,9 @@ export default {
       "masked": "The company is a ____ in technology.",
       "options": [
         "big-mcq-10",
-        "big-mcq-09",
-        "big-mcq-11",
-        "big-mcq-08",
-        "big-mcq-12",
-        "big-mcq-07"
+        "big-pdf-reviewed-01",
+        "big-mcq-14",
+        "big-mcq-16"
       ],
       "explanation": "本句的「big name」指「在某領域具有高知名度、地位或影響力的人／機構」。",
       "sentenceIndex": 26,
@@ -1619,12 +1525,10 @@ export default {
         "big name"
       ],
       "optionReasons": {
-        "big-mcq-10": "本句指「在某領域具有高知名度、地位或影響力的人／機構」。",
-        "big-mcq-09": "「成功或受歡迎程度非常高」是「big success/hit」的用法，與本句語境不同。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。",
-        "big-mcq-07": "「隆重、高調、戲劇化或很有氣勢的說話／演說」是「big speech」的用法，與本句語境不同。"
+        "big-mcq-10": "本句的「big name」指「在某領域具有高知名度、地位或影響力的人／機構」。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-10"
     },
@@ -1636,11 +1540,9 @@ export default {
       "masked": "She works for a ____.",
       "options": [
         "big-mcq-11",
-        "big-mcq-10",
-        "big-mcq-12",
-        "big-mcq-09",
-        "big-mcq-13",
-        "big-mcq-08"
+        "big-mcq-24",
+        "big-mcq-23",
+        "big-pdf-reviewed-01"
       ],
       "explanation": "本句的「big company」指「規模、收入或影響力較大的公司／商業活動」。",
       "sentenceIndex": 27,
@@ -1649,12 +1551,10 @@ export default {
         "big company"
       ],
       "optionReasons": {
-        "big-mcq-11": "本句指「規模、收入或影響力較大的公司／商業活動」。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。",
-        "big-mcq-09": "「成功或受歡迎程度非常高」是「big success/hit」的用法，與本句語境不同。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。"
+        "big-mcq-11": "本句的「big company」指「規模、收入或影響力較大的公司／商業活動」。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-11"
     },
@@ -1666,11 +1566,9 @@ export default {
       "masked": "It is one of the ____.",
       "options": [
         "big-mcq-11",
-        "big-mcq-10",
-        "big-mcq-12",
-        "big-mcq-09",
-        "big-mcq-13",
-        "big-mcq-08"
+        "big-pdf-reviewed-01",
+        "big-mcq-29",
+        "big-mcq-23"
       ],
       "explanation": "本句的「big banks」指「規模、收入或影響力較大的公司／商業活動」。",
       "sentenceIndex": 28,
@@ -1679,12 +1577,10 @@ export default {
         "big banks"
       ],
       "optionReasons": {
-        "big-mcq-11": "本句指「規模、收入或影響力較大的公司／商業活動」。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。",
-        "big-mcq-09": "「成功或受歡迎程度非常高」是「big success/hit」的用法，與本句語境不同。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。"
+        "big-mcq-11": "本句的「big banks」指「規模、收入或影響力較大的公司／商業活動」。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-11"
     },
@@ -1696,11 +1592,9 @@ export default {
       "masked": "Online education is now ____.",
       "options": [
         "big-mcq-11",
-        "big-mcq-10",
-        "big-mcq-12",
-        "big-mcq-09",
-        "big-mcq-13",
-        "big-mcq-08"
+        "big-mcq-23",
+        "big-pdf-reviewed-01",
+        "big-mcq-29"
       ],
       "explanation": "本句的「big business」指「規模、收入或影響力較大的公司／商業活動」。",
       "sentenceIndex": 29,
@@ -1709,12 +1603,10 @@ export default {
         "big business"
       ],
       "optionReasons": {
-        "big-mcq-11": "本句指「規模、收入或影響力較大的公司／商業活動」。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。",
-        "big-mcq-09": "「成功或受歡迎程度非常高」是「big success/hit」的用法，與本句語境不同。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。"
+        "big-mcq-11": "本句的「big business」指「規模、收入或影響力較大的公司／商業活動」。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-11"
     },
@@ -1726,11 +1618,9 @@ export default {
       "masked": "Tourism is ____ business in the region.",
       "options": [
         "big-mcq-11",
-        "big-mcq-10",
-        "big-mcq-12",
-        "big-mcq-09",
-        "big-mcq-13",
-        "big-mcq-08"
+        "big-pdf-reviewed-01",
+        "big-mcq-29",
+        "big-mcq-24"
       ],
       "explanation": "本句的「big」指「規模、收入或影響力較大的公司／商業活動」。",
       "sentenceIndex": 30,
@@ -1739,12 +1629,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-11": "本句指「規模、收入或影響力較大的公司／商業活動」。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。",
-        "big-mcq-09": "「成功或受歡迎程度非常高」是「big success/hit」的用法，與本句語境不同。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。",
-        "big-mcq-08": "「規模很大或具有重大個人／社會意義的活動」是「big event/occasion」的用法，與本句語境不同。"
+        "big-mcq-11": "本句的「big」指「規模、收入或影響力較大的公司／商業活動」。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-11"
     },
@@ -1756,11 +1644,9 @@ export default {
       "masked": "That style was ____ in the 1990s.",
       "options": [
         "big-mcq-12",
-        "big-mcq-11",
-        "big-mcq-13",
-        "big-mcq-10",
-        "big-mcq-14",
-        "big-mcq-09"
+        "big-reviewed-3dc1a062ea",
+        "big-pdf-reviewed-01",
+        "big-mcq-17"
       ],
       "explanation": "本句的「big」指「在某時期／群體中非常流行、受歡迎或有影響力」。",
       "sentenceIndex": 31,
@@ -1769,12 +1655,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-12": "本句指「在某時期／群體中非常流行、受歡迎或有影響力」。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。",
-        "big-mcq-14": "「非正式表示年紀較大的哥哥／姐姐」是「big brother/sister」的用法，與本句語境不同。",
-        "big-mcq-09": "「成功或受歡迎程度非常高」是「big success/hit」的用法，與本句語境不同。"
+        "big-mcq-12": "本句的「big」指「在某時期／群體中非常流行、受歡迎或有影響力」。",
+        "big-reviewed-3dc1a062ea": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-12"
     },
@@ -1786,11 +1670,9 @@ export default {
       "masked": "This singer is really ____ right now.",
       "options": [
         "big-mcq-12",
-        "big-mcq-11",
-        "big-mcq-13",
-        "big-mcq-10",
-        "big-mcq-14",
-        "big-mcq-09"
+        "big-mcq-17",
+        "big-mcq-33",
+        "big-mcq-02"
       ],
       "explanation": "本句的「big」指「在某時期／群體中非常流行、受歡迎或有影響力」。",
       "sentenceIndex": 32,
@@ -1799,12 +1681,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-12": "本句指「在某時期／群體中非常流行、受歡迎或有影響力」。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。",
-        "big-mcq-14": "「非正式表示年紀較大的哥哥／姐姐」是「big brother/sister」的用法，與本句語境不同。",
-        "big-mcq-09": "「成功或受歡迎程度非常高」是「big success/hit」的用法，與本句語境不同。"
+        "big-mcq-12": "本句的「big」指「在某時期／群體中非常流行、受歡迎或有影響力」。",
+        "big-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-12"
     },
@@ -1816,11 +1696,9 @@ export default {
       "masked": "The brand is ____.",
       "options": [
         "big-mcq-12",
-        "big-mcq-11",
-        "big-mcq-13",
-        "big-mcq-10",
-        "big-mcq-14",
-        "big-mcq-09"
+        "big-mcq-18",
+        "big-mcq-17",
+        "big-mcq-30"
       ],
       "explanation": "本句的「big in Asia」指「在某時期／群體中非常流行、受歡迎或有影響力」。",
       "sentenceIndex": 33,
@@ -1829,12 +1707,10 @@ export default {
         "big in Asia"
       ],
       "optionReasons": {
-        "big-mcq-12": "本句指「在某時期／群體中非常流行、受歡迎或有影響力」。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。",
-        "big-mcq-14": "「非正式表示年紀較大的哥哥／姐姐」是「big brother/sister」的用法，與本句語境不同。",
-        "big-mcq-09": "「成功或受歡迎程度非常高」是「big success/hit」的用法，與本句語境不同。"
+        "big-mcq-12": "本句的「big in Asia」指「在某時期／群體中非常流行、受歡迎或有影響力」。",
+        "big-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-12"
     },
@@ -1846,11 +1722,9 @@ export default {
       "masked": "That sport is ____ among younger people.",
       "options": [
         "big-mcq-12",
-        "big-mcq-11",
-        "big-mcq-13",
-        "big-mcq-10",
-        "big-mcq-14",
-        "big-mcq-09"
+        "big-mcq-29",
+        "big-mcq-30",
+        "big-pdf-reviewed-01"
       ],
       "explanation": "本句的「big」指「在某時期／群體中非常流行、受歡迎或有影響力」。",
       "sentenceIndex": 34,
@@ -1859,12 +1733,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-12": "本句指「在某時期／群體中非常流行、受歡迎或有影響力」。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。",
-        "big-mcq-14": "「非正式表示年紀較大的哥哥／姐姐」是「big brother/sister」的用法，與本句語境不同。",
-        "big-mcq-09": "「成功或受歡迎程度非常高」是「big success/hit」的用法，與本句語境不同。"
+        "big-mcq-12": "本句的「big」指「在某時期／群體中非常流行、受歡迎或有影響力」。",
+        "big-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-12"
     },
@@ -1876,11 +1748,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "big-mcq-13",
-        "big-mcq-12",
-        "big-mcq-14",
-        "big-mcq-11",
-        "big-mcq-15",
-        "big-mcq-10"
+        "big-mcq-02",
+        "big-pdf-reviewed-01",
+        "big-mcq-23"
       ],
       "explanation": "本句的「big on family traditions」指「很重視、很喜歡或強烈支持某件事」。",
       "sentenceIndex": 35,
@@ -1889,12 +1759,10 @@ export default {
         "big on family traditions"
       ],
       "optionReasons": {
-        "big-mcq-13": "本句指「很重視、很喜歡或強烈支持某件事」。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。",
-        "big-mcq-14": "「非正式表示年紀較大的哥哥／姐姐」是「big brother/sister」的用法，與本句語境不同。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。",
-        "big-mcq-15": "「情緒、反應、衝擊或程度非常強」是「big — intense」的用法，與本句語境不同。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。"
+        "big-mcq-13": "本句的「big on family traditions」指「很重視、很喜歡或強烈支持某件事」。",
+        "big-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-13"
     },
@@ -1906,11 +1774,9 @@ export default {
       "masked": "The company is ____ on customer service.",
       "options": [
         "big-mcq-13",
-        "big-mcq-12",
-        "big-mcq-14",
-        "big-mcq-11",
-        "big-mcq-15",
-        "big-mcq-10"
+        "big-mcq-01",
+        "big-mcq-16",
+        "big-pdf-reviewed-01"
       ],
       "explanation": "本句的「big」指「很重視、很喜歡或強烈支持某件事」。",
       "sentenceIndex": 36,
@@ -1919,12 +1785,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-13": "本句指「很重視、很喜歡或強烈支持某件事」。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。",
-        "big-mcq-14": "「非正式表示年紀較大的哥哥／姐姐」是「big brother/sister」的用法，與本句語境不同。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。",
-        "big-mcq-15": "「情緒、反應、衝擊或程度非常強」是「big — intense」的用法，與本句語境不同。",
-        "big-mcq-10": "「在某領域具有高知名度、地位或影響力的人／機構」是「big name」的用法，與本句語境不同。"
+        "big-mcq-13": "本句的「big」指「很重視、很喜歡或強烈支持某件事」。",
+        "big-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-13"
     },
@@ -1936,11 +1800,9 @@ export default {
       "masked": "You’re a ____ now.",
       "options": [
         "big-mcq-14",
-        "big-mcq-13",
-        "big-mcq-15",
-        "big-mcq-12",
-        "big-mcq-16",
-        "big-mcq-11"
+        "big-pdf-reviewed-01",
+        "big-mcq-20",
+        "big-mcq-24"
       ],
       "explanation": "本句的「big boy」指「非正式表示年紀較大的哥哥／姐姐」。",
       "sentenceIndex": 37,
@@ -1949,12 +1811,10 @@ export default {
         "big boy"
       ],
       "optionReasons": {
-        "big-mcq-14": "本句指「非正式表示年紀較大的哥哥／姐姐」。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。",
-        "big-mcq-15": "「情緒、反應、衝擊或程度非常強」是「big — intense」的用法，與本句語境不同。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。",
-        "big-mcq-16": "「規模宏大、非常進取的計劃／抱負」是「big plans/ambitions」的用法，與本句語境不同。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。"
+        "big-mcq-14": "本句的「big boy」指「非正式表示年紀較大的哥哥／姐姐」。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-14"
     },
@@ -1966,11 +1826,9 @@ export default {
       "masked": "She wants to be like her ____.",
       "options": [
         "big-mcq-14",
-        "big-mcq-13",
-        "big-mcq-15",
-        "big-mcq-12",
-        "big-mcq-16",
-        "big-mcq-11"
+        "big-mcq-32",
+        "big-mcq-29",
+        "big-mcq-20"
       ],
       "explanation": "本句的「big sister」指「非正式表示年紀較大的哥哥／姐姐」。",
       "sentenceIndex": 38,
@@ -1979,12 +1837,10 @@ export default {
         "big sister"
       ],
       "optionReasons": {
-        "big-mcq-14": "本句指「非正式表示年紀較大的哥哥／姐姐」。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。",
-        "big-mcq-15": "「情緒、反應、衝擊或程度非常強」是「big — intense」的用法，與本句語境不同。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。",
-        "big-mcq-16": "「規模宏大、非常進取的計劃／抱負」是「big plans/ambitions」的用法，與本句語境不同。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。"
+        "big-mcq-14": "本句的「big sister」指「非正式表示年紀較大的哥哥／姐姐」。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-14"
     },
@@ -1996,11 +1852,9 @@ export default {
       "masked": "My ____ helped me.",
       "options": [
         "big-mcq-14",
-        "big-mcq-13",
-        "big-mcq-15",
-        "big-mcq-12",
-        "big-mcq-16",
-        "big-mcq-11"
+        "big-mcq-23",
+        "big-mcq-24",
+        "big-mcq-27"
       ],
       "explanation": "本句的「big brother」指「非正式表示年紀較大的哥哥／姐姐」。",
       "sentenceIndex": 39,
@@ -2009,12 +1863,10 @@ export default {
         "big brother"
       ],
       "optionReasons": {
-        "big-mcq-14": "本句指「非正式表示年紀較大的哥哥／姐姐」。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。",
-        "big-mcq-15": "「情緒、反應、衝擊或程度非常強」是「big — intense」的用法，與本句語境不同。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。",
-        "big-mcq-16": "「規模宏大、非常進取的計劃／抱負」是「big plans/ambitions」的用法，與本句語境不同。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。"
+        "big-mcq-14": "本句的「big brother」指「非正式表示年紀較大的哥哥／姐姐」。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-14"
     },
@@ -2026,11 +1878,9 @@ export default {
       "masked": "Her ____ sister lives abroad.",
       "options": [
         "big-mcq-14",
-        "big-mcq-13",
-        "big-mcq-15",
-        "big-mcq-12",
-        "big-mcq-16",
-        "big-mcq-11"
+        "big-mcq-29",
+        "big-mcq-32",
+        "big-mcq-20"
       ],
       "explanation": "本句的「big」指「非正式表示年紀較大的哥哥／姐姐」。",
       "sentenceIndex": 40,
@@ -2039,12 +1889,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-14": "本句指「非正式表示年紀較大的哥哥／姐姐」。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。",
-        "big-mcq-15": "「情緒、反應、衝擊或程度非常強」是「big — intense」的用法，與本句語境不同。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。",
-        "big-mcq-16": "「規模宏大、非常進取的計劃／抱負」是「big plans/ambitions」的用法，與本句語境不同。",
-        "big-mcq-11": "「規模、收入或影響力較大的公司／商業活動」是「big company/business」的用法，與本句語境不同。"
+        "big-mcq-14": "本句的「big」指「非正式表示年紀較大的哥哥／姐姐」。",
+        "big-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-14"
     },
@@ -2056,11 +1904,9 @@ export default {
       "masked": "She felt very ____ carrying her own bag.",
       "options": [
         "big-mcq-30",
-        "big-mcq-29",
-        "big-mcq-31",
-        "big-mcq-28",
-        "big-mcq-32",
-        "big-mcq-27"
+        "big-mcq-23",
+        "big-mcq-24",
+        "big-mcq-12"
       ],
       "explanation": "本句的「big」指「在兒童語境中表示年紀／成熟程度較大」。",
       "sentenceIndex": 41,
@@ -2069,12 +1915,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-30": "本句指「在兒童語境中表示年紀／成熟程度較大」。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」是「6. big decision/question/issue（重大決定／問題） — 重大的；重要的」的用法，與本句語境不同。",
-        "big-mcq-31": "「反應／情緒的強度或影響程度高」是「23. big emotion/reaction（強烈情緒／反應） — 很大的；強烈的」的用法，與本句語境不同。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。",
-        "big-mcq-32": "「慷慨、善良、願意關心／幫助別人的」是「31. big = generous / emotionally expansive in compounds（寬厚的） — 寬宏；有愛心」的用法，與本句語境不同。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」是「big picture」的用法，與本句語境不同。"
+        "big-mcq-30": "本句的「big」指「在兒童語境中表示年紀／成熟程度較大」。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-30"
     },
@@ -2086,11 +1930,9 @@ export default {
       "masked": "He wants to do everything the ____ kids do.",
       "options": [
         "big-mcq-30",
-        "big-mcq-29",
-        "big-mcq-31",
-        "big-mcq-28",
+        "big-mcq-23",
         "big-mcq-32",
-        "big-mcq-27"
+        "big-mcq-20"
       ],
       "explanation": "本句的「big」指「在兒童語境中表示年紀／成熟程度較大」。",
       "sentenceIndex": 42,
@@ -2099,12 +1941,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-30": "本句指「在兒童語境中表示年紀／成熟程度較大」。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」是「6. big decision/question/issue（重大決定／問題） — 重大的；重要的」的用法，與本句語境不同。",
-        "big-mcq-31": "「反應／情緒的強度或影響程度高」是「23. big emotion/reaction（強烈情緒／反應） — 很大的；強烈的」的用法，與本句語境不同。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。",
-        "big-mcq-32": "「慷慨、善良、願意關心／幫助別人的」是「31. big = generous / emotionally expansive in compounds（寬厚的） — 寬宏；有愛心」的用法，與本句語境不同。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」是「big picture」的用法，與本句語境不同。"
+        "big-mcq-30": "本句的「big」指「在兒童語境中表示年紀／成熟程度較大」。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-30"
     },
@@ -2116,11 +1956,9 @@ export default {
       "masked": "She has a ____ of heights.",
       "options": [
         "big-mcq-15",
-        "big-mcq-14",
-        "big-mcq-16",
-        "big-mcq-13",
+        "big-mcq-32",
         "big-mcq-17",
-        "big-mcq-12"
+        "big-mcq-20"
       ],
       "explanation": "本句的「big fear」指「情緒、反應、衝擊或程度非常強」。",
       "sentenceIndex": 43,
@@ -2129,12 +1967,10 @@ export default {
         "big fear"
       ],
       "optionReasons": {
-        "big-mcq-15": "本句指「情緒、反應、衝擊或程度非常強」。",
-        "big-mcq-14": "「非正式表示年紀較大的哥哥／姐姐」是「big brother/sister」的用法，與本句語境不同。",
-        "big-mcq-16": "「規模宏大、非常進取的計劃／抱負」是「big plans/ambitions」的用法，與本句語境不同。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。",
-        "big-mcq-17": "「以較宏大、有野心的方式設定目標／構想」是「think big」的用法，與本句語境不同。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。"
+        "big-mcq-15": "本句的「big fear」指「情緒、反應、衝擊或程度非常強」。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-15"
     },
@@ -2146,11 +1982,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "big-mcq-15",
-        "big-mcq-14",
-        "big-mcq-16",
-        "big-mcq-13",
-        "big-mcq-17",
-        "big-mcq-12"
+        "big-mcq-19",
+        "big-pdf-reviewed-01",
+        "big-mcq-23"
       ],
       "explanation": "本句的「big shock」指「情緒、反應、衝擊或程度非常強」。",
       "sentenceIndex": 44,
@@ -2159,12 +1993,10 @@ export default {
         "big shock"
       ],
       "optionReasons": {
-        "big-mcq-15": "本句指「情緒、反應、衝擊或程度非常強」。",
-        "big-mcq-14": "「非正式表示年紀較大的哥哥／姐姐」是「big brother/sister」的用法，與本句語境不同。",
-        "big-mcq-16": "「規模宏大、非常進取的計劃／抱負」是「big plans/ambitions」的用法，與本句語境不同。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。",
-        "big-mcq-17": "「以較宏大、有野心的方式設定目標／構想」是「think big」的用法，與本句語境不同。",
-        "big-mcq-12": "「在某時期／群體中非常流行、受歡迎或有影響力」是「big — popular」的用法，與本句語境不同。"
+        "big-mcq-15": "本句的「big shock」指「情緒、反應、衝擊或程度非常強」。",
+        "big-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-15"
     },
@@ -2176,11 +2008,9 @@ export default {
       "masked": "The news caused a ____.",
       "options": [
         "big-mcq-31",
-        "big-mcq-30",
-        "big-mcq-32",
-        "big-mcq-29",
-        "big-mcq-33",
-        "big-mcq-28"
+        "big-mcq-21",
+        "big-mcq-17",
+        "big-mcq-06"
       ],
       "explanation": "本句的「big reaction」指「反應／情緒的強度或影響程度高」。",
       "sentenceIndex": 45,
@@ -2189,12 +2019,10 @@ export default {
         "big reaction"
       ],
       "optionReasons": {
-        "big-mcq-31": "本句指「反應／情緒的強度或影響程度高」。",
-        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」是「21. big = mature / grown-up（像大人一樣） — 成熟；長大了」的用法，與本句語境不同。",
-        "big-mcq-32": "「慷慨、善良、願意關心／幫助別人的」是「31. big = generous / emotionally expansive in compounds（寬厚的） — 寬宏；有愛心」的用法，與本句語境不同。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」是「6. big decision/question/issue（重大決定／問題） — 重大的；重要的」的用法，與本句語境不同。",
-        "big-mcq-33": "「因地位／成功而變得過度自信、自大或目中無人」是「33. too big for your boots/britches（自以為了不起） — 自大；擺架子」的用法，與本句語境不同。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。"
+        "big-mcq-31": "本句的「big reaction」指「反應／情緒的強度或影響程度高」。",
+        "big-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-31"
     },
@@ -2206,11 +2034,9 @@ export default {
       "masked": "She had a ____ emotional response.",
       "options": [
         "big-mcq-31",
-        "big-mcq-30",
-        "big-mcq-32",
-        "big-mcq-29",
-        "big-mcq-33",
-        "big-mcq-28"
+        "big-mcq-17",
+        "big-mcq-24",
+        "big-mcq-32"
       ],
       "explanation": "本句的「big」指「反應／情緒的強度或影響程度高」。",
       "sentenceIndex": 46,
@@ -2219,12 +2045,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-31": "本句指「反應／情緒的強度或影響程度高」。",
-        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」是「21. big = mature / grown-up（像大人一樣） — 成熟；長大了」的用法，與本句語境不同。",
-        "big-mcq-32": "「慷慨、善良、願意關心／幫助別人的」是「31. big = generous / emotionally expansive in compounds（寬厚的） — 寬宏；有愛心」的用法，與本句語境不同。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」是「6. big decision/question/issue（重大決定／問題） — 重大的；重要的」的用法，與本句語境不同。",
-        "big-mcq-33": "「因地位／成功而變得過度自信、自大或目中無人」是「33. too big for your boots/britches（自以為了不起） — 自大；擺架子」的用法，與本句語境不同。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。"
+        "big-mcq-31": "本句的「big」指「反應／情緒的強度或影響程度高」。",
+        "big-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-31"
     },
@@ -2236,11 +2060,9 @@ export default {
       "masked": "They have ____ for the future.",
       "options": [
         "big-mcq-16",
-        "big-mcq-15",
-        "big-mcq-17",
-        "big-mcq-14",
-        "big-mcq-18",
-        "big-mcq-13"
+        "big-mcq-13",
+        "big-pdf-reviewed-01",
+        "big-mcq-06"
       ],
       "explanation": "本句的「big plans」指「規模宏大、非常進取的計劃／抱負」。",
       "sentenceIndex": 47,
@@ -2249,12 +2071,10 @@ export default {
         "big plans"
       ],
       "optionReasons": {
-        "big-mcq-16": "本句指「規模宏大、非常進取的計劃／抱負」。",
-        "big-mcq-15": "「情緒、反應、衝擊或程度非常強」是「big — intense」的用法，與本句語境不同。",
-        "big-mcq-17": "「以較宏大、有野心的方式設定目標／構想」是「think big」的用法，與本句語境不同。",
-        "big-mcq-14": "「非正式表示年紀較大的哥哥／姐姐」是「big brother/sister」的用法，與本句語境不同。",
-        "big-mcq-18": "「在事業、娛樂等領域取得重大成功／成名」是「make it big」的用法，與本句語境不同。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。"
+        "big-mcq-16": "本句的「big plans」指「規模宏大、非常進取的計劃／抱負」。",
+        "big-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-16"
     },
@@ -2266,11 +2086,9 @@ export default {
       "masked": "She has ____.",
       "options": [
         "big-mcq-16",
-        "big-mcq-15",
-        "big-mcq-17",
-        "big-mcq-14",
-        "big-mcq-18",
-        "big-mcq-13"
+        "big-mcq-24",
+        "big-mcq-20",
+        "big-mcq-29"
       ],
       "explanation": "本句的「big ambitions」指「規模宏大、非常進取的計劃／抱負」。",
       "sentenceIndex": 48,
@@ -2279,12 +2097,10 @@ export default {
         "big ambitions"
       ],
       "optionReasons": {
-        "big-mcq-16": "本句指「規模宏大、非常進取的計劃／抱負」。",
-        "big-mcq-15": "「情緒、反應、衝擊或程度非常強」是「big — intense」的用法，與本句語境不同。",
-        "big-mcq-17": "「以較宏大、有野心的方式設定目標／構想」是「think big」的用法，與本句語境不同。",
-        "big-mcq-14": "「非正式表示年紀較大的哥哥／姐姐」是「big brother/sister」的用法，與本句語境不同。",
-        "big-mcq-18": "「在事業、娛樂等領域取得重大成功／成名」是「make it big」的用法，與本句語境不同。",
-        "big-mcq-13": "「很重視、很喜歡或強烈支持某件事」是「be big on」的用法，與本句語境不同。"
+        "big-mcq-16": "本句的「big ambitions」指「規模宏大、非常進取的計劃／抱負」。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-16"
     },
@@ -2296,11 +2112,9 @@ export default {
       "masked": "If you want to grow the business, ____.",
       "options": [
         "big-mcq-17",
-        "big-mcq-16",
-        "big-mcq-18",
-        "big-mcq-15",
-        "big-mcq-19",
-        "big-mcq-14"
+        "big-mcq-23",
+        "big-mcq-06",
+        "big-mcq-29"
       ],
       "explanation": "本句的「think big」指「以較宏大、有野心的方式設定目標／構想」。",
       "sentenceIndex": 49,
@@ -2309,12 +2123,10 @@ export default {
         "think big"
       ],
       "optionReasons": {
-        "big-mcq-17": "本句指「以較宏大、有野心的方式設定目標／構想」。",
-        "big-mcq-16": "「規模宏大、非常進取的計劃／抱負」是「big plans/ambitions」的用法，與本句語境不同。",
-        "big-mcq-18": "「在事業、娛樂等領域取得重大成功／成名」是「make it big」的用法，與本句語境不同。",
-        "big-mcq-15": "「情緒、反應、衝擊或程度非常強」是「big — intense」的用法，與本句語境不同。",
-        "big-mcq-19": "「很重要、值得重視或影響很大的事情」是「big deal — matter」的用法，與本句語境不同。",
-        "big-mcq-14": "「非正式表示年紀較大的哥哥／姐姐」是「big brother/sister」的用法，與本句語境不同。"
+        "big-mcq-17": "本句的「think big」指「以較宏大、有野心的方式設定目標／構想」。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-17"
     },
@@ -2326,11 +2138,9 @@ export default {
       "masked": "She always encourages her students to think ____.",
       "options": [
         "big-mcq-17",
-        "big-mcq-16",
-        "big-mcq-18",
-        "big-mcq-15",
-        "big-mcq-19",
-        "big-mcq-14"
+        "big-mcq-24",
+        "big-pdf-reviewed-01",
+        "big-mcq-13"
       ],
       "explanation": "本句的「big」指「以較宏大、有野心的方式設定目標／構想」。",
       "sentenceIndex": 50,
@@ -2339,12 +2149,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-17": "本句指「以較宏大、有野心的方式設定目標／構想」。",
-        "big-mcq-16": "「規模宏大、非常進取的計劃／抱負」是「big plans/ambitions」的用法，與本句語境不同。",
-        "big-mcq-18": "「在事業、娛樂等領域取得重大成功／成名」是「make it big」的用法，與本句語境不同。",
-        "big-mcq-15": "「情緒、反應、衝擊或程度非常強」是「big — intense」的用法，與本句語境不同。",
-        "big-mcq-19": "「很重要、值得重視或影響很大的事情」是「big deal — matter」的用法，與本句語境不同。",
-        "big-mcq-14": "「非正式表示年紀較大的哥哥／姐姐」是「big brother/sister」的用法，與本句語境不同。"
+        "big-mcq-17": "本句的「big」指「以較宏大、有野心的方式設定目標／構想」。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-17"
     },
@@ -2356,11 +2164,9 @@ export default {
       "masked": "She moved to the city hoping to ____.",
       "options": [
         "big-mcq-18",
-        "big-mcq-17",
-        "big-mcq-19",
-        "big-mcq-16",
-        "big-mcq-20",
-        "big-mcq-15"
+        "big-mcq-12",
+        "big-mcq-24",
+        "big-pdf-reviewed-01"
       ],
       "explanation": "本句的「make it big」指「在事業、娛樂等領域取得重大成功／成名」。",
       "sentenceIndex": 51,
@@ -2369,12 +2175,10 @@ export default {
         "make it big"
       ],
       "optionReasons": {
-        "big-mcq-18": "本句指「在事業、娛樂等領域取得重大成功／成名」。",
-        "big-mcq-17": "「以較宏大、有野心的方式設定目標／構想」是「think big」的用法，與本句語境不同。",
-        "big-mcq-19": "「很重要、值得重視或影響很大的事情」是「big deal — matter」的用法，與本句語境不同。",
-        "big-mcq-16": "「規模宏大、非常進取的計劃／抱負」是「big plans/ambitions」的用法，與本句語境不同。",
-        "big-mcq-20": "「很有地位、影響力或名氣的人」是「big deal — person」的用法，與本句語境不同。",
-        "big-mcq-15": "「情緒、反應、衝擊或程度非常強」是「big — intense」的用法，與本句語境不同。"
+        "big-mcq-18": "本句的「make it big」指「在事業、娛樂等領域取得重大成功／成名」。",
+        "big-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-18"
     },
@@ -2386,11 +2190,9 @@ export default {
       "masked": "Very few artists make it ____ immediately.",
       "options": [
         "big-mcq-18",
-        "big-mcq-17",
-        "big-mcq-19",
-        "big-mcq-16",
-        "big-mcq-20",
-        "big-mcq-15"
+        "big-mcq-32",
+        "big-mcq-31",
+        "big-mcq-24"
       ],
       "explanation": "本句的「big」指「在事業、娛樂等領域取得重大成功／成名」。",
       "sentenceIndex": 52,
@@ -2399,12 +2201,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-18": "本句指「在事業、娛樂等領域取得重大成功／成名」。",
-        "big-mcq-17": "「以較宏大、有野心的方式設定目標／構想」是「think big」的用法，與本句語境不同。",
-        "big-mcq-19": "「很重要、值得重視或影響很大的事情」是「big deal — matter」的用法，與本句語境不同。",
-        "big-mcq-16": "「規模宏大、非常進取的計劃／抱負」是「big plans/ambitions」的用法，與本句語境不同。",
-        "big-mcq-20": "「很有地位、影響力或名氣的人」是「big deal — person」的用法，與本句語境不同。",
-        "big-mcq-15": "「情緒、反應、衝擊或程度非常強」是「big — intense」的用法，與本句語境不同。"
+        "big-mcq-18": "本句的「big」指「在事業、娛樂等領域取得重大成功／成名」。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-18"
     },
@@ -2416,11 +2216,9 @@ export default {
       "masked": "Getting the promotion was a ____ for her.",
       "options": [
         "big-mcq-19",
-        "big-mcq-18",
-        "big-mcq-20",
-        "big-mcq-17",
-        "big-mcq-21",
-        "big-mcq-16"
+        "big-mcq-15",
+        "big-mcq-24",
+        "big-mcq-23"
       ],
       "explanation": "本句的「big deal」指「很重要、值得重視或影響很大的事情」。",
       "sentenceIndex": 53,
@@ -2429,12 +2227,10 @@ export default {
         "big deal"
       ],
       "optionReasons": {
-        "big-mcq-19": "本句指「很重要、值得重視或影響很大的事情」。",
-        "big-mcq-18": "「在事業、娛樂等領域取得重大成功／成名」是「make it big」的用法，與本句語境不同。",
-        "big-mcq-20": "「很有地位、影響力或名氣的人」是「big deal — person」的用法，與本句語境不同。",
-        "big-mcq-17": "「以較宏大、有野心的方式設定目標／構想」是「think big」的用法，與本句語境不同。",
-        "big-mcq-21": "「並不嚴重／重要，沒有甚麼大不了」是「no big deal」的用法，與本句語境不同。",
-        "big-mcq-16": "「規模宏大、非常進取的計劃／抱負」是「big plans/ambitions」的用法，與本句語境不同。"
+        "big-mcq-19": "本句的「big deal」指「很重要、值得重視或影響很大的事情」。",
+        "big-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-19"
     },
@@ -2446,11 +2242,9 @@ export default {
       "masked": "This decision is a ____ deal.",
       "options": [
         "big-mcq-19",
-        "big-mcq-18",
-        "big-mcq-20",
-        "big-mcq-17",
-        "big-mcq-21",
-        "big-mcq-16"
+        "big-pdf-reviewed-01",
+        "big-mcq-23",
+        "big-mcq-32"
       ],
       "explanation": "本句的「big」指「很重要、值得重視或影響很大的事情」。",
       "sentenceIndex": 54,
@@ -2459,12 +2253,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-19": "本句指「很重要、值得重視或影響很大的事情」。",
-        "big-mcq-18": "「在事業、娛樂等領域取得重大成功／成名」是「make it big」的用法，與本句語境不同。",
-        "big-mcq-20": "「很有地位、影響力或名氣的人」是「big deal — person」的用法，與本句語境不同。",
-        "big-mcq-17": "「以較宏大、有野心的方式設定目標／構想」是「think big」的用法，與本句語境不同。",
-        "big-mcq-21": "「並不嚴重／重要，沒有甚麼大不了」是「no big deal」的用法，與本句語境不同。",
-        "big-mcq-16": "「規模宏大、非常進取的計劃／抱負」是「big plans/ambitions」的用法，與本句語境不同。"
+        "big-mcq-19": "本句的「big」指「很重要、值得重視或影響很大的事情」。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-19"
     },
@@ -2476,11 +2268,9 @@ export default {
       "masked": "I made a small mistake, but it was ____.",
       "options": [
         "big-mcq-21",
-        "big-mcq-20",
-        "big-mcq-22",
-        "big-mcq-19",
+        "big-mcq-32",
         "big-mcq-23",
-        "big-mcq-18"
+        "big-mcq-31"
       ],
       "explanation": "本句的「no big deal」指「並不嚴重／重要，沒有甚麼大不了」。",
       "sentenceIndex": 55,
@@ -2489,12 +2279,10 @@ export default {
         "no big deal"
       ],
       "optionReasons": {
-        "big-mcq-21": "本句指「並不嚴重／重要，沒有甚麼大不了」。",
-        "big-mcq-20": "「很有地位、影響力或名氣的人」是「big deal — person」的用法，與本句語境不同。",
-        "big-mcq-22": "「慷慨、善良、心胸寬厚的」是「big-hearted」的用法，與本句語境不同。",
-        "big-mcq-19": "「很重要、值得重視或影響很大的事情」是「big deal — matter」的用法，與本句語境不同。",
-        "big-mcq-23": "「對自己評價過高、自負的」是「big-headed」的用法，與本句語境不同。",
-        "big-mcq-18": "「在事業、娛樂等領域取得重大成功／成名」是「make it big」的用法，與本句語境不同。"
+        "big-mcq-21": "本句的「no big deal」指「並不嚴重／重要，沒有甚麼大不了」。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-21"
     },
@@ -2506,11 +2294,9 @@ export default {
       "masked": "Don’t worry—it’s no ____ deal.",
       "options": [
         "big-mcq-21",
-        "big-mcq-20",
-        "big-mcq-22",
-        "big-mcq-19",
+        "big-mcq-12",
         "big-mcq-23",
-        "big-mcq-18"
+        "big-mcq-24"
       ],
       "explanation": "本句的「big」指「並不嚴重／重要，沒有甚麼大不了」。",
       "sentenceIndex": 56,
@@ -2519,12 +2305,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-21": "本句指「並不嚴重／重要，沒有甚麼大不了」。",
-        "big-mcq-20": "「很有地位、影響力或名氣的人」是「big deal — person」的用法，與本句語境不同。",
-        "big-mcq-22": "「慷慨、善良、心胸寬厚的」是「big-hearted」的用法，與本句語境不同。",
-        "big-mcq-19": "「很重要、值得重視或影響很大的事情」是「big deal — matter」的用法，與本句語境不同。",
-        "big-mcq-23": "「對自己評價過高、自負的」是「big-headed」的用法，與本句語境不同。",
-        "big-mcq-18": "「在事業、娛樂等領域取得重大成功／成名」是「make it big」的用法，與本句語境不同。"
+        "big-mcq-21": "本句的「big」指「並不嚴重／重要，沒有甚麼大不了」。",
+        "big-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-21"
     },
@@ -2536,11 +2320,9 @@ export default {
       "masked": "It’s only a small delay. ____",
       "options": [
         "big-mcq-21",
-        "big-mcq-20",
-        "big-mcq-22",
-        "big-mcq-19",
         "big-mcq-23",
-        "big-mcq-18"
+        "big-mcq-24",
+        "big-mcq-31"
       ],
       "explanation": "本句的「What’s the big deal?」指「並不嚴重／重要，沒有甚麼大不了」。",
       "sentenceIndex": 57,
@@ -2549,12 +2331,10 @@ export default {
         "What’s the big deal?"
       ],
       "optionReasons": {
-        "big-mcq-21": "本句指「並不嚴重／重要，沒有甚麼大不了」。",
-        "big-mcq-20": "「很有地位、影響力或名氣的人」是「big deal — person」的用法，與本句語境不同。",
-        "big-mcq-22": "「慷慨、善良、心胸寬厚的」是「big-hearted」的用法，與本句語境不同。",
-        "big-mcq-19": "「很重要、值得重視或影響很大的事情」是「big deal — matter」的用法，與本句語境不同。",
-        "big-mcq-23": "「對自己評價過高、自負的」是「big-headed」的用法，與本句語境不同。",
-        "big-mcq-18": "「在事業、娛樂等領域取得重大成功／成名」是「make it big」的用法，與本句語境不同。"
+        "big-mcq-21": "本句的「What’s the big deal?」指「並不嚴重／重要，沒有甚麼大不了」。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-21"
     },
@@ -2567,10 +2347,8 @@ export default {
       "options": [
         "big-mcq-21",
         "big-mcq-20",
-        "big-mcq-22",
-        "big-mcq-19",
         "big-mcq-23",
-        "big-mcq-18"
+        "big-mcq-32"
       ],
       "explanation": "本句的「big」指「並不嚴重／重要，沒有甚麼大不了」。",
       "sentenceIndex": 58,
@@ -2579,12 +2357,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-21": "本句指「並不嚴重／重要，沒有甚麼大不了」。",
-        "big-mcq-20": "「很有地位、影響力或名氣的人」是「big deal — person」的用法，與本句語境不同。",
-        "big-mcq-22": "「慷慨、善良、心胸寬厚的」是「big-hearted」的用法，與本句語境不同。",
-        "big-mcq-19": "「很重要、值得重視或影響很大的事情」是「big deal — matter」的用法，與本句語境不同。",
-        "big-mcq-23": "「對自己評價過高、自負的」是「big-headed」的用法，與本句語境不同。",
-        "big-mcq-18": "「在事業、娛樂等領域取得重大成功／成名」是「make it big」的用法，與本句語境不同。"
+        "big-mcq-21": "本句的「big」指「並不嚴重／重要，沒有甚麼大不了」。",
+        "big-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-21"
     },
@@ -2596,11 +2372,9 @@ export default {
       "masked": "He thinks he’s a ____.",
       "options": [
         "big-mcq-20",
-        "big-mcq-19",
-        "big-mcq-21",
-        "big-mcq-18",
-        "big-mcq-22",
-        "big-mcq-17"
+        "big-mcq-29",
+        "big-mcq-14",
+        "big-mcq-32"
       ],
       "explanation": "本句的「big deal」指「很有地位、影響力或名氣的人」。",
       "sentenceIndex": 59,
@@ -2609,12 +2383,10 @@ export default {
         "big deal"
       ],
       "optionReasons": {
-        "big-mcq-20": "本句指「很有地位、影響力或名氣的人」。",
-        "big-mcq-19": "「很重要、值得重視或影響很大的事情」是「big deal — matter」的用法，與本句語境不同。",
-        "big-mcq-21": "「並不嚴重／重要，沒有甚麼大不了」是「no big deal」的用法，與本句語境不同。",
-        "big-mcq-18": "「在事業、娛樂等領域取得重大成功／成名」是「make it big」的用法，與本句語境不同。",
-        "big-mcq-22": "「慷慨、善良、心胸寬厚的」是「big-hearted」的用法，與本句語境不同。",
-        "big-mcq-17": "「以較宏大、有野心的方式設定目標／構想」是「think big」的用法，與本句語境不同。"
+        "big-mcq-20": "本句的「big deal」指「很有地位、影響力或名氣的人」。",
+        "big-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-20"
     },
@@ -2626,11 +2398,9 @@ export default {
       "masked": "She became a ____ deal in the fashion industry.",
       "options": [
         "big-mcq-20",
-        "big-mcq-19",
-        "big-mcq-21",
-        "big-mcq-18",
-        "big-mcq-22",
-        "big-mcq-17"
+        "big-mcq-28",
+        "big-mcq-30",
+        "big-mcq-32"
       ],
       "explanation": "本句的「big」指「很有地位、影響力或名氣的人」。",
       "sentenceIndex": 60,
@@ -2639,12 +2409,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-20": "本句指「很有地位、影響力或名氣的人」。",
-        "big-mcq-19": "「很重要、值得重視或影響很大的事情」是「big deal — matter」的用法，與本句語境不同。",
-        "big-mcq-21": "「並不嚴重／重要，沒有甚麼大不了」是「no big deal」的用法，與本句語境不同。",
-        "big-mcq-18": "「在事業、娛樂等領域取得重大成功／成名」是「make it big」的用法，與本句語境不同。",
-        "big-mcq-22": "「慷慨、善良、心胸寬厚的」是「big-hearted」的用法，與本句語境不同。",
-        "big-mcq-17": "「以較宏大、有野心的方式設定目標／構想」是「think big」的用法，與本句語境不同。"
+        "big-mcq-20": "本句的「big」指「很有地位、影響力或名氣的人」。",
+        "big-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-20"
     },
@@ -2656,11 +2424,9 @@ export default {
       "masked": "She is a ____ person.",
       "options": [
         "big-mcq-32",
-        "big-mcq-31",
-        "big-mcq-33",
-        "big-mcq-30",
-        "big-mcq-29",
-        "big-mcq-28"
+        "big-mcq-27",
+        "big-mcq-23",
+        "big-mcq-30"
       ],
       "explanation": "本句的「big-hearted」指「慷慨、善良、願意關心／幫助別人的」。",
       "sentenceIndex": 61,
@@ -2669,12 +2435,10 @@ export default {
         "big-hearted"
       ],
       "optionReasons": {
-        "big-mcq-32": "本句指「慷慨、善良、願意關心／幫助別人的」。",
-        "big-mcq-31": "「反應／情緒的強度或影響程度高」是「23. big emotion/reaction（強烈情緒／反應） — 很大的；強烈的」的用法，與本句語境不同。",
-        "big-mcq-33": "「因地位／成功而變得過度自信、自大或目中無人」是「33. too big for your boots/britches（自以為了不起） — 自大；擺架子」的用法，與本句語境不同。",
-        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」是「21. big = mature / grown-up（像大人一樣） — 成熟；長大了」的用法，與本句語境不同。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」是「6. big decision/question/issue（重大決定／問題） — 重大的；重要的」的用法，與本句語境不同。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。"
+        "big-mcq-32": "本句的「big-hearted」指「慷慨、善良、願意關心／幫助別人的」。",
+        "big-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-32"
     },
@@ -2686,11 +2450,9 @@ export default {
       "masked": "That was a ____ gesture.",
       "options": [
         "big-mcq-32",
-        "big-mcq-31",
-        "big-mcq-33",
-        "big-mcq-30",
-        "big-mcq-29",
-        "big-mcq-28"
+        "big-mcq-03",
+        "big-mcq-06",
+        "big-mcq-20"
       ],
       "explanation": "本句的「big-hearted」指「慷慨、善良、願意關心／幫助別人的」。",
       "sentenceIndex": 62,
@@ -2699,12 +2461,10 @@ export default {
         "big-hearted"
       ],
       "optionReasons": {
-        "big-mcq-32": "本句指「慷慨、善良、願意關心／幫助別人的」。",
-        "big-mcq-31": "「反應／情緒的強度或影響程度高」是「23. big emotion/reaction（強烈情緒／反應） — 很大的；強烈的」的用法，與本句語境不同。",
-        "big-mcq-33": "「因地位／成功而變得過度自信、自大或目中無人」是「33. too big for your boots/britches（自以為了不起） — 自大；擺架子」的用法，與本句語境不同。",
-        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」是「21. big = mature / grown-up（像大人一樣） — 成熟；長大了」的用法，與本句語境不同。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」是「6. big decision/question/issue（重大決定／問題） — 重大的；重要的」的用法，與本句語境不同。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。"
+        "big-mcq-32": "本句的「big-hearted」指「慷慨、善良、願意關心／幫助別人的」。",
+        "big-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-32"
     },
@@ -2716,11 +2476,9 @@ export default {
       "masked": "Success made him ____.",
       "options": [
         "big-mcq-23",
-        "big-mcq-22",
-        "big-mcq-24",
-        "big-mcq-21",
-        "big-mcq-25",
-        "big-mcq-20"
+        "big-mcq-02",
+        "big-mcq-28",
+        "big-pdf-reviewed-01"
       ],
       "explanation": "本句的「big-headed」指「對自己評價過高、自負的」。",
       "sentenceIndex": 63,
@@ -2729,12 +2487,10 @@ export default {
         "big-headed"
       ],
       "optionReasons": {
-        "big-mcq-23": "本句指「對自己評價過高、自負的」。",
-        "big-mcq-22": "「慷慨、善良、心胸寬厚的」是「big-hearted」的用法，與本句語境不同。",
-        "big-mcq-24": "「愛亂說話、容易洩露秘密的人／行為」是「big mouth」的用法，與本句語境不同。",
-        "big-mcq-21": "「並不嚴重／重要，沒有甚麼大不了」是「no big deal」的用法，與本句語境不同。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」是「big shot」的用法，與本句語境不同。",
-        "big-mcq-20": "「很有地位、影響力或名氣的人」是「big deal — person」的用法，與本句語境不同。"
+        "big-mcq-23": "本句的「big-headed」指「對自己評價過高、自負的」。",
+        "big-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-23"
     },
@@ -2746,11 +2502,9 @@ export default {
       "masked": "Don’t get ____ just because people praise you.",
       "options": [
         "big-mcq-23",
-        "big-mcq-22",
-        "big-mcq-24",
-        "big-mcq-21",
-        "big-mcq-25",
-        "big-mcq-20"
+        "big-mcq-28",
+        "big-mcq-06",
+        "big-mcq-30"
       ],
       "explanation": "本句的「big-headed」指「對自己評價過高、自負的」。",
       "sentenceIndex": 64,
@@ -2759,12 +2513,10 @@ export default {
         "big-headed"
       ],
       "optionReasons": {
-        "big-mcq-23": "本句指「對自己評價過高、自負的」。",
-        "big-mcq-22": "「慷慨、善良、心胸寬厚的」是「big-hearted」的用法，與本句語境不同。",
-        "big-mcq-24": "「愛亂說話、容易洩露秘密的人／行為」是「big mouth」的用法，與本句語境不同。",
-        "big-mcq-21": "「並不嚴重／重要，沒有甚麼大不了」是「no big deal」的用法，與本句語境不同。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」是「big shot」的用法，與本句語境不同。",
-        "big-mcq-20": "「很有地位、影響力或名氣的人」是「big deal — person」的用法，與本句語境不同。"
+        "big-mcq-23": "本句的「big-headed」指「對自己評價過高、自負的」。",
+        "big-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-23"
     },
@@ -2776,11 +2528,9 @@ export default {
       "masked": "He’s getting ____.",
       "options": [
         "big-mcq-33",
-        "big-mcq-32",
-        "big-mcq-31",
-        "big-mcq-30",
-        "big-mcq-29",
-        "big-mcq-28"
+        "big-mcq-27",
+        "big-mcq-06",
+        "big-mcq-32"
       ],
       "explanation": "本句的「too big for his boots」指「因地位／成功而變得過度自信、自大或目中無人」。",
       "sentenceIndex": 65,
@@ -2789,12 +2539,10 @@ export default {
         "too big for his boots"
       ],
       "optionReasons": {
-        "big-mcq-33": "本句指「因地位／成功而變得過度自信、自大或目中無人」。",
-        "big-mcq-32": "「慷慨、善良、願意關心／幫助別人的」是「31. big = generous / emotionally expansive in compounds（寬厚的） — 寬宏；有愛心」的用法，與本句語境不同。",
-        "big-mcq-31": "「反應／情緒的強度或影響程度高」是「23. big emotion/reaction（強烈情緒／反應） — 很大的；強烈的」的用法，與本句語境不同。",
-        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」是「21. big = mature / grown-up（像大人一樣） — 成熟；長大了」的用法，與本句語境不同。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」是「6. big decision/question/issue（重大決定／問題） — 重大的；重要的」的用法，與本句語境不同。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。"
+        "big-mcq-33": "本句的「too big for his boots」指「因地位／成功而變得過度自信、自大或目中無人」。",
+        "big-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-33"
     },
@@ -2806,11 +2554,9 @@ export default {
       "masked": "Success made her too ____ for her britches.",
       "options": [
         "big-mcq-33",
-        "big-mcq-32",
-        "big-mcq-31",
-        "big-mcq-30",
         "big-mcq-29",
-        "big-mcq-28"
+        "big-mcq-06",
+        "big-mcq-13"
       ],
       "explanation": "本句的「big」指「因地位／成功而變得過度自信、自大或目中無人」。",
       "sentenceIndex": 66,
@@ -2819,12 +2565,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-33": "本句指「因地位／成功而變得過度自信、自大或目中無人」。",
-        "big-mcq-32": "「慷慨、善良、願意關心／幫助別人的」是「31. big = generous / emotionally expansive in compounds（寬厚的） — 寬宏；有愛心」的用法，與本句語境不同。",
-        "big-mcq-31": "「反應／情緒的強度或影響程度高」是「23. big emotion/reaction（強烈情緒／反應） — 很大的；強烈的」的用法，與本句語境不同。",
-        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」是「21. big = mature / grown-up（像大人一樣） — 成熟；長大了」的用法，與本句語境不同。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」是「6. big decision/question/issue（重大決定／問題） — 重大的；重要的」的用法，與本句語境不同。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。"
+        "big-mcq-33": "本句的「big」指「因地位／成功而變得過度自信、自大或目中無人」。",
+        "big-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-33"
     },
@@ -2836,11 +2580,9 @@ export default {
       "masked": "Don’t tell him—he has a ____.",
       "options": [
         "big-mcq-24",
-        "big-mcq-23",
-        "big-mcq-25",
-        "big-mcq-22",
-        "big-mcq-26",
-        "big-mcq-21"
+        "big-mcq-18",
+        "big-mcq-11",
+        "big-pdf-reviewed-01"
       ],
       "explanation": "本句的「big mouth」指「愛亂說話、容易洩露秘密的人／行為」。",
       "sentenceIndex": 67,
@@ -2849,12 +2591,10 @@ export default {
         "big mouth"
       ],
       "optionReasons": {
-        "big-mcq-24": "本句指「愛亂說話、容易洩露秘密的人／行為」。",
-        "big-mcq-23": "「對自己評價過高、自負的」是「big-headed」的用法，與本句語境不同。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」是「big shot」的用法，與本句語境不同。",
-        "big-mcq-22": "「慷慨、善良、心胸寬厚的」是「big-hearted」的用法，與本句語境不同。",
-        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」是「big time」的用法，與本句語境不同。",
-        "big-mcq-21": "「並不嚴重／重要，沒有甚麼大不了」是「no big deal」的用法，與本句語境不同。"
+        "big-mcq-24": "本句的「big mouth」指「愛亂說話、容易洩露秘密的人／行為」。",
+        "big-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-24"
     },
@@ -2866,11 +2606,9 @@ export default {
       "masked": "I shouldn’t have opened my ____ mouth.",
       "options": [
         "big-mcq-24",
-        "big-mcq-23",
-        "big-mcq-25",
-        "big-mcq-22",
-        "big-mcq-26",
-        "big-mcq-21"
+        "big-pdf-reviewed-01",
+        "big-mcq-03",
+        "big-mcq-33"
       ],
       "explanation": "本句的「big」指「愛亂說話、容易洩露秘密的人／行為」。",
       "sentenceIndex": 68,
@@ -2879,12 +2617,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-24": "本句指「愛亂說話、容易洩露秘密的人／行為」。",
-        "big-mcq-23": "「對自己評價過高、自負的」是「big-headed」的用法，與本句語境不同。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」是「big shot」的用法，與本句語境不同。",
-        "big-mcq-22": "「慷慨、善良、心胸寬厚的」是「big-hearted」的用法，與本句語境不同。",
-        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」是「big time」的用法，與本句語境不同。",
-        "big-mcq-21": "「並不嚴重／重要，沒有甚麼大不了」是「no big deal」的用法，與本句語境不同。"
+        "big-mcq-24": "本句的「big」指「愛亂說話、容易洩露秘密的人／行為」。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-24"
     },
@@ -2896,11 +2632,9 @@ export default {
       "masked": "He is a ____ in the company.",
       "options": [
         "big-mcq-25",
-        "big-mcq-24",
-        "big-mcq-26",
         "big-mcq-23",
-        "big-mcq-27",
-        "big-mcq-22"
+        "big-mcq-09",
+        "big-mcq-29"
       ],
       "explanation": "本句的「big shot」指「有權勢、地位或影響力的大人物」。",
       "sentenceIndex": 69,
@@ -2909,12 +2643,10 @@ export default {
         "big shot"
       ],
       "optionReasons": {
-        "big-mcq-25": "本句指「有權勢、地位或影響力的大人物」。",
-        "big-mcq-24": "「愛亂說話、容易洩露秘密的人／行為」是「big mouth」的用法，與本句語境不同。",
-        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」是「big time」的用法，與本句語境不同。",
-        "big-mcq-23": "「對自己評價過高、自負的」是「big-headed」的用法，與本句語境不同。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」是「big picture」的用法，與本句語境不同。",
-        "big-mcq-22": "「慷慨、善良、心胸寬厚的」是「big-hearted」的用法，與本句語境不同。"
+        "big-mcq-25": "本句的「big shot」指「有權勢、地位或影響力的大人物」。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-25"
     },
@@ -2927,10 +2659,8 @@ export default {
       "options": [
         "big-mcq-25",
         "big-mcq-24",
-        "big-mcq-26",
         "big-mcq-23",
-        "big-mcq-27",
-        "big-mcq-22"
+        "big-mcq-15"
       ],
       "explanation": "本句的「big」指「有權勢、地位或影響力的大人物」。",
       "sentenceIndex": 70,
@@ -2939,12 +2669,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-25": "本句指「有權勢、地位或影響力的大人物」。",
-        "big-mcq-24": "「愛亂說話、容易洩露秘密的人／行為」是「big mouth」的用法，與本句語境不同。",
-        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」是「big time」的用法，與本句語境不同。",
-        "big-mcq-23": "「對自己評價過高、自負的」是「big-headed」的用法，與本句語境不同。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」是「big picture」的用法，與本句語境不同。",
-        "big-mcq-22": "「慷慨、善良、心胸寬厚的」是「big-hearted」的用法，與本句語境不同。"
+        "big-mcq-25": "本句的「big」指「有權勢、地位或影響力的大人物」。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-25"
     },
@@ -2956,11 +2684,9 @@ export default {
       "masked": "The product succeeded ____.",
       "options": [
         "big-mcq-26",
-        "big-mcq-25",
-        "big-mcq-27",
+        "big-mcq-23",
         "big-mcq-24",
-        "big-mcq-28",
-        "big-mcq-23"
+        "big-pdf-reviewed-01"
       ],
       "explanation": "本句的「big time」指「程度非常大／嚴重；或取得重大成功」。",
       "sentenceIndex": 71,
@@ -2969,12 +2695,10 @@ export default {
         "big time"
       ],
       "optionReasons": {
-        "big-mcq-26": "本句指「程度非常大／嚴重；或取得重大成功」。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」是「big shot」的用法，與本句語境不同。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」是「big picture」的用法，與本句語境不同。",
-        "big-mcq-24": "「愛亂說話、容易洩露秘密的人／行為」是「big mouth」的用法，與本句語境不同。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。",
-        "big-mcq-23": "「對自己評價過高、自負的」是「big-headed」的用法，與本句語境不同。"
+        "big-mcq-26": "本句的「big time」指「程度非常大／嚴重；或取得重大成功」。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-26"
     },
@@ -2986,11 +2710,9 @@ export default {
       "masked": "I messed up ____ time.",
       "options": [
         "big-mcq-26",
-        "big-mcq-25",
-        "big-mcq-27",
+        "big-mcq-23",
         "big-mcq-24",
-        "big-mcq-28",
-        "big-mcq-23"
+        "big-pdf-reviewed-01"
       ],
       "explanation": "本句的「big」指「程度非常大／嚴重；或取得重大成功」。",
       "sentenceIndex": 72,
@@ -2999,74 +2721,68 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-26": "本句指「程度非常大／嚴重；或取得重大成功」。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」是「big shot」的用法，與本句語境不同。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」是「big picture」的用法，與本句語境不同。",
-        "big-mcq-24": "「愛亂說話、容易洩露秘密的人／行為」是「big mouth」的用法，與本句語境不同。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。",
-        "big-mcq-23": "「對自己評價過高、自負的」是「big-headed」的用法，與本句語境不同。"
+        "big-mcq-26": "本句的「big」指「程度非常大／嚴重；或取得重大成功」。",
+        "big-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-26"
     },
     {
       "id": "big-37-0",
-      "sense": "big-mcq-26",
+      "sense": "big-reviewed-3dc1a062ea",
       "en": "She finally reached the big time.",
       "zh": "她終於躋身成功／成名的頂級舞台。",
       "masked": "She finally reached ____.",
       "options": [
-        "big-mcq-26",
-        "big-mcq-25",
-        "big-mcq-27",
-        "big-mcq-24",
-        "big-mcq-28",
-        "big-mcq-23"
+        "big-reviewed-3dc1a062ea",
+        "big-pdf-reviewed-01",
+        "big-mcq-01",
+        "big-mcq-25"
       ],
-      "explanation": "本句的「the big time」指「程度非常大／嚴重；或取得重大成功」。",
+      "explanation": "對照完整句子：「她終於躋身成功／成名的頂級舞台。」。這裡的「the big time」表示「高度成功、知名或重要的職業／娛樂層次」。",
       "sentenceIndex": 73,
       "sourcePractice": 74,
       "targets": [
         "the big time"
       ],
       "optionReasons": {
-        "big-mcq-26": "本句指「程度非常大／嚴重；或取得重大成功」。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」是「big shot」的用法，與本句語境不同。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」是「big picture」的用法，與本句語境不同。",
-        "big-mcq-24": "「愛亂說話、容易洩露秘密的人／行為」是「big mouth」的用法，與本句語境不同。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。",
-        "big-mcq-23": "「對自己評價過高、自負的」是「big-headed」的用法，與本句語境不同。"
+        "big-reviewed-3dc1a062ea": "對照完整句子：「她終於躋身成功／成名的頂級舞台。」。這裡的「the big time」表示「高度成功、知名或重要的職業／娛樂層次」。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "big-mcq-26"
+      "correctOption": "big-reviewed-3dc1a062ea",
+      "previousCorrectOption": "big-mcq-26",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "big-37-1",
-      "sense": "big-mcq-26",
+      "sense": "big-reviewed-3dc1a062ea",
       "en": "He dreams of making it to the big time.",
       "zh": "他夢想有一天能成名／進入頂尖層次。",
       "masked": "He dreams of making it to the ____ time.",
       "options": [
-        "big-mcq-26",
-        "big-mcq-25",
-        "big-mcq-27",
-        "big-mcq-24",
-        "big-mcq-28",
-        "big-mcq-23"
+        "big-reviewed-3dc1a062ea",
+        "big-mcq-12",
+        "big-mcq-14",
+        "big-mcq-24"
       ],
-      "explanation": "本句的「big」指「程度非常大／嚴重；或取得重大成功」。",
+      "explanation": "對照完整句子：「他夢想有一天能成名／進入頂尖層次。」。這裡的「big」表示「高度成功、知名或重要的職業／娛樂層次」。",
       "sentenceIndex": 74,
       "sourcePractice": 75,
       "targets": [
         "big"
       ],
       "optionReasons": {
-        "big-mcq-26": "本句指「程度非常大／嚴重；或取得重大成功」。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」是「big shot」的用法，與本句語境不同。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」是「big picture」的用法，與本句語境不同。",
-        "big-mcq-24": "「愛亂說話、容易洩露秘密的人／行為」是「big mouth」的用法，與本句語境不同。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。",
-        "big-mcq-23": "「對自己評價過高、自負的」是「big-headed」的用法，與本句語境不同。"
+        "big-reviewed-3dc1a062ea": "對照完整句子：「他夢想有一天能成名／進入頂尖層次。」。這裡的「big」表示「高度成功、知名或重要的職業／娛樂層次」。",
+        "big-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "big-mcq-26"
+      "correctOption": "big-reviewed-3dc1a062ea",
+      "previousCorrectOption": "big-mcq-26",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "big-38-0",
@@ -3076,11 +2792,9 @@ export default {
       "masked": "Don’t focus on one mistake—look at the ____.",
       "options": [
         "big-mcq-27",
-        "big-mcq-26",
-        "big-mcq-28",
-        "big-mcq-25",
-        "big-mcq-29",
-        "big-mcq-24"
+        "big-mcq-14",
+        "big-mcq-06",
+        "big-mcq-03"
       ],
       "explanation": "本句的「big picture」指「整體情況、主要方向和長遠影響」。",
       "sentenceIndex": 75,
@@ -3089,12 +2803,10 @@ export default {
         "big picture"
       ],
       "optionReasons": {
-        "big-mcq-27": "本句指「整體情況、主要方向和長遠影響」。",
-        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」是「big time」的用法，與本句語境不同。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」是「big shot」的用法，與本句語境不同。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」是「6. big decision/question/issue（重大決定／問題） — 重大的；重要的」的用法，與本句語境不同。",
-        "big-mcq-24": "「愛亂說話、容易洩露秘密的人／行為」是「big mouth」的用法，與本句語境不同。"
+        "big-mcq-27": "本句的「big picture」指「整體情況、主要方向和長遠影響」。",
+        "big-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-27"
     },
@@ -3106,11 +2818,9 @@ export default {
       "masked": "She understands the ____ picture.",
       "options": [
         "big-mcq-27",
-        "big-mcq-26",
-        "big-mcq-28",
-        "big-mcq-25",
-        "big-mcq-29",
-        "big-mcq-24"
+        "big-mcq-32",
+        "big-mcq-02",
+        "big-mcq-06"
       ],
       "explanation": "本句的「big」指「整體情況、主要方向和長遠影響」。",
       "sentenceIndex": 76,
@@ -3119,12 +2829,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-27": "本句指「整體情況、主要方向和長遠影響」。",
-        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」是「big time」的用法，與本句語境不同。",
-        "big-mcq-28": "「重要、宏大或統領整體方向的核心構思」是「big idea」的用法，與本句語境不同。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」是「big shot」的用法，與本句語境不同。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」是「6. big decision/question/issue（重大決定／問題） — 重大的；重要的」的用法，與本句語境不同。",
-        "big-mcq-24": "「愛亂說話、容易洩露秘密的人／行為」是「big mouth」的用法，與本句語境不同。"
+        "big-mcq-27": "本句的「big」指「整體情況、主要方向和長遠影響」。",
+        "big-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-27"
     },
@@ -3136,11 +2844,9 @@ export default {
       "masked": "What’s the ____ behind the campaign?",
       "options": [
         "big-mcq-28",
-        "big-mcq-27",
-        "big-mcq-29",
-        "big-mcq-26",
-        "big-mcq-30",
-        "big-mcq-25"
+        "big-pdf-reviewed-01",
+        "big-mcq-31",
+        "big-mcq-24"
       ],
       "explanation": "本句的「big idea」指「重要、宏大或統領整體方向的核心構思」。",
       "sentenceIndex": 77,
@@ -3149,12 +2855,10 @@ export default {
         "big idea"
       ],
       "optionReasons": {
-        "big-mcq-28": "本句指「重要、宏大或統領整體方向的核心構思」。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」是「big picture」的用法，與本句語境不同。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」是「6. big decision/question/issue（重大決定／問題） — 重大的；重要的」的用法，與本句語境不同。",
-        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」是「big time」的用法，與本句語境不同。",
-        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」是「21. big = mature / grown-up（像大人一樣） — 成熟；長大了」的用法，與本句語境不同。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」是「big shot」的用法，與本句語境不同。"
+        "big-mcq-28": "本句的「big idea」指「重要、宏大或統領整體方向的核心構思」。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-28"
     },
@@ -3166,11 +2870,9 @@ export default {
       "masked": "The project started with one ____ idea.",
       "options": [
         "big-mcq-28",
-        "big-mcq-27",
-        "big-mcq-29",
-        "big-mcq-26",
-        "big-mcq-30",
-        "big-mcq-25"
+        "big-pdf-reviewed-01",
+        "big-mcq-24",
+        "big-mcq-09"
       ],
       "explanation": "本句的「big」指「重要、宏大或統領整體方向的核心構思」。",
       "sentenceIndex": 78,
@@ -3179,12 +2881,10 @@ export default {
         "big"
       ],
       "optionReasons": {
-        "big-mcq-28": "本句指「重要、宏大或統領整體方向的核心構思」。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」是「big picture」的用法，與本句語境不同。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」是「6. big decision/question/issue（重大決定／問題） — 重大的；重要的」的用法，與本句語境不同。",
-        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」是「big time」的用法，與本句語境不同。",
-        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」是「21. big = mature / grown-up（像大人一樣） — 成熟；長大了」的用法，與本句語境不同。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」是「big shot」的用法，與本句語境不同。"
+        "big-mcq-28": "本句的「big」指「重要、宏大或統領整體方向的核心構思」。",
+        "big-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-mcq-28"
     },
@@ -3196,9 +2896,7 @@ export default {
       "masked": "You finished five minutes early? ____",
       "options": [
         "big-pdf-reviewed-01",
-        "big-mcq-27",
-        "big-mcq-29",
-        "big-mcq-26",
+        "big-mcq-17",
         "big-mcq-30",
         "big-mcq-25"
       ],
@@ -3209,12 +2907,10 @@ export default {
         "Big deal."
       ],
       "optionReasons": {
-        "big-pdf-reviewed-01": "本句指「諷刺地表示某事沒甚麼了不起」。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」與本句語境不同。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」與本句語境不同。",
-        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」與本句語境不同。",
-        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」與本句語境不同。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」與本句語境不同。"
+        "big-pdf-reviewed-01": "本句的「Big deal.」指「諷刺地表示某事沒甚麼了不起」。",
+        "big-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-pdf-reviewed-01"
     },
@@ -3226,11 +2922,9 @@ export default {
       "masked": "So he bought a new car. ____ deal.",
       "options": [
         "big-pdf-reviewed-01",
-        "big-mcq-27",
-        "big-mcq-29",
-        "big-mcq-26",
-        "big-mcq-30",
-        "big-mcq-25"
+        "big-mcq-03",
+        "big-mcq-33",
+        "big-mcq-24"
       ],
       "explanation": "本句的「Big」指「諷刺地表示某事沒甚麼了不起」。",
       "sentenceIndex": 80,
@@ -3239,12 +2933,10 @@ export default {
         "Big"
       ],
       "optionReasons": {
-        "big-pdf-reviewed-01": "本句指「諷刺地表示某事沒甚麼了不起」。",
-        "big-mcq-27": "「整體情況、主要方向和長遠影響」與本句語境不同。",
-        "big-mcq-29": "「重要性高、會帶來明顯後果的」與本句語境不同。",
-        "big-mcq-26": "「程度非常大／嚴重；或取得重大成功」與本句語境不同。",
-        "big-mcq-30": "「在兒童語境中表示年紀／成熟程度較大」與本句語境不同。",
-        "big-mcq-25": "「有權勢、地位或影響力的大人物」與本句語境不同。"
+        "big-pdf-reviewed-01": "本句的「Big」指「諷刺地表示某事沒甚麼了不起」。",
+        "big-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "big-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "big-pdf-reviewed-01"
     }
@@ -3256,5 +2948,7 @@ export default {
     "sha256": "cacd6810e1c8e6fa7c6a3577f515967fe24355e48cd8dfaf80817b802c9ed281",
     "pages": 32
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

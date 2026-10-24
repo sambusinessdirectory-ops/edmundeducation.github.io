@@ -377,16 +377,6 @@ export default {
           "The website is updated every so often.",
           "這個網站間中會更新。",
           "每隔一段時間；偶爾"
-        ],
-        [
-          "People were moving every which way.",
-          "人們向四面八方移動。",
-          "每隔一段時間；偶爾"
-        ],
-        [
-          "The branches were growing every which way.",
-          "樹枝亂七八糟地向各個方向生長。",
-          "每隔一段時間；偶爾"
         ]
       ],
       "options": [],
@@ -413,6 +403,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "every-reviewed-c5ca6dd2fe",
+      "title": "四面八方；亂七八糟各個方向",
+      "form": "every · source section 20",
+      "en": "四面八方；亂七八糟各個方向",
+      "zh": "四面八方；亂七八糟各個方向",
+      "note": "對照原始教材第 20 節及例句核實。",
+      "examples": [
+        [
+          "People were moving every which way.",
+          "人們向四面八方移動。",
+          "四面八方；亂七八糟各個方向"
+        ],
+        [
+          "The branches were growing every which way.",
+          "樹枝亂七八糟地向各個方向生長。",
+          "四面八方；亂七八糟各個方向"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -424,11 +436,9 @@ export default {
       "masked": "____ received a copy.",
       "options": [
         "every-mcq-01",
-        "every-mcq-02",
-        "every-mcq-03",
-        "every-mcq-04",
-        "every-mcq-05",
-        "every-mcq-06"
+        "every-mcq-16",
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-05"
       ],
       "explanation": "本句的「Every student」指「把群體中的每個成員逐一全部包括，沒有例外」。",
       "sentenceIndex": 0,
@@ -437,12 +447,10 @@ export default {
         "Every student"
       ],
       "optionReasons": {
-        "every-mcq-01": "本句指「把群體中的每個成員逐一全部包括，沒有例外」。",
-        "every-mcq-02": "「某事情每一次發生時；每次／每逢」是「every time」的用法，與本句語境不同。",
-        "every-mcq-03": "「每個指定時間週期都發生一次」是「every + time period」的用法，與本句語境不同。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。"
+        "every-mcq-01": "本句的「Every student」指「把群體中的每個成員逐一全部包括，沒有例外」。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-01"
     },
@@ -454,11 +462,9 @@ export default {
       "masked": "____ plant needs some form of care.",
       "options": [
         "every-mcq-01",
-        "every-mcq-02",
-        "every-mcq-03",
-        "every-mcq-04",
-        "every-mcq-05",
-        "every-mcq-06"
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-16",
+        "every-mcq-05"
       ],
       "explanation": "本句的「Every」指「把群體中的每個成員逐一全部包括，沒有例外」。",
       "sentenceIndex": 1,
@@ -467,12 +473,10 @@ export default {
         "Every"
       ],
       "optionReasons": {
-        "every-mcq-01": "本句指「把群體中的每個成員逐一全部包括，沒有例外」。",
-        "every-mcq-02": "「某事情每一次發生時；每次／每逢」是「every time」的用法，與本句語境不同。",
-        "every-mcq-03": "「每個指定時間週期都發生一次」是「every + time period」的用法，與本句語境不同。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。"
+        "every-mcq-01": "本句的「Every」指「把群體中的每個成員逐一全部包括，沒有例外」。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-01"
     },
@@ -484,11 +488,9 @@ export default {
       "masked": "Every painting ____ its own atmosphere.",
       "options": [
         "every-mcq-01",
-        "every-mcq-02",
-        "every-mcq-03",
-        "every-mcq-04",
-        "every-mcq-05",
-        "every-mcq-06"
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-16",
+        "every-mcq-05"
       ],
       "explanation": "本句的「has」指「把群體中的每個成員逐一全部包括，沒有例外」。",
       "sentenceIndex": 2,
@@ -497,12 +499,10 @@ export default {
         "has"
       ],
       "optionReasons": {
-        "every-mcq-01": "本句指「把群體中的每個成員逐一全部包括，沒有例外」。",
-        "every-mcq-02": "「某事情每一次發生時；每次／每逢」是「every time」的用法，與本句語境不同。",
-        "every-mcq-03": "「每個指定時間週期都發生一次」是「every + time period」的用法，與本句語境不同。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。"
+        "every-mcq-01": "本句的「has」指「把群體中的每個成員逐一全部包括，沒有例外」。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-01"
     },
@@ -514,11 +514,9 @@ export default {
       "masked": "Every flower ____ light.",
       "options": [
         "every-mcq-01",
-        "every-mcq-02",
-        "every-mcq-03",
-        "every-mcq-04",
-        "every-mcq-05",
-        "every-mcq-06"
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-16",
+        "every-mcq-02"
       ],
       "explanation": "本句的「needs」指「把群體中的每個成員逐一全部包括，沒有例外」。",
       "sentenceIndex": 3,
@@ -527,12 +525,10 @@ export default {
         "needs"
       ],
       "optionReasons": {
-        "every-mcq-01": "本句指「把群體中的每個成員逐一全部包括，沒有例外」。",
-        "every-mcq-02": "「某事情每一次發生時；每次／每逢」是「every time」的用法，與本句語境不同。",
-        "every-mcq-03": "「每個指定時間週期都發生一次」是「every + time period」的用法，與本句語境不同。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。"
+        "every-mcq-01": "本句的「needs」指「把群體中的每個成員逐一全部包括，沒有例外」。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-01"
     },
@@ -544,11 +540,9 @@ export default {
       "masked": "____ I looked at it, I noticed something new.",
       "options": [
         "every-mcq-02",
-        "every-mcq-01",
-        "every-mcq-03",
-        "every-mcq-04",
-        "every-mcq-05",
-        "every-mcq-06"
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-09",
+        "every-mcq-16"
       ],
       "explanation": "本句的「Every time」指「某事情每一次發生時；每次／每逢」。",
       "sentenceIndex": 4,
@@ -557,12 +551,10 @@ export default {
         "Every time"
       ],
       "optionReasons": {
-        "every-mcq-02": "本句指「某事情每一次發生時；每次／每逢」。",
-        "every-mcq-01": "「把群體中的每個成員逐一全部包括，沒有例外」是「every + singular noun」的用法，與本句語境不同。",
-        "every-mcq-03": "「每個指定時間週期都發生一次」是「every + time period」的用法，與本句語境不同。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。"
+        "every-mcq-02": "本句的「Every time」指「某事情每一次發生時；每次／每逢」。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-02"
     },
@@ -574,11 +566,9 @@ export default {
       "masked": "____ time she visits the museum, she finds something interesting.",
       "options": [
         "every-mcq-02",
-        "every-mcq-01",
-        "every-mcq-03",
-        "every-mcq-04",
-        "every-mcq-05",
-        "every-mcq-06"
+        "every-mcq-16",
+        "every-pdf-001",
+        "every-reviewed-c5ca6dd2fe"
       ],
       "explanation": "本句的「Every」指「某事情每一次發生時；每次／每逢」。",
       "sentenceIndex": 5,
@@ -587,12 +577,10 @@ export default {
         "Every"
       ],
       "optionReasons": {
-        "every-mcq-02": "本句指「某事情每一次發生時；每次／每逢」。",
-        "every-mcq-01": "「把群體中的每個成員逐一全部包括，沒有例外」是「every + singular noun」的用法，與本句語境不同。",
-        "every-mcq-03": "「每個指定時間週期都發生一次」是「every + time period」的用法，與本句語境不同。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。"
+        "every-mcq-02": "本句的「Every」指「某事情每一次發生時；每次／每逢」。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "every-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-02"
     },
@@ -604,11 +592,9 @@ export default {
       "masked": "I smile ____ time I see that photograph.",
       "options": [
         "every-mcq-02",
-        "every-mcq-01",
-        "every-mcq-03",
-        "every-mcq-04",
-        "every-mcq-05",
-        "every-mcq-06"
+        "every-mcq-09",
+        "every-mcq-16",
+        "every-reviewed-c5ca6dd2fe"
       ],
       "explanation": "本句的「every」指「某事情每一次發生時；每次／每逢」。",
       "sentenceIndex": 6,
@@ -617,12 +603,10 @@ export default {
         "every"
       ],
       "optionReasons": {
-        "every-mcq-02": "本句指「某事情每一次發生時；每次／每逢」。",
-        "every-mcq-01": "「把群體中的每個成員逐一全部包括，沒有例外」是「every + singular noun」的用法，與本句語境不同。",
-        "every-mcq-03": "「每個指定時間週期都發生一次」是「every + time period」的用法，與本句語境不同。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。"
+        "every-mcq-02": "本句的「every」指「某事情每一次發生時；每次／每逢」。",
+        "every-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-02"
     },
@@ -634,11 +618,9 @@ export default {
       "masked": "She visits the gallery ____.",
       "options": [
         "every-mcq-03",
-        "every-mcq-02",
-        "every-mcq-04",
-        "every-mcq-01",
-        "every-mcq-05",
-        "every-mcq-06"
+        "every-pdf-001",
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-05"
       ],
       "explanation": "本句的「every week」指「每個指定時間週期都發生一次」。",
       "sentenceIndex": 7,
@@ -647,12 +629,10 @@ export default {
         "every week"
       ],
       "optionReasons": {
-        "every-mcq-03": "本句指「每個指定時間週期都發生一次」。",
-        "every-mcq-02": "「某事情每一次發生時；每次／每逢」是「every time」的用法，與本句語境不同。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。",
-        "every-mcq-01": "「把群體中的每個成員逐一全部包括，沒有例外」是「every + singular noun」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。"
+        "every-mcq-03": "本句的「every week」指「每個指定時間週期都發生一次」。",
+        "every-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-03"
     },
@@ -664,11 +644,9 @@ export default {
       "masked": "The exhibition changes ____ year.",
       "options": [
         "every-mcq-03",
-        "every-mcq-02",
-        "every-mcq-04",
-        "every-mcq-01",
-        "every-mcq-05",
-        "every-mcq-06"
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-09",
+        "every-mcq-05"
       ],
       "explanation": "本句的「every」指「每個指定時間週期都發生一次」。",
       "sentenceIndex": 8,
@@ -677,12 +655,10 @@ export default {
         "every"
       ],
       "optionReasons": {
-        "every-mcq-03": "本句指「每個指定時間週期都發生一次」。",
-        "every-mcq-02": "「某事情每一次發生時；每次／每逢」是「every time」的用法，與本句語境不同。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。",
-        "every-mcq-01": "「把群體中的每個成員逐一全部包括，沒有例外」是「every + singular noun」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。"
+        "every-mcq-03": "本句的「every」指「每個指定時間週期都發生一次」。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-03"
     },
@@ -694,11 +670,9 @@ export default {
       "masked": "Water the plant ____.",
       "options": [
         "every-mcq-04",
-        "every-mcq-03",
-        "every-mcq-05",
-        "every-mcq-02",
-        "every-mcq-06",
-        "every-mcq-01"
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-13",
+        "every-mcq-08"
       ],
       "explanation": "本句的「every three days」指「每隔指定數量的時間、距離或單位發生一次」。",
       "sentenceIndex": 9,
@@ -707,12 +681,10 @@ export default {
         "every three days"
       ],
       "optionReasons": {
-        "every-mcq-04": "本句指「每隔指定數量的時間、距離或單位發生一次」。",
-        "every-mcq-03": "「每個指定時間週期都發生一次」是「every + time period」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-02": "「某事情每一次發生時；每次／每逢」是「every time」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。",
-        "every-mcq-01": "「把群體中的每個成員逐一全部包括，沒有例外」是「every + singular noun」的用法，與本句語境不同。"
+        "every-mcq-04": "本句的「every three days」指「每隔指定數量的時間、距離或單位發生一次」。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-04"
     },
@@ -724,11 +696,9 @@ export default {
       "masked": "The bus arrives ____ twenty minutes.",
       "options": [
         "every-mcq-04",
-        "every-mcq-03",
-        "every-mcq-05",
-        "every-mcq-02",
-        "every-mcq-06",
-        "every-mcq-01"
+        "every-mcq-13",
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-08"
       ],
       "explanation": "本句的「every」指「每隔指定數量的時間、距離或單位發生一次」。",
       "sentenceIndex": 10,
@@ -737,12 +707,10 @@ export default {
         "every"
       ],
       "optionReasons": {
-        "every-mcq-04": "本句指「每隔指定數量的時間、距離或單位發生一次」。",
-        "every-mcq-03": "「每個指定時間週期都發生一次」是「every + time period」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-02": "「某事情每一次發生時；每次／每逢」是「every time」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。",
-        "every-mcq-01": "「把群體中的每個成員逐一全部包括，沒有例外」是「every + singular noun」的用法，與本句語境不同。"
+        "every-mcq-04": "本句的「every」指「每隔指定數量的時間、距離或單位發生一次」。",
+        "every-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-04"
     },
@@ -754,11 +722,9 @@ export default {
       "masked": "She waters the plants ____.",
       "options": [
         "every-mcq-05",
-        "every-mcq-04",
-        "every-mcq-06",
-        "every-mcq-03",
-        "every-mcq-07",
-        "every-mcq-02"
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-12",
+        "every-mcq-16"
       ],
       "explanation": "本句的「every other day」指「一個做、一個略過，交替進行；每隔一個」。",
       "sentenceIndex": 11,
@@ -767,12 +733,10 @@ export default {
         "every other day"
       ],
       "optionReasons": {
-        "every-mcq-05": "本句指「一個做、一個略過，交替進行；每隔一個」。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。",
-        "every-mcq-03": "「每個指定時間週期都發生一次」是「every + time period」的用法，與本句語境不同。",
-        "every-mcq-07": "「每隔幾個未精確指定的時間／單位」是「every few + plural noun」的用法，與本句語境不同。",
-        "every-mcq-02": "「某事情每一次發生時；每次／每逢」是「every time」的用法，與本句語境不同。"
+        "every-mcq-05": "本句的「every other day」指「一個做、一個略過，交替進行；每隔一個」。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-05"
     },
@@ -784,11 +748,9 @@ export default {
       "masked": "The magazine is published ____ other month.",
       "options": [
         "every-mcq-05",
-        "every-mcq-04",
-        "every-mcq-06",
-        "every-mcq-03",
-        "every-mcq-07",
-        "every-mcq-02"
+        "every-mcq-13",
+        "every-mcq-16",
+        "every-reviewed-c5ca6dd2fe"
       ],
       "explanation": "本句的「every」指「一個做、一個略過，交替進行；每隔一個」。",
       "sentenceIndex": 12,
@@ -797,12 +759,10 @@ export default {
         "every"
       ],
       "optionReasons": {
-        "every-mcq-05": "本句指「一個做、一個略過，交替進行；每隔一個」。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。",
-        "every-mcq-03": "「每個指定時間週期都發生一次」是「every + time period」的用法，與本句語境不同。",
-        "every-mcq-07": "「每隔幾個未精確指定的時間／單位」是「every few + plural noun」的用法，與本句語境不同。",
-        "every-mcq-02": "「某事情每一次發生時；每次／每逢」是「every time」的用法，與本句語境不同。"
+        "every-mcq-05": "本句的「every」指「一個做、一個略過，交替進行；每隔一個」。",
+        "every-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-05"
     },
@@ -814,11 +774,9 @@ export default {
       "masked": "This painting is different from ____ in the room.",
       "options": [
         "every-mcq-06",
-        "every-mcq-05",
-        "every-mcq-07",
-        "every-mcq-04",
-        "every-mcq-08",
-        "every-mcq-03"
+        "every-pdf-001",
+        "every-mcq-16",
+        "every-reviewed-c5ca6dd2fe"
       ],
       "explanation": "本句的「every other painting」指「除目前這一個之外，其餘每一個」。",
       "sentenceIndex": 13,
@@ -827,12 +785,10 @@ export default {
         "every other painting"
       ],
       "optionReasons": {
-        "every-mcq-06": "本句指「除目前這一個之外，其餘每一個」。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-07": "「每隔幾個未精確指定的時間／單位」是「every few + plural noun」的用法，與本句語境不同。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。",
-        "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。",
-        "every-mcq-03": "「每個指定時間週期都發生一次」是「every + time period」的用法，與本句語境不同。"
+        "every-mcq-06": "本句的「every other painting」指「除目前這一個之外，其餘每一個」。",
+        "every-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-06"
     },
@@ -844,11 +800,9 @@ export default {
       "masked": "She performed better than ____ other student.",
       "options": [
         "every-mcq-06",
-        "every-mcq-05",
-        "every-mcq-07",
-        "every-mcq-04",
-        "every-mcq-08",
-        "every-mcq-03"
+        "every-mcq-13",
+        "every-mcq-16",
+        "every-reviewed-c5ca6dd2fe"
       ],
       "explanation": "本句的「every」指「除目前這一個之外，其餘每一個」。",
       "sentenceIndex": 14,
@@ -857,12 +811,10 @@ export default {
         "every"
       ],
       "optionReasons": {
-        "every-mcq-06": "本句指「除目前這一個之外，其餘每一個」。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-07": "「每隔幾個未精確指定的時間／單位」是「every few + plural noun」的用法，與本句語境不同。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。",
-        "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。",
-        "every-mcq-03": "「每個指定時間週期都發生一次」是「every + time period」的用法，與本句語境不同。"
+        "every-mcq-06": "本句的「every」指「除目前這一個之外，其餘每一個」。",
+        "every-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-06"
     },
@@ -874,11 +826,9 @@ export default {
       "masked": "She checks the plants ____.",
       "options": [
         "every-mcq-07",
-        "every-mcq-06",
-        "every-mcq-08",
-        "every-mcq-05",
         "every-mcq-09",
-        "every-mcq-04"
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-06"
       ],
       "explanation": "本句的「every few days」指「每隔幾個未精確指定的時間／單位」。",
       "sentenceIndex": 15,
@@ -887,12 +837,10 @@ export default {
         "every few days"
       ],
       "optionReasons": {
-        "every-mcq-07": "本句指「每隔幾個未精確指定的時間／單位」。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。",
-        "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。"
+        "every-mcq-07": "本句的「every few days」指「每隔幾個未精確指定的時間／單位」。",
+        "every-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-07"
     },
@@ -904,11 +852,9 @@ export default {
       "masked": "The colour changes ____ few seconds.",
       "options": [
         "every-mcq-07",
-        "every-mcq-06",
-        "every-mcq-08",
-        "every-mcq-05",
-        "every-mcq-09",
-        "every-mcq-04"
+        "every-pdf-001",
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-06"
       ],
       "explanation": "本句的「every」指「每隔幾個未精確指定的時間／單位」。",
       "sentenceIndex": 16,
@@ -917,12 +863,10 @@ export default {
         "every"
       ],
       "optionReasons": {
-        "every-mcq-07": "本句指「每隔幾個未精確指定的時間／單位」。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。",
-        "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。",
-        "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。",
-        "every-mcq-04": "「每隔指定數量的時間、距離或單位發生一次」是「every + number + plural noun」的用法，與本句語境不同。"
+        "every-mcq-07": "本句的「every」指「每隔幾個未精確指定的時間／單位」。",
+        "every-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-07"
     },
@@ -934,11 +878,9 @@ export default {
       "masked": "She examined ____.",
       "options": [
         "every-mcq-08",
-        "every-mcq-07",
         "every-mcq-09",
-        "every-mcq-06",
-        "every-mcq-10",
-        "every-mcq-05"
+        "every-mcq-16",
+        "every-reviewed-c5ca6dd2fe"
       ],
       "explanation": "本句的「every single detail」指「強調每一個都包括，無一例外」。",
       "sentenceIndex": 17,
@@ -947,12 +889,10 @@ export default {
         "every single detail"
       ],
       "optionReasons": {
-        "every-mcq-08": "本句指「強調每一個都包括，無一例外」。",
-        "every-mcq-07": "「每隔幾個未精確指定的時間／單位」是「every few + plural noun」的用法，與本句語境不同。",
-        "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。",
-        "every-mcq-10": "「某個特定群體中的每一個個體」是「every one of」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。"
+        "every-mcq-08": "本句的「every single detail」指「強調每一個都包括，無一例外」。",
+        "every-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-08"
     },
@@ -964,11 +904,9 @@ export default {
       "masked": "____ single seat was occupied.",
       "options": [
         "every-mcq-08",
-        "every-mcq-07",
         "every-mcq-09",
-        "every-mcq-06",
-        "every-mcq-10",
-        "every-mcq-05"
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-16"
       ],
       "explanation": "本句的「Every」指「強調每一個都包括，無一例外」。",
       "sentenceIndex": 18,
@@ -977,12 +915,10 @@ export default {
         "Every"
       ],
       "optionReasons": {
-        "every-mcq-08": "本句指「強調每一個都包括，無一例外」。",
-        "every-mcq-07": "「每隔幾個未精確指定的時間／單位」是「every few + plural noun」的用法，與本句語境不同。",
-        "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。",
-        "every-mcq-10": "「某個特定群體中的每一個個體」是「every one of」的用法，與本句語境不同。",
-        "every-mcq-05": "「一個做、一個略過，交替進行；每隔一個」是「every other — alternating」的用法，與本句語境不同。"
+        "every-mcq-08": "本句的「Every」指「強調每一個都包括，無一例外」。",
+        "every-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-08"
     },
@@ -994,11 +930,9 @@ export default {
       "masked": "They considered ____.",
       "options": [
         "every-mcq-09",
+        "every-mcq-16",
         "every-mcq-08",
-        "every-mcq-10",
-        "every-mcq-07",
-        "every-mcq-11",
-        "every-mcq-06"
+        "every-reviewed-c5ca6dd2fe"
       ],
       "explanation": "本句的「every possible option」指「所有可能存在的個別選項／情況」。",
       "sentenceIndex": 19,
@@ -1007,12 +941,10 @@ export default {
         "every possible option"
       ],
       "optionReasons": {
-        "every-mcq-09": "本句指「所有可能存在的個別選項／情況」。",
-        "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。",
-        "every-mcq-10": "「某個特定群體中的每一個個體」是「every one of」的用法，與本句語境不同。",
-        "every-mcq-07": "「每隔幾個未精確指定的時間／單位」是「every few + plural noun」的用法，與本句語境不同。",
-        "every-mcq-11": "「每一個人；所有人」是「everyone / everybody」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。"
+        "every-mcq-09": "本句的「every possible option」指「所有可能存在的個別選項／情況」。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-09"
     },
@@ -1024,11 +956,9 @@ export default {
       "masked": "The team took ____ possible precaution.",
       "options": [
         "every-mcq-09",
+        "every-reviewed-c5ca6dd2fe",
         "every-mcq-08",
-        "every-mcq-10",
-        "every-mcq-07",
-        "every-mcq-11",
-        "every-mcq-06"
+        "every-mcq-17"
       ],
       "explanation": "本句的「every」指「所有可能存在的個別選項／情況」。",
       "sentenceIndex": 20,
@@ -1037,12 +967,10 @@ export default {
         "every"
       ],
       "optionReasons": {
-        "every-mcq-09": "本句指「所有可能存在的個別選項／情況」。",
-        "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。",
-        "every-mcq-10": "「某個特定群體中的每一個個體」是「every one of」的用法，與本句語境不同。",
-        "every-mcq-07": "「每隔幾個未精確指定的時間／單位」是「every few + plural noun」的用法，與本句語境不同。",
-        "every-mcq-11": "「每一個人；所有人」是「everyone / everybody」的用法，與本句語境不同。",
-        "every-mcq-06": "「除目前這一個之外，其餘每一個」是「every other — remaining」的用法，與本句語境不同。"
+        "every-mcq-09": "本句的「every」指「所有可能存在的個別選項／情況」。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-09"
     },
@@ -1054,11 +982,9 @@ export default {
       "masked": "She used ____.",
       "options": [
         "every-pdf-001",
-        "every-mcq-09",
-        "every-mcq-11",
-        "every-mcq-08",
-        "every-mcq-12",
-        "every-mcq-07"
+        "every-mcq-07",
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-06"
       ],
       "explanation": "本句的「every bit of space」指「強調某個整體中連最小部分也全部包括」。",
       "sentenceIndex": 21,
@@ -1067,12 +993,10 @@ export default {
         "every bit of space"
       ],
       "optionReasons": {
-        "every-pdf-001": "本句指「強調某個整體中連最小部分也全部包括」。",
-        "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。",
-        "every-mcq-11": "「每一個人；所有人」是「everyone / everybody」的用法，與本句語境不同。",
-        "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。",
-        "every-mcq-07": "「每隔幾個未精確指定的時間／單位」是「every few + plural noun」的用法，與本句語境不同。"
+        "every-pdf-001": "本句的「every bit of space」指「強調某個整體中連最小部分也全部包括」。",
+        "every-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-pdf-001"
     },
@@ -1084,11 +1008,9 @@ export default {
       "masked": "____ detail of the painting matters.",
       "options": [
         "every-pdf-001",
-        "every-mcq-09",
-        "every-mcq-11",
-        "every-mcq-08",
-        "every-mcq-12",
-        "every-mcq-07"
+        "every-mcq-05",
+        "every-mcq-03",
+        "every-reviewed-c5ca6dd2fe"
       ],
       "explanation": "本句的「Every」指「強調某個整體中連最小部分也全部包括」。",
       "sentenceIndex": 22,
@@ -1097,12 +1019,10 @@ export default {
         "Every"
       ],
       "optionReasons": {
-        "every-pdf-001": "本句指「強調某個整體中連最小部分也全部包括」。",
-        "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。",
-        "every-mcq-11": "「每一個人；所有人」是「everyone / everybody」的用法，與本句語境不同。",
-        "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。",
-        "every-mcq-07": "「每隔幾個未精確指定的時間／單位」是「every few + plural noun」的用法，與本句語境不同。"
+        "every-pdf-001": "本句的「Every」指「強調某個整體中連最小部分也全部包括」。",
+        "every-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-pdf-001"
     },
@@ -1114,11 +1034,9 @@ export default {
       "masked": "____ was different.",
       "options": [
         "every-mcq-10",
-        "every-mcq-09",
-        "every-mcq-11",
-        "every-mcq-08",
-        "every-mcq-12",
-        "every-mcq-07"
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-13",
+        "every-mcq-16"
       ],
       "explanation": "本句的「Every one of the paintings」指「某個特定群體中的每一個個體」。",
       "sentenceIndex": 23,
@@ -1127,12 +1045,10 @@ export default {
         "Every one of the paintings"
       ],
       "optionReasons": {
-        "every-mcq-10": "本句指「某個特定群體中的每一個個體」。",
-        "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。",
-        "every-mcq-11": "「每一個人；所有人」是「everyone / everybody」的用法，與本句語境不同。",
-        "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。",
-        "every-mcq-07": "「每隔幾個未精確指定的時間／單位」是「every few + plural noun」的用法，與本句語境不同。"
+        "every-mcq-10": "本句的「Every one of the paintings」指「某個特定群體中的每一個個體」。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-10"
     },
@@ -1145,10 +1061,8 @@ export default {
       "options": [
         "every-mcq-10",
         "every-mcq-09",
-        "every-mcq-11",
-        "every-mcq-08",
-        "every-mcq-12",
-        "every-mcq-07"
+        "every-mcq-16",
+        "every-reviewed-c5ca6dd2fe"
       ],
       "explanation": "本句的「Every」指「某個特定群體中的每一個個體」。",
       "sentenceIndex": 24,
@@ -1157,12 +1071,10 @@ export default {
         "Every"
       ],
       "optionReasons": {
-        "every-mcq-10": "本句指「某個特定群體中的每一個個體」。",
-        "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。",
-        "every-mcq-11": "「每一個人；所有人」是「everyone / everybody」的用法，與本句語境不同。",
-        "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。",
-        "every-mcq-07": "「每隔幾個未精確指定的時間／單位」是「every few + plural noun」的用法，與本句語境不同。"
+        "every-mcq-10": "本句的「Every」指「某個特定群體中的每一個個體」。",
+        "every-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-10"
     },
@@ -1174,11 +1086,8 @@ export default {
       "masked": "____ has a different taste in art.",
       "options": [
         "every-mcq-11",
-        "every-mcq-10",
-        "every-mcq-12",
-        "every-mcq-09",
-        "every-mcq-13",
-        "every-mcq-08"
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-16"
       ],
       "explanation": "本句的「Everyone」指「每一個人；所有人」。",
       "sentenceIndex": 25,
@@ -1187,12 +1096,9 @@ export default {
         "Everyone"
       ],
       "optionReasons": {
-        "every-mcq-11": "本句指「每一個人；所有人」。",
-        "every-mcq-10": "「某個特定群體中的每一個個體」是「every one of」的用法，與本句語境不同。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。",
-        "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。",
-        "every-mcq-13": "「所有地方／到處」是「everywhere」的用法，與本句語境不同。",
-        "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。"
+        "every-mcq-11": "本句的「Everyone」指「每一個人；所有人」。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-11"
     },
@@ -1204,11 +1110,8 @@ export default {
       "masked": "____ was quiet.",
       "options": [
         "every-mcq-11",
-        "every-mcq-10",
-        "every-mcq-12",
-        "every-mcq-09",
-        "every-mcq-13",
-        "every-mcq-08"
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-16"
       ],
       "explanation": "本句的「Everyone」指「每一個人；所有人」。",
       "sentenceIndex": 26,
@@ -1217,12 +1120,9 @@ export default {
         "Everyone"
       ],
       "optionReasons": {
-        "every-mcq-11": "本句指「每一個人；所有人」。",
-        "every-mcq-10": "「某個特定群體中的每一個個體」是「every one of」的用法，與本句語境不同。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。",
-        "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。",
-        "every-mcq-13": "「所有地方／到處」是「everywhere」的用法，與本句語境不同。",
-        "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。"
+        "every-mcq-11": "本句的「Everyone」指「每一個人；所有人」。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-11"
     },
@@ -1234,11 +1134,8 @@ export default {
       "masked": "____ noticed the painting.",
       "options": [
         "every-mcq-11",
-        "every-mcq-10",
-        "every-mcq-12",
-        "every-mcq-09",
-        "every-mcq-13",
-        "every-mcq-08"
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-16"
       ],
       "explanation": "本句的「Everybody」指「每一個人；所有人」。",
       "sentenceIndex": 27,
@@ -1247,12 +1144,9 @@ export default {
         "Everybody"
       ],
       "optionReasons": {
-        "every-mcq-11": "本句指「每一個人；所有人」。",
-        "every-mcq-10": "「某個特定群體中的每一個個體」是「every one of」的用法，與本句語境不同。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。",
-        "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。",
-        "every-mcq-13": "「所有地方／到處」是「everywhere」的用法，與本句語境不同。",
-        "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。"
+        "every-mcq-11": "本句的「Everybody」指「每一個人；所有人」。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-11"
     },
@@ -1264,11 +1158,8 @@ export default {
       "masked": "____ has an opinion.",
       "options": [
         "every-mcq-11",
-        "every-mcq-10",
-        "every-mcq-12",
-        "every-mcq-09",
-        "every-mcq-13",
-        "every-mcq-08"
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-16"
       ],
       "explanation": "本句的「Everybody」指「每一個人；所有人」。",
       "sentenceIndex": 28,
@@ -1277,12 +1168,9 @@ export default {
         "Everybody"
       ],
       "optionReasons": {
-        "every-mcq-11": "本句指「每一個人；所有人」。",
-        "every-mcq-10": "「某個特定群體中的每一個個體」是「every one of」的用法，與本句語境不同。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。",
-        "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。",
-        "every-mcq-13": "「所有地方／到處」是「everywhere」的用法，與本句語境不同。",
-        "every-mcq-08": "「強調每一個都包括，無一例外」是「every single」的用法，與本句語境不同。"
+        "every-mcq-11": "本句的「Everybody」指「每一個人；所有人」。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-11"
     },
@@ -1294,11 +1182,9 @@ export default {
       "masked": "She packed ____ carefully.",
       "options": [
         "every-mcq-12",
-        "every-mcq-11",
-        "every-mcq-13",
-        "every-mcq-10",
-        "every-mcq-14",
-        "every-mcq-09"
+        "every-mcq-16",
+        "every-mcq-06",
+        "every-mcq-05"
       ],
       "explanation": "本句的「everything」指「所有事物／整體情況；一切」。",
       "sentenceIndex": 29,
@@ -1307,12 +1193,10 @@ export default {
         "everything"
       ],
       "optionReasons": {
-        "every-mcq-12": "本句指「所有事物／整體情況；一切」。",
-        "every-mcq-11": "「每一個人；所有人」是「everyone / everybody」的用法，與本句語境不同。",
-        "every-mcq-13": "「所有地方／到處」是「everywhere」的用法，與本句語境不同。",
-        "every-mcq-10": "「某個特定群體中的每一個個體」是「every one of」的用法，與本句語境不同。",
-        "every-mcq-14": "「每一天；每天」是「every day」的用法，與本句語境不同。",
-        "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。"
+        "every-mcq-12": "本句的「everything」指「所有事物／整體情況；一切」。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-12"
     },
@@ -1324,11 +1208,9 @@ export default {
       "masked": "The lighting changes ____.",
       "options": [
         "every-mcq-12",
-        "every-mcq-11",
-        "every-mcq-13",
-        "every-mcq-10",
-        "every-mcq-14",
-        "every-mcq-09"
+        "every-mcq-17",
+        "every-mcq-08",
+        "every-reviewed-c5ca6dd2fe"
       ],
       "explanation": "本句的「everything」指「所有事物／整體情況；一切」。",
       "sentenceIndex": 30,
@@ -1337,12 +1219,10 @@ export default {
         "everything"
       ],
       "optionReasons": {
-        "every-mcq-12": "本句指「所有事物／整體情況；一切」。",
-        "every-mcq-11": "「每一個人；所有人」是「everyone / everybody」的用法，與本句語境不同。",
-        "every-mcq-13": "「所有地方／到處」是「everywhere」的用法，與本句語境不同。",
-        "every-mcq-10": "「某個特定群體中的每一個個體」是「every one of」的用法，與本句語境不同。",
-        "every-mcq-14": "「每一天；每天」是「every day」的用法，與本句語境不同。",
-        "every-mcq-09": "「所有可能存在的個別選項／情況」是「every possible」的用法，與本句語境不同。"
+        "every-mcq-12": "本句的「everything」指「所有事物／整體情況；一切」。",
+        "every-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-12"
     },
@@ -1354,11 +1234,9 @@ export default {
       "masked": "There were paintings ____.",
       "options": [
         "every-mcq-13",
-        "every-mcq-12",
-        "every-mcq-14",
-        "every-mcq-11",
-        "every-mcq-15",
-        "every-mcq-10"
+        "every-mcq-17",
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-06"
       ],
       "explanation": "本句的「everywhere」指「所有地方／到處」。",
       "sentenceIndex": 31,
@@ -1367,12 +1245,10 @@ export default {
         "everywhere"
       ],
       "optionReasons": {
-        "every-mcq-13": "本句指「所有地方／到處」。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。",
-        "every-mcq-14": "「每一天；每天」是「every day」的用法，與本句語境不同。",
-        "every-mcq-11": "「每一個人；所有人」是「everyone / everybody」的用法，與本句語境不同。",
-        "every-mcq-15": "「日常、平常、普通生活中的」是「everyday」的用法，與本句語境不同。",
-        "every-mcq-10": "「某個特定群體中的每一個個體」是「every one of」的用法，與本句語境不同。"
+        "every-mcq-13": "本句的「everywhere」指「所有地方／到處」。",
+        "every-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-13"
     },
@@ -1384,11 +1260,9 @@ export default {
       "masked": "I looked ____ for the book.",
       "options": [
         "every-mcq-13",
-        "every-mcq-12",
-        "every-mcq-14",
-        "every-mcq-11",
-        "every-mcq-15",
-        "every-mcq-10"
+        "every-mcq-06",
+        "every-mcq-16",
+        "every-reviewed-c5ca6dd2fe"
       ],
       "explanation": "本句的「everywhere」指「所有地方／到處」。",
       "sentenceIndex": 32,
@@ -1397,12 +1271,10 @@ export default {
         "everywhere"
       ],
       "optionReasons": {
-        "every-mcq-13": "本句指「所有地方／到處」。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。",
-        "every-mcq-14": "「每一天；每天」是「every day」的用法，與本句語境不同。",
-        "every-mcq-11": "「每一個人；所有人」是「everyone / everybody」的用法，與本句語境不同。",
-        "every-mcq-15": "「日常、平常、普通生活中的」是「everyday」的用法，與本句語境不同。",
-        "every-mcq-10": "「某個特定群體中的每一個個體」是「every one of」的用法，與本句語境不同。"
+        "every-mcq-13": "本句的「everywhere」指「所有地方／到處」。",
+        "every-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-13"
     },
@@ -1414,11 +1286,9 @@ export default {
       "masked": "I visit the museum ____.",
       "options": [
         "every-mcq-16",
-        "every-mcq-15",
-        "every-mcq-17",
-        "every-mcq-14",
-        "every-mcq-13",
-        "every-mcq-12"
+        "every-mcq-05",
+        "every-mcq-08",
+        "every-mcq-13"
       ],
       "explanation": "本句的「every now and then」指「偶爾；間中」。",
       "sentenceIndex": 33,
@@ -1427,12 +1297,10 @@ export default {
         "every now and then"
       ],
       "optionReasons": {
-        "every-mcq-16": "本句指「偶爾；間中」。",
-        "every-mcq-15": "「日常、平常、普通生活中的」是「everyday」的用法，與本句語境不同。",
-        "every-mcq-17": "「每隔一段時間；偶爾」是「every so often」的用法，與本句語境不同。",
-        "every-mcq-14": "「每一天；每天」是「every day」的用法，與本句語境不同。",
-        "every-mcq-13": "「所有地方／到處」是「everywhere」的用法，與本句語境不同。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。"
+        "every-mcq-16": "本句的「every now and then」指「偶爾；間中」。",
+        "every-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-16"
     },
@@ -1444,11 +1312,9 @@ export default {
       "masked": "____ now and then, she changes the arrangement.",
       "options": [
         "every-mcq-16",
-        "every-mcq-15",
-        "every-mcq-17",
-        "every-mcq-14",
-        "every-mcq-13",
-        "every-mcq-12"
+        "every-mcq-10",
+        "every-mcq-05",
+        "every-mcq-09"
       ],
       "explanation": "本句的「Every」指「偶爾；間中」。",
       "sentenceIndex": 34,
@@ -1457,12 +1323,10 @@ export default {
         "Every"
       ],
       "optionReasons": {
-        "every-mcq-16": "本句指「偶爾；間中」。",
-        "every-mcq-15": "「日常、平常、普通生活中的」是「everyday」的用法，與本句語境不同。",
-        "every-mcq-17": "「每隔一段時間；偶爾」是「every so often」的用法，與本句語境不同。",
-        "every-mcq-14": "「每一天；每天」是「every day」的用法，與本句語境不同。",
-        "every-mcq-13": "「所有地方／到處」是「everywhere」的用法，與本句語境不同。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。"
+        "every-mcq-16": "本句的「Every」指「偶爾；間中」。",
+        "every-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-16"
     },
@@ -1474,11 +1338,9 @@ export default {
       "masked": "I return to the painting ____.",
       "options": [
         "every-mcq-17",
-        "every-mcq-16",
-        "every-mcq-15",
-        "every-mcq-14",
-        "every-mcq-13",
-        "every-mcq-12"
+        "every-mcq-12",
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-08"
       ],
       "explanation": "本句的「every so often」指「每隔一段時間；偶爾」。",
       "sentenceIndex": 35,
@@ -1487,12 +1349,10 @@ export default {
         "every so often"
       ],
       "optionReasons": {
-        "every-mcq-17": "本句指「每隔一段時間；偶爾」。",
-        "every-mcq-16": "「偶爾；間中」是「every now and then」的用法，與本句語境不同。",
-        "every-mcq-15": "「日常、平常、普通生活中的」是「everyday」的用法，與本句語境不同。",
-        "every-mcq-14": "「每一天；每天」是「every day」的用法，與本句語境不同。",
-        "every-mcq-13": "「所有地方／到處」是「everywhere」的用法，與本句語境不同。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。"
+        "every-mcq-17": "本句的「every so often」指「每隔一段時間；偶爾」。",
+        "every-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-17"
     },
@@ -1504,11 +1364,9 @@ export default {
       "masked": "The website is updated ____ so often.",
       "options": [
         "every-mcq-17",
-        "every-mcq-16",
-        "every-mcq-15",
-        "every-mcq-14",
-        "every-mcq-13",
-        "every-mcq-12"
+        "every-pdf-001",
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-06"
       ],
       "explanation": "本句的「every」指「每隔一段時間；偶爾」。",
       "sentenceIndex": 36,
@@ -1517,74 +1375,68 @@ export default {
         "every"
       ],
       "optionReasons": {
-        "every-mcq-17": "本句指「每隔一段時間；偶爾」。",
-        "every-mcq-16": "「偶爾；間中」是「every now and then」的用法，與本句語境不同。",
-        "every-mcq-15": "「日常、平常、普通生活中的」是「everyday」的用法，與本句語境不同。",
-        "every-mcq-14": "「每一天；每天」是「every day」的用法，與本句語境不同。",
-        "every-mcq-13": "「所有地方／到處」是「everywhere」的用法，與本句語境不同。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。"
+        "every-mcq-17": "本句的「every」指「每隔一段時間；偶爾」。",
+        "every-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "every-reviewed-c5ca6dd2fe": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "every-mcq-17"
     },
     {
       "id": "every-20-0",
-      "sense": "every-mcq-17",
+      "sense": "every-reviewed-c5ca6dd2fe",
       "en": "People were moving every which way.",
       "zh": "人們向四面八方移動。",
       "masked": "People were moving ____.",
       "options": [
-        "every-mcq-17",
-        "every-mcq-16",
-        "every-mcq-15",
-        "every-mcq-14",
+        "every-reviewed-c5ca6dd2fe",
+        "every-mcq-02",
         "every-mcq-13",
-        "every-mcq-12"
+        "every-mcq-16"
       ],
-      "explanation": "本句的「every which way」指「每隔一段時間；偶爾」。",
+      "explanation": "對照完整句子：「人們向四面八方移動。」。這裡的「every which way」表示「四面八方；亂七八糟各個方向」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "every which way"
       ],
       "optionReasons": {
-        "every-mcq-17": "本句指「每隔一段時間；偶爾」。",
-        "every-mcq-16": "「偶爾；間中」是「every now and then」的用法，與本句語境不同。",
-        "every-mcq-15": "「日常、平常、普通生活中的」是「everyday」的用法，與本句語境不同。",
-        "every-mcq-14": "「每一天；每天」是「every day」的用法，與本句語境不同。",
-        "every-mcq-13": "「所有地方／到處」是「everywhere」的用法，與本句語境不同。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。"
+        "every-reviewed-c5ca6dd2fe": "對照完整句子：「人們向四面八方移動。」。這裡的「every which way」表示「四面八方；亂七八糟各個方向」。",
+        "every-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "every-mcq-17"
+      "correctOption": "every-reviewed-c5ca6dd2fe",
+      "previousCorrectOption": "every-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "every-20-1",
-      "sense": "every-mcq-17",
+      "sense": "every-reviewed-c5ca6dd2fe",
       "en": "The branches were growing every which way.",
       "zh": "樹枝亂七八糟地向各個方向生長。",
       "masked": "The branches were growing ____ which way.",
       "options": [
+        "every-reviewed-c5ca6dd2fe",
         "every-mcq-17",
-        "every-mcq-16",
-        "every-mcq-15",
-        "every-mcq-14",
-        "every-mcq-13",
-        "every-mcq-12"
+        "every-mcq-10",
+        "every-mcq-13"
       ],
-      "explanation": "本句的「every」指「每隔一段時間；偶爾」。",
+      "explanation": "對照完整句子：「樹枝亂七八糟地向各個方向生長。」。這裡的「every」表示「四面八方；亂七八糟各個方向」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "every"
       ],
       "optionReasons": {
-        "every-mcq-17": "本句指「每隔一段時間；偶爾」。",
-        "every-mcq-16": "「偶爾；間中」是「every now and then」的用法，與本句語境不同。",
-        "every-mcq-15": "「日常、平常、普通生活中的」是「everyday」的用法，與本句語境不同。",
-        "every-mcq-14": "「每一天；每天」是「every day」的用法，與本句語境不同。",
-        "every-mcq-13": "「所有地方／到處」是「everywhere」的用法，與本句語境不同。",
-        "every-mcq-12": "「所有事物／整體情況；一切」是「everything」的用法，與本句語境不同。"
+        "every-reviewed-c5ca6dd2fe": "對照完整句子：「樹枝亂七八糟地向各個方向生長。」。這裡的「every」表示「四面八方；亂七八糟各個方向」。",
+        "every-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "every-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "every-mcq-17"
+      "correctOption": "every-reviewed-c5ca6dd2fe",
+      "previousCorrectOption": "every-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -1594,5 +1446,7 @@ export default {
     "sha256": "520e394bafdff341d25894e0bbfc6d3f59e6bd6a363f8a382bd0b4fd779f75d7",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

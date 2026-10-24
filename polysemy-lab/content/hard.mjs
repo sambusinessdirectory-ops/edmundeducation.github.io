@@ -349,11 +349,9 @@ export default {
       "masked": "What made it effective was that it did not try too ____.",
       "options": [
         "hard-mcq-01",
-        "hard-mcq-02",
-        "hard-mcq-03",
-        "hard-mcq-04",
-        "hard-mcq-05",
-        "hard-mcq-06"
+        "hard-mcq-13",
+        "hard-mcq-07",
+        "hard-mcq-04"
       ],
       "explanation": "本句的「hard」指「做某事時投入大量努力或精力」。",
       "sentenceIndex": 0,
@@ -362,12 +360,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-01": "本句指「做某事時投入大量努力或精力」。",
-        "hard-mcq-02": "「需要很多能力、思考或努力才能完成的」是「hard task/problem」的用法，與本句語境不同。",
-        "hard-mcq-03": "「質地堅硬、不容易被壓下或變形的」是「hard material/surface」的用法，與本句語境不同。",
-        "hard-mcq-04": "「生活或環境條件嚴峻、令人難以承受的」是「hard times/life」的用法，與本句語境不同。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。"
+        "hard-mcq-01": "本句的「hard」指「做某事時投入大量努力或精力」。",
+        "hard-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-01"
     },
@@ -379,11 +375,9 @@ export default {
       "masked": "She studied ____ for the exam.",
       "options": [
         "hard-mcq-01",
-        "hard-mcq-02",
-        "hard-mcq-03",
-        "hard-mcq-04",
-        "hard-mcq-05",
-        "hard-mcq-06"
+        "hard-mcq-10",
+        "hard-mcq-09",
+        "hard-mcq-04"
       ],
       "explanation": "本句的「hard」指「做某事時投入大量努力或精力」。",
       "sentenceIndex": 1,
@@ -392,12 +386,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-01": "本句指「做某事時投入大量努力或精力」。",
-        "hard-mcq-02": "「需要很多能力、思考或努力才能完成的」是「hard task/problem」的用法，與本句語境不同。",
-        "hard-mcq-03": "「質地堅硬、不容易被壓下或變形的」是「hard material/surface」的用法，與本句語境不同。",
-        "hard-mcq-04": "「生活或環境條件嚴峻、令人難以承受的」是「hard times/life」的用法，與本句語境不同。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。"
+        "hard-mcq-01": "本句的「hard」指「做某事時投入大量努力或精力」。",
+        "hard-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-01"
     },
@@ -409,11 +401,9 @@ export default {
       "masked": "If you work ____, you’ll improve quickly.",
       "options": [
         "hard-mcq-01",
-        "hard-mcq-02",
-        "hard-mcq-03",
-        "hard-mcq-04",
-        "hard-mcq-05",
-        "hard-mcq-06"
+        "hard-mcq-11",
+        "hard-mcq-09",
+        "hard-mcq-04"
       ],
       "explanation": "本句的「hard」指「做某事時投入大量努力或精力」。",
       "sentenceIndex": 2,
@@ -422,12 +412,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-01": "本句指「做某事時投入大量努力或精力」。",
-        "hard-mcq-02": "「需要很多能力、思考或努力才能完成的」是「hard task/problem」的用法，與本句語境不同。",
-        "hard-mcq-03": "「質地堅硬、不容易被壓下或變形的」是「hard material/surface」的用法，與本句語境不同。",
-        "hard-mcq-04": "「生活或環境條件嚴峻、令人難以承受的」是「hard times/life」的用法，與本句語境不同。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。"
+        "hard-mcq-01": "本句的「hard」指「做某事時投入大量努力或精力」。",
+        "hard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-01"
     },
@@ -439,11 +427,9 @@ export default {
       "masked": "This question is very ____.",
       "options": [
         "hard-mcq-02",
-        "hard-mcq-01",
         "hard-mcq-03",
         "hard-mcq-04",
-        "hard-mcq-05",
-        "hard-mcq-06"
+        "hard-mcq-10"
       ],
       "explanation": "本句的「hard」指「需要很多能力、思考或努力才能完成的」。",
       "sentenceIndex": 0,
@@ -452,12 +438,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-02": "本句指「需要很多能力、思考或努力才能完成的」。",
-        "hard-mcq-01": "「做某事時投入大量努力或精力」是「try/work/study hard」的用法，與本句語境不同。",
-        "hard-mcq-03": "「質地堅硬、不容易被壓下或變形的」是「hard material/surface」的用法，與本句語境不同。",
-        "hard-mcq-04": "「生活或環境條件嚴峻、令人難以承受的」是「hard times/life」的用法，與本句語境不同。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。"
+        "hard-mcq-02": "本句的「hard」指「需要很多能力、思考或努力才能完成的」。",
+        "hard-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-02"
     },
@@ -469,11 +453,9 @@ export default {
       "masked": "Learning to speak naturally can be ____.",
       "options": [
         "hard-mcq-02",
-        "hard-mcq-01",
-        "hard-mcq-03",
+        "hard-mcq-12",
         "hard-mcq-04",
-        "hard-mcq-05",
-        "hard-mcq-06"
+        "hard-mcq-09"
       ],
       "explanation": "本句的「hard」指「需要很多能力、思考或努力才能完成的」。",
       "sentenceIndex": 1,
@@ -482,12 +464,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-02": "本句指「需要很多能力、思考或努力才能完成的」。",
-        "hard-mcq-01": "「做某事時投入大量努力或精力」是「try/work/study hard」的用法，與本句語境不同。",
-        "hard-mcq-03": "「質地堅硬、不容易被壓下或變形的」是「hard material/surface」的用法，與本句語境不同。",
-        "hard-mcq-04": "「生活或環境條件嚴峻、令人難以承受的」是「hard times/life」的用法，與本句語境不同。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。"
+        "hard-mcq-02": "本句的「hard」指「需要很多能力、思考或努力才能完成的」。",
+        "hard-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-02"
     },
@@ -499,11 +479,9 @@ export default {
       "masked": "The floor is very ____.",
       "options": [
         "hard-mcq-03",
-        "hard-mcq-02",
-        "hard-mcq-04",
-        "hard-mcq-01",
-        "hard-mcq-05",
-        "hard-mcq-06"
+        "hard-mcq-08",
+        "hard-mcq-12",
+        "hard-mcq-04"
       ],
       "explanation": "本句的「hard」指「質地堅硬、不容易被壓下或變形的」。",
       "sentenceIndex": 0,
@@ -512,12 +490,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-03": "本句指「質地堅硬、不容易被壓下或變形的」。",
-        "hard-mcq-02": "「需要很多能力、思考或努力才能完成的」是「hard task/problem」的用法，與本句語境不同。",
-        "hard-mcq-04": "「生活或環境條件嚴峻、令人難以承受的」是「hard times/life」的用法，與本句語境不同。",
-        "hard-mcq-01": "「做某事時投入大量努力或精力」是「try/work/study hard」的用法，與本句語境不同。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。"
+        "hard-mcq-03": "本句的「hard」指「質地堅硬、不容易被壓下或變形的」。",
+        "hard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-03"
     },
@@ -529,11 +505,9 @@ export default {
       "masked": "This wood is too ____ to cut easily.",
       "options": [
         "hard-mcq-03",
-        "hard-mcq-02",
-        "hard-mcq-04",
-        "hard-mcq-01",
-        "hard-mcq-05",
-        "hard-mcq-06"
+        "hard-mcq-07",
+        "hard-mcq-08",
+        "hard-mcq-09"
       ],
       "explanation": "本句的「hard」指「質地堅硬、不容易被壓下或變形的」。",
       "sentenceIndex": 1,
@@ -542,12 +516,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-03": "本句指「質地堅硬、不容易被壓下或變形的」。",
-        "hard-mcq-02": "「需要很多能力、思考或努力才能完成的」是「hard task/problem」的用法，與本句語境不同。",
-        "hard-mcq-04": "「生活或環境條件嚴峻、令人難以承受的」是「hard times/life」的用法，與本句語境不同。",
-        "hard-mcq-01": "「做某事時投入大量努力或精力」是「try/work/study hard」的用法，與本句語境不同。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。"
+        "hard-mcq-03": "本句的「hard」指「質地堅硬、不容易被壓下或變形的」。",
+        "hard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-03"
     },
@@ -560,10 +532,8 @@ export default {
       "options": [
         "hard-mcq-04",
         "hard-mcq-03",
-        "hard-mcq-05",
-        "hard-mcq-02",
-        "hard-mcq-06",
-        "hard-mcq-01"
+        "hard-mcq-10",
+        "hard-mcq-02"
       ],
       "explanation": "本句的「hard」指「生活或環境條件嚴峻、令人難以承受的」。",
       "sentenceIndex": 0,
@@ -572,12 +542,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-04": "本句指「生活或環境條件嚴峻、令人難以承受的」。",
-        "hard-mcq-03": "「質地堅硬、不容易被壓下或變形的」是「hard material/surface」的用法，與本句語境不同。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。",
-        "hard-mcq-02": "「需要很多能力、思考或努力才能完成的」是「hard task/problem」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。",
-        "hard-mcq-01": "「做某事時投入大量努力或精力」是「try/work/study hard」的用法，與本句語境不同。"
+        "hard-mcq-04": "本句的「hard」指「生活或環境條件嚴峻、令人難以承受的」。",
+        "hard-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-04"
     },
@@ -589,11 +557,9 @@ export default {
       "masked": "It was a ____ winter for older residents.",
       "options": [
         "hard-mcq-04",
-        "hard-mcq-03",
-        "hard-mcq-05",
-        "hard-mcq-02",
-        "hard-mcq-06",
-        "hard-mcq-01"
+        "hard-mcq-07",
+        "hard-mcq-13",
+        "hard-mcq-15"
       ],
       "explanation": "本句的「hard」指「生活或環境條件嚴峻、令人難以承受的」。",
       "sentenceIndex": 1,
@@ -602,12 +568,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-04": "本句指「生活或環境條件嚴峻、令人難以承受的」。",
-        "hard-mcq-03": "「質地堅硬、不容易被壓下或變形的」是「hard material/surface」的用法，與本句語境不同。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。",
-        "hard-mcq-02": "「需要很多能力、思考或努力才能完成的」是「hard task/problem」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。",
-        "hard-mcq-01": "「做某事時投入大量努力或精力」是「try/work/study hard」的用法，與本句語境不同。"
+        "hard-mcq-04": "本句的「hard」指「生活或環境條件嚴峻、令人難以承受的」。",
+        "hard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-04"
     },
@@ -619,11 +583,9 @@ export default {
       "masked": "The ball hit the wall ____.",
       "options": [
         "hard-mcq-05",
-        "hard-mcq-04",
-        "hard-mcq-06",
         "hard-mcq-03",
-        "hard-mcq-07",
-        "hard-mcq-02"
+        "hard-mcq-12",
+        "hard-mcq-07"
       ],
       "explanation": "本句的「hard」指「以很大的力量或強度發生」。",
       "sentenceIndex": 0,
@@ -632,12 +594,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-05": "本句指「以很大的力量或強度發生」。",
-        "hard-mcq-04": "「生活或環境條件嚴峻、令人難以承受的」是「hard times/life」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。",
-        "hard-mcq-03": "「質地堅硬、不容易被壓下或變形的」是「hard material/surface」的用法，與本句語境不同。",
-        "hard-mcq-07": "「具體、可靠並可以客觀驗證的」是「hard evidence/data」的用法，與本句語境不同。",
-        "hard-mcq-02": "「需要很多能力、思考或努力才能完成的」是「hard task/problem」的用法，與本句語境不同。"
+        "hard-mcq-05": "本句的「hard」指「以很大的力量或強度發生」。",
+        "hard-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-05"
     },
@@ -649,11 +609,9 @@ export default {
       "masked": "It was raining ____ all afternoon.",
       "options": [
         "hard-mcq-05",
-        "hard-mcq-04",
-        "hard-mcq-06",
-        "hard-mcq-03",
         "hard-mcq-07",
-        "hard-mcq-02"
+        "hard-mcq-03",
+        "hard-mcq-09"
       ],
       "explanation": "本句的「hard」指「以很大的力量或強度發生」。",
       "sentenceIndex": 1,
@@ -662,12 +620,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-05": "本句指「以很大的力量或強度發生」。",
-        "hard-mcq-04": "「生活或環境條件嚴峻、令人難以承受的」是「hard times/life」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。",
-        "hard-mcq-03": "「質地堅硬、不容易被壓下或變形的」是「hard material/surface」的用法，與本句語境不同。",
-        "hard-mcq-07": "「具體、可靠並可以客觀驗證的」是「hard evidence/data」的用法，與本句語境不同。",
-        "hard-mcq-02": "「需要很多能力、思考或努力才能完成的」是「hard task/problem」的用法，與本句語境不同。"
+        "hard-mcq-05": "本句的「hard」指「以很大的力量或強度發生」。",
+        "hard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-05"
     },
@@ -679,11 +635,9 @@ export default {
       "masked": "He is a ____ boss who expects very high standards.",
       "options": [
         "hard-mcq-06",
-        "hard-mcq-05",
         "hard-mcq-07",
-        "hard-mcq-04",
-        "hard-mcq-08",
-        "hard-mcq-03"
+        "hard-mcq-12",
+        "hard-mcq-09"
       ],
       "explanation": "本句的「hard」指「態度嚴厲、強硬、不易讓步的」。",
       "sentenceIndex": 0,
@@ -692,12 +646,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-06": "本句指「態度嚴厲、強硬、不易讓步的」。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。",
-        "hard-mcq-07": "「具體、可靠並可以客觀驗證的」是「hard evidence/data」的用法，與本句語境不同。",
-        "hard-mcq-04": "「生活或環境條件嚴峻、令人難以承受的」是「hard times/life」的用法，與本句語境不同。",
-        "hard-mcq-08": "「酒精濃度高的烈酒」是「hard liquor」的用法，與本句語境不同。",
-        "hard-mcq-03": "「質地堅硬、不容易被壓下或變形的」是「hard material/surface」的用法，與本句語境不同。"
+        "hard-mcq-06": "本句的「hard」指「態度嚴厲、強硬、不易讓步的」。",
+        "hard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-06"
     },
@@ -709,11 +661,9 @@ export default {
       "masked": "The government adopted a ____ position during the negotiations.",
       "options": [
         "hard-mcq-06",
-        "hard-mcq-05",
-        "hard-mcq-07",
-        "hard-mcq-04",
-        "hard-mcq-08",
-        "hard-mcq-03"
+        "hard-mcq-12",
+        "hard-mcq-01",
+        "hard-mcq-07"
       ],
       "explanation": "本句的「hard」指「態度嚴厲、強硬、不易讓步的」。",
       "sentenceIndex": 1,
@@ -722,12 +672,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-06": "本句指「態度嚴厲、強硬、不易讓步的」。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。",
-        "hard-mcq-07": "「具體、可靠並可以客觀驗證的」是「hard evidence/data」的用法，與本句語境不同。",
-        "hard-mcq-04": "「生活或環境條件嚴峻、令人難以承受的」是「hard times/life」的用法，與本句語境不同。",
-        "hard-mcq-08": "「酒精濃度高的烈酒」是「hard liquor」的用法，與本句語境不同。",
-        "hard-mcq-03": "「質地堅硬、不容易被壓下或變形的」是「hard material/surface」的用法，與本句語境不同。"
+        "hard-mcq-06": "本句的「hard」指「態度嚴厲、強硬、不易讓步的」。",
+        "hard-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-06"
     },
@@ -739,11 +687,9 @@ export default {
       "masked": "We need ____ evidence before making an accusation.",
       "options": [
         "hard-mcq-07",
-        "hard-mcq-06",
         "hard-mcq-08",
         "hard-mcq-05",
-        "hard-mcq-09",
-        "hard-mcq-04"
+        "hard-mcq-15"
       ],
       "explanation": "本句的「hard」指「具體、可靠並可以客觀驗證的」。",
       "sentenceIndex": 0,
@@ -752,12 +698,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-07": "本句指「具體、可靠並可以客觀驗證的」。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。",
-        "hard-mcq-08": "「酒精濃度高的烈酒」是「hard liquor」的用法，與本句語境不同。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。",
-        "hard-mcq-09": "「印在紙上的實體文件版本」是「hard copy」的用法，與本句語境不同。",
-        "hard-mcq-04": "「生活或環境條件嚴峻、令人難以承受的」是「hard times/life」的用法，與本句語境不同。"
+        "hard-mcq-07": "本句的「hard」指「具體、可靠並可以客觀驗證的」。",
+        "hard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-07"
     },
@@ -769,10 +713,8 @@ export default {
       "masked": "The report contains very little ____ data.",
       "options": [
         "hard-mcq-07",
-        "hard-mcq-06",
-        "hard-mcq-08",
-        "hard-mcq-05",
-        "hard-mcq-09",
+        "hard-mcq-10",
+        "hard-mcq-12",
         "hard-mcq-04"
       ],
       "explanation": "本句的「hard」指「具體、可靠並可以客觀驗證的」。",
@@ -782,12 +724,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-07": "本句指「具體、可靠並可以客觀驗證的」。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。",
-        "hard-mcq-08": "「酒精濃度高的烈酒」是「hard liquor」的用法，與本句語境不同。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。",
-        "hard-mcq-09": "「印在紙上的實體文件版本」是「hard copy」的用法，與本句語境不同。",
-        "hard-mcq-04": "「生活或環境條件嚴峻、令人難以承受的」是「hard times/life」的用法，與本句語境不同。"
+        "hard-mcq-07": "本句的「hard」指「具體、可靠並可以客觀驗證的」。",
+        "hard-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-07"
     },
@@ -800,10 +740,8 @@ export default {
       "options": [
         "hard-mcq-08",
         "hard-mcq-07",
-        "hard-mcq-09",
-        "hard-mcq-06",
-        "hard-mcq-10",
-        "hard-mcq-05"
+        "hard-mcq-03",
+        "hard-mcq-12"
       ],
       "explanation": "本句的「hard」指「酒精濃度高的烈酒」。",
       "sentenceIndex": 0,
@@ -812,12 +750,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-08": "本句指「酒精濃度高的烈酒」。",
-        "hard-mcq-07": "「具體、可靠並可以客觀驗證的」是「hard evidence/data」的用法，與本句語境不同。",
-        "hard-mcq-09": "「印在紙上的實體文件版本」是「hard copy」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。",
-        "hard-mcq-10": "「含較高濃度鈣、鎂等礦物質的水」是「hard water」的用法，與本句語境不同。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。"
+        "hard-mcq-08": "本句的「hard」指「酒精濃度高的烈酒」。",
+        "hard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-08"
     },
@@ -830,10 +766,8 @@ export default {
       "options": [
         "hard-mcq-08",
         "hard-mcq-07",
-        "hard-mcq-09",
-        "hard-mcq-06",
-        "hard-mcq-10",
-        "hard-mcq-05"
+        "hard-mcq-13",
+        "hard-mcq-12"
       ],
       "explanation": "本句的「hard」指「酒精濃度高的烈酒」。",
       "sentenceIndex": 1,
@@ -842,12 +776,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-08": "本句指「酒精濃度高的烈酒」。",
-        "hard-mcq-07": "「具體、可靠並可以客觀驗證的」是「hard evidence/data」的用法，與本句語境不同。",
-        "hard-mcq-09": "「印在紙上的實體文件版本」是「hard copy」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。",
-        "hard-mcq-10": "「含較高濃度鈣、鎂等礦物質的水」是「hard water」的用法，與本句語境不同。",
-        "hard-mcq-05": "「以很大的力量或強度發生」是「hit/rain hard」的用法，與本句語境不同。"
+        "hard-mcq-08": "本句的「hard」指「酒精濃度高的烈酒」。",
+        "hard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-08"
     },
@@ -859,11 +791,9 @@ export default {
       "masked": "Please bring a ____ of the report.",
       "options": [
         "hard-mcq-09",
-        "hard-mcq-08",
-        "hard-mcq-10",
-        "hard-mcq-07",
-        "hard-mcq-11",
-        "hard-mcq-06"
+        "hard-mcq-13",
+        "hard-mcq-15",
+        "hard-mcq-05"
       ],
       "explanation": "本句的「hard copy」指「印在紙上的實體文件版本」。",
       "sentenceIndex": 0,
@@ -872,12 +802,10 @@ export default {
         "hard copy"
       ],
       "optionReasons": {
-        "hard-mcq-09": "本句指「印在紙上的實體文件版本」。",
-        "hard-mcq-08": "「酒精濃度高的烈酒」是「hard liquor」的用法，與本句語境不同。",
-        "hard-mcq-10": "「含較高濃度鈣、鎂等礦物質的水」是「hard water」的用法，與本句語境不同。",
-        "hard-mcq-07": "「具體、可靠並可以客觀驗證的」是「hard evidence/data」的用法，與本句語境不同。",
-        "hard-mcq-11": "「c 或 g 發 /k/ 或 /g/ 的硬音」是「hard c/g」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。"
+        "hard-mcq-09": "本句的「hard copy」指「印在紙上的實體文件版本」。",
+        "hard-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-09"
     },
@@ -889,11 +817,9 @@ export default {
       "masked": "I prefer reading the document in ____.",
       "options": [
         "hard-mcq-09",
-        "hard-mcq-08",
         "hard-mcq-10",
-        "hard-mcq-07",
-        "hard-mcq-11",
-        "hard-mcq-06"
+        "hard-mcq-02",
+        "hard-mcq-03"
       ],
       "explanation": "本句的「hard copy」指「印在紙上的實體文件版本」。",
       "sentenceIndex": 1,
@@ -902,12 +828,10 @@ export default {
         "hard copy"
       ],
       "optionReasons": {
-        "hard-mcq-09": "本句指「印在紙上的實體文件版本」。",
-        "hard-mcq-08": "「酒精濃度高的烈酒」是「hard liquor」的用法，與本句語境不同。",
-        "hard-mcq-10": "「含較高濃度鈣、鎂等礦物質的水」是「hard water」的用法，與本句語境不同。",
-        "hard-mcq-07": "「具體、可靠並可以客觀驗證的」是「hard evidence/data」的用法，與本句語境不同。",
-        "hard-mcq-11": "「c 或 g 發 /k/ 或 /g/ 的硬音」是「hard c/g」的用法，與本句語境不同。",
-        "hard-mcq-06": "「態度嚴厲、強硬、不易讓步的」是「hard person/position」的用法，與本句語境不同。"
+        "hard-mcq-09": "本句的「hard copy」指「印在紙上的實體文件版本」。",
+        "hard-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-09"
     },
@@ -919,11 +843,9 @@ export default {
       "masked": "This area has very ____ water.",
       "options": [
         "hard-mcq-10",
-        "hard-mcq-09",
+        "hard-mcq-02",
         "hard-mcq-11",
-        "hard-mcq-08",
-        "hard-mcq-12",
-        "hard-mcq-07"
+        "hard-mcq-12"
       ],
       "explanation": "本句的「hard」指「含較高濃度鈣、鎂等礦物質的水」。",
       "sentenceIndex": 0,
@@ -932,12 +854,10 @@ export default {
         "hard"
       ],
       "optionReasons": {
-        "hard-mcq-10": "本句指「含較高濃度鈣、鎂等礦物質的水」。",
-        "hard-mcq-09": "「印在紙上的實體文件版本」是「hard copy」的用法，與本句語境不同。",
-        "hard-mcq-11": "「c 或 g 發 /k/ 或 /g/ 的硬音」是「hard c/g」的用法，與本句語境不同。",
-        "hard-mcq-08": "「酒精濃度高的烈酒」是「hard liquor」的用法，與本句語境不同。",
-        "hard-mcq-12": "「幾乎不／幾乎沒有」是「hardly」的用法，與本句語境不同。",
-        "hard-mcq-07": "「具體、可靠並可以客觀驗證的」是「hard evidence/data」的用法，與本句語境不同。"
+        "hard-mcq-10": "本句的「hard」指「含較高濃度鈣、鎂等礦物質的水」。",
+        "hard-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-10"
     },
@@ -949,10 +869,8 @@ export default {
       "masked": "____ water can leave marks on bathroom surfaces.",
       "options": [
         "hard-mcq-10",
-        "hard-mcq-09",
-        "hard-mcq-11",
-        "hard-mcq-08",
         "hard-mcq-12",
+        "hard-mcq-09",
         "hard-mcq-07"
       ],
       "explanation": "本句的「Hard」指「含較高濃度鈣、鎂等礦物質的水」。",
@@ -962,12 +880,10 @@ export default {
         "Hard"
       ],
       "optionReasons": {
-        "hard-mcq-10": "本句指「含較高濃度鈣、鎂等礦物質的水」。",
-        "hard-mcq-09": "「印在紙上的實體文件版本」是「hard copy」的用法，與本句語境不同。",
-        "hard-mcq-11": "「c 或 g 發 /k/ 或 /g/ 的硬音」是「hard c/g」的用法，與本句語境不同。",
-        "hard-mcq-08": "「酒精濃度高的烈酒」是「hard liquor」的用法，與本句語境不同。",
-        "hard-mcq-12": "「幾乎不／幾乎沒有」是「hardly」的用法，與本句語境不同。",
-        "hard-mcq-07": "「具體、可靠並可以客觀驗證的」是「hard evidence/data」的用法，與本句語境不同。"
+        "hard-mcq-10": "本句的「Hard」指「含較高濃度鈣、鎂等礦物質的水」。",
+        "hard-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-10"
     },
@@ -979,11 +895,9 @@ export default {
       "masked": "The word ‘cat’ begins with a ____.",
       "options": [
         "hard-mcq-11",
+        "hard-mcq-01",
         "hard-mcq-10",
-        "hard-mcq-12",
-        "hard-mcq-09",
-        "hard-mcq-13",
-        "hard-mcq-08"
+        "hard-mcq-09"
       ],
       "explanation": "本句的「hard c」指「c 或 g 發 /k/ 或 /g/ 的硬音」。",
       "sentenceIndex": 0,
@@ -992,12 +906,10 @@ export default {
         "hard c"
       ],
       "optionReasons": {
-        "hard-mcq-11": "本句指「c 或 g 發 /k/ 或 /g/ 的硬音」。",
-        "hard-mcq-10": "「含較高濃度鈣、鎂等礦物質的水」是「hard water」的用法，與本句語境不同。",
-        "hard-mcq-12": "「幾乎不／幾乎沒有」是「hardly」的用法，與本句語境不同。",
-        "hard-mcq-09": "「印在紙上的實體文件版本」是「hard copy」的用法，與本句語境不同。",
-        "hard-mcq-13": "「使物質由軟變硬或更加堅硬」是「harden — material」的用法，與本句語境不同。",
-        "hard-mcq-08": "「酒精濃度高的烈酒」是「hard liquor」的用法，與本句語境不同。"
+        "hard-mcq-11": "本句的「hard c」指「c 或 g 發 /k/ 或 /g/ 的硬音」。",
+        "hard-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-11"
     },
@@ -1009,11 +921,9 @@ export default {
       "masked": "The g in ‘go’ is a ____.",
       "options": [
         "hard-mcq-11",
-        "hard-mcq-10",
-        "hard-mcq-12",
-        "hard-mcq-09",
-        "hard-mcq-13",
-        "hard-mcq-08"
+        "hard-mcq-01",
+        "hard-mcq-08",
+        "hard-mcq-04"
       ],
       "explanation": "本句的「hard g」指「c 或 g 發 /k/ 或 /g/ 的硬音」。",
       "sentenceIndex": 1,
@@ -1022,12 +932,10 @@ export default {
         "hard g"
       ],
       "optionReasons": {
-        "hard-mcq-11": "本句指「c 或 g 發 /k/ 或 /g/ 的硬音」。",
-        "hard-mcq-10": "「含較高濃度鈣、鎂等礦物質的水」是「hard water」的用法，與本句語境不同。",
-        "hard-mcq-12": "「幾乎不／幾乎沒有」是「hardly」的用法，與本句語境不同。",
-        "hard-mcq-09": "「印在紙上的實體文件版本」是「hard copy」的用法，與本句語境不同。",
-        "hard-mcq-13": "「使物質由軟變硬或更加堅硬」是「harden — material」的用法，與本句語境不同。",
-        "hard-mcq-08": "「酒精濃度高的烈酒」是「hard liquor」的用法，與本句語境不同。"
+        "hard-mcq-11": "本句的「hard g」指「c 或 g 發 /k/ 或 /g/ 的硬音」。",
+        "hard-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-11"
     },
@@ -1039,11 +947,9 @@ export default {
       "masked": "I could ____ hear him because the train was so noisy.",
       "options": [
         "hard-mcq-12",
-        "hard-mcq-11",
         "hard-mcq-13",
-        "hard-mcq-10",
-        "hard-mcq-14",
-        "hard-mcq-09"
+        "hard-mcq-08",
+        "hard-mcq-06"
       ],
       "explanation": "本句的「hardly」指「幾乎不／幾乎沒有」。",
       "sentenceIndex": 0,
@@ -1052,12 +958,10 @@ export default {
         "hardly"
       ],
       "optionReasons": {
-        "hard-mcq-12": "本句指「幾乎不／幾乎沒有」。",
-        "hard-mcq-11": "「c 或 g 發 /k/ 或 /g/ 的硬音」是「hard c/g」的用法，與本句語境不同。",
-        "hard-mcq-13": "「使物質由軟變硬或更加堅硬」是「harden — material」的用法，與本句語境不同。",
-        "hard-mcq-10": "「含較高濃度鈣、鎂等礦物質的水」是「hard water」的用法，與本句語境不同。",
-        "hard-mcq-14": "「令態度／感情變得更強硬或冷淡」是「harden — attitude」的用法，與本句語境不同。",
-        "hard-mcq-09": "「印在紙上的實體文件版本」是「hard copy」的用法，與本句語境不同。"
+        "hard-mcq-12": "本句的「hardly」指「幾乎不／幾乎沒有」。",
+        "hard-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-12"
     },
@@ -1069,11 +973,9 @@ export default {
       "masked": "There was ____ any space left.",
       "options": [
         "hard-mcq-12",
+        "hard-mcq-04",
         "hard-mcq-11",
-        "hard-mcq-13",
-        "hard-mcq-10",
-        "hard-mcq-14",
-        "hard-mcq-09"
+        "hard-mcq-01"
       ],
       "explanation": "本句的「hardly」指「幾乎不／幾乎沒有」。",
       "sentenceIndex": 1,
@@ -1082,12 +984,10 @@ export default {
         "hardly"
       ],
       "optionReasons": {
-        "hard-mcq-12": "本句指「幾乎不／幾乎沒有」。",
-        "hard-mcq-11": "「c 或 g 發 /k/ 或 /g/ 的硬音」是「hard c/g」的用法，與本句語境不同。",
-        "hard-mcq-13": "「使物質由軟變硬或更加堅硬」是「harden — material」的用法，與本句語境不同。",
-        "hard-mcq-10": "「含較高濃度鈣、鎂等礦物質的水」是「hard water」的用法，與本句語境不同。",
-        "hard-mcq-14": "「令態度／感情變得更強硬或冷淡」是「harden — attitude」的用法，與本句語境不同。",
-        "hard-mcq-09": "「印在紙上的實體文件版本」是「hard copy」的用法，與本句語境不同。"
+        "hard-mcq-12": "本句的「hardly」指「幾乎不／幾乎沒有」。",
+        "hard-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-12"
     },
@@ -1099,11 +999,9 @@ export default {
       "masked": "The paint will ____ overnight.",
       "options": [
         "hard-mcq-13",
-        "hard-mcq-12",
-        "hard-mcq-14",
-        "hard-mcq-11",
-        "hard-mcq-15",
-        "hard-mcq-10"
+        "hard-mcq-07",
+        "hard-mcq-02",
+        "hard-mcq-12"
       ],
       "explanation": "本句的「harden」指「使物質由軟變硬或更加堅硬」。",
       "sentenceIndex": 0,
@@ -1112,12 +1010,10 @@ export default {
         "harden"
       ],
       "optionReasons": {
-        "hard-mcq-13": "本句指「使物質由軟變硬或更加堅硬」。",
-        "hard-mcq-12": "「幾乎不／幾乎沒有」是「hardly」的用法，與本句語境不同。",
-        "hard-mcq-14": "「令態度／感情變得更強硬或冷淡」是「harden — attitude」的用法，與本句語境不同。",
-        "hard-mcq-11": "「c 或 g 發 /k/ 或 /g/ 的硬音」是「hard c/g」的用法，與本句語境不同。",
-        "hard-mcq-15": "「物料抵抗刮損、壓力或變形的程度」是「hardness」的用法，與本句語境不同。",
-        "hard-mcq-10": "「含較高濃度鈣、鎂等礦物質的水」是「hard water」的用法，與本句語境不同。"
+        "hard-mcq-13": "本句的「harden」指「使物質由軟變硬或更加堅硬」。",
+        "hard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-13"
     },
@@ -1129,11 +1025,9 @@ export default {
       "masked": "Heat can ____ some materials.",
       "options": [
         "hard-mcq-13",
-        "hard-mcq-12",
-        "hard-mcq-14",
-        "hard-mcq-11",
-        "hard-mcq-15",
-        "hard-mcq-10"
+        "hard-mcq-04",
+        "hard-mcq-02",
+        "hard-mcq-09"
       ],
       "explanation": "本句的「harden」指「使物質由軟變硬或更加堅硬」。",
       "sentenceIndex": 1,
@@ -1142,12 +1036,10 @@ export default {
         "harden"
       ],
       "optionReasons": {
-        "hard-mcq-13": "本句指「使物質由軟變硬或更加堅硬」。",
-        "hard-mcq-12": "「幾乎不／幾乎沒有」是「hardly」的用法，與本句語境不同。",
-        "hard-mcq-14": "「令態度／感情變得更強硬或冷淡」是「harden — attitude」的用法，與本句語境不同。",
-        "hard-mcq-11": "「c 或 g 發 /k/ 或 /g/ 的硬音」是「hard c/g」的用法，與本句語境不同。",
-        "hard-mcq-15": "「物料抵抗刮損、壓力或變形的程度」是「hardness」的用法，與本句語境不同。",
-        "hard-mcq-10": "「含較高濃度鈣、鎂等礦物質的水」是「hard water」的用法，與本句語境不同。"
+        "hard-mcq-13": "本句的「harden」指「使物質由軟變硬或更加堅硬」。",
+        "hard-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-13"
     },
@@ -1159,11 +1051,9 @@ export default {
       "masked": "His attitude ____ after several failed negotiations.",
       "options": [
         "hard-mcq-14",
-        "hard-mcq-13",
-        "hard-mcq-15",
-        "hard-mcq-12",
-        "hard-mcq-11",
-        "hard-mcq-10"
+        "hard-mcq-09",
+        "hard-mcq-07",
+        "hard-mcq-01"
       ],
       "explanation": "本句的「hardened」指「令態度／感情變得更強硬或冷淡」。",
       "sentenceIndex": 0,
@@ -1172,12 +1062,10 @@ export default {
         "hardened"
       ],
       "optionReasons": {
-        "hard-mcq-14": "本句指「令態度／感情變得更強硬或冷淡」。",
-        "hard-mcq-13": "「使物質由軟變硬或更加堅硬」是「harden — material」的用法，與本句語境不同。",
-        "hard-mcq-15": "「物料抵抗刮損、壓力或變形的程度」是「hardness」的用法，與本句語境不同。",
-        "hard-mcq-12": "「幾乎不／幾乎沒有」是「hardly」的用法，與本句語境不同。",
-        "hard-mcq-11": "「c 或 g 發 /k/ 或 /g/ 的硬音」是「hard c/g」的用法，與本句語境不同。",
-        "hard-mcq-10": "「含較高濃度鈣、鎂等礦物質的水」是「hard water」的用法，與本句語境不同。"
+        "hard-mcq-14": "本句的「hardened」指「令態度／感情變得更強硬或冷淡」。",
+        "hard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-14"
     },
@@ -1189,11 +1077,9 @@ export default {
       "masked": "Years of conflict had ____ her.",
       "options": [
         "hard-mcq-14",
-        "hard-mcq-13",
-        "hard-mcq-15",
         "hard-mcq-12",
-        "hard-mcq-11",
-        "hard-mcq-10"
+        "hard-mcq-01",
+        "hard-mcq-09"
       ],
       "explanation": "本句的「hardened」指「令態度／感情變得更強硬或冷淡」。",
       "sentenceIndex": 1,
@@ -1202,12 +1088,10 @@ export default {
         "hardened"
       ],
       "optionReasons": {
-        "hard-mcq-14": "本句指「令態度／感情變得更強硬或冷淡」。",
-        "hard-mcq-13": "「使物質由軟變硬或更加堅硬」是「harden — material」的用法，與本句語境不同。",
-        "hard-mcq-15": "「物料抵抗刮損、壓力或變形的程度」是「hardness」的用法，與本句語境不同。",
-        "hard-mcq-12": "「幾乎不／幾乎沒有」是「hardly」的用法，與本句語境不同。",
-        "hard-mcq-11": "「c 或 g 發 /k/ 或 /g/ 的硬音」是「hard c/g」的用法，與本句語境不同。",
-        "hard-mcq-10": "「含較高濃度鈣、鎂等礦物質的水」是「hard water」的用法，與本句語境不同。"
+        "hard-mcq-14": "本句的「hardened」指「令態度／感情變得更強硬或冷淡」。",
+        "hard-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-14"
     },
@@ -1219,11 +1103,9 @@ export default {
       "masked": "Scientists tested the ____ of the material.",
       "options": [
         "hard-mcq-15",
-        "hard-mcq-14",
-        "hard-mcq-13",
         "hard-mcq-12",
         "hard-mcq-11",
-        "hard-mcq-10"
+        "hard-mcq-04"
       ],
       "explanation": "本句的「hardness」指「物料抵抗刮損、壓力或變形的程度」。",
       "sentenceIndex": 0,
@@ -1232,12 +1114,10 @@ export default {
         "hardness"
       ],
       "optionReasons": {
-        "hard-mcq-15": "本句指「物料抵抗刮損、壓力或變形的程度」。",
-        "hard-mcq-14": "「令態度／感情變得更強硬或冷淡」是「harden — attitude」的用法，與本句語境不同。",
-        "hard-mcq-13": "「使物質由軟變硬或更加堅硬」是「harden — material」的用法，與本句語境不同。",
-        "hard-mcq-12": "「幾乎不／幾乎沒有」是「hardly」的用法，與本句語境不同。",
-        "hard-mcq-11": "「c 或 g 發 /k/ 或 /g/ 的硬音」是「hard c/g」的用法，與本句語境不同。",
-        "hard-mcq-10": "「含較高濃度鈣、鎂等礦物質的水」是「hard water」的用法，與本句語境不同。"
+        "hard-mcq-15": "本句的「hardness」指「物料抵抗刮損、壓力或變形的程度」。",
+        "hard-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-15"
     },
@@ -1249,11 +1129,9 @@ export default {
       "masked": "Diamond is known for its exceptional ____.",
       "options": [
         "hard-mcq-15",
-        "hard-mcq-14",
-        "hard-mcq-13",
-        "hard-mcq-12",
-        "hard-mcq-11",
-        "hard-mcq-10"
+        "hard-mcq-04",
+        "hard-mcq-07",
+        "hard-mcq-11"
       ],
       "explanation": "本句的「hardness」指「物料抵抗刮損、壓力或變形的程度」。",
       "sentenceIndex": 1,
@@ -1262,12 +1140,10 @@ export default {
         "hardness"
       ],
       "optionReasons": {
-        "hard-mcq-15": "本句指「物料抵抗刮損、壓力或變形的程度」。",
-        "hard-mcq-14": "「令態度／感情變得更強硬或冷淡」是「harden — attitude」的用法，與本句語境不同。",
-        "hard-mcq-13": "「使物質由軟變硬或更加堅硬」是「harden — material」的用法，與本句語境不同。",
-        "hard-mcq-12": "「幾乎不／幾乎沒有」是「hardly」的用法，與本句語境不同。",
-        "hard-mcq-11": "「c 或 g 發 /k/ 或 /g/ 的硬音」是「hard c/g」的用法，與本句語境不同。",
-        "hard-mcq-10": "「含較高濃度鈣、鎂等礦物質的水」是「hard water」的用法，與本句語境不同。"
+        "hard-mcq-15": "本句的「hardness」指「物料抵抗刮損、壓力或變形的程度」。",
+        "hard-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hard-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hard-mcq-15"
     }
@@ -1280,5 +1156,7 @@ export default {
     "pages": 10,
     "sha256": "213105cfc9f6953323bc4f37a538b2e1cc6af098ee20406d67805742c96006fd"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

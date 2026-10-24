@@ -130,10 +130,7 @@ export default {
       "masked": "Mr. Wong is a retired ____.",
       "options": [
         "radio-mcq-01",
-        "radio-mcq-02",
-        "radio-mcq-03",
-        "radio-mcq-04",
-        "radio-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「radio journalist」指「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」。",
       "sentenceIndex": 0,
@@ -142,11 +139,8 @@ export default {
         "radio journalist"
       ],
       "optionReasons": {
-        "radio-mcq-01": "本句指「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」。",
-        "radio-mcq-02": "「用來接收及播放無線電廣播訊號的實體電子設備；收音機」是「a radio — receiver」的用法，與本句語境不同。",
-        "radio-mcq-03": "「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」是「radio — communication」的用法，與本句語境不同。",
-        "radio-mcq-04": "「與無線電波、無線電訊號及利用它們運作的技術有關」是「radio — waves/technology」的用法，與本句語境不同。",
-        "radio-mcq-05": "「使用無線電設備與某人聯絡或傳送訊息」是「radio — verb」的用法，與本句語境不同。"
+        "radio-mcq-01": "本句的「radio journalist」指「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "radio-mcq-01"
     },
@@ -158,10 +152,7 @@ export default {
       "masked": "She began her career in ____ before moving into television.",
       "options": [
         "radio-mcq-01",
-        "radio-mcq-02",
-        "radio-mcq-03",
-        "radio-mcq-04",
-        "radio-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「radio」指「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」。",
       "sentenceIndex": 1,
@@ -170,11 +161,8 @@ export default {
         "radio"
       ],
       "optionReasons": {
-        "radio-mcq-01": "本句指「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」。",
-        "radio-mcq-02": "「用來接收及播放無線電廣播訊號的實體電子設備；收音機」是「a radio — receiver」的用法，與本句語境不同。",
-        "radio-mcq-03": "「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」是「radio — communication」的用法，與本句語境不同。",
-        "radio-mcq-04": "「與無線電波、無線電訊號及利用它們運作的技術有關」是「radio — waves/technology」的用法，與本句語境不同。",
-        "radio-mcq-05": "「使用無線電設備與某人聯絡或傳送訊息」是「radio — verb」的用法，與本句語境不同。"
+        "radio-mcq-01": "本句的「radio」指「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "radio-mcq-01"
     },
@@ -186,10 +174,7 @@ export default {
       "masked": "The interview was broadcast live on ____.",
       "options": [
         "radio-mcq-01",
-        "radio-mcq-02",
-        "radio-mcq-03",
-        "radio-mcq-04",
-        "radio-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「radio」指「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」。",
       "sentenceIndex": 2,
@@ -198,11 +183,8 @@ export default {
         "radio"
       ],
       "optionReasons": {
-        "radio-mcq-01": "本句指「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」。",
-        "radio-mcq-02": "「用來接收及播放無線電廣播訊號的實體電子設備；收音機」是「a radio — receiver」的用法，與本句語境不同。",
-        "radio-mcq-03": "「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」是「radio — communication」的用法，與本句語境不同。",
-        "radio-mcq-04": "「與無線電波、無線電訊號及利用它們運作的技術有關」是「radio — waves/technology」的用法，與本句語境不同。",
-        "radio-mcq-05": "「使用無線電設備與某人聯絡或傳送訊息」是「radio — verb」的用法，與本句語境不同。"
+        "radio-mcq-01": "本句的「radio」指「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "radio-mcq-01"
     },
@@ -214,10 +196,7 @@ export default {
       "masked": "There was an old ____ on the kitchen shelf.",
       "options": [
         "radio-mcq-02",
-        "radio-mcq-01",
-        "radio-mcq-03",
-        "radio-mcq-04",
-        "radio-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「radio」指「用來接收及播放無線電廣播訊號的實體電子設備；收音機」。",
       "sentenceIndex": 3,
@@ -226,11 +205,8 @@ export default {
         "radio"
       ],
       "optionReasons": {
-        "radio-mcq-02": "本句指「用來接收及播放無線電廣播訊號的實體電子設備；收音機」。",
-        "radio-mcq-01": "「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」是「radio — broadcasting medium」的用法，與本句語境不同。",
-        "radio-mcq-03": "「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」是「radio — communication」的用法，與本句語境不同。",
-        "radio-mcq-04": "「與無線電波、無線電訊號及利用它們運作的技術有關」是「radio — waves/technology」的用法，與本句語境不同。",
-        "radio-mcq-05": "「使用無線電設備與某人聯絡或傳送訊息」是「radio — verb」的用法，與本句語境不同。"
+        "radio-mcq-02": "本句的「radio」指「用來接收及播放無線電廣播訊號的實體電子設備；收音機」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "radio-mcq-02"
     },
@@ -242,10 +218,7 @@ export default {
       "masked": "He turned on the ____ to listen to the news.",
       "options": [
         "radio-mcq-02",
-        "radio-mcq-01",
-        "radio-mcq-03",
-        "radio-mcq-04",
-        "radio-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「radio」指「用來接收及播放無線電廣播訊號的實體電子設備；收音機」。",
       "sentenceIndex": 4,
@@ -254,11 +227,8 @@ export default {
         "radio"
       ],
       "optionReasons": {
-        "radio-mcq-02": "本句指「用來接收及播放無線電廣播訊號的實體電子設備；收音機」。",
-        "radio-mcq-01": "「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」是「radio — broadcasting medium」的用法，與本句語境不同。",
-        "radio-mcq-03": "「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」是「radio — communication」的用法，與本句語境不同。",
-        "radio-mcq-04": "「與無線電波、無線電訊號及利用它們運作的技術有關」是「radio — waves/technology」的用法，與本句語境不同。",
-        "radio-mcq-05": "「使用無線電設備與某人聯絡或傳送訊息」是「radio — verb」的用法，與本句語境不同。"
+        "radio-mcq-02": "本句的「radio」指「用來接收及播放無線電廣播訊號的實體電子設備；收音機」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "radio-mcq-02"
     },
@@ -270,10 +240,7 @@ export default {
       "masked": "The pilots remained in contact by ____.",
       "options": [
         "radio-mcq-03",
-        "radio-mcq-02",
-        "radio-mcq-04",
-        "radio-mcq-01",
-        "radio-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「radio」指「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」。",
       "sentenceIndex": 5,
@@ -282,11 +249,8 @@ export default {
         "radio"
       ],
       "optionReasons": {
-        "radio-mcq-03": "本句指「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」。",
-        "radio-mcq-02": "「用來接收及播放無線電廣播訊號的實體電子設備；收音機」是「a radio — receiver」的用法，與本句語境不同。",
-        "radio-mcq-04": "「與無線電波、無線電訊號及利用它們運作的技術有關」是「radio — waves/technology」的用法，與本句語境不同。",
-        "radio-mcq-01": "「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」是「radio — broadcasting medium」的用法，與本句語境不同。",
-        "radio-mcq-05": "「使用無線電設備與某人聯絡或傳送訊息」是「radio — verb」的用法，與本句語境不同。"
+        "radio-mcq-03": "本句的「radio」指「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "radio-mcq-03"
     },
@@ -298,10 +262,7 @@ export default {
       "masked": "The rescue team communicated with the base by ____.",
       "options": [
         "radio-mcq-03",
-        "radio-mcq-02",
-        "radio-mcq-04",
-        "radio-mcq-01",
-        "radio-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「radio」指「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」。",
       "sentenceIndex": 6,
@@ -310,11 +271,8 @@ export default {
         "radio"
       ],
       "optionReasons": {
-        "radio-mcq-03": "本句指「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」。",
-        "radio-mcq-02": "「用來接收及播放無線電廣播訊號的實體電子設備；收音機」是「a radio — receiver」的用法，與本句語境不同。",
-        "radio-mcq-04": "「與無線電波、無線電訊號及利用它們運作的技術有關」是「radio — waves/technology」的用法，與本句語境不同。",
-        "radio-mcq-01": "「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」是「radio — broadcasting medium」的用法，與本句語境不同。",
-        "radio-mcq-05": "「使用無線電設備與某人聯絡或傳送訊息」是「radio — verb」的用法，與本句語境不同。"
+        "radio-mcq-03": "本句的「radio」指「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "radio-mcq-03"
     },
@@ -326,10 +284,7 @@ export default {
       "masked": "The telescope detects ____ from space.",
       "options": [
         "radio-mcq-04",
-        "radio-mcq-03",
-        "radio-mcq-05",
-        "radio-mcq-02",
-        "radio-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「radio signals」指「與無線電波、無線電訊號及利用它們運作的技術有關」。",
       "sentenceIndex": 7,
@@ -338,11 +293,8 @@ export default {
         "radio signals"
       ],
       "optionReasons": {
-        "radio-mcq-04": "本句指「與無線電波、無線電訊號及利用它們運作的技術有關」。",
-        "radio-mcq-03": "「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」是「radio — communication」的用法，與本句語境不同。",
-        "radio-mcq-05": "「使用無線電設備與某人聯絡或傳送訊息」是「radio — verb」的用法，與本句語境不同。",
-        "radio-mcq-02": "「用來接收及播放無線電廣播訊號的實體電子設備；收音機」是「a radio — receiver」的用法，與本句語境不同。",
-        "radio-mcq-01": "「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」是「radio — broadcasting medium」的用法，與本句語境不同。"
+        "radio-mcq-04": "本句的「radio signals」指「與無線電波、無線電訊號及利用它們運作的技術有關」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "radio-mcq-04"
     },
@@ -354,10 +306,7 @@ export default {
       "masked": "Scientists use ____ to study distant objects in space.",
       "options": [
         "radio-mcq-04",
-        "radio-mcq-03",
-        "radio-mcq-05",
-        "radio-mcq-02",
-        "radio-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「radio waves」指「與無線電波、無線電訊號及利用它們運作的技術有關」。",
       "sentenceIndex": 8,
@@ -366,11 +315,8 @@ export default {
         "radio waves"
       ],
       "optionReasons": {
-        "radio-mcq-04": "本句指「與無線電波、無線電訊號及利用它們運作的技術有關」。",
-        "radio-mcq-03": "「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」是「radio — communication」的用法，與本句語境不同。",
-        "radio-mcq-05": "「使用無線電設備與某人聯絡或傳送訊息」是「radio — verb」的用法，與本句語境不同。",
-        "radio-mcq-02": "「用來接收及播放無線電廣播訊號的實體電子設備；收音機」是「a radio — receiver」的用法，與本句語境不同。",
-        "radio-mcq-01": "「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」是「radio — broadcasting medium」的用法，與本句語境不同。"
+        "radio-mcq-04": "本句的「radio waves」指「與無線電波、無線電訊號及利用它們運作的技術有關」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "radio-mcq-04"
     },
@@ -382,10 +328,7 @@ export default {
       "masked": "The captain ____ the coastguard for help.",
       "options": [
         "radio-mcq-05",
-        "radio-mcq-04",
-        "radio-mcq-03",
-        "radio-mcq-02",
-        "radio-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「radioed」指「使用無線電設備與某人聯絡或傳送訊息」。",
       "sentenceIndex": 9,
@@ -394,11 +337,8 @@ export default {
         "radioed"
       ],
       "optionReasons": {
-        "radio-mcq-05": "本句指「使用無線電設備與某人聯絡或傳送訊息」。",
-        "radio-mcq-04": "「與無線電波、無線電訊號及利用它們運作的技術有關」是「radio — waves/technology」的用法，與本句語境不同。",
-        "radio-mcq-03": "「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」是「radio — communication」的用法，與本句語境不同。",
-        "radio-mcq-02": "「用來接收及播放無線電廣播訊號的實體電子設備；收音機」是「a radio — receiver」的用法，與本句語境不同。",
-        "radio-mcq-01": "「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」是「radio — broadcasting medium」的用法，與本句語境不同。"
+        "radio-mcq-05": "本句的「radioed」指「使用無線電設備與某人聯絡或傳送訊息」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "radio-mcq-05"
     },
@@ -410,10 +350,7 @@ export default {
       "masked": "The pilot ____ the control tower before landing.",
       "options": [
         "radio-mcq-05",
-        "radio-mcq-04",
-        "radio-mcq-03",
-        "radio-mcq-02",
-        "radio-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「radioed」指「使用無線電設備與某人聯絡或傳送訊息」。",
       "sentenceIndex": 10,
@@ -422,11 +359,8 @@ export default {
         "radioed"
       ],
       "optionReasons": {
-        "radio-mcq-05": "本句指「使用無線電設備與某人聯絡或傳送訊息」。",
-        "radio-mcq-04": "「與無線電波、無線電訊號及利用它們運作的技術有關」是「radio — waves/technology」的用法，與本句語境不同。",
-        "radio-mcq-03": "「利用無線電訊號在不同地點或人員之間傳送語音或資訊的通訊方式」是「radio — communication」的用法，與本句語境不同。",
-        "radio-mcq-02": "「用來接收及播放無線電廣播訊號的實體電子設備；收音機」是「a radio — receiver」的用法，與本句語境不同。",
-        "radio-mcq-01": "「透過無線電波向公眾播送新聞、音樂、訪問及其他聲音節目的廣播媒體」是「radio — broadcasting medium」的用法，與本句語境不同。"
+        "radio-mcq-05": "本句的「radioed」指「使用無線電設備與某人聯絡或傳送訊息」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "radio-mcq-05"
     }
@@ -438,5 +372,12 @@ export default {
     "sha256": "ef872d7b50cb0f9a5e6822898bca200729226cd16ffeefdb62766d334af36618",
     "pages": 9
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

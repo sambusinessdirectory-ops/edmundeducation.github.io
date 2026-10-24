@@ -196,16 +196,6 @@ export default {
           "The technology aims to turn back the clock on some signs of ageing.",
           "這項技術希望可以在某些老化跡象上逆轉時間帶來的影響。",
           "讓時間倒流"
-        ],
-        [
-          "Remember to put the clocks back this weekend.",
-          "記得這個週末把時鐘撥慢。",
-          "讓時間倒流"
-        ],
-        [
-          "We put the clocks forward by one hour.",
-          "我們把時鐘撥快一小時。",
-          "讓時間倒流"
         ]
       ],
       "options": [],
@@ -241,16 +231,6 @@ export default {
       "zh": "測得 X 速度",
       "note": "來源詞義：測得 X 速度",
       "examples": [
-        [
-          "The runner was clocked at 11 seconds.",
-          "那名跑手的成績被計為十一秒。",
-          "測得 X 速度"
-        ],
-        [
-          "I clocked her at just under a minute.",
-          "我計到她用了不到一分鐘。",
-          "測得 X 速度"
-        ],
         [
           "The car was clocked at 120 kilometres per hour.",
           "那輛車被測得時速一百二十公里。",
@@ -636,6 +616,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "clock-reviewed-ff8f740ac1",
+      "title": "把時鐘撥快／撥慢",
+      "form": "clock · source section 11",
+      "en": "把時鐘撥快／撥慢",
+      "zh": "把時鐘撥快／撥慢",
+      "note": "對照原始教材第 11 節及例句核實。",
+      "examples": [
+        [
+          "Remember to put the clocks back this weekend.",
+          "記得這個週末把時鐘撥慢。",
+          "把時鐘撥快／撥慢"
+        ],
+        [
+          "We put the clocks forward by one hour.",
+          "我們把時鐘撥快一小時。",
+          "把時鐘撥快／撥慢"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "clock-reviewed-233e854ef1",
+      "title": "測量並記錄某人用了 X 時間",
+      "form": "clock · source section 13",
+      "en": "測量並記錄某人用了 X 時間",
+      "zh": "測量並記錄某人用了 X 時間",
+      "note": "對照原始教材第 13 節及例句核實。",
+      "examples": [
+        [
+          "The runner was clocked at 11 seconds.",
+          "那名跑手的成績被計為十一秒。",
+          "測量並記錄某人用了 X 時間"
+        ],
+        [
+          "I clocked her at just under a minute.",
+          "我計到她用了不到一分鐘。",
+          "測量並記錄某人用了 X 時間"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -647,11 +671,9 @@ export default {
       "masked": "There's a ____ on the wall.",
       "options": [
         "clock-mcq-01",
-        "clock-mcq-02",
-        "clock-mcq-03",
-        "clock-mcq-04",
-        "clock-mcq-05",
-        "clock-mcq-06"
+        "clock-mcq-15",
+        "clock-mcq-24",
+        "clock-mcq-07"
       ],
       "explanation": "本句的「clock」指「時鐘」。",
       "sentenceIndex": 0,
@@ -660,12 +682,10 @@ export default {
         "clock"
       ],
       "optionReasons": {
-        "clock-mcq-01": "本句指「時鐘」。",
-        "clock-mcq-02": "「鬧鐘」與本句語境不同。",
-        "clock-mcq-03": "「爭分奪秒」與本句語境不同。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。"
+        "clock-mcq-01": "本句的「clock」指「時鐘」。",
+        "clock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-01"
     },
@@ -677,11 +697,9 @@ export default {
       "masked": "I looked at the ____ and realised I was late.",
       "options": [
         "clock-mcq-01",
-        "clock-mcq-02",
-        "clock-mcq-03",
-        "clock-mcq-04",
-        "clock-mcq-05",
-        "clock-mcq-06"
+        "clock-mcq-12",
+        "clock-mcq-11",
+        "clock-mcq-10"
       ],
       "explanation": "本句的「clock」指「時鐘」。",
       "sentenceIndex": 1,
@@ -690,12 +708,10 @@ export default {
         "clock"
       ],
       "optionReasons": {
-        "clock-mcq-01": "本句指「時鐘」。",
-        "clock-mcq-02": "「鬧鐘」與本句語境不同。",
-        "clock-mcq-03": "「爭分奪秒」與本句語境不同。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。"
+        "clock-mcq-01": "本句的「clock」指「時鐘」。",
+        "clock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-01"
     },
@@ -707,11 +723,9 @@ export default {
       "masked": "The ____ stopped at midnight.",
       "options": [
         "clock-mcq-01",
-        "clock-mcq-02",
+        "clock-mcq-15",
         "clock-mcq-03",
-        "clock-mcq-04",
-        "clock-mcq-05",
-        "clock-mcq-06"
+        "clock-mcq-10"
       ],
       "explanation": "本句的「clock」指「時鐘」。",
       "sentenceIndex": 2,
@@ -720,12 +734,10 @@ export default {
         "clock"
       ],
       "optionReasons": {
-        "clock-mcq-01": "本句指「時鐘」。",
-        "clock-mcq-02": "「鬧鐘」與本句語境不同。",
-        "clock-mcq-03": "「爭分奪秒」與本句語境不同。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。"
+        "clock-mcq-01": "本句的「clock」指「時鐘」。",
+        "clock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-01"
     },
@@ -737,11 +749,9 @@ export default {
       "masked": "My ____ goes off at seven every morning.",
       "options": [
         "clock-mcq-02",
-        "clock-mcq-01",
-        "clock-mcq-03",
-        "clock-mcq-04",
-        "clock-mcq-05",
-        "clock-mcq-06"
+        "clock-mcq-08",
+        "clock-mcq-07",
+        "clock-mcq-24"
       ],
       "explanation": "本句的「alarm clock」指「鬧鐘」。",
       "sentenceIndex": 3,
@@ -750,12 +760,10 @@ export default {
         "alarm clock"
       ],
       "optionReasons": {
-        "clock-mcq-02": "本句指「鬧鐘」。",
-        "clock-mcq-01": "「時鐘」與本句語境不同。",
-        "clock-mcq-03": "「爭分奪秒」與本句語境不同。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。"
+        "clock-mcq-02": "本句的「alarm clock」指「鬧鐘」。",
+        "clock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-02"
     },
@@ -767,11 +775,9 @@ export default {
       "masked": "I forgot to set my ____.",
       "options": [
         "clock-mcq-02",
-        "clock-mcq-01",
+        "clock-mcq-25",
         "clock-mcq-03",
-        "clock-mcq-04",
-        "clock-mcq-05",
-        "clock-mcq-06"
+        "clock-mcq-24"
       ],
       "explanation": "本句的「alarm clock」指「鬧鐘」。",
       "sentenceIndex": 4,
@@ -780,12 +786,10 @@ export default {
         "alarm clock"
       ],
       "optionReasons": {
-        "clock-mcq-02": "本句指「鬧鐘」。",
-        "clock-mcq-01": "「時鐘」與本句語境不同。",
-        "clock-mcq-03": "「爭分奪秒」與本句語境不同。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。"
+        "clock-mcq-02": "本句的「alarm clock」指「鬧鐘」。",
+        "clock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-02"
     },
@@ -797,11 +801,9 @@ export default {
       "masked": "I was always ____.",
       "options": [
         "clock-mcq-03",
-        "clock-mcq-02",
-        "clock-mcq-04",
-        "clock-mcq-01",
-        "clock-mcq-05",
-        "clock-mcq-06"
+        "clock-mcq-16",
+        "clock-mcq-15",
+        "clock-pdf-001"
       ],
       "explanation": "本句的「racing against the clock」指「爭分奪秒」。",
       "sentenceIndex": 7,
@@ -810,12 +812,10 @@ export default {
         "racing against the clock"
       ],
       "optionReasons": {
-        "clock-mcq-03": "本句指「爭分奪秒」。",
-        "clock-mcq-02": "「鬧鐘」與本句語境不同。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。",
-        "clock-mcq-01": "「時鐘」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。"
+        "clock-mcq-03": "本句的「racing against the clock」指「爭分奪秒」。",
+        "clock-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "clock-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-03"
     },
@@ -827,11 +827,9 @@ export default {
       "masked": "We were working ____ to finish the report.",
       "options": [
         "clock-mcq-03",
-        "clock-mcq-02",
-        "clock-mcq-04",
-        "clock-mcq-01",
-        "clock-mcq-05",
-        "clock-mcq-06"
+        "clock-mcq-24",
+        "clock-mcq-06",
+        "clock-mcq-23"
       ],
       "explanation": "本句的「against the clock」指「爭分奪秒」。",
       "sentenceIndex": 8,
@@ -840,12 +838,10 @@ export default {
         "against the clock"
       ],
       "optionReasons": {
-        "clock-mcq-03": "本句指「爭分奪秒」。",
-        "clock-mcq-02": "「鬧鐘」與本句語境不同。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。",
-        "clock-mcq-01": "「時鐘」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。"
+        "clock-mcq-03": "本句的「against the clock」指「爭分奪秒」。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-03"
     },
@@ -857,11 +853,9 @@ export default {
       "masked": "Doctors worked ____ to save him.",
       "options": [
         "clock-mcq-03",
-        "clock-mcq-02",
-        "clock-mcq-04",
-        "clock-mcq-01",
-        "clock-mcq-05",
-        "clock-mcq-06"
+        "clock-mcq-14",
+        "clock-mcq-08",
+        "clock-mcq-02"
       ],
       "explanation": "本句的「against the clock」指「爭分奪秒」。",
       "sentenceIndex": 9,
@@ -870,12 +864,10 @@ export default {
         "against the clock"
       ],
       "optionReasons": {
-        "clock-mcq-03": "本句指「爭分奪秒」。",
-        "clock-mcq-02": "「鬧鐘」與本句語境不同。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。",
-        "clock-mcq-01": "「時鐘」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。"
+        "clock-mcq-03": "本句的「against the clock」指「爭分奪秒」。",
+        "clock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-03"
     },
@@ -887,11 +879,9 @@ export default {
       "masked": "The team was ____ to meet the deadline.",
       "options": [
         "clock-mcq-04",
-        "clock-mcq-03",
-        "clock-mcq-05",
-        "clock-mcq-02",
-        "clock-mcq-06",
-        "clock-mcq-01"
+        "clock-mcq-12",
+        "clock-mcq-23",
+        "clock-mcq-11"
       ],
       "explanation": "本句的「racing against the clock」指「與時間競賽」。",
       "sentenceIndex": 10,
@@ -900,12 +890,10 @@ export default {
         "racing against the clock"
       ],
       "optionReasons": {
-        "clock-mcq-04": "本句指「與時間競賽」。",
-        "clock-mcq-03": "「爭分奪秒」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-02": "「鬧鐘」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。",
-        "clock-mcq-01": "「時鐘」與本句語境不同。"
+        "clock-mcq-04": "本句的「racing against the clock」指「與時間競賽」。",
+        "clock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-04"
     },
@@ -917,11 +905,9 @@ export default {
       "masked": "It became a ____.",
       "options": [
         "clock-mcq-04",
-        "clock-mcq-03",
-        "clock-mcq-05",
-        "clock-mcq-02",
-        "clock-mcq-06",
-        "clock-mcq-01"
+        "clock-mcq-12",
+        "clock-mcq-24",
+        "clock-mcq-11"
       ],
       "explanation": "本句的「race against the clock」指「與時間競賽」。",
       "sentenceIndex": 11,
@@ -930,12 +916,10 @@ export default {
         "race against the clock"
       ],
       "optionReasons": {
-        "clock-mcq-04": "本句指「與時間競賽」。",
-        "clock-mcq-03": "「爭分奪秒」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-02": "「鬧鐘」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。",
-        "clock-mcq-01": "「時鐘」與本句語境不同。"
+        "clock-mcq-04": "本句的「race against the clock」指「與時間競賽」。",
+        "clock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-04"
     },
@@ -947,11 +931,9 @@ export default {
       "masked": "____, so we need to decide soon.",
       "options": [
         "clock-mcq-05",
-        "clock-mcq-04",
-        "clock-mcq-06",
-        "clock-mcq-03",
-        "clock-mcq-07",
-        "clock-mcq-02"
+        "clock-mcq-13",
+        "clock-mcq-24",
+        "clock-mcq-03"
       ],
       "explanation": "本句的「The clock is ticking」指「時間正在倒數」。",
       "sentenceIndex": 12,
@@ -960,12 +942,10 @@ export default {
         "The clock is ticking"
       ],
       "optionReasons": {
-        "clock-mcq-05": "本句指「時間正在倒數」。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。",
-        "clock-mcq-03": "「爭分奪秒」與本句語境不同。",
-        "clock-mcq-07": "「晝夜不停」與本句語境不同。",
-        "clock-mcq-02": "「鬧鐘」與本句語境不同。"
+        "clock-mcq-05": "本句的「The clock is ticking」指「時間正在倒數」。",
+        "clock-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-05"
     },
@@ -977,11 +957,9 @@ export default {
       "masked": "With only two days left, ____.",
       "options": [
         "clock-mcq-05",
-        "clock-mcq-04",
-        "clock-mcq-06",
+        "clock-mcq-10",
         "clock-mcq-03",
-        "clock-mcq-07",
-        "clock-mcq-02"
+        "clock-mcq-11"
       ],
       "explanation": "本句的「the clock was ticking」指「時間正在倒數」。",
       "sentenceIndex": 13,
@@ -990,12 +968,10 @@ export default {
         "the clock was ticking"
       ],
       "optionReasons": {
-        "clock-mcq-05": "本句指「時間正在倒數」。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。",
-        "clock-mcq-03": "「爭分奪秒」與本句語境不同。",
-        "clock-mcq-07": "「晝夜不停」與本句語境不同。",
-        "clock-mcq-02": "「鬧鐘」與本句語境不同。"
+        "clock-mcq-05": "本句的「the clock was ticking」指「時間正在倒數」。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-05"
     },
@@ -1007,11 +983,9 @@ export default {
       "masked": "We ____ and submitted the assignment just before midnight.",
       "options": [
         "clock-mcq-06",
-        "clock-mcq-05",
-        "clock-mcq-07",
-        "clock-mcq-04",
-        "clock-mcq-08",
-        "clock-mcq-03"
+        "clock-mcq-13",
+        "clock-mcq-24",
+        "clock-mcq-10"
       ],
       "explanation": "本句的「beat the clock」指「趕及限時」。",
       "sentenceIndex": 14,
@@ -1020,12 +994,10 @@ export default {
         "beat the clock"
       ],
       "optionReasons": {
-        "clock-mcq-06": "本句指「趕及限時」。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-07": "「晝夜不停」與本句語境不同。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。",
-        "clock-mcq-08": "「讓時間倒流」與本句語境不同。",
-        "clock-mcq-03": "「爭分奪秒」與本句語境不同。"
+        "clock-mcq-06": "本句的「beat the clock」指「趕及限時」。",
+        "clock-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-06"
     },
@@ -1037,10 +1009,8 @@ export default {
       "masked": "She managed to ____.",
       "options": [
         "clock-mcq-06",
-        "clock-mcq-05",
-        "clock-mcq-07",
-        "clock-mcq-04",
-        "clock-mcq-08",
+        "clock-mcq-02",
+        "clock-mcq-13",
         "clock-mcq-03"
       ],
       "explanation": "本句的「beat the clock」指「趕及限時」。",
@@ -1050,12 +1020,10 @@ export default {
         "beat the clock"
       ],
       "optionReasons": {
-        "clock-mcq-06": "本句指「趕及限時」。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-07": "「晝夜不停」與本句語境不同。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。",
-        "clock-mcq-08": "「讓時間倒流」與本句語境不同。",
-        "clock-mcq-03": "「爭分奪秒」與本句語境不同。"
+        "clock-mcq-06": "本句的「beat the clock」指「趕及限時」。",
+        "clock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-06"
     },
@@ -1067,11 +1035,9 @@ export default {
       "masked": "The team worked ____.",
       "options": [
         "clock-mcq-07",
-        "clock-mcq-06",
-        "clock-mcq-08",
-        "clock-mcq-05",
-        "clock-mcq-09",
-        "clock-mcq-04"
+        "clock-mcq-20",
+        "clock-mcq-12",
+        "clock-mcq-10"
       ],
       "explanation": "本句的「around the clock」指「晝夜不停」。",
       "sentenceIndex": 16,
@@ -1080,12 +1046,10 @@ export default {
         "around the clock"
       ],
       "optionReasons": {
-        "clock-mcq-07": "本句指「晝夜不停」。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。",
-        "clock-mcq-08": "「讓時間倒流」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。"
+        "clock-mcq-07": "本句的「around the clock」指「晝夜不停」。",
+        "clock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-07"
     },
@@ -1097,11 +1061,9 @@ export default {
       "masked": "The hospital operates ____.",
       "options": [
         "clock-mcq-07",
-        "clock-mcq-06",
-        "clock-mcq-08",
-        "clock-mcq-05",
-        "clock-mcq-09",
-        "clock-mcq-04"
+        "clock-mcq-01",
+        "clock-mcq-12",
+        "clock-mcq-10"
       ],
       "explanation": "本句的「around the clock」指「晝夜不停」。",
       "sentenceIndex": 17,
@@ -1110,12 +1072,10 @@ export default {
         "around the clock"
       ],
       "optionReasons": {
-        "clock-mcq-07": "本句指「晝夜不停」。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。",
-        "clock-mcq-08": "「讓時間倒流」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。"
+        "clock-mcq-07": "本句的「around the clock」指「晝夜不停」。",
+        "clock-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-07"
     },
@@ -1127,11 +1087,9 @@ export default {
       "masked": "Engineers worked ____ to restore the service.",
       "options": [
         "clock-mcq-07",
-        "clock-mcq-06",
-        "clock-mcq-08",
-        "clock-mcq-05",
-        "clock-mcq-09",
-        "clock-mcq-04"
+        "clock-mcq-22",
+        "clock-mcq-03",
+        "clock-mcq-02"
       ],
       "explanation": "本句的「round the clock」指「晝夜不停」。",
       "sentenceIndex": 18,
@@ -1140,12 +1098,10 @@ export default {
         "round the clock"
       ],
       "optionReasons": {
-        "clock-mcq-07": "本句指「晝夜不停」。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。",
-        "clock-mcq-08": "「讓時間倒流」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。"
+        "clock-mcq-07": "本句的「round the clock」指「晝夜不停」。",
+        "clock-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-07"
     },
@@ -1157,11 +1113,9 @@ export default {
       "masked": "Security is provided ____.",
       "options": [
         "clock-mcq-07",
-        "clock-mcq-06",
-        "clock-mcq-08",
-        "clock-mcq-05",
-        "clock-mcq-09",
-        "clock-mcq-04"
+        "clock-mcq-03",
+        "clock-mcq-01",
+        "clock-mcq-11"
       ],
       "explanation": "本句的「round the clock」指「晝夜不停」。",
       "sentenceIndex": 19,
@@ -1170,12 +1124,10 @@ export default {
         "round the clock"
       ],
       "optionReasons": {
-        "clock-mcq-07": "本句指「晝夜不停」。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。",
-        "clock-mcq-08": "「讓時間倒流」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。",
-        "clock-mcq-04": "「與時間競賽」與本句語境不同。"
+        "clock-mcq-07": "本句的「round the clock」指「晝夜不停」。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-07"
     },
@@ -1187,11 +1139,9 @@ export default {
       "masked": "We can't ____.",
       "options": [
         "clock-mcq-08",
-        "clock-mcq-07",
-        "clock-mcq-09",
-        "clock-mcq-06",
         "clock-mcq-10",
-        "clock-mcq-05"
+        "clock-mcq-03",
+        "clock-mcq-15"
       ],
       "explanation": "本句的「turn back the clock」指「讓時間倒流」。",
       "sentenceIndex": 20,
@@ -1200,12 +1150,10 @@ export default {
         "turn back the clock"
       ],
       "optionReasons": {
-        "clock-mcq-08": "本句指「讓時間倒流」。",
-        "clock-mcq-07": "「晝夜不停」與本句語境不同。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。",
-        "clock-mcq-10": "「測得 X 速度」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。"
+        "clock-mcq-08": "本句的「turn back the clock」指「讓時間倒流」。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-08"
     },
@@ -1217,11 +1165,9 @@ export default {
       "masked": "The technology aims to ____ on some signs of ageing.",
       "options": [
         "clock-mcq-08",
-        "clock-mcq-07",
-        "clock-mcq-09",
-        "clock-mcq-06",
-        "clock-mcq-10",
-        "clock-mcq-05"
+        "clock-mcq-24",
+        "clock-mcq-11",
+        "clock-mcq-14"
       ],
       "explanation": "本句的「turn back the clock」指「讓時間倒流」。",
       "sentenceIndex": 21,
@@ -1230,74 +1176,68 @@ export default {
         "turn back the clock"
       ],
       "optionReasons": {
-        "clock-mcq-08": "本句指「讓時間倒流」。",
-        "clock-mcq-07": "「晝夜不停」與本句語境不同。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。",
-        "clock-mcq-10": "「測得 X 速度」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。"
+        "clock-mcq-08": "本句的「turn back the clock」指「讓時間倒流」。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-08"
     },
     {
       "id": "clock-11-0",
-      "sense": "clock-mcq-08",
+      "sense": "clock-reviewed-ff8f740ac1",
       "en": "Remember to put the clocks back this weekend.",
       "zh": "記得這個週末把時鐘撥慢。",
       "masked": "Remember to ____ this weekend.",
       "options": [
-        "clock-mcq-08",
+        "clock-reviewed-ff8f740ac1",
         "clock-mcq-07",
-        "clock-mcq-09",
-        "clock-mcq-06",
         "clock-mcq-10",
-        "clock-mcq-05"
+        "clock-mcq-15"
       ],
-      "explanation": "本句的「put the clocks back」指「讓時間倒流」。",
+      "explanation": "對照完整句子：「記得這個週末把時鐘撥慢。」。這裡的「put the clocks back」表示「把時鐘撥快／撥慢」。",
       "sentenceIndex": 22,
       "sourcePractice": 1,
       "targets": [
         "put the clocks back"
       ],
       "optionReasons": {
-        "clock-mcq-08": "本句指「讓時間倒流」。",
-        "clock-mcq-07": "「晝夜不停」與本句語境不同。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。",
-        "clock-mcq-10": "「測得 X 速度」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。"
+        "clock-reviewed-ff8f740ac1": "對照完整句子：「記得這個週末把時鐘撥慢。」。這裡的「put the clocks back」表示「把時鐘撥快／撥慢」。",
+        "clock-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "clock-mcq-08"
+      "correctOption": "clock-reviewed-ff8f740ac1",
+      "previousCorrectOption": "clock-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "clock-11-1",
-      "sense": "clock-mcq-08",
+      "sense": "clock-reviewed-ff8f740ac1",
       "en": "We put the clocks forward by one hour.",
       "zh": "我們把時鐘撥快一小時。",
       "masked": "We ____ by one hour.",
       "options": [
-        "clock-mcq-08",
-        "clock-mcq-07",
-        "clock-mcq-09",
-        "clock-mcq-06",
-        "clock-mcq-10",
-        "clock-mcq-05"
+        "clock-reviewed-ff8f740ac1",
+        "clock-mcq-15",
+        "clock-mcq-24",
+        "clock-mcq-10"
       ],
-      "explanation": "本句的「put the clocks forward」指「讓時間倒流」。",
+      "explanation": "對照完整句子：「我們把時鐘撥快一小時。」。這裡的「put the clocks forward」表示「把時鐘撥快／撥慢」。",
       "sentenceIndex": 23,
       "sourcePractice": 2,
       "targets": [
         "put the clocks forward"
       ],
       "optionReasons": {
-        "clock-mcq-08": "本句指「讓時間倒流」。",
-        "clock-mcq-07": "「晝夜不停」與本句語境不同。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。",
-        "clock-mcq-10": "「測得 X 速度」與本句語境不同。",
-        "clock-mcq-05": "「時間正在倒數」與本句語境不同。"
+        "clock-reviewed-ff8f740ac1": "對照完整句子：「我們把時鐘撥快一小時。」。這裡的「put the clocks forward」表示「把時鐘撥快／撥慢」。",
+        "clock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "clock-mcq-08"
+      "correctOption": "clock-reviewed-ff8f740ac1",
+      "previousCorrectOption": "clock-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "clock-12-0",
@@ -1307,11 +1247,9 @@ export default {
       "masked": "She ____ the fastest time in the race.",
       "options": [
         "clock-mcq-09",
-        "clock-mcq-08",
-        "clock-mcq-10",
-        "clock-mcq-07",
         "clock-mcq-11",
-        "clock-mcq-06"
+        "clock-mcq-02",
+        "clock-mcq-24"
       ],
       "explanation": "本句的「clocked」指「錄得時間」。",
       "sentenceIndex": 24,
@@ -1320,12 +1258,10 @@ export default {
         "clocked"
       ],
       "optionReasons": {
-        "clock-mcq-09": "本句指「錄得時間」。",
-        "clock-mcq-08": "「讓時間倒流」與本句語境不同。",
-        "clock-mcq-10": "「測得 X 速度」與本句語境不同。",
-        "clock-mcq-07": "「晝夜不停」與本句語境不同。",
-        "clock-mcq-11": "「累積」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。"
+        "clock-mcq-09": "本句的「clocked」指「錄得時間」。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-09"
     },
@@ -1337,11 +1273,9 @@ export default {
       "masked": "He ____ 10.5 seconds.",
       "options": [
         "clock-mcq-09",
-        "clock-mcq-08",
-        "clock-mcq-10",
-        "clock-mcq-07",
-        "clock-mcq-11",
-        "clock-mcq-06"
+        "clock-mcq-23",
+        "clock-mcq-14",
+        "clock-mcq-03"
       ],
       "explanation": "本句的「clocked」指「錄得時間」。",
       "sentenceIndex": 25,
@@ -1350,74 +1284,68 @@ export default {
         "clocked"
       ],
       "optionReasons": {
-        "clock-mcq-09": "本句指「錄得時間」。",
-        "clock-mcq-08": "「讓時間倒流」與本句語境不同。",
-        "clock-mcq-10": "「測得 X 速度」與本句語境不同。",
-        "clock-mcq-07": "「晝夜不停」與本句語境不同。",
-        "clock-mcq-11": "「累積」與本句語境不同。",
-        "clock-mcq-06": "「趕及限時」與本句語境不同。"
+        "clock-mcq-09": "本句的「clocked」指「錄得時間」。",
+        "clock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-09"
     },
     {
       "id": "clock-13-0",
-      "sense": "clock-mcq-10",
+      "sense": "clock-reviewed-233e854ef1",
       "en": "The runner was clocked at 11 seconds.",
       "zh": "那名跑手的成績被計為十一秒。",
       "masked": "The runner was ____.",
       "options": [
-        "clock-mcq-10",
-        "clock-mcq-09",
+        "clock-reviewed-233e854ef1",
         "clock-mcq-11",
-        "clock-mcq-08",
-        "clock-mcq-12",
-        "clock-mcq-07"
+        "clock-mcq-07",
+        "clock-mcq-23"
       ],
-      "explanation": "本句的「clocked at 11 seconds」指「測得 X 速度」。",
+      "explanation": "對照完整句子：「那名跑手的成績被計為十一秒。」。這裡的「clocked at 11 seconds」表示「測量並記錄某人用了 X 時間」。",
       "sentenceIndex": 26,
       "sourcePractice": 1,
       "targets": [
         "clocked at 11 seconds"
       ],
       "optionReasons": {
-        "clock-mcq-10": "本句指「測得 X 速度」。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。",
-        "clock-mcq-11": "「累積」與本句語境不同。",
-        "clock-mcq-08": "「讓時間倒流」與本句語境不同。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-07": "「晝夜不停」與本句語境不同。"
+        "clock-reviewed-233e854ef1": "對照完整句子：「那名跑手的成績被計為十一秒。」。這裡的「clocked at 11 seconds」表示「測量並記錄某人用了 X 時間」。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "clock-mcq-10"
+      "correctOption": "clock-reviewed-233e854ef1",
+      "previousCorrectOption": "clock-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "clock-13-1",
-      "sense": "clock-mcq-10",
+      "sense": "clock-reviewed-233e854ef1",
       "en": "I clocked her at just under a minute.",
       "zh": "我計到她用了不到一分鐘。",
       "masked": "I ____.",
       "options": [
-        "clock-mcq-10",
-        "clock-mcq-09",
+        "clock-reviewed-233e854ef1",
+        "clock-mcq-07",
         "clock-mcq-11",
-        "clock-mcq-08",
-        "clock-mcq-12",
-        "clock-mcq-07"
+        "clock-mcq-13"
       ],
-      "explanation": "本句的「clocked her at just under a minute」指「測得 X 速度」。",
+      "explanation": "對照完整句子：「我計到她用了不到一分鐘。」。這裡的「clocked her at just under a minute」表示「測量並記錄某人用了 X 時間」。",
       "sentenceIndex": 27,
       "sourcePractice": 2,
       "targets": [
         "clocked her at just under a minute"
       ],
       "optionReasons": {
-        "clock-mcq-10": "本句指「測得 X 速度」。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。",
-        "clock-mcq-11": "「累積」與本句語境不同。",
-        "clock-mcq-08": "「讓時間倒流」與本句語境不同。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-07": "「晝夜不停」與本句語境不同。"
+        "clock-reviewed-233e854ef1": "對照完整句子：「我計到她用了不到一分鐘。」。這裡的「clocked her at just under a minute」表示「測量並記錄某人用了 X 時間」。",
+        "clock-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "clock-mcq-10"
+      "correctOption": "clock-reviewed-233e854ef1",
+      "previousCorrectOption": "clock-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "clock-14-0",
@@ -1427,11 +1355,9 @@ export default {
       "masked": "The car was ____.",
       "options": [
         "clock-mcq-10",
-        "clock-mcq-09",
-        "clock-mcq-11",
-        "clock-mcq-08",
         "clock-mcq-12",
-        "clock-mcq-07"
+        "clock-mcq-24",
+        "clock-mcq-17"
       ],
       "explanation": "本句的「clocked at 120 kilometres per hour」指「測得 X 速度」。",
       "sentenceIndex": 28,
@@ -1440,12 +1366,10 @@ export default {
         "clocked at 120 kilometres per hour"
       ],
       "optionReasons": {
-        "clock-mcq-10": "本句指「測得 X 速度」。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。",
-        "clock-mcq-11": "「累積」與本句語境不同。",
-        "clock-mcq-08": "「讓時間倒流」與本句語境不同。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-07": "「晝夜不停」與本句語境不同。"
+        "clock-mcq-10": "本句的「clocked at 120 kilometres per hour」指「測得 X 速度」。",
+        "clock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-10"
     },
@@ -1457,10 +1381,8 @@ export default {
       "masked": "Police ____ well above the speed limit.",
       "options": [
         "clock-mcq-10",
-        "clock-mcq-09",
+        "clock-mcq-06",
         "clock-mcq-11",
-        "clock-mcq-08",
-        "clock-mcq-12",
         "clock-mcq-07"
       ],
       "explanation": "本句的「clocked him at」指「測得 X 速度」。",
@@ -1470,12 +1392,10 @@ export default {
         "clocked him at"
       ],
       "optionReasons": {
-        "clock-mcq-10": "本句指「測得 X 速度」。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。",
-        "clock-mcq-11": "「累積」與本句語境不同。",
-        "clock-mcq-08": "「讓時間倒流」與本句語境不同。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-07": "「晝夜不停」與本句語境不同。"
+        "clock-mcq-10": "本句的「clocked him at」指「測得 X 速度」。",
+        "clock-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-10"
     },
@@ -1487,11 +1407,9 @@ export default {
       "masked": "She has ____ thousands of kilometres this year.",
       "options": [
         "clock-mcq-11",
-        "clock-mcq-10",
-        "clock-mcq-12",
-        "clock-mcq-09",
         "clock-mcq-13",
-        "clock-mcq-08"
+        "clock-mcq-16",
+        "clock-mcq-04"
       ],
       "explanation": "本句的「clocked up」指「累積」。",
       "sentenceIndex": 30,
@@ -1500,12 +1418,10 @@ export default {
         "clocked up"
       ],
       "optionReasons": {
-        "clock-mcq-11": "本句指「累積」。",
-        "clock-mcq-10": "「測得 X 速度」與本句語境不同。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。",
-        "clock-mcq-13": "「下班打卡」與本句語境不同。",
-        "clock-mcq-08": "「讓時間倒流」與本句語境不同。"
+        "clock-mcq-11": "本句的「clocked up」指「累積」。",
+        "clock-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-11"
     },
@@ -1517,11 +1433,9 @@ export default {
       "masked": "He ____ twenty years with the company.",
       "options": [
         "clock-mcq-11",
+        "clock-mcq-20",
         "clock-mcq-10",
-        "clock-mcq-12",
-        "clock-mcq-09",
-        "clock-mcq-13",
-        "clock-mcq-08"
+        "clock-mcq-15"
       ],
       "explanation": "本句的「clocked up」指「累積」。",
       "sentenceIndex": 31,
@@ -1530,12 +1444,10 @@ export default {
         "clocked up"
       ],
       "optionReasons": {
-        "clock-mcq-11": "本句指「累積」。",
-        "clock-mcq-10": "「測得 X 速度」與本句語境不同。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。",
-        "clock-mcq-13": "「下班打卡」與本句語境不同。",
-        "clock-mcq-08": "「讓時間倒流」與本句語境不同。"
+        "clock-mcq-11": "本句的「clocked up」指「累積」。",
+        "clock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-11"
     },
@@ -1547,11 +1459,9 @@ export default {
       "masked": "Employees must ____ before starting work.",
       "options": [
         "clock-mcq-12",
-        "clock-mcq-11",
-        "clock-mcq-13",
-        "clock-mcq-10",
-        "clock-mcq-14",
-        "clock-mcq-09"
+        "clock-mcq-21",
+        "clock-mcq-07",
+        "clock-mcq-02"
       ],
       "explanation": "本句的「clock in」指「上班打卡」。",
       "sentenceIndex": 32,
@@ -1560,12 +1470,10 @@ export default {
         "clock in"
       ],
       "optionReasons": {
-        "clock-mcq-12": "本句指「上班打卡」。",
-        "clock-mcq-11": "「累積」與本句語境不同。",
-        "clock-mcq-13": "「下班打卡」與本句語境不同。",
-        "clock-mcq-10": "「測得 X 速度」與本句語境不同。",
-        "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。"
+        "clock-mcq-12": "本句的「clock in」指「上班打卡」。",
+        "clock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-12"
     },
@@ -1577,11 +1485,9 @@ export default {
       "masked": "I ____ at eight thirty.",
       "options": [
         "clock-mcq-12",
-        "clock-mcq-11",
-        "clock-mcq-13",
-        "clock-mcq-10",
-        "clock-mcq-14",
-        "clock-mcq-09"
+        "clock-mcq-25",
+        "clock-mcq-16",
+        "clock-mcq-10"
       ],
       "explanation": "本句的「clocked in」指「上班打卡」。",
       "sentenceIndex": 33,
@@ -1590,12 +1496,10 @@ export default {
         "clocked in"
       ],
       "optionReasons": {
-        "clock-mcq-12": "本句指「上班打卡」。",
-        "clock-mcq-11": "「累積」與本句語境不同。",
-        "clock-mcq-13": "「下班打卡」與本句語境不同。",
-        "clock-mcq-10": "「測得 X 速度」與本句語境不同。",
-        "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
-        "clock-mcq-09": "「錄得時間」與本句語境不同。"
+        "clock-mcq-12": "本句的「clocked in」指「上班打卡」。",
+        "clock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-12"
     },
@@ -1607,11 +1511,9 @@ export default {
       "masked": "I ____ at six.",
       "options": [
         "clock-mcq-13",
-        "clock-mcq-12",
+        "clock-mcq-01",
         "clock-mcq-14",
-        "clock-mcq-11",
-        "clock-mcq-15",
-        "clock-mcq-10"
+        "clock-mcq-03"
       ],
       "explanation": "本句的「clocked out」指「下班打卡」。",
       "sentenceIndex": 34,
@@ -1620,12 +1522,10 @@ export default {
         "clocked out"
       ],
       "optionReasons": {
-        "clock-mcq-13": "本句指「下班打卡」。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
-        "clock-mcq-11": "「累積」與本句語境不同。",
-        "clock-mcq-15": "「打某人」與本句語境不同。",
-        "clock-mcq-10": "「測得 X 速度」與本句語境不同。"
+        "clock-mcq-13": "本句的「clocked out」指「下班打卡」。",
+        "clock-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-13"
     },
@@ -1637,11 +1537,9 @@ export default {
       "masked": "Don't forget to ____.",
       "options": [
         "clock-mcq-13",
-        "clock-mcq-12",
-        "clock-mcq-14",
-        "clock-mcq-11",
-        "clock-mcq-15",
-        "clock-mcq-10"
+        "clock-mcq-08",
+        "clock-reviewed-ff8f740ac1",
+        "clock-mcq-24"
       ],
       "explanation": "本句的「clock out」指「下班打卡」。",
       "sentenceIndex": 35,
@@ -1650,12 +1548,10 @@ export default {
         "clock out"
       ],
       "optionReasons": {
-        "clock-mcq-13": "本句指「下班打卡」。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
-        "clock-mcq-11": "「累積」與本句語境不同。",
-        "clock-mcq-15": "「打某人」與本句語境不同。",
-        "clock-mcq-10": "「測得 X 速度」與本句語境不同。"
+        "clock-mcq-13": "本句的「clock out」指「下班打卡」。",
+        "clock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "clock-reviewed-ff8f740ac1": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-13"
     },
@@ -1667,11 +1563,9 @@ export default {
       "masked": "He ____ at nine.",
       "options": [
         "clock-pdf-001",
-        "clock-mcq-12",
-        "clock-mcq-14",
-        "clock-mcq-11",
         "clock-mcq-15",
-        "clock-mcq-10"
+        "clock-mcq-02",
+        "clock-mcq-07"
       ],
       "explanation": "本句的「clocked on」指「BrE: 記錄開始／結束工作的時間」。",
       "sentenceIndex": 36,
@@ -1680,12 +1574,10 @@ export default {
         "clocked on"
       ],
       "optionReasons": {
-        "clock-pdf-001": "本句指「BrE: 記錄開始／結束工作的時間」。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
-        "clock-mcq-11": "「累積」與本句語境不同。",
-        "clock-mcq-15": "「打某人」與本句語境不同。",
-        "clock-mcq-10": "「測得 X 速度」與本句語境不同。"
+        "clock-pdf-001": "本句的「clocked on」指「BrE: 記錄開始／結束工作的時間」。",
+        "clock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-pdf-001"
     },
@@ -1697,11 +1589,9 @@ export default {
       "masked": "Workers ____ at five.",
       "options": [
         "clock-pdf-001",
-        "clock-mcq-12",
-        "clock-mcq-14",
-        "clock-mcq-11",
         "clock-mcq-15",
-        "clock-mcq-10"
+        "clock-mcq-03",
+        "clock-mcq-11"
       ],
       "explanation": "本句的「clock off」指「BrE: 記錄開始／結束工作的時間」。",
       "sentenceIndex": 37,
@@ -1710,12 +1600,10 @@ export default {
         "clock off"
       ],
       "optionReasons": {
-        "clock-pdf-001": "本句指「BrE: 記錄開始／結束工作的時間」。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
-        "clock-mcq-11": "「累積」與本句語境不同。",
-        "clock-mcq-15": "「打某人」與本句語境不同。",
-        "clock-mcq-10": "「測得 X 速度」與本句語境不同。"
+        "clock-pdf-001": "本句的「clock off」指「BrE: 記錄開始／結束工作的時間」。",
+        "clock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-pdf-001"
     },
@@ -1727,11 +1615,9 @@ export default {
       "masked": "I ____ him as soon as he entered the room.",
       "options": [
         "clock-mcq-14",
-        "clock-mcq-13",
-        "clock-mcq-15",
-        "clock-mcq-12",
-        "clock-mcq-16",
-        "clock-mcq-11"
+        "clock-mcq-18",
+        "clock-mcq-04",
+        "clock-mcq-16"
       ],
       "explanation": "本句的「clocked」指「注意／認出某人」。",
       "sentenceIndex": 38,
@@ -1740,12 +1626,10 @@ export default {
         "clocked"
       ],
       "optionReasons": {
-        "clock-mcq-14": "本句指「注意／認出某人」。",
-        "clock-mcq-13": "「下班打卡」與本句語境不同。",
-        "clock-mcq-15": "「打某人」與本句語境不同。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-16": "「生理時鐘」與本句語境不同。",
-        "clock-mcq-11": "「累積」與本句語境不同。"
+        "clock-mcq-14": "本句的「clocked」指「注意／認出某人」。",
+        "clock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-14"
     },
@@ -1757,10 +1641,8 @@ export default {
       "masked": "She immediately ____.",
       "options": [
         "clock-mcq-14",
-        "clock-mcq-13",
-        "clock-mcq-15",
-        "clock-mcq-12",
-        "clock-mcq-16",
+        "clock-mcq-25",
+        "clock-mcq-19",
         "clock-mcq-11"
       ],
       "explanation": "本句的「clocked the mistake」指「注意／認出某人」。",
@@ -1770,12 +1652,10 @@ export default {
         "clocked the mistake"
       ],
       "optionReasons": {
-        "clock-mcq-14": "本句指「注意／認出某人」。",
-        "clock-mcq-13": "「下班打卡」與本句語境不同。",
-        "clock-mcq-15": "「打某人」與本句語境不同。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-16": "「生理時鐘」與本句語境不同。",
-        "clock-mcq-11": "「累積」與本句語境不同。"
+        "clock-mcq-14": "本句的「clocked the mistake」指「注意／認出某人」。",
+        "clock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-14"
     },
@@ -1787,11 +1667,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "clock-mcq-15",
-        "clock-mcq-14",
-        "clock-mcq-16",
-        "clock-mcq-13",
-        "clock-mcq-12",
-        "clock-mcq-18"
+        "clock-mcq-09",
+        "clock-mcq-11",
+        "clock-mcq-03"
       ],
       "explanation": "本句的「clocked him looking at my notes」指「打某人」。",
       "sentenceIndex": 40,
@@ -1800,12 +1678,10 @@ export default {
         "clocked him looking at my notes"
       ],
       "optionReasons": {
-        "clock-mcq-15": "本句指「打某人」。",
-        "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
-        "clock-mcq-16": "「生理時鐘」與本句語境不同。",
-        "clock-mcq-13": "「下班打卡」與本句語境不同。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-18": "「時脈速度」與本句語境不同。"
+        "clock-mcq-15": "本句的「clocked him looking at my notes」指「打某人」。",
+        "clock-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-15"
     },
@@ -1817,11 +1693,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "clock-mcq-15",
-        "clock-mcq-14",
-        "clock-mcq-16",
-        "clock-mcq-13",
-        "clock-mcq-12",
-        "clock-mcq-18"
+        "clock-mcq-10",
+        "clock-mcq-17",
+        "clock-mcq-23"
       ],
       "explanation": "本句的「clocked me leaving early」指「打某人」。",
       "sentenceIndex": 41,
@@ -1830,12 +1704,10 @@ export default {
         "clocked me leaving early"
       ],
       "optionReasons": {
-        "clock-mcq-15": "本句指「打某人」。",
-        "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
-        "clock-mcq-16": "「生理時鐘」與本句語境不同。",
-        "clock-mcq-13": "「下班打卡」與本句語境不同。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-18": "「時脈速度」與本句語境不同。"
+        "clock-mcq-15": "本句的「clocked me leaving early」指「打某人」。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-15"
     },
@@ -1847,11 +1719,9 @@ export default {
       "masked": "He threatened to ____.",
       "options": [
         "clock-mcq-15",
-        "clock-mcq-14",
-        "clock-mcq-16",
-        "clock-mcq-13",
-        "clock-mcq-12",
-        "clock-mcq-18"
+        "clock-mcq-03",
+        "clock-mcq-25",
+        "clock-mcq-23"
       ],
       "explanation": "本句的「clock him」指「打某人」。",
       "sentenceIndex": 42,
@@ -1860,12 +1730,10 @@ export default {
         "clock him"
       ],
       "optionReasons": {
-        "clock-mcq-15": "本句指「打某人」。",
-        "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
-        "clock-mcq-16": "「生理時鐘」與本句語境不同。",
-        "clock-mcq-13": "「下班打卡」與本句語境不同。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-18": "「時脈速度」與本句語境不同。"
+        "clock-mcq-15": "本句的「clock him」指「打某人」。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-15"
     },
@@ -1877,11 +1745,9 @@ export default {
       "masked": "She nearly ____ with her bag.",
       "options": [
         "clock-mcq-15",
-        "clock-mcq-14",
-        "clock-mcq-16",
-        "clock-mcq-13",
-        "clock-mcq-12",
-        "clock-mcq-18"
+        "clock-mcq-10",
+        "clock-mcq-21",
+        "clock-mcq-24"
       ],
       "explanation": "本句的「clocked me」指「打某人」。",
       "sentenceIndex": 43,
@@ -1890,12 +1756,10 @@ export default {
         "clocked me"
       ],
       "optionReasons": {
-        "clock-mcq-15": "本句指「打某人」。",
-        "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
-        "clock-mcq-16": "「生理時鐘」與本句語境不同。",
-        "clock-mcq-13": "「下班打卡」與本句語境不同。",
-        "clock-mcq-12": "「上班打卡」與本句語境不同。",
-        "clock-mcq-18": "「時脈速度」與本句語境不同。"
+        "clock-mcq-15": "本句的「clocked me」指「打某人」。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-15"
     },
@@ -1908,10 +1772,8 @@ export default {
       "options": [
         "clock-mcq-16",
         "clock-mcq-15",
-        "clock-mcq-14",
-        "clock-mcq-18",
-        "clock-mcq-13",
-        "clock-mcq-19"
+        "clock-mcq-10",
+        "clock-mcq-24"
       ],
       "explanation": "本句的「biological clock」指「生理時鐘」。",
       "sentenceIndex": 44,
@@ -1920,12 +1782,10 @@ export default {
         "biological clock"
       ],
       "optionReasons": {
-        "clock-mcq-16": "本句指「生理時鐘」。",
-        "clock-mcq-15": "「打某人」與本句語境不同。",
-        "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
-        "clock-mcq-18": "「時脈速度」與本句語境不同。",
-        "clock-mcq-13": "「下班打卡」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。"
+        "clock-mcq-16": "本句的「biological clock」指「生理時鐘」。",
+        "clock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-16"
     },
@@ -1937,11 +1797,9 @@ export default {
       "masked": "Light helps regulate the body's ____.",
       "options": [
         "clock-mcq-16",
-        "clock-mcq-15",
-        "clock-mcq-14",
-        "clock-mcq-18",
-        "clock-mcq-13",
-        "clock-mcq-19"
+        "clock-mcq-12",
+        "clock-mcq-10",
+        "clock-mcq-11"
       ],
       "explanation": "本句的「biological clock」指「生理時鐘」。",
       "sentenceIndex": 45,
@@ -1950,12 +1808,10 @@ export default {
         "biological clock"
       ],
       "optionReasons": {
-        "clock-mcq-16": "本句指「生理時鐘」。",
-        "clock-mcq-15": "「打某人」與本句語境不同。",
-        "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
-        "clock-mcq-18": "「時脈速度」與本句語境不同。",
-        "clock-mcq-13": "「下班打卡」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。"
+        "clock-mcq-16": "本句的「biological clock」指「生理時鐘」。",
+        "clock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-16"
     },
@@ -1967,11 +1823,9 @@ export default {
       "masked": "Jet lag can confuse your ____.",
       "options": [
         "clock-mcq-17",
-        "clock-mcq-18",
         "clock-mcq-15",
-        "clock-mcq-19",
-        "clock-mcq-14",
-        "clock-mcq-20"
+        "clock-mcq-11",
+        "clock-mcq-03"
       ],
       "explanation": "本句的「body clock」指「生理時鐘」。",
       "sentenceIndex": 46,
@@ -1980,12 +1834,10 @@ export default {
         "body clock"
       ],
       "optionReasons": {
-        "clock-mcq-17": "本句指「生理時鐘」。",
-        "clock-mcq-18": "「時脈速度」與本句語境不同。",
-        "clock-mcq-15": "「打某人」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。",
-        "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。"
+        "clock-mcq-17": "本句的「body clock」指「生理時鐘」。",
+        "clock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-17"
     },
@@ -1997,11 +1849,9 @@ export default {
       "masked": "My ____ wakes me up at six even without an alarm.",
       "options": [
         "clock-mcq-17",
-        "clock-mcq-18",
-        "clock-mcq-15",
-        "clock-mcq-19",
-        "clock-mcq-14",
-        "clock-mcq-20"
+        "clock-mcq-07",
+        "clock-mcq-10",
+        "clock-mcq-03"
       ],
       "explanation": "本句的「body clock」指「生理時鐘」。",
       "sentenceIndex": 47,
@@ -2010,12 +1860,10 @@ export default {
         "body clock"
       ],
       "optionReasons": {
-        "clock-mcq-17": "本句指「生理時鐘」。",
-        "clock-mcq-18": "「時脈速度」與本句語境不同。",
-        "clock-mcq-15": "「打某人」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。",
-        "clock-mcq-14": "「注意／認出某人」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。"
+        "clock-mcq-17": "本句的「body clock」指「生理時鐘」。",
+        "clock-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-17"
     },
@@ -2027,11 +1875,9 @@ export default {
       "masked": "The processor has a higher ____.",
       "options": [
         "clock-mcq-18",
-        "clock-mcq-17",
-        "clock-mcq-19",
-        "clock-mcq-20",
-        "clock-mcq-15",
-        "clock-mcq-21"
+        "clock-mcq-23",
+        "clock-mcq-11",
+        "clock-mcq-03"
       ],
       "explanation": "本句的「clock speed」指「時脈速度」。",
       "sentenceIndex": 50,
@@ -2040,12 +1886,10 @@ export default {
         "clock speed"
       ],
       "optionReasons": {
-        "clock-mcq-18": "本句指「時脈速度」。",
-        "clock-mcq-17": "「生理時鐘」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-15": "「打某人」與本句語境不同。",
-        "clock-mcq-21": "「逆時針」與本句語境不同。"
+        "clock-mcq-18": "本句的「clock speed」指「時脈速度」。",
+        "clock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-18"
     },
@@ -2057,11 +1901,9 @@ export default {
       "masked": "____ is usually measured in gigahertz.",
       "options": [
         "clock-mcq-18",
-        "clock-mcq-17",
-        "clock-mcq-19",
-        "clock-mcq-20",
-        "clock-mcq-15",
-        "clock-mcq-21"
+        "clock-mcq-12",
+        "clock-mcq-07",
+        "clock-mcq-02"
       ],
       "explanation": "本句的「Clock speed」指「時脈速度」。",
       "sentenceIndex": 51,
@@ -2070,12 +1912,10 @@ export default {
         "Clock speed"
       ],
       "optionReasons": {
-        "clock-mcq-18": "本句指「時脈速度」。",
-        "clock-mcq-17": "「生理時鐘」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-15": "「打某人」與本句語境不同。",
-        "clock-mcq-21": "「逆時針」與本句語境不同。"
+        "clock-mcq-18": "本句的「Clock speed」指「時脈速度」。",
+        "clock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-18"
     },
@@ -2087,11 +1927,9 @@ export default {
       "masked": "The processor performs operations during each ____.",
       "options": [
         "clock-mcq-19",
-        "clock-mcq-18",
-        "clock-mcq-20",
-        "clock-mcq-17",
-        "clock-mcq-21",
-        "clock-mcq-15"
+        "clock-mcq-12",
+        "clock-mcq-11",
+        "clock-mcq-03"
       ],
       "explanation": "本句的「clock cycle」指「時鐘週期」。",
       "sentenceIndex": 52,
@@ -2100,12 +1938,10 @@ export default {
         "clock cycle"
       ],
       "optionReasons": {
-        "clock-mcq-19": "本句指「時鐘週期」。",
-        "clock-mcq-18": "「時脈速度」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-17": "「生理時鐘」與本句語境不同。",
-        "clock-mcq-21": "「逆時針」與本句語境不同。",
-        "clock-mcq-15": "「打某人」與本句語境不同。"
+        "clock-mcq-19": "本句的「clock cycle」指「時鐘週期」。",
+        "clock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-19"
     },
@@ -2117,11 +1953,9 @@ export default {
       "masked": "Some instructions require several ____.",
       "options": [
         "clock-mcq-19",
-        "clock-mcq-18",
-        "clock-mcq-20",
-        "clock-mcq-17",
-        "clock-mcq-21",
-        "clock-mcq-15"
+        "clock-mcq-11",
+        "clock-mcq-14",
+        "clock-mcq-10"
       ],
       "explanation": "本句的「clock cycles」指「時鐘週期」。",
       "sentenceIndex": 53,
@@ -2130,12 +1964,10 @@ export default {
         "clock cycles"
       ],
       "optionReasons": {
-        "clock-mcq-19": "本句指「時鐘週期」。",
-        "clock-mcq-18": "「時脈速度」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-17": "「生理時鐘」與本句語境不同。",
-        "clock-mcq-21": "「逆時針」與本句語境不同。",
-        "clock-mcq-15": "「打某人」與本句語境不同。"
+        "clock-mcq-19": "本句的「clock cycles」指「時鐘週期」。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-19"
     },
@@ -2147,11 +1979,9 @@ export default {
       "masked": "Turn the dial ____.",
       "options": [
         "clock-mcq-20",
-        "clock-mcq-19",
-        "clock-mcq-21",
-        "clock-mcq-18",
-        "clock-mcq-17",
-        "clock-mcq-23"
+        "clock-mcq-23",
+        "clock-mcq-10",
+        "clock-mcq-03"
       ],
       "explanation": "本句的「clockwise」指「順時針」。",
       "sentenceIndex": 54,
@@ -2160,12 +1990,10 @@ export default {
         "clockwise"
       ],
       "optionReasons": {
-        "clock-mcq-20": "本句指「順時針」。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。",
-        "clock-mcq-21": "「逆時針」與本句語境不同。",
-        "clock-mcq-18": "「時脈速度」與本句語境不同。",
-        "clock-mcq-17": "「生理時鐘」與本句語境不同。",
-        "clock-mcq-23": "「鐘錶機械裝置」與本句語境不同。"
+        "clock-mcq-20": "本句的「clockwise」指「順時針」。",
+        "clock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-20"
     },
@@ -2177,11 +2005,9 @@ export default {
       "masked": "Move ____ around the circle.",
       "options": [
         "clock-mcq-20",
-        "clock-mcq-19",
-        "clock-mcq-21",
-        "clock-mcq-18",
-        "clock-mcq-17",
-        "clock-mcq-23"
+        "clock-mcq-15",
+        "clock-mcq-03",
+        "clock-mcq-07"
       ],
       "explanation": "本句的「clockwise」指「順時針」。",
       "sentenceIndex": 55,
@@ -2190,12 +2016,10 @@ export default {
         "clockwise"
       ],
       "optionReasons": {
-        "clock-mcq-20": "本句指「順時針」。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。",
-        "clock-mcq-21": "「逆時針」與本句語境不同。",
-        "clock-mcq-18": "「時脈速度」與本句語境不同。",
-        "clock-mcq-17": "「生理時鐘」與本句語境不同。",
-        "clock-mcq-23": "「鐘錶機械裝置」與本句語境不同。"
+        "clock-mcq-20": "本句的「clockwise」指「順時針」。",
+        "clock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-20"
     },
@@ -2207,11 +2031,9 @@ export default {
       "masked": "Turn the handle ____.",
       "options": [
         "clock-mcq-21",
-        "clock-mcq-20",
-        "clock-mcq-19",
-        "clock-mcq-23",
-        "clock-mcq-18",
-        "clock-mcq-24"
+        "clock-mcq-14",
+        "clock-mcq-11",
+        "clock-mcq-07"
       ],
       "explanation": "本句的「counterclockwise」指「逆時針」。",
       "sentenceIndex": 56,
@@ -2220,12 +2042,10 @@ export default {
         "counterclockwise"
       ],
       "optionReasons": {
-        "clock-mcq-21": "本句指「逆時針」。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。",
-        "clock-mcq-23": "「鐘錶機械裝置」與本句語境不同。",
-        "clock-mcq-18": "「時脈速度」與本句語境不同。",
-        "clock-mcq-24": "「極規律／極順利」與本句語境不同。"
+        "clock-mcq-21": "本句的「counterclockwise」指「逆時針」。",
+        "clock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-21"
     },
@@ -2237,11 +2057,9 @@ export default {
       "masked": "Rotate the object ____.",
       "options": [
         "clock-mcq-21",
-        "clock-mcq-20",
-        "clock-mcq-19",
-        "clock-mcq-23",
-        "clock-mcq-18",
-        "clock-mcq-24"
+        "clock-mcq-15",
+        "clock-mcq-02",
+        "clock-mcq-03"
       ],
       "explanation": "本句的「counterclockwise」指「逆時針」。",
       "sentenceIndex": 57,
@@ -2250,12 +2068,10 @@ export default {
         "counterclockwise"
       ],
       "optionReasons": {
-        "clock-mcq-21": "本句指「逆時針」。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。",
-        "clock-mcq-23": "「鐘錶機械裝置」與本句語境不同。",
-        "clock-mcq-18": "「時脈速度」與本句語境不同。",
-        "clock-mcq-24": "「極規律／極順利」與本句語境不同。"
+        "clock-mcq-21": "本句的「counterclockwise」指「逆時針」。",
+        "clock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-21"
     },
@@ -2268,10 +2084,8 @@ export default {
       "options": [
         "clock-mcq-22",
         "clock-mcq-23",
-        "clock-mcq-20",
-        "clock-mcq-24",
-        "clock-mcq-19",
-        "clock-mcq-25"
+        "clock-mcq-13",
+        "clock-mcq-24"
       ],
       "explanation": "本句的「anticlockwise」指「逆時針」。",
       "sentenceIndex": 58,
@@ -2280,12 +2094,10 @@ export default {
         "anticlockwise"
       ],
       "optionReasons": {
-        "clock-mcq-22": "本句指「逆時針」。",
-        "clock-mcq-23": "「鐘錶機械裝置」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-24": "「極規律／極順利」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。",
-        "clock-mcq-25": "「消耗剩餘時間」與本句語境不同。"
+        "clock-mcq-22": "本句的「anticlockwise」指「逆時針」。",
+        "clock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-22"
     },
@@ -2297,11 +2109,9 @@ export default {
       "masked": "The wheel rotates ____.",
       "options": [
         "clock-mcq-22",
+        "clock-mcq-03",
         "clock-mcq-23",
-        "clock-mcq-20",
-        "clock-mcq-24",
-        "clock-mcq-19",
-        "clock-mcq-25"
+        "clock-mcq-12"
       ],
       "explanation": "本句的「anticlockwise」指「逆時針」。",
       "sentenceIndex": 59,
@@ -2310,12 +2120,10 @@ export default {
         "anticlockwise"
       ],
       "optionReasons": {
-        "clock-mcq-22": "本句指「逆時針」。",
-        "clock-mcq-23": "「鐘錶機械裝置」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-24": "「極規律／極順利」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。",
-        "clock-mcq-25": "「消耗剩餘時間」與本句語境不同。"
+        "clock-mcq-22": "本句的「anticlockwise」指「逆時針」。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-22"
     },
@@ -2328,10 +2136,8 @@ export default {
       "options": [
         "clock-mcq-23",
         "clock-mcq-22",
-        "clock-mcq-24",
-        "clock-mcq-25",
-        "clock-mcq-20",
-        "clock-mcq-19"
+        "clock-mcq-14",
+        "clock-mcq-03"
       ],
       "explanation": "本句的「clockwork」指「鐘錶機械裝置」。",
       "sentenceIndex": 60,
@@ -2340,12 +2146,10 @@ export default {
         "clockwork"
       ],
       "optionReasons": {
-        "clock-mcq-23": "本句指「鐘錶機械裝置」。",
-        "clock-mcq-22": "「逆時針」與本句語境不同。",
-        "clock-mcq-24": "「極規律／極順利」與本句語境不同。",
-        "clock-mcq-25": "「消耗剩餘時間」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。"
+        "clock-mcq-23": "本句的「clockwork」指「鐘錶機械裝置」。",
+        "clock-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-23"
     },
@@ -2357,11 +2161,9 @@ export default {
       "masked": "The old mechanism works by ____.",
       "options": [
         "clock-mcq-23",
-        "clock-mcq-22",
-        "clock-mcq-24",
-        "clock-mcq-25",
-        "clock-mcq-20",
-        "clock-mcq-19"
+        "clock-mcq-03",
+        "clock-reviewed-233e854ef1",
+        "clock-mcq-18"
       ],
       "explanation": "本句的「clockwork」指「鐘錶機械裝置」。",
       "sentenceIndex": 61,
@@ -2370,12 +2172,10 @@ export default {
         "clockwork"
       ],
       "optionReasons": {
-        "clock-mcq-23": "本句指「鐘錶機械裝置」。",
-        "clock-mcq-22": "「逆時針」與本句語境不同。",
-        "clock-mcq-24": "「極規律／極順利」與本句語境不同。",
-        "clock-mcq-25": "「消耗剩餘時間」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。"
+        "clock-mcq-23": "本句的「clockwork」指「鐘錶機械裝置」。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clock-reviewed-233e854ef1": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-23"
     },
@@ -2387,11 +2187,9 @@ export default {
       "masked": "The train arrives at seven every morning ____.",
       "options": [
         "clock-mcq-24",
+        "clock-mcq-12",
         "clock-mcq-23",
-        "clock-mcq-25",
-        "clock-mcq-22",
-        "clock-mcq-20",
-        "clock-mcq-19"
+        "clock-pdf-001"
       ],
       "explanation": "本句的「like clockwork」指「極規律／極順利」。",
       "sentenceIndex": 62,
@@ -2400,12 +2198,10 @@ export default {
         "like clockwork"
       ],
       "optionReasons": {
-        "clock-mcq-24": "本句指「極規律／極順利」。",
-        "clock-mcq-23": "「鐘錶機械裝置」與本句語境不同。",
-        "clock-mcq-25": "「消耗剩餘時間」與本句語境不同。",
-        "clock-mcq-22": "「逆時針」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。"
+        "clock-mcq-24": "本句的「like clockwork」指「極規律／極順利」。",
+        "clock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "clock-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-24"
     },
@@ -2417,11 +2213,9 @@ export default {
       "masked": "Everything went ____.",
       "options": [
         "clock-mcq-24",
-        "clock-mcq-23",
-        "clock-mcq-25",
-        "clock-mcq-22",
-        "clock-mcq-20",
-        "clock-mcq-19"
+        "clock-reviewed-233e854ef1",
+        "clock-mcq-11",
+        "clock-mcq-18"
       ],
       "explanation": "本句的「like clockwork」指「極規律／極順利」。",
       "sentenceIndex": 63,
@@ -2430,12 +2224,10 @@ export default {
         "like clockwork"
       ],
       "optionReasons": {
-        "clock-mcq-24": "本句指「極規律／極順利」。",
-        "clock-mcq-23": "「鐘錶機械裝置」與本句語境不同。",
-        "clock-mcq-25": "「消耗剩餘時間」與本句語境不同。",
-        "clock-mcq-22": "「逆時針」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。"
+        "clock-mcq-24": "本句的「like clockwork」指「極規律／極順利」。",
+        "clock-reviewed-233e854ef1": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-24"
     },
@@ -2447,11 +2239,9 @@ export default {
       "masked": "The process runs with ____.",
       "options": [
         "clock-mcq-24",
-        "clock-mcq-23",
-        "clock-mcq-25",
-        "clock-mcq-22",
-        "clock-mcq-20",
-        "clock-mcq-19"
+        "clock-mcq-17",
+        "clock-mcq-08",
+        "clock-mcq-18"
       ],
       "explanation": "本句的「clockwork precision」指「極規律／極順利」。",
       "sentenceIndex": 64,
@@ -2460,12 +2250,10 @@ export default {
         "clockwork precision"
       ],
       "optionReasons": {
-        "clock-mcq-24": "本句指「極規律／極順利」。",
-        "clock-mcq-23": "「鐘錶機械裝置」與本句語境不同。",
-        "clock-mcq-25": "「消耗剩餘時間」與本句語境不同。",
-        "clock-mcq-22": "「逆時針」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。"
+        "clock-mcq-24": "本句的「clockwork precision」指「極規律／極順利」。",
+        "clock-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-24"
     },
@@ -2477,11 +2265,9 @@ export default {
       "masked": "Their morning routine has become almost ____.",
       "options": [
         "clock-mcq-24",
-        "clock-mcq-23",
-        "clock-mcq-25",
-        "clock-mcq-22",
-        "clock-mcq-20",
-        "clock-mcq-19"
+        "clock-mcq-11",
+        "clock-reviewed-233e854ef1",
+        "clock-mcq-17"
       ],
       "explanation": "本句的「clockwork」指「極規律／極順利」。",
       "sentenceIndex": 65,
@@ -2490,12 +2276,10 @@ export default {
         "clockwork"
       ],
       "optionReasons": {
-        "clock-mcq-24": "本句指「極規律／極順利」。",
-        "clock-mcq-23": "「鐘錶機械裝置」與本句語境不同。",
-        "clock-mcq-25": "「消耗剩餘時間」與本句語境不同。",
-        "clock-mcq-22": "「逆時針」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。"
+        "clock-mcq-24": "本句的「clockwork」指「極規律／極順利」。",
+        "clock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clock-reviewed-233e854ef1": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-24"
     },
@@ -2507,11 +2291,9 @@ export default {
       "masked": "The team kept possession to ____.",
       "options": [
         "clock-mcq-25",
+        "clock-mcq-14",
         "clock-mcq-24",
-        "clock-mcq-23",
-        "clock-mcq-22",
-        "clock-mcq-20",
-        "clock-mcq-19"
+        "clock-mcq-10"
       ],
       "explanation": "本句的「run down the clock」指「消耗剩餘時間」。",
       "sentenceIndex": 68,
@@ -2520,12 +2302,10 @@ export default {
         "run down the clock"
       ],
       "optionReasons": {
-        "clock-mcq-25": "本句指「消耗剩餘時間」。",
-        "clock-mcq-24": "「極規律／極順利」與本句語境不同。",
-        "clock-mcq-23": "「鐘錶機械裝置」與本句語境不同。",
-        "clock-mcq-22": "「逆時針」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。"
+        "clock-mcq-25": "本句的「run down the clock」指「消耗剩餘時間」。",
+        "clock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-25"
     },
@@ -2537,11 +2317,9 @@ export default {
       "masked": "He seemed to be ____ instead of making a decision.",
       "options": [
         "clock-mcq-25",
-        "clock-mcq-24",
-        "clock-mcq-23",
-        "clock-mcq-22",
-        "clock-mcq-20",
-        "clock-mcq-19"
+        "clock-mcq-03",
+        "clock-mcq-15",
+        "clock-mcq-23"
       ],
       "explanation": "本句的「running down the clock」指「消耗剩餘時間」。",
       "sentenceIndex": 69,
@@ -2550,12 +2328,10 @@ export default {
         "running down the clock"
       ],
       "optionReasons": {
-        "clock-mcq-25": "本句指「消耗剩餘時間」。",
-        "clock-mcq-24": "「極規律／極順利」與本句語境不同。",
-        "clock-mcq-23": "「鐘錶機械裝置」與本句語境不同。",
-        "clock-mcq-22": "「逆時針」與本句語境不同。",
-        "clock-mcq-20": "「順時針」與本句語境不同。",
-        "clock-mcq-19": "「時鐘週期」與本句語境不同。"
+        "clock-mcq-25": "本句的「running down the clock」指「消耗剩餘時間」。",
+        "clock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "clock-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clock-mcq-25"
     }
@@ -2567,5 +2343,7 @@ export default {
     "sha256": "3f115fb27a3e4282b02d3c45fdc896b35d0cf816f013b0c127d7c108bc60fc9a",
     "pages": 25
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

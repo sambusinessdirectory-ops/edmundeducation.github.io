@@ -1182,11 +1182,7 @@ export default {
       "masked": "There is a ____ of failure.",
       "options": [
         "risk-mcq-01",
-        "risk-mcq-02",
-        "risk-mcq-03",
-        "risk-mcq-04",
-        "risk-mcq-05",
-        "risk-mcq-06"
+        "risk-mcq-14"
       ],
       "explanation": "本句的「risk」指「某種不利結果可能發生的風險」。",
       "sentenceIndex": 0,
@@ -1195,12 +1191,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-01": "本句指「某種不利結果可能發生的風險」。",
-        "risk-mcq-02": "「某一個具體危險因素／風險來源」與本句語境不同。",
-        "risk-mcq-03": "「發生的可能風險」與本句語境不同。",
-        "risk-mcq-04": "「某不利情況可能出現」與本句語境不同。",
-        "risk-mcq-05": "「暴露於可能受到損失／傷害的狀態」與本句語境不同。",
-        "risk-mcq-06": "「有發生 X 的風險」與本句語境不同。"
+        "risk-mcq-01": "本句的「risk」指「某種不利結果可能發生的風險」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-01"
     },
@@ -1212,11 +1204,7 @@ export default {
       "masked": "Every business involves some ____.",
       "options": [
         "risk-mcq-01",
-        "risk-mcq-02",
-        "risk-mcq-03",
-        "risk-mcq-04",
-        "risk-mcq-05",
-        "risk-mcq-06"
+        "risk-mcq-14"
       ],
       "explanation": "本句的「risk」指「某種不利結果可能發生的風險」。",
       "sentenceIndex": 1,
@@ -1225,12 +1213,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-01": "本句指「某種不利結果可能發生的風險」。",
-        "risk-mcq-02": "「某一個具體危險因素／風險來源」與本句語境不同。",
-        "risk-mcq-03": "「發生的可能風險」與本句語境不同。",
-        "risk-mcq-04": "「某不利情況可能出現」與本句語境不同。",
-        "risk-mcq-05": "「暴露於可能受到損失／傷害的狀態」與本句語境不同。",
-        "risk-mcq-06": "「有發生 X 的風險」與本句語境不同。"
+        "risk-mcq-01": "本句的「risk」指「某種不利結果可能發生的風險」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-01"
     },
@@ -1242,11 +1226,7 @@ export default {
       "masked": "There is a ____ that the café will fail.",
       "options": [
         "risk-mcq-04",
-        "risk-mcq-03",
-        "risk-mcq-05",
-        "risk-mcq-02",
-        "risk-mcq-06",
-        "risk-mcq-01"
+        "risk-mcq-14"
       ],
       "explanation": "本句的「risk」指「某不利情況可能出現」。",
       "sentenceIndex": 3,
@@ -1255,12 +1235,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-04": "本句指「某不利情況可能出現」。",
-        "risk-mcq-03": "「發生的可能風險」與本句語境不同。",
-        "risk-mcq-05": "「暴露於可能受到損失／傷害的狀態」與本句語境不同。",
-        "risk-mcq-02": "「某一個具體危險因素／風險來源」與本句語境不同。",
-        "risk-mcq-06": "「有發生 X 的風險」與本句語境不同。",
-        "risk-mcq-01": "「某種不利結果可能發生的風險」與本句語境不同。"
+        "risk-mcq-04": "本句的「risk」指「某不利情況可能出現」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-04"
     },
@@ -1272,11 +1248,7 @@ export default {
       "masked": "The business is at ____.",
       "options": [
         "risk-mcq-05",
-        "risk-mcq-04",
-        "risk-mcq-06",
-        "risk-mcq-03",
-        "risk-mcq-07",
-        "risk-mcq-02"
+        "risk-mcq-14"
       ],
       "explanation": "本句的「risk」指「暴露於可能受到損失／傷害的狀態」。",
       "sentenceIndex": 9,
@@ -1285,12 +1257,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-05": "本句指「暴露於可能受到損失／傷害的狀態」。",
-        "risk-mcq-04": "「某不利情況可能出現」與本句語境不同。",
-        "risk-mcq-06": "「有發生 X 的風險」與本句語境不同。",
-        "risk-mcq-03": "「發生的可能風險」與本句語境不同。",
-        "risk-mcq-07": "「使 X 暴露在可能損失／傷害之下」與本句語境不同。",
-        "risk-mcq-02": "「某一個具體危險因素／風險來源」與本句語境不同。"
+        "risk-mcq-05": "本句的「risk」指「暴露於可能受到損失／傷害的狀態」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-05"
     },
@@ -1302,11 +1270,7 @@ export default {
       "masked": "The café is at ____ of closing.",
       "options": [
         "risk-mcq-05",
-        "risk-mcq-04",
-        "risk-mcq-06",
-        "risk-mcq-03",
-        "risk-mcq-07",
-        "risk-mcq-02"
+        "risk-mcq-14"
       ],
       "explanation": "本句的「risk」指「暴露於可能受到損失／傷害的狀態」。",
       "sentenceIndex": 12,
@@ -1315,12 +1279,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-05": "本句指「暴露於可能受到損失／傷害的狀態」。",
-        "risk-mcq-04": "「某不利情況可能出現」與本句語境不同。",
-        "risk-mcq-06": "「有發生 X 的風險」與本句語境不同。",
-        "risk-mcq-03": "「發生的可能風險」與本句語境不同。",
-        "risk-mcq-07": "「使 X 暴露在可能損失／傷害之下」與本句語境不同。",
-        "risk-mcq-02": "「某一個具體危險因素／風險來源」與本句語境不同。"
+        "risk-mcq-05": "本句的「risk」指「暴露於可能受到損失／傷害的狀態」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-05"
     },
@@ -1332,11 +1292,7 @@ export default {
       "masked": "He is at ____ of losing his savings.",
       "options": [
         "risk-mcq-05",
-        "risk-mcq-04",
-        "risk-mcq-06",
-        "risk-mcq-03",
-        "risk-mcq-07",
-        "risk-mcq-02"
+        "risk-mcq-14"
       ],
       "explanation": "本句的「risk」指「暴露於可能受到損失／傷害的狀態」。",
       "sentenceIndex": 13,
@@ -1345,12 +1301,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-05": "本句指「暴露於可能受到損失／傷害的狀態」。",
-        "risk-mcq-04": "「某不利情況可能出現」與本句語境不同。",
-        "risk-mcq-06": "「有發生 X 的風險」與本句語境不同。",
-        "risk-mcq-03": "「發生的可能風險」與本句語境不同。",
-        "risk-mcq-07": "「使 X 暴露在可能損失／傷害之下」與本句語境不同。",
-        "risk-mcq-02": "「某一個具體危險因素／風險來源」與本句語境不同。"
+        "risk-mcq-05": "本句的「risk」指「暴露於可能受到損失／傷害的狀態」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-05"
     },
@@ -1362,11 +1314,7 @@ export default {
       "masked": "Opening a café means taking a ____.",
       "options": [
         "risk-mcq-09",
-        "risk-mcq-08",
-        "risk-mcq-10",
-        "risk-mcq-07",
-        "risk-mcq-11",
-        "risk-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「risk」指「明知存在不良後果可能仍決定去做；冒險」。",
       "sentenceIndex": 14,
@@ -1375,12 +1323,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-09": "本句指「明知存在不良後果可能仍決定去做；冒險」。",
-        "risk-mcq-08": "「較容易出現某指定不良結果的人／群體」與本句語境不同。",
-        "risk-mcq-10": "「面臨／冒着某不利結果發生的風險」與本句語境不同。",
-        "risk-mcq-07": "「使 X 暴露在可能損失／傷害之下」與本句語境不同。",
-        "risk-mcq-11": "「把金錢、生命、聲譽等置於可能損失的情況」與本句語境不同。",
-        "risk-mcq-06": "「有發生 X 的風險」與本句語境不同。"
+        "risk-mcq-09": "本句的「risk」指「明知存在不良後果可能仍決定去做；冒險」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-09"
     },
@@ -1392,11 +1336,7 @@ export default {
       "masked": "You run the ____ of losing everything.",
       "options": [
         "risk-mcq-10",
-        "risk-mcq-09",
-        "risk-mcq-11",
-        "risk-mcq-08",
-        "risk-mcq-12",
-        "risk-mcq-07"
+        "risk-mcq-14"
       ],
       "explanation": "本句的「risk」指「面臨／冒着某不利結果發生的風險」。",
       "sentenceIndex": 17,
@@ -1405,12 +1345,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-10": "本句指「面臨／冒着某不利結果發生的風險」。",
-        "risk-mcq-09": "「明知存在不良後果可能仍決定去做；冒險」與本句語境不同。",
-        "risk-mcq-11": "「把金錢、生命、聲譽等置於可能損失的情況」與本句語境不同。",
-        "risk-mcq-08": "「較容易出現某指定不良結果的人／群體」與本句語境不同。",
-        "risk-mcq-12": "「做某事而可能因此產生不良後果」與本句語境不同。",
-        "risk-mcq-07": "「使 X 暴露在可能損失／傷害之下」與本句語境不同。"
+        "risk-mcq-10": "本句的「risk」指「面臨／冒着某不利結果發生的風險」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-10"
     },
@@ -1422,11 +1358,7 @@ export default {
       "masked": "Firefighters ____ their lives.",
       "options": [
         "risk-mcq-13",
-        "risk-mcq-12",
-        "risk-mcq-14",
-        "risk-mcq-11",
-        "risk-mcq-15",
-        "risk-mcq-10"
+        "contrast-purchase"
       ],
       "explanation": "本句的「risk」指「冒生命危險」。",
       "sentenceIndex": 19,
@@ -1435,12 +1367,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-13": "本句指「冒生命危險」。",
-        "risk-mcq-12": "「做某事而可能因此產生不良後果」與本句語境不同。",
-        "risk-mcq-14": "「明知不確定仍決定冒險試一試」與本句語境不同。",
-        "risk-mcq-11": "「把金錢、生命、聲譽等置於可能損失的情況」與本句語境不同。",
-        "risk-mcq-15": "「自行承擔可能後果；風險自負」與本句語境不同。",
-        "risk-mcq-10": "「面臨／冒着某不利結果發生的風險」與本句語境不同。"
+        "risk-mcq-13": "本句的「risk」指「冒生命危險」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-13"
     },
@@ -1452,11 +1380,7 @@ export default {
       "masked": "The weather looks bad, but let's ____ it.",
       "options": [
         "risk-mcq-14",
-        "risk-mcq-13",
-        "risk-mcq-15",
-        "risk-mcq-12",
-        "risk-mcq-16",
-        "risk-mcq-11"
+        "risk-mcq-04"
       ],
       "explanation": "本句的「risk」指「明知不確定仍決定冒險試一試」。",
       "sentenceIndex": 24,
@@ -1465,12 +1389,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-14": "本句指「明知不確定仍決定冒險試一試」。",
-        "risk-mcq-13": "「冒生命危險」與本句語境不同。",
-        "risk-mcq-15": "「自行承擔可能後果；風險自負」與本句語境不同。",
-        "risk-mcq-12": "「做某事而可能因此產生不良後果」與本句語境不同。",
-        "risk-mcq-16": "「雖然這樣說可能給人某種負面印象」與本句語境不同。",
-        "risk-mcq-11": "「把金錢、生命、聲譽等置於可能損失的情況」與本句語境不同。"
+        "risk-mcq-14": "本句的「risk」指「明知不確定仍決定冒險試一試」。",
+        "risk-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-14"
     },
@@ -1482,11 +1402,7 @@ export default {
       "masked": "Use the equipment at your own ____.",
       "options": [
         "risk-mcq-15",
-        "risk-mcq-14",
-        "risk-mcq-16",
-        "risk-mcq-13",
-        "risk-mcq-17",
-        "risk-mcq-12"
+        "risk-mcq-14"
       ],
       "explanation": "本句的「risk」指「自行承擔可能後果；風險自負」。",
       "sentenceIndex": 26,
@@ -1495,12 +1411,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-15": "本句指「自行承擔可能後果；風險自負」。",
-        "risk-mcq-14": "「明知不確定仍決定冒險試一試」與本句語境不同。",
-        "risk-mcq-16": "「雖然這樣說可能給人某種負面印象」與本句語境不同。",
-        "risk-mcq-13": "「冒生命危險」與本句語境不同。",
-        "risk-mcq-17": "「經過衡量後有意承擔的風險」與本句語境不同。",
-        "risk-mcq-12": "「做某事而可能因此產生不良後果」與本句語境不同。"
+        "risk-mcq-15": "本句的「risk」指「自行承擔可能後果；風險自負」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-15"
     },
@@ -1512,11 +1424,7 @@ export default {
       "masked": "The opportunity may be worth the ____.",
       "options": [
         "risk-mcq-18",
-        "risk-mcq-17",
-        "risk-mcq-19",
-        "risk-mcq-16",
-        "risk-mcq-20",
-        "risk-mcq-15"
+        "risk-mcq-14"
       ],
       "explanation": "本句的「risk」指「潛在回報值得承擔相關風險」。",
       "sentenceIndex": 29,
@@ -1525,12 +1433,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-18": "本句指「潛在回報值得承擔相關風險」。",
-        "risk-mcq-17": "「經過衡量後有意承擔的風險」與本句語境不同。",
-        "risk-mcq-19": "「具有較明顯失敗／受損可能性的」與本句語境不同。",
-        "risk-mcq-16": "「雖然這樣說可能給人某種負面印象」與本句語境不同。",
-        "risk-mcq-20": "「某事的風險程度」與本句語境不同。",
-        "risk-mcq-15": "「自行承擔可能後果；風險自負」與本句語境不同。"
+        "risk-mcq-18": "本句的「risk」指「潛在回報值得承擔相關風險」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-18"
     },
@@ -1542,10 +1446,6 @@ export default {
       "masked": "Testing a pop-up first is a calculated ____.",
       "options": [
         "risk-mcq-17",
-        "risk-mcq-16",
-        "risk-mcq-18",
-        "risk-mcq-15",
-        "risk-mcq-19",
         "risk-mcq-14"
       ],
       "explanation": "本句的「risk」指「經過衡量後有意承擔的風險」。",
@@ -1555,12 +1455,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-17": "本句指「經過衡量後有意承擔的風險」。",
-        "risk-mcq-16": "「雖然這樣說可能給人某種負面印象」與本句語境不同。",
-        "risk-mcq-18": "「潛在回報值得承擔相關風險」與本句語境不同。",
-        "risk-mcq-15": "「自行承擔可能後果；風險自負」與本句語境不同。",
-        "risk-mcq-19": "「具有較明顯失敗／受損可能性的」與本句語境不同。",
-        "risk-mcq-14": "「明知不確定仍決定冒險試一試」與本句語境不同。"
+        "risk-mcq-17": "本句的「risk」指「經過衡量後有意承擔的風險」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-17"
     },
@@ -1572,11 +1468,7 @@ export default {
       "masked": "Entrepreneurship often involves ____.",
       "options": [
         "risk-mcq-95",
-        "risk-mcq-94",
-        "risk-mcq-96",
-        "risk-mcq-93",
-        "risk-mcq-92",
-        "risk-mcq-91"
+        "contrast-purchase"
       ],
       "explanation": "本句的「risk-taking」指「願意接受可能負面結果的冒險行為」。",
       "sentenceIndex": 32,
@@ -1585,12 +1477,8 @@ export default {
         "risk-taking"
       ],
       "optionReasons": {
-        "risk-mcq-95": "本句指「願意接受可能負面結果的冒險行為」。",
-        "risk-mcq-94": "「根據風險高低分配決策、監管或資源的」與本句語境不同。",
-        "risk-mcq-96": "「相對願意承擔風險的人」與本句語境不同。",
-        "risk-mcq-93": "「系統地減低／退出高風險暴露的過程」與本句語境不同。",
-        "risk-mcq-92": "「透過測試、分散、控制等降低風險暴露」與本句語境不同。",
-        "risk-mcq-91": "「向人說明風險、概率、不確定性及防護措施」與本句語境不同。"
+        "risk-mcq-95": "本句的「risk-taking」指「願意接受可能負面結果的冒險行為」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-95"
     },
@@ -1602,11 +1490,7 @@ export default {
       "masked": "He's a natural ____.",
       "options": [
         "risk-mcq-96",
-        "risk-mcq-95",
-        "risk-mcq-94",
-        "risk-mcq-93",
-        "risk-mcq-92",
-        "risk-mcq-91"
+        "risk-mcq-14"
       ],
       "explanation": "本句的「risk-taker」指「相對願意承擔風險的人」。",
       "sentenceIndex": 33,
@@ -1615,12 +1499,8 @@ export default {
         "risk-taker"
       ],
       "optionReasons": {
-        "risk-mcq-96": "本句指「相對願意承擔風險的人」。",
-        "risk-mcq-95": "「願意接受可能負面結果的冒險行為」與本句語境不同。",
-        "risk-mcq-94": "「根據風險高低分配決策、監管或資源的」與本句語境不同。",
-        "risk-mcq-93": "「系統地減低／退出高風險暴露的過程」與本句語境不同。",
-        "risk-mcq-92": "「透過測試、分散、控制等降低風險暴露」與本句語境不同。",
-        "risk-mcq-91": "「向人說明風險、概率、不確定性及防護措施」與本句語境不同。"
+        "risk-mcq-96": "本句的「risk-taker」指「相對願意承擔風險的人」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-96"
     },
@@ -1632,11 +1512,7 @@ export default {
       "masked": "No investment is completely ____.",
       "options": [
         "risk-mcq-22",
-        "risk-mcq-21",
-        "risk-mcq-23",
-        "risk-mcq-20",
-        "risk-mcq-24",
-        "risk-mcq-19"
+        "risk-mcq-14"
       ],
       "explanation": "本句的「risk-free」指「沒有指定相關風險；金融中常是理論／基準概念」。",
       "sentenceIndex": 36,
@@ -1645,12 +1521,8 @@ export default {
         "risk-free"
       ],
       "optionReasons": {
-        "risk-mcq-22": "本句指「沒有指定相關風險；金融中常是理論／基準概念」。",
-        "risk-mcq-21": "「相對高／低風險的」與本句語境不同。",
-        "risk-mcq-23": "「經營／創業中因需求、成本、競爭等不確定性產生的損失風險」與本句語境不同。",
-        "risk-mcq-20": "「某事的風險程度」與本句語境不同。",
-        "risk-mcq-24": "「重大策略選擇／方向錯誤造成的風險」與本句語境不同。",
-        "risk-mcq-19": "「具有較明顯失敗／受損可能性的」與本句語境不同。"
+        "risk-mcq-22": "本句的「risk-free」指「沒有指定相關風險；金融中常是理論／基準概念」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-22"
     },
@@ -1662,11 +1534,7 @@ export default {
       "masked": "Controls reduced, but did not eliminate, residual ____.",
       "options": [
         "risk-mcq-37",
-        "risk-mcq-36",
-        "risk-mcq-38",
-        "risk-mcq-35",
-        "risk-mcq-39",
-        "risk-mcq-34"
+        "risk-mcq-14"
       ],
       "explanation": "本句的「risk」指「控制／緩解後仍然存在的剩餘風險」。",
       "sentenceIndex": 37,
@@ -1675,12 +1543,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-37": "本句指「控制／緩解後仍然存在的剩餘風險」。",
-        "risk-mcq-36": "「未計入特定控制措施前的固有風險」與本句語境不同。",
-        "risk-mcq-38": "「機構願意主動追求或承受的整體風險程度／種類」與本句語境不同。",
-        "risk-mcq-35": "「以可能性和後果等分類風險的矩陣」與本句語境不同。",
-        "risk-mcq-39": "「可接受的風險變動／上限」與本句語境不同。",
-        "risk-mcq-34": "「識別和評估風險程度的過程」與本句語境不同。"
+        "risk-mcq-37": "本句的「risk」指「控制／緩解後仍然存在的剩餘風險」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-37"
     },
@@ -1692,11 +1556,7 @@ export default {
       "masked": "The investor is highly ____.",
       "options": [
         "risk-mcq-67",
-        "risk-mcq-66",
-        "risk-mcq-68",
-        "risk-mcq-65",
-        "risk-mcq-69",
-        "risk-mcq-64"
+        "risk-mcq-14"
       ],
       "explanation": "本句的「risk-averse」指「傾向選擇較低風險的」。",
       "sentenceIndex": 39,
@@ -1705,12 +1565,8 @@ export default {
         "risk-averse"
       ],
       "optionReasons": {
-        "risk-mcq-67": "本句指「傾向選擇較低風險的」。",
-        "risk-mcq-66": "「對額外不確定損失的抗拒／風險厭惡」與本句語境不同。",
-        "risk-mcq-68": "「在指定模型中不因風險本身而改變偏好的」與本句語境不同。",
-        "risk-mcq-65": "「投入高不確定性、可能蒙受重大損失的資本」與本句語境不同。",
-        "risk-mcq-69": "「在指定條件下偏好更高風險的」與本句語境不同。",
-        "risk-mcq-64": "「市場風險偏好上升／避險偏好上升的簡稱」與本句語境不同。"
+        "risk-mcq-67": "本句的「risk-averse」指「傾向選擇較低風險的」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-67"
     },
@@ -1722,11 +1578,7 @@ export default {
       "masked": "An unpatched server is a security ____.",
       "options": [
         "risk-mcq-82",
-        "risk-mcq-81",
-        "risk-mcq-83",
-        "risk-mcq-80",
-        "risk-mcq-84",
-        "risk-mcq-79"
+        "risk-mcq-14"
       ],
       "explanation": "本句的「risk」指「網絡／資訊系統受到攻擊、損失、停機等的風險」。",
       "sentenceIndex": 41,
@@ -1735,12 +1587,8 @@ export default {
         "risk"
       ],
       "optionReasons": {
-        "risk-mcq-82": "本句指「網絡／資訊系統受到攻擊、損失、停機等的風險」。",
-        "risk-mcq-81": "「系統比較潛在風險與效益」與本句語境不同。",
-        "risk-mcq-83": "「個人資料收集、使用、披露等帶來的潛在損害」與本句語境不同。",
-        "risk-mcq-80": "「是潛在危害來源；risk 是危害真正造成後果的可能性／嚴重程度概念」與本句語境不同。",
-        "risk-mcq-84": "「供應商、物流、短缺等造成供應鏈中斷的風險」與本句語境不同。",
-        "risk-mcq-79": "「是一段期間的事件概率；hazard 是存活／未發生事件條件下的瞬時發生率概念」與本句語境不同。"
+        "risk-mcq-82": "本句的「risk」指「網絡／資訊系統受到攻擊、損失、停機等的風險」。",
+        "risk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "risk-mcq-82"
     }
@@ -1752,5 +1600,12 @@ export default {
     "sha256": "f154f90d179e637bed422dda8ff5fb6c011dd9e39906e455b6db955136b40de7",
     "pages": 75
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

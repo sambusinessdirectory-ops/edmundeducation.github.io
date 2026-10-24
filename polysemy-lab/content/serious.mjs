@@ -261,11 +261,8 @@ export default {
       "masked": "He can move from a ____ to a witty remark in a heartbeat.",
       "options": [
         "serious-mcq-01",
-        "serious-mcq-02",
-        "serious-mcq-03",
-        "serious-mcq-04",
-        "serious-mcq-05",
-        "serious-mcq-06"
+        "serious-mcq-09",
+        "serious-mcq-05"
       ],
       "explanation": "本句的「serious topic」指「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」。",
       "sentenceIndex": 0,
@@ -274,12 +271,9 @@ export default {
         "serious topic"
       ],
       "optionReasons": {
-        "serious-mcq-01": "本句指「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」。",
-        "serious-mcq-02": "「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」是「serious — not joking」的用法，與本句語境不同。",
-        "serious-mcq-03": "「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」是「serious about something」的用法，與本句語境不同。",
-        "serious-mcq-04": "「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」是「serious relationship/student/activity」的用法，與本句語境不同。",
-        "serious-mcq-05": "「表情、語氣或性格較莊重、不輕浮、不苟言笑的」是「serious — manner/personality」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-01": "本句的「serious topic」指「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」。",
+        "serious-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-01"
     },
@@ -291,11 +285,8 @@ export default {
       "masked": "The company is facing a ____.",
       "options": [
         "serious-mcq-01",
-        "serious-mcq-02",
-        "serious-mcq-03",
-        "serious-mcq-04",
-        "serious-mcq-05",
-        "serious-mcq-06"
+        "serious-mcq-09",
+        "serious-mcq-05"
       ],
       "explanation": "本句的「serious problem」指「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」。",
       "sentenceIndex": 1,
@@ -304,12 +295,9 @@ export default {
         "serious problem"
       ],
       "optionReasons": {
-        "serious-mcq-01": "本句指「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」。",
-        "serious-mcq-02": "「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」是「serious — not joking」的用法，與本句語境不同。",
-        "serious-mcq-03": "「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」是「serious about something」的用法，與本句語境不同。",
-        "serious-mcq-04": "「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」是「serious relationship/student/activity」的用法，與本句語境不同。",
-        "serious-mcq-05": "「表情、語氣或性格較莊重、不輕浮、不苟言笑的」是「serious — manner/personality」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-01": "本句的「serious problem」指「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」。",
+        "serious-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-01"
     },
@@ -321,11 +309,8 @@ export default {
       "masked": "This is a ____ and should not be ignored.",
       "options": [
         "serious-mcq-01",
-        "serious-mcq-02",
-        "serious-mcq-03",
-        "serious-mcq-04",
-        "serious-mcq-05",
-        "serious-mcq-06"
+        "serious-mcq-09",
+        "serious-mcq-05"
       ],
       "explanation": "本句的「serious matter」指「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」。",
       "sentenceIndex": 2,
@@ -334,12 +319,9 @@ export default {
         "serious matter"
       ],
       "optionReasons": {
-        "serious-mcq-01": "本句指「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」。",
-        "serious-mcq-02": "「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」是「serious — not joking」的用法，與本句語境不同。",
-        "serious-mcq-03": "「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」是「serious about something」的用法，與本句語境不同。",
-        "serious-mcq-04": "「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」是「serious relationship/student/activity」的用法，與本句語境不同。",
-        "serious-mcq-05": "「表情、語氣或性格較莊重、不輕浮、不苟言笑的」是「serious — manner/personality」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-01": "本句的「serious matter」指「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」。",
+        "serious-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-01"
     },
@@ -351,11 +333,8 @@ export default {
       "masked": "Are you ____, or are you joking?",
       "options": [
         "serious-mcq-02",
-        "serious-mcq-01",
-        "serious-mcq-03",
-        "serious-mcq-04",
         "serious-mcq-05",
-        "serious-mcq-06"
+        "serious-mcq-11"
       ],
       "explanation": "本句的「serious」指「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」。",
       "sentenceIndex": 3,
@@ -364,12 +343,9 @@ export default {
         "serious"
       ],
       "optionReasons": {
-        "serious-mcq-02": "本句指「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」。",
-        "serious-mcq-01": "「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」是「serious — problem/topic/condition」的用法，與本句語境不同。",
-        "serious-mcq-03": "「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」是「serious about something」的用法，與本句語境不同。",
-        "serious-mcq-04": "「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」是「serious relationship/student/activity」的用法，與本句語境不同。",
-        "serious-mcq-05": "「表情、語氣或性格較莊重、不輕浮、不苟言笑的」是「serious — manner/personality」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-02": "本句的「serious」指「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-02"
     },
@@ -381,11 +357,8 @@ export default {
       "masked": "I’m completely ____ about what I just said.",
       "options": [
         "serious-mcq-02",
-        "serious-mcq-01",
-        "serious-mcq-03",
-        "serious-mcq-04",
-        "serious-mcq-05",
-        "serious-mcq-06"
+        "serious-mcq-06",
+        "serious-mcq-05"
       ],
       "explanation": "本句的「serious」指「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」。",
       "sentenceIndex": 4,
@@ -394,12 +367,9 @@ export default {
         "serious"
       ],
       "optionReasons": {
-        "serious-mcq-02": "本句指「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」。",
-        "serious-mcq-01": "「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」是「serious — problem/topic/condition」的用法，與本句語境不同。",
-        "serious-mcq-03": "「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」是「serious about something」的用法，與本句語境不同。",
-        "serious-mcq-04": "「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」是「serious relationship/student/activity」的用法，與本句語境不同。",
-        "serious-mcq-05": "「表情、語氣或性格較莊重、不輕浮、不苟言笑的」是「serious — manner/personality」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-02": "本句的「serious」指「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」。",
+        "serious-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-02"
     },
@@ -411,11 +381,8 @@ export default {
       "masked": "She is ____ learning Cantonese.",
       "options": [
         "serious-mcq-03",
-        "serious-mcq-02",
-        "serious-mcq-04",
-        "serious-mcq-01",
-        "serious-mcq-05",
-        "serious-mcq-06"
+        "serious-mcq-06",
+        "serious-mcq-05"
       ],
       "explanation": "本句的「serious about」指「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」。",
       "sentenceIndex": 5,
@@ -424,12 +391,9 @@ export default {
         "serious about"
       ],
       "optionReasons": {
-        "serious-mcq-03": "本句指「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」。",
-        "serious-mcq-02": "「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」是「serious — not joking」的用法，與本句語境不同。",
-        "serious-mcq-04": "「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」是「serious relationship/student/activity」的用法，與本句語境不同。",
-        "serious-mcq-01": "「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」是「serious — problem/topic/condition」的用法，與本句語境不同。",
-        "serious-mcq-05": "「表情、語氣或性格較莊重、不輕浮、不苟言笑的」是「serious — manner/personality」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-03": "本句的「serious about」指「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」。",
+        "serious-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-03"
     },
@@ -441,11 +405,8 @@ export default {
       "masked": "If you are ____ improving, you need to practise regularly.",
       "options": [
         "serious-mcq-03",
-        "serious-mcq-02",
-        "serious-mcq-04",
-        "serious-mcq-01",
-        "serious-mcq-05",
-        "serious-mcq-06"
+        "serious-mcq-06",
+        "serious-mcq-05"
       ],
       "explanation": "本句的「serious about」指「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」。",
       "sentenceIndex": 6,
@@ -454,12 +415,9 @@ export default {
         "serious about"
       ],
       "optionReasons": {
-        "serious-mcq-03": "本句指「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」。",
-        "serious-mcq-02": "「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」是「serious — not joking」的用法，與本句語境不同。",
-        "serious-mcq-04": "「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」是「serious relationship/student/activity」的用法，與本句語境不同。",
-        "serious-mcq-01": "「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」是「serious — problem/topic/condition」的用法，與本句語境不同。",
-        "serious-mcq-05": "「表情、語氣或性格較莊重、不輕浮、不苟言笑的」是「serious — manner/personality」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-03": "本句的「serious about」指「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」。",
+        "serious-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-03"
     },
@@ -471,11 +429,7 @@ export default {
       "masked": "They are now in a ____.",
       "options": [
         "serious-mcq-04",
-        "serious-mcq-03",
-        "serious-mcq-05",
-        "serious-mcq-02",
-        "serious-mcq-06",
-        "serious-mcq-01"
+        "serious-mcq-05"
       ],
       "explanation": "本句的「serious relationship」指「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」。",
       "sentenceIndex": 7,
@@ -484,12 +438,8 @@ export default {
         "serious relationship"
       ],
       "optionReasons": {
-        "serious-mcq-04": "本句指「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」。",
-        "serious-mcq-03": "「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」是「serious about something」的用法，與本句語境不同。",
-        "serious-mcq-05": "「表情、語氣或性格較莊重、不輕浮、不苟言笑的」是「serious — manner/personality」的用法，與本句語境不同。",
-        "serious-mcq-02": "「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」是「serious — not joking」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。",
-        "serious-mcq-01": "「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」是「serious — problem/topic/condition」的用法，與本句語境不同。"
+        "serious-mcq-04": "本句的「serious relationship」指「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-04"
     },
@@ -501,11 +451,7 @@ export default {
       "masked": "He is a ____ of classical music.",
       "options": [
         "serious-mcq-04",
-        "serious-mcq-03",
-        "serious-mcq-05",
-        "serious-mcq-02",
-        "serious-mcq-06",
-        "serious-mcq-01"
+        "serious-mcq-05"
       ],
       "explanation": "本句的「serious student」指「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」。",
       "sentenceIndex": 8,
@@ -514,12 +460,8 @@ export default {
         "serious student"
       ],
       "optionReasons": {
-        "serious-mcq-04": "本句指「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」。",
-        "serious-mcq-03": "「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」是「serious about something」的用法，與本句語境不同。",
-        "serious-mcq-05": "「表情、語氣或性格較莊重、不輕浮、不苟言笑的」是「serious — manner/personality」的用法，與本句語境不同。",
-        "serious-mcq-02": "「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」是「serious — not joking」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。",
-        "serious-mcq-01": "「事情的重要性、嚴重程度或影響足以令人必須認真處理，而不能輕率對待」是「serious — problem/topic/condition」的用法，與本句語境不同。"
+        "serious-mcq-04": "本句的「serious student」指「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-04"
     },
@@ -531,11 +473,7 @@ export default {
       "masked": "He usually has a very ____.",
       "options": [
         "serious-mcq-05",
-        "serious-mcq-04",
-        "serious-mcq-06",
-        "serious-mcq-03",
-        "serious-mcq-07",
-        "serious-mcq-02"
+        "serious-mcq-04"
       ],
       "explanation": "本句的「serious expression」指「表情、語氣或性格較莊重、不輕浮、不苟言笑的」。",
       "sentenceIndex": 9,
@@ -544,12 +482,8 @@ export default {
         "serious expression"
       ],
       "optionReasons": {
-        "serious-mcq-05": "本句指「表情、語氣或性格較莊重、不輕浮、不苟言笑的」。",
-        "serious-mcq-04": "「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」是「serious relationship/student/activity」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。",
-        "serious-mcq-03": "「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」是「serious about something」的用法，與本句語境不同。",
-        "serious-mcq-07": "「以認真、不是開玩笑的方式」是「seriously — earnestly」的用法，與本句語境不同。",
-        "serious-mcq-02": "「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」是「serious — not joking」的用法，與本句語境不同。"
+        "serious-mcq-05": "本句的「serious expression」指「表情、語氣或性格較莊重、不輕浮、不苟言笑的」。",
+        "serious-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-05"
     },
@@ -561,11 +495,7 @@ export default {
       "masked": "She seems quite ____ when you first meet her.",
       "options": [
         "serious-mcq-05",
-        "serious-mcq-04",
-        "serious-mcq-06",
-        "serious-mcq-03",
-        "serious-mcq-07",
-        "serious-mcq-02"
+        "serious-mcq-04"
       ],
       "explanation": "本句的「serious」指「表情、語氣或性格較莊重、不輕浮、不苟言笑的」。",
       "sentenceIndex": 10,
@@ -574,12 +504,8 @@ export default {
         "serious"
       ],
       "optionReasons": {
-        "serious-mcq-05": "本句指「表情、語氣或性格較莊重、不輕浮、不苟言笑的」。",
-        "serious-mcq-04": "「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」是「serious relationship/student/activity」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。",
-        "serious-mcq-03": "「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」是「serious about something」的用法，與本句語境不同。",
-        "serious-mcq-07": "「以認真、不是開玩笑的方式」是「seriously — earnestly」的用法，與本句語境不同。",
-        "serious-mcq-02": "「說話或態度是真心、認真的，而不是玩笑、戲弄或誇張」是「serious — not joking」的用法，與本句語境不同。"
+        "serious-mcq-05": "本句的「serious」指「表情、語氣或性格較莊重、不輕浮、不苟言笑的」。",
+        "serious-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-05"
     },
@@ -591,11 +517,8 @@ export default {
       "masked": "This camera is designed for ____.",
       "options": [
         "serious-mcq-11",
-        "serious-mcq-10",
         "serious-mcq-09",
-        "serious-mcq-08",
-        "serious-mcq-07",
-        "serious-mcq-06"
+        "serious-mcq-05"
       ],
       "explanation": "本句的「serious photography」指「不是隨便、入門或娛樂性質，而是需要高度投入、知識或技巧的」。",
       "sentenceIndex": 11,
@@ -604,12 +527,9 @@ export default {
         "serious photography"
       ],
       "optionReasons": {
-        "serious-mcq-11": "本句指「不是隨便、入門或娛樂性質，而是需要高度投入、知識或技巧的」。",
-        "serious-mcq-10": "「某件事情的嚴重性、重要性，或某人態度的認真程度」是「seriousness」的用法，與本句語境不同。",
-        "serious-mcq-09": "「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」是「seriously?」的用法，與本句語境不同。",
-        "serious-mcq-08": "「程度嚴重地，例如嚴重受傷或損毀」是「seriously — severely」的用法，與本句語境不同。",
-        "serious-mcq-07": "「以認真、不是開玩笑的方式」是「seriously — earnestly」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-11": "本句的「serious photography」指「不是隨便、入門或娛樂性質，而是需要高度投入、知識或技巧的」。",
+        "serious-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-11"
     },
@@ -621,11 +541,8 @@ export default {
       "masked": "The book is intended for ____ of economics.",
       "options": [
         "serious-mcq-11",
-        "serious-mcq-10",
         "serious-mcq-09",
-        "serious-mcq-08",
-        "serious-mcq-07",
-        "serious-mcq-06"
+        "serious-mcq-05"
       ],
       "explanation": "本句的「serious students」指「不是隨便、入門或娛樂性質，而是需要高度投入、知識或技巧的」。",
       "sentenceIndex": 12,
@@ -634,12 +551,9 @@ export default {
         "serious students"
       ],
       "optionReasons": {
-        "serious-mcq-11": "本句指「不是隨便、入門或娛樂性質，而是需要高度投入、知識或技巧的」。",
-        "serious-mcq-10": "「某件事情的嚴重性、重要性，或某人態度的認真程度」是「seriousness」的用法，與本句語境不同。",
-        "serious-mcq-09": "「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」是「seriously?」的用法，與本句語境不同。",
-        "serious-mcq-08": "「程度嚴重地，例如嚴重受傷或損毀」是「seriously — severely」的用法，與本句語境不同。",
-        "serious-mcq-07": "「以認真、不是開玩笑的方式」是「seriously — earnestly」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-11": "本句的「serious students」指「不是隨便、入門或娛樂性質，而是需要高度投入、知識或技巧的」。",
+        "serious-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-11"
     },
@@ -651,11 +565,8 @@ export default {
       "masked": "That car costs ____.",
       "options": [
         "serious-mcq-06",
-        "serious-mcq-05",
-        "serious-mcq-07",
-        "serious-mcq-04",
-        "serious-mcq-08",
-        "serious-mcq-03"
+        "serious-mcq-03",
+        "serious-mcq-05"
       ],
       "explanation": "本句的「serious money」指「數量非常大或程度相當可觀的；較口語化」。",
       "sentenceIndex": 13,
@@ -664,12 +575,9 @@ export default {
         "serious money"
       ],
       "optionReasons": {
-        "serious-mcq-06": "本句指「數量非常大或程度相當可觀的；較口語化」。",
-        "serious-mcq-05": "「表情、語氣或性格較莊重、不輕浮、不苟言笑的」是「serious — manner/personality」的用法，與本句語境不同。",
-        "serious-mcq-07": "「以認真、不是開玩笑的方式」是「seriously — earnestly」的用法，與本句語境不同。",
-        "serious-mcq-04": "「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」是「serious relationship/student/activity」的用法，與本句語境不同。",
-        "serious-mcq-08": "「程度嚴重地，例如嚴重受傷或損毀」是「seriously — severely」的用法，與本句語境不同。",
-        "serious-mcq-03": "「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」是「serious about something」的用法，與本句語境不同。"
+        "serious-mcq-06": "本句的「serious money」指「數量非常大或程度相當可觀的；較口語化」。",
+        "serious-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-06"
     },
@@ -681,11 +589,8 @@ export default {
       "masked": "The storm caused ____.",
       "options": [
         "serious-mcq-06",
-        "serious-mcq-05",
-        "serious-mcq-07",
-        "serious-mcq-04",
-        "serious-mcq-08",
-        "serious-mcq-03"
+        "serious-mcq-03",
+        "serious-mcq-05"
       ],
       "explanation": "本句的「serious damage」指「數量非常大或程度相當可觀的；較口語化」。",
       "sentenceIndex": 14,
@@ -694,12 +599,9 @@ export default {
         "serious damage"
       ],
       "optionReasons": {
-        "serious-mcq-06": "本句指「數量非常大或程度相當可觀的；較口語化」。",
-        "serious-mcq-05": "「表情、語氣或性格較莊重、不輕浮、不苟言笑的」是「serious — manner/personality」的用法，與本句語境不同。",
-        "serious-mcq-07": "「以認真、不是開玩笑的方式」是「seriously — earnestly」的用法，與本句語境不同。",
-        "serious-mcq-04": "「投入程度高、並非隨意、表面或短暫；屬於「真正投入」的同一核心概念」是「serious relationship/student/activity」的用法，與本句語境不同。",
-        "serious-mcq-08": "「程度嚴重地，例如嚴重受傷或損毀」是「seriously — severely」的用法，與本句語境不同。",
-        "serious-mcq-03": "「對某件事情真正重視、有決心並願意投入，不只是隨便嘗試」是「serious about something」的用法，與本句語境不同。"
+        "serious-mcq-06": "本句的「serious damage」指「數量非常大或程度相當可觀的；較口語化」。",
+        "serious-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-06"
     },
@@ -712,10 +614,7 @@ export default {
       "options": [
         "serious-mcq-09",
         "serious-mcq-08",
-        "serious-mcq-10",
-        "serious-mcq-07",
-        "serious-mcq-11",
-        "serious-mcq-06"
+        "serious-mcq-05"
       ],
       "explanation": "本句的「seriously」指「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」。",
       "sentenceIndex": 15,
@@ -724,12 +623,9 @@ export default {
         "seriously"
       ],
       "optionReasons": {
-        "serious-mcq-09": "本句指「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」。",
-        "serious-mcq-08": "「程度嚴重地，例如嚴重受傷或損毀」是「seriously — severely」的用法，與本句語境不同。",
-        "serious-mcq-10": "「某件事情的嚴重性、重要性，或某人態度的認真程度」是「seriousness」的用法，與本句語境不同。",
-        "serious-mcq-07": "「以認真、不是開玩笑的方式」是「seriously — earnestly」的用法，與本句語境不同。",
-        "serious-mcq-11": "「不是隨便、入門或娛樂性質，而是需要高度投入、知識或技巧的」是「6. serious = requiring substantial skill, effort, or depth（活動／研究） — 高水平的；深入的；」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-09": "本句的「seriously」指「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」。",
+        "serious-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-09"
     },
@@ -742,10 +638,7 @@ export default {
       "options": [
         "serious-mcq-09",
         "serious-mcq-08",
-        "serious-mcq-10",
-        "serious-mcq-07",
-        "serious-mcq-11",
-        "serious-mcq-06"
+        "serious-mcq-05"
       ],
       "explanation": "本句的「seriously」指「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」。",
       "sentenceIndex": 16,
@@ -754,12 +647,9 @@ export default {
         "seriously"
       ],
       "optionReasons": {
-        "serious-mcq-09": "本句指「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」。",
-        "serious-mcq-08": "「程度嚴重地，例如嚴重受傷或損毀」是「seriously — severely」的用法，與本句語境不同。",
-        "serious-mcq-10": "「某件事情的嚴重性、重要性，或某人態度的認真程度」是「seriousness」的用法，與本句語境不同。",
-        "serious-mcq-07": "「以認真、不是開玩笑的方式」是「seriously — earnestly」的用法，與本句語境不同。",
-        "serious-mcq-11": "「不是隨便、入門或娛樂性質，而是需要高度投入、知識或技巧的」是「6. serious = requiring substantial skill, effort, or depth（活動／研究） — 高水平的；深入的；」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-09": "本句的「seriously」指「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」。",
+        "serious-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-09"
     },
@@ -771,10 +661,7 @@ export default {
       "masked": "Two people were ____.",
       "options": [
         "serious-mcq-08",
-        "serious-mcq-07",
         "serious-mcq-09",
-        "serious-mcq-06",
-        "serious-mcq-10",
         "serious-mcq-05"
       ],
       "explanation": "本句的「seriously injured」指「程度嚴重地，例如嚴重受傷或損毀」。",
@@ -784,12 +671,9 @@ export default {
         "seriously injured"
       ],
       "optionReasons": {
-        "serious-mcq-08": "本句指「程度嚴重地，例如嚴重受傷或損毀」。",
-        "serious-mcq-07": "「以認真、不是開玩笑的方式」是「seriously — earnestly」的用法，與本句語境不同。",
-        "serious-mcq-09": "「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」是「seriously?」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。",
-        "serious-mcq-10": "「某件事情的嚴重性、重要性，或某人態度的認真程度」是「seriousness」的用法，與本句語境不同。",
-        "serious-mcq-05": "「表情、語氣或性格較莊重、不輕浮、不苟言笑的」是「serious — manner/personality」的用法，與本句語境不同。"
+        "serious-mcq-08": "本句的「seriously injured」指「程度嚴重地，例如嚴重受傷或損毀」。",
+        "serious-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-08"
     },
@@ -801,10 +685,7 @@ export default {
       "masked": "The building was ____.",
       "options": [
         "serious-mcq-08",
-        "serious-mcq-07",
         "serious-mcq-09",
-        "serious-mcq-06",
-        "serious-mcq-10",
         "serious-mcq-05"
       ],
       "explanation": "本句的「seriously damaged」指「程度嚴重地，例如嚴重受傷或損毀」。",
@@ -814,12 +695,9 @@ export default {
         "seriously damaged"
       ],
       "optionReasons": {
-        "serious-mcq-08": "本句指「程度嚴重地，例如嚴重受傷或損毀」。",
-        "serious-mcq-07": "「以認真、不是開玩笑的方式」是「seriously — earnestly」的用法，與本句語境不同。",
-        "serious-mcq-09": "「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」是「seriously?」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。",
-        "serious-mcq-10": "「某件事情的嚴重性、重要性，或某人態度的認真程度」是「seriousness」的用法，與本句語境不同。",
-        "serious-mcq-05": "「表情、語氣或性格較莊重、不輕浮、不苟言笑的」是「serious — manner/personality」的用法，與本句語境不同。"
+        "serious-mcq-08": "本句的「seriously damaged」指「程度嚴重地，例如嚴重受傷或損毀」。",
+        "serious-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-08"
     },
@@ -831,11 +709,8 @@ export default {
       "masked": "You forgot the tickets again? ____",
       "options": [
         "serious-mcq-09",
-        "serious-mcq-08",
-        "serious-mcq-10",
-        "serious-mcq-07",
         "serious-mcq-11",
-        "serious-mcq-06"
+        "serious-mcq-05"
       ],
       "explanation": "本句的「Seriously?」指「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」。",
       "sentenceIndex": 19,
@@ -844,12 +719,9 @@ export default {
         "Seriously?"
       ],
       "optionReasons": {
-        "serious-mcq-09": "本句指「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」。",
-        "serious-mcq-08": "「程度嚴重地，例如嚴重受傷或損毀」是「seriously — severely」的用法，與本句語境不同。",
-        "serious-mcq-10": "「某件事情的嚴重性、重要性，或某人態度的認真程度」是「seriousness」的用法，與本句語境不同。",
-        "serious-mcq-07": "「以認真、不是開玩笑的方式」是「seriously — earnestly」的用法，與本句語境不同。",
-        "serious-mcq-11": "「不是隨便、入門或娛樂性質，而是需要高度投入、知識或技巧的」是「6. serious = requiring substantial skill, effort, or depth（活動／研究） — 高水平的；深入的；」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-09": "本句的「Seriously?」指「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」。",
+        "serious-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-09"
     },
@@ -862,10 +734,7 @@ export default {
       "options": [
         "serious-mcq-09",
         "serious-mcq-08",
-        "serious-mcq-10",
-        "serious-mcq-07",
-        "serious-mcq-11",
-        "serious-mcq-06"
+        "serious-mcq-05"
       ],
       "explanation": "本句的「Seriously」指「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」。",
       "sentenceIndex": 20,
@@ -874,12 +743,9 @@ export default {
         "Seriously"
       ],
       "optionReasons": {
-        "serious-mcq-09": "本句指「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」。",
-        "serious-mcq-08": "「程度嚴重地，例如嚴重受傷或損毀」是「seriously — severely」的用法，與本句語境不同。",
-        "serious-mcq-10": "「某件事情的嚴重性、重要性，或某人態度的認真程度」是「seriousness」的用法，與本句語境不同。",
-        "serious-mcq-07": "「以認真、不是開玩笑的方式」是「seriously — earnestly」的用法，與本句語境不同。",
-        "serious-mcq-11": "「不是隨便、入門或娛樂性質，而是需要高度投入、知識或技巧的」是「6. serious = requiring substantial skill, effort, or depth（活動／研究） — 高水平的；深入的；」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-09": "本句的「Seriously」指「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」。",
+        "serious-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-09"
     },
@@ -891,11 +757,7 @@ export default {
       "masked": "They underestimated the ____ of the situation.",
       "options": [
         "serious-mcq-10",
-        "serious-mcq-09",
-        "serious-mcq-11",
-        "serious-mcq-08",
-        "serious-mcq-07",
-        "serious-mcq-06"
+        "serious-mcq-05"
       ],
       "explanation": "本句的「seriousness」指「某件事情的嚴重性、重要性，或某人態度的認真程度」。",
       "sentenceIndex": 21,
@@ -904,12 +766,8 @@ export default {
         "seriousness"
       ],
       "optionReasons": {
-        "serious-mcq-10": "本句指「某件事情的嚴重性、重要性，或某人態度的認真程度」。",
-        "serious-mcq-09": "「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」是「seriously?」的用法，與本句語境不同。",
-        "serious-mcq-11": "「不是隨便、入門或娛樂性質，而是需要高度投入、知識或技巧的」是「6. serious = requiring substantial skill, effort, or depth（活動／研究） — 高水平的；深入的；」的用法，與本句語境不同。",
-        "serious-mcq-08": "「程度嚴重地，例如嚴重受傷或損毀」是「seriously — severely」的用法，與本句語境不同。",
-        "serious-mcq-07": "「以認真、不是開玩笑的方式」是「seriously — earnestly」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-10": "本句的「seriousness」指「某件事情的嚴重性、重要性，或某人態度的認真程度」。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-10"
     },
@@ -921,11 +779,7 @@ export default {
       "masked": "His tone showed the ____ of his intentions.",
       "options": [
         "serious-mcq-10",
-        "serious-mcq-09",
-        "serious-mcq-11",
-        "serious-mcq-08",
-        "serious-mcq-07",
-        "serious-mcq-06"
+        "serious-mcq-05"
       ],
       "explanation": "本句的「seriousness」指「某件事情的嚴重性、重要性，或某人態度的認真程度」。",
       "sentenceIndex": 22,
@@ -934,12 +788,8 @@ export default {
         "seriousness"
       ],
       "optionReasons": {
-        "serious-mcq-10": "本句指「某件事情的嚴重性、重要性，或某人態度的認真程度」。",
-        "serious-mcq-09": "「口語中表示驚訝、不相信或不滿；「真的嗎／不是吧」」是「seriously?」的用法，與本句語境不同。",
-        "serious-mcq-11": "「不是隨便、入門或娛樂性質，而是需要高度投入、知識或技巧的」是「6. serious = requiring substantial skill, effort, or depth（活動／研究） — 高水平的；深入的；」的用法，與本句語境不同。",
-        "serious-mcq-08": "「程度嚴重地，例如嚴重受傷或損毀」是「seriously — severely」的用法，與本句語境不同。",
-        "serious-mcq-07": "「以認真、不是開玩笑的方式」是「seriously — earnestly」的用法，與本句語境不同。",
-        "serious-mcq-06": "「數量非常大或程度相當可觀的；較口語化」是「serious money — informal」的用法，與本句語境不同。"
+        "serious-mcq-10": "本句的「seriousness」指「某件事情的嚴重性、重要性，或某人態度的認真程度」。",
+        "serious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serious-mcq-10"
     }
@@ -951,5 +801,7 @@ export default {
     "sha256": "2a9c5b6692e517deba287b3ac284af8cff6db8032eda964815dfbba5abf56857",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

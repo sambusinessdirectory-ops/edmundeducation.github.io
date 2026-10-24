@@ -257,11 +257,8 @@ export default {
       "masked": "A noisy restaurant is far from ____ for serious study.",
       "options": [
         "ideal-mcq-01",
-        "ideal-mcq-02",
-        "ideal-mcq-03",
-        "ideal-mcq-04",
-        "ideal-mcq-05",
-        "ideal-mcq-06"
+        "ideal-mcq-13",
+        "ideal-mcq-09"
       ],
       "explanation": "本句的「ideal」指「對特定目的而言極為合適、最有利或近乎最佳的」。",
       "sentenceIndex": 0,
@@ -270,12 +267,9 @@ export default {
         "ideal"
       ],
       "optionReasons": {
-        "ideal-mcq-01": "本句指「對特定目的而言極為合適、最有利或近乎最佳的」。",
-        "ideal-mcq-02": "「接近心目中最好／最完美的狀態」與本句語境不同。",
-        "ideal-mcq-03": "「假設符合完美條件、用作理論模型或比較標準的」與本句語境不同。",
-        "ideal-mcq-04": "「被視為完美並值得追求的標準／典範」與本句語境不同。",
-        "ideal-mcq-05": "「人認為值得追求、遵守或實現的重要價值、信念或目標」與本句語境不同。",
-        "ideal-mcq-06": "「與理念／抽象觀念而非具體物質現實有關；專門」與本句語境不同。"
+        "ideal-mcq-01": "本句的「ideal」指「對特定目的而言極為合適、最有利或近乎最佳的」。",
+        "ideal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ideal-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-01"
     },
@@ -287,11 +281,8 @@ export default {
       "masked": "This room is ____ for small meetings.",
       "options": [
         "ideal-mcq-01",
-        "ideal-mcq-02",
-        "ideal-mcq-03",
         "ideal-mcq-04",
-        "ideal-mcq-05",
-        "ideal-mcq-06"
+        "ideal-mcq-14"
       ],
       "explanation": "本句的「ideal」指「對特定目的而言極為合適、最有利或近乎最佳的」。",
       "sentenceIndex": 1,
@@ -300,12 +291,9 @@ export default {
         "ideal"
       ],
       "optionReasons": {
-        "ideal-mcq-01": "本句指「對特定目的而言極為合適、最有利或近乎最佳的」。",
-        "ideal-mcq-02": "「接近心目中最好／最完美的狀態」與本句語境不同。",
-        "ideal-mcq-03": "「假設符合完美條件、用作理論模型或比較標準的」與本句語境不同。",
-        "ideal-mcq-04": "「被視為完美並值得追求的標準／典範」與本句語境不同。",
-        "ideal-mcq-05": "「人認為值得追求、遵守或實現的重要價值、信念或目標」與本句語境不同。",
-        "ideal-mcq-06": "「與理念／抽象觀念而非具體物質現實有關；專門」與本句語境不同。"
+        "ideal-mcq-01": "本句的「ideal」指「對特定目的而言極為合適、最有利或近乎最佳的」。",
+        "ideal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ideal-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-01"
     },
@@ -317,11 +305,8 @@ export default {
       "masked": "The mild weather is ____ for hiking.",
       "options": [
         "ideal-mcq-01",
-        "ideal-mcq-02",
-        "ideal-mcq-03",
-        "ideal-mcq-04",
-        "ideal-mcq-05",
-        "ideal-mcq-06"
+        "ideal-mcq-13",
+        "ideal-mcq-09"
       ],
       "explanation": "本句的「ideal」指「對特定目的而言極為合適、最有利或近乎最佳的」。",
       "sentenceIndex": 2,
@@ -330,12 +315,9 @@ export default {
         "ideal"
       ],
       "optionReasons": {
-        "ideal-mcq-01": "本句指「對特定目的而言極為合適、最有利或近乎最佳的」。",
-        "ideal-mcq-02": "「接近心目中最好／最完美的狀態」與本句語境不同。",
-        "ideal-mcq-03": "「假設符合完美條件、用作理論模型或比較標準的」與本句語境不同。",
-        "ideal-mcq-04": "「被視為完美並值得追求的標準／典範」與本句語境不同。",
-        "ideal-mcq-05": "「人認為值得追求、遵守或實現的重要價值、信念或目標」與本句語境不同。",
-        "ideal-mcq-06": "「與理念／抽象觀念而非具體物質現實有關；專門」與本句語境不同。"
+        "ideal-mcq-01": "本句的「ideal」指「對特定目的而言極為合適、最有利或近乎最佳的」。",
+        "ideal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ideal-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-01"
     },
@@ -347,11 +329,8 @@ export default {
       "masked": "Under ____ conditions, the experiment should work perfectly.",
       "options": [
         "ideal-mcq-02",
-        "ideal-mcq-01",
-        "ideal-mcq-03",
-        "ideal-mcq-04",
-        "ideal-mcq-05",
-        "ideal-mcq-06"
+        "ideal-mcq-13",
+        "ideal-mcq-01"
       ],
       "explanation": "本句的「ideal」指「接近心目中最好／最完美的狀態」。",
       "sentenceIndex": 3,
@@ -360,12 +339,9 @@ export default {
         "ideal"
       ],
       "optionReasons": {
-        "ideal-mcq-02": "本句指「接近心目中最好／最完美的狀態」。",
-        "ideal-mcq-01": "「對特定目的而言極為合適、最有利或近乎最佳的」與本句語境不同。",
-        "ideal-mcq-03": "「假設符合完美條件、用作理論模型或比較標準的」與本句語境不同。",
-        "ideal-mcq-04": "「被視為完美並值得追求的標準／典範」與本句語境不同。",
-        "ideal-mcq-05": "「人認為值得追求、遵守或實現的重要價值、信念或目標」與本句語境不同。",
-        "ideal-mcq-06": "「與理念／抽象觀念而非具體物質現實有關；專門」與本句語境不同。"
+        "ideal-mcq-02": "本句的「ideal」指「接近心目中最好／最完美的狀態」。",
+        "ideal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ideal-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-02"
     },
@@ -377,11 +353,8 @@ export default {
       "masked": "It was not an ____ situation, but we managed.",
       "options": [
         "ideal-mcq-02",
-        "ideal-mcq-01",
-        "ideal-mcq-03",
-        "ideal-mcq-04",
-        "ideal-mcq-05",
-        "ideal-mcq-06"
+        "ideal-mcq-13",
+        "ideal-mcq-01"
       ],
       "explanation": "本句的「ideal」指「接近心目中最好／最完美的狀態」。",
       "sentenceIndex": 4,
@@ -390,12 +363,9 @@ export default {
         "ideal"
       ],
       "optionReasons": {
-        "ideal-mcq-02": "本句指「接近心目中最好／最完美的狀態」。",
-        "ideal-mcq-01": "「對特定目的而言極為合適、最有利或近乎最佳的」與本句語境不同。",
-        "ideal-mcq-03": "「假設符合完美條件、用作理論模型或比較標準的」與本句語境不同。",
-        "ideal-mcq-04": "「被視為完美並值得追求的標準／典範」與本句語境不同。",
-        "ideal-mcq-05": "「人認為值得追求、遵守或實現的重要價值、信念或目標」與本句語境不同。",
-        "ideal-mcq-06": "「與理念／抽象觀念而非具體物質現實有關；專門」與本句語境不同。"
+        "ideal-mcq-02": "本句的「ideal」指「接近心目中最好／最完美的狀態」。",
+        "ideal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ideal-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-02"
     },
@@ -407,11 +377,8 @@ export default {
       "masked": "In an ____ world, everyone would have enough time to rest.",
       "options": [
         "ideal-mcq-02",
-        "ideal-mcq-01",
-        "ideal-mcq-03",
-        "ideal-mcq-04",
-        "ideal-mcq-05",
-        "ideal-mcq-06"
+        "ideal-mcq-14",
+        "ideal-mcq-01"
       ],
       "explanation": "本句的「ideal」指「接近心目中最好／最完美的狀態」。",
       "sentenceIndex": 5,
@@ -420,12 +387,9 @@ export default {
         "ideal"
       ],
       "optionReasons": {
-        "ideal-mcq-02": "本句指「接近心目中最好／最完美的狀態」。",
-        "ideal-mcq-01": "「對特定目的而言極為合適、最有利或近乎最佳的」與本句語境不同。",
-        "ideal-mcq-03": "「假設符合完美條件、用作理論模型或比較標準的」與本句語境不同。",
-        "ideal-mcq-04": "「被視為完美並值得追求的標準／典範」與本句語境不同。",
-        "ideal-mcq-05": "「人認為值得追求、遵守或實現的重要價值、信念或目標」與本句語境不同。",
-        "ideal-mcq-06": "「與理念／抽象觀念而非具體物質現實有關；專門」與本句語境不同。"
+        "ideal-mcq-02": "本句的「ideal」指「接近心目中最好／最完美的狀態」。",
+        "ideal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ideal-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-02"
     },
@@ -437,11 +401,8 @@ export default {
       "masked": "The plan works well in the ____ case, but reality is more complicated.",
       "options": [
         "ideal-mcq-02",
-        "ideal-mcq-01",
-        "ideal-mcq-03",
-        "ideal-mcq-04",
-        "ideal-mcq-05",
-        "ideal-mcq-06"
+        "ideal-mcq-14",
+        "ideal-mcq-01"
       ],
       "explanation": "本句的「ideal」指「接近心目中最好／最完美的狀態」。",
       "sentenceIndex": 6,
@@ -450,12 +411,9 @@ export default {
         "ideal"
       ],
       "optionReasons": {
-        "ideal-mcq-02": "本句指「接近心目中最好／最完美的狀態」。",
-        "ideal-mcq-01": "「對特定目的而言極為合適、最有利或近乎最佳的」與本句語境不同。",
-        "ideal-mcq-03": "「假設符合完美條件、用作理論模型或比較標準的」與本句語境不同。",
-        "ideal-mcq-04": "「被視為完美並值得追求的標準／典範」與本句語境不同。",
-        "ideal-mcq-05": "「人認為值得追求、遵守或實現的重要價值、信念或目標」與本句語境不同。",
-        "ideal-mcq-06": "「與理念／抽象觀念而非具體物質現實有關；專門」與本句語境不同。"
+        "ideal-mcq-02": "本句的「ideal」指「接近心目中最好／最完美的狀態」。",
+        "ideal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ideal-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-02"
     },
@@ -467,11 +425,7 @@ export default {
       "masked": "An ____ is a simplified theoretical model.",
       "options": [
         "ideal-mcq-03",
-        "ideal-mcq-02",
-        "ideal-mcq-04",
-        "ideal-mcq-01",
-        "ideal-mcq-05",
-        "ideal-mcq-06"
+        "ideal-mcq-13"
       ],
       "explanation": "本句的「ideal gas」指「假設符合完美條件、用作理論模型或比較標準的」。",
       "sentenceIndex": 7,
@@ -480,12 +434,8 @@ export default {
         "ideal gas"
       ],
       "optionReasons": {
-        "ideal-mcq-03": "本句指「假設符合完美條件、用作理論模型或比較標準的」。",
-        "ideal-mcq-02": "「接近心目中最好／最完美的狀態」與本句語境不同。",
-        "ideal-mcq-04": "「被視為完美並值得追求的標準／典範」與本句語境不同。",
-        "ideal-mcq-01": "「對特定目的而言極為合適、最有利或近乎最佳的」與本句語境不同。",
-        "ideal-mcq-05": "「人認為值得追求、遵守或實現的重要價值、信念或目標」與本句語境不同。",
-        "ideal-mcq-06": "「與理念／抽象觀念而非具體物質現實有關；專門」與本句語境不同。"
+        "ideal-mcq-03": "本句的「ideal gas」指「假設符合完美條件、用作理論模型或比較標準的」。",
+        "ideal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-03"
     },
@@ -497,11 +447,7 @@ export default {
       "masked": "The calculation assumes ____ conditions.",
       "options": [
         "ideal-mcq-03",
-        "ideal-mcq-02",
-        "ideal-mcq-04",
-        "ideal-mcq-01",
-        "ideal-mcq-05",
-        "ideal-mcq-06"
+        "ideal-mcq-14"
       ],
       "explanation": "本句的「ideal」指「假設符合完美條件、用作理論模型或比較標準的」。",
       "sentenceIndex": 8,
@@ -510,12 +456,8 @@ export default {
         "ideal"
       ],
       "optionReasons": {
-        "ideal-mcq-03": "本句指「假設符合完美條件、用作理論模型或比較標準的」。",
-        "ideal-mcq-02": "「接近心目中最好／最完美的狀態」與本句語境不同。",
-        "ideal-mcq-04": "「被視為完美並值得追求的標準／典範」與本句語境不同。",
-        "ideal-mcq-01": "「對特定目的而言極為合適、最有利或近乎最佳的」與本句語境不同。",
-        "ideal-mcq-05": "「人認為值得追求、遵守或實現的重要價值、信念或目標」與本句語境不同。",
-        "ideal-mcq-06": "「與理念／抽象觀念而非具體物質現實有關；專門」與本句語境不同。"
+        "ideal-mcq-03": "本句的「ideal」指「假設符合完美條件、用作理論模型或比較標準的」。",
+        "ideal-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-03"
     },
@@ -527,10 +469,7 @@ export default {
       "masked": "She regarded the school as an ____ of educational excellence.",
       "options": [
         "ideal-mcq-04",
-        "ideal-mcq-03",
-        "ideal-mcq-05",
-        "ideal-mcq-02",
-        "ideal-mcq-06",
+        "ideal-mcq-14",
         "ideal-mcq-01"
       ],
       "explanation": "本句的「ideal」指「被視為完美並值得追求的標準／典範」。",
@@ -540,12 +479,9 @@ export default {
         "ideal"
       ],
       "optionReasons": {
-        "ideal-mcq-04": "本句指「被視為完美並值得追求的標準／典範」。",
-        "ideal-mcq-03": "「假設符合完美條件、用作理論模型或比較標準的」與本句語境不同。",
-        "ideal-mcq-05": "「人認為值得追求、遵守或實現的重要價值、信念或目標」與本句語境不同。",
-        "ideal-mcq-02": "「接近心目中最好／最完美的狀態」與本句語境不同。",
-        "ideal-mcq-06": "「與理念／抽象觀念而非具體物質現實有關；專門」與本句語境不同。",
-        "ideal-mcq-01": "「對特定目的而言極為合適、最有利或近乎最佳的」與本句語境不同。"
+        "ideal-mcq-04": "本句的「ideal」指「被視為完美並值得追求的標準／典範」。",
+        "ideal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ideal-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-04"
     },
@@ -557,11 +493,7 @@ export default {
       "masked": "The design comes close to the ____.",
       "options": [
         "ideal-mcq-04",
-        "ideal-mcq-03",
-        "ideal-mcq-05",
-        "ideal-mcq-02",
-        "ideal-mcq-06",
-        "ideal-mcq-01"
+        "ideal-mcq-08"
       ],
       "explanation": "本句的「ideal」指「被視為完美並值得追求的標準／典範」。",
       "sentenceIndex": 10,
@@ -570,12 +502,8 @@ export default {
         "ideal"
       ],
       "optionReasons": {
-        "ideal-mcq-04": "本句指「被視為完美並值得追求的標準／典範」。",
-        "ideal-mcq-03": "「假設符合完美條件、用作理論模型或比較標準的」與本句語境不同。",
-        "ideal-mcq-05": "「人認為值得追求、遵守或實現的重要價值、信念或目標」與本句語境不同。",
-        "ideal-mcq-02": "「接近心目中最好／最完美的狀態」與本句語境不同。",
-        "ideal-mcq-06": "「與理念／抽象觀念而非具體物質現實有關；專門」與本句語境不同。",
-        "ideal-mcq-01": "「對特定目的而言極為合適、最有利或近乎最佳的」與本句語境不同。"
+        "ideal-mcq-04": "本句的「ideal」指「被視為完美並值得追求的標準／典範」。",
+        "ideal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-04"
     },
@@ -587,11 +515,7 @@ export default {
       "masked": "____, students should have a quiet place to study.",
       "options": [
         "ideal-mcq-08",
-        "ideal-mcq-07",
-        "ideal-mcq-09",
-        "ideal-mcq-06",
-        "ideal-mcq-10",
-        "ideal-mcq-05"
+        "ideal-mcq-04"
       ],
       "explanation": "本句的「Ideally」指「在最理想情況下；或以最合適的方式」。",
       "sentenceIndex": 15,
@@ -600,12 +524,8 @@ export default {
         "Ideally"
       ],
       "optionReasons": {
-        "ideal-mcq-08": "本句指「在最理想情況下；或以最合適的方式」。",
-        "ideal-mcq-07": "「抽象代數環論中的「理想」；高度專門」與本句語境不同。",
-        "ideal-mcq-09": "「把某人／某事想像或描繪得比實際更完美」與本句語境不同。",
-        "ideal-mcq-06": "「與理念／抽象觀念而非具體物質現實有關；專門」與本句語境不同。",
-        "ideal-mcq-10": "「理想化／美化的過程或結果」與本句語境不同。",
-        "ideal-mcq-05": "「人認為值得追求、遵守或實現的重要價值、信念或目標」與本句語境不同。"
+        "ideal-mcq-08": "本句的「Ideally」指「在最理想情況下；或以最合適的方式」。",
+        "ideal-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-08"
     },
@@ -617,11 +537,8 @@ export default {
       "masked": "People sometimes ____ the past.",
       "options": [
         "ideal-mcq-09",
-        "ideal-mcq-08",
-        "ideal-mcq-10",
-        "ideal-mcq-07",
-        "ideal-mcq-11",
-        "ideal-mcq-06"
+        "ideal-mcq-01",
+        "ideal-mcq-13"
       ],
       "explanation": "本句的「idealise」指「把某人／某事想像或描繪得比實際更完美」。",
       "sentenceIndex": 17,
@@ -630,12 +547,9 @@ export default {
         "idealise"
       ],
       "optionReasons": {
-        "ideal-mcq-09": "本句指「把某人／某事想像或描繪得比實際更完美」。",
-        "ideal-mcq-08": "「在最理想情況下；或以最合適的方式」與本句語境不同。",
-        "ideal-mcq-10": "「理想化／美化的過程或結果」與本句語境不同。",
-        "ideal-mcq-07": "「抽象代數環論中的「理想」；高度專門」與本句語境不同。",
-        "ideal-mcq-11": "「以崇高理想和原則為導向的理想主義」與本句語境不同。",
-        "ideal-mcq-06": "「與理念／抽象觀念而非具體物質現實有關；專門」與本句語境不同。"
+        "ideal-mcq-09": "本句的「idealise」指「把某人／某事想像或描繪得比實際更完美」。",
+        "ideal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ideal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-09"
     },
@@ -647,11 +561,8 @@ export default {
       "masked": "The film ____ village life.",
       "options": [
         "ideal-mcq-09",
-        "ideal-mcq-08",
-        "ideal-mcq-10",
-        "ideal-mcq-07",
-        "ideal-mcq-11",
-        "ideal-mcq-06"
+        "ideal-mcq-01",
+        "ideal-mcq-13"
       ],
       "explanation": "本句的「idealizes」指「把某人／某事想像或描繪得比實際更完美」。",
       "sentenceIndex": 18,
@@ -660,12 +571,9 @@ export default {
         "idealizes"
       ],
       "optionReasons": {
-        "ideal-mcq-09": "本句指「把某人／某事想像或描繪得比實際更完美」。",
-        "ideal-mcq-08": "「在最理想情況下；或以最合適的方式」與本句語境不同。",
-        "ideal-mcq-10": "「理想化／美化的過程或結果」與本句語境不同。",
-        "ideal-mcq-07": "「抽象代數環論中的「理想」；高度專門」與本句語境不同。",
-        "ideal-mcq-11": "「以崇高理想和原則為導向的理想主義」與本句語境不同。",
-        "ideal-mcq-06": "「與理念／抽象觀念而非具體物質現實有關；專門」與本句語境不同。"
+        "ideal-mcq-09": "本句的「idealizes」指「把某人／某事想像或描繪得比實際更完美」。",
+        "ideal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ideal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-09"
     },
@@ -677,11 +585,8 @@ export default {
       "masked": "He is an ____ who believes society can be greatly improved.",
       "options": [
         "ideal-mcq-13",
-        "ideal-mcq-12",
-        "ideal-mcq-14",
-        "ideal-mcq-11",
-        "ideal-mcq-10",
-        "ideal-mcq-09"
+        "ideal-mcq-01",
+        "ideal-mcq-02"
       ],
       "explanation": "本句的「idealist」指「強烈相信並追求理想的人；理想主義者」。",
       "sentenceIndex": 21,
@@ -690,12 +595,9 @@ export default {
         "idealist"
       ],
       "optionReasons": {
-        "ideal-mcq-13": "本句指「強烈相信並追求理想的人；理想主義者」。",
-        "ideal-mcq-12": "「唯心主義／觀念論等哲學理論」與本句語境不同。",
-        "ideal-mcq-14": "「以理想為導向的；有時暗示不夠實際」與本句語境不同。",
-        "ideal-mcq-11": "「以崇高理想和原則為導向的理想主義」與本句語境不同。",
-        "ideal-mcq-10": "「理想化／美化的過程或結果」與本句語境不同。",
-        "ideal-mcq-09": "「把某人／某事想像或描繪得比實際更完美」與本句語境不同。"
+        "ideal-mcq-13": "本句的「idealist」指「強烈相信並追求理想的人；理想主義者」。",
+        "ideal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ideal-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-13"
     },
@@ -707,11 +609,8 @@ export default {
       "masked": "The proposal is admirable but perhaps too ____.",
       "options": [
         "ideal-mcq-14",
-        "ideal-mcq-13",
-        "ideal-mcq-12",
-        "ideal-mcq-11",
-        "ideal-mcq-10",
-        "ideal-mcq-09"
+        "ideal-mcq-02",
+        "ideal-mcq-01"
       ],
       "explanation": "本句的「idealistic」指「以理想為導向的；有時暗示不夠實際」。",
       "sentenceIndex": 22,
@@ -720,12 +619,9 @@ export default {
         "idealistic"
       ],
       "optionReasons": {
-        "ideal-mcq-14": "本句指「以理想為導向的；有時暗示不夠實際」。",
-        "ideal-mcq-13": "「強烈相信並追求理想的人；理想主義者」與本句語境不同。",
-        "ideal-mcq-12": "「唯心主義／觀念論等哲學理論」與本句語境不同。",
-        "ideal-mcq-11": "「以崇高理想和原則為導向的理想主義」與本句語境不同。",
-        "ideal-mcq-10": "「理想化／美化的過程或結果」與本句語境不同。",
-        "ideal-mcq-09": "「把某人／某事想像或描繪得比實際更完美」與本句語境不同。"
+        "ideal-mcq-14": "本句的「idealistic」指「以理想為導向的；有時暗示不夠實際」。",
+        "ideal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ideal-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ideal-mcq-14"
     }
@@ -737,5 +633,7 @@ export default {
     "sha256": "8f51e84151cf834f798d2d3cab1bfb90eee1c0cb0e07c56e657dbcf90ed5aa34",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

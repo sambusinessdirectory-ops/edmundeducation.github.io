@@ -531,11 +531,9 @@ export default {
       "masked": "She has a large ____ of art books.",
       "options": [
         "collection-mcq-01",
-        "collection-mcq-02",
-        "collection-mcq-03",
-        "collection-mcq-04",
-        "collection-mcq-05",
-        "collection-mcq-06"
+        "collection-mcq-11",
+        "collection-mcq-07",
+        "collection-mcq-15"
       ],
       "explanation": "本句的「collection」指「因共同興趣、價值或用途而集中保存的一組物品」。",
       "sentenceIndex": 0,
@@ -544,12 +542,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-01": "本句指「因共同興趣、價值或用途而集中保存的一組物品」。",
-        "collection-mcq-02": "「博物館／美術館所擁有、保存和展示的藝術品或文物整體」是「collection — museum」的用法，與本句語境不同。",
-        "collection-mcq-03": "「個人因興趣而有系統保存的一組同類物品」是「collection — personal hobby」的用法，與本句語境不同。",
-        "collection-mcq-04": "「被編排在一起的一組文章、故事、照片、音樂或作品」是「collection — works/texts」的用法，與本句語境不同。",
-        "collection-mcq-05": "「集合在一起的一組／一批事物」是「collection — assortment」的用法，與本句語境不同。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。"
+        "collection-mcq-01": "本句的「collection」指「因共同興趣、價值或用途而集中保存的一組物品」。",
+        "collection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-01"
     },
@@ -561,11 +557,9 @@ export default {
       "masked": "The museum owns an important ____ of paintings.",
       "options": [
         "collection-mcq-01",
-        "collection-mcq-02",
-        "collection-mcq-03",
-        "collection-mcq-04",
-        "collection-mcq-05",
-        "collection-mcq-06"
+        "collection-mcq-11",
+        "collection-mcq-15",
+        "collection-mcq-07"
       ],
       "explanation": "本句的「collection」指「因共同興趣、價值或用途而集中保存的一組物品」。",
       "sentenceIndex": 1,
@@ -574,12 +568,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-01": "本句指「因共同興趣、價值或用途而集中保存的一組物品」。",
-        "collection-mcq-02": "「博物館／美術館所擁有、保存和展示的藝術品或文物整體」是「collection — museum」的用法，與本句語境不同。",
-        "collection-mcq-03": "「個人因興趣而有系統保存的一組同類物品」是「collection — personal hobby」的用法，與本句語境不同。",
-        "collection-mcq-04": "「被編排在一起的一組文章、故事、照片、音樂或作品」是「collection — works/texts」的用法，與本句語境不同。",
-        "collection-mcq-05": "「集合在一起的一組／一批事物」是「collection — assortment」的用法，與本句語境不同。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。"
+        "collection-mcq-01": "本句的「collection」指「因共同興趣、價值或用途而集中保存的一組物品」。",
+        "collection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-01"
     },
@@ -591,11 +583,9 @@ export default {
       "masked": "I saw it again in online museum ____.",
       "options": [
         "collection-mcq-02",
-        "collection-mcq-01",
-        "collection-mcq-03",
-        "collection-mcq-04",
-        "collection-mcq-05",
-        "collection-mcq-06"
+        "collection-mcq-22",
+        "collection-mcq-11",
+        "collection-mcq-05"
       ],
       "explanation": "本句的「collections」指「博物館／美術館所擁有、保存和展示的藝術品或文物整體」。",
       "sentenceIndex": 2,
@@ -604,12 +594,10 @@ export default {
         "collections"
       ],
       "optionReasons": {
-        "collection-mcq-02": "本句指「博物館／美術館所擁有、保存和展示的藝術品或文物整體」。",
-        "collection-mcq-01": "「因共同興趣、價值或用途而集中保存的一組物品」是「collection — gathered objects」的用法，與本句語境不同。",
-        "collection-mcq-03": "「個人因興趣而有系統保存的一組同類物品」是「collection — personal hobby」的用法，與本句語境不同。",
-        "collection-mcq-04": "「被編排在一起的一組文章、故事、照片、音樂或作品」是「collection — works/texts」的用法，與本句語境不同。",
-        "collection-mcq-05": "「集合在一起的一組／一批事物」是「collection — assortment」的用法，與本句語境不同。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。"
+        "collection-mcq-02": "本句的「collections」指「博物館／美術館所擁有、保存和展示的藝術品或文物整體」。",
+        "collection-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-02"
     },
@@ -621,11 +609,9 @@ export default {
       "masked": "The painting belongs to the museum’s permanent ____.",
       "options": [
         "collection-mcq-02",
-        "collection-mcq-01",
-        "collection-mcq-03",
-        "collection-mcq-04",
-        "collection-mcq-05",
-        "collection-mcq-06"
+        "collection-mcq-11",
+        "collection-mcq-15",
+        "collection-mcq-10"
       ],
       "explanation": "本句的「collection」指「博物館／美術館所擁有、保存和展示的藝術品或文物整體」。",
       "sentenceIndex": 3,
@@ -634,12 +620,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-02": "本句指「博物館／美術館所擁有、保存和展示的藝術品或文物整體」。",
-        "collection-mcq-01": "「因共同興趣、價值或用途而集中保存的一組物品」是「collection — gathered objects」的用法，與本句語境不同。",
-        "collection-mcq-03": "「個人因興趣而有系統保存的一組同類物品」是「collection — personal hobby」的用法，與本句語境不同。",
-        "collection-mcq-04": "「被編排在一起的一組文章、故事、照片、音樂或作品」是「collection — works/texts」的用法，與本句語境不同。",
-        "collection-mcq-05": "「集合在一起的一組／一批事物」是「collection — assortment」的用法，與本句語境不同。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。"
+        "collection-mcq-02": "本句的「collection」指「博物館／美術館所擁有、保存和展示的藝術品或文物整體」。",
+        "collection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-02"
     },
@@ -651,11 +635,9 @@ export default {
       "masked": "He has a stamp ____.",
       "options": [
         "collection-mcq-03",
-        "collection-mcq-02",
-        "collection-mcq-04",
-        "collection-mcq-01",
-        "collection-mcq-05",
-        "collection-mcq-06"
+        "collection-mcq-11",
+        "collection-mcq-16",
+        "collection-mcq-13"
       ],
       "explanation": "本句的「collection」指「個人因興趣而有系統保存的一組同類物品」。",
       "sentenceIndex": 4,
@@ -664,12 +646,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-03": "本句指「個人因興趣而有系統保存的一組同類物品」。",
-        "collection-mcq-02": "「博物館／美術館所擁有、保存和展示的藝術品或文物整體」是「collection — museum」的用法，與本句語境不同。",
-        "collection-mcq-04": "「被編排在一起的一組文章、故事、照片、音樂或作品」是「collection — works/texts」的用法，與本句語境不同。",
-        "collection-mcq-01": "「因共同興趣、價值或用途而集中保存的一組物品」是「collection — gathered objects」的用法，與本句語境不同。",
-        "collection-mcq-05": "「集合在一起的一組／一批事物」是「collection — assortment」的用法，與本句語境不同。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。"
+        "collection-mcq-03": "本句的「collection」指「個人因興趣而有系統保存的一組同類物品」。",
+        "collection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-03"
     },
@@ -681,11 +661,9 @@ export default {
       "masked": "Her record ____ takes up an entire wall.",
       "options": [
         "collection-mcq-03",
-        "collection-mcq-02",
-        "collection-mcq-04",
-        "collection-mcq-01",
-        "collection-mcq-05",
-        "collection-mcq-06"
+        "collection-mcq-11",
+        "collection-mcq-15",
+        "collection-mcq-13"
       ],
       "explanation": "本句的「collection」指「個人因興趣而有系統保存的一組同類物品」。",
       "sentenceIndex": 5,
@@ -694,12 +672,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-03": "本句指「個人因興趣而有系統保存的一組同類物品」。",
-        "collection-mcq-02": "「博物館／美術館所擁有、保存和展示的藝術品或文物整體」是「collection — museum」的用法，與本句語境不同。",
-        "collection-mcq-04": "「被編排在一起的一組文章、故事、照片、音樂或作品」是「collection — works/texts」的用法，與本句語境不同。",
-        "collection-mcq-01": "「因共同興趣、價值或用途而集中保存的一組物品」是「collection — gathered objects」的用法，與本句語境不同。",
-        "collection-mcq-05": "「集合在一起的一組／一批事物」是「collection — assortment」的用法，與本句語境不同。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。"
+        "collection-mcq-03": "本句的「collection」指「個人因興趣而有系統保存的一組同類物品」。",
+        "collection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-03"
     },
@@ -711,11 +687,9 @@ export default {
       "masked": "The book is a ____ of short stories.",
       "options": [
         "collection-mcq-04",
-        "collection-mcq-03",
-        "collection-mcq-05",
-        "collection-mcq-02",
-        "collection-mcq-06",
-        "collection-mcq-01"
+        "collection-mcq-08",
+        "collection-mcq-17",
+        "collection-mcq-23"
       ],
       "explanation": "本句的「collection」指「被編排在一起的一組文章、故事、照片、音樂或作品」。",
       "sentenceIndex": 6,
@@ -724,12 +698,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-04": "本句指「被編排在一起的一組文章、故事、照片、音樂或作品」。",
-        "collection-mcq-03": "「個人因興趣而有系統保存的一組同類物品」是「collection — personal hobby」的用法，與本句語境不同。",
-        "collection-mcq-05": "「集合在一起的一組／一批事物」是「collection — assortment」的用法，與本句語境不同。",
-        "collection-mcq-02": "「博物館／美術館所擁有、保存和展示的藝術品或文物整體」是「collection — museum」的用法，與本句語境不同。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。",
-        "collection-mcq-01": "「因共同興趣、價值或用途而集中保存的一組物品」是「collection — gathered objects」的用法，與本句語境不同。"
+        "collection-mcq-04": "本句的「collection」指「被編排在一起的一組文章、故事、照片、音樂或作品」。",
+        "collection-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-04"
     },
@@ -741,11 +713,9 @@ export default {
       "masked": "The website has a ____ of historical photographs.",
       "options": [
         "collection-mcq-04",
-        "collection-mcq-03",
-        "collection-mcq-05",
-        "collection-mcq-02",
-        "collection-mcq-06",
-        "collection-mcq-01"
+        "collection-mcq-08",
+        "collection-mcq-22",
+        "collection-mcq-15"
       ],
       "explanation": "本句的「collection」指「被編排在一起的一組文章、故事、照片、音樂或作品」。",
       "sentenceIndex": 7,
@@ -754,12 +724,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-04": "本句指「被編排在一起的一組文章、故事、照片、音樂或作品」。",
-        "collection-mcq-03": "「個人因興趣而有系統保存的一組同類物品」是「collection — personal hobby」的用法，與本句語境不同。",
-        "collection-mcq-05": "「集合在一起的一組／一批事物」是「collection — assortment」的用法，與本句語境不同。",
-        "collection-mcq-02": "「博物館／美術館所擁有、保存和展示的藝術品或文物整體」是「collection — museum」的用法，與本句語境不同。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。",
-        "collection-mcq-01": "「因共同興趣、價值或用途而集中保存的一組物品」是「collection — gathered objects」的用法，與本句語境不同。"
+        "collection-mcq-04": "本句的「collection」指「被編排在一起的一組文章、故事、照片、音樂或作品」。",
+        "collection-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-04"
     },
@@ -771,11 +739,9 @@ export default {
       "masked": "There was a strange ____ of objects on the table.",
       "options": [
         "collection-mcq-05",
-        "collection-mcq-04",
-        "collection-mcq-06",
-        "collection-mcq-03",
-        "collection-mcq-07",
-        "collection-mcq-02"
+        "collection-mcq-20",
+        "collection-mcq-14",
+        "collection-mcq-15"
       ],
       "explanation": "本句的「collection」指「集合在一起的一組／一批事物」。",
       "sentenceIndex": 8,
@@ -784,12 +750,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-05": "本句指「集合在一起的一組／一批事物」。",
-        "collection-mcq-04": "「被編排在一起的一組文章、故事、照片、音樂或作品」是「collection — works/texts」的用法，與本句語境不同。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。",
-        "collection-mcq-03": "「個人因興趣而有系統保存的一組同類物品」是「collection — personal hobby」的用法，與本句語境不同。",
-        "collection-mcq-07": "「系統性取得、記錄和整理資料的過程」是「data collection」的用法，與本句語境不同。",
-        "collection-mcq-02": "「博物館／美術館所擁有、保存和展示的藝術品或文物整體」是「collection — museum」的用法，與本句語境不同。"
+        "collection-mcq-05": "本句的「collection」指「集合在一起的一組／一批事物」。",
+        "collection-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-05"
     },
@@ -801,11 +765,9 @@ export default {
       "masked": "The room contained a ____ of old furniture.",
       "options": [
         "collection-mcq-05",
-        "collection-mcq-04",
-        "collection-mcq-06",
-        "collection-mcq-03",
-        "collection-mcq-07",
-        "collection-mcq-02"
+        "collection-mcq-20",
+        "collection-mcq-14",
+        "collection-mcq-11"
       ],
       "explanation": "本句的「collection」指「集合在一起的一組／一批事物」。",
       "sentenceIndex": 9,
@@ -814,12 +776,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-05": "本句指「集合在一起的一組／一批事物」。",
-        "collection-mcq-04": "「被編排在一起的一組文章、故事、照片、音樂或作品」是「collection — works/texts」的用法，與本句語境不同。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。",
-        "collection-mcq-03": "「個人因興趣而有系統保存的一組同類物品」是「collection — personal hobby」的用法，與本句語境不同。",
-        "collection-mcq-07": "「系統性取得、記錄和整理資料的過程」是「data collection」的用法，與本句語境不同。",
-        "collection-mcq-02": "「博物館／美術館所擁有、保存和展示的藝術品或文物整體」是「collection — museum」的用法，與本句語境不同。"
+        "collection-mcq-05": "本句的「collection」指「集合在一起的一組／一批事物」。",
+        "collection-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-05"
     },
@@ -831,11 +791,9 @@ export default {
       "masked": "Data ____ took six months.",
       "options": [
         "collection-mcq-06",
-        "collection-mcq-05",
-        "collection-mcq-07",
-        "collection-mcq-04",
-        "collection-mcq-08",
-        "collection-mcq-03"
+        "collection-mcq-20",
+        "collection-mcq-17",
+        "collection-mcq-15"
       ],
       "explanation": "本句的「collection」指「把資料、物品、樣本等集中起來的行為／過程」。",
       "sentenceIndex": 10,
@@ -844,12 +802,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-06": "本句指「把資料、物品、樣本等集中起來的行為／過程」。",
-        "collection-mcq-05": "「集合在一起的一組／一批事物」是「collection — assortment」的用法，與本句語境不同。",
-        "collection-mcq-07": "「系統性取得、記錄和整理資料的過程」是「data collection」的用法，與本句語境不同。",
-        "collection-mcq-04": "「被編排在一起的一組文章、故事、照片、音樂或作品」是「collection — works/texts」的用法，與本句語境不同。",
-        "collection-mcq-08": "「為某目的向多人收集金錢／募款」是「collection — money」的用法，與本句語境不同。",
-        "collection-mcq-03": "「個人因興趣而有系統保存的一組同類物品」是「collection — personal hobby」的用法，與本句語境不同。"
+        "collection-mcq-06": "本句的「collection」指「把資料、物品、樣本等集中起來的行為／過程」。",
+        "collection-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-06"
     },
@@ -861,11 +817,9 @@ export default {
       "masked": "The ____ of samples began in spring.",
       "options": [
         "collection-mcq-06",
-        "collection-mcq-05",
-        "collection-mcq-07",
-        "collection-mcq-04",
-        "collection-mcq-08",
-        "collection-mcq-03"
+        "collection-mcq-16",
+        "collection-mcq-02",
+        "collection-mcq-12"
       ],
       "explanation": "本句的「collection」指「把資料、物品、樣本等集中起來的行為／過程」。",
       "sentenceIndex": 11,
@@ -874,12 +828,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-06": "本句指「把資料、物品、樣本等集中起來的行為／過程」。",
-        "collection-mcq-05": "「集合在一起的一組／一批事物」是「collection — assortment」的用法，與本句語境不同。",
-        "collection-mcq-07": "「系統性取得、記錄和整理資料的過程」是「data collection」的用法，與本句語境不同。",
-        "collection-mcq-04": "「被編排在一起的一組文章、故事、照片、音樂或作品」是「collection — works/texts」的用法，與本句語境不同。",
-        "collection-mcq-08": "「為某目的向多人收集金錢／募款」是「collection — money」的用法，與本句語境不同。",
-        "collection-mcq-03": "「個人因興趣而有系統保存的一組同類物品」是「collection — personal hobby」的用法，與本句語境不同。"
+        "collection-mcq-06": "本句的「collection」指「把資料、物品、樣本等集中起來的行為／過程」。",
+        "collection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-06"
     },
@@ -891,11 +843,9 @@ export default {
       "masked": "The research team improved its ____ methods.",
       "options": [
         "collection-mcq-07",
-        "collection-mcq-06",
-        "collection-mcq-08",
-        "collection-mcq-05",
-        "collection-mcq-09",
-        "collection-mcq-04"
+        "collection-mcq-11",
+        "collection-mcq-17",
+        "collection-mcq-05"
       ],
       "explanation": "本句的「data collection」指「系統性取得、記錄和整理資料的過程」。",
       "sentenceIndex": 12,
@@ -904,12 +854,10 @@ export default {
         "data collection"
       ],
       "optionReasons": {
-        "collection-mcq-07": "本句指「系統性取得、記錄和整理資料的過程」。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。",
-        "collection-mcq-08": "「為某目的向多人收集金錢／募款」是「collection — money」的用法，與本句語境不同。",
-        "collection-mcq-05": "「集合在一起的一組／一批事物」是「collection — assortment」的用法，與本句語境不同。",
-        "collection-mcq-09": "「政府依法收取稅款的過程」是「tax collection」的用法，與本句語境不同。",
-        "collection-mcq-04": "「被編排在一起的一組文章、故事、照片、音樂或作品」是「collection — works/texts」的用法，與本句語境不同。"
+        "collection-mcq-07": "本句的「data collection」指「系統性取得、記錄和整理資料的過程」。",
+        "collection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-07"
     },
@@ -921,11 +869,9 @@ export default {
       "masked": "Accurate data ____ is essential.",
       "options": [
         "collection-mcq-07",
-        "collection-mcq-06",
-        "collection-mcq-08",
+        "collection-mcq-21",
         "collection-mcq-05",
-        "collection-mcq-09",
-        "collection-mcq-04"
+        "collection-mcq-17"
       ],
       "explanation": "本句的「collection」指「系統性取得、記錄和整理資料的過程」。",
       "sentenceIndex": 13,
@@ -934,12 +880,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-07": "本句指「系統性取得、記錄和整理資料的過程」。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。",
-        "collection-mcq-08": "「為某目的向多人收集金錢／募款」是「collection — money」的用法，與本句語境不同。",
-        "collection-mcq-05": "「集合在一起的一組／一批事物」是「collection — assortment」的用法，與本句語境不同。",
-        "collection-mcq-09": "「政府依法收取稅款的過程」是「tax collection」的用法，與本句語境不同。",
-        "collection-mcq-04": "「被編排在一起的一組文章、故事、照片、音樂或作品」是「collection — works/texts」的用法，與本句語境不同。"
+        "collection-mcq-07": "本句的「collection」指「系統性取得、記錄和整理資料的過程」。",
+        "collection-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-07"
     },
@@ -951,11 +895,9 @@ export default {
       "masked": "They held a ____ for the local charity.",
       "options": [
         "collection-mcq-08",
-        "collection-mcq-07",
-        "collection-mcq-09",
-        "collection-mcq-06",
-        "collection-mcq-10",
-        "collection-mcq-05"
+        "collection-mcq-04",
+        "collection-mcq-12",
+        "collection-mcq-14"
       ],
       "explanation": "本句的「collection」指「為某目的向多人收集金錢／募款」。",
       "sentenceIndex": 14,
@@ -964,12 +906,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-08": "本句指「為某目的向多人收集金錢／募款」。",
-        "collection-mcq-07": "「系統性取得、記錄和整理資料的過程」是「data collection」的用法，與本句語境不同。",
-        "collection-mcq-09": "「政府依法收取稅款的過程」是「tax collection」的用法，與本句語境不同。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。",
-        "collection-mcq-10": "「向欠款人追討未支付款項的過程」是「debt collection」的用法，與本句語境不同。",
-        "collection-mcq-05": "「集合在一起的一組／一批事物」是「collection — assortment」的用法，與本句語境不同。"
+        "collection-mcq-08": "本句的「collection」指「為某目的向多人收集金錢／募款」。",
+        "collection-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-08"
     },
@@ -982,10 +922,8 @@ export default {
       "options": [
         "collection-mcq-08",
         "collection-mcq-07",
-        "collection-mcq-09",
-        "collection-mcq-06",
-        "collection-mcq-10",
-        "collection-mcq-05"
+        "collection-mcq-12",
+        "collection-mcq-02"
       ],
       "explanation": "本句的「collection」指「為某目的向多人收集金錢／募款」。",
       "sentenceIndex": 15,
@@ -994,12 +932,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-08": "本句指「為某目的向多人收集金錢／募款」。",
-        "collection-mcq-07": "「系統性取得、記錄和整理資料的過程」是「data collection」的用法，與本句語境不同。",
-        "collection-mcq-09": "「政府依法收取稅款的過程」是「tax collection」的用法，與本句語境不同。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。",
-        "collection-mcq-10": "「向欠款人追討未支付款項的過程」是「debt collection」的用法，與本句語境不同。",
-        "collection-mcq-05": "「集合在一起的一組／一批事物」是「collection — assortment」的用法，與本句語境不同。"
+        "collection-mcq-08": "本句的「collection」指「為某目的向多人收集金錢／募款」。",
+        "collection-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-08"
     },
@@ -1011,11 +947,9 @@ export default {
       "masked": "The agency is responsible for ____.",
       "options": [
         "collection-mcq-09",
-        "collection-mcq-08",
-        "collection-mcq-10",
-        "collection-mcq-07",
-        "collection-mcq-11",
-        "collection-mcq-06"
+        "collection-mcq-12",
+        "collection-mcq-05",
+        "collection-mcq-17"
       ],
       "explanation": "本句的「tax collection」指「政府依法收取稅款的過程」。",
       "sentenceIndex": 16,
@@ -1024,12 +958,10 @@ export default {
         "tax collection"
       ],
       "optionReasons": {
-        "collection-mcq-09": "本句指「政府依法收取稅款的過程」。",
-        "collection-mcq-08": "「為某目的向多人收集金錢／募款」是「collection — money」的用法，與本句語境不同。",
-        "collection-mcq-10": "「向欠款人追討未支付款項的過程」是「debt collection」的用法，與本句語境不同。",
-        "collection-mcq-07": "「系統性取得、記錄和整理資料的過程」是「data collection」的用法，與本句語境不同。",
-        "collection-mcq-11": "「按安排收走垃圾、包裹、郵件等的行動」是「collection — pickup/service」的用法，與本句語境不同。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。"
+        "collection-mcq-09": "本句的「tax collection」指「政府依法收取稅款的過程」。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-09"
     },
@@ -1041,11 +973,9 @@ export default {
       "masked": "Efficient tax ____ supports public services.",
       "options": [
         "collection-mcq-09",
-        "collection-mcq-08",
-        "collection-mcq-10",
-        "collection-mcq-07",
-        "collection-mcq-11",
-        "collection-mcq-06"
+        "collection-mcq-03",
+        "collection-mcq-23",
+        "collection-mcq-17"
       ],
       "explanation": "本句的「collection」指「政府依法收取稅款的過程」。",
       "sentenceIndex": 17,
@@ -1054,12 +984,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-09": "本句指「政府依法收取稅款的過程」。",
-        "collection-mcq-08": "「為某目的向多人收集金錢／募款」是「collection — money」的用法，與本句語境不同。",
-        "collection-mcq-10": "「向欠款人追討未支付款項的過程」是「debt collection」的用法，與本句語境不同。",
-        "collection-mcq-07": "「系統性取得、記錄和整理資料的過程」是「data collection」的用法，與本句語境不同。",
-        "collection-mcq-11": "「按安排收走垃圾、包裹、郵件等的行動」是「collection — pickup/service」的用法，與本句語境不同。",
-        "collection-mcq-06": "「把資料、物品、樣本等集中起來的行為／過程」是「collection — process」的用法，與本句語境不同。"
+        "collection-mcq-09": "本句的「collection」指「政府依法收取稅款的過程」。",
+        "collection-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-09"
     },
@@ -1071,11 +999,9 @@ export default {
       "masked": "The company hired a ____ agency.",
       "options": [
         "collection-mcq-10",
-        "collection-mcq-09",
-        "collection-mcq-11",
-        "collection-mcq-08",
-        "collection-mcq-12",
-        "collection-mcq-07"
+        "collection-mcq-17",
+        "collection-mcq-18",
+        "collection-mcq-15"
       ],
       "explanation": "本句的「debt collection」指「向欠款人追討未支付款項的過程」。",
       "sentenceIndex": 18,
@@ -1084,12 +1010,10 @@ export default {
         "debt collection"
       ],
       "optionReasons": {
-        "collection-mcq-10": "本句指「向欠款人追討未支付款項的過程」。",
-        "collection-mcq-09": "「政府依法收取稅款的過程」是「tax collection」的用法，與本句語境不同。",
-        "collection-mcq-11": "「按安排收走垃圾、包裹、郵件等的行動」是「collection — pickup/service」的用法，與本句語境不同。",
-        "collection-mcq-08": "「為某目的向多人收集金錢／募款」是「collection — money」的用法，與本句語境不同。",
-        "collection-mcq-12": "「同一季、主題或概念下推出的一整組相關產品」是「collection — fashion/design」的用法，與本句語境不同。",
-        "collection-mcq-07": "「系統性取得、記錄和整理資料的過程」是「data collection」的用法，與本句語境不同。"
+        "collection-mcq-10": "本句的「debt collection」指「向欠款人追討未支付款項的過程」。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-10"
     },
@@ -1101,11 +1025,9 @@ export default {
       "masked": "Debt ____ is regulated in many places.",
       "options": [
         "collection-mcq-10",
-        "collection-mcq-09",
-        "collection-mcq-11",
-        "collection-mcq-08",
-        "collection-mcq-12",
-        "collection-mcq-07"
+        "collection-mcq-18",
+        "collection-mcq-17",
+        "collection-mcq-12"
       ],
       "explanation": "本句的「collection」指「向欠款人追討未支付款項的過程」。",
       "sentenceIndex": 19,
@@ -1114,12 +1036,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-10": "本句指「向欠款人追討未支付款項的過程」。",
-        "collection-mcq-09": "「政府依法收取稅款的過程」是「tax collection」的用法，與本句語境不同。",
-        "collection-mcq-11": "「按安排收走垃圾、包裹、郵件等的行動」是「collection — pickup/service」的用法，與本句語境不同。",
-        "collection-mcq-08": "「為某目的向多人收集金錢／募款」是「collection — money」的用法，與本句語境不同。",
-        "collection-mcq-12": "「同一季、主題或概念下推出的一整組相關產品」是「collection — fashion/design」的用法，與本句語境不同。",
-        "collection-mcq-07": "「系統性取得、記錄和整理資料的過程」是「data collection」的用法，與本句語境不同。"
+        "collection-mcq-10": "本句的「collection」指「向欠款人追討未支付款項的過程」。",
+        "collection-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-10"
     },
@@ -1131,11 +1051,9 @@ export default {
       "masked": "The rubbish ____ is on Monday.",
       "options": [
         "collection-mcq-11",
-        "collection-mcq-10",
-        "collection-mcq-12",
-        "collection-mcq-09",
-        "collection-mcq-13",
-        "collection-mcq-08"
+        "collection-mcq-05",
+        "collection-mcq-17",
+        "collection-mcq-23"
       ],
       "explanation": "本句的「collection」指「按安排收走垃圾、包裹、郵件等的行動」。",
       "sentenceIndex": 20,
@@ -1144,12 +1062,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-11": "本句指「按安排收走垃圾、包裹、郵件等的行動」。",
-        "collection-mcq-10": "「向欠款人追討未支付款項的過程」是「debt collection」的用法，與本句語境不同。",
-        "collection-mcq-12": "「同一季、主題或概念下推出的一整組相關產品」是「collection — fashion/design」的用法，與本句語境不同。",
-        "collection-mcq-09": "「政府依法收取稅款的過程」是「tax collection」的用法，與本句語境不同。",
-        "collection-mcq-13": "「把分散的人、物、資料等集中起來」是「collect — gather」的用法，與本句語境不同。",
-        "collection-mcq-08": "「為某目的向多人收集金錢／募款」是「collection — money」的用法，與本句語境不同。"
+        "collection-mcq-11": "本句的「collection」指「按安排收走垃圾、包裹、郵件等的行動」。",
+        "collection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-11"
     },
@@ -1161,11 +1077,9 @@ export default {
       "masked": "We arranged a ____ for the parcel.",
       "options": [
         "collection-mcq-11",
-        "collection-mcq-10",
-        "collection-mcq-12",
-        "collection-mcq-09",
-        "collection-mcq-13",
-        "collection-mcq-08"
+        "collection-mcq-03",
+        "collection-mcq-23",
+        "collection-mcq-12"
       ],
       "explanation": "本句的「collection」指「按安排收走垃圾、包裹、郵件等的行動」。",
       "sentenceIndex": 21,
@@ -1174,12 +1088,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-11": "本句指「按安排收走垃圾、包裹、郵件等的行動」。",
-        "collection-mcq-10": "「向欠款人追討未支付款項的過程」是「debt collection」的用法，與本句語境不同。",
-        "collection-mcq-12": "「同一季、主題或概念下推出的一整組相關產品」是「collection — fashion/design」的用法，與本句語境不同。",
-        "collection-mcq-09": "「政府依法收取稅款的過程」是「tax collection」的用法，與本句語境不同。",
-        "collection-mcq-13": "「把分散的人、物、資料等集中起來」是「collect — gather」的用法，與本句語境不同。",
-        "collection-mcq-08": "「為某目的向多人收集金錢／募款」是「collection — money」的用法，與本句語境不同。"
+        "collection-mcq-11": "本句的「collection」指「按安排收走垃圾、包裹、郵件等的行動」。",
+        "collection-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-11"
     },
@@ -1191,11 +1103,9 @@ export default {
       "masked": "Leave the package at the ____.",
       "options": [
         "collection-mcq-22",
-        "collection-mcq-21",
-        "collection-mcq-23",
-        "collection-mcq-20",
-        "collection-mcq-19",
-        "collection-mcq-18"
+        "collection-mcq-10",
+        "collection-mcq-04",
+        "collection-mcq-12"
       ],
       "explanation": "本句的「collection point」指「集中放置／收取物件的指定位置」。",
       "sentenceIndex": 22,
@@ -1204,12 +1114,10 @@ export default {
         "collection point"
       ],
       "optionReasons": {
-        "collection-mcq-22": "本句指「集中放置／收取物件的指定位置」。",
-        "collection-mcq-21": "「被人收藏並通常具有稀有／紀念／市場價值的物品」是「collectible — noun」的用法，與本句語境不同。",
-        "collection-mcq-23": "「把散亂的情緒／思緒重新集中整理」是「20. collect oneself / collect one’s thoughts — 鎮定下來；整理思緒」的用法，與本句語境不同。",
-        "collection-mcq-20": "「因稀有、歷史、設計或市場價值而值得收藏的」是「collectible — adjective」的用法，與本句語境不同。",
-        "collection-mcq-19": "「工作內容涉及收款、收票、追債或收集物件的人」是「collector — occupational」的用法，與本句語境不同。",
-        "collection-mcq-18": "「有系統收藏某類物品的人」是「collector — hobby」的用法，與本句語境不同。"
+        "collection-mcq-22": "本句的「collection point」指「集中放置／收取物件的指定位置」。",
+        "collection-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-22"
     },
@@ -1221,11 +1129,9 @@ export default {
       "masked": "The recycling ____ point is outside.",
       "options": [
         "collection-mcq-22",
-        "collection-mcq-21",
-        "collection-mcq-23",
-        "collection-mcq-20",
-        "collection-mcq-19",
-        "collection-mcq-18"
+        "collection-mcq-03",
+        "collection-mcq-10",
+        "collection-mcq-12"
       ],
       "explanation": "本句的「collection」指「集中放置／收取物件的指定位置」。",
       "sentenceIndex": 23,
@@ -1234,12 +1140,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-22": "本句指「集中放置／收取物件的指定位置」。",
-        "collection-mcq-21": "「被人收藏並通常具有稀有／紀念／市場價值的物品」是「collectible — noun」的用法，與本句語境不同。",
-        "collection-mcq-23": "「把散亂的情緒／思緒重新集中整理」是「20. collect oneself / collect one’s thoughts — 鎮定下來；整理思緒」的用法，與本句語境不同。",
-        "collection-mcq-20": "「因稀有、歷史、設計或市場價值而值得收藏的」是「collectible — adjective」的用法，與本句語境不同。",
-        "collection-mcq-19": "「工作內容涉及收款、收票、追債或收集物件的人」是「collector — occupational」的用法，與本句語境不同。",
-        "collection-mcq-18": "「有系統收藏某類物品的人」是「collector — hobby」的用法，與本句語境不同。"
+        "collection-mcq-22": "本句的「collection」指「集中放置／收取物件的指定位置」。",
+        "collection-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-22"
     },
@@ -1251,11 +1155,9 @@ export default {
       "masked": "The designer launched a new spring ____.",
       "options": [
         "collection-mcq-12",
+        "collection-mcq-19",
         "collection-mcq-11",
-        "collection-mcq-13",
-        "collection-mcq-10",
-        "collection-mcq-14",
-        "collection-mcq-09"
+        "collection-mcq-10"
       ],
       "explanation": "本句的「collection」指「同一季、主題或概念下推出的一整組相關產品」。",
       "sentenceIndex": 24,
@@ -1264,12 +1166,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-12": "本句指「同一季、主題或概念下推出的一整組相關產品」。",
-        "collection-mcq-11": "「按安排收走垃圾、包裹、郵件等的行動」是「collection — pickup/service」的用法，與本句語境不同。",
-        "collection-mcq-13": "「把分散的人、物、資料等集中起來」是「collect — gather」的用法，與本句語境不同。",
-        "collection-mcq-10": "「向欠款人追討未支付款項的過程」是「debt collection」的用法，與本句語境不同。",
-        "collection-mcq-14": "「因興趣而有系統地尋找並保存同類物品」是「collect — hobby」的用法，與本句語境不同。",
-        "collection-mcq-09": "「政府依法收取稅款的過程」是「tax collection」的用法，與本句語境不同。"
+        "collection-mcq-12": "本句的「collection」指「同一季、主題或概念下推出的一整組相關產品」。",
+        "collection-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-12"
     },
@@ -1281,11 +1181,9 @@ export default {
       "masked": "The ____ uses soft colours and simple shapes.",
       "options": [
         "collection-mcq-12",
-        "collection-mcq-11",
-        "collection-mcq-13",
-        "collection-mcq-10",
-        "collection-mcq-14",
-        "collection-mcq-09"
+        "collection-mcq-22",
+        "collection-mcq-08",
+        "collection-mcq-15"
       ],
       "explanation": "本句的「collection」指「同一季、主題或概念下推出的一整組相關產品」。",
       "sentenceIndex": 25,
@@ -1294,12 +1192,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-12": "本句指「同一季、主題或概念下推出的一整組相關產品」。",
-        "collection-mcq-11": "「按安排收走垃圾、包裹、郵件等的行動」是「collection — pickup/service」的用法，與本句語境不同。",
-        "collection-mcq-13": "「把分散的人、物、資料等集中起來」是「collect — gather」的用法，與本句語境不同。",
-        "collection-mcq-10": "「向欠款人追討未支付款項的過程」是「debt collection」的用法，與本句語境不同。",
-        "collection-mcq-14": "「因興趣而有系統地尋找並保存同類物品」是「collect — hobby」的用法，與本句語境不同。",
-        "collection-mcq-09": "「政府依法收取稅款的過程」是「tax collection」的用法，與本句語境不同。"
+        "collection-mcq-12": "本句的「collection」指「同一季、主題或概念下推出的一整組相關產品」。",
+        "collection-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-12"
     },
@@ -1311,11 +1207,9 @@ export default {
       "masked": "The brand introduced a limited ____ of watches.",
       "options": [
         "collection-mcq-12",
+        "collection-mcq-20",
         "collection-mcq-11",
-        "collection-mcq-13",
-        "collection-mcq-10",
-        "collection-mcq-14",
-        "collection-mcq-09"
+        "collection-mcq-22"
       ],
       "explanation": "本句的「collection」指「同一季、主題或概念下推出的一整組相關產品」。",
       "sentenceIndex": 26,
@@ -1324,12 +1218,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-12": "本句指「同一季、主題或概念下推出的一整組相關產品」。",
-        "collection-mcq-11": "「按安排收走垃圾、包裹、郵件等的行動」是「collection — pickup/service」的用法，與本句語境不同。",
-        "collection-mcq-13": "「把分散的人、物、資料等集中起來」是「collect — gather」的用法，與本句語境不同。",
-        "collection-mcq-10": "「向欠款人追討未支付款項的過程」是「debt collection」的用法，與本句語境不同。",
-        "collection-mcq-14": "「因興趣而有系統地尋找並保存同類物品」是「collect — hobby」的用法，與本句語境不同。",
-        "collection-mcq-09": "「政府依法收取稅款的過程」是「tax collection」的用法，與本句語境不同。"
+        "collection-mcq-12": "本句的「collection」指「同一季、主題或概念下推出的一整組相關產品」。",
+        "collection-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-12"
     },
@@ -1341,11 +1233,9 @@ export default {
       "masked": "The furniture ____ was inspired by nature.",
       "options": [
         "collection-mcq-12",
-        "collection-mcq-11",
-        "collection-mcq-13",
-        "collection-mcq-10",
-        "collection-mcq-14",
-        "collection-mcq-09"
+        "collection-mcq-22",
+        "collection-mcq-20",
+        "collection-mcq-15"
       ],
       "explanation": "本句的「collection」指「同一季、主題或概念下推出的一整組相關產品」。",
       "sentenceIndex": 27,
@@ -1354,12 +1244,10 @@ export default {
         "collection"
       ],
       "optionReasons": {
-        "collection-mcq-12": "本句指「同一季、主題或概念下推出的一整組相關產品」。",
-        "collection-mcq-11": "「按安排收走垃圾、包裹、郵件等的行動」是「collection — pickup/service」的用法，與本句語境不同。",
-        "collection-mcq-13": "「把分散的人、物、資料等集中起來」是「collect — gather」的用法，與本句語境不同。",
-        "collection-mcq-10": "「向欠款人追討未支付款項的過程」是「debt collection」的用法，與本句語境不同。",
-        "collection-mcq-14": "「因興趣而有系統地尋找並保存同類物品」是「collect — hobby」的用法，與本句語境不同。",
-        "collection-mcq-09": "「政府依法收取稅款的過程」是「tax collection」的用法，與本句語境不同。"
+        "collection-mcq-12": "本句的「collection」指「同一季、主題或概念下推出的一整組相關產品」。",
+        "collection-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-12"
     },
@@ -1371,11 +1259,9 @@ export default {
       "masked": "She ____ old postcards.",
       "options": [
         "collection-mcq-13",
-        "collection-mcq-12",
-        "collection-mcq-14",
-        "collection-mcq-11",
-        "collection-mcq-15",
-        "collection-mcq-10"
+        "collection-mcq-02",
+        "collection-mcq-16",
+        "collection-mcq-18"
       ],
       "explanation": "本句的「collects」指「把分散的人、物、資料等集中起來」。",
       "sentenceIndex": 28,
@@ -1384,12 +1270,10 @@ export default {
         "collects"
       ],
       "optionReasons": {
-        "collection-mcq-13": "本句指「把分散的人、物、資料等集中起來」。",
-        "collection-mcq-12": "「同一季、主題或概念下推出的一整組相關產品」是「collection — fashion/design」的用法，與本句語境不同。",
-        "collection-mcq-14": "「因興趣而有系統地尋找並保存同類物品」是「collect — hobby」的用法，與本句語境不同。",
-        "collection-mcq-11": "「按安排收走垃圾、包裹、郵件等的行動」是「collection — pickup/service」的用法，與本句語境不同。",
-        "collection-mcq-15": "「前往某處把人／物接走或領取回來」是「collect — pick up」的用法，與本句語境不同。",
-        "collection-mcq-10": "「向欠款人追討未支付款項的過程」是「debt collection」的用法，與本句語境不同。"
+        "collection-mcq-13": "本句的「collects」指「把分散的人、物、資料等集中起來」。",
+        "collection-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-13"
     },
@@ -1401,11 +1285,9 @@ export default {
       "masked": "The researchers ____ samples.",
       "options": [
         "collection-mcq-13",
+        "collection-mcq-21",
         "collection-mcq-12",
-        "collection-mcq-14",
-        "collection-mcq-11",
-        "collection-mcq-15",
-        "collection-mcq-10"
+        "collection-mcq-02"
       ],
       "explanation": "本句的「collected」指「把分散的人、物、資料等集中起來」。",
       "sentenceIndex": 29,
@@ -1414,12 +1296,10 @@ export default {
         "collected"
       ],
       "optionReasons": {
-        "collection-mcq-13": "本句指「把分散的人、物、資料等集中起來」。",
-        "collection-mcq-12": "「同一季、主題或概念下推出的一整組相關產品」是「collection — fashion/design」的用法，與本句語境不同。",
-        "collection-mcq-14": "「因興趣而有系統地尋找並保存同類物品」是「collect — hobby」的用法，與本句語境不同。",
-        "collection-mcq-11": "「按安排收走垃圾、包裹、郵件等的行動」是「collection — pickup/service」的用法，與本句語境不同。",
-        "collection-mcq-15": "「前往某處把人／物接走或領取回來」是「collect — pick up」的用法，與本句語境不同。",
-        "collection-mcq-10": "「向欠款人追討未支付款項的過程」是「debt collection」的用法，與本句語境不同。"
+        "collection-mcq-13": "本句的「collected」指「把分散的人、物、資料等集中起來」。",
+        "collection-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-13"
     },
@@ -1431,11 +1311,9 @@ export default {
       "masked": "He ____ paintings.",
       "options": [
         "collection-mcq-14",
-        "collection-mcq-13",
+        "collection-mcq-17",
         "collection-mcq-15",
-        "collection-mcq-12",
-        "collection-mcq-16",
-        "collection-mcq-11"
+        "collection-mcq-10"
       ],
       "explanation": "本句的「collects」指「因興趣而有系統地尋找並保存同類物品」。",
       "sentenceIndex": 30,
@@ -1444,12 +1322,10 @@ export default {
         "collects"
       ],
       "optionReasons": {
-        "collection-mcq-14": "本句指「因興趣而有系統地尋找並保存同類物品」。",
-        "collection-mcq-13": "「把分散的人、物、資料等集中起來」是「collect — gather」的用法，與本句語境不同。",
-        "collection-mcq-15": "「前往某處把人／物接走或領取回來」是「collect — pick up」的用法，與本句語境不同。",
-        "collection-mcq-12": "「同一季、主題或概念下推出的一整組相關產品」是「collection — fashion/design」的用法，與本句語境不同。",
-        "collection-mcq-16": "「收取／領取應付、應得或累積的金錢」是「collect — receive money」的用法，與本句語境不同。",
-        "collection-mcq-11": "「按安排收走垃圾、包裹、郵件等的行動」是「collection — pickup/service」的用法，與本句語境不同。"
+        "collection-mcq-14": "本句的「collects」指「因興趣而有系統地尋找並保存同類物品」。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-14"
     },
@@ -1461,10 +1337,8 @@ export default {
       "masked": "She started ____ stamps as a child.",
       "options": [
         "collection-mcq-14",
-        "collection-mcq-13",
-        "collection-mcq-15",
-        "collection-mcq-12",
-        "collection-mcq-16",
+        "collection-mcq-10",
+        "collection-mcq-17",
         "collection-mcq-11"
       ],
       "explanation": "本句的「collecting」指「因興趣而有系統地尋找並保存同類物品」。",
@@ -1474,12 +1348,10 @@ export default {
         "collecting"
       ],
       "optionReasons": {
-        "collection-mcq-14": "本句指「因興趣而有系統地尋找並保存同類物品」。",
-        "collection-mcq-13": "「把分散的人、物、資料等集中起來」是「collect — gather」的用法，與本句語境不同。",
-        "collection-mcq-15": "「前往某處把人／物接走或領取回來」是「collect — pick up」的用法，與本句語境不同。",
-        "collection-mcq-12": "「同一季、主題或概念下推出的一整組相關產品」是「collection — fashion/design」的用法，與本句語境不同。",
-        "collection-mcq-16": "「收取／領取應付、應得或累積的金錢」是「collect — receive money」的用法，與本句語境不同。",
-        "collection-mcq-11": "「按安排收走垃圾、包裹、郵件等的行動」是「collection — pickup/service」的用法，與本句語境不同。"
+        "collection-mcq-14": "本句的「collecting」指「因興趣而有系統地尋找並保存同類物品」。",
+        "collection-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-14"
     },
@@ -1492,9 +1364,7 @@ export default {
       "options": [
         "collection-mcq-15",
         "collection-mcq-14",
-        "collection-mcq-16",
-        "collection-mcq-13",
-        "collection-mcq-17",
+        "collection-mcq-08",
         "collection-mcq-12"
       ],
       "explanation": "本句的「collect」指「前往某處把人／物接走或領取回來」。",
@@ -1504,12 +1374,10 @@ export default {
         "collect"
       ],
       "optionReasons": {
-        "collection-mcq-15": "本句指「前往某處把人／物接走或領取回來」。",
-        "collection-mcq-14": "「因興趣而有系統地尋找並保存同類物品」是「collect — hobby」的用法，與本句語境不同。",
-        "collection-mcq-16": "「收取／領取應付、應得或累積的金錢」是「collect — receive money」的用法，與本句語境不同。",
-        "collection-mcq-13": "「把分散的人、物、資料等集中起來」是「collect — gather」的用法，與本句語境不同。",
-        "collection-mcq-17": "「某物質逐漸聚集在一個地方」是「collect — accumulate」的用法，與本句語境不同。",
-        "collection-mcq-12": "「同一季、主題或概念下推出的一整組相關產品」是「collection — fashion/design」的用法，與本句語境不同。"
+        "collection-mcq-15": "本句的「collect」指「前往某處把人／物接走或領取回來」。",
+        "collection-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-15"
     },
@@ -1521,10 +1389,8 @@ export default {
       "masked": "She ____ her child from school.",
       "options": [
         "collection-mcq-15",
-        "collection-mcq-14",
-        "collection-mcq-16",
-        "collection-mcq-13",
-        "collection-mcq-17",
+        "collection-mcq-05",
+        "collection-mcq-02",
         "collection-mcq-12"
       ],
       "explanation": "本句的「collected」指「前往某處把人／物接走或領取回來」。",
@@ -1534,12 +1400,10 @@ export default {
         "collected"
       ],
       "optionReasons": {
-        "collection-mcq-15": "本句指「前往某處把人／物接走或領取回來」。",
-        "collection-mcq-14": "「因興趣而有系統地尋找並保存同類物品」是「collect — hobby」的用法，與本句語境不同。",
-        "collection-mcq-16": "「收取／領取應付、應得或累積的金錢」是「collect — receive money」的用法，與本句語境不同。",
-        "collection-mcq-13": "「把分散的人、物、資料等集中起來」是「collect — gather」的用法，與本句語境不同。",
-        "collection-mcq-17": "「某物質逐漸聚集在一個地方」是「collect — accumulate」的用法，與本句語境不同。",
-        "collection-mcq-12": "「同一季、主題或概念下推出的一整組相關產品」是「collection — fashion/design」的用法，與本句語境不同。"
+        "collection-mcq-15": "本句的「collected」指「前往某處把人／物接走或領取回來」。",
+        "collection-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-15"
     },
@@ -1551,11 +1415,9 @@ export default {
       "masked": "The landlord ____ the rent each month.",
       "options": [
         "collection-mcq-16",
-        "collection-mcq-15",
-        "collection-mcq-17",
-        "collection-mcq-14",
-        "collection-mcq-18",
-        "collection-mcq-13"
+        "collection-mcq-03",
+        "collection-mcq-23",
+        "collection-mcq-17"
       ],
       "explanation": "本句的「collects」指「收取／領取應付、應得或累積的金錢」。",
       "sentenceIndex": 34,
@@ -1564,12 +1426,10 @@ export default {
         "collects"
       ],
       "optionReasons": {
-        "collection-mcq-16": "本句指「收取／領取應付、應得或累積的金錢」。",
-        "collection-mcq-15": "「前往某處把人／物接走或領取回來」是「collect — pick up」的用法，與本句語境不同。",
-        "collection-mcq-17": "「某物質逐漸聚集在一個地方」是「collect — accumulate」的用法，與本句語境不同。",
-        "collection-mcq-14": "「因興趣而有系統地尋找並保存同類物品」是「collect — hobby」的用法，與本句語境不同。",
-        "collection-mcq-18": "「有系統收藏某類物品的人」是「collector — hobby」的用法，與本句語境不同。",
-        "collection-mcq-13": "「把分散的人、物、資料等集中起來」是「collect — gather」的用法，與本句語境不同。"
+        "collection-mcq-16": "本句的「collects」指「收取／領取應付、應得或累積的金錢」。",
+        "collection-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-16"
     },
@@ -1581,11 +1441,9 @@ export default {
       "masked": "She went to ____ her prize money.",
       "options": [
         "collection-mcq-16",
-        "collection-mcq-15",
+        "collection-mcq-23",
         "collection-mcq-17",
-        "collection-mcq-14",
-        "collection-mcq-18",
-        "collection-mcq-13"
+        "collection-mcq-14"
       ],
       "explanation": "本句的「collect」指「收取／領取應付、應得或累積的金錢」。",
       "sentenceIndex": 35,
@@ -1594,12 +1452,10 @@ export default {
         "collect"
       ],
       "optionReasons": {
-        "collection-mcq-16": "本句指「收取／領取應付、應得或累積的金錢」。",
-        "collection-mcq-15": "「前往某處把人／物接走或領取回來」是「collect — pick up」的用法，與本句語境不同。",
-        "collection-mcq-17": "「某物質逐漸聚集在一個地方」是「collect — accumulate」的用法，與本句語境不同。",
-        "collection-mcq-14": "「因興趣而有系統地尋找並保存同類物品」是「collect — hobby」的用法，與本句語境不同。",
-        "collection-mcq-18": "「有系統收藏某類物品的人」是「collector — hobby」的用法，與本句語境不同。",
-        "collection-mcq-13": "「把分散的人、物、資料等集中起來」是「collect — gather」的用法，與本句語境不同。"
+        "collection-mcq-16": "本句的「collect」指「收取／領取應付、應得或累積的金錢」。",
+        "collection-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-16"
     },
@@ -1611,11 +1467,9 @@ export default {
       "masked": "Dust ____ on the frame.",
       "options": [
         "collection-mcq-17",
-        "collection-mcq-16",
-        "collection-mcq-18",
+        "collection-mcq-12",
         "collection-mcq-15",
-        "collection-mcq-19",
-        "collection-mcq-14"
+        "collection-mcq-03"
       ],
       "explanation": "本句的「collected」指「某物質逐漸聚集在一個地方」。",
       "sentenceIndex": 36,
@@ -1624,12 +1478,10 @@ export default {
         "collected"
       ],
       "optionReasons": {
-        "collection-mcq-17": "本句指「某物質逐漸聚集在一個地方」。",
-        "collection-mcq-16": "「收取／領取應付、應得或累積的金錢」是「collect — receive money」的用法，與本句語境不同。",
-        "collection-mcq-18": "「有系統收藏某類物品的人」是「collector — hobby」的用法，與本句語境不同。",
-        "collection-mcq-15": "「前往某處把人／物接走或領取回來」是「collect — pick up」的用法，與本句語境不同。",
-        "collection-mcq-19": "「工作內容涉及收款、收票、追債或收集物件的人」是「collector — occupational」的用法，與本句語境不同。",
-        "collection-mcq-14": "「因興趣而有系統地尋找並保存同類物品」是「collect — hobby」的用法，與本句語境不同。"
+        "collection-mcq-17": "本句的「collected」指「某物質逐漸聚集在一個地方」。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-17"
     },
@@ -1641,11 +1493,9 @@ export default {
       "masked": "Water ____ at the bottom of the container.",
       "options": [
         "collection-mcq-17",
-        "collection-mcq-16",
-        "collection-mcq-18",
-        "collection-mcq-15",
-        "collection-mcq-19",
-        "collection-mcq-14"
+        "collection-mcq-07",
+        "collection-mcq-11",
+        "collection-mcq-21"
       ],
       "explanation": "本句的「collected」指「某物質逐漸聚集在一個地方」。",
       "sentenceIndex": 37,
@@ -1654,12 +1504,10 @@ export default {
         "collected"
       ],
       "optionReasons": {
-        "collection-mcq-17": "本句指「某物質逐漸聚集在一個地方」。",
-        "collection-mcq-16": "「收取／領取應付、應得或累積的金錢」是「collect — receive money」的用法，與本句語境不同。",
-        "collection-mcq-18": "「有系統收藏某類物品的人」是「collector — hobby」的用法，與本句語境不同。",
-        "collection-mcq-15": "「前往某處把人／物接走或領取回來」是「collect — pick up」的用法，與本句語境不同。",
-        "collection-mcq-19": "「工作內容涉及收款、收票、追債或收集物件的人」是「collector — occupational」的用法，與本句語境不同。",
-        "collection-mcq-14": "「因興趣而有系統地尋找並保存同類物品」是「collect — hobby」的用法，與本句語境不同。"
+        "collection-mcq-17": "本句的「collected」指「某物質逐漸聚集在一個地方」。",
+        "collection-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-17"
     },
@@ -1671,11 +1519,9 @@ export default {
       "masked": "She paused to ____.",
       "options": [
         "collection-mcq-23",
-        "collection-mcq-22",
-        "collection-mcq-21",
         "collection-mcq-20",
-        "collection-mcq-19",
-        "collection-mcq-18"
+        "collection-mcq-11",
+        "collection-mcq-15"
       ],
       "explanation": "本句的「collect her thoughts」指「把散亂的情緒／思緒重新集中整理」。",
       "sentenceIndex": 38,
@@ -1684,12 +1530,10 @@ export default {
         "collect her thoughts"
       ],
       "optionReasons": {
-        "collection-mcq-23": "本句指「把散亂的情緒／思緒重新集中整理」。",
-        "collection-mcq-22": "「集中放置／收取物件的指定位置」是「12. collection point（物流／服務） — 收集點；取件點」的用法，與本句語境不同。",
-        "collection-mcq-21": "「被人收藏並通常具有稀有／紀念／市場價值的物品」是「collectible — noun」的用法，與本句語境不同。",
-        "collection-mcq-20": "「因稀有、歷史、設計或市場價值而值得收藏的」是「collectible — adjective」的用法，與本句語境不同。",
-        "collection-mcq-19": "「工作內容涉及收款、收票、追債或收集物件的人」是「collector — occupational」的用法，與本句語境不同。",
-        "collection-mcq-18": "「有系統收藏某類物品的人」是「collector — hobby」的用法，與本句語境不同。"
+        "collection-mcq-23": "本句的「collect her thoughts」指「把散亂的情緒／思緒重新集中整理」。",
+        "collection-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-23"
     },
@@ -1701,11 +1545,9 @@ export default {
       "masked": "He needed a moment to ____ himself.",
       "options": [
         "collection-mcq-23",
-        "collection-mcq-22",
-        "collection-mcq-21",
-        "collection-mcq-20",
-        "collection-mcq-19",
-        "collection-mcq-18"
+        "collection-mcq-16",
+        "collection-mcq-03",
+        "collection-mcq-11"
       ],
       "explanation": "本句的「collect」指「把散亂的情緒／思緒重新集中整理」。",
       "sentenceIndex": 39,
@@ -1714,12 +1556,10 @@ export default {
         "collect"
       ],
       "optionReasons": {
-        "collection-mcq-23": "本句指「把散亂的情緒／思緒重新集中整理」。",
-        "collection-mcq-22": "「集中放置／收取物件的指定位置」是「12. collection point（物流／服務） — 收集點；取件點」的用法，與本句語境不同。",
-        "collection-mcq-21": "「被人收藏並通常具有稀有／紀念／市場價值的物品」是「collectible — noun」的用法，與本句語境不同。",
-        "collection-mcq-20": "「因稀有、歷史、設計或市場價值而值得收藏的」是「collectible — adjective」的用法，與本句語境不同。",
-        "collection-mcq-19": "「工作內容涉及收款、收票、追債或收集物件的人」是「collector — occupational」的用法，與本句語境不同。",
-        "collection-mcq-18": "「有系統收藏某類物品的人」是「collector — hobby」的用法，與本句語境不同。"
+        "collection-mcq-23": "本句的「collect」指「把散亂的情緒／思緒重新集中整理」。",
+        "collection-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-23"
     },
@@ -1731,11 +1571,9 @@ export default {
       "masked": "The painting was sold to a private ____.",
       "options": [
         "collection-mcq-18",
-        "collection-mcq-17",
-        "collection-mcq-19",
-        "collection-mcq-16",
-        "collection-mcq-20",
-        "collection-mcq-15"
+        "collection-mcq-15",
+        "collection-mcq-23",
+        "collection-mcq-05"
       ],
       "explanation": "本句的「collector」指「有系統收藏某類物品的人」。",
       "sentenceIndex": 40,
@@ -1744,12 +1582,10 @@ export default {
         "collector"
       ],
       "optionReasons": {
-        "collection-mcq-18": "本句指「有系統收藏某類物品的人」。",
-        "collection-mcq-17": "「某物質逐漸聚集在一個地方」是「collect — accumulate」的用法，與本句語境不同。",
-        "collection-mcq-19": "「工作內容涉及收款、收票、追債或收集物件的人」是「collector — occupational」的用法，與本句語境不同。",
-        "collection-mcq-16": "「收取／領取應付、應得或累積的金錢」是「collect — receive money」的用法，與本句語境不同。",
-        "collection-mcq-20": "「因稀有、歷史、設計或市場價值而值得收藏的」是「collectible — adjective」的用法，與本句語境不同。",
-        "collection-mcq-15": "「前往某處把人／物接走或領取回來」是「collect — pick up」的用法，與本句語境不同。"
+        "collection-mcq-18": "本句的「collector」指「有系統收藏某類物品的人」。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-18"
     },
@@ -1761,11 +1597,9 @@ export default {
       "masked": "She is a ____ of rare books.",
       "options": [
         "collection-mcq-18",
+        "collection-mcq-15",
         "collection-mcq-17",
-        "collection-mcq-19",
-        "collection-mcq-16",
-        "collection-mcq-20",
-        "collection-mcq-15"
+        "collection-mcq-13"
       ],
       "explanation": "本句的「collector」指「有系統收藏某類物品的人」。",
       "sentenceIndex": 41,
@@ -1774,12 +1608,10 @@ export default {
         "collector"
       ],
       "optionReasons": {
-        "collection-mcq-18": "本句指「有系統收藏某類物品的人」。",
-        "collection-mcq-17": "「某物質逐漸聚集在一個地方」是「collect — accumulate」的用法，與本句語境不同。",
-        "collection-mcq-19": "「工作內容涉及收款、收票、追債或收集物件的人」是「collector — occupational」的用法，與本句語境不同。",
-        "collection-mcq-16": "「收取／領取應付、應得或累積的金錢」是「collect — receive money」的用法，與本句語境不同。",
-        "collection-mcq-20": "「因稀有、歷史、設計或市場價值而值得收藏的」是「collectible — adjective」的用法，與本句語境不同。",
-        "collection-mcq-15": "「前往某處把人／物接走或領取回來」是「collect — pick up」的用法，與本句語境不同。"
+        "collection-mcq-18": "本句的「collector」指「有系統收藏某類物品的人」。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-18"
     },
@@ -1791,11 +1623,9 @@ export default {
       "masked": "The ticket ____ checked our tickets.",
       "options": [
         "collection-mcq-19",
-        "collection-mcq-18",
-        "collection-mcq-20",
-        "collection-mcq-17",
-        "collection-mcq-21",
-        "collection-mcq-16"
+        "collection-mcq-14",
+        "collection-mcq-12",
+        "collection-mcq-15"
       ],
       "explanation": "本句的「collector」指「工作內容涉及收款、收票、追債或收集物件的人」。",
       "sentenceIndex": 42,
@@ -1804,12 +1634,10 @@ export default {
         "collector"
       ],
       "optionReasons": {
-        "collection-mcq-19": "本句指「工作內容涉及收款、收票、追債或收集物件的人」。",
-        "collection-mcq-18": "「有系統收藏某類物品的人」是「collector — hobby」的用法，與本句語境不同。",
-        "collection-mcq-20": "「因稀有、歷史、設計或市場價值而值得收藏的」是「collectible — adjective」的用法，與本句語境不同。",
-        "collection-mcq-17": "「某物質逐漸聚集在一個地方」是「collect — accumulate」的用法，與本句語境不同。",
-        "collection-mcq-21": "「被人收藏並通常具有稀有／紀念／市場價值的物品」是「collectible — noun」的用法，與本句語境不同。",
-        "collection-mcq-16": "「收取／領取應付、應得或累積的金錢」是「collect — receive money」的用法，與本句語境不同。"
+        "collection-mcq-19": "本句的「collector」指「工作內容涉及收款、收票、追債或收集物件的人」。",
+        "collection-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-19"
     },
@@ -1821,11 +1649,9 @@ export default {
       "masked": "The debt ____ contacted the customer.",
       "options": [
         "collection-mcq-19",
-        "collection-mcq-18",
-        "collection-mcq-20",
-        "collection-mcq-17",
-        "collection-mcq-21",
-        "collection-mcq-16"
+        "collection-mcq-15",
+        "collection-mcq-14",
+        "collection-mcq-12"
       ],
       "explanation": "本句的「collector」指「工作內容涉及收款、收票、追債或收集物件的人」。",
       "sentenceIndex": 43,
@@ -1834,12 +1660,10 @@ export default {
         "collector"
       ],
       "optionReasons": {
-        "collection-mcq-19": "本句指「工作內容涉及收款、收票、追債或收集物件的人」。",
-        "collection-mcq-18": "「有系統收藏某類物品的人」是「collector — hobby」的用法，與本句語境不同。",
-        "collection-mcq-20": "「因稀有、歷史、設計或市場價值而值得收藏的」是「collectible — adjective」的用法，與本句語境不同。",
-        "collection-mcq-17": "「某物質逐漸聚集在一個地方」是「collect — accumulate」的用法，與本句語境不同。",
-        "collection-mcq-21": "「被人收藏並通常具有稀有／紀念／市場價值的物品」是「collectible — noun」的用法，與本句語境不同。",
-        "collection-mcq-16": "「收取／領取應付、應得或累積的金錢」是「collect — receive money」的用法，與本句語境不同。"
+        "collection-mcq-19": "本句的「collector」指「工作內容涉及收款、收票、追債或收集物件的人」。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-19"
     },
@@ -1851,11 +1675,9 @@ export default {
       "masked": "The first edition is highly ____.",
       "options": [
         "collection-mcq-20",
-        "collection-mcq-19",
-        "collection-mcq-21",
-        "collection-mcq-18",
-        "collection-mcq-22",
-        "collection-mcq-17"
+        "collection-mcq-17",
+        "collection-mcq-23",
+        "collection-mcq-15"
       ],
       "explanation": "本句的「collectible」指「因稀有、歷史、設計或市場價值而值得收藏的」。",
       "sentenceIndex": 44,
@@ -1864,12 +1686,10 @@ export default {
         "collectible"
       ],
       "optionReasons": {
-        "collection-mcq-20": "本句指「因稀有、歷史、設計或市場價值而值得收藏的」。",
-        "collection-mcq-19": "「工作內容涉及收款、收票、追債或收集物件的人」是「collector — occupational」的用法，與本句語境不同。",
-        "collection-mcq-21": "「被人收藏並通常具有稀有／紀念／市場價值的物品」是「collectible — noun」的用法，與本句語境不同。",
-        "collection-mcq-18": "「有系統收藏某類物品的人」是「collector — hobby」的用法，與本句語境不同。",
-        "collection-mcq-22": "「集中放置／收取物件的指定位置」是「12. collection point（物流／服務） — 收集點；取件點」的用法，與本句語境不同。",
-        "collection-mcq-17": "「某物質逐漸聚集在一個地方」是「collect — accumulate」的用法，與本句語境不同。"
+        "collection-mcq-20": "本句的「collectible」指「因稀有、歷史、設計或市場價值而值得收藏的」。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-20"
     },
@@ -1881,11 +1701,9 @@ export default {
       "masked": "Old posters can become ____.",
       "options": [
         "collection-mcq-20",
-        "collection-mcq-19",
-        "collection-mcq-21",
-        "collection-mcq-18",
-        "collection-mcq-22",
-        "collection-mcq-17"
+        "collection-mcq-15",
+        "collection-mcq-23",
+        "collection-mcq-12"
       ],
       "explanation": "本句的「collectible」指「因稀有、歷史、設計或市場價值而值得收藏的」。",
       "sentenceIndex": 45,
@@ -1894,12 +1712,10 @@ export default {
         "collectible"
       ],
       "optionReasons": {
-        "collection-mcq-20": "本句指「因稀有、歷史、設計或市場價值而值得收藏的」。",
-        "collection-mcq-19": "「工作內容涉及收款、收票、追債或收集物件的人」是「collector — occupational」的用法，與本句語境不同。",
-        "collection-mcq-21": "「被人收藏並通常具有稀有／紀念／市場價值的物品」是「collectible — noun」的用法，與本句語境不同。",
-        "collection-mcq-18": "「有系統收藏某類物品的人」是「collector — hobby」的用法，與本句語境不同。",
-        "collection-mcq-22": "「集中放置／收取物件的指定位置」是「12. collection point（物流／服務） — 收集點；取件點」的用法，與本句語境不同。",
-        "collection-mcq-17": "「某物質逐漸聚集在一個地方」是「collect — accumulate」的用法，與本句語境不同。"
+        "collection-mcq-20": "本句的「collectible」指「因稀有、歷史、設計或市場價值而值得收藏的」。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-20"
     },
@@ -1911,11 +1727,9 @@ export default {
       "masked": "The shop sells movie ____.",
       "options": [
         "collection-mcq-21",
-        "collection-mcq-20",
-        "collection-mcq-22",
-        "collection-mcq-19",
-        "collection-mcq-23",
-        "collection-mcq-18"
+        "collection-mcq-15",
+        "collection-mcq-17",
+        "collection-mcq-23"
       ],
       "explanation": "本句的「collectibles」指「被人收藏並通常具有稀有／紀念／市場價值的物品」。",
       "sentenceIndex": 46,
@@ -1924,12 +1738,10 @@ export default {
         "collectibles"
       ],
       "optionReasons": {
-        "collection-mcq-21": "本句指「被人收藏並通常具有稀有／紀念／市場價值的物品」。",
-        "collection-mcq-20": "「因稀有、歷史、設計或市場價值而值得收藏的」是「collectible — adjective」的用法，與本句語境不同。",
-        "collection-mcq-22": "「集中放置／收取物件的指定位置」是「12. collection point（物流／服務） — 收集點；取件點」的用法，與本句語境不同。",
-        "collection-mcq-19": "「工作內容涉及收款、收票、追債或收集物件的人」是「collector — occupational」的用法，與本句語境不同。",
-        "collection-mcq-23": "「把散亂的情緒／思緒重新集中整理」是「20. collect oneself / collect one’s thoughts — 鎮定下來；整理思緒」的用法，與本句語境不同。",
-        "collection-mcq-18": "「有系統收藏某類物品的人」是「collector — hobby」的用法，與本句語境不同。"
+        "collection-mcq-21": "本句的「collectibles」指「被人收藏並通常具有稀有／紀念／市場價值的物品」。",
+        "collection-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-21"
     },
@@ -1941,11 +1753,9 @@ export default {
       "masked": "Some ____ become very valuable over time.",
       "options": [
         "collection-mcq-21",
-        "collection-mcq-20",
-        "collection-mcq-22",
-        "collection-mcq-19",
         "collection-mcq-23",
-        "collection-mcq-18"
+        "collection-mcq-17",
+        "collection-mcq-05"
       ],
       "explanation": "本句的「collectibles」指「被人收藏並通常具有稀有／紀念／市場價值的物品」。",
       "sentenceIndex": 47,
@@ -1954,12 +1764,10 @@ export default {
         "collectibles"
       ],
       "optionReasons": {
-        "collection-mcq-21": "本句指「被人收藏並通常具有稀有／紀念／市場價值的物品」。",
-        "collection-mcq-20": "「因稀有、歷史、設計或市場價值而值得收藏的」是「collectible — adjective」的用法，與本句語境不同。",
-        "collection-mcq-22": "「集中放置／收取物件的指定位置」是「12. collection point（物流／服務） — 收集點；取件點」的用法，與本句語境不同。",
-        "collection-mcq-19": "「工作內容涉及收款、收票、追債或收集物件的人」是「collector — occupational」的用法，與本句語境不同。",
-        "collection-mcq-23": "「把散亂的情緒／思緒重新集中整理」是「20. collect oneself / collect one’s thoughts — 鎮定下來；整理思緒」的用法，與本句語境不同。",
-        "collection-mcq-18": "「有系統收藏某類物品的人」是「collector — hobby」的用法，與本句語境不同。"
+        "collection-mcq-21": "本句的「collectibles」指「被人收藏並通常具有稀有／紀念／市場價值的物品」。",
+        "collection-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collection-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collection-mcq-21"
     }
@@ -1971,5 +1779,7 @@ export default {
     "sha256": "739eec54b37124d68c2d6fe24860d9caecbf038c08b8de528c573d7e360e3f9c",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

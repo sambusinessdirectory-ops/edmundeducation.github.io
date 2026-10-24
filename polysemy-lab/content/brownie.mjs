@@ -235,11 +235,8 @@ export default {
       "masked": "She ordered a warm ____.",
       "options": [
         "brownie-mcq-02",
-        "brownie-mcq-01",
-        "brownie-mcq-03",
-        "brownie-mcq-04",
-        "brownie-mcq-05",
-        "brownie-mcq-06"
+        "brownie-mcq-06",
+        "brownie-mcq-12"
       ],
       "explanation": "本句的「chocolate brownie」指「巧克力布朗尼」。",
       "sentenceIndex": 4,
@@ -248,12 +245,9 @@ export default {
         "chocolate brownie"
       ],
       "optionReasons": {
-        "brownie-mcq-02": "本句指「巧克力布朗尼」。",
-        "brownie-mcq-01": "「以巧克力／可可製成、通常切成方塊的濃厚烘焙甜點；布朗尼」與本句語境不同。",
-        "brownie-mcq-03": "「口感濕潤、濃厚、密實的布朗尼」與本句語境不同。",
-        "brownie-mcq-04": "「口感較鬆軟、較像蛋糕的布朗尼」與本句語境不同。",
-        "brownie-mcq-05": "「因討好、幫忙或表現良好而獲得的非正式「好感分／印象分」」與本句語境不同。",
-        "brownie-mcq-06": "「因某種行為而贏得某人的好感／加分」與本句語境不同。"
+        "brownie-mcq-02": "本句的「chocolate brownie」指「巧克力布朗尼」。",
+        "brownie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-02"
     },
@@ -265,11 +259,8 @@ export default {
       "masked": "The café serves ____ with ice cream.",
       "options": [
         "brownie-mcq-02",
-        "brownie-mcq-01",
-        "brownie-mcq-03",
-        "brownie-mcq-04",
-        "brownie-mcq-05",
-        "brownie-mcq-06"
+        "brownie-mcq-12",
+        "brownie-mcq-05"
       ],
       "explanation": "本句的「chocolate brownies」指「巧克力布朗尼」。",
       "sentenceIndex": 5,
@@ -278,12 +269,9 @@ export default {
         "chocolate brownies"
       ],
       "optionReasons": {
-        "brownie-mcq-02": "本句指「巧克力布朗尼」。",
-        "brownie-mcq-01": "「以巧克力／可可製成、通常切成方塊的濃厚烘焙甜點；布朗尼」與本句語境不同。",
-        "brownie-mcq-03": "「口感濕潤、濃厚、密實的布朗尼」與本句語境不同。",
-        "brownie-mcq-04": "「口感較鬆軟、較像蛋糕的布朗尼」與本句語境不同。",
-        "brownie-mcq-05": "「因討好、幫忙或表現良好而獲得的非正式「好感分／印象分」」與本句語境不同。",
-        "brownie-mcq-06": "「因某種行為而贏得某人的好感／加分」與本句語境不同。"
+        "brownie-mcq-02": "本句的「chocolate brownies」指「巧克力布朗尼」。",
+        "brownie-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-02"
     },
@@ -295,10 +283,7 @@ export default {
       "masked": "I prefer ____ to cake-like ones.",
       "options": [
         "brownie-mcq-03",
-        "brownie-mcq-02",
-        "brownie-mcq-04",
-        "brownie-mcq-01",
-        "brownie-mcq-05",
+        "brownie-mcq-12",
         "brownie-mcq-06"
       ],
       "explanation": "本句的「fudgy brownies」指「口感濕潤、濃厚、密實的布朗尼」。",
@@ -308,12 +293,9 @@ export default {
         "fudgy brownies"
       ],
       "optionReasons": {
-        "brownie-mcq-03": "本句指「口感濕潤、濃厚、密實的布朗尼」。",
-        "brownie-mcq-02": "「巧克力布朗尼」與本句語境不同。",
-        "brownie-mcq-04": "「口感較鬆軟、較像蛋糕的布朗尼」與本句語境不同。",
-        "brownie-mcq-01": "「以巧克力／可可製成、通常切成方塊的濃厚烘焙甜點；布朗尼」與本句語境不同。",
-        "brownie-mcq-05": "「因討好、幫忙或表現良好而獲得的非正式「好感分／印象分」」與本句語境不同。",
-        "brownie-mcq-06": "「因某種行為而贏得某人的好感／加分」與本句語境不同。"
+        "brownie-mcq-03": "本句的「fudgy brownies」指「口感濕潤、濃厚、密實的布朗尼」。",
+        "brownie-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-03"
     },
@@ -325,11 +307,8 @@ export default {
       "masked": "These ____ are especially fudgy.",
       "options": [
         "brownie-mcq-03",
-        "brownie-mcq-02",
-        "brownie-mcq-04",
-        "brownie-mcq-01",
-        "brownie-mcq-05",
-        "brownie-mcq-06"
+        "brownie-mcq-12",
+        "brownie-mcq-05"
       ],
       "explanation": "本句的「brownies」指「口感濕潤、濃厚、密實的布朗尼」。",
       "sentenceIndex": 7,
@@ -338,12 +317,9 @@ export default {
         "brownies"
       ],
       "optionReasons": {
-        "brownie-mcq-03": "本句指「口感濕潤、濃厚、密實的布朗尼」。",
-        "brownie-mcq-02": "「巧克力布朗尼」與本句語境不同。",
-        "brownie-mcq-04": "「口感較鬆軟、較像蛋糕的布朗尼」與本句語境不同。",
-        "brownie-mcq-01": "「以巧克力／可可製成、通常切成方塊的濃厚烘焙甜點；布朗尼」與本句語境不同。",
-        "brownie-mcq-05": "「因討好、幫忙或表現良好而獲得的非正式「好感分／印象分」」與本句語境不同。",
-        "brownie-mcq-06": "「因某種行為而贏得某人的好感／加分」與本句語境不同。"
+        "brownie-mcq-03": "本句的「brownies」指「口感濕潤、濃厚、密實的布朗尼」。",
+        "brownie-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-03"
     },
@@ -355,11 +331,8 @@ export default {
       "masked": "Some people prefer ____.",
       "options": [
         "brownie-mcq-04",
-        "brownie-mcq-03",
-        "brownie-mcq-05",
-        "brownie-mcq-02",
-        "brownie-mcq-06",
-        "brownie-mcq-01"
+        "brownie-mcq-12",
+        "brownie-mcq-06"
       ],
       "explanation": "本句的「cakey brownies」指「口感較鬆軟、較像蛋糕的布朗尼」。",
       "sentenceIndex": 8,
@@ -368,12 +341,9 @@ export default {
         "cakey brownies"
       ],
       "optionReasons": {
-        "brownie-mcq-04": "本句指「口感較鬆軟、較像蛋糕的布朗尼」。",
-        "brownie-mcq-03": "「口感濕潤、濃厚、密實的布朗尼」與本句語境不同。",
-        "brownie-mcq-05": "「因討好、幫忙或表現良好而獲得的非正式「好感分／印象分」」與本句語境不同。",
-        "brownie-mcq-02": "「巧克力布朗尼」與本句語境不同。",
-        "brownie-mcq-06": "「因某種行為而贏得某人的好感／加分」與本句語境不同。",
-        "brownie-mcq-01": "「以巧克力／可可製成、通常切成方塊的濃厚烘焙甜點；布朗尼」與本句語境不同。"
+        "brownie-mcq-04": "本句的「cakey brownies」指「口感較鬆軟、較像蛋糕的布朗尼」。",
+        "brownie-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-04"
     },
@@ -385,11 +355,8 @@ export default {
       "masked": "This recipe produces a lighter, more ____.",
       "options": [
         "brownie-mcq-04",
-        "brownie-mcq-03",
-        "brownie-mcq-05",
-        "brownie-mcq-02",
-        "brownie-mcq-06",
-        "brownie-mcq-01"
+        "brownie-mcq-12",
+        "brownie-mcq-06"
       ],
       "explanation": "本句的「cakey brownie」指「口感較鬆軟、較像蛋糕的布朗尼」。",
       "sentenceIndex": 9,
@@ -398,12 +365,9 @@ export default {
         "cakey brownie"
       ],
       "optionReasons": {
-        "brownie-mcq-04": "本句指「口感較鬆軟、較像蛋糕的布朗尼」。",
-        "brownie-mcq-03": "「口感濕潤、濃厚、密實的布朗尼」與本句語境不同。",
-        "brownie-mcq-05": "「因討好、幫忙或表現良好而獲得的非正式「好感分／印象分」」與本句語境不同。",
-        "brownie-mcq-02": "「巧克力布朗尼」與本句語境不同。",
-        "brownie-mcq-06": "「因某種行為而贏得某人的好感／加分」與本句語境不同。",
-        "brownie-mcq-01": "「以巧克力／可可製成、通常切成方塊的濃厚烘焙甜點；布朗尼」與本句語境不同。"
+        "brownie-mcq-04": "本句的「cakey brownie」指「口感較鬆軟、較像蛋糕的布朗尼」。",
+        "brownie-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-04"
     },
@@ -415,11 +379,8 @@ export default {
       "masked": "He earned some ____ by helping with the cleanup.",
       "options": [
         "brownie-mcq-05",
-        "brownie-mcq-04",
-        "brownie-mcq-06",
-        "brownie-mcq-03",
-        "brownie-mcq-07",
-        "brownie-mcq-02"
+        "brownie-mcq-11",
+        "brownie-mcq-12"
       ],
       "explanation": "本句的「brownie points」指「因討好、幫忙或表現良好而獲得的非正式「好感分／印象分」」。",
       "sentenceIndex": 10,
@@ -428,12 +389,9 @@ export default {
         "brownie points"
       ],
       "optionReasons": {
-        "brownie-mcq-05": "本句指「因討好、幫忙或表現良好而獲得的非正式「好感分／印象分」」。",
-        "brownie-mcq-04": "「口感較鬆軟、較像蛋糕的布朗尼」與本句語境不同。",
-        "brownie-mcq-06": "「因某種行為而贏得某人的好感／加分」與本句語境不同。",
-        "brownie-mcq-03": "「口感濕潤、濃厚、密實的布朗尼」與本句語境不同。",
-        "brownie-mcq-07": "「女童軍較年幼組別的成員」與本句語境不同。",
-        "brownie-mcq-02": "「巧克力布朗尼」與本句語境不同。"
+        "brownie-mcq-05": "本句的「brownie points」指「因討好、幫忙或表現良好而獲得的非正式「好感分／印象分」」。",
+        "brownie-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-05"
     },
@@ -445,11 +403,8 @@ export default {
       "masked": "Buying flowers might get you a few ____.",
       "options": [
         "brownie-mcq-05",
-        "brownie-mcq-04",
-        "brownie-mcq-06",
-        "brownie-mcq-03",
-        "brownie-mcq-07",
-        "brownie-mcq-02"
+        "brownie-mcq-02",
+        "brownie-mcq-12"
       ],
       "explanation": "本句的「brownie points」指「因討好、幫忙或表現良好而獲得的非正式「好感分／印象分」」。",
       "sentenceIndex": 11,
@@ -458,12 +413,9 @@ export default {
         "brownie points"
       ],
       "optionReasons": {
-        "brownie-mcq-05": "本句指「因討好、幫忙或表現良好而獲得的非正式「好感分／印象分」」。",
-        "brownie-mcq-04": "「口感較鬆軟、較像蛋糕的布朗尼」與本句語境不同。",
-        "brownie-mcq-06": "「因某種行為而贏得某人的好感／加分」與本句語境不同。",
-        "brownie-mcq-03": "「口感濕潤、濃厚、密實的布朗尼」與本句語境不同。",
-        "brownie-mcq-07": "「女童軍較年幼組別的成員」與本句語境不同。",
-        "brownie-mcq-02": "「巧克力布朗尼」與本句語境不同。"
+        "brownie-mcq-05": "本句的「brownie points」指「因討好、幫忙或表現良好而獲得的非正式「好感分／印象分」」。",
+        "brownie-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-05"
     },
@@ -475,11 +427,8 @@ export default {
       "masked": "She got ____ for remembering everyone’s birthday.",
       "options": [
         "brownie-mcq-06",
-        "brownie-mcq-05",
-        "brownie-mcq-07",
-        "brownie-mcq-04",
-        "brownie-mcq-08",
-        "brownie-mcq-03"
+        "brownie-mcq-11",
+        "brownie-mcq-12"
       ],
       "explanation": "本句的「brownie points」指「因某種行為而贏得某人的好感／加分」。",
       "sentenceIndex": 12,
@@ -488,12 +437,9 @@ export default {
         "brownie points"
       ],
       "optionReasons": {
-        "brownie-mcq-06": "本句指「因某種行為而贏得某人的好感／加分」。",
-        "brownie-mcq-05": "「因討好、幫忙或表現良好而獲得的非正式「好感分／印象分」」與本句語境不同。",
-        "brownie-mcq-07": "「女童軍較年幼組別的成員」與本句語境不同。",
-        "brownie-mcq-04": "「口感較鬆軟、較像蛋糕的布朗尼」與本句語境不同。",
-        "brownie-mcq-08": "「女童軍中的幼年組」與本句語境不同。",
-        "brownie-mcq-03": "「口感濕潤、濃厚、密實的布朗尼」與本句語境不同。"
+        "brownie-mcq-06": "本句的「brownie points」指「因某種行為而贏得某人的好感／加分」。",
+        "brownie-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-06"
     },
@@ -505,11 +451,8 @@ export default {
       "masked": "He was clearly trying to earn ____ with the manager.",
       "options": [
         "brownie-mcq-06",
-        "brownie-mcq-05",
-        "brownie-mcq-07",
-        "brownie-mcq-04",
-        "brownie-mcq-08",
-        "brownie-mcq-03"
+        "brownie-mcq-10",
+        "brownie-mcq-12"
       ],
       "explanation": "本句的「brownie points」指「因某種行為而贏得某人的好感／加分」。",
       "sentenceIndex": 13,
@@ -518,12 +461,9 @@ export default {
         "brownie points"
       ],
       "optionReasons": {
-        "brownie-mcq-06": "本句指「因某種行為而贏得某人的好感／加分」。",
-        "brownie-mcq-05": "「因討好、幫忙或表現良好而獲得的非正式「好感分／印象分」」與本句語境不同。",
-        "brownie-mcq-07": "「女童軍較年幼組別的成員」與本句語境不同。",
-        "brownie-mcq-04": "「口感較鬆軟、較像蛋糕的布朗尼」與本句語境不同。",
-        "brownie-mcq-08": "「女童軍中的幼年組」與本句語境不同。",
-        "brownie-mcq-03": "「口感濕潤、濃厚、密實的布朗尼」與本句語境不同。"
+        "brownie-mcq-06": "本句的「brownie points」指「因某種行為而贏得某人的好感／加分」。",
+        "brownie-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-06"
     },
@@ -535,11 +475,8 @@ export default {
       "masked": "Add eggs and butter to the ____.",
       "options": [
         "brownie-mcq-10",
-        "brownie-mcq-09",
-        "brownie-mcq-11",
-        "brownie-mcq-08",
         "brownie-mcq-12",
-        "brownie-mcq-07"
+        "brownie-mcq-06"
       ],
       "explanation": "本句的「brownie mix」指「製作布朗尼用的預拌粉」。",
       "sentenceIndex": 20,
@@ -548,12 +485,9 @@ export default {
         "brownie mix"
       ],
       "optionReasons": {
-        "brownie-mcq-10": "本句指「製作布朗尼用的預拌粉」。",
-        "brownie-mcq-09": "「蘇格蘭等民間傳說中會暗中幫忙做家務的家宅精靈」與本句語境不同。",
-        "brownie-mcq-11": "「尚未烘焙的布朗尼麵糊」與本句語境不同。",
-        "brownie-mcq-08": "「女童軍中的幼年組」與本句語境不同。",
-        "brownie-mcq-12": "「歷史上的 Kodak Brownie 系列相機」與本句語境不同。",
-        "brownie-mcq-07": "「女童軍較年幼組別的成員」與本句語境不同。"
+        "brownie-mcq-10": "本句的「brownie mix」指「製作布朗尼用的預拌粉」。",
+        "brownie-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-10"
     },
@@ -565,11 +499,8 @@ export default {
       "masked": "She used a boxed ____.",
       "options": [
         "brownie-mcq-10",
-        "brownie-mcq-09",
-        "brownie-mcq-11",
-        "brownie-mcq-08",
-        "brownie-mcq-12",
-        "brownie-mcq-07"
+        "brownie-mcq-05",
+        "brownie-mcq-12"
       ],
       "explanation": "本句的「brownie mix」指「製作布朗尼用的預拌粉」。",
       "sentenceIndex": 21,
@@ -578,12 +509,9 @@ export default {
         "brownie mix"
       ],
       "optionReasons": {
-        "brownie-mcq-10": "本句指「製作布朗尼用的預拌粉」。",
-        "brownie-mcq-09": "「蘇格蘭等民間傳說中會暗中幫忙做家務的家宅精靈」與本句語境不同。",
-        "brownie-mcq-11": "「尚未烘焙的布朗尼麵糊」與本句語境不同。",
-        "brownie-mcq-08": "「女童軍中的幼年組」與本句語境不同。",
-        "brownie-mcq-12": "「歷史上的 Kodak Brownie 系列相機」與本句語境不同。",
-        "brownie-mcq-07": "「女童軍較年幼組別的成員」與本句語境不同。"
+        "brownie-mcq-10": "本句的「brownie mix」指「製作布朗尼用的預拌粉」。",
+        "brownie-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-10"
     },
@@ -595,11 +523,8 @@ export default {
       "masked": "Pour the ____ into the pan.",
       "options": [
         "brownie-mcq-11",
-        "brownie-mcq-10",
-        "brownie-mcq-12",
-        "brownie-mcq-09",
-        "brownie-mcq-08",
-        "brownie-mcq-07"
+        "brownie-mcq-05",
+        "brownie-mcq-12"
       ],
       "explanation": "本句的「brownie batter」指「尚未烘焙的布朗尼麵糊」。",
       "sentenceIndex": 22,
@@ -608,12 +533,9 @@ export default {
         "brownie batter"
       ],
       "optionReasons": {
-        "brownie-mcq-11": "本句指「尚未烘焙的布朗尼麵糊」。",
-        "brownie-mcq-10": "「製作布朗尼用的預拌粉」與本句語境不同。",
-        "brownie-mcq-12": "「歷史上的 Kodak Brownie 系列相機」與本句語境不同。",
-        "brownie-mcq-09": "「蘇格蘭等民間傳說中會暗中幫忙做家務的家宅精靈」與本句語境不同。",
-        "brownie-mcq-08": "「女童軍中的幼年組」與本句語境不同。",
-        "brownie-mcq-07": "「女童軍較年幼組別的成員」與本句語境不同。"
+        "brownie-mcq-11": "本句的「brownie batter」指「尚未烘焙的布朗尼麵糊」。",
+        "brownie-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-11"
     },
@@ -625,11 +547,8 @@ export default {
       "masked": "The ____ should be thick and smooth.",
       "options": [
         "brownie-mcq-11",
-        "brownie-mcq-10",
-        "brownie-mcq-12",
-        "brownie-mcq-09",
-        "brownie-mcq-08",
-        "brownie-mcq-07"
+        "brownie-mcq-06",
+        "brownie-mcq-12"
       ],
       "explanation": "本句的「batter」指「尚未烘焙的布朗尼麵糊」。",
       "sentenceIndex": 23,
@@ -638,12 +557,9 @@ export default {
         "batter"
       ],
       "optionReasons": {
-        "brownie-mcq-11": "本句指「尚未烘焙的布朗尼麵糊」。",
-        "brownie-mcq-10": "「製作布朗尼用的預拌粉」與本句語境不同。",
-        "brownie-mcq-12": "「歷史上的 Kodak Brownie 系列相機」與本句語境不同。",
-        "brownie-mcq-09": "「蘇格蘭等民間傳說中會暗中幫忙做家務的家宅精靈」與本句語境不同。",
-        "brownie-mcq-08": "「女童軍中的幼年組」與本句語境不同。",
-        "brownie-mcq-07": "「女童軍較年幼組別的成員」與本句語境不同。"
+        "brownie-mcq-11": "本句的「batter」指「尚未烘焙的布朗尼麵糊」。",
+        "brownie-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-11"
     },
@@ -655,11 +571,8 @@ export default {
       "masked": "Old photographs were sometimes taken with a ____.",
       "options": [
         "brownie-mcq-12",
-        "brownie-mcq-11",
-        "brownie-mcq-10",
-        "brownie-mcq-09",
-        "brownie-mcq-08",
-        "brownie-mcq-07"
+        "brownie-mcq-04",
+        "brownie-mcq-06"
       ],
       "explanation": "本句的「Brownie camera」指「歷史上的 Kodak Brownie 系列相機」。",
       "sentenceIndex": 24,
@@ -668,12 +581,9 @@ export default {
         "Brownie camera"
       ],
       "optionReasons": {
-        "brownie-mcq-12": "本句指「歷史上的 Kodak Brownie 系列相機」。",
-        "brownie-mcq-11": "「尚未烘焙的布朗尼麵糊」與本句語境不同。",
-        "brownie-mcq-10": "「製作布朗尼用的預拌粉」與本句語境不同。",
-        "brownie-mcq-09": "「蘇格蘭等民間傳說中會暗中幫忙做家務的家宅精靈」與本句語境不同。",
-        "brownie-mcq-08": "「女童軍中的幼年組」與本句語境不同。",
-        "brownie-mcq-07": "「女童軍較年幼組別的成員」與本句語境不同。"
+        "brownie-mcq-12": "本句的「Brownie camera」指「歷史上的 Kodak Brownie 系列相機」。",
+        "brownie-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-12"
     },
@@ -685,11 +595,8 @@ export default {
       "masked": "The ____ helped popularize casual photography.",
       "options": [
         "brownie-mcq-12",
-        "brownie-mcq-11",
-        "brownie-mcq-10",
-        "brownie-mcq-09",
-        "brownie-mcq-08",
-        "brownie-mcq-07"
+        "brownie-mcq-02",
+        "brownie-mcq-06"
       ],
       "explanation": "本句的「Brownie」指「歷史上的 Kodak Brownie 系列相機」。",
       "sentenceIndex": 25,
@@ -698,12 +605,9 @@ export default {
         "Brownie"
       ],
       "optionReasons": {
-        "brownie-mcq-12": "本句指「歷史上的 Kodak Brownie 系列相機」。",
-        "brownie-mcq-11": "「尚未烘焙的布朗尼麵糊」與本句語境不同。",
-        "brownie-mcq-10": "「製作布朗尼用的預拌粉」與本句語境不同。",
-        "brownie-mcq-09": "「蘇格蘭等民間傳說中會暗中幫忙做家務的家宅精靈」與本句語境不同。",
-        "brownie-mcq-08": "「女童軍中的幼年組」與本句語境不同。",
-        "brownie-mcq-07": "「女童軍較年幼組別的成員」與本句語境不同。"
+        "brownie-mcq-12": "本句的「Brownie」指「歷史上的 Kodak Brownie 系列相機」。",
+        "brownie-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "brownie-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brownie-mcq-12"
     }
@@ -715,5 +619,7 @@ export default {
     "sha256": "d3b0e33e87b60c20f164f984f0fb5d418cd9320dda5e9cb30c5dafc10addb068",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

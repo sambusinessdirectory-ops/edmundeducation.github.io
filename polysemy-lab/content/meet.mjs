@@ -532,16 +532,6 @@ export default {
           "The champion may have met her match.",
           "冠軍可能終於遇上勢均力敵的對手。",
           "遇到能力足以與自己抗衡、旗鼓相當的人"
-        ],
-        [
-          "The phrase meet your maker is a euphemistic way of referring to death.",
-          "meet your maker 是一種委婉／幽默地指『死亡』的說法。",
-          "遇到能力足以與自己抗衡、旗鼓相當的人"
-        ],
-        [
-          "In the story, the villain finally meets his maker.",
-          "故事中，那名反派最後一命嗚呼。",
-          "遇到能力足以與自己抗衡、旗鼓相當的人"
         ]
       ],
       "options": [],
@@ -732,6 +722,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "meet-reviewed-7bb77d0e1e",
+      "title": "委婉、宗教式或幽默地指死亡",
+      "form": "meet · source section 31",
+      "en": "委婉、宗教式或幽默地指死亡",
+      "zh": "委婉、宗教式或幽默地指死亡",
+      "note": "對照原始教材第 31 節及例句核實。",
+      "examples": [
+        [
+          "The phrase meet your maker is a euphemistic way of referring to death.",
+          "meet your maker 是一種委婉／幽默地指『死亡』的說法。",
+          "委婉、宗教式或幽默地指死亡"
+        ],
+        [
+          "In the story, the villain finally meets his maker.",
+          "故事中，那名反派最後一命嗚呼。",
+          "委婉、宗教式或幽默地指死亡"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -743,11 +755,9 @@ export default {
       "masked": "I first ____ when I was about thirteen.",
       "options": [
         "meet-mcq-01",
-        "meet-mcq-02",
-        "meet-mcq-03",
-        "meet-mcq-04",
-        "meet-mcq-05",
-        "meet-mcq-06"
+        "meet-mcq-22",
+        "meet-mcq-23",
+        "meet-mcq-09"
       ],
       "explanation": "本句的「met her」指「初次與某人相識／建立認識」。",
       "sentenceIndex": 0,
@@ -756,12 +766,10 @@ export default {
         "met her"
       ],
       "optionReasons": {
-        "meet-mcq-01": "本句指「初次與某人相識／建立認識」。",
-        "meet-mcq-02": "「按安排在指定時間／地點與某人碰面」是「meet someone — arrangement」的用法，與本句語境不同。",
-        "meet-mcq-03": "「沒有事先安排而偶然碰見某人」是「meet someone by chance」的用法，與本句語境不同。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
+        "meet-mcq-01": "本句的「met her」指「初次與某人相識／建立認識」。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-01"
     },
@@ -773,11 +781,9 @@ export default {
       "masked": "I ____ at university.",
       "options": [
         "meet-mcq-01",
-        "meet-mcq-02",
-        "meet-mcq-03",
-        "meet-mcq-04",
-        "meet-mcq-05",
-        "meet-mcq-06"
+        "meet-mcq-25",
+        "meet-mcq-08",
+        "meet-mcq-29"
       ],
       "explanation": "本句的「met my best friend」指「初次與某人相識／建立認識」。",
       "sentenceIndex": 1,
@@ -786,12 +792,10 @@ export default {
         "met my best friend"
       ],
       "optionReasons": {
-        "meet-mcq-01": "本句指「初次與某人相識／建立認識」。",
-        "meet-mcq-02": "「按安排在指定時間／地點與某人碰面」是「meet someone — arrangement」的用法，與本句語境不同。",
-        "meet-mcq-03": "「沒有事先安排而偶然碰見某人」是「meet someone by chance」的用法，與本句語境不同。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
+        "meet-mcq-01": "本句的「met my best friend」指「初次與某人相識／建立認識」。",
+        "meet-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-01"
     },
@@ -803,11 +807,9 @@ export default {
       "masked": "Where did you first ____?",
       "options": [
         "meet-mcq-01",
-        "meet-mcq-02",
-        "meet-mcq-03",
-        "meet-mcq-04",
-        "meet-mcq-05",
-        "meet-mcq-06"
+        "meet-mcq-14",
+        "meet-reviewed-7bb77d0e1e",
+        "meet-mcq-24"
       ],
       "explanation": "本句的「meet your teacher」指「初次與某人相識／建立認識」。",
       "sentenceIndex": 2,
@@ -816,12 +818,10 @@ export default {
         "meet your teacher"
       ],
       "optionReasons": {
-        "meet-mcq-01": "本句指「初次與某人相識／建立認識」。",
-        "meet-mcq-02": "「按安排在指定時間／地點與某人碰面」是「meet someone — arrangement」的用法，與本句語境不同。",
-        "meet-mcq-03": "「沒有事先安排而偶然碰見某人」是「meet someone by chance」的用法，與本句語境不同。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
+        "meet-mcq-01": "本句的「meet your teacher」指「初次與某人相識／建立認識」。",
+        "meet-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "meet-reviewed-7bb77d0e1e": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-01"
     },
@@ -833,11 +833,9 @@ export default {
       "masked": "I’m ____ after work.",
       "options": [
         "meet-mcq-02",
-        "meet-mcq-01",
-        "meet-mcq-03",
-        "meet-mcq-04",
-        "meet-mcq-05",
-        "meet-mcq-06"
+        "meet-mcq-23",
+        "meet-mcq-14",
+        "meet-mcq-20"
       ],
       "explanation": "本句的「meeting her」指「按安排在指定時間／地點與某人碰面」。",
       "sentenceIndex": 3,
@@ -846,12 +844,10 @@ export default {
         "meeting her"
       ],
       "optionReasons": {
-        "meet-mcq-02": "本句指「按安排在指定時間／地點與某人碰面」。",
-        "meet-mcq-01": "「初次與某人相識／建立認識」是「meet someone — first time」的用法，與本句語境不同。",
-        "meet-mcq-03": "「沒有事先安排而偶然碰見某人」是「meet someone by chance」的用法，與本句語境不同。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
+        "meet-mcq-02": "本句的「meeting her」指「按安排在指定時間／地點與某人碰面」。",
+        "meet-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-02"
     },
@@ -863,11 +859,9 @@ export default {
       "masked": "Let’s ____ at three.",
       "options": [
         "meet-mcq-02",
-        "meet-mcq-01",
-        "meet-mcq-03",
-        "meet-mcq-04",
-        "meet-mcq-05",
-        "meet-mcq-06"
+        "meet-mcq-11",
+        "meet-mcq-21",
+        "meet-pdf-002"
       ],
       "explanation": "本句的「meet at the café」指「按安排在指定時間／地點與某人碰面」。",
       "sentenceIndex": 4,
@@ -876,12 +870,10 @@ export default {
         "meet at the café"
       ],
       "optionReasons": {
-        "meet-mcq-02": "本句指「按安排在指定時間／地點與某人碰面」。",
-        "meet-mcq-01": "「初次與某人相識／建立認識」是「meet someone — first time」的用法，與本句語境不同。",
-        "meet-mcq-03": "「沒有事先安排而偶然碰見某人」是「meet someone by chance」的用法，與本句語境不同。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
+        "meet-mcq-02": "本句的「meet at the café」指「按安排在指定時間／地點與某人碰面」。",
+        "meet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "meet-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-02"
     },
@@ -893,11 +885,9 @@ export default {
       "masked": "I’ll ____.",
       "options": [
         "meet-mcq-02",
-        "meet-mcq-01",
-        "meet-mcq-03",
-        "meet-mcq-04",
-        "meet-mcq-05",
-        "meet-mcq-06"
+        "meet-mcq-22",
+        "meet-mcq-24",
+        "meet-mcq-18"
       ],
       "explanation": "本句的「meet you at the station」指「按安排在指定時間／地點與某人碰面」。",
       "sentenceIndex": 5,
@@ -906,12 +896,10 @@ export default {
         "meet you at the station"
       ],
       "optionReasons": {
-        "meet-mcq-02": "本句指「按安排在指定時間／地點與某人碰面」。",
-        "meet-mcq-01": "「初次與某人相識／建立認識」是「meet someone — first time」的用法，與本句語境不同。",
-        "meet-mcq-03": "「沒有事先安排而偶然碰見某人」是「meet someone by chance」的用法，與本句語境不同。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
+        "meet-mcq-02": "本句的「meet you at the station」指「按安排在指定時間／地點與某人碰面」。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-02"
     },
@@ -923,11 +911,9 @@ export default {
       "masked": "We ____ in the lobby before the event.",
       "options": [
         "meet-mcq-02",
-        "meet-mcq-01",
-        "meet-mcq-03",
-        "meet-mcq-04",
-        "meet-mcq-05",
-        "meet-mcq-06"
+        "meet-mcq-23",
+        "meet-mcq-22",
+        "meet-mcq-20"
       ],
       "explanation": "本句的「met」指「按安排在指定時間／地點與某人碰面」。",
       "sentenceIndex": 6,
@@ -936,12 +922,10 @@ export default {
         "met"
       ],
       "optionReasons": {
-        "meet-mcq-02": "本句指「按安排在指定時間／地點與某人碰面」。",
-        "meet-mcq-01": "「初次與某人相識／建立認識」是「meet someone — first time」的用法，與本句語境不同。",
-        "meet-mcq-03": "「沒有事先安排而偶然碰見某人」是「meet someone by chance」的用法，與本句語境不同。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
+        "meet-mcq-02": "本句的「met」指「按安排在指定時間／地點與某人碰面」。",
+        "meet-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-02"
     },
@@ -953,11 +937,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "meet-mcq-27",
-        "meet-mcq-26",
-        "meet-mcq-28",
-        "meet-mcq-25",
-        "meet-mcq-29",
-        "meet-mcq-24"
+        "meet-mcq-04",
+        "meet-reviewed-7bb77d0e1e",
+        "meet-mcq-30"
       ],
       "explanation": "本句的「met for lunch」指「為特定活動、討論或目的聚在一起」。",
       "sentenceIndex": 7,
@@ -966,12 +948,10 @@ export default {
         "met for lunch"
       ],
       "optionReasons": {
-        "meet-mcq-27": "本句指「為特定活動、討論或目的聚在一起」。",
-        "meet-mcq-26": "「人與人見面／會晤的事件」是「meeting — encounter」的用法，與本句語境不同。",
-        "meet-mcq-28": "「在行程／活動中遇到某人或某種情況」是「6. meet = encounter someone/something during an activity（遇上） — 遇到；碰上」的用法，與本句語境不同。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。",
-        "meet-mcq-29": "「兩條線、道路、河流、表面等到達同一位置並相接」是「11. meet = come together / converge（相遇；交會） — 交會；匯合」的用法，與本句語境不同。",
-        "meet-mcq-24": "「遇到能力足以與自己抗衡、旗鼓相當的人」是「meet your match」的用法，與本句語境不同。"
+        "meet-mcq-27": "本句的「met for lunch」指「為特定活動、討論或目的聚在一起」。",
+        "meet-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "meet-reviewed-7bb77d0e1e": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-27"
     },
@@ -983,11 +963,9 @@ export default {
       "masked": "The team ____ to discuss the project.",
       "options": [
         "meet-mcq-27",
-        "meet-mcq-26",
-        "meet-mcq-28",
-        "meet-mcq-25",
-        "meet-mcq-29",
-        "meet-mcq-24"
+        "meet-mcq-30",
+        "meet-mcq-24",
+        "meet-mcq-17"
       ],
       "explanation": "本句的「met」指「為特定活動、討論或目的聚在一起」。",
       "sentenceIndex": 8,
@@ -996,12 +974,10 @@ export default {
         "met"
       ],
       "optionReasons": {
-        "meet-mcq-27": "本句指「為特定活動、討論或目的聚在一起」。",
-        "meet-mcq-26": "「人與人見面／會晤的事件」是「meeting — encounter」的用法，與本句語境不同。",
-        "meet-mcq-28": "「在行程／活動中遇到某人或某種情況」是「6. meet = encounter someone/something during an activity（遇上） — 遇到；碰上」的用法，與本句語境不同。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。",
-        "meet-mcq-29": "「兩條線、道路、河流、表面等到達同一位置並相接」是「11. meet = come together / converge（相遇；交會） — 交會；匯合」的用法，與本句語境不同。",
-        "meet-mcq-24": "「遇到能力足以與自己抗衡、旗鼓相當的人」是「meet your match」的用法，與本句語境不同。"
+        "meet-mcq-27": "本句的「met」指「為特定活動、討論或目的聚在一起」。",
+        "meet-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-27"
     },
@@ -1013,11 +989,9 @@ export default {
       "masked": "I ____ on the bus.",
       "options": [
         "meet-mcq-03",
-        "meet-mcq-02",
+        "meet-mcq-11",
         "meet-mcq-04",
-        "meet-mcq-01",
-        "meet-mcq-05",
-        "meet-mcq-06"
+        "meet-reviewed-7bb77d0e1e"
       ],
       "explanation": "本句的「met an old friend」指「沒有事先安排而偶然碰見某人」。",
       "sentenceIndex": 9,
@@ -1026,12 +1000,10 @@ export default {
         "met an old friend"
       ],
       "optionReasons": {
-        "meet-mcq-03": "本句指「沒有事先安排而偶然碰見某人」。",
-        "meet-mcq-02": "「按安排在指定時間／地點與某人碰面」是「meet someone — arrangement」的用法，與本句語境不同。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-01": "「初次與某人相識／建立認識」是「meet someone — first time」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
+        "meet-mcq-03": "本句的「met an old friend」指「沒有事先安排而偶然碰見某人」。",
+        "meet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "meet-reviewed-7bb77d0e1e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-03"
     },
@@ -1043,11 +1015,9 @@ export default {
       "masked": "We ____ unexpectedly in town.",
       "options": [
         "meet-mcq-03",
-        "meet-mcq-02",
-        "meet-mcq-04",
-        "meet-mcq-01",
-        "meet-mcq-05",
-        "meet-mcq-06"
+        "meet-mcq-15",
+        "meet-mcq-18",
+        "meet-pdf-002"
       ],
       "explanation": "本句的「met」指「沒有事先安排而偶然碰見某人」。",
       "sentenceIndex": 10,
@@ -1056,12 +1026,10 @@ export default {
         "met"
       ],
       "optionReasons": {
-        "meet-mcq-03": "本句指「沒有事先安排而偶然碰見某人」。",
-        "meet-mcq-02": "「按安排在指定時間／地點與某人碰面」是「meet someone — arrangement」的用法，與本句語境不同。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-01": "「初次與某人相識／建立認識」是「meet someone — first time」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
+        "meet-mcq-03": "本句的「met」指「沒有事先安排而偶然碰見某人」。",
+        "meet-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "meet-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-03"
     },
@@ -1073,11 +1041,9 @@ export default {
       "masked": "We ____ during the trip.",
       "options": [
         "meet-mcq-28",
-        "meet-mcq-27",
-        "meet-mcq-29",
-        "meet-mcq-26",
-        "meet-mcq-30",
-        "meet-mcq-25"
+        "meet-mcq-21",
+        "meet-mcq-12",
+        "meet-mcq-14"
       ],
       "explanation": "本句的「met several interesting people」指「在行程／活動中遇到某人或某種情況」。",
       "sentenceIndex": 11,
@@ -1086,12 +1052,10 @@ export default {
         "met several interesting people"
       ],
       "optionReasons": {
-        "meet-mcq-28": "本句指「在行程／活動中遇到某人或某種情況」。",
-        "meet-mcq-27": "「為特定活動、討論或目的聚在一起」是「4. meet for + purpose（為某事見面） — 聚會；會面」的用法，與本句語境不同。",
-        "meet-mcq-29": "「兩條線、道路、河流、表面等到達同一位置並相接」是「11. meet = come together / converge（相遇；交會） — 交會；匯合」的用法，與本句語境不同。",
-        "meet-mcq-26": "「人與人見面／會晤的事件」是「meeting — encounter」的用法，與本句語境不同。",
-        "meet-mcq-30": "「兩個地方、表面或概念相連／交界之處」是「12. where X meets Y（……交界處） — 相接；交界」的用法，與本句語境不同。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。"
+        "meet-mcq-28": "本句的「met several interesting people」指「在行程／活動中遇到某人或某種情況」。",
+        "meet-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-28"
     },
@@ -1103,11 +1067,9 @@ export default {
       "masked": "The hikers ____ bad weather near the top.",
       "options": [
         "meet-mcq-28",
-        "meet-mcq-27",
-        "meet-mcq-29",
-        "meet-mcq-26",
-        "meet-mcq-30",
-        "meet-mcq-25"
+        "meet-mcq-11",
+        "meet-mcq-10",
+        "meet-reviewed-7bb77d0e1e"
       ],
       "explanation": "本句的「met」指「在行程／活動中遇到某人或某種情況」。",
       "sentenceIndex": 12,
@@ -1116,12 +1078,10 @@ export default {
         "met"
       ],
       "optionReasons": {
-        "meet-mcq-28": "本句指「在行程／活動中遇到某人或某種情況」。",
-        "meet-mcq-27": "「為特定活動、討論或目的聚在一起」是「4. meet for + purpose（為某事見面） — 聚會；會面」的用法，與本句語境不同。",
-        "meet-mcq-29": "「兩條線、道路、河流、表面等到達同一位置並相接」是「11. meet = come together / converge（相遇；交會） — 交會；匯合」的用法，與本句語境不同。",
-        "meet-mcq-26": "「人與人見面／會晤的事件」是「meeting — encounter」的用法，與本句語境不同。",
-        "meet-mcq-30": "「兩個地方、表面或概念相連／交界之處」是「12. where X meets Y（……交界處） — 相接；交界」的用法，與本句語境不同。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。"
+        "meet-mcq-28": "本句的「met」指「在行程／活動中遇到某人或某種情況」。",
+        "meet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "meet-reviewed-7bb77d0e1e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-28"
     },
@@ -1133,11 +1093,9 @@ export default {
       "masked": "Have you ____?",
       "options": [
         "meet-pdf-001",
-        "meet-mcq-02",
-        "meet-mcq-04",
-        "meet-mcq-01",
-        "meet-mcq-05",
-        "meet-mcq-06"
+        "meet-mcq-24",
+        "meet-mcq-10",
+        "meet-mcq-16"
       ],
       "explanation": "本句的「met my sister」指「透過介紹或初次接觸而認識某人」。",
       "sentenceIndex": 13,
@@ -1146,12 +1104,10 @@ export default {
         "met my sister"
       ],
       "optionReasons": {
-        "meet-pdf-001": "本句指「透過介紹或初次接觸而認識某人」。",
-        "meet-mcq-02": "「按安排在指定時間／地點與某人碰面」是「meet someone — arrangement」的用法，與本句語境不同。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-01": "「初次與某人相識／建立認識」是「meet someone — first time」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
+        "meet-pdf-001": "本句的「met my sister」指「透過介紹或初次接觸而認識某人」。",
+        "meet-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-pdf-001"
     },
@@ -1163,11 +1119,9 @@ export default {
       "masked": "It was nice to ____ your parents.",
       "options": [
         "meet-pdf-001",
-        "meet-mcq-02",
-        "meet-mcq-04",
-        "meet-mcq-01",
-        "meet-mcq-05",
-        "meet-mcq-06"
+        "meet-pdf-002",
+        "meet-mcq-22",
+        "meet-mcq-10"
       ],
       "explanation": "本句的「meet」指「透過介紹或初次接觸而認識某人」。",
       "sentenceIndex": 14,
@@ -1176,12 +1130,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-pdf-001": "本句指「透過介紹或初次接觸而認識某人」。",
-        "meet-mcq-02": "「按安排在指定時間／地點與某人碰面」是「meet someone — arrangement」的用法，與本句語境不同。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-01": "「初次與某人相識／建立認識」是「meet someone — first time」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
+        "meet-pdf-001": "本句的「meet」指「透過介紹或初次接觸而認識某人」。",
+        "meet-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-pdf-001"
     },
@@ -1193,11 +1145,9 @@ export default {
       "masked": "Hi, I’m Daniel. ____",
       "options": [
         "meet-mcq-04",
-        "meet-mcq-03",
-        "meet-mcq-05",
-        "meet-mcq-02",
-        "meet-mcq-06",
-        "meet-mcq-01"
+        "meet-mcq-26",
+        "meet-mcq-24",
+        "meet-mcq-16"
       ],
       "explanation": "本句的「Nice to meet you.」指「初次相識時表示友善的常用客套語」。",
       "sentenceIndex": 15,
@@ -1206,12 +1156,10 @@ export default {
         "Nice to meet you."
       ],
       "optionReasons": {
-        "meet-mcq-04": "本句指「初次相識時表示友善的常用客套語」。",
-        "meet-mcq-03": "「沒有事先安排而偶然碰見某人」是「meet someone by chance」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-02": "「按安排在指定時間／地點與某人碰面」是「meet someone — arrangement」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。",
-        "meet-mcq-01": "「初次與某人相識／建立認識」是「meet someone — first time」的用法，與本句語境不同。"
+        "meet-mcq-04": "本句的「Nice to meet you.」指「初次相識時表示友善的常用客套語」。",
+        "meet-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-04"
     },
@@ -1223,11 +1171,9 @@ export default {
       "masked": "It was lovely to ____ you.",
       "options": [
         "meet-mcq-04",
-        "meet-mcq-03",
-        "meet-mcq-05",
-        "meet-mcq-02",
-        "meet-mcq-06",
-        "meet-mcq-01"
+        "meet-mcq-16",
+        "meet-pdf-002",
+        "meet-mcq-28"
       ],
       "explanation": "本句的「meet」指「初次相識時表示友善的常用客套語」。",
       "sentenceIndex": 16,
@@ -1236,12 +1182,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-04": "本句指「初次相識時表示友善的常用客套語」。",
-        "meet-mcq-03": "「沒有事先安排而偶然碰見某人」是「meet someone by chance」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-02": "「按安排在指定時間／地點與某人碰面」是「meet someone — arrangement」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。",
-        "meet-mcq-01": "「初次與某人相識／建立認識」是「meet someone — first time」的用法，與本句語境不同。"
+        "meet-mcq-04": "本句的「meet」指「初次相識時表示友善的常用客套語」。",
+        "meet-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "meet-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-04"
     },
@@ -1253,11 +1197,9 @@ export default {
       "masked": "The committee ____.",
       "options": [
         "meet-mcq-05",
-        "meet-mcq-04",
-        "meet-mcq-06",
-        "meet-mcq-03",
-        "meet-mcq-07",
-        "meet-mcq-02"
+        "meet-mcq-14",
+        "meet-mcq-29",
+        "meet-mcq-09"
       ],
       "explanation": "本句的「meets every Monday」指「某個群體為討論、工作或決策目的聚集／開會」。",
       "sentenceIndex": 17,
@@ -1266,12 +1208,10 @@ export default {
         "meets every Monday"
       ],
       "optionReasons": {
-        "meet-mcq-05": "本句指「某個群體為討論、工作或決策目的聚集／開會」。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。",
-        "meet-mcq-03": "「沒有事先安排而偶然碰見某人」是「meet someone by chance」的用法，與本句語境不同。",
-        "meet-mcq-07": "「兩條線、道路、河流等到達同一位置並相接／匯合」是「roads/rivers meet」的用法，與本句語境不同。",
-        "meet-mcq-02": "「按安排在指定時間／地點與某人碰面」是「meet someone — arrangement」的用法，與本句語境不同。"
+        "meet-mcq-05": "本句的「meets every Monday」指「某個群體為討論、工作或決策目的聚集／開會」。",
+        "meet-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-05"
     },
@@ -1283,11 +1223,9 @@ export default {
       "masked": "The board ____ to discuss the budget.",
       "options": [
         "meet-mcq-05",
-        "meet-mcq-04",
-        "meet-mcq-06",
-        "meet-mcq-03",
-        "meet-mcq-07",
-        "meet-mcq-02"
+        "meet-mcq-14",
+        "meet-mcq-09",
+        "meet-mcq-04"
       ],
       "explanation": "本句的「met」指「某個群體為討論、工作或決策目的聚集／開會」。",
       "sentenceIndex": 18,
@@ -1296,12 +1234,10 @@ export default {
         "met"
       ],
       "optionReasons": {
-        "meet-mcq-05": "本句指「某個群體為討論、工作或決策目的聚集／開會」。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。",
-        "meet-mcq-03": "「沒有事先安排而偶然碰見某人」是「meet someone by chance」的用法，與本句語境不同。",
-        "meet-mcq-07": "「兩條線、道路、河流等到達同一位置並相接／匯合」是「roads/rivers meet」的用法，與本句語境不同。",
-        "meet-mcq-02": "「按安排在指定時間／地點與某人碰面」是「meet someone — arrangement」的用法，與本句語境不同。"
+        "meet-mcq-05": "本句的「met」指「某個群體為討論、工作或決策目的聚集／開會」。",
+        "meet-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-05"
     },
@@ -1313,11 +1249,9 @@ export default {
       "masked": "She ____ yesterday.",
       "options": [
         "meet-mcq-06",
-        "meet-mcq-05",
-        "meet-mcq-07",
+        "meet-mcq-11",
         "meet-mcq-04",
-        "meet-mcq-08",
-        "meet-mcq-03"
+        "meet-mcq-24"
       ],
       "explanation": "本句的「met with the manager」指「與某人進行較正式、安排好的會面／討論」。",
       "sentenceIndex": 19,
@@ -1326,12 +1260,10 @@ export default {
         "met with the manager"
       ],
       "optionReasons": {
-        "meet-mcq-06": "本句指「與某人進行較正式、安排好的會面／討論」。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-07": "「兩條線、道路、河流等到達同一位置並相接／匯合」是「roads/rivers meet」的用法，與本句語境不同。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-08": "「達到／滿足規定條件」是「meet requirements」的用法，與本句語境不同。",
-        "meet-mcq-03": "「沒有事先安排而偶然碰見某人」是「meet someone by chance」的用法，與本句語境不同。"
+        "meet-mcq-06": "本句的「met with the manager」指「與某人進行較正式、安排好的會面／討論」。",
+        "meet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-06"
     },
@@ -1343,11 +1275,9 @@ export default {
       "masked": "The team ____ with clients to discuss the proposal.",
       "options": [
         "meet-mcq-06",
-        "meet-mcq-05",
-        "meet-mcq-07",
-        "meet-mcq-04",
+        "meet-mcq-12",
         "meet-mcq-08",
-        "meet-mcq-03"
+        "meet-mcq-21"
       ],
       "explanation": "本句的「met」指「與某人進行較正式、安排好的會面／討論」。",
       "sentenceIndex": 20,
@@ -1356,12 +1286,10 @@ export default {
         "met"
       ],
       "optionReasons": {
-        "meet-mcq-06": "本句指「與某人進行較正式、安排好的會面／討論」。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。",
-        "meet-mcq-07": "「兩條線、道路、河流等到達同一位置並相接／匯合」是「roads/rivers meet」的用法，與本句語境不同。",
-        "meet-mcq-04": "「初次相識時表示友善的常用客套語」是「Nice to meet you」的用法，與本句語境不同。",
-        "meet-mcq-08": "「達到／滿足規定條件」是「meet requirements」的用法，與本句語境不同。",
-        "meet-mcq-03": "「沒有事先安排而偶然碰見某人」是「meet someone by chance」的用法，與本句語境不同。"
+        "meet-mcq-06": "本句的「met」指「與某人進行較正式、安排好的會面／討論」。",
+        "meet-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-06"
     },
@@ -1373,11 +1301,9 @@ export default {
       "masked": "The two roads ____ near the bridge.",
       "options": [
         "meet-mcq-29",
+        "meet-mcq-16",
         "meet-mcq-28",
-        "meet-mcq-30",
-        "meet-mcq-27",
-        "meet-mcq-26",
-        "meet-mcq-25"
+        "meet-reviewed-7bb77d0e1e"
       ],
       "explanation": "本句的「meet」指「兩條線、道路、河流、表面等到達同一位置並相接」。",
       "sentenceIndex": 21,
@@ -1386,12 +1312,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-29": "本句指「兩條線、道路、河流、表面等到達同一位置並相接」。",
-        "meet-mcq-28": "「在行程／活動中遇到某人或某種情況」是「6. meet = encounter someone/something during an activity（遇上） — 遇到；碰上」的用法，與本句語境不同。",
-        "meet-mcq-30": "「兩個地方、表面或概念相連／交界之處」是「12. where X meets Y（……交界處） — 相接；交界」的用法，與本句語境不同。",
-        "meet-mcq-27": "「為特定活動、討論或目的聚在一起」是「4. meet for + purpose（為某事見面） — 聚會；會面」的用法，與本句語境不同。",
-        "meet-mcq-26": "「人與人見面／會晤的事件」是「meeting — encounter」的用法，與本句語境不同。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。"
+        "meet-mcq-29": "本句的「meet」指「兩條線、道路、河流、表面等到達同一位置並相接」。",
+        "meet-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "meet-reviewed-7bb77d0e1e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-29"
     },
@@ -1403,11 +1327,9 @@ export default {
       "masked": "The river ____ the sea here.",
       "options": [
         "meet-mcq-29",
-        "meet-mcq-28",
-        "meet-mcq-30",
-        "meet-mcq-27",
         "meet-mcq-26",
-        "meet-mcq-25"
+        "meet-mcq-27",
+        "meet-mcq-17"
       ],
       "explanation": "本句的「meets」指「兩條線、道路、河流、表面等到達同一位置並相接」。",
       "sentenceIndex": 22,
@@ -1416,12 +1338,10 @@ export default {
         "meets"
       ],
       "optionReasons": {
-        "meet-mcq-29": "本句指「兩條線、道路、河流、表面等到達同一位置並相接」。",
-        "meet-mcq-28": "「在行程／活動中遇到某人或某種情況」是「6. meet = encounter someone/something during an activity（遇上） — 遇到；碰上」的用法，與本句語境不同。",
-        "meet-mcq-30": "「兩個地方、表面或概念相連／交界之處」是「12. where X meets Y（……交界處） — 相接；交界」的用法，與本句語境不同。",
-        "meet-mcq-27": "「為特定活動、討論或目的聚在一起」是「4. meet for + purpose（為某事見面） — 聚會；會面」的用法，與本句語境不同。",
-        "meet-mcq-26": "「人與人見面／會晤的事件」是「meeting — encounter」的用法，與本句語境不同。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。"
+        "meet-mcq-29": "本句的「meets」指「兩條線、道路、河流、表面等到達同一位置並相接」。",
+        "meet-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-29"
     },
@@ -1433,11 +1353,9 @@ export default {
       "masked": "The café is where the two streets ____.",
       "options": [
         "meet-mcq-30",
-        "meet-mcq-29",
-        "meet-mcq-28",
-        "meet-mcq-27",
-        "meet-mcq-26",
-        "meet-mcq-25"
+        "meet-mcq-25",
+        "meet-mcq-04",
+        "meet-pdf-002"
       ],
       "explanation": "本句的「meet」指「兩個地方、表面或概念相連／交界之處」。",
       "sentenceIndex": 23,
@@ -1446,12 +1364,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-30": "本句指「兩個地方、表面或概念相連／交界之處」。",
-        "meet-mcq-29": "「兩條線、道路、河流、表面等到達同一位置並相接」是「11. meet = come together / converge（相遇；交會） — 交會；匯合」的用法，與本句語境不同。",
-        "meet-mcq-28": "「在行程／活動中遇到某人或某種情況」是「6. meet = encounter someone/something during an activity（遇上） — 遇到；碰上」的用法，與本句語境不同。",
-        "meet-mcq-27": "「為特定活動、討論或目的聚在一起」是「4. meet for + purpose（為某事見面） — 聚會；會面」的用法，與本句語境不同。",
-        "meet-mcq-26": "「人與人見面／會晤的事件」是「meeting — encounter」的用法，與本句語境不同。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。"
+        "meet-mcq-30": "本句的「meet」指「兩個地方、表面或概念相連／交界之處」。",
+        "meet-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "meet-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-30"
     },
@@ -1463,11 +1379,9 @@ export default {
       "masked": "The sky seems to ____ the sea at the horizon.",
       "options": [
         "meet-mcq-30",
-        "meet-mcq-29",
-        "meet-mcq-28",
-        "meet-mcq-27",
-        "meet-mcq-26",
-        "meet-mcq-25"
+        "meet-mcq-19",
+        "meet-mcq-16",
+        "meet-mcq-17"
       ],
       "explanation": "本句的「meet」指「兩個地方、表面或概念相連／交界之處」。",
       "sentenceIndex": 24,
@@ -1476,12 +1390,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-30": "本句指「兩個地方、表面或概念相連／交界之處」。",
-        "meet-mcq-29": "「兩條線、道路、河流、表面等到達同一位置並相接」是「11. meet = come together / converge（相遇；交會） — 交會；匯合」的用法，與本句語境不同。",
-        "meet-mcq-28": "「在行程／活動中遇到某人或某種情況」是「6. meet = encounter someone/something during an activity（遇上） — 遇到；碰上」的用法，與本句語境不同。",
-        "meet-mcq-27": "「為特定活動、討論或目的聚在一起」是「4. meet for + purpose（為某事見面） — 聚會；會面」的用法，與本句語境不同。",
-        "meet-mcq-26": "「人與人見面／會晤的事件」是「meeting — encounter」的用法，與本句語境不同。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。"
+        "meet-mcq-30": "本句的「meet」指「兩個地方、表面或概念相連／交界之處」。",
+        "meet-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-30"
     },
@@ -1493,11 +1405,9 @@ export default {
       "masked": "You must ____.",
       "options": [
         "meet-mcq-08",
-        "meet-mcq-07",
-        "meet-mcq-09",
-        "meet-mcq-06",
-        "meet-mcq-10",
-        "meet-mcq-05"
+        "meet-mcq-03",
+        "meet-mcq-21",
+        "meet-mcq-04"
       ],
       "explanation": "本句的「meet the requirements」指「達到／滿足規定條件」。",
       "sentenceIndex": 25,
@@ -1506,12 +1416,10 @@ export default {
         "meet the requirements"
       ],
       "optionReasons": {
-        "meet-mcq-08": "本句指「達到／滿足規定條件」。",
-        "meet-mcq-07": "「兩條線、道路、河流等到達同一位置並相接／匯合」是「roads/rivers meet」的用法，與本句語境不同。",
-        "meet-mcq-09": "「品質或表現至少達到指定水平」是「meet standards」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。",
-        "meet-mcq-10": "「實際結果達到預期水平」是「meet expectations」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。"
+        "meet-mcq-08": "本句的「meet the requirements」指「達到／滿足規定條件」。",
+        "meet-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-08"
     },
@@ -1523,11 +1431,9 @@ export default {
       "masked": "The product ____ all safety requirements.",
       "options": [
         "meet-mcq-08",
-        "meet-mcq-07",
-        "meet-mcq-09",
-        "meet-mcq-06",
-        "meet-mcq-10",
-        "meet-mcq-05"
+        "meet-mcq-03",
+        "meet-mcq-22",
+        "meet-mcq-04"
       ],
       "explanation": "本句的「meets」指「達到／滿足規定條件」。",
       "sentenceIndex": 26,
@@ -1536,12 +1442,10 @@ export default {
         "meets"
       ],
       "optionReasons": {
-        "meet-mcq-08": "本句指「達到／滿足規定條件」。",
-        "meet-mcq-07": "「兩條線、道路、河流等到達同一位置並相接／匯合」是「roads/rivers meet」的用法，與本句語境不同。",
-        "meet-mcq-09": "「品質或表現至少達到指定水平」是「meet standards」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。",
-        "meet-mcq-10": "「實際結果達到預期水平」是「meet expectations」的用法，與本句語境不同。",
-        "meet-mcq-05": "「某個群體為討論、工作或決策目的聚集／開會」是「meet — group」的用法，與本句語境不同。"
+        "meet-mcq-08": "本句的「meets」指「達到／滿足規定條件」。",
+        "meet-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-08"
     },
@@ -1553,10 +1457,8 @@ export default {
       "masked": "The work does not ____.",
       "options": [
         "meet-mcq-09",
-        "meet-mcq-08",
-        "meet-mcq-10",
-        "meet-mcq-07",
-        "meet-mcq-11",
+        "meet-mcq-20",
+        "meet-mcq-14",
         "meet-mcq-06"
       ],
       "explanation": "本句的「meet the required standard」指「品質或表現至少達到指定水平」。",
@@ -1566,12 +1468,10 @@ export default {
         "meet the required standard"
       ],
       "optionReasons": {
-        "meet-mcq-09": "本句指「品質或表現至少達到指定水平」。",
-        "meet-mcq-08": "「達到／滿足規定條件」是「meet requirements」的用法，與本句語境不同。",
-        "meet-mcq-10": "「實際結果達到預期水平」是「meet expectations」的用法，與本句語境不同。",
-        "meet-mcq-07": "「兩條線、道路、河流等到達同一位置並相接／匯合」是「roads/rivers meet」的用法，與本句語境不同。",
-        "meet-mcq-11": "「滿足取得資格／合規所需要的條件」是「meet criteria」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
+        "meet-mcq-09": "本句的「meet the required standard」指「品質或表現至少達到指定水平」。",
+        "meet-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-09"
     },
@@ -1583,11 +1483,9 @@ export default {
       "masked": "All products must ____ quality standards.",
       "options": [
         "meet-mcq-09",
-        "meet-mcq-08",
-        "meet-mcq-10",
-        "meet-mcq-07",
-        "meet-mcq-11",
-        "meet-mcq-06"
+        "meet-mcq-21",
+        "meet-mcq-03",
+        "meet-mcq-18"
       ],
       "explanation": "本句的「meet」指「品質或表現至少達到指定水平」。",
       "sentenceIndex": 28,
@@ -1596,12 +1494,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-09": "本句指「品質或表現至少達到指定水平」。",
-        "meet-mcq-08": "「達到／滿足規定條件」是「meet requirements」的用法，與本句語境不同。",
-        "meet-mcq-10": "「實際結果達到預期水平」是「meet expectations」的用法，與本句語境不同。",
-        "meet-mcq-07": "「兩條線、道路、河流等到達同一位置並相接／匯合」是「roads/rivers meet」的用法，與本句語境不同。",
-        "meet-mcq-11": "「滿足取得資格／合規所需要的條件」是「meet criteria」的用法，與本句語境不同。",
-        "meet-mcq-06": "「與某人進行較正式、安排好的會面／討論」是「meet with someone」的用法，與本句語境不同。"
+        "meet-mcq-09": "本句的「meet」指「品質或表現至少達到指定水平」。",
+        "meet-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-09"
     },
@@ -1613,11 +1509,9 @@ export default {
       "masked": "The result ____.",
       "options": [
         "meet-mcq-10",
-        "meet-mcq-09",
-        "meet-mcq-11",
-        "meet-mcq-08",
-        "meet-mcq-12",
-        "meet-mcq-07"
+        "meet-mcq-23",
+        "meet-mcq-22",
+        "meet-mcq-20"
       ],
       "explanation": "本句的「met our expectations」指「實際結果達到預期水平」。",
       "sentenceIndex": 29,
@@ -1626,12 +1520,10 @@ export default {
         "met our expectations"
       ],
       "optionReasons": {
-        "meet-mcq-10": "本句指「實際結果達到預期水平」。",
-        "meet-mcq-09": "「品質或表現至少達到指定水平」是「meet standards」的用法，與本句語境不同。",
-        "meet-mcq-11": "「滿足取得資格／合規所需要的條件」是「meet criteria」的用法，與本句語境不同。",
-        "meet-mcq-08": "「達到／滿足規定條件」是「meet requirements」的用法，與本句語境不同。",
-        "meet-mcq-12": "「在指定截止期限或之前完成工作」是「meet a deadline」的用法，與本句語境不同。",
-        "meet-mcq-07": "「兩條線、道路、河流等到達同一位置並相接／匯合」是「roads/rivers meet」的用法，與本句語境不同。"
+        "meet-mcq-10": "本句的「met our expectations」指「實際結果達到預期水平」。",
+        "meet-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-10"
     },
@@ -1643,11 +1535,9 @@ export default {
       "masked": "The service failed to ____ customer expectations.",
       "options": [
         "meet-mcq-10",
-        "meet-mcq-09",
-        "meet-mcq-11",
-        "meet-mcq-08",
-        "meet-mcq-12",
-        "meet-mcq-07"
+        "meet-mcq-06",
+        "meet-mcq-22",
+        "meet-pdf-002"
       ],
       "explanation": "本句的「meet」指「實際結果達到預期水平」。",
       "sentenceIndex": 30,
@@ -1656,12 +1546,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-10": "本句指「實際結果達到預期水平」。",
-        "meet-mcq-09": "「品質或表現至少達到指定水平」是「meet standards」的用法，與本句語境不同。",
-        "meet-mcq-11": "「滿足取得資格／合規所需要的條件」是「meet criteria」的用法，與本句語境不同。",
-        "meet-mcq-08": "「達到／滿足規定條件」是「meet requirements」的用法，與本句語境不同。",
-        "meet-mcq-12": "「在指定截止期限或之前完成工作」是「meet a deadline」的用法，與本句語境不同。",
-        "meet-mcq-07": "「兩條線、道路、河流等到達同一位置並相接／匯合」是「roads/rivers meet」的用法，與本句語境不同。"
+        "meet-mcq-10": "本句的「meet」指「實際結果達到預期水平」。",
+        "meet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "meet-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-10"
     },
@@ -1673,11 +1561,9 @@ export default {
       "masked": "Applicants must ____.",
       "options": [
         "meet-mcq-11",
-        "meet-mcq-10",
-        "meet-mcq-12",
-        "meet-mcq-09",
-        "meet-mcq-13",
-        "meet-mcq-08"
+        "meet-mcq-06",
+        "meet-mcq-30",
+        "meet-mcq-04"
       ],
       "explanation": "本句的「meet several criteria」指「滿足取得資格／合規所需要的條件」。",
       "sentenceIndex": 31,
@@ -1686,12 +1572,10 @@ export default {
         "meet several criteria"
       ],
       "optionReasons": {
-        "meet-mcq-11": "本句指「滿足取得資格／合規所需要的條件」。",
-        "meet-mcq-10": "「實際結果達到預期水平」是「meet expectations」的用法，與本句語境不同。",
-        "meet-mcq-12": "「在指定截止期限或之前完成工作」是「meet a deadline」的用法，與本句語境不同。",
-        "meet-mcq-09": "「品質或表現至少達到指定水平」是「meet standards」的用法，與本句語境不同。",
-        "meet-mcq-13": "「實際表現達到預先設定的目標」是「meet a target」的用法，與本句語境不同。",
-        "meet-mcq-08": "「達到／滿足規定條件」是「meet requirements」的用法，與本句語境不同。"
+        "meet-mcq-11": "本句的「meet several criteria」指「滿足取得資格／合規所需要的條件」。",
+        "meet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-11"
     },
@@ -1703,11 +1587,9 @@ export default {
       "masked": "The company ____ the conditions for funding.",
       "options": [
         "meet-mcq-11",
-        "meet-mcq-10",
-        "meet-mcq-12",
-        "meet-mcq-09",
-        "meet-mcq-13",
-        "meet-mcq-08"
+        "meet-mcq-01",
+        "meet-mcq-27",
+        "meet-mcq-21"
       ],
       "explanation": "本句的「meets」指「滿足取得資格／合規所需要的條件」。",
       "sentenceIndex": 32,
@@ -1716,12 +1598,10 @@ export default {
         "meets"
       ],
       "optionReasons": {
-        "meet-mcq-11": "本句指「滿足取得資格／合規所需要的條件」。",
-        "meet-mcq-10": "「實際結果達到預期水平」是「meet expectations」的用法，與本句語境不同。",
-        "meet-mcq-12": "「在指定截止期限或之前完成工作」是「meet a deadline」的用法，與本句語境不同。",
-        "meet-mcq-09": "「品質或表現至少達到指定水平」是「meet standards」的用法，與本句語境不同。",
-        "meet-mcq-13": "「實際表現達到預先設定的目標」是「meet a target」的用法，與本句語境不同。",
-        "meet-mcq-08": "「達到／滿足規定條件」是「meet requirements」的用法，與本句語境不同。"
+        "meet-mcq-11": "本句的「meets」指「滿足取得資格／合規所需要的條件」。",
+        "meet-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-11"
     },
@@ -1733,11 +1613,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "meet-mcq-12",
-        "meet-mcq-11",
-        "meet-mcq-13",
-        "meet-mcq-10",
-        "meet-mcq-14",
-        "meet-mcq-09"
+        "meet-mcq-22",
+        "meet-pdf-002",
+        "meet-mcq-28"
       ],
       "explanation": "本句的「meet the deadline」指「在指定截止期限或之前完成工作」。",
       "sentenceIndex": 33,
@@ -1746,12 +1624,10 @@ export default {
         "meet the deadline"
       ],
       "optionReasons": {
-        "meet-mcq-12": "本句指「在指定截止期限或之前完成工作」。",
-        "meet-mcq-11": "「滿足取得資格／合規所需要的條件」是「meet criteria」的用法，與本句語境不同。",
-        "meet-mcq-13": "「實際表現達到預先設定的目標」是「meet a target」的用法，與本句語境不同。",
-        "meet-mcq-10": "「實際結果達到預期水平」是「meet expectations」的用法，與本句語境不同。",
-        "meet-mcq-14": "「提供足夠條件、資源或服務以滿足需要」是「meet needs」的用法，與本句語境不同。",
-        "meet-mcq-09": "「品質或表現至少達到指定水平」是「meet standards」的用法，與本句語境不同。"
+        "meet-mcq-12": "本句的「meet the deadline」指「在指定截止期限或之前完成工作」。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "meet-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-12"
     },
@@ -1763,11 +1639,9 @@ export default {
       "masked": "She worked late to ____ the deadline.",
       "options": [
         "meet-mcq-12",
+        "meet-mcq-21",
         "meet-mcq-11",
-        "meet-mcq-13",
-        "meet-mcq-10",
-        "meet-mcq-14",
-        "meet-mcq-09"
+        "meet-mcq-24"
       ],
       "explanation": "本句的「meet」指「在指定截止期限或之前完成工作」。",
       "sentenceIndex": 34,
@@ -1776,12 +1650,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-12": "本句指「在指定截止期限或之前完成工作」。",
-        "meet-mcq-11": "「滿足取得資格／合規所需要的條件」是「meet criteria」的用法，與本句語境不同。",
-        "meet-mcq-13": "「實際表現達到預先設定的目標」是「meet a target」的用法，與本句語境不同。",
-        "meet-mcq-10": "「實際結果達到預期水平」是「meet expectations」的用法，與本句語境不同。",
-        "meet-mcq-14": "「提供足夠條件、資源或服務以滿足需要」是「meet needs」的用法，與本句語境不同。",
-        "meet-mcq-09": "「品質或表現至少達到指定水平」是「meet standards」的用法，與本句語境不同。"
+        "meet-mcq-12": "本句的「meet」指「在指定截止期限或之前完成工作」。",
+        "meet-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-12"
     },
@@ -1793,11 +1665,9 @@ export default {
       "masked": "The team ____.",
       "options": [
         "meet-mcq-13",
-        "meet-mcq-12",
-        "meet-mcq-14",
-        "meet-mcq-11",
-        "meet-mcq-15",
-        "meet-mcq-10"
+        "meet-pdf-001",
+        "meet-mcq-26",
+        "meet-mcq-22"
       ],
       "explanation": "本句的「met its sales target」指「實際表現達到預先設定的目標」。",
       "sentenceIndex": 35,
@@ -1806,12 +1676,10 @@ export default {
         "met its sales target"
       ],
       "optionReasons": {
-        "meet-mcq-13": "本句指「實際表現達到預先設定的目標」。",
-        "meet-mcq-12": "「在指定截止期限或之前完成工作」是「meet a deadline」的用法，與本句語境不同。",
-        "meet-mcq-14": "「提供足夠條件、資源或服務以滿足需要」是「meet needs」的用法，與本句語境不同。",
-        "meet-mcq-11": "「滿足取得資格／合規所需要的條件」是「meet criteria」的用法，與本句語境不同。",
-        "meet-mcq-15": "「提供足夠產品／服務以應付現有需求」是「meet demand」的用法，與本句語境不同。",
-        "meet-mcq-10": "「實際結果達到預期水平」是「meet expectations」的用法，與本句語境不同。"
+        "meet-mcq-13": "本句的「met its sales target」指「實際表現達到預先設定的目標」。",
+        "meet-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-13"
     },
@@ -1823,11 +1691,9 @@ export default {
       "masked": "We failed to ____ our goal.",
       "options": [
         "meet-mcq-13",
-        "meet-mcq-12",
-        "meet-mcq-14",
-        "meet-mcq-11",
-        "meet-mcq-15",
-        "meet-mcq-10"
+        "meet-pdf-001",
+        "meet-mcq-16",
+        "meet-mcq-30"
       ],
       "explanation": "本句的「meet」指「實際表現達到預先設定的目標」。",
       "sentenceIndex": 36,
@@ -1836,12 +1702,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-13": "本句指「實際表現達到預先設定的目標」。",
-        "meet-mcq-12": "「在指定截止期限或之前完成工作」是「meet a deadline」的用法，與本句語境不同。",
-        "meet-mcq-14": "「提供足夠條件、資源或服務以滿足需要」是「meet needs」的用法，與本句語境不同。",
-        "meet-mcq-11": "「滿足取得資格／合規所需要的條件」是「meet criteria」的用法，與本句語境不同。",
-        "meet-mcq-15": "「提供足夠產品／服務以應付現有需求」是「meet demand」的用法，與本句語境不同。",
-        "meet-mcq-10": "「實際結果達到預期水平」是「meet expectations」的用法，與本句語境不同。"
+        "meet-mcq-13": "本句的「meet」指「實際表現達到預先設定的目標」。",
+        "meet-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-13"
     },
@@ -1854,10 +1718,8 @@ export default {
       "options": [
         "meet-mcq-14",
         "meet-mcq-13",
-        "meet-mcq-15",
-        "meet-mcq-12",
-        "meet-mcq-16",
-        "meet-mcq-11"
+        "meet-pdf-001",
+        "meet-mcq-12"
       ],
       "explanation": "本句的「meet students’ needs」指「提供足夠條件、資源或服務以滿足需要」。",
       "sentenceIndex": 37,
@@ -1866,12 +1728,10 @@ export default {
         "meet students’ needs"
       ],
       "optionReasons": {
-        "meet-mcq-14": "本句指「提供足夠條件、資源或服務以滿足需要」。",
-        "meet-mcq-13": "「實際表現達到預先設定的目標」是「meet a target」的用法，與本句語境不同。",
-        "meet-mcq-15": "「提供足夠產品／服務以應付現有需求」是「meet demand」的用法，與本句語境不同。",
-        "meet-mcq-12": "「在指定截止期限或之前完成工作」是「meet a deadline」的用法，與本句語境不同。",
-        "meet-mcq-16": "「有／提供足夠金錢支付所需費用」是「meet costs/expenses」的用法，與本句語境不同。",
-        "meet-mcq-11": "「滿足取得資格／合規所需要的條件」是「meet criteria」的用法，與本句語境不同。"
+        "meet-mcq-14": "本句的「meet students’ needs」指「提供足夠條件、資源或服務以滿足需要」。",
+        "meet-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "meet-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-14"
     },
@@ -1883,11 +1743,9 @@ export default {
       "masked": "The service does not ____ everyone’s needs.",
       "options": [
         "meet-mcq-14",
-        "meet-mcq-13",
-        "meet-mcq-15",
-        "meet-mcq-12",
-        "meet-mcq-16",
-        "meet-mcq-11"
+        "meet-mcq-20",
+        "meet-mcq-02",
+        "meet-mcq-10"
       ],
       "explanation": "本句的「meet」指「提供足夠條件、資源或服務以滿足需要」。",
       "sentenceIndex": 38,
@@ -1896,12 +1754,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-14": "本句指「提供足夠條件、資源或服務以滿足需要」。",
-        "meet-mcq-13": "「實際表現達到預先設定的目標」是「meet a target」的用法，與本句語境不同。",
-        "meet-mcq-15": "「提供足夠產品／服務以應付現有需求」是「meet demand」的用法，與本句語境不同。",
-        "meet-mcq-12": "「在指定截止期限或之前完成工作」是「meet a deadline」的用法，與本句語境不同。",
-        "meet-mcq-16": "「有／提供足夠金錢支付所需費用」是「meet costs/expenses」的用法，與本句語境不同。",
-        "meet-mcq-11": "「滿足取得資格／合規所需要的條件」是「meet criteria」的用法，與本句語境不同。"
+        "meet-mcq-14": "本句的「meet」指「提供足夠條件、資源或服務以滿足需要」。",
+        "meet-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-14"
     },
@@ -1913,11 +1769,9 @@ export default {
       "masked": "Production increased to ____.",
       "options": [
         "meet-mcq-15",
-        "meet-mcq-14",
-        "meet-mcq-16",
-        "meet-mcq-13",
-        "meet-mcq-17",
-        "meet-mcq-12"
+        "meet-mcq-05",
+        "meet-mcq-21",
+        "meet-mcq-26"
       ],
       "explanation": "本句的「meet demand」指「提供足夠產品／服務以應付現有需求」。",
       "sentenceIndex": 39,
@@ -1926,12 +1780,10 @@ export default {
         "meet demand"
       ],
       "optionReasons": {
-        "meet-mcq-15": "本句指「提供足夠產品／服務以應付現有需求」。",
-        "meet-mcq-14": "「提供足夠條件、資源或服務以滿足需要」是「meet needs」的用法，與本句語境不同。",
-        "meet-mcq-16": "「有／提供足夠金錢支付所需費用」是「meet costs/expenses」的用法，與本句語境不同。",
-        "meet-mcq-13": "「實際表現達到預先設定的目標」是「meet a target」的用法，與本句語境不同。",
-        "meet-mcq-17": "「按要求履行責任、付款或其他義務」是「meet obligations」的用法，與本句語境不同。",
-        "meet-mcq-12": "「在指定截止期限或之前完成工作」是「meet a deadline」的用法，與本句語境不同。"
+        "meet-mcq-15": "本句的「meet demand」指「提供足夠產品／服務以應付現有需求」。",
+        "meet-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-15"
     },
@@ -1943,11 +1795,9 @@ export default {
       "masked": "The company cannot ____ current demand.",
       "options": [
         "meet-mcq-15",
-        "meet-mcq-14",
-        "meet-mcq-16",
-        "meet-mcq-13",
-        "meet-mcq-17",
-        "meet-mcq-12"
+        "meet-mcq-02",
+        "meet-mcq-20",
+        "meet-mcq-18"
       ],
       "explanation": "本句的「meet」指「提供足夠產品／服務以應付現有需求」。",
       "sentenceIndex": 40,
@@ -1956,12 +1806,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-15": "本句指「提供足夠產品／服務以應付現有需求」。",
-        "meet-mcq-14": "「提供足夠條件、資源或服務以滿足需要」是「meet needs」的用法，與本句語境不同。",
-        "meet-mcq-16": "「有／提供足夠金錢支付所需費用」是「meet costs/expenses」的用法，與本句語境不同。",
-        "meet-mcq-13": "「實際表現達到預先設定的目標」是「meet a target」的用法，與本句語境不同。",
-        "meet-mcq-17": "「按要求履行責任、付款或其他義務」是「meet obligations」的用法，與本句語境不同。",
-        "meet-mcq-12": "「在指定截止期限或之前完成工作」是「meet a deadline」的用法，與本句語境不同。"
+        "meet-mcq-15": "本句的「meet」指「提供足夠產品／服務以應付現有需求」。",
+        "meet-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-15"
     },
@@ -1973,11 +1821,9 @@ export default {
       "masked": "The grant will help ____.",
       "options": [
         "meet-mcq-16",
-        "meet-mcq-15",
-        "meet-mcq-17",
-        "meet-mcq-14",
-        "meet-mcq-18",
-        "meet-mcq-13"
+        "meet-mcq-29",
+        "meet-reviewed-7bb77d0e1e",
+        "meet-mcq-27"
       ],
       "explanation": "本句的「meet the costs」指「有／提供足夠金錢支付所需費用」。",
       "sentenceIndex": 41,
@@ -1986,12 +1832,10 @@ export default {
         "meet the costs"
       ],
       "optionReasons": {
-        "meet-mcq-16": "本句指「有／提供足夠金錢支付所需費用」。",
-        "meet-mcq-15": "「提供足夠產品／服務以應付現有需求」是「meet demand」的用法，與本句語境不同。",
-        "meet-mcq-17": "「按要求履行責任、付款或其他義務」是「meet obligations」的用法，與本句語境不同。",
-        "meet-mcq-14": "「提供足夠條件、資源或服務以滿足需要」是「meet needs」的用法，與本句語境不同。",
-        "meet-mcq-18": "「面對並設法成功／適當處理某項困難」是「meet a challenge」的用法，與本句語境不同。",
-        "meet-mcq-13": "「實際表現達到預先設定的目標」是「meet a target」的用法，與本句語境不同。"
+        "meet-mcq-16": "本句的「meet the costs」指「有／提供足夠金錢支付所需費用」。",
+        "meet-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "meet-reviewed-7bb77d0e1e": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-16"
     },
@@ -2003,11 +1847,9 @@ export default {
       "masked": "They struggled to ____ their monthly expenses.",
       "options": [
         "meet-mcq-16",
-        "meet-mcq-15",
-        "meet-mcq-17",
-        "meet-mcq-14",
         "meet-mcq-18",
-        "meet-mcq-13"
+        "meet-reviewed-7bb77d0e1e",
+        "meet-pdf-002"
       ],
       "explanation": "本句的「meet」指「有／提供足夠金錢支付所需費用」。",
       "sentenceIndex": 42,
@@ -2016,12 +1858,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-16": "本句指「有／提供足夠金錢支付所需費用」。",
-        "meet-mcq-15": "「提供足夠產品／服務以應付現有需求」是「meet demand」的用法，與本句語境不同。",
-        "meet-mcq-17": "「按要求履行責任、付款或其他義務」是「meet obligations」的用法，與本句語境不同。",
-        "meet-mcq-14": "「提供足夠條件、資源或服務以滿足需要」是「meet needs」的用法，與本句語境不同。",
-        "meet-mcq-18": "「面對並設法成功／適當處理某項困難」是「meet a challenge」的用法，與本句語境不同。",
-        "meet-mcq-13": "「實際表現達到預先設定的目標」是「meet a target」的用法，與本句語境不同。"
+        "meet-mcq-16": "本句的「meet」指「有／提供足夠金錢支付所需費用」。",
+        "meet-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "meet-reviewed-7bb77d0e1e": "請比較這個意思與句子中標示的用法。",
+        "meet-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-16"
     },
@@ -2033,11 +1873,9 @@ export default {
       "masked": "The company could not ____.",
       "options": [
         "meet-mcq-17",
-        "meet-mcq-16",
-        "meet-mcq-18",
-        "meet-mcq-15",
-        "meet-mcq-19",
-        "meet-mcq-14"
+        "meet-mcq-27",
+        "meet-mcq-04",
+        "meet-mcq-30"
       ],
       "explanation": "本句的「meet its financial obligations」指「按要求履行責任、付款或其他義務」。",
       "sentenceIndex": 43,
@@ -2046,12 +1884,10 @@ export default {
         "meet its financial obligations"
       ],
       "optionReasons": {
-        "meet-mcq-17": "本句指「按要求履行責任、付款或其他義務」。",
-        "meet-mcq-16": "「有／提供足夠金錢支付所需費用」是「meet costs/expenses」的用法，與本句語境不同。",
-        "meet-mcq-18": "「面對並設法成功／適當處理某項困難」是「meet a challenge」的用法，與本句語境不同。",
-        "meet-mcq-15": "「提供足夠產品／服務以應付現有需求」是「meet demand」的用法，與本句語境不同。",
-        "meet-mcq-19": "「遭遇別人的反對、阻力或抵制」是「meet opposition/resistance」的用法，與本句語境不同。",
-        "meet-mcq-14": "「提供足夠條件、資源或服務以滿足需要」是「meet needs」的用法，與本句語境不同。"
+        "meet-mcq-17": "本句的「meet its financial obligations」指「按要求履行責任、付款或其他義務」。",
+        "meet-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-17"
     },
@@ -2063,11 +1899,9 @@ export default {
       "masked": "He struggled to ____ the monthly payments.",
       "options": [
         "meet-mcq-17",
-        "meet-mcq-16",
-        "meet-mcq-18",
-        "meet-mcq-15",
-        "meet-mcq-19",
-        "meet-mcq-14"
+        "meet-mcq-09",
+        "meet-mcq-26",
+        "meet-mcq-29"
       ],
       "explanation": "本句的「meet」指「按要求履行責任、付款或其他義務」。",
       "sentenceIndex": 44,
@@ -2076,12 +1910,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-17": "本句指「按要求履行責任、付款或其他義務」。",
-        "meet-mcq-16": "「有／提供足夠金錢支付所需費用」是「meet costs/expenses」的用法，與本句語境不同。",
-        "meet-mcq-18": "「面對並設法成功／適當處理某項困難」是「meet a challenge」的用法，與本句語境不同。",
-        "meet-mcq-15": "「提供足夠產品／服務以應付現有需求」是「meet demand」的用法，與本句語境不同。",
-        "meet-mcq-19": "「遭遇別人的反對、阻力或抵制」是「meet opposition/resistance」的用法，與本句語境不同。",
-        "meet-mcq-14": "「提供足夠條件、資源或服務以滿足需要」是「meet needs」的用法，與本句語境不同。"
+        "meet-mcq-17": "本句的「meet」指「按要求履行責任、付款或其他義務」。",
+        "meet-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-17"
     },
@@ -2093,10 +1925,8 @@ export default {
       "masked": "She was ready to ____.",
       "options": [
         "meet-mcq-18",
-        "meet-mcq-17",
-        "meet-mcq-19",
-        "meet-mcq-16",
-        "meet-mcq-20",
+        "meet-mcq-06",
+        "meet-pdf-002",
         "meet-mcq-15"
       ],
       "explanation": "本句的「meet the challenge」指「面對並設法成功／適當處理某項困難」。",
@@ -2106,12 +1936,10 @@ export default {
         "meet the challenge"
       ],
       "optionReasons": {
-        "meet-mcq-18": "本句指「面對並設法成功／適當處理某項困難」。",
-        "meet-mcq-17": "「按要求履行責任、付款或其他義務」是「meet obligations」的用法，與本句語境不同。",
-        "meet-mcq-19": "「遭遇別人的反對、阻力或抵制」是「meet opposition/resistance」的用法，與本句語境不同。",
-        "meet-mcq-16": "「有／提供足夠金錢支付所需費用」是「meet costs/expenses」的用法，與本句語境不同。",
-        "meet-mcq-20": "「與另一人的目光相接、形成眼神接觸」是「meet someone’s eye」的用法，與本句語境不同。",
-        "meet-mcq-15": "「提供足夠產品／服務以應付現有需求」是「meet demand」的用法，與本句語境不同。"
+        "meet-mcq-18": "本句的「meet the challenge」指「面對並設法成功／適當處理某項困難」。",
+        "meet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "meet-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-18"
     },
@@ -2123,11 +1951,9 @@ export default {
       "masked": "The team successfully ____ the challenge.",
       "options": [
         "meet-mcq-18",
-        "meet-mcq-17",
-        "meet-mcq-19",
-        "meet-mcq-16",
-        "meet-mcq-20",
-        "meet-mcq-15"
+        "meet-mcq-22",
+        "meet-pdf-002",
+        "meet-pdf-001"
       ],
       "explanation": "本句的「met」指「面對並設法成功／適當處理某項困難」。",
       "sentenceIndex": 46,
@@ -2136,12 +1962,10 @@ export default {
         "met"
       ],
       "optionReasons": {
-        "meet-mcq-18": "本句指「面對並設法成功／適當處理某項困難」。",
-        "meet-mcq-17": "「按要求履行責任、付款或其他義務」是「meet obligations」的用法，與本句語境不同。",
-        "meet-mcq-19": "「遭遇別人的反對、阻力或抵制」是「meet opposition/resistance」的用法，與本句語境不同。",
-        "meet-mcq-16": "「有／提供足夠金錢支付所需費用」是「meet costs/expenses」的用法，與本句語境不同。",
-        "meet-mcq-20": "「與另一人的目光相接、形成眼神接觸」是「meet someone’s eye」的用法，與本句語境不同。",
-        "meet-mcq-15": "「提供足夠產品／服務以應付現有需求」是「meet demand」的用法，與本句語境不同。"
+        "meet-mcq-18": "本句的「met」指「面對並設法成功／適當處理某項困難」。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "meet-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "meet-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-18"
     },
@@ -2153,11 +1977,9 @@ export default {
       "masked": "The proposal ____.",
       "options": [
         "meet-mcq-19",
-        "meet-mcq-18",
-        "meet-mcq-20",
+        "meet-mcq-27",
         "meet-mcq-17",
-        "meet-mcq-21",
-        "meet-mcq-16"
+        "meet-mcq-20"
       ],
       "explanation": "本句的「met strong opposition」指「遭遇別人的反對、阻力或抵制」。",
       "sentenceIndex": 47,
@@ -2166,12 +1988,10 @@ export default {
         "met strong opposition"
       ],
       "optionReasons": {
-        "meet-mcq-19": "本句指「遭遇別人的反對、阻力或抵制」。",
-        "meet-mcq-18": "「面對並設法成功／適當處理某項困難」是「meet a challenge」的用法，與本句語境不同。",
-        "meet-mcq-20": "「與另一人的目光相接、形成眼神接觸」是「meet someone’s eye」的用法，與本句語境不同。",
-        "meet-mcq-17": "「按要求履行責任、付款或其他義務」是「meet obligations」的用法，與本句語境不同。",
-        "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。",
-        "meet-mcq-16": "「有／提供足夠金錢支付所需費用」是「meet costs/expenses」的用法，與本句語境不同。"
+        "meet-mcq-19": "本句的「met strong opposition」指「遭遇別人的反對、阻力或抵制」。",
+        "meet-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-19"
     },
@@ -2183,11 +2003,9 @@ export default {
       "masked": "The changes ____ with resistance.",
       "options": [
         "meet-mcq-19",
-        "meet-mcq-18",
-        "meet-mcq-20",
-        "meet-mcq-17",
-        "meet-mcq-21",
-        "meet-mcq-16"
+        "meet-mcq-13",
+        "meet-mcq-16",
+        "meet-mcq-17"
       ],
       "explanation": "本句的「met」指「遭遇別人的反對、阻力或抵制」。",
       "sentenceIndex": 48,
@@ -2196,12 +2014,10 @@ export default {
         "met"
       ],
       "optionReasons": {
-        "meet-mcq-19": "本句指「遭遇別人的反對、阻力或抵制」。",
-        "meet-mcq-18": "「面對並設法成功／適當處理某項困難」是「meet a challenge」的用法，與本句語境不同。",
-        "meet-mcq-20": "「與另一人的目光相接、形成眼神接觸」是「meet someone’s eye」的用法，與本句語境不同。",
-        "meet-mcq-17": "「按要求履行責任、付款或其他義務」是「meet obligations」的用法，與本句語境不同。",
-        "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。",
-        "meet-mcq-16": "「有／提供足夠金錢支付所需費用」是「meet costs/expenses」的用法，與本句語境不同。"
+        "meet-mcq-19": "本句的「met」指「遭遇別人的反對、阻力或抵制」。",
+        "meet-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-19"
     },
@@ -2213,11 +2029,9 @@ export default {
       "masked": "The idea ____.",
       "options": [
         "meet-pdf-002",
-        "meet-mcq-18",
-        "meet-mcq-20",
+        "meet-mcq-02",
         "meet-mcq-17",
-        "meet-mcq-21",
-        "meet-mcq-16"
+        "meet-mcq-04"
       ],
       "explanation": "本句的「met with approval」指「某件事情引起／遭遇某種反應」。",
       "sentenceIndex": 49,
@@ -2226,12 +2040,10 @@ export default {
         "met with approval"
       ],
       "optionReasons": {
-        "meet-pdf-002": "本句指「某件事情引起／遭遇某種反應」。",
-        "meet-mcq-18": "「面對並設法成功／適當處理某項困難」是「meet a challenge」的用法，與本句語境不同。",
-        "meet-mcq-20": "「與另一人的目光相接、形成眼神接觸」是「meet someone’s eye」的用法，與本句語境不同。",
-        "meet-mcq-17": "「按要求履行責任、付款或其他義務」是「meet obligations」的用法，與本句語境不同。",
-        "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。",
-        "meet-mcq-16": "「有／提供足夠金錢支付所需費用」是「meet costs/expenses」的用法，與本句語境不同。"
+        "meet-pdf-002": "本句的「met with approval」指「某件事情引起／遭遇某種反應」。",
+        "meet-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-pdf-002"
     },
@@ -2243,11 +2055,9 @@ export default {
       "masked": "His suggestion ____ with silence.",
       "options": [
         "meet-pdf-002",
+        "meet-mcq-22",
         "meet-mcq-18",
-        "meet-mcq-20",
-        "meet-mcq-17",
-        "meet-mcq-21",
-        "meet-mcq-16"
+        "meet-pdf-001"
       ],
       "explanation": "本句的「met」指「某件事情引起／遭遇某種反應」。",
       "sentenceIndex": 50,
@@ -2256,12 +2066,10 @@ export default {
         "met"
       ],
       "optionReasons": {
-        "meet-pdf-002": "本句指「某件事情引起／遭遇某種反應」。",
-        "meet-mcq-18": "「面對並設法成功／適當處理某項困難」是「meet a challenge」的用法，與本句語境不同。",
-        "meet-mcq-20": "「與另一人的目光相接、形成眼神接觸」是「meet someone’s eye」的用法，與本句語境不同。",
-        "meet-mcq-17": "「按要求履行責任、付款或其他義務」是「meet obligations」的用法，與本句語境不同。",
-        "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。",
-        "meet-mcq-16": "「有／提供足夠金錢支付所需費用」是「meet costs/expenses」的用法，與本句語境不同。"
+        "meet-pdf-002": "本句的「met」指「某件事情引起／遭遇某種反應」。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "meet-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-pdf-002"
     },
@@ -2273,11 +2081,9 @@ export default {
       "masked": "She smiled when her eyes ____.",
       "options": [
         "meet-mcq-20",
-        "meet-mcq-19",
-        "meet-mcq-21",
-        "meet-mcq-18",
-        "meet-mcq-22",
-        "meet-mcq-17"
+        "meet-mcq-06",
+        "meet-mcq-08",
+        "meet-mcq-22"
       ],
       "explanation": "本句的「met mine」指「與另一人的目光相接、形成眼神接觸」。",
       "sentenceIndex": 51,
@@ -2286,12 +2092,10 @@ export default {
         "met mine"
       ],
       "optionReasons": {
-        "meet-mcq-20": "本句指「與另一人的目光相接、形成眼神接觸」。",
-        "meet-mcq-19": "「遭遇別人的反對、阻力或抵制」是「meet opposition/resistance」的用法，與本句語境不同。",
-        "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。",
-        "meet-mcq-18": "「面對並設法成功／適當處理某項困難」是「meet a challenge」的用法，與本句語境不同。",
-        "meet-mcq-22": "「雙方各自退讓部分要求以取得妥協」是「meet halfway」的用法，與本句語境不同。",
-        "meet-mcq-17": "「按要求履行責任、付款或其他義務」是「meet obligations」的用法，與本句語境不同。"
+        "meet-mcq-20": "本句的「met mine」指「與另一人的目光相接、形成眼神接觸」。",
+        "meet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-20"
     },
@@ -2303,11 +2107,9 @@ export default {
       "masked": "He refused to ____.",
       "options": [
         "meet-mcq-20",
-        "meet-mcq-19",
-        "meet-mcq-21",
-        "meet-mcq-18",
-        "meet-mcq-22",
-        "meet-mcq-17"
+        "meet-mcq-28",
+        "meet-mcq-26",
+        "meet-mcq-16"
       ],
       "explanation": "本句的「meet my eyes」指「與另一人的目光相接、形成眼神接觸」。",
       "sentenceIndex": 52,
@@ -2316,12 +2118,10 @@ export default {
         "meet my eyes"
       ],
       "optionReasons": {
-        "meet-mcq-20": "本句指「與另一人的目光相接、形成眼神接觸」。",
-        "meet-mcq-19": "「遭遇別人的反對、阻力或抵制」是「meet opposition/resistance」的用法，與本句語境不同。",
-        "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。",
-        "meet-mcq-18": "「面對並設法成功／適當處理某項困難」是「meet a challenge」的用法，與本句語境不同。",
-        "meet-mcq-22": "「雙方各自退讓部分要求以取得妥協」是「meet halfway」的用法，與本句語境不同。",
-        "meet-mcq-17": "「按要求履行責任、付款或其他義務」是「meet obligations」的用法，與本句語境不同。"
+        "meet-mcq-20": "本句的「meet my eyes」指「與另一人的目光相接、形成眼神接觸」。",
+        "meet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-20"
     },
@@ -2333,10 +2133,8 @@ export default {
       "masked": "There is more to the problem than ____.",
       "options": [
         "meet-mcq-21",
-        "meet-mcq-20",
-        "meet-mcq-22",
-        "meet-mcq-19",
         "meet-mcq-23",
+        "meet-mcq-22",
         "meet-mcq-18"
       ],
       "explanation": "本句的「meets the eye」指「實際情況比第一眼看到的更複雜／有更多內情」。",
@@ -2346,12 +2144,10 @@ export default {
         "meets the eye"
       ],
       "optionReasons": {
-        "meet-mcq-21": "本句指「實際情況比第一眼看到的更複雜／有更多內情」。",
-        "meet-mcq-20": "「與另一人的目光相接、形成眼神接觸」是「meet someone’s eye」的用法，與本句語境不同。",
-        "meet-mcq-22": "「雙方各自退讓部分要求以取得妥協」是「meet halfway」的用法，與本句語境不同。",
-        "meet-mcq-19": "「遭遇別人的反對、阻力或抵制」是「meet opposition/resistance」的用法，與本句語境不同。",
-        "meet-mcq-23": "「收入足以支付基本生活開支；維持生計」是「make ends meet」的用法，與本句語境不同。",
-        "meet-mcq-18": "「面對並設法成功／適當處理某項困難」是「meet a challenge」的用法，與本句語境不同。"
+        "meet-mcq-21": "本句的「meets the eye」指「實際情況比第一眼看到的更複雜／有更多內情」。",
+        "meet-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-21"
     },
@@ -2363,11 +2159,9 @@ export default {
       "masked": "The design is more complex than ____ the eye.",
       "options": [
         "meet-mcq-21",
-        "meet-mcq-20",
-        "meet-mcq-22",
-        "meet-mcq-19",
-        "meet-mcq-23",
-        "meet-mcq-18"
+        "meet-pdf-001",
+        "meet-mcq-27",
+        "meet-mcq-22"
       ],
       "explanation": "本句的「meets」指「實際情況比第一眼看到的更複雜／有更多內情」。",
       "sentenceIndex": 54,
@@ -2376,12 +2170,10 @@ export default {
         "meets"
       ],
       "optionReasons": {
-        "meet-mcq-21": "本句指「實際情況比第一眼看到的更複雜／有更多內情」。",
-        "meet-mcq-20": "「與另一人的目光相接、形成眼神接觸」是「meet someone’s eye」的用法，與本句語境不同。",
-        "meet-mcq-22": "「雙方各自退讓部分要求以取得妥協」是「meet halfway」的用法，與本句語境不同。",
-        "meet-mcq-19": "「遭遇別人的反對、阻力或抵制」是「meet opposition/resistance」的用法，與本句語境不同。",
-        "meet-mcq-23": "「收入足以支付基本生活開支；維持生計」是「make ends meet」的用法，與本句語境不同。",
-        "meet-mcq-18": "「面對並設法成功／適當處理某項困難」是「meet a challenge」的用法，與本句語境不同。"
+        "meet-mcq-21": "本句的「meets」指「實際情況比第一眼看到的更複雜／有更多內情」。",
+        "meet-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-21"
     },
@@ -2394,10 +2186,8 @@ export default {
       "options": [
         "meet-mcq-22",
         "meet-mcq-21",
-        "meet-mcq-23",
-        "meet-mcq-20",
-        "meet-mcq-24",
-        "meet-mcq-19"
+        "meet-mcq-06",
+        "meet-mcq-08"
       ],
       "explanation": "本句的「met halfway」指「雙方各自退讓部分要求以取得妥協」。",
       "sentenceIndex": 55,
@@ -2406,12 +2196,10 @@ export default {
         "met halfway"
       ],
       "optionReasons": {
-        "meet-mcq-22": "本句指「雙方各自退讓部分要求以取得妥協」。",
-        "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。",
-        "meet-mcq-23": "「收入足以支付基本生活開支；維持生計」是「make ends meet」的用法，與本句語境不同。",
-        "meet-mcq-20": "「與另一人的目光相接、形成眼神接觸」是「meet someone’s eye」的用法，與本句語境不同。",
-        "meet-mcq-24": "「遇到能力足以與自己抗衡、旗鼓相當的人」是「meet your match」的用法，與本句語境不同。",
-        "meet-mcq-19": "「遭遇別人的反對、阻力或抵制」是「meet opposition/resistance」的用法，與本句語境不同。"
+        "meet-mcq-22": "本句的「met halfway」指「雙方各自退讓部分要求以取得妥協」。",
+        "meet-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-22"
     },
@@ -2423,11 +2211,9 @@ export default {
       "masked": "Both sides need to ____ each other halfway.",
       "options": [
         "meet-mcq-22",
-        "meet-mcq-21",
-        "meet-mcq-23",
-        "meet-mcq-20",
-        "meet-mcq-24",
-        "meet-mcq-19"
+        "meet-mcq-13",
+        "meet-mcq-26",
+        "meet-reviewed-7bb77d0e1e"
       ],
       "explanation": "本句的「meet」指「雙方各自退讓部分要求以取得妥協」。",
       "sentenceIndex": 56,
@@ -2436,12 +2222,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-22": "本句指「雙方各自退讓部分要求以取得妥協」。",
-        "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。",
-        "meet-mcq-23": "「收入足以支付基本生活開支；維持生計」是「make ends meet」的用法，與本句語境不同。",
-        "meet-mcq-20": "「與另一人的目光相接、形成眼神接觸」是「meet someone’s eye」的用法，與本句語境不同。",
-        "meet-mcq-24": "「遇到能力足以與自己抗衡、旗鼓相當的人」是「meet your match」的用法，與本句語境不同。",
-        "meet-mcq-19": "「遭遇別人的反對、阻力或抵制」是「meet opposition/resistance」的用法，與本句語境不同。"
+        "meet-mcq-22": "本句的「meet」指「雙方各自退讓部分要求以取得妥協」。",
+        "meet-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "meet-reviewed-7bb77d0e1e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-22"
     },
@@ -2453,10 +2237,8 @@ export default {
       "masked": "They struggled to ____.",
       "options": [
         "meet-mcq-23",
-        "meet-mcq-22",
-        "meet-mcq-24",
-        "meet-mcq-21",
         "meet-mcq-25",
+        "meet-mcq-22",
         "meet-mcq-20"
       ],
       "explanation": "本句的「make ends meet」指「收入足以支付基本生活開支；維持生計」。",
@@ -2466,12 +2248,10 @@ export default {
         "make ends meet"
       ],
       "optionReasons": {
-        "meet-mcq-23": "本句指「收入足以支付基本生活開支；維持生計」。",
-        "meet-mcq-22": "「雙方各自退讓部分要求以取得妥協」是「meet halfway」的用法，與本句語境不同。",
-        "meet-mcq-24": "「遇到能力足以與自己抗衡、旗鼓相當的人」是「meet your match」的用法，與本句語境不同。",
-        "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。",
-        "meet-mcq-20": "「與另一人的目光相接、形成眼神接觸」是「meet someone’s eye」的用法，與本句語境不同。"
+        "meet-mcq-23": "本句的「make ends meet」指「收入足以支付基本生活開支；維持生計」。",
+        "meet-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-23"
     },
@@ -2483,11 +2263,9 @@ export default {
       "masked": "A second job helped her make ends ____.",
       "options": [
         "meet-mcq-23",
-        "meet-mcq-22",
-        "meet-mcq-24",
-        "meet-mcq-21",
-        "meet-mcq-25",
-        "meet-mcq-20"
+        "meet-mcq-12",
+        "meet-mcq-20",
+        "meet-mcq-10"
       ],
       "explanation": "本句的「meet」指「收入足以支付基本生活開支；維持生計」。",
       "sentenceIndex": 58,
@@ -2496,12 +2274,10 @@ export default {
         "meet"
       ],
       "optionReasons": {
-        "meet-mcq-23": "本句指「收入足以支付基本生活開支；維持生計」。",
-        "meet-mcq-22": "「雙方各自退讓部分要求以取得妥協」是「meet halfway」的用法，與本句語境不同。",
-        "meet-mcq-24": "「遇到能力足以與自己抗衡、旗鼓相當的人」是「meet your match」的用法，與本句語境不同。",
-        "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。",
-        "meet-mcq-20": "「與另一人的目光相接、形成眼神接觸」是「meet someone’s eye」的用法，與本句語境不同。"
+        "meet-mcq-23": "本句的「meet」指「收入足以支付基本生活開支；維持生計」。",
+        "meet-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-23"
     },
@@ -2513,11 +2289,9 @@ export default {
       "masked": "He finally ____.",
       "options": [
         "meet-mcq-24",
-        "meet-mcq-23",
-        "meet-mcq-25",
-        "meet-mcq-22",
-        "meet-mcq-26",
-        "meet-mcq-21"
+        "meet-mcq-29",
+        "meet-mcq-04",
+        "meet-mcq-09"
       ],
       "explanation": "本句的「met his match」指「遇到能力足以與自己抗衡、旗鼓相當的人」。",
       "sentenceIndex": 59,
@@ -2526,12 +2300,10 @@ export default {
         "met his match"
       ],
       "optionReasons": {
-        "meet-mcq-24": "本句指「遇到能力足以與自己抗衡、旗鼓相當的人」。",
-        "meet-mcq-23": "「收入足以支付基本生活開支；維持生計」是「make ends meet」的用法，與本句語境不同。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。",
-        "meet-mcq-22": "「雙方各自退讓部分要求以取得妥協」是「meet halfway」的用法，與本句語境不同。",
-        "meet-mcq-26": "「人與人見面／會晤的事件」是「meeting — encounter」的用法，與本句語境不同。",
-        "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。"
+        "meet-mcq-24": "本句的「met his match」指「遇到能力足以與自己抗衡、旗鼓相當的人」。",
+        "meet-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-24"
     },
@@ -2543,11 +2315,9 @@ export default {
       "masked": "The champion may have ____ her match.",
       "options": [
         "meet-mcq-24",
-        "meet-mcq-23",
-        "meet-mcq-25",
-        "meet-mcq-22",
+        "meet-mcq-13",
         "meet-mcq-26",
-        "meet-mcq-21"
+        "meet-pdf-001"
       ],
       "explanation": "本句的「met」指「遇到能力足以與自己抗衡、旗鼓相當的人」。",
       "sentenceIndex": 60,
@@ -2556,74 +2326,68 @@ export default {
         "met"
       ],
       "optionReasons": {
-        "meet-mcq-24": "本句指「遇到能力足以與自己抗衡、旗鼓相當的人」。",
-        "meet-mcq-23": "「收入足以支付基本生活開支；維持生計」是「make ends meet」的用法，與本句語境不同。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。",
-        "meet-mcq-22": "「雙方各自退讓部分要求以取得妥協」是「meet halfway」的用法，與本句語境不同。",
-        "meet-mcq-26": "「人與人見面／會晤的事件」是「meeting — encounter」的用法，與本句語境不同。",
-        "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。"
+        "meet-mcq-24": "本句的「met」指「遇到能力足以與自己抗衡、旗鼓相當的人」。",
+        "meet-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "meet-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-24"
     },
     {
       "id": "meet-31-0",
-      "sense": "meet-mcq-24",
+      "sense": "meet-reviewed-7bb77d0e1e",
       "en": "The phrase meet your maker is a euphemistic way of referring to death.",
       "zh": "meet your maker 是一種委婉／幽默地指『死亡』的說法。",
       "masked": "The phrase ____ is a euphemistic way of referring to death.",
       "options": [
-        "meet-mcq-24",
-        "meet-mcq-23",
-        "meet-mcq-25",
-        "meet-mcq-22",
-        "meet-mcq-26",
-        "meet-mcq-21"
+        "meet-reviewed-7bb77d0e1e",
+        "meet-mcq-14",
+        "meet-mcq-10",
+        "meet-mcq-29"
       ],
-      "explanation": "本句的「meet your maker」指「遇到能力足以與自己抗衡、旗鼓相當的人」。",
+      "explanation": "對照完整句子：「meet your maker 是一種委婉／幽默地指『死亡』的說法。」。這裡的「meet your maker」表示「委婉、宗教式或幽默地指死亡」。",
       "sentenceIndex": 61,
       "sourcePractice": 62,
       "targets": [
         "meet your maker"
       ],
       "optionReasons": {
-        "meet-mcq-24": "本句指「遇到能力足以與自己抗衡、旗鼓相當的人」。",
-        "meet-mcq-23": "「收入足以支付基本生活開支；維持生計」是「make ends meet」的用法，與本句語境不同。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。",
-        "meet-mcq-22": "「雙方各自退讓部分要求以取得妥協」是「meet halfway」的用法，與本句語境不同。",
-        "meet-mcq-26": "「人與人見面／會晤的事件」是「meeting — encounter」的用法，與本句語境不同。",
-        "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。"
+        "meet-reviewed-7bb77d0e1e": "對照完整句子：「meet your maker 是一種委婉／幽默地指『死亡』的說法。」。這裡的「meet your maker」表示「委婉、宗教式或幽默地指死亡」。",
+        "meet-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "meet-mcq-24"
+      "correctOption": "meet-reviewed-7bb77d0e1e",
+      "previousCorrectOption": "meet-mcq-24",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "meet-31-1",
-      "sense": "meet-mcq-24",
+      "sense": "meet-reviewed-7bb77d0e1e",
       "en": "In the story, the villain finally meets his maker.",
       "zh": "故事中，那名反派最後一命嗚呼。",
       "masked": "In the story, the villain finally ____ his maker.",
       "options": [
-        "meet-mcq-24",
-        "meet-mcq-23",
-        "meet-mcq-25",
-        "meet-mcq-22",
-        "meet-mcq-26",
-        "meet-mcq-21"
+        "meet-reviewed-7bb77d0e1e",
+        "meet-mcq-18",
+        "meet-mcq-28",
+        "meet-mcq-04"
       ],
-      "explanation": "本句的「meets」指「遇到能力足以與自己抗衡、旗鼓相當的人」。",
+      "explanation": "對照完整句子：「故事中，那名反派最後一命嗚呼。」。這裡的「meets」表示「委婉、宗教式或幽默地指死亡」。",
       "sentenceIndex": 62,
       "sourcePractice": 63,
       "targets": [
         "meets"
       ],
       "optionReasons": {
-        "meet-mcq-24": "本句指「遇到能力足以與自己抗衡、旗鼓相當的人」。",
-        "meet-mcq-23": "「收入足以支付基本生活開支；維持生計」是「make ends meet」的用法，與本句語境不同。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。",
-        "meet-mcq-22": "「雙方各自退讓部分要求以取得妥協」是「meet halfway」的用法，與本句語境不同。",
-        "meet-mcq-26": "「人與人見面／會晤的事件」是「meeting — encounter」的用法，與本句語境不同。",
-        "meet-mcq-21": "「實際情況比第一眼看到的更複雜／有更多內情」是「more than meets the eye」的用法，與本句語境不同。"
+        "meet-reviewed-7bb77d0e1e": "對照完整句子：「故事中，那名反派最後一命嗚呼。」。這裡的「meets」表示「委婉、宗教式或幽默地指死亡」。",
+        "meet-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "meet-mcq-24"
+      "correctOption": "meet-reviewed-7bb77d0e1e",
+      "previousCorrectOption": "meet-mcq-24",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "meet-32-0",
@@ -2633,11 +2397,9 @@ export default {
       "masked": "I have a ____ at three.",
       "options": [
         "meet-mcq-25",
-        "meet-mcq-24",
         "meet-mcq-26",
-        "meet-mcq-23",
-        "meet-mcq-27",
-        "meet-mcq-22"
+        "meet-mcq-10",
+        "meet-mcq-16"
       ],
       "explanation": "本句的「meeting」指「為討論、工作或決策等目的安排的會議／聚會」。",
       "sentenceIndex": 63,
@@ -2646,12 +2408,10 @@ export default {
         "meeting"
       ],
       "optionReasons": {
-        "meet-mcq-25": "本句指「為討論、工作或決策等目的安排的會議／聚會」。",
-        "meet-mcq-24": "「遇到能力足以與自己抗衡、旗鼓相當的人」是「meet your match」的用法，與本句語境不同。",
-        "meet-mcq-26": "「人與人見面／會晤的事件」是「meeting — encounter」的用法，與本句語境不同。",
-        "meet-mcq-23": "「收入足以支付基本生活開支；維持生計」是「make ends meet」的用法，與本句語境不同。",
-        "meet-mcq-27": "「為特定活動、討論或目的聚在一起」是「4. meet for + purpose（為某事見面） — 聚會；會面」的用法，與本句語境不同。",
-        "meet-mcq-22": "「雙方各自退讓部分要求以取得妥協」是「meet halfway」的用法，與本句語境不同。"
+        "meet-mcq-25": "本句的「meeting」指「為討論、工作或決策等目的安排的會議／聚會」。",
+        "meet-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-25"
     },
@@ -2663,11 +2423,9 @@ export default {
       "masked": "The ____ lasted an hour.",
       "options": [
         "meet-mcq-25",
-        "meet-mcq-24",
-        "meet-mcq-26",
-        "meet-mcq-23",
-        "meet-mcq-27",
-        "meet-mcq-22"
+        "meet-mcq-18",
+        "meet-mcq-10",
+        "meet-reviewed-7bb77d0e1e"
       ],
       "explanation": "本句的「meeting」指「為討論、工作或決策等目的安排的會議／聚會」。",
       "sentenceIndex": 64,
@@ -2676,12 +2434,10 @@ export default {
         "meeting"
       ],
       "optionReasons": {
-        "meet-mcq-25": "本句指「為討論、工作或決策等目的安排的會議／聚會」。",
-        "meet-mcq-24": "「遇到能力足以與自己抗衡、旗鼓相當的人」是「meet your match」的用法，與本句語境不同。",
-        "meet-mcq-26": "「人與人見面／會晤的事件」是「meeting — encounter」的用法，與本句語境不同。",
-        "meet-mcq-23": "「收入足以支付基本生活開支；維持生計」是「make ends meet」的用法，與本句語境不同。",
-        "meet-mcq-27": "「為特定活動、討論或目的聚在一起」是「4. meet for + purpose（為某事見面） — 聚會；會面」的用法，與本句語境不同。",
-        "meet-mcq-22": "「雙方各自退讓部分要求以取得妥協」是「meet halfway」的用法，與本句語境不同。"
+        "meet-mcq-25": "本句的「meeting」指「為討論、工作或決策等目的安排的會議／聚會」。",
+        "meet-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "meet-reviewed-7bb77d0e1e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-25"
     },
@@ -2693,11 +2449,9 @@ export default {
       "masked": "Their first ____ was at school.",
       "options": [
         "meet-mcq-26",
-        "meet-mcq-25",
-        "meet-mcq-27",
-        "meet-mcq-24",
-        "meet-mcq-28",
-        "meet-mcq-23"
+        "meet-mcq-09",
+        "meet-mcq-17",
+        "meet-mcq-30"
       ],
       "explanation": "本句的「meeting」指「人與人見面／會晤的事件」。",
       "sentenceIndex": 65,
@@ -2706,12 +2460,10 @@ export default {
         "meeting"
       ],
       "optionReasons": {
-        "meet-mcq-26": "本句指「人與人見面／會晤的事件」。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。",
-        "meet-mcq-27": "「為特定活動、討論或目的聚在一起」是「4. meet for + purpose（為某事見面） — 聚會；會面」的用法，與本句語境不同。",
-        "meet-mcq-24": "「遇到能力足以與自己抗衡、旗鼓相當的人」是「meet your match」的用法，與本句語境不同。",
-        "meet-mcq-28": "「在行程／活動中遇到某人或某種情況」是「6. meet = encounter someone/something during an activity（遇上） — 遇到；碰上」的用法，與本句語境不同。",
-        "meet-mcq-23": "「收入足以支付基本生活開支；維持生計」是「make ends meet」的用法，與本句語境不同。"
+        "meet-mcq-26": "本句的「meeting」指「人與人見面／會晤的事件」。",
+        "meet-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-26"
     },
@@ -2723,11 +2475,9 @@ export default {
       "masked": "The ____ between the two teachers was brief.",
       "options": [
         "meet-mcq-26",
-        "meet-mcq-25",
-        "meet-mcq-27",
-        "meet-mcq-24",
-        "meet-mcq-28",
-        "meet-mcq-23"
+        "meet-mcq-23",
+        "meet-mcq-30",
+        "meet-pdf-001"
       ],
       "explanation": "本句的「meeting」指「人與人見面／會晤的事件」。",
       "sentenceIndex": 66,
@@ -2736,12 +2486,10 @@ export default {
         "meeting"
       ],
       "optionReasons": {
-        "meet-mcq-26": "本句指「人與人見面／會晤的事件」。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。",
-        "meet-mcq-27": "「為特定活動、討論或目的聚在一起」是「4. meet for + purpose（為某事見面） — 聚會；會面」的用法，與本句語境不同。",
-        "meet-mcq-24": "「遇到能力足以與自己抗衡、旗鼓相當的人」是「meet your match」的用法，與本句語境不同。",
-        "meet-mcq-28": "「在行程／活動中遇到某人或某種情況」是「6. meet = encounter someone/something during an activity（遇上） — 遇到；碰上」的用法，與本句語境不同。",
-        "meet-mcq-23": "「收入足以支付基本生活開支；維持生計」是「make ends meet」的用法，與本句語境不同。"
+        "meet-mcq-26": "本句的「meeting」指「人與人見面／會晤的事件」。",
+        "meet-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "meet-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-26"
     },
@@ -2753,11 +2501,9 @@ export default {
       "masked": "I still remember our ____.",
       "options": [
         "meet-mcq-26",
-        "meet-mcq-25",
-        "meet-mcq-27",
-        "meet-mcq-24",
-        "meet-mcq-28",
-        "meet-mcq-23"
+        "meet-mcq-22",
+        "meet-mcq-09",
+        "meet-mcq-27"
       ],
       "explanation": "本句的「first meeting」指「人與人見面／會晤的事件」。",
       "sentenceIndex": 67,
@@ -2766,12 +2512,10 @@ export default {
         "first meeting"
       ],
       "optionReasons": {
-        "meet-mcq-26": "本句指「人與人見面／會晤的事件」。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。",
-        "meet-mcq-27": "「為特定活動、討論或目的聚在一起」是「4. meet for + purpose（為某事見面） — 聚會；會面」的用法，與本句語境不同。",
-        "meet-mcq-24": "「遇到能力足以與自己抗衡、旗鼓相當的人」是「meet your match」的用法，與本句語境不同。",
-        "meet-mcq-28": "「在行程／活動中遇到某人或某種情況」是「6. meet = encounter someone/something during an activity（遇上） — 遇到；碰上」的用法，與本句語境不同。",
-        "meet-mcq-23": "「收入足以支付基本生活開支；維持生計」是「make ends meet」的用法，與本句語境不同。"
+        "meet-mcq-26": "本句的「first meeting」指「人與人見面／會晤的事件」。",
+        "meet-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-26"
     },
@@ -2783,11 +2527,9 @@ export default {
       "masked": "Their first ____ made a strong impression on him.",
       "options": [
         "meet-mcq-26",
-        "meet-mcq-25",
-        "meet-mcq-27",
-        "meet-mcq-24",
-        "meet-mcq-28",
-        "meet-mcq-23"
+        "meet-mcq-02",
+        "meet-mcq-20",
+        "meet-mcq-10"
       ],
       "explanation": "本句的「meeting」指「人與人見面／會晤的事件」。",
       "sentenceIndex": 68,
@@ -2796,12 +2538,10 @@ export default {
         "meeting"
       ],
       "optionReasons": {
-        "meet-mcq-26": "本句指「人與人見面／會晤的事件」。",
-        "meet-mcq-25": "「為討論、工作或決策等目的安排的會議／聚會」是「meeting — gathering」的用法，與本句語境不同。",
-        "meet-mcq-27": "「為特定活動、討論或目的聚在一起」是「4. meet for + purpose（為某事見面） — 聚會；會面」的用法，與本句語境不同。",
-        "meet-mcq-24": "「遇到能力足以與自己抗衡、旗鼓相當的人」是「meet your match」的用法，與本句語境不同。",
-        "meet-mcq-28": "「在行程／活動中遇到某人或某種情況」是「6. meet = encounter someone/something during an activity（遇上） — 遇到；碰上」的用法，與本句語境不同。",
-        "meet-mcq-23": "「收入足以支付基本生活開支；維持生計」是「make ends meet」的用法，與本句語境不同。"
+        "meet-mcq-26": "本句的「meeting」指「人與人見面／會晤的事件」。",
+        "meet-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "meet-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meet-mcq-26"
     }
@@ -2813,5 +2553,7 @@ export default {
     "sha256": "7d2b7239272f6ec23b785e03a0402cd0318e2cfab9de8784b876ac90810fce05",
     "pages": 31
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

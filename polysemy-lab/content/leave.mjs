@@ -765,11 +765,9 @@ export default {
       "masked": "Whenever I spend time with him, I always ____ in a better mood.",
       "options": [
         "leave-mcq-01",
-        "leave-mcq-02",
-        "leave-mcq-03",
-        "leave-mcq-04",
-        "leave-mcq-05",
-        "leave-mcq-06"
+        "leave-mcq-28",
+        "leave-mcq-21",
+        "leave-mcq-20"
       ],
       "explanation": "本句的「leave」指「離開某地」。",
       "sentenceIndex": 0,
@@ -778,12 +776,10 @@ export default {
         "leave"
       ],
       "optionReasons": {
-        "leave-mcq-01": "本句指「離開某地」。",
-        "leave-mcq-02": "「出發前往 X」是「leave for X」的用法，與本句語境不同。",
-        "leave-mcq-03": "「離開某人」是「leave someone」的用法，與本句語境不同。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。"
+        "leave-mcq-01": "本句的「leave」指「離開某地」。",
+        "leave-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-01"
     },
@@ -795,11 +791,9 @@ export default {
       "masked": "We ____ at ten.",
       "options": [
         "leave-mcq-01",
-        "leave-mcq-02",
-        "leave-mcq-03",
+        "leave-mcq-30",
         "leave-mcq-04",
-        "leave-mcq-05",
-        "leave-mcq-06"
+        "leave-mcq-05"
       ],
       "explanation": "本句的「left the restaurant」指「離開某地」。",
       "sentenceIndex": 1,
@@ -808,12 +802,10 @@ export default {
         "left the restaurant"
       ],
       "optionReasons": {
-        "leave-mcq-01": "本句指「離開某地」。",
-        "leave-mcq-02": "「出發前往 X」是「leave for X」的用法，與本句語境不同。",
-        "leave-mcq-03": "「離開某人」是「leave someone」的用法，與本句語境不同。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。"
+        "leave-mcq-01": "本句的「left the restaurant」指「離開某地」。",
+        "leave-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-01"
     },
@@ -825,11 +817,9 @@ export default {
       "masked": "She ____ early this morning.",
       "options": [
         "leave-mcq-01",
-        "leave-mcq-02",
-        "leave-mcq-03",
-        "leave-mcq-04",
-        "leave-mcq-05",
-        "leave-mcq-06"
+        "leave-mcq-17",
+        "leave-pdf-001",
+        "leave-mcq-08"
       ],
       "explanation": "本句的「left home」指「離開某地」。",
       "sentenceIndex": 2,
@@ -838,12 +828,10 @@ export default {
         "left home"
       ],
       "optionReasons": {
-        "leave-mcq-01": "本句指「離開某地」。",
-        "leave-mcq-02": "「出發前往 X」是「leave for X」的用法，與本句語境不同。",
-        "leave-mcq-03": "「離開某人」是「leave someone」的用法，與本句語境不同。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。"
+        "leave-mcq-01": "本句的「left home」指「離開某地」。",
+        "leave-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "leave-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-01"
     },
@@ -855,11 +843,9 @@ export default {
       "masked": "We ____ tomorrow morning.",
       "options": [
         "leave-mcq-02",
-        "leave-mcq-01",
-        "leave-mcq-03",
-        "leave-mcq-04",
-        "leave-mcq-05",
-        "leave-mcq-06"
+        "leave-mcq-10",
+        "leave-mcq-15",
+        "leave-mcq-29"
       ],
       "explanation": "本句的「leave for Tokyo」指「出發前往 X」。",
       "sentenceIndex": 3,
@@ -868,12 +854,10 @@ export default {
         "leave for Tokyo"
       ],
       "optionReasons": {
-        "leave-mcq-02": "本句指「出發前往 X」。",
-        "leave-mcq-01": "「離開某地」是「leave a place」的用法，與本句語境不同。",
-        "leave-mcq-03": "「離開某人」是「leave someone」的用法，與本句語境不同。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。"
+        "leave-mcq-02": "本句的「leave for Tokyo」指「出發前往 X」。",
+        "leave-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-02"
     },
@@ -885,11 +869,9 @@ export default {
       "masked": "She ____ at seven.",
       "options": [
         "leave-mcq-02",
-        "leave-mcq-01",
-        "leave-mcq-03",
-        "leave-mcq-04",
+        "leave-mcq-30",
         "leave-mcq-05",
-        "leave-mcq-06"
+        "leave-mcq-20"
       ],
       "explanation": "本句的「left for work」指「出發前往 X」。",
       "sentenceIndex": 4,
@@ -898,12 +880,10 @@ export default {
         "left for work"
       ],
       "optionReasons": {
-        "leave-mcq-02": "本句指「出發前往 X」。",
-        "leave-mcq-01": "「離開某地」是「leave a place」的用法，與本句語境不同。",
-        "leave-mcq-03": "「離開某人」是「leave someone」的用法，與本句語境不同。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。"
+        "leave-mcq-02": "本句的「left for work」指「出發前往 X」。",
+        "leave-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-02"
     },
@@ -915,11 +895,9 @@ export default {
       "masked": "He ____ and moved abroad.",
       "options": [
         "leave-mcq-03",
-        "leave-mcq-02",
-        "leave-mcq-04",
-        "leave-mcq-01",
-        "leave-mcq-05",
-        "leave-mcq-06"
+        "leave-mcq-22",
+        "leave-mcq-17",
+        "leave-mcq-20"
       ],
       "explanation": "本句的「left his family」指「離開某人」。",
       "sentenceIndex": 5,
@@ -928,12 +906,10 @@ export default {
         "left his family"
       ],
       "optionReasons": {
-        "leave-mcq-03": "本句指「離開某人」。",
-        "leave-mcq-02": "「出發前往 X」是「leave for X」的用法，與本句語境不同。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。",
-        "leave-mcq-01": "「離開某地」是「leave a place」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。"
+        "leave-mcq-03": "本句的「left his family」指「離開某人」。",
+        "leave-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-03"
     },
@@ -945,11 +921,9 @@ export default {
       "masked": "She didn't want to ____.",
       "options": [
         "leave-mcq-03",
-        "leave-mcq-02",
-        "leave-mcq-04",
-        "leave-mcq-01",
-        "leave-mcq-05",
-        "leave-mcq-06"
+        "leave-mcq-25",
+        "leave-mcq-17",
+        "leave-mcq-27"
       ],
       "explanation": "本句的「leave him alone」指「離開某人」。",
       "sentenceIndex": 6,
@@ -958,12 +932,10 @@ export default {
         "leave him alone"
       ],
       "optionReasons": {
-        "leave-mcq-03": "本句指「離開某人」。",
-        "leave-mcq-02": "「出發前往 X」是「leave for X」的用法，與本句語境不同。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。",
-        "leave-mcq-01": "「離開某地」是「leave a place」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。"
+        "leave-mcq-03": "本句的「leave him alone」指「離開某人」。",
+        "leave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-03"
     },
@@ -975,11 +947,9 @@ export default {
       "masked": "Please ____ for a while.",
       "options": [
         "leave-mcq-04",
-        "leave-mcq-03",
-        "leave-mcq-05",
-        "leave-mcq-02",
-        "leave-mcq-06",
-        "leave-mcq-01"
+        "leave-mcq-07",
+        "leave-mcq-18",
+        "leave-mcq-15"
       ],
       "explanation": "本句的「leave me alone」指「不打擾某人」。",
       "sentenceIndex": 7,
@@ -988,12 +958,10 @@ export default {
         "leave me alone"
       ],
       "optionReasons": {
-        "leave-mcq-04": "本句指「不打擾某人」。",
-        "leave-mcq-03": "「離開某人」是「leave someone」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-02": "「出發前往 X」是「leave for X」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。",
-        "leave-mcq-01": "「離開某地」是「leave a place」的用法，與本句語境不同。"
+        "leave-mcq-04": "本句的「leave me alone」指「不打擾某人」。",
+        "leave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-04"
     },
@@ -1005,11 +973,9 @@ export default {
       "masked": "The child wanted to ____.",
       "options": [
         "leave-mcq-04",
-        "leave-mcq-03",
-        "leave-mcq-05",
-        "leave-mcq-02",
-        "leave-mcq-06",
-        "leave-mcq-01"
+        "leave-mcq-25",
+        "leave-mcq-32",
+        "leave-mcq-28"
       ],
       "explanation": "本句的「leave the dog alone」指「不打擾某人」。",
       "sentenceIndex": 8,
@@ -1018,12 +984,10 @@ export default {
         "leave the dog alone"
       ],
       "optionReasons": {
-        "leave-mcq-04": "本句指「不打擾某人」。",
-        "leave-mcq-03": "「離開某人」是「leave someone」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-02": "「出發前往 X」是「leave for X」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。",
-        "leave-mcq-01": "「離開某地」是「leave a place」的用法，與本句語境不同。"
+        "leave-mcq-04": "本句的「leave the dog alone」指「不打擾某人」。",
+        "leave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-04"
     },
@@ -1036,8 +1000,6 @@ export default {
       "options": [
         "leave-mcq-05",
         "leave-mcq-04",
-        "leave-mcq-06",
-        "leave-mcq-03",
         "leave-mcq-07",
         "leave-mcq-02"
       ],
@@ -1048,12 +1010,10 @@ export default {
         "left my phone at home"
       ],
       "optionReasons": {
-        "leave-mcq-05": "本句指「把 X 留在某處」。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。",
-        "leave-mcq-03": "「離開某人」是「leave someone」的用法，與本句語境不同。",
-        "leave-mcq-07": "「讓門開着」是「leave the door open」的用法，與本句語境不同。",
-        "leave-mcq-02": "「出發前往 X」是「leave for X」的用法，與本句語境不同。"
+        "leave-mcq-05": "本句的「left my phone at home」指「把 X 留在某處」。",
+        "leave-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-05"
     },
@@ -1065,11 +1025,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "leave-mcq-05",
-        "leave-mcq-04",
-        "leave-mcq-06",
-        "leave-mcq-03",
-        "leave-mcq-07",
-        "leave-mcq-02"
+        "leave-mcq-27",
+        "leave-mcq-18",
+        "leave-mcq-08"
       ],
       "explanation": "本句的「left the keys on the table」指「把 X 留在某處」。",
       "sentenceIndex": 10,
@@ -1078,12 +1036,10 @@ export default {
         "left the keys on the table"
       ],
       "optionReasons": {
-        "leave-mcq-05": "本句指「把 X 留在某處」。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。",
-        "leave-mcq-03": "「離開某人」是「leave someone」的用法，與本句語境不同。",
-        "leave-mcq-07": "「讓門開着」是「leave the door open」的用法，與本句語境不同。",
-        "leave-mcq-02": "「出發前往 X」是「leave for X」的用法，與本句語境不同。"
+        "leave-mcq-05": "本句的「left the keys on the table」指「把 X 留在某處」。",
+        "leave-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-05"
     },
@@ -1095,11 +1051,9 @@ export default {
       "masked": "I accidentally ____.",
       "options": [
         "leave-mcq-06",
-        "leave-mcq-05",
-        "leave-mcq-07",
-        "leave-mcq-04",
-        "leave-mcq-08",
-        "leave-mcq-03"
+        "leave-mcq-22",
+        "leave-mcq-21",
+        "leave-mcq-04"
       ],
       "explanation": "本句的「left my bag behind」指「留下／忘記帶走 X」。",
       "sentenceIndex": 11,
@@ -1108,12 +1062,10 @@ export default {
         "left my bag behind"
       ],
       "optionReasons": {
-        "leave-mcq-06": "本句指「留下／忘記帶走 X」。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-07": "「讓門開着」是「leave the door open」的用法，與本句語境不同。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。",
-        "leave-mcq-08": "「讓某人一直等」是「leave someone waiting」的用法，與本句語境不同。",
-        "leave-mcq-03": "「離開某人」是「leave someone」的用法，與本句語境不同。"
+        "leave-mcq-06": "本句的「left my bag behind」指「留下／忘記帶走 X」。",
+        "leave-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-06"
     },
@@ -1125,11 +1077,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "leave-mcq-06",
-        "leave-mcq-05",
-        "leave-mcq-07",
-        "leave-mcq-04",
-        "leave-mcq-08",
-        "leave-mcq-03"
+        "leave-mcq-21",
+        "leave-mcq-30",
+        "leave-mcq-08"
       ],
       "explanation": "本句的「leave anything behind」指「留下／忘記帶走 X」。",
       "sentenceIndex": 12,
@@ -1138,12 +1088,10 @@ export default {
         "leave anything behind"
       ],
       "optionReasons": {
-        "leave-mcq-06": "本句指「留下／忘記帶走 X」。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-07": "「讓門開着」是「leave the door open」的用法，與本句語境不同。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。",
-        "leave-mcq-08": "「讓某人一直等」是「leave someone waiting」的用法，與本句語境不同。",
-        "leave-mcq-03": "「離開某人」是「leave someone」的用法，與本句語境不同。"
+        "leave-mcq-06": "本句的「leave anything behind」指「留下／忘記帶走 X」。",
+        "leave-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-06"
     },
@@ -1155,11 +1103,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "leave-mcq-07",
-        "leave-mcq-06",
         "leave-mcq-08",
-        "leave-mcq-05",
-        "leave-mcq-09",
-        "leave-mcq-04"
+        "leave-mcq-15",
+        "leave-mcq-24"
       ],
       "explanation": "本句的「left the window open」指「讓門開着」。",
       "sentenceIndex": 13,
@@ -1168,12 +1114,10 @@ export default {
         "left the window open"
       ],
       "optionReasons": {
-        "leave-mcq-07": "本句指「讓門開着」。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。",
-        "leave-mcq-08": "「讓某人一直等」是「leave someone waiting」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-09": "「令某人疲累」是「leave someone tired」的用法，與本句語境不同。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。"
+        "leave-mcq-07": "本句的「left the window open」指「讓門開着」。",
+        "leave-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-07"
     },
@@ -1185,11 +1129,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "leave-mcq-07",
-        "leave-mcq-06",
-        "leave-mcq-08",
-        "leave-mcq-05",
-        "leave-mcq-09",
-        "leave-mcq-04"
+        "leave-mcq-32",
+        "leave-mcq-20",
+        "leave-mcq-14"
       ],
       "explanation": "本句的「leave the lights on」指「讓門開着」。",
       "sentenceIndex": 14,
@@ -1198,12 +1140,10 @@ export default {
         "leave the lights on"
       ],
       "optionReasons": {
-        "leave-mcq-07": "本句指「讓門開着」。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。",
-        "leave-mcq-08": "「讓某人一直等」是「leave someone waiting」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-09": "「令某人疲累」是「leave someone tired」的用法，與本句語境不同。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。"
+        "leave-mcq-07": "本句的「leave the lights on」指「讓門開着」。",
+        "leave-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-07"
     },
@@ -1215,10 +1155,8 @@ export default {
       "masked": "They ____ for an hour.",
       "options": [
         "leave-mcq-08",
-        "leave-mcq-07",
-        "leave-mcq-09",
-        "leave-mcq-06",
-        "leave-mcq-10",
+        "leave-mcq-15",
+        "leave-mcq-22",
         "leave-mcq-05"
       ],
       "explanation": "本句的「left us waiting」指「讓某人一直等」。",
@@ -1228,12 +1166,10 @@ export default {
         "left us waiting"
       ],
       "optionReasons": {
-        "leave-mcq-08": "本句指「讓某人一直等」。",
-        "leave-mcq-07": "「讓門開着」是「leave the door open」的用法，與本句語境不同。",
-        "leave-mcq-09": "「令某人疲累」是「leave someone tired」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。",
-        "leave-mcq-10": "「留給某人 X」是「leave someone with X」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。"
+        "leave-mcq-08": "本句的「left us waiting」指「讓某人一直等」。",
+        "leave-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-08"
     },
@@ -1245,11 +1181,9 @@ export default {
       "masked": "His answer ____ what he really meant.",
       "options": [
         "leave-mcq-08",
-        "leave-mcq-07",
-        "leave-mcq-09",
-        "leave-mcq-06",
-        "leave-mcq-10",
-        "leave-mcq-05"
+        "leave-mcq-32",
+        "leave-mcq-14",
+        "leave-mcq-21"
       ],
       "explanation": "本句的「left me wondering」指「讓某人一直等」。",
       "sentenceIndex": 16,
@@ -1258,12 +1192,10 @@ export default {
         "left me wondering"
       ],
       "optionReasons": {
-        "leave-mcq-08": "本句指「讓某人一直等」。",
-        "leave-mcq-07": "「讓門開着」是「leave the door open」的用法，與本句語境不同。",
-        "leave-mcq-09": "「令某人疲累」是「leave someone tired」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。",
-        "leave-mcq-10": "「留給某人 X」是「leave someone with X」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。"
+        "leave-mcq-08": "本句的「left me wondering」指「讓某人一直等」。",
+        "leave-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-08"
     },
@@ -1275,11 +1207,9 @@ export default {
       "masked": "The news ____.",
       "options": [
         "leave-mcq-09",
-        "leave-mcq-08",
-        "leave-mcq-10",
-        "leave-mcq-07",
-        "leave-mcq-11",
-        "leave-mcq-06"
+        "leave-mcq-05",
+        "leave-mcq-28",
+        "leave-mcq-01"
       ],
       "explanation": "本句的「left her speechless」指「令某人疲累」。",
       "sentenceIndex": 17,
@@ -1288,12 +1218,10 @@ export default {
         "left her speechless"
       ],
       "optionReasons": {
-        "leave-mcq-09": "本句指「令某人疲累」。",
-        "leave-mcq-08": "「讓某人一直等」是「leave someone waiting」的用法，與本句語境不同。",
-        "leave-mcq-10": "「留給某人 X」是「leave someone with X」的用法，與本句語境不同。",
-        "leave-mcq-07": "「讓門開着」是「leave the door open」的用法，與本句語境不同。",
-        "leave-mcq-11": "「把 X 交給某人」是「leave X to someone」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。"
+        "leave-mcq-09": "本句的「left her speechless」指「令某人疲累」。",
+        "leave-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-09"
     },
@@ -1305,11 +1233,9 @@ export default {
       "masked": "The long walk ____.",
       "options": [
         "leave-mcq-09",
-        "leave-mcq-08",
-        "leave-mcq-10",
-        "leave-mcq-07",
-        "leave-mcq-11",
-        "leave-mcq-06"
+        "leave-mcq-14",
+        "leave-mcq-23",
+        "leave-mcq-28"
       ],
       "explanation": "本句的「left us exhausted」指「令某人疲累」。",
       "sentenceIndex": 18,
@@ -1318,12 +1244,10 @@ export default {
         "left us exhausted"
       ],
       "optionReasons": {
-        "leave-mcq-09": "本句指「令某人疲累」。",
-        "leave-mcq-08": "「讓某人一直等」是「leave someone waiting」的用法，與本句語境不同。",
-        "leave-mcq-10": "「留給某人 X」是「leave someone with X」的用法，與本句語境不同。",
-        "leave-mcq-07": "「讓門開着」是「leave the door open」的用法，與本句語境不同。",
-        "leave-mcq-11": "「把 X 交給某人」是「leave X to someone」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。"
+        "leave-mcq-09": "本句的「left us exhausted」指「令某人疲累」。",
+        "leave-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-09"
     },
@@ -1335,11 +1259,9 @@ export default {
       "masked": "The film ____.",
       "options": [
         "leave-mcq-10",
-        "leave-mcq-09",
-        "leave-mcq-11",
-        "leave-mcq-08",
-        "leave-mcq-07",
-        "leave-mcq-13"
+        "leave-mcq-23",
+        "leave-pdf-001",
+        "leave-mcq-27"
       ],
       "explanation": "本句的「left me with a strange feeling」指「留給某人 X」。",
       "sentenceIndex": 19,
@@ -1348,12 +1270,10 @@ export default {
         "left me with a strange feeling"
       ],
       "optionReasons": {
-        "leave-mcq-10": "本句指「留給某人 X」。",
-        "leave-mcq-09": "「令某人疲累」是「leave someone tired」的用法，與本句語境不同。",
-        "leave-mcq-11": "「把 X 交給某人」是「leave X to someone」的用法，與本句語境不同。",
-        "leave-mcq-08": "「讓某人一直等」是「leave someone waiting」的用法，與本句語境不同。",
-        "leave-mcq-07": "「讓門開着」是「leave the door open」的用法，與本句語境不同。",
-        "leave-mcq-13": "「留言」是「leave a message」的用法，與本句語境不同。"
+        "leave-mcq-10": "本句的「left me with a strange feeling」指「留給某人 X」。",
+        "leave-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "leave-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-10"
     },
@@ -1365,11 +1285,9 @@ export default {
       "masked": "The experience ____.",
       "options": [
         "leave-mcq-10",
-        "leave-mcq-09",
-        "leave-mcq-11",
-        "leave-mcq-08",
-        "leave-mcq-07",
-        "leave-mcq-13"
+        "leave-pdf-001",
+        "leave-mcq-21",
+        "leave-mcq-18"
       ],
       "explanation": "本句的「left him with lasting memories」指「留給某人 X」。",
       "sentenceIndex": 20,
@@ -1378,12 +1296,10 @@ export default {
         "left him with lasting memories"
       ],
       "optionReasons": {
-        "leave-mcq-10": "本句指「留給某人 X」。",
-        "leave-mcq-09": "「令某人疲累」是「leave someone tired」的用法，與本句語境不同。",
-        "leave-mcq-11": "「把 X 交給某人」是「leave X to someone」的用法，與本句語境不同。",
-        "leave-mcq-08": "「讓某人一直等」是「leave someone waiting」的用法，與本句語境不同。",
-        "leave-mcq-07": "「讓門開着」是「leave the door open」的用法，與本句語境不同。",
-        "leave-mcq-13": "「留言」是「leave a message」的用法，與本句語境不同。"
+        "leave-mcq-10": "本句的「left him with lasting memories」指「留給某人 X」。",
+        "leave-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-10"
     },
@@ -1395,11 +1311,9 @@ export default {
       "masked": "____.",
       "options": [
         "leave-mcq-11",
-        "leave-mcq-10",
-        "leave-mcq-09",
-        "leave-mcq-13",
-        "leave-mcq-08",
-        "leave-mcq-14"
+        "leave-mcq-29",
+        "leave-mcq-06",
+        "leave-mcq-23"
       ],
       "explanation": "本句的「Leave it to me」指「把 X 交給某人」。",
       "sentenceIndex": 21,
@@ -1408,12 +1322,10 @@ export default {
         "Leave it to me"
       ],
       "optionReasons": {
-        "leave-mcq-11": "本句指「把 X 交給某人」。",
-        "leave-mcq-10": "「留給某人 X」是「leave someone with X」的用法，與本句語境不同。",
-        "leave-mcq-09": "「令某人疲累」是「leave someone tired」的用法，與本句語境不同。",
-        "leave-mcq-13": "「留言」是「leave a message」的用法，與本句語境不同。",
-        "leave-mcq-08": "「讓某人一直等」是「leave someone waiting」的用法，與本句語境不同。",
-        "leave-mcq-14": "「離校」是「leave school」的用法，與本句語境不同。"
+        "leave-mcq-11": "本句的「Leave it to me」指「把 X 交給某人」。",
+        "leave-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-11"
     },
@@ -1425,11 +1337,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "leave-mcq-11",
-        "leave-mcq-10",
-        "leave-mcq-09",
-        "leave-mcq-13",
-        "leave-mcq-08",
-        "leave-mcq-14"
+        "leave-mcq-22",
+        "leave-mcq-07",
+        "leave-mcq-32"
       ],
       "explanation": "本句的「left the decision to her」指「把 X 交給某人」。",
       "sentenceIndex": 22,
@@ -1438,12 +1348,10 @@ export default {
         "left the decision to her"
       ],
       "optionReasons": {
-        "leave-mcq-11": "本句指「把 X 交給某人」。",
-        "leave-mcq-10": "「留給某人 X」是「leave someone with X」的用法，與本句語境不同。",
-        "leave-mcq-09": "「令某人疲累」是「leave someone tired」的用法，與本句語境不同。",
-        "leave-mcq-13": "「留言」是「leave a message」的用法，與本句語境不同。",
-        "leave-mcq-08": "「讓某人一直等」是「leave someone waiting」的用法，與本句語境不同。",
-        "leave-mcq-14": "「離校」是「leave school」的用法，與本句語境不同。"
+        "leave-mcq-11": "本句的「left the decision to her」指「把 X 交給某人」。",
+        "leave-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-11"
     },
@@ -1455,11 +1363,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "leave-mcq-12",
-        "leave-mcq-11",
-        "leave-mcq-13",
-        "leave-mcq-14",
-        "leave-mcq-09",
-        "leave-mcq-15"
+        "leave-mcq-07",
+        "leave-mcq-22",
+        "leave-mcq-18"
       ],
       "explanation": "本句的「left me a note」指「留給某人 X」。",
       "sentenceIndex": 23,
@@ -1468,12 +1374,10 @@ export default {
         "left me a note"
       ],
       "optionReasons": {
-        "leave-mcq-12": "本句指「留給某人 X」。",
-        "leave-mcq-11": "「把 X 交給某人」是「leave X to someone」的用法，與本句語境不同。",
-        "leave-mcq-13": "「留言」是「leave a message」的用法，與本句語境不同。",
-        "leave-mcq-14": "「離校」是「leave school」的用法，與本句語境不同。",
-        "leave-mcq-09": "「令某人疲累」是「leave someone tired」的用法，與本句語境不同。",
-        "leave-mcq-15": "「離職」是「leave a job」的用法，與本句語境不同。"
+        "leave-mcq-12": "本句的「left me a note」指「留給某人 X」。",
+        "leave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-12"
     },
@@ -1485,11 +1389,9 @@ export default {
       "masked": "His grandfather ____.",
       "options": [
         "leave-mcq-12",
-        "leave-mcq-11",
-        "leave-mcq-13",
-        "leave-mcq-14",
-        "leave-mcq-09",
-        "leave-mcq-15"
+        "leave-mcq-01",
+        "leave-pdf-001",
+        "leave-mcq-30"
       ],
       "explanation": "本句的「left him a small house」指「留給某人 X」。",
       "sentenceIndex": 24,
@@ -1498,12 +1400,10 @@ export default {
         "left him a small house"
       ],
       "optionReasons": {
-        "leave-mcq-12": "本句指「留給某人 X」。",
-        "leave-mcq-11": "「把 X 交給某人」是「leave X to someone」的用法，與本句語境不同。",
-        "leave-mcq-13": "「留言」是「leave a message」的用法，與本句語境不同。",
-        "leave-mcq-14": "「離校」是「leave school」的用法，與本句語境不同。",
-        "leave-mcq-09": "「令某人疲累」是「leave someone tired」的用法，與本句語境不同。",
-        "leave-mcq-15": "「離職」是「leave a job」的用法，與本句語境不同。"
+        "leave-mcq-12": "本句的「left him a small house」指「留給某人 X」。",
+        "leave-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "leave-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-12"
     },
@@ -1515,11 +1415,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "leave-mcq-12",
-        "leave-mcq-11",
-        "leave-mcq-13",
-        "leave-mcq-14",
-        "leave-mcq-09",
-        "leave-mcq-15"
+        "leave-mcq-21",
+        "leave-mcq-07",
+        "leave-mcq-02"
       ],
       "explanation": "本句的「left the house to her daughter」指「留給某人 X」。",
       "sentenceIndex": 25,
@@ -1528,12 +1426,10 @@ export default {
         "left the house to her daughter"
       ],
       "optionReasons": {
-        "leave-mcq-12": "本句指「留給某人 X」。",
-        "leave-mcq-11": "「把 X 交給某人」是「leave X to someone」的用法，與本句語境不同。",
-        "leave-mcq-13": "「留言」是「leave a message」的用法，與本句語境不同。",
-        "leave-mcq-14": "「離校」是「leave school」的用法，與本句語境不同。",
-        "leave-mcq-09": "「令某人疲累」是「leave someone tired」的用法，與本句語境不同。",
-        "leave-mcq-15": "「離職」是「leave a job」的用法，與本句語境不同。"
+        "leave-mcq-12": "本句的「left the house to her daughter」指「留給某人 X」。",
+        "leave-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-12"
     },
@@ -1545,11 +1441,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "leave-mcq-12",
-        "leave-mcq-11",
-        "leave-mcq-13",
         "leave-mcq-14",
-        "leave-mcq-09",
-        "leave-mcq-15"
+        "leave-mcq-23",
+        "leave-mcq-18"
       ],
       "explanation": "本句的「left most of his money to charity」指「留給某人 X」。",
       "sentenceIndex": 26,
@@ -1558,12 +1452,10 @@ export default {
         "left most of his money to charity"
       ],
       "optionReasons": {
-        "leave-mcq-12": "本句指「留給某人 X」。",
-        "leave-mcq-11": "「把 X 交給某人」是「leave X to someone」的用法，與本句語境不同。",
-        "leave-mcq-13": "「留言」是「leave a message」的用法，與本句語境不同。",
-        "leave-mcq-14": "「離校」是「leave school」的用法，與本句語境不同。",
-        "leave-mcq-09": "「令某人疲累」是「leave someone tired」的用法，與本句語境不同。",
-        "leave-mcq-15": "「離職」是「leave a job」的用法，與本句語境不同。"
+        "leave-mcq-12": "本句的「left most of his money to charity」指「留給某人 X」。",
+        "leave-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-12"
     },
@@ -1575,11 +1467,9 @@ export default {
       "masked": "Can I ____?",
       "options": [
         "leave-mcq-13",
-        "leave-mcq-12",
-        "leave-mcq-14",
-        "leave-mcq-11",
-        "leave-mcq-15",
-        "leave-mcq-16"
+        "leave-mcq-33",
+        "leave-mcq-32",
+        "leave-mcq-21"
       ],
       "explanation": "本句的「leave a message」指「留言」。",
       "sentenceIndex": 27,
@@ -1588,12 +1478,10 @@ export default {
         "leave a message"
       ],
       "optionReasons": {
-        "leave-mcq-13": "本句指「留言」。",
-        "leave-mcq-12": "「留給某人 X」是「leave someone X」的用法，與本句語境不同。",
-        "leave-mcq-14": "「離校」是「leave school」的用法，與本句語境不同。",
-        "leave-mcq-11": "「把 X 交給某人」是「leave X to someone」的用法，與本句語境不同。",
-        "leave-mcq-15": "「離職」是「leave a job」的用法，與本句語境不同。",
-        "leave-mcq-16": "「離開伴侶／分手」是「leave partner」的用法，與本句語境不同。"
+        "leave-mcq-13": "本句的「leave a message」指「留言」。",
+        "leave-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-13"
     },
@@ -1605,11 +1493,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "leave-mcq-13",
-        "leave-mcq-12",
-        "leave-mcq-14",
-        "leave-mcq-11",
-        "leave-mcq-15",
-        "leave-mcq-16"
+        "leave-mcq-27",
+        "leave-mcq-09",
+        "leave-mcq-17"
       ],
       "explanation": "本句的「left me a voicemail message」指「留言」。",
       "sentenceIndex": 28,
@@ -1618,12 +1504,10 @@ export default {
         "left me a voicemail message"
       ],
       "optionReasons": {
-        "leave-mcq-13": "本句指「留言」。",
-        "leave-mcq-12": "「留給某人 X」是「leave someone X」的用法，與本句語境不同。",
-        "leave-mcq-14": "「離校」是「leave school」的用法，與本句語境不同。",
-        "leave-mcq-11": "「把 X 交給某人」是「leave X to someone」的用法，與本句語境不同。",
-        "leave-mcq-15": "「離職」是「leave a job」的用法，與本句語境不同。",
-        "leave-mcq-16": "「離開伴侶／分手」是「leave partner」的用法，與本句語境不同。"
+        "leave-mcq-13": "本句的「left me a voicemail message」指「留言」。",
+        "leave-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-13"
     },
@@ -1635,11 +1519,9 @@ export default {
       "masked": "He ____ at eighteen.",
       "options": [
         "leave-mcq-14",
-        "leave-mcq-13",
-        "leave-mcq-15",
-        "leave-mcq-12",
-        "leave-mcq-16",
-        "leave-mcq-11"
+        "leave-mcq-02",
+        "leave-mcq-27",
+        "leave-mcq-18"
       ],
       "explanation": "本句的「left school」指「離校」。",
       "sentenceIndex": 29,
@@ -1648,12 +1530,10 @@ export default {
         "left school"
       ],
       "optionReasons": {
-        "leave-mcq-14": "本句指「離校」。",
-        "leave-mcq-13": "「留言」是「leave a message」的用法，與本句語境不同。",
-        "leave-mcq-15": "「離職」是「leave a job」的用法，與本句語境不同。",
-        "leave-mcq-12": "「留給某人 X」是「leave someone X」的用法，與本句語境不同。",
-        "leave-mcq-16": "「離開伴侶／分手」是「leave partner」的用法，與本句語境不同。",
-        "leave-mcq-11": "「把 X 交給某人」是「leave X to someone」的用法，與本句語境不同。"
+        "leave-mcq-14": "本句的「left school」指「離校」。",
+        "leave-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-14"
     },
@@ -1665,11 +1545,9 @@ export default {
       "masked": "She ____ and started working.",
       "options": [
         "leave-mcq-14",
-        "leave-mcq-13",
-        "leave-mcq-15",
-        "leave-mcq-12",
-        "leave-mcq-16",
-        "leave-mcq-11"
+        "leave-mcq-30",
+        "leave-mcq-05",
+        "leave-mcq-23"
       ],
       "explanation": "本句的「left university」指「離校」。",
       "sentenceIndex": 30,
@@ -1678,12 +1556,10 @@ export default {
         "left university"
       ],
       "optionReasons": {
-        "leave-mcq-14": "本句指「離校」。",
-        "leave-mcq-13": "「留言」是「leave a message」的用法，與本句語境不同。",
-        "leave-mcq-15": "「離職」是「leave a job」的用法，與本句語境不同。",
-        "leave-mcq-12": "「留給某人 X」是「leave someone X」的用法，與本句語境不同。",
-        "leave-mcq-16": "「離開伴侶／分手」是「leave partner」的用法，與本句語境不同。",
-        "leave-mcq-11": "「把 X 交給某人」是「leave X to someone」的用法，與本句語境不同。"
+        "leave-mcq-14": "本句的「left university」指「離校」。",
+        "leave-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-14"
     },
@@ -1695,11 +1571,9 @@ export default {
       "masked": "She ____ last month.",
       "options": [
         "leave-mcq-15",
-        "leave-mcq-14",
-        "leave-mcq-16",
-        "leave-mcq-13",
-        "leave-mcq-17",
-        "leave-mcq-12"
+        "leave-mcq-24",
+        "leave-mcq-04",
+        "leave-mcq-30"
       ],
       "explanation": "本句的「left her job」指「離職」。",
       "sentenceIndex": 31,
@@ -1708,12 +1582,10 @@ export default {
         "left her job"
       ],
       "optionReasons": {
-        "leave-mcq-15": "本句指「離職」。",
-        "leave-mcq-14": "「離校」是「leave school」的用法，與本句語境不同。",
-        "leave-mcq-16": "「離開伴侶／分手」是「leave partner」的用法，與本句語境不同。",
-        "leave-mcq-13": "「留言」是「leave a message」的用法，與本句語境不同。",
-        "leave-mcq-17": "「剩下」是「be left」的用法，與本句語境不同。",
-        "leave-mcq-12": "「留給某人 X」是「leave someone X」的用法，與本句語境不同。"
+        "leave-mcq-15": "本句的「left her job」指「離職」。",
+        "leave-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-15"
     },
@@ -1725,11 +1597,9 @@ export default {
       "masked": "He is planning to ____.",
       "options": [
         "leave-mcq-15",
-        "leave-mcq-14",
-        "leave-mcq-16",
-        "leave-mcq-13",
-        "leave-mcq-17",
-        "leave-mcq-12"
+        "leave-pdf-001",
+        "leave-mcq-23",
+        "leave-mcq-30"
       ],
       "explanation": "本句的「leave the company」指「離職」。",
       "sentenceIndex": 32,
@@ -1738,12 +1608,10 @@ export default {
         "leave the company"
       ],
       "optionReasons": {
-        "leave-mcq-15": "本句指「離職」。",
-        "leave-mcq-14": "「離校」是「leave school」的用法，與本句語境不同。",
-        "leave-mcq-16": "「離開伴侶／分手」是「leave partner」的用法，與本句語境不同。",
-        "leave-mcq-13": "「留言」是「leave a message」的用法，與本句語境不同。",
-        "leave-mcq-17": "「剩下」是「be left」的用法，與本句語境不同。",
-        "leave-mcq-12": "「留給某人 X」是「leave someone X」的用法，與本句語境不同。"
+        "leave-mcq-15": "本句的「leave the company」指「離職」。",
+        "leave-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-15"
     },
@@ -1755,11 +1623,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "leave-mcq-03",
-        "leave-mcq-02",
-        "leave-mcq-04",
-        "leave-mcq-01",
-        "leave-mcq-05",
-        "leave-mcq-06"
+        "leave-mcq-06",
+        "leave-mcq-30",
+        "leave-mcq-22"
       ],
       "explanation": "本句的「leave her husband」指「離開某人」。",
       "sentenceIndex": 33,
@@ -1768,12 +1634,10 @@ export default {
         "leave her husband"
       ],
       "optionReasons": {
-        "leave-mcq-03": "本句指「離開某人」。",
-        "leave-mcq-02": "「出發前往 X」是「leave for X」的用法，與本句語境不同。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。",
-        "leave-mcq-01": "「離開某地」是「leave a place」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。"
+        "leave-mcq-03": "本句的「leave her husband」指「離開某人」。",
+        "leave-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-03"
     },
@@ -1785,11 +1649,9 @@ export default {
       "masked": "He was shocked when his partner ____.",
       "options": [
         "leave-mcq-03",
-        "leave-mcq-02",
-        "leave-mcq-04",
-        "leave-mcq-01",
-        "leave-mcq-05",
-        "leave-mcq-06"
+        "leave-mcq-30",
+        "leave-mcq-25",
+        "leave-mcq-18"
       ],
       "explanation": "本句的「left him」指「離開某人」。",
       "sentenceIndex": 34,
@@ -1798,12 +1660,10 @@ export default {
         "left him"
       ],
       "optionReasons": {
-        "leave-mcq-03": "本句指「離開某人」。",
-        "leave-mcq-02": "「出發前往 X」是「leave for X」的用法，與本句語境不同。",
-        "leave-mcq-04": "「不打擾某人」是「leave someone alone」的用法，與本句語境不同。",
-        "leave-mcq-01": "「離開某地」是「leave a place」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。"
+        "leave-mcq-03": "本句的「left him」指「離開某人」。",
+        "leave-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-03"
     },
@@ -1815,11 +1675,9 @@ export default {
       "masked": "Only two slices of cake are ____.",
       "options": [
         "leave-mcq-17",
-        "leave-mcq-16",
-        "leave-mcq-18",
-        "leave-mcq-15",
-        "leave-mcq-19",
-        "leave-mcq-14"
+        "leave-mcq-23",
+        "leave-mcq-11",
+        "leave-pdf-001"
       ],
       "explanation": "本句的「left」指「剩下」。",
       "sentenceIndex": 35,
@@ -1828,12 +1686,10 @@ export default {
         "left"
       ],
       "optionReasons": {
-        "leave-mcq-17": "本句指「剩下」。",
-        "leave-mcq-16": "「離開伴侶／分手」是「leave partner」的用法，與本句語境不同。",
-        "leave-mcq-18": "「還剩 X」是「have X left」的用法，與本句語境不同。",
-        "leave-mcq-15": "「離職」是「leave a job」的用法，與本句語境不同。",
-        "leave-mcq-19": "「剩餘食物／剩菜」是「leftovers」的用法，與本句語境不同。",
-        "leave-mcq-14": "「離校」是「leave school」的用法，與本句語境不同。"
+        "leave-mcq-17": "本句的「left」指「剩下」。",
+        "leave-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "leave-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-17"
     },
@@ -1845,11 +1701,9 @@ export default {
       "masked": "There isn't much time ____.",
       "options": [
         "leave-mcq-17",
-        "leave-mcq-16",
-        "leave-mcq-18",
-        "leave-mcq-15",
-        "leave-mcq-19",
-        "leave-mcq-14"
+        "leave-mcq-21",
+        "leave-mcq-27",
+        "leave-mcq-07"
       ],
       "explanation": "本句的「left」指「剩下」。",
       "sentenceIndex": 36,
@@ -1858,12 +1712,10 @@ export default {
         "left"
       ],
       "optionReasons": {
-        "leave-mcq-17": "本句指「剩下」。",
-        "leave-mcq-16": "「離開伴侶／分手」是「leave partner」的用法，與本句語境不同。",
-        "leave-mcq-18": "「還剩 X」是「have X left」的用法，與本句語境不同。",
-        "leave-mcq-15": "「離職」是「leave a job」的用法，與本句語境不同。",
-        "leave-mcq-19": "「剩餘食物／剩菜」是「leftovers」的用法，與本句語境不同。",
-        "leave-mcq-14": "「離校」是「leave school」的用法，與本句語境不同。"
+        "leave-mcq-17": "本句的「left」指「剩下」。",
+        "leave-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-17"
     },
@@ -1875,11 +1727,9 @@ export default {
       "masked": "We have ten minutes ____.",
       "options": [
         "leave-mcq-18",
-        "leave-mcq-17",
-        "leave-mcq-19",
-        "leave-mcq-16",
-        "leave-mcq-20",
-        "leave-mcq-15"
+        "leave-mcq-26",
+        "leave-mcq-08",
+        "leave-mcq-28"
       ],
       "explanation": "本句的「left」指「還剩 X」。",
       "sentenceIndex": 37,
@@ -1888,12 +1738,10 @@ export default {
         "left"
       ],
       "optionReasons": {
-        "leave-mcq-18": "本句指「還剩 X」。",
-        "leave-mcq-17": "「剩下」是「be left」的用法，與本句語境不同。",
-        "leave-mcq-19": "「剩餘食物／剩菜」是「leftovers」的用法，與本句語境不同。",
-        "leave-mcq-16": "「離開伴侶／分手」是「leave partner」的用法，與本句語境不同。",
-        "leave-mcq-20": "「漏掉；省略」是「leave out」的用法，與本句語境不同。",
-        "leave-mcq-15": "「離職」是「leave a job」的用法，與本句語境不同。"
+        "leave-mcq-18": "本句的「left」指「還剩 X」。",
+        "leave-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-18"
     },
@@ -1905,11 +1753,9 @@ export default {
       "masked": "Do we have any milk ____?",
       "options": [
         "leave-mcq-18",
-        "leave-mcq-17",
-        "leave-mcq-19",
-        "leave-mcq-16",
-        "leave-mcq-20",
-        "leave-mcq-15"
+        "leave-mcq-02",
+        "leave-mcq-23",
+        "leave-mcq-05"
       ],
       "explanation": "本句的「left」指「還剩 X」。",
       "sentenceIndex": 38,
@@ -1918,12 +1764,10 @@ export default {
         "left"
       ],
       "optionReasons": {
-        "leave-mcq-18": "本句指「還剩 X」。",
-        "leave-mcq-17": "「剩下」是「be left」的用法，與本句語境不同。",
-        "leave-mcq-19": "「剩餘食物／剩菜」是「leftovers」的用法，與本句語境不同。",
-        "leave-mcq-16": "「離開伴侶／分手」是「leave partner」的用法，與本句語境不同。",
-        "leave-mcq-20": "「漏掉；省略」是「leave out」的用法，與本句語境不同。",
-        "leave-mcq-15": "「離職」是「leave a job」的用法，與本句語境不同。"
+        "leave-mcq-18": "本句的「left」指「還剩 X」。",
+        "leave-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-18"
     },
@@ -1935,11 +1779,9 @@ export default {
       "masked": "We ate the ____ the next day.",
       "options": [
         "leave-mcq-32",
-        "leave-mcq-31",
-        "leave-mcq-33",
-        "leave-mcq-30",
-        "leave-mcq-29",
-        "leave-mcq-28"
+        "leave-mcq-03",
+        "leave-mcq-21",
+        "leave-mcq-25"
       ],
       "explanation": "本句的「leftover food」指「使用、進食或分配後仍然剩下的」。",
       "sentenceIndex": 39,
@@ -1948,12 +1790,10 @@ export default {
         "leftover food"
       ],
       "optionReasons": {
-        "leave-mcq-32": "本句指「使用、進食或分配後仍然剩下的」。",
-        "leave-mcq-31": "「告辭」是「take your leave」的用法，與本句語境不同。",
-        "leave-mcq-33": "「正式或較文雅地向某人告別並離去」是「34. take leave of someone — 向某人告別」的用法，與本句語境不同。",
-        "leave-mcq-30": "「育嬰假」是「parental leave」的用法，與本句語境不同。",
-        "leave-mcq-29": "「病假」是「sick leave」的用法，與本句語境不同。",
-        "leave-mcq-28": "「年假」是「annual leave」的用法，與本句語境不同。"
+        "leave-mcq-32": "本句的「leftover food」指「使用、進食或分配後仍然剩下的」。",
+        "leave-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-32"
     },
@@ -1965,11 +1805,9 @@ export default {
       "masked": "There are some ____ in the fridge.",
       "options": [
         "leave-mcq-32",
-        "leave-mcq-31",
-        "leave-mcq-33",
-        "leave-mcq-30",
-        "leave-mcq-29",
-        "leave-mcq-28"
+        "leave-mcq-27",
+        "leave-mcq-20",
+        "leave-mcq-25"
       ],
       "explanation": "本句的「leftovers」指「使用、進食或分配後仍然剩下的」。",
       "sentenceIndex": 40,
@@ -1978,12 +1816,10 @@ export default {
         "leftovers"
       ],
       "optionReasons": {
-        "leave-mcq-32": "本句指「使用、進食或分配後仍然剩下的」。",
-        "leave-mcq-31": "「告辭」是「take your leave」的用法，與本句語境不同。",
-        "leave-mcq-33": "「正式或較文雅地向某人告別並離去」是「34. take leave of someone — 向某人告別」的用法，與本句語境不同。",
-        "leave-mcq-30": "「育嬰假」是「parental leave」的用法，與本句語境不同。",
-        "leave-mcq-29": "「病假」是「sick leave」的用法，與本句語境不同。",
-        "leave-mcq-28": "「年假」是「annual leave」的用法，與本句語境不同。"
+        "leave-mcq-32": "本句的「leftovers」指「使用、進食或分配後仍然剩下的」。",
+        "leave-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-32"
     },
@@ -1995,11 +1831,9 @@ export default {
       "masked": "You ____ an important detail.",
       "options": [
         "leave-mcq-20",
-        "leave-mcq-19",
-        "leave-mcq-21",
-        "leave-mcq-18",
-        "leave-mcq-22",
-        "leave-mcq-17"
+        "leave-mcq-02",
+        "leave-mcq-23",
+        "leave-mcq-14"
       ],
       "explanation": "本句的「left out」指「漏掉；省略」。",
       "sentenceIndex": 41,
@@ -2008,12 +1842,10 @@ export default {
         "left out"
       ],
       "optionReasons": {
-        "leave-mcq-20": "本句指「漏掉；省略」。",
-        "leave-mcq-19": "「剩餘食物／剩菜」是「leftovers」的用法，與本句語境不同。",
-        "leave-mcq-21": "「感到被冷落」是「feel left out」的用法，與本句語境不同。",
-        "leave-mcq-18": "「還剩 X」是「have X left」的用法，與本句語境不同。",
-        "leave-mcq-22": "「停止；中斷」是「leave off」的用法，與本句語境不同。",
-        "leave-mcq-17": "「剩下」是「be left」的用法，與本句語境不同。"
+        "leave-mcq-20": "本句的「left out」指「漏掉；省略」。",
+        "leave-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-20"
     },
@@ -2025,11 +1857,9 @@ export default {
       "masked": "We can ____.",
       "options": [
         "leave-mcq-20",
-        "leave-mcq-19",
-        "leave-mcq-21",
-        "leave-mcq-18",
-        "leave-mcq-22",
-        "leave-mcq-17"
+        "leave-mcq-33",
+        "leave-mcq-27",
+        "leave-mcq-18"
       ],
       "explanation": "本句的「leave this section out」指「漏掉；省略」。",
       "sentenceIndex": 42,
@@ -2038,12 +1868,10 @@ export default {
         "leave this section out"
       ],
       "optionReasons": {
-        "leave-mcq-20": "本句指「漏掉；省略」。",
-        "leave-mcq-19": "「剩餘食物／剩菜」是「leftovers」的用法，與本句語境不同。",
-        "leave-mcq-21": "「感到被冷落」是「feel left out」的用法，與本句語境不同。",
-        "leave-mcq-18": "「還剩 X」是「have X left」的用法，與本句語境不同。",
-        "leave-mcq-22": "「停止；中斷」是「leave off」的用法，與本句語境不同。",
-        "leave-mcq-17": "「剩下」是「be left」的用法，與本句語境不同。"
+        "leave-mcq-20": "本句的「leave this section out」指「漏掉；省略」。",
+        "leave-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-20"
     },
@@ -2055,11 +1883,9 @@ export default {
       "masked": "He felt ____ when everyone else was invited.",
       "options": [
         "leave-mcq-21",
-        "leave-mcq-20",
-        "leave-mcq-22",
-        "leave-mcq-19",
-        "leave-mcq-23",
-        "leave-mcq-18"
+        "leave-mcq-18",
+        "leave-mcq-26",
+        "leave-mcq-15"
       ],
       "explanation": "本句的「left out」指「感到被冷落」。",
       "sentenceIndex": 43,
@@ -2068,12 +1894,10 @@ export default {
         "left out"
       ],
       "optionReasons": {
-        "leave-mcq-21": "本句指「感到被冷落」。",
-        "leave-mcq-20": "「漏掉；省略」是「leave out」的用法，與本句語境不同。",
-        "leave-mcq-22": "「停止；中斷」是「leave off」的用法，與本句語境不同。",
-        "leave-mcq-19": "「剩餘食物／剩菜」是「leftovers」的用法，與本句語境不同。",
-        "leave-mcq-23": "「就此打住」是「leave it at that」的用法，與本句語境不同。",
-        "leave-mcq-18": "「還剩 X」是「have X left」的用法，與本句語境不同。"
+        "leave-mcq-21": "本句的「left out」指「感到被冷落」。",
+        "leave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-21"
     },
@@ -2085,11 +1909,9 @@ export default {
       "masked": "Make sure nobody feels ____.",
       "options": [
         "leave-mcq-21",
-        "leave-mcq-20",
-        "leave-mcq-22",
-        "leave-mcq-19",
-        "leave-mcq-23",
-        "leave-mcq-18"
+        "leave-mcq-24",
+        "leave-mcq-03",
+        "leave-mcq-29"
       ],
       "explanation": "本句的「left out」指「感到被冷落」。",
       "sentenceIndex": 44,
@@ -2098,12 +1920,10 @@ export default {
         "left out"
       ],
       "optionReasons": {
-        "leave-mcq-21": "本句指「感到被冷落」。",
-        "leave-mcq-20": "「漏掉；省略」是「leave out」的用法，與本句語境不同。",
-        "leave-mcq-22": "「停止；中斷」是「leave off」的用法，與本句語境不同。",
-        "leave-mcq-19": "「剩餘食物／剩菜」是「leftovers」的用法，與本句語境不同。",
-        "leave-mcq-23": "「就此打住」是「leave it at that」的用法，與本句語境不同。",
-        "leave-mcq-18": "「還剩 X」是「have X left」的用法，與本句語境不同。"
+        "leave-mcq-21": "本句的「left out」指「感到被冷落」。",
+        "leave-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-21"
     },
@@ -2115,11 +1935,9 @@ export default {
       "masked": "Let's continue where we ____.",
       "options": [
         "leave-mcq-22",
-        "leave-mcq-21",
-        "leave-mcq-23",
-        "leave-mcq-20",
-        "leave-mcq-24",
-        "leave-mcq-19"
+        "leave-mcq-28",
+        "leave-mcq-14",
+        "leave-mcq-17"
       ],
       "explanation": "本句的「left off」指「停止；中斷」。",
       "sentenceIndex": 45,
@@ -2128,12 +1946,10 @@ export default {
         "left off"
       ],
       "optionReasons": {
-        "leave-mcq-22": "本句指「停止；中斷」。",
-        "leave-mcq-21": "「感到被冷落」是「feel left out」的用法，與本句語境不同。",
-        "leave-mcq-23": "「就此打住」是「leave it at that」的用法，與本句語境不同。",
-        "leave-mcq-20": "「漏掉；省略」是「leave out」的用法，與本句語境不同。",
-        "leave-mcq-24": "「留待之後處理」是「leave until later」的用法，與本句語境不同。",
-        "leave-mcq-19": "「剩餘食物／剩菜」是「leftovers」的用法，與本句語境不同。"
+        "leave-mcq-22": "本句的「left off」指「停止；中斷」。",
+        "leave-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-22"
     },
@@ -2145,11 +1961,9 @@ export default {
       "masked": "Where did we ____ yesterday?",
       "options": [
         "leave-mcq-22",
-        "leave-mcq-21",
+        "leave-mcq-27",
         "leave-mcq-23",
-        "leave-mcq-20",
-        "leave-mcq-24",
-        "leave-mcq-19"
+        "leave-mcq-11"
       ],
       "explanation": "本句的「leave off」指「停止；中斷」。",
       "sentenceIndex": 46,
@@ -2158,12 +1972,10 @@ export default {
         "leave off"
       ],
       "optionReasons": {
-        "leave-mcq-22": "本句指「停止；中斷」。",
-        "leave-mcq-21": "「感到被冷落」是「feel left out」的用法，與本句語境不同。",
-        "leave-mcq-23": "「就此打住」是「leave it at that」的用法，與本句語境不同。",
-        "leave-mcq-20": "「漏掉；省略」是「leave out」的用法，與本句語境不同。",
-        "leave-mcq-24": "「留待之後處理」是「leave until later」的用法，與本句語境不同。",
-        "leave-mcq-19": "「剩餘食物／剩菜」是「leftovers」的用法，與本句語境不同。"
+        "leave-mcq-22": "本句的「leave off」指「停止；中斷」。",
+        "leave-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-22"
     },
@@ -2175,11 +1987,9 @@ export default {
       "masked": "Just ____.",
       "options": [
         "leave-pdf-001",
-        "leave-mcq-21",
-        "leave-mcq-23",
-        "leave-mcq-20",
-        "leave-mcq-24",
-        "leave-mcq-19"
+        "leave-mcq-01",
+        "leave-mcq-25",
+        "leave-mcq-28"
       ],
       "explanation": "本句的「leave it alone」指「不再碰、干預或處理某事」。",
       "sentenceIndex": 47,
@@ -2188,12 +1998,10 @@ export default {
         "leave it alone"
       ],
       "optionReasons": {
-        "leave-pdf-001": "本句指「不再碰、干預或處理某事」。",
-        "leave-mcq-21": "「感到被冷落」是「feel left out」的用法，與本句語境不同。",
-        "leave-mcq-23": "「就此打住」是「leave it at that」的用法，與本句語境不同。",
-        "leave-mcq-20": "「漏掉；省略」是「leave out」的用法，與本句語境不同。",
-        "leave-mcq-24": "「留待之後處理」是「leave until later」的用法，與本句語境不同。",
-        "leave-mcq-19": "「剩餘食物／剩菜」是「leftovers」的用法，與本句語境不同。"
+        "leave-pdf-001": "本句的「leave it alone」指「不再碰、干預或處理某事」。",
+        "leave-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-pdf-001"
     },
@@ -2205,11 +2013,9 @@ export default {
       "masked": "Sometimes it's better to ____.",
       "options": [
         "leave-pdf-001",
-        "leave-mcq-21",
-        "leave-mcq-23",
-        "leave-mcq-20",
-        "leave-mcq-24",
-        "leave-mcq-19"
+        "leave-mcq-09",
+        "leave-mcq-26",
+        "leave-mcq-07"
       ],
       "explanation": "本句的「leave well alone」指「不再碰、干預或處理某事」。",
       "sentenceIndex": 48,
@@ -2218,12 +2024,10 @@ export default {
         "leave well alone"
       ],
       "optionReasons": {
-        "leave-pdf-001": "本句指「不再碰、干預或處理某事」。",
-        "leave-mcq-21": "「感到被冷落」是「feel left out」的用法，與本句語境不同。",
-        "leave-mcq-23": "「就此打住」是「leave it at that」的用法，與本句語境不同。",
-        "leave-mcq-20": "「漏掉；省略」是「leave out」的用法，與本句語境不同。",
-        "leave-mcq-24": "「留待之後處理」是「leave until later」的用法，與本句語境不同。",
-        "leave-mcq-19": "「剩餘食物／剩菜」是「leftovers」的用法，與本句語境不同。"
+        "leave-pdf-001": "本句的「leave well alone」指「不再碰、干預或處理某事」。",
+        "leave-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-pdf-001"
     },
@@ -2235,11 +2039,9 @@ export default {
       "masked": "We agreed to disagree and ____.",
       "options": [
         "leave-mcq-23",
-        "leave-mcq-22",
-        "leave-mcq-24",
-        "leave-mcq-21",
-        "leave-mcq-25",
-        "leave-mcq-20"
+        "leave-mcq-20",
+        "leave-mcq-18",
+        "leave-mcq-09"
       ],
       "explanation": "本句的「left it at that」指「就此打住」。",
       "sentenceIndex": 49,
@@ -2248,12 +2050,10 @@ export default {
         "left it at that"
       ],
       "optionReasons": {
-        "leave-mcq-23": "本句指「就此打住」。",
-        "leave-mcq-22": "「停止；中斷」是「leave off」的用法，與本句語境不同。",
-        "leave-mcq-24": "「留待之後處理」是「leave until later」的用法，與本句語境不同。",
-        "leave-mcq-21": "「感到被冷落」是「feel left out」的用法，與本句語境不同。",
-        "leave-mcq-25": "「為 X 留餘地」是「leave room for X」的用法，與本句語境不同。",
-        "leave-mcq-20": "「漏掉；省略」是「leave out」的用法，與本句語境不同。"
+        "leave-mcq-23": "本句的「left it at that」指「就此打住」。",
+        "leave-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-23"
     },
@@ -2265,11 +2065,9 @@ export default {
       "masked": "I apologized, and she decided to ____.",
       "options": [
         "leave-mcq-23",
-        "leave-mcq-22",
-        "leave-mcq-24",
-        "leave-mcq-21",
-        "leave-mcq-25",
-        "leave-mcq-20"
+        "leave-mcq-14",
+        "leave-pdf-001",
+        "leave-mcq-21"
       ],
       "explanation": "本句的「leave it at that」指「就此打住」。",
       "sentenceIndex": 50,
@@ -2278,12 +2076,10 @@ export default {
         "leave it at that"
       ],
       "optionReasons": {
-        "leave-mcq-23": "本句指「就此打住」。",
-        "leave-mcq-22": "「停止；中斷」是「leave off」的用法，與本句語境不同。",
-        "leave-mcq-24": "「留待之後處理」是「leave until later」的用法，與本句語境不同。",
-        "leave-mcq-21": "「感到被冷落」是「feel left out」的用法，與本句語境不同。",
-        "leave-mcq-25": "「為 X 留餘地」是「leave room for X」的用法，與本句語境不同。",
-        "leave-mcq-20": "「漏掉；省略」是「leave out」的用法，與本句語境不同。"
+        "leave-mcq-23": "本句的「leave it at that」指「就此打住」。",
+        "leave-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "leave-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-23"
     },
@@ -2295,11 +2091,9 @@ export default {
       "masked": "Let's ____.",
       "options": [
         "leave-mcq-24",
-        "leave-mcq-23",
-        "leave-mcq-25",
-        "leave-mcq-22",
-        "leave-mcq-26",
-        "leave-mcq-21"
+        "leave-mcq-02",
+        "leave-mcq-09",
+        "leave-mcq-27"
       ],
       "explanation": "本句的「leave this until tomorrow」指「留待之後處理」。",
       "sentenceIndex": 51,
@@ -2308,12 +2102,10 @@ export default {
         "leave this until tomorrow"
       ],
       "optionReasons": {
-        "leave-mcq-24": "本句指「留待之後處理」。",
-        "leave-mcq-23": "「就此打住」是「leave it at that」的用法，與本句語境不同。",
-        "leave-mcq-25": "「為 X 留餘地」是「leave room for X」的用法，與本句語境不同。",
-        "leave-mcq-22": "「停止；中斷」是「leave off」的用法，與本句語境不同。",
-        "leave-mcq-26": "「留下印象」是「leave an impression」的用法，與本句語境不同。",
-        "leave-mcq-21": "「感到被冷落」是「feel left out」的用法，與本句語境不同。"
+        "leave-mcq-24": "本句的「leave this until tomorrow」指「留待之後處理」。",
+        "leave-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-24"
     },
@@ -2325,11 +2117,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "leave-mcq-24",
-        "leave-mcq-23",
-        "leave-mcq-25",
-        "leave-mcq-22",
-        "leave-mcq-26",
-        "leave-mcq-21"
+        "leave-mcq-07",
+        "leave-mcq-11",
+        "leave-mcq-15"
       ],
       "explanation": "本句的「leave everything until the last minute」指「留待之後處理」。",
       "sentenceIndex": 52,
@@ -2338,12 +2128,10 @@ export default {
         "leave everything until the last minute"
       ],
       "optionReasons": {
-        "leave-mcq-24": "本句指「留待之後處理」。",
-        "leave-mcq-23": "「就此打住」是「leave it at that」的用法，與本句語境不同。",
-        "leave-mcq-25": "「為 X 留餘地」是「leave room for X」的用法，與本句語境不同。",
-        "leave-mcq-22": "「停止；中斷」是「leave off」的用法，與本句語境不同。",
-        "leave-mcq-26": "「留下印象」是「leave an impression」的用法，與本句語境不同。",
-        "leave-mcq-21": "「感到被冷落」是「feel left out」的用法，與本句語境不同。"
+        "leave-mcq-24": "本句的「leave everything until the last minute」指「留待之後處理」。",
+        "leave-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-24"
     },
@@ -2355,11 +2143,9 @@ export default {
       "masked": "____ for dessert.",
       "options": [
         "leave-mcq-25",
-        "leave-mcq-24",
-        "leave-mcq-26",
-        "leave-mcq-23",
-        "leave-mcq-27",
-        "leave-mcq-22"
+        "leave-mcq-29",
+        "leave-mcq-14",
+        "leave-mcq-23"
       ],
       "explanation": "本句的「Leave some room」指「為 X 留餘地」。",
       "sentenceIndex": 53,
@@ -2368,12 +2154,10 @@ export default {
         "Leave some room"
       ],
       "optionReasons": {
-        "leave-mcq-25": "本句指「為 X 留餘地」。",
-        "leave-mcq-24": "「留待之後處理」是「leave until later」的用法，與本句語境不同。",
-        "leave-mcq-26": "「留下印象」是「leave an impression」的用法，與本句語境不同。",
-        "leave-mcq-23": "「就此打住」是「leave it at that」的用法，與本句語境不同。",
-        "leave-mcq-27": "「假期；准假」是「leave (noun)」的用法，與本句語境不同。",
-        "leave-mcq-22": "「停止；中斷」是「leave off」的用法，與本句語境不同。"
+        "leave-mcq-25": "本句的「Leave some room」指「為 X 留餘地」。",
+        "leave-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-25"
     },
@@ -2385,11 +2169,9 @@ export default {
       "masked": "The plan ____.",
       "options": [
         "leave-mcq-25",
-        "leave-mcq-24",
-        "leave-mcq-26",
-        "leave-mcq-23",
         "leave-mcq-27",
-        "leave-mcq-22"
+        "leave-mcq-23",
+        "leave-mcq-11"
       ],
       "explanation": "本句的「leaves room for change」指「為 X 留餘地」。",
       "sentenceIndex": 54,
@@ -2398,12 +2180,10 @@ export default {
         "leaves room for change"
       ],
       "optionReasons": {
-        "leave-mcq-25": "本句指「為 X 留餘地」。",
-        "leave-mcq-24": "「留待之後處理」是「leave until later」的用法，與本句語境不同。",
-        "leave-mcq-26": "「留下印象」是「leave an impression」的用法，與本句語境不同。",
-        "leave-mcq-23": "「就此打住」是「leave it at that」的用法，與本句語境不同。",
-        "leave-mcq-27": "「假期；准假」是「leave (noun)」的用法，與本句語境不同。",
-        "leave-mcq-22": "「停止；中斷」是「leave off」的用法，與本句語境不同。"
+        "leave-mcq-25": "本句的「leaves room for change」指「為 X 留餘地」。",
+        "leave-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-25"
     },
@@ -2415,11 +2195,9 @@ export default {
       "masked": "The experience ____.",
       "options": [
         "leave-mcq-26",
-        "leave-mcq-25",
-        "leave-mcq-27",
-        "leave-mcq-24",
-        "leave-mcq-28",
-        "leave-mcq-23"
+        "leave-mcq-11",
+        "leave-mcq-20",
+        "leave-mcq-15"
       ],
       "explanation": "本句的「left a deep impression on me」指「留下印象」。",
       "sentenceIndex": 55,
@@ -2428,12 +2206,10 @@ export default {
         "left a deep impression on me"
       ],
       "optionReasons": {
-        "leave-mcq-26": "本句指「留下印象」。",
-        "leave-mcq-25": "「為 X 留餘地」是「leave room for X」的用法，與本句語境不同。",
-        "leave-mcq-27": "「假期；准假」是「leave (noun)」的用法，與本句語境不同。",
-        "leave-mcq-24": "「留待之後處理」是「leave until later」的用法，與本句語境不同。",
-        "leave-mcq-28": "「年假」是「annual leave」的用法，與本句語境不同。",
-        "leave-mcq-23": "「就此打住」是「leave it at that」的用法，與本句語境不同。"
+        "leave-mcq-26": "本句的「left a deep impression on me」指「留下印象」。",
+        "leave-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-26"
     },
@@ -2445,11 +2221,9 @@ export default {
       "masked": "The accident ____ on the wall.",
       "options": [
         "leave-mcq-26",
-        "leave-mcq-25",
-        "leave-mcq-27",
-        "leave-mcq-24",
-        "leave-mcq-28",
-        "leave-mcq-23"
+        "leave-mcq-14",
+        "leave-mcq-29",
+        "leave-mcq-21"
       ],
       "explanation": "本句的「left a mark」指「留下印象」。",
       "sentenceIndex": 56,
@@ -2458,12 +2232,10 @@ export default {
         "left a mark"
       ],
       "optionReasons": {
-        "leave-mcq-26": "本句指「留下印象」。",
-        "leave-mcq-25": "「為 X 留餘地」是「leave room for X」的用法，與本句語境不同。",
-        "leave-mcq-27": "「假期；准假」是「leave (noun)」的用法，與本句語境不同。",
-        "leave-mcq-24": "「留待之後處理」是「leave until later」的用法，與本句語境不同。",
-        "leave-mcq-28": "「年假」是「annual leave」的用法，與本句語境不同。",
-        "leave-mcq-23": "「就此打住」是「leave it at that」的用法，與本句語境不同。"
+        "leave-mcq-26": "本句的「left a mark」指「留下印象」。",
+        "leave-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-26"
     },
@@ -2475,11 +2247,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "leave-mcq-04",
-        "leave-mcq-03",
-        "leave-mcq-05",
-        "leave-mcq-02",
-        "leave-mcq-06",
-        "leave-mcq-01"
+        "leave-mcq-18",
+        "leave-mcq-26",
+        "leave-pdf-001"
       ],
       "explanation": "本句的「leave me in peace」指「不打擾某人」。",
       "sentenceIndex": 57,
@@ -2488,12 +2258,10 @@ export default {
         "leave me in peace"
       ],
       "optionReasons": {
-        "leave-mcq-04": "本句指「不打擾某人」。",
-        "leave-mcq-03": "「離開某人」是「leave someone」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-02": "「出發前往 X」是「leave for X」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。",
-        "leave-mcq-01": "「離開某地」是「leave a place」的用法，與本句語境不同。"
+        "leave-mcq-04": "本句的「leave me in peace」指「不打擾某人」。",
+        "leave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "leave-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-04"
     },
@@ -2505,11 +2273,9 @@ export default {
       "masked": "He just wanted to be ____.",
       "options": [
         "leave-mcq-04",
-        "leave-mcq-03",
-        "leave-mcq-05",
-        "leave-mcq-02",
-        "leave-mcq-06",
-        "leave-mcq-01"
+        "leave-mcq-28",
+        "leave-mcq-15",
+        "leave-mcq-13"
       ],
       "explanation": "本句的「left in peace」指「不打擾某人」。",
       "sentenceIndex": 58,
@@ -2518,12 +2284,10 @@ export default {
         "left in peace"
       ],
       "optionReasons": {
-        "leave-mcq-04": "本句指「不打擾某人」。",
-        "leave-mcq-03": "「離開某人」是「leave someone」的用法，與本句語境不同。",
-        "leave-mcq-05": "「把 X 留在某處」是「leave X somewhere」的用法，與本句語境不同。",
-        "leave-mcq-02": "「出發前往 X」是「leave for X」的用法，與本句語境不同。",
-        "leave-mcq-06": "「留下／忘記帶走 X」是「leave X behind」的用法，與本句語境不同。",
-        "leave-mcq-01": "「離開某地」是「leave a place」的用法，與本句語境不同。"
+        "leave-mcq-04": "本句的「left in peace」指「不打擾某人」。",
+        "leave-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-04"
     },
@@ -2535,11 +2299,9 @@ export default {
       "masked": "She is on ____ this week.",
       "options": [
         "leave-mcq-27",
-        "leave-mcq-26",
-        "leave-mcq-28",
-        "leave-mcq-25",
-        "leave-mcq-29",
-        "leave-mcq-24"
+        "leave-mcq-22",
+        "leave-mcq-10",
+        "leave-mcq-15"
       ],
       "explanation": "本句的「annual leave」指「假期；准假」。",
       "sentenceIndex": 59,
@@ -2548,12 +2310,10 @@ export default {
         "annual leave"
       ],
       "optionReasons": {
-        "leave-mcq-27": "本句指「假期；准假」。",
-        "leave-mcq-26": "「留下印象」是「leave an impression」的用法，與本句語境不同。",
-        "leave-mcq-28": "「年假」是「annual leave」的用法，與本句語境不同。",
-        "leave-mcq-25": "「為 X 留餘地」是「leave room for X」的用法，與本句語境不同。",
-        "leave-mcq-29": "「病假」是「sick leave」的用法，與本句語境不同。",
-        "leave-mcq-24": "「留待之後處理」是「leave until later」的用法，與本句語境不同。"
+        "leave-mcq-27": "本句的「annual leave」指「假期；准假」。",
+        "leave-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-27"
     },
@@ -2565,11 +2325,9 @@ export default {
       "masked": "He requested three days' ____.",
       "options": [
         "leave-mcq-27",
-        "leave-mcq-26",
-        "leave-mcq-28",
-        "leave-mcq-25",
-        "leave-mcq-29",
-        "leave-mcq-24"
+        "leave-mcq-17",
+        "leave-mcq-04",
+        "leave-mcq-13"
       ],
       "explanation": "本句的「leave」指「假期；准假」。",
       "sentenceIndex": 60,
@@ -2578,12 +2336,10 @@ export default {
         "leave"
       ],
       "optionReasons": {
-        "leave-mcq-27": "本句指「假期；准假」。",
-        "leave-mcq-26": "「留下印象」是「leave an impression」的用法，與本句語境不同。",
-        "leave-mcq-28": "「年假」是「annual leave」的用法，與本句語境不同。",
-        "leave-mcq-25": "「為 X 留餘地」是「leave room for X」的用法，與本句語境不同。",
-        "leave-mcq-29": "「病假」是「sick leave」的用法，與本句語境不同。",
-        "leave-mcq-24": "「留待之後處理」是「leave until later」的用法，與本句語境不同。"
+        "leave-mcq-27": "本句的「leave」指「假期；准假」。",
+        "leave-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-27"
     },
@@ -2595,11 +2351,9 @@ export default {
       "masked": "Employees receive twenty days of ____.",
       "options": [
         "leave-mcq-28",
-        "leave-mcq-27",
-        "leave-mcq-29",
-        "leave-mcq-26",
-        "leave-mcq-30",
-        "leave-mcq-25"
+        "leave-mcq-14",
+        "leave-mcq-25",
+        "leave-mcq-11"
       ],
       "explanation": "本句的「annual leave」指「年假」。",
       "sentenceIndex": 61,
@@ -2608,12 +2362,10 @@ export default {
         "annual leave"
       ],
       "optionReasons": {
-        "leave-mcq-28": "本句指「年假」。",
-        "leave-mcq-27": "「假期；准假」是「leave (noun)」的用法，與本句語境不同。",
-        "leave-mcq-29": "「病假」是「sick leave」的用法，與本句語境不同。",
-        "leave-mcq-26": "「留下印象」是「leave an impression」的用法，與本句語境不同。",
-        "leave-mcq-30": "「育嬰假」是「parental leave」的用法，與本句語境不同。",
-        "leave-mcq-25": "「為 X 留餘地」是「leave room for X」的用法，與本句語境不同。"
+        "leave-mcq-28": "本句的「annual leave」指「年假」。",
+        "leave-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-28"
     },
@@ -2625,11 +2377,9 @@ export default {
       "masked": "I'm taking ____ next week.",
       "options": [
         "leave-mcq-28",
-        "leave-mcq-27",
-        "leave-mcq-29",
-        "leave-mcq-26",
-        "leave-mcq-30",
-        "leave-mcq-25"
+        "leave-mcq-20",
+        "leave-mcq-33",
+        "leave-mcq-06"
       ],
       "explanation": "本句的「annual leave」指「年假」。",
       "sentenceIndex": 62,
@@ -2638,12 +2388,10 @@ export default {
         "annual leave"
       ],
       "optionReasons": {
-        "leave-mcq-28": "本句指「年假」。",
-        "leave-mcq-27": "「假期；准假」是「leave (noun)」的用法，與本句語境不同。",
-        "leave-mcq-29": "「病假」是「sick leave」的用法，與本句語境不同。",
-        "leave-mcq-26": "「留下印象」是「leave an impression」的用法，與本句語境不同。",
-        "leave-mcq-30": "「育嬰假」是「parental leave」的用法，與本句語境不同。",
-        "leave-mcq-25": "「為 X 留餘地」是「leave room for X」的用法，與本句語境不同。"
+        "leave-mcq-28": "本句的「annual leave」指「年假」。",
+        "leave-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-28"
     },
@@ -2655,11 +2403,9 @@ export default {
       "masked": "She is currently on ____.",
       "options": [
         "leave-mcq-29",
-        "leave-mcq-28",
-        "leave-mcq-30",
-        "leave-mcq-27",
-        "leave-mcq-31",
-        "leave-mcq-26"
+        "leave-pdf-001",
+        "leave-mcq-03",
+        "leave-mcq-13"
       ],
       "explanation": "本句的「sick leave」指「病假」。",
       "sentenceIndex": 63,
@@ -2668,12 +2414,10 @@ export default {
         "sick leave"
       ],
       "optionReasons": {
-        "leave-mcq-29": "本句指「病假」。",
-        "leave-mcq-28": "「年假」是「annual leave」的用法，與本句語境不同。",
-        "leave-mcq-30": "「育嬰假」是「parental leave」的用法，與本句語境不同。",
-        "leave-mcq-27": "「假期；准假」是「leave (noun)」的用法，與本句語境不同。",
-        "leave-mcq-31": "「告辭」是「take your leave」的用法，與本句語境不同。",
-        "leave-mcq-26": "「留下印象」是「leave an impression」的用法，與本句語境不同。"
+        "leave-mcq-29": "本句的「sick leave」指「病假」。",
+        "leave-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-29"
     },
@@ -2685,11 +2429,9 @@ export default {
       "masked": "He took two days of ____.",
       "options": [
         "leave-mcq-29",
-        "leave-mcq-28",
-        "leave-mcq-30",
-        "leave-mcq-27",
-        "leave-mcq-31",
-        "leave-mcq-26"
+        "leave-mcq-18",
+        "leave-mcq-13",
+        "leave-mcq-33"
       ],
       "explanation": "本句的「sick leave」指「病假」。",
       "sentenceIndex": 64,
@@ -2698,12 +2440,10 @@ export default {
         "sick leave"
       ],
       "optionReasons": {
-        "leave-mcq-29": "本句指「病假」。",
-        "leave-mcq-28": "「年假」是「annual leave」的用法，與本句語境不同。",
-        "leave-mcq-30": "「育嬰假」是「parental leave」的用法，與本句語境不同。",
-        "leave-mcq-27": "「假期；准假」是「leave (noun)」的用法，與本句語境不同。",
-        "leave-mcq-31": "「告辭」是「take your leave」的用法，與本句語境不同。",
-        "leave-mcq-26": "「留下印象」是「leave an impression」的用法，與本句語境不同。"
+        "leave-mcq-29": "本句的「sick leave」指「病假」。",
+        "leave-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-29"
     },
@@ -2715,11 +2455,9 @@ export default {
       "masked": "She is on ____.",
       "options": [
         "leave-mcq-30",
-        "leave-mcq-29",
-        "leave-mcq-31",
-        "leave-mcq-28",
-        "leave-mcq-32",
-        "leave-mcq-27"
+        "leave-mcq-12",
+        "leave-pdf-001",
+        "leave-mcq-02"
       ],
       "explanation": "本句的「maternity leave」指「育嬰假」。",
       "sentenceIndex": 65,
@@ -2728,12 +2466,10 @@ export default {
         "maternity leave"
       ],
       "optionReasons": {
-        "leave-mcq-30": "本句指「育嬰假」。",
-        "leave-mcq-29": "「病假」是「sick leave」的用法，與本句語境不同。",
-        "leave-mcq-31": "「告辭」是「take your leave」的用法，與本句語境不同。",
-        "leave-mcq-28": "「年假」是「annual leave」的用法，與本句語境不同。",
-        "leave-mcq-32": "「使用、進食或分配後仍然剩下的」是「20. leave over / leftover — 剩餘；剩下的」的用法，與本句語境不同。",
-        "leave-mcq-27": "「假期；准假」是「leave (noun)」的用法，與本句語境不同。"
+        "leave-mcq-30": "本句的「maternity leave」指「育嬰假」。",
+        "leave-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "leave-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-30"
     },
@@ -2745,11 +2481,9 @@ export default {
       "masked": "The company offers paid ____.",
       "options": [
         "leave-mcq-30",
-        "leave-mcq-29",
-        "leave-mcq-31",
-        "leave-mcq-28",
+        "leave-mcq-24",
         "leave-mcq-32",
-        "leave-mcq-27"
+        "leave-mcq-02"
       ],
       "explanation": "本句的「parental leave」指「育嬰假」。",
       "sentenceIndex": 66,
@@ -2758,12 +2492,10 @@ export default {
         "parental leave"
       ],
       "optionReasons": {
-        "leave-mcq-30": "本句指「育嬰假」。",
-        "leave-mcq-29": "「病假」是「sick leave」的用法，與本句語境不同。",
-        "leave-mcq-31": "「告辭」是「take your leave」的用法，與本句語境不同。",
-        "leave-mcq-28": "「年假」是「annual leave」的用法，與本句語境不同。",
-        "leave-mcq-32": "「使用、進食或分配後仍然剩下的」是「20. leave over / leftover — 剩餘；剩下的」的用法，與本句語境不同。",
-        "leave-mcq-27": "「假期；准假」是「leave (noun)」的用法，與本句語境不同。"
+        "leave-mcq-30": "本句的「parental leave」指「育嬰假」。",
+        "leave-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-30"
     },
@@ -2775,11 +2507,9 @@ export default {
       "masked": "He ____ and departed.",
       "options": [
         "leave-mcq-33",
-        "leave-mcq-32",
-        "leave-mcq-31",
-        "leave-mcq-30",
+        "leave-mcq-20",
         "leave-mcq-29",
-        "leave-mcq-28"
+        "leave-mcq-26"
       ],
       "explanation": "本句的「took leave of his friends」指「正式或較文雅地向某人告別並離去」。",
       "sentenceIndex": 67,
@@ -2788,12 +2518,10 @@ export default {
         "took leave of his friends"
       ],
       "optionReasons": {
-        "leave-mcq-33": "本句指「正式或較文雅地向某人告別並離去」。",
-        "leave-mcq-32": "「使用、進食或分配後仍然剩下的」是「20. leave over / leftover — 剩餘；剩下的」的用法，與本句語境不同。",
-        "leave-mcq-31": "「告辭」是「take your leave」的用法，與本句語境不同。",
-        "leave-mcq-30": "「育嬰假」是「parental leave」的用法，與本句語境不同。",
-        "leave-mcq-29": "「病假」是「sick leave」的用法，與本句語境不同。",
-        "leave-mcq-28": "「年假」是「annual leave」的用法，與本句語境不同。"
+        "leave-mcq-33": "本句的「took leave of his friends」指「正式或較文雅地向某人告別並離去」。",
+        "leave-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-33"
     },
@@ -2806,10 +2534,8 @@ export default {
       "options": [
         "leave-mcq-33",
         "leave-mcq-32",
-        "leave-mcq-31",
-        "leave-mcq-30",
-        "leave-mcq-29",
-        "leave-mcq-28"
+        "leave-mcq-21",
+        "leave-mcq-22"
       ],
       "explanation": "本句的「took her leave」指「正式或較文雅地向某人告別並離去」。",
       "sentenceIndex": 68,
@@ -2818,12 +2544,10 @@ export default {
         "took her leave"
       ],
       "optionReasons": {
-        "leave-mcq-33": "本句指「正式或較文雅地向某人告別並離去」。",
-        "leave-mcq-32": "「使用、進食或分配後仍然剩下的」是「20. leave over / leftover — 剩餘；剩下的」的用法，與本句語境不同。",
-        "leave-mcq-31": "「告辭」是「take your leave」的用法，與本句語境不同。",
-        "leave-mcq-30": "「育嬰假」是「parental leave」的用法，與本句語境不同。",
-        "leave-mcq-29": "「病假」是「sick leave」的用法，與本句語境不同。",
-        "leave-mcq-28": "「年假」是「annual leave」的用法，與本句語境不同。"
+        "leave-mcq-33": "本句的「took her leave」指「正式或較文雅地向某人告別並離去」。",
+        "leave-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "leave-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "leave-mcq-33"
     }
@@ -2835,5 +2559,7 @@ export default {
     "sha256": "1439de59173190d295d64d717bdc51b7d67cd80b19dfa14a9151a54e0c0c70bc",
     "pages": 24
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

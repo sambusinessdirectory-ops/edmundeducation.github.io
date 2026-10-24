@@ -132,18 +132,7 @@ export default {
       "en": "erase hurt",
       "zh": "消除傷害",
       "note": "來源詞義：消除傷害",
-      "examples": [
-        [
-          "The old recording was accidentally erased.",
-          "舊錄音被意外抹掉了。",
-          "消除傷害"
-        ],
-        [
-          "Be careful not to erase the footage.",
-          "小心不要把影片素材刪掉／抹除。",
-          "消除傷害"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -446,6 +435,28 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "erase-reviewed-02e39df667",
+      "title": "移除已錄製的聲音或影像內容",
+      "form": "erase · source section 7",
+      "en": "移除已錄製的聲音或影像內容",
+      "zh": "移除已錄製的聲音或影像內容",
+      "note": "對照原始教材第 7 節及例句核實。",
+      "examples": [
+        [
+          "The old recording was accidentally erased.",
+          "舊錄音被意外抹掉了。",
+          "移除已錄製的聲音或影像內容"
+        ],
+        [
+          "Be careful not to erase the footage.",
+          "小心不要把影片素材刪掉／抹除。",
+          "移除已錄製的聲音或影像內容"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -457,11 +468,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "erase-mcq-02",
-        "erase-mcq-01",
-        "erase-mcq-03",
         "erase-mcq-04",
-        "erase-mcq-05",
-        "erase-mcq-06"
+        "erase-mcq-10",
+        "erase-mcq-05"
       ],
       "explanation": "本句的「erased the diagram from the board」指「從板上擦掉」。",
       "sentenceIndex": 3,
@@ -470,12 +479,10 @@ export default {
         "erased the diagram from the board"
       ],
       "optionReasons": {
-        "erase-mcq-02": "本句指「從板上擦掉」。",
-        "erase-mcq-01": "「擦掉」與本句語境不同。",
-        "erase-mcq-03": "「擦掉錯誤」與本句語境不同。",
-        "erase-mcq-04": "「刪除檔案」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。"
+        "erase-mcq-02": "本句的「erased the diagram from the board」指「從板上擦掉」。",
+        "erase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-02"
     },
@@ -487,11 +494,9 @@ export default {
       "masked": "Don't ____ yet.",
       "options": [
         "erase-mcq-02",
-        "erase-mcq-01",
-        "erase-mcq-03",
-        "erase-mcq-04",
-        "erase-mcq-05",
-        "erase-mcq-06"
+        "erase-reviewed-02e39df667",
+        "erase-mcq-10",
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erase my notes from the whiteboard」指「從板上擦掉」。",
       "sentenceIndex": 4,
@@ -500,12 +505,10 @@ export default {
         "erase my notes from the whiteboard"
       ],
       "optionReasons": {
-        "erase-mcq-02": "本句指「從板上擦掉」。",
-        "erase-mcq-01": "「擦掉」與本句語境不同。",
-        "erase-mcq-03": "「擦掉錯誤」與本句語境不同。",
-        "erase-mcq-04": "「刪除檔案」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。"
+        "erase-mcq-02": "本句的「erase my notes from the whiteboard」指「從板上擦掉」。",
+        "erase-reviewed-02e39df667": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-02"
     },
@@ -517,11 +520,9 @@ export default {
       "masked": "I ____ and corrected it.",
       "options": [
         "erase-mcq-03",
-        "erase-mcq-02",
-        "erase-mcq-04",
-        "erase-mcq-01",
+        "erase-mcq-11",
         "erase-mcq-05",
-        "erase-mcq-06"
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erased the mistake」指「擦掉錯誤」。",
       "sentenceIndex": 5,
@@ -530,12 +531,10 @@ export default {
         "erased the mistake"
       ],
       "optionReasons": {
-        "erase-mcq-03": "本句指「擦掉錯誤」。",
-        "erase-mcq-02": "「從板上擦掉」與本句語境不同。",
-        "erase-mcq-04": "「刪除檔案」與本句語境不同。",
-        "erase-mcq-01": "「擦掉」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。"
+        "erase-mcq-03": "本句的「erased the mistake」指「擦掉錯誤」。",
+        "erase-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-03"
     },
@@ -547,11 +546,9 @@ export default {
       "masked": "Use a pencil so you can ____.",
       "options": [
         "erase-mcq-03",
-        "erase-mcq-02",
+        "erase-mcq-09",
         "erase-mcq-04",
-        "erase-mcq-01",
-        "erase-mcq-05",
-        "erase-mcq-06"
+        "erase-mcq-05"
       ],
       "explanation": "本句的「erase mistakes」指「擦掉錯誤」。",
       "sentenceIndex": 6,
@@ -560,12 +557,10 @@ export default {
         "erase mistakes"
       ],
       "optionReasons": {
-        "erase-mcq-03": "本句指「擦掉錯誤」。",
-        "erase-mcq-02": "「從板上擦掉」與本句語境不同。",
-        "erase-mcq-04": "「刪除檔案」與本句語境不同。",
-        "erase-mcq-01": "「擦掉」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。"
+        "erase-mcq-03": "本句的「erase mistakes」指「擦掉錯誤」。",
+        "erase-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-03"
     },
@@ -577,11 +572,9 @@ export default {
       "masked": "I accidentally ____.",
       "options": [
         "erase-mcq-04",
-        "erase-mcq-03",
-        "erase-mcq-05",
+        "erase-mcq-13",
         "erase-mcq-02",
-        "erase-mcq-06",
-        "erase-mcq-01"
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erased the file」指「刪除檔案」。",
       "sentenceIndex": 7,
@@ -590,12 +583,10 @@ export default {
         "erased the file"
       ],
       "optionReasons": {
-        "erase-mcq-04": "本句指「刪除檔案」。",
-        "erase-mcq-03": "「擦掉錯誤」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。",
-        "erase-mcq-02": "「從板上擦掉」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。",
-        "erase-mcq-01": "「擦掉」與本句語境不同。"
+        "erase-mcq-04": "本句的「erased the file」指「刪除檔案」。",
+        "erase-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-04"
     },
@@ -607,11 +598,9 @@ export default {
       "masked": "The device ____ automatically.",
       "options": [
         "erase-mcq-04",
-        "erase-mcq-03",
-        "erase-mcq-05",
-        "erase-mcq-02",
-        "erase-mcq-06",
-        "erase-mcq-01"
+        "erase-mcq-13",
+        "erase-mcq-16",
+        "erase-mcq-03"
       ],
       "explanation": "本句的「erases old data」指「刪除檔案」。",
       "sentenceIndex": 8,
@@ -620,12 +609,10 @@ export default {
         "erases old data"
       ],
       "optionReasons": {
-        "erase-mcq-04": "本句指「刪除檔案」。",
-        "erase-mcq-03": "「擦掉錯誤」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。",
-        "erase-mcq-02": "「從板上擦掉」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。",
-        "erase-mcq-01": "「擦掉」與本句語境不同。"
+        "erase-mcq-04": "本句的「erases old data」指「刪除檔案」。",
+        "erase-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-04"
     },
@@ -637,11 +624,9 @@ export default {
       "masked": "Make sure all personal data is ____ before selling the phone.",
       "options": [
         "erase-mcq-05",
-        "erase-mcq-04",
-        "erase-mcq-06",
-        "erase-mcq-03",
-        "erase-mcq-07",
-        "erase-mcq-02"
+        "erase-mcq-15",
+        "erase-mcq-18",
+        "erase-mcq-13"
       ],
       "explanation": "本句的「erased」指「清除資料」。",
       "sentenceIndex": 9,
@@ -650,12 +635,10 @@ export default {
         "erased"
       ],
       "optionReasons": {
-        "erase-mcq-05": "本句指「清除資料」。",
-        "erase-mcq-04": "「刪除檔案」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。",
-        "erase-mcq-03": "「擦掉錯誤」與本句語境不同。",
-        "erase-mcq-07": "「消除傷害」與本句語境不同。",
-        "erase-mcq-02": "「從板上擦掉」與本句語境不同。"
+        "erase-mcq-05": "本句的「erased」指「清除資料」。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-05"
     },
@@ -667,11 +650,9 @@ export default {
       "masked": "The command will ____ on the drive.",
       "options": [
         "erase-mcq-05",
-        "erase-mcq-04",
-        "erase-mcq-06",
+        "erase-mcq-13",
         "erase-mcq-03",
-        "erase-mcq-07",
-        "erase-mcq-02"
+        "erase-mcq-16"
       ],
       "explanation": "本句的「erase all data」指「清除資料」。",
       "sentenceIndex": 10,
@@ -680,12 +661,10 @@ export default {
         "erase all data"
       ],
       "optionReasons": {
-        "erase-mcq-05": "本句指「清除資料」。",
-        "erase-mcq-04": "「刪除檔案」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。",
-        "erase-mcq-03": "「擦掉錯誤」與本句語境不同。",
-        "erase-mcq-07": "「消除傷害」與本句語境不同。",
-        "erase-mcq-02": "「從板上擦掉」與本句語境不同。"
+        "erase-mcq-05": "本句的「erase all data」指「清除資料」。",
+        "erase-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-05"
     },
@@ -698,10 +677,8 @@ export default {
       "options": [
         "erase-mcq-04",
         "erase-mcq-03",
-        "erase-mcq-05",
-        "erase-mcq-02",
-        "erase-mcq-06",
-        "erase-mcq-01"
+        "erase-mcq-09",
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erased the wrong file」指「刪除檔案」。",
       "sentenceIndex": 11,
@@ -710,12 +687,10 @@ export default {
         "erased the wrong file"
       ],
       "optionReasons": {
-        "erase-mcq-04": "本句指「刪除檔案」。",
-        "erase-mcq-03": "「擦掉錯誤」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。",
-        "erase-mcq-02": "「從板上擦掉」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。",
-        "erase-mcq-01": "「擦掉」與本句語境不同。"
+        "erase-mcq-04": "本句的「erased the wrong file」指「刪除檔案」。",
+        "erase-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-04"
     },
@@ -728,10 +703,8 @@ export default {
       "options": [
         "erase-mcq-04",
         "erase-mcq-03",
-        "erase-mcq-05",
-        "erase-mcq-02",
-        "erase-mcq-06",
-        "erase-mcq-01"
+        "erase-mcq-08",
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erased」指「刪除檔案」。",
       "sentenceIndex": 12,
@@ -740,74 +713,68 @@ export default {
         "erased"
       ],
       "optionReasons": {
-        "erase-mcq-04": "本句指「刪除檔案」。",
-        "erase-mcq-03": "「擦掉錯誤」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。",
-        "erase-mcq-02": "「從板上擦掉」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。",
-        "erase-mcq-01": "「擦掉」與本句語境不同。"
+        "erase-mcq-04": "本句的「erased」指「刪除檔案」。",
+        "erase-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-04"
     },
     {
       "id": "erase-07-0",
-      "sense": "erase-mcq-07",
+      "sense": "erase-reviewed-02e39df667",
       "en": "The old recording was accidentally erased.",
       "zh": "舊錄音被意外抹掉了。",
       "masked": "The old recording was accidentally ____.",
       "options": [
-        "erase-mcq-07",
-        "erase-mcq-06",
-        "erase-mcq-08",
-        "erase-mcq-05",
-        "erase-mcq-09",
-        "erase-mcq-04"
+        "erase-reviewed-02e39df667",
+        "erase-mcq-12",
+        "erase-mcq-03",
+        "erase-mcq-15"
       ],
-      "explanation": "本句的「erased」指「消除傷害」。",
+      "explanation": "對照完整句子：「舊錄音被意外抹掉了。」。這裡的「erased」表示「移除已錄製的聲音或影像內容」。",
       "sentenceIndex": 13,
       "sourcePractice": 1,
       "targets": [
         "erased"
       ],
       "optionReasons": {
-        "erase-mcq-07": "本句指「消除傷害」。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。",
-        "erase-mcq-08": "「抹去過去」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。",
-        "erase-mcq-09": "「抹去記憶」與本句語境不同。",
-        "erase-mcq-04": "「刪除檔案」與本句語境不同。"
+        "erase-reviewed-02e39df667": "對照完整句子：「舊錄音被意外抹掉了。」。這裡的「erased」表示「移除已錄製的聲音或影像內容」。",
+        "erase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "erase-mcq-07"
+      "correctOption": "erase-reviewed-02e39df667",
+      "previousCorrectOption": "erase-mcq-07",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "erase-07-1",
-      "sense": "erase-mcq-07",
+      "sense": "erase-reviewed-02e39df667",
       "en": "Be careful not to erase the footage.",
       "zh": "小心不要把影片素材刪掉／抹除。",
       "masked": "Be careful not to ____.",
       "options": [
-        "erase-mcq-07",
-        "erase-mcq-06",
-        "erase-mcq-08",
-        "erase-mcq-05",
-        "erase-mcq-09",
-        "erase-mcq-04"
+        "erase-reviewed-02e39df667",
+        "erase-mcq-13",
+        "erase-mcq-18",
+        "erase-mcq-15"
       ],
-      "explanation": "本句的「erase the footage」指「消除傷害」。",
+      "explanation": "對照完整句子：「小心不要把影片素材刪掉／抹除。」。這裡的「erase the footage」表示「移除已錄製的聲音或影像內容」。",
       "sentenceIndex": 14,
       "sourcePractice": 2,
       "targets": [
         "erase the footage"
       ],
       "optionReasons": {
-        "erase-mcq-07": "本句指「消除傷害」。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。",
-        "erase-mcq-08": "「抹去過去」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。",
-        "erase-mcq-09": "「抹去記憶」與本句語境不同。",
-        "erase-mcq-04": "「刪除檔案」與本句語境不同。"
+        "erase-reviewed-02e39df667": "對照完整句子：「小心不要把影片素材刪掉／抹除。」。這裡的「erase the footage」表示「移除已錄製的聲音或影像內容」。",
+        "erase-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "erase-mcq-07"
+      "correctOption": "erase-reviewed-02e39df667",
+      "previousCorrectOption": "erase-mcq-07",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "erase-08-0",
@@ -817,11 +784,9 @@ export default {
       "masked": "An apology does not ____.",
       "options": [
         "erase-mcq-08",
-        "erase-mcq-07",
-        "erase-mcq-09",
-        "erase-mcq-06",
-        "erase-mcq-10",
-        "erase-mcq-05"
+        "erase-mcq-15",
+        "erase-mcq-05",
+        "erase-mcq-18"
       ],
       "explanation": "本句的「erase everything overnight」指「抹去過去」。",
       "sentenceIndex": 15,
@@ -830,12 +795,10 @@ export default {
         "erase everything overnight"
       ],
       "optionReasons": {
-        "erase-mcq-08": "本句指「抹去過去」。",
-        "erase-mcq-07": "「消除傷害」與本句語境不同。",
-        "erase-mcq-09": "「抹去記憶」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。",
-        "erase-mcq-10": "「從記憶中抹去」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。"
+        "erase-mcq-08": "本句的「erase everything overnight」指「抹去過去」。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-08"
     },
@@ -847,11 +810,9 @@ export default {
       "masked": "One kind act cannot ____.",
       "options": [
         "erase-mcq-08",
-        "erase-mcq-07",
-        "erase-mcq-09",
-        "erase-mcq-06",
-        "erase-mcq-10",
-        "erase-mcq-05"
+        "erase-reviewed-02e39df667",
+        "erase-mcq-18",
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erase years of hurt」指「抹去過去」。",
       "sentenceIndex": 16,
@@ -860,12 +821,10 @@ export default {
         "erase years of hurt"
       ],
       "optionReasons": {
-        "erase-mcq-08": "本句指「抹去過去」。",
-        "erase-mcq-07": "「消除傷害」與本句語境不同。",
-        "erase-mcq-09": "「抹去記憶」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。",
-        "erase-mcq-10": "「從記憶中抹去」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。"
+        "erase-mcq-08": "本句的「erase years of hurt」指「抹去過去」。",
+        "erase-reviewed-02e39df667": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-08"
     },
@@ -877,11 +836,8 @@ export default {
       "masked": "Time did not completely ____.",
       "options": [
         "erase-mcq-08",
-        "erase-mcq-07",
-        "erase-mcq-09",
-        "erase-mcq-06",
-        "erase-mcq-10",
-        "erase-mcq-05"
+        "erase-mcq-17",
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erase the pain」指「抹去過去」。",
       "sentenceIndex": 17,
@@ -890,12 +846,9 @@ export default {
         "erase the pain"
       ],
       "optionReasons": {
-        "erase-mcq-08": "本句指「抹去過去」。",
-        "erase-mcq-07": "「消除傷害」與本句語境不同。",
-        "erase-mcq-09": "「抹去記憶」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。",
-        "erase-mcq-10": "「從記憶中抹去」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。"
+        "erase-mcq-08": "本句的「erase the pain」指「抹去過去」。",
+        "erase-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-08"
     },
@@ -907,11 +860,9 @@ export default {
       "masked": "I wish I could ____.",
       "options": [
         "erase-mcq-09",
-        "erase-mcq-08",
-        "erase-mcq-10",
-        "erase-mcq-07",
-        "erase-mcq-11",
-        "erase-mcq-06"
+        "erase-mcq-16",
+        "erase-reviewed-02e39df667",
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erase that memory」指「抹去記憶」。",
       "sentenceIndex": 18,
@@ -920,12 +871,10 @@ export default {
         "erase that memory"
       ],
       "optionReasons": {
-        "erase-mcq-09": "本句指「抹去記憶」。",
-        "erase-mcq-08": "「抹去過去」與本句語境不同。",
-        "erase-mcq-10": "「從記憶中抹去」與本句語境不同。",
-        "erase-mcq-07": "「消除傷害」與本句語境不同。",
-        "erase-mcq-11": "「抹去證據」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。"
+        "erase-mcq-09": "本句的「erase that memory」指「抹去記憶」。",
+        "erase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "erase-reviewed-02e39df667": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-09"
     },
@@ -937,11 +886,9 @@ export default {
       "masked": "The years did not ____ of what happened.",
       "options": [
         "erase-mcq-09",
-        "erase-mcq-08",
-        "erase-mcq-10",
-        "erase-mcq-07",
-        "erase-mcq-11",
-        "erase-mcq-06"
+        "erase-mcq-03",
+        "erase-mcq-05",
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erase the memory」指「抹去記憶」。",
       "sentenceIndex": 19,
@@ -950,12 +897,10 @@ export default {
         "erase the memory"
       ],
       "optionReasons": {
-        "erase-mcq-09": "本句指「抹去記憶」。",
-        "erase-mcq-08": "「抹去過去」與本句語境不同。",
-        "erase-mcq-10": "「從記憶中抹去」與本句語境不同。",
-        "erase-mcq-07": "「消除傷害」與本句語境不同。",
-        "erase-mcq-11": "「抹去證據」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。"
+        "erase-mcq-09": "本句的「erase the memory」指「抹去記憶」。",
+        "erase-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-09"
     },
@@ -967,11 +912,8 @@ export default {
       "masked": "He tried to ____.",
       "options": [
         "erase-mcq-10",
-        "erase-mcq-09",
-        "erase-mcq-11",
-        "erase-mcq-08",
-        "erase-mcq-12",
-        "erase-mcq-07"
+        "erase-mcq-17",
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erase the incident from his memory」指「從記憶中抹去」。",
       "sentenceIndex": 20,
@@ -980,12 +922,9 @@ export default {
         "erase the incident from his memory"
       ],
       "optionReasons": {
-        "erase-mcq-10": "本句指「從記憶中抹去」。",
-        "erase-mcq-09": "「抹去記憶」與本句語境不同。",
-        "erase-mcq-11": "「抹去證據」與本句語境不同。",
-        "erase-mcq-08": "「抹去過去」與本句語境不同。",
-        "erase-mcq-12": "「抹去痕跡」與本句語境不同。",
-        "erase-mcq-07": "「消除傷害」與本句語境不同。"
+        "erase-mcq-10": "本句的「erase the incident from his memory」指「從記憶中抹去」。",
+        "erase-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-10"
     },
@@ -997,11 +936,9 @@ export default {
       "masked": "Some moments are impossible to ____.",
       "options": [
         "erase-mcq-10",
-        "erase-mcq-09",
-        "erase-mcq-11",
-        "erase-mcq-08",
-        "erase-mcq-12",
-        "erase-mcq-07"
+        "erase-reviewed-02e39df667",
+        "erase-mcq-02",
+        "erase-mcq-04"
       ],
       "explanation": "本句的「erase from memory」指「從記憶中抹去」。",
       "sentenceIndex": 21,
@@ -1010,12 +947,10 @@ export default {
         "erase from memory"
       ],
       "optionReasons": {
-        "erase-mcq-10": "本句指「從記憶中抹去」。",
-        "erase-mcq-09": "「抹去記憶」與本句語境不同。",
-        "erase-mcq-11": "「抹去證據」與本句語境不同。",
-        "erase-mcq-08": "「抹去過去」與本句語境不同。",
-        "erase-mcq-12": "「抹去痕跡」與本句語境不同。",
-        "erase-mcq-07": "「消除傷害」與本句語境不同。"
+        "erase-mcq-10": "本句的「erase from memory」指「從記憶中抹去」。",
+        "erase-reviewed-02e39df667": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-10"
     },
@@ -1027,11 +962,8 @@ export default {
       "masked": "You cannot ____, but you can learn from it.",
       "options": [
         "erase-mcq-08",
-        "erase-mcq-07",
-        "erase-mcq-09",
-        "erase-mcq-06",
-        "erase-mcq-10",
-        "erase-mcq-05"
+        "erase-mcq-17",
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erase the past」指「抹去過去」。",
       "sentenceIndex": 22,
@@ -1040,12 +972,9 @@ export default {
         "erase the past"
       ],
       "optionReasons": {
-        "erase-mcq-08": "本句指「抹去過去」。",
-        "erase-mcq-07": "「消除傷害」與本句語境不同。",
-        "erase-mcq-09": "「抹去記憶」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。",
-        "erase-mcq-10": "「從記憶中抹去」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。"
+        "erase-mcq-08": "本句的「erase the past」指「抹去過去」。",
+        "erase-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-08"
     },
@@ -1057,11 +986,9 @@ export default {
       "masked": "An apology cannot simply ____.",
       "options": [
         "erase-mcq-08",
-        "erase-mcq-07",
-        "erase-mcq-09",
-        "erase-mcq-06",
-        "erase-mcq-10",
-        "erase-mcq-05"
+        "erase-mcq-15",
+        "erase-mcq-18",
+        "erase-mcq-04"
       ],
       "explanation": "本句的「erase the past」指「抹去過去」。",
       "sentenceIndex": 23,
@@ -1070,12 +997,10 @@ export default {
         "erase the past"
       ],
       "optionReasons": {
-        "erase-mcq-08": "本句指「抹去過去」。",
-        "erase-mcq-07": "「消除傷害」與本句語境不同。",
-        "erase-mcq-09": "「抹去記憶」與本句語境不同。",
-        "erase-mcq-06": "「抹除錄音／影像」與本句語境不同。",
-        "erase-mcq-10": "「從記憶中抹去」與本句語境不同。",
-        "erase-mcq-05": "「清除資料」與本句語境不同。"
+        "erase-mcq-08": "本句的「erase the past」指「抹去過去」。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-08"
     },
@@ -1087,11 +1012,9 @@ export default {
       "masked": "Someone tried to ____.",
       "options": [
         "erase-mcq-11",
-        "erase-mcq-10",
-        "erase-mcq-12",
-        "erase-mcq-09",
-        "erase-mcq-13",
-        "erase-mcq-08"
+        "erase-mcq-03",
+        "erase-mcq-04",
+        "erase-reviewed-02e39df667"
       ],
       "explanation": "本句的「erase the evidence」指「抹去證據」。",
       "sentenceIndex": 26,
@@ -1100,12 +1023,10 @@ export default {
         "erase the evidence"
       ],
       "optionReasons": {
-        "erase-mcq-11": "本句指「抹去證據」。",
-        "erase-mcq-10": "「從記憶中抹去」與本句語境不同。",
-        "erase-mcq-12": "「抹去痕跡」與本句語境不同。",
-        "erase-mcq-09": "「抹去記憶」與本句語境不同。",
-        "erase-mcq-13": "「抹去身份」與本句語境不同。",
-        "erase-mcq-08": "「抹去過去」與本句語境不同。"
+        "erase-mcq-11": "本句的「erase the evidence」指「抹去證據」。",
+        "erase-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "erase-reviewed-02e39df667": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-11"
     },
@@ -1117,11 +1038,9 @@ export default {
       "masked": "Deleting the message did not completely ____.",
       "options": [
         "erase-mcq-11",
-        "erase-mcq-10",
-        "erase-mcq-12",
-        "erase-mcq-09",
-        "erase-mcq-13",
-        "erase-mcq-08"
+        "erase-mcq-16",
+        "erase-mcq-04",
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erase the evidence」指「抹去證據」。",
       "sentenceIndex": 27,
@@ -1130,12 +1049,10 @@ export default {
         "erase the evidence"
       ],
       "optionReasons": {
-        "erase-mcq-11": "本句指「抹去證據」。",
-        "erase-mcq-10": "「從記憶中抹去」與本句語境不同。",
-        "erase-mcq-12": "「抹去痕跡」與本句語境不同。",
-        "erase-mcq-09": "「抹去記憶」與本句語境不同。",
-        "erase-mcq-13": "「抹去身份」與本句語境不同。",
-        "erase-mcq-08": "「抹去過去」與本句語境不同。"
+        "erase-mcq-11": "本句的「erase the evidence」指「抹去證據」。",
+        "erase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-11"
     },
@@ -1147,11 +1064,9 @@ export default {
       "masked": "The rain ____.",
       "options": [
         "erase-mcq-12",
-        "erase-mcq-11",
-        "erase-mcq-13",
-        "erase-mcq-10",
-        "erase-mcq-14",
-        "erase-mcq-09"
+        "erase-mcq-15",
+        "erase-reviewed-02e39df667",
+        "erase-mcq-03"
       ],
       "explanation": "本句的「erased most of the footprints」指「抹去痕跡」。",
       "sentenceIndex": 28,
@@ -1160,12 +1075,10 @@ export default {
         "erased most of the footprints"
       ],
       "optionReasons": {
-        "erase-mcq-12": "本句指「抹去痕跡」。",
-        "erase-mcq-11": "「抹去證據」與本句語境不同。",
-        "erase-mcq-13": "「抹去身份」與本句語境不同。",
-        "erase-mcq-10": "「從記憶中抹去」與本句語境不同。",
-        "erase-mcq-14": "「抹去歷史」與本句語境不同。",
-        "erase-mcq-09": "「抹去記憶」與本句語境不同。"
+        "erase-mcq-12": "本句的「erased most of the footprints」指「抹去痕跡」。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "erase-reviewed-02e39df667": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-12"
     },
@@ -1177,11 +1090,9 @@ export default {
       "masked": "Renovation ____.",
       "options": [
         "erase-mcq-12",
-        "erase-mcq-11",
-        "erase-mcq-13",
-        "erase-mcq-10",
-        "erase-mcq-14",
-        "erase-mcq-09"
+        "erase-mcq-15",
+        "erase-mcq-16",
+        "erase-mcq-03"
       ],
       "explanation": "本句的「erased many signs of the old building」指「抹去痕跡」。",
       "sentenceIndex": 29,
@@ -1190,12 +1101,10 @@ export default {
         "erased many signs of the old building"
       ],
       "optionReasons": {
-        "erase-mcq-12": "本句指「抹去痕跡」。",
-        "erase-mcq-11": "「抹去證據」與本句語境不同。",
-        "erase-mcq-13": "「抹去身份」與本句語境不同。",
-        "erase-mcq-10": "「從記憶中抹去」與本句語境不同。",
-        "erase-mcq-14": "「抹去歷史」與本句語境不同。",
-        "erase-mcq-09": "「抹去記憶」與本句語境不同。"
+        "erase-mcq-12": "本句的「erased many signs of the old building」指「抹去痕跡」。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-12"
     },
@@ -1207,11 +1116,9 @@ export default {
       "masked": "The policy risked ____.",
       "options": [
         "erase-mcq-13",
-        "erase-mcq-12",
-        "erase-mcq-14",
-        "erase-mcq-11",
-        "erase-mcq-15",
-        "erase-mcq-10"
+        "erase-mcq-05",
+        "erase-mcq-16",
+        "erase-mcq-03"
       ],
       "explanation": "本句的「erasing local identity」指「抹去身份」。",
       "sentenceIndex": 30,
@@ -1220,12 +1127,10 @@ export default {
         "erasing local identity"
       ],
       "optionReasons": {
-        "erase-mcq-13": "本句指「抹去身份」。",
-        "erase-mcq-12": "「抹去痕跡」與本句語境不同。",
-        "erase-mcq-14": "「抹去歷史」與本句語境不同。",
-        "erase-mcq-11": "「抹去證據」與本句語境不同。",
-        "erase-mcq-15": "「徹底消滅」與本句語境不同。",
-        "erase-mcq-10": "「從記憶中抹去」與本句語境不同。"
+        "erase-mcq-13": "本句的「erasing local identity」指「抹去身份」。",
+        "erase-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-13"
     },
@@ -1237,11 +1142,8 @@ export default {
       "masked": "Translation should not ____.",
       "options": [
         "erase-mcq-13",
-        "erase-mcq-12",
-        "erase-mcq-14",
-        "erase-mcq-11",
-        "erase-mcq-15",
-        "erase-mcq-10"
+        "erase-mcq-19",
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erase the writer's voice」指「抹去身份」。",
       "sentenceIndex": 31,
@@ -1250,12 +1152,9 @@ export default {
         "erase the writer's voice"
       ],
       "optionReasons": {
-        "erase-mcq-13": "本句指「抹去身份」。",
-        "erase-mcq-12": "「抹去痕跡」與本句語境不同。",
-        "erase-mcq-14": "「抹去歷史」與本句語境不同。",
-        "erase-mcq-11": "「抹去證據」與本句語境不同。",
-        "erase-mcq-15": "「徹底消滅」與本句語境不同。",
-        "erase-mcq-10": "「從記憶中抹去」與本句語境不同。"
+        "erase-mcq-13": "本句的「erase the writer's voice」指「抹去身份」。",
+        "erase-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-13"
     },
@@ -1267,11 +1166,8 @@ export default {
       "masked": "Removing the monument does not ____.",
       "options": [
         "erase-mcq-14",
-        "erase-mcq-13",
-        "erase-mcq-15",
-        "erase-mcq-12",
-        "erase-mcq-16",
-        "erase-mcq-11"
+        "erase-mcq-17",
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erase history」指「抹去歷史」。",
       "sentenceIndex": 32,
@@ -1280,12 +1176,9 @@ export default {
         "erase history"
       ],
       "optionReasons": {
-        "erase-mcq-14": "本句指「抹去歷史」。",
-        "erase-mcq-13": "「抹去身份」與本句語境不同。",
-        "erase-mcq-15": "「徹底消滅」與本句語境不同。",
-        "erase-mcq-12": "「抹去痕跡」與本句語境不同。",
-        "erase-mcq-16": "「擦膠／橡皮擦」與本句語境不同。",
-        "erase-mcq-11": "「抹去證據」與本句語境不同。"
+        "erase-mcq-14": "本句的「erase history」指「抹去歷史」。",
+        "erase-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-14"
     },
@@ -1297,11 +1190,9 @@ export default {
       "masked": "The archive preserves stories that might otherwise be ____.",
       "options": [
         "erase-mcq-14",
-        "erase-mcq-13",
-        "erase-mcq-15",
-        "erase-mcq-12",
+        "erase-reviewed-02e39df667",
         "erase-mcq-16",
-        "erase-mcq-11"
+        "erase-mcq-04"
       ],
       "explanation": "本句的「erased from history」指「抹去歷史」。",
       "sentenceIndex": 33,
@@ -1310,12 +1201,10 @@ export default {
         "erased from history"
       ],
       "optionReasons": {
-        "erase-mcq-14": "本句指「抹去歷史」。",
-        "erase-mcq-13": "「抹去身份」與本句語境不同。",
-        "erase-mcq-15": "「徹底消滅」與本句語境不同。",
-        "erase-mcq-12": "「抹去痕跡」與本句語境不同。",
-        "erase-mcq-16": "「擦膠／橡皮擦」與本句語境不同。",
-        "erase-mcq-11": "「抹去證據」與本句語境不同。"
+        "erase-mcq-14": "本句的「erased from history」指「抹去歷史」。",
+        "erase-reviewed-02e39df667": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-14"
     },
@@ -1327,11 +1216,9 @@ export default {
       "masked": "The village was almost ____ by the disaster.",
       "options": [
         "erase-mcq-15",
-        "erase-mcq-14",
-        "erase-mcq-16",
-        "erase-mcq-13",
-        "erase-mcq-17",
-        "erase-mcq-12"
+        "erase-mcq-03",
+        "erase-mcq-09",
+        "erase-reviewed-02e39df667"
       ],
       "explanation": "本句的「erased from existence」指「徹底消滅」。",
       "sentenceIndex": 34,
@@ -1340,12 +1227,10 @@ export default {
         "erased from existence"
       ],
       "optionReasons": {
-        "erase-mcq-15": "本句指「徹底消滅」。",
-        "erase-mcq-14": "「抹去歷史」與本句語境不同。",
-        "erase-mcq-16": "「擦膠／橡皮擦」與本句語境不同。",
-        "erase-mcq-13": "「抹去身份」與本句語境不同。",
-        "erase-mcq-17": "「可擦除的」與本句語境不同。",
-        "erase-mcq-12": "「抹去痕跡」與本句語境不同。"
+        "erase-mcq-15": "本句的「erased from existence」指「徹底消滅」。",
+        "erase-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "erase-reviewed-02e39df667": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-15"
     },
@@ -1357,11 +1242,9 @@ export default {
       "masked": "The old system was effectively ____.",
       "options": [
         "erase-mcq-15",
-        "erase-mcq-14",
-        "erase-mcq-16",
         "erase-mcq-13",
-        "erase-mcq-17",
-        "erase-mcq-12"
+        "erase-mcq-18",
+        "erase-mcq-04"
       ],
       "explanation": "本句的「erased from existence」指「徹底消滅」。",
       "sentenceIndex": 35,
@@ -1370,12 +1253,10 @@ export default {
         "erased from existence"
       ],
       "optionReasons": {
-        "erase-mcq-15": "本句指「徹底消滅」。",
-        "erase-mcq-14": "「抹去歷史」與本句語境不同。",
-        "erase-mcq-16": "「擦膠／橡皮擦」與本句語境不同。",
-        "erase-mcq-13": "「抹去身份」與本句語境不同。",
-        "erase-mcq-17": "「可擦除的」與本句語境不同。",
-        "erase-mcq-12": "「抹去痕跡」與本句語境不同。"
+        "erase-mcq-15": "本句的「erased from existence」指「徹底消滅」。",
+        "erase-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-15"
     },
@@ -1388,10 +1269,8 @@ export default {
       "options": [
         "erase-mcq-16",
         "erase-mcq-15",
-        "erase-mcq-17",
         "erase-mcq-14",
-        "erase-mcq-18",
-        "erase-mcq-13"
+        "erase-mcq-05"
       ],
       "explanation": "本句的「eraser」指「擦膠／橡皮擦」。",
       "sentenceIndex": 36,
@@ -1400,12 +1279,10 @@ export default {
         "eraser"
       ],
       "optionReasons": {
-        "erase-mcq-16": "本句指「擦膠／橡皮擦」。",
-        "erase-mcq-15": "「徹底消滅」與本句語境不同。",
-        "erase-mcq-17": "「可擦除的」與本句語境不同。",
-        "erase-mcq-14": "「抹去歷史」與本句語境不同。",
-        "erase-mcq-18": "「可擦墨水」與本句語境不同。",
-        "erase-mcq-13": "「抹去身份」與本句語境不同。"
+        "erase-mcq-16": "本句的「eraser」指「擦膠／橡皮擦」。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-16"
     },
@@ -1417,11 +1294,9 @@ export default {
       "masked": "This pencil has an ____ on the end.",
       "options": [
         "erase-mcq-16",
-        "erase-mcq-15",
-        "erase-mcq-17",
-        "erase-mcq-14",
-        "erase-mcq-18",
-        "erase-mcq-13"
+        "erase-mcq-04",
+        "erase-mcq-09",
+        "erase-mcq-05"
       ],
       "explanation": "本句的「eraser」指「擦膠／橡皮擦」。",
       "sentenceIndex": 37,
@@ -1430,12 +1305,10 @@ export default {
         "eraser"
       ],
       "optionReasons": {
-        "erase-mcq-16": "本句指「擦膠／橡皮擦」。",
-        "erase-mcq-15": "「徹底消滅」與本句語境不同。",
-        "erase-mcq-17": "「可擦除的」與本句語境不同。",
-        "erase-mcq-14": "「抹去歷史」與本句語境不同。",
-        "erase-mcq-18": "「可擦墨水」與本句語境不同。",
-        "erase-mcq-13": "「抹去身份」與本句語境不同。"
+        "erase-mcq-16": "本句的「eraser」指「擦膠／橡皮擦」。",
+        "erase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-16"
     },
@@ -1447,11 +1320,8 @@ export default {
       "masked": "This pen uses ____.",
       "options": [
         "erase-mcq-17",
-        "erase-mcq-16",
-        "erase-mcq-18",
-        "erase-mcq-15",
-        "erase-mcq-19",
-        "erase-mcq-14"
+        "erase-mcq-11",
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erasable ink」指「可擦除的」。",
       "sentenceIndex": 38,
@@ -1460,12 +1330,9 @@ export default {
         "erasable ink"
       ],
       "optionReasons": {
-        "erase-mcq-17": "本句指「可擦除的」。",
-        "erase-mcq-16": "「擦膠／橡皮擦」與本句語境不同。",
-        "erase-mcq-18": "「可擦墨水」與本句語境不同。",
-        "erase-mcq-15": "「徹底消滅」與本句語境不同。",
-        "erase-mcq-19": "「擦除；刪除」與本句語境不同。",
-        "erase-mcq-14": "「抹去歷史」與本句語境不同。"
+        "erase-mcq-17": "本句的「erasable ink」指「可擦除的」。",
+        "erase-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-17"
     },
@@ -1477,11 +1344,8 @@ export default {
       "masked": "The data is fully ____.",
       "options": [
         "erase-mcq-17",
-        "erase-mcq-16",
-        "erase-mcq-18",
-        "erase-mcq-15",
-        "erase-mcq-19",
-        "erase-mcq-14"
+        "erase-mcq-14",
+        "erase-mcq-15"
       ],
       "explanation": "本句的「erasable」指「可擦除的」。",
       "sentenceIndex": 39,
@@ -1490,12 +1354,9 @@ export default {
         "erasable"
       ],
       "optionReasons": {
-        "erase-mcq-17": "本句指「可擦除的」。",
-        "erase-mcq-16": "「擦膠／橡皮擦」與本句語境不同。",
-        "erase-mcq-18": "「可擦墨水」與本句語境不同。",
-        "erase-mcq-15": "「徹底消滅」與本句語境不同。",
-        "erase-mcq-19": "「擦除；刪除」與本句語境不同。",
-        "erase-mcq-14": "「抹去歷史」與本句語境不同。"
+        "erase-mcq-17": "本句的「erasable」指「可擦除的」。",
+        "erase-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-17"
     },
@@ -1507,11 +1368,9 @@ export default {
       "masked": "I use an ____ for notes.",
       "options": [
         "erase-mcq-18",
-        "erase-mcq-17",
-        "erase-mcq-19",
-        "erase-mcq-16",
-        "erase-mcq-20",
-        "erase-mcq-15"
+        "erase-mcq-15",
+        "erase-mcq-04",
+        "erase-mcq-11"
       ],
       "explanation": "本句的「erasable pen」指「可擦墨水」。",
       "sentenceIndex": 40,
@@ -1520,12 +1379,10 @@ export default {
         "erasable pen"
       ],
       "optionReasons": {
-        "erase-mcq-18": "本句指「可擦墨水」。",
-        "erase-mcq-17": "「可擦除的」與本句語境不同。",
-        "erase-mcq-19": "「擦除；刪除」與本句語境不同。",
-        "erase-mcq-16": "「擦膠／橡皮擦」與本句語境不同。",
-        "erase-mcq-20": "「抹除；被忽略」與本句語境不同。",
-        "erase-mcq-15": "「徹底消滅」與本句語境不同。"
+        "erase-mcq-18": "本句的「erasable pen」指「可擦墨水」。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-18"
     },
@@ -1537,10 +1394,8 @@ export default {
       "masked": "The ____ disappears with friction.",
       "options": [
         "erase-mcq-18",
-        "erase-mcq-17",
-        "erase-mcq-19",
-        "erase-mcq-16",
-        "erase-mcq-20",
+        "erase-mcq-13",
+        "erase-reviewed-02e39df667",
         "erase-mcq-15"
       ],
       "explanation": "本句的「erasable ink」指「可擦墨水」。",
@@ -1550,12 +1405,10 @@ export default {
         "erasable ink"
       ],
       "optionReasons": {
-        "erase-mcq-18": "本句指「可擦墨水」。",
-        "erase-mcq-17": "「可擦除的」與本句語境不同。",
-        "erase-mcq-19": "「擦除；刪除」與本句語境不同。",
-        "erase-mcq-16": "「擦膠／橡皮擦」與本句語境不同。",
-        "erase-mcq-20": "「抹除；被忽略」與本句語境不同。",
-        "erase-mcq-15": "「徹底消滅」與本句語境不同。"
+        "erase-mcq-18": "本句的「erasable ink」指「可擦墨水」。",
+        "erase-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "erase-reviewed-02e39df667": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-18"
     },
@@ -1567,10 +1420,7 @@ export default {
       "masked": "The ____ of the data was permanent.",
       "options": [
         "erase-mcq-19",
-        "erase-mcq-18",
-        "erase-mcq-20",
-        "erase-mcq-17",
-        "erase-mcq-16",
+        "erase-mcq-14",
         "erase-mcq-15"
       ],
       "explanation": "本句的「erasure」指「擦除；刪除」。",
@@ -1580,12 +1430,9 @@ export default {
         "erasure"
       ],
       "optionReasons": {
-        "erase-mcq-19": "本句指「擦除；刪除」。",
-        "erase-mcq-18": "「可擦墨水」與本句語境不同。",
-        "erase-mcq-20": "「抹除；被忽略」與本句語境不同。",
-        "erase-mcq-17": "「可擦除的」與本句語境不同。",
-        "erase-mcq-16": "「擦膠／橡皮擦」與本句語境不同。",
-        "erase-mcq-15": "「徹底消滅」與本句語境不同。"
+        "erase-mcq-19": "本句的「erasure」指「擦除；刪除」。",
+        "erase-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-19"
     },
@@ -1597,10 +1444,7 @@ export default {
       "masked": "The document showed signs of ____.",
       "options": [
         "erase-mcq-19",
-        "erase-mcq-18",
-        "erase-mcq-20",
-        "erase-mcq-17",
-        "erase-mcq-16",
+        "erase-mcq-08",
         "erase-mcq-15"
       ],
       "explanation": "本句的「erasure」指「擦除；刪除」。",
@@ -1610,12 +1454,9 @@ export default {
         "erasure"
       ],
       "optionReasons": {
-        "erase-mcq-19": "本句指「擦除；刪除」。",
-        "erase-mcq-18": "「可擦墨水」與本句語境不同。",
-        "erase-mcq-20": "「抹除；被忽略」與本句語境不同。",
-        "erase-mcq-17": "「可擦除的」與本句語境不同。",
-        "erase-mcq-16": "「擦膠／橡皮擦」與本句語境不同。",
-        "erase-mcq-15": "「徹底消滅」與本句語境不同。"
+        "erase-mcq-19": "本句的「erasure」指「擦除；刪除」。",
+        "erase-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-19"
     },
@@ -1627,10 +1468,7 @@ export default {
       "masked": "The book discusses the ____.",
       "options": [
         "erase-mcq-19",
-        "erase-mcq-18",
-        "erase-mcq-20",
-        "erase-mcq-17",
-        "erase-mcq-16",
+        "erase-mcq-10",
         "erase-mcq-15"
       ],
       "explanation": "本句的「erasure of minority voices」指「擦除；刪除」。",
@@ -1640,12 +1478,9 @@ export default {
         "erasure of minority voices"
       ],
       "optionReasons": {
-        "erase-mcq-19": "本句指「擦除；刪除」。",
-        "erase-mcq-18": "「可擦墨水」與本句語境不同。",
-        "erase-mcq-20": "「抹除；被忽略」與本句語境不同。",
-        "erase-mcq-17": "「可擦除的」與本句語境不同。",
-        "erase-mcq-16": "「擦膠／橡皮擦」與本句語境不同。",
-        "erase-mcq-15": "「徹底消滅」與本句語境不同。"
+        "erase-mcq-19": "本句的「erasure of minority voices」指「擦除；刪除」。",
+        "erase-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-19"
     },
@@ -1657,10 +1492,7 @@ export default {
       "masked": "Historical ____ can make certain communities invisible.",
       "options": [
         "erase-mcq-19",
-        "erase-mcq-18",
-        "erase-mcq-20",
-        "erase-mcq-17",
-        "erase-mcq-16",
+        "erase-mcq-12",
         "erase-mcq-15"
       ],
       "explanation": "本句的「erasure」指「擦除；刪除」。",
@@ -1670,12 +1502,9 @@ export default {
         "erasure"
       ],
       "optionReasons": {
-        "erase-mcq-19": "本句指「擦除；刪除」。",
-        "erase-mcq-18": "「可擦墨水」與本句語境不同。",
-        "erase-mcq-20": "「抹除；被忽略」與本句語境不同。",
-        "erase-mcq-17": "「可擦除的」與本句語境不同。",
-        "erase-mcq-16": "「擦膠／橡皮擦」與本句語境不同。",
-        "erase-mcq-15": "「徹底消滅」與本句語境不同。"
+        "erase-mcq-19": "本句的「erasure」指「擦除；刪除」。",
+        "erase-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "erase-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "erase-mcq-19"
     }
@@ -1687,5 +1516,7 @@ export default {
     "sha256": "8a391f5da7f639f5e20122ddd96e68789f150fb2f79f8555563788f0421f0a75",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

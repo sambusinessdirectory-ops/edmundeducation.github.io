@@ -34,7 +34,7 @@ export default {
     },
     {
       "id": "air-mcq-02",
-      "title": "表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」",
+      "title": "清新空氣",
       "form": "fresh air",
       "en": "fresh air",
       "zh": "表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」",
@@ -122,7 +122,7 @@ export default {
     },
     {
       "id": "air-mcq-06",
-      "title": "表示航空旅行；例句：「航空旅行變得更便宜了。」",
+      "title": "航空旅行",
       "form": "air travel",
       "en": "air travel",
       "zh": "表示航空旅行；例句：「航空旅行變得更便宜了。」",
@@ -298,7 +298,7 @@ export default {
     },
     {
       "id": "air-mcq-14",
-      "title": "表示停止播出；例句：「電台有幾分鐘停止播出。」",
+      "title": "停止播出",
       "form": "off air",
       "en": "off air",
       "zh": "表示停止播出；例句：「電台有幾分鐘停止播出。」",
@@ -496,7 +496,7 @@ export default {
     },
     {
       "id": "air-mcq-23",
-      "title": "表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」",
+      "title": "經空氣傳播的感染／疾病",
       "form": "airborne infection / disease",
       "en": "airborne infection / disease",
       "zh": "表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」",
@@ -680,11 +680,9 @@ export default {
       "masked": "Let some fresh ____ into the room.",
       "options": [
         "air-mcq-01",
-        "air-mcq-02",
-        "air-mcq-03",
-        "air-mcq-04",
-        "air-mcq-05",
-        "air-mcq-06"
+        "air-mcq-16",
+        "air-mcq-07",
+        "air-mcq-25"
       ],
       "explanation": "本句的「air」指「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」。",
       "sentenceIndex": 0,
@@ -693,12 +691,10 @@ export default {
         "air"
       ],
       "optionReasons": {
-        "air-mcq-01": "本句指「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」。",
-        "air-mcq-02": "「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」是「fresh air」的用法，與本句語境不同。",
-        "air-mcq-03": "「空氣清潔、安全或受污染的程度」是「air quality」的用法，與本句語境不同。",
-        "air-mcq-04": "「空氣中含有有害污染物的狀況」是「air pollution」的用法，與本句語境不同。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。"
+        "air-mcq-01": "本句的「air」指「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」。",
+        "air-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-01"
     },
@@ -710,11 +706,9 @@ export default {
       "masked": "Humans need ____ to breathe.",
       "options": [
         "air-mcq-01",
-        "air-mcq-02",
-        "air-mcq-03",
-        "air-mcq-04",
-        "air-mcq-05",
-        "air-mcq-06"
+        "air-mcq-07",
+        "air-mcq-28",
+        "air-mcq-17"
       ],
       "explanation": "本句的「air」指「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」。",
       "sentenceIndex": 1,
@@ -723,12 +717,10 @@ export default {
         "air"
       ],
       "optionReasons": {
-        "air-mcq-01": "本句指「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」。",
-        "air-mcq-02": "「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」是「fresh air」的用法，與本句語境不同。",
-        "air-mcq-03": "「空氣清潔、安全或受污染的程度」是「air quality」的用法，與本句語境不同。",
-        "air-mcq-04": "「空氣中含有有害污染物的狀況」是「air pollution」的用法，與本句語境不同。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。"
+        "air-mcq-01": "本句的「air」指「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」。",
+        "air-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-01"
     },
@@ -740,11 +732,9 @@ export default {
       "masked": "The room was filled with cold ____.",
       "options": [
         "air-mcq-01",
-        "air-mcq-02",
-        "air-mcq-03",
-        "air-mcq-04",
-        "air-mcq-05",
-        "air-mcq-06"
+        "air-mcq-15",
+        "air-mcq-07",
+        "air-mcq-28"
       ],
       "explanation": "本句的「air」指「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」。",
       "sentenceIndex": 2,
@@ -753,12 +743,10 @@ export default {
         "air"
       ],
       "optionReasons": {
-        "air-mcq-01": "本句指「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」。",
-        "air-mcq-02": "「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」是「fresh air」的用法，與本句語境不同。",
-        "air-mcq-03": "「空氣清潔、安全或受污染的程度」是「air quality」的用法，與本句語境不同。",
-        "air-mcq-04": "「空氣中含有有害污染物的狀況」是「air pollution」的用法，與本句語境不同。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。"
+        "air-mcq-01": "本句的「air」指「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」。",
+        "air-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-01"
     },
@@ -770,11 +758,9 @@ export default {
       "masked": "Let's go outside for some ____.",
       "options": [
         "air-mcq-02",
-        "air-mcq-01",
-        "air-mcq-03",
-        "air-mcq-04",
-        "air-mcq-05",
-        "air-mcq-06"
+        "air-mcq-25",
+        "air-mcq-16",
+        "air-mcq-29"
       ],
       "explanation": "本句的「fresh air」指「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」。",
       "sentenceIndex": 3,
@@ -783,12 +769,10 @@ export default {
         "fresh air"
       ],
       "optionReasons": {
-        "air-mcq-02": "本句指「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」。",
-        "air-mcq-01": "「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」是「air（我們呼吸的空氣）」的用法，與本句語境不同。",
-        "air-mcq-03": "「空氣清潔、安全或受污染的程度」是「air quality」的用法，與本句語境不同。",
-        "air-mcq-04": "「空氣中含有有害污染物的狀況」是「air pollution」的用法，與本句語境不同。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。"
+        "air-mcq-02": "本句的「fresh air」指「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-02"
     },
@@ -800,11 +784,9 @@ export default {
       "masked": "Open the window and let in some ____.",
       "options": [
         "air-mcq-02",
-        "air-mcq-01",
-        "air-mcq-03",
-        "air-mcq-04",
-        "air-mcq-05",
-        "air-mcq-06"
+        "air-mcq-17",
+        "air-mcq-13",
+        "air-mcq-25"
       ],
       "explanation": "本句的「fresh air」指「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」。",
       "sentenceIndex": 4,
@@ -813,12 +795,10 @@ export default {
         "fresh air"
       ],
       "optionReasons": {
-        "air-mcq-02": "本句指「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」。",
-        "air-mcq-01": "「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」是「air（我們呼吸的空氣）」的用法，與本句語境不同。",
-        "air-mcq-03": "「空氣清潔、安全或受污染的程度」是「air quality」的用法，與本句語境不同。",
-        "air-mcq-04": "「空氣中含有有害污染物的狀況」是「air pollution」的用法，與本句語境不同。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。"
+        "air-mcq-02": "本句的「fresh air」指「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」。",
+        "air-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-02"
     },
@@ -830,11 +810,9 @@ export default {
       "masked": "The city's ____ has improved.",
       "options": [
         "air-mcq-03",
-        "air-mcq-02",
-        "air-mcq-04",
-        "air-mcq-01",
-        "air-mcq-05",
-        "air-mcq-06"
+        "air-mcq-13",
+        "air-mcq-17",
+        "air-mcq-28"
       ],
       "explanation": "本句的「air quality」指「空氣清潔、安全或受污染的程度」。",
       "sentenceIndex": 5,
@@ -843,12 +821,10 @@ export default {
         "air quality"
       ],
       "optionReasons": {
-        "air-mcq-03": "本句指「空氣清潔、安全或受污染的程度」。",
-        "air-mcq-02": "「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」是「fresh air」的用法，與本句語境不同。",
-        "air-mcq-04": "「空氣中含有有害污染物的狀況」是「air pollution」的用法，與本句語境不同。",
-        "air-mcq-01": "「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」是「air（我們呼吸的空氣）」的用法，與本句語境不同。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。"
+        "air-mcq-03": "本句的「air quality」指「空氣清潔、安全或受污染的程度」。",
+        "air-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-03"
     },
@@ -860,11 +836,9 @@ export default {
       "masked": "Poor ____ can affect health.",
       "options": [
         "air-mcq-03",
-        "air-mcq-02",
-        "air-mcq-04",
-        "air-mcq-01",
-        "air-mcq-05",
-        "air-mcq-06"
+        "air-mcq-25",
+        "air-mcq-14",
+        "air-mcq-12"
       ],
       "explanation": "本句的「air quality」指「空氣清潔、安全或受污染的程度」。",
       "sentenceIndex": 6,
@@ -873,12 +847,10 @@ export default {
         "air quality"
       ],
       "optionReasons": {
-        "air-mcq-03": "本句指「空氣清潔、安全或受污染的程度」。",
-        "air-mcq-02": "「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」是「fresh air」的用法，與本句語境不同。",
-        "air-mcq-04": "「空氣中含有有害污染物的狀況」是「air pollution」的用法，與本句語境不同。",
-        "air-mcq-01": "「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」是「air（我們呼吸的空氣）」的用法，與本句語境不同。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。"
+        "air-mcq-03": "本句的「air quality」指「空氣清潔、安全或受污染的程度」。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-03"
     },
@@ -890,11 +862,9 @@ export default {
       "masked": "Traffic is a major source of ____.",
       "options": [
         "air-mcq-04",
-        "air-mcq-03",
-        "air-mcq-05",
-        "air-mcq-02",
-        "air-mcq-06",
-        "air-mcq-01"
+        "air-mcq-15",
+        "air-mcq-30",
+        "air-mcq-25"
       ],
       "explanation": "本句的「air pollution」指「空氣中含有有害污染物的狀況」。",
       "sentenceIndex": 7,
@@ -903,12 +873,10 @@ export default {
         "air pollution"
       ],
       "optionReasons": {
-        "air-mcq-04": "本句指「空氣中含有有害污染物的狀況」。",
-        "air-mcq-03": "「空氣清潔、安全或受污染的程度」是「air quality」的用法，與本句語境不同。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。",
-        "air-mcq-02": "「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」是「fresh air」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。",
-        "air-mcq-01": "「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」是「air（我們呼吸的空氣）」的用法，與本句語境不同。"
+        "air-mcq-04": "本句的「air pollution」指「空氣中含有有害污染物的狀況」。",
+        "air-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-04"
     },
@@ -920,11 +888,9 @@ export default {
       "masked": "The government introduced measures to reduce ____.",
       "options": [
         "air-mcq-04",
-        "air-mcq-03",
-        "air-mcq-05",
-        "air-mcq-02",
-        "air-mcq-06",
-        "air-mcq-01"
+        "air-mcq-17",
+        "air-mcq-25",
+        "air-mcq-15"
       ],
       "explanation": "本句的「air pollution」指「空氣中含有有害污染物的狀況」。",
       "sentenceIndex": 8,
@@ -933,12 +899,10 @@ export default {
         "air pollution"
       ],
       "optionReasons": {
-        "air-mcq-04": "本句指「空氣中含有有害污染物的狀況」。",
-        "air-mcq-03": "「空氣清潔、安全或受污染的程度」是「air quality」的用法，與本句語境不同。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。",
-        "air-mcq-02": "「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」是「fresh air」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。",
-        "air-mcq-01": "「圍繞地球、由多種氣體組成、供人和動物呼吸的氣體混合物」是「air（我們呼吸的空氣）」的用法，與本句語境不同。"
+        "air-mcq-04": "本句的「air pollution」指「空氣中含有有害污染物的狀況」。",
+        "air-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-04"
     },
@@ -950,11 +914,9 @@ export default {
       "masked": "____ changes with altitude.",
       "options": [
         "air-mcq-05",
-        "air-mcq-04",
-        "air-mcq-06",
-        "air-mcq-03",
-        "air-mcq-07",
-        "air-mcq-02"
+        "air-mcq-17",
+        "air-mcq-25",
+        "air-mcq-14"
       ],
       "explanation": "本句的「Air pressure」指「空氣對物體表面施加的壓力」。",
       "sentenceIndex": 9,
@@ -963,12 +925,10 @@ export default {
         "Air pressure"
       ],
       "optionReasons": {
-        "air-mcq-05": "本句指「空氣對物體表面施加的壓力」。",
-        "air-mcq-04": "「空氣中含有有害污染物的狀況」是「air pollution」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。",
-        "air-mcq-03": "「空氣清潔、安全或受污染的程度」是「air quality」的用法，與本句語境不同。",
-        "air-mcq-07": "「一個國家負責軍事航空作戰的軍種」是「air force」的用法，與本句語境不同。",
-        "air-mcq-02": "「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」是「fresh air」的用法，與本句語境不同。"
+        "air-mcq-05": "本句的「Air pressure」指「空氣對物體表面施加的壓力」。",
+        "air-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-05"
     },
@@ -980,11 +940,9 @@ export default {
       "masked": "Check the tyre ____ regularly.",
       "options": [
         "air-mcq-05",
-        "air-mcq-04",
-        "air-mcq-06",
-        "air-mcq-03",
-        "air-mcq-07",
-        "air-mcq-02"
+        "air-mcq-29",
+        "air-mcq-15",
+        "air-mcq-28"
       ],
       "explanation": "本句的「air pressure」指「空氣對物體表面施加的壓力」。",
       "sentenceIndex": 10,
@@ -993,12 +951,10 @@ export default {
         "air pressure"
       ],
       "optionReasons": {
-        "air-mcq-05": "本句指「空氣對物體表面施加的壓力」。",
-        "air-mcq-04": "「空氣中含有有害污染物的狀況」是「air pollution」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。",
-        "air-mcq-03": "「空氣清潔、安全或受污染的程度」是「air quality」的用法，與本句語境不同。",
-        "air-mcq-07": "「一個國家負責軍事航空作戰的軍種」是「air force」的用法，與本句語境不同。",
-        "air-mcq-02": "「表示清新空氣；例句：「我們出去呼吸一下新鮮空氣吧。」」是「fresh air」的用法，與本句語境不同。"
+        "air-mcq-05": "本句的「air pressure」指「空氣對物體表面施加的壓力」。",
+        "air-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-05"
     },
@@ -1010,11 +966,9 @@ export default {
       "masked": "____ has become more affordable.",
       "options": [
         "air-mcq-06",
-        "air-mcq-05",
-        "air-mcq-07",
-        "air-mcq-04",
-        "air-mcq-08",
-        "air-mcq-03"
+        "air-mcq-12",
+        "air-mcq-29",
+        "air-mcq-01"
       ],
       "explanation": "本句的「Air travel」指「表示航空旅行；例句：「航空旅行變得更便宜了。」」。",
       "sentenceIndex": 11,
@@ -1023,12 +977,10 @@ export default {
         "Air travel"
       ],
       "optionReasons": {
-        "air-mcq-06": "本句指「表示航空旅行；例句：「航空旅行變得更便宜了。」」。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。",
-        "air-mcq-07": "「一個國家負責軍事航空作戰的軍種」是「air force」的用法，與本句語境不同。",
-        "air-mcq-04": "「空氣中含有有害污染物的狀況」是「air pollution」的用法，與本句語境不同。",
-        "air-mcq-08": "「調節室內空氣溫度和濕度的系統」是「air conditioning」的用法，與本句語境不同。",
-        "air-mcq-03": "「空氣清潔、安全或受污染的程度」是「air quality」的用法，與本句語境不同。"
+        "air-mcq-06": "本句的「Air travel」指「表示航空旅行；例句：「航空旅行變得更便宜了。」」。",
+        "air-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-06"
     },
@@ -1040,11 +992,9 @@ export default {
       "masked": "She avoids ____ whenever possible.",
       "options": [
         "air-mcq-06",
-        "air-mcq-05",
-        "air-mcq-07",
-        "air-mcq-04",
-        "air-mcq-08",
-        "air-mcq-03"
+        "air-mcq-11",
+        "air-mcq-01",
+        "air-mcq-25"
       ],
       "explanation": "本句的「air travel」指「表示航空旅行；例句：「航空旅行變得更便宜了。」」。",
       "sentenceIndex": 12,
@@ -1053,12 +1003,10 @@ export default {
         "air travel"
       ],
       "optionReasons": {
-        "air-mcq-06": "本句指「表示航空旅行；例句：「航空旅行變得更便宜了。」」。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。",
-        "air-mcq-07": "「一個國家負責軍事航空作戰的軍種」是「air force」的用法，與本句語境不同。",
-        "air-mcq-04": "「空氣中含有有害污染物的狀況」是「air pollution」的用法，與本句語境不同。",
-        "air-mcq-08": "「調節室內空氣溫度和濕度的系統」是「air conditioning」的用法，與本句語境不同。",
-        "air-mcq-03": "「空氣清潔、安全或受污染的程度」是「air quality」的用法，與本句語境不同。"
+        "air-mcq-06": "本句的「air travel」指「表示航空旅行；例句：「航空旅行變得更便宜了。」」。",
+        "air-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-06"
     },
@@ -1070,11 +1018,9 @@ export default {
       "masked": "He served in the ____.",
       "options": [
         "air-mcq-07",
-        "air-mcq-06",
-        "air-mcq-08",
-        "air-mcq-05",
-        "air-mcq-09",
-        "air-mcq-04"
+        "air-mcq-28",
+        "air-mcq-14",
+        "air-mcq-11"
       ],
       "explanation": "本句的「air force」指「一個國家負責軍事航空作戰的軍種」。",
       "sentenceIndex": 13,
@@ -1083,12 +1029,10 @@ export default {
         "air force"
       ],
       "optionReasons": {
-        "air-mcq-07": "本句指「一個國家負責軍事航空作戰的軍種」。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。",
-        "air-mcq-08": "「調節室內空氣溫度和濕度的系統」是「air conditioning」的用法，與本句語境不同。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。",
-        "air-mcq-09": "「在空氣中時，表示在空氣中」是「in the air（在空氣中）」的用法，與本句語境不同。",
-        "air-mcq-04": "「空氣中含有有害污染物的狀況」是「air pollution」的用法，與本句語境不同。"
+        "air-mcq-07": "本句的「air force」指「一個國家負責軍事航空作戰的軍種」。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-07"
     },
@@ -1100,11 +1044,9 @@ export default {
       "masked": "The country expanded its ____.",
       "options": [
         "air-mcq-07",
-        "air-mcq-06",
-        "air-mcq-08",
-        "air-mcq-05",
-        "air-mcq-09",
-        "air-mcq-04"
+        "air-mcq-15",
+        "air-mcq-25",
+        "air-mcq-30"
       ],
       "explanation": "本句的「air force」指「一個國家負責軍事航空作戰的軍種」。",
       "sentenceIndex": 14,
@@ -1113,12 +1055,10 @@ export default {
         "air force"
       ],
       "optionReasons": {
-        "air-mcq-07": "本句指「一個國家負責軍事航空作戰的軍種」。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。",
-        "air-mcq-08": "「調節室內空氣溫度和濕度的系統」是「air conditioning」的用法，與本句語境不同。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。",
-        "air-mcq-09": "「在空氣中時，表示在空氣中」是「in the air（在空氣中）」的用法，與本句語境不同。",
-        "air-mcq-04": "「空氣中含有有害污染物的狀況」是「air pollution」的用法，與本句語境不同。"
+        "air-mcq-07": "本句的「air force」指「一個國家負責軍事航空作戰的軍種」。",
+        "air-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-07"
     },
@@ -1130,11 +1070,9 @@ export default {
       "masked": "The office has ____.",
       "options": [
         "air-mcq-08",
-        "air-mcq-07",
-        "air-mcq-09",
-        "air-mcq-06",
-        "air-mcq-10",
-        "air-mcq-05"
+        "air-mcq-16",
+        "air-mcq-13",
+        "air-mcq-25"
       ],
       "explanation": "本句的「air conditioning」指「調節室內空氣溫度和濕度的系統」。",
       "sentenceIndex": 15,
@@ -1143,12 +1081,10 @@ export default {
         "air conditioning"
       ],
       "optionReasons": {
-        "air-mcq-08": "本句指「調節室內空氣溫度和濕度的系統」。",
-        "air-mcq-07": "「一個國家負責軍事航空作戰的軍種」是「air force」的用法，與本句語境不同。",
-        "air-mcq-09": "「在空氣中時，表示在空氣中」是「in the air（在空氣中）」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。",
-        "air-mcq-10": "「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」是「in the air（figurative）」的用法，與本句語境不同。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。"
+        "air-mcq-08": "本句的「air conditioning」指「調節室內空氣溫度和濕度的系統」。",
+        "air-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-08"
     },
@@ -1160,11 +1096,9 @@ export default {
       "masked": "The ____ isn't working.",
       "options": [
         "air-mcq-08",
-        "air-mcq-07",
-        "air-mcq-09",
-        "air-mcq-06",
-        "air-mcq-10",
-        "air-mcq-05"
+        "air-mcq-13",
+        "air-mcq-16",
+        "air-mcq-25"
       ],
       "explanation": "本句的「air conditioning」指「調節室內空氣溫度和濕度的系統」。",
       "sentenceIndex": 16,
@@ -1173,12 +1107,10 @@ export default {
         "air conditioning"
       ],
       "optionReasons": {
-        "air-mcq-08": "本句指「調節室內空氣溫度和濕度的系統」。",
-        "air-mcq-07": "「一個國家負責軍事航空作戰的軍種」是「air force」的用法，與本句語境不同。",
-        "air-mcq-09": "「在空氣中時，表示在空氣中」是「in the air（在空氣中）」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。",
-        "air-mcq-10": "「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」是「in the air（figurative）」的用法，與本句語境不同。",
-        "air-mcq-05": "「空氣對物體表面施加的壓力」是「air pressure」的用法，與本句語境不同。"
+        "air-mcq-08": "本句的「air conditioning」指「調節室內空氣溫度和濕度的系統」。",
+        "air-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-08"
     },
@@ -1190,11 +1122,9 @@ export default {
       "masked": "There was dust ____.",
       "options": [
         "air-mcq-09",
-        "air-mcq-08",
-        "air-mcq-10",
-        "air-mcq-07",
-        "air-mcq-11",
-        "air-mcq-06"
+        "air-mcq-30",
+        "air-mcq-15",
+        "air-mcq-16"
       ],
       "explanation": "本句的「in the air」指「在空氣中時，表示在空氣中」。",
       "sentenceIndex": 17,
@@ -1203,12 +1133,10 @@ export default {
         "in the air"
       ],
       "optionReasons": {
-        "air-mcq-09": "本句指「在空氣中時，表示在空氣中」。",
-        "air-mcq-08": "「調節室內空氣溫度和濕度的系統」是「air conditioning」的用法，與本句語境不同。",
-        "air-mcq-10": "「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」是「in the air（figurative）」的用法，與本句語境不同。",
-        "air-mcq-07": "「一個國家負責軍事航空作戰的軍種」是「air force」的用法，與本句語境不同。",
-        "air-mcq-11": "「某人或某地給人的某種外在感覺、氣質或氛圍」是「an air of confidence / mystery」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。"
+        "air-mcq-09": "本句的「in the air」指「在空氣中時，表示在空氣中」。",
+        "air-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-09"
     },
@@ -1220,11 +1148,9 @@ export default {
       "masked": "The smell of coffee was ____.",
       "options": [
         "air-mcq-09",
-        "air-mcq-08",
-        "air-mcq-10",
-        "air-mcq-07",
-        "air-mcq-11",
-        "air-mcq-06"
+        "air-mcq-15",
+        "air-mcq-12",
+        "air-mcq-28"
       ],
       "explanation": "本句的「in the air」指「在空氣中時，表示在空氣中」。",
       "sentenceIndex": 18,
@@ -1233,12 +1159,10 @@ export default {
         "in the air"
       ],
       "optionReasons": {
-        "air-mcq-09": "本句指「在空氣中時，表示在空氣中」。",
-        "air-mcq-08": "「調節室內空氣溫度和濕度的系統」是「air conditioning」的用法，與本句語境不同。",
-        "air-mcq-10": "「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」是「in the air（figurative）」的用法，與本句語境不同。",
-        "air-mcq-07": "「一個國家負責軍事航空作戰的軍種」是「air force」的用法，與本句語境不同。",
-        "air-mcq-11": "「某人或某地給人的某種外在感覺、氣質或氛圍」是「an air of confidence / mystery」的用法，與本句語境不同。",
-        "air-mcq-06": "「表示航空旅行；例句：「航空旅行變得更便宜了。」」是「air travel」的用法，與本句語境不同。"
+        "air-mcq-09": "本句的「in the air」指「在空氣中時，表示在空氣中」。",
+        "air-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-09"
     },
@@ -1250,11 +1174,9 @@ export default {
       "masked": "There was excitement ____.",
       "options": [
         "air-mcq-10",
-        "air-mcq-09",
-        "air-mcq-11",
-        "air-mcq-08",
-        "air-mcq-12",
-        "air-mcq-07"
+        "air-mcq-07",
+        "air-mcq-13",
+        "air-mcq-25"
       ],
       "explanation": "本句的「in the air」指「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」。",
       "sentenceIndex": 19,
@@ -1263,12 +1185,10 @@ export default {
         "in the air"
       ],
       "optionReasons": {
-        "air-mcq-10": "本句指「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」。",
-        "air-mcq-09": "「在空氣中時，表示在空氣中」是「in the air（在空氣中）」的用法，與本句語境不同。",
-        "air-mcq-11": "「某人或某地給人的某種外在感覺、氣質或氛圍」是「an air of confidence / mystery」的用法，與本句語境不同。",
-        "air-mcq-08": "「調節室內空氣溫度和濕度的系統」是「air conditioning」的用法，與本句語境不同。",
-        "air-mcq-12": "「故意表現得好像自己比別人更重要、更有地位」是「put on airs」的用法，與本句語境不同。",
-        "air-mcq-07": "「一個國家負責軍事航空作戰的軍種」是「air force」的用法，與本句語境不同。"
+        "air-mcq-10": "本句的「in the air」指「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」。",
+        "air-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-10"
     },
@@ -1280,11 +1200,9 @@ export default {
       "masked": "Change was ____.",
       "options": [
         "air-mcq-10",
-        "air-mcq-09",
-        "air-mcq-11",
-        "air-mcq-08",
-        "air-mcq-12",
-        "air-mcq-07"
+        "air-mcq-06",
+        "air-mcq-25",
+        "air-mcq-13"
       ],
       "explanation": "本句的「in the air」指「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」。",
       "sentenceIndex": 20,
@@ -1293,12 +1211,10 @@ export default {
         "in the air"
       ],
       "optionReasons": {
-        "air-mcq-10": "本句指「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」。",
-        "air-mcq-09": "「在空氣中時，表示在空氣中」是「in the air（在空氣中）」的用法，與本句語境不同。",
-        "air-mcq-11": "「某人或某地給人的某種外在感覺、氣質或氛圍」是「an air of confidence / mystery」的用法，與本句語境不同。",
-        "air-mcq-08": "「調節室內空氣溫度和濕度的系統」是「air conditioning」的用法，與本句語境不同。",
-        "air-mcq-12": "「故意表現得好像自己比別人更重要、更有地位」是「put on airs」的用法，與本句語境不同。",
-        "air-mcq-07": "「一個國家負責軍事航空作戰的軍種」是「air force」的用法，與本句語境不同。"
+        "air-mcq-10": "本句的「in the air」指「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」。",
+        "air-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-10"
     },
@@ -1310,11 +1226,9 @@ export default {
       "masked": "She spoke with an ____.",
       "options": [
         "air-mcq-11",
-        "air-mcq-10",
-        "air-mcq-12",
-        "air-mcq-09",
         "air-mcq-13",
-        "air-mcq-08"
+        "air-mcq-07",
+        "air-mcq-17"
       ],
       "explanation": "本句的「air of confidence」指「某人或某地給人的某種外在感覺、氣質或氛圍」。",
       "sentenceIndex": 21,
@@ -1323,12 +1237,10 @@ export default {
         "air of confidence"
       ],
       "optionReasons": {
-        "air-mcq-11": "本句指「某人或某地給人的某種外在感覺、氣質或氛圍」。",
-        "air-mcq-10": "「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」是「in the air（figurative）」的用法，與本句語境不同。",
-        "air-mcq-12": "「故意表現得好像自己比別人更重要、更有地位」是「put on airs」的用法，與本句語境不同。",
-        "air-mcq-09": "「在空氣中時，表示在空氣中」是「in the air（在空氣中）」的用法，與本句語境不同。",
-        "air-mcq-13": "「電台、電視或網上廣播正處於播出狀態」是「on air」的用法，與本句語境不同。",
-        "air-mcq-08": "「調節室內空氣溫度和濕度的系統」是「air conditioning」的用法，與本句語境不同。"
+        "air-mcq-11": "本句的「air of confidence」指「某人或某地給人的某種外在感覺、氣質或氛圍」。",
+        "air-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-11"
     },
@@ -1340,11 +1252,9 @@ export default {
       "masked": "The old house had an ____.",
       "options": [
         "air-mcq-11",
-        "air-mcq-10",
-        "air-mcq-12",
-        "air-mcq-09",
-        "air-mcq-13",
-        "air-mcq-08"
+        "air-mcq-07",
+        "air-mcq-25",
+        "air-mcq-17"
       ],
       "explanation": "本句的「air of mystery」指「某人或某地給人的某種外在感覺、氣質或氛圍」。",
       "sentenceIndex": 22,
@@ -1353,12 +1263,10 @@ export default {
         "air of mystery"
       ],
       "optionReasons": {
-        "air-mcq-11": "本句指「某人或某地給人的某種外在感覺、氣質或氛圍」。",
-        "air-mcq-10": "「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」是「in the air（figurative）」的用法，與本句語境不同。",
-        "air-mcq-12": "「故意表現得好像自己比別人更重要、更有地位」是「put on airs」的用法，與本句語境不同。",
-        "air-mcq-09": "「在空氣中時，表示在空氣中」是「in the air（在空氣中）」的用法，與本句語境不同。",
-        "air-mcq-13": "「電台、電視或網上廣播正處於播出狀態」是「on air」的用法，與本句語境不同。",
-        "air-mcq-08": "「調節室內空氣溫度和濕度的系統」是「air conditioning」的用法，與本句語境不同。"
+        "air-mcq-11": "本句的「air of mystery」指「某人或某地給人的某種外在感覺、氣質或氛圍」。",
+        "air-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-11"
     },
@@ -1370,11 +1278,9 @@ export default {
       "masked": "He started ____ after his promotion.",
       "options": [
         "air-mcq-12",
-        "air-mcq-11",
-        "air-mcq-13",
-        "air-mcq-10",
+        "air-mcq-26",
         "air-mcq-14",
-        "air-mcq-09"
+        "air-mcq-01"
       ],
       "explanation": "本句的「putting on airs」指「故意表現得好像自己比別人更重要、更有地位」。",
       "sentenceIndex": 23,
@@ -1383,12 +1289,10 @@ export default {
         "putting on airs"
       ],
       "optionReasons": {
-        "air-mcq-12": "本句指「故意表現得好像自己比別人更重要、更有地位」。",
-        "air-mcq-11": "「某人或某地給人的某種外在感覺、氣質或氛圍」是「an air of confidence / mystery」的用法，與本句語境不同。",
-        "air-mcq-13": "「電台、電視或網上廣播正處於播出狀態」是「on air」的用法，與本句語境不同。",
-        "air-mcq-10": "「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」是「in the air（figurative）」的用法，與本句語境不同。",
-        "air-mcq-14": "「表示停止播出；例句：「電台有幾分鐘停止播出。」」是「off air」的用法，與本句語境不同。",
-        "air-mcq-09": "「在空氣中時，表示在空氣中」是「in the air（在空氣中）」的用法，與本句語境不同。"
+        "air-mcq-12": "本句的「putting on airs」指「故意表現得好像自己比別人更重要、更有地位」。",
+        "air-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-12"
     },
@@ -1400,11 +1304,9 @@ export default {
       "masked": "She never ____, even though she is very successful.",
       "options": [
         "air-mcq-12",
-        "air-mcq-11",
-        "air-mcq-13",
-        "air-mcq-10",
-        "air-mcq-14",
-        "air-mcq-09"
+        "air-mcq-19",
+        "air-mcq-29",
+        "air-mcq-27"
       ],
       "explanation": "本句的「puts on airs」指「故意表現得好像自己比別人更重要、更有地位」。",
       "sentenceIndex": 24,
@@ -1413,12 +1315,10 @@ export default {
         "puts on airs"
       ],
       "optionReasons": {
-        "air-mcq-12": "本句指「故意表現得好像自己比別人更重要、更有地位」。",
-        "air-mcq-11": "「某人或某地給人的某種外在感覺、氣質或氛圍」是「an air of confidence / mystery」的用法，與本句語境不同。",
-        "air-mcq-13": "「電台、電視或網上廣播正處於播出狀態」是「on air」的用法，與本句語境不同。",
-        "air-mcq-10": "「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」是「in the air（figurative）」的用法，與本句語境不同。",
-        "air-mcq-14": "「表示停止播出；例句：「電台有幾分鐘停止播出。」」是「off air」的用法，與本句語境不同。",
-        "air-mcq-09": "「在空氣中時，表示在空氣中」是「in the air（在空氣中）」的用法，與本句語境不同。"
+        "air-mcq-12": "本句的「puts on airs」指「故意表現得好像自己比別人更重要、更有地位」。",
+        "air-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-12"
     },
@@ -1430,11 +1330,9 @@ export default {
       "masked": "The programme is ____ now.",
       "options": [
         "air-mcq-13",
-        "air-mcq-12",
-        "air-mcq-14",
-        "air-mcq-11",
-        "air-mcq-15",
-        "air-mcq-10"
+        "air-mcq-16",
+        "air-mcq-24",
+        "air-mcq-07"
       ],
       "explanation": "本句的「on air」指「電台、電視或網上廣播正處於播出狀態」。",
       "sentenceIndex": 25,
@@ -1443,12 +1341,10 @@ export default {
         "on air"
       ],
       "optionReasons": {
-        "air-mcq-13": "本句指「電台、電視或網上廣播正處於播出狀態」。",
-        "air-mcq-12": "「故意表現得好像自己比別人更重要、更有地位」是「put on airs」的用法，與本句語境不同。",
-        "air-mcq-14": "「表示停止播出；例句：「電台有幾分鐘停止播出。」」是「off air」的用法，與本句語境不同。",
-        "air-mcq-11": "「某人或某地給人的某種外在感覺、氣質或氛圍」是「an air of confidence / mystery」的用法，與本句語境不同。",
-        "air-mcq-15": "「在電視、電台或其他廣播平台播出節目」是「air a programme / interview」的用法，與本句語境不同。",
-        "air-mcq-10": "「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」是「in the air（figurative）」的用法，與本句語境不同。"
+        "air-mcq-13": "本句的「on air」指「電台、電視或網上廣播正處於播出狀態」。",
+        "air-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-13"
     },
@@ -1460,11 +1356,9 @@ export default {
       "masked": "We go ____ at eight.",
       "options": [
         "air-mcq-13",
-        "air-mcq-12",
-        "air-mcq-14",
-        "air-mcq-11",
-        "air-mcq-15",
-        "air-mcq-10"
+        "air-mcq-24",
+        "air-mcq-01",
+        "air-mcq-16"
       ],
       "explanation": "本句的「on air」指「電台、電視或網上廣播正處於播出狀態」。",
       "sentenceIndex": 26,
@@ -1473,12 +1367,10 @@ export default {
         "on air"
       ],
       "optionReasons": {
-        "air-mcq-13": "本句指「電台、電視或網上廣播正處於播出狀態」。",
-        "air-mcq-12": "「故意表現得好像自己比別人更重要、更有地位」是「put on airs」的用法，與本句語境不同。",
-        "air-mcq-14": "「表示停止播出；例句：「電台有幾分鐘停止播出。」」是「off air」的用法，與本句語境不同。",
-        "air-mcq-11": "「某人或某地給人的某種外在感覺、氣質或氛圍」是「an air of confidence / mystery」的用法，與本句語境不同。",
-        "air-mcq-15": "「在電視、電台或其他廣播平台播出節目」是「air a programme / interview」的用法，與本句語境不同。",
-        "air-mcq-10": "「某種情緒、氣氛或即將發生的事情令人明顯感覺得到」是「in the air（figurative）」的用法，與本句語境不同。"
+        "air-mcq-13": "本句的「on air」指「電台、電視或網上廣播正處於播出狀態」。",
+        "air-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-13"
     },
@@ -1490,11 +1382,9 @@ export default {
       "masked": "The station went ____ for several minutes.",
       "options": [
         "air-mcq-14",
-        "air-mcq-13",
-        "air-mcq-15",
-        "air-mcq-12",
-        "air-mcq-16",
-        "air-mcq-11"
+        "air-mcq-05",
+        "air-mcq-27",
+        "air-mcq-07"
       ],
       "explanation": "本句的「off air」指「表示停止播出；例句：「電台有幾分鐘停止播出。」」。",
       "sentenceIndex": 27,
@@ -1503,12 +1393,10 @@ export default {
         "off air"
       ],
       "optionReasons": {
-        "air-mcq-14": "本句指「表示停止播出；例句：「電台有幾分鐘停止播出。」」。",
-        "air-mcq-13": "「電台、電視或網上廣播正處於播出狀態」是「on air」的用法，與本句語境不同。",
-        "air-mcq-15": "「在電視、電台或其他廣播平台播出節目」是「air a programme / interview」的用法，與本句語境不同。",
-        "air-mcq-12": "「故意表現得好像自己比別人更重要、更有地位」是「put on airs」的用法，與本句語境不同。",
-        "air-mcq-16": "「公開表達自己的意見、憂慮或感受」是「air your views / opinions」的用法，與本句語境不同。",
-        "air-mcq-11": "「某人或某地給人的某種外在感覺、氣質或氛圍」是「an air of confidence / mystery」的用法，與本句語境不同。"
+        "air-mcq-14": "本句的「off air」指「表示停止播出；例句：「電台有幾分鐘停止播出。」」。",
+        "air-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-14"
     },
@@ -1520,11 +1408,9 @@ export default {
       "masked": "The show is currently ____.",
       "options": [
         "air-mcq-14",
-        "air-mcq-13",
-        "air-mcq-15",
-        "air-mcq-12",
+        "air-mcq-24",
         "air-mcq-16",
-        "air-mcq-11"
+        "air-mcq-30"
       ],
       "explanation": "本句的「off air」指「表示停止播出；例句：「電台有幾分鐘停止播出。」」。",
       "sentenceIndex": 28,
@@ -1533,12 +1419,10 @@ export default {
         "off air"
       ],
       "optionReasons": {
-        "air-mcq-14": "本句指「表示停止播出；例句：「電台有幾分鐘停止播出。」」。",
-        "air-mcq-13": "「電台、電視或網上廣播正處於播出狀態」是「on air」的用法，與本句語境不同。",
-        "air-mcq-15": "「在電視、電台或其他廣播平台播出節目」是「air a programme / interview」的用法，與本句語境不同。",
-        "air-mcq-12": "「故意表現得好像自己比別人更重要、更有地位」是「put on airs」的用法，與本句語境不同。",
-        "air-mcq-16": "「公開表達自己的意見、憂慮或感受」是「air your views / opinions」的用法，與本句語境不同。",
-        "air-mcq-11": "「某人或某地給人的某種外在感覺、氣質或氛圍」是「an air of confidence / mystery」的用法，與本句語境不同。"
+        "air-mcq-14": "本句的「off air」指「表示停止播出；例句：「電台有幾分鐘停止播出。」」。",
+        "air-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-14"
     },
@@ -1550,10 +1434,8 @@ export default {
       "masked": "The interview will ____ tonight.",
       "options": [
         "air-mcq-15",
-        "air-mcq-14",
-        "air-mcq-16",
-        "air-mcq-13",
-        "air-mcq-17",
+        "air-mcq-02",
+        "air-mcq-30",
         "air-mcq-12"
       ],
       "explanation": "本句的「air」指「在電視、電台或其他廣播平台播出節目」。",
@@ -1563,12 +1445,10 @@ export default {
         "air"
       ],
       "optionReasons": {
-        "air-mcq-15": "本句指「在電視、電台或其他廣播平台播出節目」。",
-        "air-mcq-14": "「表示停止播出；例句：「電台有幾分鐘停止播出。」」是「off air」的用法，與本句語境不同。",
-        "air-mcq-16": "「公開表達自己的意見、憂慮或感受」是「air your views / opinions」的用法，與本句語境不同。",
-        "air-mcq-13": "「電台、電視或網上廣播正處於播出狀態」是「on air」的用法，與本句語境不同。",
-        "air-mcq-17": "「公開說出自己的不滿或抱怨」是「air a grievance」的用法，與本句語境不同。",
-        "air-mcq-12": "「故意表現得好像自己比別人更重要、更有地位」是「put on airs」的用法，與本句語境不同。"
+        "air-mcq-15": "本句的「air」指「在電視、電台或其他廣播平台播出節目」。",
+        "air-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-15"
     },
@@ -1580,11 +1460,9 @@ export default {
       "masked": "The channel ____ the documentary last week.",
       "options": [
         "air-mcq-15",
-        "air-mcq-14",
-        "air-mcq-16",
-        "air-mcq-13",
-        "air-mcq-17",
-        "air-mcq-12"
+        "air-mcq-20",
+        "air-mcq-29",
+        "air-mcq-16"
       ],
       "explanation": "本句的「aired」指「在電視、電台或其他廣播平台播出節目」。",
       "sentenceIndex": 30,
@@ -1593,12 +1471,10 @@ export default {
         "aired"
       ],
       "optionReasons": {
-        "air-mcq-15": "本句指「在電視、電台或其他廣播平台播出節目」。",
-        "air-mcq-14": "「表示停止播出；例句：「電台有幾分鐘停止播出。」」是「off air」的用法，與本句語境不同。",
-        "air-mcq-16": "「公開表達自己的意見、憂慮或感受」是「air your views / opinions」的用法，與本句語境不同。",
-        "air-mcq-13": "「電台、電視或網上廣播正處於播出狀態」是「on air」的用法，與本句語境不同。",
-        "air-mcq-17": "「公開說出自己的不滿或抱怨」是「air a grievance」的用法，與本句語境不同。",
-        "air-mcq-12": "「故意表現得好像自己比別人更重要、更有地位」是「put on airs」的用法，與本句語境不同。"
+        "air-mcq-15": "本句的「aired」指「在電視、電台或其他廣播平台播出節目」。",
+        "air-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-15"
     },
@@ -1610,11 +1486,9 @@ export default {
       "masked": "Everyone had a chance to ____.",
       "options": [
         "air-mcq-16",
-        "air-mcq-15",
-        "air-mcq-17",
-        "air-mcq-14",
-        "air-mcq-18",
-        "air-mcq-13"
+        "air-mcq-13",
+        "air-mcq-05",
+        "air-mcq-28"
       ],
       "explanation": "本句的「air their views」指「公開表達自己的意見、憂慮或感受」。",
       "sentenceIndex": 31,
@@ -1623,12 +1497,10 @@ export default {
         "air their views"
       ],
       "optionReasons": {
-        "air-mcq-16": "本句指「公開表達自己的意見、憂慮或感受」。",
-        "air-mcq-15": "「在電視、電台或其他廣播平台播出節目」是「air a programme / interview」的用法，與本句語境不同。",
-        "air-mcq-17": "「公開說出自己的不滿或抱怨」是「air a grievance」的用法，與本句語境不同。",
-        "air-mcq-14": "「表示停止播出；例句：「電台有幾分鐘停止播出。」」是「off air」的用法，與本句語境不同。",
-        "air-mcq-18": "「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」是「air a room」的用法，與本句語境不同。",
-        "air-mcq-13": "「電台、電視或網上廣播正處於播出狀態」是「on air」的用法，與本句語境不同。"
+        "air-mcq-16": "本句的「air their views」指「公開表達自己的意見、憂慮或感受」。",
+        "air-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-16"
     },
@@ -1640,11 +1512,9 @@ export default {
       "masked": "She ____ during the meeting.",
       "options": [
         "air-mcq-16",
-        "air-mcq-15",
-        "air-mcq-17",
-        "air-mcq-14",
-        "air-mcq-18",
-        "air-mcq-13"
+        "air-mcq-08",
+        "air-mcq-01",
+        "air-mcq-07"
       ],
       "explanation": "本句的「aired her concerns」指「公開表達自己的意見、憂慮或感受」。",
       "sentenceIndex": 32,
@@ -1653,12 +1523,10 @@ export default {
         "aired her concerns"
       ],
       "optionReasons": {
-        "air-mcq-16": "本句指「公開表達自己的意見、憂慮或感受」。",
-        "air-mcq-15": "「在電視、電台或其他廣播平台播出節目」是「air a programme / interview」的用法，與本句語境不同。",
-        "air-mcq-17": "「公開說出自己的不滿或抱怨」是「air a grievance」的用法，與本句語境不同。",
-        "air-mcq-14": "「表示停止播出；例句：「電台有幾分鐘停止播出。」」是「off air」的用法，與本句語境不同。",
-        "air-mcq-18": "「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」是「air a room」的用法，與本句語境不同。",
-        "air-mcq-13": "「電台、電視或網上廣播正處於播出狀態」是「on air」的用法，與本句語境不同。"
+        "air-mcq-16": "本句的「aired her concerns」指「公開表達自己的意見、憂慮或感受」。",
+        "air-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-16"
     },
@@ -1670,11 +1538,9 @@ export default {
       "masked": "Employees were invited to ____.",
       "options": [
         "air-mcq-17",
-        "air-mcq-16",
-        "air-mcq-18",
-        "air-mcq-15",
-        "air-mcq-19",
-        "air-mcq-14"
+        "air-mcq-05",
+        "air-mcq-11",
+        "air-mcq-06"
       ],
       "explanation": "本句的「air their grievances」指「公開說出自己的不滿或抱怨」。",
       "sentenceIndex": 33,
@@ -1683,12 +1549,10 @@ export default {
         "air their grievances"
       ],
       "optionReasons": {
-        "air-mcq-17": "本句指「公開說出自己的不滿或抱怨」。",
-        "air-mcq-16": "「公開表達自己的意見、憂慮或感受」是「air your views / opinions」的用法，與本句語境不同。",
-        "air-mcq-18": "「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」是「air a room」的用法，與本句語境不同。",
-        "air-mcq-15": "「在電視、電台或其他廣播平台播出節目」是「air a programme / interview」的用法，與本句語境不同。",
-        "air-mcq-19": "「讓空氣流通，以除去濕氣、悶味或異味」是「air out something」的用法，與本句語境不同。",
-        "air-mcq-14": "「表示停止播出；例句：「電台有幾分鐘停止播出。」」是「off air」的用法，與本句語境不同。"
+        "air-mcq-17": "本句的「air their grievances」指「公開說出自己的不滿或抱怨」。",
+        "air-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-17"
     },
@@ -1700,11 +1564,9 @@ export default {
       "masked": "He used the meeting to ____.",
       "options": [
         "air-mcq-17",
-        "air-mcq-16",
-        "air-mcq-18",
-        "air-mcq-15",
-        "air-mcq-19",
-        "air-mcq-14"
+        "air-mcq-20",
+        "air-mcq-11",
+        "air-mcq-25"
       ],
       "explanation": "本句的「air several complaints」指「公開說出自己的不滿或抱怨」。",
       "sentenceIndex": 34,
@@ -1713,12 +1575,10 @@ export default {
         "air several complaints"
       ],
       "optionReasons": {
-        "air-mcq-17": "本句指「公開說出自己的不滿或抱怨」。",
-        "air-mcq-16": "「公開表達自己的意見、憂慮或感受」是「air your views / opinions」的用法，與本句語境不同。",
-        "air-mcq-18": "「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」是「air a room」的用法，與本句語境不同。",
-        "air-mcq-15": "「在電視、電台或其他廣播平台播出節目」是「air a programme / interview」的用法，與本句語境不同。",
-        "air-mcq-19": "「讓空氣流通，以除去濕氣、悶味或異味」是「air out something」的用法，與本句語境不同。",
-        "air-mcq-14": "「表示停止播出；例句：「電台有幾分鐘停止播出。」」是「off air」的用法，與本句語境不同。"
+        "air-mcq-17": "本句的「air several complaints」指「公開說出自己的不滿或抱怨」。",
+        "air-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-17"
     },
@@ -1730,11 +1590,9 @@ export default {
       "masked": "Open the windows to ____.",
       "options": [
         "air-mcq-18",
-        "air-mcq-17",
-        "air-mcq-19",
+        "air-mcq-29",
         "air-mcq-16",
-        "air-mcq-20",
-        "air-mcq-15"
+        "air-mcq-25"
       ],
       "explanation": "本句的「air the room」指「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」。",
       "sentenceIndex": 35,
@@ -1743,12 +1601,10 @@ export default {
         "air the room"
       ],
       "optionReasons": {
-        "air-mcq-18": "本句指「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」。",
-        "air-mcq-17": "「公開說出自己的不滿或抱怨」是「air a grievance」的用法，與本句語境不同。",
-        "air-mcq-19": "「讓空氣流通，以除去濕氣、悶味或異味」是「air out something」的用法，與本句語境不同。",
-        "air-mcq-16": "「公開表達自己的意見、憂慮或感受」是「air your views / opinions」的用法，與本句語境不同。",
-        "air-mcq-20": "「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」是「air clothes / bedding」的用法，與本句語境不同。",
-        "air-mcq-15": "「在電視、電台或其他廣播平台播出節目」是「air a programme / interview」的用法，與本句語境不同。"
+        "air-mcq-18": "本句的「air the room」指「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」。",
+        "air-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-18"
     },
@@ -1760,11 +1616,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "air-mcq-18",
-        "air-mcq-17",
-        "air-mcq-19",
+        "air-mcq-25",
         "air-mcq-16",
-        "air-mcq-20",
-        "air-mcq-15"
+        "air-mcq-29"
       ],
       "explanation": "本句的「air the bedroom」指「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」。",
       "sentenceIndex": 36,
@@ -1773,12 +1627,10 @@ export default {
         "air the bedroom"
       ],
       "optionReasons": {
-        "air-mcq-18": "本句指「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」。",
-        "air-mcq-17": "「公開說出自己的不滿或抱怨」是「air a grievance」的用法，與本句語境不同。",
-        "air-mcq-19": "「讓空氣流通，以除去濕氣、悶味或異味」是「air out something」的用法，與本句語境不同。",
-        "air-mcq-16": "「公開表達自己的意見、憂慮或感受」是「air your views / opinions」的用法，與本句語境不同。",
-        "air-mcq-20": "「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」是「air clothes / bedding」的用法，與本句語境不同。",
-        "air-mcq-15": "「在電視、電台或其他廣播平台播出節目」是「air a programme / interview」的用法，與本句語境不同。"
+        "air-mcq-18": "本句的「air the bedroom」指「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-18"
     },
@@ -1790,11 +1642,9 @@ export default {
       "masked": "Let's ____.",
       "options": [
         "air-mcq-19",
-        "air-mcq-18",
-        "air-mcq-20",
-        "air-mcq-17",
-        "air-mcq-21",
-        "air-mcq-16"
+        "air-mcq-14",
+        "air-mcq-25",
+        "air-mcq-28"
       ],
       "explanation": "本句的「air out the room」指「讓空氣流通，以除去濕氣、悶味或異味」。",
       "sentenceIndex": 37,
@@ -1803,12 +1653,10 @@ export default {
         "air out the room"
       ],
       "optionReasons": {
-        "air-mcq-19": "本句指「讓空氣流通，以除去濕氣、悶味或異味」。",
-        "air-mcq-18": "「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」是「air a room」的用法，與本句語境不同。",
-        "air-mcq-20": "「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」是「air clothes / bedding」的用法，與本句語境不同。",
-        "air-mcq-17": "「公開說出自己的不滿或抱怨」是「air a grievance」的用法，與本句語境不同。",
-        "air-mcq-21": "「不使用機器或熱力，而讓空氣自然把某物吹乾」是「air-dry」的用法，與本句語境不同。",
-        "air-mcq-16": "「公開表達自己的意見、憂慮或感受」是「air your views / opinions」的用法，與本句語境不同。"
+        "air-mcq-19": "本句的「air out the room」指「讓空氣流通，以除去濕氣、悶味或異味」。",
+        "air-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-19"
     },
@@ -1820,11 +1668,9 @@ export default {
       "masked": "I left the coat outside to ____.",
       "options": [
         "air-mcq-19",
-        "air-mcq-18",
-        "air-mcq-20",
-        "air-mcq-17",
-        "air-mcq-21",
-        "air-mcq-16"
+        "air-mcq-25",
+        "air-mcq-16",
+        "air-mcq-28"
       ],
       "explanation": "本句的「air it out」指「讓空氣流通，以除去濕氣、悶味或異味」。",
       "sentenceIndex": 38,
@@ -1833,12 +1679,10 @@ export default {
         "air it out"
       ],
       "optionReasons": {
-        "air-mcq-19": "本句指「讓空氣流通，以除去濕氣、悶味或異味」。",
-        "air-mcq-18": "「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」是「air a room」的用法，與本句語境不同。",
-        "air-mcq-20": "「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」是「air clothes / bedding」的用法，與本句語境不同。",
-        "air-mcq-17": "「公開說出自己的不滿或抱怨」是「air a grievance」的用法，與本句語境不同。",
-        "air-mcq-21": "「不使用機器或熱力，而讓空氣自然把某物吹乾」是「air-dry」的用法，與本句語境不同。",
-        "air-mcq-16": "「公開表達自己的意見、憂慮或感受」是「air your views / opinions」的用法，與本句語境不同。"
+        "air-mcq-19": "本句的「air it out」指「讓空氣流通，以除去濕氣、悶味或異味」。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-19"
     },
@@ -1850,11 +1694,9 @@ export default {
       "masked": "She put the blankets outside to ____.",
       "options": [
         "air-mcq-20",
-        "air-mcq-19",
-        "air-mcq-21",
-        "air-mcq-18",
-        "air-mcq-22",
-        "air-mcq-17"
+        "air-mcq-12",
+        "air-mcq-25",
+        "air-mcq-29"
       ],
       "explanation": "本句的「air」指「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」。",
       "sentenceIndex": 39,
@@ -1863,12 +1705,10 @@ export default {
         "air"
       ],
       "optionReasons": {
-        "air-mcq-20": "本句指「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」。",
-        "air-mcq-19": "「讓空氣流通，以除去濕氣、悶味或異味」是「air out something」的用法，與本句語境不同。",
-        "air-mcq-21": "「不使用機器或熱力，而讓空氣自然把某物吹乾」是「air-dry」的用法，與本句語境不同。",
-        "air-mcq-18": "「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」是「air a room」的用法，與本句語境不同。",
-        "air-mcq-22": "「在空中或由空氣支撐、傳送的」是「airborne（在空中的）」的用法，與本句語境不同。",
-        "air-mcq-17": "「公開說出自己的不滿或抱怨」是「air a grievance」的用法，與本句語境不同。"
+        "air-mcq-20": "本句的「air」指「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」。",
+        "air-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-20"
     },
@@ -1880,11 +1720,9 @@ export default {
       "masked": "The bedding needs to be ____.",
       "options": [
         "air-mcq-20",
-        "air-mcq-19",
-        "air-mcq-21",
-        "air-mcq-18",
-        "air-mcq-22",
-        "air-mcq-17"
+        "air-mcq-28",
+        "air-mcq-15",
+        "air-mcq-30"
       ],
       "explanation": "本句的「aired」指「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」。",
       "sentenceIndex": 40,
@@ -1893,12 +1731,10 @@ export default {
         "aired"
       ],
       "optionReasons": {
-        "air-mcq-20": "本句指「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」。",
-        "air-mcq-19": "「讓空氣流通，以除去濕氣、悶味或異味」是「air out something」的用法，與本句語境不同。",
-        "air-mcq-21": "「不使用機器或熱力，而讓空氣自然把某物吹乾」是「air-dry」的用法，與本句語境不同。",
-        "air-mcq-18": "「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」是「air a room」的用法，與本句語境不同。",
-        "air-mcq-22": "「在空中或由空氣支撐、傳送的」是「airborne（在空中的）」的用法，與本句語境不同。",
-        "air-mcq-17": "「公開說出自己的不滿或抱怨」是「air a grievance」的用法，與本句語境不同。"
+        "air-mcq-20": "本句的「aired」指「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-20"
     },
@@ -1910,11 +1746,9 @@ export default {
       "masked": "Let the clothes ____.",
       "options": [
         "air-mcq-21",
-        "air-mcq-20",
-        "air-mcq-22",
-        "air-mcq-19",
-        "air-mcq-23",
-        "air-mcq-18"
+        "air-mcq-25",
+        "air-mcq-13",
+        "air-mcq-29"
       ],
       "explanation": "本句的「air-dry」指「不使用機器或熱力，而讓空氣自然把某物吹乾」。",
       "sentenceIndex": 41,
@@ -1923,12 +1757,10 @@ export default {
         "air-dry"
       ],
       "optionReasons": {
-        "air-mcq-21": "本句指「不使用機器或熱力，而讓空氣自然把某物吹乾」。",
-        "air-mcq-20": "「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」是「air clothes / bedding」的用法，與本句語境不同。",
-        "air-mcq-22": "「在空中或由空氣支撐、傳送的」是「airborne（在空中的）」的用法，與本句語境不同。",
-        "air-mcq-19": "「讓空氣流通，以除去濕氣、悶味或異味」是「air out something」的用法，與本句語境不同。",
-        "air-mcq-23": "「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」是「airborne infection / disease」的用法，與本句語境不同。",
-        "air-mcq-18": "「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」是「air a room」的用法，與本句語境不同。"
+        "air-mcq-21": "本句的「air-dry」指「不使用機器或熱力，而讓空氣自然把某物吹乾」。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-21"
     },
@@ -1940,11 +1772,9 @@ export default {
       "masked": "I usually ____.",
       "options": [
         "air-mcq-21",
-        "air-mcq-20",
-        "air-mcq-22",
-        "air-mcq-19",
-        "air-mcq-23",
-        "air-mcq-18"
+        "air-mcq-13",
+        "air-mcq-25",
+        "air-mcq-29"
       ],
       "explanation": "本句的「air-dry my hair」指「不使用機器或熱力，而讓空氣自然把某物吹乾」。",
       "sentenceIndex": 42,
@@ -1953,12 +1783,10 @@ export default {
         "air-dry my hair"
       ],
       "optionReasons": {
-        "air-mcq-21": "本句指「不使用機器或熱力，而讓空氣自然把某物吹乾」。",
-        "air-mcq-20": "「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」是「air clothes / bedding」的用法，與本句語境不同。",
-        "air-mcq-22": "「在空中或由空氣支撐、傳送的」是「airborne（在空中的）」的用法，與本句語境不同。",
-        "air-mcq-19": "「讓空氣流通，以除去濕氣、悶味或異味」是「air out something」的用法，與本句語境不同。",
-        "air-mcq-23": "「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」是「airborne infection / disease」的用法，與本句語境不同。",
-        "air-mcq-18": "「讓新鮮空氣進入房間，使悶焗或有氣味的空氣流出去」是「air a room」的用法，與本句語境不同。"
+        "air-mcq-21": "本句的「air-dry my hair」指「不使用機器或熱力，而讓空氣自然把某物吹乾」。",
+        "air-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-21"
     },
@@ -1970,11 +1798,9 @@ export default {
       "masked": "The plane became ____.",
       "options": [
         "air-mcq-22",
-        "air-mcq-21",
-        "air-mcq-23",
-        "air-mcq-20",
-        "air-mcq-24",
-        "air-mcq-19"
+        "air-mcq-15",
+        "air-mcq-28",
+        "air-mcq-29"
       ],
       "explanation": "本句的「airborne」指「在空中或由空氣支撐、傳送的」。",
       "sentenceIndex": 43,
@@ -1983,12 +1809,10 @@ export default {
         "airborne"
       ],
       "optionReasons": {
-        "air-mcq-22": "本句指「在空中或由空氣支撐、傳送的」。",
-        "air-mcq-21": "「不使用機器或熱力，而讓空氣自然把某物吹乾」是「air-dry」的用法，與本句語境不同。",
-        "air-mcq-23": "「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」是「airborne infection / disease」的用法，與本句語境不同。",
-        "air-mcq-20": "「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」是「air clothes / bedding」的用法，與本句語境不同。",
-        "air-mcq-24": "「有良好空氣流通、通常亦感覺明亮寬敞的」是「airy」的用法，與本句語境不同。",
-        "air-mcq-19": "「讓空氣流通，以除去濕氣、悶味或異味」是「air out something」的用法，與本句語境不同。"
+        "air-mcq-22": "本句的「airborne」指「在空中或由空氣支撐、傳送的」。",
+        "air-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-22"
     },
@@ -2000,11 +1824,9 @@ export default {
       "masked": "Dust particles remained ____.",
       "options": [
         "air-mcq-22",
-        "air-mcq-21",
-        "air-mcq-23",
-        "air-mcq-20",
-        "air-mcq-24",
-        "air-mcq-19"
+        "air-mcq-12",
+        "air-mcq-25",
+        "air-mcq-14"
       ],
       "explanation": "本句的「airborne」指「在空中或由空氣支撐、傳送的」。",
       "sentenceIndex": 44,
@@ -2013,12 +1835,10 @@ export default {
         "airborne"
       ],
       "optionReasons": {
-        "air-mcq-22": "本句指「在空中或由空氣支撐、傳送的」。",
-        "air-mcq-21": "「不使用機器或熱力，而讓空氣自然把某物吹乾」是「air-dry」的用法，與本句語境不同。",
-        "air-mcq-23": "「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」是「airborne infection / disease」的用法，與本句語境不同。",
-        "air-mcq-20": "「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」是「air clothes / bedding」的用法，與本句語境不同。",
-        "air-mcq-24": "「有良好空氣流通、通常亦感覺明亮寬敞的」是「airy」的用法，與本句語境不同。",
-        "air-mcq-19": "「讓空氣流通，以除去濕氣、悶味或異味」是「air out something」的用法，與本句語境不同。"
+        "air-mcq-22": "本句的「airborne」指「在空中或由空氣支撐、傳送的」。",
+        "air-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-22"
     },
@@ -2030,11 +1850,9 @@ export default {
       "masked": "Some infections are ____.",
       "options": [
         "air-mcq-23",
-        "air-mcq-22",
-        "air-mcq-24",
-        "air-mcq-21",
+        "air-mcq-28",
         "air-mcq-25",
-        "air-mcq-20"
+        "air-mcq-12"
       ],
       "explanation": "本句的「airborne」指「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」。",
       "sentenceIndex": 45,
@@ -2043,12 +1861,10 @@ export default {
         "airborne"
       ],
       "optionReasons": {
-        "air-mcq-23": "本句指「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」。",
-        "air-mcq-22": "「在空中或由空氣支撐、傳送的」是「airborne（在空中的）」的用法，與本句語境不同。",
-        "air-mcq-24": "「有良好空氣流通、通常亦感覺明亮寬敞的」是「airy」的用法，與本句語境不同。",
-        "air-mcq-21": "「不使用機器或熱力，而讓空氣自然把某物吹乾」是「air-dry」的用法，與本句語境不同。",
-        "air-mcq-25": "「輕盈的；不沉重的時，表示輕盈的」是「airy（輕盈的；不沉重的）」的用法，與本句語境不同。",
-        "air-mcq-20": "「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」是「air clothes / bedding」的用法，與本句語境不同。"
+        "air-mcq-23": "本句的「airborne」指「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-23"
     },
@@ -2060,11 +1876,9 @@ export default {
       "masked": "The masks help reduce exposure to ____.",
       "options": [
         "air-mcq-23",
-        "air-mcq-22",
-        "air-mcq-24",
-        "air-mcq-21",
-        "air-mcq-25",
-        "air-mcq-20"
+        "air-mcq-12",
+        "air-mcq-28",
+        "air-mcq-25"
       ],
       "explanation": "本句的「airborne particles」指「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」。",
       "sentenceIndex": 46,
@@ -2073,12 +1887,10 @@ export default {
         "airborne particles"
       ],
       "optionReasons": {
-        "air-mcq-23": "本句指「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」。",
-        "air-mcq-22": "「在空中或由空氣支撐、傳送的」是「airborne（在空中的）」的用法，與本句語境不同。",
-        "air-mcq-24": "「有良好空氣流通、通常亦感覺明亮寬敞的」是「airy」的用法，與本句語境不同。",
-        "air-mcq-21": "「不使用機器或熱力，而讓空氣自然把某物吹乾」是「air-dry」的用法，與本句語境不同。",
-        "air-mcq-25": "「輕盈的；不沉重的時，表示輕盈的」是「airy（輕盈的；不沉重的）」的用法，與本句語境不同。",
-        "air-mcq-20": "「把衣物或床上用品放在空氣流通的地方，以保持乾爽或除味」是「air clothes / bedding」的用法，與本句語境不同。"
+        "air-mcq-23": "本句的「airborne particles」指「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」。",
+        "air-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-23"
     },
@@ -2090,11 +1902,9 @@ export default {
       "masked": "The apartment is bright and ____.",
       "options": [
         "air-mcq-24",
-        "air-mcq-23",
-        "air-mcq-25",
-        "air-mcq-22",
-        "air-mcq-26",
-        "air-mcq-21"
+        "air-mcq-28",
+        "air-mcq-14",
+        "air-mcq-25"
       ],
       "explanation": "本句的「airy」指「有良好空氣流通、通常亦感覺明亮寬敞的」。",
       "sentenceIndex": 47,
@@ -2103,12 +1913,10 @@ export default {
         "airy"
       ],
       "optionReasons": {
-        "air-mcq-24": "本句指「有良好空氣流通、通常亦感覺明亮寬敞的」。",
-        "air-mcq-23": "「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」是「airborne infection / disease」的用法，與本句語境不同。",
-        "air-mcq-25": "「輕盈的；不沉重的時，表示輕盈的」是「airy（輕盈的；不沉重的）」的用法，與本句語境不同。",
-        "air-mcq-22": "「在空中或由空氣支撐、傳送的」是「airborne（在空中的）」的用法，與本句語境不同。",
-        "air-mcq-26": "「缺乏流通空氣、令人感到悶焗的」是「airless」的用法，與本句語境不同。",
-        "air-mcq-21": "「不使用機器或熱力，而讓空氣自然把某物吹乾」是「air-dry」的用法，與本句語境不同。"
+        "air-mcq-24": "本句的「airy」指「有良好空氣流通、通常亦感覺明亮寬敞的」。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-24"
     },
@@ -2120,11 +1928,9 @@ export default {
       "masked": "I prefer an ____ with large windows.",
       "options": [
         "air-mcq-24",
-        "air-mcq-23",
-        "air-mcq-25",
-        "air-mcq-22",
-        "air-mcq-26",
-        "air-mcq-21"
+        "air-mcq-14",
+        "air-mcq-28",
+        "air-mcq-17"
       ],
       "explanation": "本句的「airy room」指「有良好空氣流通、通常亦感覺明亮寬敞的」。",
       "sentenceIndex": 48,
@@ -2133,12 +1939,10 @@ export default {
         "airy room"
       ],
       "optionReasons": {
-        "air-mcq-24": "本句指「有良好空氣流通、通常亦感覺明亮寬敞的」。",
-        "air-mcq-23": "「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」是「airborne infection / disease」的用法，與本句語境不同。",
-        "air-mcq-25": "「輕盈的；不沉重的時，表示輕盈的」是「airy（輕盈的；不沉重的）」的用法，與本句語境不同。",
-        "air-mcq-22": "「在空中或由空氣支撐、傳送的」是「airborne（在空中的）」的用法，與本句語境不同。",
-        "air-mcq-26": "「缺乏流通空氣、令人感到悶焗的」是「airless」的用法，與本句語境不同。",
-        "air-mcq-21": "「不使用機器或熱力，而讓空氣自然把某物吹乾」是「air-dry」的用法，與本句語境不同。"
+        "air-mcq-24": "本句的「airy room」指「有良好空氣流通、通常亦感覺明亮寬敞的」。",
+        "air-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-24"
     },
@@ -2150,11 +1954,9 @@ export default {
       "masked": "The cake has a light, ____.",
       "options": [
         "air-mcq-25",
-        "air-mcq-24",
-        "air-mcq-26",
-        "air-mcq-23",
-        "air-mcq-27",
-        "air-mcq-22"
+        "air-mcq-14",
+        "air-mcq-10",
+        "air-mcq-19"
       ],
       "explanation": "本句的「airy texture」指「輕盈的；不沉重的時，表示輕盈的」。",
       "sentenceIndex": 49,
@@ -2163,12 +1965,10 @@ export default {
         "airy texture"
       ],
       "optionReasons": {
-        "air-mcq-25": "本句指「輕盈的；不沉重的時，表示輕盈的」。",
-        "air-mcq-24": "「有良好空氣流通、通常亦感覺明亮寬敞的」是「airy」的用法，與本句語境不同。",
-        "air-mcq-26": "「缺乏流通空氣、令人感到悶焗的」是「airless」的用法，與本句語境不同。",
-        "air-mcq-23": "「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」是「airborne infection / disease」的用法，與本句語境不同。",
-        "air-mcq-27": "「透過坦白溝通消除誤會、尷尬或緊張氣氛」是「clear the air」的用法，與本句語境不同。",
-        "air-mcq-22": "「在空中或由空氣支撐、傳送的」是「airborne（在空中的）」的用法，與本句語境不同。"
+        "air-mcq-25": "本句的「airy texture」指「輕盈的；不沉重的時，表示輕盈的」。",
+        "air-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-25"
     },
@@ -2180,11 +1980,9 @@ export default {
       "masked": "The room has an ____.",
       "options": [
         "air-mcq-25",
-        "air-mcq-24",
-        "air-mcq-26",
         "air-mcq-23",
         "air-mcq-27",
-        "air-mcq-22"
+        "air-mcq-14"
       ],
       "explanation": "本句的「airy feel」指「輕盈的；不沉重的時，表示輕盈的」。",
       "sentenceIndex": 50,
@@ -2193,12 +1991,10 @@ export default {
         "airy feel"
       ],
       "optionReasons": {
-        "air-mcq-25": "本句指「輕盈的；不沉重的時，表示輕盈的」。",
-        "air-mcq-24": "「有良好空氣流通、通常亦感覺明亮寬敞的」是「airy」的用法，與本句語境不同。",
-        "air-mcq-26": "「缺乏流通空氣、令人感到悶焗的」是「airless」的用法，與本句語境不同。",
-        "air-mcq-23": "「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」是「airborne infection / disease」的用法，與本句語境不同。",
-        "air-mcq-27": "「透過坦白溝通消除誤會、尷尬或緊張氣氛」是「clear the air」的用法，與本句語境不同。",
-        "air-mcq-22": "「在空中或由空氣支撐、傳送的」是「airborne（在空中的）」的用法，與本句語境不同。"
+        "air-mcq-25": "本句的「airy feel」指「輕盈的；不沉重的時，表示輕盈的」。",
+        "air-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-25"
     },
@@ -2210,11 +2006,9 @@ export default {
       "masked": "The room felt hot and ____.",
       "options": [
         "air-mcq-26",
-        "air-mcq-25",
-        "air-mcq-27",
-        "air-mcq-24",
-        "air-mcq-28",
-        "air-mcq-23"
+        "air-mcq-17",
+        "air-mcq-15",
+        "air-mcq-28"
       ],
       "explanation": "本句的「airless」指「缺乏流通空氣、令人感到悶焗的」。",
       "sentenceIndex": 51,
@@ -2223,12 +2017,10 @@ export default {
         "airless"
       ],
       "optionReasons": {
-        "air-mcq-26": "本句指「缺乏流通空氣、令人感到悶焗的」。",
-        "air-mcq-25": "「輕盈的；不沉重的時，表示輕盈的」是「airy（輕盈的；不沉重的）」的用法，與本句語境不同。",
-        "air-mcq-27": "「透過坦白溝通消除誤會、尷尬或緊張氣氛」是「clear the air」的用法，與本句語境不同。",
-        "air-mcq-24": "「有良好空氣流通、通常亦感覺明亮寬敞的」是「airy」的用法，與本句語境不同。",
-        "air-mcq-28": "「某件事仍未確定或尚未作出決定」是「up in the air」的用法，與本句語境不同。",
-        "air-mcq-23": "「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」是「airborne infection / disease」的用法，與本句語境不同。"
+        "air-mcq-26": "本句的「airless」指「缺乏流通空氣、令人感到悶焗的」。",
+        "air-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-26"
     },
@@ -2240,11 +2032,9 @@ export default {
       "masked": "The basement was dark and ____.",
       "options": [
         "air-mcq-26",
-        "air-mcq-25",
-        "air-mcq-27",
-        "air-mcq-24",
-        "air-mcq-28",
-        "air-mcq-23"
+        "air-mcq-12",
+        "air-mcq-14",
+        "air-mcq-28"
       ],
       "explanation": "本句的「airless」指「缺乏流通空氣、令人感到悶焗的」。",
       "sentenceIndex": 52,
@@ -2253,12 +2043,10 @@ export default {
         "airless"
       ],
       "optionReasons": {
-        "air-mcq-26": "本句指「缺乏流通空氣、令人感到悶焗的」。",
-        "air-mcq-25": "「輕盈的；不沉重的時，表示輕盈的」是「airy（輕盈的；不沉重的）」的用法，與本句語境不同。",
-        "air-mcq-27": "「透過坦白溝通消除誤會、尷尬或緊張氣氛」是「clear the air」的用法，與本句語境不同。",
-        "air-mcq-24": "「有良好空氣流通、通常亦感覺明亮寬敞的」是「airy」的用法，與本句語境不同。",
-        "air-mcq-28": "「某件事仍未確定或尚未作出決定」是「up in the air」的用法，與本句語境不同。",
-        "air-mcq-23": "「表示經空氣傳播的感染／疾病；例句：「有些感染可經空氣傳播。」」是「airborne infection / disease」的用法，與本句語境不同。"
+        "air-mcq-26": "本句的「airless」指「缺乏流通空氣、令人感到悶焗的」。",
+        "air-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-26"
     },
@@ -2270,11 +2058,9 @@ export default {
       "masked": "We need to talk and ____.",
       "options": [
         "air-mcq-27",
-        "air-mcq-26",
-        "air-mcq-28",
+        "air-mcq-30",
         "air-mcq-25",
-        "air-mcq-29",
-        "air-mcq-24"
+        "air-mcq-29"
       ],
       "explanation": "本句的「clear the air」指「透過坦白溝通消除誤會、尷尬或緊張氣氛」。",
       "sentenceIndex": 53,
@@ -2283,12 +2069,10 @@ export default {
         "clear the air"
       ],
       "optionReasons": {
-        "air-mcq-27": "本句指「透過坦白溝通消除誤會、尷尬或緊張氣氛」。",
-        "air-mcq-26": "「缺乏流通空氣、令人感到悶焗的」是「airless」的用法，與本句語境不同。",
-        "air-mcq-28": "「某件事仍未確定或尚未作出決定」是「up in the air」的用法，與本句語境不同。",
-        "air-mcq-25": "「輕盈的；不沉重的時，表示輕盈的」是「airy（輕盈的；不沉重的）」的用法，與本句語境不同。",
-        "air-mcq-29": "「因極度開心而感覺輕飄飄、非常興奮」是「walk on air」的用法，與本句語境不同。",
-        "air-mcq-24": "「有良好空氣流通、通常亦感覺明亮寬敞的」是「airy」的用法，與本句語境不同。"
+        "air-mcq-27": "本句的「clear the air」指「透過坦白溝通消除誤會、尷尬或緊張氣氛」。",
+        "air-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-27"
     },
@@ -2300,11 +2084,9 @@ export default {
       "masked": "The meeting helped ____ between them.",
       "options": [
         "air-mcq-27",
-        "air-mcq-26",
-        "air-mcq-28",
-        "air-mcq-25",
         "air-mcq-29",
-        "air-mcq-24"
+        "air-mcq-14",
+        "air-mcq-07"
       ],
       "explanation": "本句的「clear the air」指「透過坦白溝通消除誤會、尷尬或緊張氣氛」。",
       "sentenceIndex": 54,
@@ -2313,12 +2095,10 @@ export default {
         "clear the air"
       ],
       "optionReasons": {
-        "air-mcq-27": "本句指「透過坦白溝通消除誤會、尷尬或緊張氣氛」。",
-        "air-mcq-26": "「缺乏流通空氣、令人感到悶焗的」是「airless」的用法，與本句語境不同。",
-        "air-mcq-28": "「某件事仍未確定或尚未作出決定」是「up in the air」的用法，與本句語境不同。",
-        "air-mcq-25": "「輕盈的；不沉重的時，表示輕盈的」是「airy（輕盈的；不沉重的）」的用法，與本句語境不同。",
-        "air-mcq-29": "「因極度開心而感覺輕飄飄、非常興奮」是「walk on air」的用法，與本句語境不同。",
-        "air-mcq-24": "「有良好空氣流通、通常亦感覺明亮寬敞的」是「airy」的用法，與本句語境不同。"
+        "air-mcq-27": "本句的「clear the air」指「透過坦白溝通消除誤會、尷尬或緊張氣氛」。",
+        "air-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-27"
     },
@@ -2330,11 +2110,9 @@ export default {
       "masked": "Our travel plans are still ____.",
       "options": [
         "air-mcq-28",
-        "air-mcq-27",
-        "air-mcq-29",
-        "air-mcq-26",
-        "air-mcq-30",
-        "air-mcq-25"
+        "air-mcq-19",
+        "air-mcq-25",
+        "air-mcq-01"
       ],
       "explanation": "本句的「up in the air」指「某件事仍未確定或尚未作出決定」。",
       "sentenceIndex": 55,
@@ -2343,12 +2121,10 @@ export default {
         "up in the air"
       ],
       "optionReasons": {
-        "air-mcq-28": "本句指「某件事仍未確定或尚未作出決定」。",
-        "air-mcq-27": "「透過坦白溝通消除誤會、尷尬或緊張氣氛」是「clear the air」的用法，與本句語境不同。",
-        "air-mcq-29": "「因極度開心而感覺輕飄飄、非常興奮」是「walk on air」的用法，與本句語境不同。",
-        "air-mcq-26": "「缺乏流通空氣、令人感到悶焗的」是「airless」的用法，與本句語境不同。",
-        "air-mcq-30": "「帶來新鮮感、活力或令人舒服改變的人或事物」是「a breath of fresh air」的用法，與本句語境不同。",
-        "air-mcq-25": "「輕盈的；不沉重的時，表示輕盈的」是「airy（輕盈的；不沉重的）」的用法，與本句語境不同。"
+        "air-mcq-28": "本句的「up in the air」指「某件事仍未確定或尚未作出決定」。",
+        "air-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-28"
     },
@@ -2360,11 +2136,9 @@ export default {
       "masked": "The final date is ____.",
       "options": [
         "air-mcq-28",
-        "air-mcq-27",
-        "air-mcq-29",
-        "air-mcq-26",
-        "air-mcq-30",
-        "air-mcq-25"
+        "air-mcq-25",
+        "air-mcq-20",
+        "air-mcq-01"
       ],
       "explanation": "本句的「up in the air」指「某件事仍未確定或尚未作出決定」。",
       "sentenceIndex": 56,
@@ -2373,12 +2147,10 @@ export default {
         "up in the air"
       ],
       "optionReasons": {
-        "air-mcq-28": "本句指「某件事仍未確定或尚未作出決定」。",
-        "air-mcq-27": "「透過坦白溝通消除誤會、尷尬或緊張氣氛」是「clear the air」的用法，與本句語境不同。",
-        "air-mcq-29": "「因極度開心而感覺輕飄飄、非常興奮」是「walk on air」的用法，與本句語境不同。",
-        "air-mcq-26": "「缺乏流通空氣、令人感到悶焗的」是「airless」的用法，與本句語境不同。",
-        "air-mcq-30": "「帶來新鮮感、活力或令人舒服改變的人或事物」是「a breath of fresh air」的用法，與本句語境不同。",
-        "air-mcq-25": "「輕盈的；不沉重的時，表示輕盈的」是「airy（輕盈的；不沉重的）」的用法，與本句語境不同。"
+        "air-mcq-28": "本句的「up in the air」指「某件事仍未確定或尚未作出決定」。",
+        "air-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-28"
     },
@@ -2390,11 +2162,9 @@ export default {
       "masked": "She was ____ after hearing the news.",
       "options": [
         "air-mcq-29",
+        "air-mcq-22",
         "air-mcq-28",
-        "air-mcq-30",
-        "air-mcq-27",
-        "air-mcq-26",
-        "air-mcq-25"
+        "air-mcq-27"
       ],
       "explanation": "本句的「walking on air」指「因極度開心而感覺輕飄飄、非常興奮」。",
       "sentenceIndex": 57,
@@ -2403,12 +2173,10 @@ export default {
         "walking on air"
       ],
       "optionReasons": {
-        "air-mcq-29": "本句指「因極度開心而感覺輕飄飄、非常興奮」。",
-        "air-mcq-28": "「某件事仍未確定或尚未作出決定」是「up in the air」的用法，與本句語境不同。",
-        "air-mcq-30": "「帶來新鮮感、活力或令人舒服改變的人或事物」是「a breath of fresh air」的用法，與本句語境不同。",
-        "air-mcq-27": "「透過坦白溝通消除誤會、尷尬或緊張氣氛」是「clear the air」的用法，與本句語境不同。",
-        "air-mcq-26": "「缺乏流通空氣、令人感到悶焗的」是「airless」的用法，與本句語境不同。",
-        "air-mcq-25": "「輕盈的；不沉重的時，表示輕盈的」是「airy（輕盈的；不沉重的）」的用法，與本句語境不同。"
+        "air-mcq-29": "本句的「walking on air」指「因極度開心而感覺輕飄飄、非常興奮」。",
+        "air-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-29"
     },
@@ -2420,11 +2188,9 @@ export default {
       "masked": "He felt as if he were ____.",
       "options": [
         "air-mcq-29",
-        "air-mcq-28",
-        "air-mcq-30",
-        "air-mcq-27",
-        "air-mcq-26",
-        "air-mcq-25"
+        "air-mcq-18",
+        "air-mcq-14",
+        "air-mcq-27"
       ],
       "explanation": "本句的「walking on air」指「因極度開心而感覺輕飄飄、非常興奮」。",
       "sentenceIndex": 58,
@@ -2433,12 +2199,10 @@ export default {
         "walking on air"
       ],
       "optionReasons": {
-        "air-mcq-29": "本句指「因極度開心而感覺輕飄飄、非常興奮」。",
-        "air-mcq-28": "「某件事仍未確定或尚未作出決定」是「up in the air」的用法，與本句語境不同。",
-        "air-mcq-30": "「帶來新鮮感、活力或令人舒服改變的人或事物」是「a breath of fresh air」的用法，與本句語境不同。",
-        "air-mcq-27": "「透過坦白溝通消除誤會、尷尬或緊張氣氛」是「clear the air」的用法，與本句語境不同。",
-        "air-mcq-26": "「缺乏流通空氣、令人感到悶焗的」是「airless」的用法，與本句語境不同。",
-        "air-mcq-25": "「輕盈的；不沉重的時，表示輕盈的」是「airy（輕盈的；不沉重的）」的用法，與本句語境不同。"
+        "air-mcq-29": "本句的「walking on air」指「因極度開心而感覺輕飄飄、非常興奮」。",
+        "air-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-29"
     },
@@ -2450,11 +2214,9 @@ export default {
       "masked": "Her new ideas were ____.",
       "options": [
         "air-mcq-30",
-        "air-mcq-29",
-        "air-mcq-28",
-        "air-mcq-27",
-        "air-mcq-26",
-        "air-mcq-25"
+        "air-mcq-19",
+        "air-mcq-14",
+        "air-mcq-06"
       ],
       "explanation": "本句的「a breath of fresh air」指「帶來新鮮感、活力或令人舒服改變的人或事物」。",
       "sentenceIndex": 59,
@@ -2463,12 +2225,10 @@ export default {
         "a breath of fresh air"
       ],
       "optionReasons": {
-        "air-mcq-30": "本句指「帶來新鮮感、活力或令人舒服改變的人或事物」。",
-        "air-mcq-29": "「因極度開心而感覺輕飄飄、非常興奮」是「walk on air」的用法，與本句語境不同。",
-        "air-mcq-28": "「某件事仍未確定或尚未作出決定」是「up in the air」的用法，與本句語境不同。",
-        "air-mcq-27": "「透過坦白溝通消除誤會、尷尬或緊張氣氛」是「clear the air」的用法，與本句語境不同。",
-        "air-mcq-26": "「缺乏流通空氣、令人感到悶焗的」是「airless」的用法，與本句語境不同。",
-        "air-mcq-25": "「輕盈的；不沉重的時，表示輕盈的」是「airy（輕盈的；不沉重的）」的用法，與本句語境不同。"
+        "air-mcq-30": "本句的「a breath of fresh air」指「帶來新鮮感、活力或令人舒服改變的人或事物」。",
+        "air-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-30"
     },
@@ -2480,11 +2240,9 @@ export default {
       "masked": "His cheerful personality is ____ in the office.",
       "options": [
         "air-mcq-30",
-        "air-mcq-29",
-        "air-mcq-28",
-        "air-mcq-27",
-        "air-mcq-26",
-        "air-mcq-25"
+        "air-mcq-01",
+        "air-mcq-04",
+        "air-mcq-28"
       ],
       "explanation": "本句的「a breath of fresh air」指「帶來新鮮感、活力或令人舒服改變的人或事物」。",
       "sentenceIndex": 60,
@@ -2493,12 +2251,10 @@ export default {
         "a breath of fresh air"
       ],
       "optionReasons": {
-        "air-mcq-30": "本句指「帶來新鮮感、活力或令人舒服改變的人或事物」。",
-        "air-mcq-29": "「因極度開心而感覺輕飄飄、非常興奮」是「walk on air」的用法，與本句語境不同。",
-        "air-mcq-28": "「某件事仍未確定或尚未作出決定」是「up in the air」的用法，與本句語境不同。",
-        "air-mcq-27": "「透過坦白溝通消除誤會、尷尬或緊張氣氛」是「clear the air」的用法，與本句語境不同。",
-        "air-mcq-26": "「缺乏流通空氣、令人感到悶焗的」是「airless」的用法，與本句語境不同。",
-        "air-mcq-25": "「輕盈的；不沉重的時，表示輕盈的」是「airy（輕盈的；不沉重的）」的用法，與本句語境不同。"
+        "air-mcq-30": "本句的「a breath of fresh air」指「帶來新鮮感、活力或令人舒服改變的人或事物」。",
+        "air-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "air-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "air-mcq-30"
     }
@@ -2510,5 +2266,7 @@ export default {
     "sha256": "c9f91e41ebbc9b2f0a145c4be1a0195e47734bab0c979b050c722f2d617bdcde",
     "pages": 22
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

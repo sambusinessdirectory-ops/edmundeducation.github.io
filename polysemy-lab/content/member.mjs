@@ -1714,11 +1714,9 @@ export default {
       "masked": "I am writing ____.",
       "options": [
         "member-pdf-001",
-        "member-mcq-02",
-        "member-mcq-03",
-        "member-mcq-04",
-        "member-mcq-05",
-        "member-mcq-06"
+        "member-mcq-68",
+        "member-mcq-35",
+        "member-mcq-33"
       ],
       "explanation": "本句的「as a member of the sales department」指「屬於某個團體、組織、團隊或機構的人」。",
       "sentenceIndex": 0,
@@ -1727,12 +1725,10 @@ export default {
         "as a member of the sales department"
       ],
       "optionReasons": {
-        "member-pdf-001": "本句指「屬於某個團體、組織、團隊或機構的人」。",
-        "member-mcq-02": "「部門成員」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-pdf-001": "本句的「as a member of the sales department」指「屬於某個團體、組織、團隊或機構的人」。",
+        "member-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-pdf-001"
     },
@@ -1744,11 +1740,9 @@ export default {
       "masked": "Every ____ has a defined role.",
       "options": [
         "member-pdf-001",
-        "member-mcq-02",
-        "member-mcq-03",
-        "member-mcq-04",
-        "member-mcq-05",
-        "member-mcq-06"
+        "member-mcq-26",
+        "member-mcq-33",
+        "member-mcq-20"
       ],
       "explanation": "本句的「member of the team」指「屬於某個團體、組織、團隊或機構的人」。",
       "sentenceIndex": 1,
@@ -1757,12 +1751,10 @@ export default {
         "member of the team"
       ],
       "optionReasons": {
-        "member-pdf-001": "本句指「屬於某個團體、組織、團隊或機構的人」。",
-        "member-mcq-02": "「部門成員」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-pdf-001": "本句的「member of the team」指「屬於某個團體、組織、團隊或機構的人」。",
+        "member-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-pdf-001"
     },
@@ -1774,11 +1766,9 @@ export default {
       "masked": "She is one of the newest ____ of the department.",
       "options": [
         "member-pdf-001",
-        "member-mcq-02",
-        "member-mcq-03",
-        "member-mcq-04",
-        "member-mcq-05",
-        "member-mcq-06"
+        "member-mcq-66",
+        "member-mcq-35",
+        "member-mcq-20"
       ],
       "explanation": "本句的「members」指「屬於某個團體、組織、團隊或機構的人」。",
       "sentenceIndex": 2,
@@ -1787,12 +1777,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-pdf-001": "本句指「屬於某個團體、組織、團隊或機構的人」。",
-        "member-mcq-02": "「部門成員」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-pdf-001": "本句的「members」指「屬於某個團體、組織、團隊或機構的人」。",
+        "member-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-pdf-001"
     },
@@ -1804,11 +1792,9 @@ export default {
       "masked": "Every ____ attended the meeting.",
       "options": [
         "member-mcq-02",
-        "member-mcq-01",
-        "member-mcq-03",
-        "member-mcq-04",
-        "member-mcq-05",
-        "member-mcq-06"
+        "member-mcq-33",
+        "member-mcq-60",
+        "member-mcq-58"
       ],
       "explanation": "本句的「member of the department」指「部門成員」。",
       "sentenceIndex": 3,
@@ -1817,12 +1803,10 @@ export default {
         "member of the department"
       ],
       "optionReasons": {
-        "member-mcq-02": "本句指「部門成員」。",
-        "member-mcq-01": "「成員；會員」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-mcq-02": "本句的「member of the department」指「部門成員」。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-02"
     },
@@ -1834,11 +1818,9 @@ export default {
       "masked": "____ of different departments may have different priorities.",
       "options": [
         "member-mcq-02",
-        "member-mcq-01",
-        "member-mcq-03",
-        "member-mcq-04",
-        "member-mcq-05",
-        "member-mcq-06"
+        "member-mcq-59",
+        "member-mcq-58",
+        "member-mcq-29"
       ],
       "explanation": "本句的「Members」指「部門成員」。",
       "sentenceIndex": 4,
@@ -1847,12 +1829,10 @@ export default {
         "Members"
       ],
       "optionReasons": {
-        "member-mcq-02": "本句指「部門成員」。",
-        "member-mcq-01": "「成員；會員」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-mcq-02": "本句的「Members」指「部門成員」。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-02"
     },
@@ -1864,11 +1844,9 @@ export default {
       "masked": "Each ____ should know their responsibilities.",
       "options": [
         "member-mcq-03",
-        "member-mcq-02",
-        "member-mcq-04",
-        "member-mcq-01",
-        "member-mcq-05",
-        "member-mcq-06"
+        "member-mcq-62",
+        "member-mcq-63",
+        "member-mcq-59"
       ],
       "explanation": "本句的「team member」指「團隊成員」。",
       "sentenceIndex": 5,
@@ -1877,12 +1855,10 @@ export default {
         "team member"
       ],
       "optionReasons": {
-        "member-mcq-03": "本句指「團隊成員」。",
-        "member-mcq-02": "「部門成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-01": "「成員；會員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-mcq-03": "本句的「team member」指「團隊成員」。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-03"
     },
@@ -1894,11 +1870,9 @@ export default {
       "masked": "Strong team ____ support one another.",
       "options": [
         "member-mcq-03",
-        "member-mcq-02",
-        "member-mcq-04",
-        "member-mcq-01",
-        "member-mcq-05",
-        "member-mcq-06"
+        "member-pdf-003",
+        "member-mcq-35",
+        "member-mcq-34"
       ],
       "explanation": "本句的「members」指「團隊成員」。",
       "sentenceIndex": 6,
@@ -1907,12 +1881,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-03": "本句指「團隊成員」。",
-        "member-mcq-02": "「部門成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-01": "「成員；會員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-mcq-03": "本句的「members」指「團隊成員」。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-03"
     },
@@ -1924,11 +1896,9 @@ export default {
       "masked": "Each ____ should contribute.",
       "options": [
         "member-mcq-04",
-        "member-mcq-03",
-        "member-mcq-05",
-        "member-mcq-02",
-        "member-mcq-06",
-        "member-mcq-01"
+        "member-mcq-23",
+        "member-mcq-53",
+        "member-mcq-63"
       ],
       "explanation": "本句的「group member」指「小組成員」。",
       "sentenceIndex": 7,
@@ -1937,12 +1907,10 @@ export default {
         "group member"
       ],
       "optionReasons": {
-        "member-mcq-04": "本句指「小組成員」。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-02": "「部門成員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。",
-        "member-mcq-01": "「成員；會員」與本句語境不同。"
+        "member-mcq-04": "本句的「group member」指「小組成員」。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-04"
     },
@@ -1954,11 +1922,9 @@ export default {
       "masked": "Group ____ shared the workload.",
       "options": [
         "member-mcq-04",
-        "member-mcq-03",
-        "member-mcq-05",
-        "member-mcq-02",
-        "member-mcq-06",
-        "member-mcq-01"
+        "member-mcq-63",
+        "member-mcq-34",
+        "member-mcq-61"
       ],
       "explanation": "本句的「members」指「小組成員」。",
       "sentenceIndex": 8,
@@ -1967,12 +1933,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-04": "本句指「小組成員」。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-02": "「部門成員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。",
-        "member-mcq-01": "「成員；會員」與本句語境不同。"
+        "member-mcq-04": "本句的「members」指「小組成員」。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-04"
     },
@@ -1984,11 +1948,9 @@ export default {
       "masked": "A ____ answered the complaint.",
       "options": [
         "member-mcq-05",
-        "member-mcq-04",
-        "member-mcq-06",
-        "member-mcq-03",
-        "member-mcq-07",
-        "member-mcq-02"
+        "member-mcq-23",
+        "member-mcq-61",
+        "member-mcq-58"
       ],
       "explanation": "本句的「staff member」指「員工；職員」。",
       "sentenceIndex": 9,
@@ -1997,12 +1959,10 @@ export default {
         "staff member"
       ],
       "optionReasons": {
-        "member-mcq-05": "本句指「員工；職員」。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。",
-        "member-mcq-07": "「同住成員」與本句語境不同。",
-        "member-mcq-02": "「部門成員」與本句語境不同。"
+        "member-mcq-05": "本句的「staff member」指「員工；職員」。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-05"
     },
@@ -2014,11 +1974,9 @@ export default {
       "masked": "Every staff ____ must follow the policy.",
       "options": [
         "member-mcq-05",
-        "member-mcq-04",
-        "member-mcq-06",
-        "member-mcq-03",
-        "member-mcq-07",
-        "member-mcq-02"
+        "member-mcq-23",
+        "member-mcq-65",
+        "member-mcq-61"
       ],
       "explanation": "本句的「member」指「員工；職員」。",
       "sentenceIndex": 10,
@@ -2027,12 +1985,10 @@ export default {
         "member"
       ],
       "optionReasons": {
-        "member-mcq-05": "本句指「員工；職員」。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。",
-        "member-mcq-07": "「同住成員」與本句語境不同。",
-        "member-mcq-02": "「部門成員」與本句語境不同。"
+        "member-mcq-05": "本句的「member」指「員工；職員」。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-05"
     },
@@ -2044,11 +2000,9 @@ export default {
       "masked": "Only close ____ were invited.",
       "options": [
         "member-mcq-06",
-        "member-mcq-05",
-        "member-mcq-07",
-        "member-mcq-04",
-        "member-mcq-08",
-        "member-mcq-03"
+        "member-mcq-23",
+        "member-mcq-60",
+        "member-mcq-29"
       ],
       "explanation": "本句的「family members」指「家庭成員；家人」。",
       "sentenceIndex": 11,
@@ -2057,12 +2011,10 @@ export default {
         "family members"
       ],
       "optionReasons": {
-        "member-mcq-06": "本句指「家庭成員；家人」。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-07": "「同住成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-08": "「俱樂部會員」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。"
+        "member-mcq-06": "本句的「family members」指「家庭成員；家人」。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-06"
     },
@@ -2074,11 +2026,9 @@ export default {
       "masked": "A family ____ accompanied the patient.",
       "options": [
         "member-mcq-06",
-        "member-mcq-05",
-        "member-mcq-07",
-        "member-mcq-04",
-        "member-mcq-08",
-        "member-mcq-03"
+        "member-mcq-63",
+        "member-mcq-33",
+        "member-mcq-23"
       ],
       "explanation": "本句的「member」指「家庭成員；家人」。",
       "sentenceIndex": 12,
@@ -2087,12 +2037,10 @@ export default {
         "member"
       ],
       "optionReasons": {
-        "member-mcq-06": "本句指「家庭成員；家人」。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-07": "「同住成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-08": "「俱樂部會員」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。"
+        "member-mcq-06": "本句的「member」指「家庭成員；家人」。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-06"
     },
@@ -2104,11 +2052,9 @@ export default {
       "masked": "The benefit is available to immediate family ____.",
       "options": [
         "member-mcq-06",
-        "member-mcq-05",
-        "member-mcq-07",
-        "member-mcq-04",
-        "member-mcq-08",
-        "member-mcq-03"
+        "member-mcq-58",
+        "member-mcq-62",
+        "member-mcq-35"
       ],
       "explanation": "本句的「members」指「家庭成員；家人」。",
       "sentenceIndex": 13,
@@ -2117,12 +2063,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-06": "本句指「家庭成員；家人」。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-07": "「同住成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-08": "「俱樂部會員」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。"
+        "member-mcq-06": "本句的「members」指「家庭成員；家人」。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-06"
     },
@@ -2134,11 +2078,9 @@ export default {
       "masked": "Definitions of “immediate family ____” may vary by policy.",
       "options": [
         "member-mcq-06",
-        "member-mcq-05",
-        "member-mcq-07",
-        "member-mcq-04",
-        "member-mcq-08",
-        "member-mcq-03"
+        "member-mcq-61",
+        "member-mcq-34",
+        "member-mcq-23"
       ],
       "explanation": "本句的「member」指「家庭成員；家人」。",
       "sentenceIndex": 14,
@@ -2147,12 +2089,10 @@ export default {
         "member"
       ],
       "optionReasons": {
-        "member-mcq-06": "本句指「家庭成員；家人」。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-07": "「同住成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-08": "「俱樂部會員」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。"
+        "member-mcq-06": "本句的「member」指「家庭成員；家人」。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-06"
     },
@@ -2164,11 +2104,9 @@ export default {
       "masked": "Each ____ must be listed.",
       "options": [
         "member-mcq-07",
-        "member-mcq-06",
-        "member-mcq-08",
-        "member-mcq-05",
-        "member-mcq-09",
-        "member-mcq-04"
+        "member-mcq-62",
+        "member-mcq-59",
+        "member-mcq-65"
       ],
       "explanation": "本句的「household member」指「同住成員」。",
       "sentenceIndex": 15,
@@ -2177,12 +2115,10 @@ export default {
         "household member"
       ],
       "optionReasons": {
-        "member-mcq-07": "本句指「同住成員」。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。",
-        "member-mcq-08": "「俱樂部會員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-09": "「協會會員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。"
+        "member-mcq-07": "本句的「household member」指「同住成員」。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-07"
     },
@@ -2194,11 +2130,9 @@ export default {
       "masked": "Household ____ do not necessarily have to be relatives.",
       "options": [
         "member-mcq-07",
-        "member-mcq-06",
-        "member-mcq-08",
-        "member-mcq-05",
-        "member-mcq-09",
-        "member-mcq-04"
+        "member-mcq-61",
+        "member-pdf-003",
+        "member-mcq-33"
       ],
       "explanation": "本句的「members」指「同住成員」。",
       "sentenceIndex": 16,
@@ -2207,12 +2141,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-07": "本句指「同住成員」。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。",
-        "member-mcq-08": "「俱樂部會員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-09": "「協會會員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。"
+        "member-mcq-07": "本句的「members」指「同住成員」。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-07"
     },
@@ -2224,11 +2156,9 @@ export default {
       "masked": "Only ____ may use the facility.",
       "options": [
         "member-mcq-08",
-        "member-mcq-07",
-        "member-mcq-09",
-        "member-mcq-06",
-        "member-mcq-10",
-        "member-mcq-05"
+        "member-mcq-56",
+        "member-pdf-003",
+        "member-mcq-61"
       ],
       "explanation": "本句的「club members」指「俱樂部會員」。",
       "sentenceIndex": 17,
@@ -2237,12 +2167,10 @@ export default {
         "club members"
       ],
       "optionReasons": {
-        "member-mcq-08": "本句指「俱樂部會員」。",
-        "member-mcq-07": "「同住成員」與本句語境不同。",
-        "member-mcq-09": "「協會會員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。",
-        "member-mcq-10": "「工會會員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。"
+        "member-mcq-08": "本句的「club members」指「俱樂部會員」。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-08"
     },
@@ -2254,11 +2182,9 @@ export default {
       "masked": "She has been a club ____ for ten years.",
       "options": [
         "member-mcq-08",
-        "member-mcq-07",
-        "member-mcq-09",
-        "member-mcq-06",
-        "member-mcq-10",
-        "member-mcq-05"
+        "member-mcq-62",
+        "member-mcq-29",
+        "member-mcq-34"
       ],
       "explanation": "本句的「member」指「俱樂部會員」。",
       "sentenceIndex": 18,
@@ -2267,12 +2193,10 @@ export default {
         "member"
       ],
       "optionReasons": {
-        "member-mcq-08": "本句指「俱樂部會員」。",
-        "member-mcq-07": "「同住成員」與本句語境不同。",
-        "member-mcq-09": "「協會會員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。",
-        "member-mcq-10": "「工會會員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。"
+        "member-mcq-08": "本句的「member」指「俱樂部會員」。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-08"
     },
@@ -2284,11 +2208,9 @@ export default {
       "masked": "The event is open to all ____.",
       "options": [
         "member-mcq-09",
-        "member-mcq-08",
-        "member-mcq-10",
-        "member-mcq-07",
-        "member-mcq-11",
-        "member-mcq-06"
+        "member-pdf-004",
+        "member-mcq-59",
+        "member-mcq-58"
       ],
       "explanation": "本句的「association members」指「協會會員」。",
       "sentenceIndex": 19,
@@ -2297,12 +2219,10 @@ export default {
         "association members"
       ],
       "optionReasons": {
-        "member-mcq-09": "本句指「協會會員」。",
-        "member-mcq-08": "「俱樂部會員」與本句語境不同。",
-        "member-mcq-10": "「工會會員」與本句語境不同。",
-        "member-mcq-07": "「同住成員」與本句語境不同。",
-        "member-mcq-11": "「註冊會員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-mcq-09": "本句的「association members」指「協會會員」。",
+        "member-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-09"
     },
@@ -2314,11 +2234,9 @@ export default {
       "masked": "____ receive regular updates.",
       "options": [
         "member-mcq-09",
-        "member-mcq-08",
-        "member-mcq-10",
-        "member-mcq-07",
-        "member-mcq-11",
-        "member-mcq-06"
+        "member-mcq-60",
+        "member-mcq-20",
+        "member-mcq-29"
       ],
       "explanation": "本句的「Members」指「協會會員」。",
       "sentenceIndex": 20,
@@ -2327,12 +2245,10 @@ export default {
         "Members"
       ],
       "optionReasons": {
-        "member-mcq-09": "本句指「協會會員」。",
-        "member-mcq-08": "「俱樂部會員」與本句語境不同。",
-        "member-mcq-10": "「工會會員」與本句語境不同。",
-        "member-mcq-07": "「同住成員」與本句語境不同。",
-        "member-mcq-11": "「註冊會員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-mcq-09": "本句的「Members」指「協會會員」。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-09"
     },
@@ -2344,11 +2260,9 @@ export default {
       "masked": "Each ____ can vote.",
       "options": [
         "member-mcq-09",
-        "member-mcq-08",
-        "member-mcq-10",
-        "member-mcq-07",
-        "member-mcq-11",
-        "member-mcq-06"
+        "member-pdf-003",
+        "member-mcq-62",
+        "member-mcq-53"
       ],
       "explanation": "本句的「member of the organisation」指「協會會員」。",
       "sentenceIndex": 21,
@@ -2357,12 +2271,10 @@ export default {
         "member of the organisation"
       ],
       "optionReasons": {
-        "member-mcq-09": "本句指「協會會員」。",
-        "member-mcq-08": "「俱樂部會員」與本句語境不同。",
-        "member-mcq-10": "「工會會員」與本句語境不同。",
-        "member-mcq-07": "「同住成員」與本句語境不同。",
-        "member-mcq-11": "「註冊會員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-mcq-09": "本句的「member of the organisation」指「協會會員」。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-09"
     },
@@ -2374,11 +2286,9 @@ export default {
       "masked": "The organisation has ____ across several countries.",
       "options": [
         "member-mcq-09",
-        "member-mcq-08",
-        "member-mcq-10",
-        "member-mcq-07",
-        "member-mcq-11",
-        "member-mcq-06"
+        "member-mcq-62",
+        "member-mcq-34",
+        "member-mcq-65"
       ],
       "explanation": "本句的「members」指「協會會員」。",
       "sentenceIndex": 22,
@@ -2387,12 +2297,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-09": "本句指「協會會員」。",
-        "member-mcq-08": "「俱樂部會員」與本句語境不同。",
-        "member-mcq-10": "「工會會員」與本句語境不同。",
-        "member-mcq-07": "「同住成員」與本句語境不同。",
-        "member-mcq-11": "「註冊會員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-mcq-09": "本句的「members」指「協會會員」。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-09"
     },
@@ -2404,11 +2312,9 @@ export default {
       "masked": "She is a ____.",
       "options": [
         "member-mcq-10",
-        "member-mcq-09",
-        "member-mcq-11",
-        "member-mcq-08",
-        "member-mcq-12",
-        "member-mcq-07"
+        "member-mcq-34",
+        "member-mcq-60",
+        "member-mcq-20"
       ],
       "explanation": "本句的「union member」指「工會會員」。",
       "sentenceIndex": 23,
@@ -2417,12 +2323,10 @@ export default {
         "union member"
       ],
       "optionReasons": {
-        "member-mcq-10": "本句指「工會會員」。",
-        "member-mcq-09": "「協會會員」與本句語境不同。",
-        "member-mcq-11": "「註冊會員」與本句語境不同。",
-        "member-mcq-08": "「俱樂部會員」與本句語境不同。",
-        "member-mcq-12": "「付費會員」與本句語境不同。",
-        "member-mcq-07": "「同住成員」與本句語境不同。"
+        "member-mcq-10": "本句的「union member」指「工會會員」。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-10"
     },
@@ -2434,11 +2338,9 @@ export default {
       "masked": "Union ____ voted on the proposal.",
       "options": [
         "member-mcq-10",
-        "member-mcq-09",
-        "member-mcq-11",
-        "member-mcq-08",
-        "member-mcq-12",
-        "member-mcq-07"
+        "member-mcq-56",
+        "member-mcq-60",
+        "member-pdf-003"
       ],
       "explanation": "本句的「members」指「工會會員」。",
       "sentenceIndex": 24,
@@ -2447,12 +2349,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-10": "本句指「工會會員」。",
-        "member-mcq-09": "「協會會員」與本句語境不同。",
-        "member-mcq-11": "「註冊會員」與本句語境不同。",
-        "member-mcq-08": "「俱樂部會員」與本句語境不同。",
-        "member-mcq-12": "「付費會員」與本句語境不同。",
-        "member-mcq-07": "「同住成員」與本句語境不同。"
+        "member-mcq-10": "本句的「members」指「工會會員」。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-10"
     },
@@ -2464,11 +2364,9 @@ export default {
       "masked": "The website has over a million ____.",
       "options": [
         "member-mcq-11",
-        "member-mcq-10",
-        "member-mcq-12",
-        "member-mcq-09",
-        "member-mcq-13",
-        "member-mcq-08"
+        "member-mcq-53",
+        "member-mcq-35",
+        "member-pdf-001"
       ],
       "explanation": "本句的「registered members」指「註冊會員」。",
       "sentenceIndex": 25,
@@ -2477,12 +2375,10 @@ export default {
         "registered members"
       ],
       "optionReasons": {
-        "member-mcq-11": "本句指「註冊會員」。",
-        "member-mcq-10": "「工會會員」與本句語境不同。",
-        "member-mcq-12": "「付費會員」與本句語境不同。",
-        "member-mcq-09": "「協會會員」與本句語境不同。",
-        "member-mcq-13": "「正式會員」與本句語境不同。",
-        "member-mcq-08": "「俱樂部會員」與本句語境不同。"
+        "member-mcq-11": "本句的「registered members」指「註冊會員」。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-11"
     },
@@ -2494,11 +2390,9 @@ export default {
       "masked": "Only registered ____ can post comments.",
       "options": [
         "member-mcq-11",
-        "member-mcq-10",
-        "member-mcq-12",
-        "member-mcq-09",
-        "member-mcq-13",
-        "member-mcq-08"
+        "member-mcq-65",
+        "member-mcq-33",
+        "member-mcq-23"
       ],
       "explanation": "本句的「members」指「註冊會員」。",
       "sentenceIndex": 26,
@@ -2507,12 +2401,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-11": "本句指「註冊會員」。",
-        "member-mcq-10": "「工會會員」與本句語境不同。",
-        "member-mcq-12": "「付費會員」與本句語境不同。",
-        "member-mcq-09": "「協會會員」與本句語境不同。",
-        "member-mcq-13": "「正式會員」與本句語境不同。",
-        "member-mcq-08": "「俱樂部會員」與本句語境不同。"
+        "member-mcq-11": "本句的「members」指「註冊會員」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-11"
     },
@@ -2524,11 +2416,9 @@ export default {
       "masked": "The service has 50,000 ____.",
       "options": [
         "member-mcq-12",
-        "member-mcq-11",
-        "member-mcq-13",
-        "member-mcq-10",
-        "member-mcq-14",
-        "member-mcq-09"
+        "member-mcq-53",
+        "member-mcq-33",
+        "member-mcq-63"
       ],
       "explanation": "本句的「paying members」指「付費會員」。",
       "sentenceIndex": 27,
@@ -2537,12 +2427,10 @@ export default {
         "paying members"
       ],
       "optionReasons": {
-        "member-mcq-12": "本句指「付費會員」。",
-        "member-mcq-11": "「註冊會員」與本句語境不同。",
-        "member-mcq-13": "「正式會員」與本句語境不同。",
-        "member-mcq-10": "「工會會員」與本句語境不同。",
-        "member-mcq-14": "「附屬／聯繫會員」與本句語境不同。",
-        "member-mcq-09": "「協會會員」與本句語境不同。"
+        "member-mcq-12": "本句的「paying members」指「付費會員」。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-12"
     },
@@ -2554,11 +2442,9 @@ export default {
       "masked": "Paying ____ receive additional benefits.",
       "options": [
         "member-mcq-12",
-        "member-mcq-11",
-        "member-mcq-13",
-        "member-mcq-10",
-        "member-mcq-14",
-        "member-mcq-09"
+        "member-mcq-62",
+        "member-mcq-65",
+        "member-pdf-004"
       ],
       "explanation": "本句的「members」指「付費會員」。",
       "sentenceIndex": 28,
@@ -2567,12 +2453,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-12": "本句指「付費會員」。",
-        "member-mcq-11": "「註冊會員」與本句語境不同。",
-        "member-mcq-13": "「正式會員」與本句語境不同。",
-        "member-mcq-10": "「工會會員」與本句語境不同。",
-        "member-mcq-14": "「附屬／聯繫會員」與本句語境不同。",
-        "member-mcq-09": "「協會會員」與本句語境不同。"
+        "member-mcq-12": "本句的「members」指「付費會員」。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-12"
     },
@@ -2584,11 +2468,9 @@ export default {
       "masked": "She became a ____ after completing the training.",
       "options": [
         "member-mcq-13",
-        "member-mcq-12",
-        "member-mcq-14",
-        "member-mcq-11",
-        "member-mcq-15",
-        "member-mcq-10"
+        "member-mcq-20",
+        "member-mcq-53",
+        "member-mcq-35"
       ],
       "explanation": "本句的「full member」指「正式會員」。",
       "sentenceIndex": 29,
@@ -2597,12 +2479,10 @@ export default {
         "full member"
       ],
       "optionReasons": {
-        "member-mcq-13": "本句指「正式會員」。",
-        "member-mcq-12": "「付費會員」與本句語境不同。",
-        "member-mcq-14": "「附屬／聯繫會員」與本句語境不同。",
-        "member-mcq-11": "「註冊會員」與本句語境不同。",
-        "member-mcq-15": "「名譽會員」與本句語境不同。",
-        "member-mcq-10": "「工會會員」與本句語境不同。"
+        "member-mcq-13": "本句的「full member」指「正式會員」。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-13"
     },
@@ -2614,11 +2494,9 @@ export default {
       "masked": "Full ____ have voting rights.",
       "options": [
         "member-mcq-13",
-        "member-mcq-12",
-        "member-mcq-14",
-        "member-mcq-11",
-        "member-mcq-15",
-        "member-mcq-10"
+        "member-mcq-34",
+        "member-mcq-60",
+        "member-pdf-001"
       ],
       "explanation": "本句的「members」指「正式會員」。",
       "sentenceIndex": 30,
@@ -2627,12 +2505,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-13": "本句指「正式會員」。",
-        "member-mcq-12": "「付費會員」與本句語境不同。",
-        "member-mcq-14": "「附屬／聯繫會員」與本句語境不同。",
-        "member-mcq-11": "「註冊會員」與本句語境不同。",
-        "member-mcq-15": "「名譽會員」與本句語境不同。",
-        "member-mcq-10": "「工會會員」與本句語境不同。"
+        "member-mcq-13": "本句的「members」指「正式會員」。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-13"
     },
@@ -2644,11 +2520,9 @@ export default {
       "masked": "Students can join as ____.",
       "options": [
         "member-mcq-14",
-        "member-mcq-13",
-        "member-mcq-15",
-        "member-mcq-12",
-        "member-mcq-16",
-        "member-mcq-11"
+        "member-mcq-65",
+        "member-mcq-56",
+        "member-mcq-58"
       ],
       "explanation": "本句的「associate members」指「附屬／聯繫會員」。",
       "sentenceIndex": 31,
@@ -2657,12 +2531,10 @@ export default {
         "associate members"
       ],
       "optionReasons": {
-        "member-mcq-14": "本句指「附屬／聯繫會員」。",
-        "member-mcq-13": "「正式會員」與本句語境不同。",
-        "member-mcq-15": "「名譽會員」與本句語境不同。",
-        "member-mcq-12": "「付費會員」與本句語境不同。",
-        "member-mcq-16": "「活躍會員」與本句語境不同。",
-        "member-mcq-11": "「註冊會員」與本句語境不同。"
+        "member-mcq-14": "本句的「associate members」指「附屬／聯繫會員」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-14"
     },
@@ -2674,11 +2546,9 @@ export default {
       "masked": "Associate ____ may have fewer voting rights.",
       "options": [
         "member-mcq-14",
-        "member-mcq-13",
-        "member-mcq-15",
-        "member-mcq-12",
-        "member-mcq-16",
-        "member-mcq-11"
+        "member-mcq-20",
+        "member-mcq-29",
+        "member-mcq-61"
       ],
       "explanation": "本句的「members」指「附屬／聯繫會員」。",
       "sentenceIndex": 32,
@@ -2687,12 +2557,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-14": "本句指「附屬／聯繫會員」。",
-        "member-mcq-13": "「正式會員」與本句語境不同。",
-        "member-mcq-15": "「名譽會員」與本句語境不同。",
-        "member-mcq-12": "「付費會員」與本句語境不同。",
-        "member-mcq-16": "「活躍會員」與本句語境不同。",
-        "member-mcq-11": "「註冊會員」與本句語境不同。"
+        "member-mcq-14": "本句的「members」指「附屬／聯繫會員」。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-14"
     },
@@ -2704,11 +2572,9 @@ export default {
       "masked": "She was made an ____.",
       "options": [
         "member-mcq-15",
-        "member-mcq-14",
-        "member-mcq-16",
-        "member-mcq-13",
-        "member-mcq-17",
-        "member-mcq-12"
+        "member-mcq-20",
+        "member-pdf-004",
+        "member-mcq-58"
       ],
       "explanation": "本句的「honorary member」指「名譽會員」。",
       "sentenceIndex": 33,
@@ -2717,12 +2583,10 @@ export default {
         "honorary member"
       ],
       "optionReasons": {
-        "member-mcq-15": "本句指「名譽會員」。",
-        "member-mcq-14": "「附屬／聯繫會員」與本句語境不同。",
-        "member-mcq-16": "「活躍會員」與本句語境不同。",
-        "member-mcq-13": "「正式會員」與本句語境不同。",
-        "member-mcq-17": "「創始成員」與本句語境不同。",
-        "member-mcq-12": "「付費會員」與本句語境不同。"
+        "member-mcq-15": "本句的「honorary member」指「名譽會員」。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-15"
     },
@@ -2734,11 +2598,9 @@ export default {
       "masked": "Honorary ____ may not need to pay fees.",
       "options": [
         "member-mcq-15",
-        "member-mcq-14",
-        "member-mcq-16",
-        "member-mcq-13",
-        "member-mcq-17",
-        "member-mcq-12"
+        "member-mcq-59",
+        "member-mcq-65",
+        "member-mcq-20"
       ],
       "explanation": "本句的「members」指「名譽會員」。",
       "sentenceIndex": 34,
@@ -2747,12 +2609,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-15": "本句指「名譽會員」。",
-        "member-mcq-14": "「附屬／聯繫會員」與本句語境不同。",
-        "member-mcq-16": "「活躍會員」與本句語境不同。",
-        "member-mcq-13": "「正式會員」與本句語境不同。",
-        "member-mcq-17": "「創始成員」與本句語境不同。",
-        "member-mcq-12": "「付費會員」與本句語境不同。"
+        "member-mcq-15": "本句的「members」指「名譽會員」。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-15"
     },
@@ -2764,11 +2624,9 @@ export default {
       "masked": "He is an ____ of the association.",
       "options": [
         "member-mcq-16",
-        "member-mcq-15",
-        "member-mcq-17",
-        "member-mcq-14",
-        "member-mcq-18",
-        "member-mcq-13"
+        "member-mcq-56",
+        "member-mcq-61",
+        "member-mcq-29"
       ],
       "explanation": "本句的「active member」指「活躍會員」。",
       "sentenceIndex": 35,
@@ -2777,12 +2635,10 @@ export default {
         "active member"
       ],
       "optionReasons": {
-        "member-mcq-16": "本句指「活躍會員」。",
-        "member-mcq-15": "「名譽會員」與本句語境不同。",
-        "member-mcq-17": "「創始成員」與本句語境不同。",
-        "member-mcq-14": "「附屬／聯繫會員」與本句語境不同。",
-        "member-mcq-18": "「資深會員」與本句語境不同。",
-        "member-mcq-13": "「正式會員」與本句語境不同。"
+        "member-mcq-16": "本句的「active member」指「活躍會員」。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-16"
     },
@@ -2794,11 +2650,9 @@ export default {
       "masked": "Active ____ regularly attend meetings.",
       "options": [
         "member-mcq-16",
-        "member-mcq-15",
-        "member-mcq-17",
-        "member-mcq-14",
-        "member-mcq-18",
-        "member-mcq-13"
+        "member-mcq-29",
+        "member-mcq-20",
+        "member-mcq-58"
       ],
       "explanation": "本句的「members」指「活躍會員」。",
       "sentenceIndex": 36,
@@ -2807,12 +2661,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-16": "本句指「活躍會員」。",
-        "member-mcq-15": "「名譽會員」與本句語境不同。",
-        "member-mcq-17": "「創始成員」與本句語境不同。",
-        "member-mcq-14": "「附屬／聯繫會員」與本句語境不同。",
-        "member-mcq-18": "「資深會員」與本句語境不同。",
-        "member-mcq-13": "「正式會員」與本句語境不同。"
+        "member-mcq-16": "本句的「members」指「活躍會員」。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-16"
     },
@@ -2824,11 +2676,9 @@ export default {
       "masked": "She was a ____ of the organisation.",
       "options": [
         "member-mcq-17",
-        "member-mcq-16",
-        "member-mcq-18",
-        "member-mcq-15",
-        "member-mcq-19",
-        "member-mcq-14"
+        "member-mcq-53",
+        "member-mcq-59",
+        "member-mcq-35"
       ],
       "explanation": "本句的「founding member」指「創始成員」。",
       "sentenceIndex": 37,
@@ -2837,12 +2687,10 @@ export default {
         "founding member"
       ],
       "optionReasons": {
-        "member-mcq-17": "本句指「創始成員」。",
-        "member-mcq-16": "「活躍會員」與本句語境不同。",
-        "member-mcq-18": "「資深會員」與本句語境不同。",
-        "member-mcq-15": "「名譽會員」與本句語境不同。",
-        "member-mcq-19": "「會員資格；會籍」與本句語境不同。",
-        "member-mcq-14": "「附屬／聯繫會員」與本句語境不同。"
+        "member-mcq-17": "本句的「founding member」指「創始成員」。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-17"
     },
@@ -2854,11 +2702,9 @@ export default {
       "masked": "Several founding ____ still serve on the board.",
       "options": [
         "member-mcq-17",
-        "member-mcq-16",
-        "member-mcq-18",
-        "member-mcq-15",
-        "member-mcq-19",
-        "member-mcq-14"
+        "member-mcq-29",
+        "member-mcq-34",
+        "member-mcq-62"
       ],
       "explanation": "本句的「members」指「創始成員」。",
       "sentenceIndex": 38,
@@ -2867,12 +2713,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-17": "本句指「創始成員」。",
-        "member-mcq-16": "「活躍會員」與本句語境不同。",
-        "member-mcq-18": "「資深會員」與本句語境不同。",
-        "member-mcq-15": "「名譽會員」與本句語境不同。",
-        "member-mcq-19": "「會員資格；會籍」與本句語境不同。",
-        "member-mcq-14": "「附屬／聯繫會員」與本句語境不同。"
+        "member-mcq-17": "本句的「members」指「創始成員」。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-17"
     },
@@ -2884,11 +2728,9 @@ export default {
       "masked": "He is a ____ of the club.",
       "options": [
         "member-mcq-18",
-        "member-mcq-17",
-        "member-mcq-19",
-        "member-mcq-16",
-        "member-mcq-20",
-        "member-mcq-15"
+        "member-pdf-003",
+        "member-mcq-60",
+        "member-mcq-34"
       ],
       "explanation": "本句的「long-standing member」指「資深會員」。",
       "sentenceIndex": 39,
@@ -2897,12 +2739,10 @@ export default {
         "long-standing member"
       ],
       "optionReasons": {
-        "member-mcq-18": "本句指「資深會員」。",
-        "member-mcq-17": "「創始成員」與本句語境不同。",
-        "member-mcq-19": "「會員資格；會籍」與本句語境不同。",
-        "member-mcq-16": "「活躍會員」與本句語境不同。",
-        "member-mcq-20": "「俱樂部會籍」與本句語境不同。",
-        "member-mcq-15": "「名譽會員」與本句語境不同。"
+        "member-mcq-18": "本句的「long-standing member」指「資深會員」。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-18"
     },
@@ -2914,11 +2754,9 @@ export default {
       "masked": "Long-standing ____ were consulted first.",
       "options": [
         "member-mcq-18",
-        "member-mcq-17",
-        "member-mcq-19",
-        "member-mcq-16",
-        "member-mcq-20",
-        "member-mcq-15"
+        "member-mcq-65",
+        "member-mcq-35",
+        "member-mcq-63"
       ],
       "explanation": "本句的「members」指「資深會員」。",
       "sentenceIndex": 40,
@@ -2927,12 +2765,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-18": "本句指「資深會員」。",
-        "member-mcq-17": "「創始成員」與本句語境不同。",
-        "member-mcq-19": "「會員資格；會籍」與本句語境不同。",
-        "member-mcq-16": "「活躍會員」與本句語境不同。",
-        "member-mcq-20": "「俱樂部會籍」與本句語境不同。",
-        "member-mcq-15": "「名譽會員」與本句語境不同。"
+        "member-mcq-18": "本句的「members」指「資深會員」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-18"
     },
@@ -2944,11 +2780,9 @@ export default {
       "masked": "The team welcomed three ____.",
       "options": [
         "member-mcq-18",
-        "member-mcq-17",
-        "member-mcq-19",
-        "member-mcq-16",
-        "member-mcq-20",
-        "member-mcq-15"
+        "member-mcq-62",
+        "member-mcq-33",
+        "member-pdf-003"
       ],
       "explanation": "本句的「new members」指「資深會員」。",
       "sentenceIndex": 41,
@@ -2957,12 +2791,10 @@ export default {
         "new members"
       ],
       "optionReasons": {
-        "member-mcq-18": "本句指「資深會員」。",
-        "member-mcq-17": "「創始成員」與本句語境不同。",
-        "member-mcq-19": "「會員資格；會籍」與本句語境不同。",
-        "member-mcq-16": "「活躍會員」與本句語境不同。",
-        "member-mcq-20": "「俱樂部會籍」與本句語境不同。",
-        "member-mcq-15": "「名譽會員」與本句語境不同。"
+        "member-mcq-18": "本句的「new members」指「資深會員」。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-18"
     },
@@ -2974,11 +2806,9 @@ export default {
       "masked": "New ____ receive an orientation.",
       "options": [
         "member-mcq-18",
-        "member-mcq-17",
-        "member-mcq-19",
-        "member-mcq-16",
-        "member-mcq-20",
-        "member-mcq-15"
+        "member-mcq-59",
+        "member-mcq-33",
+        "member-mcq-53"
       ],
       "explanation": "本句的「members」指「資深會員」。",
       "sentenceIndex": 42,
@@ -2987,12 +2817,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-18": "本句指「資深會員」。",
-        "member-mcq-17": "「創始成員」與本句語境不同。",
-        "member-mcq-19": "「會員資格；會籍」與本句語境不同。",
-        "member-mcq-16": "「活躍會員」與本句語境不同。",
-        "member-mcq-20": "「俱樂部會籍」與本句語境不同。",
-        "member-mcq-15": "「名譽會員」與本句語境不同。"
+        "member-mcq-18": "本句的「members」指「資深會員」。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-18"
     },
@@ -3004,11 +2832,9 @@ export default {
       "masked": "Her ____ expires next month.",
       "options": [
         "member-mcq-19",
-        "member-mcq-18",
-        "member-mcq-20",
-        "member-mcq-17",
-        "member-mcq-21",
-        "member-mcq-16"
+        "member-pdf-001",
+        "member-mcq-59",
+        "member-pdf-003"
       ],
       "explanation": "本句的「membership」指「會員資格；會籍」。",
       "sentenceIndex": 43,
@@ -3017,12 +2843,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-19": "本句指「會員資格；會籍」。",
-        "member-mcq-18": "「資深會員」與本句語境不同。",
-        "member-mcq-20": "「俱樂部會籍」與本句語境不同。",
-        "member-mcq-17": "「創始成員」與本句語境不同。",
-        "member-mcq-21": "「取得會員資格」與本句語境不同。",
-        "member-mcq-16": "「活躍會員」與本句語境不同。"
+        "member-mcq-19": "本句的「membership」指「會員資格；會籍」。",
+        "member-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-19"
     },
@@ -3034,11 +2858,9 @@ export default {
       "masked": "____ is open to anyone over eighteen.",
       "options": [
         "member-mcq-19",
-        "member-mcq-18",
-        "member-mcq-20",
-        "member-mcq-17",
-        "member-mcq-21",
-        "member-mcq-16"
+        "member-mcq-34",
+        "member-mcq-58",
+        "member-mcq-29"
       ],
       "explanation": "本句的「Membership」指「會員資格；會籍」。",
       "sentenceIndex": 44,
@@ -3047,12 +2869,10 @@ export default {
         "Membership"
       ],
       "optionReasons": {
-        "member-mcq-19": "本句指「會員資格；會籍」。",
-        "member-mcq-18": "「資深會員」與本句語境不同。",
-        "member-mcq-20": "「俱樂部會籍」與本句語境不同。",
-        "member-mcq-17": "「創始成員」與本句語境不同。",
-        "member-mcq-21": "「取得會員資格」與本句語境不同。",
-        "member-mcq-16": "「活躍會員」與本句語境不同。"
+        "member-mcq-19": "本句的「Membership」指「會員資格；會籍」。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-19"
     },
@@ -3064,11 +2884,9 @@ export default {
       "masked": "Annual ____ costs $500.",
       "options": [
         "member-mcq-20",
-        "member-mcq-19",
-        "member-mcq-21",
-        "member-mcq-18",
-        "member-mcq-22",
-        "member-mcq-17"
+        "member-mcq-14",
+        "member-mcq-51",
+        "member-mcq-59"
       ],
       "explanation": "本句的「club membership」指「俱樂部會籍」。",
       "sentenceIndex": 45,
@@ -3077,12 +2895,10 @@ export default {
         "club membership"
       ],
       "optionReasons": {
-        "member-mcq-20": "本句指「俱樂部會籍」。",
-        "member-mcq-19": "「會員資格；會籍」與本句語境不同。",
-        "member-mcq-21": "「取得會員資格」與本句語境不同。",
-        "member-mcq-18": "「資深會員」與本句語境不同。",
-        "member-mcq-22": "「失去會員資格」與本句語境不同。",
-        "member-mcq-17": "「創始成員」與本句語境不同。"
+        "member-mcq-20": "本句的「club membership」指「俱樂部會籍」。",
+        "member-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-20"
     },
@@ -3094,11 +2910,9 @@ export default {
       "masked": "Club ____ includes access to the gym.",
       "options": [
         "member-mcq-20",
-        "member-mcq-19",
-        "member-mcq-21",
-        "member-mcq-18",
-        "member-mcq-22",
-        "member-mcq-17"
+        "member-mcq-29",
+        "member-mcq-10",
+        "member-mcq-58"
       ],
       "explanation": "本句的「membership」指「俱樂部會籍」。",
       "sentenceIndex": 46,
@@ -3107,12 +2921,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-20": "本句指「俱樂部會籍」。",
-        "member-mcq-19": "「會員資格；會籍」與本句語境不同。",
-        "member-mcq-21": "「取得會員資格」與本句語境不同。",
-        "member-mcq-18": "「資深會員」與本句語境不同。",
-        "member-mcq-22": "「失去會員資格」與本句語境不同。",
-        "member-mcq-17": "「創始成員」與本句語境不同。"
+        "member-mcq-20": "本句的「membership」指「俱樂部會籍」。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-20"
     },
@@ -3124,11 +2936,9 @@ export default {
       "masked": "Her ____ ended last year.",
       "options": [
         "member-mcq-21",
-        "member-mcq-20",
-        "member-mcq-22",
-        "member-mcq-19",
-        "member-mcq-23",
-        "member-mcq-18"
+        "member-mcq-65",
+        "member-mcq-56",
+        "member-mcq-61"
       ],
       "explanation": "本句的「membership of the association」指「取得會員資格」。",
       "sentenceIndex": 47,
@@ -3137,12 +2947,10 @@ export default {
         "membership of the association"
       ],
       "optionReasons": {
-        "member-mcq-21": "本句指「取得會員資格」。",
-        "member-mcq-20": "「俱樂部會籍」與本句語境不同。",
-        "member-mcq-22": "「失去會員資格」與本句語境不同。",
-        "member-mcq-19": "「會員資格；會籍」與本句語境不同。",
-        "member-mcq-23": "「終止會籍」與本句語境不同。",
-        "member-mcq-18": "「資深會員」與本句語境不同。"
+        "member-mcq-21": "本句的「membership of the association」指「取得會員資格」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-21"
     },
@@ -3154,11 +2962,9 @@ export default {
       "masked": "____ of the organisation requires professional qualifications.",
       "options": [
         "member-mcq-21",
-        "member-mcq-20",
-        "member-mcq-22",
-        "member-mcq-19",
-        "member-mcq-23",
-        "member-mcq-18"
+        "member-mcq-60",
+        "member-pdf-001",
+        "member-pdf-003"
       ],
       "explanation": "本句的「Membership」指「取得會員資格」。",
       "sentenceIndex": 48,
@@ -3167,12 +2973,10 @@ export default {
         "Membership"
       ],
       "optionReasons": {
-        "member-mcq-21": "本句指「取得會員資格」。",
-        "member-mcq-20": "「俱樂部會籍」與本句語境不同。",
-        "member-mcq-22": "「失去會員資格」與本句語境不同。",
-        "member-mcq-19": "「會員資格；會籍」與本句語境不同。",
-        "member-mcq-23": "「終止會籍」與本句語境不同。",
-        "member-mcq-18": "「資深會員」與本句語境不同。"
+        "member-mcq-21": "本句的「Membership」指「取得會員資格」。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-21"
     },
@@ -3184,11 +2988,9 @@ export default {
       "masked": "Applicants must pass an assessment to ____.",
       "options": [
         "member-mcq-21",
-        "member-mcq-20",
-        "member-mcq-22",
-        "member-mcq-19",
-        "member-mcq-23",
-        "member-mcq-18"
+        "member-mcq-65",
+        "member-mcq-53",
+        "member-mcq-62"
       ],
       "explanation": "本句的「gain membership」指「取得會員資格」。",
       "sentenceIndex": 49,
@@ -3197,12 +2999,10 @@ export default {
         "gain membership"
       ],
       "optionReasons": {
-        "member-mcq-21": "本句指「取得會員資格」。",
-        "member-mcq-20": "「俱樂部會籍」與本句語境不同。",
-        "member-mcq-22": "「失去會員資格」與本句語境不同。",
-        "member-mcq-19": "「會員資格；會籍」與本句語境不同。",
-        "member-mcq-23": "「終止會籍」與本句語境不同。",
-        "member-mcq-18": "「資深會員」與本句語境不同。"
+        "member-mcq-21": "本句的「gain membership」指「取得會員資格」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-21"
     },
@@ -3214,11 +3014,9 @@ export default {
       "masked": "The firm gained ____ of the industry body.",
       "options": [
         "member-mcq-21",
-        "member-mcq-20",
-        "member-mcq-22",
-        "member-mcq-19",
-        "member-mcq-23",
-        "member-mcq-18"
+        "member-mcq-65",
+        "member-mcq-60",
+        "member-mcq-56"
       ],
       "explanation": "本句的「membership」指「取得會員資格」。",
       "sentenceIndex": 50,
@@ -3227,12 +3025,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-21": "本句指「取得會員資格」。",
-        "member-mcq-20": "「俱樂部會籍」與本句語境不同。",
-        "member-mcq-22": "「失去會員資格」與本句語境不同。",
-        "member-mcq-19": "「會員資格；會籍」與本句語境不同。",
-        "member-mcq-23": "「終止會籍」與本句語境不同。",
-        "member-mcq-18": "「資深會員」與本句語境不同。"
+        "member-mcq-21": "本句的「membership」指「取得會員資格」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-21"
     },
@@ -3244,11 +3040,9 @@ export default {
       "masked": "Members who repeatedly break the rules may ____.",
       "options": [
         "member-mcq-22",
-        "member-mcq-21",
-        "member-mcq-23",
-        "member-mcq-20",
-        "member-mcq-24",
-        "member-mcq-19"
+        "member-mcq-35",
+        "member-mcq-29",
+        "member-pdf-001"
       ],
       "explanation": "本句的「lose membership」指「失去會員資格」。",
       "sentenceIndex": 51,
@@ -3257,12 +3051,10 @@ export default {
         "lose membership"
       ],
       "optionReasons": {
-        "member-mcq-22": "本句指「失去會員資格」。",
-        "member-mcq-21": "「取得會員資格」與本句語境不同。",
-        "member-mcq-23": "「終止會籍」與本句語境不同。",
-        "member-mcq-20": "「俱樂部會籍」與本句語境不同。",
-        "member-mcq-24": "「全體會員」與本句語境不同。",
-        "member-mcq-19": "「會員資格；會籍」與本句語境不同。"
+        "member-mcq-22": "本句的「lose membership」指「失去會員資格」。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-22"
     },
@@ -3274,11 +3066,9 @@ export default {
       "masked": "He lost his ____ after failing to renew it.",
       "options": [
         "member-mcq-22",
-        "member-mcq-21",
-        "member-mcq-23",
-        "member-mcq-20",
-        "member-mcq-24",
-        "member-mcq-19"
+        "member-mcq-65",
+        "member-mcq-60",
+        "member-mcq-58"
       ],
       "explanation": "本句的「membership」指「失去會員資格」。",
       "sentenceIndex": 52,
@@ -3287,12 +3077,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-22": "本句指「失去會員資格」。",
-        "member-mcq-21": "「取得會員資格」與本句語境不同。",
-        "member-mcq-23": "「終止會籍」與本句語境不同。",
-        "member-mcq-20": "「俱樂部會籍」與本句語境不同。",
-        "member-mcq-24": "「全體會員」與本句語境不同。",
-        "member-mcq-19": "「會員資格；會籍」與本句語境不同。"
+        "member-mcq-22": "本句的「membership」指「失去會員資格」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-22"
     },
@@ -3304,11 +3092,9 @@ export default {
       "masked": "You may ____ online.",
       "options": [
         "member-mcq-23",
-        "member-mcq-22",
-        "member-mcq-24",
-        "member-mcq-21",
-        "member-mcq-20",
-        "member-mcq-26"
+        "member-mcq-52",
+        "member-mcq-59",
+        "member-mcq-29"
       ],
       "explanation": "本句的「cancel your membership」指「終止會籍」。",
       "sentenceIndex": 53,
@@ -3317,12 +3103,10 @@ export default {
         "cancel your membership"
       ],
       "optionReasons": {
-        "member-mcq-23": "本句指「終止會籍」。",
-        "member-mcq-22": "「失去會員資格」與本句語境不同。",
-        "member-mcq-24": "「全體會員」與本句語境不同。",
-        "member-mcq-21": "「取得會員資格」與本句語境不同。",
-        "member-mcq-20": "「俱樂部會籍」與本句語境不同。",
-        "member-mcq-26": "「會員人數」與本句語境不同。"
+        "member-mcq-23": "本句的「cancel your membership」指「終止會籍」。",
+        "member-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-23"
     },
@@ -3334,11 +3118,9 @@ export default {
       "masked": "The organisation terminated his ____.",
       "options": [
         "member-mcq-23",
-        "member-mcq-22",
-        "member-mcq-24",
-        "member-mcq-21",
-        "member-mcq-20",
-        "member-mcq-26"
+        "member-mcq-44",
+        "member-mcq-29",
+        "member-mcq-35"
       ],
       "explanation": "本句的「membership」指「終止會籍」。",
       "sentenceIndex": 54,
@@ -3347,12 +3129,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-23": "本句指「終止會籍」。",
-        "member-mcq-22": "「失去會員資格」與本句語境不同。",
-        "member-mcq-24": "「全體會員」與本句語境不同。",
-        "member-mcq-21": "「取得會員資格」與本句語境不同。",
-        "member-mcq-20": "「俱樂部會籍」與本句語境不同。",
-        "member-mcq-26": "「會員人數」與本句語境不同。"
+        "member-mcq-23": "本句的「membership」指「終止會籍」。",
+        "member-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-23"
     },
@@ -3364,11 +3144,9 @@ export default {
       "masked": "The proposal was supported by most of the ____.",
       "options": [
         "member-pdf-002",
-        "member-mcq-23",
-        "member-mcq-22",
-        "member-mcq-26",
-        "member-mcq-21",
-        "member-mcq-27"
+        "member-mcq-61",
+        "member-mcq-33",
+        "member-mcq-59"
       ],
       "explanation": "本句的「membership」指「某組織全部會員作為一個整體」。",
       "sentenceIndex": 55,
@@ -3377,12 +3155,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-pdf-002": "本句指「某組織全部會員作為一個整體」。",
-        "member-mcq-23": "「終止會籍」與本句語境不同。",
-        "member-mcq-22": "「失去會員資格」與本句語境不同。",
-        "member-mcq-26": "「會員人數」與本句語境不同。",
-        "member-mcq-21": "「取得會員資格」與本句語境不同。",
-        "member-mcq-27": "「會員人數增長」與本句語境不同。"
+        "member-pdf-002": "本句的「membership」指「某組織全部會員作為一個整體」。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-pdf-002"
     },
@@ -3394,11 +3170,9 @@ export default {
       "masked": "The union consulted its ____ before voting.",
       "options": [
         "member-pdf-002",
-        "member-mcq-23",
-        "member-mcq-22",
-        "member-mcq-26",
-        "member-mcq-21",
-        "member-mcq-27"
+        "member-mcq-65",
+        "member-mcq-29",
+        "member-mcq-35"
       ],
       "explanation": "本句的「membership」指「某組織全部會員作為一個整體」。",
       "sentenceIndex": 56,
@@ -3407,12 +3181,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-pdf-002": "本句指「某組織全部會員作為一個整體」。",
-        "member-mcq-23": "「終止會籍」與本句語境不同。",
-        "member-mcq-22": "「失去會員資格」與本句語境不同。",
-        "member-mcq-26": "「會員人數」與本句語境不同。",
-        "member-mcq-21": "「取得會員資格」與本句語境不同。",
-        "member-mcq-27": "「會員人數增長」與本句語境不同。"
+        "member-pdf-002": "本句的「membership」指「某組織全部會員作為一個整體」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-pdf-002"
     },
@@ -3424,11 +3196,9 @@ export default {
       "masked": "The leadership reported the results to ____.",
       "options": [
         "member-mcq-25",
-        "member-mcq-26",
-        "member-mcq-23",
-        "member-mcq-27",
-        "member-mcq-22",
-        "member-mcq-28"
+        "member-mcq-20",
+        "member-mcq-61",
+        "member-mcq-60"
       ],
       "explanation": "本句的「the membership」指「全體會員」。",
       "sentenceIndex": 57,
@@ -3437,12 +3207,10 @@ export default {
         "the membership"
       ],
       "optionReasons": {
-        "member-mcq-25": "本句指「全體會員」。",
-        "member-mcq-26": "「會員人數」與本句語境不同。",
-        "member-mcq-23": "「終止會籍」與本句語境不同。",
-        "member-mcq-27": "「會員人數增長」與本句語境不同。",
-        "member-mcq-22": "「失去會員資格」與本句語境不同。",
-        "member-mcq-28": "「會員基礎」與本句語境不同。"
+        "member-mcq-25": "本句的「the membership」指「全體會員」。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-25"
     },
@@ -3454,11 +3222,9 @@ export default {
       "masked": "The ____ remains divided on the issue.",
       "options": [
         "member-mcq-25",
-        "member-mcq-26",
-        "member-mcq-23",
-        "member-mcq-27",
-        "member-mcq-22",
-        "member-mcq-28"
+        "member-mcq-33",
+        "member-mcq-29",
+        "member-mcq-35"
       ],
       "explanation": "本句的「membership」指「全體會員」。",
       "sentenceIndex": 58,
@@ -3467,12 +3233,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-25": "本句指「全體會員」。",
-        "member-mcq-26": "「會員人數」與本句語境不同。",
-        "member-mcq-23": "「終止會籍」與本句語境不同。",
-        "member-mcq-27": "「會員人數增長」與本句語境不同。",
-        "member-mcq-22": "「失去會員資格」與本句語境不同。",
-        "member-mcq-28": "「會員基礎」與本句語境不同。"
+        "member-mcq-25": "本句的「membership」指「全體會員」。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-25"
     },
@@ -3484,10 +3248,8 @@ export default {
       "masked": "____ by 20%.",
       "options": [
         "member-mcq-26",
-        "member-mcq-25",
-        "member-mcq-27",
-        "member-mcq-28",
-        "member-mcq-23",
+        "member-mcq-60",
+        "member-mcq-33",
         "member-mcq-29"
       ],
       "explanation": "本句的「Membership has increased」指「會員人數」。",
@@ -3497,12 +3259,10 @@ export default {
         "Membership has increased"
       ],
       "optionReasons": {
-        "member-mcq-26": "本句指「會員人數」。",
-        "member-mcq-25": "「全體會員」與本句語境不同。",
-        "member-mcq-27": "「會員人數增長」與本句語境不同。",
-        "member-mcq-28": "「會員基礎」與本句語境不同。",
-        "member-mcq-23": "「終止會籍」與本句語境不同。",
-        "member-mcq-29": "「會費」與本句語境不同。"
+        "member-mcq-26": "本句的「Membership has increased」指「會員人數」。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-26"
     },
@@ -3514,11 +3274,9 @@ export default {
       "masked": "The club's ____ has declined.",
       "options": [
         "member-mcq-26",
-        "member-mcq-25",
-        "member-mcq-27",
-        "member-mcq-28",
+        "member-mcq-35",
         "member-mcq-23",
-        "member-mcq-29"
+        "member-mcq-56"
       ],
       "explanation": "本句的「membership」指「會員人數」。",
       "sentenceIndex": 60,
@@ -3527,12 +3285,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-26": "本句指「會員人數」。",
-        "member-mcq-25": "「全體會員」與本句語境不同。",
-        "member-mcq-27": "「會員人數增長」與本句語境不同。",
-        "member-mcq-28": "「會員基礎」與本句語境不同。",
-        "member-mcq-23": "「終止會籍」與本句語境不同。",
-        "member-mcq-29": "「會費」與本句語境不同。"
+        "member-mcq-26": "本句的「membership」指「會員人數」。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-26"
     },
@@ -3544,11 +3300,9 @@ export default {
       "masked": "The association has a ____.",
       "options": [
         "member-mcq-27",
-        "member-mcq-26",
-        "member-mcq-28",
-        "member-mcq-25",
-        "member-mcq-29",
-        "member-mcq-30"
+        "member-pdf-003",
+        "member-mcq-60",
+        "member-mcq-34"
       ],
       "explanation": "本句的「growing membership」指「會員人數增長」。",
       "sentenceIndex": 61,
@@ -3557,12 +3311,10 @@ export default {
         "growing membership"
       ],
       "optionReasons": {
-        "member-mcq-27": "本句指「會員人數增長」。",
-        "member-mcq-26": "「會員人數」與本句語境不同。",
-        "member-mcq-28": "「會員基礎」與本句語境不同。",
-        "member-mcq-25": "「全體會員」與本句語境不同。",
-        "member-mcq-29": "「會費」與本句語境不同。",
-        "member-mcq-30": "「會員卡」與本句語境不同。"
+        "member-mcq-27": "本句的「growing membership」指「會員人數增長」。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-27"
     },
@@ -3574,11 +3326,9 @@ export default {
       "masked": "Growing ____ created demand for a larger venue.",
       "options": [
         "member-mcq-27",
-        "member-mcq-26",
-        "member-mcq-28",
-        "member-mcq-25",
-        "member-mcq-29",
-        "member-mcq-30"
+        "member-mcq-20",
+        "member-mcq-53",
+        "member-mcq-60"
       ],
       "explanation": "本句的「membership」指「會員人數增長」。",
       "sentenceIndex": 62,
@@ -3587,12 +3337,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-27": "本句指「會員人數增長」。",
-        "member-mcq-26": "「會員人數」與本句語境不同。",
-        "member-mcq-28": "「會員基礎」與本句語境不同。",
-        "member-mcq-25": "「全體會員」與本句語境不同。",
-        "member-mcq-29": "「會費」與本句語境不同。",
-        "member-mcq-30": "「會員卡」與本句語境不同。"
+        "member-mcq-27": "本句的「membership」指「會員人數增長」。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-27"
     },
@@ -3604,11 +3352,9 @@ export default {
       "masked": "The club is concerned about ____.",
       "options": [
         "member-mcq-27",
-        "member-mcq-26",
-        "member-mcq-28",
-        "member-mcq-25",
-        "member-mcq-29",
-        "member-mcq-30"
+        "member-mcq-53",
+        "member-mcq-58",
+        "member-mcq-60"
       ],
       "explanation": "本句的「declining membership」指「會員人數增長」。",
       "sentenceIndex": 63,
@@ -3617,12 +3363,10 @@ export default {
         "declining membership"
       ],
       "optionReasons": {
-        "member-mcq-27": "本句指「會員人數增長」。",
-        "member-mcq-26": "「會員人數」與本句語境不同。",
-        "member-mcq-28": "「會員基礎」與本句語境不同。",
-        "member-mcq-25": "「全體會員」與本句語境不同。",
-        "member-mcq-29": "「會費」與本句語境不同。",
-        "member-mcq-30": "「會員卡」與本句語境不同。"
+        "member-mcq-27": "本句的「declining membership」指「會員人數增長」。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-27"
     },
@@ -3634,11 +3378,9 @@ export default {
       "masked": "Declining ____ reduced subscription income.",
       "options": [
         "member-mcq-27",
-        "member-mcq-26",
-        "member-mcq-28",
-        "member-mcq-25",
-        "member-mcq-29",
-        "member-mcq-30"
+        "member-mcq-59",
+        "member-mcq-56",
+        "member-mcq-20"
       ],
       "explanation": "本句的「membership」指「會員人數增長」。",
       "sentenceIndex": 64,
@@ -3647,12 +3389,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-27": "本句指「會員人數增長」。",
-        "member-mcq-26": "「會員人數」與本句語境不同。",
-        "member-mcq-28": "「會員基礎」與本句語境不同。",
-        "member-mcq-25": "「全體會員」與本句語境不同。",
-        "member-mcq-29": "「會費」與本句語境不同。",
-        "member-mcq-30": "「會員卡」與本句語境不同。"
+        "member-mcq-27": "本句的「membership」指「會員人數增長」。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-27"
     },
@@ -3664,11 +3404,9 @@ export default {
       "masked": "The organisation has a broad ____.",
       "options": [
         "member-mcq-28",
-        "member-mcq-27",
-        "member-mcq-29",
-        "member-mcq-26",
-        "member-mcq-30",
-        "member-mcq-25"
+        "member-pdf-001",
+        "member-mcq-33",
+        "member-mcq-20"
       ],
       "explanation": "本句的「membership base」指「會員基礎」。",
       "sentenceIndex": 65,
@@ -3677,12 +3415,10 @@ export default {
         "membership base"
       ],
       "optionReasons": {
-        "member-mcq-28": "本句指「會員基礎」。",
-        "member-mcq-27": "「會員人數增長」與本句語境不同。",
-        "member-mcq-29": "「會費」與本句語境不同。",
-        "member-mcq-26": "「會員人數」與本句語境不同。",
-        "member-mcq-30": "「會員卡」與本句語境不同。",
-        "member-mcq-25": "「全體會員」與本句語境不同。"
+        "member-mcq-28": "本句的「membership base」指「會員基礎」。",
+        "member-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-28"
     },
@@ -3694,11 +3430,9 @@ export default {
       "masked": "The campaign aims to expand the ____ base.",
       "options": [
         "member-mcq-28",
-        "member-mcq-27",
-        "member-mcq-29",
-        "member-mcq-26",
-        "member-mcq-30",
-        "member-mcq-25"
+        "member-mcq-65",
+        "member-mcq-58",
+        "member-mcq-53"
       ],
       "explanation": "本句的「membership」指「會員基礎」。",
       "sentenceIndex": 66,
@@ -3707,12 +3441,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-28": "本句指「會員基礎」。",
-        "member-mcq-27": "「會員人數增長」與本句語境不同。",
-        "member-mcq-29": "「會費」與本句語境不同。",
-        "member-mcq-26": "「會員人數」與本句語境不同。",
-        "member-mcq-30": "「會員卡」與本句語境不同。",
-        "member-mcq-25": "「全體會員」與本句語境不同。"
+        "member-mcq-28": "本句的「membership」指「會員基礎」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-28"
     },
@@ -3724,11 +3456,9 @@ export default {
       "masked": "The annual ____ is due in January.",
       "options": [
         "member-mcq-29",
-        "member-mcq-28",
-        "member-mcq-30",
-        "member-mcq-27",
-        "member-mcq-31",
-        "member-mcq-26"
+        "member-mcq-46",
+        "member-mcq-35",
+        "member-mcq-62"
       ],
       "explanation": "本句的「membership fee」指「會費」。",
       "sentenceIndex": 67,
@@ -3737,12 +3467,10 @@ export default {
         "membership fee"
       ],
       "optionReasons": {
-        "member-mcq-29": "本句指「會費」。",
-        "member-mcq-28": "「會員基礎」與本句語境不同。",
-        "member-mcq-30": "「會員卡」與本句語境不同。",
-        "member-mcq-27": "「會員人數增長」與本句語境不同。",
-        "member-mcq-31": "「會員編號」與本句語境不同。",
-        "member-mcq-26": "「會員人數」與本句語境不同。"
+        "member-mcq-29": "本句的「membership fee」指「會費」。",
+        "member-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-29"
     },
@@ -3754,11 +3482,9 @@ export default {
       "masked": "Students receive a reduced ____ fee.",
       "options": [
         "member-mcq-29",
-        "member-mcq-28",
-        "member-mcq-30",
-        "member-mcq-27",
-        "member-mcq-31",
-        "member-mcq-26"
+        "member-mcq-10",
+        "member-pdf-003",
+        "member-mcq-61"
       ],
       "explanation": "本句的「membership」指「會費」。",
       "sentenceIndex": 68,
@@ -3767,12 +3493,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-29": "本句指「會費」。",
-        "member-mcq-28": "「會員基礎」與本句語境不同。",
-        "member-mcq-30": "「會員卡」與本句語境不同。",
-        "member-mcq-27": "「會員人數增長」與本句語境不同。",
-        "member-mcq-31": "「會員編號」與本句語境不同。",
-        "member-mcq-26": "「會員人數」與本句語境不同。"
+        "member-mcq-29": "本句的「membership」指「會費」。",
+        "member-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-29"
     },
@@ -3784,11 +3508,9 @@ export default {
       "masked": "Show your ____ at reception.",
       "options": [
         "member-mcq-30",
-        "member-mcq-29",
-        "member-mcq-31",
-        "member-mcq-28",
-        "member-mcq-32",
-        "member-mcq-27"
+        "member-mcq-33",
+        "member-mcq-65",
+        "member-mcq-61"
       ],
       "explanation": "本句的「membership card」指「會員卡」。",
       "sentenceIndex": 69,
@@ -3797,12 +3519,10 @@ export default {
         "membership card"
       ],
       "optionReasons": {
-        "member-mcq-30": "本句指「會員卡」。",
-        "member-mcq-29": "「會費」與本句語境不同。",
-        "member-mcq-31": "「會員編號」與本句語境不同。",
-        "member-mcq-28": "「會員基礎」與本句語境不同。",
-        "member-mcq-32": "「會員福利」與本句語境不同。",
-        "member-mcq-27": "「會員人數增長」與本句語境不同。"
+        "member-mcq-30": "本句的「membership card」指「會員卡」。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-30"
     },
@@ -3814,11 +3534,9 @@ export default {
       "masked": "Her ____ card has expired.",
       "options": [
         "member-mcq-30",
-        "member-mcq-29",
-        "member-mcq-31",
-        "member-mcq-28",
-        "member-mcq-32",
-        "member-mcq-27"
+        "member-mcq-56",
+        "member-mcq-60",
+        "member-mcq-29"
       ],
       "explanation": "本句的「membership」指「會員卡」。",
       "sentenceIndex": 70,
@@ -3827,12 +3545,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-30": "本句指「會員卡」。",
-        "member-mcq-29": "「會費」與本句語境不同。",
-        "member-mcq-31": "「會員編號」與本句語境不同。",
-        "member-mcq-28": "「會員基礎」與本句語境不同。",
-        "member-mcq-32": "「會員福利」與本句語境不同。",
-        "member-mcq-27": "「會員人數增長」與本句語境不同。"
+        "member-mcq-30": "本句的「membership」指「會員卡」。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-30"
     },
@@ -3844,11 +3560,9 @@ export default {
       "masked": "Enter your ____.",
       "options": [
         "member-mcq-31",
-        "member-mcq-30",
-        "member-mcq-32",
-        "member-mcq-29",
-        "member-mcq-33",
-        "member-mcq-28"
+        "member-mcq-58",
+        "member-mcq-62",
+        "member-mcq-56"
       ],
       "explanation": "本句的「membership number」指「會員編號」。",
       "sentenceIndex": 71,
@@ -3857,12 +3571,10 @@ export default {
         "membership number"
       ],
       "optionReasons": {
-        "member-mcq-31": "本句指「會員編號」。",
-        "member-mcq-30": "「會員卡」與本句語境不同。",
-        "member-mcq-32": "「會員福利」與本句語境不同。",
-        "member-mcq-29": "「會費」與本句語境不同。",
-        "member-mcq-33": "「入會要求」與本句語境不同。",
-        "member-mcq-28": "「會員基礎」與本句語境不同。"
+        "member-mcq-31": "本句的「membership number」指「會員編號」。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-31"
     },
@@ -3874,11 +3586,9 @@ export default {
       "masked": "The ____ number appears on the card.",
       "options": [
         "member-mcq-31",
-        "member-mcq-30",
-        "member-mcq-32",
-        "member-mcq-29",
-        "member-mcq-33",
-        "member-mcq-28"
+        "member-mcq-23",
+        "member-mcq-62",
+        "member-pdf-001"
       ],
       "explanation": "本句的「membership」指「會員編號」。",
       "sentenceIndex": 72,
@@ -3887,12 +3597,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-31": "本句指「會員編號」。",
-        "member-mcq-30": "「會員卡」與本句語境不同。",
-        "member-mcq-32": "「會員福利」與本句語境不同。",
-        "member-mcq-29": "「會費」與本句語境不同。",
-        "member-mcq-33": "「入會要求」與本句語境不同。",
-        "member-mcq-28": "「會員基礎」與本句語境不同。"
+        "member-mcq-31": "本句的「membership」指「會員編號」。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-31"
     },
@@ -3904,11 +3612,9 @@ export default {
       "masked": "Free delivery is one of the ____.",
       "options": [
         "member-mcq-32",
-        "member-mcq-31",
-        "member-mcq-33",
-        "member-mcq-30",
-        "member-mcq-34",
-        "member-mcq-29"
+        "member-pdf-001",
+        "member-mcq-62",
+        "member-mcq-59"
       ],
       "explanation": "本句的「membership benefits」指「會員福利」。",
       "sentenceIndex": 73,
@@ -3917,12 +3623,10 @@ export default {
         "membership benefits"
       ],
       "optionReasons": {
-        "member-mcq-32": "本句指「會員福利」。",
-        "member-mcq-31": "「會員編號」與本句語境不同。",
-        "member-mcq-33": "「入會要求」與本句語境不同。",
-        "member-mcq-30": "「會員卡」與本句語境不同。",
-        "member-mcq-34": "「入會申請」與本句語境不同。",
-        "member-mcq-29": "「會費」與本句語境不同。"
+        "member-mcq-32": "本句的「membership benefits」指「會員福利」。",
+        "member-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-32"
     },
@@ -3934,11 +3638,9 @@ export default {
       "masked": "____ benefits vary by level.",
       "options": [
         "member-mcq-32",
-        "member-mcq-31",
-        "member-mcq-33",
-        "member-mcq-30",
-        "member-mcq-34",
-        "member-mcq-29"
+        "member-pdf-004",
+        "member-mcq-60",
+        "member-pdf-003"
       ],
       "explanation": "本句的「Membership」指「會員福利」。",
       "sentenceIndex": 74,
@@ -3947,12 +3649,10 @@ export default {
         "Membership"
       ],
       "optionReasons": {
-        "member-mcq-32": "本句指「會員福利」。",
-        "member-mcq-31": "「會員編號」與本句語境不同。",
-        "member-mcq-33": "「入會要求」與本句語境不同。",
-        "member-mcq-30": "「會員卡」與本句語境不同。",
-        "member-mcq-34": "「入會申請」與本句語境不同。",
-        "member-mcq-29": "「會費」與本句語境不同。"
+        "member-mcq-32": "本句的「Membership」指「會員福利」。",
+        "member-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-32"
     },
@@ -3964,11 +3664,9 @@ export default {
       "masked": "Applicants must meet the ____.",
       "options": [
         "member-mcq-33",
-        "member-mcq-32",
-        "member-mcq-34",
-        "member-mcq-31",
-        "member-mcq-35",
-        "member-mcq-30"
+        "member-mcq-25",
+        "member-mcq-20",
+        "member-mcq-61"
       ],
       "explanation": "本句的「membership requirements」指「入會要求」。",
       "sentenceIndex": 75,
@@ -3977,12 +3675,10 @@ export default {
         "membership requirements"
       ],
       "optionReasons": {
-        "member-mcq-33": "本句指「入會要求」。",
-        "member-mcq-32": "「會員福利」與本句語境不同。",
-        "member-mcq-34": "「入會申請」與本句語境不同。",
-        "member-mcq-31": "「會員編號」與本句語境不同。",
-        "member-mcq-35": "「續會」與本句語境不同。",
-        "member-mcq-30": "「會員卡」與本句語境不同。"
+        "member-mcq-33": "本句的「membership requirements」指「入會要求」。",
+        "member-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-33"
     },
@@ -3994,11 +3690,9 @@ export default {
       "masked": "The organisation revised its ____ requirements.",
       "options": [
         "member-mcq-33",
-        "member-mcq-32",
-        "member-mcq-34",
-        "member-mcq-31",
-        "member-mcq-35",
-        "member-mcq-30"
+        "member-mcq-08",
+        "member-mcq-61",
+        "member-mcq-23"
       ],
       "explanation": "本句的「membership」指「入會要求」。",
       "sentenceIndex": 76,
@@ -4007,12 +3701,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-33": "本句指「入會要求」。",
-        "member-mcq-32": "「會員福利」與本句語境不同。",
-        "member-mcq-34": "「入會申請」與本句語境不同。",
-        "member-mcq-31": "「會員編號」與本句語境不同。",
-        "member-mcq-35": "「續會」與本句語境不同。",
-        "member-mcq-30": "「會員卡」與本句語境不同。"
+        "member-mcq-33": "本句的「membership」指「入會要求」。",
+        "member-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-33"
     },
@@ -4024,11 +3716,9 @@ export default {
       "masked": "Submit your ____ online.",
       "options": [
         "member-mcq-34",
-        "member-mcq-33",
-        "member-mcq-35",
-        "member-mcq-32",
-        "member-mcq-36",
-        "member-mcq-31"
+        "member-mcq-55",
+        "member-mcq-43",
+        "member-mcq-35"
       ],
       "explanation": "本句的「membership application」指「入會申請」。",
       "sentenceIndex": 77,
@@ -4037,12 +3727,10 @@ export default {
         "membership application"
       ],
       "optionReasons": {
-        "member-mcq-34": "本句指「入會申請」。",
-        "member-mcq-33": "「入會要求」與本句語境不同。",
-        "member-mcq-35": "「續會」與本句語境不同。",
-        "member-mcq-32": "「會員福利」與本句語境不同。",
-        "member-mcq-36": "「會員招募活動」與本句語境不同。",
-        "member-mcq-31": "「會員編號」與本句語境不同。"
+        "member-mcq-34": "本句的「membership application」指「入會申請」。",
+        "member-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-34"
     },
@@ -4054,11 +3742,9 @@ export default {
       "masked": "Her ____ application was approved.",
       "options": [
         "member-mcq-34",
-        "member-mcq-33",
+        "member-mcq-44",
         "member-mcq-35",
-        "member-mcq-32",
-        "member-mcq-36",
-        "member-mcq-31"
+        "member-mcq-63"
       ],
       "explanation": "本句的「membership」指「入會申請」。",
       "sentenceIndex": 78,
@@ -4067,12 +3753,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-34": "本句指「入會申請」。",
-        "member-mcq-33": "「入會要求」與本句語境不同。",
-        "member-mcq-35": "「續會」與本句語境不同。",
-        "member-mcq-32": "「會員福利」與本句語境不同。",
-        "member-mcq-36": "「會員招募活動」與本句語境不同。",
-        "member-mcq-31": "「會員編號」與本句語境不同。"
+        "member-mcq-34": "本句的「membership」指「入會申請」。",
+        "member-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-34"
     },
@@ -4084,11 +3768,9 @@ export default {
       "masked": "____ is due next month.",
       "options": [
         "member-mcq-35",
-        "member-mcq-34",
-        "member-mcq-36",
-        "member-mcq-33",
         "member-mcq-37",
-        "member-mcq-32"
+        "member-mcq-60",
+        "member-mcq-20"
       ],
       "explanation": "本句的「Membership renewal」指「續會」。",
       "sentenceIndex": 79,
@@ -4097,12 +3779,10 @@ export default {
         "Membership renewal"
       ],
       "optionReasons": {
-        "member-mcq-35": "本句指「續會」。",
-        "member-mcq-34": "「入會申請」與本句語境不同。",
-        "member-mcq-36": "「會員招募活動」與本句語境不同。",
-        "member-mcq-33": "「入會要求」與本句語境不同。",
-        "member-mcq-37": "「只限會員的」與本句語境不同。",
-        "member-mcq-32": "「會員福利」與本句語境不同。"
+        "member-mcq-35": "本句的「Membership renewal」指「續會」。",
+        "member-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-35"
     },
@@ -4114,11 +3794,9 @@ export default {
       "masked": "Automatic ____ renewal is available.",
       "options": [
         "member-mcq-35",
-        "member-mcq-34",
-        "member-mcq-36",
-        "member-mcq-33",
-        "member-mcq-37",
-        "member-mcq-32"
+        "member-mcq-47",
+        "member-mcq-08",
+        "member-mcq-63"
       ],
       "explanation": "本句的「membership」指「續會」。",
       "sentenceIndex": 80,
@@ -4127,12 +3805,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-35": "本句指「續會」。",
-        "member-mcq-34": "「入會申請」與本句語境不同。",
-        "member-mcq-36": "「會員招募活動」與本句語境不同。",
-        "member-mcq-33": "「入會要求」與本句語境不同。",
-        "member-mcq-37": "「只限會員的」與本句語境不同。",
-        "member-mcq-32": "「會員福利」與本句語境不同。"
+        "member-mcq-35": "本句的「membership」指「續會」。",
+        "member-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-35"
     },
@@ -4144,11 +3820,9 @@ export default {
       "masked": "The club launched a ____.",
       "options": [
         "member-mcq-36",
-        "member-mcq-35",
-        "member-mcq-37",
-        "member-mcq-34",
-        "member-mcq-38",
-        "member-mcq-33"
+        "member-mcq-29",
+        "member-mcq-65",
+        "member-mcq-59"
       ],
       "explanation": "本句的「membership drive」指「會員招募活動」。",
       "sentenceIndex": 81,
@@ -4157,12 +3831,10 @@ export default {
         "membership drive"
       ],
       "optionReasons": {
-        "member-mcq-36": "本句指「會員招募活動」。",
-        "member-mcq-35": "「續會」與本句語境不同。",
-        "member-mcq-37": "「只限會員的」與本句語境不同。",
-        "member-mcq-34": "「入會申請」與本句語境不同。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。",
-        "member-mcq-33": "「入會要求」與本句語境不同。"
+        "member-mcq-36": "本句的「membership drive」指「會員招募活動」。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-36"
     },
@@ -4174,11 +3846,9 @@ export default {
       "masked": "The ____ drive attracted hundreds of new members.",
       "options": [
         "member-mcq-36",
-        "member-mcq-35",
-        "member-mcq-37",
-        "member-mcq-34",
-        "member-mcq-38",
-        "member-mcq-33"
+        "member-mcq-20",
+        "member-mcq-53",
+        "member-mcq-59"
       ],
       "explanation": "本句的「membership」指「會員招募活動」。",
       "sentenceIndex": 82,
@@ -4187,12 +3857,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-36": "本句指「會員招募活動」。",
-        "member-mcq-35": "「續會」與本句語境不同。",
-        "member-mcq-37": "「只限會員的」與本句語境不同。",
-        "member-mcq-34": "「入會申請」與本句語境不同。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。",
-        "member-mcq-33": "「入會要求」與本句語境不同。"
+        "member-mcq-36": "本句的「membership」指「會員招募活動」。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-36"
     },
@@ -4204,11 +3872,9 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "member-mcq-37",
-        "member-mcq-36",
-        "member-mcq-38",
-        "member-mcq-35",
-        "member-mcq-39",
-        "member-mcq-34"
+        "member-mcq-63",
+        "member-mcq-56",
+        "member-mcq-33"
       ],
       "explanation": "本句的「members-only area」指「只限會員的」。",
       "sentenceIndex": 83,
@@ -4217,12 +3883,10 @@ export default {
         "members-only area"
       ],
       "optionReasons": {
-        "member-mcq-37": "本句指「只限會員的」。",
-        "member-mcq-36": "「會員招募活動」與本句語境不同。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。",
-        "member-mcq-35": "「續會」與本句語境不同。",
-        "member-mcq-39": "「委員」與本句語境不同。",
-        "member-mcq-34": "「入會申請」與本句語境不同。"
+        "member-mcq-37": "本句的「members-only area」指「只限會員的」。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-37"
     },
@@ -4234,11 +3898,9 @@ export default {
       "masked": "____ discounts are available online.",
       "options": [
         "member-mcq-37",
-        "member-mcq-36",
-        "member-mcq-38",
-        "member-mcq-35",
-        "member-mcq-39",
-        "member-mcq-34"
+        "member-mcq-59",
+        "member-pdf-003",
+        "member-mcq-20"
       ],
       "explanation": "本句的「Members-only」指「只限會員的」。",
       "sentenceIndex": 84,
@@ -4247,12 +3909,10 @@ export default {
         "Members-only"
       ],
       "optionReasons": {
-        "member-mcq-37": "本句指「只限會員的」。",
-        "member-mcq-36": "「會員招募活動」與本句語境不同。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。",
-        "member-mcq-35": "「續會」與本句語境不同。",
-        "member-mcq-39": "「委員」與本句語境不同。",
-        "member-mcq-34": "「入會申請」與本句語境不同。"
+        "member-mcq-37": "本句的「Members-only」指「只限會員的」。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-37"
     },
@@ -4264,11 +3924,9 @@ export default {
       "masked": "The store is holding a ____.",
       "options": [
         "member-mcq-37",
-        "member-mcq-36",
-        "member-mcq-38",
-        "member-mcq-35",
-        "member-mcq-39",
-        "member-mcq-34"
+        "member-pdf-001",
+        "member-mcq-63",
+        "member-mcq-20"
       ],
       "explanation": "本句的「members-only event」指「只限會員的」。",
       "sentenceIndex": 85,
@@ -4277,12 +3935,10 @@ export default {
         "members-only event"
       ],
       "optionReasons": {
-        "member-mcq-37": "本句指「只限會員的」。",
-        "member-mcq-36": "「會員招募活動」與本句語境不同。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。",
-        "member-mcq-35": "「續會」與本句語境不同。",
-        "member-mcq-39": "「委員」與本句語境不同。",
-        "member-mcq-34": "「入會申請」與本句語境不同。"
+        "member-mcq-37": "本句的「members-only event」指「只限會員的」。",
+        "member-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-37"
     },
@@ -4294,11 +3950,9 @@ export default {
       "masked": "Tickets are available only to ____.",
       "options": [
         "member-mcq-37",
-        "member-mcq-36",
-        "member-mcq-38",
-        "member-mcq-35",
-        "member-mcq-39",
-        "member-mcq-34"
+        "member-mcq-58",
+        "member-mcq-60",
+        "member-mcq-53"
       ],
       "explanation": "本句的「members」指「只限會員的」。",
       "sentenceIndex": 86,
@@ -4307,12 +3961,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-37": "本句指「只限會員的」。",
-        "member-mcq-36": "「會員招募活動」與本句語境不同。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。",
-        "member-mcq-35": "「續會」與本句語境不同。",
-        "member-mcq-39": "「委員」與本句語境不同。",
-        "member-mcq-34": "「入會申請」與本句語境不同。"
+        "member-mcq-37": "本句的「members」指「只限會員的」。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-37"
     },
@@ -4324,10 +3976,8 @@ export default {
       "masked": "Free returns are a ____.",
       "options": [
         "member-mcq-38",
-        "member-mcq-37",
-        "member-mcq-39",
-        "member-mcq-36",
-        "member-mcq-40",
+        "member-mcq-62",
+        "member-mcq-63",
         "member-mcq-35"
       ],
       "explanation": "本句的「member-only benefit」指「會員專享福利」。",
@@ -4337,12 +3987,10 @@ export default {
         "member-only benefit"
       ],
       "optionReasons": {
-        "member-mcq-38": "本句指「會員專享福利」。",
-        "member-mcq-37": "「只限會員的」與本句語境不同。",
-        "member-mcq-39": "「委員」與本句語境不同。",
-        "member-mcq-36": "「會員招募活動」與本句語境不同。",
-        "member-mcq-40": "「董事會成員／董事」與本句語境不同。",
-        "member-mcq-35": "「續會」與本句語境不同。"
+        "member-mcq-38": "本句的「member-only benefit」指「會員專享福利」。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-38"
     },
@@ -4354,11 +4002,9 @@ export default {
       "masked": "____ prices apply to selected products.",
       "options": [
         "member-mcq-38",
-        "member-mcq-37",
-        "member-mcq-39",
-        "member-mcq-36",
-        "member-mcq-40",
-        "member-mcq-35"
+        "member-mcq-34",
+        "member-mcq-61",
+        "member-mcq-60"
       ],
       "explanation": "本句的「Member-only」指「會員專享福利」。",
       "sentenceIndex": 88,
@@ -4367,12 +4013,10 @@ export default {
         "Member-only"
       ],
       "optionReasons": {
-        "member-mcq-38": "本句指「會員專享福利」。",
-        "member-mcq-37": "「只限會員的」與本句語境不同。",
-        "member-mcq-39": "「委員」與本句語境不同。",
-        "member-mcq-36": "「會員招募活動」與本句語境不同。",
-        "member-mcq-40": "「董事會成員／董事」與本句語境不同。",
-        "member-mcq-35": "「續會」與本句語境不同。"
+        "member-mcq-38": "本句的「Member-only」指「會員專享福利」。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-38"
     },
@@ -4384,11 +4028,9 @@ export default {
       "masked": "Each ____ has one vote.",
       "options": [
         "member-mcq-39",
-        "member-mcq-38",
-        "member-mcq-40",
-        "member-mcq-37",
-        "member-mcq-41",
-        "member-mcq-36"
+        "member-mcq-60",
+        "member-mcq-34",
+        "member-mcq-58"
       ],
       "explanation": "本句的「committee member」指「委員」。",
       "sentenceIndex": 89,
@@ -4397,12 +4039,10 @@ export default {
         "committee member"
       ],
       "optionReasons": {
-        "member-mcq-39": "本句指「委員」。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。",
-        "member-mcq-40": "「董事會成員／董事」與本句語境不同。",
-        "member-mcq-37": "「只限會員的」與本句語境不同。",
-        "member-mcq-41": "「理事／議員」與本句語境不同。",
-        "member-mcq-36": "「會員招募活動」與本句語境不同。"
+        "member-mcq-39": "本句的「committee member」指「委員」。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-39"
     },
@@ -4414,11 +4054,9 @@ export default {
       "masked": "Committee ____ reviewed the proposal.",
       "options": [
         "member-mcq-39",
-        "member-mcq-38",
-        "member-mcq-40",
-        "member-mcq-37",
-        "member-mcq-41",
-        "member-mcq-36"
+        "member-mcq-53",
+        "member-mcq-61",
+        "member-mcq-29"
       ],
       "explanation": "本句的「members」指「委員」。",
       "sentenceIndex": 90,
@@ -4427,12 +4065,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-39": "本句指「委員」。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。",
-        "member-mcq-40": "「董事會成員／董事」與本句語境不同。",
-        "member-mcq-37": "「只限會員的」與本句語境不同。",
-        "member-mcq-41": "「理事／議員」與本句語境不同。",
-        "member-mcq-36": "「會員招募活動」與本句語境不同。"
+        "member-mcq-39": "本句的「members」指「委員」。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-39"
     },
@@ -4444,11 +4080,9 @@ export default {
       "masked": "She is a ____.",
       "options": [
         "member-mcq-39",
-        "member-mcq-38",
-        "member-mcq-40",
-        "member-mcq-37",
-        "member-mcq-41",
-        "member-mcq-36"
+        "member-mcq-29",
+        "member-mcq-62",
+        "member-mcq-59"
       ],
       "explanation": "本句的「member of the complaints committee」指「委員」。",
       "sentenceIndex": 91,
@@ -4457,12 +4091,10 @@ export default {
         "member of the complaints committee"
       ],
       "optionReasons": {
-        "member-mcq-39": "本句指「委員」。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。",
-        "member-mcq-40": "「董事會成員／董事」與本句語境不同。",
-        "member-mcq-37": "「只限會員的」與本句語境不同。",
-        "member-mcq-41": "「理事／議員」與本句語境不同。",
-        "member-mcq-36": "「會員招募活動」與本句語境不同。"
+        "member-mcq-39": "本句的「member of the complaints committee」指「委員」。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-39"
     },
@@ -4474,11 +4106,9 @@ export default {
       "masked": "____ of the committee meet monthly.",
       "options": [
         "member-mcq-39",
-        "member-mcq-38",
-        "member-mcq-40",
-        "member-mcq-37",
-        "member-mcq-41",
-        "member-mcq-36"
+        "member-mcq-63",
+        "member-mcq-34",
+        "member-mcq-56"
       ],
       "explanation": "本句的「Members」指「委員」。",
       "sentenceIndex": 92,
@@ -4487,12 +4117,10 @@ export default {
         "Members"
       ],
       "optionReasons": {
-        "member-mcq-39": "本句指「委員」。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。",
-        "member-mcq-40": "「董事會成員／董事」與本句語境不同。",
-        "member-mcq-37": "「只限會員的」與本句語境不同。",
-        "member-mcq-41": "「理事／議員」與本句語境不同。",
-        "member-mcq-36": "「會員招募活動」與本句語境不同。"
+        "member-mcq-39": "本句的「Members」指「委員」。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-39"
     },
@@ -4504,11 +4132,9 @@ export default {
       "masked": "Several ____ supported the proposal.",
       "options": [
         "member-mcq-40",
-        "member-mcq-39",
-        "member-mcq-41",
-        "member-mcq-38",
-        "member-mcq-42",
-        "member-mcq-37"
+        "member-mcq-20",
+        "member-mcq-34",
+        "member-mcq-65"
       ],
       "explanation": "本句的「board members」指「董事會成員／董事」。",
       "sentenceIndex": 93,
@@ -4517,12 +4143,10 @@ export default {
         "board members"
       ],
       "optionReasons": {
-        "member-mcq-40": "本句指「董事會成員／董事」。",
-        "member-mcq-39": "「委員」與本句語境不同。",
-        "member-mcq-41": "「理事／議員」與本句語境不同。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。",
-        "member-mcq-42": "「國會／議會議員」與本句語境不同。",
-        "member-mcq-37": "「只限會員的」與本句語境不同。"
+        "member-mcq-40": "本句的「board members」指「董事會成員／董事」。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-40"
     },
@@ -4534,11 +4158,9 @@ export default {
       "masked": "Board ____ are responsible for major governance decisions.",
       "options": [
         "member-mcq-40",
-        "member-mcq-39",
-        "member-mcq-41",
-        "member-mcq-38",
-        "member-mcq-42",
-        "member-mcq-37"
+        "member-mcq-61",
+        "member-mcq-33",
+        "member-mcq-29"
       ],
       "explanation": "本句的「members」指「董事會成員／董事」。",
       "sentenceIndex": 94,
@@ -4547,12 +4169,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-40": "本句指「董事會成員／董事」。",
-        "member-mcq-39": "「委員」與本句語境不同。",
-        "member-mcq-41": "「理事／議員」與本句語境不同。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。",
-        "member-mcq-42": "「國會／議會議員」與本句語境不同。",
-        "member-mcq-37": "「只限會員的」與本句語境不同。"
+        "member-mcq-40": "本句的「members」指「董事會成員／董事」。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-40"
     },
@@ -4564,11 +4184,9 @@ export default {
       "masked": "She has been a ____ for six years.",
       "options": [
         "member-mcq-40",
-        "member-mcq-39",
-        "member-mcq-41",
-        "member-mcq-38",
-        "member-mcq-42",
-        "member-mcq-37"
+        "member-mcq-23",
+        "member-mcq-53",
+        "member-mcq-34"
       ],
       "explanation": "本句的「member of the board」指「董事會成員／董事」。",
       "sentenceIndex": 95,
@@ -4577,12 +4195,10 @@ export default {
         "member of the board"
       ],
       "optionReasons": {
-        "member-mcq-40": "本句指「董事會成員／董事」。",
-        "member-mcq-39": "「委員」與本句語境不同。",
-        "member-mcq-41": "「理事／議員」與本句語境不同。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。",
-        "member-mcq-42": "「國會／議會議員」與本句語境不同。",
-        "member-mcq-37": "「只限會員的」與本句語境不同。"
+        "member-mcq-40": "本句的「member of the board」指「董事會成員／董事」。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-40"
     },
@@ -4594,11 +4210,9 @@ export default {
       "masked": "Every board ____ received the report.",
       "options": [
         "member-mcq-40",
-        "member-mcq-39",
-        "member-mcq-41",
-        "member-mcq-38",
-        "member-mcq-42",
-        "member-mcq-37"
+        "member-mcq-34",
+        "member-mcq-59",
+        "member-mcq-29"
       ],
       "explanation": "本句的「member」指「董事會成員／董事」。",
       "sentenceIndex": 96,
@@ -4607,12 +4221,10 @@ export default {
         "member"
       ],
       "optionReasons": {
-        "member-mcq-40": "本句指「董事會成員／董事」。",
-        "member-mcq-39": "「委員」與本句語境不同。",
-        "member-mcq-41": "「理事／議員」與本句語境不同。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。",
-        "member-mcq-42": "「國會／議會議員」與本句語境不同。",
-        "member-mcq-37": "「只限會員的」與本句語境不同。"
+        "member-mcq-40": "本句的「member」指「董事會成員／董事」。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-40"
     },
@@ -4624,11 +4236,9 @@ export default {
       "masked": "The proposal was discussed by ____.",
       "options": [
         "member-mcq-41",
-        "member-mcq-40",
-        "member-mcq-42",
-        "member-mcq-39",
-        "member-mcq-43",
-        "member-mcq-38"
+        "member-pdf-001",
+        "member-mcq-34",
+        "member-mcq-53"
       ],
       "explanation": "本句的「council members」指「理事／議員」。",
       "sentenceIndex": 97,
@@ -4637,12 +4247,10 @@ export default {
         "council members"
       ],
       "optionReasons": {
-        "member-mcq-41": "本句指「理事／議員」。",
-        "member-mcq-40": "「董事會成員／董事」與本句語境不同。",
-        "member-mcq-42": "「國會／議會議員」與本句語境不同。",
-        "member-mcq-39": "「委員」與本句語境不同。",
-        "member-mcq-43": "「美國國會議員」與本句語境不同。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。"
+        "member-mcq-41": "本句的「council members」指「理事／議員」。",
+        "member-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-41"
     },
@@ -4654,11 +4262,9 @@ export default {
       "masked": "Council ____ voted on the budget.",
       "options": [
         "member-mcq-41",
-        "member-mcq-40",
-        "member-mcq-42",
-        "member-mcq-39",
-        "member-mcq-43",
-        "member-mcq-38"
+        "member-pdf-003",
+        "member-mcq-35",
+        "member-mcq-60"
       ],
       "explanation": "本句的「members」指「理事／議員」。",
       "sentenceIndex": 98,
@@ -4667,12 +4273,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-41": "本句指「理事／議員」。",
-        "member-mcq-40": "「董事會成員／董事」與本句語境不同。",
-        "member-mcq-42": "「國會／議會議員」與本句語境不同。",
-        "member-mcq-39": "「委員」與本句語境不同。",
-        "member-mcq-43": "「美國國會議員」與本句語境不同。",
-        "member-mcq-38": "「會員專享福利」與本句語境不同。"
+        "member-mcq-41": "本句的「members」指「理事／議員」。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-41"
     },
@@ -4684,11 +4288,9 @@ export default {
       "masked": "She was elected as a ____.",
       "options": [
         "member-mcq-42",
-        "member-mcq-41",
-        "member-mcq-43",
-        "member-mcq-40",
-        "member-mcq-44",
-        "member-mcq-39"
+        "member-mcq-35",
+        "member-mcq-62",
+        "member-mcq-20"
       ],
       "explanation": "本句的「Member of Parliament」指「國會／議會議員」。",
       "sentenceIndex": 99,
@@ -4697,12 +4299,10 @@ export default {
         "Member of Parliament"
       ],
       "optionReasons": {
-        "member-mcq-42": "本句指「國會／議會議員」。",
-        "member-mcq-41": "「理事／議員」與本句語境不同。",
-        "member-mcq-43": "「美國國會議員」與本句語境不同。",
-        "member-mcq-40": "「董事會成員／董事」與本句語境不同。",
-        "member-mcq-44": "「成員國」與本句語境不同。",
-        "member-mcq-39": "「委員」與本句語境不同。"
+        "member-mcq-42": "本句的「Member of Parliament」指「國會／議會議員」。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-42"
     },
@@ -4714,11 +4314,9 @@ export default {
       "masked": "Several ____ attended the hearing.",
       "options": [
         "member-mcq-43",
-        "member-mcq-42",
-        "member-mcq-44",
-        "member-mcq-41",
-        "member-mcq-40",
-        "member-mcq-46"
+        "member-pdf-001",
+        "member-mcq-62",
+        "member-mcq-35"
       ],
       "explanation": "本句的「members of Congress」指「美國國會議員」。",
       "sentenceIndex": 100,
@@ -4727,12 +4325,10 @@ export default {
         "members of Congress"
       ],
       "optionReasons": {
-        "member-mcq-43": "本句指「美國國會議員」。",
-        "member-mcq-42": "「國會／議會議員」與本句語境不同。",
-        "member-mcq-44": "「成員國」與本句語境不同。",
-        "member-mcq-41": "「理事／議員」與本句語境不同。",
-        "member-mcq-40": "「董事會成員／董事」與本句語境不同。",
-        "member-mcq-46": "「成員機構」與本句語境不同。"
+        "member-mcq-43": "本句的「members of Congress」指「美國國會議員」。",
+        "member-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-43"
     },
@@ -4744,11 +4340,9 @@ export default {
       "masked": "A ____ of Congress may serve in the House or Senate, depending on the context of the phrase.",
       "options": [
         "member-mcq-43",
-        "member-mcq-42",
-        "member-mcq-44",
-        "member-mcq-41",
-        "member-mcq-40",
-        "member-mcq-46"
+        "member-mcq-23",
+        "member-mcq-58",
+        "member-mcq-65"
       ],
       "explanation": "本句的「member」指「美國國會議員」。",
       "sentenceIndex": 101,
@@ -4757,12 +4351,10 @@ export default {
         "member"
       ],
       "optionReasons": {
-        "member-mcq-43": "本句指「美國國會議員」。",
-        "member-mcq-42": "「國會／議會議員」與本句語境不同。",
-        "member-mcq-44": "「成員國」與本句語境不同。",
-        "member-mcq-41": "「理事／議員」與本句語境不同。",
-        "member-mcq-40": "「董事會成員／董事」與本句語境不同。",
-        "member-mcq-46": "「成員機構」與本句語境不同。"
+        "member-mcq-43": "本句的「member」指「美國國會議員」。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-43"
     },
@@ -4774,11 +4366,9 @@ export default {
       "masked": "All ____ agreed to the framework.",
       "options": [
         "member-mcq-44",
-        "member-mcq-43",
-        "member-mcq-42",
-        "member-mcq-46",
-        "member-mcq-41",
-        "member-mcq-47"
+        "member-mcq-53",
+        "member-mcq-65",
+        "member-mcq-33"
       ],
       "explanation": "本句的「member states」指「成員國」。",
       "sentenceIndex": 103,
@@ -4787,12 +4377,10 @@ export default {
         "member states"
       ],
       "optionReasons": {
-        "member-mcq-44": "本句指「成員國」。",
-        "member-mcq-43": "「美國國會議員」與本句語境不同。",
-        "member-mcq-42": "「國會／議會議員」與本句語境不同。",
-        "member-mcq-46": "「成員機構」與本句語境不同。",
-        "member-mcq-41": "「理事／議員」與本句語境不同。",
-        "member-mcq-47": "「成員公司」與本句語境不同。"
+        "member-mcq-44": "本句的「member states」指「成員國」。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-44"
     },
@@ -4804,11 +4392,9 @@ export default {
       "masked": "____ states have different domestic laws.",
       "options": [
         "member-mcq-44",
-        "member-mcq-43",
-        "member-mcq-42",
-        "member-mcq-46",
-        "member-mcq-41",
-        "member-mcq-47"
+        "member-mcq-60",
+        "member-mcq-23",
+        "member-mcq-61"
       ],
       "explanation": "本句的「Member」指「成員國」。",
       "sentenceIndex": 104,
@@ -4817,12 +4403,10 @@ export default {
         "Member"
       ],
       "optionReasons": {
-        "member-mcq-44": "本句指「成員國」。",
-        "member-mcq-43": "「美國國會議員」與本句語境不同。",
-        "member-mcq-42": "「國會／議會議員」與本句語境不同。",
-        "member-mcq-46": "「成員機構」與本句語境不同。",
-        "member-mcq-41": "「理事／議員」與本句語境不同。",
-        "member-mcq-47": "「成員公司」與本句語境不同。"
+        "member-mcq-44": "本句的「Member」指「成員國」。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-44"
     },
@@ -4834,11 +4418,9 @@ export default {
       "masked": "Each ____ must submit a report.",
       "options": [
         "member-mcq-44",
-        "member-mcq-43",
-        "member-mcq-42",
-        "member-mcq-46",
-        "member-mcq-41",
-        "member-mcq-47"
+        "member-pdf-003",
+        "member-mcq-35",
+        "member-mcq-23"
       ],
       "explanation": "本句的「Member State」指「成員國」。",
       "sentenceIndex": 105,
@@ -4847,12 +4429,10 @@ export default {
         "Member State"
       ],
       "optionReasons": {
-        "member-mcq-44": "本句指「成員國」。",
-        "member-mcq-43": "「美國國會議員」與本句語境不同。",
-        "member-mcq-42": "「國會／議會議員」與本句語境不同。",
-        "member-mcq-46": "「成員機構」與本句語境不同。",
-        "member-mcq-41": "「理事／議員」與本句語境不同。",
-        "member-mcq-47": "「成員公司」與本句語境不同。"
+        "member-mcq-44": "本句的「Member State」指「成員國」。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-44"
     },
@@ -4864,11 +4444,9 @@ export default {
       "masked": "The organisation has twenty ____.",
       "options": [
         "member-mcq-45",
-        "member-mcq-46",
-        "member-mcq-43",
-        "member-mcq-47",
-        "member-mcq-42",
-        "member-mcq-48"
+        "member-mcq-23",
+        "member-pdf-003",
+        "member-mcq-29"
       ],
       "explanation": "本句的「member countries」指「成員國」。",
       "sentenceIndex": 106,
@@ -4877,12 +4455,10 @@ export default {
         "member countries"
       ],
       "optionReasons": {
-        "member-mcq-45": "本句指「成員國」。",
-        "member-mcq-46": "「成員機構」與本句語境不同。",
-        "member-mcq-43": "「美國國會議員」與本句語境不同。",
-        "member-mcq-47": "「成員公司」與本句語境不同。",
-        "member-mcq-42": "「國會／議會議員」與本句語境不同。",
-        "member-mcq-48": "「成員公司／事務所」與本句語境不同。"
+        "member-mcq-45": "本句的「member countries」指「成員國」。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-45"
     },
@@ -4894,11 +4470,9 @@ export default {
       "masked": "Each ____ country contributes funding.",
       "options": [
         "member-mcq-45",
-        "member-mcq-46",
-        "member-mcq-43",
-        "member-mcq-47",
-        "member-mcq-42",
-        "member-mcq-48"
+        "member-mcq-58",
+        "member-mcq-34",
+        "member-mcq-53"
       ],
       "explanation": "本句的「member」指「成員國」。",
       "sentenceIndex": 107,
@@ -4907,12 +4481,10 @@ export default {
         "member"
       ],
       "optionReasons": {
-        "member-mcq-45": "本句指「成員國」。",
-        "member-mcq-46": "「成員機構」與本句語境不同。",
-        "member-mcq-43": "「美國國會議員」與本句語境不同。",
-        "member-mcq-47": "「成員公司」與本句語境不同。",
-        "member-mcq-42": "「國會／議會議員」與本句語境不同。",
-        "member-mcq-48": "「成員公司／事務所」與本句語境不同。"
+        "member-mcq-45": "本句的「member」指「成員國」。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-45"
     },
@@ -4924,11 +4496,9 @@ export default {
       "masked": "Each ____ appoints one representative.",
       "options": [
         "member-mcq-46",
-        "member-mcq-45",
-        "member-mcq-47",
-        "member-mcq-48",
-        "member-mcq-43",
-        "member-mcq-49"
+        "member-mcq-60",
+        "member-mcq-53",
+        "member-mcq-34"
       ],
       "explanation": "本句的「member organisation」指「成員機構」。",
       "sentenceIndex": 108,
@@ -4937,12 +4507,10 @@ export default {
         "member organisation"
       ],
       "optionReasons": {
-        "member-mcq-46": "本句指「成員機構」。",
-        "member-mcq-45": "「成員國」與本句語境不同。",
-        "member-mcq-47": "「成員公司」與本句語境不同。",
-        "member-mcq-48": "「成員公司／事務所」與本句語境不同。",
-        "member-mcq-43": "「美國國會議員」與本句語境不同。",
-        "member-mcq-49": "「成員銀行」與本句語境不同。"
+        "member-mcq-46": "本句的「member organisation」指「成員機構」。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-46"
     },
@@ -4954,11 +4522,9 @@ export default {
       "masked": "____ organisations share common standards.",
       "options": [
         "member-mcq-46",
-        "member-mcq-45",
-        "member-mcq-47",
-        "member-mcq-48",
-        "member-mcq-43",
-        "member-mcq-49"
+        "member-mcq-23",
+        "member-mcq-53",
+        "member-mcq-34"
       ],
       "explanation": "本句的「Member」指「成員機構」。",
       "sentenceIndex": 109,
@@ -4967,12 +4533,10 @@ export default {
         "Member"
       ],
       "optionReasons": {
-        "member-mcq-46": "本句指「成員機構」。",
-        "member-mcq-45": "「成員國」與本句語境不同。",
-        "member-mcq-47": "「成員公司」與本句語境不同。",
-        "member-mcq-48": "「成員公司／事務所」與本句語境不同。",
-        "member-mcq-43": "「美國國會議員」與本句語境不同。",
-        "member-mcq-49": "「成員銀行」與本句語境不同。"
+        "member-mcq-46": "本句的「Member」指「成員機構」。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-46"
     },
@@ -4984,11 +4548,9 @@ export default {
       "masked": "The association represents its ____.",
       "options": [
         "member-mcq-47",
-        "member-mcq-46",
-        "member-mcq-48",
-        "member-mcq-45",
-        "member-mcq-49",
-        "member-mcq-50"
+        "member-mcq-29",
+        "member-mcq-35",
+        "member-mcq-33"
       ],
       "explanation": "本句的「member companies」指「成員公司」。",
       "sentenceIndex": 110,
@@ -4997,12 +4559,10 @@ export default {
         "member companies"
       ],
       "optionReasons": {
-        "member-mcq-47": "本句指「成員公司」。",
-        "member-mcq-46": "「成員機構」與本句語境不同。",
-        "member-mcq-48": "「成員公司／事務所」與本句語境不同。",
-        "member-mcq-45": "「成員國」與本句語境不同。",
-        "member-mcq-49": "「成員銀行」與本句語境不同。",
-        "member-mcq-50": "「演員」與本句語境不同。"
+        "member-mcq-47": "本句的「member companies」指「成員公司」。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-47"
     },
@@ -5014,11 +4574,9 @@ export default {
       "masked": "____ companies receive industry updates.",
       "options": [
         "member-mcq-47",
-        "member-mcq-46",
-        "member-mcq-48",
-        "member-mcq-45",
-        "member-mcq-49",
-        "member-mcq-50"
+        "member-mcq-65",
+        "member-mcq-63",
+        "member-mcq-33"
       ],
       "explanation": "本句的「Member」指「成員公司」。",
       "sentenceIndex": 111,
@@ -5027,12 +4585,10 @@ export default {
         "Member"
       ],
       "optionReasons": {
-        "member-mcq-47": "本句指「成員公司」。",
-        "member-mcq-46": "「成員機構」與本句語境不同。",
-        "member-mcq-48": "「成員公司／事務所」與本句語境不同。",
-        "member-mcq-45": "「成員國」與本句語境不同。",
-        "member-mcq-49": "「成員銀行」與本句語境不同。",
-        "member-mcq-50": "「演員」與本句語境不同。"
+        "member-mcq-47": "本句的「Member」指「成員公司」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-47"
     },
@@ -5044,11 +4600,9 @@ export default {
       "masked": "The network includes independent ____.",
       "options": [
         "member-mcq-48",
-        "member-mcq-47",
-        "member-mcq-49",
-        "member-mcq-46",
-        "member-mcq-50",
-        "member-mcq-45"
+        "member-mcq-59",
+        "member-mcq-58",
+        "member-mcq-53"
       ],
       "explanation": "本句的「member firms」指「成員公司／事務所」。",
       "sentenceIndex": 112,
@@ -5057,12 +4611,10 @@ export default {
         "member firms"
       ],
       "optionReasons": {
-        "member-mcq-48": "本句指「成員公司／事務所」。",
-        "member-mcq-47": "「成員公司」與本句語境不同。",
-        "member-mcq-49": "「成員銀行」與本句語境不同。",
-        "member-mcq-46": "「成員機構」與本句語境不同。",
-        "member-mcq-50": "「演員」與本句語境不同。",
-        "member-mcq-45": "「成員國」與本句語境不同。"
+        "member-mcq-48": "本句的「member firms」指「成員公司／事務所」。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-48"
     },
@@ -5074,11 +4626,9 @@ export default {
       "masked": "Each ____ firm remains legally separate.",
       "options": [
         "member-mcq-48",
-        "member-mcq-47",
-        "member-mcq-49",
-        "member-mcq-46",
-        "member-mcq-50",
-        "member-mcq-45"
+        "member-mcq-63",
+        "member-mcq-65",
+        "member-mcq-29"
       ],
       "explanation": "本句的「member」指「成員公司／事務所」。",
       "sentenceIndex": 113,
@@ -5087,12 +4637,10 @@ export default {
         "member"
       ],
       "optionReasons": {
-        "member-mcq-48": "本句指「成員公司／事務所」。",
-        "member-mcq-47": "「成員公司」與本句語境不同。",
-        "member-mcq-49": "「成員銀行」與本句語境不同。",
-        "member-mcq-46": "「成員機構」與本句語境不同。",
-        "member-mcq-50": "「演員」與本句語境不同。",
-        "member-mcq-45": "「成員國」與本句語境不同。"
+        "member-mcq-48": "本句的「member」指「成員公司／事務所」。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-48"
     },
@@ -5104,11 +4652,9 @@ export default {
       "masked": "The system includes several ____.",
       "options": [
         "member-mcq-49",
-        "member-mcq-48",
-        "member-mcq-50",
-        "member-mcq-47",
-        "member-mcq-51",
-        "member-mcq-46"
+        "member-mcq-60",
+        "member-mcq-58",
+        "member-mcq-29"
       ],
       "explanation": "本句的「member banks」指「成員銀行」。",
       "sentenceIndex": 114,
@@ -5117,12 +4663,10 @@ export default {
         "member banks"
       ],
       "optionReasons": {
-        "member-mcq-49": "本句指「成員銀行」。",
-        "member-mcq-48": "「成員公司／事務所」與本句語境不同。",
-        "member-mcq-50": "「演員」與本句語境不同。",
-        "member-mcq-47": "「成員公司」與本句語境不同。",
-        "member-mcq-51": "「機組／船員／工作人員」與本句語境不同。",
-        "member-mcq-46": "「成員機構」與本句語境不同。"
+        "member-mcq-49": "本句的「member banks」指「成員銀行」。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-49"
     },
@@ -5134,11 +4678,9 @@ export default {
       "masked": "____ banks may be subject to shared rules.",
       "options": [
         "member-mcq-49",
-        "member-mcq-48",
-        "member-mcq-50",
-        "member-mcq-47",
-        "member-mcq-51",
-        "member-mcq-46"
+        "member-mcq-59",
+        "member-mcq-23",
+        "member-mcq-61"
       ],
       "explanation": "本句的「Member」指「成員銀行」。",
       "sentenceIndex": 115,
@@ -5147,12 +4689,10 @@ export default {
         "Member"
       ],
       "optionReasons": {
-        "member-mcq-49": "本句指「成員銀行」。",
-        "member-mcq-48": "「成員公司／事務所」與本句語境不同。",
-        "member-mcq-50": "「演員」與本句語境不同。",
-        "member-mcq-47": "「成員公司」與本句語境不同。",
-        "member-mcq-51": "「機組／船員／工作人員」與本句語境不同。",
-        "member-mcq-46": "「成員機構」與本句語境不同。"
+        "member-mcq-49": "本句的「Member」指「成員銀行」。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-49"
     },
@@ -5164,11 +4704,9 @@ export default {
       "masked": "Every ____ attended rehearsal.",
       "options": [
         "member-mcq-50",
-        "member-mcq-49",
-        "member-mcq-51",
-        "member-mcq-48",
-        "member-mcq-52",
-        "member-mcq-47"
+        "member-mcq-35",
+        "member-mcq-29",
+        "member-mcq-60"
       ],
       "explanation": "本句的「cast member」指「演員」。",
       "sentenceIndex": 116,
@@ -5177,12 +4715,10 @@ export default {
         "cast member"
       ],
       "optionReasons": {
-        "member-mcq-50": "本句指「演員」。",
-        "member-mcq-49": "「成員銀行」與本句語境不同。",
-        "member-mcq-51": "「機組／船員／工作人員」與本句語境不同。",
-        "member-mcq-48": "「成員公司／事務所」與本句語境不同。",
-        "member-mcq-52": "「樂隊成員」與本句語境不同。",
-        "member-mcq-47": "「成員公司」與本句語境不同。"
+        "member-mcq-50": "本句的「cast member」指「演員」。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-50"
     },
@@ -5194,11 +4730,9 @@ export default {
       "masked": "She was one of the original cast ____.",
       "options": [
         "member-mcq-50",
-        "member-mcq-49",
-        "member-mcq-51",
-        "member-mcq-48",
-        "member-mcq-52",
-        "member-mcq-47"
+        "member-mcq-58",
+        "member-mcq-35",
+        "member-mcq-29"
       ],
       "explanation": "本句的「members」指「演員」。",
       "sentenceIndex": 117,
@@ -5207,12 +4741,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-50": "本句指「演員」。",
-        "member-mcq-49": "「成員銀行」與本句語境不同。",
-        "member-mcq-51": "「機組／船員／工作人員」與本句語境不同。",
-        "member-mcq-48": "「成員公司／事務所」與本句語境不同。",
-        "member-mcq-52": "「樂隊成員」與本句語境不同。",
-        "member-mcq-47": "「成員公司」與本句語境不同。"
+        "member-mcq-50": "本句的「members」指「演員」。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-50"
     },
@@ -5224,11 +4756,9 @@ export default {
       "masked": "A ____ helped the passenger.",
       "options": [
         "member-mcq-51",
-        "member-mcq-50",
-        "member-mcq-52",
-        "member-mcq-49",
-        "member-mcq-53",
-        "member-mcq-48"
+        "member-mcq-63",
+        "member-mcq-34",
+        "member-mcq-53"
       ],
       "explanation": "本句的「crew member」指「機組／船員／工作人員」。",
       "sentenceIndex": 118,
@@ -5237,12 +4767,10 @@ export default {
         "crew member"
       ],
       "optionReasons": {
-        "member-mcq-51": "本句指「機組／船員／工作人員」。",
-        "member-mcq-50": "「演員」與本句語境不同。",
-        "member-mcq-52": "「樂隊成員」與本句語境不同。",
-        "member-mcq-49": "「成員銀行」與本句語境不同。",
-        "member-mcq-53": "「一名觀眾」與本句語境不同。",
-        "member-mcq-48": "「成員公司／事務所」與本句語境不同。"
+        "member-mcq-51": "本句的「crew member」指「機組／船員／工作人員」。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-51"
     },
@@ -5254,11 +4782,9 @@ export default {
       "masked": "All crew ____ received safety training.",
       "options": [
         "member-mcq-51",
-        "member-mcq-50",
-        "member-mcq-52",
-        "member-mcq-49",
-        "member-mcq-53",
-        "member-mcq-48"
+        "member-mcq-23",
+        "member-mcq-29",
+        "member-mcq-65"
       ],
       "explanation": "本句的「members」指「機組／船員／工作人員」。",
       "sentenceIndex": 119,
@@ -5267,12 +4793,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-51": "本句指「機組／船員／工作人員」。",
-        "member-mcq-50": "「演員」與本句語境不同。",
-        "member-mcq-52": "「樂隊成員」與本句語境不同。",
-        "member-mcq-49": "「成員銀行」與本句語境不同。",
-        "member-mcq-53": "「一名觀眾」與本句語境不同。",
-        "member-mcq-48": "「成員公司／事務所」與本句語境不同。"
+        "member-mcq-51": "本句的「members」指「機組／船員／工作人員」。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-51"
     },
@@ -5284,11 +4808,9 @@ export default {
       "masked": "Two ____ wrote the song.",
       "options": [
         "member-mcq-52",
-        "member-mcq-51",
-        "member-mcq-53",
-        "member-mcq-50",
-        "member-mcq-54",
-        "member-mcq-49"
+        "member-mcq-65",
+        "member-mcq-60",
+        "member-mcq-58"
       ],
       "explanation": "本句的「band members」指「樂隊成員」。",
       "sentenceIndex": 120,
@@ -5297,12 +4819,10 @@ export default {
         "band members"
       ],
       "optionReasons": {
-        "member-mcq-52": "本句指「樂隊成員」。",
-        "member-mcq-51": "「機組／船員／工作人員」與本句語境不同。",
-        "member-mcq-53": "「一名觀眾」與本句語境不同。",
-        "member-mcq-50": "「演員」與本句語境不同。",
-        "member-mcq-54": "「教職員／學術人員」與本句語境不同。",
-        "member-mcq-49": "「成員銀行」與本句語境不同。"
+        "member-mcq-52": "本句的「band members」指「樂隊成員」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-52"
     },
@@ -5314,11 +4834,9 @@ export default {
       "masked": "The original band ____ reunited.",
       "options": [
         "member-mcq-52",
-        "member-mcq-51",
-        "member-mcq-53",
-        "member-mcq-50",
-        "member-mcq-54",
-        "member-mcq-49"
+        "member-mcq-65",
+        "member-mcq-63",
+        "member-mcq-33"
       ],
       "explanation": "本句的「members」指「樂隊成員」。",
       "sentenceIndex": 121,
@@ -5327,12 +4845,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-52": "本句指「樂隊成員」。",
-        "member-mcq-51": "「機組／船員／工作人員」與本句語境不同。",
-        "member-mcq-53": "「一名觀眾」與本句語境不同。",
-        "member-mcq-50": "「演員」與本句語境不同。",
-        "member-mcq-54": "「教職員／學術人員」與本句語境不同。",
-        "member-mcq-49": "「成員銀行」與本句語境不同。"
+        "member-mcq-52": "本句的「members」指「樂隊成員」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-52"
     },
@@ -5344,11 +4860,9 @@ export default {
       "masked": "An ____ asked a question.",
       "options": [
         "member-mcq-53",
+        "member-mcq-29",
         "member-mcq-52",
-        "member-mcq-54",
-        "member-mcq-51",
-        "member-mcq-55",
-        "member-mcq-50"
+        "member-mcq-58"
       ],
       "explanation": "本句的「audience member」指「一名觀眾」。",
       "sentenceIndex": 122,
@@ -5357,12 +4871,10 @@ export default {
         "audience member"
       ],
       "optionReasons": {
-        "member-mcq-53": "本句指「一名觀眾」。",
-        "member-mcq-52": "「樂隊成員」與本句語境不同。",
-        "member-mcq-54": "「教職員／學術人員」與本句語境不同。",
-        "member-mcq-51": "「機組／船員／工作人員」與本句語境不同。",
-        "member-mcq-55": "「社區成員」與本句語境不同。",
-        "member-mcq-50": "「演員」與本句語境不同。"
+        "member-mcq-53": "本句的「audience member」指「一名觀眾」。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-53"
     },
@@ -5374,11 +4886,9 @@ export default {
       "masked": "Several audience ____ left early.",
       "options": [
         "member-mcq-53",
-        "member-mcq-52",
-        "member-mcq-54",
-        "member-mcq-51",
-        "member-mcq-55",
-        "member-mcq-50"
+        "member-mcq-10",
+        "member-mcq-58",
+        "member-mcq-65"
       ],
       "explanation": "本句的「members」指「一名觀眾」。",
       "sentenceIndex": 123,
@@ -5387,12 +4897,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-53": "本句指「一名觀眾」。",
-        "member-mcq-52": "「樂隊成員」與本句語境不同。",
-        "member-mcq-54": "「教職員／學術人員」與本句語境不同。",
-        "member-mcq-51": "「機組／船員／工作人員」與本句語境不同。",
-        "member-mcq-55": "「社區成員」與本句語境不同。",
-        "member-mcq-50": "「演員」與本句語境不同。"
+        "member-mcq-53": "本句的「members」指「一名觀眾」。",
+        "member-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-53"
     },
@@ -5404,11 +4912,9 @@ export default {
       "masked": "A ____ supervised the research.",
       "options": [
         "member-mcq-54",
-        "member-mcq-53",
-        "member-mcq-55",
-        "member-mcq-52",
-        "member-mcq-56",
-        "member-mcq-51"
+        "member-mcq-34",
+        "member-mcq-35",
+        "member-mcq-23"
       ],
       "explanation": "本句的「faculty member」指「教職員／學術人員」。",
       "sentenceIndex": 124,
@@ -5417,12 +4923,10 @@ export default {
         "faculty member"
       ],
       "optionReasons": {
-        "member-mcq-54": "本句指「教職員／學術人員」。",
-        "member-mcq-53": "「一名觀眾」與本句語境不同。",
-        "member-mcq-55": "「社區成員」與本句語境不同。",
-        "member-mcq-52": "「樂隊成員」與本句語境不同。",
-        "member-mcq-56": "「公眾人士；市民」與本句語境不同。",
-        "member-mcq-51": "「機組／船員／工作人員」與本句語境不同。"
+        "member-mcq-54": "本句的「faculty member」指「教職員／學術人員」。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-54"
     },
@@ -5434,11 +4938,9 @@ export default {
       "masked": "Faculty ____ attended the meeting.",
       "options": [
         "member-mcq-54",
-        "member-mcq-53",
-        "member-mcq-55",
-        "member-mcq-52",
-        "member-mcq-56",
-        "member-mcq-51"
+        "member-mcq-23",
+        "member-mcq-62",
+        "member-mcq-34"
       ],
       "explanation": "本句的「members」指「教職員／學術人員」。",
       "sentenceIndex": 125,
@@ -5447,12 +4949,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-54": "本句指「教職員／學術人員」。",
-        "member-mcq-53": "「一名觀眾」與本句語境不同。",
-        "member-mcq-55": "「社區成員」與本句語境不同。",
-        "member-mcq-52": "「樂隊成員」與本句語境不同。",
-        "member-mcq-56": "「公眾人士；市民」與本句語境不同。",
-        "member-mcq-51": "「機組／船員／工作人員」與本句語境不同。"
+        "member-mcq-54": "本句的「members」指「教職員／學術人員」。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-54"
     },
@@ -5464,11 +4964,9 @@ export default {
       "masked": "Each ____ of faculty has access to the system.",
       "options": [
         "member-mcq-54",
-        "member-mcq-53",
-        "member-mcq-55",
-        "member-mcq-52",
-        "member-mcq-56",
-        "member-mcq-51"
+        "member-mcq-65",
+        "member-mcq-60",
+        "member-mcq-58"
       ],
       "explanation": "本句的「member」指「教職員／學術人員」。",
       "sentenceIndex": 126,
@@ -5477,12 +4975,10 @@ export default {
         "member"
       ],
       "optionReasons": {
-        "member-mcq-54": "本句指「教職員／學術人員」。",
-        "member-mcq-53": "「一名觀眾」與本句語境不同。",
-        "member-mcq-55": "「社區成員」與本句語境不同。",
-        "member-mcq-52": "「樂隊成員」與本句語境不同。",
-        "member-mcq-56": "「公眾人士；市民」與本句語境不同。",
-        "member-mcq-51": "「機組／船員／工作人員」與本句語境不同。"
+        "member-mcq-54": "本句的「member」指「教職員／學術人員」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-54"
     },
@@ -5494,11 +4990,9 @@ export default {
       "masked": "Local ____ attended the consultation.",
       "options": [
         "member-mcq-55",
-        "member-mcq-54",
-        "member-mcq-56",
-        "member-mcq-53",
-        "member-mcq-57",
-        "member-mcq-52"
+        "member-mcq-20",
+        "member-mcq-33",
+        "member-mcq-35"
       ],
       "explanation": "本句的「community members」指「社區成員」。",
       "sentenceIndex": 127,
@@ -5507,12 +5001,10 @@ export default {
         "community members"
       ],
       "optionReasons": {
-        "member-mcq-55": "本句指「社區成員」。",
-        "member-mcq-54": "「教職員／學術人員」與本句語境不同。",
-        "member-mcq-56": "「公眾人士；市民」與本句語境不同。",
-        "member-mcq-53": "「一名觀眾」與本句語境不同。",
-        "member-mcq-57": "「類別中的一員」與本句語境不同。",
-        "member-mcq-52": "「樂隊成員」與本句語境不同。"
+        "member-mcq-55": "本句的「community members」指「社區成員」。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-55"
     },
@@ -5524,11 +5016,9 @@ export default {
       "masked": "The project was designed with community ____.",
       "options": [
         "member-mcq-55",
-        "member-mcq-54",
-        "member-mcq-56",
-        "member-mcq-53",
-        "member-mcq-57",
-        "member-mcq-52"
+        "member-mcq-60",
+        "member-mcq-62",
+        "member-mcq-33"
       ],
       "explanation": "本句的「members」指「社區成員」。",
       "sentenceIndex": 128,
@@ -5537,12 +5027,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-55": "本句指「社區成員」。",
-        "member-mcq-54": "「教職員／學術人員」與本句語境不同。",
-        "member-mcq-56": "「公眾人士；市民」與本句語境不同。",
-        "member-mcq-53": "「一名觀眾」與本句語境不同。",
-        "member-mcq-57": "「類別中的一員」與本句語境不同。",
-        "member-mcq-52": "「樂隊成員」與本句語境不同。"
+        "member-mcq-55": "本句的「members」指「社區成員」。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-55"
     },
@@ -5554,11 +5042,9 @@ export default {
       "masked": "A ____ reported the problem.",
       "options": [
         "member-mcq-56",
-        "member-mcq-55",
-        "member-mcq-57",
-        "member-mcq-54",
-        "member-mcq-58",
-        "member-mcq-53"
+        "member-mcq-43",
+        "member-mcq-59",
+        "member-pdf-003"
       ],
       "explanation": "本句的「member of the public」指「公眾人士；市民」。",
       "sentenceIndex": 129,
@@ -5567,12 +5053,10 @@ export default {
         "member of the public"
       ],
       "optionReasons": {
-        "member-mcq-56": "本句指「公眾人士；市民」。",
-        "member-mcq-55": "「社區成員」與本句語境不同。",
-        "member-mcq-57": "「類別中的一員」與本句語境不同。",
-        "member-mcq-54": "「教職員／學術人員」與本句語境不同。",
-        "member-mcq-58": "「物種中的個體」與本句語境不同。",
-        "member-mcq-53": "「一名觀眾」與本句語境不同。"
+        "member-mcq-56": "本句的「member of the public」指「公眾人士；市民」。",
+        "member-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-56"
     },
@@ -5584,11 +5068,9 @@ export default {
       "masked": "____ of the public may submit comments.",
       "options": [
         "member-mcq-56",
-        "member-mcq-55",
-        "member-mcq-57",
-        "member-mcq-54",
-        "member-mcq-58",
-        "member-mcq-53"
+        "member-mcq-42",
+        "member-mcq-23",
+        "member-mcq-63"
       ],
       "explanation": "本句的「Members」指「公眾人士；市民」。",
       "sentenceIndex": 130,
@@ -5597,12 +5079,10 @@ export default {
         "Members"
       ],
       "optionReasons": {
-        "member-mcq-56": "本句指「公眾人士；市民」。",
-        "member-mcq-55": "「社區成員」與本句語境不同。",
-        "member-mcq-57": "「類別中的一員」與本句語境不同。",
-        "member-mcq-54": "「教職員／學術人員」與本句語境不同。",
-        "member-mcq-58": "「物種中的個體」與本句語境不同。",
-        "member-mcq-53": "「一名觀眾」與本句語境不同。"
+        "member-mcq-56": "本句的「Members」指「公眾人士；市民」。",
+        "member-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-56"
     },
@@ -5614,11 +5094,9 @@ export default {
       "masked": "This animal is a ____.",
       "options": [
         "member-mcq-57",
-        "member-mcq-56",
-        "member-mcq-58",
-        "member-mcq-55",
-        "member-mcq-59",
-        "member-mcq-54"
+        "member-mcq-63",
+        "member-mcq-29",
+        "member-pdf-001"
       ],
       "explanation": "本句的「member of the cat family」指「類別中的一員」。",
       "sentenceIndex": 131,
@@ -5627,12 +5105,10 @@ export default {
         "member of the cat family"
       ],
       "optionReasons": {
-        "member-mcq-57": "本句指「類別中的一員」。",
-        "member-mcq-56": "「公眾人士；市民」與本句語境不同。",
-        "member-mcq-58": "「物種中的個體」與本句語境不同。",
-        "member-mcq-55": "「社區成員」與本句語境不同。",
-        "member-mcq-59": "「集合元素」與本句語境不同。",
-        "member-mcq-54": "「教職員／學術人員」與本句語境不同。"
+        "member-mcq-57": "本句的「member of the cat family」指「類別中的一員」。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-57"
     },
@@ -5644,11 +5120,9 @@ export default {
       "masked": "Each item is a ____ of one category.",
       "options": [
         "member-mcq-57",
-        "member-mcq-56",
-        "member-mcq-58",
-        "member-mcq-55",
-        "member-mcq-59",
-        "member-mcq-54"
+        "member-mcq-63",
+        "member-mcq-23",
+        "member-mcq-56"
       ],
       "explanation": "本句的「member」指「類別中的一員」。",
       "sentenceIndex": 132,
@@ -5657,12 +5131,10 @@ export default {
         "member"
       ],
       "optionReasons": {
-        "member-mcq-57": "本句指「類別中的一員」。",
-        "member-mcq-56": "「公眾人士；市民」與本句語境不同。",
-        "member-mcq-58": "「物種中的個體」與本句語境不同。",
-        "member-mcq-55": "「社區成員」與本句語境不同。",
-        "member-mcq-59": "「集合元素」與本句語境不同。",
-        "member-mcq-54": "「教職員／學術人員」與本句語境不同。"
+        "member-mcq-57": "本句的「member」指「類別中的一員」。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-57"
     },
@@ -5674,11 +5146,9 @@ export default {
       "masked": "Humans are ____ of the species *Homo sapiens*.",
       "options": [
         "member-mcq-58",
-        "member-mcq-57",
-        "member-mcq-59",
-        "member-mcq-56",
-        "member-mcq-60",
-        "member-mcq-55"
+        "member-mcq-21",
+        "member-mcq-52",
+        "member-mcq-59"
       ],
       "explanation": "本句的「members」指「物種中的個體」。",
       "sentenceIndex": 133,
@@ -5687,12 +5157,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-58": "本句指「物種中的個體」。",
-        "member-mcq-57": "「類別中的一員」與本句語境不同。",
-        "member-mcq-59": "「集合元素」與本句語境不同。",
-        "member-mcq-56": "「公眾人士；市民」與本句語境不同。",
-        "member-mcq-60": "「集合隸屬關係」與本句語境不同。",
-        "member-mcq-55": "「社區成員」與本句語境不同。"
+        "member-mcq-58": "本句的「members」指「物種中的個體」。",
+        "member-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-58"
     },
@@ -5704,11 +5172,9 @@ export default {
       "masked": "Some ____ of the species migrate seasonally.",
       "options": [
         "member-mcq-58",
-        "member-mcq-57",
+        "member-mcq-15",
         "member-mcq-59",
-        "member-mcq-56",
-        "member-mcq-60",
-        "member-mcq-55"
+        "member-mcq-20"
       ],
       "explanation": "本句的「members」指「物種中的個體」。",
       "sentenceIndex": 134,
@@ -5717,12 +5183,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-58": "本句指「物種中的個體」。",
-        "member-mcq-57": "「類別中的一員」與本句語境不同。",
-        "member-mcq-59": "「集合元素」與本句語境不同。",
-        "member-mcq-56": "「公眾人士；市民」與本句語境不同。",
-        "member-mcq-60": "「集合隸屬關係」與本句語境不同。",
-        "member-mcq-55": "「社區成員」與本句語境不同。"
+        "member-mcq-58": "本句的「members」指「物種中的個體」。",
+        "member-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-58"
     },
@@ -5734,11 +5198,9 @@ export default {
       "masked": "3 is a ____ {1, 2, 3}.",
       "options": [
         "member-mcq-59",
-        "member-mcq-58",
-        "member-mcq-60",
-        "member-mcq-57",
-        "member-mcq-61",
-        "member-mcq-56"
+        "member-mcq-66",
+        "member-mcq-56",
+        "member-mcq-35"
       ],
       "explanation": "本句的「member of the set」指「集合元素」。",
       "sentenceIndex": 135,
@@ -5747,12 +5209,10 @@ export default {
         "member of the set"
       ],
       "optionReasons": {
-        "member-mcq-59": "本句指「集合元素」。",
-        "member-mcq-58": "「物種中的個體」與本句語境不同。",
-        "member-mcq-60": "「集合隸屬關係」與本句語境不同。",
-        "member-mcq-57": "「類別中的一員」與本句語境不同。",
-        "member-mcq-61": "「結構構件」與本句語境不同。",
-        "member-mcq-56": "「公眾人士；市民」與本句語境不同。"
+        "member-mcq-59": "本句的「member of the set」指「集合元素」。",
+        "member-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-59"
     },
@@ -5764,11 +5224,9 @@ export default {
       "masked": "Every ____ of the set satisfies the condition.",
       "options": [
         "member-mcq-59",
-        "member-mcq-58",
-        "member-mcq-60",
-        "member-mcq-57",
-        "member-mcq-61",
-        "member-mcq-56"
+        "member-mcq-07",
+        "member-mcq-23",
+        "member-mcq-33"
       ],
       "explanation": "本句的「member」指「集合元素」。",
       "sentenceIndex": 136,
@@ -5777,12 +5235,10 @@ export default {
         "member"
       ],
       "optionReasons": {
-        "member-mcq-59": "本句指「集合元素」。",
-        "member-mcq-58": "「物種中的個體」與本句語境不同。",
-        "member-mcq-60": "「集合隸屬關係」與本句語境不同。",
-        "member-mcq-57": "「類別中的一員」與本句語境不同。",
-        "member-mcq-61": "「結構構件」與本句語境不同。",
-        "member-mcq-56": "「公眾人士；市民」與本句語境不同。"
+        "member-mcq-59": "本句的「member」指「集合元素」。",
+        "member-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-59"
     },
@@ -5794,11 +5250,9 @@ export default {
       "masked": "Check whether x is a ____.",
       "options": [
         "member-mcq-59",
-        "member-mcq-58",
-        "member-mcq-60",
-        "member-mcq-57",
-        "member-mcq-61",
-        "member-mcq-56"
+        "member-mcq-43",
+        "member-pdf-004",
+        "member-pdf-003"
       ],
       "explanation": "本句的「member of the set」指「集合元素」。",
       "sentenceIndex": 137,
@@ -5807,12 +5261,10 @@ export default {
         "member of the set"
       ],
       "optionReasons": {
-        "member-mcq-59": "本句指「集合元素」。",
-        "member-mcq-58": "「物種中的個體」與本句語境不同。",
-        "member-mcq-60": "「集合隸屬關係」與本句語境不同。",
-        "member-mcq-57": "「類別中的一員」與本句語境不同。",
-        "member-mcq-61": "「結構構件」與本句語境不同。",
-        "member-mcq-56": "「公眾人士；市民」與本句語境不同。"
+        "member-mcq-59": "本句的「member of the set」指「集合元素」。",
+        "member-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-59"
     },
@@ -5824,11 +5276,9 @@ export default {
       "masked": "Set ____ is represented using special notation.",
       "options": [
         "member-mcq-59",
-        "member-mcq-58",
-        "member-mcq-60",
-        "member-mcq-57",
-        "member-mcq-61",
-        "member-mcq-56"
+        "member-mcq-06",
+        "member-mcq-38",
+        "member-mcq-61"
       ],
       "explanation": "本句的「membership」指「集合元素」。",
       "sentenceIndex": 138,
@@ -5837,12 +5287,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-59": "本句指「集合元素」。",
-        "member-mcq-58": "「物種中的個體」與本句語境不同。",
-        "member-mcq-60": "「集合隸屬關係」與本句語境不同。",
-        "member-mcq-57": "「類別中的一員」與本句語境不同。",
-        "member-mcq-61": "「結構構件」與本句語境不同。",
-        "member-mcq-56": "「公眾人士；市民」與本句語境不同。"
+        "member-mcq-59": "本句的「membership」指「集合元素」。",
+        "member-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-59"
     },
@@ -5854,11 +5302,9 @@ export default {
       "masked": "The symbol ∈ indicates ____.",
       "options": [
         "member-mcq-60",
-        "member-mcq-59",
-        "member-mcq-61",
-        "member-mcq-58",
-        "member-mcq-62",
-        "member-mcq-57"
+        "member-mcq-25",
+        "member-mcq-34",
+        "member-mcq-61"
       ],
       "explanation": "本句的「membership in a set」指「集合隸屬關係」。",
       "sentenceIndex": 139,
@@ -5867,12 +5313,10 @@ export default {
         "membership in a set"
       ],
       "optionReasons": {
-        "member-mcq-60": "本句指「集合隸屬關係」。",
-        "member-mcq-59": "「集合元素」與本句語境不同。",
-        "member-mcq-61": "「結構構件」與本句語境不同。",
-        "member-mcq-58": "「物種中的個體」與本句語境不同。",
-        "member-mcq-62": "「承重構件」與本句語境不同。",
-        "member-mcq-57": "「類別中的一員」與本句語境不同。"
+        "member-mcq-60": "本句的「membership in a set」指「集合隸屬關係」。",
+        "member-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-60"
     },
@@ -5884,11 +5328,9 @@ export default {
       "masked": "____ is different from being a subset.",
       "options": [
         "member-mcq-60",
-        "member-mcq-59",
-        "member-mcq-61",
-        "member-mcq-58",
-        "member-mcq-62",
-        "member-mcq-57"
+        "member-mcq-26",
+        "member-pdf-004",
+        "member-mcq-58"
       ],
       "explanation": "本句的「Membership」指「集合隸屬關係」。",
       "sentenceIndex": 140,
@@ -5897,12 +5339,10 @@ export default {
         "Membership"
       ],
       "optionReasons": {
-        "member-mcq-60": "本句指「集合隸屬關係」。",
-        "member-mcq-59": "「集合元素」與本句語境不同。",
-        "member-mcq-61": "「結構構件」與本句語境不同。",
-        "member-mcq-58": "「物種中的個體」與本句語境不同。",
-        "member-mcq-62": "「承重構件」與本句語境不同。",
-        "member-mcq-57": "「類別中的一員」與本句語境不同。"
+        "member-mcq-60": "本句的「Membership」指「集合隸屬關係」。",
+        "member-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-60"
     },
@@ -5914,11 +5354,9 @@ export default {
       "masked": "Columns and beams are common ____.",
       "options": [
         "member-mcq-61",
-        "member-mcq-60",
-        "member-mcq-62",
-        "member-mcq-59",
-        "member-mcq-63",
-        "member-mcq-58"
+        "member-mcq-32",
+        "member-mcq-35",
+        "member-pdf-003"
       ],
       "explanation": "本句的「structural members」指「結構構件」。",
       "sentenceIndex": 143,
@@ -5927,12 +5365,10 @@ export default {
         "structural members"
       ],
       "optionReasons": {
-        "member-mcq-61": "本句指「結構構件」。",
-        "member-mcq-60": "「集合隸屬關係」與本句語境不同。",
-        "member-mcq-62": "「承重構件」與本句語境不同。",
-        "member-mcq-59": "「集合元素」與本句語境不同。",
-        "member-mcq-63": "「肢體；身體部位」與本句語境不同。",
-        "member-mcq-58": "「物種中的個體」與本句語境不同。"
+        "member-mcq-61": "本句的「structural members」指「結構構件」。",
+        "member-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-61"
     },
@@ -5945,10 +5381,8 @@ export default {
       "options": [
         "member-mcq-61",
         "member-mcq-60",
-        "member-mcq-62",
-        "member-mcq-59",
-        "member-mcq-63",
-        "member-mcq-58"
+        "member-mcq-06",
+        "member-mcq-29"
       ],
       "explanation": "本句的「member」指「結構構件」。",
       "sentenceIndex": 144,
@@ -5957,12 +5391,10 @@ export default {
         "member"
       ],
       "optionReasons": {
-        "member-mcq-61": "本句指「結構構件」。",
-        "member-mcq-60": "「集合隸屬關係」與本句語境不同。",
-        "member-mcq-62": "「承重構件」與本句語境不同。",
-        "member-mcq-59": "「集合元素」與本句語境不同。",
-        "member-mcq-63": "「肢體；身體部位」與本句語境不同。",
-        "member-mcq-58": "「物種中的個體」與本句語境不同。"
+        "member-mcq-61": "本句的「member」指「結構構件」。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-61"
     },
@@ -5974,11 +5406,9 @@ export default {
       "masked": "This wall contains a ____.",
       "options": [
         "member-mcq-62",
-        "member-mcq-61",
-        "member-mcq-63",
-        "member-mcq-60",
-        "member-mcq-64",
-        "member-mcq-59"
+        "member-mcq-30",
+        "member-mcq-56",
+        "member-mcq-60"
       ],
       "explanation": "本句的「load-bearing member」指「承重構件」。",
       "sentenceIndex": 145,
@@ -5987,12 +5417,10 @@ export default {
         "load-bearing member"
       ],
       "optionReasons": {
-        "member-mcq-62": "本句指「承重構件」。",
-        "member-mcq-61": "「結構構件」與本句語境不同。",
-        "member-mcq-63": "「肢體；身體部位」與本句語境不同。",
-        "member-mcq-60": "「集合隸屬關係」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。",
-        "member-mcq-59": "「集合元素」與本句語境不同。"
+        "member-mcq-62": "本句的「load-bearing member」指「承重構件」。",
+        "member-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-62"
     },
@@ -6004,11 +5432,9 @@ export default {
       "masked": "Load-bearing ____ must be designed for expected forces.",
       "options": [
         "member-mcq-62",
-        "member-mcq-61",
-        "member-mcq-63",
-        "member-mcq-60",
-        "member-mcq-64",
-        "member-mcq-59"
+        "member-mcq-42",
+        "member-mcq-34",
+        "member-mcq-53"
       ],
       "explanation": "本句的「members」指「承重構件」。",
       "sentenceIndex": 146,
@@ -6017,12 +5443,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-62": "本句指「承重構件」。",
-        "member-mcq-61": "「結構構件」與本句語境不同。",
-        "member-mcq-63": "「肢體；身體部位」與本句語境不同。",
-        "member-mcq-60": "「集合隸屬關係」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。",
-        "member-mcq-59": "「集合元素」與本句語境不同。"
+        "member-mcq-62": "本句的「members」指「承重構件」。",
+        "member-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-62"
     },
@@ -6034,11 +5458,9 @@ export default {
       "masked": "The frame includes several ____.",
       "options": [
         "member-mcq-62",
-        "member-mcq-61",
-        "member-mcq-63",
-        "member-mcq-60",
-        "member-mcq-64",
-        "member-mcq-59"
+        "member-mcq-41",
+        "member-mcq-53",
+        "member-mcq-34"
       ],
       "explanation": "本句的「cross members」指「承重構件」。",
       "sentenceIndex": 147,
@@ -6047,12 +5469,10 @@ export default {
         "cross members"
       ],
       "optionReasons": {
-        "member-mcq-62": "本句指「承重構件」。",
-        "member-mcq-61": "「結構構件」與本句語境不同。",
-        "member-mcq-63": "「肢體；身體部位」與本句語境不同。",
-        "member-mcq-60": "「集合隸屬關係」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。",
-        "member-mcq-59": "「集合元素」與本句語境不同。"
+        "member-mcq-62": "本句的「cross members」指「承重構件」。",
+        "member-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-62"
     },
@@ -6064,11 +5484,9 @@ export default {
       "masked": "Older texts may use ____ to mean a limb or bodily part.",
       "options": [
         "member-mcq-63",
-        "member-mcq-62",
-        "member-mcq-64",
-        "member-mcq-61",
-        "member-mcq-65",
-        "member-mcq-60"
+        "member-mcq-16",
+        "member-mcq-59",
+        "member-mcq-62"
       ],
       "explanation": "本句的「member」指「肢體；身體部位」。",
       "sentenceIndex": 148,
@@ -6077,12 +5495,10 @@ export default {
         "member"
       ],
       "optionReasons": {
-        "member-mcq-63": "本句指「肢體；身體部位」。",
-        "member-mcq-62": "「承重構件」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。",
-        "member-mcq-61": "「結構構件」與本句語境不同。",
-        "member-mcq-65": "「肢解；分割」與本句語境不同。",
-        "member-mcq-60": "「集合隸屬關係」與本句語境不同。"
+        "member-mcq-63": "本句的「member」指「肢體；身體部位」。",
+        "member-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-63"
     },
@@ -6094,11 +5510,9 @@ export default {
       "masked": "The word ____ literally means to remove limbs or body parts.",
       "options": [
         "member-pdf-003",
-        "member-mcq-63",
-        "member-mcq-65",
-        "member-mcq-62",
-        "member-mcq-66",
-        "member-mcq-61"
+        "member-mcq-41",
+        "member-mcq-29",
+        "member-mcq-56"
       ],
       "explanation": "本句的「dismember」指「把人或動物的肢體切斷／分離」。",
       "sentenceIndex": 149,
@@ -6107,12 +5521,10 @@ export default {
         "dismember"
       ],
       "optionReasons": {
-        "member-pdf-003": "本句指「把人或動物的肢體切斷／分離」。",
-        "member-mcq-63": "「肢體；身體部位」與本句語境不同。",
-        "member-mcq-65": "「肢解；分割」與本句語境不同。",
-        "member-mcq-62": "「承重構件」與本句語境不同。",
-        "member-mcq-66": "「個人會員」與本句語境不同。",
-        "member-mcq-61": "「結構構件」與本句語境不同。"
+        "member-pdf-003": "本句的「dismember」指「把人或動物的肢體切斷／分離」。",
+        "member-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-pdf-003"
     },
@@ -6124,11 +5536,9 @@ export default {
       "masked": "The report referred to ____.",
       "options": [
         "member-mcq-65",
-        "member-mcq-64",
-        "member-mcq-66",
-        "member-mcq-63",
-        "member-mcq-67",
-        "member-mcq-62"
+        "member-mcq-41",
+        "member-mcq-33",
+        "member-mcq-53"
       ],
       "explanation": "本句的「dismemberment」指「肢解；分割」。",
       "sentenceIndex": 150,
@@ -6137,12 +5547,10 @@ export default {
         "dismemberment"
       ],
       "optionReasons": {
-        "member-mcq-65": "本句指「肢解；分割」。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。",
-        "member-mcq-66": "「個人會員」與本句語境不同。",
-        "member-mcq-63": "「肢體；身體部位」與本句語境不同。",
-        "member-mcq-67": "「機構會員」與本句語境不同。",
-        "member-mcq-62": "「承重構件」與本句語境不同。"
+        "member-mcq-65": "本句的「dismemberment」指「肢解；分割」。",
+        "member-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-65"
     },
@@ -6154,11 +5562,9 @@ export default {
       "masked": "The empire was gradually ____.",
       "options": [
         "member-mcq-65",
-        "member-mcq-64",
-        "member-mcq-66",
-        "member-mcq-63",
-        "member-mcq-67",
-        "member-mcq-62"
+        "member-mcq-39",
+        "member-mcq-60",
+        "member-mcq-29"
       ],
       "explanation": "本句的「dismembered」指「肢解；分割」。",
       "sentenceIndex": 151,
@@ -6167,12 +5573,10 @@ export default {
         "dismembered"
       ],
       "optionReasons": {
-        "member-mcq-65": "本句指「肢解；分割」。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。",
-        "member-mcq-66": "「個人會員」與本句語境不同。",
-        "member-mcq-63": "「肢體；身體部位」與本句語境不同。",
-        "member-mcq-67": "「機構會員」與本句語境不同。",
-        "member-mcq-62": "「承重構件」與本句語境不同。"
+        "member-mcq-65": "本句的「dismembered」指「肢解；分割」。",
+        "member-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-65"
     },
@@ -6184,11 +5588,9 @@ export default {
       "masked": "The federation has thirty ____.",
       "options": [
         "member-pdf-004",
-        "member-mcq-02",
-        "member-mcq-03",
-        "member-mcq-04",
-        "member-mcq-05",
-        "member-mcq-06"
+        "member-mcq-65",
+        "member-mcq-08",
+        "member-mcq-59"
       ],
       "explanation": "本句的「members」指「也可以指加入另一個大型組織的公司、國家、機構等，而不只指人」。",
       "sentenceIndex": 152,
@@ -6197,12 +5599,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-pdf-004": "本句指「也可以指加入另一個大型組織的公司、國家、機構等，而不只指人」。",
-        "member-mcq-02": "「部門成員」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-pdf-004": "本句的「members」指「也可以指加入另一個大型組織的公司、國家、機構等，而不只指人」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-pdf-004"
     },
@@ -6214,11 +5614,9 @@ export default {
       "masked": "Each ____ appoints a representative.",
       "options": [
         "member-pdf-004",
-        "member-mcq-02",
-        "member-mcq-03",
-        "member-mcq-04",
-        "member-mcq-05",
-        "member-mcq-06"
+        "member-mcq-29",
+        "member-pdf-003",
+        "member-mcq-35"
       ],
       "explanation": "本句的「member」指「也可以指加入另一個大型組織的公司、國家、機構等，而不只指人」。",
       "sentenceIndex": 153,
@@ -6227,12 +5625,10 @@ export default {
         "member"
       ],
       "optionReasons": {
-        "member-pdf-004": "本句指「也可以指加入另一個大型組織的公司、國家、機構等，而不只指人」。",
-        "member-mcq-02": "「部門成員」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-pdf-004": "本句的「member」指「也可以指加入另一個大型組織的公司、國家、機構等，而不只指人」。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-pdf-004"
     },
@@ -6244,11 +5640,9 @@ export default {
       "masked": "The association accepts both ____.",
       "options": [
         "member-mcq-66",
+        "member-mcq-23",
         "member-mcq-65",
-        "member-mcq-67",
-        "member-mcq-64",
-        "member-mcq-68",
-        "member-mcq-63"
+        "member-mcq-61"
       ],
       "explanation": "本句的「individual and corporate members」指「個人會員」。",
       "sentenceIndex": 154,
@@ -6257,12 +5651,10 @@ export default {
         "individual and corporate members"
       ],
       "optionReasons": {
-        "member-mcq-66": "本句指「個人會員」。",
-        "member-mcq-65": "「肢解；分割」與本句語境不同。",
-        "member-mcq-67": "「機構會員」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。",
-        "member-mcq-68": "「高級會員」與本句語境不同。",
-        "member-mcq-63": "「肢體；身體部位」與本句語境不同。"
+        "member-mcq-66": "本句的「individual and corporate members」指「個人會員」。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-66"
     },
@@ -6274,11 +5666,9 @@ export default {
       "masked": "Corporate ____ pay a different fee.",
       "options": [
         "member-mcq-66",
-        "member-mcq-65",
-        "member-mcq-67",
-        "member-mcq-64",
-        "member-mcq-68",
-        "member-mcq-63"
+        "member-mcq-23",
+        "member-mcq-58",
+        "member-mcq-34"
       ],
       "explanation": "本句的「members」指「個人會員」。",
       "sentenceIndex": 155,
@@ -6287,12 +5677,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-66": "本句指「個人會員」。",
-        "member-mcq-65": "「肢解；分割」與本句語境不同。",
-        "member-mcq-67": "「機構會員」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。",
-        "member-mcq-68": "「高級會員」與本句語境不同。",
-        "member-mcq-63": "「肢體；身體部位」與本句語境不同。"
+        "member-mcq-66": "本句的「members」指「個人會員」。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-66"
     },
@@ -6304,11 +5692,9 @@ export default {
       "masked": "The country applied for ____.",
       "options": [
         "member-mcq-67",
-        "member-mcq-66",
-        "member-mcq-68",
-        "member-mcq-65",
-        "member-mcq-69",
-        "member-mcq-64"
+        "member-mcq-20",
+        "member-mcq-60",
+        "member-mcq-33"
       ],
       "explanation": "本句的「membership in the organisation」指「機構會員」。",
       "sentenceIndex": 156,
@@ -6317,12 +5703,10 @@ export default {
         "membership in the organisation"
       ],
       "optionReasons": {
-        "member-mcq-67": "本句指「機構會員」。",
-        "member-mcq-66": "「個人會員」與本句語境不同。",
-        "member-mcq-68": "「高級會員」與本句語境不同。",
-        "member-mcq-65": "「肢解；分割」與本句語境不同。",
-        "member-mcq-69": "「會員級別」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。"
+        "member-mcq-67": "本句的「membership in the organisation」指「機構會員」。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-67"
     },
@@ -6334,11 +5718,9 @@ export default {
       "masked": "____ of the professional body requires qualifications.",
       "options": [
         "member-mcq-67",
-        "member-mcq-66",
-        "member-mcq-68",
-        "member-mcq-65",
-        "member-mcq-69",
-        "member-mcq-64"
+        "member-mcq-23",
+        "member-mcq-35",
+        "member-mcq-63"
       ],
       "explanation": "本句的「Membership」指「機構會員」。",
       "sentenceIndex": 157,
@@ -6347,12 +5729,10 @@ export default {
         "Membership"
       ],
       "optionReasons": {
-        "member-mcq-67": "本句指「機構會員」。",
-        "member-mcq-66": "「個人會員」與本句語境不同。",
-        "member-mcq-68": "「高級會員」與本句語境不同。",
-        "member-mcq-65": "「肢解；分割」與本句語境不同。",
-        "member-mcq-69": "「會員級別」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。"
+        "member-mcq-67": "本句的「Membership」指「機構會員」。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-67"
     },
@@ -6364,11 +5744,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "member-mcq-68",
-        "member-mcq-67",
-        "member-mcq-69",
-        "member-mcq-66",
         "member-mcq-65",
-        "member-mcq-64"
+        "member-mcq-62",
+        "member-mcq-60"
       ],
       "explanation": "本句的「applied for membership」指「高級會員」。",
       "sentenceIndex": 158,
@@ -6377,12 +5755,10 @@ export default {
         "applied for membership"
       ],
       "optionReasons": {
-        "member-mcq-68": "本句指「高級會員」。",
-        "member-mcq-67": "「機構會員」與本句語境不同。",
-        "member-mcq-69": "「會員級別」與本句語境不同。",
-        "member-mcq-66": "「個人會員」與本句語境不同。",
-        "member-mcq-65": "「肢解；分割」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。"
+        "member-mcq-68": "本句的「applied for membership」指「高級會員」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-68"
     },
@@ -6394,11 +5770,9 @@ export default {
       "masked": "Companies may apply for ____ online.",
       "options": [
         "member-mcq-68",
-        "member-mcq-67",
-        "member-mcq-69",
-        "member-mcq-66",
-        "member-mcq-65",
-        "member-mcq-64"
+        "member-mcq-33",
+        "member-mcq-29",
+        "member-mcq-20"
       ],
       "explanation": "本句的「membership」指「高級會員」。",
       "sentenceIndex": 159,
@@ -6407,12 +5781,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-68": "本句指「高級會員」。",
-        "member-mcq-67": "「機構會員」與本句語境不同。",
-        "member-mcq-69": "「會員級別」與本句語境不同。",
-        "member-mcq-66": "「個人會員」與本句語境不同。",
-        "member-mcq-65": "「肢解；分割」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。"
+        "member-mcq-68": "本句的「membership」指「高級會員」。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-68"
     },
@@ -6424,11 +5796,9 @@ export default {
       "masked": "The board voted to ____.",
       "options": [
         "member-mcq-68",
-        "member-mcq-67",
-        "member-mcq-69",
-        "member-mcq-66",
-        "member-mcq-65",
-        "member-mcq-64"
+        "member-mcq-20",
+        "member-mcq-35",
+        "member-mcq-65"
       ],
       "explanation": "本句的「admit her to membership」指「高級會員」。",
       "sentenceIndex": 160,
@@ -6437,12 +5807,10 @@ export default {
         "admit her to membership"
       ],
       "optionReasons": {
-        "member-mcq-68": "本句指「高級會員」。",
-        "member-mcq-67": "「機構會員」與本句語境不同。",
-        "member-mcq-69": "「會員級別」與本句語境不同。",
-        "member-mcq-66": "「個人會員」與本句語境不同。",
-        "member-mcq-65": "「肢解；分割」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。"
+        "member-mcq-68": "本句的「admit her to membership」指「高級會員」。",
+        "member-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-68"
     },
@@ -6454,11 +5822,9 @@ export default {
       "masked": "New applicants are admitted to ____ after review.",
       "options": [
         "member-mcq-68",
-        "member-mcq-67",
-        "member-mcq-69",
-        "member-mcq-66",
-        "member-mcq-65",
-        "member-mcq-64"
+        "member-mcq-53",
+        "member-mcq-60",
+        "member-mcq-33"
       ],
       "explanation": "本句的「membership」指「高級會員」。",
       "sentenceIndex": 161,
@@ -6467,12 +5833,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-68": "本句指「高級會員」。",
-        "member-mcq-67": "「機構會員」與本句語境不同。",
-        "member-mcq-69": "「會員級別」與本句語境不同。",
-        "member-mcq-66": "「個人會員」與本句語境不同。",
-        "member-mcq-65": "「肢解；分割」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。"
+        "member-mcq-68": "本句的「membership」指「高級會員」。",
+        "member-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-68"
     },
@@ -6484,11 +5848,9 @@ export default {
       "masked": "____ can save products to a wish list.",
       "options": [
         "member-mcq-01",
-        "member-mcq-02",
-        "member-mcq-03",
-        "member-mcq-04",
-        "member-mcq-05",
-        "member-mcq-06"
+        "member-mcq-65",
+        "member-mcq-35",
+        "member-mcq-23"
       ],
       "explanation": "本句的「Members」指「成員；會員」。",
       "sentenceIndex": 162,
@@ -6497,12 +5859,10 @@ export default {
         "Members"
       ],
       "optionReasons": {
-        "member-mcq-01": "本句指「成員；會員」。",
-        "member-mcq-02": "「部門成員」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-mcq-01": "本句的「Members」指「成員；會員」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-01"
     },
@@ -6514,11 +5874,9 @@ export default {
       "masked": "The platform gives ____ early access to sales.",
       "options": [
         "member-mcq-01",
-        "member-mcq-02",
-        "member-mcq-03",
-        "member-mcq-04",
-        "member-mcq-05",
-        "member-mcq-06"
+        "member-mcq-65",
+        "member-mcq-29",
+        "member-mcq-59"
       ],
       "explanation": "本句的「members」指「成員；會員」。",
       "sentenceIndex": 163,
@@ -6527,12 +5885,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-01": "本句指「成員；會員」。",
-        "member-mcq-02": "「部門成員」與本句語境不同。",
-        "member-mcq-03": "「團隊成員」與本句語境不同。",
-        "member-mcq-04": "「小組成員」與本句語境不同。",
-        "member-mcq-05": "「員工；職員」與本句語境不同。",
-        "member-mcq-06": "「家庭成員；家人」與本句語境不同。"
+        "member-mcq-01": "本句的「members」指「成員；會員」。",
+        "member-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-01"
     },
@@ -6544,11 +5900,9 @@ export default {
       "masked": "Premium ____ receive free shipping.",
       "options": [
         "member-mcq-68",
-        "member-mcq-67",
-        "member-mcq-69",
-        "member-mcq-66",
-        "member-mcq-65",
-        "member-mcq-64"
+        "member-mcq-35",
+        "member-mcq-58",
+        "member-mcq-33"
       ],
       "explanation": "本句的「members」指「高級會員」。",
       "sentenceIndex": 164,
@@ -6557,12 +5911,10 @@ export default {
         "members"
       ],
       "optionReasons": {
-        "member-mcq-68": "本句指「高級會員」。",
-        "member-mcq-67": "「機構會員」與本句語境不同。",
-        "member-mcq-69": "「會員級別」與本句語境不同。",
-        "member-mcq-66": "「個人會員」與本句語境不同。",
-        "member-mcq-65": "「肢解；分割」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。"
+        "member-mcq-68": "本句的「members」指「高級會員」。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-68"
     },
@@ -6574,11 +5926,9 @@ export default {
       "masked": "She upgraded to premium ____.",
       "options": [
         "member-mcq-68",
-        "member-mcq-67",
-        "member-mcq-69",
-        "member-mcq-66",
-        "member-mcq-65",
-        "member-mcq-64"
+        "member-mcq-34",
+        "member-mcq-63",
+        "member-mcq-59"
       ],
       "explanation": "本句的「membership」指「高級會員」。",
       "sentenceIndex": 165,
@@ -6587,12 +5937,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-68": "本句指「高級會員」。",
-        "member-mcq-67": "「機構會員」與本句語境不同。",
-        "member-mcq-69": "「會員級別」與本句語境不同。",
-        "member-mcq-66": "「個人會員」與本句語境不同。",
-        "member-mcq-65": "「肢解；分割」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。"
+        "member-mcq-68": "本句的「membership」指「高級會員」。",
+        "member-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-68"
     },
@@ -6604,11 +5952,9 @@ export default {
       "masked": "Benefits depend on your ____.",
       "options": [
         "member-mcq-69",
-        "member-mcq-68",
-        "member-mcq-67",
-        "member-mcq-66",
-        "member-mcq-65",
-        "member-mcq-64"
+        "member-mcq-58",
+        "member-mcq-56",
+        "member-mcq-33"
       ],
       "explanation": "本句的「membership tier」指「會員級別」。",
       "sentenceIndex": 166,
@@ -6617,12 +5963,10 @@ export default {
         "membership tier"
       ],
       "optionReasons": {
-        "member-mcq-69": "本句指「會員級別」。",
-        "member-mcq-68": "「高級會員」與本句語境不同。",
-        "member-mcq-67": "「機構會員」與本句語境不同。",
-        "member-mcq-66": "「個人會員」與本句語境不同。",
-        "member-mcq-65": "「肢解；分割」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。"
+        "member-mcq-69": "本句的「membership tier」指「會員級別」。",
+        "member-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-69"
     },
@@ -6634,11 +5978,9 @@ export default {
       "masked": "The highest ____ tier includes priority service.",
       "options": [
         "member-mcq-69",
-        "member-mcq-68",
-        "member-mcq-67",
-        "member-mcq-66",
-        "member-mcq-65",
-        "member-mcq-64"
+        "member-mcq-63",
+        "member-pdf-001",
+        "member-mcq-35"
       ],
       "explanation": "本句的「membership」指「會員級別」。",
       "sentenceIndex": 167,
@@ -6647,12 +5989,10 @@ export default {
         "membership"
       ],
       "optionReasons": {
-        "member-mcq-69": "本句指「會員級別」。",
-        "member-mcq-68": "「高級會員」與本句語境不同。",
-        "member-mcq-67": "「機構會員」與本句語境不同。",
-        "member-mcq-66": "「個人會員」與本句語境不同。",
-        "member-mcq-65": "「肢解；分割」與本句語境不同。",
-        "member-mcq-64": "「肢解；拆散」與本句語境不同。"
+        "member-mcq-69": "本句的「membership」指「會員級別」。",
+        "member-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "member-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "member-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "member-mcq-69"
     }
@@ -6664,5 +6004,7 @@ export default {
     "sha256": "6a78b4a0469ae1fd16024522b710b1880027269c63337cd8a16b1249fe5c1caf",
     "pages": 54
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -581,10 +581,8 @@ export default {
       "masked": "The farmer set a ____ for the rats.",
       "options": [
         "trap-mcq-01",
-        "trap-mcq-02",
-        "trap-mcq-03",
-        "trap-mcq-04",
-        "trap-mcq-05",
+        "trap-mcq-26",
+        "trap-mcq-21",
         "trap-mcq-06"
       ],
       "explanation": "本句的「trap」指「陷阱；捕獸器」。",
@@ -594,12 +592,10 @@ export default {
         "trap"
       ],
       "optionReasons": {
-        "trap-mcq-01": "本句指「陷阱；捕獸器」。",
-        "trap-mcq-02": "「設陷阱」是「set a trap」的用法，與本句語境不同。",
-        "trap-mcq-03": "「捕捉；困住」是「trap an animal/person」的用法，與本句語境不同。",
-        "trap-mcq-04": "「被困在某處」是「be trapped somewhere」的用法，與本句語境不同。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。"
+        "trap-mcq-01": "本句的「trap」指「陷阱；捕獸器」。",
+        "trap-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-01"
     },
@@ -611,11 +607,9 @@ export default {
       "masked": "The animal was caught in a ____.",
       "options": [
         "trap-mcq-01",
-        "trap-mcq-02",
-        "trap-mcq-03",
         "trap-mcq-04",
-        "trap-mcq-05",
-        "trap-mcq-06"
+        "trap-mcq-23",
+        "trap-mcq-21"
       ],
       "explanation": "本句的「trap」指「陷阱；捕獸器」。",
       "sentenceIndex": 1,
@@ -624,12 +618,10 @@ export default {
         "trap"
       ],
       "optionReasons": {
-        "trap-mcq-01": "本句指「陷阱；捕獸器」。",
-        "trap-mcq-02": "「設陷阱」是「set a trap」的用法，與本句語境不同。",
-        "trap-mcq-03": "「捕捉；困住」是「trap an animal/person」的用法，與本句語境不同。",
-        "trap-mcq-04": "「被困在某處」是「be trapped somewhere」的用法，與本句語境不同。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。"
+        "trap-mcq-01": "本句的「trap」指「陷阱；捕獸器」。",
+        "trap-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-01"
     },
@@ -641,10 +633,8 @@ export default {
       "masked": "They ____ near the hole.",
       "options": [
         "trap-mcq-02",
-        "trap-mcq-01",
-        "trap-mcq-03",
-        "trap-mcq-04",
-        "trap-mcq-05",
+        "trap-pdf-001",
+        "trap-mcq-26",
         "trap-mcq-06"
       ],
       "explanation": "本句的「set a trap」指「設陷阱」。",
@@ -654,12 +644,10 @@ export default {
         "set a trap"
       ],
       "optionReasons": {
-        "trap-mcq-02": "本句指「設陷阱」。",
-        "trap-mcq-01": "「陷阱；捕獸器」是「a trap (animal)」的用法，與本句語境不同。",
-        "trap-mcq-03": "「捕捉；困住」是「trap an animal/person」的用法，與本句語境不同。",
-        "trap-mcq-04": "「被困在某處」是「be trapped somewhere」的用法，與本句語境不同。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。"
+        "trap-mcq-02": "本句的「set a trap」指「設陷阱」。",
+        "trap-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-02"
     },
@@ -671,11 +659,9 @@ export default {
       "masked": "The hunters ____ in the forest.",
       "options": [
         "trap-mcq-02",
-        "trap-mcq-01",
-        "trap-mcq-03",
-        "trap-mcq-04",
-        "trap-mcq-05",
-        "trap-mcq-06"
+        "trap-mcq-17",
+        "trap-mcq-09",
+        "trap-mcq-24"
       ],
       "explanation": "本句的「set several traps」指「設陷阱」。",
       "sentenceIndex": 3,
@@ -684,12 +670,10 @@ export default {
         "set several traps"
       ],
       "optionReasons": {
-        "trap-mcq-02": "本句指「設陷阱」。",
-        "trap-mcq-01": "「陷阱；捕獸器」是「a trap (animal)」的用法，與本句語境不同。",
-        "trap-mcq-03": "「捕捉；困住」是「trap an animal/person」的用法，與本句語境不同。",
-        "trap-mcq-04": "「被困在某處」是「be trapped somewhere」的用法，與本句語境不同。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。"
+        "trap-mcq-02": "本句的「set several traps」指「設陷阱」。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-02"
     },
@@ -701,11 +685,9 @@ export default {
       "masked": "The cage ____.",
       "options": [
         "trap-mcq-03",
+        "trap-pdf-001",
         "trap-mcq-02",
-        "trap-mcq-04",
-        "trap-mcq-01",
-        "trap-mcq-05",
-        "trap-mcq-06"
+        "trap-mcq-17"
       ],
       "explanation": "本句的「trapped the animal」指「捕捉；困住」。",
       "sentenceIndex": 4,
@@ -714,12 +696,10 @@ export default {
         "trapped the animal"
       ],
       "optionReasons": {
-        "trap-mcq-03": "本句指「捕捉；困住」。",
-        "trap-mcq-02": "「設陷阱」是「set a trap」的用法，與本句語境不同。",
-        "trap-mcq-04": "「被困在某處」是「be trapped somewhere」的用法，與本句語境不同。",
-        "trap-mcq-01": "「陷阱；捕獸器」是「a trap (animal)」的用法，與本句語境不同。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。"
+        "trap-mcq-03": "本句的「trapped the animal」指「捕捉；困住」。",
+        "trap-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-03"
     },
@@ -731,11 +711,9 @@ export default {
       "masked": "The police tried to ____ inside the building.",
       "options": [
         "trap-mcq-03",
-        "trap-mcq-02",
-        "trap-mcq-04",
-        "trap-mcq-01",
-        "trap-mcq-05",
-        "trap-mcq-06"
+        "trap-mcq-16",
+        "trap-mcq-14",
+        "trap-mcq-08"
       ],
       "explanation": "本句的「trap the suspect」指「捕捉；困住」。",
       "sentenceIndex": 5,
@@ -744,12 +722,10 @@ export default {
         "trap the suspect"
       ],
       "optionReasons": {
-        "trap-mcq-03": "本句指「捕捉；困住」。",
-        "trap-mcq-02": "「設陷阱」是「set a trap」的用法，與本句語境不同。",
-        "trap-mcq-04": "「被困在某處」是「be trapped somewhere」的用法，與本句語境不同。",
-        "trap-mcq-01": "「陷阱；捕獸器」是「a trap (animal)」的用法，與本句語境不同。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。"
+        "trap-mcq-03": "本句的「trap the suspect」指「捕捉；困住」。",
+        "trap-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-03"
     },
@@ -761,11 +737,9 @@ export default {
       "masked": "Several people were ____.",
       "options": [
         "trap-mcq-04",
-        "trap-mcq-03",
-        "trap-mcq-05",
-        "trap-mcq-02",
-        "trap-mcq-06",
-        "trap-mcq-01"
+        "trap-mcq-17",
+        "trap-mcq-20",
+        "trap-mcq-16"
       ],
       "explanation": "本句的「trapped inside the lift」指「被困在某處」。",
       "sentenceIndex": 6,
@@ -774,12 +748,10 @@ export default {
         "trapped inside the lift"
       ],
       "optionReasons": {
-        "trap-mcq-04": "本句指「被困在某處」。",
-        "trap-mcq-03": "「捕捉；困住」是「trap an animal/person」的用法，與本句語境不同。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。",
-        "trap-mcq-02": "「設陷阱」是「set a trap」的用法，與本句語境不同。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。",
-        "trap-mcq-01": "「陷阱；捕獸器」是「a trap (animal)」的用法，與本句語境不同。"
+        "trap-mcq-04": "本句的「trapped inside the lift」指「被困在某處」。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-04"
     },
@@ -791,11 +763,9 @@ export default {
       "masked": "The hikers were ____ by heavy snow.",
       "options": [
         "trap-mcq-04",
-        "trap-mcq-03",
-        "trap-mcq-05",
-        "trap-mcq-02",
-        "trap-mcq-06",
-        "trap-mcq-01"
+        "trap-mcq-15",
+        "trap-mcq-08",
+        "trap-mcq-21"
       ],
       "explanation": "本句的「trapped on the mountain」指「被困在某處」。",
       "sentenceIndex": 7,
@@ -804,12 +774,10 @@ export default {
         "trapped on the mountain"
       ],
       "optionReasons": {
-        "trap-mcq-04": "本句指「被困在某處」。",
-        "trap-mcq-03": "「捕捉；困住」是「trap an animal/person」的用法，與本句語境不同。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。",
-        "trap-mcq-02": "「設陷阱」是「set a trap」的用法，與本句語境不同。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。",
-        "trap-mcq-01": "「陷阱；捕獸器」是「a trap (animal)」的用法，與本句語境不同。"
+        "trap-mcq-04": "本句的「trapped on the mountain」指「被困在某處」。",
+        "trap-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-04"
     },
@@ -821,11 +789,9 @@ export default {
       "masked": "His leg was ____.",
       "options": [
         "trap-mcq-23",
-        "trap-mcq-22",
-        "trap-mcq-24",
-        "trap-mcq-21",
-        "trap-mcq-25",
-        "trap-mcq-20"
+        "trap-mcq-01",
+        "trap-mcq-03",
+        "trap-mcq-07"
       ],
       "explanation": "本句的「trapped under the fallen tree」指「因物理阻礙而無法移動或離開」。",
       "sentenceIndex": 8,
@@ -834,12 +800,10 @@ export default {
         "trapped under the fallen tree"
       ],
       "optionReasons": {
-        "trap-mcq-23": "本句指「因物理阻礙而無法移動或離開」。",
-        "trap-mcq-22": "「誘捕」是「entrapment」的用法，與本句語境不同。",
-        "trap-mcq-24": "「因各種限制而難以離開某段關係或工作」是「10. be trapped in a relationship/job — 被困在關係／工作中」的用法，與本句語境不同。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。",
-        "trap-mcq-25": "「為欺騙、捕捉或令某人作出不利行動而設計的圈套」是「11. a trap（圈套；計謀） — 圈套；陷阱」的用法，與本句語境不同。",
-        "trap-mcq-20": "「設陷阱捕獵」是「trapping」的用法，與本句語境不同。"
+        "trap-mcq-23": "本句的「trapped under the fallen tree」指「因物理阻礙而無法移動或離開」。",
+        "trap-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-23"
     },
@@ -851,11 +815,9 @@ export default {
       "masked": "Air can become ____.",
       "options": [
         "trap-mcq-23",
-        "trap-mcq-22",
-        "trap-mcq-24",
-        "trap-mcq-21",
-        "trap-mcq-25",
-        "trap-mcq-20"
+        "trap-mcq-13",
+        "trap-mcq-19",
+        "trap-mcq-08"
       ],
       "explanation": "本句的「trapped inside the container」指「因物理阻礙而無法移動或離開」。",
       "sentenceIndex": 9,
@@ -864,12 +826,10 @@ export default {
         "trapped inside the container"
       ],
       "optionReasons": {
-        "trap-mcq-23": "本句指「因物理阻礙而無法移動或離開」。",
-        "trap-mcq-22": "「誘捕」是「entrapment」的用法，與本句語境不同。",
-        "trap-mcq-24": "「因各種限制而難以離開某段關係或工作」是「10. be trapped in a relationship/job — 被困在關係／工作中」的用法，與本句語境不同。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。",
-        "trap-mcq-25": "「為欺騙、捕捉或令某人作出不利行動而設計的圈套」是「11. a trap（圈套；計謀） — 圈套；陷阱」的用法，與本句語境不同。",
-        "trap-mcq-20": "「設陷阱捕獵」是「trapping」的用法，與本句語境不同。"
+        "trap-mcq-23": "本句的「trapped inside the container」指「因物理阻礙而無法移動或離開」。",
+        "trap-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-23"
     },
@@ -881,11 +841,9 @@ export default {
       "masked": "Thick curtains can ____ inside the room.",
       "options": [
         "trap-mcq-06",
-        "trap-mcq-05",
-        "trap-mcq-07",
-        "trap-mcq-04",
-        "trap-mcq-08",
-        "trap-mcq-03"
+        "trap-mcq-14",
+        "trap-mcq-24",
+        "trap-mcq-21"
       ],
       "explanation": "本句的「trap heat」指「留住熱力／空氣」。",
       "sentenceIndex": 10,
@@ -894,12 +852,10 @@ export default {
         "trap heat"
       ],
       "optionReasons": {
-        "trap-mcq-06": "本句指「留住熱力／空氣」。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。",
-        "trap-mcq-07": "「陷入困境」是「trapped in a situation」的用法，與本句語境不同。",
-        "trap-mcq-04": "「被困在某處」是「be trapped somewhere」的用法，與本句語境不同。",
-        "trap-mcq-08": "「陷入一成不變的日常」是「trapped in routine」的用法，與本句語境不同。",
-        "trap-mcq-03": "「捕捉；困住」是「trap an animal/person」的用法，與本句語境不同。"
+        "trap-mcq-06": "本句的「trap heat」指「留住熱力／空氣」。",
+        "trap-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-06"
     },
@@ -911,11 +867,9 @@ export default {
       "masked": "The material ____ against the skin.",
       "options": [
         "trap-mcq-06",
-        "trap-mcq-05",
-        "trap-mcq-07",
-        "trap-mcq-04",
+        "trap-mcq-20",
         "trap-mcq-08",
-        "trap-mcq-03"
+        "trap-mcq-04"
       ],
       "explanation": "本句的「traps moisture」指「留住熱力／空氣」。",
       "sentenceIndex": 11,
@@ -924,12 +878,10 @@ export default {
         "traps moisture"
       ],
       "optionReasons": {
-        "trap-mcq-06": "本句指「留住熱力／空氣」。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。",
-        "trap-mcq-07": "「陷入困境」是「trapped in a situation」的用法，與本句語境不同。",
-        "trap-mcq-04": "「被困在某處」是「be trapped somewhere」的用法，與本句語境不同。",
-        "trap-mcq-08": "「陷入一成不變的日常」是「trapped in routine」的用法，與本句語境不同。",
-        "trap-mcq-03": "「捕捉；困住」是「trap an animal/person」的用法，與本句語境不同。"
+        "trap-mcq-06": "本句的「traps moisture」指「留住熱力／空氣」。",
+        "trap-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-06"
     },
@@ -941,11 +893,9 @@ export default {
       "masked": "He felt ____.",
       "options": [
         "trap-mcq-07",
-        "trap-mcq-06",
-        "trap-mcq-08",
-        "trap-mcq-05",
-        "trap-mcq-09",
-        "trap-mcq-04"
+        "trap-pdf-001",
+        "trap-mcq-13",
+        "trap-mcq-19"
       ],
       "explanation": "本句的「trapped in a difficult situation」指「陷入困境」。",
       "sentenceIndex": 12,
@@ -954,12 +904,10 @@ export default {
         "trapped in a difficult situation"
       ],
       "optionReasons": {
-        "trap-mcq-07": "本句指「陷入困境」。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。",
-        "trap-mcq-08": "「陷入一成不變的日常」是「trapped in routine」的用法，與本句語境不同。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。",
-        "trap-mcq-09": "「感到受困／被束縛」是「feel trapped」的用法，與本句語境不同。",
-        "trap-mcq-04": "「被困在某處」是「be trapped somewhere」的用法，與本句語境不同。"
+        "trap-mcq-07": "本句的「trapped in a difficult situation」指「陷入困境」。",
+        "trap-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-07"
     },
@@ -972,10 +920,8 @@ export default {
       "options": [
         "trap-mcq-07",
         "trap-mcq-06",
-        "trap-mcq-08",
-        "trap-mcq-05",
-        "trap-mcq-09",
-        "trap-mcq-04"
+        "trap-pdf-001",
+        "trap-mcq-17"
       ],
       "explanation": "本句的「trapped in a cycle of stress and overwork」指「陷入困境」。",
       "sentenceIndex": 13,
@@ -984,12 +930,10 @@ export default {
         "trapped in a cycle of stress and overwork"
       ],
       "optionReasons": {
-        "trap-mcq-07": "本句指「陷入困境」。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。",
-        "trap-mcq-08": "「陷入一成不變的日常」是「trapped in routine」的用法，與本句語境不同。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。",
-        "trap-mcq-09": "「感到受困／被束縛」是「feel trapped」的用法，與本句語境不同。",
-        "trap-mcq-04": "「被困在某處」是「be trapped somewhere」的用法，與本句語境不同。"
+        "trap-mcq-07": "本句的「trapped in a cycle of stress and overwork」指「陷入困境」。",
+        "trap-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trap-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-07"
     },
@@ -1001,11 +945,9 @@ export default {
       "masked": "Adults often get ____.",
       "options": [
         "trap-mcq-08",
-        "trap-mcq-07",
-        "trap-mcq-09",
-        "trap-mcq-06",
-        "trap-mcq-10",
-        "trap-mcq-05"
+        "trap-mcq-13",
+        "trap-pdf-001",
+        "trap-mcq-26"
       ],
       "explanation": "本句的「trapped in routine」指「陷入一成不變的日常」。",
       "sentenceIndex": 14,
@@ -1014,12 +956,10 @@ export default {
         "trapped in routine"
       ],
       "optionReasons": {
-        "trap-mcq-08": "本句指「陷入一成不變的日常」。",
-        "trap-mcq-07": "「陷入困境」是「trapped in a situation」的用法，與本句語境不同。",
-        "trap-mcq-09": "「感到受困／被束縛」是「feel trapped」的用法，與本句語境不同。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。",
-        "trap-mcq-10": "「圈套」是「trap (scheme)」的用法，與本句語境不同。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。"
+        "trap-mcq-08": "本句的「trapped in routine」指「陷入一成不變的日常」。",
+        "trap-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "trap-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-08"
     },
@@ -1031,11 +971,9 @@ export default {
       "masked": "After years in the same job, he felt ____.",
       "options": [
         "trap-mcq-08",
-        "trap-mcq-07",
-        "trap-mcq-09",
-        "trap-mcq-06",
-        "trap-mcq-10",
-        "trap-mcq-05"
+        "trap-mcq-16",
+        "trap-mcq-22",
+        "trap-mcq-04"
       ],
       "explanation": "本句的「trapped in routine」指「陷入一成不變的日常」。",
       "sentenceIndex": 15,
@@ -1044,12 +982,10 @@ export default {
         "trapped in routine"
       ],
       "optionReasons": {
-        "trap-mcq-08": "本句指「陷入一成不變的日常」。",
-        "trap-mcq-07": "「陷入困境」是「trapped in a situation」的用法，與本句語境不同。",
-        "trap-mcq-09": "「感到受困／被束縛」是「feel trapped」的用法，與本句語境不同。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。",
-        "trap-mcq-10": "「圈套」是「trap (scheme)」的用法，與本句語境不同。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。"
+        "trap-mcq-08": "本句的「trapped in routine」指「陷入一成不變的日常」。",
+        "trap-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-08"
     },
@@ -1061,11 +997,9 @@ export default {
       "masked": "Travelling helped her escape from feeling ____.",
       "options": [
         "trap-mcq-08",
-        "trap-mcq-07",
-        "trap-mcq-09",
-        "trap-mcq-06",
-        "trap-mcq-10",
-        "trap-mcq-05"
+        "trap-mcq-17",
+        "trap-mcq-13",
+        "trap-mcq-19"
       ],
       "explanation": "本句的「trapped in routine」指「陷入一成不變的日常」。",
       "sentenceIndex": 16,
@@ -1074,12 +1008,10 @@ export default {
         "trapped in routine"
       ],
       "optionReasons": {
-        "trap-mcq-08": "本句指「陷入一成不變的日常」。",
-        "trap-mcq-07": "「陷入困境」是「trapped in a situation」的用法，與本句語境不同。",
-        "trap-mcq-09": "「感到受困／被束縛」是「feel trapped」的用法，與本句語境不同。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。",
-        "trap-mcq-10": "「圈套」是「trap (scheme)」的用法，與本句語境不同。",
-        "trap-mcq-05": "「被壓／困在 X 下」是「trapped under X」的用法，與本句語境不同。"
+        "trap-mcq-08": "本句的「trapped in routine」指「陷入一成不變的日常」。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-08"
     },
@@ -1091,11 +1023,9 @@ export default {
       "masked": "He ____ in a job he hated.",
       "options": [
         "trap-mcq-09",
-        "trap-mcq-08",
-        "trap-mcq-10",
-        "trap-mcq-07",
-        "trap-mcq-11",
-        "trap-mcq-06"
+        "trap-mcq-12",
+        "trap-mcq-16",
+        "trap-pdf-001"
       ],
       "explanation": "本句的「felt trapped」指「感到受困／被束縛」。",
       "sentenceIndex": 17,
@@ -1104,12 +1034,10 @@ export default {
         "felt trapped"
       ],
       "optionReasons": {
-        "trap-mcq-09": "本句指「感到受困／被束縛」。",
-        "trap-mcq-08": "「陷入一成不變的日常」是「trapped in routine」的用法，與本句語境不同。",
-        "trap-mcq-10": "「圈套」是「trap (scheme)」的用法，與本句語境不同。",
-        "trap-mcq-07": "「陷入困境」是「trapped in a situation」的用法，與本句語境不同。",
-        "trap-mcq-11": "「中計；掉進陷阱」是「fall into a trap」的用法，與本句語境不同。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。"
+        "trap-mcq-09": "本句的「felt trapped」指「感到受困／被束縛」。",
+        "trap-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trap-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-09"
     },
@@ -1121,10 +1049,8 @@ export default {
       "masked": "She didn't want to ____ by other people's expectations.",
       "options": [
         "trap-mcq-09",
-        "trap-mcq-08",
-        "trap-mcq-10",
-        "trap-mcq-07",
-        "trap-mcq-11",
+        "trap-mcq-15",
+        "trap-mcq-24",
         "trap-mcq-06"
       ],
       "explanation": "本句的「feel trapped」指「感到受困／被束縛」。",
@@ -1134,12 +1060,10 @@ export default {
         "feel trapped"
       ],
       "optionReasons": {
-        "trap-mcq-09": "本句指「感到受困／被束縛」。",
-        "trap-mcq-08": "「陷入一成不變的日常」是「trapped in routine」的用法，與本句語境不同。",
-        "trap-mcq-10": "「圈套」是「trap (scheme)」的用法，與本句語境不同。",
-        "trap-mcq-07": "「陷入困境」是「trapped in a situation」的用法，與本句語境不同。",
-        "trap-mcq-11": "「中計；掉進陷阱」是「fall into a trap」的用法，與本句語境不同。",
-        "trap-mcq-06": "「留住熱力／空氣」是「trap heat/air」的用法，與本句語境不同。"
+        "trap-mcq-09": "本句的「feel trapped」指「感到受困／被束縛」。",
+        "trap-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-09"
     },
@@ -1151,11 +1075,9 @@ export default {
       "masked": "She felt ____.",
       "options": [
         "trap-mcq-24",
-        "trap-mcq-23",
-        "trap-mcq-25",
-        "trap-mcq-22",
-        "trap-mcq-26",
-        "trap-mcq-21"
+        "trap-mcq-09",
+        "trap-mcq-01",
+        "trap-mcq-17"
       ],
       "explanation": "本句的「trapped in an unhealthy relationship」指「因各種限制而難以離開某段關係或工作」。",
       "sentenceIndex": 19,
@@ -1164,12 +1086,10 @@ export default {
         "trapped in an unhealthy relationship"
       ],
       "optionReasons": {
-        "trap-mcq-24": "本句指「因各種限制而難以離開某段關係或工作」。",
-        "trap-mcq-23": "「因物理阻礙而無法移動或離開」是「5. be trapped under/in something — 被壓住／困在某物之中」的用法，與本句語境不同。",
-        "trap-mcq-25": "「為欺騙、捕捉或令某人作出不利行動而設計的圈套」是「11. a trap（圈套；計謀） — 圈套；陷阱」的用法，與本句語境不同。",
-        "trap-mcq-22": "「誘捕」是「entrapment」的用法，與本句語境不同。",
-        "trap-mcq-26": "「安裝在地板、天花或舞台上，可以開關的隱藏小門」是「19. trapdoor / trap door — 活板門；地板暗門」的用法，與本句語境不同。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。"
+        "trap-mcq-24": "本句的「trapped in an unhealthy relationship」指「因各種限制而難以離開某段關係或工作」。",
+        "trap-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-24"
     },
@@ -1181,11 +1101,9 @@ export default {
       "masked": "He stayed because he felt financially ____.",
       "options": [
         "trap-mcq-24",
-        "trap-mcq-23",
-        "trap-mcq-25",
-        "trap-mcq-22",
-        "trap-mcq-26",
-        "trap-mcq-21"
+        "trap-mcq-20",
+        "trap-mcq-16",
+        "trap-mcq-17"
       ],
       "explanation": "本句的「trapped in the job」指「因各種限制而難以離開某段關係或工作」。",
       "sentenceIndex": 20,
@@ -1194,12 +1112,10 @@ export default {
         "trapped in the job"
       ],
       "optionReasons": {
-        "trap-mcq-24": "本句指「因各種限制而難以離開某段關係或工作」。",
-        "trap-mcq-23": "「因物理阻礙而無法移動或離開」是「5. be trapped under/in something — 被壓住／困在某物之中」的用法，與本句語境不同。",
-        "trap-mcq-25": "「為欺騙、捕捉或令某人作出不利行動而設計的圈套」是「11. a trap（圈套；計謀） — 圈套；陷阱」的用法，與本句語境不同。",
-        "trap-mcq-22": "「誘捕」是「entrapment」的用法，與本句語境不同。",
-        "trap-mcq-26": "「安裝在地板、天花或舞台上，可以開關的隱藏小門」是「19. trapdoor / trap door — 活板門；地板暗門」的用法，與本句語境不同。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。"
+        "trap-mcq-24": "本句的「trapped in the job」指「因各種限制而難以離開某段關係或工作」。",
+        "trap-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-24"
     },
@@ -1211,11 +1127,9 @@ export default {
       "masked": "It was a ____, and he walked straight into it.",
       "options": [
         "trap-mcq-25",
-        "trap-mcq-24",
-        "trap-mcq-26",
-        "trap-mcq-23",
-        "trap-mcq-22",
-        "trap-mcq-21"
+        "trap-pdf-001",
+        "trap-mcq-15",
+        "trap-mcq-26"
       ],
       "explanation": "本句的「trap」指「為欺騙、捕捉或令某人作出不利行動而設計的圈套」。",
       "sentenceIndex": 21,
@@ -1224,12 +1138,10 @@ export default {
         "trap"
       ],
       "optionReasons": {
-        "trap-mcq-25": "本句指「為欺騙、捕捉或令某人作出不利行動而設計的圈套」。",
-        "trap-mcq-24": "「因各種限制而難以離開某段關係或工作」是「10. be trapped in a relationship/job — 被困在關係／工作中」的用法，與本句語境不同。",
-        "trap-mcq-26": "「安裝在地板、天花或舞台上，可以開關的隱藏小門」是「19. trapdoor / trap door — 活板門；地板暗門」的用法，與本句語境不同。",
-        "trap-mcq-23": "「因物理阻礙而無法移動或離開」是「5. be trapped under/in something — 被壓住／困在某物之中」的用法，與本句語境不同。",
-        "trap-mcq-22": "「誘捕」是「entrapment」的用法，與本句語境不同。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。"
+        "trap-mcq-25": "本句的「trap」指「為欺騙、捕捉或令某人作出不利行動而設計的圈套」。",
+        "trap-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-25"
     },
@@ -1241,11 +1153,9 @@ export default {
       "masked": "The offer sounded attractive, but it turned out to be a ____.",
       "options": [
         "trap-mcq-25",
-        "trap-mcq-24",
-        "trap-mcq-26",
-        "trap-mcq-23",
-        "trap-mcq-22",
-        "trap-mcq-21"
+        "trap-pdf-001",
+        "trap-mcq-17",
+        "trap-mcq-04"
       ],
       "explanation": "本句的「trap」指「為欺騙、捕捉或令某人作出不利行動而設計的圈套」。",
       "sentenceIndex": 22,
@@ -1254,12 +1164,10 @@ export default {
         "trap"
       ],
       "optionReasons": {
-        "trap-mcq-25": "本句指「為欺騙、捕捉或令某人作出不利行動而設計的圈套」。",
-        "trap-mcq-24": "「因各種限制而難以離開某段關係或工作」是「10. be trapped in a relationship/job — 被困在關係／工作中」的用法，與本句語境不同。",
-        "trap-mcq-26": "「安裝在地板、天花或舞台上，可以開關的隱藏小門」是「19. trapdoor / trap door — 活板門；地板暗門」的用法，與本句語境不同。",
-        "trap-mcq-23": "「因物理阻礙而無法移動或離開」是「5. be trapped under/in something — 被壓住／困在某物之中」的用法，與本句語境不同。",
-        "trap-mcq-22": "「誘捕」是「entrapment」的用法，與本句語境不同。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。"
+        "trap-mcq-25": "本句的「trap」指「為欺騙、捕捉或令某人作出不利行動而設計的圈套」。",
+        "trap-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-25"
     },
@@ -1271,11 +1179,9 @@ export default {
       "masked": "Don't ____ of believing everything you read online.",
       "options": [
         "trap-mcq-11",
-        "trap-mcq-10",
-        "trap-mcq-12",
-        "trap-mcq-09",
-        "trap-mcq-13",
-        "trap-mcq-08"
+        "trap-mcq-23",
+        "trap-mcq-21",
+        "trap-mcq-17"
       ],
       "explanation": "本句的「fall into the trap」指「中計；掉進陷阱」。",
       "sentenceIndex": 23,
@@ -1284,12 +1190,10 @@ export default {
         "fall into the trap"
       ],
       "optionReasons": {
-        "trap-mcq-11": "本句指「中計；掉進陷阱」。",
-        "trap-mcq-10": "「圈套」是「trap (scheme)」的用法，與本句語境不同。",
-        "trap-mcq-12": "「做 X 的陷阱」是「trap of doing X」的用法，與本句語境不同。",
-        "trap-mcq-09": "「感到受困／被束縛」是「feel trapped」的用法，與本句語境不同。",
-        "trap-mcq-13": "「誘使／逼使某人做 X」是「trap someone into X」的用法，與本句語境不同。",
-        "trap-mcq-08": "「陷入一成不變的日常」是「trapped in routine」的用法，與本句語境不同。"
+        "trap-mcq-11": "本句的「fall into the trap」指「中計；掉進陷阱」。",
+        "trap-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-11"
     },
@@ -1301,11 +1205,9 @@ export default {
       "masked": "He realized too late that he had ____.",
       "options": [
         "trap-mcq-11",
-        "trap-mcq-10",
-        "trap-mcq-12",
-        "trap-mcq-09",
-        "trap-mcq-13",
-        "trap-mcq-08"
+        "trap-mcq-19",
+        "trap-mcq-16",
+        "trap-mcq-23"
       ],
       "explanation": "本句的「fallen into a trap」指「中計；掉進陷阱」。",
       "sentenceIndex": 24,
@@ -1314,12 +1216,10 @@ export default {
         "fallen into a trap"
       ],
       "optionReasons": {
-        "trap-mcq-11": "本句指「中計；掉進陷阱」。",
-        "trap-mcq-10": "「圈套」是「trap (scheme)」的用法，與本句語境不同。",
-        "trap-mcq-12": "「做 X 的陷阱」是「trap of doing X」的用法，與本句語境不同。",
-        "trap-mcq-09": "「感到受困／被束縛」是「feel trapped」的用法，與本句語境不同。",
-        "trap-mcq-13": "「誘使／逼使某人做 X」是「trap someone into X」的用法，與本句語境不同。",
-        "trap-mcq-08": "「陷入一成不變的日常」是「trapped in routine」的用法，與本句語境不同。"
+        "trap-mcq-11": "本句的「fallen into a trap」指「中計；掉進陷阱」。",
+        "trap-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-11"
     },
@@ -1331,11 +1231,9 @@ export default {
       "masked": "Many learners fall into the ____.",
       "options": [
         "trap-mcq-12",
-        "trap-mcq-11",
-        "trap-mcq-13",
-        "trap-mcq-10",
-        "trap-mcq-14",
-        "trap-mcq-09"
+        "trap-mcq-03",
+        "trap-mcq-17",
+        "trap-mcq-23"
       ],
       "explanation": "本句的「trap of translating every word directly」指「做 X 的陷阱」。",
       "sentenceIndex": 25,
@@ -1344,12 +1242,10 @@ export default {
         "trap of translating every word directly"
       ],
       "optionReasons": {
-        "trap-mcq-12": "本句指「做 X 的陷阱」。",
-        "trap-mcq-11": "「中計；掉進陷阱」是「fall into a trap」的用法，與本句語境不同。",
-        "trap-mcq-13": "「誘使／逼使某人做 X」是「trap someone into X」的用法，與本句語境不同。",
-        "trap-mcq-10": "「圈套」是「trap (scheme)」的用法，與本句語境不同。",
-        "trap-mcq-14": "「貧窮陷阱」是「poverty trap」的用法，與本句語境不同。",
-        "trap-mcq-09": "「感到受困／被束縛」是「feel trapped」的用法，與本句語境不同。"
+        "trap-mcq-12": "本句的「trap of translating every word directly」指「做 X 的陷阱」。",
+        "trap-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-12"
     },
@@ -1361,11 +1257,9 @@ export default {
       "masked": "Don't fall into the ____.",
       "options": [
         "trap-mcq-12",
-        "trap-mcq-11",
-        "trap-mcq-13",
-        "trap-mcq-10",
-        "trap-mcq-14",
-        "trap-mcq-09"
+        "trap-mcq-03",
+        "trap-mcq-09",
+        "trap-mcq-06"
       ],
       "explanation": "本句的「trap of comparing yourself with everyone else」指「做 X 的陷阱」。",
       "sentenceIndex": 26,
@@ -1374,12 +1268,10 @@ export default {
         "trap of comparing yourself with everyone else"
       ],
       "optionReasons": {
-        "trap-mcq-12": "本句指「做 X 的陷阱」。",
-        "trap-mcq-11": "「中計；掉進陷阱」是「fall into a trap」的用法，與本句語境不同。",
-        "trap-mcq-13": "「誘使／逼使某人做 X」是「trap someone into X」的用法，與本句語境不同。",
-        "trap-mcq-10": "「圈套」是「trap (scheme)」的用法，與本句語境不同。",
-        "trap-mcq-14": "「貧窮陷阱」是「poverty trap」的用法，與本句語境不同。",
-        "trap-mcq-09": "「感到受困／被束縛」是「feel trapped」的用法，與本句語境不同。"
+        "trap-mcq-12": "本句的「trap of comparing yourself with everyone else」指「做 X 的陷阱」。",
+        "trap-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-12"
     },
@@ -1391,11 +1283,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "trap-mcq-13",
-        "trap-mcq-12",
-        "trap-mcq-14",
-        "trap-mcq-11",
+        "trap-mcq-09",
         "trap-mcq-15",
-        "trap-mcq-10"
+        "trap-mcq-19"
       ],
       "explanation": "本句的「tricked and trapped him into signing the agreement」指「誘使／逼使某人做 X」。",
       "sentenceIndex": 27,
@@ -1404,12 +1294,10 @@ export default {
         "tricked and trapped him into signing the agreement"
       ],
       "optionReasons": {
-        "trap-mcq-13": "本句指「誘使／逼使某人做 X」。",
-        "trap-mcq-12": "「做 X 的陷阱」是「trap of doing X」的用法，與本句語境不同。",
-        "trap-mcq-14": "「貧窮陷阱」是「poverty trap」的用法，與本句語境不同。",
-        "trap-mcq-11": "「中計；掉進陷阱」是「fall into a trap」的用法，與本句語境不同。",
-        "trap-mcq-15": "「債務陷阱」是「debt trap」的用法，與本句語境不同。",
-        "trap-mcq-10": "「圈套」是「trap (scheme)」的用法，與本句語境不同。"
+        "trap-mcq-13": "本句的「tricked and trapped him into signing the agreement」指「誘使／逼使某人做 X」。",
+        "trap-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-13"
     },
@@ -1421,11 +1309,9 @@ export default {
       "masked": "She felt she had been ____.",
       "options": [
         "trap-mcq-13",
-        "trap-mcq-12",
-        "trap-mcq-14",
-        "trap-mcq-11",
-        "trap-mcq-15",
-        "trap-mcq-10"
+        "trap-mcq-06",
+        "trap-mcq-24",
+        "trap-mcq-07"
       ],
       "explanation": "本句的「trapped into accepting the offer」指「誘使／逼使某人做 X」。",
       "sentenceIndex": 28,
@@ -1434,12 +1320,10 @@ export default {
         "trapped into accepting the offer"
       ],
       "optionReasons": {
-        "trap-mcq-13": "本句指「誘使／逼使某人做 X」。",
-        "trap-mcq-12": "「做 X 的陷阱」是「trap of doing X」的用法，與本句語境不同。",
-        "trap-mcq-14": "「貧窮陷阱」是「poverty trap」的用法，與本句語境不同。",
-        "trap-mcq-11": "「中計；掉進陷阱」是「fall into a trap」的用法，與本句語境不同。",
-        "trap-mcq-15": "「債務陷阱」是「debt trap」的用法，與本句語境不同。",
-        "trap-mcq-10": "「圈套」是「trap (scheme)」的用法，與本句語境不同。"
+        "trap-mcq-13": "本句的「trapped into accepting the offer」指「誘使／逼使某人做 X」。",
+        "trap-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-13"
     },
@@ -1451,11 +1335,9 @@ export default {
       "masked": "Low wages can keep families in a ____.",
       "options": [
         "trap-mcq-14",
-        "trap-mcq-13",
-        "trap-mcq-15",
-        "trap-mcq-12",
-        "trap-mcq-16",
-        "trap-mcq-11"
+        "trap-mcq-09",
+        "trap-mcq-21",
+        "trap-mcq-26"
       ],
       "explanation": "本句的「poverty trap」指「貧窮陷阱」。",
       "sentenceIndex": 29,
@@ -1464,12 +1346,10 @@ export default {
         "poverty trap"
       ],
       "optionReasons": {
-        "trap-mcq-14": "本句指「貧窮陷阱」。",
-        "trap-mcq-13": "「誘使／逼使某人做 X」是「trap someone into X」的用法，與本句語境不同。",
-        "trap-mcq-15": "「債務陷阱」是「debt trap」的用法，與本句語境不同。",
-        "trap-mcq-12": "「做 X 的陷阱」是「trap of doing X」的用法，與本句語境不同。",
-        "trap-mcq-16": "「坑遊客／商業化旅遊點」是「tourist trap」的用法，與本句語境不同。",
-        "trap-mcq-11": "「中計；掉進陷阱」是「fall into a trap」的用法，與本句語境不同。"
+        "trap-mcq-14": "本句的「poverty trap」指「貧窮陷阱」。",
+        "trap-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-14"
     },
@@ -1481,11 +1361,9 @@ export default {
       "masked": "Education can help people escape the ____.",
       "options": [
         "trap-mcq-14",
-        "trap-mcq-13",
-        "trap-mcq-15",
-        "trap-mcq-12",
-        "trap-mcq-16",
-        "trap-mcq-11"
+        "trap-mcq-03",
+        "trap-mcq-24",
+        "trap-mcq-26"
       ],
       "explanation": "本句的「poverty trap」指「貧窮陷阱」。",
       "sentenceIndex": 30,
@@ -1494,12 +1372,10 @@ export default {
         "poverty trap"
       ],
       "optionReasons": {
-        "trap-mcq-14": "本句指「貧窮陷阱」。",
-        "trap-mcq-13": "「誘使／逼使某人做 X」是「trap someone into X」的用法，與本句語境不同。",
-        "trap-mcq-15": "「債務陷阱」是「debt trap」的用法，與本句語境不同。",
-        "trap-mcq-12": "「做 X 的陷阱」是「trap of doing X」的用法，與本句語境不同。",
-        "trap-mcq-16": "「坑遊客／商業化旅遊點」是「tourist trap」的用法，與本句語境不同。",
-        "trap-mcq-11": "「中計；掉進陷阱」是「fall into a trap」的用法，與本句語境不同。"
+        "trap-mcq-14": "本句的「poverty trap」指「貧窮陷阱」。",
+        "trap-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-14"
     },
@@ -1511,11 +1387,9 @@ export default {
       "masked": "High-interest loans can push borrowers into a ____.",
       "options": [
         "trap-mcq-15",
-        "trap-mcq-14",
-        "trap-mcq-16",
-        "trap-mcq-13",
-        "trap-mcq-17",
-        "trap-mcq-12"
+        "trap-mcq-19",
+        "trap-mcq-23",
+        "trap-mcq-06"
       ],
       "explanation": "本句的「debt trap」指「債務陷阱」。",
       "sentenceIndex": 31,
@@ -1524,12 +1398,10 @@ export default {
         "debt trap"
       ],
       "optionReasons": {
-        "trap-mcq-15": "本句指「債務陷阱」。",
-        "trap-mcq-14": "「貧窮陷阱」是「poverty trap」的用法，與本句語境不同。",
-        "trap-mcq-16": "「坑遊客／商業化旅遊點」是「tourist trap」的用法，與本句語境不同。",
-        "trap-mcq-13": "「誘使／逼使某人做 X」是「trap someone into X」的用法，與本句語境不同。",
-        "trap-mcq-17": "「測速執法點」是「speed trap」的用法，與本句語境不同。",
-        "trap-mcq-12": "「做 X 的陷阱」是「trap of doing X」的用法，與本句語境不同。"
+        "trap-mcq-15": "本句的「debt trap」指「債務陷阱」。",
+        "trap-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-15"
     },
@@ -1541,11 +1413,9 @@ export default {
       "masked": "He borrowed more money and became caught in a ____.",
       "options": [
         "trap-mcq-15",
-        "trap-mcq-14",
-        "trap-mcq-16",
-        "trap-mcq-13",
         "trap-mcq-17",
-        "trap-mcq-12"
+        "trap-mcq-06",
+        "trap-mcq-22"
       ],
       "explanation": "本句的「debt trap」指「債務陷阱」。",
       "sentenceIndex": 32,
@@ -1554,12 +1424,10 @@ export default {
         "debt trap"
       ],
       "optionReasons": {
-        "trap-mcq-15": "本句指「債務陷阱」。",
-        "trap-mcq-14": "「貧窮陷阱」是「poverty trap」的用法，與本句語境不同。",
-        "trap-mcq-16": "「坑遊客／商業化旅遊點」是「tourist trap」的用法，與本句語境不同。",
-        "trap-mcq-13": "「誘使／逼使某人做 X」是「trap someone into X」的用法，與本句語境不同。",
-        "trap-mcq-17": "「測速執法點」是「speed trap」的用法，與本句語境不同。",
-        "trap-mcq-12": "「做 X 的陷阱」是「trap of doing X」的用法，與本句語境不同。"
+        "trap-mcq-15": "本句的「debt trap」指「債務陷阱」。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-15"
     },
@@ -1571,11 +1439,9 @@ export default {
       "masked": "The restaurant looked authentic, but it was really a ____.",
       "options": [
         "trap-mcq-16",
-        "trap-mcq-15",
-        "trap-mcq-17",
         "trap-mcq-14",
-        "trap-mcq-18",
-        "trap-mcq-13"
+        "trap-mcq-24",
+        "trap-mcq-07"
       ],
       "explanation": "本句的「tourist trap」指「坑遊客／商業化旅遊點」。",
       "sentenceIndex": 33,
@@ -1584,12 +1450,10 @@ export default {
         "tourist trap"
       ],
       "optionReasons": {
-        "trap-mcq-16": "本句指「坑遊客／商業化旅遊點」。",
-        "trap-mcq-15": "「債務陷阱」是「debt trap」的用法，與本句語境不同。",
-        "trap-mcq-17": "「測速執法點」是「speed trap」的用法，與本句語境不同。",
-        "trap-mcq-14": "「貧窮陷阱」是「poverty trap」的用法，與本句語境不同。",
-        "trap-mcq-18": "「活板門；暗門」是「trapdoor」的用法，與本句語境不同。",
-        "trap-mcq-13": "「誘使／逼使某人做 X」是「trap someone into X」的用法，與本句語境不同。"
+        "trap-mcq-16": "本句的「tourist trap」指「坑遊客／商業化旅遊點」。",
+        "trap-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-16"
     },
@@ -1601,11 +1465,9 @@ export default {
       "masked": "We avoided the obvious ____.",
       "options": [
         "trap-mcq-16",
-        "trap-mcq-15",
-        "trap-mcq-17",
+        "trap-mcq-13",
         "trap-mcq-14",
-        "trap-mcq-18",
-        "trap-mcq-13"
+        "trap-mcq-08"
       ],
       "explanation": "本句的「tourist traps」指「坑遊客／商業化旅遊點」。",
       "sentenceIndex": 34,
@@ -1614,12 +1476,10 @@ export default {
         "tourist traps"
       ],
       "optionReasons": {
-        "trap-mcq-16": "本句指「坑遊客／商業化旅遊點」。",
-        "trap-mcq-15": "「債務陷阱」是「debt trap」的用法，與本句語境不同。",
-        "trap-mcq-17": "「測速執法點」是「speed trap」的用法，與本句語境不同。",
-        "trap-mcq-14": "「貧窮陷阱」是「poverty trap」的用法，與本句語境不同。",
-        "trap-mcq-18": "「活板門；暗門」是「trapdoor」的用法，與本句語境不同。",
-        "trap-mcq-13": "「誘使／逼使某人做 X」是「trap someone into X」的用法，與本句語境不同。"
+        "trap-mcq-16": "本句的「tourist traps」指「坑遊客／商業化旅遊點」。",
+        "trap-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-16"
     },
@@ -1631,11 +1491,9 @@ export default {
       "masked": "Drivers warned each other about a ____ ahead.",
       "options": [
         "trap-mcq-17",
-        "trap-mcq-16",
-        "trap-mcq-18",
+        "trap-mcq-24",
         "trap-mcq-15",
-        "trap-mcq-19",
-        "trap-mcq-14"
+        "trap-mcq-09"
       ],
       "explanation": "本句的「speed trap」指「測速執法點」。",
       "sentenceIndex": 35,
@@ -1644,12 +1502,10 @@ export default {
         "speed trap"
       ],
       "optionReasons": {
-        "trap-mcq-17": "本句指「測速執法點」。",
-        "trap-mcq-16": "「坑遊客／商業化旅遊點」是「tourist trap」的用法，與本句語境不同。",
-        "trap-mcq-18": "「活板門；暗門」是「trapdoor」的用法，與本句語境不同。",
-        "trap-mcq-15": "「債務陷阱」是「debt trap」的用法，與本句語境不同。",
-        "trap-mcq-19": "「捕獸者」是「trapper」的用法，與本句語境不同。",
-        "trap-mcq-14": "「貧窮陷阱」是「poverty trap」的用法，與本句語境不同。"
+        "trap-mcq-17": "本句的「speed trap」指「測速執法點」。",
+        "trap-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-17"
     },
@@ -1661,11 +1517,9 @@ export default {
       "masked": "The police had set up a ____ near the school.",
       "options": [
         "trap-mcq-17",
-        "trap-mcq-16",
-        "trap-mcq-18",
-        "trap-mcq-15",
-        "trap-mcq-19",
-        "trap-mcq-14"
+        "trap-mcq-25",
+        "trap-mcq-07",
+        "trap-pdf-001"
       ],
       "explanation": "本句的「speed trap」指「測速執法點」。",
       "sentenceIndex": 36,
@@ -1674,12 +1528,10 @@ export default {
         "speed trap"
       ],
       "optionReasons": {
-        "trap-mcq-17": "本句指「測速執法點」。",
-        "trap-mcq-16": "「坑遊客／商業化旅遊點」是「tourist trap」的用法，與本句語境不同。",
-        "trap-mcq-18": "「活板門；暗門」是「trapdoor」的用法，與本句語境不同。",
-        "trap-mcq-15": "「債務陷阱」是「debt trap」的用法，與本句語境不同。",
-        "trap-mcq-19": "「捕獸者」是「trapper」的用法，與本句語境不同。",
-        "trap-mcq-14": "「貧窮陷阱」是「poverty trap」的用法，與本句語境不同。"
+        "trap-mcq-17": "本句的「speed trap」指「測速執法點」。",
+        "trap-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trap-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-17"
     },
@@ -1691,11 +1543,9 @@ export default {
       "masked": "They found a hidden ____ in the floor.",
       "options": [
         "trap-mcq-26",
-        "trap-mcq-25",
-        "trap-mcq-24",
-        "trap-mcq-23",
-        "trap-mcq-22",
-        "trap-mcq-21"
+        "trap-mcq-02",
+        "trap-mcq-04",
+        "trap-mcq-06"
       ],
       "explanation": "本句的「trapdoor」指「安裝在地板、天花或舞台上，可以開關的隱藏小門」。",
       "sentenceIndex": 37,
@@ -1704,12 +1554,10 @@ export default {
         "trapdoor"
       ],
       "optionReasons": {
-        "trap-mcq-26": "本句指「安裝在地板、天花或舞台上，可以開關的隱藏小門」。",
-        "trap-mcq-25": "「為欺騙、捕捉或令某人作出不利行動而設計的圈套」是「11. a trap（圈套；計謀） — 圈套；陷阱」的用法，與本句語境不同。",
-        "trap-mcq-24": "「因各種限制而難以離開某段關係或工作」是「10. be trapped in a relationship/job — 被困在關係／工作中」的用法，與本句語境不同。",
-        "trap-mcq-23": "「因物理阻礙而無法移動或離開」是「5. be trapped under/in something — 被壓住／困在某物之中」的用法，與本句語境不同。",
-        "trap-mcq-22": "「誘捕」是「entrapment」的用法，與本句語境不同。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。"
+        "trap-mcq-26": "本句的「trapdoor」指「安裝在地板、天花或舞台上，可以開關的隱藏小門」。",
+        "trap-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-26"
     },
@@ -1721,11 +1569,9 @@ export default {
       "masked": "The actor disappeared through a ____ in the stage.",
       "options": [
         "trap-mcq-26",
-        "trap-mcq-25",
-        "trap-mcq-24",
-        "trap-mcq-23",
-        "trap-mcq-22",
-        "trap-mcq-21"
+        "trap-mcq-01",
+        "trap-mcq-21",
+        "trap-mcq-07"
       ],
       "explanation": "本句的「trap door」指「安裝在地板、天花或舞台上，可以開關的隱藏小門」。",
       "sentenceIndex": 38,
@@ -1734,12 +1580,10 @@ export default {
         "trap door"
       ],
       "optionReasons": {
-        "trap-mcq-26": "本句指「安裝在地板、天花或舞台上，可以開關的隱藏小門」。",
-        "trap-mcq-25": "「為欺騙、捕捉或令某人作出不利行動而設計的圈套」是「11. a trap（圈套；計謀） — 圈套；陷阱」的用法，與本句語境不同。",
-        "trap-mcq-24": "「因各種限制而難以離開某段關係或工作」是「10. be trapped in a relationship/job — 被困在關係／工作中」的用法，與本句語境不同。",
-        "trap-mcq-23": "「因物理阻礙而無法移動或離開」是「5. be trapped under/in something — 被壓住／困在某物之中」的用法，與本句語境不同。",
-        "trap-mcq-22": "「誘捕」是「entrapment」的用法，與本句語境不同。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。"
+        "trap-mcq-26": "本句的「trap door」指「安裝在地板、天花或舞台上，可以開關的隱藏小門」。",
+        "trap-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-26"
     },
@@ -1751,11 +1595,9 @@ export default {
       "masked": "Many people feel ____ by financial pressure.",
       "options": [
         "trap-pdf-001",
-        "trap-mcq-18",
-        "trap-mcq-20",
-        "trap-mcq-17",
-        "trap-mcq-21",
-        "trap-mcq-16"
+        "trap-mcq-02",
+        "trap-mcq-22",
+        "trap-mcq-04"
       ],
       "explanation": "本句的「trapped」指「因外在或內在限制而覺得缺乏自由和選擇」。",
       "sentenceIndex": 39,
@@ -1764,12 +1606,10 @@ export default {
         "trapped"
       ],
       "optionReasons": {
-        "trap-pdf-001": "本句指「因外在或內在限制而覺得缺乏自由和選擇」。",
-        "trap-mcq-18": "「活板門；暗門」是「trapdoor」的用法，與本句語境不同。",
-        "trap-mcq-20": "「設陷阱捕獵」是「trapping」的用法，與本句語境不同。",
-        "trap-mcq-17": "「測速執法點」是「speed trap」的用法，與本句語境不同。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。",
-        "trap-mcq-16": "「坑遊客／商業化旅遊點」是「tourist trap」的用法，與本句語境不同。"
+        "trap-pdf-001": "本句的「trapped」指「因外在或內在限制而覺得缺乏自由和選擇」。",
+        "trap-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-pdf-001"
     },
@@ -1781,11 +1621,9 @@ export default {
       "masked": "He didn't want to become ____ by other people's expectations.",
       "options": [
         "trap-pdf-001",
-        "trap-mcq-18",
-        "trap-mcq-20",
         "trap-mcq-17",
-        "trap-mcq-21",
-        "trap-mcq-16"
+        "trap-mcq-25",
+        "trap-mcq-15"
       ],
       "explanation": "本句的「trapped」指「因外在或內在限制而覺得缺乏自由和選擇」。",
       "sentenceIndex": 40,
@@ -1794,12 +1632,10 @@ export default {
         "trapped"
       ],
       "optionReasons": {
-        "trap-pdf-001": "本句指「因外在或內在限制而覺得缺乏自由和選擇」。",
-        "trap-mcq-18": "「活板門；暗門」是「trapdoor」的用法，與本句語境不同。",
-        "trap-mcq-20": "「設陷阱捕獵」是「trapping」的用法，與本句語境不同。",
-        "trap-mcq-17": "「測速執法點」是「speed trap」的用法，與本句語境不同。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。",
-        "trap-mcq-16": "「坑遊客／商業化旅遊點」是「tourist trap」的用法，與本句語境不同。"
+        "trap-pdf-001": "本句的「trapped」指「因外在或內在限制而覺得缺乏自由和選擇」。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-pdf-001"
     },
@@ -1811,11 +1647,9 @@ export default {
       "masked": "The ____ checked his traps early in the morning.",
       "options": [
         "trap-mcq-19",
-        "trap-mcq-18",
-        "trap-mcq-20",
-        "trap-mcq-17",
-        "trap-mcq-21",
-        "trap-mcq-16"
+        "trap-mcq-09",
+        "trap-mcq-11",
+        "trap-mcq-17"
       ],
       "explanation": "本句的「trapper」指「捕獸者」。",
       "sentenceIndex": 41,
@@ -1824,12 +1658,10 @@ export default {
         "trapper"
       ],
       "optionReasons": {
-        "trap-mcq-19": "本句指「捕獸者」。",
-        "trap-mcq-18": "「活板門；暗門」是「trapdoor」的用法，與本句語境不同。",
-        "trap-mcq-20": "「設陷阱捕獵」是「trapping」的用法，與本句語境不同。",
-        "trap-mcq-17": "「測速執法點」是「speed trap」的用法，與本句語境不同。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。",
-        "trap-mcq-16": "「坑遊客／商業化旅遊點」是「tourist trap」的用法，與本句語境不同。"
+        "trap-mcq-19": "本句的「trapper」指「捕獸者」。",
+        "trap-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-19"
     },
@@ -1841,11 +1673,9 @@ export default {
       "masked": "Historically, ____ hunted animals for their fur.",
       "options": [
         "trap-mcq-19",
-        "trap-mcq-18",
-        "trap-mcq-20",
-        "trap-mcq-17",
-        "trap-mcq-21",
-        "trap-mcq-16"
+        "trap-mcq-07",
+        "trap-mcq-06",
+        "trap-mcq-21"
       ],
       "explanation": "本句的「trappers」指「捕獸者」。",
       "sentenceIndex": 42,
@@ -1854,12 +1684,10 @@ export default {
         "trappers"
       ],
       "optionReasons": {
-        "trap-mcq-19": "本句指「捕獸者」。",
-        "trap-mcq-18": "「活板門；暗門」是「trapdoor」的用法，與本句語境不同。",
-        "trap-mcq-20": "「設陷阱捕獵」是「trapping」的用法，與本句語境不同。",
-        "trap-mcq-17": "「測速執法點」是「speed trap」的用法，與本句語境不同。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。",
-        "trap-mcq-16": "「坑遊客／商業化旅遊點」是「tourist trap」的用法，與本句語境不同。"
+        "trap-mcq-19": "本句的「trappers」指「捕獸者」。",
+        "trap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-19"
     },
@@ -1871,11 +1699,9 @@ export default {
       "masked": "Animal ____ is strictly regulated in the area.",
       "options": [
         "trap-mcq-20",
-        "trap-mcq-19",
-        "trap-mcq-21",
-        "trap-mcq-18",
-        "trap-mcq-22",
-        "trap-mcq-17"
+        "trap-mcq-26",
+        "trap-mcq-17",
+        "trap-mcq-09"
       ],
       "explanation": "本句的「trapping」指「設陷阱捕獵」。",
       "sentenceIndex": 43,
@@ -1884,12 +1710,10 @@ export default {
         "trapping"
       ],
       "optionReasons": {
-        "trap-mcq-20": "本句指「設陷阱捕獵」。",
-        "trap-mcq-19": "「捕獸者」是「trapper」的用法，與本句語境不同。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。",
-        "trap-mcq-18": "「活板門；暗門」是「trapdoor」的用法，與本句語境不同。",
-        "trap-mcq-22": "「誘捕」是「entrapment」的用法，與本句語境不同。",
-        "trap-mcq-17": "「測速執法點」是「speed trap」的用法，與本句語境不同。"
+        "trap-mcq-20": "本句的「trapping」指「設陷阱捕獵」。",
+        "trap-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-20"
     },
@@ -1901,10 +1725,8 @@ export default {
       "masked": "He learned traditional ____ techniques.",
       "options": [
         "trap-mcq-20",
-        "trap-mcq-19",
-        "trap-mcq-21",
-        "trap-mcq-18",
-        "trap-mcq-22",
+        "trap-mcq-16",
+        "trap-mcq-24",
         "trap-mcq-17"
       ],
       "explanation": "本句的「trapping」指「設陷阱捕獵」。",
@@ -1914,12 +1736,10 @@ export default {
         "trapping"
       ],
       "optionReasons": {
-        "trap-mcq-20": "本句指「設陷阱捕獵」。",
-        "trap-mcq-19": "「捕獸者」是「trapper」的用法，與本句語境不同。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。",
-        "trap-mcq-18": "「活板門；暗門」是「trapdoor」的用法，與本句語境不同。",
-        "trap-mcq-22": "「誘捕」是「entrapment」的用法，與本句語境不同。",
-        "trap-mcq-17": "「測速執法點」是「speed trap」的用法，與本句語境不同。"
+        "trap-mcq-20": "本句的「trapping」指「設陷阱捕獵」。",
+        "trap-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-20"
     },
@@ -1931,11 +1751,9 @@ export default {
       "masked": "The scheme was designed to ____ unsuspecting victims.",
       "options": [
         "trap-mcq-21",
-        "trap-mcq-20",
-        "trap-mcq-22",
-        "trap-mcq-19",
-        "trap-mcq-23",
-        "trap-mcq-18"
+        "trap-mcq-01",
+        "trap-mcq-08",
+        "trap-mcq-06"
       ],
       "explanation": "本句的「entrap」指「設局誘使」。",
       "sentenceIndex": 45,
@@ -1944,12 +1762,10 @@ export default {
         "entrap"
       ],
       "optionReasons": {
-        "trap-mcq-21": "本句指「設局誘使」。",
-        "trap-mcq-20": "「設陷阱捕獵」是「trapping」的用法，與本句語境不同。",
-        "trap-mcq-22": "「誘捕」是「entrapment」的用法，與本句語境不同。",
-        "trap-mcq-19": "「捕獸者」是「trapper」的用法，與本句語境不同。",
-        "trap-mcq-23": "「因物理阻礙而無法移動或離開」是「5. be trapped under/in something — 被壓住／困在某物之中」的用法，與本句語境不同。",
-        "trap-mcq-18": "「活板門；暗門」是「trapdoor」的用法，與本句語境不同。"
+        "trap-mcq-21": "本句的「entrap」指「設局誘使」。",
+        "trap-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-21"
     },
@@ -1961,11 +1777,9 @@ export default {
       "masked": "He claimed that he had been ____ into committing the offence.",
       "options": [
         "trap-mcq-21",
-        "trap-mcq-20",
-        "trap-mcq-22",
         "trap-mcq-19",
-        "trap-mcq-23",
-        "trap-mcq-18"
+        "trap-mcq-11",
+        "trap-mcq-26"
       ],
       "explanation": "本句的「entrapped」指「設局誘使」。",
       "sentenceIndex": 46,
@@ -1974,12 +1788,10 @@ export default {
         "entrapped"
       ],
       "optionReasons": {
-        "trap-mcq-21": "本句指「設局誘使」。",
-        "trap-mcq-20": "「設陷阱捕獵」是「trapping」的用法，與本句語境不同。",
-        "trap-mcq-22": "「誘捕」是「entrapment」的用法，與本句語境不同。",
-        "trap-mcq-19": "「捕獸者」是「trapper」的用法，與本句語境不同。",
-        "trap-mcq-23": "「因物理阻礙而無法移動或離開」是「5. be trapped under/in something — 被壓住／困在某物之中」的用法，與本句語境不同。",
-        "trap-mcq-18": "「活板門；暗門」是「trapdoor」的用法，與本句語境不同。"
+        "trap-mcq-21": "本句的「entrapped」指「設局誘使」。",
+        "trap-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-21"
     },
@@ -1991,11 +1803,9 @@ export default {
       "masked": "The defence argued that the case involved ____.",
       "options": [
         "trap-mcq-22",
-        "trap-mcq-21",
-        "trap-mcq-23",
-        "trap-mcq-20",
-        "trap-mcq-24",
-        "trap-mcq-19"
+        "trap-mcq-09",
+        "trap-mcq-02",
+        "trap-mcq-24"
       ],
       "explanation": "本句的「entrapment」指「誘捕」。",
       "sentenceIndex": 47,
@@ -2004,12 +1814,10 @@ export default {
         "entrapment"
       ],
       "optionReasons": {
-        "trap-mcq-22": "本句指「誘捕」。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。",
-        "trap-mcq-23": "「因物理阻礙而無法移動或離開」是「5. be trapped under/in something — 被壓住／困在某物之中」的用法，與本句語境不同。",
-        "trap-mcq-20": "「設陷阱捕獵」是「trapping」的用法，與本句語境不同。",
-        "trap-mcq-24": "「因各種限制而難以離開某段關係或工作」是「10. be trapped in a relationship/job — 被困在關係／工作中」的用法，與本句語境不同。",
-        "trap-mcq-19": "「捕獸者」是「trapper」的用法，與本句語境不同。"
+        "trap-mcq-22": "本句的「entrapment」指「誘捕」。",
+        "trap-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-22"
     },
@@ -2021,11 +1829,9 @@ export default {
       "masked": "____ occurs when authorities improperly induce someone to commit an offence.",
       "options": [
         "trap-mcq-22",
-        "trap-mcq-21",
-        "trap-mcq-23",
-        "trap-mcq-20",
         "trap-mcq-24",
-        "trap-mcq-19"
+        "trap-mcq-11",
+        "trap-mcq-26"
       ],
       "explanation": "本句的「Entrapment」指「誘捕」。",
       "sentenceIndex": 48,
@@ -2034,12 +1840,10 @@ export default {
         "Entrapment"
       ],
       "optionReasons": {
-        "trap-mcq-22": "本句指「誘捕」。",
-        "trap-mcq-21": "「設局誘使」是「entrap」的用法，與本句語境不同。",
-        "trap-mcq-23": "「因物理阻礙而無法移動或離開」是「5. be trapped under/in something — 被壓住／困在某物之中」的用法，與本句語境不同。",
-        "trap-mcq-20": "「設陷阱捕獵」是「trapping」的用法，與本句語境不同。",
-        "trap-mcq-24": "「因各種限制而難以離開某段關係或工作」是「10. be trapped in a relationship/job — 被困在關係／工作中」的用法，與本句語境不同。",
-        "trap-mcq-19": "「捕獸者」是「trapper」的用法，與本句語境不同。"
+        "trap-mcq-22": "本句的「Entrapment」指「誘捕」。",
+        "trap-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "trap-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "trap-mcq-22"
     }
@@ -2051,5 +1855,7 @@ export default {
     "sha256": "7d6ff87c45031bd6667454cfd9206ddc368cf2726b5839adb311ae7c6490bdd1",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -681,11 +681,7 @@ export default {
       "masked": "____ is handled by the local authority.",
       "options": [
         "license-mcq-49",
-        "license-mcq-48",
-        "license-mcq-50",
-        "license-mcq-47",
-        "license-mcq-51",
-        "license-mcq-46"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Licensing」指「對音樂作品／錄音的指定使用方式取得版權許可」。",
       "sentenceIndex": 0,
@@ -694,12 +690,8 @@ export default {
         "Licensing"
       ],
       "optionReasons": {
-        "license-mcq-49": "本句指「對音樂作品／錄音的指定使用方式取得版權許可」。",
-        "license-mcq-48": "「規定資料／內容如何被重用、分發、修改的授權」與本句語境不同。",
-        "license-mcq-50": "「土地權利人容許另一人進入／使用土地，而不一定授予租賃權益」與本句語境不同。",
-        "license-mcq-47": "「讓創作者預先規定作品重用、改編、商業使用等條件的標準版權授權」與本句語境不同。",
-        "license-mcq-51": "「車輛的車牌／登記牌」與本句語境不同。",
-        "license-mcq-46": "「符合開源原則，容許使用、修改及再分發的軟件授權」與本句語境不同。"
+        "license-mcq-49": "本句的「Licensing」指「對音樂作品／錄音的指定使用方式取得版權許可」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "license-mcq-49"
     }
@@ -711,5 +703,12 @@ export default {
     "sha256": "25ae902f468b095122b972e17693b94f4dd39da4cc42aa4aa84379dd5ef71300",
     "pages": 50
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

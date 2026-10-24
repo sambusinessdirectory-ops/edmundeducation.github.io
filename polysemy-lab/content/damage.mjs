@@ -920,26 +920,6 @@ export default {
           "Damaging allegations can affect a person's reputation even before they are resolved.",
           "具嚴重負面影響的指控即使尚未有定論，也可能影響一個人的聲譽。",
           "嚴重不利指控"
-        ],
-        [
-          "The organisation faced damaging criticism.",
-          "機構受到嚴重有損形象的批評。",
-          "嚴重不利指控"
-        ],
-        [
-          "Public criticism proved damaging to morale.",
-          "公開批評對士氣造成了負面損害。",
-          "嚴重不利指控"
-        ],
-        [
-          "The newspaper published a damaging disclosure.",
-          "報章刊登了一項對相關人士十分不利的揭露。",
-          "嚴重不利指控"
-        ],
-        [
-          "The revelation was highly damaging to the organisation's reputation.",
-          "該揭露對機構聲譽造成嚴重損害。",
-          "嚴重不利指控"
         ]
       ],
       "options": [],
@@ -1552,26 +1532,6 @@ export default {
           "The update reduced the character's damage output.",
           "更新降低了角色的傷害輸出。",
           "傷害輸出"
-        ],
-        [
-          "Malware can damage files.",
-          "惡意軟件可以損毀檔案。",
-          "傷害輸出"
-        ],
-        [
-          "Sudden power loss may damage the system.",
-          "突然斷電可能損害系統。",
-          "傷害輸出"
-        ],
-        [
-          "The backup contained several damaged files.",
-          "備份中有數個受損檔案。",
-          "傷害輸出"
-        ],
-        [
-          "A damaged file may be unreadable.",
-          "損毀檔案可能無法讀取。",
-          "傷害輸出"
         ]
       ],
       "options": [],
@@ -1740,6 +1700,94 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "damage-reviewed-13c47ebcfa",
+      "title": "造成負面影響的批評",
+      "form": "damage · source section 47",
+      "en": "造成負面影響的批評",
+      "zh": "造成負面影響的批評",
+      "note": "對照原始教材第 47 節及例句核實。",
+      "examples": [
+        [
+          "The organisation faced damaging criticism.",
+          "機構受到嚴重有損形象的批評。",
+          "造成負面影響的批評"
+        ],
+        [
+          "Public criticism proved damaging to morale.",
+          "公開批評對士氣造成了負面損害。",
+          "造成負面影響的批評"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "damage-reviewed-595a28a706",
+      "title": "具破壞性的披露／揭露",
+      "form": "damage · source section 48",
+      "en": "具破壞性的披露／揭露",
+      "zh": "具破壞性的披露／揭露",
+      "note": "對照原始教材第 48 節及例句核實。",
+      "examples": [
+        [
+          "The newspaper published a damaging disclosure.",
+          "報章刊登了一項對相關人士十分不利的揭露。",
+          "具破壞性的披露／揭露"
+        ],
+        [
+          "The revelation was highly damaging to the organisation's reputation.",
+          "該揭露對機構聲譽造成嚴重損害。",
+          "具破壞性的披露／揭露"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "damage-reviewed-876c49d6ee",
+      "title": "損毀數據／檔案／系統",
+      "form": "damage · source section 86",
+      "en": "損毀數據／檔案／系統",
+      "zh": "損毀數據／檔案／系統",
+      "note": "對照原始教材第 86 節及例句核實。",
+      "examples": [
+        [
+          "Malware can damage files.",
+          "惡意軟件可以損毀檔案。",
+          "損毀數據／檔案／系統"
+        ],
+        [
+          "Sudden power loss may damage the system.",
+          "突然斷電可能損害系統。",
+          "損毀數據／檔案／系統"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "damage-reviewed-48ae888ace",
+      "title": "損毀檔案",
+      "form": "damage · source section 87",
+      "en": "損毀檔案",
+      "zh": "損毀檔案",
+      "note": "對照原始教材第 87 節及例句核實。",
+      "examples": [
+        [
+          "The backup contained several damaged files.",
+          "備份中有數個受損檔案。",
+          "損毀檔案"
+        ],
+        [
+          "A damaged file may be unreadable.",
+          "損毀檔案可能無法讀取。",
+          "損毀檔案"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1751,11 +1799,9 @@ export default {
       "masked": "The storm caused serious ____ to the building.",
       "options": [
         "damage-pdf-001",
-        "damage-mcq-02",
-        "damage-mcq-03",
-        "damage-mcq-04",
-        "damage-mcq-06",
-        "damage-mcq-07"
+        "damage-mcq-57",
+        "damage-mcq-27",
+        "damage-mcq-41"
       ],
       "explanation": "本句的「damage」指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
       "sentenceIndex": 0,
@@ -1764,12 +1810,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-pdf-001": "本句指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
-        "damage-mcq-02": "「造成損害」與本句語境不同。",
-        "damage-mcq-03": "「對 X 造成損害」與本句語境不同。",
-        "damage-mcq-04": "「遭受損害」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。"
+        "damage-pdf-001": "本句的「damage」指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-pdf-001"
     },
@@ -1781,11 +1825,9 @@ export default {
       "masked": "The phone showed no visible ____.",
       "options": [
         "damage-pdf-001",
-        "damage-mcq-02",
-        "damage-mcq-03",
-        "damage-mcq-04",
-        "damage-mcq-06",
-        "damage-mcq-07"
+        "damage-mcq-64",
+        "damage-mcq-62",
+        "damage-reviewed-13c47ebcfa"
       ],
       "explanation": "本句的「damage」指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
       "sentenceIndex": 1,
@@ -1794,12 +1836,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-pdf-001": "本句指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
-        "damage-mcq-02": "「造成損害」與本句語境不同。",
-        "damage-mcq-03": "「對 X 造成損害」與本句語境不同。",
-        "damage-mcq-04": "「遭受損害」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。"
+        "damage-pdf-001": "本句的「damage」指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-pdf-001"
     },
@@ -1811,11 +1851,9 @@ export default {
       "masked": "Engineers inspected the ____.",
       "options": [
         "damage-pdf-001",
-        "damage-mcq-02",
-        "damage-mcq-03",
-        "damage-mcq-04",
-        "damage-mcq-06",
-        "damage-mcq-07"
+        "damage-mcq-27",
+        "damage-mcq-57",
+        "damage-mcq-40"
       ],
       "explanation": "本句的「damage」指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
       "sentenceIndex": 2,
@@ -1824,12 +1862,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-pdf-001": "本句指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
-        "damage-mcq-02": "「造成損害」與本句語境不同。",
-        "damage-mcq-03": "「對 X 造成損害」與本句語境不同。",
-        "damage-mcq-04": "「遭受損害」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。"
+        "damage-pdf-001": "本句的「damage」指「令物件、建築、設備等變壞、變弱或不能正常使用的損害」。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-pdf-001"
     },
@@ -1841,11 +1877,9 @@ export default {
       "masked": "Heavy rain ____ to several roads.",
       "options": [
         "damage-mcq-02",
-        "damage-mcq-01",
-        "damage-mcq-03",
-        "damage-mcq-04",
-        "damage-mcq-06",
-        "damage-mcq-07"
+        "damage-mcq-57",
+        "damage-mcq-41",
+        "damage-mcq-26"
       ],
       "explanation": "本句的「caused damage」指「造成損害」。",
       "sentenceIndex": 3,
@@ -1854,12 +1888,10 @@ export default {
         "caused damage"
       ],
       "optionReasons": {
-        "damage-mcq-02": "本句指「造成損害」。",
-        "damage-mcq-01": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-03": "「對 X 造成損害」與本句語境不同。",
-        "damage-mcq-04": "「遭受損害」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。"
+        "damage-mcq-02": "本句的「caused damage」指「造成損害」。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-02"
     },
@@ -1871,11 +1903,9 @@ export default {
       "masked": "Incorrect use can cause permanent ____.",
       "options": [
         "damage-mcq-02",
-        "damage-mcq-01",
-        "damage-mcq-03",
-        "damage-mcq-04",
-        "damage-mcq-06",
-        "damage-mcq-07"
+        "damage-reviewed-595a28a706",
+        "damage-mcq-61",
+        "damage-mcq-64"
       ],
       "explanation": "本句的「damage」指「造成損害」。",
       "sentenceIndex": 4,
@@ -1884,12 +1914,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-02": "本句指「造成損害」。",
-        "damage-mcq-01": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-03": "「對 X 造成損害」與本句語境不同。",
-        "damage-mcq-04": "「遭受損害」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。"
+        "damage-mcq-02": "本句的「damage」指「造成損害」。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-02"
     },
@@ -1901,11 +1929,9 @@ export default {
       "masked": "Salt water can ____.",
       "options": [
         "damage-mcq-03",
-        "damage-mcq-02",
-        "damage-mcq-04",
-        "damage-mcq-01",
-        "damage-mcq-06",
-        "damage-mcq-07"
+        "damage-mcq-57",
+        "damage-mcq-24",
+        "damage-mcq-64"
       ],
       "explanation": "本句的「do serious damage to metal equipment」指「對 X 造成損害」。",
       "sentenceIndex": 5,
@@ -1914,12 +1940,10 @@ export default {
         "do serious damage to metal equipment"
       ],
       "optionReasons": {
-        "damage-mcq-03": "本句指「對 X 造成損害」。",
-        "damage-mcq-02": "「造成損害」與本句語境不同。",
-        "damage-mcq-04": "「遭受損害」與本句語境不同。",
-        "damage-mcq-01": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。"
+        "damage-mcq-03": "本句的「do serious damage to metal equipment」指「對 X 造成損害」。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-03"
     },
@@ -1931,11 +1955,9 @@ export default {
       "masked": "The impact did little ____ to the vehicle.",
       "options": [
         "damage-mcq-03",
-        "damage-mcq-02",
-        "damage-mcq-04",
-        "damage-mcq-01",
-        "damage-mcq-06",
-        "damage-mcq-07"
+        "damage-mcq-22",
+        "damage-mcq-58",
+        "damage-mcq-64"
       ],
       "explanation": "本句的「damage」指「對 X 造成損害」。",
       "sentenceIndex": 6,
@@ -1944,12 +1966,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-03": "本句指「對 X 造成損害」。",
-        "damage-mcq-02": "「造成損害」與本句語境不同。",
-        "damage-mcq-04": "「遭受損害」與本句語境不同。",
-        "damage-mcq-01": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。"
+        "damage-mcq-03": "本句的「damage」指「對 X 造成損害」。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-03"
     },
@@ -1961,11 +1981,9 @@ export default {
       "masked": "Several homes ____ during the storm.",
       "options": [
         "damage-mcq-04",
-        "damage-mcq-03",
-        "damage-mcq-02",
-        "damage-mcq-06",
-        "damage-mcq-01",
-        "damage-mcq-07"
+        "damage-mcq-23",
+        "damage-mcq-64",
+        "damage-mcq-61"
       ],
       "explanation": "本句的「suffered damage」指「遭受損害」。",
       "sentenceIndex": 7,
@@ -1974,12 +1992,10 @@ export default {
         "suffered damage"
       ],
       "optionReasons": {
-        "damage-mcq-04": "本句指「遭受損害」。",
-        "damage-mcq-03": "「對 X 造成損害」與本句語境不同。",
-        "damage-mcq-02": "「造成損害」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-01": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。"
+        "damage-mcq-04": "本句的「suffered damage」指「遭受損害」。",
+        "damage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-04"
     },
@@ -1991,11 +2007,9 @@ export default {
       "masked": "The equipment suffered only minor ____.",
       "options": [
         "damage-mcq-04",
-        "damage-mcq-03",
-        "damage-mcq-02",
-        "damage-mcq-06",
-        "damage-mcq-01",
-        "damage-mcq-07"
+        "damage-mcq-41",
+        "damage-mcq-59",
+        "damage-mcq-27"
       ],
       "explanation": "本句的「damage」指「遭受損害」。",
       "sentenceIndex": 8,
@@ -2004,12 +2018,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-04": "本句指「遭受損害」。",
-        "damage-mcq-03": "「對 X 造成損害」與本句語境不同。",
-        "damage-mcq-02": "「造成損害」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-01": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。"
+        "damage-mcq-04": "本句的「damage」指「遭受損害」。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-04"
     },
@@ -2021,11 +2033,9 @@ export default {
       "masked": "The bridge ____.",
       "options": [
         "damage-mcq-05",
-        "damage-mcq-06",
-        "damage-mcq-03",
-        "damage-mcq-07",
-        "damage-mcq-02",
-        "damage-mcq-08"
+        "damage-reviewed-595a28a706",
+        "damage-mcq-62",
+        "damage-mcq-27"
       ],
       "explanation": "本句的「sustained significant damage」指「遭受損害」。",
       "sentenceIndex": 9,
@@ -2034,12 +2044,10 @@ export default {
         "sustained significant damage"
       ],
       "optionReasons": {
-        "damage-mcq-05": "本句指「遭受損害」。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-03": "「對 X 造成損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。",
-        "damage-mcq-02": "「造成損害」與本句語境不同。",
-        "damage-mcq-08": "「嚴重損害」與本句語境不同。"
+        "damage-mcq-05": "本句的「sustained significant damage」指「遭受損害」。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-05"
     },
@@ -2051,11 +2059,9 @@ export default {
       "masked": "The aircraft sustained ____ to one wing.",
       "options": [
         "damage-mcq-05",
-        "damage-mcq-06",
-        "damage-mcq-03",
-        "damage-mcq-07",
-        "damage-mcq-02",
-        "damage-mcq-08"
+        "damage-mcq-61",
+        "damage-mcq-26",
+        "damage-mcq-64"
       ],
       "explanation": "本句的「damage」指「遭受損害」。",
       "sentenceIndex": 10,
@@ -2064,12 +2070,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-05": "本句指「遭受損害」。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-03": "「對 X 造成損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。",
-        "damage-mcq-02": "「造成損害」與本句語境不同。",
-        "damage-mcq-08": "「嚴重損害」與本句語境不同。"
+        "damage-mcq-05": "本句的「damage」指「遭受損害」。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-05"
     },
@@ -2081,11 +2085,9 @@ export default {
       "masked": "The attack ____ on the facility.",
       "options": [
         "damage-mcq-06",
-        "damage-mcq-05",
-        "damage-mcq-07",
-        "damage-mcq-08",
-        "damage-mcq-03",
-        "damage-mcq-09"
+        "damage-mcq-60",
+        "damage-mcq-26",
+        "damage-mcq-40"
       ],
       "explanation": "本句的「inflicted heavy damage」指「造成／施加損害」。",
       "sentenceIndex": 11,
@@ -2094,12 +2096,10 @@ export default {
         "inflicted heavy damage"
       ],
       "optionReasons": {
-        "damage-mcq-06": "本句指「造成／施加損害」。",
-        "damage-mcq-05": "「遭受損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。",
-        "damage-mcq-08": "「嚴重損害」與本句語境不同。",
-        "damage-mcq-03": "「對 X 造成損害」與本句語境不同。",
-        "damage-mcq-09": "「大範圍損害」與本句語境不同。"
+        "damage-mcq-06": "本句的「inflicted heavy damage」指「造成／施加損害」。",
+        "damage-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-06"
     },
@@ -2111,11 +2111,9 @@ export default {
       "masked": "The pest can inflict considerable ____ on crops.",
       "options": [
         "damage-mcq-06",
-        "damage-mcq-05",
-        "damage-mcq-07",
-        "damage-mcq-08",
-        "damage-mcq-03",
-        "damage-mcq-09"
+        "damage-mcq-41",
+        "damage-mcq-27",
+        "damage-mcq-62"
       ],
       "explanation": "本句的「damage」指「造成／施加損害」。",
       "sentenceIndex": 12,
@@ -2124,12 +2122,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-06": "本句指「造成／施加損害」。",
-        "damage-mcq-05": "「遭受損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。",
-        "damage-mcq-08": "「嚴重損害」與本句語境不同。",
-        "damage-mcq-03": "「對 X 造成損害」與本句語境不同。",
-        "damage-mcq-09": "「大範圍損害」與本句語境不同。"
+        "damage-mcq-06": "本句的「damage」指「造成／施加損害」。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-06"
     },
@@ -2141,11 +2137,9 @@ export default {
       "masked": "The car suffered only ____.",
       "options": [
         "damage-mcq-07",
-        "damage-mcq-06",
-        "damage-mcq-08",
-        "damage-mcq-05",
-        "damage-mcq-09",
-        "damage-mcq-10"
+        "damage-mcq-41",
+        "damage-reviewed-595a28a706",
+        "damage-mcq-26"
       ],
       "explanation": "本句的「minor damage」指「輕微損害」。",
       "sentenceIndex": 13,
@@ -2154,12 +2148,10 @@ export default {
         "minor damage"
       ],
       "optionReasons": {
-        "damage-mcq-07": "本句指「輕微損害」。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-08": "「嚴重損害」與本句語境不同。",
-        "damage-mcq-05": "「遭受損害」與本句語境不同。",
-        "damage-mcq-09": "「大範圍損害」與本句語境不同。",
-        "damage-mcq-10": "「永久損害」與本句語境不同。"
+        "damage-mcq-07": "本句的「minor damage」指「輕微損害」。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-07"
     },
@@ -2171,11 +2163,9 @@ export default {
       "masked": "Minor ____ can often be repaired quickly.",
       "options": [
         "damage-mcq-07",
-        "damage-mcq-06",
-        "damage-mcq-08",
-        "damage-mcq-05",
-        "damage-mcq-09",
-        "damage-mcq-10"
+        "damage-mcq-24",
+        "damage-mcq-64",
+        "damage-mcq-40"
       ],
       "explanation": "本句的「damage」指「輕微損害」。",
       "sentenceIndex": 14,
@@ -2184,12 +2174,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-07": "本句指「輕微損害」。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-08": "「嚴重損害」與本句語境不同。",
-        "damage-mcq-05": "「遭受損害」與本句語境不同。",
-        "damage-mcq-09": "「大範圍損害」與本句語境不同。",
-        "damage-mcq-10": "「永久損害」與本句語境不同。"
+        "damage-mcq-07": "本句的「damage」指「輕微損害」。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-07"
     },
@@ -2201,11 +2189,9 @@ export default {
       "masked": "The fire caused ____.",
       "options": [
         "damage-mcq-08",
-        "damage-mcq-07",
-        "damage-mcq-09",
-        "damage-mcq-06",
-        "damage-mcq-10",
-        "damage-mcq-05"
+        "damage-mcq-27",
+        "damage-mcq-59",
+        "damage-mcq-23"
       ],
       "explanation": "本句的「severe damage」指「嚴重損害」。",
       "sentenceIndex": 15,
@@ -2214,12 +2200,10 @@ export default {
         "severe damage"
       ],
       "optionReasons": {
-        "damage-mcq-08": "本句指「嚴重損害」。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。",
-        "damage-mcq-09": "「大範圍損害」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-10": "「永久損害」與本句語境不同。",
-        "damage-mcq-05": "「遭受損害」與本句語境不同。"
+        "damage-mcq-08": "本句的「severe damage」指「嚴重損害」。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-08"
     },
@@ -2231,11 +2215,9 @@ export default {
       "masked": "The machine could suffer serious ____ if it overheats.",
       "options": [
         "damage-mcq-08",
-        "damage-mcq-07",
-        "damage-mcq-09",
-        "damage-mcq-06",
-        "damage-mcq-10",
-        "damage-mcq-05"
+        "damage-mcq-40",
+        "damage-mcq-24",
+        "damage-mcq-57"
       ],
       "explanation": "本句的「damage」指「嚴重損害」。",
       "sentenceIndex": 16,
@@ -2244,12 +2226,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-08": "本句指「嚴重損害」。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。",
-        "damage-mcq-09": "「大範圍損害」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-10": "「永久損害」與本句語境不同。",
-        "damage-mcq-05": "「遭受損害」與本句語境不同。"
+        "damage-mcq-08": "本句的「damage」指「嚴重損害」。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-08"
     },
@@ -2261,11 +2241,9 @@ export default {
       "masked": "The building suffered ____.",
       "options": [
         "damage-mcq-09",
-        "damage-mcq-08",
-        "damage-mcq-10",
-        "damage-mcq-07",
-        "damage-mcq-11",
-        "damage-mcq-06"
+        "damage-mcq-57",
+        "damage-mcq-26",
+        "damage-reviewed-13c47ebcfa"
       ],
       "explanation": "本句的「extensive damage」指「大範圍損害」。",
       "sentenceIndex": 17,
@@ -2274,12 +2252,10 @@ export default {
         "extensive damage"
       ],
       "optionReasons": {
-        "damage-mcq-09": "本句指「大範圍損害」。",
-        "damage-mcq-08": "「嚴重損害」與本句語境不同。",
-        "damage-mcq-10": "「永久損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。",
-        "damage-mcq-11": "「不可逆轉損害」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。"
+        "damage-mcq-09": "本句的「extensive damage」指「大範圍損害」。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-09"
     },
@@ -2291,11 +2267,9 @@ export default {
       "masked": "Flooding caused extensive ____ to farmland.",
       "options": [
         "damage-mcq-09",
-        "damage-mcq-08",
-        "damage-mcq-10",
-        "damage-mcq-07",
-        "damage-mcq-11",
-        "damage-mcq-06"
+        "damage-mcq-26",
+        "damage-mcq-24",
+        "damage-mcq-62"
       ],
       "explanation": "本句的「damage」指「大範圍損害」。",
       "sentenceIndex": 18,
@@ -2304,12 +2278,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-09": "本句指「大範圍損害」。",
-        "damage-mcq-08": "「嚴重損害」與本句語境不同。",
-        "damage-mcq-10": "「永久損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。",
-        "damage-mcq-11": "「不可逆轉損害」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。"
+        "damage-mcq-09": "本句的「damage」指「大範圍損害」。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-09"
     },
@@ -2321,11 +2293,9 @@ export default {
       "masked": "Excessive heat can cause ____.",
       "options": [
         "damage-mcq-10",
-        "damage-mcq-09",
-        "damage-mcq-11",
-        "damage-mcq-08",
-        "damage-mcq-12",
-        "damage-mcq-07"
+        "damage-mcq-41",
+        "damage-mcq-23",
+        "damage-mcq-61"
       ],
       "explanation": "本句的「permanent damage」指「永久損害」。",
       "sentenceIndex": 19,
@@ -2334,12 +2304,10 @@ export default {
         "permanent damage"
       ],
       "optionReasons": {
-        "damage-mcq-10": "本句指「永久損害」。",
-        "damage-mcq-09": "「大範圍損害」與本句語境不同。",
-        "damage-mcq-11": "「不可逆轉損害」與本句語境不同。",
-        "damage-mcq-08": "「嚴重損害」與本句語境不同。",
-        "damage-mcq-12": "「無法修復的損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。"
+        "damage-mcq-10": "本句的「permanent damage」指「永久損害」。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-10"
     },
@@ -2351,11 +2319,9 @@ export default {
       "masked": "Fortunately, there was no permanent ____.",
       "options": [
         "damage-mcq-10",
-        "damage-mcq-09",
-        "damage-mcq-11",
-        "damage-mcq-08",
-        "damage-mcq-12",
-        "damage-mcq-07"
+        "damage-mcq-24",
+        "damage-mcq-60",
+        "damage-mcq-27"
       ],
       "explanation": "本句的「damage」指「永久損害」。",
       "sentenceIndex": 20,
@@ -2364,12 +2330,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-10": "本句指「永久損害」。",
-        "damage-mcq-09": "「大範圍損害」與本句語境不同。",
-        "damage-mcq-11": "「不可逆轉損害」與本句語境不同。",
-        "damage-mcq-08": "「嚴重損害」與本句語境不同。",
-        "damage-mcq-12": "「無法修復的損害」與本句語境不同。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。"
+        "damage-mcq-10": "本句的「damage」指「永久損害」。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-10"
     },
@@ -2381,11 +2345,9 @@ export default {
       "masked": "Delaying treatment may cause ____.",
       "options": [
         "damage-mcq-11",
-        "damage-mcq-10",
-        "damage-mcq-12",
-        "damage-mcq-09",
-        "damage-mcq-13",
-        "damage-mcq-08"
+        "damage-mcq-22",
+        "damage-pdf-006",
+        "damage-mcq-64"
       ],
       "explanation": "本句的「irreversible damage」指「不可逆轉損害」。",
       "sentenceIndex": 21,
@@ -2394,12 +2356,10 @@ export default {
         "irreversible damage"
       ],
       "optionReasons": {
-        "damage-mcq-11": "本句指「不可逆轉損害」。",
-        "damage-mcq-10": "「永久損害」與本句語境不同。",
-        "damage-mcq-12": "「無法修復的損害」與本句語境不同。",
-        "damage-mcq-09": "「大範圍損害」與本句語境不同。",
-        "damage-mcq-13": "「結構損壞」與本句語境不同。",
-        "damage-mcq-08": "「嚴重損害」與本句語境不同。"
+        "damage-mcq-11": "本句的「irreversible damage」指「不可逆轉損害」。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-11"
     },
@@ -2411,11 +2371,9 @@ export default {
       "masked": "Some environmental ____ is irreversible.",
       "options": [
         "damage-mcq-11",
-        "damage-mcq-10",
-        "damage-mcq-12",
-        "damage-mcq-09",
-        "damage-mcq-13",
-        "damage-mcq-08"
+        "damage-pdf-006",
+        "damage-mcq-62",
+        "damage-mcq-22"
       ],
       "explanation": "本句的「damage」指「不可逆轉損害」。",
       "sentenceIndex": 22,
@@ -2424,12 +2382,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-11": "本句指「不可逆轉損害」。",
-        "damage-mcq-10": "「永久損害」與本句語境不同。",
-        "damage-mcq-12": "「無法修復的損害」與本句語境不同。",
-        "damage-mcq-09": "「大範圍損害」與本句語境不同。",
-        "damage-mcq-13": "「結構損壞」與本句語境不同。",
-        "damage-mcq-08": "「嚴重損害」與本句語境不同。"
+        "damage-mcq-11": "本句的「damage」指「不可逆轉損害」。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-11"
     },
@@ -2441,11 +2397,9 @@ export default {
       "masked": "The incident caused ____ to the historic building.",
       "options": [
         "damage-mcq-12",
-        "damage-mcq-11",
-        "damage-mcq-13",
-        "damage-mcq-10",
-        "damage-mcq-14",
-        "damage-mcq-09"
+        "damage-mcq-58",
+        "damage-mcq-40",
+        "damage-mcq-22"
       ],
       "explanation": "本句的「irreparable damage」指「無法修復的損害」。",
       "sentenceIndex": 23,
@@ -2454,12 +2408,10 @@ export default {
         "irreparable damage"
       ],
       "optionReasons": {
-        "damage-mcq-12": "本句指「無法修復的損害」。",
-        "damage-mcq-11": "「不可逆轉損害」與本句語境不同。",
-        "damage-mcq-13": "「結構損壞」與本句語境不同。",
-        "damage-mcq-10": "「永久損害」與本句語境不同。",
-        "damage-mcq-14": "「財物／物業損害」與本句語境不同。",
-        "damage-mcq-09": "「大範圍損害」與本句語境不同。"
+        "damage-mcq-12": "本句的「irreparable damage」指「無法修復的損害」。",
+        "damage-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-12"
     },
@@ -2471,11 +2423,9 @@ export default {
       "masked": "Trust can suffer irreparable ____.",
       "options": [
         "damage-mcq-12",
-        "damage-mcq-11",
-        "damage-mcq-13",
-        "damage-mcq-10",
-        "damage-mcq-14",
-        "damage-mcq-09"
+        "damage-mcq-64",
+        "damage-mcq-62",
+        "damage-mcq-40"
       ],
       "explanation": "本句的「damage」指「無法修復的損害」。",
       "sentenceIndex": 24,
@@ -2484,12 +2434,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-12": "本句指「無法修復的損害」。",
-        "damage-mcq-11": "「不可逆轉損害」與本句語境不同。",
-        "damage-mcq-13": "「結構損壞」與本句語境不同。",
-        "damage-mcq-10": "「永久損害」與本句語境不同。",
-        "damage-mcq-14": "「財物／物業損害」與本句語境不同。",
-        "damage-mcq-09": "「大範圍損害」與本句語境不同。"
+        "damage-mcq-12": "本句的「damage」指「無法修復的損害」。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-12"
     },
@@ -2501,11 +2449,9 @@ export default {
       "masked": "Engineers found ____ to the building.",
       "options": [
         "damage-mcq-13",
-        "damage-mcq-12",
-        "damage-mcq-14",
-        "damage-mcq-11",
-        "damage-mcq-15",
-        "damage-mcq-10"
+        "damage-mcq-34",
+        "damage-mcq-64",
+        "damage-mcq-59"
       ],
       "explanation": "本句的「structural damage」指「結構損壞」。",
       "sentenceIndex": 25,
@@ -2514,12 +2460,10 @@ export default {
         "structural damage"
       ],
       "optionReasons": {
-        "damage-mcq-13": "本句指「結構損壞」。",
-        "damage-mcq-12": "「無法修復的損害」與本句語境不同。",
-        "damage-mcq-14": "「財物／物業損害」與本句語境不同。",
-        "damage-mcq-11": "「不可逆轉損害」與本句語境不同。",
-        "damage-mcq-15": "「水損」與本句語境不同。",
-        "damage-mcq-10": "「永久損害」與本句語境不同。"
+        "damage-mcq-13": "本句的「structural damage」指「結構損壞」。",
+        "damage-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-13"
     },
@@ -2531,11 +2475,9 @@ export default {
       "masked": "The earthquake caused serious structural ____.",
       "options": [
         "damage-mcq-13",
-        "damage-mcq-12",
-        "damage-mcq-14",
-        "damage-mcq-11",
-        "damage-mcq-15",
-        "damage-mcq-10"
+        "damage-reviewed-13c47ebcfa",
+        "damage-mcq-67",
+        "damage-mcq-57"
       ],
       "explanation": "本句的「damage」指「結構損壞」。",
       "sentenceIndex": 26,
@@ -2544,12 +2486,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-13": "本句指「結構損壞」。",
-        "damage-mcq-12": "「無法修復的損害」與本句語境不同。",
-        "damage-mcq-14": "「財物／物業損害」與本句語境不同。",
-        "damage-mcq-11": "「不可逆轉損害」與本句語境不同。",
-        "damage-mcq-15": "「水損」與本句語境不同。",
-        "damage-mcq-10": "「永久損害」與本句語境不同。"
+        "damage-mcq-13": "本句的「damage」指「結構損壞」。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-13"
     },
@@ -2561,11 +2501,9 @@ export default {
       "masked": "The accident caused substantial ____.",
       "options": [
         "damage-mcq-14",
-        "damage-mcq-13",
-        "damage-mcq-15",
-        "damage-mcq-12",
-        "damage-mcq-16",
-        "damage-mcq-11"
+        "damage-mcq-41",
+        "damage-mcq-26",
+        "damage-mcq-57"
       ],
       "explanation": "本句的「property damage」指「財物／物業損害」。",
       "sentenceIndex": 27,
@@ -2574,12 +2512,10 @@ export default {
         "property damage"
       ],
       "optionReasons": {
-        "damage-mcq-14": "本句指「財物／物業損害」。",
-        "damage-mcq-13": "「結構損壞」與本句語境不同。",
-        "damage-mcq-15": "「水損」與本句語境不同。",
-        "damage-mcq-12": "「無法修復的損害」與本句語境不同。",
-        "damage-mcq-16": "「火災損害」與本句語境不同。",
-        "damage-mcq-11": "「不可逆轉損害」與本句語境不同。"
+        "damage-mcq-14": "本句的「property damage」指「財物／物業損害」。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-14"
     },
@@ -2591,11 +2527,9 @@ export default {
       "masked": "Insurance may cover property ____.",
       "options": [
         "damage-mcq-14",
-        "damage-mcq-13",
-        "damage-mcq-15",
-        "damage-mcq-12",
-        "damage-mcq-16",
-        "damage-mcq-11"
+        "damage-mcq-27",
+        "damage-mcq-24",
+        "damage-mcq-57"
       ],
       "explanation": "本句的「damage」指「財物／物業損害」。",
       "sentenceIndex": 28,
@@ -2604,12 +2538,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-14": "本句指「財物／物業損害」。",
-        "damage-mcq-13": "「結構損壞」與本句語境不同。",
-        "damage-mcq-15": "「水損」與本句語境不同。",
-        "damage-mcq-12": "「無法修復的損害」與本句語境不同。",
-        "damage-mcq-16": "「火災損害」與本句語境不同。",
-        "damage-mcq-11": "「不可逆轉損害」與本句語境不同。"
+        "damage-mcq-14": "本句的「damage」指「財物／物業損害」。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-14"
     },
@@ -2621,11 +2553,9 @@ export default {
       "masked": "The ceiling showed signs of ____.",
       "options": [
         "damage-mcq-15",
-        "damage-mcq-14",
-        "damage-mcq-16",
-        "damage-mcq-13",
-        "damage-mcq-17",
-        "damage-mcq-12"
+        "damage-mcq-33",
+        "damage-mcq-57",
+        "damage-reviewed-595a28a706"
       ],
       "explanation": "本句的「water damage」指「水損」。",
       "sentenceIndex": 29,
@@ -2634,12 +2564,10 @@ export default {
         "water damage"
       ],
       "optionReasons": {
-        "damage-mcq-15": "本句指「水損」。",
-        "damage-mcq-14": "「財物／物業損害」與本句語境不同。",
-        "damage-mcq-16": "「火災損害」與本句語境不同。",
-        "damage-mcq-13": "「結構損壞」與本句語境不同。",
-        "damage-mcq-17": "「風災損害」與本句語境不同。",
-        "damage-mcq-12": "「無法修復的損害」與本句語境不同。"
+        "damage-mcq-15": "本句的「water damage」指「水損」。",
+        "damage-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-15"
     },
@@ -2651,11 +2579,9 @@ export default {
       "masked": "The documents were ruined by water ____.",
       "options": [
         "damage-mcq-15",
-        "damage-mcq-14",
-        "damage-mcq-16",
-        "damage-mcq-13",
-        "damage-mcq-17",
-        "damage-mcq-12"
+        "damage-reviewed-13c47ebcfa",
+        "damage-mcq-62",
+        "damage-mcq-27"
       ],
       "explanation": "本句的「damage」指「水損」。",
       "sentenceIndex": 30,
@@ -2664,12 +2590,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-15": "本句指「水損」。",
-        "damage-mcq-14": "「財物／物業損害」與本句語境不同。",
-        "damage-mcq-16": "「火災損害」與本句語境不同。",
-        "damage-mcq-13": "「結構損壞」與本句語境不同。",
-        "damage-mcq-17": "「風災損害」與本句語境不同。",
-        "damage-mcq-12": "「無法修復的損害」與本句語境不同。"
+        "damage-mcq-15": "本句的「damage」指「水損」。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-15"
     },
@@ -2681,11 +2605,9 @@ export default {
       "masked": "The office was closed because of ____.",
       "options": [
         "damage-mcq-16",
-        "damage-mcq-15",
-        "damage-mcq-17",
-        "damage-mcq-14",
-        "damage-mcq-18",
-        "damage-mcq-13"
+        "damage-reviewed-595a28a706",
+        "damage-pdf-006",
+        "damage-mcq-62"
       ],
       "explanation": "本句的「fire damage」指「火災損害」。",
       "sentenceIndex": 31,
@@ -2694,12 +2616,10 @@ export default {
         "fire damage"
       ],
       "optionReasons": {
-        "damage-mcq-16": "本句指「火災損害」。",
-        "damage-mcq-15": "「水損」與本句語境不同。",
-        "damage-mcq-17": "「風災損害」與本句語境不同。",
-        "damage-mcq-14": "「財物／物業損害」與本句語境不同。",
-        "damage-mcq-18": "「意外損壞」與本句語境不同。",
-        "damage-mcq-13": "「結構損壞」與本句語境不同。"
+        "damage-mcq-16": "本句的「fire damage」指「火災損害」。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-16"
     },
@@ -2711,11 +2631,9 @@ export default {
       "masked": "Inspectors assessed the fire ____.",
       "options": [
         "damage-mcq-16",
-        "damage-mcq-15",
-        "damage-mcq-17",
-        "damage-mcq-14",
-        "damage-mcq-18",
-        "damage-mcq-13"
+        "damage-mcq-40",
+        "damage-reviewed-13c47ebcfa",
+        "damage-mcq-27"
       ],
       "explanation": "本句的「damage」指「火災損害」。",
       "sentenceIndex": 32,
@@ -2724,12 +2642,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-16": "本句指「火災損害」。",
-        "damage-mcq-15": "「水損」與本句語境不同。",
-        "damage-mcq-17": "「風災損害」與本句語境不同。",
-        "damage-mcq-14": "「財物／物業損害」與本句語境不同。",
-        "damage-mcq-18": "「意外損壞」與本句語境不同。",
-        "damage-mcq-13": "「結構損壞」與本句語境不同。"
+        "damage-mcq-16": "本句的「damage」指「火災損害」。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-16"
     },
@@ -2741,11 +2657,9 @@ export default {
       "masked": "Repairs to ____ took several months.",
       "options": [
         "damage-mcq-17",
-        "damage-mcq-16",
-        "damage-mcq-18",
-        "damage-mcq-15",
-        "damage-mcq-19",
-        "damage-mcq-14"
+        "damage-mcq-23",
+        "damage-mcq-57",
+        "damage-mcq-41"
       ],
       "explanation": "本句的「storm damage」指「風災損害」。",
       "sentenceIndex": 33,
@@ -2754,12 +2668,10 @@ export default {
         "storm damage"
       ],
       "optionReasons": {
-        "damage-mcq-17": "本句指「風災損害」。",
-        "damage-mcq-16": "「火災損害」與本句語境不同。",
-        "damage-mcq-18": "「意外損壞」與本句語境不同。",
-        "damage-mcq-15": "「水損」與本句語境不同。",
-        "damage-mcq-19": "「腦部損傷」與本句語境不同。",
-        "damage-mcq-14": "「財物／物業損害」與本句語境不同。"
+        "damage-mcq-17": "本句的「storm damage」指「風災損害」。",
+        "damage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-17"
     },
@@ -2771,11 +2683,9 @@ export default {
       "masked": "Farmers received assistance for flood ____.",
       "options": [
         "damage-mcq-17",
-        "damage-mcq-16",
-        "damage-mcq-18",
-        "damage-mcq-15",
-        "damage-mcq-19",
-        "damage-mcq-14"
+        "damage-mcq-22",
+        "damage-mcq-26",
+        "damage-mcq-60"
       ],
       "explanation": "本句的「damage」指「風災損害」。",
       "sentenceIndex": 34,
@@ -2784,12 +2694,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-17": "本句指「風災損害」。",
-        "damage-mcq-16": "「火災損害」與本句語境不同。",
-        "damage-mcq-18": "「意外損壞」與本句語境不同。",
-        "damage-mcq-15": "「水損」與本句語境不同。",
-        "damage-mcq-19": "「腦部損傷」與本句語境不同。",
-        "damage-mcq-14": "「財物／物業損害」與本句語境不同。"
+        "damage-mcq-17": "本句的「damage」指「風災損害」。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-17"
     },
@@ -2801,11 +2709,9 @@ export default {
       "masked": "The policy includes cover for ____.",
       "options": [
         "damage-mcq-18",
-        "damage-mcq-17",
-        "damage-mcq-19",
-        "damage-mcq-16",
-        "damage-mcq-20",
-        "damage-mcq-15"
+        "damage-pdf-002",
+        "damage-mcq-59",
+        "damage-mcq-40"
       ],
       "explanation": "本句的「accidental damage」指「意外損壞」。",
       "sentenceIndex": 35,
@@ -2814,12 +2720,10 @@ export default {
         "accidental damage"
       ],
       "optionReasons": {
-        "damage-mcq-18": "本句指「意外損壞」。",
-        "damage-mcq-17": "「風災損害」與本句語境不同。",
-        "damage-mcq-19": "「腦部損傷」與本句語境不同。",
-        "damage-mcq-16": "「火災損害」與本句語境不同。",
-        "damage-mcq-20": "「神經損傷」與本句語境不同。",
-        "damage-mcq-15": "「水損」與本句語境不同。"
+        "damage-mcq-18": "本句的「accidental damage」指「意外損壞」。",
+        "damage-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-18"
     },
@@ -2831,11 +2735,9 @@ export default {
       "masked": "Accidental ____ is different from normal wear and tear.",
       "options": [
         "damage-mcq-18",
-        "damage-mcq-17",
-        "damage-mcq-19",
-        "damage-mcq-16",
-        "damage-mcq-20",
-        "damage-mcq-15"
+        "damage-mcq-27",
+        "damage-mcq-64",
+        "damage-mcq-59"
       ],
       "explanation": "本句的「damage」指「意外損壞」。",
       "sentenceIndex": 36,
@@ -2844,12 +2746,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-18": "本句指「意外損壞」。",
-        "damage-mcq-17": "「風災損害」與本句語境不同。",
-        "damage-mcq-19": "「腦部損傷」與本句語境不同。",
-        "damage-mcq-16": "「火災損害」與本句語境不同。",
-        "damage-mcq-20": "「神經損傷」與本句語境不同。",
-        "damage-mcq-15": "「水損」與本句語境不同。"
+        "damage-mcq-18": "本句的「damage」指「意外損壞」。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-18"
     },
@@ -2861,11 +2761,9 @@ export default {
       "masked": "The accident caused ____.",
       "options": [
         "damage-pdf-002",
-        "damage-mcq-18",
-        "damage-mcq-20",
-        "damage-mcq-17",
-        "damage-mcq-21",
-        "damage-mcq-16"
+        "damage-mcq-23",
+        "damage-mcq-40",
+        "damage-mcq-15"
       ],
       "explanation": "本句的「nerve damage」指「對身體器官、細胞、神經或組織造成的傷害」。",
       "sentenceIndex": 37,
@@ -2874,12 +2772,10 @@ export default {
         "nerve damage"
       ],
       "optionReasons": {
-        "damage-pdf-002": "本句指「對身體器官、細胞、神經或組織造成的傷害」。",
-        "damage-mcq-18": "「意外損壞」與本句語境不同。",
-        "damage-mcq-20": "「神經損傷」與本句語境不同。",
-        "damage-mcq-17": "「風災損害」與本句語境不同。",
-        "damage-mcq-21": "「組織損傷」與本句語境不同。",
-        "damage-mcq-16": "「火災損害」與本句語境不同。"
+        "damage-pdf-002": "本句的「nerve damage」指「對身體器官、細胞、神經或組織造成的傷害」。",
+        "damage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-pdf-002"
     },
@@ -2891,11 +2787,9 @@ export default {
       "masked": "Long-term exposure can cause tissue ____.",
       "options": [
         "damage-pdf-002",
-        "damage-mcq-18",
-        "damage-mcq-20",
-        "damage-mcq-17",
-        "damage-mcq-21",
-        "damage-mcq-16"
+        "damage-mcq-44",
+        "damage-mcq-61",
+        "damage-mcq-40"
       ],
       "explanation": "本句的「damage」指「對身體器官、細胞、神經或組織造成的傷害」。",
       "sentenceIndex": 38,
@@ -2904,12 +2798,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-pdf-002": "本句指「對身體器官、細胞、神經或組織造成的傷害」。",
-        "damage-mcq-18": "「意外損壞」與本句語境不同。",
-        "damage-mcq-20": "「神經損傷」與本句語境不同。",
-        "damage-mcq-17": "「風災損害」與本句語境不同。",
-        "damage-mcq-21": "「組織損傷」與本句語境不同。",
-        "damage-mcq-16": "「火災損害」與本句語境不同。"
+        "damage-pdf-002": "本句的「damage」指「對身體器官、細胞、神經或組織造成的傷害」。",
+        "damage-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-pdf-002"
     },
@@ -2921,11 +2813,9 @@ export default {
       "masked": "The injury caused serious ____.",
       "options": [
         "damage-mcq-19",
-        "damage-mcq-18",
-        "damage-mcq-20",
-        "damage-mcq-17",
-        "damage-mcq-21",
-        "damage-mcq-16"
+        "damage-mcq-37",
+        "damage-mcq-61",
+        "damage-mcq-27"
       ],
       "explanation": "本句的「brain damage」指「腦部損傷」。",
       "sentenceIndex": 39,
@@ -2934,12 +2824,10 @@ export default {
         "brain damage"
       ],
       "optionReasons": {
-        "damage-mcq-19": "本句指「腦部損傷」。",
-        "damage-mcq-18": "「意外損壞」與本句語境不同。",
-        "damage-mcq-20": "「神經損傷」與本句語境不同。",
-        "damage-mcq-17": "「風災損害」與本句語境不同。",
-        "damage-mcq-21": "「組織損傷」與本句語境不同。",
-        "damage-mcq-16": "「火災損害」與本句語境不同。"
+        "damage-mcq-19": "本句的「brain damage」指「腦部損傷」。",
+        "damage-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-19"
     },
@@ -2951,11 +2839,9 @@ export default {
       "masked": "Doctors checked for signs of brain ____.",
       "options": [
         "damage-mcq-19",
-        "damage-mcq-18",
-        "damage-mcq-20",
-        "damage-mcq-17",
-        "damage-mcq-21",
-        "damage-mcq-16"
+        "damage-reviewed-13c47ebcfa",
+        "damage-mcq-22",
+        "damage-mcq-64"
       ],
       "explanation": "本句的「damage」指「腦部損傷」。",
       "sentenceIndex": 40,
@@ -2964,12 +2850,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-19": "本句指「腦部損傷」。",
-        "damage-mcq-18": "「意外損壞」與本句語境不同。",
-        "damage-mcq-20": "「神經損傷」與本句語境不同。",
-        "damage-mcq-17": "「風災損害」與本句語境不同。",
-        "damage-mcq-21": "「組織損傷」與本句語境不同。",
-        "damage-mcq-16": "「火災損害」與本句語境不同。"
+        "damage-mcq-19": "本句的「damage」指「腦部損傷」。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-19"
     },
@@ -2981,11 +2865,9 @@ export default {
       "masked": "The condition may cause ____.",
       "options": [
         "damage-mcq-20",
-        "damage-mcq-19",
-        "damage-mcq-21",
-        "damage-mcq-18",
-        "damage-mcq-22",
-        "damage-mcq-17"
+        "damage-mcq-58",
+        "damage-mcq-27",
+        "damage-mcq-22"
       ],
       "explanation": "本句的「nerve damage」指「神經損傷」。",
       "sentenceIndex": 41,
@@ -2994,12 +2876,10 @@ export default {
         "nerve damage"
       ],
       "optionReasons": {
-        "damage-mcq-20": "本句指「神經損傷」。",
-        "damage-mcq-19": "「腦部損傷」與本句語境不同。",
-        "damage-mcq-21": "「組織損傷」與本句語境不同。",
-        "damage-mcq-18": "「意外損壞」與本句語境不同。",
-        "damage-mcq-22": "「環境破壞」與本句語境不同。",
-        "damage-mcq-17": "「風災損害」與本句語境不同。"
+        "damage-mcq-20": "本句的「nerve damage」指「神經損傷」。",
+        "damage-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-20"
     },
@@ -3011,11 +2891,9 @@ export default {
       "masked": "Nerve ____ can affect movement or sensation.",
       "options": [
         "damage-mcq-20",
-        "damage-mcq-19",
-        "damage-mcq-21",
-        "damage-mcq-18",
-        "damage-mcq-22",
-        "damage-mcq-17"
+        "damage-mcq-62",
+        "damage-mcq-40",
+        "damage-pdf-006"
       ],
       "explanation": "本句的「damage」指「神經損傷」。",
       "sentenceIndex": 42,
@@ -3024,12 +2902,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-20": "本句指「神經損傷」。",
-        "damage-mcq-19": "「腦部損傷」與本句語境不同。",
-        "damage-mcq-21": "「組織損傷」與本句語境不同。",
-        "damage-mcq-18": "「意外損壞」與本句語境不同。",
-        "damage-mcq-22": "「環境破壞」與本句語境不同。",
-        "damage-mcq-17": "「風災損害」與本句語境不同。"
+        "damage-mcq-20": "本句的「damage」指「神經損傷」。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-20"
     },
@@ -3041,11 +2917,9 @@ export default {
       "masked": "Extreme cold can cause ____.",
       "options": [
         "damage-mcq-21",
-        "damage-mcq-20",
-        "damage-mcq-22",
-        "damage-mcq-19",
-        "damage-mcq-23",
-        "damage-mcq-18"
+        "damage-mcq-64",
+        "damage-mcq-59",
+        "damage-mcq-39"
       ],
       "explanation": "本句的「tissue damage」指「組織損傷」。",
       "sentenceIndex": 43,
@@ -3054,12 +2928,10 @@ export default {
         "tissue damage"
       ],
       "optionReasons": {
-        "damage-mcq-21": "本句指「組織損傷」。",
-        "damage-mcq-20": "「神經損傷」與本句語境不同。",
-        "damage-mcq-22": "「環境破壞」與本句語境不同。",
-        "damage-mcq-19": "「腦部損傷」與本句語境不同。",
-        "damage-mcq-23": "「生態破壞」與本句語境不同。",
-        "damage-mcq-18": "「意外損壞」與本句語境不同。"
+        "damage-mcq-21": "本句的「tissue damage」指「組織損傷」。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-21"
     },
@@ -3071,11 +2943,9 @@ export default {
       "masked": "The treatment aims to limit tissue ____.",
       "options": [
         "damage-mcq-21",
-        "damage-mcq-20",
-        "damage-mcq-22",
-        "damage-mcq-19",
-        "damage-mcq-23",
-        "damage-mcq-18"
+        "damage-mcq-61",
+        "damage-pdf-006",
+        "damage-mcq-24"
       ],
       "explanation": "本句的「damage」指「組織損傷」。",
       "sentenceIndex": 44,
@@ -3084,12 +2954,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-21": "本句指「組織損傷」。",
-        "damage-mcq-20": "「神經損傷」與本句語境不同。",
-        "damage-mcq-22": "「環境破壞」與本句語境不同。",
-        "damage-mcq-19": "「腦部損傷」與本句語境不同。",
-        "damage-mcq-23": "「生態破壞」與本句語境不同。",
-        "damage-mcq-18": "「意外損壞」與本句語境不同。"
+        "damage-mcq-21": "本句的「damage」指「組織損傷」。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-21"
     },
@@ -3101,11 +2969,9 @@ export default {
       "masked": "Excessive alcohol consumption can contribute to ____.",
       "options": [
         "damage-mcq-21",
-        "damage-mcq-20",
         "damage-mcq-22",
-        "damage-mcq-19",
-        "damage-mcq-23",
-        "damage-mcq-18"
+        "damage-mcq-62",
+        "damage-mcq-27"
       ],
       "explanation": "本句的「liver damage」指「組織損傷」。",
       "sentenceIndex": 45,
@@ -3114,12 +2980,10 @@ export default {
         "liver damage"
       ],
       "optionReasons": {
-        "damage-mcq-21": "本句指「組織損傷」。",
-        "damage-mcq-20": "「神經損傷」與本句語境不同。",
-        "damage-mcq-22": "「環境破壞」與本句語境不同。",
-        "damage-mcq-19": "「腦部損傷」與本句語境不同。",
-        "damage-mcq-23": "「生態破壞」與本句語境不同。",
-        "damage-mcq-18": "「意外損壞」與本句語境不同。"
+        "damage-mcq-21": "本句的「liver damage」指「組織損傷」。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-21"
     },
@@ -3131,11 +2995,9 @@ export default {
       "masked": "The doctors monitored the patient for kidney ____.",
       "options": [
         "damage-mcq-21",
-        "damage-mcq-20",
-        "damage-mcq-22",
-        "damage-mcq-19",
-        "damage-mcq-23",
-        "damage-mcq-18"
+        "damage-mcq-59",
+        "damage-mcq-64",
+        "damage-mcq-37"
       ],
       "explanation": "本句的「damage」指「組織損傷」。",
       "sentenceIndex": 46,
@@ -3144,12 +3006,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-21": "本句指「組織損傷」。",
-        "damage-mcq-20": "「神經損傷」與本句語境不同。",
-        "damage-mcq-22": "「環境破壞」與本句語境不同。",
-        "damage-mcq-19": "「腦部損傷」與本句語境不同。",
-        "damage-mcq-23": "「生態破壞」與本句語境不同。",
-        "damage-mcq-18": "「意外損壞」與本句語境不同。"
+        "damage-mcq-21": "本句的「damage」指「組織損傷」。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-21"
     },
@@ -3161,11 +3021,9 @@ export default {
       "masked": "The project could cause serious ____.",
       "options": [
         "damage-mcq-22",
-        "damage-mcq-21",
-        "damage-mcq-23",
-        "damage-mcq-20",
-        "damage-mcq-24",
-        "damage-mcq-19"
+        "damage-mcq-41",
+        "damage-mcq-26",
+        "damage-mcq-25"
       ],
       "explanation": "本句的「environmental damage」指「環境破壞」。",
       "sentenceIndex": 47,
@@ -3174,12 +3032,10 @@ export default {
         "environmental damage"
       ],
       "optionReasons": {
-        "damage-mcq-22": "本句指「環境破壞」。",
-        "damage-mcq-21": "「組織損傷」與本句語境不同。",
-        "damage-mcq-23": "「生態破壞」與本句語境不同。",
-        "damage-mcq-20": "「神經損傷」與本句語境不同。",
-        "damage-mcq-24": "「破壞關係」與本句語境不同。",
-        "damage-mcq-19": "「腦部損傷」與本句語境不同。"
+        "damage-mcq-22": "本句的「environmental damage」指「環境破壞」。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-22"
     },
@@ -3191,11 +3047,9 @@ export default {
       "masked": "The company was criticised for the environmental ____ caused by the spill.",
       "options": [
         "damage-mcq-22",
-        "damage-mcq-21",
-        "damage-mcq-23",
-        "damage-mcq-20",
-        "damage-mcq-24",
-        "damage-mcq-19"
+        "damage-mcq-46",
+        "damage-mcq-62",
+        "damage-mcq-26"
       ],
       "explanation": "本句的「damage」指「環境破壞」。",
       "sentenceIndex": 48,
@@ -3204,12 +3058,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-22": "本句指「環境破壞」。",
-        "damage-mcq-21": "「組織損傷」與本句語境不同。",
-        "damage-mcq-23": "「生態破壞」與本句語境不同。",
-        "damage-mcq-20": "「神經損傷」與本句語境不同。",
-        "damage-mcq-24": "「破壞關係」與本句語境不同。",
-        "damage-mcq-19": "「腦部損傷」與本句語境不同。"
+        "damage-mcq-22": "本句的「damage」指「環境破壞」。",
+        "damage-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-22"
     },
@@ -3221,11 +3073,9 @@ export default {
       "masked": "The development caused long-term ____.",
       "options": [
         "damage-mcq-23",
-        "damage-mcq-22",
-        "damage-mcq-24",
-        "damage-mcq-21",
-        "damage-mcq-25",
-        "damage-mcq-20"
+        "damage-mcq-53",
+        "damage-mcq-64",
+        "damage-reviewed-13c47ebcfa"
       ],
       "explanation": "本句的「ecological damage」指「生態破壞」。",
       "sentenceIndex": 49,
@@ -3234,12 +3084,10 @@ export default {
         "ecological damage"
       ],
       "optionReasons": {
-        "damage-mcq-23": "本句指「生態破壞」。",
-        "damage-mcq-22": "「環境破壞」與本句語境不同。",
-        "damage-mcq-24": "「破壞關係」與本句語境不同。",
-        "damage-mcq-21": "「組織損傷」與本句語境不同。",
-        "damage-mcq-25": "「損害信任」與本句語境不同。",
-        "damage-mcq-20": "「神經損傷」與本句語境不同。"
+        "damage-mcq-23": "本句的「ecological damage」指「生態破壞」。",
+        "damage-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-23"
     },
@@ -3251,11 +3099,9 @@ export default {
       "masked": "Ecological ____ can affect many species.",
       "options": [
         "damage-mcq-23",
-        "damage-mcq-22",
-        "damage-mcq-24",
-        "damage-mcq-21",
+        "damage-pdf-003",
         "damage-mcq-25",
-        "damage-mcq-20"
+        "damage-reviewed-13c47ebcfa"
       ],
       "explanation": "本句的「damage」指「生態破壞」。",
       "sentenceIndex": 50,
@@ -3264,12 +3110,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-23": "本句指「生態破壞」。",
-        "damage-mcq-22": "「環境破壞」與本句語境不同。",
-        "damage-mcq-24": "「破壞關係」與本句語境不同。",
-        "damage-mcq-21": "「組織損傷」與本句語境不同。",
-        "damage-mcq-25": "「損害信任」與本句語境不同。",
-        "damage-mcq-20": "「神經損傷」與本句語境不同。"
+        "damage-mcq-23": "本句的「damage」指「生態破壞」。",
+        "damage-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-23"
     },
@@ -3281,11 +3125,9 @@ export default {
       "masked": "Industrial waste can ____.",
       "options": [
         "damage-mcq-24",
-        "damage-mcq-23",
-        "damage-mcq-25",
-        "damage-mcq-22",
-        "damage-mcq-26",
-        "damage-mcq-21"
+        "damage-mcq-20",
+        "damage-mcq-16",
+        "damage-mcq-62"
       ],
       "explanation": "本句的「damage the environment」指「破壞關係」。",
       "sentenceIndex": 51,
@@ -3294,12 +3136,10 @@ export default {
         "damage the environment"
       ],
       "optionReasons": {
-        "damage-mcq-24": "本句指「破壞關係」。",
-        "damage-mcq-23": "「生態破壞」與本句語境不同。",
-        "damage-mcq-25": "「損害信任」與本句語境不同。",
-        "damage-mcq-22": "「環境破壞」與本句語境不同。",
-        "damage-mcq-26": "「打擊士氣」與本句語境不同。",
-        "damage-mcq-21": "「組織損傷」與本句語境不同。"
+        "damage-mcq-24": "本句的「damage the environment」指「破壞關係」。",
+        "damage-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-24"
     },
@@ -3311,11 +3151,9 @@ export default {
       "masked": "Tourism should be managed without ____ fragile ecosystems.",
       "options": [
         "damage-mcq-24",
-        "damage-mcq-23",
-        "damage-mcq-25",
-        "damage-mcq-22",
-        "damage-mcq-26",
-        "damage-mcq-21"
+        "damage-reviewed-48ae888ace",
+        "damage-mcq-64",
+        "damage-mcq-19"
       ],
       "explanation": "本句的「damaging」指「破壞關係」。",
       "sentenceIndex": 52,
@@ -3324,12 +3162,10 @@ export default {
         "damaging"
       ],
       "optionReasons": {
-        "damage-mcq-24": "本句指「破壞關係」。",
-        "damage-mcq-23": "「生態破壞」與本句語境不同。",
-        "damage-mcq-25": "「損害信任」與本句語境不同。",
-        "damage-mcq-22": "「環境破壞」與本句語境不同。",
-        "damage-mcq-26": "「打擊士氣」與本句語境不同。",
-        "damage-mcq-21": "「組織損傷」與本句語境不同。"
+        "damage-mcq-24": "本句的「damaging」指「破壞關係」。",
+        "damage-reviewed-48ae888ace": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-24"
     },
@@ -3341,10 +3177,8 @@ export default {
       "masked": "Constant criticism can ____.",
       "options": [
         "damage-mcq-24",
-        "damage-mcq-23",
-        "damage-mcq-25",
-        "damage-mcq-22",
-        "damage-mcq-26",
+        "damage-mcq-59",
+        "damage-mcq-10",
         "damage-mcq-21"
       ],
       "explanation": "本句的「damage a working relationship」指「破壞關係」。",
@@ -3354,12 +3188,10 @@ export default {
         "damage a working relationship"
       ],
       "optionReasons": {
-        "damage-mcq-24": "本句指「破壞關係」。",
-        "damage-mcq-23": "「生態破壞」與本句語境不同。",
-        "damage-mcq-25": "「損害信任」與本句語境不同。",
-        "damage-mcq-22": "「環境破壞」與本句語境不同。",
-        "damage-mcq-26": "「打擊士氣」與本句語境不同。",
-        "damage-mcq-21": "「組織損傷」與本句語境不同。"
+        "damage-mcq-24": "本句的「damage a working relationship」指「破壞關係」。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-24"
     },
@@ -3371,10 +3203,8 @@ export default {
       "masked": "The dispute badly ____ relations between the departments.",
       "options": [
         "damage-mcq-24",
-        "damage-mcq-23",
-        "damage-mcq-25",
-        "damage-mcq-22",
-        "damage-mcq-26",
+        "damage-mcq-29",
+        "damage-mcq-69",
         "damage-mcq-21"
       ],
       "explanation": "本句的「damaged」指「破壞關係」。",
@@ -3384,12 +3214,10 @@ export default {
         "damaged"
       ],
       "optionReasons": {
-        "damage-mcq-24": "本句指「破壞關係」。",
-        "damage-mcq-23": "「生態破壞」與本句語境不同。",
-        "damage-mcq-25": "「損害信任」與本句語境不同。",
-        "damage-mcq-22": "「環境破壞」與本句語境不同。",
-        "damage-mcq-26": "「打擊士氣」與本句語境不同。",
-        "damage-mcq-21": "「組織損傷」與本句語境不同。"
+        "damage-mcq-24": "本句的「damaged」指「破壞關係」。",
+        "damage-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-24"
     },
@@ -3401,11 +3229,9 @@ export default {
       "masked": "Unfair treatment can ____.",
       "options": [
         "damage-mcq-25",
-        "damage-mcq-24",
-        "damage-mcq-26",
-        "damage-mcq-23",
-        "damage-mcq-27",
-        "damage-mcq-22"
+        "damage-pdf-006",
+        "damage-mcq-41",
+        "damage-reviewed-595a28a706"
       ],
       "explanation": "本句的「damage trust」指「損害信任」。",
       "sentenceIndex": 57,
@@ -3414,12 +3240,10 @@ export default {
         "damage trust"
       ],
       "optionReasons": {
-        "damage-mcq-25": "本句指「損害信任」。",
-        "damage-mcq-24": "「破壞關係」與本句語境不同。",
-        "damage-mcq-26": "「打擊士氣」與本句語境不同。",
-        "damage-mcq-23": "「生態破壞」與本句語境不同。",
-        "damage-mcq-27": "「打擊信心」與本句語境不同。",
-        "damage-mcq-22": "「環境破壞」與本句語境不同。"
+        "damage-mcq-25": "本句的「damage trust」指「損害信任」。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-25"
     },
@@ -3431,11 +3255,9 @@ export default {
       "masked": "Once trust is ____, cooperation becomes harder.",
       "options": [
         "damage-mcq-25",
-        "damage-mcq-24",
-        "damage-mcq-26",
-        "damage-mcq-23",
-        "damage-mcq-27",
-        "damage-mcq-22"
+        "damage-mcq-62",
+        "damage-mcq-64",
+        "damage-mcq-39"
       ],
       "explanation": "本句的「damaged」指「損害信任」。",
       "sentenceIndex": 58,
@@ -3444,12 +3266,10 @@ export default {
         "damaged"
       ],
       "optionReasons": {
-        "damage-mcq-25": "本句指「損害信任」。",
-        "damage-mcq-24": "「破壞關係」與本句語境不同。",
-        "damage-mcq-26": "「打擊士氣」與本句語境不同。",
-        "damage-mcq-23": "「生態破壞」與本句語境不同。",
-        "damage-mcq-27": "「打擊信心」與本句語境不同。",
-        "damage-mcq-22": "「環境破壞」與本句語境不同。"
+        "damage-mcq-25": "本句的「damaged」指「損害信任」。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-25"
     },
@@ -3461,11 +3281,9 @@ export default {
       "masked": "Unclear leadership ____.",
       "options": [
         "damage-mcq-26",
-        "damage-mcq-25",
-        "damage-mcq-27",
-        "damage-mcq-24",
-        "damage-mcq-28",
-        "damage-mcq-23"
+        "damage-mcq-09",
+        "damage-mcq-20",
+        "damage-mcq-37"
       ],
       "explanation": "本句的「damaged staff morale」指「打擊士氣」。",
       "sentenceIndex": 59,
@@ -3474,12 +3292,10 @@ export default {
         "damaged staff morale"
       ],
       "optionReasons": {
-        "damage-mcq-26": "本句指「打擊士氣」。",
-        "damage-mcq-25": "「損害信任」與本句語境不同。",
-        "damage-mcq-27": "「打擊信心」與本句語境不同。",
-        "damage-mcq-24": "「破壞關係」與本句語境不同。",
-        "damage-mcq-28": "「損害可信度」與本句語境不同。",
-        "damage-mcq-23": "「生態破壞」與本句語境不同。"
+        "damage-mcq-26": "本句的「damaged staff morale」指「打擊士氣」。",
+        "damage-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-26"
     },
@@ -3491,11 +3307,9 @@ export default {
       "masked": "Repeated failures can seriously ____ morale.",
       "options": [
         "damage-mcq-26",
-        "damage-mcq-25",
-        "damage-mcq-27",
-        "damage-mcq-24",
-        "damage-mcq-28",
-        "damage-mcq-23"
+        "damage-mcq-58",
+        "damage-mcq-49",
+        "damage-mcq-24"
       ],
       "explanation": "本句的「damage」指「打擊士氣」。",
       "sentenceIndex": 60,
@@ -3504,12 +3318,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-26": "本句指「打擊士氣」。",
-        "damage-mcq-25": "「損害信任」與本句語境不同。",
-        "damage-mcq-27": "「打擊信心」與本句語境不同。",
-        "damage-mcq-24": "「破壞關係」與本句語境不同。",
-        "damage-mcq-28": "「損害可信度」與本句語境不同。",
-        "damage-mcq-23": "「生態破壞」與本句語境不同。"
+        "damage-mcq-26": "本句的「damage」指「打擊士氣」。",
+        "damage-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-26"
     },
@@ -3521,11 +3333,9 @@ export default {
       "masked": "The mistake ____.",
       "options": [
         "damage-mcq-27",
-        "damage-mcq-26",
-        "damage-mcq-28",
-        "damage-mcq-25",
-        "damage-mcq-29",
-        "damage-mcq-24"
+        "damage-mcq-14",
+        "damage-mcq-64",
+        "damage-mcq-39"
       ],
       "explanation": "本句的「damaged investor confidence」指「打擊信心」。",
       "sentenceIndex": 61,
@@ -3534,12 +3344,10 @@ export default {
         "damaged investor confidence"
       ],
       "optionReasons": {
-        "damage-mcq-27": "本句指「打擊信心」。",
-        "damage-mcq-26": "「打擊士氣」與本句語境不同。",
-        "damage-mcq-28": "「損害可信度」與本句語境不同。",
-        "damage-mcq-25": "「損害信任」與本句語境不同。",
-        "damage-mcq-29": "「損害聲譽」與本句語境不同。",
-        "damage-mcq-24": "「破壞關係」與本句語境不同。"
+        "damage-mcq-27": "本句的「damaged investor confidence」指「打擊信心」。",
+        "damage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-27"
     },
@@ -3551,11 +3359,9 @@ export default {
       "masked": "Harsh criticism can ____ a young employee's confidence.",
       "options": [
         "damage-mcq-27",
-        "damage-mcq-26",
-        "damage-mcq-28",
-        "damage-mcq-25",
-        "damage-mcq-29",
-        "damage-mcq-24"
+        "damage-reviewed-48ae888ace",
+        "damage-mcq-02",
+        "damage-mcq-62"
       ],
       "explanation": "本句的「damage」指「打擊信心」。",
       "sentenceIndex": 62,
@@ -3564,12 +3370,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-27": "本句指「打擊信心」。",
-        "damage-mcq-26": "「打擊士氣」與本句語境不同。",
-        "damage-mcq-28": "「損害可信度」與本句語境不同。",
-        "damage-mcq-25": "「損害信任」與本句語境不同。",
-        "damage-mcq-29": "「損害聲譽」與本句語境不同。",
-        "damage-mcq-24": "「破壞關係」與本句語境不同。"
+        "damage-mcq-27": "本句的「damage」指「打擊信心」。",
+        "damage-reviewed-48ae888ace": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-27"
     },
@@ -3581,11 +3385,9 @@ export default {
       "masked": "Inaccurate statements can ____.",
       "options": [
         "damage-mcq-28",
-        "damage-mcq-27",
-        "damage-mcq-29",
-        "damage-mcq-26",
-        "damage-mcq-30",
-        "damage-mcq-25"
+        "damage-mcq-58",
+        "damage-mcq-22",
+        "damage-reviewed-13c47ebcfa"
       ],
       "explanation": "本句的「damage credibility」指「損害可信度」。",
       "sentenceIndex": 63,
@@ -3594,12 +3396,10 @@ export default {
         "damage credibility"
       ],
       "optionReasons": {
-        "damage-mcq-28": "本句指「損害可信度」。",
-        "damage-mcq-27": "「打擊信心」與本句語境不同。",
-        "damage-mcq-29": "「損害聲譽」與本句語境不同。",
-        "damage-mcq-26": "「打擊士氣」與本句語境不同。",
-        "damage-mcq-30": "「損害前景」與本句語境不同。",
-        "damage-mcq-25": "「損害信任」與本句語境不同。"
+        "damage-mcq-28": "本句的「damage credibility」指「損害可信度」。",
+        "damage-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-28"
     },
@@ -3611,11 +3411,9 @@ export default {
       "masked": "The contradiction ____ the report's credibility.",
       "options": [
         "damage-mcq-28",
-        "damage-mcq-27",
-        "damage-mcq-29",
-        "damage-mcq-26",
-        "damage-mcq-30",
-        "damage-mcq-25"
+        "damage-mcq-40",
+        "damage-mcq-24",
+        "damage-mcq-26"
       ],
       "explanation": "本句的「damaged」指「損害可信度」。",
       "sentenceIndex": 64,
@@ -3624,12 +3422,10 @@ export default {
         "damaged"
       ],
       "optionReasons": {
-        "damage-mcq-28": "本句指「損害可信度」。",
-        "damage-mcq-27": "「打擊信心」與本句語境不同。",
-        "damage-mcq-29": "「損害聲譽」與本句語境不同。",
-        "damage-mcq-26": "「打擊士氣」與本句語境不同。",
-        "damage-mcq-30": "「損害前景」與本句語境不同。",
-        "damage-mcq-25": "「損害信任」與本句語境不同。"
+        "damage-mcq-28": "本句的「damaged」指「損害可信度」。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-28"
     },
@@ -3641,11 +3437,9 @@ export default {
       "masked": "The scandal ____.",
       "options": [
         "damage-mcq-29",
-        "damage-mcq-28",
-        "damage-mcq-30",
-        "damage-mcq-27",
-        "damage-mcq-31",
-        "damage-mcq-26"
+        "damage-mcq-26",
+        "damage-mcq-39",
+        "damage-mcq-40"
       ],
       "explanation": "本句的「damaged the company's reputation」指「損害聲譽」。",
       "sentenceIndex": 65,
@@ -3654,12 +3448,10 @@ export default {
         "damaged the company's reputation"
       ],
       "optionReasons": {
-        "damage-mcq-29": "本句指「損害聲譽」。",
-        "damage-mcq-28": "「損害可信度」與本句語境不同。",
-        "damage-mcq-30": "「損害前景」與本句語境不同。",
-        "damage-mcq-27": "「打擊信心」與本句語境不同。",
-        "damage-mcq-31": "「損害職業生涯」與本句語境不同。",
-        "damage-mcq-26": "「打擊士氣」與本句語境不同。"
+        "damage-mcq-29": "本句的「damaged the company's reputation」指「損害聲譽」。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-29"
     },
@@ -3671,11 +3463,9 @@ export default {
       "masked": "One careless comment can ____ a professional reputation.",
       "options": [
         "damage-mcq-29",
-        "damage-mcq-28",
-        "damage-mcq-30",
-        "damage-mcq-27",
-        "damage-mcq-31",
-        "damage-mcq-26"
+        "damage-mcq-59",
+        "damage-mcq-24",
+        "damage-mcq-41"
       ],
       "explanation": "本句的「damage」指「損害聲譽」。",
       "sentenceIndex": 66,
@@ -3684,12 +3474,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-29": "本句指「損害聲譽」。",
-        "damage-mcq-28": "「損害可信度」與本句語境不同。",
-        "damage-mcq-30": "「損害前景」與本句語境不同。",
-        "damage-mcq-27": "「打擊信心」與本句語境不同。",
-        "damage-mcq-31": "「損害職業生涯」與本句語境不同。",
-        "damage-mcq-26": "「打擊士氣」與本句語境不同。"
+        "damage-mcq-29": "本句的「damage」指「損害聲譽」。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-29"
     },
@@ -3701,11 +3489,9 @@ export default {
       "masked": "The delay could ____.",
       "options": [
         "damage-mcq-30",
-        "damage-mcq-29",
-        "damage-mcq-31",
-        "damage-mcq-28",
-        "damage-mcq-32",
-        "damage-mcq-27"
+        "damage-mcq-23",
+        "damage-mcq-26",
+        "damage-mcq-59"
       ],
       "explanation": "本句的「damage the project's prospects of success」指「損害前景」。",
       "sentenceIndex": 67,
@@ -3714,12 +3500,10 @@ export default {
         "damage the project's prospects of success"
       ],
       "optionReasons": {
-        "damage-mcq-30": "本句指「損害前景」。",
-        "damage-mcq-29": "「損害聲譽」與本句語境不同。",
-        "damage-mcq-31": "「損害職業生涯」與本句語境不同。",
-        "damage-mcq-28": "「損害可信度」與本句語境不同。",
-        "damage-mcq-32": "「聲譽損害」與本句語境不同。",
-        "damage-mcq-27": "「打擊信心」與本句語境不同。"
+        "damage-mcq-30": "本句的「damage the project's prospects of success」指「損害前景」。",
+        "damage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-30"
     },
@@ -3731,10 +3515,8 @@ export default {
       "masked": "Poor results ____ his chances of promotion.",
       "options": [
         "damage-mcq-30",
-        "damage-mcq-29",
-        "damage-mcq-31",
-        "damage-mcq-28",
-        "damage-mcq-32",
+        "damage-mcq-60",
+        "damage-mcq-40",
         "damage-mcq-27"
       ],
       "explanation": "本句的「damaged」指「損害前景」。",
@@ -3744,12 +3526,10 @@ export default {
         "damaged"
       ],
       "optionReasons": {
-        "damage-mcq-30": "本句指「損害前景」。",
-        "damage-mcq-29": "「損害聲譽」與本句語境不同。",
-        "damage-mcq-31": "「損害職業生涯」與本句語境不同。",
-        "damage-mcq-28": "「損害可信度」與本句語境不同。",
-        "damage-mcq-32": "「聲譽損害」與本句語境不同。",
-        "damage-mcq-27": "「打擊信心」與本句語境不同。"
+        "damage-mcq-30": "本句的「damaged」指「損害前景」。",
+        "damage-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-30"
     },
@@ -3761,11 +3541,9 @@ export default {
       "masked": "Serious misconduct can ____.",
       "options": [
         "damage-mcq-31",
-        "damage-mcq-30",
-        "damage-mcq-32",
-        "damage-mcq-29",
-        "damage-mcq-33",
-        "damage-mcq-28"
+        "damage-mcq-62",
+        "damage-reviewed-13c47ebcfa",
+        "damage-mcq-39"
       ],
       "explanation": "本句的「damage someone's career」指「損害職業生涯」。",
       "sentenceIndex": 69,
@@ -3774,12 +3552,10 @@ export default {
         "damage someone's career"
       ],
       "optionReasons": {
-        "damage-mcq-31": "本句指「損害職業生涯」。",
-        "damage-mcq-30": "「損害前景」與本句語境不同。",
-        "damage-mcq-32": "「聲譽損害」與本句語境不同。",
-        "damage-mcq-29": "「損害聲譽」與本句語境不同。",
-        "damage-mcq-33": "「心理傷害」與本句語境不同。",
-        "damage-mcq-28": "「損害可信度」與本句語境不同。"
+        "damage-mcq-31": "本句的「damage someone's career」指「損害職業生涯」。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-31"
     },
@@ -3791,11 +3567,9 @@ export default {
       "masked": "The allegation ____ her career prospects.",
       "options": [
         "damage-mcq-31",
-        "damage-mcq-30",
-        "damage-mcq-32",
-        "damage-mcq-29",
-        "damage-mcq-33",
-        "damage-mcq-28"
+        "damage-mcq-59",
+        "damage-mcq-22",
+        "damage-mcq-41"
       ],
       "explanation": "本句的「damaged」指「損害職業生涯」。",
       "sentenceIndex": 70,
@@ -3804,12 +3578,10 @@ export default {
         "damaged"
       ],
       "optionReasons": {
-        "damage-mcq-31": "本句指「損害職業生涯」。",
-        "damage-mcq-30": "「損害前景」與本句語境不同。",
-        "damage-mcq-32": "「聲譽損害」與本句語境不同。",
-        "damage-mcq-29": "「損害聲譽」與本句語境不同。",
-        "damage-mcq-33": "「心理傷害」與本句語境不同。",
-        "damage-mcq-28": "「損害可信度」與本句語境不同。"
+        "damage-mcq-31": "本句的「damaged」指「損害職業生涯」。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-31"
     },
@@ -3821,11 +3593,9 @@ export default {
       "masked": "The incident caused significant ____.",
       "options": [
         "damage-mcq-32",
-        "damage-mcq-31",
-        "damage-mcq-33",
-        "damage-mcq-30",
-        "damage-mcq-34",
-        "damage-mcq-29"
+        "damage-pdf-006",
+        "damage-mcq-60",
+        "damage-mcq-39"
       ],
       "explanation": "本句的「reputational damage」指「聲譽損害」。",
       "sentenceIndex": 71,
@@ -3834,12 +3604,10 @@ export default {
         "reputational damage"
       ],
       "optionReasons": {
-        "damage-mcq-32": "本句指「聲譽損害」。",
-        "damage-mcq-31": "「損害職業生涯」與本句語境不同。",
-        "damage-mcq-33": "「心理傷害」與本句語境不同。",
-        "damage-mcq-30": "「損害前景」與本句語境不同。",
-        "damage-mcq-34": "「情感傷害」與本句語境不同。",
-        "damage-mcq-29": "「損害聲譽」與本句語境不同。"
+        "damage-mcq-32": "本句的「reputational damage」指「聲譽損害」。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-32"
     },
@@ -3851,11 +3619,9 @@ export default {
       "masked": "Companies often act quickly to limit reputational ____.",
       "options": [
         "damage-mcq-32",
-        "damage-mcq-31",
-        "damage-mcq-33",
-        "damage-mcq-30",
-        "damage-mcq-34",
-        "damage-mcq-29"
+        "damage-mcq-60",
+        "damage-mcq-23",
+        "damage-mcq-26"
       ],
       "explanation": "本句的「damage」指「聲譽損害」。",
       "sentenceIndex": 72,
@@ -3864,12 +3630,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-32": "本句指「聲譽損害」。",
-        "damage-mcq-31": "「損害職業生涯」與本句語境不同。",
-        "damage-mcq-33": "「心理傷害」與本句語境不同。",
-        "damage-mcq-30": "「損害前景」與本句語境不同。",
-        "damage-mcq-34": "「情感傷害」與本句語境不同。",
-        "damage-mcq-29": "「損害聲譽」與本句語境不同。"
+        "damage-mcq-32": "本句的「damage」指「聲譽損害」。",
+        "damage-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-32"
     },
@@ -3881,11 +3645,9 @@ export default {
       "masked": "The organisation suffered serious ____.",
       "options": [
         "damage-mcq-32",
-        "damage-mcq-31",
-        "damage-mcq-33",
-        "damage-mcq-30",
-        "damage-mcq-34",
-        "damage-mcq-29"
+        "damage-mcq-62",
+        "damage-mcq-22",
+        "damage-pdf-006"
       ],
       "explanation": "本句的「damage to its reputation」指「聲譽損害」。",
       "sentenceIndex": 73,
@@ -3894,12 +3656,10 @@ export default {
         "damage to its reputation"
       ],
       "optionReasons": {
-        "damage-mcq-32": "本句指「聲譽損害」。",
-        "damage-mcq-31": "「損害職業生涯」與本句語境不同。",
-        "damage-mcq-33": "「心理傷害」與本句語境不同。",
-        "damage-mcq-30": "「損害前景」與本句語境不同。",
-        "damage-mcq-34": "「情感傷害」與本句語境不同。",
-        "damage-mcq-29": "「損害聲譽」與本句語境不同。"
+        "damage-mcq-32": "本句的「damage to its reputation」指「聲譽損害」。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-32"
     },
@@ -3911,11 +3671,9 @@ export default {
       "masked": "____ to reputation may affect future business.",
       "options": [
         "damage-mcq-32",
-        "damage-mcq-31",
-        "damage-mcq-33",
-        "damage-mcq-30",
-        "damage-mcq-34",
-        "damage-mcq-29"
+        "damage-mcq-26",
+        "damage-mcq-40",
+        "damage-mcq-39"
       ],
       "explanation": "本句的「Damage」指「聲譽損害」。",
       "sentenceIndex": 74,
@@ -3924,12 +3682,10 @@ export default {
         "Damage"
       ],
       "optionReasons": {
-        "damage-mcq-32": "本句指「聲譽損害」。",
-        "damage-mcq-31": "「損害職業生涯」與本句語境不同。",
-        "damage-mcq-33": "「心理傷害」與本句語境不同。",
-        "damage-mcq-30": "「損害前景」與本句語境不同。",
-        "damage-mcq-34": "「情感傷害」與本句語境不同。",
-        "damage-mcq-29": "「損害聲譽」與本句語境不同。"
+        "damage-mcq-32": "本句的「Damage」指「聲譽損害」。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-32"
     },
@@ -3941,11 +3697,9 @@ export default {
       "masked": "Long-term bullying can cause ____.",
       "options": [
         "damage-mcq-33",
-        "damage-mcq-32",
-        "damage-mcq-34",
-        "damage-mcq-31",
-        "damage-mcq-35",
-        "damage-mcq-30"
+        "damage-reviewed-48ae888ace",
+        "damage-mcq-59",
+        "damage-mcq-43"
       ],
       "explanation": "本句的「psychological damage」指「心理傷害」。",
       "sentenceIndex": 75,
@@ -3954,12 +3708,10 @@ export default {
         "psychological damage"
       ],
       "optionReasons": {
-        "damage-mcq-33": "本句指「心理傷害」。",
-        "damage-mcq-32": "「聲譽損害」與本句語境不同。",
-        "damage-mcq-34": "「情感傷害」與本句語境不同。",
-        "damage-mcq-31": "「損害職業生涯」與本句語境不同。",
-        "damage-mcq-35": "「有害的；破壞性的」與本句語境不同。",
-        "damage-mcq-30": "「損害前景」與本句語境不同。"
+        "damage-mcq-33": "本句的「psychological damage」指「心理傷害」。",
+        "damage-reviewed-48ae888ace": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-33"
     },
@@ -3971,11 +3723,9 @@ export default {
       "masked": "The experience left lasting psychological ____.",
       "options": [
         "damage-mcq-33",
-        "damage-mcq-32",
-        "damage-mcq-34",
-        "damage-mcq-31",
-        "damage-mcq-35",
-        "damage-mcq-30"
+        "damage-mcq-44",
+        "damage-mcq-41",
+        "damage-mcq-59"
       ],
       "explanation": "本句的「damage」指「心理傷害」。",
       "sentenceIndex": 76,
@@ -3984,12 +3734,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-33": "本句指「心理傷害」。",
-        "damage-mcq-32": "「聲譽損害」與本句語境不同。",
-        "damage-mcq-34": "「情感傷害」與本句語境不同。",
-        "damage-mcq-31": "「損害職業生涯」與本句語境不同。",
-        "damage-mcq-35": "「有害的；破壞性的」與本句語境不同。",
-        "damage-mcq-30": "「損害前景」與本句語境不同。"
+        "damage-mcq-33": "本句的「damage」指「心理傷害」。",
+        "damage-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-33"
     },
@@ -4001,11 +3749,9 @@ export default {
       "masked": "The conflict caused significant ____.",
       "options": [
         "damage-mcq-34",
-        "damage-mcq-33",
-        "damage-mcq-35",
-        "damage-mcq-32",
-        "damage-mcq-36",
-        "damage-mcq-31"
+        "damage-mcq-61",
+        "damage-reviewed-13c47ebcfa",
+        "damage-reviewed-876c49d6ee"
       ],
       "explanation": "本句的「emotional damage」指「情感傷害」。",
       "sentenceIndex": 77,
@@ -4014,12 +3760,10 @@ export default {
         "emotional damage"
       ],
       "optionReasons": {
-        "damage-mcq-34": "本句指「情感傷害」。",
-        "damage-mcq-33": "「心理傷害」與本句語境不同。",
-        "damage-mcq-35": "「有害的；破壞性的」與本句語境不同。",
-        "damage-mcq-32": "「聲譽損害」與本句語境不同。",
-        "damage-mcq-36": "「對 X 有害」與本句語境不同。",
-        "damage-mcq-31": "「損害職業生涯」與本句語境不同。"
+        "damage-mcq-34": "本句的「emotional damage」指「情感傷害」。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-876c49d6ee": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-34"
     },
@@ -4031,11 +3775,9 @@ export default {
       "masked": "Hurtful remarks can do emotional ____.",
       "options": [
         "damage-mcq-34",
-        "damage-mcq-33",
-        "damage-mcq-35",
-        "damage-mcq-32",
-        "damage-mcq-36",
-        "damage-mcq-31"
+        "damage-mcq-61",
+        "damage-pdf-003",
+        "damage-mcq-13"
       ],
       "explanation": "本句的「damage」指「情感傷害」。",
       "sentenceIndex": 78,
@@ -4044,12 +3786,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-34": "本句指「情感傷害」。",
-        "damage-mcq-33": "「心理傷害」與本句語境不同。",
-        "damage-mcq-35": "「有害的；破壞性的」與本句語境不同。",
-        "damage-mcq-32": "「聲譽損害」與本句語境不同。",
-        "damage-mcq-36": "「對 X 有害」與本句語境不同。",
-        "damage-mcq-31": "「損害職業生涯」與本句語境不同。"
+        "damage-mcq-34": "本句的「damage」指「情感傷害」。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-34"
     },
@@ -4061,11 +3801,9 @@ export default {
       "masked": "Such conflict is professionally ____.",
       "options": [
         "damage-pdf-003",
-        "damage-mcq-34",
-        "damage-mcq-36",
-        "damage-mcq-33",
-        "damage-mcq-37",
-        "damage-mcq-32"
+        "damage-reviewed-595a28a706",
+        "damage-mcq-58",
+        "damage-mcq-37"
       ],
       "explanation": "本句的「damaging」指「會令某人、某事物或某種關係變差、變弱或受損的」。",
       "sentenceIndex": 79,
@@ -4074,12 +3812,10 @@ export default {
         "damaging"
       ],
       "optionReasons": {
-        "damage-pdf-003": "本句指「會令某人、某事物或某種關係變差、變弱或受損的」。",
-        "damage-mcq-34": "「情感傷害」與本句語境不同。",
-        "damage-mcq-36": "「對 X 有害」與本句語境不同。",
-        "damage-mcq-33": "「心理傷害」與本句語境不同。",
-        "damage-mcq-37": "「對專業／職業有害」與本句語境不同。",
-        "damage-mcq-32": "「聲譽損害」與本句語境不同。"
+        "damage-pdf-003": "本句的「damaging」指「會令某人、某事物或某種關係變差、變弱或受損的」。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-pdf-003"
     },
@@ -4091,11 +3827,9 @@ export default {
       "masked": "Constant blame is ____ to teamwork.",
       "options": [
         "damage-pdf-003",
-        "damage-mcq-34",
+        "damage-reviewed-595a28a706",
         "damage-mcq-36",
-        "damage-mcq-33",
-        "damage-mcq-37",
-        "damage-mcq-32"
+        "damage-mcq-62"
       ],
       "explanation": "本句的「damaging」指「會令某人、某事物或某種關係變差、變弱或受損的」。",
       "sentenceIndex": 80,
@@ -4104,12 +3838,10 @@ export default {
         "damaging"
       ],
       "optionReasons": {
-        "damage-pdf-003": "本句指「會令某人、某事物或某種關係變差、變弱或受損的」。",
-        "damage-mcq-34": "「情感傷害」與本句語境不同。",
-        "damage-mcq-36": "「對 X 有害」與本句語境不同。",
-        "damage-mcq-33": "「心理傷害」與本句語境不同。",
-        "damage-mcq-37": "「對專業／職業有害」與本句語境不同。",
-        "damage-mcq-32": "「聲譽損害」與本句語境不同。"
+        "damage-pdf-003": "本句的「damaging」指「會令某人、某事物或某種關係變差、變弱或受損的」。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-pdf-003"
     },
@@ -4121,11 +3853,9 @@ export default {
       "masked": "Poor communication can be ____ to trust.",
       "options": [
         "damage-pdf-003",
-        "damage-mcq-34",
         "damage-mcq-36",
-        "damage-mcq-33",
-        "damage-mcq-37",
-        "damage-mcq-32"
+        "damage-mcq-39",
+        "damage-mcq-58"
       ],
       "explanation": "本句的「damaging」指「會令某人、某事物或某種關係變差、變弱或受損的」。",
       "sentenceIndex": 81,
@@ -4134,12 +3864,10 @@ export default {
         "damaging"
       ],
       "optionReasons": {
-        "damage-pdf-003": "本句指「會令某人、某事物或某種關係變差、變弱或受損的」。",
-        "damage-mcq-34": "「情感傷害」與本句語境不同。",
-        "damage-mcq-36": "「對 X 有害」與本句語境不同。",
-        "damage-mcq-33": "「心理傷害」與本句語境不同。",
-        "damage-mcq-37": "「對專業／職業有害」與本句語境不同。",
-        "damage-mcq-32": "「聲譽損害」與本句語境不同。"
+        "damage-pdf-003": "本句的「damaging」指「會令某人、某事物或某種關係變差、變弱或受損的」。",
+        "damage-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-pdf-003"
     },
@@ -4151,11 +3879,9 @@ export default {
       "masked": "The behaviour is ____.",
       "options": [
         "damage-mcq-36",
-        "damage-mcq-35",
-        "damage-mcq-37",
-        "damage-mcq-34",
-        "damage-mcq-38",
-        "damage-mcq-33"
+        "damage-mcq-24",
+        "damage-mcq-19",
+        "damage-mcq-58"
       ],
       "explanation": "本句的「damaging to morale」指「對 X 有害」。",
       "sentenceIndex": 82,
@@ -4164,12 +3890,10 @@ export default {
         "damaging to morale"
       ],
       "optionReasons": {
-        "damage-mcq-36": "本句指「對 X 有害」。",
-        "damage-mcq-35": "「有害的；破壞性的」與本句語境不同。",
-        "damage-mcq-37": "「對專業／職業有害」與本句語境不同。",
-        "damage-mcq-34": "「情感傷害」與本句語境不同。",
-        "damage-mcq-38": "「造成財務損害的」與本句語境不同。",
-        "damage-mcq-33": "「心理傷害」與本句語境不同。"
+        "damage-mcq-36": "本句的「damaging to morale」指「對 X 有害」。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-36"
     },
@@ -4181,11 +3905,9 @@ export default {
       "masked": "Excessive conflict can be ____ to productivity.",
       "options": [
         "damage-mcq-36",
-        "damage-mcq-35",
-        "damage-mcq-37",
-        "damage-mcq-34",
-        "damage-mcq-38",
-        "damage-mcq-33"
+        "damage-mcq-18",
+        "damage-mcq-22",
+        "damage-mcq-19"
       ],
       "explanation": "本句的「damaging」指「對 X 有害」。",
       "sentenceIndex": 83,
@@ -4194,12 +3916,10 @@ export default {
         "damaging"
       ],
       "optionReasons": {
-        "damage-mcq-36": "本句指「對 X 有害」。",
-        "damage-mcq-35": "「有害的；破壞性的」與本句語境不同。",
-        "damage-mcq-37": "「對專業／職業有害」與本句語境不同。",
-        "damage-mcq-34": "「情感傷害」與本句語境不同。",
-        "damage-mcq-38": "「造成財務損害的」與本句語境不同。",
-        "damage-mcq-33": "「心理傷害」與本句語境不同。"
+        "damage-mcq-36": "本句的「damaging」指「對 X 有害」。",
+        "damage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-36"
     },
@@ -4211,11 +3931,9 @@ export default {
       "masked": "Publicly insulting a colleague can be ____.",
       "options": [
         "damage-mcq-37",
-        "damage-mcq-36",
-        "damage-mcq-38",
-        "damage-mcq-35",
-        "damage-mcq-39",
-        "damage-mcq-34"
+        "damage-mcq-44",
+        "damage-mcq-57",
+        "damage-reviewed-48ae888ace"
       ],
       "explanation": "本句的「professionally damaging」指「對專業／職業有害」。",
       "sentenceIndex": 84,
@@ -4224,12 +3942,10 @@ export default {
         "professionally damaging"
       ],
       "optionReasons": {
-        "damage-mcq-37": "本句指「對專業／職業有害」。",
-        "damage-mcq-36": "「對 X 有害」與本句語境不同。",
-        "damage-mcq-38": "「造成財務損害的」與本句語境不同。",
-        "damage-mcq-35": "「有害的；破壞性的」與本句語境不同。",
-        "damage-mcq-39": "「破壞環境的」與本句語境不同。",
-        "damage-mcq-34": "「情感傷害」與本句語境不同。"
+        "damage-mcq-37": "本句的「professionally damaging」指「對專業／職業有害」。",
+        "damage-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-48ae888ace": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-37"
     },
@@ -4241,11 +3957,9 @@ export default {
       "masked": "Repeated conflict can be professionally ____ for everyone involved.",
       "options": [
         "damage-mcq-37",
-        "damage-mcq-36",
-        "damage-mcq-38",
-        "damage-mcq-35",
-        "damage-mcq-39",
-        "damage-mcq-34"
+        "damage-reviewed-595a28a706",
+        "damage-mcq-62",
+        "damage-pdf-003"
       ],
       "explanation": "本句的「damaging」指「對專業／職業有害」。",
       "sentenceIndex": 85,
@@ -4254,12 +3968,10 @@ export default {
         "damaging"
       ],
       "optionReasons": {
-        "damage-mcq-37": "本句指「對專業／職業有害」。",
-        "damage-mcq-36": "「對 X 有害」與本句語境不同。",
-        "damage-mcq-38": "「造成財務損害的」與本句語境不同。",
-        "damage-mcq-35": "「有害的；破壞性的」與本句語境不同。",
-        "damage-mcq-39": "「破壞環境的」與本句語境不同。",
-        "damage-mcq-34": "「情感傷害」與本句語境不同。"
+        "damage-mcq-37": "本句的「damaging」指「對專業／職業有害」。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-37"
     },
@@ -4271,11 +3983,9 @@ export default {
       "masked": "The delay was ____.",
       "options": [
         "damage-mcq-38",
-        "damage-mcq-37",
-        "damage-mcq-39",
-        "damage-mcq-36",
-        "damage-mcq-40",
-        "damage-mcq-35"
+        "damage-pdf-006",
+        "damage-mcq-24",
+        "damage-mcq-41"
       ],
       "explanation": "本句的「financially damaging」指「造成財務損害的」。",
       "sentenceIndex": 86,
@@ -4284,12 +3994,10 @@ export default {
         "financially damaging"
       ],
       "optionReasons": {
-        "damage-mcq-38": "本句指「造成財務損害的」。",
-        "damage-mcq-37": "「對專業／職業有害」與本句語境不同。",
-        "damage-mcq-39": "「破壞環境的」與本句語境不同。",
-        "damage-mcq-36": "「對 X 有害」與本句語境不同。",
-        "damage-mcq-40": "「不利證據」與本句語境不同。",
-        "damage-mcq-35": "「有害的；破壞性的」與本句語境不同。"
+        "damage-mcq-38": "本句的「financially damaging」指「造成財務損害的」。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-38"
     },
@@ -4301,11 +4009,9 @@ export default {
       "masked": "Poor decisions can be financially ____ to a small firm.",
       "options": [
         "damage-mcq-38",
-        "damage-mcq-37",
-        "damage-mcq-39",
-        "damage-mcq-36",
         "damage-mcq-40",
-        "damage-mcq-35"
+        "damage-mcq-64",
+        "damage-mcq-22"
       ],
       "explanation": "本句的「damaging」指「造成財務損害的」。",
       "sentenceIndex": 87,
@@ -4314,12 +4020,10 @@ export default {
         "damaging"
       ],
       "optionReasons": {
-        "damage-mcq-38": "本句指「造成財務損害的」。",
-        "damage-mcq-37": "「對專業／職業有害」與本句語境不同。",
-        "damage-mcq-39": "「破壞環境的」與本句語境不同。",
-        "damage-mcq-36": "「對 X 有害」與本句語境不同。",
-        "damage-mcq-40": "「不利證據」與本句語境不同。",
-        "damage-mcq-35": "「有害的；破壞性的」與本句語境不同。"
+        "damage-mcq-38": "本句的「damaging」指「造成財務損害的」。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-38"
     },
@@ -4331,11 +4035,9 @@ export default {
       "masked": "The process is ____.",
       "options": [
         "damage-mcq-39",
-        "damage-mcq-38",
-        "damage-mcq-40",
-        "damage-mcq-37",
-        "damage-mcq-41",
-        "damage-mcq-36"
+        "damage-mcq-27",
+        "damage-reviewed-876c49d6ee",
+        "damage-mcq-28"
       ],
       "explanation": "本句的「environmentally damaging」指「破壞環境的」。",
       "sentenceIndex": 88,
@@ -4344,12 +4046,10 @@ export default {
         "environmentally damaging"
       ],
       "optionReasons": {
-        "damage-mcq-39": "本句指「破壞環境的」。",
-        "damage-mcq-38": "「造成財務損害的」與本句語境不同。",
-        "damage-mcq-40": "「不利證據」與本句語境不同。",
-        "damage-mcq-37": "「對專業／職業有害」與本句語境不同。",
-        "damage-mcq-41": "「嚴重不利指控」與本句語境不同。",
-        "damage-mcq-36": "「對 X 有害」與本句語境不同。"
+        "damage-mcq-39": "本句的「environmentally damaging」指「破壞環境的」。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-876c49d6ee": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-39"
     },
@@ -4361,11 +4061,9 @@ export default {
       "masked": "The company replaced environmentally ____ materials.",
       "options": [
         "damage-mcq-39",
-        "damage-mcq-38",
-        "damage-mcq-40",
-        "damage-mcq-37",
-        "damage-mcq-41",
-        "damage-mcq-36"
+        "damage-mcq-07",
+        "damage-mcq-46",
+        "damage-mcq-68"
       ],
       "explanation": "本句的「damaging」指「破壞環境的」。",
       "sentenceIndex": 89,
@@ -4374,12 +4072,10 @@ export default {
         "damaging"
       ],
       "optionReasons": {
-        "damage-mcq-39": "本句指「破壞環境的」。",
-        "damage-mcq-38": "「造成財務損害的」與本句語境不同。",
-        "damage-mcq-40": "「不利證據」與本句語境不同。",
-        "damage-mcq-37": "「對專業／職業有害」與本句語境不同。",
-        "damage-mcq-41": "「嚴重不利指控」與本句語境不同。",
-        "damage-mcq-36": "「對 X 有害」與本句語境不同。"
+        "damage-mcq-39": "本句的「damaging」指「破壞環境的」。",
+        "damage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-39"
     },
@@ -4391,11 +4087,9 @@ export default {
       "masked": "The investigation uncovered ____.",
       "options": [
         "damage-mcq-40",
-        "damage-mcq-39",
-        "damage-mcq-41",
-        "damage-mcq-38",
-        "damage-mcq-42",
-        "damage-mcq-37"
+        "damage-mcq-15",
+        "damage-mcq-24",
+        "damage-mcq-64"
       ],
       "explanation": "本句的「damaging evidence」指「不利證據」。",
       "sentenceIndex": 90,
@@ -4404,12 +4098,10 @@ export default {
         "damaging evidence"
       ],
       "optionReasons": {
-        "damage-mcq-40": "本句指「不利證據」。",
-        "damage-mcq-39": "「破壞環境的」與本句語境不同。",
-        "damage-mcq-41": "「嚴重不利指控」與本句語境不同。",
-        "damage-mcq-38": "「造成財務損害的」與本句語境不同。",
-        "damage-mcq-42": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-37": "「對專業／職業有害」與本句語境不同。"
+        "damage-mcq-40": "本句的「damaging evidence」指「不利證據」。",
+        "damage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-40"
     },
@@ -4421,11 +4113,9 @@ export default {
       "masked": "The ____ evidence weakened his defence.",
       "options": [
         "damage-mcq-40",
-        "damage-mcq-39",
-        "damage-mcq-41",
-        "damage-mcq-38",
-        "damage-mcq-42",
-        "damage-mcq-37"
+        "damage-mcq-26",
+        "damage-mcq-43",
+        "damage-mcq-14"
       ],
       "explanation": "本句的「damaging」指「不利證據」。",
       "sentenceIndex": 91,
@@ -4434,12 +4124,10 @@ export default {
         "damaging"
       ],
       "optionReasons": {
-        "damage-mcq-40": "本句指「不利證據」。",
-        "damage-mcq-39": "「破壞環境的」與本句語境不同。",
-        "damage-mcq-41": "「嚴重不利指控」與本句語境不同。",
-        "damage-mcq-38": "「造成財務損害的」與本句語境不同。",
-        "damage-mcq-42": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-37": "「對專業／職業有害」與本句語境不同。"
+        "damage-mcq-40": "本句的「damaging」指「不利證據」。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-40"
     },
@@ -4451,11 +4139,9 @@ export default {
       "masked": "The report contained several ____.",
       "options": [
         "damage-mcq-41",
-        "damage-mcq-40",
-        "damage-mcq-42",
-        "damage-mcq-39",
-        "damage-mcq-43",
-        "damage-mcq-38"
+        "damage-mcq-02",
+        "damage-mcq-64",
+        "damage-mcq-44"
       ],
       "explanation": "本句的「damaging allegations」指「嚴重不利指控」。",
       "sentenceIndex": 92,
@@ -4464,12 +4150,10 @@ export default {
         "damaging allegations"
       ],
       "optionReasons": {
-        "damage-mcq-41": "本句指「嚴重不利指控」。",
-        "damage-mcq-40": "「不利證據」與本句語境不同。",
-        "damage-mcq-42": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-39": "「破壞環境的」與本句語境不同。",
-        "damage-mcq-43": "「嚴重受損」與本句語境不同。",
-        "damage-mcq-38": "「造成財務損害的」與本句語境不同。"
+        "damage-mcq-41": "本句的「damaging allegations」指「嚴重不利指控」。",
+        "damage-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-41"
     },
@@ -4481,11 +4165,9 @@ export default {
       "masked": "____ allegations can affect a person's reputation even before they are resolved.",
       "options": [
         "damage-mcq-41",
-        "damage-mcq-40",
-        "damage-mcq-42",
-        "damage-mcq-39",
-        "damage-mcq-43",
-        "damage-mcq-38"
+        "damage-mcq-07",
+        "damage-mcq-19",
+        "damage-mcq-24"
       ],
       "explanation": "本句的「Damaging」指「嚴重不利指控」。",
       "sentenceIndex": 93,
@@ -4494,134 +4176,124 @@ export default {
         "Damaging"
       ],
       "optionReasons": {
-        "damage-mcq-41": "本句指「嚴重不利指控」。",
-        "damage-mcq-40": "「不利證據」與本句語境不同。",
-        "damage-mcq-42": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-39": "「破壞環境的」與本句語境不同。",
-        "damage-mcq-43": "「嚴重受損」與本句語境不同。",
-        "damage-mcq-38": "「造成財務損害的」與本句語境不同。"
+        "damage-mcq-41": "本句的「Damaging」指「嚴重不利指控」。",
+        "damage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-41"
     },
     {
       "id": "damage-47-0",
-      "sense": "damage-mcq-41",
+      "sense": "damage-reviewed-13c47ebcfa",
       "en": "The organisation faced damaging criticism.",
       "zh": "機構受到嚴重有損形象的批評。",
       "masked": "The organisation faced ____.",
       "options": [
-        "damage-mcq-41",
-        "damage-mcq-40",
-        "damage-mcq-42",
-        "damage-mcq-39",
-        "damage-mcq-43",
-        "damage-mcq-38"
+        "damage-reviewed-13c47ebcfa",
+        "damage-mcq-68",
+        "damage-mcq-32",
+        "damage-mcq-46"
       ],
-      "explanation": "本句的「damaging criticism」指「嚴重不利指控」。",
+      "explanation": "對照完整句子：「機構受到嚴重有損形象的批評。」。這裡的「damaging criticism」表示「造成負面影響的批評」。",
       "sentenceIndex": 94,
       "sourcePractice": 1,
       "targets": [
         "damaging criticism"
       ],
       "optionReasons": {
-        "damage-mcq-41": "本句指「嚴重不利指控」。",
-        "damage-mcq-40": "「不利證據」與本句語境不同。",
-        "damage-mcq-42": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-39": "「破壞環境的」與本句語境不同。",
-        "damage-mcq-43": "「嚴重受損」與本句語境不同。",
-        "damage-mcq-38": "「造成財務損害的」與本句語境不同。"
+        "damage-reviewed-13c47ebcfa": "對照完整句子：「機構受到嚴重有損形象的批評。」。這裡的「damaging criticism」表示「造成負面影響的批評」。",
+        "damage-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "damage-mcq-41"
+      "correctOption": "damage-reviewed-13c47ebcfa",
+      "previousCorrectOption": "damage-mcq-41",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "damage-47-1",
-      "sense": "damage-mcq-41",
+      "sense": "damage-reviewed-13c47ebcfa",
       "en": "Public criticism proved damaging to morale.",
       "zh": "公開批評對士氣造成了負面損害。",
       "masked": "Public criticism proved ____ to morale.",
       "options": [
-        "damage-mcq-41",
-        "damage-mcq-40",
-        "damage-mcq-42",
-        "damage-mcq-39",
-        "damage-mcq-43",
-        "damage-mcq-38"
+        "damage-reviewed-13c47ebcfa",
+        "damage-mcq-18",
+        "damage-mcq-69",
+        "damage-pdf-006"
       ],
-      "explanation": "本句的「damaging」指「嚴重不利指控」。",
+      "explanation": "對照完整句子：「公開批評對士氣造成了負面損害。」。這裡的「damaging」表示「造成負面影響的批評」。",
       "sentenceIndex": 95,
       "sourcePractice": 2,
       "targets": [
         "damaging"
       ],
       "optionReasons": {
-        "damage-mcq-41": "本句指「嚴重不利指控」。",
-        "damage-mcq-40": "「不利證據」與本句語境不同。",
-        "damage-mcq-42": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-39": "「破壞環境的」與本句語境不同。",
-        "damage-mcq-43": "「嚴重受損」與本句語境不同。",
-        "damage-mcq-38": "「造成財務損害的」與本句語境不同。"
+        "damage-reviewed-13c47ebcfa": "對照完整句子：「公開批評對士氣造成了負面損害。」。這裡的「damaging」表示「造成負面影響的批評」。",
+        "damage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "damage-mcq-41"
+      "correctOption": "damage-reviewed-13c47ebcfa",
+      "previousCorrectOption": "damage-mcq-41",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "damage-48-0",
-      "sense": "damage-mcq-41",
+      "sense": "damage-reviewed-595a28a706",
       "en": "The newspaper published a damaging disclosure.",
       "zh": "報章刊登了一項對相關人士十分不利的揭露。",
       "masked": "The newspaper published a ____.",
       "options": [
-        "damage-mcq-41",
-        "damage-mcq-40",
-        "damage-mcq-42",
-        "damage-mcq-39",
-        "damage-mcq-43",
-        "damage-mcq-38"
+        "damage-reviewed-595a28a706",
+        "damage-mcq-11",
+        "damage-reviewed-48ae888ace",
+        "damage-mcq-66"
       ],
-      "explanation": "本句的「damaging disclosure」指「嚴重不利指控」。",
+      "explanation": "對照完整句子：「報章刊登了一項對相關人士十分不利的揭露。」。這裡的「damaging disclosure」表示「具破壞性的披露／揭露」。",
       "sentenceIndex": 96,
       "sourcePractice": 1,
       "targets": [
         "damaging disclosure"
       ],
       "optionReasons": {
-        "damage-mcq-41": "本句指「嚴重不利指控」。",
-        "damage-mcq-40": "「不利證據」與本句語境不同。",
-        "damage-mcq-42": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-39": "「破壞環境的」與本句語境不同。",
-        "damage-mcq-43": "「嚴重受損」與本句語境不同。",
-        "damage-mcq-38": "「造成財務損害的」與本句語境不同。"
+        "damage-reviewed-595a28a706": "對照完整句子：「報章刊登了一項對相關人士十分不利的揭露。」。這裡的「damaging disclosure」表示「具破壞性的披露／揭露」。",
+        "damage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-48ae888ace": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "damage-mcq-41"
+      "correctOption": "damage-reviewed-595a28a706",
+      "previousCorrectOption": "damage-mcq-41",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "damage-48-1",
-      "sense": "damage-mcq-41",
+      "sense": "damage-reviewed-595a28a706",
       "en": "The revelation was highly damaging to the organisation's reputation.",
       "zh": "該揭露對機構聲譽造成嚴重損害。",
       "masked": "The revelation was highly ____ to the organisation's reputation.",
       "options": [
-        "damage-mcq-41",
+        "damage-reviewed-595a28a706",
         "damage-mcq-40",
-        "damage-mcq-42",
-        "damage-mcq-39",
-        "damage-mcq-43",
-        "damage-mcq-38"
+        "damage-mcq-49",
+        "damage-mcq-57"
       ],
-      "explanation": "本句的「damaging」指「嚴重不利指控」。",
+      "explanation": "對照完整句子：「該揭露對機構聲譽造成嚴重損害。」。這裡的「damaging」表示「具破壞性的披露／揭露」。",
       "sentenceIndex": 97,
       "sourcePractice": 2,
       "targets": [
         "damaging"
       ],
       "optionReasons": {
-        "damage-mcq-41": "本句指「嚴重不利指控」。",
-        "damage-mcq-40": "「不利證據」與本句語境不同。",
-        "damage-mcq-42": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-39": "「破壞環境的」與本句語境不同。",
-        "damage-mcq-43": "「嚴重受損」與本句語境不同。",
-        "damage-mcq-38": "「造成財務損害的」與本句語境不同。"
+        "damage-reviewed-595a28a706": "對照完整句子：「該揭露對機構聲譽造成嚴重損害。」。這裡的「damaging」表示「具破壞性的披露／揭露」。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "damage-mcq-41"
+      "correctOption": "damage-reviewed-595a28a706",
+      "previousCorrectOption": "damage-mcq-41",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "damage-50-0",
@@ -4631,11 +4303,9 @@ export default {
       "masked": "The storm ____ the roof.",
       "options": [
         "damage-mcq-08",
-        "damage-mcq-07",
-        "damage-mcq-09",
-        "damage-mcq-06",
-        "damage-mcq-10",
-        "damage-mcq-05"
+        "damage-mcq-22",
+        "damage-mcq-59",
+        "damage-mcq-26"
       ],
       "explanation": "本句的「badly damaged」指「嚴重損害」。",
       "sentenceIndex": 99,
@@ -4644,12 +4314,10 @@ export default {
         "badly damaged"
       ],
       "optionReasons": {
-        "damage-mcq-08": "本句指「嚴重損害」。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。",
-        "damage-mcq-09": "「大範圍損害」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-10": "「永久損害」與本句語境不同。",
-        "damage-mcq-05": "「遭受損害」與本句語境不同。"
+        "damage-mcq-08": "本句的「badly damaged」指「嚴重損害」。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-08"
     },
@@ -4661,11 +4329,9 @@ export default {
       "masked": "The dispute seriously ____ trust.",
       "options": [
         "damage-mcq-08",
-        "damage-mcq-07",
-        "damage-mcq-09",
-        "damage-mcq-06",
-        "damage-mcq-10",
-        "damage-mcq-05"
+        "damage-mcq-64",
+        "damage-mcq-27",
+        "damage-mcq-61"
       ],
       "explanation": "本句的「damaged」指「嚴重損害」。",
       "sentenceIndex": 100,
@@ -4674,12 +4340,10 @@ export default {
         "damaged"
       ],
       "optionReasons": {
-        "damage-mcq-08": "本句指「嚴重損害」。",
-        "damage-mcq-07": "「輕微損害」與本句語境不同。",
-        "damage-mcq-09": "「大範圍損害」與本句語境不同。",
-        "damage-mcq-06": "「造成／施加損害」與本句語境不同。",
-        "damage-mcq-10": "「永久損害」與本句語境不同。",
-        "damage-mcq-05": "「遭受損害」與本句語境不同。"
+        "damage-mcq-08": "本句的「damaged」指「嚴重損害」。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-08"
     },
@@ -4691,11 +4355,9 @@ export default {
       "masked": "The machine was only ____.",
       "options": [
         "damage-mcq-43",
-        "damage-mcq-42",
-        "damage-mcq-44",
-        "damage-mcq-41",
-        "damage-mcq-45",
-        "damage-mcq-40"
+        "damage-pdf-006",
+        "damage-pdf-004",
+        "damage-mcq-59"
       ],
       "explanation": "本句的「partially damaged」指「嚴重受損」。",
       "sentenceIndex": 101,
@@ -4704,12 +4366,10 @@ export default {
         "partially damaged"
       ],
       "optionReasons": {
-        "damage-mcq-43": "本句指「嚴重受損」。",
-        "damage-mcq-42": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-44": "「損壞至無法修復」與本句語境不同。",
-        "damage-mcq-41": "「嚴重不利指控」與本句語境不同。",
-        "damage-mcq-45": "「受損的」與本句語境不同。",
-        "damage-mcq-40": "「不利證據」與本句語境不同。"
+        "damage-mcq-43": "本句的「partially damaged」指「嚴重受損」。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-43"
     },
@@ -4721,11 +4381,9 @@ export default {
       "masked": "Several files were partially ____.",
       "options": [
         "damage-mcq-43",
-        "damage-mcq-42",
-        "damage-mcq-44",
-        "damage-mcq-41",
-        "damage-mcq-45",
-        "damage-mcq-40"
+        "damage-mcq-60",
+        "damage-pdf-006",
+        "damage-reviewed-595a28a706"
       ],
       "explanation": "本句的「damaged」指「嚴重受損」。",
       "sentenceIndex": 102,
@@ -4734,12 +4392,10 @@ export default {
         "damaged"
       ],
       "optionReasons": {
-        "damage-mcq-43": "本句指「嚴重受損」。",
-        "damage-mcq-42": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-44": "「損壞至無法修復」與本句語境不同。",
-        "damage-mcq-41": "「嚴重不利指控」與本句語境不同。",
-        "damage-mcq-45": "「受損的」與本句語境不同。",
-        "damage-mcq-40": "「不利證據」與本句語境不同。"
+        "damage-mcq-43": "本句的「damaged」指「嚴重受損」。",
+        "damage-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-43"
     },
@@ -4751,11 +4407,9 @@ export default {
       "masked": "The device was ____.",
       "options": [
         "damage-mcq-44",
-        "damage-mcq-43",
-        "damage-mcq-45",
-        "damage-mcq-42",
-        "damage-mcq-46",
-        "damage-mcq-41"
+        "damage-mcq-33",
+        "damage-mcq-27",
+        "damage-mcq-40"
       ],
       "explanation": "本句的「damaged beyond repair」指「損壞至無法修復」。",
       "sentenceIndex": 103,
@@ -4764,12 +4418,10 @@ export default {
         "damaged beyond repair"
       ],
       "optionReasons": {
-        "damage-mcq-44": "本句指「損壞至無法修復」。",
-        "damage-mcq-43": "「嚴重受損」與本句語境不同。",
-        "damage-mcq-45": "「受損的」與本句語境不同。",
-        "damage-mcq-42": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-46": "「受損貨品」與本句語境不同。",
-        "damage-mcq-41": "「嚴重不利指控」與本句語境不同。"
+        "damage-mcq-44": "本句的「damaged beyond repair」指「損壞至無法修復」。",
+        "damage-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-44"
     },
@@ -4781,10 +4433,8 @@ export default {
       "masked": "Their relationship may have been ____ beyond repair.",
       "options": [
         "damage-mcq-44",
-        "damage-mcq-43",
-        "damage-mcq-45",
-        "damage-mcq-42",
-        "damage-mcq-46",
+        "damage-mcq-33",
+        "damage-mcq-61",
         "damage-mcq-41"
       ],
       "explanation": "本句的「damaged」指「損壞至無法修復」。",
@@ -4794,12 +4444,10 @@ export default {
         "damaged"
       ],
       "optionReasons": {
-        "damage-mcq-44": "本句指「損壞至無法修復」。",
-        "damage-mcq-43": "「嚴重受損」與本句語境不同。",
-        "damage-mcq-45": "「受損的」與本句語境不同。",
-        "damage-mcq-42": "「損害；破壞」與本句語境不同。",
-        "damage-mcq-46": "「受損貨品」與本句語境不同。",
-        "damage-mcq-41": "「嚴重不利指控」與本句語境不同。"
+        "damage-mcq-44": "本句的「damaged」指「損壞至無法修復」。",
+        "damage-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-44"
     },
@@ -4811,11 +4459,9 @@ export default {
       "masked": "Replace all ____.",
       "options": [
         "damage-mcq-45",
-        "damage-mcq-44",
-        "damage-mcq-46",
-        "damage-mcq-43",
-        "damage-mcq-47",
-        "damage-mcq-42"
+        "damage-mcq-23",
+        "damage-mcq-64",
+        "damage-mcq-57"
       ],
       "explanation": "本句的「damaged equipment」指「受損的」。",
       "sentenceIndex": 105,
@@ -4824,12 +4470,10 @@ export default {
         "damaged equipment"
       ],
       "optionReasons": {
-        "damage-mcq-45": "本句指「受損的」。",
-        "damage-mcq-44": "「損壞至無法修復」與本句語境不同。",
-        "damage-mcq-46": "「受損貨品」與本句語境不同。",
-        "damage-mcq-43": "「嚴重受損」與本句語境不同。",
-        "damage-mcq-47": "「未受損的」與本句語境不同。",
-        "damage-mcq-42": "「損害；破壞」與本句語境不同。"
+        "damage-mcq-45": "本句的「damaged equipment」指「受損的」。",
+        "damage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-45"
     },
@@ -4841,11 +4485,9 @@ export default {
       "masked": "____ files may not open correctly.",
       "options": [
         "damage-mcq-45",
-        "damage-mcq-44",
-        "damage-mcq-46",
-        "damage-mcq-43",
-        "damage-mcq-47",
-        "damage-mcq-42"
+        "damage-mcq-59",
+        "damage-mcq-40",
+        "damage-mcq-22"
       ],
       "explanation": "本句的「Damaged」指「受損的」。",
       "sentenceIndex": 106,
@@ -4854,12 +4496,10 @@ export default {
         "Damaged"
       ],
       "optionReasons": {
-        "damage-mcq-45": "本句指「受損的」。",
-        "damage-mcq-44": "「損壞至無法修復」與本句語境不同。",
-        "damage-mcq-46": "「受損貨品」與本句語境不同。",
-        "damage-mcq-43": "「嚴重受損」與本句語境不同。",
-        "damage-mcq-47": "「未受損的」與本句語境不同。",
-        "damage-mcq-42": "「損害；破壞」與本句語境不同。"
+        "damage-mcq-45": "本句的「Damaged」指「受損的」。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-45"
     },
@@ -4871,11 +4511,9 @@ export default {
       "masked": "The shop sells ____ at a discount.",
       "options": [
         "damage-mcq-46",
-        "damage-mcq-45",
-        "damage-mcq-47",
-        "damage-mcq-44",
-        "damage-mcq-48",
-        "damage-mcq-43"
+        "damage-mcq-36",
+        "damage-mcq-59",
+        "damage-pdf-006"
       ],
       "explanation": "本句的「damaged goods」指「受損貨品」。",
       "sentenceIndex": 107,
@@ -4884,12 +4522,10 @@ export default {
         "damaged goods"
       ],
       "optionReasons": {
-        "damage-mcq-46": "本句指「受損貨品」。",
-        "damage-mcq-45": "「受損的」與本句語境不同。",
-        "damage-mcq-47": "「未受損的」與本句語境不同。",
-        "damage-mcq-44": "「損壞至無法修復」與本句語境不同。",
-        "damage-mcq-48": "「防止損害」與本句語境不同。",
-        "damage-mcq-43": "「嚴重受損」與本句語境不同。"
+        "damage-mcq-46": "本句的「damaged goods」指「受損貨品」。",
+        "damage-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-46"
     },
@@ -4901,11 +4537,9 @@ export default {
       "masked": "____ goods should be recorded separately.",
       "options": [
         "damage-mcq-46",
-        "damage-mcq-45",
-        "damage-mcq-47",
-        "damage-mcq-44",
-        "damage-mcq-48",
-        "damage-mcq-43"
+        "damage-mcq-36",
+        "damage-mcq-22",
+        "damage-pdf-006"
       ],
       "explanation": "本句的「Damaged」指「受損貨品」。",
       "sentenceIndex": 108,
@@ -4914,12 +4548,10 @@ export default {
         "Damaged"
       ],
       "optionReasons": {
-        "damage-mcq-46": "本句指「受損貨品」。",
-        "damage-mcq-45": "「受損的」與本句語境不同。",
-        "damage-mcq-47": "「未受損的」與本句語境不同。",
-        "damage-mcq-44": "「損壞至無法修復」與本句語境不同。",
-        "damage-mcq-48": "「防止損害」與本句語境不同。",
-        "damage-mcq-43": "「嚴重受損」與本句語境不同。"
+        "damage-mcq-46": "本句的「Damaged」指「受損貨品」。",
+        "damage-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-46"
     },
@@ -4931,11 +4563,9 @@ export default {
       "masked": "Most of the equipment remained ____.",
       "options": [
         "damage-mcq-47",
-        "damage-mcq-46",
-        "damage-mcq-48",
-        "damage-mcq-45",
-        "damage-mcq-49",
-        "damage-mcq-44"
+        "damage-reviewed-13c47ebcfa",
+        "damage-mcq-27",
+        "damage-mcq-33"
       ],
       "explanation": "本句的「undamaged」指「未受損的」。",
       "sentenceIndex": 109,
@@ -4944,12 +4574,10 @@ export default {
         "undamaged"
       ],
       "optionReasons": {
-        "damage-mcq-47": "本句指「未受損的」。",
-        "damage-mcq-46": "「受損貨品」與本句語境不同。",
-        "damage-mcq-48": "「防止損害」與本句語境不同。",
-        "damage-mcq-45": "「受損的」與本句語境不同。",
-        "damage-mcq-49": "「限制損害」與本句語境不同。",
-        "damage-mcq-44": "「損壞至無法修復」與本句語境不同。"
+        "damage-mcq-47": "本句的「undamaged」指「未受損的」。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-47"
     },
@@ -4961,11 +4589,9 @@ export default {
       "masked": "Regular maintenance can ____.",
       "options": [
         "damage-mcq-48",
-        "damage-mcq-47",
-        "damage-mcq-49",
-        "damage-mcq-46",
-        "damage-mcq-50",
-        "damage-mcq-45"
+        "damage-pdf-006",
+        "damage-mcq-59",
+        "damage-mcq-22"
       ],
       "explanation": "本句的「prevent damage」指「防止損害」。",
       "sentenceIndex": 110,
@@ -4974,12 +4600,10 @@ export default {
         "prevent damage"
       ],
       "optionReasons": {
-        "damage-mcq-48": "本句指「防止損害」。",
-        "damage-mcq-47": "「未受損的」與本句語境不同。",
-        "damage-mcq-49": "「限制損害」與本句語境不同。",
-        "damage-mcq-46": "「受損貨品」與本句語境不同。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。",
-        "damage-mcq-45": "「受損的」與本句語境不同。"
+        "damage-mcq-48": "本句的「prevent damage」指「防止損害」。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-48"
     },
@@ -4991,11 +4615,9 @@ export default {
       "masked": "Clear procedures help prevent reputational ____.",
       "options": [
         "damage-mcq-48",
-        "damage-mcq-47",
-        "damage-mcq-49",
-        "damage-mcq-46",
-        "damage-mcq-50",
-        "damage-mcq-45"
+        "damage-mcq-61",
+        "damage-mcq-41",
+        "damage-reviewed-13c47ebcfa"
       ],
       "explanation": "本句的「damage」指「防止損害」。",
       "sentenceIndex": 111,
@@ -5004,12 +4626,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-48": "本句指「防止損害」。",
-        "damage-mcq-47": "「未受損的」與本句語境不同。",
-        "damage-mcq-49": "「限制損害」與本句語境不同。",
-        "damage-mcq-46": "「受損貨品」與本句語境不同。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。",
-        "damage-mcq-45": "「受損的」與本句語境不同。"
+        "damage-mcq-48": "本句的「damage」指「防止損害」。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-48"
     },
@@ -5021,11 +4641,9 @@ export default {
       "masked": "Quick action helped ____.",
       "options": [
         "damage-mcq-49",
-        "damage-mcq-48",
-        "damage-mcq-50",
-        "damage-mcq-47",
-        "damage-mcq-51",
-        "damage-mcq-46"
+        "damage-mcq-23",
+        "damage-mcq-41",
+        "damage-mcq-58"
       ],
       "explanation": "本句的「limit the damage」指「限制損害」。",
       "sentenceIndex": 112,
@@ -5034,12 +4652,10 @@ export default {
         "limit the damage"
       ],
       "optionReasons": {
-        "damage-mcq-49": "本句指「限制損害」。",
-        "damage-mcq-48": "「防止損害」與本句語境不同。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。",
-        "damage-mcq-47": "「未受損的」與本句語境不同。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。",
-        "damage-mcq-46": "「受損貨品」與本句語境不同。"
+        "damage-mcq-49": "本句的「limit the damage」指「限制損害」。",
+        "damage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-49"
     },
@@ -5051,11 +4667,9 @@ export default {
       "masked": "Management acted to limit ____ to staff morale.",
       "options": [
         "damage-mcq-49",
-        "damage-mcq-48",
-        "damage-mcq-50",
-        "damage-mcq-47",
-        "damage-mcq-51",
-        "damage-mcq-46"
+        "damage-mcq-62",
+        "damage-mcq-23",
+        "damage-mcq-26"
       ],
       "explanation": "本句的「damage」指「限制損害」。",
       "sentenceIndex": 113,
@@ -5064,12 +4678,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-49": "本句指「限制損害」。",
-        "damage-mcq-48": "「防止損害」與本句語境不同。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。",
-        "damage-mcq-47": "「未受損的」與本句語境不同。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。",
-        "damage-mcq-46": "「受損貨品」與本句語境不同。"
+        "damage-mcq-49": "本句的「damage」指「限制損害」。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-49"
     },
@@ -5081,11 +4693,9 @@ export default {
       "masked": "The emergency plan is designed to ____.",
       "options": [
         "damage-mcq-50",
-        "damage-mcq-49",
-        "damage-mcq-51",
-        "damage-mcq-48",
-        "damage-mcq-52",
-        "damage-mcq-47"
+        "damage-mcq-40",
+        "damage-mcq-22",
+        "damage-pdf-006"
       ],
       "explanation": "本句的「minimise damage」指「把損害降至最低」。",
       "sentenceIndex": 114,
@@ -5094,12 +4704,10 @@ export default {
         "minimise damage"
       ],
       "optionReasons": {
-        "damage-mcq-50": "本句指「把損害降至最低」。",
-        "damage-mcq-49": "「限制損害」與本句語境不同。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。",
-        "damage-mcq-48": "「防止損害」與本句語境不同。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。",
-        "damage-mcq-47": "「未受損的」與本句語境不同。"
+        "damage-mcq-50": "本句的「minimise damage」指「把損害降至最低」。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-50"
     },
@@ -5111,11 +4719,9 @@ export default {
       "masked": "Honest communication may minimize reputational ____.",
       "options": [
         "damage-mcq-50",
-        "damage-mcq-49",
-        "damage-mcq-51",
-        "damage-mcq-48",
-        "damage-mcq-52",
-        "damage-mcq-47"
+        "damage-mcq-23",
+        "damage-mcq-59",
+        "damage-reviewed-13c47ebcfa"
       ],
       "explanation": "本句的「damage」指「把損害降至最低」。",
       "sentenceIndex": 115,
@@ -5124,12 +4730,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-50": "本句指「把損害降至最低」。",
-        "damage-mcq-49": "「限制損害」與本句語境不同。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。",
-        "damage-mcq-48": "「防止損害」與本句語境不同。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。",
-        "damage-mcq-47": "「未受損的」與本句語境不同。"
+        "damage-mcq-50": "本句的「damage」指「把損害降至最低」。",
+        "damage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-50"
     },
@@ -5141,11 +4745,9 @@ export default {
       "masked": "Engineers worked to ____.",
       "options": [
         "damage-mcq-51",
-        "damage-mcq-50",
-        "damage-mcq-52",
-        "damage-mcq-49",
-        "damage-mcq-53",
-        "damage-mcq-48"
+        "damage-mcq-40",
+        "damage-pdf-006",
+        "damage-mcq-61"
       ],
       "explanation": "本句的「repair the damage」指「修復／彌補損害」。",
       "sentenceIndex": 116,
@@ -5154,12 +4756,10 @@ export default {
         "repair the damage"
       ],
       "optionReasons": {
-        "damage-mcq-51": "本句指「修復／彌補損害」。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。",
-        "damage-mcq-49": "「限制損害」與本句語境不同。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。",
-        "damage-mcq-48": "「防止損害」與本句語境不同。"
+        "damage-mcq-51": "本句的「repair the damage」指「修復／彌補損害」。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-51"
     },
@@ -5171,11 +4771,9 @@ export default {
       "masked": "It may take years to repair the ____ to trust.",
       "options": [
         "damage-mcq-51",
-        "damage-mcq-50",
-        "damage-mcq-52",
-        "damage-mcq-49",
-        "damage-mcq-53",
-        "damage-mcq-48"
+        "damage-pdf-006",
+        "damage-mcq-58",
+        "damage-mcq-40"
       ],
       "explanation": "本句的「damage」指「修復／彌補損害」。",
       "sentenceIndex": 117,
@@ -5184,12 +4782,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-51": "本句指「修復／彌補損害」。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。",
-        "damage-mcq-49": "「限制損害」與本句語境不同。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。",
-        "damage-mcq-48": "「防止損害」與本句語境不同。"
+        "damage-mcq-51": "本句的「damage」指「修復／彌補損害」。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-51"
     },
@@ -5201,11 +4797,9 @@ export default {
       "masked": "Inspectors arrived to ____.",
       "options": [
         "damage-mcq-52",
-        "damage-mcq-51",
-        "damage-mcq-53",
-        "damage-mcq-50",
-        "damage-mcq-54",
-        "damage-mcq-55"
+        "damage-mcq-59",
+        "damage-mcq-26",
+        "damage-mcq-64"
       ],
       "explanation": "本句的「assess the damage」指「評估損害」。",
       "sentenceIndex": 118,
@@ -5214,12 +4808,10 @@ export default {
         "assess the damage"
       ],
       "optionReasons": {
-        "damage-mcq-52": "本句指「評估損害」。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。"
+        "damage-mcq-52": "本句的「assess the damage」指「評估損害」。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-52"
     },
@@ -5231,11 +4823,9 @@ export default {
       "masked": "Management needs to assess the reputational ____.",
       "options": [
         "damage-mcq-52",
-        "damage-mcq-51",
-        "damage-mcq-53",
-        "damage-mcq-50",
-        "damage-mcq-54",
-        "damage-mcq-55"
+        "damage-mcq-40",
+        "damage-mcq-27",
+        "damage-mcq-62"
       ],
       "explanation": "本句的「damage」指「評估損害」。",
       "sentenceIndex": 119,
@@ -5244,12 +4834,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-52": "本句指「評估損害」。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。"
+        "damage-mcq-52": "本句的「damage」指「評估損害」。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-52"
     },
@@ -5261,11 +4849,9 @@ export default {
       "masked": "A full ____ will be carried out.",
       "options": [
         "damage-mcq-52",
-        "damage-mcq-51",
-        "damage-mcq-53",
-        "damage-mcq-50",
-        "damage-mcq-54",
-        "damage-mcq-55"
+        "damage-mcq-60",
+        "damage-mcq-40",
+        "damage-mcq-26"
       ],
       "explanation": "本句的「damage assessment」指「評估損害」。",
       "sentenceIndex": 120,
@@ -5274,12 +4860,10 @@ export default {
         "damage assessment"
       ],
       "optionReasons": {
-        "damage-mcq-52": "本句指「評估損害」。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。"
+        "damage-mcq-52": "本句的「damage assessment」指「評估損害」。",
+        "damage-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-52"
     },
@@ -5291,11 +4875,9 @@ export default {
       "masked": "The team completed a preliminary ____ assessment.",
       "options": [
         "damage-mcq-52",
-        "damage-mcq-51",
-        "damage-mcq-53",
-        "damage-mcq-50",
-        "damage-mcq-54",
-        "damage-mcq-55"
+        "damage-reviewed-595a28a706",
+        "damage-mcq-26",
+        "damage-mcq-64"
       ],
       "explanation": "本句的「damage」指「評估損害」。",
       "sentenceIndex": 121,
@@ -5304,12 +4886,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-52": "本句指「評估損害」。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。"
+        "damage-mcq-52": "本句的「damage」指「評估損害」。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-52"
     },
@@ -5321,11 +4901,9 @@ export default {
       "masked": "The company immediately began ____.",
       "options": [
         "damage-mcq-53",
-        "damage-mcq-52",
-        "damage-mcq-54",
-        "damage-mcq-51",
-        "damage-mcq-55",
-        "damage-mcq-50"
+        "damage-reviewed-595a28a706",
+        "damage-mcq-57",
+        "damage-mcq-27"
       ],
       "explanation": "本句的「damage control」指「損害控制／危機補救」。",
       "sentenceIndex": 122,
@@ -5334,12 +4912,10 @@ export default {
         "damage control"
       ],
       "optionReasons": {
-        "damage-mcq-53": "本句指「損害控制／危機補救」。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。"
+        "damage-mcq-53": "本句的「damage control」指「損害控制／危機補救」。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-53"
     },
@@ -5351,11 +4927,9 @@ export default {
       "masked": "The apology was partly an exercise in ____ control.",
       "options": [
         "damage-mcq-53",
-        "damage-mcq-52",
-        "damage-mcq-54",
-        "damage-mcq-51",
-        "damage-mcq-55",
-        "damage-mcq-50"
+        "damage-mcq-26",
+        "damage-mcq-62",
+        "damage-mcq-40"
       ],
       "explanation": "本句的「damage」指「損害控制／危機補救」。",
       "sentenceIndex": 123,
@@ -5364,12 +4938,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-53": "本句指「損害控制／危機補救」。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。"
+        "damage-mcq-53": "本句的「damage」指「損害控制／危機補救」。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-53"
     },
@@ -5381,11 +4953,9 @@ export default {
       "masked": "Management spent the afternoon ____.",
       "options": [
         "damage-mcq-53",
-        "damage-mcq-52",
-        "damage-mcq-54",
-        "damage-mcq-51",
-        "damage-mcq-55",
-        "damage-mcq-50"
+        "damage-mcq-40",
+        "damage-mcq-59",
+        "damage-mcq-39"
       ],
       "explanation": "本句的「doing damage control」指「損害控制／危機補救」。",
       "sentenceIndex": 124,
@@ -5394,12 +4964,10 @@ export default {
         "doing damage control"
       ],
       "optionReasons": {
-        "damage-mcq-53": "本句指「損害控制／危機補救」。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。"
+        "damage-mcq-53": "本句的「doing damage control」指「損害控制／危機補救」。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-53"
     },
@@ -5411,11 +4979,9 @@ export default {
       "masked": "The communications team was brought in to do ____ control.",
       "options": [
         "damage-mcq-53",
-        "damage-mcq-52",
-        "damage-mcq-54",
-        "damage-mcq-51",
-        "damage-mcq-55",
-        "damage-mcq-50"
+        "damage-mcq-59",
+        "damage-reviewed-13c47ebcfa",
+        "damage-mcq-26"
       ],
       "explanation": "本句的「damage」指「損害控制／危機補救」。",
       "sentenceIndex": 125,
@@ -5424,12 +4990,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-53": "本句指「損害控制／危機補救」。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。"
+        "damage-mcq-53": "本句的「damage」指「損害控制／危機補救」。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-53"
     },
@@ -5441,11 +5005,9 @@ export default {
       "masked": "The interview looked like a ____.",
       "options": [
         "damage-mcq-53",
-        "damage-mcq-52",
-        "damage-mcq-54",
-        "damage-mcq-51",
-        "damage-mcq-55",
-        "damage-mcq-50"
+        "damage-mcq-24",
+        "damage-mcq-59",
+        "damage-pdf-006"
       ],
       "explanation": "本句的「damage-control exercise」指「損害控制／危機補救」。",
       "sentenceIndex": 126,
@@ -5454,12 +5016,10 @@ export default {
         "damage-control exercise"
       ],
       "optionReasons": {
-        "damage-mcq-53": "本句指「損害控制／危機補救」。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。"
+        "damage-mcq-53": "本句的「damage-control exercise」指「損害控制／危機補救」。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-53"
     },
@@ -5471,11 +5031,9 @@ export default {
       "masked": "Critics described the announcement as ____ control.",
       "options": [
         "damage-mcq-53",
-        "damage-mcq-52",
-        "damage-mcq-54",
-        "damage-mcq-51",
-        "damage-mcq-55",
-        "damage-mcq-50"
+        "damage-mcq-61",
+        "damage-mcq-22",
+        "damage-mcq-27"
       ],
       "explanation": "本句的「damage」指「損害控制／危機補救」。",
       "sentenceIndex": 127,
@@ -5484,12 +5042,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-53": "本句指「損害控制／危機補救」。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。",
-        "damage-mcq-50": "「把損害降至最低」與本句語境不同。"
+        "damage-mcq-53": "本句的「damage」指「損害控制／危機補救」。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-53"
     },
@@ -5501,11 +5057,9 @@ export default {
       "masked": "At this stage, the priority is ____.",
       "options": [
         "damage-mcq-54",
-        "damage-mcq-53",
-        "damage-mcq-55",
-        "damage-mcq-52",
-        "damage-mcq-56",
-        "damage-mcq-51"
+        "damage-mcq-41",
+        "damage-mcq-61",
+        "damage-mcq-22"
       ],
       "explanation": "本句的「damage limitation」指「限制損害」。",
       "sentenceIndex": 128,
@@ -5514,12 +5068,10 @@ export default {
         "damage limitation"
       ],
       "optionReasons": {
-        "damage-mcq-54": "本句指「限制損害」。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。",
-        "damage-mcq-56": "「損害賠償金」與本句語境不同。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。"
+        "damage-mcq-54": "本句的「damage limitation」指「限制損害」。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-54"
     },
@@ -5531,11 +5083,9 @@ export default {
       "masked": "The company shifted from prevention to ____ limitation.",
       "options": [
         "damage-mcq-54",
-        "damage-mcq-53",
-        "damage-mcq-55",
-        "damage-mcq-52",
-        "damage-mcq-56",
-        "damage-mcq-51"
+        "damage-mcq-39",
+        "damage-mcq-57",
+        "damage-mcq-27"
       ],
       "explanation": "本句的「damage」指「限制損害」。",
       "sentenceIndex": 129,
@@ -5544,12 +5094,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-54": "本句指「限制損害」。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。",
-        "damage-mcq-56": "「損害賠償金」與本句語境不同。",
-        "damage-mcq-51": "「修復／彌補損害」與本句語境不同。"
+        "damage-mcq-54": "本句的「damage」指「限制損害」。",
+        "damage-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-54"
     },
@@ -5561,11 +5109,9 @@ export default {
       "masked": "The operation caused significant ____.",
       "options": [
         "damage-pdf-004",
-        "damage-mcq-54",
-        "damage-mcq-56",
-        "damage-mcq-53",
-        "damage-mcq-57",
-        "damage-mcq-52"
+        "damage-pdf-006",
+        "damage-mcq-46",
+        "damage-mcq-61"
       ],
       "explanation": "本句的「collateral damage」指「在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞」。",
       "sentenceIndex": 130,
@@ -5574,12 +5120,10 @@ export default {
         "collateral damage"
       ],
       "optionReasons": {
-        "damage-pdf-004": "本句指「在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞」。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-56": "「損害賠償金」與本句語境不同。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。",
-        "damage-mcq-57": "「索取賠償」與本句語境不同。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。"
+        "damage-pdf-004": "本句的「collateral damage」指「在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞」。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-pdf-004"
     },
@@ -5591,11 +5135,9 @@ export default {
       "masked": "Measures should be designed to minimize collateral ____.",
       "options": [
         "damage-pdf-004",
-        "damage-mcq-54",
-        "damage-mcq-56",
-        "damage-mcq-53",
-        "damage-mcq-57",
-        "damage-mcq-52"
+        "damage-mcq-60",
+        "damage-mcq-45",
+        "damage-mcq-26"
       ],
       "explanation": "本句的「damage」指「在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞」。",
       "sentenceIndex": 131,
@@ -5604,12 +5146,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-pdf-004": "本句指「在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞」。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-56": "「損害賠償金」與本句語境不同。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。",
-        "damage-mcq-57": "「索取賠償」與本句語境不同。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。"
+        "damage-pdf-004": "本句的「damage」指「在達成另一主要目標時，非主要目的但同時造成的額外傷害或破壞」。",
+        "damage-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-pdf-004"
     },
@@ -5621,11 +5161,9 @@ export default {
       "masked": "Staff morale became ____ in the dispute between managers.",
       "options": [
         "damage-mcq-55",
-        "damage-mcq-54",
-        "damage-mcq-56",
-        "damage-mcq-53",
-        "damage-mcq-57",
-        "damage-mcq-52"
+        "damage-mcq-26",
+        "damage-mcq-62",
+        "damage-reviewed-595a28a706"
       ],
       "explanation": "本句的「collateral damage」指「附帶損害」。",
       "sentenceIndex": 132,
@@ -5634,12 +5172,10 @@ export default {
         "collateral damage"
       ],
       "optionReasons": {
-        "damage-mcq-55": "本句指「附帶損害」。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-56": "「損害賠償金」與本句語境不同。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。",
-        "damage-mcq-57": "「索取賠償」與本句語境不同。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。"
+        "damage-mcq-55": "本句的「collateral damage」指「附帶損害」。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-55"
     },
@@ -5651,11 +5187,9 @@ export default {
       "masked": "Small suppliers may become collateral ____ in a price war.",
       "options": [
         "damage-mcq-55",
-        "damage-mcq-54",
-        "damage-mcq-56",
-        "damage-mcq-53",
-        "damage-mcq-57",
-        "damage-mcq-52"
+        "damage-mcq-24",
+        "damage-mcq-27",
+        "damage-mcq-59"
       ],
       "explanation": "本句的「damage」指「附帶損害」。",
       "sentenceIndex": 133,
@@ -5664,12 +5198,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-55": "本句指「附帶損害」。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-56": "「損害賠償金」與本句語境不同。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。",
-        "damage-mcq-57": "「索取賠償」與本句語境不同。",
-        "damage-mcq-52": "「評估損害」與本句語境不同。"
+        "damage-mcq-55": "本句的「damage」指「附帶損害」。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-55"
     },
@@ -5681,11 +5213,9 @@ export default {
       "masked": "The court awarded her ____.",
       "options": [
         "damage-pdf-005",
-        "damage-mcq-55",
-        "damage-mcq-57",
-        "damage-mcq-54",
-        "damage-mcq-58",
-        "damage-mcq-53"
+        "damage-reviewed-595a28a706",
+        "damage-mcq-27",
+        "damage-mcq-41"
       ],
       "explanation": "本句的「damages」指「法院或法律程序因某人受到損害而判給／要求支付的金錢賠償」。",
       "sentenceIndex": 134,
@@ -5694,12 +5224,10 @@ export default {
         "damages"
       ],
       "optionReasons": {
-        "damage-pdf-005": "本句指「法院或法律程序因某人受到損害而判給／要求支付的金錢賠償」。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。",
-        "damage-mcq-57": "「索取賠償」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-58": "「判給賠償」與本句語境不同。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。"
+        "damage-pdf-005": "本句的「damages」指「法院或法律程序因某人受到損害而判給／要求支付的金錢賠償」。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-pdf-005"
     },
@@ -5711,11 +5239,9 @@ export default {
       "masked": "The company was ordered to pay ____.",
       "options": [
         "damage-pdf-005",
-        "damage-mcq-55",
-        "damage-mcq-57",
-        "damage-mcq-54",
-        "damage-mcq-58",
-        "damage-mcq-53"
+        "damage-mcq-22",
+        "damage-reviewed-13c47ebcfa",
+        "damage-mcq-41"
       ],
       "explanation": "本句的「damages」指「法院或法律程序因某人受到損害而判給／要求支付的金錢賠償」。",
       "sentenceIndex": 135,
@@ -5724,12 +5250,10 @@ export default {
         "damages"
       ],
       "optionReasons": {
-        "damage-pdf-005": "本句指「法院或法律程序因某人受到損害而判給／要求支付的金錢賠償」。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。",
-        "damage-mcq-57": "「索取賠償」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-58": "「判給賠償」與本句語境不同。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。"
+        "damage-pdf-005": "本句的「damages」指「法院或法律程序因某人受到損害而判給／要求支付的金錢賠償」。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-pdf-005"
     },
@@ -5741,11 +5265,9 @@ export default {
       "masked": "The customer may ____.",
       "options": [
         "damage-mcq-57",
-        "damage-mcq-56",
-        "damage-mcq-58",
-        "damage-mcq-55",
-        "damage-mcq-59",
-        "damage-mcq-54"
+        "damage-mcq-09",
+        "damage-mcq-41",
+        "damage-mcq-13"
       ],
       "explanation": "本句的「claim damages」指「索取賠償」。",
       "sentenceIndex": 136,
@@ -5754,12 +5276,10 @@ export default {
         "claim damages"
       ],
       "optionReasons": {
-        "damage-mcq-57": "本句指「索取賠償」。",
-        "damage-mcq-56": "「損害賠償金」與本句語境不同。",
-        "damage-mcq-58": "「判給賠償」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。",
-        "damage-mcq-59": "「支付賠償」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。"
+        "damage-mcq-57": "本句的「claim damages」指「索取賠償」。",
+        "damage-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-57"
     },
@@ -5771,11 +5291,9 @@ export default {
       "masked": "The claimant sought ____ for financial loss.",
       "options": [
         "damage-mcq-57",
-        "damage-mcq-56",
-        "damage-mcq-58",
-        "damage-mcq-55",
-        "damage-mcq-59",
-        "damage-mcq-54"
+        "damage-mcq-69",
+        "damage-mcq-19",
+        "damage-mcq-46"
       ],
       "explanation": "本句的「damages」指「索取賠償」。",
       "sentenceIndex": 137,
@@ -5784,12 +5302,10 @@ export default {
         "damages"
       ],
       "optionReasons": {
-        "damage-mcq-57": "本句指「索取賠償」。",
-        "damage-mcq-56": "「損害賠償金」與本句語境不同。",
-        "damage-mcq-58": "「判給賠償」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。",
-        "damage-mcq-59": "「支付賠償」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。"
+        "damage-mcq-57": "本句的「damages」指「索取賠償」。",
+        "damage-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-57"
     },
@@ -5801,11 +5317,9 @@ export default {
       "masked": "The company is ____ for breach of contract.",
       "options": [
         "damage-mcq-56",
-        "damage-mcq-55",
-        "damage-mcq-57",
-        "damage-mcq-54",
-        "damage-mcq-58",
-        "damage-mcq-53"
+        "damage-mcq-23",
+        "damage-mcq-40",
+        "damage-pdf-006"
       ],
       "explanation": "本句的「seeking damages」指「損害賠償金」。",
       "sentenceIndex": 138,
@@ -5814,12 +5328,10 @@ export default {
         "seeking damages"
       ],
       "optionReasons": {
-        "damage-mcq-56": "本句指「損害賠償金」。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。",
-        "damage-mcq-57": "「索取賠償」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-58": "「判給賠償」與本句語境不同。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。"
+        "damage-mcq-56": "本句的「seeking damages」指「損害賠償金」。",
+        "damage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-56"
     },
@@ -5831,11 +5343,9 @@ export default {
       "masked": "She brought a claim seeking ____.",
       "options": [
         "damage-mcq-56",
-        "damage-mcq-55",
-        "damage-mcq-57",
-        "damage-mcq-54",
-        "damage-mcq-58",
-        "damage-mcq-53"
+        "damage-mcq-26",
+        "damage-mcq-24",
+        "damage-reviewed-13c47ebcfa"
       ],
       "explanation": "本句的「damages」指「損害賠償金」。",
       "sentenceIndex": 139,
@@ -5844,12 +5354,10 @@ export default {
         "damages"
       ],
       "optionReasons": {
-        "damage-mcq-56": "本句指「損害賠償金」。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。",
-        "damage-mcq-57": "「索取賠償」與本句語境不同。",
-        "damage-mcq-54": "「限制損害」與本句語境不同。",
-        "damage-mcq-58": "「判給賠償」與本句語境不同。",
-        "damage-mcq-53": "「損害控制／危機補救」與本句語境不同。"
+        "damage-mcq-56": "本句的「damages」指「損害賠償金」。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-56"
     },
@@ -5861,11 +5369,9 @@ export default {
       "masked": "The court ____ to the claimant.",
       "options": [
         "damage-mcq-58",
-        "damage-mcq-57",
-        "damage-mcq-59",
-        "damage-mcq-56",
-        "damage-mcq-60",
-        "damage-mcq-55"
+        "damage-mcq-25",
+        "damage-mcq-21",
+        "damage-reviewed-595a28a706"
       ],
       "explanation": "本句的「awarded damages」指「判給賠償」。",
       "sentenceIndex": 140,
@@ -5874,12 +5380,10 @@ export default {
         "awarded damages"
       ],
       "optionReasons": {
-        "damage-mcq-58": "本句指「判給賠償」。",
-        "damage-mcq-57": "「索取賠償」與本句語境不同。",
-        "damage-mcq-59": "「支付賠償」與本句語境不同。",
-        "damage-mcq-56": "「損害賠償金」與本句語境不同。",
-        "damage-mcq-60": "「補償性賠償」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。"
+        "damage-mcq-58": "本句的「awarded damages」指「判給賠償」。",
+        "damage-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-58"
     },
@@ -5891,11 +5395,9 @@ export default {
       "masked": "____ were awarded for lost income.",
       "options": [
         "damage-mcq-58",
-        "damage-mcq-57",
-        "damage-mcq-59",
-        "damage-mcq-56",
-        "damage-mcq-60",
-        "damage-mcq-55"
+        "damage-mcq-04",
+        "damage-reviewed-48ae888ace",
+        "damage-reviewed-13c47ebcfa"
       ],
       "explanation": "本句的「Damages」指「判給賠償」。",
       "sentenceIndex": 141,
@@ -5904,12 +5406,10 @@ export default {
         "Damages"
       ],
       "optionReasons": {
-        "damage-mcq-58": "本句指「判給賠償」。",
-        "damage-mcq-57": "「索取賠償」與本句語境不同。",
-        "damage-mcq-59": "「支付賠償」與本句語境不同。",
-        "damage-mcq-56": "「損害賠償金」與本句語境不同。",
-        "damage-mcq-60": "「補償性賠償」與本句語境不同。",
-        "damage-mcq-55": "「附帶損害」與本句語境不同。"
+        "damage-mcq-58": "本句的「Damages」指「判給賠償」。",
+        "damage-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-48ae888ace": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-58"
     },
@@ -5921,11 +5421,9 @@ export default {
       "masked": "The defendant was ordered to ____.",
       "options": [
         "damage-mcq-59",
-        "damage-mcq-58",
-        "damage-mcq-60",
-        "damage-mcq-57",
-        "damage-mcq-61",
-        "damage-mcq-56"
+        "damage-mcq-34",
+        "damage-mcq-26",
+        "damage-mcq-41"
       ],
       "explanation": "本句的「pay damages」指「支付賠償」。",
       "sentenceIndex": 142,
@@ -5934,12 +5432,10 @@ export default {
         "pay damages"
       ],
       "optionReasons": {
-        "damage-mcq-59": "本句指「支付賠償」。",
-        "damage-mcq-58": "「判給賠償」與本句語境不同。",
-        "damage-mcq-60": "「補償性賠償」與本句語境不同。",
-        "damage-mcq-57": "「索取賠償」與本句語境不同。",
-        "damage-mcq-61": "「懲罰性賠償」與本句語境不同。",
-        "damage-mcq-56": "「損害賠償金」與本句語境不同。"
+        "damage-mcq-59": "本句的「pay damages」指「支付賠償」。",
+        "damage-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-59"
     },
@@ -5951,11 +5447,9 @@ export default {
       "masked": "The settlement required the company to pay ____.",
       "options": [
         "damage-mcq-59",
-        "damage-mcq-58",
-        "damage-mcq-60",
-        "damage-mcq-57",
-        "damage-mcq-61",
-        "damage-mcq-56"
+        "damage-mcq-19",
+        "damage-reviewed-13c47ebcfa",
+        "damage-mcq-29"
       ],
       "explanation": "本句的「damages」指「支付賠償」。",
       "sentenceIndex": 143,
@@ -5964,12 +5458,10 @@ export default {
         "damages"
       ],
       "optionReasons": {
-        "damage-mcq-59": "本句指「支付賠償」。",
-        "damage-mcq-58": "「判給賠償」與本句語境不同。",
-        "damage-mcq-60": "「補償性賠償」與本句語境不同。",
-        "damage-mcq-57": "「索取賠償」與本句語境不同。",
-        "damage-mcq-61": "「懲罰性賠償」與本句語境不同。",
-        "damage-mcq-56": "「損害賠償金」與本句語境不同。"
+        "damage-mcq-59": "本句的「damages」指「支付賠償」。",
+        "damage-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-59"
     },
@@ -5981,11 +5473,9 @@ export default {
       "masked": "The court awarded ____.",
       "options": [
         "damage-mcq-60",
-        "damage-mcq-59",
-        "damage-mcq-61",
-        "damage-mcq-58",
-        "damage-mcq-62",
-        "damage-mcq-57"
+        "damage-mcq-06",
+        "damage-reviewed-876c49d6ee",
+        "damage-mcq-21"
       ],
       "explanation": "本句的「compensatory damages」指「補償性賠償」。",
       "sentenceIndex": 144,
@@ -5994,12 +5484,10 @@ export default {
         "compensatory damages"
       ],
       "optionReasons": {
-        "damage-mcq-60": "本句指「補償性賠償」。",
-        "damage-mcq-59": "「支付賠償」與本句語境不同。",
-        "damage-mcq-61": "「懲罰性賠償」與本句語境不同。",
-        "damage-mcq-58": "「判給賠償」與本句語境不同。",
-        "damage-mcq-62": "「象徵性賠償」與本句語境不同。",
-        "damage-mcq-57": "「索取賠償」與本句語境不同。"
+        "damage-mcq-60": "本句的「compensatory damages」指「補償性賠償」。",
+        "damage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-876c49d6ee": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-60"
     },
@@ -6011,11 +5499,9 @@ export default {
       "masked": "Compensatory ____ generally seek to compensate for proven loss or injury.",
       "options": [
         "damage-mcq-60",
-        "damage-mcq-59",
-        "damage-mcq-61",
-        "damage-mcq-58",
-        "damage-mcq-62",
-        "damage-mcq-57"
+        "damage-mcq-09",
+        "damage-mcq-46",
+        "damage-reviewed-876c49d6ee"
       ],
       "explanation": "本句的「damages」指「補償性賠償」。",
       "sentenceIndex": 145,
@@ -6024,12 +5510,10 @@ export default {
         "damages"
       ],
       "optionReasons": {
-        "damage-mcq-60": "本句指「補償性賠償」。",
-        "damage-mcq-59": "「支付賠償」與本句語境不同。",
-        "damage-mcq-61": "「懲罰性賠償」與本句語境不同。",
-        "damage-mcq-58": "「判給賠償」與本句語境不同。",
-        "damage-mcq-62": "「象徵性賠償」與本句語境不同。",
-        "damage-mcq-57": "「索取賠償」與本句語境不同。"
+        "damage-mcq-60": "本句的「damages」指「補償性賠償」。",
+        "damage-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-876c49d6ee": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-60"
     },
@@ -6041,11 +5525,9 @@ export default {
       "masked": "The claimant also sought ____.",
       "options": [
         "damage-mcq-61",
-        "damage-mcq-60",
-        "damage-mcq-62",
-        "damage-mcq-59",
-        "damage-mcq-63",
-        "damage-mcq-58"
+        "damage-mcq-06",
+        "damage-reviewed-876c49d6ee",
+        "damage-mcq-44"
       ],
       "explanation": "本句的「punitive damages」指「懲罰性賠償」。",
       "sentenceIndex": 146,
@@ -6054,12 +5536,10 @@ export default {
         "punitive damages"
       ],
       "optionReasons": {
-        "damage-mcq-61": "本句指「懲罰性賠償」。",
-        "damage-mcq-60": "「補償性賠償」與本句語境不同。",
-        "damage-mcq-62": "「象徵性賠償」與本句語境不同。",
-        "damage-mcq-59": "「支付賠償」與本句語境不同。",
-        "damage-mcq-63": "「約定損害賠償」與本句語境不同。",
-        "damage-mcq-58": "「判給賠償」與本句語境不同。"
+        "damage-mcq-61": "本句的「punitive damages」指「懲罰性賠償」。",
+        "damage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-876c49d6ee": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-61"
     },
@@ -6071,11 +5551,9 @@ export default {
       "masked": "Availability of punitive ____ depends on the jurisdiction and type of claim.",
       "options": [
         "damage-mcq-61",
-        "damage-mcq-60",
-        "damage-mcq-62",
-        "damage-mcq-59",
-        "damage-mcq-63",
-        "damage-mcq-58"
+        "damage-pdf-001",
+        "damage-mcq-33",
+        "damage-mcq-20"
       ],
       "explanation": "本句的「damages」指「懲罰性賠償」。",
       "sentenceIndex": 147,
@@ -6084,12 +5562,10 @@ export default {
         "damages"
       ],
       "optionReasons": {
-        "damage-mcq-61": "本句指「懲罰性賠償」。",
-        "damage-mcq-60": "「補償性賠償」與本句語境不同。",
-        "damage-mcq-62": "「象徵性賠償」與本句語境不同。",
-        "damage-mcq-59": "「支付賠償」與本句語境不同。",
-        "damage-mcq-63": "「約定損害賠償」與本句語境不同。",
-        "damage-mcq-58": "「判給賠償」與本句語境不同。"
+        "damage-mcq-61": "本句的「damages」指「懲罰性賠償」。",
+        "damage-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-61"
     },
@@ -6101,11 +5577,9 @@ export default {
       "masked": "The court awarded ____.",
       "options": [
         "damage-mcq-62",
-        "damage-mcq-61",
-        "damage-mcq-63",
-        "damage-mcq-60",
-        "damage-mcq-64",
-        "damage-mcq-59"
+        "damage-mcq-08",
+        "damage-mcq-18",
+        "damage-mcq-46"
       ],
       "explanation": "本句的「nominal damages」指「象徵性賠償」。",
       "sentenceIndex": 148,
@@ -6114,12 +5588,10 @@ export default {
         "nominal damages"
       ],
       "optionReasons": {
-        "damage-mcq-62": "本句指「象徵性賠償」。",
-        "damage-mcq-61": "「懲罰性賠償」與本句語境不同。",
-        "damage-mcq-63": "「約定損害賠償」與本句語境不同。",
-        "damage-mcq-60": "「補償性賠償」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。",
-        "damage-mcq-59": "「支付賠償」與本句語境不同。"
+        "damage-mcq-62": "本句的「nominal damages」指「象徵性賠償」。",
+        "damage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-62"
     },
@@ -6131,11 +5603,9 @@ export default {
       "masked": "Nominal ____ may recognise a legal wrong despite little or no proven financial loss.",
       "options": [
         "damage-mcq-62",
-        "damage-mcq-61",
-        "damage-mcq-63",
-        "damage-mcq-60",
-        "damage-mcq-64",
-        "damage-mcq-59"
+        "damage-mcq-50",
+        "damage-mcq-37",
+        "damage-mcq-64"
       ],
       "explanation": "本句的「damages」指「象徵性賠償」。",
       "sentenceIndex": 149,
@@ -6144,12 +5614,10 @@ export default {
         "damages"
       ],
       "optionReasons": {
-        "damage-mcq-62": "本句指「象徵性賠償」。",
-        "damage-mcq-61": "「懲罰性賠償」與本句語境不同。",
-        "damage-mcq-63": "「約定損害賠償」與本句語境不同。",
-        "damage-mcq-60": "「補償性賠償」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。",
-        "damage-mcq-59": "「支付賠償」與本句語境不同。"
+        "damage-mcq-62": "本句的「damages」指「象徵性賠償」。",
+        "damage-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-62"
     },
@@ -6161,11 +5629,9 @@ export default {
       "masked": "The contract contains a ____.",
       "options": [
         "damage-mcq-63",
-        "damage-mcq-62",
-        "damage-mcq-64",
-        "damage-mcq-61",
-        "damage-mcq-65",
-        "damage-mcq-60"
+        "damage-mcq-24",
+        "damage-mcq-41",
+        "damage-mcq-27"
       ],
       "explanation": "本句的「liquidated damages clause」指「約定損害賠償」。",
       "sentenceIndex": 150,
@@ -6174,12 +5640,10 @@ export default {
         "liquidated damages clause"
       ],
       "optionReasons": {
-        "damage-mcq-63": "本句指「約定損害賠償」。",
-        "damage-mcq-62": "「象徵性賠償」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。",
-        "damage-mcq-61": "「懲罰性賠償」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-60": "「補償性賠償」與本句語境不同。"
+        "damage-mcq-63": "本句的「liquidated damages clause」指「約定損害賠償」。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-63"
     },
@@ -6191,11 +5655,9 @@ export default {
       "masked": "The supplier sought ____.",
       "options": [
         "damage-mcq-63",
-        "damage-mcq-62",
-        "damage-mcq-64",
-        "damage-mcq-61",
-        "damage-mcq-65",
-        "damage-mcq-60"
+        "damage-reviewed-13c47ebcfa",
+        "damage-mcq-24",
+        "damage-mcq-41"
       ],
       "explanation": "本句的「damages for breach of contract」指「約定損害賠償」。",
       "sentenceIndex": 151,
@@ -6204,12 +5666,10 @@ export default {
         "damages for breach of contract"
       ],
       "optionReasons": {
-        "damage-mcq-63": "本句指「約定損害賠償」。",
-        "damage-mcq-62": "「象徵性賠償」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。",
-        "damage-mcq-61": "「懲罰性賠償」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-60": "「補償性賠償」與本句語境不同。"
+        "damage-mcq-63": "本句的「damages for breach of contract」指「約定損害賠償」。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-63"
     },
@@ -6221,11 +5681,9 @@ export default {
       "masked": "The amount of ____ depends on the relevant legal principles and proven loss.",
       "options": [
         "damage-mcq-63",
-        "damage-mcq-62",
-        "damage-mcq-64",
-        "damage-mcq-61",
-        "damage-mcq-65",
-        "damage-mcq-60"
+        "damage-reviewed-13c47ebcfa",
+        "damage-mcq-41",
+        "damage-reviewed-595a28a706"
       ],
       "explanation": "本句的「damages」指「約定損害賠償」。",
       "sentenceIndex": 152,
@@ -6234,12 +5692,10 @@ export default {
         "damages"
       ],
       "optionReasons": {
-        "damage-mcq-63": "本句指「約定損害賠償」。",
-        "damage-mcq-62": "「象徵性賠償」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。",
-        "damage-mcq-61": "「懲罰性賠償」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-60": "「補償性賠償」與本句語境不同。"
+        "damage-mcq-63": "本句的「damages」指「約定損害賠償」。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-63"
     },
@@ -6252,10 +5708,8 @@ export default {
       "options": [
         "damage-mcq-64",
         "damage-mcq-63",
-        "damage-mcq-65",
-        "damage-mcq-62",
-        "damage-mcq-66",
-        "damage-mcq-61"
+        "damage-mcq-24",
+        "damage-mcq-21"
       ],
       "explanation": "本句的「what's the damage?」指「總共多少錢？」。",
       "sentenceIndex": 153,
@@ -6264,12 +5718,10 @@ export default {
         "what's the damage?"
       ],
       "optionReasons": {
-        "damage-mcq-64": "本句指「總共多少錢？」。",
-        "damage-mcq-63": "「約定損害賠償」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-62": "「象徵性賠償」與本句語境不同。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-61": "「懲罰性賠償」與本句語境不同。"
+        "damage-mcq-64": "本句的「what's the damage?」指「總共多少錢？」。",
+        "damage-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-64"
     },
@@ -6281,11 +5733,9 @@ export default {
       "masked": "After dinner, he asked the waiter, “What's the ____?",
       "options": [
         "damage-mcq-64",
-        "damage-mcq-63",
-        "damage-mcq-65",
-        "damage-mcq-62",
-        "damage-mcq-66",
-        "damage-mcq-61"
+        "damage-mcq-36",
+        "damage-mcq-45",
+        "damage-mcq-40"
       ],
       "explanation": "本句的「damage」指「總共多少錢？」。",
       "sentenceIndex": 154,
@@ -6294,12 +5744,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-64": "本句指「總共多少錢？」。",
-        "damage-mcq-63": "「約定損害賠償」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-62": "「象徵性賠償」與本句語境不同。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-61": "「懲罰性賠償」與本句語境不同。"
+        "damage-mcq-64": "本句的「damage」指「總共多少錢？」。",
+        "damage-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-64"
     },
@@ -6311,10 +5759,8 @@ export default {
       "masked": "The total ____ came to $200.",
       "options": [
         "damage-mcq-64",
-        "damage-mcq-63",
-        "damage-mcq-65",
-        "damage-mcq-62",
-        "damage-mcq-66",
+        "damage-reviewed-595a28a706",
+        "damage-mcq-29",
         "damage-mcq-61"
       ],
       "explanation": "本句的「damage」指「總共多少錢？」。",
@@ -6324,12 +5770,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-64": "本句指「總共多少錢？」。",
-        "damage-mcq-63": "「約定損害賠償」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-62": "「象徵性賠償」與本句語境不同。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-61": "「懲罰性賠償」與本句語境不同。"
+        "damage-mcq-64": "本句的「damage」指「總共多少錢？」。",
+        "damage-reviewed-595a28a706": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-64"
     },
@@ -6341,11 +5785,9 @@ export default {
       "masked": "I was afraid to ask what the ____ was.",
       "options": [
         "damage-mcq-64",
-        "damage-mcq-63",
-        "damage-mcq-65",
-        "damage-mcq-62",
-        "damage-mcq-66",
-        "damage-mcq-61"
+        "damage-mcq-29",
+        "damage-mcq-39",
+        "damage-mcq-59"
       ],
       "explanation": "本句的「damage」指「總共多少錢？」。",
       "sentenceIndex": 156,
@@ -6354,12 +5796,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-64": "本句指「總共多少錢？」。",
-        "damage-mcq-63": "「約定損害賠償」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-62": "「象徵性賠償」與本句語境不同。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-61": "「懲罰性賠償」與本句語境不同。"
+        "damage-mcq-64": "本句的「damage」指「總共多少錢？」。",
+        "damage-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-64"
     },
@@ -6371,10 +5811,8 @@ export default {
       "masked": "This weapon deals high ____.",
       "options": [
         "damage-pdf-006",
-        "damage-mcq-64",
-        "damage-mcq-66",
-        "damage-mcq-63",
-        "damage-mcq-67",
+        "damage-mcq-08",
+        "damage-mcq-20",
         "damage-mcq-62"
       ],
       "explanation": "本句的「damage」指「電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值」。",
@@ -6384,12 +5822,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-pdf-006": "本句指「電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值」。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-63": "「約定損害賠償」與本句語境不同。",
-        "damage-mcq-67": "「受到傷害」與本句語境不同。",
-        "damage-mcq-62": "「象徵性賠償」與本句語境不同。"
+        "damage-pdf-006": "本句的「damage」指「電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值」。",
+        "damage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-pdf-006"
     },
@@ -6401,11 +5837,9 @@ export default {
       "masked": "The attack does more ____ at close range.",
       "options": [
         "damage-pdf-006",
-        "damage-mcq-64",
-        "damage-mcq-66",
-        "damage-mcq-63",
-        "damage-mcq-67",
-        "damage-mcq-62"
+        "damage-mcq-61",
+        "damage-mcq-54",
+        "damage-reviewed-13c47ebcfa"
       ],
       "explanation": "本句的「damage」指「電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值」。",
       "sentenceIndex": 158,
@@ -6414,12 +5848,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-pdf-006": "本句指「電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值」。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-63": "「約定損害賠償」與本句語境不同。",
-        "damage-mcq-67": "「受到傷害」與本句語境不同。",
-        "damage-mcq-62": "「象徵性賠償」與本句語境不同。"
+        "damage-pdf-006": "本句的「damage」指「電子遊戲中攻擊令角色／敵人失去生命值或耐久度的數值」。",
+        "damage-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-pdf-006"
     },
@@ -6431,11 +5863,9 @@ export default {
       "masked": "The ability ____ to nearby enemies.",
       "options": [
         "damage-mcq-66",
-        "damage-mcq-65",
-        "damage-mcq-67",
-        "damage-mcq-64",
-        "damage-mcq-68",
-        "damage-mcq-63"
+        "damage-mcq-47",
+        "damage-mcq-62",
+        "damage-pdf-006"
       ],
       "explanation": "本句的「deals damage」指「造成傷害」。",
       "sentenceIndex": 159,
@@ -6444,12 +5874,10 @@ export default {
         "deals damage"
       ],
       "optionReasons": {
-        "damage-mcq-66": "本句指「造成傷害」。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-67": "「受到傷害」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。",
-        "damage-mcq-68": "「傷害輸出」與本句語境不同。",
-        "damage-mcq-63": "「約定損害賠償」與本句語境不同。"
+        "damage-mcq-66": "本句的「deals damage」指「造成傷害」。",
+        "damage-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-66"
     },
@@ -6461,11 +5889,9 @@ export default {
       "masked": "Critical hits deal additional ____.",
       "options": [
         "damage-mcq-66",
-        "damage-mcq-65",
-        "damage-mcq-67",
-        "damage-mcq-64",
-        "damage-mcq-68",
-        "damage-mcq-63"
+        "damage-mcq-46",
+        "damage-mcq-59",
+        "damage-mcq-18"
       ],
       "explanation": "本句的「damage」指「造成傷害」。",
       "sentenceIndex": 160,
@@ -6474,12 +5900,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-66": "本句指「造成傷害」。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-67": "「受到傷害」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。",
-        "damage-mcq-68": "「傷害輸出」與本句語境不同。",
-        "damage-mcq-63": "「約定損害賠償」與本句語境不同。"
+        "damage-mcq-66": "本句的「damage」指「造成傷害」。",
+        "damage-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-66"
     },
@@ -6491,11 +5915,9 @@ export default {
       "masked": "The character ____ from fire.",
       "options": [
         "damage-mcq-67",
-        "damage-mcq-66",
-        "damage-mcq-68",
-        "damage-mcq-65",
-        "damage-mcq-69",
-        "damage-mcq-64"
+        "damage-mcq-58",
+        "damage-mcq-22",
+        "damage-mcq-15"
       ],
       "explanation": "本句的「takes damage」指「受到傷害」。",
       "sentenceIndex": 161,
@@ -6504,12 +5926,10 @@ export default {
         "takes damage"
       ],
       "optionReasons": {
-        "damage-mcq-67": "本句指「受到傷害」。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-68": "「傷害輸出」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-69": "「每秒傷害」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。"
+        "damage-mcq-67": "本句的「takes damage」指「受到傷害」。",
+        "damage-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-67"
     },
@@ -6521,11 +5941,9 @@ export default {
       "masked": "You take less ____ while blocking.",
       "options": [
         "damage-mcq-67",
-        "damage-mcq-66",
-        "damage-mcq-68",
-        "damage-mcq-65",
-        "damage-mcq-69",
-        "damage-mcq-64"
+        "damage-pdf-006",
+        "damage-mcq-57",
+        "damage-mcq-22"
       ],
       "explanation": "本句的「damage」指「受到傷害」。",
       "sentenceIndex": 162,
@@ -6534,12 +5952,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-67": "本句指「受到傷害」。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-68": "「傷害輸出」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-69": "「每秒傷害」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。"
+        "damage-mcq-67": "本句的「damage」指「受到傷害」。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-67"
     },
@@ -6551,11 +5967,9 @@ export default {
       "masked": "This build has very high ____.",
       "options": [
         "damage-mcq-68",
-        "damage-mcq-67",
-        "damage-mcq-69",
-        "damage-mcq-66",
-        "damage-mcq-65",
-        "damage-mcq-64"
+        "damage-mcq-58",
+        "damage-pdf-006",
+        "damage-mcq-13"
       ],
       "explanation": "本句的「damage output」指「傷害輸出」。",
       "sentenceIndex": 163,
@@ -6564,12 +5978,10 @@ export default {
         "damage output"
       ],
       "optionReasons": {
-        "damage-mcq-68": "本句指「傷害輸出」。",
-        "damage-mcq-67": "「受到傷害」與本句語境不同。",
-        "damage-mcq-69": "「每秒傷害」與本句語境不同。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。"
+        "damage-mcq-68": "本句的「damage output」指「傷害輸出」。",
+        "damage-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-68"
     },
@@ -6581,11 +5993,9 @@ export default {
       "masked": "The update reduced the character's ____ output.",
       "options": [
         "damage-mcq-68",
-        "damage-mcq-67",
-        "damage-mcq-69",
-        "damage-mcq-66",
-        "damage-mcq-65",
-        "damage-mcq-64"
+        "damage-mcq-43",
+        "damage-reviewed-13c47ebcfa",
+        "damage-mcq-22"
       ],
       "explanation": "本句的「damage」指「傷害輸出」。",
       "sentenceIndex": 164,
@@ -6594,12 +6004,10 @@ export default {
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-68": "本句指「傷害輸出」。",
-        "damage-mcq-67": "「受到傷害」與本句語境不同。",
-        "damage-mcq-69": "「每秒傷害」與本句語境不同。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。"
+        "damage-mcq-68": "本句的「damage」指「傷害輸出」。",
+        "damage-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-68"
     },
@@ -6611,11 +6019,9 @@ export default {
       "masked": "The weapon has high ____.",
       "options": [
         "damage-mcq-69",
-        "damage-mcq-68",
-        "damage-mcq-67",
-        "damage-mcq-66",
-        "damage-mcq-65",
-        "damage-mcq-64"
+        "damage-mcq-64",
+        "damage-mcq-22",
+        "damage-mcq-47"
       ],
       "explanation": "本句的「damage per second」指「每秒傷害」。",
       "sentenceIndex": 165,
@@ -6624,12 +6030,10 @@ export default {
         "damage per second"
       ],
       "optionReasons": {
-        "damage-mcq-69": "本句指「每秒傷害」。",
-        "damage-mcq-68": "「傷害輸出」與本句語境不同。",
-        "damage-mcq-67": "「受到傷害」與本句語境不同。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。"
+        "damage-mcq-69": "本句的「damage per second」指「每秒傷害」。",
+        "damage-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-69"
     },
@@ -6641,11 +6045,9 @@ export default {
       "masked": "Players often abbreviate damage per second as ____.",
       "options": [
         "damage-mcq-69",
-        "damage-mcq-68",
-        "damage-mcq-67",
-        "damage-mcq-66",
-        "damage-mcq-65",
-        "damage-mcq-64"
+        "damage-mcq-59",
+        "damage-mcq-45",
+        "damage-pdf-006"
       ],
       "explanation": "本句的「DPS」指「每秒傷害」。",
       "sentenceIndex": 166,
@@ -6654,134 +6056,124 @@ export default {
         "DPS"
       ],
       "optionReasons": {
-        "damage-mcq-69": "本句指「每秒傷害」。",
-        "damage-mcq-68": "「傷害輸出」與本句語境不同。",
-        "damage-mcq-67": "「受到傷害」與本句語境不同。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。"
+        "damage-mcq-69": "本句的「DPS」指「每秒傷害」。",
+        "damage-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "damage-mcq-69"
     },
     {
       "id": "damage-86-0",
-      "sense": "damage-mcq-68",
+      "sense": "damage-reviewed-876c49d6ee",
       "en": "Malware can damage files.",
       "zh": "惡意軟件可以損毀檔案。",
       "masked": "Malware can ____.",
       "options": [
-        "damage-mcq-68",
-        "damage-mcq-67",
-        "damage-mcq-69",
-        "damage-mcq-66",
-        "damage-mcq-65",
-        "damage-mcq-64"
+        "damage-reviewed-876c49d6ee",
+        "damage-mcq-24",
+        "damage-mcq-26",
+        "damage-mcq-41"
       ],
-      "explanation": "本句的「damage files」指「傷害輸出」。",
+      "explanation": "對照完整句子：「惡意軟件可以損毀檔案。」。這裡的「damage files」表示「損毀數據／檔案／系統」。",
       "sentenceIndex": 167,
       "sourcePractice": 1,
       "targets": [
         "damage files"
       ],
       "optionReasons": {
-        "damage-mcq-68": "本句指「傷害輸出」。",
-        "damage-mcq-67": "「受到傷害」與本句語境不同。",
-        "damage-mcq-69": "「每秒傷害」與本句語境不同。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。"
+        "damage-reviewed-876c49d6ee": "對照完整句子：「惡意軟件可以損毀檔案。」。這裡的「damage files」表示「損毀數據／檔案／系統」。",
+        "damage-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "damage-mcq-68"
+      "correctOption": "damage-reviewed-876c49d6ee",
+      "previousCorrectOption": "damage-mcq-68",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "damage-86-1",
-      "sense": "damage-mcq-68",
+      "sense": "damage-reviewed-876c49d6ee",
       "en": "Sudden power loss may damage the system.",
       "zh": "突然斷電可能損害系統。",
       "masked": "Sudden power loss may ____ the system.",
       "options": [
-        "damage-mcq-68",
-        "damage-mcq-67",
-        "damage-mcq-69",
-        "damage-mcq-66",
-        "damage-mcq-65",
-        "damage-mcq-64"
+        "damage-reviewed-876c49d6ee",
+        "damage-mcq-60",
+        "damage-mcq-36",
+        "damage-reviewed-13c47ebcfa"
       ],
-      "explanation": "本句的「damage」指「傷害輸出」。",
+      "explanation": "對照完整句子：「突然斷電可能損害系統。」。這裡的「damage」表示「損毀數據／檔案／系統」。",
       "sentenceIndex": 168,
       "sourcePractice": 2,
       "targets": [
         "damage"
       ],
       "optionReasons": {
-        "damage-mcq-68": "本句指「傷害輸出」。",
-        "damage-mcq-67": "「受到傷害」與本句語境不同。",
-        "damage-mcq-69": "「每秒傷害」與本句語境不同。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。"
+        "damage-reviewed-876c49d6ee": "對照完整句子：「突然斷電可能損害系統。」。這裡的「damage」表示「損毀數據／檔案／系統」。",
+        "damage-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "damage-reviewed-13c47ebcfa": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "damage-mcq-68"
+      "correctOption": "damage-reviewed-876c49d6ee",
+      "previousCorrectOption": "damage-mcq-68",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "damage-87-0",
-      "sense": "damage-mcq-68",
+      "sense": "damage-reviewed-48ae888ace",
       "en": "The backup contained several damaged files.",
       "zh": "備份中有數個受損檔案。",
       "masked": "The backup contained several ____.",
       "options": [
-        "damage-mcq-68",
-        "damage-mcq-67",
-        "damage-mcq-69",
-        "damage-mcq-66",
-        "damage-mcq-65",
-        "damage-mcq-64"
+        "damage-reviewed-48ae888ace",
+        "damage-mcq-22",
+        "damage-pdf-006",
+        "damage-mcq-68"
       ],
-      "explanation": "本句的「damaged files」指「傷害輸出」。",
+      "explanation": "對照完整句子：「備份中有數個受損檔案。」。這裡的「damaged files」表示「損毀檔案」。",
       "sentenceIndex": 169,
       "sourcePractice": 1,
       "targets": [
         "damaged files"
       ],
       "optionReasons": {
-        "damage-mcq-68": "本句指「傷害輸出」。",
-        "damage-mcq-67": "「受到傷害」與本句語境不同。",
-        "damage-mcq-69": "「每秒傷害」與本句語境不同。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。"
+        "damage-reviewed-48ae888ace": "對照完整句子：「備份中有數個受損檔案。」。這裡的「damaged files」表示「損毀檔案」。",
+        "damage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "damage-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "damage-mcq-68"
+      "correctOption": "damage-reviewed-48ae888ace",
+      "previousCorrectOption": "damage-mcq-68",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "damage-87-1",
-      "sense": "damage-mcq-68",
+      "sense": "damage-reviewed-48ae888ace",
       "en": "A damaged file may be unreadable.",
       "zh": "損毀檔案可能無法讀取。",
       "masked": "A ____ file may be unreadable.",
       "options": [
-        "damage-mcq-68",
-        "damage-mcq-67",
-        "damage-mcq-69",
-        "damage-mcq-66",
-        "damage-mcq-65",
-        "damage-mcq-64"
+        "damage-reviewed-48ae888ace",
+        "damage-mcq-40",
+        "damage-mcq-62",
+        "damage-mcq-23"
       ],
-      "explanation": "本句的「damaged」指「傷害輸出」。",
+      "explanation": "對照完整句子：「損毀檔案可能無法讀取。」。這裡的「damaged」表示「損毀檔案」。",
       "sentenceIndex": 170,
       "sourcePractice": 2,
       "targets": [
         "damaged"
       ],
       "optionReasons": {
-        "damage-mcq-68": "本句指「傷害輸出」。",
-        "damage-mcq-67": "「受到傷害」與本句語境不同。",
-        "damage-mcq-69": "「每秒傷害」與本句語境不同。",
-        "damage-mcq-66": "「造成傷害」與本句語境不同。",
-        "damage-mcq-65": "「傷害值」與本句語境不同。",
-        "damage-mcq-64": "「總共多少錢？」與本句語境不同。"
+        "damage-reviewed-48ae888ace": "對照完整句子：「損毀檔案可能無法讀取。」。這裡的「damaged」表示「損毀檔案」。",
+        "damage-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "damage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "damage-mcq-68"
+      "correctOption": "damage-reviewed-48ae888ace",
+      "previousCorrectOption": "damage-mcq-68",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -6791,5 +6183,7 @@ export default {
     "sha256": "54c46bc38b5cac44e9634dedbbb93962bac493ea932943cea285940d0fb75b66",
     "pages": 55
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

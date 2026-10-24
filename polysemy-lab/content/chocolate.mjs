@@ -430,11 +430,7 @@ export default {
       "masked": "I love ____.",
       "options": [
         "chocolate-mcq-01",
-        "chocolate-mcq-02",
-        "chocolate-mcq-03",
-        "chocolate-mcq-04",
-        "chocolate-mcq-05",
-        "chocolate-mcq-06"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolate」指「朱古力」。",
       "sentenceIndex": 0,
@@ -443,12 +439,8 @@ export default {
         "chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-01": "本句指「朱古力」。",
-        "chocolate-mcq-02": "「一排朱古力」與本句語境不同。",
-        "chocolate-mcq-03": "「一塊朱古力」與本句語境不同。",
-        "chocolate-mcq-04": "「一顆朱古力糖」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。"
+        "chocolate-mcq-01": "本句的「chocolate」指「朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-01"
     },
@@ -460,11 +452,7 @@ export default {
       "masked": "The cake contains a lot of ____.",
       "options": [
         "chocolate-mcq-01",
-        "chocolate-mcq-02",
-        "chocolate-mcq-03",
-        "chocolate-mcq-04",
-        "chocolate-mcq-05",
-        "chocolate-mcq-06"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolate」指「朱古力」。",
       "sentenceIndex": 1,
@@ -473,12 +461,8 @@ export default {
         "chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-01": "本句指「朱古力」。",
-        "chocolate-mcq-02": "「一排朱古力」與本句語境不同。",
-        "chocolate-mcq-03": "「一塊朱古力」與本句語境不同。",
-        "chocolate-mcq-04": "「一顆朱古力糖」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。"
+        "chocolate-mcq-01": "本句的「chocolate」指「朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-01"
     },
@@ -490,11 +474,7 @@ export default {
       "masked": "Melt the ____ slowly.",
       "options": [
         "chocolate-mcq-01",
-        "chocolate-mcq-02",
-        "chocolate-mcq-03",
-        "chocolate-mcq-04",
-        "chocolate-mcq-05",
-        "chocolate-mcq-06"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolate」指「朱古力」。",
       "sentenceIndex": 2,
@@ -503,12 +483,8 @@ export default {
         "chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-01": "本句指「朱古力」。",
-        "chocolate-mcq-02": "「一排朱古力」與本句語境不同。",
-        "chocolate-mcq-03": "「一塊朱古力」與本句語境不同。",
-        "chocolate-mcq-04": "「一顆朱古力糖」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。"
+        "chocolate-mcq-01": "本句的「chocolate」指「朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-01"
     },
@@ -520,11 +496,7 @@ export default {
       "masked": "She bought ____.",
       "options": [
         "chocolate-mcq-02",
-        "chocolate-mcq-01",
-        "chocolate-mcq-03",
-        "chocolate-mcq-04",
-        "chocolate-mcq-05",
-        "chocolate-mcq-06"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「a bar of chocolate」指「一排朱古力」。",
       "sentenceIndex": 3,
@@ -533,12 +505,8 @@ export default {
         "a bar of chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-02": "本句指「一排朱古力」。",
-        "chocolate-mcq-01": "「朱古力」與本句語境不同。",
-        "chocolate-mcq-03": "「一塊朱古力」與本句語境不同。",
-        "chocolate-mcq-04": "「一顆朱古力糖」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。"
+        "chocolate-mcq-02": "本句的「a bar of chocolate」指「一排朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-02"
     },
@@ -550,11 +518,7 @@ export default {
       "masked": "I ate half a ____.",
       "options": [
         "chocolate-mcq-02",
-        "chocolate-mcq-01",
-        "chocolate-mcq-03",
-        "chocolate-mcq-04",
-        "chocolate-mcq-05",
-        "chocolate-mcq-06"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「bar of chocolate」指「一排朱古力」。",
       "sentenceIndex": 4,
@@ -563,12 +527,8 @@ export default {
         "bar of chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-02": "本句指「一排朱古力」。",
-        "chocolate-mcq-01": "「朱古力」與本句語境不同。",
-        "chocolate-mcq-03": "「一塊朱古力」與本句語境不同。",
-        "chocolate-mcq-04": "「一顆朱古力糖」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。"
+        "chocolate-mcq-02": "本句的「bar of chocolate」指「一排朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-02"
     },
@@ -580,11 +540,7 @@ export default {
       "masked": "Would you like ____?",
       "options": [
         "chocolate-mcq-03",
-        "chocolate-mcq-02",
-        "chocolate-mcq-04",
-        "chocolate-mcq-01",
-        "chocolate-mcq-05",
-        "chocolate-mcq-06"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「a piece of chocolate」指「一塊朱古力」。",
       "sentenceIndex": 5,
@@ -593,12 +549,8 @@ export default {
         "a piece of chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-03": "本句指「一塊朱古力」。",
-        "chocolate-mcq-02": "「一排朱古力」與本句語境不同。",
-        "chocolate-mcq-04": "「一顆朱古力糖」與本句語境不同。",
-        "chocolate-mcq-01": "「朱古力」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。"
+        "chocolate-mcq-03": "本句的「a piece of chocolate」指「一塊朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-03"
     },
@@ -610,11 +562,7 @@ export default {
       "masked": "She gave me a small ____.",
       "options": [
         "chocolate-mcq-03",
-        "chocolate-mcq-02",
-        "chocolate-mcq-04",
-        "chocolate-mcq-01",
-        "chocolate-mcq-05",
-        "chocolate-mcq-06"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「piece of chocolate」指「一塊朱古力」。",
       "sentenceIndex": 6,
@@ -623,12 +571,8 @@ export default {
         "piece of chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-03": "本句指「一塊朱古力」。",
-        "chocolate-mcq-02": "「一排朱古力」與本句語境不同。",
-        "chocolate-mcq-04": "「一顆朱古力糖」與本句語境不同。",
-        "chocolate-mcq-01": "「朱古力」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。"
+        "chocolate-mcq-03": "本句的「piece of chocolate」指「一塊朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-03"
     },
@@ -640,11 +584,7 @@ export default {
       "masked": "I sometimes gave people ____ as gifts.",
       "options": [
         "chocolate-mcq-04",
-        "chocolate-mcq-03",
-        "chocolate-mcq-05",
-        "chocolate-mcq-02",
-        "chocolate-mcq-06",
-        "chocolate-mcq-01"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolates」指「一顆朱古力糖」。",
       "sentenceIndex": 7,
@@ -653,12 +593,8 @@ export default {
         "chocolates"
       ],
       "optionReasons": {
-        "chocolate-mcq-04": "本句指「一顆朱古力糖」。",
-        "chocolate-mcq-03": "「一塊朱古力」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-02": "「一排朱古力」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。",
-        "chocolate-mcq-01": "「朱古力」與本句語境不同。"
+        "chocolate-mcq-04": "本句的「chocolates」指「一顆朱古力糖」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-04"
     },
@@ -670,11 +606,7 @@ export default {
       "masked": "She offered me ____ from the box.",
       "options": [
         "chocolate-mcq-04",
-        "chocolate-mcq-03",
-        "chocolate-mcq-05",
-        "chocolate-mcq-02",
-        "chocolate-mcq-06",
-        "chocolate-mcq-01"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「a chocolate」指「一顆朱古力糖」。",
       "sentenceIndex": 8,
@@ -683,12 +615,8 @@ export default {
         "a chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-04": "本句指「一顆朱古力糖」。",
-        "chocolate-mcq-03": "「一塊朱古力」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-02": "「一排朱古力」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。",
-        "chocolate-mcq-01": "「朱古力」與本句語境不同。"
+        "chocolate-mcq-04": "本句的「a chocolate」指「一顆朱古力糖」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-04"
     },
@@ -700,11 +628,7 @@ export default {
       "masked": "He bought a box of ____ for his mother.",
       "options": [
         "chocolate-mcq-04",
-        "chocolate-mcq-03",
-        "chocolate-mcq-05",
-        "chocolate-mcq-02",
-        "chocolate-mcq-06",
-        "chocolate-mcq-01"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolates」指「一顆朱古力糖」。",
       "sentenceIndex": 9,
@@ -713,12 +637,8 @@ export default {
         "chocolates"
       ],
       "optionReasons": {
-        "chocolate-mcq-04": "本句指「一顆朱古力糖」。",
-        "chocolate-mcq-03": "「一塊朱古力」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-02": "「一排朱古力」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。",
-        "chocolate-mcq-01": "「朱古力」與本句語境不同。"
+        "chocolate-mcq-04": "本句的「chocolates」指「一顆朱古力糖」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-04"
     },
@@ -730,11 +650,7 @@ export default {
       "masked": "He gave her ____.",
       "options": [
         "chocolate-mcq-06",
-        "chocolate-mcq-05",
-        "chocolate-mcq-07",
-        "chocolate-mcq-04",
-        "chocolate-mcq-08",
-        "chocolate-mcq-03"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「a box of chocolates」指「一盒朱古力」。",
       "sentenceIndex": 10,
@@ -743,12 +659,8 @@ export default {
         "a box of chocolates"
       ],
       "optionReasons": {
-        "chocolate-mcq-06": "本句指「一盒朱古力」。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-07": "「黑朱古力」與本句語境不同。",
-        "chocolate-mcq-04": "「一顆朱古力糖」與本句語境不同。",
-        "chocolate-mcq-08": "「牛奶朱古力」與本句語境不同。",
-        "chocolate-mcq-03": "「一塊朱古力」與本句語境不同。"
+        "chocolate-mcq-06": "本句的「a box of chocolates」指「一盒朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-06"
     },
@@ -760,11 +672,7 @@ export default {
       "masked": "We opened ____ after dinner.",
       "options": [
         "chocolate-mcq-06",
-        "chocolate-mcq-05",
-        "chocolate-mcq-07",
-        "chocolate-mcq-04",
-        "chocolate-mcq-08",
-        "chocolate-mcq-03"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「a box of chocolates」指「一盒朱古力」。",
       "sentenceIndex": 11,
@@ -773,12 +681,8 @@ export default {
         "a box of chocolates"
       ],
       "optionReasons": {
-        "chocolate-mcq-06": "本句指「一盒朱古力」。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-07": "「黑朱古力」與本句語境不同。",
-        "chocolate-mcq-04": "「一顆朱古力糖」與本句語境不同。",
-        "chocolate-mcq-08": "「牛奶朱古力」與本句語境不同。",
-        "chocolate-mcq-03": "「一塊朱古力」與本句語境不同。"
+        "chocolate-mcq-06": "本句的「a box of chocolates」指「一盒朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-06"
     },
@@ -790,11 +694,7 @@ export default {
       "masked": "I prefer ____ to milk chocolate.",
       "options": [
         "chocolate-mcq-07",
-        "chocolate-mcq-06",
-        "chocolate-mcq-08",
-        "chocolate-mcq-05",
-        "chocolate-mcq-09",
-        "chocolate-mcq-04"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「dark chocolate」指「黑朱古力」。",
       "sentenceIndex": 12,
@@ -803,12 +703,8 @@ export default {
         "dark chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-07": "本句指「黑朱古力」。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。",
-        "chocolate-mcq-08": "「牛奶朱古力」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-09": "「白朱古力」與本句語境不同。",
-        "chocolate-mcq-04": "「一顆朱古力糖」與本句語境不同。"
+        "chocolate-mcq-07": "本句的「dark chocolate」指「黑朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-07"
     },
@@ -820,11 +716,7 @@ export default {
       "masked": "This cake is made with ____.",
       "options": [
         "chocolate-mcq-07",
-        "chocolate-mcq-06",
-        "chocolate-mcq-08",
-        "chocolate-mcq-05",
-        "chocolate-mcq-09",
-        "chocolate-mcq-04"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「dark chocolate」指「黑朱古力」。",
       "sentenceIndex": 13,
@@ -833,12 +725,8 @@ export default {
         "dark chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-07": "本句指「黑朱古力」。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。",
-        "chocolate-mcq-08": "「牛奶朱古力」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-09": "「白朱古力」與本句語境不同。",
-        "chocolate-mcq-04": "「一顆朱古力糖」與本句語境不同。"
+        "chocolate-mcq-07": "本句的「dark chocolate」指「黑朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-07"
     },
@@ -850,11 +738,7 @@ export default {
       "masked": "Most children prefer ____.",
       "options": [
         "chocolate-mcq-08",
-        "chocolate-mcq-07",
-        "chocolate-mcq-09",
-        "chocolate-mcq-06",
-        "chocolate-mcq-10",
-        "chocolate-mcq-05"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「milk chocolate」指「牛奶朱古力」。",
       "sentenceIndex": 14,
@@ -863,12 +747,8 @@ export default {
         "milk chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-08": "本句指「牛奶朱古力」。",
-        "chocolate-mcq-07": "「黑朱古力」與本句語境不同。",
-        "chocolate-mcq-09": "「白朱古力」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。",
-        "chocolate-mcq-10": "「熱朱古力」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。"
+        "chocolate-mcq-08": "本句的「milk chocolate」指「牛奶朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-08"
     },
@@ -880,11 +760,7 @@ export default {
       "masked": "The biscuit is covered in ____.",
       "options": [
         "chocolate-mcq-08",
-        "chocolate-mcq-07",
-        "chocolate-mcq-09",
-        "chocolate-mcq-06",
-        "chocolate-mcq-10",
-        "chocolate-mcq-05"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「milk chocolate」指「牛奶朱古力」。",
       "sentenceIndex": 15,
@@ -893,12 +769,8 @@ export default {
         "milk chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-08": "本句指「牛奶朱古力」。",
-        "chocolate-mcq-07": "「黑朱古力」與本句語境不同。",
-        "chocolate-mcq-09": "「白朱古力」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。",
-        "chocolate-mcq-10": "「熱朱古力」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。"
+        "chocolate-mcq-08": "本句的「milk chocolate」指「牛奶朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-08"
     },
@@ -910,11 +782,7 @@ export default {
       "masked": "She decorated the cake with ____.",
       "options": [
         "chocolate-mcq-09",
-        "chocolate-mcq-08",
-        "chocolate-mcq-10",
-        "chocolate-mcq-07",
-        "chocolate-mcq-11",
-        "chocolate-mcq-06"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「white chocolate」指「白朱古力」。",
       "sentenceIndex": 16,
@@ -923,12 +791,8 @@ export default {
         "white chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-09": "本句指「白朱古力」。",
-        "chocolate-mcq-08": "「牛奶朱古力」與本句語境不同。",
-        "chocolate-mcq-10": "「熱朱古力」與本句語境不同。",
-        "chocolate-mcq-07": "「黑朱古力」與本句語境不同。",
-        "chocolate-mcq-11": "「一杯熱朱古力」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。"
+        "chocolate-mcq-09": "本句的「white chocolate」指「白朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-09"
     },
@@ -940,11 +804,7 @@ export default {
       "masked": "____ has a very sweet flavour.",
       "options": [
         "chocolate-mcq-09",
-        "chocolate-mcq-08",
-        "chocolate-mcq-10",
-        "chocolate-mcq-07",
-        "chocolate-mcq-11",
-        "chocolate-mcq-06"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「White chocolate」指「白朱古力」。",
       "sentenceIndex": 17,
@@ -953,12 +813,8 @@ export default {
         "White chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-09": "本句指「白朱古力」。",
-        "chocolate-mcq-08": "「牛奶朱古力」與本句語境不同。",
-        "chocolate-mcq-10": "「熱朱古力」與本句語境不同。",
-        "chocolate-mcq-07": "「黑朱古力」與本句語境不同。",
-        "chocolate-mcq-11": "「一杯熱朱古力」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。"
+        "chocolate-mcq-09": "本句的「White chocolate」指「白朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-09"
     },
@@ -970,11 +826,7 @@ export default {
       "masked": "I ordered a ____.",
       "options": [
         "chocolate-mcq-10",
-        "chocolate-mcq-09",
-        "chocolate-mcq-11",
-        "chocolate-mcq-08",
-        "chocolate-mcq-12",
-        "chocolate-mcq-07"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「hot chocolate」指「熱朱古力」。",
       "sentenceIndex": 18,
@@ -983,12 +835,8 @@ export default {
         "hot chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-10": "本句指「熱朱古力」。",
-        "chocolate-mcq-09": "「白朱古力」與本句語境不同。",
-        "chocolate-mcq-11": "「一杯熱朱古力」與本句語境不同。",
-        "chocolate-mcq-08": "「牛奶朱古力」與本句語境不同。",
-        "chocolate-mcq-12": "「朱古力蛋糕」與本句語境不同。",
-        "chocolate-mcq-07": "「黑朱古力」與本句語境不同。"
+        "chocolate-mcq-10": "本句的「hot chocolate」指「熱朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-10"
     },
@@ -1000,11 +848,7 @@ export default {
       "masked": "She drank ____ before bed.",
       "options": [
         "chocolate-mcq-10",
-        "chocolate-mcq-09",
-        "chocolate-mcq-11",
-        "chocolate-mcq-08",
-        "chocolate-mcq-12",
-        "chocolate-mcq-07"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「hot chocolate」指「熱朱古力」。",
       "sentenceIndex": 19,
@@ -1013,12 +857,8 @@ export default {
         "hot chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-10": "本句指「熱朱古力」。",
-        "chocolate-mcq-09": "「白朱古力」與本句語境不同。",
-        "chocolate-mcq-11": "「一杯熱朱古力」與本句語境不同。",
-        "chocolate-mcq-08": "「牛奶朱古力」與本句語境不同。",
-        "chocolate-mcq-12": "「朱古力蛋糕」與本句語境不同。",
-        "chocolate-mcq-07": "「黑朱古力」與本句語境不同。"
+        "chocolate-mcq-10": "本句的「hot chocolate」指「熱朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-10"
     },
@@ -1030,11 +870,7 @@ export default {
       "masked": "Can I have ____, please?",
       "options": [
         "chocolate-mcq-11",
-        "chocolate-mcq-10",
-        "chocolate-mcq-12",
-        "chocolate-mcq-09",
-        "chocolate-mcq-13",
-        "chocolate-mcq-08"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「a hot chocolate」指「一杯熱朱古力」。",
       "sentenceIndex": 20,
@@ -1043,12 +879,8 @@ export default {
         "a hot chocolate"
       ],
       "optionReasons": {
-        "chocolate-mcq-11": "本句指「一杯熱朱古力」。",
-        "chocolate-mcq-10": "「熱朱古力」與本句語境不同。",
-        "chocolate-mcq-12": "「朱古力蛋糕」與本句語境不同。",
-        "chocolate-mcq-09": "「白朱古力」與本句語境不同。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。",
-        "chocolate-mcq-08": "「牛奶朱古力」與本句語境不同。"
+        "chocolate-mcq-11": "本句的「a hot chocolate」指「一杯熱朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-11"
     },
@@ -1060,11 +892,7 @@ export default {
       "masked": "We ordered two ____.",
       "options": [
         "chocolate-mcq-11",
-        "chocolate-mcq-10",
-        "chocolate-mcq-12",
-        "chocolate-mcq-09",
-        "chocolate-mcq-13",
-        "chocolate-mcq-08"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「hot chocolates」指「一杯熱朱古力」。",
       "sentenceIndex": 21,
@@ -1073,12 +901,8 @@ export default {
         "hot chocolates"
       ],
       "optionReasons": {
-        "chocolate-mcq-11": "本句指「一杯熱朱古力」。",
-        "chocolate-mcq-10": "「熱朱古力」與本句語境不同。",
-        "chocolate-mcq-12": "「朱古力蛋糕」與本句語境不同。",
-        "chocolate-mcq-09": "「白朱古力」與本句語境不同。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。",
-        "chocolate-mcq-08": "「牛奶朱古力」與本句語境不同。"
+        "chocolate-mcq-11": "本句的「hot chocolates」指「一杯熱朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-11"
     },
@@ -1090,11 +914,7 @@ export default {
       "masked": "She made a ____.",
       "options": [
         "chocolate-mcq-12",
-        "chocolate-mcq-11",
-        "chocolate-mcq-13",
-        "chocolate-mcq-10",
-        "chocolate-mcq-14",
-        "chocolate-mcq-09"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolate cake」指「朱古力蛋糕」。",
       "sentenceIndex": 22,
@@ -1103,12 +923,8 @@ export default {
         "chocolate cake"
       ],
       "optionReasons": {
-        "chocolate-mcq-12": "本句指「朱古力蛋糕」。",
-        "chocolate-mcq-11": "「一杯熱朱古力」與本句語境不同。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。",
-        "chocolate-mcq-10": "「熱朱古力」與本句語境不同。",
-        "chocolate-mcq-14": "「朱古力包裹的」與本句語境不同。",
-        "chocolate-mcq-09": "「白朱古力」與本句語境不同。"
+        "chocolate-mcq-12": "本句的「chocolate cake」指「朱古力蛋糕」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-12"
     },
@@ -1120,11 +936,7 @@ export default {
       "masked": "My favourite flavour is ____.",
       "options": [
         "chocolate-mcq-12",
-        "chocolate-mcq-11",
-        "chocolate-mcq-13",
-        "chocolate-mcq-10",
-        "chocolate-mcq-14",
-        "chocolate-mcq-09"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolate ice cream」指「朱古力蛋糕」。",
       "sentenceIndex": 23,
@@ -1133,12 +945,8 @@ export default {
         "chocolate ice cream"
       ],
       "optionReasons": {
-        "chocolate-mcq-12": "本句指「朱古力蛋糕」。",
-        "chocolate-mcq-11": "「一杯熱朱古力」與本句語境不同。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。",
-        "chocolate-mcq-10": "「熱朱古力」與本句語境不同。",
-        "chocolate-mcq-14": "「朱古力包裹的」與本句語境不同。",
-        "chocolate-mcq-09": "「白朱古力」與本句語境不同。"
+        "chocolate-mcq-12": "本句的「chocolate ice cream」指「朱古力蛋糕」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-12"
     },
@@ -1150,11 +958,7 @@ export default {
       "masked": "This drink has a strong ____.",
       "options": [
         "chocolate-mcq-13",
-        "chocolate-mcq-12",
-        "chocolate-mcq-14",
-        "chocolate-mcq-11",
-        "chocolate-mcq-15",
-        "chocolate-mcq-10"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolate flavour」指「朱古力味的」。",
       "sentenceIndex": 24,
@@ -1163,12 +967,8 @@ export default {
         "chocolate flavour"
       ],
       "optionReasons": {
-        "chocolate-mcq-13": "本句指「朱古力味的」。",
-        "chocolate-mcq-12": "「朱古力蛋糕」與本句語境不同。",
-        "chocolate-mcq-14": "「朱古力包裹的」與本句語境不同。",
-        "chocolate-mcq-11": "「一杯熱朱古力」與本句語境不同。",
-        "chocolate-mcq-15": "「朱古力啡」與本句語境不同。",
-        "chocolate-mcq-10": "「熱朱古力」與本句語境不同。"
+        "chocolate-mcq-13": "本句的「chocolate flavour」指「朱古力味的」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-13"
     },
@@ -1180,11 +980,7 @@ export default {
       "masked": "She bought ____.",
       "options": [
         "chocolate-mcq-13",
-        "chocolate-mcq-12",
-        "chocolate-mcq-14",
-        "chocolate-mcq-11",
-        "chocolate-mcq-15",
-        "chocolate-mcq-10"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolate-flavoured milk」指「朱古力味的」。",
       "sentenceIndex": 25,
@@ -1193,12 +989,8 @@ export default {
         "chocolate-flavoured milk"
       ],
       "optionReasons": {
-        "chocolate-mcq-13": "本句指「朱古力味的」。",
-        "chocolate-mcq-12": "「朱古力蛋糕」與本句語境不同。",
-        "chocolate-mcq-14": "「朱古力包裹的」與本句語境不同。",
-        "chocolate-mcq-11": "「一杯熱朱古力」與本句語境不同。",
-        "chocolate-mcq-15": "「朱古力啡」與本句語境不同。",
-        "chocolate-mcq-10": "「熱朱古力」與本句語境不同。"
+        "chocolate-mcq-13": "本句的「chocolate-flavoured milk」指「朱古力味的」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-13"
     },
@@ -1210,11 +1002,7 @@ export default {
       "masked": "We bought ____.",
       "options": [
         "chocolate-mcq-14",
-        "chocolate-mcq-13",
-        "chocolate-mcq-15",
-        "chocolate-mcq-12",
-        "chocolate-mcq-16",
-        "chocolate-mcq-11"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolate-covered strawberries」指「朱古力包裹的」。",
       "sentenceIndex": 26,
@@ -1223,12 +1011,8 @@ export default {
         "chocolate-covered strawberries"
       ],
       "optionReasons": {
-        "chocolate-mcq-14": "本句指「朱古力包裹的」。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。",
-        "chocolate-mcq-15": "「朱古力啡」與本句語境不同。",
-        "chocolate-mcq-12": "「朱古力蛋糕」與本句語境不同。",
-        "chocolate-mcq-16": "「朱古力味濃的」與本句語境不同。",
-        "chocolate-mcq-11": "「一杯熱朱古力」與本句語境不同。"
+        "chocolate-mcq-14": "本句的「chocolate-covered strawberries」指「朱古力包裹的」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-14"
     },
@@ -1240,11 +1024,7 @@ export default {
       "masked": "He likes ____.",
       "options": [
         "chocolate-mcq-14",
-        "chocolate-mcq-13",
-        "chocolate-mcq-15",
-        "chocolate-mcq-12",
-        "chocolate-mcq-16",
-        "chocolate-mcq-11"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolate-covered biscuits」指「朱古力包裹的」。",
       "sentenceIndex": 27,
@@ -1253,12 +1033,8 @@ export default {
         "chocolate-covered biscuits"
       ],
       "optionReasons": {
-        "chocolate-mcq-14": "本句指「朱古力包裹的」。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。",
-        "chocolate-mcq-15": "「朱古力啡」與本句語境不同。",
-        "chocolate-mcq-12": "「朱古力蛋糕」與本句語境不同。",
-        "chocolate-mcq-16": "「朱古力味濃的」與本句語境不同。",
-        "chocolate-mcq-11": "「一杯熱朱古力」與本句語境不同。"
+        "chocolate-mcq-14": "本句的「chocolate-covered biscuits」指「朱古力包裹的」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-14"
     },
@@ -1270,11 +1046,7 @@ export default {
       "masked": "She wore a ____.",
       "options": [
         "chocolate-mcq-01",
-        "chocolate-mcq-02",
-        "chocolate-mcq-03",
-        "chocolate-mcq-04",
-        "chocolate-mcq-05",
-        "chocolate-mcq-06"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolate-brown coat」指「朱古力」。",
       "sentenceIndex": 28,
@@ -1283,12 +1055,8 @@ export default {
         "chocolate-brown coat"
       ],
       "optionReasons": {
-        "chocolate-mcq-01": "本句指「朱古力」。",
-        "chocolate-mcq-02": "「一排朱古力」與本句語境不同。",
-        "chocolate-mcq-03": "「一塊朱古力」與本句語境不同。",
-        "chocolate-mcq-04": "「一顆朱古力糖」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。"
+        "chocolate-mcq-01": "本句的「chocolate-brown coat」指「朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-01"
     },
@@ -1300,11 +1068,7 @@ export default {
       "masked": "The sofa is a deep ____.",
       "options": [
         "chocolate-mcq-01",
-        "chocolate-mcq-02",
-        "chocolate-mcq-03",
-        "chocolate-mcq-04",
-        "chocolate-mcq-05",
-        "chocolate-mcq-06"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolate colour」指「朱古力」。",
       "sentenceIndex": 29,
@@ -1313,12 +1077,8 @@ export default {
         "chocolate colour"
       ],
       "optionReasons": {
-        "chocolate-mcq-01": "本句指「朱古力」。",
-        "chocolate-mcq-02": "「一排朱古力」與本句語境不同。",
-        "chocolate-mcq-03": "「一塊朱古力」與本句語境不同。",
-        "chocolate-mcq-04": "「一顆朱古力糖」與本句語境不同。",
-        "chocolate-mcq-05": "「朱古力糖」與本句語境不同。",
-        "chocolate-mcq-06": "「一盒朱古力」與本句語境不同。"
+        "chocolate-mcq-01": "本句的「chocolate colour」指「朱古力」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-01"
     },
@@ -1330,11 +1090,7 @@ export default {
       "masked": "The walls were painted ____.",
       "options": [
         "chocolate-mcq-15",
-        "chocolate-mcq-14",
-        "chocolate-mcq-16",
-        "chocolate-mcq-13",
-        "chocolate-mcq-17",
-        "chocolate-mcq-12"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolate brown」指「朱古力啡」。",
       "sentenceIndex": 30,
@@ -1343,12 +1099,8 @@ export default {
         "chocolate brown"
       ],
       "optionReasons": {
-        "chocolate-mcq-15": "本句指「朱古力啡」。",
-        "chocolate-mcq-14": "「朱古力包裹的」與本句語境不同。",
-        "chocolate-mcq-16": "「朱古力味濃的」與本句語境不同。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。",
-        "chocolate-mcq-17": "「朱古力製作師／店家」與本句語境不同。",
-        "chocolate-mcq-12": "「朱古力蛋糕」與本句語境不同。"
+        "chocolate-mcq-15": "本句的「chocolate brown」指「朱古力啡」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-15"
     },
@@ -1360,11 +1112,7 @@ export default {
       "masked": "She chose a ____ leather bag.",
       "options": [
         "chocolate-mcq-15",
-        "chocolate-mcq-14",
-        "chocolate-mcq-16",
-        "chocolate-mcq-13",
-        "chocolate-mcq-17",
-        "chocolate-mcq-12"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolate-brown」指「朱古力啡」。",
       "sentenceIndex": 31,
@@ -1373,12 +1121,8 @@ export default {
         "chocolate-brown"
       ],
       "optionReasons": {
-        "chocolate-mcq-15": "本句指「朱古力啡」。",
-        "chocolate-mcq-14": "「朱古力包裹的」與本句語境不同。",
-        "chocolate-mcq-16": "「朱古力味濃的」與本句語境不同。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。",
-        "chocolate-mcq-17": "「朱古力製作師／店家」與本句語境不同。",
-        "chocolate-mcq-12": "「朱古力蛋糕」與本句語境不同。"
+        "chocolate-mcq-15": "本句的「chocolate-brown」指「朱古力啡」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-15"
     },
@@ -1390,11 +1134,7 @@ export default {
       "masked": "The dessert is rich and ____.",
       "options": [
         "chocolate-mcq-16",
-        "chocolate-mcq-15",
-        "chocolate-mcq-17",
-        "chocolate-mcq-14",
-        "chocolate-mcq-18",
-        "chocolate-mcq-13"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolatey」指「朱古力味濃的」。",
       "sentenceIndex": 32,
@@ -1403,12 +1143,8 @@ export default {
         "chocolatey"
       ],
       "optionReasons": {
-        "chocolate-mcq-16": "本句指「朱古力味濃的」。",
-        "chocolate-mcq-15": "「朱古力啡」與本句語境不同。",
-        "chocolate-mcq-17": "「朱古力製作師／店家」與本句語境不同。",
-        "chocolate-mcq-14": "「朱古力包裹的」與本句語境不同。",
-        "chocolate-mcq-18": "「如畫般漂亮的」與本句語境不同。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。"
+        "chocolate-mcq-16": "本句的「chocolatey」指「朱古力味濃的」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-16"
     },
@@ -1420,11 +1156,7 @@ export default {
       "masked": "I like a really ____ cake.",
       "options": [
         "chocolate-mcq-16",
-        "chocolate-mcq-15",
-        "chocolate-mcq-17",
-        "chocolate-mcq-14",
-        "chocolate-mcq-18",
-        "chocolate-mcq-13"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolatey」指「朱古力味濃的」。",
       "sentenceIndex": 33,
@@ -1433,12 +1165,8 @@ export default {
         "chocolatey"
       ],
       "optionReasons": {
-        "chocolate-mcq-16": "本句指「朱古力味濃的」。",
-        "chocolate-mcq-15": "「朱古力啡」與本句語境不同。",
-        "chocolate-mcq-17": "「朱古力製作師／店家」與本句語境不同。",
-        "chocolate-mcq-14": "「朱古力包裹的」與本句語境不同。",
-        "chocolate-mcq-18": "「如畫般漂亮的」與本句語境不同。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。"
+        "chocolate-mcq-16": "本句的「chocolatey」指「朱古力味濃的」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-16"
     },
@@ -1450,11 +1178,7 @@ export default {
       "masked": "The ____ makes everything by hand.",
       "options": [
         "chocolate-mcq-17",
-        "chocolate-mcq-16",
-        "chocolate-mcq-18",
-        "chocolate-mcq-15",
-        "chocolate-mcq-14",
-        "chocolate-mcq-13"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolatier」指「朱古力製作師／店家」。",
       "sentenceIndex": 34,
@@ -1463,12 +1187,8 @@ export default {
         "chocolatier"
       ],
       "optionReasons": {
-        "chocolate-mcq-17": "本句指「朱古力製作師／店家」。",
-        "chocolate-mcq-16": "「朱古力味濃的」與本句語境不同。",
-        "chocolate-mcq-18": "「如畫般漂亮的」與本句語境不同。",
-        "chocolate-mcq-15": "「朱古力啡」與本句語境不同。",
-        "chocolate-mcq-14": "「朱古力包裹的」與本句語境不同。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。"
+        "chocolate-mcq-17": "本句的「chocolatier」指「朱古力製作師／店家」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-17"
     },
@@ -1480,11 +1200,7 @@ export default {
       "masked": "We visited a famous Belgian ____.",
       "options": [
         "chocolate-mcq-17",
-        "chocolate-mcq-16",
-        "chocolate-mcq-18",
-        "chocolate-mcq-15",
-        "chocolate-mcq-14",
-        "chocolate-mcq-13"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「chocolatier」指「朱古力製作師／店家」。",
       "sentenceIndex": 35,
@@ -1493,12 +1209,8 @@ export default {
         "chocolatier"
       ],
       "optionReasons": {
-        "chocolate-mcq-17": "本句指「朱古力製作師／店家」。",
-        "chocolate-mcq-16": "「朱古力味濃的」與本句語境不同。",
-        "chocolate-mcq-18": "「如畫般漂亮的」與本句語境不同。",
-        "chocolate-mcq-15": "「朱古力啡」與本句語境不同。",
-        "chocolate-mcq-14": "「朱古力包裹的」與本句語境不同。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。"
+        "chocolate-mcq-17": "本句的「chocolatier」指「朱古力製作師／店家」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-17"
     },
@@ -1510,11 +1222,7 @@ export default {
       "masked": "Choosing from those jobs felt ____—each one was different.",
       "options": [
         "chocolate-mcq-17",
-        "chocolate-mcq-16",
-        "chocolate-mcq-18",
-        "chocolate-mcq-15",
-        "chocolate-mcq-14",
-        "chocolate-mcq-13"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「like a box of chocolates」指「朱古力製作師／店家」。",
       "sentenceIndex": 36,
@@ -1523,12 +1231,8 @@ export default {
         "like a box of chocolates"
       ],
       "optionReasons": {
-        "chocolate-mcq-17": "本句指「朱古力製作師／店家」。",
-        "chocolate-mcq-16": "「朱古力味濃的」與本句語境不同。",
-        "chocolate-mcq-18": "「如畫般漂亮的」與本句語境不同。",
-        "chocolate-mcq-15": "「朱古力啡」與本句語境不同。",
-        "chocolate-mcq-14": "「朱古力包裹的」與本句語境不同。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。"
+        "chocolate-mcq-17": "本句的「like a box of chocolates」指「朱古力製作師／店家」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-17"
     },
@@ -1540,11 +1244,7 @@ export default {
       "masked": "The collection is ____: every story has a different flavour.",
       "options": [
         "chocolate-mcq-17",
-        "chocolate-mcq-16",
-        "chocolate-mcq-18",
-        "chocolate-mcq-15",
-        "chocolate-mcq-14",
-        "chocolate-mcq-13"
+        "chocolate-mcq-18"
       ],
       "explanation": "本句的「like a box of chocolates」指「朱古力製作師／店家」。",
       "sentenceIndex": 37,
@@ -1553,12 +1253,8 @@ export default {
         "like a box of chocolates"
       ],
       "optionReasons": {
-        "chocolate-mcq-17": "本句指「朱古力製作師／店家」。",
-        "chocolate-mcq-16": "「朱古力味濃的」與本句語境不同。",
-        "chocolate-mcq-18": "「如畫般漂亮的」與本句語境不同。",
-        "chocolate-mcq-15": "「朱古力啡」與本句語境不同。",
-        "chocolate-mcq-14": "「朱古力包裹的」與本句語境不同。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。"
+        "chocolate-mcq-17": "本句的「like a box of chocolates」指「朱古力製作師／店家」。",
+        "chocolate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-17"
     },
@@ -1570,11 +1266,7 @@ export default {
       "masked": "They stayed in a ____.",
       "options": [
         "chocolate-mcq-18",
-        "chocolate-mcq-17",
-        "chocolate-mcq-16",
-        "chocolate-mcq-15",
-        "chocolate-mcq-14",
-        "chocolate-mcq-13"
+        "chocolate-mcq-01"
       ],
       "explanation": "本句的「chocolate-box village」指「如畫般漂亮的」。",
       "sentenceIndex": 38,
@@ -1583,12 +1275,8 @@ export default {
         "chocolate-box village"
       ],
       "optionReasons": {
-        "chocolate-mcq-18": "本句指「如畫般漂亮的」。",
-        "chocolate-mcq-17": "「朱古力製作師／店家」與本句語境不同。",
-        "chocolate-mcq-16": "「朱古力味濃的」與本句語境不同。",
-        "chocolate-mcq-15": "「朱古力啡」與本句語境不同。",
-        "chocolate-mcq-14": "「朱古力包裹的」與本句語境不同。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。"
+        "chocolate-mcq-18": "本句的「chocolate-box village」指「如畫般漂亮的」。",
+        "chocolate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-18"
     },
@@ -1600,11 +1288,7 @@ export default {
       "masked": "The cottage has a ____.",
       "options": [
         "chocolate-mcq-18",
-        "chocolate-mcq-17",
-        "chocolate-mcq-16",
-        "chocolate-mcq-15",
-        "chocolate-mcq-14",
-        "chocolate-mcq-13"
+        "chocolate-mcq-04"
       ],
       "explanation": "本句的「chocolate-box appearance」指「如畫般漂亮的」。",
       "sentenceIndex": 39,
@@ -1613,12 +1297,8 @@ export default {
         "chocolate-box appearance"
       ],
       "optionReasons": {
-        "chocolate-mcq-18": "本句指「如畫般漂亮的」。",
-        "chocolate-mcq-17": "「朱古力製作師／店家」與本句語境不同。",
-        "chocolate-mcq-16": "「朱古力味濃的」與本句語境不同。",
-        "chocolate-mcq-15": "「朱古力啡」與本句語境不同。",
-        "chocolate-mcq-14": "「朱古力包裹的」與本句語境不同。",
-        "chocolate-mcq-13": "「朱古力味的」與本句語境不同。"
+        "chocolate-mcq-18": "本句的「chocolate-box appearance」指「如畫般漂亮的」。",
+        "chocolate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chocolate-mcq-18"
     }
@@ -1630,5 +1310,7 @@ export default {
     "sha256": "d88c1080dda43bb8698d8b16eb6d76d95057a2d98a8bdad057d626c3888624e2",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

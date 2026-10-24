@@ -1087,11 +1087,9 @@ export default {
       "masked": "The compliance team ____.",
       "options": [
         "caution-pdf-001",
-        "caution-mcq-28",
+        "caution-mcq-11",
         "caution-mcq-30",
-        "caution-mcq-27",
-        "caution-mcq-31",
-        "caution-mcq-26"
+        "caution-mcq-40"
       ],
       "explanation": "本句的「insists on caution」指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
       "sentenceIndex": 0,
@@ -1100,12 +1098,10 @@ export default {
         "insists on caution"
       ],
       "optionReasons": {
-        "caution-pdf-001": "本句指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
-        "caution-mcq-26": "「警示性的」與本句語境不同。"
+        "caution-pdf-001": "本句的「insists on caution」指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
+        "caution-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-pdf-001"
     },
@@ -1117,11 +1113,9 @@ export default {
       "masked": "____ is necessary when making major financial decisions.",
       "options": [
         "caution-pdf-001",
-        "caution-mcq-28",
-        "caution-mcq-30",
-        "caution-mcq-27",
-        "caution-mcq-31",
-        "caution-mcq-26"
+        "caution-mcq-21",
+        "caution-mcq-16",
+        "caution-mcq-34"
       ],
       "explanation": "本句的「Caution」指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
       "sentenceIndex": 1,
@@ -1130,12 +1124,10 @@ export default {
         "Caution"
       ],
       "optionReasons": {
-        "caution-pdf-001": "本句指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
-        "caution-mcq-26": "「警示性的」與本句語境不同。"
+        "caution-pdf-001": "本句的「Caution」指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
+        "caution-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-pdf-001"
     },
@@ -1147,11 +1139,9 @@ export default {
       "masked": "The situation requires both speed and ____.",
       "options": [
         "caution-pdf-001",
-        "caution-mcq-28",
-        "caution-mcq-30",
-        "caution-mcq-27",
-        "caution-mcq-31",
-        "caution-mcq-26"
+        "caution-mcq-25",
+        "caution-mcq-15",
+        "caution-mcq-42"
       ],
       "explanation": "本句的「caution」指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
       "sentenceIndex": 2,
@@ -1160,12 +1150,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-pdf-001": "本句指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
-        "caution-mcq-26": "「警示性的」與本句語境不同。"
+        "caution-pdf-001": "本句的「caution」指「為避免危險、錯誤或不必要風險而採取的小心態度」。",
+        "caution-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-pdf-001"
     },
@@ -1177,11 +1165,9 @@ export default {
       "masked": "Employees should ____ when handling confidential information.",
       "options": [
         "caution-mcq-02",
-        "caution-mcq-01",
-        "caution-mcq-03",
-        "caution-mcq-04",
-        "caution-mcq-05",
-        "caution-mcq-06"
+        "caution-mcq-36",
+        "caution-mcq-42",
+        "caution-pdf-002"
       ],
       "explanation": "本句的「exercise caution」指「保持謹慎」。",
       "sentenceIndex": 3,
@@ -1190,12 +1176,10 @@ export default {
         "exercise caution"
       ],
       "optionReasons": {
-        "caution-mcq-02": "本句指「保持謹慎」。",
-        "caution-mcq-01": "「謹慎；小心」與本句語境不同。",
-        "caution-mcq-03": "「小心行事」與本句語境不同。",
-        "caution-mcq-04": "「謹慎進行」與本句語境不同。",
-        "caution-mcq-05": "「謹慎處理」與本句語境不同。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。"
+        "caution-mcq-02": "本句的「exercise caution」指「保持謹慎」。",
+        "caution-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-02"
     },
@@ -1207,11 +1191,9 @@ export default {
       "masked": "Investors are advised to exercise ____.",
       "options": [
         "caution-mcq-02",
-        "caution-mcq-01",
-        "caution-mcq-03",
-        "caution-mcq-04",
-        "caution-mcq-05",
-        "caution-mcq-06"
+        "caution-mcq-19",
+        "caution-pdf-006",
+        "caution-mcq-18"
       ],
       "explanation": "本句的「caution」指「保持謹慎」。",
       "sentenceIndex": 4,
@@ -1220,12 +1202,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-02": "本句指「保持謹慎」。",
-        "caution-mcq-01": "「謹慎；小心」與本句語境不同。",
-        "caution-mcq-03": "「小心行事」與本句語境不同。",
-        "caution-mcq-04": "「謹慎進行」與本句語境不同。",
-        "caution-mcq-05": "「謹慎處理」與本句語境不同。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。"
+        "caution-mcq-02": "本句的「caution」指「保持謹慎」。",
+        "caution-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-02"
     },
@@ -1237,11 +1217,9 @@ export default {
       "masked": "____ when opening the container.",
       "options": [
         "caution-mcq-03",
-        "caution-mcq-02",
-        "caution-mcq-04",
-        "caution-mcq-01",
-        "caution-mcq-05",
-        "caution-mcq-06"
+        "caution-mcq-14",
+        "caution-pdf-003",
+        "caution-mcq-12"
       ],
       "explanation": "本句的「Use caution」指「小心行事」。",
       "sentenceIndex": 5,
@@ -1250,12 +1228,10 @@ export default {
         "Use caution"
       ],
       "optionReasons": {
-        "caution-mcq-03": "本句指「小心行事」。",
-        "caution-mcq-02": "「保持謹慎」與本句語境不同。",
-        "caution-mcq-04": "「謹慎進行」與本句語境不同。",
-        "caution-mcq-01": "「謹慎；小心」與本句語境不同。",
-        "caution-mcq-05": "「謹慎處理」與本句語境不同。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。"
+        "caution-mcq-03": "本句的「Use caution」指「小心行事」。",
+        "caution-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-03"
     },
@@ -1267,11 +1243,9 @@ export default {
       "masked": "Drivers should use ____ in heavy rain.",
       "options": [
         "caution-mcq-03",
-        "caution-mcq-02",
-        "caution-mcq-04",
-        "caution-mcq-01",
-        "caution-mcq-05",
-        "caution-mcq-06"
+        "caution-pdf-003",
+        "caution-mcq-13",
+        "caution-mcq-41"
       ],
       "explanation": "本句的「caution」指「小心行事」。",
       "sentenceIndex": 6,
@@ -1280,12 +1254,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-03": "本句指「小心行事」。",
-        "caution-mcq-02": "「保持謹慎」與本句語境不同。",
-        "caution-mcq-04": "「謹慎進行」與本句語境不同。",
-        "caution-mcq-01": "「謹慎；小心」與本句語境不同。",
-        "caution-mcq-05": "「謹慎處理」與本句語境不同。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。"
+        "caution-mcq-03": "本句的「caution」指「小心行事」。",
+        "caution-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-03"
     },
@@ -1297,11 +1269,9 @@ export default {
       "masked": "The team decided to ____.",
       "options": [
         "caution-mcq-04",
-        "caution-mcq-03",
-        "caution-mcq-05",
-        "caution-mcq-02",
-        "caution-mcq-06",
-        "caution-mcq-01"
+        "caution-mcq-19",
+        "caution-mcq-44",
+        "caution-mcq-38"
       ],
       "explanation": "本句的「proceed with caution」指「謹慎進行」。",
       "sentenceIndex": 7,
@@ -1310,12 +1280,10 @@ export default {
         "proceed with caution"
       ],
       "optionReasons": {
-        "caution-mcq-04": "本句指「謹慎進行」。",
-        "caution-mcq-03": "「小心行事」與本句語境不同。",
-        "caution-mcq-05": "「謹慎處理」與本句語境不同。",
-        "caution-mcq-02": "「保持謹慎」與本句語境不同。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。",
-        "caution-mcq-01": "「謹慎；小心」與本句語境不同。"
+        "caution-mcq-04": "本句的「proceed with caution」指「謹慎進行」。",
+        "caution-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-04"
     },
@@ -1327,11 +1295,9 @@ export default {
       "masked": "We can continue, but we should proceed with ____.",
       "options": [
         "caution-mcq-04",
-        "caution-mcq-03",
-        "caution-mcq-05",
-        "caution-mcq-02",
-        "caution-mcq-06",
-        "caution-mcq-01"
+        "caution-mcq-22",
+        "caution-mcq-38",
+        "caution-mcq-27"
       ],
       "explanation": "本句的「caution」指「謹慎進行」。",
       "sentenceIndex": 8,
@@ -1340,12 +1306,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-04": "本句指「謹慎進行」。",
-        "caution-mcq-03": "「小心行事」與本句語境不同。",
-        "caution-mcq-05": "「謹慎處理」與本句語境不同。",
-        "caution-mcq-02": "「保持謹慎」與本句語境不同。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。",
-        "caution-mcq-01": "「謹慎；小心」與本句語境不同。"
+        "caution-mcq-04": "本句的「caution」指「謹慎進行」。",
+        "caution-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-04"
     },
@@ -1357,11 +1321,9 @@ export default {
       "masked": "Managers should ____.",
       "options": [
         "caution-mcq-05",
-        "caution-mcq-04",
-        "caution-mcq-06",
-        "caution-mcq-03",
-        "caution-mcq-07",
-        "caution-mcq-02"
+        "caution-mcq-36",
+        "caution-mcq-38",
+        "caution-mcq-40"
       ],
       "explanation": "本句的「approach the change with caution」指「謹慎處理」。",
       "sentenceIndex": 9,
@@ -1370,12 +1332,10 @@ export default {
         "approach the change with caution"
       ],
       "optionReasons": {
-        "caution-mcq-05": "本句指「謹慎處理」。",
-        "caution-mcq-04": "「謹慎進行」與本句語境不同。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。",
-        "caution-mcq-03": "「小心行事」與本句語境不同。",
-        "caution-mcq-07": "「極度謹慎」與本句語境不同。",
-        "caution-mcq-02": "「保持謹慎」與本句語境不同。"
+        "caution-mcq-05": "本句的「approach the change with caution」指「謹慎處理」。",
+        "caution-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-05"
     },
@@ -1387,11 +1347,9 @@ export default {
       "masked": "New technology should be approached with ____ when the risks are unclear.",
       "options": [
         "caution-mcq-05",
-        "caution-mcq-04",
-        "caution-mcq-06",
-        "caution-mcq-03",
-        "caution-mcq-07",
-        "caution-mcq-02"
+        "caution-mcq-31",
+        "caution-pdf-002",
+        "caution-mcq-18"
       ],
       "explanation": "本句的「caution」指「謹慎處理」。",
       "sentenceIndex": 10,
@@ -1400,12 +1358,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-05": "本句指「謹慎處理」。",
-        "caution-mcq-04": "「謹慎進行」與本句語境不同。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。",
-        "caution-mcq-03": "「小心行事」與本句語境不同。",
-        "caution-mcq-07": "「極度謹慎」與本句語境不同。",
-        "caution-mcq-02": "「保持謹慎」與本句語境不同。"
+        "caution-mcq-05": "本句的「caution」指「謹慎處理」。",
+        "caution-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-05"
     },
@@ -1417,11 +1373,9 @@ export default {
       "masked": "These figures should be ____.",
       "options": [
         "caution-mcq-06",
-        "caution-mcq-05",
-        "caution-mcq-07",
-        "caution-mcq-04",
-        "caution-mcq-08",
-        "caution-mcq-03"
+        "caution-mcq-18",
+        "caution-mcq-27",
+        "caution-pdf-006"
       ],
       "explanation": "本句的「treated with caution」指「審慎看待」。",
       "sentenceIndex": 11,
@@ -1430,12 +1384,10 @@ export default {
         "treated with caution"
       ],
       "optionReasons": {
-        "caution-mcq-06": "本句指「審慎看待」。",
-        "caution-mcq-05": "「謹慎處理」與本句語境不同。",
-        "caution-mcq-07": "「極度謹慎」與本句語境不同。",
-        "caution-mcq-04": "「謹慎進行」與本句語境不同。",
-        "caution-mcq-08": "「應有的謹慎」與本句語境不同。",
-        "caution-mcq-03": "「小心行事」與本句語境不同。"
+        "caution-mcq-06": "本句的「treated with caution」指「審慎看待」。",
+        "caution-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-06"
     },
@@ -1447,11 +1399,9 @@ export default {
       "masked": "The early results must be interpreted with ____.",
       "options": [
         "caution-mcq-06",
-        "caution-mcq-05",
-        "caution-mcq-07",
-        "caution-mcq-04",
-        "caution-mcq-08",
-        "caution-mcq-03"
+        "caution-pdf-002",
+        "caution-mcq-26",
+        "caution-mcq-18"
       ],
       "explanation": "本句的「caution」指「審慎看待」。",
       "sentenceIndex": 12,
@@ -1460,12 +1410,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-06": "本句指「審慎看待」。",
-        "caution-mcq-05": "「謹慎處理」與本句語境不同。",
-        "caution-mcq-07": "「極度謹慎」與本句語境不同。",
-        "caution-mcq-04": "「謹慎進行」與本句語境不同。",
-        "caution-mcq-08": "「應有的謹慎」與本句語境不同。",
-        "caution-mcq-03": "「小心行事」與本句語境不同。"
+        "caution-mcq-06": "本句的「caution」指「審慎看待」。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-06"
     },
@@ -1477,11 +1425,9 @@ export default {
       "masked": "The chemicals must be handled with ____.",
       "options": [
         "caution-mcq-07",
-        "caution-mcq-06",
-        "caution-mcq-08",
-        "caution-mcq-05",
-        "caution-mcq-09",
-        "caution-mcq-04"
+        "caution-mcq-33",
+        "caution-mcq-38",
+        "caution-mcq-43"
       ],
       "explanation": "本句的「extreme caution」指「極度謹慎」。",
       "sentenceIndex": 13,
@@ -1490,12 +1436,10 @@ export default {
         "extreme caution"
       ],
       "optionReasons": {
-        "caution-mcq-07": "本句指「極度謹慎」。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。",
-        "caution-mcq-08": "「應有的謹慎」與本句語境不同。",
-        "caution-mcq-05": "「謹慎處理」與本句語境不同。",
-        "caution-mcq-09": "「建議謹慎」與本句語境不同。",
-        "caution-mcq-04": "「謹慎進行」與本句語境不同。"
+        "caution-mcq-07": "本句的「extreme caution」指「極度謹慎」。",
+        "caution-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-07"
     },
@@ -1507,11 +1451,9 @@ export default {
       "masked": "Extreme ____ is required in severe weather.",
       "options": [
         "caution-mcq-07",
-        "caution-mcq-06",
-        "caution-mcq-08",
-        "caution-mcq-05",
-        "caution-mcq-09",
-        "caution-mcq-04"
+        "caution-mcq-32",
+        "caution-mcq-23",
+        "caution-pdf-002"
       ],
       "explanation": "本句的「caution」指「極度謹慎」。",
       "sentenceIndex": 14,
@@ -1520,12 +1462,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-07": "本句指「極度謹慎」。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。",
-        "caution-mcq-08": "「應有的謹慎」與本句語境不同。",
-        "caution-mcq-05": "「謹慎處理」與本句語境不同。",
-        "caution-mcq-09": "「建議謹慎」與本句語境不同。",
-        "caution-mcq-04": "「謹慎進行」與本句語境不同。"
+        "caution-mcq-07": "本句的「caution」指「極度謹慎」。",
+        "caution-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-07"
     },
@@ -1537,11 +1477,9 @@ export default {
       "masked": "The proposal should be considered with ____.",
       "options": [
         "caution-mcq-07",
-        "caution-mcq-06",
-        "caution-mcq-08",
-        "caution-mcq-05",
-        "caution-mcq-09",
-        "caution-mcq-04"
+        "caution-mcq-42",
+        "caution-mcq-30",
+        "caution-mcq-38"
       ],
       "explanation": "本句的「considerable caution」指「極度謹慎」。",
       "sentenceIndex": 15,
@@ -1550,12 +1488,10 @@ export default {
         "considerable caution"
       ],
       "optionReasons": {
-        "caution-mcq-07": "本句指「極度謹慎」。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。",
-        "caution-mcq-08": "「應有的謹慎」與本句語境不同。",
-        "caution-mcq-05": "「謹慎處理」與本句語境不同。",
-        "caution-mcq-09": "「建議謹慎」與本句語境不同。",
-        "caution-mcq-04": "「謹慎進行」與本句語境不同。"
+        "caution-mcq-07": "本句的「considerable caution」指「極度謹慎」。",
+        "caution-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-07"
     },
@@ -1567,11 +1503,9 @@ export default {
       "masked": "Doctors approached the unusual case with great ____.",
       "options": [
         "caution-mcq-07",
-        "caution-mcq-06",
-        "caution-mcq-08",
-        "caution-mcq-05",
-        "caution-mcq-09",
-        "caution-mcq-04"
+        "caution-pdf-003",
+        "caution-mcq-44",
+        "caution-mcq-27"
       ],
       "explanation": "本句的「caution」指「極度謹慎」。",
       "sentenceIndex": 16,
@@ -1580,12 +1514,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-07": "本句指「極度謹慎」。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。",
-        "caution-mcq-08": "「應有的謹慎」與本句語境不同。",
-        "caution-mcq-05": "「謹慎處理」與本句語境不同。",
-        "caution-mcq-09": "「建議謹慎」與本句語境不同。",
-        "caution-mcq-04": "「謹慎進行」與本句語境不同。"
+        "caution-mcq-07": "本句的「caution」指「極度謹慎」。",
+        "caution-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-07"
     },
@@ -1597,11 +1529,9 @@ export default {
       "masked": "The decision was made with ____.",
       "options": [
         "caution-mcq-08",
-        "caution-mcq-07",
-        "caution-mcq-09",
-        "caution-mcq-06",
-        "caution-mcq-10",
-        "caution-mcq-05"
+        "caution-mcq-27",
+        "caution-mcq-22",
+        "caution-mcq-44"
       ],
       "explanation": "本句的「due caution」指「應有的謹慎」。",
       "sentenceIndex": 17,
@@ -1610,12 +1540,10 @@ export default {
         "due caution"
       ],
       "optionReasons": {
-        "caution-mcq-08": "本句指「應有的謹慎」。",
-        "caution-mcq-07": "「極度謹慎」與本句語境不同。",
-        "caution-mcq-09": "「建議謹慎」與本句語境不同。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。",
-        "caution-mcq-10": "「謹慎的」與本句語境不同。",
-        "caution-mcq-05": "「謹慎處理」與本句語境不同。"
+        "caution-mcq-08": "本句的「due caution」指「應有的謹慎」。",
+        "caution-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-08"
     },
@@ -1627,11 +1555,9 @@ export default {
       "masked": "Staff should exercise due ____ before releasing information.",
       "options": [
         "caution-mcq-08",
-        "caution-mcq-07",
-        "caution-mcq-09",
-        "caution-mcq-06",
-        "caution-mcq-10",
-        "caution-mcq-05"
+        "caution-pdf-006",
+        "caution-mcq-36",
+        "caution-mcq-23"
       ],
       "explanation": "本句的「caution」指「應有的謹慎」。",
       "sentenceIndex": 18,
@@ -1640,12 +1566,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-08": "本句指「應有的謹慎」。",
-        "caution-mcq-07": "「極度謹慎」與本句語境不同。",
-        "caution-mcq-09": "「建議謹慎」與本句語境不同。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。",
-        "caution-mcq-10": "「謹慎的」與本句語境不同。",
-        "caution-mcq-05": "「謹慎處理」與本句語境不同。"
+        "caution-mcq-08": "本句的「caution」指「應有的謹慎」。",
+        "caution-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-08"
     },
@@ -1657,11 +1581,9 @@ export default {
       "masked": "____ when interpreting small samples.",
       "options": [
         "caution-mcq-09",
-        "caution-mcq-08",
-        "caution-mcq-10",
-        "caution-mcq-07",
-        "caution-mcq-11",
-        "caution-mcq-06"
+        "caution-mcq-41",
+        "caution-mcq-36",
+        "caution-mcq-38"
       ],
       "explanation": "本句的「Caution is advised」指「建議謹慎」。",
       "sentenceIndex": 19,
@@ -1670,12 +1592,10 @@ export default {
         "Caution is advised"
       ],
       "optionReasons": {
-        "caution-mcq-09": "本句指「建議謹慎」。",
-        "caution-mcq-08": "「應有的謹慎」與本句語境不同。",
-        "caution-mcq-10": "「謹慎的」與本句語境不同。",
-        "caution-mcq-07": "「極度謹慎」與本句語境不同。",
-        "caution-mcq-11": "「謹慎方針」與本句語境不同。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。"
+        "caution-mcq-09": "本句的「Caution is advised」指「建議謹慎」。",
+        "caution-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-09"
     },
@@ -1687,11 +1607,9 @@ export default {
       "masked": "____ is advised during periods of severe market volatility.",
       "options": [
         "caution-mcq-09",
-        "caution-mcq-08",
-        "caution-mcq-10",
-        "caution-mcq-07",
-        "caution-mcq-11",
-        "caution-mcq-06"
+        "caution-mcq-22",
+        "caution-pdf-002",
+        "caution-mcq-27"
       ],
       "explanation": "本句的「Caution」指「建議謹慎」。",
       "sentenceIndex": 20,
@@ -1700,12 +1618,10 @@ export default {
         "Caution"
       ],
       "optionReasons": {
-        "caution-mcq-09": "本句指「建議謹慎」。",
-        "caution-mcq-08": "「應有的謹慎」與本句語境不同。",
-        "caution-mcq-10": "「謹慎的」與本句語境不同。",
-        "caution-mcq-07": "「極度謹慎」與本句語境不同。",
-        "caution-mcq-11": "「謹慎方針」與本句語境不同。",
-        "caution-mcq-06": "「審慎看待」與本句語境不同。"
+        "caution-mcq-09": "本句的「Caution」指「建議謹慎」。",
+        "caution-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-09"
     },
@@ -1717,11 +1633,9 @@ export default {
       "masked": "The compliance team favoured ____.",
       "options": [
         "caution-mcq-10",
-        "caution-mcq-09",
-        "caution-mcq-11",
-        "caution-mcq-08",
-        "caution-mcq-12",
-        "caution-mcq-07"
+        "caution-mcq-33",
+        "caution-mcq-44",
+        "caution-mcq-38"
       ],
       "explanation": "本句的「a cautious approach」指「謹慎的」。",
       "sentenceIndex": 21,
@@ -1730,12 +1644,10 @@ export default {
         "a cautious approach"
       ],
       "optionReasons": {
-        "caution-mcq-10": "本句指「謹慎的」。",
-        "caution-mcq-09": "「建議謹慎」與本句語境不同。",
-        "caution-mcq-11": "「謹慎方針」與本句語境不同。",
-        "caution-mcq-08": "「應有的謹慎」與本句語境不同。",
-        "caution-mcq-12": "「謹慎型投資者」與本句語境不同。",
-        "caution-mcq-07": "「極度謹慎」與本句語境不同。"
+        "caution-mcq-10": "本句的「a cautious approach」指「謹慎的」。",
+        "caution-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-10"
     },
@@ -1747,11 +1659,9 @@ export default {
       "masked": "Management chose to ____ to expansion.",
       "options": [
         "caution-mcq-11",
-        "caution-mcq-10",
-        "caution-mcq-12",
-        "caution-mcq-09",
-        "caution-mcq-13",
-        "caution-mcq-08"
+        "caution-mcq-21",
+        "caution-mcq-27",
+        "caution-mcq-43"
       ],
       "explanation": "本句的「take a cautious approach」指「謹慎方針」。",
       "sentenceIndex": 22,
@@ -1760,12 +1670,10 @@ export default {
         "take a cautious approach"
       ],
       "optionReasons": {
-        "caution-mcq-11": "本句指「謹慎方針」。",
-        "caution-mcq-10": "「謹慎的」與本句語境不同。",
-        "caution-mcq-12": "「謹慎型投資者」與本句語境不同。",
-        "caution-mcq-09": "「建議謹慎」與本句語境不同。",
-        "caution-mcq-13": "「保守／謹慎估計」與本句語境不同。",
-        "caution-mcq-08": "「應有的謹慎」與本句語境不同。"
+        "caution-mcq-11": "本句的「take a cautious approach」指「謹慎方針」。",
+        "caution-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-11"
     },
@@ -1777,11 +1685,9 @@ export default {
       "masked": "The compliance team was more ____.",
       "options": [
         "caution-pdf-002",
-        "caution-mcq-10",
-        "caution-mcq-12",
-        "caution-mcq-09",
-        "caution-mcq-13",
-        "caution-mcq-08"
+        "caution-mcq-28",
+        "caution-mcq-41",
+        "caution-mcq-16"
       ],
       "explanation": "本句的「cautious」指「不輕率行動，會先考慮可能的風險和後果」。",
       "sentenceIndex": 23,
@@ -1790,12 +1696,10 @@ export default {
         "cautious"
       ],
       "optionReasons": {
-        "caution-pdf-002": "本句指「不輕率行動，會先考慮可能的風險和後果」。",
-        "caution-mcq-10": "「謹慎的」與本句語境不同。",
-        "caution-mcq-12": "「謹慎型投資者」與本句語境不同。",
-        "caution-mcq-09": "「建議謹慎」與本句語境不同。",
-        "caution-mcq-13": "「保守／謹慎估計」與本句語境不同。",
-        "caution-mcq-08": "「應有的謹慎」與本句語境不同。"
+        "caution-pdf-002": "本句的「cautious」指「不輕率行動，會先考慮可能的風險和後果」。",
+        "caution-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-pdf-002"
     },
@@ -1807,11 +1711,9 @@ export default {
       "masked": "Investors are ____.",
       "options": [
         "caution-mcq-11",
-        "caution-mcq-10",
-        "caution-mcq-12",
-        "caution-mcq-09",
-        "caution-mcq-13",
-        "caution-mcq-08"
+        "caution-mcq-44",
+        "caution-pdf-002",
+        "caution-mcq-34"
       ],
       "explanation": "本句的「cautious about the outlook」指「謹慎方針」。",
       "sentenceIndex": 24,
@@ -1820,12 +1722,10 @@ export default {
         "cautious about the outlook"
       ],
       "optionReasons": {
-        "caution-mcq-11": "本句指「謹慎方針」。",
-        "caution-mcq-10": "「謹慎的」與本句語境不同。",
-        "caution-mcq-12": "「謹慎型投資者」與本句語境不同。",
-        "caution-mcq-09": "「建議謹慎」與本句語境不同。",
-        "caution-mcq-13": "「保守／謹慎估計」與本句語境不同。",
-        "caution-mcq-08": "「應有的謹慎」與本句語境不同。"
+        "caution-mcq-11": "本句的「cautious about the outlook」指「謹慎方針」。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-11"
     },
@@ -1837,11 +1737,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "caution-mcq-12",
-        "caution-mcq-11",
-        "caution-mcq-13",
-        "caution-mcq-10",
-        "caution-mcq-14",
-        "caution-mcq-09"
+        "caution-mcq-17",
+        "caution-mcq-23",
+        "caution-mcq-41"
       ],
       "explanation": "本句的「cautious in making promises」指「謹慎型投資者」。",
       "sentenceIndex": 25,
@@ -1850,12 +1748,10 @@ export default {
         "cautious in making promises"
       ],
       "optionReasons": {
-        "caution-mcq-12": "本句指「謹慎型投資者」。",
-        "caution-mcq-11": "「謹慎方針」與本句語境不同。",
-        "caution-mcq-13": "「保守／謹慎估計」與本句語境不同。",
-        "caution-mcq-10": "「謹慎的」與本句語境不同。",
-        "caution-mcq-14": "「審慎樂觀」與本句語境不同。",
-        "caution-mcq-09": "「建議謹慎」與本句語境不同。"
+        "caution-mcq-12": "本句的「cautious in making promises」指「謹慎型投資者」。",
+        "caution-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-12"
     },
@@ -1867,11 +1763,9 @@ export default {
       "masked": "The board gave a ____.",
       "options": [
         "caution-mcq-12",
-        "caution-mcq-11",
-        "caution-mcq-13",
-        "caution-mcq-10",
-        "caution-mcq-14",
-        "caution-mcq-09"
+        "caution-mcq-42",
+        "caution-pdf-003",
+        "caution-mcq-18"
       ],
       "explanation": "本句的「cautious response」指「謹慎型投資者」。",
       "sentenceIndex": 26,
@@ -1880,12 +1774,10 @@ export default {
         "cautious response"
       ],
       "optionReasons": {
-        "caution-mcq-12": "本句指「謹慎型投資者」。",
-        "caution-mcq-11": "「謹慎方針」與本句語境不同。",
-        "caution-mcq-13": "「保守／謹慎估計」與本句語境不同。",
-        "caution-mcq-10": "「謹慎的」與本句語境不同。",
-        "caution-mcq-14": "「審慎樂觀」與本句語境不同。",
-        "caution-mcq-09": "「建議謹慎」與本句語境不同。"
+        "caution-mcq-12": "本句的「cautious response」指「謹慎型投資者」。",
+        "caution-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-12"
     },
@@ -1897,11 +1789,9 @@ export default {
       "masked": "A ____ may prefer lower-risk assets.",
       "options": [
         "caution-mcq-12",
-        "caution-mcq-11",
-        "caution-mcq-13",
-        "caution-mcq-10",
-        "caution-mcq-14",
-        "caution-mcq-09"
+        "caution-mcq-20",
+        "caution-mcq-41",
+        "caution-mcq-32"
       ],
       "explanation": "本句的「cautious investor」指「謹慎型投資者」。",
       "sentenceIndex": 27,
@@ -1910,12 +1800,10 @@ export default {
         "cautious investor"
       ],
       "optionReasons": {
-        "caution-mcq-12": "本句指「謹慎型投資者」。",
-        "caution-mcq-11": "「謹慎方針」與本句語境不同。",
-        "caution-mcq-13": "「保守／謹慎估計」與本句語境不同。",
-        "caution-mcq-10": "「謹慎的」與本句語境不同。",
-        "caution-mcq-14": "「審慎樂觀」與本句語境不同。",
-        "caution-mcq-09": "「建議謹慎」與本句語境不同。"
+        "caution-mcq-12": "本句的「cautious investor」指「謹慎型投資者」。",
+        "caution-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-12"
     },
@@ -1927,11 +1815,9 @@ export default {
       "masked": "A ____ puts the cost at around $2 million.",
       "options": [
         "caution-mcq-13",
-        "caution-mcq-12",
-        "caution-mcq-14",
-        "caution-mcq-11",
-        "caution-mcq-15",
-        "caution-mcq-10"
+        "caution-mcq-27",
+        "caution-mcq-44",
+        "caution-mcq-21"
       ],
       "explanation": "本句的「cautious estimate」指「保守／謹慎估計」。",
       "sentenceIndex": 28,
@@ -1940,12 +1826,10 @@ export default {
         "cautious estimate"
       ],
       "optionReasons": {
-        "caution-mcq-13": "本句指「保守／謹慎估計」。",
-        "caution-mcq-12": "「謹慎型投資者」與本句語境不同。",
-        "caution-mcq-14": "「審慎樂觀」與本句語境不同。",
-        "caution-mcq-11": "「謹慎方針」與本句語境不同。",
-        "caution-mcq-15": "「審慎樂觀的」與本句語境不同。",
-        "caution-mcq-10": "「謹慎的」與本句語境不同。"
+        "caution-mcq-13": "本句的「cautious estimate」指「保守／謹慎估計」。",
+        "caution-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-13"
     },
@@ -1957,11 +1841,9 @@ export default {
       "masked": "The results have created ____.",
       "options": [
         "caution-mcq-14",
-        "caution-mcq-13",
-        "caution-mcq-15",
-        "caution-mcq-12",
-        "caution-mcq-16",
-        "caution-mcq-11"
+        "caution-mcq-23",
+        "caution-mcq-30",
+        "caution-mcq-03"
       ],
       "explanation": "本句的「cautious optimism」指「審慎樂觀」。",
       "sentenceIndex": 29,
@@ -1970,12 +1852,10 @@ export default {
         "cautious optimism"
       ],
       "optionReasons": {
-        "caution-mcq-14": "本句指「審慎樂觀」。",
-        "caution-mcq-13": "「保守／謹慎估計」與本句語境不同。",
-        "caution-mcq-15": "「審慎樂觀的」與本句語境不同。",
-        "caution-mcq-12": "「謹慎型投資者」與本句語境不同。",
-        "caution-mcq-16": "「謹慎地」與本句語境不同。",
-        "caution-mcq-11": "「謹慎方針」與本句語境不同。"
+        "caution-mcq-14": "本句的「cautious optimism」指「審慎樂觀」。",
+        "caution-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-14"
     },
@@ -1987,11 +1867,9 @@ export default {
       "masked": "Managers are ____ about the launch.",
       "options": [
         "caution-mcq-15",
-        "caution-mcq-14",
-        "caution-mcq-16",
-        "caution-mcq-13",
-        "caution-mcq-17",
-        "caution-mcq-12"
+        "caution-mcq-42",
+        "caution-mcq-19",
+        "caution-mcq-27"
       ],
       "explanation": "本句的「cautiously optimistic」指「審慎樂觀的」。",
       "sentenceIndex": 30,
@@ -2000,12 +1878,10 @@ export default {
         "cautiously optimistic"
       ],
       "optionReasons": {
-        "caution-mcq-15": "本句指「審慎樂觀的」。",
-        "caution-mcq-14": "「審慎樂觀」與本句語境不同。",
-        "caution-mcq-16": "「謹慎地」與本句語境不同。",
-        "caution-mcq-13": "「保守／謹慎估計」與本句語境不同。",
-        "caution-mcq-17": "「警告／告誡某人」與本句語境不同。",
-        "caution-mcq-12": "「謹慎型投資者」與本句語境不同。"
+        "caution-mcq-15": "本句的「cautiously optimistic」指「審慎樂觀的」。",
+        "caution-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-15"
     },
@@ -2017,11 +1893,9 @@ export default {
       "masked": "The team moved ____.",
       "options": [
         "caution-mcq-16",
-        "caution-mcq-15",
-        "caution-mcq-17",
-        "caution-mcq-14",
-        "caution-mcq-18",
-        "caution-mcq-13"
+        "caution-mcq-19",
+        "caution-mcq-43",
+        "caution-mcq-28"
       ],
       "explanation": "本句的「cautiously」指「謹慎地」。",
       "sentenceIndex": 31,
@@ -2030,12 +1904,10 @@ export default {
         "cautiously"
       ],
       "optionReasons": {
-        "caution-mcq-16": "本句指「謹慎地」。",
-        "caution-mcq-15": "「審慎樂觀的」與本句語境不同。",
-        "caution-mcq-17": "「警告／告誡某人」與本句語境不同。",
-        "caution-mcq-14": "「審慎樂觀」與本句語境不同。",
-        "caution-mcq-18": "「提醒注意 X」與本句語境不同。",
-        "caution-mcq-13": "「保守／謹慎估計」與本句語境不同。"
+        "caution-mcq-16": "本句的「cautiously」指「謹慎地」。",
+        "caution-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-16"
     },
@@ -2047,11 +1919,9 @@ export default {
       "masked": "The manager ____ about rushing.",
       "options": [
         "caution-mcq-17",
-        "caution-mcq-16",
-        "caution-mcq-18",
-        "caution-mcq-15",
-        "caution-mcq-19",
-        "caution-mcq-14"
+        "caution-mcq-14",
+        "caution-mcq-04",
+        "caution-mcq-23"
       ],
       "explanation": "本句的「cautioned the team」指「警告／告誡某人」。",
       "sentenceIndex": 32,
@@ -2060,12 +1930,10 @@ export default {
         "cautioned the team"
       ],
       "optionReasons": {
-        "caution-mcq-17": "本句指「警告／告誡某人」。",
-        "caution-mcq-16": "「謹慎地」與本句語境不同。",
-        "caution-mcq-18": "「提醒注意 X」與本句語境不同。",
-        "caution-mcq-15": "「審慎樂觀的」與本句語境不同。",
-        "caution-mcq-19": "「告誡不要 X」與本句語境不同。",
-        "caution-mcq-14": "「審慎樂觀」與本句語境不同。"
+        "caution-mcq-17": "本句的「cautioned the team」指「警告／告誡某人」。",
+        "caution-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-17"
     },
@@ -2077,11 +1945,9 @@ export default {
       "masked": "Doctors ____ patients about possible side effects.",
       "options": [
         "caution-mcq-17",
-        "caution-mcq-16",
-        "caution-mcq-18",
-        "caution-mcq-15",
-        "caution-mcq-19",
-        "caution-mcq-14"
+        "caution-pdf-002",
+        "caution-mcq-43",
+        "caution-mcq-10"
       ],
       "explanation": "本句的「cautioned」指「警告／告誡某人」。",
       "sentenceIndex": 33,
@@ -2090,12 +1956,10 @@ export default {
         "cautioned"
       ],
       "optionReasons": {
-        "caution-mcq-17": "本句指「警告／告誡某人」。",
-        "caution-mcq-16": "「謹慎地」與本句語境不同。",
-        "caution-mcq-18": "「提醒注意 X」與本句語境不同。",
-        "caution-mcq-15": "「審慎樂觀的」與本句語境不同。",
-        "caution-mcq-19": "「告誡不要 X」與本句語境不同。",
-        "caution-mcq-14": "「審慎樂觀」與本句語境不同。"
+        "caution-mcq-17": "本句的「cautioned」指「警告／告誡某人」。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-17"
     },
@@ -2107,11 +1971,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "caution-mcq-18",
-        "caution-mcq-17",
-        "caution-mcq-19",
-        "caution-mcq-16",
-        "caution-mcq-20",
-        "caution-mcq-15"
+        "caution-mcq-36",
+        "caution-mcq-11",
+        "caution-pdf-006"
       ],
       "explanation": "本句的「cautioned us about the risks」指「提醒注意 X」。",
       "sentenceIndex": 34,
@@ -2120,12 +1982,10 @@ export default {
         "cautioned us about the risks"
       ],
       "optionReasons": {
-        "caution-mcq-18": "本句指「提醒注意 X」。",
-        "caution-mcq-17": "「警告／告誡某人」與本句語境不同。",
-        "caution-mcq-19": "「告誡不要 X」與本句語境不同。",
-        "caution-mcq-16": "「謹慎地」與本句語境不同。",
-        "caution-mcq-20": "「提醒某人要 X」與本句語境不同。",
-        "caution-mcq-15": "「審慎樂觀的」與本句語境不同。"
+        "caution-mcq-18": "本句的「cautioned us about the risks」指「提醒注意 X」。",
+        "caution-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-18"
     },
@@ -2137,11 +1997,9 @@ export default {
       "masked": "The report ____ readers about the limitations of the data.",
       "options": [
         "caution-mcq-18",
-        "caution-mcq-17",
-        "caution-mcq-19",
-        "caution-mcq-16",
-        "caution-mcq-20",
-        "caution-mcq-15"
+        "caution-mcq-32",
+        "caution-mcq-10",
+        "caution-pdf-002"
       ],
       "explanation": "本句的「cautions」指「提醒注意 X」。",
       "sentenceIndex": 35,
@@ -2150,12 +2008,10 @@ export default {
         "cautions"
       ],
       "optionReasons": {
-        "caution-mcq-18": "本句指「提醒注意 X」。",
-        "caution-mcq-17": "「警告／告誡某人」與本句語境不同。",
-        "caution-mcq-19": "「告誡不要 X」與本句語境不同。",
-        "caution-mcq-16": "「謹慎地」與本句語境不同。",
-        "caution-mcq-20": "「提醒某人要 X」與本句語境不同。",
-        "caution-mcq-15": "「審慎樂觀的」與本句語境不同。"
+        "caution-mcq-18": "本句的「cautions」指「提醒注意 X」。",
+        "caution-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-18"
     },
@@ -2167,11 +2023,9 @@ export default {
       "masked": "Experts ____.",
       "options": [
         "caution-mcq-19",
-        "caution-mcq-18",
-        "caution-mcq-20",
-        "caution-mcq-17",
-        "caution-mcq-21",
-        "caution-mcq-16"
+        "caution-mcq-37",
+        "caution-mcq-14",
+        "caution-mcq-43"
       ],
       "explanation": "本句的「cautioned against excessive optimism」指「告誡不要 X」。",
       "sentenceIndex": 36,
@@ -2180,12 +2034,10 @@ export default {
         "cautioned against excessive optimism"
       ],
       "optionReasons": {
-        "caution-mcq-19": "本句指「告誡不要 X」。",
-        "caution-mcq-18": "「提醒注意 X」與本句語境不同。",
-        "caution-mcq-20": "「提醒某人要 X」與本句語境不同。",
-        "caution-mcq-17": "「警告／告誡某人」與本句語境不同。",
-        "caution-mcq-21": "「警告／提醒說……」與本句語境不同。",
-        "caution-mcq-16": "「謹慎地」與本句語境不同。"
+        "caution-mcq-19": "本句的「cautioned against excessive optimism」指「告誡不要 X」。",
+        "caution-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-19"
     },
@@ -2197,11 +2049,9 @@ export default {
       "masked": "The adviser ____ us against making a rushed decision.",
       "options": [
         "caution-mcq-19",
-        "caution-mcq-18",
-        "caution-mcq-20",
-        "caution-mcq-17",
-        "caution-mcq-21",
-        "caution-mcq-16"
+        "caution-mcq-23",
+        "caution-pdf-002",
+        "caution-mcq-37"
       ],
       "explanation": "本句的「cautioned」指「告誡不要 X」。",
       "sentenceIndex": 37,
@@ -2210,12 +2060,10 @@ export default {
         "cautioned"
       ],
       "optionReasons": {
-        "caution-mcq-19": "本句指「告誡不要 X」。",
-        "caution-mcq-18": "「提醒注意 X」與本句語境不同。",
-        "caution-mcq-20": "「提醒某人要 X」與本句語境不同。",
-        "caution-mcq-17": "「警告／告誡某人」與本句語境不同。",
-        "caution-mcq-21": "「警告／提醒說……」與本句語境不同。",
-        "caution-mcq-16": "「謹慎地」與本句語境不同。"
+        "caution-mcq-19": "本句的「cautioned」指「告誡不要 X」。",
+        "caution-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-19"
     },
@@ -2227,11 +2075,9 @@ export default {
       "masked": "The compliance officer ____.",
       "options": [
         "caution-mcq-19",
-        "caution-mcq-18",
-        "caution-mcq-20",
-        "caution-mcq-17",
-        "caution-mcq-21",
-        "caution-mcq-16"
+        "caution-mcq-42",
+        "caution-mcq-07",
+        "caution-mcq-38"
       ],
       "explanation": "本句的「cautioned staff against ignoring the rules」指「告誡不要 X」。",
       "sentenceIndex": 38,
@@ -2240,12 +2086,10 @@ export default {
         "cautioned staff against ignoring the rules"
       ],
       "optionReasons": {
-        "caution-mcq-19": "本句指「告誡不要 X」。",
-        "caution-mcq-18": "「提醒注意 X」與本句語境不同。",
-        "caution-mcq-20": "「提醒某人要 X」與本句語境不同。",
-        "caution-mcq-17": "「警告／告誡某人」與本句語境不同。",
-        "caution-mcq-21": "「警告／提醒說……」與本句語境不同。",
-        "caution-mcq-16": "「謹慎地」與本句語境不同。"
+        "caution-mcq-19": "本句的「cautioned staff against ignoring the rules」指「告誡不要 X」。",
+        "caution-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-19"
     },
@@ -2257,11 +2101,9 @@ export default {
       "masked": "She ____ him against investing too much.",
       "options": [
         "caution-mcq-19",
-        "caution-mcq-18",
-        "caution-mcq-20",
-        "caution-mcq-17",
-        "caution-mcq-21",
-        "caution-mcq-16"
+        "caution-mcq-13",
+        "caution-mcq-43",
+        "caution-mcq-14"
       ],
       "explanation": "本句的「cautioned」指「告誡不要 X」。",
       "sentenceIndex": 39,
@@ -2270,12 +2112,10 @@ export default {
         "cautioned"
       ],
       "optionReasons": {
-        "caution-mcq-19": "本句指「告誡不要 X」。",
-        "caution-mcq-18": "「提醒注意 X」與本句語境不同。",
-        "caution-mcq-20": "「提醒某人要 X」與本句語境不同。",
-        "caution-mcq-17": "「警告／告誡某人」與本句語境不同。",
-        "caution-mcq-21": "「警告／提醒說……」與本句語境不同。",
-        "caution-mcq-16": "「謹慎地」與本句語境不同。"
+        "caution-mcq-19": "本句的「cautioned」指「告誡不要 X」。",
+        "caution-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-19"
     },
@@ -2287,11 +2127,9 @@ export default {
       "masked": "Employees were ____.",
       "options": [
         "caution-mcq-20",
-        "caution-mcq-19",
-        "caution-mcq-21",
-        "caution-mcq-18",
-        "caution-mcq-22",
-        "caution-mcq-17"
+        "caution-mcq-44",
+        "caution-mcq-10",
+        "caution-mcq-26"
       ],
       "explanation": "本句的「cautioned to check the figures carefully」指「提醒某人要 X」。",
       "sentenceIndex": 40,
@@ -2300,12 +2138,10 @@ export default {
         "cautioned to check the figures carefully"
       ],
       "optionReasons": {
-        "caution-mcq-20": "本句指「提醒某人要 X」。",
-        "caution-mcq-19": "「告誡不要 X」與本句語境不同。",
-        "caution-mcq-21": "「警告／提醒說……」與本句語境不同。",
-        "caution-mcq-18": "「提醒注意 X」與本句語境不同。",
-        "caution-mcq-22": "「警告；提醒」與本句語境不同。",
-        "caution-mcq-17": "「警告／告誡某人」與本句語境不同。"
+        "caution-mcq-20": "本句的「cautioned to check the figures carefully」指「提醒某人要 X」。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-20"
     },
@@ -2317,11 +2153,9 @@ export default {
       "masked": "Visitors were ____ to stay on the path.",
       "options": [
         "caution-mcq-20",
-        "caution-mcq-19",
-        "caution-mcq-21",
-        "caution-mcq-18",
-        "caution-mcq-22",
-        "caution-mcq-17"
+        "caution-mcq-16",
+        "caution-mcq-40",
+        "caution-pdf-002"
       ],
       "explanation": "本句的「cautioned」指「提醒某人要 X」。",
       "sentenceIndex": 41,
@@ -2330,12 +2164,10 @@ export default {
         "cautioned"
       ],
       "optionReasons": {
-        "caution-mcq-20": "本句指「提醒某人要 X」。",
-        "caution-mcq-19": "「告誡不要 X」與本句語境不同。",
-        "caution-mcq-21": "「警告／提醒說……」與本句語境不同。",
-        "caution-mcq-18": "「提醒注意 X」與本句語境不同。",
-        "caution-mcq-22": "「警告；提醒」與本句語境不同。",
-        "caution-mcq-17": "「警告／告誡某人」與本句語境不同。"
+        "caution-mcq-20": "本句的「cautioned」指「提醒某人要 X」。",
+        "caution-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-20"
     },
@@ -2347,11 +2179,9 @@ export default {
       "masked": "Analysts ____.",
       "options": [
         "caution-mcq-21",
-        "caution-mcq-20",
-        "caution-mcq-22",
-        "caution-mcq-19",
-        "caution-mcq-23",
-        "caution-mcq-18"
+        "caution-mcq-16",
+        "caution-pdf-001",
+        "caution-mcq-43"
       ],
       "explanation": "本句的「cautioned that the figures were preliminary」指「警告／提醒說……」。",
       "sentenceIndex": 42,
@@ -2360,12 +2190,10 @@ export default {
         "cautioned that the figures were preliminary"
       ],
       "optionReasons": {
-        "caution-mcq-21": "本句指「警告／提醒說……」。",
-        "caution-mcq-20": "「提醒某人要 X」與本句語境不同。",
-        "caution-mcq-22": "「警告；提醒」與本句語境不同。",
-        "caution-mcq-19": "「告誡不要 X」與本句語境不同。",
-        "caution-mcq-23": "「一句提醒」與本句語境不同。",
-        "caution-mcq-18": "「提醒注意 X」與本句語境不同。"
+        "caution-mcq-21": "本句的「cautioned that the figures were preliminary」指「警告／提醒說……」。",
+        "caution-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-21"
     },
@@ -2377,11 +2205,9 @@ export default {
       "masked": "The report ____ that rapid expansion may increase risk.",
       "options": [
         "caution-mcq-21",
-        "caution-mcq-20",
-        "caution-mcq-22",
-        "caution-mcq-19",
-        "caution-mcq-23",
-        "caution-mcq-18"
+        "caution-mcq-13",
+        "caution-mcq-44",
+        "caution-mcq-15"
       ],
       "explanation": "本句的「cautions」指「警告／提醒說……」。",
       "sentenceIndex": 43,
@@ -2390,12 +2216,10 @@ export default {
         "cautions"
       ],
       "optionReasons": {
-        "caution-mcq-21": "本句指「警告／提醒說……」。",
-        "caution-mcq-20": "「提醒某人要 X」與本句語境不同。",
-        "caution-mcq-22": "「警告；提醒」與本句語境不同。",
-        "caution-mcq-19": "「告誡不要 X」與本句語境不同。",
-        "caution-mcq-23": "「一句提醒」與本句語境不同。",
-        "caution-mcq-18": "「提醒注意 X」與本句語境不同。"
+        "caution-mcq-21": "本句的「cautions」指「警告／提醒說……」。",
+        "caution-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-21"
     },
@@ -2407,11 +2231,9 @@ export default {
       "masked": "The lawyer ____.",
       "options": [
         "caution-mcq-21",
-        "caution-mcq-20",
-        "caution-mcq-22",
-        "caution-mcq-19",
-        "caution-mcq-23",
-        "caution-mcq-18"
+        "caution-pdf-006",
+        "caution-mcq-08",
+        "caution-mcq-27"
       ],
       "explanation": "本句的「cautioned him not to make public statements」指「警告／提醒說……」。",
       "sentenceIndex": 44,
@@ -2420,12 +2242,10 @@ export default {
         "cautioned him not to make public statements"
       ],
       "optionReasons": {
-        "caution-mcq-21": "本句指「警告／提醒說……」。",
-        "caution-mcq-20": "「提醒某人要 X」與本句語境不同。",
-        "caution-mcq-22": "「警告；提醒」與本句語境不同。",
-        "caution-mcq-19": "「告誡不要 X」與本句語境不同。",
-        "caution-mcq-23": "「一句提醒」與本句語境不同。",
-        "caution-mcq-18": "「提醒注意 X」與本句語境不同。"
+        "caution-mcq-21": "本句的「cautioned him not to make public statements」指「警告／提醒說……」。",
+        "caution-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-21"
     },
@@ -2437,11 +2257,9 @@ export default {
       "masked": "Staff were ____ not to share confidential information.",
       "options": [
         "caution-mcq-21",
-        "caution-mcq-20",
-        "caution-mcq-22",
-        "caution-mcq-19",
-        "caution-mcq-23",
-        "caution-mcq-18"
+        "caution-mcq-02",
+        "caution-mcq-40",
+        "caution-pdf-002"
       ],
       "explanation": "本句的「cautioned」指「警告／提醒說……」。",
       "sentenceIndex": 45,
@@ -2450,12 +2268,10 @@ export default {
         "cautioned"
       ],
       "optionReasons": {
-        "caution-mcq-21": "本句指「警告／提醒說……」。",
-        "caution-mcq-20": "「提醒某人要 X」與本句語境不同。",
-        "caution-mcq-22": "「警告；提醒」與本句語境不同。",
-        "caution-mcq-19": "「告誡不要 X」與本句語境不同。",
-        "caution-mcq-23": "「一句提醒」與本句語境不同。",
-        "caution-mcq-18": "「提醒注意 X」與本句語境不同。"
+        "caution-mcq-21": "本句的「cautioned」指「警告／提醒說……」。",
+        "caution-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-21"
     },
@@ -2467,11 +2283,9 @@ export default {
       "masked": "The report includes ____.",
       "options": [
         "caution-mcq-22",
-        "caution-mcq-21",
-        "caution-mcq-23",
-        "caution-mcq-20",
-        "caution-mcq-24",
-        "caution-mcq-19"
+        "caution-mcq-42",
+        "caution-mcq-11",
+        "caution-pdf-002"
       ],
       "explanation": "本句的「a caution about interpreting the results」指「警告；提醒」。",
       "sentenceIndex": 46,
@@ -2480,12 +2294,10 @@ export default {
         "a caution about interpreting the results"
       ],
       "optionReasons": {
-        "caution-mcq-22": "本句指「警告；提醒」。",
-        "caution-mcq-21": "「警告／提醒說……」與本句語境不同。",
-        "caution-mcq-23": "「一句提醒」與本句語境不同。",
-        "caution-mcq-20": "「提醒某人要 X」與本句語境不同。",
-        "caution-mcq-24": "「審慎警示」與本句語境不同。",
-        "caution-mcq-19": "「告誡不要 X」與本句語境不同。"
+        "caution-mcq-22": "本句的「a caution about interpreting the results」指「警告；提醒」。",
+        "caution-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-22"
     },
@@ -2497,11 +2309,9 @@ export default {
       "masked": "His comments were intended as a ____.",
       "options": [
         "caution-mcq-22",
-        "caution-mcq-21",
-        "caution-mcq-23",
-        "caution-mcq-20",
-        "caution-mcq-24",
-        "caution-mcq-19"
+        "caution-mcq-08",
+        "caution-mcq-40",
+        "caution-pdf-001"
       ],
       "explanation": "本句的「caution」指「警告；提醒」。",
       "sentenceIndex": 47,
@@ -2510,12 +2320,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-22": "本句指「警告；提醒」。",
-        "caution-mcq-21": "「警告／提醒說……」與本句語境不同。",
-        "caution-mcq-23": "「一句提醒」與本句語境不同。",
-        "caution-mcq-20": "「提醒某人要 X」與本句語境不同。",
-        "caution-mcq-24": "「審慎警示」與本句語境不同。",
-        "caution-mcq-19": "「告誡不要 X」與本句語境不同。"
+        "caution-mcq-22": "本句的「caution」指「警告；提醒」。",
+        "caution-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-22"
     },
@@ -2527,11 +2335,9 @@ export default {
       "masked": "____ the figures are only estimates.",
       "options": [
         "caution-mcq-23",
-        "caution-mcq-22",
-        "caution-mcq-24",
-        "caution-mcq-21",
-        "caution-mcq-25",
-        "caution-mcq-20"
+        "caution-mcq-32",
+        "caution-mcq-12",
+        "caution-mcq-43"
       ],
       "explanation": "本句的「A word of caution:」指「一句提醒」。",
       "sentenceIndex": 48,
@@ -2540,12 +2346,10 @@ export default {
         "A word of caution:"
       ],
       "optionReasons": {
-        "caution-mcq-23": "本句指「一句提醒」。",
-        "caution-mcq-22": "「警告；提醒」與本句語境不同。",
-        "caution-mcq-24": "「審慎警示」與本句語境不同。",
-        "caution-mcq-21": "「警告／提醒說……」與本句語境不同。",
-        "caution-mcq-25": "「提醒保持謹慎」與本句語境不同。",
-        "caution-mcq-20": "「提醒某人要 X」與本句語境不同。"
+        "caution-mcq-23": "本句的「A word of caution:」指「一句提醒」。",
+        "caution-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-23"
     },
@@ -2557,11 +2361,9 @@ export default {
       "masked": "Before we continue, I'd like to offer a word of ____.",
       "options": [
         "caution-mcq-23",
-        "caution-mcq-22",
-        "caution-mcq-24",
-        "caution-mcq-21",
-        "caution-mcq-25",
-        "caution-mcq-20"
+        "caution-pdf-006",
+        "caution-mcq-14",
+        "caution-mcq-12"
       ],
       "explanation": "本句的「caution」指「一句提醒」。",
       "sentenceIndex": 49,
@@ -2570,12 +2372,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-23": "本句指「一句提醒」。",
-        "caution-mcq-22": "「警告；提醒」與本句語境不同。",
-        "caution-mcq-24": "「審慎警示」與本句語境不同。",
-        "caution-mcq-21": "「警告／提醒說……」與本句語境不同。",
-        "caution-mcq-25": "「提醒保持謹慎」與本句語境不同。",
-        "caution-mcq-20": "「提醒某人要 X」與本句語境不同。"
+        "caution-mcq-23": "本句的「caution」指「一句提醒」。",
+        "caution-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-23"
     },
@@ -2587,11 +2387,9 @@ export default {
       "masked": "Several experts ____.",
       "options": [
         "caution-mcq-25",
-        "caution-mcq-24",
-        "caution-mcq-26",
-        "caution-mcq-23",
+        "caution-mcq-34",
         "caution-mcq-27",
-        "caution-mcq-22"
+        "caution-mcq-41"
       ],
       "explanation": "本句的「sounded a note of caution」指「提醒保持謹慎」。",
       "sentenceIndex": 50,
@@ -2600,12 +2398,10 @@ export default {
         "sounded a note of caution"
       ],
       "optionReasons": {
-        "caution-mcq-25": "本句指「提醒保持謹慎」。",
-        "caution-mcq-24": "「審慎警示」與本句語境不同。",
-        "caution-mcq-26": "「警示性的」與本句語境不同。",
-        "caution-mcq-23": "「一句提醒」與本句語境不同。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
-        "caution-mcq-22": "「警告；提醒」與本句語境不同。"
+        "caution-mcq-25": "本句的「sounded a note of caution」指「提醒保持謹慎」。",
+        "caution-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-25"
     },
@@ -2617,11 +2413,9 @@ export default {
       "masked": "The report sounds a note of ____ about future growth.",
       "options": [
         "caution-mcq-25",
-        "caution-mcq-24",
-        "caution-mcq-26",
-        "caution-mcq-23",
-        "caution-mcq-27",
-        "caution-mcq-22"
+        "caution-mcq-03",
+        "caution-mcq-44",
+        "caution-mcq-27"
       ],
       "explanation": "本句的「caution」指「提醒保持謹慎」。",
       "sentenceIndex": 51,
@@ -2630,12 +2424,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-25": "本句指「提醒保持謹慎」。",
-        "caution-mcq-24": "「審慎警示」與本句語境不同。",
-        "caution-mcq-26": "「警示性的」與本句語境不同。",
-        "caution-mcq-23": "「一句提醒」與本句語境不同。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
-        "caution-mcq-22": "「警告；提醒」與本句語境不同。"
+        "caution-mcq-25": "本句的「caution」指「提醒保持謹慎」。",
+        "caution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-25"
     },
@@ -2647,11 +2439,8 @@ export default {
       "masked": "The positive report ended with ____.",
       "options": [
         "caution-mcq-24",
-        "caution-mcq-23",
-        "caution-mcq-25",
-        "caution-mcq-22",
-        "caution-mcq-26",
-        "caution-mcq-21"
+        "caution-mcq-20",
+        "caution-pdf-006"
       ],
       "explanation": "本句的「a note of caution」指「審慎警示」。",
       "sentenceIndex": 52,
@@ -2660,12 +2449,9 @@ export default {
         "a note of caution"
       ],
       "optionReasons": {
-        "caution-mcq-24": "本句指「審慎警示」。",
-        "caution-mcq-23": "「一句提醒」與本句語境不同。",
-        "caution-mcq-25": "「提醒保持謹慎」與本句語境不同。",
-        "caution-mcq-22": "「警告；提醒」與本句語境不同。",
-        "caution-mcq-26": "「警示性的」與本句語境不同。",
-        "caution-mcq-21": "「警告／提醒說……」與本句語境不同。"
+        "caution-mcq-24": "本句的「a note of caution」指「審慎警示」。",
+        "caution-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-24"
     },
@@ -2677,11 +2463,9 @@ export default {
       "masked": "There was one note of ____ in the otherwise optimistic presentation.",
       "options": [
         "caution-mcq-24",
-        "caution-mcq-23",
-        "caution-mcq-25",
-        "caution-mcq-22",
-        "caution-mcq-26",
-        "caution-mcq-21"
+        "caution-mcq-44",
+        "caution-mcq-20",
+        "caution-mcq-03"
       ],
       "explanation": "本句的「caution」指「審慎警示」。",
       "sentenceIndex": 53,
@@ -2690,12 +2474,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-24": "本句指「審慎警示」。",
-        "caution-mcq-23": "「一句提醒」與本句語境不同。",
-        "caution-mcq-25": "「提醒保持謹慎」與本句語境不同。",
-        "caution-mcq-22": "「警告；提醒」與本句語境不同。",
-        "caution-mcq-26": "「警示性的」與本句語境不同。",
-        "caution-mcq-21": "「警告／提醒說……」與本句語境不同。"
+        "caution-mcq-24": "本句的「caution」指「審慎警示」。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-24"
     },
@@ -2707,11 +2489,9 @@ export default {
       "masked": "The report ends on a ____.",
       "options": [
         "caution-mcq-26",
-        "caution-mcq-25",
-        "caution-mcq-27",
-        "caution-mcq-24",
-        "caution-mcq-28",
-        "caution-mcq-23"
+        "caution-mcq-12",
+        "caution-mcq-23",
+        "caution-mcq-41"
       ],
       "explanation": "本句的「cautionary note」指「警示性的」。",
       "sentenceIndex": 54,
@@ -2720,12 +2500,10 @@ export default {
         "cautionary note"
       ],
       "optionReasons": {
-        "caution-mcq-26": "本句指「警示性的」。",
-        "caution-mcq-25": "「提醒保持謹慎」與本句語境不同。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
-        "caution-mcq-24": "「審慎警示」與本句語境不同。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。",
-        "caution-mcq-23": "「一句提醒」與本句語境不同。"
+        "caution-mcq-26": "本句的「cautionary note」指「警示性的」。",
+        "caution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-26"
     },
@@ -2737,11 +2515,9 @@ export default {
       "masked": "Her experience provides a ____ note for other managers.",
       "options": [
         "caution-mcq-26",
-        "caution-mcq-25",
-        "caution-mcq-27",
-        "caution-mcq-24",
-        "caution-mcq-28",
-        "caution-mcq-23"
+        "caution-mcq-44",
+        "caution-mcq-14",
+        "caution-pdf-001"
       ],
       "explanation": "本句的「cautionary」指「警示性的」。",
       "sentenceIndex": 55,
@@ -2750,12 +2526,10 @@ export default {
         "cautionary"
       ],
       "optionReasons": {
-        "caution-mcq-26": "本句指「警示性的」。",
-        "caution-mcq-25": "「提醒保持謹慎」與本句語境不同。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
-        "caution-mcq-24": "「審慎警示」與本句語境不同。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。",
-        "caution-mcq-23": "「一句提醒」與本句語境不同。"
+        "caution-mcq-26": "本句的「cautionary」指「警示性的」。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-26"
     },
@@ -2767,11 +2541,9 @@ export default {
       "masked": "The case provides a ____.",
       "options": [
         "caution-mcq-26",
-        "caution-mcq-25",
-        "caution-mcq-27",
-        "caution-mcq-24",
-        "caution-mcq-28",
-        "caution-mcq-23"
+        "caution-mcq-10",
+        "caution-mcq-19",
+        "caution-mcq-42"
       ],
       "explanation": "本句的「cautionary example」指「警示性的」。",
       "sentenceIndex": 56,
@@ -2780,12 +2552,10 @@ export default {
         "cautionary example"
       ],
       "optionReasons": {
-        "caution-mcq-26": "本句指「警示性的」。",
-        "caution-mcq-25": "「提醒保持謹慎」與本句語境不同。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
-        "caution-mcq-24": "「審慎警示」與本句語境不同。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。",
-        "caution-mcq-23": "「一句提醒」與本句語境不同。"
+        "caution-mcq-26": "本句的「cautionary example」指「警示性的」。",
+        "caution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-26"
     },
@@ -2797,11 +2567,9 @@ export default {
       "masked": "It is a ____ reminder of what can go wrong.",
       "options": [
         "caution-mcq-26",
-        "caution-mcq-25",
-        "caution-mcq-27",
-        "caution-mcq-24",
-        "caution-mcq-28",
-        "caution-mcq-23"
+        "caution-mcq-14",
+        "caution-mcq-13",
+        "caution-mcq-03"
       ],
       "explanation": "本句的「cautionary」指「警示性的」。",
       "sentenceIndex": 57,
@@ -2810,12 +2578,10 @@ export default {
         "cautionary"
       ],
       "optionReasons": {
-        "caution-mcq-26": "本句指「警示性的」。",
-        "caution-mcq-25": "「提醒保持謹慎」與本句語境不同。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
-        "caution-mcq-24": "「審慎警示」與本句語境不同。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。",
-        "caution-mcq-23": "「一句提醒」與本句語境不同。"
+        "caution-mcq-26": "本句的「cautionary」指「警示性的」。",
+        "caution-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-26"
     },
@@ -2827,11 +2593,9 @@ export default {
       "masked": "The failed project became a ____ for other companies.",
       "options": [
         "caution-mcq-27",
-        "caution-mcq-26",
-        "caution-mcq-28",
-        "caution-mcq-25",
-        "caution-mcq-29",
-        "caution-mcq-24"
+        "caution-mcq-41",
+        "caution-mcq-13",
+        "caution-mcq-15"
       ],
       "explanation": "本句的「cautionary tale」指「警世故事；前車之鑑」。",
       "sentenceIndex": 58,
@@ -2840,12 +2604,10 @@ export default {
         "cautionary tale"
       ],
       "optionReasons": {
-        "caution-mcq-27": "本句指「警世故事；前車之鑑」。",
-        "caution-mcq-26": "「警示性的」與本句語境不同。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。",
-        "caution-mcq-25": "「提醒保持謹慎」與本句語境不同。",
-        "caution-mcq-29": "「小心！注意！」與本句語境不同。",
-        "caution-mcq-24": "「審慎警示」與本句語境不同。"
+        "caution-mcq-27": "本句的「cautionary tale」指「警世故事；前車之鑑」。",
+        "caution-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-27"
     },
@@ -2857,11 +2619,9 @@ export default {
       "masked": "His experience is a ____ tale about poor planning.",
       "options": [
         "caution-mcq-27",
-        "caution-mcq-26",
-        "caution-mcq-28",
-        "caution-mcq-25",
-        "caution-mcq-29",
-        "caution-mcq-24"
+        "caution-mcq-38",
+        "caution-mcq-20",
+        "caution-mcq-11"
       ],
       "explanation": "本句的「cautionary」指「警世故事；前車之鑑」。",
       "sentenceIndex": 59,
@@ -2870,12 +2630,10 @@ export default {
         "cautionary"
       ],
       "optionReasons": {
-        "caution-mcq-27": "本句指「警世故事；前車之鑑」。",
-        "caution-mcq-26": "「警示性的」與本句語境不同。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。",
-        "caution-mcq-25": "「提醒保持謹慎」與本句語境不同。",
-        "caution-mcq-29": "「小心！注意！」與本句語境不同。",
-        "caution-mcq-24": "「審慎警示」與本句語境不同。"
+        "caution-mcq-27": "本句的「cautionary」指「警世故事；前車之鑑」。",
+        "caution-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-27"
     },
@@ -2887,11 +2645,9 @@ export default {
       "masked": "The collapse offers a ____ of excessive borrowing.",
       "options": [
         "caution-mcq-28",
-        "caution-mcq-27",
-        "caution-mcq-29",
-        "caution-mcq-26",
-        "caution-mcq-30",
-        "caution-mcq-25"
+        "caution-mcq-18",
+        "caution-mcq-41",
+        "caution-mcq-06"
       ],
       "explanation": "本句的「cautionary example」指「警示例子」。",
       "sentenceIndex": 60,
@@ -2900,12 +2656,10 @@ export default {
         "cautionary example"
       ],
       "optionReasons": {
-        "caution-mcq-28": "本句指「警示例子」。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
-        "caution-mcq-29": "「小心！注意！」與本句語境不同。",
-        "caution-mcq-26": "「警示性的」與本句語境不同。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。",
-        "caution-mcq-25": "「提醒保持謹慎」與本句語境不同。"
+        "caution-mcq-28": "本句的「cautionary example」指「警示例子」。",
+        "caution-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-28"
     },
@@ -2917,11 +2671,9 @@ export default {
       "masked": "The incident became a ____ example for new staff.",
       "options": [
         "caution-mcq-28",
-        "caution-mcq-27",
-        "caution-mcq-29",
-        "caution-mcq-26",
-        "caution-mcq-30",
-        "caution-mcq-25"
+        "caution-mcq-08",
+        "caution-mcq-41",
+        "caution-pdf-002"
       ],
       "explanation": "本句的「cautionary」指「警示例子」。",
       "sentenceIndex": 61,
@@ -2930,12 +2682,10 @@ export default {
         "cautionary"
       ],
       "optionReasons": {
-        "caution-mcq-28": "本句指「警示例子」。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
-        "caution-mcq-29": "「小心！注意！」與本句語境不同。",
-        "caution-mcq-26": "「警示性的」與本句語境不同。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。",
-        "caution-mcq-25": "「提醒保持謹慎」與本句語境不同。"
+        "caution-mcq-28": "本句的「cautionary」指「警示例子」。",
+        "caution-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-28"
     },
@@ -2947,11 +2697,9 @@ export default {
       "masked": "The sign said, “____.",
       "options": [
         "caution-pdf-003",
-        "caution-mcq-28",
-        "caution-mcq-30",
-        "caution-mcq-27",
-        "caution-mcq-31",
-        "caution-mcq-26"
+        "caution-mcq-08",
+        "caution-mcq-44",
+        "caution-mcq-03"
       ],
       "explanation": "本句的「Caution: Wet Floor」指「用來警告附近可能有危險的正式提示語」。",
       "sentenceIndex": 62,
@@ -2960,12 +2708,10 @@ export default {
         "Caution: Wet Floor"
       ],
       "optionReasons": {
-        "caution-pdf-003": "本句指「用來警告附近可能有危險的正式提示語」。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
-        "caution-mcq-26": "「警示性的」與本句語境不同。"
+        "caution-pdf-003": "本句的「Caution: Wet Floor」指「用來警告附近可能有危險的正式提示語」。",
+        "caution-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-pdf-003"
     },
@@ -2977,11 +2723,9 @@ export default {
       "masked": "____” was printed on the machine.",
       "options": [
         "caution-pdf-003",
-        "caution-mcq-28",
-        "caution-mcq-30",
-        "caution-mcq-27",
-        "caution-mcq-31",
-        "caution-mcq-26"
+        "caution-mcq-12",
+        "caution-mcq-03",
+        "caution-mcq-44"
       ],
       "explanation": "本句的「Caution」指「用來警告附近可能有危險的正式提示語」。",
       "sentenceIndex": 63,
@@ -2990,12 +2734,10 @@ export default {
         "Caution"
       ],
       "optionReasons": {
-        "caution-pdf-003": "本句指「用來警告附近可能有危險的正式提示語」。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
-        "caution-mcq-26": "「警示性的」與本句語境不同。"
+        "caution-pdf-003": "本句的「Caution」指「用來警告附近可能有危險的正式提示語」。",
+        "caution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-pdf-003"
     },
@@ -3007,11 +2749,9 @@ export default {
       "masked": "A ____ was placed beside the wet floor.",
       "options": [
         "caution-mcq-30",
-        "caution-mcq-29",
-        "caution-mcq-31",
-        "caution-mcq-28",
-        "caution-mcq-32",
-        "caution-mcq-27"
+        "caution-mcq-43",
+        "caution-mcq-11",
+        "caution-mcq-23"
       ],
       "explanation": "本句的「caution sign」指「警告標誌」。",
       "sentenceIndex": 64,
@@ -3020,12 +2760,10 @@ export default {
         "caution sign"
       ],
       "optionReasons": {
-        "caution-mcq-30": "本句指「警告標誌」。",
-        "caution-mcq-29": "「小心！注意！」與本句語境不同。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。",
-        "caution-mcq-32": "「警方正式警誡」與本句語境不同。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。"
+        "caution-mcq-30": "本句的「caution sign」指「警告標誌」。",
+        "caution-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-30"
     },
@@ -3037,11 +2775,9 @@ export default {
       "masked": "Drivers should obey ____ signs.",
       "options": [
         "caution-mcq-30",
-        "caution-mcq-29",
-        "caution-mcq-31",
-        "caution-mcq-28",
-        "caution-mcq-32",
-        "caution-mcq-27"
+        "caution-mcq-06",
+        "caution-mcq-40",
+        "caution-pdf-002"
       ],
       "explanation": "本句的「caution」指「警告標誌」。",
       "sentenceIndex": 65,
@@ -3050,12 +2786,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-30": "本句指「警告標誌」。",
-        "caution-mcq-29": "「小心！注意！」與本句語境不同。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。",
-        "caution-mcq-32": "「警方正式警誡」與本句語境不同。",
-        "caution-mcq-27": "「警世故事；前車之鑑」與本句語境不同。"
+        "caution-mcq-30": "本句的「caution」指「警告標誌」。",
+        "caution-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-30"
     },
@@ -3067,11 +2801,9 @@ export default {
       "masked": "The area was surrounded by ____.",
       "options": [
         "caution-mcq-31",
-        "caution-mcq-30",
-        "caution-mcq-32",
-        "caution-mcq-29",
-        "caution-mcq-33",
-        "caution-mcq-28"
+        "caution-pdf-002",
+        "caution-mcq-23",
+        "caution-mcq-39"
       ],
       "explanation": "本句的「caution tape」指「警示帶／警戒帶」。",
       "sentenceIndex": 66,
@@ -3080,12 +2812,10 @@ export default {
         "caution tape"
       ],
       "optionReasons": {
-        "caution-mcq-31": "本句指「警示帶／警戒帶」。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。",
-        "caution-mcq-32": "「警方正式警誡」與本句語境不同。",
-        "caution-mcq-29": "「小心！注意！」與本句語境不同。",
-        "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。"
+        "caution-mcq-31": "本句的「caution tape」指「警示帶／警戒帶」。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-31"
     },
@@ -3097,11 +2827,9 @@ export default {
       "masked": "Workers placed ____ tape around the damaged structure.",
       "options": [
         "caution-mcq-31",
-        "caution-mcq-30",
-        "caution-mcq-32",
-        "caution-mcq-29",
-        "caution-mcq-33",
-        "caution-mcq-28"
+        "caution-mcq-40",
+        "caution-mcq-14",
+        "caution-mcq-05"
       ],
       "explanation": "本句的「caution」指「警示帶／警戒帶」。",
       "sentenceIndex": 67,
@@ -3110,12 +2838,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-31": "本句指「警示帶／警戒帶」。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。",
-        "caution-mcq-32": "「警方正式警誡」與本句語境不同。",
-        "caution-mcq-29": "「小心！注意！」與本句語境不同。",
-        "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
-        "caution-mcq-28": "「警示例子」與本句語境不同。"
+        "caution-mcq-31": "本句的「caution」指「警示帶／警戒帶」。",
+        "caution-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-31"
     },
@@ -3127,11 +2853,9 @@ export default {
       "masked": "The suspect was given a ____.",
       "options": [
         "caution-pdf-004",
-        "caution-mcq-31",
-        "caution-mcq-33",
-        "caution-mcq-30",
-        "caution-mcq-34",
-        "caution-mcq-29"
+        "caution-mcq-18",
+        "caution-mcq-10",
+        "caution-mcq-44"
       ],
       "explanation": "本句的「police caution」指「警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異」。",
       "sentenceIndex": 68,
@@ -3140,12 +2864,10 @@ export default {
         "police caution"
       ],
       "optionReasons": {
-        "caution-pdf-004": "本句指「警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異」。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
-        "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。",
-        "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。",
-        "caution-mcq-29": "「小心！注意！」與本句語境不同。"
+        "caution-pdf-004": "本句的「police caution」指「警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異」。",
+        "caution-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-pdf-004"
     },
@@ -3157,11 +2879,9 @@ export default {
       "masked": "The precise meaning of a ____ depends on the legal system.",
       "options": [
         "caution-pdf-004",
-        "caution-mcq-31",
-        "caution-mcq-33",
-        "caution-mcq-30",
-        "caution-mcq-34",
-        "caution-mcq-29"
+        "caution-mcq-04",
+        "caution-mcq-06",
+        "caution-mcq-18"
       ],
       "explanation": "本句的「caution」指「警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異」。",
       "sentenceIndex": 69,
@@ -3170,12 +2890,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-pdf-004": "本句指「警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異」。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
-        "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。",
-        "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。",
-        "caution-mcq-29": "「小心！注意！」與本句語境不同。"
+        "caution-pdf-004": "本句的「caution」指「警方在刑事程序中給出的正式警告或法律性警誡；具體制度因司法管轄區而異」。",
+        "caution-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-pdf-004"
     },
@@ -3187,11 +2905,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "caution-mcq-34",
-        "caution-mcq-33",
-        "caution-mcq-35",
-        "caution-mcq-32",
-        "caution-mcq-36",
-        "caution-mcq-31"
+        "caution-mcq-06",
+        "caution-mcq-09",
+        "caution-mcq-40"
       ],
       "explanation": "本句的「cautioned for a minor offence」指「就罪行警誡某人」。",
       "sentenceIndex": 70,
@@ -3200,12 +2916,10 @@ export default {
         "cautioned for a minor offence"
       ],
       "optionReasons": {
-        "caution-mcq-34": "本句指「就罪行警誡某人」。",
-        "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
-        "caution-mcq-35": "「黃牌警告」與本句語境不同。",
-        "caution-mcq-32": "「警方正式警誡」與本句語境不同。",
-        "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。"
+        "caution-mcq-34": "本句的「cautioned for a minor offence」指「就罪行警誡某人」。",
+        "caution-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-34"
     },
@@ -3217,11 +2931,9 @@ export default {
       "masked": "The exact legal effect of being ____ varies by jurisdiction.",
       "options": [
         "caution-mcq-34",
-        "caution-mcq-33",
-        "caution-mcq-35",
-        "caution-mcq-32",
-        "caution-mcq-36",
-        "caution-mcq-31"
+        "caution-mcq-25",
+        "caution-mcq-06",
+        "caution-mcq-44"
       ],
       "explanation": "本句的「cautioned」指「就罪行警誡某人」。",
       "sentenceIndex": 71,
@@ -3230,12 +2942,10 @@ export default {
         "cautioned"
       ],
       "optionReasons": {
-        "caution-mcq-34": "本句指「就罪行警誡某人」。",
-        "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
-        "caution-mcq-35": "「黃牌警告」與本句語境不同。",
-        "caution-mcq-32": "「警方正式警誡」與本句語境不同。",
-        "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。"
+        "caution-mcq-34": "本句的「cautioned」指「就罪行警誡某人」。",
+        "caution-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-34"
     },
@@ -3247,11 +2957,9 @@ export default {
       "masked": "She received a formal ____.",
       "options": [
         "caution-mcq-32",
-        "caution-mcq-31",
-        "caution-mcq-33",
-        "caution-mcq-30",
-        "caution-mcq-34",
-        "caution-mcq-29"
+        "caution-pdf-002",
+        "caution-mcq-04",
+        "caution-mcq-23"
       ],
       "explanation": "本句的「caution」指「警方正式警誡」。",
       "sentenceIndex": 72,
@@ -3260,12 +2968,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-32": "本句指「警方正式警誡」。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
-        "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。",
-        "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。",
-        "caution-mcq-29": "「小心！注意！」與本句語境不同。"
+        "caution-mcq-32": "本句的「caution」指「警方正式警誡」。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-32"
     },
@@ -3277,11 +2983,9 @@ export default {
       "masked": "A ____ is not necessarily the same as a criminal conviction.",
       "options": [
         "caution-mcq-32",
-        "caution-mcq-31",
-        "caution-mcq-33",
-        "caution-mcq-30",
-        "caution-mcq-34",
-        "caution-mcq-29"
+        "caution-mcq-16",
+        "caution-mcq-42",
+        "caution-mcq-18"
       ],
       "explanation": "本句的「caution」指「警方正式警誡」。",
       "sentenceIndex": 73,
@@ -3290,12 +2994,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-32": "本句指「警方正式警誡」。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
-        "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。",
-        "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。",
-        "caution-mcq-29": "「小心！注意！」與本句語境不同。"
+        "caution-mcq-32": "本句的「caution」指「警方正式警誡」。",
+        "caution-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-32"
     },
@@ -3307,11 +3009,9 @@ export default {
       "masked": "He was interviewed ____.",
       "options": [
         "caution-mcq-33",
-        "caution-mcq-32",
-        "caution-mcq-34",
-        "caution-mcq-31",
-        "caution-mcq-35",
-        "caution-mcq-30"
+        "caution-mcq-41",
+        "caution-mcq-10",
+        "caution-mcq-23"
       ],
       "explanation": "本句的「under caution」指「在正式警誡下」。",
       "sentenceIndex": 74,
@@ -3320,12 +3020,10 @@ export default {
         "under caution"
       ],
       "optionReasons": {
-        "caution-mcq-33": "本句指「在正式警誡下」。",
-        "caution-mcq-32": "「警方正式警誡」與本句語境不同。",
-        "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
-        "caution-mcq-35": "「黃牌警告」與本句語境不同。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。"
+        "caution-mcq-33": "本句的「under caution」指「在正式警誡下」。",
+        "caution-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-33"
     },
@@ -3337,11 +3035,9 @@ export default {
       "masked": "Statements made under ____ may have legal significance.",
       "options": [
         "caution-mcq-33",
-        "caution-mcq-32",
-        "caution-mcq-34",
-        "caution-mcq-31",
-        "caution-mcq-35",
-        "caution-mcq-30"
+        "caution-mcq-07",
+        "caution-pdf-001",
+        "caution-mcq-06"
       ],
       "explanation": "本句的「caution」指「在正式警誡下」。",
       "sentenceIndex": 75,
@@ -3350,12 +3046,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-33": "本句指「在正式警誡下」。",
-        "caution-mcq-32": "「警方正式警誡」與本句語境不同。",
-        "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。",
-        "caution-mcq-35": "「黃牌警告」與本句語境不同。",
-        "caution-mcq-30": "「警告標誌」與本句語境不同。"
+        "caution-mcq-33": "本句的「caution」指「在正式警誡下」。",
+        "caution-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-33"
     },
@@ -3367,11 +3061,9 @@ export default {
       "masked": "Officers ____.",
       "options": [
         "caution-mcq-34",
-        "caution-mcq-33",
-        "caution-mcq-35",
-        "caution-mcq-32",
-        "caution-mcq-36",
-        "caution-mcq-31"
+        "caution-mcq-11",
+        "caution-pdf-001",
+        "caution-mcq-18"
       ],
       "explanation": "本句的「cautioned the suspect before questioning him」指「就罪行警誡某人」。",
       "sentenceIndex": 76,
@@ -3380,12 +3072,10 @@ export default {
         "cautioned the suspect before questioning him"
       ],
       "optionReasons": {
-        "caution-mcq-34": "本句指「就罪行警誡某人」。",
-        "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
-        "caution-mcq-35": "「黃牌警告」與本句語境不同。",
-        "caution-mcq-32": "「警方正式警誡」與本句語境不同。",
-        "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。",
-        "caution-mcq-31": "「警示帶／警戒帶」與本句語境不同。"
+        "caution-mcq-34": "本句的「cautioned the suspect before questioning him」指「就罪行警誡某人」。",
+        "caution-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-34"
     },
@@ -3397,11 +3087,9 @@ export default {
       "masked": "The referee gave the defender a ____.",
       "options": [
         "caution-pdf-005",
-        "caution-mcq-34",
-        "caution-mcq-36",
-        "caution-mcq-33",
-        "caution-mcq-37",
-        "caution-mcq-32"
+        "caution-mcq-09",
+        "caution-mcq-06",
+        "caution-pdf-001"
       ],
       "explanation": "本句的「caution」指「裁判因球員犯規或不當行為而作出的正式警告」。",
       "sentenceIndex": 77,
@@ -3410,12 +3098,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-pdf-005": "本句指「裁判因球員犯規或不當行為而作出的正式警告」。",
-        "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。",
-        "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。",
-        "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
-        "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。",
-        "caution-mcq-32": "「警方正式警誡」與本句語境不同。"
+        "caution-pdf-005": "本句的「caution」指「裁判因球員犯規或不當行為而作出的正式警告」。",
+        "caution-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-pdf-005"
     },
@@ -3427,11 +3113,9 @@ export default {
       "masked": "A ____ is normally shown with a yellow card in football.",
       "options": [
         "caution-pdf-005",
-        "caution-mcq-34",
-        "caution-mcq-36",
-        "caution-mcq-33",
-        "caution-mcq-37",
-        "caution-mcq-32"
+        "caution-mcq-18",
+        "caution-mcq-44",
+        "caution-mcq-15"
       ],
       "explanation": "本句的「caution」指「裁判因球員犯規或不當行為而作出的正式警告」。",
       "sentenceIndex": 78,
@@ -3440,12 +3124,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-pdf-005": "本句指「裁判因球員犯規或不當行為而作出的正式警告」。",
-        "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。",
-        "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。",
-        "caution-mcq-33": "「在正式警誡下」與本句語境不同。",
-        "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。",
-        "caution-mcq-32": "「警方正式警誡」與本句語境不同。"
+        "caution-pdf-005": "本句的「caution」指「裁判因球員犯規或不當行為而作出的正式警告」。",
+        "caution-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-pdf-005"
     },
@@ -3457,11 +3139,9 @@ export default {
       "masked": "The referee ____.",
       "options": [
         "caution-mcq-36",
-        "caution-mcq-35",
-        "caution-mcq-37",
-        "caution-mcq-34",
-        "caution-mcq-38",
-        "caution-mcq-33"
+        "caution-pdf-006",
+        "caution-mcq-08",
+        "caution-mcq-20"
       ],
       "explanation": "本句的「cautioned the player for dissent」指「向球員警告／出黃牌」。",
       "sentenceIndex": 79,
@@ -3470,12 +3150,10 @@ export default {
         "cautioned the player for dissent"
       ],
       "optionReasons": {
-        "caution-mcq-36": "本句指「向球員警告／出黃牌」。",
-        "caution-mcq-35": "「黃牌警告」與本句語境不同。",
-        "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。",
-        "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。",
-        "caution-mcq-38": "「不顧風險」與本句語境不同。",
-        "caution-mcq-33": "「在正式警誡下」與本句語境不同。"
+        "caution-mcq-36": "本句的「cautioned the player for dissent」指「向球員警告／出黃牌」。",
+        "caution-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-36"
     },
@@ -3487,11 +3165,9 @@ export default {
       "masked": "Two players were ____ in the first half.",
       "options": [
         "caution-mcq-36",
-        "caution-mcq-35",
-        "caution-mcq-37",
-        "caution-mcq-34",
-        "caution-mcq-38",
-        "caution-mcq-33"
+        "caution-mcq-08",
+        "caution-mcq-44",
+        "caution-mcq-38"
       ],
       "explanation": "本句的「cautioned」指「向球員警告／出黃牌」。",
       "sentenceIndex": 80,
@@ -3500,12 +3176,10 @@ export default {
         "cautioned"
       ],
       "optionReasons": {
-        "caution-mcq-36": "本句指「向球員警告／出黃牌」。",
-        "caution-mcq-35": "「黃牌警告」與本句語境不同。",
-        "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。",
-        "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。",
-        "caution-mcq-38": "「不顧風險」與本句語境不同。",
-        "caution-mcq-33": "「在正式警誡下」與本句語境不同。"
+        "caution-mcq-36": "本句的「cautioned」指「向球員警告／出黃牌」。",
+        "caution-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-36"
     },
@@ -3517,10 +3191,8 @@ export default {
       "masked": "If you're unsure, ____.",
       "options": [
         "caution-mcq-37",
-        "caution-mcq-36",
-        "caution-mcq-38",
-        "caution-mcq-35",
-        "caution-mcq-39",
+        "caution-mcq-21",
+        "caution-mcq-40",
         "caution-mcq-34"
       ],
       "explanation": "本句的「err on the side of caution」指「寧可謹慎一點」。",
@@ -3530,12 +3202,10 @@ export default {
         "err on the side of caution"
       ],
       "optionReasons": {
-        "caution-mcq-37": "本句指「寧可謹慎一點」。",
-        "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。",
-        "caution-mcq-38": "「不顧風險」與本句語境不同。",
-        "caution-mcq-35": "「黃牌警告」與本句語境不同。",
-        "caution-mcq-39": "「以謹慎平衡 X」與本句語境不同。",
-        "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。"
+        "caution-mcq-37": "本句的「err on the side of caution」指「寧可謹慎一點」。",
+        "caution-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-37"
     },
@@ -3547,11 +3217,9 @@ export default {
       "masked": "Compliance teams often prefer to err on the side of ____.",
       "options": [
         "caution-mcq-37",
-        "caution-mcq-36",
+        "caution-pdf-004",
         "caution-mcq-38",
-        "caution-mcq-35",
-        "caution-mcq-39",
-        "caution-mcq-34"
+        "caution-mcq-40"
       ],
       "explanation": "本句的「caution」指「寧可謹慎一點」。",
       "sentenceIndex": 84,
@@ -3560,12 +3228,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-37": "本句指「寧可謹慎一點」。",
-        "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。",
-        "caution-mcq-38": "「不顧風險」與本句語境不同。",
-        "caution-mcq-35": "「黃牌警告」與本句語境不同。",
-        "caution-mcq-39": "「以謹慎平衡 X」與本句語境不同。",
-        "caution-mcq-34": "「就罪行警誡某人」與本句語境不同。"
+        "caution-mcq-37": "本句的「caution」指「寧可謹慎一點」。",
+        "caution-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-37"
     },
@@ -3577,11 +3243,9 @@ export default {
       "masked": "He ____ and invested everything.",
       "options": [
         "caution-mcq-38",
-        "caution-mcq-37",
-        "caution-mcq-39",
-        "caution-mcq-36",
-        "caution-mcq-40",
-        "caution-mcq-35"
+        "caution-mcq-44",
+        "caution-mcq-17",
+        "caution-mcq-14"
       ],
       "explanation": "本句的「threw caution to the wind」指「不顧風險」。",
       "sentenceIndex": 85,
@@ -3590,12 +3254,10 @@ export default {
         "threw caution to the wind"
       ],
       "optionReasons": {
-        "caution-mcq-38": "本句指「不顧風險」。",
-        "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。",
-        "caution-mcq-39": "「以謹慎平衡 X」與本句語境不同。",
-        "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。",
-        "caution-mcq-40": "「預防措施」與本句語境不同。",
-        "caution-mcq-35": "「黃牌警告」與本句語境不同。"
+        "caution-mcq-38": "本句的「threw caution to the wind」指「不顧風險」。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-38"
     },
@@ -3607,11 +3269,9 @@ export default {
       "masked": "The team cannot simply throw ____ to the winds in order to move faster.",
       "options": [
         "caution-mcq-38",
-        "caution-mcq-37",
-        "caution-mcq-39",
-        "caution-mcq-36",
-        "caution-mcq-40",
-        "caution-mcq-35"
+        "caution-mcq-41",
+        "caution-mcq-20",
+        "caution-mcq-31"
       ],
       "explanation": "本句的「caution」指「不顧風險」。",
       "sentenceIndex": 86,
@@ -3620,12 +3280,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-38": "本句指「不顧風險」。",
-        "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。",
-        "caution-mcq-39": "「以謹慎平衡 X」與本句語境不同。",
-        "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。",
-        "caution-mcq-40": "「預防措施」與本句語境不同。",
-        "caution-mcq-35": "「黃牌警告」與本句語境不同。"
+        "caution-mcq-38": "本句的「caution」指「不顧風險」。",
+        "caution-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-38"
     },
@@ -3637,11 +3295,9 @@ export default {
       "masked": "The company should not ____ merely to meet the deadline.",
       "options": [
         "caution-mcq-39",
-        "caution-mcq-38",
-        "caution-mcq-40",
-        "caution-mcq-37",
-        "caution-mcq-41",
-        "caution-mcq-36"
+        "caution-pdf-004",
+        "caution-mcq-23",
+        "caution-mcq-44"
       ],
       "explanation": "本句的「abandon caution」指「以謹慎平衡 X」。",
       "sentenceIndex": 87,
@@ -3650,12 +3306,10 @@ export default {
         "abandon caution"
       ],
       "optionReasons": {
-        "caution-mcq-39": "本句指「以謹慎平衡 X」。",
-        "caution-mcq-38": "「不顧風險」與本句語境不同。",
-        "caution-mcq-40": "「預防措施」與本句語境不同。",
-        "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。",
-        "caution-mcq-41": "「採取預防措施」與本句語境不同。",
-        "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。"
+        "caution-mcq-39": "本句的「abandon caution」指「以謹慎平衡 X」。",
+        "caution-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-39"
     },
@@ -3667,11 +3321,9 @@ export default {
       "masked": "Rising confidence led some investors to abandon ____.",
       "options": [
         "caution-mcq-39",
-        "caution-mcq-38",
-        "caution-mcq-40",
-        "caution-mcq-37",
-        "caution-mcq-41",
-        "caution-mcq-36"
+        "caution-mcq-03",
+        "caution-mcq-27",
+        "caution-mcq-21"
       ],
       "explanation": "本句的「caution」指「以謹慎平衡 X」。",
       "sentenceIndex": 88,
@@ -3680,12 +3332,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-39": "本句指「以謹慎平衡 X」。",
-        "caution-mcq-38": "「不顧風險」與本句語境不同。",
-        "caution-mcq-40": "「預防措施」與本句語境不同。",
-        "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。",
-        "caution-mcq-41": "「採取預防措施」與本句語境不同。",
-        "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。"
+        "caution-mcq-39": "本句的「caution」指「以謹慎平衡 X」。",
+        "caution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-39"
     },
@@ -3698,10 +3348,8 @@ export default {
       "options": [
         "caution-mcq-39",
         "caution-mcq-38",
-        "caution-mcq-40",
-        "caution-mcq-37",
-        "caution-mcq-41",
-        "caution-mcq-36"
+        "caution-mcq-28",
+        "caution-mcq-23"
       ],
       "explanation": "本句的「tempered with caution」指「以謹慎平衡 X」。",
       "sentenceIndex": 89,
@@ -3710,12 +3358,10 @@ export default {
         "tempered with caution"
       ],
       "optionReasons": {
-        "caution-mcq-39": "本句指「以謹慎平衡 X」。",
-        "caution-mcq-38": "「不顧風險」與本句語境不同。",
-        "caution-mcq-40": "「預防措施」與本句語境不同。",
-        "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。",
-        "caution-mcq-41": "「採取預防措施」與本句語境不同。",
-        "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。"
+        "caution-mcq-39": "本句的「tempered with caution」指「以謹慎平衡 X」。",
+        "caution-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-39"
     },
@@ -3727,11 +3373,9 @@ export default {
       "masked": "Ambition needs to be tempered by ____.",
       "options": [
         "caution-mcq-39",
-        "caution-mcq-38",
-        "caution-mcq-40",
-        "caution-mcq-37",
-        "caution-mcq-41",
-        "caution-mcq-36"
+        "caution-mcq-32",
+        "caution-pdf-002",
+        "caution-mcq-42"
       ],
       "explanation": "本句的「caution」指「以謹慎平衡 X」。",
       "sentenceIndex": 90,
@@ -3740,12 +3384,10 @@ export default {
         "caution"
       ],
       "optionReasons": {
-        "caution-mcq-39": "本句指「以謹慎平衡 X」。",
-        "caution-mcq-38": "「不顧風險」與本句語境不同。",
-        "caution-mcq-40": "「預防措施」與本句語境不同。",
-        "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。",
-        "caution-mcq-41": "「採取預防措施」與本句語境不同。",
-        "caution-mcq-36": "「向球員警告／出黃牌」與本句語境不同。"
+        "caution-mcq-39": "本句的「caution」指「以謹慎平衡 X」。",
+        "caution-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-39"
     },
@@ -3757,11 +3399,9 @@ export default {
       "masked": "Wearing protective equipment is a sensible ____.",
       "options": [
         "caution-pdf-006",
-        "caution-mcq-39",
-        "caution-mcq-41",
-        "caution-mcq-38",
-        "caution-mcq-42",
-        "caution-mcq-37"
+        "caution-mcq-02",
+        "caution-mcq-20",
+        "caution-mcq-28"
       ],
       "explanation": "本句的「precaution」指「在問題或危險發生之前採取的具體防範行動」。",
       "sentenceIndex": 91,
@@ -3770,12 +3410,10 @@ export default {
         "precaution"
       ],
       "optionReasons": {
-        "caution-pdf-006": "本句指「在問題或危險發生之前採取的具體防範行動」。",
-        "caution-mcq-39": "「以謹慎平衡 X」與本句語境不同。",
-        "caution-mcq-41": "「採取預防措施」與本句語境不同。",
-        "caution-mcq-38": "「不顧風險」與本句語境不同。",
-        "caution-mcq-42": "「以防萬一」與本句語境不同。",
-        "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。"
+        "caution-pdf-006": "本句的「precaution」指「在問題或危險發生之前採取的具體防範行動」。",
+        "caution-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-pdf-006"
     },
@@ -3787,11 +3425,9 @@ export default {
       "masked": "Staff should ____ when handling sensitive data.",
       "options": [
         "caution-mcq-41",
-        "caution-mcq-40",
-        "caution-mcq-42",
-        "caution-mcq-39",
-        "caution-mcq-43",
-        "caution-mcq-38"
+        "caution-mcq-14",
+        "caution-mcq-02",
+        "caution-mcq-27"
       ],
       "explanation": "本句的「take precautions」指「採取預防措施」。",
       "sentenceIndex": 92,
@@ -3800,12 +3436,10 @@ export default {
         "take precautions"
       ],
       "optionReasons": {
-        "caution-mcq-41": "本句指「採取預防措施」。",
-        "caution-mcq-40": "「預防措施」與本句語境不同。",
-        "caution-mcq-42": "「以防萬一」與本句語境不同。",
-        "caution-mcq-39": "「以謹慎平衡 X」與本句語境不同。",
-        "caution-mcq-43": "「預防性的」與本句語境不同。",
-        "caution-mcq-38": "「不顧風險」與本句語境不同。"
+        "caution-mcq-41": "本句的「take precautions」指「採取預防措施」。",
+        "caution-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-41"
     },
@@ -3817,11 +3451,9 @@ export default {
       "masked": "Wearing a helmet is an important ____.",
       "options": [
         "caution-mcq-40",
-        "caution-mcq-39",
-        "caution-mcq-41",
-        "caution-mcq-38",
-        "caution-mcq-42",
-        "caution-mcq-37"
+        "caution-mcq-25",
+        "caution-mcq-36",
+        "caution-mcq-14"
       ],
       "explanation": "本句的「safety precaution」指「預防措施」。",
       "sentenceIndex": 93,
@@ -3830,12 +3462,10 @@ export default {
         "safety precaution"
       ],
       "optionReasons": {
-        "caution-mcq-40": "本句指「預防措施」。",
-        "caution-mcq-39": "「以謹慎平衡 X」與本句語境不同。",
-        "caution-mcq-41": "「採取預防措施」與本句語境不同。",
-        "caution-mcq-38": "「不顧風險」與本句語境不同。",
-        "caution-mcq-42": "「以防萬一」與本句語境不同。",
-        "caution-mcq-37": "「寧可謹慎一點」與本句語境不同。"
+        "caution-mcq-40": "本句的「safety precaution」指「預防措施」。",
+        "caution-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-40"
     },
@@ -3847,11 +3477,9 @@ export default {
       "masked": "The building was evacuated ____.",
       "options": [
         "caution-mcq-42",
-        "caution-mcq-41",
-        "caution-mcq-43",
-        "caution-mcq-40",
-        "caution-mcq-39",
-        "caution-mcq-38"
+        "caution-pdf-005",
+        "caution-mcq-23",
+        "caution-mcq-04"
       ],
       "explanation": "本句的「as a precaution」指「以防萬一」。",
       "sentenceIndex": 94,
@@ -3860,12 +3488,10 @@ export default {
         "as a precaution"
       ],
       "optionReasons": {
-        "caution-mcq-42": "本句指「以防萬一」。",
-        "caution-mcq-41": "「採取預防措施」與本句語境不同。",
-        "caution-mcq-43": "「預防性的」與本句語境不同。",
-        "caution-mcq-40": "「預防措施」與本句語境不同。",
-        "caution-mcq-39": "「以謹慎平衡 X」與本句語境不同。",
-        "caution-mcq-38": "「不顧風險」與本句語境不同。"
+        "caution-mcq-42": "本句的「as a precaution」指「以防萬一」。",
+        "caution-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-42"
     },
@@ -3877,11 +3503,9 @@ export default {
       "masked": "The company took ____.",
       "options": [
         "caution-mcq-43",
-        "caution-mcq-42",
-        "caution-mcq-44",
-        "caution-mcq-41",
-        "caution-mcq-39",
-        "caution-mcq-38"
+        "caution-mcq-16",
+        "caution-mcq-36",
+        "caution-mcq-03"
       ],
       "explanation": "本句的「precautionary measures」指「預防性的」。",
       "sentenceIndex": 95,
@@ -3890,12 +3514,10 @@ export default {
         "precautionary measures"
       ],
       "optionReasons": {
-        "caution-mcq-43": "本句指「預防性的」。",
-        "caution-mcq-42": "「以防萬一」與本句語境不同。",
-        "caution-mcq-44": "「預防措施」與本句語境不同。",
-        "caution-mcq-41": "「採取預防措施」與本句語境不同。",
-        "caution-mcq-39": "「以謹慎平衡 X」與本句語境不同。",
-        "caution-mcq-38": "「不顧風險」與本句語境不同。"
+        "caution-mcq-43": "本句的「precautionary measures」指「預防性的」。",
+        "caution-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-43"
     },
@@ -3907,11 +3529,9 @@ export default {
       "masked": "Additional checks were introduced as a ____.",
       "options": [
         "caution-mcq-44",
-        "caution-mcq-43",
-        "caution-mcq-42",
-        "caution-mcq-41",
-        "caution-mcq-39",
-        "caution-mcq-38"
+        "caution-mcq-18",
+        "caution-mcq-14",
+        "caution-pdf-005"
       ],
       "explanation": "本句的「precautionary measure」指「預防措施」。",
       "sentenceIndex": 96,
@@ -3920,12 +3540,10 @@ export default {
         "precautionary measure"
       ],
       "optionReasons": {
-        "caution-mcq-44": "本句指「預防措施」。",
-        "caution-mcq-43": "「預防性的」與本句語境不同。",
-        "caution-mcq-42": "「以防萬一」與本句語境不同。",
-        "caution-mcq-41": "「採取預防措施」與本句語境不同。",
-        "caution-mcq-39": "「以謹慎平衡 X」與本句語境不同。",
-        "caution-mcq-38": "「不顧風險」與本句語境不同。"
+        "caution-mcq-44": "本句的「precautionary measure」指「預防措施」。",
+        "caution-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "caution-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "caution-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "caution-mcq-44"
     }
@@ -3937,5 +3555,7 @@ export default {
     "sha256": "67a1e23e347215d4ff8d377536cfd68a432c1fef982d799f835800f3c1f21d67",
     "pages": 42
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

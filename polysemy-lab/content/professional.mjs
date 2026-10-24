@@ -1422,11 +1422,7 @@ export default {
       "masked": "Different departments may use different ____ language.",
       "options": [
         "professional-mcq-01",
-        "professional-mcq-02",
-        "professional-mcq-03",
-        "professional-mcq-04",
-        "professional-mcq-05",
-        "professional-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業的；職業上的 profession-related」。",
       "sentenceIndex": 0,
@@ -1435,12 +1431,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-01": "本句指「專業的；職業上的 profession-related」。",
-        "professional-mcq-02": "「專業用語 specialist vocabulary」與本句語境不同。",
-        "professional-mcq-03": "「專業術語 field-specific terms」與本句語境不同。",
-        "professional-mcq-04": "「專業知識 specialist knowledge」與本句語境不同。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。"
+        "professional-mcq-01": "本句的「professional」指「專業的；職業上的 profession-related」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-01"
     },
@@ -1452,11 +1444,7 @@ export default {
       "masked": "She has extensive ____ experience in finance.",
       "options": [
         "professional-mcq-01",
-        "professional-mcq-02",
-        "professional-mcq-03",
-        "professional-mcq-04",
-        "professional-mcq-05",
-        "professional-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業的；職業上的 profession-related」。",
       "sentenceIndex": 1,
@@ -1465,12 +1453,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-01": "本句指「專業的；職業上的 profession-related」。",
-        "professional-mcq-02": "「專業用語 specialist vocabulary」與本句語境不同。",
-        "professional-mcq-03": "「專業術語 field-specific terms」與本句語境不同。",
-        "professional-mcq-04": "「專業知識 specialist knowledge」與本句語境不同。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。"
+        "professional-mcq-01": "本句的「professional」指「專業的；職業上的 profession-related」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-01"
     },
@@ -1482,11 +1466,7 @@ export default {
       "masked": "Employees need opportunities for ____ development.",
       "options": [
         "professional-mcq-01",
-        "professional-mcq-02",
-        "professional-mcq-03",
-        "professional-mcq-04",
-        "professional-mcq-05",
-        "professional-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業的；職業上的 profession-related」。",
       "sentenceIndex": 2,
@@ -1495,12 +1475,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-01": "本句指「專業的；職業上的 profession-related」。",
-        "professional-mcq-02": "「專業用語 specialist vocabulary」與本句語境不同。",
-        "professional-mcq-03": "「專業術語 field-specific terms」與本句語境不同。",
-        "professional-mcq-04": "「專業知識 specialist knowledge」與本句語境不同。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。"
+        "professional-mcq-01": "本句的「professional」指「專業的；職業上的 profession-related」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-01"
     },
@@ -1512,11 +1488,7 @@ export default {
       "masked": "Each department uses its own ____ language.",
       "options": [
         "professional-mcq-02",
-        "professional-mcq-01",
-        "professional-mcq-03",
-        "professional-mcq-04",
-        "professional-mcq-05",
-        "professional-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業用語 specialist vocabulary」。",
       "sentenceIndex": 3,
@@ -1525,12 +1497,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-02": "本句指「專業用語 specialist vocabulary」。",
-        "professional-mcq-01": "「專業的；職業上的 profession-related」與本句語境不同。",
-        "professional-mcq-03": "「專業術語 field-specific terms」與本句語境不同。",
-        "professional-mcq-04": "「專業知識 specialist knowledge」與本句語境不同。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。"
+        "professional-mcq-02": "本句的「professional」指「專業用語 specialist vocabulary」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-02"
     },
@@ -1542,11 +1510,7 @@ export default {
       "masked": "____ language can confuse people from other fields.",
       "options": [
         "professional-mcq-02",
-        "professional-mcq-01",
-        "professional-mcq-03",
-        "professional-mcq-04",
-        "professional-mcq-05",
-        "professional-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professional」指「專業用語 specialist vocabulary」。",
       "sentenceIndex": 4,
@@ -1555,12 +1519,8 @@ export default {
         "Professional"
       ],
       "optionReasons": {
-        "professional-mcq-02": "本句指「專業用語 specialist vocabulary」。",
-        "professional-mcq-01": "「專業的；職業上的 profession-related」與本句語境不同。",
-        "professional-mcq-03": "「專業術語 field-specific terms」與本句語境不同。",
-        "professional-mcq-04": "「專業知識 specialist knowledge」與本句語境不同。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。"
+        "professional-mcq-02": "本句的「Professional」指「專業用語 specialist vocabulary」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-02"
     },
@@ -1572,11 +1532,7 @@ export default {
       "masked": "The report contains a great deal of ____ terminology.",
       "options": [
         "professional-mcq-03",
-        "professional-mcq-02",
-        "professional-mcq-04",
-        "professional-mcq-01",
-        "professional-mcq-05",
-        "professional-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業術語 field-specific terms」。",
       "sentenceIndex": 5,
@@ -1585,12 +1541,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-03": "本句指「專業術語 field-specific terms」。",
-        "professional-mcq-02": "「專業用語 specialist vocabulary」與本句語境不同。",
-        "professional-mcq-04": "「專業知識 specialist knowledge」與本句語境不同。",
-        "professional-mcq-01": "「專業的；職業上的 profession-related」與本句語境不同。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。"
+        "professional-mcq-03": "本句的「professional」指「專業術語 field-specific terms」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-03"
     },
@@ -1602,11 +1554,7 @@ export default {
       "masked": "Avoid unnecessary ____ terminology when speaking to customers.",
       "options": [
         "professional-mcq-03",
-        "professional-mcq-02",
-        "professional-mcq-04",
-        "professional-mcq-01",
-        "professional-mcq-05",
-        "professional-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業術語 field-specific terms」。",
       "sentenceIndex": 6,
@@ -1615,12 +1563,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-03": "本句指「專業術語 field-specific terms」。",
-        "professional-mcq-02": "「專業用語 specialist vocabulary」與本句語境不同。",
-        "professional-mcq-04": "「專業知識 specialist knowledge」與本句語境不同。",
-        "professional-mcq-01": "「專業的；職業上的 profession-related」與本句語境不同。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。"
+        "professional-mcq-03": "本句的「professional」指「專業術語 field-specific terms」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-03"
     },
@@ -1632,11 +1576,7 @@ export default {
       "masked": "The role requires specialist ____ knowledge.",
       "options": [
         "professional-mcq-04",
-        "professional-mcq-03",
-        "professional-mcq-05",
-        "professional-mcq-02",
-        "professional-mcq-06",
-        "professional-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業知識 specialist knowledge」。",
       "sentenceIndex": 7,
@@ -1645,12 +1585,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-04": "本句指「專業知識 specialist knowledge」。",
-        "professional-mcq-03": "「專業術語 field-specific terms」與本句語境不同。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。",
-        "professional-mcq-02": "「專業用語 specialist vocabulary」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。",
-        "professional-mcq-01": "「專業的；職業上的 profession-related」與本句語境不同。"
+        "professional-mcq-04": "本句的「professional」指「專業知識 specialist knowledge」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-04"
     },
@@ -1662,11 +1598,7 @@ export default {
       "masked": "____ knowledge must be kept up to date.",
       "options": [
         "professional-mcq-04",
-        "professional-mcq-03",
-        "professional-mcq-05",
-        "professional-mcq-02",
-        "professional-mcq-06",
-        "professional-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professional」指「專業知識 specialist knowledge」。",
       "sentenceIndex": 8,
@@ -1675,12 +1607,8 @@ export default {
         "Professional"
       ],
       "optionReasons": {
-        "professional-mcq-04": "本句指「專業知識 specialist knowledge」。",
-        "professional-mcq-03": "「專業術語 field-specific terms」與本句語境不同。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。",
-        "professional-mcq-02": "「專業用語 specialist vocabulary」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。",
-        "professional-mcq-01": "「專業的；職業上的 profession-related」與本句語境不同。"
+        "professional-mcq-04": "本句的「Professional」指「專業知識 specialist knowledge」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-04"
     },
@@ -1692,11 +1620,7 @@ export default {
       "masked": "The course helps students develop ____ skills.",
       "options": [
         "professional-mcq-05",
-        "professional-mcq-04",
-        "professional-mcq-06",
-        "professional-mcq-03",
-        "professional-mcq-07",
-        "professional-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業技能 work ability」。",
       "sentenceIndex": 9,
@@ -1705,12 +1629,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-05": "本句指「專業技能 work ability」。",
-        "professional-mcq-04": "「專業知識 specialist knowledge」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。",
-        "professional-mcq-03": "「專業術語 field-specific terms」與本句語境不同。",
-        "professional-mcq-07": "「專業／工作經驗 career experience」與本句語境不同。",
-        "professional-mcq-02": "「專業用語 specialist vocabulary」與本句語境不同。"
+        "professional-mcq-05": "本句的「professional」指「專業技能 work ability」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-05"
     },
@@ -1722,11 +1642,7 @@ export default {
       "masked": "Communication is an important ____ skill.",
       "options": [
         "professional-mcq-05",
-        "professional-mcq-04",
-        "professional-mcq-06",
-        "professional-mcq-03",
-        "professional-mcq-07",
-        "professional-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業技能 work ability」。",
       "sentenceIndex": 10,
@@ -1735,12 +1651,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-05": "本句指「專業技能 work ability」。",
-        "professional-mcq-04": "「專業知識 specialist knowledge」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。",
-        "professional-mcq-03": "「專業術語 field-specific terms」與本句語境不同。",
-        "professional-mcq-07": "「專業／工作經驗 career experience」與本句語境不同。",
-        "professional-mcq-02": "「專業用語 specialist vocabulary」與本句語境不同。"
+        "professional-mcq-05": "本句的「professional」指「專業技能 work ability」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-05"
     },
@@ -1752,11 +1664,7 @@ export default {
       "masked": "The project requires ____ expertise.",
       "options": [
         "professional-mcq-06",
-        "professional-mcq-05",
-        "professional-mcq-07",
-        "professional-mcq-04",
-        "professional-mcq-08",
-        "professional-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業專長 high-level expertise」。",
       "sentenceIndex": 11,
@@ -1765,12 +1673,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-06": "本句指「專業專長 high-level expertise」。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。",
-        "professional-mcq-07": "「專業／工作經驗 career experience」與本句語境不同。",
-        "professional-mcq-04": "「專業知識 specialist knowledge」與本句語境不同。",
-        "professional-mcq-08": "「專業資格 formal credential」與本句語境不同。",
-        "professional-mcq-03": "「專業術語 field-specific terms」與本句語境不同。"
+        "professional-mcq-06": "本句的「professional」指「專業專長 high-level expertise」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-06"
     },
@@ -1782,11 +1686,7 @@ export default {
       "masked": "She contributed her ____ expertise to the discussion.",
       "options": [
         "professional-mcq-06",
-        "professional-mcq-05",
-        "professional-mcq-07",
-        "professional-mcq-04",
-        "professional-mcq-08",
-        "professional-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業專長 high-level expertise」。",
       "sentenceIndex": 12,
@@ -1795,12 +1695,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-06": "本句指「專業專長 high-level expertise」。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。",
-        "professional-mcq-07": "「專業／工作經驗 career experience」與本句語境不同。",
-        "professional-mcq-04": "「專業知識 specialist knowledge」與本句語境不同。",
-        "professional-mcq-08": "「專業資格 formal credential」與本句語境不同。",
-        "professional-mcq-03": "「專業術語 field-specific terms」與本句語境不同。"
+        "professional-mcq-06": "本句的「professional」指「專業專長 high-level expertise」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-06"
     },
@@ -1812,11 +1708,7 @@ export default {
       "masked": "Applicants need at least three years of ____ experience.",
       "options": [
         "professional-mcq-07",
-        "professional-mcq-06",
-        "professional-mcq-08",
-        "professional-mcq-05",
-        "professional-mcq-09",
-        "professional-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業／工作經驗 career experience」。",
       "sentenceIndex": 13,
@@ -1825,12 +1717,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-07": "本句指「專業／工作經驗 career experience」。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。",
-        "professional-mcq-08": "「專業資格 formal credential」與本句語境不同。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。",
-        "professional-mcq-09": "「專業培訓 specialist training」與本句語境不同。",
-        "professional-mcq-04": "「專業知識 specialist knowledge」與本句語境不同。"
+        "professional-mcq-07": "本句的「professional」指「專業／工作經驗 career experience」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-07"
     },
@@ -1842,11 +1730,7 @@ export default {
       "masked": "Her ____ experience includes consulting and finance.",
       "options": [
         "professional-mcq-07",
-        "professional-mcq-06",
-        "professional-mcq-08",
-        "professional-mcq-05",
-        "professional-mcq-09",
-        "professional-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業／工作經驗 career experience」。",
       "sentenceIndex": 14,
@@ -1855,12 +1739,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-07": "本句指「專業／工作經驗 career experience」。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。",
-        "professional-mcq-08": "「專業資格 formal credential」與本句語境不同。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。",
-        "professional-mcq-09": "「專業培訓 specialist training」與本句語境不同。",
-        "professional-mcq-04": "「專業知識 specialist knowledge」與本句語境不同。"
+        "professional-mcq-07": "本句的「professional」指「專業／工作經驗 career experience」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-07"
     },
@@ -1872,11 +1752,7 @@ export default {
       "masked": "She obtained a recognised ____ qualification.",
       "options": [
         "professional-mcq-08",
-        "professional-mcq-07",
-        "professional-mcq-09",
-        "professional-mcq-06",
-        "professional-mcq-10",
-        "professional-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業資格 formal credential」。",
       "sentenceIndex": 15,
@@ -1885,12 +1761,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-08": "本句指「專業資格 formal credential」。",
-        "professional-mcq-07": "「專業／工作經驗 career experience」與本句語境不同。",
-        "professional-mcq-09": "「專業培訓 specialist training」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。",
-        "professional-mcq-10": "「專業教育 career preparation」與本句語境不同。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。"
+        "professional-mcq-08": "本句的「professional」指「專業資格 formal credential」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-08"
     },
@@ -1902,11 +1774,7 @@ export default {
       "masked": "Some jobs require ____ qualifications.",
       "options": [
         "professional-mcq-08",
-        "professional-mcq-07",
-        "professional-mcq-09",
-        "professional-mcq-06",
-        "professional-mcq-10",
-        "professional-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業資格 formal credential」。",
       "sentenceIndex": 16,
@@ -1915,12 +1783,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-08": "本句指「專業資格 formal credential」。",
-        "professional-mcq-07": "「專業／工作經驗 career experience」與本句語境不同。",
-        "professional-mcq-09": "「專業培訓 specialist training」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。",
-        "professional-mcq-10": "「專業教育 career preparation」與本句語境不同。",
-        "professional-mcq-05": "「專業技能 work ability」與本句語境不同。"
+        "professional-mcq-08": "本句的「professional」指「專業資格 formal credential」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-08"
     },
@@ -1932,11 +1796,7 @@ export default {
       "masked": "New staff receive ____ training.",
       "options": [
         "professional-mcq-09",
-        "professional-mcq-08",
-        "professional-mcq-10",
-        "professional-mcq-07",
-        "professional-mcq-11",
-        "professional-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業培訓 specialist training」。",
       "sentenceIndex": 17,
@@ -1945,12 +1805,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-09": "本句指「專業培訓 specialist training」。",
-        "professional-mcq-08": "「專業資格 formal credential」與本句語境不同。",
-        "professional-mcq-10": "「專業教育 career preparation」與本句語境不同。",
-        "professional-mcq-07": "「專業／工作經驗 career experience」與本句語境不同。",
-        "professional-mcq-11": "「專業發展 ongoing growth」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。"
+        "professional-mcq-09": "本句的「professional」指「專業培訓 specialist training」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-09"
     },
@@ -1962,11 +1818,7 @@ export default {
       "masked": "____ training improves technical competence.",
       "options": [
         "professional-mcq-09",
-        "professional-mcq-08",
-        "professional-mcq-10",
-        "professional-mcq-07",
-        "professional-mcq-11",
-        "professional-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professional」指「專業培訓 specialist training」。",
       "sentenceIndex": 18,
@@ -1975,12 +1827,8 @@ export default {
         "Professional"
       ],
       "optionReasons": {
-        "professional-mcq-09": "本句指「專業培訓 specialist training」。",
-        "professional-mcq-08": "「專業資格 formal credential」與本句語境不同。",
-        "professional-mcq-10": "「專業教育 career preparation」與本句語境不同。",
-        "professional-mcq-07": "「專業／工作經驗 career experience」與本句語境不同。",
-        "professional-mcq-11": "「專業發展 ongoing growth」與本句語境不同。",
-        "professional-mcq-06": "「專業專長 high-level expertise」與本句語境不同。"
+        "professional-mcq-09": "本句的「Professional」指「專業培訓 specialist training」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-09"
     },
@@ -1992,11 +1840,7 @@ export default {
       "masked": "Medical schools provide ____ education.",
       "options": [
         "professional-mcq-10",
-        "professional-mcq-09",
-        "professional-mcq-11",
-        "professional-mcq-08",
-        "professional-mcq-12",
-        "professional-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業教育 career preparation」。",
       "sentenceIndex": 19,
@@ -2005,12 +1849,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-10": "本句指「專業教育 career preparation」。",
-        "professional-mcq-09": "「專業培訓 specialist training」與本句語境不同。",
-        "professional-mcq-11": "「專業發展 ongoing growth」與本句語境不同。",
-        "professional-mcq-08": "「專業資格 formal credential」與本句語境不同。",
-        "professional-mcq-12": "「持續專業發展 continuing learning」與本句語境不同。",
-        "professional-mcq-07": "「專業／工作經驗 career experience」與本句語境不同。"
+        "professional-mcq-10": "本句的「professional」指「專業教育 career preparation」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-10"
     },
@@ -2022,11 +1862,7 @@ export default {
       "masked": "____ education prepares students for particular occupations.",
       "options": [
         "professional-mcq-10",
-        "professional-mcq-09",
-        "professional-mcq-11",
-        "professional-mcq-08",
-        "professional-mcq-12",
-        "professional-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professional」指「專業教育 career preparation」。",
       "sentenceIndex": 20,
@@ -2035,12 +1871,8 @@ export default {
         "Professional"
       ],
       "optionReasons": {
-        "professional-mcq-10": "本句指「專業教育 career preparation」。",
-        "professional-mcq-09": "「專業培訓 specialist training」與本句語境不同。",
-        "professional-mcq-11": "「專業發展 ongoing growth」與本句語境不同。",
-        "professional-mcq-08": "「專業資格 formal credential」與本句語境不同。",
-        "professional-mcq-12": "「持續專業發展 continuing learning」與本句語境不同。",
-        "professional-mcq-07": "「專業／工作經驗 career experience」與本句語境不同。"
+        "professional-mcq-10": "本句的「Professional」指「專業教育 career preparation」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-10"
     },
@@ -2052,11 +1884,7 @@ export default {
       "masked": "The company provides opportunities for ____ development.",
       "options": [
         "professional-mcq-11",
-        "professional-mcq-10",
-        "professional-mcq-12",
-        "professional-mcq-09",
-        "professional-mcq-13",
-        "professional-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業發展 ongoing growth」。",
       "sentenceIndex": 21,
@@ -2065,12 +1893,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-11": "本句指「專業發展 ongoing growth」。",
-        "professional-mcq-10": "「專業教育 career preparation」與本句語境不同。",
-        "professional-mcq-12": "「持續專業發展 continuing learning」與本句語境不同。",
-        "professional-mcq-09": "「專業培訓 specialist training」與本句語境不同。",
-        "professional-mcq-13": "「專業認證 credential」與本句語境不同。",
-        "professional-mcq-08": "「專業資格 formal credential」與本句語境不同。"
+        "professional-mcq-11": "本句的「professional」指「專業發展 ongoing growth」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-11"
     },
@@ -2082,11 +1906,7 @@ export default {
       "masked": "Conferences can form part of continuing ____ development.",
       "options": [
         "professional-mcq-11",
-        "professional-mcq-10",
-        "professional-mcq-12",
-        "professional-mcq-09",
-        "professional-mcq-13",
-        "professional-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業發展 ongoing growth」。",
       "sentenceIndex": 22,
@@ -2095,12 +1915,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-11": "本句指「專業發展 ongoing growth」。",
-        "professional-mcq-10": "「專業教育 career preparation」與本句語境不同。",
-        "professional-mcq-12": "「持續專業發展 continuing learning」與本句語境不同。",
-        "professional-mcq-09": "「專業培訓 specialist training」與本句語境不同。",
-        "professional-mcq-13": "「專業認證 credential」與本句語境不同。",
-        "professional-mcq-08": "「專業資格 formal credential」與本句語境不同。"
+        "professional-mcq-11": "本句的「professional」指「專業發展 ongoing growth」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-11"
     },
@@ -2112,11 +1928,7 @@ export default {
       "masked": "She is studying for a ____ certification in project management.",
       "options": [
         "professional-mcq-13",
-        "professional-mcq-12",
-        "professional-mcq-14",
-        "professional-mcq-11",
-        "professional-mcq-15",
-        "professional-mcq-10"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業認證 credential」。",
       "sentenceIndex": 24,
@@ -2125,12 +1937,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-13": "本句指「專業認證 credential」。",
-        "professional-mcq-12": "「持續專業發展 continuing learning」與本句語境不同。",
-        "professional-mcq-14": "「專業認可 recognised standard」與本句語境不同。",
-        "professional-mcq-11": "「專業發展 ongoing growth」與本句語境不同。",
-        "professional-mcq-15": "「專業執照 permission to practise」與本句語境不同。",
-        "professional-mcq-10": "「專業教育 career preparation」與本句語境不同。"
+        "professional-mcq-13": "本句的「professional」指「專業認證 credential」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-13"
     },
@@ -2142,11 +1950,7 @@ export default {
       "masked": "Certification can demonstrate ____ competence.",
       "options": [
         "professional-mcq-13",
-        "professional-mcq-12",
-        "professional-mcq-14",
-        "professional-mcq-11",
-        "professional-mcq-15",
-        "professional-mcq-10"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業認證 credential」。",
       "sentenceIndex": 25,
@@ -2155,12 +1959,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-13": "本句指「專業認證 credential」。",
-        "professional-mcq-12": "「持續專業發展 continuing learning」與本句語境不同。",
-        "professional-mcq-14": "「專業認可 recognised standard」與本句語境不同。",
-        "professional-mcq-11": "「專業發展 ongoing growth」與本句語境不同。",
-        "professional-mcq-15": "「專業執照 permission to practise」與本句語境不同。",
-        "professional-mcq-10": "「專業教育 career preparation」與本句語境不同。"
+        "professional-mcq-13": "本句的「professional」指「專業認證 credential」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-13"
     },
@@ -2172,11 +1972,7 @@ export default {
       "masked": "The programme has ____ accreditation.",
       "options": [
         "professional-mcq-14",
-        "professional-mcq-13",
-        "professional-mcq-15",
-        "professional-mcq-12",
-        "professional-mcq-16",
-        "professional-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業認可 recognised standard」。",
       "sentenceIndex": 26,
@@ -2185,12 +1981,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-14": "本句指「專業認可 recognised standard」。",
-        "professional-mcq-13": "「專業認證 credential」與本句語境不同。",
-        "professional-mcq-15": "「專業執照 permission to practise」與本句語境不同。",
-        "professional-mcq-12": "「持續專業發展 continuing learning」與本句語境不同。",
-        "professional-mcq-16": "「專業標準 expected standards」與本句語境不同。",
-        "professional-mcq-11": "「專業發展 ongoing growth」與本句語境不同。"
+        "professional-mcq-14": "本句的「professional」指「專業認可 recognised standard」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-14"
     },
@@ -2202,11 +1994,7 @@ export default {
       "masked": "____ accreditation may be required by employers.",
       "options": [
         "professional-mcq-14",
-        "professional-mcq-13",
-        "professional-mcq-15",
-        "professional-mcq-12",
-        "professional-mcq-16",
-        "professional-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professional」指「專業認可 recognised standard」。",
       "sentenceIndex": 27,
@@ -2215,12 +2003,8 @@ export default {
         "Professional"
       ],
       "optionReasons": {
-        "professional-mcq-14": "本句指「專業認可 recognised standard」。",
-        "professional-mcq-13": "「專業認證 credential」與本句語境不同。",
-        "professional-mcq-15": "「專業執照 permission to practise」與本句語境不同。",
-        "professional-mcq-12": "「持續專業發展 continuing learning」與本句語境不同。",
-        "professional-mcq-16": "「專業標準 expected standards」與本句語境不同。",
-        "professional-mcq-11": "「專業發展 ongoing growth」與本句語境不同。"
+        "professional-mcq-14": "本句的「Professional」指「專業認可 recognised standard」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-14"
     },
@@ -2232,11 +2016,7 @@ export default {
       "masked": "The job requires a valid ____ licence.",
       "options": [
         "professional-mcq-15",
-        "professional-mcq-14",
-        "professional-mcq-16",
-        "professional-mcq-13",
-        "professional-mcq-17",
-        "professional-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業執照 permission to practise」。",
       "sentenceIndex": 28,
@@ -2245,12 +2025,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-15": "本句指「專業執照 permission to practise」。",
-        "professional-mcq-14": "「專業認可 recognised standard」與本句語境不同。",
-        "professional-mcq-16": "「專業標準 expected standards」與本句語境不同。",
-        "professional-mcq-13": "「專業認證 credential」與本句語境不同。",
-        "professional-mcq-17": "「專業倫理 ethical principles」與本句語境不同。",
-        "professional-mcq-12": "「持續專業發展 continuing learning」與本句語境不同。"
+        "professional-mcq-15": "本句的「professional」指「專業執照 permission to practise」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-15"
     },
@@ -2262,11 +2038,7 @@ export default {
       "masked": "Her ____ licence must be renewed regularly.",
       "options": [
         "professional-mcq-15",
-        "professional-mcq-14",
-        "professional-mcq-16",
-        "professional-mcq-13",
-        "professional-mcq-17",
-        "professional-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業執照 permission to practise」。",
       "sentenceIndex": 29,
@@ -2275,12 +2047,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-15": "本句指「專業執照 permission to practise」。",
-        "professional-mcq-14": "「專業認可 recognised standard」與本句語境不同。",
-        "professional-mcq-16": "「專業標準 expected standards」與本句語境不同。",
-        "professional-mcq-13": "「專業認證 credential」與本句語境不同。",
-        "professional-mcq-17": "「專業倫理 ethical principles」與本句語境不同。",
-        "professional-mcq-12": "「持續專業發展 continuing learning」與本句語境不同。"
+        "professional-mcq-15": "本句的「professional」指「專業執照 permission to practise」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-15"
     },
@@ -2292,11 +2060,7 @@ export default {
       "masked": "Employees are expected to maintain high ____ standards.",
       "options": [
         "professional-mcq-16",
-        "professional-mcq-15",
-        "professional-mcq-17",
-        "professional-mcq-14",
-        "professional-mcq-18",
-        "professional-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業標準 expected standards」。",
       "sentenceIndex": 30,
@@ -2305,12 +2069,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-16": "本句指「專業標準 expected standards」。",
-        "professional-mcq-15": "「專業執照 permission to practise」與本句語境不同。",
-        "professional-mcq-17": "「專業倫理 ethical principles」與本句語境不同。",
-        "professional-mcq-14": "「專業認可 recognised standard」與本句語境不同。",
-        "professional-mcq-18": "「專業操守 behaviour standards」與本句語境不同。",
-        "professional-mcq-13": "「專業認證 credential」與本句語境不同。"
+        "professional-mcq-16": "本句的「professional」指「專業標準 expected standards」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-16"
     },
@@ -2322,11 +2082,7 @@ export default {
       "masked": "The regulator sets ____ standards.",
       "options": [
         "professional-mcq-16",
-        "professional-mcq-15",
-        "professional-mcq-17",
-        "professional-mcq-14",
-        "professional-mcq-18",
-        "professional-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業標準 expected standards」。",
       "sentenceIndex": 31,
@@ -2335,12 +2091,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-16": "本句指「專業標準 expected standards」。",
-        "professional-mcq-15": "「專業執照 permission to practise」與本句語境不同。",
-        "professional-mcq-17": "「專業倫理 ethical principles」與本句語境不同。",
-        "professional-mcq-14": "「專業認可 recognised standard」與本句語境不同。",
-        "professional-mcq-18": "「專業操守 behaviour standards」與本句語境不同。",
-        "professional-mcq-13": "「專業認證 credential」與本句語境不同。"
+        "professional-mcq-16": "本句的「professional」指「專業標準 expected standards」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-16"
     },
@@ -2352,11 +2104,7 @@ export default {
       "masked": "The course covers ____ ethics.",
       "options": [
         "professional-mcq-17",
-        "professional-mcq-16",
-        "professional-mcq-18",
-        "professional-mcq-15",
-        "professional-mcq-19",
-        "professional-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業倫理 ethical principles」。",
       "sentenceIndex": 32,
@@ -2365,12 +2113,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-17": "本句指「專業倫理 ethical principles」。",
-        "professional-mcq-16": "「專業標準 expected standards」與本句語境不同。",
-        "professional-mcq-18": "「專業操守 behaviour standards」與本句語境不同。",
-        "professional-mcq-15": "「專業執照 permission to practise」與本句語境不同。",
-        "professional-mcq-19": "「專業責任 duty」與本句語境不同。",
-        "professional-mcq-14": "「專業認可 recognised standard」與本句語境不同。"
+        "professional-mcq-17": "本句的「professional」指「專業倫理 ethical principles」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-17"
     },
@@ -2382,11 +2126,7 @@ export default {
       "masked": "Confidentiality is an important part of ____ ethics.",
       "options": [
         "professional-mcq-17",
-        "professional-mcq-16",
-        "professional-mcq-18",
-        "professional-mcq-15",
-        "professional-mcq-19",
-        "professional-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業倫理 ethical principles」。",
       "sentenceIndex": 33,
@@ -2395,12 +2135,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-17": "本句指「專業倫理 ethical principles」。",
-        "professional-mcq-16": "「專業標準 expected standards」與本句語境不同。",
-        "professional-mcq-18": "「專業操守 behaviour standards」與本句語境不同。",
-        "professional-mcq-15": "「專業執照 permission to practise」與本句語境不同。",
-        "professional-mcq-19": "「專業責任 duty」與本句語境不同。",
-        "professional-mcq-14": "「專業認可 recognised standard」與本句語境不同。"
+        "professional-mcq-17": "本句的「professional」指「專業倫理 ethical principles」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-17"
     },
@@ -2412,11 +2148,7 @@ export default {
       "masked": "The organisation has a code of ____ conduct.",
       "options": [
         "professional-mcq-18",
-        "professional-mcq-17",
-        "professional-mcq-19",
-        "professional-mcq-16",
-        "professional-mcq-20",
-        "professional-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業操守 behaviour standards」。",
       "sentenceIndex": 34,
@@ -2425,12 +2157,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-18": "本句指「專業操守 behaviour standards」。",
-        "professional-mcq-17": "「專業倫理 ethical principles」與本句語境不同。",
-        "professional-mcq-19": "「專業責任 duty」與本句語境不同。",
-        "professional-mcq-16": "「專業標準 expected standards」與本句語境不同。",
-        "professional-mcq-20": "「專業判斷 expert decision」與本句語境不同。",
-        "professional-mcq-15": "「專業執照 permission to practise」與本句語境不同。"
+        "professional-mcq-18": "本句的「professional」指「專業操守 behaviour standards」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-18"
     },
@@ -2442,11 +2170,7 @@ export default {
       "masked": "His behaviour fell below expected standards of ____ conduct.",
       "options": [
         "professional-mcq-18",
-        "professional-mcq-17",
-        "professional-mcq-19",
-        "professional-mcq-16",
-        "professional-mcq-20",
-        "professional-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業操守 behaviour standards」。",
       "sentenceIndex": 35,
@@ -2455,12 +2179,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-18": "本句指「專業操守 behaviour standards」。",
-        "professional-mcq-17": "「專業倫理 ethical principles」與本句語境不同。",
-        "professional-mcq-19": "「專業責任 duty」與本句語境不同。",
-        "professional-mcq-16": "「專業標準 expected standards」與本句語境不同。",
-        "professional-mcq-20": "「專業判斷 expert decision」與本句語境不同。",
-        "professional-mcq-15": "「專業執照 permission to practise」與本句語境不同。"
+        "professional-mcq-18": "本句的「professional」指「專業操守 behaviour standards」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-18"
     },
@@ -2472,11 +2192,7 @@ export default {
       "masked": "Respectful communication is part of ____ behaviour.",
       "options": [
         "professional-mcq-35",
-        "professional-mcq-34",
-        "professional-mcq-36",
-        "professional-mcq-33",
-        "professional-mcq-37",
-        "professional-mcq-32"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業得體的 appropriate conduct」。",
       "sentenceIndex": 36,
@@ -2485,12 +2201,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-35": "本句指「專業得體的 appropriate conduct」。",
-        "professional-mcq-34": "「專業界線 role boundaries」與本句語境不同。",
-        "professional-mcq-36": "「專業方式 conduct」與本句語境不同。",
-        "professional-mcq-33": "「專業／工作關係 workplace relationship」與本句語境不同。",
-        "professional-mcq-37": "「專業態度 mindset」與本句語境不同。",
-        "professional-mcq-32": "「專業背景 career history」與本句語境不同。"
+        "professional-mcq-35": "本句的「professional」指「專業得體的 appropriate conduct」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-35"
     },
@@ -2502,11 +2214,7 @@ export default {
       "masked": "Managers should model ____ behaviour.",
       "options": [
         "professional-mcq-35",
-        "professional-mcq-34",
-        "professional-mcq-36",
-        "professional-mcq-33",
-        "professional-mcq-37",
-        "professional-mcq-32"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業得體的 appropriate conduct」。",
       "sentenceIndex": 37,
@@ -2515,12 +2223,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-35": "本句指「專業得體的 appropriate conduct」。",
-        "professional-mcq-34": "「專業界線 role boundaries」與本句語境不同。",
-        "professional-mcq-36": "「專業方式 conduct」與本句語境不同。",
-        "professional-mcq-33": "「專業／工作關係 workplace relationship」與本句語境不同。",
-        "professional-mcq-37": "「專業態度 mindset」與本句語境不同。",
-        "professional-mcq-32": "「專業背景 career history」與本句語境不同。"
+        "professional-mcq-35": "本句的「professional」指「專業得體的 appropriate conduct」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-35"
     },
@@ -2532,11 +2236,7 @@ export default {
       "masked": "Accuracy is a ____ responsibility.",
       "options": [
         "professional-mcq-19",
-        "professional-mcq-18",
-        "professional-mcq-20",
-        "professional-mcq-17",
-        "professional-mcq-21",
-        "professional-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業責任 duty」。",
       "sentenceIndex": 38,
@@ -2545,12 +2245,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-19": "本句指「專業責任 duty」。",
-        "professional-mcq-18": "「專業操守 behaviour standards」與本句語境不同。",
-        "professional-mcq-20": "「專業判斷 expert decision」與本句語境不同。",
-        "professional-mcq-17": "「專業倫理 ethical principles」與本句語境不同。",
-        "professional-mcq-21": "「專業能力 required capability」與本句語境不同。",
-        "professional-mcq-16": "「專業標準 expected standards」與本句語境不同。"
+        "professional-mcq-19": "本句的「professional」指「專業責任 duty」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-19"
     },
@@ -2562,11 +2258,7 @@ export default {
       "masked": "____ must understand their responsibilities to clients.",
       "options": [
         "professional-mcq-19",
-        "professional-mcq-18",
-        "professional-mcq-20",
-        "professional-mcq-17",
-        "professional-mcq-21",
-        "professional-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professionals」指「專業責任 duty」。",
       "sentenceIndex": 39,
@@ -2575,12 +2267,8 @@ export default {
         "Professionals"
       ],
       "optionReasons": {
-        "professional-mcq-19": "本句指「專業責任 duty」。",
-        "professional-mcq-18": "「專業操守 behaviour standards」與本句語境不同。",
-        "professional-mcq-20": "「專業判斷 expert decision」與本句語境不同。",
-        "professional-mcq-17": "「專業倫理 ethical principles」與本句語境不同。",
-        "professional-mcq-21": "「專業能力 required capability」與本句語境不同。",
-        "professional-mcq-16": "「專業標準 expected standards」與本句語境不同。"
+        "professional-mcq-19": "本句的「Professionals」指「專業責任 duty」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-19"
     },
@@ -2592,11 +2280,7 @@ export default {
       "masked": "The decision requires ____ judgment.",
       "options": [
         "professional-mcq-20",
-        "professional-mcq-19",
-        "professional-mcq-21",
-        "professional-mcq-18",
-        "professional-mcq-22",
-        "professional-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業判斷 expert decision」。",
       "sentenceIndex": 42,
@@ -2605,12 +2289,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-20": "本句指「專業判斷 expert decision」。",
-        "professional-mcq-19": "「專業責任 duty」與本句語境不同。",
-        "professional-mcq-21": "「專業能力 required capability」與本句語境不同。",
-        "professional-mcq-18": "「專業操守 behaviour standards」與本句語境不同。",
-        "professional-mcq-22": "「專業實務／執業 professional work」與本句語境不同。",
-        "professional-mcq-17": "「專業倫理 ethical principles」與本句語境不同。"
+        "professional-mcq-20": "本句的「professional」指「專業判斷 expert decision」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-20"
     },
@@ -2622,11 +2302,7 @@ export default {
       "masked": "Rules cannot replace ____ judgment in every situation.",
       "options": [
         "professional-mcq-20",
-        "professional-mcq-19",
-        "professional-mcq-21",
-        "professional-mcq-18",
-        "professional-mcq-22",
-        "professional-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業判斷 expert decision」。",
       "sentenceIndex": 43,
@@ -2635,12 +2311,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-20": "本句指「專業判斷 expert decision」。",
-        "professional-mcq-19": "「專業責任 duty」與本句語境不同。",
-        "professional-mcq-21": "「專業能力 required capability」與本句語境不同。",
-        "professional-mcq-18": "「專業操守 behaviour standards」與本句語境不同。",
-        "professional-mcq-22": "「專業實務／執業 professional work」與本句語境不同。",
-        "professional-mcq-17": "「專業倫理 ethical principles」與本句語境不同。"
+        "professional-mcq-20": "本句的「professional」指「專業判斷 expert decision」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-20"
     },
@@ -2652,11 +2324,7 @@ export default {
       "masked": "The assessment tests ____ competence.",
       "options": [
         "professional-mcq-21",
-        "professional-mcq-20",
-        "professional-mcq-22",
-        "professional-mcq-19",
-        "professional-mcq-23",
-        "professional-mcq-18"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業能力 required capability」。",
       "sentenceIndex": 44,
@@ -2665,12 +2333,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-21": "本句指「專業能力 required capability」。",
-        "professional-mcq-20": "「專業判斷 expert decision」與本句語境不同。",
-        "professional-mcq-22": "「專業實務／執業 professional work」與本句語境不同。",
-        "professional-mcq-19": "「專業責任 duty」與本句語境不同。",
-        "professional-mcq-23": "「專業服務 expert services」與本句語境不同。",
-        "professional-mcq-18": "「專業操守 behaviour standards」與本句語境不同。"
+        "professional-mcq-21": "本句的「professional」指「專業能力 required capability」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-21"
     },
@@ -2682,11 +2346,7 @@ export default {
       "masked": "Staff must maintain ____ competence.",
       "options": [
         "professional-mcq-21",
-        "professional-mcq-20",
-        "professional-mcq-22",
-        "professional-mcq-19",
-        "professional-mcq-23",
-        "professional-mcq-18"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業能力 required capability」。",
       "sentenceIndex": 45,
@@ -2695,12 +2355,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-21": "本句指「專業能力 required capability」。",
-        "professional-mcq-20": "「專業判斷 expert decision」與本句語境不同。",
-        "professional-mcq-22": "「專業實務／執業 professional work」與本句語境不同。",
-        "professional-mcq-19": "「專業責任 duty」與本句語境不同。",
-        "professional-mcq-23": "「專業服務 expert services」與本句語境不同。",
-        "professional-mcq-18": "「專業操守 behaviour standards」與本句語境不同。"
+        "professional-mcq-21": "本句的「professional」指「專業能力 required capability」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-21"
     },
@@ -2712,11 +2368,7 @@ export default {
       "masked": "The guidelines apply to ____ practice.",
       "options": [
         "professional-mcq-22",
-        "professional-mcq-21",
-        "professional-mcq-23",
-        "professional-mcq-20",
-        "professional-mcq-24",
-        "professional-mcq-19"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業實務／執業 professional work」。",
       "sentenceIndex": 46,
@@ -2725,12 +2377,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-22": "本句指「專業實務／執業 professional work」。",
-        "professional-mcq-21": "「專業能力 required capability」與本句語境不同。",
-        "professional-mcq-23": "「專業服務 expert services」與本句語境不同。",
-        "professional-mcq-20": "「專業判斷 expert decision」與本句語境不同。",
-        "professional-mcq-24": "「專業意見 specialist advice」與本句語境不同。",
-        "professional-mcq-19": "「專業責任 duty」與本句語境不同。"
+        "professional-mcq-22": "本句的「professional」指「專業實務／執業 professional work」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-22"
     },
@@ -2742,11 +2390,7 @@ export default {
       "masked": "____ practice should reflect current standards.",
       "options": [
         "professional-mcq-22",
-        "professional-mcq-21",
-        "professional-mcq-23",
-        "professional-mcq-20",
-        "professional-mcq-24",
-        "professional-mcq-19"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professional」指「專業實務／執業 professional work」。",
       "sentenceIndex": 47,
@@ -2755,12 +2399,8 @@ export default {
         "Professional"
       ],
       "optionReasons": {
-        "professional-mcq-22": "本句指「專業實務／執業 professional work」。",
-        "professional-mcq-21": "「專業能力 required capability」與本句語境不同。",
-        "professional-mcq-23": "「專業服務 expert services」與本句語境不同。",
-        "professional-mcq-20": "「專業判斷 expert decision」與本句語境不同。",
-        "professional-mcq-24": "「專業意見 specialist advice」與本句語境不同。",
-        "professional-mcq-19": "「專業責任 duty」與本句語境不同。"
+        "professional-mcq-22": "本句的「Professional」指「專業實務／執業 professional work」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-22"
     },
@@ -2772,11 +2412,7 @@ export default {
       "masked": "You should seek ____ advice.",
       "options": [
         "professional-mcq-24",
-        "professional-mcq-23",
-        "professional-mcq-25",
-        "professional-mcq-22",
-        "professional-mcq-26",
-        "professional-mcq-21"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業意見 specialist advice」。",
       "sentenceIndex": 50,
@@ -2785,12 +2421,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-24": "本句指「專業意見 specialist advice」。",
-        "professional-mcq-23": "「專業服務 expert services」與本句語境不同。",
-        "professional-mcq-25": "「專業協助 expert help」與本句語境不同。",
-        "professional-mcq-22": "「專業實務／執業 professional work」與本句語境不同。",
-        "professional-mcq-26": "「專業服務費 payment」與本句語境不同。",
-        "professional-mcq-21": "「專業能力 required capability」與本句語境不同。"
+        "professional-mcq-24": "本句的「professional」指「專業意見 specialist advice」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-24"
     },
@@ -2802,11 +2434,7 @@ export default {
       "masked": "The information is not a substitute for ____ advice.",
       "options": [
         "professional-mcq-24",
-        "professional-mcq-23",
-        "professional-mcq-25",
-        "professional-mcq-22",
-        "professional-mcq-26",
-        "professional-mcq-21"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業意見 specialist advice」。",
       "sentenceIndex": 51,
@@ -2815,12 +2443,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-24": "本句指「專業意見 specialist advice」。",
-        "professional-mcq-23": "「專業服務 expert services」與本句語境不同。",
-        "professional-mcq-25": "「專業協助 expert help」與本句語境不同。",
-        "professional-mcq-22": "「專業實務／執業 professional work」與本句語境不同。",
-        "professional-mcq-26": "「專業服務費 payment」與本句語境不同。",
-        "professional-mcq-21": "「專業能力 required capability」與本句語境不同。"
+        "professional-mcq-24": "本句的「professional」指「專業意見 specialist advice」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-24"
     },
@@ -2832,11 +2456,7 @@ export default {
       "masked": "The company brought in ____ help.",
       "options": [
         "professional-mcq-25",
-        "professional-mcq-24",
-        "professional-mcq-26",
-        "professional-mcq-23",
-        "professional-mcq-27",
-        "professional-mcq-22"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業協助 expert help」。",
       "sentenceIndex": 52,
@@ -2845,12 +2465,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-25": "本句指「專業協助 expert help」。",
-        "professional-mcq-24": "「專業意見 specialist advice」與本句語境不同。",
-        "professional-mcq-26": "「專業服務費 payment」與本句語境不同。",
-        "professional-mcq-23": "「專業服務 expert services」與本句語境不同。",
-        "professional-mcq-27": "「專業彌償保險 liability cover」與本句語境不同。",
-        "professional-mcq-22": "「專業實務／執業 professional work」與本句語境不同。"
+        "professional-mcq-25": "本句的「professional」指「專業協助 expert help」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-25"
     },
@@ -2862,11 +2478,7 @@ export default {
       "masked": "Some problems require ____ help.",
       "options": [
         "professional-mcq-25",
-        "professional-mcq-24",
-        "professional-mcq-26",
-        "professional-mcq-23",
-        "professional-mcq-27",
-        "professional-mcq-22"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業協助 expert help」。",
       "sentenceIndex": 53,
@@ -2875,12 +2487,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-25": "本句指「專業協助 expert help」。",
-        "professional-mcq-24": "「專業意見 specialist advice」與本句語境不同。",
-        "professional-mcq-26": "「專業服務費 payment」與本句語境不同。",
-        "professional-mcq-23": "「專業服務 expert services」與本句語境不同。",
-        "professional-mcq-27": "「專業彌償保險 liability cover」與本句語境不同。",
-        "professional-mcq-22": "「專業實務／執業 professional work」與本句語境不同。"
+        "professional-mcq-25": "本句的「professional」指「專業協助 expert help」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-25"
     },
@@ -2892,11 +2500,7 @@ export default {
       "masked": "The invoice includes legal ____ fees.",
       "options": [
         "professional-mcq-26",
-        "professional-mcq-25",
-        "professional-mcq-27",
-        "professional-mcq-24",
-        "professional-mcq-28",
-        "professional-mcq-23"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業服務費 payment」。",
       "sentenceIndex": 56,
@@ -2905,12 +2509,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-26": "本句指「專業服務費 payment」。",
-        "professional-mcq-25": "「專業協助 expert help」與本句語境不同。",
-        "professional-mcq-27": "「專業彌償保險 liability cover」與本句語境不同。",
-        "professional-mcq-24": "「專業意見 specialist advice」與本句語境不同。",
-        "professional-mcq-28": "「專業團體 profession organisation」與本句語境不同。",
-        "professional-mcq-23": "「專業服務 expert services」與本句語境不同。"
+        "professional-mcq-26": "本句的「professional」指「專業服務費 payment」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-26"
     },
@@ -2922,11 +2522,7 @@ export default {
       "masked": "____ fees can vary considerably.",
       "options": [
         "professional-mcq-26",
-        "professional-mcq-25",
-        "professional-mcq-27",
-        "professional-mcq-24",
-        "professional-mcq-28",
-        "professional-mcq-23"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professional」指「專業服務費 payment」。",
       "sentenceIndex": 57,
@@ -2935,12 +2531,8 @@ export default {
         "Professional"
       ],
       "optionReasons": {
-        "professional-mcq-26": "本句指「專業服務費 payment」。",
-        "professional-mcq-25": "「專業協助 expert help」與本句語境不同。",
-        "professional-mcq-27": "「專業彌償保險 liability cover」與本句語境不同。",
-        "professional-mcq-24": "「專業意見 specialist advice」與本句語境不同。",
-        "professional-mcq-28": "「專業團體 profession organisation」與本句語境不同。",
-        "professional-mcq-23": "「專業服務 expert services」與本句語境不同。"
+        "professional-mcq-26": "本句的「Professional」指「專業服務費 payment」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-26"
     },
@@ -2952,11 +2544,7 @@ export default {
       "masked": "Consultants may need ____ indemnity insurance.",
       "options": [
         "professional-mcq-27",
-        "professional-mcq-26",
-        "professional-mcq-28",
-        "professional-mcq-25",
-        "professional-mcq-29",
-        "professional-mcq-24"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業彌償保險 liability cover」。",
       "sentenceIndex": 58,
@@ -2965,12 +2553,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-27": "本句指「專業彌償保險 liability cover」。",
-        "professional-mcq-26": "「專業服務費 payment」與本句語境不同。",
-        "professional-mcq-28": "「專業團體 profession organisation」與本句語境不同。",
-        "professional-mcq-25": "「專業協助 expert help」與本句語境不同。",
-        "professional-mcq-29": "「專業協會 membership」與本句語境不同。",
-        "professional-mcq-24": "「專業意見 specialist advice」與本句語境不同。"
+        "professional-mcq-27": "本句的「professional」指「專業彌償保險 liability cover」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-27"
     },
@@ -2982,11 +2566,7 @@ export default {
       "masked": "The policy covers certain claims arising from ____ mistakes.",
       "options": [
         "professional-mcq-27",
-        "professional-mcq-26",
-        "professional-mcq-28",
-        "professional-mcq-25",
-        "professional-mcq-29",
-        "professional-mcq-24"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業彌償保險 liability cover」。",
       "sentenceIndex": 59,
@@ -2995,12 +2575,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-27": "本句指「專業彌償保險 liability cover」。",
-        "professional-mcq-26": "「專業服務費 payment」與本句語境不同。",
-        "professional-mcq-28": "「專業團體 profession organisation」與本句語境不同。",
-        "professional-mcq-25": "「專業協助 expert help」與本句語境不同。",
-        "professional-mcq-29": "「專業協會 membership」與本句語境不同。",
-        "professional-mcq-24": "「專業意見 specialist advice」與本句語境不同。"
+        "professional-mcq-27": "本句的「professional」指「專業彌償保險 liability cover」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-27"
     },
@@ -3012,11 +2588,7 @@ export default {
       "masked": "The qualification is recognised by a ____ body.",
       "options": [
         "professional-mcq-28",
-        "professional-mcq-27",
-        "professional-mcq-29",
-        "professional-mcq-26",
-        "professional-mcq-30",
-        "professional-mcq-25"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業團體 profession organisation」。",
       "sentenceIndex": 60,
@@ -3025,12 +2597,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-28": "本句指「專業團體 profession organisation」。",
-        "professional-mcq-27": "「專業彌償保險 liability cover」與本句語境不同。",
-        "professional-mcq-29": "「專業協會 membership」與本句語境不同。",
-        "professional-mcq-26": "「專業服務費 payment」與本句語境不同。",
-        "professional-mcq-30": "「職業生涯 career」與本句語境不同。",
-        "professional-mcq-25": "「專業協助 expert help」與本句語境不同。"
+        "professional-mcq-28": "本句的「professional」指「專業團體 profession organisation」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-28"
     },
@@ -3042,11 +2610,7 @@ export default {
       "masked": "____ bodies often set standards for members.",
       "options": [
         "professional-mcq-28",
-        "professional-mcq-27",
-        "professional-mcq-29",
-        "professional-mcq-26",
-        "professional-mcq-30",
-        "professional-mcq-25"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professional」指「專業團體 profession organisation」。",
       "sentenceIndex": 61,
@@ -3055,12 +2619,8 @@ export default {
         "Professional"
       ],
       "optionReasons": {
-        "professional-mcq-28": "本句指「專業團體 profession organisation」。",
-        "professional-mcq-27": "「專業彌償保險 liability cover」與本句語境不同。",
-        "professional-mcq-29": "「專業協會 membership」與本句語境不同。",
-        "professional-mcq-26": "「專業服務費 payment」與本句語境不同。",
-        "professional-mcq-30": "「職業生涯 career」與本句語境不同。",
-        "professional-mcq-25": "「專業協助 expert help」與本句語境不同。"
+        "professional-mcq-28": "本句的「Professional」指「專業團體 profession organisation」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-28"
     },
@@ -3072,11 +2632,7 @@ export default {
       "masked": "She joined a ____ association.",
       "options": [
         "professional-mcq-29",
-        "professional-mcq-28",
-        "professional-mcq-30",
-        "professional-mcq-27",
-        "professional-mcq-31",
-        "professional-mcq-26"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業協會 membership」。",
       "sentenceIndex": 62,
@@ -3085,12 +2641,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-29": "本句指「專業協會 membership」。",
-        "professional-mcq-28": "「專業團體 profession organisation」與本句語境不同。",
-        "professional-mcq-30": "「職業生涯 career」與本句語境不同。",
-        "professional-mcq-27": "「專業彌償保險 liability cover」與本句語境不同。",
-        "professional-mcq-31": "「職業生活 work life」與本句語境不同。",
-        "professional-mcq-26": "「專業服務費 payment」與本句語境不同。"
+        "professional-mcq-29": "本句的「professional」指「專業協會 membership」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-29"
     },
@@ -3102,11 +2654,7 @@ export default {
       "masked": "____ associations organise conferences and training.",
       "options": [
         "professional-mcq-29",
-        "professional-mcq-28",
-        "professional-mcq-30",
-        "professional-mcq-27",
-        "professional-mcq-31",
-        "professional-mcq-26"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professional」指「專業協會 membership」。",
       "sentenceIndex": 63,
@@ -3115,12 +2663,8 @@ export default {
         "Professional"
       ],
       "optionReasons": {
-        "professional-mcq-29": "本句指「專業協會 membership」。",
-        "professional-mcq-28": "「專業團體 profession organisation」與本句語境不同。",
-        "professional-mcq-30": "「職業生涯 career」與本句語境不同。",
-        "professional-mcq-27": "「專業彌償保險 liability cover」與本句語境不同。",
-        "professional-mcq-31": "「職業生活 work life」與本句語境不同。",
-        "professional-mcq-26": "「專業服務費 payment」與本句語境不同。"
+        "professional-mcq-29": "本句的「Professional」指「專業協會 membership」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-29"
     },
@@ -3132,11 +2676,7 @@ export default {
       "masked": "She began her ____ career in banking.",
       "options": [
         "professional-mcq-30",
-        "professional-mcq-29",
-        "professional-mcq-31",
-        "professional-mcq-28",
-        "professional-mcq-32",
-        "professional-mcq-27"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「職業生涯 career」。",
       "sentenceIndex": 67,
@@ -3145,12 +2685,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-30": "本句指「職業生涯 career」。",
-        "professional-mcq-29": "「專業協會 membership」與本句語境不同。",
-        "professional-mcq-31": "「職業生活 work life」與本句語境不同。",
-        "professional-mcq-28": "「專業團體 profession organisation」與本句語境不同。",
-        "professional-mcq-32": "「專業背景 career history」與本句語境不同。",
-        "professional-mcq-27": "「專業彌償保險 liability cover」與本句語境不同。"
+        "professional-mcq-30": "本句的「professional」指「職業生涯 career」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-30"
     },
@@ -3162,11 +2698,7 @@ export default {
       "masked": "The experience shaped his ____ career.",
       "options": [
         "professional-mcq-30",
-        "professional-mcq-29",
-        "professional-mcq-31",
-        "professional-mcq-28",
-        "professional-mcq-32",
-        "professional-mcq-27"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「職業生涯 career」。",
       "sentenceIndex": 68,
@@ -3175,12 +2707,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-30": "本句指「職業生涯 career」。",
-        "professional-mcq-29": "「專業協會 membership」與本句語境不同。",
-        "professional-mcq-31": "「職業生活 work life」與本句語境不同。",
-        "professional-mcq-28": "「專業團體 profession organisation」與本句語境不同。",
-        "professional-mcq-32": "「專業背景 career history」與本句語境不同。",
-        "professional-mcq-27": "「專業彌償保險 liability cover」與本句語境不同。"
+        "professional-mcq-30": "本句的「professional」指「職業生涯 career」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-30"
     },
@@ -3192,11 +2720,7 @@ export default {
       "masked": "She keeps her personal and ____ life separate.",
       "options": [
         "professional-mcq-31",
-        "professional-mcq-30",
-        "professional-mcq-32",
-        "professional-mcq-29",
-        "professional-mcq-33",
-        "professional-mcq-28"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「職業生活 work life」。",
       "sentenceIndex": 69,
@@ -3205,12 +2729,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-31": "本句指「職業生活 work life」。",
-        "professional-mcq-30": "「職業生涯 career」與本句語境不同。",
-        "professional-mcq-32": "「專業背景 career history」與本句語境不同。",
-        "professional-mcq-29": "「專業協會 membership」與本句語境不同。",
-        "professional-mcq-33": "「專業／工作關係 workplace relationship」與本句語境不同。",
-        "professional-mcq-28": "「專業團體 profession organisation」與本句語境不同。"
+        "professional-mcq-31": "本句的「professional」指「職業生活 work life」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-31"
     },
@@ -3222,11 +2742,7 @@ export default {
       "masked": "Technology has changed ____ life.",
       "options": [
         "professional-mcq-31",
-        "professional-mcq-30",
-        "professional-mcq-32",
-        "professional-mcq-29",
-        "professional-mcq-33",
-        "professional-mcq-28"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「職業生活 work life」。",
       "sentenceIndex": 70,
@@ -3235,12 +2751,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-31": "本句指「職業生活 work life」。",
-        "professional-mcq-30": "「職業生涯 career」與本句語境不同。",
-        "professional-mcq-32": "「專業背景 career history」與本句語境不同。",
-        "professional-mcq-29": "「專業協會 membership」與本句語境不同。",
-        "professional-mcq-33": "「專業／工作關係 workplace relationship」與本句語境不同。",
-        "professional-mcq-28": "「專業團體 profession organisation」與本句語境不同。"
+        "professional-mcq-31": "本句的「professional」指「職業生活 work life」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-31"
     },
@@ -3252,11 +2764,7 @@ export default {
       "masked": "Candidates come from different ____ backgrounds.",
       "options": [
         "professional-mcq-32",
-        "professional-mcq-31",
-        "professional-mcq-33",
-        "professional-mcq-30",
-        "professional-mcq-34",
-        "professional-mcq-29"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業背景 career history」。",
       "sentenceIndex": 71,
@@ -3265,12 +2773,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-32": "本句指「專業背景 career history」。",
-        "professional-mcq-31": "「職業生活 work life」與本句語境不同。",
-        "professional-mcq-33": "「專業／工作關係 workplace relationship」與本句語境不同。",
-        "professional-mcq-30": "「職業生涯 career」與本句語境不同。",
-        "professional-mcq-34": "「專業界線 role boundaries」與本句語境不同。",
-        "professional-mcq-29": "「專業協會 membership」與本句語境不同。"
+        "professional-mcq-32": "本句的「professional」指「專業背景 career history」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-32"
     },
@@ -3282,11 +2786,7 @@ export default {
       "masked": "His ____ background is in engineering.",
       "options": [
         "professional-mcq-32",
-        "professional-mcq-31",
-        "professional-mcq-33",
-        "professional-mcq-30",
-        "professional-mcq-34",
-        "professional-mcq-29"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業背景 career history」。",
       "sentenceIndex": 72,
@@ -3295,12 +2795,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-32": "本句指「專業背景 career history」。",
-        "professional-mcq-31": "「職業生活 work life」與本句語境不同。",
-        "professional-mcq-33": "「專業／工作關係 workplace relationship」與本句語境不同。",
-        "professional-mcq-30": "「職業生涯 career」與本句語境不同。",
-        "professional-mcq-34": "「專業界線 role boundaries」與本句語境不同。",
-        "professional-mcq-29": "「專業協會 membership」與本句語境不同。"
+        "professional-mcq-32": "本句的「professional」指「專業背景 career history」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-32"
     },
@@ -3312,11 +2808,7 @@ export default {
       "masked": "They maintain a good ____ relationship.",
       "options": [
         "professional-mcq-33",
-        "professional-mcq-32",
-        "professional-mcq-34",
-        "professional-mcq-31",
-        "professional-mcq-35",
-        "professional-mcq-30"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業／工作關係 workplace relationship」。",
       "sentenceIndex": 77,
@@ -3325,12 +2817,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-33": "本句指「專業／工作關係 workplace relationship」。",
-        "professional-mcq-32": "「專業背景 career history」與本句語境不同。",
-        "professional-mcq-34": "「專業界線 role boundaries」與本句語境不同。",
-        "professional-mcq-31": "「職業生活 work life」與本句語境不同。",
-        "professional-mcq-35": "「專業得體的 appropriate conduct」與本句語境不同。",
-        "professional-mcq-30": "「職業生涯 career」與本句語境不同。"
+        "professional-mcq-33": "本句的「professional」指「專業／工作關係 workplace relationship」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-33"
     },
@@ -3342,11 +2830,7 @@ export default {
       "masked": "Trust is important in ____ relationships.",
       "options": [
         "professional-mcq-33",
-        "professional-mcq-32",
-        "professional-mcq-34",
-        "professional-mcq-31",
-        "professional-mcq-35",
-        "professional-mcq-30"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業／工作關係 workplace relationship」。",
       "sentenceIndex": 78,
@@ -3355,12 +2839,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-33": "本句指「專業／工作關係 workplace relationship」。",
-        "professional-mcq-32": "「專業背景 career history」與本句語境不同。",
-        "professional-mcq-34": "「專業界線 role boundaries」與本句語境不同。",
-        "professional-mcq-31": "「職業生活 work life」與本句語境不同。",
-        "professional-mcq-35": "「專業得體的 appropriate conduct」與本句語境不同。",
-        "professional-mcq-30": "「職業生涯 career」與本句語境不同。"
+        "professional-mcq-33": "本句的「professional」指「專業／工作關係 workplace relationship」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-33"
     },
@@ -3372,11 +2852,7 @@ export default {
       "masked": "Staff should maintain appropriate ____ boundaries.",
       "options": [
         "professional-mcq-34",
-        "professional-mcq-33",
-        "professional-mcq-35",
-        "professional-mcq-32",
-        "professional-mcq-36",
-        "professional-mcq-31"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業界線 role boundaries」。",
       "sentenceIndex": 79,
@@ -3385,12 +2861,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-34": "本句指「專業界線 role boundaries」。",
-        "professional-mcq-33": "「專業／工作關係 workplace relationship」與本句語境不同。",
-        "professional-mcq-35": "「專業得體的 appropriate conduct」與本句語境不同。",
-        "professional-mcq-32": "「專業背景 career history」與本句語境不同。",
-        "professional-mcq-36": "「專業方式 conduct」與本句語境不同。",
-        "professional-mcq-31": "「職業生活 work life」與本句語境不同。"
+        "professional-mcq-34": "本句的「professional」指「專業界線 role boundaries」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-34"
     },
@@ -3402,11 +2874,7 @@ export default {
       "masked": "Clear ____ boundaries protect both workers and clients.",
       "options": [
         "professional-mcq-34",
-        "professional-mcq-33",
-        "professional-mcq-35",
-        "professional-mcq-32",
-        "professional-mcq-36",
-        "professional-mcq-31"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業界線 role boundaries」。",
       "sentenceIndex": 80,
@@ -3415,12 +2883,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-34": "本句指「專業界線 role boundaries」。",
-        "professional-mcq-33": "「專業／工作關係 workplace relationship」與本句語境不同。",
-        "professional-mcq-35": "「專業得體的 appropriate conduct」與本句語境不同。",
-        "professional-mcq-32": "「專業背景 career history」與本句語境不同。",
-        "professional-mcq-36": "「專業方式 conduct」與本句語境不同。",
-        "professional-mcq-31": "「職業生活 work life」與本句語境不同。"
+        "professional-mcq-34": "本句的「professional」指「專業界線 role boundaries」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-34"
     },
@@ -3432,11 +2896,7 @@ export default {
       "masked": "She dealt with the complaint in a ____ manner.",
       "options": [
         "professional-mcq-36",
-        "professional-mcq-35",
-        "professional-mcq-37",
-        "professional-mcq-34",
-        "professional-mcq-38",
-        "professional-mcq-33"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業方式 conduct」。",
       "sentenceIndex": 85,
@@ -3445,12 +2905,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-36": "本句指「專業方式 conduct」。",
-        "professional-mcq-35": "「專業得體的 appropriate conduct」與本句語境不同。",
-        "professional-mcq-37": "「專業態度 mindset」與本句語境不同。",
-        "professional-mcq-34": "「專業界線 role boundaries」與本句語境不同。",
-        "professional-mcq-38": "「保持專業／公事公辦 appropriate boundary」與本句語境不同。",
-        "professional-mcq-33": "「專業／工作關係 workplace relationship」與本句語境不同。"
+        "professional-mcq-36": "本句的「professional」指「專業方式 conduct」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-36"
     },
@@ -3462,11 +2918,7 @@ export default {
       "masked": "Staff should communicate in a ____ manner.",
       "options": [
         "professional-mcq-36",
-        "professional-mcq-35",
-        "professional-mcq-37",
-        "professional-mcq-34",
-        "professional-mcq-38",
-        "professional-mcq-33"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業方式 conduct」。",
       "sentenceIndex": 86,
@@ -3475,12 +2927,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-36": "本句指「專業方式 conduct」。",
-        "professional-mcq-35": "「專業得體的 appropriate conduct」與本句語境不同。",
-        "professional-mcq-37": "「專業態度 mindset」與本句語境不同。",
-        "professional-mcq-34": "「專業界線 role boundaries」與本句語境不同。",
-        "professional-mcq-38": "「保持專業／公事公辦 appropriate boundary」與本句語境不同。",
-        "professional-mcq-33": "「專業／工作關係 workplace relationship」與本句語境不同。"
+        "professional-mcq-36": "本句的「professional」指「專業方式 conduct」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-36"
     },
@@ -3492,11 +2940,7 @@ export default {
       "masked": "He has a very ____ attitude towards his work.",
       "options": [
         "professional-mcq-37",
-        "professional-mcq-36",
-        "professional-mcq-38",
-        "professional-mcq-35",
-        "professional-mcq-39",
-        "professional-mcq-34"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業態度 mindset」。",
       "sentenceIndex": 87,
@@ -3505,12 +2949,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-37": "本句指「專業態度 mindset」。",
-        "professional-mcq-36": "「專業方式 conduct」與本句語境不同。",
-        "professional-mcq-38": "「保持專業／公事公辦 appropriate boundary」與本句語境不同。",
-        "professional-mcq-35": "「專業得體的 appropriate conduct」與本句語境不同。",
-        "professional-mcq-39": "「專業形象 appearance/reputation」與本句語境不同。",
-        "professional-mcq-34": "「專業界線 role boundaries」與本句語境不同。"
+        "professional-mcq-37": "本句的「professional」指「專業態度 mindset」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-37"
     },
@@ -3522,11 +2962,7 @@ export default {
       "masked": "A ____ attitude includes reliability and respect.",
       "options": [
         "professional-mcq-37",
-        "professional-mcq-36",
-        "professional-mcq-38",
-        "professional-mcq-35",
-        "professional-mcq-39",
-        "professional-mcq-34"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業態度 mindset」。",
       "sentenceIndex": 88,
@@ -3535,12 +2971,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-37": "本句指「專業態度 mindset」。",
-        "professional-mcq-36": "「專業方式 conduct」與本句語境不同。",
-        "professional-mcq-38": "「保持專業／公事公辦 appropriate boundary」與本句語境不同。",
-        "professional-mcq-35": "「專業得體的 appropriate conduct」與本句語境不同。",
-        "professional-mcq-39": "「專業形象 appearance/reputation」與本句語境不同。",
-        "professional-mcq-34": "「專業界線 role boundaries」與本句語境不同。"
+        "professional-mcq-37": "本句的「professional」指「專業態度 mindset」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-37"
     },
@@ -3552,11 +2984,7 @@ export default {
       "masked": "Arriving prepared demonstrates ____ behaviour.",
       "options": [
         "professional-mcq-35",
-        "professional-mcq-34",
-        "professional-mcq-36",
-        "professional-mcq-33",
-        "professional-mcq-37",
-        "professional-mcq-32"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業得體的 appropriate conduct」。",
       "sentenceIndex": 89,
@@ -3565,12 +2993,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-35": "本句指「專業得體的 appropriate conduct」。",
-        "professional-mcq-34": "「專業界線 role boundaries」與本句語境不同。",
-        "professional-mcq-36": "「專業方式 conduct」與本句語境不同。",
-        "professional-mcq-33": "「專業／工作關係 workplace relationship」與本句語境不同。",
-        "professional-mcq-37": "「專業態度 mindset」與本句語境不同。",
-        "professional-mcq-32": "「專業背景 career history」與本句語境不同。"
+        "professional-mcq-35": "本句的「professional」指「專業得體的 appropriate conduct」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-35"
     },
@@ -3582,11 +3006,7 @@ export default {
       "masked": "Shouting at colleagues is not ____ behaviour.",
       "options": [
         "professional-mcq-35",
-        "professional-mcq-34",
-        "professional-mcq-36",
-        "professional-mcq-33",
-        "professional-mcq-37",
-        "professional-mcq-32"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業得體的 appropriate conduct」。",
       "sentenceIndex": 90,
@@ -3595,12 +3015,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-35": "本句指「專業得體的 appropriate conduct」。",
-        "professional-mcq-34": "「專業界線 role boundaries」與本句語境不同。",
-        "professional-mcq-36": "「專業方式 conduct」與本句語境不同。",
-        "professional-mcq-33": "「專業／工作關係 workplace relationship」與本句語境不同。",
-        "professional-mcq-37": "「專業態度 mindset」與本句語境不同。",
-        "professional-mcq-32": "「專業背景 career history」與本句語境不同。"
+        "professional-mcq-35": "本句的「professional」指「專業得體的 appropriate conduct」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-35"
     },
@@ -3612,11 +3028,7 @@ export default {
       "masked": "Even if you disagree, keep the discussion ____.",
       "options": [
         "professional-mcq-38",
-        "professional-mcq-37",
-        "professional-mcq-39",
-        "professional-mcq-36",
-        "professional-mcq-40",
-        "professional-mcq-35"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「保持專業／公事公辦 appropriate boundary」。",
       "sentenceIndex": 91,
@@ -3625,12 +3037,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-38": "本句指「保持專業／公事公辦 appropriate boundary」。",
-        "professional-mcq-37": "「專業態度 mindset」與本句語境不同。",
-        "professional-mcq-39": "「專業形象 appearance/reputation」與本句語境不同。",
-        "professional-mcq-36": "「專業方式 conduct」與本句語境不同。",
-        "professional-mcq-40": "「專業外表 presentation」與本句語境不同。",
-        "professional-mcq-35": "「專業得體的 appropriate conduct」與本句語境不同。"
+        "professional-mcq-38": "本句的「professional」指「保持專業／公事公辦 appropriate boundary」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-38"
     },
@@ -3642,11 +3050,7 @@ export default {
       "masked": "Let's keep our relationship ____.",
       "options": [
         "professional-mcq-38",
-        "professional-mcq-37",
-        "professional-mcq-39",
-        "professional-mcq-36",
-        "professional-mcq-40",
-        "professional-mcq-35"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「保持專業／公事公辦 appropriate boundary」。",
       "sentenceIndex": 92,
@@ -3655,12 +3059,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-38": "本句指「保持專業／公事公辦 appropriate boundary」。",
-        "professional-mcq-37": "「專業態度 mindset」與本句語境不同。",
-        "professional-mcq-39": "「專業形象 appearance/reputation」與本句語境不同。",
-        "professional-mcq-36": "「專業方式 conduct」與本句語境不同。",
-        "professional-mcq-40": "「專業外表 presentation」與本句語境不同。",
-        "professional-mcq-35": "「專業得體的 appropriate conduct」與本句語境不同。"
+        "professional-mcq-38": "本句的「professional」指「保持專業／公事公辦 appropriate boundary」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-38"
     },
@@ -3672,11 +3072,7 @@ export default {
       "masked": "The website gives the company a more ____ image.",
       "options": [
         "professional-mcq-39",
-        "professional-mcq-38",
-        "professional-mcq-40",
-        "professional-mcq-37",
-        "professional-mcq-41",
-        "professional-mcq-36"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業形象 appearance/reputation」。",
       "sentenceIndex": 93,
@@ -3685,12 +3081,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-39": "本句指「專業形象 appearance/reputation」。",
-        "professional-mcq-38": "「保持專業／公事公辦 appropriate boundary」與本句語境不同。",
-        "professional-mcq-40": "「專業外表 presentation」與本句語境不同。",
-        "professional-mcq-37": "「專業態度 mindset」與本句語境不同。",
-        "professional-mcq-41": "「專業級品質 high standard」與本句語境不同。",
-        "professional-mcq-36": "「專業方式 conduct」與本句語境不同。"
+        "professional-mcq-39": "本句的「professional」指「專業形象 appearance/reputation」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-39"
     },
@@ -3702,11 +3094,7 @@ export default {
       "masked": "Employees are expected to maintain a ____ image.",
       "options": [
         "professional-mcq-39",
-        "professional-mcq-38",
-        "professional-mcq-40",
-        "professional-mcq-37",
-        "professional-mcq-41",
-        "professional-mcq-36"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業形象 appearance/reputation」。",
       "sentenceIndex": 94,
@@ -3715,12 +3103,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-39": "本句指「專業形象 appearance/reputation」。",
-        "professional-mcq-38": "「保持專業／公事公辦 appropriate boundary」與本句語境不同。",
-        "professional-mcq-40": "「專業外表 presentation」與本句語境不同。",
-        "professional-mcq-37": "「專業態度 mindset」與本句語境不同。",
-        "professional-mcq-41": "「專業級品質 high standard」與本句語境不同。",
-        "professional-mcq-36": "「專業方式 conduct」與本句語境不同。"
+        "professional-mcq-39": "本句的「professional」指「專業形象 appearance/reputation」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-39"
     },
@@ -3732,11 +3116,7 @@ export default {
       "masked": "The uniform creates a ____ appearance.",
       "options": [
         "professional-mcq-40",
-        "professional-mcq-39",
-        "professional-mcq-41",
-        "professional-mcq-38",
-        "professional-mcq-42",
-        "professional-mcq-37"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業外表 presentation」。",
       "sentenceIndex": 95,
@@ -3745,12 +3125,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-40": "本句指「專業外表 presentation」。",
-        "professional-mcq-39": "「專業形象 appearance/reputation」與本句語境不同。",
-        "professional-mcq-41": "「專業級品質 high standard」與本句語境不同。",
-        "professional-mcq-38": "「保持專業／公事公辦 appropriate boundary」與本句語境不同。",
-        "professional-mcq-42": "「專業級 equipment standard」與本句語境不同。",
-        "professional-mcq-37": "「專業態度 mindset」與本句語境不同。"
+        "professional-mcq-40": "本句的「professional」指「專業外表 presentation」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-40"
     },
@@ -3762,11 +3138,7 @@ export default {
       "masked": "____ appearance does not necessarily mean formal clothing.",
       "options": [
         "professional-mcq-40",
-        "professional-mcq-39",
-        "professional-mcq-41",
-        "professional-mcq-38",
-        "professional-mcq-42",
-        "professional-mcq-37"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professional」指「專業外表 presentation」。",
       "sentenceIndex": 96,
@@ -3775,12 +3147,8 @@ export default {
         "Professional"
       ],
       "optionReasons": {
-        "professional-mcq-40": "本句指「專業外表 presentation」。",
-        "professional-mcq-39": "「專業形象 appearance/reputation」與本句語境不同。",
-        "professional-mcq-41": "「專業級品質 high standard」與本句語境不同。",
-        "professional-mcq-38": "「保持專業／公事公辦 appropriate boundary」與本句語境不同。",
-        "professional-mcq-42": "「專業級 equipment standard」與本句語境不同。",
-        "professional-mcq-37": "「專業態度 mindset」與本句語境不同。"
+        "professional-mcq-40": "本句的「Professional」指「專業外表 presentation」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-40"
     },
@@ -3792,11 +3160,7 @@ export default {
       "masked": "The printer produces ____ images.",
       "options": [
         "professional-mcq-41",
-        "professional-mcq-40",
-        "professional-mcq-42",
-        "professional-mcq-39",
-        "professional-mcq-43",
-        "professional-mcq-38"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional-quality」指「專業級品質 high standard」。",
       "sentenceIndex": 101,
@@ -3805,12 +3169,8 @@ export default {
         "professional-quality"
       ],
       "optionReasons": {
-        "professional-mcq-41": "本句指「專業級品質 high standard」。",
-        "professional-mcq-40": "「專業外表 presentation」與本句語境不同。",
-        "professional-mcq-42": "「專業級 equipment standard」與本句語境不同。",
-        "professional-mcq-39": "「專業形象 appearance/reputation」與本句語境不同。",
-        "professional-mcq-43": "「專業設備 expert equipment」與本句語境不同。",
-        "professional-mcq-38": "「保持專業／公事公辦 appropriate boundary」與本句語境不同。"
+        "professional-mcq-41": "本句的「professional-quality」指「專業級品質 high standard」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-41"
     },
@@ -3822,11 +3182,7 @@ export default {
       "masked": "____ audio requires good recording equipment.",
       "options": [
         "professional-mcq-41",
-        "professional-mcq-40",
-        "professional-mcq-42",
-        "professional-mcq-39",
-        "professional-mcq-43",
-        "professional-mcq-38"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professional-quality」指「專業級品質 high standard」。",
       "sentenceIndex": 102,
@@ -3835,12 +3191,8 @@ export default {
         "Professional-quality"
       ],
       "optionReasons": {
-        "professional-mcq-41": "本句指「專業級品質 high standard」。",
-        "professional-mcq-40": "「專業外表 presentation」與本句語境不同。",
-        "professional-mcq-42": "「專業級 equipment standard」與本句語境不同。",
-        "professional-mcq-39": "「專業形象 appearance/reputation」與本句語境不同。",
-        "professional-mcq-43": "「專業設備 expert equipment」與本句語境不同。",
-        "professional-mcq-38": "「保持專業／公事公辦 appropriate boundary」與本句語境不同。"
+        "professional-mcq-41": "本句的「Professional-quality」指「專業級品質 high standard」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-41"
     },
@@ -3852,11 +3204,7 @@ export default {
       "masked": "The studio uses ____ equipment.",
       "options": [
         "professional-mcq-42",
-        "professional-mcq-41",
-        "professional-mcq-43",
-        "professional-mcq-40",
-        "professional-mcq-44",
-        "professional-mcq-39"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional-grade」指「專業級 equipment standard」。",
       "sentenceIndex": 103,
@@ -3865,12 +3213,8 @@ export default {
         "professional-grade"
       ],
       "optionReasons": {
-        "professional-mcq-42": "本句指「專業級 equipment standard」。",
-        "professional-mcq-41": "「專業級品質 high standard」與本句語境不同。",
-        "professional-mcq-43": "「專業設備 expert equipment」與本句語境不同。",
-        "professional-mcq-40": "「專業外表 presentation」與本句語境不同。",
-        "professional-mcq-44": "「專業用戶 expert user」與本句語境不同。",
-        "professional-mcq-39": "「專業形象 appearance/reputation」與本句語境不同。"
+        "professional-mcq-42": "本句的「professional-grade」指「專業級 equipment standard」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-42"
     },
@@ -3882,11 +3226,7 @@ export default {
       "masked": "This is a ____ camera.",
       "options": [
         "professional-mcq-42",
-        "professional-mcq-41",
-        "professional-mcq-43",
-        "professional-mcq-40",
-        "professional-mcq-44",
-        "professional-mcq-39"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional-grade」指「專業級 equipment standard」。",
       "sentenceIndex": 104,
@@ -3895,12 +3235,8 @@ export default {
         "professional-grade"
       ],
       "optionReasons": {
-        "professional-mcq-42": "本句指「專業級 equipment standard」。",
-        "professional-mcq-41": "「專業級品質 high standard」與本句語境不同。",
-        "professional-mcq-43": "「專業設備 expert equipment」與本句語境不同。",
-        "professional-mcq-40": "「專業外表 presentation」與本句語境不同。",
-        "professional-mcq-44": "「專業用戶 expert user」與本句語境不同。",
-        "professional-mcq-39": "「專業形象 appearance/reputation」與本句語境不同。"
+        "professional-mcq-42": "本句的「professional-grade」指「專業級 equipment standard」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-42"
     },
@@ -3912,11 +3248,7 @@ export default {
       "masked": "The photographer uses ____ equipment.",
       "options": [
         "professional-mcq-43",
-        "professional-mcq-42",
-        "professional-mcq-44",
-        "professional-mcq-41",
-        "professional-mcq-45",
-        "professional-mcq-40"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業設備 expert equipment」。",
       "sentenceIndex": 105,
@@ -3925,12 +3257,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-43": "本句指「專業設備 expert equipment」。",
-        "professional-mcq-42": "「專業級 equipment standard」與本句語境不同。",
-        "professional-mcq-44": "「專業用戶 expert user」與本句語境不同。",
-        "professional-mcq-41": "「專業級品質 high standard」與本句語境不同。",
-        "professional-mcq-45": "「職業的 paid occupation」與本句語境不同。",
-        "professional-mcq-40": "「專業外表 presentation」與本句語境不同。"
+        "professional-mcq-43": "本句的「professional」指「專業設備 expert equipment」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-43"
     },
@@ -3942,11 +3270,7 @@ export default {
       "masked": "____ equipment can be expensive.",
       "options": [
         "professional-mcq-43",
-        "professional-mcq-42",
-        "professional-mcq-44",
-        "professional-mcq-41",
-        "professional-mcq-45",
-        "professional-mcq-40"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professional」指「專業設備 expert equipment」。",
       "sentenceIndex": 106,
@@ -3955,12 +3279,8 @@ export default {
         "Professional"
       ],
       "optionReasons": {
-        "professional-mcq-43": "本句指「專業設備 expert equipment」。",
-        "professional-mcq-42": "「專業級 equipment standard」與本句語境不同。",
-        "professional-mcq-44": "「專業用戶 expert user」與本句語境不同。",
-        "professional-mcq-41": "「專業級品質 high standard」與本句語境不同。",
-        "professional-mcq-45": "「職業的 paid occupation」與本句語境不同。",
-        "professional-mcq-40": "「專業外表 presentation」與本句語境不同。"
+        "professional-mcq-43": "本句的「Professional」指「專業設備 expert equipment」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-43"
     },
@@ -3972,11 +3292,7 @@ export default {
       "masked": "The software is aimed at ____ users.",
       "options": [
         "professional-mcq-44",
-        "professional-mcq-43",
-        "professional-mcq-45",
-        "professional-mcq-42",
-        "professional-mcq-46",
-        "professional-mcq-41"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業用戶 expert user」。",
       "sentenceIndex": 107,
@@ -3985,12 +3301,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-44": "本句指「專業用戶 expert user」。",
-        "professional-mcq-43": "「專業設備 expert equipment」與本句語境不同。",
-        "professional-mcq-45": "「職業的 paid occupation」與本句語境不同。",
-        "professional-mcq-42": "「專業級 equipment standard」與本句語境不同。",
-        "professional-mcq-46": "「職業運動員 paid sport」與本句語境不同。",
-        "professional-mcq-41": "「專業級品質 high standard」與本句語境不同。"
+        "professional-mcq-44": "本句的「professional」指「專業用戶 expert user」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-44"
     },
@@ -4002,11 +3314,7 @@ export default {
       "masked": "____ users may require more advanced features.",
       "options": [
         "professional-mcq-44",
-        "professional-mcq-43",
-        "professional-mcq-45",
-        "professional-mcq-42",
-        "professional-mcq-46",
-        "professional-mcq-41"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professional」指「專業用戶 expert user」。",
       "sentenceIndex": 108,
@@ -4015,12 +3323,8 @@ export default {
         "Professional"
       ],
       "optionReasons": {
-        "professional-mcq-44": "本句指「專業用戶 expert user」。",
-        "professional-mcq-43": "「專業設備 expert equipment」與本句語境不同。",
-        "professional-mcq-45": "「職業的 paid occupation」與本句語境不同。",
-        "professional-mcq-42": "「專業級 equipment standard」與本句語境不同。",
-        "professional-mcq-46": "「職業運動員 paid sport」與本句語境不同。",
-        "professional-mcq-41": "「專業級品質 high standard」與本句語境不同。"
+        "professional-mcq-44": "本句的「Professional」指「專業用戶 expert user」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-44"
     },
@@ -4032,11 +3336,7 @@ export default {
       "masked": "____ athletes train almost every day.",
       "options": [
         "professional-mcq-46",
-        "professional-mcq-45",
-        "professional-mcq-47",
-        "professional-mcq-44",
-        "professional-mcq-48",
-        "professional-mcq-43"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professional」指「職業運動員 paid sport」。",
       "sentenceIndex": 111,
@@ -4045,12 +3345,8 @@ export default {
         "Professional"
       ],
       "optionReasons": {
-        "professional-mcq-46": "本句指「職業運動員 paid sport」。",
-        "professional-mcq-45": "「職業的 paid occupation」與本句語境不同。",
-        "professional-mcq-47": "「職業音樂家 paid career」與本句語境不同。",
-        "professional-mcq-44": "「專業用戶 expert user」與本句語境不同。",
-        "professional-mcq-48": "「轉為職業 amateur → professional」與本句語境不同。",
-        "professional-mcq-43": "「專業設備 expert equipment」與本句語境不同。"
+        "professional-mcq-46": "本句的「Professional」指「職業運動員 paid sport」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-46"
     },
@@ -4062,11 +3358,7 @@ export default {
       "masked": "She hopes to become a ____ athlete.",
       "options": [
         "professional-mcq-46",
-        "professional-mcq-45",
-        "professional-mcq-47",
-        "professional-mcq-44",
-        "professional-mcq-48",
-        "professional-mcq-43"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「職業運動員 paid sport」。",
       "sentenceIndex": 112,
@@ -4075,12 +3367,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-46": "本句指「職業運動員 paid sport」。",
-        "professional-mcq-45": "「職業的 paid occupation」與本句語境不同。",
-        "professional-mcq-47": "「職業音樂家 paid career」與本句語境不同。",
-        "professional-mcq-44": "「專業用戶 expert user」與本句語境不同。",
-        "professional-mcq-48": "「轉為職業 amateur → professional」與本句語境不同。",
-        "professional-mcq-43": "「專業設備 expert equipment」與本句語境不同。"
+        "professional-mcq-46": "本句的「professional」指「職業運動員 paid sport」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-46"
     },
@@ -4092,11 +3380,7 @@ export default {
       "masked": "She works as a ____ musician.",
       "options": [
         "professional-mcq-47",
-        "professional-mcq-46",
-        "professional-mcq-48",
-        "professional-mcq-45",
-        "professional-mcq-49",
-        "professional-mcq-44"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「職業音樂家 paid career」。",
       "sentenceIndex": 115,
@@ -4105,12 +3389,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-47": "本句指「職業音樂家 paid career」。",
-        "professional-mcq-46": "「職業運動員 paid sport」與本句語境不同。",
-        "professional-mcq-48": "「轉為職業 amateur → professional」與本句語境不同。",
-        "professional-mcq-45": "「職業的 paid occupation」與本句語境不同。",
-        "professional-mcq-49": "「專業人士 trained worker」與本句語境不同。",
-        "professional-mcq-44": "「專業用戶 expert user」與本句語境不同。"
+        "professional-mcq-47": "本句的「professional」指「職業音樂家 paid career」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-47"
     },
@@ -4122,11 +3402,7 @@ export default {
       "masked": "He trained as a ____ actor.",
       "options": [
         "professional-mcq-47",
-        "professional-mcq-46",
-        "professional-mcq-48",
-        "professional-mcq-45",
-        "professional-mcq-49",
-        "professional-mcq-44"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「職業音樂家 paid career」。",
       "sentenceIndex": 116,
@@ -4135,12 +3411,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-47": "本句指「職業音樂家 paid career」。",
-        "professional-mcq-46": "「職業運動員 paid sport」與本句語境不同。",
-        "professional-mcq-48": "「轉為職業 amateur → professional」與本句語境不同。",
-        "professional-mcq-45": "「職業的 paid occupation」與本句語境不同。",
-        "professional-mcq-49": "「專業人士 trained worker」與本句語境不同。",
-        "professional-mcq-44": "「專業用戶 expert user」與本句語境不同。"
+        "professional-mcq-47": "本句的「professional」指「職業音樂家 paid career」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-47"
     },
@@ -4152,11 +3424,7 @@ export default {
       "masked": "She turned ____ at seventeen.",
       "options": [
         "professional-mcq-48",
-        "professional-mcq-47",
-        "professional-mcq-49",
-        "professional-mcq-46",
-        "professional-mcq-50",
-        "professional-mcq-45"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「轉為職業 amateur → professional」。",
       "sentenceIndex": 121,
@@ -4165,12 +3433,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-48": "本句指「轉為職業 amateur → professional」。",
-        "professional-mcq-47": "「職業音樂家 paid career」與本句語境不同。",
-        "professional-mcq-49": "「專業人士 trained worker」與本句語境不同。",
-        "professional-mcq-46": "「職業運動員 paid sport」與本句語境不同。",
-        "professional-mcq-50": "「醫療專業人士 healthcare」與本句語境不同。",
-        "professional-mcq-45": "「職業的 paid occupation」與本句語境不同。"
+        "professional-mcq-48": "本句的「professional」指「轉為職業 amateur → professional」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-48"
     },
@@ -4182,11 +3446,7 @@ export default {
       "masked": "After years of amateur competition, he went ____.",
       "options": [
         "professional-mcq-48",
-        "professional-mcq-47",
-        "professional-mcq-49",
-        "professional-mcq-46",
-        "professional-mcq-50",
-        "professional-mcq-45"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「轉為職業 amateur → professional」。",
       "sentenceIndex": 122,
@@ -4195,12 +3455,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-48": "本句指「轉為職業 amateur → professional」。",
-        "professional-mcq-47": "「職業音樂家 paid career」與本句語境不同。",
-        "professional-mcq-49": "「專業人士 trained worker」與本句語境不同。",
-        "professional-mcq-46": "「職業運動員 paid sport」與本句語境不同。",
-        "professional-mcq-50": "「醫療專業人士 healthcare」與本句語境不同。",
-        "professional-mcq-45": "「職業的 paid occupation」與本句語境不同。"
+        "professional-mcq-48": "本句的「professional」指「轉為職業 amateur → professional」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-48"
     },
@@ -4212,11 +3468,7 @@ export default {
       "masked": "The programme is designed for working ____.",
       "options": [
         "professional-mcq-51",
-        "professional-mcq-50",
-        "professional-mcq-52",
-        "professional-mcq-49",
-        "professional-mcq-53",
-        "professional-mcq-48"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professionals」指「在職專業人士 employed professional」。",
       "sentenceIndex": 131,
@@ -4225,12 +3477,8 @@ export default {
         "professionals"
       ],
       "optionReasons": {
-        "professional-mcq-51": "本句指「在職專業人士 employed professional」。",
-        "professional-mcq-50": "「醫療專業人士 healthcare」與本句語境不同。",
-        "professional-mcq-52": "「年輕專業人士 demographic」與本句語境不同。",
-        "professional-mcq-49": "「專業人士 trained worker」與本句語境不同。",
-        "professional-mcq-53": "「職業選手 paid competitor」與本句語境不同。",
-        "professional-mcq-48": "「轉為職業 amateur → professional」與本句語境不同。"
+        "professional-mcq-51": "本句的「professionals」指「在職專業人士 employed professional」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-51"
     },
@@ -4242,11 +3490,7 @@ export default {
       "masked": "Working ____ often prefer evening courses.",
       "options": [
         "professional-mcq-51",
-        "professional-mcq-50",
-        "professional-mcq-52",
-        "professional-mcq-49",
-        "professional-mcq-53",
-        "professional-mcq-48"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professionals」指「在職專業人士 employed professional」。",
       "sentenceIndex": 132,
@@ -4255,12 +3499,8 @@ export default {
         "professionals"
       ],
       "optionReasons": {
-        "professional-mcq-51": "本句指「在職專業人士 employed professional」。",
-        "professional-mcq-50": "「醫療專業人士 healthcare」與本句語境不同。",
-        "professional-mcq-52": "「年輕專業人士 demographic」與本句語境不同。",
-        "professional-mcq-49": "「專業人士 trained worker」與本句語境不同。",
-        "professional-mcq-53": "「職業選手 paid competitor」與本句語境不同。",
-        "professional-mcq-48": "「轉為職業 amateur → professional」與本句語境不同。"
+        "professional-mcq-51": "本句的「professionals」指「在職專業人士 employed professional」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-51"
     },
@@ -4272,11 +3512,7 @@ export default {
       "masked": "The area is popular with young ____.",
       "options": [
         "professional-mcq-52",
-        "professional-mcq-51",
-        "professional-mcq-53",
-        "professional-mcq-50",
-        "professional-mcq-54",
-        "professional-mcq-49"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professionals」指「年輕專業人士 demographic」。",
       "sentenceIndex": 133,
@@ -4285,12 +3521,8 @@ export default {
         "professionals"
       ],
       "optionReasons": {
-        "professional-mcq-52": "本句指「年輕專業人士 demographic」。",
-        "professional-mcq-51": "「在職專業人士 employed professional」與本句語境不同。",
-        "professional-mcq-53": "「職業選手 paid competitor」與本句語境不同。",
-        "professional-mcq-50": "「醫療專業人士 healthcare」與本句語境不同。",
-        "professional-mcq-54": "「真正專業的人 conduct + competence」與本句語境不同。",
-        "professional-mcq-49": "「專業人士 trained worker」與本句語境不同。"
+        "professional-mcq-52": "本句的「professionals」指「年輕專業人士 demographic」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-52"
     },
@@ -4302,11 +3534,7 @@ export default {
       "masked": "The event targets young ____.",
       "options": [
         "professional-mcq-52",
-        "professional-mcq-51",
-        "professional-mcq-53",
-        "professional-mcq-50",
-        "professional-mcq-54",
-        "professional-mcq-49"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professionals」指「年輕專業人士 demographic」。",
       "sentenceIndex": 134,
@@ -4315,12 +3543,8 @@ export default {
         "professionals"
       ],
       "optionReasons": {
-        "professional-mcq-52": "本句指「年輕專業人士 demographic」。",
-        "professional-mcq-51": "「在職專業人士 employed professional」與本句語境不同。",
-        "professional-mcq-53": "「職業選手 paid competitor」與本句語境不同。",
-        "professional-mcq-50": "「醫療專業人士 healthcare」與本句語境不同。",
-        "professional-mcq-54": "「真正專業的人 conduct + competence」與本句語境不同。",
-        "professional-mcq-49": "「專業人士 trained worker」與本句語境不同。"
+        "professional-mcq-52": "本句的「professionals」指「年輕專業人士 demographic」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-52"
     },
@@ -4332,11 +3556,7 @@ export default {
       "masked": "Everyone described her as a consummate ____.",
       "options": [
         "professional-mcq-55",
-        "professional-mcq-54",
-        "professional-mcq-56",
-        "professional-mcq-53",
-        "professional-mcq-57",
-        "professional-mcq-52"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「極其專業的人 exceptional standard」。",
       "sentenceIndex": 139,
@@ -4345,12 +3565,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-55": "本句指「極其專業的人 exceptional standard」。",
-        "professional-mcq-54": "「真正專業的人 conduct + competence」與本句語境不同。",
-        "professional-mcq-56": "「專業；職業 skilled occupation」與本句語境不同。",
-        "professional-mcq-53": "「職業選手 paid competitor」與本句語境不同。",
-        "professional-mcq-57": "「投身該專業 begin career」與本句語境不同。",
-        "professional-mcq-52": "「年輕專業人士 demographic」與本句語境不同。"
+        "professional-mcq-55": "本句的「professional」指「極其專業的人 exceptional standard」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-55"
     },
@@ -4362,11 +3578,7 @@ export default {
       "masked": "He handled the crisis like a consummate ____.",
       "options": [
         "professional-mcq-55",
-        "professional-mcq-54",
-        "professional-mcq-56",
-        "professional-mcq-53",
-        "professional-mcq-57",
-        "professional-mcq-52"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「極其專業的人 exceptional standard」。",
       "sentenceIndex": 140,
@@ -4375,12 +3587,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-55": "本句指「極其專業的人 exceptional standard」。",
-        "professional-mcq-54": "「真正專業的人 conduct + competence」與本句語境不同。",
-        "professional-mcq-56": "「專業；職業 skilled occupation」與本句語境不同。",
-        "professional-mcq-53": "「職業選手 paid competitor」與本句語境不同。",
-        "professional-mcq-57": "「投身該專業 begin career」與本句語境不同。",
-        "professional-mcq-52": "「年輕專業人士 demographic」與本句語境不同。"
+        "professional-mcq-55": "本句的「professional」指「極其專業的人 exceptional standard」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-55"
     },
@@ -4392,11 +3600,7 @@ export default {
       "masked": "They know each other ____.",
       "options": [
         "professional-mcq-62",
-        "professional-mcq-61",
-        "professional-mcq-63",
-        "professional-mcq-60",
-        "professional-mcq-64",
-        "professional-mcq-59"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professionally」指「在職業上 career context」。",
       "sentenceIndex": 145,
@@ -4405,12 +3609,8 @@ export default {
         "professionally"
       ],
       "optionReasons": {
-        "professional-mcq-62": "本句指「在職業上 career context」。",
-        "professional-mcq-61": "「專業地 manner」與本句語境不同。",
-        "professional-mcq-63": "「受過專業訓練 training」與本句語境不同。",
-        "professional-mcq-60": "「信仰宣認 formal declaration」與本句語境不同。",
-        "professional-mcq-64": "「專業精神 standards/attitude」與本句語境不同。",
-        "professional-mcq-59": "「專業性職業 traditional professions」與本句語境不同。"
+        "professional-mcq-62": "本句的「professionally」指「在職業上 career context」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-62"
     },
@@ -4422,11 +3622,7 @@ export default {
       "masked": "The decision benefited her ____.",
       "options": [
         "professional-mcq-62",
-        "professional-mcq-61",
-        "professional-mcq-63",
-        "professional-mcq-60",
-        "professional-mcq-64",
-        "professional-mcq-59"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professionally」指「在職業上 career context」。",
       "sentenceIndex": 146,
@@ -4435,12 +3631,8 @@ export default {
         "professionally"
       ],
       "optionReasons": {
-        "professional-mcq-62": "本句指「在職業上 career context」。",
-        "professional-mcq-61": "「專業地 manner」與本句語境不同。",
-        "professional-mcq-63": "「受過專業訓練 training」與本句語境不同。",
-        "professional-mcq-60": "「信仰宣認 formal declaration」與本句語境不同。",
-        "professional-mcq-64": "「專業精神 standards/attitude」與本句語境不同。",
-        "professional-mcq-59": "「專業性職業 traditional professions」與本句語境不同。"
+        "professional-mcq-62": "本句的「professionally」指「在職業上 career context」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-62"
     },
@@ -4452,11 +3644,7 @@ export default {
       "masked": "The service is provided by ____ trained staff.",
       "options": [
         "professional-mcq-63",
-        "professional-mcq-62",
-        "professional-mcq-64",
-        "professional-mcq-61",
-        "professional-mcq-65",
-        "professional-mcq-60"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professionally」指「受過專業訓練 training」。",
       "sentenceIndex": 147,
@@ -4465,12 +3653,8 @@ export default {
         "professionally"
       ],
       "optionReasons": {
-        "professional-mcq-63": "本句指「受過專業訓練 training」。",
-        "professional-mcq-62": "「在職業上 career context」與本句語境不同。",
-        "professional-mcq-64": "「專業精神 standards/attitude」與本句語境不同。",
-        "professional-mcq-61": "「專業地 manner」與本句語境不同。",
-        "professional-mcq-65": "「不專業的 below standard」與本句語境不同。",
-        "professional-mcq-60": "「信仰宣認 formal declaration」與本句語境不同。"
+        "professional-mcq-63": "本句的「professionally」指「受過專業訓練 training」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-63"
     },
@@ -4482,11 +3666,7 @@ export default {
       "masked": "____ trained interpreters were available.",
       "options": [
         "professional-mcq-63",
-        "professional-mcq-62",
-        "professional-mcq-64",
-        "professional-mcq-61",
-        "professional-mcq-65",
-        "professional-mcq-60"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professionally」指「受過專業訓練 training」。",
       "sentenceIndex": 148,
@@ -4495,12 +3675,8 @@ export default {
         "Professionally"
       ],
       "optionReasons": {
-        "professional-mcq-63": "本句指「受過專業訓練 training」。",
-        "professional-mcq-62": "「在職業上 career context」與本句語境不同。",
-        "professional-mcq-64": "「專業精神 standards/attitude」與本句語境不同。",
-        "professional-mcq-61": "「專業地 manner」與本句語境不同。",
-        "professional-mcq-65": "「不專業的 below standard」與本句語境不同。",
-        "professional-mcq-60": "「信仰宣認 formal declaration」與本句語境不同。"
+        "professional-mcq-63": "本句的「Professionally」指「受過專業訓練 training」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-63"
     },
@@ -4512,11 +3688,7 @@ export default {
       "masked": "The regulator investigated allegations of ____ misconduct.",
       "options": [
         "professional-mcq-66",
-        "professional-mcq-65",
-        "professional-mcq-67",
-        "professional-mcq-64",
-        "professional-mcq-68",
-        "professional-mcq-63"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業失當 serious breach」。",
       "sentenceIndex": 159,
@@ -4525,12 +3697,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-66": "本句指「專業失當 serious breach」。",
-        "professional-mcq-65": "「不專業的 below standard」與本句語境不同。",
-        "professional-mcq-67": "「專業疏忽 failure of standard」與本句語境不同。",
-        "professional-mcq-64": "「專業精神 standards/attitude」與本句語境不同。",
-        "professional-mcq-68": "「專業人脈 work contacts」與本句語境不同。",
-        "professional-mcq-63": "「受過專業訓練 training」與本句語境不同。"
+        "professional-mcq-66": "本句的「professional」指「專業失當 serious breach」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-66"
     },
@@ -4542,11 +3710,7 @@ export default {
       "masked": "Serious ____ misconduct can result in loss of a licence.",
       "options": [
         "professional-mcq-66",
-        "professional-mcq-65",
-        "professional-mcq-67",
-        "professional-mcq-64",
-        "professional-mcq-68",
-        "professional-mcq-63"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業失當 serious breach」。",
       "sentenceIndex": 160,
@@ -4555,12 +3719,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-66": "本句指「專業失當 serious breach」。",
-        "professional-mcq-65": "「不專業的 below standard」與本句語境不同。",
-        "professional-mcq-67": "「專業疏忽 failure of standard」與本句語境不同。",
-        "professional-mcq-64": "「專業精神 standards/attitude」與本句語境不同。",
-        "professional-mcq-68": "「專業人脈 work contacts」與本句語境不同。",
-        "professional-mcq-63": "「受過專業訓練 training」與本句語境不同。"
+        "professional-mcq-66": "本句的「professional」指「專業失當 serious breach」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-66"
     },
@@ -4572,11 +3732,7 @@ export default {
       "masked": "The client alleged ____ negligence.",
       "options": [
         "professional-mcq-67",
-        "professional-mcq-66",
-        "professional-mcq-68",
-        "professional-mcq-65",
-        "professional-mcq-69",
-        "professional-mcq-64"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業疏忽 failure of standard」。",
       "sentenceIndex": 161,
@@ -4585,12 +3741,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-67": "本句指「專業疏忽 failure of standard」。",
-        "professional-mcq-66": "「專業失當 serious breach」與本句語境不同。",
-        "professional-mcq-68": "「專業人脈 work contacts」與本句語境不同。",
-        "professional-mcq-65": "「不專業的 below standard」與本句語境不同。",
-        "professional-mcq-69": "「半職業的 between amateur/pro」與本句語境不同。",
-        "professional-mcq-64": "「專業精神 standards/attitude」與本句語境不同。"
+        "professional-mcq-67": "本句的「professional」指「專業疏忽 failure of standard」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-67"
     },
@@ -4602,11 +3754,7 @@ export default {
       "masked": "____ can be liable for losses caused by negligence.",
       "options": [
         "professional-mcq-67",
-        "professional-mcq-66",
-        "professional-mcq-68",
-        "professional-mcq-65",
-        "professional-mcq-69",
-        "professional-mcq-64"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Professionals」指「專業疏忽 failure of standard」。",
       "sentenceIndex": 162,
@@ -4615,12 +3763,8 @@ export default {
         "Professionals"
       ],
       "optionReasons": {
-        "professional-mcq-67": "本句指「專業疏忽 failure of standard」。",
-        "professional-mcq-66": "「專業失當 serious breach」與本句語境不同。",
-        "professional-mcq-68": "「專業人脈 work contacts」與本句語境不同。",
-        "professional-mcq-65": "「不專業的 below standard」與本句語境不同。",
-        "professional-mcq-69": "「半職業的 between amateur/pro」與本句語境不同。",
-        "professional-mcq-64": "「專業精神 standards/attitude」與本句語境不同。"
+        "professional-mcq-67": "本句的「Professionals」指「專業疏忽 failure of standard」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-67"
     },
@@ -4632,11 +3776,7 @@ export default {
       "masked": "Conferences help people build a ____ network.",
       "options": [
         "professional-mcq-68",
-        "professional-mcq-67",
-        "professional-mcq-69",
-        "professional-mcq-66",
-        "professional-mcq-70",
-        "professional-mcq-65"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業人脈 work contacts」。",
       "sentenceIndex": 163,
@@ -4645,12 +3785,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-68": "本句指「專業人脈 work contacts」。",
-        "professional-mcq-67": "「專業疏忽 failure of standard」與本句語境不同。",
-        "professional-mcq-69": "「半職業的 between amateur/pro」與本句語境不同。",
-        "professional-mcq-66": "「專業失當 serious breach」與本句語境不同。",
-        "professional-mcq-70": "「輔助專業人員 professional support role」與本句語境不同。",
-        "professional-mcq-65": "「不專業的 below standard」與本句語境不同。"
+        "professional-mcq-68": "本句的「professional」指「專業人脈 work contacts」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-68"
     },
@@ -4662,11 +3798,7 @@ export default {
       "masked": "She has a strong ____ network in the industry.",
       "options": [
         "professional-mcq-68",
-        "professional-mcq-67",
-        "professional-mcq-69",
-        "professional-mcq-66",
-        "professional-mcq-70",
-        "professional-mcq-65"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「專業人脈 work contacts」。",
       "sentenceIndex": 164,
@@ -4675,12 +3807,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-68": "本句指「專業人脈 work contacts」。",
-        "professional-mcq-67": "「專業疏忽 failure of standard」與本句語境不同。",
-        "professional-mcq-69": "「半職業的 between amateur/pro」與本句語境不同。",
-        "professional-mcq-66": "「專業失當 serious breach」與本句語境不同。",
-        "professional-mcq-70": "「輔助專業人員 professional support role」與本句語境不同。",
-        "professional-mcq-65": "「不專業的 below standard」與本句語境不同。"
+        "professional-mcq-68": "本句的「professional」指「專業人脈 work contacts」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-68"
     },
@@ -4692,11 +3820,7 @@ export default {
       "masked": "He plays in a semi-____ football league.",
       "options": [
         "professional-mcq-69",
-        "professional-mcq-68",
-        "professional-mcq-70",
-        "professional-mcq-67",
-        "professional-mcq-71",
-        "professional-mcq-66"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「半職業的 between amateur/pro」。",
       "sentenceIndex": 173,
@@ -4705,12 +3829,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-69": "本句指「半職業的 between amateur/pro」。",
-        "professional-mcq-68": "「專業人脈 work contacts」與本句語境不同。",
-        "professional-mcq-70": "「輔助專業人員 professional support role」與本句語境不同。",
-        "professional-mcq-67": "「專業疏忽 failure of standard」與本句語境不同。",
-        "professional-mcq-71": "「使專業化／職業化 raise/formalise status」與本句語境不同。",
-        "professional-mcq-66": "「專業失當 serious breach」與本句語境不同。"
+        "professional-mcq-69": "本句的「professional」指「半職業的 between amateur/pro」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-69"
     },
@@ -4722,11 +3842,7 @@ export default {
       "masked": "She works as a semi-____ photographer.",
       "options": [
         "professional-mcq-69",
-        "professional-mcq-68",
-        "professional-mcq-70",
-        "professional-mcq-67",
-        "professional-mcq-71",
-        "professional-mcq-66"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professional」指「半職業的 between amateur/pro」。",
       "sentenceIndex": 174,
@@ -4735,12 +3851,8 @@ export default {
         "professional"
       ],
       "optionReasons": {
-        "professional-mcq-69": "本句指「半職業的 between amateur/pro」。",
-        "professional-mcq-68": "「專業人脈 work contacts」與本句語境不同。",
-        "professional-mcq-70": "「輔助專業人員 professional support role」與本句語境不同。",
-        "professional-mcq-67": "「專業疏忽 failure of standard」與本句語境不同。",
-        "professional-mcq-71": "「使專業化／職業化 raise/formalise status」與本句語境不同。",
-        "professional-mcq-66": "「專業失當 serious breach」與本句語境不同。"
+        "professional-mcq-69": "本句的「professional」指「半職業的 between amateur/pro」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-69"
     },
@@ -4752,11 +3864,7 @@ export default {
       "masked": "Para____ often work under the supervision of qualified professionals.",
       "options": [
         "professional-mcq-70",
-        "professional-mcq-69",
-        "professional-mcq-71",
-        "professional-mcq-68",
-        "professional-mcq-72",
-        "professional-mcq-67"
+        "contrast-purchase"
       ],
       "explanation": "本句的「professionals」指「輔助專業人員 professional support role」。",
       "sentenceIndex": 177,
@@ -4765,12 +3873,8 @@ export default {
         "professionals"
       ],
       "optionReasons": {
-        "professional-mcq-70": "本句指「輔助專業人員 professional support role」。",
-        "professional-mcq-69": "「半職業的 between amateur/pro」與本句語境不同。",
-        "professional-mcq-71": "「使專業化／職業化 raise/formalise status」與本句語境不同。",
-        "professional-mcq-68": "「專業人脈 work contacts」與本句語境不同。",
-        "professional-mcq-72": "「專業化／職業化 process」與本句語境不同。",
-        "professional-mcq-67": "「專業疏忽 failure of standard」與本句語境不同。"
+        "professional-mcq-70": "本句的「professionals」指「輔助專業人員 professional support role」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "professional-mcq-70"
     }
@@ -4782,5 +3886,12 @@ export default {
     "sha256": "eff3e876dfa4ea2190d8503e6ae7c7f4b773aec2fe16cbbfbdbbc74e1cea682f",
     "pages": 75
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

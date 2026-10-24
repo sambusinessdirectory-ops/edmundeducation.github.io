@@ -535,11 +535,9 @@ export default {
       "masked": "We followed a narrow ____ through the forest.",
       "options": [
         "path-mcq-01",
-        "path-mcq-02",
-        "path-mcq-03",
-        "path-mcq-04",
-        "path-mcq-05",
-        "path-mcq-06"
+        "path-mcq-11",
+        "path-mcq-07",
+        "path-mcq-12"
       ],
       "explanation": "本句的「path」指「供人步行的狹窄道路、小徑或步道」。",
       "sentenceIndex": 2,
@@ -548,12 +546,10 @@ export default {
         "path"
       ],
       "optionReasons": {
-        "path-mcq-01": "本句指「供人步行的狹窄道路、小徑或步道」。",
-        "path-mcq-02": "「某人、物體或現象實際移動所經過的路線／路徑」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。"
+        "path-mcq-01": "本句的「path」指「供人步行的狹窄道路、小徑或步道」。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-01"
     },
@@ -565,11 +561,9 @@ export default {
       "masked": "The ____ leads to the lake.",
       "options": [
         "path-mcq-01",
-        "path-mcq-02",
-        "path-mcq-03",
-        "path-mcq-04",
-        "path-mcq-05",
-        "path-mcq-06"
+        "path-mcq-11",
+        "path-mcq-07",
+        "path-mcq-12"
       ],
       "explanation": "本句的「path」指「供人步行的狹窄道路、小徑或步道」。",
       "sentenceIndex": 3,
@@ -578,12 +572,10 @@ export default {
         "path"
       ],
       "optionReasons": {
-        "path-mcq-01": "本句指「供人步行的狹窄道路、小徑或步道」。",
-        "path-mcq-02": "「某人、物體或現象實際移動所經過的路線／路徑」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。"
+        "path-mcq-01": "本句的「path」指「供人步行的狹窄道路、小徑或步道」。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-01"
     },
@@ -595,11 +587,9 @@ export default {
       "masked": "Cyclists are not allowed on the ____.",
       "options": [
         "path-mcq-01",
-        "path-mcq-02",
-        "path-mcq-03",
-        "path-mcq-04",
-        "path-mcq-05",
-        "path-mcq-06"
+        "path-mcq-07",
+        "path-mcq-11",
+        "path-mcq-21"
       ],
       "explanation": "本句的「footpath」指「供人步行的狹窄道路、小徑或步道」。",
       "sentenceIndex": 4,
@@ -608,12 +598,10 @@ export default {
         "footpath"
       ],
       "optionReasons": {
-        "path-mcq-01": "本句指「供人步行的狹窄道路、小徑或步道」。",
-        "path-mcq-02": "「某人、物體或現象實際移動所經過的路線／路徑」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。"
+        "path-mcq-01": "本句的「footpath」指「供人步行的狹窄道路、小徑或步道」。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-01"
     },
@@ -625,11 +613,9 @@ export default {
       "masked": "A walking ____ runs along the river.",
       "options": [
         "path-mcq-01",
-        "path-mcq-02",
-        "path-mcq-03",
-        "path-mcq-04",
-        "path-mcq-05",
-        "path-mcq-06"
+        "path-mcq-11",
+        "path-mcq-07",
+        "path-mcq-21"
       ],
       "explanation": "本句的「path」指「供人步行的狹窄道路、小徑或步道」。",
       "sentenceIndex": 5,
@@ -638,12 +624,10 @@ export default {
         "path"
       ],
       "optionReasons": {
-        "path-mcq-01": "本句指「供人步行的狹窄道路、小徑或步道」。",
-        "path-mcq-02": "「某人、物體或現象實際移動所經過的路線／路徑」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。"
+        "path-mcq-01": "本句的「path」指「供人步行的狹窄道路、小徑或步道」。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-01"
     },
@@ -655,11 +639,9 @@ export default {
       "masked": "Stone ____ connect the different parts of the garden.",
       "options": [
         "path-mcq-01",
-        "path-mcq-02",
-        "path-mcq-03",
-        "path-mcq-04",
-        "path-mcq-05",
-        "path-mcq-06"
+        "path-mcq-07",
+        "path-mcq-11",
+        "path-mcq-12"
       ],
       "explanation": "本句的「paths」指「供人步行的狹窄道路、小徑或步道」。",
       "sentenceIndex": 6,
@@ -668,12 +650,10 @@ export default {
         "paths"
       ],
       "optionReasons": {
-        "path-mcq-01": "本句指「供人步行的狹窄道路、小徑或步道」。",
-        "path-mcq-02": "「某人、物體或現象實際移動所經過的路線／路徑」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。"
+        "path-mcq-01": "本句的「paths」指「供人步行的狹窄道路、小徑或步道」。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-01"
     },
@@ -685,11 +665,9 @@ export default {
       "masked": "She walked slowly along the ____.",
       "options": [
         "path-mcq-01",
-        "path-mcq-02",
-        "path-mcq-03",
-        "path-mcq-04",
-        "path-mcq-05",
-        "path-mcq-06"
+        "path-mcq-11",
+        "path-mcq-07",
+        "path-mcq-21"
       ],
       "explanation": "本句的「garden path」指「供人步行的狹窄道路、小徑或步道」。",
       "sentenceIndex": 7,
@@ -698,12 +676,10 @@ export default {
         "garden path"
       ],
       "optionReasons": {
-        "path-mcq-01": "本句指「供人步行的狹窄道路、小徑或步道」。",
-        "path-mcq-02": "「某人、物體或現象實際移動所經過的路線／路徑」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。"
+        "path-mcq-01": "本句的「garden path」指「供人步行的狹窄道路、小徑或步道」。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-01"
     },
@@ -715,11 +691,9 @@ export default {
       "masked": "The storm changed its ____.",
       "options": [
         "path-mcq-02",
-        "path-mcq-01",
-        "path-mcq-03",
-        "path-mcq-04",
-        "path-mcq-05",
-        "path-mcq-06"
+        "path-mcq-07",
+        "path-mcq-19",
+        "path-mcq-21"
       ],
       "explanation": "本句的「path」指「某人、物體或現象實際移動所經過的路線／路徑」。",
       "sentenceIndex": 8,
@@ -728,12 +702,10 @@ export default {
         "path"
       ],
       "optionReasons": {
-        "path-mcq-02": "本句指「某人、物體或現象實際移動所經過的路線／路徑」。",
-        "path-mcq-01": "「供人步行的狹窄道路、小徑或步道」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。"
+        "path-mcq-02": "本句的「path」指「某人、物體或現象實際移動所經過的路線／路徑」。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-02"
     },
@@ -745,11 +717,9 @@ export default {
       "masked": "The satellite follows a fixed ____.",
       "options": [
         "path-mcq-02",
-        "path-mcq-01",
-        "path-mcq-03",
-        "path-mcq-04",
-        "path-mcq-05",
-        "path-mcq-06"
+        "path-mcq-07",
+        "path-mcq-19",
+        "path-mcq-21"
       ],
       "explanation": "本句的「path」指「某人、物體或現象實際移動所經過的路線／路徑」。",
       "sentenceIndex": 9,
@@ -758,12 +728,10 @@ export default {
         "path"
       ],
       "optionReasons": {
-        "path-mcq-02": "本句指「某人、物體或現象實際移動所經過的路線／路徑」。",
-        "path-mcq-01": "「供人步行的狹窄道路、小徑或步道」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。"
+        "path-mcq-02": "本句的「path」指「某人、物體或現象實際移動所經過的路線／路徑」。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-02"
     },
@@ -775,11 +743,9 @@ export default {
       "masked": "The plane changed its ____.",
       "options": [
         "path-mcq-02",
-        "path-mcq-01",
-        "path-mcq-03",
-        "path-mcq-04",
-        "path-mcq-05",
-        "path-mcq-06"
+        "path-mcq-07",
+        "path-mcq-19",
+        "path-mcq-21"
       ],
       "explanation": "本句的「flight path」指「某人、物體或現象實際移動所經過的路線／路徑」。",
       "sentenceIndex": 10,
@@ -788,12 +754,10 @@ export default {
         "flight path"
       ],
       "optionReasons": {
-        "path-mcq-02": "本句指「某人、物體或現象實際移動所經過的路線／路徑」。",
-        "path-mcq-01": "「供人步行的狹窄道路、小徑或步道」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。"
+        "path-mcq-02": "本句的「flight path」指「某人、物體或現象實際移動所經過的路線／路徑」。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-02"
     },
@@ -805,11 +769,9 @@ export default {
       "masked": "The building lies under a major ____.",
       "options": [
         "path-mcq-02",
-        "path-mcq-01",
-        "path-mcq-03",
-        "path-mcq-04",
-        "path-mcq-05",
-        "path-mcq-06"
+        "path-mcq-19",
+        "path-mcq-07",
+        "path-mcq-21"
       ],
       "explanation": "本句的「flight path」指「某人、物體或現象實際移動所經過的路線／路徑」。",
       "sentenceIndex": 11,
@@ -818,12 +780,10 @@ export default {
         "flight path"
       ],
       "optionReasons": {
-        "path-mcq-02": "本句指「某人、物體或現象實際移動所經過的路線／路徑」。",
-        "path-mcq-01": "「供人步行的狹窄道路、小徑或步道」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。"
+        "path-mcq-02": "本句的「flight path」指「某人、物體或現象實際移動所經過的路線／路徑」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-02"
     },
@@ -835,11 +795,9 @@ export default {
       "masked": "The town lay directly in the ____.",
       "options": [
         "path-mcq-03",
-        "path-mcq-02",
-        "path-mcq-04",
-        "path-mcq-01",
-        "path-mcq-05",
-        "path-mcq-06"
+        "path-mcq-19",
+        "path-mcq-07",
+        "path-mcq-21"
       ],
       "explanation": "本句的「path of the storm」指「某個移動事物所經過的行進路徑或軌跡」。",
       "sentenceIndex": 12,
@@ -848,12 +806,10 @@ export default {
         "path of the storm"
       ],
       "optionReasons": {
-        "path-mcq-03": "本句指「某個移動事物所經過的行進路徑或軌跡」。",
-        "path-mcq-02": "「某人、物體或現象實際移動所經過的路線／路徑」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-01": "「供人步行的狹窄道路、小徑或步道」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。"
+        "path-mcq-03": "本句的「path of the storm」指「某個移動事物所經過的行進路徑或軌跡」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-03"
     },
@@ -865,11 +821,9 @@ export default {
       "masked": "Trees blocked the ____.",
       "options": [
         "path-mcq-03",
-        "path-mcq-02",
-        "path-mcq-04",
-        "path-mcq-01",
-        "path-mcq-05",
-        "path-mcq-06"
+        "path-mcq-19",
+        "path-mcq-07",
+        "path-mcq-12"
       ],
       "explanation": "本句的「path of the vehicle」指「某個移動事物所經過的行進路徑或軌跡」。",
       "sentenceIndex": 13,
@@ -878,12 +832,10 @@ export default {
         "path of the vehicle"
       ],
       "optionReasons": {
-        "path-mcq-03": "本句指「某個移動事物所經過的行進路徑或軌跡」。",
-        "path-mcq-02": "「某人、物體或現象實際移動所經過的路線／路徑」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-01": "「供人步行的狹窄道路、小徑或步道」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。"
+        "path-mcq-03": "本句的「path of the vehicle」指「某個移動事物所經過的行進路徑或軌跡」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-03"
     },
@@ -895,11 +847,9 @@ export default {
       "masked": "The company is on a new ____.",
       "options": [
         "path-mcq-04",
-        "path-mcq-03",
-        "path-mcq-05",
-        "path-mcq-02",
-        "path-mcq-06",
-        "path-mcq-01"
+        "path-mcq-21",
+        "path-mcq-19",
+        "path-mcq-11"
       ],
       "explanation": "本句的「path of growth」指「某人、組織或事物長期發展所走的道路／方向」。",
       "sentenceIndex": 14,
@@ -908,12 +858,10 @@ export default {
         "path of growth"
       ],
       "optionReasons": {
-        "path-mcq-04": "本句指「某人、組織或事物長期發展所走的道路／方向」。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-02": "「某人、物體或現象實際移動所經過的路線／路徑」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。",
-        "path-mcq-01": "「供人步行的狹窄道路、小徑或步道」與本句語境不同。"
+        "path-mcq-04": "本句的「path of growth」指「某人、組織或事物長期發展所走的道路／方向」。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-04"
     },
@@ -925,11 +873,9 @@ export default {
       "masked": "The country followed a different economic ____.",
       "options": [
         "path-mcq-04",
-        "path-mcq-03",
-        "path-mcq-05",
-        "path-mcq-02",
-        "path-mcq-06",
-        "path-mcq-01"
+        "path-mcq-21",
+        "path-mcq-11",
+        "path-mcq-19"
       ],
       "explanation": "本句的「path」指「某人、組織或事物長期發展所走的道路／方向」。",
       "sentenceIndex": 15,
@@ -938,12 +884,10 @@ export default {
         "path"
       ],
       "optionReasons": {
-        "path-mcq-04": "本句指「某人、組織或事物長期發展所走的道路／方向」。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-02": "「某人、物體或現象實際移動所經過的路線／路徑」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。",
-        "path-mcq-01": "「供人步行的狹窄道路、小徑或步道」與本句語境不同。"
+        "path-mcq-04": "本句的「path」指「某人、組織或事物長期發展所走的道路／方向」。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-04"
     },
@@ -955,11 +899,9 @@ export default {
       "masked": "She chose a different ____.",
       "options": [
         "path-mcq-05",
-        "path-mcq-04",
-        "path-mcq-06",
-        "path-mcq-03",
-        "path-mcq-07",
-        "path-mcq-02"
+        "path-mcq-19",
+        "path-mcq-11",
+        "path-mcq-20"
       ],
       "explanation": "本句的「career path」指「一個人在職業生涯中所經歷或選擇的發展道路」。",
       "sentenceIndex": 16,
@@ -968,12 +910,10 @@ export default {
         "career path"
       ],
       "optionReasons": {
-        "path-mcq-05": "本句指「一個人在職業生涯中所經歷或選擇的發展道路」。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。",
-        "path-mcq-02": "「某人、物體或現象實際移動所經過的路線／路徑」與本句語境不同。"
+        "path-mcq-05": "本句的「career path」指「一個人在職業生涯中所經歷或選擇的發展道路」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-05"
     },
@@ -985,11 +925,9 @@ export default {
       "masked": "The course can open up new ____.",
       "options": [
         "path-mcq-05",
-        "path-mcq-04",
-        "path-mcq-06",
-        "path-mcq-03",
-        "path-mcq-07",
-        "path-mcq-02"
+        "path-mcq-11",
+        "path-mcq-19",
+        "path-mcq-20"
       ],
       "explanation": "本句的「career paths」指「一個人在職業生涯中所經歷或選擇的發展道路」。",
       "sentenceIndex": 17,
@@ -998,12 +936,10 @@ export default {
         "career paths"
       ],
       "optionReasons": {
-        "path-mcq-05": "本句指「一個人在職業生涯中所經歷或選擇的發展道路」。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。",
-        "path-mcq-02": "「某人、物體或現象實際移動所經過的路線／路徑」與本句語境不同。"
+        "path-mcq-05": "本句的「career paths」指「一個人在職業生涯中所經歷或選擇的發展道路」。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-05"
     },
@@ -1015,11 +951,9 @@ export default {
       "masked": "Students follow different ____.",
       "options": [
         "path-mcq-06",
-        "path-mcq-05",
-        "path-mcq-07",
-        "path-mcq-04",
-        "path-mcq-08",
-        "path-mcq-03"
+        "path-mcq-11",
+        "path-mcq-18",
+        "path-mcq-19"
       ],
       "explanation": "本句的「educational paths」指「一個人生活、成長與作選擇所走的人生道路」。",
       "sentenceIndex": 18,
@@ -1028,12 +962,10 @@ export default {
         "educational paths"
       ],
       "optionReasons": {
-        "path-mcq-06": "本句指「一個人生活、成長與作選擇所走的人生道路」。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-08": "「通往某個目標或結果的方法／發展道路」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。"
+        "path-mcq-06": "本句的「educational paths」指「一個人生活、成長與作選擇所走的人生道路」。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-06"
     },
@@ -1045,11 +977,9 @@ export default {
       "masked": "Her ____ was not straightforward.",
       "options": [
         "path-mcq-06",
-        "path-mcq-05",
-        "path-mcq-07",
-        "path-mcq-04",
-        "path-mcq-08",
-        "path-mcq-03"
+        "path-mcq-11",
+        "path-mcq-19",
+        "path-mcq-18"
       ],
       "explanation": "本句的「educational path」指「一個人生活、成長與作選擇所走的人生道路」。",
       "sentenceIndex": 19,
@@ -1058,12 +988,10 @@ export default {
         "educational path"
       ],
       "optionReasons": {
-        "path-mcq-06": "本句指「一個人生活、成長與作選擇所走的人生道路」。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-08": "「通往某個目標或結果的方法／發展道路」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。"
+        "path-mcq-06": "本句的「educational path」指「一個人生活、成長與作選擇所走的人生道路」。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-06"
     },
@@ -1075,11 +1003,9 @@ export default {
       "masked": "He was unsure which ____ to choose.",
       "options": [
         "path-mcq-06",
-        "path-mcq-05",
-        "path-mcq-07",
-        "path-mcq-04",
-        "path-mcq-08",
-        "path-mcq-03"
+        "path-mcq-19",
+        "path-mcq-11",
+        "path-mcq-18"
       ],
       "explanation": "本句的「path in life」指「一個人生活、成長與作選擇所走的人生道路」。",
       "sentenceIndex": 20,
@@ -1088,12 +1014,10 @@ export default {
         "path in life"
       ],
       "optionReasons": {
-        "path-mcq-06": "本句指「一個人生活、成長與作選擇所走的人生道路」。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-08": "「通往某個目標或結果的方法／發展道路」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。"
+        "path-mcq-06": "本句的「path in life」指「一個人生活、成長與作選擇所走的人生道路」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-06"
     },
@@ -1105,11 +1029,9 @@ export default {
       "masked": "Everyone’s ____ is different.",
       "options": [
         "path-mcq-06",
-        "path-mcq-05",
-        "path-mcq-07",
-        "path-mcq-04",
-        "path-mcq-08",
-        "path-mcq-03"
+        "path-mcq-18",
+        "path-mcq-11",
+        "path-mcq-19"
       ],
       "explanation": "本句的「path in life」指「一個人生活、成長與作選擇所走的人生道路」。",
       "sentenceIndex": 21,
@@ -1118,12 +1040,10 @@ export default {
         "path in life"
       ],
       "optionReasons": {
-        "path-mcq-06": "本句指「一個人生活、成長與作選擇所走的人生道路」。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。",
-        "path-mcq-08": "「通往某個目標或結果的方法／發展道路」與本句語境不同。",
-        "path-mcq-03": "「某個移動事物所經過的行進路徑或軌跡」與本句語境不同。"
+        "path-mcq-06": "本句的「path in life」指「一個人生活、成長與作選擇所走的人生道路」。",
+        "path-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-06"
     },
@@ -1135,11 +1055,9 @@ export default {
       "masked": "You should learn from others but still follow ____.",
       "options": [
         "path-mcq-07",
-        "path-mcq-06",
-        "path-mcq-08",
-        "path-mcq-05",
-        "path-mcq-09",
-        "path-mcq-04"
+        "path-mcq-11",
+        "path-mcq-12",
+        "path-mcq-21"
       ],
       "explanation": "本句的「your own path」指「根據自己的價值、情況與選擇形成的個人發展方向」。",
       "sentenceIndex": 22,
@@ -1148,12 +1066,10 @@ export default {
         "your own path"
       ],
       "optionReasons": {
-        "path-mcq-07": "本句指「根據自己的價值、情況與選擇形成的個人發展方向」。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。",
-        "path-mcq-08": "「通往某個目標或結果的方法／發展道路」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-09": "「選擇並開始採取某種行動或發展方向」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。"
+        "path-mcq-07": "本句的「your own path」指「根據自己的價值、情況與選擇形成的個人發展方向」。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-07"
     },
@@ -1165,11 +1081,9 @@ export default {
       "masked": "She eventually found ____.",
       "options": [
         "path-mcq-07",
-        "path-mcq-06",
-        "path-mcq-08",
-        "path-mcq-05",
-        "path-mcq-09",
-        "path-mcq-04"
+        "path-mcq-19",
+        "path-mcq-02",
+        "path-mcq-21"
       ],
       "explanation": "本句的「her own path」指「根據自己的價值、情況與選擇形成的個人發展方向」。",
       "sentenceIndex": 23,
@@ -1178,12 +1092,10 @@ export default {
         "her own path"
       ],
       "optionReasons": {
-        "path-mcq-07": "本句指「根據自己的價值、情況與選擇形成的個人發展方向」。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。",
-        "path-mcq-08": "「通往某個目標或結果的方法／發展道路」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。",
-        "path-mcq-09": "「選擇並開始採取某種行動或發展方向」與本句語境不同。",
-        "path-mcq-04": "「某人、組織或事物長期發展所走的道路／方向」與本句語境不同。"
+        "path-mcq-07": "本句的「her own path」指「根據自己的價值、情況與選擇形成的個人發展方向」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-07"
     },
@@ -1195,11 +1107,9 @@ export default {
       "masked": "Education can be a ____.",
       "options": [
         "path-mcq-08",
-        "path-mcq-07",
-        "path-mcq-09",
-        "path-mcq-06",
-        "path-mcq-10",
-        "path-mcq-05"
+        "path-mcq-19",
+        "path-mcq-12",
+        "path-mcq-11"
       ],
       "explanation": "本句的「path to opportunity」指「通往某個目標或結果的方法／發展道路」。",
       "sentenceIndex": 24,
@@ -1208,12 +1118,10 @@ export default {
         "path to opportunity"
       ],
       "optionReasons": {
-        "path-mcq-08": "本句指「通往某個目標或結果的方法／發展道路」。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。",
-        "path-mcq-09": "「選擇並開始採取某種行動或發展方向」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。",
-        "path-mcq-10": "「擋住某人前進的路」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。"
+        "path-mcq-08": "本句的「path to opportunity」指「通往某個目標或結果的方法／發展道路」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-08"
     },
@@ -1225,11 +1133,9 @@ export default {
       "masked": "There is no single ____.",
       "options": [
         "path-mcq-08",
-        "path-mcq-07",
-        "path-mcq-09",
-        "path-mcq-06",
-        "path-mcq-10",
-        "path-mcq-05"
+        "path-mcq-19",
+        "path-mcq-20",
+        "path-mcq-11"
       ],
       "explanation": "本句的「path to success」指「通往某個目標或結果的方法／發展道路」。",
       "sentenceIndex": 25,
@@ -1238,12 +1144,10 @@ export default {
         "path to success"
       ],
       "optionReasons": {
-        "path-mcq-08": "本句指「通往某個目標或結果的方法／發展道路」。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。",
-        "path-mcq-09": "「選擇並開始採取某種行動或發展方向」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。",
-        "path-mcq-10": "「擋住某人前進的路」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。"
+        "path-mcq-08": "本句的「path to success」指「通往某個目標或結果的方法／發展道路」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-08"
     },
@@ -1255,11 +1159,9 @@ export default {
       "masked": "Asking for help was the first step on his ____.",
       "options": [
         "path-mcq-08",
-        "path-mcq-07",
-        "path-mcq-09",
-        "path-mcq-06",
+        "path-mcq-19",
         "path-mcq-10",
-        "path-mcq-05"
+        "path-mcq-20"
       ],
       "explanation": "本句的「path to recovery」指「通往某個目標或結果的方法／發展道路」。",
       "sentenceIndex": 28,
@@ -1268,12 +1170,10 @@ export default {
         "path to recovery"
       ],
       "optionReasons": {
-        "path-mcq-08": "本句指「通往某個目標或結果的方法／發展道路」。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。",
-        "path-mcq-09": "「選擇並開始採取某種行動或發展方向」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。",
-        "path-mcq-10": "「擋住某人前進的路」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。"
+        "path-mcq-08": "本句的「path to recovery」指「通往某個目標或結果的方法／發展道路」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-08"
     },
@@ -1285,11 +1185,9 @@ export default {
       "masked": "She is slowly moving along the ____.",
       "options": [
         "path-mcq-08",
-        "path-mcq-07",
-        "path-mcq-09",
-        "path-mcq-06",
-        "path-mcq-10",
-        "path-mcq-05"
+        "path-mcq-19",
+        "path-mcq-12",
+        "path-mcq-10"
       ],
       "explanation": "本句的「path to recovery」指「通往某個目標或結果的方法／發展道路」。",
       "sentenceIndex": 29,
@@ -1298,12 +1196,10 @@ export default {
         "path to recovery"
       ],
       "optionReasons": {
-        "path-mcq-08": "本句指「通往某個目標或結果的方法／發展道路」。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。",
-        "path-mcq-09": "「選擇並開始採取某種行動或發展方向」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。",
-        "path-mcq-10": "「擋住某人前進的路」與本句語境不同。",
-        "path-mcq-05": "「一個人在職業生涯中所經歷或選擇的發展道路」與本句語境不同。"
+        "path-mcq-08": "本句的「path to recovery」指「通往某個目標或結果的方法／發展道路」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-08"
     },
@@ -1315,11 +1211,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "path-mcq-09",
-        "path-mcq-08",
-        "path-mcq-10",
-        "path-mcq-07",
         "path-mcq-11",
-        "path-mcq-06"
+        "path-mcq-13",
+        "path-mcq-21"
       ],
       "explanation": "本句的「take a different path」指「選擇並開始採取某種行動或發展方向」。",
       "sentenceIndex": 32,
@@ -1328,12 +1222,10 @@ export default {
         "take a different path"
       ],
       "optionReasons": {
-        "path-mcq-09": "本句指「選擇並開始採取某種行動或發展方向」。",
-        "path-mcq-08": "「通往某個目標或結果的方法／發展道路」與本句語境不同。",
-        "path-mcq-10": "「擋住某人前進的路」與本句語境不同。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。",
-        "path-mcq-11": "「移除障礙，讓人或物可以通過」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。"
+        "path-mcq-09": "本句的「take a different path」指「選擇並開始採取某種行動或發展方向」。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-09"
     },
@@ -1345,11 +1237,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "path-mcq-09",
-        "path-mcq-08",
         "path-mcq-10",
-        "path-mcq-07",
-        "path-mcq-11",
-        "path-mcq-06"
+        "path-mcq-12",
+        "path-mcq-11"
       ],
       "explanation": "本句的「took a more conservative path」指「選擇並開始採取某種行動或發展方向」。",
       "sentenceIndex": 33,
@@ -1358,12 +1248,10 @@ export default {
         "took a more conservative path"
       ],
       "optionReasons": {
-        "path-mcq-09": "本句指「選擇並開始採取某種行動或發展方向」。",
-        "path-mcq-08": "「通往某個目標或結果的方法／發展道路」與本句語境不同。",
-        "path-mcq-10": "「擋住某人前進的路」與本句語境不同。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。",
-        "path-mcq-11": "「移除障礙，讓人或物可以通過」與本句語境不同。",
-        "path-mcq-06": "「一個人生活、成長與作選擇所走的人生道路」與本句語境不同。"
+        "path-mcq-09": "本句的「took a more conservative path」指「選擇並開始採取某種行動或發展方向」。",
+        "path-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-09"
     },
@@ -1375,11 +1263,9 @@ export default {
       "masked": "A fallen tree ____.",
       "options": [
         "path-mcq-10",
-        "path-mcq-09",
-        "path-mcq-11",
-        "path-mcq-08",
-        "path-mcq-12",
-        "path-mcq-07"
+        "path-mcq-18",
+        "path-mcq-21",
+        "path-mcq-19"
       ],
       "explanation": "本句的「blocked our path」指「擋住某人前進的路」。",
       "sentenceIndex": 34,
@@ -1388,12 +1274,10 @@ export default {
         "blocked our path"
       ],
       "optionReasons": {
-        "path-mcq-10": "本句指「擋住某人前進的路」。",
-        "path-mcq-09": "「選擇並開始採取某種行動或發展方向」與本句語境不同。",
-        "path-mcq-11": "「移除障礙，讓人或物可以通過」與本句語境不同。",
-        "path-mcq-08": "「通往某個目標或結果的方法／發展道路」與本句語境不同。",
-        "path-mcq-12": "「字面路線交叉；比喻兩人偶然相遇」與本句語境不同。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。"
+        "path-mcq-10": "本句的「blocked our path」指「擋住某人前進的路」。",
+        "path-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-10"
     },
@@ -1405,11 +1289,9 @@ export default {
       "masked": "He stood in the doorway and ____.",
       "options": [
         "path-mcq-10",
-        "path-mcq-09",
+        "path-mcq-21",
         "path-mcq-11",
-        "path-mcq-08",
-        "path-mcq-12",
-        "path-mcq-07"
+        "path-mcq-09"
       ],
       "explanation": "本句的「blocked her path」指「擋住某人前進的路」。",
       "sentenceIndex": 35,
@@ -1418,12 +1300,10 @@ export default {
         "blocked her path"
       ],
       "optionReasons": {
-        "path-mcq-10": "本句指「擋住某人前進的路」。",
-        "path-mcq-09": "「選擇並開始採取某種行動或發展方向」與本句語境不同。",
-        "path-mcq-11": "「移除障礙，讓人或物可以通過」與本句語境不同。",
-        "path-mcq-08": "「通往某個目標或結果的方法／發展道路」與本句語境不同。",
-        "path-mcq-12": "「字面路線交叉；比喻兩人偶然相遇」與本句語境不同。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。"
+        "path-mcq-10": "本句的「blocked her path」指「擋住某人前進的路」。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-10"
     },
@@ -1435,11 +1315,9 @@ export default {
       "masked": "Workers ____ through the snow.",
       "options": [
         "path-mcq-11",
-        "path-mcq-10",
-        "path-mcq-12",
-        "path-mcq-09",
-        "path-mcq-13",
-        "path-mcq-08"
+        "path-mcq-18",
+        "path-mcq-01",
+        "path-mcq-12"
       ],
       "explanation": "本句的「cleared a path」指「移除障礙，讓人或物可以通過」。",
       "sentenceIndex": 36,
@@ -1448,12 +1326,10 @@ export default {
         "cleared a path"
       ],
       "optionReasons": {
-        "path-mcq-11": "本句指「移除障礙，讓人或物可以通過」。",
-        "path-mcq-10": "「擋住某人前進的路」與本句語境不同。",
-        "path-mcq-12": "「字面路線交叉；比喻兩人偶然相遇」與本句語境不同。",
-        "path-mcq-09": "「選擇並開始採取某種行動或發展方向」與本句語境不同。",
-        "path-mcq-13": "「顯示電腦中檔案／資料夾位置的路徑」與本句語境不同。",
-        "path-mcq-08": "「通往某個目標或結果的方法／發展道路」與本句語境不同。"
+        "path-mcq-11": "本句的「cleared a path」指「移除障礙，讓人或物可以通過」。",
+        "path-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-11"
     },
@@ -1465,11 +1341,9 @@ export default {
       "masked": "They ____ for the ambulance.",
       "options": [
         "path-mcq-11",
-        "path-mcq-10",
         "path-mcq-12",
-        "path-mcq-09",
-        "path-mcq-13",
-        "path-mcq-08"
+        "path-mcq-07",
+        "path-mcq-13"
       ],
       "explanation": "本句的「cleared a path」指「移除障礙，讓人或物可以通過」。",
       "sentenceIndex": 37,
@@ -1478,12 +1352,10 @@ export default {
         "cleared a path"
       ],
       "optionReasons": {
-        "path-mcq-11": "本句指「移除障礙，讓人或物可以通過」。",
-        "path-mcq-10": "「擋住某人前進的路」與本句語境不同。",
-        "path-mcq-12": "「字面路線交叉；比喻兩人偶然相遇」與本句語境不同。",
-        "path-mcq-09": "「選擇並開始採取某種行動或發展方向」與本句語境不同。",
-        "path-mcq-13": "「顯示電腦中檔案／資料夾位置的路徑」與本句語境不同。",
-        "path-mcq-08": "「通往某個目標或結果的方法／發展道路」與本句語境不同。"
+        "path-mcq-11": "本句的「cleared a path」指「移除障礙，讓人或物可以通過」。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-11"
     },
@@ -1495,11 +1367,9 @@ export default {
       "masked": "A deer suddenly ____.",
       "options": [
         "path-mcq-10",
-        "path-mcq-09",
+        "path-mcq-07",
         "path-mcq-11",
-        "path-mcq-08",
-        "path-mcq-12",
-        "path-mcq-07"
+        "path-mcq-21"
       ],
       "explanation": "本句的「crossed our path」指「擋住某人前進的路」。",
       "sentenceIndex": 38,
@@ -1508,12 +1378,10 @@ export default {
         "crossed our path"
       ],
       "optionReasons": {
-        "path-mcq-10": "本句指「擋住某人前進的路」。",
-        "path-mcq-09": "「選擇並開始採取某種行動或發展方向」與本句語境不同。",
-        "path-mcq-11": "「移除障礙，讓人或物可以通過」與本句語境不同。",
-        "path-mcq-08": "「通往某個目標或結果的方法／發展道路」與本句語境不同。",
-        "path-mcq-12": "「字面路線交叉；比喻兩人偶然相遇」與本句語境不同。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。"
+        "path-mcq-10": "本句的「crossed our path」指「擋住某人前進的路」。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-10"
     },
@@ -1525,11 +1393,9 @@ export default {
       "masked": "I never expected our ____.",
       "options": [
         "path-mcq-10",
-        "path-mcq-09",
-        "path-mcq-11",
-        "path-mcq-08",
-        "path-mcq-12",
-        "path-mcq-07"
+        "path-mcq-21",
+        "path-mcq-07",
+        "path-mcq-19"
       ],
       "explanation": "本句的「paths to cross again」指「擋住某人前進的路」。",
       "sentenceIndex": 39,
@@ -1538,12 +1404,10 @@ export default {
         "paths to cross again"
       ],
       "optionReasons": {
-        "path-mcq-10": "本句指「擋住某人前進的路」。",
-        "path-mcq-09": "「選擇並開始採取某種行動或發展方向」與本句語境不同。",
-        "path-mcq-11": "「移除障礙，讓人或物可以通過」與本句語境不同。",
-        "path-mcq-08": "「通往某個目標或結果的方法／發展道路」與本句語境不同。",
-        "path-mcq-12": "「字面路線交叉；比喻兩人偶然相遇」與本句語境不同。",
-        "path-mcq-07": "「根據自己的價值、情況與選擇形成的個人發展方向」與本句語境不同。"
+        "path-mcq-10": "本句的「paths to cross again」指「擋住某人前進的路」。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-10"
     },
@@ -1555,11 +1419,9 @@ export default {
       "masked": "Our ____ at university.",
       "options": [
         "path-mcq-12",
-        "path-mcq-11",
-        "path-mcq-13",
-        "path-mcq-10",
-        "path-mcq-14",
-        "path-mcq-09"
+        "path-mcq-16",
+        "path-mcq-19",
+        "path-mcq-11"
       ],
       "explanation": "本句的「paths first crossed」指「字面路線交叉；比喻兩人偶然相遇」。",
       "sentenceIndex": 40,
@@ -1568,12 +1430,10 @@ export default {
         "paths first crossed"
       ],
       "optionReasons": {
-        "path-mcq-12": "本句指「字面路線交叉；比喻兩人偶然相遇」。",
-        "path-mcq-11": "「移除障礙，讓人或物可以通過」與本句語境不同。",
-        "path-mcq-13": "「顯示電腦中檔案／資料夾位置的路徑」與本句語境不同。",
-        "path-mcq-10": "「擋住某人前進的路」與本句語境不同。",
-        "path-mcq-14": "「連接系統中不同節點的一連串路線」與本句語境不同。",
-        "path-mcq-09": "「選擇並開始採取某種行動或發展方向」與本句語境不同。"
+        "path-mcq-12": "本句的「paths first crossed」指「字面路線交叉；比喻兩人偶然相遇」。",
+        "path-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-12"
     },
@@ -1585,11 +1445,9 @@ export default {
       "masked": "I hope our ____ someday.",
       "options": [
         "path-mcq-12",
-        "path-mcq-11",
-        "path-mcq-13",
-        "path-mcq-10",
-        "path-mcq-14",
-        "path-mcq-09"
+        "path-mcq-21",
+        "path-mcq-07",
+        "path-mcq-19"
       ],
       "explanation": "本句的「paths cross again」指「字面路線交叉；比喻兩人偶然相遇」。",
       "sentenceIndex": 41,
@@ -1598,12 +1456,10 @@ export default {
         "paths cross again"
       ],
       "optionReasons": {
-        "path-mcq-12": "本句指「字面路線交叉；比喻兩人偶然相遇」。",
-        "path-mcq-11": "「移除障礙，讓人或物可以通過」與本句語境不同。",
-        "path-mcq-13": "「顯示電腦中檔案／資料夾位置的路徑」與本句語境不同。",
-        "path-mcq-10": "「擋住某人前進的路」與本句語境不同。",
-        "path-mcq-14": "「連接系統中不同節點的一連串路線」與本句語境不同。",
-        "path-mcq-09": "「選擇並開始採取某種行動或發展方向」與本句語境不同。"
+        "path-mcq-12": "本句的「paths cross again」指「字面路線交叉；比喻兩人偶然相遇」。",
+        "path-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-12"
     },
@@ -1615,11 +1471,9 @@ export default {
       "masked": "Check the file ____.",
       "options": [
         "path-mcq-13",
-        "path-mcq-12",
-        "path-mcq-14",
-        "path-mcq-11",
-        "path-mcq-15",
-        "path-mcq-10"
+        "path-mcq-19",
+        "path-mcq-09",
+        "path-mcq-11"
       ],
       "explanation": "本句的「path」指「顯示電腦中檔案／資料夾位置的路徑」。",
       "sentenceIndex": 44,
@@ -1628,12 +1482,10 @@ export default {
         "path"
       ],
       "optionReasons": {
-        "path-mcq-13": "本句指「顯示電腦中檔案／資料夾位置的路徑」。",
-        "path-mcq-12": "「字面路線交叉；比喻兩人偶然相遇」與本句語境不同。",
-        "path-mcq-14": "「連接系統中不同節點的一連串路線」與本句語境不同。",
-        "path-mcq-11": "「移除障礙，讓人或物可以通過」與本句語境不同。",
-        "path-mcq-15": "「移動物體所形成的運動路徑／軌跡」與本句語境不同。",
-        "path-mcq-10": "「擋住某人前進的路」與本句語境不同。"
+        "path-mcq-13": "本句的「path」指「顯示電腦中檔案／資料夾位置的路徑」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-13"
     },
@@ -1645,11 +1497,9 @@ export default {
       "masked": "The program could not find the specified ____.",
       "options": [
         "path-mcq-13",
-        "path-mcq-12",
-        "path-mcq-14",
+        "path-mcq-16",
         "path-mcq-11",
-        "path-mcq-15",
-        "path-mcq-10"
+        "path-mcq-19"
       ],
       "explanation": "本句的「path」指「顯示電腦中檔案／資料夾位置的路徑」。",
       "sentenceIndex": 45,
@@ -1658,12 +1508,10 @@ export default {
         "path"
       ],
       "optionReasons": {
-        "path-mcq-13": "本句指「顯示電腦中檔案／資料夾位置的路徑」。",
-        "path-mcq-12": "「字面路線交叉；比喻兩人偶然相遇」與本句語境不同。",
-        "path-mcq-14": "「連接系統中不同節點的一連串路線」與本句語境不同。",
-        "path-mcq-11": "「移除障礙，讓人或物可以通過」與本句語境不同。",
-        "path-mcq-15": "「移動物體所形成的運動路徑／軌跡」與本句語境不同。",
-        "path-mcq-10": "「擋住某人前進的路」與本句語境不同。"
+        "path-mcq-13": "本句的「path」指「顯示電腦中檔案／資料夾位置的路徑」。",
+        "path-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-13"
     },
@@ -1675,11 +1523,9 @@ export default {
       "masked": "Copy the full ____.",
       "options": [
         "path-mcq-13",
-        "path-mcq-12",
-        "path-mcq-14",
-        "path-mcq-11",
-        "path-mcq-15",
-        "path-mcq-10"
+        "path-mcq-16",
+        "path-mcq-19",
+        "path-mcq-11"
       ],
       "explanation": "本句的「file path」指「顯示電腦中檔案／資料夾位置的路徑」。",
       "sentenceIndex": 46,
@@ -1688,12 +1534,10 @@ export default {
         "file path"
       ],
       "optionReasons": {
-        "path-mcq-13": "本句指「顯示電腦中檔案／資料夾位置的路徑」。",
-        "path-mcq-12": "「字面路線交叉；比喻兩人偶然相遇」與本句語境不同。",
-        "path-mcq-14": "「連接系統中不同節點的一連串路線」與本句語境不同。",
-        "path-mcq-11": "「移除障礙，讓人或物可以通過」與本句語境不同。",
-        "path-mcq-15": "「移動物體所形成的運動路徑／軌跡」與本句語境不同。",
-        "path-mcq-10": "「擋住某人前進的路」與本句語境不同。"
+        "path-mcq-13": "本句的「file path」指「顯示電腦中檔案／資料夾位置的路徑」。",
+        "path-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-13"
     },
@@ -1705,11 +1549,9 @@ export default {
       "masked": "The ____ contains the folder name.",
       "options": [
         "path-mcq-13",
-        "path-mcq-12",
-        "path-mcq-14",
+        "path-mcq-18",
         "path-mcq-11",
-        "path-mcq-15",
-        "path-mcq-10"
+        "path-mcq-19"
       ],
       "explanation": "本句的「file path」指「顯示電腦中檔案／資料夾位置的路徑」。",
       "sentenceIndex": 47,
@@ -1718,12 +1560,10 @@ export default {
         "file path"
       ],
       "optionReasons": {
-        "path-mcq-13": "本句指「顯示電腦中檔案／資料夾位置的路徑」。",
-        "path-mcq-12": "「字面路線交叉；比喻兩人偶然相遇」與本句語境不同。",
-        "path-mcq-14": "「連接系統中不同節點的一連串路線」與本句語境不同。",
-        "path-mcq-11": "「移除障礙，讓人或物可以通過」與本句語境不同。",
-        "path-mcq-15": "「移動物體所形成的運動路徑／軌跡」與本句語境不同。",
-        "path-mcq-10": "「擋住某人前進的路」與本句語境不同。"
+        "path-mcq-13": "本句的「file path」指「顯示電腦中檔案／資料夾位置的路徑」。",
+        "path-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-13"
     },
@@ -1735,11 +1575,9 @@ export default {
       "masked": "Scientists tracked the ____.",
       "options": [
         "path-mcq-15",
-        "path-mcq-14",
-        "path-mcq-16",
-        "path-mcq-13",
-        "path-mcq-17",
-        "path-mcq-12"
+        "path-mcq-19",
+        "path-mcq-08",
+        "path-mcq-20"
       ],
       "explanation": "本句的「path of the particle」指「移動物體所形成的運動路徑／軌跡」。",
       "sentenceIndex": 54,
@@ -1748,12 +1586,10 @@ export default {
         "path of the particle"
       ],
       "optionReasons": {
-        "path-mcq-15": "本句指「移動物體所形成的運動路徑／軌跡」。",
-        "path-mcq-14": "「連接系統中不同節點的一連串路線」與本句語境不同。",
-        "path-mcq-16": "「使某人開始朝某個人生、職涯或發展方向前進」與本句語境不同。",
-        "path-mcq-13": "「顯示電腦中檔案／資料夾位置的路徑」與本句語境不同。",
-        "path-mcq-17": "「正逐步朝某個結果或目標前進」與本句語境不同。",
-        "path-mcq-12": "「字面路線交叉；比喻兩人偶然相遇」與本句語境不同。"
+        "path-mcq-15": "本句的「path of the particle」指「移動物體所形成的運動路徑／軌跡」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-15"
     },
@@ -1765,11 +1601,9 @@ export default {
       "masked": "The ball followed a curved ____.",
       "options": [
         "path-mcq-15",
-        "path-mcq-14",
-        "path-mcq-16",
-        "path-mcq-13",
-        "path-mcq-17",
-        "path-mcq-12"
+        "path-mcq-19",
+        "path-mcq-08",
+        "path-mcq-11"
       ],
       "explanation": "本句的「path」指「移動物體所形成的運動路徑／軌跡」。",
       "sentenceIndex": 55,
@@ -1778,12 +1612,10 @@ export default {
         "path"
       ],
       "optionReasons": {
-        "path-mcq-15": "本句指「移動物體所形成的運動路徑／軌跡」。",
-        "path-mcq-14": "「連接系統中不同節點的一連串路線」與本句語境不同。",
-        "path-mcq-16": "「使某人開始朝某個人生、職涯或發展方向前進」與本句語境不同。",
-        "path-mcq-13": "「顯示電腦中檔案／資料夾位置的路徑」與本句語境不同。",
-        "path-mcq-17": "「正逐步朝某個結果或目標前進」與本句語境不同。",
-        "path-mcq-12": "「字面路線交叉；比喻兩人偶然相遇」與本句語境不同。"
+        "path-mcq-15": "本句的「path」指「移動物體所形成的運動路徑／軌跡」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-15"
     },
@@ -1795,11 +1627,9 @@ export default {
       "masked": "That teacher ____.",
       "options": [
         "path-mcq-16",
-        "path-mcq-15",
-        "path-mcq-17",
-        "path-mcq-14",
-        "path-mcq-18",
-        "path-mcq-13"
+        "path-mcq-11",
+        "path-mcq-13",
+        "path-mcq-19"
       ],
       "explanation": "本句的「set me on the path to teaching」指「使某人開始朝某個人生、職涯或發展方向前進」。",
       "sentenceIndex": 58,
@@ -1808,12 +1638,10 @@ export default {
         "set me on the path to teaching"
       ],
       "optionReasons": {
-        "path-mcq-16": "本句指「使某人開始朝某個人生、職涯或發展方向前進」。",
-        "path-mcq-15": "「移動物體所形成的運動路徑／軌跡」與本句語境不同。",
-        "path-mcq-17": "「正逐步朝某個結果或目標前進」與本句語境不同。",
-        "path-mcq-14": "「連接系統中不同節點的一連串路線」與本句語境不同。",
-        "path-mcq-18": "「開始採取某種行動方式或發展方向」與本句語境不同。",
-        "path-mcq-13": "「顯示電腦中檔案／資料夾位置的路徑」與本句語境不同。"
+        "path-mcq-16": "本句的「set me on the path to teaching」指「使某人開始朝某個人生、職涯或發展方向前進」。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-16"
     },
@@ -1825,10 +1653,8 @@ export default {
       "masked": "One opportunity ____.",
       "options": [
         "path-mcq-16",
-        "path-mcq-15",
-        "path-mcq-17",
-        "path-mcq-14",
-        "path-mcq-18",
+        "path-mcq-19",
+        "path-mcq-11",
         "path-mcq-13"
       ],
       "explanation": "本句的「set her on a new career path」指「使某人開始朝某個人生、職涯或發展方向前進」。",
@@ -1838,12 +1664,10 @@ export default {
         "set her on a new career path"
       ],
       "optionReasons": {
-        "path-mcq-16": "本句指「使某人開始朝某個人生、職涯或發展方向前進」。",
-        "path-mcq-15": "「移動物體所形成的運動路徑／軌跡」與本句語境不同。",
-        "path-mcq-17": "「正逐步朝某個結果或目標前進」與本句語境不同。",
-        "path-mcq-14": "「連接系統中不同節點的一連串路線」與本句語境不同。",
-        "path-mcq-18": "「開始採取某種行動方式或發展方向」與本句語境不同。",
-        "path-mcq-13": "「顯示電腦中檔案／資料夾位置的路徑」與本句語境不同。"
+        "path-mcq-16": "本句的「set her on a new career path」指「使某人開始朝某個人生、職涯或發展方向前進」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-16"
     },
@@ -1855,11 +1679,9 @@ export default {
       "masked": "I don’t want to ____ again.",
       "options": [
         "path-mcq-18",
-        "path-mcq-17",
-        "path-mcq-19",
-        "path-mcq-16",
-        "path-mcq-20",
-        "path-mcq-15"
+        "path-mcq-12",
+        "path-mcq-13",
+        "path-mcq-19"
       ],
       "explanation": "本句的「go down that path」指「開始採取某種行動方式或發展方向」。",
       "sentenceIndex": 62,
@@ -1868,12 +1690,10 @@ export default {
         "go down that path"
       ],
       "optionReasons": {
-        "path-mcq-18": "本句指「開始採取某種行動方式或發展方向」。",
-        "path-mcq-17": "「正逐步朝某個結果或目標前進」與本句語境不同。",
-        "path-mcq-19": "「最容易、阻力最小的處理方式」與本句語境不同。",
-        "path-mcq-16": "「使某人開始朝某個人生、職涯或發展方向前進」與本句語境不同。",
-        "path-mcq-20": "「不在常見路線上；比喻非傳統、較少人採取的方向」與本句語境不同。",
-        "path-mcq-15": "「移動物體所形成的運動路徑／軌跡」與本句語境不同。"
+        "path-mcq-18": "本句的「go down that path」指「開始採取某種行動方式或發展方向」。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-18"
     },
@@ -1885,11 +1705,9 @@ export default {
       "masked": "The discussion was beginning to ____.",
       "options": [
         "path-mcq-18",
-        "path-mcq-17",
-        "path-mcq-19",
-        "path-mcq-16",
-        "path-mcq-20",
-        "path-mcq-15"
+        "path-mcq-12",
+        "path-mcq-10",
+        "path-mcq-19"
       ],
       "explanation": "本句的「go down a different path」指「開始採取某種行動方式或發展方向」。",
       "sentenceIndex": 63,
@@ -1898,12 +1716,10 @@ export default {
         "go down a different path"
       ],
       "optionReasons": {
-        "path-mcq-18": "本句指「開始採取某種行動方式或發展方向」。",
-        "path-mcq-17": "「正逐步朝某個結果或目標前進」與本句語境不同。",
-        "path-mcq-19": "「最容易、阻力最小的處理方式」與本句語境不同。",
-        "path-mcq-16": "「使某人開始朝某個人生、職涯或發展方向前進」與本句語境不同。",
-        "path-mcq-20": "「不在常見路線上；比喻非傳統、較少人採取的方向」與本句語境不同。",
-        "path-mcq-15": "「移動物體所形成的運動路徑／軌跡」與本句語境不同。"
+        "path-mcq-18": "本句的「go down a different path」指「開始採取某種行動方式或發展方向」。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-18"
     },
@@ -1915,11 +1731,9 @@ export default {
       "masked": "He usually chooses the ____.",
       "options": [
         "path-mcq-19",
-        "path-mcq-18",
-        "path-mcq-20",
-        "path-mcq-17",
-        "path-mcq-21",
-        "path-mcq-16"
+        "path-mcq-08",
+        "path-mcq-03",
+        "path-mcq-20"
       ],
       "explanation": "本句的「path of least resistance」指「最容易、阻力最小的處理方式」。",
       "sentenceIndex": 64,
@@ -1928,12 +1742,10 @@ export default {
         "path of least resistance"
       ],
       "optionReasons": {
-        "path-mcq-19": "本句指「最容易、阻力最小的處理方式」。",
-        "path-mcq-18": "「開始採取某種行動方式或發展方向」與本句語境不同。",
-        "path-mcq-20": "「不在常見路線上；比喻非傳統、較少人採取的方向」與本句語境不同。",
-        "path-mcq-17": "「正逐步朝某個結果或目標前進」與本句語境不同。",
-        "path-mcq-21": "「通往某個結果的途徑；特別常見於教育、職涯與生物學」與本句語境不同。",
-        "path-mcq-16": "「使某人開始朝某個人生、職涯或發展方向前進」與本句語境不同。"
+        "path-mcq-19": "本句的「path of least resistance」指「最容易、阻力最小的處理方式」。",
+        "path-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-19"
     },
@@ -1945,11 +1757,9 @@ export default {
       "masked": "The easiest option is not always the best ____.",
       "options": [
         "path-mcq-19",
-        "path-mcq-18",
-        "path-mcq-20",
-        "path-mcq-17",
-        "path-mcq-21",
-        "path-mcq-16"
+        "path-mcq-11",
+        "path-mcq-16",
+        "path-mcq-12"
       ],
       "explanation": "本句的「path」指「最容易、阻力最小的處理方式」。",
       "sentenceIndex": 65,
@@ -1958,12 +1768,10 @@ export default {
         "path"
       ],
       "optionReasons": {
-        "path-mcq-19": "本句指「最容易、阻力最小的處理方式」。",
-        "path-mcq-18": "「開始採取某種行動方式或發展方向」與本句語境不同。",
-        "path-mcq-20": "「不在常見路線上；比喻非傳統、較少人採取的方向」與本句語境不同。",
-        "path-mcq-17": "「正逐步朝某個結果或目標前進」與本句語境不同。",
-        "path-mcq-21": "「通往某個結果的途徑；特別常見於教育、職涯與生物學」與本句語境不同。",
-        "path-mcq-16": "「使某人開始朝某個人生、職涯或發展方向前進」與本句語境不同。"
+        "path-mcq-19": "本句的「path」指「最容易、阻力最小的處理方式」。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-19"
     },
@@ -1976,10 +1784,8 @@ export default {
       "options": [
         "path-mcq-20",
         "path-mcq-19",
-        "path-mcq-21",
-        "path-mcq-18",
-        "path-mcq-17",
-        "path-mcq-16"
+        "path-mcq-11",
+        "path-mcq-15"
       ],
       "explanation": "本句的「off the beaten path」指「不在常見路線上；比喻非傳統、較少人採取的方向」。",
       "sentenceIndex": 68,
@@ -1988,12 +1794,10 @@ export default {
         "off the beaten path"
       ],
       "optionReasons": {
-        "path-mcq-20": "本句指「不在常見路線上；比喻非傳統、較少人採取的方向」。",
-        "path-mcq-19": "「最容易、阻力最小的處理方式」與本句語境不同。",
-        "path-mcq-21": "「通往某個結果的途徑；特別常見於教育、職涯與生物學」與本句語境不同。",
-        "path-mcq-18": "「開始採取某種行動方式或發展方向」與本句語境不同。",
-        "path-mcq-17": "「正逐步朝某個結果或目標前進」與本句語境不同。",
-        "path-mcq-16": "「使某人開始朝某個人生、職涯或發展方向前進」與本句語境不同。"
+        "path-mcq-20": "本句的「off the beaten path」指「不在常見路線上；比喻非傳統、較少人採取的方向」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-20"
     },
@@ -2006,10 +1810,8 @@ export default {
       "options": [
         "path-mcq-20",
         "path-mcq-19",
-        "path-mcq-21",
-        "path-mcq-18",
-        "path-mcq-17",
-        "path-mcq-16"
+        "path-mcq-11",
+        "path-mcq-13"
       ],
       "explanation": "本句的「off the beaten path」指「不在常見路線上；比喻非傳統、較少人採取的方向」。",
       "sentenceIndex": 69,
@@ -2018,12 +1820,10 @@ export default {
         "off the beaten path"
       ],
       "optionReasons": {
-        "path-mcq-20": "本句指「不在常見路線上；比喻非傳統、較少人採取的方向」。",
-        "path-mcq-19": "「最容易、阻力最小的處理方式」與本句語境不同。",
-        "path-mcq-21": "「通往某個結果的途徑；特別常見於教育、職涯與生物學」與本句語境不同。",
-        "path-mcq-18": "「開始採取某種行動方式或發展方向」與本句語境不同。",
-        "path-mcq-17": "「正逐步朝某個結果或目標前進」與本句語境不同。",
-        "path-mcq-16": "「使某人開始朝某個人生、職涯或發展方向前進」與本句語境不同。"
+        "path-mcq-20": "本句的「off the beaten path」指「不在常見路線上；比喻非傳統、較少人採取的方向」。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-20"
     },
@@ -2035,11 +1835,9 @@ export default {
       "masked": "The programme provides a ____.",
       "options": [
         "path-mcq-21",
-        "path-mcq-20",
+        "path-mcq-09",
         "path-mcq-19",
-        "path-mcq-18",
-        "path-mcq-17",
-        "path-mcq-16"
+        "path-mcq-10"
       ],
       "explanation": "本句的「pathway to employment」指「通往某個結果的途徑；特別常見於教育、職涯與生物學」。",
       "sentenceIndex": 70,
@@ -2048,12 +1846,10 @@ export default {
         "pathway to employment"
       ],
       "optionReasons": {
-        "path-mcq-21": "本句指「通往某個結果的途徑；特別常見於教育、職涯與生物學」。",
-        "path-mcq-20": "「不在常見路線上；比喻非傳統、較少人採取的方向」與本句語境不同。",
-        "path-mcq-19": "「最容易、阻力最小的處理方式」與本句語境不同。",
-        "path-mcq-18": "「開始採取某種行動方式或發展方向」與本句語境不同。",
-        "path-mcq-17": "「正逐步朝某個結果或目標前進」與本句語境不同。",
-        "path-mcq-16": "「使某人開始朝某個人生、職涯或發展方向前進」與本句語境不同。"
+        "path-mcq-21": "本句的「pathway to employment」指「通往某個結果的途徑；特別常見於教育、職涯與生物學」。",
+        "path-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-21"
     },
@@ -2065,11 +1861,9 @@ export default {
       "masked": "Researchers studied the biological ____ involved.",
       "options": [
         "path-mcq-21",
-        "path-mcq-20",
-        "path-mcq-19",
         "path-mcq-18",
-        "path-mcq-17",
-        "path-mcq-16"
+        "path-mcq-12",
+        "path-mcq-10"
       ],
       "explanation": "本句的「pathway」指「通往某個結果的途徑；特別常見於教育、職涯與生物學」。",
       "sentenceIndex": 71,
@@ -2078,12 +1872,10 @@ export default {
         "pathway"
       ],
       "optionReasons": {
-        "path-mcq-21": "本句指「通往某個結果的途徑；特別常見於教育、職涯與生物學」。",
-        "path-mcq-20": "「不在常見路線上；比喻非傳統、較少人採取的方向」與本句語境不同。",
-        "path-mcq-19": "「最容易、阻力最小的處理方式」與本句語境不同。",
-        "path-mcq-18": "「開始採取某種行動方式或發展方向」與本句語境不同。",
-        "path-mcq-17": "「正逐步朝某個結果或目標前進」與本句語境不同。",
-        "path-mcq-16": "「使某人開始朝某個人生、職涯或發展方向前進」與本句語境不同。"
+        "path-mcq-21": "本句的「pathway」指「通往某個結果的途徑；特別常見於教育、職涯與生物學」。",
+        "path-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-21"
     },
@@ -2095,11 +1887,9 @@ export default {
       "masked": "The drug affects a specific biological ____.",
       "options": [
         "path-mcq-21",
-        "path-mcq-20",
-        "path-mcq-19",
-        "path-mcq-18",
-        "path-mcq-17",
-        "path-mcq-16"
+        "path-mcq-12",
+        "path-mcq-10",
+        "path-mcq-18"
       ],
       "explanation": "本句的「pathway」指「通往某個結果的途徑；特別常見於教育、職涯與生物學」。",
       "sentenceIndex": 74,
@@ -2108,12 +1898,10 @@ export default {
         "pathway"
       ],
       "optionReasons": {
-        "path-mcq-21": "本句指「通往某個結果的途徑；特別常見於教育、職涯與生物學」。",
-        "path-mcq-20": "「不在常見路線上；比喻非傳統、較少人採取的方向」與本句語境不同。",
-        "path-mcq-19": "「最容易、阻力最小的處理方式」與本句語境不同。",
-        "path-mcq-18": "「開始採取某種行動方式或發展方向」與本句語境不同。",
-        "path-mcq-17": "「正逐步朝某個結果或目標前進」與本句語境不同。",
-        "path-mcq-16": "「使某人開始朝某個人生、職涯或發展方向前進」與本句語境不同。"
+        "path-mcq-21": "本句的「pathway」指「通往某個結果的途徑；特別常見於教育、職涯與生物學」。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-21"
     },
@@ -2125,11 +1913,9 @@ export default {
       "masked": "Researchers identified a signaling ____.",
       "options": [
         "path-mcq-21",
-        "path-mcq-20",
-        "path-mcq-19",
+        "path-mcq-12",
         "path-mcq-18",
-        "path-mcq-17",
-        "path-mcq-16"
+        "path-mcq-19"
       ],
       "explanation": "本句的「pathway」指「通往某個結果的途徑；特別常見於教育、職涯與生物學」。",
       "sentenceIndex": 75,
@@ -2138,12 +1924,10 @@ export default {
         "pathway"
       ],
       "optionReasons": {
-        "path-mcq-21": "本句指「通往某個結果的途徑；特別常見於教育、職涯與生物學」。",
-        "path-mcq-20": "「不在常見路線上；比喻非傳統、較少人採取的方向」與本句語境不同。",
-        "path-mcq-19": "「最容易、阻力最小的處理方式」與本句語境不同。",
-        "path-mcq-18": "「開始採取某種行動方式或發展方向」與本句語境不同。",
-        "path-mcq-17": "「正逐步朝某個結果或目標前進」與本句語境不同。",
-        "path-mcq-16": "「使某人開始朝某個人生、職涯或發展方向前進」與本句語境不同。"
+        "path-mcq-21": "本句的「pathway」指「通往某個結果的途徑；特別常見於教育、職涯與生物學」。",
+        "path-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "path-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "path-mcq-21"
     }
@@ -2155,5 +1939,7 @@ export default {
     "sha256": "22d4a1abe584af7872de943713455b369420da9fc315dbcf60821b1a0566fe52",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -724,11 +724,7 @@ export default {
       "masked": "Unlike shoppers in a physical ____, our customers cannot try on a dress.",
       "options": [
         "boutique-pdf-001",
-        "boutique-mcq-02",
-        "boutique-mcq-03",
-        "boutique-mcq-04",
-        "boutique-mcq-05",
-        "boutique-mcq-06"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「boutique」指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
       "sentenceIndex": 0,
@@ -737,12 +733,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-pdf-001": "本句指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
-        "boutique-mcq-02": "「時裝精品店」與本句語境不同。",
-        "boutique-mcq-03": "「服裝精品店」與本句語境不同。",
-        "boutique-mcq-04": "「設計師精品店」與本句語境不同。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。"
+        "boutique-pdf-001": "本句的「boutique」指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-pdf-001"
     },
@@ -754,11 +746,7 @@ export default {
       "masked": "She bought the dress from a small ____ in Central.",
       "options": [
         "boutique-pdf-001",
-        "boutique-mcq-02",
-        "boutique-mcq-03",
-        "boutique-mcq-04",
-        "boutique-mcq-05",
-        "boutique-mcq-06"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「boutique」指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
       "sentenceIndex": 1,
@@ -767,12 +755,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-pdf-001": "本句指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
-        "boutique-mcq-02": "「時裝精品店」與本句語境不同。",
-        "boutique-mcq-03": "「服裝精品店」與本句語境不同。",
-        "boutique-mcq-04": "「設計師精品店」與本句語境不同。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。"
+        "boutique-pdf-001": "本句的「boutique」指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-pdf-001"
     },
@@ -784,11 +768,7 @@ export default {
       "masked": "The ____ sells clothing from independent designers.",
       "options": [
         "boutique-pdf-001",
-        "boutique-mcq-02",
-        "boutique-mcq-03",
-        "boutique-mcq-04",
-        "boutique-mcq-05",
-        "boutique-mcq-06"
+        "boutique-mcq-28"
       ],
       "explanation": "本句的「boutique」指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
       "sentenceIndex": 2,
@@ -797,12 +777,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-pdf-001": "本句指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
-        "boutique-mcq-02": "「時裝精品店」與本句語境不同。",
-        "boutique-mcq-03": "「服裝精品店」與本句語境不同。",
-        "boutique-mcq-04": "「設計師精品店」與本句語境不同。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。"
+        "boutique-pdf-001": "本句的「boutique」指「規模較小、通常出售時尚、精選或具特色商品的零售店」。",
+        "boutique-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-pdf-001"
     },
@@ -814,11 +790,7 @@ export default {
       "masked": "She owns a ____.",
       "options": [
         "boutique-mcq-02",
-        "boutique-mcq-01",
-        "boutique-mcq-03",
-        "boutique-mcq-04",
-        "boutique-mcq-05",
-        "boutique-mcq-06"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「fashion boutique」指「時裝精品店」。",
       "sentenceIndex": 3,
@@ -827,12 +799,8 @@ export default {
         "fashion boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-02": "本句指「時裝精品店」。",
-        "boutique-mcq-01": "「精品店；時裝精品店」與本句語境不同。",
-        "boutique-mcq-03": "「服裝精品店」與本句語境不同。",
-        "boutique-mcq-04": "「設計師精品店」與本句語境不同。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。"
+        "boutique-mcq-02": "本句的「fashion boutique」指「時裝精品店」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-02"
     },
@@ -844,11 +812,7 @@ export default {
       "masked": "The fashion ____ specialises in contemporary womenswear.",
       "options": [
         "boutique-mcq-02",
-        "boutique-mcq-01",
-        "boutique-mcq-03",
-        "boutique-mcq-04",
-        "boutique-mcq-05",
-        "boutique-mcq-06"
+        "boutique-mcq-28"
       ],
       "explanation": "本句的「boutique」指「時裝精品店」。",
       "sentenceIndex": 4,
@@ -857,12 +821,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-02": "本句指「時裝精品店」。",
-        "boutique-mcq-01": "「精品店；時裝精品店」與本句語境不同。",
-        "boutique-mcq-03": "「服裝精品店」與本句語境不同。",
-        "boutique-mcq-04": "「設計師精品店」與本句語境不同。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。"
+        "boutique-mcq-02": "本句的「boutique」指「時裝精品店」。",
+        "boutique-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-02"
     },
@@ -874,11 +834,7 @@ export default {
       "masked": "The street is lined with independent ____.",
       "options": [
         "boutique-mcq-03",
-        "boutique-mcq-02",
-        "boutique-mcq-04",
-        "boutique-mcq-01",
-        "boutique-mcq-05",
-        "boutique-mcq-06"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「clothing boutiques」指「服裝精品店」。",
       "sentenceIndex": 5,
@@ -887,12 +843,8 @@ export default {
         "clothing boutiques"
       ],
       "optionReasons": {
-        "boutique-mcq-03": "本句指「服裝精品店」。",
-        "boutique-mcq-02": "「時裝精品店」與本句語境不同。",
-        "boutique-mcq-04": "「設計師精品店」與本句語境不同。",
-        "boutique-mcq-01": "「精品店；時裝精品店」與本句語境不同。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。"
+        "boutique-mcq-03": "本句的「clothing boutiques」指「服裝精品店」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-03"
     },
@@ -904,11 +856,7 @@ export default {
       "masked": "The clothing ____ offers a carefully selected range of garments.",
       "options": [
         "boutique-mcq-03",
-        "boutique-mcq-02",
-        "boutique-mcq-04",
-        "boutique-mcq-01",
-        "boutique-mcq-05",
-        "boutique-mcq-06"
+        "boutique-mcq-28"
       ],
       "explanation": "本句的「boutique」指「服裝精品店」。",
       "sentenceIndex": 6,
@@ -917,12 +865,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-03": "本句指「服裝精品店」。",
-        "boutique-mcq-02": "「時裝精品店」與本句語境不同。",
-        "boutique-mcq-04": "「設計師精品店」與本句語境不同。",
-        "boutique-mcq-01": "「精品店；時裝精品店」與本句語境不同。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。"
+        "boutique-mcq-03": "本句的「boutique」指「服裝精品店」。",
+        "boutique-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-03"
     },
@@ -934,11 +878,7 @@ export default {
       "masked": "The mall contains several ____.",
       "options": [
         "boutique-mcq-04",
-        "boutique-mcq-03",
-        "boutique-mcq-05",
-        "boutique-mcq-02",
-        "boutique-mcq-06",
-        "boutique-mcq-01"
+        "boutique-mcq-28"
       ],
       "explanation": "本句的「designer boutiques」指「設計師精品店」。",
       "sentenceIndex": 7,
@@ -947,12 +887,8 @@ export default {
         "designer boutiques"
       ],
       "optionReasons": {
-        "boutique-mcq-04": "本句指「設計師精品店」。",
-        "boutique-mcq-03": "「服裝精品店」與本句語境不同。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
-        "boutique-mcq-02": "「時裝精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。",
-        "boutique-mcq-01": "「精品店；時裝精品店」與本句語境不同。"
+        "boutique-mcq-04": "本句的「designer boutiques」指「設計師精品店」。",
+        "boutique-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-04"
     },
@@ -964,11 +900,7 @@ export default {
       "masked": "She visited a designer ____ to try on the coat.",
       "options": [
         "boutique-mcq-04",
-        "boutique-mcq-03",
-        "boutique-mcq-05",
-        "boutique-mcq-02",
-        "boutique-mcq-06",
-        "boutique-mcq-01"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「boutique」指「設計師精品店」。",
       "sentenceIndex": 8,
@@ -977,12 +909,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-04": "本句指「設計師精品店」。",
-        "boutique-mcq-03": "「服裝精品店」與本句語境不同。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
-        "boutique-mcq-02": "「時裝精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。",
-        "boutique-mcq-01": "「精品店；時裝精品店」與本句語境不同。"
+        "boutique-mcq-04": "本句的「boutique」指「設計師精品店」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-04"
     },
@@ -994,11 +922,7 @@ export default {
       "masked": "The district is known for its ____.",
       "options": [
         "boutique-mcq-05",
-        "boutique-mcq-04",
-        "boutique-mcq-06",
-        "boutique-mcq-03",
-        "boutique-mcq-07",
-        "boutique-mcq-02"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「luxury boutiques」指「奢侈品精品店」。",
       "sentenceIndex": 9,
@@ -1007,12 +931,8 @@ export default {
         "luxury boutiques"
       ],
       "optionReasons": {
-        "boutique-mcq-05": "本句指「奢侈品精品店」。",
-        "boutique-mcq-04": "「設計師精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。",
-        "boutique-mcq-03": "「服裝精品店」與本句語境不同。",
-        "boutique-mcq-07": "「婚紗精品店」與本句語境不同。",
-        "boutique-mcq-02": "「時裝精品店」與本句語境不同。"
+        "boutique-mcq-05": "本句的「luxury boutiques」指「奢侈品精品店」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-05"
     },
@@ -1024,11 +944,7 @@ export default {
       "masked": "Luxury ____ often emphasise personal service.",
       "options": [
         "boutique-mcq-05",
-        "boutique-mcq-04",
-        "boutique-mcq-06",
-        "boutique-mcq-03",
-        "boutique-mcq-07",
-        "boutique-mcq-02"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「boutiques」指「奢侈品精品店」。",
       "sentenceIndex": 10,
@@ -1037,12 +953,8 @@ export default {
         "boutiques"
       ],
       "optionReasons": {
-        "boutique-mcq-05": "本句指「奢侈品精品店」。",
-        "boutique-mcq-04": "「設計師精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。",
-        "boutique-mcq-03": "「服裝精品店」與本句語境不同。",
-        "boutique-mcq-07": "「婚紗精品店」與本句語境不同。",
-        "boutique-mcq-02": "「時裝精品店」與本句語境不同。"
+        "boutique-mcq-05": "本句的「boutiques」指「奢侈品精品店」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-05"
     },
@@ -1054,11 +966,7 @@ export default {
       "masked": "She prefers shopping at ____.",
       "options": [
         "boutique-mcq-06",
-        "boutique-mcq-05",
-        "boutique-mcq-07",
-        "boutique-mcq-04",
-        "boutique-mcq-08",
-        "boutique-mcq-03"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「independent boutiques」指「獨立精品店」。",
       "sentenceIndex": 11,
@@ -1067,12 +975,8 @@ export default {
         "independent boutiques"
       ],
       "optionReasons": {
-        "boutique-mcq-06": "本句指「獨立精品店」。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
-        "boutique-mcq-07": "「婚紗精品店」與本句語境不同。",
-        "boutique-mcq-04": "「設計師精品店」與本句語境不同。",
-        "boutique-mcq-08": "「珠寶精品店」與本句語境不同。",
-        "boutique-mcq-03": "「服裝精品店」與本句語境不同。"
+        "boutique-mcq-06": "本句的「independent boutiques」指「獨立精品店」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-06"
     },
@@ -1084,11 +988,7 @@ export default {
       "masked": "Independent ____ may carry products that large chains do not stock.",
       "options": [
         "boutique-mcq-06",
-        "boutique-mcq-05",
-        "boutique-mcq-07",
-        "boutique-mcq-04",
-        "boutique-mcq-08",
-        "boutique-mcq-03"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「boutiques」指「獨立精品店」。",
       "sentenceIndex": 12,
@@ -1097,12 +997,8 @@ export default {
         "boutiques"
       ],
       "optionReasons": {
-        "boutique-mcq-06": "本句指「獨立精品店」。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
-        "boutique-mcq-07": "「婚紗精品店」與本句語境不同。",
-        "boutique-mcq-04": "「設計師精品店」與本句語境不同。",
-        "boutique-mcq-08": "「珠寶精品店」與本句語境不同。",
-        "boutique-mcq-03": "「服裝精品店」與本句語境不同。"
+        "boutique-mcq-06": "本句的「boutiques」指「獨立精品店」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-06"
     },
@@ -1114,11 +1010,7 @@ export default {
       "masked": "She booked an appointment at a ____.",
       "options": [
         "boutique-mcq-07",
-        "boutique-mcq-06",
-        "boutique-mcq-08",
-        "boutique-mcq-05",
-        "boutique-mcq-09",
-        "boutique-mcq-04"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「bridal boutique」指「婚紗精品店」。",
       "sentenceIndex": 13,
@@ -1127,12 +1019,8 @@ export default {
         "bridal boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-07": "本句指「婚紗精品店」。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。",
-        "boutique-mcq-08": "「珠寶精品店」與本句語境不同。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
-        "boutique-mcq-09": "「鞋履精品店」與本句語境不同。",
-        "boutique-mcq-04": "「設計師精品店」與本句語境不同。"
+        "boutique-mcq-07": "本句的「bridal boutique」指「婚紗精品店」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-07"
     },
@@ -1144,11 +1032,7 @@ export default {
       "masked": "Bridal ____ often offer fitting appointments.",
       "options": [
         "boutique-mcq-07",
-        "boutique-mcq-06",
-        "boutique-mcq-08",
-        "boutique-mcq-05",
-        "boutique-mcq-09",
-        "boutique-mcq-04"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「boutiques」指「婚紗精品店」。",
       "sentenceIndex": 14,
@@ -1157,12 +1041,8 @@ export default {
         "boutiques"
       ],
       "optionReasons": {
-        "boutique-mcq-07": "本句指「婚紗精品店」。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。",
-        "boutique-mcq-08": "「珠寶精品店」與本句語境不同。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。",
-        "boutique-mcq-09": "「鞋履精品店」與本句語境不同。",
-        "boutique-mcq-04": "「設計師精品店」與本句語境不同。"
+        "boutique-mcq-07": "本句的「boutiques」指「婚紗精品店」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-07"
     },
@@ -1174,11 +1054,7 @@ export default {
       "masked": "The hotel lobby contains a small ____.",
       "options": [
         "boutique-mcq-08",
-        "boutique-mcq-07",
-        "boutique-mcq-09",
-        "boutique-mcq-06",
-        "boutique-mcq-10",
-        "boutique-mcq-05"
+        "boutique-mcq-28"
       ],
       "explanation": "本句的「jewellery boutique」指「珠寶精品店」。",
       "sentenceIndex": 15,
@@ -1187,12 +1063,8 @@ export default {
         "jewellery boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-08": "本句指「珠寶精品店」。",
-        "boutique-mcq-07": "「婚紗精品店」與本句語境不同。",
-        "boutique-mcq-09": "「鞋履精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。",
-        "boutique-mcq-10": "「網上精品店」與本句語境不同。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。"
+        "boutique-mcq-08": "本句的「jewellery boutique」指「珠寶精品店」。",
+        "boutique-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-08"
     },
@@ -1204,11 +1076,7 @@ export default {
       "masked": "The ____ specialises in handmade jewellery.",
       "options": [
         "boutique-mcq-08",
-        "boutique-mcq-07",
-        "boutique-mcq-09",
-        "boutique-mcq-06",
-        "boutique-mcq-10",
-        "boutique-mcq-05"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「boutique」指「珠寶精品店」。",
       "sentenceIndex": 16,
@@ -1217,12 +1085,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-08": "本句指「珠寶精品店」。",
-        "boutique-mcq-07": "「婚紗精品店」與本句語境不同。",
-        "boutique-mcq-09": "「鞋履精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。",
-        "boutique-mcq-10": "「網上精品店」與本句語境不同。",
-        "boutique-mcq-05": "「奢侈品精品店」與本句語境不同。"
+        "boutique-mcq-08": "本句的「boutique」指「珠寶精品店」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-08"
     },
@@ -1234,11 +1098,7 @@ export default {
       "masked": "The ____ carries several European labels.",
       "options": [
         "boutique-mcq-09",
-        "boutique-mcq-08",
-        "boutique-mcq-10",
-        "boutique-mcq-07",
-        "boutique-mcq-11",
-        "boutique-mcq-06"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「shoe boutique」指「鞋履精品店」。",
       "sentenceIndex": 17,
@@ -1247,12 +1107,8 @@ export default {
         "shoe boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-09": "本句指「鞋履精品店」。",
-        "boutique-mcq-08": "「珠寶精品店」與本句語境不同。",
-        "boutique-mcq-10": "「網上精品店」與本句語境不同。",
-        "boutique-mcq-07": "「婚紗精品店」與本句語境不同。",
-        "boutique-mcq-11": "「實體精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。"
+        "boutique-mcq-09": "本句的「shoe boutique」指「鞋履精品店」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-09"
     },
@@ -1264,11 +1120,7 @@ export default {
       "masked": "She found the boots at a small shoe ____.",
       "options": [
         "boutique-mcq-09",
-        "boutique-mcq-08",
-        "boutique-mcq-10",
-        "boutique-mcq-07",
-        "boutique-mcq-11",
-        "boutique-mcq-06"
+        "boutique-mcq-28"
       ],
       "explanation": "本句的「boutique」指「鞋履精品店」。",
       "sentenceIndex": 18,
@@ -1277,12 +1129,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-09": "本句指「鞋履精品店」。",
-        "boutique-mcq-08": "「珠寶精品店」與本句語境不同。",
-        "boutique-mcq-10": "「網上精品店」與本句語境不同。",
-        "boutique-mcq-07": "「婚紗精品店」與本句語境不同。",
-        "boutique-mcq-11": "「實體精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。"
+        "boutique-mcq-09": "本句的「boutique」指「鞋履精品店」。",
+        "boutique-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-09"
     },
@@ -1294,11 +1142,7 @@ export default {
       "masked": "The children's ____ sells clothes and gifts.",
       "options": [
         "boutique-mcq-09",
-        "boutique-mcq-08",
-        "boutique-mcq-10",
-        "boutique-mcq-07",
-        "boutique-mcq-11",
-        "boutique-mcq-06"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「boutique」指「鞋履精品店」。",
       "sentenceIndex": 19,
@@ -1307,12 +1151,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-09": "本句指「鞋履精品店」。",
-        "boutique-mcq-08": "「珠寶精品店」與本句語境不同。",
-        "boutique-mcq-10": "「網上精品店」與本句語境不同。",
-        "boutique-mcq-07": "「婚紗精品店」與本句語境不同。",
-        "boutique-mcq-11": "「實體精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。"
+        "boutique-mcq-09": "本句的「boutique」指「鞋履精品店」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-09"
     },
@@ -1324,11 +1164,7 @@ export default {
       "masked": "Small ____ often target a specific customer group.",
       "options": [
         "boutique-mcq-09",
-        "boutique-mcq-08",
-        "boutique-mcq-10",
-        "boutique-mcq-07",
-        "boutique-mcq-11",
-        "boutique-mcq-06"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「boutiques」指「鞋履精品店」。",
       "sentenceIndex": 20,
@@ -1337,12 +1173,8 @@ export default {
         "boutiques"
       ],
       "optionReasons": {
-        "boutique-mcq-09": "本句指「鞋履精品店」。",
-        "boutique-mcq-08": "「珠寶精品店」與本句語境不同。",
-        "boutique-mcq-10": "「網上精品店」與本句語境不同。",
-        "boutique-mcq-07": "「婚紗精品店」與本句語境不同。",
-        "boutique-mcq-11": "「實體精品店」與本句語境不同。",
-        "boutique-mcq-06": "「獨立精品店」與本句語境不同。"
+        "boutique-mcq-09": "本句的「boutiques」指「鞋履精品店」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-09"
     },
@@ -1354,11 +1186,7 @@ export default {
       "masked": "She runs an ____ selling vintage clothing.",
       "options": [
         "boutique-mcq-10",
-        "boutique-mcq-09",
-        "boutique-mcq-11",
-        "boutique-mcq-08",
-        "boutique-mcq-07",
-        "boutique-mcq-13"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「online boutique」指「網上精品店」。",
       "sentenceIndex": 21,
@@ -1367,12 +1195,8 @@ export default {
         "online boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-10": "本句指「網上精品店」。",
-        "boutique-mcq-09": "「鞋履精品店」與本句語境不同。",
-        "boutique-mcq-11": "「實體精品店」與本句語境不同。",
-        "boutique-mcq-08": "「珠寶精品店」與本句語境不同。",
-        "boutique-mcq-07": "「婚紗精品店」與本句語境不同。",
-        "boutique-mcq-13": "「小型專門公司」與本句語境不同。"
+        "boutique-mcq-10": "本句的「online boutique」指「網上精品店」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-10"
     },
@@ -1384,10 +1208,6 @@ export default {
       "masked": "Online ____ can offer niche products without operating a physical shop.",
       "options": [
         "boutique-mcq-10",
-        "boutique-mcq-09",
-        "boutique-mcq-11",
-        "boutique-mcq-08",
-        "boutique-mcq-07",
         "boutique-mcq-13"
       ],
       "explanation": "本句的「boutiques」指「網上精品店」。",
@@ -1397,12 +1217,8 @@ export default {
         "boutiques"
       ],
       "optionReasons": {
-        "boutique-mcq-10": "本句指「網上精品店」。",
-        "boutique-mcq-09": "「鞋履精品店」與本句語境不同。",
-        "boutique-mcq-11": "「實體精品店」與本句語境不同。",
-        "boutique-mcq-08": "「珠寶精品店」與本句語境不同。",
-        "boutique-mcq-07": "「婚紗精品店」與本句語境不同。",
-        "boutique-mcq-13": "「小型專門公司」與本句語境不同。"
+        "boutique-mcq-10": "本句的「boutiques」指「網上精品店」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-10"
     },
@@ -1414,10 +1230,6 @@ export default {
       "masked": "Customers can try items on in a ____.",
       "options": [
         "boutique-mcq-12",
-        "boutique-mcq-13",
-        "boutique-mcq-10",
-        "boutique-mcq-14",
-        "boutique-mcq-09",
         "boutique-mcq-15"
       ],
       "explanation": "本句的「physical boutique」指「實體精品店」。",
@@ -1427,12 +1239,8 @@ export default {
         "physical boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-12": "本句指「實體精品店」。",
-        "boutique-mcq-13": "「小型專門公司」與本句語境不同。",
-        "boutique-mcq-10": "「網上精品店」與本句語境不同。",
-        "boutique-mcq-14": "「精品／小型專業顧問公司」與本句語境不同。",
-        "boutique-mcq-09": "「鞋履精品店」與本句語境不同。",
-        "boutique-mcq-15": "「小型專業代理公司」與本句語境不同。"
+        "boutique-mcq-12": "本句的「physical boutique」指「實體精品店」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-12"
     },
@@ -1444,11 +1252,7 @@ export default {
       "masked": "The brand operates both an online store and several brick-and-mortar ____.",
       "options": [
         "boutique-mcq-12",
-        "boutique-mcq-13",
-        "boutique-mcq-10",
-        "boutique-mcq-14",
-        "boutique-mcq-09",
-        "boutique-mcq-15"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「boutiques」指「實體精品店」。",
       "sentenceIndex": 24,
@@ -1457,12 +1261,8 @@ export default {
         "boutiques"
       ],
       "optionReasons": {
-        "boutique-mcq-12": "本句指「實體精品店」。",
-        "boutique-mcq-13": "「小型專門公司」與本句語境不同。",
-        "boutique-mcq-10": "「網上精品店」與本句語境不同。",
-        "boutique-mcq-14": "「精品／小型專業顧問公司」與本句語境不同。",
-        "boutique-mcq-09": "「鞋履精品店」與本句語境不同。",
-        "boutique-mcq-15": "「小型專業代理公司」與本句語境不同。"
+        "boutique-mcq-12": "本句的「boutiques」指「實體精品店」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-12"
     },
@@ -1474,11 +1274,7 @@ export default {
       "masked": "A ____ may focus on a narrow area of expertise.",
       "options": [
         "boutique-mcq-13",
-        "boutique-mcq-12",
-        "boutique-mcq-14",
-        "boutique-mcq-15",
-        "boutique-mcq-10",
-        "boutique-mcq-16"
+        "boutique-mcq-26"
       ],
       "explanation": "本句的「boutique firm」指「小型專門公司」。",
       "sentenceIndex": 27,
@@ -1487,12 +1283,8 @@ export default {
         "boutique firm"
       ],
       "optionReasons": {
-        "boutique-mcq-13": "本句指「小型專門公司」。",
-        "boutique-mcq-12": "「實體精品店」與本句語境不同。",
-        "boutique-mcq-14": "「精品／小型專業顧問公司」與本句語境不同。",
-        "boutique-mcq-15": "「小型專業代理公司」與本句語境不同。",
-        "boutique-mcq-10": "「網上精品店」與本句語境不同。",
-        "boutique-mcq-16": "「精品律師事務所」與本句語境不同。"
+        "boutique-mcq-13": "本句的「boutique firm」指「小型專門公司」。",
+        "boutique-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-13"
     },
@@ -1504,11 +1296,7 @@ export default {
       "masked": "The ____ firm works with only a small number of clients.",
       "options": [
         "boutique-mcq-13",
-        "boutique-mcq-12",
-        "boutique-mcq-14",
-        "boutique-mcq-15",
-        "boutique-mcq-10",
-        "boutique-mcq-16"
+        "boutique-mcq-05"
       ],
       "explanation": "本句的「boutique」指「小型專門公司」。",
       "sentenceIndex": 28,
@@ -1517,12 +1305,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-13": "本句指「小型專門公司」。",
-        "boutique-mcq-12": "「實體精品店」與本句語境不同。",
-        "boutique-mcq-14": "「精品／小型專業顧問公司」與本句語境不同。",
-        "boutique-mcq-15": "「小型專業代理公司」與本句語境不同。",
-        "boutique-mcq-10": "「網上精品店」與本句語境不同。",
-        "boutique-mcq-16": "「精品律師事務所」與本句語境不同。"
+        "boutique-mcq-13": "本句的「boutique」指「小型專門公司」。",
+        "boutique-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-13"
     },
@@ -1534,11 +1318,7 @@ export default {
       "masked": "The retailer hired a ____.",
       "options": [
         "boutique-mcq-14",
-        "boutique-mcq-13",
-        "boutique-mcq-15",
-        "boutique-mcq-12",
-        "boutique-mcq-16",
-        "boutique-mcq-17"
+        "boutique-pdf-001"
       ],
       "explanation": "本句的「boutique consultancy」指「精品／小型專業顧問公司」。",
       "sentenceIndex": 29,
@@ -1547,12 +1327,8 @@ export default {
         "boutique consultancy"
       ],
       "optionReasons": {
-        "boutique-mcq-14": "本句指「精品／小型專業顧問公司」。",
-        "boutique-mcq-13": "「小型專門公司」與本句語境不同。",
-        "boutique-mcq-15": "「小型專業代理公司」與本句語境不同。",
-        "boutique-mcq-12": "「實體精品店」與本句語境不同。",
-        "boutique-mcq-16": "「精品律師事務所」與本句語境不同。",
-        "boutique-mcq-17": "「精品投資銀行」與本句語境不同。"
+        "boutique-mcq-14": "本句的「boutique consultancy」指「精品／小型專業顧問公司」。",
+        "boutique-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-14"
     },
@@ -1564,11 +1340,7 @@ export default {
       "masked": "____ consultancies often specialise in one industry or problem type.",
       "options": [
         "boutique-mcq-14",
-        "boutique-mcq-13",
-        "boutique-mcq-15",
-        "boutique-mcq-12",
-        "boutique-mcq-16",
-        "boutique-mcq-17"
+        "boutique-pdf-001"
       ],
       "explanation": "本句的「Boutique」指「精品／小型專業顧問公司」。",
       "sentenceIndex": 30,
@@ -1577,12 +1349,8 @@ export default {
         "Boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-14": "本句指「精品／小型專業顧問公司」。",
-        "boutique-mcq-13": "「小型專門公司」與本句語境不同。",
-        "boutique-mcq-15": "「小型專業代理公司」與本句語境不同。",
-        "boutique-mcq-12": "「實體精品店」與本句語境不同。",
-        "boutique-mcq-16": "「精品律師事務所」與本句語境不同。",
-        "boutique-mcq-17": "「精品投資銀行」與本句語境不同。"
+        "boutique-mcq-14": "本句的「Boutique」指「精品／小型專業顧問公司」。",
+        "boutique-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-14"
     },
@@ -1594,11 +1362,7 @@ export default {
       "masked": "The campaign was created by a ____.",
       "options": [
         "boutique-mcq-15",
-        "boutique-mcq-14",
-        "boutique-mcq-16",
-        "boutique-mcq-13",
-        "boutique-mcq-17",
-        "boutique-mcq-12"
+        "boutique-mcq-06"
       ],
       "explanation": "本句的「boutique advertising agency」指「小型專業代理公司」。",
       "sentenceIndex": 31,
@@ -1607,12 +1371,8 @@ export default {
         "boutique advertising agency"
       ],
       "optionReasons": {
-        "boutique-mcq-15": "本句指「小型專業代理公司」。",
-        "boutique-mcq-14": "「精品／小型專業顧問公司」與本句語境不同。",
-        "boutique-mcq-16": "「精品律師事務所」與本句語境不同。",
-        "boutique-mcq-13": "「小型專門公司」與本句語境不同。",
-        "boutique-mcq-17": "「精品投資銀行」與本句語境不同。",
-        "boutique-mcq-12": "「實體精品店」與本句語境不同。"
+        "boutique-mcq-15": "本句的「boutique advertising agency」指「小型專業代理公司」。",
+        "boutique-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-15"
     },
@@ -1624,11 +1384,7 @@ export default {
       "masked": "____ agencies may offer more personalised attention.",
       "options": [
         "boutique-mcq-15",
-        "boutique-mcq-14",
-        "boutique-mcq-16",
-        "boutique-mcq-13",
-        "boutique-mcq-17",
-        "boutique-mcq-12"
+        "boutique-mcq-05"
       ],
       "explanation": "本句的「Boutique」指「小型專業代理公司」。",
       "sentenceIndex": 32,
@@ -1637,12 +1393,8 @@ export default {
         "Boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-15": "本句指「小型專業代理公司」。",
-        "boutique-mcq-14": "「精品／小型專業顧問公司」與本句語境不同。",
-        "boutique-mcq-16": "「精品律師事務所」與本句語境不同。",
-        "boutique-mcq-13": "「小型專門公司」與本句語境不同。",
-        "boutique-mcq-17": "「精品投資銀行」與本句語境不同。",
-        "boutique-mcq-12": "「實體精品店」與本句語境不同。"
+        "boutique-mcq-15": "本句的「Boutique」指「小型專業代理公司」。",
+        "boutique-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-15"
     },
@@ -1654,11 +1406,7 @@ export default {
       "masked": "The company hired a ____ specialising in employment law.",
       "options": [
         "boutique-mcq-16",
-        "boutique-mcq-15",
-        "boutique-mcq-17",
-        "boutique-mcq-14",
-        "boutique-mcq-18",
-        "boutique-mcq-13"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「boutique law firm」指「精品律師事務所」。",
       "sentenceIndex": 33,
@@ -1667,12 +1415,8 @@ export default {
         "boutique law firm"
       ],
       "optionReasons": {
-        "boutique-mcq-16": "本句指「精品律師事務所」。",
-        "boutique-mcq-15": "「小型專業代理公司」與本句語境不同。",
-        "boutique-mcq-17": "「精品投資銀行」與本句語境不同。",
-        "boutique-mcq-14": "「精品／小型專業顧問公司」與本句語境不同。",
-        "boutique-mcq-18": "「精品顧問公司」與本句語境不同。",
-        "boutique-mcq-13": "「小型專門公司」與本句語境不同。"
+        "boutique-mcq-16": "本句的「boutique law firm」指「精品律師事務所」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-16"
     },
@@ -1684,10 +1428,6 @@ export default {
       "masked": "____ firms may concentrate on a narrow legal practice area.",
       "options": [
         "boutique-mcq-16",
-        "boutique-mcq-15",
-        "boutique-mcq-17",
-        "boutique-mcq-14",
-        "boutique-mcq-18",
         "boutique-mcq-13"
       ],
       "explanation": "本句的「Boutique」指「精品律師事務所」。",
@@ -1697,12 +1437,8 @@ export default {
         "Boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-16": "本句指「精品律師事務所」。",
-        "boutique-mcq-15": "「小型專業代理公司」與本句語境不同。",
-        "boutique-mcq-17": "「精品投資銀行」與本句語境不同。",
-        "boutique-mcq-14": "「精品／小型專業顧問公司」與本句語境不同。",
-        "boutique-mcq-18": "「精品顧問公司」與本句語境不同。",
-        "boutique-mcq-13": "「小型專門公司」與本句語境不同。"
+        "boutique-mcq-16": "本句的「Boutique」指「精品律師事務所」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-16"
     },
@@ -1714,11 +1450,7 @@ export default {
       "masked": "The transaction was advised by a ____.",
       "options": [
         "boutique-mcq-17",
-        "boutique-mcq-16",
-        "boutique-mcq-18",
-        "boutique-mcq-15",
-        "boutique-mcq-19",
-        "boutique-mcq-14"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「boutique investment bank」指「精品投資銀行」。",
       "sentenceIndex": 35,
@@ -1727,12 +1459,8 @@ export default {
         "boutique investment bank"
       ],
       "optionReasons": {
-        "boutique-mcq-17": "本句指「精品投資銀行」。",
-        "boutique-mcq-16": "「精品律師事務所」與本句語境不同。",
-        "boutique-mcq-18": "「精品顧問公司」與本句語境不同。",
-        "boutique-mcq-15": "「小型專業代理公司」與本句語境不同。",
-        "boutique-mcq-19": "「精品投資公司」與本句語境不同。",
-        "boutique-mcq-14": "「精品／小型專業顧問公司」與本句語境不同。"
+        "boutique-mcq-17": "本句的「boutique investment bank」指「精品投資銀行」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-17"
     },
@@ -1744,11 +1472,7 @@ export default {
       "masked": "____ investment banks often focus on advisory work or particular sectors.",
       "options": [
         "boutique-mcq-17",
-        "boutique-mcq-16",
-        "boutique-mcq-18",
-        "boutique-mcq-15",
-        "boutique-mcq-19",
-        "boutique-mcq-14"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「Boutique」指「精品投資銀行」。",
       "sentenceIndex": 36,
@@ -1757,12 +1481,8 @@ export default {
         "Boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-17": "本句指「精品投資銀行」。",
-        "boutique-mcq-16": "「精品律師事務所」與本句語境不同。",
-        "boutique-mcq-18": "「精品顧問公司」與本句語境不同。",
-        "boutique-mcq-15": "「小型專業代理公司」與本句語境不同。",
-        "boutique-mcq-19": "「精品投資公司」與本句語境不同。",
-        "boutique-mcq-14": "「精品／小型專業顧問公司」與本句語境不同。"
+        "boutique-mcq-17": "本句的「Boutique」指「精品投資銀行」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-17"
     },
@@ -1774,11 +1494,7 @@ export default {
       "masked": "The founders hired a ____.",
       "options": [
         "boutique-mcq-18",
-        "boutique-mcq-17",
-        "boutique-mcq-19",
-        "boutique-mcq-16",
-        "boutique-mcq-20",
-        "boutique-mcq-15"
+        "boutique-mcq-28"
       ],
       "explanation": "本句的「boutique advisory firm」指「精品顧問公司」。",
       "sentenceIndex": 37,
@@ -1787,12 +1503,8 @@ export default {
         "boutique advisory firm"
       ],
       "optionReasons": {
-        "boutique-mcq-18": "本句指「精品顧問公司」。",
-        "boutique-mcq-17": "「精品投資銀行」與本句語境不同。",
-        "boutique-mcq-19": "「精品投資公司」與本句語境不同。",
-        "boutique-mcq-16": "「精品律師事務所」與本句語境不同。",
-        "boutique-mcq-20": "「精品酒店」與本句語境不同。",
-        "boutique-mcq-15": "「小型專業代理公司」與本句語境不同。"
+        "boutique-mcq-18": "本句的「boutique advisory firm」指「精品顧問公司」。",
+        "boutique-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-18"
     },
@@ -1804,11 +1516,7 @@ export default {
       "masked": "The fund is managed by a ____.",
       "options": [
         "boutique-mcq-19",
-        "boutique-mcq-18",
-        "boutique-mcq-20",
-        "boutique-mcq-17",
-        "boutique-mcq-21",
-        "boutique-mcq-16"
+        "boutique-mcq-28"
       ],
       "explanation": "本句的「boutique investment firm」指「精品投資公司」。",
       "sentenceIndex": 38,
@@ -1817,12 +1525,8 @@ export default {
         "boutique investment firm"
       ],
       "optionReasons": {
-        "boutique-mcq-19": "本句指「精品投資公司」。",
-        "boutique-mcq-18": "「精品顧問公司」與本句語境不同。",
-        "boutique-mcq-20": "「精品酒店」與本句語境不同。",
-        "boutique-mcq-17": "「精品投資銀行」與本句語境不同。",
-        "boutique-mcq-21": "「精品式住宿」與本句語境不同。",
-        "boutique-mcq-16": "「精品律師事務所」與本句語境不同。"
+        "boutique-mcq-19": "本句的「boutique investment firm」指「精品投資公司」。",
+        "boutique-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-19"
     },
@@ -1834,11 +1538,7 @@ export default {
       "masked": "____ asset managers may specialise in a limited number of strategies.",
       "options": [
         "boutique-mcq-19",
-        "boutique-mcq-18",
-        "boutique-mcq-20",
-        "boutique-mcq-17",
-        "boutique-mcq-21",
-        "boutique-mcq-16"
+        "boutique-mcq-28"
       ],
       "explanation": "本句的「Boutique」指「精品投資公司」。",
       "sentenceIndex": 39,
@@ -1847,12 +1547,8 @@ export default {
         "Boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-19": "本句指「精品投資公司」。",
-        "boutique-mcq-18": "「精品顧問公司」與本句語境不同。",
-        "boutique-mcq-20": "「精品酒店」與本句語境不同。",
-        "boutique-mcq-17": "「精品投資銀行」與本句語境不同。",
-        "boutique-mcq-21": "「精品式住宿」與本句語境不同。",
-        "boutique-mcq-16": "「精品律師事務所」與本句語境不同。"
+        "boutique-mcq-19": "本句的「Boutique」指「精品投資公司」。",
+        "boutique-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-19"
     },
@@ -1864,11 +1560,7 @@ export default {
       "masked": "They stayed at a small ____.",
       "options": [
         "boutique-mcq-20",
-        "boutique-mcq-19",
-        "boutique-mcq-21",
-        "boutique-mcq-18",
-        "boutique-mcq-22",
-        "boutique-mcq-17"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「boutique hotel」指「精品酒店」。",
       "sentenceIndex": 40,
@@ -1877,12 +1569,8 @@ export default {
         "boutique hotel"
       ],
       "optionReasons": {
-        "boutique-mcq-20": "本句指「精品酒店」。",
-        "boutique-mcq-19": "「精品投資公司」與本句語境不同。",
-        "boutique-mcq-21": "「精品式住宿」與本句語境不同。",
-        "boutique-mcq-18": "「精品顧問公司」與本句語境不同。",
-        "boutique-mcq-22": "「精品／小眾品牌」與本句語境不同。",
-        "boutique-mcq-17": "「精品投資銀行」與本句語境不同。"
+        "boutique-mcq-20": "本句的「boutique hotel」指「精品酒店」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-20"
     },
@@ -1894,11 +1582,7 @@ export default {
       "masked": "The ____ hotel has individually designed rooms.",
       "options": [
         "boutique-mcq-20",
-        "boutique-mcq-19",
-        "boutique-mcq-21",
-        "boutique-mcq-18",
-        "boutique-mcq-22",
-        "boutique-mcq-17"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「boutique」指「精品酒店」。",
       "sentenceIndex": 41,
@@ -1907,12 +1591,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-20": "本句指「精品酒店」。",
-        "boutique-mcq-19": "「精品投資公司」與本句語境不同。",
-        "boutique-mcq-21": "「精品式住宿」與本句語境不同。",
-        "boutique-mcq-18": "「精品顧問公司」與本句語境不同。",
-        "boutique-mcq-22": "「精品／小眾品牌」與本句語境不同。",
-        "boutique-mcq-17": "「精品投資銀行」與本句語境不同。"
+        "boutique-mcq-20": "本句的「boutique」指「精品酒店」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-20"
     },
@@ -1924,11 +1604,7 @@ export default {
       "masked": "The area has several forms of ____.",
       "options": [
         "boutique-mcq-21",
-        "boutique-mcq-20",
-        "boutique-mcq-22",
-        "boutique-mcq-19",
-        "boutique-mcq-18",
-        "boutique-mcq-24"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「boutique accommodation」指「精品式住宿」。",
       "sentenceIndex": 42,
@@ -1937,12 +1613,8 @@ export default {
         "boutique accommodation"
       ],
       "optionReasons": {
-        "boutique-mcq-21": "本句指「精品式住宿」。",
-        "boutique-mcq-20": "「精品酒店」與本句語境不同。",
-        "boutique-mcq-22": "「精品／小眾品牌」與本句語境不同。",
-        "boutique-mcq-19": "「精品投資公司」與本句語境不同。",
-        "boutique-mcq-18": "「精品顧問公司」與本句語境不同。",
-        "boutique-mcq-24": "「精品式產品」與本句語境不同。"
+        "boutique-mcq-21": "本句的「boutique accommodation」指「精品式住宿」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-21"
     },
@@ -1954,11 +1626,7 @@ export default {
       "masked": "____ accommodation often emphasises design and local character.",
       "options": [
         "boutique-mcq-21",
-        "boutique-mcq-20",
-        "boutique-mcq-22",
-        "boutique-mcq-19",
-        "boutique-mcq-18",
-        "boutique-mcq-24"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「Boutique」指「精品式住宿」。",
       "sentenceIndex": 43,
@@ -1967,12 +1635,8 @@ export default {
         "Boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-21": "本句指「精品式住宿」。",
-        "boutique-mcq-20": "「精品酒店」與本句語境不同。",
-        "boutique-mcq-22": "「精品／小眾品牌」與本句語境不同。",
-        "boutique-mcq-19": "「精品投資公司」與本句語境不同。",
-        "boutique-mcq-18": "「精品顧問公司」與本句語境不同。",
-        "boutique-mcq-24": "「精品式產品」與本句語境不同。"
+        "boutique-mcq-21": "本句的「Boutique」指「精品式住宿」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-21"
     },
@@ -1984,11 +1648,7 @@ export default {
       "masked": "The shop carries several ____.",
       "options": [
         "boutique-mcq-22",
-        "boutique-mcq-21",
-        "boutique-mcq-20",
-        "boutique-mcq-24",
-        "boutique-mcq-19",
-        "boutique-mcq-25"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「boutique brands」指「精品／小眾品牌」。",
       "sentenceIndex": 44,
@@ -1997,12 +1657,8 @@ export default {
         "boutique brands"
       ],
       "optionReasons": {
-        "boutique-mcq-22": "本句指「精品／小眾品牌」。",
-        "boutique-mcq-21": "「精品式住宿」與本句語境不同。",
-        "boutique-mcq-20": "「精品酒店」與本句語境不同。",
-        "boutique-mcq-24": "「精品式產品」與本句語境不同。",
-        "boutique-mcq-19": "「精品投資公司」與本句語境不同。",
-        "boutique-mcq-25": "「精品系列」與本句語境不同。"
+        "boutique-mcq-22": "本句的「boutique brands」指「精品／小眾品牌」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-22"
     },
@@ -2014,11 +1670,7 @@ export default {
       "masked": "____ brands often compete through design and identity rather than scale.",
       "options": [
         "boutique-mcq-22",
-        "boutique-mcq-21",
-        "boutique-mcq-20",
-        "boutique-mcq-24",
-        "boutique-mcq-19",
-        "boutique-mcq-25"
+        "boutique-mcq-28"
       ],
       "explanation": "本句的「Boutique」指「精品／小眾品牌」。",
       "sentenceIndex": 45,
@@ -2027,12 +1679,8 @@ export default {
         "Boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-22": "本句指「精品／小眾品牌」。",
-        "boutique-mcq-21": "「精品式住宿」與本句語境不同。",
-        "boutique-mcq-20": "「精品酒店」與本句語境不同。",
-        "boutique-mcq-24": "「精品式產品」與本句語境不同。",
-        "boutique-mcq-19": "「精品投資公司」與本句語境不同。",
-        "boutique-mcq-25": "「精品系列」與本句語境不同。"
+        "boutique-mcq-22": "本句的「Boutique」指「精品／小眾品牌」。",
+        "boutique-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-22"
     },
@@ -2044,11 +1692,7 @@ export default {
       "masked": "The designer launched a ____.",
       "options": [
         "boutique-mcq-23",
-        "boutique-mcq-24",
-        "boutique-mcq-21",
-        "boutique-mcq-25",
-        "boutique-mcq-20",
-        "boutique-mcq-26"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「boutique fashion label」指「精品／小眾品牌」。",
       "sentenceIndex": 46,
@@ -2057,12 +1701,8 @@ export default {
         "boutique fashion label"
       ],
       "optionReasons": {
-        "boutique-mcq-23": "本句指「精品／小眾品牌」。",
-        "boutique-mcq-24": "「精品式產品」與本句語境不同。",
-        "boutique-mcq-21": "「精品式住宿」與本句語境不同。",
-        "boutique-mcq-25": "「精品系列」與本句語境不同。",
-        "boutique-mcq-20": "「精品酒店」與本句語境不同。",
-        "boutique-mcq-26": "「精品式個人化服務」與本句語境不同。"
+        "boutique-mcq-23": "本句的「boutique fashion label」指「精品／小眾品牌」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-23"
     },
@@ -2074,11 +1714,7 @@ export default {
       "masked": "The ____ label produces limited collections.",
       "options": [
         "boutique-mcq-23",
-        "boutique-mcq-24",
-        "boutique-mcq-21",
-        "boutique-mcq-25",
-        "boutique-mcq-20",
-        "boutique-mcq-26"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「boutique」指「精品／小眾品牌」。",
       "sentenceIndex": 47,
@@ -2087,12 +1723,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-23": "本句指「精品／小眾品牌」。",
-        "boutique-mcq-24": "「精品式產品」與本句語境不同。",
-        "boutique-mcq-21": "「精品式住宿」與本句語境不同。",
-        "boutique-mcq-25": "「精品系列」與本句語境不同。",
-        "boutique-mcq-20": "「精品酒店」與本句語境不同。",
-        "boutique-mcq-26": "「精品式個人化服務」與本句語境不同。"
+        "boutique-mcq-23": "本句的「boutique」指「精品／小眾品牌」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-23"
     },
@@ -2104,11 +1736,7 @@ export default {
       "masked": "The company focuses on ____ rather than mass-market goods.",
       "options": [
         "boutique-mcq-24",
-        "boutique-mcq-23",
-        "boutique-mcq-25",
-        "boutique-mcq-26",
-        "boutique-mcq-21",
-        "boutique-mcq-27"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「boutique products」指「精品式產品」。",
       "sentenceIndex": 48,
@@ -2117,12 +1745,8 @@ export default {
         "boutique products"
       ],
       "optionReasons": {
-        "boutique-mcq-24": "本句指「精品式產品」。",
-        "boutique-mcq-23": "「精品／小眾品牌」與本句語境不同。",
-        "boutique-mcq-25": "「精品系列」與本句語境不同。",
-        "boutique-mcq-26": "「精品式個人化服務」與本句語境不同。",
-        "boutique-mcq-21": "「精品式住宿」與本句語境不同。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。"
+        "boutique-mcq-24": "本句的「boutique products」指「精品式產品」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-24"
     },
@@ -2134,11 +1758,7 @@ export default {
       "masked": "____ products may emphasise craftsmanship or exclusivity.",
       "options": [
         "boutique-mcq-24",
-        "boutique-mcq-23",
-        "boutique-mcq-25",
-        "boutique-mcq-26",
-        "boutique-mcq-21",
-        "boutique-mcq-27"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「Boutique」指「精品式產品」。",
       "sentenceIndex": 49,
@@ -2147,12 +1767,8 @@ export default {
         "Boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-24": "本句指「精品式產品」。",
-        "boutique-mcq-23": "「精品／小眾品牌」與本句語境不同。",
-        "boutique-mcq-25": "「精品系列」與本句語境不同。",
-        "boutique-mcq-26": "「精品式個人化服務」與本句語境不同。",
-        "boutique-mcq-21": "「精品式住宿」與本句語境不同。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。"
+        "boutique-mcq-24": "本句的「Boutique」指「精品式產品」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-24"
     },
@@ -2164,11 +1780,7 @@ export default {
       "masked": "The designer released a small ____.",
       "options": [
         "boutique-mcq-25",
-        "boutique-mcq-24",
-        "boutique-mcq-26",
-        "boutique-mcq-23",
-        "boutique-mcq-27",
-        "boutique-mcq-28"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「boutique collection」指「精品系列」。",
       "sentenceIndex": 50,
@@ -2177,12 +1789,8 @@ export default {
         "boutique collection"
       ],
       "optionReasons": {
-        "boutique-mcq-25": "本句指「精品系列」。",
-        "boutique-mcq-24": "「精品式產品」與本句語境不同。",
-        "boutique-mcq-26": "「精品式個人化服務」與本句語境不同。",
-        "boutique-mcq-23": "「精品／小眾品牌」與本句語境不同。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。",
-        "boutique-mcq-28": "「小型專門化做法」與本句語境不同。"
+        "boutique-mcq-25": "本句的「boutique collection」指「精品系列」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-25"
     },
@@ -2194,11 +1802,7 @@ export default {
       "masked": "The agency offers a ____ to a limited number of clients.",
       "options": [
         "boutique-mcq-26",
-        "boutique-mcq-25",
-        "boutique-mcq-27",
-        "boutique-mcq-24",
-        "boutique-mcq-28",
-        "boutique-mcq-23"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「boutique service」指「精品式個人化服務」。",
       "sentenceIndex": 51,
@@ -2207,12 +1811,8 @@ export default {
         "boutique service"
       ],
       "optionReasons": {
-        "boutique-mcq-26": "本句指「精品式個人化服務」。",
-        "boutique-mcq-25": "「精品系列」與本句語境不同。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。",
-        "boutique-mcq-24": "「精品式產品」與本句語境不同。",
-        "boutique-mcq-28": "「小型專門化做法」與本句語境不同。",
-        "boutique-mcq-23": "「精品／小眾品牌」與本句語境不同。"
+        "boutique-mcq-26": "本句的「boutique service」指「精品式個人化服務」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-26"
     },
@@ -2224,11 +1824,7 @@ export default {
       "masked": "____ service usually emphasizes attention and specialisation.",
       "options": [
         "boutique-mcq-26",
-        "boutique-mcq-25",
-        "boutique-mcq-27",
-        "boutique-mcq-24",
-        "boutique-mcq-28",
-        "boutique-mcq-23"
+        "boutique-mcq-15"
       ],
       "explanation": "本句的「Boutique」指「精品式個人化服務」。",
       "sentenceIndex": 52,
@@ -2237,12 +1833,8 @@ export default {
         "Boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-26": "本句指「精品式個人化服務」。",
-        "boutique-mcq-25": "「精品系列」與本句語境不同。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。",
-        "boutique-mcq-24": "「精品式產品」與本句語境不同。",
-        "boutique-mcq-28": "「小型專門化做法」與本句語境不同。",
-        "boutique-mcq-23": "「精品／小眾品牌」與本句語境不同。"
+        "boutique-mcq-26": "本句的「Boutique」指「精品式個人化服務」。",
+        "boutique-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-26"
     },
@@ -2254,11 +1846,7 @@ export default {
       "masked": "The retailer wants to recreate a ____ online.",
       "options": [
         "boutique-mcq-27",
-        "boutique-mcq-26",
-        "boutique-mcq-28",
-        "boutique-mcq-25",
-        "boutique-mcq-29",
-        "boutique-mcq-24"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「boutique experience」指「精品式體驗」。",
       "sentenceIndex": 53,
@@ -2267,12 +1855,8 @@ export default {
         "boutique experience"
       ],
       "optionReasons": {
-        "boutique-mcq-27": "本句指「精品式體驗」。",
-        "boutique-mcq-26": "「精品式個人化服務」與本句語境不同。",
-        "boutique-mcq-28": "「小型專門化做法」與本句語境不同。",
-        "boutique-mcq-25": "「精品系列」與本句語境不同。",
-        "boutique-mcq-29": "「精品式小型企業」與本句語境不同。",
-        "boutique-mcq-24": "「精品式產品」與本句語境不同。"
+        "boutique-mcq-27": "本句的「boutique experience」指「精品式體驗」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-27"
     },
@@ -2284,11 +1868,7 @@ export default {
       "masked": "Personal recommendations can create a more ____ experience.",
       "options": [
         "boutique-mcq-27",
-        "boutique-mcq-26",
-        "boutique-mcq-28",
-        "boutique-mcq-25",
-        "boutique-mcq-29",
-        "boutique-mcq-24"
+        "boutique-mcq-28"
       ],
       "explanation": "本句的「boutique」指「精品式體驗」。",
       "sentenceIndex": 54,
@@ -2297,12 +1877,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-27": "本句指「精品式體驗」。",
-        "boutique-mcq-26": "「精品式個人化服務」與本句語境不同。",
-        "boutique-mcq-28": "「小型專門化做法」與本句語境不同。",
-        "boutique-mcq-25": "「精品系列」與本句語境不同。",
-        "boutique-mcq-29": "「精品式小型企業」與本句語境不同。",
-        "boutique-mcq-24": "「精品式產品」與本句語境不同。"
+        "boutique-mcq-27": "本句的「boutique」指「精品式體驗」。",
+        "boutique-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-27"
     },
@@ -2314,11 +1890,7 @@ export default {
       "masked": "The company takes a ____ to customer service.",
       "options": [
         "boutique-mcq-28",
-        "boutique-mcq-27",
-        "boutique-mcq-29",
-        "boutique-mcq-26",
-        "boutique-mcq-30",
-        "boutique-mcq-25"
+        "boutique-mcq-08"
       ],
       "explanation": "本句的「boutique approach」指「小型專門化做法」。",
       "sentenceIndex": 55,
@@ -2327,12 +1899,8 @@ export default {
         "boutique approach"
       ],
       "optionReasons": {
-        "boutique-mcq-28": "本句指「小型專門化做法」。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。",
-        "boutique-mcq-29": "「精品式小型企業」與本句語境不同。",
-        "boutique-mcq-26": "「精品式個人化服務」與本句語境不同。",
-        "boutique-mcq-30": "「精品健身工作室」與本句語境不同。",
-        "boutique-mcq-25": "「精品系列」與本句語境不同。"
+        "boutique-mcq-28": "本句的「boutique approach」指「小型專門化做法」。",
+        "boutique-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-28"
     },
@@ -2344,11 +1912,7 @@ export default {
       "masked": "A ____ approach may be difficult to scale rapidly.",
       "options": [
         "boutique-mcq-28",
-        "boutique-mcq-27",
-        "boutique-mcq-29",
-        "boutique-mcq-26",
-        "boutique-mcq-30",
-        "boutique-mcq-25"
+        "boutique-mcq-07"
       ],
       "explanation": "本句的「boutique」指「小型專門化做法」。",
       "sentenceIndex": 56,
@@ -2357,12 +1921,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-28": "本句指「小型專門化做法」。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。",
-        "boutique-mcq-29": "「精品式小型企業」與本句語境不同。",
-        "boutique-mcq-26": "「精品式個人化服務」與本句語境不同。",
-        "boutique-mcq-30": "「精品健身工作室」與本句語境不同。",
-        "boutique-mcq-25": "「精品系列」與本句語境不同。"
+        "boutique-mcq-28": "本句的「boutique」指「小型專門化做法」。",
+        "boutique-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-28"
     },
@@ -2374,11 +1934,7 @@ export default {
       "masked": "It started as a ____.",
       "options": [
         "boutique-mcq-29",
-        "boutique-mcq-28",
-        "boutique-mcq-30",
-        "boutique-mcq-27",
-        "boutique-mcq-31",
-        "boutique-mcq-26"
+        "contrast-purchase"
       ],
       "explanation": "本句的「boutique business」指「精品式小型企業」。",
       "sentenceIndex": 57,
@@ -2387,12 +1943,8 @@ export default {
         "boutique business"
       ],
       "optionReasons": {
-        "boutique-mcq-29": "本句指「精品式小型企業」。",
-        "boutique-mcq-28": "「小型專門化做法」與本句語境不同。",
-        "boutique-mcq-30": "「精品健身工作室」與本句語境不同。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。",
-        "boutique-mcq-31": "「精品旅遊公司」與本句語境不同。",
-        "boutique-mcq-26": "「精品式個人化服務」與本句語境不同。"
+        "boutique-mcq-29": "本句的「boutique business」指「精品式小型企業」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-29"
     },
@@ -2404,11 +1956,7 @@ export default {
       "masked": "The business remained ____ even after gaining a strong reputation.",
       "options": [
         "boutique-mcq-29",
-        "boutique-mcq-28",
-        "boutique-mcq-30",
-        "boutique-mcq-27",
-        "boutique-mcq-31",
-        "boutique-mcq-26"
+        "contrast-purchase"
       ],
       "explanation": "本句的「boutique」指「精品式小型企業」。",
       "sentenceIndex": 58,
@@ -2417,12 +1965,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-29": "本句指「精品式小型企業」。",
-        "boutique-mcq-28": "「小型專門化做法」與本句語境不同。",
-        "boutique-mcq-30": "「精品健身工作室」與本句語境不同。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。",
-        "boutique-mcq-31": "「精品旅遊公司」與本句語境不同。",
-        "boutique-mcq-26": "「精品式個人化服務」與本句語境不同。"
+        "boutique-mcq-29": "本句的「boutique」指「精品式小型企業」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-29"
     },
@@ -2434,11 +1978,7 @@ export default {
       "masked": "She joined a ____ specialising in Pilates.",
       "options": [
         "boutique-mcq-30",
-        "boutique-mcq-29",
-        "boutique-mcq-31",
-        "boutique-mcq-28",
-        "boutique-mcq-32",
-        "boutique-mcq-27"
+        "boutique-mcq-13"
       ],
       "explanation": "本句的「boutique fitness studio」指「精品健身工作室」。",
       "sentenceIndex": 59,
@@ -2447,12 +1987,8 @@ export default {
         "boutique fitness studio"
       ],
       "optionReasons": {
-        "boutique-mcq-30": "本句指「精品健身工作室」。",
-        "boutique-mcq-29": "「精品式小型企業」與本句語境不同。",
-        "boutique-mcq-31": "「精品旅遊公司」與本句語境不同。",
-        "boutique-mcq-28": "「小型專門化做法」與本句語境不同。",
-        "boutique-mcq-32": "「精品式／小型專業工作室」與本句語境不同。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。"
+        "boutique-mcq-30": "本句的「boutique fitness studio」指「精品健身工作室」。",
+        "boutique-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-30"
     },
@@ -2464,11 +2000,7 @@ export default {
       "masked": "____ fitness studios often run smaller classes.",
       "options": [
         "boutique-mcq-30",
-        "boutique-mcq-29",
-        "boutique-mcq-31",
-        "boutique-mcq-28",
-        "boutique-mcq-32",
-        "boutique-mcq-27"
+        "boutique-mcq-28"
       ],
       "explanation": "本句的「Boutique」指「精品健身工作室」。",
       "sentenceIndex": 60,
@@ -2477,12 +2009,8 @@ export default {
         "Boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-30": "本句指「精品健身工作室」。",
-        "boutique-mcq-29": "「精品式小型企業」與本句語境不同。",
-        "boutique-mcq-31": "「精品旅遊公司」與本句語境不同。",
-        "boutique-mcq-28": "「小型專門化做法」與本句語境不同。",
-        "boutique-mcq-32": "「精品式／小型專業工作室」與本句語境不同。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。"
+        "boutique-mcq-30": "本句的「Boutique」指「精品健身工作室」。",
+        "boutique-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-30"
     },
@@ -2494,11 +2022,7 @@ export default {
       "masked": "The trip was arranged by a ____.",
       "options": [
         "boutique-mcq-31",
-        "boutique-mcq-30",
-        "boutique-mcq-32",
-        "boutique-mcq-29",
-        "boutique-mcq-28",
-        "boutique-mcq-27"
+        "boutique-mcq-28"
       ],
       "explanation": "本句的「boutique travel company」指「精品旅遊公司」。",
       "sentenceIndex": 61,
@@ -2507,12 +2031,8 @@ export default {
         "boutique travel company"
       ],
       "optionReasons": {
-        "boutique-mcq-31": "本句指「精品旅遊公司」。",
-        "boutique-mcq-30": "「精品健身工作室」與本句語境不同。",
-        "boutique-mcq-32": "「精品式／小型專業工作室」與本句語境不同。",
-        "boutique-mcq-29": "「精品式小型企業」與本句語境不同。",
-        "boutique-mcq-28": "「小型專門化做法」與本句語境不同。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。"
+        "boutique-mcq-31": "本句的「boutique travel company」指「精品旅遊公司」。",
+        "boutique-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-31"
     },
@@ -2524,11 +2044,7 @@ export default {
       "masked": "____ operators may focus on highly customised itineraries.",
       "options": [
         "boutique-mcq-31",
-        "boutique-mcq-30",
-        "boutique-mcq-32",
-        "boutique-mcq-29",
-        "boutique-mcq-28",
-        "boutique-mcq-27"
+        "boutique-mcq-28"
       ],
       "explanation": "本句的「Boutique」指「精品旅遊公司」。",
       "sentenceIndex": 62,
@@ -2537,12 +2053,8 @@ export default {
         "Boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-31": "本句指「精品旅遊公司」。",
-        "boutique-mcq-30": "「精品健身工作室」與本句語境不同。",
-        "boutique-mcq-32": "「精品式／小型專業工作室」與本句語境不同。",
-        "boutique-mcq-29": "「精品式小型企業」與本句語境不同。",
-        "boutique-mcq-28": "「小型專門化做法」與本句語境不同。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。"
+        "boutique-mcq-31": "本句的「Boutique」指「精品旅遊公司」。",
+        "boutique-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-31"
     },
@@ -2554,11 +2066,7 @@ export default {
       "masked": "The project was produced by a ____.",
       "options": [
         "boutique-mcq-32",
-        "boutique-mcq-31",
-        "boutique-mcq-30",
-        "boutique-mcq-29",
-        "boutique-mcq-28",
-        "boutique-mcq-27"
+        "contrast-purchase"
       ],
       "explanation": "本句的「boutique design studio」指「精品式／小型專業工作室」。",
       "sentenceIndex": 63,
@@ -2567,12 +2075,8 @@ export default {
         "boutique design studio"
       ],
       "optionReasons": {
-        "boutique-mcq-32": "本句指「精品式／小型專業工作室」。",
-        "boutique-mcq-31": "「精品旅遊公司」與本句語境不同。",
-        "boutique-mcq-30": "「精品健身工作室」與本句語境不同。",
-        "boutique-mcq-29": "「精品式小型企業」與本句語境不同。",
-        "boutique-mcq-28": "「小型專門化做法」與本句語境不同。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。"
+        "boutique-mcq-32": "本句的「boutique design studio」指「精品式／小型專業工作室」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-32"
     },
@@ -2584,11 +2088,7 @@ export default {
       "masked": "A ____ studio may deliberately remain small.",
       "options": [
         "boutique-mcq-32",
-        "boutique-mcq-31",
-        "boutique-mcq-30",
-        "boutique-mcq-29",
-        "boutique-mcq-28",
-        "boutique-mcq-27"
+        "contrast-purchase"
       ],
       "explanation": "本句的「boutique」指「精品式／小型專業工作室」。",
       "sentenceIndex": 64,
@@ -2597,12 +2097,8 @@ export default {
         "boutique"
       ],
       "optionReasons": {
-        "boutique-mcq-32": "本句指「精品式／小型專業工作室」。",
-        "boutique-mcq-31": "「精品旅遊公司」與本句語境不同。",
-        "boutique-mcq-30": "「精品健身工作室」與本句語境不同。",
-        "boutique-mcq-29": "「精品式小型企業」與本句語境不同。",
-        "boutique-mcq-28": "「小型專門化做法」與本句語境不同。",
-        "boutique-mcq-27": "「精品式體驗」與本句語境不同。"
+        "boutique-mcq-32": "本句的「boutique」指「精品式／小型專業工作室」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "boutique-mcq-32"
     }
@@ -2614,5 +2110,12 @@ export default {
     "sha256": "6981d918b46f9edcb37fafa1f902c19e489a989564eee16df9ba640fc06f42e8",
     "pages": 37
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

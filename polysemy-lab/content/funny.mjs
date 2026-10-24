@@ -177,7 +177,7 @@ export default {
     },
     {
       "id": "funny-mcq-09",
-      "title": "表示疑惑、驚訝、不滿或覺得古怪的表情／眼神",
+      "title": "疑惑、驚訝、不滿或覺得古怪的表情／眼神",
       "form": "funny look",
       "en": "funny look",
       "zh": "表示疑惑、驚訝、不滿或覺得古怪的表情／眼神",
@@ -427,11 +427,9 @@ export default {
       "masked": "He was warm, ____, and surprisingly thoughtful.",
       "options": [
         "funny-mcq-01",
-        "funny-mcq-02",
-        "funny-mcq-03",
-        "funny-mcq-04",
-        "funny-mcq-05",
-        "funny-mcq-06"
+        "funny-mcq-12",
+        "funny-mcq-13",
+        "funny-mcq-10"
       ],
       "explanation": "本句的「funny」指「能令人覺得有趣、發笑或感到歡樂的」。",
       "sentenceIndex": 0,
@@ -440,12 +438,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-01": "本句指「能令人覺得有趣、發笑或感到歡樂的」。",
-        "funny-mcq-02": "「很會逗人笑、經常說或做有趣事情的人」是「funny person」的用法，與本句語境不同。",
-        "funny-mcq-03": "「與正常／預期不同，令人覺得奇怪或難以解釋的」是「funny — strange」的用法，與本句語境不同。",
-        "funny-mcq-04": "「因顯得異常而令人懷疑有問題、不誠實或不對勁的」是「funny — suspicious」的用法，與本句語境不同。",
-        "funny-mcq-05": "「身體或感覺出現難以明確描述的不正常狀態」是「feel funny」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。"
+        "funny-mcq-01": "本句的「funny」指「能令人覺得有趣、發笑或感到歡樂的」。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-01"
     },
@@ -457,11 +453,9 @@ export default {
       "masked": "Leo told me a really ____ story.",
       "options": [
         "funny-mcq-01",
-        "funny-mcq-02",
-        "funny-mcq-03",
-        "funny-mcq-04",
-        "funny-mcq-05",
-        "funny-mcq-06"
+        "funny-mcq-10",
+        "funny-mcq-14",
+        "funny-mcq-12"
       ],
       "explanation": "本句的「funny」指「能令人覺得有趣、發笑或感到歡樂的」。",
       "sentenceIndex": 1,
@@ -470,12 +464,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-01": "本句指「能令人覺得有趣、發笑或感到歡樂的」。",
-        "funny-mcq-02": "「很會逗人笑、經常說或做有趣事情的人」是「funny person」的用法，與本句語境不同。",
-        "funny-mcq-03": "「與正常／預期不同，令人覺得奇怪或難以解釋的」是「funny — strange」的用法，與本句語境不同。",
-        "funny-mcq-04": "「因顯得異常而令人懷疑有問題、不誠實或不對勁的」是「funny — suspicious」的用法，與本句語境不同。",
-        "funny-mcq-05": "「身體或感覺出現難以明確描述的不正常狀態」是「feel funny」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。"
+        "funny-mcq-01": "本句的「funny」指「能令人覺得有趣、發笑或感到歡樂的」。",
+        "funny-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-01"
     },
@@ -487,11 +479,9 @@ export default {
       "masked": "She is naturally ____ without trying too hard.",
       "options": [
         "funny-mcq-01",
-        "funny-mcq-02",
-        "funny-mcq-03",
-        "funny-mcq-04",
-        "funny-mcq-05",
-        "funny-mcq-06"
+        "funny-mcq-14",
+        "funny-mcq-12",
+        "funny-mcq-10"
       ],
       "explanation": "本句的「funny」指「能令人覺得有趣、發笑或感到歡樂的」。",
       "sentenceIndex": 2,
@@ -500,12 +490,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-01": "本句指「能令人覺得有趣、發笑或感到歡樂的」。",
-        "funny-mcq-02": "「很會逗人笑、經常說或做有趣事情的人」是「funny person」的用法，與本句語境不同。",
-        "funny-mcq-03": "「與正常／預期不同，令人覺得奇怪或難以解釋的」是「funny — strange」的用法，與本句語境不同。",
-        "funny-mcq-04": "「因顯得異常而令人懷疑有問題、不誠實或不對勁的」是「funny — suspicious」的用法，與本句語境不同。",
-        "funny-mcq-05": "「身體或感覺出現難以明確描述的不正常狀態」是「feel funny」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。"
+        "funny-mcq-01": "本句的「funny」指「能令人覺得有趣、發笑或感到歡樂的」。",
+        "funny-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-01"
     },
@@ -517,11 +505,9 @@ export default {
       "masked": "He is one of the ____ people I know.",
       "options": [
         "funny-mcq-02",
-        "funny-mcq-01",
-        "funny-mcq-03",
-        "funny-mcq-04",
-        "funny-mcq-05",
-        "funny-mcq-06"
+        "funny-mcq-12",
+        "funny-mcq-09",
+        "funny-mcq-15"
       ],
       "explanation": "本句的「funniest」指「很會逗人笑、經常說或做有趣事情的人」。",
       "sentenceIndex": 3,
@@ -530,12 +516,10 @@ export default {
         "funniest"
       ],
       "optionReasons": {
-        "funny-mcq-02": "本句指「很會逗人笑、經常說或做有趣事情的人」。",
-        "funny-mcq-01": "「能令人覺得有趣、發笑或感到歡樂的」是「funny — humorous」的用法，與本句語境不同。",
-        "funny-mcq-03": "「與正常／預期不同，令人覺得奇怪或難以解釋的」是「funny — strange」的用法，與本句語境不同。",
-        "funny-mcq-04": "「因顯得異常而令人懷疑有問題、不誠實或不對勁的」是「funny — suspicious」的用法，與本句語境不同。",
-        "funny-mcq-05": "「身體或感覺出現難以明確描述的不正常狀態」是「feel funny」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。"
+        "funny-mcq-02": "本句的「funniest」指「很會逗人笑、經常說或做有趣事情的人」。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-02"
     },
@@ -547,11 +531,9 @@ export default {
       "masked": "Her father is very ____.",
       "options": [
         "funny-mcq-02",
-        "funny-mcq-01",
-        "funny-mcq-03",
-        "funny-mcq-04",
-        "funny-mcq-05",
-        "funny-mcq-06"
+        "funny-mcq-15",
+        "funny-mcq-13",
+        "funny-mcq-11"
       ],
       "explanation": "本句的「funny」指「很會逗人笑、經常說或做有趣事情的人」。",
       "sentenceIndex": 4,
@@ -560,12 +542,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-02": "本句指「很會逗人笑、經常說或做有趣事情的人」。",
-        "funny-mcq-01": "「能令人覺得有趣、發笑或感到歡樂的」是「funny — humorous」的用法，與本句語境不同。",
-        "funny-mcq-03": "「與正常／預期不同，令人覺得奇怪或難以解釋的」是「funny — strange」的用法，與本句語境不同。",
-        "funny-mcq-04": "「因顯得異常而令人懷疑有問題、不誠實或不對勁的」是「funny — suspicious」的用法，與本句語境不同。",
-        "funny-mcq-05": "「身體或感覺出現難以明確描述的不正常狀態」是「feel funny」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。"
+        "funny-mcq-02": "本句的「funny」指「很會逗人笑、經常說或做有趣事情的人」。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-02"
     },
@@ -577,11 +557,9 @@ export default {
       "masked": "That’s ____. I was sure I left my keys here.",
       "options": [
         "funny-mcq-03",
-        "funny-mcq-02",
-        "funny-mcq-04",
-        "funny-mcq-01",
-        "funny-mcq-05",
-        "funny-mcq-06"
+        "funny-mcq-12",
+        "funny-mcq-16",
+        "funny-mcq-14"
       ],
       "explanation": "本句的「funny」指「與正常／預期不同，令人覺得奇怪或難以解釋的」。",
       "sentenceIndex": 5,
@@ -590,12 +568,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-03": "本句指「與正常／預期不同，令人覺得奇怪或難以解釋的」。",
-        "funny-mcq-02": "「很會逗人笑、經常說或做有趣事情的人」是「funny person」的用法，與本句語境不同。",
-        "funny-mcq-04": "「因顯得異常而令人懷疑有問題、不誠實或不對勁的」是「funny — suspicious」的用法，與本句語境不同。",
-        "funny-mcq-01": "「能令人覺得有趣、發笑或感到歡樂的」是「funny — humorous」的用法，與本句語境不同。",
-        "funny-mcq-05": "「身體或感覺出現難以明確描述的不正常狀態」是「feel funny」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。"
+        "funny-mcq-03": "本句的「funny」指「與正常／預期不同，令人覺得奇怪或難以解釋的」。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-03"
     },
@@ -607,11 +583,9 @@ export default {
       "masked": "There is something ____ about this situation.",
       "options": [
         "funny-mcq-03",
-        "funny-mcq-02",
-        "funny-mcq-04",
-        "funny-mcq-01",
-        "funny-mcq-05",
-        "funny-mcq-06"
+        "funny-mcq-12",
+        "funny-mcq-15",
+        "funny-mcq-16"
       ],
       "explanation": "本句的「funny」指「與正常／預期不同，令人覺得奇怪或難以解釋的」。",
       "sentenceIndex": 6,
@@ -620,12 +594,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-03": "本句指「與正常／預期不同，令人覺得奇怪或難以解釋的」。",
-        "funny-mcq-02": "「很會逗人笑、經常說或做有趣事情的人」是「funny person」的用法，與本句語境不同。",
-        "funny-mcq-04": "「因顯得異常而令人懷疑有問題、不誠實或不對勁的」是「funny — suspicious」的用法，與本句語境不同。",
-        "funny-mcq-01": "「能令人覺得有趣、發笑或感到歡樂的」是「funny — humorous」的用法，與本句語境不同。",
-        "funny-mcq-05": "「身體或感覺出現難以明確描述的不正常狀態」是「feel funny」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。"
+        "funny-mcq-03": "本句的「funny」指「與正常／預期不同，令人覺得奇怪或難以解釋的」。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-03"
     },
@@ -637,11 +609,9 @@ export default {
       "masked": "Something ____ is going on.",
       "options": [
         "funny-mcq-04",
-        "funny-mcq-03",
-        "funny-mcq-05",
-        "funny-mcq-02",
-        "funny-mcq-06",
-        "funny-mcq-01"
+        "funny-mcq-07",
+        "funny-mcq-12",
+        "funny-mcq-16"
       ],
       "explanation": "本句的「funny」指「因顯得異常而令人懷疑有問題、不誠實或不對勁的」。",
       "sentenceIndex": 7,
@@ -650,12 +620,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-04": "本句指「因顯得異常而令人懷疑有問題、不誠實或不對勁的」。",
-        "funny-mcq-03": "「與正常／預期不同，令人覺得奇怪或難以解釋的」是「funny — strange」的用法，與本句語境不同。",
-        "funny-mcq-05": "「身體或感覺出現難以明確描述的不正常狀態」是「feel funny」的用法，與本句語境不同。",
-        "funny-mcq-02": "「很會逗人笑、經常說或做有趣事情的人」是「funny person」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。",
-        "funny-mcq-01": "「能令人覺得有趣、發笑或感到歡樂的」是「funny — humorous」的用法，與本句語境不同。"
+        "funny-mcq-04": "本句的「funny」指「因顯得異常而令人懷疑有問題、不誠實或不對勁的」。",
+        "funny-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-04"
     },
@@ -667,11 +635,9 @@ export default {
       "masked": "The figures look a bit ____ to me.",
       "options": [
         "funny-mcq-04",
-        "funny-mcq-03",
-        "funny-mcq-05",
-        "funny-mcq-02",
-        "funny-mcq-06",
-        "funny-mcq-01"
+        "funny-mcq-07",
+        "funny-mcq-15",
+        "funny-mcq-18"
       ],
       "explanation": "本句的「funny」指「因顯得異常而令人懷疑有問題、不誠實或不對勁的」。",
       "sentenceIndex": 8,
@@ -680,12 +646,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-04": "本句指「因顯得異常而令人懷疑有問題、不誠實或不對勁的」。",
-        "funny-mcq-03": "「與正常／預期不同，令人覺得奇怪或難以解釋的」是「funny — strange」的用法，與本句語境不同。",
-        "funny-mcq-05": "「身體或感覺出現難以明確描述的不正常狀態」是「feel funny」的用法，與本句語境不同。",
-        "funny-mcq-02": "「很會逗人笑、經常說或做有趣事情的人」是「funny person」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。",
-        "funny-mcq-01": "「能令人覺得有趣、發笑或感到歡樂的」是「funny — humorous」的用法，與本句語境不同。"
+        "funny-mcq-04": "本句的「funny」指「因顯得異常而令人懷疑有問題、不誠實或不對勁的」。",
+        "funny-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-04"
     },
@@ -697,11 +661,9 @@ export default {
       "masked": "My stomach feels ____.",
       "options": [
         "funny-mcq-05",
-        "funny-mcq-04",
-        "funny-mcq-06",
-        "funny-mcq-03",
-        "funny-mcq-07",
-        "funny-mcq-02"
+        "funny-mcq-19",
+        "funny-mcq-16",
+        "funny-mcq-18"
       ],
       "explanation": "本句的「funny」指「身體或感覺出現難以明確描述的不正常狀態」。",
       "sentenceIndex": 9,
@@ -710,12 +672,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-05": "本句指「身體或感覺出現難以明確描述的不正常狀態」。",
-        "funny-mcq-04": "「因顯得異常而令人懷疑有問題、不誠實或不對勁的」是「funny — suspicious」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。",
-        "funny-mcq-03": "「與正常／預期不同，令人覺得奇怪或難以解釋的」是「funny — strange」的用法，與本句語境不同。",
-        "funny-mcq-07": "「一種難以解釋的直覺或預感」是「funny feeling — intuition」的用法，與本句語境不同。",
-        "funny-mcq-02": "「很會逗人笑、經常說或做有趣事情的人」是「funny person」的用法，與本句語境不同。"
+        "funny-mcq-05": "本句的「funny」指「身體或感覺出現難以明確描述的不正常狀態」。",
+        "funny-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-05"
     },
@@ -727,11 +687,9 @@ export default {
       "masked": "My leg has felt ____ since this morning.",
       "options": [
         "funny-mcq-05",
-        "funny-mcq-04",
-        "funny-mcq-06",
-        "funny-mcq-03",
-        "funny-mcq-07",
-        "funny-mcq-02"
+        "funny-mcq-19",
+        "funny-mcq-02",
+        "funny-mcq-15"
       ],
       "explanation": "本句的「funny」指「身體或感覺出現難以明確描述的不正常狀態」。",
       "sentenceIndex": 10,
@@ -740,12 +698,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-05": "本句指「身體或感覺出現難以明確描述的不正常狀態」。",
-        "funny-mcq-04": "「因顯得異常而令人懷疑有問題、不誠實或不對勁的」是「funny — suspicious」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。",
-        "funny-mcq-03": "「與正常／預期不同，令人覺得奇怪或難以解釋的」是「funny — strange」的用法，與本句語境不同。",
-        "funny-mcq-07": "「一種難以解釋的直覺或預感」是「funny feeling — intuition」的用法，與本句語境不同。",
-        "funny-mcq-02": "「很會逗人笑、經常說或做有趣事情的人」是「funny person」的用法，與本句語境不同。"
+        "funny-mcq-05": "本句的「funny」指「身體或感覺出現難以明確描述的不正常狀態」。",
+        "funny-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-05"
     },
@@ -757,11 +713,9 @@ export default {
       "masked": "I have a ____ in my arm.",
       "options": [
         "funny-mcq-07",
-        "funny-mcq-06",
-        "funny-mcq-08",
-        "funny-mcq-05",
-        "funny-mcq-09",
-        "funny-mcq-04"
+        "funny-mcq-12",
+        "funny-mcq-02",
+        "funny-mcq-08"
       ],
       "explanation": "本句的「funny feeling」指「一種難以解釋的直覺或預感」。",
       "sentenceIndex": 11,
@@ -770,12 +724,10 @@ export default {
         "funny feeling"
       ],
       "optionReasons": {
-        "funny-mcq-07": "本句指「一種難以解釋的直覺或預感」。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。",
-        "funny-mcq-08": "「行為／態度反常、不自然或和平時不同」是「act/be funny」的用法，與本句語境不同。",
-        "funny-mcq-05": "「身體或感覺出現難以明確描述的不正常狀態」是「feel funny」的用法，與本句語境不同。",
-        "funny-mcq-09": "「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」是「funny look」的用法，與本句語境不同。",
-        "funny-mcq-04": "「因顯得異常而令人懷疑有問題、不誠實或不對勁的」是「funny — suspicious」的用法，與本句語境不同。"
+        "funny-mcq-07": "本句的「funny feeling」指「一種難以解釋的直覺或預感」。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-07"
     },
@@ -787,11 +739,9 @@ export default {
       "masked": "I have a ____ that we’ve forgotten something.",
       "options": [
         "funny-mcq-07",
-        "funny-mcq-06",
-        "funny-mcq-08",
-        "funny-mcq-05",
-        "funny-mcq-09",
-        "funny-mcq-04"
+        "funny-mcq-13",
+        "funny-mcq-02",
+        "funny-mcq-19"
       ],
       "explanation": "本句的「funny feeling」指「一種難以解釋的直覺或預感」。",
       "sentenceIndex": 12,
@@ -800,12 +750,10 @@ export default {
         "funny feeling"
       ],
       "optionReasons": {
-        "funny-mcq-07": "本句指「一種難以解釋的直覺或預感」。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。",
-        "funny-mcq-08": "「行為／態度反常、不自然或和平時不同」是「act/be funny」的用法，與本句語境不同。",
-        "funny-mcq-05": "「身體或感覺出現難以明確描述的不正常狀態」是「feel funny」的用法，與本句語境不同。",
-        "funny-mcq-09": "「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」是「funny look」的用法，與本句語境不同。",
-        "funny-mcq-04": "「因顯得異常而令人懷疑有問題、不誠實或不對勁的」是「funny — suspicious」的用法，與本句語境不同。"
+        "funny-mcq-07": "本句的「funny feeling」指「一種難以解釋的直覺或預感」。",
+        "funny-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-07"
     },
@@ -817,11 +765,9 @@ export default {
       "masked": "He has been acting ____ all day.",
       "options": [
         "funny-mcq-08",
+        "funny-mcq-14",
         "funny-mcq-07",
-        "funny-mcq-09",
-        "funny-mcq-06",
-        "funny-mcq-10",
-        "funny-mcq-05"
+        "funny-mcq-15"
       ],
       "explanation": "本句的「funny」指「行為／態度反常、不自然或和平時不同」。",
       "sentenceIndex": 13,
@@ -830,12 +776,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-08": "本句指「行為／態度反常、不自然或和平時不同」。",
-        "funny-mcq-07": "「一種難以解釋的直覺或預感」是「funny feeling — intuition」的用法，與本句語境不同。",
-        "funny-mcq-09": "「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」是「funny look」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。",
-        "funny-mcq-10": "「外觀與正常／預期不同，顯得古怪或不協調」是「look funny」的用法，與本句語境不同。",
-        "funny-mcq-05": "「身體或感覺出現難以明確描述的不正常狀態」是「feel funny」的用法，與本句語境不同。"
+        "funny-mcq-08": "本句的「funny」指「行為／態度反常、不自然或和平時不同」。",
+        "funny-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-08"
     },
@@ -847,11 +791,9 @@ export default {
       "masked": "Why are you being ____ with me?",
       "options": [
         "funny-mcq-08",
+        "funny-mcq-15",
         "funny-mcq-07",
-        "funny-mcq-09",
-        "funny-mcq-06",
-        "funny-mcq-10",
-        "funny-mcq-05"
+        "funny-mcq-18"
       ],
       "explanation": "本句的「funny」指「行為／態度反常、不自然或和平時不同」。",
       "sentenceIndex": 14,
@@ -860,12 +802,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-08": "本句指「行為／態度反常、不自然或和平時不同」。",
-        "funny-mcq-07": "「一種難以解釋的直覺或預感」是「funny feeling — intuition」的用法，與本句語境不同。",
-        "funny-mcq-09": "「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」是「funny look」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。",
-        "funny-mcq-10": "「外觀與正常／預期不同，顯得古怪或不協調」是「look funny」的用法，與本句語境不同。",
-        "funny-mcq-05": "「身體或感覺出現難以明確描述的不正常狀態」是「feel funny」的用法，與本句語境不同。"
+        "funny-mcq-08": "本句的「funny」指「行為／態度反常、不自然或和平時不同」。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-08"
     },
@@ -877,11 +817,9 @@ export default {
       "masked": "She gave me a ____.",
       "options": [
         "funny-mcq-09",
-        "funny-mcq-08",
-        "funny-mcq-10",
-        "funny-mcq-07",
-        "funny-mcq-11",
-        "funny-mcq-06"
+        "funny-mcq-12",
+        "funny-mcq-16",
+        "funny-mcq-15"
       ],
       "explanation": "本句的「funny look」指「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」。",
       "sentenceIndex": 15,
@@ -890,12 +828,10 @@ export default {
         "funny look"
       ],
       "optionReasons": {
-        "funny-mcq-09": "本句指「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」。",
-        "funny-mcq-08": "「行為／態度反常、不自然或和平時不同」是「act/be funny」的用法，與本句語境不同。",
-        "funny-mcq-10": "「外觀與正常／預期不同，顯得古怪或不協調」是「look funny」的用法，與本句語境不同。",
-        "funny-mcq-07": "「一種難以解釋的直覺或預感」是「funny feeling — intuition」的用法，與本句語境不同。",
-        "funny-mcq-11": "「某事因巧合、反差或意外而令人覺得有意思」是「funny — coincidence」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。"
+        "funny-mcq-09": "本句的「funny look」指「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-09"
     },
@@ -907,11 +843,9 @@ export default {
       "masked": "People gave him ____ when he wore the costume.",
       "options": [
         "funny-mcq-09",
-        "funny-mcq-08",
-        "funny-mcq-10",
-        "funny-mcq-07",
-        "funny-mcq-11",
-        "funny-mcq-06"
+        "funny-mcq-15",
+        "funny-mcq-16",
+        "funny-mcq-12"
       ],
       "explanation": "本句的「funny looks」指「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」。",
       "sentenceIndex": 16,
@@ -920,12 +854,10 @@ export default {
         "funny looks"
       ],
       "optionReasons": {
-        "funny-mcq-09": "本句指「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」。",
-        "funny-mcq-08": "「行為／態度反常、不自然或和平時不同」是「act/be funny」的用法，與本句語境不同。",
-        "funny-mcq-10": "「外觀與正常／預期不同，顯得古怪或不協調」是「look funny」的用法，與本句語境不同。",
-        "funny-mcq-07": "「一種難以解釋的直覺或預感」是「funny feeling — intuition」的用法，與本句語境不同。",
-        "funny-mcq-11": "「某事因巧合、反差或意外而令人覺得有意思」是「funny — coincidence」的用法，與本句語境不同。",
-        "funny-mcq-06": "「難以清楚描述的奇怪身體感覺」是「funny feeling — physical」的用法，與本句語境不同。"
+        "funny-mcq-09": "本句的「funny looks」指「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-09"
     },
@@ -937,11 +869,9 @@ export default {
       "masked": "That hat looks ____ on you.",
       "options": [
         "funny-mcq-10",
-        "funny-mcq-09",
-        "funny-mcq-11",
-        "funny-mcq-08",
+        "funny-mcq-14",
         "funny-mcq-12",
-        "funny-mcq-07"
+        "funny-mcq-17"
       ],
       "explanation": "本句的「funny」指「外觀與正常／預期不同，顯得古怪或不協調」。",
       "sentenceIndex": 17,
@@ -950,12 +880,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-10": "本句指「外觀與正常／預期不同，顯得古怪或不協調」。",
-        "funny-mcq-09": "「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」是「funny look」的用法，與本句語境不同。",
-        "funny-mcq-11": "「某事因巧合、反差或意外而令人覺得有意思」是「funny — coincidence」的用法，與本句語境不同。",
-        "funny-mcq-08": "「行為／態度反常、不自然或和平時不同」是「act/be funny」的用法，與本句語境不同。",
-        "funny-mcq-12": "「引出一件出乎意料、帶反差或值得注意的事情」是「the funny thing is…」的用法，與本句語境不同。",
-        "funny-mcq-07": "「一種難以解釋的直覺或預感」是「funny feeling — intuition」的用法，與本句語境不同。"
+        "funny-mcq-10": "本句的「funny」指「外觀與正常／預期不同，顯得古怪或不協調」。",
+        "funny-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-10"
     },
@@ -967,11 +895,9 @@ export default {
       "masked": "The drawing looks ____ because one side is too large.",
       "options": [
         "funny-mcq-10",
-        "funny-mcq-09",
-        "funny-mcq-11",
-        "funny-mcq-08",
+        "funny-mcq-17",
         "funny-mcq-12",
-        "funny-mcq-07"
+        "funny-mcq-15"
       ],
       "explanation": "本句的「funny」指「外觀與正常／預期不同，顯得古怪或不協調」。",
       "sentenceIndex": 18,
@@ -980,12 +906,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-10": "本句指「外觀與正常／預期不同，顯得古怪或不協調」。",
-        "funny-mcq-09": "「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」是「funny look」的用法，與本句語境不同。",
-        "funny-mcq-11": "「某事因巧合、反差或意外而令人覺得有意思」是「funny — coincidence」的用法，與本句語境不同。",
-        "funny-mcq-08": "「行為／態度反常、不自然或和平時不同」是「act/be funny」的用法，與本句語境不同。",
-        "funny-mcq-12": "「引出一件出乎意料、帶反差或值得注意的事情」是「the funny thing is…」的用法，與本句語境不同。",
-        "funny-mcq-07": "「一種難以解釋的直覺或預感」是「funny feeling — intuition」的用法，與本句語境不同。"
+        "funny-mcq-10": "本句的「funny」指「外觀與正常／預期不同，顯得古怪或不協調」。",
+        "funny-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-10"
     },
@@ -997,11 +921,9 @@ export default {
       "masked": "It’s ____ that we both chose the same book.",
       "options": [
         "funny-mcq-11",
-        "funny-mcq-10",
-        "funny-mcq-12",
-        "funny-mcq-09",
         "funny-mcq-13",
-        "funny-mcq-08"
+        "funny-mcq-15",
+        "funny-mcq-02"
       ],
       "explanation": "本句的「funny」指「某事因巧合、反差或意外而令人覺得有意思」。",
       "sentenceIndex": 19,
@@ -1010,12 +932,10 @@ export default {
         "funny"
       ],
       "optionReasons": {
-        "funny-mcq-11": "本句指「某事因巧合、反差或意外而令人覺得有意思」。",
-        "funny-mcq-10": "「外觀與正常／預期不同，顯得古怪或不協調」是「look funny」的用法，與本句語境不同。",
-        "funny-mcq-12": "「引出一件出乎意料、帶反差或值得注意的事情」是「the funny thing is…」的用法，與本句語境不同。",
-        "funny-mcq-09": "「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」是「funny look」的用法，與本句語境不同。",
-        "funny-mcq-13": "「不誠實、可疑、不正當或胡鬧的行為」是「funny business」的用法，與本句語境不同。",
-        "funny-mcq-08": "「行為／態度反常、不自然或和平時不同」是「act/be funny」的用法，與本句語境不同。"
+        "funny-mcq-11": "本句的「funny」指「某事因巧合、反差或意外而令人覺得有意思」。",
+        "funny-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-11"
     },
@@ -1027,11 +947,9 @@ export default {
       "masked": "____ how things change.",
       "options": [
         "funny-mcq-11",
-        "funny-mcq-10",
-        "funny-mcq-12",
-        "funny-mcq-09",
-        "funny-mcq-13",
-        "funny-mcq-08"
+        "funny-mcq-14",
+        "funny-mcq-15",
+        "funny-mcq-16"
       ],
       "explanation": "本句的「Funny」指「某事因巧合、反差或意外而令人覺得有意思」。",
       "sentenceIndex": 20,
@@ -1040,12 +958,10 @@ export default {
         "Funny"
       ],
       "optionReasons": {
-        "funny-mcq-11": "本句指「某事因巧合、反差或意外而令人覺得有意思」。",
-        "funny-mcq-10": "「外觀與正常／預期不同，顯得古怪或不協調」是「look funny」的用法，與本句語境不同。",
-        "funny-mcq-12": "「引出一件出乎意料、帶反差或值得注意的事情」是「the funny thing is…」的用法，與本句語境不同。",
-        "funny-mcq-09": "「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」是「funny look」的用法，與本句語境不同。",
-        "funny-mcq-13": "「不誠實、可疑、不正當或胡鬧的行為」是「funny business」的用法，與本句語境不同。",
-        "funny-mcq-08": "「行為／態度反常、不自然或和平時不同」是「act/be funny」的用法，與本句語境不同。"
+        "funny-mcq-11": "本句的「Funny」指「某事因巧合、反差或意外而令人覺得有意思」。",
+        "funny-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-11"
     },
@@ -1057,11 +973,9 @@ export default {
       "masked": "The ____, I wasn’t nervous at all.",
       "options": [
         "funny-mcq-12",
-        "funny-mcq-11",
-        "funny-mcq-13",
-        "funny-mcq-10",
-        "funny-mcq-14",
-        "funny-mcq-09"
+        "funny-mcq-17",
+        "funny-mcq-16",
+        "funny-mcq-14"
       ],
       "explanation": "本句的「funny thing is」指「引出一件出乎意料、帶反差或值得注意的事情」。",
       "sentenceIndex": 21,
@@ -1070,12 +984,10 @@ export default {
         "funny thing is"
       ],
       "optionReasons": {
-        "funny-mcq-12": "本句指「引出一件出乎意料、帶反差或值得注意的事情」。",
-        "funny-mcq-11": "「某事因巧合、反差或意外而令人覺得有意思」是「funny — coincidence」的用法，與本句語境不同。",
-        "funny-mcq-13": "「不誠實、可疑、不正當或胡鬧的行為」是「funny business」的用法，與本句語境不同。",
-        "funny-mcq-10": "「外觀與正常／預期不同，顯得古怪或不協調」是「look funny」的用法，與本句語境不同。",
-        "funny-mcq-14": "「假鈔或來歷／性質可疑的資金」是「funny money」的用法，與本句語境不同。",
-        "funny-mcq-09": "「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」是「funny look」的用法，與本句語境不同。"
+        "funny-mcq-12": "本句的「funny thing is」指「引出一件出乎意料、帶反差或值得注意的事情」。",
+        "funny-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-12"
     },
@@ -1087,10 +999,8 @@ export default {
       "masked": "The ____, we had met before.",
       "options": [
         "funny-mcq-12",
-        "funny-mcq-11",
-        "funny-mcq-13",
-        "funny-mcq-10",
-        "funny-mcq-14",
+        "funny-mcq-07",
+        "funny-mcq-04",
         "funny-mcq-09"
       ],
       "explanation": "本句的「funny thing is」指「引出一件出乎意料、帶反差或值得注意的事情」。",
@@ -1100,12 +1010,10 @@ export default {
         "funny thing is"
       ],
       "optionReasons": {
-        "funny-mcq-12": "本句指「引出一件出乎意料、帶反差或值得注意的事情」。",
-        "funny-mcq-11": "「某事因巧合、反差或意外而令人覺得有意思」是「funny — coincidence」的用法，與本句語境不同。",
-        "funny-mcq-13": "「不誠實、可疑、不正當或胡鬧的行為」是「funny business」的用法，與本句語境不同。",
-        "funny-mcq-10": "「外觀與正常／預期不同，顯得古怪或不協調」是「look funny」的用法，與本句語境不同。",
-        "funny-mcq-14": "「假鈔或來歷／性質可疑的資金」是「funny money」的用法，與本句語境不同。",
-        "funny-mcq-09": "「表示疑惑、驚訝、不滿或覺得古怪的表情／眼神」是「funny look」的用法，與本句語境不同。"
+        "funny-mcq-12": "本句的「funny thing is」指「引出一件出乎意料、帶反差或值得注意的事情」。",
+        "funny-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-12"
     },
@@ -1117,11 +1025,9 @@ export default {
       "masked": "I don’t want any ____.",
       "options": [
         "funny-mcq-13",
-        "funny-mcq-12",
-        "funny-mcq-14",
-        "funny-mcq-11",
-        "funny-mcq-15",
-        "funny-mcq-10"
+        "funny-mcq-17",
+        "funny-mcq-07",
+        "funny-mcq-15"
       ],
       "explanation": "本句的「funny business」指「不誠實、可疑、不正當或胡鬧的行為」。",
       "sentenceIndex": 23,
@@ -1130,12 +1036,10 @@ export default {
         "funny business"
       ],
       "optionReasons": {
-        "funny-mcq-13": "本句指「不誠實、可疑、不正當或胡鬧的行為」。",
-        "funny-mcq-12": "「引出一件出乎意料、帶反差或值得注意的事情」是「the funny thing is…」的用法，與本句語境不同。",
-        "funny-mcq-14": "「假鈔或來歷／性質可疑的資金」是「funny money」的用法，與本句語境不同。",
-        "funny-mcq-11": "「某事因巧合、反差或意外而令人覺得有意思」是「funny — coincidence」的用法，與本句語境不同。",
-        "funny-mcq-15": "「手肘附近撞到會產生強烈麻刺感的位置」是「funny bone — anatomy」的用法，與本句語境不同。",
-        "funny-mcq-10": "「外觀與正常／預期不同，顯得古怪或不協調」是「look funny」的用法，與本句語境不同。"
+        "funny-mcq-13": "本句的「funny business」指「不誠實、可疑、不正當或胡鬧的行為」。",
+        "funny-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-13"
     },
@@ -1147,11 +1051,9 @@ export default {
       "masked": "The manager suspected some ____ with the accounts.",
       "options": [
         "funny-mcq-13",
-        "funny-mcq-12",
-        "funny-mcq-14",
-        "funny-mcq-11",
-        "funny-mcq-15",
-        "funny-mcq-10"
+        "funny-mcq-07",
+        "funny-mcq-01",
+        "funny-mcq-12"
       ],
       "explanation": "本句的「funny business」指「不誠實、可疑、不正當或胡鬧的行為」。",
       "sentenceIndex": 24,
@@ -1160,12 +1062,10 @@ export default {
         "funny business"
       ],
       "optionReasons": {
-        "funny-mcq-13": "本句指「不誠實、可疑、不正當或胡鬧的行為」。",
-        "funny-mcq-12": "「引出一件出乎意料、帶反差或值得注意的事情」是「the funny thing is…」的用法，與本句語境不同。",
-        "funny-mcq-14": "「假鈔或來歷／性質可疑的資金」是「funny money」的用法，與本句語境不同。",
-        "funny-mcq-11": "「某事因巧合、反差或意外而令人覺得有意思」是「funny — coincidence」的用法，與本句語境不同。",
-        "funny-mcq-15": "「手肘附近撞到會產生強烈麻刺感的位置」是「funny bone — anatomy」的用法，與本句語境不同。",
-        "funny-mcq-10": "「外觀與正常／預期不同，顯得古怪或不協調」是「look funny」的用法，與本句語境不同。"
+        "funny-mcq-13": "本句的「funny business」指「不誠實、可疑、不正當或胡鬧的行為」。",
+        "funny-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-13"
     },
@@ -1177,11 +1077,9 @@ export default {
       "masked": "The shopkeeper realized the customer had used ____.",
       "options": [
         "funny-mcq-14",
-        "funny-mcq-13",
-        "funny-mcq-15",
-        "funny-mcq-12",
-        "funny-mcq-16",
-        "funny-mcq-11"
+        "funny-mcq-01",
+        "funny-mcq-10",
+        "funny-mcq-07"
       ],
       "explanation": "本句的「funny money」指「假鈔或來歷／性質可疑的資金」。",
       "sentenceIndex": 25,
@@ -1190,12 +1088,10 @@ export default {
         "funny money"
       ],
       "optionReasons": {
-        "funny-mcq-14": "本句指「假鈔或來歷／性質可疑的資金」。",
-        "funny-mcq-13": "「不誠實、可疑、不正當或胡鬧的行為」是「funny business」的用法，與本句語境不同。",
-        "funny-mcq-15": "「手肘附近撞到會產生強烈麻刺感的位置」是「funny bone — anatomy」的用法，與本句語境不同。",
-        "funny-mcq-12": "「引出一件出乎意料、帶反差或值得注意的事情」是「the funny thing is…」的用法，與本句語境不同。",
-        "funny-mcq-16": "「一個人的幽默感／笑點」是「funny bone — humour」的用法，與本句語境不同。",
-        "funny-mcq-11": "「某事因巧合、反差或意外而令人覺得有意思」是「funny — coincidence」的用法，與本句語境不同。"
+        "funny-mcq-14": "本句的「funny money」指「假鈔或來歷／性質可疑的資金」。",
+        "funny-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-14"
     },
@@ -1207,11 +1103,9 @@ export default {
       "masked": "Investigators were looking for signs of ____.",
       "options": [
         "funny-mcq-14",
-        "funny-mcq-13",
-        "funny-mcq-15",
-        "funny-mcq-12",
-        "funny-mcq-16",
-        "funny-mcq-11"
+        "funny-mcq-01",
+        "funny-mcq-07",
+        "funny-mcq-10"
       ],
       "explanation": "本句的「funny money」指「假鈔或來歷／性質可疑的資金」。",
       "sentenceIndex": 26,
@@ -1220,12 +1114,10 @@ export default {
         "funny money"
       ],
       "optionReasons": {
-        "funny-mcq-14": "本句指「假鈔或來歷／性質可疑的資金」。",
-        "funny-mcq-13": "「不誠實、可疑、不正當或胡鬧的行為」是「funny business」的用法，與本句語境不同。",
-        "funny-mcq-15": "「手肘附近撞到會產生強烈麻刺感的位置」是「funny bone — anatomy」的用法，與本句語境不同。",
-        "funny-mcq-12": "「引出一件出乎意料、帶反差或值得注意的事情」是「the funny thing is…」的用法，與本句語境不同。",
-        "funny-mcq-16": "「一個人的幽默感／笑點」是「funny bone — humour」的用法，與本句語境不同。",
-        "funny-mcq-11": "「某事因巧合、反差或意外而令人覺得有意思」是「funny — coincidence」的用法，與本句語境不同。"
+        "funny-mcq-14": "本句的「funny money」指「假鈔或來歷／性質可疑的資金」。",
+        "funny-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-14"
     },
@@ -1237,10 +1129,8 @@ export default {
       "masked": "I hit my ____ on the table.",
       "options": [
         "funny-mcq-15",
-        "funny-mcq-14",
-        "funny-mcq-16",
-        "funny-mcq-13",
-        "funny-mcq-17",
+        "funny-mcq-08",
+        "funny-mcq-19",
         "funny-mcq-12"
       ],
       "explanation": "本句的「funny bone」指「手肘附近撞到會產生強烈麻刺感的位置」。",
@@ -1250,12 +1140,10 @@ export default {
         "funny bone"
       ],
       "optionReasons": {
-        "funny-mcq-15": "本句指「手肘附近撞到會產生強烈麻刺感的位置」。",
-        "funny-mcq-14": "「假鈔或來歷／性質可疑的資金」是「funny money」的用法，與本句語境不同。",
-        "funny-mcq-16": "「一個人的幽默感／笑點」是「funny bone — humour」的用法，與本句語境不同。",
-        "funny-mcq-13": "「不誠實、可疑、不正當或胡鬧的行為」是「funny business」的用法，與本句語境不同。",
-        "funny-mcq-17": "「以令人發笑或覺得有趣的方式」是「funnily」的用法，與本句語境不同。",
-        "funny-mcq-12": "「引出一件出乎意料、帶反差或值得注意的事情」是「the funny thing is…」的用法，與本句語境不同。"
+        "funny-mcq-15": "本句的「funny bone」指「手肘附近撞到會產生強烈麻刺感的位置」。",
+        "funny-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-15"
     },
@@ -1267,11 +1155,9 @@ export default {
       "masked": "Hitting your ____ can cause a tingling sensation.",
       "options": [
         "funny-mcq-15",
-        "funny-mcq-14",
-        "funny-mcq-16",
-        "funny-mcq-13",
         "funny-mcq-17",
-        "funny-mcq-12"
+        "funny-mcq-13",
+        "funny-mcq-10"
       ],
       "explanation": "本句的「funny bone」指「手肘附近撞到會產生強烈麻刺感的位置」。",
       "sentenceIndex": 28,
@@ -1280,12 +1166,10 @@ export default {
         "funny bone"
       ],
       "optionReasons": {
-        "funny-mcq-15": "本句指「手肘附近撞到會產生強烈麻刺感的位置」。",
-        "funny-mcq-14": "「假鈔或來歷／性質可疑的資金」是「funny money」的用法，與本句語境不同。",
-        "funny-mcq-16": "「一個人的幽默感／笑點」是「funny bone — humour」的用法，與本句語境不同。",
-        "funny-mcq-13": "「不誠實、可疑、不正當或胡鬧的行為」是「funny business」的用法，與本句語境不同。",
-        "funny-mcq-17": "「以令人發笑或覺得有趣的方式」是「funnily」的用法，與本句語境不同。",
-        "funny-mcq-12": "「引出一件出乎意料、帶反差或值得注意的事情」是「the funny thing is…」的用法，與本句語境不同。"
+        "funny-mcq-15": "本句的「funny bone」指「手肘附近撞到會產生強烈麻刺感的位置」。",
+        "funny-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-15"
     },
@@ -1297,11 +1181,9 @@ export default {
       "masked": "That joke really hit my ____.",
       "options": [
         "funny-mcq-16",
-        "funny-mcq-15",
-        "funny-mcq-17",
-        "funny-mcq-14",
-        "funny-mcq-18",
-        "funny-mcq-13"
+        "funny-mcq-03",
+        "funny-mcq-13",
+        "funny-mcq-12"
       ],
       "explanation": "本句的「funny bone」指「一個人的幽默感／笑點」。",
       "sentenceIndex": 29,
@@ -1310,12 +1192,10 @@ export default {
         "funny bone"
       ],
       "optionReasons": {
-        "funny-mcq-16": "本句指「一個人的幽默感／笑點」。",
-        "funny-mcq-15": "「手肘附近撞到會產生強烈麻刺感的位置」是「funny bone — anatomy」的用法，與本句語境不同。",
-        "funny-mcq-17": "「以令人發笑或覺得有趣的方式」是「funnily」的用法，與本句語境不同。",
-        "funny-mcq-14": "「假鈔或來歷／性質可疑的資金」是「funny money」的用法，與本句語境不同。",
-        "funny-mcq-18": "「用來引出巧合、意外或有趣地出乎預期的事情；說來也巧」是「funnily enough」的用法，與本句語境不同。",
-        "funny-mcq-13": "「不誠實、可疑、不正當或胡鬧的行為」是「funny business」的用法，與本句語境不同。"
+        "funny-mcq-16": "本句的「funny bone」指「一個人的幽默感／笑點」。",
+        "funny-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-16"
     },
@@ -1327,11 +1207,9 @@ export default {
       "masked": "The show appeals to my ____.",
       "options": [
         "funny-mcq-16",
-        "funny-mcq-15",
-        "funny-mcq-17",
-        "funny-mcq-14",
-        "funny-mcq-18",
-        "funny-mcq-13"
+        "funny-mcq-04",
+        "funny-mcq-12",
+        "funny-mcq-14"
       ],
       "explanation": "本句的「funny bone」指「一個人的幽默感／笑點」。",
       "sentenceIndex": 30,
@@ -1340,12 +1218,10 @@ export default {
         "funny bone"
       ],
       "optionReasons": {
-        "funny-mcq-16": "本句指「一個人的幽默感／笑點」。",
-        "funny-mcq-15": "「手肘附近撞到會產生強烈麻刺感的位置」是「funny bone — anatomy」的用法，與本句語境不同。",
-        "funny-mcq-17": "「以令人發笑或覺得有趣的方式」是「funnily」的用法，與本句語境不同。",
-        "funny-mcq-14": "「假鈔或來歷／性質可疑的資金」是「funny money」的用法，與本句語境不同。",
-        "funny-mcq-18": "「用來引出巧合、意外或有趣地出乎預期的事情；說來也巧」是「funnily enough」的用法，與本句語境不同。",
-        "funny-mcq-13": "「不誠實、可疑、不正當或胡鬧的行為」是「funny business」的用法，與本句語境不同。"
+        "funny-mcq-16": "本句的「funny bone」指「一個人的幽默感／笑點」。",
+        "funny-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-16"
     },
@@ -1357,11 +1233,9 @@ export default {
       "masked": "He told the story ____.",
       "options": [
         "funny-mcq-17",
-        "funny-mcq-16",
-        "funny-mcq-18",
-        "funny-mcq-15",
-        "funny-mcq-19",
-        "funny-mcq-14"
+        "funny-mcq-14",
+        "funny-mcq-10",
+        "funny-mcq-12"
       ],
       "explanation": "本句的「funnily」指「以令人發笑或覺得有趣的方式」。",
       "sentenceIndex": 31,
@@ -1370,12 +1244,10 @@ export default {
         "funnily"
       ],
       "optionReasons": {
-        "funny-mcq-17": "本句指「以令人發笑或覺得有趣的方式」。",
-        "funny-mcq-16": "「一個人的幽默感／笑點」是「funny bone — humour」的用法，與本句語境不同。",
-        "funny-mcq-18": "「用來引出巧合、意外或有趣地出乎預期的事情；說來也巧」是「funnily enough」的用法，與本句語境不同。",
-        "funny-mcq-15": "「手肘附近撞到會產生強烈麻刺感的位置」是「funny bone — anatomy」的用法，與本句語境不同。",
-        "funny-mcq-19": "「某事令人發笑或顯得奇怪的性質」是「funniness」的用法，與本句語境不同。",
-        "funny-mcq-14": "「假鈔或來歷／性質可疑的資金」是「funny money」的用法，與本句語境不同。"
+        "funny-mcq-17": "本句的「funnily」指「以令人發笑或覺得有趣的方式」。",
+        "funny-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-17"
     },
@@ -1387,11 +1259,9 @@ export default {
       "masked": "She described the scene ____ but accurately.",
       "options": [
         "funny-mcq-17",
-        "funny-mcq-16",
-        "funny-mcq-18",
+        "funny-mcq-13",
         "funny-mcq-15",
-        "funny-mcq-19",
-        "funny-mcq-14"
+        "funny-mcq-12"
       ],
       "explanation": "本句的「funnily」指「以令人發笑或覺得有趣的方式」。",
       "sentenceIndex": 32,
@@ -1400,12 +1270,10 @@ export default {
         "funnily"
       ],
       "optionReasons": {
-        "funny-mcq-17": "本句指「以令人發笑或覺得有趣的方式」。",
-        "funny-mcq-16": "「一個人的幽默感／笑點」是「funny bone — humour」的用法，與本句語境不同。",
-        "funny-mcq-18": "「用來引出巧合、意外或有趣地出乎預期的事情；說來也巧」是「funnily enough」的用法，與本句語境不同。",
-        "funny-mcq-15": "「手肘附近撞到會產生強烈麻刺感的位置」是「funny bone — anatomy」的用法，與本句語境不同。",
-        "funny-mcq-19": "「某事令人發笑或顯得奇怪的性質」是「funniness」的用法，與本句語境不同。",
-        "funny-mcq-14": "「假鈔或來歷／性質可疑的資金」是「funny money」的用法，與本句語境不同。"
+        "funny-mcq-17": "本句的「funnily」指「以令人發笑或覺得有趣的方式」。",
+        "funny-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-17"
     },
@@ -1417,11 +1285,9 @@ export default {
       "masked": "____, I was thinking about him yesterday.",
       "options": [
         "funny-mcq-18",
-        "funny-mcq-17",
-        "funny-mcq-19",
+        "funny-mcq-04",
         "funny-mcq-16",
-        "funny-mcq-15",
-        "funny-mcq-14"
+        "funny-mcq-09"
       ],
       "explanation": "本句的「Funnily enough」指「用來引出巧合、意外或有趣地出乎預期的事情；說來也巧」。",
       "sentenceIndex": 33,
@@ -1430,12 +1296,10 @@ export default {
         "Funnily enough"
       ],
       "optionReasons": {
-        "funny-mcq-18": "本句指「用來引出巧合、意外或有趣地出乎預期的事情；說來也巧」。",
-        "funny-mcq-17": "「以令人發笑或覺得有趣的方式」是「funnily」的用法，與本句語境不同。",
-        "funny-mcq-19": "「某事令人發笑或顯得奇怪的性質」是「funniness」的用法，與本句語境不同。",
-        "funny-mcq-16": "「一個人的幽默感／笑點」是「funny bone — humour」的用法，與本句語境不同。",
-        "funny-mcq-15": "「手肘附近撞到會產生強烈麻刺感的位置」是「funny bone — anatomy」的用法，與本句語境不同。",
-        "funny-mcq-14": "「假鈔或來歷／性質可疑的資金」是「funny money」的用法，與本句語境不同。"
+        "funny-mcq-18": "本句的「Funnily enough」指「用來引出巧合、意外或有趣地出乎預期的事情；說來也巧」。",
+        "funny-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-18"
     },
@@ -1447,11 +1311,9 @@ export default {
       "masked": "____, we chose exactly the same colour.",
       "options": [
         "funny-mcq-18",
-        "funny-mcq-17",
-        "funny-mcq-19",
+        "funny-mcq-09",
         "funny-mcq-16",
-        "funny-mcq-15",
-        "funny-mcq-14"
+        "funny-mcq-13"
       ],
       "explanation": "本句的「Funnily enough」指「用來引出巧合、意外或有趣地出乎預期的事情；說來也巧」。",
       "sentenceIndex": 34,
@@ -1460,12 +1322,10 @@ export default {
         "Funnily enough"
       ],
       "optionReasons": {
-        "funny-mcq-18": "本句指「用來引出巧合、意外或有趣地出乎預期的事情；說來也巧」。",
-        "funny-mcq-17": "「以令人發笑或覺得有趣的方式」是「funnily」的用法，與本句語境不同。",
-        "funny-mcq-19": "「某事令人發笑或顯得奇怪的性質」是「funniness」的用法，與本句語境不同。",
-        "funny-mcq-16": "「一個人的幽默感／笑點」是「funny bone — humour」的用法，與本句語境不同。",
-        "funny-mcq-15": "「手肘附近撞到會產生強烈麻刺感的位置」是「funny bone — anatomy」的用法，與本句語境不同。",
-        "funny-mcq-14": "「假鈔或來歷／性質可疑的資金」是「funny money」的用法，與本句語境不同。"
+        "funny-mcq-18": "本句的「Funnily enough」指「用來引出巧合、意外或有趣地出乎預期的事情；說來也巧」。",
+        "funny-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-18"
     },
@@ -1478,10 +1338,8 @@ export default {
       "options": [
         "funny-mcq-19",
         "funny-mcq-18",
-        "funny-mcq-17",
-        "funny-mcq-16",
-        "funny-mcq-15",
-        "funny-mcq-14"
+        "funny-mcq-05",
+        "funny-mcq-15"
       ],
       "explanation": "本句的「funniness」指「某事令人發笑或顯得奇怪的性質」。",
       "sentenceIndex": 35,
@@ -1490,12 +1348,10 @@ export default {
         "funniness"
       ],
       "optionReasons": {
-        "funny-mcq-19": "本句指「某事令人發笑或顯得奇怪的性質」。",
-        "funny-mcq-18": "「用來引出巧合、意外或有趣地出乎預期的事情；說來也巧」是「funnily enough」的用法，與本句語境不同。",
-        "funny-mcq-17": "「以令人發笑或覺得有趣的方式」是「funnily」的用法，與本句語境不同。",
-        "funny-mcq-16": "「一個人的幽默感／笑點」是「funny bone — humour」的用法，與本句語境不同。",
-        "funny-mcq-15": "「手肘附近撞到會產生強烈麻刺感的位置」是「funny bone — anatomy」的用法，與本句語境不同。",
-        "funny-mcq-14": "「假鈔或來歷／性質可疑的資金」是「funny money」的用法，與本句語境不同。"
+        "funny-mcq-19": "本句的「funniness」指「某事令人發笑或顯得奇怪的性質」。",
+        "funny-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-19"
     },
@@ -1507,11 +1363,9 @@ export default {
       "masked": "There was a certain ____ about the situation.",
       "options": [
         "funny-mcq-19",
-        "funny-mcq-18",
-        "funny-mcq-17",
-        "funny-mcq-16",
-        "funny-mcq-15",
-        "funny-mcq-14"
+        "funny-mcq-13",
+        "funny-mcq-07",
+        "funny-mcq-12"
       ],
       "explanation": "本句的「funniness」指「某事令人發笑或顯得奇怪的性質」。",
       "sentenceIndex": 36,
@@ -1520,12 +1374,10 @@ export default {
         "funniness"
       ],
       "optionReasons": {
-        "funny-mcq-19": "本句指「某事令人發笑或顯得奇怪的性質」。",
-        "funny-mcq-18": "「用來引出巧合、意外或有趣地出乎預期的事情；說來也巧」是「funnily enough」的用法，與本句語境不同。",
-        "funny-mcq-17": "「以令人發笑或覺得有趣的方式」是「funnily」的用法，與本句語境不同。",
-        "funny-mcq-16": "「一個人的幽默感／笑點」是「funny bone — humour」的用法，與本句語境不同。",
-        "funny-mcq-15": "「手肘附近撞到會產生強烈麻刺感的位置」是「funny bone — anatomy」的用法，與本句語境不同。",
-        "funny-mcq-14": "「假鈔或來歷／性質可疑的資金」是「funny money」的用法，與本句語境不同。"
+        "funny-mcq-19": "本句的「funniness」指「某事令人發笑或顯得奇怪的性質」。",
+        "funny-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "funny-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "funny-mcq-19"
     }
@@ -1537,5 +1389,7 @@ export default {
     "sha256": "6f9749d30b052a897d15b26ab1e9e0e85ee615d61aba99b39c92e197bb8c4d16",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

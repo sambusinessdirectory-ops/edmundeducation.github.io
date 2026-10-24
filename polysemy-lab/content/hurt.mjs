@@ -1779,11 +1779,9 @@ export default {
       "masked": "Be careful—you’re ____.",
       "options": [
         "hurt-mcq-01",
-        "hurt-mcq-02",
-        "hurt-mcq-03",
-        "hurt-mcq-04",
-        "hurt-mcq-05",
-        "hurt-mcq-06"
+        "hurt-mcq-68",
+        "hurt-mcq-80",
+        "hurt-mcq-31"
       ],
       "explanation": "本句的「hurting me」指「使某人感到身體疼痛；弄痛」。",
       "sentenceIndex": 0,
@@ -1792,12 +1790,10 @@ export default {
         "hurting me"
       ],
       "optionReasons": {
-        "hurt-mcq-01": "本句指「使某人感到身體疼痛；弄痛」。",
-        "hurt-mcq-02": "「令某個身體部位感到疼痛」與本句語境不同。",
-        "hurt-mcq-03": "「使某人身體受傷／弄傷」與本句語境不同。",
-        "hurt-mcq-04": "「弄傷自己／自己受傷」與本句語境不同。",
-        "hurt-mcq-05": "「弄傷背部、膝蓋等身體部位」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。"
+        "hurt-mcq-01": "本句的「hurting me」指「使某人感到身體疼痛；弄痛」。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-01"
     },
@@ -1809,11 +1805,9 @@ export default {
       "masked": "The tight strap was ____.",
       "options": [
         "hurt-mcq-01",
-        "hurt-mcq-02",
-        "hurt-mcq-03",
-        "hurt-mcq-04",
-        "hurt-mcq-05",
-        "hurt-mcq-06"
+        "hurt-mcq-31",
+        "hurt-mcq-49",
+        "hurt-mcq-40"
       ],
       "explanation": "本句的「hurting his shoulder」指「使某人感到身體疼痛；弄痛」。",
       "sentenceIndex": 1,
@@ -1822,12 +1816,10 @@ export default {
         "hurting his shoulder"
       ],
       "optionReasons": {
-        "hurt-mcq-01": "本句指「使某人感到身體疼痛；弄痛」。",
-        "hurt-mcq-02": "「令某個身體部位感到疼痛」與本句語境不同。",
-        "hurt-mcq-03": "「使某人身體受傷／弄傷」與本句語境不同。",
-        "hurt-mcq-04": "「弄傷自己／自己受傷」與本句語境不同。",
-        "hurt-mcq-05": "「弄傷背部、膝蓋等身體部位」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。"
+        "hurt-mcq-01": "本句的「hurting his shoulder」指「使某人感到身體疼痛；弄痛」。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-01"
     },
@@ -1839,11 +1831,9 @@ export default {
       "masked": "These shoes ____.",
       "options": [
         "hurt-mcq-02",
-        "hurt-mcq-01",
-        "hurt-mcq-03",
-        "hurt-mcq-04",
-        "hurt-mcq-05",
-        "hurt-mcq-06"
+        "hurt-mcq-78",
+        "hurt-mcq-26",
+        "hurt-mcq-20"
       ],
       "explanation": "本句的「hurt my feet」指「令某個身體部位感到疼痛」。",
       "sentenceIndex": 2,
@@ -1852,12 +1842,10 @@ export default {
         "hurt my feet"
       ],
       "optionReasons": {
-        "hurt-mcq-02": "本句指「令某個身體部位感到疼痛」。",
-        "hurt-mcq-01": "「使某人感到身體疼痛；弄痛」與本句語境不同。",
-        "hurt-mcq-03": "「使某人身體受傷／弄傷」與本句語境不同。",
-        "hurt-mcq-04": "「弄傷自己／自己受傷」與本句語境不同。",
-        "hurt-mcq-05": "「弄傷背部、膝蓋等身體部位」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。"
+        "hurt-mcq-02": "本句的「hurt my feet」指「令某個身體部位感到疼痛」。",
+        "hurt-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-02"
     },
@@ -1869,11 +1857,9 @@ export default {
       "masked": "The bright light ____.",
       "options": [
         "hurt-mcq-02",
-        "hurt-mcq-01",
-        "hurt-mcq-03",
-        "hurt-mcq-04",
-        "hurt-mcq-05",
-        "hurt-mcq-06"
+        "hurt-mcq-75",
+        "hurt-mcq-31",
+        "hurt-mcq-27"
       ],
       "explanation": "本句的「hurts my eyes」指「令某個身體部位感到疼痛」。",
       "sentenceIndex": 3,
@@ -1882,12 +1868,10 @@ export default {
         "hurts my eyes"
       ],
       "optionReasons": {
-        "hurt-mcq-02": "本句指「令某個身體部位感到疼痛」。",
-        "hurt-mcq-01": "「使某人感到身體疼痛；弄痛」與本句語境不同。",
-        "hurt-mcq-03": "「使某人身體受傷／弄傷」與本句語境不同。",
-        "hurt-mcq-04": "「弄傷自己／自己受傷」與本句語境不同。",
-        "hurt-mcq-05": "「弄傷背部、膝蓋等身體部位」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。"
+        "hurt-mcq-02": "本句的「hurts my eyes」指「令某個身體部位感到疼痛」。",
+        "hurt-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-02"
     },
@@ -1899,11 +1883,9 @@ export default {
       "masked": "Three people were ____ in the accident.",
       "options": [
         "hurt-mcq-03",
-        "hurt-mcq-02",
-        "hurt-mcq-04",
-        "hurt-mcq-01",
-        "hurt-mcq-05",
-        "hurt-mcq-06"
+        "hurt-mcq-29",
+        "hurt-mcq-23",
+        "hurt-mcq-70"
       ],
       "explanation": "本句的「hurt」指「使某人身體受傷／弄傷」。",
       "sentenceIndex": 4,
@@ -1912,12 +1894,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-03": "本句指「使某人身體受傷／弄傷」。",
-        "hurt-mcq-02": "「令某個身體部位感到疼痛」與本句語境不同。",
-        "hurt-mcq-04": "「弄傷自己／自己受傷」與本句語境不同。",
-        "hurt-mcq-01": "「使某人感到身體疼痛；弄痛」與本句語境不同。",
-        "hurt-mcq-05": "「弄傷背部、膝蓋等身體部位」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。"
+        "hurt-mcq-03": "本句的「hurt」指「使某人身體受傷／弄傷」。",
+        "hurt-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-03"
     },
@@ -1929,11 +1909,9 @@ export default {
       "masked": "Luckily, nobody was seriously ____.",
       "options": [
         "hurt-mcq-03",
-        "hurt-mcq-02",
-        "hurt-mcq-04",
-        "hurt-mcq-01",
-        "hurt-mcq-05",
-        "hurt-mcq-06"
+        "hurt-mcq-12",
+        "hurt-mcq-39",
+        "hurt-mcq-70"
       ],
       "explanation": "本句的「hurt」指「使某人身體受傷／弄傷」。",
       "sentenceIndex": 5,
@@ -1942,12 +1920,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-03": "本句指「使某人身體受傷／弄傷」。",
-        "hurt-mcq-02": "「令某個身體部位感到疼痛」與本句語境不同。",
-        "hurt-mcq-04": "「弄傷自己／自己受傷」與本句語境不同。",
-        "hurt-mcq-01": "「使某人感到身體疼痛；弄痛」與本句語境不同。",
-        "hurt-mcq-05": "「弄傷背部、膝蓋等身體部位」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。"
+        "hurt-mcq-03": "本句的「hurt」指「使某人身體受傷／弄傷」。",
+        "hurt-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-03"
     },
@@ -1959,11 +1935,9 @@ export default {
       "masked": "Be careful not to ____.",
       "options": [
         "hurt-mcq-04",
-        "hurt-mcq-03",
-        "hurt-mcq-05",
-        "hurt-mcq-02",
-        "hurt-mcq-06",
-        "hurt-mcq-01"
+        "hurt-mcq-43",
+        "hurt-mcq-25",
+        "hurt-mcq-23"
       ],
       "explanation": "本句的「hurt yourself」指「弄傷自己／自己受傷」。",
       "sentenceIndex": 6,
@@ -1972,12 +1946,10 @@ export default {
         "hurt yourself"
       ],
       "optionReasons": {
-        "hurt-mcq-04": "本句指「弄傷自己／自己受傷」。",
-        "hurt-mcq-03": "「使某人身體受傷／弄傷」與本句語境不同。",
-        "hurt-mcq-05": "「弄傷背部、膝蓋等身體部位」與本句語境不同。",
-        "hurt-mcq-02": "「令某個身體部位感到疼痛」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。",
-        "hurt-mcq-01": "「使某人感到身體疼痛；弄痛」與本句語境不同。"
+        "hurt-mcq-04": "本句的「hurt yourself」指「弄傷自己／自己受傷」。",
+        "hurt-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-04"
     },
@@ -1989,11 +1961,9 @@ export default {
       "masked": "He ____ when he fell.",
       "options": [
         "hurt-mcq-04",
-        "hurt-mcq-03",
-        "hurt-mcq-05",
-        "hurt-mcq-02",
-        "hurt-mcq-06",
-        "hurt-mcq-01"
+        "hurt-mcq-23",
+        "hurt-mcq-09",
+        "hurt-mcq-39"
       ],
       "explanation": "本句的「hurt himself」指「弄傷自己／自己受傷」。",
       "sentenceIndex": 7,
@@ -2002,12 +1972,10 @@ export default {
         "hurt himself"
       ],
       "optionReasons": {
-        "hurt-mcq-04": "本句指「弄傷自己／自己受傷」。",
-        "hurt-mcq-03": "「使某人身體受傷／弄傷」與本句語境不同。",
-        "hurt-mcq-05": "「弄傷背部、膝蓋等身體部位」與本句語境不同。",
-        "hurt-mcq-02": "「令某個身體部位感到疼痛」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。",
-        "hurt-mcq-01": "「使某人感到身體疼痛；弄痛」與本句語境不同。"
+        "hurt-mcq-04": "本句的「hurt himself」指「弄傷自己／自己受傷」。",
+        "hurt-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-04"
     },
@@ -2019,11 +1987,9 @@ export default {
       "masked": "I ____ while running.",
       "options": [
         "hurt-mcq-05",
-        "hurt-mcq-04",
-        "hurt-mcq-06",
-        "hurt-mcq-03",
-        "hurt-mcq-07",
-        "hurt-mcq-02"
+        "hurt-mcq-68",
+        "hurt-mcq-24",
+        "hurt-mcq-21"
       ],
       "explanation": "本句的「hurt my ankle」指「弄傷背部、膝蓋等身體部位」。",
       "sentenceIndex": 8,
@@ -2032,12 +1998,10 @@ export default {
         "hurt my ankle"
       ],
       "optionReasons": {
-        "hurt-mcq-05": "本句指「弄傷背部、膝蓋等身體部位」。",
-        "hurt-mcq-04": "「弄傷自己／自己受傷」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。",
-        "hurt-mcq-03": "「使某人身體受傷／弄傷」與本句語境不同。",
-        "hurt-mcq-07": "「問疼痛出現在哪個部位；哪裡痛？」與本句語境不同。",
-        "hurt-mcq-02": "「令某個身體部位感到疼痛」與本句語境不同。"
+        "hurt-mcq-05": "本句的「hurt my ankle」指「弄傷背部、膝蓋等身體部位」。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-05"
     },
@@ -2049,11 +2013,9 @@ export default {
       "masked": "She ____ lifting the box.",
       "options": [
         "hurt-mcq-05",
-        "hurt-mcq-04",
-        "hurt-mcq-06",
-        "hurt-mcq-03",
-        "hurt-mcq-07",
-        "hurt-mcq-02"
+        "hurt-mcq-22",
+        "hurt-mcq-43",
+        "hurt-mcq-39"
       ],
       "explanation": "本句的「hurt her back」指「弄傷背部、膝蓋等身體部位」。",
       "sentenceIndex": 9,
@@ -2062,12 +2024,10 @@ export default {
         "hurt her back"
       ],
       "optionReasons": {
-        "hurt-mcq-05": "本句指「弄傷背部、膝蓋等身體部位」。",
-        "hurt-mcq-04": "「弄傷自己／自己受傷」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。",
-        "hurt-mcq-03": "「使某人身體受傷／弄傷」與本句語境不同。",
-        "hurt-mcq-07": "「問疼痛出現在哪個部位；哪裡痛？」與本句語境不同。",
-        "hurt-mcq-02": "「令某個身體部位感到疼痛」與本句語境不同。"
+        "hurt-mcq-05": "本句的「hurt her back」指「弄傷背部、膝蓋等身體部位」。",
+        "hurt-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-05"
     },
@@ -2079,11 +2039,9 @@ export default {
       "masked": "My head ____.",
       "options": [
         "hurt-mcq-06",
-        "hurt-mcq-05",
-        "hurt-mcq-07",
-        "hurt-mcq-04",
-        "hurt-mcq-08",
-        "hurt-mcq-03"
+        "hurt-mcq-20",
+        "hurt-mcq-39",
+        "hurt-mcq-22"
       ],
       "explanation": "本句的「hurts」指「某身體部位正在疼痛」。",
       "sentenceIndex": 10,
@@ -2092,12 +2050,10 @@ export default {
         "hurts"
       ],
       "optionReasons": {
-        "hurt-mcq-06": "本句指「某身體部位正在疼痛」。",
-        "hurt-mcq-05": "「弄傷背部、膝蓋等身體部位」與本句語境不同。",
-        "hurt-mcq-07": "「問疼痛出現在哪個部位；哪裡痛？」與本句語境不同。",
-        "hurt-mcq-04": "「弄傷自己／自己受傷」與本句語境不同。",
-        "hurt-mcq-08": "「感到疼痛；這會痛」與本句語境不同。",
-        "hurt-mcq-03": "「使某人身體受傷／弄傷」與本句語境不同。"
+        "hurt-mcq-06": "本句的「hurts」指「某身體部位正在疼痛」。",
+        "hurt-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-06"
     },
@@ -2109,11 +2065,9 @@ export default {
       "masked": "Does your shoulder still ____?",
       "options": [
         "hurt-mcq-06",
-        "hurt-mcq-05",
-        "hurt-mcq-07",
-        "hurt-mcq-04",
-        "hurt-mcq-08",
-        "hurt-mcq-03"
+        "hurt-mcq-19",
+        "hurt-mcq-74",
+        "hurt-mcq-22"
       ],
       "explanation": "本句的「hurt」指「某身體部位正在疼痛」。",
       "sentenceIndex": 11,
@@ -2122,12 +2076,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-06": "本句指「某身體部位正在疼痛」。",
-        "hurt-mcq-05": "「弄傷背部、膝蓋等身體部位」與本句語境不同。",
-        "hurt-mcq-07": "「問疼痛出現在哪個部位；哪裡痛？」與本句語境不同。",
-        "hurt-mcq-04": "「弄傷自己／自己受傷」與本句語境不同。",
-        "hurt-mcq-08": "「感到疼痛；這會痛」與本句語境不同。",
-        "hurt-mcq-03": "「使某人身體受傷／弄傷」與本句語境不同。"
+        "hurt-mcq-06": "本句的「hurt」指「某身體部位正在疼痛」。",
+        "hurt-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-06"
     },
@@ -2139,11 +2091,9 @@ export default {
       "masked": "____",
       "options": [
         "hurt-mcq-07",
-        "hurt-mcq-06",
-        "hurt-mcq-08",
-        "hurt-mcq-05",
-        "hurt-mcq-09",
-        "hurt-mcq-04"
+        "hurt-mcq-16",
+        "hurt-mcq-39",
+        "hurt-mcq-80"
       ],
       "explanation": "本句的「Where does it hurt?」指「問疼痛出現在哪個部位；哪裡痛？」。",
       "sentenceIndex": 12,
@@ -2152,12 +2102,10 @@ export default {
         "Where does it hurt?"
       ],
       "optionReasons": {
-        "hurt-mcq-07": "本句指「問疼痛出現在哪個部位；哪裡痛？」。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。",
-        "hurt-mcq-08": "「感到疼痛；這會痛」與本句語境不同。",
-        "hurt-mcq-05": "「弄傷背部、膝蓋等身體部位」與本句語境不同。",
-        "hurt-mcq-09": "「痛得很厲害」與本句語境不同。",
-        "hurt-mcq-04": "「弄傷自己／自己受傷」與本句語境不同。"
+        "hurt-mcq-07": "本句的「Where does it hurt?」指「問疼痛出現在哪個部位；哪裡痛？」。",
+        "hurt-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-80": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-07"
     },
@@ -2169,11 +2117,9 @@ export default {
       "masked": "The doctor asked him ____.",
       "options": [
         "hurt-mcq-07",
-        "hurt-mcq-06",
-        "hurt-mcq-08",
-        "hurt-mcq-05",
-        "hurt-mcq-09",
-        "hurt-mcq-04"
+        "hurt-mcq-30",
+        "hurt-mcq-47",
+        "hurt-mcq-72"
       ],
       "explanation": "本句的「where it hurt」指「問疼痛出現在哪個部位；哪裡痛？」。",
       "sentenceIndex": 13,
@@ -2182,12 +2128,10 @@ export default {
         "where it hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-07": "本句指「問疼痛出現在哪個部位；哪裡痛？」。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。",
-        "hurt-mcq-08": "「感到疼痛；這會痛」與本句語境不同。",
-        "hurt-mcq-05": "「弄傷背部、膝蓋等身體部位」與本句語境不同。",
-        "hurt-mcq-09": "「痛得很厲害」與本句語境不同。",
-        "hurt-mcq-04": "「弄傷自己／自己受傷」與本句語境不同。"
+        "hurt-mcq-07": "本句的「where it hurt」指「問疼痛出現在哪個部位；哪裡痛？」。",
+        "hurt-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-07"
     },
@@ -2199,10 +2143,8 @@ export default {
       "masked": "Stop—it ____.",
       "options": [
         "hurt-mcq-08",
-        "hurt-mcq-07",
-        "hurt-mcq-09",
-        "hurt-mcq-06",
-        "hurt-mcq-10",
+        "hurt-mcq-30",
+        "hurt-mcq-49",
         "hurt-mcq-05"
       ],
       "explanation": "本句的「hurts」指「感到疼痛；這會痛」。",
@@ -2212,12 +2154,10 @@ export default {
         "hurts"
       ],
       "optionReasons": {
-        "hurt-mcq-08": "本句指「感到疼痛；這會痛」。",
-        "hurt-mcq-07": "「問疼痛出現在哪個部位；哪裡痛？」與本句語境不同。",
-        "hurt-mcq-09": "「痛得很厲害」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。",
-        "hurt-mcq-10": "「做某個動作會引起疼痛」與本句語境不同。",
-        "hurt-mcq-05": "「弄傷背部、膝蓋等身體部位」與本句語境不同。"
+        "hurt-mcq-08": "本句的「hurts」指「感到疼痛；這會痛」。",
+        "hurt-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-08"
     },
@@ -2229,11 +2169,9 @@ export default {
       "masked": "Does it ____?” “A little.",
       "options": [
         "hurt-mcq-08",
-        "hurt-mcq-07",
-        "hurt-mcq-09",
-        "hurt-mcq-06",
-        "hurt-mcq-10",
-        "hurt-mcq-05"
+        "hurt-mcq-47",
+        "hurt-mcq-30",
+        "hurt-mcq-38"
       ],
       "explanation": "本句的「hurt」指「感到疼痛；這會痛」。",
       "sentenceIndex": 15,
@@ -2242,12 +2180,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-08": "本句指「感到疼痛；這會痛」。",
-        "hurt-mcq-07": "「問疼痛出現在哪個部位；哪裡痛？」與本句語境不同。",
-        "hurt-mcq-09": "「痛得很厲害」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。",
-        "hurt-mcq-10": "「做某個動作會引起疼痛」與本句語境不同。",
-        "hurt-mcq-05": "「弄傷背部、膝蓋等身體部位」與本句語境不同。"
+        "hurt-mcq-08": "本句的「hurt」指「感到疼痛；這會痛」。",
+        "hurt-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-08"
     },
@@ -2259,11 +2195,9 @@ export default {
       "masked": "My knee ____ today.",
       "options": [
         "hurt-mcq-09",
-        "hurt-mcq-08",
-        "hurt-mcq-10",
-        "hurt-mcq-07",
-        "hurt-mcq-11",
-        "hurt-mcq-06"
+        "hurt-mcq-46",
+        "hurt-mcq-71",
+        "hurt-mcq-78"
       ],
       "explanation": "本句的「hurts badly」指「痛得很厲害」。",
       "sentenceIndex": 16,
@@ -2272,12 +2206,10 @@ export default {
         "hurts badly"
       ],
       "optionReasons": {
-        "hurt-mcq-09": "本句指「痛得很厲害」。",
-        "hurt-mcq-08": "「感到疼痛；這會痛」與本句語境不同。",
-        "hurt-mcq-10": "「做某個動作會引起疼痛」與本句語境不同。",
-        "hurt-mcq-07": "「問疼痛出現在哪個部位；哪裡痛？」與本句語境不同。",
-        "hurt-mcq-11": "「因失去、拒絕等而感到心痛／難受」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。"
+        "hurt-mcq-09": "本句的「hurts badly」指「痛得很厲害」。",
+        "hurt-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-09"
     },
@@ -2289,11 +2221,9 @@ export default {
       "masked": "It ____ at first.",
       "options": [
         "hurt-mcq-09",
-        "hurt-mcq-08",
-        "hurt-mcq-10",
-        "hurt-mcq-07",
-        "hurt-mcq-11",
-        "hurt-mcq-06"
+        "hurt-mcq-18",
+        "hurt-mcq-31",
+        "hurt-mcq-40"
       ],
       "explanation": "本句的「hurt a lot」指「痛得很厲害」。",
       "sentenceIndex": 17,
@@ -2302,12 +2232,10 @@ export default {
         "hurt a lot"
       ],
       "optionReasons": {
-        "hurt-mcq-09": "本句指「痛得很厲害」。",
-        "hurt-mcq-08": "「感到疼痛；這會痛」與本句語境不同。",
-        "hurt-mcq-10": "「做某個動作會引起疼痛」與本句語境不同。",
-        "hurt-mcq-07": "「問疼痛出現在哪個部位；哪裡痛？」與本句語境不同。",
-        "hurt-mcq-11": "「因失去、拒絕等而感到心痛／難受」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。"
+        "hurt-mcq-09": "本句的「hurt a lot」指「痛得很厲害」。",
+        "hurt-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-09"
     },
@@ -2319,11 +2247,9 @@ export default {
       "masked": "It ____.",
       "options": [
         "hurt-mcq-10",
-        "hurt-mcq-09",
-        "hurt-mcq-11",
-        "hurt-mcq-08",
-        "hurt-mcq-12",
-        "hurt-mcq-07"
+        "hurt-mcq-58",
+        "hurt-mcq-71",
+        "hurt-mcq-21"
       ],
       "explanation": "本句的「hurts to walk」指「做某個動作會引起疼痛」。",
       "sentenceIndex": 18,
@@ -2332,12 +2258,10 @@ export default {
         "hurts to walk"
       ],
       "optionReasons": {
-        "hurt-mcq-10": "本句指「做某個動作會引起疼痛」。",
-        "hurt-mcq-09": "「痛得很厲害」與本句語境不同。",
-        "hurt-mcq-11": "「因失去、拒絕等而感到心痛／難受」與本句語境不同。",
-        "hurt-mcq-08": "「感到疼痛；這會痛」與本句語境不同。",
-        "hurt-mcq-12": "「聽到、看到、知道某事令人心痛」與本句語境不同。",
-        "hurt-mcq-07": "「問疼痛出現在哪個部位；哪裡痛？」與本句語境不同。"
+        "hurt-mcq-10": "本句的「hurts to walk」指「做某個動作會引起疼痛」。",
+        "hurt-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-10"
     },
@@ -2349,11 +2273,9 @@ export default {
       "masked": "It ____.",
       "options": [
         "hurt-mcq-10",
-        "hurt-mcq-09",
-        "hurt-mcq-11",
-        "hurt-mcq-08",
-        "hurt-mcq-12",
-        "hurt-mcq-07"
+        "hurt-mcq-36",
+        "hurt-mcq-71",
+        "hurt-mcq-31"
       ],
       "explanation": "本句的「hurts when I breathe deeply」指「做某個動作會引起疼痛」。",
       "sentenceIndex": 19,
@@ -2362,12 +2284,10 @@ export default {
         "hurts when I breathe deeply"
       ],
       "optionReasons": {
-        "hurt-mcq-10": "本句指「做某個動作會引起疼痛」。",
-        "hurt-mcq-09": "「痛得很厲害」與本句語境不同。",
-        "hurt-mcq-11": "「因失去、拒絕等而感到心痛／難受」與本句語境不同。",
-        "hurt-mcq-08": "「感到疼痛；這會痛」與本句語境不同。",
-        "hurt-mcq-12": "「聽到、看到、知道某事令人心痛」與本句語境不同。",
-        "hurt-mcq-07": "「問疼痛出現在哪個部位；哪裡痛？」與本句語境不同。"
+        "hurt-mcq-10": "本句的「hurts when I breathe deeply」指「做某個動作會引起疼痛」。",
+        "hurt-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-10"
     },
@@ -2379,11 +2299,9 @@ export default {
       "masked": "My shoulder ____.",
       "options": [
         "hurt-mcq-10",
-        "hurt-mcq-09",
-        "hurt-mcq-11",
-        "hurt-mcq-08",
-        "hurt-mcq-12",
-        "hurt-mcq-07"
+        "hurt-mcq-58",
+        "hurt-mcq-71",
+        "hurt-mcq-05"
       ],
       "explanation": "本句的「hurts when I lift my arm」指「做某個動作會引起疼痛」。",
       "sentenceIndex": 20,
@@ -2392,12 +2310,10 @@ export default {
         "hurts when I lift my arm"
       ],
       "optionReasons": {
-        "hurt-mcq-10": "本句指「做某個動作會引起疼痛」。",
-        "hurt-mcq-09": "「痛得很厲害」與本句語境不同。",
-        "hurt-mcq-11": "「因失去、拒絕等而感到心痛／難受」與本句語境不同。",
-        "hurt-mcq-08": "「感到疼痛；這會痛」與本句語境不同。",
-        "hurt-mcq-12": "「聽到、看到、知道某事令人心痛」與本句語境不同。",
-        "hurt-mcq-07": "「問疼痛出現在哪個部位；哪裡痛？」與本句語境不同。"
+        "hurt-mcq-10": "本句的「hurts when I lift my arm」指「做某個動作會引起疼痛」。",
+        "hurt-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-10"
     },
@@ -2409,11 +2325,9 @@ export default {
       "masked": "The tooth ____.",
       "options": [
         "hurt-mcq-10",
-        "hurt-mcq-09",
-        "hurt-mcq-11",
-        "hurt-mcq-08",
-        "hurt-mcq-12",
-        "hurt-mcq-07"
+        "hurt-mcq-04",
+        "hurt-mcq-78",
+        "hurt-mcq-71"
       ],
       "explanation": "本句的「hurts when I drink something cold」指「做某個動作會引起疼痛」。",
       "sentenceIndex": 21,
@@ -2422,12 +2336,10 @@ export default {
         "hurts when I drink something cold"
       ],
       "optionReasons": {
-        "hurt-mcq-10": "本句指「做某個動作會引起疼痛」。",
-        "hurt-mcq-09": "「痛得很厲害」與本句語境不同。",
-        "hurt-mcq-11": "「因失去、拒絕等而感到心痛／難受」與本句語境不同。",
-        "hurt-mcq-08": "「感到疼痛；這會痛」與本句語境不同。",
-        "hurt-mcq-12": "「聽到、看到、知道某事令人心痛」與本句語境不同。",
-        "hurt-mcq-07": "「問疼痛出現在哪個部位；哪裡痛？」與本句語境不同。"
+        "hurt-mcq-10": "本句的「hurts when I drink something cold」指「做某個動作會引起疼痛」。",
+        "hurt-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-10"
     },
@@ -2439,11 +2351,9 @@ export default {
       "masked": "It still ____ when I think about what happened.",
       "options": [
         "hurt-mcq-11",
-        "hurt-mcq-10",
-        "hurt-mcq-12",
-        "hurt-mcq-09",
-        "hurt-mcq-13",
-        "hurt-mcq-08"
+        "hurt-mcq-41",
+        "hurt-mcq-68",
+        "hurt-mcq-20"
       ],
       "explanation": "本句的「hurts」指「因失去、拒絕等而感到心痛／難受」。",
       "sentenceIndex": 22,
@@ -2452,12 +2362,10 @@ export default {
         "hurts"
       ],
       "optionReasons": {
-        "hurt-mcq-11": "本句指「因失去、拒絕等而感到心痛／難受」。",
-        "hurt-mcq-10": "「做某個動作會引起疼痛」與本句語境不同。",
-        "hurt-mcq-12": "「聽到、看到、知道某事令人心痛」與本句語境不同。",
-        "hurt-mcq-09": "「痛得很厲害」與本句語境不同。",
-        "hurt-mcq-13": "「令某人感情受傷、難過或痛苦」與本句語境不同。",
-        "hurt-mcq-08": "「感到疼痛；這會痛」與本句語境不同。"
+        "hurt-mcq-11": "本句的「hurts」指「因失去、拒絕等而感到心痛／難受」。",
+        "hurt-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-11"
     },
@@ -2469,11 +2377,9 @@ export default {
       "masked": "Losing a close friendship can really ____.",
       "options": [
         "hurt-mcq-11",
-        "hurt-mcq-10",
-        "hurt-mcq-12",
-        "hurt-mcq-09",
-        "hurt-mcq-13",
-        "hurt-mcq-08"
+        "hurt-mcq-68",
+        "hurt-mcq-73",
+        "hurt-mcq-41"
       ],
       "explanation": "本句的「hurt」指「因失去、拒絕等而感到心痛／難受」。",
       "sentenceIndex": 23,
@@ -2482,12 +2388,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-11": "本句指「因失去、拒絕等而感到心痛／難受」。",
-        "hurt-mcq-10": "「做某個動作會引起疼痛」與本句語境不同。",
-        "hurt-mcq-12": "「聽到、看到、知道某事令人心痛」與本句語境不同。",
-        "hurt-mcq-09": "「痛得很厲害」與本句語境不同。",
-        "hurt-mcq-13": "「令某人感情受傷、難過或痛苦」與本句語境不同。",
-        "hurt-mcq-08": "「感到疼痛；這會痛」與本句語境不同。"
+        "hurt-mcq-11": "本句的「hurt」指「因失去、拒絕等而感到心痛／難受」。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-11"
     },
@@ -2499,11 +2403,9 @@ export default {
       "masked": "It ____ him speak about himself that way.",
       "options": [
         "hurt-mcq-12",
-        "hurt-mcq-11",
-        "hurt-mcq-13",
-        "hurt-mcq-10",
-        "hurt-mcq-14",
-        "hurt-mcq-09"
+        "hurt-mcq-80",
+        "hurt-mcq-16",
+        "hurt-mcq-68"
       ],
       "explanation": "本句的「hurts to hear」指「聽到、看到、知道某事令人心痛」。",
       "sentenceIndex": 24,
@@ -2512,12 +2414,10 @@ export default {
         "hurts to hear"
       ],
       "optionReasons": {
-        "hurt-mcq-12": "本句指「聽到、看到、知道某事令人心痛」。",
-        "hurt-mcq-11": "「因失去、拒絕等而感到心痛／難受」與本句語境不同。",
-        "hurt-mcq-13": "「令某人感情受傷、難過或痛苦」與本句語境不同。",
-        "hurt-mcq-10": "「做某個動作會引起疼痛」與本句語境不同。",
-        "hurt-mcq-14": "「因別人的行為／說話而感到受傷、難過」與本句語境不同。",
-        "hurt-mcq-09": "「痛得很厲害」與本句語境不同。"
+        "hurt-mcq-12": "本句的「hurts to hear」指「聽到、看到、知道某事令人心痛」。",
+        "hurt-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-12"
     },
@@ -2529,11 +2429,9 @@ export default {
       "masked": "It ____ her so disappointed.",
       "options": [
         "hurt-mcq-12",
-        "hurt-mcq-11",
-        "hurt-mcq-13",
-        "hurt-mcq-10",
-        "hurt-mcq-14",
-        "hurt-mcq-09"
+        "hurt-mcq-15",
+        "hurt-mcq-25",
+        "hurt-mcq-39"
       ],
       "explanation": "本句的「hurt to see」指「聽到、看到、知道某事令人心痛」。",
       "sentenceIndex": 25,
@@ -2542,12 +2440,10 @@ export default {
         "hurt to see"
       ],
       "optionReasons": {
-        "hurt-mcq-12": "本句指「聽到、看到、知道某事令人心痛」。",
-        "hurt-mcq-11": "「因失去、拒絕等而感到心痛／難受」與本句語境不同。",
-        "hurt-mcq-13": "「令某人感情受傷、難過或痛苦」與本句語境不同。",
-        "hurt-mcq-10": "「做某個動作會引起疼痛」與本句語境不同。",
-        "hurt-mcq-14": "「因別人的行為／說話而感到受傷、難過」與本句語境不同。",
-        "hurt-mcq-09": "「痛得很厲害」與本句語境不同。"
+        "hurt-mcq-12": "本句的「hurt to see」指「聽到、看到、知道某事令人心痛」。",
+        "hurt-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-12"
     },
@@ -2559,11 +2455,9 @@ export default {
       "masked": "She looked deeply ____.",
       "options": [
         "hurt-mcq-14",
-        "hurt-mcq-13",
-        "hurt-mcq-15",
-        "hurt-mcq-12",
-        "hurt-mcq-16",
-        "hurt-mcq-11"
+        "hurt-mcq-06",
+        "hurt-mcq-70",
+        "hurt-mcq-69"
       ],
       "explanation": "本句的「hurt」指「因別人的行為／說話而感到受傷、難過」。",
       "sentenceIndex": 28,
@@ -2572,12 +2466,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-14": "本句指「因別人的行為／說話而感到受傷、難過」。",
-        "hurt-mcq-13": "「令某人感情受傷、難過或痛苦」與本句語境不同。",
-        "hurt-mcq-15": "「因某人／某事而感情受傷」與本句語境不同。",
-        "hurt-mcq-12": "「聽到、看到、知道某事令人心痛」與本句語境不同。",
-        "hurt-mcq-16": "「因某事實而感到難過／受傷」與本句語境不同。",
-        "hurt-mcq-11": "「因失去、拒絕等而感到心痛／難受」與本句語境不同。"
+        "hurt-mcq-14": "本句的「hurt」指「因別人的行為／說話而感到受傷、難過」。",
+        "hurt-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-14"
     },
@@ -2589,11 +2481,9 @@ export default {
       "masked": "I was ____ by what he said.",
       "options": [
         "hurt-mcq-14",
-        "hurt-mcq-13",
-        "hurt-mcq-15",
-        "hurt-mcq-12",
-        "hurt-mcq-16",
-        "hurt-mcq-11"
+        "hurt-mcq-70",
+        "hurt-mcq-10",
+        "hurt-mcq-74"
       ],
       "explanation": "本句的「hurt」指「因別人的行為／說話而感到受傷、難過」。",
       "sentenceIndex": 29,
@@ -2602,12 +2492,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-14": "本句指「因別人的行為／說話而感到受傷、難過」。",
-        "hurt-mcq-13": "「令某人感情受傷、難過或痛苦」與本句語境不同。",
-        "hurt-mcq-15": "「因某人／某事而感情受傷」與本句語境不同。",
-        "hurt-mcq-12": "「聽到、看到、知道某事令人心痛」與本句語境不同。",
-        "hurt-mcq-16": "「因某事實而感到難過／受傷」與本句語境不同。",
-        "hurt-mcq-11": "「因失去、拒絕等而感到心痛／難受」與本句語境不同。"
+        "hurt-mcq-14": "本句的「hurt」指「因別人的行為／說話而感到受傷、難過」。",
+        "hurt-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-14"
     },
@@ -2619,11 +2507,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "hurt-mcq-15",
-        "hurt-mcq-14",
-        "hurt-mcq-16",
-        "hurt-mcq-13",
-        "hurt-mcq-17",
-        "hurt-mcq-12"
+        "hurt-mcq-68",
+        "hurt-mcq-25",
+        "hurt-mcq-38"
       ],
       "explanation": "本句的「hurt by her reaction」指「因某人／某事而感情受傷」。",
       "sentenceIndex": 30,
@@ -2632,12 +2518,10 @@ export default {
         "hurt by her reaction"
       ],
       "optionReasons": {
-        "hurt-mcq-15": "本句指「因某人／某事而感情受傷」。",
-        "hurt-mcq-14": "「因別人的行為／說話而感到受傷、難過」與本句語境不同。",
-        "hurt-mcq-16": "「因某事實而感到難過／受傷」與本句語境不同。",
-        "hurt-mcq-13": "「令某人感情受傷、難過或痛苦」與本句語境不同。",
-        "hurt-mcq-17": "「令某人感情受傷」與本句語境不同。",
-        "hurt-mcq-12": "「聽到、看到、知道某事令人心痛」與本句語境不同。"
+        "hurt-mcq-15": "本句的「hurt by her reaction」指「因某人／某事而感情受傷」。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-15"
     },
@@ -2649,11 +2533,9 @@ export default {
       "masked": "She felt ____.",
       "options": [
         "hurt-mcq-15",
-        "hurt-mcq-14",
-        "hurt-mcq-16",
-        "hurt-mcq-13",
-        "hurt-mcq-17",
-        "hurt-mcq-12"
+        "hurt-mcq-38",
+        "hurt-mcq-09",
+        "hurt-mcq-69"
       ],
       "explanation": "本句的「hurt by the criticism」指「因某人／某事而感情受傷」。",
       "sentenceIndex": 31,
@@ -2662,12 +2544,10 @@ export default {
         "hurt by the criticism"
       ],
       "optionReasons": {
-        "hurt-mcq-15": "本句指「因某人／某事而感情受傷」。",
-        "hurt-mcq-14": "「因別人的行為／說話而感到受傷、難過」與本句語境不同。",
-        "hurt-mcq-16": "「因某事實而感到難過／受傷」與本句語境不同。",
-        "hurt-mcq-13": "「令某人感情受傷、難過或痛苦」與本句語境不同。",
-        "hurt-mcq-17": "「令某人感情受傷」與本句語境不同。",
-        "hurt-mcq-12": "「聽到、看到、知道某事令人心痛」與本句語境不同。"
+        "hurt-mcq-15": "本句的「hurt by the criticism」指「因某人／某事而感情受傷」。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-15"
     },
@@ -2679,11 +2559,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "hurt-mcq-16",
-        "hurt-mcq-15",
-        "hurt-mcq-17",
-        "hurt-mcq-14",
-        "hurt-mcq-18",
-        "hurt-mcq-13"
+        "hurt-mcq-69",
+        "hurt-mcq-20",
+        "hurt-mcq-10"
       ],
       "explanation": "本句的「hurt that nobody invited her」指「因某事實而感到難過／受傷」。",
       "sentenceIndex": 32,
@@ -2692,12 +2570,10 @@ export default {
         "hurt that nobody invited her"
       ],
       "optionReasons": {
-        "hurt-mcq-16": "本句指「因某事實而感到難過／受傷」。",
-        "hurt-mcq-15": "「因某人／某事而感情受傷」與本句語境不同。",
-        "hurt-mcq-17": "「令某人感情受傷」與本句語境不同。",
-        "hurt-mcq-14": "「因別人的行為／說話而感到受傷、難過」與本句語境不同。",
-        "hurt-mcq-18": "「因別人言行造成的受傷情緒」與本句語境不同。",
-        "hurt-mcq-13": "「令某人感情受傷、難過或痛苦」與本句語境不同。"
+        "hurt-mcq-16": "本句的「hurt that nobody invited her」指「因某事實而感到難過／受傷」。",
+        "hurt-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-16"
     },
@@ -2709,11 +2585,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "hurt-mcq-16",
-        "hurt-mcq-15",
-        "hurt-mcq-17",
-        "hurt-mcq-14",
-        "hurt-mcq-18",
-        "hurt-mcq-13"
+        "hurt-mcq-43",
+        "hurt-mcq-10",
+        "hurt-mcq-39"
       ],
       "explanation": "本句的「hurt that he did not trust me」指「因某事實而感到難過／受傷」。",
       "sentenceIndex": 33,
@@ -2722,12 +2596,10 @@ export default {
         "hurt that he did not trust me"
       ],
       "optionReasons": {
-        "hurt-mcq-16": "本句指「因某事實而感到難過／受傷」。",
-        "hurt-mcq-15": "「因某人／某事而感情受傷」與本句語境不同。",
-        "hurt-mcq-17": "「令某人感情受傷」與本句語境不同。",
-        "hurt-mcq-14": "「因別人的行為／說話而感到受傷、難過」與本句語境不同。",
-        "hurt-mcq-18": "「因別人言行造成的受傷情緒」與本句語境不同。",
-        "hurt-mcq-13": "「令某人感情受傷、難過或痛苦」與本句語境不同。"
+        "hurt-mcq-16": "本句的「hurt that he did not trust me」指「因某事實而感到難過／受傷」。",
+        "hurt-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-16"
     },
@@ -2739,11 +2611,9 @@ export default {
       "masked": "He was still ____.",
       "options": [
         "hurt-mcq-16",
-        "hurt-mcq-15",
-        "hurt-mcq-17",
-        "hurt-mcq-14",
-        "hurt-mcq-18",
-        "hurt-mcq-13"
+        "hurt-mcq-07",
+        "hurt-mcq-43",
+        "hurt-mcq-71"
       ],
       "explanation": "本句的「hurt over the argument」指「因某事實而感到難過／受傷」。",
       "sentenceIndex": 34,
@@ -2752,12 +2622,10 @@ export default {
         "hurt over the argument"
       ],
       "optionReasons": {
-        "hurt-mcq-16": "本句指「因某事實而感到難過／受傷」。",
-        "hurt-mcq-15": "「因某人／某事而感情受傷」與本句語境不同。",
-        "hurt-mcq-17": "「令某人感情受傷」與本句語境不同。",
-        "hurt-mcq-14": "「因別人的行為／說話而感到受傷、難過」與本句語境不同。",
-        "hurt-mcq-18": "「因別人言行造成的受傷情緒」與本句語境不同。",
-        "hurt-mcq-13": "「令某人感情受傷、難過或痛苦」與本句語境不同。"
+        "hurt-mcq-16": "本句的「hurt over the argument」指「因某事實而感到難過／受傷」。",
+        "hurt-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-16"
     },
@@ -2769,11 +2637,9 @@ export default {
       "masked": "She seemed ____.",
       "options": [
         "hurt-mcq-16",
-        "hurt-mcq-15",
-        "hurt-mcq-17",
-        "hurt-mcq-14",
-        "hurt-mcq-18",
-        "hurt-mcq-13"
+        "hurt-mcq-10",
+        "hurt-mcq-72",
+        "hurt-mcq-76"
       ],
       "explanation": "本句的「hurt about what happened」指「因某事實而感到難過／受傷」。",
       "sentenceIndex": 35,
@@ -2782,12 +2648,10 @@ export default {
         "hurt about what happened"
       ],
       "optionReasons": {
-        "hurt-mcq-16": "本句指「因某事實而感到難過／受傷」。",
-        "hurt-mcq-15": "「因某人／某事而感情受傷」與本句語境不同。",
-        "hurt-mcq-17": "「令某人感情受傷」與本句語境不同。",
-        "hurt-mcq-14": "「因別人的行為／說話而感到受傷、難過」與本句語境不同。",
-        "hurt-mcq-18": "「因別人言行造成的受傷情緒」與本句語境不同。",
-        "hurt-mcq-13": "「令某人感情受傷、難過或痛苦」與本句語境不同。"
+        "hurt-mcq-16": "本句的「hurt about what happened」指「因某事實而感到難過／受傷」。",
+        "hurt-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-16"
     },
@@ -2799,11 +2663,9 @@ export default {
       "masked": "I didn’t mean to ____.",
       "options": [
         "hurt-mcq-17",
-        "hurt-mcq-16",
-        "hurt-mcq-18",
-        "hurt-mcq-15",
-        "hurt-mcq-19",
-        "hurt-mcq-14"
+        "hurt-mcq-06",
+        "hurt-mcq-70",
+        "hurt-mcq-68"
       ],
       "explanation": "本句的「hurt your feelings」指「令某人感情受傷」。",
       "sentenceIndex": 36,
@@ -2812,12 +2674,10 @@ export default {
         "hurt your feelings"
       ],
       "optionReasons": {
-        "hurt-mcq-17": "本句指「令某人感情受傷」。",
-        "hurt-mcq-16": "「因某事實而感到難過／受傷」與本句語境不同。",
-        "hurt-mcq-18": "「因別人言行造成的受傷情緒」與本句語境不同。",
-        "hurt-mcq-15": "「因某人／某事而感情受傷」與本句語境不同。",
-        "hurt-mcq-19": "「傷害某人的自尊」與本句語境不同。",
-        "hurt-mcq-14": "「因別人的行為／說話而感到受傷、難過」與本句語境不同。"
+        "hurt-mcq-17": "本句的「hurt your feelings」指「令某人感情受傷」。",
+        "hurt-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-17"
     },
@@ -2829,11 +2689,9 @@ export default {
       "masked": "His joke ____.",
       "options": [
         "hurt-mcq-17",
-        "hurt-mcq-16",
-        "hurt-mcq-18",
-        "hurt-mcq-15",
-        "hurt-mcq-19",
-        "hurt-mcq-14"
+        "hurt-mcq-23",
+        "hurt-mcq-76",
+        "hurt-mcq-70"
       ],
       "explanation": "本句的「hurt her feelings」指「令某人感情受傷」。",
       "sentenceIndex": 37,
@@ -2842,12 +2700,10 @@ export default {
         "hurt her feelings"
       ],
       "optionReasons": {
-        "hurt-mcq-17": "本句指「令某人感情受傷」。",
-        "hurt-mcq-16": "「因某事實而感到難過／受傷」與本句語境不同。",
-        "hurt-mcq-18": "「因別人言行造成的受傷情緒」與本句語境不同。",
-        "hurt-mcq-15": "「因某人／某事而感情受傷」與本句語境不同。",
-        "hurt-mcq-19": "「傷害某人的自尊」與本句語境不同。",
-        "hurt-mcq-14": "「因別人的行為／說話而感到受傷、難過」與本句語境不同。"
+        "hurt-mcq-17": "本句的「hurt her feelings」指「令某人感情受傷」。",
+        "hurt-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-17"
     },
@@ -2859,11 +2715,9 @@ export default {
       "masked": "There were some ____ after the disagreement.",
       "options": [
         "hurt-mcq-18",
-        "hurt-mcq-17",
-        "hurt-mcq-19",
-        "hurt-mcq-16",
-        "hurt-mcq-20",
-        "hurt-mcq-15"
+        "hurt-mcq-71",
+        "hurt-mcq-73",
+        "hurt-mcq-38"
       ],
       "explanation": "本句的「hurt feelings」指「因別人言行造成的受傷情緒」。",
       "sentenceIndex": 38,
@@ -2872,12 +2726,10 @@ export default {
         "hurt feelings"
       ],
       "optionReasons": {
-        "hurt-mcq-18": "本句指「因別人言行造成的受傷情緒」。",
-        "hurt-mcq-17": "「令某人感情受傷」與本句語境不同。",
-        "hurt-mcq-19": "「傷害某人的自尊」與本句語境不同。",
-        "hurt-mcq-16": "「因某事實而感到難過／受傷」與本句語境不同。",
-        "hurt-mcq-20": "「打擊某人的自我形象／自尊」與本句語境不同。",
-        "hurt-mcq-15": "「因某人／某事而感情受傷」與本句語境不同。"
+        "hurt-mcq-18": "本句的「hurt feelings」指「因別人言行造成的受傷情緒」。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-18"
     },
@@ -2889,11 +2741,9 @@ export default {
       "masked": "We need to deal with the ____ honestly.",
       "options": [
         "hurt-mcq-18",
-        "hurt-mcq-17",
-        "hurt-mcq-19",
-        "hurt-mcq-16",
-        "hurt-mcq-20",
-        "hurt-mcq-15"
+        "hurt-mcq-07",
+        "hurt-mcq-73",
+        "hurt-mcq-21"
       ],
       "explanation": "本句的「hurt feelings」指「因別人言行造成的受傷情緒」。",
       "sentenceIndex": 39,
@@ -2902,12 +2752,10 @@ export default {
         "hurt feelings"
       ],
       "optionReasons": {
-        "hurt-mcq-18": "本句指「因別人言行造成的受傷情緒」。",
-        "hurt-mcq-17": "「令某人感情受傷」與本句語境不同。",
-        "hurt-mcq-19": "「傷害某人的自尊」與本句語境不同。",
-        "hurt-mcq-16": "「因某事實而感到難過／受傷」與本句語境不同。",
-        "hurt-mcq-20": "「打擊某人的自我形象／自尊」與本句語境不同。",
-        "hurt-mcq-15": "「因某人／某事而感情受傷」與本句語境不同。"
+        "hurt-mcq-18": "本句的「hurt feelings」指「因別人言行造成的受傷情緒」。",
+        "hurt-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-18"
     },
@@ -2919,11 +2767,9 @@ export default {
       "masked": "The defeat ____.",
       "options": [
         "hurt-mcq-19",
-        "hurt-mcq-18",
-        "hurt-mcq-20",
-        "hurt-mcq-17",
-        "hurt-mcq-21",
-        "hurt-mcq-16"
+        "hurt-mcq-26",
+        "hurt-mcq-38",
+        "hurt-mcq-74"
       ],
       "explanation": "本句的「hurt his pride」指「傷害某人的自尊」。",
       "sentenceIndex": 40,
@@ -2932,12 +2778,10 @@ export default {
         "hurt his pride"
       ],
       "optionReasons": {
-        "hurt-mcq-19": "本句指「傷害某人的自尊」。",
-        "hurt-mcq-18": "「因別人言行造成的受傷情緒」與本句語境不同。",
-        "hurt-mcq-20": "「打擊某人的自我形象／自尊」與本句語境不同。",
-        "hurt-mcq-17": "「令某人感情受傷」與本句語境不同。",
-        "hurt-mcq-21": "「損害聲譽、形象或可信度」與本句語境不同。",
-        "hurt-mcq-16": "「因某事實而感到難過／受傷」與本句語境不同。"
+        "hurt-mcq-19": "本句的「hurt his pride」指「傷害某人的自尊」。",
+        "hurt-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-19"
     },
@@ -2949,11 +2793,9 @@ export default {
       "masked": "Her refusal clearly ____.",
       "options": [
         "hurt-mcq-19",
-        "hurt-mcq-18",
-        "hurt-mcq-20",
-        "hurt-mcq-17",
-        "hurt-mcq-21",
-        "hurt-mcq-16"
+        "hurt-mcq-11",
+        "hurt-mcq-06",
+        "hurt-mcq-73"
       ],
       "explanation": "本句的「hurt his pride」指「傷害某人的自尊」。",
       "sentenceIndex": 41,
@@ -2962,12 +2804,10 @@ export default {
         "hurt his pride"
       ],
       "optionReasons": {
-        "hurt-mcq-19": "本句指「傷害某人的自尊」。",
-        "hurt-mcq-18": "「因別人言行造成的受傷情緒」與本句語境不同。",
-        "hurt-mcq-20": "「打擊某人的自我形象／自尊」與本句語境不同。",
-        "hurt-mcq-17": "「令某人感情受傷」與本句語境不同。",
-        "hurt-mcq-21": "「損害聲譽、形象或可信度」與本句語境不同。",
-        "hurt-mcq-16": "「因某事實而感到難過／受傷」與本句語境不同。"
+        "hurt-mcq-19": "本句的「hurt his pride」指「傷害某人的自尊」。",
+        "hurt-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-19"
     },
@@ -2979,11 +2819,9 @@ export default {
       "masked": "The criticism ____.",
       "options": [
         "hurt-mcq-20",
-        "hurt-mcq-19",
-        "hurt-mcq-21",
-        "hurt-mcq-18",
-        "hurt-mcq-22",
-        "hurt-mcq-17"
+        "hurt-mcq-68",
+        "hurt-mcq-71",
+        "hurt-mcq-08"
       ],
       "explanation": "本句的「hurt his ego」指「打擊某人的自我形象／自尊」。",
       "sentenceIndex": 42,
@@ -2992,12 +2830,10 @@ export default {
         "hurt his ego"
       ],
       "optionReasons": {
-        "hurt-mcq-20": "本句指「打擊某人的自我形象／自尊」。",
-        "hurt-mcq-19": "「傷害某人的自尊」與本句語境不同。",
-        "hurt-mcq-21": "「損害聲譽、形象或可信度」與本句語境不同。",
-        "hurt-mcq-18": "「因別人言行造成的受傷情緒」與本句語境不同。",
-        "hurt-mcq-22": "「對生意、銷售或利潤造成不利影響」與本句語境不同。",
-        "hurt-mcq-17": "「令某人感情受傷」與本句語境不同。"
+        "hurt-mcq-20": "本句的「hurt his ego」指「打擊某人的自我形象／自尊」。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-20"
     },
@@ -3009,11 +2845,9 @@ export default {
       "masked": "Being ignored ____ more than she admitted.",
       "options": [
         "hurt-mcq-20",
-        "hurt-mcq-19",
-        "hurt-mcq-21",
-        "hurt-mcq-18",
-        "hurt-mcq-22",
-        "hurt-mcq-17"
+        "hurt-mcq-26",
+        "hurt-mcq-38",
+        "hurt-mcq-55"
       ],
       "explanation": "本句的「hurt her ego」指「打擊某人的自我形象／自尊」。",
       "sentenceIndex": 43,
@@ -3022,12 +2856,10 @@ export default {
         "hurt her ego"
       ],
       "optionReasons": {
-        "hurt-mcq-20": "本句指「打擊某人的自我形象／自尊」。",
-        "hurt-mcq-19": "「傷害某人的自尊」與本句語境不同。",
-        "hurt-mcq-21": "「損害聲譽、形象或可信度」與本句語境不同。",
-        "hurt-mcq-18": "「因別人言行造成的受傷情緒」與本句語境不同。",
-        "hurt-mcq-22": "「對生意、銷售或利潤造成不利影響」與本句語境不同。",
-        "hurt-mcq-17": "「令某人感情受傷」與本句語境不同。"
+        "hurt-mcq-20": "本句的「hurt her ego」指「打擊某人的自我形象／自尊」。",
+        "hurt-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-20"
     },
@@ -3039,11 +2871,9 @@ export default {
       "masked": "The mistake ____.",
       "options": [
         "hurt-mcq-21",
-        "hurt-mcq-20",
-        "hurt-mcq-22",
-        "hurt-mcq-19",
-        "hurt-mcq-23",
-        "hurt-mcq-18"
+        "hurt-mcq-44",
+        "hurt-mcq-43",
+        "hurt-mcq-07"
       ],
       "explanation": "本句的「hurt the company’s reputation」指「損害聲譽、形象或可信度」。",
       "sentenceIndex": 44,
@@ -3052,12 +2882,10 @@ export default {
         "hurt the company’s reputation"
       ],
       "optionReasons": {
-        "hurt-mcq-21": "本句指「損害聲譽、形象或可信度」。",
-        "hurt-mcq-20": "「打擊某人的自我形象／自尊」與本句語境不同。",
-        "hurt-mcq-22": "「對生意、銷售或利潤造成不利影響」與本句語境不同。",
-        "hurt-mcq-19": "「傷害某人的自尊」與本句語境不同。",
-        "hurt-mcq-23": "「削弱需求、增長或生產力」與本句語境不同。",
-        "hurt-mcq-18": "「因別人言行造成的受傷情緒」與本句語境不同。"
+        "hurt-mcq-21": "本句的「hurt the company’s reputation」指「損害聲譽、形象或可信度」。",
+        "hurt-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-21"
     },
@@ -3069,11 +2897,9 @@ export default {
       "masked": "Poor communication can ____.",
       "options": [
         "hurt-mcq-21",
-        "hurt-mcq-20",
-        "hurt-mcq-22",
-        "hurt-mcq-19",
-        "hurt-mcq-23",
-        "hurt-mcq-18"
+        "hurt-mcq-83",
+        "hurt-mcq-43",
+        "hurt-mcq-28"
       ],
       "explanation": "本句的「hurt relationships」指「損害聲譽、形象或可信度」。",
       "sentenceIndex": 45,
@@ -3082,12 +2908,10 @@ export default {
         "hurt relationships"
       ],
       "optionReasons": {
-        "hurt-mcq-21": "本句指「損害聲譽、形象或可信度」。",
-        "hurt-mcq-20": "「打擊某人的自我形象／自尊」與本句語境不同。",
-        "hurt-mcq-22": "「對生意、銷售或利潤造成不利影響」與本句語境不同。",
-        "hurt-mcq-19": "「傷害某人的自尊」與本句語境不同。",
-        "hurt-mcq-23": "「削弱需求、增長或生產力」與本句語境不同。",
-        "hurt-mcq-18": "「因別人言行造成的受傷情緒」與本句語境不同。"
+        "hurt-mcq-21": "本句的「hurt relationships」指「損害聲譽、形象或可信度」。",
+        "hurt-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-21"
     },
@@ -3099,11 +2923,9 @@ export default {
       "masked": "The incident ____.",
       "options": [
         "hurt-mcq-21",
-        "hurt-mcq-20",
-        "hurt-mcq-22",
-        "hurt-mcq-19",
-        "hurt-mcq-23",
-        "hurt-mcq-18"
+        "hurt-mcq-24",
+        "hurt-mcq-31",
+        "hurt-mcq-10"
       ],
       "explanation": "本句的「hurt the brand’s reputation」指「損害聲譽、形象或可信度」。",
       "sentenceIndex": 46,
@@ -3112,12 +2934,10 @@ export default {
         "hurt the brand’s reputation"
       ],
       "optionReasons": {
-        "hurt-mcq-21": "本句指「損害聲譽、形象或可信度」。",
-        "hurt-mcq-20": "「打擊某人的自我形象／自尊」與本句語境不同。",
-        "hurt-mcq-22": "「對生意、銷售或利潤造成不利影響」與本句語境不同。",
-        "hurt-mcq-19": "「傷害某人的自尊」與本句語境不同。",
-        "hurt-mcq-23": "「削弱需求、增長或生產力」與本句語境不同。",
-        "hurt-mcq-18": "「因別人言行造成的受傷情緒」與本句語境不同。"
+        "hurt-mcq-21": "本句的「hurt the brand’s reputation」指「損害聲譽、形象或可信度」。",
+        "hurt-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-21"
     },
@@ -3129,11 +2949,9 @@ export default {
       "masked": "Repeated mistakes can ____.",
       "options": [
         "hurt-mcq-21",
-        "hurt-mcq-20",
+        "hurt-mcq-44",
         "hurt-mcq-22",
-        "hurt-mcq-19",
-        "hurt-mcq-23",
-        "hurt-mcq-18"
+        "hurt-mcq-78"
       ],
       "explanation": "本句的「hurt your credibility」指「損害聲譽、形象或可信度」。",
       "sentenceIndex": 47,
@@ -3142,12 +2960,10 @@ export default {
         "hurt your credibility"
       ],
       "optionReasons": {
-        "hurt-mcq-21": "本句指「損害聲譽、形象或可信度」。",
-        "hurt-mcq-20": "「打擊某人的自我形象／自尊」與本句語境不同。",
-        "hurt-mcq-22": "「對生意、銷售或利潤造成不利影響」與本句語境不同。",
-        "hurt-mcq-19": "「傷害某人的自尊」與本句語境不同。",
-        "hurt-mcq-23": "「削弱需求、增長或生產力」與本句語境不同。",
-        "hurt-mcq-18": "「因別人言行造成的受傷情緒」與本句語境不同。"
+        "hurt-mcq-21": "本句的「hurt your credibility」指「損害聲譽、形象或可信度」。",
+        "hurt-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-21"
     },
@@ -3159,11 +2975,9 @@ export default {
       "masked": "Rising costs ____.",
       "options": [
         "hurt-mcq-22",
-        "hurt-mcq-21",
-        "hurt-mcq-23",
-        "hurt-mcq-20",
-        "hurt-mcq-24",
-        "hurt-mcq-19"
+        "hurt-mcq-29",
+        "hurt-mcq-15",
+        "hurt-mcq-02"
       ],
       "explanation": "本句的「hurt profits」指「對生意、銷售或利潤造成不利影響」。",
       "sentenceIndex": 48,
@@ -3172,12 +2986,10 @@ export default {
         "hurt profits"
       ],
       "optionReasons": {
-        "hurt-mcq-22": "本句指「對生意、銷售或利潤造成不利影響」。",
-        "hurt-mcq-21": "「損害聲譽、形象或可信度」與本句語境不同。",
-        "hurt-mcq-23": "「削弱需求、增長或生產力」與本句語境不同。",
-        "hurt-mcq-20": "「打擊某人的自我形象／自尊」與本句語境不同。",
-        "hurt-mcq-24": "「降低某人成功／獲選的機會」與本句語境不同。",
-        "hurt-mcq-19": "「傷害某人的自尊」與本句語境不同。"
+        "hurt-mcq-22": "本句的「hurt profits」指「對生意、銷售或利潤造成不利影響」。",
+        "hurt-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-22"
     },
@@ -3189,11 +3001,9 @@ export default {
       "masked": "The closure ____.",
       "options": [
         "hurt-mcq-22",
-        "hurt-mcq-21",
-        "hurt-mcq-23",
-        "hurt-mcq-20",
-        "hurt-mcq-24",
-        "hurt-mcq-19"
+        "hurt-mcq-16",
+        "hurt-mcq-74",
+        "hurt-mcq-39"
       ],
       "explanation": "本句的「hurt local businesses」指「對生意、銷售或利潤造成不利影響」。",
       "sentenceIndex": 49,
@@ -3202,12 +3012,10 @@ export default {
         "hurt local businesses"
       ],
       "optionReasons": {
-        "hurt-mcq-22": "本句指「對生意、銷售或利潤造成不利影響」。",
-        "hurt-mcq-21": "「損害聲譽、形象或可信度」與本句語境不同。",
-        "hurt-mcq-23": "「削弱需求、增長或生產力」與本句語境不同。",
-        "hurt-mcq-20": "「打擊某人的自我形象／自尊」與本句語境不同。",
-        "hurt-mcq-24": "「降低某人成功／獲選的機會」與本句語境不同。",
-        "hurt-mcq-19": "「傷害某人的自尊」與本句語境不同。"
+        "hurt-mcq-22": "本句的「hurt local businesses」指「對生意、銷售或利潤造成不利影響」。",
+        "hurt-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-22"
     },
@@ -3219,11 +3027,9 @@ export default {
       "masked": "Uncertainty can ____.",
       "options": [
         "hurt-mcq-23",
-        "hurt-mcq-22",
-        "hurt-mcq-24",
-        "hurt-mcq-21",
-        "hurt-mcq-25",
-        "hurt-mcq-20"
+        "hurt-mcq-79",
+        "hurt-mcq-05",
+        "hurt-mcq-41"
       ],
       "explanation": "本句的「hurt investment」指「削弱需求、增長或生產力」。",
       "sentenceIndex": 50,
@@ -3232,12 +3038,10 @@ export default {
         "hurt investment"
       ],
       "optionReasons": {
-        "hurt-mcq-23": "本句指「削弱需求、增長或生產力」。",
-        "hurt-mcq-22": "「對生意、銷售或利潤造成不利影響」與本句語境不同。",
-        "hurt-mcq-24": "「降低某人成功／獲選的機會」與本句語境不同。",
-        "hurt-mcq-21": "「損害聲譽、形象或可信度」與本句語境不同。",
-        "hurt-mcq-25": "「損害未來前景」與本句語境不同。",
-        "hurt-mcq-20": "「打擊某人的自我形象／自尊」與本句語境不同。"
+        "hurt-mcq-23": "本句的「hurt investment」指「削弱需求、增長或生產力」。",
+        "hurt-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-23"
     },
@@ -3249,11 +3053,9 @@ export default {
       "masked": "Poor systems can ____.",
       "options": [
         "hurt-mcq-23",
-        "hurt-mcq-22",
-        "hurt-mcq-24",
-        "hurt-mcq-21",
-        "hurt-mcq-25",
-        "hurt-mcq-20"
+        "hurt-mcq-08",
+        "hurt-mcq-33",
+        "hurt-mcq-39"
       ],
       "explanation": "本句的「hurt productivity」指「削弱需求、增長或生產力」。",
       "sentenceIndex": 51,
@@ -3262,12 +3064,10 @@ export default {
         "hurt productivity"
       ],
       "optionReasons": {
-        "hurt-mcq-23": "本句指「削弱需求、增長或生產力」。",
-        "hurt-mcq-22": "「對生意、銷售或利潤造成不利影響」與本句語境不同。",
-        "hurt-mcq-24": "「降低某人成功／獲選的機會」與本句語境不同。",
-        "hurt-mcq-21": "「損害聲譽、形象或可信度」與本句語境不同。",
-        "hurt-mcq-25": "「損害未來前景」與本句語境不同。",
-        "hurt-mcq-20": "「打擊某人的自我形象／自尊」與本句語境不同。"
+        "hurt-mcq-23": "本句的「hurt productivity」指「削弱需求、增長或生產力」。",
+        "hurt-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-23"
     },
@@ -3279,11 +3079,9 @@ export default {
       "masked": "Missing the deadline may ____ of being selected.",
       "options": [
         "hurt-mcq-24",
-        "hurt-mcq-23",
-        "hurt-mcq-25",
-        "hurt-mcq-22",
-        "hurt-mcq-26",
-        "hurt-mcq-21"
+        "hurt-mcq-08",
+        "hurt-mcq-80",
+        "hurt-mcq-31"
       ],
       "explanation": "本句的「hurt your chances」指「降低某人成功／獲選的機會」。",
       "sentenceIndex": 52,
@@ -3292,12 +3090,10 @@ export default {
         "hurt your chances"
       ],
       "optionReasons": {
-        "hurt-mcq-24": "本句指「降低某人成功／獲選的機會」。",
-        "hurt-mcq-23": "「削弱需求、增長或生產力」與本句語境不同。",
-        "hurt-mcq-25": "「損害未來前景」與本句語境不同。",
-        "hurt-mcq-22": "「對生意、銷售或利潤造成不利影響」與本句語境不同。",
-        "hurt-mcq-26": "「對表現造成負面影響」與本句語境不同。",
-        "hurt-mcq-21": "「損害聲譽、形象或可信度」與本句語境不同。"
+        "hurt-mcq-24": "本句的「hurt your chances」指「降低某人成功／獲選的機會」。",
+        "hurt-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-24"
     },
@@ -3309,11 +3105,9 @@ export default {
       "masked": "The mistake ____.",
       "options": [
         "hurt-mcq-24",
-        "hurt-mcq-23",
-        "hurt-mcq-25",
-        "hurt-mcq-22",
-        "hurt-mcq-26",
-        "hurt-mcq-21"
+        "hurt-mcq-11",
+        "hurt-mcq-83",
+        "hurt-mcq-06"
       ],
       "explanation": "本句的「hurt their chances of success」指「降低某人成功／獲選的機會」。",
       "sentenceIndex": 53,
@@ -3322,12 +3116,10 @@ export default {
         "hurt their chances of success"
       ],
       "optionReasons": {
-        "hurt-mcq-24": "本句指「降低某人成功／獲選的機會」。",
-        "hurt-mcq-23": "「削弱需求、增長或生產力」與本句語境不同。",
-        "hurt-mcq-25": "「損害未來前景」與本句語境不同。",
-        "hurt-mcq-22": "「對生意、銷售或利潤造成不利影響」與本句語境不同。",
-        "hurt-mcq-26": "「對表現造成負面影響」與本句語境不同。",
-        "hurt-mcq-21": "「損害聲譽、形象或可信度」與本句語境不同。"
+        "hurt-mcq-24": "本句的「hurt their chances of success」指「降低某人成功／獲選的機會」。",
+        "hurt-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-24"
     },
@@ -3339,11 +3131,9 @@ export default {
       "masked": "Poor results may ____.",
       "options": [
         "hurt-mcq-25",
-        "hurt-mcq-24",
-        "hurt-mcq-26",
-        "hurt-mcq-23",
-        "hurt-mcq-27",
-        "hurt-mcq-22"
+        "hurt-mcq-20",
+        "hurt-mcq-50",
+        "hurt-mcq-26"
       ],
       "explanation": "本句的「hurt his career prospects」指「損害未來前景」。",
       "sentenceIndex": 54,
@@ -3352,12 +3142,10 @@ export default {
         "hurt his career prospects"
       ],
       "optionReasons": {
-        "hurt-mcq-25": "本句指「損害未來前景」。",
-        "hurt-mcq-24": "「降低某人成功／獲選的機會」與本句語境不同。",
-        "hurt-mcq-26": "「對表現造成負面影響」與本句語境不同。",
-        "hurt-mcq-23": "「削弱需求、增長或生產力」與本句語境不同。",
-        "hurt-mcq-27": "「對環境／野生動物造成傷害」與本句語境不同。",
-        "hurt-mcq-22": "「對生意、銷售或利潤造成不利影響」與本句語境不同。"
+        "hurt-mcq-25": "本句的「hurt his career prospects」指「損害未來前景」。",
+        "hurt-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-25"
     },
@@ -3369,11 +3157,9 @@ export default {
       "masked": "The delay could ____.",
       "options": [
         "hurt-mcq-25",
-        "hurt-mcq-24",
-        "hurt-mcq-26",
-        "hurt-mcq-23",
-        "hurt-mcq-27",
-        "hurt-mcq-22"
+        "hurt-mcq-29",
+        "hurt-mcq-35",
+        "hurt-mcq-02"
       ],
       "explanation": "本句的「hurt the project’s prospects」指「損害未來前景」。",
       "sentenceIndex": 55,
@@ -3382,12 +3168,10 @@ export default {
         "hurt the project’s prospects"
       ],
       "optionReasons": {
-        "hurt-mcq-25": "本句指「損害未來前景」。",
-        "hurt-mcq-24": "「降低某人成功／獲選的機會」與本句語境不同。",
-        "hurt-mcq-26": "「對表現造成負面影響」與本句語境不同。",
-        "hurt-mcq-23": "「削弱需求、增長或生產力」與本句語境不同。",
-        "hurt-mcq-27": "「對環境／野生動物造成傷害」與本句語境不同。",
-        "hurt-mcq-22": "「對生意、銷售或利潤造成不利影響」與本句語境不同。"
+        "hurt-mcq-25": "本句的「hurt the project’s prospects」指「損害未來前景」。",
+        "hurt-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-25"
     },
@@ -3399,11 +3183,9 @@ export default {
       "masked": "Lack of sleep can ____.",
       "options": [
         "hurt-mcq-26",
-        "hurt-mcq-25",
-        "hurt-mcq-27",
-        "hurt-mcq-24",
-        "hurt-mcq-28",
-        "hurt-mcq-23"
+        "hurt-mcq-20",
+        "hurt-mcq-50",
+        "hurt-mcq-38"
       ],
       "explanation": "本句的「hurt performance」指「對表現造成負面影響」。",
       "sentenceIndex": 56,
@@ -3412,12 +3194,10 @@ export default {
         "hurt performance"
       ],
       "optionReasons": {
-        "hurt-mcq-26": "本句指「對表現造成負面影響」。",
-        "hurt-mcq-25": "「損害未來前景」與本句語境不同。",
-        "hurt-mcq-27": "「對環境／野生動物造成傷害」與本句語境不同。",
-        "hurt-mcq-24": "「降低某人成功／獲選的機會」與本句語境不同。",
-        "hurt-mcq-28": "「正在承受身體疼痛」與本句語境不同。",
-        "hurt-mcq-23": "「削弱需求、增長或生產力」與本句語境不同。"
+        "hurt-mcq-26": "本句的「hurt performance」指「對表現造成負面影響」。",
+        "hurt-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-26"
     },
@@ -3429,11 +3209,9 @@ export default {
       "masked": "Poor preparation ____.",
       "options": [
         "hurt-mcq-26",
-        "hurt-mcq-25",
-        "hurt-mcq-27",
-        "hurt-mcq-24",
-        "hurt-mcq-28",
-        "hurt-mcq-23"
+        "hurt-mcq-38",
+        "hurt-mcq-77",
+        "hurt-mcq-14"
       ],
       "explanation": "本句的「hurt the team’s performance」指「對表現造成負面影響」。",
       "sentenceIndex": 57,
@@ -3442,12 +3220,10 @@ export default {
         "hurt the team’s performance"
       ],
       "optionReasons": {
-        "hurt-mcq-26": "本句指「對表現造成負面影響」。",
-        "hurt-mcq-25": "「損害未來前景」與本句語境不同。",
-        "hurt-mcq-27": "「對環境／野生動物造成傷害」與本句語境不同。",
-        "hurt-mcq-24": "「降低某人成功／獲選的機會」與本句語境不同。",
-        "hurt-mcq-28": "「正在承受身體疼痛」與本句語境不同。",
-        "hurt-mcq-23": "「削弱需求、增長或生產力」與本句語境不同。"
+        "hurt-mcq-26": "本句的「hurt the team’s performance」指「對表現造成負面影響」。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-26"
     },
@@ -3459,11 +3235,9 @@ export default {
       "masked": "Excessive waste can ____.",
       "options": [
         "hurt-mcq-27",
-        "hurt-mcq-26",
-        "hurt-mcq-28",
-        "hurt-mcq-25",
-        "hurt-mcq-29",
-        "hurt-mcq-24"
+        "hurt-mcq-12",
+        "hurt-mcq-74",
+        "hurt-mcq-02"
       ],
       "explanation": "本句的「hurt the environment」指「對環境／野生動物造成傷害」。",
       "sentenceIndex": 58,
@@ -3472,12 +3246,10 @@ export default {
         "hurt the environment"
       ],
       "optionReasons": {
-        "hurt-mcq-27": "本句指「對環境／野生動物造成傷害」。",
-        "hurt-mcq-26": "「對表現造成負面影響」與本句語境不同。",
-        "hurt-mcq-28": "「正在承受身體疼痛」與本句語境不同。",
-        "hurt-mcq-25": "「損害未來前景」與本句語境不同。",
-        "hurt-mcq-29": "「正處於明顯的情緒痛苦中」與本句語境不同。",
-        "hurt-mcq-24": "「降低某人成功／獲選的機會」與本句語境不同。"
+        "hurt-mcq-27": "本句的「hurt the environment」指「對環境／野生動物造成傷害」。",
+        "hurt-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-27"
     },
@@ -3489,11 +3261,9 @@ export default {
       "masked": "The chemicals may ____.",
       "options": [
         "hurt-mcq-27",
-        "hurt-mcq-26",
-        "hurt-mcq-28",
-        "hurt-mcq-25",
-        "hurt-mcq-29",
-        "hurt-mcq-24"
+        "hurt-mcq-76",
+        "hurt-mcq-12",
+        "hurt-mcq-71"
       ],
       "explanation": "本句的「hurt wildlife」指「對環境／野生動物造成傷害」。",
       "sentenceIndex": 59,
@@ -3502,12 +3272,10 @@ export default {
         "hurt wildlife"
       ],
       "optionReasons": {
-        "hurt-mcq-27": "本句指「對環境／野生動物造成傷害」。",
-        "hurt-mcq-26": "「對表現造成負面影響」與本句語境不同。",
-        "hurt-mcq-28": "「正在承受身體疼痛」與本句語境不同。",
-        "hurt-mcq-25": "「損害未來前景」與本句語境不同。",
-        "hurt-mcq-29": "「正處於明顯的情緒痛苦中」與本句語境不同。",
-        "hurt-mcq-24": "「降低某人成功／獲選的機會」與本句語境不同。"
+        "hurt-mcq-27": "本句的「hurt wildlife」指「對環境／野生動物造成傷害」。",
+        "hurt-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-27"
     },
@@ -3519,11 +3287,9 @@ export default {
       "masked": "He is still ____ after the fall.",
       "options": [
         "hurt-mcq-28",
-        "hurt-mcq-27",
-        "hurt-mcq-29",
-        "hurt-mcq-26",
-        "hurt-mcq-30",
-        "hurt-mcq-25"
+        "hurt-mcq-35",
+        "hurt-mcq-25",
+        "hurt-mcq-39"
       ],
       "explanation": "本句的「hurting」指「正在承受身體疼痛」。",
       "sentenceIndex": 60,
@@ -3532,12 +3298,10 @@ export default {
         "hurting"
       ],
       "optionReasons": {
-        "hurt-mcq-28": "本句指「正在承受身體疼痛」。",
-        "hurt-mcq-27": "「對環境／野生動物造成傷害」與本句語境不同。",
-        "hurt-mcq-29": "「正處於明顯的情緒痛苦中」與本句語境不同。",
-        "hurt-mcq-26": "「對表現造成負面影響」與本句語境不同。",
-        "hurt-mcq-30": "「非正式：企業／行業正處於困難狀態」與本句語境不同。",
-        "hurt-mcq-25": "「損害未來前景」與本句語境不同。"
+        "hurt-mcq-28": "本句的「hurting」指「正在承受身體疼痛」。",
+        "hurt-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-28"
     },
@@ -3549,11 +3313,9 @@ export default {
       "masked": "My shoulder is really ____ today.",
       "options": [
         "hurt-mcq-28",
-        "hurt-mcq-27",
-        "hurt-mcq-29",
-        "hurt-mcq-26",
-        "hurt-mcq-30",
-        "hurt-mcq-25"
+        "hurt-mcq-35",
+        "hurt-mcq-72",
+        "hurt-mcq-39"
       ],
       "explanation": "本句的「hurting」指「正在承受身體疼痛」。",
       "sentenceIndex": 61,
@@ -3562,12 +3324,10 @@ export default {
         "hurting"
       ],
       "optionReasons": {
-        "hurt-mcq-28": "本句指「正在承受身體疼痛」。",
-        "hurt-mcq-27": "「對環境／野生動物造成傷害」與本句語境不同。",
-        "hurt-mcq-29": "「正處於明顯的情緒痛苦中」與本句語境不同。",
-        "hurt-mcq-26": "「對表現造成負面影響」與本句語境不同。",
-        "hurt-mcq-30": "「非正式：企業／行業正處於困難狀態」與本句語境不同。",
-        "hurt-mcq-25": "「損害未來前景」與本句語境不同。"
+        "hurt-mcq-28": "本句的「hurting」指「正在承受身體疼痛」。",
+        "hurt-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-28"
     },
@@ -3579,11 +3339,9 @@ export default {
       "masked": "She is clearly ____ after the breakup.",
       "options": [
         "hurt-mcq-29",
-        "hurt-mcq-28",
-        "hurt-mcq-30",
-        "hurt-mcq-27",
-        "hurt-mcq-31",
-        "hurt-mcq-26"
+        "hurt-mcq-65",
+        "hurt-mcq-61",
+        "hurt-mcq-71"
       ],
       "explanation": "本句的「hurting」指「正處於明顯的情緒痛苦中」。",
       "sentenceIndex": 62,
@@ -3592,12 +3350,10 @@ export default {
         "hurting"
       ],
       "optionReasons": {
-        "hurt-mcq-29": "本句指「正處於明顯的情緒痛苦中」。",
-        "hurt-mcq-28": "「正在承受身體疼痛」與本句語境不同。",
-        "hurt-mcq-30": "「非正式：企業／行業正處於困難狀態」與本句語境不同。",
-        "hurt-mcq-27": "「對環境／野生動物造成傷害」與本句語境不同。",
-        "hurt-mcq-31": "「財務上正面對困難」與本句語境不同。",
-        "hurt-mcq-26": "「對表現造成負面影響」與本句語境不同。"
+        "hurt-mcq-29": "本句的「hurting」指「正處於明顯的情緒痛苦中」。",
+        "hurt-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-29"
     },
@@ -3609,11 +3365,9 @@ export default {
       "masked": "He acts cheerful, but I think he is ____ inside.",
       "options": [
         "hurt-mcq-29",
-        "hurt-mcq-28",
-        "hurt-mcq-30",
-        "hurt-mcq-27",
-        "hurt-mcq-31",
-        "hurt-mcq-26"
+        "hurt-mcq-47",
+        "hurt-mcq-69",
+        "hurt-mcq-21"
       ],
       "explanation": "本句的「hurting」指「正處於明顯的情緒痛苦中」。",
       "sentenceIndex": 63,
@@ -3622,12 +3376,10 @@ export default {
         "hurting"
       ],
       "optionReasons": {
-        "hurt-mcq-29": "本句指「正處於明顯的情緒痛苦中」。",
-        "hurt-mcq-28": "「正在承受身體疼痛」與本句語境不同。",
-        "hurt-mcq-30": "「非正式：企業／行業正處於困難狀態」與本句語境不同。",
-        "hurt-mcq-27": "「對環境／野生動物造成傷害」與本句語境不同。",
-        "hurt-mcq-31": "「財務上正面對困難」與本句語境不同。",
-        "hurt-mcq-26": "「對表現造成負面影響」與本句語境不同。"
+        "hurt-mcq-29": "本句的「hurting」指「正處於明顯的情緒痛苦中」。",
+        "hurt-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-29"
     },
@@ -3639,11 +3391,9 @@ export default {
       "masked": "Small retailers are ____.",
       "options": [
         "hurt-mcq-30",
-        "hurt-mcq-29",
-        "hurt-mcq-31",
-        "hurt-mcq-28",
-        "hurt-mcq-32",
-        "hurt-mcq-27"
+        "hurt-mcq-71",
+        "hurt-mcq-21",
+        "hurt-mcq-46"
       ],
       "explanation": "本句的「hurting」指「非正式：企業／行業正處於困難狀態」。",
       "sentenceIndex": 64,
@@ -3652,12 +3402,10 @@ export default {
         "hurting"
       ],
       "optionReasons": {
-        "hurt-mcq-30": "本句指「非正式：企業／行業正處於困難狀態」。",
-        "hurt-mcq-29": "「正處於明顯的情緒痛苦中」與本句語境不同。",
-        "hurt-mcq-31": "「財務上正面對困難」與本句語境不同。",
-        "hurt-mcq-28": "「正在承受身體疼痛」與本句語境不同。",
-        "hurt-mcq-32": "「因某人受苦而替他／她心痛」與本句語境不同。",
-        "hurt-mcq-27": "「對環境／野生動物造成傷害」與本句語境不同。"
+        "hurt-mcq-30": "本句的「hurting」指「非正式：企業／行業正處於困難狀態」。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-30"
     },
@@ -3669,11 +3417,9 @@ export default {
       "masked": "The industry has been ____ for months.",
       "options": [
         "hurt-mcq-30",
-        "hurt-mcq-29",
-        "hurt-mcq-31",
-        "hurt-mcq-28",
-        "hurt-mcq-32",
-        "hurt-mcq-27"
+        "hurt-mcq-46",
+        "hurt-mcq-52",
+        "hurt-mcq-51"
       ],
       "explanation": "本句的「hurting」指「非正式：企業／行業正處於困難狀態」。",
       "sentenceIndex": 65,
@@ -3682,12 +3428,10 @@ export default {
         "hurting"
       ],
       "optionReasons": {
-        "hurt-mcq-30": "本句指「非正式：企業／行業正處於困難狀態」。",
-        "hurt-mcq-29": "「正處於明顯的情緒痛苦中」與本句語境不同。",
-        "hurt-mcq-31": "「財務上正面對困難」與本句語境不同。",
-        "hurt-mcq-28": "「正在承受身體疼痛」與本句語境不同。",
-        "hurt-mcq-32": "「因某人受苦而替他／她心痛」與本句語境不同。",
-        "hurt-mcq-27": "「對環境／野生動物造成傷害」與本句語境不同。"
+        "hurt-mcq-30": "本句的「hurting」指「非正式：企業／行業正處於困難狀態」。",
+        "hurt-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-30"
     },
@@ -3699,11 +3443,9 @@ export default {
       "masked": "The family is ____.",
       "options": [
         "hurt-mcq-31",
-        "hurt-mcq-30",
-        "hurt-mcq-32",
-        "hurt-mcq-29",
-        "hurt-mcq-33",
-        "hurt-mcq-28"
+        "hurt-mcq-03",
+        "hurt-mcq-66",
+        "hurt-mcq-40"
       ],
       "explanation": "本句的「hurting financially」指「財務上正面對困難」。",
       "sentenceIndex": 66,
@@ -3712,12 +3454,10 @@ export default {
         "hurting financially"
       ],
       "optionReasons": {
-        "hurt-mcq-31": "本句指「財務上正面對困難」。",
-        "hurt-mcq-30": "「非正式：企業／行業正處於困難狀態」與本句語境不同。",
-        "hurt-mcq-32": "「因某人受苦而替他／她心痛」與本句語境不同。",
-        "hurt-mcq-29": "「正處於明顯的情緒痛苦中」與本句語境不同。",
-        "hurt-mcq-33": "「受傷」與本句語境不同。",
-        "hurt-mcq-28": "「正在承受身體疼痛」與本句語境不同。"
+        "hurt-mcq-31": "本句的「hurting financially」指「財務上正面對困難」。",
+        "hurt-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-31"
     },
@@ -3729,11 +3469,9 @@ export default {
       "masked": "Several companies are ____ after the downturn.",
       "options": [
         "hurt-mcq-31",
-        "hurt-mcq-30",
-        "hurt-mcq-32",
-        "hurt-mcq-29",
-        "hurt-mcq-33",
-        "hurt-mcq-28"
+        "hurt-mcq-19",
+        "hurt-mcq-02",
+        "hurt-mcq-21"
       ],
       "explanation": "本句的「hurting financially」指「財務上正面對困難」。",
       "sentenceIndex": 67,
@@ -3742,12 +3480,10 @@ export default {
         "hurting financially"
       ],
       "optionReasons": {
-        "hurt-mcq-31": "本句指「財務上正面對困難」。",
-        "hurt-mcq-30": "「非正式：企業／行業正處於困難狀態」與本句語境不同。",
-        "hurt-mcq-32": "「因某人受苦而替他／她心痛」與本句語境不同。",
-        "hurt-mcq-29": "「正處於明顯的情緒痛苦中」與本句語境不同。",
-        "hurt-mcq-33": "「受傷」與本句語境不同。",
-        "hurt-mcq-28": "「正在承受身體疼痛」與本句語境不同。"
+        "hurt-mcq-31": "本句的「hurting financially」指「財務上正面對困難」。",
+        "hurt-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-31"
     },
@@ -3759,11 +3495,9 @@ export default {
       "masked": "I really ____ after hearing what happened.",
       "options": [
         "hurt-mcq-32",
-        "hurt-mcq-31",
-        "hurt-mcq-33",
-        "hurt-mcq-30",
-        "hurt-mcq-34",
-        "hurt-mcq-29"
+        "hurt-mcq-05",
+        "hurt-mcq-70",
+        "hurt-mcq-55"
       ],
       "explanation": "本句的「hurt for her」指「因某人受苦而替他／她心痛」。",
       "sentenceIndex": 68,
@@ -3772,12 +3506,10 @@ export default {
         "hurt for her"
       ],
       "optionReasons": {
-        "hurt-mcq-32": "本句指「因某人受苦而替他／她心痛」。",
-        "hurt-mcq-31": "「財務上正面對困難」與本句語境不同。",
-        "hurt-mcq-33": "「受傷」與本句語境不同。",
-        "hurt-mcq-30": "「非正式：企業／行業正處於困難狀態」與本句語境不同。",
-        "hurt-mcq-34": "「感情受到傷害」與本句語境不同。",
-        "hurt-mcq-29": "「正處於明顯的情緒痛苦中」與本句語境不同。"
+        "hurt-mcq-32": "本句的「hurt for her」指「因某人受苦而替他／她心痛」。",
+        "hurt-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-32"
     },
@@ -3789,11 +3521,9 @@ export default {
       "masked": "His parents ____ but did not know how to help.",
       "options": [
         "hurt-mcq-32",
-        "hurt-mcq-31",
-        "hurt-mcq-33",
-        "hurt-mcq-30",
-        "hurt-mcq-34",
-        "hurt-mcq-29"
+        "hurt-mcq-21",
+        "hurt-mcq-41",
+        "hurt-mcq-40"
       ],
       "explanation": "本句的「hurt for him」指「因某人受苦而替他／她心痛」。",
       "sentenceIndex": 69,
@@ -3802,12 +3532,10 @@ export default {
         "hurt for him"
       ],
       "optionReasons": {
-        "hurt-mcq-32": "本句指「因某人受苦而替他／她心痛」。",
-        "hurt-mcq-31": "「財務上正面對困難」與本句語境不同。",
-        "hurt-mcq-33": "「受傷」與本句語境不同。",
-        "hurt-mcq-30": "「非正式：企業／行業正處於困難狀態」與本句語境不同。",
-        "hurt-mcq-34": "「感情受到傷害」與本句語境不同。",
-        "hurt-mcq-29": "「正處於明顯的情緒痛苦中」與本句語境不同。"
+        "hurt-mcq-32": "本句的「hurt for him」指「因某人受苦而替他／她心痛」。",
+        "hurt-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-32"
     },
@@ -3819,11 +3547,9 @@ export default {
       "masked": "Be careful or you’ll ____.",
       "options": [
         "hurt-mcq-33",
-        "hurt-mcq-32",
-        "hurt-mcq-34",
-        "hurt-mcq-31",
-        "hurt-mcq-35",
-        "hurt-mcq-30"
+        "hurt-mcq-76",
+        "hurt-mcq-21",
+        "hurt-mcq-74"
       ],
       "explanation": "本句的「get hurt」指「受傷」。",
       "sentenceIndex": 70,
@@ -3832,12 +3558,10 @@ export default {
         "get hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-33": "本句指「受傷」。",
-        "hurt-mcq-32": "「因某人受苦而替他／她心痛」與本句語境不同。",
-        "hurt-mcq-34": "「感情受到傷害」與本句語境不同。",
-        "hurt-mcq-31": "「財務上正面對困難」與本句語境不同。",
-        "hurt-mcq-35": "「運動員帶傷上陣」與本句語境不同。",
-        "hurt-mcq-30": "「非正式：企業／行業正處於困難狀態」與本句語境不同。"
+        "hurt-mcq-33": "本句的「get hurt」指「受傷」。",
+        "hurt-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-33"
     },
@@ -3849,11 +3573,9 @@ export default {
       "masked": "Nobody ____ in the accident.",
       "options": [
         "hurt-mcq-33",
-        "hurt-mcq-32",
-        "hurt-mcq-34",
-        "hurt-mcq-31",
-        "hurt-mcq-35",
-        "hurt-mcq-30"
+        "hurt-mcq-43",
+        "hurt-mcq-21",
+        "hurt-mcq-29"
       ],
       "explanation": "本句的「got hurt」指「受傷」。",
       "sentenceIndex": 71,
@@ -3862,12 +3584,10 @@ export default {
         "got hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-33": "本句指「受傷」。",
-        "hurt-mcq-32": "「因某人受苦而替他／她心痛」與本句語境不同。",
-        "hurt-mcq-34": "「感情受到傷害」與本句語境不同。",
-        "hurt-mcq-31": "「財務上正面對困難」與本句語境不同。",
-        "hurt-mcq-35": "「運動員帶傷上陣」與本句語境不同。",
-        "hurt-mcq-30": "「非正式：企業／行業正處於困難狀態」與本句語境不同。"
+        "hurt-mcq-33": "本句的「got hurt」指「受傷」。",
+        "hurt-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-33"
     },
@@ -3879,11 +3599,9 @@ export default {
       "masked": "If expectations are unclear, people can ____.",
       "options": [
         "hurt-mcq-34",
-        "hurt-mcq-33",
-        "hurt-mcq-35",
-        "hurt-mcq-32",
-        "hurt-mcq-36",
-        "hurt-mcq-31"
+        "hurt-mcq-38",
+        "hurt-mcq-26",
+        "hurt-mcq-06"
       ],
       "explanation": "本句的「get hurt」指「感情受到傷害」。",
       "sentenceIndex": 72,
@@ -3892,12 +3610,10 @@ export default {
         "get hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-34": "本句指「感情受到傷害」。",
-        "hurt-mcq-33": "「受傷」與本句語境不同。",
-        "hurt-mcq-35": "「運動員帶傷上陣」與本句語境不同。",
-        "hurt-mcq-32": "「因某人受苦而替他／她心痛」與本句語境不同。",
-        "hurt-mcq-36": "「沒有人受到身體傷害」與本句語境不同。",
-        "hurt-mcq-31": "「財務上正面對困難」與本句語境不同。"
+        "hurt-mcq-34": "本句的「get hurt」指「感情受到傷害」。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-34"
     },
@@ -3909,11 +3625,9 @@ export default {
       "masked": "She was afraid of ____.",
       "options": [
         "hurt-mcq-34",
-        "hurt-mcq-33",
-        "hurt-mcq-35",
-        "hurt-mcq-32",
-        "hurt-mcq-36",
-        "hurt-mcq-31"
+        "hurt-mcq-12",
+        "hurt-mcq-69",
+        "hurt-mcq-76"
       ],
       "explanation": "本句的「getting hurt again」指「感情受到傷害」。",
       "sentenceIndex": 73,
@@ -3922,12 +3636,10 @@ export default {
         "getting hurt again"
       ],
       "optionReasons": {
-        "hurt-mcq-34": "本句指「感情受到傷害」。",
-        "hurt-mcq-33": "「受傷」與本句語境不同。",
-        "hurt-mcq-35": "「運動員帶傷上陣」與本句語境不同。",
-        "hurt-mcq-32": "「因某人受苦而替他／她心痛」與本句語境不同。",
-        "hurt-mcq-36": "「沒有人受到身體傷害」與本句語境不同。",
-        "hurt-mcq-31": "「財務上正面對困難」與本句語境不同。"
+        "hurt-mcq-34": "本句的「getting hurt again」指「感情受到傷害」。",
+        "hurt-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-34"
     },
@@ -3939,11 +3651,9 @@ export default {
       "masked": "He decided to ____.",
       "options": [
         "hurt-mcq-35",
-        "hurt-mcq-34",
-        "hurt-mcq-36",
-        "hurt-mcq-33",
-        "hurt-mcq-37",
-        "hurt-mcq-32"
+        "hurt-mcq-01",
+        "hurt-mcq-70",
+        "hurt-mcq-76"
       ],
       "explanation": "本句的「play hurt」指「運動員帶傷上陣」。",
       "sentenceIndex": 74,
@@ -3952,12 +3662,10 @@ export default {
         "play hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-35": "本句指「運動員帶傷上陣」。",
-        "hurt-mcq-34": "「感情受到傷害」與本句語境不同。",
-        "hurt-mcq-36": "「沒有人受到身體傷害」與本句語境不同。",
-        "hurt-mcq-33": "「受傷」與本句語境不同。",
-        "hurt-mcq-37": "「按要求做，便沒有人會受到傷害」與本句語境不同。",
-        "hurt-mcq-32": "「因某人受苦而替他／她心痛」與本句語境不同。"
+        "hurt-mcq-35": "本句的「play hurt」指「運動員帶傷上陣」。",
+        "hurt-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-35"
     },
@@ -3969,11 +3677,9 @@ export default {
       "masked": "Athletes sometimes continue ____.",
       "options": [
         "hurt-mcq-35",
-        "hurt-mcq-34",
-        "hurt-mcq-36",
-        "hurt-mcq-33",
-        "hurt-mcq-37",
-        "hurt-mcq-32"
+        "hurt-mcq-09",
+        "hurt-mcq-73",
+        "hurt-mcq-69"
       ],
       "explanation": "本句的「playing hurt」指「運動員帶傷上陣」。",
       "sentenceIndex": 75,
@@ -3982,12 +3688,10 @@ export default {
         "playing hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-35": "本句指「運動員帶傷上陣」。",
-        "hurt-mcq-34": "「感情受到傷害」與本句語境不同。",
-        "hurt-mcq-36": "「沒有人受到身體傷害」與本句語境不同。",
-        "hurt-mcq-33": "「受傷」與本句語境不同。",
-        "hurt-mcq-37": "「按要求做，便沒有人會受到傷害」與本句語境不同。",
-        "hurt-mcq-32": "「因某人受苦而替他／她心痛」與本句語境不同。"
+        "hurt-mcq-35": "本句的「playing hurt」指「運動員帶傷上陣」。",
+        "hurt-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-35"
     },
@@ -3999,11 +3703,9 @@ export default {
       "masked": "The most important thing is that ____.",
       "options": [
         "hurt-mcq-36",
-        "hurt-mcq-35",
-        "hurt-mcq-37",
-        "hurt-mcq-34",
-        "hurt-mcq-38",
-        "hurt-mcq-33"
+        "hurt-mcq-23",
+        "hurt-mcq-76",
+        "hurt-mcq-31"
       ],
       "explanation": "本句的「nobody gets hurt」指「沒有人受到身體傷害」。",
       "sentenceIndex": 76,
@@ -4012,12 +3714,10 @@ export default {
         "nobody gets hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-36": "本句指「沒有人受到身體傷害」。",
-        "hurt-mcq-35": "「運動員帶傷上陣」與本句語境不同。",
-        "hurt-mcq-37": "「按要求做，便沒有人會受到傷害」與本句語境不同。",
-        "hurt-mcq-34": "「感情受到傷害」與本句語境不同。",
-        "hurt-mcq-38": "「做某事幾乎沒有壞處；試試也無妨」與本句語境不同。",
-        "hurt-mcq-33": "「受傷」與本句語境不同。"
+        "hurt-mcq-36": "本句的「nobody gets hurt」指「沒有人受到身體傷害」。",
+        "hurt-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-36"
     },
@@ -4029,11 +3729,9 @@ export default {
       "masked": "It ____.",
       "options": [
         "hurt-mcq-38",
-        "hurt-mcq-37",
-        "hurt-mcq-39",
-        "hurt-mcq-36",
-        "hurt-mcq-40",
-        "hurt-mcq-35"
+        "hurt-mcq-23",
+        "hurt-mcq-79",
+        "hurt-mcq-21"
       ],
       "explanation": "本句的「can’t hurt to ask」指「做某事幾乎沒有壞處；試試也無妨」。",
       "sentenceIndex": 77,
@@ -4042,12 +3740,10 @@ export default {
         "can’t hurt to ask"
       ],
       "optionReasons": {
-        "hurt-mcq-38": "本句指「做某事幾乎沒有壞處；試試也無妨」。",
-        "hurt-mcq-37": "「按要求做，便沒有人會受到傷害」與本句語境不同。",
-        "hurt-mcq-39": "「不妨做……；做……也沒有壞處」與本句語境不同。",
-        "hurt-mcq-36": "「沒有人受到身體傷害」與本句語境不同。",
-        "hurt-mcq-40": "「少量某事通常無傷大雅」與本句語境不同。",
-        "hurt-mcq-35": "「運動員帶傷上陣」與本句語境不同。"
+        "hurt-mcq-38": "本句的「can’t hurt to ask」指「做某事幾乎沒有壞處；試試也無妨」。",
+        "hurt-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-38"
     },
@@ -4059,11 +3755,9 @@ export default {
       "masked": "Taking a backup ____.",
       "options": [
         "hurt-mcq-38",
-        "hurt-mcq-37",
-        "hurt-mcq-39",
-        "hurt-mcq-36",
-        "hurt-mcq-40",
-        "hurt-mcq-35"
+        "hurt-mcq-24",
+        "hurt-mcq-27",
+        "hurt-mcq-44"
       ],
       "explanation": "本句的「can’t hurt」指「做某事幾乎沒有壞處；試試也無妨」。",
       "sentenceIndex": 78,
@@ -4072,12 +3766,10 @@ export default {
         "can’t hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-38": "本句指「做某事幾乎沒有壞處；試試也無妨」。",
-        "hurt-mcq-37": "「按要求做，便沒有人會受到傷害」與本句語境不同。",
-        "hurt-mcq-39": "「不妨做……；做……也沒有壞處」與本句語境不同。",
-        "hurt-mcq-36": "「沒有人受到身體傷害」與本句語境不同。",
-        "hurt-mcq-40": "「少量某事通常無傷大雅」與本句語境不同。",
-        "hurt-mcq-35": "「運動員帶傷上陣」與本句語境不同。"
+        "hurt-mcq-38": "本句的「can’t hurt」指「做某事幾乎沒有壞處；試試也無妨」。",
+        "hurt-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-38"
     },
@@ -4089,11 +3781,9 @@ export default {
       "masked": "It ____.",
       "options": [
         "hurt-mcq-39",
-        "hurt-mcq-38",
-        "hurt-mcq-40",
-        "hurt-mcq-37",
-        "hurt-mcq-41",
-        "hurt-mcq-36"
+        "hurt-mcq-71",
+        "hurt-mcq-83",
+        "hurt-mcq-22"
       ],
       "explanation": "本句的「wouldn’t hurt to apologize」指「不妨做……；做……也沒有壞處」。",
       "sentenceIndex": 79,
@@ -4102,12 +3792,10 @@ export default {
         "wouldn’t hurt to apologize"
       ],
       "optionReasons": {
-        "hurt-mcq-39": "本句指「不妨做……；做……也沒有壞處」。",
-        "hurt-mcq-38": "「做某事幾乎沒有壞處；試試也無妨」與本句語境不同。",
-        "hurt-mcq-40": "「少量某事通常無傷大雅」與本句語境不同。",
-        "hurt-mcq-37": "「按要求做，便沒有人會受到傷害」與本句語境不同。",
-        "hurt-mcq-41": "「形容人非常溫和、完全沒有傷害性」與本句語境不同。",
-        "hurt-mcq-36": "「沒有人受到身體傷害」與本句語境不同。"
+        "hurt-mcq-39": "本句的「wouldn’t hurt to apologize」指「不妨做……；做……也沒有壞處」。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-39"
     },
@@ -4119,11 +3807,9 @@ export default {
       "masked": "It ____.",
       "options": [
         "hurt-mcq-39",
-        "hurt-mcq-38",
-        "hurt-mcq-40",
-        "hurt-mcq-37",
-        "hurt-mcq-41",
-        "hurt-mcq-36"
+        "hurt-mcq-06",
+        "hurt-mcq-63",
+        "hurt-mcq-65"
       ],
       "explanation": "本句的「wouldn’t hurt to check again」指「不妨做……；做……也沒有壞處」。",
       "sentenceIndex": 80,
@@ -4132,12 +3818,10 @@ export default {
         "wouldn’t hurt to check again"
       ],
       "optionReasons": {
-        "hurt-mcq-39": "本句指「不妨做……；做……也沒有壞處」。",
-        "hurt-mcq-38": "「做某事幾乎沒有壞處；試試也無妨」與本句語境不同。",
-        "hurt-mcq-40": "「少量某事通常無傷大雅」與本句語境不同。",
-        "hurt-mcq-37": "「按要求做，便沒有人會受到傷害」與本句語境不同。",
-        "hurt-mcq-41": "「形容人非常溫和、完全沒有傷害性」與本句語境不同。",
-        "hurt-mcq-36": "「沒有人受到身體傷害」與本句語境不同。"
+        "hurt-mcq-39": "本句的「wouldn’t hurt to check again」指「不妨做……；做……也沒有壞處」。",
+        "hurt-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-39"
     },
@@ -4149,11 +3833,9 @@ export default {
       "masked": "A little patience ____.",
       "options": [
         "hurt-mcq-40",
-        "hurt-mcq-39",
-        "hurt-mcq-41",
-        "hurt-mcq-38",
-        "hurt-mcq-42",
-        "hurt-mcq-37"
+        "hurt-mcq-11",
+        "hurt-mcq-21",
+        "hurt-mcq-73"
       ],
       "explanation": "本句的「never hurt anyone」指「少量某事通常無傷大雅」。",
       "sentenceIndex": 81,
@@ -4162,12 +3844,10 @@ export default {
         "never hurt anyone"
       ],
       "optionReasons": {
-        "hurt-mcq-40": "本句指「少量某事通常無傷大雅」。",
-        "hurt-mcq-39": "「不妨做……；做……也沒有壞處」與本句語境不同。",
-        "hurt-mcq-41": "「形容人非常溫和、完全沒有傷害性」與本句語境不同。",
-        "hurt-mcq-38": "「做某事幾乎沒有壞處；試試也無妨」與本句語境不同。",
-        "hurt-mcq-42": "「不知道令人不快的事便不會難受；眼不見為淨」與本句語境不同。",
-        "hurt-mcq-37": "「按要求做，便沒有人會受到傷害」與本句語境不同。"
+        "hurt-mcq-40": "本句的「never hurt anyone」指「少量某事通常無傷大雅」。",
+        "hurt-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-40"
     },
@@ -4179,11 +3859,9 @@ export default {
       "masked": "A little extra preparation ____.",
       "options": [
         "hurt-mcq-40",
-        "hurt-mcq-39",
-        "hurt-mcq-41",
-        "hurt-mcq-38",
-        "hurt-mcq-42",
-        "hurt-mcq-37"
+        "hurt-mcq-70",
+        "hurt-mcq-28",
+        "hurt-mcq-31"
       ],
       "explanation": "本句的「never hurt anyone」指「少量某事通常無傷大雅」。",
       "sentenceIndex": 82,
@@ -4192,12 +3870,10 @@ export default {
         "never hurt anyone"
       ],
       "optionReasons": {
-        "hurt-mcq-40": "本句指「少量某事通常無傷大雅」。",
-        "hurt-mcq-39": "「不妨做……；做……也沒有壞處」與本句語境不同。",
-        "hurt-mcq-41": "「形容人非常溫和、完全沒有傷害性」與本句語境不同。",
-        "hurt-mcq-38": "「做某事幾乎沒有壞處；試試也無妨」與本句語境不同。",
-        "hurt-mcq-42": "「不知道令人不快的事便不會難受；眼不見為淨」與本句語境不同。",
-        "hurt-mcq-37": "「按要求做，便沒有人會受到傷害」與本句語境不同。"
+        "hurt-mcq-40": "本句的「never hurt anyone」指「少量某事通常無傷大雅」。",
+        "hurt-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-40"
     },
@@ -4209,11 +3885,9 @@ export default {
       "masked": "He looks intimidating, but he ____.",
       "options": [
         "hurt-mcq-41",
-        "hurt-mcq-40",
-        "hurt-mcq-42",
-        "hurt-mcq-39",
-        "hurt-mcq-43",
-        "hurt-mcq-38"
+        "hurt-mcq-31",
+        "hurt-mcq-74",
+        "hurt-mcq-32"
       ],
       "explanation": "本句的「wouldn’t hurt a fly」指「形容人非常溫和、完全沒有傷害性」。",
       "sentenceIndex": 83,
@@ -4222,12 +3896,10 @@ export default {
         "wouldn’t hurt a fly"
       ],
       "optionReasons": {
-        "hurt-mcq-41": "本句指「形容人非常溫和、完全沒有傷害性」。",
-        "hurt-mcq-40": "「少量某事通常無傷大雅」與本句語境不同。",
-        "hurt-mcq-42": "「不知道令人不快的事便不會難受；眼不見為淨」與本句語境不同。",
-        "hurt-mcq-39": "「不妨做……；做……也沒有壞處」與本句語境不同。",
-        "hurt-mcq-43": "「用來安慰別人：這一點也不會痛」與本句語境不同。",
-        "hurt-mcq-38": "「做某事幾乎沒有壞處；試試也無妨」與本句語境不同。"
+        "hurt-mcq-41": "本句的「wouldn’t hurt a fly」指「形容人非常溫和、完全沒有傷害性」。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-41"
     },
@@ -4239,11 +3911,9 @@ export default {
       "masked": "She’s so gentle she ____.",
       "options": [
         "hurt-mcq-41",
-        "hurt-mcq-40",
-        "hurt-mcq-42",
-        "hurt-mcq-39",
-        "hurt-mcq-43",
-        "hurt-mcq-38"
+        "hurt-mcq-24",
+        "hurt-mcq-28",
+        "hurt-mcq-22"
       ],
       "explanation": "本句的「wouldn’t hurt a fly」指「形容人非常溫和、完全沒有傷害性」。",
       "sentenceIndex": 84,
@@ -4252,12 +3922,10 @@ export default {
         "wouldn’t hurt a fly"
       ],
       "optionReasons": {
-        "hurt-mcq-41": "本句指「形容人非常溫和、完全沒有傷害性」。",
-        "hurt-mcq-40": "「少量某事通常無傷大雅」與本句語境不同。",
-        "hurt-mcq-42": "「不知道令人不快的事便不會難受；眼不見為淨」與本句語境不同。",
-        "hurt-mcq-39": "「不妨做……；做……也沒有壞處」與本句語境不同。",
-        "hurt-mcq-43": "「用來安慰別人：這一點也不會痛」與本句語境不同。",
-        "hurt-mcq-38": "「做某事幾乎沒有壞處；試試也無妨」與本句語境不同。"
+        "hurt-mcq-41": "本句的「wouldn’t hurt a fly」指「形容人非常溫和、完全沒有傷害性」。",
+        "hurt-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-41"
     },
@@ -4269,11 +3937,9 @@ export default {
       "masked": "Relax. ____",
       "options": [
         "hurt-mcq-43",
-        "hurt-mcq-42",
-        "hurt-mcq-44",
-        "hurt-mcq-41",
-        "hurt-mcq-45",
-        "hurt-mcq-40"
+        "hurt-mcq-21",
+        "hurt-mcq-63",
+        "hurt-mcq-74"
       ],
       "explanation": "本句的「This won’t hurt a bit.」指「用來安慰別人：這一點也不會痛」。",
       "sentenceIndex": 85,
@@ -4282,12 +3948,10 @@ export default {
         "This won’t hurt a bit."
       ],
       "optionReasons": {
-        "hurt-mcq-43": "本句指「用來安慰別人：這一點也不會痛」。",
-        "hurt-mcq-42": "「不知道令人不快的事便不會難受；眼不見為淨」與本句語境不同。",
-        "hurt-mcq-44": "「與其說生氣，更主要是感到受傷／難過」與本句語境不同。",
-        "hurt-mcq-41": "「形容人非常溫和、完全沒有傷害性」與本句語境不同。",
-        "hurt-mcq-45": "「某人的真正痛處／最易造成損失之處」與本句語境不同。",
-        "hurt-mcq-40": "「少量某事通常無傷大雅」與本句語境不同。"
+        "hurt-mcq-43": "本句的「This won’t hurt a bit.」指「用來安慰別人：這一點也不會痛」。",
+        "hurt-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-43"
     },
@@ -4299,11 +3963,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "hurt-mcq-44",
-        "hurt-mcq-43",
-        "hurt-mcq-45",
-        "hurt-mcq-42",
-        "hurt-mcq-46",
-        "hurt-mcq-41"
+        "hurt-mcq-12",
+        "hurt-mcq-71",
+        "hurt-mcq-72"
       ],
       "explanation": "本句的「more hurt than angry」指「與其說生氣，更主要是感到受傷／難過」。",
       "sentenceIndex": 86,
@@ -4312,12 +3974,10 @@ export default {
         "more hurt than angry"
       ],
       "optionReasons": {
-        "hurt-mcq-44": "本句指「與其說生氣，更主要是感到受傷／難過」。",
-        "hurt-mcq-43": "「用來安慰別人：這一點也不會痛」與本句語境不同。",
-        "hurt-mcq-45": "「某人的真正痛處／最易造成損失之處」與本句語境不同。",
-        "hurt-mcq-42": "「不知道令人不快的事便不會難受；眼不見為淨」與本句語境不同。",
-        "hurt-mcq-46": "「沒有受傷的；安然無恙的」與本句語境不同。",
-        "hurt-mcq-41": "「形容人非常溫和、完全沒有傷害性」與本句語境不同。"
+        "hurt-mcq-44": "本句的「more hurt than angry」指「與其說生氣，更主要是感到受傷／難過」。",
+        "hurt-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-44"
     },
@@ -4329,11 +3989,9 @@ export default {
       "masked": "His reaction showed that he was ____.",
       "options": [
         "hurt-mcq-44",
-        "hurt-mcq-43",
-        "hurt-mcq-45",
-        "hurt-mcq-42",
-        "hurt-mcq-46",
-        "hurt-mcq-41"
+        "hurt-mcq-74",
+        "hurt-mcq-26",
+        "hurt-mcq-09"
       ],
       "explanation": "本句的「hurt rather than angry」指「與其說生氣，更主要是感到受傷／難過」。",
       "sentenceIndex": 87,
@@ -4342,12 +4000,10 @@ export default {
         "hurt rather than angry"
       ],
       "optionReasons": {
-        "hurt-mcq-44": "本句指「與其說生氣，更主要是感到受傷／難過」。",
-        "hurt-mcq-43": "「用來安慰別人：這一點也不會痛」與本句語境不同。",
-        "hurt-mcq-45": "「某人的真正痛處／最易造成損失之處」與本句語境不同。",
-        "hurt-mcq-42": "「不知道令人不快的事便不會難受；眼不見為淨」與本句語境不同。",
-        "hurt-mcq-46": "「沒有受傷的；安然無恙的」與本句語境不同。",
-        "hurt-mcq-41": "「形容人非常溫和、完全沒有傷害性」與本句語境不同。"
+        "hurt-mcq-44": "本句的「hurt rather than angry」指「與其說生氣，更主要是感到受傷／難過」。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-44"
     },
@@ -4359,11 +4015,9 @@ export default {
       "masked": "The loss hit the business ____—cash flow.",
       "options": [
         "hurt-mcq-45",
-        "hurt-mcq-44",
-        "hurt-mcq-46",
-        "hurt-mcq-43",
-        "hurt-mcq-47",
-        "hurt-mcq-42"
+        "hurt-mcq-36",
+        "hurt-mcq-71",
+        "hurt-mcq-40"
       ],
       "explanation": "本句的「where it hurt most」指「某人的真正痛處／最易造成損失之處」。",
       "sentenceIndex": 88,
@@ -4372,12 +4026,10 @@ export default {
         "where it hurt most"
       ],
       "optionReasons": {
-        "hurt-mcq-45": "本句指「某人的真正痛處／最易造成損失之處」。",
-        "hurt-mcq-44": "「與其說生氣，更主要是感到受傷／難過」與本句語境不同。",
-        "hurt-mcq-46": "「沒有受傷的；安然無恙的」與本句語境不同。",
-        "hurt-mcq-43": "「用來安慰別人：這一點也不會痛」與本句語境不同。",
-        "hurt-mcq-47": "「受傷的」與本句語境不同。",
-        "hurt-mcq-42": "「不知道令人不快的事便不會難受；眼不見為淨」與本句語境不同。"
+        "hurt-mcq-45": "本句的「where it hurt most」指「某人的真正痛處／最易造成損失之處」。",
+        "hurt-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-45"
     },
@@ -4389,11 +4041,9 @@ export default {
       "masked": "The criticism touched him ____.",
       "options": [
         "hurt-mcq-45",
-        "hurt-mcq-44",
-        "hurt-mcq-46",
-        "hurt-mcq-43",
-        "hurt-mcq-47",
-        "hurt-mcq-42"
+        "hurt-mcq-61",
+        "hurt-mcq-74",
+        "hurt-mcq-55"
       ],
       "explanation": "本句的「where it hurt」指「某人的真正痛處／最易造成損失之處」。",
       "sentenceIndex": 89,
@@ -4402,12 +4052,10 @@ export default {
         "where it hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-45": "本句指「某人的真正痛處／最易造成損失之處」。",
-        "hurt-mcq-44": "「與其說生氣，更主要是感到受傷／難過」與本句語境不同。",
-        "hurt-mcq-46": "「沒有受傷的；安然無恙的」與本句語境不同。",
-        "hurt-mcq-43": "「用來安慰別人：這一點也不會痛」與本句語境不同。",
-        "hurt-mcq-47": "「受傷的」與本句語境不同。",
-        "hurt-mcq-42": "「不知道令人不快的事便不會難受；眼不見為淨」與本句語境不同。"
+        "hurt-mcq-45": "本句的「where it hurt」指「某人的真正痛處／最易造成損失之處」。",
+        "hurt-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-45"
     },
@@ -4419,11 +4067,9 @@ export default {
       "masked": "Will one late payment ____?",
       "options": [
         "hurt-mcq-45",
-        "hurt-mcq-44",
+        "hurt-mcq-55",
         "hurt-mcq-46",
-        "hurt-mcq-43",
-        "hurt-mcq-47",
-        "hurt-mcq-42"
+        "hurt-mcq-35"
       ],
       "explanation": "本句的「hurt my application」指「某人的真正痛處／最易造成損失之處」。",
       "sentenceIndex": 90,
@@ -4432,12 +4078,10 @@ export default {
         "hurt my application"
       ],
       "optionReasons": {
-        "hurt-mcq-45": "本句指「某人的真正痛處／最易造成損失之處」。",
-        "hurt-mcq-44": "「與其說生氣，更主要是感到受傷／難過」與本句語境不同。",
-        "hurt-mcq-46": "「沒有受傷的；安然無恙的」與本句語境不同。",
-        "hurt-mcq-43": "「用來安慰別人：這一點也不會痛」與本句語境不同。",
-        "hurt-mcq-47": "「受傷的」與本句語境不同。",
-        "hurt-mcq-42": "「不知道令人不快的事便不會難受；眼不見為淨」與本句語境不同。"
+        "hurt-mcq-45": "本句的「hurt my application」指「某人的真正痛處／最易造成損失之處」。",
+        "hurt-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-45"
     },
@@ -4449,11 +4093,9 @@ export default {
       "masked": "Could this mistake ____?",
       "options": [
         "hurt-mcq-45",
-        "hurt-mcq-44",
-        "hurt-mcq-46",
-        "hurt-mcq-43",
-        "hurt-mcq-47",
-        "hurt-mcq-42"
+        "hurt-mcq-05",
+        "hurt-mcq-52",
+        "hurt-mcq-46"
       ],
       "explanation": "本句的「hurt our chances」指「某人的真正痛處／最易造成損失之處」。",
       "sentenceIndex": 91,
@@ -4462,12 +4104,10 @@ export default {
         "hurt our chances"
       ],
       "optionReasons": {
-        "hurt-mcq-45": "本句指「某人的真正痛處／最易造成損失之處」。",
-        "hurt-mcq-44": "「與其說生氣，更主要是感到受傷／難過」與本句語境不同。",
-        "hurt-mcq-46": "「沒有受傷的；安然無恙的」與本句語境不同。",
-        "hurt-mcq-43": "「用來安慰別人：這一點也不會痛」與本句語境不同。",
-        "hurt-mcq-47": "「受傷的」與本句語境不同。",
-        "hurt-mcq-42": "「不知道令人不快的事便不會難受；眼不見為淨」與本句語境不同。"
+        "hurt-mcq-45": "本句的「hurt our chances」指「某人的真正痛處／最易造成損失之處」。",
+        "hurt-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-45"
     },
@@ -4479,11 +4119,9 @@ export default {
       "masked": "Everyone escaped ____.",
       "options": [
         "hurt-mcq-46",
-        "hurt-mcq-45",
-        "hurt-mcq-47",
-        "hurt-mcq-44",
-        "hurt-mcq-48",
-        "hurt-mcq-43"
+        "hurt-mcq-22",
+        "hurt-mcq-29",
+        "hurt-mcq-02"
       ],
       "explanation": "本句的「unhurt」指「沒有受傷的；安然無恙的」。",
       "sentenceIndex": 92,
@@ -4492,12 +4130,10 @@ export default {
         "unhurt"
       ],
       "optionReasons": {
-        "hurt-mcq-46": "本句指「沒有受傷的；安然無恙的」。",
-        "hurt-mcq-45": "「某人的真正痛處／最易造成損失之處」與本句語境不同。",
-        "hurt-mcq-47": "「受傷的」與本句語境不同。",
-        "hurt-mcq-44": "「與其說生氣，更主要是感到受傷／難過」與本句語境不同。",
-        "hurt-mcq-48": "「顯示感情受到傷害的神情」與本句語境不同。",
-        "hurt-mcq-43": "「用來安慰別人：這一點也不會痛」與本句語境不同。"
+        "hurt-mcq-46": "本句的「unhurt」指「沒有受傷的；安然無恙的」。",
+        "hurt-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-46"
     },
@@ -4509,11 +4145,9 @@ export default {
       "masked": "The driver was shaken but ____.",
       "options": [
         "hurt-mcq-46",
-        "hurt-mcq-45",
-        "hurt-mcq-47",
-        "hurt-mcq-44",
-        "hurt-mcq-48",
-        "hurt-mcq-43"
+        "hurt-mcq-29",
+        "hurt-mcq-24",
+        "hurt-mcq-71"
       ],
       "explanation": "本句的「unhurt」指「沒有受傷的；安然無恙的」。",
       "sentenceIndex": 93,
@@ -4522,12 +4156,10 @@ export default {
         "unhurt"
       ],
       "optionReasons": {
-        "hurt-mcq-46": "本句指「沒有受傷的；安然無恙的」。",
-        "hurt-mcq-45": "「某人的真正痛處／最易造成損失之處」與本句語境不同。",
-        "hurt-mcq-47": "「受傷的」與本句語境不同。",
-        "hurt-mcq-44": "「與其說生氣，更主要是感到受傷／難過」與本句語境不同。",
-        "hurt-mcq-48": "「顯示感情受到傷害的神情」與本句語境不同。",
-        "hurt-mcq-43": "「用來安慰別人：這一點也不會痛」與本句語境不同。"
+        "hurt-mcq-46": "本句的「unhurt」指「沒有受傷的；安然無恙的」。",
+        "hurt-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-46"
     },
@@ -4539,11 +4171,9 @@ export default {
       "masked": "The ____ left the field.",
       "options": [
         "hurt-mcq-47",
-        "hurt-mcq-46",
-        "hurt-mcq-48",
-        "hurt-mcq-45",
-        "hurt-mcq-49",
-        "hurt-mcq-44"
+        "hurt-mcq-38",
+        "hurt-mcq-08",
+        "hurt-mcq-31"
       ],
       "explanation": "本句的「hurt player」指「受傷的」。",
       "sentenceIndex": 94,
@@ -4552,12 +4182,10 @@ export default {
         "hurt player"
       ],
       "optionReasons": {
-        "hurt-mcq-47": "本句指「受傷的」。",
-        "hurt-mcq-46": "「沒有受傷的；安然無恙的」與本句語境不同。",
-        "hurt-mcq-48": "「顯示感情受到傷害的神情」與本句語境不同。",
-        "hurt-mcq-45": "「某人的真正痛處／最易造成損失之處」與本句語境不同。",
-        "hurt-mcq-49": "「帶著難過／受傷情緒的聲音」與本句語境不同。",
-        "hurt-mcq-44": "「與其說生氣，更主要是感到受傷／難過」與本句語境不同。"
+        "hurt-mcq-47": "本句的「hurt player」指「受傷的」。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-47"
     },
@@ -4569,11 +4197,9 @@ export default {
       "masked": "Several ____ were treated.",
       "options": [
         "hurt-mcq-47",
-        "hurt-mcq-46",
-        "hurt-mcq-48",
-        "hurt-mcq-45",
-        "hurt-mcq-49",
-        "hurt-mcq-44"
+        "hurt-mcq-69",
+        "hurt-mcq-20",
+        "hurt-mcq-31"
       ],
       "explanation": "本句的「hurt passengers」指「受傷的」。",
       "sentenceIndex": 95,
@@ -4582,12 +4208,10 @@ export default {
         "hurt passengers"
       ],
       "optionReasons": {
-        "hurt-mcq-47": "本句指「受傷的」。",
-        "hurt-mcq-46": "「沒有受傷的；安然無恙的」與本句語境不同。",
-        "hurt-mcq-48": "「顯示感情受到傷害的神情」與本句語境不同。",
-        "hurt-mcq-45": "「某人的真正痛處／最易造成損失之處」與本句語境不同。",
-        "hurt-mcq-49": "「帶著難過／受傷情緒的聲音」與本句語境不同。",
-        "hurt-mcq-44": "「與其說生氣，更主要是感到受傷／難過」與本句語境不同。"
+        "hurt-mcq-47": "本句的「hurt passengers」指「受傷的」。",
+        "hurt-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-47"
     },
@@ -4599,11 +4223,9 @@ export default {
       "masked": "She gave him a ____.",
       "options": [
         "hurt-mcq-48",
-        "hurt-mcq-47",
-        "hurt-mcq-49",
-        "hurt-mcq-46",
-        "hurt-mcq-50",
-        "hurt-mcq-45"
+        "hurt-mcq-30",
+        "hurt-mcq-43",
+        "hurt-mcq-73"
       ],
       "explanation": "本句的「hurt look」指「顯示感情受到傷害的神情」。",
       "sentenceIndex": 96,
@@ -4612,12 +4234,10 @@ export default {
         "hurt look"
       ],
       "optionReasons": {
-        "hurt-mcq-48": "本句指「顯示感情受到傷害的神情」。",
-        "hurt-mcq-47": "「受傷的」與本句語境不同。",
-        "hurt-mcq-49": "「帶著難過／受傷情緒的聲音」與本句語境不同。",
-        "hurt-mcq-46": "「沒有受傷的；安然無恙的」與本句語境不同。",
-        "hurt-mcq-50": "「情緒上的傷痛／心痛」與本句語境不同。",
-        "hurt-mcq-45": "「某人的真正痛處／最易造成損失之處」與本句語境不同。"
+        "hurt-mcq-48": "本句的「hurt look」指「顯示感情受到傷害的神情」。",
+        "hurt-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-48"
     },
@@ -4629,11 +4249,9 @@ export default {
       "masked": "His ____ disappeared quickly.",
       "options": [
         "hurt-mcq-48",
-        "hurt-mcq-47",
-        "hurt-mcq-49",
-        "hurt-mcq-46",
-        "hurt-mcq-50",
-        "hurt-mcq-45"
+        "hurt-mcq-23",
+        "hurt-mcq-38",
+        "hurt-mcq-31"
       ],
       "explanation": "本句的「hurt expression」指「顯示感情受到傷害的神情」。",
       "sentenceIndex": 97,
@@ -4642,12 +4260,10 @@ export default {
         "hurt expression"
       ],
       "optionReasons": {
-        "hurt-mcq-48": "本句指「顯示感情受到傷害的神情」。",
-        "hurt-mcq-47": "「受傷的」與本句語境不同。",
-        "hurt-mcq-49": "「帶著難過／受傷情緒的聲音」與本句語境不同。",
-        "hurt-mcq-46": "「沒有受傷的；安然無恙的」與本句語境不同。",
-        "hurt-mcq-50": "「情緒上的傷痛／心痛」與本句語境不同。",
-        "hurt-mcq-45": "「某人的真正痛處／最易造成損失之處」與本句語境不同。"
+        "hurt-mcq-48": "本句的「hurt expression」指「顯示感情受到傷害的神情」。",
+        "hurt-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-48"
     },
@@ -4659,11 +4275,9 @@ export default {
       "masked": "Why didn’t you tell me?” she asked in a ____.",
       "options": [
         "hurt-mcq-49",
-        "hurt-mcq-48",
-        "hurt-mcq-50",
-        "hurt-mcq-47",
-        "hurt-mcq-51",
-        "hurt-mcq-46"
+        "hurt-mcq-01",
+        "hurt-mcq-68",
+        "hurt-mcq-70"
       ],
       "explanation": "本句的「hurt voice」指「帶著難過／受傷情緒的聲音」。",
       "sentenceIndex": 98,
@@ -4672,12 +4286,10 @@ export default {
         "hurt voice"
       ],
       "optionReasons": {
-        "hurt-mcq-49": "本句指「帶著難過／受傷情緒的聲音」。",
-        "hurt-mcq-48": "「顯示感情受到傷害的神情」與本句語境不同。",
-        "hurt-mcq-50": "「情緒上的傷痛／心痛」與本句語境不同。",
-        "hurt-mcq-47": "「受傷的」與本句語境不同。",
-        "hurt-mcq-51": "「聲音／眼神中流露出的傷痛」與本句語境不同。",
-        "hurt-mcq-46": "「沒有受傷的；安然無恙的」與本句語境不同。"
+        "hurt-mcq-49": "本句的「hurt voice」指「帶著難過／受傷情緒的聲音」。",
+        "hurt-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-49"
     },
@@ -4689,11 +4301,9 @@ export default {
       "masked": "There was a ____ in his reply.",
       "options": [
         "hurt-mcq-49",
-        "hurt-mcq-48",
-        "hurt-mcq-50",
-        "hurt-mcq-47",
-        "hurt-mcq-51",
-        "hurt-mcq-46"
+        "hurt-mcq-71",
+        "hurt-mcq-68",
+        "hurt-mcq-08"
       ],
       "explanation": "本句的「hurt tone」指「帶著難過／受傷情緒的聲音」。",
       "sentenceIndex": 99,
@@ -4702,12 +4312,10 @@ export default {
         "hurt tone"
       ],
       "optionReasons": {
-        "hurt-mcq-49": "本句指「帶著難過／受傷情緒的聲音」。",
-        "hurt-mcq-48": "「顯示感情受到傷害的神情」與本句語境不同。",
-        "hurt-mcq-50": "「情緒上的傷痛／心痛」與本句語境不同。",
-        "hurt-mcq-47": "「受傷的」與本句語境不同。",
-        "hurt-mcq-51": "「聲音／眼神中流露出的傷痛」與本句語境不同。",
-        "hurt-mcq-46": "「沒有受傷的；安然無恙的」與本句語境不同。"
+        "hurt-mcq-49": "本句的「hurt tone」指「帶著難過／受傷情緒的聲音」。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-49"
     },
@@ -4719,11 +4327,9 @@ export default {
       "masked": "There was real ____ behind his anger.",
       "options": [
         "hurt-mcq-50",
-        "hurt-mcq-49",
-        "hurt-mcq-51",
-        "hurt-mcq-48",
-        "hurt-mcq-52",
-        "hurt-mcq-47"
+        "hurt-mcq-25",
+        "hurt-mcq-39",
+        "hurt-mcq-63"
       ],
       "explanation": "本句的「hurt」指「情緒上的傷痛／心痛」。",
       "sentenceIndex": 100,
@@ -4732,12 +4338,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-50": "本句指「情緒上的傷痛／心痛」。",
-        "hurt-mcq-49": "「帶著難過／受傷情緒的聲音」與本句語境不同。",
-        "hurt-mcq-51": "「聲音／眼神中流露出的傷痛」與本句語境不同。",
-        "hurt-mcq-48": "「顯示感情受到傷害的神情」與本句語境不同。",
-        "hurt-mcq-52": "「一次心理傷害／一道心傷」與本句語境不同。",
-        "hurt-mcq-47": "「受傷的」與本句語境不同。"
+        "hurt-mcq-50": "本句的「hurt」指「情緒上的傷痛／心痛」。",
+        "hurt-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-50"
     },
@@ -4749,11 +4353,9 @@ export default {
       "masked": "She tried to hide the ____ she felt.",
       "options": [
         "hurt-mcq-50",
-        "hurt-mcq-49",
-        "hurt-mcq-51",
-        "hurt-mcq-48",
-        "hurt-mcq-52",
-        "hurt-mcq-47"
+        "hurt-mcq-63",
+        "hurt-mcq-74",
+        "hurt-mcq-25"
       ],
       "explanation": "本句的「hurt」指「情緒上的傷痛／心痛」。",
       "sentenceIndex": 101,
@@ -4762,12 +4364,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-50": "本句指「情緒上的傷痛／心痛」。",
-        "hurt-mcq-49": "「帶著難過／受傷情緒的聲音」與本句語境不同。",
-        "hurt-mcq-51": "「聲音／眼神中流露出的傷痛」與本句語境不同。",
-        "hurt-mcq-48": "「顯示感情受到傷害的神情」與本句語境不同。",
-        "hurt-mcq-52": "「一次心理傷害／一道心傷」與本句語境不同。",
-        "hurt-mcq-47": "「受傷的」與本句語境不同。"
+        "hurt-mcq-50": "本句的「hurt」指「情緒上的傷痛／心痛」。",
+        "hurt-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-50"
     },
@@ -4779,11 +4379,9 @@ export default {
       "masked": "I could hear the ____.",
       "options": [
         "hurt-mcq-51",
-        "hurt-mcq-50",
-        "hurt-mcq-52",
-        "hurt-mcq-49",
-        "hurt-mcq-53",
-        "hurt-mcq-48"
+        "hurt-mcq-71",
+        "hurt-mcq-68",
+        "hurt-mcq-73"
       ],
       "explanation": "本句的「hurt in his voice」指「聲音／眼神中流露出的傷痛」。",
       "sentenceIndex": 102,
@@ -4792,12 +4390,10 @@ export default {
         "hurt in his voice"
       ],
       "optionReasons": {
-        "hurt-mcq-51": "本句指「聲音／眼神中流露出的傷痛」。",
-        "hurt-mcq-50": "「情緒上的傷痛／心痛」與本句語境不同。",
-        "hurt-mcq-52": "「一次心理傷害／一道心傷」與本句語境不同。",
-        "hurt-mcq-49": "「帶著難過／受傷情緒的聲音」與本句語境不同。",
-        "hurt-mcq-53": "「過去留下的情感傷痛」與本句語境不同。",
-        "hurt-mcq-48": "「顯示感情受到傷害的神情」與本句語境不同。"
+        "hurt-mcq-51": "本句的「hurt in his voice」指「聲音／眼神中流露出的傷痛」。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-51"
     },
@@ -4809,11 +4405,9 @@ export default {
       "masked": "There was obvious ____.",
       "options": [
         "hurt-mcq-51",
-        "hurt-mcq-50",
-        "hurt-mcq-52",
-        "hurt-mcq-49",
-        "hurt-mcq-53",
-        "hurt-mcq-48"
+        "hurt-mcq-23",
+        "hurt-mcq-63",
+        "hurt-mcq-70"
       ],
       "explanation": "本句的「hurt in her eyes」指「聲音／眼神中流露出的傷痛」。",
       "sentenceIndex": 103,
@@ -4822,12 +4416,10 @@ export default {
         "hurt in her eyes"
       ],
       "optionReasons": {
-        "hurt-mcq-51": "本句指「聲音／眼神中流露出的傷痛」。",
-        "hurt-mcq-50": "「情緒上的傷痛／心痛」與本句語境不同。",
-        "hurt-mcq-52": "「一次心理傷害／一道心傷」與本句語境不同。",
-        "hurt-mcq-49": "「帶著難過／受傷情緒的聲音」與本句語境不同。",
-        "hurt-mcq-53": "「過去留下的情感傷痛」與本句語境不同。",
-        "hurt-mcq-48": "「顯示感情受到傷害的神情」與本句語境不同。"
+        "hurt-mcq-51": "本句的「hurt in her eyes」指「聲音／眼神中流露出的傷痛」。",
+        "hurt-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-51"
     },
@@ -4839,11 +4431,9 @@ export default {
       "masked": "The rejection left a deep ____.",
       "options": [
         "hurt-mcq-52",
-        "hurt-mcq-51",
-        "hurt-mcq-53",
-        "hurt-mcq-50",
-        "hurt-mcq-54",
-        "hurt-mcq-49"
+        "hurt-mcq-28",
+        "hurt-mcq-30",
+        "hurt-mcq-24"
       ],
       "explanation": "本句的「hurt」指「一次心理傷害／一道心傷」。",
       "sentenceIndex": 104,
@@ -4852,12 +4442,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-52": "本句指「一次心理傷害／一道心傷」。",
-        "hurt-mcq-51": "「聲音／眼神中流露出的傷痛」與本句語境不同。",
-        "hurt-mcq-53": "「過去留下的情感傷痛」與本句語境不同。",
-        "hurt-mcq-50": "「情緒上的傷痛／心痛」與本句語境不同。",
-        "hurt-mcq-54": "「會令別人感情受傷的；傷人的」與本句語境不同。",
-        "hurt-mcq-49": "「帶著難過／受傷情緒的聲音」與本句語境不同。"
+        "hurt-mcq-52": "本句的「hurt」指「一次心理傷害／一道心傷」。",
+        "hurt-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-52"
     },
@@ -4869,11 +4457,9 @@ export default {
       "masked": "The conversation reopened ____.",
       "options": [
         "hurt-mcq-53",
-        "hurt-mcq-52",
-        "hurt-mcq-54",
-        "hurt-mcq-51",
-        "hurt-mcq-55",
-        "hurt-mcq-50"
+        "hurt-mcq-71",
+        "hurt-mcq-21",
+        "hurt-mcq-38"
       ],
       "explanation": "本句的「old hurts」指「過去留下的情感傷痛」。",
       "sentenceIndex": 105,
@@ -4882,12 +4468,10 @@ export default {
         "old hurts"
       ],
       "optionReasons": {
-        "hurt-mcq-53": "本句指「過去留下的情感傷痛」。",
-        "hurt-mcq-52": "「一次心理傷害／一道心傷」與本句語境不同。",
-        "hurt-mcq-54": "「會令別人感情受傷的；傷人的」與本句語境不同。",
-        "hurt-mcq-51": "「聲音／眼神中流露出的傷痛」與本句語境不同。",
-        "hurt-mcq-55": "「傷人的說話／評論」與本句語境不同。",
-        "hurt-mcq-50": "「情緒上的傷痛／心痛」與本句語境不同。"
+        "hurt-mcq-53": "本句的「old hurts」指「過去留下的情感傷痛」。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-53"
     },
@@ -4899,11 +4483,9 @@ export default {
       "masked": "They gradually learned to move beyond ____.",
       "options": [
         "hurt-mcq-53",
-        "hurt-mcq-52",
-        "hurt-mcq-54",
-        "hurt-mcq-51",
-        "hurt-mcq-55",
-        "hurt-mcq-50"
+        "hurt-mcq-26",
+        "hurt-mcq-30",
+        "hurt-mcq-71"
       ],
       "explanation": "本句的「old hurts」指「過去留下的情感傷痛」。",
       "sentenceIndex": 106,
@@ -4912,12 +4494,10 @@ export default {
         "old hurts"
       ],
       "optionReasons": {
-        "hurt-mcq-53": "本句指「過去留下的情感傷痛」。",
-        "hurt-mcq-52": "「一次心理傷害／一道心傷」與本句語境不同。",
-        "hurt-mcq-54": "「會令別人感情受傷的；傷人的」與本句語境不同。",
-        "hurt-mcq-51": "「聲音／眼神中流露出的傷痛」與本句語境不同。",
-        "hurt-mcq-55": "「傷人的說話／評論」與本句語境不同。",
-        "hurt-mcq-50": "「情緒上的傷痛／心痛」與本句語境不同。"
+        "hurt-mcq-53": "本句的「old hurts」指「過去留下的情感傷痛」。",
+        "hurt-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-53"
     },
@@ -4929,11 +4509,9 @@ export default {
       "masked": "That was a ____.",
       "options": [
         "hurt-mcq-55",
-        "hurt-mcq-54",
-        "hurt-mcq-56",
-        "hurt-mcq-53",
-        "hurt-mcq-57",
-        "hurt-mcq-52"
+        "hurt-mcq-24",
+        "hurt-mcq-38",
+        "hurt-mcq-71"
       ],
       "explanation": "本句的「hurtful comment」指「傷人的說話／評論」。",
       "sentenceIndex": 107,
@@ -4942,12 +4520,10 @@ export default {
         "hurtful comment"
       ],
       "optionReasons": {
-        "hurt-mcq-55": "本句指「傷人的說話／評論」。",
-        "hurt-mcq-54": "「會令別人感情受傷的；傷人的」與本句語境不同。",
-        "hurt-mcq-56": "「對他人感情造成傷害的行為」與本句語境不同。",
-        "hurt-mcq-53": "「過去留下的情感傷痛」與本句語境不同。",
-        "hurt-mcq-57": "「以傷人的方式」與本句語境不同。",
-        "hurt-mcq-52": "「一次心理傷害／一道心傷」與本句語境不同。"
+        "hurt-mcq-55": "本句的「hurtful comment」指「傷人的說話／評論」。",
+        "hurt-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-55"
     },
@@ -4959,11 +4535,9 @@ export default {
       "masked": "Spreading rumors can be extremely ____.",
       "options": [
         "hurt-mcq-55",
-        "hurt-mcq-54",
-        "hurt-mcq-56",
-        "hurt-mcq-53",
-        "hurt-mcq-57",
-        "hurt-mcq-52"
+        "hurt-mcq-26",
+        "hurt-mcq-63",
+        "hurt-mcq-30"
       ],
       "explanation": "本句的「hurtful」指「傷人的說話／評論」。",
       "sentenceIndex": 108,
@@ -4972,12 +4546,10 @@ export default {
         "hurtful"
       ],
       "optionReasons": {
-        "hurt-mcq-55": "本句指「傷人的說話／評論」。",
-        "hurt-mcq-54": "「會令別人感情受傷的；傷人的」與本句語境不同。",
-        "hurt-mcq-56": "「對他人感情造成傷害的行為」與本句語境不同。",
-        "hurt-mcq-53": "「過去留下的情感傷痛」與本句語境不同。",
-        "hurt-mcq-57": "「以傷人的方式」與本句語境不同。",
-        "hurt-mcq-52": "「一次心理傷害／一道心傷」與本句語境不同。"
+        "hurt-mcq-55": "本句的「hurtful」指「傷人的說話／評論」。",
+        "hurt-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-55"
     },
@@ -4989,11 +4561,9 @@ export default {
       "masked": "She regretted her ____.",
       "options": [
         "hurt-mcq-55",
-        "hurt-mcq-54",
-        "hurt-mcq-56",
-        "hurt-mcq-53",
-        "hurt-mcq-57",
-        "hurt-mcq-52"
+        "hurt-mcq-26",
+        "hurt-mcq-29",
+        "hurt-mcq-25"
       ],
       "explanation": "本句的「hurtful words」指「傷人的說話／評論」。",
       "sentenceIndex": 109,
@@ -5002,12 +4572,10 @@ export default {
         "hurtful words"
       ],
       "optionReasons": {
-        "hurt-mcq-55": "本句指「傷人的說話／評論」。",
-        "hurt-mcq-54": "「會令別人感情受傷的；傷人的」與本句語境不同。",
-        "hurt-mcq-56": "「對他人感情造成傷害的行為」與本句語境不同。",
-        "hurt-mcq-53": "「過去留下的情感傷痛」與本句語境不同。",
-        "hurt-mcq-57": "「以傷人的方式」與本句語境不同。",
-        "hurt-mcq-52": "「一次心理傷害／一道心傷」與本句語境不同。"
+        "hurt-mcq-55": "本句的「hurtful words」指「傷人的說話／評論」。",
+        "hurt-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-55"
     },
@@ -5019,11 +4587,9 @@ export default {
       "masked": "Avoid ____ about someone’s appearance.",
       "options": [
         "hurt-mcq-55",
-        "hurt-mcq-54",
-        "hurt-mcq-56",
-        "hurt-mcq-53",
-        "hurt-mcq-57",
-        "hurt-mcq-52"
+        "hurt-mcq-71",
+        "hurt-mcq-02",
+        "hurt-mcq-25"
       ],
       "explanation": "本句的「hurtful remarks」指「傷人的說話／評論」。",
       "sentenceIndex": 110,
@@ -5032,12 +4598,10 @@ export default {
         "hurtful remarks"
       ],
       "optionReasons": {
-        "hurt-mcq-55": "本句指「傷人的說話／評論」。",
-        "hurt-mcq-54": "「會令別人感情受傷的；傷人的」與本句語境不同。",
-        "hurt-mcq-56": "「對他人感情造成傷害的行為」與本句語境不同。",
-        "hurt-mcq-53": "「過去留下的情感傷痛」與本句語境不同。",
-        "hurt-mcq-57": "「以傷人的方式」與本句語境不同。",
-        "hurt-mcq-52": "「一次心理傷害／一道心傷」與本句語境不同。"
+        "hurt-mcq-55": "本句的「hurtful remarks」指「傷人的說話／評論」。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-55"
     },
@@ -5049,11 +4613,9 @@ export default {
       "masked": "Exclusion can be deeply ____.",
       "options": [
         "hurt-mcq-56",
-        "hurt-mcq-55",
-        "hurt-mcq-57",
-        "hurt-mcq-54",
-        "hurt-mcq-58",
-        "hurt-mcq-53"
+        "hurt-mcq-28",
+        "hurt-mcq-63",
+        "hurt-mcq-73"
       ],
       "explanation": "本句的「hurtful behavior」指「對他人感情造成傷害的行為」。",
       "sentenceIndex": 111,
@@ -5062,12 +4624,10 @@ export default {
         "hurtful behavior"
       ],
       "optionReasons": {
-        "hurt-mcq-56": "本句指「對他人感情造成傷害的行為」。",
-        "hurt-mcq-55": "「傷人的說話／評論」與本句語境不同。",
-        "hurt-mcq-57": "「以傷人的方式」與本句語境不同。",
-        "hurt-mcq-54": "「會令別人感情受傷的；傷人的」與本句語境不同。",
-        "hurt-mcq-58": "「言行令別人難受的傷害性」與本句語境不同。",
-        "hurt-mcq-53": "「過去留下的情感傷痛」與本句語境不同。"
+        "hurt-mcq-56": "本句的「hurtful behavior」指「對他人感情造成傷害的行為」。",
+        "hurt-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-56"
     },
@@ -5079,11 +4639,9 @@ export default {
       "masked": "He apologized for his ____.",
       "options": [
         "hurt-mcq-56",
-        "hurt-mcq-55",
-        "hurt-mcq-57",
-        "hurt-mcq-54",
-        "hurt-mcq-58",
-        "hurt-mcq-53"
+        "hurt-mcq-12",
+        "hurt-mcq-38",
+        "hurt-mcq-76"
       ],
       "explanation": "本句的「hurtful behavior」指「對他人感情造成傷害的行為」。",
       "sentenceIndex": 112,
@@ -5092,12 +4650,10 @@ export default {
         "hurtful behavior"
       ],
       "optionReasons": {
-        "hurt-mcq-56": "本句指「對他人感情造成傷害的行為」。",
-        "hurt-mcq-55": "「傷人的說話／評論」與本句語境不同。",
-        "hurt-mcq-57": "「以傷人的方式」與本句語境不同。",
-        "hurt-mcq-54": "「會令別人感情受傷的；傷人的」與本句語境不同。",
-        "hurt-mcq-58": "「言行令別人難受的傷害性」與本句語境不同。",
-        "hurt-mcq-53": "「過去留下的情感傷痛」與本句語境不同。"
+        "hurt-mcq-56": "本句的「hurtful behavior」指「對他人感情造成傷害的行為」。",
+        "hurt-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-56"
     },
@@ -5109,11 +4665,9 @@ export default {
       "masked": "He spoke ____ about her mistakes.",
       "options": [
         "hurt-mcq-83",
-        "hurt-mcq-82",
-        "hurt-mcq-84",
-        "hurt-mcq-81",
-        "hurt-mcq-85",
-        "hurt-mcq-80"
+        "hurt-mcq-28",
+        "hurt-mcq-71",
+        "hurt-mcq-31"
       ],
       "explanation": "本句的「hurtfully」指「傷人地」。",
       "sentenceIndex": 113,
@@ -5122,12 +4676,10 @@ export default {
         "hurtfully"
       ],
       "optionReasons": {
-        "hurt-mcq-83": "本句指「傷人地」。",
-        "hurt-mcq-82": "「傷人的；會造成情緒痛苦的」與本句語境不同。",
-        "hurt-mcq-84": "「傷害性；令人情緒難受的程度」與本句語境不同。",
-        "hurt-mcq-81": "「正在疼痛、心痛或處境艱難」與本句語境不同。",
-        "hurt-mcq-85": "「未受傷的；安然無恙的」與本句語境不同。",
-        "hurt-mcq-80": "「從情緒傷害中逐漸復原」與本句語境不同。"
+        "hurt-mcq-83": "本句的「hurtfully」指「傷人地」。",
+        "hurt-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-83"
     },
@@ -5139,11 +4691,9 @@ export default {
       "masked": "The remark was ____.",
       "options": [
         "hurt-mcq-83",
-        "hurt-mcq-82",
-        "hurt-mcq-84",
-        "hurt-mcq-81",
-        "hurt-mcq-85",
-        "hurt-mcq-80"
+        "hurt-mcq-08",
+        "hurt-mcq-70",
+        "hurt-mcq-72"
       ],
       "explanation": "本句的「hurtfully dismissive」指「傷人地」。",
       "sentenceIndex": 114,
@@ -5152,12 +4702,10 @@ export default {
         "hurtfully dismissive"
       ],
       "optionReasons": {
-        "hurt-mcq-83": "本句指「傷人地」。",
-        "hurt-mcq-82": "「傷人的；會造成情緒痛苦的」與本句語境不同。",
-        "hurt-mcq-84": "「傷害性；令人情緒難受的程度」與本句語境不同。",
-        "hurt-mcq-81": "「正在疼痛、心痛或處境艱難」與本句語境不同。",
-        "hurt-mcq-85": "「未受傷的；安然無恙的」與本句語境不同。",
-        "hurt-mcq-80": "「從情緒傷害中逐漸復原」與本句語境不同。"
+        "hurt-mcq-83": "本句的「hurtfully dismissive」指「傷人地」。",
+        "hurt-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-83"
     },
@@ -5169,11 +4717,9 @@ export default {
       "masked": "He did not realize the ____ of the remark.",
       "options": [
         "hurt-mcq-58",
-        "hurt-mcq-57",
-        "hurt-mcq-59",
-        "hurt-mcq-56",
-        "hurt-mcq-60",
-        "hurt-mcq-55"
+        "hurt-mcq-74",
+        "hurt-mcq-73",
+        "hurt-mcq-06"
       ],
       "explanation": "本句的「hurtfulness」指「言行令別人難受的傷害性」。",
       "sentenceIndex": 115,
@@ -5182,12 +4728,10 @@ export default {
         "hurtfulness"
       ],
       "optionReasons": {
-        "hurt-mcq-58": "本句指「言行令別人難受的傷害性」。",
-        "hurt-mcq-57": "「以傷人的方式」與本句語境不同。",
-        "hurt-mcq-59": "「傷勢嚴重」與本句語境不同。",
-        "hurt-mcq-56": "「對他人感情造成傷害的行為」與本句語境不同。",
-        "hurt-mcq-60": "「感情受到很深的傷害」與本句語境不同。",
-        "hurt-mcq-55": "「傷人的說話／評論」與本句語境不同。"
+        "hurt-mcq-58": "本句的「hurtfulness」指「言行令別人難受的傷害性」。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-58"
     },
@@ -5199,11 +4743,9 @@ export default {
       "masked": "He was ____ by the accusation.",
       "options": [
         "hurt-mcq-60",
-        "hurt-mcq-59",
-        "hurt-mcq-61",
-        "hurt-mcq-58",
-        "hurt-mcq-62",
-        "hurt-mcq-57"
+        "hurt-mcq-06",
+        "hurt-mcq-29",
+        "hurt-mcq-74"
       ],
       "explanation": "本句的「deeply hurt」指「感情受到很深的傷害」。",
       "sentenceIndex": 116,
@@ -5212,12 +4754,10 @@ export default {
         "deeply hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-60": "本句指「感情受到很深的傷害」。",
-        "hurt-mcq-59": "「傷勢嚴重」與本句語境不同。",
-        "hurt-mcq-61": "「嚴重受傷」與本句語境不同。",
-        "hurt-mcq-58": "「言行令別人難受的傷害性」與本句語境不同。",
-        "hurt-mcq-62": "「有意使某人受到身體／情緒傷害」與本句語境不同。",
-        "hurt-mcq-57": "「以傷人的方式」與本句語境不同。"
+        "hurt-mcq-60": "本句的「deeply hurt」指「感情受到很深的傷害」。",
+        "hurt-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-60"
     },
@@ -5229,11 +4769,9 @@ export default {
       "masked": "She felt ____ and rejected.",
       "options": [
         "hurt-mcq-60",
-        "hurt-mcq-59",
-        "hurt-mcq-61",
-        "hurt-mcq-58",
-        "hurt-mcq-62",
-        "hurt-mcq-57"
+        "hurt-mcq-06",
+        "hurt-mcq-29",
+        "hurt-mcq-31"
       ],
       "explanation": "本句的「deeply hurt」指「感情受到很深的傷害」。",
       "sentenceIndex": 117,
@@ -5242,12 +4780,10 @@ export default {
         "deeply hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-60": "本句指「感情受到很深的傷害」。",
-        "hurt-mcq-59": "「傷勢嚴重」與本句語境不同。",
-        "hurt-mcq-61": "「嚴重受傷」與本句語境不同。",
-        "hurt-mcq-58": "「言行令別人難受的傷害性」與本句語境不同。",
-        "hurt-mcq-62": "「有意使某人受到身體／情緒傷害」與本句語境不同。",
-        "hurt-mcq-57": "「以傷人的方式」與本句語境不同。"
+        "hurt-mcq-60": "本句的「deeply hurt」指「感情受到很深的傷害」。",
+        "hurt-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-60"
     },
@@ -5259,11 +4795,9 @@ export default {
       "masked": "Nobody was ____.",
       "options": [
         "hurt-mcq-61",
-        "hurt-mcq-60",
-        "hurt-mcq-62",
-        "hurt-mcq-59",
-        "hurt-mcq-63",
-        "hurt-mcq-58"
+        "hurt-mcq-31",
+        "hurt-mcq-71",
+        "hurt-mcq-01"
       ],
       "explanation": "本句的「seriously hurt」指「嚴重受傷」。",
       "sentenceIndex": 118,
@@ -5272,12 +4806,10 @@ export default {
         "seriously hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-61": "本句指「嚴重受傷」。",
-        "hurt-mcq-60": "「感情受到很深的傷害」與本句語境不同。",
-        "hurt-mcq-62": "「有意使某人受到身體／情緒傷害」與本句語境不同。",
-        "hurt-mcq-59": "「傷勢嚴重」與本句語境不同。",
-        "hurt-mcq-63": "「真相有時令人難受；忠言逆耳」與本句語境不同。",
-        "hurt-mcq-58": "「言行令別人難受的傷害性」與本句語境不同。"
+        "hurt-mcq-61": "本句的「seriously hurt」指「嚴重受傷」。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-61"
     },
@@ -5289,11 +4821,9 @@ export default {
       "masked": "I didn’t ____.",
       "options": [
         "hurt-mcq-62",
-        "hurt-mcq-61",
-        "hurt-mcq-63",
-        "hurt-mcq-60",
-        "hurt-mcq-64",
-        "hurt-mcq-59"
+        "hurt-mcq-76",
+        "hurt-mcq-74",
+        "hurt-mcq-73"
       ],
       "explanation": "本句的「mean to hurt you」指「有意使某人受到身體／情緒傷害」。",
       "sentenceIndex": 119,
@@ -5302,12 +4832,10 @@ export default {
         "mean to hurt you"
       ],
       "optionReasons": {
-        "hurt-mcq-62": "本句指「有意使某人受到身體／情緒傷害」。",
-        "hurt-mcq-61": "「嚴重受傷」與本句語境不同。",
-        "hurt-mcq-63": "「真相有時令人難受；忠言逆耳」與本句語境不同。",
-        "hurt-mcq-60": "「感情受到很深的傷害」與本句語境不同。",
-        "hurt-mcq-64": "「某經歷令人在情感上痛苦」與本句語境不同。",
-        "hurt-mcq-59": "「傷勢嚴重」與本句語境不同。"
+        "hurt-mcq-62": "本句的「mean to hurt you」指「有意使某人受到身體／情緒傷害」。",
+        "hurt-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-62"
     },
@@ -5319,11 +4847,9 @@ export default {
       "masked": "She never meant to ____.",
       "options": [
         "hurt-mcq-62",
-        "hurt-mcq-61",
-        "hurt-mcq-63",
-        "hurt-mcq-60",
-        "hurt-mcq-64",
-        "hurt-mcq-59"
+        "hurt-mcq-23",
+        "hurt-mcq-39",
+        "hurt-mcq-12"
       ],
       "explanation": "本句的「hurt anyone」指「有意使某人受到身體／情緒傷害」。",
       "sentenceIndex": 120,
@@ -5332,12 +4858,10 @@ export default {
         "hurt anyone"
       ],
       "optionReasons": {
-        "hurt-mcq-62": "本句指「有意使某人受到身體／情緒傷害」。",
-        "hurt-mcq-61": "「嚴重受傷」與本句語境不同。",
-        "hurt-mcq-63": "「真相有時令人難受；忠言逆耳」與本句語境不同。",
-        "hurt-mcq-60": "「感情受到很深的傷害」與本句語境不同。",
-        "hurt-mcq-64": "「某經歷令人在情感上痛苦」與本句語境不同。",
-        "hurt-mcq-59": "「傷勢嚴重」與本句語境不同。"
+        "hurt-mcq-62": "本句的「hurt anyone」指「有意使某人受到身體／情緒傷害」。",
+        "hurt-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-62"
     },
@@ -5349,11 +4873,9 @@ export default {
       "masked": "He avoided the subject because he did not want to ____.",
       "options": [
         "hurt-mcq-62",
-        "hurt-mcq-61",
-        "hurt-mcq-63",
-        "hurt-mcq-60",
-        "hurt-mcq-64",
-        "hurt-mcq-59"
+        "hurt-mcq-74",
+        "hurt-mcq-30",
+        "hurt-mcq-26"
       ],
       "explanation": "本句的「hurt her」指「有意使某人受到身體／情緒傷害」。",
       "sentenceIndex": 121,
@@ -5362,12 +4884,10 @@ export default {
         "hurt her"
       ],
       "optionReasons": {
-        "hurt-mcq-62": "本句指「有意使某人受到身體／情緒傷害」。",
-        "hurt-mcq-61": "「嚴重受傷」與本句語境不同。",
-        "hurt-mcq-63": "「真相有時令人難受；忠言逆耳」與本句語境不同。",
-        "hurt-mcq-60": "「感情受到很深的傷害」與本句語境不同。",
-        "hurt-mcq-64": "「某經歷令人在情感上痛苦」與本句語境不同。",
-        "hurt-mcq-59": "「傷勢嚴重」與本句語境不同。"
+        "hurt-mcq-62": "本句的「hurt her」指「有意使某人受到身體／情緒傷害」。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-62"
     },
@@ -5379,11 +4899,9 @@ export default {
       "masked": "He did not like hearing it, but sometimes ____.",
       "options": [
         "hurt-mcq-63",
-        "hurt-mcq-62",
-        "hurt-mcq-64",
-        "hurt-mcq-61",
-        "hurt-mcq-65",
-        "hurt-mcq-60"
+        "hurt-mcq-20",
+        "hurt-mcq-10",
+        "hurt-mcq-77"
       ],
       "explanation": "本句的「the truth hurts」指「真相有時令人難受；忠言逆耳」。",
       "sentenceIndex": 122,
@@ -5392,12 +4910,10 @@ export default {
         "the truth hurts"
       ],
       "optionReasons": {
-        "hurt-mcq-63": "本句指「真相有時令人難受；忠言逆耳」。",
-        "hurt-mcq-62": "「有意使某人受到身體／情緒傷害」與本句語境不同。",
-        "hurt-mcq-64": "「某經歷令人在情感上痛苦」與本句語境不同。",
-        "hurt-mcq-61": "「嚴重受傷」與本句語境不同。",
-        "hurt-mcq-65": "「因某行為而對某人造成傷害」與本句語境不同。",
-        "hurt-mcq-60": "「感情受到很深的傷害」與本句語境不同。"
+        "hurt-mcq-63": "本句的「the truth hurts」指「真相有時令人難受；忠言逆耳」。",
+        "hurt-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-63"
     },
@@ -5409,11 +4925,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "hurt-mcq-65",
-        "hurt-mcq-64",
-        "hurt-mcq-66",
-        "hurt-mcq-63",
-        "hurt-mcq-67",
-        "hurt-mcq-62"
+        "hurt-mcq-12",
+        "hurt-mcq-76",
+        "hurt-mcq-39"
       ],
       "explanation": "本句的「hurt her by ignoring her」指「因某行為而對某人造成傷害」。",
       "sentenceIndex": 123,
@@ -5422,12 +4936,10 @@ export default {
         "hurt her by ignoring her"
       ],
       "optionReasons": {
-        "hurt-mcq-65": "本句指「因某行為而對某人造成傷害」。",
-        "hurt-mcq-64": "「某經歷令人在情感上痛苦」與本句語境不同。",
-        "hurt-mcq-66": "「造成較大／較小程度的疼痛或傷害」與本句語境不同。",
-        "hurt-mcq-63": "「真相有時令人難受；忠言逆耳」與本句語境不同。",
-        "hurt-mcq-67": "「所造成的痛苦／傷害程度與另一事物相同」與本句語境不同。",
-        "hurt-mcq-62": "「有意使某人受到身體／情緒傷害」與本句語境不同。"
+        "hurt-mcq-65": "本句的「hurt her by ignoring her」指「因某行為而對某人造成傷害」。",
+        "hurt-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-65"
     },
@@ -5439,11 +4951,9 @@ export default {
       "masked": "They may have ____.",
       "options": [
         "hurt-mcq-65",
-        "hurt-mcq-64",
-        "hurt-mcq-66",
-        "hurt-mcq-63",
-        "hurt-mcq-67",
-        "hurt-mcq-62"
+        "hurt-mcq-28",
+        "hurt-mcq-29",
+        "hurt-mcq-74"
       ],
       "explanation": "本句的「hurt the team by leaving early」指「因某行為而對某人造成傷害」。",
       "sentenceIndex": 124,
@@ -5452,12 +4962,10 @@ export default {
         "hurt the team by leaving early"
       ],
       "optionReasons": {
-        "hurt-mcq-65": "本句指「因某行為而對某人造成傷害」。",
-        "hurt-mcq-64": "「某經歷令人在情感上痛苦」與本句語境不同。",
-        "hurt-mcq-66": "「造成較大／較小程度的疼痛或傷害」與本句語境不同。",
-        "hurt-mcq-63": "「真相有時令人難受；忠言逆耳」與本句語境不同。",
-        "hurt-mcq-67": "「所造成的痛苦／傷害程度與另一事物相同」與本句語境不同。",
-        "hurt-mcq-62": "「有意使某人受到身體／情緒傷害」與本句語境不同。"
+        "hurt-mcq-65": "本句的「hurt the team by leaving early」指「因某行為而對某人造成傷害」。",
+        "hurt-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-65"
     },
@@ -5469,11 +4977,9 @@ export default {
       "masked": "Being ignored sometimes ____ criticism.",
       "options": [
         "hurt-mcq-66",
-        "hurt-mcq-65",
-        "hurt-mcq-67",
-        "hurt-mcq-64",
-        "hurt-mcq-68",
-        "hurt-mcq-63"
+        "hurt-mcq-69",
+        "hurt-mcq-63",
+        "hurt-mcq-38"
       ],
       "explanation": "本句的「hurts more than」指「造成較大／較小程度的疼痛或傷害」。",
       "sentenceIndex": 125,
@@ -5482,12 +4988,10 @@ export default {
         "hurts more than"
       ],
       "optionReasons": {
-        "hurt-mcq-66": "本句指「造成較大／較小程度的疼痛或傷害」。",
-        "hurt-mcq-65": "「因某行為而對某人造成傷害」與本句語境不同。",
-        "hurt-mcq-67": "「所造成的痛苦／傷害程度與另一事物相同」與本句語境不同。",
-        "hurt-mcq-64": "「某經歷令人在情感上痛苦」與本句語境不同。",
-        "hurt-mcq-68": "「某事不會對 X 造成負面影響」與本句語境不同。",
-        "hurt-mcq-63": "「真相有時令人難受；忠言逆耳」與本句語境不同。"
+        "hurt-mcq-66": "本句的「hurts more than」指「造成較大／較小程度的疼痛或傷害」。",
+        "hurt-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-66"
     },
@@ -5499,11 +5003,9 @@ export default {
       "masked": "The injection ____ I expected.",
       "options": [
         "hurt-mcq-66",
-        "hurt-mcq-65",
-        "hurt-mcq-67",
-        "hurt-mcq-64",
-        "hurt-mcq-68",
-        "hurt-mcq-63"
+        "hurt-mcq-69",
+        "hurt-mcq-72",
+        "hurt-mcq-39"
       ],
       "explanation": "本句的「hurt less than」指「造成較大／較小程度的疼痛或傷害」。",
       "sentenceIndex": 126,
@@ -5512,12 +5014,10 @@ export default {
         "hurt less than"
       ],
       "optionReasons": {
-        "hurt-mcq-66": "本句指「造成較大／較小程度的疼痛或傷害」。",
-        "hurt-mcq-65": "「因某行為而對某人造成傷害」與本句語境不同。",
-        "hurt-mcq-67": "「所造成的痛苦／傷害程度與另一事物相同」與本句語境不同。",
-        "hurt-mcq-64": "「某經歷令人在情感上痛苦」與本句語境不同。",
-        "hurt-mcq-68": "「某事不會對 X 造成負面影響」與本句語境不同。",
-        "hurt-mcq-63": "「真相有時令人難受；忠言逆耳」與本句語境不同。"
+        "hurt-mcq-66": "本句的「hurt less than」指「造成較大／較小程度的疼痛或傷害」。",
+        "hurt-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-66"
     },
@@ -5529,11 +5029,9 @@ export default {
       "masked": "Exclusion can ____ open insults.",
       "options": [
         "hurt-mcq-67",
-        "hurt-mcq-66",
-        "hurt-mcq-68",
-        "hurt-mcq-65",
-        "hurt-mcq-69",
-        "hurt-mcq-64"
+        "hurt-mcq-39",
+        "hurt-mcq-20",
+        "hurt-mcq-30"
       ],
       "explanation": "本句的「hurt as much as」指「所造成的痛苦／傷害程度與另一事物相同」。",
       "sentenceIndex": 127,
@@ -5542,12 +5040,10 @@ export default {
         "hurt as much as"
       ],
       "optionReasons": {
-        "hurt-mcq-67": "本句指「所造成的痛苦／傷害程度與另一事物相同」。",
-        "hurt-mcq-66": "「造成較大／較小程度的疼痛或傷害」與本句語境不同。",
-        "hurt-mcq-68": "「某事不會對 X 造成負面影響」與本句語境不同。",
-        "hurt-mcq-65": "「因某行為而對某人造成傷害」與本句語境不同。",
-        "hurt-mcq-69": "「削弱某項事業／努力的效果或支持」與本句語境不同。",
-        "hurt-mcq-64": "「某經歷令人在情感上痛苦」與本句語境不同。"
+        "hurt-mcq-67": "本句的「hurt as much as」指「所造成的痛苦／傷害程度與另一事物相同」。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-67"
     },
@@ -5559,11 +5055,9 @@ export default {
       "masked": "A little rain ____.",
       "options": [
         "hurt-mcq-68",
-        "hurt-mcq-67",
-        "hurt-mcq-69",
-        "hurt-mcq-66",
-        "hurt-mcq-70",
-        "hurt-mcq-65"
+        "hurt-mcq-03",
+        "hurt-mcq-25",
+        "hurt-mcq-38"
       ],
       "explanation": "本句的「won’t hurt the plants」指「某事不會對 X 造成負面影響」。",
       "sentenceIndex": 128,
@@ -5572,12 +5066,10 @@ export default {
         "won’t hurt the plants"
       ],
       "optionReasons": {
-        "hurt-mcq-68": "本句指「某事不會對 X 造成負面影響」。",
-        "hurt-mcq-67": "「所造成的痛苦／傷害程度與另一事物相同」與本句語境不同。",
-        "hurt-mcq-69": "「削弱某項事業／努力的效果或支持」與本句語境不同。",
-        "hurt-mcq-66": "「造成較大／較小程度的疼痛或傷害」與本句語境不同。",
-        "hurt-mcq-70": "「損害一段關係、友誼或信任」與本句語境不同。",
-        "hurt-mcq-65": "「因某行為而對某人造成傷害」與本句語境不同。"
+        "hurt-mcq-68": "本句的「won’t hurt the plants」指「某事不會對 X 造成負面影響」。",
+        "hurt-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-68"
     },
@@ -5589,11 +5081,9 @@ export default {
       "masked": "Moving the meeting by one day ____.",
       "options": [
         "hurt-mcq-68",
-        "hurt-mcq-67",
-        "hurt-mcq-69",
-        "hurt-mcq-66",
-        "hurt-mcq-70",
-        "hurt-mcq-65"
+        "hurt-mcq-39",
+        "hurt-mcq-50",
+        "hurt-mcq-05"
       ],
       "explanation": "本句的「won’t hurt the project」指「某事不會對 X 造成負面影響」。",
       "sentenceIndex": 129,
@@ -5602,12 +5092,10 @@ export default {
         "won’t hurt the project"
       ],
       "optionReasons": {
-        "hurt-mcq-68": "本句指「某事不會對 X 造成負面影響」。",
-        "hurt-mcq-67": "「所造成的痛苦／傷害程度與另一事物相同」與本句語境不同。",
-        "hurt-mcq-69": "「削弱某項事業／努力的效果或支持」與本句語境不同。",
-        "hurt-mcq-66": "「造成較大／較小程度的疼痛或傷害」與本句語境不同。",
-        "hurt-mcq-70": "「損害一段關係、友誼或信任」與本句語境不同。",
-        "hurt-mcq-65": "「因某行為而對某人造成傷害」與本句語境不同。"
+        "hurt-mcq-68": "本句的「won’t hurt the project」指「某事不會對 X 造成負面影響」。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-68"
     },
@@ -5619,11 +5107,9 @@ export default {
       "masked": "Poor behavior can ____.",
       "options": [
         "hurt-mcq-69",
-        "hurt-mcq-68",
-        "hurt-mcq-70",
-        "hurt-mcq-67",
-        "hurt-mcq-71",
-        "hurt-mcq-66"
+        "hurt-mcq-40",
+        "hurt-mcq-76",
+        "hurt-mcq-07"
       ],
       "explanation": "本句的「hurt the cause」指「削弱某項事業／努力的效果或支持」。",
       "sentenceIndex": 130,
@@ -5632,12 +5118,10 @@ export default {
         "hurt the cause"
       ],
       "optionReasons": {
-        "hurt-mcq-69": "本句指「削弱某項事業／努力的效果或支持」。",
-        "hurt-mcq-68": "「某事不會對 X 造成負面影響」與本句語境不同。",
-        "hurt-mcq-70": "「損害一段關係、友誼或信任」與本句語境不同。",
-        "hurt-mcq-67": "「所造成的痛苦／傷害程度與另一事物相同」與本句語境不同。",
-        "hurt-mcq-71": "「削弱信任／信心」與本句語境不同。",
-        "hurt-mcq-66": "「造成較大／較小程度的疼痛或傷害」與本句語境不同。"
+        "hurt-mcq-69": "本句的「hurt the cause」指「削弱某項事業／努力的效果或支持」。",
+        "hurt-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-69"
     },
@@ -5649,11 +5133,9 @@ export default {
       "masked": "Internal conflict ____.",
       "options": [
         "hurt-mcq-69",
-        "hurt-mcq-68",
-        "hurt-mcq-70",
-        "hurt-mcq-67",
-        "hurt-mcq-71",
-        "hurt-mcq-66"
+        "hurt-mcq-07",
+        "hurt-mcq-24",
+        "hurt-mcq-44"
       ],
       "explanation": "本句的「hurt their efforts」指「削弱某項事業／努力的效果或支持」。",
       "sentenceIndex": 131,
@@ -5662,12 +5144,10 @@ export default {
         "hurt their efforts"
       ],
       "optionReasons": {
-        "hurt-mcq-69": "本句指「削弱某項事業／努力的效果或支持」。",
-        "hurt-mcq-68": "「某事不會對 X 造成負面影響」與本句語境不同。",
-        "hurt-mcq-70": "「損害一段關係、友誼或信任」與本句語境不同。",
-        "hurt-mcq-67": "「所造成的痛苦／傷害程度與另一事物相同」與本句語境不同。",
-        "hurt-mcq-71": "「削弱信任／信心」與本句語境不同。",
-        "hurt-mcq-66": "「造成較大／較小程度的疼痛或傷害」與本句語境不同。"
+        "hurt-mcq-69": "本句的「hurt their efforts」指「削弱某項事業／努力的效果或支持」。",
+        "hurt-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-69"
     },
@@ -5679,11 +5159,9 @@ export default {
       "masked": "Dishonesty can ____.",
       "options": [
         "hurt-mcq-70",
-        "hurt-mcq-69",
-        "hurt-mcq-71",
-        "hurt-mcq-68",
-        "hurt-mcq-72",
-        "hurt-mcq-67"
+        "hurt-mcq-76",
+        "hurt-mcq-63",
+        "hurt-mcq-18"
       ],
       "explanation": "本句的「hurt a relationship」指「損害一段關係、友誼或信任」。",
       "sentenceIndex": 132,
@@ -5692,12 +5170,10 @@ export default {
         "hurt a relationship"
       ],
       "optionReasons": {
-        "hurt-mcq-70": "本句指「損害一段關係、友誼或信任」。",
-        "hurt-mcq-69": "「削弱某項事業／努力的效果或支持」與本句語境不同。",
-        "hurt-mcq-71": "「削弱信任／信心」與本句語境不同。",
-        "hurt-mcq-68": "「某事不會對 X 造成負面影響」與本句語境不同。",
-        "hurt-mcq-72": "「使某人的論據／立場變弱」與本句語境不同。",
-        "hurt-mcq-67": "「所造成的痛苦／傷害程度與另一事物相同」與本句語境不同。"
+        "hurt-mcq-70": "本句的「hurt a relationship」指「損害一段關係、友誼或信任」。",
+        "hurt-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-70"
     },
@@ -5709,11 +5185,9 @@ export default {
       "masked": "Repeated criticism ____.",
       "options": [
         "hurt-mcq-70",
-        "hurt-mcq-69",
-        "hurt-mcq-71",
         "hurt-mcq-68",
-        "hurt-mcq-72",
-        "hurt-mcq-67"
+        "hurt-mcq-83",
+        "hurt-mcq-28"
       ],
       "explanation": "本句的「hurt their friendship」指「損害一段關係、友誼或信任」。",
       "sentenceIndex": 133,
@@ -5722,12 +5196,10 @@ export default {
         "hurt their friendship"
       ],
       "optionReasons": {
-        "hurt-mcq-70": "本句指「損害一段關係、友誼或信任」。",
-        "hurt-mcq-69": "「削弱某項事業／努力的效果或支持」與本句語境不同。",
-        "hurt-mcq-71": "「削弱信任／信心」與本句語境不同。",
-        "hurt-mcq-68": "「某事不會對 X 造成負面影響」與本句語境不同。",
-        "hurt-mcq-72": "「使某人的論據／立場變弱」與本句語境不同。",
-        "hurt-mcq-67": "「所造成的痛苦／傷害程度與另一事物相同」與本句語境不同。"
+        "hurt-mcq-70": "本句的「hurt their friendship」指「損害一段關係、友誼或信任」。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-70"
     },
@@ -5739,11 +5211,9 @@ export default {
       "masked": "The mistake ____.",
       "options": [
         "hurt-mcq-71",
-        "hurt-mcq-70",
-        "hurt-mcq-72",
-        "hurt-mcq-69",
-        "hurt-mcq-73",
-        "hurt-mcq-68"
+        "hurt-mcq-56",
+        "hurt-mcq-30",
+        "hurt-mcq-16"
       ],
       "explanation": "本句的「hurt public trust」指「削弱信任／信心」。",
       "sentenceIndex": 134,
@@ -5752,12 +5222,10 @@ export default {
         "hurt public trust"
       ],
       "optionReasons": {
-        "hurt-mcq-71": "本句指「削弱信任／信心」。",
-        "hurt-mcq-70": "「損害一段關係、友誼或信任」與本句語境不同。",
-        "hurt-mcq-72": "「使某人的論據／立場變弱」與本句語境不同。",
-        "hurt-mcq-69": "「削弱某項事業／努力的效果或支持」與本句語境不同。",
-        "hurt-mcq-73": "「降低某物的價值」與本句語境不同。",
-        "hurt-mcq-68": "「某事不會對 X 造成負面影響」與本句語境不同。"
+        "hurt-mcq-71": "本句的「hurt public trust」指「削弱信任／信心」。",
+        "hurt-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-71"
     },
@@ -5769,11 +5237,9 @@ export default {
       "masked": "Repeated failures may ____.",
       "options": [
         "hurt-mcq-71",
-        "hurt-mcq-70",
-        "hurt-mcq-72",
-        "hurt-mcq-69",
-        "hurt-mcq-73",
-        "hurt-mcq-68"
+        "hurt-mcq-04",
+        "hurt-mcq-02",
+        "hurt-mcq-27"
       ],
       "explanation": "本句的「hurt confidence」指「削弱信任／信心」。",
       "sentenceIndex": 135,
@@ -5782,12 +5248,10 @@ export default {
         "hurt confidence"
       ],
       "optionReasons": {
-        "hurt-mcq-71": "本句指「削弱信任／信心」。",
-        "hurt-mcq-70": "「損害一段關係、友誼或信任」與本句語境不同。",
-        "hurt-mcq-72": "「使某人的論據／立場變弱」與本句語境不同。",
-        "hurt-mcq-69": "「削弱某項事業／努力的效果或支持」與本句語境不同。",
-        "hurt-mcq-73": "「降低某物的價值」與本句語境不同。",
-        "hurt-mcq-68": "「某事不會對 X 造成負面影響」與本句語境不同。"
+        "hurt-mcq-71": "本句的「hurt confidence」指「削弱信任／信心」。",
+        "hurt-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-71"
     },
@@ -5799,11 +5263,9 @@ export default {
       "masked": "Contradictory evidence ____.",
       "options": [
         "hurt-mcq-72",
-        "hurt-mcq-71",
-        "hurt-mcq-73",
-        "hurt-mcq-70",
-        "hurt-mcq-74",
-        "hurt-mcq-69"
+        "hurt-mcq-06",
+        "hurt-mcq-51",
+        "hurt-mcq-68"
       ],
       "explanation": "本句的「hurt his case」指「使某人的論據／立場變弱」。",
       "sentenceIndex": 136,
@@ -5812,12 +5274,10 @@ export default {
         "hurt his case"
       ],
       "optionReasons": {
-        "hurt-mcq-72": "本句指「使某人的論據／立場變弱」。",
-        "hurt-mcq-71": "「削弱信任／信心」與本句語境不同。",
-        "hurt-mcq-73": "「降低某物的價值」與本句語境不同。",
-        "hurt-mcq-70": "「損害一段關係、友誼或信任」與本句語境不同。",
-        "hurt-mcq-74": "「削弱競爭力」與本句語境不同。",
-        "hurt-mcq-69": "「削弱某項事業／努力的效果或支持」與本句語境不同。"
+        "hurt-mcq-72": "本句的「hurt his case」指「使某人的論據／立場變弱」。",
+        "hurt-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-72"
     },
@@ -5829,11 +5289,9 @@ export default {
       "masked": "That example may actually ____.",
       "options": [
         "hurt-mcq-72",
-        "hurt-mcq-71",
-        "hurt-mcq-73",
-        "hurt-mcq-70",
-        "hurt-mcq-74",
-        "hurt-mcq-69"
+        "hurt-mcq-61",
+        "hurt-mcq-53",
+        "hurt-mcq-39"
       ],
       "explanation": "本句的「hurt your argument」指「使某人的論據／立場變弱」。",
       "sentenceIndex": 137,
@@ -5842,12 +5300,10 @@ export default {
         "hurt your argument"
       ],
       "optionReasons": {
-        "hurt-mcq-72": "本句指「使某人的論據／立場變弱」。",
-        "hurt-mcq-71": "「削弱信任／信心」與本句語境不同。",
-        "hurt-mcq-73": "「降低某物的價值」與本句語境不同。",
-        "hurt-mcq-70": "「損害一段關係、友誼或信任」與本句語境不同。",
-        "hurt-mcq-74": "「削弱競爭力」與本句語境不同。",
-        "hurt-mcq-69": "「削弱某項事業／努力的效果或支持」與本句語境不同。"
+        "hurt-mcq-72": "本句的「hurt your argument」指「使某人的論據／立場變弱」。",
+        "hurt-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-72"
     },
@@ -5859,11 +5315,9 @@ export default {
       "masked": "Visible damage can ____.",
       "options": [
         "hurt-mcq-73",
-        "hurt-mcq-72",
-        "hurt-mcq-74",
         "hurt-mcq-71",
-        "hurt-mcq-75",
-        "hurt-mcq-70"
+        "hurt-mcq-58",
+        "hurt-mcq-38"
       ],
       "explanation": "本句的「hurt resale value」指「降低某物的價值」。",
       "sentenceIndex": 138,
@@ -5872,12 +5326,10 @@ export default {
         "hurt resale value"
       ],
       "optionReasons": {
-        "hurt-mcq-73": "本句指「降低某物的價值」。",
-        "hurt-mcq-72": "「使某人的論據／立場變弱」與本句語境不同。",
-        "hurt-mcq-74": "「削弱競爭力」與本句語境不同。",
-        "hurt-mcq-71": "「削弱信任／信心」與本句語境不同。",
-        "hurt-mcq-75": "「因傷而不能正常比賽／受傷」與本句語境不同。",
-        "hurt-mcq-70": "「損害一段關係、友誼或信任」與本句語境不同。"
+        "hurt-mcq-73": "本句的「hurt resale value」指「降低某物的價值」。",
+        "hurt-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-73"
     },
@@ -5889,10 +5341,8 @@ export default {
       "masked": "Poor maintenance ____.",
       "options": [
         "hurt-mcq-73",
-        "hurt-mcq-72",
-        "hurt-mcq-74",
-        "hurt-mcq-71",
-        "hurt-mcq-75",
+        "hurt-mcq-43",
+        "hurt-mcq-77",
         "hurt-mcq-70"
       ],
       "explanation": "本句的「hurt the property’s value」指「降低某物的價值」。",
@@ -5902,12 +5352,10 @@ export default {
         "hurt the property’s value"
       ],
       "optionReasons": {
-        "hurt-mcq-73": "本句指「降低某物的價值」。",
-        "hurt-mcq-72": "「使某人的論據／立場變弱」與本句語境不同。",
-        "hurt-mcq-74": "「削弱競爭力」與本句語境不同。",
-        "hurt-mcq-71": "「削弱信任／信心」與本句語境不同。",
-        "hurt-mcq-75": "「因傷而不能正常比賽／受傷」與本句語境不同。",
-        "hurt-mcq-70": "「損害一段關係、友誼或信任」與本句語境不同。"
+        "hurt-mcq-73": "本句的「hurt the property’s value」指「降低某物的價值」。",
+        "hurt-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-73"
     },
@@ -5919,11 +5367,9 @@ export default {
       "masked": "Higher costs can ____.",
       "options": [
         "hurt-mcq-74",
-        "hurt-mcq-73",
-        "hurt-mcq-75",
-        "hurt-mcq-72",
-        "hurt-mcq-76",
-        "hurt-mcq-71"
+        "hurt-mcq-40",
+        "hurt-mcq-48",
+        "hurt-mcq-76"
       ],
       "explanation": "本句的「hurt competitiveness」指「削弱競爭力」。",
       "sentenceIndex": 140,
@@ -5932,12 +5378,10 @@ export default {
         "hurt competitiveness"
       ],
       "optionReasons": {
-        "hurt-mcq-74": "本句指「削弱競爭力」。",
-        "hurt-mcq-73": "「降低某物的價值」與本句語境不同。",
-        "hurt-mcq-75": "「因傷而不能正常比賽／受傷」與本句語境不同。",
-        "hurt-mcq-72": "「使某人的論據／立場變弱」與本句語境不同。",
-        "hurt-mcq-76": "「非正式：痛得要命」與本句語境不同。",
-        "hurt-mcq-71": "「削弱信任／信心」與本句語境不同。"
+        "hurt-mcq-74": "本句的「hurt competitiveness」指「削弱競爭力」。",
+        "hurt-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-74"
     },
@@ -5949,11 +5393,9 @@ export default {
       "masked": "Slow development ____.",
       "options": [
         "hurt-mcq-74",
-        "hurt-mcq-73",
-        "hurt-mcq-75",
-        "hurt-mcq-72",
-        "hurt-mcq-76",
-        "hurt-mcq-71"
+        "hurt-mcq-66",
+        "hurt-mcq-24",
+        "hurt-mcq-21"
       ],
       "explanation": "本句的「hurt the company’s competitive position」指「削弱競爭力」。",
       "sentenceIndex": 141,
@@ -5962,12 +5404,10 @@ export default {
         "hurt the company’s competitive position"
       ],
       "optionReasons": {
-        "hurt-mcq-74": "本句指「削弱競爭力」。",
-        "hurt-mcq-73": "「降低某物的價值」與本句語境不同。",
-        "hurt-mcq-75": "「因傷而不能正常比賽／受傷」與本句語境不同。",
-        "hurt-mcq-72": "「使某人的論據／立場變弱」與本句語境不同。",
-        "hurt-mcq-76": "「非正式：痛得要命」與本句語境不同。",
-        "hurt-mcq-71": "「削弱信任／信心」與本句語境不同。"
+        "hurt-mcq-74": "本句的「hurt the company’s competitive position」指「削弱競爭力」。",
+        "hurt-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-74"
     },
@@ -5979,11 +5419,9 @@ export default {
       "masked": "Their best player is ____.",
       "options": [
         "hurt-mcq-75",
-        "hurt-mcq-74",
-        "hurt-mcq-76",
-        "hurt-mcq-73",
-        "hurt-mcq-77",
-        "hurt-mcq-72"
+        "hurt-mcq-12",
+        "hurt-mcq-01",
+        "hurt-mcq-70"
       ],
       "explanation": "本句的「hurt」指「因傷而不能正常比賽／受傷」。",
       "sentenceIndex": 142,
@@ -5992,12 +5430,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-75": "本句指「因傷而不能正常比賽／受傷」。",
-        "hurt-mcq-74": "「削弱競爭力」與本句語境不同。",
-        "hurt-mcq-76": "「非正式：痛得要命」與本句語境不同。",
-        "hurt-mcq-73": "「降低某物的價值」與本句語境不同。",
-        "hurt-mcq-77": "「非正式：痛得非常厲害」與本句語境不同。",
-        "hurt-mcq-72": "「使某人的論據／立場變弱」與本句語境不同。"
+        "hurt-mcq-75": "本句的「hurt」指「因傷而不能正常比賽／受傷」。",
+        "hurt-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-75"
     },
@@ -6009,11 +5445,9 @@ export default {
       "masked": "He missed two games because he was ____.",
       "options": [
         "hurt-mcq-75",
-        "hurt-mcq-74",
-        "hurt-mcq-76",
-        "hurt-mcq-73",
-        "hurt-mcq-77",
-        "hurt-mcq-72"
+        "hurt-mcq-02",
+        "hurt-mcq-68",
+        "hurt-mcq-25"
       ],
       "explanation": "本句的「hurt」指「因傷而不能正常比賽／受傷」。",
       "sentenceIndex": 143,
@@ -6022,12 +5456,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-75": "本句指「因傷而不能正常比賽／受傷」。",
-        "hurt-mcq-74": "「削弱競爭力」與本句語境不同。",
-        "hurt-mcq-76": "「非正式：痛得要命」與本句語境不同。",
-        "hurt-mcq-73": "「降低某物的價值」與本句語境不同。",
-        "hurt-mcq-77": "「非正式：痛得非常厲害」與本句語境不同。",
-        "hurt-mcq-72": "「使某人的論據／立場變弱」與本句語境不同。"
+        "hurt-mcq-75": "本句的「hurt」指「因傷而不能正常比賽／受傷」。",
+        "hurt-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-75"
     },
@@ -6039,11 +5471,9 @@ export default {
       "masked": "Why does it ____?",
       "options": [
         "hurt-mcq-09",
-        "hurt-mcq-08",
-        "hurt-mcq-10",
-        "hurt-mcq-07",
-        "hurt-mcq-11",
-        "hurt-mcq-06"
+        "hurt-mcq-78",
+        "hurt-mcq-61",
+        "hurt-mcq-69"
       ],
       "explanation": "本句的「hurt so much」指「痛得很厲害」。",
       "sentenceIndex": 144,
@@ -6052,12 +5482,10 @@ export default {
         "hurt so much"
       ],
       "optionReasons": {
-        "hurt-mcq-09": "本句指「痛得很厲害」。",
-        "hurt-mcq-08": "「感到疼痛；這會痛」與本句語境不同。",
-        "hurt-mcq-10": "「做某個動作會引起疼痛」與本句語境不同。",
-        "hurt-mcq-07": "「問疼痛出現在哪個部位；哪裡痛？」與本句語境不同。",
-        "hurt-mcq-11": "「因失去、拒絕等而感到心痛／難受」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。"
+        "hurt-mcq-09": "本句的「hurt so much」指「痛得很厲害」。",
+        "hurt-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-09"
     },
@@ -6069,11 +5497,9 @@ export default {
       "masked": "Being rejected ____ at the time.",
       "options": [
         "hurt-mcq-09",
-        "hurt-mcq-08",
-        "hurt-mcq-10",
-        "hurt-mcq-07",
-        "hurt-mcq-11",
-        "hurt-mcq-06"
+        "hurt-mcq-14",
+        "hurt-mcq-05",
+        "hurt-mcq-78"
       ],
       "explanation": "本句的「hurt so much」指「痛得很厲害」。",
       "sentenceIndex": 145,
@@ -6082,12 +5508,10 @@ export default {
         "hurt so much"
       ],
       "optionReasons": {
-        "hurt-mcq-09": "本句指「痛得很厲害」。",
-        "hurt-mcq-08": "「感到疼痛；這會痛」與本句語境不同。",
-        "hurt-mcq-10": "「做某個動作會引起疼痛」與本句語境不同。",
-        "hurt-mcq-07": "「問疼痛出現在哪個部位；哪裡痛？」與本句語境不同。",
-        "hurt-mcq-11": "「因失去、拒絕等而感到心痛／難受」與本句語境不同。",
-        "hurt-mcq-06": "「某身體部位正在疼痛」與本句語境不同。"
+        "hurt-mcq-09": "本句的「hurt so much」指「痛得很厲害」。",
+        "hurt-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-09"
     },
@@ -6099,11 +5523,9 @@ export default {
       "masked": "My ankle ____.",
       "options": [
         "hurt-mcq-76",
-        "hurt-mcq-75",
-        "hurt-mcq-77",
-        "hurt-mcq-74",
-        "hurt-mcq-78",
-        "hurt-mcq-73"
+        "hurt-mcq-38",
+        "hurt-mcq-27",
+        "hurt-mcq-78"
       ],
       "explanation": "本句的「hurts like hell」指「非正式：痛得要命」。",
       "sentenceIndex": 146,
@@ -6112,12 +5534,10 @@ export default {
         "hurts like hell"
       ],
       "optionReasons": {
-        "hurt-mcq-76": "本句指「非正式：痛得要命」。",
-        "hurt-mcq-75": "「因傷而不能正常比賽／受傷」與本句語境不同。",
-        "hurt-mcq-77": "「非正式：痛得非常厲害」與本句語境不同。",
-        "hurt-mcq-74": "「削弱競爭力」與本句語境不同。",
-        "hurt-mcq-78": "「長期帶著未消化的心傷」與本句語境不同。",
-        "hurt-mcq-73": "「降低某物的價值」與本句語境不同。"
+        "hurt-mcq-76": "本句的「hurts like hell」指「非正式：痛得要命」。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-76"
     },
@@ -6129,11 +5549,9 @@ export default {
       "masked": "My shoulder ____ after the fall.",
       "options": [
         "hurt-mcq-77",
-        "hurt-mcq-76",
-        "hurt-mcq-78",
-        "hurt-mcq-75",
-        "hurt-mcq-79",
-        "hurt-mcq-74"
+        "hurt-mcq-17",
+        "hurt-mcq-35",
+        "hurt-mcq-22"
       ],
       "explanation": "本句的「hurt like crazy」指「非正式：痛得非常厲害」。",
       "sentenceIndex": 147,
@@ -6142,12 +5560,10 @@ export default {
         "hurt like crazy"
       ],
       "optionReasons": {
-        "hurt-mcq-77": "本句指「非正式：痛得非常厲害」。",
-        "hurt-mcq-76": "「非正式：痛得要命」與本句語境不同。",
-        "hurt-mcq-78": "「長期帶著未消化的心傷」與本句語境不同。",
-        "hurt-mcq-75": "「因傷而不能正常比賽／受傷」與本句語境不同。",
-        "hurt-mcq-79": "「掩飾自己的心痛／受傷感」與本句語境不同。",
-        "hurt-mcq-74": "「削弱競爭力」與本句語境不同。"
+        "hurt-mcq-77": "本句的「hurt like crazy」指「非正式：痛得非常厲害」。",
+        "hurt-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-77"
     },
@@ -6159,11 +5575,9 @@ export default {
       "masked": "He carried that ____ for years.",
       "options": [
         "hurt-mcq-78",
-        "hurt-mcq-77",
-        "hurt-mcq-79",
-        "hurt-mcq-76",
-        "hurt-mcq-80",
-        "hurt-mcq-75"
+        "hurt-mcq-43",
+        "hurt-mcq-02",
+        "hurt-mcq-30"
       ],
       "explanation": "本句的「hurt」指「長期帶著未消化的心傷」。",
       "sentenceIndex": 148,
@@ -6172,12 +5586,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-78": "本句指「長期帶著未消化的心傷」。",
-        "hurt-mcq-77": "「非正式：痛得非常厲害」與本句語境不同。",
-        "hurt-mcq-79": "「掩飾自己的心痛／受傷感」與本句語境不同。",
-        "hurt-mcq-76": "「非正式：痛得要命」與本句語境不同。",
-        "hurt-mcq-80": "「從情緒傷害中逐漸復原」與本句語境不同。",
-        "hurt-mcq-75": "「因傷而不能正常比賽／受傷」與本句語境不同。"
+        "hurt-mcq-78": "本句的「hurt」指「長期帶著未消化的心傷」。",
+        "hurt-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-78"
     },
@@ -6189,11 +5601,9 @@ export default {
       "masked": "Unresolved ____ can affect later relationships.",
       "options": [
         "hurt-mcq-78",
-        "hurt-mcq-77",
-        "hurt-mcq-79",
-        "hurt-mcq-76",
-        "hurt-mcq-80",
-        "hurt-mcq-75"
+        "hurt-mcq-10",
+        "hurt-mcq-63",
+        "hurt-mcq-74"
       ],
       "explanation": "本句的「hurt」指「長期帶著未消化的心傷」。",
       "sentenceIndex": 149,
@@ -6202,12 +5612,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-78": "本句指「長期帶著未消化的心傷」。",
-        "hurt-mcq-77": "「非正式：痛得非常厲害」與本句語境不同。",
-        "hurt-mcq-79": "「掩飾自己的心痛／受傷感」與本句語境不同。",
-        "hurt-mcq-76": "「非正式：痛得要命」與本句語境不同。",
-        "hurt-mcq-80": "「從情緒傷害中逐漸復原」與本句語境不同。",
-        "hurt-mcq-75": "「因傷而不能正常比賽／受傷」與本句語境不同。"
+        "hurt-mcq-78": "本句的「hurt」指「長期帶著未消化的心傷」。",
+        "hurt-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-78"
     },
@@ -6219,11 +5627,9 @@ export default {
       "masked": "She tried to ____.",
       "options": [
         "hurt-mcq-79",
-        "hurt-mcq-78",
-        "hurt-mcq-80",
-        "hurt-mcq-77",
-        "hurt-mcq-81",
-        "hurt-mcq-76"
+        "hurt-mcq-38",
+        "hurt-mcq-26",
+        "hurt-mcq-31"
       ],
       "explanation": "本句的「hide her hurt」指「掩飾自己的心痛／受傷感」。",
       "sentenceIndex": 150,
@@ -6232,12 +5638,10 @@ export default {
         "hide her hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-79": "本句指「掩飾自己的心痛／受傷感」。",
-        "hurt-mcq-78": "「長期帶著未消化的心傷」與本句語境不同。",
-        "hurt-mcq-80": "「從情緒傷害中逐漸復原」與本句語境不同。",
-        "hurt-mcq-77": "「非正式：痛得非常厲害」與本句語境不同。",
-        "hurt-mcq-81": "「正在疼痛、心痛或處境艱難」與本句語境不同。",
-        "hurt-mcq-76": "「非正式：痛得要命」與本句語境不同。"
+        "hurt-mcq-79": "本句的「hide her hurt」指「掩飾自己的心痛／受傷感」。",
+        "hurt-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-79"
     },
@@ -6249,11 +5653,9 @@ export default {
       "masked": "Humor sometimes concealed his ____.",
       "options": [
         "hurt-mcq-79",
-        "hurt-mcq-78",
-        "hurt-mcq-80",
-        "hurt-mcq-77",
-        "hurt-mcq-81",
-        "hurt-mcq-76"
+        "hurt-mcq-31",
+        "hurt-mcq-25",
+        "hurt-mcq-39"
       ],
       "explanation": "本句的「hurt」指「掩飾自己的心痛／受傷感」。",
       "sentenceIndex": 151,
@@ -6262,12 +5664,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-79": "本句指「掩飾自己的心痛／受傷感」。",
-        "hurt-mcq-78": "「長期帶著未消化的心傷」與本句語境不同。",
-        "hurt-mcq-80": "「從情緒傷害中逐漸復原」與本句語境不同。",
-        "hurt-mcq-77": "「非正式：痛得非常厲害」與本句語境不同。",
-        "hurt-mcq-81": "「正在疼痛、心痛或處境艱難」與本句語境不同。",
-        "hurt-mcq-76": "「非正式：痛得要命」與本句語境不同。"
+        "hurt-mcq-79": "本句的「hurt」指「掩飾自己的心痛／受傷感」。",
+        "hurt-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-79"
     },
@@ -6279,11 +5679,9 @@ export default {
       "masked": "It took time to heal from the ____.",
       "options": [
         "hurt-mcq-80",
-        "hurt-mcq-79",
-        "hurt-mcq-81",
-        "hurt-mcq-78",
-        "hurt-mcq-82",
-        "hurt-mcq-77"
+        "hurt-mcq-08",
+        "hurt-mcq-73",
+        "hurt-mcq-68"
       ],
       "explanation": "本句的「hurt」指「從情緒傷害中逐漸復原」。",
       "sentenceIndex": 152,
@@ -6292,12 +5690,10 @@ export default {
         "hurt"
       ],
       "optionReasons": {
-        "hurt-mcq-80": "本句指「從情緒傷害中逐漸復原」。",
-        "hurt-mcq-79": "「掩飾自己的心痛／受傷感」與本句語境不同。",
-        "hurt-mcq-81": "「正在疼痛、心痛或處境艱難」與本句語境不同。",
-        "hurt-mcq-78": "「長期帶著未消化的心傷」與本句語境不同。",
-        "hurt-mcq-82": "「傷人的；會造成情緒痛苦的」與本句語境不同。",
-        "hurt-mcq-77": "「非正式：痛得非常厲害」與本句語境不同。"
+        "hurt-mcq-80": "本句的「hurt」指「從情緒傷害中逐漸復原」。",
+        "hurt-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "hurt-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hurt-mcq-80"
     }
@@ -6309,5 +5705,7 @@ export default {
     "sha256": "910bc7bdde9f9afa76cee632eb4f76dcab0be4dba539de3091001c137bc79ed7",
     "pages": 50
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

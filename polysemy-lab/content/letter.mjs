@@ -328,13 +328,7 @@ export default {
       "en": "dead letter — mail",
       "zh": "無法投遞或退回的郵件",
       "note": "來源詞義：無法投遞或退回的郵件",
-      "examples": [
-        [
-          "The rule has become a dead letter.",
-          "這項規則已經形同虛設。",
-          "無法投遞或退回的郵件"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -731,6 +725,23 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "letter-reviewed-d06ddcbff2",
+      "title": "形同虛設的規定",
+      "form": "letter · source section 56",
+      "en": "形同虛設的規定",
+      "zh": "形同虛設的規定",
+      "note": "對照原始教材第 56 節及例句核實。",
+      "examples": [
+        [
+          "The rule has become a dead letter.",
+          "這項規則已經形同虛設。",
+          "形同虛設的規定"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -742,11 +753,9 @@ export default {
       "masked": "I received a ____ from my friend.",
       "options": [
         "letter-mcq-01",
-        "letter-mcq-02",
-        "letter-mcq-03",
-        "letter-mcq-04",
-        "letter-mcq-05",
-        "letter-mcq-06"
+        "letter-mcq-39",
+        "letter-mcq-16",
+        "letter-reviewed-d06ddcbff2"
       ],
       "explanation": "本句的「letter」指「寄給另一人的較完整書面信息；信／書信」。",
       "sentenceIndex": 0,
@@ -755,12 +764,10 @@ export default {
         "letter"
       ],
       "optionReasons": {
-        "letter-mcq-01": "本句指「寄給另一人的較完整書面信息；信／書信」。",
-        "letter-mcq-02": "「寫／寄／收到一封信」與本句語境不同。",
-        "letter-mcq-03": "「寫給報章／刊物編輯供刊登的讀者來函」與本句語境不同。",
-        "letter-mcq-04": "「隨履歷／申請附上的求職／申請附函」與本句語境不同。",
-        "letter-mcq-05": "「正式申請工作、課程等的申請信」與本句語境不同。",
-        "letter-mcq-06": "「支持某人申請、證明能力／品格的推薦信」與本句語境不同。"
+        "letter-mcq-01": "本句的「letter」指「寄給另一人的較完整書面信息；信／書信」。",
+        "letter-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "letter-reviewed-d06ddcbff2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "letter-mcq-01"
     },
@@ -772,11 +779,9 @@ export default {
       "masked": "She wrote him a long ____.",
       "options": [
         "letter-mcq-01",
-        "letter-mcq-02",
-        "letter-mcq-03",
-        "letter-mcq-04",
-        "letter-mcq-05",
-        "letter-mcq-06"
+        "letter-mcq-38",
+        "letter-mcq-29",
+        "letter-mcq-39"
       ],
       "explanation": "本句的「letter」指「寄給另一人的較完整書面信息；信／書信」。",
       "sentenceIndex": 1,
@@ -785,12 +790,10 @@ export default {
         "letter"
       ],
       "optionReasons": {
-        "letter-mcq-01": "本句指「寄給另一人的較完整書面信息；信／書信」。",
-        "letter-mcq-02": "「寫／寄／收到一封信」與本句語境不同。",
-        "letter-mcq-03": "「寫給報章／刊物編輯供刊登的讀者來函」與本句語境不同。",
-        "letter-mcq-04": "「隨履歷／申請附上的求職／申請附函」與本句語境不同。",
-        "letter-mcq-05": "「正式申請工作、課程等的申請信」與本句語境不同。",
-        "letter-mcq-06": "「支持某人申請、證明能力／品格的推薦信」與本句語境不同。"
+        "letter-mcq-01": "本句的「letter」指「寄給另一人的較完整書面信息；信／書信」。",
+        "letter-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "letter-mcq-01"
     },
@@ -802,11 +805,9 @@ export default {
       "masked": "She wrote a ____ to the editor.",
       "options": [
         "letter-mcq-03",
-        "letter-mcq-02",
-        "letter-mcq-04",
-        "letter-mcq-01",
-        "letter-mcq-05",
-        "letter-mcq-06"
+        "letter-mcq-38",
+        "letter-mcq-24",
+        "letter-mcq-16"
       ],
       "explanation": "本句的「letter」指「寫給報章／刊物編輯供刊登的讀者來函」。",
       "sentenceIndex": 6,
@@ -815,12 +816,10 @@ export default {
         "letter"
       ],
       "optionReasons": {
-        "letter-mcq-03": "本句指「寫給報章／刊物編輯供刊登的讀者來函」。",
-        "letter-mcq-02": "「寫／寄／收到一封信」與本句語境不同。",
-        "letter-mcq-04": "「隨履歷／申請附上的求職／申請附函」與本句語境不同。",
-        "letter-mcq-01": "「寄給另一人的較完整書面信息；信／書信」與本句語境不同。",
-        "letter-mcq-05": "「正式申請工作、課程等的申請信」與本句語境不同。",
-        "letter-mcq-06": "「支持某人申請、證明能力／品格的推薦信」與本句語境不同。"
+        "letter-mcq-03": "本句的「letter」指「寫給報章／刊物編輯供刊登的讀者來函」。",
+        "letter-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "letter-mcq-03"
     },
@@ -832,11 +831,9 @@ export default {
       "masked": "They published an open ____.",
       "options": [
         "letter-mcq-12",
-        "letter-mcq-11",
-        "letter-mcq-13",
-        "letter-mcq-10",
-        "letter-mcq-14",
-        "letter-mcq-09"
+        "letter-mcq-30",
+        "letter-mcq-29",
+        "letter-mcq-39"
       ],
       "explanation": "本句的「letter」指「對指定人物／群體發出但公開供社會閱讀的公開信」。",
       "sentenceIndex": 7,
@@ -845,12 +842,10 @@ export default {
         "letter"
       ],
       "optionReasons": {
-        "letter-mcq-12": "本句指「對指定人物／群體發出但公開供社會閱讀的公開信」。",
-        "letter-mcq-11": "「仰慕者寄給公眾人物／創作者的信」與本句語境不同。",
-        "letter-mcq-13": "「要求收件人繼續轉寄給他人的連鎖信」與本句語境不同。",
-        "letter-mcq-10": "「表達愛意的情書」與本句語境不同。",
-        "letter-mcq-14": "「通常匿名、帶惡意攻擊／指控的信件」與本句語境不同。",
-        "letter-mcq-09": "「正式要求付款／履行／停止某行為等的要求函」與本句語境不同。"
+        "letter-mcq-12": "本句的「letter」指「對指定人物／群體發出但公開供社會閱讀的公開信」。",
+        "letter-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "letter-mcq-12"
     },
@@ -862,11 +857,9 @@ export default {
       "masked": "A is the first ____ of the English alphabet.",
       "options": [
         "letter-mcq-16",
-        "letter-mcq-15",
-        "letter-mcq-17",
-        "letter-mcq-14",
-        "letter-mcq-18",
-        "letter-mcq-13"
+        "letter-mcq-12",
+        "letter-mcq-03",
+        "letter-reviewed-d06ddcbff2"
       ],
       "explanation": "本句的「letter」指「字母表中的一個字母符號」。",
       "sentenceIndex": 8,
@@ -875,12 +868,10 @@ export default {
         "letter"
       ],
       "optionReasons": {
-        "letter-mcq-16": "本句指「字母表中的一個字母符號」。",
-        "letter-mcq-15": "「告知伴侶結束感情的分手信；較舊式」與本句語境不同。",
-        "letter-mcq-17": "「大寫／小寫字母」與本句語境不同。",
-        "letter-mcq-14": "「通常匿名、帶惡意攻擊／指控的信件」與本句語境不同。",
-        "letter-mcq-18": "「拼寫中存在但在該詞讀音中不發音的字母」與本句語境不同。",
-        "letter-mcq-13": "「要求收件人繼續轉寄給他人的連鎖信」與本句語境不同。"
+        "letter-mcq-16": "本句的「letter」指「字母表中的一個字母符號」。",
+        "letter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "letter-reviewed-d06ddcbff2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "letter-mcq-16"
     },
@@ -892,11 +883,9 @@ export default {
       "masked": "She received a ____ grade rather than a percentage.",
       "options": [
         "letter-mcq-19",
-        "letter-mcq-18",
-        "letter-mcq-20",
-        "letter-mcq-17",
-        "letter-mcq-21",
-        "letter-mcq-16"
+        "letter-mcq-03",
+        "letter-mcq-57",
+        "letter-mcq-27"
       ],
       "explanation": "本句的「letter」指「以 A/B/C 等字母表示的成績等級」。",
       "sentenceIndex": 9,
@@ -905,12 +894,10 @@ export default {
         "letter"
       ],
       "optionReasons": {
-        "letter-mcq-19": "本句指「以 A/B/C 等字母表示的成績等級」。",
-        "letter-mcq-18": "「拼寫中存在但在該詞讀音中不發音的字母」與本句語境不同。",
-        "letter-mcq-20": "「姓名後表示學位、資格、榮銜等的縮寫」與本句語境不同。",
-        "letter-mcq-17": "「大寫／小寫字母」與本句語境不同。",
-        "letter-mcq-21": "「法律／規則的嚴格字面條文」與本句語境不同。",
-        "letter-mcq-16": "「字母表中的一個字母符號」與本句語境不同。"
+        "letter-mcq-19": "本句的「letter」指「以 A/B/C 等字母表示的成績等級」。",
+        "letter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "letter-mcq-19"
     },
@@ -922,11 +909,9 @@ export default {
       "masked": "Her performance was ____.",
       "options": [
         "letter-mcq-24",
-        "letter-mcq-23",
-        "letter-mcq-25",
-        "letter-mcq-22",
-        "letter-mcq-26",
-        "letter-mcq-21"
+        "letter-mcq-29",
+        "letter-mcq-12",
+        "letter-mcq-39"
       ],
       "explanation": "本句的「letter-perfect」指「文字／表演精確到幾乎毫無差錯」。",
       "sentenceIndex": 14,
@@ -935,44 +920,40 @@ export default {
         "letter-perfect"
       ],
       "optionReasons": {
-        "letter-mcq-24": "本句指「文字／表演精確到幾乎毫無差錯」。",
-        "letter-mcq-23": "「完全按照要求，一絲不差」與本句語境不同。",
-        "letter-mcq-25": "「名義存在但已失去實際作用的規定」與本句語境不同。",
-        "letter-mcq-22": "「字面規定與真正目的／精神的對比」與本句語境不同。",
-        "letter-mcq-26": "「無法投遞或退回的郵件」與本句語境不同。",
-        "letter-mcq-21": "「法律／規則的嚴格字面條文」與本句語境不同。"
+        "letter-mcq-24": "本句的「letter-perfect」指「文字／表演精確到幾乎毫無差錯」。",
+        "letter-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "letter-mcq-24"
     },
     {
       "id": "letter-56-0",
-      "sense": "letter-mcq-26",
+      "sense": "letter-reviewed-d06ddcbff2",
       "en": "The rule has become a dead letter.",
       "zh": "這項規則已經形同虛設。",
       "masked": "The rule has become a dead ____.",
       "options": [
-        "letter-mcq-26",
-        "letter-mcq-25",
-        "letter-mcq-27",
+        "letter-reviewed-d06ddcbff2",
+        "letter-mcq-29",
         "letter-mcq-24",
-        "letter-mcq-28",
-        "letter-mcq-23"
+        "letter-mcq-57"
       ],
-      "explanation": "本句的「letter」指「無法投遞或退回的郵件」。",
+      "explanation": "對照完整句子：「這項規則已經形同虛設。」。這裡的「letter」表示「形同虛設的規定」。",
       "sentenceIndex": 15,
       "sourcePractice": 56,
       "targets": [
         "letter"
       ],
       "optionReasons": {
-        "letter-mcq-26": "本句指「無法投遞或退回的郵件」。",
-        "letter-mcq-25": "「名義存在但已失去實際作用的規定」與本句語境不同。",
-        "letter-mcq-27": "「文學家、文人、文學學者」與本句語境不同。",
-        "letter-mcq-24": "「文字／表演精確到幾乎毫無差錯」與本句語境不同。",
-        "letter-mcq-28": "「美國學校因校隊參與／表現頒發的字母獎」與本句語境不同。",
-        "letter-mcq-23": "「完全按照要求，一絲不差」與本句語境不同。"
+        "letter-reviewed-d06ddcbff2": "對照完整句子：「這項規則已經形同虛設。」。這裡的「letter」表示「形同虛設的規定」。",
+        "letter-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "letter-mcq-26"
+      "correctOption": "letter-reviewed-d06ddcbff2",
+      "previousCorrectOption": "letter-mcq-26",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "letter-59-0",
@@ -982,11 +963,9 @@ export default {
       "masked": "He was regarded as a distinguished man of ____.",
       "options": [
         "letter-mcq-27",
-        "letter-mcq-26",
-        "letter-mcq-28",
-        "letter-mcq-25",
-        "letter-mcq-29",
-        "letter-mcq-24"
+        "letter-mcq-57",
+        "letter-mcq-39",
+        "letter-mcq-29"
       ],
       "explanation": "本句的「letters」指「文學家、文人、文學學者」。",
       "sentenceIndex": 16,
@@ -995,12 +974,10 @@ export default {
         "letters"
       ],
       "optionReasons": {
-        "letter-mcq-27": "本句指「文學家、文人、文學學者」。",
-        "letter-mcq-26": "「無法投遞或退回的郵件」與本句語境不同。",
-        "letter-mcq-28": "「美國學校因校隊參與／表現頒發的字母獎」與本句語境不同。",
-        "letter-mcq-25": "「名義存在但已失去實際作用的規定」與本句語境不同。",
-        "letter-mcq-29": "「在美國校隊運動中取得 varsity letter」與本句語境不同。",
-        "letter-mcq-24": "「文字／表演精確到幾乎毫無差錯」與本句語境不同。"
+        "letter-mcq-27": "本句的「letters」指「文學家、文人、文學學者」。",
+        "letter-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "letter-mcq-27"
     },
@@ -1012,11 +989,9 @@ export default {
       "masked": "He ____ in football and baseball.",
       "options": [
         "letter-mcq-29",
-        "letter-mcq-28",
-        "letter-mcq-30",
-        "letter-mcq-27",
-        "letter-mcq-31",
-        "letter-mcq-26"
+        "letter-mcq-37",
+        "letter-reviewed-d06ddcbff2",
+        "letter-mcq-12"
       ],
       "explanation": "本句的「lettered」指「在美國校隊運動中取得 varsity letter」。",
       "sentenceIndex": 18,
@@ -1025,12 +1000,10 @@ export default {
         "lettered"
       ],
       "optionReasons": {
-        "letter-mcq-29": "本句指「在美國校隊運動中取得 varsity letter」。",
-        "letter-mcq-28": "「美國學校因校隊參與／表現頒發的字母獎」與本句語境不同。",
-        "letter-mcq-30": "「在招牌等物件上寫／畫字母或文字」與本句語境不同。",
-        "letter-mcq-27": "「文學家、文人、文學學者」與本句語境不同。",
-        "letter-mcq-31": "「上面標有字母／文字的」與本句語境不同。",
-        "letter-mcq-26": "「無法投遞或退回的郵件」與本句語境不同。"
+        "letter-mcq-29": "本句的「lettered」指「在美國校隊運動中取得 varsity letter」。",
+        "letter-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "letter-reviewed-d06ddcbff2": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "letter-mcq-29"
     },
@@ -1042,11 +1015,9 @@ export default {
       "masked": "She ____ the sign in gold.",
       "options": [
         "letter-mcq-30",
-        "letter-mcq-29",
-        "letter-mcq-31",
-        "letter-mcq-28",
-        "letter-mcq-32",
-        "letter-mcq-27"
+        "letter-reviewed-d06ddcbff2",
+        "letter-mcq-57",
+        "letter-mcq-29"
       ],
       "explanation": "本句的「lettered」指「在招牌等物件上寫／畫字母或文字」。",
       "sentenceIndex": 20,
@@ -1055,12 +1026,10 @@ export default {
         "lettered"
       ],
       "optionReasons": {
-        "letter-mcq-30": "本句指「在招牌等物件上寫／畫字母或文字」。",
-        "letter-mcq-29": "「在美國校隊運動中取得 varsity letter」與本句語境不同。",
-        "letter-mcq-31": "「上面標有字母／文字的」與本句語境不同。",
-        "letter-mcq-28": "「美國學校因校隊參與／表現頒發的字母獎」與本句語境不同。",
-        "letter-mcq-32": "「博學、有文學修養的；正式／較舊」與本句語境不同。",
-        "letter-mcq-27": "「文學家、文人、文學學者」與本句語境不同。"
+        "letter-mcq-30": "本句的「lettered」指「在招牌等物件上寫／畫字母或文字」。",
+        "letter-reviewed-d06ddcbff2": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "letter-mcq-30"
     },
@@ -1072,11 +1041,9 @@ export default {
       "masked": "Please write your name in block ____.",
       "options": [
         "letter-mcq-37",
-        "letter-mcq-36",
         "letter-mcq-38",
-        "letter-mcq-35",
-        "letter-mcq-39",
-        "letter-mcq-34"
+        "letter-reviewed-d06ddcbff2",
+        "letter-mcq-39"
       ],
       "explanation": "本句的「letters」指「清楚分開書寫的正楷／印刷體字母」。",
       "sentenceIndex": 22,
@@ -1085,12 +1052,10 @@ export default {
         "letters"
       ],
       "optionReasons": {
-        "letter-mcq-37": "本句指「清楚分開書寫的正楷／印刷體字母」。",
-        "letter-mcq-36": "「字母／字符之間的字距」與本句語境不同。",
-        "letter-mcq-38": "「傳統上指粗俗／禁忌英文詞語」與本句語境不同。",
-        "letter-mcq-35": "「一個字母的具體視覺形態」與本句語境不同。",
-        "letter-mcq-39": "「特別重要、值得紀念的日子」與本句語境不同。",
-        "letter-mcq-34": "「把每個字形當設計元素逐一手工繪製」與本句語境不同。"
+        "letter-mcq-37": "本句的「letters」指「清楚分開書寫的正楷／印刷體字母」。",
+        "letter-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "letter-reviewed-d06ddcbff2": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "letter-mcq-37"
     },
@@ -1102,11 +1067,9 @@ export default {
       "masked": "He used several four-____ words.",
       "options": [
         "letter-mcq-38",
-        "letter-mcq-37",
+        "letter-mcq-29",
         "letter-mcq-39",
-        "letter-mcq-36",
-        "letter-mcq-40",
-        "letter-mcq-35"
+        "letter-mcq-19"
       ],
       "explanation": "本句的「letter」指「傳統上指粗俗／禁忌英文詞語」。",
       "sentenceIndex": 23,
@@ -1115,12 +1078,10 @@ export default {
         "letter"
       ],
       "optionReasons": {
-        "letter-mcq-38": "本句指「傳統上指粗俗／禁忌英文詞語」。",
-        "letter-mcq-37": "「清楚分開書寫的正楷／印刷體字母」與本句語境不同。",
-        "letter-mcq-39": "「特別重要、值得紀念的日子」與本句語境不同。",
-        "letter-mcq-36": "「字母／字符之間的字距」與本句語境不同。",
-        "letter-mcq-40": "「比喻公開的恥辱／污名標記」與本句語境不同。",
-        "letter-mcq-35": "「一個字母的具體視覺形態」與本句語境不同。"
+        "letter-mcq-38": "本句的「letter」指「傳統上指粗俗／禁忌英文詞語」。",
+        "letter-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "letter-mcq-38"
     },
@@ -1132,11 +1093,9 @@ export default {
       "masked": "Graduation was a red-____ day for the family.",
       "options": [
         "letter-mcq-39",
-        "letter-mcq-38",
-        "letter-mcq-40",
-        "letter-mcq-37",
-        "letter-mcq-41",
-        "letter-mcq-36"
+        "letter-mcq-03",
+        "letter-mcq-29",
+        "letter-mcq-37"
       ],
       "explanation": "本句的「letter」指「特別重要、值得紀念的日子」。",
       "sentenceIndex": 24,
@@ -1145,12 +1104,10 @@ export default {
         "letter"
       ],
       "optionReasons": {
-        "letter-mcq-39": "本句指「特別重要、值得紀念的日子」。",
-        "letter-mcq-38": "「傳統上指粗俗／禁忌英文詞語」與本句語境不同。",
-        "letter-mcq-40": "「比喻公開的恥辱／污名標記」與本句語境不同。",
-        "letter-mcq-37": "「清楚分開書寫的正楷／印刷體字母」與本句語境不同。",
-        "letter-mcq-41": "「正式信紙頂部印有機構名稱、標誌、聯絡資料的抬頭」與本句語境不同。",
-        "letter-mcq-36": "「字母／字符之間的字距」與本句語境不同。"
+        "letter-mcq-39": "本句的「letter」指「特別重要、值得紀念的日子」。",
+        "letter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "letter-mcq-39"
     },
@@ -1162,11 +1119,9 @@ export default {
       "masked": "The author's ____ were published after her death.",
       "options": [
         "letter-mcq-57",
-        "letter-mcq-56",
-        "letter-mcq-58",
-        "letter-mcq-55",
-        "letter-mcq-54",
-        "letter-mcq-53"
+        "letter-mcq-16",
+        "letter-mcq-27",
+        "letter-mcq-38"
       ],
       "explanation": "本句的「letters」指「某人的書信往來／書信集」。",
       "sentenceIndex": 27,
@@ -1175,12 +1130,10 @@ export default {
         "letters"
       ],
       "optionReasons": {
-        "letter-mcq-57": "本句指「某人的書信往來／書信集」。",
-        "letter-mcq-56": "「歷史上授權私人船舶對敵方船運採取指定行動的許可文書」與本句語境不同。",
-        "letter-mcq-58": "「以書信作為主要敘述形式的書信體」與本句語境不同。",
-        "letter-mcq-55": "「一地法院向另一司法地區請求司法協助的正式文書」與本句語境不同。",
-        "letter-mcq-54": "「授權遺囑執行人處理遺產的法院文書」與本句語境不同。",
-        "letter-mcq-53": "「遺產程序中授權遺產管理人的法律文書」與本句語境不同。"
+        "letter-mcq-57": "本句的「letters」指「某人的書信往來／書信集」。",
+        "letter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "letter-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "letter-mcq-57"
     }
@@ -1192,5 +1145,7 @@ export default {
     "sha256": "9781eab9a2cb76d61b45d590e616bb90bcd49cf392963094c2f328b6bbf88a2d",
     "pages": 34
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

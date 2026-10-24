@@ -521,11 +521,8 @@ export default {
       "masked": "The job ____.",
       "options": [
         "demand-mcq-01",
-        "demand-mcq-02",
-        "demand-mcq-03",
-        "demand-mcq-04",
-        "demand-mcq-05",
-        "demand-mcq-06"
+        "demand-mcq-15",
+        "demand-mcq-11"
       ],
       "explanation": "本句的「demands patience」指「某事需要大量時間、能力、精力、注意力等」。",
       "sentenceIndex": 2,
@@ -534,12 +531,9 @@ export default {
         "demands patience"
       ],
       "optionReasons": {
-        "demand-mcq-01": "本句指「某事需要大量時間、能力、精力、注意力等」。",
-        "demand-mcq-02": "「需要投入大量時間／努力／注意力」與本句語境不同。",
-        "demand-mcq-03": "「以強硬、堅決的方式要求某事」與本句語境不同。",
-        "demand-mcq-04": "「堅持要求某事發生／某人採取行動」與本句語境不同。",
-        "demand-mcq-05": "「強烈要求知道、見到或與某人談話」與本句語境不同。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。"
+        "demand-mcq-01": "本句的「demands patience」指「某事需要大量時間、能力、精力、注意力等」。",
+        "demand-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-01"
     },
@@ -551,11 +545,8 @@ export default {
       "masked": "Running a bakery ____.",
       "options": [
         "demand-mcq-01",
-        "demand-mcq-02",
-        "demand-mcq-03",
-        "demand-mcq-04",
-        "demand-mcq-05",
-        "demand-mcq-06"
+        "demand-mcq-15",
+        "demand-mcq-11"
       ],
       "explanation": "本句的「demands careful planning」指「某事需要大量時間、能力、精力、注意力等」。",
       "sentenceIndex": 3,
@@ -564,12 +555,9 @@ export default {
         "demands careful planning"
       ],
       "optionReasons": {
-        "demand-mcq-01": "本句指「某事需要大量時間、能力、精力、注意力等」。",
-        "demand-mcq-02": "「需要投入大量時間／努力／注意力」與本句語境不同。",
-        "demand-mcq-03": "「以強硬、堅決的方式要求某事」與本句語境不同。",
-        "demand-mcq-04": "「堅持要求某事發生／某人採取行動」與本句語境不同。",
-        "demand-mcq-05": "「強烈要求知道、見到或與某人談話」與本句語境不同。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。"
+        "demand-mcq-01": "本句的「demands careful planning」指「某事需要大量時間、能力、精力、注意力等」。",
+        "demand-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-01"
     },
@@ -581,11 +569,8 @@ export default {
       "masked": "The project ____.",
       "options": [
         "demand-mcq-02",
-        "demand-mcq-01",
-        "demand-mcq-03",
-        "demand-mcq-04",
         "demand-mcq-05",
-        "demand-mcq-06"
+        "demand-mcq-20"
       ],
       "explanation": "本句的「demands a lot of time」指「需要投入大量時間／努力／注意力」。",
       "sentenceIndex": 4,
@@ -594,12 +579,9 @@ export default {
         "demands a lot of time"
       ],
       "optionReasons": {
-        "demand-mcq-02": "本句指「需要投入大量時間／努力／注意力」。",
-        "demand-mcq-01": "「某事需要大量時間、能力、精力、注意力等」與本句語境不同。",
-        "demand-mcq-03": "「以強硬、堅決的方式要求某事」與本句語境不同。",
-        "demand-mcq-04": "「堅持要求某事發生／某人採取行動」與本句語境不同。",
-        "demand-mcq-05": "「強烈要求知道、見到或與某人談話」與本句語境不同。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。"
+        "demand-mcq-02": "本句的「demands a lot of time」指「需要投入大量時間／努力／注意力」。",
+        "demand-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-02"
     },
@@ -611,11 +593,8 @@ export default {
       "masked": "Customer service ____.",
       "options": [
         "demand-mcq-02",
-        "demand-mcq-01",
-        "demand-mcq-03",
-        "demand-mcq-04",
-        "demand-mcq-05",
-        "demand-mcq-06"
+        "demand-mcq-21",
+        "demand-mcq-11"
       ],
       "explanation": "本句的「demands constant attention」指「需要投入大量時間／努力／注意力」。",
       "sentenceIndex": 5,
@@ -624,12 +603,9 @@ export default {
         "demands constant attention"
       ],
       "optionReasons": {
-        "demand-mcq-02": "本句指「需要投入大量時間／努力／注意力」。",
-        "demand-mcq-01": "「某事需要大量時間、能力、精力、注意力等」與本句語境不同。",
-        "demand-mcq-03": "「以強硬、堅決的方式要求某事」與本句語境不同。",
-        "demand-mcq-04": "「堅持要求某事發生／某人採取行動」與本句語境不同。",
-        "demand-mcq-05": "「強烈要求知道、見到或與某人談話」與本句語境不同。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。"
+        "demand-mcq-02": "本句的「demands constant attention」指「需要投入大量時間／努力／注意力」。",
+        "demand-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-02"
     },
@@ -641,11 +617,8 @@ export default {
       "masked": "The customer ____.",
       "options": [
         "demand-mcq-03",
-        "demand-mcq-02",
-        "demand-mcq-04",
-        "demand-mcq-01",
-        "demand-mcq-05",
-        "demand-mcq-06"
+        "demand-mcq-23",
+        "demand-mcq-09"
       ],
       "explanation": "本句的「demanded a refund」指「以強硬、堅決的方式要求某事」。",
       "sentenceIndex": 6,
@@ -654,12 +627,9 @@ export default {
         "demanded a refund"
       ],
       "optionReasons": {
-        "demand-mcq-03": "本句指「以強硬、堅決的方式要求某事」。",
-        "demand-mcq-02": "「需要投入大量時間／努力／注意力」與本句語境不同。",
-        "demand-mcq-04": "「堅持要求某事發生／某人採取行動」與本句語境不同。",
-        "demand-mcq-01": "「某事需要大量時間、能力、精力、注意力等」與本句語境不同。",
-        "demand-mcq-05": "「強烈要求知道、見到或與某人談話」與本句語境不同。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。"
+        "demand-mcq-03": "本句的「demanded a refund」指「以強硬、堅決的方式要求某事」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-03"
     },
@@ -671,11 +641,8 @@ export default {
       "masked": "Workers ____.",
       "options": [
         "demand-mcq-03",
-        "demand-mcq-02",
-        "demand-mcq-04",
-        "demand-mcq-01",
-        "demand-mcq-05",
-        "demand-mcq-06"
+        "demand-mcq-23",
+        "demand-mcq-09"
       ],
       "explanation": "本句的「demanded better conditions」指「以強硬、堅決的方式要求某事」。",
       "sentenceIndex": 7,
@@ -684,12 +651,9 @@ export default {
         "demanded better conditions"
       ],
       "optionReasons": {
-        "demand-mcq-03": "本句指「以強硬、堅決的方式要求某事」。",
-        "demand-mcq-02": "「需要投入大量時間／努力／注意力」與本句語境不同。",
-        "demand-mcq-04": "「堅持要求某事發生／某人採取行動」與本句語境不同。",
-        "demand-mcq-01": "「某事需要大量時間、能力、精力、注意力等」與本句語境不同。",
-        "demand-mcq-05": "「強烈要求知道、見到或與某人談話」與本句語境不同。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。"
+        "demand-mcq-03": "本句的「demanded better conditions」指「以強硬、堅決的方式要求某事」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-03"
     },
@@ -701,11 +665,8 @@ export default {
       "masked": "She ____ the problem be fixed immediately.",
       "options": [
         "demand-mcq-04",
-        "demand-mcq-03",
-        "demand-mcq-05",
-        "demand-mcq-02",
-        "demand-mcq-06",
-        "demand-mcq-01"
+        "demand-mcq-01",
+        "demand-mcq-11"
       ],
       "explanation": "本句的「demanded that」指「堅持要求某事發生／某人採取行動」。",
       "sentenceIndex": 8,
@@ -714,12 +675,9 @@ export default {
         "demanded that"
       ],
       "optionReasons": {
-        "demand-mcq-04": "本句指「堅持要求某事發生／某人採取行動」。",
-        "demand-mcq-03": "「以強硬、堅決的方式要求某事」與本句語境不同。",
-        "demand-mcq-05": "「強烈要求知道、見到或與某人談話」與本句語境不同。",
-        "demand-mcq-02": "「需要投入大量時間／努力／注意力」與本句語境不同。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。",
-        "demand-mcq-01": "「某事需要大量時間、能力、精力、注意力等」與本句語境不同。"
+        "demand-mcq-04": "本句的「demanded that」指「堅持要求某事發生／某人採取行動」。",
+        "demand-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-04"
     },
@@ -731,11 +689,8 @@ export default {
       "masked": "They ____ he apologize.",
       "options": [
         "demand-mcq-04",
-        "demand-mcq-03",
-        "demand-mcq-05",
-        "demand-mcq-02",
-        "demand-mcq-06",
-        "demand-mcq-01"
+        "demand-mcq-11",
+        "demand-mcq-02"
       ],
       "explanation": "本句的「demanded that」指「堅持要求某事發生／某人採取行動」。",
       "sentenceIndex": 9,
@@ -744,12 +699,9 @@ export default {
         "demanded that"
       ],
       "optionReasons": {
-        "demand-mcq-04": "本句指「堅持要求某事發生／某人採取行動」。",
-        "demand-mcq-03": "「以強硬、堅決的方式要求某事」與本句語境不同。",
-        "demand-mcq-05": "「強烈要求知道、見到或與某人談話」與本句語境不同。",
-        "demand-mcq-02": "「需要投入大量時間／努力／注意力」與本句語境不同。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。",
-        "demand-mcq-01": "「某事需要大量時間、能力、精力、注意力等」與本句語境不同。"
+        "demand-mcq-04": "本句的「demanded that」指「堅持要求某事發生／某人採取行動」。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-04"
     },
@@ -761,11 +713,8 @@ export default {
       "masked": "He ____ what had happened.",
       "options": [
         "demand-mcq-05",
-        "demand-mcq-04",
-        "demand-mcq-06",
-        "demand-mcq-03",
-        "demand-mcq-07",
-        "demand-mcq-02"
+        "demand-mcq-23",
+        "demand-mcq-11"
       ],
       "explanation": "本句的「demanded to know」指「強烈要求知道、見到或與某人談話」。",
       "sentenceIndex": 10,
@@ -774,12 +723,9 @@ export default {
         "demanded to know"
       ],
       "optionReasons": {
-        "demand-mcq-05": "本句指「強烈要求知道、見到或與某人談話」。",
-        "demand-mcq-04": "「堅持要求某事發生／某人採取行動」與本句語境不同。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。",
-        "demand-mcq-03": "「以強硬、堅決的方式要求某事」與本句語境不同。",
-        "demand-mcq-07": "「提出強硬／正式要求」與本句語境不同。",
-        "demand-mcq-02": "「需要投入大量時間／努力／注意力」與本句語境不同。"
+        "demand-mcq-05": "本句的「demanded to know」指「強烈要求知道、見到或與某人談話」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-05"
     },
@@ -791,11 +737,8 @@ export default {
       "masked": "The customer ____ the manager.",
       "options": [
         "demand-mcq-05",
-        "demand-mcq-04",
-        "demand-mcq-06",
-        "demand-mcq-03",
-        "demand-mcq-07",
-        "demand-mcq-02"
+        "demand-mcq-23",
+        "demand-mcq-11"
       ],
       "explanation": "本句的「demanded to speak to」指「強烈要求知道、見到或與某人談話」。",
       "sentenceIndex": 11,
@@ -804,12 +747,9 @@ export default {
         "demanded to speak to"
       ],
       "optionReasons": {
-        "demand-mcq-05": "本句指「強烈要求知道、見到或與某人談話」。",
-        "demand-mcq-04": "「堅持要求某事發生／某人採取行動」與本句語境不同。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。",
-        "demand-mcq-03": "「以強硬、堅決的方式要求某事」與本句語境不同。",
-        "demand-mcq-07": "「提出強硬／正式要求」與本句語境不同。",
-        "demand-mcq-02": "「需要投入大量時間／努力／注意力」與本句語境不同。"
+        "demand-mcq-05": "本句的「demanded to speak to」指「強烈要求知道、見到或與某人談話」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-05"
     },
@@ -821,11 +761,8 @@ export default {
       "masked": "The company rejected their ____.",
       "options": [
         "demand-mcq-06",
-        "demand-mcq-05",
-        "demand-mcq-07",
-        "demand-mcq-04",
-        "demand-mcq-08",
-        "demand-mcq-03"
+        "demand-mcq-23",
+        "demand-mcq-09"
       ],
       "explanation": "本句的「demands」指「強烈或正式提出的要求／訴求」。",
       "sentenceIndex": 12,
@@ -834,12 +771,9 @@ export default {
         "demands"
       ],
       "optionReasons": {
-        "demand-mcq-06": "本句指「強烈或正式提出的要求／訴求」。",
-        "demand-mcq-05": "「強烈要求知道、見到或與某人談話」與本句語境不同。",
-        "demand-mcq-07": "「提出強硬／正式要求」與本句語境不同。",
-        "demand-mcq-04": "「堅持要求某事發生／某人採取行動」與本句語境不同。",
-        "demand-mcq-08": "「消費者願意購買某商品／服務的市場需求」與本句語境不同。",
-        "demand-mcq-03": "「以強硬、堅決的方式要求某事」與本句語境不同。"
+        "demand-mcq-06": "本句的「demands」指「強烈或正式提出的要求／訴求」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-06"
     },
@@ -851,11 +785,8 @@ export default {
       "masked": "The protesters made several ____.",
       "options": [
         "demand-mcq-06",
-        "demand-mcq-05",
-        "demand-mcq-07",
-        "demand-mcq-04",
-        "demand-mcq-08",
-        "demand-mcq-03"
+        "demand-mcq-23",
+        "demand-mcq-11"
       ],
       "explanation": "本句的「demands」指「強烈或正式提出的要求／訴求」。",
       "sentenceIndex": 13,
@@ -864,12 +795,9 @@ export default {
         "demands"
       ],
       "optionReasons": {
-        "demand-mcq-06": "本句指「強烈或正式提出的要求／訴求」。",
-        "demand-mcq-05": "「強烈要求知道、見到或與某人談話」與本句語境不同。",
-        "demand-mcq-07": "「提出強硬／正式要求」與本句語境不同。",
-        "demand-mcq-04": "「堅持要求某事發生／某人採取行動」與本句語境不同。",
-        "demand-mcq-08": "「消費者願意購買某商品／服務的市場需求」與本句語境不同。",
-        "demand-mcq-03": "「以強硬、堅決的方式要求某事」與本句語境不同。"
+        "demand-mcq-06": "本句的「demands」指「強烈或正式提出的要求／訴求」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-06"
     },
@@ -881,11 +809,8 @@ export default {
       "masked": "The group ____.",
       "options": [
         "demand-mcq-07",
-        "demand-mcq-06",
-        "demand-mcq-08",
-        "demand-mcq-05",
-        "demand-mcq-09",
-        "demand-mcq-04"
+        "demand-mcq-23",
+        "demand-mcq-11"
       ],
       "explanation": "本句的「made several demands」指「提出強硬／正式要求」。",
       "sentenceIndex": 14,
@@ -894,12 +819,9 @@ export default {
         "made several demands"
       ],
       "optionReasons": {
-        "demand-mcq-07": "本句指「提出強硬／正式要求」。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。",
-        "demand-mcq-08": "「消費者願意購買某商品／服務的市場需求」與本句語境不同。",
-        "demand-mcq-05": "「強烈要求知道、見到或與某人談話」與本句語境不同。",
-        "demand-mcq-09": "「商品供應與市場需求之間的供求關係」與本句語境不同。",
-        "demand-mcq-04": "「堅持要求某事發生／某人採取行動」與本句語境不同。"
+        "demand-mcq-07": "本句的「made several demands」指「提出強硬／正式要求」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-07"
     },
@@ -911,11 +833,8 @@ export default {
       "masked": "She refused to meet his ____.",
       "options": [
         "demand-mcq-07",
-        "demand-mcq-06",
-        "demand-mcq-08",
-        "demand-mcq-05",
-        "demand-mcq-09",
-        "demand-mcq-04"
+        "demand-mcq-23",
+        "demand-mcq-11"
       ],
       "explanation": "本句的「demand」指「提出強硬／正式要求」。",
       "sentenceIndex": 15,
@@ -924,12 +843,9 @@ export default {
         "demand"
       ],
       "optionReasons": {
-        "demand-mcq-07": "本句指「提出強硬／正式要求」。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。",
-        "demand-mcq-08": "「消費者願意購買某商品／服務的市場需求」與本句語境不同。",
-        "demand-mcq-05": "「強烈要求知道、見到或與某人談話」與本句語境不同。",
-        "demand-mcq-09": "「商品供應與市場需求之間的供求關係」與本句語境不同。",
-        "demand-mcq-04": "「堅持要求某事發生／某人採取行動」與本句語境不同。"
+        "demand-mcq-07": "本句的「demand」指「提出強硬／正式要求」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-07"
     },
@@ -941,11 +857,8 @@ export default {
       "masked": "____ for handmade desserts has increased.",
       "options": [
         "demand-mcq-08",
-        "demand-mcq-07",
-        "demand-mcq-09",
-        "demand-mcq-06",
-        "demand-mcq-10",
-        "demand-mcq-05"
+        "demand-mcq-03",
+        "demand-mcq-02"
       ],
       "explanation": "本句的「Demand」指「消費者願意購買某商品／服務的市場需求」。",
       "sentenceIndex": 16,
@@ -954,12 +867,9 @@ export default {
         "Demand"
       ],
       "optionReasons": {
-        "demand-mcq-08": "本句指「消費者願意購買某商品／服務的市場需求」。",
-        "demand-mcq-07": "「提出強硬／正式要求」與本句語境不同。",
-        "demand-mcq-09": "「商品供應與市場需求之間的供求關係」與本句語境不同。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。",
-        "demand-mcq-10": "「很多人想要、需要；搶手／需求高」與本句語境不同。",
-        "demand-mcq-05": "「強烈要求知道、見到或與某人談話」與本句語境不同。"
+        "demand-mcq-08": "本句的「Demand」指「消費者願意購買某商品／服務的市場需求」。",
+        "demand-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-08"
     },
@@ -971,11 +881,8 @@ export default {
       "masked": "There is strong ____ for affordable housing.",
       "options": [
         "demand-mcq-08",
-        "demand-mcq-07",
-        "demand-mcq-09",
-        "demand-mcq-06",
-        "demand-mcq-10",
-        "demand-mcq-05"
+        "demand-mcq-21",
+        "demand-mcq-01"
       ],
       "explanation": "本句的「demand」指「消費者願意購買某商品／服務的市場需求」。",
       "sentenceIndex": 17,
@@ -984,12 +891,9 @@ export default {
         "demand"
       ],
       "optionReasons": {
-        "demand-mcq-08": "本句指「消費者願意購買某商品／服務的市場需求」。",
-        "demand-mcq-07": "「提出強硬／正式要求」與本句語境不同。",
-        "demand-mcq-09": "「商品供應與市場需求之間的供求關係」與本句語境不同。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。",
-        "demand-mcq-10": "「很多人想要、需要；搶手／需求高」與本句語境不同。",
-        "demand-mcq-05": "「強烈要求知道、見到或與某人談話」與本句語境不同。"
+        "demand-mcq-08": "本句的「demand」指「消費者願意購買某商品／服務的市場需求」。",
+        "demand-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-08"
     },
@@ -1001,11 +905,8 @@ export default {
       "masked": "Prices are influenced by ____.",
       "options": [
         "demand-mcq-09",
-        "demand-mcq-08",
-        "demand-mcq-10",
         "demand-mcq-07",
-        "demand-mcq-11",
-        "demand-mcq-06"
+        "demand-mcq-23"
       ],
       "explanation": "本句的「supply and demand」指「商品供應與市場需求之間的供求關係」。",
       "sentenceIndex": 18,
@@ -1014,12 +915,9 @@ export default {
         "supply and demand"
       ],
       "optionReasons": {
-        "demand-mcq-09": "本句指「商品供應與市場需求之間的供求關係」。",
-        "demand-mcq-08": "「消費者願意購買某商品／服務的市場需求」與本句語境不同。",
-        "demand-mcq-10": "「很多人想要、需要；搶手／需求高」與本句語境不同。",
-        "demand-mcq-07": "「提出強硬／正式要求」與本句語境不同。",
-        "demand-mcq-11": "「高／低市場需求」與本句語境不同。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。"
+        "demand-mcq-09": "本句的「supply and demand」指「商品供應與市場需求之間的供求關係」。",
+        "demand-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-09"
     },
@@ -1031,11 +929,8 @@ export default {
       "masked": "The market responds to changes in ____.",
       "options": [
         "demand-mcq-09",
-        "demand-mcq-08",
-        "demand-mcq-10",
-        "demand-mcq-07",
-        "demand-mcq-11",
-        "demand-mcq-06"
+        "demand-mcq-15",
+        "demand-mcq-01"
       ],
       "explanation": "本句的「supply and demand」指「商品供應與市場需求之間的供求關係」。",
       "sentenceIndex": 19,
@@ -1044,12 +939,9 @@ export default {
         "supply and demand"
       ],
       "optionReasons": {
-        "demand-mcq-09": "本句指「商品供應與市場需求之間的供求關係」。",
-        "demand-mcq-08": "「消費者願意購買某商品／服務的市場需求」與本句語境不同。",
-        "demand-mcq-10": "「很多人想要、需要；搶手／需求高」與本句語境不同。",
-        "demand-mcq-07": "「提出強硬／正式要求」與本句語境不同。",
-        "demand-mcq-11": "「高／低市場需求」與本句語境不同。",
-        "demand-mcq-06": "「強烈或正式提出的要求／訴求」與本句語境不同。"
+        "demand-mcq-09": "本句的「supply and demand」指「商品供應與市場需求之間的供求關係」。",
+        "demand-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-09"
     },
@@ -1061,11 +953,8 @@ export default {
       "masked": "Skilled bakers are ____.",
       "options": [
         "demand-mcq-10",
-        "demand-mcq-09",
-        "demand-mcq-11",
-        "demand-mcq-08",
-        "demand-mcq-12",
-        "demand-mcq-07"
+        "demand-mcq-23",
+        "demand-mcq-04"
       ],
       "explanation": "本句的「in demand」指「很多人想要、需要；搶手／需求高」。",
       "sentenceIndex": 22,
@@ -1074,12 +963,9 @@ export default {
         "in demand"
       ],
       "optionReasons": {
-        "demand-mcq-10": "本句指「很多人想要、需要；搶手／需求高」。",
-        "demand-mcq-09": "「商品供應與市場需求之間的供求關係」與本句語境不同。",
-        "demand-mcq-11": "「高／低市場需求」與本句語境不同。",
-        "demand-mcq-08": "「消費者願意購買某商品／服務的市場需求」與本句語境不同。",
-        "demand-mcq-12": "「某工作、生活等帶來的要求／負荷」與本句語境不同。",
-        "demand-mcq-07": "「提出強硬／正式要求」與本句語境不同。"
+        "demand-mcq-10": "本句的「in demand」指「很多人想要、需要；搶手／需求高」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-10"
     },
@@ -1091,11 +977,8 @@ export default {
       "masked": "These products are currently ____.",
       "options": [
         "demand-mcq-10",
-        "demand-mcq-09",
-        "demand-mcq-11",
-        "demand-mcq-08",
-        "demand-mcq-12",
-        "demand-mcq-07"
+        "demand-mcq-23",
+        "demand-mcq-13"
       ],
       "explanation": "本句的「in high demand」指「很多人想要、需要；搶手／需求高」。",
       "sentenceIndex": 23,
@@ -1104,12 +987,9 @@ export default {
         "in high demand"
       ],
       "optionReasons": {
-        "demand-mcq-10": "本句指「很多人想要、需要；搶手／需求高」。",
-        "demand-mcq-09": "「商品供應與市場需求之間的供求關係」與本句語境不同。",
-        "demand-mcq-11": "「高／低市場需求」與本句語境不同。",
-        "demand-mcq-08": "「消費者願意購買某商品／服務的市場需求」與本句語境不同。",
-        "demand-mcq-12": "「某工作、生活等帶來的要求／負荷」與本句語境不同。",
-        "demand-mcq-07": "「提出強硬／正式要求」與本句語境不同。"
+        "demand-mcq-10": "本句的「in high demand」指「很多人想要、需要；搶手／需求高」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-10"
     },
@@ -1121,11 +1001,8 @@ export default {
       "masked": "The product is in ____.",
       "options": [
         "demand-mcq-11",
-        "demand-mcq-10",
-        "demand-mcq-12",
-        "demand-mcq-09",
-        "demand-mcq-13",
-        "demand-mcq-08"
+        "demand-mcq-23",
+        "demand-mcq-21"
       ],
       "explanation": "本句的「high demand」指「高／低市場需求」。",
       "sentenceIndex": 24,
@@ -1134,12 +1011,9 @@ export default {
         "high demand"
       ],
       "optionReasons": {
-        "demand-mcq-11": "本句指「高／低市場需求」。",
-        "demand-mcq-10": "「很多人想要、需要；搶手／需求高」與本句語境不同。",
-        "demand-mcq-12": "「某工作、生活等帶來的要求／負荷」與本句語境不同。",
-        "demand-mcq-09": "「商品供應與市場需求之間的供求關係」與本句語境不同。",
-        "demand-mcq-13": "「對某人、資源或系統造成的要求／負擔」與本句語境不同。",
-        "demand-mcq-08": "「消費者願意購買某商品／服務的市場需求」與本句語境不同。"
+        "demand-mcq-11": "本句的「high demand」指「高／低市場需求」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-11"
     },
@@ -1151,11 +1025,8 @@ export default {
       "masked": "Seasonal items may face ____ at other times of year.",
       "options": [
         "demand-mcq-11",
-        "demand-mcq-10",
-        "demand-mcq-12",
-        "demand-mcq-09",
-        "demand-mcq-13",
-        "demand-mcq-08"
+        "demand-mcq-23",
+        "demand-mcq-03"
       ],
       "explanation": "本句的「low demand」指「高／低市場需求」。",
       "sentenceIndex": 25,
@@ -1164,12 +1035,9 @@ export default {
         "low demand"
       ],
       "optionReasons": {
-        "demand-mcq-11": "本句指「高／低市場需求」。",
-        "demand-mcq-10": "「很多人想要、需要；搶手／需求高」與本句語境不同。",
-        "demand-mcq-12": "「某工作、生活等帶來的要求／負荷」與本句語境不同。",
-        "demand-mcq-09": "「商品供應與市場需求之間的供求關係」與本句語境不同。",
-        "demand-mcq-13": "「對某人、資源或系統造成的要求／負擔」與本句語境不同。",
-        "demand-mcq-08": "「消費者願意購買某商品／服務的市場需求」與本句語境不同。"
+        "demand-mcq-11": "本句的「low demand」指「高／低市場需求」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-11"
     },
@@ -1181,10 +1049,7 @@ export default {
       "masked": "She struggled to balance the ____.",
       "options": [
         "demand-mcq-12",
-        "demand-mcq-11",
-        "demand-mcq-13",
-        "demand-mcq-10",
-        "demand-mcq-14",
+        "demand-mcq-23",
         "demand-mcq-09"
       ],
       "explanation": "本句的「demands of work and family」指「某工作、生活等帶來的要求／負荷」。",
@@ -1194,12 +1059,9 @@ export default {
         "demands of work and family"
       ],
       "optionReasons": {
-        "demand-mcq-12": "本句指「某工作、生活等帶來的要求／負荷」。",
-        "demand-mcq-11": "「高／低市場需求」與本句語境不同。",
-        "demand-mcq-13": "「對某人、資源或系統造成的要求／負擔」與本句語境不同。",
-        "demand-mcq-10": "「很多人想要、需要；搶手／需求高」與本句語境不同。",
-        "demand-mcq-14": "「正式要求支付款項」與本句語境不同。",
-        "demand-mcq-09": "「商品供應與市場需求之間的供求關係」與本句語境不同。"
+        "demand-mcq-12": "本句的「demands of work and family」指「某工作、生活等帶來的要求／負荷」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-12"
     },
@@ -1211,11 +1073,8 @@ export default {
       "masked": "Running a business creates many competing ____ on your time.",
       "options": [
         "demand-mcq-12",
-        "demand-mcq-11",
-        "demand-mcq-13",
-        "demand-mcq-10",
-        "demand-mcq-14",
-        "demand-mcq-09"
+        "demand-mcq-23",
+        "demand-mcq-11"
       ],
       "explanation": "本句的「demands」指「某工作、生活等帶來的要求／負荷」。",
       "sentenceIndex": 27,
@@ -1224,12 +1083,9 @@ export default {
         "demands"
       ],
       "optionReasons": {
-        "demand-mcq-12": "本句指「某工作、生活等帶來的要求／負荷」。",
-        "demand-mcq-11": "「高／低市場需求」與本句語境不同。",
-        "demand-mcq-13": "「對某人、資源或系統造成的要求／負擔」與本句語境不同。",
-        "demand-mcq-10": "「很多人想要、需要；搶手／需求高」與本句語境不同。",
-        "demand-mcq-14": "「正式要求支付款項」與本句語境不同。",
-        "demand-mcq-09": "「商品供應與市場需求之間的供求關係」與本句語境不同。"
+        "demand-mcq-12": "本句的「demands」指「某工作、生活等帶來的要求／負荷」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-12"
     },
@@ -1241,11 +1097,8 @@ export default {
       "masked": "The job places heavy ____ staff.",
       "options": [
         "demand-mcq-13",
-        "demand-mcq-12",
-        "demand-mcq-14",
-        "demand-mcq-11",
-        "demand-mcq-15",
-        "demand-mcq-10"
+        "demand-mcq-23",
+        "demand-mcq-09"
       ],
       "explanation": "本句的「demands on」指「對某人、資源或系統造成的要求／負擔」。",
       "sentenceIndex": 28,
@@ -1254,12 +1107,9 @@ export default {
         "demands on"
       ],
       "optionReasons": {
-        "demand-mcq-13": "本句指「對某人、資源或系統造成的要求／負擔」。",
-        "demand-mcq-12": "「某工作、生活等帶來的要求／負荷」與本句語境不同。",
-        "demand-mcq-14": "「正式要求支付款項」與本句語境不同。",
-        "demand-mcq-11": "「高／低市場需求」與本句語境不同。",
-        "demand-mcq-15": "「正式要求付款或行動的書面通知／要求函」與本句語境不同。",
-        "demand-mcq-10": "「很多人想要、需要；搶手／需求高」與本句語境不同。"
+        "demand-mcq-13": "本句的「demands on」指「對某人、資源或系統造成的要求／負擔」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-13"
     },
@@ -1271,11 +1121,8 @@ export default {
       "masked": "The new system reduced ____ memory.",
       "options": [
         "demand-mcq-13",
-        "demand-mcq-12",
-        "demand-mcq-14",
-        "demand-mcq-11",
-        "demand-mcq-15",
-        "demand-mcq-10"
+        "demand-mcq-23",
+        "demand-mcq-09"
       ],
       "explanation": "本句的「demands on」指「對某人、資源或系統造成的要求／負擔」。",
       "sentenceIndex": 29,
@@ -1284,12 +1131,9 @@ export default {
         "demands on"
       ],
       "optionReasons": {
-        "demand-mcq-13": "本句指「對某人、資源或系統造成的要求／負擔」。",
-        "demand-mcq-12": "「某工作、生活等帶來的要求／負荷」與本句語境不同。",
-        "demand-mcq-14": "「正式要求支付款項」與本句語境不同。",
-        "demand-mcq-11": "「高／低市場需求」與本句語境不同。",
-        "demand-mcq-15": "「正式要求付款或行動的書面通知／要求函」與本句語境不同。",
-        "demand-mcq-10": "「很多人想要、需要；搶手／需求高」與本句語境不同。"
+        "demand-mcq-13": "本句的「demands on」指「對某人、資源或系統造成的要求／負擔」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-13"
     },
@@ -1301,10 +1145,7 @@ export default {
       "masked": "The company ____ within seven days.",
       "options": [
         "demand-mcq-14",
-        "demand-mcq-13",
-        "demand-mcq-15",
-        "demand-mcq-12",
-        "demand-mcq-16",
+        "demand-mcq-23",
         "demand-mcq-11"
       ],
       "explanation": "本句的「demanded payment」指「正式要求支付款項」。",
@@ -1314,12 +1155,9 @@ export default {
         "demanded payment"
       ],
       "optionReasons": {
-        "demand-mcq-14": "本句指「正式要求支付款項」。",
-        "demand-mcq-13": "「對某人、資源或系統造成的要求／負擔」與本句語境不同。",
-        "demand-mcq-15": "「正式要求付款或行動的書面通知／要求函」與本句語境不同。",
-        "demand-mcq-12": "「某工作、生活等帶來的要求／負荷」與本句語境不同。",
-        "demand-mcq-16": "「需要大量努力、技能、時間或注意力的；要求很高的」與本句語境不同。",
-        "demand-mcq-11": "「高／低市場需求」與本句語境不同。"
+        "demand-mcq-14": "本句的「demanded payment」指「正式要求支付款項」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-14"
     },
@@ -1331,11 +1169,8 @@ export default {
       "masked": "The letter ____.",
       "options": [
         "demand-mcq-14",
-        "demand-mcq-13",
-        "demand-mcq-15",
-        "demand-mcq-12",
-        "demand-mcq-16",
-        "demand-mcq-11"
+        "demand-mcq-23",
+        "demand-mcq-09"
       ],
       "explanation": "本句的「demanded immediate payment」指「正式要求支付款項」。",
       "sentenceIndex": 31,
@@ -1344,12 +1179,9 @@ export default {
         "demanded immediate payment"
       ],
       "optionReasons": {
-        "demand-mcq-14": "本句指「正式要求支付款項」。",
-        "demand-mcq-13": "「對某人、資源或系統造成的要求／負擔」與本句語境不同。",
-        "demand-mcq-15": "「正式要求付款或行動的書面通知／要求函」與本句語境不同。",
-        "demand-mcq-12": "「某工作、生活等帶來的要求／負荷」與本句語境不同。",
-        "demand-mcq-16": "「需要大量努力、技能、時間或注意力的；要求很高的」與本句語境不同。",
-        "demand-mcq-11": "「高／低市場需求」與本句語境不同。"
+        "demand-mcq-14": "本句的「demanded immediate payment」指「正式要求支付款項」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-14"
     },
@@ -1361,11 +1193,8 @@ export default {
       "masked": "The lawyer sent a ____.",
       "options": [
         "demand-mcq-15",
-        "demand-mcq-14",
-        "demand-mcq-16",
-        "demand-mcq-13",
-        "demand-mcq-17",
-        "demand-mcq-12"
+        "demand-mcq-20",
+        "demand-mcq-02"
       ],
       "explanation": "本句的「demand letter」指「正式要求付款或行動的書面通知／要求函」。",
       "sentenceIndex": 32,
@@ -1374,12 +1203,9 @@ export default {
         "demand letter"
       ],
       "optionReasons": {
-        "demand-mcq-15": "本句指「正式要求付款或行動的書面通知／要求函」。",
-        "demand-mcq-14": "「正式要求支付款項」與本句語境不同。",
-        "demand-mcq-16": "「需要大量努力、技能、時間或注意力的；要求很高的」與本句語境不同。",
-        "demand-mcq-13": "「對某人、資源或系統造成的要求／負擔」與本句語境不同。",
-        "demand-mcq-17": "「對別人要求很多、標準很高、較難滿足的」與本句語境不同。",
-        "demand-mcq-12": "「某工作、生活等帶來的要求／負荷」與本句語境不同。"
+        "demand-mcq-15": "本句的「demand letter」指「正式要求付款或行動的書面通知／要求函」。",
+        "demand-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-15"
     },
@@ -1391,11 +1217,8 @@ export default {
       "masked": "The ____ requested payment of the outstanding amount.",
       "options": [
         "demand-mcq-15",
-        "demand-mcq-14",
-        "demand-mcq-16",
-        "demand-mcq-13",
-        "demand-mcq-17",
-        "demand-mcq-12"
+        "demand-mcq-11",
+        "demand-mcq-01"
       ],
       "explanation": "本句的「demand letter」指「正式要求付款或行動的書面通知／要求函」。",
       "sentenceIndex": 33,
@@ -1404,12 +1227,9 @@ export default {
         "demand letter"
       ],
       "optionReasons": {
-        "demand-mcq-15": "本句指「正式要求付款或行動的書面通知／要求函」。",
-        "demand-mcq-14": "「正式要求支付款項」與本句語境不同。",
-        "demand-mcq-16": "「需要大量努力、技能、時間或注意力的；要求很高的」與本句語境不同。",
-        "demand-mcq-13": "「對某人、資源或系統造成的要求／負擔」與本句語境不同。",
-        "demand-mcq-17": "「對別人要求很多、標準很高、較難滿足的」與本句語境不同。",
-        "demand-mcq-12": "「某工作、生活等帶來的要求／負荷」與本句語境不同。"
+        "demand-mcq-15": "本句的「demand letter」指「正式要求付款或行動的書面通知／要求函」。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-15"
     },
@@ -1421,11 +1241,7 @@ export default {
       "masked": "Running a restaurant is physically and mentally ____.",
       "options": [
         "demand-mcq-16",
-        "demand-mcq-15",
-        "demand-mcq-17",
-        "demand-mcq-14",
-        "demand-mcq-18",
-        "demand-mcq-13"
+        "demand-mcq-20"
       ],
       "explanation": "本句的「demanding」指「需要大量努力、技能、時間或注意力的；要求很高的」。",
       "sentenceIndex": 34,
@@ -1434,12 +1250,8 @@ export default {
         "demanding"
       ],
       "optionReasons": {
-        "demand-mcq-16": "本句指「需要大量努力、技能、時間或注意力的；要求很高的」。",
-        "demand-mcq-15": "「正式要求付款或行動的書面通知／要求函」與本句語境不同。",
-        "demand-mcq-17": "「對別人要求很多、標準很高、較難滿足的」與本句語境不同。",
-        "demand-mcq-14": "「正式要求支付款項」與本句語境不同。",
-        "demand-mcq-18": "「不太需要努力、技能或注意力的；要求不高的」與本句語境不同。",
-        "demand-mcq-13": "「對某人、資源或系統造成的要求／負擔」與本句語境不同。"
+        "demand-mcq-16": "本句的「demanding」指「需要大量努力、技能、時間或注意力的；要求很高的」。",
+        "demand-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-16"
     },
@@ -1451,11 +1263,7 @@ export default {
       "masked": "It is a technically ____ job.",
       "options": [
         "demand-mcq-16",
-        "demand-mcq-15",
-        "demand-mcq-17",
-        "demand-mcq-14",
-        "demand-mcq-18",
-        "demand-mcq-13"
+        "demand-mcq-20"
       ],
       "explanation": "本句的「demanding」指「需要大量努力、技能、時間或注意力的；要求很高的」。",
       "sentenceIndex": 35,
@@ -1464,12 +1272,8 @@ export default {
         "demanding"
       ],
       "optionReasons": {
-        "demand-mcq-16": "本句指「需要大量努力、技能、時間或注意力的；要求很高的」。",
-        "demand-mcq-15": "「正式要求付款或行動的書面通知／要求函」與本句語境不同。",
-        "demand-mcq-17": "「對別人要求很多、標準很高、較難滿足的」與本句語境不同。",
-        "demand-mcq-14": "「正式要求支付款項」與本句語境不同。",
-        "demand-mcq-18": "「不太需要努力、技能或注意力的；要求不高的」與本句語境不同。",
-        "demand-mcq-13": "「對某人、資源或系統造成的要求／負擔」與本句語境不同。"
+        "demand-mcq-16": "本句的「demanding」指「需要大量努力、技能、時間或注意力的；要求很高的」。",
+        "demand-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-16"
     },
@@ -1481,11 +1285,8 @@ export default {
       "masked": "She is a ____.",
       "options": [
         "demand-mcq-17",
-        "demand-mcq-16",
-        "demand-mcq-18",
-        "demand-mcq-15",
-        "demand-mcq-19",
-        "demand-mcq-14"
+        "demand-mcq-23",
+        "demand-mcq-09"
       ],
       "explanation": "本句的「demanding manager」指「對別人要求很多、標準很高、較難滿足的」。",
       "sentenceIndex": 36,
@@ -1494,12 +1295,9 @@ export default {
         "demanding manager"
       ],
       "optionReasons": {
-        "demand-mcq-17": "本句指「對別人要求很多、標準很高、較難滿足的」。",
-        "demand-mcq-16": "「需要大量努力、技能、時間或注意力的；要求很高的」與本句語境不同。",
-        "demand-mcq-18": "「不太需要努力、技能或注意力的；要求不高的」與本句語境不同。",
-        "demand-mcq-15": "「正式要求付款或行動的書面通知／要求函」與本句語境不同。",
-        "demand-mcq-19": "「主要由市場／使用者需求決定的；需求導向的」與本句語境不同。",
-        "demand-mcq-14": "「正式要求支付款項」與本句語境不同。"
+        "demand-mcq-17": "本句的「demanding manager」指「對別人要求很多、標準很高、較難滿足的」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-17"
     },
@@ -1511,11 +1309,8 @@ export default {
       "masked": "Some customers can be extremely ____.",
       "options": [
         "demand-mcq-17",
-        "demand-mcq-16",
-        "demand-mcq-18",
-        "demand-mcq-15",
-        "demand-mcq-19",
-        "demand-mcq-14"
+        "demand-mcq-23",
+        "demand-mcq-09"
       ],
       "explanation": "本句的「demanding」指「對別人要求很多、標準很高、較難滿足的」。",
       "sentenceIndex": 37,
@@ -1524,12 +1319,9 @@ export default {
         "demanding"
       ],
       "optionReasons": {
-        "demand-mcq-17": "本句指「對別人要求很多、標準很高、較難滿足的」。",
-        "demand-mcq-16": "「需要大量努力、技能、時間或注意力的；要求很高的」與本句語境不同。",
-        "demand-mcq-18": "「不太需要努力、技能或注意力的；要求不高的」與本句語境不同。",
-        "demand-mcq-15": "「正式要求付款或行動的書面通知／要求函」與本句語境不同。",
-        "demand-mcq-19": "「主要由市場／使用者需求決定的；需求導向的」與本句語境不同。",
-        "demand-mcq-14": "「正式要求支付款項」與本句語境不同。"
+        "demand-mcq-17": "本句的「demanding」指「對別人要求很多、標準很高、較難滿足的」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-17"
     },
@@ -1541,11 +1333,8 @@ export default {
       "masked": "I wanted something ____ to read.",
       "options": [
         "demand-mcq-18",
-        "demand-mcq-17",
-        "demand-mcq-19",
-        "demand-mcq-16",
-        "demand-mcq-20",
-        "demand-mcq-15"
+        "demand-mcq-23",
+        "demand-mcq-09"
       ],
       "explanation": "本句的「undemanding」指「不太需要努力、技能或注意力的；要求不高的」。",
       "sentenceIndex": 38,
@@ -1554,12 +1343,9 @@ export default {
         "undemanding"
       ],
       "optionReasons": {
-        "demand-mcq-18": "本句指「不太需要努力、技能或注意力的；要求不高的」。",
-        "demand-mcq-17": "「對別人要求很多、標準很高、較難滿足的」與本句語境不同。",
-        "demand-mcq-19": "「主要由市場／使用者需求決定的；需求導向的」與本句語境不同。",
-        "demand-mcq-16": "「需要大量努力、技能、時間或注意力的；要求很高的」與本句語境不同。",
-        "demand-mcq-20": "「提供足夠供應以滿足市場需求」與本句語境不同。",
-        "demand-mcq-15": "「正式要求付款或行動的書面通知／要求函」與本句語境不同。"
+        "demand-mcq-18": "本句的「undemanding」指「不太需要努力、技能或注意力的；要求不高的」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-18"
     },
@@ -1571,11 +1357,8 @@ export default {
       "masked": "It is a pleasant and ____ job.",
       "options": [
         "demand-mcq-18",
-        "demand-mcq-17",
-        "demand-mcq-19",
-        "demand-mcq-16",
-        "demand-mcq-20",
-        "demand-mcq-15"
+        "demand-mcq-23",
+        "demand-mcq-20"
       ],
       "explanation": "本句的「undemanding」指「不太需要努力、技能或注意力的；要求不高的」。",
       "sentenceIndex": 39,
@@ -1584,12 +1367,9 @@ export default {
         "undemanding"
       ],
       "optionReasons": {
-        "demand-mcq-18": "本句指「不太需要努力、技能或注意力的；要求不高的」。",
-        "demand-mcq-17": "「對別人要求很多、標準很高、較難滿足的」與本句語境不同。",
-        "demand-mcq-19": "「主要由市場／使用者需求決定的；需求導向的」與本句語境不同。",
-        "demand-mcq-16": "「需要大量努力、技能、時間或注意力的；要求很高的」與本句語境不同。",
-        "demand-mcq-20": "「提供足夠供應以滿足市場需求」與本句語境不同。",
-        "demand-mcq-15": "「正式要求付款或行動的書面通知／要求函」與本句語境不同。"
+        "demand-mcq-18": "本句的「undemanding」指「不太需要努力、技能或注意力的；要求不高的」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-18"
     },
@@ -1601,11 +1381,8 @@ export default {
       "masked": "Production is largely ____.",
       "options": [
         "demand-mcq-19",
-        "demand-mcq-18",
-        "demand-mcq-20",
-        "demand-mcq-17",
-        "demand-mcq-21",
-        "demand-mcq-16"
+        "demand-mcq-04",
+        "demand-mcq-01"
       ],
       "explanation": "本句的「demand-driven」指「主要由市場／使用者需求決定的；需求導向的」。",
       "sentenceIndex": 40,
@@ -1614,12 +1391,9 @@ export default {
         "demand-driven"
       ],
       "optionReasons": {
-        "demand-mcq-19": "本句指「主要由市場／使用者需求決定的；需求導向的」。",
-        "demand-mcq-18": "「不太需要努力、技能或注意力的；要求不高的」與本句語境不同。",
-        "demand-mcq-20": "「提供足夠供應以滿足市場需求」與本句語境不同。",
-        "demand-mcq-17": "「對別人要求很多、標準很高、較難滿足的」與本句語境不同。",
-        "demand-mcq-21": "「滿足某人的要求」與本句語境不同。",
-        "demand-mcq-16": "「需要大量努力、技能、時間或注意力的；要求很高的」與本句語境不同。"
+        "demand-mcq-19": "本句的「demand-driven」指「主要由市場／使用者需求決定的；需求導向的」。",
+        "demand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-19"
     },
@@ -1631,11 +1405,8 @@ export default {
       "masked": "The company uses a ____ model.",
       "options": [
         "demand-mcq-19",
-        "demand-mcq-18",
-        "demand-mcq-20",
-        "demand-mcq-17",
-        "demand-mcq-21",
-        "demand-mcq-16"
+        "demand-mcq-01",
+        "demand-mcq-17"
       ],
       "explanation": "本句的「demand-driven」指「主要由市場／使用者需求決定的；需求導向的」。",
       "sentenceIndex": 41,
@@ -1644,12 +1415,9 @@ export default {
         "demand-driven"
       ],
       "optionReasons": {
-        "demand-mcq-19": "本句指「主要由市場／使用者需求決定的；需求導向的」。",
-        "demand-mcq-18": "「不太需要努力、技能或注意力的；要求不高的」與本句語境不同。",
-        "demand-mcq-20": "「提供足夠供應以滿足市場需求」與本句語境不同。",
-        "demand-mcq-17": "「對別人要求很多、標準很高、較難滿足的」與本句語境不同。",
-        "demand-mcq-21": "「滿足某人的要求」與本句語境不同。",
-        "demand-mcq-16": "「需要大量努力、技能、時間或注意力的；要求很高的」與本句語境不同。"
+        "demand-mcq-19": "本句的「demand-driven」指「主要由市場／使用者需求決定的；需求導向的」。",
+        "demand-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-19"
     },
@@ -1661,11 +1429,8 @@ export default {
       "masked": "The bakery increased production to ____.",
       "options": [
         "demand-mcq-20",
-        "demand-mcq-19",
-        "demand-mcq-21",
-        "demand-mcq-18",
-        "demand-mcq-22",
-        "demand-mcq-17"
+        "demand-mcq-23",
+        "demand-mcq-05"
       ],
       "explanation": "本句的「meet demand」指「提供足夠供應以滿足市場需求」。",
       "sentenceIndex": 42,
@@ -1674,12 +1439,9 @@ export default {
         "meet demand"
       ],
       "optionReasons": {
-        "demand-mcq-20": "本句指「提供足夠供應以滿足市場需求」。",
-        "demand-mcq-19": "「主要由市場／使用者需求決定的；需求導向的」與本句語境不同。",
-        "demand-mcq-21": "「滿足某人的要求」與本句語境不同。",
-        "demand-mcq-18": "「不太需要努力、技能或注意力的；要求不高的」與本句語境不同。",
-        "demand-mcq-22": "「在需要／要求時立即提供；隨選」與本句語境不同。",
-        "demand-mcq-17": "「對別人要求很多、標準很高、較難滿足的」與本句語境不同。"
+        "demand-mcq-20": "本句的「meet demand」指「提供足夠供應以滿足市場需求」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-20"
     },
@@ -1691,11 +1453,8 @@ export default {
       "masked": "They hired more staff to ____.",
       "options": [
         "demand-mcq-20",
-        "demand-mcq-19",
-        "demand-mcq-21",
-        "demand-mcq-18",
-        "demand-mcq-22",
-        "demand-mcq-17"
+        "demand-mcq-23",
+        "demand-mcq-12"
       ],
       "explanation": "本句的「meet rising demand」指「提供足夠供應以滿足市場需求」。",
       "sentenceIndex": 43,
@@ -1704,12 +1463,9 @@ export default {
         "meet rising demand"
       ],
       "optionReasons": {
-        "demand-mcq-20": "本句指「提供足夠供應以滿足市場需求」。",
-        "demand-mcq-19": "「主要由市場／使用者需求決定的；需求導向的」與本句語境不同。",
-        "demand-mcq-21": "「滿足某人的要求」與本句語境不同。",
-        "demand-mcq-18": "「不太需要努力、技能或注意力的；要求不高的」與本句語境不同。",
-        "demand-mcq-22": "「在需要／要求時立即提供；隨選」與本句語境不同。",
-        "demand-mcq-17": "「對別人要求很多、標準很高、較難滿足的」與本句語境不同。"
+        "demand-mcq-20": "本句的「meet rising demand」指「提供足夠供應以滿足市場需求」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-20"
     },
@@ -1721,11 +1477,8 @@ export default {
       "masked": "The company could not ____.",
       "options": [
         "demand-mcq-21",
-        "demand-mcq-20",
-        "demand-mcq-22",
-        "demand-mcq-19",
         "demand-mcq-23",
-        "demand-mcq-18"
+        "demand-mcq-09"
       ],
       "explanation": "本句的「meet all the customer’s demands」指「滿足某人的要求」。",
       "sentenceIndex": 44,
@@ -1734,12 +1487,9 @@ export default {
         "meet all the customer’s demands"
       ],
       "optionReasons": {
-        "demand-mcq-21": "本句指「滿足某人的要求」。",
-        "demand-mcq-20": "「提供足夠供應以滿足市場需求」與本句語境不同。",
-        "demand-mcq-22": "「在需要／要求時立即提供；隨選」與本句語境不同。",
-        "demand-mcq-19": "「主要由市場／使用者需求決定的；需求導向的」與本句語境不同。",
-        "demand-mcq-23": "「讓使用者自行選擇時間觀看內容的隨選視訊服務」與本句語境不同。",
-        "demand-mcq-18": "「不太需要努力、技能或注意力的；要求不高的」與本句語境不同。"
+        "demand-mcq-21": "本句的「meet all the customer’s demands」指「滿足某人的要求」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-21"
     },
@@ -1751,11 +1501,8 @@ export default {
       "masked": "The product was redesigned to ____.",
       "options": [
         "demand-mcq-21",
-        "demand-mcq-20",
-        "demand-mcq-22",
-        "demand-mcq-19",
         "demand-mcq-23",
-        "demand-mcq-18"
+        "demand-mcq-11"
       ],
       "explanation": "本句的「meet consumer demands」指「滿足某人的要求」。",
       "sentenceIndex": 45,
@@ -1764,12 +1511,9 @@ export default {
         "meet consumer demands"
       ],
       "optionReasons": {
-        "demand-mcq-21": "本句指「滿足某人的要求」。",
-        "demand-mcq-20": "「提供足夠供應以滿足市場需求」與本句語境不同。",
-        "demand-mcq-22": "「在需要／要求時立即提供；隨選」與本句語境不同。",
-        "demand-mcq-19": "「主要由市場／使用者需求決定的；需求導向的」與本句語境不同。",
-        "demand-mcq-23": "「讓使用者自行選擇時間觀看內容的隨選視訊服務」與本句語境不同。",
-        "demand-mcq-18": "「不太需要努力、技能或注意力的；要求不高的」與本句語境不同。"
+        "demand-mcq-21": "本句的「meet consumer demands」指「滿足某人的要求」。",
+        "demand-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-21"
     },
@@ -1781,11 +1525,7 @@ export default {
       "masked": "The service is available ____.",
       "options": [
         "demand-mcq-22",
-        "demand-mcq-21",
-        "demand-mcq-23",
-        "demand-mcq-20",
-        "demand-mcq-19",
-        "demand-mcq-18"
+        "demand-mcq-08"
       ],
       "explanation": "本句的「on demand」指「在需要／要求時立即提供；隨選」。",
       "sentenceIndex": 46,
@@ -1794,12 +1534,8 @@ export default {
         "on demand"
       ],
       "optionReasons": {
-        "demand-mcq-22": "本句指「在需要／要求時立即提供；隨選」。",
-        "demand-mcq-21": "「滿足某人的要求」與本句語境不同。",
-        "demand-mcq-23": "「讓使用者自行選擇時間觀看內容的隨選視訊服務」與本句語境不同。",
-        "demand-mcq-20": "「提供足夠供應以滿足市場需求」與本句語境不同。",
-        "demand-mcq-19": "「主要由市場／使用者需求決定的；需求導向的」與本句語境不同。",
-        "demand-mcq-18": "「不太需要努力、技能或注意力的；要求不高的」與本句語境不同。"
+        "demand-mcq-22": "本句的「on demand」指「在需要／要求時立即提供；隨選」。",
+        "demand-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-22"
     },
@@ -1811,11 +1547,7 @@ export default {
       "masked": "Customers can watch the program ____.",
       "options": [
         "demand-mcq-22",
-        "demand-mcq-21",
-        "demand-mcq-23",
-        "demand-mcq-20",
-        "demand-mcq-19",
-        "demand-mcq-18"
+        "demand-mcq-08"
       ],
       "explanation": "本句的「on demand」指「在需要／要求時立即提供；隨選」。",
       "sentenceIndex": 47,
@@ -1824,12 +1556,8 @@ export default {
         "on demand"
       ],
       "optionReasons": {
-        "demand-mcq-22": "本句指「在需要／要求時立即提供；隨選」。",
-        "demand-mcq-21": "「滿足某人的要求」與本句語境不同。",
-        "demand-mcq-23": "「讓使用者自行選擇時間觀看內容的隨選視訊服務」與本句語境不同。",
-        "demand-mcq-20": "「提供足夠供應以滿足市場需求」與本句語境不同。",
-        "demand-mcq-19": "「主要由市場／使用者需求決定的；需求導向的」與本句語境不同。",
-        "demand-mcq-18": "「不太需要努力、技能或注意力的；要求不高的」與本句語境不同。"
+        "demand-mcq-22": "本句的「on demand」指「在需要／要求時立即提供；隨選」。",
+        "demand-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-22"
     },
@@ -1841,11 +1569,8 @@ export default {
       "masked": "The platform offers ____.",
       "options": [
         "demand-mcq-23",
-        "demand-mcq-22",
-        "demand-mcq-21",
-        "demand-mcq-20",
-        "demand-mcq-19",
-        "demand-mcq-18"
+        "demand-mcq-03",
+        "demand-mcq-11"
       ],
       "explanation": "本句的「video on demand」指「讓使用者自行選擇時間觀看內容的隨選視訊服務」。",
       "sentenceIndex": 48,
@@ -1854,12 +1579,9 @@ export default {
         "video on demand"
       ],
       "optionReasons": {
-        "demand-mcq-23": "本句指「讓使用者自行選擇時間觀看內容的隨選視訊服務」。",
-        "demand-mcq-22": "「在需要／要求時立即提供；隨選」與本句語境不同。",
-        "demand-mcq-21": "「滿足某人的要求」與本句語境不同。",
-        "demand-mcq-20": "「提供足夠供應以滿足市場需求」與本句語境不同。",
-        "demand-mcq-19": "「主要由市場／使用者需求決定的；需求導向的」與本句語境不同。",
-        "demand-mcq-18": "「不太需要努力、技能或注意力的；要求不高的」與本句語境不同。"
+        "demand-mcq-23": "本句的「video on demand」指「讓使用者自行選擇時間觀看內容的隨選視訊服務」。",
+        "demand-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-23"
     },
@@ -1871,11 +1593,8 @@ export default {
       "masked": "Many films are available ____.",
       "options": [
         "demand-mcq-23",
-        "demand-mcq-22",
-        "demand-mcq-21",
-        "demand-mcq-20",
-        "demand-mcq-19",
-        "demand-mcq-18"
+        "demand-mcq-05",
+        "demand-mcq-20"
       ],
       "explanation": "本句的「on demand」指「讓使用者自行選擇時間觀看內容的隨選視訊服務」。",
       "sentenceIndex": 49,
@@ -1884,12 +1603,9 @@ export default {
         "on demand"
       ],
       "optionReasons": {
-        "demand-mcq-23": "本句指「讓使用者自行選擇時間觀看內容的隨選視訊服務」。",
-        "demand-mcq-22": "「在需要／要求時立即提供；隨選」與本句語境不同。",
-        "demand-mcq-21": "「滿足某人的要求」與本句語境不同。",
-        "demand-mcq-20": "「提供足夠供應以滿足市場需求」與本句語境不同。",
-        "demand-mcq-19": "「主要由市場／使用者需求決定的；需求導向的」與本句語境不同。",
-        "demand-mcq-18": "「不太需要努力、技能或注意力的；要求不高的」與本句語境不同。"
+        "demand-mcq-23": "本句的「on demand」指「讓使用者自行選擇時間觀看內容的隨選視訊服務」。",
+        "demand-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "demand-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "demand-mcq-23"
     }
@@ -1901,5 +1617,7 @@ export default {
     "sha256": "51832073d8ce684909d5fdc6f2a955555e643e6491c1253e8285e5541837a88c",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -536,11 +536,8 @@ export default {
       "masked": "The bus was very ____ in the heavy traffic.",
       "options": [
         "slow-mcq-01",
-        "slow-mcq-02",
-        "slow-mcq-03",
-        "slow-mcq-04",
-        "slow-mcq-05",
-        "slow-mcq-06"
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「移動速度較低，完成一段距離需要較長時間」。",
       "sentenceIndex": 0,
@@ -549,12 +546,9 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-01": "本句指「移動速度較低，完成一段距離需要較長時間」。",
-        "slow-mcq-02": "「某個過程或進展需要較長時間才能完成」是「slow — process」的用法，與本句語境不同。",
-        "slow-mcq-03": "「數量、程度或狀況的變化速率較低」是「slow — rate/change」的用法，與本句語境不同。",
-        "slow-mcq-04": "「顧客、訂單、交易或活動量較少」是「slow — business」的用法，與本句語境不同。",
-        "slow-mcq-05": "「作出反應或執行指令所需時間較長」是「slow — response」的用法，與本句語境不同。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。"
+        "slow-mcq-01": "本句的「slow」指「移動速度較低，完成一段距離需要較長時間」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-01"
     },
@@ -566,11 +560,8 @@ export default {
       "masked": "A ____ train takes nearly twice as long.",
       "options": [
         "slow-mcq-01",
-        "slow-mcq-02",
-        "slow-mcq-03",
-        "slow-mcq-04",
-        "slow-mcq-05",
-        "slow-mcq-06"
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「移動速度較低，完成一段距離需要較長時間」。",
       "sentenceIndex": 1,
@@ -579,12 +570,9 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-01": "本句指「移動速度較低，完成一段距離需要較長時間」。",
-        "slow-mcq-02": "「某個過程或進展需要較長時間才能完成」是「slow — process」的用法，與本句語境不同。",
-        "slow-mcq-03": "「數量、程度或狀況的變化速率較低」是「slow — rate/change」的用法，與本句語境不同。",
-        "slow-mcq-04": "「顧客、訂單、交易或活動量較少」是「slow — business」的用法，與本句語境不同。",
-        "slow-mcq-05": "「作出反應或執行指令所需時間較長」是「slow — response」的用法，與本句語境不同。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。"
+        "slow-mcq-01": "本句的「slow」指「移動速度較低，完成一段距離需要較長時間」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-01"
     },
@@ -596,11 +584,9 @@ export default {
       "masked": "Plant growth is ____ during winter.",
       "options": [
         "slow-mcq-02",
-        "slow-mcq-01",
-        "slow-mcq-03",
+        "slow-mcq-06",
         "slow-mcq-04",
-        "slow-mcq-05",
-        "slow-mcq-06"
+        "slow-mcq-23"
       ],
       "explanation": "本句的「slow」指「某個過程或進展需要較長時間才能完成」。",
       "sentenceIndex": 2,
@@ -609,12 +595,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-02": "本句指「某個過程或進展需要較長時間才能完成」。",
-        "slow-mcq-01": "「移動速度較低，完成一段距離需要較長時間」是「slow — movement」的用法，與本句語境不同。",
-        "slow-mcq-03": "「數量、程度或狀況的變化速率較低」是「slow — rate/change」的用法，與本句語境不同。",
-        "slow-mcq-04": "「顧客、訂單、交易或活動量較少」是「slow — business」的用法，與本句語境不同。",
-        "slow-mcq-05": "「作出反應或執行指令所需時間較長」是「slow — response」的用法，與本句語境不同。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。"
+        "slow-mcq-02": "本句的「slow」指「某個過程或進展需要較長時間才能完成」。",
+        "slow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-02"
     },
@@ -626,11 +610,9 @@ export default {
       "masked": "Recovery after the injury was ____.",
       "options": [
         "slow-mcq-02",
-        "slow-mcq-01",
-        "slow-mcq-03",
+        "slow-mcq-06",
         "slow-mcq-04",
-        "slow-mcq-05",
-        "slow-mcq-06"
+        "slow-mcq-23"
       ],
       "explanation": "本句的「slow」指「某個過程或進展需要較長時間才能完成」。",
       "sentenceIndex": 3,
@@ -639,12 +621,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-02": "本句指「某個過程或進展需要較長時間才能完成」。",
-        "slow-mcq-01": "「移動速度較低，完成一段距離需要較長時間」是「slow — movement」的用法，與本句語境不同。",
-        "slow-mcq-03": "「數量、程度或狀況的變化速率較低」是「slow — rate/change」的用法，與本句語境不同。",
-        "slow-mcq-04": "「顧客、訂單、交易或活動量較少」是「slow — business」的用法，與本句語境不同。",
-        "slow-mcq-05": "「作出反應或執行指令所需時間較長」是「slow — response」的用法，與本句語境不同。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。"
+        "slow-mcq-02": "本句的「slow」指「某個過程或進展需要較長時間才能完成」。",
+        "slow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-02"
     },
@@ -656,11 +636,9 @@ export default {
       "masked": "The company experienced ____.",
       "options": [
         "slow-mcq-03",
-        "slow-mcq-02",
-        "slow-mcq-04",
-        "slow-mcq-01",
-        "slow-mcq-05",
-        "slow-mcq-06"
+        "slow-mcq-23",
+        "slow-mcq-09",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow growth」指「數量、程度或狀況的變化速率較低」。",
       "sentenceIndex": 4,
@@ -669,12 +647,10 @@ export default {
         "slow growth"
       ],
       "optionReasons": {
-        "slow-mcq-03": "本句指「數量、程度或狀況的變化速率較低」。",
-        "slow-mcq-02": "「某個過程或進展需要較長時間才能完成」是「slow — process」的用法，與本句語境不同。",
-        "slow-mcq-04": "「顧客、訂單、交易或活動量較少」是「slow — business」的用法，與本句語境不同。",
-        "slow-mcq-01": "「移動速度較低，完成一段距離需要較長時間」是「slow — movement」的用法，與本句語境不同。",
-        "slow-mcq-05": "「作出反應或執行指令所需時間較長」是「slow — response」的用法，與本句語境不同。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。"
+        "slow-mcq-03": "本句的「slow growth」指「數量、程度或狀況的變化速率較低」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-03"
     },
@@ -686,11 +662,9 @@ export default {
       "masked": "There has been a ____ decline in demand.",
       "options": [
         "slow-mcq-03",
-        "slow-mcq-02",
-        "slow-mcq-04",
-        "slow-mcq-01",
-        "slow-mcq-05",
-        "slow-mcq-06"
+        "slow-mcq-23",
+        "slow-mcq-09",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「數量、程度或狀況的變化速率較低」。",
       "sentenceIndex": 5,
@@ -699,12 +673,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-03": "本句指「數量、程度或狀況的變化速率較低」。",
-        "slow-mcq-02": "「某個過程或進展需要較長時間才能完成」是「slow — process」的用法，與本句語境不同。",
-        "slow-mcq-04": "「顧客、訂單、交易或活動量較少」是「slow — business」的用法，與本句語境不同。",
-        "slow-mcq-01": "「移動速度較低，完成一段距離需要較長時間」是「slow — movement」的用法，與本句語境不同。",
-        "slow-mcq-05": "「作出反應或執行指令所需時間較長」是「slow — response」的用法，與本句語境不同。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。"
+        "slow-mcq-03": "本句的「slow」指「數量、程度或狀況的變化速率較低」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-03"
     },
@@ -716,11 +688,9 @@ export default {
       "masked": "Tuesday is usually a ____ for the restaurant.",
       "options": [
         "slow-mcq-04",
-        "slow-mcq-03",
-        "slow-mcq-05",
-        "slow-mcq-02",
-        "slow-mcq-06",
-        "slow-mcq-01"
+        "slow-mcq-23",
+        "slow-mcq-12",
+        "slow-mcq-09"
       ],
       "explanation": "本句的「slow day」指「顧客、訂單、交易或活動量較少」。",
       "sentenceIndex": 6,
@@ -729,12 +699,10 @@ export default {
         "slow day"
       ],
       "optionReasons": {
-        "slow-mcq-04": "本句指「顧客、訂單、交易或活動量較少」。",
-        "slow-mcq-03": "「數量、程度或狀況的變化速率較低」是「slow — rate/change」的用法，與本句語境不同。",
-        "slow-mcq-05": "「作出反應或執行指令所需時間較長」是「slow — response」的用法，與本句語境不同。",
-        "slow-mcq-02": "「某個過程或進展需要較長時間才能完成」是「slow — process」的用法，與本句語境不同。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。",
-        "slow-mcq-01": "「移動速度較低，完成一段距離需要較長時間」是「slow — movement」的用法，與本句語境不同。"
+        "slow-mcq-04": "本句的「slow day」指「顧客、訂單、交易或活動量較少」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-04"
     },
@@ -746,11 +714,9 @@ export default {
       "masked": "Business has been ____ this month.",
       "options": [
         "slow-mcq-04",
-        "slow-mcq-03",
-        "slow-mcq-05",
-        "slow-mcq-02",
-        "slow-mcq-06",
-        "slow-mcq-01"
+        "slow-mcq-23",
+        "slow-mcq-09",
+        "slow-mcq-12"
       ],
       "explanation": "本句的「slow」指「顧客、訂單、交易或活動量較少」。",
       "sentenceIndex": 7,
@@ -759,12 +725,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-04": "本句指「顧客、訂單、交易或活動量較少」。",
-        "slow-mcq-03": "「數量、程度或狀況的變化速率較低」是「slow — rate/change」的用法，與本句語境不同。",
-        "slow-mcq-05": "「作出反應或執行指令所需時間較長」是「slow — response」的用法，與本句語境不同。",
-        "slow-mcq-02": "「某個過程或進展需要較長時間才能完成」是「slow — process」的用法，與本句語境不同。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。",
-        "slow-mcq-01": "「移動速度較低，完成一段距離需要較長時間」是「slow — movement」的用法，與本句語境不同。"
+        "slow-mcq-04": "本句的「slow」指「顧客、訂單、交易或活動量較少」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-04"
     },
@@ -776,11 +740,9 @@ export default {
       "masked": "The computer is very ____ today.",
       "options": [
         "slow-mcq-05",
-        "slow-mcq-04",
-        "slow-mcq-06",
-        "slow-mcq-03",
-        "slow-mcq-07",
-        "slow-mcq-02"
+        "slow-mcq-23",
+        "slow-mcq-12",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「作出反應或執行指令所需時間較長」。",
       "sentenceIndex": 8,
@@ -789,12 +751,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-05": "本句指「作出反應或執行指令所需時間較長」。",
-        "slow-mcq-04": "「顧客、訂單、交易或活動量較少」是「slow — business」的用法，與本句語境不同。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。",
-        "slow-mcq-03": "「數量、程度或狀況的變化速率較低」是「slow — rate/change」的用法，與本句語境不同。",
-        "slow-mcq-07": "「理解／處理資訊需要較多時間」是「slow — learning/understanding」的用法，與本句語境不同。",
-        "slow-mcq-02": "「某個過程或進展需要較長時間才能完成」是「slow — process」的用法，與本句語境不同。"
+        "slow-mcq-05": "本句的「slow」指「作出反應或執行指令所需時間較長」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-05"
     },
@@ -806,11 +766,9 @@ export default {
       "masked": "He was ____ to respond to the question.",
       "options": [
         "slow-mcq-05",
-        "slow-mcq-04",
-        "slow-mcq-06",
-        "slow-mcq-03",
-        "slow-mcq-07",
-        "slow-mcq-02"
+        "slow-mcq-12",
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「作出反應或執行指令所需時間較長」。",
       "sentenceIndex": 9,
@@ -819,12 +777,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-05": "本句指「作出反應或執行指令所需時間較長」。",
-        "slow-mcq-04": "「顧客、訂單、交易或活動量較少」是「slow — business」的用法，與本句語境不同。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。",
-        "slow-mcq-03": "「數量、程度或狀況的變化速率較低」是「slow — rate/change」的用法，與本句語境不同。",
-        "slow-mcq-07": "「理解／處理資訊需要較多時間」是「slow — learning/understanding」的用法，與本句語境不同。",
-        "slow-mcq-02": "「某個過程或進展需要較長時間才能完成」是「slow — process」的用法，與本句語境不同。"
+        "slow-mcq-05": "本句的「slow」指「作出反應或執行指令所需時間較長」。",
+        "slow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-05"
     },
@@ -836,11 +792,9 @@ export default {
       "masked": "The company was ____ to the complaints.",
       "options": [
         "slow-mcq-06",
-        "slow-mcq-05",
         "slow-mcq-07",
-        "slow-mcq-04",
-        "slow-mcq-08",
-        "slow-mcq-03"
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow to react」指「沒有很快作出某項行動、反應或改變」。",
       "sentenceIndex": 10,
@@ -849,12 +803,10 @@ export default {
         "slow to react"
       ],
       "optionReasons": {
-        "slow-mcq-06": "本句指「沒有很快作出某項行動、反應或改變」。",
-        "slow-mcq-05": "「作出反應或執行指令所需時間較長」是「slow — response」的用法，與本句語境不同。",
-        "slow-mcq-07": "「理解／處理資訊需要較多時間」是「slow — learning/understanding」的用法，與本句語境不同。",
-        "slow-mcq-04": "「顧客、訂單、交易或活動量較少」是「slow — business」的用法，與本句語境不同。",
-        "slow-mcq-08": "「資料傳輸、處理或系統反應速度較低」是「slow — technology」的用法，與本句語境不同。",
-        "slow-mcq-03": "「數量、程度或狀況的變化速率較低」是「slow — rate/change」的用法，與本句語境不同。"
+        "slow-mcq-06": "本句的「slow to react」指「沒有很快作出某項行動、反應或改變」。",
+        "slow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-06"
     },
@@ -866,11 +818,9 @@ export default {
       "masked": "She was ____ to trust new people.",
       "options": [
         "slow-mcq-06",
-        "slow-mcq-05",
-        "slow-mcq-07",
-        "slow-mcq-04",
-        "slow-mcq-08",
-        "slow-mcq-03"
+        "slow-mcq-09",
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「沒有很快作出某項行動、反應或改變」。",
       "sentenceIndex": 11,
@@ -879,12 +829,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-06": "本句指「沒有很快作出某項行動、反應或改變」。",
-        "slow-mcq-05": "「作出反應或執行指令所需時間較長」是「slow — response」的用法，與本句語境不同。",
-        "slow-mcq-07": "「理解／處理資訊需要較多時間」是「slow — learning/understanding」的用法，與本句語境不同。",
-        "slow-mcq-04": "「顧客、訂單、交易或活動量較少」是「slow — business」的用法，與本句語境不同。",
-        "slow-mcq-08": "「資料傳輸、處理或系統反應速度較低」是「slow — technology」的用法，與本句語境不同。",
-        "slow-mcq-03": "「數量、程度或狀況的變化速率較低」是「slow — rate/change」的用法，與本句語境不同。"
+        "slow-mcq-06": "本句的「slow」指「沒有很快作出某項行動、反應或改變」。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-06"
     },
@@ -896,11 +844,9 @@ export default {
       "masked": "He was sometimes ____ new instructions.",
       "options": [
         "slow-mcq-07",
-        "slow-mcq-06",
-        "slow-mcq-08",
-        "slow-mcq-05",
-        "slow-mcq-09",
-        "slow-mcq-04"
+        "slow-mcq-22",
+        "slow-mcq-04",
+        "slow-mcq-23"
       ],
       "explanation": "本句的「slow to understand」指「理解／處理資訊需要較多時間」。",
       "sentenceIndex": 12,
@@ -909,12 +855,10 @@ export default {
         "slow to understand"
       ],
       "optionReasons": {
-        "slow-mcq-07": "本句指「理解／處理資訊需要較多時間」。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。",
-        "slow-mcq-08": "「資料傳輸、處理或系統反應速度較低」是「slow — technology」的用法，與本句語境不同。",
-        "slow-mcq-05": "「作出反應或執行指令所需時間較長」是「slow — response」的用法，與本句語境不同。",
-        "slow-mcq-09": "「鐘錶顯示時間比正確時間落後 X 分鐘」是「X minutes slow」的用法，與本句語境不同。",
-        "slow-mcq-04": "「顧客、訂單、交易或活動量較少」是「slow — business」的用法，與本句語境不同。"
+        "slow-mcq-07": "本句的「slow to understand」指「理解／處理資訊需要較多時間」。",
+        "slow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-07"
     },
@@ -926,11 +870,9 @@ export default {
       "masked": "Some students learn more ____ than others.",
       "options": [
         "slow-mcq-07",
-        "slow-mcq-06",
-        "slow-mcq-08",
-        "slow-mcq-05",
-        "slow-mcq-09",
-        "slow-mcq-04"
+        "slow-mcq-22",
+        "slow-mcq-04",
+        "slow-mcq-23"
       ],
       "explanation": "本句的「slowly」指「理解／處理資訊需要較多時間」。",
       "sentenceIndex": 13,
@@ -939,12 +881,10 @@ export default {
         "slowly"
       ],
       "optionReasons": {
-        "slow-mcq-07": "本句指「理解／處理資訊需要較多時間」。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。",
-        "slow-mcq-08": "「資料傳輸、處理或系統反應速度較低」是「slow — technology」的用法，與本句語境不同。",
-        "slow-mcq-05": "「作出反應或執行指令所需時間較長」是「slow — response」的用法，與本句語境不同。",
-        "slow-mcq-09": "「鐘錶顯示時間比正確時間落後 X 分鐘」是「X minutes slow」的用法，與本句語境不同。",
-        "slow-mcq-04": "「顧客、訂單、交易或活動量較少」是「slow — business」的用法，與本句語境不同。"
+        "slow-mcq-07": "本句的「slowly」指「理解／處理資訊需要較多時間」。",
+        "slow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-07"
     },
@@ -956,11 +896,9 @@ export default {
       "masked": "Traffic was ____ because of roadworks.",
       "options": [
         "slow-mcq-22",
-        "slow-mcq-21",
         "slow-mcq-23",
-        "slow-mcq-20",
-        "slow-mcq-19",
-        "slow-mcq-18"
+        "slow-mcq-07",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「某項服務、流程或交通沒有以正常預期速度進行」。",
       "sentenceIndex": 14,
@@ -969,12 +907,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-22": "本句指「某項服務、流程或交通沒有以正常預期速度進行」。",
-        "slow-mcq-21": "「供速度較慢車輛行駛的車道」是「slow lane」的用法，與本句語境不同。",
-        "slow-mcq-23": "「slowly，主要見於口語、道路提示或固定表達」是「18. slow as an adverb（口語／標示） — 慢慢地；減速」的用法，與本句語境不同。",
-        "slow-mcq-20": "「把動作以低於實際速度的方式播放／呈現」是「slow motion」的用法，與本句語境不同。",
-        "slow-mcq-19": "「生活、工作或敘事節奏較緩慢的」是「slow-paced」的用法，與本句語境不同。",
-        "slow-mcq-18": "「移動或進展速度較低的」是「slow-moving」的用法，與本句語境不同。"
+        "slow-mcq-22": "本句的「slow」指「某項服務、流程或交通沒有以正常預期速度進行」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-22"
     },
@@ -986,11 +922,9 @@ export default {
       "masked": "Service was unusually ____.",
       "options": [
         "slow-mcq-22",
-        "slow-mcq-21",
         "slow-mcq-23",
-        "slow-mcq-20",
-        "slow-mcq-19",
-        "slow-mcq-18"
+        "slow-mcq-07",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「某項服務、流程或交通沒有以正常預期速度進行」。",
       "sentenceIndex": 15,
@@ -999,12 +933,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-22": "本句指「某項服務、流程或交通沒有以正常預期速度進行」。",
-        "slow-mcq-21": "「供速度較慢車輛行駛的車道」是「slow lane」的用法，與本句語境不同。",
-        "slow-mcq-23": "「slowly，主要見於口語、道路提示或固定表達」是「18. slow as an adverb（口語／標示） — 慢慢地；減速」的用法，與本句語境不同。",
-        "slow-mcq-20": "「把動作以低於實際速度的方式播放／呈現」是「slow motion」的用法，與本句語境不同。",
-        "slow-mcq-19": "「生活、工作或敘事節奏較緩慢的」是「slow-paced」的用法，與本句語境不同。",
-        "slow-mcq-18": "「移動或進展速度較低的」是「slow-moving」的用法，與本句語境不同。"
+        "slow-mcq-22": "本句的「slow」指「某項服務、流程或交通沒有以正常預期速度進行」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-22"
     },
@@ -1016,11 +948,9 @@ export default {
       "masked": "The internet connection is too ____.",
       "options": [
         "slow-mcq-08",
-        "slow-mcq-07",
         "slow-mcq-09",
-        "slow-mcq-06",
-        "slow-mcq-10",
-        "slow-mcq-05"
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「資料傳輸、處理或系統反應速度較低」。",
       "sentenceIndex": 16,
@@ -1029,12 +959,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-08": "本句指「資料傳輸、處理或系統反應速度較低」。",
-        "slow-mcq-07": "「理解／處理資訊需要較多時間」是「slow — learning/understanding」的用法，與本句語境不同。",
-        "slow-mcq-09": "「鐘錶顯示時間比正確時間落後 X 分鐘」是「X minutes slow」的用法，與本句語境不同。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。",
-        "slow-mcq-10": "「以較低熱力或較長時間進行烹煮」是「slow — cooking」的用法，與本句語境不同。",
-        "slow-mcq-05": "「作出反應或執行指令所需時間較長」是「slow — response」的用法，與本句語境不同。"
+        "slow-mcq-08": "本句的「slow」指「資料傳輸、處理或系統反應速度較低」。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-08"
     },
@@ -1046,11 +974,9 @@ export default {
       "masked": "The app becomes ____ when too many files are open.",
       "options": [
         "slow-mcq-08",
-        "slow-mcq-07",
         "slow-mcq-09",
-        "slow-mcq-06",
-        "slow-mcq-10",
-        "slow-mcq-05"
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「資料傳輸、處理或系統反應速度較低」。",
       "sentenceIndex": 17,
@@ -1059,12 +985,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-08": "本句指「資料傳輸、處理或系統反應速度較低」。",
-        "slow-mcq-07": "「理解／處理資訊需要較多時間」是「slow — learning/understanding」的用法，與本句語境不同。",
-        "slow-mcq-09": "「鐘錶顯示時間比正確時間落後 X 分鐘」是「X minutes slow」的用法，與本句語境不同。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。",
-        "slow-mcq-10": "「以較低熱力或較長時間進行烹煮」是「slow — cooking」的用法，與本句語境不同。",
-        "slow-mcq-05": "「作出反應或執行指令所需時間較長」是「slow — response」的用法，與本句語境不同。"
+        "slow-mcq-08": "本句的「slow」指「資料傳輸、處理或系統反應速度較低」。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-08"
     },
@@ -1076,11 +1000,9 @@ export default {
       "masked": "My watch is five minutes ____.",
       "options": [
         "slow-mcq-09",
-        "slow-mcq-08",
-        "slow-mcq-10",
-        "slow-mcq-07",
-        "slow-mcq-11",
-        "slow-mcq-06"
+        "slow-mcq-03",
+        "slow-mcq-04",
+        "slow-mcq-23"
       ],
       "explanation": "本句的「slow」指「鐘錶顯示時間比正確時間落後 X 分鐘」。",
       "sentenceIndex": 18,
@@ -1089,12 +1011,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-09": "本句指「鐘錶顯示時間比正確時間落後 X 分鐘」。",
-        "slow-mcq-08": "「資料傳輸、處理或系統反應速度較低」是「slow — technology」的用法，與本句語境不同。",
-        "slow-mcq-10": "「以較低熱力或較長時間進行烹煮」是「slow — cooking」的用法，與本句語境不同。",
-        "slow-mcq-07": "「理解／處理資訊需要較多時間」是「slow — learning/understanding」的用法，與本句語境不同。",
-        "slow-mcq-11": "「節拍、速度或節奏較低」是「slow — music」的用法，與本句語境不同。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。"
+        "slow-mcq-09": "本句的「slow」指「鐘錶顯示時間比正確時間落後 X 分鐘」。",
+        "slow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-09"
     },
@@ -1106,11 +1026,9 @@ export default {
       "masked": "That clock runs slightly ____.",
       "options": [
         "slow-mcq-09",
-        "slow-mcq-08",
-        "slow-mcq-10",
-        "slow-mcq-07",
-        "slow-mcq-11",
-        "slow-mcq-06"
+        "slow-mcq-16",
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「鐘錶顯示時間比正確時間落後 X 分鐘」。",
       "sentenceIndex": 19,
@@ -1119,12 +1037,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-09": "本句指「鐘錶顯示時間比正確時間落後 X 分鐘」。",
-        "slow-mcq-08": "「資料傳輸、處理或系統反應速度較低」是「slow — technology」的用法，與本句語境不同。",
-        "slow-mcq-10": "「以較低熱力或較長時間進行烹煮」是「slow — cooking」的用法，與本句語境不同。",
-        "slow-mcq-07": "「理解／處理資訊需要較多時間」是「slow — learning/understanding」的用法，與本句語境不同。",
-        "slow-mcq-11": "「節拍、速度或節奏較低」是「slow — music」的用法，與本句語境不同。",
-        "slow-mcq-06": "「沒有很快作出某項行動、反應或改變」是「slow to do」的用法，與本句語境不同。"
+        "slow-mcq-09": "本句的「slow」指「鐘錶顯示時間比正確時間落後 X 分鐘」。",
+        "slow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-09"
     },
@@ -1136,11 +1052,9 @@ export default {
       "masked": "Cook the meat over a ____.",
       "options": [
         "slow-mcq-10",
-        "slow-mcq-09",
-        "slow-mcq-11",
-        "slow-mcq-08",
-        "slow-mcq-12",
-        "slow-mcq-07"
+        "slow-mcq-23",
+        "slow-mcq-14",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow heat」指「以較低熱力或較長時間進行烹煮」。",
       "sentenceIndex": 20,
@@ -1149,12 +1063,10 @@ export default {
         "slow heat"
       ],
       "optionReasons": {
-        "slow-mcq-10": "本句指「以較低熱力或較長時間進行烹煮」。",
-        "slow-mcq-09": "「鐘錶顯示時間比正確時間落後 X 分鐘」是「X minutes slow」的用法，與本句語境不同。",
-        "slow-mcq-11": "「節拍、速度或節奏較低」是「slow — music」的用法，與本句語境不同。",
-        "slow-mcq-08": "「資料傳輸、處理或系統反應速度較低」是「slow — technology」的用法，與本句語境不同。",
-        "slow-mcq-12": "「使某人／某事的速度、進展或變化率降低」是「slow — transitive verb」的用法，與本句語境不同。",
-        "slow-mcq-07": "「理解／處理資訊需要較多時間」是「slow — learning/understanding」的用法，與本句語境不同。"
+        "slow-mcq-10": "本句的「slow heat」指「以較低熱力或較長時間進行烹煮」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-10"
     },
@@ -1166,11 +1078,9 @@ export default {
       "masked": "____ cooking makes the meat more tender.",
       "options": [
         "slow-mcq-10",
-        "slow-mcq-09",
-        "slow-mcq-11",
-        "slow-mcq-08",
-        "slow-mcq-12",
-        "slow-mcq-07"
+        "slow-mcq-23",
+        "slow-mcq-14",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「Slow」指「以較低熱力或較長時間進行烹煮」。",
       "sentenceIndex": 21,
@@ -1179,12 +1089,10 @@ export default {
         "Slow"
       ],
       "optionReasons": {
-        "slow-mcq-10": "本句指「以較低熱力或較長時間進行烹煮」。",
-        "slow-mcq-09": "「鐘錶顯示時間比正確時間落後 X 分鐘」是「X minutes slow」的用法，與本句語境不同。",
-        "slow-mcq-11": "「節拍、速度或節奏較低」是「slow — music」的用法，與本句語境不同。",
-        "slow-mcq-08": "「資料傳輸、處理或系統反應速度較低」是「slow — technology」的用法，與本句語境不同。",
-        "slow-mcq-12": "「使某人／某事的速度、進展或變化率降低」是「slow — transitive verb」的用法，與本句語境不同。",
-        "slow-mcq-07": "「理解／處理資訊需要較多時間」是「slow — learning/understanding」的用法，與本句語境不同。"
+        "slow-mcq-10": "本句的「Slow」指「以較低熱力或較長時間進行烹煮」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-10"
     },
@@ -1196,11 +1104,9 @@ export default {
       "masked": "She cooked the soup in a ____.",
       "options": [
         "slow-mcq-10",
-        "slow-mcq-09",
-        "slow-mcq-11",
-        "slow-mcq-08",
-        "slow-mcq-12",
-        "slow-mcq-07"
+        "slow-mcq-14",
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow cooker」指「以較低熱力或較長時間進行烹煮」。",
       "sentenceIndex": 22,
@@ -1209,12 +1115,10 @@ export default {
         "slow cooker"
       ],
       "optionReasons": {
-        "slow-mcq-10": "本句指「以較低熱力或較長時間進行烹煮」。",
-        "slow-mcq-09": "「鐘錶顯示時間比正確時間落後 X 分鐘」是「X minutes slow」的用法，與本句語境不同。",
-        "slow-mcq-11": "「節拍、速度或節奏較低」是「slow — music」的用法，與本句語境不同。",
-        "slow-mcq-08": "「資料傳輸、處理或系統反應速度較低」是「slow — technology」的用法，與本句語境不同。",
-        "slow-mcq-12": "「使某人／某事的速度、進展或變化率降低」是「slow — transitive verb」的用法，與本句語境不同。",
-        "slow-mcq-07": "「理解／處理資訊需要較多時間」是「slow — learning/understanding」的用法，與本句語境不同。"
+        "slow-mcq-10": "本句的「slow cooker」指「以較低熱力或較長時間進行烹煮」。",
+        "slow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-10"
     },
@@ -1226,11 +1130,9 @@ export default {
       "masked": "A ____ cooker is useful for meals that cook for several hours.",
       "options": [
         "slow-mcq-10",
-        "slow-mcq-09",
-        "slow-mcq-11",
-        "slow-mcq-08",
-        "slow-mcq-12",
-        "slow-mcq-07"
+        "slow-mcq-14",
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「以較低熱力或較長時間進行烹煮」。",
       "sentenceIndex": 23,
@@ -1239,12 +1141,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-10": "本句指「以較低熱力或較長時間進行烹煮」。",
-        "slow-mcq-09": "「鐘錶顯示時間比正確時間落後 X 分鐘」是「X minutes slow」的用法，與本句語境不同。",
-        "slow-mcq-11": "「節拍、速度或節奏較低」是「slow — music」的用法，與本句語境不同。",
-        "slow-mcq-08": "「資料傳輸、處理或系統反應速度較低」是「slow — technology」的用法，與本句語境不同。",
-        "slow-mcq-12": "「使某人／某事的速度、進展或變化率降低」是「slow — transitive verb」的用法，與本句語境不同。",
-        "slow-mcq-07": "「理解／處理資訊需要較多時間」是「slow — learning/understanding」的用法，與本句語境不同。"
+        "slow-mcq-10": "本句的「slow」指「以較低熱力或較長時間進行烹煮」。",
+        "slow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-10"
     },
@@ -1256,11 +1156,9 @@ export default {
       "masked": "They danced to a ____.",
       "options": [
         "slow-mcq-11",
-        "slow-mcq-10",
-        "slow-mcq-12",
         "slow-mcq-09",
-        "slow-mcq-13",
-        "slow-mcq-08"
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow song」指「節拍、速度或節奏較低」。",
       "sentenceIndex": 24,
@@ -1269,12 +1167,10 @@ export default {
         "slow song"
       ],
       "optionReasons": {
-        "slow-mcq-11": "本句指「節拍、速度或節奏較低」。",
-        "slow-mcq-10": "「以較低熱力或較長時間進行烹煮」是「slow — cooking」的用法，與本句語境不同。",
-        "slow-mcq-12": "「使某人／某事的速度、進展或變化率降低」是「slow — transitive verb」的用法，與本句語境不同。",
-        "slow-mcq-09": "「鐘錶顯示時間比正確時間落後 X 分鐘」是「X minutes slow」的用法，與本句語境不同。",
-        "slow-mcq-13": "「自身速度、增長或活動程度降低」是「slow — intransitive verb」的用法，與本句語境不同。",
-        "slow-mcq-08": "「資料傳輸、處理或系統反應速度較低」是「slow — technology」的用法，與本句語境不同。"
+        "slow-mcq-11": "本句的「slow song」指「節拍、速度或節奏較低」。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-11"
     },
@@ -1286,11 +1182,9 @@ export default {
       "masked": "The piece begins with a ____ rhythm.",
       "options": [
         "slow-mcq-11",
-        "slow-mcq-10",
-        "slow-mcq-12",
+        "slow-mcq-23",
         "slow-mcq-09",
-        "slow-mcq-13",
-        "slow-mcq-08"
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「節拍、速度或節奏較低」。",
       "sentenceIndex": 25,
@@ -1299,12 +1193,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-11": "本句指「節拍、速度或節奏較低」。",
-        "slow-mcq-10": "「以較低熱力或較長時間進行烹煮」是「slow — cooking」的用法，與本句語境不同。",
-        "slow-mcq-12": "「使某人／某事的速度、進展或變化率降低」是「slow — transitive verb」的用法，與本句語境不同。",
-        "slow-mcq-09": "「鐘錶顯示時間比正確時間落後 X 分鐘」是「X minutes slow」的用法，與本句語境不同。",
-        "slow-mcq-13": "「自身速度、增長或活動程度降低」是「slow — intransitive verb」的用法，與本句語境不同。",
-        "slow-mcq-08": "「資料傳輸、處理或系統反應速度較低」是「slow — technology」的用法，與本句語境不同。"
+        "slow-mcq-11": "本句的「slow」指「節拍、速度或節奏較低」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-11"
     },
@@ -1316,11 +1208,9 @@ export default {
       "masked": "Heavy traffic ____ the bus.",
       "options": [
         "slow-mcq-12",
-        "slow-mcq-11",
-        "slow-mcq-13",
-        "slow-mcq-10",
-        "slow-mcq-14",
-        "slow-mcq-09"
+        "slow-mcq-05",
+        "slow-mcq-04",
+        "slow-mcq-23"
       ],
       "explanation": "本句的「slowed」指「使某人／某事的速度、進展或變化率降低」。",
       "sentenceIndex": 26,
@@ -1329,12 +1219,10 @@ export default {
         "slowed"
       ],
       "optionReasons": {
-        "slow-mcq-12": "本句指「使某人／某事的速度、進展或變化率降低」。",
-        "slow-mcq-11": "「節拍、速度或節奏較低」是「slow — music」的用法，與本句語境不同。",
-        "slow-mcq-13": "「自身速度、增長或活動程度降低」是「slow — intransitive verb」的用法，與本句語境不同。",
-        "slow-mcq-10": "「以較低熱力或較長時間進行烹煮」是「slow — cooking」的用法，與本句語境不同。",
-        "slow-mcq-14": "「減少速度；亦指放慢生活／工作節奏」是「slow down」的用法，與本句語境不同。",
-        "slow-mcq-09": "「鐘錶顯示時間比正確時間落後 X 分鐘」是「X minutes slow」的用法，與本句語境不同。"
+        "slow-mcq-12": "本句的「slowed」指「使某人／某事的速度、進展或變化率降低」。",
+        "slow-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-12"
     },
@@ -1346,11 +1234,9 @@ export default {
       "masked": "Lack of funding ____ the project.",
       "options": [
         "slow-mcq-12",
-        "slow-mcq-11",
-        "slow-mcq-13",
-        "slow-mcq-10",
-        "slow-mcq-14",
-        "slow-mcq-09"
+        "slow-mcq-23",
+        "slow-mcq-04",
+        "slow-mcq-05"
       ],
       "explanation": "本句的「slowed」指「使某人／某事的速度、進展或變化率降低」。",
       "sentenceIndex": 27,
@@ -1359,12 +1245,10 @@ export default {
         "slowed"
       ],
       "optionReasons": {
-        "slow-mcq-12": "本句指「使某人／某事的速度、進展或變化率降低」。",
-        "slow-mcq-11": "「節拍、速度或節奏較低」是「slow — music」的用法，與本句語境不同。",
-        "slow-mcq-13": "「自身速度、增長或活動程度降低」是「slow — intransitive verb」的用法，與本句語境不同。",
-        "slow-mcq-10": "「以較低熱力或較長時間進行烹煮」是「slow — cooking」的用法，與本句語境不同。",
-        "slow-mcq-14": "「減少速度；亦指放慢生活／工作節奏」是「slow down」的用法，與本句語境不同。",
-        "slow-mcq-09": "「鐘錶顯示時間比正確時間落後 X 分鐘」是「X minutes slow」的用法，與本句語境不同。"
+        "slow-mcq-12": "本句的「slowed」指「使某人／某事的速度、進展或變化率降低」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-12"
     },
@@ -1376,11 +1260,8 @@ export default {
       "masked": "The car ____ as it approached the corner.",
       "options": [
         "slow-mcq-13",
-        "slow-mcq-12",
-        "slow-mcq-14",
-        "slow-mcq-11",
-        "slow-mcq-15",
-        "slow-mcq-10"
+        "slow-mcq-09",
+        "slow-mcq-23"
       ],
       "explanation": "本句的「slowed」指「自身速度、增長或活動程度降低」。",
       "sentenceIndex": 28,
@@ -1389,12 +1270,9 @@ export default {
         "slowed"
       ],
       "optionReasons": {
-        "slow-mcq-13": "本句指「自身速度、增長或活動程度降低」。",
-        "slow-mcq-12": "「使某人／某事的速度、進展或變化率降低」是「slow — transitive verb」的用法，與本句語境不同。",
-        "slow-mcq-14": "「減少速度；亦指放慢生活／工作節奏」是「slow down」的用法，與本句語境不同。",
-        "slow-mcq-11": "「節拍、速度或節奏較低」是「slow — music」的用法，與本句語境不同。",
-        "slow-mcq-15": "「以較低速度、速率或節奏進行」是「slowly」的用法，與本句語境不同。",
-        "slow-mcq-10": "「以較低熱力或較長時間進行烹煮」是「slow — cooking」的用法，與本句語境不同。"
+        "slow-mcq-13": "本句的「slowed」指「自身速度、增長或活動程度降低」。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-13"
     },
@@ -1406,11 +1284,8 @@ export default {
       "masked": "Economic growth has ____.",
       "options": [
         "slow-mcq-13",
-        "slow-mcq-12",
-        "slow-mcq-14",
-        "slow-mcq-11",
-        "slow-mcq-15",
-        "slow-mcq-10"
+        "slow-mcq-07",
+        "slow-mcq-23"
       ],
       "explanation": "本句的「slowed」指「自身速度、增長或活動程度降低」。",
       "sentenceIndex": 29,
@@ -1419,12 +1294,9 @@ export default {
         "slowed"
       ],
       "optionReasons": {
-        "slow-mcq-13": "本句指「自身速度、增長或活動程度降低」。",
-        "slow-mcq-12": "「使某人／某事的速度、進展或變化率降低」是「slow — transitive verb」的用法，與本句語境不同。",
-        "slow-mcq-14": "「減少速度；亦指放慢生活／工作節奏」是「slow down」的用法，與本句語境不同。",
-        "slow-mcq-11": "「節拍、速度或節奏較低」是「slow — music」的用法，與本句語境不同。",
-        "slow-mcq-15": "「以較低速度、速率或節奏進行」是「slowly」的用法，與本句語境不同。",
-        "slow-mcq-10": "「以較低熱力或較長時間進行烹煮」是「slow — cooking」的用法，與本句語境不同。"
+        "slow-mcq-13": "本句的「slowed」指「自身速度、增長或活動程度降低」。",
+        "slow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-13"
     },
@@ -1436,11 +1308,9 @@ export default {
       "masked": "Gardening gives her a chance to ____.",
       "options": [
         "slow-mcq-14",
-        "slow-mcq-13",
-        "slow-mcq-15",
-        "slow-mcq-12",
-        "slow-mcq-16",
-        "slow-mcq-11"
+        "slow-mcq-10",
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow down」指「減少速度；亦指放慢生活／工作節奏」。",
       "sentenceIndex": 30,
@@ -1449,12 +1319,10 @@ export default {
         "slow down"
       ],
       "optionReasons": {
-        "slow-mcq-14": "本句指「減少速度；亦指放慢生活／工作節奏」。",
-        "slow-mcq-13": "「自身速度、增長或活動程度降低」是「slow — intransitive verb」的用法，與本句語境不同。",
-        "slow-mcq-15": "「以較低速度、速率或節奏進行」是「slowly」的用法，與本句語境不同。",
-        "slow-mcq-12": "「使某人／某事的速度、進展或變化率降低」是「slow — transitive verb」的用法，與本句語境不同。",
-        "slow-mcq-16": "「速度、反應或進展較慢的狀態」是「slowness」的用法，與本句語境不同。",
-        "slow-mcq-11": "「節拍、速度或節奏較低」是「slow — music」的用法，與本句語境不同。"
+        "slow-mcq-14": "本句的「slow down」指「減少速度；亦指放慢生活／工作節奏」。",
+        "slow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-14"
     },
@@ -1466,11 +1334,9 @@ export default {
       "masked": "You should ____ down on wet roads.",
       "options": [
         "slow-mcq-14",
-        "slow-mcq-13",
-        "slow-mcq-15",
-        "slow-mcq-12",
-        "slow-mcq-16",
-        "slow-mcq-11"
+        "slow-mcq-23",
+        "slow-mcq-10",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「減少速度；亦指放慢生活／工作節奏」。",
       "sentenceIndex": 31,
@@ -1479,12 +1345,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-14": "本句指「減少速度；亦指放慢生活／工作節奏」。",
-        "slow-mcq-13": "「自身速度、增長或活動程度降低」是「slow — intransitive verb」的用法，與本句語境不同。",
-        "slow-mcq-15": "「以較低速度、速率或節奏進行」是「slowly」的用法，與本句語境不同。",
-        "slow-mcq-12": "「使某人／某事的速度、進展或變化率降低」是「slow — transitive verb」的用法，與本句語境不同。",
-        "slow-mcq-16": "「速度、反應或進展較慢的狀態」是「slowness」的用法，與本句語境不同。",
-        "slow-mcq-11": "「節拍、速度或節奏較低」是「slow — music」的用法，與本句語境不同。"
+        "slow-mcq-14": "本句的「slow」指「減少速度；亦指放慢生活／工作節奏」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-14"
     },
@@ -1496,11 +1360,9 @@ export default {
       "masked": "I need to ____ down and get more rest.",
       "options": [
         "slow-mcq-14",
-        "slow-mcq-13",
-        "slow-mcq-15",
-        "slow-mcq-12",
-        "slow-mcq-16",
-        "slow-mcq-11"
+        "slow-mcq-09",
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「減少速度；亦指放慢生活／工作節奏」。",
       "sentenceIndex": 32,
@@ -1509,12 +1371,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-14": "本句指「減少速度；亦指放慢生活／工作節奏」。",
-        "slow-mcq-13": "「自身速度、增長或活動程度降低」是「slow — intransitive verb」的用法，與本句語境不同。",
-        "slow-mcq-15": "「以較低速度、速率或節奏進行」是「slowly」的用法，與本句語境不同。",
-        "slow-mcq-12": "「使某人／某事的速度、進展或變化率降低」是「slow — transitive verb」的用法，與本句語境不同。",
-        "slow-mcq-16": "「速度、反應或進展較慢的狀態」是「slowness」的用法，與本句語境不同。",
-        "slow-mcq-11": "「節拍、速度或節奏較低」是「slow — music」的用法，與本句語境不同。"
+        "slow-mcq-14": "本句的「slow」指「減少速度；亦指放慢生活／工作節奏」。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-14"
     },
@@ -1526,11 +1386,9 @@ export default {
       "masked": "The plant grew ____.",
       "options": [
         "slow-mcq-15",
-        "slow-mcq-14",
-        "slow-mcq-16",
-        "slow-mcq-13",
-        "slow-mcq-17",
-        "slow-mcq-12"
+        "slow-mcq-09",
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slowly」指「以較低速度、速率或節奏進行」。",
       "sentenceIndex": 33,
@@ -1539,12 +1397,10 @@ export default {
         "slowly"
       ],
       "optionReasons": {
-        "slow-mcq-15": "本句指「以較低速度、速率或節奏進行」。",
-        "slow-mcq-14": "「減少速度；亦指放慢生活／工作節奏」是「slow down」的用法，與本句語境不同。",
-        "slow-mcq-16": "「速度、反應或進展較慢的狀態」是「slowness」的用法，與本句語境不同。",
-        "slow-mcq-13": "「自身速度、增長或活動程度降低」是「slow — intransitive verb」的用法，與本句語境不同。",
-        "slow-mcq-17": "「速度、活動量、增長率或生產程度下降」是「slowdown」的用法，與本句語境不同。",
-        "slow-mcq-12": "「使某人／某事的速度、進展或變化率降低」是「slow — transitive verb」的用法，與本句語境不同。"
+        "slow-mcq-15": "本句的「slowly」指「以較低速度、速率或節奏進行」。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-15"
     },
@@ -1556,11 +1412,9 @@ export default {
       "masked": "Please speak more ____.",
       "options": [
         "slow-mcq-15",
-        "slow-mcq-14",
-        "slow-mcq-16",
-        "slow-mcq-13",
-        "slow-mcq-17",
-        "slow-mcq-12"
+        "slow-mcq-23",
+        "slow-mcq-09",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slowly」指「以較低速度、速率或節奏進行」。",
       "sentenceIndex": 34,
@@ -1569,12 +1423,10 @@ export default {
         "slowly"
       ],
       "optionReasons": {
-        "slow-mcq-15": "本句指「以較低速度、速率或節奏進行」。",
-        "slow-mcq-14": "「減少速度；亦指放慢生活／工作節奏」是「slow down」的用法，與本句語境不同。",
-        "slow-mcq-16": "「速度、反應或進展較慢的狀態」是「slowness」的用法，與本句語境不同。",
-        "slow-mcq-13": "「自身速度、增長或活動程度降低」是「slow — intransitive verb」的用法，與本句語境不同。",
-        "slow-mcq-17": "「速度、活動量、增長率或生產程度下降」是「slowdown」的用法，與本句語境不同。",
-        "slow-mcq-12": "「使某人／某事的速度、進展或變化率降低」是「slow — transitive verb」的用法，與本句語境不同。"
+        "slow-mcq-15": "本句的「slowly」指「以較低速度、速率或節奏進行」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-15"
     },
@@ -1586,11 +1438,9 @@ export default {
       "masked": "Drive ____.",
       "options": [
         "slow-mcq-23",
-        "slow-mcq-22",
-        "slow-mcq-21",
-        "slow-mcq-20",
         "slow-mcq-19",
-        "slow-mcq-18"
+        "slow-mcq-05",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「slowly，主要見於口語、道路提示或固定表達」。",
       "sentenceIndex": 35,
@@ -1599,12 +1449,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-23": "本句指「slowly，主要見於口語、道路提示或固定表達」。",
-        "slow-mcq-22": "「某項服務、流程或交通沒有以正常預期速度進行」是「8. slow = delayed / behind schedule（服務／交通） — 延誤的；進展慢的」的用法，與本句語境不同。",
-        "slow-mcq-21": "「供速度較慢車輛行駛的車道」是「slow lane」的用法，與本句語境不同。",
-        "slow-mcq-20": "「把動作以低於實際速度的方式播放／呈現」是「slow motion」的用法，與本句語境不同。",
-        "slow-mcq-19": "「生活、工作或敘事節奏較緩慢的」是「slow-paced」的用法，與本句語境不同。",
-        "slow-mcq-18": "「移動或進展速度較低的」是「slow-moving」的用法，與本句語境不同。"
+        "slow-mcq-23": "本句的「slow」指「slowly，主要見於口語、道路提示或固定表達」。",
+        "slow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-23"
     },
@@ -1617,10 +1465,8 @@ export default {
       "options": [
         "slow-mcq-23",
         "slow-mcq-22",
-        "slow-mcq-21",
-        "slow-mcq-20",
-        "slow-mcq-19",
-        "slow-mcq-18"
+        "slow-mcq-04",
+        "slow-mcq-09"
       ],
       "explanation": "本句的「slow」指「slowly，主要見於口語、道路提示或固定表達」。",
       "sentenceIndex": 36,
@@ -1629,12 +1475,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-23": "本句指「slowly，主要見於口語、道路提示或固定表達」。",
-        "slow-mcq-22": "「某項服務、流程或交通沒有以正常預期速度進行」是「8. slow = delayed / behind schedule（服務／交通） — 延誤的；進展慢的」的用法，與本句語境不同。",
-        "slow-mcq-21": "「供速度較慢車輛行駛的車道」是「slow lane」的用法，與本句語境不同。",
-        "slow-mcq-20": "「把動作以低於實際速度的方式播放／呈現」是「slow motion」的用法，與本句語境不同。",
-        "slow-mcq-19": "「生活、工作或敘事節奏較緩慢的」是「slow-paced」的用法，與本句語境不同。",
-        "slow-mcq-18": "「移動或進展速度較低的」是「slow-moving」的用法，與本句語境不同。"
+        "slow-mcq-23": "本句的「slow」指「slowly，主要見於口語、道路提示或固定表達」。",
+        "slow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-23"
     },
@@ -1646,11 +1490,9 @@ export default {
       "masked": "The ____ of the system frustrated users.",
       "options": [
         "slow-mcq-16",
-        "slow-mcq-15",
-        "slow-mcq-17",
-        "slow-mcq-14",
-        "slow-mcq-18",
-        "slow-mcq-13"
+        "slow-mcq-09",
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slowness」指「速度、反應或進展較慢的狀態」。",
       "sentenceIndex": 37,
@@ -1659,12 +1501,10 @@ export default {
         "slowness"
       ],
       "optionReasons": {
-        "slow-mcq-16": "本句指「速度、反應或進展較慢的狀態」。",
-        "slow-mcq-15": "「以較低速度、速率或節奏進行」是「slowly」的用法，與本句語境不同。",
-        "slow-mcq-17": "「速度、活動量、增長率或生產程度下降」是「slowdown」的用法，與本句語境不同。",
-        "slow-mcq-14": "「減少速度；亦指放慢生活／工作節奏」是「slow down」的用法，與本句語境不同。",
-        "slow-mcq-18": "「移動或進展速度較低的」是「slow-moving」的用法，與本句語境不同。",
-        "slow-mcq-13": "「自身速度、增長或活動程度降低」是「slow — intransitive verb」的用法，與本句語境不同。"
+        "slow-mcq-16": "本句的「slowness」指「速度、反應或進展較慢的狀態」。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-16"
     },
@@ -1676,11 +1516,9 @@ export default {
       "masked": "They complained about the ____ of the service.",
       "options": [
         "slow-mcq-16",
-        "slow-mcq-15",
-        "slow-mcq-17",
-        "slow-mcq-14",
-        "slow-mcq-18",
-        "slow-mcq-13"
+        "slow-mcq-23",
+        "slow-mcq-09",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slowness」指「速度、反應或進展較慢的狀態」。",
       "sentenceIndex": 38,
@@ -1689,12 +1527,10 @@ export default {
         "slowness"
       ],
       "optionReasons": {
-        "slow-mcq-16": "本句指「速度、反應或進展較慢的狀態」。",
-        "slow-mcq-15": "「以較低速度、速率或節奏進行」是「slowly」的用法，與本句語境不同。",
-        "slow-mcq-17": "「速度、活動量、增長率或生產程度下降」是「slowdown」的用法，與本句語境不同。",
-        "slow-mcq-14": "「減少速度；亦指放慢生活／工作節奏」是「slow down」的用法，與本句語境不同。",
-        "slow-mcq-18": "「移動或進展速度較低的」是「slow-moving」的用法，與本句語境不同。",
-        "slow-mcq-13": "「自身速度、增長或活動程度降低」是「slow — intransitive verb」的用法，與本句語境不同。"
+        "slow-mcq-16": "本句的「slowness」指「速度、反應或進展較慢的狀態」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-16"
     },
@@ -1706,11 +1542,8 @@ export default {
       "masked": "The economy experienced a ____.",
       "options": [
         "slow-mcq-17",
-        "slow-mcq-16",
-        "slow-mcq-18",
-        "slow-mcq-15",
-        "slow-mcq-19",
-        "slow-mcq-14"
+        "slow-mcq-23",
+        "slow-mcq-09"
       ],
       "explanation": "本句的「slowdown」指「速度、活動量、增長率或生產程度下降」。",
       "sentenceIndex": 39,
@@ -1719,12 +1552,9 @@ export default {
         "slowdown"
       ],
       "optionReasons": {
-        "slow-mcq-17": "本句指「速度、活動量、增長率或生產程度下降」。",
-        "slow-mcq-16": "「速度、反應或進展較慢的狀態」是「slowness」的用法，與本句語境不同。",
-        "slow-mcq-18": "「移動或進展速度較低的」是「slow-moving」的用法，與本句語境不同。",
-        "slow-mcq-15": "「以較低速度、速率或節奏進行」是「slowly」的用法，與本句語境不同。",
-        "slow-mcq-19": "「生活、工作或敘事節奏較緩慢的」是「slow-paced」的用法，與本句語境不同。",
-        "slow-mcq-14": "「減少速度；亦指放慢生活／工作節奏」是「slow down」的用法，與本句語境不同。"
+        "slow-mcq-17": "本句的「slowdown」指「速度、活動量、增長率或生產程度下降」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-17"
     },
@@ -1736,11 +1566,8 @@ export default {
       "masked": "There has been a ____ in sales.",
       "options": [
         "slow-mcq-17",
-        "slow-mcq-16",
-        "slow-mcq-18",
-        "slow-mcq-15",
-        "slow-mcq-19",
-        "slow-mcq-14"
+        "slow-mcq-23",
+        "slow-mcq-07"
       ],
       "explanation": "本句的「slowdown」指「速度、活動量、增長率或生產程度下降」。",
       "sentenceIndex": 40,
@@ -1749,12 +1576,9 @@ export default {
         "slowdown"
       ],
       "optionReasons": {
-        "slow-mcq-17": "本句指「速度、活動量、增長率或生產程度下降」。",
-        "slow-mcq-16": "「速度、反應或進展較慢的狀態」是「slowness」的用法，與本句語境不同。",
-        "slow-mcq-18": "「移動或進展速度較低的」是「slow-moving」的用法，與本句語境不同。",
-        "slow-mcq-15": "「以較低速度、速率或節奏進行」是「slowly」的用法，與本句語境不同。",
-        "slow-mcq-19": "「生活、工作或敘事節奏較緩慢的」是「slow-paced」的用法，與本句語境不同。",
-        "slow-mcq-14": "「減少速度；亦指放慢生活／工作節奏」是「slow down」的用法，與本句語境不同。"
+        "slow-mcq-17": "本句的「slowdown」指「速度、活動量、增長率或生產程度下降」。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-17"
     },
@@ -1766,11 +1590,9 @@ export default {
       "masked": "We were stuck behind a ____.",
       "options": [
         "slow-mcq-18",
-        "slow-mcq-17",
-        "slow-mcq-19",
-        "slow-mcq-16",
-        "slow-mcq-20",
-        "slow-mcq-15"
+        "slow-mcq-09",
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow-moving vehicle」指「移動或進展速度較低的」。",
       "sentenceIndex": 41,
@@ -1779,12 +1601,10 @@ export default {
         "slow-moving vehicle"
       ],
       "optionReasons": {
-        "slow-mcq-18": "本句指「移動或進展速度較低的」。",
-        "slow-mcq-17": "「速度、活動量、增長率或生產程度下降」是「slowdown」的用法，與本句語境不同。",
-        "slow-mcq-19": "「生活、工作或敘事節奏較緩慢的」是「slow-paced」的用法，與本句語境不同。",
-        "slow-mcq-16": "「速度、反應或進展較慢的狀態」是「slowness」的用法，與本句語境不同。",
-        "slow-mcq-20": "「把動作以低於實際速度的方式播放／呈現」是「slow motion」的用法，與本句語境不同。",
-        "slow-mcq-15": "「以較低速度、速率或節奏進行」是「slowly」的用法，與本句語境不同。"
+        "slow-mcq-18": "本句的「slow-moving vehicle」指「移動或進展速度較低的」。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-18"
     },
@@ -1796,11 +1616,9 @@ export default {
       "masked": "It became a ____ investigation.",
       "options": [
         "slow-mcq-18",
-        "slow-mcq-17",
-        "slow-mcq-19",
-        "slow-mcq-16",
-        "slow-mcq-20",
-        "slow-mcq-15"
+        "slow-mcq-09",
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow-moving」指「移動或進展速度較低的」。",
       "sentenceIndex": 42,
@@ -1809,12 +1627,10 @@ export default {
         "slow-moving"
       ],
       "optionReasons": {
-        "slow-mcq-18": "本句指「移動或進展速度較低的」。",
-        "slow-mcq-17": "「速度、活動量、增長率或生產程度下降」是「slowdown」的用法，與本句語境不同。",
-        "slow-mcq-19": "「生活、工作或敘事節奏較緩慢的」是「slow-paced」的用法，與本句語境不同。",
-        "slow-mcq-16": "「速度、反應或進展較慢的狀態」是「slowness」的用法，與本句語境不同。",
-        "slow-mcq-20": "「把動作以低於實際速度的方式播放／呈現」是「slow motion」的用法，與本句語境不同。",
-        "slow-mcq-15": "「以較低速度、速率或節奏進行」是「slowly」的用法，與本句語境不同。"
+        "slow-mcq-18": "本句的「slow-moving」指「移動或進展速度較低的」。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-18"
     },
@@ -1826,11 +1642,9 @@ export default {
       "masked": "She prefers a ____.",
       "options": [
         "slow-mcq-19",
-        "slow-mcq-18",
-        "slow-mcq-20",
-        "slow-mcq-17",
-        "slow-mcq-21",
-        "slow-mcq-16"
+        "slow-mcq-09",
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow-paced lifestyle」指「生活、工作或敘事節奏較緩慢的」。",
       "sentenceIndex": 43,
@@ -1839,12 +1653,10 @@ export default {
         "slow-paced lifestyle"
       ],
       "optionReasons": {
-        "slow-mcq-19": "本句指「生活、工作或敘事節奏較緩慢的」。",
-        "slow-mcq-18": "「移動或進展速度較低的」是「slow-moving」的用法，與本句語境不同。",
-        "slow-mcq-20": "「把動作以低於實際速度的方式播放／呈現」是「slow motion」的用法，與本句語境不同。",
-        "slow-mcq-17": "「速度、活動量、增長率或生產程度下降」是「slowdown」的用法，與本句語境不同。",
-        "slow-mcq-21": "「供速度較慢車輛行駛的車道」是「slow lane」的用法，與本句語境不同。",
-        "slow-mcq-16": "「速度、反應或進展較慢的狀態」是「slowness」的用法，與本句語境不同。"
+        "slow-mcq-19": "本句的「slow-paced lifestyle」指「生活、工作或敘事節奏較緩慢的」。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-19"
     },
@@ -1856,11 +1668,9 @@ export default {
       "masked": "The film is deliberately ____.",
       "options": [
         "slow-mcq-19",
-        "slow-mcq-18",
-        "slow-mcq-20",
-        "slow-mcq-17",
-        "slow-mcq-21",
-        "slow-mcq-16"
+        "slow-mcq-09",
+        "slow-mcq-23",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow-paced」指「生活、工作或敘事節奏較緩慢的」。",
       "sentenceIndex": 44,
@@ -1869,12 +1679,10 @@ export default {
         "slow-paced"
       ],
       "optionReasons": {
-        "slow-mcq-19": "本句指「生活、工作或敘事節奏較緩慢的」。",
-        "slow-mcq-18": "「移動或進展速度較低的」是「slow-moving」的用法，與本句語境不同。",
-        "slow-mcq-20": "「把動作以低於實際速度的方式播放／呈現」是「slow motion」的用法，與本句語境不同。",
-        "slow-mcq-17": "「速度、活動量、增長率或生產程度下降」是「slowdown」的用法，與本句語境不同。",
-        "slow-mcq-21": "「供速度較慢車輛行駛的車道」是「slow lane」的用法，與本句語境不同。",
-        "slow-mcq-16": "「速度、反應或進展較慢的狀態」是「slowness」的用法，與本句語境不同。"
+        "slow-mcq-19": "本句的「slow-paced」指「生活、工作或敘事節奏較緩慢的」。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-19"
     },
@@ -1886,11 +1694,8 @@ export default {
       "masked": "The replay showed the moment in ____.",
       "options": [
         "slow-mcq-20",
-        "slow-mcq-19",
-        "slow-mcq-21",
-        "slow-mcq-18",
-        "slow-mcq-22",
-        "slow-mcq-17"
+        "slow-mcq-07",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow motion」指「把動作以低於實際速度的方式播放／呈現」。",
       "sentenceIndex": 45,
@@ -1899,12 +1704,9 @@ export default {
         "slow motion"
       ],
       "optionReasons": {
-        "slow-mcq-20": "本句指「把動作以低於實際速度的方式播放／呈現」。",
-        "slow-mcq-19": "「生活、工作或敘事節奏較緩慢的」是「slow-paced」的用法，與本句語境不同。",
-        "slow-mcq-21": "「供速度較慢車輛行駛的車道」是「slow lane」的用法，與本句語境不同。",
-        "slow-mcq-18": "「移動或進展速度較低的」是「slow-moving」的用法，與本句語境不同。",
-        "slow-mcq-22": "「某項服務、流程或交通沒有以正常預期速度進行」是「8. slow = delayed / behind schedule（服務／交通） — 延誤的；進展慢的」的用法，與本句語境不同。",
-        "slow-mcq-17": "「速度、活動量、增長率或生產程度下降」是「slowdown」的用法，與本句語境不同。"
+        "slow-mcq-20": "本句的「slow motion」指「把動作以低於實際速度的方式播放／呈現」。",
+        "slow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-20"
     },
@@ -1916,11 +1718,8 @@ export default {
       "masked": "The camera can record in ____ motion.",
       "options": [
         "slow-mcq-20",
-        "slow-mcq-19",
-        "slow-mcq-21",
-        "slow-mcq-18",
-        "slow-mcq-22",
-        "slow-mcq-17"
+        "slow-mcq-05",
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「把動作以低於實際速度的方式播放／呈現」。",
       "sentenceIndex": 46,
@@ -1929,12 +1728,9 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-20": "本句指「把動作以低於實際速度的方式播放／呈現」。",
-        "slow-mcq-19": "「生活、工作或敘事節奏較緩慢的」是「slow-paced」的用法，與本句語境不同。",
-        "slow-mcq-21": "「供速度較慢車輛行駛的車道」是「slow lane」的用法，與本句語境不同。",
-        "slow-mcq-18": "「移動或進展速度較低的」是「slow-moving」的用法，與本句語境不同。",
-        "slow-mcq-22": "「某項服務、流程或交通沒有以正常預期速度進行」是「8. slow = delayed / behind schedule（服務／交通） — 延誤的；進展慢的」的用法，與本句語境不同。",
-        "slow-mcq-17": "「速度、活動量、增長率或生產程度下降」是「slowdown」的用法，與本句語境不同。"
+        "slow-mcq-20": "本句的「slow」指「把動作以低於實際速度的方式播放／呈現」。",
+        "slow-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-20"
     },
@@ -1946,11 +1742,9 @@ export default {
       "masked": "The truck stayed in the ____.",
       "options": [
         "slow-mcq-21",
-        "slow-mcq-20",
-        "slow-mcq-22",
-        "slow-mcq-19",
-        "slow-mcq-23",
-        "slow-mcq-18"
+        "slow-mcq-09",
+        "slow-mcq-04",
+        "slow-mcq-23"
       ],
       "explanation": "本句的「slow lane」指「供速度較慢車輛行駛的車道」。",
       "sentenceIndex": 47,
@@ -1959,12 +1753,10 @@ export default {
         "slow lane"
       ],
       "optionReasons": {
-        "slow-mcq-21": "本句指「供速度較慢車輛行駛的車道」。",
-        "slow-mcq-20": "「把動作以低於實際速度的方式播放／呈現」是「slow motion」的用法，與本句語境不同。",
-        "slow-mcq-22": "「某項服務、流程或交通沒有以正常預期速度進行」是「8. slow = delayed / behind schedule（服務／交通） — 延誤的；進展慢的」的用法，與本句語境不同。",
-        "slow-mcq-19": "「生活、工作或敘事節奏較緩慢的」是「slow-paced」的用法，與本句語境不同。",
-        "slow-mcq-23": "「slowly，主要見於口語、道路提示或固定表達」是「18. slow as an adverb（口語／標示） — 慢慢地；減速」的用法，與本句語境不同。",
-        "slow-mcq-18": "「移動或進展速度較低的」是「slow-moving」的用法，與本句語境不同。"
+        "slow-mcq-21": "本句的「slow lane」指「供速度較慢車輛行駛的車道」。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-21"
     },
@@ -1976,11 +1768,9 @@ export default {
       "masked": "Move into the ____ lane if you are driving more slowly.",
       "options": [
         "slow-mcq-21",
-        "slow-mcq-20",
-        "slow-mcq-22",
-        "slow-mcq-19",
+        "slow-mcq-09",
         "slow-mcq-23",
-        "slow-mcq-18"
+        "slow-mcq-04"
       ],
       "explanation": "本句的「slow」指「供速度較慢車輛行駛的車道」。",
       "sentenceIndex": 48,
@@ -1989,12 +1779,10 @@ export default {
         "slow"
       ],
       "optionReasons": {
-        "slow-mcq-21": "本句指「供速度較慢車輛行駛的車道」。",
-        "slow-mcq-20": "「把動作以低於實際速度的方式播放／呈現」是「slow motion」的用法，與本句語境不同。",
-        "slow-mcq-22": "「某項服務、流程或交通沒有以正常預期速度進行」是「8. slow = delayed / behind schedule（服務／交通） — 延誤的；進展慢的」的用法，與本句語境不同。",
-        "slow-mcq-19": "「生活、工作或敘事節奏較緩慢的」是「slow-paced」的用法，與本句語境不同。",
-        "slow-mcq-23": "「slowly，主要見於口語、道路提示或固定表達」是「18. slow as an adverb（口語／標示） — 慢慢地；減速」的用法，與本句語境不同。",
-        "slow-mcq-18": "「移動或進展速度較低的」是「slow-moving」的用法，與本句語境不同。"
+        "slow-mcq-21": "本句的「slow」指「供速度較慢車輛行駛的車道」。",
+        "slow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slow-mcq-21"
     }
@@ -2006,5 +1794,7 @@ export default {
     "sha256": "90637a4ee63c2b060d9f8010e03004d005202c728f9a52d26ac243f19a9318ee",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

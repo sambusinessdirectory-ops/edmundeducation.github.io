@@ -557,11 +557,9 @@ export default {
       "masked": "The police ____ after a long search.",
       "options": [
         "capture-mcq-01",
-        "capture-mcq-02",
-        "capture-mcq-03",
-        "capture-mcq-04",
-        "capture-mcq-05",
-        "capture-mcq-06"
+        "capture-mcq-16",
+        "capture-mcq-11",
+        "capture-mcq-04"
       ],
       "explanation": "本句的「captured the suspect」指「抓獲；俘虜」。",
       "sentenceIndex": 0,
@@ -570,12 +568,10 @@ export default {
         "captured the suspect"
       ],
       "optionReasons": {
-        "capture-mcq-01": "本句指「抓獲；俘虜」。",
-        "capture-mcq-02": "「捕捉」與本句語境不同。",
-        "capture-mcq-03": "「攻佔」與本句語境不同。",
-        "capture-mcq-04": "「拍下；攝取」與本句語境不同。",
-        "capture-mcq-05": "「被鏡頭拍到」與本句語境不同。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。"
+        "capture-mcq-01": "本句的「captured the suspect」指「抓獲；俘虜」。",
+        "capture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-01"
     },
@@ -587,11 +583,9 @@ export default {
       "masked": "The animal was ____ and later released.",
       "options": [
         "capture-mcq-01",
-        "capture-mcq-02",
-        "capture-mcq-03",
-        "capture-mcq-04",
-        "capture-mcq-05",
-        "capture-mcq-06"
+        "capture-mcq-24",
+        "capture-mcq-19",
+        "capture-mcq-23"
       ],
       "explanation": "本句的「captured」指「抓獲；俘虜」。",
       "sentenceIndex": 1,
@@ -600,12 +594,10 @@ export default {
         "captured"
       ],
       "optionReasons": {
-        "capture-mcq-01": "本句指「抓獲；俘虜」。",
-        "capture-mcq-02": "「捕捉」與本句語境不同。",
-        "capture-mcq-03": "「攻佔」與本句語境不同。",
-        "capture-mcq-04": "「拍下；攝取」與本句語境不同。",
-        "capture-mcq-05": "「被鏡頭拍到」與本句語境不同。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。"
+        "capture-mcq-01": "本句的「captured」指「抓獲；俘虜」。",
+        "capture-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-01"
     },
@@ -617,11 +609,9 @@ export default {
       "masked": "Several soldiers were ____ during the battle.",
       "options": [
         "capture-mcq-01",
-        "capture-mcq-02",
-        "capture-mcq-03",
         "capture-mcq-04",
-        "capture-mcq-05",
-        "capture-mcq-06"
+        "capture-mcq-11",
+        "capture-mcq-15"
       ],
       "explanation": "本句的「captured」指「抓獲；俘虜」。",
       "sentenceIndex": 2,
@@ -630,12 +620,10 @@ export default {
         "captured"
       ],
       "optionReasons": {
-        "capture-mcq-01": "本句指「抓獲；俘虜」。",
-        "capture-mcq-02": "「捕捉」與本句語境不同。",
-        "capture-mcq-03": "「攻佔」與本句語境不同。",
-        "capture-mcq-04": "「拍下；攝取」與本句語境不同。",
-        "capture-mcq-05": "「被鏡頭拍到」與本句語境不同。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。"
+        "capture-mcq-01": "本句的「captured」指「抓獲；俘虜」。",
+        "capture-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-01"
     },
@@ -647,11 +635,9 @@ export default {
       "masked": "The army ____ after several days of fighting.",
       "options": [
         "capture-mcq-03",
-        "capture-mcq-02",
-        "capture-mcq-04",
+        "capture-mcq-20",
         "capture-mcq-01",
-        "capture-mcq-05",
-        "capture-mcq-06"
+        "capture-mcq-24"
       ],
       "explanation": "本句的「captured the city」指「攻佔」。",
       "sentenceIndex": 3,
@@ -660,12 +646,10 @@ export default {
         "captured the city"
       ],
       "optionReasons": {
-        "capture-mcq-03": "本句指「攻佔」。",
-        "capture-mcq-02": "「捕捉」與本句語境不同。",
-        "capture-mcq-04": "「拍下；攝取」與本句語境不同。",
-        "capture-mcq-01": "「抓獲；俘虜」與本句語境不同。",
-        "capture-mcq-05": "「被鏡頭拍到」與本句語境不同。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。"
+        "capture-mcq-03": "本句的「captured the city」指「攻佔」。",
+        "capture-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-03"
     },
@@ -677,11 +661,9 @@ export default {
       "masked": "They attempted to ____.",
       "options": [
         "capture-mcq-03",
-        "capture-mcq-02",
-        "capture-mcq-04",
-        "capture-mcq-01",
-        "capture-mcq-05",
-        "capture-mcq-06"
+        "capture-mcq-19",
+        "capture-mcq-12",
+        "capture-mcq-22"
       ],
       "explanation": "本句的「capture the territory」指「攻佔」。",
       "sentenceIndex": 4,
@@ -690,12 +672,10 @@ export default {
         "capture the territory"
       ],
       "optionReasons": {
-        "capture-mcq-03": "本句指「攻佔」。",
-        "capture-mcq-02": "「捕捉」與本句語境不同。",
-        "capture-mcq-04": "「拍下；攝取」與本句語境不同。",
-        "capture-mcq-01": "「抓獲；俘虜」與本句語境不同。",
-        "capture-mcq-05": "「被鏡頭拍到」與本句語境不同。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。"
+        "capture-mcq-03": "本句的「capture the territory」指「攻佔」。",
+        "capture-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-03"
     },
@@ -707,11 +687,9 @@ export default {
       "masked": "The camera ____ of the sunset.",
       "options": [
         "capture-mcq-04",
-        "capture-mcq-03",
-        "capture-mcq-05",
-        "capture-mcq-02",
+        "capture-mcq-11",
         "capture-mcq-06",
-        "capture-mcq-01"
+        "capture-mcq-23"
       ],
       "explanation": "本句的「captured a beautiful image」指「拍下；攝取」。",
       "sentenceIndex": 5,
@@ -720,12 +698,10 @@ export default {
         "captured a beautiful image"
       ],
       "optionReasons": {
-        "capture-mcq-04": "本句指「拍下；攝取」。",
-        "capture-mcq-03": "「攻佔」與本句語境不同。",
-        "capture-mcq-05": "「被鏡頭拍到」與本句語境不同。",
-        "capture-mcq-02": "「捕捉」與本句語境不同。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。",
-        "capture-mcq-01": "「抓獲；俘虜」與本句語境不同。"
+        "capture-mcq-04": "本句的「captured a beautiful image」指「拍下；攝取」。",
+        "capture-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-04"
     },
@@ -737,11 +713,9 @@ export default {
       "masked": "The photographer ____ perfectly.",
       "options": [
         "capture-mcq-04",
-        "capture-mcq-03",
-        "capture-mcq-05",
-        "capture-mcq-02",
         "capture-mcq-06",
-        "capture-mcq-01"
+        "capture-mcq-17",
+        "capture-mcq-16"
       ],
       "explanation": "本句的「captured the moment」指「拍下；攝取」。",
       "sentenceIndex": 6,
@@ -750,12 +724,10 @@ export default {
         "captured the moment"
       ],
       "optionReasons": {
-        "capture-mcq-04": "本句指「拍下；攝取」。",
-        "capture-mcq-03": "「攻佔」與本句語境不同。",
-        "capture-mcq-05": "「被鏡頭拍到」與本句語境不同。",
-        "capture-mcq-02": "「捕捉」與本句語境不同。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。",
-        "capture-mcq-01": "「抓獲；俘虜」與本句語境不同。"
+        "capture-mcq-04": "本句的「captured the moment」指「拍下；攝取」。",
+        "capture-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-04"
     },
@@ -767,11 +739,9 @@ export default {
       "masked": "The incident was ____.",
       "options": [
         "capture-mcq-05",
-        "capture-mcq-04",
-        "capture-mcq-06",
-        "capture-mcq-03",
-        "capture-mcq-07",
-        "capture-mcq-02"
+        "capture-mcq-15",
+        "capture-mcq-16",
+        "capture-mcq-07"
       ],
       "explanation": "本句的「captured on camera」指「被鏡頭拍到」。",
       "sentenceIndex": 7,
@@ -780,12 +750,10 @@ export default {
         "captured on camera"
       ],
       "optionReasons": {
-        "capture-mcq-05": "本句指「被鏡頭拍到」。",
-        "capture-mcq-04": "「拍下；攝取」與本句語境不同。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。",
-        "capture-mcq-03": "「攻佔」與本句語境不同。",
-        "capture-mcq-07": "「留住回憶」與本句語境不同。",
-        "capture-mcq-02": "「捕捉」與本句語境不同。"
+        "capture-mcq-05": "本句的「captured on camera」指「被鏡頭拍到」。",
+        "capture-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-05"
     },
@@ -797,11 +765,9 @@ export default {
       "masked": "Her reaction was ____.",
       "options": [
         "capture-mcq-05",
-        "capture-mcq-04",
-        "capture-mcq-06",
-        "capture-mcq-03",
-        "capture-mcq-07",
-        "capture-mcq-02"
+        "capture-mcq-14",
+        "capture-mcq-17",
+        "capture-mcq-01"
       ],
       "explanation": "本句的「captured on video」指「被鏡頭拍到」。",
       "sentenceIndex": 8,
@@ -810,12 +776,10 @@ export default {
         "captured on video"
       ],
       "optionReasons": {
-        "capture-mcq-05": "本句指「被鏡頭拍到」。",
-        "capture-mcq-04": "「拍下；攝取」與本句語境不同。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。",
-        "capture-mcq-03": "「攻佔」與本句語境不同。",
-        "capture-mcq-07": "「留住回憶」與本句語境不同。",
-        "capture-mcq-02": "「捕捉」與本句語境不同。"
+        "capture-mcq-05": "本句的「captured on video」指「被鏡頭拍到」。",
+        "capture-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-05"
     },
@@ -827,11 +791,9 @@ export default {
       "masked": "The album ____ from family life.",
       "options": [
         "capture-mcq-06",
+        "capture-mcq-17",
         "capture-mcq-05",
-        "capture-mcq-07",
-        "capture-mcq-04",
-        "capture-mcq-08",
-        "capture-mcq-03"
+        "capture-mcq-18"
       ],
       "explanation": "本句的「captured small moments」指「捕捉／留住一刻」。",
       "sentenceIndex": 9,
@@ -840,12 +802,10 @@ export default {
         "captured small moments"
       ],
       "optionReasons": {
-        "capture-mcq-06": "本句指「捕捉／留住一刻」。",
-        "capture-mcq-05": "「被鏡頭拍到」與本句語境不同。",
-        "capture-mcq-07": "「留住回憶」與本句語境不同。",
-        "capture-mcq-04": "「拍下；攝取」與本句語境不同。",
-        "capture-mcq-08": "「捕捉氣氛」與本句語境不同。",
-        "capture-mcq-03": "「攻佔」與本句語境不同。"
+        "capture-mcq-06": "本句的「captured small moments」指「捕捉／留住一刻」。",
+        "capture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-06"
     },
@@ -857,11 +817,9 @@ export default {
       "masked": "The photograph ____ between mother and daughter.",
       "options": [
         "capture-mcq-06",
+        "capture-mcq-23",
         "capture-mcq-05",
-        "capture-mcq-07",
-        "capture-mcq-04",
-        "capture-mcq-08",
-        "capture-mcq-03"
+        "capture-mcq-22"
       ],
       "explanation": "本句的「captures a quiet moment」指「捕捉／留住一刻」。",
       "sentenceIndex": 10,
@@ -870,12 +828,10 @@ export default {
         "captures a quiet moment"
       ],
       "optionReasons": {
-        "capture-mcq-06": "本句指「捕捉／留住一刻」。",
-        "capture-mcq-05": "「被鏡頭拍到」與本句語境不同。",
-        "capture-mcq-07": "「留住回憶」與本句語境不同。",
-        "capture-mcq-04": "「拍下；攝取」與本句語境不同。",
-        "capture-mcq-08": "「捕捉氣氛」與本句語境不同。",
-        "capture-mcq-03": "「攻佔」與本句語境不同。"
+        "capture-mcq-06": "本句的「captures a quiet moment」指「捕捉／留住一刻」。",
+        "capture-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-06"
     },
@@ -887,11 +843,9 @@ export default {
       "masked": "The scrapbook helped ____ from our childhood.",
       "options": [
         "capture-mcq-07",
-        "capture-mcq-06",
-        "capture-mcq-08",
-        "capture-mcq-05",
-        "capture-mcq-09",
-        "capture-mcq-04"
+        "capture-mcq-22",
+        "capture-mcq-13",
+        "capture-mcq-21"
       ],
       "explanation": "本句的「capture memories」指「留住回憶」。",
       "sentenceIndex": 11,
@@ -900,12 +854,10 @@ export default {
         "capture memories"
       ],
       "optionReasons": {
-        "capture-mcq-07": "本句指「留住回憶」。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。",
-        "capture-mcq-08": "「捕捉氣氛」與本句語境不同。",
-        "capture-mcq-05": "「被鏡頭拍到」與本句語境不同。",
-        "capture-mcq-09": "「抓住精髓」與本句語境不同。",
-        "capture-mcq-04": "「拍下；攝取」與本句語境不同。"
+        "capture-mcq-07": "本句的「capture memories」指「留住回憶」。",
+        "capture-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-07"
     },
@@ -917,11 +869,9 @@ export default {
       "masked": "Photos can ____ that might otherwise fade.",
       "options": [
         "capture-mcq-07",
-        "capture-mcq-06",
-        "capture-mcq-08",
-        "capture-mcq-05",
-        "capture-mcq-09",
-        "capture-mcq-04"
+        "capture-mcq-03",
+        "capture-mcq-10",
+        "capture-mcq-15"
       ],
       "explanation": "本句的「capture memories」指「留住回憶」。",
       "sentenceIndex": 12,
@@ -930,12 +880,10 @@ export default {
         "capture memories"
       ],
       "optionReasons": {
-        "capture-mcq-07": "本句指「留住回憶」。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。",
-        "capture-mcq-08": "「捕捉氣氛」與本句語境不同。",
-        "capture-mcq-05": "「被鏡頭拍到」與本句語境不同。",
-        "capture-mcq-09": "「抓住精髓」與本句語境不同。",
-        "capture-mcq-04": "「拍下；攝取」與本句語境不同。"
+        "capture-mcq-07": "本句的「capture memories」指「留住回憶」。",
+        "capture-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-07"
     },
@@ -947,11 +895,9 @@ export default {
       "masked": "The painting ____ of the city at night.",
       "options": [
         "capture-mcq-08",
-        "capture-mcq-07",
-        "capture-mcq-09",
-        "capture-mcq-06",
-        "capture-mcq-10",
-        "capture-mcq-05"
+        "capture-mcq-17",
+        "capture-mcq-18",
+        "capture-mcq-24"
       ],
       "explanation": "本句的「captures the mood」指「捕捉氣氛」。",
       "sentenceIndex": 13,
@@ -960,12 +906,10 @@ export default {
         "captures the mood"
       ],
       "optionReasons": {
-        "capture-mcq-08": "本句指「捕捉氣氛」。",
-        "capture-mcq-07": "「留住回憶」與本句語境不同。",
-        "capture-mcq-09": "「抓住精髓」與本句語境不同。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。",
-        "capture-mcq-10": "「吸引注意」與本句語境不同。",
-        "capture-mcq-05": "「被鏡頭拍到」與本句語境不同。"
+        "capture-mcq-08": "本句的「captures the mood」指「捕捉氣氛」。",
+        "capture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-08"
     },
@@ -977,11 +921,9 @@ export default {
       "masked": "The music perfectly ____ of the scene.",
       "options": [
         "capture-mcq-08",
-        "capture-mcq-07",
-        "capture-mcq-09",
-        "capture-mcq-06",
-        "capture-mcq-10",
-        "capture-mcq-05"
+        "capture-mcq-23",
+        "capture-mcq-16",
+        "capture-mcq-24"
       ],
       "explanation": "本句的「captures the atmosphere」指「捕捉氣氛」。",
       "sentenceIndex": 14,
@@ -990,12 +932,10 @@ export default {
         "captures the atmosphere"
       ],
       "optionReasons": {
-        "capture-mcq-08": "本句指「捕捉氣氛」。",
-        "capture-mcq-07": "「留住回憶」與本句語境不同。",
-        "capture-mcq-09": "「抓住精髓」與本句語境不同。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。",
-        "capture-mcq-10": "「吸引注意」與本句語境不同。",
-        "capture-mcq-05": "「被鏡頭拍到」與本句語境不同。"
+        "capture-mcq-08": "本句的「captures the atmosphere」指「捕捉氣氛」。",
+        "capture-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-08"
     },
@@ -1007,11 +947,9 @@ export default {
       "masked": "The short film ____.",
       "options": [
         "capture-mcq-09",
-        "capture-mcq-08",
-        "capture-mcq-10",
-        "capture-mcq-07",
-        "capture-mcq-11",
-        "capture-mcq-06"
+        "capture-mcq-16",
+        "capture-mcq-24",
+        "capture-mcq-12"
       ],
       "explanation": "本句的「captures the essence of village life」指「抓住精髓」。",
       "sentenceIndex": 15,
@@ -1020,12 +958,10 @@ export default {
         "captures the essence of village life"
       ],
       "optionReasons": {
-        "capture-mcq-09": "本句指「抓住精髓」。",
-        "capture-mcq-08": "「捕捉氣氛」與本句語境不同。",
-        "capture-mcq-10": "「吸引注意」與本句語境不同。",
-        "capture-mcq-07": "「留住回憶」與本句語境不同。",
-        "capture-mcq-11": "「激發想像」與本句語境不同。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。"
+        "capture-mcq-09": "本句的「captures the essence of village life」指「抓住精髓」。",
+        "capture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-09"
     },
@@ -1037,11 +973,9 @@ export default {
       "masked": "Her description ____.",
       "options": [
         "capture-mcq-09",
-        "capture-mcq-08",
-        "capture-mcq-10",
-        "capture-mcq-07",
-        "capture-mcq-11",
-        "capture-mcq-06"
+        "capture-mcq-12",
+        "capture-mcq-23",
+        "capture-mcq-05"
       ],
       "explanation": "本句的「captured the essence of the problem」指「抓住精髓」。",
       "sentenceIndex": 16,
@@ -1050,12 +984,10 @@ export default {
         "captured the essence of the problem"
       ],
       "optionReasons": {
-        "capture-mcq-09": "本句指「抓住精髓」。",
-        "capture-mcq-08": "「捕捉氣氛」與本句語境不同。",
-        "capture-mcq-10": "「吸引注意」與本句語境不同。",
-        "capture-mcq-07": "「留住回憶」與本句語境不同。",
-        "capture-mcq-11": "「激發想像」與本句語境不同。",
-        "capture-mcq-06": "「捕捉／留住一刻」與本句語境不同。"
+        "capture-mcq-09": "本句的「captured the essence of the problem」指「抓住精髓」。",
+        "capture-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-09"
     },
@@ -1067,11 +999,9 @@ export default {
       "masked": "The bright display ____.",
       "options": [
         "capture-mcq-10",
-        "capture-mcq-09",
-        "capture-mcq-11",
-        "capture-mcq-08",
-        "capture-mcq-12",
-        "capture-mcq-07"
+        "capture-mcq-01",
+        "capture-mcq-24",
+        "capture-mcq-20"
       ],
       "explanation": "本句的「captured my attention」指「吸引注意」。",
       "sentenceIndex": 17,
@@ -1080,12 +1010,10 @@ export default {
         "captured my attention"
       ],
       "optionReasons": {
-        "capture-mcq-10": "本句指「吸引注意」。",
-        "capture-mcq-09": "「抓住精髓」與本句語境不同。",
-        "capture-mcq-11": "「激發想像」與本句語境不同。",
-        "capture-mcq-08": "「捕捉氣氛」與本句語境不同。",
-        "capture-mcq-12": "「擷取資料」與本句語境不同。",
-        "capture-mcq-07": "「留住回憶」與本句語境不同。"
+        "capture-mcq-10": "本句的「captured my attention」指「吸引注意」。",
+        "capture-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-10"
     },
@@ -1097,11 +1025,9 @@ export default {
       "masked": "The speaker immediately ____.",
       "options": [
         "capture-mcq-10",
-        "capture-mcq-09",
-        "capture-mcq-11",
-        "capture-mcq-08",
-        "capture-mcq-12",
-        "capture-mcq-07"
+        "capture-mcq-23",
+        "capture-mcq-01",
+        "capture-mcq-04"
       ],
       "explanation": "本句的「captured the audience's attention」指「吸引注意」。",
       "sentenceIndex": 18,
@@ -1110,12 +1036,10 @@ export default {
         "captured the audience's attention"
       ],
       "optionReasons": {
-        "capture-mcq-10": "本句指「吸引注意」。",
-        "capture-mcq-09": "「抓住精髓」與本句語境不同。",
-        "capture-mcq-11": "「激發想像」與本句語境不同。",
-        "capture-mcq-08": "「捕捉氣氛」與本句語境不同。",
-        "capture-mcq-12": "「擷取資料」與本句語境不同。",
-        "capture-mcq-07": "「留住回憶」與本句語境不同。"
+        "capture-mcq-10": "本句的「captured the audience's attention」指「吸引注意」。",
+        "capture-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-10"
     },
@@ -1127,11 +1051,9 @@ export default {
       "masked": "The story ____ of children around the world.",
       "options": [
         "capture-mcq-11",
-        "capture-mcq-10",
-        "capture-mcq-12",
-        "capture-mcq-09",
         "capture-mcq-13",
-        "capture-mcq-08"
+        "capture-mcq-23",
+        "capture-mcq-22"
       ],
       "explanation": "本句的「captured the imagination」指「激發想像」。",
       "sentenceIndex": 19,
@@ -1140,12 +1062,10 @@ export default {
         "captured the imagination"
       ],
       "optionReasons": {
-        "capture-mcq-11": "本句指「激發想像」。",
-        "capture-mcq-10": "「吸引注意」與本句語境不同。",
-        "capture-mcq-12": "「擷取資料」與本句語境不同。",
-        "capture-mcq-09": "「抓住精髓」與本句語境不同。",
-        "capture-mcq-13": "「資料擷取」與本句語境不同。",
-        "capture-mcq-08": "「捕捉氣氛」與本句語境不同。"
+        "capture-mcq-11": "本句的「captured the imagination」指「激發想像」。",
+        "capture-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-11"
     },
@@ -1158,10 +1078,8 @@ export default {
       "options": [
         "capture-mcq-11",
         "capture-mcq-10",
-        "capture-mcq-12",
-        "capture-mcq-09",
-        "capture-mcq-13",
-        "capture-mcq-08"
+        "capture-mcq-19",
+        "capture-mcq-18"
       ],
       "explanation": "本句的「captured the public imagination」指「激發想像」。",
       "sentenceIndex": 20,
@@ -1170,12 +1088,10 @@ export default {
         "captured the public imagination"
       ],
       "optionReasons": {
-        "capture-mcq-11": "本句指「激發想像」。",
-        "capture-mcq-10": "「吸引注意」與本句語境不同。",
-        "capture-mcq-12": "「擷取資料」與本句語境不同。",
-        "capture-mcq-09": "「抓住精髓」與本句語境不同。",
-        "capture-mcq-13": "「資料擷取」與本句語境不同。",
-        "capture-mcq-08": "「捕捉氣氛」與本句語境不同。"
+        "capture-mcq-11": "本句的「captured the public imagination」指「激發想像」。",
+        "capture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-11"
     },
@@ -1188,9 +1104,7 @@ export default {
       "options": [
         "capture-mcq-12",
         "capture-mcq-11",
-        "capture-mcq-13",
-        "capture-mcq-10",
-        "capture-mcq-14",
+        "capture-mcq-19",
         "capture-mcq-09"
       ],
       "explanation": "本句的「captures customer data」指「擷取資料」。",
@@ -1200,12 +1114,10 @@ export default {
         "captures customer data"
       ],
       "optionReasons": {
-        "capture-mcq-12": "本句指「擷取資料」。",
-        "capture-mcq-11": "「激發想像」與本句語境不同。",
-        "capture-mcq-13": "「資料擷取」與本句語境不同。",
-        "capture-mcq-10": "「吸引注意」與本句語境不同。",
-        "capture-mcq-14": "「螢幕擷取／截圖」與本句語境不同。",
-        "capture-mcq-09": "「抓住精髓」與本句語境不同。"
+        "capture-mcq-12": "本句的「captures customer data」指「擷取資料」。",
+        "capture-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-12"
     },
@@ -1217,11 +1129,9 @@ export default {
       "masked": "Sensors ____ about temperature and movement.",
       "options": [
         "capture-mcq-12",
-        "capture-mcq-11",
-        "capture-mcq-13",
         "capture-mcq-10",
-        "capture-mcq-14",
-        "capture-mcq-09"
+        "capture-mcq-03",
+        "capture-mcq-08"
       ],
       "explanation": "本句的「capture information」指「擷取資料」。",
       "sentenceIndex": 24,
@@ -1230,12 +1140,10 @@ export default {
         "capture information"
       ],
       "optionReasons": {
-        "capture-mcq-12": "本句指「擷取資料」。",
-        "capture-mcq-11": "「激發想像」與本句語境不同。",
-        "capture-mcq-13": "「資料擷取」與本句語境不同。",
-        "capture-mcq-10": "「吸引注意」與本句語境不同。",
-        "capture-mcq-14": "「螢幕擷取／截圖」與本句語境不同。",
-        "capture-mcq-09": "「抓住精髓」與本句語境不同。"
+        "capture-mcq-12": "本句的「capture information」指「擷取資料」。",
+        "capture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-12"
     },
@@ -1247,11 +1155,9 @@ export default {
       "masked": "The company improved its ____ process.",
       "options": [
         "capture-mcq-13",
-        "capture-mcq-12",
-        "capture-mcq-14",
-        "capture-mcq-11",
-        "capture-mcq-15",
-        "capture-mcq-10"
+        "capture-mcq-19",
+        "capture-mcq-10",
+        "capture-mcq-22"
       ],
       "explanation": "本句的「data capture」指「資料擷取」。",
       "sentenceIndex": 25,
@@ -1260,12 +1166,10 @@ export default {
         "data capture"
       ],
       "optionReasons": {
-        "capture-mcq-13": "本句指「資料擷取」。",
-        "capture-mcq-12": "「擷取資料」與本句語境不同。",
-        "capture-mcq-14": "「螢幕擷取／截圖」與本句語境不同。",
-        "capture-mcq-11": "「激發想像」與本句語境不同。",
-        "capture-mcq-15": "「動作捕捉」與本句語境不同。",
-        "capture-mcq-10": "「吸引注意」與本句語境不同。"
+        "capture-mcq-13": "本句的「data capture」指「資料擷取」。",
+        "capture-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-13"
     },
@@ -1277,11 +1181,9 @@ export default {
       "masked": "Automatic ____ reduces manual entry.",
       "options": [
         "capture-mcq-13",
-        "capture-mcq-12",
-        "capture-mcq-14",
-        "capture-mcq-11",
-        "capture-mcq-15",
-        "capture-mcq-10"
+        "capture-mcq-05",
+        "capture-mcq-16",
+        "capture-mcq-19"
       ],
       "explanation": "本句的「data capture」指「資料擷取」。",
       "sentenceIndex": 26,
@@ -1290,12 +1192,10 @@ export default {
         "data capture"
       ],
       "optionReasons": {
-        "capture-mcq-13": "本句指「資料擷取」。",
-        "capture-mcq-12": "「擷取資料」與本句語境不同。",
-        "capture-mcq-14": "「螢幕擷取／截圖」與本句語境不同。",
-        "capture-mcq-11": "「激發想像」與本句語境不同。",
-        "capture-mcq-15": "「動作捕捉」與本句語境不同。",
-        "capture-mcq-10": "「吸引注意」與本句語境不同。"
+        "capture-mcq-13": "本句的「data capture」指「資料擷取」。",
+        "capture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-13"
     },
@@ -1307,11 +1207,9 @@ export default {
       "masked": "I took a ____ of the error message.",
       "options": [
         "capture-mcq-14",
-        "capture-mcq-13",
-        "capture-mcq-15",
-        "capture-mcq-12",
-        "capture-mcq-16",
-        "capture-mcq-11"
+        "capture-mcq-09",
+        "capture-mcq-22",
+        "capture-mcq-16"
       ],
       "explanation": "本句的「screen capture」指「螢幕擷取／截圖」。",
       "sentenceIndex": 27,
@@ -1320,12 +1218,10 @@ export default {
         "screen capture"
       ],
       "optionReasons": {
-        "capture-mcq-14": "本句指「螢幕擷取／截圖」。",
-        "capture-mcq-13": "「資料擷取」與本句語境不同。",
-        "capture-mcq-15": "「動作捕捉」與本句語境不同。",
-        "capture-mcq-12": "「擷取資料」與本句語境不同。",
-        "capture-mcq-16": "「收錄聲音」與本句語境不同。",
-        "capture-mcq-11": "「激發想像」與本句語境不同。"
+        "capture-mcq-14": "本句的「screen capture」指「螢幕擷取／截圖」。",
+        "capture-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-14"
     },
@@ -1337,11 +1233,9 @@ export default {
       "masked": "The software supports video ____.",
       "options": [
         "capture-mcq-14",
-        "capture-mcq-13",
         "capture-mcq-15",
-        "capture-mcq-12",
-        "capture-mcq-16",
-        "capture-mcq-11"
+        "capture-mcq-17",
+        "capture-mcq-23"
       ],
       "explanation": "本句的「screen capture」指「螢幕擷取／截圖」。",
       "sentenceIndex": 28,
@@ -1350,12 +1244,10 @@ export default {
         "screen capture"
       ],
       "optionReasons": {
-        "capture-mcq-14": "本句指「螢幕擷取／截圖」。",
-        "capture-mcq-13": "「資料擷取」與本句語境不同。",
-        "capture-mcq-15": "「動作捕捉」與本句語境不同。",
-        "capture-mcq-12": "「擷取資料」與本句語境不同。",
-        "capture-mcq-16": "「收錄聲音」與本句語境不同。",
-        "capture-mcq-11": "「激發想像」與本句語境不同。"
+        "capture-mcq-14": "本句的「screen capture」指「螢幕擷取／截圖」。",
+        "capture-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-14"
     },
@@ -1367,11 +1259,9 @@ export default {
       "masked": "The actors wore suits for ____.",
       "options": [
         "capture-mcq-15",
-        "capture-mcq-14",
-        "capture-mcq-16",
-        "capture-mcq-13",
-        "capture-mcq-17",
-        "capture-mcq-12"
+        "capture-mcq-23",
+        "capture-mcq-10",
+        "capture-mcq-16"
       ],
       "explanation": "本句的「motion capture」指「動作捕捉」。",
       "sentenceIndex": 29,
@@ -1380,12 +1270,10 @@ export default {
         "motion capture"
       ],
       "optionReasons": {
-        "capture-mcq-15": "本句指「動作捕捉」。",
-        "capture-mcq-14": "「螢幕擷取／截圖」與本句語境不同。",
-        "capture-mcq-16": "「收錄聲音」與本句語境不同。",
-        "capture-mcq-13": "「資料擷取」與本句語境不同。",
-        "capture-mcq-17": "「搶佔市場份額」與本句語境不同。",
-        "capture-mcq-12": "「擷取資料」與本句語境不同。"
+        "capture-mcq-15": "本句的「motion capture」指「動作捕捉」。",
+        "capture-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-15"
     },
@@ -1398,10 +1286,8 @@ export default {
       "options": [
         "capture-mcq-15",
         "capture-mcq-14",
-        "capture-mcq-16",
-        "capture-mcq-13",
-        "capture-mcq-17",
-        "capture-mcq-12"
+        "capture-mcq-22",
+        "capture-mcq-05"
       ],
       "explanation": "本句的「Motion capture」指「動作捕捉」。",
       "sentenceIndex": 30,
@@ -1410,12 +1296,10 @@ export default {
         "Motion capture"
       ],
       "optionReasons": {
-        "capture-mcq-15": "本句指「動作捕捉」。",
-        "capture-mcq-14": "「螢幕擷取／截圖」與本句語境不同。",
-        "capture-mcq-16": "「收錄聲音」與本句語境不同。",
-        "capture-mcq-13": "「資料擷取」與本句語境不同。",
-        "capture-mcq-17": "「搶佔市場份額」與本句語境不同。",
-        "capture-mcq-12": "「擷取資料」與本句語境不同。"
+        "capture-mcq-15": "本句的「Motion capture」指「動作捕捉」。",
+        "capture-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-15"
     },
@@ -1427,11 +1311,9 @@ export default {
       "masked": "The microphone ____ very clearly.",
       "options": [
         "capture-mcq-16",
-        "capture-mcq-15",
-        "capture-mcq-17",
-        "capture-mcq-14",
+        "capture-mcq-03",
         "capture-mcq-18",
-        "capture-mcq-13"
+        "capture-mcq-06"
       ],
       "explanation": "本句的「captures sound」指「收錄聲音」。",
       "sentenceIndex": 31,
@@ -1440,12 +1322,10 @@ export default {
         "captures sound"
       ],
       "optionReasons": {
-        "capture-mcq-16": "本句指「收錄聲音」。",
-        "capture-mcq-15": "「動作捕捉」與本句語境不同。",
-        "capture-mcq-17": "「搶佔市場份額」與本句語境不同。",
-        "capture-mcq-14": "「螢幕擷取／截圖」與本句語境不同。",
-        "capture-mcq-18": "「取得價值」與本句語境不同。",
-        "capture-mcq-13": "「資料擷取」與本句語境不同。"
+        "capture-mcq-16": "本句的「captures sound」指「收錄聲音」。",
+        "capture-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-16"
     },
@@ -1457,11 +1337,9 @@ export default {
       "masked": "The recorder failed to ____.",
       "options": [
         "capture-mcq-16",
+        "capture-mcq-03",
         "capture-mcq-15",
-        "capture-mcq-17",
-        "capture-mcq-14",
-        "capture-mcq-18",
-        "capture-mcq-13"
+        "capture-mcq-24"
       ],
       "explanation": "本句的「capture the audio」指「收錄聲音」。",
       "sentenceIndex": 32,
@@ -1470,12 +1348,10 @@ export default {
         "capture the audio"
       ],
       "optionReasons": {
-        "capture-mcq-16": "本句指「收錄聲音」。",
-        "capture-mcq-15": "「動作捕捉」與本句語境不同。",
-        "capture-mcq-17": "「搶佔市場份額」與本句語境不同。",
-        "capture-mcq-14": "「螢幕擷取／截圖」與本句語境不同。",
-        "capture-mcq-18": "「取得價值」與本句語境不同。",
-        "capture-mcq-13": "「資料擷取」與本句語境不同。"
+        "capture-mcq-16": "本句的「capture the audio」指「收錄聲音」。",
+        "capture-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-16"
     },
@@ -1487,11 +1363,9 @@ export default {
       "masked": "The company hopes to ____.",
       "options": [
         "capture-mcq-17",
-        "capture-mcq-16",
         "capture-mcq-18",
-        "capture-mcq-15",
-        "capture-mcq-19",
-        "capture-mcq-14"
+        "capture-mcq-24",
+        "capture-mcq-15"
       ],
       "explanation": "本句的「capture more market share」指「搶佔市場份額」。",
       "sentenceIndex": 33,
@@ -1500,12 +1374,10 @@ export default {
         "capture more market share"
       ],
       "optionReasons": {
-        "capture-mcq-17": "本句指「搶佔市場份額」。",
-        "capture-mcq-16": "「收錄聲音」與本句語境不同。",
-        "capture-mcq-18": "「取得價值」與本句語境不同。",
-        "capture-mcq-15": "「動作捕捉」與本句語境不同。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。",
-        "capture-mcq-14": "「螢幕擷取／截圖」與本句語境不同。"
+        "capture-mcq-17": "本句的「capture more market share」指「搶佔市場份額」。",
+        "capture-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-17"
     },
@@ -1517,11 +1389,9 @@ export default {
       "masked": "The new brand quickly ____.",
       "options": [
         "capture-mcq-17",
-        "capture-mcq-16",
-        "capture-mcq-18",
-        "capture-mcq-15",
-        "capture-mcq-19",
-        "capture-mcq-14"
+        "capture-mcq-24",
+        "capture-mcq-07",
+        "capture-mcq-13"
       ],
       "explanation": "本句的「captured a large share of the market」指「搶佔市場份額」。",
       "sentenceIndex": 34,
@@ -1530,12 +1400,10 @@ export default {
         "captured a large share of the market"
       ],
       "optionReasons": {
-        "capture-mcq-17": "本句指「搶佔市場份額」。",
-        "capture-mcq-16": "「收錄聲音」與本句語境不同。",
-        "capture-mcq-18": "「取得價值」與本句語境不同。",
-        "capture-mcq-15": "「動作捕捉」與本句語境不同。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。",
-        "capture-mcq-14": "「螢幕擷取／截圖」與本句語境不同。"
+        "capture-mcq-17": "本句的「captured a large share of the market」指「搶佔市場份額」。",
+        "capture-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-17"
     },
@@ -1547,11 +1415,9 @@ export default {
       "masked": "The company created value but failed to ____.",
       "options": [
         "capture-mcq-18",
-        "capture-mcq-17",
-        "capture-mcq-19",
         "capture-mcq-16",
-        "capture-mcq-20",
-        "capture-mcq-15"
+        "capture-mcq-08",
+        "capture-mcq-01"
       ],
       "explanation": "本句的「capture enough of it」指「取得價值」。",
       "sentenceIndex": 35,
@@ -1560,12 +1426,10 @@ export default {
         "capture enough of it"
       ],
       "optionReasons": {
-        "capture-mcq-18": "本句指「取得價值」。",
-        "capture-mcq-17": "「搶佔市場份額」與本句語境不同。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。",
-        "capture-mcq-16": "「收錄聲音」與本句語境不同。",
-        "capture-mcq-20": "「捕獲；擷取」與本句語境不同。",
-        "capture-mcq-15": "「動作捕捉」與本句語境不同。"
+        "capture-mcq-18": "本句的「capture enough of it」指「取得價值」。",
+        "capture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-18"
     },
@@ -1577,11 +1441,9 @@ export default {
       "masked": "A strong business model helps firms ____.",
       "options": [
         "capture-mcq-18",
-        "capture-mcq-17",
-        "capture-mcq-19",
-        "capture-mcq-16",
-        "capture-mcq-20",
-        "capture-mcq-15"
+        "capture-mcq-24",
+        "capture-mcq-03",
+        "capture-mcq-10"
       ],
       "explanation": "本句的「capture value」指「取得價值」。",
       "sentenceIndex": 36,
@@ -1590,12 +1452,10 @@ export default {
         "capture value"
       ],
       "optionReasons": {
-        "capture-mcq-18": "本句指「取得價值」。",
-        "capture-mcq-17": "「搶佔市場份額」與本句語境不同。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。",
-        "capture-mcq-16": "「收錄聲音」與本句語境不同。",
-        "capture-mcq-20": "「捕獲；擷取」與本句語境不同。",
-        "capture-mcq-15": "「動作捕捉」與本句語境不同。"
+        "capture-mcq-18": "本句的「capture value」指「取得價值」。",
+        "capture-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-18"
     },
@@ -1607,11 +1467,9 @@ export default {
       "masked": "The plant uses ____ technology.",
       "options": [
         "capture-mcq-19",
-        "capture-mcq-18",
-        "capture-mcq-20",
-        "capture-mcq-17",
-        "capture-mcq-21",
-        "capture-mcq-16"
+        "capture-mcq-10",
+        "capture-mcq-23",
+        "capture-mcq-22"
       ],
       "explanation": "本句的「carbon capture」指「碳捕集」。",
       "sentenceIndex": 37,
@@ -1620,12 +1478,10 @@ export default {
         "carbon capture"
       ],
       "optionReasons": {
-        "capture-mcq-19": "本句指「碳捕集」。",
-        "capture-mcq-18": "「取得價值」與本句語境不同。",
-        "capture-mcq-20": "「捕獲；擷取」與本句語境不同。",
-        "capture-mcq-17": "「搶佔市場份額」與本句語境不同。",
-        "capture-mcq-21": "「捕獲者」與本句語境不同。",
-        "capture-mcq-16": "「收錄聲音」與本句語境不同。"
+        "capture-mcq-19": "本句的「carbon capture」指「碳捕集」。",
+        "capture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-19"
     },
@@ -1637,11 +1493,9 @@ export default {
       "masked": "____ aims to prevent carbon dioxide from entering the atmosphere.",
       "options": [
         "capture-mcq-19",
-        "capture-mcq-18",
-        "capture-mcq-20",
-        "capture-mcq-17",
-        "capture-mcq-21",
-        "capture-mcq-16"
+        "capture-mcq-12",
+        "capture-mcq-05",
+        "capture-mcq-09"
       ],
       "explanation": "本句的「Carbon capture」指「碳捕集」。",
       "sentenceIndex": 38,
@@ -1650,12 +1504,10 @@ export default {
         "Carbon capture"
       ],
       "optionReasons": {
-        "capture-mcq-19": "本句指「碳捕集」。",
-        "capture-mcq-18": "「取得價值」與本句語境不同。",
-        "capture-mcq-20": "「捕獲；擷取」與本句語境不同。",
-        "capture-mcq-17": "「搶佔市場份額」與本句語境不同。",
-        "capture-mcq-21": "「捕獲者」與本句語境不同。",
-        "capture-mcq-16": "「收錄聲音」與本句語境不同。"
+        "capture-mcq-19": "本句的「Carbon capture」指「碳捕集」。",
+        "capture-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-19"
     },
@@ -1667,11 +1519,9 @@ export default {
       "masked": "The ____ of the suspect ended the search.",
       "options": [
         "capture-mcq-20",
-        "capture-mcq-19",
-        "capture-mcq-21",
-        "capture-mcq-18",
-        "capture-mcq-22",
-        "capture-mcq-17"
+        "capture-mcq-05",
+        "capture-mcq-11",
+        "capture-mcq-10"
       ],
       "explanation": "本句的「capture」指「捕獲；擷取」。",
       "sentenceIndex": 39,
@@ -1680,12 +1530,10 @@ export default {
         "capture"
       ],
       "optionReasons": {
-        "capture-mcq-20": "本句指「捕獲；擷取」。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。",
-        "capture-mcq-21": "「捕獲者」與本句語境不同。",
-        "capture-mcq-18": "「取得價值」與本句語境不同。",
-        "capture-mcq-22": "「俘虜；被囚禁的」與本句語境不同。",
-        "capture-mcq-17": "「搶佔市場份額」與本句語境不同。"
+        "capture-mcq-20": "本句的「capture」指「捕獲；擷取」。",
+        "capture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-20"
     },
@@ -1697,11 +1545,9 @@ export default {
       "masked": "The ____ changed the course of the war.",
       "options": [
         "capture-mcq-20",
-        "capture-mcq-19",
-        "capture-mcq-21",
-        "capture-mcq-18",
+        "capture-mcq-07",
         "capture-mcq-22",
-        "capture-mcq-17"
+        "capture-mcq-03"
       ],
       "explanation": "本句的「capture of the city」指「捕獲；擷取」。",
       "sentenceIndex": 40,
@@ -1710,12 +1556,10 @@ export default {
         "capture of the city"
       ],
       "optionReasons": {
-        "capture-mcq-20": "本句指「捕獲；擷取」。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。",
-        "capture-mcq-21": "「捕獲者」與本句語境不同。",
-        "capture-mcq-18": "「取得價值」與本句語境不同。",
-        "capture-mcq-22": "「俘虜；被囚禁的」與本句語境不同。",
-        "capture-mcq-17": "「搶佔市場份額」與本句語境不同。"
+        "capture-mcq-20": "本句的「capture of the city」指「捕獲；擷取」。",
+        "capture-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-20"
     },
@@ -1727,11 +1571,9 @@ export default {
       "masked": "The image ____ was completed successfully.",
       "options": [
         "capture-mcq-20",
-        "capture-mcq-19",
-        "capture-mcq-21",
-        "capture-mcq-18",
-        "capture-mcq-22",
-        "capture-mcq-17"
+        "capture-mcq-07",
+        "capture-mcq-17",
+        "capture-mcq-09"
       ],
       "explanation": "本句的「capture」指「捕獲；擷取」。",
       "sentenceIndex": 41,
@@ -1740,12 +1582,10 @@ export default {
         "capture"
       ],
       "optionReasons": {
-        "capture-mcq-20": "本句指「捕獲；擷取」。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。",
-        "capture-mcq-21": "「捕獲者」與本句語境不同。",
-        "capture-mcq-18": "「取得價值」與本句語境不同。",
-        "capture-mcq-22": "「俘虜；被囚禁的」與本句語境不同。",
-        "capture-mcq-17": "「搶佔市場份額」與本句語境不同。"
+        "capture-mcq-20": "本句的「capture」指「捕獲；擷取」。",
+        "capture-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-20"
     },
@@ -1757,11 +1597,9 @@ export default {
       "masked": "The device supports high-speed data ____.",
       "options": [
         "capture-mcq-20",
-        "capture-mcq-19",
-        "capture-mcq-21",
-        "capture-mcq-18",
-        "capture-mcq-22",
-        "capture-mcq-17"
+        "capture-mcq-05",
+        "capture-mcq-03",
+        "capture-mcq-11"
       ],
       "explanation": "本句的「capture」指「捕獲；擷取」。",
       "sentenceIndex": 42,
@@ -1770,12 +1608,10 @@ export default {
         "capture"
       ],
       "optionReasons": {
-        "capture-mcq-20": "本句指「捕獲；擷取」。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。",
-        "capture-mcq-21": "「捕獲者」與本句語境不同。",
-        "capture-mcq-18": "「取得價值」與本句語境不同。",
-        "capture-mcq-22": "「俘虜；被囚禁的」與本句語境不同。",
-        "capture-mcq-17": "「搶佔市場份額」與本句語境不同。"
+        "capture-mcq-20": "本句的「capture」指「捕獲；擷取」。",
+        "capture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-20"
     },
@@ -1787,11 +1623,9 @@ export default {
       "masked": "The prisoner escaped from his ____.",
       "options": [
         "capture-mcq-21",
-        "capture-mcq-20",
-        "capture-mcq-22",
-        "capture-mcq-19",
-        "capture-mcq-23",
-        "capture-mcq-18"
+        "capture-mcq-14",
+        "capture-mcq-09",
+        "capture-mcq-17"
       ],
       "explanation": "本句的「captors」指「捕獲者」。",
       "sentenceIndex": 43,
@@ -1800,12 +1634,10 @@ export default {
         "captors"
       ],
       "optionReasons": {
-        "capture-mcq-21": "本句指「捕獲者」。",
-        "capture-mcq-20": "「捕獲；擷取」與本句語境不同。",
-        "capture-mcq-22": "「俘虜；被囚禁的」與本句語境不同。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。",
-        "capture-mcq-23": "「固定／被迫接收的受眾」與本句語境不同。",
-        "capture-mcq-18": "「取得價值」與本句語境不同。"
+        "capture-mcq-21": "本句的「captors」指「捕獲者」。",
+        "capture-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-21"
     },
@@ -1817,11 +1649,9 @@ export default {
       "masked": "The ____ demanded money.",
       "options": [
         "capture-mcq-21",
-        "capture-mcq-20",
-        "capture-mcq-22",
-        "capture-mcq-19",
-        "capture-mcq-23",
-        "capture-mcq-18"
+        "capture-mcq-16",
+        "capture-mcq-09",
+        "capture-mcq-17"
       ],
       "explanation": "本句的「captors」指「捕獲者」。",
       "sentenceIndex": 44,
@@ -1830,12 +1660,10 @@ export default {
         "captors"
       ],
       "optionReasons": {
-        "capture-mcq-21": "本句指「捕獲者」。",
-        "capture-mcq-20": "「捕獲；擷取」與本句語境不同。",
-        "capture-mcq-22": "「俘虜；被囚禁的」與本句語境不同。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。",
-        "capture-mcq-23": "「固定／被迫接收的受眾」與本句語境不同。",
-        "capture-mcq-18": "「取得價值」與本句語境不同。"
+        "capture-mcq-21": "本句的「captors」指「捕獲者」。",
+        "capture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-21"
     },
@@ -1847,11 +1675,9 @@ export default {
       "masked": "The ____ were later released.",
       "options": [
         "capture-mcq-22",
-        "capture-mcq-21",
-        "capture-mcq-23",
-        "capture-mcq-20",
-        "capture-mcq-24",
-        "capture-mcq-19"
+        "capture-mcq-08",
+        "capture-mcq-05",
+        "capture-mcq-14"
       ],
       "explanation": "本句的「captives」指「俘虜；被囚禁的」。",
       "sentenceIndex": 45,
@@ -1860,12 +1686,10 @@ export default {
         "captives"
       ],
       "optionReasons": {
-        "capture-mcq-22": "本句指「俘虜；被囚禁的」。",
-        "capture-mcq-21": "「捕獲者」與本句語境不同。",
-        "capture-mcq-23": "「固定／被迫接收的受眾」與本句語境不同。",
-        "capture-mcq-20": "「捕獲；擷取」與本句語境不同。",
-        "capture-mcq-24": "「囚禁；圈養」與本句語境不同。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。"
+        "capture-mcq-22": "本句的「captives」指「俘虜；被囚禁的」。",
+        "capture-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-22"
     },
@@ -1877,11 +1701,9 @@ export default {
       "masked": "The soldiers took several ____.",
       "options": [
         "capture-mcq-22",
-        "capture-mcq-21",
-        "capture-mcq-23",
         "capture-mcq-20",
-        "capture-mcq-24",
-        "capture-mcq-19"
+        "capture-mcq-07",
+        "capture-mcq-09"
       ],
       "explanation": "本句的「captives」指「俘虜；被囚禁的」。",
       "sentenceIndex": 46,
@@ -1890,12 +1712,10 @@ export default {
         "captives"
       ],
       "optionReasons": {
-        "capture-mcq-22": "本句指「俘虜；被囚禁的」。",
-        "capture-mcq-21": "「捕獲者」與本句語境不同。",
-        "capture-mcq-23": "「固定／被迫接收的受眾」與本句語境不同。",
-        "capture-mcq-20": "「捕獲；擷取」與本句語境不同。",
-        "capture-mcq-24": "「囚禁；圈養」與本句語境不同。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。"
+        "capture-mcq-22": "本句的「captives」指「俘虜；被囚禁的」。",
+        "capture-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-22"
     },
@@ -1907,10 +1727,8 @@ export default {
       "masked": "The programme helps ____ return to the wild.",
       "options": [
         "capture-mcq-22",
-        "capture-mcq-21",
+        "capture-mcq-10",
         "capture-mcq-23",
-        "capture-mcq-20",
-        "capture-mcq-24",
         "capture-mcq-19"
       ],
       "explanation": "本句的「captive animals」指「俘虜；被囚禁的」。",
@@ -1920,12 +1738,10 @@ export default {
         "captive animals"
       ],
       "optionReasons": {
-        "capture-mcq-22": "本句指「俘虜；被囚禁的」。",
-        "capture-mcq-21": "「捕獲者」與本句語境不同。",
-        "capture-mcq-23": "「固定／被迫接收的受眾」與本句語境不同。",
-        "capture-mcq-20": "「捕獲；擷取」與本句語境不同。",
-        "capture-mcq-24": "「囚禁；圈養」與本句語境不同。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。"
+        "capture-mcq-22": "本句的「captive animals」指「俘虜；被囚禁的」。",
+        "capture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-22"
     },
@@ -1937,11 +1753,9 @@ export default {
       "masked": "He was held ____ for several months.",
       "options": [
         "capture-mcq-22",
-        "capture-mcq-21",
-        "capture-mcq-23",
-        "capture-mcq-20",
-        "capture-mcq-24",
-        "capture-mcq-19"
+        "capture-mcq-15",
+        "capture-mcq-03",
+        "capture-mcq-23"
       ],
       "explanation": "本句的「captive」指「俘虜；被囚禁的」。",
       "sentenceIndex": 48,
@@ -1950,12 +1764,10 @@ export default {
         "captive"
       ],
       "optionReasons": {
-        "capture-mcq-22": "本句指「俘虜；被囚禁的」。",
-        "capture-mcq-21": "「捕獲者」與本句語境不同。",
-        "capture-mcq-23": "「固定／被迫接收的受眾」與本句語境不同。",
-        "capture-mcq-20": "「捕獲；擷取」與本句語境不同。",
-        "capture-mcq-24": "「囚禁；圈養」與本句語境不同。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。"
+        "capture-mcq-22": "本句的「captive」指「俘虜；被囚禁的」。",
+        "capture-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-22"
     },
@@ -1967,11 +1779,9 @@ export default {
       "masked": "Commuters are a ____ for station advertising.",
       "options": [
         "capture-mcq-23",
+        "capture-mcq-10",
         "capture-mcq-22",
-        "capture-mcq-24",
-        "capture-mcq-21",
-        "capture-mcq-20",
-        "capture-mcq-19"
+        "capture-mcq-14"
       ],
       "explanation": "本句的「captive audience」指「固定／被迫接收的受眾」。",
       "sentenceIndex": 49,
@@ -1980,12 +1790,10 @@ export default {
         "captive audience"
       ],
       "optionReasons": {
-        "capture-mcq-23": "本句指「固定／被迫接收的受眾」。",
-        "capture-mcq-22": "「俘虜；被囚禁的」與本句語境不同。",
-        "capture-mcq-24": "「囚禁；圈養」與本句語境不同。",
-        "capture-mcq-21": "「捕獲者」與本句語境不同。",
-        "capture-mcq-20": "「捕獲；擷取」與本句語境不同。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。"
+        "capture-mcq-23": "本句的「captive audience」指「固定／被迫接收的受眾」。",
+        "capture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-23"
     },
@@ -1998,10 +1806,8 @@ export default {
       "options": [
         "capture-mcq-23",
         "capture-mcq-22",
-        "capture-mcq-24",
-        "capture-mcq-21",
-        "capture-mcq-20",
-        "capture-mcq-19"
+        "capture-mcq-17",
+        "capture-mcq-13"
       ],
       "explanation": "本句的「captive audience」指「固定／被迫接收的受眾」。",
       "sentenceIndex": 50,
@@ -2010,12 +1816,10 @@ export default {
         "captive audience"
       ],
       "optionReasons": {
-        "capture-mcq-23": "本句指「固定／被迫接收的受眾」。",
-        "capture-mcq-22": "「俘虜；被囚禁的」與本句語境不同。",
-        "capture-mcq-24": "「囚禁；圈養」與本句語境不同。",
-        "capture-mcq-21": "「捕獲者」與本句語境不同。",
-        "capture-mcq-20": "「捕獲；擷取」與本句語境不同。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。"
+        "capture-mcq-23": "本句的「captive audience」指「固定／被迫接收的受眾」。",
+        "capture-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-23"
     },
@@ -2027,11 +1831,9 @@ export default {
       "masked": "The animal spent years in ____.",
       "options": [
         "capture-mcq-24",
-        "capture-mcq-23",
-        "capture-mcq-22",
-        "capture-mcq-21",
         "capture-mcq-20",
-        "capture-mcq-19"
+        "capture-mcq-16",
+        "capture-mcq-03"
       ],
       "explanation": "本句的「captivity」指「囚禁；圈養」。",
       "sentenceIndex": 51,
@@ -2040,12 +1842,10 @@ export default {
         "captivity"
       ],
       "optionReasons": {
-        "capture-mcq-24": "本句指「囚禁；圈養」。",
-        "capture-mcq-23": "「固定／被迫接收的受眾」與本句語境不同。",
-        "capture-mcq-22": "「俘虜；被囚禁的」與本句語境不同。",
-        "capture-mcq-21": "「捕獲者」與本句語境不同。",
-        "capture-mcq-20": "「捕獲；擷取」與本句語境不同。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。"
+        "capture-mcq-24": "本句的「captivity」指「囚禁；圈養」。",
+        "capture-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-24"
     },
@@ -2057,11 +1857,9 @@ export default {
       "masked": "He wrote about his time in ____.",
       "options": [
         "capture-mcq-24",
-        "capture-mcq-23",
-        "capture-mcq-22",
-        "capture-mcq-21",
-        "capture-mcq-20",
-        "capture-mcq-19"
+        "capture-mcq-10",
+        "capture-mcq-18",
+        "capture-mcq-03"
       ],
       "explanation": "本句的「captivity」指「囚禁；圈養」。",
       "sentenceIndex": 52,
@@ -2070,12 +1868,10 @@ export default {
         "captivity"
       ],
       "optionReasons": {
-        "capture-mcq-24": "本句指「囚禁；圈養」。",
-        "capture-mcq-23": "「固定／被迫接收的受眾」與本句語境不同。",
-        "capture-mcq-22": "「俘虜；被囚禁的」與本句語境不同。",
-        "capture-mcq-21": "「捕獲者」與本句語境不同。",
-        "capture-mcq-20": "「捕獲；擷取」與本句語境不同。",
-        "capture-mcq-19": "「碳捕集」與本句語境不同。"
+        "capture-mcq-24": "本句的「captivity」指「囚禁；圈養」。",
+        "capture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "capture-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "capture-mcq-24"
     }
@@ -2087,5 +1883,7 @@ export default {
     "sha256": "ccf10f44bb92ae959549b97ef14b97e8e073597e40c3a84b8ab3c563ec420ce8",
     "pages": 24
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

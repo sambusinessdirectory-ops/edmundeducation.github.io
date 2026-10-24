@@ -353,11 +353,7 @@ export default {
       "masked": "Can you ____ the word ‘viral’?",
       "options": [
         "define-mcq-01",
-        "define-mcq-02",
-        "define-mcq-03",
-        "define-mcq-04",
-        "define-mcq-05",
-        "define-mcq-06"
+        "define-mcq-12"
       ],
       "explanation": "本句的「define」指「清楚說明某個字、概念或術語的確切意思」。",
       "sentenceIndex": 0,
@@ -366,12 +362,8 @@ export default {
         "define"
       ],
       "optionReasons": {
-        "define-mcq-01": "本句指「清楚說明某個字、概念或術語的確切意思」。",
-        "define-mcq-02": "「明確規定／說明 A 所指的是 B」與本句語境不同。",
-        "define-mcq-03": "「顯示或塑造某人／某物最具代表性的核心特徵」與本句語境不同。",
-        "define-mcq-04": "「把某個評價／事件當成決定一個人身份或價值的標準」與本句語境不同。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
+        "define-mcq-01": "本句的「define」指「清楚說明某個字、概念或術語的確切意思」。",
+        "define-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-01"
     },
@@ -383,11 +375,7 @@ export default {
       "masked": "The textbook ____ success as achieving a desired result.",
       "options": [
         "define-mcq-01",
-        "define-mcq-02",
-        "define-mcq-03",
-        "define-mcq-04",
-        "define-mcq-05",
-        "define-mcq-06"
+        "define-mcq-12"
       ],
       "explanation": "本句的「defines」指「清楚說明某個字、概念或術語的確切意思」。",
       "sentenceIndex": 1,
@@ -396,12 +384,8 @@ export default {
         "defines"
       ],
       "optionReasons": {
-        "define-mcq-01": "本句指「清楚說明某個字、概念或術語的確切意思」。",
-        "define-mcq-02": "「明確規定／說明 A 所指的是 B」與本句語境不同。",
-        "define-mcq-03": "「顯示或塑造某人／某物最具代表性的核心特徵」與本句語境不同。",
-        "define-mcq-04": "「把某個評價／事件當成決定一個人身份或價值的標準」與本句語境不同。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
+        "define-mcq-01": "本句的「defines」指「清楚說明某個字、概念或術語的確切意思」。",
+        "define-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-01"
     },
@@ -413,11 +397,7 @@ export default {
       "masked": "The law ____ a minor as a person under a certain age.",
       "options": [
         "define-mcq-02",
-        "define-mcq-01",
-        "define-mcq-03",
-        "define-mcq-04",
-        "define-mcq-05",
-        "define-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「defines」指「明確規定／說明 A 所指的是 B」。",
       "sentenceIndex": 2,
@@ -426,12 +406,8 @@ export default {
         "defines"
       ],
       "optionReasons": {
-        "define-mcq-02": "本句指「明確規定／說明 A 所指的是 B」。",
-        "define-mcq-01": "「清楚說明某個字、概念或術語的確切意思」與本句語境不同。",
-        "define-mcq-03": "「顯示或塑造某人／某物最具代表性的核心特徵」與本句語境不同。",
-        "define-mcq-04": "「把某個評價／事件當成決定一個人身份或價值的標準」與本句語境不同。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
+        "define-mcq-02": "本句的「defines」指「明確規定／說明 A 所指的是 B」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-02"
     },
@@ -443,11 +419,7 @@ export default {
       "masked": "Some people ____ success as wealth.",
       "options": [
         "define-mcq-02",
-        "define-mcq-01",
-        "define-mcq-03",
-        "define-mcq-04",
-        "define-mcq-05",
-        "define-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「define」指「明確規定／說明 A 所指的是 B」。",
       "sentenceIndex": 3,
@@ -456,12 +428,8 @@ export default {
         "define"
       ],
       "optionReasons": {
-        "define-mcq-02": "本句指「明確規定／說明 A 所指的是 B」。",
-        "define-mcq-01": "「清楚說明某個字、概念或術語的確切意思」與本句語境不同。",
-        "define-mcq-03": "「顯示或塑造某人／某物最具代表性的核心特徵」與本句語境不同。",
-        "define-mcq-04": "「把某個評價／事件當成決定一個人身份或價值的標準」與本句語境不同。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
+        "define-mcq-02": "本句的「define」指「明確規定／說明 A 所指的是 B」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-02"
     },
@@ -473,10 +441,7 @@ export default {
       "masked": "Its warmth and quality ____ the bakery.",
       "options": [
         "define-mcq-03",
-        "define-mcq-02",
-        "define-mcq-04",
-        "define-mcq-01",
-        "define-mcq-05",
+        "define-pdf-001",
         "define-mcq-06"
       ],
       "explanation": "本句的「define」指「顯示或塑造某人／某物最具代表性的核心特徵」。",
@@ -486,12 +451,9 @@ export default {
         "define"
       ],
       "optionReasons": {
-        "define-mcq-03": "本句指「顯示或塑造某人／某物最具代表性的核心特徵」。",
-        "define-mcq-02": "「明確規定／說明 A 所指的是 B」與本句語境不同。",
-        "define-mcq-04": "「把某個評價／事件當成決定一個人身份或價值的標準」與本句語境不同。",
-        "define-mcq-01": "「清楚說明某個字、概念或術語的確切意思」與本句語境不同。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
+        "define-mcq-03": "本句的「define」指「顯示或塑造某人／某物最具代表性的核心特徵」。",
+        "define-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-03"
     },
@@ -503,11 +465,8 @@ export default {
       "masked": "Trust ____ their relationship.",
       "options": [
         "define-mcq-03",
-        "define-mcq-02",
-        "define-mcq-04",
-        "define-mcq-01",
         "define-mcq-05",
-        "define-mcq-06"
+        "define-mcq-12"
       ],
       "explanation": "本句的「defines」指「顯示或塑造某人／某物最具代表性的核心特徵」。",
       "sentenceIndex": 5,
@@ -516,12 +475,9 @@ export default {
         "defines"
       ],
       "optionReasons": {
-        "define-mcq-03": "本句指「顯示或塑造某人／某物最具代表性的核心特徵」。",
-        "define-mcq-02": "「明確規定／說明 A 所指的是 B」與本句語境不同。",
-        "define-mcq-04": "「把某個評價／事件當成決定一個人身份或價值的標準」與本句語境不同。",
-        "define-mcq-01": "「清楚說明某個字、概念或術語的確切意思」與本句語境不同。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
+        "define-mcq-03": "本句的「defines」指「顯示或塑造某人／某物最具代表性的核心特徵」。",
+        "define-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-03"
     },
@@ -533,11 +489,8 @@ export default {
       "masked": "Strangers online do not know me well enough to ____ me.",
       "options": [
         "define-mcq-04",
-        "define-mcq-03",
-        "define-mcq-05",
-        "define-mcq-02",
-        "define-mcq-06",
-        "define-mcq-01"
+        "define-mcq-09",
+        "define-pdf-002"
       ],
       "explanation": "本句的「define」指「把某個評價／事件當成決定一個人身份或價值的標準」。",
       "sentenceIndex": 6,
@@ -546,12 +499,9 @@ export default {
         "define"
       ],
       "optionReasons": {
-        "define-mcq-04": "本句指「把某個評價／事件當成決定一個人身份或價值的標準」。",
-        "define-mcq-03": "「顯示或塑造某人／某物最具代表性的核心特徵」與本句語境不同。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。",
-        "define-mcq-02": "「明確規定／說明 A 所指的是 B」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。",
-        "define-mcq-01": "「清楚說明某個字、概念或術語的確切意思」與本句語境不同。"
+        "define-mcq-04": "本句的「define」指「把某個評價／事件當成決定一個人身份或價值的標準」。",
+        "define-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "define-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-04"
     },
@@ -563,11 +513,8 @@ export default {
       "masked": "One mistake does not ____ you.",
       "options": [
         "define-mcq-04",
-        "define-mcq-03",
-        "define-mcq-05",
-        "define-mcq-02",
-        "define-mcq-06",
-        "define-mcq-01"
+        "define-pdf-002",
+        "define-mcq-09"
       ],
       "explanation": "本句的「define」指「把某個評價／事件當成決定一個人身份或價值的標準」。",
       "sentenceIndex": 7,
@@ -576,12 +523,9 @@ export default {
         "define"
       ],
       "optionReasons": {
-        "define-mcq-04": "本句指「把某個評價／事件當成決定一個人身份或價值的標準」。",
-        "define-mcq-03": "「顯示或塑造某人／某物最具代表性的核心特徵」與本句語境不同。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。",
-        "define-mcq-02": "「明確規定／說明 A 所指的是 B」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。",
-        "define-mcq-01": "「清楚說明某個字、概念或術語的確切意思」與本句語境不同。"
+        "define-mcq-04": "本句的「define」指「把某個評價／事件當成決定一個人身份或價值的標準」。",
+        "define-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-04"
     },
@@ -594,10 +538,7 @@ export default {
       "options": [
         "define-mcq-05",
         "define-mcq-04",
-        "define-mcq-06",
-        "define-mcq-03",
-        "define-mcq-07",
-        "define-mcq-02"
+        "define-mcq-09"
       ],
       "explanation": "本句的「define」指「明確訂出某事物的範圍、界線、責任或限制」。",
       "sentenceIndex": 8,
@@ -606,12 +547,9 @@ export default {
         "define"
       ],
       "optionReasons": {
-        "define-mcq-05": "本句指「明確訂出某事物的範圍、界線、責任或限制」。",
-        "define-mcq-04": "「把某個評價／事件當成決定一個人身份或價值的標準」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。",
-        "define-mcq-03": "「顯示或塑造某人／某物最具代表性的核心特徵」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
-        "define-mcq-02": "「明確規定／說明 A 所指的是 B」與本句語境不同。"
+        "define-mcq-05": "本句的「define」指「明確訂出某事物的範圍、界線、責任或限制」。",
+        "define-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-05"
     },
@@ -624,10 +562,7 @@ export default {
       "options": [
         "define-mcq-05",
         "define-mcq-04",
-        "define-mcq-06",
-        "define-mcq-03",
-        "define-mcq-07",
-        "define-mcq-02"
+        "define-mcq-09"
       ],
       "explanation": "本句的「defines」指「明確訂出某事物的範圍、界線、責任或限制」。",
       "sentenceIndex": 9,
@@ -636,12 +571,9 @@ export default {
         "defines"
       ],
       "optionReasons": {
-        "define-mcq-05": "本句指「明確訂出某事物的範圍、界線、責任或限制」。",
-        "define-mcq-04": "「把某個評價／事件當成決定一個人身份或價值的標準」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。",
-        "define-mcq-03": "「顯示或塑造某人／某物最具代表性的核心特徵」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
-        "define-mcq-02": "「明確規定／說明 A 所指的是 B」與本句語境不同。"
+        "define-mcq-05": "本句的「defines」指「明確訂出某事物的範圍、界線、責任或限制」。",
+        "define-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-05"
     },
@@ -653,11 +585,8 @@ export default {
       "masked": "The dark line ____ the edge of the shape.",
       "options": [
         "define-mcq-06",
-        "define-mcq-05",
-        "define-mcq-07",
-        "define-mcq-04",
-        "define-mcq-08",
-        "define-mcq-03"
+        "define-mcq-09",
+        "define-mcq-12"
       ],
       "explanation": "本句的「defines」指「使某物的邊界、輪廓或形狀清楚可見」。",
       "sentenceIndex": 10,
@@ -666,12 +595,9 @@ export default {
         "defines"
       ],
       "optionReasons": {
-        "define-mcq-06": "本句指「使某物的邊界、輪廓或形狀清楚可見」。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
-        "define-mcq-04": "「把某個評價／事件當成決定一個人身份或價值的標準」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-03": "「顯示或塑造某人／某物最具代表性的核心特徵」與本句語境不同。"
+        "define-mcq-06": "本句的「defines」指「使某物的邊界、輪廓或形狀清楚可見」。",
+        "define-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-06"
     },
@@ -683,10 +609,7 @@ export default {
       "masked": "The lighting ____ the contours of her face.",
       "options": [
         "define-mcq-06",
-        "define-mcq-05",
-        "define-mcq-07",
-        "define-mcq-04",
-        "define-mcq-08",
+        "define-mcq-12",
         "define-mcq-03"
       ],
       "explanation": "本句的「defined」指「使某物的邊界、輪廓或形狀清楚可見」。",
@@ -696,12 +619,9 @@ export default {
         "defined"
       ],
       "optionReasons": {
-        "define-mcq-06": "本句指「使某物的邊界、輪廓或形狀清楚可見」。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
-        "define-mcq-04": "「把某個評價／事件當成決定一個人身份或價值的標準」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-03": "「顯示或塑造某人／某物最具代表性的核心特徵」與本句語境不同。"
+        "define-mcq-06": "本句的「defined」指「使某物的邊界、輪廓或形狀清楚可見」。",
+        "define-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-06"
     },
@@ -713,11 +633,8 @@ export default {
       "masked": "The mountain had a clearly ____ outline.",
       "options": [
         "define-mcq-06",
-        "define-mcq-05",
-        "define-mcq-07",
         "define-mcq-04",
-        "define-mcq-08",
-        "define-mcq-03"
+        "define-mcq-09"
       ],
       "explanation": "本句的「defined」指「使某物的邊界、輪廓或形狀清楚可見」。",
       "sentenceIndex": 12,
@@ -726,12 +643,9 @@ export default {
         "defined"
       ],
       "optionReasons": {
-        "define-mcq-06": "本句指「使某物的邊界、輪廓或形狀清楚可見」。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
-        "define-mcq-04": "「把某個評價／事件當成決定一個人身份或價值的標準」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-03": "「顯示或塑造某人／某物最具代表性的核心特徵」與本句語境不同。"
+        "define-mcq-06": "本句的「defined」指「使某物的邊界、輪廓或形狀清楚可見」。",
+        "define-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-06"
     },
@@ -743,11 +657,8 @@ export default {
       "masked": "He has well-____ facial features.",
       "options": [
         "define-mcq-06",
-        "define-mcq-05",
-        "define-mcq-07",
-        "define-mcq-04",
-        "define-mcq-08",
-        "define-mcq-03"
+        "define-mcq-09",
+        "define-mcq-12"
       ],
       "explanation": "本句的「defined」指「使某物的邊界、輪廓或形狀清楚可見」。",
       "sentenceIndex": 13,
@@ -756,12 +667,9 @@ export default {
         "defined"
       ],
       "optionReasons": {
-        "define-mcq-06": "本句指「使某物的邊界、輪廓或形狀清楚可見」。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
-        "define-mcq-04": "「把某個評價／事件當成決定一個人身份或價值的標準」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-03": "「顯示或塑造某人／某物最具代表性的核心特徵」與本句語境不同。"
+        "define-mcq-06": "本句的「defined」指「使某物的邊界、輪廓或形狀清楚可見」。",
+        "define-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-06"
     },
@@ -773,11 +681,8 @@ export default {
       "masked": "The task has a ____ goal.",
       "options": [
         "define-mcq-07",
-        "define-mcq-06",
-        "define-mcq-08",
-        "define-mcq-05",
-        "define-mcq-09",
-        "define-mcq-04"
+        "define-mcq-12",
+        "define-mcq-03"
       ],
       "explanation": "本句的「well-defined」指「意思、範圍、條件或邊界清楚明確的」。",
       "sentenceIndex": 14,
@@ -786,12 +691,9 @@ export default {
         "well-defined"
       ],
       "optionReasons": {
-        "define-mcq-07": "本句指「意思、範圍、條件或邊界清楚明確的」。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。",
-        "define-mcq-09": "「對字詞／概念確切意思的說明」與本句語境不同。",
-        "define-mcq-04": "「把某個評價／事件當成決定一個人身份或價值的標準」與本句語境不同。"
+        "define-mcq-07": "本句的「well-defined」指「意思、範圍、條件或邊界清楚明確的」。",
+        "define-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-07"
     },
@@ -803,11 +705,8 @@ export default {
       "masked": "The concept is not well-____.",
       "options": [
         "define-mcq-07",
-        "define-mcq-06",
-        "define-mcq-08",
-        "define-mcq-05",
-        "define-mcq-09",
-        "define-mcq-04"
+        "define-mcq-03",
+        "define-mcq-12"
       ],
       "explanation": "本句的「defined」指「意思、範圍、條件或邊界清楚明確的」。",
       "sentenceIndex": 15,
@@ -816,12 +715,9 @@ export default {
         "defined"
       ],
       "optionReasons": {
-        "define-mcq-07": "本句指「意思、範圍、條件或邊界清楚明確的」。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。",
-        "define-mcq-09": "「對字詞／概念確切意思的說明」與本句語境不同。",
-        "define-mcq-04": "「把某個評價／事件當成決定一個人身份或價值的標準」與本句語境不同。"
+        "define-mcq-07": "本句的「defined」指「意思、範圍、條件或邊界清楚明確的」。",
+        "define-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-07"
     },
@@ -833,11 +729,7 @@ export default {
       "masked": "The role is still ____.",
       "options": [
         "define-mcq-08",
-        "define-mcq-07",
-        "define-mcq-09",
-        "define-mcq-06",
-        "define-mcq-10",
-        "define-mcq-05"
+        "define-mcq-04"
       ],
       "explanation": "本句的「ill-defined」指「缺乏清楚界線、意思或特徵的」。",
       "sentenceIndex": 16,
@@ -846,12 +738,8 @@ export default {
         "ill-defined"
       ],
       "optionReasons": {
-        "define-mcq-08": "本句指「缺乏清楚界線、意思或特徵的」。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
-        "define-mcq-09": "「對字詞／概念確切意思的說明」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。"
+        "define-mcq-08": "本句的「ill-defined」指「缺乏清楚界線、意思或特徵的」。",
+        "define-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-08"
     },
@@ -863,11 +751,7 @@ export default {
       "masked": "The symptoms were vague and ill-____.",
       "options": [
         "define-mcq-08",
-        "define-mcq-07",
-        "define-mcq-09",
-        "define-mcq-06",
-        "define-mcq-10",
-        "define-mcq-05"
+        "define-mcq-04"
       ],
       "explanation": "本句的「defined」指「缺乏清楚界線、意思或特徵的」。",
       "sentenceIndex": 17,
@@ -876,12 +760,8 @@ export default {
         "defined"
       ],
       "optionReasons": {
-        "define-mcq-08": "本句指「缺乏清楚界線、意思或特徵的」。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
-        "define-mcq-09": "「對字詞／概念確切意思的說明」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-05": "「明確訂出某事物的範圍、界線、責任或限制」與本句語境不同。"
+        "define-mcq-08": "本句的「defined」指「缺乏清楚界線、意思或特徵的」。",
+        "define-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-08"
     },
@@ -893,11 +773,8 @@ export default {
       "masked": "What is the ____ of ‘success’?",
       "options": [
         "define-mcq-09",
-        "define-mcq-08",
-        "define-mcq-10",
-        "define-mcq-07",
-        "define-mcq-11",
-        "define-mcq-06"
+        "define-mcq-06",
+        "define-mcq-04"
       ],
       "explanation": "本句的「definition」指「對字詞／概念確切意思的說明」。",
       "sentenceIndex": 18,
@@ -906,12 +783,9 @@ export default {
         "definition"
       ],
       "optionReasons": {
-        "define-mcq-09": "本句指「對字詞／概念確切意思的說明」。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
-        "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
+        "define-mcq-09": "本句的「definition」指「對字詞／概念確切意思的說明」。",
+        "define-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-09"
     },
@@ -923,10 +797,7 @@ export default {
       "masked": "The two dictionaries give slightly different ____.",
       "options": [
         "define-mcq-09",
-        "define-mcq-08",
-        "define-mcq-10",
-        "define-mcq-07",
-        "define-mcq-11",
+        "define-mcq-12",
         "define-mcq-06"
       ],
       "explanation": "本句的「definitions」指「對字詞／概念確切意思的說明」。",
@@ -936,12 +807,9 @@ export default {
         "definitions"
       ],
       "optionReasons": {
-        "define-mcq-09": "本句指「對字詞／概念確切意思的說明」。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
-        "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
+        "define-mcq-09": "本句的「definitions」指「對字詞／概念確切意思的說明」。",
+        "define-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-09"
     },
@@ -953,11 +821,8 @@ export default {
       "masked": "The legal ____ of the term is very narrow.",
       "options": [
         "define-pdf-001",
-        "define-mcq-08",
-        "define-mcq-10",
-        "define-mcq-07",
-        "define-mcq-11",
-        "define-mcq-06"
+        "define-mcq-03",
+        "define-pdf-002"
       ],
       "explanation": "本句的「definition」指「對範圍、角色、標準或概念作正式界定」。",
       "sentenceIndex": 20,
@@ -966,12 +831,9 @@ export default {
         "definition"
       ],
       "optionReasons": {
-        "define-pdf-001": "本句指「對範圍、角色、標準或概念作正式界定」。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
-        "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
+        "define-pdf-001": "本句的「definition」指「對範圍、角色、標準或概念作正式界定」。",
+        "define-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "define-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-pdf-001"
     },
@@ -983,11 +845,8 @@ export default {
       "masked": "Clear ____ of responsibilities prevents confusion.",
       "options": [
         "define-pdf-001",
-        "define-mcq-08",
-        "define-mcq-10",
-        "define-mcq-07",
-        "define-mcq-11",
-        "define-mcq-06"
+        "define-pdf-002",
+        "define-mcq-03"
       ],
       "explanation": "本句的「definition」指「對範圍、角色、標準或概念作正式界定」。",
       "sentenceIndex": 21,
@@ -996,12 +855,9 @@ export default {
         "definition"
       ],
       "optionReasons": {
-        "define-pdf-001": "本句指「對範圍、角色、標準或概念作正式界定」。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
-        "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
+        "define-pdf-001": "本句的「definition」指「對範圍、角色、標準或概念作正式界定」。",
+        "define-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-pdf-001"
     },
@@ -1013,11 +869,8 @@ export default {
       "masked": "The image has excellent ____.",
       "options": [
         "define-pdf-002",
-        "define-mcq-08",
-        "define-mcq-10",
-        "define-mcq-07",
-        "define-mcq-11",
-        "define-mcq-06"
+        "define-mcq-04",
+        "define-mcq-09"
       ],
       "explanation": "本句的「definition」指「細節、輪廓或影像呈現得有多清楚」。",
       "sentenceIndex": 22,
@@ -1026,12 +879,9 @@ export default {
         "definition"
       ],
       "optionReasons": {
-        "define-pdf-002": "本句指「細節、輪廓或影像呈現得有多清楚」。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
-        "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
+        "define-pdf-002": "本句的「definition」指「細節、輪廓或影像呈現得有多清楚」。",
+        "define-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-pdf-002"
     },
@@ -1043,11 +893,8 @@ export default {
       "masked": "The camera captures fine detail with high ____.",
       "options": [
         "define-pdf-002",
-        "define-mcq-08",
-        "define-mcq-10",
-        "define-mcq-07",
-        "define-mcq-11",
-        "define-mcq-06"
+        "define-mcq-03",
+        "define-pdf-001"
       ],
       "explanation": "本句的「definition」指「細節、輪廓或影像呈現得有多清楚」。",
       "sentenceIndex": 23,
@@ -1056,12 +903,9 @@ export default {
         "definition"
       ],
       "optionReasons": {
-        "define-pdf-002": "本句指「細節、輪廓或影像呈現得有多清楚」。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。",
-        "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
-        "define-mcq-06": "「使某物的邊界、輪廓或形狀清楚可見」與本句語境不同。"
+        "define-pdf-002": "本句的「definition」指「細節、輪廓或影像呈現得有多清楚」。",
+        "define-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "define-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-pdf-002"
     },
@@ -1073,11 +917,8 @@ export default {
       "masked": "The video was recorded in ____.",
       "options": [
         "define-mcq-10",
-        "define-mcq-09",
-        "define-mcq-11",
-        "define-mcq-08",
-        "define-mcq-12",
-        "define-mcq-07"
+        "define-mcq-04",
+        "define-mcq-09"
       ],
       "explanation": "本句的「high-definition」指「影像／聲音細節和輪廓的清晰程度」。",
       "sentenceIndex": 24,
@@ -1086,12 +927,9 @@ export default {
         "high-definition"
       ],
       "optionReasons": {
-        "define-mcq-10": "本句指「影像／聲音細節和輪廓的清晰程度」。",
-        "define-mcq-09": "「對字詞／概念確切意思的說明」與本句語境不同。",
-        "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-12": "「足以作為最終結論、權威標準或完整版本的」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。"
+        "define-mcq-10": "本句的「high-definition」指「影像／聲音細節和輪廓的清晰程度」。",
+        "define-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-10"
     },
@@ -1103,11 +941,8 @@ export default {
       "masked": "The television has a high-____ display.",
       "options": [
         "define-mcq-10",
-        "define-mcq-09",
-        "define-mcq-11",
-        "define-mcq-08",
-        "define-mcq-12",
-        "define-mcq-07"
+        "define-mcq-03",
+        "define-mcq-12"
       ],
       "explanation": "本句的「definition」指「影像／聲音細節和輪廓的清晰程度」。",
       "sentenceIndex": 25,
@@ -1116,12 +951,9 @@ export default {
         "definition"
       ],
       "optionReasons": {
-        "define-mcq-10": "本句指「影像／聲音細節和輪廓的清晰程度」。",
-        "define-mcq-09": "「對字詞／概念確切意思的說明」與本句語境不同。",
-        "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-12": "「足以作為最終結論、權威標準或完整版本的」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。"
+        "define-mcq-10": "本句的「definition」指「影像／聲音細節和輪廓的清晰程度」。",
+        "define-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-10"
     },
@@ -1133,11 +965,8 @@ export default {
       "masked": "We need a ____ answer.",
       "options": [
         "define-mcq-11",
-        "define-mcq-10",
         "define-mcq-12",
-        "define-mcq-09",
-        "define-mcq-08",
-        "define-mcq-07"
+        "define-mcq-03"
       ],
       "explanation": "本句的「definite」指「清楚、確定、沒有模糊或未決狀態的」。",
       "sentenceIndex": 26,
@@ -1146,12 +975,9 @@ export default {
         "definite"
       ],
       "optionReasons": {
-        "define-mcq-11": "本句指「清楚、確定、沒有模糊或未決狀態的」。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-12": "「足以作為最終結論、權威標準或完整版本的」與本句語境不同。",
-        "define-mcq-09": "「對字詞／概念確切意思的說明」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。"
+        "define-mcq-11": "本句的「definite」指「清楚、確定、沒有模糊或未決狀態的」。",
+        "define-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-11"
     },
@@ -1163,11 +989,8 @@ export default {
       "masked": "There has been a ____ improvement.",
       "options": [
         "define-mcq-11",
-        "define-mcq-10",
         "define-mcq-12",
-        "define-mcq-09",
-        "define-mcq-08",
-        "define-mcq-07"
+        "define-mcq-03"
       ],
       "explanation": "本句的「definite」指「清楚、確定、沒有模糊或未決狀態的」。",
       "sentenceIndex": 27,
@@ -1176,12 +999,9 @@ export default {
         "definite"
       ],
       "optionReasons": {
-        "define-mcq-11": "本句指「清楚、確定、沒有模糊或未決狀態的」。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-12": "「足以作為最終結論、權威標準或完整版本的」與本句語境不同。",
-        "define-mcq-09": "「對字詞／概念確切意思的說明」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。"
+        "define-mcq-11": "本句的「definite」指「清楚、確定、沒有模糊或未決狀態的」。",
+        "define-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-11"
     },
@@ -1193,11 +1013,8 @@ export default {
       "masked": "No ____ date has been set.",
       "options": [
         "define-mcq-11",
-        "define-mcq-10",
         "define-mcq-12",
-        "define-mcq-09",
-        "define-mcq-08",
-        "define-mcq-07"
+        "define-mcq-03"
       ],
       "explanation": "本句的「definite」指「清楚、確定、沒有模糊或未決狀態的」。",
       "sentenceIndex": 28,
@@ -1206,12 +1023,9 @@ export default {
         "definite"
       ],
       "optionReasons": {
-        "define-mcq-11": "本句指「清楚、確定、沒有模糊或未決狀態的」。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-12": "「足以作為最終結論、權威標準或完整版本的」與本句語境不同。",
-        "define-mcq-09": "「對字詞／概念確切意思的說明」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。"
+        "define-mcq-11": "本句的「definite」指「清楚、確定、沒有模糊或未決狀態的」。",
+        "define-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-11"
     },
@@ -1223,11 +1037,8 @@ export default {
       "masked": "They have no ____ plan yet.",
       "options": [
         "define-mcq-11",
-        "define-mcq-10",
         "define-mcq-12",
-        "define-mcq-09",
-        "define-mcq-08",
-        "define-mcq-07"
+        "define-mcq-03"
       ],
       "explanation": "本句的「definite」指「清楚、確定、沒有模糊或未決狀態的」。",
       "sentenceIndex": 29,
@@ -1236,12 +1047,9 @@ export default {
         "definite"
       ],
       "optionReasons": {
-        "define-mcq-11": "本句指「清楚、確定、沒有模糊或未決狀態的」。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-12": "「足以作為最終結論、權威標準或完整版本的」與本句語境不同。",
-        "define-mcq-09": "「對字詞／概念確切意思的說明」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。"
+        "define-mcq-11": "本句的「definite」指「清楚、確定、沒有模糊或未決狀態的」。",
+        "define-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-11"
     },
@@ -1253,11 +1061,7 @@ export default {
       "masked": "There is no ____ answer yet.",
       "options": [
         "define-mcq-12",
-        "define-mcq-11",
-        "define-mcq-10",
-        "define-mcq-09",
-        "define-mcq-08",
-        "define-mcq-07"
+        "define-mcq-08"
       ],
       "explanation": "本句的「definitive」指「足以作為最終結論、權威標準或完整版本的」。",
       "sentenceIndex": 30,
@@ -1266,12 +1070,8 @@ export default {
         "definitive"
       ],
       "optionReasons": {
-        "define-mcq-12": "本句指「足以作為最終結論、權威標準或完整版本的」。",
-        "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-09": "「對字詞／概念確切意思的說明」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。"
+        "define-mcq-12": "本句的「definitive」指「足以作為最終結論、權威標準或完整版本的」。",
+        "define-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-12"
     },
@@ -1283,11 +1083,7 @@ export default {
       "masked": "This is regarded as the ____ study of the subject.",
       "options": [
         "define-mcq-12",
-        "define-mcq-11",
-        "define-mcq-10",
-        "define-mcq-09",
-        "define-mcq-08",
-        "define-mcq-07"
+        "define-mcq-01"
       ],
       "explanation": "本句的「definitive」指「足以作為最終結論、權威標準或完整版本的」。",
       "sentenceIndex": 31,
@@ -1296,12 +1092,8 @@ export default {
         "definitive"
       ],
       "optionReasons": {
-        "define-mcq-12": "本句指「足以作為最終結論、權威標準或完整版本的」。",
-        "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-09": "「對字詞／概念確切意思的說明」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。"
+        "define-mcq-12": "本句的「definitive」指「足以作為最終結論、權威標準或完整版本的」。",
+        "define-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-12"
     },
@@ -1313,11 +1105,8 @@ export default {
       "masked": "The book is the ____ guide to the topic.",
       "options": [
         "define-mcq-12",
-        "define-mcq-11",
-        "define-mcq-10",
-        "define-mcq-09",
-        "define-mcq-08",
-        "define-mcq-07"
+        "define-mcq-05",
+        "define-mcq-09"
       ],
       "explanation": "本句的「definitive」指「足以作為最終結論、權威標準或完整版本的」。",
       "sentenceIndex": 32,
@@ -1326,12 +1115,9 @@ export default {
         "definitive"
       ],
       "optionReasons": {
-        "define-mcq-12": "本句指「足以作為最終結論、權威標準或完整版本的」。",
-        "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-09": "「對字詞／概念確切意思的說明」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。"
+        "define-mcq-12": "本句的「definitive」指「足以作為最終結論、權威標準或完整版本的」。",
+        "define-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-12"
     },
@@ -1343,11 +1129,8 @@ export default {
       "masked": "They released a ____ edition of the album.",
       "options": [
         "define-mcq-12",
-        "define-mcq-11",
         "define-mcq-10",
-        "define-mcq-09",
-        "define-mcq-08",
-        "define-mcq-07"
+        "define-mcq-09"
       ],
       "explanation": "本句的「definitive」指「足以作為最終結論、權威標準或完整版本的」。",
       "sentenceIndex": 33,
@@ -1356,12 +1139,9 @@ export default {
         "definitive"
       ],
       "optionReasons": {
-        "define-mcq-12": "本句指「足以作為最終結論、權威標準或完整版本的」。",
-        "define-mcq-11": "「清楚、確定、沒有模糊或未決狀態的」與本句語境不同。",
-        "define-mcq-10": "「影像／聲音細節和輪廓的清晰程度」與本句語境不同。",
-        "define-mcq-09": "「對字詞／概念確切意思的說明」與本句語境不同。",
-        "define-mcq-08": "「缺乏清楚界線、意思或特徵的」與本句語境不同。",
-        "define-mcq-07": "「意思、範圍、條件或邊界清楚明確的」與本句語境不同。"
+        "define-mcq-12": "本句的「definitive」指「足以作為最終結論、權威標準或完整版本的」。",
+        "define-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "define-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "define-mcq-12"
     }
@@ -1373,5 +1153,12 @@ export default {
     "sha256": "39d09461f5e61db6a83b157f8bd36fc4c0c05b6ea69c6493c4167a4b5b4a4d25",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -277,11 +277,9 @@ export default {
       "masked": "The glass ____ from the table.",
       "options": [
         "fall-mcq-01",
-        "fall-mcq-02",
         "fall-mcq-03",
-        "fall-mcq-04",
-        "fall-mcq-05",
-        "fall-mcq-06"
+        "fall-mcq-08",
+        "fall-mcq-07"
       ],
       "explanation": "本句的「fell」指「因重力或失去支撐而由高處向低處移動；掉下、落下」。",
       "sentenceIndex": 0,
@@ -290,12 +288,10 @@ export default {
         "fell"
       ],
       "optionReasons": {
-        "fall-mcq-01": "本句指「因重力或失去支撐而由高處向低處移動；掉下、落下」。",
-        "fall-mcq-02": "「身體失去平衡而跌倒」是「fall — lose balance」的用法，與本句語境不同。",
-        "fall-mcq-03": "「價格、數量、水平或溫度等下降」是「fall — decrease」的用法，與本句語境不同。",
-        "fall-mcq-04": "「進入某種狀態，如 fall asleep / silent / ill」是「fall + state」的用法，與本句語境不同。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。"
+        "fall-mcq-01": "本句的「fell」指「因重力或失去支撐而由高處向低處移動；掉下、落下」。",
+        "fall-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-01"
     },
@@ -307,11 +303,9 @@ export default {
       "masked": "Leaves were ____ from the trees.",
       "options": [
         "fall-mcq-01",
-        "fall-mcq-02",
-        "fall-mcq-03",
-        "fall-mcq-04",
-        "fall-mcq-05",
-        "fall-mcq-06"
+        "fall-mcq-08",
+        "fall-mcq-11",
+        "fall-mcq-09"
       ],
       "explanation": "本句的「falling」指「因重力或失去支撐而由高處向低處移動；掉下、落下」。",
       "sentenceIndex": 1,
@@ -320,12 +314,10 @@ export default {
         "falling"
       ],
       "optionReasons": {
-        "fall-mcq-01": "本句指「因重力或失去支撐而由高處向低處移動；掉下、落下」。",
-        "fall-mcq-02": "「身體失去平衡而跌倒」是「fall — lose balance」的用法，與本句語境不同。",
-        "fall-mcq-03": "「價格、數量、水平或溫度等下降」是「fall — decrease」的用法，與本句語境不同。",
-        "fall-mcq-04": "「進入某種狀態，如 fall asleep / silent / ill」是「fall + state」的用法，與本句語境不同。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。"
+        "fall-mcq-01": "本句的「falling」指「因重力或失去支撐而由高處向低處移動；掉下、落下」。",
+        "fall-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-01"
     },
@@ -337,11 +329,9 @@ export default {
       "masked": "He slipped and ____.",
       "options": [
         "fall-mcq-02",
-        "fall-mcq-01",
-        "fall-mcq-03",
-        "fall-mcq-04",
-        "fall-mcq-05",
-        "fall-mcq-06"
+        "fall-mcq-08",
+        "fall-mcq-06",
+        "fall-mcq-07"
       ],
       "explanation": "本句的「fell」指「身體失去平衡而跌倒」。",
       "sentenceIndex": 2,
@@ -350,12 +340,10 @@ export default {
         "fell"
       ],
       "optionReasons": {
-        "fall-mcq-02": "本句指「身體失去平衡而跌倒」。",
-        "fall-mcq-01": "「因重力或失去支撐而由高處向低處移動；掉下、落下」是「fall — physical downward movement」的用法，與本句語境不同。",
-        "fall-mcq-03": "「價格、數量、水平或溫度等下降」是「fall — decrease」的用法，與本句語境不同。",
-        "fall-mcq-04": "「進入某種狀態，如 fall asleep / silent / ill」是「fall + state」的用法，與本句語境不同。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。"
+        "fall-mcq-02": "本句的「fell」指「身體失去平衡而跌倒」。",
+        "fall-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-02"
     },
@@ -367,11 +355,9 @@ export default {
       "masked": "She ____ on the stairs.",
       "options": [
         "fall-mcq-02",
-        "fall-mcq-01",
-        "fall-mcq-03",
-        "fall-mcq-04",
-        "fall-mcq-05",
-        "fall-mcq-06"
+        "fall-mcq-08",
+        "fall-mcq-06",
+        "fall-mcq-07"
       ],
       "explanation": "本句的「fell」指「身體失去平衡而跌倒」。",
       "sentenceIndex": 3,
@@ -380,12 +366,10 @@ export default {
         "fell"
       ],
       "optionReasons": {
-        "fall-mcq-02": "本句指「身體失去平衡而跌倒」。",
-        "fall-mcq-01": "「因重力或失去支撐而由高處向低處移動；掉下、落下」是「fall — physical downward movement」的用法，與本句語境不同。",
-        "fall-mcq-03": "「價格、數量、水平或溫度等下降」是「fall — decrease」的用法，與本句語境不同。",
-        "fall-mcq-04": "「進入某種狀態，如 fall asleep / silent / ill」是「fall + state」的用法，與本句語境不同。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。"
+        "fall-mcq-02": "本句的「fell」指「身體失去平衡而跌倒」。",
+        "fall-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-02"
     },
@@ -397,11 +381,9 @@ export default {
       "masked": "Prices ____ sharply.",
       "options": [
         "fall-mcq-03",
-        "fall-mcq-02",
-        "fall-mcq-04",
-        "fall-mcq-01",
         "fall-mcq-05",
-        "fall-mcq-06"
+        "fall-mcq-10",
+        "fall-mcq-09"
       ],
       "explanation": "本句的「fell」指「價格、數量、水平或溫度等下降」。",
       "sentenceIndex": 4,
@@ -410,12 +392,10 @@ export default {
         "fell"
       ],
       "optionReasons": {
-        "fall-mcq-03": "本句指「價格、數量、水平或溫度等下降」。",
-        "fall-mcq-02": "「身體失去平衡而跌倒」是「fall — lose balance」的用法，與本句語境不同。",
-        "fall-mcq-04": "「進入某種狀態，如 fall asleep / silent / ill」是「fall + state」的用法，與本句語境不同。",
-        "fall-mcq-01": "「因重力或失去支撐而由高處向低處移動；掉下、落下」是「fall — physical downward movement」的用法，與本句語境不同。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。"
+        "fall-mcq-03": "本句的「fell」指「價格、數量、水平或溫度等下降」。",
+        "fall-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-03"
     },
@@ -427,11 +407,9 @@ export default {
       "masked": "The temperature ____ below zero.",
       "options": [
         "fall-mcq-03",
-        "fall-mcq-02",
-        "fall-mcq-04",
-        "fall-mcq-01",
         "fall-mcq-05",
-        "fall-mcq-06"
+        "fall-mcq-09",
+        "fall-mcq-10"
       ],
       "explanation": "本句的「fell」指「價格、數量、水平或溫度等下降」。",
       "sentenceIndex": 5,
@@ -440,12 +418,10 @@ export default {
         "fell"
       ],
       "optionReasons": {
-        "fall-mcq-03": "本句指「價格、數量、水平或溫度等下降」。",
-        "fall-mcq-02": "「身體失去平衡而跌倒」是「fall — lose balance」的用法，與本句語境不同。",
-        "fall-mcq-04": "「進入某種狀態，如 fall asleep / silent / ill」是「fall + state」的用法，與本句語境不同。",
-        "fall-mcq-01": "「因重力或失去支撐而由高處向低處移動；掉下、落下」是「fall — physical downward movement」的用法，與本句語境不同。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。"
+        "fall-mcq-03": "本句的「fell」指「價格、數量、水平或溫度等下降」。",
+        "fall-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-03"
     },
@@ -458,10 +434,8 @@ export default {
       "options": [
         "fall-mcq-04",
         "fall-mcq-03",
-        "fall-mcq-05",
         "fall-mcq-02",
-        "fall-mcq-06",
-        "fall-mcq-01"
+        "fall-mcq-10"
       ],
       "explanation": "本句的「fell silent」指「進入某種狀態，如 fall asleep / silent / ill」。",
       "sentenceIndex": 6,
@@ -470,12 +444,10 @@ export default {
         "fell silent"
       ],
       "optionReasons": {
-        "fall-mcq-04": "本句指「進入某種狀態，如 fall asleep / silent / ill」。",
-        "fall-mcq-03": "「價格、數量、水平或溫度等下降」是「fall — decrease」的用法，與本句語境不同。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。",
-        "fall-mcq-02": "「身體失去平衡而跌倒」是「fall — lose balance」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。",
-        "fall-mcq-01": "「因重力或失去支撐而由高處向低處移動；掉下、落下」是「fall — physical downward movement」的用法，與本句語境不同。"
+        "fall-mcq-04": "本句的「fell silent」指「進入某種狀態，如 fall asleep / silent / ill」。",
+        "fall-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-04"
     },
@@ -487,11 +459,9 @@ export default {
       "masked": "He ____ during the film.",
       "options": [
         "fall-mcq-04",
-        "fall-mcq-03",
-        "fall-mcq-05",
+        "fall-mcq-07",
         "fall-mcq-02",
-        "fall-mcq-06",
-        "fall-mcq-01"
+        "fall-mcq-08"
       ],
       "explanation": "本句的「fell asleep」指「進入某種狀態，如 fall asleep / silent / ill」。",
       "sentenceIndex": 7,
@@ -500,12 +470,10 @@ export default {
         "fell asleep"
       ],
       "optionReasons": {
-        "fall-mcq-04": "本句指「進入某種狀態，如 fall asleep / silent / ill」。",
-        "fall-mcq-03": "「價格、數量、水平或溫度等下降」是「fall — decrease」的用法，與本句語境不同。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。",
-        "fall-mcq-02": "「身體失去平衡而跌倒」是「fall — lose balance」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。",
-        "fall-mcq-01": "「因重力或失去支撐而由高處向低處移動；掉下、落下」是「fall — physical downward movement」的用法，與本句語境不同。"
+        "fall-mcq-04": "本句的「fell asleep」指「進入某種狀態，如 fall asleep / silent / ill」。",
+        "fall-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-04"
     },
@@ -517,11 +485,9 @@ export default {
       "masked": "She ____ after the trip.",
       "options": [
         "fall-mcq-04",
+        "fall-mcq-10",
         "fall-mcq-03",
-        "fall-mcq-05",
-        "fall-mcq-02",
-        "fall-mcq-06",
-        "fall-mcq-01"
+        "fall-mcq-02"
       ],
       "explanation": "本句的「fell ill」指「進入某種狀態，如 fall asleep / silent / ill」。",
       "sentenceIndex": 8,
@@ -530,12 +496,10 @@ export default {
         "fell ill"
       ],
       "optionReasons": {
-        "fall-mcq-04": "本句指「進入某種狀態，如 fall asleep / silent / ill」。",
-        "fall-mcq-03": "「價格、數量、水平或溫度等下降」是「fall — decrease」的用法，與本句語境不同。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。",
-        "fall-mcq-02": "「身體失去平衡而跌倒」是「fall — lose balance」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。",
-        "fall-mcq-01": "「因重力或失去支撐而由高處向低處移動；掉下、落下」是「fall — physical downward movement」的用法，與本句語境不同。"
+        "fall-mcq-04": "本句的「fell ill」指「進入某種狀態，如 fall asleep / silent / ill」。",
+        "fall-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-04"
     },
@@ -547,11 +511,9 @@ export default {
       "masked": "It is a trap people ____ all the time.",
       "options": [
         "fall-mcq-05",
-        "fall-mcq-04",
-        "fall-mcq-06",
-        "fall-mcq-03",
-        "fall-mcq-07",
-        "fall-mcq-02"
+        "fall-mcq-09",
+        "fall-mcq-11",
+        "fall-mcq-10"
       ],
       "explanation": "本句的「fall into」指「不知不覺進入某種狀況、問題、習慣或困境」。",
       "sentenceIndex": 9,
@@ -560,12 +522,10 @@ export default {
         "fall into"
       ],
       "optionReasons": {
-        "fall-mcq-05": "本句指「不知不覺進入某種狀況、問題、習慣或困境」。",
-        "fall-mcq-04": "「進入某種狀態，如 fall asleep / silent / ill」是「fall + state」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。",
-        "fall-mcq-03": "「價格、數量、水平或溫度等下降」是「fall — decrease」的用法，與本句語境不同。",
-        "fall-mcq-07": "「城市、政府、組織等失守、倒台或垮下」是「fall — defeat/collapse」的用法，與本句語境不同。",
-        "fall-mcq-02": "「身體失去平衡而跌倒」是「fall — lose balance」的用法，與本句語境不同。"
+        "fall-mcq-05": "本句的「fall into」指「不知不覺進入某種狀況、問題、習慣或困境」。",
+        "fall-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-05"
     },
@@ -577,11 +537,9 @@ export default {
       "masked": "It is easy to ____ bad habits.",
       "options": [
         "fall-mcq-05",
-        "fall-mcq-04",
-        "fall-mcq-06",
-        "fall-mcq-03",
+        "fall-mcq-08",
         "fall-mcq-07",
-        "fall-mcq-02"
+        "fall-mcq-11"
       ],
       "explanation": "本句的「fall into」指「不知不覺進入某種狀況、問題、習慣或困境」。",
       "sentenceIndex": 10,
@@ -590,12 +548,10 @@ export default {
         "fall into"
       ],
       "optionReasons": {
-        "fall-mcq-05": "本句指「不知不覺進入某種狀況、問題、習慣或困境」。",
-        "fall-mcq-04": "「進入某種狀態，如 fall asleep / silent / ill」是「fall + state」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。",
-        "fall-mcq-03": "「價格、數量、水平或溫度等下降」是「fall — decrease」的用法，與本句語境不同。",
-        "fall-mcq-07": "「城市、政府、組織等失守、倒台或垮下」是「fall — defeat/collapse」的用法，與本句語境不同。",
-        "fall-mcq-02": "「身體失去平衡而跌倒」是「fall — lose balance」的用法，與本句語境不同。"
+        "fall-mcq-05": "本句的「fall into」指「不知不覺進入某種狀況、問題、習慣或困境」。",
+        "fall-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-05"
     },
@@ -607,11 +563,9 @@ export default {
       "masked": "The company ____ financial difficulty.",
       "options": [
         "fall-mcq-05",
-        "fall-mcq-04",
-        "fall-mcq-06",
-        "fall-mcq-03",
-        "fall-mcq-07",
-        "fall-mcq-02"
+        "fall-mcq-10",
+        "fall-mcq-02",
+        "fall-mcq-07"
       ],
       "explanation": "本句的「fell into」指「不知不覺進入某種狀況、問題、習慣或困境」。",
       "sentenceIndex": 11,
@@ -620,12 +574,10 @@ export default {
         "fell into"
       ],
       "optionReasons": {
-        "fall-mcq-05": "本句指「不知不覺進入某種狀況、問題、習慣或困境」。",
-        "fall-mcq-04": "「進入某種狀態，如 fall asleep / silent / ill」是「fall + state」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。",
-        "fall-mcq-03": "「價格、數量、水平或溫度等下降」是「fall — decrease」的用法，與本句語境不同。",
-        "fall-mcq-07": "「城市、政府、組織等失守、倒台或垮下」是「fall — defeat/collapse」的用法，與本句語境不同。",
-        "fall-mcq-02": "「身體失去平衡而跌倒」是「fall — lose balance」的用法，與本句語境不同。"
+        "fall-mcq-05": "本句的「fell into」指「不知不覺進入某種狀況、問題、習慣或困境」。",
+        "fall-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-05"
     },
@@ -637,11 +589,9 @@ export default {
       "masked": "These cases ____ into three categories.",
       "options": [
         "fall-mcq-06",
-        "fall-mcq-05",
+        "fall-mcq-10",
         "fall-mcq-07",
-        "fall-mcq-04",
-        "fall-mcq-08",
-        "fall-mcq-03"
+        "fall-mcq-02"
       ],
       "explanation": "本句的「fall」指「被歸入某個類別或範圍」。",
       "sentenceIndex": 12,
@@ -650,12 +600,10 @@ export default {
         "fall"
       ],
       "optionReasons": {
-        "fall-mcq-06": "本句指「被歸入某個類別或範圍」。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。",
-        "fall-mcq-07": "「城市、政府、組織等失守、倒台或垮下」是「fall — defeat/collapse」的用法，與本句語境不同。",
-        "fall-mcq-04": "「進入某種狀態，如 fall asleep / silent / ill」是「fall + state」的用法，與本句語境不同。",
-        "fall-mcq-08": "「日期、節日等適逢某一天」是「fall on a date」的用法，與本句語境不同。",
-        "fall-mcq-03": "「價格、數量、水平或溫度等下降」是「fall — decrease」的用法，與本句語境不同。"
+        "fall-mcq-06": "本句的「fall」指「被歸入某個類別或範圍」。",
+        "fall-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-06"
     },
@@ -667,11 +615,9 @@ export default {
       "masked": "The issue ____ under local law.",
       "options": [
         "fall-mcq-06",
-        "fall-mcq-05",
-        "fall-mcq-07",
-        "fall-mcq-04",
+        "fall-mcq-02",
         "fall-mcq-08",
-        "fall-mcq-03"
+        "fall-mcq-07"
       ],
       "explanation": "本句的「falls」指「被歸入某個類別或範圍」。",
       "sentenceIndex": 13,
@@ -680,12 +626,10 @@ export default {
         "falls"
       ],
       "optionReasons": {
-        "fall-mcq-06": "本句指「被歸入某個類別或範圍」。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。",
-        "fall-mcq-07": "「城市、政府、組織等失守、倒台或垮下」是「fall — defeat/collapse」的用法，與本句語境不同。",
-        "fall-mcq-04": "「進入某種狀態，如 fall asleep / silent / ill」是「fall + state」的用法，與本句語境不同。",
-        "fall-mcq-08": "「日期、節日等適逢某一天」是「fall on a date」的用法，與本句語境不同。",
-        "fall-mcq-03": "「價格、數量、水平或溫度等下降」是「fall — decrease」的用法，與本句語境不同。"
+        "fall-mcq-06": "本句的「falls」指「被歸入某個類別或範圍」。",
+        "fall-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-06"
     },
@@ -698,10 +642,8 @@ export default {
       "options": [
         "fall-mcq-07",
         "fall-mcq-06",
-        "fall-mcq-08",
-        "fall-mcq-05",
-        "fall-mcq-09",
-        "fall-mcq-04"
+        "fall-mcq-10",
+        "fall-mcq-01"
       ],
       "explanation": "本句的「fell」指「城市、政府、組織等失守、倒台或垮下」。",
       "sentenceIndex": 14,
@@ -710,12 +652,10 @@ export default {
         "fell"
       ],
       "optionReasons": {
-        "fall-mcq-07": "本句指「城市、政府、組織等失守、倒台或垮下」。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。",
-        "fall-mcq-08": "「日期、節日等適逢某一天」是「fall on a date」的用法，與本句語境不同。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。",
-        "fall-mcq-09": "「某項責任或任務落到某人身上」是「fall to someone」的用法，與本句語境不同。",
-        "fall-mcq-04": "「進入某種狀態，如 fall asleep / silent / ill」是「fall + state」的用法，與本句語境不同。"
+        "fall-mcq-07": "本句的「fell」指「城市、政府、組織等失守、倒台或垮下」。",
+        "fall-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-07"
     },
@@ -727,11 +667,9 @@ export default {
       "masked": "The government ____ after the crisis.",
       "options": [
         "fall-mcq-07",
+        "fall-mcq-10",
         "fall-mcq-06",
-        "fall-mcq-08",
-        "fall-mcq-05",
-        "fall-mcq-09",
-        "fall-mcq-04"
+        "fall-mcq-01"
       ],
       "explanation": "本句的「fell」指「城市、政府、組織等失守、倒台或垮下」。",
       "sentenceIndex": 15,
@@ -740,12 +678,10 @@ export default {
         "fell"
       ],
       "optionReasons": {
-        "fall-mcq-07": "本句指「城市、政府、組織等失守、倒台或垮下」。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。",
-        "fall-mcq-08": "「日期、節日等適逢某一天」是「fall on a date」的用法，與本句語境不同。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。",
-        "fall-mcq-09": "「某項責任或任務落到某人身上」是「fall to someone」的用法，與本句語境不同。",
-        "fall-mcq-04": "「進入某種狀態，如 fall asleep / silent / ill」是「fall + state」的用法，與本句語境不同。"
+        "fall-mcq-07": "本句的「fell」指「城市、政府、組織等失守、倒台或垮下」。",
+        "fall-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-07"
     },
@@ -758,10 +694,8 @@ export default {
       "options": [
         "fall-mcq-07",
         "fall-mcq-06",
-        "fall-mcq-08",
-        "fall-mcq-05",
-        "fall-mcq-09",
-        "fall-mcq-04"
+        "fall-mcq-10",
+        "fall-mcq-01"
       ],
       "explanation": "本句的「fell」指「城市、政府、組織等失守、倒台或垮下」。",
       "sentenceIndex": 16,
@@ -770,12 +704,10 @@ export default {
         "fell"
       ],
       "optionReasons": {
-        "fall-mcq-07": "本句指「城市、政府、組織等失守、倒台或垮下」。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。",
-        "fall-mcq-08": "「日期、節日等適逢某一天」是「fall on a date」的用法，與本句語境不同。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。",
-        "fall-mcq-09": "「某項責任或任務落到某人身上」是「fall to someone」的用法，與本句語境不同。",
-        "fall-mcq-04": "「進入某種狀態，如 fall asleep / silent / ill」是「fall + state」的用法，與本句語境不同。"
+        "fall-mcq-07": "本句的「fell」指「城市、政府、組織等失守、倒台或垮下」。",
+        "fall-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-07"
     },
@@ -787,11 +719,9 @@ export default {
       "masked": "Christmas ____ on a Friday this year.",
       "options": [
         "fall-mcq-08",
-        "fall-mcq-07",
-        "fall-mcq-09",
-        "fall-mcq-06",
-        "fall-mcq-10",
-        "fall-mcq-05"
+        "fall-mcq-04",
+        "fall-mcq-11",
+        "fall-mcq-09"
       ],
       "explanation": "本句的「falls」指「日期、節日等適逢某一天」。",
       "sentenceIndex": 17,
@@ -800,12 +730,10 @@ export default {
         "falls"
       ],
       "optionReasons": {
-        "fall-mcq-08": "本句指「日期、節日等適逢某一天」。",
-        "fall-mcq-07": "「城市、政府、組織等失守、倒台或垮下」是「fall — defeat/collapse」的用法，與本句語境不同。",
-        "fall-mcq-09": "「某項責任或任務落到某人身上」是「fall to someone」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。",
-        "fall-mcq-10": "「秋天／秋季」是「fall — noun, autumn」的用法，與本句語境不同。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。"
+        "fall-mcq-08": "本句的「falls」指「日期、節日等適逢某一天」。",
+        "fall-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-08"
     },
@@ -817,11 +745,9 @@ export default {
       "masked": "The holiday ____ in late September.",
       "options": [
         "fall-mcq-08",
-        "fall-mcq-07",
-        "fall-mcq-09",
-        "fall-mcq-06",
-        "fall-mcq-10",
-        "fall-mcq-05"
+        "fall-mcq-05",
+        "fall-mcq-11",
+        "fall-mcq-09"
       ],
       "explanation": "本句的「falls」指「日期、節日等適逢某一天」。",
       "sentenceIndex": 18,
@@ -830,12 +756,10 @@ export default {
         "falls"
       ],
       "optionReasons": {
-        "fall-mcq-08": "本句指「日期、節日等適逢某一天」。",
-        "fall-mcq-07": "「城市、政府、組織等失守、倒台或垮下」是「fall — defeat/collapse」的用法，與本句語境不同。",
-        "fall-mcq-09": "「某項責任或任務落到某人身上」是「fall to someone」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。",
-        "fall-mcq-10": "「秋天／秋季」是「fall — noun, autumn」的用法，與本句語境不同。",
-        "fall-mcq-05": "「不知不覺進入某種狀況、問題、習慣或困境」是「fall into」的用法，與本句語境不同。"
+        "fall-mcq-08": "本句的「falls」指「日期、節日等適逢某一天」。",
+        "fall-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-08"
     },
@@ -848,10 +772,8 @@ export default {
       "options": [
         "fall-mcq-09",
         "fall-mcq-08",
-        "fall-mcq-10",
-        "fall-mcq-07",
-        "fall-mcq-11",
-        "fall-mcq-06"
+        "fall-mcq-03",
+        "fall-mcq-05"
       ],
       "explanation": "本句的「fell in love」指「某項責任或任務落到某人身上」。",
       "sentenceIndex": 19,
@@ -860,12 +782,10 @@ export default {
         "fell in love"
       ],
       "optionReasons": {
-        "fall-mcq-09": "本句指「某項責任或任務落到某人身上」。",
-        "fall-mcq-08": "「日期、節日等適逢某一天」是「fall on a date」的用法，與本句語境不同。",
-        "fall-mcq-10": "「秋天／秋季」是「fall — noun, autumn」的用法，與本句語境不同。",
-        "fall-mcq-07": "「城市、政府、組織等失守、倒台或垮下」是「fall — defeat/collapse」的用法，與本句語境不同。",
-        "fall-mcq-11": "「一次跌倒；亦可指數值下降」是「a fall — noun」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。"
+        "fall-mcq-09": "本句的「fell in love」指「某項責任或任務落到某人身上」。",
+        "fall-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-09"
     },
@@ -877,11 +797,9 @@ export default {
       "masked": "The responsibility ____ me.",
       "options": [
         "fall-mcq-09",
-        "fall-mcq-08",
+        "fall-mcq-03",
         "fall-mcq-10",
-        "fall-mcq-07",
-        "fall-mcq-11",
-        "fall-mcq-06"
+        "fall-mcq-05"
       ],
       "explanation": "本句的「fell to」指「某項責任或任務落到某人身上」。",
       "sentenceIndex": 20,
@@ -890,12 +808,10 @@ export default {
         "fell to"
       ],
       "optionReasons": {
-        "fall-mcq-09": "本句指「某項責任或任務落到某人身上」。",
-        "fall-mcq-08": "「日期、節日等適逢某一天」是「fall on a date」的用法，與本句語境不同。",
-        "fall-mcq-10": "「秋天／秋季」是「fall — noun, autumn」的用法，與本句語境不同。",
-        "fall-mcq-07": "「城市、政府、組織等失守、倒台或垮下」是「fall — defeat/collapse」的用法，與本句語境不同。",
-        "fall-mcq-11": "「一次跌倒；亦可指數值下降」是「a fall — noun」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。"
+        "fall-mcq-09": "本句的「fell to」指「某項責任或任務落到某人身上」。",
+        "fall-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-09"
     },
@@ -907,11 +823,9 @@ export default {
       "masked": "The task ____ the youngest member.",
       "options": [
         "fall-mcq-09",
+        "fall-mcq-05",
         "fall-mcq-08",
-        "fall-mcq-10",
-        "fall-mcq-07",
-        "fall-mcq-11",
-        "fall-mcq-06"
+        "fall-mcq-11"
       ],
       "explanation": "本句的「fell to」指「某項責任或任務落到某人身上」。",
       "sentenceIndex": 21,
@@ -920,12 +834,10 @@ export default {
         "fell to"
       ],
       "optionReasons": {
-        "fall-mcq-09": "本句指「某項責任或任務落到某人身上」。",
-        "fall-mcq-08": "「日期、節日等適逢某一天」是「fall on a date」的用法，與本句語境不同。",
-        "fall-mcq-10": "「秋天／秋季」是「fall — noun, autumn」的用法，與本句語境不同。",
-        "fall-mcq-07": "「城市、政府、組織等失守、倒台或垮下」是「fall — defeat/collapse」的用法，與本句語境不同。",
-        "fall-mcq-11": "「一次跌倒；亦可指數值下降」是「a fall — noun」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。"
+        "fall-mcq-09": "本句的「fell to」指「某項責任或任務落到某人身上」。",
+        "fall-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-09"
     },
@@ -937,11 +849,9 @@ export default {
       "masked": "The leaves change colour in the ____.",
       "options": [
         "fall-mcq-10",
-        "fall-mcq-09",
+        "fall-mcq-01",
         "fall-mcq-11",
-        "fall-mcq-08",
-        "fall-mcq-07",
-        "fall-mcq-06"
+        "fall-mcq-07"
       ],
       "explanation": "本句的「fall」指「秋天／秋季」。",
       "sentenceIndex": 22,
@@ -950,12 +860,10 @@ export default {
         "fall"
       ],
       "optionReasons": {
-        "fall-mcq-10": "本句指「秋天／秋季」。",
-        "fall-mcq-09": "「某項責任或任務落到某人身上」是「fall to someone」的用法，與本句語境不同。",
-        "fall-mcq-11": "「一次跌倒；亦可指數值下降」是「a fall — noun」的用法，與本句語境不同。",
-        "fall-mcq-08": "「日期、節日等適逢某一天」是「fall on a date」的用法，與本句語境不同。",
-        "fall-mcq-07": "「城市、政府、組織等失守、倒台或垮下」是「fall — defeat/collapse」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。"
+        "fall-mcq-10": "本句的「fall」指「秋天／秋季」。",
+        "fall-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-10"
     },
@@ -967,11 +875,9 @@ export default {
       "masked": "Classes begin in the ____.",
       "options": [
         "fall-mcq-10",
-        "fall-mcq-09",
-        "fall-mcq-11",
-        "fall-mcq-08",
         "fall-mcq-07",
-        "fall-mcq-06"
+        "fall-mcq-05",
+        "fall-mcq-11"
       ],
       "explanation": "本句的「fall」指「秋天／秋季」。",
       "sentenceIndex": 23,
@@ -980,12 +886,10 @@ export default {
         "fall"
       ],
       "optionReasons": {
-        "fall-mcq-10": "本句指「秋天／秋季」。",
-        "fall-mcq-09": "「某項責任或任務落到某人身上」是「fall to someone」的用法，與本句語境不同。",
-        "fall-mcq-11": "「一次跌倒；亦可指數值下降」是「a fall — noun」的用法，與本句語境不同。",
-        "fall-mcq-08": "「日期、節日等適逢某一天」是「fall on a date」的用法，與本句語境不同。",
-        "fall-mcq-07": "「城市、政府、組織等失守、倒台或垮下」是「fall — defeat/collapse」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。"
+        "fall-mcq-10": "本句的「fall」指「秋天／秋季」。",
+        "fall-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-10"
     },
@@ -997,11 +901,9 @@ export default {
       "masked": "He had a bad ____.",
       "options": [
         "fall-mcq-11",
-        "fall-mcq-10",
+        "fall-mcq-05",
         "fall-mcq-09",
-        "fall-mcq-08",
-        "fall-mcq-07",
-        "fall-mcq-06"
+        "fall-mcq-08"
       ],
       "explanation": "本句的「fall」指「一次跌倒；亦可指數值下降」。",
       "sentenceIndex": 24,
@@ -1010,12 +912,10 @@ export default {
         "fall"
       ],
       "optionReasons": {
-        "fall-mcq-11": "本句指「一次跌倒；亦可指數值下降」。",
-        "fall-mcq-10": "「秋天／秋季」是「fall — noun, autumn」的用法，與本句語境不同。",
-        "fall-mcq-09": "「某項責任或任務落到某人身上」是「fall to someone」的用法，與本句語境不同。",
-        "fall-mcq-08": "「日期、節日等適逢某一天」是「fall on a date」的用法，與本句語境不同。",
-        "fall-mcq-07": "「城市、政府、組織等失守、倒台或垮下」是「fall — defeat/collapse」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。"
+        "fall-mcq-11": "本句的「fall」指「一次跌倒；亦可指數值下降」。",
+        "fall-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-11"
     },
@@ -1027,11 +927,9 @@ export default {
       "masked": "There was a sharp ____ in prices.",
       "options": [
         "fall-mcq-11",
+        "fall-mcq-05",
         "fall-mcq-10",
-        "fall-mcq-09",
-        "fall-mcq-08",
-        "fall-mcq-07",
-        "fall-mcq-06"
+        "fall-mcq-09"
       ],
       "explanation": "本句的「fall」指「一次跌倒；亦可指數值下降」。",
       "sentenceIndex": 25,
@@ -1040,12 +938,10 @@ export default {
         "fall"
       ],
       "optionReasons": {
-        "fall-mcq-11": "本句指「一次跌倒；亦可指數值下降」。",
-        "fall-mcq-10": "「秋天／秋季」是「fall — noun, autumn」的用法，與本句語境不同。",
-        "fall-mcq-09": "「某項責任或任務落到某人身上」是「fall to someone」的用法，與本句語境不同。",
-        "fall-mcq-08": "「日期、節日等適逢某一天」是「fall on a date」的用法，與本句語境不同。",
-        "fall-mcq-07": "「城市、政府、組織等失守、倒台或垮下」是「fall — defeat/collapse」的用法，與本句語境不同。",
-        "fall-mcq-06": "「被歸入某個類別或範圍」是「fall — category」的用法，與本句語境不同。"
+        "fall-mcq-11": "本句的「fall」指「一次跌倒；亦可指數值下降」。",
+        "fall-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fall-mcq-11"
     }
@@ -1057,5 +953,7 @@ export default {
     "sha256": "0e2d7d48744304c70137c3641c002cf8977b089006fd911af31706b2125c3ea3",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

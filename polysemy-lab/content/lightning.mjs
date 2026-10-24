@@ -248,18 +248,7 @@ export default {
       "en": "lightning rod",
       "zh": "避雷針",
       "note": "來源詞義：避雷針",
-      "examples": [
-        [
-          "The proposal became a lightning rod for criticism.",
-          "這項提議成為批評的焦點。",
-          "避雷針"
-        ],
-        [
-          "He has become a lightning rod for public anger.",
-          "他成了公眾憤怒集中的對象。",
-          "避雷針"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -350,6 +339,28 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "lightning-reviewed-52f26221fb",
+      "title": "容易吸引大量批評、憤怒或爭議的人或事物",
+      "form": "lightning · source section 9",
+      "en": "容易吸引大量批評、憤怒或爭議的人或事物",
+      "zh": "容易吸引大量批評、憤怒或爭議的人或事物",
+      "note": "對照原始教材第 9 節及例句核實。",
+      "examples": [
+        [
+          "The proposal became a lightning rod for criticism.",
+          "這項提議成為批評的焦點。",
+          "容易吸引大量批評、憤怒或爭議的人或事物"
+        ],
+        [
+          "He has become a lightning rod for public anger.",
+          "他成了公眾憤怒集中的對象。",
+          "容易吸引大量批評、憤怒或爭議的人或事物"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -361,11 +372,9 @@ export default {
       "masked": "A flash of ____ lit up the whole sky.",
       "options": [
         "lightning-mcq-01",
-        "lightning-mcq-02",
-        "lightning-mcq-04",
-        "lightning-mcq-05",
-        "lightning-mcq-06",
-        "lightning-mcq-07"
+        "lightning-mcq-15",
+        "lightning-mcq-11",
+        "lightning-mcq-16"
       ],
       "explanation": "本句的「lightning」指「閃電」。",
       "sentenceIndex": 0,
@@ -374,12 +383,10 @@ export default {
         "lightning"
       ],
       "optionReasons": {
-        "lightning-mcq-01": "本句指「閃電」。",
-        "lightning-mcq-02": "「一道閃電」是「a flash of lightning」的用法，與本句語境不同。",
-        "lightning-mcq-04": "「雷擊」是「lightning strike」的用法，與本句語境不同。",
-        "lightning-mcq-05": "「閃電般的速度；極快速度」是「lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。"
+        "lightning-mcq-01": "本句的「lightning」指「閃電」。",
+        "lightning-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-01"
     },
@@ -391,11 +398,9 @@ export default {
       "masked": "We could see ____ in the distance.",
       "options": [
         "lightning-mcq-01",
-        "lightning-mcq-02",
         "lightning-mcq-04",
-        "lightning-mcq-05",
-        "lightning-mcq-06",
-        "lightning-mcq-07"
+        "lightning-reviewed-52f26221fb",
+        "lightning-mcq-15"
       ],
       "explanation": "本句的「lightning」指「閃電」。",
       "sentenceIndex": 1,
@@ -404,12 +409,10 @@ export default {
         "lightning"
       ],
       "optionReasons": {
-        "lightning-mcq-01": "本句指「閃電」。",
-        "lightning-mcq-02": "「一道閃電」是「a flash of lightning」的用法，與本句語境不同。",
-        "lightning-mcq-04": "「雷擊」是「lightning strike」的用法，與本句語境不同。",
-        "lightning-mcq-05": "「閃電般的速度；極快速度」是「lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。"
+        "lightning-mcq-01": "本句的「lightning」指「閃電」。",
+        "lightning-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-01"
     },
@@ -421,11 +424,9 @@ export default {
       "masked": "A sudden ____ was followed by thunder.",
       "options": [
         "lightning-mcq-02",
-        "lightning-mcq-01",
-        "lightning-mcq-04",
-        "lightning-mcq-05",
-        "lightning-mcq-06",
-        "lightning-mcq-07"
+        "lightning-mcq-14",
+        "lightning-reviewed-52f26221fb",
+        "lightning-mcq-04"
       ],
       "explanation": "本句的「flash of lightning」指「一道閃電」。",
       "sentenceIndex": 2,
@@ -434,12 +435,10 @@ export default {
         "flash of lightning"
       ],
       "optionReasons": {
-        "lightning-mcq-02": "本句指「一道閃電」。",
-        "lightning-mcq-01": "「閃電」是「lightning」的用法，與本句語境不同。",
-        "lightning-mcq-04": "「雷擊」是「lightning strike」的用法，與本句語境不同。",
-        "lightning-mcq-05": "「閃電般的速度；極快速度」是「lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。"
+        "lightning-mcq-02": "本句的「flash of lightning」指「一道閃電」。",
+        "lightning-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-02"
     },
@@ -451,11 +450,9 @@ export default {
       "masked": "A ____ struck a tree beside the road.",
       "options": [
         "lightning-mcq-02",
-        "lightning-mcq-01",
-        "lightning-mcq-04",
-        "lightning-mcq-05",
-        "lightning-mcq-06",
-        "lightning-mcq-07"
+        "lightning-mcq-15",
+        "lightning-mcq-11",
+        "lightning-mcq-16"
       ],
       "explanation": "本句的「bolt of lightning」指「一道閃電」。",
       "sentenceIndex": 3,
@@ -464,12 +461,10 @@ export default {
         "bolt of lightning"
       ],
       "optionReasons": {
-        "lightning-mcq-02": "本句指「一道閃電」。",
-        "lightning-mcq-01": "「閃電」是「lightning」的用法，與本句語境不同。",
-        "lightning-mcq-04": "「雷擊」是「lightning strike」的用法，與本句語境不同。",
-        "lightning-mcq-05": "「閃電般的速度；極快速度」是「lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。"
+        "lightning-mcq-02": "本句的「bolt of lightning」指「一道閃電」。",
+        "lightning-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-02"
     },
@@ -481,11 +476,9 @@ export default {
       "masked": "The tree was damaged by a ____.",
       "options": [
         "lightning-mcq-04",
-        "lightning-mcq-03",
         "lightning-mcq-05",
-        "lightning-mcq-06",
-        "lightning-mcq-01",
-        "lightning-mcq-07"
+        "lightning-mcq-16",
+        "lightning-reviewed-52f26221fb"
       ],
       "explanation": "本句的「lightning strike」指「雷擊」。",
       "sentenceIndex": 4,
@@ -494,12 +487,10 @@ export default {
         "lightning strike"
       ],
       "optionReasons": {
-        "lightning-mcq-04": "本句指「雷擊」。",
-        "lightning-mcq-03": "「一道閃電」是「a bolt of lightning」的用法，與本句語境不同。",
-        "lightning-mcq-05": "「閃電般的速度；極快速度」是「lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-01": "「閃電」是「lightning」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。"
+        "lightning-mcq-04": "本句的「lightning strike」指「雷擊」。",
+        "lightning-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-04"
     },
@@ -511,11 +502,9 @@ export default {
       "masked": "____ the roof during the storm.",
       "options": [
         "lightning-mcq-04",
-        "lightning-mcq-03",
-        "lightning-mcq-05",
-        "lightning-mcq-06",
-        "lightning-mcq-01",
-        "lightning-mcq-07"
+        "lightning-mcq-10",
+        "lightning-reviewed-52f26221fb",
+        "lightning-mcq-14"
       ],
       "explanation": "本句的「Lightning struck」指「雷擊」。",
       "sentenceIndex": 5,
@@ -524,12 +513,10 @@ export default {
         "Lightning struck"
       ],
       "optionReasons": {
-        "lightning-mcq-04": "本句指「雷擊」。",
-        "lightning-mcq-03": "「一道閃電」是「a bolt of lightning」的用法，與本句語境不同。",
-        "lightning-mcq-05": "「閃電般的速度；極快速度」是「lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-01": "「閃電」是「lightning」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。"
+        "lightning-mcq-04": "本句的「Lightning struck」指「雷擊」。",
+        "lightning-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-04"
     },
@@ -541,11 +528,9 @@ export default {
       "masked": "His mind moves at ____.",
       "options": [
         "lightning-mcq-05",
-        "lightning-mcq-04",
-        "lightning-mcq-06",
-        "lightning-mcq-03",
-        "lightning-mcq-07",
-        "lightning-mcq-08"
+        "lightning-mcq-11",
+        "lightning-mcq-14",
+        "lightning-mcq-16"
       ],
       "explanation": "本句的「lightning speed」指「閃電般的速度；極快速度」。",
       "sentenceIndex": 6,
@@ -554,12 +539,10 @@ export default {
         "lightning speed"
       ],
       "optionReasons": {
-        "lightning-mcq-05": "本句指「閃電般的速度；極快速度」。",
-        "lightning-mcq-04": "「雷擊」是「lightning strike」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-03": "「一道閃電」是「a bolt of lightning」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。"
+        "lightning-mcq-05": "本句的「lightning speed」指「閃電般的速度；極快速度」。",
+        "lightning-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-05"
     },
@@ -571,11 +554,9 @@ export default {
       "masked": "Technology is developing at ____.",
       "options": [
         "lightning-mcq-05",
-        "lightning-mcq-04",
-        "lightning-mcq-06",
-        "lightning-mcq-03",
-        "lightning-mcq-07",
-        "lightning-mcq-08"
+        "lightning-mcq-11",
+        "lightning-mcq-16",
+        "lightning-mcq-14"
       ],
       "explanation": "本句的「lightning speed」指「閃電般的速度；極快速度」。",
       "sentenceIndex": 7,
@@ -584,12 +565,10 @@ export default {
         "lightning speed"
       ],
       "optionReasons": {
-        "lightning-mcq-05": "本句指「閃電般的速度；極快速度」。",
-        "lightning-mcq-04": "「雷擊」是「lightning strike」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-03": "「一道閃電」是「a bolt of lightning」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。"
+        "lightning-mcq-05": "本句的「lightning speed」指「閃電般的速度；極快速度」。",
+        "lightning-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-05"
     },
@@ -601,11 +580,9 @@ export default {
       "masked": "The news spread across social media at ____.",
       "options": [
         "lightning-mcq-05",
+        "lightning-mcq-14",
         "lightning-mcq-04",
-        "lightning-mcq-06",
-        "lightning-mcq-03",
-        "lightning-mcq-07",
-        "lightning-mcq-08"
+        "lightning-mcq-16"
       ],
       "explanation": "本句的「lightning speed」指「閃電般的速度；極快速度」。",
       "sentenceIndex": 8,
@@ -614,12 +591,10 @@ export default {
         "lightning speed"
       ],
       "optionReasons": {
-        "lightning-mcq-05": "本句指「閃電般的速度；極快速度」。",
-        "lightning-mcq-04": "「雷擊」是「lightning strike」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-03": "「一道閃電」是「a bolt of lightning」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。"
+        "lightning-mcq-05": "本句的「lightning speed」指「閃電般的速度；極快速度」。",
+        "lightning-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-05"
     },
@@ -631,11 +606,9 @@ export default {
       "masked": "She completed the calculations at ____.",
       "options": [
         "lightning-mcq-06",
-        "lightning-mcq-05",
-        "lightning-mcq-07",
         "lightning-mcq-04",
-        "lightning-mcq-08",
-        "lightning-mcq-03"
+        "lightning-mcq-01",
+        "lightning-mcq-14"
       ],
       "explanation": "本句的「lightning speed」指「以極快速度」。",
       "sentenceIndex": 9,
@@ -644,12 +617,10 @@ export default {
         "lightning speed"
       ],
       "optionReasons": {
-        "lightning-mcq-06": "本句指「以極快速度」。",
-        "lightning-mcq-05": "「閃電般的速度；極快速度」是「lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。",
-        "lightning-mcq-04": "「雷擊」是「lightning strike」的用法，與本句語境不同。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。",
-        "lightning-mcq-03": "「一道閃電」是「a bolt of lightning」的用法，與本句語境不同。"
+        "lightning-mcq-06": "本句的「lightning speed」指「以極快速度」。",
+        "lightning-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-06"
     },
@@ -661,11 +632,9 @@ export default {
       "masked": "The situation changed at ____.",
       "options": [
         "lightning-mcq-06",
-        "lightning-mcq-05",
-        "lightning-mcq-07",
         "lightning-mcq-04",
-        "lightning-mcq-08",
-        "lightning-mcq-03"
+        "lightning-mcq-02",
+        "lightning-reviewed-52f26221fb"
       ],
       "explanation": "本句的「lightning speed」指「以極快速度」。",
       "sentenceIndex": 10,
@@ -674,12 +643,10 @@ export default {
         "lightning speed"
       ],
       "optionReasons": {
-        "lightning-mcq-06": "本句指「以極快速度」。",
-        "lightning-mcq-05": "「閃電般的速度；極快速度」是「lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。",
-        "lightning-mcq-04": "「雷擊」是「lightning strike」的用法，與本句語境不同。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。",
-        "lightning-mcq-03": "「一道閃電」是「a bolt of lightning」的用法，與本句語境不同。"
+        "lightning-mcq-06": "本句的「lightning speed」指「以極快速度」。",
+        "lightning-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-06"
     },
@@ -691,11 +658,9 @@ export default {
       "masked": "The goalkeeper showed ____.",
       "options": [
         "lightning-mcq-07",
-        "lightning-mcq-06",
-        "lightning-mcq-08",
-        "lightning-mcq-05",
-        "lightning-mcq-09",
-        "lightning-mcq-04"
+        "lightning-mcq-16",
+        "lightning-mcq-04",
+        "lightning-reviewed-52f26221fb"
       ],
       "explanation": "本句的「lightning-fast reflexes」指「快如閃電的」。",
       "sentenceIndex": 11,
@@ -704,12 +669,10 @@ export default {
         "lightning-fast reflexes"
       ],
       "optionReasons": {
-        "lightning-mcq-07": "本句指「快如閃電的」。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。",
-        "lightning-mcq-05": "「閃電般的速度；極快速度」是「lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-09": "「快如閃電」是「like lightning」的用法，與本句語境不同。",
-        "lightning-mcq-04": "「雷擊」是「lightning strike」的用法，與本句語境不同。"
+        "lightning-mcq-07": "本句的「lightning-fast reflexes」指「快如閃電的」。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-07"
     },
@@ -721,11 +684,9 @@ export default {
       "masked": "The new processor delivers ____.",
       "options": [
         "lightning-mcq-07",
-        "lightning-mcq-06",
-        "lightning-mcq-08",
-        "lightning-mcq-05",
-        "lightning-mcq-09",
-        "lightning-mcq-04"
+        "lightning-mcq-11",
+        "lightning-mcq-16",
+        "lightning-reviewed-52f26221fb"
       ],
       "explanation": "本句的「lightning-fast performance」指「快如閃電的」。",
       "sentenceIndex": 12,
@@ -734,12 +695,10 @@ export default {
         "lightning-fast performance"
       ],
       "optionReasons": {
-        "lightning-mcq-07": "本句指「快如閃電的」。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。",
-        "lightning-mcq-05": "「閃電般的速度；極快速度」是「lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-09": "「快如閃電」是「like lightning」的用法，與本句語境不同。",
-        "lightning-mcq-04": "「雷擊」是「lightning strike」的用法，與本句語境不同。"
+        "lightning-mcq-07": "本句的「lightning-fast performance」指「快如閃電的」。",
+        "lightning-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-07"
     },
@@ -751,11 +710,9 @@ export default {
       "masked": "She has ____.",
       "options": [
         "lightning-mcq-08",
-        "lightning-mcq-07",
-        "lightning-mcq-09",
-        "lightning-mcq-06",
-        "lightning-mcq-05",
-        "lightning-mcq-11"
+        "lightning-mcq-01",
+        "lightning-mcq-11",
+        "lightning-mcq-14"
       ],
       "explanation": "本句的「lightning-quick reactions」指「反應／動作極快的」。",
       "sentenceIndex": 13,
@@ -764,12 +721,10 @@ export default {
         "lightning-quick reactions"
       ],
       "optionReasons": {
-        "lightning-mcq-08": "本句指「反應／動作極快的」。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。",
-        "lightning-mcq-09": "「快如閃電」是「like lightning」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-05": "「閃電般的速度；極快速度」是「lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-11": "「避雷針」是「lightning conductor」的用法，與本句語境不同。"
+        "lightning-mcq-08": "本句的「lightning-quick reactions」指「反應／動作極快的」。",
+        "lightning-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-08"
     },
@@ -781,11 +736,9 @@ export default {
       "masked": "With one ____, he caught the falling glass.",
       "options": [
         "lightning-mcq-08",
-        "lightning-mcq-07",
-        "lightning-mcq-09",
-        "lightning-mcq-06",
-        "lightning-mcq-05",
-        "lightning-mcq-11"
+        "lightning-reviewed-52f26221fb",
+        "lightning-mcq-04",
+        "lightning-mcq-16"
       ],
       "explanation": "本句的「lightning-quick movement」指「反應／動作極快的」。",
       "sentenceIndex": 14,
@@ -794,12 +747,10 @@ export default {
         "lightning-quick movement"
       ],
       "optionReasons": {
-        "lightning-mcq-08": "本句指「反應／動作極快的」。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。",
-        "lightning-mcq-09": "「快如閃電」是「like lightning」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-05": "「閃電般的速度；極快速度」是「lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-11": "「避雷針」是「lightning conductor」的用法，與本句語境不同。"
+        "lightning-mcq-08": "本句的「lightning-quick movement」指「反應／動作極快的」。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-08"
     },
@@ -811,11 +762,9 @@ export default {
       "masked": "The building is fitted with a ____.",
       "options": [
         "lightning-mcq-11",
-        "lightning-mcq-10",
-        "lightning-mcq-13",
-        "lightning-mcq-08",
-        "lightning-mcq-14",
-        "lightning-mcq-07"
+        "lightning-mcq-02",
+        "lightning-mcq-15",
+        "lightning-reviewed-52f26221fb"
       ],
       "explanation": "本句的「lightning conductor」指「避雷針」。",
       "sentenceIndex": 15,
@@ -824,12 +773,10 @@ export default {
         "lightning conductor"
       ],
       "optionReasons": {
-        "lightning-mcq-11": "本句指「避雷針」。",
-        "lightning-mcq-10": "「快如閃電」是「as quick as lightning」的用法，與本句語境不同。",
-        "lightning-mcq-13": "「批評集中的焦點」是「a lightning rod for criticism」的用法，與本句語境不同。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。",
-        "lightning-mcq-14": "「螢火蟲」是「lightning bug」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。"
+        "lightning-mcq-11": "本句的「lightning conductor」指「避雷針」。",
+        "lightning-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-11"
     },
@@ -841,11 +788,9 @@ export default {
       "masked": "The church tower has a ____ on top.",
       "options": [
         "lightning-mcq-11",
-        "lightning-mcq-10",
-        "lightning-mcq-13",
-        "lightning-mcq-08",
+        "lightning-mcq-09",
         "lightning-mcq-14",
-        "lightning-mcq-07"
+        "lightning-reviewed-52f26221fb"
       ],
       "explanation": "本句的「lightning rod」指「避雷針」。",
       "sentenceIndex": 16,
@@ -854,74 +799,68 @@ export default {
         "lightning rod"
       ],
       "optionReasons": {
-        "lightning-mcq-11": "本句指「避雷針」。",
-        "lightning-mcq-10": "「快如閃電」是「as quick as lightning」的用法，與本句語境不同。",
-        "lightning-mcq-13": "「批評集中的焦點」是「a lightning rod for criticism」的用法，與本句語境不同。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。",
-        "lightning-mcq-14": "「螢火蟲」是「lightning bug」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。"
+        "lightning-mcq-11": "本句的「lightning rod」指「避雷針」。",
+        "lightning-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-11"
     },
     {
       "id": "lightning-09-0",
-      "sense": "lightning-mcq-12",
+      "sense": "lightning-reviewed-52f26221fb",
       "en": "The proposal became a lightning rod for criticism.",
       "zh": "這項提議成為批評的焦點。",
       "masked": "The proposal became a ____.",
       "options": [
-        "lightning-mcq-12",
-        "lightning-mcq-13",
-        "lightning-mcq-10",
-        "lightning-mcq-14",
-        "lightning-mcq-15",
-        "lightning-mcq-08"
+        "lightning-reviewed-52f26221fb",
+        "lightning-mcq-07",
+        "lightning-mcq-04",
+        "lightning-mcq-16"
       ],
-      "explanation": "本句的「lightning rod for criticism」指「避雷針」。",
+      "explanation": "對照完整句子：「這項提議成為批評的焦點。」。這裡的「lightning rod for criticism」表示「容易吸引大量批評、憤怒或爭議的人或事物」。",
       "sentenceIndex": 17,
       "sourcePractice": 1,
       "targets": [
         "lightning rod for criticism"
       ],
       "optionReasons": {
-        "lightning-mcq-12": "本句指「避雷針」。",
-        "lightning-mcq-13": "「批評集中的焦點」是「a lightning rod for criticism」的用法，與本句語境不同。",
-        "lightning-mcq-10": "「快如閃電」是「as quick as lightning」的用法，與本句語境不同。",
-        "lightning-mcq-14": "「螢火蟲」是「lightning bug」的用法，與本句語境不同。",
-        "lightning-mcq-15": "「快得驚人」是「greased lightning」的用法，與本句語境不同。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。"
+        "lightning-reviewed-52f26221fb": "對照完整句子：「這項提議成為批評的焦點。」。這裡的「lightning rod for criticism」表示「容易吸引大量批評、憤怒或爭議的人或事物」。",
+        "lightning-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "lightning-mcq-12"
+      "correctOption": "lightning-reviewed-52f26221fb",
+      "previousCorrectOption": "lightning-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "lightning-09-1",
-      "sense": "lightning-mcq-12",
+      "sense": "lightning-reviewed-52f26221fb",
       "en": "He has become a lightning rod for public anger.",
       "zh": "他成了公眾憤怒集中的對象。",
       "masked": "He has become a ____.",
       "options": [
-        "lightning-mcq-12",
-        "lightning-mcq-13",
-        "lightning-mcq-10",
-        "lightning-mcq-14",
+        "lightning-reviewed-52f26221fb",
         "lightning-mcq-15",
-        "lightning-mcq-08"
+        "lightning-mcq-02",
+        "lightning-mcq-14"
       ],
-      "explanation": "本句的「lightning rod for public anger」指「避雷針」。",
+      "explanation": "對照完整句子：「他成了公眾憤怒集中的對象。」。這裡的「lightning rod for public anger」表示「容易吸引大量批評、憤怒或爭議的人或事物」。",
       "sentenceIndex": 18,
       "sourcePractice": 2,
       "targets": [
         "lightning rod for public anger"
       ],
       "optionReasons": {
-        "lightning-mcq-12": "本句指「避雷針」。",
-        "lightning-mcq-13": "「批評集中的焦點」是「a lightning rod for criticism」的用法，與本句語境不同。",
-        "lightning-mcq-10": "「快如閃電」是「as quick as lightning」的用法，與本句語境不同。",
-        "lightning-mcq-14": "「螢火蟲」是「lightning bug」的用法，與本句語境不同。",
-        "lightning-mcq-15": "「快得驚人」是「greased lightning」的用法，與本句語境不同。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。"
+        "lightning-reviewed-52f26221fb": "對照完整句子：「他成了公眾憤怒集中的對象。」。這裡的「lightning rod for public anger」表示「容易吸引大量批評、憤怒或爭議的人或事物」。",
+        "lightning-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "lightning-mcq-12"
+      "correctOption": "lightning-reviewed-52f26221fb",
+      "previousCorrectOption": "lightning-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "lightning-10-0",
@@ -931,11 +870,9 @@ export default {
       "masked": "The children caught ____ in the garden.",
       "options": [
         "lightning-mcq-14",
-        "lightning-mcq-13",
-        "lightning-mcq-15",
-        "lightning-mcq-12",
-        "lightning-mcq-16",
-        "lightning-mcq-17"
+        "lightning-mcq-04",
+        "lightning-mcq-05",
+        "lightning-reviewed-52f26221fb"
       ],
       "explanation": "本句的「lightning bugs」指「螢火蟲」。",
       "sentenceIndex": 19,
@@ -944,12 +881,10 @@ export default {
         "lightning bugs"
       ],
       "optionReasons": {
-        "lightning-mcq-14": "本句指「螢火蟲」。",
-        "lightning-mcq-13": "「批評集中的焦點」是「a lightning rod for criticism」的用法，與本句語境不同。",
-        "lightning-mcq-15": "「快得驚人」是「greased lightning」的用法，與本句語境不同。",
-        "lightning-mcq-12": "「避雷針」是「lightning rod」的用法，與本句語境不同。",
-        "lightning-mcq-16": "「同樣罕見的事通常不會再次發生」是「lightning never strikes twice」的用法，與本句語境不同。",
-        "lightning-mcq-17": "「變亮／變淡／減輕」是「lightening」的用法，與本句語境不同。"
+        "lightning-mcq-14": "本句的「lightning bugs」指「螢火蟲」。",
+        "lightning-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-14"
     },
@@ -961,11 +896,9 @@ export default {
       "masked": "We saw hundreds of ____ glowing after dark.",
       "options": [
         "lightning-mcq-14",
-        "lightning-mcq-13",
-        "lightning-mcq-15",
-        "lightning-mcq-12",
-        "lightning-mcq-16",
-        "lightning-mcq-17"
+        "lightning-mcq-01",
+        "lightning-mcq-11",
+        "lightning-mcq-15"
       ],
       "explanation": "本句的「lightning bugs」指「螢火蟲」。",
       "sentenceIndex": 20,
@@ -974,12 +907,10 @@ export default {
         "lightning bugs"
       ],
       "optionReasons": {
-        "lightning-mcq-14": "本句指「螢火蟲」。",
-        "lightning-mcq-13": "「批評集中的焦點」是「a lightning rod for criticism」的用法，與本句語境不同。",
-        "lightning-mcq-15": "「快得驚人」是「greased lightning」的用法，與本句語境不同。",
-        "lightning-mcq-12": "「避雷針」是「lightning rod」的用法，與本句語境不同。",
-        "lightning-mcq-16": "「同樣罕見的事通常不會再次發生」是「lightning never strikes twice」的用法，與本句語境不同。",
-        "lightning-mcq-17": "「變亮／變淡／減輕」是「lightening」的用法，與本句語境不同。"
+        "lightning-mcq-14": "本句的「lightning bugs」指「螢火蟲」。",
+        "lightning-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-14"
     },
@@ -991,11 +922,9 @@ export default {
       "masked": "He ran out of the room ____.",
       "options": [
         "lightning-mcq-09",
-        "lightning-mcq-08",
-        "lightning-mcq-07",
-        "lightning-mcq-11",
-        "lightning-mcq-06",
-        "lightning-mcq-05"
+        "lightning-mcq-16",
+        "lightning-reviewed-52f26221fb",
+        "lightning-mcq-14"
       ],
       "explanation": "本句的「like lightning」指「快如閃電」。",
       "sentenceIndex": 21,
@@ -1004,12 +933,10 @@ export default {
         "like lightning"
       ],
       "optionReasons": {
-        "lightning-mcq-09": "本句指「快如閃電」。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。",
-        "lightning-mcq-11": "「避雷針」是「lightning conductor」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-05": "「閃電般的速度；極快速度」是「lightning speed」的用法，與本句語境不同。"
+        "lightning-mcq-09": "本句的「like lightning」指「快如閃電」。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-09"
     },
@@ -1021,11 +948,9 @@ export default {
       "masked": "She reacted ____ and grabbed the child before he fell.",
       "options": [
         "lightning-mcq-09",
-        "lightning-mcq-08",
-        "lightning-mcq-07",
-        "lightning-mcq-11",
-        "lightning-mcq-06",
-        "lightning-mcq-05"
+        "lightning-mcq-14",
+        "lightning-mcq-16",
+        "lightning-mcq-04"
       ],
       "explanation": "本句的「like lightning」指「快如閃電」。",
       "sentenceIndex": 22,
@@ -1034,12 +959,10 @@ export default {
         "like lightning"
       ],
       "optionReasons": {
-        "lightning-mcq-09": "本句指「快如閃電」。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。",
-        "lightning-mcq-11": "「避雷針」是「lightning conductor」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。",
-        "lightning-mcq-05": "「閃電般的速度；極快速度」是「lightning speed」的用法，與本句語境不同。"
+        "lightning-mcq-09": "本句的「like lightning」指「快如閃電」。",
+        "lightning-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-09"
     },
@@ -1051,11 +974,9 @@ export default {
       "masked": "His hands were ____.",
       "options": [
         "lightning-mcq-10",
+        "lightning-mcq-16",
         "lightning-mcq-11",
-        "lightning-mcq-08",
-        "lightning-mcq-07",
-        "lightning-mcq-13",
-        "lightning-mcq-06"
+        "lightning-mcq-14"
       ],
       "explanation": "本句的「as quick as lightning」指「快如閃電」。",
       "sentenceIndex": 23,
@@ -1064,12 +985,10 @@ export default {
         "as quick as lightning"
       ],
       "optionReasons": {
-        "lightning-mcq-10": "本句指「快如閃電」。",
-        "lightning-mcq-11": "「避雷針」是「lightning conductor」的用法，與本句語境不同。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。",
-        "lightning-mcq-13": "「批評集中的焦點」是「a lightning rod for criticism」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。"
+        "lightning-mcq-10": "本句的「as quick as lightning」指「快如閃電」。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-10"
     },
@@ -1081,11 +1000,9 @@ export default {
       "masked": "She was ____ when she saw the glass beginning to fall.",
       "options": [
         "lightning-mcq-10",
-        "lightning-mcq-11",
-        "lightning-mcq-08",
-        "lightning-mcq-07",
-        "lightning-mcq-13",
-        "lightning-mcq-06"
+        "lightning-mcq-16",
+        "lightning-mcq-14",
+        "lightning-reviewed-52f26221fb"
       ],
       "explanation": "本句的「as quick as lightning」指「快如閃電」。",
       "sentenceIndex": 24,
@@ -1094,12 +1011,10 @@ export default {
         "as quick as lightning"
       ],
       "optionReasons": {
-        "lightning-mcq-10": "本句指「快如閃電」。",
-        "lightning-mcq-11": "「避雷針」是「lightning conductor」的用法，與本句語境不同。",
-        "lightning-mcq-08": "「反應／動作極快的」是「lightning-quick」的用法，與本句語境不同。",
-        "lightning-mcq-07": "「快如閃電的」是「lightning-fast」的用法，與本句語境不同。",
-        "lightning-mcq-13": "「批評集中的焦點」是「a lightning rod for criticism」的用法，與本句語境不同。",
-        "lightning-mcq-06": "「以極快速度」是「at lightning speed」的用法，與本句語境不同。"
+        "lightning-mcq-10": "本句的「as quick as lightning」指「快如閃電」。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-10"
     },
@@ -1111,11 +1026,9 @@ export default {
       "masked": "That new motorbike goes like ____.",
       "options": [
         "lightning-mcq-15",
-        "lightning-mcq-14",
         "lightning-mcq-16",
-        "lightning-mcq-13",
-        "lightning-mcq-17",
-        "lightning-mcq-12"
+        "lightning-mcq-01",
+        "lightning-reviewed-52f26221fb"
       ],
       "explanation": "本句的「greased lightning」指「快得驚人」。",
       "sentenceIndex": 25,
@@ -1124,12 +1037,10 @@ export default {
         "greased lightning"
       ],
       "optionReasons": {
-        "lightning-mcq-15": "本句指「快得驚人」。",
-        "lightning-mcq-14": "「螢火蟲」是「lightning bug」的用法，與本句語境不同。",
-        "lightning-mcq-16": "「同樣罕見的事通常不會再次發生」是「lightning never strikes twice」的用法，與本句語境不同。",
-        "lightning-mcq-13": "「批評集中的焦點」是「a lightning rod for criticism」的用法，與本句語境不同。",
-        "lightning-mcq-17": "「變亮／變淡／減輕」是「lightening」的用法，與本句語境不同。",
-        "lightning-mcq-12": "「避雷針」是「lightning rod」的用法，與本句語境不同。"
+        "lightning-mcq-15": "本句的「greased lightning」指「快得驚人」。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-15"
     },
@@ -1143,9 +1054,7 @@ export default {
         "lightning-mcq-15",
         "lightning-mcq-14",
         "lightning-mcq-16",
-        "lightning-mcq-13",
-        "lightning-mcq-17",
-        "lightning-mcq-12"
+        "lightning-mcq-02"
       ],
       "explanation": "本句的「greased lightning」指「快得驚人」。",
       "sentenceIndex": 26,
@@ -1154,12 +1063,10 @@ export default {
         "greased lightning"
       ],
       "optionReasons": {
-        "lightning-mcq-15": "本句指「快得驚人」。",
-        "lightning-mcq-14": "「螢火蟲」是「lightning bug」的用法，與本句語境不同。",
-        "lightning-mcq-16": "「同樣罕見的事通常不會再次發生」是「lightning never strikes twice」的用法，與本句語境不同。",
-        "lightning-mcq-13": "「批評集中的焦點」是「a lightning rod for criticism」的用法，與本句語境不同。",
-        "lightning-mcq-17": "「變亮／變淡／減輕」是「lightening」的用法，與本句語境不同。",
-        "lightning-mcq-12": "「避雷針」是「lightning rod」的用法，與本句語境不同。"
+        "lightning-mcq-15": "本句的「greased lightning」指「快得驚人」。",
+        "lightning-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-15"
     },
@@ -1171,11 +1078,9 @@ export default {
       "masked": "He had already won once and assumed that ____.",
       "options": [
         "lightning-mcq-16",
-        "lightning-mcq-15",
-        "lightning-mcq-17",
-        "lightning-mcq-14",
-        "lightning-mcq-13",
-        "lightning-mcq-12"
+        "lightning-mcq-08",
+        "lightning-mcq-11",
+        "lightning-reviewed-52f26221fb"
       ],
       "explanation": "本句的「lightning wouldn't strike twice」指「同樣罕見的事通常不會再次發生」。",
       "sentenceIndex": 27,
@@ -1184,12 +1089,10 @@ export default {
         "lightning wouldn't strike twice"
       ],
       "optionReasons": {
-        "lightning-mcq-16": "本句指「同樣罕見的事通常不會再次發生」。",
-        "lightning-mcq-15": "「快得驚人」是「greased lightning」的用法，與本句語境不同。",
-        "lightning-mcq-17": "「變亮／變淡／減輕」是「lightening」的用法，與本句語境不同。",
-        "lightning-mcq-14": "「螢火蟲」是「lightning bug」的用法，與本句語境不同。",
-        "lightning-mcq-13": "「批評集中的焦點」是「a lightning rod for criticism」的用法，與本句語境不同。",
-        "lightning-mcq-12": "「避雷針」是「lightning rod」的用法，與本句語境不同。"
+        "lightning-mcq-16": "本句的「lightning wouldn't strike twice」指「同樣罕見的事通常不會再次發生」。",
+        "lightning-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lightning-reviewed-52f26221fb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-16"
     },
@@ -1201,11 +1104,9 @@ export default {
       "masked": "They thought ____, but the same problem happened again.",
       "options": [
         "lightning-mcq-16",
-        "lightning-mcq-15",
-        "lightning-mcq-17",
-        "lightning-mcq-14",
-        "lightning-mcq-13",
-        "lightning-mcq-12"
+        "lightning-mcq-06",
+        "lightning-mcq-04",
+        "lightning-mcq-01"
       ],
       "explanation": "本句的「lightning never strikes twice」指「同樣罕見的事通常不會再次發生」。",
       "sentenceIndex": 28,
@@ -1214,12 +1115,10 @@ export default {
         "lightning never strikes twice"
       ],
       "optionReasons": {
-        "lightning-mcq-16": "本句指「同樣罕見的事通常不會再次發生」。",
-        "lightning-mcq-15": "「快得驚人」是「greased lightning」的用法，與本句語境不同。",
-        "lightning-mcq-17": "「變亮／變淡／減輕」是「lightening」的用法，與本句語境不同。",
-        "lightning-mcq-14": "「螢火蟲」是「lightning bug」的用法，與本句語境不同。",
-        "lightning-mcq-13": "「批評集中的焦點」是「a lightning rod for criticism」的用法，與本句語境不同。",
-        "lightning-mcq-12": "「避雷針」是「lightning rod」的用法，與本句語境不同。"
+        "lightning-mcq-16": "本句的「lightning never strikes twice」指「同樣罕見的事通常不會再次發生」。",
+        "lightning-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lightning-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lightning-mcq-16"
     }
@@ -1231,5 +1130,7 @@ export default {
     "sha256": "c2439e476b5d0daed541534051ca4399d28d5c7f90ff8e1fd9c1021b37bbde4f",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

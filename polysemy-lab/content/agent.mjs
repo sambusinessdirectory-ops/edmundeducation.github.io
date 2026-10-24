@@ -257,11 +257,9 @@ export default {
       "masked": "The actor spoke to her ____ about the new contract.",
       "options": [
         "agent-mcq-01",
-        "agent-mcq-02",
-        "agent-mcq-03",
-        "agent-mcq-04",
-        "agent-mcq-05",
-        "agent-mcq-06"
+        "agent-mcq-11",
+        "agent-mcq-06",
+        "agent-mcq-07"
       ],
       "explanation": "本句的「agent」指「獲授權代表另一個人、公司或組織處理事務的人或機構」。",
       "sentenceIndex": 0,
@@ -270,12 +268,10 @@ export default {
         "agent"
       ],
       "optionReasons": {
-        "agent-mcq-01": "本句指「獲授權代表另一個人、公司或組織處理事務的人或機構」。",
-        "agent-mcq-02": "「代表客戶安排工作、合約、交易或其他商業事務的人」是「agent = person who arranges business/deals for clients（經紀）」的用法，與本句語境不同。",
-        "agent-mcq-03": "「秘密替政府或組織蒐集情報、調查或執行機密任務的人」是「agent = secret/intelligence operative（情報／秘密工作）」的用法，與本句語境不同。",
-        "agent-mcq-04": "「受政府機構僱用、負責調查或執法工作的官員」是「agent = official investigator/enforcement officer（執法人員）」的用法，與本句語境不同。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。"
+        "agent-mcq-01": "本句的「agent」指「獲授權代表另一個人、公司或組織處理事務的人或機構」。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-01"
     },
@@ -287,11 +283,9 @@ export default {
       "masked": "Please contact our local ____ for further information.",
       "options": [
         "agent-mcq-01",
-        "agent-mcq-02",
-        "agent-mcq-03",
-        "agent-mcq-04",
-        "agent-mcq-05",
-        "agent-mcq-06"
+        "agent-mcq-06",
+        "agent-mcq-11",
+        "agent-mcq-07"
       ],
       "explanation": "本句的「agent」指「獲授權代表另一個人、公司或組織處理事務的人或機構」。",
       "sentenceIndex": 1,
@@ -300,12 +294,10 @@ export default {
         "agent"
       ],
       "optionReasons": {
-        "agent-mcq-01": "本句指「獲授權代表另一個人、公司或組織處理事務的人或機構」。",
-        "agent-mcq-02": "「代表客戶安排工作、合約、交易或其他商業事務的人」是「agent = person who arranges business/deals for clients（經紀）」的用法，與本句語境不同。",
-        "agent-mcq-03": "「秘密替政府或組織蒐集情報、調查或執行機密任務的人」是「agent = secret/intelligence operative（情報／秘密工作）」的用法，與本句語境不同。",
-        "agent-mcq-04": "「受政府機構僱用、負責調查或執法工作的官員」是「agent = official investigator/enforcement officer（執法人員）」的用法，與本句語境不同。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。"
+        "agent-mcq-01": "本句的「agent」指「獲授權代表另一個人、公司或組織處理事務的人或機構」。",
+        "agent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-01"
     },
@@ -317,11 +309,9 @@ export default {
       "masked": "Her literary ____ found a publisher for the book.",
       "options": [
         "agent-mcq-02",
-        "agent-mcq-01",
-        "agent-mcq-03",
-        "agent-mcq-04",
-        "agent-mcq-05",
-        "agent-mcq-06"
+        "agent-mcq-06",
+        "agent-mcq-07",
+        "agent-mcq-11"
       ],
       "explanation": "本句的「agent」指「代表客戶安排工作、合約、交易或其他商業事務的人」。",
       "sentenceIndex": 2,
@@ -330,12 +320,10 @@ export default {
         "agent"
       ],
       "optionReasons": {
-        "agent-mcq-02": "本句指「代表客戶安排工作、合約、交易或其他商業事務的人」。",
-        "agent-mcq-01": "「獲授權代表另一個人、公司或組織處理事務的人或機構」是「agent = representative who acts for another person/company（代理人）」的用法，與本句語境不同。",
-        "agent-mcq-03": "「秘密替政府或組織蒐集情報、調查或執行機密任務的人」是「agent = secret/intelligence operative（情報／秘密工作）」的用法，與本句語境不同。",
-        "agent-mcq-04": "「受政府機構僱用、負責調查或執法工作的官員」是「agent = official investigator/enforcement officer（執法人員）」的用法，與本句語境不同。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。"
+        "agent-mcq-02": "本句的「agent」指「代表客戶安排工作、合約、交易或其他商業事務的人」。",
+        "agent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-02"
     },
@@ -347,11 +335,9 @@ export default {
       "masked": "The player’s ____ negotiated the contract.",
       "options": [
         "agent-mcq-02",
-        "agent-mcq-01",
-        "agent-mcq-03",
-        "agent-mcq-04",
-        "agent-mcq-05",
-        "agent-mcq-06"
+        "agent-mcq-07",
+        "agent-mcq-06",
+        "agent-mcq-11"
       ],
       "explanation": "本句的「agent」指「代表客戶安排工作、合約、交易或其他商業事務的人」。",
       "sentenceIndex": 3,
@@ -360,12 +346,10 @@ export default {
         "agent"
       ],
       "optionReasons": {
-        "agent-mcq-02": "本句指「代表客戶安排工作、合約、交易或其他商業事務的人」。",
-        "agent-mcq-01": "「獲授權代表另一個人、公司或組織處理事務的人或機構」是「agent = representative who acts for another person/company（代理人）」的用法，與本句語境不同。",
-        "agent-mcq-03": "「秘密替政府或組織蒐集情報、調查或執行機密任務的人」是「agent = secret/intelligence operative（情報／秘密工作）」的用法，與本句語境不同。",
-        "agent-mcq-04": "「受政府機構僱用、負責調查或執法工作的官員」是「agent = official investigator/enforcement officer（執法人員）」的用法，與本句語境不同。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。"
+        "agent-mcq-02": "本句的「agent」指「代表客戶安排工作、合約、交易或其他商業事務的人」。",
+        "agent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-02"
     },
@@ -377,11 +361,7 @@ export default {
       "masked": "We made up stories about being secret ____.",
       "options": [
         "agent-mcq-03",
-        "agent-mcq-02",
-        "agent-mcq-04",
-        "agent-mcq-01",
-        "agent-mcq-05",
-        "agent-mcq-06"
+        "agent-mcq-05"
       ],
       "explanation": "本句的「agents」指「秘密替政府或組織蒐集情報、調查或執行機密任務的人」。",
       "sentenceIndex": 4,
@@ -390,12 +370,8 @@ export default {
         "agents"
       ],
       "optionReasons": {
-        "agent-mcq-03": "本句指「秘密替政府或組織蒐集情報、調查或執行機密任務的人」。",
-        "agent-mcq-02": "「代表客戶安排工作、合約、交易或其他商業事務的人」是「agent = person who arranges business/deals for clients（經紀）」的用法，與本句語境不同。",
-        "agent-mcq-04": "「受政府機構僱用、負責調查或執法工作的官員」是「agent = official investigator/enforcement officer（執法人員）」的用法，與本句語境不同。",
-        "agent-mcq-01": "「獲授權代表另一個人、公司或組織處理事務的人或機構」是「agent = representative who acts for another person/company（代理人）」的用法，與本句語境不同。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。"
+        "agent-mcq-03": "本句的「agents」指「秘密替政府或組織蒐集情報、調查或執行機密任務的人」。",
+        "agent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-03"
     },
@@ -407,11 +383,8 @@ export default {
       "masked": "The novel follows an undercover ____ on a dangerous mission.",
       "options": [
         "agent-mcq-03",
-        "agent-mcq-02",
-        "agent-mcq-04",
-        "agent-mcq-01",
-        "agent-mcq-05",
-        "agent-mcq-06"
+        "agent-mcq-06",
+        "agent-mcq-07"
       ],
       "explanation": "本句的「agent」指「秘密替政府或組織蒐集情報、調查或執行機密任務的人」。",
       "sentenceIndex": 5,
@@ -420,12 +393,9 @@ export default {
         "agent"
       ],
       "optionReasons": {
-        "agent-mcq-03": "本句指「秘密替政府或組織蒐集情報、調查或執行機密任務的人」。",
-        "agent-mcq-02": "「代表客戶安排工作、合約、交易或其他商業事務的人」是「agent = person who arranges business/deals for clients（經紀）」的用法，與本句語境不同。",
-        "agent-mcq-04": "「受政府機構僱用、負責調查或執法工作的官員」是「agent = official investigator/enforcement officer（執法人員）」的用法，與本句語境不同。",
-        "agent-mcq-01": "「獲授權代表另一個人、公司或組織處理事務的人或機構」是「agent = representative who acts for another person/company（代理人）」的用法，與本句語境不同。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。"
+        "agent-mcq-03": "本句的「agent」指「秘密替政府或組織蒐集情報、調查或執行機密任務的人」。",
+        "agent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-03"
     },
@@ -437,10 +407,7 @@ export default {
       "masked": "The ____ was sent abroad to gather information.",
       "options": [
         "agent-mcq-03",
-        "agent-mcq-02",
-        "agent-mcq-04",
-        "agent-mcq-01",
-        "agent-mcq-05",
+        "agent-mcq-07",
         "agent-mcq-06"
       ],
       "explanation": "本句的「agent」指「秘密替政府或組織蒐集情報、調查或執行機密任務的人」。",
@@ -450,12 +417,9 @@ export default {
         "agent"
       ],
       "optionReasons": {
-        "agent-mcq-03": "本句指「秘密替政府或組織蒐集情報、調查或執行機密任務的人」。",
-        "agent-mcq-02": "「代表客戶安排工作、合約、交易或其他商業事務的人」是「agent = person who arranges business/deals for clients（經紀）」的用法，與本句語境不同。",
-        "agent-mcq-04": "「受政府機構僱用、負責調查或執法工作的官員」是「agent = official investigator/enforcement officer（執法人員）」的用法，與本句語境不同。",
-        "agent-mcq-01": "「獲授權代表另一個人、公司或組織處理事務的人或機構」是「agent = representative who acts for another person/company（代理人）」的用法，與本句語境不同。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。"
+        "agent-mcq-03": "本句的「agent」指「秘密替政府或組織蒐集情報、調查或執行機密任務的人」。",
+        "agent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-03"
     },
@@ -467,11 +431,8 @@ export default {
       "masked": "Federal ____ searched the building.",
       "options": [
         "agent-mcq-04",
-        "agent-mcq-03",
         "agent-mcq-05",
-        "agent-mcq-02",
-        "agent-mcq-06",
-        "agent-mcq-01"
+        "agent-mcq-11"
       ],
       "explanation": "本句的「agents」指「受政府機構僱用、負責調查或執法工作的官員」。",
       "sentenceIndex": 7,
@@ -480,12 +441,9 @@ export default {
         "agents"
       ],
       "optionReasons": {
-        "agent-mcq-04": "本句指「受政府機構僱用、負責調查或執法工作的官員」。",
-        "agent-mcq-03": "「秘密替政府或組織蒐集情報、調查或執行機密任務的人」是「agent = secret/intelligence operative（情報／秘密工作）」的用法，與本句語境不同。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。",
-        "agent-mcq-02": "「代表客戶安排工作、合約、交易或其他商業事務的人」是「agent = person who arranges business/deals for clients（經紀）」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。",
-        "agent-mcq-01": "「獲授權代表另一個人、公司或組織處理事務的人或機構」是「agent = representative who acts for another person/company（代理人）」的用法，與本句語境不同。"
+        "agent-mcq-04": "本句的「agents」指「受政府機構僱用、負責調查或執法工作的官員」。",
+        "agent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-04"
     },
@@ -497,11 +455,9 @@ export default {
       "masked": "An ____ interviewed several witnesses.",
       "options": [
         "agent-mcq-04",
-        "agent-mcq-03",
-        "agent-mcq-05",
-        "agent-mcq-02",
+        "agent-mcq-07",
         "agent-mcq-06",
-        "agent-mcq-01"
+        "agent-mcq-11"
       ],
       "explanation": "本句的「agent」指「受政府機構僱用、負責調查或執法工作的官員」。",
       "sentenceIndex": 8,
@@ -510,12 +466,10 @@ export default {
         "agent"
       ],
       "optionReasons": {
-        "agent-mcq-04": "本句指「受政府機構僱用、負責調查或執法工作的官員」。",
-        "agent-mcq-03": "「秘密替政府或組織蒐集情報、調查或執行機密任務的人」是「agent = secret/intelligence operative（情報／秘密工作）」的用法，與本句語境不同。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。",
-        "agent-mcq-02": "「代表客戶安排工作、合約、交易或其他商業事務的人」是「agent = person who arranges business/deals for clients（經紀）」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。",
-        "agent-mcq-01": "「獲授權代表另一個人、公司或組織處理事務的人或機構」是「agent = representative who acts for another person/company（代理人）」的用法，與本句語境不同。"
+        "agent-mcq-04": "本句的「agent」指「受政府機構僱用、負責調查或執法工作的官員」。",
+        "agent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-04"
     },
@@ -527,11 +481,7 @@ export default {
       "masked": "Bleach is a powerful cleaning ____.",
       "options": [
         "agent-mcq-05",
-        "agent-mcq-04",
-        "agent-mcq-06",
-        "agent-mcq-03",
-        "agent-mcq-07",
-        "agent-mcq-02"
+        "agent-mcq-03"
       ],
       "explanation": "本句的「agent」指「能夠引起某種作用、變化或效果的物質、力量或因素」。",
       "sentenceIndex": 9,
@@ -540,12 +490,8 @@ export default {
         "agent"
       ],
       "optionReasons": {
-        "agent-mcq-05": "本句指「能夠引起某種作用、變化或效果的物質、力量或因素」。",
-        "agent-mcq-04": "「受政府機構僱用、負責調查或執法工作的官員」是「agent = official investigator/enforcement officer（執法人員）」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。",
-        "agent-mcq-03": "「秘密替政府或組織蒐集情報、調查或執行機密任務的人」是「agent = secret/intelligence operative（情報／秘密工作）」的用法，與本句語境不同。",
-        "agent-mcq-07": "「能夠引起疾病、感染或生物反應的病原體或因素」是「agent = infectious cause（醫學／生物）」的用法，與本句語境不同。",
-        "agent-mcq-02": "「代表客戶安排工作、合約、交易或其他商業事務的人」是「agent = person who arranges business/deals for clients（經紀）」的用法，與本句語境不同。"
+        "agent-mcq-05": "本句的「agent」指「能夠引起某種作用、變化或效果的物質、力量或因素」。",
+        "agent-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-05"
     },
@@ -557,11 +503,8 @@ export default {
       "masked": "The chemical acts as a binding ____.",
       "options": [
         "agent-mcq-05",
-        "agent-mcq-04",
-        "agent-mcq-06",
-        "agent-mcq-03",
-        "agent-mcq-07",
-        "agent-mcq-02"
+        "agent-mcq-09",
+        "agent-mcq-11"
       ],
       "explanation": "本句的「agent」指「能夠引起某種作用、變化或效果的物質、力量或因素」。",
       "sentenceIndex": 10,
@@ -570,12 +513,9 @@ export default {
         "agent"
       ],
       "optionReasons": {
-        "agent-mcq-05": "本句指「能夠引起某種作用、變化或效果的物質、力量或因素」。",
-        "agent-mcq-04": "「受政府機構僱用、負責調查或執法工作的官員」是「agent = official investigator/enforcement officer（執法人員）」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。",
-        "agent-mcq-03": "「秘密替政府或組織蒐集情報、調查或執行機密任務的人」是「agent = secret/intelligence operative（情報／秘密工作）」的用法，與本句語境不同。",
-        "agent-mcq-07": "「能夠引起疾病、感染或生物反應的病原體或因素」是「agent = infectious cause（醫學／生物）」的用法，與本句語境不同。",
-        "agent-mcq-02": "「代表客戶安排工作、合約、交易或其他商業事務的人」是「agent = person who arranges business/deals for clients（經紀）」的用法，與本句語境不同。"
+        "agent-mcq-05": "本句的「agent」指「能夠引起某種作用、變化或效果的物質、力量或因素」。",
+        "agent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-05"
     },
@@ -587,11 +527,9 @@ export default {
       "masked": "Education can be an ____.",
       "options": [
         "agent-mcq-06",
-        "agent-mcq-05",
+        "agent-mcq-01",
         "agent-mcq-07",
-        "agent-mcq-04",
-        "agent-mcq-08",
-        "agent-mcq-03"
+        "agent-mcq-11"
       ],
       "explanation": "本句的「agent of change」指「促成某種結果、轉變或影響的事物或力量」。",
       "sentenceIndex": 11,
@@ -600,12 +538,10 @@ export default {
         "agent of change"
       ],
       "optionReasons": {
-        "agent-mcq-06": "本句指「促成某種結果、轉變或影響的事物或力量」。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。",
-        "agent-mcq-07": "「能夠引起疾病、感染或生物反應的病原體或因素」是「agent = infectious cause（醫學／生物）」的用法，與本句語境不同。",
-        "agent-mcq-04": "「受政府機構僱用、負責調查或執法工作的官員」是「agent = official investigator/enforcement officer（執法人員）」的用法，與本句語境不同。",
-        "agent-mcq-08": "「代表客戶提供專業服務、代理或安排事務的機構」是「agency = organization that provides a service（機構／代理公司） — 代理機構；服務機構」的用法，與本句語境不同。",
-        "agent-mcq-03": "「秘密替政府或組織蒐集情報、調查或執行機密任務的人」是「agent = secret/intelligence operative（情報／秘密工作）」的用法，與本句語境不同。"
+        "agent-mcq-06": "本句的「agent of change」指「促成某種結果、轉變或影響的事物或力量」。",
+        "agent-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-06"
     },
@@ -617,11 +553,9 @@ export default {
       "masked": "Technology has acted as an ____ of social transformation.",
       "options": [
         "agent-mcq-06",
-        "agent-mcq-05",
-        "agent-mcq-07",
-        "agent-mcq-04",
         "agent-mcq-08",
-        "agent-mcq-03"
+        "agent-mcq-11",
+        "agent-mcq-07"
       ],
       "explanation": "本句的「agent」指「促成某種結果、轉變或影響的事物或力量」。",
       "sentenceIndex": 12,
@@ -630,12 +564,10 @@ export default {
         "agent"
       ],
       "optionReasons": {
-        "agent-mcq-06": "本句指「促成某種結果、轉變或影響的事物或力量」。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。",
-        "agent-mcq-07": "「能夠引起疾病、感染或生物反應的病原體或因素」是「agent = infectious cause（醫學／生物）」的用法，與本句語境不同。",
-        "agent-mcq-04": "「受政府機構僱用、負責調查或執法工作的官員」是「agent = official investigator/enforcement officer（執法人員）」的用法，與本句語境不同。",
-        "agent-mcq-08": "「代表客戶提供專業服務、代理或安排事務的機構」是「agency = organization that provides a service（機構／代理公司） — 代理機構；服務機構」的用法，與本句語境不同。",
-        "agent-mcq-03": "「秘密替政府或組織蒐集情報、調查或執行機密任務的人」是「agent = secret/intelligence operative（情報／秘密工作）」的用法，與本句語境不同。"
+        "agent-mcq-06": "本句的「agent」指「促成某種結果、轉變或影響的事物或力量」。",
+        "agent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-06"
     },
@@ -647,11 +579,9 @@ export default {
       "masked": "The researchers identified the infectious ____.",
       "options": [
         "agent-mcq-07",
+        "agent-mcq-02",
         "agent-mcq-06",
-        "agent-mcq-08",
-        "agent-mcq-05",
-        "agent-mcq-09",
-        "agent-mcq-04"
+        "agent-mcq-11"
       ],
       "explanation": "本句的「agent」指「能夠引起疾病、感染或生物反應的病原體或因素」。",
       "sentenceIndex": 13,
@@ -660,12 +590,10 @@ export default {
         "agent"
       ],
       "optionReasons": {
-        "agent-mcq-07": "本句指「能夠引起疾病、感染或生物反應的病原體或因素」。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。",
-        "agent-mcq-08": "「代表客戶提供專業服務、代理或安排事務的機構」是「agency = organization that provides a service（機構／代理公司） — 代理機構；服務機構」的用法，與本句語境不同。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。",
-        "agent-mcq-09": "「負責某一特定職能的政府或公共機構」是「agency = government organization（政府機構） — 機關；機構」的用法，與本句語境不同。",
-        "agent-mcq-04": "「受政府機構僱用、負責調查或執法工作的官員」是「agent = official investigator/enforcement officer（執法人員）」的用法，與本句語境不同。"
+        "agent-mcq-07": "本句的「agent」指「能夠引起疾病、感染或生物反應的病原體或因素」。",
+        "agent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-07"
     },
@@ -677,11 +605,9 @@ export default {
       "masked": "The disease can be caused by several different ____.",
       "options": [
         "agent-mcq-07",
-        "agent-mcq-06",
-        "agent-mcq-08",
-        "agent-mcq-05",
-        "agent-mcq-09",
-        "agent-mcq-04"
+        "agent-mcq-02",
+        "agent-mcq-11",
+        "agent-mcq-06"
       ],
       "explanation": "本句的「agents」指「能夠引起疾病、感染或生物反應的病原體或因素」。",
       "sentenceIndex": 14,
@@ -690,12 +616,10 @@ export default {
         "agents"
       ],
       "optionReasons": {
-        "agent-mcq-07": "本句指「能夠引起疾病、感染或生物反應的病原體或因素」。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。",
-        "agent-mcq-08": "「代表客戶提供專業服務、代理或安排事務的機構」是「agency = organization that provides a service（機構／代理公司） — 代理機構；服務機構」的用法，與本句語境不同。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。",
-        "agent-mcq-09": "「負責某一特定職能的政府或公共機構」是「agency = government organization（政府機構） — 機關；機構」的用法，與本句語境不同。",
-        "agent-mcq-04": "「受政府機構僱用、負責調查或執法工作的官員」是「agent = official investigator/enforcement officer（執法人員）」的用法，與本句語境不同。"
+        "agent-mcq-07": "本句的「agents」指「能夠引起疾病、感染或生物反應的病原體或因素」。",
+        "agent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-07"
     },
@@ -708,10 +632,8 @@ export default {
       "options": [
         "agent-mcq-08",
         "agent-mcq-07",
-        "agent-mcq-09",
         "agent-mcq-06",
-        "agent-mcq-10",
-        "agent-mcq-05"
+        "agent-mcq-11"
       ],
       "explanation": "本句的「agency」指「代表客戶提供專業服務、代理或安排事務的機構」。",
       "sentenceIndex": 15,
@@ -720,12 +642,10 @@ export default {
         "agency"
       ],
       "optionReasons": {
-        "agent-mcq-08": "本句指「代表客戶提供專業服務、代理或安排事務的機構」。",
-        "agent-mcq-07": "「能夠引起疾病、感染或生物反應的病原體或因素」是「agent = infectious cause（醫學／生物）」的用法，與本句語境不同。",
-        "agent-mcq-09": "「負責某一特定職能的政府或公共機構」是「agency = government organization（政府機構） — 機關；機構」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。",
-        "agent-mcq-10": "「個人能夠自主作決定並採取行動、影響結果的能力」是「agency = ability to act independently（抽象概念） — 行動自主性；能動性」的用法，與本句語境不同。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。"
+        "agent-mcq-08": "本句的「agency」指「代表客戶提供專業服務、代理或安排事務的機構」。",
+        "agent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-08"
     },
@@ -738,10 +658,8 @@ export default {
       "options": [
         "agent-mcq-08",
         "agent-mcq-07",
-        "agent-mcq-09",
-        "agent-mcq-06",
-        "agent-mcq-10",
-        "agent-mcq-05"
+        "agent-mcq-11",
+        "agent-mcq-06"
       ],
       "explanation": "本句的「agency」指「代表客戶提供專業服務、代理或安排事務的機構」。",
       "sentenceIndex": 16,
@@ -750,12 +668,10 @@ export default {
         "agency"
       ],
       "optionReasons": {
-        "agent-mcq-08": "本句指「代表客戶提供專業服務、代理或安排事務的機構」。",
-        "agent-mcq-07": "「能夠引起疾病、感染或生物反應的病原體或因素」是「agent = infectious cause（醫學／生物）」的用法，與本句語境不同。",
-        "agent-mcq-09": "「負責某一特定職能的政府或公共機構」是「agency = government organization（政府機構） — 機關；機構」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。",
-        "agent-mcq-10": "「個人能夠自主作決定並採取行動、影響結果的能力」是「agency = ability to act independently（抽象概念） — 行動自主性；能動性」的用法，與本句語境不同。",
-        "agent-mcq-05": "「能夠引起某種作用、變化或效果的物質、力量或因素」是「agent = substance that produces an effect（物質／科學）」的用法，與本句語境不同。"
+        "agent-mcq-08": "本句的「agency」指「代表客戶提供專業服務、代理或安排事務的機構」。",
+        "agent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-08"
     },
@@ -767,11 +683,9 @@ export default {
       "masked": "The environmental ____ published a new report.",
       "options": [
         "agent-mcq-09",
-        "agent-mcq-08",
-        "agent-mcq-10",
-        "agent-mcq-07",
+        "agent-mcq-06",
         "agent-mcq-11",
-        "agent-mcq-06"
+        "agent-mcq-07"
       ],
       "explanation": "本句的「agency」指「負責某一特定職能的政府或公共機構」。",
       "sentenceIndex": 17,
@@ -780,12 +694,10 @@ export default {
         "agency"
       ],
       "optionReasons": {
-        "agent-mcq-09": "本句指「負責某一特定職能的政府或公共機構」。",
-        "agent-mcq-08": "「代表客戶提供專業服務、代理或安排事務的機構」是「agency = organization that provides a service（機構／代理公司） — 代理機構；服務機構」的用法，與本句語境不同。",
-        "agent-mcq-10": "「個人能夠自主作決定並採取行動、影響結果的能力」是「agency = ability to act independently（抽象概念） — 行動自主性；能動性」的用法，與本句語境不同。",
-        "agent-mcq-07": "「能夠引起疾病、感染或生物反應的病原體或因素」是「agent = infectious cause（醫學／生物）」的用法，與本句語境不同。",
-        "agent-mcq-11": "「與主動執行某項動作的施事者有關的」是「Related form: agentive」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。"
+        "agent-mcq-09": "本句的「agency」指「負責某一特定職能的政府或公共機構」。",
+        "agent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-09"
     },
@@ -797,10 +709,8 @@ export default {
       "masked": "Several public ____ worked together.",
       "options": [
         "agent-mcq-09",
-        "agent-mcq-08",
-        "agent-mcq-10",
-        "agent-mcq-07",
         "agent-mcq-11",
+        "agent-mcq-07",
         "agent-mcq-06"
       ],
       "explanation": "本句的「agencies」指「負責某一特定職能的政府或公共機構」。",
@@ -810,12 +720,10 @@ export default {
         "agencies"
       ],
       "optionReasons": {
-        "agent-mcq-09": "本句指「負責某一特定職能的政府或公共機構」。",
-        "agent-mcq-08": "「代表客戶提供專業服務、代理或安排事務的機構」是「agency = organization that provides a service（機構／代理公司） — 代理機構；服務機構」的用法，與本句語境不同。",
-        "agent-mcq-10": "「個人能夠自主作決定並採取行動、影響結果的能力」是「agency = ability to act independently（抽象概念） — 行動自主性；能動性」的用法，與本句語境不同。",
-        "agent-mcq-07": "「能夠引起疾病、感染或生物反應的病原體或因素」是「agent = infectious cause（醫學／生物）」的用法，與本句語境不同。",
-        "agent-mcq-11": "「與主動執行某項動作的施事者有關的」是「Related form: agentive」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。"
+        "agent-mcq-09": "本句的「agencies」指「負責某一特定職能的政府或公共機構」。",
+        "agent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-09"
     },
@@ -827,11 +735,7 @@ export default {
       "masked": "The character gradually gains more ____.",
       "options": [
         "agent-mcq-10",
-        "agent-mcq-09",
-        "agent-mcq-11",
-        "agent-mcq-08",
-        "agent-mcq-07",
-        "agent-mcq-06"
+        "agent-mcq-01"
       ],
       "explanation": "本句的「agency」指「個人能夠自主作決定並採取行動、影響結果的能力」。",
       "sentenceIndex": 19,
@@ -840,12 +744,8 @@ export default {
         "agency"
       ],
       "optionReasons": {
-        "agent-mcq-10": "本句指「個人能夠自主作決定並採取行動、影響結果的能力」。",
-        "agent-mcq-09": "「負責某一特定職能的政府或公共機構」是「agency = government organization（政府機構） — 機關；機構」的用法，與本句語境不同。",
-        "agent-mcq-11": "「與主動執行某項動作的施事者有關的」是「Related form: agentive」的用法，與本句語境不同。",
-        "agent-mcq-08": "「代表客戶提供專業服務、代理或安排事務的機構」是「agency = organization that provides a service（機構／代理公司） — 代理機構；服務機構」的用法，與本句語境不同。",
-        "agent-mcq-07": "「能夠引起疾病、感染或生物反應的病原體或因素」是「agent = infectious cause（醫學／生物）」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。"
+        "agent-mcq-10": "本句的「agency」指「個人能夠自主作決定並採取行動、影響結果的能力」。",
+        "agent-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-10"
     },
@@ -857,11 +757,7 @@ export default {
       "masked": "Students need a sense of ____ in their own learning.",
       "options": [
         "agent-mcq-10",
-        "agent-mcq-09",
-        "agent-mcq-11",
-        "agent-mcq-08",
-        "agent-mcq-07",
-        "agent-mcq-06"
+        "agent-mcq-01"
       ],
       "explanation": "本句的「agency」指「個人能夠自主作決定並採取行動、影響結果的能力」。",
       "sentenceIndex": 20,
@@ -870,12 +766,8 @@ export default {
         "agency"
       ],
       "optionReasons": {
-        "agent-mcq-10": "本句指「個人能夠自主作決定並採取行動、影響結果的能力」。",
-        "agent-mcq-09": "「負責某一特定職能的政府或公共機構」是「agency = government organization（政府機構） — 機關；機構」的用法，與本句語境不同。",
-        "agent-mcq-11": "「與主動執行某項動作的施事者有關的」是「Related form: agentive」的用法，與本句語境不同。",
-        "agent-mcq-08": "「代表客戶提供專業服務、代理或安排事務的機構」是「agency = organization that provides a service（機構／代理公司） — 代理機構；服務機構」的用法，與本句語境不同。",
-        "agent-mcq-07": "「能夠引起疾病、感染或生物反應的病原體或因素」是「agent = infectious cause（醫學／生物）」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。"
+        "agent-mcq-10": "本句的「agency」指「個人能夠自主作決定並採取行動、影響結果的能力」。",
+        "agent-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-10"
     },
@@ -887,11 +779,8 @@ export default {
       "masked": "The sentence gives the subject an ____ role.",
       "options": [
         "agent-mcq-11",
-        "agent-mcq-10",
-        "agent-mcq-09",
-        "agent-mcq-08",
-        "agent-mcq-07",
-        "agent-mcq-06"
+        "agent-mcq-02",
+        "agent-mcq-05"
       ],
       "explanation": "本句的「agentive」指「與主動執行某項動作的施事者有關的」。",
       "sentenceIndex": 21,
@@ -900,12 +789,9 @@ export default {
         "agentive"
       ],
       "optionReasons": {
-        "agent-mcq-11": "本句指「與主動執行某項動作的施事者有關的」。",
-        "agent-mcq-10": "「個人能夠自主作決定並採取行動、影響結果的能力」是「agency = ability to act independently（抽象概念） — 行動自主性；能動性」的用法，與本句語境不同。",
-        "agent-mcq-09": "「負責某一特定職能的政府或公共機構」是「agency = government organization（政府機構） — 機關；機構」的用法，與本句語境不同。",
-        "agent-mcq-08": "「代表客戶提供專業服務、代理或安排事務的機構」是「agency = organization that provides a service（機構／代理公司） — 代理機構；服務機構」的用法，與本句語境不同。",
-        "agent-mcq-07": "「能夠引起疾病、感染或生物反應的病原體或因素」是「agent = infectious cause（醫學／生物）」的用法，與本句語境不同。",
-        "agent-mcq-06": "「促成某種結果、轉變或影響的事物或力量」是「agent = cause/factor that brings about change（作用因素）」的用法，與本句語境不同。"
+        "agent-mcq-11": "本句的「agentive」指「與主動執行某項動作的施事者有關的」。",
+        "agent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "agent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "agent-mcq-11"
     }
@@ -917,5 +803,7 @@ export default {
     "sha256": "4bc82543e80c4bc555ca24946cef4fc11ef5d487c3a62602c494c9c0be0a20d7",
     "pages": 10
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

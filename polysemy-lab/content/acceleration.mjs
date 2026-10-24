@@ -289,11 +289,6 @@ export default {
           "The driver accelerated the vehicle.",
           "司機令車輛加速。",
           "使自己／某物移動得更快"
-        ],
-        [
-          "Technology has accelerated communication.",
-          "科技加快了溝通速度。",
-          "使自己／某物移動得更快"
         ]
       ],
       "options": [],
@@ -398,16 +393,6 @@ export default {
       "note": "來源詞義：透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃",
       "examples": [
         [
-          "The laboratory operates a particle accelerator.",
-          "實驗室運作一台粒子加速器。",
-          "透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃"
-        ],
-        [
-          "The chip includes a machine-learning accelerator.",
-          "晶片內置一個機器學習硬件加速器。",
-          "透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃"
-        ],
-        [
           "The startup joined a technology accelerator.",
           "這家初創企業加入了一個科技創業加速計劃。",
           "透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃"
@@ -454,6 +439,57 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "acceleration-reviewed-c7ea819f53",
+      "title": "使某項過程、發展或改變進行得更快",
+      "form": "acceleration · source section 16",
+      "en": "使某項過程、發展或改變進行得更快",
+      "zh": "使某項過程、發展或改變進行得更快",
+      "note": "對照原始教材第 16 節及例句核實。",
+      "examples": [
+        [
+          "Technology has accelerated communication.",
+          "科技加快了溝通速度。",
+          "使某項過程、發展或改變進行得更快"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "acceleration-reviewed-a44502833b",
+      "title": "利用電磁場令帶電粒子加速的科學設備",
+      "form": "acceleration · source section 23",
+      "en": "利用電磁場令帶電粒子加速的科學設備",
+      "zh": "利用電磁場令帶電粒子加速的科學設備",
+      "note": "對照原始教材第 23 節及例句核實。",
+      "examples": [
+        [
+          "The laboratory operates a particle accelerator.",
+          "實驗室運作一台粒子加速器。",
+          "利用電磁場令帶電粒子加速的科學設備"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "acceleration-reviewed-7ef7a8f3d5",
+      "title": "加快特定電腦運算的專用硬件",
+      "form": "acceleration · source section 24",
+      "en": "加快特定電腦運算的專用硬件",
+      "zh": "加快特定電腦運算的專用硬件",
+      "note": "對照原始教材第 24 節及例句核實。",
+      "examples": [
+        [
+          "The chip includes a machine-learning accelerator.",
+          "晶片內置一個機器學習硬件加速器。",
+          "加快特定電腦運算的專用硬件"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -465,11 +501,7 @@ export default {
       "masked": "The car’s sudden ____ pushed me back into my seat.",
       "options": [
         "acceleration-mcq-01",
-        "acceleration-mcq-02",
-        "acceleration-mcq-03",
-        "acceleration-mcq-04",
-        "acceleration-mcq-05",
-        "acceleration-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「acceleration」指「人或物的移動速度變快的過程」。",
       "sentenceIndex": 0,
@@ -478,12 +510,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-01": "本句指「人或物的移動速度變快的過程」。",
-        "acceleration-mcq-02": "「速度向量隨時間改變的速率，包括速度大小或方向的變化」與本句語境不同。",
-        "acceleration-mcq-03": "「運動員在短時間內由較低速度提升至較高速度的能力」與本句語境不同。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。"
+        "acceleration-mcq-01": "本句的「acceleration」指「人或物的移動速度變快的過程」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-01"
     },
@@ -495,11 +523,7 @@ export default {
       "masked": "The cyclist showed impressive ____ on the final hill.",
       "options": [
         "acceleration-mcq-01",
-        "acceleration-mcq-02",
-        "acceleration-mcq-03",
-        "acceleration-mcq-04",
-        "acceleration-mcq-05",
-        "acceleration-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「acceleration」指「人或物的移動速度變快的過程」。",
       "sentenceIndex": 1,
@@ -508,12 +532,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-01": "本句指「人或物的移動速度變快的過程」。",
-        "acceleration-mcq-02": "「速度向量隨時間改變的速率，包括速度大小或方向的變化」與本句語境不同。",
-        "acceleration-mcq-03": "「運動員在短時間內由較低速度提升至較高速度的能力」與本句語境不同。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。"
+        "acceleration-mcq-01": "本句的「acceleration」指「人或物的移動速度變快的過程」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-01"
     },
@@ -525,11 +545,7 @@ export default {
       "masked": "The object has a constant ____.",
       "options": [
         "acceleration-mcq-02",
-        "acceleration-mcq-01",
-        "acceleration-mcq-03",
-        "acceleration-mcq-04",
-        "acceleration-mcq-05",
-        "acceleration-mcq-06"
+        "acceleration-mcq-17"
       ],
       "explanation": "本句的「acceleration」指「速度向量隨時間改變的速率，包括速度大小或方向的變化」。",
       "sentenceIndex": 2,
@@ -538,12 +554,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-02": "本句指「速度向量隨時間改變的速率，包括速度大小或方向的變化」。",
-        "acceleration-mcq-01": "「人或物的移動速度變快的過程」與本句語境不同。",
-        "acceleration-mcq-03": "「運動員在短時間內由較低速度提升至較高速度的能力」與本句語境不同。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。"
+        "acceleration-mcq-02": "本句的「acceleration」指「速度向量隨時間改變的速率，包括速度大小或方向的變化」。",
+        "acceleration-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-02"
     },
@@ -555,11 +567,7 @@ export default {
       "masked": "____ is measured in metres per second squared.",
       "options": [
         "acceleration-mcq-02",
-        "acceleration-mcq-01",
-        "acceleration-mcq-03",
-        "acceleration-mcq-04",
-        "acceleration-mcq-05",
-        "acceleration-mcq-06"
+        "acceleration-mcq-17"
       ],
       "explanation": "本句的「Acceleration」指「速度向量隨時間改變的速率，包括速度大小或方向的變化」。",
       "sentenceIndex": 3,
@@ -568,12 +576,8 @@ export default {
         "Acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-02": "本句指「速度向量隨時間改變的速率，包括速度大小或方向的變化」。",
-        "acceleration-mcq-01": "「人或物的移動速度變快的過程」與本句語境不同。",
-        "acceleration-mcq-03": "「運動員在短時間內由較低速度提升至較高速度的能力」與本句語境不同。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。"
+        "acceleration-mcq-02": "本句的「Acceleration」指「速度向量隨時間改變的速率，包括速度大小或方向的變化」。",
+        "acceleration-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-02"
     },
@@ -585,11 +589,7 @@ export default {
       "masked": "The vehicle’s ____ increased.",
       "options": [
         "acceleration-mcq-02",
-        "acceleration-mcq-01",
-        "acceleration-mcq-03",
-        "acceleration-mcq-04",
-        "acceleration-mcq-05",
-        "acceleration-mcq-06"
+        "acceleration-mcq-17"
       ],
       "explanation": "本句的「rate of acceleration」指「速度向量隨時間改變的速率，包括速度大小或方向的變化」。",
       "sentenceIndex": 4,
@@ -598,12 +598,8 @@ export default {
         "rate of acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-02": "本句指「速度向量隨時間改變的速率，包括速度大小或方向的變化」。",
-        "acceleration-mcq-01": "「人或物的移動速度變快的過程」與本句語境不同。",
-        "acceleration-mcq-03": "「運動員在短時間內由較低速度提升至較高速度的能力」與本句語境不同。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。"
+        "acceleration-mcq-02": "本句的「rate of acceleration」指「速度向量隨時間改變的速率，包括速度大小或方向的變化」。",
+        "acceleration-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-02"
     },
@@ -615,11 +611,7 @@ export default {
       "masked": "Coaches measured the runner’s rate of ____ from the start.",
       "options": [
         "acceleration-mcq-02",
-        "acceleration-mcq-01",
-        "acceleration-mcq-03",
-        "acceleration-mcq-04",
-        "acceleration-mcq-05",
-        "acceleration-mcq-06"
+        "acceleration-mcq-17"
       ],
       "explanation": "本句的「acceleration」指「速度向量隨時間改變的速率，包括速度大小或方向的變化」。",
       "sentenceIndex": 5,
@@ -628,12 +620,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-02": "本句指「速度向量隨時間改變的速率，包括速度大小或方向的變化」。",
-        "acceleration-mcq-01": "「人或物的移動速度變快的過程」與本句語境不同。",
-        "acceleration-mcq-03": "「運動員在短時間內由較低速度提升至較高速度的能力」與本句語境不同。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。"
+        "acceleration-mcq-02": "本句的「acceleration」指「速度向量隨時間改變的速率，包括速度大小或方向的變化」。",
+        "acceleration-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-02"
     },
@@ -645,11 +633,7 @@ export default {
       "masked": "Good ____ is essential for a sprinter.",
       "options": [
         "acceleration-mcq-03",
-        "acceleration-mcq-02",
-        "acceleration-mcq-04",
-        "acceleration-mcq-01",
-        "acceleration-mcq-05",
-        "acceleration-mcq-06"
+        "acceleration-reviewed-c7ea819f53"
       ],
       "explanation": "本句的「acceleration」指「運動員在短時間內由較低速度提升至較高速度的能力」。",
       "sentenceIndex": 6,
@@ -658,12 +642,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-03": "本句指「運動員在短時間內由較低速度提升至較高速度的能力」。",
-        "acceleration-mcq-02": "「速度向量隨時間改變的速率，包括速度大小或方向的變化」與本句語境不同。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。",
-        "acceleration-mcq-01": "「人或物的移動速度變快的過程」與本句語境不同。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。"
+        "acceleration-mcq-03": "本句的「acceleration」指「運動員在短時間內由較低速度提升至較高速度的能力」。",
+        "acceleration-reviewed-c7ea819f53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-03"
     },
@@ -675,11 +655,7 @@ export default {
       "masked": "The training improved her ____ over the first thirty metres.",
       "options": [
         "acceleration-mcq-03",
-        "acceleration-mcq-02",
-        "acceleration-mcq-04",
-        "acceleration-mcq-01",
-        "acceleration-mcq-05",
-        "acceleration-mcq-06"
+        "acceleration-mcq-13"
       ],
       "explanation": "本句的「acceleration」指「運動員在短時間內由較低速度提升至較高速度的能力」。",
       "sentenceIndex": 7,
@@ -688,12 +664,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-03": "本句指「運動員在短時間內由較低速度提升至較高速度的能力」。",
-        "acceleration-mcq-02": "「速度向量隨時間改變的速率，包括速度大小或方向的變化」與本句語境不同。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。",
-        "acceleration-mcq-01": "「人或物的移動速度變快的過程」與本句語境不同。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。"
+        "acceleration-mcq-03": "本句的「acceleration」指「運動員在短時間內由較低速度提升至較高速度的能力」。",
+        "acceleration-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-03"
     },
@@ -705,11 +677,7 @@ export default {
       "masked": "The athlete maintained a low body angle during the early ____.",
       "options": [
         "acceleration-mcq-04",
-        "acceleration-mcq-03",
-        "acceleration-mcq-05",
-        "acceleration-mcq-02",
-        "acceleration-mcq-06",
-        "acceleration-mcq-01"
+        "acceleration-reviewed-c7ea819f53"
       ],
       "explanation": "本句的「acceleration phase」指「由起步／低速逐步提升速度直至接近最高速度的運動階段」。",
       "sentenceIndex": 8,
@@ -718,12 +686,8 @@ export default {
         "acceleration phase"
       ],
       "optionReasons": {
-        "acceleration-mcq-04": "本句指「由起步／低速逐步提升速度直至接近最高速度的運動階段」。",
-        "acceleration-mcq-03": "「運動員在短時間內由較低速度提升至較高速度的能力」與本句語境不同。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。",
-        "acceleration-mcq-02": "「速度向量隨時間改變的速率，包括速度大小或方向的變化」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。",
-        "acceleration-mcq-01": "「人或物的移動速度變快的過程」與本句語境不同。"
+        "acceleration-mcq-04": "本句的「acceleration phase」指「由起步／低速逐步提升速度直至接近最高速度的運動階段」。",
+        "acceleration-reviewed-c7ea819f53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-04"
     },
@@ -735,11 +699,7 @@ export default {
       "masked": "The ____ phase occurs before maximum velocity is reached.",
       "options": [
         "acceleration-mcq-04",
-        "acceleration-mcq-03",
-        "acceleration-mcq-05",
-        "acceleration-mcq-02",
-        "acceleration-mcq-06",
-        "acceleration-mcq-01"
+        "acceleration-mcq-13"
       ],
       "explanation": "本句的「acceleration」指「由起步／低速逐步提升速度直至接近最高速度的運動階段」。",
       "sentenceIndex": 9,
@@ -748,12 +708,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-04": "本句指「由起步／低速逐步提升速度直至接近最高速度的運動階段」。",
-        "acceleration-mcq-03": "「運動員在短時間內由較低速度提升至較高速度的能力」與本句語境不同。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。",
-        "acceleration-mcq-02": "「速度向量隨時間改變的速率，包括速度大小或方向的變化」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。",
-        "acceleration-mcq-01": "「人或物的移動速度變快的過程」與本句語境不同。"
+        "acceleration-mcq-04": "本句的「acceleration」指「由起步／低速逐步提升速度直至接近最高速度的運動階段」。",
+        "acceleration-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-04"
     },
@@ -765,11 +721,7 @@ export default {
       "masked": "The programme focused on mobility and ____.",
       "options": [
         "acceleration-mcq-05",
-        "acceleration-mcq-04",
-        "acceleration-mcq-06",
-        "acceleration-mcq-03",
-        "acceleration-mcq-07",
-        "acceleration-mcq-02"
+        "acceleration-mcq-15"
       ],
       "explanation": "本句的「acceleration mechanics」指「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」。",
       "sentenceIndex": 10,
@@ -778,12 +730,8 @@ export default {
         "acceleration mechanics"
       ],
       "optionReasons": {
-        "acceleration-mcq-05": "本句指「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。",
-        "acceleration-mcq-03": "「運動員在短時間內由較低速度提升至較高速度的能力」與本句語境不同。",
-        "acceleration-mcq-07": "「物體角速度隨時間改變的速率」與本句語境不同。",
-        "acceleration-mcq-02": "「速度向量隨時間改變的速率，包括速度大小或方向的變化」與本句語境不同。"
+        "acceleration-mcq-05": "本句的「acceleration mechanics」指「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」。",
+        "acceleration-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-05"
     },
@@ -795,11 +743,7 @@ export default {
       "masked": "Poor ____ mechanics may reduce force application.",
       "options": [
         "acceleration-mcq-05",
-        "acceleration-mcq-04",
-        "acceleration-mcq-06",
-        "acceleration-mcq-03",
-        "acceleration-mcq-07",
-        "acceleration-mcq-02"
+        "acceleration-mcq-11"
       ],
       "explanation": "本句的「acceleration」指「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」。",
       "sentenceIndex": 11,
@@ -808,12 +752,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-05": "本句指「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。",
-        "acceleration-mcq-03": "「運動員在短時間內由較低速度提升至較高速度的能力」與本句語境不同。",
-        "acceleration-mcq-07": "「物體角速度隨時間改變的速率」與本句語境不同。",
-        "acceleration-mcq-02": "「速度向量隨時間改變的速率，包括速度大小或方向的變化」與本句語境不同。"
+        "acceleration-mcq-05": "本句的「acceleration」指「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」。",
+        "acceleration-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-05"
     },
@@ -825,11 +765,7 @@ export default {
       "masked": "The coach rebuilt the athlete’s ____ mechanics after injury.",
       "options": [
         "acceleration-mcq-05",
-        "acceleration-mcq-04",
-        "acceleration-mcq-06",
-        "acceleration-mcq-03",
-        "acceleration-mcq-07",
-        "acceleration-mcq-02"
+        "acceleration-mcq-15"
       ],
       "explanation": "本句的「acceleration」指「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」。",
       "sentenceIndex": 12,
@@ -838,12 +774,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-05": "本句指「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。",
-        "acceleration-mcq-03": "「運動員在短時間內由較低速度提升至較高速度的能力」與本句語境不同。",
-        "acceleration-mcq-07": "「物體角速度隨時間改變的速率」與本句語境不同。",
-        "acceleration-mcq-02": "「速度向量隨時間改變的速率，包括速度大小或方向的變化」與本句語境不同。"
+        "acceleration-mcq-05": "本句的「acceleration」指「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」。",
+        "acceleration-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-05"
     },
@@ -855,11 +787,7 @@ export default {
       "masked": "The sensor measures ____.",
       "options": [
         "acceleration-mcq-06",
-        "acceleration-mcq-05",
-        "acceleration-mcq-07",
-        "acceleration-mcq-04",
-        "acceleration-mcq-08",
-        "acceleration-mcq-03"
+        "acceleration-mcq-17"
       ],
       "explanation": "本句的「linear acceleration」指「物體平移／沿路徑運動時的速度變化率」。",
       "sentenceIndex": 13,
@@ -868,12 +796,8 @@ export default {
         "linear acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-06": "本句指「物體平移／沿路徑運動時的速度變化率」。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。",
-        "acceleration-mcq-07": "「物體角速度隨時間改變的速率」與本句語境不同。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。",
-        "acceleration-mcq-08": "「物體受重力作用所產生的加速度」與本句語境不同。",
-        "acceleration-mcq-03": "「運動員在短時間內由較低速度提升至較高速度的能力」與本句語境不同。"
+        "acceleration-mcq-06": "本句的「linear acceleration」指「物體平移／沿路徑運動時的速度變化率」。",
+        "acceleration-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-06"
     },
@@ -885,11 +809,7 @@ export default {
       "masked": "Linear ____ changes an object’s velocity along a path.",
       "options": [
         "acceleration-mcq-06",
-        "acceleration-mcq-05",
-        "acceleration-mcq-07",
-        "acceleration-mcq-04",
-        "acceleration-mcq-08",
-        "acceleration-mcq-03"
+        "acceleration-mcq-15"
       ],
       "explanation": "本句的「acceleration」指「物體平移／沿路徑運動時的速度變化率」。",
       "sentenceIndex": 14,
@@ -898,12 +818,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-06": "本句指「物體平移／沿路徑運動時的速度變化率」。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。",
-        "acceleration-mcq-07": "「物體角速度隨時間改變的速率」與本句語境不同。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。",
-        "acceleration-mcq-08": "「物體受重力作用所產生的加速度」與本句語境不同。",
-        "acceleration-mcq-03": "「運動員在短時間內由較低速度提升至較高速度的能力」與本句語境不同。"
+        "acceleration-mcq-06": "本句的「acceleration」指「物體平移／沿路徑運動時的速度變化率」。",
+        "acceleration-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-06"
     },
@@ -915,11 +831,7 @@ export default {
       "masked": "The wheel experienced increasing ____.",
       "options": [
         "acceleration-mcq-07",
-        "acceleration-mcq-06",
-        "acceleration-mcq-08",
-        "acceleration-mcq-05",
-        "acceleration-mcq-09",
-        "acceleration-mcq-04"
+        "acceleration-mcq-12"
       ],
       "explanation": "本句的「angular acceleration」指「物體角速度隨時間改變的速率」。",
       "sentenceIndex": 15,
@@ -928,12 +840,8 @@ export default {
         "angular acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-07": "本句指「物體角速度隨時間改變的速率」。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。",
-        "acceleration-mcq-08": "「物體受重力作用所產生的加速度」與本句語境不同。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。",
-        "acceleration-mcq-09": "「某項發展、活動或變化進行速度提高的現象」與本句語境不同。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。"
+        "acceleration-mcq-07": "本句的「angular acceleration」指「物體角速度隨時間改變的速率」。",
+        "acceleration-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-07"
     },
@@ -945,11 +853,7 @@ export default {
       "masked": "Angular ____ describes changes in rotational speed.",
       "options": [
         "acceleration-mcq-07",
-        "acceleration-mcq-06",
-        "acceleration-mcq-08",
-        "acceleration-mcq-05",
-        "acceleration-mcq-09",
-        "acceleration-mcq-04"
+        "acceleration-mcq-12"
       ],
       "explanation": "本句的「acceleration」指「物體角速度隨時間改變的速率」。",
       "sentenceIndex": 16,
@@ -958,12 +862,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-07": "本句指「物體角速度隨時間改變的速率」。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。",
-        "acceleration-mcq-08": "「物體受重力作用所產生的加速度」與本句語境不同。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。",
-        "acceleration-mcq-09": "「某項發展、活動或變化進行速度提高的現象」與本句語境不同。",
-        "acceleration-mcq-04": "「由起步／低速逐步提升速度直至接近最高速度的運動階段」與本句語境不同。"
+        "acceleration-mcq-07": "本句的「acceleration」指「物體角速度隨時間改變的速率」。",
+        "acceleration-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-07"
     },
@@ -975,11 +875,7 @@ export default {
       "masked": "Near Earth’s surface, gravitational ____ is approximately constant for many basic calculations.",
       "options": [
         "acceleration-mcq-08",
-        "acceleration-mcq-07",
-        "acceleration-mcq-09",
-        "acceleration-mcq-06",
-        "acceleration-mcq-10",
-        "acceleration-mcq-05"
+        "acceleration-mcq-12"
       ],
       "explanation": "本句的「acceleration」指「物體受重力作用所產生的加速度」。",
       "sentenceIndex": 17,
@@ -988,12 +884,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-08": "本句指「物體受重力作用所產生的加速度」。",
-        "acceleration-mcq-07": "「物體角速度隨時間改變的速率」與本句語境不同。",
-        "acceleration-mcq-09": "「某項發展、活動或變化進行速度提高的現象」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。",
-        "acceleration-mcq-10": "「增長速度本身進一步提高」與本句語境不同。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。"
+        "acceleration-mcq-08": "本句的「acceleration」指「物體受重力作用所產生的加速度」。",
+        "acceleration-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-08"
     },
@@ -1005,11 +897,7 @@ export default {
       "masked": "The experiment measured gravitational ____.",
       "options": [
         "acceleration-mcq-08",
-        "acceleration-mcq-07",
-        "acceleration-mcq-09",
-        "acceleration-mcq-06",
-        "acceleration-mcq-10",
-        "acceleration-mcq-05"
+        "acceleration-mcq-17"
       ],
       "explanation": "本句的「acceleration」指「物體受重力作用所產生的加速度」。",
       "sentenceIndex": 18,
@@ -1018,12 +906,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-08": "本句指「物體受重力作用所產生的加速度」。",
-        "acceleration-mcq-07": "「物體角速度隨時間改變的速率」與本句語境不同。",
-        "acceleration-mcq-09": "「某項發展、活動或變化進行速度提高的現象」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。",
-        "acceleration-mcq-10": "「增長速度本身進一步提高」與本句語境不同。",
-        "acceleration-mcq-05": "「加速期間身體姿勢、步態、發力方向及四肢協調的技術模式」與本句語境不同。"
+        "acceleration-mcq-08": "本句的「acceleration」指「物體受重力作用所產生的加速度」。",
+        "acceleration-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-08"
     },
@@ -1035,11 +919,7 @@ export default {
       "masked": "There has been an ____ in technological change.",
       "options": [
         "acceleration-mcq-09",
-        "acceleration-mcq-08",
-        "acceleration-mcq-10",
-        "acceleration-mcq-07",
-        "acceleration-mcq-11",
-        "acceleration-mcq-06"
+        "acceleration-mcq-17"
       ],
       "explanation": "本句的「acceleration」指「某項發展、活動或變化進行速度提高的現象」。",
       "sentenceIndex": 19,
@@ -1048,12 +928,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-09": "本句指「某項發展、活動或變化進行速度提高的現象」。",
-        "acceleration-mcq-08": "「物體受重力作用所產生的加速度」與本句語境不同。",
-        "acceleration-mcq-10": "「增長速度本身進一步提高」與本句語境不同。",
-        "acceleration-mcq-07": "「物體角速度隨時間改變的速率」與本句語境不同。",
-        "acceleration-mcq-11": "「讓學習者比正常進度更快完成或進入更高程度」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。"
+        "acceleration-mcq-09": "本句的「acceleration」指「某項發展、活動或變化進行速度提高的現象」。",
+        "acceleration-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-09"
     },
@@ -1065,11 +941,7 @@ export default {
       "masked": "The company reported an ____ in demand.",
       "options": [
         "acceleration-mcq-09",
-        "acceleration-mcq-08",
-        "acceleration-mcq-10",
-        "acceleration-mcq-07",
-        "acceleration-mcq-11",
-        "acceleration-mcq-06"
+        "acceleration-mcq-17"
       ],
       "explanation": "本句的「acceleration」指「某項發展、活動或變化進行速度提高的現象」。",
       "sentenceIndex": 20,
@@ -1078,12 +950,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-09": "本句指「某項發展、活動或變化進行速度提高的現象」。",
-        "acceleration-mcq-08": "「物體受重力作用所產生的加速度」與本句語境不同。",
-        "acceleration-mcq-10": "「增長速度本身進一步提高」與本句語境不同。",
-        "acceleration-mcq-07": "「物體角速度隨時間改變的速率」與本句語境不同。",
-        "acceleration-mcq-11": "「讓學習者比正常進度更快完成或進入更高程度」與本句語境不同。",
-        "acceleration-mcq-06": "「物體平移／沿路徑運動時的速度變化率」與本句語境不同。"
+        "acceleration-mcq-09": "本句的「acceleration」指「某項發展、活動或變化進行速度提高的現象」。",
+        "acceleration-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-09"
     },
@@ -1095,11 +963,7 @@ export default {
       "masked": "The economy showed an ____.",
       "options": [
         "acceleration-mcq-10",
-        "acceleration-mcq-09",
-        "acceleration-mcq-11",
-        "acceleration-mcq-08",
-        "acceleration-mcq-12",
-        "acceleration-mcq-07"
+        "acceleration-mcq-17"
       ],
       "explanation": "本句的「acceleration of growth」指「增長速度本身進一步提高」。",
       "sentenceIndex": 21,
@@ -1108,12 +972,8 @@ export default {
         "acceleration of growth"
       ],
       "optionReasons": {
-        "acceleration-mcq-10": "本句指「增長速度本身進一步提高」。",
-        "acceleration-mcq-09": "「某項發展、活動或變化進行速度提高的現象」與本句語境不同。",
-        "acceleration-mcq-11": "「讓學習者比正常進度更快完成或進入更高程度」與本句語境不同。",
-        "acceleration-mcq-08": "「物體受重力作用所產生的加速度」與本句語境不同。",
-        "acceleration-mcq-12": "「使自己／某物移動得更快」與本句語境不同。",
-        "acceleration-mcq-07": "「物體角速度隨時間改變的速率」與本句語境不同。"
+        "acceleration-mcq-10": "本句的「acceleration of growth」指「增長速度本身進一步提高」。",
+        "acceleration-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-10"
     },
@@ -1125,11 +985,7 @@ export default {
       "masked": "The second half of the year saw an ____ in sales growth.",
       "options": [
         "acceleration-mcq-10",
-        "acceleration-mcq-09",
-        "acceleration-mcq-11",
-        "acceleration-mcq-08",
-        "acceleration-mcq-12",
-        "acceleration-mcq-07"
+        "acceleration-mcq-12"
       ],
       "explanation": "本句的「acceleration」指「增長速度本身進一步提高」。",
       "sentenceIndex": 22,
@@ -1138,12 +994,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-10": "本句指「增長速度本身進一步提高」。",
-        "acceleration-mcq-09": "「某項發展、活動或變化進行速度提高的現象」與本句語境不同。",
-        "acceleration-mcq-11": "「讓學習者比正常進度更快完成或進入更高程度」與本句語境不同。",
-        "acceleration-mcq-08": "「物體受重力作用所產生的加速度」與本句語境不同。",
-        "acceleration-mcq-12": "「使自己／某物移動得更快」與本句語境不同。",
-        "acceleration-mcq-07": "「物體角速度隨時間改變的速率」與本句語境不同。"
+        "acceleration-mcq-10": "本句的「acceleration」指「增長速度本身進一步提高」。",
+        "acceleration-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-10"
     },
@@ -1155,11 +1007,7 @@ export default {
       "masked": "Analysts expect an ____ in economic activity.",
       "options": [
         "acceleration-mcq-10",
-        "acceleration-mcq-09",
-        "acceleration-mcq-11",
-        "acceleration-mcq-08",
-        "acceleration-mcq-12",
-        "acceleration-mcq-07"
+        "acceleration-mcq-12"
       ],
       "explanation": "本句的「acceleration」指「增長速度本身進一步提高」。",
       "sentenceIndex": 23,
@@ -1168,12 +1016,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-10": "本句指「增長速度本身進一步提高」。",
-        "acceleration-mcq-09": "「某項發展、活動或變化進行速度提高的現象」與本句語境不同。",
-        "acceleration-mcq-11": "「讓學習者比正常進度更快完成或進入更高程度」與本句語境不同。",
-        "acceleration-mcq-08": "「物體受重力作用所產生的加速度」與本句語境不同。",
-        "acceleration-mcq-12": "「使自己／某物移動得更快」與本句語境不同。",
-        "acceleration-mcq-07": "「物體角速度隨時間改變的速率」與本句語境不同。"
+        "acceleration-mcq-10": "本句的「acceleration」指「增長速度本身進一步提高」。",
+        "acceleration-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-10"
     },
@@ -1185,11 +1029,7 @@ export default {
       "masked": "Investment helped drive the ____ in expansion.",
       "options": [
         "acceleration-mcq-10",
-        "acceleration-mcq-09",
-        "acceleration-mcq-11",
-        "acceleration-mcq-08",
-        "acceleration-mcq-12",
-        "acceleration-mcq-07"
+        "acceleration-mcq-12"
       ],
       "explanation": "本句的「acceleration」指「增長速度本身進一步提高」。",
       "sentenceIndex": 24,
@@ -1198,12 +1038,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-10": "本句指「增長速度本身進一步提高」。",
-        "acceleration-mcq-09": "「某項發展、活動或變化進行速度提高的現象」與本句語境不同。",
-        "acceleration-mcq-11": "「讓學習者比正常進度更快完成或進入更高程度」與本句語境不同。",
-        "acceleration-mcq-08": "「物體受重力作用所產生的加速度」與本句語境不同。",
-        "acceleration-mcq-12": "「使自己／某物移動得更快」與本句語境不同。",
-        "acceleration-mcq-07": "「物體角速度隨時間改變的速率」與本句語境不同。"
+        "acceleration-mcq-10": "本句的「acceleration」指「增長速度本身進一步提高」。",
+        "acceleration-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-10"
     },
@@ -1215,11 +1051,7 @@ export default {
       "masked": "The programme allows ____ for students who progress quickly.",
       "options": [
         "acceleration-mcq-11",
-        "acceleration-mcq-10",
-        "acceleration-mcq-12",
-        "acceleration-mcq-09",
-        "acceleration-mcq-13",
-        "acceleration-mcq-08"
+        "acceleration-mcq-05"
       ],
       "explanation": "本句的「acceleration」指「讓學習者比正常進度更快完成或進入更高程度」。",
       "sentenceIndex": 25,
@@ -1228,12 +1060,8 @@ export default {
         "acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-11": "本句指「讓學習者比正常進度更快完成或進入更高程度」。",
-        "acceleration-mcq-10": "「增長速度本身進一步提高」與本句語境不同。",
-        "acceleration-mcq-12": "「使自己／某物移動得更快」與本句語境不同。",
-        "acceleration-mcq-09": "「某項發展、活動或變化進行速度提高的現象」與本句語境不同。",
-        "acceleration-mcq-13": "「令某項發展、過程或變化比原本更快發生」與本句語境不同。",
-        "acceleration-mcq-08": "「物體受重力作用所產生的加速度」與本句語境不同。"
+        "acceleration-mcq-11": "本句的「acceleration」指「讓學習者比正常進度更快完成或進入更高程度」。",
+        "acceleration-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-11"
     },
@@ -1245,11 +1073,7 @@ export default {
       "masked": "____ may allow gifted students to complete material earlier.",
       "options": [
         "acceleration-mcq-11",
-        "acceleration-mcq-10",
-        "acceleration-mcq-12",
-        "acceleration-mcq-09",
-        "acceleration-mcq-13",
-        "acceleration-mcq-08"
+        "acceleration-mcq-05"
       ],
       "explanation": "本句的「Acceleration」指「讓學習者比正常進度更快完成或進入更高程度」。",
       "sentenceIndex": 26,
@@ -1258,12 +1082,8 @@ export default {
         "Acceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-11": "本句指「讓學習者比正常進度更快完成或進入更高程度」。",
-        "acceleration-mcq-10": "「增長速度本身進一步提高」與本句語境不同。",
-        "acceleration-mcq-12": "「使自己／某物移動得更快」與本句語境不同。",
-        "acceleration-mcq-09": "「某項發展、活動或變化進行速度提高的現象」與本句語境不同。",
-        "acceleration-mcq-13": "「令某項發展、過程或變化比原本更快發生」與本句語境不同。",
-        "acceleration-mcq-08": "「物體受重力作用所產生的加速度」與本句語境不同。"
+        "acceleration-mcq-11": "本句的「Acceleration」指「讓學習者比正常進度更快完成或進入更高程度」。",
+        "acceleration-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-11"
     },
@@ -1275,11 +1095,7 @@ export default {
       "masked": "The runner ____ out of the bend.",
       "options": [
         "acceleration-mcq-12",
-        "acceleration-mcq-11",
-        "acceleration-mcq-13",
-        "acceleration-mcq-10",
-        "acceleration-mcq-14",
-        "acceleration-mcq-09"
+        "acceleration-mcq-19"
       ],
       "explanation": "本句的「accelerated」指「使自己／某物移動得更快」。",
       "sentenceIndex": 27,
@@ -1288,12 +1104,8 @@ export default {
         "accelerated"
       ],
       "optionReasons": {
-        "acceleration-mcq-12": "本句指「使自己／某物移動得更快」。",
-        "acceleration-mcq-11": "「讓學習者比正常進度更快完成或進入更高程度」與本句語境不同。",
-        "acceleration-mcq-13": "「令某項發展、過程或變化比原本更快發生」與本句語境不同。",
-        "acceleration-mcq-10": "「增長速度本身進一步提高」與本句語境不同。",
-        "acceleration-mcq-14": "「以比正常／先前更快速度進行的」與本句語境不同。",
-        "acceleration-mcq-09": "「某項發展、活動或變化進行速度提高的現象」與本句語境不同。"
+        "acceleration-mcq-12": "本句的「accelerated」指「使自己／某物移動得更快」。",
+        "acceleration-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-12"
     },
@@ -1305,11 +1117,7 @@ export default {
       "masked": "The driver ____ the vehicle.",
       "options": [
         "acceleration-mcq-12",
-        "acceleration-mcq-11",
-        "acceleration-mcq-13",
-        "acceleration-mcq-10",
-        "acceleration-mcq-14",
-        "acceleration-mcq-09"
+        "acceleration-reviewed-a44502833b"
       ],
       "explanation": "本句的「accelerated」指「使自己／某物移動得更快」。",
       "sentenceIndex": 28,
@@ -1318,44 +1126,34 @@ export default {
         "accelerated"
       ],
       "optionReasons": {
-        "acceleration-mcq-12": "本句指「使自己／某物移動得更快」。",
-        "acceleration-mcq-11": "「讓學習者比正常進度更快完成或進入更高程度」與本句語境不同。",
-        "acceleration-mcq-13": "「令某項發展、過程或變化比原本更快發生」與本句語境不同。",
-        "acceleration-mcq-10": "「增長速度本身進一步提高」與本句語境不同。",
-        "acceleration-mcq-14": "「以比正常／先前更快速度進行的」與本句語境不同。",
-        "acceleration-mcq-09": "「某項發展、活動或變化進行速度提高的現象」與本句語境不同。"
+        "acceleration-mcq-12": "本句的「accelerated」指「使自己／某物移動得更快」。",
+        "acceleration-reviewed-a44502833b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-12"
     },
     {
       "id": "acceleration-16-0",
-      "sense": "acceleration-mcq-12",
+      "sense": "acceleration-reviewed-c7ea819f53",
       "en": "Technology has accelerated communication.",
       "zh": "科技加快了溝通速度。",
       "masked": "Technology has ____ communication.",
       "options": [
-        "acceleration-mcq-12",
-        "acceleration-mcq-11",
-        "acceleration-mcq-13",
-        "acceleration-mcq-10",
-        "acceleration-mcq-14",
-        "acceleration-mcq-09"
+        "acceleration-reviewed-c7ea819f53",
+        "acceleration-mcq-04"
       ],
-      "explanation": "本句的「accelerated」指「使自己／某物移動得更快」。",
+      "explanation": "對照完整句子：「科技加快了溝通速度。」。這裡的「accelerated」表示「使某項過程、發展或改變進行得更快」。",
       "sentenceIndex": 29,
       "sourcePractice": 32,
       "targets": [
         "accelerated"
       ],
       "optionReasons": {
-        "acceleration-mcq-12": "本句指「使自己／某物移動得更快」。",
-        "acceleration-mcq-11": "「讓學習者比正常進度更快完成或進入更高程度」與本句語境不同。",
-        "acceleration-mcq-13": "「令某項發展、過程或變化比原本更快發生」與本句語境不同。",
-        "acceleration-mcq-10": "「增長速度本身進一步提高」與本句語境不同。",
-        "acceleration-mcq-14": "「以比正常／先前更快速度進行的」與本句語境不同。",
-        "acceleration-mcq-09": "「某項發展、活動或變化進行速度提高的現象」與本句語境不同。"
+        "acceleration-reviewed-c7ea819f53": "對照完整句子：「科技加快了溝通速度。」。這裡的「accelerated」表示「使某項過程、發展或改變進行得更快」。",
+        "acceleration-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "acceleration-mcq-12"
+      "correctOption": "acceleration-reviewed-c7ea819f53",
+      "previousCorrectOption": "acceleration-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "acceleration-17-0",
@@ -1365,11 +1163,7 @@ export default {
       "masked": "The investment helped ____.",
       "options": [
         "acceleration-mcq-13",
-        "acceleration-mcq-12",
-        "acceleration-mcq-14",
-        "acceleration-mcq-11",
-        "acceleration-mcq-15",
-        "acceleration-mcq-10"
+        "acceleration-mcq-16"
       ],
       "explanation": "本句的「accelerate growth」指「令某項發展、過程或變化比原本更快發生」。",
       "sentenceIndex": 30,
@@ -1378,12 +1172,8 @@ export default {
         "accelerate growth"
       ],
       "optionReasons": {
-        "acceleration-mcq-13": "本句指「令某項發展、過程或變化比原本更快發生」。",
-        "acceleration-mcq-12": "「使自己／某物移動得更快」與本句語境不同。",
-        "acceleration-mcq-14": "「以比正常／先前更快速度進行的」與本句語境不同。",
-        "acceleration-mcq-11": "「讓學習者比正常進度更快完成或進入更高程度」與本句語境不同。",
-        "acceleration-mcq-15": "「以較正常安排更快的進度完成學習內容」與本句語境不同。",
-        "acceleration-mcq-10": "「增長速度本身進一步提高」與本句語境不同。"
+        "acceleration-mcq-13": "本句的「accelerate growth」指「令某項發展、過程或變化比原本更快發生」。",
+        "acceleration-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-13"
     },
@@ -1395,11 +1185,7 @@ export default {
       "masked": "The company entered a period of ____.",
       "options": [
         "acceleration-mcq-14",
-        "acceleration-mcq-13",
-        "acceleration-mcq-15",
-        "acceleration-mcq-12",
-        "acceleration-mcq-16",
-        "acceleration-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「accelerated growth」指「以比正常／先前更快速度進行的」。",
       "sentenceIndex": 31,
@@ -1408,12 +1194,8 @@ export default {
         "accelerated growth"
       ],
       "optionReasons": {
-        "acceleration-mcq-14": "本句指「以比正常／先前更快速度進行的」。",
-        "acceleration-mcq-13": "「令某項發展、過程或變化比原本更快發生」與本句語境不同。",
-        "acceleration-mcq-15": "「以較正常安排更快的進度完成學習內容」與本句語境不同。",
-        "acceleration-mcq-12": "「使自己／某物移動得更快」與本句語境不同。",
-        "acceleration-mcq-16": "「控制車輛增加引擎輸出並通常提高速度的油門／加速踏板」與本句語境不同。",
-        "acceleration-mcq-11": "「讓學習者比正常進度更快完成或進入更高程度」與本句語境不同。"
+        "acceleration-mcq-14": "本句的「accelerated growth」指「以比正常／先前更快速度進行的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-14"
     },
@@ -1425,11 +1207,7 @@ export default {
       "masked": "The course uses an ____ format.",
       "options": [
         "acceleration-mcq-15",
-        "acceleration-mcq-14",
-        "acceleration-mcq-16",
-        "acceleration-mcq-13",
-        "acceleration-mcq-17",
-        "acceleration-mcq-12"
+        "acceleration-mcq-05"
       ],
       "explanation": "本句的「accelerated learning」指「以較正常安排更快的進度完成學習內容」。",
       "sentenceIndex": 32,
@@ -1438,12 +1216,8 @@ export default {
         "accelerated learning"
       ],
       "optionReasons": {
-        "acceleration-mcq-15": "本句指「以較正常安排更快的進度完成學習內容」。",
-        "acceleration-mcq-14": "「以比正常／先前更快速度進行的」與本句語境不同。",
-        "acceleration-mcq-16": "「控制車輛增加引擎輸出並通常提高速度的油門／加速踏板」與本句語境不同。",
-        "acceleration-mcq-13": "「令某項發展、過程或變化比原本更快發生」與本句語境不同。",
-        "acceleration-mcq-17": "「專門令運算、粒子或其他技術過程更快的裝置」與本句語境不同。",
-        "acceleration-mcq-12": "「使自己／某物移動得更快」與本句語境不同。"
+        "acceleration-mcq-15": "本句的「accelerated learning」指「以較正常安排更快的進度完成學習內容」。",
+        "acceleration-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-15"
     },
@@ -1455,11 +1229,7 @@ export default {
       "masked": "She completed an ____.",
       "options": [
         "acceleration-mcq-15",
-        "acceleration-mcq-14",
-        "acceleration-mcq-16",
-        "acceleration-mcq-13",
-        "acceleration-mcq-17",
-        "acceleration-mcq-12"
+        "acceleration-mcq-05"
       ],
       "explanation": "本句的「accelerated programme」指「以較正常安排更快的進度完成學習內容」。",
       "sentenceIndex": 33,
@@ -1468,12 +1238,8 @@ export default {
         "accelerated programme"
       ],
       "optionReasons": {
-        "acceleration-mcq-15": "本句指「以較正常安排更快的進度完成學習內容」。",
-        "acceleration-mcq-14": "「以比正常／先前更快速度進行的」與本句語境不同。",
-        "acceleration-mcq-16": "「控制車輛增加引擎輸出並通常提高速度的油門／加速踏板」與本句語境不同。",
-        "acceleration-mcq-13": "「令某項發展、過程或變化比原本更快發生」與本句語境不同。",
-        "acceleration-mcq-17": "「專門令運算、粒子或其他技術過程更快的裝置」與本句語境不同。",
-        "acceleration-mcq-12": "「使自己／某物移動得更快」與本句語境不同。"
+        "acceleration-mcq-15": "本句的「accelerated programme」指「以較正常安排更快的進度完成學習內容」。",
+        "acceleration-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-15"
     },
@@ -1485,10 +1251,6 @@ export default {
       "masked": "He pressed the ____.",
       "options": [
         "acceleration-mcq-16",
-        "acceleration-mcq-15",
-        "acceleration-mcq-17",
-        "acceleration-mcq-14",
-        "acceleration-mcq-18",
         "acceleration-mcq-13"
       ],
       "explanation": "本句的「accelerator」指「控制車輛增加引擎輸出並通常提高速度的油門／加速踏板」。",
@@ -1498,12 +1260,8 @@ export default {
         "accelerator"
       ],
       "optionReasons": {
-        "acceleration-mcq-16": "本句指「控制車輛增加引擎輸出並通常提高速度的油門／加速踏板」。",
-        "acceleration-mcq-15": "「以較正常安排更快的進度完成學習內容」與本句語境不同。",
-        "acceleration-mcq-17": "「專門令運算、粒子或其他技術過程更快的裝置」與本句語境不同。",
-        "acceleration-mcq-14": "「以比正常／先前更快速度進行的」與本句語境不同。",
-        "acceleration-mcq-18": "「透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃」與本句語境不同。",
-        "acceleration-mcq-13": "「令某項發展、過程或變化比原本更快發生」與本句語境不同。"
+        "acceleration-mcq-16": "本句的「accelerator」指「控制車輛增加引擎輸出並通常提高速度的油門／加速踏板」。",
+        "acceleration-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-16"
     },
@@ -1515,11 +1273,7 @@ export default {
       "masked": "The hardware ____ improves processing speed.",
       "options": [
         "acceleration-mcq-17",
-        "acceleration-mcq-16",
-        "acceleration-mcq-18",
-        "acceleration-mcq-15",
-        "acceleration-mcq-19",
-        "acceleration-mcq-14"
+        "acceleration-mcq-08"
       ],
       "explanation": "本句的「accelerator」指「專門令運算、粒子或其他技術過程更快的裝置」。",
       "sentenceIndex": 35,
@@ -1528,74 +1282,58 @@ export default {
         "accelerator"
       ],
       "optionReasons": {
-        "acceleration-mcq-17": "本句指「專門令運算、粒子或其他技術過程更快的裝置」。",
-        "acceleration-mcq-16": "「控制車輛增加引擎輸出並通常提高速度的油門／加速踏板」與本句語境不同。",
-        "acceleration-mcq-18": "「透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃」與本句語境不同。",
-        "acceleration-mcq-15": "「以較正常安排更快的進度完成學習內容」與本句語境不同。",
-        "acceleration-mcq-19": "「令某種變革、採用或發展速度明顯提高的因素」與本句語境不同。",
-        "acceleration-mcq-14": "「以比正常／先前更快速度進行的」與本句語境不同。"
+        "acceleration-mcq-17": "本句的「accelerator」指「專門令運算、粒子或其他技術過程更快的裝置」。",
+        "acceleration-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-17"
     },
     {
       "id": "acceleration-23-0",
-      "sense": "acceleration-mcq-18",
+      "sense": "acceleration-reviewed-a44502833b",
       "en": "The laboratory operates a particle accelerator.",
       "zh": "實驗室運作一台粒子加速器。",
       "masked": "The laboratory operates a particle ____.",
       "options": [
-        "acceleration-mcq-18",
-        "acceleration-mcq-17",
-        "acceleration-mcq-19",
-        "acceleration-mcq-16",
-        "acceleration-mcq-20",
-        "acceleration-mcq-15"
+        "acceleration-reviewed-a44502833b",
+        "acceleration-reviewed-c7ea819f53"
       ],
-      "explanation": "本句的「accelerator」指「透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃」。",
+      "explanation": "對照完整句子：「實驗室運作一台粒子加速器。」。這裡的「accelerator」表示「利用電磁場令帶電粒子加速的科學設備」。",
       "sentenceIndex": 36,
       "sourcePractice": 46,
       "targets": [
         "accelerator"
       ],
       "optionReasons": {
-        "acceleration-mcq-18": "本句指「透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃」。",
-        "acceleration-mcq-17": "「專門令運算、粒子或其他技術過程更快的裝置」與本句語境不同。",
-        "acceleration-mcq-19": "「令某種變革、採用或發展速度明顯提高的因素」與本句語境不同。",
-        "acceleration-mcq-16": "「控制車輛增加引擎輸出並通常提高速度的油門／加速踏板」與本句語境不同。",
-        "acceleration-mcq-20": "「移動速度降低的過程；在運動中亦指控制減速的能力」與本句語境不同。",
-        "acceleration-mcq-15": "「以較正常安排更快的進度完成學習內容」與本句語境不同。"
+        "acceleration-reviewed-a44502833b": "對照完整句子：「實驗室運作一台粒子加速器。」。這裡的「accelerator」表示「利用電磁場令帶電粒子加速的科學設備」。",
+        "acceleration-reviewed-c7ea819f53": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "acceleration-mcq-18"
+      "correctOption": "acceleration-reviewed-a44502833b",
+      "previousCorrectOption": "acceleration-mcq-18",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "acceleration-24-0",
-      "sense": "acceleration-mcq-18",
+      "sense": "acceleration-reviewed-7ef7a8f3d5",
       "en": "The chip includes a machine-learning accelerator.",
       "zh": "晶片內置一個機器學習硬件加速器。",
       "masked": "The chip includes a machine-learning ____.",
       "options": [
-        "acceleration-mcq-18",
-        "acceleration-mcq-17",
-        "acceleration-mcq-19",
-        "acceleration-mcq-16",
-        "acceleration-mcq-20",
-        "acceleration-mcq-15"
+        "acceleration-reviewed-7ef7a8f3d5",
+        "acceleration-mcq-13"
       ],
-      "explanation": "本句的「accelerator」指「透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃」。",
+      "explanation": "對照完整句子：「晶片內置一個機器學習硬件加速器。」。這裡的「accelerator」表示「加快特定電腦運算的專用硬件」。",
       "sentenceIndex": 37,
       "sourcePractice": 48,
       "targets": [
         "accelerator"
       ],
       "optionReasons": {
-        "acceleration-mcq-18": "本句指「透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃」。",
-        "acceleration-mcq-17": "「專門令運算、粒子或其他技術過程更快的裝置」與本句語境不同。",
-        "acceleration-mcq-19": "「令某種變革、採用或發展速度明顯提高的因素」與本句語境不同。",
-        "acceleration-mcq-16": "「控制車輛增加引擎輸出並通常提高速度的油門／加速踏板」與本句語境不同。",
-        "acceleration-mcq-20": "「移動速度降低的過程；在運動中亦指控制減速的能力」與本句語境不同。",
-        "acceleration-mcq-15": "「以較正常安排更快的進度完成學習內容」與本句語境不同。"
+        "acceleration-reviewed-7ef7a8f3d5": "對照完整句子：「晶片內置一個機器學習硬件加速器。」。這裡的「accelerator」表示「加快特定電腦運算的專用硬件」。",
+        "acceleration-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "acceleration-mcq-18"
+      "correctOption": "acceleration-reviewed-7ef7a8f3d5",
+      "previousCorrectOption": "acceleration-mcq-18",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "acceleration-25-0",
@@ -1605,11 +1343,7 @@ export default {
       "masked": "The startup joined a technology ____.",
       "options": [
         "acceleration-mcq-18",
-        "acceleration-mcq-17",
-        "acceleration-mcq-19",
-        "acceleration-mcq-16",
-        "acceleration-mcq-20",
-        "acceleration-mcq-15"
+        "acceleration-mcq-11"
       ],
       "explanation": "本句的「accelerator」指「透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃」。",
       "sentenceIndex": 38,
@@ -1618,12 +1352,8 @@ export default {
         "accelerator"
       ],
       "optionReasons": {
-        "acceleration-mcq-18": "本句指「透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃」。",
-        "acceleration-mcq-17": "「專門令運算、粒子或其他技術過程更快的裝置」與本句語境不同。",
-        "acceleration-mcq-19": "「令某種變革、採用或發展速度明顯提高的因素」與本句語境不同。",
-        "acceleration-mcq-16": "「控制車輛增加引擎輸出並通常提高速度的油門／加速踏板」與本句語境不同。",
-        "acceleration-mcq-20": "「移動速度降低的過程；在運動中亦指控制減速的能力」與本句語境不同。",
-        "acceleration-mcq-15": "「以較正常安排更快的進度完成學習內容」與本句語境不同。"
+        "acceleration-mcq-18": "本句的「accelerator」指「透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃」。",
+        "acceleration-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-18"
     },
@@ -1635,11 +1365,7 @@ export default {
       "masked": "The organisation launched a leadership ____.",
       "options": [
         "acceleration-mcq-19",
-        "acceleration-mcq-18",
-        "acceleration-mcq-20",
-        "acceleration-mcq-17",
-        "acceleration-mcq-16",
-        "acceleration-mcq-15"
+        "acceleration-mcq-12"
       ],
       "explanation": "本句的「acceleration programme」指「令某種變革、採用或發展速度明顯提高的因素」。",
       "sentenceIndex": 39,
@@ -1648,12 +1374,8 @@ export default {
         "acceleration programme"
       ],
       "optionReasons": {
-        "acceleration-mcq-19": "本句指「令某種變革、採用或發展速度明顯提高的因素」。",
-        "acceleration-mcq-18": "「透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃」與本句語境不同。",
-        "acceleration-mcq-20": "「移動速度降低的過程；在運動中亦指控制減速的能力」與本句語境不同。",
-        "acceleration-mcq-17": "「專門令運算、粒子或其他技術過程更快的裝置」與本句語境不同。",
-        "acceleration-mcq-16": "「控制車輛增加引擎輸出並通常提高速度的油門／加速踏板」與本句語境不同。",
-        "acceleration-mcq-15": "「以較正常安排更快的進度完成學習內容」與本句語境不同。"
+        "acceleration-mcq-19": "本句的「acceleration programme」指「令某種變革、採用或發展速度明顯提高的因素」。",
+        "acceleration-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-19"
     },
@@ -1665,11 +1387,7 @@ export default {
       "masked": "Technology acted as an ____ of change.",
       "options": [
         "acceleration-mcq-19",
-        "acceleration-mcq-18",
-        "acceleration-mcq-20",
-        "acceleration-mcq-17",
-        "acceleration-mcq-16",
-        "acceleration-mcq-15"
+        "acceleration-mcq-12"
       ],
       "explanation": "本句的「accelerator」指「令某種變革、採用或發展速度明顯提高的因素」。",
       "sentenceIndex": 40,
@@ -1678,12 +1396,8 @@ export default {
         "accelerator"
       ],
       "optionReasons": {
-        "acceleration-mcq-19": "本句指「令某種變革、採用或發展速度明顯提高的因素」。",
-        "acceleration-mcq-18": "「透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃」與本句語境不同。",
-        "acceleration-mcq-20": "「移動速度降低的過程；在運動中亦指控制減速的能力」與本句語境不同。",
-        "acceleration-mcq-17": "「專門令運算、粒子或其他技術過程更快的裝置」與本句語境不同。",
-        "acceleration-mcq-16": "「控制車輛增加引擎輸出並通常提高速度的油門／加速踏板」與本句語境不同。",
-        "acceleration-mcq-15": "「以較正常安排更快的進度完成學習內容」與本句語境不同。"
+        "acceleration-mcq-19": "本句的「accelerator」指「令某種變革、採用或發展速度明顯提高的因素」。",
+        "acceleration-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-19"
     },
@@ -1695,10 +1409,6 @@ export default {
       "masked": "The athlete practised both acceleration and ____.",
       "options": [
         "acceleration-mcq-20",
-        "acceleration-mcq-19",
-        "acceleration-mcq-18",
-        "acceleration-mcq-17",
-        "acceleration-mcq-16",
         "acceleration-mcq-15"
       ],
       "explanation": "本句的「deceleration」指「移動速度降低的過程；在運動中亦指控制減速的能力」。",
@@ -1708,12 +1418,8 @@ export default {
         "deceleration"
       ],
       "optionReasons": {
-        "acceleration-mcq-20": "本句指「移動速度降低的過程；在運動中亦指控制減速的能力」。",
-        "acceleration-mcq-19": "「令某種變革、採用或發展速度明顯提高的因素」與本句語境不同。",
-        "acceleration-mcq-18": "「透過資金、導師、網絡和密集支援幫助初創企業快速發展的計劃」與本句語境不同。",
-        "acceleration-mcq-17": "「專門令運算、粒子或其他技術過程更快的裝置」與本句語境不同。",
-        "acceleration-mcq-16": "「控制車輛增加引擎輸出並通常提高速度的油門／加速踏板」與本句語境不同。",
-        "acceleration-mcq-15": "「以較正常安排更快的進度完成學習內容」與本句語境不同。"
+        "acceleration-mcq-20": "本句的「deceleration」指「移動速度降低的過程；在運動中亦指控制減速的能力」。",
+        "acceleration-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "acceleration-mcq-20"
     }
@@ -1725,5 +1431,12 @@ export default {
     "sha256": "03084c1997042f9e1e99b512af1036d491346488cbb8f892007e5ed6a3a5c691",
     "pages": 22
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

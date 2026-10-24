@@ -403,11 +403,9 @@ export default {
       "masked": "There are mountains in the ____ of the photograph.",
       "options": [
         "background-mcq-01",
-        "background-mcq-02",
-        "background-mcq-03",
-        "background-mcq-04",
-        "background-mcq-05",
-        "background-mcq-06"
+        "background-mcq-08",
+        "background-mcq-13",
+        "background-mcq-14"
       ],
       "explanation": "本句的「background」指「位於主要人物或物件後方、構成整體畫面的部分」。",
       "sentenceIndex": 0,
@@ -416,12 +414,10 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-01": "本句指「位於主要人物或物件後方、構成整體畫面的部分」。",
-        "background-mcq-02": "「某事仍然存在，但已不再是注意力或情況中的主要焦點」是「background — attention」的用法，與本句語境不同。",
-        "background-mcq-03": "「某人或某事存在／進行，但位於主要事件之外、不是焦點」是「in the background」的用法，與本句語境不同。",
-        "background-mcq-04": "「構成一個人過往教育、家庭、文化及工作經歷的整體情況」是「personal background」的用法，與本句語境不同。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。"
+        "background-mcq-01": "本句的「background」指「位於主要人物或物件後方、構成整體畫面的部分」。",
+        "background-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-01"
     },
@@ -433,11 +429,9 @@ export default {
       "masked": "The building in the ____ is the old town hall.",
       "options": [
         "background-mcq-01",
-        "background-mcq-02",
-        "background-mcq-03",
-        "background-mcq-04",
-        "background-mcq-05",
-        "background-mcq-06"
+        "background-mcq-13",
+        "background-mcq-08",
+        "background-mcq-14"
       ],
       "explanation": "本句的「background」指「位於主要人物或物件後方、構成整體畫面的部分」。",
       "sentenceIndex": 1,
@@ -446,12 +440,10 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-01": "本句指「位於主要人物或物件後方、構成整體畫面的部分」。",
-        "background-mcq-02": "「某事仍然存在，但已不再是注意力或情況中的主要焦點」是「background — attention」的用法，與本句語境不同。",
-        "background-mcq-03": "「某人或某事存在／進行，但位於主要事件之外、不是焦點」是「in the background」的用法，與本句語境不同。",
-        "background-mcq-04": "「構成一個人過往教育、家庭、文化及工作經歷的整體情況」是「personal background」的用法，與本句語境不同。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。"
+        "background-mcq-01": "本句的「background」指「位於主要人物或物件後方、構成整體畫面的部分」。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-01"
     },
@@ -463,9 +455,6 @@ export default {
       "masked": "Everything seemed to fade into the ____.",
       "options": [
         "background-mcq-02",
-        "background-mcq-01",
-        "background-mcq-03",
-        "background-mcq-04",
         "background-mcq-05",
         "background-mcq-06"
       ],
@@ -476,12 +465,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-02": "本句指「某事仍然存在，但已不再是注意力或情況中的主要焦點」。",
-        "background-mcq-01": "「位於主要人物或物件後方、構成整體畫面的部分」是「background — visual scene」的用法，與本句語境不同。",
-        "background-mcq-03": "「某人或某事存在／進行，但位於主要事件之外、不是焦點」是「in the background」的用法，與本句語境不同。",
-        "background-mcq-04": "「構成一個人過往教育、家庭、文化及工作經歷的整體情況」是「personal background」的用法，與本句語境不同。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。"
+        "background-mcq-02": "本句的「background」指「某事仍然存在，但已不再是注意力或情況中的主要焦點」。",
+        "background-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-02"
     },
@@ -493,9 +479,6 @@ export default {
       "masked": "Once I started reading, the conversations around me moved into the ____.",
       "options": [
         "background-mcq-02",
-        "background-mcq-01",
-        "background-mcq-03",
-        "background-mcq-04",
         "background-mcq-05",
         "background-mcq-06"
       ],
@@ -506,12 +489,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-02": "本句指「某事仍然存在，但已不再是注意力或情況中的主要焦點」。",
-        "background-mcq-01": "「位於主要人物或物件後方、構成整體畫面的部分」是「background — visual scene」的用法，與本句語境不同。",
-        "background-mcq-03": "「某人或某事存在／進行，但位於主要事件之外、不是焦點」是「in the background」的用法，與本句語境不同。",
-        "background-mcq-04": "「構成一個人過往教育、家庭、文化及工作經歷的整體情況」是「personal background」的用法，與本句語境不同。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。"
+        "background-mcq-02": "本句的「background」指「某事仍然存在，但已不再是注意力或情況中的主要焦點」。",
+        "background-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-02"
     },
@@ -523,11 +503,8 @@ export default {
       "masked": "Her worries remained in the ____ throughout the day.",
       "options": [
         "background-mcq-02",
-        "background-mcq-01",
-        "background-mcq-03",
-        "background-mcq-04",
-        "background-mcq-05",
-        "background-mcq-06"
+        "background-mcq-14",
+        "background-mcq-07"
       ],
       "explanation": "本句的「background」指「某事仍然存在，但已不再是注意力或情況中的主要焦點」。",
       "sentenceIndex": 4,
@@ -536,12 +513,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-02": "本句指「某事仍然存在，但已不再是注意力或情況中的主要焦點」。",
-        "background-mcq-01": "「位於主要人物或物件後方、構成整體畫面的部分」是「background — visual scene」的用法，與本句語境不同。",
-        "background-mcq-03": "「某人或某事存在／進行，但位於主要事件之外、不是焦點」是「in the background」的用法，與本句語境不同。",
-        "background-mcq-04": "「構成一個人過往教育、家庭、文化及工作經歷的整體情況」是「personal background」的用法，與本句語境不同。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。"
+        "background-mcq-02": "本句的「background」指「某事仍然存在，但已不再是注意力或情況中的主要焦點」。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-02"
     },
@@ -553,11 +527,7 @@ export default {
       "masked": "Soft music was playing in the ____.",
       "options": [
         "background-mcq-03",
-        "background-mcq-02",
-        "background-mcq-04",
-        "background-mcq-01",
-        "background-mcq-05",
-        "background-mcq-06"
+        "background-mcq-08"
       ],
       "explanation": "本句的「background」指「某人或某事存在／進行，但位於主要事件之外、不是焦點」。",
       "sentenceIndex": 5,
@@ -566,12 +536,8 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-03": "本句指「某人或某事存在／進行，但位於主要事件之外、不是焦點」。",
-        "background-mcq-02": "「某事仍然存在，但已不再是注意力或情況中的主要焦點」是「background — attention」的用法，與本句語境不同。",
-        "background-mcq-04": "「構成一個人過往教育、家庭、文化及工作經歷的整體情況」是「personal background」的用法，與本句語境不同。",
-        "background-mcq-01": "「位於主要人物或物件後方、構成整體畫面的部分」是「background — visual scene」的用法，與本句語境不同。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。"
+        "background-mcq-03": "本句的「background」指「某人或某事存在／進行，但位於主要事件之外、不是焦點」。",
+        "background-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-03"
     },
@@ -583,11 +549,7 @@ export default {
       "masked": "Several people were talking in the ____ during the call.",
       "options": [
         "background-mcq-03",
-        "background-mcq-02",
-        "background-mcq-04",
-        "background-mcq-01",
-        "background-mcq-05",
-        "background-mcq-06"
+        "background-mcq-08"
       ],
       "explanation": "本句的「background」指「某人或某事存在／進行，但位於主要事件之外、不是焦點」。",
       "sentenceIndex": 6,
@@ -596,12 +558,8 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-03": "本句指「某人或某事存在／進行，但位於主要事件之外、不是焦點」。",
-        "background-mcq-02": "「某事仍然存在，但已不再是注意力或情況中的主要焦點」是「background — attention」的用法，與本句語境不同。",
-        "background-mcq-04": "「構成一個人過往教育、家庭、文化及工作經歷的整體情況」是「personal background」的用法，與本句語境不同。",
-        "background-mcq-01": "「位於主要人物或物件後方、構成整體畫面的部分」是「background — visual scene」的用法，與本句語境不同。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。"
+        "background-mcq-03": "本句的「background」指「某人或某事存在／進行，但位於主要事件之外、不是焦點」。",
+        "background-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-03"
     },
@@ -613,11 +571,9 @@ export default {
       "masked": "She has a strong ____ in engineering.",
       "options": [
         "background-mcq-04",
-        "background-mcq-03",
-        "background-mcq-05",
-        "background-mcq-02",
-        "background-mcq-06",
-        "background-mcq-01"
+        "background-mcq-13",
+        "background-mcq-08",
+        "background-mcq-17"
       ],
       "explanation": "本句的「background」指「構成一個人過往教育、家庭、文化及工作經歷的整體情況」。",
       "sentenceIndex": 7,
@@ -626,12 +582,10 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-04": "本句指「構成一個人過往教育、家庭、文化及工作經歷的整體情況」。",
-        "background-mcq-03": "「某人或某事存在／進行，但位於主要事件之外、不是焦點」是「in the background」的用法，與本句語境不同。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。",
-        "background-mcq-02": "「某事仍然存在，但已不再是注意力或情況中的主要焦點」是「background — attention」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。",
-        "background-mcq-01": "「位於主要人物或物件後方、構成整體畫面的部分」是「background — visual scene」的用法，與本句語境不同。"
+        "background-mcq-04": "本句的「background」指「構成一個人過往教育、家庭、文化及工作經歷的整體情況」。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-04"
     },
@@ -643,11 +597,9 @@ export default {
       "masked": "The students come from very different cultural ____.",
       "options": [
         "background-mcq-04",
-        "background-mcq-03",
-        "background-mcq-05",
-        "background-mcq-02",
-        "background-mcq-06",
-        "background-mcq-01"
+        "background-mcq-16",
+        "background-mcq-08",
+        "background-mcq-13"
       ],
       "explanation": "本句的「backgrounds」指「構成一個人過往教育、家庭、文化及工作經歷的整體情況」。",
       "sentenceIndex": 8,
@@ -656,12 +608,10 @@ export default {
         "backgrounds"
       ],
       "optionReasons": {
-        "background-mcq-04": "本句指「構成一個人過往教育、家庭、文化及工作經歷的整體情況」。",
-        "background-mcq-03": "「某人或某事存在／進行，但位於主要事件之外、不是焦點」是「in the background」的用法，與本句語境不同。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。",
-        "background-mcq-02": "「某事仍然存在，但已不再是注意力或情況中的主要焦點」是「background — attention」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。",
-        "background-mcq-01": "「位於主要人物或物件後方、構成整體畫面的部分」是「background — visual scene」的用法，與本句語境不同。"
+        "background-mcq-04": "本句的「backgrounds」指「構成一個人過往教育、家庭、文化及工作經歷的整體情況」。",
+        "background-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-04"
     },
@@ -673,11 +623,8 @@ export default {
       "masked": "Applicants should have a ____ in finance.",
       "options": [
         "background-mcq-05",
-        "background-mcq-04",
-        "background-mcq-06",
-        "background-mcq-03",
-        "background-mcq-07",
-        "background-mcq-02"
+        "background-mcq-11",
+        "background-mcq-06"
       ],
       "explanation": "本句的「background」指「某人在特定領域累積的知識、教育或工作經驗基礎」。",
       "sentenceIndex": 9,
@@ -686,12 +633,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-05": "本句指「某人在特定領域累積的知識、教育或工作經驗基礎」。",
-        "background-mcq-04": "「構成一個人過往教育、家庭、文化及工作經歷的整體情況」是「personal background」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。",
-        "background-mcq-03": "「某人或某事存在／進行，但位於主要事件之外、不是焦點」是「in the background」的用法，與本句語境不同。",
-        "background-mcq-07": "「用來解釋人物、事件或主題來龍去脈的補充資料」是「background information」的用法，與本句語境不同。",
-        "background-mcq-02": "「某事仍然存在，但已不再是注意力或情況中的主要焦點」是「background — attention」的用法，與本句語境不同。"
+        "background-mcq-05": "本句的「background」指「某人在特定領域累積的知識、教育或工作經驗基礎」。",
+        "background-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-05"
     },
@@ -703,11 +647,8 @@ export default {
       "masked": "You don’t need a technical ____ to use the software.",
       "options": [
         "background-mcq-05",
-        "background-mcq-04",
-        "background-mcq-06",
-        "background-mcq-03",
-        "background-mcq-07",
-        "background-mcq-02"
+        "background-mcq-10",
+        "background-mcq-06"
       ],
       "explanation": "本句的「background」指「某人在特定領域累積的知識、教育或工作經驗基礎」。",
       "sentenceIndex": 10,
@@ -716,12 +657,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-05": "本句指「某人在特定領域累積的知識、教育或工作經驗基礎」。",
-        "background-mcq-04": "「構成一個人過往教育、家庭、文化及工作經歷的整體情況」是「personal background」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。",
-        "background-mcq-03": "「某人或某事存在／進行，但位於主要事件之外、不是焦點」是「in the background」的用法，與本句語境不同。",
-        "background-mcq-07": "「用來解釋人物、事件或主題來龍去脈的補充資料」是「background information」的用法，與本句語境不同。",
-        "background-mcq-02": "「某事仍然存在，但已不再是注意力或情況中的主要焦點」是「background — attention」的用法，與本句語境不同。"
+        "background-mcq-05": "本句的「background」指「某人在特定領域累積的知識、教育或工作經驗基礎」。",
+        "background-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-05"
     },
@@ -733,11 +671,8 @@ export default {
       "masked": "Let me give you some ____ before we discuss the problem.",
       "options": [
         "background-mcq-06",
-        "background-mcq-05",
-        "background-mcq-07",
-        "background-mcq-04",
-        "background-mcq-08",
-        "background-mcq-03"
+        "background-mcq-11",
+        "background-mcq-05"
       ],
       "explanation": "本句的「background」指「幫助理解目前事件或問題的過往資料和前因後果」。",
       "sentenceIndex": 11,
@@ -746,12 +681,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-06": "本句指「幫助理解目前事件或問題的過往資料和前因後果」。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。",
-        "background-mcq-07": "「用來解釋人物、事件或主題來龍去脈的補充資料」是「background information」的用法，與本句語境不同。",
-        "background-mcq-04": "「構成一個人過往教育、家庭、文化及工作經歷的整體情況」是「personal background」的用法，與本句語境不同。",
-        "background-mcq-08": "「在接觸新內容前已具備、可幫助理解的先備知識」是「background knowledge」的用法，與本句語境不同。",
-        "background-mcq-03": "「某人或某事存在／進行，但位於主要事件之外、不是焦點」是「in the background」的用法，與本句語境不同。"
+        "background-mcq-06": "本句的「background」指「幫助理解目前事件或問題的過往資料和前因後果」。",
+        "background-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-06"
     },
@@ -763,11 +695,8 @@ export default {
       "masked": "The report explains the historical ____ of the conflict.",
       "options": [
         "background-mcq-06",
-        "background-mcq-05",
-        "background-mcq-07",
-        "background-mcq-04",
-        "background-mcq-08",
-        "background-mcq-03"
+        "background-mcq-10",
+        "background-mcq-05"
       ],
       "explanation": "本句的「background」指「幫助理解目前事件或問題的過往資料和前因後果」。",
       "sentenceIndex": 12,
@@ -776,12 +705,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-06": "本句指「幫助理解目前事件或問題的過往資料和前因後果」。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。",
-        "background-mcq-07": "「用來解釋人物、事件或主題來龍去脈的補充資料」是「background information」的用法，與本句語境不同。",
-        "background-mcq-04": "「構成一個人過往教育、家庭、文化及工作經歷的整體情況」是「personal background」的用法，與本句語境不同。",
-        "background-mcq-08": "「在接觸新內容前已具備、可幫助理解的先備知識」是「background knowledge」的用法，與本句語境不同。",
-        "background-mcq-03": "「某人或某事存在／進行，但位於主要事件之外、不是焦點」是「in the background」的用法，與本句語境不同。"
+        "background-mcq-06": "本句的「background」指「幫助理解目前事件或問題的過往資料和前因後果」。",
+        "background-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-06"
     },
@@ -793,11 +719,9 @@ export default {
       "masked": "The interviewer asked for some ____ information about the project.",
       "options": [
         "background-mcq-07",
-        "background-mcq-06",
-        "background-mcq-08",
-        "background-mcq-05",
-        "background-mcq-09",
-        "background-mcq-04"
+        "background-mcq-16",
+        "background-mcq-13",
+        "background-mcq-14"
       ],
       "explanation": "本句的「background」指「用來解釋人物、事件或主題來龍去脈的補充資料」。",
       "sentenceIndex": 13,
@@ -806,12 +730,10 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-07": "本句指「用來解釋人物、事件或主題來龍去脈的補充資料」。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。",
-        "background-mcq-08": "「在接觸新內容前已具備、可幫助理解的先備知識」是「background knowledge」的用法，與本句語境不同。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。",
-        "background-mcq-09": "「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」是「visual/computer background」的用法，與本句語境不同。",
-        "background-mcq-04": "「構成一個人過往教育、家庭、文化及工作經歷的整體情況」是「personal background」的用法，與本句語境不同。"
+        "background-mcq-07": "本句的「background」指「用來解釋人物、事件或主題來龍去脈的補充資料」。",
+        "background-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-07"
     },
@@ -823,11 +745,9 @@ export default {
       "masked": "Read the ____ information before answering the questions.",
       "options": [
         "background-mcq-07",
-        "background-mcq-06",
-        "background-mcq-08",
-        "background-mcq-05",
-        "background-mcq-09",
-        "background-mcq-04"
+        "background-mcq-16",
+        "background-mcq-13",
+        "background-mcq-14"
       ],
       "explanation": "本句的「background」指「用來解釋人物、事件或主題來龍去脈的補充資料」。",
       "sentenceIndex": 14,
@@ -836,12 +756,10 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-07": "本句指「用來解釋人物、事件或主題來龍去脈的補充資料」。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。",
-        "background-mcq-08": "「在接觸新內容前已具備、可幫助理解的先備知識」是「background knowledge」的用法，與本句語境不同。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。",
-        "background-mcq-09": "「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」是「visual/computer background」的用法，與本句語境不同。",
-        "background-mcq-04": "「構成一個人過往教育、家庭、文化及工作經歷的整體情況」是「personal background」的用法，與本句語境不同。"
+        "background-mcq-07": "本句的「background」指「用來解釋人物、事件或主題來龍去脈的補充資料」。",
+        "background-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-07"
     },
@@ -853,11 +771,9 @@ export default {
       "masked": "Some ____ knowledge of biology will help you understand the article.",
       "options": [
         "background-mcq-08",
-        "background-mcq-07",
-        "background-mcq-09",
-        "background-mcq-06",
-        "background-mcq-10",
-        "background-mcq-05"
+        "background-mcq-11",
+        "background-mcq-04",
+        "background-mcq-13"
       ],
       "explanation": "本句的「background」指「在接觸新內容前已具備、可幫助理解的先備知識」。",
       "sentenceIndex": 15,
@@ -866,12 +782,10 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-08": "本句指「在接觸新內容前已具備、可幫助理解的先備知識」。",
-        "background-mcq-07": "「用來解釋人物、事件或主題來龍去脈的補充資料」是「background information」的用法，與本句語境不同。",
-        "background-mcq-09": "「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」是「visual/computer background」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。",
-        "background-mcq-10": "「在主要聲音之外同時存在、可能造成干擾的環境聲」是「background noise」的用法，與本句語境不同。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。"
+        "background-mcq-08": "本句的「background」指「在接觸新內容前已具備、可幫助理解的先備知識」。",
+        "background-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-08"
     },
@@ -883,11 +797,7 @@ export default {
       "masked": "The course assumes no previous ____ knowledge.",
       "options": [
         "background-mcq-08",
-        "background-mcq-07",
-        "background-mcq-09",
-        "background-mcq-06",
-        "background-mcq-10",
-        "background-mcq-05"
+        "background-mcq-03"
       ],
       "explanation": "本句的「background」指「在接觸新內容前已具備、可幫助理解的先備知識」。",
       "sentenceIndex": 16,
@@ -896,12 +806,8 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-08": "本句指「在接觸新內容前已具備、可幫助理解的先備知識」。",
-        "background-mcq-07": "「用來解釋人物、事件或主題來龍去脈的補充資料」是「background information」的用法，與本句語境不同。",
-        "background-mcq-09": "「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」是「visual/computer background」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。",
-        "background-mcq-10": "「在主要聲音之外同時存在、可能造成干擾的環境聲」是「background noise」的用法，與本句語境不同。",
-        "background-mcq-05": "「某人在特定領域累積的知識、教育或工作經驗基礎」是「background in a field」的用法，與本句語境不同。"
+        "background-mcq-08": "本句的「background」指「在接觸新內容前已具備、可幫助理解的先備知識」。",
+        "background-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-08"
     },
@@ -913,11 +819,7 @@ export default {
       "masked": "The text is difficult to read against the dark ____.",
       "options": [
         "background-mcq-09",
-        "background-mcq-08",
-        "background-mcq-10",
-        "background-mcq-07",
-        "background-mcq-11",
-        "background-mcq-06"
+        "background-mcq-05"
       ],
       "explanation": "本句的「background」指「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」。",
       "sentenceIndex": 17,
@@ -926,12 +828,8 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-09": "本句指「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」。",
-        "background-mcq-08": "「在接觸新內容前已具備、可幫助理解的先備知識」是「background knowledge」的用法，與本句語境不同。",
-        "background-mcq-10": "「在主要聲音之外同時存在、可能造成干擾的環境聲」是「background noise」的用法，與本句語境不同。",
-        "background-mcq-07": "「用來解釋人物、事件或主題來龍去脈的補充資料」是「background information」的用法，與本句語境不同。",
-        "background-mcq-11": "「作為氣氛陪襯而播放、並非主要焦點的音樂」是「background music」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。"
+        "background-mcq-09": "本句的「background」指「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」。",
+        "background-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-09"
     },
@@ -943,11 +841,8 @@ export default {
       "masked": "She changed the desktop ____ to a photo of the ocean.",
       "options": [
         "background-mcq-09",
-        "background-mcq-08",
-        "background-mcq-10",
-        "background-mcq-07",
-        "background-mcq-11",
-        "background-mcq-06"
+        "background-mcq-14",
+        "background-mcq-13"
       ],
       "explanation": "本句的「background」指「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」。",
       "sentenceIndex": 18,
@@ -956,12 +851,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-09": "本句指「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」。",
-        "background-mcq-08": "「在接觸新內容前已具備、可幫助理解的先備知識」是「background knowledge」的用法，與本句語境不同。",
-        "background-mcq-10": "「在主要聲音之外同時存在、可能造成干擾的環境聲」是「background noise」的用法，與本句語境不同。",
-        "background-mcq-07": "「用來解釋人物、事件或主題來龍去脈的補充資料」是「background information」的用法，與本句語境不同。",
-        "background-mcq-11": "「作為氣氛陪襯而播放、並非主要焦點的音樂」是「background music」的用法，與本句語境不同。",
-        "background-mcq-06": "「幫助理解目前事件或問題的過往資料和前因後果」是「background — context/history」的用法，與本句語境不同。"
+        "background-mcq-09": "本句的「background」指「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-09"
     },
@@ -973,11 +865,8 @@ export default {
       "masked": "The microphone picked up too much ____ noise.",
       "options": [
         "background-mcq-10",
-        "background-mcq-09",
-        "background-mcq-11",
-        "background-mcq-08",
-        "background-mcq-12",
-        "background-mcq-07"
+        "background-mcq-14",
+        "background-mcq-08"
       ],
       "explanation": "本句的「background」指「在主要聲音之外同時存在、可能造成干擾的環境聲」。",
       "sentenceIndex": 19,
@@ -986,12 +875,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-10": "本句指「在主要聲音之外同時存在、可能造成干擾的環境聲」。",
-        "background-mcq-09": "「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」是「visual/computer background」的用法，與本句語境不同。",
-        "background-mcq-11": "「作為氣氛陪襯而播放、並非主要焦點的音樂」是「background music」的用法，與本句語境不同。",
-        "background-mcq-08": "「在接觸新內容前已具備、可幫助理解的先備知識」是「background knowledge」的用法，與本句語境不同。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。",
-        "background-mcq-07": "「用來解釋人物、事件或主題來龍去脈的補充資料」是「background information」的用法，與本句語境不同。"
+        "background-mcq-10": "本句的「background」指「在主要聲音之外同時存在、可能造成干擾的環境聲」。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-10"
     },
@@ -1003,11 +889,8 @@ export default {
       "masked": "Noise-cancelling headphones reduce ____ noise.",
       "options": [
         "background-mcq-10",
-        "background-mcq-09",
-        "background-mcq-11",
         "background-mcq-08",
-        "background-mcq-12",
-        "background-mcq-07"
+        "background-mcq-14"
       ],
       "explanation": "本句的「background」指「在主要聲音之外同時存在、可能造成干擾的環境聲」。",
       "sentenceIndex": 20,
@@ -1016,12 +899,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-10": "本句指「在主要聲音之外同時存在、可能造成干擾的環境聲」。",
-        "background-mcq-09": "「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」是「visual/computer background」的用法，與本句語境不同。",
-        "background-mcq-11": "「作為氣氛陪襯而播放、並非主要焦點的音樂」是「background music」的用法，與本句語境不同。",
-        "background-mcq-08": "「在接觸新內容前已具備、可幫助理解的先備知識」是「background knowledge」的用法，與本句語境不同。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。",
-        "background-mcq-07": "「用來解釋人物、事件或主題來龍去脈的補充資料」是「background information」的用法，與本句語境不同。"
+        "background-mcq-10": "本句的「background」指「在主要聲音之外同時存在、可能造成干擾的環境聲」。",
+        "background-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-10"
     },
@@ -1033,11 +913,8 @@ export default {
       "masked": "Soft ____ music was playing in the café.",
       "options": [
         "background-mcq-11",
-        "background-mcq-10",
-        "background-mcq-12",
-        "background-mcq-09",
-        "background-mcq-13",
-        "background-mcq-08"
+        "background-mcq-05",
+        "background-mcq-06"
       ],
       "explanation": "本句的「background」指「作為氣氛陪襯而播放、並非主要焦點的音樂」。",
       "sentenceIndex": 21,
@@ -1046,12 +923,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-11": "本句指「作為氣氛陪襯而播放、並非主要焦點的音樂」。",
-        "background-mcq-10": "「在主要聲音之外同時存在、可能造成干擾的環境聲」是「background noise」的用法，與本句語境不同。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。",
-        "background-mcq-09": "「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」是「visual/computer background」的用法，與本句語境不同。",
-        "background-mcq-13": "「在特定測量目標之外原本已存在的基準訊號／環境水平」是「scientific background level」的用法，與本句語境不同。",
-        "background-mcq-08": "「在接觸新內容前已具備、可幫助理解的先備知識」是「background knowledge」的用法，與本句語境不同。"
+        "background-mcq-11": "本句的「background」指「作為氣氛陪襯而播放、並非主要焦點的音樂」。",
+        "background-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-11"
     },
@@ -1063,11 +937,9 @@ export default {
       "masked": "The video uses calm ____ music.",
       "options": [
         "background-mcq-11",
-        "background-mcq-10",
-        "background-mcq-12",
-        "background-mcq-09",
-        "background-mcq-13",
-        "background-mcq-08"
+        "background-mcq-14",
+        "background-mcq-08",
+        "background-mcq-13"
       ],
       "explanation": "本句的「background」指「作為氣氛陪襯而播放、並非主要焦點的音樂」。",
       "sentenceIndex": 22,
@@ -1076,12 +948,10 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-11": "本句指「作為氣氛陪襯而播放、並非主要焦點的音樂」。",
-        "background-mcq-10": "「在主要聲音之外同時存在、可能造成干擾的環境聲」是「background noise」的用法，與本句語境不同。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。",
-        "background-mcq-09": "「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」是「visual/computer background」的用法，與本句語境不同。",
-        "background-mcq-13": "「在特定測量目標之外原本已存在的基準訊號／環境水平」是「scientific background level」的用法，與本句語境不同。",
-        "background-mcq-08": "「在接觸新內容前已具備、可幫助理解的先備知識」是「background knowledge」的用法，與本句語境不同。"
+        "background-mcq-11": "本句的「background」指「作為氣氛陪襯而播放、並非主要焦點的音樂」。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-11"
     },
@@ -1093,11 +963,7 @@ export default {
       "masked": "The app continues to run in the ____.",
       "options": [
         "background-mcq-12",
-        "background-mcq-11",
-        "background-mcq-13",
-        "background-mcq-10",
-        "background-mcq-14",
-        "background-mcq-09"
+        "background-mcq-05"
       ],
       "explanation": "本句的「background」指「並非目前主要操作，但仍在系統內持續執行的狀態」。",
       "sentenceIndex": 23,
@@ -1106,12 +972,8 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-12": "本句指「並非目前主要操作，但仍在系統內持續執行的狀態」。",
-        "background-mcq-11": "「作為氣氛陪襯而播放、並非主要焦點的音樂」是「background music」的用法，與本句語境不同。",
-        "background-mcq-13": "「在特定測量目標之外原本已存在的基準訊號／環境水平」是「scientific background level」的用法，與本句語境不同。",
-        "background-mcq-10": "「在主要聲音之外同時存在、可能造成干擾的環境聲」是「background noise」的用法，與本句語境不同。",
-        "background-mcq-14": "「對個人的身分、資格、工作或其他過往紀錄進行正式查核」是「background check」的用法，與本句語境不同。",
-        "background-mcq-09": "「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」是「visual/computer background」的用法，與本句語境不同。"
+        "background-mcq-12": "本句的「background」指「並非目前主要操作，但仍在系統內持續執行的狀態」。",
+        "background-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-12"
     },
@@ -1123,11 +985,8 @@ export default {
       "masked": "Several ____ processes are using memory.",
       "options": [
         "background-mcq-12",
-        "background-mcq-11",
-        "background-mcq-13",
-        "background-mcq-10",
-        "background-mcq-14",
-        "background-mcq-09"
+        "background-mcq-04",
+        "background-mcq-08"
       ],
       "explanation": "本句的「background」指「並非目前主要操作，但仍在系統內持續執行的狀態」。",
       "sentenceIndex": 24,
@@ -1136,12 +995,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-12": "本句指「並非目前主要操作，但仍在系統內持續執行的狀態」。",
-        "background-mcq-11": "「作為氣氛陪襯而播放、並非主要焦點的音樂」是「background music」的用法，與本句語境不同。",
-        "background-mcq-13": "「在特定測量目標之外原本已存在的基準訊號／環境水平」是「scientific background level」的用法，與本句語境不同。",
-        "background-mcq-10": "「在主要聲音之外同時存在、可能造成干擾的環境聲」是「background noise」的用法，與本句語境不同。",
-        "background-mcq-14": "「對個人的身分、資格、工作或其他過往紀錄進行正式查核」是「background check」的用法，與本句語境不同。",
-        "background-mcq-09": "「位於文字、圖示或主要視覺元素後方的底層畫面／顏色」是「visual/computer background」的用法，與本句語境不同。"
+        "background-mcq-12": "本句的「background」指「並非目前主要操作，但仍在系統內持續執行的狀態」。",
+        "background-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-12"
     },
@@ -1153,11 +1009,8 @@ export default {
       "masked": "The detector recorded a low level of ____ radiation.",
       "options": [
         "background-mcq-13",
-        "background-mcq-12",
-        "background-mcq-14",
-        "background-mcq-11",
-        "background-mcq-15",
-        "background-mcq-10"
+        "background-mcq-09",
+        "background-mcq-04"
       ],
       "explanation": "本句的「background」指「在特定測量目標之外原本已存在的基準訊號／環境水平」。",
       "sentenceIndex": 25,
@@ -1166,12 +1019,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-13": "本句指「在特定測量目標之外原本已存在的基準訊號／環境水平」。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。",
-        "background-mcq-14": "「對個人的身分、資格、工作或其他過往紀錄進行正式查核」是「background check」的用法，與本句語境不同。",
-        "background-mcq-11": "「作為氣氛陪襯而播放、並非主要焦點的音樂」是「background music」的用法，與本句語境不同。",
-        "background-mcq-15": "「支援主要人物或活動，但本身並非焦點的角色」是「background role」的用法，與本句語境不同。",
-        "background-mcq-10": "「在主要聲音之外同時存在、可能造成干擾的環境聲」是「background noise」的用法，與本句語境不同。"
+        "background-mcq-13": "本句的「background」指「在特定測量目標之外原本已存在的基準訊號／環境水平」。",
+        "background-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-13"
     },
@@ -1183,11 +1033,9 @@ export default {
       "masked": "Scientists subtracted the ____ signal from the measurement.",
       "options": [
         "background-mcq-13",
-        "background-mcq-12",
-        "background-mcq-14",
         "background-mcq-11",
-        "background-mcq-15",
-        "background-mcq-10"
+        "background-mcq-14",
+        "background-mcq-07"
       ],
       "explanation": "本句的「background」指「在特定測量目標之外原本已存在的基準訊號／環境水平」。",
       "sentenceIndex": 26,
@@ -1196,12 +1044,10 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-13": "本句指「在特定測量目標之外原本已存在的基準訊號／環境水平」。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。",
-        "background-mcq-14": "「對個人的身分、資格、工作或其他過往紀錄進行正式查核」是「background check」的用法，與本句語境不同。",
-        "background-mcq-11": "「作為氣氛陪襯而播放、並非主要焦點的音樂」是「background music」的用法，與本句語境不同。",
-        "background-mcq-15": "「支援主要人物或活動，但本身並非焦點的角色」是「background role」的用法，與本句語境不同。",
-        "background-mcq-10": "「在主要聲音之外同時存在、可能造成干擾的環境聲」是「background noise」的用法，與本句語境不同。"
+        "background-mcq-13": "本句的「background」指「在特定測量目標之外原本已存在的基準訊號／環境水平」。",
+        "background-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-13"
     },
@@ -1213,11 +1059,8 @@ export default {
       "masked": "The company carries out a ____ check before hiring new staff.",
       "options": [
         "background-mcq-14",
-        "background-mcq-13",
-        "background-mcq-15",
-        "background-mcq-12",
-        "background-mcq-16",
-        "background-mcq-11"
+        "background-mcq-02",
+        "background-mcq-08"
       ],
       "explanation": "本句的「background」指「對個人的身分、資格、工作或其他過往紀錄進行正式查核」。",
       "sentenceIndex": 27,
@@ -1226,12 +1069,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-14": "本句指「對個人的身分、資格、工作或其他過往紀錄進行正式查核」。",
-        "background-mcq-13": "「在特定測量目標之外原本已存在的基準訊號／環境水平」是「scientific background level」的用法，與本句語境不同。",
-        "background-mcq-15": "「支援主要人物或活動，但本身並非焦點的角色」是「background role」的用法，與本句語境不同。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。",
-        "background-mcq-16": "「把某事放到較次要位置或轉為背景執行（較少見）」是「background — verb」的用法，與本句語境不同。",
-        "background-mcq-11": "「作為氣氛陪襯而播放、並非主要焦點的音樂」是「background music」的用法，與本句語境不同。"
+        "background-mcq-14": "本句的「background」指「對個人的身分、資格、工作或其他過往紀錄進行正式查核」。",
+        "background-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-14"
     },
@@ -1243,11 +1083,8 @@ export default {
       "masked": "The job requires a criminal ____ check.",
       "options": [
         "background-mcq-14",
-        "background-mcq-13",
-        "background-mcq-15",
-        "background-mcq-12",
-        "background-mcq-16",
-        "background-mcq-11"
+        "background-mcq-09",
+        "background-mcq-13"
       ],
       "explanation": "本句的「background」指「對個人的身分、資格、工作或其他過往紀錄進行正式查核」。",
       "sentenceIndex": 28,
@@ -1256,12 +1093,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-14": "本句指「對個人的身分、資格、工作或其他過往紀錄進行正式查核」。",
-        "background-mcq-13": "「在特定測量目標之外原本已存在的基準訊號／環境水平」是「scientific background level」的用法，與本句語境不同。",
-        "background-mcq-15": "「支援主要人物或活動，但本身並非焦點的角色」是「background role」的用法，與本句語境不同。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。",
-        "background-mcq-16": "「把某事放到較次要位置或轉為背景執行（較少見）」是「background — verb」的用法，與本句語境不同。",
-        "background-mcq-11": "「作為氣氛陪襯而播放、並非主要焦點的音樂」是「background music」的用法，與本句語境不同。"
+        "background-mcq-14": "本句的「background」指「對個人的身分、資格、工作或其他過往紀錄進行正式查核」。",
+        "background-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-14"
     },
@@ -1273,11 +1107,8 @@ export default {
       "masked": "He prefers to work in the ____ rather than lead the team.",
       "options": [
         "background-mcq-15",
-        "background-mcq-14",
-        "background-mcq-16",
         "background-mcq-13",
-        "background-mcq-17",
-        "background-mcq-12"
+        "background-mcq-14"
       ],
       "explanation": "本句的「background」指「支援主要人物或活動，但本身並非焦點的角色」。",
       "sentenceIndex": 29,
@@ -1286,12 +1117,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-15": "本句指「支援主要人物或活動，但本身並非焦點的角色」。",
-        "background-mcq-14": "「對個人的身分、資格、工作或其他過往紀錄進行正式查核」是「background check」的用法，與本句語境不同。",
-        "background-mcq-16": "「把某事放到較次要位置或轉為背景執行（較少見）」是「background — verb」的用法，與本句語境不同。",
-        "background-mcq-13": "「在特定測量目標之外原本已存在的基準訊號／環境水平」是「scientific background level」的用法，與本句語境不同。",
-        "background-mcq-17": "「畫面最前方或在注意力中最突出、最主要的位置」是「foreground」的用法，與本句語境不同。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。"
+        "background-mcq-15": "本句的「background」指「支援主要人物或活動，但本身並非焦點的角色」。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-15"
     },
@@ -1303,11 +1131,8 @@ export default {
       "masked": "She played a ____ role in the negotiations.",
       "options": [
         "background-mcq-15",
-        "background-mcq-14",
-        "background-mcq-16",
         "background-mcq-13",
-        "background-mcq-17",
-        "background-mcq-12"
+        "background-mcq-14"
       ],
       "explanation": "本句的「background」指「支援主要人物或活動，但本身並非焦點的角色」。",
       "sentenceIndex": 30,
@@ -1316,12 +1141,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-15": "本句指「支援主要人物或活動，但本身並非焦點的角色」。",
-        "background-mcq-14": "「對個人的身分、資格、工作或其他過往紀錄進行正式查核」是「background check」的用法，與本句語境不同。",
-        "background-mcq-16": "「把某事放到較次要位置或轉為背景執行（較少見）」是「background — verb」的用法，與本句語境不同。",
-        "background-mcq-13": "「在特定測量目標之外原本已存在的基準訊號／環境水平」是「scientific background level」的用法，與本句語境不同。",
-        "background-mcq-17": "「畫面最前方或在注意力中最突出、最主要的位置」是「foreground」的用法，與本句語境不同。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。"
+        "background-mcq-15": "本句的「background」指「支援主要人物或活動，但本身並非焦點的角色」。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-15"
     },
@@ -1333,11 +1155,8 @@ export default {
       "masked": "Several actors were standing in the ____.",
       "options": [
         "background-mcq-15",
-        "background-mcq-14",
-        "background-mcq-16",
         "background-mcq-13",
-        "background-mcq-17",
-        "background-mcq-12"
+        "background-mcq-14"
       ],
       "explanation": "本句的「background」指「支援主要人物或活動，但本身並非焦點的角色」。",
       "sentenceIndex": 31,
@@ -1346,12 +1165,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-15": "本句指「支援主要人物或活動，但本身並非焦點的角色」。",
-        "background-mcq-14": "「對個人的身分、資格、工作或其他過往紀錄進行正式查核」是「background check」的用法，與本句語境不同。",
-        "background-mcq-16": "「把某事放到較次要位置或轉為背景執行（較少見）」是「background — verb」的用法，與本句語境不同。",
-        "background-mcq-13": "「在特定測量目標之外原本已存在的基準訊號／環境水平」是「scientific background level」的用法，與本句語境不同。",
-        "background-mcq-17": "「畫面最前方或在注意力中最突出、最主要的位置」是「foreground」的用法，與本句語境不同。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。"
+        "background-mcq-15": "本句的「background」指「支援主要人物或活動，但本身並非焦點的角色」。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-15"
     },
@@ -1364,10 +1180,7 @@ export default {
       "options": [
         "background-mcq-15",
         "background-mcq-14",
-        "background-mcq-16",
-        "background-mcq-13",
-        "background-mcq-17",
-        "background-mcq-12"
+        "background-mcq-13"
       ],
       "explanation": "本句的「background」指「支援主要人物或活動，但本身並非焦點的角色」。",
       "sentenceIndex": 32,
@@ -1376,12 +1189,9 @@ export default {
         "background"
       ],
       "optionReasons": {
-        "background-mcq-15": "本句指「支援主要人物或活動，但本身並非焦點的角色」。",
-        "background-mcq-14": "「對個人的身分、資格、工作或其他過往紀錄進行正式查核」是「background check」的用法，與本句語境不同。",
-        "background-mcq-16": "「把某事放到較次要位置或轉為背景執行（較少見）」是「background — verb」的用法，與本句語境不同。",
-        "background-mcq-13": "「在特定測量目標之外原本已存在的基準訊號／環境水平」是「scientific background level」的用法，與本句語境不同。",
-        "background-mcq-17": "「畫面最前方或在注意力中最突出、最主要的位置」是「foreground」的用法，與本句語境不同。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。"
+        "background-mcq-15": "本句的「background」指「支援主要人物或活動，但本身並非焦點的角色」。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-15"
     },
@@ -1393,11 +1203,8 @@ export default {
       "masked": "The software automatically ____ the task.",
       "options": [
         "background-mcq-16",
-        "background-mcq-15",
-        "background-mcq-17",
-        "background-mcq-14",
-        "background-mcq-13",
-        "background-mcq-12"
+        "background-mcq-05",
+        "background-mcq-06"
       ],
       "explanation": "本句的「backgrounded」指「把某事放到較次要位置或轉為背景執行（較少見）」。",
       "sentenceIndex": 33,
@@ -1406,12 +1213,9 @@ export default {
         "backgrounded"
       ],
       "optionReasons": {
-        "background-mcq-16": "本句指「把某事放到較次要位置或轉為背景執行（較少見）」。",
-        "background-mcq-15": "「支援主要人物或活動，但本身並非焦點的角色」是「background role」的用法，與本句語境不同。",
-        "background-mcq-17": "「畫面最前方或在注意力中最突出、最主要的位置」是「foreground」的用法，與本句語境不同。",
-        "background-mcq-14": "「對個人的身分、資格、工作或其他過往紀錄進行正式查核」是「background check」的用法，與本句語境不同。",
-        "background-mcq-13": "「在特定測量目標之外原本已存在的基準訊號／環境水平」是「scientific background level」的用法，與本句語境不同。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。"
+        "background-mcq-16": "本句的「backgrounded」指「把某事放到較次要位置或轉為背景執行（較少見）」。",
+        "background-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-16"
     },
@@ -1423,11 +1227,8 @@ export default {
       "masked": "The issue was gradually ____ by newer concerns.",
       "options": [
         "background-mcq-16",
-        "background-mcq-15",
-        "background-mcq-17",
-        "background-mcq-14",
-        "background-mcq-13",
-        "background-mcq-12"
+        "background-mcq-06",
+        "background-mcq-13"
       ],
       "explanation": "本句的「backgrounded」指「把某事放到較次要位置或轉為背景執行（較少見）」。",
       "sentenceIndex": 34,
@@ -1436,12 +1237,9 @@ export default {
         "backgrounded"
       ],
       "optionReasons": {
-        "background-mcq-16": "本句指「把某事放到較次要位置或轉為背景執行（較少見）」。",
-        "background-mcq-15": "「支援主要人物或活動，但本身並非焦點的角色」是「background role」的用法，與本句語境不同。",
-        "background-mcq-17": "「畫面最前方或在注意力中最突出、最主要的位置」是「foreground」的用法，與本句語境不同。",
-        "background-mcq-14": "「對個人的身分、資格、工作或其他過往紀錄進行正式查核」是「background check」的用法，與本句語境不同。",
-        "background-mcq-13": "「在特定測量目標之外原本已存在的基準訊號／環境水平」是「scientific background level」的用法，與本句語境不同。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。"
+        "background-mcq-16": "本句的「backgrounded」指「把某事放到較次要位置或轉為背景執行（較少見）」。",
+        "background-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-16"
     },
@@ -1453,11 +1251,9 @@ export default {
       "masked": "A child is standing in the ____ of the photograph.",
       "options": [
         "background-mcq-17",
-        "background-mcq-16",
-        "background-mcq-15",
-        "background-mcq-14",
         "background-mcq-13",
-        "background-mcq-12"
+        "background-mcq-14",
+        "background-mcq-08"
       ],
       "explanation": "本句的「foreground」指「畫面最前方或在注意力中最突出、最主要的位置」。",
       "sentenceIndex": 35,
@@ -1466,12 +1262,10 @@ export default {
         "foreground"
       ],
       "optionReasons": {
-        "background-mcq-17": "本句指「畫面最前方或在注意力中最突出、最主要的位置」。",
-        "background-mcq-16": "「把某事放到較次要位置或轉為背景執行（較少見）」是「background — verb」的用法，與本句語境不同。",
-        "background-mcq-15": "「支援主要人物或活動，但本身並非焦點的角色」是「background role」的用法，與本句語境不同。",
-        "background-mcq-14": "「對個人的身分、資格、工作或其他過往紀錄進行正式查核」是「background check」的用法，與本句語境不同。",
-        "background-mcq-13": "「在特定測量目標之外原本已存在的基準訊號／環境水平」是「scientific background level」的用法，與本句語境不同。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。"
+        "background-mcq-17": "本句的「foreground」指「畫面最前方或在注意力中最突出、最主要的位置」。",
+        "background-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-17"
     },
@@ -1483,11 +1277,8 @@ export default {
       "masked": "Safety has moved into the ____ of public discussion.",
       "options": [
         "background-mcq-17",
-        "background-mcq-16",
-        "background-mcq-15",
-        "background-mcq-14",
-        "background-mcq-13",
-        "background-mcq-12"
+        "background-mcq-05",
+        "background-mcq-06"
       ],
       "explanation": "本句的「foreground」指「畫面最前方或在注意力中最突出、最主要的位置」。",
       "sentenceIndex": 36,
@@ -1496,12 +1287,9 @@ export default {
         "foreground"
       ],
       "optionReasons": {
-        "background-mcq-17": "本句指「畫面最前方或在注意力中最突出、最主要的位置」。",
-        "background-mcq-16": "「把某事放到較次要位置或轉為背景執行（較少見）」是「background — verb」的用法，與本句語境不同。",
-        "background-mcq-15": "「支援主要人物或活動，但本身並非焦點的角色」是「background role」的用法，與本句語境不同。",
-        "background-mcq-14": "「對個人的身分、資格、工作或其他過往紀錄進行正式查核」是「background check」的用法，與本句語境不同。",
-        "background-mcq-13": "「在特定測量目標之外原本已存在的基準訊號／環境水平」是「scientific background level」的用法，與本句語境不同。",
-        "background-mcq-12": "「並非目前主要操作，但仍在系統內持續執行的狀態」是「background computing」的用法，與本句語境不同。"
+        "background-mcq-17": "本句的「foreground」指「畫面最前方或在注意力中最突出、最主要的位置」。",
+        "background-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "background-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "background-mcq-17"
     }
@@ -1513,5 +1301,7 @@ export default {
     "sha256": "5b2061632e9f2ce78f3674fea9c9e9c2f50ac7df20d75df976538d56609cbb21",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

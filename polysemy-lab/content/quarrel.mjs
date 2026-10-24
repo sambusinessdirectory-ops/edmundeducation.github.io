@@ -422,11 +422,9 @@ export default {
       "masked": "We had a ____ yesterday.",
       "options": [
         "quarrel-mcq-06",
-        "quarrel-mcq-05",
-        "quarrel-mcq-07",
-        "quarrel-mcq-04",
-        "quarrel-mcq-08",
-        "quarrel-mcq-03"
+        "quarrel-mcq-19",
+        "quarrel-mcq-22",
+        "quarrel-mcq-14"
       ],
       "explanation": "本句的「quarrel」指「發生一場爭吵」。",
       "sentenceIndex": 6,
@@ -435,12 +433,10 @@ export default {
         "quarrel"
       ],
       "optionReasons": {
-        "quarrel-mcq-06": "本句指「發生一場爭吵」。",
-        "quarrel-mcq-05": "「因某個利益／問題而爭執」與本句語境不同。",
-        "quarrel-mcq-07": "「與某人爭吵起來／捲入爭執」與本句語境不同。",
-        "quarrel-mcq-04": "「就某個話題爭吵」與本句語境不同。",
-        "quarrel-mcq-08": "「引起／開始一場爭吵」與本句語境不同。",
-        "quarrel-mcq-03": "「跟某人吵架」與本句語境不同。"
+        "quarrel-mcq-06": "本句的「quarrel」指「發生一場爭吵」。",
+        "quarrel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-06"
     },
@@ -452,11 +448,9 @@ export default {
       "masked": "She had a ____ with her colleague.",
       "options": [
         "quarrel-mcq-06",
-        "quarrel-mcq-05",
-        "quarrel-mcq-07",
-        "quarrel-mcq-04",
-        "quarrel-mcq-08",
-        "quarrel-mcq-03"
+        "quarrel-mcq-18",
+        "quarrel-mcq-16",
+        "quarrel-mcq-14"
       ],
       "explanation": "本句的「quarrel」指「發生一場爭吵」。",
       "sentenceIndex": 7,
@@ -465,12 +459,10 @@ export default {
         "quarrel"
       ],
       "optionReasons": {
-        "quarrel-mcq-06": "本句指「發生一場爭吵」。",
-        "quarrel-mcq-05": "「因某個利益／問題而爭執」與本句語境不同。",
-        "quarrel-mcq-07": "「與某人爭吵起來／捲入爭執」與本句語境不同。",
-        "quarrel-mcq-04": "「就某個話題爭吵」與本句語境不同。",
-        "quarrel-mcq-08": "「引起／開始一場爭吵」與本句語境不同。",
-        "quarrel-mcq-03": "「跟某人吵架」與本句語境不同。"
+        "quarrel-mcq-06": "本句的「quarrel」指「發生一場爭吵」。",
+        "quarrel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-06"
     },
@@ -482,11 +474,9 @@ export default {
       "masked": "He got into a ____ with another customer.",
       "options": [
         "quarrel-mcq-07",
-        "quarrel-mcq-06",
-        "quarrel-mcq-08",
-        "quarrel-mcq-05",
-        "quarrel-mcq-09",
-        "quarrel-mcq-04"
+        "quarrel-mcq-19",
+        "quarrel-mcq-16",
+        "quarrel-mcq-14"
       ],
       "explanation": "本句的「quarrel」指「與某人爭吵起來／捲入爭執」。",
       "sentenceIndex": 8,
@@ -495,12 +485,10 @@ export default {
         "quarrel"
       ],
       "optionReasons": {
-        "quarrel-mcq-07": "本句指「與某人爭吵起來／捲入爭執」。",
-        "quarrel-mcq-06": "「發生一場爭吵」與本句語境不同。",
-        "quarrel-mcq-08": "「引起／開始一場爭吵」與本句語境不同。",
-        "quarrel-mcq-05": "「因某個利益／問題而爭執」與本句語境不同。",
-        "quarrel-mcq-09": "「故意找理由挑起爭吵」與本句語境不同。",
-        "quarrel-mcq-04": "「就某個話題爭吵」與本句語境不同。"
+        "quarrel-mcq-07": "本句的「quarrel」指「與某人爭吵起來／捲入爭執」。",
+        "quarrel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-07"
     },
@@ -512,11 +500,9 @@ export default {
       "masked": "Don't start a ____ over something so minor.",
       "options": [
         "quarrel-mcq-08",
-        "quarrel-mcq-07",
-        "quarrel-mcq-09",
-        "quarrel-mcq-06",
-        "quarrel-mcq-10",
-        "quarrel-mcq-05"
+        "quarrel-mcq-22",
+        "quarrel-mcq-19",
+        "quarrel-mcq-10"
       ],
       "explanation": "本句的「quarrel」指「引起／開始一場爭吵」。",
       "sentenceIndex": 9,
@@ -525,12 +511,10 @@ export default {
         "quarrel"
       ],
       "optionReasons": {
-        "quarrel-mcq-08": "本句指「引起／開始一場爭吵」。",
-        "quarrel-mcq-07": "「與某人爭吵起來／捲入爭執」與本句語境不同。",
-        "quarrel-mcq-09": "「故意找理由挑起爭吵」與本句語境不同。",
-        "quarrel-mcq-06": "「發生一場爭吵」與本句語境不同。",
-        "quarrel-mcq-10": "「帶着強烈怨恨的激烈爭執」與本句語境不同。",
-        "quarrel-mcq-05": "「因某個利益／問題而爭執」與本句語境不同。"
+        "quarrel-mcq-08": "本句的「quarrel」指「引起／開始一場爭吵」。",
+        "quarrel-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-08"
     },
@@ -542,11 +526,9 @@ export default {
       "masked": "He seemed determined to pick a ____ with everyone.",
       "options": [
         "quarrel-mcq-09",
-        "quarrel-mcq-08",
-        "quarrel-mcq-10",
-        "quarrel-mcq-07",
-        "quarrel-mcq-11",
-        "quarrel-mcq-06"
+        "quarrel-mcq-18",
+        "quarrel-mcq-16",
+        "quarrel-mcq-24"
       ],
       "explanation": "本句的「quarrel」指「故意找理由挑起爭吵」。",
       "sentenceIndex": 10,
@@ -555,12 +537,10 @@ export default {
         "quarrel"
       ],
       "optionReasons": {
-        "quarrel-mcq-09": "本句指「故意找理由挑起爭吵」。",
-        "quarrel-mcq-08": "「引起／開始一場爭吵」與本句語境不同。",
-        "quarrel-mcq-10": "「帶着強烈怨恨的激烈爭執」與本句語境不同。",
-        "quarrel-mcq-07": "「與某人爭吵起來／捲入爭執」與本句語境不同。",
-        "quarrel-mcq-11": "「因小事引起的爭吵」與本句語境不同。",
-        "quarrel-mcq-06": "「發生一場爭吵」與本句語境不同。"
+        "quarrel-mcq-09": "本句的「quarrel」指「故意找理由挑起爭吵」。",
+        "quarrel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-09"
     },
@@ -572,11 +552,9 @@ export default {
       "masked": "A bitter ____ divided the family.",
       "options": [
         "quarrel-mcq-10",
-        "quarrel-mcq-09",
-        "quarrel-mcq-11",
-        "quarrel-mcq-08",
-        "quarrel-mcq-12",
-        "quarrel-mcq-07"
+        "quarrel-mcq-18",
+        "quarrel-mcq-14",
+        "quarrel-mcq-09"
       ],
       "explanation": "本句的「quarrel」指「帶着強烈怨恨的激烈爭執」。",
       "sentenceIndex": 13,
@@ -585,12 +563,10 @@ export default {
         "quarrel"
       ],
       "optionReasons": {
-        "quarrel-mcq-10": "本句指「帶着強烈怨恨的激烈爭執」。",
-        "quarrel-mcq-09": "「故意找理由挑起爭吵」與本句語境不同。",
-        "quarrel-mcq-11": "「因小事引起的爭吵」與本句語境不同。",
-        "quarrel-mcq-08": "「引起／開始一場爭吵」與本句語境不同。",
-        "quarrel-mcq-12": "「家庭／伴侶之間的爭吵」與本句語境不同。",
-        "quarrel-mcq-07": "「與某人爭吵起來／捲入爭執」與本句語境不同。"
+        "quarrel-mcq-10": "本句的「quarrel」指「帶着強烈怨恨的激烈爭執」。",
+        "quarrel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-10"
     },
@@ -602,11 +578,9 @@ export default {
       "masked": "They kept having petty ____.",
       "options": [
         "quarrel-mcq-11",
-        "quarrel-mcq-10",
-        "quarrel-mcq-12",
-        "quarrel-mcq-09",
-        "quarrel-mcq-13",
-        "quarrel-mcq-08"
+        "quarrel-mcq-16",
+        "quarrel-mcq-18",
+        "quarrel-mcq-24"
       ],
       "explanation": "本句的「quarrels」指「因小事引起的爭吵」。",
       "sentenceIndex": 14,
@@ -615,12 +589,10 @@ export default {
         "quarrels"
       ],
       "optionReasons": {
-        "quarrel-mcq-11": "本句指「因小事引起的爭吵」。",
-        "quarrel-mcq-10": "「帶着強烈怨恨的激烈爭執」與本句語境不同。",
-        "quarrel-mcq-12": "「家庭／伴侶之間的爭吵」與本句語境不同。",
-        "quarrel-mcq-09": "「故意找理由挑起爭吵」與本句語境不同。",
-        "quarrel-mcq-13": "「情侶之間的爭吵」與本句語境不同。",
-        "quarrel-mcq-08": "「引起／開始一場爭吵」與本句語境不同。"
+        "quarrel-mcq-11": "本句的「quarrels」指「因小事引起的爭吵」。",
+        "quarrel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-11"
     },
@@ -632,11 +604,9 @@ export default {
       "masked": "It began as a lovers' ____.",
       "options": [
         "quarrel-mcq-13",
-        "quarrel-mcq-12",
-        "quarrel-mcq-14",
-        "quarrel-mcq-11",
-        "quarrel-mcq-15",
-        "quarrel-mcq-10"
+        "quarrel-mcq-16",
+        "quarrel-mcq-19",
+        "quarrel-mcq-24"
       ],
       "explanation": "本句的「quarrel」指「情侶之間的爭吵」。",
       "sentenceIndex": 15,
@@ -645,12 +615,10 @@ export default {
         "quarrel"
       ],
       "optionReasons": {
-        "quarrel-mcq-13": "本句指「情侶之間的爭吵」。",
-        "quarrel-mcq-12": "「家庭／伴侶之間的爭吵」與本句語境不同。",
-        "quarrel-mcq-14": "「解決雙方的爭端」與本句語境不同。",
-        "quarrel-mcq-11": "「因小事引起的爭吵」與本句語境不同。",
-        "quarrel-mcq-15": "「持續已久的舊怨／爭端」與本句語境不同。",
-        "quarrel-mcq-10": "「帶着強烈怨恨的激烈爭執」與本句語境不同。"
+        "quarrel-mcq-13": "本句的「quarrel」指「情侶之間的爭吵」。",
+        "quarrel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-13"
     },
@@ -662,11 +630,9 @@ export default {
       "masked": "They finally settled their ____.",
       "options": [
         "quarrel-mcq-14",
-        "quarrel-mcq-13",
-        "quarrel-mcq-15",
-        "quarrel-mcq-12",
         "quarrel-mcq-16",
-        "quarrel-mcq-11"
+        "quarrel-mcq-19",
+        "quarrel-mcq-06"
       ],
       "explanation": "本句的「quarrel」指「解決雙方的爭端」。",
       "sentenceIndex": 20,
@@ -675,12 +641,10 @@ export default {
         "quarrel"
       ],
       "optionReasons": {
-        "quarrel-mcq-14": "本句指「解決雙方的爭端」。",
-        "quarrel-mcq-13": "「情侶之間的爭吵」與本句語境不同。",
-        "quarrel-mcq-15": "「持續已久的舊怨／爭端」與本句語境不同。",
-        "quarrel-mcq-12": "「家庭／伴侶之間的爭吵」與本句語境不同。",
-        "quarrel-mcq-16": "「個人／私人恩怨」與本句語境不同。",
-        "quarrel-mcq-11": "「因小事引起的爭吵」與本句語境不同。"
+        "quarrel-mcq-14": "本句的「quarrel」指「解決雙方的爭端」。",
+        "quarrel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-14"
     },
@@ -692,11 +656,9 @@ export default {
       "masked": "I don't want to become involved in their private ____.",
       "options": [
         "quarrel-mcq-16",
-        "quarrel-mcq-15",
-        "quarrel-mcq-17",
+        "quarrel-mcq-09",
         "quarrel-mcq-14",
-        "quarrel-mcq-18",
-        "quarrel-mcq-13"
+        "quarrel-mcq-19"
       ],
       "explanation": "本句的「quarrel」指「個人／私人恩怨」。",
       "sentenceIndex": 22,
@@ -705,12 +667,10 @@ export default {
         "quarrel"
       ],
       "optionReasons": {
-        "quarrel-mcq-16": "本句指「個人／私人恩怨」。",
-        "quarrel-mcq-15": "「持續已久的舊怨／爭端」與本句語境不同。",
-        "quarrel-mcq-17": "「因憤怒爭執而鬧翻、損害關係」與本句語境不同。",
-        "quarrel-mcq-14": "「解決雙方的爭端」與本句語境不同。",
-        "quarrel-mcq-18": "「對 X 沒有不滿／異議」與本句語境不同。",
-        "quarrel-mcq-13": "「情侶之間的爭吵」與本句語境不同。"
+        "quarrel-mcq-16": "本句的「quarrel」指「個人／私人恩怨」。",
+        "quarrel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-16"
     },
@@ -722,11 +682,9 @@ export default {
       "masked": "I have no ____ with the basic idea.",
       "options": [
         "quarrel-mcq-18",
-        "quarrel-mcq-17",
-        "quarrel-mcq-19",
-        "quarrel-mcq-16",
-        "quarrel-mcq-20",
-        "quarrel-mcq-15"
+        "quarrel-mcq-06",
+        "quarrel-mcq-24",
+        "quarrel-mcq-14"
       ],
       "explanation": "本句的「quarrel」指「對 X 沒有不滿／異議」。",
       "sentenceIndex": 23,
@@ -735,12 +693,10 @@ export default {
         "quarrel"
       ],
       "optionReasons": {
-        "quarrel-mcq-18": "本句指「對 X 沒有不滿／異議」。",
-        "quarrel-mcq-17": "「因憤怒爭執而鬧翻、損害關係」與本句語境不同。",
-        "quarrel-mcq-19": "「我真正不滿／反對的是 X」與本句語境不同。",
-        "quarrel-mcq-16": "「個人／私人恩怨」與本句語境不同。",
-        "quarrel-mcq-20": "「正式：對某看法／主張提出異議或反駁」與本句語境不同。",
-        "quarrel-mcq-15": "「持續已久的舊怨／爭端」與本句語境不同。"
+        "quarrel-mcq-18": "本句的「quarrel」指「對 X 沒有不滿／異議」。",
+        "quarrel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-18"
     },
@@ -752,11 +708,9 @@ export default {
       "masked": "My ____ is with the pricing system, not the staff.",
       "options": [
         "quarrel-mcq-19",
-        "quarrel-mcq-18",
-        "quarrel-mcq-20",
-        "quarrel-mcq-17",
-        "quarrel-mcq-21",
-        "quarrel-mcq-16"
+        "quarrel-mcq-13",
+        "quarrel-mcq-16",
+        "quarrel-mcq-24"
       ],
       "explanation": "本句的「quarrel」指「我真正不滿／反對的是 X」。",
       "sentenceIndex": 25,
@@ -765,12 +719,10 @@ export default {
         "quarrel"
       ],
       "optionReasons": {
-        "quarrel-mcq-19": "本句指「我真正不滿／反對的是 X」。",
-        "quarrel-mcq-18": "「對 X 沒有不滿／異議」與本句語境不同。",
-        "quarrel-mcq-20": "「正式：對某看法／主張提出異議或反駁」與本句語境不同。",
-        "quarrel-mcq-17": "「因憤怒爭執而鬧翻、損害關係」與本句語境不同。",
-        "quarrel-mcq-21": "「正式：很難反對／否認 X」與本句語境不同。",
-        "quarrel-mcq-16": "「個人／私人恩怨」與本句語境不同。"
+        "quarrel-mcq-19": "本句的「quarrel」指「我真正不滿／反對的是 X」。",
+        "quarrel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-19"
     },
@@ -782,9 +734,7 @@ export default {
       "masked": "I do not ____ with your choice.",
       "options": [
         "quarrel-mcq-22",
-        "quarrel-mcq-21",
-        "quarrel-mcq-23",
-        "quarrel-mcq-20",
+        "quarrel-mcq-11",
         "quarrel-mcq-24",
         "quarrel-mcq-19"
       ],
@@ -795,12 +745,10 @@ export default {
         "quarrel"
       ],
       "optionReasons": {
-        "quarrel-mcq-22": "本句指「較舊／正式：抱怨、挑剔、提出異議」。",
-        "quarrel-mcq-21": "「正式：很難反對／否認 X」與本句語境不同。",
-        "quarrel-mcq-23": "「經常喜歡與別人爭吵的」與本句語境不同。",
-        "quarrel-mcq-20": "「正式：對某看法／主張提出異議或反駁」與本句語境不同。",
-        "quarrel-mcq-24": "「容易動怒、想與人爭執的情緒」與本句語境不同。",
-        "quarrel-mcq-19": "「我真正不滿／反對的是 X」與本句語境不同。"
+        "quarrel-mcq-22": "本句的「quarrel」指「較舊／正式：抱怨、挑剔、提出異議」。",
+        "quarrel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-22"
     },
@@ -812,11 +760,9 @@ export default {
       "masked": "She was in a ____ mood.",
       "options": [
         "quarrel-mcq-24",
-        "quarrel-mcq-23",
-        "quarrel-mcq-25",
         "quarrel-mcq-22",
-        "quarrel-mcq-26",
-        "quarrel-mcq-21"
+        "quarrel-mcq-19",
+        "quarrel-mcq-08"
       ],
       "explanation": "本句的「quarrelsome」指「容易動怒、想與人爭執的情緒」。",
       "sentenceIndex": 32,
@@ -825,12 +771,10 @@ export default {
         "quarrelsome"
       ],
       "optionReasons": {
-        "quarrel-mcq-24": "本句指「容易動怒、想與人爭執的情緒」。",
-        "quarrel-mcq-23": "「經常喜歡與別人爭吵的」與本句語境不同。",
-        "quarrel-mcq-25": "「持續／反覆爭吵這種行為」與本句語境不同。",
-        "quarrel-mcq-22": "「較舊／正式：抱怨、挑剔、提出異議」與本句語境不同。",
-        "quarrel-mcq-26": "「爭吵者；較少用」與本句語境不同。",
-        "quarrel-mcq-21": "「正式：很難反對／否認 X」與本句語境不同。"
+        "quarrel-mcq-24": "本句的「quarrelsome」指「容易動怒、想與人爭執的情緒」。",
+        "quarrel-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-24"
     },
@@ -842,10 +786,8 @@ export default {
       "masked": "My ____ is with the implementation, not the principle.",
       "options": [
         "quarrel-mcq-19",
-        "quarrel-mcq-18",
-        "quarrel-mcq-20",
-        "quarrel-mcq-17",
-        "quarrel-mcq-21",
+        "quarrel-mcq-24",
+        "quarrel-mcq-13",
         "quarrel-mcq-16"
       ],
       "explanation": "本句的「quarrel」指「我真正不滿／反對的是 X」。",
@@ -855,12 +797,10 @@ export default {
         "quarrel"
       ],
       "optionReasons": {
-        "quarrel-mcq-19": "本句指「我真正不滿／反對的是 X」。",
-        "quarrel-mcq-18": "「對 X 沒有不滿／異議」與本句語境不同。",
-        "quarrel-mcq-20": "「正式：對某看法／主張提出異議或反駁」與本句語境不同。",
-        "quarrel-mcq-17": "「因憤怒爭執而鬧翻、損害關係」與本句語境不同。",
-        "quarrel-mcq-21": "「正式：很難反對／否認 X」與本句語境不同。",
-        "quarrel-mcq-16": "「個人／私人恩怨」與本句語境不同。"
+        "quarrel-mcq-19": "本句的「quarrel」指「我真正不滿／反對的是 X」。",
+        "quarrel-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quarrel-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quarrel-mcq-19"
     }
@@ -872,5 +812,7 @@ export default {
     "sha256": "8132f2ad412577ba3b16d8e5a872143c6b01d2c22f46e3034fd4412a40c43979",
     "pages": 36
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

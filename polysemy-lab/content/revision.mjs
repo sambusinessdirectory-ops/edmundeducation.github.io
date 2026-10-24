@@ -256,11 +256,8 @@ export default {
       "masked": "I was carrying my ____.",
       "options": [
         "revision-mcq-02",
-        "revision-mcq-01",
-        "revision-mcq-03",
-        "revision-mcq-04",
-        "revision-mcq-05",
-        "revision-mcq-06"
+        "revision-mcq-08",
+        "revision-mcq-10"
       ],
       "explanation": "本句的「revision notes」指「為考試重新學習／重溫已學內容」。",
       "sentenceIndex": 0,
@@ -269,12 +266,9 @@ export default {
         "revision notes"
       ],
       "optionReasons": {
-        "revision-mcq-02": "本句指「為考試重新學習／重溫已學內容」。",
-        "revision-mcq-01": "「考試前重新溫習已學內容，以鞏固記憶和理解」與本句語境不同。",
-        "revision-mcq-03": "「為改善、更新或修正內容而作出的修改」與本句語境不同。",
-        "revision-mcq-04": "「重新檢視某物並作出修改、改善或更新」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。"
+        "revision-mcq-02": "本句的「revision notes」指「為考試重新學習／重溫已學內容」。",
+        "revision-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-02"
     },
@@ -286,11 +280,8 @@ export default {
       "masked": "I need to do some ____ tonight.",
       "options": [
         "revision-mcq-02",
-        "revision-mcq-01",
-        "revision-mcq-03",
-        "revision-mcq-04",
-        "revision-mcq-05",
-        "revision-mcq-06"
+        "revision-mcq-08",
+        "revision-mcq-10"
       ],
       "explanation": "本句的「revision」指「為考試重新學習／重溫已學內容」。",
       "sentenceIndex": 1,
@@ -299,12 +290,9 @@ export default {
         "revision"
       ],
       "optionReasons": {
-        "revision-mcq-02": "本句指「為考試重新學習／重溫已學內容」。",
-        "revision-mcq-01": "「考試前重新溫習已學內容，以鞏固記憶和理解」與本句語境不同。",
-        "revision-mcq-03": "「為改善、更新或修正內容而作出的修改」與本句語境不同。",
-        "revision-mcq-04": "「重新檢視某物並作出修改、改善或更新」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。"
+        "revision-mcq-02": "本句的「revision」指「為考試重新學習／重溫已學內容」。",
+        "revision-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-02"
     },
@@ -316,11 +304,8 @@ export default {
       "masked": "She spent the weekend on exam ____.",
       "options": [
         "revision-mcq-02",
-        "revision-mcq-01",
-        "revision-mcq-03",
-        "revision-mcq-04",
-        "revision-mcq-05",
-        "revision-mcq-06"
+        "revision-mcq-08",
+        "revision-mcq-10"
       ],
       "explanation": "本句的「revision」指「為考試重新學習／重溫已學內容」。",
       "sentenceIndex": 2,
@@ -329,12 +314,9 @@ export default {
         "revision"
       ],
       "optionReasons": {
-        "revision-mcq-02": "本句指「為考試重新學習／重溫已學內容」。",
-        "revision-mcq-01": "「考試前重新溫習已學內容，以鞏固記憶和理解」與本句語境不同。",
-        "revision-mcq-03": "「為改善、更新或修正內容而作出的修改」與本句語境不同。",
-        "revision-mcq-04": "「重新檢視某物並作出修改、改善或更新」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。"
+        "revision-mcq-02": "本句的「revision」指「為考試重新學習／重溫已學內容」。",
+        "revision-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-02"
     },
@@ -346,11 +328,8 @@ export default {
       "masked": "I have to ____ for my maths exam.",
       "options": [
         "revision-mcq-02",
-        "revision-mcq-01",
-        "revision-mcq-03",
-        "revision-mcq-04",
-        "revision-mcq-05",
-        "revision-mcq-06"
+        "revision-mcq-08",
+        "revision-mcq-10"
       ],
       "explanation": "本句的「revise」指「為考試重新學習／重溫已學內容」。",
       "sentenceIndex": 3,
@@ -359,12 +338,9 @@ export default {
         "revise"
       ],
       "optionReasons": {
-        "revision-mcq-02": "本句指「為考試重新學習／重溫已學內容」。",
-        "revision-mcq-01": "「考試前重新溫習已學內容，以鞏固記憶和理解」與本句語境不同。",
-        "revision-mcq-03": "「為改善、更新或修正內容而作出的修改」與本句語境不同。",
-        "revision-mcq-04": "「重新檢視某物並作出修改、改善或更新」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。"
+        "revision-mcq-02": "本句的「revise」指「為考試重新學習／重溫已學內容」。",
+        "revision-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-02"
     },
@@ -376,11 +352,7 @@ export default {
       "masked": "The report needs further ____.",
       "options": [
         "revision-mcq-03",
-        "revision-mcq-02",
-        "revision-mcq-04",
-        "revision-mcq-01",
-        "revision-mcq-05",
-        "revision-mcq-06"
+        "revision-mcq-10"
       ],
       "explanation": "本句的「revision」指「為改善、更新或修正內容而作出的修改」。",
       "sentenceIndex": 4,
@@ -389,12 +361,8 @@ export default {
         "revision"
       ],
       "optionReasons": {
-        "revision-mcq-03": "本句指「為改善、更新或修正內容而作出的修改」。",
-        "revision-mcq-02": "「為考試重新學習／重溫已學內容」與本句語境不同。",
-        "revision-mcq-04": "「重新檢視某物並作出修改、改善或更新」與本句語境不同。",
-        "revision-mcq-01": "「考試前重新溫習已學內容，以鞏固記憶和理解」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。"
+        "revision-mcq-03": "本句的「revision」指「為改善、更新或修正內容而作出的修改」。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-03"
     },
@@ -406,11 +374,7 @@ export default {
       "masked": "The policy went through several ____.",
       "options": [
         "revision-mcq-03",
-        "revision-mcq-02",
-        "revision-mcq-04",
-        "revision-mcq-01",
-        "revision-mcq-05",
-        "revision-mcq-06"
+        "revision-mcq-10"
       ],
       "explanation": "本句的「revisions」指「為改善、更新或修正內容而作出的修改」。",
       "sentenceIndex": 5,
@@ -419,12 +383,8 @@ export default {
         "revisions"
       ],
       "optionReasons": {
-        "revision-mcq-03": "本句指「為改善、更新或修正內容而作出的修改」。",
-        "revision-mcq-02": "「為考試重新學習／重溫已學內容」與本句語境不同。",
-        "revision-mcq-04": "「重新檢視某物並作出修改、改善或更新」與本句語境不同。",
-        "revision-mcq-01": "「考試前重新溫習已學內容，以鞏固記憶和理解」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。"
+        "revision-mcq-03": "本句的「revisions」指「為改善、更新或修正內容而作出的修改」。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-03"
     },
@@ -436,11 +396,8 @@ export default {
       "masked": "Please ____ the final paragraph.",
       "options": [
         "revision-mcq-04",
-        "revision-mcq-03",
-        "revision-mcq-05",
-        "revision-mcq-02",
-        "revision-mcq-06",
-        "revision-mcq-01"
+        "revision-mcq-10",
+        "revision-mcq-09"
       ],
       "explanation": "本句的「revise」指「重新檢視某物並作出修改、改善或更新」。",
       "sentenceIndex": 6,
@@ -449,12 +406,9 @@ export default {
         "revise"
       ],
       "optionReasons": {
-        "revision-mcq-04": "本句指「重新檢視某物並作出修改、改善或更新」。",
-        "revision-mcq-03": "「為改善、更新或修正內容而作出的修改」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。",
-        "revision-mcq-02": "「為考試重新學習／重溫已學內容」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
-        "revision-mcq-01": "「考試前重新溫習已學內容，以鞏固記憶和理解」與本句語境不同。"
+        "revision-mcq-04": "本句的「revise」指「重新檢視某物並作出修改、改善或更新」。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "revision-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-04"
     },
@@ -466,11 +420,8 @@ export default {
       "masked": "Please send me the ____ version.",
       "options": [
         "revision-mcq-05",
-        "revision-mcq-04",
-        "revision-mcq-06",
-        "revision-mcq-03",
-        "revision-mcq-07",
-        "revision-mcq-02"
+        "revision-mcq-09",
+        "revision-mcq-10"
       ],
       "explanation": "本句的「revised」指「已經過修改、更新或修正的」。",
       "sentenceIndex": 7,
@@ -479,12 +430,9 @@ export default {
         "revised"
       ],
       "optionReasons": {
-        "revision-mcq-05": "本句指「已經過修改、更新或修正的」。",
-        "revision-mcq-04": "「重新檢視某物並作出修改、改善或更新」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
-        "revision-mcq-03": "「為改善、更新或修正內容而作出的修改」與本句語境不同。",
-        "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
-        "revision-mcq-02": "「為考試重新學習／重溫已學內容」與本句語境不同。"
+        "revision-mcq-05": "本句的「revised」指「已經過修改、更新或修正的」。",
+        "revision-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-05"
     },
@@ -496,11 +444,8 @@ export default {
       "masked": "This is the latest ____ of the document.",
       "options": [
         "revision-mcq-06",
-        "revision-mcq-05",
-        "revision-mcq-07",
-        "revision-mcq-04",
-        "revision-mcq-08",
-        "revision-mcq-03"
+        "revision-mcq-09",
+        "revision-mcq-10"
       ],
       "explanation": "本句的「revision」指「一項修訂，或修改後形成的新版本」。",
       "sentenceIndex": 8,
@@ -509,12 +454,9 @@ export default {
         "revision"
       ],
       "optionReasons": {
-        "revision-mcq-06": "本句指「一項修訂，或修改後形成的新版本」。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。",
-        "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
-        "revision-mcq-04": "「重新檢視某物並作出修改、改善或更新」與本句語境不同。",
-        "revision-mcq-08": "「對原先數字、估計或預測作出的正式調整」與本句語境不同。",
-        "revision-mcq-03": "「為改善、更新或修正內容而作出的修改」與本句語境不同。"
+        "revision-mcq-06": "本句的「revision」指「一項修訂，或修改後形成的新版本」。",
+        "revision-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-06"
     },
@@ -526,11 +468,7 @@ export default {
       "masked": "The second ____ is much clearer.",
       "options": [
         "revision-mcq-06",
-        "revision-mcq-05",
-        "revision-mcq-07",
-        "revision-mcq-04",
-        "revision-mcq-08",
-        "revision-mcq-03"
+        "revision-pdf-001"
       ],
       "explanation": "本句的「revision」指「一項修訂，或修改後形成的新版本」。",
       "sentenceIndex": 9,
@@ -539,12 +477,8 @@ export default {
         "revision"
       ],
       "optionReasons": {
-        "revision-mcq-06": "本句指「一項修訂，或修改後形成的新版本」。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。",
-        "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
-        "revision-mcq-04": "「重新檢視某物並作出修改、改善或更新」與本句語境不同。",
-        "revision-mcq-08": "「對原先數字、估計或預測作出的正式調整」與本句語境不同。",
-        "revision-mcq-03": "「為改善、更新或修正內容而作出的修改」與本句語境不同。"
+        "revision-mcq-06": "本句的「revision」指「一項修訂，或修改後形成的新版本」。",
+        "revision-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-06"
     },
@@ -556,11 +490,7 @@ export default {
       "masked": "The discovery led to a ____ of the theory.",
       "options": [
         "revision-mcq-07",
-        "revision-mcq-06",
-        "revision-mcq-08",
-        "revision-mcq-05",
-        "revision-mcq-09",
-        "revision-mcq-04"
+        "revision-mcq-10"
       ],
       "explanation": "本句的「revision」指「因新資料而重新評估並調整原來的看法／理論」。",
       "sentenceIndex": 10,
@@ -569,12 +499,8 @@ export default {
         "revision"
       ],
       "optionReasons": {
-        "revision-mcq-07": "本句指「因新資料而重新評估並調整原來的看法／理論」。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
-        "revision-mcq-08": "「對原先數字、估計或預測作出的正式調整」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。",
-        "revision-mcq-09": "「為考試重溫內容而整理的筆記」與本句語境不同。",
-        "revision-mcq-04": "「重新檢視某物並作出修改、改善或更新」與本句語境不同。"
+        "revision-mcq-07": "本句的「revision」指「因新資料而重新評估並調整原來的看法／理論」。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-07"
     },
@@ -586,11 +512,7 @@ export default {
       "masked": "The evidence may require a ____ of our assumptions.",
       "options": [
         "revision-mcq-07",
-        "revision-mcq-06",
-        "revision-mcq-08",
-        "revision-mcq-05",
-        "revision-mcq-09",
-        "revision-mcq-04"
+        "revision-mcq-10"
       ],
       "explanation": "本句的「revision」指「因新資料而重新評估並調整原來的看法／理論」。",
       "sentenceIndex": 11,
@@ -599,12 +521,8 @@ export default {
         "revision"
       ],
       "optionReasons": {
-        "revision-mcq-07": "本句指「因新資料而重新評估並調整原來的看法／理論」。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
-        "revision-mcq-08": "「對原先數字、估計或預測作出的正式調整」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。",
-        "revision-mcq-09": "「為考試重溫內容而整理的筆記」與本句語境不同。",
-        "revision-mcq-04": "「重新檢視某物並作出修改、改善或更新」與本句語境不同。"
+        "revision-mcq-07": "本句的「revision」指「因新資料而重新評估並調整原來的看法／理論」。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-07"
     },
@@ -616,11 +534,8 @@ export default {
       "masked": "The agency announced an upward ____ to the growth forecast.",
       "options": [
         "revision-mcq-08",
-        "revision-mcq-07",
-        "revision-mcq-09",
-        "revision-mcq-06",
-        "revision-mcq-10",
-        "revision-mcq-05"
+        "revision-mcq-02",
+        "revision-mcq-10"
       ],
       "explanation": "本句的「revision」指「對原先數字、估計或預測作出的正式調整」。",
       "sentenceIndex": 12,
@@ -629,12 +544,9 @@ export default {
         "revision"
       ],
       "optionReasons": {
-        "revision-mcq-08": "本句指「對原先數字、估計或預測作出的正式調整」。",
-        "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
-        "revision-mcq-09": "「為考試重溫內容而整理的筆記」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
-        "revision-mcq-10": "「安排各科溫習時間的計劃表」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。"
+        "revision-mcq-08": "本句的「revision」指「對原先數字、估計或預測作出的正式調整」。",
+        "revision-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-08"
     },
@@ -646,11 +558,8 @@ export default {
       "masked": "The estimate is subject to ____.",
       "options": [
         "revision-mcq-08",
-        "revision-mcq-07",
-        "revision-mcq-09",
-        "revision-mcq-06",
-        "revision-mcq-10",
-        "revision-mcq-05"
+        "revision-mcq-02",
+        "revision-mcq-10"
       ],
       "explanation": "本句的「revision」指「對原先數字、估計或預測作出的正式調整」。",
       "sentenceIndex": 13,
@@ -659,12 +568,9 @@ export default {
         "revision"
       ],
       "optionReasons": {
-        "revision-mcq-08": "本句指「對原先數字、估計或預測作出的正式調整」。",
-        "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
-        "revision-mcq-09": "「為考試重溫內容而整理的筆記」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
-        "revision-mcq-10": "「安排各科溫習時間的計劃表」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。"
+        "revision-mcq-08": "本句的「revision」指「對原先數字、估計或預測作出的正式調整」。",
+        "revision-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-08"
     },
@@ -676,11 +582,8 @@ export default {
       "masked": "Her ____ were neatly organised.",
       "options": [
         "revision-mcq-09",
-        "revision-mcq-08",
-        "revision-mcq-10",
-        "revision-mcq-07",
-        "revision-mcq-06",
-        "revision-mcq-05"
+        "revision-mcq-05",
+        "revision-mcq-10"
       ],
       "explanation": "本句的「revision notes」指「為考試重溫內容而整理的筆記」。",
       "sentenceIndex": 14,
@@ -689,12 +592,9 @@ export default {
         "revision notes"
       ],
       "optionReasons": {
-        "revision-mcq-09": "本句指「為考試重溫內容而整理的筆記」。",
-        "revision-mcq-08": "「對原先數字、估計或預測作出的正式調整」與本句語境不同。",
-        "revision-mcq-10": "「安排各科溫習時間的計劃表」與本句語境不同。",
-        "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。"
+        "revision-mcq-09": "本句的「revision notes」指「為考試重溫內容而整理的筆記」。",
+        "revision-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-09"
     },
@@ -706,11 +606,8 @@ export default {
       "masked": "I made ____ notes for every chapter.",
       "options": [
         "revision-mcq-09",
-        "revision-mcq-08",
-        "revision-mcq-10",
-        "revision-mcq-07",
         "revision-mcq-06",
-        "revision-mcq-05"
+        "revision-mcq-10"
       ],
       "explanation": "本句的「revision」指「為考試重溫內容而整理的筆記」。",
       "sentenceIndex": 15,
@@ -719,12 +616,9 @@ export default {
         "revision"
       ],
       "optionReasons": {
-        "revision-mcq-09": "本句指「為考試重溫內容而整理的筆記」。",
-        "revision-mcq-08": "「對原先數字、估計或預測作出的正式調整」與本句語境不同。",
-        "revision-mcq-10": "「安排各科溫習時間的計劃表」與本句語境不同。",
-        "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。"
+        "revision-mcq-09": "本句的「revision」指「為考試重溫內容而整理的筆記」。",
+        "revision-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "revision-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-09"
     },
@@ -736,11 +630,7 @@ export default {
       "masked": "I made a ____ before the exams.",
       "options": [
         "revision-mcq-10",
-        "revision-mcq-09",
-        "revision-mcq-08",
-        "revision-mcq-07",
-        "revision-mcq-06",
-        "revision-mcq-05"
+        "revision-mcq-07"
       ],
       "explanation": "本句的「revision timetable」指「安排各科溫習時間的計劃表」。",
       "sentenceIndex": 16,
@@ -749,12 +639,8 @@ export default {
         "revision timetable"
       ],
       "optionReasons": {
-        "revision-mcq-10": "本句指「安排各科溫習時間的計劃表」。",
-        "revision-mcq-09": "「為考試重溫內容而整理的筆記」與本句語境不同。",
-        "revision-mcq-08": "「對原先數字、估計或預測作出的正式調整」與本句語境不同。",
-        "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。"
+        "revision-mcq-10": "本句的「revision timetable」指「安排各科溫習時間的計劃表」。",
+        "revision-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-10"
     },
@@ -766,11 +652,8 @@ export default {
       "masked": "A realistic ____ timetable can reduce stress.",
       "options": [
         "revision-mcq-10",
-        "revision-mcq-09",
-        "revision-mcq-08",
-        "revision-mcq-07",
-        "revision-mcq-06",
-        "revision-mcq-05"
+        "revision-mcq-05",
+        "revision-mcq-09"
       ],
       "explanation": "本句的「revision」指「安排各科溫習時間的計劃表」。",
       "sentenceIndex": 17,
@@ -779,12 +662,9 @@ export default {
         "revision"
       ],
       "optionReasons": {
-        "revision-mcq-10": "本句指「安排各科溫習時間的計劃表」。",
-        "revision-mcq-09": "「為考試重溫內容而整理的筆記」與本句語境不同。",
-        "revision-mcq-08": "「對原先數字、估計或預測作出的正式調整」與本句語境不同。",
-        "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。"
+        "revision-mcq-10": "本句的「revision」指「安排各科溫習時間的計劃表」。",
+        "revision-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "revision-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-10"
     },
@@ -796,11 +676,7 @@ export default {
       "masked": "The teacher held a ____ after school.",
       "options": [
         "revision-pdf-001",
-        "revision-mcq-09",
-        "revision-mcq-08",
-        "revision-mcq-07",
-        "revision-mcq-06",
-        "revision-mcq-05"
+        "revision-mcq-08"
       ],
       "explanation": "本句的「revision session」指「專門用來重溫已學內容的一段時間／課堂」。",
       "sentenceIndex": 18,
@@ -809,12 +685,8 @@ export default {
         "revision session"
       ],
       "optionReasons": {
-        "revision-pdf-001": "本句指「專門用來重溫已學內容的一段時間／課堂」。",
-        "revision-mcq-09": "「為考試重溫內容而整理的筆記」與本句語境不同。",
-        "revision-mcq-08": "「對原先數字、估計或預測作出的正式調整」與本句語境不同。",
-        "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。"
+        "revision-pdf-001": "本句的「revision session」指「專門用來重溫已學內容的一段時間／課堂」。",
+        "revision-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-pdf-001"
     },
@@ -826,11 +698,7 @@ export default {
       "masked": "We had a short ____ session before the test.",
       "options": [
         "revision-pdf-001",
-        "revision-mcq-09",
-        "revision-mcq-08",
-        "revision-mcq-07",
-        "revision-mcq-06",
-        "revision-mcq-05"
+        "revision-mcq-08"
       ],
       "explanation": "本句的「revision」指「專門用來重溫已學內容的一段時間／課堂」。",
       "sentenceIndex": 19,
@@ -839,12 +707,8 @@ export default {
         "revision"
       ],
       "optionReasons": {
-        "revision-pdf-001": "本句指「專門用來重溫已學內容的一段時間／課堂」。",
-        "revision-mcq-09": "「為考試重溫內容而整理的筆記」與本句語境不同。",
-        "revision-mcq-08": "「對原先數字、估計或預測作出的正式調整」與本句語境不同。",
-        "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。"
+        "revision-pdf-001": "本句的「revision」指「專門用來重溫已學內容的一段時間／課堂」。",
+        "revision-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-pdf-001"
     },
@@ -856,11 +720,8 @@ export default {
       "masked": "She bought a ____ for biology.",
       "options": [
         "revision-mcq-10",
-        "revision-mcq-09",
-        "revision-mcq-08",
-        "revision-mcq-07",
-        "revision-mcq-06",
-        "revision-mcq-05"
+        "revision-mcq-05",
+        "revision-mcq-09"
       ],
       "explanation": "本句的「revision guide」指「安排各科溫習時間的計劃表」。",
       "sentenceIndex": 20,
@@ -869,12 +730,9 @@ export default {
         "revision guide"
       ],
       "optionReasons": {
-        "revision-mcq-10": "本句指「安排各科溫習時間的計劃表」。",
-        "revision-mcq-09": "「為考試重溫內容而整理的筆記」與本句語境不同。",
-        "revision-mcq-08": "「對原先數字、估計或預測作出的正式調整」與本句語境不同。",
-        "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。"
+        "revision-mcq-10": "本句的「revision guide」指「安排各科溫習時間的計劃表」。",
+        "revision-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "revision-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-10"
     },
@@ -886,11 +744,7 @@ export default {
       "masked": "The ____ guide summarises the key topics.",
       "options": [
         "revision-mcq-10",
-        "revision-mcq-09",
-        "revision-mcq-08",
-        "revision-mcq-07",
-        "revision-mcq-06",
-        "revision-mcq-05"
+        "revision-mcq-07"
       ],
       "explanation": "本句的「revision」指「安排各科溫習時間的計劃表」。",
       "sentenceIndex": 21,
@@ -899,12 +753,8 @@ export default {
         "revision"
       ],
       "optionReasons": {
-        "revision-mcq-10": "本句指「安排各科溫習時間的計劃表」。",
-        "revision-mcq-09": "「為考試重溫內容而整理的筆記」與本句語境不同。",
-        "revision-mcq-08": "「對原先數字、估計或預測作出的正式調整」與本句語境不同。",
-        "revision-mcq-07": "「因新資料而重新評估並調整原來的看法／理論」與本句語境不同。",
-        "revision-mcq-06": "「一項修訂，或修改後形成的新版本」與本句語境不同。",
-        "revision-mcq-05": "「已經過修改、更新或修正的」與本句語境不同。"
+        "revision-mcq-10": "本句的「revision」指「安排各科溫習時間的計劃表」。",
+        "revision-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "revision-mcq-10"
     }
@@ -916,5 +766,7 @@ export default {
     "sha256": "993ad6172f44bdf9cb713e32fbb47684e64a6fb3d63d7ab35a52cf7a7b24408a",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

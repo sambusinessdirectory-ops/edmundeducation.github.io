@@ -361,11 +361,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "mend-mcq-01",
-        "mend-mcq-02",
-        "mend-mcq-03",
-        "mend-mcq-04",
-        "mend-mcq-05",
-        "mend-mcq-06"
+        "mend-pdf-002",
+        "mend-mcq-13",
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mended the torn shirt」指「修補；修理」。",
       "sentenceIndex": 0,
@@ -374,12 +372,10 @@ export default {
         "mended the torn shirt"
       ],
       "optionReasons": {
-        "mend-mcq-01": "本句指「修補；修理」。",
-        "mend-mcq-02": "「縫補衣物」與本句語境不同。",
-        "mend-mcq-03": "「補裂口」與本句語境不同。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。",
-        "mend-mcq-06": "「修復關係」與本句語境不同。"
+        "mend-mcq-01": "本句的「mended the torn shirt」指「修補；修理」。",
+        "mend-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-01"
     },
@@ -391,11 +387,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "mend-mcq-01",
-        "mend-mcq-02",
-        "mend-mcq-03",
-        "mend-mcq-04",
-        "mend-mcq-05",
-        "mend-mcq-06"
+        "mend-mcq-13",
+        "mend-mcq-09",
+        "mend-mcq-11"
       ],
       "explanation": "本句的「mend this hole」指「修補；修理」。",
       "sentenceIndex": 1,
@@ -404,12 +398,10 @@ export default {
         "mend this hole"
       ],
       "optionReasons": {
-        "mend-mcq-01": "本句指「修補；修理」。",
-        "mend-mcq-02": "「縫補衣物」與本句語境不同。",
-        "mend-mcq-03": "「補裂口」與本句語境不同。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。",
-        "mend-mcq-06": "「修復關係」與本句語境不同。"
+        "mend-mcq-01": "本句的「mend this hole」指「修補；修理」。",
+        "mend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-01"
     },
@@ -421,11 +413,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "mend-mcq-01",
-        "mend-mcq-02",
-        "mend-mcq-03",
-        "mend-mcq-04",
-        "mend-mcq-05",
-        "mend-mcq-06"
+        "mend-pdf-001",
+        "mend-mcq-11",
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mended the broken fence」指「修補；修理」。",
       "sentenceIndex": 2,
@@ -434,12 +424,10 @@ export default {
         "mended the broken fence"
       ],
       "optionReasons": {
-        "mend-mcq-01": "本句指「修補；修理」。",
-        "mend-mcq-02": "「縫補衣物」與本句語境不同。",
-        "mend-mcq-03": "「補裂口」與本句語境不同。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。",
-        "mend-mcq-06": "「修復關係」與本句語境不同。"
+        "mend-mcq-01": "本句的「mended the broken fence」指「修補；修理」。",
+        "mend-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-01"
     },
@@ -451,11 +439,9 @@ export default {
       "masked": "My grandmother taught me how to ____.",
       "options": [
         "mend-mcq-02",
-        "mend-mcq-01",
-        "mend-mcq-03",
-        "mend-mcq-04",
         "mend-mcq-05",
-        "mend-mcq-06"
+        "mend-mcq-13",
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mend clothes」指「縫補衣物」。",
       "sentenceIndex": 3,
@@ -464,12 +450,10 @@ export default {
         "mend clothes"
       ],
       "optionReasons": {
-        "mend-mcq-02": "本句指「縫補衣物」。",
-        "mend-mcq-01": "「修補；修理」與本句語境不同。",
-        "mend-mcq-03": "「補裂口」與本句語境不同。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。",
-        "mend-mcq-06": "「修復關係」與本句語境不同。"
+        "mend-mcq-02": "本句的「mend clothes」指「縫補衣物」。",
+        "mend-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-02"
     },
@@ -481,11 +465,9 @@ export default {
       "masked": "She spent the evening ____.",
       "options": [
         "mend-mcq-02",
-        "mend-mcq-01",
-        "mend-mcq-03",
-        "mend-mcq-04",
+        "mend-mcq-13",
         "mend-mcq-05",
-        "mend-mcq-06"
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mending clothes」指「縫補衣物」。",
       "sentenceIndex": 4,
@@ -494,12 +476,10 @@ export default {
         "mending clothes"
       ],
       "optionReasons": {
-        "mend-mcq-02": "本句指「縫補衣物」。",
-        "mend-mcq-01": "「修補；修理」與本句語境不同。",
-        "mend-mcq-03": "「補裂口」與本句語境不同。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。",
-        "mend-mcq-06": "「修復關係」與本句語境不同。"
+        "mend-mcq-02": "本句的「mending clothes」指「縫補衣物」。",
+        "mend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-02"
     },
@@ -511,11 +491,9 @@ export default {
       "masked": "Can you ____ in my jacket?",
       "options": [
         "mend-mcq-03",
-        "mend-mcq-02",
-        "mend-mcq-04",
-        "mend-mcq-01",
+        "mend-pdf-002",
         "mend-mcq-05",
-        "mend-mcq-06"
+        "mend-mcq-11"
       ],
       "explanation": "本句的「mend the tear」指「補裂口」。",
       "sentenceIndex": 5,
@@ -524,12 +502,10 @@ export default {
         "mend the tear"
       ],
       "optionReasons": {
-        "mend-mcq-03": "本句指「補裂口」。",
-        "mend-mcq-02": "「縫補衣物」與本句語境不同。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-01": "「修補；修理」與本句語境不同。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。",
-        "mend-mcq-06": "「修復關係」與本句語境不同。"
+        "mend-mcq-03": "本句的「mend the tear」指「補裂口」。",
+        "mend-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-03"
     },
@@ -541,11 +517,9 @@ export default {
       "masked": "He ____ in the bag.",
       "options": [
         "mend-mcq-03",
-        "mend-mcq-02",
-        "mend-mcq-04",
-        "mend-mcq-01",
-        "mend-mcq-05",
-        "mend-mcq-06"
+        "mend-mcq-06",
+        "mend-mcq-13",
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mended the hole」指「補裂口」。",
       "sentenceIndex": 6,
@@ -554,12 +528,10 @@ export default {
         "mended the hole"
       ],
       "optionReasons": {
-        "mend-mcq-03": "本句指「補裂口」。",
-        "mend-mcq-02": "「縫補衣物」與本句語境不同。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-01": "「修補；修理」與本句語境不同。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。",
-        "mend-mcq-06": "「修復關係」與本句語境不同。"
+        "mend-mcq-03": "本句的「mended the hole」指「補裂口」。",
+        "mend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-03"
     },
@@ -571,11 +543,9 @@ export default {
       "masked": "He spent the afternoon ____.",
       "options": [
         "mend-mcq-05",
-        "mend-mcq-04",
-        "mend-mcq-06",
-        "mend-mcq-03",
-        "mend-mcq-07",
-        "mend-mcq-02"
+        "mend-mcq-13",
+        "mend-mcq-02",
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mending the fence」指「修理圍欄」。",
       "sentenceIndex": 7,
@@ -584,12 +554,10 @@ export default {
         "mending the fence"
       ],
       "optionReasons": {
-        "mend-mcq-05": "本句指「修理圍欄」。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-06": "「修復關係」與本句語境不同。",
-        "mend-mcq-03": "「補裂口」與本句語境不同。",
-        "mend-mcq-07": "「修補友誼」與本句語境不同。",
-        "mend-mcq-02": "「縫補衣物」與本句語境不同。"
+        "mend-mcq-05": "本句的「mending the fence」指「修理圍欄」。",
+        "mend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-05"
     },
@@ -601,11 +569,9 @@ export default {
       "masked": "The farmer ____.",
       "options": [
         "mend-mcq-05",
-        "mend-mcq-04",
-        "mend-mcq-06",
         "mend-mcq-03",
-        "mend-mcq-07",
-        "mend-mcq-02"
+        "mend-pdf-001",
+        "mend-mcq-11"
       ],
       "explanation": "本句的「mended the damaged fence」指「修理圍欄」。",
       "sentenceIndex": 8,
@@ -614,12 +580,10 @@ export default {
         "mended the damaged fence"
       ],
       "optionReasons": {
-        "mend-mcq-05": "本句指「修理圍欄」。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-06": "「修復關係」與本句語境不同。",
-        "mend-mcq-03": "「補裂口」與本句語境不同。",
-        "mend-mcq-07": "「修補友誼」與本句語境不同。",
-        "mend-mcq-02": "「縫補衣物」與本句語境不同。"
+        "mend-mcq-05": "本句的「mended the damaged fence」指「修理圍欄」。",
+        "mend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mend-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-05"
     },
@@ -631,11 +595,9 @@ export default {
       "masked": "They are trying to ____.",
       "options": [
         "mend-pdf-001",
+        "mend-mcq-03",
         "mend-mcq-05",
-        "mend-mcq-07",
-        "mend-mcq-04",
-        "mend-mcq-08",
-        "mend-mcq-03"
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mend their relationship」指「在關係受損後努力令它重新改善」。",
       "sentenceIndex": 9,
@@ -644,12 +606,10 @@ export default {
         "mend their relationship"
       ],
       "optionReasons": {
-        "mend-pdf-001": "本句指「在關係受損後努力令它重新改善」。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。",
-        "mend-mcq-07": "「修補友誼」與本句語境不同。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-08": "「修補／改善局面」與本句語境不同。",
-        "mend-mcq-03": "「補裂口」與本句語境不同。"
+        "mend-pdf-001": "本句的「mend their relationship」指「在關係受損後努力令它重新改善」。",
+        "mend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-pdf-001"
     },
@@ -661,11 +621,9 @@ export default {
       "masked": "The apology helped ____.",
       "options": [
         "mend-pdf-001",
+        "mend-mcq-03",
         "mend-mcq-05",
-        "mend-mcq-07",
-        "mend-mcq-04",
-        "mend-mcq-08",
-        "mend-mcq-03"
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mend the friendship」指「在關係受損後努力令它重新改善」。",
       "sentenceIndex": 10,
@@ -674,12 +632,10 @@ export default {
         "mend the friendship"
       ],
       "optionReasons": {
-        "mend-pdf-001": "本句指「在關係受損後努力令它重新改善」。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。",
-        "mend-mcq-07": "「修補友誼」與本句語境不同。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-08": "「修補／改善局面」與本句語境不同。",
-        "mend-mcq-03": "「補裂口」與本句語境不同。"
+        "mend-pdf-001": "本句的「mend the friendship」指「在關係受損後努力令它重新改善」。",
+        "mend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-pdf-001"
     },
@@ -691,11 +647,9 @@ export default {
       "masked": "A sincere apology can really ____.",
       "options": [
         "mend-mcq-08",
-        "mend-mcq-07",
-        "mend-mcq-09",
-        "mend-mcq-06",
-        "mend-mcq-10",
-        "mend-mcq-05"
+        "mend-mcq-11",
+        "mend-pdf-002",
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mend the situation」指「修補／改善局面」。",
       "sentenceIndex": 11,
@@ -704,12 +658,10 @@ export default {
         "mend the situation"
       ],
       "optionReasons": {
-        "mend-mcq-08": "本句指「修補／改善局面」。",
-        "mend-mcq-07": "「修補友誼」與本句語境不同。",
-        "mend-mcq-09": "「療癒心傷」與本句語境不同。",
-        "mend-mcq-06": "「修復關係」與本句語境不同。",
-        "mend-mcq-10": "「修補關係；和解」與本句語境不同。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。"
+        "mend-mcq-08": "本句的「mend the situation」指「修補／改善局面」。",
+        "mend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mend-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-08"
     },
@@ -721,11 +673,9 @@ export default {
       "masked": "It will take time to ____.",
       "options": [
         "mend-mcq-08",
-        "mend-mcq-07",
-        "mend-mcq-09",
-        "mend-mcq-06",
-        "mend-mcq-10",
-        "mend-mcq-05"
+        "mend-mcq-11",
+        "mend-pdf-002",
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mend the situation」指「修補／改善局面」。",
       "sentenceIndex": 12,
@@ -734,12 +684,10 @@ export default {
         "mend the situation"
       ],
       "optionReasons": {
-        "mend-mcq-08": "本句指「修補／改善局面」。",
-        "mend-mcq-07": "「修補友誼」與本句語境不同。",
-        "mend-mcq-09": "「療癒心傷」與本句語境不同。",
-        "mend-mcq-06": "「修復關係」與本句語境不同。",
-        "mend-mcq-10": "「修補關係；和解」與本句語境不同。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。"
+        "mend-mcq-08": "本句的「mend the situation」指「修補／改善局面」。",
+        "mend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mend-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-08"
     },
@@ -752,10 +700,8 @@ export default {
       "options": [
         "mend-pdf-002",
         "mend-mcq-05",
-        "mend-mcq-07",
-        "mend-mcq-04",
         "mend-mcq-08",
-        "mend-mcq-03"
+        "mend-mcq-11"
       ],
       "explanation": "本句的「mended their friendship」指「在出現衝突、誤會或傷害後重新建立友好關係」。",
       "sentenceIndex": 13,
@@ -764,12 +710,10 @@ export default {
         "mended their friendship"
       ],
       "optionReasons": {
-        "mend-pdf-002": "本句指「在出現衝突、誤會或傷害後重新建立友好關係」。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。",
-        "mend-mcq-07": "「修補友誼」與本句語境不同。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-08": "「修補／改善局面」與本句語境不同。",
-        "mend-mcq-03": "「補裂口」與本句語境不同。"
+        "mend-pdf-002": "本句的「mended their friendship」指「在出現衝突、誤會或傷害後重新建立友好關係」。",
+        "mend-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-pdf-002"
     },
@@ -781,11 +725,9 @@ export default {
       "masked": "It took months to ____.",
       "options": [
         "mend-pdf-002",
-        "mend-mcq-05",
-        "mend-mcq-07",
-        "mend-mcq-04",
         "mend-mcq-08",
-        "mend-mcq-03"
+        "mend-mcq-05",
+        "mend-mcq-11"
       ],
       "explanation": "本句的「mend the friendship」指「在出現衝突、誤會或傷害後重新建立友好關係」。",
       "sentenceIndex": 14,
@@ -794,12 +736,10 @@ export default {
         "mend the friendship"
       ],
       "optionReasons": {
-        "mend-pdf-002": "本句指「在出現衝突、誤會或傷害後重新建立友好關係」。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。",
-        "mend-mcq-07": "「修補友誼」與本句語境不同。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-08": "「修補／改善局面」與本句語境不同。",
-        "mend-mcq-03": "「補裂口」與本句語境不同。"
+        "mend-pdf-002": "本句的「mend the friendship」指「在出現衝突、誤會或傷害後重新建立友好關係」。",
+        "mend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-pdf-002"
     },
@@ -811,11 +751,9 @@ export default {
       "masked": "Trust is essential if you want to ____.",
       "options": [
         "mend-mcq-06",
-        "mend-mcq-05",
-        "mend-mcq-07",
-        "mend-mcq-04",
-        "mend-mcq-08",
-        "mend-mcq-03"
+        "mend-mcq-09",
+        "mend-mcq-03",
+        "mend-mcq-13"
       ],
       "explanation": "本句的「mend a relationship」指「修復關係」。",
       "sentenceIndex": 15,
@@ -824,12 +762,10 @@ export default {
         "mend a relationship"
       ],
       "optionReasons": {
-        "mend-mcq-06": "本句指「修復關係」。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。",
-        "mend-mcq-07": "「修補友誼」與本句語境不同。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-08": "「修補／改善局面」與本句語境不同。",
-        "mend-mcq-03": "「補裂口」與本句語境不同。"
+        "mend-mcq-06": "本句的「mend a relationship」指「修復關係」。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-06"
     },
@@ -841,11 +777,9 @@ export default {
       "masked": "Both sides need to make an effort to ____.",
       "options": [
         "mend-mcq-06",
-        "mend-mcq-05",
-        "mend-mcq-07",
-        "mend-mcq-04",
-        "mend-mcq-08",
-        "mend-mcq-03"
+        "mend-mcq-02",
+        "mend-mcq-13",
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mend the relationship」指「修復關係」。",
       "sentenceIndex": 16,
@@ -854,12 +788,10 @@ export default {
         "mend the relationship"
       ],
       "optionReasons": {
-        "mend-mcq-06": "本句指「修復關係」。",
-        "mend-mcq-05": "「修理圍欄」與本句語境不同。",
-        "mend-mcq-07": "「修補友誼」與本句語境不同。",
-        "mend-mcq-04": "「補洞」與本句語境不同。",
-        "mend-mcq-08": "「修補／改善局面」與本句語境不同。",
-        "mend-mcq-03": "「補裂口」與本句語境不同。"
+        "mend-mcq-06": "本句的「mend the relationship」指「修復關係」。",
+        "mend-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-06"
     },
@@ -871,11 +803,9 @@ export default {
       "masked": "Time helped ____.",
       "options": [
         "mend-mcq-09",
-        "mend-mcq-08",
-        "mend-mcq-10",
-        "mend-mcq-07",
-        "mend-mcq-11",
-        "mend-mcq-06"
+        "mend-mcq-01",
+        "mend-pdf-001",
+        "mend-mcq-11"
       ],
       "explanation": "本句的「mend her broken heart」指「療癒心傷」。",
       "sentenceIndex": 17,
@@ -884,12 +814,10 @@ export default {
         "mend her broken heart"
       ],
       "optionReasons": {
-        "mend-mcq-09": "本句指「療癒心傷」。",
-        "mend-mcq-08": "「修補／改善局面」與本句語境不同。",
-        "mend-mcq-10": "「修補關係；和解」與本句語境不同。",
-        "mend-mcq-07": "「修補友誼」與本句語境不同。",
-        "mend-mcq-11": "「正在康復／好轉」與本句語境不同。",
-        "mend-mcq-06": "「修復關係」與本句語境不同。"
+        "mend-mcq-09": "本句的「mend her broken heart」指「療癒心傷」。",
+        "mend-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mend-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-09"
     },
@@ -901,11 +829,9 @@ export default {
       "masked": "Friends can help ____.",
       "options": [
         "mend-mcq-09",
-        "mend-mcq-08",
-        "mend-mcq-10",
-        "mend-mcq-07",
         "mend-mcq-11",
-        "mend-mcq-06"
+        "mend-mcq-03",
+        "mend-mcq-05"
       ],
       "explanation": "本句的「mend a broken heart」指「療癒心傷」。",
       "sentenceIndex": 18,
@@ -914,12 +840,10 @@ export default {
         "mend a broken heart"
       ],
       "optionReasons": {
-        "mend-mcq-09": "本句指「療癒心傷」。",
-        "mend-mcq-08": "「修補／改善局面」與本句語境不同。",
-        "mend-mcq-10": "「修補關係；和解」與本句語境不同。",
-        "mend-mcq-07": "「修補友誼」與本句語境不同。",
-        "mend-mcq-11": "「正在康復／好轉」與本句語境不同。",
-        "mend-mcq-06": "「修復關係」與本句語境不同。"
+        "mend-mcq-09": "本句的「mend a broken heart」指「療癒心傷」。",
+        "mend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-09"
     },
@@ -931,11 +855,9 @@ export default {
       "masked": "The two colleagues met to ____.",
       "options": [
         "mend-mcq-10",
-        "mend-mcq-09",
         "mend-mcq-11",
-        "mend-mcq-08",
-        "mend-mcq-12",
-        "mend-mcq-07"
+        "mend-mcq-13",
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mend fences」指「修補關係；和解」。",
       "sentenceIndex": 19,
@@ -944,12 +866,10 @@ export default {
         "mend fences"
       ],
       "optionReasons": {
-        "mend-mcq-10": "本句指「修補關係；和解」。",
-        "mend-mcq-09": "「療癒心傷」與本句語境不同。",
-        "mend-mcq-11": "「正在康復／好轉」與本句語境不同。",
-        "mend-mcq-08": "「修補／改善局面」與本句語境不同。",
-        "mend-mcq-12": "「腿正在康復」與本句語境不同。",
-        "mend-mcq-07": "「修補友誼」與本句語境不同。"
+        "mend-mcq-10": "本句的「mend fences」指「修補關係；和解」。",
+        "mend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-10"
     },
@@ -961,11 +881,9 @@ export default {
       "masked": "He called his brother to ____ after the argument.",
       "options": [
         "mend-mcq-10",
-        "mend-mcq-09",
         "mend-mcq-11",
-        "mend-mcq-08",
-        "mend-mcq-12",
-        "mend-mcq-07"
+        "mend-mcq-13",
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mend fences」指「修補關係；和解」。",
       "sentenceIndex": 20,
@@ -974,12 +892,10 @@ export default {
         "mend fences"
       ],
       "optionReasons": {
-        "mend-mcq-10": "本句指「修補關係；和解」。",
-        "mend-mcq-09": "「療癒心傷」與本句語境不同。",
-        "mend-mcq-11": "「正在康復／好轉」與本句語境不同。",
-        "mend-mcq-08": "「修補／改善局面」與本句語境不同。",
-        "mend-mcq-12": "「腿正在康復」與本句語境不同。",
-        "mend-mcq-07": "「修補友誼」與本句語境不同。"
+        "mend-mcq-10": "本句的「mend fences」指「修補關係；和解」。",
+        "mend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-10"
     },
@@ -992,10 +908,8 @@ export default {
       "options": [
         "mend-mcq-11",
         "mend-mcq-10",
-        "mend-mcq-12",
-        "mend-mcq-09",
         "mend-mcq-13",
-        "mend-mcq-08"
+        "mend-mcq-05"
       ],
       "explanation": "本句的「on the mend」指「正在康復／好轉」。",
       "sentenceIndex": 21,
@@ -1004,12 +918,10 @@ export default {
         "on the mend"
       ],
       "optionReasons": {
-        "mend-mcq-11": "本句指「正在康復／好轉」。",
-        "mend-mcq-10": "「修補關係；和解」與本句語境不同。",
-        "mend-mcq-12": "「腿正在康復」與本句語境不同。",
-        "mend-mcq-09": "「療癒心傷」與本句語境不同。",
-        "mend-mcq-13": "「改過自新」與本句語境不同。",
-        "mend-mcq-08": "「修補／改善局面」與本句語境不同。"
+        "mend-mcq-11": "本句的「on the mend」指「正在康復／好轉」。",
+        "mend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-11"
     },
@@ -1021,11 +933,9 @@ export default {
       "masked": "The economy appears to be ____.",
       "options": [
         "mend-mcq-11",
-        "mend-mcq-10",
-        "mend-mcq-12",
         "mend-mcq-09",
         "mend-mcq-13",
-        "mend-mcq-08"
+        "mend-mcq-02"
       ],
       "explanation": "本句的「on the mend」指「正在康復／好轉」。",
       "sentenceIndex": 22,
@@ -1034,12 +944,10 @@ export default {
         "on the mend"
       ],
       "optionReasons": {
-        "mend-mcq-11": "本句指「正在康復／好轉」。",
-        "mend-mcq-10": "「修補關係；和解」與本句語境不同。",
-        "mend-mcq-12": "「腿正在康復」與本句語境不同。",
-        "mend-mcq-09": "「療癒心傷」與本句語境不同。",
-        "mend-mcq-13": "「改過自新」與本句語境不同。",
-        "mend-mcq-08": "「修補／改善局面」與本句語境不同。"
+        "mend-mcq-11": "本句的「on the mend」指「正在康復／好轉」。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-11"
     },
@@ -1051,11 +959,9 @@ export default {
       "masked": "He promised to ____.",
       "options": [
         "mend-mcq-13",
-        "mend-mcq-12",
-        "mend-mcq-14",
-        "mend-mcq-11",
         "mend-mcq-15",
-        "mend-mcq-10"
+        "mend-mcq-03",
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mend his ways」指「改過自新」。",
       "sentenceIndex": 25,
@@ -1064,12 +970,10 @@ export default {
         "mend his ways"
       ],
       "optionReasons": {
-        "mend-mcq-13": "本句指「改過自新」。",
-        "mend-mcq-12": "「腿正在康復」與本句語境不同。",
-        "mend-mcq-14": "「修補工作」與本句語境不同。",
-        "mend-mcq-11": "「正在康復／好轉」與本句語境不同。",
-        "mend-mcq-15": "「已修好的」與本句語境不同。",
-        "mend-mcq-10": "「修補關係；和解」與本句語境不同。"
+        "mend-mcq-13": "本句的「mend his ways」指「改過自新」。",
+        "mend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-13"
     },
@@ -1081,11 +985,9 @@ export default {
       "masked": "She told him to ____ or leave the team.",
       "options": [
         "mend-mcq-13",
-        "mend-mcq-12",
-        "mend-mcq-14",
-        "mend-mcq-11",
-        "mend-mcq-15",
-        "mend-mcq-10"
+        "mend-mcq-03",
+        "mend-mcq-06",
+        "mend-mcq-09"
       ],
       "explanation": "本句的「mend his ways」指「改過自新」。",
       "sentenceIndex": 26,
@@ -1094,12 +996,10 @@ export default {
         "mend his ways"
       ],
       "optionReasons": {
-        "mend-mcq-13": "本句指「改過自新」。",
-        "mend-mcq-12": "「腿正在康復」與本句語境不同。",
-        "mend-mcq-14": "「修補工作」與本句語境不同。",
-        "mend-mcq-11": "「正在康復／好轉」與本句語境不同。",
-        "mend-mcq-15": "「已修好的」與本句語境不同。",
-        "mend-mcq-10": "「修補關係；和解」與本句語境不同。"
+        "mend-mcq-13": "本句的「mend his ways」指「改過自新」。",
+        "mend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-13"
     },
@@ -1111,11 +1011,9 @@ export default {
       "masked": "I have some ____ to do.",
       "options": [
         "mend-mcq-14",
-        "mend-mcq-13",
-        "mend-mcq-15",
-        "mend-mcq-12",
+        "mend-pdf-002",
         "mend-mcq-11",
-        "mend-mcq-10"
+        "mend-mcq-13"
       ],
       "explanation": "本句的「mending」指「修補工作」。",
       "sentenceIndex": 29,
@@ -1124,12 +1022,10 @@ export default {
         "mending"
       ],
       "optionReasons": {
-        "mend-mcq-14": "本句指「修補工作」。",
-        "mend-mcq-13": "「改過自新」與本句語境不同。",
-        "mend-mcq-15": "「已修好的」與本句語境不同。",
-        "mend-mcq-12": "「腿正在康復」與本句語境不同。",
-        "mend-mcq-11": "「正在康復／好轉」與本句語境不同。",
-        "mend-mcq-10": "「修補關係；和解」與本句語境不同。"
+        "mend-mcq-14": "本句的「mending」指「修補工作」。",
+        "mend-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-14"
     },
@@ -1142,10 +1038,8 @@ export default {
       "options": [
         "mend-mcq-14",
         "mend-mcq-13",
-        "mend-mcq-15",
-        "mend-mcq-12",
-        "mend-mcq-11",
-        "mend-mcq-10"
+        "mend-mcq-09",
+        "mend-pdf-002"
       ],
       "explanation": "本句的「mending」指「修補工作」。",
       "sentenceIndex": 30,
@@ -1154,12 +1048,10 @@ export default {
         "mending"
       ],
       "optionReasons": {
-        "mend-mcq-14": "本句指「修補工作」。",
-        "mend-mcq-13": "「改過自新」與本句語境不同。",
-        "mend-mcq-15": "「已修好的」與本句語境不同。",
-        "mend-mcq-12": "「腿正在康復」與本句語境不同。",
-        "mend-mcq-11": "「正在康復／好轉」與本句語境不同。",
-        "mend-mcq-10": "「修補關係；和解」與本句語境不同。"
+        "mend-mcq-14": "本句的「mending」指「修補工作」。",
+        "mend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mend-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-14"
     },
@@ -1171,11 +1063,9 @@ export default {
       "masked": "The ____ looked almost new.",
       "options": [
         "mend-mcq-15",
-        "mend-mcq-14",
-        "mend-mcq-13",
-        "mend-mcq-12",
-        "mend-mcq-11",
-        "mend-mcq-10"
+        "mend-pdf-001",
+        "mend-mcq-09",
+        "mend-mcq-03"
       ],
       "explanation": "本句的「mended shirt」指「已修好的」。",
       "sentenceIndex": 31,
@@ -1184,12 +1074,10 @@ export default {
         "mended shirt"
       ],
       "optionReasons": {
-        "mend-mcq-15": "本句指「已修好的」。",
-        "mend-mcq-14": "「修補工作」與本句語境不同。",
-        "mend-mcq-13": "「改過自新」與本句語境不同。",
-        "mend-mcq-12": "「腿正在康復」與本句語境不同。",
-        "mend-mcq-11": "「正在康復／好轉」與本句語境不同。",
-        "mend-mcq-10": "「修補關係；和解」與本句語境不同。"
+        "mend-mcq-15": "本句的「mended shirt」指「已修好的」。",
+        "mend-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-15"
     },
@@ -1201,11 +1089,9 @@ export default {
       "masked": "The fence is finally ____.",
       "options": [
         "mend-mcq-15",
-        "mend-mcq-14",
-        "mend-mcq-13",
-        "mend-mcq-12",
-        "mend-mcq-11",
-        "mend-mcq-10"
+        "mend-mcq-09",
+        "mend-pdf-001",
+        "mend-mcq-02"
       ],
       "explanation": "本句的「mended」指「已修好的」。",
       "sentenceIndex": 32,
@@ -1214,12 +1100,10 @@ export default {
         "mended"
       ],
       "optionReasons": {
-        "mend-mcq-15": "本句指「已修好的」。",
-        "mend-mcq-14": "「修補工作」與本句語境不同。",
-        "mend-mcq-13": "「改過自新」與本句語境不同。",
-        "mend-mcq-12": "「腿正在康復」與本句語境不同。",
-        "mend-mcq-11": "「正在康復／好轉」與本句語境不同。",
-        "mend-mcq-10": "「修補關係；和解」與本句語境不同。"
+        "mend-mcq-15": "本句的「mended」指「已修好的」。",
+        "mend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mend-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mend-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mend-mcq-15"
     }
@@ -1231,5 +1115,7 @@ export default {
     "sha256": "73c87647291d3577985a3c5f593a9efe6c8c82777c139d9561d5010c8e25cf93",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

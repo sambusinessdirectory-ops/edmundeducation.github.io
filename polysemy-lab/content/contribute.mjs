@@ -455,16 +455,6 @@ export default {
           "The editor thanked all the writers for their contributions.",
           "編輯感謝所有作者的投稿。",
           "投稿"
-        ],
-        [
-          "The report examined stress's contribution to poor performance.",
-          "報告研究壓力對表現欠佳的促成作用。",
-          "投稿"
-        ],
-        [
-          "Several factors made a contribution to the decline.",
-          "多個因素對下滑都有一定的促成作用。",
-          "投稿"
         ]
       ],
       "options": [],
@@ -601,6 +591,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "contribute-reviewed-80fc71bc97",
+      "title": "某個因素對結果形成所起的部分作用",
+      "form": "contribute · source section 25",
+      "en": "某個因素對結果形成所起的部分作用",
+      "zh": "某個因素對結果形成所起的部分作用",
+      "note": "對照原始教材第 25 節及例句核實。",
+      "examples": [
+        [
+          "The report examined stress's contribution to poor performance.",
+          "報告研究壓力對表現欠佳的促成作用。",
+          "某個因素對結果形成所起的部分作用"
+        ],
+        [
+          "Several factors made a contribution to the decline.",
+          "多個因素對下滑都有一定的促成作用。",
+          "某個因素對結果形成所起的部分作用"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -612,11 +624,9 @@ export default {
       "masked": "Some employees ____.",
       "options": [
         "contribute-mcq-02",
-        "contribute-mcq-01",
-        "contribute-mcq-03",
+        "contribute-mcq-13",
         "contribute-mcq-04",
-        "contribute-mcq-05",
-        "contribute-mcq-06"
+        "contribute-mcq-19"
       ],
       "explanation": "本句的「contribute very little」指「為團隊作貢獻」。",
       "sentenceIndex": 0,
@@ -625,12 +635,10 @@ export default {
         "contribute very little"
       ],
       "optionReasons": {
-        "contribute-mcq-02": "本句指「為團隊作貢獻」。",
-        "contribute-mcq-01": "「貢獻；出力」與本句語境不同。",
-        "contribute-mcq-03": "「提供想法」與本句語境不同。",
-        "contribute-mcq-04": "「投入努力」與本句語境不同。",
-        "contribute-mcq-05": "「貢獻專業知識」與本句語境不同。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。"
+        "contribute-mcq-02": "本句的「contribute very little」指「為團隊作貢獻」。",
+        "contribute-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-02"
     },
@@ -642,11 +650,9 @@ export default {
       "masked": "Everyone is expected to ____.",
       "options": [
         "contribute-mcq-02",
-        "contribute-mcq-01",
-        "contribute-mcq-03",
-        "contribute-mcq-04",
-        "contribute-mcq-05",
-        "contribute-mcq-06"
+        "contribute-mcq-14",
+        "contribute-mcq-24",
+        "contribute-pdf-001"
       ],
       "explanation": "本句的「contribute to the project」指「為團隊作貢獻」。",
       "sentenceIndex": 1,
@@ -655,12 +661,10 @@ export default {
         "contribute to the project"
       ],
       "optionReasons": {
-        "contribute-mcq-02": "本句指「為團隊作貢獻」。",
-        "contribute-mcq-01": "「貢獻；出力」與本句語境不同。",
-        "contribute-mcq-03": "「提供想法」與本句語境不同。",
-        "contribute-mcq-04": "「投入努力」與本句語境不同。",
-        "contribute-mcq-05": "「貢獻專業知識」與本句語境不同。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。"
+        "contribute-mcq-02": "本句的「contribute to the project」指「為團隊作貢獻」。",
+        "contribute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "contribute-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-02"
     },
@@ -672,11 +676,9 @@ export default {
       "masked": "She ____ a great deal to the team's success.",
       "options": [
         "contribute-mcq-02",
-        "contribute-mcq-01",
-        "contribute-mcq-03",
-        "contribute-mcq-04",
-        "contribute-mcq-05",
-        "contribute-mcq-06"
+        "contribute-mcq-23",
+        "contribute-mcq-11",
+        "contribute-mcq-24"
       ],
       "explanation": "本句的「contributed」指「為團隊作貢獻」。",
       "sentenceIndex": 2,
@@ -685,12 +687,10 @@ export default {
         "contributed"
       ],
       "optionReasons": {
-        "contribute-mcq-02": "本句指「為團隊作貢獻」。",
-        "contribute-mcq-01": "「貢獻；出力」與本句語境不同。",
-        "contribute-mcq-03": "「提供想法」與本句語境不同。",
-        "contribute-mcq-04": "「投入努力」與本句語境不同。",
-        "contribute-mcq-05": "「貢獻專業知識」與本句語境不同。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。"
+        "contribute-mcq-02": "本句的「contributed」指「為團隊作貢獻」。",
+        "contribute-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-02"
     },
@@ -702,11 +702,9 @@ export default {
       "masked": "Quieter members should also be encouraged to ____.",
       "options": [
         "contribute-mcq-03",
-        "contribute-mcq-02",
-        "contribute-mcq-04",
-        "contribute-mcq-01",
-        "contribute-mcq-05",
-        "contribute-mcq-06"
+        "contribute-mcq-17",
+        "contribute-mcq-08",
+        "contribute-mcq-26"
       ],
       "explanation": "本句的「contribute ideas」指「提供想法」。",
       "sentenceIndex": 3,
@@ -715,12 +713,10 @@ export default {
         "contribute ideas"
       ],
       "optionReasons": {
-        "contribute-mcq-03": "本句指「提供想法」。",
-        "contribute-mcq-02": "「為團隊作貢獻」與本句語境不同。",
-        "contribute-mcq-04": "「投入努力」與本句語境不同。",
-        "contribute-mcq-01": "「貢獻；出力」與本句語境不同。",
-        "contribute-mcq-05": "「貢獻專業知識」與本句語境不同。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。"
+        "contribute-mcq-03": "本句的「contribute ideas」指「提供想法」。",
+        "contribute-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-03"
     },
@@ -732,11 +728,9 @@ export default {
       "masked": "Everyone ____ during the meeting.",
       "options": [
         "contribute-mcq-03",
-        "contribute-mcq-02",
-        "contribute-mcq-04",
-        "contribute-mcq-01",
-        "contribute-mcq-05",
-        "contribute-mcq-06"
+        "contribute-mcq-08",
+        "contribute-reviewed-80fc71bc97",
+        "contribute-mcq-20"
       ],
       "explanation": "本句的「contributed ideas」指「提供想法」。",
       "sentenceIndex": 4,
@@ -745,12 +739,10 @@ export default {
         "contributed ideas"
       ],
       "optionReasons": {
-        "contribute-mcq-03": "本句指「提供想法」。",
-        "contribute-mcq-02": "「為團隊作貢獻」與本句語境不同。",
-        "contribute-mcq-04": "「投入努力」與本句語境不同。",
-        "contribute-mcq-01": "「貢獻；出力」與本句語境不同。",
-        "contribute-mcq-05": "「貢獻專業知識」與本句語境不同。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。"
+        "contribute-mcq-03": "本句的「contributed ideas」指「提供想法」。",
+        "contribute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "contribute-reviewed-80fc71bc97": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-03"
     },
@@ -762,11 +754,9 @@ export default {
       "masked": "All members should ____.",
       "options": [
         "contribute-mcq-04",
-        "contribute-mcq-03",
         "contribute-mcq-05",
-        "contribute-mcq-02",
-        "contribute-mcq-06",
-        "contribute-mcq-01"
+        "contribute-mcq-24",
+        "contribute-reviewed-80fc71bc97"
       ],
       "explanation": "本句的「contribute time and effort」指「投入努力」。",
       "sentenceIndex": 5,
@@ -775,12 +765,10 @@ export default {
         "contribute time and effort"
       ],
       "optionReasons": {
-        "contribute-mcq-04": "本句指「投入努力」。",
-        "contribute-mcq-03": "「提供想法」與本句語境不同。",
-        "contribute-mcq-05": "「貢獻專業知識」與本句語境不同。",
-        "contribute-mcq-02": "「為團隊作貢獻」與本句語境不同。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。",
-        "contribute-mcq-01": "「貢獻；出力」與本句語境不同。"
+        "contribute-mcq-04": "本句的「contribute time and effort」指「投入努力」。",
+        "contribute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "contribute-reviewed-80fc71bc97": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-04"
     },
@@ -792,11 +780,9 @@ export default {
       "masked": "She ____ more effort than anyone else.",
       "options": [
         "contribute-mcq-04",
-        "contribute-mcq-03",
-        "contribute-mcq-05",
+        "contribute-mcq-09",
         "contribute-mcq-02",
-        "contribute-mcq-06",
-        "contribute-mcq-01"
+        "contribute-mcq-13"
       ],
       "explanation": "本句的「contributed」指「投入努力」。",
       "sentenceIndex": 6,
@@ -805,12 +791,10 @@ export default {
         "contributed"
       ],
       "optionReasons": {
-        "contribute-mcq-04": "本句指「投入努力」。",
-        "contribute-mcq-03": "「提供想法」與本句語境不同。",
-        "contribute-mcq-05": "「貢獻專業知識」與本句語境不同。",
-        "contribute-mcq-02": "「為團隊作貢獻」與本句語境不同。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。",
-        "contribute-mcq-01": "「貢獻；出力」與本句語境不同。"
+        "contribute-mcq-04": "本句的「contributed」指「投入努力」。",
+        "contribute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-04"
     },
@@ -822,11 +806,9 @@ export default {
       "masked": "Each person ____.",
       "options": [
         "contribute-mcq-05",
-        "contribute-mcq-04",
-        "contribute-mcq-06",
-        "contribute-mcq-03",
-        "contribute-mcq-07",
-        "contribute-mcq-02"
+        "contribute-mcq-25",
+        "contribute-mcq-08",
+        "contribute-mcq-03"
       ],
       "explanation": "本句的「contributed different skills」指「貢獻專業知識」。",
       "sentenceIndex": 7,
@@ -835,12 +817,10 @@ export default {
         "contributed different skills"
       ],
       "optionReasons": {
-        "contribute-mcq-05": "本句指「貢獻專業知識」。",
-        "contribute-mcq-04": "「投入努力」與本句語境不同。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。",
-        "contribute-mcq-03": "「提供想法」與本句語境不同。",
-        "contribute-mcq-07": "「捐款／供款」與本句語境不同。",
-        "contribute-mcq-02": "「為團隊作貢獻」與本句語境不同。"
+        "contribute-mcq-05": "本句的「contributed different skills」指「貢獻專業知識」。",
+        "contribute-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-05"
     },
@@ -852,11 +832,9 @@ export default {
       "masked": "Engineers and designers ____ to the project.",
       "options": [
         "contribute-mcq-05",
-        "contribute-mcq-04",
-        "contribute-mcq-06",
-        "contribute-mcq-03",
-        "contribute-mcq-07",
-        "contribute-mcq-02"
+        "contribute-mcq-11",
+        "contribute-mcq-24",
+        "contribute-mcq-04"
       ],
       "explanation": "本句的「contributed their expertise」指「貢獻專業知識」。",
       "sentenceIndex": 8,
@@ -865,12 +843,10 @@ export default {
         "contributed their expertise"
       ],
       "optionReasons": {
-        "contribute-mcq-05": "本句指「貢獻專業知識」。",
-        "contribute-mcq-04": "「投入努力」與本句語境不同。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。",
-        "contribute-mcq-03": "「提供想法」與本句語境不同。",
-        "contribute-mcq-07": "「捐款／供款」與本句語境不同。",
-        "contribute-mcq-02": "「為團隊作貢獻」與本句語境不同。"
+        "contribute-mcq-05": "本句的「contributed their expertise」指「貢獻專業知識」。",
+        "contribute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-05"
     },
@@ -882,11 +858,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "contribute-mcq-06",
-        "contribute-mcq-05",
-        "contribute-mcq-07",
+        "contribute-mcq-11",
         "contribute-mcq-04",
-        "contribute-mcq-08",
-        "contribute-mcq-03"
+        "contribute-mcq-12"
       ],
       "explanation": "本句的「contributed several useful suggestions to the discussion」指「把 X 貢獻給 Y」。",
       "sentenceIndex": 9,
@@ -895,12 +869,10 @@ export default {
         "contributed several useful suggestions to the discussion"
       ],
       "optionReasons": {
-        "contribute-mcq-06": "本句指「把 X 貢獻給 Y」。",
-        "contribute-mcq-05": "「貢獻專業知識」與本句語境不同。",
-        "contribute-mcq-07": "「捐款／供款」與本句語境不同。",
-        "contribute-mcq-04": "「投入努力」與本句語境不同。",
-        "contribute-mcq-08": "「捐助慈善」與本句語境不同。",
-        "contribute-mcq-03": "「提供想法」與本句語境不同。"
+        "contribute-mcq-06": "本句的「contributed several useful suggestions to the discussion」指「把 X 貢獻給 Y」。",
+        "contribute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-06"
     },
@@ -912,11 +884,9 @@ export default {
       "masked": "Each department ____.",
       "options": [
         "contribute-mcq-06",
-        "contribute-mcq-05",
-        "contribute-mcq-07",
-        "contribute-mcq-04",
+        "contribute-reviewed-80fc71bc97",
         "contribute-mcq-08",
-        "contribute-mcq-03"
+        "contribute-mcq-14"
       ],
       "explanation": "本句的「contributed staff to the project」指「把 X 貢獻給 Y」。",
       "sentenceIndex": 10,
@@ -925,12 +895,10 @@ export default {
         "contributed staff to the project"
       ],
       "optionReasons": {
-        "contribute-mcq-06": "本句指「把 X 貢獻給 Y」。",
-        "contribute-mcq-05": "「貢獻專業知識」與本句語境不同。",
-        "contribute-mcq-07": "「捐款／供款」與本句語境不同。",
-        "contribute-mcq-04": "「投入努力」與本句語境不同。",
-        "contribute-mcq-08": "「捐助慈善」與本句語境不同。",
-        "contribute-mcq-03": "「提供想法」與本句語境不同。"
+        "contribute-mcq-06": "本句的「contributed staff to the project」指「把 X 貢獻給 Y」。",
+        "contribute-reviewed-80fc71bc97": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-06"
     },
@@ -942,11 +910,9 @@ export default {
       "masked": "Many employees ____ to the charity.",
       "options": [
         "contribute-mcq-07",
-        "contribute-mcq-06",
-        "contribute-mcq-08",
-        "contribute-mcq-05",
-        "contribute-mcq-09",
-        "contribute-mcq-04"
+        "contribute-mcq-13",
+        "contribute-mcq-04",
+        "contribute-mcq-22"
       ],
       "explanation": "本句的「contributed money」指「捐款／供款」。",
       "sentenceIndex": 11,
@@ -955,12 +921,10 @@ export default {
         "contributed money"
       ],
       "optionReasons": {
-        "contribute-mcq-07": "本句指「捐款／供款」。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。",
-        "contribute-mcq-08": "「捐助慈善」與本句語境不同。",
-        "contribute-mcq-05": "「貢獻專業知識」與本句語境不同。",
-        "contribute-mcq-09": "「向基金供款」與本句語境不同。",
-        "contribute-mcq-04": "「投入努力」與本句語境不同。"
+        "contribute-mcq-07": "本句的「contributed money」指「捐款／供款」。",
+        "contribute-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-07"
     },
@@ -972,11 +936,9 @@ export default {
       "masked": "Would you like to ____?",
       "options": [
         "contribute-mcq-07",
-        "contribute-mcq-06",
-        "contribute-mcq-08",
         "contribute-mcq-05",
-        "contribute-mcq-09",
-        "contribute-mcq-04"
+        "contribute-pdf-001",
+        "contribute-mcq-14"
       ],
       "explanation": "本句的「contribute to the fund」指「捐款／供款」。",
       "sentenceIndex": 12,
@@ -985,12 +947,10 @@ export default {
         "contribute to the fund"
       ],
       "optionReasons": {
-        "contribute-mcq-07": "本句指「捐款／供款」。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。",
-        "contribute-mcq-08": "「捐助慈善」與本句語境不同。",
-        "contribute-mcq-05": "「貢獻專業知識」與本句語境不同。",
-        "contribute-mcq-09": "「向基金供款」與本句語境不同。",
-        "contribute-mcq-04": "「投入努力」與本句語境不同。"
+        "contribute-mcq-07": "本句的「contribute to the fund」指「捐款／供款」。",
+        "contribute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "contribute-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-07"
     },
@@ -1002,11 +962,9 @@ export default {
       "masked": "Staff ____ each month.",
       "options": [
         "contribute-mcq-09",
+        "contribute-mcq-16",
         "contribute-mcq-08",
-        "contribute-mcq-10",
-        "contribute-mcq-07",
-        "contribute-mcq-11",
-        "contribute-mcq-06"
+        "contribute-mcq-11"
       ],
       "explanation": "本句的「contribute to a retirement fund」指「向基金供款」。",
       "sentenceIndex": 13,
@@ -1015,12 +973,10 @@ export default {
         "contribute to a retirement fund"
       ],
       "optionReasons": {
-        "contribute-mcq-09": "本句指「向基金供款」。",
-        "contribute-mcq-08": "「捐助慈善」與本句語境不同。",
-        "contribute-mcq-10": "「促成成功」與本句語境不同。",
-        "contribute-mcq-07": "「捐款／供款」與本句語境不同。",
-        "contribute-mcq-11": "「導致／加劇問題」與本句語境不同。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。"
+        "contribute-mcq-09": "本句的「contribute to a retirement fund」指「向基金供款」。",
+        "contribute-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-09"
     },
@@ -1032,11 +988,9 @@ export default {
       "masked": "Everyone was invited to ____.",
       "options": [
         "contribute-mcq-09",
+        "contribute-mcq-16",
         "contribute-mcq-08",
-        "contribute-mcq-10",
-        "contribute-mcq-07",
-        "contribute-mcq-11",
-        "contribute-mcq-06"
+        "contribute-pdf-001"
       ],
       "explanation": "本句的「contribute to the emergency fund」指「向基金供款」。",
       "sentenceIndex": 14,
@@ -1045,12 +999,10 @@ export default {
         "contribute to the emergency fund"
       ],
       "optionReasons": {
-        "contribute-mcq-09": "本句指「向基金供款」。",
-        "contribute-mcq-08": "「捐助慈善」與本句語境不同。",
-        "contribute-mcq-10": "「促成成功」與本句語境不同。",
-        "contribute-mcq-07": "「捐款／供款」與本句語境不同。",
-        "contribute-mcq-11": "「導致／加劇問題」與本句語境不同。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。"
+        "contribute-mcq-09": "本句的「contribute to the emergency fund」指「向基金供款」。",
+        "contribute-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "contribute-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-09"
     },
@@ -1062,11 +1014,9 @@ export default {
       "masked": "She regularly ____.",
       "options": [
         "contribute-mcq-08",
-        "contribute-mcq-07",
-        "contribute-mcq-09",
-        "contribute-mcq-06",
-        "contribute-mcq-10",
-        "contribute-mcq-05"
+        "contribute-mcq-03",
+        "contribute-mcq-20",
+        "contribute-mcq-14"
       ],
       "explanation": "本句的「contributes to charity」指「捐助慈善」。",
       "sentenceIndex": 15,
@@ -1075,12 +1025,10 @@ export default {
         "contributes to charity"
       ],
       "optionReasons": {
-        "contribute-mcq-08": "本句指「捐助慈善」。",
-        "contribute-mcq-07": "「捐款／供款」與本句語境不同。",
-        "contribute-mcq-09": "「向基金供款」與本句語境不同。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。",
-        "contribute-mcq-10": "「促成成功」與本句語境不同。",
-        "contribute-mcq-05": "「貢獻專業知識」與本句語境不同。"
+        "contribute-mcq-08": "本句的「contributes to charity」指「捐助慈善」。",
+        "contribute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-08"
     },
@@ -1092,11 +1040,9 @@ export default {
       "masked": "The company encourages workers to ____.",
       "options": [
         "contribute-mcq-08",
-        "contribute-mcq-07",
-        "contribute-mcq-09",
-        "contribute-mcq-06",
-        "contribute-mcq-10",
-        "contribute-mcq-05"
+        "contribute-mcq-25",
+        "contribute-mcq-11",
+        "contribute-mcq-09"
       ],
       "explanation": "本句的「contribute to local charities」指「捐助慈善」。",
       "sentenceIndex": 16,
@@ -1105,12 +1051,10 @@ export default {
         "contribute to local charities"
       ],
       "optionReasons": {
-        "contribute-mcq-08": "本句指「捐助慈善」。",
-        "contribute-mcq-07": "「捐款／供款」與本句語境不同。",
-        "contribute-mcq-09": "「向基金供款」與本句語境不同。",
-        "contribute-mcq-06": "「把 X 貢獻給 Y」與本句語境不同。",
-        "contribute-mcq-10": "「促成成功」與本句語境不同。",
-        "contribute-mcq-05": "「貢獻專業知識」與本句語境不同。"
+        "contribute-mcq-08": "本句的「contribute to local charities」指「捐助慈善」。",
+        "contribute-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-08"
     },
@@ -1122,11 +1066,9 @@ export default {
       "masked": "Clear communication ____.",
       "options": [
         "contribute-pdf-001",
-        "contribute-mcq-09",
-        "contribute-mcq-11",
-        "contribute-mcq-08",
-        "contribute-mcq-12",
-        "contribute-mcq-07"
+        "contribute-mcq-07",
+        "contribute-mcq-23",
+        "contribute-mcq-16"
       ],
       "explanation": "本句的「contributed to the project's success」指「成為造成 X 的其中一個因素」。",
       "sentenceIndex": 19,
@@ -1135,12 +1077,10 @@ export default {
         "contributed to the project's success"
       ],
       "optionReasons": {
-        "contribute-pdf-001": "本句指「成為造成 X 的其中一個因素」。",
-        "contribute-mcq-09": "「向基金供款」與本句語境不同。",
-        "contribute-mcq-11": "「導致／加劇問題」與本句語境不同。",
-        "contribute-mcq-08": "「捐助慈善」與本句語境不同。",
-        "contribute-mcq-12": "「促成因素」與本句語境不同。",
-        "contribute-mcq-07": "「捐款／供款」與本句語境不同。"
+        "contribute-pdf-001": "本句的「contributed to the project's success」指「成為造成 X 的其中一個因素」。",
+        "contribute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-pdf-001"
     },
@@ -1152,11 +1092,9 @@ export default {
       "masked": "Several factors ____.",
       "options": [
         "contribute-pdf-001",
+        "contribute-mcq-06",
         "contribute-mcq-09",
-        "contribute-mcq-11",
-        "contribute-mcq-08",
-        "contribute-mcq-12",
-        "contribute-mcq-07"
+        "contribute-mcq-03"
       ],
       "explanation": "本句的「contributed to the improvement」指「成為造成 X 的其中一個因素」。",
       "sentenceIndex": 20,
@@ -1165,12 +1103,10 @@ export default {
         "contributed to the improvement"
       ],
       "optionReasons": {
-        "contribute-pdf-001": "本句指「成為造成 X 的其中一個因素」。",
-        "contribute-mcq-09": "「向基金供款」與本句語境不同。",
-        "contribute-mcq-11": "「導致／加劇問題」與本句語境不同。",
-        "contribute-mcq-08": "「捐助慈善」與本句語境不同。",
-        "contribute-mcq-12": "「促成因素」與本句語境不同。",
-        "contribute-mcq-07": "「捐款／供款」與本句語境不同。"
+        "contribute-pdf-001": "本句的「contributed to the improvement」指「成為造成 X 的其中一個因素」。",
+        "contribute-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-pdf-001"
     },
@@ -1182,11 +1118,9 @@ export default {
       "masked": "Poor communication ____.",
       "options": [
         "contribute-mcq-11",
-        "contribute-mcq-10",
-        "contribute-mcq-12",
-        "contribute-mcq-09",
-        "contribute-mcq-08",
-        "contribute-mcq-14"
+        "contribute-mcq-18",
+        "contribute-mcq-04",
+        "contribute-mcq-23"
       ],
       "explanation": "本句的「contributed to the conflict」指「導致／加劇問題」。",
       "sentenceIndex": 21,
@@ -1195,12 +1129,10 @@ export default {
         "contributed to the conflict"
       ],
       "optionReasons": {
-        "contribute-mcq-11": "本句指「導致／加劇問題」。",
-        "contribute-mcq-10": "「促成成功」與本句語境不同。",
-        "contribute-mcq-12": "「促成因素」與本句語境不同。",
-        "contribute-mcq-09": "「向基金供款」與本句語境不同。",
-        "contribute-mcq-08": "「捐助慈善」與本句語境不同。",
-        "contribute-mcq-14": "「投稿／撰稿」與本句語境不同。"
+        "contribute-mcq-11": "本句的「contributed to the conflict」指「導致／加劇問題」。",
+        "contribute-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-11"
     },
@@ -1212,11 +1144,9 @@ export default {
       "masked": "Unclear roles can ____.",
       "options": [
         "contribute-mcq-11",
-        "contribute-mcq-10",
-        "contribute-mcq-12",
-        "contribute-mcq-09",
-        "contribute-mcq-08",
-        "contribute-mcq-14"
+        "contribute-mcq-23",
+        "contribute-mcq-26",
+        "contribute-mcq-17"
       ],
       "explanation": "本句的「contribute to confusion」指「導致／加劇問題」。",
       "sentenceIndex": 22,
@@ -1225,12 +1155,10 @@ export default {
         "contribute to confusion"
       ],
       "optionReasons": {
-        "contribute-mcq-11": "本句指「導致／加劇問題」。",
-        "contribute-mcq-10": "「促成成功」與本句語境不同。",
-        "contribute-mcq-12": "「促成因素」與本句語境不同。",
-        "contribute-mcq-09": "「向基金供款」與本句語境不同。",
-        "contribute-mcq-08": "「捐助慈善」與本句語境不同。",
-        "contribute-mcq-14": "「投稿／撰稿」與本句語境不同。"
+        "contribute-mcq-11": "本句的「contribute to confusion」指「導致／加劇問題」。",
+        "contribute-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-11"
     },
@@ -1242,11 +1170,9 @@ export default {
       "masked": "Stress was a ____ in the argument.",
       "options": [
         "contribute-mcq-12",
-        "contribute-mcq-11",
-        "contribute-mcq-10",
-        "contribute-mcq-14",
-        "contribute-mcq-09",
-        "contribute-mcq-15"
+        "contribute-mcq-03",
+        "contribute-mcq-22",
+        "contribute-mcq-21"
       ],
       "explanation": "本句的「contributing factor」指「促成因素」。",
       "sentenceIndex": 25,
@@ -1255,12 +1181,10 @@ export default {
         "contributing factor"
       ],
       "optionReasons": {
-        "contribute-mcq-12": "本句指「促成因素」。",
-        "contribute-mcq-11": "「導致／加劇問題」與本句語境不同。",
-        "contribute-mcq-10": "「促成成功」與本句語境不同。",
-        "contribute-mcq-14": "「投稿／撰稿」與本句語境不同。",
-        "contribute-mcq-09": "「向基金供款」與本句語境不同。",
-        "contribute-mcq-15": "「貢獻；付出」與本句語境不同。"
+        "contribute-mcq-12": "本句的「contributing factor」指「促成因素」。",
+        "contribute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-12"
     },
@@ -1272,11 +1196,9 @@ export default {
       "masked": "Poor communication was a major ____.",
       "options": [
         "contribute-mcq-12",
-        "contribute-mcq-11",
-        "contribute-mcq-10",
+        "contribute-mcq-16",
         "contribute-mcq-14",
-        "contribute-mcq-09",
-        "contribute-mcq-15"
+        "contribute-mcq-09"
       ],
       "explanation": "本句的「contributing factor」指「促成因素」。",
       "sentenceIndex": 26,
@@ -1285,12 +1207,10 @@ export default {
         "contributing factor"
       ],
       "optionReasons": {
-        "contribute-mcq-12": "本句指「促成因素」。",
-        "contribute-mcq-11": "「導致／加劇問題」與本句語境不同。",
-        "contribute-mcq-10": "「促成成功」與本句語境不同。",
-        "contribute-mcq-14": "「投稿／撰稿」與本句語境不同。",
-        "contribute-mcq-09": "「向基金供款」與本句語境不同。",
-        "contribute-mcq-15": "「貢獻；付出」與本句語境不同。"
+        "contribute-mcq-12": "本句的「contributing factor」指「促成因素」。",
+        "contribute-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-12"
     },
@@ -1302,11 +1222,9 @@ export default {
       "masked": "Fatigue may have been a ____.",
       "options": [
         "contribute-mcq-13",
-        "contribute-mcq-14",
-        "contribute-mcq-11",
-        "contribute-mcq-15",
-        "contribute-mcq-10",
-        "contribute-mcq-16"
+        "contribute-mcq-20",
+        "contribute-mcq-23",
+        "contribute-mcq-11"
       ],
       "explanation": "本句的「contributory factor」指「促成因素」。",
       "sentenceIndex": 27,
@@ -1315,12 +1233,10 @@ export default {
         "contributory factor"
       ],
       "optionReasons": {
-        "contribute-mcq-13": "本句指「促成因素」。",
-        "contribute-mcq-14": "「投稿／撰稿」與本句語境不同。",
-        "contribute-mcq-11": "「導致／加劇問題」與本句語境不同。",
-        "contribute-mcq-15": "「貢獻；付出」與本句語境不同。",
-        "contribute-mcq-10": "「促成成功」與本句語境不同。",
-        "contribute-mcq-16": "「作出貢獻」與本句語境不同。"
+        "contribute-mcq-13": "本句的「contributory factor」指「促成因素」。",
+        "contribute-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-13"
     },
@@ -1332,11 +1248,9 @@ export default {
       "masked": "Several ____ were identified.",
       "options": [
         "contribute-mcq-13",
-        "contribute-mcq-14",
-        "contribute-mcq-11",
-        "contribute-mcq-15",
-        "contribute-mcq-10",
-        "contribute-mcq-16"
+        "contribute-mcq-03",
+        "contribute-mcq-22",
+        "contribute-mcq-09"
       ],
       "explanation": "本句的「contributory factors」指「促成因素」。",
       "sentenceIndex": 28,
@@ -1345,12 +1259,10 @@ export default {
         "contributory factors"
       ],
       "optionReasons": {
-        "contribute-mcq-13": "本句指「促成因素」。",
-        "contribute-mcq-14": "「投稿／撰稿」與本句語境不同。",
-        "contribute-mcq-11": "「導致／加劇問題」與本句語境不同。",
-        "contribute-mcq-15": "「貢獻；付出」與本句語境不同。",
-        "contribute-mcq-10": "「促成成功」與本句語境不同。",
-        "contribute-mcq-16": "「作出貢獻」與本句語境不同。"
+        "contribute-mcq-13": "本句的「contributory factors」指「促成因素」。",
+        "contribute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-13"
     },
@@ -1362,11 +1274,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "contribute-mcq-14",
-        "contribute-mcq-13",
-        "contribute-mcq-15",
-        "contribute-mcq-16",
-        "contribute-mcq-11",
-        "contribute-mcq-17"
+        "contribute-mcq-05",
+        "contribute-mcq-19",
+        "contribute-pdf-001"
       ],
       "explanation": "本句的「contributes articles to a business magazine」指「投稿／撰稿」。",
       "sentenceIndex": 29,
@@ -1375,12 +1285,10 @@ export default {
         "contributes articles to a business magazine"
       ],
       "optionReasons": {
-        "contribute-mcq-14": "本句指「投稿／撰稿」。",
-        "contribute-mcq-13": "「促成因素」與本句語境不同。",
-        "contribute-mcq-15": "「貢獻；付出」與本句語境不同。",
-        "contribute-mcq-16": "「作出貢獻」與本句語境不同。",
-        "contribute-mcq-11": "「導致／加劇問題」與本句語境不同。",
-        "contribute-mcq-17": "「個人貢獻」與本句語境不同。"
+        "contribute-mcq-14": "本句的「contributes articles to a business magazine」指「投稿／撰稿」。",
+        "contribute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "contribute-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-14"
     },
@@ -1392,11 +1300,9 @@ export default {
       "masked": "Several experts ____.",
       "options": [
         "contribute-mcq-14",
-        "contribute-mcq-13",
-        "contribute-mcq-15",
-        "contribute-mcq-16",
-        "contribute-mcq-11",
-        "contribute-mcq-17"
+        "contribute-mcq-08",
+        "contribute-mcq-25",
+        "contribute-mcq-05"
       ],
       "explanation": "本句的「contributed essays to the book」指「投稿／撰稿」。",
       "sentenceIndex": 30,
@@ -1405,12 +1311,10 @@ export default {
         "contributed essays to the book"
       ],
       "optionReasons": {
-        "contribute-mcq-14": "本句指「投稿／撰稿」。",
-        "contribute-mcq-13": "「促成因素」與本句語境不同。",
-        "contribute-mcq-15": "「貢獻；付出」與本句語境不同。",
-        "contribute-mcq-16": "「作出貢獻」與本句語境不同。",
-        "contribute-mcq-11": "「導致／加劇問題」與本句語境不同。",
-        "contribute-mcq-17": "「個人貢獻」與本句語境不同。"
+        "contribute-mcq-14": "本句的「contributed essays to the book」指「投稿／撰稿」。",
+        "contribute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-14"
     },
@@ -1422,11 +1326,9 @@ export default {
       "masked": "Her ____ was significant.",
       "options": [
         "contribute-mcq-15",
+        "contribute-mcq-26",
         "contribute-mcq-14",
-        "contribute-mcq-16",
-        "contribute-mcq-13",
-        "contribute-mcq-17",
-        "contribute-mcq-18"
+        "contribute-mcq-11"
       ],
       "explanation": "本句的「contribution to the team」指「貢獻；付出」。",
       "sentenceIndex": 33,
@@ -1435,12 +1337,10 @@ export default {
         "contribution to the team"
       ],
       "optionReasons": {
-        "contribute-mcq-15": "本句指「貢獻；付出」。",
-        "contribute-mcq-14": "「投稿／撰稿」與本句語境不同。",
-        "contribute-mcq-16": "「作出貢獻」與本句語境不同。",
-        "contribute-mcq-13": "「促成因素」與本句語境不同。",
-        "contribute-mcq-17": "「個人貢獻」與本句語境不同。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。"
+        "contribute-mcq-15": "本句的「contribution to the team」指「貢獻；付出」。",
+        "contribute-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-15"
     },
@@ -1452,11 +1352,9 @@ export default {
       "masked": "Everyone's ____ should be visible.",
       "options": [
         "contribute-mcq-15",
-        "contribute-mcq-14",
-        "contribute-mcq-16",
-        "contribute-mcq-13",
-        "contribute-mcq-17",
-        "contribute-mcq-18"
+        "contribute-mcq-09",
+        "contribute-mcq-03",
+        "contribute-mcq-23"
       ],
       "explanation": "本句的「contribution」指「貢獻；付出」。",
       "sentenceIndex": 34,
@@ -1465,12 +1363,10 @@ export default {
         "contribution"
       ],
       "optionReasons": {
-        "contribute-mcq-15": "本句指「貢獻；付出」。",
-        "contribute-mcq-14": "「投稿／撰稿」與本句語境不同。",
-        "contribute-mcq-16": "「作出貢獻」與本句語境不同。",
-        "contribute-mcq-13": "「促成因素」與本句語境不同。",
-        "contribute-mcq-17": "「個人貢獻」與本句語境不同。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。"
+        "contribute-mcq-15": "本句的「contribution」指「貢獻；付出」。",
+        "contribute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-15"
     },
@@ -1482,11 +1378,9 @@ export default {
       "masked": "Everyone should ____.",
       "options": [
         "contribute-mcq-16",
-        "contribute-mcq-15",
-        "contribute-mcq-17",
-        "contribute-mcq-14",
-        "contribute-mcq-18",
-        "contribute-mcq-13"
+        "contribute-mcq-04",
+        "contribute-mcq-23",
+        "contribute-mcq-24"
       ],
       "explanation": "本句的「make a meaningful contribution」指「作出貢獻」。",
       "sentenceIndex": 35,
@@ -1495,12 +1389,10 @@ export default {
         "make a meaningful contribution"
       ],
       "optionReasons": {
-        "contribute-mcq-16": "本句指「作出貢獻」。",
-        "contribute-mcq-15": "「貢獻；付出」與本句語境不同。",
-        "contribute-mcq-17": "「個人貢獻」與本句語境不同。",
-        "contribute-mcq-14": "「投稿／撰稿」與本句語境不同。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。",
-        "contribute-mcq-13": "「促成因素」與本句語境不同。"
+        "contribute-mcq-16": "本句的「make a meaningful contribution」指「作出貢獻」。",
+        "contribute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-16"
     },
@@ -1512,11 +1404,9 @@ export default {
       "masked": "She made an important ____.",
       "options": [
         "contribute-mcq-16",
-        "contribute-mcq-15",
-        "contribute-mcq-17",
-        "contribute-mcq-14",
-        "contribute-mcq-18",
-        "contribute-mcq-13"
+        "contribute-mcq-23",
+        "contribute-mcq-04",
+        "contribute-mcq-12"
       ],
       "explanation": "本句的「contribution to the discussion」指「作出貢獻」。",
       "sentenceIndex": 36,
@@ -1525,12 +1415,10 @@ export default {
         "contribution to the discussion"
       ],
       "optionReasons": {
-        "contribute-mcq-16": "本句指「作出貢獻」。",
-        "contribute-mcq-15": "「貢獻；付出」與本句語境不同。",
-        "contribute-mcq-17": "「個人貢獻」與本句語境不同。",
-        "contribute-mcq-14": "「投稿／撰稿」與本句語境不同。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。",
-        "contribute-mcq-13": "「促成因素」與本句語境不同。"
+        "contribute-mcq-16": "本句的「contribution to the discussion」指「作出貢獻」。",
+        "contribute-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-16"
     },
@@ -1542,11 +1430,9 @@ export default {
       "masked": "The quieter employee made a ____.",
       "options": [
         "contribute-mcq-16",
-        "contribute-mcq-15",
-        "contribute-mcq-17",
-        "contribute-mcq-14",
-        "contribute-mcq-18",
-        "contribute-mcq-13"
+        "contribute-mcq-09",
+        "contribute-mcq-13",
+        "contribute-mcq-08"
       ],
       "explanation": "本句的「valuable contribution」指「作出貢獻」。",
       "sentenceIndex": 37,
@@ -1555,12 +1441,10 @@ export default {
         "valuable contribution"
       ],
       "optionReasons": {
-        "contribute-mcq-16": "本句指「作出貢獻」。",
-        "contribute-mcq-15": "「貢獻；付出」與本句語境不同。",
-        "contribute-mcq-17": "「個人貢獻」與本句語境不同。",
-        "contribute-mcq-14": "「投稿／撰稿」與本句語境不同。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。",
-        "contribute-mcq-13": "「促成因素」與本句語境不同。"
+        "contribute-mcq-16": "本句的「valuable contribution」指「作出貢獻」。",
+        "contribute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-16"
     },
@@ -1572,11 +1456,9 @@ export default {
       "masked": "His research made a ____ to the field.",
       "options": [
         "contribute-mcq-16",
-        "contribute-mcq-15",
-        "contribute-mcq-17",
+        "contribute-mcq-03",
         "contribute-mcq-14",
-        "contribute-mcq-18",
-        "contribute-mcq-13"
+        "contribute-mcq-11"
       ],
       "explanation": "本句的「significant contribution」指「作出貢獻」。",
       "sentenceIndex": 38,
@@ -1585,12 +1467,10 @@ export default {
         "significant contribution"
       ],
       "optionReasons": {
-        "contribute-mcq-16": "本句指「作出貢獻」。",
-        "contribute-mcq-15": "「貢獻；付出」與本句語境不同。",
-        "contribute-mcq-17": "「個人貢獻」與本句語境不同。",
-        "contribute-mcq-14": "「投稿／撰稿」與本句語境不同。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。",
-        "contribute-mcq-13": "「促成因素」與本句語境不同。"
+        "contribute-mcq-16": "本句的「significant contribution」指「作出貢獻」。",
+        "contribute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-16"
     },
@@ -1602,11 +1482,9 @@ export default {
       "masked": "Managers should evaluate each person's ____.",
       "options": [
         "contribute-mcq-17",
-        "contribute-mcq-16",
-        "contribute-mcq-18",
-        "contribute-mcq-15",
-        "contribute-mcq-19",
-        "contribute-mcq-14"
+        "contribute-mcq-26",
+        "contribute-mcq-12",
+        "contribute-mcq-24"
       ],
       "explanation": "本句的「individual contribution」指「個人貢獻」。",
       "sentenceIndex": 39,
@@ -1615,12 +1493,10 @@ export default {
         "individual contribution"
       ],
       "optionReasons": {
-        "contribute-mcq-17": "本句指「個人貢獻」。",
-        "contribute-mcq-16": "「作出貢獻」與本句語境不同。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。",
-        "contribute-mcq-15": "「貢獻；付出」與本句語境不同。",
-        "contribute-mcq-19": "「退休金供款」與本句語境不同。",
-        "contribute-mcq-14": "「投稿／撰稿」與本句語境不同。"
+        "contribute-mcq-17": "本句的「individual contribution」指「個人貢獻」。",
+        "contribute-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-17"
     },
@@ -1632,10 +1508,8 @@ export default {
       "masked": "Individual ____ were recorded separately.",
       "options": [
         "contribute-mcq-17",
-        "contribute-mcq-16",
-        "contribute-mcq-18",
-        "contribute-mcq-15",
-        "contribute-mcq-19",
+        "contribute-mcq-24",
+        "contribute-pdf-001",
         "contribute-mcq-14"
       ],
       "explanation": "本句的「contributions」指「個人貢獻」。",
@@ -1645,12 +1519,10 @@ export default {
         "contributions"
       ],
       "optionReasons": {
-        "contribute-mcq-17": "本句指「個人貢獻」。",
-        "contribute-mcq-16": "「作出貢獻」與本句語境不同。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。",
-        "contribute-mcq-15": "「貢獻；付出」與本句語境不同。",
-        "contribute-mcq-19": "「退休金供款」與本句語境不同。",
-        "contribute-mcq-14": "「投稿／撰稿」與本句語境不同。"
+        "contribute-mcq-17": "本句的「contributions」指「個人貢獻」。",
+        "contribute-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "contribute-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-17"
     },
@@ -1662,11 +1534,9 @@ export default {
       "masked": "The company made a large ____.",
       "options": [
         "contribute-mcq-18",
-        "contribute-mcq-17",
-        "contribute-mcq-19",
-        "contribute-mcq-16",
-        "contribute-mcq-20",
-        "contribute-mcq-15"
+        "contribute-mcq-12",
+        "contribute-mcq-24",
+        "contribute-mcq-11"
       ],
       "explanation": "本句的「financial contribution」指「金錢貢獻；供款」。",
       "sentenceIndex": 41,
@@ -1675,12 +1545,10 @@ export default {
         "financial contribution"
       ],
       "optionReasons": {
-        "contribute-mcq-18": "本句指「金錢貢獻；供款」。",
-        "contribute-mcq-17": "「個人貢獻」與本句語境不同。",
-        "contribute-mcq-19": "「退休金供款」與本句語境不同。",
-        "contribute-mcq-16": "「作出貢獻」與本句語境不同。",
-        "contribute-mcq-20": "「對社會的貢獻」與本句語境不同。",
-        "contribute-mcq-15": "「貢獻；付出」與本句語境不同。"
+        "contribute-mcq-18": "本句的「financial contribution」指「金錢貢獻；供款」。",
+        "contribute-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-18"
     },
@@ -1692,11 +1560,9 @@ export default {
       "masked": "Members pay a monthly ____.",
       "options": [
         "contribute-mcq-18",
-        "contribute-mcq-17",
-        "contribute-mcq-19",
-        "contribute-mcq-16",
-        "contribute-mcq-20",
-        "contribute-mcq-15"
+        "contribute-reviewed-80fc71bc97",
+        "contribute-mcq-04",
+        "contribute-mcq-08"
       ],
       "explanation": "本句的「contribution」指「金錢貢獻；供款」。",
       "sentenceIndex": 42,
@@ -1705,12 +1571,10 @@ export default {
         "contribution"
       ],
       "optionReasons": {
-        "contribute-mcq-18": "本句指「金錢貢獻；供款」。",
-        "contribute-mcq-17": "「個人貢獻」與本句語境不同。",
-        "contribute-mcq-19": "「退休金供款」與本句語境不同。",
-        "contribute-mcq-16": "「作出貢獻」與本句語境不同。",
-        "contribute-mcq-20": "「對社會的貢獻」與本句語境不同。",
-        "contribute-mcq-15": "「貢獻；付出」與本句語境不同。"
+        "contribute-mcq-18": "本句的「contribution」指「金錢貢獻；供款」。",
+        "contribute-reviewed-80fc71bc97": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-18"
     },
@@ -1722,11 +1586,9 @@ export default {
       "masked": "The employer increased its ____.",
       "options": [
         "contribute-mcq-19",
-        "contribute-mcq-18",
-        "contribute-mcq-20",
         "contribute-mcq-17",
-        "contribute-mcq-21",
-        "contribute-mcq-16"
+        "contribute-mcq-14",
+        "contribute-mcq-12"
       ],
       "explanation": "本句的「pension contributions」指「退休金供款」。",
       "sentenceIndex": 43,
@@ -1735,12 +1597,10 @@ export default {
         "pension contributions"
       ],
       "optionReasons": {
-        "contribute-mcq-19": "本句指「退休金供款」。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。",
-        "contribute-mcq-20": "「對社會的貢獻」與本句語境不同。",
-        "contribute-mcq-17": "「個人貢獻」與本句語境不同。",
-        "contribute-mcq-21": "「投稿」與本句語境不同。",
-        "contribute-mcq-16": "「作出貢獻」與本句語境不同。"
+        "contribute-mcq-19": "本句的「pension contributions」指「退休金供款」。",
+        "contribute-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-19"
     },
@@ -1752,11 +1612,9 @@ export default {
       "masked": "Monthly ____ are deducted from salary.",
       "options": [
         "contribute-mcq-19",
-        "contribute-mcq-18",
-        "contribute-mcq-20",
-        "contribute-mcq-17",
-        "contribute-mcq-21",
-        "contribute-mcq-16"
+        "contribute-mcq-02",
+        "contribute-mcq-04",
+        "contribute-reviewed-80fc71bc97"
       ],
       "explanation": "本句的「pension contributions」指「退休金供款」。",
       "sentenceIndex": 44,
@@ -1765,12 +1623,10 @@ export default {
         "pension contributions"
       ],
       "optionReasons": {
-        "contribute-mcq-19": "本句指「退休金供款」。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。",
-        "contribute-mcq-20": "「對社會的貢獻」與本句語境不同。",
-        "contribute-mcq-17": "「個人貢獻」與本句語境不同。",
-        "contribute-mcq-21": "「投稿」與本句語境不同。",
-        "contribute-mcq-16": "「作出貢獻」與本句語境不同。"
+        "contribute-mcq-19": "本句的「pension contributions」指「退休金供款」。",
+        "contribute-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "contribute-reviewed-80fc71bc97": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-19"
     },
@@ -1782,11 +1638,9 @@ export default {
       "masked": "Teachers make an important ____.",
       "options": [
         "contribute-mcq-20",
-        "contribute-mcq-19",
-        "contribute-mcq-21",
-        "contribute-mcq-18",
-        "contribute-mcq-22",
-        "contribute-mcq-17"
+        "contribute-mcq-13",
+        "contribute-mcq-09",
+        "contribute-mcq-21"
       ],
       "explanation": "本句的「contribution to society」指「對社會的貢獻」。",
       "sentenceIndex": 45,
@@ -1795,12 +1649,10 @@ export default {
         "contribution to society"
       ],
       "optionReasons": {
-        "contribute-mcq-20": "本句指「對社會的貢獻」。",
-        "contribute-mcq-19": "「退休金供款」與本句語境不同。",
-        "contribute-mcq-21": "「投稿」與本句語境不同。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。",
-        "contribute-mcq-22": "「貢獻者」與本句語境不同。",
-        "contribute-mcq-17": "「個人貢獻」與本句語境不同。"
+        "contribute-mcq-20": "本句的「contribution to society」指「對社會的貢獻」。",
+        "contribute-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-20"
     },
@@ -1812,11 +1664,9 @@ export default {
       "masked": "Her work has made a lasting ____.",
       "options": [
         "contribute-mcq-20",
+        "contribute-mcq-23",
         "contribute-mcq-19",
-        "contribute-mcq-21",
-        "contribute-mcq-18",
-        "contribute-mcq-22",
-        "contribute-mcq-17"
+        "contribute-mcq-12"
       ],
       "explanation": "本句的「contribution to the community」指「對社會的貢獻」。",
       "sentenceIndex": 46,
@@ -1825,12 +1675,10 @@ export default {
         "contribution to the community"
       ],
       "optionReasons": {
-        "contribute-mcq-20": "本句指「對社會的貢獻」。",
-        "contribute-mcq-19": "「退休金供款」與本句語境不同。",
-        "contribute-mcq-21": "「投稿」與本句語境不同。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。",
-        "contribute-mcq-22": "「貢獻者」與本句語境不同。",
-        "contribute-mcq-17": "「個人貢獻」與本句語境不同。"
+        "contribute-mcq-20": "本句的「contribution to the community」指「對社會的貢獻」。",
+        "contribute-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-20"
     },
@@ -1842,10 +1690,8 @@ export default {
       "masked": "Her ____ appeared last month.",
       "options": [
         "contribute-mcq-21",
-        "contribute-mcq-20",
-        "contribute-mcq-22",
-        "contribute-mcq-19",
-        "contribute-mcq-23",
+        "contribute-mcq-11",
+        "contribute-mcq-25",
         "contribute-mcq-18"
       ],
       "explanation": "本句的「contribution to the magazine」指「投稿」。",
@@ -1855,12 +1701,10 @@ export default {
         "contribution to the magazine"
       ],
       "optionReasons": {
-        "contribute-mcq-21": "本句指「投稿」。",
-        "contribute-mcq-20": "「對社會的貢獻」與本句語境不同。",
-        "contribute-mcq-22": "「貢獻者」與本句語境不同。",
-        "contribute-mcq-19": "「退休金供款」與本句語境不同。",
-        "contribute-mcq-23": "「撰稿人」與本句語境不同。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。"
+        "contribute-mcq-21": "本句的「contribution to the magazine」指「投稿」。",
+        "contribute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-21"
     },
@@ -1872,11 +1716,9 @@ export default {
       "masked": "The editor thanked all the writers for their ____.",
       "options": [
         "contribute-mcq-21",
-        "contribute-mcq-20",
-        "contribute-mcq-22",
-        "contribute-mcq-19",
-        "contribute-mcq-23",
-        "contribute-mcq-18"
+        "contribute-pdf-001",
+        "contribute-mcq-16",
+        "contribute-mcq-26"
       ],
       "explanation": "本句的「contributions」指「投稿」。",
       "sentenceIndex": 48,
@@ -1885,74 +1727,68 @@ export default {
         "contributions"
       ],
       "optionReasons": {
-        "contribute-mcq-21": "本句指「投稿」。",
-        "contribute-mcq-20": "「對社會的貢獻」與本句語境不同。",
-        "contribute-mcq-22": "「貢獻者」與本句語境不同。",
-        "contribute-mcq-19": "「退休金供款」與本句語境不同。",
-        "contribute-mcq-23": "「撰稿人」與本句語境不同。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。"
+        "contribute-mcq-21": "本句的「contributions」指「投稿」。",
+        "contribute-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-21"
     },
     {
       "id": "contribute-25-0",
-      "sense": "contribute-mcq-21",
+      "sense": "contribute-reviewed-80fc71bc97",
       "en": "The report examined stress's contribution to poor performance.",
       "zh": "報告研究壓力對表現欠佳的促成作用。",
       "masked": "The report examined stress's ____.",
       "options": [
-        "contribute-mcq-21",
-        "contribute-mcq-20",
+        "contribute-reviewed-80fc71bc97",
         "contribute-mcq-22",
-        "contribute-mcq-19",
-        "contribute-mcq-23",
-        "contribute-mcq-18"
+        "contribute-mcq-08",
+        "contribute-mcq-03"
       ],
-      "explanation": "本句的「contribution to poor performance」指「投稿」。",
+      "explanation": "對照完整句子：「報告研究壓力對表現欠佳的促成作用。」。這裡的「contribution to poor performance」表示「某個因素對結果形成所起的部分作用」。",
       "sentenceIndex": 49,
       "sourcePractice": 1,
       "targets": [
         "contribution to poor performance"
       ],
       "optionReasons": {
-        "contribute-mcq-21": "本句指「投稿」。",
-        "contribute-mcq-20": "「對社會的貢獻」與本句語境不同。",
-        "contribute-mcq-22": "「貢獻者」與本句語境不同。",
-        "contribute-mcq-19": "「退休金供款」與本句語境不同。",
-        "contribute-mcq-23": "「撰稿人」與本句語境不同。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。"
+        "contribute-reviewed-80fc71bc97": "對照完整句子：「報告研究壓力對表現欠佳的促成作用。」。這裡的「contribution to poor performance」表示「某個因素對結果形成所起的部分作用」。",
+        "contribute-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "contribute-mcq-21"
+      "correctOption": "contribute-reviewed-80fc71bc97",
+      "previousCorrectOption": "contribute-mcq-21",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "contribute-25-1",
-      "sense": "contribute-mcq-21",
+      "sense": "contribute-reviewed-80fc71bc97",
       "en": "Several factors made a contribution to the decline.",
       "zh": "多個因素對下滑都有一定的促成作用。",
       "masked": "Several factors made a ____.",
       "options": [
-        "contribute-mcq-21",
-        "contribute-mcq-20",
-        "contribute-mcq-22",
-        "contribute-mcq-19",
-        "contribute-mcq-23",
-        "contribute-mcq-18"
+        "contribute-reviewed-80fc71bc97",
+        "contribute-mcq-09",
+        "contribute-mcq-15",
+        "contribute-mcq-26"
       ],
-      "explanation": "本句的「contribution to the decline」指「投稿」。",
+      "explanation": "對照完整句子：「多個因素對下滑都有一定的促成作用。」。這裡的「contribution to the decline」表示「某個因素對結果形成所起的部分作用」。",
       "sentenceIndex": 50,
       "sourcePractice": 2,
       "targets": [
         "contribution to the decline"
       ],
       "optionReasons": {
-        "contribute-mcq-21": "本句指「投稿」。",
-        "contribute-mcq-20": "「對社會的貢獻」與本句語境不同。",
-        "contribute-mcq-22": "「貢獻者」與本句語境不同。",
-        "contribute-mcq-19": "「退休金供款」與本句語境不同。",
-        "contribute-mcq-23": "「撰稿人」與本句語境不同。",
-        "contribute-mcq-18": "「金錢貢獻；供款」與本句語境不同。"
+        "contribute-reviewed-80fc71bc97": "對照完整句子：「多個因素對下滑都有一定的促成作用。」。這裡的「contribution to the decline」表示「某個因素對結果形成所起的部分作用」。",
+        "contribute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "contribute-mcq-21"
+      "correctOption": "contribute-reviewed-80fc71bc97",
+      "previousCorrectOption": "contribute-mcq-21",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "contribute-26-0",
@@ -1962,11 +1798,9 @@ export default {
       "masked": "She was one of the main ____.",
       "options": [
         "contribute-mcq-22",
+        "contribute-mcq-26",
         "contribute-mcq-21",
-        "contribute-mcq-23",
-        "contribute-mcq-20",
-        "contribute-mcq-24",
-        "contribute-mcq-19"
+        "contribute-mcq-11"
       ],
       "explanation": "本句的「contributors to the project」指「貢獻者」。",
       "sentenceIndex": 51,
@@ -1975,12 +1809,10 @@ export default {
         "contributors to the project"
       ],
       "optionReasons": {
-        "contribute-mcq-22": "本句指「貢獻者」。",
-        "contribute-mcq-21": "「投稿」與本句語境不同。",
-        "contribute-mcq-23": "「撰稿人」與本句語境不同。",
-        "contribute-mcq-20": "「對社會的貢獻」與本句語境不同。",
-        "contribute-mcq-24": "「捐助者」與本句語境不同。",
-        "contribute-mcq-19": "「退休金供款」與本句語境不同。"
+        "contribute-mcq-22": "本句的「contributors to the project」指「貢獻者」。",
+        "contribute-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-22"
     },
@@ -1992,11 +1824,9 @@ export default {
       "masked": "Every ____ received credit.",
       "options": [
         "contribute-mcq-22",
-        "contribute-mcq-21",
-        "contribute-mcq-23",
-        "contribute-mcq-20",
-        "contribute-mcq-24",
-        "contribute-mcq-19"
+        "contribute-reviewed-80fc71bc97",
+        "contribute-mcq-14",
+        "contribute-mcq-07"
       ],
       "explanation": "本句的「contributor」指「貢獻者」。",
       "sentenceIndex": 52,
@@ -2005,12 +1835,10 @@ export default {
         "contributor"
       ],
       "optionReasons": {
-        "contribute-mcq-22": "本句指「貢獻者」。",
-        "contribute-mcq-21": "「投稿」與本句語境不同。",
-        "contribute-mcq-23": "「撰稿人」與本句語境不同。",
-        "contribute-mcq-20": "「對社會的貢獻」與本句語境不同。",
-        "contribute-mcq-24": "「捐助者」與本句語境不同。",
-        "contribute-mcq-19": "「退休金供款」與本句語境不同。"
+        "contribute-mcq-22": "本句的「contributor」指「貢獻者」。",
+        "contribute-reviewed-80fc71bc97": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-22"
     },
@@ -2022,11 +1850,9 @@ export default {
       "masked": "She is a regular ____.",
       "options": [
         "contribute-mcq-23",
-        "contribute-mcq-22",
-        "contribute-mcq-24",
-        "contribute-mcq-21",
+        "contribute-mcq-03",
         "contribute-mcq-25",
-        "contribute-mcq-20"
+        "contribute-mcq-08"
       ],
       "explanation": "本句的「contributor to the magazine」指「撰稿人」。",
       "sentenceIndex": 53,
@@ -2035,12 +1861,10 @@ export default {
         "contributor to the magazine"
       ],
       "optionReasons": {
-        "contribute-mcq-23": "本句指「撰稿人」。",
-        "contribute-mcq-22": "「貢獻者」與本句語境不同。",
-        "contribute-mcq-24": "「捐助者」與本句語境不同。",
-        "contribute-mcq-21": "「投稿」與本句語境不同。",
-        "contribute-mcq-25": "「促成因素」與本句語境不同。",
-        "contribute-mcq-20": "「對社會的貢獻」與本句語境不同。"
+        "contribute-mcq-23": "本句的「contributor to the magazine」指「撰稿人」。",
+        "contribute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-23"
     },
@@ -2052,11 +1876,9 @@ export default {
       "masked": "The website has ____ from several countries.",
       "options": [
         "contribute-mcq-23",
-        "contribute-mcq-22",
-        "contribute-mcq-24",
-        "contribute-mcq-21",
-        "contribute-mcq-25",
-        "contribute-mcq-20"
+        "contribute-mcq-08",
+        "contribute-mcq-17",
+        "contribute-mcq-26"
       ],
       "explanation": "本句的「contributors」指「撰稿人」。",
       "sentenceIndex": 54,
@@ -2065,12 +1887,10 @@ export default {
         "contributors"
       ],
       "optionReasons": {
-        "contribute-mcq-23": "本句指「撰稿人」。",
-        "contribute-mcq-22": "「貢獻者」與本句語境不同。",
-        "contribute-mcq-24": "「捐助者」與本句語境不同。",
-        "contribute-mcq-21": "「投稿」與本句語境不同。",
-        "contribute-mcq-25": "「促成因素」與本句語境不同。",
-        "contribute-mcq-20": "「對社會的貢獻」與本句語境不同。"
+        "contribute-mcq-23": "本句的「contributors」指「撰稿人」。",
+        "contribute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-23"
     },
@@ -2082,11 +1902,9 @@ export default {
       "masked": "Major ____ were thanked publicly.",
       "options": [
         "contribute-mcq-24",
-        "contribute-mcq-23",
-        "contribute-mcq-25",
-        "contribute-mcq-22",
-        "contribute-mcq-26",
-        "contribute-mcq-21"
+        "contribute-pdf-001",
+        "contribute-mcq-09",
+        "contribute-mcq-14"
       ],
       "explanation": "本句的「contributors」指「捐助者」。",
       "sentenceIndex": 55,
@@ -2095,12 +1913,10 @@ export default {
         "contributors"
       ],
       "optionReasons": {
-        "contribute-mcq-24": "本句指「捐助者」。",
-        "contribute-mcq-23": "「撰稿人」與本句語境不同。",
-        "contribute-mcq-25": "「促成因素」與本句語境不同。",
-        "contribute-mcq-22": "「貢獻者」與本句語境不同。",
-        "contribute-mcq-26": "「與有過失」與本句語境不同。",
-        "contribute-mcq-21": "「投稿」與本句語境不同。"
+        "contribute-mcq-24": "本句的「contributors」指「捐助者」。",
+        "contribute-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-24"
     },
@@ -2112,11 +1928,9 @@ export default {
       "masked": "Each ____ gave money to the fund.",
       "options": [
         "contribute-mcq-24",
-        "contribute-mcq-23",
-        "contribute-mcq-25",
-        "contribute-mcq-22",
-        "contribute-mcq-26",
-        "contribute-mcq-21"
+        "contribute-mcq-20",
+        "contribute-pdf-001",
+        "contribute-mcq-04"
       ],
       "explanation": "本句的「contributor」指「捐助者」。",
       "sentenceIndex": 56,
@@ -2125,12 +1939,10 @@ export default {
         "contributor"
       ],
       "optionReasons": {
-        "contribute-mcq-24": "本句指「捐助者」。",
-        "contribute-mcq-23": "「撰稿人」與本句語境不同。",
-        "contribute-mcq-25": "「促成因素」與本句語境不同。",
-        "contribute-mcq-22": "「貢獻者」與本句語境不同。",
-        "contribute-mcq-26": "「與有過失」與本句語境不同。",
-        "contribute-mcq-21": "「投稿」與本句語境不同。"
+        "contribute-mcq-24": "本句的「contributor」指「捐助者」。",
+        "contribute-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "contribute-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-24"
     },
@@ -2142,11 +1954,9 @@ export default {
       "masked": "Stress is a major ____.",
       "options": [
         "contribute-mcq-25",
-        "contribute-mcq-24",
         "contribute-mcq-26",
-        "contribute-mcq-23",
-        "contribute-mcq-22",
-        "contribute-mcq-21"
+        "contribute-mcq-06",
+        "contribute-mcq-19"
       ],
       "explanation": "本句的「contributor to burnout」指「促成因素」。",
       "sentenceIndex": 57,
@@ -2155,12 +1965,10 @@ export default {
         "contributor to burnout"
       ],
       "optionReasons": {
-        "contribute-mcq-25": "本句指「促成因素」。",
-        "contribute-mcq-24": "「捐助者」與本句語境不同。",
-        "contribute-mcq-26": "「與有過失」與本句語境不同。",
-        "contribute-mcq-23": "「撰稿人」與本句語境不同。",
-        "contribute-mcq-22": "「貢獻者」與本句語境不同。",
-        "contribute-mcq-21": "「投稿」與本句語境不同。"
+        "contribute-mcq-25": "本句的「contributor to burnout」指「促成因素」。",
+        "contribute-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-25"
     },
@@ -2172,11 +1980,9 @@ export default {
       "masked": "Poor sleep was an important ____.",
       "options": [
         "contribute-mcq-25",
-        "contribute-mcq-24",
-        "contribute-mcq-26",
-        "contribute-mcq-23",
-        "contribute-mcq-22",
-        "contribute-mcq-21"
+        "contribute-mcq-02",
+        "contribute-mcq-04",
+        "contribute-mcq-24"
       ],
       "explanation": "本句的「contributor to the problem」指「促成因素」。",
       "sentenceIndex": 58,
@@ -2185,12 +1991,10 @@ export default {
         "contributor to the problem"
       ],
       "optionReasons": {
-        "contribute-mcq-25": "本句指「促成因素」。",
-        "contribute-mcq-24": "「捐助者」與本句語境不同。",
-        "contribute-mcq-26": "「與有過失」與本句語境不同。",
-        "contribute-mcq-23": "「撰稿人」與本句語境不同。",
-        "contribute-mcq-22": "「貢獻者」與本句語境不同。",
-        "contribute-mcq-21": "「投稿」與本句語境不同。"
+        "contribute-mcq-25": "本句的「contributor to the problem」指「促成因素」。",
+        "contribute-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-25"
     },
@@ -2202,11 +2006,9 @@ export default {
       "masked": "The court considered whether there was ____.",
       "options": [
         "contribute-mcq-26",
-        "contribute-mcq-25",
-        "contribute-mcq-24",
-        "contribute-mcq-23",
-        "contribute-mcq-22",
-        "contribute-mcq-21"
+        "contribute-mcq-05",
+        "contribute-pdf-001",
+        "contribute-mcq-19"
       ],
       "explanation": "本句的「contributory negligence」指「與有過失」。",
       "sentenceIndex": 59,
@@ -2215,12 +2017,10 @@ export default {
         "contributory negligence"
       ],
       "optionReasons": {
-        "contribute-mcq-26": "本句指「與有過失」。",
-        "contribute-mcq-25": "「促成因素」與本句語境不同。",
-        "contribute-mcq-24": "「捐助者」與本句語境不同。",
-        "contribute-mcq-23": "「撰稿人」與本句語境不同。",
-        "contribute-mcq-22": "「貢獻者」與本句語境不同。",
-        "contribute-mcq-21": "「投稿」與本句語境不同。"
+        "contribute-mcq-26": "本句的「contributory negligence」指「與有過失」。",
+        "contribute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "contribute-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-26"
     },
@@ -2232,11 +2032,9 @@ export default {
       "masked": "____ negligence can affect how damages are assessed.",
       "options": [
         "contribute-mcq-26",
-        "contribute-mcq-25",
-        "contribute-mcq-24",
-        "contribute-mcq-23",
-        "contribute-mcq-22",
-        "contribute-mcq-21"
+        "contribute-mcq-02",
+        "contribute-pdf-001",
+        "contribute-mcq-08"
       ],
       "explanation": "本句的「Contributory」指「與有過失」。",
       "sentenceIndex": 60,
@@ -2245,12 +2043,10 @@ export default {
         "Contributory"
       ],
       "optionReasons": {
-        "contribute-mcq-26": "本句指「與有過失」。",
-        "contribute-mcq-25": "「促成因素」與本句語境不同。",
-        "contribute-mcq-24": "「捐助者」與本句語境不同。",
-        "contribute-mcq-23": "「撰稿人」與本句語境不同。",
-        "contribute-mcq-22": "「貢獻者」與本句語境不同。",
-        "contribute-mcq-21": "「投稿」與本句語境不同。"
+        "contribute-mcq-26": "本句的「Contributory」指「與有過失」。",
+        "contribute-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "contribute-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "contribute-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contribute-mcq-26"
     }
@@ -2262,5 +2058,7 @@ export default {
     "sha256": "b570f2ca87e9cf5d69c8d1fb3c328a548638f5427e0cc9a0c6e9f293ad6775d6",
     "pages": 23
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

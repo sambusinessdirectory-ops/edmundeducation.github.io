@@ -1242,11 +1242,9 @@ export default {
       "masked": "The report includes a ____ showing monthly returns.",
       "options": [
         "chart-pdf-001",
-        "chart-mcq-02",
-        "chart-mcq-03",
-        "chart-mcq-04",
-        "chart-mcq-05",
-        "chart-mcq-06"
+        "chart-mcq-15",
+        "chart-mcq-42",
+        "chart-mcq-46"
       ],
       "explanation": "本句的「chart」指「把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表」。",
       "sentenceIndex": 0,
@@ -1255,12 +1253,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-pdf-001": "本句指「把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表」。",
-        "chart-mcq-02": "「尺碼表」與本句語境不同。",
-        "chart-mcq-03": "「量度表」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
+        "chart-pdf-001": "本句的「chart」指「把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表」。",
+        "chart-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-pdf-001"
     },
@@ -1272,11 +1268,9 @@ export default {
       "masked": "The ____ makes the figures easier to compare.",
       "options": [
         "chart-pdf-001",
-        "chart-mcq-02",
-        "chart-mcq-03",
-        "chart-mcq-04",
-        "chart-mcq-05",
-        "chart-mcq-06"
+        "chart-mcq-48",
+        "chart-mcq-23",
+        "chart-mcq-43"
       ],
       "explanation": "本句的「chart」指「把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表」。",
       "sentenceIndex": 1,
@@ -1285,12 +1279,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-pdf-001": "本句指「把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表」。",
-        "chart-mcq-02": "「尺碼表」與本句語境不同。",
-        "chart-mcq-03": "「量度表」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
+        "chart-pdf-001": "本句的「chart」指「把數據、分類或資訊以視覺方式整理出來，方便閱讀和比較的圖表」。",
+        "chart-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-pdf-001"
     },
@@ -1302,11 +1294,9 @@ export default {
       "masked": "Students should learn how to ____ accurately.",
       "options": [
         "chart-mcq-01",
-        "chart-mcq-02",
+        "chart-mcq-34",
         "chart-mcq-03",
-        "chart-mcq-04",
-        "chart-mcq-05",
-        "chart-mcq-06"
+        "chart-mcq-02"
       ],
       "explanation": "本句的「read charts」指「圖表；表格」。",
       "sentenceIndex": 2,
@@ -1315,12 +1305,10 @@ export default {
         "read charts"
       ],
       "optionReasons": {
-        "chart-mcq-01": "本句指「圖表；表格」。",
-        "chart-mcq-02": "「尺碼表」與本句語境不同。",
-        "chart-mcq-03": "「量度表」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
+        "chart-mcq-01": "本句的「read charts」指「圖表；表格」。",
+        "chart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-01"
     },
@@ -1332,11 +1320,9 @@ export default {
       "masked": "Read the ____ before answering the questions.",
       "options": [
         "chart-mcq-01",
-        "chart-mcq-02",
         "chart-mcq-03",
-        "chart-mcq-04",
-        "chart-mcq-05",
-        "chart-mcq-06"
+        "chart-mcq-46",
+        "chart-mcq-42"
       ],
       "explanation": "本句的「chart」指「圖表；表格」。",
       "sentenceIndex": 3,
@@ -1345,12 +1331,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-01": "本句指「圖表；表格」。",
-        "chart-mcq-02": "「尺碼表」與本句語境不同。",
-        "chart-mcq-03": "「量度表」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
+        "chart-mcq-01": "本句的「chart」指「圖表；表格」。",
+        "chart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-01"
     },
@@ -1363,10 +1347,8 @@ export default {
       "options": [
         "chart-mcq-01",
         "chart-mcq-02",
-        "chart-mcq-03",
-        "chart-mcq-04",
         "chart-mcq-05",
-        "chart-mcq-06"
+        "chart-mcq-34"
       ],
       "explanation": "本句的「shown on the chart」指「圖表；表格」。",
       "sentenceIndex": 4,
@@ -1375,12 +1357,10 @@ export default {
         "shown on the chart"
       ],
       "optionReasons": {
-        "chart-mcq-01": "本句指「圖表；表格」。",
-        "chart-mcq-02": "「尺碼表」與本句語境不同。",
-        "chart-mcq-03": "「量度表」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
+        "chart-mcq-01": "本句的「shown on the chart」指「圖表；表格」。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-01"
     },
@@ -1392,11 +1372,9 @@ export default {
       "masked": "The ____ shows differences between the three stores.",
       "options": [
         "chart-mcq-01",
+        "chart-mcq-40",
         "chart-mcq-02",
-        "chart-mcq-03",
-        "chart-mcq-04",
-        "chart-mcq-05",
-        "chart-mcq-06"
+        "chart-mcq-41"
       ],
       "explanation": "本句的「chart」指「圖表；表格」。",
       "sentenceIndex": 5,
@@ -1405,12 +1383,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-01": "本句指「圖表；表格」。",
-        "chart-mcq-02": "「尺碼表」與本句語境不同。",
-        "chart-mcq-03": "「量度表」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
+        "chart-mcq-01": "本句的「chart」指「圖表；表格」。",
+        "chart-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-01"
     },
@@ -1422,11 +1398,9 @@ export default {
       "masked": "According to the ____, she should order a medium.",
       "options": [
         "chart-mcq-01",
-        "chart-mcq-02",
-        "chart-mcq-03",
-        "chart-mcq-04",
-        "chart-mcq-05",
-        "chart-mcq-06"
+        "chart-mcq-47",
+        "chart-mcq-40",
+        "chart-mcq-32"
       ],
       "explanation": "本句的「size chart」指「圖表；表格」。",
       "sentenceIndex": 6,
@@ -1435,12 +1409,10 @@ export default {
         "size chart"
       ],
       "optionReasons": {
-        "chart-mcq-01": "本句指「圖表；表格」。",
-        "chart-mcq-02": "「尺碼表」與本句語境不同。",
-        "chart-mcq-03": "「量度表」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
+        "chart-mcq-01": "本句的「size chart」指「圖表；表格」。",
+        "chart-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-01"
     },
@@ -1452,11 +1424,9 @@ export default {
       "masked": "According to the ____, complaints fell in August.",
       "options": [
         "chart-mcq-01",
-        "chart-mcq-02",
-        "chart-mcq-03",
-        "chart-mcq-04",
-        "chart-mcq-05",
-        "chart-mcq-06"
+        "chart-pdf-003",
+        "chart-mcq-53",
+        "chart-mcq-22"
       ],
       "explanation": "本句的「chart」指「圖表；表格」。",
       "sentenceIndex": 7,
@@ -1465,12 +1435,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-01": "本句指「圖表；表格」。",
-        "chart-mcq-02": "「尺碼表」與本句語境不同。",
-        "chart-mcq-03": "「量度表」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
+        "chart-mcq-01": "本句的「chart」指「圖表；表格」。",
+        "chart-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-01"
     },
@@ -1482,11 +1450,9 @@ export default {
       "masked": "Customers rely on ____ when shopping online.",
       "options": [
         "chart-mcq-02",
-        "chart-mcq-01",
-        "chart-mcq-03",
-        "chart-mcq-04",
-        "chart-mcq-05",
-        "chart-mcq-06"
+        "chart-mcq-20",
+        "chart-mcq-22",
+        "chart-mcq-35"
       ],
       "explanation": "本句的「size charts」指「尺碼表」。",
       "sentenceIndex": 8,
@@ -1495,12 +1461,10 @@ export default {
         "size charts"
       ],
       "optionReasons": {
-        "chart-mcq-02": "本句指「尺碼表」。",
-        "chart-mcq-01": "「圖表；表格」與本句語境不同。",
-        "chart-mcq-03": "「量度表」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
+        "chart-mcq-02": "本句的「size charts」指「尺碼表」。",
+        "chart-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-02"
     },
@@ -1512,11 +1476,9 @@ export default {
       "masked": "The size ____ lists body measurements for each size.",
       "options": [
         "chart-mcq-02",
-        "chart-mcq-01",
-        "chart-mcq-03",
-        "chart-mcq-04",
-        "chart-mcq-05",
-        "chart-mcq-06"
+        "chart-mcq-33",
+        "chart-mcq-52",
+        "chart-mcq-46"
       ],
       "explanation": "本句的「chart」指「尺碼表」。",
       "sentenceIndex": 9,
@@ -1525,12 +1487,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-02": "本句指「尺碼表」。",
-        "chart-mcq-01": "「圖表；表格」與本句語境不同。",
-        "chart-mcq-03": "「量度表」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
+        "chart-mcq-02": "本句的「chart」指「尺碼表」。",
+        "chart-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-02"
     },
@@ -1542,11 +1502,9 @@ export default {
       "masked": "Check the ____ before ordering.",
       "options": [
         "chart-mcq-03",
-        "chart-mcq-02",
-        "chart-mcq-04",
-        "chart-mcq-01",
-        "chart-mcq-05",
-        "chart-mcq-06"
+        "chart-mcq-19",
+        "chart-mcq-23",
+        "chart-mcq-37"
       ],
       "explanation": "本句的「measurement chart」指「量度表」。",
       "sentenceIndex": 10,
@@ -1555,12 +1513,10 @@ export default {
         "measurement chart"
       ],
       "optionReasons": {
-        "chart-mcq-03": "本句指「量度表」。",
-        "chart-mcq-02": "「尺碼表」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-01": "「圖表；表格」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
+        "chart-mcq-03": "本句的「measurement chart」指「量度表」。",
+        "chart-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-03"
     },
@@ -1573,10 +1529,8 @@ export default {
       "options": [
         "chart-mcq-03",
         "chart-mcq-02",
-        "chart-mcq-04",
-        "chart-mcq-01",
-        "chart-mcq-05",
-        "chart-mcq-06"
+        "chart-mcq-49",
+        "chart-mcq-25"
       ],
       "explanation": "本句的「chart」指「量度表」。",
       "sentenceIndex": 11,
@@ -1585,12 +1539,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-03": "本句指「量度表」。",
-        "chart-mcq-02": "「尺碼表」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-01": "「圖表；表格」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
+        "chart-mcq-03": "本句的「chart」指「量度表」。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-03"
     },
@@ -1602,11 +1554,9 @@ export default {
       "masked": "Use the ____ to compare UK and US sizes.",
       "options": [
         "chart-mcq-04",
-        "chart-mcq-03",
-        "chart-mcq-05",
-        "chart-mcq-02",
-        "chart-mcq-06",
-        "chart-mcq-01"
+        "chart-mcq-23",
+        "chart-mcq-30",
+        "chart-mcq-08"
       ],
       "explanation": "本句的「size conversion chart」指「換算表」。",
       "sentenceIndex": 12,
@@ -1615,12 +1565,10 @@ export default {
         "size conversion chart"
       ],
       "optionReasons": {
-        "chart-mcq-04": "本句指「換算表」。",
-        "chart-mcq-03": "「量度表」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-02": "「尺碼表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。",
-        "chart-mcq-01": "「圖表；表格」與本句語境不同。"
+        "chart-mcq-04": "本句的「size conversion chart」指「換算表」。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-04"
     },
@@ -1632,11 +1580,9 @@ export default {
       "masked": "The website provides a conversion ____ for shoe sizes.",
       "options": [
         "chart-mcq-04",
-        "chart-mcq-03",
-        "chart-mcq-05",
-        "chart-mcq-02",
-        "chart-mcq-06",
-        "chart-mcq-01"
+        "chart-mcq-27",
+        "chart-mcq-34",
+        "chart-mcq-05"
       ],
       "explanation": "本句的「chart」指「換算表」。",
       "sentenceIndex": 13,
@@ -1645,12 +1591,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-04": "本句指「換算表」。",
-        "chart-mcq-03": "「量度表」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-02": "「尺碼表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。",
-        "chart-mcq-01": "「圖表；表格」與本句語境不同。"
+        "chart-mcq-04": "本句的「chart」指「換算表」。",
+        "chart-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-04"
     },
@@ -1662,11 +1606,9 @@ export default {
       "masked": "The website provides a ____.",
       "options": [
         "chart-mcq-05",
-        "chart-mcq-04",
-        "chart-mcq-06",
-        "chart-mcq-03",
-        "chart-mcq-07",
-        "chart-mcq-02"
+        "chart-mcq-14",
+        "chart-mcq-48",
+        "chart-mcq-49"
       ],
       "explanation": "本句的「comparison chart」指「比較表」。",
       "sentenceIndex": 14,
@@ -1675,12 +1617,10 @@ export default {
         "comparison chart"
       ],
       "optionReasons": {
-        "chart-mcq-05": "本句指「比較表」。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。",
-        "chart-mcq-03": "「量度表」與本句語境不同。",
-        "chart-mcq-07": "「柱狀圖」與本句語境不同。",
-        "chart-mcq-02": "「尺碼表」與本句語境不同。"
+        "chart-mcq-05": "本句的「comparison chart」指「比較表」。",
+        "chart-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-05"
     },
@@ -1692,11 +1632,9 @@ export default {
       "masked": "The comparison ____ shows the features of each product.",
       "options": [
         "chart-mcq-05",
-        "chart-mcq-04",
-        "chart-mcq-06",
-        "chart-mcq-03",
-        "chart-mcq-07",
-        "chart-mcq-02"
+        "chart-mcq-48",
+        "chart-mcq-08",
+        "chart-mcq-33"
       ],
       "explanation": "本句的「chart」指「比較表」。",
       "sentenceIndex": 15,
@@ -1705,12 +1643,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-05": "本句指「比較表」。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。",
-        "chart-mcq-03": "「量度表」與本句語境不同。",
-        "chart-mcq-07": "「柱狀圖」與本句語境不同。",
-        "chart-mcq-02": "「尺碼表」與本句語境不同。"
+        "chart-mcq-05": "本句的「chart」指「比較表」。",
+        "chart-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-05"
     },
@@ -1722,11 +1658,9 @@ export default {
       "masked": "The ____ compares return rates by category.",
       "options": [
         "chart-mcq-06",
-        "chart-mcq-05",
-        "chart-mcq-07",
-        "chart-mcq-04",
-        "chart-mcq-08",
-        "chart-mcq-03"
+        "chart-mcq-41",
+        "chart-mcq-50",
+        "chart-mcq-40"
       ],
       "explanation": "本句的「bar chart」指「棒形圖／長條圖」。",
       "sentenceIndex": 16,
@@ -1735,12 +1669,10 @@ export default {
         "bar chart"
       ],
       "optionReasons": {
-        "chart-mcq-06": "本句指「棒形圖／長條圖」。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-07": "「柱狀圖」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。",
-        "chart-mcq-08": "「折線圖」與本句語境不同。",
-        "chart-mcq-03": "「量度表」與本句語境不同。"
+        "chart-mcq-06": "本句的「bar chart」指「棒形圖／長條圖」。",
+        "chart-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-06"
     },
@@ -1752,11 +1684,9 @@ export default {
       "masked": "The dashboard uses a ____.",
       "options": [
         "chart-mcq-07",
-        "chart-mcq-06",
-        "chart-mcq-08",
+        "chart-mcq-34",
         "chart-mcq-05",
-        "chart-mcq-09",
-        "chart-mcq-04"
+        "chart-mcq-42"
       ],
       "explanation": "本句的「column chart」指「柱狀圖」。",
       "sentenceIndex": 17,
@@ -1765,12 +1695,10 @@ export default {
         "column chart"
       ],
       "optionReasons": {
-        "chart-mcq-07": "本句指「柱狀圖」。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。",
-        "chart-mcq-08": "「折線圖」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-09": "「圓形圖／餅圖」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。"
+        "chart-mcq-07": "本句的「column chart」指「柱狀圖」。",
+        "chart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-07"
     },
@@ -1782,11 +1710,9 @@ export default {
       "masked": "Column ____ typically display vertical bars.",
       "options": [
         "chart-mcq-07",
-        "chart-mcq-06",
-        "chart-mcq-08",
-        "chart-mcq-05",
-        "chart-mcq-09",
-        "chart-mcq-04"
+        "chart-mcq-41",
+        "chart-mcq-53",
+        "chart-mcq-23"
       ],
       "explanation": "本句的「charts」指「柱狀圖」。",
       "sentenceIndex": 18,
@@ -1795,12 +1721,10 @@ export default {
         "charts"
       ],
       "optionReasons": {
-        "chart-mcq-07": "本句指「柱狀圖」。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。",
-        "chart-mcq-08": "「折線圖」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。",
-        "chart-mcq-09": "「圓形圖／餅圖」與本句語境不同。",
-        "chart-mcq-04": "「換算表」與本句語境不同。"
+        "chart-mcq-07": "本句的「charts」指「柱狀圖」。",
+        "chart-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-07"
     },
@@ -1812,11 +1736,9 @@ export default {
       "masked": "The ____ shows return rates over time.",
       "options": [
         "chart-mcq-08",
-        "chart-mcq-07",
-        "chart-mcq-09",
-        "chart-mcq-06",
-        "chart-mcq-10",
-        "chart-mcq-05"
+        "chart-mcq-35",
+        "chart-mcq-41",
+        "chart-mcq-50"
       ],
       "explanation": "本句的「line chart」指「折線圖」。",
       "sentenceIndex": 19,
@@ -1825,12 +1747,10 @@ export default {
         "line chart"
       ],
       "optionReasons": {
-        "chart-mcq-08": "本句指「折線圖」。",
-        "chart-mcq-07": "「柱狀圖」與本句語境不同。",
-        "chart-mcq-09": "「圓形圖／餅圖」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。",
-        "chart-mcq-10": "「面積圖」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。"
+        "chart-mcq-08": "本句的「line chart」指「折線圖」。",
+        "chart-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-08"
     },
@@ -1842,11 +1762,9 @@ export default {
       "masked": "A line ____ is useful for showing trends.",
       "options": [
         "chart-mcq-08",
-        "chart-mcq-07",
-        "chart-mcq-09",
-        "chart-mcq-06",
-        "chart-mcq-10",
-        "chart-mcq-05"
+        "chart-mcq-33",
+        "chart-mcq-48",
+        "chart-mcq-15"
       ],
       "explanation": "本句的「chart」指「折線圖」。",
       "sentenceIndex": 20,
@@ -1855,12 +1773,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-08": "本句指「折線圖」。",
-        "chart-mcq-07": "「柱狀圖」與本句語境不同。",
-        "chart-mcq-09": "「圓形圖／餅圖」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。",
-        "chart-mcq-10": "「面積圖」與本句語境不同。",
-        "chart-mcq-05": "「比較表」與本句語境不同。"
+        "chart-mcq-08": "本句的「chart」指「折線圖」。",
+        "chart-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-08"
     },
@@ -1872,11 +1788,9 @@ export default {
       "masked": "The ____ shows the proportion of each return reason.",
       "options": [
         "chart-mcq-09",
-        "chart-mcq-08",
-        "chart-mcq-10",
-        "chart-mcq-07",
-        "chart-mcq-11",
-        "chart-mcq-06"
+        "chart-mcq-34",
+        "chart-mcq-04",
+        "chart-mcq-02"
       ],
       "explanation": "本句的「pie chart」指「圓形圖／餅圖」。",
       "sentenceIndex": 21,
@@ -1885,12 +1799,10 @@ export default {
         "pie chart"
       ],
       "optionReasons": {
-        "chart-mcq-09": "本句指「圓形圖／餅圖」。",
-        "chart-mcq-08": "「折線圖」與本句語境不同。",
-        "chart-mcq-10": "「面積圖」與本句語境不同。",
-        "chart-mcq-07": "「柱狀圖」與本句語境不同。",
-        "chart-mcq-11": "「散點圖」與本句語境不同。",
-        "chart-mcq-06": "「棒形圖／長條圖」與本句語境不同。"
+        "chart-mcq-09": "本句的「pie chart」指「圓形圖／餅圖」。",
+        "chart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-09"
     },
@@ -1902,11 +1814,9 @@ export default {
       "masked": "The dashboard includes an ____ showing cumulative sales.",
       "options": [
         "chart-mcq-10",
-        "chart-mcq-09",
-        "chart-mcq-11",
-        "chart-mcq-08",
-        "chart-mcq-12",
-        "chart-mcq-07"
+        "chart-mcq-49",
+        "chart-mcq-32",
+        "chart-mcq-42"
       ],
       "explanation": "本句的「area chart」指「面積圖」。",
       "sentenceIndex": 22,
@@ -1915,12 +1825,10 @@ export default {
         "area chart"
       ],
       "optionReasons": {
-        "chart-mcq-10": "本句指「面積圖」。",
-        "chart-mcq-09": "「圓形圖／餅圖」與本句語境不同。",
-        "chart-mcq-11": "「散點圖」與本句語境不同。",
-        "chart-mcq-08": "「折線圖」與本句語境不同。",
-        "chart-mcq-12": "「流程圖」與本句語境不同。",
-        "chart-mcq-07": "「柱狀圖」與本句語境不同。"
+        "chart-mcq-10": "本句的「area chart」指「面積圖」。",
+        "chart-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-10"
     },
@@ -1932,11 +1840,9 @@ export default {
       "masked": "Area ____ emphasize magnitude over time.",
       "options": [
         "chart-mcq-10",
-        "chart-mcq-09",
-        "chart-mcq-11",
-        "chart-mcq-08",
-        "chart-mcq-12",
-        "chart-mcq-07"
+        "chart-mcq-41",
+        "chart-mcq-42",
+        "chart-mcq-23"
       ],
       "explanation": "本句的「charts」指「面積圖」。",
       "sentenceIndex": 23,
@@ -1945,12 +1851,10 @@ export default {
         "charts"
       ],
       "optionReasons": {
-        "chart-mcq-10": "本句指「面積圖」。",
-        "chart-mcq-09": "「圓形圖／餅圖」與本句語境不同。",
-        "chart-mcq-11": "「散點圖」與本句語境不同。",
-        "chart-mcq-08": "「折線圖」與本句語境不同。",
-        "chart-mcq-12": "「流程圖」與本句語境不同。",
-        "chart-mcq-07": "「柱狀圖」與本句語境不同。"
+        "chart-mcq-10": "本句的「charts」指「面積圖」。",
+        "chart-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-10"
     },
@@ -1962,11 +1866,9 @@ export default {
       "masked": "The analyst used a ____ to compare price and return rate.",
       "options": [
         "chart-mcq-11",
-        "chart-mcq-10",
-        "chart-mcq-12",
-        "chart-mcq-09",
-        "chart-mcq-13",
-        "chart-mcq-08"
+        "chart-mcq-02",
+        "chart-mcq-04",
+        "chart-mcq-30"
       ],
       "explanation": "本句的「scatter chart」指「散點圖」。",
       "sentenceIndex": 24,
@@ -1975,12 +1877,10 @@ export default {
         "scatter chart"
       ],
       "optionReasons": {
-        "chart-mcq-11": "本句指「散點圖」。",
-        "chart-mcq-10": "「面積圖」與本句語境不同。",
-        "chart-mcq-12": "「流程圖」與本句語境不同。",
-        "chart-mcq-09": "「圓形圖／餅圖」與本句語境不同。",
-        "chart-mcq-13": "「組織架構圖」與本句語境不同。",
-        "chart-mcq-08": "「折線圖」與本句語境不同。"
+        "chart-mcq-11": "本句的「scatter chart」指「散點圖」。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-11"
     },
@@ -1992,11 +1892,9 @@ export default {
       "masked": "The ____ shows who reports to whom.",
       "options": [
         "chart-mcq-13",
-        "chart-mcq-12",
-        "chart-mcq-11",
-        "chart-mcq-15",
-        "chart-mcq-10",
-        "chart-mcq-16"
+        "chart-mcq-45",
+        "chart-mcq-37",
+        "chart-mcq-42"
       ],
       "explanation": "本句的「organisation chart」指「組織架構圖」。",
       "sentenceIndex": 26,
@@ -2005,12 +1903,10 @@ export default {
         "organisation chart"
       ],
       "optionReasons": {
-        "chart-mcq-13": "本句指「組織架構圖」。",
-        "chart-mcq-12": "「流程圖」與本句語境不同。",
-        "chart-mcq-11": "「散點圖」與本句語境不同。",
-        "chart-mcq-15": "「座位表」與本句語境不同。",
-        "chart-mcq-10": "「面積圖」與本句語境不同。",
-        "chart-mcq-16": "「進度表／圖」與本句語境不同。"
+        "chart-mcq-13": "本句的「organisation chart」指「組織架構圖」。",
+        "chart-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-13"
     },
@@ -2022,11 +1918,9 @@ export default {
       "masked": "The sales department appears near the top of the ____.",
       "options": [
         "chart-mcq-13",
-        "chart-mcq-12",
-        "chart-mcq-11",
-        "chart-mcq-15",
-        "chart-mcq-10",
-        "chart-mcq-16"
+        "chart-mcq-05",
+        "chart-mcq-32",
+        "chart-mcq-04"
       ],
       "explanation": "本句的「chart」指「組織架構圖」。",
       "sentenceIndex": 27,
@@ -2035,12 +1929,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-13": "本句指「組織架構圖」。",
-        "chart-mcq-12": "「流程圖」與本句語境不同。",
-        "chart-mcq-11": "「散點圖」與本句語境不同。",
-        "chart-mcq-15": "「座位表」與本句語境不同。",
-        "chart-mcq-10": "「面積圖」與本句語境不同。",
-        "chart-mcq-16": "「進度表／圖」與本句語境不同。"
+        "chart-mcq-13": "本句的「chart」指「組織架構圖」。",
+        "chart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-13"
     },
@@ -2052,11 +1944,9 @@ export default {
       "masked": "Check the ____ to find the department head.",
       "options": [
         "chart-mcq-14",
-        "chart-mcq-15",
-        "chart-mcq-12",
-        "chart-mcq-16",
-        "chart-mcq-11",
-        "chart-mcq-17"
+        "chart-mcq-33",
+        "chart-mcq-03",
+        "chart-mcq-45"
       ],
       "explanation": "本句的「org chart」指「組織架構圖」。",
       "sentenceIndex": 28,
@@ -2065,12 +1955,10 @@ export default {
         "org chart"
       ],
       "optionReasons": {
-        "chart-mcq-14": "本句指「組織架構圖」。",
-        "chart-mcq-15": "「座位表」與本句語境不同。",
-        "chart-mcq-12": "「流程圖」與本句語境不同。",
-        "chart-mcq-16": "「進度表／圖」與本句語境不同。",
-        "chart-mcq-11": "「散點圖」與本句語境不同。",
-        "chart-mcq-17": "「生長曲線圖」與本句語境不同。"
+        "chart-mcq-14": "本句的「org chart」指「組織架構圖」。",
+        "chart-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-14"
     },
@@ -2082,11 +1970,9 @@ export default {
       "masked": "Org ____” is common informal business shorthand.",
       "options": [
         "chart-mcq-14",
-        "chart-mcq-15",
-        "chart-mcq-12",
-        "chart-mcq-16",
-        "chart-mcq-11",
-        "chart-mcq-17"
+        "chart-mcq-03",
+        "chart-mcq-49",
+        "chart-mcq-50"
       ],
       "explanation": "本句的「chart」指「組織架構圖」。",
       "sentenceIndex": 29,
@@ -2095,12 +1981,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-14": "本句指「組織架構圖」。",
-        "chart-mcq-15": "「座位表」與本句語境不同。",
-        "chart-mcq-12": "「流程圖」與本句語境不同。",
-        "chart-mcq-16": "「進度表／圖」與本句語境不同。",
-        "chart-mcq-11": "「散點圖」與本句語境不同。",
-        "chart-mcq-17": "「生長曲線圖」與本句語境不同。"
+        "chart-mcq-14": "本句的「chart」指「組織架構圖」。",
+        "chart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-14"
     },
@@ -2112,11 +1996,9 @@ export default {
       "masked": "The event organiser prepared a ____.",
       "options": [
         "chart-mcq-15",
-        "chart-mcq-14",
-        "chart-mcq-16",
-        "chart-mcq-17",
-        "chart-mcq-12",
-        "chart-mcq-18"
+        "chart-mcq-27",
+        "chart-mcq-37",
+        "chart-mcq-43"
       ],
       "explanation": "本句的「seating chart」指「座位表」。",
       "sentenceIndex": 30,
@@ -2125,12 +2007,10 @@ export default {
         "seating chart"
       ],
       "optionReasons": {
-        "chart-mcq-15": "本句指「座位表」。",
-        "chart-mcq-14": "「組織架構圖」與本句語境不同。",
-        "chart-mcq-16": "「進度表／圖」與本句語境不同。",
-        "chart-mcq-17": "「生長曲線圖」與本句語境不同。",
-        "chart-mcq-12": "「流程圖」與本句語境不同。",
-        "chart-mcq-18": "「價格走勢圖」與本句語境不同。"
+        "chart-mcq-15": "本句的「seating chart」指「座位表」。",
+        "chart-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-15"
     },
@@ -2142,11 +2022,9 @@ export default {
       "masked": "Your table number appears on the seating ____.",
       "options": [
         "chart-mcq-15",
-        "chart-mcq-14",
-        "chart-mcq-16",
-        "chart-mcq-17",
-        "chart-mcq-12",
-        "chart-mcq-18"
+        "chart-mcq-50",
+        "chart-mcq-27",
+        "chart-mcq-05"
       ],
       "explanation": "本句的「chart」指「座位表」。",
       "sentenceIndex": 31,
@@ -2155,12 +2033,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-15": "本句指「座位表」。",
-        "chart-mcq-14": "「組織架構圖」與本句語境不同。",
-        "chart-mcq-16": "「進度表／圖」與本句語境不同。",
-        "chart-mcq-17": "「生長曲線圖」與本句語境不同。",
-        "chart-mcq-12": "「流程圖」與本句語境不同。",
-        "chart-mcq-18": "「價格走勢圖」與本句語境不同。"
+        "chart-mcq-15": "本句的「chart」指「座位表」。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-15"
     },
@@ -2172,11 +2048,9 @@ export default {
       "masked": "The manager updated the ____.",
       "options": [
         "chart-mcq-16",
-        "chart-mcq-15",
-        "chart-mcq-17",
-        "chart-mcq-14",
-        "chart-mcq-18",
-        "chart-mcq-19"
+        "chart-mcq-34",
+        "chart-mcq-23",
+        "chart-mcq-05"
       ],
       "explanation": "本句的「progress chart」指「進度表／圖」。",
       "sentenceIndex": 32,
@@ -2185,12 +2059,10 @@ export default {
         "progress chart"
       ],
       "optionReasons": {
-        "chart-mcq-16": "本句指「進度表／圖」。",
-        "chart-mcq-15": "「座位表」與本句語境不同。",
-        "chart-mcq-17": "「生長曲線圖」與本句語境不同。",
-        "chart-mcq-14": "「組織架構圖」與本句語境不同。",
-        "chart-mcq-18": "「價格走勢圖」與本句語境不同。",
-        "chart-mcq-19": "「股票走勢圖」與本句語境不同。"
+        "chart-mcq-16": "本句的「progress chart」指「進度表／圖」。",
+        "chart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-16"
     },
@@ -2202,11 +2074,9 @@ export default {
       "masked": "The ____ shows whether each task is on schedule.",
       "options": [
         "chart-mcq-16",
-        "chart-mcq-15",
-        "chart-mcq-17",
-        "chart-mcq-14",
-        "chart-mcq-18",
-        "chart-mcq-19"
+        "chart-mcq-32",
+        "chart-mcq-41",
+        "chart-mcq-37"
       ],
       "explanation": "本句的「chart」指「進度表／圖」。",
       "sentenceIndex": 33,
@@ -2215,12 +2085,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-16": "本句指「進度表／圖」。",
-        "chart-mcq-15": "「座位表」與本句語境不同。",
-        "chart-mcq-17": "「生長曲線圖」與本句語境不同。",
-        "chart-mcq-14": "「組織架構圖」與本句語境不同。",
-        "chart-mcq-18": "「價格走勢圖」與本句語境不同。",
-        "chart-mcq-19": "「股票走勢圖」與本句語境不同。"
+        "chart-mcq-16": "本句的「chart」指「進度表／圖」。",
+        "chart-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-16"
     },
@@ -2232,11 +2100,9 @@ export default {
       "masked": "The doctor plotted the child's height on a ____.",
       "options": [
         "chart-mcq-17",
-        "chart-mcq-16",
-        "chart-mcq-18",
-        "chart-mcq-15",
-        "chart-mcq-19",
-        "chart-mcq-14"
+        "chart-pdf-002",
+        "chart-mcq-47",
+        "chart-mcq-46"
       ],
       "explanation": "本句的「growth chart」指「生長曲線圖」。",
       "sentenceIndex": 34,
@@ -2245,12 +2111,10 @@ export default {
         "growth chart"
       ],
       "optionReasons": {
-        "chart-mcq-17": "本句指「生長曲線圖」。",
-        "chart-mcq-16": "「進度表／圖」與本句語境不同。",
-        "chart-mcq-18": "「價格走勢圖」與本句語境不同。",
-        "chart-mcq-15": "「座位表」與本句語境不同。",
-        "chart-mcq-19": "「股票走勢圖」與本句語境不同。",
-        "chart-mcq-14": "「組織架構圖」與本句語境不同。"
+        "chart-mcq-17": "本句的「growth chart」指「生長曲線圖」。",
+        "chart-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-17"
     },
@@ -2262,11 +2126,9 @@ export default {
       "masked": "Growth ____ compare measurements across age.",
       "options": [
         "chart-mcq-17",
-        "chart-mcq-16",
-        "chart-mcq-18",
-        "chart-mcq-15",
-        "chart-mcq-19",
-        "chart-mcq-14"
+        "chart-pdf-002",
+        "chart-mcq-02",
+        "chart-mcq-53"
       ],
       "explanation": "本句的「charts」指「生長曲線圖」。",
       "sentenceIndex": 35,
@@ -2275,12 +2137,10 @@ export default {
         "charts"
       ],
       "optionReasons": {
-        "chart-mcq-17": "本句指「生長曲線圖」。",
-        "chart-mcq-16": "「進度表／圖」與本句語境不同。",
-        "chart-mcq-18": "「價格走勢圖」與本句語境不同。",
-        "chart-mcq-15": "「座位表」與本句語境不同。",
-        "chart-mcq-19": "「股票走勢圖」與本句語境不同。",
-        "chart-mcq-14": "「組織架構圖」與本句語境不同。"
+        "chart-mcq-17": "本句的「charts」指「生長曲線圖」。",
+        "chart-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-17"
     },
@@ -2292,11 +2152,9 @@ export default {
       "masked": "The trader examined the ____.",
       "options": [
         "chart-mcq-18",
-        "chart-mcq-17",
-        "chart-mcq-19",
-        "chart-mcq-16",
-        "chart-mcq-20",
-        "chart-mcq-15"
+        "chart-mcq-03",
+        "chart-mcq-32",
+        "chart-mcq-45"
       ],
       "explanation": "本句的「price chart」指「價格走勢圖」。",
       "sentenceIndex": 36,
@@ -2305,12 +2163,10 @@ export default {
         "price chart"
       ],
       "optionReasons": {
-        "chart-mcq-18": "本句指「價格走勢圖」。",
-        "chart-mcq-17": "「生長曲線圖」與本句語境不同。",
-        "chart-mcq-19": "「股票走勢圖」與本句語境不同。",
-        "chart-mcq-16": "「進度表／圖」與本句語境不同。",
-        "chart-mcq-20": "「交易圖表」與本句語境不同。",
-        "chart-mcq-15": "「座位表」與本句語境不同。"
+        "chart-mcq-18": "本句的「price chart」指「價格走勢圖」。",
+        "chart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-18"
     },
@@ -2322,11 +2178,9 @@ export default {
       "masked": "The ____ shows daily price movements.",
       "options": [
         "chart-mcq-18",
-        "chart-mcq-17",
-        "chart-mcq-19",
-        "chart-mcq-16",
-        "chart-mcq-20",
-        "chart-mcq-15"
+        "chart-mcq-48",
+        "chart-mcq-33",
+        "chart-mcq-50"
       ],
       "explanation": "本句的「chart」指「價格走勢圖」。",
       "sentenceIndex": 37,
@@ -2335,12 +2189,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-18": "本句指「價格走勢圖」。",
-        "chart-mcq-17": "「生長曲線圖」與本句語境不同。",
-        "chart-mcq-19": "「股票走勢圖」與本句語境不同。",
-        "chart-mcq-16": "「進度表／圖」與本句語境不同。",
-        "chart-mcq-20": "「交易圖表」與本句語境不同。",
-        "chart-mcq-15": "「座位表」與本句語境不同。"
+        "chart-mcq-18": "本句的「chart」指「價格走勢圖」。",
+        "chart-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-18"
     },
@@ -2352,11 +2204,9 @@ export default {
       "masked": "The ____ shows a sharp fall.",
       "options": [
         "chart-mcq-19",
-        "chart-mcq-18",
-        "chart-mcq-20",
-        "chart-mcq-17",
-        "chart-mcq-21",
-        "chart-mcq-16"
+        "chart-mcq-30",
+        "chart-mcq-15",
+        "chart-pdf-002"
       ],
       "explanation": "本句的「stock chart」指「股票走勢圖」。",
       "sentenceIndex": 38,
@@ -2365,12 +2215,10 @@ export default {
         "stock chart"
       ],
       "optionReasons": {
-        "chart-mcq-19": "本句指「股票走勢圖」。",
-        "chart-mcq-18": "「價格走勢圖」與本句語境不同。",
-        "chart-mcq-20": "「交易圖表」與本句語境不同。",
-        "chart-mcq-17": "「生長曲線圖」與本句語境不同。",
-        "chart-mcq-21": "「K線圖」與本句語境不同。",
-        "chart-mcq-16": "「進度表／圖」與本句語境不同。"
+        "chart-mcq-19": "本句的「stock chart」指「股票走勢圖」。",
+        "chart-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "chart-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-19"
     },
@@ -2382,11 +2230,9 @@ export default {
       "masked": "Investors use ____ to study historical price movements.",
       "options": [
         "chart-mcq-19",
-        "chart-mcq-18",
-        "chart-mcq-20",
-        "chart-mcq-17",
-        "chart-mcq-21",
-        "chart-mcq-16"
+        "chart-mcq-30",
+        "chart-mcq-50",
+        "chart-mcq-46"
       ],
       "explanation": "本句的「charts」指「股票走勢圖」。",
       "sentenceIndex": 39,
@@ -2395,12 +2241,10 @@ export default {
         "charts"
       ],
       "optionReasons": {
-        "chart-mcq-19": "本句指「股票走勢圖」。",
-        "chart-mcq-18": "「價格走勢圖」與本句語境不同。",
-        "chart-mcq-20": "「交易圖表」與本句語境不同。",
-        "chart-mcq-17": "「生長曲線圖」與本句語境不同。",
-        "chart-mcq-21": "「K線圖」與本句語境不同。",
-        "chart-mcq-16": "「進度表／圖」與本句語境不同。"
+        "chart-mcq-19": "本句的「charts」指「股票走勢圖」。",
+        "chart-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-19"
     },
@@ -2412,11 +2256,9 @@ export default {
       "masked": "The platform displays live ____.",
       "options": [
         "chart-mcq-20",
-        "chart-mcq-19",
-        "chart-mcq-21",
-        "chart-mcq-18",
-        "chart-mcq-22",
-        "chart-mcq-17"
+        "chart-mcq-05",
+        "chart-mcq-37",
+        "chart-mcq-53"
       ],
       "explanation": "本句的「trading charts」指「交易圖表」。",
       "sentenceIndex": 40,
@@ -2425,12 +2267,10 @@ export default {
         "trading charts"
       ],
       "optionReasons": {
-        "chart-mcq-20": "本句指「交易圖表」。",
-        "chart-mcq-19": "「股票走勢圖」與本句語境不同。",
-        "chart-mcq-21": "「K線圖」與本句語境不同。",
-        "chart-mcq-18": "「價格走勢圖」與本句語境不同。",
-        "chart-mcq-22": "「病歷」與本句語境不同。",
-        "chart-mcq-17": "「生長曲線圖」與本句語境不同。"
+        "chart-mcq-20": "本句的「trading charts」指「交易圖表」。",
+        "chart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-20"
     },
@@ -2442,11 +2282,9 @@ export default {
       "masked": "Different time intervals can be selected on the ____.",
       "options": [
         "chart-mcq-20",
-        "chart-mcq-19",
-        "chart-mcq-21",
-        "chart-mcq-18",
-        "chart-mcq-22",
-        "chart-mcq-17"
+        "chart-mcq-41",
+        "chart-mcq-49",
+        "chart-mcq-45"
       ],
       "explanation": "本句的「chart」指「交易圖表」。",
       "sentenceIndex": 41,
@@ -2455,12 +2293,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-20": "本句指「交易圖表」。",
-        "chart-mcq-19": "「股票走勢圖」與本句語境不同。",
-        "chart-mcq-21": "「K線圖」與本句語境不同。",
-        "chart-mcq-18": "「價格走勢圖」與本句語境不同。",
-        "chart-mcq-22": "「病歷」與本句語境不同。",
-        "chart-mcq-17": "「生長曲線圖」與本句語境不同。"
+        "chart-mcq-20": "本句的「chart」指「交易圖表」。",
+        "chart-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-20"
     },
@@ -2472,11 +2308,9 @@ export default {
       "masked": "The analyst used a ____.",
       "options": [
         "chart-mcq-21",
-        "chart-mcq-20",
-        "chart-mcq-22",
-        "chart-mcq-19",
-        "chart-mcq-23",
-        "chart-mcq-18"
+        "chart-pdf-002",
+        "chart-mcq-37",
+        "chart-mcq-02"
       ],
       "explanation": "本句的「candlestick chart」指「K線圖」。",
       "sentenceIndex": 42,
@@ -2485,12 +2319,10 @@ export default {
         "candlestick chart"
       ],
       "optionReasons": {
-        "chart-mcq-21": "本句指「K線圖」。",
-        "chart-mcq-20": "「交易圖表」與本句語境不同。",
-        "chart-mcq-22": "「病歷」與本句語境不同。",
-        "chart-mcq-19": "「股票走勢圖」與本句語境不同。",
-        "chart-mcq-23": "「病人病歷」與本句語境不同。",
-        "chart-mcq-18": "「價格走勢圖」與本句語境不同。"
+        "chart-mcq-21": "本句的「candlestick chart」指「K線圖」。",
+        "chart-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-21"
     },
@@ -2502,11 +2334,9 @@ export default {
       "masked": "The doctor reviewed the patient's ____.",
       "options": [
         "chart-mcq-22",
-        "chart-mcq-21",
-        "chart-mcq-23",
-        "chart-mcq-20",
-        "chart-mcq-24",
-        "chart-mcq-19"
+        "chart-pdf-002",
+        "chart-mcq-08",
+        "chart-mcq-47"
       ],
       "explanation": "本句的「chart」指「病歷」。",
       "sentenceIndex": 43,
@@ -2515,12 +2345,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-22": "本句指「病歷」。",
-        "chart-mcq-21": "「K線圖」與本句語境不同。",
-        "chart-mcq-23": "「病人病歷」與本句語境不同。",
-        "chart-mcq-20": "「交易圖表」與本句語境不同。",
-        "chart-mcq-24": "「牙科紀錄圖」與本句語境不同。",
-        "chart-mcq-19": "「股票走勢圖」與本句語境不同。"
+        "chart-mcq-22": "本句的「chart」指「病歷」。",
+        "chart-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-22"
     },
@@ -2532,11 +2360,9 @@ export default {
       "masked": "Medication changes were recorded in the ____.",
       "options": [
         "chart-mcq-22",
-        "chart-mcq-21",
-        "chart-mcq-23",
-        "chart-mcq-20",
-        "chart-mcq-24",
-        "chart-mcq-19"
+        "chart-mcq-48",
+        "chart-mcq-19",
+        "chart-mcq-35"
       ],
       "explanation": "本句的「chart」指「病歷」。",
       "sentenceIndex": 44,
@@ -2545,12 +2371,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-22": "本句指「病歷」。",
-        "chart-mcq-21": "「K線圖」與本句語境不同。",
-        "chart-mcq-23": "「病人病歷」與本句語境不同。",
-        "chart-mcq-20": "「交易圖表」與本句語境不同。",
-        "chart-mcq-24": "「牙科紀錄圖」與本句語境不同。",
-        "chart-mcq-19": "「股票走勢圖」與本句語境不同。"
+        "chart-mcq-22": "本句的「chart」指「病歷」。",
+        "chart-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-22"
     },
@@ -2562,11 +2386,9 @@ export default {
       "masked": "The nurse added a note to the ____.",
       "options": [
         "chart-mcq-23",
-        "chart-mcq-22",
-        "chart-mcq-24",
-        "chart-mcq-21",
-        "chart-mcq-25",
-        "chart-mcq-20"
+        "chart-mcq-27",
+        "chart-mcq-46",
+        "chart-mcq-30"
       ],
       "explanation": "本句的「chart」指「病人病歷」。",
       "sentenceIndex": 45,
@@ -2575,12 +2397,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-23": "本句指「病人病歷」。",
-        "chart-mcq-22": "「病歷」與本句語境不同。",
-        "chart-mcq-24": "「牙科紀錄圖」與本句語境不同。",
-        "chart-mcq-21": "「K線圖」與本句語境不同。",
-        "chart-mcq-25": "「海圖」與本句語境不同。",
-        "chart-mcq-20": "「交易圖表」與本句語境不同。"
+        "chart-mcq-23": "本句的「chart」指「病人病歷」。",
+        "chart-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-23"
     },
@@ -2592,11 +2412,9 @@ export default {
       "masked": "____ notes document the patient's care.",
       "options": [
         "chart-mcq-23",
-        "chart-mcq-22",
-        "chart-mcq-24",
-        "chart-mcq-21",
-        "chart-mcq-25",
-        "chart-mcq-20"
+        "chart-mcq-29",
+        "chart-mcq-53",
+        "chart-mcq-48"
       ],
       "explanation": "本句的「Chart」指「病人病歷」。",
       "sentenceIndex": 46,
@@ -2605,12 +2423,10 @@ export default {
         "Chart"
       ],
       "optionReasons": {
-        "chart-mcq-23": "本句指「病人病歷」。",
-        "chart-mcq-22": "「病歷」與本句語境不同。",
-        "chart-mcq-24": "「牙科紀錄圖」與本句語境不同。",
-        "chart-mcq-21": "「K線圖」與本句語境不同。",
-        "chart-mcq-25": "「海圖」與本句語境不同。",
-        "chart-mcq-20": "「交易圖表」與本句語境不同。"
+        "chart-mcq-23": "本句的「Chart」指「病人病歷」。",
+        "chart-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-23"
     },
@@ -2622,11 +2438,9 @@ export default {
       "masked": "The dentist updated the patient's ____.",
       "options": [
         "chart-mcq-24",
-        "chart-mcq-23",
-        "chart-mcq-25",
-        "chart-mcq-22",
-        "chart-mcq-21",
-        "chart-mcq-27"
+        "chart-pdf-003",
+        "chart-mcq-50",
+        "chart-mcq-35"
       ],
       "explanation": "本句的「dental chart」指「牙科紀錄圖」。",
       "sentenceIndex": 47,
@@ -2635,12 +2449,10 @@ export default {
         "dental chart"
       ],
       "optionReasons": {
-        "chart-mcq-24": "本句指「牙科紀錄圖」。",
-        "chart-mcq-23": "「病人病歷」與本句語境不同。",
-        "chart-mcq-25": "「海圖」與本句語境不同。",
-        "chart-mcq-22": "「病歷」與本句語境不同。",
-        "chart-mcq-21": "「K線圖」與本句語境不同。",
-        "chart-mcq-27": "「航空圖」與本句語境不同。"
+        "chart-mcq-24": "本句的「dental chart」指「牙科紀錄圖」。",
+        "chart-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-24"
     },
@@ -2652,11 +2464,9 @@ export default {
       "masked": "The ____ records the condition of individual teeth.",
       "options": [
         "chart-mcq-24",
-        "chart-mcq-23",
-        "chart-mcq-25",
-        "chart-mcq-22",
-        "chart-mcq-21",
-        "chart-mcq-27"
+        "chart-mcq-30",
+        "chart-mcq-03",
+        "chart-mcq-45"
       ],
       "explanation": "本句的「chart」指「牙科紀錄圖」。",
       "sentenceIndex": 48,
@@ -2665,12 +2475,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-24": "本句指「牙科紀錄圖」。",
-        "chart-mcq-23": "「病人病歷」與本句語境不同。",
-        "chart-mcq-25": "「海圖」與本句語境不同。",
-        "chart-mcq-22": "「病歷」與本句語境不同。",
-        "chart-mcq-21": "「K線圖」與本句語境不同。",
-        "chart-mcq-27": "「航空圖」與本句語境不同。"
+        "chart-mcq-24": "本句的「chart」指「牙科紀錄圖」。",
+        "chart-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-24"
     },
@@ -2682,11 +2490,9 @@ export default {
       "masked": "The captain checked the ____.",
       "options": [
         "chart-mcq-25",
-        "chart-mcq-24",
-        "chart-mcq-23",
-        "chart-mcq-27",
-        "chart-mcq-22",
-        "chart-mcq-28"
+        "chart-mcq-32",
+        "chart-mcq-53",
+        "chart-mcq-03"
       ],
       "explanation": "本句的「nautical chart」指「海圖」。",
       "sentenceIndex": 49,
@@ -2695,12 +2501,10 @@ export default {
         "nautical chart"
       ],
       "optionReasons": {
-        "chart-mcq-25": "本句指「海圖」。",
-        "chart-mcq-24": "「牙科紀錄圖」與本句語境不同。",
-        "chart-mcq-23": "「病人病歷」與本句語境不同。",
-        "chart-mcq-27": "「航空圖」與本句語境不同。",
-        "chart-mcq-22": "「病歷」與本句語境不同。",
-        "chart-mcq-28": "「氣象圖」與本句語境不同。"
+        "chart-mcq-25": "本句的「nautical chart」指「海圖」。",
+        "chart-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-25"
     },
@@ -2712,11 +2516,9 @@ export default {
       "masked": "Nautical ____ show coastlines, depths and navigational hazards.",
       "options": [
         "chart-mcq-25",
-        "chart-mcq-24",
-        "chart-mcq-23",
-        "chart-mcq-27",
-        "chart-mcq-22",
-        "chart-mcq-28"
+        "chart-mcq-30",
+        "chart-mcq-50",
+        "chart-mcq-05"
       ],
       "explanation": "本句的「charts」指「海圖」。",
       "sentenceIndex": 50,
@@ -2725,12 +2527,10 @@ export default {
         "charts"
       ],
       "optionReasons": {
-        "chart-mcq-25": "本句指「海圖」。",
-        "chart-mcq-24": "「牙科紀錄圖」與本句語境不同。",
-        "chart-mcq-23": "「病人病歷」與本句語境不同。",
-        "chart-mcq-27": "「航空圖」與本句語境不同。",
-        "chart-mcq-22": "「病歷」與本句語境不同。",
-        "chart-mcq-28": "「氣象圖」與本句語境不同。"
+        "chart-mcq-25": "本句的「charts」指「海圖」。",
+        "chart-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-25"
     },
@@ -2742,11 +2542,9 @@ export default {
       "masked": "Older sailors relied on detailed ____.",
       "options": [
         "chart-mcq-26",
-        "chart-mcq-27",
-        "chart-mcq-24",
-        "chart-mcq-28",
-        "chart-mcq-23",
-        "chart-mcq-29"
+        "chart-mcq-34",
+        "chart-mcq-45",
+        "chart-mcq-02"
       ],
       "explanation": "本句的「sea charts」指「海圖」。",
       "sentenceIndex": 51,
@@ -2755,12 +2553,10 @@ export default {
         "sea charts"
       ],
       "optionReasons": {
-        "chart-mcq-26": "本句指「海圖」。",
-        "chart-mcq-27": "「航空圖」與本句語境不同。",
-        "chart-mcq-24": "「牙科紀錄圖」與本句語境不同。",
-        "chart-mcq-28": "「氣象圖」與本句語境不同。",
-        "chart-mcq-23": "「病人病歷」與本句語境不同。",
-        "chart-mcq-29": "「星圖」與本句語境不同。"
+        "chart-mcq-26": "本句的「sea charts」指「海圖」。",
+        "chart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-26"
     },
@@ -2772,11 +2568,9 @@ export default {
       "masked": "Nautical ____” is the more technical term.",
       "options": [
         "chart-mcq-26",
-        "chart-mcq-27",
-        "chart-mcq-24",
-        "chart-mcq-28",
-        "chart-mcq-23",
-        "chart-mcq-29"
+        "chart-mcq-40",
+        "chart-mcq-33",
+        "chart-mcq-15"
       ],
       "explanation": "本句的「chart」指「海圖」。",
       "sentenceIndex": 52,
@@ -2785,12 +2579,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-26": "本句指「海圖」。",
-        "chart-mcq-27": "「航空圖」與本句語境不同。",
-        "chart-mcq-24": "「牙科紀錄圖」與本句語境不同。",
-        "chart-mcq-28": "「氣象圖」與本句語境不同。",
-        "chart-mcq-23": "「病人病歷」與本句語境不同。",
-        "chart-mcq-29": "「星圖」與本句語境不同。"
+        "chart-mcq-26": "本句的「chart」指「海圖」。",
+        "chart-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-26"
     },
@@ -2802,10 +2594,8 @@ export default {
       "masked": "Pilots use ____.",
       "options": [
         "chart-mcq-27",
-        "chart-mcq-26",
-        "chart-mcq-28",
-        "chart-mcq-29",
-        "chart-mcq-24",
+        "chart-mcq-02",
+        "chart-mcq-43",
         "chart-mcq-30"
       ],
       "explanation": "本句的「aeronautical charts」指「航空圖」。",
@@ -2815,12 +2605,10 @@ export default {
         "aeronautical charts"
       ],
       "optionReasons": {
-        "chart-mcq-27": "本句指「航空圖」。",
-        "chart-mcq-26": "「海圖」與本句語境不同。",
-        "chart-mcq-28": "「氣象圖」與本句語境不同。",
-        "chart-mcq-29": "「星圖」與本句語境不同。",
-        "chart-mcq-24": "「牙科紀錄圖」與本句語境不同。",
-        "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。"
+        "chart-mcq-27": "本句的「aeronautical charts」指「航空圖」。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-27"
     },
@@ -2832,11 +2620,9 @@ export default {
       "masked": "The ____ shows airspace and navigation information.",
       "options": [
         "chart-mcq-27",
-        "chart-mcq-26",
-        "chart-mcq-28",
-        "chart-mcq-29",
-        "chart-mcq-24",
-        "chart-mcq-30"
+        "chart-mcq-35",
+        "chart-pdf-003",
+        "chart-mcq-23"
       ],
       "explanation": "本句的「chart」指「航空圖」。",
       "sentenceIndex": 54,
@@ -2845,12 +2631,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-27": "本句指「航空圖」。",
-        "chart-mcq-26": "「海圖」與本句語境不同。",
-        "chart-mcq-28": "「氣象圖」與本句語境不同。",
-        "chart-mcq-29": "「星圖」與本句語境不同。",
-        "chart-mcq-24": "「牙科紀錄圖」與本句語境不同。",
-        "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。"
+        "chart-mcq-27": "本句的「chart」指「航空圖」。",
+        "chart-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "chart-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-27"
     },
@@ -2862,11 +2646,9 @@ export default {
       "masked": "The ____ shows a low-pressure system.",
       "options": [
         "chart-mcq-28",
-        "chart-mcq-27",
-        "chart-mcq-29",
-        "chart-mcq-26",
-        "chart-mcq-30",
-        "chart-mcq-31"
+        "chart-mcq-40",
+        "chart-mcq-05",
+        "chart-mcq-32"
       ],
       "explanation": "本句的「weather chart」指「氣象圖」。",
       "sentenceIndex": 55,
@@ -2875,12 +2657,10 @@ export default {
         "weather chart"
       ],
       "optionReasons": {
-        "chart-mcq-28": "本句指「氣象圖」。",
-        "chart-mcq-27": "「航空圖」與本句語境不同。",
-        "chart-mcq-29": "「星圖」與本句語境不同。",
-        "chart-mcq-26": "「海圖」與本句語境不同。",
-        "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。",
-        "chart-mcq-31": "「音樂排行榜」與本句語境不同。"
+        "chart-mcq-28": "本句的「weather chart」指「氣象圖」。",
+        "chart-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-28"
     },
@@ -2892,11 +2672,9 @@ export default {
       "masked": "Meteorologists analyse weather ____.",
       "options": [
         "chart-mcq-28",
-        "chart-mcq-27",
-        "chart-mcq-29",
-        "chart-mcq-26",
-        "chart-mcq-30",
-        "chart-mcq-31"
+        "chart-mcq-53",
+        "chart-mcq-43",
+        "chart-mcq-40"
       ],
       "explanation": "本句的「charts」指「氣象圖」。",
       "sentenceIndex": 56,
@@ -2905,12 +2683,10 @@ export default {
         "charts"
       ],
       "optionReasons": {
-        "chart-mcq-28": "本句指「氣象圖」。",
-        "chart-mcq-27": "「航空圖」與本句語境不同。",
-        "chart-mcq-29": "「星圖」與本句語境不同。",
-        "chart-mcq-26": "「海圖」與本句語境不同。",
-        "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。",
-        "chart-mcq-31": "「音樂排行榜」與本句語境不同。"
+        "chart-mcq-28": "本句的「charts」指「氣象圖」。",
+        "chart-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-28"
     },
@@ -2922,11 +2698,9 @@ export default {
       "masked": "Use a ____ to identify constellations.",
       "options": [
         "chart-mcq-29",
-        "chart-mcq-28",
-        "chart-mcq-30",
-        "chart-mcq-27",
-        "chart-mcq-31",
-        "chart-mcq-26"
+        "chart-mcq-48",
+        "chart-mcq-33",
+        "chart-mcq-02"
       ],
       "explanation": "本句的「star chart」指「星圖」。",
       "sentenceIndex": 57,
@@ -2935,12 +2709,10 @@ export default {
         "star chart"
       ],
       "optionReasons": {
-        "chart-mcq-29": "本句指「星圖」。",
-        "chart-mcq-28": "「氣象圖」與本句語境不同。",
-        "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。",
-        "chart-mcq-27": "「航空圖」與本句語境不同。",
-        "chart-mcq-31": "「音樂排行榜」與本句語境不同。",
-        "chart-mcq-26": "「海圖」與本句語境不同。"
+        "chart-mcq-29": "本句的「star chart」指「星圖」。",
+        "chart-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-29"
     },
@@ -2952,11 +2724,9 @@ export default {
       "masked": "The ____ shows the positions of visible stars.",
       "options": [
         "chart-mcq-29",
-        "chart-mcq-28",
-        "chart-mcq-30",
-        "chart-mcq-27",
-        "chart-mcq-31",
-        "chart-mcq-26"
+        "chart-mcq-40",
+        "chart-mcq-53",
+        "chart-mcq-05"
       ],
       "explanation": "本句的「chart」指「星圖」。",
       "sentenceIndex": 58,
@@ -2965,12 +2735,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-29": "本句指「星圖」。",
-        "chart-mcq-28": "「氣象圖」與本句語境不同。",
-        "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。",
-        "chart-mcq-27": "「航空圖」與本句語境不同。",
-        "chart-mcq-31": "「音樂排行榜」與本句語境不同。",
-        "chart-mcq-26": "「海圖」與本句語境不同。"
+        "chart-mcq-29": "本句的「chart」指「星圖」。",
+        "chart-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-29"
     },
@@ -2982,11 +2750,9 @@ export default {
       "masked": "The museum displayed an old astronomical ____.",
       "options": [
         "chart-mcq-29",
-        "chart-mcq-28",
-        "chart-mcq-30",
-        "chart-mcq-27",
-        "chart-mcq-31",
-        "chart-mcq-26"
+        "chart-mcq-45",
+        "chart-pdf-003",
+        "chart-mcq-50"
       ],
       "explanation": "本句的「chart」指「星圖」。",
       "sentenceIndex": 59,
@@ -2995,12 +2761,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-29": "本句指「星圖」。",
-        "chart-mcq-28": "「氣象圖」與本句語境不同。",
-        "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。",
-        "chart-mcq-27": "「航空圖」與本句語境不同。",
-        "chart-mcq-31": "「音樂排行榜」與本句語境不同。",
-        "chart-mcq-26": "「海圖」與本句語境不同。"
+        "chart-mcq-29": "本句的「chart」指「星圖」。",
+        "chart-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "chart-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-29"
     },
@@ -3012,11 +2776,9 @@ export default {
       "masked": "____ were historically important for navigation and astronomy.",
       "options": [
         "chart-mcq-29",
-        "chart-mcq-28",
-        "chart-mcq-30",
-        "chart-mcq-27",
-        "chart-mcq-31",
-        "chart-mcq-26"
+        "chart-mcq-23",
+        "chart-mcq-47",
+        "chart-mcq-03"
       ],
       "explanation": "本句的「Charts」指「星圖」。",
       "sentenceIndex": 60,
@@ -3025,12 +2787,10 @@ export default {
         "Charts"
       ],
       "optionReasons": {
-        "chart-mcq-29": "本句指「星圖」。",
-        "chart-mcq-28": "「氣象圖」與本句語境不同。",
-        "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。",
-        "chart-mcq-27": "「航空圖」與本句語境不同。",
-        "chart-mcq-31": "「音樂排行榜」與本句語境不同。",
-        "chart-mcq-26": "「海圖」與本句語境不同。"
+        "chart-mcq-29": "本句的「Charts」指「星圖」。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-29"
     },
@@ -3042,11 +2802,9 @@ export default {
       "masked": "The astrologer prepared a ____.",
       "options": [
         "chart-mcq-30",
-        "chart-mcq-29",
-        "chart-mcq-31",
-        "chart-mcq-28",
-        "chart-mcq-32",
-        "chart-mcq-27"
+        "chart-mcq-06",
+        "chart-mcq-40",
+        "chart-mcq-05"
       ],
       "explanation": "本句的「birth chart」指「出生星盤／命盤」。",
       "sentenceIndex": 61,
@@ -3055,12 +2813,10 @@ export default {
         "birth chart"
       ],
       "optionReasons": {
-        "chart-mcq-30": "本句指「出生星盤／命盤」。",
-        "chart-mcq-29": "「星圖」與本句語境不同。",
-        "chart-mcq-31": "「音樂排行榜」與本句語境不同。",
-        "chart-mcq-28": "「氣象圖」與本句語境不同。",
-        "chart-mcq-32": "「單曲榜」與本句語境不同。",
-        "chart-mcq-27": "「航空圖」與本句語境不同。"
+        "chart-mcq-30": "本句的「birth chart」指「出生星盤／命盤」。",
+        "chart-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-30"
     },
@@ -3072,11 +2828,9 @@ export default {
       "masked": "A natal ____ represents claimed planetary positions at the time of birth within astrology.",
       "options": [
         "chart-mcq-30",
-        "chart-mcq-29",
-        "chart-mcq-31",
-        "chart-mcq-28",
-        "chart-mcq-32",
-        "chart-mcq-27"
+        "chart-mcq-25",
+        "chart-mcq-34",
+        "chart-mcq-40"
       ],
       "explanation": "本句的「chart」指「出生星盤／命盤」。",
       "sentenceIndex": 62,
@@ -3085,12 +2839,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-30": "本句指「出生星盤／命盤」。",
-        "chart-mcq-29": "「星圖」與本句語境不同。",
-        "chart-mcq-31": "「音樂排行榜」與本句語境不同。",
-        "chart-mcq-28": "「氣象圖」與本句語境不同。",
-        "chart-mcq-32": "「單曲榜」與本句語境不同。",
-        "chart-mcq-27": "「航空圖」與本句語境不同。"
+        "chart-mcq-30": "本句的「chart」指「出生星盤／命盤」。",
+        "chart-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-30"
     },
@@ -3102,11 +2854,9 @@ export default {
       "masked": "The song reached number one in the ____.",
       "options": [
         "chart-pdf-002",
-        "chart-mcq-30",
-        "chart-mcq-32",
-        "chart-mcq-29",
-        "chart-mcq-33",
-        "chart-mcq-28"
+        "chart-mcq-47",
+        "chart-mcq-41",
+        "chart-mcq-21"
       ],
       "explanation": "本句的「charts」指「按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜」。",
       "sentenceIndex": 63,
@@ -3115,12 +2865,10 @@ export default {
         "charts"
       ],
       "optionReasons": {
-        "chart-pdf-002": "本句指「按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜」。",
-        "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。",
-        "chart-mcq-32": "「單曲榜」與本句語境不同。",
-        "chart-mcq-29": "「星圖」與本句語境不同。",
-        "chart-mcq-33": "「專輯榜」與本句語境不同。",
-        "chart-mcq-28": "「氣象圖」與本句語境不同。"
+        "chart-pdf-002": "本句的「charts」指「按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜」。",
+        "chart-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-pdf-002"
     },
@@ -3132,11 +2880,9 @@ export default {
       "masked": "The album stayed in the ____ for several weeks.",
       "options": [
         "chart-pdf-002",
-        "chart-mcq-30",
-        "chart-mcq-32",
-        "chart-mcq-29",
-        "chart-mcq-33",
-        "chart-mcq-28"
+        "chart-mcq-11",
+        "chart-mcq-50",
+        "chart-mcq-02"
       ],
       "explanation": "本句的「charts」指「按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜」。",
       "sentenceIndex": 64,
@@ -3145,12 +2891,10 @@ export default {
         "charts"
       ],
       "optionReasons": {
-        "chart-pdf-002": "本句指「按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜」。",
-        "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。",
-        "chart-mcq-32": "「單曲榜」與本句語境不同。",
-        "chart-mcq-29": "「星圖」與本句語境不同。",
-        "chart-mcq-33": "「專輯榜」與本句語境不同。",
-        "chart-mcq-28": "「氣象圖」與本句語境不同。"
+        "chart-pdf-002": "本句的「charts」指「按銷售、播放、串流等指標排列音樂作品受歡迎程度的排行榜」。",
+        "chart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-pdf-002"
     },
@@ -3162,11 +2906,9 @@ export default {
       "masked": "The song entered the ____ at number five.",
       "options": [
         "chart-mcq-32",
-        "chart-mcq-31",
-        "chart-mcq-33",
-        "chart-mcq-30",
-        "chart-mcq-34",
-        "chart-mcq-29"
+        "chart-mcq-07",
+        "chart-mcq-02",
+        "chart-mcq-40"
       ],
       "explanation": "本句的「singles chart」指「單曲榜」。",
       "sentenceIndex": 65,
@@ -3175,12 +2917,10 @@ export default {
         "singles chart"
       ],
       "optionReasons": {
-        "chart-mcq-32": "本句指「單曲榜」。",
-        "chart-mcq-31": "「音樂排行榜」與本句語境不同。",
-        "chart-mcq-33": "「專輯榜」與本句語境不同。",
-        "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。",
-        "chart-mcq-34": "「登上排行榜首位」與本句語境不同。",
-        "chart-mcq-29": "「星圖」與本句語境不同。"
+        "chart-mcq-32": "本句的「singles chart」指「單曲榜」。",
+        "chart-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-32"
     },
@@ -3192,11 +2932,9 @@ export default {
       "masked": "It later topped the ____.",
       "options": [
         "chart-mcq-32",
-        "chart-mcq-31",
-        "chart-mcq-33",
+        "chart-mcq-52",
         "chart-mcq-30",
-        "chart-mcq-34",
-        "chart-mcq-29"
+        "chart-mcq-23"
       ],
       "explanation": "本句的「chart」指「單曲榜」。",
       "sentenceIndex": 66,
@@ -3205,12 +2943,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-32": "本句指「單曲榜」。",
-        "chart-mcq-31": "「音樂排行榜」與本句語境不同。",
-        "chart-mcq-33": "「專輯榜」與本句語境不同。",
-        "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。",
-        "chart-mcq-34": "「登上排行榜首位」與本句語境不同。",
-        "chart-mcq-29": "「星圖」與本句語境不同。"
+        "chart-mcq-32": "本句的「chart」指「單曲榜」。",
+        "chart-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-32"
     },
@@ -3222,11 +2958,9 @@ export default {
       "masked": "The album topped the ____.",
       "options": [
         "chart-mcq-33",
-        "chart-mcq-32",
-        "chart-mcq-34",
-        "chart-mcq-31",
-        "chart-mcq-35",
-        "chart-mcq-30"
+        "chart-mcq-47",
+        "chart-mcq-08",
+        "chart-mcq-46"
       ],
       "explanation": "本句的「album chart」指「專輯榜」。",
       "sentenceIndex": 67,
@@ -3235,12 +2969,10 @@ export default {
         "album chart"
       ],
       "optionReasons": {
-        "chart-mcq-33": "本句指「專輯榜」。",
-        "chart-mcq-32": "「單曲榜」與本句語境不同。",
-        "chart-mcq-34": "「登上排行榜首位」與本句語境不同。",
-        "chart-mcq-31": "「音樂排行榜」與本句語境不同。",
-        "chart-mcq-35": "「榜首的」與本句語境不同。",
-        "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。"
+        "chart-mcq-33": "本句的「album chart」指「專輯榜」。",
+        "chart-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-33"
     },
@@ -3252,11 +2984,9 @@ export default {
       "masked": "____ methodology varies between ranking systems.",
       "options": [
         "chart-mcq-33",
-        "chart-mcq-32",
-        "chart-mcq-34",
-        "chart-mcq-31",
-        "chart-mcq-35",
-        "chart-mcq-30"
+        "chart-mcq-50",
+        "chart-mcq-29",
+        "chart-mcq-41"
       ],
       "explanation": "本句的「Chart」指「專輯榜」。",
       "sentenceIndex": 68,
@@ -3265,12 +2995,10 @@ export default {
         "Chart"
       ],
       "optionReasons": {
-        "chart-mcq-33": "本句指「專輯榜」。",
-        "chart-mcq-32": "「單曲榜」與本句語境不同。",
-        "chart-mcq-34": "「登上排行榜首位」與本句語境不同。",
-        "chart-mcq-31": "「音樂排行榜」與本句語境不同。",
-        "chart-mcq-35": "「榜首的」與本句語境不同。",
-        "chart-mcq-30": "「出生星盤／命盤」與本句語境不同。"
+        "chart-mcq-33": "本句的「Chart」指「專輯榜」。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-33"
     },
@@ -3282,11 +3010,9 @@ export default {
       "masked": "The single ____.",
       "options": [
         "chart-mcq-34",
-        "chart-mcq-33",
-        "chart-mcq-35",
-        "chart-mcq-32",
-        "chart-mcq-36",
-        "chart-mcq-31"
+        "chart-pdf-001",
+        "chart-mcq-45",
+        "chart-mcq-22"
       ],
       "explanation": "本句的「topped the charts」指「登上排行榜首位」。",
       "sentenceIndex": 69,
@@ -3295,12 +3021,10 @@ export default {
         "topped the charts"
       ],
       "optionReasons": {
-        "chart-mcq-34": "本句指「登上排行榜首位」。",
-        "chart-mcq-33": "「專輯榜」與本句語境不同。",
-        "chart-mcq-35": "「榜首的」與本句語境不同。",
-        "chart-mcq-32": "「單曲榜」與本句語境不同。",
-        "chart-mcq-36": "「樂譜／編曲譜」與本句語境不同。",
-        "chart-mcq-31": "「音樂排行榜」與本句語境不同。"
+        "chart-mcq-34": "本句的「topped the charts」指「登上排行榜首位」。",
+        "chart-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-34"
     },
@@ -3312,11 +3036,9 @@ export default {
       "masked": "She had several ____ songs.",
       "options": [
         "chart-mcq-34",
-        "chart-mcq-33",
-        "chart-mcq-35",
-        "chart-mcq-32",
-        "chart-mcq-36",
-        "chart-mcq-31"
+        "chart-mcq-09",
+        "chart-mcq-42",
+        "chart-mcq-50"
       ],
       "explanation": "本句的「chart-topping」指「登上排行榜首位」。",
       "sentenceIndex": 70,
@@ -3325,12 +3047,10 @@ export default {
         "chart-topping"
       ],
       "optionReasons": {
-        "chart-mcq-34": "本句指「登上排行榜首位」。",
-        "chart-mcq-33": "「專輯榜」與本句語境不同。",
-        "chart-mcq-35": "「榜首的」與本句語境不同。",
-        "chart-mcq-32": "「單曲榜」與本句語境不同。",
-        "chart-mcq-36": "「樂譜／編曲譜」與本句語境不同。",
-        "chart-mcq-31": "「音樂排行榜」與本句語境不同。"
+        "chart-mcq-34": "本句的「chart-topping」指「登上排行榜首位」。",
+        "chart-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-34"
     },
@@ -3342,11 +3062,9 @@ export default {
       "masked": "He released a ____.",
       "options": [
         "chart-mcq-35",
-        "chart-mcq-34",
-        "chart-mcq-36",
-        "chart-mcq-33",
-        "chart-mcq-37",
-        "chart-mcq-32"
+        "chart-pdf-003",
+        "chart-pdf-001",
+        "chart-mcq-17"
       ],
       "explanation": "本句的「chart-topping album」指「榜首的」。",
       "sentenceIndex": 71,
@@ -3355,12 +3073,10 @@ export default {
         "chart-topping album"
       ],
       "optionReasons": {
-        "chart-mcq-35": "本句指「榜首的」。",
-        "chart-mcq-34": "「登上排行榜首位」與本句語境不同。",
-        "chart-mcq-36": "「樂譜／編曲譜」與本句語境不同。",
-        "chart-mcq-33": "「專輯榜」與本句語境不同。",
-        "chart-mcq-37": "「和弦譜」與本句語境不同。",
-        "chart-mcq-32": "「單曲榜」與本句語境不同。"
+        "chart-mcq-35": "本句的「chart-topping album」指「榜首的」。",
+        "chart-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "chart-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-35"
     },
@@ -3372,11 +3088,9 @@ export default {
       "masked": "The singer became a ____ artist.",
       "options": [
         "chart-mcq-35",
-        "chart-mcq-34",
-        "chart-mcq-36",
-        "chart-mcq-33",
-        "chart-mcq-37",
-        "chart-mcq-32"
+        "chart-mcq-04",
+        "chart-mcq-26",
+        "chart-mcq-50"
       ],
       "explanation": "本句的「chart-topping」指「榜首的」。",
       "sentenceIndex": 72,
@@ -3385,12 +3099,10 @@ export default {
         "chart-topping"
       ],
       "optionReasons": {
-        "chart-mcq-35": "本句指「榜首的」。",
-        "chart-mcq-34": "「登上排行榜首位」與本句語境不同。",
-        "chart-mcq-36": "「樂譜／編曲譜」與本句語境不同。",
-        "chart-mcq-33": "「專輯榜」與本句語境不同。",
-        "chart-mcq-37": "「和弦譜」與本句語境不同。",
-        "chart-mcq-32": "「單曲榜」與本句語境不同。"
+        "chart-mcq-35": "本句的「chart-topping」指「榜首的」。",
+        "chart-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-35"
     },
@@ -3402,11 +3114,9 @@ export default {
       "masked": "The song ____ at number ten.",
       "options": [
         "chart-mcq-35",
-        "chart-mcq-34",
-        "chart-mcq-36",
-        "chart-mcq-33",
-        "chart-mcq-37",
-        "chart-mcq-32"
+        "chart-mcq-07",
+        "chart-mcq-48",
+        "chart-mcq-37"
       ],
       "explanation": "本句的「entered the charts」指「榜首的」。",
       "sentenceIndex": 73,
@@ -3415,12 +3125,10 @@ export default {
         "entered the charts"
       ],
       "optionReasons": {
-        "chart-mcq-35": "本句指「榜首的」。",
-        "chart-mcq-34": "「登上排行榜首位」與本句語境不同。",
-        "chart-mcq-36": "「樂譜／編曲譜」與本句語境不同。",
-        "chart-mcq-33": "「專輯榜」與本句語境不同。",
-        "chart-mcq-37": "「和弦譜」與本句語境不同。",
-        "chart-mcq-32": "「單曲榜」與本句語境不同。"
+        "chart-mcq-35": "本句的「entered the charts」指「榜首的」。",
+        "chart-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-35"
     },
@@ -3432,11 +3140,9 @@ export default {
       "masked": "Several new releases entered the ____ this week.",
       "options": [
         "chart-mcq-35",
-        "chart-mcq-34",
-        "chart-mcq-36",
-        "chart-mcq-33",
-        "chart-mcq-37",
-        "chart-mcq-32"
+        "chart-mcq-53",
+        "chart-mcq-28",
+        "chart-mcq-43"
       ],
       "explanation": "本句的「chart」指「榜首的」。",
       "sentenceIndex": 74,
@@ -3445,12 +3151,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-35": "本句指「榜首的」。",
-        "chart-mcq-34": "「登上排行榜首位」與本句語境不同。",
-        "chart-mcq-36": "「樂譜／編曲譜」與本句語境不同。",
-        "chart-mcq-33": "「專輯榜」與本句語境不同。",
-        "chart-mcq-37": "「和弦譜」與本句語境不同。",
-        "chart-mcq-32": "「單曲榜」與本句語境不同。"
+        "chart-mcq-35": "本句的「chart」指「榜首的」。",
+        "chart-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-35"
     },
@@ -3462,11 +3166,9 @@ export default {
       "masked": "The band received the ____ before rehearsal.",
       "options": [
         "chart-pdf-003",
-        "chart-mcq-35",
-        "chart-mcq-37",
-        "chart-mcq-34",
-        "chart-mcq-38",
-        "chart-mcq-33"
+        "chart-mcq-10",
+        "chart-mcq-48",
+        "chart-mcq-35"
       ],
       "explanation": "本句的「chart」指「尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面」。",
       "sentenceIndex": 75,
@@ -3475,12 +3177,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-pdf-003": "本句指「尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面」。",
-        "chart-mcq-35": "「榜首的」與本句語境不同。",
-        "chart-mcq-37": "「和弦譜」與本句語境不同。",
-        "chart-mcq-34": "「登上排行榜首位」與本句語境不同。",
-        "chart-mcq-38": "「把數據製成圖表」與本句語境不同。",
-        "chart-mcq-33": "「專輯榜」與本句語境不同。"
+        "chart-pdf-003": "本句的「chart」指「尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面」。",
+        "chart-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-pdf-003"
     },
@@ -3492,11 +3192,9 @@ export default {
       "masked": "The arranger wrote a new ____ for the brass section.",
       "options": [
         "chart-pdf-003",
-        "chart-mcq-35",
-        "chart-mcq-37",
-        "chart-mcq-34",
-        "chart-mcq-38",
-        "chart-mcq-33"
+        "chart-mcq-02",
+        "chart-mcq-18",
+        "chart-mcq-50"
       ],
       "explanation": "本句的「chart」指「尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面」。",
       "sentenceIndex": 76,
@@ -3505,12 +3203,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-pdf-003": "本句指「尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面」。",
-        "chart-mcq-35": "「榜首的」與本句語境不同。",
-        "chart-mcq-37": "「和弦譜」與本句語境不同。",
-        "chart-mcq-34": "「登上排行榜首位」與本句語境不同。",
-        "chart-mcq-38": "「把數據製成圖表」與本句語境不同。",
-        "chart-mcq-33": "「專輯榜」與本句語境不同。"
+        "chart-pdf-003": "本句的「chart」指「尤其爵士／流行音樂中，用來表示樂曲編排、和弦或各聲部的譜面」。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-pdf-003"
     },
@@ -3522,11 +3218,9 @@ export default {
       "masked": "The guitarist followed the ____.",
       "options": [
         "chart-mcq-37",
-        "chart-mcq-36",
-        "chart-mcq-38",
-        "chart-mcq-35",
-        "chart-mcq-39",
-        "chart-mcq-34"
+        "chart-mcq-51",
+        "chart-mcq-02",
+        "chart-mcq-46"
       ],
       "explanation": "本句的「chord chart」指「和弦譜」。",
       "sentenceIndex": 77,
@@ -3535,12 +3229,10 @@ export default {
         "chord chart"
       ],
       "optionReasons": {
-        "chart-mcq-37": "本句指「和弦譜」。",
-        "chart-mcq-36": "「樂譜／編曲譜」與本句語境不同。",
-        "chart-mcq-38": "「把數據製成圖表」與本句語境不同。",
-        "chart-mcq-35": "「榜首的」與本句語境不同。",
-        "chart-mcq-39": "「追蹤／描繪趨勢」與本句語境不同。",
-        "chart-mcq-34": "「登上排行榜首位」與本句語境不同。"
+        "chart-mcq-37": "本句的「chord chart」指「和弦譜」。",
+        "chart-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-37"
     },
@@ -3552,11 +3244,9 @@ export default {
       "masked": "A chord ____ may show chord symbols rather than full notation.",
       "options": [
         "chart-mcq-37",
-        "chart-mcq-36",
-        "chart-mcq-38",
-        "chart-mcq-35",
-        "chart-mcq-39",
-        "chart-mcq-34"
+        "chart-mcq-34",
+        "chart-mcq-06",
+        "chart-mcq-41"
       ],
       "explanation": "本句的「chart」指「和弦譜」。",
       "sentenceIndex": 78,
@@ -3565,12 +3255,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-37": "本句指「和弦譜」。",
-        "chart-mcq-36": "「樂譜／編曲譜」與本句語境不同。",
-        "chart-mcq-38": "「把數據製成圖表」與本句語境不同。",
-        "chart-mcq-35": "「榜首的」與本句語境不同。",
-        "chart-mcq-39": "「追蹤／描繪趨勢」與本句語境不同。",
-        "chart-mcq-34": "「登上排行榜首位」與本句語境不同。"
+        "chart-mcq-37": "本句的「chart」指「和弦譜」。",
+        "chart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-37"
     },
@@ -3582,11 +3270,9 @@ export default {
       "masked": "The analyst ____.",
       "options": [
         "chart-mcq-38",
-        "chart-mcq-37",
-        "chart-mcq-39",
-        "chart-mcq-36",
-        "chart-mcq-40",
-        "chart-mcq-35"
+        "chart-mcq-42",
+        "chart-mcq-23",
+        "chart-mcq-30"
       ],
       "explanation": "本句的「charted monthly return rates」指「把數據製成圖表」。",
       "sentenceIndex": 79,
@@ -3595,12 +3281,10 @@ export default {
         "charted monthly return rates"
       ],
       "optionReasons": {
-        "chart-mcq-38": "本句指「把數據製成圖表」。",
-        "chart-mcq-37": "「和弦譜」與本句語境不同。",
-        "chart-mcq-39": "「追蹤／描繪趨勢」與本句語境不同。",
-        "chart-mcq-36": "「樂譜／編曲譜」與本句語境不同。",
-        "chart-mcq-40": "「追蹤進展」與本句語境不同。",
-        "chart-mcq-35": "「榜首的」與本句語境不同。"
+        "chart-mcq-38": "本句的「charted monthly return rates」指「把數據製成圖表」。",
+        "chart-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-38"
     },
@@ -3612,11 +3296,9 @@ export default {
       "masked": "We ____ the results over three months.",
       "options": [
         "chart-mcq-38",
-        "chart-mcq-37",
-        "chart-mcq-39",
-        "chart-mcq-36",
-        "chart-mcq-40",
-        "chart-mcq-35"
+        "chart-mcq-46",
+        "chart-mcq-33",
+        "chart-mcq-03"
       ],
       "explanation": "本句的「charted」指「把數據製成圖表」。",
       "sentenceIndex": 80,
@@ -3625,12 +3307,10 @@ export default {
         "charted"
       ],
       "optionReasons": {
-        "chart-mcq-38": "本句指「把數據製成圖表」。",
-        "chart-mcq-37": "「和弦譜」與本句語境不同。",
-        "chart-mcq-39": "「追蹤／描繪趨勢」與本句語境不同。",
-        "chart-mcq-36": "「樂譜／編曲譜」與本句語境不同。",
-        "chart-mcq-40": "「追蹤進展」與本句語境不同。",
-        "chart-mcq-35": "「榜首的」與本句語境不同。"
+        "chart-mcq-38": "本句的「charted」指「把數據製成圖表」。",
+        "chart-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-38"
     },
@@ -3642,11 +3322,9 @@ export default {
       "masked": "The report ____.",
       "options": [
         "chart-mcq-38",
-        "chart-mcq-37",
-        "chart-mcq-39",
-        "chart-mcq-36",
-        "chart-mcq-40",
-        "chart-mcq-35"
+        "chart-pdf-002",
+        "chart-mcq-50",
+        "chart-mcq-49"
       ],
       "explanation": "本句的「charts changes in customer complaints」指「把數據製成圖表」。",
       "sentenceIndex": 81,
@@ -3655,12 +3333,10 @@ export default {
         "charts changes in customer complaints"
       ],
       "optionReasons": {
-        "chart-mcq-38": "本句指「把數據製成圖表」。",
-        "chart-mcq-37": "「和弦譜」與本句語境不同。",
-        "chart-mcq-39": "「追蹤／描繪趨勢」與本句語境不同。",
-        "chart-mcq-36": "「樂譜／編曲譜」與本句語境不同。",
-        "chart-mcq-40": "「追蹤進展」與本句語境不同。",
-        "chart-mcq-35": "「榜首的」與本句語境不同。"
+        "chart-mcq-38": "本句的「charts changes in customer complaints」指「把數據製成圖表」。",
+        "chart-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-38"
     },
@@ -3672,11 +3348,9 @@ export default {
       "masked": "The study ____ long-term trends.",
       "options": [
         "chart-mcq-38",
-        "chart-mcq-37",
-        "chart-mcq-39",
-        "chart-mcq-36",
-        "chart-mcq-40",
-        "chart-mcq-35"
+        "chart-mcq-22",
+        "chart-mcq-32",
+        "chart-mcq-30"
       ],
       "explanation": "本句的「charts」指「把數據製成圖表」。",
       "sentenceIndex": 82,
@@ -3685,12 +3359,10 @@ export default {
         "charts"
       ],
       "optionReasons": {
-        "chart-mcq-38": "本句指「把數據製成圖表」。",
-        "chart-mcq-37": "「和弦譜」與本句語境不同。",
-        "chart-mcq-39": "「追蹤／描繪趨勢」與本句語境不同。",
-        "chart-mcq-36": "「樂譜／編曲譜」與本句語境不同。",
-        "chart-mcq-40": "「追蹤進展」與本句語境不同。",
-        "chart-mcq-35": "「榜首的」與本句語境不同。"
+        "chart-mcq-38": "本句的「charts」指「把數據製成圖表」。",
+        "chart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-38"
     },
@@ -3702,11 +3374,9 @@ export default {
       "masked": "The book ____.",
       "options": [
         "chart-mcq-41",
-        "chart-mcq-40",
-        "chart-mcq-42",
-        "chart-mcq-39",
-        "chart-mcq-43",
-        "chart-mcq-38"
+        "chart-mcq-27",
+        "chart-mcq-23",
+        "chart-mcq-03"
       ],
       "explanation": "本句的「charts the rise of online fashion retail」指「記錄興衰」。",
       "sentenceIndex": 85,
@@ -3715,12 +3385,10 @@ export default {
         "charts the rise of online fashion retail"
       ],
       "optionReasons": {
-        "chart-mcq-41": "本句指「記錄興衰」。",
-        "chart-mcq-40": "「追蹤進展」與本句語境不同。",
-        "chart-mcq-42": "「測繪海岸線」與本句語境不同。",
-        "chart-mcq-39": "「追蹤／描繪趨勢」與本句語境不同。",
-        "chart-mcq-43": "「規劃路線」與本句語境不同。",
-        "chart-mcq-38": "「把數據製成圖表」與本句語境不同。"
+        "chart-mcq-41": "本句的「charts the rise of online fashion retail」指「記錄興衰」。",
+        "chart-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-41"
     },
@@ -3732,11 +3400,9 @@ export default {
       "masked": "The report ____ the decline in repeat purchases.",
       "options": [
         "chart-mcq-41",
-        "chart-mcq-40",
-        "chart-mcq-42",
-        "chart-mcq-39",
-        "chart-mcq-43",
-        "chart-mcq-38"
+        "chart-mcq-33",
+        "chart-mcq-21",
+        "chart-mcq-37"
       ],
       "explanation": "本句的「charts」指「記錄興衰」。",
       "sentenceIndex": 86,
@@ -3745,12 +3411,10 @@ export default {
         "charts"
       ],
       "optionReasons": {
-        "chart-mcq-41": "本句指「記錄興衰」。",
-        "chart-mcq-40": "「追蹤進展」與本句語境不同。",
-        "chart-mcq-42": "「測繪海岸線」與本句語境不同。",
-        "chart-mcq-39": "「追蹤／描繪趨勢」與本句語境不同。",
-        "chart-mcq-43": "「規劃路線」與本句語境不同。",
-        "chart-mcq-38": "「把數據製成圖表」與本句語境不同。"
+        "chart-mcq-41": "本句的「charts」指「記錄興衰」。",
+        "chart-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-41"
     },
@@ -3762,11 +3426,9 @@ export default {
       "masked": "Managers should ____ during the pilot.",
       "options": [
         "chart-mcq-40",
-        "chart-mcq-39",
-        "chart-mcq-41",
-        "chart-mcq-38",
-        "chart-mcq-42",
-        "chart-mcq-37"
+        "chart-mcq-30",
+        "chart-mcq-18",
+        "chart-mcq-43"
       ],
       "explanation": "本句的「chart progress」指「追蹤進展」。",
       "sentenceIndex": 87,
@@ -3775,12 +3437,10 @@ export default {
         "chart progress"
       ],
       "optionReasons": {
-        "chart-mcq-40": "本句指「追蹤進展」。",
-        "chart-mcq-39": "「追蹤／描繪趨勢」與本句語境不同。",
-        "chart-mcq-41": "「記錄興衰」與本句語境不同。",
-        "chart-mcq-38": "「把數據製成圖表」與本句語境不同。",
-        "chart-mcq-42": "「測繪海岸線」與本句語境不同。",
-        "chart-mcq-37": "「和弦譜」與本句語境不同。"
+        "chart-mcq-40": "本句的「chart progress」指「追蹤進展」。",
+        "chart-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-40"
     },
@@ -3792,11 +3452,9 @@ export default {
       "masked": "Regular data helps us ____ improvements.",
       "options": [
         "chart-mcq-40",
-        "chart-mcq-39",
-        "chart-mcq-41",
-        "chart-mcq-38",
-        "chart-mcq-42",
-        "chart-mcq-37"
+        "chart-mcq-03",
+        "chart-mcq-02",
+        "chart-mcq-33"
       ],
       "explanation": "本句的「chart」指「追蹤進展」。",
       "sentenceIndex": 88,
@@ -3805,12 +3463,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-40": "本句指「追蹤進展」。",
-        "chart-mcq-39": "「追蹤／描繪趨勢」與本句語境不同。",
-        "chart-mcq-41": "「記錄興衰」與本句語境不同。",
-        "chart-mcq-38": "「把數據製成圖表」與本句語境不同。",
-        "chart-mcq-42": "「測繪海岸線」與本句語境不同。",
-        "chart-mcq-37": "「和弦譜」與本句語境不同。"
+        "chart-mcq-40": "本句的「chart」指「追蹤進展」。",
+        "chart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-40"
     },
@@ -3822,11 +3478,9 @@ export default {
       "masked": "Sailors ____.",
       "options": [
         "chart-mcq-42",
-        "chart-mcq-41",
-        "chart-mcq-43",
-        "chart-mcq-40",
-        "chart-mcq-44",
-        "chart-mcq-39"
+        "chart-pdf-001",
+        "chart-mcq-19",
+        "chart-mcq-37"
       ],
       "explanation": "本句的「charted the coastline」指「測繪海岸線」。",
       "sentenceIndex": 89,
@@ -3835,12 +3489,10 @@ export default {
         "charted the coastline"
       ],
       "optionReasons": {
-        "chart-mcq-42": "本句指「測繪海岸線」。",
-        "chart-mcq-41": "「記錄興衰」與本句語境不同。",
-        "chart-mcq-43": "「規劃路線」與本句語境不同。",
-        "chart-mcq-40": "「追蹤進展」與本句語境不同。",
-        "chart-mcq-44": "「規劃航線／方向」與本句語境不同。",
-        "chart-mcq-39": "「追蹤／描繪趨勢」與本句語境不同。"
+        "chart-mcq-42": "本句的「charted the coastline」指「測繪海岸線」。",
+        "chart-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-42"
     },
@@ -3852,11 +3504,9 @@ export default {
       "masked": "Much of the region had already been ____.",
       "options": [
         "chart-mcq-42",
-        "chart-mcq-41",
-        "chart-mcq-43",
-        "chart-mcq-40",
-        "chart-mcq-44",
-        "chart-mcq-39"
+        "chart-mcq-35",
+        "chart-mcq-16",
+        "chart-mcq-41"
       ],
       "explanation": "本句的「charted」指「測繪海岸線」。",
       "sentenceIndex": 90,
@@ -3865,12 +3515,10 @@ export default {
         "charted"
       ],
       "optionReasons": {
-        "chart-mcq-42": "本句指「測繪海岸線」。",
-        "chart-mcq-41": "「記錄興衰」與本句語境不同。",
-        "chart-mcq-43": "「規劃路線」與本句語境不同。",
-        "chart-mcq-40": "「追蹤進展」與本句語境不同。",
-        "chart-mcq-44": "「規劃航線／方向」與本句語境不同。",
-        "chart-mcq-39": "「追蹤／描繪趨勢」與本句語境不同。"
+        "chart-mcq-42": "本句的「charted」指「測繪海岸線」。",
+        "chart-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-42"
     },
@@ -3882,11 +3530,9 @@ export default {
       "masked": "The ship remained in well-____.",
       "options": [
         "chart-mcq-47",
-        "chart-mcq-46",
-        "chart-mcq-48",
-        "chart-mcq-45",
-        "chart-mcq-49",
-        "chart-mcq-44"
+        "chart-mcq-53",
+        "chart-mcq-22",
+        "chart-mcq-04"
       ],
       "explanation": "本句的「charted waters」指「已測繪水域」。",
       "sentenceIndex": 91,
@@ -3895,12 +3541,10 @@ export default {
         "charted waters"
       ],
       "optionReasons": {
-        "chart-mcq-47": "本句指「已測繪水域」。",
-        "chart-mcq-46": "「探索／開拓新領域」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。",
-        "chart-mcq-45": "「規劃前進方向」與本句語境不同。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-44": "「規劃航線／方向」與本句語境不同。"
+        "chart-mcq-47": "本句的「charted waters」指「已測繪水域」。",
+        "chart-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-47"
     },
@@ -3912,11 +3556,9 @@ export default {
       "masked": "____” here literally refers to mapping.",
       "options": [
         "chart-mcq-47",
-        "chart-mcq-46",
-        "chart-mcq-48",
-        "chart-mcq-45",
-        "chart-mcq-49",
-        "chart-mcq-44"
+        "chart-mcq-34",
+        "chart-mcq-09",
+        "chart-mcq-37"
       ],
       "explanation": "本句的「Charted」指「已測繪水域」。",
       "sentenceIndex": 92,
@@ -3925,12 +3567,10 @@ export default {
         "Charted"
       ],
       "optionReasons": {
-        "chart-mcq-47": "本句指「已測繪水域」。",
-        "chart-mcq-46": "「探索／開拓新領域」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。",
-        "chart-mcq-45": "「規劃前進方向」與本句語境不同。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-44": "「規劃航線／方向」與本句語境不同。"
+        "chart-mcq-47": "本句的「Charted」指「已測繪水域」。",
+        "chart-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-47"
     },
@@ -3942,11 +3582,9 @@ export default {
       "masked": "The pilot will help us ____.",
       "options": [
         "chart-mcq-45",
-        "chart-mcq-44",
-        "chart-mcq-46",
-        "chart-mcq-43",
-        "chart-mcq-47",
-        "chart-mcq-42"
+        "chart-mcq-26",
+        "chart-mcq-30",
+        "chart-mcq-50"
       ],
       "explanation": "本句的「chart a path forward」指「規劃前進方向」。",
       "sentenceIndex": 93,
@@ -3955,12 +3593,10 @@ export default {
         "chart a path forward"
       ],
       "optionReasons": {
-        "chart-mcq-45": "本句指「規劃前進方向」。",
-        "chart-mcq-44": "「規劃航線／方向」與本句語境不同。",
-        "chart-mcq-46": "「探索／開拓新領域」與本句語境不同。",
-        "chart-mcq-43": "「規劃路線」與本句語境不同。",
-        "chart-mcq-47": "「已測繪水域」與本句語境不同。",
-        "chart-mcq-42": "「測繪海岸線」與本句語境不同。"
+        "chart-mcq-45": "本句的「chart a path forward」指「規劃前進方向」。",
+        "chart-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-45"
     },
@@ -3972,11 +3608,9 @@ export default {
       "masked": "The company ____ a new path after the review.",
       "options": [
         "chart-mcq-45",
-        "chart-mcq-44",
-        "chart-mcq-46",
-        "chart-mcq-43",
-        "chart-mcq-47",
-        "chart-mcq-42"
+        "chart-mcq-28",
+        "chart-mcq-02",
+        "chart-mcq-41"
       ],
       "explanation": "本句的「charted」指「規劃前進方向」。",
       "sentenceIndex": 94,
@@ -3985,12 +3619,10 @@ export default {
         "charted"
       ],
       "optionReasons": {
-        "chart-mcq-45": "本句指「規劃前進方向」。",
-        "chart-mcq-44": "「規劃航線／方向」與本句語境不同。",
-        "chart-mcq-46": "「探索／開拓新領域」與本句語境不同。",
-        "chart-mcq-43": "「規劃路線」與本句語境不同。",
-        "chart-mcq-47": "「已測繪水域」與本句語境不同。",
-        "chart-mcq-42": "「測繪海岸線」與本句語境不同。"
+        "chart-mcq-45": "本句的「charted」指「規劃前進方向」。",
+        "chart-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-45"
     },
@@ -4002,11 +3634,9 @@ export default {
       "masked": "They ____ a safe route through the area.",
       "options": [
         "chart-mcq-43",
-        "chart-mcq-42",
-        "chart-mcq-44",
-        "chart-mcq-41",
-        "chart-mcq-45",
-        "chart-mcq-40"
+        "chart-mcq-11",
+        "chart-mcq-50",
+        "chart-mcq-33"
       ],
       "explanation": "本句的「charted」指「規劃路線」。",
       "sentenceIndex": 95,
@@ -4015,12 +3645,10 @@ export default {
         "charted"
       ],
       "optionReasons": {
-        "chart-mcq-43": "本句指「規劃路線」。",
-        "chart-mcq-42": "「測繪海岸線」與本句語境不同。",
-        "chart-mcq-44": "「規劃航線／方向」與本句語境不同。",
-        "chart-mcq-41": "「記錄興衰」與本句語境不同。",
-        "chart-mcq-45": "「規劃前進方向」與本句語境不同。",
-        "chart-mcq-40": "「追蹤進展」與本句語境不同。"
+        "chart-mcq-43": "本句的「charted」指「規劃路線」。",
+        "chart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-43"
     },
@@ -4032,11 +3660,9 @@ export default {
       "masked": "Digital systems can ____ alternative routes.",
       "options": [
         "chart-mcq-43",
-        "chart-mcq-42",
-        "chart-mcq-44",
-        "chart-mcq-41",
-        "chart-mcq-45",
-        "chart-mcq-40"
+        "chart-mcq-30",
+        "chart-mcq-25",
+        "chart-mcq-46"
       ],
       "explanation": "本句的「chart」指「規劃路線」。",
       "sentenceIndex": 96,
@@ -4045,12 +3671,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-43": "本句指「規劃路線」。",
-        "chart-mcq-42": "「測繪海岸線」與本句語境不同。",
-        "chart-mcq-44": "「規劃航線／方向」與本句語境不同。",
-        "chart-mcq-41": "「記錄興衰」與本句語境不同。",
-        "chart-mcq-45": "「規劃前進方向」與本句語境不同。",
-        "chart-mcq-40": "「追蹤進展」與本句語境不同。"
+        "chart-mcq-43": "本句的「chart」指「規劃路線」。",
+        "chart-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-43"
     },
@@ -4062,11 +3686,9 @@ export default {
       "masked": "The company is ____ with its online returns model.",
       "options": [
         "chart-mcq-46",
-        "chart-mcq-45",
-        "chart-mcq-47",
-        "chart-mcq-44",
-        "chart-mcq-48",
-        "chart-mcq-43"
+        "chart-mcq-05",
+        "chart-mcq-26",
+        "chart-mcq-04"
       ],
       "explanation": "本句的「charting new territory」指「探索／開拓新領域」。",
       "sentenceIndex": 97,
@@ -4075,12 +3697,10 @@ export default {
         "charting new territory"
       ],
       "optionReasons": {
-        "chart-mcq-46": "本句指「探索／開拓新領域」。",
-        "chart-mcq-45": "「規劃前進方向」與本句語境不同。",
-        "chart-mcq-47": "「已測繪水域」與本句語境不同。",
-        "chart-mcq-44": "「規劃航線／方向」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。",
-        "chart-mcq-43": "「規劃路線」與本句語境不同。"
+        "chart-mcq-46": "本句的「charting new territory」指「探索／開拓新領域」。",
+        "chart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-46"
     },
@@ -4092,11 +3712,9 @@ export default {
       "masked": "Researchers are ____ new territory in the field.",
       "options": [
         "chart-mcq-46",
-        "chart-mcq-45",
-        "chart-mcq-47",
-        "chart-mcq-44",
-        "chart-mcq-48",
-        "chart-mcq-43"
+        "chart-mcq-08",
+        "chart-mcq-32",
+        "chart-mcq-23"
       ],
       "explanation": "本句的「charting」指「探索／開拓新領域」。",
       "sentenceIndex": 98,
@@ -4105,12 +3723,10 @@ export default {
         "charting"
       ],
       "optionReasons": {
-        "chart-mcq-46": "本句指「探索／開拓新領域」。",
-        "chart-mcq-45": "「規劃前進方向」與本句語境不同。",
-        "chart-mcq-47": "「已測繪水域」與本句語境不同。",
-        "chart-mcq-44": "「規劃航線／方向」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。",
-        "chart-mcq-43": "「規劃路線」與本句語境不同。"
+        "chart-mcq-46": "本句的「charting」指「探索／開拓新領域」。",
+        "chart-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-46"
     },
@@ -4122,11 +3738,9 @@ export default {
       "masked": "The explorers entered ____.",
       "options": [
         "chart-mcq-47",
-        "chart-mcq-46",
-        "chart-mcq-48",
-        "chart-mcq-45",
-        "chart-mcq-49",
-        "chart-mcq-44"
+        "chart-mcq-28",
+        "chart-mcq-43",
+        "chart-pdf-003"
       ],
       "explanation": "本句的「uncharted territory」指「已測繪水域」。",
       "sentenceIndex": 99,
@@ -4135,12 +3749,10 @@ export default {
         "uncharted territory"
       ],
       "optionReasons": {
-        "chart-mcq-47": "本句指「已測繪水域」。",
-        "chart-mcq-46": "「探索／開拓新領域」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。",
-        "chart-mcq-45": "「規劃前進方向」與本句語境不同。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-44": "「規劃航線／方向」與本句語境不同。"
+        "chart-mcq-47": "本句的「uncharted territory」指「已測繪水域」。",
+        "chart-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "chart-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-47"
     },
@@ -4152,11 +3764,9 @@ export default {
       "masked": "The ship sailed through poorly ____ waters.",
       "options": [
         "chart-mcq-47",
-        "chart-mcq-46",
-        "chart-mcq-48",
-        "chart-mcq-45",
-        "chart-mcq-49",
-        "chart-mcq-44"
+        "chart-mcq-26",
+        "chart-mcq-03",
+        "chart-mcq-23"
       ],
       "explanation": "本句的「charted」指「已測繪水域」。",
       "sentenceIndex": 100,
@@ -4165,12 +3775,10 @@ export default {
         "charted"
       ],
       "optionReasons": {
-        "chart-mcq-47": "本句指「已測繪水域」。",
-        "chart-mcq-46": "「探索／開拓新領域」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。",
-        "chart-mcq-45": "「規劃前進方向」與本句語境不同。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-44": "「規劃航線／方向」與本句語境不同。"
+        "chart-mcq-47": "本句的「charted」指「已測繪水域」。",
+        "chart-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-47"
     },
@@ -4182,11 +3790,9 @@ export default {
       "masked": "The company is entering ____.",
       "options": [
         "chart-mcq-48",
-        "chart-mcq-47",
-        "chart-mcq-49",
-        "chart-mcq-46",
-        "chart-mcq-50",
-        "chart-mcq-45"
+        "chart-mcq-51",
+        "chart-mcq-02",
+        "chart-mcq-19"
       ],
       "explanation": "本句的「uncharted territory」指「未知領域」。",
       "sentenceIndex": 101,
@@ -4195,12 +3801,10 @@ export default {
         "uncharted territory"
       ],
       "optionReasons": {
-        "chart-mcq-48": "本句指「未知領域」。",
-        "chart-mcq-47": "「已測繪水域」與本句語境不同。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-46": "「探索／開拓新領域」與本句語境不同。",
-        "chart-mcq-50": "「高得驚人」與本句語境不同。",
-        "chart-mcq-45": "「規劃前進方向」與本句語境不同。"
+        "chart-mcq-48": "本句的「uncharted territory」指「未知領域」。",
+        "chart-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-48"
     },
@@ -4212,11 +3816,9 @@ export default {
       "masked": "The business is moving into ____.",
       "options": [
         "chart-mcq-49",
-        "chart-mcq-48",
-        "chart-mcq-50",
-        "chart-mcq-47",
-        "chart-mcq-51",
-        "chart-mcq-46"
+        "chart-mcq-18",
+        "chart-mcq-37",
+        "chart-mcq-35"
       ],
       "explanation": "本句的「uncharted waters」指「陌生局面」。",
       "sentenceIndex": 102,
@@ -4225,12 +3827,10 @@ export default {
         "uncharted waters"
       ],
       "optionReasons": {
-        "chart-mcq-49": "本句指「陌生局面」。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。",
-        "chart-mcq-50": "「高得驚人」與本句語境不同。",
-        "chart-mcq-47": "「已測繪水域」與本句語境不同。",
-        "chart-mcq-51": "「製圖／圖表分析」與本句語境不同。",
-        "chart-mcq-46": "「探索／開拓新領域」與本句語境不同。"
+        "chart-mcq-49": "本句的「uncharted waters」指「陌生局面」。",
+        "chart-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-49"
     },
@@ -4242,11 +3842,9 @@ export default {
       "masked": "Demand was ____.",
       "options": [
         "chart-mcq-50",
-        "chart-mcq-49",
-        "chart-mcq-51",
         "chart-mcq-48",
-        "chart-mcq-52",
-        "chart-mcq-47"
+        "chart-mcq-40",
+        "chart-mcq-11"
       ],
       "explanation": "本句的「off the charts」指「高得驚人」。",
       "sentenceIndex": 103,
@@ -4255,12 +3853,10 @@ export default {
         "off the charts"
       ],
       "optionReasons": {
-        "chart-mcq-50": "本句指「高得驚人」。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-51": "「製圖／圖表分析」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。",
-        "chart-mcq-52": "「圖表工具」與本句語境不同。",
-        "chart-mcq-47": "「已測繪水域」與本句語境不同。"
+        "chart-mcq-50": "本句的「off the charts」指「高得驚人」。",
+        "chart-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-50"
     },
@@ -4272,11 +3868,9 @@ export default {
       "masked": "Customer frustration was off the ____ after the system failure.",
       "options": [
         "chart-mcq-50",
-        "chart-mcq-49",
-        "chart-mcq-51",
-        "chart-mcq-48",
-        "chart-mcq-52",
-        "chart-mcq-47"
+        "chart-pdf-002",
+        "chart-mcq-23",
+        "chart-mcq-41"
       ],
       "explanation": "本句的「charts」指「高得驚人」。",
       "sentenceIndex": 104,
@@ -4285,12 +3879,10 @@ export default {
         "charts"
       ],
       "optionReasons": {
-        "chart-mcq-50": "本句指「高得驚人」。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-51": "「製圖／圖表分析」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。",
-        "chart-mcq-52": "「圖表工具」與本句語境不同。",
-        "chart-mcq-47": "「已測繪水域」與本句語境不同。"
+        "chart-mcq-50": "本句的「charts」指「高得驚人」。",
+        "chart-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-50"
     },
@@ -4302,11 +3894,9 @@ export default {
       "masked": "The product generated ____.",
       "options": [
         "chart-mcq-50",
-        "chart-mcq-49",
-        "chart-mcq-51",
-        "chart-mcq-48",
-        "chart-mcq-52",
-        "chart-mcq-47"
+        "chart-mcq-07",
+        "chart-mcq-46",
+        "chart-mcq-32"
       ],
       "explanation": "本句的「off-the-charts demand」指「高得驚人」。",
       "sentenceIndex": 105,
@@ -4315,12 +3905,10 @@ export default {
         "off-the-charts demand"
       ],
       "optionReasons": {
-        "chart-mcq-50": "本句指「高得驚人」。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-51": "「製圖／圖表分析」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。",
-        "chart-mcq-52": "「圖表工具」與本句語境不同。",
-        "chart-mcq-47": "「已測繪水域」與本句語境不同。"
+        "chart-mcq-50": "本句的「off-the-charts demand」指「高得驚人」。",
+        "chart-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-50"
     },
@@ -4332,11 +3920,9 @@ export default {
       "masked": "Her performance was off the ____.",
       "options": [
         "chart-mcq-50",
-        "chart-mcq-49",
-        "chart-mcq-51",
-        "chart-mcq-48",
-        "chart-mcq-52",
-        "chart-mcq-47"
+        "chart-mcq-11",
+        "chart-mcq-47",
+        "chart-mcq-49"
       ],
       "explanation": "本句的「charts」指「高得驚人」。",
       "sentenceIndex": 106,
@@ -4345,12 +3931,10 @@ export default {
         "charts"
       ],
       "optionReasons": {
-        "chart-mcq-50": "本句指「高得驚人」。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-51": "「製圖／圖表分析」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。",
-        "chart-mcq-52": "「圖表工具」與本句語境不同。",
-        "chart-mcq-47": "「已測繪水域」與本句語境不同。"
+        "chart-mcq-50": "本句的「charts」指「高得驚人」。",
+        "chart-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-50"
     },
@@ -4362,11 +3946,9 @@ export default {
       "masked": "The analyst is responsible for ____.",
       "options": [
         "chart-mcq-51",
-        "chart-mcq-50",
-        "chart-mcq-52",
-        "chart-mcq-49",
-        "chart-mcq-53",
-        "chart-mcq-48"
+        "chart-mcq-37",
+        "chart-mcq-05",
+        "chart-mcq-32"
       ],
       "explanation": "本句的「charting sales data」指「製圖／圖表分析」。",
       "sentenceIndex": 107,
@@ -4375,12 +3957,10 @@ export default {
         "charting sales data"
       ],
       "optionReasons": {
-        "chart-mcq-51": "本句指「製圖／圖表分析」。",
-        "chart-mcq-50": "「高得驚人」與本句語境不同。",
-        "chart-mcq-52": "「圖表工具」與本句語境不同。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-53": "「會計科目表」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。"
+        "chart-mcq-51": "本句的「charting sales data」指「製圖／圖表分析」。",
+        "chart-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-51"
     },
@@ -4392,11 +3972,9 @@ export default {
       "masked": "____ helps identify patterns over time.",
       "options": [
         "chart-mcq-51",
-        "chart-mcq-50",
-        "chart-mcq-52",
-        "chart-mcq-49",
-        "chart-mcq-53",
-        "chart-mcq-48"
+        "chart-mcq-43",
+        "chart-mcq-04",
+        "chart-mcq-33"
       ],
       "explanation": "本句的「Charting」指「製圖／圖表分析」。",
       "sentenceIndex": 108,
@@ -4405,12 +3983,10 @@ export default {
         "Charting"
       ],
       "optionReasons": {
-        "chart-mcq-51": "本句指「製圖／圖表分析」。",
-        "chart-mcq-50": "「高得驚人」與本句語境不同。",
-        "chart-mcq-52": "「圖表工具」與本句語境不同。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-53": "「會計科目表」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。"
+        "chart-mcq-51": "本句的「Charting」指「製圖／圖表分析」。",
+        "chart-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-51"
     },
@@ -4422,11 +3998,9 @@ export default {
       "masked": "Trading software provides advanced ____.",
       "options": [
         "chart-mcq-51",
+        "chart-mcq-45",
         "chart-mcq-50",
-        "chart-mcq-52",
-        "chart-mcq-49",
-        "chart-mcq-53",
-        "chart-mcq-48"
+        "chart-pdf-003"
       ],
       "explanation": "本句的「charting tools」指「製圖／圖表分析」。",
       "sentenceIndex": 109,
@@ -4435,12 +4009,10 @@ export default {
         "charting tools"
       ],
       "optionReasons": {
-        "chart-mcq-51": "本句指「製圖／圖表分析」。",
-        "chart-mcq-50": "「高得驚人」與本句語境不同。",
-        "chart-mcq-52": "「圖表工具」與本句語境不同。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-53": "「會計科目表」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。"
+        "chart-mcq-51": "本句的「charting tools」指「製圖／圖表分析」。",
+        "chart-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "chart-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-51"
     },
@@ -4452,11 +4024,9 @@ export default {
       "masked": "____ tools display price and volume data.",
       "options": [
         "chart-mcq-51",
-        "chart-mcq-50",
-        "chart-mcq-52",
-        "chart-mcq-49",
-        "chart-mcq-53",
-        "chart-mcq-48"
+        "chart-mcq-42",
+        "chart-mcq-37",
+        "chart-mcq-40"
       ],
       "explanation": "本句的「Charting」指「製圖／圖表分析」。",
       "sentenceIndex": 110,
@@ -4465,12 +4035,10 @@ export default {
         "Charting"
       ],
       "optionReasons": {
-        "chart-mcq-51": "本句指「製圖／圖表分析」。",
-        "chart-mcq-50": "「高得驚人」與本句語境不同。",
-        "chart-mcq-52": "「圖表工具」與本句語境不同。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-53": "「會計科目表」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。"
+        "chart-mcq-51": "本句的「Charting」指「製圖／圖表分析」。",
+        "chart-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-51"
     },
@@ -4482,11 +4050,9 @@ export default {
       "masked": "The dashboard includes several ____.",
       "options": [
         "chart-mcq-52",
-        "chart-mcq-51",
-        "chart-mcq-53",
-        "chart-mcq-50",
-        "chart-mcq-49",
-        "chart-mcq-48"
+        "chart-mcq-23",
+        "chart-mcq-03",
+        "chart-mcq-34"
       ],
       "explanation": "本句的「charting tools」指「圖表工具」。",
       "sentenceIndex": 111,
@@ -4495,12 +4061,10 @@ export default {
         "charting tools"
       ],
       "optionReasons": {
-        "chart-mcq-52": "本句指「圖表工具」。",
-        "chart-mcq-51": "「製圖／圖表分析」與本句語境不同。",
-        "chart-mcq-53": "「會計科目表」與本句語境不同。",
-        "chart-mcq-50": "「高得驚人」與本句語境不同。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。"
+        "chart-mcq-52": "本句的「charting tools」指「圖表工具」。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-52"
     },
@@ -4512,11 +4076,9 @@ export default {
       "masked": "____ software can turn raw data into visual displays.",
       "options": [
         "chart-mcq-52",
-        "chart-mcq-51",
-        "chart-mcq-53",
-        "chart-mcq-50",
-        "chart-mcq-49",
-        "chart-mcq-48"
+        "chart-mcq-45",
+        "chart-mcq-23",
+        "chart-mcq-50"
       ],
       "explanation": "本句的「Charting」指「圖表工具」。",
       "sentenceIndex": 112,
@@ -4525,12 +4087,10 @@ export default {
         "Charting"
       ],
       "optionReasons": {
-        "chart-mcq-52": "本句指「圖表工具」。",
-        "chart-mcq-51": "「製圖／圖表分析」與本句語境不同。",
-        "chart-mcq-53": "「會計科目表」與本句語境不同。",
-        "chart-mcq-50": "「高得驚人」與本句語境不同。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。"
+        "chart-mcq-52": "本句的「Charting」指「圖表工具」。",
+        "chart-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-52"
     },
@@ -4542,11 +4102,9 @@ export default {
       "masked": "The accountant updated the ____.",
       "options": [
         "chart-mcq-53",
-        "chart-mcq-52",
-        "chart-mcq-51",
-        "chart-mcq-50",
-        "chart-mcq-49",
-        "chart-mcq-48"
+        "chart-mcq-29",
+        "chart-mcq-41",
+        "chart-mcq-15"
       ],
       "explanation": "本句的「chart of accounts」指「會計科目表」。",
       "sentenceIndex": 113,
@@ -4555,12 +4113,10 @@ export default {
         "chart of accounts"
       ],
       "optionReasons": {
-        "chart-mcq-53": "本句指「會計科目表」。",
-        "chart-mcq-52": "「圖表工具」與本句語境不同。",
-        "chart-mcq-51": "「製圖／圖表分析」與本句語境不同。",
-        "chart-mcq-50": "「高得驚人」與本句語境不同。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。"
+        "chart-mcq-53": "本句的「chart of accounts」指「會計科目表」。",
+        "chart-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-53"
     },
@@ -4572,11 +4128,9 @@ export default {
       "masked": "The ____ of accounts lists categories used to record financial transactions.",
       "options": [
         "chart-mcq-53",
-        "chart-mcq-52",
-        "chart-mcq-51",
-        "chart-mcq-50",
-        "chart-mcq-49",
-        "chart-mcq-48"
+        "chart-mcq-47",
+        "chart-mcq-26",
+        "chart-mcq-02"
       ],
       "explanation": "本句的「chart」指「會計科目表」。",
       "sentenceIndex": 114,
@@ -4585,12 +4139,10 @@ export default {
         "chart"
       ],
       "optionReasons": {
-        "chart-mcq-53": "本句指「會計科目表」。",
-        "chart-mcq-52": "「圖表工具」與本句語境不同。",
-        "chart-mcq-51": "「製圖／圖表分析」與本句語境不同。",
-        "chart-mcq-50": "「高得驚人」與本句語境不同。",
-        "chart-mcq-49": "「陌生局面」與本句語境不同。",
-        "chart-mcq-48": "「未知領域」與本句語境不同。"
+        "chart-mcq-53": "本句的「chart」指「會計科目表」。",
+        "chart-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "chart-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chart-mcq-53"
     }
@@ -4602,5 +4154,7 @@ export default {
     "sha256": "3fd9a9fa95eb6c40c85ad234ac3ef408240d7fdf0361a789aa7a54bda8799665",
     "pages": 44
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

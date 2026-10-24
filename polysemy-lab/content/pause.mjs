@@ -176,11 +176,22 @@ export default {
       "en": "pause — music",
       "zh": "音樂中的停頓／延長記號；較專門",
       "note": "來源詞義：音樂中的停頓／延長記號；較專門",
+      "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pause-reviewed-670c86a2ce",
+      "title": "值得深思；令人停下思考",
+      "form": "pause · source section 8",
+      "en": "值得深思；令人停下思考",
+      "zh": "值得深思；令人停下思考",
+      "note": "對照原始教材第 8 節及例句核實。",
       "examples": [
         [
           "The results should give us pause for thought.",
           "這些結果值得我們停下來深思。",
-          "音樂中的停頓／延長記號；較專門"
+          "值得深思；令人停下思考"
         ]
       ],
       "options": [],
@@ -196,11 +207,7 @@ export default {
       "masked": "She ____ before answering.",
       "options": [
         "pause-mcq-01",
-        "pause-mcq-02",
-        "pause-mcq-03",
-        "pause-mcq-04",
-        "pause-mcq-05",
-        "pause-mcq-06"
+        "pause-mcq-07"
       ],
       "explanation": "本句的「paused」指「短暫停止動作、說話或活動，之後通常繼續」。",
       "sentenceIndex": 0,
@@ -209,12 +216,8 @@ export default {
         "paused"
       ],
       "optionReasons": {
-        "pause-mcq-01": "本句指「短暫停止動作、說話或活動，之後通常繼續」。",
-        "pause-mcq-02": "「某件事短暫停止的一段時間；停頓／間歇」與本句語境不同。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-05": "「暫時停止、擱置或抽離某件事」與本句語境不同。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。"
+        "pause-mcq-01": "本句的「paused」指「短暫停止動作、說話或活動，之後通常繼續」。",
+        "pause-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-01"
     },
@@ -226,11 +229,7 @@ export default {
       "masked": "We ____ for a few minutes to rest.",
       "options": [
         "pause-mcq-01",
-        "pause-mcq-02",
-        "pause-mcq-03",
-        "pause-mcq-04",
-        "pause-mcq-05",
-        "pause-mcq-06"
+        "pause-mcq-07"
       ],
       "explanation": "本句的「paused」指「短暫停止動作、說話或活動，之後通常繼續」。",
       "sentenceIndex": 1,
@@ -239,12 +238,8 @@ export default {
         "paused"
       ],
       "optionReasons": {
-        "pause-mcq-01": "本句指「短暫停止動作、說話或活動，之後通常繼續」。",
-        "pause-mcq-02": "「某件事短暫停止的一段時間；停頓／間歇」與本句語境不同。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-05": "「暫時停止、擱置或抽離某件事」與本句語境不同。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。"
+        "pause-mcq-01": "本句的「paused」指「短暫停止動作、說話或活動，之後通常繼續」。",
+        "pause-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-01"
     },
@@ -256,11 +251,7 @@ export default {
       "masked": "He ____ halfway through the explanation.",
       "options": [
         "pause-mcq-01",
-        "pause-mcq-02",
-        "pause-mcq-03",
-        "pause-mcq-04",
-        "pause-mcq-05",
-        "pause-mcq-06"
+        "pause-mcq-07"
       ],
       "explanation": "本句的「paused」指「短暫停止動作、說話或活動，之後通常繼續」。",
       "sentenceIndex": 2,
@@ -269,12 +260,8 @@ export default {
         "paused"
       ],
       "optionReasons": {
-        "pause-mcq-01": "本句指「短暫停止動作、說話或活動，之後通常繼續」。",
-        "pause-mcq-02": "「某件事短暫停止的一段時間；停頓／間歇」與本句語境不同。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-05": "「暫時停止、擱置或抽離某件事」與本句語境不同。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。"
+        "pause-mcq-01": "本句的「paused」指「短暫停止動作、說話或活動，之後通常繼續」。",
+        "pause-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-01"
     },
@@ -286,11 +273,7 @@ export default {
       "masked": "There was a long ____ before she replied.",
       "options": [
         "pause-mcq-02",
-        "pause-mcq-01",
-        "pause-mcq-03",
-        "pause-mcq-04",
-        "pause-mcq-05",
-        "pause-mcq-06"
+        "pause-mcq-07"
       ],
       "explanation": "本句的「pause」指「某件事短暫停止的一段時間；停頓／間歇」。",
       "sentenceIndex": 3,
@@ -299,12 +282,8 @@ export default {
         "pause"
       ],
       "optionReasons": {
-        "pause-mcq-02": "本句指「某件事短暫停止的一段時間；停頓／間歇」。",
-        "pause-mcq-01": "「短暫停止動作、說話或活動，之後通常繼續」與本句語境不同。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-05": "「暫時停止、擱置或抽離某件事」與本句語境不同。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。"
+        "pause-mcq-02": "本句的「pause」指「某件事短暫停止的一段時間；停頓／間歇」。",
+        "pause-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-02"
     },
@@ -316,11 +295,7 @@ export default {
       "masked": "After a short ____, the meeting continued.",
       "options": [
         "pause-mcq-02",
-        "pause-mcq-01",
-        "pause-mcq-03",
-        "pause-mcq-04",
-        "pause-mcq-05",
-        "pause-mcq-06"
+        "pause-mcq-07"
       ],
       "explanation": "本句的「pause」指「某件事短暫停止的一段時間；停頓／間歇」。",
       "sentenceIndex": 4,
@@ -329,12 +304,8 @@ export default {
         "pause"
       ],
       "optionReasons": {
-        "pause-mcq-02": "本句指「某件事短暫停止的一段時間；停頓／間歇」。",
-        "pause-mcq-01": "「短暫停止動作、說話或活動，之後通常繼續」與本句語境不同。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-05": "「暫時停止、擱置或抽離某件事」與本句語境不同。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。"
+        "pause-mcq-02": "本句的「pause」指「某件事短暫停止的一段時間；停頓／間歇」。",
+        "pause-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-02"
     },
@@ -346,11 +317,7 @@ export default {
       "masked": "Can you ____ the video?",
       "options": [
         "pause-mcq-03",
-        "pause-mcq-02",
-        "pause-mcq-04",
-        "pause-mcq-01",
-        "pause-mcq-05",
-        "pause-mcq-06"
+        "pause-mcq-07"
       ],
       "explanation": "本句的「pause」指「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」。",
       "sentenceIndex": 5,
@@ -359,12 +326,8 @@ export default {
         "pause"
       ],
       "optionReasons": {
-        "pause-mcq-03": "本句指「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」。",
-        "pause-mcq-02": "「某件事短暫停止的一段時間；停頓／間歇」與本句語境不同。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-01": "「短暫停止動作、說話或活動，之後通常繼續」與本句語境不同。",
-        "pause-mcq-05": "「暫時停止、擱置或抽離某件事」與本句語境不同。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。"
+        "pause-mcq-03": "本句的「pause」指「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」。",
+        "pause-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-03"
     },
@@ -376,11 +339,7 @@ export default {
       "masked": "I ____ the podcast to answer the phone.",
       "options": [
         "pause-mcq-03",
-        "pause-mcq-02",
-        "pause-mcq-04",
-        "pause-mcq-01",
-        "pause-mcq-05",
-        "pause-mcq-06"
+        "pause-mcq-07"
       ],
       "explanation": "本句的「paused」指「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」。",
       "sentenceIndex": 6,
@@ -389,12 +348,8 @@ export default {
         "paused"
       ],
       "optionReasons": {
-        "pause-mcq-03": "本句指「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」。",
-        "pause-mcq-02": "「某件事短暫停止的一段時間；停頓／間歇」與本句語境不同。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-01": "「短暫停止動作、說話或活動，之後通常繼續」與本句語境不同。",
-        "pause-mcq-05": "「暫時停止、擱置或抽離某件事」與本句語境不同。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。"
+        "pause-mcq-03": "本句的「paused」指「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」。",
+        "pause-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-03"
     },
@@ -406,11 +361,7 @@ export default {
       "masked": "Press ____ if you need more time.",
       "options": [
         "pause-mcq-04",
-        "pause-mcq-03",
-        "pause-mcq-05",
-        "pause-mcq-02",
-        "pause-mcq-06",
-        "pause-mcq-01"
+        "pause-mcq-07"
       ],
       "explanation": "本句的「pause」指「暫停鍵／暫停功能」。",
       "sentenceIndex": 7,
@@ -419,12 +370,8 @@ export default {
         "pause"
       ],
       "optionReasons": {
-        "pause-mcq-04": "本句指「暫停鍵／暫停功能」。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。",
-        "pause-mcq-05": "「暫時停止、擱置或抽離某件事」與本句語境不同。",
-        "pause-mcq-02": "「某件事短暫停止的一段時間；停頓／間歇」與本句語境不同。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。",
-        "pause-mcq-01": "「短暫停止動作、說話或活動，之後通常繼續」與本句語境不同。"
+        "pause-mcq-04": "本句的「pause」指「暫停鍵／暫停功能」。",
+        "pause-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-04"
     },
@@ -436,11 +383,7 @@ export default {
       "masked": "I hit ____ and went to make some tea.",
       "options": [
         "pause-mcq-04",
-        "pause-mcq-03",
-        "pause-mcq-05",
-        "pause-mcq-02",
-        "pause-mcq-06",
-        "pause-mcq-01"
+        "pause-mcq-07"
       ],
       "explanation": "本句的「pause」指「暫停鍵／暫停功能」。",
       "sentenceIndex": 8,
@@ -449,12 +392,8 @@ export default {
         "pause"
       ],
       "optionReasons": {
-        "pause-mcq-04": "本句指「暫停鍵／暫停功能」。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。",
-        "pause-mcq-05": "「暫時停止、擱置或抽離某件事」與本句語境不同。",
-        "pause-mcq-02": "「某件事短暫停止的一段時間；停頓／間歇」與本句語境不同。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。",
-        "pause-mcq-01": "「短暫停止動作、說話或活動，之後通常繼續」與本句語境不同。"
+        "pause-mcq-04": "本句的「pause」指「暫停鍵／暫停功能」。",
+        "pause-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-04"
     },
@@ -466,11 +405,7 @@ export default {
       "masked": "The library feels like ____.",
       "options": [
         "pause-mcq-05",
-        "pause-mcq-04",
-        "pause-mcq-06",
-        "pause-mcq-03",
-        "pause-mcq-07",
-        "pause-mcq-02"
+        "pause-mcq-07"
       ],
       "explanation": "本句的「pressing pause on the outside world」指「暫時停止、擱置或抽離某件事」。",
       "sentenceIndex": 9,
@@ -479,12 +414,8 @@ export default {
         "pressing pause on the outside world"
       ],
       "optionReasons": {
-        "pause-mcq-05": "本句指「暫時停止、擱置或抽離某件事」。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。",
-        "pause-mcq-07": "「令某人有所顧慮並重新考慮」與本句語境不同。",
-        "pause-mcq-02": "「某件事短暫停止的一段時間；停頓／間歇」與本句語境不同。"
+        "pause-mcq-05": "本句的「pressing pause on the outside world」指「暫時停止、擱置或抽離某件事」。",
+        "pause-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-05"
     },
@@ -496,11 +427,7 @@ export default {
       "masked": "I need to ____ work for a few days.",
       "options": [
         "pause-mcq-05",
-        "pause-mcq-04",
-        "pause-mcq-06",
-        "pause-mcq-03",
-        "pause-mcq-07",
-        "pause-mcq-02"
+        "pause-mcq-07"
       ],
       "explanation": "本句的「hit pause on」指「暫時停止、擱置或抽離某件事」。",
       "sentenceIndex": 10,
@@ -509,12 +436,8 @@ export default {
         "hit pause on"
       ],
       "optionReasons": {
-        "pause-mcq-05": "本句指「暫時停止、擱置或抽離某件事」。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。",
-        "pause-mcq-07": "「令某人有所顧慮並重新考慮」與本句語境不同。",
-        "pause-mcq-02": "「某件事短暫停止的一段時間；停頓／間歇」與本句語境不同。"
+        "pause-mcq-05": "本句的「hit pause on」指「暫時停止、擱置或抽離某件事」。",
+        "pause-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-05"
     },
@@ -526,11 +449,7 @@ export default {
       "masked": "They decided to ____ the project.",
       "options": [
         "pause-mcq-05",
-        "pause-mcq-04",
-        "pause-mcq-06",
-        "pause-mcq-03",
-        "pause-mcq-07",
-        "pause-mcq-02"
+        "pause-mcq-07"
       ],
       "explanation": "本句的「press pause on」指「暫時停止、擱置或抽離某件事」。",
       "sentenceIndex": 11,
@@ -539,12 +458,8 @@ export default {
         "press pause on"
       ],
       "optionReasons": {
-        "pause-mcq-05": "本句指「暫時停止、擱置或抽離某件事」。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。",
-        "pause-mcq-07": "「令某人有所顧慮並重新考慮」與本句語境不同。",
-        "pause-mcq-02": "「某件事短暫停止的一段時間；停頓／間歇」與本句語境不同。"
+        "pause-mcq-05": "本句的「press pause on」指「暫時停止、擱置或抽離某件事」。",
+        "pause-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-05"
     },
@@ -556,11 +471,7 @@ export default {
       "masked": "The question made him ____.",
       "options": [
         "pause-mcq-06",
-        "pause-mcq-05",
-        "pause-mcq-07",
-        "pause-mcq-04",
-        "pause-mcq-08",
-        "pause-mcq-03"
+        "pause-mcq-07"
       ],
       "explanation": "本句的「pause」指「因思考、疑問或猶豫而短暫停下」。",
       "sentenceIndex": 12,
@@ -569,12 +480,8 @@ export default {
         "pause"
       ],
       "optionReasons": {
-        "pause-mcq-06": "本句指「因思考、疑問或猶豫而短暫停下」。",
-        "pause-mcq-05": "「暫時停止、擱置或抽離某件事」與本句語境不同。",
-        "pause-mcq-07": "「令某人有所顧慮並重新考慮」與本句語境不同。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-08": "「音樂中的停頓／延長記號；較專門」與本句語境不同。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。"
+        "pause-mcq-06": "本句的「pause」指「因思考、疑問或猶豫而短暫停下」。",
+        "pause-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-06"
     },
@@ -586,11 +493,7 @@ export default {
       "masked": "She ____, unsure what to say next.",
       "options": [
         "pause-mcq-06",
-        "pause-mcq-05",
-        "pause-mcq-07",
-        "pause-mcq-04",
-        "pause-mcq-08",
-        "pause-mcq-03"
+        "pause-mcq-07"
       ],
       "explanation": "本句的「paused」指「因思考、疑問或猶豫而短暫停下」。",
       "sentenceIndex": 13,
@@ -599,12 +502,8 @@ export default {
         "paused"
       ],
       "optionReasons": {
-        "pause-mcq-06": "本句指「因思考、疑問或猶豫而短暫停下」。",
-        "pause-mcq-05": "「暫時停止、擱置或抽離某件事」與本句語境不同。",
-        "pause-mcq-07": "「令某人有所顧慮並重新考慮」與本句語境不同。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-08": "「音樂中的停頓／延長記號；較專門」與本句語境不同。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。"
+        "pause-mcq-06": "本句的「paused」指「因思考、疑問或猶豫而短暫停下」。",
+        "pause-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-06"
     },
@@ -616,11 +515,7 @@ export default {
       "masked": "The high cost gave me ____.",
       "options": [
         "pause-mcq-07",
-        "pause-mcq-06",
-        "pause-mcq-08",
-        "pause-mcq-05",
-        "pause-mcq-04",
-        "pause-mcq-03"
+        "pause-mcq-01"
       ],
       "explanation": "本句的「pause」指「令某人有所顧慮並重新考慮」。",
       "sentenceIndex": 14,
@@ -629,12 +524,8 @@ export default {
         "pause"
       ],
       "optionReasons": {
-        "pause-mcq-07": "本句指「令某人有所顧慮並重新考慮」。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。",
-        "pause-mcq-08": "「音樂中的停頓／延長記號；較專門」與本句語境不同。",
-        "pause-mcq-05": "「暫時停止、擱置或抽離某件事」與本句語境不同。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。"
+        "pause-mcq-07": "本句的「pause」指「令某人有所顧慮並重新考慮」。",
+        "pause-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-07"
     },
@@ -646,10 +537,6 @@ export default {
       "masked": "The new evidence should give us ____.",
       "options": [
         "pause-mcq-07",
-        "pause-mcq-06",
-        "pause-mcq-08",
-        "pause-mcq-05",
-        "pause-mcq-04",
         "pause-mcq-03"
       ],
       "explanation": "本句的「pause」指「令某人有所顧慮並重新考慮」。",
@@ -659,44 +546,34 @@ export default {
         "pause"
       ],
       "optionReasons": {
-        "pause-mcq-07": "本句指「令某人有所顧慮並重新考慮」。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。",
-        "pause-mcq-08": "「音樂中的停頓／延長記號；較專門」與本句語境不同。",
-        "pause-mcq-05": "「暫時停止、擱置或抽離某件事」與本句語境不同。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。"
+        "pause-mcq-07": "本句的「pause」指「令某人有所顧慮並重新考慮」。",
+        "pause-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pause-mcq-07"
     },
     {
       "id": "pause-08-0",
-      "sense": "pause-mcq-08",
+      "sense": "pause-reviewed-670c86a2ce",
       "en": "The results should give us pause for thought.",
       "zh": "這些結果值得我們停下來深思。",
       "masked": "The results should give us ____.",
       "options": [
-        "pause-mcq-08",
-        "pause-mcq-07",
-        "pause-mcq-06",
-        "pause-mcq-05",
-        "pause-mcq-04",
-        "pause-mcq-03"
+        "pause-reviewed-670c86a2ce",
+        "contrast-purchase"
       ],
-      "explanation": "本句的「pause for thought」指「音樂中的停頓／延長記號；較專門」。",
+      "explanation": "對照完整句子：「這些結果值得我們停下來深思。」。這裡的「pause for thought」表示「值得深思；令人停下思考」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "pause for thought"
       ],
       "optionReasons": {
-        "pause-mcq-08": "本句指「音樂中的停頓／延長記號；較專門」。",
-        "pause-mcq-07": "「令某人有所顧慮並重新考慮」與本句語境不同。",
-        "pause-mcq-06": "「因思考、疑問或猶豫而短暫停下」與本句語境不同。",
-        "pause-mcq-05": "「暫時停止、擱置或抽離某件事」與本句語境不同。",
-        "pause-mcq-04": "「暫停鍵／暫停功能」與本句語境不同。",
-        "pause-mcq-03": "「暫停影片、音樂、遊戲或程序，同時保留位置以便繼續」與本句語境不同。"
+        "pause-reviewed-670c86a2ce": "對照完整句子：「這些結果值得我們停下來深思。」。這裡的「pause for thought」表示「值得深思；令人停下思考」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "pause-mcq-08"
+      "correctOption": "pause-reviewed-670c86a2ce",
+      "previousCorrectOption": "pause-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -706,5 +583,12 @@ export default {
     "sha256": "da311b0e6c6fe6157299b4883444acbf48be11f7e5a164abf52fb6179979ac60",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

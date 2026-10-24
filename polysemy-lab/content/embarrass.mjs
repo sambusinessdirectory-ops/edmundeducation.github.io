@@ -491,11 +491,9 @@ export default {
       "masked": "He apologised for ____.",
       "options": [
         "embarrass-mcq-01",
-        "embarrass-mcq-02",
+        "embarrass-mcq-08",
         "embarrass-mcq-03",
-        "embarrass-mcq-04",
-        "embarrass-mcq-05",
-        "embarrass-mcq-06"
+        "embarrass-mcq-19"
       ],
       "explanation": "本句的「embarrassing me in front of the group」指「令某人尷尬／難堪」。",
       "sentenceIndex": 0,
@@ -504,12 +502,10 @@ export default {
         "embarrassing me in front of the group"
       ],
       "optionReasons": {
-        "embarrass-mcq-01": "本句指「令某人尷尬／難堪」。",
-        "embarrass-mcq-02": "「當眾令某人難堪」是「embarrass someone publicly」的用法，與本句語境不同。",
-        "embarrass-mcq-03": "「令自己出醜」是「embarrass yourself」的用法，與本句語境不同。",
-        "embarrass-mcq-04": "「感到尷尬的」是「embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-05": "「感到難為情」是「feel embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。"
+        "embarrass-mcq-01": "本句的「embarrassing me in front of the group」指「令某人尷尬／難堪」。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-01"
     },
@@ -521,11 +517,9 @@ export default {
       "masked": "I didn't mean to ____.",
       "options": [
         "embarrass-mcq-01",
-        "embarrass-mcq-02",
-        "embarrass-mcq-03",
-        "embarrass-mcq-04",
-        "embarrass-mcq-05",
-        "embarrass-mcq-06"
+        "embarrass-mcq-08",
+        "embarrass-mcq-19",
+        "embarrass-mcq-03"
       ],
       "explanation": "本句的「embarrass you」指「令某人尷尬／難堪」。",
       "sentenceIndex": 1,
@@ -534,12 +528,10 @@ export default {
         "embarrass you"
       ],
       "optionReasons": {
-        "embarrass-mcq-01": "本句指「令某人尷尬／難堪」。",
-        "embarrass-mcq-02": "「當眾令某人難堪」是「embarrass someone publicly」的用法，與本句語境不同。",
-        "embarrass-mcq-03": "「令自己出醜」是「embarrass yourself」的用法，與本句語境不同。",
-        "embarrass-mcq-04": "「感到尷尬的」是「embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-05": "「感到難為情」是「feel embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。"
+        "embarrass-mcq-01": "本句的「embarrass you」指「令某人尷尬／難堪」。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-01"
     },
@@ -551,11 +543,9 @@ export default {
       "masked": "His comment ____.",
       "options": [
         "embarrass-mcq-01",
-        "embarrass-mcq-02",
-        "embarrass-mcq-03",
-        "embarrass-mcq-04",
-        "embarrass-mcq-05",
-        "embarrass-mcq-06"
+        "embarrass-mcq-08",
+        "embarrass-mcq-19",
+        "embarrass-mcq-03"
       ],
       "explanation": "本句的「embarrassed her」指「令某人尷尬／難堪」。",
       "sentenceIndex": 2,
@@ -564,12 +554,10 @@ export default {
         "embarrassed her"
       ],
       "optionReasons": {
-        "embarrass-mcq-01": "本句指「令某人尷尬／難堪」。",
-        "embarrass-mcq-02": "「當眾令某人難堪」是「embarrass someone publicly」的用法，與本句語境不同。",
-        "embarrass-mcq-03": "「令自己出醜」是「embarrass yourself」的用法，與本句語境不同。",
-        "embarrass-mcq-04": "「感到尷尬的」是「embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-05": "「感到難為情」是「feel embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。"
+        "embarrass-mcq-01": "本句的「embarrassed her」指「令某人尷尬／難堪」。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-01"
     },
@@ -581,11 +569,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "embarrass-mcq-21",
-        "embarrass-mcq-20",
-        "embarrass-mcq-19",
-        "embarrass-mcq-18",
-        "embarrass-mcq-17",
-        "embarrass-mcq-16"
+        "embarrass-mcq-03",
+        "embarrass-mcq-11",
+        "embarrass-mcq-19"
       ],
       "explanation": "本句的「embarrassed me in front of everyone」指「在其他人面前使某人感到丟臉、尷尬或被暴露」。",
       "sentenceIndex": 3,
@@ -594,12 +580,10 @@ export default {
         "embarrassed me in front of everyone"
       ],
       "optionReasons": {
-        "embarrass-mcq-21": "本句指「在其他人面前使某人感到丟臉、尷尬或被暴露」。",
-        "embarrass-mcq-20": "「尷尬地／令人難堪地」是「embarrassingly」的用法，與本句語境不同。",
-        "embarrass-mcq-19": "「好選擇多得難取捨」是「embarrassment of riches」的用法，與本句語境不同。",
-        "embarrass-mcq-18": "「令 X 丟臉的事」是「an embarrassment to X」的用法，與本句語境不同。",
-        "embarrass-mcq-17": "「令人難堪的人／事」是「an embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-21": "本句的「embarrassed me in front of everyone」指「在其他人面前使某人感到丟臉、尷尬或被暴露」。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-21"
     },
@@ -611,11 +595,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "embarrass-mcq-21",
-        "embarrass-mcq-20",
         "embarrass-mcq-19",
-        "embarrass-mcq-18",
-        "embarrass-mcq-17",
-        "embarrass-mcq-16"
+        "embarrass-mcq-11",
+        "embarrass-mcq-03"
       ],
       "explanation": "本句的「embarrass your teammate in front of the group」指「在其他人面前使某人感到丟臉、尷尬或被暴露」。",
       "sentenceIndex": 4,
@@ -624,12 +606,10 @@ export default {
         "embarrass your teammate in front of the group"
       ],
       "optionReasons": {
-        "embarrass-mcq-21": "本句指「在其他人面前使某人感到丟臉、尷尬或被暴露」。",
-        "embarrass-mcq-20": "「尷尬地／令人難堪地」是「embarrassingly」的用法，與本句語境不同。",
-        "embarrass-mcq-19": "「好選擇多得難取捨」是「embarrassment of riches」的用法，與本句語境不同。",
-        "embarrass-mcq-18": "「令 X 丟臉的事」是「an embarrassment to X」的用法，與本句語境不同。",
-        "embarrass-mcq-17": "「令人難堪的人／事」是「an embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-21": "本句的「embarrass your teammate in front of the group」指「在其他人面前使某人感到丟臉、尷尬或被暴露」。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-21"
     },
@@ -641,11 +621,9 @@ export default {
       "masked": "I completely ____ during the presentation.",
       "options": [
         "embarrass-mcq-03",
-        "embarrass-mcq-02",
-        "embarrass-mcq-04",
-        "embarrass-mcq-01",
-        "embarrass-mcq-05",
-        "embarrass-mcq-06"
+        "embarrass-mcq-07",
+        "embarrass-mcq-16",
+        "embarrass-mcq-19"
       ],
       "explanation": "本句的「embarrassed myself」指「令自己出醜」。",
       "sentenceIndex": 5,
@@ -654,12 +632,10 @@ export default {
         "embarrassed myself"
       ],
       "optionReasons": {
-        "embarrass-mcq-03": "本句指「令自己出醜」。",
-        "embarrass-mcq-02": "「當眾令某人難堪」是「embarrass someone publicly」的用法，與本句語境不同。",
-        "embarrass-mcq-04": "「感到尷尬的」是「embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-01": "「令某人尷尬／難堪」是「embarrass someone」的用法，與本句語境不同。",
-        "embarrass-mcq-05": "「感到難為情」是「feel embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。"
+        "embarrass-mcq-03": "本句的「embarrassed myself」指「令自己出醜」。",
+        "embarrass-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-03"
     },
@@ -671,11 +647,9 @@ export default {
       "masked": "He was afraid of ____ in front of the class.",
       "options": [
         "embarrass-mcq-03",
-        "embarrass-mcq-02",
+        "embarrass-mcq-15",
         "embarrass-mcq-04",
-        "embarrass-mcq-01",
-        "embarrass-mcq-05",
-        "embarrass-mcq-06"
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「embarrassing himself」指「令自己出醜」。",
       "sentenceIndex": 6,
@@ -684,12 +658,10 @@ export default {
         "embarrassing himself"
       ],
       "optionReasons": {
-        "embarrass-mcq-03": "本句指「令自己出醜」。",
-        "embarrass-mcq-02": "「當眾令某人難堪」是「embarrass someone publicly」的用法，與本句語境不同。",
-        "embarrass-mcq-04": "「感到尷尬的」是「embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-01": "「令某人尷尬／難堪」是「embarrass someone」的用法，與本句語境不同。",
-        "embarrass-mcq-05": "「感到難為情」是「feel embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。"
+        "embarrass-mcq-03": "本句的「embarrassing himself」指「令自己出醜」。",
+        "embarrass-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-03"
     },
@@ -701,11 +673,9 @@ export default {
       "masked": "I felt ____ after everyone looked at me.",
       "options": [
         "embarrass-mcq-04",
-        "embarrass-mcq-03",
-        "embarrass-mcq-05",
-        "embarrass-mcq-02",
-        "embarrass-mcq-06",
-        "embarrass-mcq-01"
+        "embarrass-mcq-19",
+        "embarrass-mcq-16",
+        "embarrass-mcq-03"
       ],
       "explanation": "本句的「embarrassed」指「感到尷尬的」。",
       "sentenceIndex": 7,
@@ -714,12 +684,10 @@ export default {
         "embarrassed"
       ],
       "optionReasons": {
-        "embarrass-mcq-04": "本句指「感到尷尬的」。",
-        "embarrass-mcq-03": "「令自己出醜」是「embarrass yourself」的用法，與本句語境不同。",
-        "embarrass-mcq-05": "「感到難為情」是「feel embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-02": "「當眾令某人難堪」是「embarrass someone publicly」的用法，與本句語境不同。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。",
-        "embarrass-mcq-01": "「令某人尷尬／難堪」是「embarrass someone」的用法，與本句語境不同。"
+        "embarrass-mcq-04": "本句的「embarrassed」指「感到尷尬的」。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-04"
     },
@@ -732,10 +700,8 @@ export default {
       "options": [
         "embarrass-mcq-04",
         "embarrass-mcq-03",
-        "embarrass-mcq-05",
-        "embarrass-mcq-02",
-        "embarrass-mcq-06",
-        "embarrass-mcq-01"
+        "embarrass-mcq-16",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「embarrassed」指「感到尷尬的」。",
       "sentenceIndex": 8,
@@ -744,12 +710,10 @@ export default {
         "embarrassed"
       ],
       "optionReasons": {
-        "embarrass-mcq-04": "本句指「感到尷尬的」。",
-        "embarrass-mcq-03": "「令自己出醜」是「embarrass yourself」的用法，與本句語境不同。",
-        "embarrass-mcq-05": "「感到難為情」是「feel embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-02": "「當眾令某人難堪」是「embarrass someone publicly」的用法，與本句語境不同。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。",
-        "embarrass-mcq-01": "「令某人尷尬／難堪」是「embarrass someone」的用法，與本句語境不同。"
+        "embarrass-mcq-04": "本句的「embarrassed」指「感到尷尬的」。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-04"
     },
@@ -761,11 +725,8 @@ export default {
       "masked": "She ____ when her mistake was mentioned.",
       "options": [
         "embarrass-mcq-05",
-        "embarrass-mcq-04",
-        "embarrass-mcq-06",
-        "embarrass-mcq-03",
-        "embarrass-mcq-07",
-        "embarrass-mcq-02"
+        "embarrass-mcq-09",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「felt embarrassed」指「感到難為情」。",
       "sentenceIndex": 9,
@@ -774,12 +735,9 @@ export default {
         "felt embarrassed"
       ],
       "optionReasons": {
-        "embarrass-mcq-05": "本句指「感到難為情」。",
-        "embarrass-mcq-04": "「感到尷尬的」是「embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。",
-        "embarrass-mcq-03": "「令自己出醜」是「embarrass yourself」的用法，與本句語境不同。",
-        "embarrass-mcq-07": "「被 X 弄得尷尬」是「embarrassed by X」的用法，與本句語境不同。",
-        "embarrass-mcq-02": "「當眾令某人難堪」是「embarrass someone publicly」的用法，與本句語境不同。"
+        "embarrass-mcq-05": "本句的「felt embarrassed」指「感到難為情」。",
+        "embarrass-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-05"
     },
@@ -791,11 +749,8 @@ export default {
       "masked": "There's no need to ____.",
       "options": [
         "embarrass-mcq-05",
-        "embarrass-mcq-04",
-        "embarrass-mcq-06",
-        "embarrass-mcq-03",
-        "embarrass-mcq-07",
-        "embarrass-mcq-02"
+        "embarrass-mcq-09",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「feel embarrassed」指「感到難為情」。",
       "sentenceIndex": 10,
@@ -804,12 +759,9 @@ export default {
         "feel embarrassed"
       ],
       "optionReasons": {
-        "embarrass-mcq-05": "本句指「感到難為情」。",
-        "embarrass-mcq-04": "「感到尷尬的」是「embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。",
-        "embarrass-mcq-03": "「令自己出醜」是「embarrass yourself」的用法，與本句語境不同。",
-        "embarrass-mcq-07": "「被 X 弄得尷尬」是「embarrassed by X」的用法，與本句語境不同。",
-        "embarrass-mcq-02": "「當眾令某人難堪」是「embarrass someone publicly」的用法，與本句語境不同。"
+        "embarrass-mcq-05": "本句的「feel embarrassed」指「感到難為情」。",
+        "embarrass-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-05"
     },
@@ -821,11 +773,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "embarrass-mcq-06",
-        "embarrass-mcq-05",
-        "embarrass-mcq-07",
-        "embarrass-mcq-04",
-        "embarrass-mcq-08",
-        "embarrass-mcq-03"
+        "embarrass-mcq-03",
+        "embarrass-mcq-16",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「embarrassed about his mistake」指「對 X 感到尷尬」。",
       "sentenceIndex": 11,
@@ -834,12 +784,10 @@ export default {
         "embarrassed about his mistake"
       ],
       "optionReasons": {
-        "embarrass-mcq-06": "本句指「對 X 感到尷尬」。",
-        "embarrass-mcq-05": "「感到難為情」是「feel embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-07": "「被 X 弄得尷尬」是「embarrassed by X」的用法，與本句語境不同。",
-        "embarrass-mcq-04": "「感到尷尬的」是「embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-08": "「不好意思做 X」是「embarrassed to do X」的用法，與本句語境不同。",
-        "embarrass-mcq-03": "「令自己出醜」是「embarrass yourself」的用法，與本句語境不同。"
+        "embarrass-mcq-06": "本句的「embarrassed about his mistake」指「對 X 感到尷尬」。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-06"
     },
@@ -851,11 +799,8 @@ export default {
       "masked": "She felt ____.",
       "options": [
         "embarrass-mcq-06",
-        "embarrass-mcq-05",
-        "embarrass-mcq-07",
-        "embarrass-mcq-04",
-        "embarrass-mcq-08",
-        "embarrass-mcq-03"
+        "embarrass-mcq-17",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「embarrassed about what she had said」指「對 X 感到尷尬」。",
       "sentenceIndex": 12,
@@ -864,12 +809,9 @@ export default {
         "embarrassed about what she had said"
       ],
       "optionReasons": {
-        "embarrass-mcq-06": "本句指「對 X 感到尷尬」。",
-        "embarrass-mcq-05": "「感到難為情」是「feel embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-07": "「被 X 弄得尷尬」是「embarrassed by X」的用法，與本句語境不同。",
-        "embarrass-mcq-04": "「感到尷尬的」是「embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-08": "「不好意思做 X」是「embarrassed to do X」的用法，與本句語境不同。",
-        "embarrass-mcq-03": "「令自己出醜」是「embarrass yourself」的用法，與本句語境不同。"
+        "embarrass-mcq-06": "本句的「embarrassed about what she had said」指「對 X 感到尷尬」。",
+        "embarrass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-06"
     },
@@ -881,11 +823,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "embarrass-mcq-07",
-        "embarrass-mcq-06",
-        "embarrass-mcq-08",
-        "embarrass-mcq-05",
-        "embarrass-mcq-09",
-        "embarrass-mcq-04"
+        "embarrass-mcq-16",
+        "embarrass-mcq-03",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「embarrassed by the attention」指「被 X 弄得尷尬」。",
       "sentenceIndex": 13,
@@ -894,12 +834,10 @@ export default {
         "embarrassed by the attention"
       ],
       "optionReasons": {
-        "embarrass-mcq-07": "本句指「被 X 弄得尷尬」。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。",
-        "embarrass-mcq-08": "「不好意思做 X」是「embarrassed to do X」的用法，與本句語境不同。",
-        "embarrass-mcq-05": "「感到難為情」是「feel embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-09": "「令人尷尬的」是「embarrassing」的用法，與本句語境不同。",
-        "embarrass-mcq-04": "「感到尷尬的」是「embarrassed」的用法，與本句語境不同。"
+        "embarrass-mcq-07": "本句的「embarrassed by the attention」指「被 X 弄得尷尬」。",
+        "embarrass-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-07"
     },
@@ -911,11 +849,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "embarrass-mcq-07",
-        "embarrass-mcq-06",
-        "embarrass-mcq-08",
-        "embarrass-mcq-05",
-        "embarrass-mcq-09",
-        "embarrass-mcq-04"
+        "embarrass-mcq-19",
+        "embarrass-mcq-16",
+        "embarrass-mcq-18"
       ],
       "explanation": "本句的「embarrassed by his comment」指「被 X 弄得尷尬」。",
       "sentenceIndex": 14,
@@ -924,12 +860,10 @@ export default {
         "embarrassed by his comment"
       ],
       "optionReasons": {
-        "embarrass-mcq-07": "本句指「被 X 弄得尷尬」。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。",
-        "embarrass-mcq-08": "「不好意思做 X」是「embarrassed to do X」的用法，與本句語境不同。",
-        "embarrass-mcq-05": "「感到難為情」是「feel embarrassed」的用法，與本句語境不同。",
-        "embarrass-mcq-09": "「令人尷尬的」是「embarrassing」的用法，與本句語境不同。",
-        "embarrass-mcq-04": "「感到尷尬的」是「embarrassed」的用法，與本句語境不同。"
+        "embarrass-mcq-07": "本句的「embarrassed by his comment」指「被 X 弄得尷尬」。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-07"
     },
@@ -941,11 +875,9 @@ export default {
       "masked": "I was too ____ for help.",
       "options": [
         "embarrass-mcq-08",
-        "embarrass-mcq-07",
-        "embarrass-mcq-09",
         "embarrass-mcq-06",
-        "embarrass-mcq-10",
-        "embarrass-mcq-05"
+        "embarrass-mcq-18",
+        "embarrass-mcq-15"
       ],
       "explanation": "本句的「embarrassed to ask」指「不好意思做 X」。",
       "sentenceIndex": 15,
@@ -954,12 +886,10 @@ export default {
         "embarrassed to ask"
       ],
       "optionReasons": {
-        "embarrass-mcq-08": "本句指「不好意思做 X」。",
-        "embarrass-mcq-07": "「被 X 弄得尷尬」是「embarrassed by X」的用法，與本句語境不同。",
-        "embarrass-mcq-09": "「令人尷尬的」是「embarrassing」的用法，與本句語境不同。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。",
-        "embarrass-mcq-10": "「尷尬時刻」是「embarrassing moment」的用法，與本句語境不同。",
-        "embarrass-mcq-05": "「感到難為情」是「feel embarrassed」的用法，與本句語境不同。"
+        "embarrass-mcq-08": "本句的「embarrassed to ask」指「不好意思做 X」。",
+        "embarrass-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-08"
     },
@@ -971,11 +901,8 @@ export default {
       "masked": "She was ____ that she had forgotten his name.",
       "options": [
         "embarrass-mcq-08",
-        "embarrass-mcq-07",
-        "embarrass-mcq-09",
-        "embarrass-mcq-06",
-        "embarrass-mcq-10",
-        "embarrass-mcq-05"
+        "embarrass-mcq-15",
+        "embarrass-mcq-09"
       ],
       "explanation": "本句的「embarrassed to admit」指「不好意思做 X」。",
       "sentenceIndex": 16,
@@ -984,12 +911,9 @@ export default {
         "embarrassed to admit"
       ],
       "optionReasons": {
-        "embarrass-mcq-08": "本句指「不好意思做 X」。",
-        "embarrass-mcq-07": "「被 X 弄得尷尬」是「embarrassed by X」的用法，與本句語境不同。",
-        "embarrass-mcq-09": "「令人尷尬的」是「embarrassing」的用法，與本句語境不同。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。",
-        "embarrass-mcq-10": "「尷尬時刻」是「embarrassing moment」的用法，與本句語境不同。",
-        "embarrass-mcq-05": "「感到難為情」是「feel embarrassed」的用法，與本句語境不同。"
+        "embarrass-mcq-08": "本句的「embarrassed to admit」指「不好意思做 X」。",
+        "embarrass-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-08"
     },
@@ -1001,11 +925,8 @@ export default {
       "masked": "It was an ____.",
       "options": [
         "embarrass-mcq-09",
-        "embarrass-mcq-08",
-        "embarrass-mcq-10",
-        "embarrass-mcq-07",
-        "embarrass-mcq-11",
-        "embarrass-mcq-06"
+        "embarrass-mcq-05",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「embarrassing situation」指「令人尷尬的」。",
       "sentenceIndex": 17,
@@ -1014,12 +935,9 @@ export default {
         "embarrassing situation"
       ],
       "optionReasons": {
-        "embarrass-mcq-09": "本句指「令人尷尬的」。",
-        "embarrass-mcq-08": "「不好意思做 X」是「embarrassed to do X」的用法，與本句語境不同。",
-        "embarrass-mcq-10": "「尷尬時刻」是「embarrassing moment」的用法，與本句語境不同。",
-        "embarrass-mcq-07": "「被 X 弄得尷尬」是「embarrassed by X」的用法，與本句語境不同。",
-        "embarrass-mcq-11": "「令人難堪的錯誤」是「embarrassing mistake」的用法，與本句語境不同。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。"
+        "embarrass-mcq-09": "本句的「embarrassing situation」指「令人尷尬的」。",
+        "embarrass-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-09"
     },
@@ -1031,11 +949,8 @@ export default {
       "masked": "I made an ____.",
       "options": [
         "embarrass-mcq-09",
-        "embarrass-mcq-08",
-        "embarrass-mcq-10",
-        "embarrass-mcq-07",
-        "embarrass-mcq-11",
-        "embarrass-mcq-06"
+        "embarrass-mcq-15",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「embarrassing mistake」指「令人尷尬的」。",
       "sentenceIndex": 18,
@@ -1044,12 +959,9 @@ export default {
         "embarrassing mistake"
       ],
       "optionReasons": {
-        "embarrass-mcq-09": "本句指「令人尷尬的」。",
-        "embarrass-mcq-08": "「不好意思做 X」是「embarrassed to do X」的用法，與本句語境不同。",
-        "embarrass-mcq-10": "「尷尬時刻」是「embarrassing moment」的用法，與本句語境不同。",
-        "embarrass-mcq-07": "「被 X 弄得尷尬」是「embarrassed by X」的用法，與本句語境不同。",
-        "embarrass-mcq-11": "「令人難堪的錯誤」是「embarrassing mistake」的用法，與本句語境不同。",
-        "embarrass-mcq-06": "「對 X 感到尷尬」是「embarrassed about X」的用法，與本句語境不同。"
+        "embarrass-mcq-09": "本句的「embarrassing mistake」指「令人尷尬的」。",
+        "embarrass-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-09"
     },
@@ -1061,11 +973,9 @@ export default {
       "masked": "It was one of the most ____ of my life.",
       "options": [
         "embarrass-mcq-10",
-        "embarrass-mcq-09",
+        "embarrass-mcq-03",
         "embarrass-mcq-11",
-        "embarrass-mcq-08",
-        "embarrass-mcq-12",
-        "embarrass-mcq-07"
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「embarrassing moments」指「尷尬時刻」。",
       "sentenceIndex": 19,
@@ -1074,12 +984,10 @@ export default {
         "embarrassing moments"
       ],
       "optionReasons": {
-        "embarrass-mcq-10": "本句指「尷尬時刻」。",
-        "embarrass-mcq-09": "「令人尷尬的」是「embarrassing」的用法，與本句語境不同。",
-        "embarrass-mcq-11": "「令人難堪的錯誤」是「embarrassing mistake」的用法，與本句語境不同。",
-        "embarrass-mcq-08": "「不好意思做 X」是「embarrassed to do X」的用法，與本句語境不同。",
-        "embarrass-mcq-12": "「尷尬；難堪」是「embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-07": "「被 X 弄得尷尬」是「embarrassed by X」的用法，與本句語境不同。"
+        "embarrass-mcq-10": "本句的「embarrassing moments」指「尷尬時刻」。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-10"
     },
@@ -1091,11 +999,9 @@ export default {
       "masked": "We laughed about the ____ later.",
       "options": [
         "embarrass-mcq-10",
-        "embarrass-mcq-09",
-        "embarrass-mcq-11",
-        "embarrass-mcq-08",
-        "embarrass-mcq-12",
-        "embarrass-mcq-07"
+        "embarrass-mcq-18",
+        "embarrass-mcq-15",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「embarrassing moment」指「尷尬時刻」。",
       "sentenceIndex": 20,
@@ -1104,12 +1010,10 @@ export default {
         "embarrassing moment"
       ],
       "optionReasons": {
-        "embarrass-mcq-10": "本句指「尷尬時刻」。",
-        "embarrass-mcq-09": "「令人尷尬的」是「embarrassing」的用法，與本句語境不同。",
-        "embarrass-mcq-11": "「令人難堪的錯誤」是「embarrassing mistake」的用法，與本句語境不同。",
-        "embarrass-mcq-08": "「不好意思做 X」是「embarrassed to do X」的用法，與本句語境不同。",
-        "embarrass-mcq-12": "「尷尬；難堪」是「embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-07": "「被 X 弄得尷尬」是「embarrassed by X」的用法，與本句語境不同。"
+        "embarrass-mcq-10": "本句的「embarrassing moment」指「尷尬時刻」。",
+        "embarrass-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-10"
     },
@@ -1121,11 +1025,9 @@ export default {
       "masked": "The report contained an ____.",
       "options": [
         "embarrass-mcq-11",
-        "embarrass-mcq-10",
-        "embarrass-mcq-12",
-        "embarrass-mcq-09",
-        "embarrass-mcq-13",
-        "embarrass-mcq-08"
+        "embarrass-mcq-08",
+        "embarrass-mcq-21",
+        "embarrass-mcq-03"
       ],
       "explanation": "本句的「embarrassing mistake」指「令人難堪的錯誤」。",
       "sentenceIndex": 21,
@@ -1134,12 +1036,10 @@ export default {
         "embarrassing mistake"
       ],
       "optionReasons": {
-        "embarrass-mcq-11": "本句指「令人難堪的錯誤」。",
-        "embarrass-mcq-10": "「尷尬時刻」是「embarrassing moment」的用法，與本句語境不同。",
-        "embarrass-mcq-12": "「尷尬；難堪」是「embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-09": "「令人尷尬的」是「embarrassing」的用法，與本句語境不同。",
-        "embarrass-mcq-13": "「令某人尷尬的是」是「to someone's embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-08": "「不好意思做 X」是「embarrassed to do X」的用法，與本句語境不同。"
+        "embarrass-mcq-11": "本句的「embarrassing mistake」指「令人難堪的錯誤」。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-11"
     },
@@ -1152,10 +1052,8 @@ export default {
       "options": [
         "embarrass-mcq-11",
         "embarrass-mcq-10",
-        "embarrass-mcq-12",
-        "embarrass-mcq-09",
-        "embarrass-mcq-13",
-        "embarrass-mcq-08"
+        "embarrass-mcq-08",
+        "embarrass-mcq-19"
       ],
       "explanation": "本句的「embarrassing mistake」指「令人難堪的錯誤」。",
       "sentenceIndex": 22,
@@ -1164,12 +1062,10 @@ export default {
         "embarrassing mistake"
       ],
       "optionReasons": {
-        "embarrass-mcq-11": "本句指「令人難堪的錯誤」。",
-        "embarrass-mcq-10": "「尷尬時刻」是「embarrassing moment」的用法，與本句語境不同。",
-        "embarrass-mcq-12": "「尷尬；難堪」是「embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-09": "「令人尷尬的」是「embarrassing」的用法，與本句語境不同。",
-        "embarrass-mcq-13": "「令某人尷尬的是」是「to someone's embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-08": "「不好意思做 X」是「embarrassed to do X」的用法，與本句語境不同。"
+        "embarrass-mcq-11": "本句的「embarrassing mistake」指「令人難堪的錯誤」。",
+        "embarrass-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-11"
     },
@@ -1181,11 +1077,9 @@ export default {
       "masked": "She laughed to hide her ____.",
       "options": [
         "embarrass-mcq-12",
-        "embarrass-mcq-11",
-        "embarrass-mcq-13",
-        "embarrass-mcq-10",
-        "embarrass-mcq-14",
-        "embarrass-mcq-09"
+        "embarrass-mcq-03",
+        "embarrass-mcq-08",
+        "embarrass-mcq-19"
       ],
       "explanation": "本句的「embarrassment」指「尷尬；難堪」。",
       "sentenceIndex": 23,
@@ -1194,12 +1088,10 @@ export default {
         "embarrassment"
       ],
       "optionReasons": {
-        "embarrass-mcq-12": "本句指「尷尬；難堪」。",
-        "embarrass-mcq-11": "「令人難堪的錯誤」是「embarrassing mistake」的用法，與本句語境不同。",
-        "embarrass-mcq-13": "「令某人尷尬的是」是「to someone's embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-10": "「尷尬時刻」是「embarrassing moment」的用法，與本句語境不同。",
-        "embarrass-mcq-14": "「造成尷尬」是「cause embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-09": "「令人尷尬的」是「embarrassing」的用法，與本句語境不同。"
+        "embarrass-mcq-12": "本句的「embarrassment」指「尷尬；難堪」。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-12"
     },
@@ -1211,11 +1103,9 @@ export default {
       "masked": "I could see his ____.",
       "options": [
         "embarrass-mcq-12",
-        "embarrass-mcq-11",
-        "embarrass-mcq-13",
-        "embarrass-mcq-10",
-        "embarrass-mcq-14",
-        "embarrass-mcq-09"
+        "embarrass-mcq-08",
+        "embarrass-mcq-18",
+        "embarrass-mcq-19"
       ],
       "explanation": "本句的「embarrassment」指「尷尬；難堪」。",
       "sentenceIndex": 24,
@@ -1224,12 +1114,10 @@ export default {
         "embarrassment"
       ],
       "optionReasons": {
-        "embarrass-mcq-12": "本句指「尷尬；難堪」。",
-        "embarrass-mcq-11": "「令人難堪的錯誤」是「embarrassing mistake」的用法，與本句語境不同。",
-        "embarrass-mcq-13": "「令某人尷尬的是」是「to someone's embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-10": "「尷尬時刻」是「embarrassing moment」的用法，與本句語境不同。",
-        "embarrass-mcq-14": "「造成尷尬」是「cause embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-09": "「令人尷尬的」是「embarrassing」的用法，與本句語境不同。"
+        "embarrass-mcq-12": "本句的「embarrassment」指「尷尬；難堪」。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-12"
     },
@@ -1241,11 +1129,9 @@ export default {
       "masked": "____, everyone noticed the mistake.",
       "options": [
         "embarrass-mcq-13",
-        "embarrass-mcq-12",
-        "embarrass-mcq-14",
-        "embarrass-mcq-11",
-        "embarrass-mcq-15",
-        "embarrass-mcq-10"
+        "embarrass-mcq-16",
+        "embarrass-mcq-19",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「To his embarrassment」指「令某人尷尬的是」。",
       "sentenceIndex": 25,
@@ -1254,12 +1140,10 @@ export default {
         "To his embarrassment"
       ],
       "optionReasons": {
-        "embarrass-mcq-13": "本句指「令某人尷尬的是」。",
-        "embarrass-mcq-12": "「尷尬；難堪」是「embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-14": "「造成尷尬」是「cause embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-11": "「令人難堪的錯誤」是「embarrassing mistake」的用法，與本句語境不同。",
-        "embarrass-mcq-15": "「免某人難堪」是「save someone embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-10": "「尷尬時刻」是「embarrassing moment」的用法，與本句語境不同。"
+        "embarrass-mcq-13": "本句的「To his embarrassment」指「令某人尷尬的是」。",
+        "embarrass-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-13"
     },
@@ -1271,11 +1155,8 @@ export default {
       "masked": "Much ____, I forgot her name.",
       "options": [
         "embarrass-mcq-13",
-        "embarrass-mcq-12",
-        "embarrass-mcq-14",
-        "embarrass-mcq-11",
-        "embarrass-mcq-15",
-        "embarrass-mcq-10"
+        "embarrass-mcq-05",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「to my embarrassment」指「令某人尷尬的是」。",
       "sentenceIndex": 26,
@@ -1284,12 +1165,9 @@ export default {
         "to my embarrassment"
       ],
       "optionReasons": {
-        "embarrass-mcq-13": "本句指「令某人尷尬的是」。",
-        "embarrass-mcq-12": "「尷尬；難堪」是「embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-14": "「造成尷尬」是「cause embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-11": "「令人難堪的錯誤」是「embarrassing mistake」的用法，與本句語境不同。",
-        "embarrass-mcq-15": "「免某人難堪」是「save someone embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-10": "「尷尬時刻」是「embarrassing moment」的用法，與本句語境不同。"
+        "embarrass-mcq-13": "本句的「to my embarrassment」指「令某人尷尬的是」。",
+        "embarrass-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-13"
     },
@@ -1301,11 +1179,8 @@ export default {
       "masked": "____, the whole class started laughing.",
       "options": [
         "embarrass-mcq-13",
-        "embarrass-mcq-12",
-        "embarrass-mcq-14",
-        "embarrass-mcq-11",
-        "embarrass-mcq-15",
-        "embarrass-mcq-10"
+        "embarrass-mcq-05",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「Much to her embarrassment」指「令某人尷尬的是」。",
       "sentenceIndex": 27,
@@ -1314,12 +1189,9 @@ export default {
         "Much to her embarrassment"
       ],
       "optionReasons": {
-        "embarrass-mcq-13": "本句指「令某人尷尬的是」。",
-        "embarrass-mcq-12": "「尷尬；難堪」是「embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-14": "「造成尷尬」是「cause embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-11": "「令人難堪的錯誤」是「embarrassing mistake」的用法，與本句語境不同。",
-        "embarrass-mcq-15": "「免某人難堪」是「save someone embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-10": "「尷尬時刻」是「embarrassing moment」的用法，與本句語境不同。"
+        "embarrass-mcq-13": "本句的「Much to her embarrassment」指「令某人尷尬的是」。",
+        "embarrass-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-13"
     },
@@ -1331,11 +1203,9 @@ export default {
       "masked": "His old photo appeared on the screen, ____.",
       "options": [
         "embarrass-mcq-13",
-        "embarrass-mcq-12",
-        "embarrass-mcq-14",
-        "embarrass-mcq-11",
-        "embarrass-mcq-15",
-        "embarrass-mcq-10"
+        "embarrass-mcq-19",
+        "embarrass-mcq-16",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「much to his embarrassment」指「令某人尷尬的是」。",
       "sentenceIndex": 28,
@@ -1344,12 +1214,10 @@ export default {
         "much to his embarrassment"
       ],
       "optionReasons": {
-        "embarrass-mcq-13": "本句指「令某人尷尬的是」。",
-        "embarrass-mcq-12": "「尷尬；難堪」是「embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-14": "「造成尷尬」是「cause embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-11": "「令人難堪的錯誤」是「embarrassing mistake」的用法，與本句語境不同。",
-        "embarrass-mcq-15": "「免某人難堪」是「save someone embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-10": "「尷尬時刻」是「embarrassing moment」的用法，與本句語境不同。"
+        "embarrass-mcq-13": "本句的「much to his embarrassment」指「令某人尷尬的是」。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-13"
     },
@@ -1361,11 +1229,9 @@ export default {
       "masked": "The error caused considerable ____.",
       "options": [
         "embarrass-mcq-14",
-        "embarrass-mcq-13",
-        "embarrass-mcq-15",
-        "embarrass-mcq-12",
+        "embarrass-mcq-19",
         "embarrass-mcq-16",
-        "embarrass-mcq-11"
+        "embarrass-mcq-03"
       ],
       "explanation": "本句的「embarrassment」指「造成尷尬」。",
       "sentenceIndex": 29,
@@ -1374,12 +1240,10 @@ export default {
         "embarrassment"
       ],
       "optionReasons": {
-        "embarrass-mcq-14": "本句指「造成尷尬」。",
-        "embarrass-mcq-13": "「令某人尷尬的是」是「to someone's embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-15": "「免某人難堪」是「save someone embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-12": "「尷尬；難堪」是「embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-11": "「令人難堪的錯誤」是「embarrassing mistake」的用法，與本句語境不同。"
+        "embarrass-mcq-14": "本句的「embarrassment」指「造成尷尬」。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-14"
     },
@@ -1391,11 +1255,9 @@ export default {
       "masked": "He apologized for causing her ____.",
       "options": [
         "embarrass-mcq-14",
-        "embarrass-mcq-13",
-        "embarrass-mcq-15",
-        "embarrass-mcq-12",
-        "embarrass-mcq-16",
-        "embarrass-mcq-11"
+        "embarrass-mcq-11",
+        "embarrass-mcq-19",
+        "embarrass-mcq-03"
       ],
       "explanation": "本句的「embarrassment」指「造成尷尬」。",
       "sentenceIndex": 30,
@@ -1404,12 +1266,10 @@ export default {
         "embarrassment"
       ],
       "optionReasons": {
-        "embarrass-mcq-14": "本句指「造成尷尬」。",
-        "embarrass-mcq-13": "「令某人尷尬的是」是「to someone's embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-15": "「免某人難堪」是「save someone embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-12": "「尷尬；難堪」是「embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-11": "「令人難堪的錯誤」是「embarrassing mistake」的用法，與本句語境不同。"
+        "embarrass-mcq-14": "本句的「embarrassment」指「造成尷尬」。",
+        "embarrass-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-14"
     },
@@ -1421,11 +1281,9 @@ export default {
       "masked": "I told him privately to ____.",
       "options": [
         "embarrass-mcq-15",
-        "embarrass-mcq-14",
-        "embarrass-mcq-16",
-        "embarrass-mcq-13",
-        "embarrass-mcq-17",
-        "embarrass-mcq-12"
+        "embarrass-mcq-10",
+        "embarrass-mcq-08",
+        "embarrass-mcq-18"
       ],
       "explanation": "本句的「save him embarrassment」指「免某人難堪」。",
       "sentenceIndex": 31,
@@ -1434,12 +1292,10 @@ export default {
         "save him embarrassment"
       ],
       "optionReasons": {
-        "embarrass-mcq-15": "本句指「免某人難堪」。",
-        "embarrass-mcq-14": "「造成尷尬」是「cause embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-13": "「令某人尷尬的是」是「to someone's embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-17": "「令人難堪的人／事」是「an embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-12": "「尷尬；難堪」是「embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-15": "本句的「save him embarrassment」指「免某人難堪」。",
+        "embarrass-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-15"
     },
@@ -1451,11 +1307,9 @@ export default {
       "masked": "She quietly corrected the mistake and ____.",
       "options": [
         "embarrass-mcq-15",
-        "embarrass-mcq-14",
-        "embarrass-mcq-16",
-        "embarrass-mcq-13",
-        "embarrass-mcq-17",
-        "embarrass-mcq-12"
+        "embarrass-mcq-04",
+        "embarrass-mcq-18",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「saved me some embarrassment」指「免某人難堪」。",
       "sentenceIndex": 32,
@@ -1464,12 +1318,10 @@ export default {
         "saved me some embarrassment"
       ],
       "optionReasons": {
-        "embarrass-mcq-15": "本句指「免某人難堪」。",
-        "embarrass-mcq-14": "「造成尷尬」是「cause embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-13": "「令某人尷尬的是」是「to someone's embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-17": "「令人難堪的人／事」是「an embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-12": "「尷尬；難堪」是「embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-15": "本句的「saved me some embarrassment」指「免某人難堪」。",
+        "embarrass-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-15"
     },
@@ -1481,11 +1333,9 @@ export default {
       "masked": "The incident caused him considerable ____.",
       "options": [
         "embarrass-mcq-16",
-        "embarrass-mcq-15",
-        "embarrass-mcq-17",
-        "embarrass-mcq-14",
-        "embarrass-mcq-18",
-        "embarrass-mcq-13"
+        "embarrass-mcq-13",
+        "embarrass-mcq-08",
+        "embarrass-mcq-19"
       ],
       "explanation": "本句的「public embarrassment」指「當眾難堪」。",
       "sentenceIndex": 33,
@@ -1494,12 +1344,10 @@ export default {
         "public embarrassment"
       ],
       "optionReasons": {
-        "embarrass-mcq-16": "本句指「當眾難堪」。",
-        "embarrass-mcq-15": "「免某人難堪」是「save someone embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-17": "「令人難堪的人／事」是「an embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-14": "「造成尷尬」是「cause embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-18": "「令 X 丟臉的事」是「an embarrassment to X」的用法，與本句語境不同。",
-        "embarrass-mcq-13": "「令某人尷尬的是」是「to someone's embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-16": "本句的「public embarrassment」指「當眾難堪」。",
+        "embarrass-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-16"
     },
@@ -1511,11 +1359,9 @@ export default {
       "masked": "She wanted to avoid ____.",
       "options": [
         "embarrass-mcq-16",
-        "embarrass-mcq-15",
-        "embarrass-mcq-17",
-        "embarrass-mcq-14",
         "embarrass-mcq-18",
-        "embarrass-mcq-13"
+        "embarrass-mcq-14",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「public embarrassment」指「當眾難堪」。",
       "sentenceIndex": 34,
@@ -1524,12 +1370,10 @@ export default {
         "public embarrassment"
       ],
       "optionReasons": {
-        "embarrass-mcq-16": "本句指「當眾難堪」。",
-        "embarrass-mcq-15": "「免某人難堪」是「save someone embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-17": "「令人難堪的人／事」是「an embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-14": "「造成尷尬」是「cause embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-18": "「令 X 丟臉的事」是「an embarrassment to X」的用法，與本句語境不同。",
-        "embarrass-mcq-13": "「令某人尷尬的是」是「to someone's embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-16": "本句的「public embarrassment」指「當眾難堪」。",
+        "embarrass-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-16"
     },
@@ -1541,11 +1385,8 @@ export default {
       "masked": "The repeated errors became an ____.",
       "options": [
         "embarrass-mcq-17",
-        "embarrass-mcq-16",
-        "embarrass-mcq-18",
-        "embarrass-mcq-15",
-        "embarrass-mcq-19",
-        "embarrass-mcq-14"
+        "embarrass-mcq-07",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「embarrassment to the company」指「令人難堪的人／事」。",
       "sentenceIndex": 35,
@@ -1554,12 +1395,9 @@ export default {
         "embarrassment to the company"
       ],
       "optionReasons": {
-        "embarrass-mcq-17": "本句指「令人難堪的人／事」。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-18": "「令 X 丟臉的事」是「an embarrassment to X」的用法，與本句語境不同。",
-        "embarrass-mcq-15": "「免某人難堪」是「save someone embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-19": "「好選擇多得難取捨」是「embarrassment of riches」的用法，與本句語境不同。",
-        "embarrass-mcq-14": "「造成尷尬」是「cause embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-17": "本句的「embarrassment to the company」指「令人難堪的人／事」。",
+        "embarrass-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-17"
     },
@@ -1571,11 +1409,8 @@ export default {
       "masked": "The scandal was a major ____ for the organization.",
       "options": [
         "embarrass-mcq-17",
-        "embarrass-mcq-16",
-        "embarrass-mcq-18",
-        "embarrass-mcq-15",
-        "embarrass-mcq-19",
-        "embarrass-mcq-14"
+        "embarrass-mcq-14",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「embarrassment」指「令人難堪的人／事」。",
       "sentenceIndex": 36,
@@ -1584,12 +1419,9 @@ export default {
         "embarrassment"
       ],
       "optionReasons": {
-        "embarrass-mcq-17": "本句指「令人難堪的人／事」。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-18": "「令 X 丟臉的事」是「an embarrassment to X」的用法，與本句語境不同。",
-        "embarrass-mcq-15": "「免某人難堪」是「save someone embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-19": "「好選擇多得難取捨」是「embarrassment of riches」的用法，與本句語境不同。",
-        "embarrass-mcq-14": "「造成尷尬」是「cause embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-17": "本句的「embarrassment」指「令人難堪的人／事」。",
+        "embarrass-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-17"
     },
@@ -1601,11 +1433,9 @@ export default {
       "masked": "The unfinished project became an ____.",
       "options": [
         "embarrass-mcq-18",
-        "embarrass-mcq-17",
-        "embarrass-mcq-19",
-        "embarrass-mcq-16",
-        "embarrass-mcq-20",
-        "embarrass-mcq-15"
+        "embarrass-mcq-14",
+        "embarrass-mcq-15",
+        "embarrass-mcq-08"
       ],
       "explanation": "本句的「embarrassment to the department」指「令 X 丟臉的事」。",
       "sentenceIndex": 37,
@@ -1614,12 +1444,10 @@ export default {
         "embarrassment to the department"
       ],
       "optionReasons": {
-        "embarrass-mcq-18": "本句指「令 X 丟臉的事」。",
-        "embarrass-mcq-17": "「令人難堪的人／事」是「an embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-19": "「好選擇多得難取捨」是「embarrassment of riches」的用法，與本句語境不同。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-20": "「尷尬地／令人難堪地」是「embarrassingly」的用法，與本句語境不同。",
-        "embarrass-mcq-15": "「免某人難堪」是「save someone embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-18": "本句的「embarrassment to the department」指「令 X 丟臉的事」。",
+        "embarrass-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-18"
     },
@@ -1631,11 +1459,9 @@ export default {
       "masked": "The error was an ____.",
       "options": [
         "embarrass-mcq-18",
-        "embarrass-mcq-17",
-        "embarrass-mcq-19",
         "embarrass-mcq-16",
-        "embarrass-mcq-20",
-        "embarrass-mcq-15"
+        "embarrass-mcq-19",
+        "embarrass-mcq-14"
       ],
       "explanation": "本句的「embarrassment to the team」指「令 X 丟臉的事」。",
       "sentenceIndex": 38,
@@ -1644,12 +1470,10 @@ export default {
         "embarrassment to the team"
       ],
       "optionReasons": {
-        "embarrass-mcq-18": "本句指「令 X 丟臉的事」。",
-        "embarrass-mcq-17": "「令人難堪的人／事」是「an embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-19": "「好選擇多得難取捨」是「embarrassment of riches」的用法，與本句語境不同。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-20": "「尷尬地／令人難堪地」是「embarrassingly」的用法，與本句語境不同。",
-        "embarrass-mcq-15": "「免某人難堪」是「save someone embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-18": "本句的「embarrassment to the team」指「令 X 丟臉的事」。",
+        "embarrass-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-18"
     },
@@ -1661,10 +1485,8 @@ export default {
       "masked": "With so many excellent candidates, we have an ____.",
       "options": [
         "embarrass-mcq-19",
+        "embarrass-mcq-14",
         "embarrass-mcq-18",
-        "embarrass-mcq-20",
-        "embarrass-mcq-17",
-        "embarrass-mcq-21",
         "embarrass-mcq-16"
       ],
       "explanation": "本句的「embarrassment of riches」指「好選擇多得難取捨」。",
@@ -1674,12 +1496,10 @@ export default {
         "embarrassment of riches"
       ],
       "optionReasons": {
-        "embarrass-mcq-19": "本句指「好選擇多得難取捨」。",
-        "embarrass-mcq-18": "「令 X 丟臉的事」是「an embarrassment to X」的用法，與本句語境不同。",
-        "embarrass-mcq-20": "「尷尬地／令人難堪地」是「embarrassingly」的用法，與本句語境不同。",
-        "embarrass-mcq-17": "「令人難堪的人／事」是「an embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-21": "「在其他人面前使某人感到丟臉、尷尬或被暴露」是「2. embarrass someone in front of others — 當眾令某人難堪」的用法，與本句語境不同。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-19": "本句的「embarrassment of riches」指「好選擇多得難取捨」。",
+        "embarrass-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-19"
     },
@@ -1691,11 +1511,9 @@ export default {
       "masked": "The restaurant offers an ____ on its dessert menu.",
       "options": [
         "embarrass-mcq-19",
-        "embarrass-mcq-18",
-        "embarrass-mcq-20",
-        "embarrass-mcq-17",
-        "embarrass-mcq-21",
-        "embarrass-mcq-16"
+        "embarrass-mcq-03",
+        "embarrass-mcq-07",
+        "embarrass-mcq-11"
       ],
       "explanation": "本句的「embarrassment of riches」指「好選擇多得難取捨」。",
       "sentenceIndex": 40,
@@ -1704,12 +1522,10 @@ export default {
         "embarrassment of riches"
       ],
       "optionReasons": {
-        "embarrass-mcq-19": "本句指「好選擇多得難取捨」。",
-        "embarrass-mcq-18": "「令 X 丟臉的事」是「an embarrassment to X」的用法，與本句語境不同。",
-        "embarrass-mcq-20": "「尷尬地／令人難堪地」是「embarrassingly」的用法，與本句語境不同。",
-        "embarrass-mcq-17": "「令人難堪的人／事」是「an embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-21": "「在其他人面前使某人感到丟臉、尷尬或被暴露」是「2. embarrass someone in front of others — 當眾令某人難堪」的用法，與本句語境不同。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-19": "本句的「embarrassment of riches」指「好選擇多得難取捨」。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-19"
     },
@@ -1721,11 +1537,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "embarrass-mcq-20",
-        "embarrass-mcq-19",
-        "embarrass-mcq-21",
-        "embarrass-mcq-18",
-        "embarrass-mcq-17",
-        "embarrass-mcq-16"
+        "embarrass-mcq-08",
+        "embarrass-mcq-03",
+        "embarrass-mcq-19"
       ],
       "explanation": "本句的「embarrassingly late」指「尷尬地／令人難堪地」。",
       "sentenceIndex": 41,
@@ -1734,12 +1548,10 @@ export default {
         "embarrassingly late"
       ],
       "optionReasons": {
-        "embarrass-mcq-20": "本句指「尷尬地／令人難堪地」。",
-        "embarrass-mcq-19": "「好選擇多得難取捨」是「embarrassment of riches」的用法，與本句語境不同。",
-        "embarrass-mcq-21": "「在其他人面前使某人感到丟臉、尷尬或被暴露」是「2. embarrass someone in front of others — 當眾令某人難堪」的用法，與本句語境不同。",
-        "embarrass-mcq-18": "「令 X 丟臉的事」是「an embarrassment to X」的用法，與本句語境不同。",
-        "embarrass-mcq-17": "「令人難堪的人／事」是「an embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-20": "本句的「embarrassingly late」指「尷尬地／令人難堪地」。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-20"
     },
@@ -1751,11 +1563,9 @@ export default {
       "masked": "The answer was ____.",
       "options": [
         "embarrass-mcq-20",
+        "embarrass-mcq-08",
         "embarrass-mcq-19",
-        "embarrass-mcq-21",
-        "embarrass-mcq-18",
-        "embarrass-mcq-17",
-        "embarrass-mcq-16"
+        "embarrass-mcq-03"
       ],
       "explanation": "本句的「embarrassingly simple」指「尷尬地／令人難堪地」。",
       "sentenceIndex": 42,
@@ -1764,12 +1574,10 @@ export default {
         "embarrassingly simple"
       ],
       "optionReasons": {
-        "embarrass-mcq-20": "本句指「尷尬地／令人難堪地」。",
-        "embarrass-mcq-19": "「好選擇多得難取捨」是「embarrassment of riches」的用法，與本句語境不同。",
-        "embarrass-mcq-21": "「在其他人面前使某人感到丟臉、尷尬或被暴露」是「2. embarrass someone in front of others — 當眾令某人難堪」的用法，與本句語境不同。",
-        "embarrass-mcq-18": "「令 X 丟臉的事」是「an embarrassment to X」的用法，與本句語境不同。",
-        "embarrass-mcq-17": "「令人難堪的人／事」是「an embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-20": "本句的「embarrassingly simple」指「尷尬地／令人難堪地」。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-20"
     },
@@ -1781,11 +1589,9 @@ export default {
       "masked": "Attendance was ____.",
       "options": [
         "embarrass-mcq-20",
-        "embarrass-mcq-19",
-        "embarrass-mcq-21",
-        "embarrass-mcq-18",
-        "embarrass-mcq-17",
-        "embarrass-mcq-16"
+        "embarrass-mcq-08",
+        "embarrass-mcq-03",
+        "embarrass-mcq-19"
       ],
       "explanation": "本句的「embarrassingly low」指「尷尬地／令人難堪地」。",
       "sentenceIndex": 43,
@@ -1794,12 +1600,10 @@ export default {
         "embarrassingly low"
       ],
       "optionReasons": {
-        "embarrass-mcq-20": "本句指「尷尬地／令人難堪地」。",
-        "embarrass-mcq-19": "「好選擇多得難取捨」是「embarrassment of riches」的用法，與本句語境不同。",
-        "embarrass-mcq-21": "「在其他人面前使某人感到丟臉、尷尬或被暴露」是「2. embarrass someone in front of others — 當眾令某人難堪」的用法，與本句語境不同。",
-        "embarrass-mcq-18": "「令 X 丟臉的事」是「an embarrassment to X」的用法，與本句語境不同。",
-        "embarrass-mcq-17": "「令人難堪的人／事」是「an embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-20": "本句的「embarrassingly low」指「尷尬地／令人難堪地」。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-20"
     },
@@ -1811,11 +1615,9 @@ export default {
       "masked": "My knowledge of the subject was ____.",
       "options": [
         "embarrass-mcq-20",
-        "embarrass-mcq-19",
-        "embarrass-mcq-21",
-        "embarrass-mcq-18",
-        "embarrass-mcq-17",
-        "embarrass-mcq-16"
+        "embarrass-mcq-08",
+        "embarrass-mcq-03",
+        "embarrass-mcq-19"
       ],
       "explanation": "本句的「embarrassingly limited」指「尷尬地／令人難堪地」。",
       "sentenceIndex": 44,
@@ -1824,12 +1626,10 @@ export default {
         "embarrassingly limited"
       ],
       "optionReasons": {
-        "embarrass-mcq-20": "本句指「尷尬地／令人難堪地」。",
-        "embarrass-mcq-19": "「好選擇多得難取捨」是「embarrassment of riches」的用法，與本句語境不同。",
-        "embarrass-mcq-21": "「在其他人面前使某人感到丟臉、尷尬或被暴露」是「2. embarrass someone in front of others — 當眾令某人難堪」的用法，與本句語境不同。",
-        "embarrass-mcq-18": "「令 X 丟臉的事」是「an embarrassment to X」的用法，與本句語境不同。",
-        "embarrass-mcq-17": "「令人難堪的人／事」是「an embarrassment」的用法，與本句語境不同。",
-        "embarrass-mcq-16": "「當眾難堪」是「public embarrassment」的用法，與本句語境不同。"
+        "embarrass-mcq-20": "本句的「embarrassingly limited」指「尷尬地／令人難堪地」。",
+        "embarrass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "embarrass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "embarrass-mcq-20"
     }
@@ -1841,5 +1641,7 @@ export default {
     "sha256": "b363cf4b4e4d3498e9d6de6d7bca8587414560dfe3c34cf05d1b64414e5901ec",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -656,11 +656,9 @@ export default {
       "masked": "She ____ under a flowerpot.",
       "options": [
         "hide-mcq-02",
-        "hide-mcq-01",
-        "hide-mcq-03",
-        "hide-mcq-04",
-        "hide-mcq-05",
-        "hide-mcq-06"
+        "hide-mcq-27",
+        "hide-mcq-24",
+        "hide-mcq-23"
       ],
       "explanation": "本句的「hid the key」指「把某物藏起來不讓某人看見／找到」。",
       "sentenceIndex": 2,
@@ -669,12 +667,10 @@ export default {
         "hid the key"
       ],
       "optionReasons": {
-        "hide-mcq-02": "本句指「把某物藏起來不讓某人看見／找到」。",
-        "hide-mcq-01": "「把物件放在不容易被看見／找到的地方；藏起來」與本句語境不同。",
-        "hide-mcq-03": "「躲到不容易被發現的地方；躲藏」與本句語境不同。",
-        "hide-mcq-04": "「躲避某人，不讓對方找到」與本句語境不同。",
-        "hide-mcq-05": "「隱藏行蹤以避開危險、注意或追捕」與本句語境不同。",
-        "hide-mcq-06": "「故意不讓別人知道某事；隱瞞」與本句語境不同。"
+        "hide-mcq-02": "本句的「hid the key」指「把某物藏起來不讓某人看見／找到」。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-02"
     },
@@ -686,11 +682,9 @@ export default {
       "masked": "Someone had ____.",
       "options": [
         "hide-mcq-02",
-        "hide-mcq-01",
-        "hide-mcq-03",
-        "hide-mcq-04",
-        "hide-mcq-05",
-        "hide-mcq-06"
+        "hide-mcq-25",
+        "hide-mcq-09",
+        "hide-mcq-24"
       ],
       "explanation": "本句的「hidden my phone」指「把某物藏起來不讓某人看見／找到」。",
       "sentenceIndex": 3,
@@ -699,12 +693,10 @@ export default {
         "hidden my phone"
       ],
       "optionReasons": {
-        "hide-mcq-02": "本句指「把某物藏起來不讓某人看見／找到」。",
-        "hide-mcq-01": "「把物件放在不容易被看見／找到的地方；藏起來」與本句語境不同。",
-        "hide-mcq-03": "「躲到不容易被發現的地方；躲藏」與本句語境不同。",
-        "hide-mcq-04": "「躲避某人，不讓對方找到」與本句語境不同。",
-        "hide-mcq-05": "「隱藏行蹤以避開危險、注意或追捕」與本句語境不同。",
-        "hide-mcq-06": "「故意不讓別人知道某事；隱瞞」與本句語境不同。"
+        "hide-mcq-02": "本句的「hidden my phone」指「把某物藏起來不讓某人看見／找到」。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-02"
     },
@@ -716,11 +708,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "hide-mcq-02",
-        "hide-mcq-01",
-        "hide-mcq-03",
-        "hide-mcq-04",
-        "hide-mcq-05",
-        "hide-mcq-06"
+        "hide-mcq-27",
+        "hide-mcq-22",
+        "hide-mcq-09"
       ],
       "explanation": "本句的「hid the letter from his parents」指「把某物藏起來不讓某人看見／找到」。",
       "sentenceIndex": 4,
@@ -729,12 +719,10 @@ export default {
         "hid the letter from his parents"
       ],
       "optionReasons": {
-        "hide-mcq-02": "本句指「把某物藏起來不讓某人看見／找到」。",
-        "hide-mcq-01": "「把物件放在不容易被看見／找到的地方；藏起來」與本句語境不同。",
-        "hide-mcq-03": "「躲到不容易被發現的地方；躲藏」與本句語境不同。",
-        "hide-mcq-04": "「躲避某人，不讓對方找到」與本句語境不同。",
-        "hide-mcq-05": "「隱藏行蹤以避開危險、注意或追捕」與本句語境不同。",
-        "hide-mcq-06": "「故意不讓別人知道某事；隱瞞」與本句語境不同。"
+        "hide-mcq-02": "本句的「hid the letter from his parents」指「把某物藏起來不讓某人看見／找到」。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-02"
     },
@@ -746,11 +734,9 @@ export default {
       "masked": "She ____ until his birthday.",
       "options": [
         "hide-mcq-02",
-        "hide-mcq-01",
-        "hide-mcq-03",
-        "hide-mcq-04",
-        "hide-mcq-05",
-        "hide-mcq-06"
+        "hide-mcq-25",
+        "hide-mcq-27",
+        "hide-mcq-23"
       ],
       "explanation": "本句的「hid the gift from her brother」指「把某物藏起來不讓某人看見／找到」。",
       "sentenceIndex": 5,
@@ -759,12 +745,10 @@ export default {
         "hid the gift from her brother"
       ],
       "optionReasons": {
-        "hide-mcq-02": "本句指「把某物藏起來不讓某人看見／找到」。",
-        "hide-mcq-01": "「把物件放在不容易被看見／找到的地方；藏起來」與本句語境不同。",
-        "hide-mcq-03": "「躲到不容易被發現的地方；躲藏」與本句語境不同。",
-        "hide-mcq-04": "「躲避某人，不讓對方找到」與本句語境不同。",
-        "hide-mcq-05": "「隱藏行蹤以避開危險、注意或追捕」與本句語境不同。",
-        "hide-mcq-06": "「故意不讓別人知道某事；隱瞞」與本句語境不同。"
+        "hide-mcq-02": "本句的「hid the gift from her brother」指「把某物藏起來不讓某人看見／找到」。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-02"
     },
@@ -776,11 +760,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "hide-mcq-04",
-        "hide-mcq-03",
-        "hide-mcq-05",
-        "hide-mcq-02",
-        "hide-mcq-06",
-        "hide-mcq-01"
+        "hide-mcq-18",
+        "hide-mcq-27",
+        "hide-mcq-10"
       ],
       "explanation": "本句的「hiding from the police」指「躲避某人，不讓對方找到」。",
       "sentenceIndex": 8,
@@ -789,12 +771,10 @@ export default {
         "hiding from the police"
       ],
       "optionReasons": {
-        "hide-mcq-04": "本句指「躲避某人，不讓對方找到」。",
-        "hide-mcq-03": "「躲到不容易被發現的地方；躲藏」與本句語境不同。",
-        "hide-mcq-05": "「隱藏行蹤以避開危險、注意或追捕」與本句語境不同。",
-        "hide-mcq-02": "「把某物藏起來不讓某人看見／找到」與本句語境不同。",
-        "hide-mcq-06": "「故意不讓別人知道某事；隱瞞」與本句語境不同。",
-        "hide-mcq-01": "「把物件放在不容易被看見／找到的地方；藏起來」與本句語境不同。"
+        "hide-mcq-04": "本句的「hiding from the police」指「躲避某人，不讓對方找到」。",
+        "hide-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-04"
     },
@@ -806,11 +786,9 @@ export default {
       "masked": "The kitten ____.",
       "options": [
         "hide-mcq-04",
-        "hide-mcq-03",
-        "hide-mcq-05",
-        "hide-mcq-02",
-        "hide-mcq-06",
-        "hide-mcq-01"
+        "hide-mcq-23",
+        "hide-mcq-22",
+        "hide-mcq-27"
       ],
       "explanation": "本句的「hid from the visitors」指「躲避某人，不讓對方找到」。",
       "sentenceIndex": 9,
@@ -819,12 +797,10 @@ export default {
         "hid from the visitors"
       ],
       "optionReasons": {
-        "hide-mcq-04": "本句指「躲避某人，不讓對方找到」。",
-        "hide-mcq-03": "「躲到不容易被發現的地方；躲藏」與本句語境不同。",
-        "hide-mcq-05": "「隱藏行蹤以避開危險、注意或追捕」與本句語境不同。",
-        "hide-mcq-02": "「把某物藏起來不讓某人看見／找到」與本句語境不同。",
-        "hide-mcq-06": "「故意不讓別人知道某事；隱瞞」與本句語境不同。",
-        "hide-mcq-01": "「把物件放在不容易被看見／找到的地方；藏起來」與本句語境不同。"
+        "hide-mcq-04": "本句的「hid from the visitors」指「躲避某人，不讓對方找到」。",
+        "hide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-04"
     },
@@ -836,11 +812,9 @@ export default {
       "masked": "The witnesses were forced to ____ for several days.",
       "options": [
         "hide-mcq-05",
-        "hide-mcq-04",
-        "hide-mcq-06",
-        "hide-mcq-03",
-        "hide-mcq-07",
-        "hide-mcq-02"
+        "hide-mcq-14",
+        "hide-mcq-27",
+        "hide-mcq-11"
       ],
       "explanation": "本句的「hide」指「隱藏行蹤以避開危險、注意或追捕」。",
       "sentenceIndex": 10,
@@ -849,12 +823,10 @@ export default {
         "hide"
       ],
       "optionReasons": {
-        "hide-mcq-05": "本句指「隱藏行蹤以避開危險、注意或追捕」。",
-        "hide-mcq-04": "「躲避某人，不讓對方找到」與本句語境不同。",
-        "hide-mcq-06": "「故意不讓別人知道某事；隱瞞」與本句語境不同。",
-        "hide-mcq-03": "「躲到不容易被發現的地方；躲藏」與本句語境不同。",
-        "hide-mcq-07": "「向某人隱瞞某事」與本句語境不同。",
-        "hide-mcq-02": "「把某物藏起來不讓某人看見／找到」與本句語境不同。"
+        "hide-mcq-05": "本句的「hide」指「隱藏行蹤以避開危險、注意或追捕」。",
+        "hide-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-05"
     },
@@ -866,11 +838,9 @@ export default {
       "masked": "He went into the forest to ____.",
       "options": [
         "hide-mcq-05",
-        "hide-mcq-04",
-        "hide-mcq-06",
-        "hide-mcq-03",
-        "hide-mcq-07",
-        "hide-mcq-02"
+        "hide-mcq-24",
+        "hide-mcq-27",
+        "hide-mcq-14"
       ],
       "explanation": "本句的「hide」指「隱藏行蹤以避開危險、注意或追捕」。",
       "sentenceIndex": 11,
@@ -879,12 +849,10 @@ export default {
         "hide"
       ],
       "optionReasons": {
-        "hide-mcq-05": "本句指「隱藏行蹤以避開危險、注意或追捕」。",
-        "hide-mcq-04": "「躲避某人，不讓對方找到」與本句語境不同。",
-        "hide-mcq-06": "「故意不讓別人知道某事；隱瞞」與本句語境不同。",
-        "hide-mcq-03": "「躲到不容易被發現的地方；躲藏」與本句語境不同。",
-        "hide-mcq-07": "「向某人隱瞞某事」與本句語境不同。",
-        "hide-mcq-02": "「把某物藏起來不讓某人看見／找到」與本句語境不同。"
+        "hide-mcq-05": "本句的「hide」指「隱藏行蹤以避開危險、注意或追捕」。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-05"
     },
@@ -896,11 +864,9 @@ export default {
       "masked": "She tried to ____.",
       "options": [
         "hide-mcq-06",
-        "hide-mcq-05",
-        "hide-mcq-07",
-        "hide-mcq-04",
-        "hide-mcq-08",
-        "hide-mcq-03"
+        "hide-mcq-26",
+        "hide-mcq-30",
+        "hide-mcq-11"
       ],
       "explanation": "本句的「hide the truth」指「故意不讓別人知道某事；隱瞞」。",
       "sentenceIndex": 12,
@@ -909,12 +875,10 @@ export default {
         "hide the truth"
       ],
       "optionReasons": {
-        "hide-mcq-06": "本句指「故意不讓別人知道某事；隱瞞」。",
-        "hide-mcq-05": "「隱藏行蹤以避開危險、注意或追捕」與本句語境不同。",
-        "hide-mcq-07": "「向某人隱瞞某事」與本句語境不同。",
-        "hide-mcq-04": "「躲避某人，不讓對方找到」與本句語境不同。",
-        "hide-mcq-08": "「不讓別人察覺自己的情緒；掩飾」與本句語境不同。",
-        "hide-mcq-03": "「躲到不容易被發現的地方；躲藏」與本句語境不同。"
+        "hide-mcq-06": "本句的「hide the truth」指「故意不讓別人知道某事；隱瞞」。",
+        "hide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-06"
     },
@@ -926,11 +890,9 @@ export default {
       "masked": "The company was accused of ____.",
       "options": [
         "hide-mcq-06",
-        "hide-mcq-05",
-        "hide-mcq-07",
-        "hide-mcq-04",
-        "hide-mcq-08",
-        "hide-mcq-03"
+        "hide-mcq-16",
+        "hide-mcq-27",
+        "hide-mcq-21"
       ],
       "explanation": "本句的「hiding important information」指「故意不讓別人知道某事；隱瞞」。",
       "sentenceIndex": 13,
@@ -939,12 +901,10 @@ export default {
         "hiding important information"
       ],
       "optionReasons": {
-        "hide-mcq-06": "本句指「故意不讓別人知道某事；隱瞞」。",
-        "hide-mcq-05": "「隱藏行蹤以避開危險、注意或追捕」與本句語境不同。",
-        "hide-mcq-07": "「向某人隱瞞某事」與本句語境不同。",
-        "hide-mcq-04": "「躲避某人，不讓對方找到」與本句語境不同。",
-        "hide-mcq-08": "「不讓別人察覺自己的情緒；掩飾」與本句語境不同。",
-        "hide-mcq-03": "「躲到不容易被發現的地方；躲藏」與本句語境不同。"
+        "hide-mcq-06": "本句的「hiding important information」指「故意不讓別人知道某事；隱瞞」。",
+        "hide-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-06"
     },
@@ -956,11 +916,9 @@ export default {
       "masked": "Why did you ____?",
       "options": [
         "hide-mcq-07",
-        "hide-mcq-06",
-        "hide-mcq-08",
-        "hide-mcq-05",
-        "hide-mcq-09",
-        "hide-mcq-04"
+        "hide-mcq-21",
+        "hide-mcq-25",
+        "hide-mcq-30"
       ],
       "explanation": "本句的「hide this from me」指「向某人隱瞞某事」。",
       "sentenceIndex": 14,
@@ -969,12 +927,10 @@ export default {
         "hide this from me"
       ],
       "optionReasons": {
-        "hide-mcq-07": "本句指「向某人隱瞞某事」。",
-        "hide-mcq-06": "「故意不讓別人知道某事；隱瞞」與本句語境不同。",
-        "hide-mcq-08": "「不讓別人察覺自己的情緒；掩飾」與本句語境不同。",
-        "hide-mcq-05": "「隱藏行蹤以避開危險、注意或追捕」與本句語境不同。",
-        "hide-mcq-09": "「忍住／掩飾笑意、表情或反應」與本句語境不同。",
-        "hide-mcq-04": "「躲避某人，不讓對方找到」與本句語境不同。"
+        "hide-mcq-07": "本句的「hide this from me」指「向某人隱瞞某事」。",
+        "hide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-07"
     },
@@ -986,11 +942,9 @@ export default {
       "masked": "He had been ____.",
       "options": [
         "hide-mcq-07",
-        "hide-mcq-06",
-        "hide-mcq-08",
-        "hide-mcq-05",
-        "hide-mcq-09",
-        "hide-mcq-04"
+        "hide-mcq-11",
+        "hide-mcq-30",
+        "hide-mcq-24"
       ],
       "explanation": "本句的「hiding the problem from his family」指「向某人隱瞞某事」。",
       "sentenceIndex": 15,
@@ -999,12 +953,10 @@ export default {
         "hiding the problem from his family"
       ],
       "optionReasons": {
-        "hide-mcq-07": "本句指「向某人隱瞞某事」。",
-        "hide-mcq-06": "「故意不讓別人知道某事；隱瞞」與本句語境不同。",
-        "hide-mcq-08": "「不讓別人察覺自己的情緒；掩飾」與本句語境不同。",
-        "hide-mcq-05": "「隱藏行蹤以避開危險、注意或追捕」與本句語境不同。",
-        "hide-mcq-09": "「忍住／掩飾笑意、表情或反應」與本句語境不同。",
-        "hide-mcq-04": "「躲避某人，不讓對方找到」與本句語境不同。"
+        "hide-mcq-07": "本句的「hiding the problem from his family」指「向某人隱瞞某事」。",
+        "hide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-07"
     },
@@ -1016,11 +968,9 @@ export default {
       "masked": "She struggled to ____.",
       "options": [
         "hide-mcq-09",
-        "hide-mcq-08",
-        "hide-mcq-10",
-        "hide-mcq-07",
-        "hide-mcq-11",
-        "hide-mcq-06"
+        "hide-mcq-28",
+        "hide-mcq-30",
+        "hide-mcq-25"
       ],
       "explanation": "本句的「hide a smile」指「忍住／掩飾笑意、表情或反應」。",
       "sentenceIndex": 18,
@@ -1029,12 +979,10 @@ export default {
         "hide a smile"
       ],
       "optionReasons": {
-        "hide-mcq-09": "本句指「忍住／掩飾笑意、表情或反應」。",
-        "hide-mcq-08": "「不讓別人察覺自己的情緒；掩飾」與本句語境不同。",
-        "hide-mcq-10": "「隱藏身分或真實本性」與本句語境不同。",
-        "hide-mcq-07": "「向某人隱瞞某事」與本句語境不同。",
-        "hide-mcq-11": "「把某物遮住，使人看不到」與本句語境不同。",
-        "hide-mcq-06": "「故意不讓別人知道某事；隱瞞」與本句語境不同。"
+        "hide-mcq-09": "本句的「hide a smile」指「忍住／掩飾笑意、表情或反應」。",
+        "hide-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-09"
     },
@@ -1046,11 +994,9 @@ export default {
       "masked": "He turned away to ____.",
       "options": [
         "hide-mcq-09",
-        "hide-mcq-08",
-        "hide-mcq-10",
-        "hide-mcq-07",
-        "hide-mcq-11",
-        "hide-mcq-06"
+        "hide-mcq-02",
+        "hide-mcq-19",
+        "hide-mcq-25"
       ],
       "explanation": "本句的「hide his reaction」指「忍住／掩飾笑意、表情或反應」。",
       "sentenceIndex": 19,
@@ -1059,12 +1005,10 @@ export default {
         "hide his reaction"
       ],
       "optionReasons": {
-        "hide-mcq-09": "本句指「忍住／掩飾笑意、表情或反應」。",
-        "hide-mcq-08": "「不讓別人察覺自己的情緒；掩飾」與本句語境不同。",
-        "hide-mcq-10": "「隱藏身分或真實本性」與本句語境不同。",
-        "hide-mcq-07": "「向某人隱瞞某事」與本句語境不同。",
-        "hide-mcq-11": "「把某物遮住，使人看不到」與本句語境不同。",
-        "hide-mcq-06": "「故意不讓別人知道某事；隱瞞」與本句語境不同。"
+        "hide-mcq-09": "本句的「hide his reaction」指「忍住／掩飾笑意、表情或反應」。",
+        "hide-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-09"
     },
@@ -1076,11 +1020,9 @@ export default {
       "masked": "He used a false name to ____.",
       "options": [
         "hide-mcq-10",
-        "hide-mcq-09",
+        "hide-mcq-28",
         "hide-mcq-11",
-        "hide-mcq-08",
-        "hide-mcq-12",
-        "hide-mcq-07"
+        "hide-mcq-25"
       ],
       "explanation": "本句的「hide his identity」指「隱藏身分或真實本性」。",
       "sentenceIndex": 20,
@@ -1089,12 +1031,10 @@ export default {
         "hide his identity"
       ],
       "optionReasons": {
-        "hide-mcq-10": "本句指「隱藏身分或真實本性」。",
-        "hide-mcq-09": "「忍住／掩飾笑意、表情或反應」與本句語境不同。",
-        "hide-mcq-11": "「把某物遮住，使人看不到」與本句語境不同。",
-        "hide-mcq-08": "「不讓別人察覺自己的情緒；掩飾」與本句語境不同。",
-        "hide-mcq-12": "「令畫面上的內容暫時不顯示；隱藏」與本句語境不同。",
-        "hide-mcq-07": "「向某人隱瞞某事」與本句語境不同。"
+        "hide-mcq-10": "本句的「hide his identity」指「隱藏身分或真實本性」。",
+        "hide-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-10"
     },
@@ -1106,11 +1046,9 @@ export default {
       "masked": "A friendly manner can sometimes ____.",
       "options": [
         "hide-mcq-10",
-        "hide-mcq-09",
+        "hide-mcq-22",
         "hide-mcq-11",
-        "hide-mcq-08",
-        "hide-mcq-12",
-        "hide-mcq-07"
+        "hide-mcq-28"
       ],
       "explanation": "本句的「hide a selfish nature」指「隱藏身分或真實本性」。",
       "sentenceIndex": 21,
@@ -1119,12 +1057,10 @@ export default {
         "hide a selfish nature"
       ],
       "optionReasons": {
-        "hide-mcq-10": "本句指「隱藏身分或真實本性」。",
-        "hide-mcq-09": "「忍住／掩飾笑意、表情或反應」與本句語境不同。",
-        "hide-mcq-11": "「把某物遮住，使人看不到」與本句語境不同。",
-        "hide-mcq-08": "「不讓別人察覺自己的情緒；掩飾」與本句語境不同。",
-        "hide-mcq-12": "「令畫面上的內容暫時不顯示；隱藏」與本句語境不同。",
-        "hide-mcq-07": "「向某人隱瞞某事」與本句語境不同。"
+        "hide-mcq-10": "本句的「hide a selfish nature」指「隱藏身分或真實本性」。",
+        "hide-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-10"
     },
@@ -1136,11 +1072,9 @@ export default {
       "masked": "Clouds ____.",
       "options": [
         "hide-mcq-11",
-        "hide-mcq-10",
-        "hide-mcq-12",
-        "hide-mcq-09",
-        "hide-mcq-13",
-        "hide-mcq-08"
+        "hide-mcq-25",
+        "hide-mcq-29",
+        "hide-mcq-05"
       ],
       "explanation": "本句的「hid the moon」指「把某物遮住，使人看不到」。",
       "sentenceIndex": 22,
@@ -1149,12 +1083,10 @@ export default {
         "hid the moon"
       ],
       "optionReasons": {
-        "hide-mcq-11": "本句指「把某物遮住，使人看不到」。",
-        "hide-mcq-10": "「隱藏身分或真實本性」與本句語境不同。",
-        "hide-mcq-12": "「令畫面上的內容暫時不顯示；隱藏」與本句語境不同。",
-        "hide-mcq-09": "「忍住／掩飾笑意、表情或反應」與本句語境不同。",
-        "hide-mcq-13": "「正常檢視時不顯示的隱藏檔案／資料夾」與本句語境不同。",
-        "hide-mcq-08": "「不讓別人察覺自己的情緒；掩飾」與本句語境不同。"
+        "hide-mcq-11": "本句的「hid the moon」指「把某物遮住，使人看不到」。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-11"
     },
@@ -1166,11 +1098,9 @@ export default {
       "masked": "Tall trees ____.",
       "options": [
         "hide-mcq-11",
-        "hide-mcq-10",
-        "hide-mcq-12",
-        "hide-mcq-09",
-        "hide-mcq-13",
-        "hide-mcq-08"
+        "hide-mcq-17",
+        "hide-mcq-07",
+        "hide-mcq-24"
       ],
       "explanation": "本句的「hid the house from view」指「把某物遮住，使人看不到」。",
       "sentenceIndex": 23,
@@ -1179,12 +1109,10 @@ export default {
         "hid the house from view"
       ],
       "optionReasons": {
-        "hide-mcq-11": "本句指「把某物遮住，使人看不到」。",
-        "hide-mcq-10": "「隱藏身分或真實本性」與本句語境不同。",
-        "hide-mcq-12": "「令畫面上的內容暫時不顯示；隱藏」與本句語境不同。",
-        "hide-mcq-09": "「忍住／掩飾笑意、表情或反應」與本句語境不同。",
-        "hide-mcq-13": "「正常檢視時不顯示的隱藏檔案／資料夾」與本句語境不同。",
-        "hide-mcq-08": "「不讓別人察覺自己的情緒；掩飾」與本句語境不同。"
+        "hide-mcq-11": "本句的「hid the house from view」指「把某物遮住，使人看不到」。",
+        "hide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-11"
     },
@@ -1196,11 +1124,9 @@ export default {
       "masked": "The village was ____.",
       "options": [
         "hide-mcq-11",
-        "hide-mcq-10",
-        "hide-mcq-12",
-        "hide-mcq-09",
-        "hide-mcq-13",
-        "hide-mcq-08"
+        "hide-mcq-29",
+        "hide-mcq-22",
+        "hide-mcq-15"
       ],
       "explanation": "本句的「hidden by the hills」指「把某物遮住，使人看不到」。",
       "sentenceIndex": 24,
@@ -1209,12 +1135,10 @@ export default {
         "hidden by the hills"
       ],
       "optionReasons": {
-        "hide-mcq-11": "本句指「把某物遮住，使人看不到」。",
-        "hide-mcq-10": "「隱藏身分或真實本性」與本句語境不同。",
-        "hide-mcq-12": "「令畫面上的內容暫時不顯示；隱藏」與本句語境不同。",
-        "hide-mcq-09": "「忍住／掩飾笑意、表情或反應」與本句語境不同。",
-        "hide-mcq-13": "「正常檢視時不顯示的隱藏檔案／資料夾」與本句語境不同。",
-        "hide-mcq-08": "「不讓別人察覺自己的情緒；掩飾」與本句語境不同。"
+        "hide-mcq-11": "本句的「hidden by the hills」指「把某物遮住，使人看不到」。",
+        "hide-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-11"
     },
@@ -1226,11 +1150,9 @@ export default {
       "masked": "The entrance was ____.",
       "options": [
         "hide-mcq-11",
-        "hide-mcq-10",
-        "hide-mcq-12",
-        "hide-mcq-09",
-        "hide-mcq-13",
-        "hide-mcq-08"
+        "hide-mcq-19",
+        "hide-mcq-04",
+        "hide-mcq-25"
       ],
       "explanation": "本句的「hidden behind thick bushes」指「把某物遮住，使人看不到」。",
       "sentenceIndex": 25,
@@ -1239,12 +1161,10 @@ export default {
         "hidden behind thick bushes"
       ],
       "optionReasons": {
-        "hide-mcq-11": "本句指「把某物遮住，使人看不到」。",
-        "hide-mcq-10": "「隱藏身分或真實本性」與本句語境不同。",
-        "hide-mcq-12": "「令畫面上的內容暫時不顯示；隱藏」與本句語境不同。",
-        "hide-mcq-09": "「忍住／掩飾笑意、表情或反應」與本句語境不同。",
-        "hide-mcq-13": "「正常檢視時不顯示的隱藏檔案／資料夾」與本句語境不同。",
-        "hide-mcq-08": "「不讓別人察覺自己的情緒；掩飾」與本句語境不同。"
+        "hide-mcq-11": "本句的「hidden behind thick bushes」指「把某物遮住，使人看不到」。",
+        "hide-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-11"
     },
@@ -1256,11 +1176,9 @@ export default {
       "masked": "The system contains several ____.",
       "options": [
         "hide-mcq-13",
-        "hide-mcq-12",
-        "hide-mcq-14",
-        "hide-mcq-11",
-        "hide-mcq-15",
-        "hide-mcq-10"
+        "hide-mcq-27",
+        "hide-mcq-25",
+        "hide-mcq-29"
       ],
       "explanation": "本句的「hidden files」指「正常檢視時不顯示的隱藏檔案／資料夾」。",
       "sentenceIndex": 28,
@@ -1269,12 +1187,10 @@ export default {
         "hidden files"
       ],
       "optionReasons": {
-        "hide-mcq-13": "本句指「正常檢視時不顯示的隱藏檔案／資料夾」。",
-        "hide-mcq-12": "「令畫面上的內容暫時不顯示；隱藏」與本句語境不同。",
-        "hide-mcq-14": "「躲起來；遠離他人」與本句語境不同。",
-        "hide-mcq-11": "「把某物遮住，使人看不到」與本句語境不同。",
-        "hide-mcq-15": "「把某物收藏／藏好」與本句語境不同。",
-        "hide-mcq-10": "「隱藏身分或真實本性」與本句語境不同。"
+        "hide-mcq-13": "本句的「hidden files」指「正常檢視時不顯示的隱藏檔案／資料夾」。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-13"
     },
@@ -1286,11 +1202,9 @@ export default {
       "masked": "Enable the option to show ____.",
       "options": [
         "hide-mcq-13",
-        "hide-mcq-12",
-        "hide-mcq-14",
-        "hide-mcq-11",
-        "hide-mcq-15",
-        "hide-mcq-10"
+        "hide-mcq-22",
+        "hide-mcq-27",
+        "hide-mcq-25"
       ],
       "explanation": "本句的「hidden folders」指「正常檢視時不顯示的隱藏檔案／資料夾」。",
       "sentenceIndex": 29,
@@ -1299,12 +1213,10 @@ export default {
         "hidden folders"
       ],
       "optionReasons": {
-        "hide-mcq-13": "本句指「正常檢視時不顯示的隱藏檔案／資料夾」。",
-        "hide-mcq-12": "「令畫面上的內容暫時不顯示；隱藏」與本句語境不同。",
-        "hide-mcq-14": "「躲起來；遠離他人」與本句語境不同。",
-        "hide-mcq-11": "「把某物遮住，使人看不到」與本句語境不同。",
-        "hide-mcq-15": "「把某物收藏／藏好」與本句語境不同。",
-        "hide-mcq-10": "「隱藏身分或真實本性」與本句語境不同。"
+        "hide-mcq-13": "本句的「hidden folders」指「正常檢視時不顯示的隱藏檔案／資料夾」。",
+        "hide-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-13"
     },
@@ -1316,11 +1228,9 @@ export default {
       "masked": "She ____ in her room all weekend.",
       "options": [
         "hide-mcq-14",
-        "hide-mcq-13",
-        "hide-mcq-15",
-        "hide-mcq-12",
-        "hide-mcq-16",
-        "hide-mcq-11"
+        "hide-mcq-05",
+        "hide-mcq-11",
+        "hide-mcq-25"
       ],
       "explanation": "本句的「hid away」指「躲起來；遠離他人」。",
       "sentenceIndex": 30,
@@ -1329,12 +1239,10 @@ export default {
         "hid away"
       ],
       "optionReasons": {
-        "hide-mcq-14": "本句指「躲起來；遠離他人」。",
-        "hide-mcq-13": "「正常檢視時不顯示的隱藏檔案／資料夾」與本句語境不同。",
-        "hide-mcq-15": "「把某物收藏／藏好」與本句語境不同。",
-        "hide-mcq-12": "「令畫面上的內容暫時不顯示；隱藏」與本句語境不同。",
-        "hide-mcq-16": "「人或物可以躲藏而不被看見的地方」與本句語境不同。",
-        "hide-mcq-11": "「把某物遮住，使人看不到」與本句語境不同。"
+        "hide-mcq-14": "本句的「hid away」指「躲起來；遠離他人」。",
+        "hide-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-14"
     },
@@ -1346,11 +1254,9 @@ export default {
       "masked": "He wanted to ____ from everyone.",
       "options": [
         "hide-mcq-14",
-        "hide-mcq-13",
-        "hide-mcq-15",
-        "hide-mcq-12",
-        "hide-mcq-16",
-        "hide-mcq-11"
+        "hide-mcq-17",
+        "hide-mcq-11",
+        "hide-mcq-24"
       ],
       "explanation": "本句的「hide away」指「躲起來；遠離他人」。",
       "sentenceIndex": 31,
@@ -1359,12 +1265,10 @@ export default {
         "hide away"
       ],
       "optionReasons": {
-        "hide-mcq-14": "本句指「躲起來；遠離他人」。",
-        "hide-mcq-13": "「正常檢視時不顯示的隱藏檔案／資料夾」與本句語境不同。",
-        "hide-mcq-15": "「把某物收藏／藏好」與本句語境不同。",
-        "hide-mcq-12": "「令畫面上的內容暫時不顯示；隱藏」與本句語境不同。",
-        "hide-mcq-16": "「人或物可以躲藏而不被看見的地方」與本句語境不同。",
-        "hide-mcq-11": "「把某物遮住，使人看不到」與本句語境不同。"
+        "hide-mcq-14": "本句的「hide away」指「躲起來；遠離他人」。",
+        "hide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-14"
     },
@@ -1376,11 +1280,9 @@ export default {
       "masked": "She ____ in a drawer.",
       "options": [
         "hide-mcq-15",
-        "hide-mcq-14",
-        "hide-mcq-16",
-        "hide-mcq-13",
-        "hide-mcq-17",
-        "hide-mcq-12"
+        "hide-mcq-27",
+        "hide-mcq-07",
+        "hide-mcq-22"
       ],
       "explanation": "本句的「hid the documents away」指「把某物收藏／藏好」。",
       "sentenceIndex": 32,
@@ -1389,12 +1291,10 @@ export default {
         "hid the documents away"
       ],
       "optionReasons": {
-        "hide-mcq-15": "本句指「把某物收藏／藏好」。",
-        "hide-mcq-14": "「躲起來；遠離他人」與本句語境不同。",
-        "hide-mcq-16": "「人或物可以躲藏而不被看見的地方」與本句語境不同。",
-        "hide-mcq-13": "「正常檢視時不顯示的隱藏檔案／資料夾」與本句語境不同。",
-        "hide-mcq-17": "「尤其供逃避追捕者使用的秘密藏身處」與本句語境不同。",
-        "hide-mcq-12": "「令畫面上的內容暫時不顯示；隱藏」與本句語境不同。"
+        "hide-mcq-15": "本句的「hid the documents away」指「把某物收藏／藏好」。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-15"
     },
@@ -1406,11 +1306,9 @@ export default {
       "masked": "He had ____ some emergency money.",
       "options": [
         "hide-mcq-15",
-        "hide-mcq-14",
-        "hide-mcq-16",
-        "hide-mcq-13",
-        "hide-mcq-17",
-        "hide-mcq-12"
+        "hide-mcq-26",
+        "hide-mcq-24",
+        "hide-mcq-14"
       ],
       "explanation": "本句的「hidden away」指「把某物收藏／藏好」。",
       "sentenceIndex": 33,
@@ -1419,12 +1317,10 @@ export default {
         "hidden away"
       ],
       "optionReasons": {
-        "hide-mcq-15": "本句指「把某物收藏／藏好」。",
-        "hide-mcq-14": "「躲起來；遠離他人」與本句語境不同。",
-        "hide-mcq-16": "「人或物可以躲藏而不被看見的地方」與本句語境不同。",
-        "hide-mcq-13": "「正常檢視時不顯示的隱藏檔案／資料夾」與本句語境不同。",
-        "hide-mcq-17": "「尤其供逃避追捕者使用的秘密藏身處」與本句語境不同。",
-        "hide-mcq-12": "「令畫面上的內容暫時不顯示；隱藏」與本句語境不同。"
+        "hide-mcq-15": "本句的「hidden away」指「把某物收藏／藏好」。",
+        "hide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-15"
     },
@@ -1436,11 +1332,9 @@ export default {
       "masked": "The children found a secret ____.",
       "options": [
         "hide-mcq-16",
-        "hide-mcq-15",
-        "hide-mcq-17",
-        "hide-mcq-14",
-        "hide-mcq-18",
-        "hide-mcq-13"
+        "hide-mcq-24",
+        "hide-mcq-29",
+        "hide-mcq-09"
       ],
       "explanation": "本句的「hiding place」指「人或物可以躲藏而不被看見的地方」。",
       "sentenceIndex": 34,
@@ -1449,12 +1343,10 @@ export default {
         "hiding place"
       ],
       "optionReasons": {
-        "hide-mcq-16": "本句指「人或物可以躲藏而不被看見的地方」。",
-        "hide-mcq-15": "「把某物收藏／藏好」與本句語境不同。",
-        "hide-mcq-17": "「尤其供逃避追捕者使用的秘密藏身處」與本句語境不同。",
-        "hide-mcq-14": "「躲起來；遠離他人」與本句語境不同。",
-        "hide-mcq-18": "「被遮住、藏起而看不見的」與本句語境不同。",
-        "hide-mcq-13": "「正常檢視時不顯示的隱藏檔案／資料夾」與本句語境不同。"
+        "hide-mcq-16": "本句的「hiding place」指「人或物可以躲藏而不被看見的地方」。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-16"
     },
@@ -1466,11 +1358,9 @@ export default {
       "masked": "The attic was a perfect ____ for the box.",
       "options": [
         "hide-mcq-16",
-        "hide-mcq-15",
-        "hide-mcq-17",
-        "hide-mcq-14",
-        "hide-mcq-18",
-        "hide-mcq-13"
+        "hide-mcq-29",
+        "hide-mcq-24",
+        "hide-mcq-27"
       ],
       "explanation": "本句的「hiding place」指「人或物可以躲藏而不被看見的地方」。",
       "sentenceIndex": 35,
@@ -1479,12 +1369,10 @@ export default {
         "hiding place"
       ],
       "optionReasons": {
-        "hide-mcq-16": "本句指「人或物可以躲藏而不被看見的地方」。",
-        "hide-mcq-15": "「把某物收藏／藏好」與本句語境不同。",
-        "hide-mcq-17": "「尤其供逃避追捕者使用的秘密藏身處」與本句語境不同。",
-        "hide-mcq-14": "「躲起來；遠離他人」與本句語境不同。",
-        "hide-mcq-18": "「被遮住、藏起而看不見的」與本句語境不同。",
-        "hide-mcq-13": "「正常檢視時不顯示的隱藏檔案／資料夾」與本句語境不同。"
+        "hide-mcq-16": "本句的「hiding place」指「人或物可以躲藏而不被看見的地方」。",
+        "hide-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-16"
     },
@@ -1496,11 +1384,9 @@ export default {
       "masked": "Police discovered the group’s ____.",
       "options": [
         "hide-mcq-17",
-        "hide-mcq-16",
-        "hide-mcq-18",
-        "hide-mcq-15",
-        "hide-mcq-19",
-        "hide-mcq-14"
+        "hide-mcq-07",
+        "hide-mcq-27",
+        "hide-mcq-24"
       ],
       "explanation": "本句的「hideout」指「尤其供逃避追捕者使用的秘密藏身處」。",
       "sentenceIndex": 36,
@@ -1509,12 +1395,10 @@ export default {
         "hideout"
       ],
       "optionReasons": {
-        "hide-mcq-17": "本句指「尤其供逃避追捕者使用的秘密藏身處」。",
-        "hide-mcq-16": "「人或物可以躲藏而不被看見的地方」與本句語境不同。",
-        "hide-mcq-18": "「被遮住、藏起而看不見的」與本句語境不同。",
-        "hide-mcq-15": "「把某物收藏／藏好」與本句語境不同。",
-        "hide-mcq-19": "「存在但不容易察覺／發現的；隱藏的」與本句語境不同。",
-        "hide-mcq-14": "「躲起來；遠離他人」與本句語境不同。"
+        "hide-mcq-17": "本句的「hideout」指「尤其供逃避追捕者使用的秘密藏身處」。",
+        "hide-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-17"
     },
@@ -1526,11 +1410,9 @@ export default {
       "masked": "The cabin served as a temporary ____.",
       "options": [
         "hide-mcq-17",
-        "hide-mcq-16",
-        "hide-mcq-18",
-        "hide-mcq-15",
-        "hide-mcq-19",
-        "hide-mcq-14"
+        "hide-mcq-06",
+        "hide-mcq-11",
+        "hide-mcq-27"
       ],
       "explanation": "本句的「hideout」指「尤其供逃避追捕者使用的秘密藏身處」。",
       "sentenceIndex": 37,
@@ -1539,12 +1421,10 @@ export default {
         "hideout"
       ],
       "optionReasons": {
-        "hide-mcq-17": "本句指「尤其供逃避追捕者使用的秘密藏身處」。",
-        "hide-mcq-16": "「人或物可以躲藏而不被看見的地方」與本句語境不同。",
-        "hide-mcq-18": "「被遮住、藏起而看不見的」與本句語境不同。",
-        "hide-mcq-15": "「把某物收藏／藏好」與本句語境不同。",
-        "hide-mcq-19": "「存在但不容易察覺／發現的；隱藏的」與本句語境不同。",
-        "hide-mcq-14": "「躲起來；遠離他人」與本句語境不同。"
+        "hide-mcq-17": "本句的「hideout」指「尤其供逃避追捕者使用的秘密藏身處」。",
+        "hide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-17"
     },
@@ -1556,11 +1436,9 @@ export default {
       "masked": "There was a ____ behind the bookcase.",
       "options": [
         "hide-mcq-18",
-        "hide-mcq-17",
-        "hide-mcq-19",
-        "hide-mcq-16",
-        "hide-mcq-20",
-        "hide-mcq-15"
+        "hide-mcq-28",
+        "hide-mcq-25",
+        "hide-mcq-27"
       ],
       "explanation": "本句的「hidden door」指「被遮住、藏起而看不見的」。",
       "sentenceIndex": 38,
@@ -1569,12 +1447,10 @@ export default {
         "hidden door"
       ],
       "optionReasons": {
-        "hide-mcq-18": "本句指「被遮住、藏起而看不見的」。",
-        "hide-mcq-17": "「尤其供逃避追捕者使用的秘密藏身處」與本句語境不同。",
-        "hide-mcq-19": "「存在但不容易察覺／發現的；隱藏的」與本句語境不同。",
-        "hide-mcq-16": "「人或物可以躲藏而不被看見的地方」與本句語境不同。",
-        "hide-mcq-20": "「尚未被他人發現的潛藏才能」與本句語境不同。",
-        "hide-mcq-15": "「把某物收藏／藏好」與本句語境不同。"
+        "hide-mcq-18": "本句的「hidden door」指「被遮住、藏起而看不見的」。",
+        "hide-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-18"
     },
@@ -1586,11 +1462,9 @@ export default {
       "masked": "The camera was ____ inside the object.",
       "options": [
         "hide-mcq-18",
-        "hide-mcq-17",
-        "hide-mcq-19",
-        "hide-mcq-16",
-        "hide-mcq-20",
-        "hide-mcq-15"
+        "hide-mcq-25",
+        "hide-mcq-04",
+        "hide-mcq-23"
       ],
       "explanation": "本句的「hidden」指「被遮住、藏起而看不見的」。",
       "sentenceIndex": 39,
@@ -1599,12 +1473,10 @@ export default {
         "hidden"
       ],
       "optionReasons": {
-        "hide-mcq-18": "本句指「被遮住、藏起而看不見的」。",
-        "hide-mcq-17": "「尤其供逃避追捕者使用的秘密藏身處」與本句語境不同。",
-        "hide-mcq-19": "「存在但不容易察覺／發現的；隱藏的」與本句語境不同。",
-        "hide-mcq-16": "「人或物可以躲藏而不被看見的地方」與本句語境不同。",
-        "hide-mcq-20": "「尚未被他人發現的潛藏才能」與本句語境不同。",
-        "hide-mcq-15": "「把某物收藏／藏好」與本句語境不同。"
+        "hide-mcq-18": "本句的「hidden」指「被遮住、藏起而看不見的」。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-18"
     },
@@ -1616,11 +1488,9 @@ export default {
       "masked": "The contract contains ____.",
       "options": [
         "hide-mcq-19",
-        "hide-mcq-18",
-        "hide-mcq-20",
-        "hide-mcq-17",
-        "hide-mcq-21",
-        "hide-mcq-16"
+        "hide-mcq-14",
+        "hide-mcq-09",
+        "hide-mcq-24"
       ],
       "explanation": "本句的「hidden costs」指「存在但不容易察覺／發現的；隱藏的」。",
       "sentenceIndex": 40,
@@ -1629,12 +1499,10 @@ export default {
         "hidden costs"
       ],
       "optionReasons": {
-        "hide-mcq-19": "本句指「存在但不容易察覺／發現的；隱藏的」。",
-        "hide-mcq-18": "「被遮住、藏起而看不見的」與本句語境不同。",
-        "hide-mcq-20": "「尚未被他人發現的潛藏才能」與本句語境不同。",
-        "hide-mcq-17": "「尤其供逃避追捕者使用的秘密藏身處」與本句語境不同。",
-        "hide-mcq-21": "「沒有公開說明的真正目的／企圖」與本句語境不同。",
-        "hide-mcq-16": "「人或物可以躲藏而不被看見的地方」與本句語境不同。"
+        "hide-mcq-19": "本句的「hidden costs」指「存在但不容易察覺／發現的；隱藏的」。",
+        "hide-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-19"
     },
@@ -1646,11 +1514,9 @@ export default {
       "masked": "The story has a ____.",
       "options": [
         "hide-mcq-19",
-        "hide-mcq-18",
-        "hide-mcq-20",
-        "hide-mcq-17",
-        "hide-mcq-21",
-        "hide-mcq-16"
+        "hide-mcq-24",
+        "hide-mcq-26",
+        "hide-mcq-28"
       ],
       "explanation": "本句的「hidden meaning」指「存在但不容易察覺／發現的；隱藏的」。",
       "sentenceIndex": 41,
@@ -1659,12 +1525,10 @@ export default {
         "hidden meaning"
       ],
       "optionReasons": {
-        "hide-mcq-19": "本句指「存在但不容易察覺／發現的；隱藏的」。",
-        "hide-mcq-18": "「被遮住、藏起而看不見的」與本句語境不同。",
-        "hide-mcq-20": "「尚未被他人發現的潛藏才能」與本句語境不同。",
-        "hide-mcq-17": "「尤其供逃避追捕者使用的秘密藏身處」與本句語境不同。",
-        "hide-mcq-21": "「沒有公開說明的真正目的／企圖」與本句語境不同。",
-        "hide-mcq-16": "「人或物可以躲藏而不被看見的地方」與本句語境不同。"
+        "hide-mcq-19": "本句的「hidden meaning」指「存在但不容易察覺／發現的；隱藏的」。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-19"
     },
@@ -1676,11 +1540,9 @@ export default {
       "masked": "She discovered a ____ for painting.",
       "options": [
         "hide-mcq-20",
-        "hide-mcq-19",
-        "hide-mcq-21",
-        "hide-mcq-18",
-        "hide-mcq-22",
-        "hide-mcq-17"
+        "hide-mcq-23",
+        "hide-mcq-09",
+        "hide-mcq-25"
       ],
       "explanation": "本句的「hidden talent」指「尚未被他人發現的潛藏才能」。",
       "sentenceIndex": 42,
@@ -1689,12 +1551,10 @@ export default {
         "hidden talent"
       ],
       "optionReasons": {
-        "hide-mcq-20": "本句指「尚未被他人發現的潛藏才能」。",
-        "hide-mcq-19": "「存在但不容易察覺／發現的；隱藏的」與本句語境不同。",
-        "hide-mcq-21": "「沒有公開說明的真正目的／企圖」與本句語境不同。",
-        "hide-mcq-18": "「被遮住、藏起而看不見的」與本句語境不同。",
-        "hide-mcq-22": "「明明就在眼前卻因不被注意而未被發現」與本句語境不同。",
-        "hide-mcq-17": "「尤其供逃避追捕者使用的秘密藏身處」與本句語境不同。"
+        "hide-mcq-20": "本句的「hidden talent」指「尚未被他人發現的潛藏才能」。",
+        "hide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-20"
     },
@@ -1706,11 +1566,9 @@ export default {
       "masked": "The competition revealed several ____.",
       "options": [
         "hide-mcq-20",
-        "hide-mcq-19",
+        "hide-mcq-25",
         "hide-mcq-21",
-        "hide-mcq-18",
-        "hide-mcq-22",
-        "hide-mcq-17"
+        "hide-mcq-11"
       ],
       "explanation": "本句的「hidden talents」指「尚未被他人發現的潛藏才能」。",
       "sentenceIndex": 43,
@@ -1719,12 +1577,10 @@ export default {
         "hidden talents"
       ],
       "optionReasons": {
-        "hide-mcq-20": "本句指「尚未被他人發現的潛藏才能」。",
-        "hide-mcq-19": "「存在但不容易察覺／發現的；隱藏的」與本句語境不同。",
-        "hide-mcq-21": "「沒有公開說明的真正目的／企圖」與本句語境不同。",
-        "hide-mcq-18": "「被遮住、藏起而看不見的」與本句語境不同。",
-        "hide-mcq-22": "「明明就在眼前卻因不被注意而未被發現」與本句語境不同。",
-        "hide-mcq-17": "「尤其供逃避追捕者使用的秘密藏身處」與本句語境不同。"
+        "hide-mcq-20": "本句的「hidden talents」指「尚未被他人發現的潛藏才能」。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-20"
     },
@@ -1736,11 +1592,9 @@ export default {
       "masked": "Some people suspected he had a ____.",
       "options": [
         "hide-mcq-21",
+        "hide-mcq-17",
         "hide-mcq-20",
-        "hide-mcq-22",
-        "hide-mcq-19",
-        "hide-mcq-23",
-        "hide-mcq-18"
+        "hide-mcq-30"
       ],
       "explanation": "本句的「hidden agenda」指「沒有公開說明的真正目的／企圖」。",
       "sentenceIndex": 44,
@@ -1749,12 +1603,10 @@ export default {
         "hidden agenda"
       ],
       "optionReasons": {
-        "hide-mcq-21": "本句指「沒有公開說明的真正目的／企圖」。",
-        "hide-mcq-20": "「尚未被他人發現的潛藏才能」與本句語境不同。",
-        "hide-mcq-22": "「明明就在眼前卻因不被注意而未被發現」與本句語境不同。",
-        "hide-mcq-19": "「存在但不容易察覺／發現的；隱藏的」與本句語境不同。",
-        "hide-mcq-23": "「沒有秘密／過錯需要隱瞞；問心無愧」與本句語境不同。",
-        "hide-mcq-18": "「被遮住、藏起而看不見的」與本句語境不同。"
+        "hide-mcq-21": "本句的「hidden agenda」指「沒有公開說明的真正目的／企圖」。",
+        "hide-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-21"
     },
@@ -1766,11 +1618,9 @@ export default {
       "masked": "She insisted there was no ____.",
       "options": [
         "hide-mcq-21",
-        "hide-mcq-20",
-        "hide-mcq-22",
-        "hide-mcq-19",
-        "hide-mcq-23",
-        "hide-mcq-18"
+        "hide-mcq-06",
+        "hide-mcq-18",
+        "hide-mcq-09"
       ],
       "explanation": "本句的「hidden agenda」指「沒有公開說明的真正目的／企圖」。",
       "sentenceIndex": 45,
@@ -1779,12 +1629,10 @@ export default {
         "hidden agenda"
       ],
       "optionReasons": {
-        "hide-mcq-21": "本句指「沒有公開說明的真正目的／企圖」。",
-        "hide-mcq-20": "「尚未被他人發現的潛藏才能」與本句語境不同。",
-        "hide-mcq-22": "「明明就在眼前卻因不被注意而未被發現」與本句語境不同。",
-        "hide-mcq-19": "「存在但不容易察覺／發現的；隱藏的」與本句語境不同。",
-        "hide-mcq-23": "「沒有秘密／過錯需要隱瞞；問心無愧」與本句語境不同。",
-        "hide-mcq-18": "「被遮住、藏起而看不見的」與本句語境不同。"
+        "hide-mcq-21": "本句的「hidden agenda」指「沒有公開說明的真正目的／企圖」。",
+        "hide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-21"
     },
@@ -1796,11 +1644,9 @@ export default {
       "masked": "The clue was ____.",
       "options": [
         "hide-mcq-22",
-        "hide-mcq-21",
-        "hide-mcq-23",
-        "hide-mcq-20",
-        "hide-mcq-24",
-        "hide-mcq-19"
+        "hide-mcq-07",
+        "hide-mcq-15",
+        "hide-mcq-26"
       ],
       "explanation": "本句的「hidden in plain sight」指「明明就在眼前卻因不被注意而未被發現」。",
       "sentenceIndex": 46,
@@ -1809,12 +1655,10 @@ export default {
         "hidden in plain sight"
       ],
       "optionReasons": {
-        "hide-mcq-22": "本句指「明明就在眼前卻因不被注意而未被發現」。",
-        "hide-mcq-21": "「沒有公開說明的真正目的／企圖」與本句語境不同。",
-        "hide-mcq-23": "「沒有秘密／過錯需要隱瞞；問心無愧」與本句語境不同。",
-        "hide-mcq-20": "「尚未被他人發現的潛藏才能」與本句語境不同。",
-        "hide-mcq-24": "「過分低調而不展示自己的才華」與本句語境不同。",
-        "hide-mcq-19": "「存在但不容易察覺／發現的；隱藏的」與本句語境不同。"
+        "hide-mcq-22": "本句的「hidden in plain sight」指「明明就在眼前卻因不被注意而未被發現」。",
+        "hide-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-22"
     },
@@ -1826,11 +1670,9 @@ export default {
       "masked": "The answer had been ____ all along.",
       "options": [
         "hide-mcq-22",
-        "hide-mcq-21",
-        "hide-mcq-23",
-        "hide-mcq-20",
-        "hide-mcq-24",
-        "hide-mcq-19"
+        "hide-mcq-15",
+        "hide-mcq-26",
+        "hide-mcq-11"
       ],
       "explanation": "本句的「hiding in plain sight」指「明明就在眼前卻因不被注意而未被發現」。",
       "sentenceIndex": 47,
@@ -1839,12 +1681,10 @@ export default {
         "hiding in plain sight"
       ],
       "optionReasons": {
-        "hide-mcq-22": "本句指「明明就在眼前卻因不被注意而未被發現」。",
-        "hide-mcq-21": "「沒有公開說明的真正目的／企圖」與本句語境不同。",
-        "hide-mcq-23": "「沒有秘密／過錯需要隱瞞；問心無愧」與本句語境不同。",
-        "hide-mcq-20": "「尚未被他人發現的潛藏才能」與本句語境不同。",
-        "hide-mcq-24": "「過分低調而不展示自己的才華」與本句語境不同。",
-        "hide-mcq-19": "「存在但不容易察覺／發現的；隱藏的」與本句語境不同。"
+        "hide-mcq-22": "本句的「hiding in plain sight」指「明明就在眼前卻因不被注意而未被發現」。",
+        "hide-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-22"
     },
@@ -1856,11 +1696,9 @@ export default {
       "masked": "I answered the questions because I had ____.",
       "options": [
         "hide-mcq-23",
-        "hide-mcq-22",
-        "hide-mcq-24",
-        "hide-mcq-21",
-        "hide-mcq-25",
-        "hide-mcq-20"
+        "hide-mcq-15",
+        "hide-mcq-28",
+        "hide-mcq-25"
       ],
       "explanation": "本句的「nothing to hide」指「沒有秘密／過錯需要隱瞞；問心無愧」。",
       "sentenceIndex": 48,
@@ -1869,12 +1707,10 @@ export default {
         "nothing to hide"
       ],
       "optionReasons": {
-        "hide-mcq-23": "本句指「沒有秘密／過錯需要隱瞞；問心無愧」。",
-        "hide-mcq-22": "「明明就在眼前卻因不被注意而未被發現」與本句語境不同。",
-        "hide-mcq-24": "「過分低調而不展示自己的才華」與本句語境不同。",
-        "hide-mcq-21": "「沒有公開說明的真正目的／企圖」與本句語境不同。",
-        "hide-mcq-25": "「動物的皮，尤其較厚的獸皮」與本句語境不同。",
-        "hide-mcq-20": "「尚未被他人發現的潛藏才能」與本句語境不同。"
+        "hide-mcq-23": "本句的「nothing to hide」指「沒有秘密／過錯需要隱瞞；問心無愧」。",
+        "hide-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-23"
     },
@@ -1886,11 +1722,9 @@ export default {
       "masked": "She said she had ____.",
       "options": [
         "hide-mcq-23",
-        "hide-mcq-22",
-        "hide-mcq-24",
-        "hide-mcq-21",
-        "hide-mcq-25",
-        "hide-mcq-20"
+        "hide-mcq-30",
+        "hide-mcq-26",
+        "hide-mcq-11"
       ],
       "explanation": "本句的「nothing to hide」指「沒有秘密／過錯需要隱瞞；問心無愧」。",
       "sentenceIndex": 49,
@@ -1899,12 +1733,10 @@ export default {
         "nothing to hide"
       ],
       "optionReasons": {
-        "hide-mcq-23": "本句指「沒有秘密／過錯需要隱瞞；問心無愧」。",
-        "hide-mcq-22": "「明明就在眼前卻因不被注意而未被發現」與本句語境不同。",
-        "hide-mcq-24": "「過分低調而不展示自己的才華」與本句語境不同。",
-        "hide-mcq-21": "「沒有公開說明的真正目的／企圖」與本句語境不同。",
-        "hide-mcq-25": "「動物的皮，尤其較厚的獸皮」與本句語境不同。",
-        "hide-mcq-20": "「尚未被他人發現的潛藏才能」與本句語境不同。"
+        "hide-mcq-23": "本句的「nothing to hide」指「沒有秘密／過錯需要隱瞞；問心無愧」。",
+        "hide-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-23"
     },
@@ -1916,11 +1748,9 @@ export default {
       "masked": "Don’t ____—you’re very talented.",
       "options": [
         "hide-mcq-24",
-        "hide-mcq-23",
-        "hide-mcq-25",
-        "hide-mcq-22",
+        "hide-mcq-14",
         "hide-mcq-26",
-        "hide-mcq-21"
+        "hide-mcq-13"
       ],
       "explanation": "本句的「hide your light under a bushel」指「過分低調而不展示自己的才華」。",
       "sentenceIndex": 50,
@@ -1929,12 +1759,10 @@ export default {
         "hide your light under a bushel"
       ],
       "optionReasons": {
-        "hide-mcq-24": "本句指「過分低調而不展示自己的才華」。",
-        "hide-mcq-23": "「沒有秘密／過錯需要隱瞞；問心無愧」與本句語境不同。",
-        "hide-mcq-25": "「動物的皮，尤其較厚的獸皮」與本句語境不同。",
-        "hide-mcq-22": "「明明就在眼前卻因不被注意而未被發現」與本句語境不同。",
-        "hide-mcq-26": "「被取下並供製革使用的動物皮」與本句語境不同。",
-        "hide-mcq-21": "「沒有公開說明的真正目的／企圖」與本句語境不同。"
+        "hide-mcq-24": "本句的「hide your light under a bushel」指「過分低調而不展示自己的才華」。",
+        "hide-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-24"
     },
@@ -1946,11 +1774,9 @@ export default {
       "masked": "She tends to ____.",
       "options": [
         "hide-mcq-24",
-        "hide-mcq-23",
-        "hide-mcq-25",
-        "hide-mcq-22",
-        "hide-mcq-26",
-        "hide-mcq-21"
+        "hide-mcq-19",
+        "hide-mcq-21",
+        "hide-mcq-14"
       ],
       "explanation": "本句的「hide her light under a bushel」指「過分低調而不展示自己的才華」。",
       "sentenceIndex": 51,
@@ -1959,12 +1785,10 @@ export default {
         "hide her light under a bushel"
       ],
       "optionReasons": {
-        "hide-mcq-24": "本句指「過分低調而不展示自己的才華」。",
-        "hide-mcq-23": "「沒有秘密／過錯需要隱瞞；問心無愧」與本句語境不同。",
-        "hide-mcq-25": "「動物的皮，尤其較厚的獸皮」與本句語境不同。",
-        "hide-mcq-22": "「明明就在眼前卻因不被注意而未被發現」與本句語境不同。",
-        "hide-mcq-26": "「被取下並供製革使用的動物皮」與本句語境不同。",
-        "hide-mcq-21": "「沒有公開說明的真正目的／企圖」與本句語境不同。"
+        "hide-mcq-24": "本句的「hide her light under a bushel」指「過分低調而不展示自己的才華」。",
+        "hide-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-24"
     },
@@ -1976,11 +1800,9 @@ export default {
       "masked": "The shoes were made from cattle ____.",
       "options": [
         "hide-mcq-25",
-        "hide-mcq-24",
-        "hide-mcq-26",
-        "hide-mcq-23",
-        "hide-mcq-27",
-        "hide-mcq-22"
+        "hide-mcq-09",
+        "hide-mcq-16",
+        "hide-mcq-06"
       ],
       "explanation": "本句的「hide」指「動物的皮，尤其較厚的獸皮」。",
       "sentenceIndex": 52,
@@ -1989,12 +1811,10 @@ export default {
         "hide"
       ],
       "optionReasons": {
-        "hide-mcq-25": "本句指「動物的皮，尤其較厚的獸皮」。",
-        "hide-mcq-24": "「過分低調而不展示自己的才華」與本句語境不同。",
-        "hide-mcq-26": "「被取下並供製革使用的動物皮」與本句語境不同。",
-        "hide-mcq-23": "「沒有秘密／過錯需要隱瞞；問心無愧」與本句語境不同。",
-        "hide-mcq-27": "「清理過但尚未鞣製成皮革的生皮」與本句語境不同。",
-        "hide-mcq-22": "「明明就在眼前卻因不被注意而未被發現」與本句語境不同。"
+        "hide-mcq-25": "本句的「hide」指「動物的皮，尤其較厚的獸皮」。",
+        "hide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-25"
     },
@@ -2006,11 +1826,9 @@ export default {
       "masked": "The animal’s thick ____ protected it from injury.",
       "options": [
         "hide-mcq-25",
-        "hide-mcq-24",
-        "hide-mcq-26",
-        "hide-mcq-23",
-        "hide-mcq-27",
-        "hide-mcq-22"
+        "hide-mcq-02",
+        "hide-mcq-13",
+        "hide-mcq-09"
       ],
       "explanation": "本句的「hide」指「動物的皮，尤其較厚的獸皮」。",
       "sentenceIndex": 53,
@@ -2019,12 +1837,10 @@ export default {
         "hide"
       ],
       "optionReasons": {
-        "hide-mcq-25": "本句指「動物的皮，尤其較厚的獸皮」。",
-        "hide-mcq-24": "「過分低調而不展示自己的才華」與本句語境不同。",
-        "hide-mcq-26": "「被取下並供製革使用的動物皮」與本句語境不同。",
-        "hide-mcq-23": "「沒有秘密／過錯需要隱瞞；問心無愧」與本句語境不同。",
-        "hide-mcq-27": "「清理過但尚未鞣製成皮革的生皮」與本句語境不同。",
-        "hide-mcq-22": "「明明就在眼前卻因不被注意而未被發現」與本句語境不同。"
+        "hide-mcq-25": "本句的「hide」指「動物的皮，尤其較厚的獸皮」。",
+        "hide-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-25"
     },
@@ -2036,11 +1852,9 @@ export default {
       "masked": "An elephant has a thick ____.",
       "options": [
         "hide-mcq-25",
+        "hide-mcq-10",
         "hide-mcq-24",
-        "hide-mcq-26",
-        "hide-mcq-23",
-        "hide-mcq-27",
-        "hide-mcq-22"
+        "hide-mcq-09"
       ],
       "explanation": "本句的「hide」指「動物的皮，尤其較厚的獸皮」。",
       "sentenceIndex": 54,
@@ -2049,12 +1863,10 @@ export default {
         "hide"
       ],
       "optionReasons": {
-        "hide-mcq-25": "本句指「動物的皮，尤其較厚的獸皮」。",
-        "hide-mcq-24": "「過分低調而不展示自己的才華」與本句語境不同。",
-        "hide-mcq-26": "「被取下並供製革使用的動物皮」與本句語境不同。",
-        "hide-mcq-23": "「沒有秘密／過錯需要隱瞞；問心無愧」與本句語境不同。",
-        "hide-mcq-27": "「清理過但尚未鞣製成皮革的生皮」與本句語境不同。",
-        "hide-mcq-22": "「明明就在眼前卻因不被注意而未被發現」與本句語境不同。"
+        "hide-mcq-25": "本句的「hide」指「動物的皮，尤其較厚的獸皮」。",
+        "hide-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-25"
     },
@@ -2066,11 +1878,9 @@ export default {
       "masked": "The animal’s ____ was covered with mud.",
       "options": [
         "hide-mcq-25",
-        "hide-mcq-24",
-        "hide-mcq-26",
-        "hide-mcq-23",
-        "hide-mcq-27",
-        "hide-mcq-22"
+        "hide-mcq-15",
+        "hide-mcq-11",
+        "hide-mcq-07"
       ],
       "explanation": "本句的「hide」指「動物的皮，尤其較厚的獸皮」。",
       "sentenceIndex": 55,
@@ -2079,12 +1889,10 @@ export default {
         "hide"
       ],
       "optionReasons": {
-        "hide-mcq-25": "本句指「動物的皮，尤其較厚的獸皮」。",
-        "hide-mcq-24": "「過分低調而不展示自己的才華」與本句語境不同。",
-        "hide-mcq-26": "「被取下並供製革使用的動物皮」與本句語境不同。",
-        "hide-mcq-23": "「沒有秘密／過錯需要隱瞞；問心無愧」與本句語境不同。",
-        "hide-mcq-27": "「清理過但尚未鞣製成皮革的生皮」與本句語境不同。",
-        "hide-mcq-22": "「明明就在眼前卻因不被注意而未被發現」與本句語境不同。"
+        "hide-mcq-25": "本句的「hide」指「動物的皮，尤其較厚的獸皮」。",
+        "hide-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-25"
     },
@@ -2096,11 +1904,9 @@ export default {
       "masked": "The factory processes cattle ____.",
       "options": [
         "hide-mcq-26",
-        "hide-mcq-25",
-        "hide-mcq-27",
-        "hide-mcq-24",
-        "hide-mcq-28",
-        "hide-mcq-23"
+        "hide-mcq-20",
+        "hide-mcq-11",
+        "hide-mcq-13"
       ],
       "explanation": "本句的「hides」指「被取下並供製革使用的動物皮」。",
       "sentenceIndex": 56,
@@ -2109,12 +1915,10 @@ export default {
         "hides"
       ],
       "optionReasons": {
-        "hide-mcq-26": "本句指「被取下並供製革使用的動物皮」。",
-        "hide-mcq-25": "「動物的皮，尤其較厚的獸皮」與本句語境不同。",
-        "hide-mcq-27": "「清理過但尚未鞣製成皮革的生皮」與本句語境不同。",
-        "hide-mcq-24": "「過分低調而不展示自己的才華」與本句語境不同。",
-        "hide-mcq-28": "「非正式：救某人脫離危險／嚴重麻煩」與本句語境不同。",
-        "hide-mcq-23": "「沒有秘密／過錯需要隱瞞；問心無愧」與本句語境不同。"
+        "hide-mcq-26": "本句的「hides」指「被取下並供製革使用的動物皮」。",
+        "hide-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-26"
     },
@@ -2126,11 +1930,9 @@ export default {
       "masked": "The trader bought several animal ____.",
       "options": [
         "hide-mcq-26",
-        "hide-mcq-25",
-        "hide-mcq-27",
-        "hide-mcq-24",
-        "hide-mcq-28",
-        "hide-mcq-23"
+        "hide-mcq-02",
+        "hide-mcq-13",
+        "hide-mcq-24"
       ],
       "explanation": "本句的「hides」指「被取下並供製革使用的動物皮」。",
       "sentenceIndex": 57,
@@ -2139,12 +1941,10 @@ export default {
         "hides"
       ],
       "optionReasons": {
-        "hide-mcq-26": "本句指「被取下並供製革使用的動物皮」。",
-        "hide-mcq-25": "「動物的皮，尤其較厚的獸皮」與本句語境不同。",
-        "hide-mcq-27": "「清理過但尚未鞣製成皮革的生皮」與本句語境不同。",
-        "hide-mcq-24": "「過分低調而不展示自己的才華」與本句語境不同。",
-        "hide-mcq-28": "「非正式：救某人脫離危險／嚴重麻煩」與本句語境不同。",
-        "hide-mcq-23": "「沒有秘密／過錯需要隱瞞；問心無愧」與本句語境不同。"
+        "hide-mcq-26": "本句的「hides」指「被取下並供製革使用的動物皮」。",
+        "hide-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-26"
     },
@@ -2156,11 +1956,9 @@ export default {
       "masked": "The drum was covered with ____.",
       "options": [
         "hide-mcq-27",
-        "hide-mcq-26",
-        "hide-mcq-28",
-        "hide-mcq-25",
-        "hide-mcq-29",
-        "hide-mcq-24"
+        "hide-mcq-21",
+        "hide-mcq-16",
+        "hide-mcq-09"
       ],
       "explanation": "本句的「rawhide」指「清理過但尚未鞣製成皮革的生皮」。",
       "sentenceIndex": 58,
@@ -2169,12 +1967,10 @@ export default {
         "rawhide"
       ],
       "optionReasons": {
-        "hide-mcq-27": "本句指「清理過但尚未鞣製成皮革的生皮」。",
-        "hide-mcq-26": "「被取下並供製革使用的動物皮」與本句語境不同。",
-        "hide-mcq-28": "「非正式：救某人脫離危險／嚴重麻煩」與本句語境不同。",
-        "hide-mcq-25": "「動物的皮，尤其較厚的獸皮」與本句語境不同。",
-        "hide-mcq-29": "「較舊／幽默：狠狠揍或教訓某人」與本句語境不同。",
-        "hide-mcq-24": "「過分低調而不展示自己的才華」與本句語境不同。"
+        "hide-mcq-27": "本句的「rawhide」指「清理過但尚未鞣製成皮革的生皮」。",
+        "hide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-27"
     },
@@ -2186,11 +1982,9 @@ export default {
       "masked": "Traditional equipment was sometimes made from ____.",
       "options": [
         "hide-mcq-27",
-        "hide-mcq-26",
-        "hide-mcq-28",
-        "hide-mcq-25",
-        "hide-mcq-29",
-        "hide-mcq-24"
+        "hide-mcq-09",
+        "hide-mcq-13",
+        "hide-mcq-17"
       ],
       "explanation": "本句的「rawhide」指「清理過但尚未鞣製成皮革的生皮」。",
       "sentenceIndex": 59,
@@ -2199,12 +1993,10 @@ export default {
         "rawhide"
       ],
       "optionReasons": {
-        "hide-mcq-27": "本句指「清理過但尚未鞣製成皮革的生皮」。",
-        "hide-mcq-26": "「被取下並供製革使用的動物皮」與本句語境不同。",
-        "hide-mcq-28": "「非正式：救某人脫離危險／嚴重麻煩」與本句語境不同。",
-        "hide-mcq-25": "「動物的皮，尤其較厚的獸皮」與本句語境不同。",
-        "hide-mcq-29": "「較舊／幽默：狠狠揍或教訓某人」與本句語境不同。",
-        "hide-mcq-24": "「過分低調而不展示自己的才華」與本句語境不同。"
+        "hide-mcq-27": "本句的「rawhide」指「清理過但尚未鞣製成皮革的生皮」。",
+        "hide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-27"
     },
@@ -2216,11 +2008,9 @@ export default {
       "masked": "Your quick thinking ____.",
       "options": [
         "hide-mcq-28",
-        "hide-mcq-27",
-        "hide-mcq-29",
-        "hide-mcq-26",
-        "hide-mcq-30",
-        "hide-mcq-25"
+        "hide-mcq-24",
+        "hide-mcq-09",
+        "hide-mcq-17"
       ],
       "explanation": "本句的「saved my hide」指「非正式：救某人脫離危險／嚴重麻煩」。",
       "sentenceIndex": 60,
@@ -2229,12 +2019,10 @@ export default {
         "saved my hide"
       ],
       "optionReasons": {
-        "hide-mcq-28": "本句指「非正式：救某人脫離危險／嚴重麻煩」。",
-        "hide-mcq-27": "「清理過但尚未鞣製成皮革的生皮」與本句語境不同。",
-        "hide-mcq-29": "「較舊／幽默：狠狠揍或教訓某人」與本句語境不同。",
-        "hide-mcq-26": "「被取下並供製革使用的動物皮」與本句語境不同。",
-        "hide-mcq-30": "「一人找其他躲起來的人玩的遊戲；捉迷藏」與本句語境不同。",
-        "hide-mcq-25": "「動物的皮，尤其較厚的獸皮」與本句語境不同。"
+        "hide-mcq-28": "本句的「saved my hide」指「非正式：救某人脫離危險／嚴重麻煩」。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-28"
     },
@@ -2246,11 +2034,9 @@ export default {
       "masked": "She finished the report and ____.",
       "options": [
         "hide-mcq-28",
-        "hide-mcq-27",
-        "hide-mcq-29",
-        "hide-mcq-26",
-        "hide-mcq-30",
-        "hide-mcq-25"
+        "hide-mcq-22",
+        "hide-mcq-23",
+        "hide-mcq-30"
       ],
       "explanation": "本句的「saved his hide」指「非正式：救某人脫離危險／嚴重麻煩」。",
       "sentenceIndex": 61,
@@ -2259,12 +2045,10 @@ export default {
         "saved his hide"
       ],
       "optionReasons": {
-        "hide-mcq-28": "本句指「非正式：救某人脫離危險／嚴重麻煩」。",
-        "hide-mcq-27": "「清理過但尚未鞣製成皮革的生皮」與本句語境不同。",
-        "hide-mcq-29": "「較舊／幽默：狠狠揍或教訓某人」與本句語境不同。",
-        "hide-mcq-26": "「被取下並供製革使用的動物皮」與本句語境不同。",
-        "hide-mcq-30": "「一人找其他躲起來的人玩的遊戲；捉迷藏」與本句語境不同。",
-        "hide-mcq-25": "「動物的皮，尤其較厚的獸皮」與本句語境不同。"
+        "hide-mcq-28": "本句的「saved his hide」指「非正式：救某人脫離危險／嚴重麻煩」。",
+        "hide-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-28"
     },
@@ -2276,11 +2060,9 @@ export default {
       "masked": "His father threatened to ____.",
       "options": [
         "hide-mcq-29",
-        "hide-mcq-28",
-        "hide-mcq-30",
-        "hide-mcq-27",
-        "hide-mcq-26",
-        "hide-mcq-25"
+        "hide-mcq-13",
+        "hide-mcq-24",
+        "hide-mcq-23"
       ],
       "explanation": "本句的「tan his hide」指「較舊／幽默：狠狠揍或教訓某人」。",
       "sentenceIndex": 62,
@@ -2289,12 +2071,10 @@ export default {
         "tan his hide"
       ],
       "optionReasons": {
-        "hide-mcq-29": "本句指「較舊／幽默：狠狠揍或教訓某人」。",
-        "hide-mcq-28": "「非正式：救某人脫離危險／嚴重麻煩」與本句語境不同。",
-        "hide-mcq-30": "「一人找其他躲起來的人玩的遊戲；捉迷藏」與本句語境不同。",
-        "hide-mcq-27": "「清理過但尚未鞣製成皮革的生皮」與本句語境不同。",
-        "hide-mcq-26": "「被取下並供製革使用的動物皮」與本句語境不同。",
-        "hide-mcq-25": "「動物的皮，尤其較厚的獸皮」與本句語境不同。"
+        "hide-mcq-29": "本句的「tan his hide」指「較舊／幽默：狠狠揍或教訓某人」。",
+        "hide-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-29"
     },
@@ -2306,11 +2086,9 @@ export default {
       "masked": "The children played ____.",
       "options": [
         "hide-mcq-30",
-        "hide-mcq-29",
-        "hide-mcq-28",
-        "hide-mcq-27",
+        "hide-mcq-06",
         "hide-mcq-26",
-        "hide-mcq-25"
+        "hide-mcq-22"
       ],
       "explanation": "本句的「hide-and-seek」指「一人找其他躲起來的人玩的遊戲；捉迷藏」。",
       "sentenceIndex": 63,
@@ -2319,12 +2097,10 @@ export default {
         "hide-and-seek"
       ],
       "optionReasons": {
-        "hide-mcq-30": "本句指「一人找其他躲起來的人玩的遊戲；捉迷藏」。",
-        "hide-mcq-29": "「較舊／幽默：狠狠揍或教訓某人」與本句語境不同。",
-        "hide-mcq-28": "「非正式：救某人脫離危險／嚴重麻煩」與本句語境不同。",
-        "hide-mcq-27": "「清理過但尚未鞣製成皮革的生皮」與本句語境不同。",
-        "hide-mcq-26": "「被取下並供製革使用的動物皮」與本句語境不同。",
-        "hide-mcq-25": "「動物的皮，尤其較厚的獸皮」與本句語境不同。"
+        "hide-mcq-30": "本句的「hide-and-seek」指「一人找其他躲起來的人玩的遊戲；捉迷藏」。",
+        "hide-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-30"
     },
@@ -2336,11 +2112,9 @@ export default {
       "masked": "She found the perfect place to hide during ____.",
       "options": [
         "hide-mcq-30",
-        "hide-mcq-29",
-        "hide-mcq-28",
-        "hide-mcq-27",
-        "hide-mcq-26",
-        "hide-mcq-25"
+        "hide-mcq-24",
+        "hide-mcq-21",
+        "hide-mcq-09"
       ],
       "explanation": "本句的「hide-and-seek」指「一人找其他躲起來的人玩的遊戲；捉迷藏」。",
       "sentenceIndex": 64,
@@ -2349,12 +2123,10 @@ export default {
         "hide-and-seek"
       ],
       "optionReasons": {
-        "hide-mcq-30": "本句指「一人找其他躲起來的人玩的遊戲；捉迷藏」。",
-        "hide-mcq-29": "「較舊／幽默：狠狠揍或教訓某人」與本句語境不同。",
-        "hide-mcq-28": "「非正式：救某人脫離危險／嚴重麻煩」與本句語境不同。",
-        "hide-mcq-27": "「清理過但尚未鞣製成皮革的生皮」與本句語境不同。",
-        "hide-mcq-26": "「被取下並供製革使用的動物皮」與本句語境不同。",
-        "hide-mcq-25": "「動物的皮，尤其較厚的獸皮」與本句語境不同。"
+        "hide-mcq-30": "本句的「hide-and-seek」指「一人找其他躲起來的人玩的遊戲；捉迷藏」。",
+        "hide-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hide-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hide-mcq-30"
     }
@@ -2366,5 +2138,7 @@ export default {
     "sha256": "ca3da341086c1316a3fd4e0f275baef9d866c02eeb891db4ed0f2aae152ea5dd",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

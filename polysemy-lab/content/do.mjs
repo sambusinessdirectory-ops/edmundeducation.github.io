@@ -560,7 +560,7 @@ export default {
     },
     {
       "id": "do-mcq-25",
-      "title": "表示前面的肯定／否定情況同樣適用於另一人",
+      "title": "前面的肯定／否定情況同樣適用於另一人",
       "form": "so do I / neither do I",
       "en": "so do I / neither do I",
       "zh": "表示前面的肯定／否定情況同樣適用於另一人",
@@ -898,11 +898,9 @@ export default {
       "masked": "One of the most challenging things I have ever ____ was giving a formal presentation in English.",
       "options": [
         "do-mcq-01",
-        "do-mcq-02",
-        "do-mcq-03",
-        "do-mcq-04",
-        "do-mcq-05",
-        "do-mcq-06"
+        "do-mcq-29",
+        "do-mcq-26",
+        "do-mcq-38"
       ],
       "explanation": "本句的「done」指「實際進行、執行或完成某個行動、任務或活動」。",
       "sentenceIndex": 0,
@@ -911,12 +909,10 @@ export default {
         "done"
       ],
       "optionReasons": {
-        "do-mcq-01": "本句指「實際進行、執行或完成某個行動、任務或活動」。",
-        "do-mcq-02": "「完成需要處理的工作、功課或任務」是「do work/homework/a task」的用法，與本句語境不同。",
-        "do-mcq-03": "「進行洗衣、洗碗、清潔等日常家務活動」是「do routine household activities」的用法，與本句語境不同。",
-        "do-mcq-04": "「修讀、學習或參與某個科目、課程或考試」是「do a subject/course」的用法，與本句語境不同。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。"
+        "do-mcq-01": "本句的「done」指「實際進行、執行或完成某個行動、任務或活動」。",
+        "do-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-01"
     },
@@ -928,11 +924,9 @@ export default {
       "masked": "I have several things to ____ before the meeting.",
       "options": [
         "do-mcq-01",
-        "do-mcq-02",
-        "do-mcq-03",
-        "do-mcq-04",
-        "do-mcq-05",
-        "do-mcq-06"
+        "do-mcq-35",
+        "do-mcq-11",
+        "do-mcq-18"
       ],
       "explanation": "本句的「do」指「實際進行、執行或完成某個行動、任務或活動」。",
       "sentenceIndex": 1,
@@ -941,12 +935,10 @@ export default {
         "do"
       ],
       "optionReasons": {
-        "do-mcq-01": "本句指「實際進行、執行或完成某個行動、任務或活動」。",
-        "do-mcq-02": "「完成需要處理的工作、功課或任務」是「do work/homework/a task」的用法，與本句語境不同。",
-        "do-mcq-03": "「進行洗衣、洗碗、清潔等日常家務活動」是「do routine household activities」的用法，與本句語境不同。",
-        "do-mcq-04": "「修讀、學習或參與某個科目、課程或考試」是「do a subject/course」的用法，與本句語境不同。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。"
+        "do-mcq-01": "本句的「do」指「實際進行、執行或完成某個行動、任務或活動」。",
+        "do-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-01"
     },
@@ -958,11 +950,9 @@ export default {
       "masked": "She ____ everything she could to prepare.",
       "options": [
         "do-mcq-01",
-        "do-mcq-02",
-        "do-mcq-03",
         "do-mcq-04",
-        "do-mcq-05",
-        "do-mcq-06"
+        "do-mcq-14",
+        "do-mcq-38"
       ],
       "explanation": "本句的「did」指「實際進行、執行或完成某個行動、任務或活動」。",
       "sentenceIndex": 2,
@@ -971,12 +961,10 @@ export default {
         "did"
       ],
       "optionReasons": {
-        "do-mcq-01": "本句指「實際進行、執行或完成某個行動、任務或活動」。",
-        "do-mcq-02": "「完成需要處理的工作、功課或任務」是「do work/homework/a task」的用法，與本句語境不同。",
-        "do-mcq-03": "「進行洗衣、洗碗、清潔等日常家務活動」是「do routine household activities」的用法，與本句語境不同。",
-        "do-mcq-04": "「修讀、學習或參與某個科目、課程或考試」是「do a subject/course」的用法，與本句語境不同。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。"
+        "do-mcq-01": "本句的「did」指「實際進行、執行或完成某個行動、任務或活動」。",
+        "do-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-01"
     },
@@ -988,11 +976,9 @@ export default {
       "masked": "I usually ____ after dinner.",
       "options": [
         "do-mcq-02",
-        "do-mcq-01",
-        "do-mcq-03",
-        "do-mcq-04",
-        "do-mcq-05",
-        "do-mcq-06"
+        "do-mcq-25",
+        "do-mcq-18",
+        "do-mcq-11"
       ],
       "explanation": "本句的「do my homework」指「完成需要處理的工作、功課或任務」。",
       "sentenceIndex": 3,
@@ -1001,12 +987,10 @@ export default {
         "do my homework"
       ],
       "optionReasons": {
-        "do-mcq-02": "本句指「完成需要處理的工作、功課或任務」。",
-        "do-mcq-01": "「實際進行、執行或完成某個行動、任務或活動」是「do something」的用法，與本句語境不同。",
-        "do-mcq-03": "「進行洗衣、洗碗、清潔等日常家務活動」是「do routine household activities」的用法，與本句語境不同。",
-        "do-mcq-04": "「修讀、學習或參與某個科目、課程或考試」是「do a subject/course」的用法，與本句語境不同。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。"
+        "do-mcq-02": "本句的「do my homework」指「完成需要處理的工作、功課或任務」。",
+        "do-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-02"
     },
@@ -1018,11 +1002,9 @@ export default {
       "masked": "We need to ____ before the presentation.",
       "options": [
         "do-mcq-02",
-        "do-mcq-01",
-        "do-mcq-03",
-        "do-mcq-04",
-        "do-mcq-05",
-        "do-mcq-06"
+        "do-mcq-10",
+        "do-mcq-29",
+        "do-mcq-08"
       ],
       "explanation": "本句的「do some work」指「完成需要處理的工作、功課或任務」。",
       "sentenceIndex": 4,
@@ -1031,12 +1013,10 @@ export default {
         "do some work"
       ],
       "optionReasons": {
-        "do-mcq-02": "本句指「完成需要處理的工作、功課或任務」。",
-        "do-mcq-01": "「實際進行、執行或完成某個行動、任務或活動」是「do something」的用法，與本句語境不同。",
-        "do-mcq-03": "「進行洗衣、洗碗、清潔等日常家務活動」是「do routine household activities」的用法，與本句語境不同。",
-        "do-mcq-04": "「修讀、學習或參與某個科目、課程或考試」是「do a subject/course」的用法，與本句語境不同。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。"
+        "do-mcq-02": "本句的「do some work」指「完成需要處理的工作、功課或任務」。",
+        "do-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-02"
     },
@@ -1048,11 +1028,9 @@ export default {
       "masked": "I need to ____ after dinner.",
       "options": [
         "do-mcq-03",
-        "do-mcq-02",
-        "do-mcq-04",
-        "do-mcq-01",
-        "do-mcq-05",
-        "do-mcq-06"
+        "do-mcq-29",
+        "do-mcq-08",
+        "do-mcq-26"
       ],
       "explanation": "本句的「do the dishes」指「進行洗衣、洗碗、清潔等日常家務活動」。",
       "sentenceIndex": 5,
@@ -1061,12 +1039,10 @@ export default {
         "do the dishes"
       ],
       "optionReasons": {
-        "do-mcq-03": "本句指「進行洗衣、洗碗、清潔等日常家務活動」。",
-        "do-mcq-02": "「完成需要處理的工作、功課或任務」是「do work/homework/a task」的用法，與本句語境不同。",
-        "do-mcq-04": "「修讀、學習或參與某個科目、課程或考試」是「do a subject/course」的用法，與本句語境不同。",
-        "do-mcq-01": "「實際進行、執行或完成某個行動、任務或活動」是「do something」的用法，與本句語境不同。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。"
+        "do-mcq-03": "本句的「do the dishes」指「進行洗衣、洗碗、清潔等日常家務活動」。",
+        "do-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-03"
     },
@@ -1078,11 +1054,9 @@ export default {
       "masked": "She was ____ when I called.",
       "options": [
         "do-mcq-03",
-        "do-mcq-02",
-        "do-mcq-04",
-        "do-mcq-01",
-        "do-mcq-05",
-        "do-mcq-06"
+        "do-mcq-29",
+        "do-mcq-17",
+        "do-mcq-22"
       ],
       "explanation": "本句的「doing the laundry」指「進行洗衣、洗碗、清潔等日常家務活動」。",
       "sentenceIndex": 6,
@@ -1091,12 +1065,10 @@ export default {
         "doing the laundry"
       ],
       "optionReasons": {
-        "do-mcq-03": "本句指「進行洗衣、洗碗、清潔等日常家務活動」。",
-        "do-mcq-02": "「完成需要處理的工作、功課或任務」是「do work/homework/a task」的用法，與本句語境不同。",
-        "do-mcq-04": "「修讀、學習或參與某個科目、課程或考試」是「do a subject/course」的用法，與本句語境不同。",
-        "do-mcq-01": "「實際進行、執行或完成某個行動、任務或活動」是「do something」的用法，與本句語境不同。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。"
+        "do-mcq-03": "本句的「doing the laundry」指「進行洗衣、洗碗、清潔等日常家務活動」。",
+        "do-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-03"
     },
@@ -1108,11 +1080,9 @@ export default {
       "masked": "She ____ economics at university.",
       "options": [
         "do-mcq-04",
-        "do-mcq-03",
-        "do-mcq-05",
-        "do-mcq-02",
-        "do-mcq-06",
-        "do-mcq-01"
+        "do-mcq-33",
+        "do-mcq-08",
+        "do-mcq-31"
       ],
       "explanation": "本句的「did」指「修讀、學習或參與某個科目、課程或考試」。",
       "sentenceIndex": 7,
@@ -1121,12 +1091,10 @@ export default {
         "did"
       ],
       "optionReasons": {
-        "do-mcq-04": "本句指「修讀、學習或參與某個科目、課程或考試」。",
-        "do-mcq-03": "「進行洗衣、洗碗、清潔等日常家務活動」是「do routine household activities」的用法，與本句語境不同。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。",
-        "do-mcq-02": "「完成需要處理的工作、功課或任務」是「do work/homework/a task」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。",
-        "do-mcq-01": "「實際進行、執行或完成某個行動、任務或活動」是「do something」的用法，與本句語境不同。"
+        "do-mcq-04": "本句的「did」指「修讀、學習或參與某個科目、課程或考試」。",
+        "do-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-04"
     },
@@ -1138,11 +1106,9 @@ export default {
       "masked": "I’m ____ an English course this year.",
       "options": [
         "do-mcq-04",
-        "do-mcq-03",
-        "do-mcq-05",
-        "do-mcq-02",
-        "do-mcq-06",
-        "do-mcq-01"
+        "do-mcq-15",
+        "do-mcq-16",
+        "do-mcq-09"
       ],
       "explanation": "本句的「doing」指「修讀、學習或參與某個科目、課程或考試」。",
       "sentenceIndex": 8,
@@ -1151,12 +1117,10 @@ export default {
         "doing"
       ],
       "optionReasons": {
-        "do-mcq-04": "本句指「修讀、學習或參與某個科目、課程或考試」。",
-        "do-mcq-03": "「進行洗衣、洗碗、清潔等日常家務活動」是「do routine household activities」的用法，與本句語境不同。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。",
-        "do-mcq-02": "「完成需要處理的工作、功課或任務」是「do work/homework/a task」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。",
-        "do-mcq-01": "「實際進行、執行或完成某個行動、任務或活動」是「do something」的用法，與本句語境不同。"
+        "do-mcq-04": "本句的「doing」指「修讀、學習或參與某個科目、課程或考試」。",
+        "do-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-04"
     },
@@ -1168,11 +1132,9 @@ export default {
       "masked": "I ____ three times a week.",
       "options": [
         "do-mcq-05",
-        "do-mcq-04",
-        "do-mcq-06",
-        "do-mcq-03",
-        "do-mcq-07",
-        "do-mcq-02"
+        "do-mcq-28",
+        "do-mcq-29",
+        "do-mcq-35"
       ],
       "explanation": "本句的「do yoga」指「從事或進行某項運動或活動」。",
       "sentenceIndex": 9,
@@ -1181,12 +1143,10 @@ export default {
         "do yoga"
       ],
       "optionReasons": {
-        "do-mcq-05": "本句指「從事或進行某項運動或活動」。",
-        "do-mcq-04": "「修讀、學習或參與某個科目、課程或考試」是「do a subject/course」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。",
-        "do-mcq-03": "「進行洗衣、洗碗、清潔等日常家務活動」是「do routine household activities」的用法，與本句語境不同。",
-        "do-mcq-07": "「為某人執行、處理或完成某件事情」是「do something for someone」的用法，與本句語境不同。",
-        "do-mcq-02": "「完成需要處理的工作、功課或任務」是「do work/homework/a task」的用法，與本句語境不同。"
+        "do-mcq-05": "本句的「do yoga」指「從事或進行某項運動或活動」。",
+        "do-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-05"
     },
@@ -1198,11 +1158,9 @@ export default {
       "masked": "He ____ a lot of exercise.",
       "options": [
         "do-mcq-05",
-        "do-mcq-04",
-        "do-mcq-06",
-        "do-mcq-03",
-        "do-mcq-07",
-        "do-mcq-02"
+        "do-mcq-27",
+        "do-mcq-18",
+        "do-mcq-17"
       ],
       "explanation": "本句的「does」指「從事或進行某項運動或活動」。",
       "sentenceIndex": 10,
@@ -1211,12 +1169,10 @@ export default {
         "does"
       ],
       "optionReasons": {
-        "do-mcq-05": "本句指「從事或進行某項運動或活動」。",
-        "do-mcq-04": "「修讀、學習或參與某個科目、課程或考試」是「do a subject/course」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。",
-        "do-mcq-03": "「進行洗衣、洗碗、清潔等日常家務活動」是「do routine household activities」的用法，與本句語境不同。",
-        "do-mcq-07": "「為某人執行、處理或完成某件事情」是「do something for someone」的用法，與本句語境不同。",
-        "do-mcq-02": "「完成需要處理的工作、功課或任務」是「do work/homework/a task」的用法，與本句語境不同。"
+        "do-mcq-05": "本句的「does」指「從事或進行某項運動或活動」。",
+        "do-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-05"
     },
@@ -1228,11 +1184,9 @@ export default {
       "masked": "The researchers ____ several experiments.",
       "options": [
         "do-mcq-06",
-        "do-mcq-05",
-        "do-mcq-07",
-        "do-mcq-04",
-        "do-mcq-08",
-        "do-mcq-03"
+        "do-mcq-22",
+        "do-mcq-38",
+        "do-mcq-35"
       ],
       "explanation": "本句的「did」指「實際進行研究、調查或實驗工作」。",
       "sentenceIndex": 11,
@@ -1241,12 +1195,10 @@ export default {
         "did"
       ],
       "optionReasons": {
-        "do-mcq-06": "本句指「實際進行研究、調查或實驗工作」。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。",
-        "do-mcq-07": "「為某人執行、處理或完成某件事情」是「do something for someone」的用法，與本句語境不同。",
-        "do-mcq-04": "「修讀、學習或參與某個科目、課程或考試」是「do a subject/course」的用法，與本句語境不同。",
-        "do-mcq-08": "「為某人做一件有幫助的事情；幫忙」是「do someone a favour」的用法，與本句語境不同。",
-        "do-mcq-03": "「進行洗衣、洗碗、清潔等日常家務活動」是「do routine household activities」的用法，與本句語境不同。"
+        "do-mcq-06": "本句的「did」指「實際進行研究、調查或實驗工作」。",
+        "do-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-06"
     },
@@ -1258,11 +1210,9 @@ export default {
       "masked": "We need to ____ before reaching a conclusion.",
       "options": [
         "do-mcq-06",
-        "do-mcq-05",
-        "do-mcq-07",
-        "do-mcq-04",
-        "do-mcq-08",
-        "do-mcq-03"
+        "do-mcq-37",
+        "do-mcq-35",
+        "do-mcq-25"
       ],
       "explanation": "本句的「do more research」指「實際進行研究、調查或實驗工作」。",
       "sentenceIndex": 12,
@@ -1271,12 +1221,10 @@ export default {
         "do more research"
       ],
       "optionReasons": {
-        "do-mcq-06": "本句指「實際進行研究、調查或實驗工作」。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。",
-        "do-mcq-07": "「為某人執行、處理或完成某件事情」是「do something for someone」的用法，與本句語境不同。",
-        "do-mcq-04": "「修讀、學習或參與某個科目、課程或考試」是「do a subject/course」的用法，與本句語境不同。",
-        "do-mcq-08": "「為某人做一件有幫助的事情；幫忙」是「do someone a favour」的用法，與本句語境不同。",
-        "do-mcq-03": "「進行洗衣、洗碗、清潔等日常家務活動」是「do routine household activities」的用法，與本句語境不同。"
+        "do-mcq-06": "本句的「do more research」指「實際進行研究、調查或實驗工作」。",
+        "do-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-06"
     },
@@ -1288,11 +1236,9 @@ export default {
       "masked": "Could you ____?",
       "options": [
         "do-mcq-07",
-        "do-mcq-06",
-        "do-mcq-08",
-        "do-mcq-05",
-        "do-mcq-09",
-        "do-mcq-04"
+        "do-mcq-14",
+        "do-mcq-19",
+        "do-mcq-12"
       ],
       "explanation": "本句的「do something for me」指「為某人執行、處理或完成某件事情」。",
       "sentenceIndex": 13,
@@ -1301,12 +1247,10 @@ export default {
         "do something for me"
       ],
       "optionReasons": {
-        "do-mcq-07": "本句指「為某人執行、處理或完成某件事情」。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。",
-        "do-mcq-08": "「為某人做一件有幫助的事情；幫忙」是「do someone a favour」的用法，與本句語境不同。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。",
-        "do-mcq-09": "「造成或帶來某種好處、傷害或損害」是「do good/harm/damage」的用法，與本句語境不同。",
-        "do-mcq-04": "「修讀、學習或參與某個科目、課程或考試」是「do a subject/course」的用法，與本句語境不同。"
+        "do-mcq-07": "本句的「do something for me」指「為某人執行、處理或完成某件事情」。",
+        "do-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-07"
     },
@@ -1318,11 +1262,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "do-mcq-07",
-        "do-mcq-06",
-        "do-mcq-08",
-        "do-mcq-05",
-        "do-mcq-09",
-        "do-mcq-04"
+        "do-mcq-14",
+        "do-mcq-26",
+        "do-mcq-19"
       ],
       "explanation": "本句的「did all the preparation for us」指「為某人執行、處理或完成某件事情」。",
       "sentenceIndex": 14,
@@ -1331,12 +1273,10 @@ export default {
         "did all the preparation for us"
       ],
       "optionReasons": {
-        "do-mcq-07": "本句指「為某人執行、處理或完成某件事情」。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。",
-        "do-mcq-08": "「為某人做一件有幫助的事情；幫忙」是「do someone a favour」的用法，與本句語境不同。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。",
-        "do-mcq-09": "「造成或帶來某種好處、傷害或損害」是「do good/harm/damage」的用法，與本句語境不同。",
-        "do-mcq-04": "「修讀、學習或參與某個科目、課程或考試」是「do a subject/course」的用法，與本句語境不同。"
+        "do-mcq-07": "本句的「did all the preparation for us」指「為某人執行、處理或完成某件事情」。",
+        "do-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-07"
     },
@@ -1348,11 +1288,9 @@ export default {
       "masked": "Could you ____ and check my slides?",
       "options": [
         "do-mcq-08",
-        "do-mcq-07",
-        "do-mcq-09",
-        "do-mcq-06",
-        "do-mcq-10",
-        "do-mcq-05"
+        "do-mcq-26",
+        "do-mcq-01",
+        "do-mcq-25"
       ],
       "explanation": "本句的「do me a favour」指「為某人做一件有幫助的事情；幫忙」。",
       "sentenceIndex": 15,
@@ -1361,12 +1299,10 @@ export default {
         "do me a favour"
       ],
       "optionReasons": {
-        "do-mcq-08": "本句指「為某人做一件有幫助的事情；幫忙」。",
-        "do-mcq-07": "「為某人執行、處理或完成某件事情」是「do something for someone」的用法，與本句語境不同。",
-        "do-mcq-09": "「造成或帶來某種好處、傷害或損害」是「do good/harm/damage」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。",
-        "do-mcq-10": "「從事商業活動或與另一方進行商業往來」是「do business」的用法，與本句語境不同。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。"
+        "do-mcq-08": "本句的「do me a favour」指「為某人做一件有幫助的事情；幫忙」。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-08"
     },
@@ -1378,11 +1314,9 @@ export default {
       "masked": "She ____ by covering his shift.",
       "options": [
         "do-mcq-08",
-        "do-mcq-07",
+        "do-mcq-37",
         "do-mcq-09",
-        "do-mcq-06",
-        "do-mcq-10",
-        "do-mcq-05"
+        "do-mcq-06"
       ],
       "explanation": "本句的「did him a favour」指「為某人做一件有幫助的事情；幫忙」。",
       "sentenceIndex": 16,
@@ -1391,12 +1325,10 @@ export default {
         "did him a favour"
       ],
       "optionReasons": {
-        "do-mcq-08": "本句指「為某人做一件有幫助的事情；幫忙」。",
-        "do-mcq-07": "「為某人執行、處理或完成某件事情」是「do something for someone」的用法，與本句語境不同。",
-        "do-mcq-09": "「造成或帶來某種好處、傷害或損害」是「do good/harm/damage」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。",
-        "do-mcq-10": "「從事商業活動或與另一方進行商業往來」是「do business」的用法，與本句語境不同。",
-        "do-mcq-05": "「從事或進行某項運動或活動」是「do exercise/activity」的用法，與本句語境不同。"
+        "do-mcq-08": "本句的「did him a favour」指「為某人做一件有幫助的事情；幫忙」。",
+        "do-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-08"
     },
@@ -1408,11 +1340,9 @@ export default {
       "masked": "A short break may ____.",
       "options": [
         "do-mcq-09",
-        "do-mcq-08",
-        "do-mcq-10",
-        "do-mcq-07",
-        "do-mcq-11",
-        "do-mcq-06"
+        "do-mcq-29",
+        "do-mcq-35",
+        "do-mcq-24"
       ],
       "explanation": "本句的「do you good」指「造成或帶來某種好處、傷害或損害」。",
       "sentenceIndex": 17,
@@ -1421,12 +1351,10 @@ export default {
         "do you good"
       ],
       "optionReasons": {
-        "do-mcq-09": "本句指「造成或帶來某種好處、傷害或損害」。",
-        "do-mcq-08": "「為某人做一件有幫助的事情；幫忙」是「do someone a favour」的用法，與本句語境不同。",
-        "do-mcq-10": "「從事商業活動或與另一方進行商業往來」是「do business」的用法，與本句語境不同。",
-        "do-mcq-07": "「為某人執行、處理或完成某件事情」是「do something for someone」的用法，與本句語境不同。",
-        "do-mcq-11": "「投入自己所能做到的最大努力」是「do your best」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。"
+        "do-mcq-09": "本句的「do you good」指「造成或帶來某種好處、傷害或損害」。",
+        "do-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-09"
     },
@@ -1438,11 +1366,9 @@ export default {
       "masked": "The storm ____ to the building.",
       "options": [
         "do-mcq-09",
-        "do-mcq-08",
-        "do-mcq-10",
-        "do-mcq-07",
-        "do-mcq-11",
-        "do-mcq-06"
+        "do-mcq-19",
+        "do-mcq-15",
+        "do-mcq-18"
       ],
       "explanation": "本句的「did serious damage」指「造成或帶來某種好處、傷害或損害」。",
       "sentenceIndex": 18,
@@ -1451,12 +1377,10 @@ export default {
         "did serious damage"
       ],
       "optionReasons": {
-        "do-mcq-09": "本句指「造成或帶來某種好處、傷害或損害」。",
-        "do-mcq-08": "「為某人做一件有幫助的事情；幫忙」是「do someone a favour」的用法，與本句語境不同。",
-        "do-mcq-10": "「從事商業活動或與另一方進行商業往來」是「do business」的用法，與本句語境不同。",
-        "do-mcq-07": "「為某人執行、處理或完成某件事情」是「do something for someone」的用法，與本句語境不同。",
-        "do-mcq-11": "「投入自己所能做到的最大努力」是「do your best」的用法，與本句語境不同。",
-        "do-mcq-06": "「實際進行研究、調查或實驗工作」是「do research/an experiment」的用法，與本句語境不同。"
+        "do-mcq-09": "本句的「did serious damage」指「造成或帶來某種好處、傷害或損害」。",
+        "do-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-09"
     },
@@ -1468,11 +1392,9 @@ export default {
       "masked": "The company ____ in more than twenty countries.",
       "options": [
         "do-mcq-10",
-        "do-mcq-09",
-        "do-mcq-11",
-        "do-mcq-08",
-        "do-mcq-12",
-        "do-mcq-07"
+        "do-mcq-17",
+        "do-mcq-14",
+        "do-mcq-38"
       ],
       "explanation": "本句的「does business」指「從事商業活動或與另一方進行商業往來」。",
       "sentenceIndex": 19,
@@ -1481,12 +1403,10 @@ export default {
         "does business"
       ],
       "optionReasons": {
-        "do-mcq-10": "本句指「從事商業活動或與另一方進行商業往來」。",
-        "do-mcq-09": "「造成或帶來某種好處、傷害或損害」是「do good/harm/damage」的用法，與本句語境不同。",
-        "do-mcq-11": "「投入自己所能做到的最大努力」是「do your best」的用法，與本句語境不同。",
-        "do-mcq-08": "「為某人做一件有幫助的事情；幫忙」是「do someone a favour」的用法，與本句語境不同。",
-        "do-mcq-12": "「在工作、考試、活動等方面表現好／差」是「do well/badly — performance」的用法，與本句語境不同。",
-        "do-mcq-07": "「為某人執行、處理或完成某件事情」是「do something for someone」的用法，與本句語境不同。"
+        "do-mcq-10": "本句的「does business」指「從事商業活動或與另一方進行商業往來」。",
+        "do-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-10"
     },
@@ -1498,11 +1418,9 @@ export default {
       "masked": "We have ____ them for years.",
       "options": [
         "do-mcq-10",
-        "do-mcq-09",
-        "do-mcq-11",
-        "do-mcq-08",
-        "do-mcq-12",
-        "do-mcq-07"
+        "do-pdf-001",
+        "do-mcq-22",
+        "do-mcq-28"
       ],
       "explanation": "本句的「done business with」指「從事商業活動或與另一方進行商業往來」。",
       "sentenceIndex": 20,
@@ -1511,12 +1429,10 @@ export default {
         "done business with"
       ],
       "optionReasons": {
-        "do-mcq-10": "本句指「從事商業活動或與另一方進行商業往來」。",
-        "do-mcq-09": "「造成或帶來某種好處、傷害或損害」是「do good/harm/damage」的用法，與本句語境不同。",
-        "do-mcq-11": "「投入自己所能做到的最大努力」是「do your best」的用法，與本句語境不同。",
-        "do-mcq-08": "「為某人做一件有幫助的事情；幫忙」是「do someone a favour」的用法，與本句語境不同。",
-        "do-mcq-12": "「在工作、考試、活動等方面表現好／差」是「do well/badly — performance」的用法，與本句語境不同。",
-        "do-mcq-07": "「為某人執行、處理或完成某件事情」是「do something for someone」的用法，與本句語境不同。"
+        "do-mcq-10": "本句的「done business with」指「從事商業活動或與另一方進行商業往來」。",
+        "do-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-10"
     },
@@ -1528,11 +1444,9 @@ export default {
       "masked": "I was nervous, but I ____.",
       "options": [
         "do-mcq-11",
-        "do-mcq-10",
-        "do-mcq-12",
-        "do-mcq-09",
-        "do-mcq-13",
-        "do-mcq-08"
+        "do-mcq-02",
+        "do-mcq-36",
+        "do-mcq-13"
       ],
       "explanation": "本句的「did my best」指「投入自己所能做到的最大努力」。",
       "sentenceIndex": 21,
@@ -1541,12 +1455,10 @@ export default {
         "did my best"
       ],
       "optionReasons": {
-        "do-mcq-11": "本句指「投入自己所能做到的最大努力」。",
-        "do-mcq-10": "「從事商業活動或與另一方進行商業往來」是「do business」的用法，與本句語境不同。",
-        "do-mcq-12": "「在工作、考試、活動等方面表現好／差」是「do well/badly — performance」的用法，與本句語境不同。",
-        "do-mcq-09": "「造成或帶來某種好處、傷害或損害」是「do good/harm/damage」的用法，與本句語境不同。",
-        "do-mcq-13": "「某人、公司或事情的整體狀況、進展或表現好／差」是「be doing well/badly — condition」的用法，與本句語境不同。",
-        "do-mcq-08": "「為某人做一件有幫助的事情；幫忙」是「do someone a favour」的用法，與本句語境不同。"
+        "do-mcq-11": "本句的「did my best」指「投入自己所能做到的最大努力」。",
+        "do-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-11"
     },
@@ -1558,11 +1470,9 @@ export default {
       "masked": "Just ____ and don’t worry about being perfect.",
       "options": [
         "do-mcq-11",
-        "do-mcq-10",
-        "do-mcq-12",
-        "do-mcq-09",
-        "do-mcq-13",
-        "do-mcq-08"
+        "do-mcq-19",
+        "do-mcq-28",
+        "do-mcq-10"
       ],
       "explanation": "本句的「do your best」指「投入自己所能做到的最大努力」。",
       "sentenceIndex": 22,
@@ -1571,12 +1481,10 @@ export default {
         "do your best"
       ],
       "optionReasons": {
-        "do-mcq-11": "本句指「投入自己所能做到的最大努力」。",
-        "do-mcq-10": "「從事商業活動或與另一方進行商業往來」是「do business」的用法，與本句語境不同。",
-        "do-mcq-12": "「在工作、考試、活動等方面表現好／差」是「do well/badly — performance」的用法，與本句語境不同。",
-        "do-mcq-09": "「造成或帶來某種好處、傷害或損害」是「do good/harm/damage」的用法，與本句語境不同。",
-        "do-mcq-13": "「某人、公司或事情的整體狀況、進展或表現好／差」是「be doing well/badly — condition」的用法，與本句語境不同。",
-        "do-mcq-08": "「為某人做一件有幫助的事情；幫忙」是「do someone a favour」的用法，與本句語境不同。"
+        "do-mcq-11": "本句的「do your best」指「投入自己所能做到的最大努力」。",
+        "do-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-11"
     },
@@ -1588,11 +1496,9 @@ export default {
       "masked": "She ____ in the presentation.",
       "options": [
         "do-mcq-12",
+        "do-mcq-26",
         "do-mcq-11",
-        "do-mcq-13",
-        "do-mcq-10",
-        "do-mcq-14",
-        "do-mcq-09"
+        "do-mcq-37"
       ],
       "explanation": "本句的「did very well」指「在工作、考試、活動等方面表現好／差」。",
       "sentenceIndex": 23,
@@ -1601,12 +1507,10 @@ export default {
         "did very well"
       ],
       "optionReasons": {
-        "do-mcq-12": "本句指「在工作、考試、活動等方面表現好／差」。",
-        "do-mcq-11": "「投入自己所能做到的最大努力」是「do your best」的用法，與本句語境不同。",
-        "do-mcq-13": "「某人、公司或事情的整體狀況、進展或表現好／差」是「be doing well/badly — condition」的用法，與本句語境不同。",
-        "do-mcq-10": "「從事商業活動或與另一方進行商業往來」是「do business」的用法，與本句語境不同。",
-        "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。",
-        "do-mcq-09": "「造成或帶來某種好處、傷害或損害」是「do good/harm/damage」的用法，與本句語境不同。"
+        "do-mcq-12": "本句的「did very well」指「在工作、考試、活動等方面表現好／差」。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-12"
     },
@@ -1618,11 +1522,9 @@ export default {
       "masked": "How did you ____ in the interview?",
       "options": [
         "do-mcq-12",
-        "do-mcq-11",
-        "do-mcq-13",
-        "do-mcq-10",
-        "do-mcq-14",
-        "do-mcq-09"
+        "do-mcq-38",
+        "do-mcq-28",
+        "do-mcq-19"
       ],
       "explanation": "本句的「do」指「在工作、考試、活動等方面表現好／差」。",
       "sentenceIndex": 24,
@@ -1631,12 +1533,10 @@ export default {
         "do"
       ],
       "optionReasons": {
-        "do-mcq-12": "本句指「在工作、考試、活動等方面表現好／差」。",
-        "do-mcq-11": "「投入自己所能做到的最大努力」是「do your best」的用法，與本句語境不同。",
-        "do-mcq-13": "「某人、公司或事情的整體狀況、進展或表現好／差」是「be doing well/badly — condition」的用法，與本句語境不同。",
-        "do-mcq-10": "「從事商業活動或與另一方進行商業往來」是「do business」的用法，與本句語境不同。",
-        "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。",
-        "do-mcq-09": "「造成或帶來某種好處、傷害或損害」是「do good/harm/damage」的用法，與本句語境不同。"
+        "do-mcq-12": "本句的「do」指「在工作、考試、活動等方面表現好／差」。",
+        "do-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-12"
     },
@@ -1648,11 +1548,9 @@ export default {
       "masked": "How are you ____?",
       "options": [
         "do-mcq-13",
-        "do-mcq-12",
-        "do-mcq-14",
-        "do-mcq-11",
-        "do-mcq-15",
-        "do-mcq-10"
+        "do-mcq-17",
+        "do-mcq-21",
+        "do-mcq-26"
       ],
       "explanation": "本句的「doing」指「某人、公司或事情的整體狀況、進展或表現好／差」。",
       "sentenceIndex": 25,
@@ -1661,12 +1559,10 @@ export default {
         "doing"
       ],
       "optionReasons": {
-        "do-mcq-13": "本句指「某人、公司或事情的整體狀況、進展或表現好／差」。",
-        "do-mcq-12": "「在工作、考試、活動等方面表現好／差」是「do well/badly — performance」的用法，與本句語境不同。",
-        "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。",
-        "do-mcq-11": "「投入自己所能做到的最大努力」是「do your best」的用法，與本句語境不同。",
-        "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。",
-        "do-mcq-10": "「從事商業活動或與另一方進行商業往來」是「do business」的用法，與本句語境不同。"
+        "do-mcq-13": "本句的「doing」指「某人、公司或事情的整體狀況、進展或表現好／差」。",
+        "do-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-13"
     },
@@ -1678,11 +1574,9 @@ export default {
       "masked": "She is ____ now.",
       "options": [
         "do-mcq-13",
-        "do-mcq-12",
-        "do-mcq-14",
+        "do-mcq-17",
         "do-mcq-11",
-        "do-mcq-15",
-        "do-mcq-10"
+        "do-mcq-35"
       ],
       "explanation": "本句的「doing much better」指「某人、公司或事情的整體狀況、進展或表現好／差」。",
       "sentenceIndex": 26,
@@ -1691,12 +1585,10 @@ export default {
         "doing much better"
       ],
       "optionReasons": {
-        "do-mcq-13": "本句指「某人、公司或事情的整體狀況、進展或表現好／差」。",
-        "do-mcq-12": "「在工作、考試、活動等方面表現好／差」是「do well/badly — performance」的用法，與本句語境不同。",
-        "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。",
-        "do-mcq-11": "「投入自己所能做到的最大努力」是「do your best」的用法，與本句語境不同。",
-        "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。",
-        "do-mcq-10": "「從事商業活動或與另一方進行商業往來」是「do business」的用法，與本句語境不同。"
+        "do-mcq-13": "本句的「doing much better」指「某人、公司或事情的整體狀況、進展或表現好／差」。",
+        "do-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-13"
     },
@@ -1708,11 +1600,9 @@ export default {
       "masked": "The company is ____ despite the weak economy.",
       "options": [
         "do-mcq-13",
-        "do-mcq-12",
-        "do-mcq-14",
-        "do-mcq-11",
-        "do-mcq-15",
-        "do-mcq-10"
+        "do-mcq-02",
+        "do-mcq-19",
+        "do-mcq-35"
       ],
       "explanation": "本句的「doing well」指「某人、公司或事情的整體狀況、進展或表現好／差」。",
       "sentenceIndex": 27,
@@ -1721,12 +1611,10 @@ export default {
         "doing well"
       ],
       "optionReasons": {
-        "do-mcq-13": "本句指「某人、公司或事情的整體狀況、進展或表現好／差」。",
-        "do-mcq-12": "「在工作、考試、活動等方面表現好／差」是「do well/badly — performance」的用法，與本句語境不同。",
-        "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。",
-        "do-mcq-11": "「投入自己所能做到的最大努力」是「do your best」的用法，與本句語境不同。",
-        "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。",
-        "do-mcq-10": "「從事商業活動或與另一方進行商業往來」是「do business」的用法，與本句語境不同。"
+        "do-mcq-13": "本句的「doing well」指「某人、公司或事情的整體狀況、進展或表現好／差」。",
+        "do-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-13"
     },
@@ -1738,11 +1626,9 @@ export default {
       "masked": "The new product is ____.",
       "options": [
         "do-mcq-13",
-        "do-mcq-12",
-        "do-mcq-14",
-        "do-mcq-11",
-        "do-mcq-15",
-        "do-mcq-10"
+        "do-mcq-28",
+        "do-pdf-001",
+        "do-mcq-19"
       ],
       "explanation": "本句的「doing better than expected」指「某人、公司或事情的整體狀況、進展或表現好／差」。",
       "sentenceIndex": 28,
@@ -1751,12 +1637,10 @@ export default {
         "doing better than expected"
       ],
       "optionReasons": {
-        "do-mcq-13": "本句指「某人、公司或事情的整體狀況、進展或表現好／差」。",
-        "do-mcq-12": "「在工作、考試、活動等方面表現好／差」是「do well/badly — performance」的用法，與本句語境不同。",
-        "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。",
-        "do-mcq-11": "「投入自己所能做到的最大努力」是「do your best」的用法，與本句語境不同。",
-        "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。",
-        "do-mcq-10": "「從事商業活動或與另一方進行商業往來」是「do business」的用法，與本句語境不同。"
+        "do-mcq-13": "本句的「doing better than expected」指「某人、公司或事情的整體狀況、進展或表現好／差」。",
+        "do-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "do-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-13"
     },
@@ -1768,11 +1652,9 @@ export default {
       "masked": "We ____n’t need a large room. This one will do.",
       "options": [
         "do-mcq-14",
-        "do-mcq-13",
-        "do-mcq-15",
-        "do-mcq-12",
-        "do-mcq-16",
-        "do-mcq-11"
+        "do-mcq-34",
+        "do-mcq-27",
+        "do-mcq-21"
       ],
       "explanation": "本句的「do」指「某物雖未必最好，但已足夠符合需要或用途」。",
       "sentenceIndex": 29,
@@ -1781,12 +1663,10 @@ export default {
         "do"
       ],
       "optionReasons": {
-        "do-mcq-14": "本句指「某物雖未必最好，但已足夠符合需要或用途」。",
-        "do-mcq-13": "「某人、公司或事情的整體狀況、進展或表現好／差」是「be doing well/badly — condition」的用法，與本句語境不同。",
-        "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。",
-        "do-mcq-12": "「在工作、考試、活動等方面表現好／差」是「do well/badly — performance」的用法，與本句語境不同。",
-        "do-mcq-16": "「對某物進行所需的整理、準備或處理」是「do hair/makeup/etc.」的用法，與本句語境不同。",
-        "do-mcq-11": "「投入自己所能做到的最大努力」是「do your best」的用法，與本句語境不同。"
+        "do-mcq-14": "本句的「do」指「某物雖未必最好，但已足夠符合需要或用途」。",
+        "do-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-14"
     },
@@ -1798,11 +1678,9 @@ export default {
       "masked": "Will two copies be enough?” > “Yes, that should ____.",
       "options": [
         "do-mcq-14",
-        "do-mcq-13",
-        "do-mcq-15",
-        "do-mcq-12",
-        "do-mcq-16",
-        "do-mcq-11"
+        "do-mcq-27",
+        "do-mcq-34",
+        "do-mcq-26"
       ],
       "explanation": "本句的「do」指「某物雖未必最好，但已足夠符合需要或用途」。",
       "sentenceIndex": 30,
@@ -1811,12 +1689,10 @@ export default {
         "do"
       ],
       "optionReasons": {
-        "do-mcq-14": "本句指「某物雖未必最好，但已足夠符合需要或用途」。",
-        "do-mcq-13": "「某人、公司或事情的整體狀況、進展或表現好／差」是「be doing well/badly — condition」的用法，與本句語境不同。",
-        "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。",
-        "do-mcq-12": "「在工作、考試、活動等方面表現好／差」是「do well/badly — performance」的用法，與本句語境不同。",
-        "do-mcq-16": "「對某物進行所需的整理、準備或處理」是「do hair/makeup/etc.」的用法，與本句語境不同。",
-        "do-mcq-11": "「投入自己所能做到的最大努力」是「do your best」的用法，與本句語境不同。"
+        "do-mcq-14": "本句的「do」指「某物雖未必最好，但已足夠符合需要或用途」。",
+        "do-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-14"
     },
@@ -1828,11 +1704,9 @@ export default {
       "masked": "____, everyone. Let’s move to the next topic.",
       "options": [
         "do-mcq-15",
-        "do-mcq-14",
-        "do-mcq-16",
-        "do-mcq-13",
-        "do-mcq-17",
-        "do-mcq-12"
+        "do-mcq-05",
+        "do-mcq-09",
+        "do-mcq-08"
       ],
       "explanation": "本句的「That’ll do」指「已經足夠，不需要再繼續；可以了／夠了」。",
       "sentenceIndex": 31,
@@ -1841,12 +1715,10 @@ export default {
         "That’ll do"
       ],
       "optionReasons": {
-        "do-mcq-15": "本句指「已經足夠，不需要再繼續；可以了／夠了」。",
-        "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。",
-        "do-mcq-16": "「對某物進行所需的整理、準備或處理」是「do hair/makeup/etc.」的用法，與本句語境不同。",
-        "do-mcq-13": "「某人、公司或事情的整體狀況、進展或表現好／差」是「be doing well/badly — condition」的用法，與本句語境不同。",
-        "do-mcq-17": "「完成某段距離、數量，或達到某個速度」是「do + distance/speed」的用法，與本句語境不同。",
-        "do-mcq-12": "「在工作、考試、活動等方面表現好／差」是「do well/badly — performance」的用法，與本句語境不同。"
+        "do-mcq-15": "本句的「That’ll do」指「已經足夠，不需要再繼續；可以了／夠了」。",
+        "do-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-15"
     },
@@ -1858,11 +1730,9 @@ export default {
       "masked": "____ Stop arguing.",
       "options": [
         "do-mcq-15",
-        "do-mcq-14",
-        "do-mcq-16",
-        "do-mcq-13",
-        "do-mcq-17",
-        "do-mcq-12"
+        "do-mcq-35",
+        "do-mcq-38",
+        "do-mcq-18"
       ],
       "explanation": "本句的「That will do!」指「已經足夠，不需要再繼續；可以了／夠了」。",
       "sentenceIndex": 32,
@@ -1871,12 +1741,10 @@ export default {
         "That will do!"
       ],
       "optionReasons": {
-        "do-mcq-15": "本句指「已經足夠，不需要再繼續；可以了／夠了」。",
-        "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。",
-        "do-mcq-16": "「對某物進行所需的整理、準備或處理」是「do hair/makeup/etc.」的用法，與本句語境不同。",
-        "do-mcq-13": "「某人、公司或事情的整體狀況、進展或表現好／差」是「be doing well/badly — condition」的用法，與本句語境不同。",
-        "do-mcq-17": "「完成某段距離、數量，或達到某個速度」是「do + distance/speed」的用法，與本句語境不同。",
-        "do-mcq-12": "「在工作、考試、活動等方面表現好／差」是「do well/badly — performance」的用法，與本句語境不同。"
+        "do-mcq-15": "本句的「That will do!」指「已經足夠，不需要再繼續；可以了／夠了」。",
+        "do-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-15"
     },
@@ -1888,11 +1756,9 @@ export default {
       "masked": "She was ____ before the event.",
       "options": [
         "do-mcq-16",
-        "do-mcq-15",
-        "do-mcq-17",
-        "do-mcq-14",
         "do-mcq-18",
-        "do-mcq-13"
+        "do-mcq-29",
+        "do-mcq-19"
       ],
       "explanation": "本句的「doing her hair」指「對某物進行所需的整理、準備或處理」。",
       "sentenceIndex": 33,
@@ -1901,12 +1767,10 @@ export default {
         "doing her hair"
       ],
       "optionReasons": {
-        "do-mcq-16": "本句指「對某物進行所需的整理、準備或處理」。",
-        "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。",
-        "do-mcq-17": "「完成某段距離、數量，或達到某個速度」是「do + distance/speed」的用法，與本句語境不同。",
-        "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。",
-        "do-mcq-18": "「在旅程中遊覽、參觀或體驗某個地方」是「do a place」的用法，與本句語境不同。",
-        "do-mcq-13": "「某人、公司或事情的整體狀況、進展或表現好／差」是「be doing well/badly — condition」的用法，與本句語境不同。"
+        "do-mcq-16": "本句的「doing her hair」指「對某物進行所需的整理、準備或處理」。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-16"
     },
@@ -1918,11 +1782,9 @@ export default {
       "masked": "I’ll ____ while you prepare the room.",
       "options": [
         "do-mcq-16",
-        "do-mcq-15",
         "do-mcq-17",
-        "do-mcq-14",
-        "do-mcq-18",
-        "do-mcq-13"
+        "do-mcq-36",
+        "do-mcq-27"
       ],
       "explanation": "本句的「do the food」指「對某物進行所需的整理、準備或處理」。",
       "sentenceIndex": 34,
@@ -1931,12 +1793,10 @@ export default {
         "do the food"
       ],
       "optionReasons": {
-        "do-mcq-16": "本句指「對某物進行所需的整理、準備或處理」。",
-        "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。",
-        "do-mcq-17": "「完成某段距離、數量，或達到某個速度」是「do + distance/speed」的用法，與本句語境不同。",
-        "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。",
-        "do-mcq-18": "「在旅程中遊覽、參觀或體驗某個地方」是「do a place」的用法，與本句語境不同。",
-        "do-mcq-13": "「某人、公司或事情的整體狀況、進展或表現好／差」是「be doing well/badly — condition」的用法，與本句語境不同。"
+        "do-mcq-16": "本句的「do the food」指「對某物進行所需的整理、準備或處理」。",
+        "do-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-16"
     },
@@ -1948,11 +1808,9 @@ export default {
       "masked": "They had the whole house ____ last year.",
       "options": [
         "do-pdf-001",
-        "do-mcq-16",
-        "do-mcq-18",
-        "do-mcq-15",
-        "do-mcq-19",
-        "do-mcq-14"
+        "do-mcq-31",
+        "do-mcq-25",
+        "do-mcq-08"
       ],
       "explanation": "本句的「done」指「找人替自己完成某項服務／工作」。",
       "sentenceIndex": 35,
@@ -1961,12 +1819,10 @@ export default {
         "done"
       ],
       "optionReasons": {
-        "do-pdf-001": "本句指「找人替自己完成某項服務／工作」。",
-        "do-mcq-16": "「對某物進行所需的整理、準備或處理」是「do hair/makeup/etc.」的用法，與本句語境不同。",
-        "do-mcq-18": "「在旅程中遊覽、參觀或體驗某個地方」是「do a place」的用法，與本句語境不同。",
-        "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。",
-        "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。",
-        "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。"
+        "do-pdf-001": "本句的「done」指「找人替自己完成某項服務／工作」。",
+        "do-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-pdf-001"
     },
@@ -1978,11 +1834,9 @@ export default {
       "masked": "We’re having the kitchen ____ next month.",
       "options": [
         "do-pdf-001",
-        "do-mcq-16",
-        "do-mcq-18",
-        "do-mcq-15",
-        "do-mcq-19",
-        "do-mcq-14"
+        "do-mcq-13",
+        "do-mcq-04",
+        "do-mcq-10"
       ],
       "explanation": "本句的「done」指「找人替自己完成某項服務／工作」。",
       "sentenceIndex": 36,
@@ -1991,12 +1845,10 @@ export default {
         "done"
       ],
       "optionReasons": {
-        "do-pdf-001": "本句指「找人替自己完成某項服務／工作」。",
-        "do-mcq-16": "「對某物進行所需的整理、準備或處理」是「do hair/makeup/etc.」的用法，與本句語境不同。",
-        "do-mcq-18": "「在旅程中遊覽、參觀或體驗某個地方」是「do a place」的用法，與本句語境不同。",
-        "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。",
-        "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。",
-        "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。"
+        "do-pdf-001": "本句的「done」指「找人替自己完成某項服務／工作」。",
+        "do-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-pdf-001"
     },
@@ -2008,11 +1860,9 @@ export default {
       "masked": "The car can ____ 200 kilometres an hour.",
       "options": [
         "do-mcq-17",
-        "do-mcq-16",
-        "do-mcq-18",
-        "do-mcq-15",
-        "do-mcq-19",
-        "do-mcq-14"
+        "do-mcq-11",
+        "do-mcq-08",
+        "do-mcq-04"
       ],
       "explanation": "本句的「do」指「完成某段距離、數量，或達到某個速度」。",
       "sentenceIndex": 37,
@@ -2021,12 +1871,10 @@ export default {
         "do"
       ],
       "optionReasons": {
-        "do-mcq-17": "本句指「完成某段距離、數量，或達到某個速度」。",
-        "do-mcq-16": "「對某物進行所需的整理、準備或處理」是「do hair/makeup/etc.」的用法，與本句語境不同。",
-        "do-mcq-18": "「在旅程中遊覽、參觀或體驗某個地方」是「do a place」的用法，與本句語境不同。",
-        "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。",
-        "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。",
-        "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。"
+        "do-mcq-17": "本句的「do」指「完成某段距離、數量，或達到某個速度」。",
+        "do-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-17"
     },
@@ -2038,11 +1886,9 @@ export default {
       "masked": "We ____ nearly twenty kilometres that day.",
       "options": [
         "do-mcq-17",
-        "do-mcq-16",
-        "do-mcq-18",
-        "do-mcq-15",
+        "do-mcq-38",
         "do-mcq-19",
-        "do-mcq-14"
+        "do-mcq-15"
       ],
       "explanation": "本句的「did」指「完成某段距離、數量，或達到某個速度」。",
       "sentenceIndex": 38,
@@ -2051,12 +1897,10 @@ export default {
         "did"
       ],
       "optionReasons": {
-        "do-mcq-17": "本句指「完成某段距離、數量，或達到某個速度」。",
-        "do-mcq-16": "「對某物進行所需的整理、準備或處理」是「do hair/makeup/etc.」的用法，與本句語境不同。",
-        "do-mcq-18": "「在旅程中遊覽、參觀或體驗某個地方」是「do a place」的用法，與本句語境不同。",
-        "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。",
-        "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。",
-        "do-mcq-14": "「某物雖未必最好，但已足夠符合需要或用途」是「will do — sufficient」的用法，與本句語境不同。"
+        "do-mcq-17": "本句的「did」指「完成某段距離、數量，或達到某個速度」。",
+        "do-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-17"
     },
@@ -2068,11 +1912,9 @@ export default {
       "masked": "We ____ Paris in three days.",
       "options": [
         "do-mcq-18",
-        "do-mcq-17",
-        "do-mcq-19",
-        "do-mcq-16",
-        "do-mcq-20",
-        "do-mcq-15"
+        "do-mcq-05",
+        "do-mcq-32",
+        "do-mcq-14"
       ],
       "explanation": "本句的「did」指「在旅程中遊覽、參觀或體驗某個地方」。",
       "sentenceIndex": 39,
@@ -2081,12 +1923,10 @@ export default {
         "did"
       ],
       "optionReasons": {
-        "do-mcq-18": "本句指「在旅程中遊覽、參觀或體驗某個地方」。",
-        "do-mcq-17": "「完成某段距離、數量，或達到某個速度」是「do + distance/speed」的用法，與本句語境不同。",
-        "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。",
-        "do-mcq-16": "「對某物進行所需的整理、準備或處理」是「do hair/makeup/etc.」的用法，與本句語境不同。",
-        "do-mcq-20": "「模仿某人的聲音、動作、風格或行為」是「do an impression」的用法，與本句語境不同。",
-        "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。"
+        "do-mcq-18": "本句的「did」指「在旅程中遊覽、參觀或體驗某個地方」。",
+        "do-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-18"
     },
@@ -2098,11 +1938,9 @@ export default {
       "masked": "We can ____ the museum in the morning and the old town in the afternoon.",
       "options": [
         "do-mcq-18",
-        "do-mcq-17",
-        "do-mcq-19",
-        "do-mcq-16",
-        "do-mcq-20",
-        "do-mcq-15"
+        "do-mcq-37",
+        "do-mcq-09",
+        "do-mcq-08"
       ],
       "explanation": "本句的「do」指「在旅程中遊覽、參觀或體驗某個地方」。",
       "sentenceIndex": 40,
@@ -2111,12 +1949,10 @@ export default {
         "do"
       ],
       "optionReasons": {
-        "do-mcq-18": "本句指「在旅程中遊覽、參觀或體驗某個地方」。",
-        "do-mcq-17": "「完成某段距離、數量，或達到某個速度」是「do + distance/speed」的用法，與本句語境不同。",
-        "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。",
-        "do-mcq-16": "「對某物進行所需的整理、準備或處理」是「do hair/makeup/etc.」的用法，與本句語境不同。",
-        "do-mcq-20": "「模仿某人的聲音、動作、風格或行為」是「do an impression」的用法，與本句語境不同。",
-        "do-mcq-15": "「已經足夠，不需要再繼續；可以了／夠了」是「that will do — stop」的用法，與本句語境不同。"
+        "do-mcq-18": "本句的「do」指「在旅程中遊覽、參觀或體驗某個地方」。",
+        "do-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-18"
     },
@@ -2128,11 +1964,9 @@ export default {
       "masked": "He ____ three years in prison.",
       "options": [
         "do-mcq-19",
-        "do-mcq-18",
-        "do-mcq-20",
-        "do-mcq-17",
-        "do-mcq-21",
-        "do-mcq-16"
+        "do-mcq-01",
+        "do-mcq-08",
+        "do-mcq-26"
       ],
       "explanation": "本句的「did」指「在監獄服指定時間的刑期」。",
       "sentenceIndex": 41,
@@ -2141,12 +1975,10 @@ export default {
         "did"
       ],
       "optionReasons": {
-        "do-mcq-19": "本句指「在監獄服指定時間的刑期」。",
-        "do-mcq-18": "「在旅程中遊覽、參觀或體驗某個地方」是「do a place」的用法，與本句語境不同。",
-        "do-mcq-20": "「模仿某人的聲音、動作、風格或行為」是「do an impression」的用法，與本句語境不同。",
-        "do-mcq-17": "「完成某段距離、數量，或達到某個速度」是「do + distance/speed」的用法，與本句語境不同。",
-        "do-mcq-21": "「用 do/does/did 承擔時態並構成一般疑問句」是「auxiliary do — question」的用法，與本句語境不同。",
-        "do-mcq-16": "「對某物進行所需的整理、準備或處理」是「do hair/makeup/etc.」的用法，與本句語境不同。"
+        "do-mcq-19": "本句的「did」指「在監獄服指定時間的刑期」。",
+        "do-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-19"
     },
@@ -2158,11 +1990,9 @@ export default {
       "masked": "She had already ____ six months of her sentence.",
       "options": [
         "do-mcq-19",
-        "do-mcq-18",
         "do-mcq-20",
-        "do-mcq-17",
-        "do-mcq-21",
-        "do-mcq-16"
+        "do-mcq-26",
+        "do-mcq-35"
       ],
       "explanation": "本句的「done」指「在監獄服指定時間的刑期」。",
       "sentenceIndex": 42,
@@ -2171,12 +2001,10 @@ export default {
         "done"
       ],
       "optionReasons": {
-        "do-mcq-19": "本句指「在監獄服指定時間的刑期」。",
-        "do-mcq-18": "「在旅程中遊覽、參觀或體驗某個地方」是「do a place」的用法，與本句語境不同。",
-        "do-mcq-20": "「模仿某人的聲音、動作、風格或行為」是「do an impression」的用法，與本句語境不同。",
-        "do-mcq-17": "「完成某段距離、數量，或達到某個速度」是「do + distance/speed」的用法，與本句語境不同。",
-        "do-mcq-21": "「用 do/does/did 承擔時態並構成一般疑問句」是「auxiliary do — question」的用法，與本句語境不同。",
-        "do-mcq-16": "「對某物進行所需的整理、準備或處理」是「do hair/makeup/etc.」的用法，與本句語境不同。"
+        "do-mcq-19": "本句的「done」指「在監獄服指定時間的刑期」。",
+        "do-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-19"
     },
@@ -2188,11 +2016,9 @@ export default {
       "masked": "He can ____ a very good impression of his manager.",
       "options": [
         "do-mcq-20",
-        "do-mcq-19",
-        "do-mcq-21",
-        "do-mcq-18",
-        "do-mcq-22",
-        "do-mcq-17"
+        "do-mcq-29",
+        "do-mcq-37",
+        "do-mcq-09"
       ],
       "explanation": "本句的「do」指「模仿某人的聲音、動作、風格或行為」。",
       "sentenceIndex": 43,
@@ -2201,12 +2027,10 @@ export default {
         "do"
       ],
       "optionReasons": {
-        "do-mcq-20": "本句指「模仿某人的聲音、動作、風格或行為」。",
-        "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。",
-        "do-mcq-21": "「用 do/does/did 承擔時態並構成一般疑問句」是「auxiliary do — question」的用法，與本句語境不同。",
-        "do-mcq-18": "「在旅程中遊覽、參觀或體驗某個地方」是「do a place」的用法，與本句語境不同。",
-        "do-mcq-22": "「用 do/does/did 配合 not 構成否定句」是「auxiliary do — negative」的用法，與本句語境不同。",
-        "do-mcq-17": "「完成某段距離、數量，或達到某個速度」是「do + distance/speed」的用法，與本句語境不同。"
+        "do-mcq-20": "本句的「do」指「模仿某人的聲音、動作、風格或行為」。",
+        "do-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-20"
     },
@@ -2218,10 +2042,8 @@ export default {
       "masked": "Can you ____ that actor’s voice?",
       "options": [
         "do-mcq-20",
-        "do-mcq-19",
-        "do-mcq-21",
         "do-mcq-18",
-        "do-mcq-22",
+        "do-mcq-04",
         "do-mcq-17"
       ],
       "explanation": "本句的「do」指「模仿某人的聲音、動作、風格或行為」。",
@@ -2231,12 +2053,10 @@ export default {
         "do"
       ],
       "optionReasons": {
-        "do-mcq-20": "本句指「模仿某人的聲音、動作、風格或行為」。",
-        "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。",
-        "do-mcq-21": "「用 do/does/did 承擔時態並構成一般疑問句」是「auxiliary do — question」的用法，與本句語境不同。",
-        "do-mcq-18": "「在旅程中遊覽、參觀或體驗某個地方」是「do a place」的用法，與本句語境不同。",
-        "do-mcq-22": "「用 do/does/did 配合 not 構成否定句」是「auxiliary do — negative」的用法，與本句語境不同。",
-        "do-mcq-17": "「完成某段距離、數量，或達到某個速度」是「do + distance/speed」的用法，與本句語境不同。"
+        "do-mcq-20": "本句的「do」指「模仿某人的聲音、動作、風格或行為」。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-20"
     },
@@ -2248,11 +2068,9 @@ export default {
       "masked": "____ you feel nervous before presentations?",
       "options": [
         "do-mcq-21",
-        "do-mcq-20",
-        "do-mcq-22",
-        "do-mcq-19",
-        "do-mcq-23",
-        "do-mcq-18"
+        "do-mcq-12",
+        "do-mcq-11",
+        "do-mcq-16"
       ],
       "explanation": "本句的「Do」指「用 do/does/did 承擔時態並構成一般疑問句」。",
       "sentenceIndex": 45,
@@ -2261,12 +2079,10 @@ export default {
         "Do"
       ],
       "optionReasons": {
-        "do-mcq-21": "本句指「用 do/does/did 承擔時態並構成一般疑問句」。",
-        "do-mcq-20": "「模仿某人的聲音、動作、風格或行為」是「do an impression」的用法，與本句語境不同。",
-        "do-mcq-22": "「用 do/does/did 配合 not 構成否定句」是「auxiliary do — negative」的用法，與本句語境不同。",
-        "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。",
-        "do-mcq-23": "「強調某個動作或陳述確實成立；的確／確實」是「emphatic do」的用法，與本句語境不同。",
-        "do-mcq-18": "「在旅程中遊覽、參觀或體驗某個地方」是「do a place」的用法，與本句語境不同。"
+        "do-mcq-21": "本句的「Do」指「用 do/does/did 承擔時態並構成一般疑問句」。",
+        "do-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-21"
     },
@@ -2278,11 +2094,9 @@ export default {
       "masked": "____ you practise before the event?",
       "options": [
         "do-mcq-21",
-        "do-mcq-20",
-        "do-mcq-22",
-        "do-mcq-19",
-        "do-mcq-23",
-        "do-mcq-18"
+        "do-mcq-14",
+        "do-mcq-08",
+        "do-mcq-10"
       ],
       "explanation": "本句的「Did」指「用 do/does/did 承擔時態並構成一般疑問句」。",
       "sentenceIndex": 46,
@@ -2291,12 +2105,10 @@ export default {
         "Did"
       ],
       "optionReasons": {
-        "do-mcq-21": "本句指「用 do/does/did 承擔時態並構成一般疑問句」。",
-        "do-mcq-20": "「模仿某人的聲音、動作、風格或行為」是「do an impression」的用法，與本句語境不同。",
-        "do-mcq-22": "「用 do/does/did 配合 not 構成否定句」是「auxiliary do — negative」的用法，與本句語境不同。",
-        "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。",
-        "do-mcq-23": "「強調某個動作或陳述確實成立；的確／確實」是「emphatic do」的用法，與本句語境不同。",
-        "do-mcq-18": "「在旅程中遊覽、參觀或體驗某個地方」是「do a place」的用法，與本句語境不同。"
+        "do-mcq-21": "本句的「Did」指「用 do/does/did 承擔時態並構成一般疑問句」。",
+        "do-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-21"
     },
@@ -2308,11 +2120,9 @@ export default {
       "masked": "I ____ to be perfect.",
       "options": [
         "do-mcq-22",
-        "do-mcq-21",
-        "do-mcq-23",
-        "do-mcq-20",
-        "do-mcq-24",
-        "do-mcq-19"
+        "do-mcq-10",
+        "do-mcq-18",
+        "do-mcq-27"
       ],
       "explanation": "本句的「did not need」指「用 do/does/did 配合 not 構成否定句」。",
       "sentenceIndex": 47,
@@ -2321,12 +2131,10 @@ export default {
         "did not need"
       ],
       "optionReasons": {
-        "do-mcq-22": "本句指「用 do/does/did 配合 not 構成否定句」。",
-        "do-mcq-21": "「用 do/does/did 承擔時態並構成一般疑問句」是「auxiliary do — question」的用法，與本句語境不同。",
-        "do-mcq-23": "「強調某個動作或陳述確實成立；的確／確實」是「emphatic do」的用法，與本句語境不同。",
-        "do-mcq-20": "「模仿某人的聲音、動作、風格或行為」是「do an impression」的用法，與本句語境不同。",
-        "do-mcq-24": "「代替前面已提及的完整動作，以避免重複」是「substitution do」的用法，與本句語境不同。",
-        "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。"
+        "do-mcq-22": "本句的「did not need」指「用 do/does/did 配合 not 構成否定句」。",
+        "do-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-22"
     },
@@ -2338,11 +2146,9 @@ export default {
       "masked": "I ____ as nervous now.",
       "options": [
         "do-mcq-22",
-        "do-mcq-21",
-        "do-mcq-23",
-        "do-mcq-20",
-        "do-mcq-24",
-        "do-mcq-19"
+        "do-mcq-18",
+        "do-mcq-27",
+        "do-mcq-38"
       ],
       "explanation": "本句的「don’t feel」指「用 do/does/did 配合 not 構成否定句」。",
       "sentenceIndex": 48,
@@ -2351,12 +2157,10 @@ export default {
         "don’t feel"
       ],
       "optionReasons": {
-        "do-mcq-22": "本句指「用 do/does/did 配合 not 構成否定句」。",
-        "do-mcq-21": "「用 do/does/did 承擔時態並構成一般疑問句」是「auxiliary do — question」的用法，與本句語境不同。",
-        "do-mcq-23": "「強調某個動作或陳述確實成立；的確／確實」是「emphatic do」的用法，與本句語境不同。",
-        "do-mcq-20": "「模仿某人的聲音、動作、風格或行為」是「do an impression」的用法，與本句語境不同。",
-        "do-mcq-24": "「代替前面已提及的完整動作，以避免重複」是「substitution do」的用法，與本句語境不同。",
-        "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。"
+        "do-mcq-22": "本句的「don’t feel」指「用 do/does/did 配合 not 構成否定句」。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-22"
     },
@@ -2368,11 +2172,9 @@ export default {
       "masked": "She ____ a script anymore.",
       "options": [
         "do-mcq-22",
-        "do-mcq-21",
-        "do-mcq-23",
-        "do-mcq-20",
+        "do-mcq-10",
         "do-mcq-24",
-        "do-mcq-19"
+        "do-mcq-26"
       ],
       "explanation": "本句的「doesn’t use」指「用 do/does/did 配合 not 構成否定句」。",
       "sentenceIndex": 49,
@@ -2381,12 +2183,10 @@ export default {
         "doesn’t use"
       ],
       "optionReasons": {
-        "do-mcq-22": "本句指「用 do/does/did 配合 not 構成否定句」。",
-        "do-mcq-21": "「用 do/does/did 承擔時態並構成一般疑問句」是「auxiliary do — question」的用法，與本句語境不同。",
-        "do-mcq-23": "「強調某個動作或陳述確實成立；的確／確實」是「emphatic do」的用法，與本句語境不同。",
-        "do-mcq-20": "「模仿某人的聲音、動作、風格或行為」是「do an impression」的用法，與本句語境不同。",
-        "do-mcq-24": "「代替前面已提及的完整動作，以避免重複」是「substitution do」的用法，與本句語境不同。",
-        "do-mcq-19": "「在監獄服指定時間的刑期」是「do time」的用法，與本句語境不同。"
+        "do-mcq-22": "本句的「doesn’t use」指「用 do/does/did 配合 not 構成否定句」。",
+        "do-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-22"
     },
@@ -2398,11 +2198,9 @@ export default {
       "masked": "I ____ a couple of small mistakes, but I kept going.",
       "options": [
         "do-mcq-23",
-        "do-mcq-22",
-        "do-mcq-24",
-        "do-mcq-21",
-        "do-mcq-25",
-        "do-mcq-20"
+        "do-mcq-14",
+        "do-mcq-35",
+        "do-mcq-27"
       ],
       "explanation": "本句的「did make」指「強調某個動作或陳述確實成立；的確／確實」。",
       "sentenceIndex": 50,
@@ -2411,12 +2209,10 @@ export default {
         "did make"
       ],
       "optionReasons": {
-        "do-mcq-23": "本句指「強調某個動作或陳述確實成立；的確／確實」。",
-        "do-mcq-22": "「用 do/does/did 配合 not 構成否定句」是「auxiliary do — negative」的用法，與本句語境不同。",
-        "do-mcq-24": "「代替前面已提及的完整動作，以避免重複」是「substitution do」的用法，與本句語境不同。",
-        "do-mcq-21": "「用 do/does/did 承擔時態並構成一般疑問句」是「auxiliary do — question」的用法，與本句語境不同。",
-        "do-mcq-25": "「表示前面的肯定／否定情況同樣適用於另一人」是「so do I / neither do I」的用法，與本句語境不同。",
-        "do-mcq-20": "「模仿某人的聲音、動作、風格或行為」是「do an impression」的用法，與本句語境不同。"
+        "do-mcq-23": "本句的「did make」指「強調某個動作或陳述確實成立；的確／確實」。",
+        "do-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-23"
     },
@@ -2428,11 +2224,9 @@ export default {
       "masked": "I ____ why you are worried.",
       "options": [
         "do-mcq-23",
-        "do-mcq-22",
-        "do-mcq-24",
-        "do-mcq-21",
-        "do-mcq-25",
-        "do-mcq-20"
+        "do-mcq-11",
+        "do-mcq-16",
+        "do-mcq-14"
       ],
       "explanation": "本句的「do understand」指「強調某個動作或陳述確實成立；的確／確實」。",
       "sentenceIndex": 51,
@@ -2441,12 +2235,10 @@ export default {
         "do understand"
       ],
       "optionReasons": {
-        "do-mcq-23": "本句指「強調某個動作或陳述確實成立；的確／確實」。",
-        "do-mcq-22": "「用 do/does/did 配合 not 構成否定句」是「auxiliary do — negative」的用法，與本句語境不同。",
-        "do-mcq-24": "「代替前面已提及的完整動作，以避免重複」是「substitution do」的用法，與本句語境不同。",
-        "do-mcq-21": "「用 do/does/did 承擔時態並構成一般疑問句」是「auxiliary do — question」的用法，與本句語境不同。",
-        "do-mcq-25": "「表示前面的肯定／否定情況同樣適用於另一人」是「so do I / neither do I」的用法，與本句語境不同。",
-        "do-mcq-20": "「模仿某人的聲音、動作、風格或行為」是「do an impression」的用法，與本句語境不同。"
+        "do-mcq-23": "本句的「do understand」指「強調某個動作或陳述確實成立；的確／確實」。",
+        "do-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-23"
     },
@@ -2458,11 +2250,9 @@ export default {
       "masked": "She ____ extremely hard.",
       "options": [
         "do-mcq-23",
-        "do-mcq-22",
-        "do-mcq-24",
-        "do-mcq-21",
-        "do-mcq-25",
-        "do-mcq-20"
+        "do-mcq-38",
+        "do-mcq-15",
+        "do-mcq-18"
       ],
       "explanation": "本句的「does work」指「強調某個動作或陳述確實成立；的確／確實」。",
       "sentenceIndex": 52,
@@ -2471,12 +2261,10 @@ export default {
         "does work"
       ],
       "optionReasons": {
-        "do-mcq-23": "本句指「強調某個動作或陳述確實成立；的確／確實」。",
-        "do-mcq-22": "「用 do/does/did 配合 not 構成否定句」是「auxiliary do — negative」的用法，與本句語境不同。",
-        "do-mcq-24": "「代替前面已提及的完整動作，以避免重複」是「substitution do」的用法，與本句語境不同。",
-        "do-mcq-21": "「用 do/does/did 承擔時態並構成一般疑問句」是「auxiliary do — question」的用法，與本句語境不同。",
-        "do-mcq-25": "「表示前面的肯定／否定情況同樣適用於另一人」是「so do I / neither do I」的用法，與本句語境不同。",
-        "do-mcq-20": "「模仿某人的聲音、動作、風格或行為」是「do an impression」的用法，與本句語境不同。"
+        "do-mcq-23": "本句的「does work」指「強調某個動作或陳述確實成立；的確／確實」。",
+        "do-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-23"
     },
@@ -2488,11 +2276,9 @@ export default {
       "masked": "She practises every evening, and I ____ too.",
       "options": [
         "do-mcq-24",
-        "do-mcq-23",
-        "do-mcq-25",
         "do-mcq-22",
-        "do-mcq-26",
-        "do-mcq-21"
+        "do-mcq-27",
+        "do-mcq-28"
       ],
       "explanation": "本句的「do」指「代替前面已提及的完整動作，以避免重複」。",
       "sentenceIndex": 53,
@@ -2501,12 +2287,10 @@ export default {
         "do"
       ],
       "optionReasons": {
-        "do-mcq-24": "本句指「代替前面已提及的完整動作，以避免重複」。",
-        "do-mcq-23": "「強調某個動作或陳述確實成立；的確／確實」是「emphatic do」的用法，與本句語境不同。",
-        "do-mcq-25": "「表示前面的肯定／否定情況同樣適用於另一人」是「so do I / neither do I」的用法，與本句語境不同。",
-        "do-mcq-22": "「用 do/does/did 配合 not 構成否定句」是「auxiliary do — negative」的用法，與本句語境不同。",
-        "do-mcq-26": "「加強邀請、請求或命令的語氣」是「do + imperative」的用法，與本句語境不同。",
-        "do-mcq-21": "「用 do/does/did 承擔時態並構成一般疑問句」是「auxiliary do — question」的用法，與本句語境不同。"
+        "do-mcq-24": "本句的「do」指「代替前面已提及的完整動作，以避免重複」。",
+        "do-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-24"
     },
@@ -2518,11 +2302,9 @@ export default {
       "masked": "He speaks more confidently than he ____ last year.",
       "options": [
         "do-mcq-24",
-        "do-mcq-23",
-        "do-mcq-25",
-        "do-mcq-22",
-        "do-mcq-26",
-        "do-mcq-21"
+        "do-mcq-11",
+        "do-mcq-27",
+        "do-mcq-28"
       ],
       "explanation": "本句的「did」指「代替前面已提及的完整動作，以避免重複」。",
       "sentenceIndex": 54,
@@ -2531,12 +2313,10 @@ export default {
         "did"
       ],
       "optionReasons": {
-        "do-mcq-24": "本句指「代替前面已提及的完整動作，以避免重複」。",
-        "do-mcq-23": "「強調某個動作或陳述確實成立；的確／確實」是「emphatic do」的用法，與本句語境不同。",
-        "do-mcq-25": "「表示前面的肯定／否定情況同樣適用於另一人」是「so do I / neither do I」的用法，與本句語境不同。",
-        "do-mcq-22": "「用 do/does/did 配合 not 構成否定句」是「auxiliary do — negative」的用法，與本句語境不同。",
-        "do-mcq-26": "「加強邀請、請求或命令的語氣」是「do + imperative」的用法，與本句語境不同。",
-        "do-mcq-21": "「用 do/does/did 承擔時態並構成一般疑問句」是「auxiliary do — question」的用法，與本句語境不同。"
+        "do-mcq-24": "本句的「did」指「代替前面已提及的完整動作，以避免重複」。",
+        "do-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-24"
     },
@@ -2548,11 +2328,9 @@ export default {
       "masked": "I feel nervous before presentations.” > “____",
       "options": [
         "do-mcq-25",
-        "do-mcq-24",
-        "do-mcq-26",
-        "do-mcq-23",
-        "do-mcq-27",
-        "do-mcq-22"
+        "do-mcq-34",
+        "do-mcq-29",
+        "do-mcq-16"
       ],
       "explanation": "本句的「So do I.」指「表示前面的肯定／否定情況同樣適用於另一人」。",
       "sentenceIndex": 55,
@@ -2561,12 +2339,10 @@ export default {
         "So do I."
       ],
       "optionReasons": {
-        "do-mcq-25": "本句指「表示前面的肯定／否定情況同樣適用於另一人」。",
-        "do-mcq-24": "「代替前面已提及的完整動作，以避免重複」是「substitution do」的用法，與本句語境不同。",
-        "do-mcq-26": "「加強邀請、請求或命令的語氣」是「do + imperative」的用法，與本句語境不同。",
-        "do-mcq-23": "「強調某個動作或陳述確實成立；的確／確實」是「emphatic do」的用法，與本句語境不同。",
-        "do-mcq-27": "「詢問某人的工作或職業」是「What do you do? — occupation」的用法，與本句語境不同。",
-        "do-mcq-22": "「用 do/does/did 配合 not 構成否定句」是「auxiliary do — negative」的用法，與本句語境不同。"
+        "do-mcq-25": "本句的「So do I.」指「表示前面的肯定／否定情況同樣適用於另一人」。",
+        "do-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-25"
     },
@@ -2578,11 +2354,9 @@ export default {
       "masked": "I don’t enjoy speaking in front of huge audiences.” > “____",
       "options": [
         "do-mcq-25",
-        "do-mcq-24",
-        "do-mcq-26",
-        "do-mcq-23",
-        "do-mcq-27",
-        "do-mcq-22"
+        "do-mcq-30",
+        "do-mcq-38",
+        "do-mcq-16"
       ],
       "explanation": "本句的「Neither do I.」指「表示前面的肯定／否定情況同樣適用於另一人」。",
       "sentenceIndex": 56,
@@ -2591,12 +2365,10 @@ export default {
         "Neither do I."
       ],
       "optionReasons": {
-        "do-mcq-25": "本句指「表示前面的肯定／否定情況同樣適用於另一人」。",
-        "do-mcq-24": "「代替前面已提及的完整動作，以避免重複」是「substitution do」的用法，與本句語境不同。",
-        "do-mcq-26": "「加強邀請、請求或命令的語氣」是「do + imperative」的用法，與本句語境不同。",
-        "do-mcq-23": "「強調某個動作或陳述確實成立；的確／確實」是「emphatic do」的用法，與本句語境不同。",
-        "do-mcq-27": "「詢問某人的工作或職業」是「What do you do? — occupation」的用法，與本句語境不同。",
-        "do-mcq-22": "「用 do/does/did 配合 not 構成否定句」是「auxiliary do — negative」的用法，與本句語境不同。"
+        "do-mcq-25": "本句的「Neither do I.」指「表示前面的肯定／否定情況同樣適用於另一人」。",
+        "do-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-25"
     },
@@ -2608,11 +2380,9 @@ export default {
       "masked": "____",
       "options": [
         "do-mcq-26",
-        "do-mcq-25",
-        "do-mcq-27",
-        "do-mcq-24",
-        "do-mcq-28",
-        "do-mcq-23"
+        "do-mcq-34",
+        "do-mcq-12",
+        "do-mcq-14"
       ],
       "explanation": "本句的「Do come in.」指「加強邀請、請求或命令的語氣」。",
       "sentenceIndex": 57,
@@ -2621,12 +2391,10 @@ export default {
         "Do come in."
       ],
       "optionReasons": {
-        "do-mcq-26": "本句指「加強邀請、請求或命令的語氣」。",
-        "do-mcq-25": "「表示前面的肯定／否定情況同樣適用於另一人」是「so do I / neither do I」的用法，與本句語境不同。",
-        "do-mcq-27": "「詢問某人的工作或職業」是「What do you do? — occupation」的用法，與本句語境不同。",
-        "do-mcq-24": "「代替前面已提及的完整動作，以避免重複」是「substitution do」的用法，與本句語境不同。",
-        "do-mcq-28": "「成功產生所需要的效果；奏效」是「do the trick」的用法，與本句語境不同。",
-        "do-mcq-23": "「強調某個動作或陳述確實成立；的確／確實」是「emphatic do」的用法，與本句語境不同。"
+        "do-mcq-26": "本句的「Do come in.」指「加強邀請、請求或命令的語氣」。",
+        "do-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-26"
     },
@@ -2638,11 +2406,9 @@ export default {
       "masked": "____ if you need help.",
       "options": [
         "do-mcq-26",
-        "do-mcq-25",
-        "do-mcq-27",
+        "do-mcq-06",
         "do-mcq-24",
-        "do-mcq-28",
-        "do-mcq-23"
+        "do-mcq-19"
       ],
       "explanation": "本句的「Do let me know」指「加強邀請、請求或命令的語氣」。",
       "sentenceIndex": 58,
@@ -2651,12 +2417,10 @@ export default {
         "Do let me know"
       ],
       "optionReasons": {
-        "do-mcq-26": "本句指「加強邀請、請求或命令的語氣」。",
-        "do-mcq-25": "「表示前面的肯定／否定情況同樣適用於另一人」是「so do I / neither do I」的用法，與本句語境不同。",
-        "do-mcq-27": "「詢問某人的工作或職業」是「What do you do? — occupation」的用法，與本句語境不同。",
-        "do-mcq-24": "「代替前面已提及的完整動作，以避免重複」是「substitution do」的用法，與本句語境不同。",
-        "do-mcq-28": "「成功產生所需要的效果；奏效」是「do the trick」的用法，與本句語境不同。",
-        "do-mcq-23": "「強調某個動作或陳述確實成立；的確／確實」是「emphatic do」的用法，與本句語境不同。"
+        "do-mcq-26": "本句的「Do let me know」指「加強邀請、請求或命令的語氣」。",
+        "do-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-26"
     },
@@ -2668,11 +2432,9 @@ export default {
       "masked": "What ____?",
       "options": [
         "do-mcq-27",
-        "do-mcq-26",
-        "do-mcq-28",
+        "do-mcq-05",
         "do-mcq-25",
-        "do-mcq-29",
-        "do-mcq-24"
+        "do-mcq-35"
       ],
       "explanation": "本句的「do you do」指「詢問某人的工作或職業」。",
       "sentenceIndex": 59,
@@ -2681,12 +2443,10 @@ export default {
         "do you do"
       ],
       "optionReasons": {
-        "do-mcq-27": "本句指「詢問某人的工作或職業」。",
-        "do-mcq-26": "「加強邀請、請求或命令的語氣」是「do + imperative」的用法，與本句語境不同。",
-        "do-mcq-28": "「成功產生所需要的效果；奏效」是「do the trick」的用法，與本句語境不同。",
-        "do-mcq-25": "「表示前面的肯定／否定情況同樣適用於另一人」是「so do I / neither do I」的用法，與本句語境不同。",
-        "do-mcq-29": "「在資源或條件不足時利用現有東西勉強應付」是「make do」的用法，與本句語境不同。",
-        "do-mcq-24": "「代替前面已提及的完整動作，以避免重複」是「substitution do」的用法，與本句語境不同。"
+        "do-mcq-27": "本句的「do you do」指「詢問某人的工作或職業」。",
+        "do-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-27"
     },
@@ -2698,11 +2458,9 @@ export default {
       "masked": "What ____es your brother do?",
       "options": [
         "do-mcq-27",
-        "do-mcq-26",
-        "do-mcq-28",
-        "do-mcq-25",
-        "do-mcq-29",
-        "do-mcq-24"
+        "do-mcq-22",
+        "do-mcq-18",
+        "do-mcq-03"
       ],
       "explanation": "本句的「do」指「詢問某人的工作或職業」。",
       "sentenceIndex": 60,
@@ -2711,12 +2469,10 @@ export default {
         "do"
       ],
       "optionReasons": {
-        "do-mcq-27": "本句指「詢問某人的工作或職業」。",
-        "do-mcq-26": "「加強邀請、請求或命令的語氣」是「do + imperative」的用法，與本句語境不同。",
-        "do-mcq-28": "「成功產生所需要的效果；奏效」是「do the trick」的用法，與本句語境不同。",
-        "do-mcq-25": "「表示前面的肯定／否定情況同樣適用於另一人」是「so do I / neither do I」的用法，與本句語境不同。",
-        "do-mcq-29": "「在資源或條件不足時利用現有東西勉強應付」是「make do」的用法，與本句語境不同。",
-        "do-mcq-24": "「代替前面已提及的完整動作，以避免重複」是「substitution do」的用法，與本句語境不同。"
+        "do-mcq-27": "本句的「do」指「詢問某人的工作或職業」。",
+        "do-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-27"
     },
@@ -2728,11 +2484,9 @@ export default {
       "masked": "A few deep breaths usually ____ before a presentation.",
       "options": [
         "do-mcq-28",
-        "do-mcq-27",
-        "do-mcq-29",
-        "do-mcq-26",
-        "do-mcq-30",
-        "do-mcq-25"
+        "do-mcq-10",
+        "do-mcq-18",
+        "do-mcq-27"
       ],
       "explanation": "本句的「do the trick」指「成功產生所需要的效果；奏效」。",
       "sentenceIndex": 61,
@@ -2741,12 +2495,10 @@ export default {
         "do the trick"
       ],
       "optionReasons": {
-        "do-mcq-28": "本句指「成功產生所需要的效果；奏效」。",
-        "do-mcq-27": "「詢問某人的工作或職業」是「What do you do? — occupation」的用法，與本句語境不同。",
-        "do-mcq-29": "「在資源或條件不足時利用現有東西勉強應付」是「make do」的用法，與本句語境不同。",
-        "do-mcq-26": "「加強邀請、請求或命令的語氣」是「do + imperative」的用法，與本句語境不同。",
-        "do-mcq-30": "「某項工作或行動已完成，不需要再繼續」是「done — completed」的用法，與本句語境不同。",
-        "do-mcq-25": "「表示前面的肯定／否定情況同樣適用於另一人」是「so do I / neither do I」的用法，與本句語境不同。"
+        "do-mcq-28": "本句的「do the trick」指「成功產生所需要的效果；奏效」。",
+        "do-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-28"
     },
@@ -2758,11 +2510,9 @@ export default {
       "masked": "If the screen freezes, restarting the computer may ____.",
       "options": [
         "do-mcq-28",
-        "do-mcq-27",
-        "do-mcq-29",
-        "do-mcq-26",
-        "do-mcq-30",
-        "do-mcq-25"
+        "do-mcq-24",
+        "do-mcq-10",
+        "do-mcq-26"
       ],
       "explanation": "本句的「do the trick」指「成功產生所需要的效果；奏效」。",
       "sentenceIndex": 62,
@@ -2771,12 +2521,10 @@ export default {
         "do the trick"
       ],
       "optionReasons": {
-        "do-mcq-28": "本句指「成功產生所需要的效果；奏效」。",
-        "do-mcq-27": "「詢問某人的工作或職業」是「What do you do? — occupation」的用法，與本句語境不同。",
-        "do-mcq-29": "「在資源或條件不足時利用現有東西勉強應付」是「make do」的用法，與本句語境不同。",
-        "do-mcq-26": "「加強邀請、請求或命令的語氣」是「do + imperative」的用法，與本句語境不同。",
-        "do-mcq-30": "「某項工作或行動已完成，不需要再繼續」是「done — completed」的用法，與本句語境不同。",
-        "do-mcq-25": "「表示前面的肯定／否定情況同樣適用於另一人」是「so do I / neither do I」的用法，與本句語境不同。"
+        "do-mcq-28": "本句的「do the trick」指「成功產生所需要的效果；奏效」。",
+        "do-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-28"
     },
@@ -2789,10 +2537,8 @@ export default {
       "options": [
         "do-mcq-29",
         "do-mcq-28",
-        "do-mcq-30",
-        "do-mcq-27",
-        "do-mcq-31",
-        "do-mcq-26"
+        "do-mcq-03",
+        "do-mcq-34"
       ],
       "explanation": "本句的「make do」指「在資源或條件不足時利用現有東西勉強應付」。",
       "sentenceIndex": 63,
@@ -2801,12 +2547,10 @@ export default {
         "make do"
       ],
       "optionReasons": {
-        "do-mcq-29": "本句指「在資源或條件不足時利用現有東西勉強應付」。",
-        "do-mcq-28": "「成功產生所需要的效果；奏效」是「do the trick」的用法，與本句語境不同。",
-        "do-mcq-30": "「某項工作或行動已完成，不需要再繼續」是「done — completed」的用法，與本句語境不同。",
-        "do-mcq-27": "「詢問某人的工作或職業」是「What do you do? — occupation」的用法，與本句語境不同。",
-        "do-mcq-31": "「食物已烹調至足夠或指定的熟度」是「done — cooked」的用法，與本句語境不同。",
-        "do-mcq-26": "「加強邀請、請求或命令的語氣」是「do + imperative」的用法，與本句語境不同。"
+        "do-mcq-29": "本句的「make do」指「在資源或條件不足時利用現有東西勉強應付」。",
+        "do-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-29"
     },
@@ -2818,11 +2562,9 @@ export default {
       "masked": "The hotel was full, so we ____ with a smaller room.",
       "options": [
         "do-mcq-29",
-        "do-mcq-28",
-        "do-mcq-30",
-        "do-mcq-27",
-        "do-mcq-31",
-        "do-mcq-26"
+        "do-mcq-22",
+        "do-mcq-04",
+        "do-mcq-24"
       ],
       "explanation": "本句的「made do」指「在資源或條件不足時利用現有東西勉強應付」。",
       "sentenceIndex": 64,
@@ -2831,12 +2573,10 @@ export default {
         "made do"
       ],
       "optionReasons": {
-        "do-mcq-29": "本句指「在資源或條件不足時利用現有東西勉強應付」。",
-        "do-mcq-28": "「成功產生所需要的效果；奏效」是「do the trick」的用法，與本句語境不同。",
-        "do-mcq-30": "「某項工作或行動已完成，不需要再繼續」是「done — completed」的用法，與本句語境不同。",
-        "do-mcq-27": "「詢問某人的工作或職業」是「What do you do? — occupation」的用法，與本句語境不同。",
-        "do-mcq-31": "「食物已烹調至足夠或指定的熟度」是「done — cooked」的用法，與本句語境不同。",
-        "do-mcq-26": "「加強邀請、請求或命令的語氣」是「do + imperative」的用法，與本句語境不同。"
+        "do-mcq-29": "本句的「made do」指「在資源或條件不足時利用現有東西勉強應付」。",
+        "do-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-29"
     },
@@ -2848,11 +2588,9 @@ export default {
       "masked": "I’m ____ with the presentation slides.",
       "options": [
         "do-mcq-30",
-        "do-mcq-29",
-        "do-mcq-31",
-        "do-mcq-28",
-        "do-mcq-32",
-        "do-mcq-27"
+        "do-mcq-11",
+        "do-mcq-19",
+        "do-mcq-25"
       ],
       "explanation": "本句的「done」指「某項工作或行動已完成，不需要再繼續」。",
       "sentenceIndex": 65,
@@ -2861,12 +2599,10 @@ export default {
         "done"
       ],
       "optionReasons": {
-        "do-mcq-30": "本句指「某項工作或行動已完成，不需要再繼續」。",
-        "do-mcq-29": "「在資源或條件不足時利用現有東西勉強應付」是「make do」的用法，與本句語境不同。",
-        "do-mcq-31": "「食物已烹調至足夠或指定的熟度」是「done — cooked」的用法，與本句語境不同。",
-        "do-mcq-28": "「成功產生所需要的效果；奏效」是「do the trick」的用法，與本句語境不同。",
-        "do-mcq-32": "「用來稱讚某人成功完成事情或表現良好」是「well done」的用法，與本句語境不同。",
-        "do-mcq-27": "「詢問某人的工作或職業」是「What do you do? — occupation」的用法，與本句語境不同。"
+        "do-mcq-30": "本句的「done」指「某項工作或行動已完成，不需要再繼續」。",
+        "do-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-30"
     },
@@ -2878,11 +2614,9 @@ export default {
       "masked": "Are you ____?",
       "options": [
         "do-mcq-30",
-        "do-mcq-29",
-        "do-mcq-31",
-        "do-mcq-28",
-        "do-mcq-32",
-        "do-mcq-27"
+        "do-mcq-08",
+        "do-mcq-11",
+        "do-mcq-04"
       ],
       "explanation": "本句的「done」指「某項工作或行動已完成，不需要再繼續」。",
       "sentenceIndex": 66,
@@ -2891,12 +2625,10 @@ export default {
         "done"
       ],
       "optionReasons": {
-        "do-mcq-30": "本句指「某項工作或行動已完成，不需要再繼續」。",
-        "do-mcq-29": "「在資源或條件不足時利用現有東西勉強應付」是「make do」的用法，與本句語境不同。",
-        "do-mcq-31": "「食物已烹調至足夠或指定的熟度」是「done — cooked」的用法，與本句語境不同。",
-        "do-mcq-28": "「成功產生所需要的效果；奏效」是「do the trick」的用法，與本句語境不同。",
-        "do-mcq-32": "「用來稱讚某人成功完成事情或表現良好」是「well done」的用法，與本句語境不同。",
-        "do-mcq-27": "「詢問某人的工作或職業」是「What do you do? — occupation」的用法，與本句語境不同。"
+        "do-mcq-30": "本句的「done」指「某項工作或行動已完成，不需要再繼續」。",
+        "do-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-30"
     },
@@ -2908,11 +2640,9 @@ export default {
       "masked": "The chicken isn’t ____ yet.",
       "options": [
         "do-mcq-31",
-        "do-mcq-30",
-        "do-mcq-32",
-        "do-mcq-29",
-        "do-mcq-33",
-        "do-mcq-28"
+        "do-mcq-38",
+        "do-mcq-11",
+        "do-mcq-16"
       ],
       "explanation": "本句的「done」指「食物已烹調至足夠或指定的熟度」。",
       "sentenceIndex": 67,
@@ -2921,12 +2651,10 @@ export default {
         "done"
       ],
       "optionReasons": {
-        "do-mcq-31": "本句指「食物已烹調至足夠或指定的熟度」。",
-        "do-mcq-30": "「某項工作或行動已完成，不需要再繼續」是「done — completed」的用法，與本句語境不同。",
-        "do-mcq-32": "「用來稱讚某人成功完成事情或表現良好」是「well done」的用法，與本句語境不同。",
-        "do-mcq-29": "「在資源或條件不足時利用現有東西勉強應付」是「make do」的用法，與本句語境不同。",
-        "do-mcq-33": "「雖然可能需要努力，但實際上可以完成或實現」是「doable」的用法，與本句語境不同。",
-        "do-mcq-28": "「成功產生所需要的效果；奏效」是「do the trick」的用法，與本句語境不同。"
+        "do-mcq-31": "本句的「done」指「食物已烹調至足夠或指定的熟度」。",
+        "do-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-31"
     },
@@ -2938,11 +2666,9 @@ export default {
       "masked": "How do you like your steak ____?",
       "options": [
         "do-mcq-31",
-        "do-mcq-30",
-        "do-mcq-32",
-        "do-mcq-29",
-        "do-mcq-33",
-        "do-mcq-28"
+        "do-mcq-10",
+        "do-mcq-35",
+        "do-mcq-20"
       ],
       "explanation": "本句的「done」指「食物已烹調至足夠或指定的熟度」。",
       "sentenceIndex": 68,
@@ -2951,12 +2677,10 @@ export default {
         "done"
       ],
       "optionReasons": {
-        "do-mcq-31": "本句指「食物已烹調至足夠或指定的熟度」。",
-        "do-mcq-30": "「某項工作或行動已完成，不需要再繼續」是「done — completed」的用法，與本句語境不同。",
-        "do-mcq-32": "「用來稱讚某人成功完成事情或表現良好」是「well done」的用法，與本句語境不同。",
-        "do-mcq-29": "「在資源或條件不足時利用現有東西勉強應付」是「make do」的用法，與本句語境不同。",
-        "do-mcq-33": "「雖然可能需要努力，但實際上可以完成或實現」是「doable」的用法，與本句語境不同。",
-        "do-mcq-28": "「成功產生所需要的效果；奏效」是「do the trick」的用法，與本句語境不同。"
+        "do-mcq-31": "本句的「done」指「食物已烹調至足夠或指定的熟度」。",
+        "do-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-31"
     },
@@ -2968,11 +2692,9 @@ export default {
       "masked": "You handled the presentation extremely well. ____",
       "options": [
         "do-mcq-32",
-        "do-mcq-31",
-        "do-mcq-33",
-        "do-mcq-30",
-        "do-mcq-34",
-        "do-mcq-29"
+        "do-mcq-26",
+        "do-mcq-19",
+        "do-mcq-25"
       ],
       "explanation": "本句的「Well done!」指「用來稱讚某人成功完成事情或表現良好」。",
       "sentenceIndex": 69,
@@ -2981,12 +2703,10 @@ export default {
         "Well done!"
       ],
       "optionReasons": {
-        "do-mcq-32": "本句指「用來稱讚某人成功完成事情或表現良好」。",
-        "do-mcq-31": "「食物已烹調至足夠或指定的熟度」是「done — cooked」的用法，與本句語境不同。",
-        "do-mcq-33": "「雖然可能需要努力，但實際上可以完成或實現」是「doable」的用法，與本句語境不同。",
-        "do-mcq-30": "「某項工作或行動已完成，不需要再繼續」是「done — completed」的用法，與本句語境不同。",
-        "do-mcq-34": "「會真正採取行動並把事情完成的實幹者」是「doer」的用法，與本句語境不同。",
-        "do-mcq-29": "「在資源或條件不足時利用現有東西勉強應付」是「make do」的用法，與本句語境不同。"
+        "do-mcq-32": "本句的「Well done!」指「用來稱讚某人成功完成事情或表現良好」。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-32"
     },
@@ -2998,11 +2718,9 @@ export default {
       "masked": "____ on completing the project.",
       "options": [
         "do-mcq-32",
-        "do-mcq-31",
-        "do-mcq-33",
-        "do-mcq-30",
-        "do-mcq-34",
-        "do-mcq-29"
+        "do-mcq-26",
+        "do-mcq-11",
+        "do-mcq-31"
       ],
       "explanation": "本句的「Well done」指「用來稱讚某人成功完成事情或表現良好」。",
       "sentenceIndex": 70,
@@ -3011,12 +2729,10 @@ export default {
         "Well done"
       ],
       "optionReasons": {
-        "do-mcq-32": "本句指「用來稱讚某人成功完成事情或表現良好」。",
-        "do-mcq-31": "「食物已烹調至足夠或指定的熟度」是「done — cooked」的用法，與本句語境不同。",
-        "do-mcq-33": "「雖然可能需要努力，但實際上可以完成或實現」是「doable」的用法，與本句語境不同。",
-        "do-mcq-30": "「某項工作或行動已完成，不需要再繼續」是「done — completed」的用法，與本句語境不同。",
-        "do-mcq-34": "「會真正採取行動並把事情完成的實幹者」是「doer」的用法，與本句語境不同。",
-        "do-mcq-29": "「在資源或條件不足時利用現有東西勉強應付」是「make do」的用法，與本句語境不同。"
+        "do-mcq-32": "本句的「Well done」指「用來稱讚某人成功完成事情或表現良好」。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-32"
     },
@@ -3028,11 +2744,9 @@ export default {
       "masked": "The presentation will be difficult, but it is ____.",
       "options": [
         "do-mcq-33",
-        "do-mcq-32",
-        "do-mcq-34",
-        "do-mcq-31",
-        "do-mcq-35",
-        "do-mcq-30"
+        "do-mcq-27",
+        "do-mcq-25",
+        "do-mcq-18"
       ],
       "explanation": "本句的「doable」指「雖然可能需要努力，但實際上可以完成或實現」。",
       "sentenceIndex": 71,
@@ -3041,12 +2755,10 @@ export default {
         "doable"
       ],
       "optionReasons": {
-        "do-mcq-33": "本句指「雖然可能需要努力，但實際上可以完成或實現」。",
-        "do-mcq-32": "「用來稱讚某人成功完成事情或表現良好」是「well done」的用法，與本句語境不同。",
-        "do-mcq-34": "「會真正採取行動並把事情完成的實幹者」是「doer」的用法，與本句語境不同。",
-        "do-mcq-31": "「食物已烹調至足夠或指定的熟度」是「done — cooked」的用法，與本句語境不同。",
-        "do-mcq-35": "「因修改、改善或出錯而重新做一次」是「redo」的用法，與本句語境不同。",
-        "do-mcq-30": "「某項工作或行動已完成，不需要再繼續」是「done — completed」的用法，與本句語境不同。"
+        "do-mcq-33": "本句的「doable」指「雖然可能需要努力，但實際上可以完成或實現」。",
+        "do-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-33"
     },
@@ -3058,11 +2770,9 @@ export default {
       "masked": "Finishing everything today is ____ if we work together.",
       "options": [
         "do-mcq-33",
-        "do-mcq-32",
-        "do-mcq-34",
-        "do-mcq-31",
-        "do-mcq-35",
-        "do-mcq-30"
+        "do-mcq-38",
+        "do-mcq-08",
+        "do-mcq-05"
       ],
       "explanation": "本句的「doable」指「雖然可能需要努力，但實際上可以完成或實現」。",
       "sentenceIndex": 72,
@@ -3071,12 +2781,10 @@ export default {
         "doable"
       ],
       "optionReasons": {
-        "do-mcq-33": "本句指「雖然可能需要努力，但實際上可以完成或實現」。",
-        "do-mcq-32": "「用來稱讚某人成功完成事情或表現良好」是「well done」的用法，與本句語境不同。",
-        "do-mcq-34": "「會真正採取行動並把事情完成的實幹者」是「doer」的用法，與本句語境不同。",
-        "do-mcq-31": "「食物已烹調至足夠或指定的熟度」是「done — cooked」的用法，與本句語境不同。",
-        "do-mcq-35": "「因修改、改善或出錯而重新做一次」是「redo」的用法，與本句語境不同。",
-        "do-mcq-30": "「某項工作或行動已完成，不需要再繼續」是「done — completed」的用法，與本句語境不同。"
+        "do-mcq-33": "本句的「doable」指「雖然可能需要努力，但實際上可以完成或實現」。",
+        "do-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-33"
     },
@@ -3088,11 +2796,9 @@ export default {
       "masked": "She is a ____, not just a talker.",
       "options": [
         "do-mcq-34",
-        "do-mcq-33",
-        "do-mcq-35",
-        "do-mcq-32",
-        "do-mcq-36",
-        "do-mcq-31"
+        "do-mcq-31",
+        "do-mcq-11",
+        "do-mcq-08"
       ],
       "explanation": "本句的「doer」指「會真正採取行動並把事情完成的實幹者」。",
       "sentenceIndex": 73,
@@ -3101,12 +2807,10 @@ export default {
         "doer"
       ],
       "optionReasons": {
-        "do-mcq-34": "本句指「會真正採取行動並把事情完成的實幹者」。",
-        "do-mcq-33": "「雖然可能需要努力，但實際上可以完成或實現」是「doable」的用法，與本句語境不同。",
-        "do-mcq-35": "「因修改、改善或出錯而重新做一次」是「redo」的用法，與本句語境不同。",
-        "do-mcq-32": "「用來稱讚某人成功完成事情或表現良好」是「well done」的用法，與本句語境不同。",
-        "do-mcq-36": "「把先前動作反過來、撤銷其效果或解除已形成的狀態」是「undo」的用法，與本句語境不同。",
-        "do-mcq-31": "「食物已烹調至足夠或指定的熟度」是「done — cooked」的用法，與本句語境不同。"
+        "do-mcq-34": "本句的「doer」指「會真正採取行動並把事情完成的實幹者」。",
+        "do-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-34"
     },
@@ -3118,11 +2822,9 @@ export default {
       "masked": "The company needs practical ____ who can turn ideas into results.",
       "options": [
         "do-mcq-34",
-        "do-mcq-33",
-        "do-mcq-35",
-        "do-mcq-32",
-        "do-mcq-36",
-        "do-mcq-31"
+        "do-mcq-26",
+        "do-mcq-29",
+        "do-mcq-08"
       ],
       "explanation": "本句的「doers」指「會真正採取行動並把事情完成的實幹者」。",
       "sentenceIndex": 74,
@@ -3131,12 +2833,10 @@ export default {
         "doers"
       ],
       "optionReasons": {
-        "do-mcq-34": "本句指「會真正採取行動並把事情完成的實幹者」。",
-        "do-mcq-33": "「雖然可能需要努力，但實際上可以完成或實現」是「doable」的用法，與本句語境不同。",
-        "do-mcq-35": "「因修改、改善或出錯而重新做一次」是「redo」的用法，與本句語境不同。",
-        "do-mcq-32": "「用來稱讚某人成功完成事情或表現良好」是「well done」的用法，與本句語境不同。",
-        "do-mcq-36": "「把先前動作反過來、撤銷其效果或解除已形成的狀態」是「undo」的用法，與本句語境不同。",
-        "do-mcq-31": "「食物已烹調至足夠或指定的熟度」是「done — cooked」的用法，與本句語境不同。"
+        "do-mcq-34": "本句的「doers」指「會真正採取行動並把事情完成的實幹者」。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-34"
     },
@@ -3148,11 +2848,9 @@ export default {
       "masked": "I had to ____ one of my slides.",
       "options": [
         "do-mcq-35",
-        "do-mcq-34",
-        "do-mcq-36",
-        "do-mcq-33",
-        "do-mcq-37",
-        "do-mcq-32"
+        "do-mcq-30",
+        "do-mcq-25",
+        "do-mcq-18"
       ],
       "explanation": "本句的「redo」指「因修改、改善或出錯而重新做一次」。",
       "sentenceIndex": 75,
@@ -3161,12 +2859,10 @@ export default {
         "redo"
       ],
       "optionReasons": {
-        "do-mcq-35": "本句指「因修改、改善或出錯而重新做一次」。",
-        "do-mcq-34": "「會真正採取行動並把事情完成的實幹者」是「doer」的用法，與本句語境不同。",
-        "do-mcq-36": "「把先前動作反過來、撤銷其效果或解除已形成的狀態」是「undo」的用法，與本句語境不同。",
-        "do-mcq-33": "「雖然可能需要努力，但實際上可以完成或實現」是「doable」的用法，與本句語境不同。",
-        "do-mcq-37": "「尚未完成、需要處理的事項／待辦事項清單」是「to-do / to-do list」的用法，與本句語境不同。",
-        "do-mcq-32": "「用來稱讚某人成功完成事情或表現良好」是「well done」的用法，與本句語境不同。"
+        "do-mcq-35": "本句的「redo」指「因修改、改善或出錯而重新做一次」。",
+        "do-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-35"
     },
@@ -3178,11 +2874,9 @@ export default {
       "masked": "The work was incorrect, so we ____ it.",
       "options": [
         "do-mcq-35",
-        "do-mcq-34",
-        "do-mcq-36",
-        "do-mcq-33",
-        "do-mcq-37",
-        "do-mcq-32"
+        "do-mcq-09",
+        "do-mcq-20",
+        "do-mcq-22"
       ],
       "explanation": "本句的「redid」指「因修改、改善或出錯而重新做一次」。",
       "sentenceIndex": 76,
@@ -3191,12 +2885,10 @@ export default {
         "redid"
       ],
       "optionReasons": {
-        "do-mcq-35": "本句指「因修改、改善或出錯而重新做一次」。",
-        "do-mcq-34": "「會真正採取行動並把事情完成的實幹者」是「doer」的用法，與本句語境不同。",
-        "do-mcq-36": "「把先前動作反過來、撤銷其效果或解除已形成的狀態」是「undo」的用法，與本句語境不同。",
-        "do-mcq-33": "「雖然可能需要努力，但實際上可以完成或實現」是「doable」的用法，與本句語境不同。",
-        "do-mcq-37": "「尚未完成、需要處理的事項／待辦事項清單」是「to-do / to-do list」的用法，與本句語境不同。",
-        "do-mcq-32": "「用來稱讚某人成功完成事情或表現良好」是「well done」的用法，與本句語境不同。"
+        "do-mcq-35": "本句的「redid」指「因修改、改善或出錯而重新做一次」。",
+        "do-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-35"
     },
@@ -3208,11 +2900,9 @@ export default {
       "masked": "Press this button to ____ your last change.",
       "options": [
         "do-mcq-36",
-        "do-mcq-35",
-        "do-mcq-37",
-        "do-mcq-34",
-        "do-mcq-38",
-        "do-mcq-33"
+        "do-mcq-19",
+        "do-mcq-18",
+        "do-mcq-16"
       ],
       "explanation": "本句的「undo」指「把先前動作反過來、撤銷其效果或解除已形成的狀態」。",
       "sentenceIndex": 77,
@@ -3221,12 +2911,10 @@ export default {
         "undo"
       ],
       "optionReasons": {
-        "do-mcq-36": "本句指「把先前動作反過來、撤銷其效果或解除已形成的狀態」。",
-        "do-mcq-35": "「因修改、改善或出錯而重新做一次」是「redo」的用法，與本句語境不同。",
-        "do-mcq-37": "「尚未完成、需要處理的事項／待辦事項清單」是「to-do / to-do list」的用法，與本句語境不同。",
-        "do-mcq-34": "「會真正採取行動並把事情完成的實幹者」是「doer」的用法，與本句語境不同。",
-        "do-mcq-38": "「某種情況下應該做及應避免做的事情／注意事項」是「dos and don’ts」的用法，與本句語境不同。",
-        "do-mcq-33": "「雖然可能需要努力，但實際上可以完成或實現」是「doable」的用法，與本句語境不同。"
+        "do-mcq-36": "本句的「undo」指「把先前動作反過來、撤銷其效果或解除已形成的狀態」。",
+        "do-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-36"
     },
@@ -3238,11 +2926,9 @@ export default {
       "masked": "He ____ the top button of his shirt.",
       "options": [
         "do-mcq-36",
-        "do-mcq-35",
-        "do-mcq-37",
-        "do-mcq-34",
-        "do-mcq-38",
-        "do-mcq-33"
+        "do-mcq-27",
+        "do-mcq-16",
+        "do-mcq-38"
       ],
       "explanation": "本句的「undid」指「把先前動作反過來、撤銷其效果或解除已形成的狀態」。",
       "sentenceIndex": 78,
@@ -3251,12 +2937,10 @@ export default {
         "undid"
       ],
       "optionReasons": {
-        "do-mcq-36": "本句指「把先前動作反過來、撤銷其效果或解除已形成的狀態」。",
-        "do-mcq-35": "「因修改、改善或出錯而重新做一次」是「redo」的用法，與本句語境不同。",
-        "do-mcq-37": "「尚未完成、需要處理的事項／待辦事項清單」是「to-do / to-do list」的用法，與本句語境不同。",
-        "do-mcq-34": "「會真正採取行動並把事情完成的實幹者」是「doer」的用法，與本句語境不同。",
-        "do-mcq-38": "「某種情況下應該做及應避免做的事情／注意事項」是「dos and don’ts」的用法，與本句語境不同。",
-        "do-mcq-33": "「雖然可能需要努力，但實際上可以完成或實現」是「doable」的用法，與本句語境不同。"
+        "do-mcq-36": "本句的「undid」指「把先前動作反過來、撤銷其效果或解除已形成的狀態」。",
+        "do-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-36"
     },
@@ -3268,11 +2952,9 @@ export default {
       "masked": "Preparing the slides is at the top of my ____.",
       "options": [
         "do-mcq-37",
-        "do-mcq-36",
-        "do-mcq-38",
-        "do-mcq-35",
-        "do-mcq-34",
-        "do-mcq-33"
+        "do-mcq-08",
+        "do-mcq-31",
+        "do-mcq-06"
       ],
       "explanation": "本句的「to-do list」指「尚未完成、需要處理的事項／待辦事項清單」。",
       "sentenceIndex": 79,
@@ -3281,12 +2963,10 @@ export default {
         "to-do list"
       ],
       "optionReasons": {
-        "do-mcq-37": "本句指「尚未完成、需要處理的事項／待辦事項清單」。",
-        "do-mcq-36": "「把先前動作反過來、撤銷其效果或解除已形成的狀態」是「undo」的用法，與本句語境不同。",
-        "do-mcq-38": "「某種情況下應該做及應避免做的事情／注意事項」是「dos and don’ts」的用法，與本句語境不同。",
-        "do-mcq-35": "「因修改、改善或出錯而重新做一次」是「redo」的用法，與本句語境不同。",
-        "do-mcq-34": "「會真正採取行動並把事情完成的實幹者」是「doer」的用法，與本句語境不同。",
-        "do-mcq-33": "「雖然可能需要努力，但實際上可以完成或實現」是「doable」的用法，與本句語境不同。"
+        "do-mcq-37": "本句的「to-do list」指「尚未完成、需要處理的事項／待辦事項清單」。",
+        "do-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-37"
     },
@@ -3298,11 +2978,9 @@ export default {
       "masked": "I still have several ____ before the event.",
       "options": [
         "do-mcq-37",
-        "do-mcq-36",
-        "do-mcq-38",
-        "do-mcq-35",
-        "do-mcq-34",
-        "do-mcq-33"
+        "do-mcq-10",
+        "do-mcq-19",
+        "do-mcq-29"
       ],
       "explanation": "本句的「to-dos」指「尚未完成、需要處理的事項／待辦事項清單」。",
       "sentenceIndex": 80,
@@ -3311,12 +2989,10 @@ export default {
         "to-dos"
       ],
       "optionReasons": {
-        "do-mcq-37": "本句指「尚未完成、需要處理的事項／待辦事項清單」。",
-        "do-mcq-36": "「把先前動作反過來、撤銷其效果或解除已形成的狀態」是「undo」的用法，與本句語境不同。",
-        "do-mcq-38": "「某種情況下應該做及應避免做的事情／注意事項」是「dos and don’ts」的用法，與本句語境不同。",
-        "do-mcq-35": "「因修改、改善或出錯而重新做一次」是「redo」的用法，與本句語境不同。",
-        "do-mcq-34": "「會真正採取行動並把事情完成的實幹者」是「doer」的用法，與本句語境不同。",
-        "do-mcq-33": "「雖然可能需要努力，但實際上可以完成或實現」是「doable」的用法，與本句語境不同。"
+        "do-mcq-37": "本句的「to-dos」指「尚未完成、需要處理的事項／待辦事項清單」。",
+        "do-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-37"
     },
@@ -3328,11 +3004,9 @@ export default {
       "masked": "The trainer explained the ____ of giving a presentation.",
       "options": [
         "do-mcq-38",
-        "do-mcq-37",
-        "do-mcq-36",
-        "do-mcq-35",
-        "do-mcq-34",
-        "do-mcq-33"
+        "do-mcq-03",
+        "do-mcq-02",
+        "do-mcq-26"
       ],
       "explanation": "本句的「dos and don’ts」指「某種情況下應該做及應避免做的事情／注意事項」。",
       "sentenceIndex": 81,
@@ -3341,12 +3015,10 @@ export default {
         "dos and don’ts"
       ],
       "optionReasons": {
-        "do-mcq-38": "本句指「某種情況下應該做及應避免做的事情／注意事項」。",
-        "do-mcq-37": "「尚未完成、需要處理的事項／待辦事項清單」是「to-do / to-do list」的用法，與本句語境不同。",
-        "do-mcq-36": "「把先前動作反過來、撤銷其效果或解除已形成的狀態」是「undo」的用法，與本句語境不同。",
-        "do-mcq-35": "「因修改、改善或出錯而重新做一次」是「redo」的用法，與本句語境不同。",
-        "do-mcq-34": "「會真正採取行動並把事情完成的實幹者」是「doer」的用法，與本句語境不同。",
-        "do-mcq-33": "「雖然可能需要努力，但實際上可以完成或實現」是「doable」的用法，與本句語境不同。"
+        "do-mcq-38": "本句的「dos and don’ts」指「某種情況下應該做及應避免做的事情／注意事項」。",
+        "do-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-38"
     },
@@ -3358,11 +3030,9 @@ export default {
       "masked": "Learn the basic ____ before your first interview.",
       "options": [
         "do-mcq-38",
-        "do-mcq-37",
-        "do-mcq-36",
-        "do-mcq-35",
-        "do-mcq-34",
-        "do-mcq-33"
+        "do-mcq-31",
+        "do-mcq-17",
+        "do-mcq-20"
       ],
       "explanation": "本句的「dos and don’ts」指「某種情況下應該做及應避免做的事情／注意事項」。",
       "sentenceIndex": 82,
@@ -3371,12 +3041,10 @@ export default {
         "dos and don’ts"
       ],
       "optionReasons": {
-        "do-mcq-38": "本句指「某種情況下應該做及應避免做的事情／注意事項」。",
-        "do-mcq-37": "「尚未完成、需要處理的事項／待辦事項清單」是「to-do / to-do list」的用法，與本句語境不同。",
-        "do-mcq-36": "「把先前動作反過來、撤銷其效果或解除已形成的狀態」是「undo」的用法，與本句語境不同。",
-        "do-mcq-35": "「因修改、改善或出錯而重新做一次」是「redo」的用法，與本句語境不同。",
-        "do-mcq-34": "「會真正採取行動並把事情完成的實幹者」是「doer」的用法，與本句語境不同。",
-        "do-mcq-33": "「雖然可能需要努力，但實際上可以完成或實現」是「doable」的用法，與本句語境不同。"
+        "do-mcq-38": "本句的「dos and don’ts」指「某種情況下應該做及應避免做的事情／注意事項」。",
+        "do-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "do-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "do-mcq-38"
     }
@@ -3388,5 +3056,7 @@ export default {
     "sha256": "c076ea72a6834c1955df8295f3098942f84b4e54ff0f19155d7eb830a641d09c",
     "pages": 38
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

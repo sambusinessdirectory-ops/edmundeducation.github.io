@@ -1803,11 +1803,8 @@ export default {
       "masked": "The teacher gave us clear ____ before the activity.",
       "options": [
         "instruction-mcq-01",
-        "instruction-mcq-02",
-        "instruction-mcq-03",
-        "instruction-mcq-04",
         "instruction-mcq-05",
-        "instruction-mcq-06"
+        "instruction-pdf-plain-140"
       ],
       "explanation": "本句的「instructions」指「告訴學生任務要做甚麼、如何做的清楚活動指示」。",
       "sentenceIndex": 0,
@@ -1816,12 +1813,9 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-01": "本句指「告訴學生任務要做甚麼、如何做的清楚活動指示」。",
-        "instruction-mcq-02": "「一項具體告訴某人要做甚麼的指示」與本句語境不同。",
-        "instruction-mcq-03": "「一連串解釋如何完成任務的步驟／說明」與本句語境不同。",
-        "instruction-mcq-04": "「容易理解、沒有歧義的清楚指示」與本句語境不同。",
-        "instruction-mcq-05": "「提供大量具體細節的詳細說明」與本句語境不同。",
-        "instruction-mcq-06": "「明確指出具體要做甚麼的指示」與本句語境不同。"
+        "instruction-mcq-01": "本句的「instructions」指「告訴學生任務要做甚麼、如何做的清楚活動指示」。",
+        "instruction-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "instruction-pdf-plain-140": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-01"
     },
@@ -1833,11 +1827,8 @@ export default {
       "masked": "Read the ____ carefully before you begin.",
       "options": [
         "instruction-mcq-01",
-        "instruction-mcq-02",
-        "instruction-mcq-03",
-        "instruction-mcq-04",
         "instruction-mcq-05",
-        "instruction-mcq-06"
+        "instruction-pdf-plain-140"
       ],
       "explanation": "本句的「instructions」指「告訴學生任務要做甚麼、如何做的清楚活動指示」。",
       "sentenceIndex": 1,
@@ -1846,12 +1837,9 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-01": "本句指「告訴學生任務要做甚麼、如何做的清楚活動指示」。",
-        "instruction-mcq-02": "「一項具體告訴某人要做甚麼的指示」與本句語境不同。",
-        "instruction-mcq-03": "「一連串解釋如何完成任務的步驟／說明」與本句語境不同。",
-        "instruction-mcq-04": "「容易理解、沒有歧義的清楚指示」與本句語境不同。",
-        "instruction-mcq-05": "「提供大量具體細節的詳細說明」與本句語境不同。",
-        "instruction-mcq-06": "「明確指出具體要做甚麼的指示」與本句語境不同。"
+        "instruction-mcq-01": "本句的「instructions」指「告訴學生任務要做甚麼、如何做的清楚活動指示」。",
+        "instruction-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "instruction-pdf-plain-140": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-01"
     },
@@ -1863,11 +1851,9 @@ export default {
       "masked": "Students perform better when they receive clear ____.",
       "options": [
         "instruction-mcq-04",
-        "instruction-mcq-03",
         "instruction-mcq-05",
-        "instruction-mcq-02",
-        "instruction-mcq-06",
-        "instruction-mcq-01"
+        "instruction-mcq-85",
+        "instruction-mcq-10"
       ],
       "explanation": "本句的「instructions」指「容易理解、沒有歧義的清楚指示」。",
       "sentenceIndex": 6,
@@ -1876,12 +1862,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-04": "本句指「容易理解、沒有歧義的清楚指示」。",
-        "instruction-mcq-03": "「一連串解釋如何完成任務的步驟／說明」與本句語境不同。",
-        "instruction-mcq-05": "「提供大量具體細節的詳細說明」與本句語境不同。",
-        "instruction-mcq-02": "「一項具體告訴某人要做甚麼的指示」與本句語境不同。",
-        "instruction-mcq-06": "「明確指出具體要做甚麼的指示」與本句語境不同。",
-        "instruction-mcq-01": "「告訴學生任務要做甚麼、如何做的清楚活動指示」與本句語境不同。"
+        "instruction-mcq-04": "本句的「instructions」指「容易理解、沒有歧義的清楚指示」。",
+        "instruction-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-04"
     },
@@ -1893,11 +1877,8 @@ export default {
       "masked": "The manual provides detailed ____.",
       "options": [
         "instruction-mcq-05",
-        "instruction-mcq-04",
-        "instruction-mcq-06",
-        "instruction-mcq-03",
-        "instruction-mcq-07",
-        "instruction-mcq-02"
+        "instruction-mcq-19",
+        "instruction-mcq-85"
       ],
       "explanation": "本句的「instructions」指「提供大量具體細節的詳細說明」。",
       "sentenceIndex": 7,
@@ -1906,12 +1887,9 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-05": "本句指「提供大量具體細節的詳細說明」。",
-        "instruction-mcq-04": "「容易理解、沒有歧義的清楚指示」與本句語境不同。",
-        "instruction-mcq-06": "「明確指出具體要做甚麼的指示」與本句語境不同。",
-        "instruction-mcq-03": "「一連串解釋如何完成任務的步驟／說明」與本句語境不同。",
-        "instruction-mcq-07": "「按順序逐步解釋做法的操作說明」與本句語境不同。",
-        "instruction-mcq-02": "「一項具體告訴某人要做甚麼的指示」與本句語境不同。"
+        "instruction-mcq-05": "本句的「instructions」指「提供大量具體細節的詳細說明」。",
+        "instruction-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-05"
     },
@@ -1923,11 +1901,8 @@ export default {
       "masked": "We were given specific ____ about the task.",
       "options": [
         "instruction-mcq-06",
-        "instruction-mcq-05",
-        "instruction-mcq-07",
-        "instruction-mcq-04",
-        "instruction-mcq-08",
-        "instruction-mcq-03"
+        "instruction-mcq-78",
+        "instruction-mcq-56"
       ],
       "explanation": "本句的「instructions」指「明確指出具體要做甚麼的指示」。",
       "sentenceIndex": 8,
@@ -1936,12 +1911,9 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-06": "本句指「明確指出具體要做甚麼的指示」。",
-        "instruction-mcq-05": "「提供大量具體細節的詳細說明」與本句語境不同。",
-        "instruction-mcq-07": "「按順序逐步解釋做法的操作說明」與本句語境不同。",
-        "instruction-mcq-04": "「容易理解、沒有歧義的清楚指示」與本句語境不同。",
-        "instruction-mcq-08": "「以文字形式提供的指示」與本句語境不同。",
-        "instruction-mcq-03": "「一連串解釋如何完成任務的步驟／說明」與本句語境不同。"
+        "instruction-mcq-06": "本句的「instructions」指「明確指出具體要做甚麼的指示」。",
+        "instruction-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-06"
     },
@@ -1953,11 +1925,9 @@ export default {
       "masked": "The website provides step-by-step ____.",
       "options": [
         "instruction-mcq-07",
-        "instruction-mcq-06",
-        "instruction-mcq-08",
-        "instruction-mcq-05",
-        "instruction-mcq-09",
-        "instruction-mcq-04"
+        "instruction-mcq-15",
+        "instruction-mcq-78",
+        "instruction-mcq-10"
       ],
       "explanation": "本句的「instructions」指「按順序逐步解釋做法的操作說明」。",
       "sentenceIndex": 9,
@@ -1966,12 +1936,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-07": "本句指「按順序逐步解釋做法的操作說明」。",
-        "instruction-mcq-06": "「明確指出具體要做甚麼的指示」與本句語境不同。",
-        "instruction-mcq-08": "「以文字形式提供的指示」與本句語境不同。",
-        "instruction-mcq-05": "「提供大量具體細節的詳細說明」與本句語境不同。",
-        "instruction-mcq-09": "「以口頭方式提供的指示」與本句語境不同。",
-        "instruction-mcq-04": "「容易理解、沒有歧義的清楚指示」與本句語境不同。"
+        "instruction-mcq-07": "本句的「instructions」指「按順序逐步解釋做法的操作說明」。",
+        "instruction-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-07"
     },
@@ -1983,11 +1951,9 @@ export default {
       "masked": "Please follow the written ____.",
       "options": [
         "instruction-mcq-08",
-        "instruction-mcq-07",
-        "instruction-mcq-09",
-        "instruction-mcq-06",
-        "instruction-mcq-10",
-        "instruction-mcq-05"
+        "instruction-mcq-56",
+        "instruction-mcq-78",
+        "instruction-mcq-25"
       ],
       "explanation": "本句的「instructions」指「以文字形式提供的指示」。",
       "sentenceIndex": 10,
@@ -1996,12 +1962,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-08": "本句指「以文字形式提供的指示」。",
-        "instruction-mcq-07": "「按順序逐步解釋做法的操作說明」與本句語境不同。",
-        "instruction-mcq-09": "「以口頭方式提供的指示」與本句語境不同。",
-        "instruction-mcq-06": "「明確指出具體要做甚麼的指示」與本句語境不同。",
-        "instruction-mcq-10": "「告訴某人要做甚麼」與本句語境不同。",
-        "instruction-mcq-05": "「提供大量具體細節的詳細說明」與本句語境不同。"
+        "instruction-mcq-08": "本句的「instructions」指「以文字形式提供的指示」。",
+        "instruction-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-08"
     },
@@ -2013,11 +1977,9 @@ export default {
       "masked": "The teacher gave ____ before the activity.",
       "options": [
         "instruction-mcq-10",
-        "instruction-mcq-09",
-        "instruction-mcq-11",
-        "instruction-mcq-08",
-        "instruction-mcq-12",
-        "instruction-mcq-07"
+        "instruction-mcq-26",
+        "instruction-mcq-33",
+        "instruction-mcq-60"
       ],
       "explanation": "本句的「instructions」指「告訴某人要做甚麼」。",
       "sentenceIndex": 11,
@@ -2026,12 +1988,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-10": "本句指「告訴某人要做甚麼」。",
-        "instruction-mcq-09": "「以口頭方式提供的指示」與本句語境不同。",
-        "instruction-mcq-11": "「正式／以權力身分發出指示」與本句語境不同。",
-        "instruction-mcq-08": "「以文字形式提供的指示」與本句語境不同。",
-        "instruction-mcq-12": "「收到別人給出的指示」與本句語境不同。",
-        "instruction-mcq-07": "「按順序逐步解釋做法的操作說明」與本句語境不同。"
+        "instruction-mcq-10": "本句的「instructions」指「告訴某人要做甚麼」。",
+        "instruction-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-10"
     },
@@ -2044,10 +2004,8 @@ export default {
       "options": [
         "instruction-mcq-11",
         "instruction-mcq-10",
-        "instruction-mcq-12",
-        "instruction-mcq-09",
-        "instruction-mcq-13",
-        "instruction-mcq-08"
+        "instruction-mcq-05",
+        "instruction-mcq-78"
       ],
       "explanation": "本句的「instructions」指「正式／以權力身分發出指示」。",
       "sentenceIndex": 12,
@@ -2056,12 +2014,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-11": "本句指「正式／以權力身分發出指示」。",
-        "instruction-mcq-10": "「告訴某人要做甚麼」與本句語境不同。",
-        "instruction-mcq-12": "「收到別人給出的指示」與本句語境不同。",
-        "instruction-mcq-09": "「以口頭方式提供的指示」與本句語境不同。",
-        "instruction-mcq-13": "「按照指示去做」與本句語境不同。",
-        "instruction-mcq-08": "「以文字形式提供的指示」與本句語境不同。"
+        "instruction-mcq-11": "本句的「instructions」指「正式／以權力身分發出指示」。",
+        "instruction-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-11"
     },
@@ -2073,11 +2029,8 @@ export default {
       "masked": "Staff will receive further ____ tomorrow.",
       "options": [
         "instruction-mcq-12",
-        "instruction-mcq-11",
-        "instruction-mcq-13",
-        "instruction-mcq-10",
-        "instruction-mcq-14",
-        "instruction-mcq-09"
+        "instruction-mcq-56",
+        "instruction-mcq-85"
       ],
       "explanation": "本句的「instructions」指「收到別人給出的指示」。",
       "sentenceIndex": 13,
@@ -2086,12 +2039,9 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-12": "本句指「收到別人給出的指示」。",
-        "instruction-mcq-11": "「正式／以權力身分發出指示」與本句語境不同。",
-        "instruction-mcq-13": "「按照指示去做」與本句語境不同。",
-        "instruction-mcq-10": "「告訴某人要做甚麼」與本句語境不同。",
-        "instruction-mcq-14": "「實際執行收到的指示」與本句語境不同。",
-        "instruction-mcq-09": "「以口頭方式提供的指示」與本句語境不同。"
+        "instruction-mcq-12": "本句的「instructions」指「收到別人給出的指示」。",
+        "instruction-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-12"
     },
@@ -2103,11 +2053,9 @@ export default {
       "masked": "Please follow the ____ carefully.",
       "options": [
         "instruction-mcq-13",
-        "instruction-mcq-12",
-        "instruction-mcq-14",
-        "instruction-mcq-11",
-        "instruction-mcq-15",
-        "instruction-mcq-10"
+        "instruction-mcq-56",
+        "instruction-mcq-60",
+        "instruction-pdf-plain-140"
       ],
       "explanation": "本句的「instructions」指「按照指示去做」。",
       "sentenceIndex": 14,
@@ -2116,12 +2064,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-13": "本句指「按照指示去做」。",
-        "instruction-mcq-12": "「收到別人給出的指示」與本句語境不同。",
-        "instruction-mcq-14": "「實際執行收到的指示」與本句語境不同。",
-        "instruction-mcq-11": "「正式／以權力身分發出指示」與本句語境不同。",
-        "instruction-mcq-15": "「服從具有權威性的指示」與本句語境不同。",
-        "instruction-mcq-10": "「告訴某人要做甚麼」與本句語境不同。"
+        "instruction-mcq-13": "本句的「instructions」指「按照指示去做」。",
+        "instruction-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "instruction-pdf-plain-140": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-13"
     },
@@ -2133,11 +2079,9 @@ export default {
       "masked": "He carried out the ____ exactly.",
       "options": [
         "instruction-mcq-14",
-        "instruction-mcq-13",
-        "instruction-mcq-15",
-        "instruction-mcq-12",
-        "instruction-mcq-16",
-        "instruction-mcq-11"
+        "instruction-mcq-56",
+        "instruction-mcq-78",
+        "instruction-mcq-25"
       ],
       "explanation": "本句的「instructions」指「實際執行收到的指示」。",
       "sentenceIndex": 15,
@@ -2146,12 +2090,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-14": "本句指「實際執行收到的指示」。",
-        "instruction-mcq-13": "「按照指示去做」與本句語境不同。",
-        "instruction-mcq-15": "「服從具有權威性的指示」與本句語境不同。",
-        "instruction-mcq-12": "「收到別人給出的指示」與本句語境不同。",
-        "instruction-mcq-16": "「不理會／不按照指示」與本句語境不同。",
-        "instruction-mcq-11": "「正式／以權力身分發出指示」與本句語境不同。"
+        "instruction-mcq-14": "本句的「instructions」指「實際執行收到的指示」。",
+        "instruction-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-14"
     },
@@ -2163,11 +2105,9 @@ export default {
       "masked": "Everyone must obey the safety ____.",
       "options": [
         "instruction-mcq-15",
-        "instruction-mcq-14",
-        "instruction-mcq-16",
-        "instruction-mcq-13",
-        "instruction-mcq-17",
-        "instruction-mcq-12"
+        "instruction-mcq-56",
+        "instruction-mcq-25",
+        "instruction-mcq-85"
       ],
       "explanation": "本句的「instructions」指「服從具有權威性的指示」。",
       "sentenceIndex": 16,
@@ -2176,12 +2116,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-15": "本句指「服從具有權威性的指示」。",
-        "instruction-mcq-14": "「實際執行收到的指示」與本句語境不同。",
-        "instruction-mcq-16": "「不理會／不按照指示」與本句語境不同。",
-        "instruction-mcq-13": "「按照指示去做」與本句語境不同。",
-        "instruction-mcq-17": "「因收到某人的正式指示而行動」與本句語境不同。",
-        "instruction-mcq-12": "「收到別人給出的指示」與本句語境不同。"
+        "instruction-mcq-15": "本句的「instructions」指「服從具有權威性的指示」。",
+        "instruction-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-15"
     },
@@ -2193,11 +2131,8 @@ export default {
       "masked": "The employee was acting on ____ from management.",
       "options": [
         "instruction-mcq-17",
-        "instruction-mcq-16",
-        "instruction-mcq-18",
-        "instruction-mcq-15",
-        "instruction-mcq-19",
-        "instruction-mcq-14"
+        "instruction-mcq-56",
+        "instruction-mcq-85"
       ],
       "explanation": "本句的「instructions」指「因收到某人的正式指示而行動」。",
       "sentenceIndex": 17,
@@ -2206,12 +2141,9 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-17": "本句指「因收到某人的正式指示而行動」。",
-        "instruction-mcq-16": "「不理會／不按照指示」與本句語境不同。",
-        "instruction-mcq-18": "「奉某人的指示／按照某人要求」與本句語境不同。",
-        "instruction-mcq-15": "「服從具有權威性的指示」與本句語境不同。",
-        "instruction-mcq-19": "「正式：在某人的指示下」與本句語境不同。",
-        "instruction-mcq-14": "「實際執行收到的指示」與本句語境不同。"
+        "instruction-mcq-17": "本句的「instructions」指「因收到某人的正式指示而行動」。",
+        "instruction-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-17"
     },
@@ -2223,11 +2155,8 @@ export default {
       "masked": "The payment was made on the director’s ____.",
       "options": [
         "instruction-mcq-18",
-        "instruction-mcq-17",
-        "instruction-mcq-19",
-        "instruction-mcq-16",
-        "instruction-mcq-20",
-        "instruction-mcq-15"
+        "instruction-mcq-05",
+        "instruction-mcq-78"
       ],
       "explanation": "本句的「instructions」指「奉某人的指示／按照某人要求」。",
       "sentenceIndex": 18,
@@ -2236,12 +2165,9 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-18": "本句指「奉某人的指示／按照某人要求」。",
-        "instruction-mcq-17": "「因收到某人的正式指示而行動」與本句語境不同。",
-        "instruction-mcq-19": "「正式：在某人的指示下」與本句語境不同。",
-        "instruction-mcq-16": "「不理會／不按照指示」與本句語境不同。",
-        "instruction-mcq-20": "「已正式接到命令／指示要做某事」與本句語境不同。",
-        "instruction-mcq-15": "「服從具有權威性的指示」與本句語境不同。"
+        "instruction-mcq-18": "本句的「instructions」指「奉某人的指示／按照某人要求」。",
+        "instruction-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-18"
     },
@@ -2253,11 +2179,8 @@ export default {
       "masked": "The document was removed at the ____ of the manager.",
       "options": [
         "instruction-mcq-19",
-        "instruction-mcq-18",
-        "instruction-mcq-20",
-        "instruction-mcq-17",
-        "instruction-mcq-21",
-        "instruction-mcq-16"
+        "instruction-mcq-33",
+        "instruction-mcq-60"
       ],
       "explanation": "本句的「instruction」指「正式：在某人的指示下」。",
       "sentenceIndex": 19,
@@ -2266,12 +2189,9 @@ export default {
         "instruction"
       ],
       "optionReasons": {
-        "instruction-mcq-19": "本句指「正式：在某人的指示下」。",
-        "instruction-mcq-18": "「奉某人的指示／按照某人要求」與本句語境不同。",
-        "instruction-mcq-20": "「已正式接到命令／指示要做某事」與本句語境不同。",
-        "instruction-mcq-17": "「因收到某人的正式指示而行動」與本句語境不同。",
-        "instruction-mcq-21": "「按照說明／指示」與本句語境不同。",
-        "instruction-mcq-16": "「不理會／不按照指示」與本句語境不同。"
+        "instruction-mcq-19": "本句的「instruction」指「正式：在某人的指示下」。",
+        "instruction-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-19"
     },
@@ -2283,11 +2203,8 @@ export default {
       "masked": "Assemble the unit according to the ____.",
       "options": [
         "instruction-mcq-21",
-        "instruction-mcq-20",
-        "instruction-mcq-22",
-        "instruction-mcq-19",
-        "instruction-mcq-23",
-        "instruction-mcq-18"
+        "instruction-mcq-25",
+        "instruction-mcq-78"
       ],
       "explanation": "本句的「instructions」指「按照說明／指示」。",
       "sentenceIndex": 21,
@@ -2296,12 +2213,9 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-21": "本句指「按照說明／指示」。",
-        "instruction-mcq-20": "「已正式接到命令／指示要做某事」與本句語境不同。",
-        "instruction-mcq-22": "「違反已給出的指示」與本句語境不同。",
-        "instruction-mcq-19": "「正式：在某人的指示下」與本句語境不同。",
-        "instruction-mcq-23": "「稍後補充的進一步指示」與本句語境不同。",
-        "instruction-mcq-18": "「奉某人的指示／按照某人要求」與本句語境不同。"
+        "instruction-mcq-21": "本句的「instructions」指「按照說明／指示」。",
+        "instruction-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-21"
     },
@@ -2313,11 +2227,9 @@ export default {
       "masked": "He entered the area contrary to ____.",
       "options": [
         "instruction-mcq-22",
-        "instruction-mcq-21",
-        "instruction-mcq-23",
-        "instruction-mcq-20",
-        "instruction-mcq-24",
-        "instruction-mcq-19"
+        "instruction-mcq-10",
+        "instruction-mcq-05",
+        "instruction-mcq-78"
       ],
       "explanation": "本句的「instructions」指「違反已給出的指示」。",
       "sentenceIndex": 22,
@@ -2326,12 +2238,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-22": "本句指「違反已給出的指示」。",
-        "instruction-mcq-21": "「按照說明／指示」與本句語境不同。",
-        "instruction-mcq-23": "「稍後補充的進一步指示」與本句語境不同。",
-        "instruction-mcq-20": "「已正式接到命令／指示要做某事」與本句語境不同。",
-        "instruction-mcq-24": "「直到另有指示為止」與本句語境不同。",
-        "instruction-mcq-19": "「正式：在某人的指示下」與本句語境不同。"
+        "instruction-mcq-22": "本句的「instructions」指「違反已給出的指示」。",
+        "instruction-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-22"
     },
@@ -2343,11 +2253,9 @@ export default {
       "masked": "Wait here until you receive further ____.",
       "options": [
         "instruction-mcq-23",
-        "instruction-mcq-22",
-        "instruction-mcq-24",
-        "instruction-mcq-21",
-        "instruction-mcq-25",
-        "instruction-mcq-20"
+        "instruction-mcq-78",
+        "instruction-mcq-05",
+        "instruction-mcq-10"
       ],
       "explanation": "本句的「instructions」指「稍後補充的進一步指示」。",
       "sentenceIndex": 23,
@@ -2356,12 +2264,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-23": "本句指「稍後補充的進一步指示」。",
-        "instruction-mcq-22": "「違反已給出的指示」與本句語境不同。",
-        "instruction-mcq-24": "「直到另有指示為止」與本句語境不同。",
-        "instruction-mcq-21": "「按照說明／指示」與本句語境不同。",
-        "instruction-mcq-25": "「等候別人告知下一步要做甚麼」與本句語境不同。",
-        "instruction-mcq-20": "「已正式接到命令／指示要做某事」與本句語境不同。"
+        "instruction-mcq-23": "本句的「instructions」指「稍後補充的進一步指示」。",
+        "instruction-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-23"
     },
@@ -2373,11 +2279,9 @@ export default {
       "masked": "Remain here until further ____.",
       "options": [
         "instruction-mcq-24",
-        "instruction-mcq-23",
-        "instruction-mcq-25",
-        "instruction-mcq-22",
-        "instruction-mcq-26",
-        "instruction-mcq-21"
+        "instruction-mcq-07",
+        "instruction-mcq-60",
+        "instruction-mcq-10"
       ],
       "explanation": "本句的「instructions」指「直到另有指示為止」。",
       "sentenceIndex": 24,
@@ -2386,12 +2290,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-24": "本句指「直到另有指示為止」。",
-        "instruction-mcq-23": "「稍後補充的進一步指示」與本句語境不同。",
-        "instruction-mcq-25": "「等候別人告知下一步要做甚麼」與本句語境不同。",
-        "instruction-mcq-22": "「違反已給出的指示」與本句語境不同。",
-        "instruction-mcq-26": "「必須嚴格遵守的指示」與本句語境不同。",
-        "instruction-mcq-21": "「按照說明／指示」與本句語境不同。"
+        "instruction-mcq-24": "本句的「instructions」指「直到另有指示為止」。",
+        "instruction-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-24"
     },
@@ -2403,11 +2305,9 @@ export default {
       "masked": "Staff were told to await ____.",
       "options": [
         "instruction-mcq-25",
-        "instruction-mcq-24",
-        "instruction-mcq-26",
-        "instruction-mcq-23",
-        "instruction-mcq-27",
-        "instruction-mcq-22"
+        "instruction-mcq-42",
+        "instruction-mcq-60",
+        "instruction-mcq-33"
       ],
       "explanation": "本句的「instructions」指「等候別人告知下一步要做甚麼」。",
       "sentenceIndex": 25,
@@ -2416,12 +2316,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-25": "本句指「等候別人告知下一步要做甚麼」。",
-        "instruction-mcq-24": "「直到另有指示為止」與本句語境不同。",
-        "instruction-mcq-26": "「必須嚴格遵守的指示」與本句語境不同。",
-        "instruction-mcq-23": "「稍後補充的進一步指示」與本句語境不同。",
-        "instruction-mcq-27": "「清楚直接明說的指示」與本句語境不同。",
-        "instruction-mcq-22": "「違反已給出的指示」與本句語境不同。"
+        "instruction-mcq-25": "本句的「instructions」指「等候別人告知下一步要做甚麼」。",
+        "instruction-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-25"
     },
@@ -2433,11 +2331,9 @@ export default {
       "masked": "We had strict ____ not to share the password.",
       "options": [
         "instruction-mcq-26",
-        "instruction-mcq-25",
-        "instruction-mcq-27",
-        "instruction-mcq-24",
-        "instruction-mcq-28",
-        "instruction-mcq-23"
+        "instruction-mcq-60",
+        "instruction-mcq-10",
+        "instruction-mcq-07"
       ],
       "explanation": "本句的「instructions」指「必須嚴格遵守的指示」。",
       "sentenceIndex": 26,
@@ -2446,12 +2342,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-26": "本句指「必須嚴格遵守的指示」。",
-        "instruction-mcq-25": "「等候別人告知下一步要做甚麼」與本句語境不同。",
-        "instruction-mcq-27": "「清楚直接明說的指示」與本句語境不同。",
-        "instruction-mcq-24": "「直到另有指示為止」與本句語境不同。",
-        "instruction-mcq-28": "「只針對特定情況的額外指示」與本句語境不同。",
-        "instruction-mcq-23": "「稍後補充的進一步指示」與本句語境不同。"
+        "instruction-mcq-26": "本句的「instructions」指「必須嚴格遵守的指示」。",
+        "instruction-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-26"
     },
@@ -2463,11 +2357,9 @@ export default {
       "masked": "Read the safety ____ before using the machine.",
       "options": [
         "instruction-mcq-30",
-        "instruction-mcq-29",
-        "instruction-mcq-31",
-        "instruction-mcq-28",
-        "instruction-mcq-32",
-        "instruction-mcq-27"
+        "instruction-mcq-56",
+        "instruction-mcq-25",
+        "instruction-mcq-78"
       ],
       "explanation": "本句的「instructions」指「為避免危險／受傷而提供的安全指示」。",
       "sentenceIndex": 27,
@@ -2476,12 +2368,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-30": "本句指「為避免危險／受傷而提供的安全指示」。",
-        "instruction-mcq-29": "「適用整個任務／群體的一般指示」與本句語境不同。",
-        "instruction-mcq-31": "「緊急事故時須遵循的應變指示」與本句語境不同。",
-        "instruction-mcq-28": "「只針對特定情況的額外指示」與本句語境不同。",
-        "instruction-mcq-32": "「說明如何疏散的指示」與本句語境不同。",
-        "instruction-mcq-27": "「清楚直接明說的指示」與本句語境不同。"
+        "instruction-mcq-30": "本句的「instructions」指「為避免危險／受傷而提供的安全指示」。",
+        "instruction-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-30"
     },
@@ -2493,11 +2383,9 @@ export default {
       "masked": "Refer to the operating ____.",
       "options": [
         "instruction-mcq-33",
-        "instruction-mcq-32",
-        "instruction-mcq-34",
-        "instruction-mcq-31",
-        "instruction-mcq-35",
-        "instruction-mcq-30"
+        "instruction-mcq-11",
+        "instruction-mcq-25",
+        "instruction-mcq-85"
       ],
       "explanation": "本句的「instructions」指「說明如何操作設備的操作說明」。",
       "sentenceIndex": 28,
@@ -2506,12 +2394,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-33": "本句指「說明如何操作設備的操作說明」。",
-        "instruction-mcq-32": "「說明如何疏散的指示」與本句語境不同。",
-        "instruction-mcq-34": "「產品／藥物／設備的使用說明」與本句語境不同。",
-        "instruction-mcq-31": "「緊急事故時須遵循的應變指示」與本句語境不同。",
-        "instruction-mcq-35": "「說明如何安裝的步驟」與本句語境不同。",
-        "instruction-mcq-30": "「為避免危險／受傷而提供的安全指示」與本句語境不同。"
+        "instruction-mcq-33": "本句的「instructions」指「說明如何操作設備的操作說明」。",
+        "instruction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-33"
     },
@@ -2523,11 +2409,8 @@ export default {
       "masked": "Check the care ____ on the label.",
       "options": [
         "instruction-mcq-39",
-        "instruction-mcq-38",
-        "instruction-mcq-40",
-        "instruction-mcq-37",
-        "instruction-mcq-41",
-        "instruction-mcq-36"
+        "instruction-mcq-10",
+        "instruction-mcq-78"
       ],
       "explanation": "本句的「instructions」指「說明如何保養物品的保養指示」。",
       "sentenceIndex": 29,
@@ -2536,12 +2419,9 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-39": "本句指「說明如何保養物品的保養指示」。",
-        "instruction-mcq-38": "「說明如何找出／解決故障的指引」與本句語境不同。",
-        "instruction-mcq-40": "「衣物／物料的洗滌說明」與本句語境不同。",
-        "instruction-mcq-37": "「說明如何完成初始設定的指示」與本句語境不同。",
-        "instruction-mcq-41": "「食物的烹調步驟」與本句語境不同。",
-        "instruction-mcq-36": "「說明如何組裝物件的指示」與本句語境不同。"
+        "instruction-mcq-39": "本句的「instructions」指「說明如何保養物品的保養指示」。",
+        "instruction-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-39"
     },
@@ -2553,11 +2433,9 @@ export default {
       "masked": "Follow the dosage ____ carefully.",
       "options": [
         "instruction-mcq-42",
-        "instruction-mcq-41",
-        "instruction-mcq-43",
-        "instruction-mcq-40",
-        "instruction-mcq-44",
-        "instruction-mcq-39"
+        "instruction-mcq-33",
+        "instruction-mcq-60",
+        "instruction-mcq-25"
       ],
       "explanation": "本句的「instructions」指「藥物使用劑量和頻率的指示」。",
       "sentenceIndex": 30,
@@ -2566,12 +2444,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-42": "本句指「藥物使用劑量和頻率的指示」。",
-        "instruction-mcq-41": "「食物的烹調步驟」與本句語境不同。",
-        "instruction-mcq-43": "「如何使用藥物的用藥指示」與本句語境不同。",
-        "instruction-mcq-40": "「衣物／物料的洗滌說明」與本句語境不同。",
-        "instruction-mcq-44": "「手術後須遵守的護理指示」與本句語境不同。",
-        "instruction-mcq-39": "「說明如何保養物品的保養指示」與本句語境不同。"
+        "instruction-mcq-42": "本句的「instructions」指「藥物使用劑量和頻率的指示」。",
+        "instruction-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-42"
     },
@@ -2583,11 +2459,9 @@ export default {
       "masked": "Add any delivery ____ at checkout.",
       "options": [
         "instruction-mcq-49",
-        "instruction-mcq-48",
-        "instruction-mcq-50",
-        "instruction-mcq-47",
-        "instruction-mcq-51",
-        "instruction-mcq-46"
+        "instruction-mcq-07",
+        "instruction-mcq-78",
+        "instruction-mcq-25"
       ],
       "explanation": "本句的「instructions」指「告訴送貨員送到哪裡／如何交付的指示」。",
       "sentenceIndex": 32,
@@ -2596,12 +2470,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-49": "本句指「告訴送貨員送到哪裡／如何交付的指示」。",
-        "instruction-mcq-48": "「說明課堂／活動任務要如何進行的指示」與本句語境不同。",
-        "instruction-mcq-50": "「有關貨物運輸／付運的詳細指示」與本句語境不同。",
-        "instruction-mcq-47": "「說明作業要求及完成方法的指示」與本句語境不同。",
-        "instruction-mcq-51": "「說明如何安全／正確搬運或處理物品」與本句語境不同。",
-        "instruction-mcq-46": "「告訴考生如何完成測驗的考試指示」與本句語境不同。"
+        "instruction-mcq-49": "本句的「instructions」指「告訴送貨員送到哪裡／如何交付的指示」。",
+        "instruction-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-49"
     },
@@ -2613,11 +2485,9 @@ export default {
       "masked": "The customer set up a standing ____ for the monthly payment.",
       "options": [
         "instruction-mcq-55",
-        "instruction-mcq-54",
-        "instruction-mcq-56",
-        "instruction-mcq-53",
-        "instruction-mcq-57",
-        "instruction-mcq-52"
+        "instruction-mcq-10",
+        "instruction-mcq-05",
+        "instruction-mcq-85"
       ],
       "explanation": "本句的「instruction」指「長期有效、授權重複進行某動作的常設指示」。",
       "sentenceIndex": 33,
@@ -2626,12 +2496,10 @@ export default {
         "instruction"
       ],
       "optionReasons": {
-        "instruction-mcq-55": "本句指「長期有效、授權重複進行某動作的常設指示」。",
-        "instruction-mcq-54": "「金融交易如何完成交收的指示」與本句語境不同。",
-        "instruction-mcq-56": "「告訴使用者如何操作／使用產品的說明書」與本句語境不同。",
-        "instruction-mcq-53": "「客戶向銀行發出的正式交易指示」與本句語境不同。",
-        "instruction-mcq-57": "「載有操作說明的小冊子」與本句語境不同。",
-        "instruction-mcq-52": "「說明付款方式、帳戶、金額等的指示」與本句語境不同。"
+        "instruction-mcq-55": "本句的「instruction」指「長期有效、授權重複進行某動作的常設指示」。",
+        "instruction-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-55"
     },
@@ -2643,11 +2511,9 @@ export default {
       "masked": "Consult the ____ manual.",
       "options": [
         "instruction-mcq-56",
-        "instruction-mcq-55",
-        "instruction-mcq-57",
-        "instruction-mcq-54",
-        "instruction-mcq-58",
-        "instruction-mcq-53"
+        "instruction-mcq-13",
+        "instruction-mcq-59",
+        "instruction-pdf-plain-140"
       ],
       "explanation": "本句的「instruction」指「告訴使用者如何操作／使用產品的說明書」。",
       "sentenceIndex": 34,
@@ -2656,12 +2522,10 @@ export default {
         "instruction"
       ],
       "optionReasons": {
-        "instruction-mcq-56": "本句指「告訴使用者如何操作／使用產品的說明書」。",
-        "instruction-mcq-55": "「長期有效、授權重複進行某動作的常設指示」與本句語境不同。",
-        "instruction-mcq-57": "「載有操作說明的小冊子」與本句語境不同。",
-        "instruction-mcq-54": "「金融交易如何完成交收的指示」與本句語境不同。",
-        "instruction-mcq-58": "「載有指示的一張說明紙」與本句語境不同。",
-        "instruction-mcq-53": "「客戶向銀行發出的正式交易指示」與本句語境不同。"
+        "instruction-mcq-56": "本句的「instruction」指「告訴使用者如何操作／使用產品的說明書」。",
+        "instruction-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "instruction-pdf-plain-140": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-56"
     },
@@ -2673,11 +2537,9 @@ export default {
       "masked": "Students receive classroom ____ in English.",
       "options": [
         "instruction-mcq-59",
-        "instruction-mcq-58",
-        "instruction-mcq-60",
-        "instruction-mcq-57",
-        "instruction-mcq-61",
-        "instruction-mcq-56"
+        "instruction-mcq-10",
+        "instruction-mcq-05",
+        "instruction-mcq-100"
       ],
       "explanation": "本句的「instruction」指「教授知識／技能的教學、授課或指導過程」。",
       "sentenceIndex": 35,
@@ -2686,12 +2548,10 @@ export default {
         "instruction"
       ],
       "optionReasons": {
-        "instruction-mcq-59": "本句指「教授知識／技能的教學、授課或指導過程」。",
-        "instruction-mcq-58": "「載有指示的一張說明紙」與本句語境不同。",
-        "instruction-mcq-60": "「接受某科目／技能的教學」與本句語境不同。",
-        "instruction-mcq-57": "「載有操作說明的小冊子」與本句語境不同。",
-        "instruction-mcq-61": "「在課堂中進行的正式教學」與本句語境不同。",
-        "instruction-mcq-56": "「告訴使用者如何操作／使用產品的說明書」與本句語境不同。"
+        "instruction-mcq-59": "本句的「instruction」指「教授知識／技能的教學、授課或指導過程」。",
+        "instruction-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-100": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-59"
     },
@@ -2703,11 +2563,9 @@ export default {
       "masked": "The course combines online practice with face-to-face ____.",
       "options": [
         "instruction-mcq-59",
-        "instruction-mcq-58",
-        "instruction-mcq-60",
-        "instruction-mcq-57",
-        "instruction-mcq-61",
-        "instruction-mcq-56"
+        "instruction-mcq-33",
+        "instruction-mcq-10",
+        "instruction-mcq-42"
       ],
       "explanation": "本句的「instruction」指「教授知識／技能的教學、授課或指導過程」。",
       "sentenceIndex": 36,
@@ -2716,12 +2574,10 @@ export default {
         "instruction"
       ],
       "optionReasons": {
-        "instruction-mcq-59": "本句指「教授知識／技能的教學、授課或指導過程」。",
-        "instruction-mcq-58": "「載有指示的一張說明紙」與本句語境不同。",
-        "instruction-mcq-60": "「接受某科目／技能的教學」與本句語境不同。",
-        "instruction-mcq-57": "「載有操作說明的小冊子」與本句語境不同。",
-        "instruction-mcq-61": "「在課堂中進行的正式教學」與本句語境不同。",
-        "instruction-mcq-56": "「告訴使用者如何操作／使用產品的說明書」與本句語境不同。"
+        "instruction-mcq-59": "本句的「instruction」指「教授知識／技能的教學、授課或指導過程」。",
+        "instruction-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-59"
     },
@@ -2733,11 +2589,9 @@ export default {
       "masked": "Children received ____ in music.",
       "options": [
         "instruction-mcq-60",
-        "instruction-mcq-59",
-        "instruction-mcq-61",
-        "instruction-mcq-58",
-        "instruction-mcq-62",
-        "instruction-mcq-57"
+        "instruction-mcq-04",
+        "instruction-mcq-33",
+        "instruction-mcq-10"
       ],
       "explanation": "本句的「instruction」指「接受某科目／技能的教學」。",
       "sentenceIndex": 37,
@@ -2746,12 +2600,10 @@ export default {
         "instruction"
       ],
       "optionReasons": {
-        "instruction-mcq-60": "本句指「接受某科目／技能的教學」。",
-        "instruction-mcq-59": "「教授知識／技能的教學、授課或指導過程」與本句語境不同。",
-        "instruction-mcq-61": "「在課堂中進行的正式教學」與本句語境不同。",
-        "instruction-mcq-58": "「載有指示的一張說明紙」與本句語境不同。",
-        "instruction-mcq-62": "「師生面對面進行的教學」與本句語境不同。",
-        "instruction-mcq-57": "「載有操作說明的小冊子」與本句語境不同。"
+        "instruction-mcq-60": "本句的「instruction」指「接受某科目／技能的教學」。",
+        "instruction-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-60"
     },
@@ -2763,11 +2615,8 @@ export default {
       "masked": "Good ____ design aligns activities with learning goals.",
       "options": [
         "instruction-mcq-78",
-        "instruction-mcq-77",
-        "instruction-mcq-79",
-        "instruction-mcq-76",
-        "instruction-mcq-80",
-        "instruction-mcq-75"
+        "instruction-mcq-18",
+        "instruction-mcq-05"
       ],
       "explanation": "本句的「instructional」指「系統設計學習目標、活動、教材、評估的教學設計」。",
       "sentenceIndex": 39,
@@ -2776,12 +2625,9 @@ export default {
         "instructional"
       ],
       "optionReasons": {
-        "instruction-mcq-78": "本句指「系統設計學習目標、活動、教材、評估的教學設計」。",
-        "instruction-mcq-77": "「由電腦系統支援的電腦輔助教學」與本句語境不同。",
-        "instruction-mcq-79": "「用於教學的教材／教學材料」與本句語境不同。",
-        "instruction-mcq-76": "「學生可按自己速度進行的自定進度教學」與本句語境不同。",
-        "instruction-mcq-80": "「支援教學與學習的資源」與本句語境不同。",
-        "instruction-mcq-75": "「因應學生能力／需要不同而調整的差異化教學」與本句語境不同。"
+        "instruction-mcq-78": "本句的「instructional」指「系統設計學習目標、活動、教材、評估的教學設計」。",
+        "instruction-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-78"
     },
@@ -2793,11 +2639,9 @@ export default {
       "masked": "Watch the ____ video first.",
       "options": [
         "instruction-mcq-85",
-        "instruction-mcq-84",
-        "instruction-mcq-86",
-        "instruction-mcq-83",
-        "instruction-mcq-87",
-        "instruction-mcq-82"
+        "instruction-mcq-14",
+        "instruction-mcq-56",
+        "instruction-mcq-25"
       ],
       "explanation": "本句的「instructional」指「專門用來教授知識／做法的教學影片」。",
       "sentenceIndex": 40,
@@ -2806,12 +2650,10 @@ export default {
         "instructional"
       ],
       "optionReasons": {
-        "instruction-mcq-85": "本句指「專門用來教授知識／做法的教學影片」。",
-        "instruction-mcq-84": "「用來支援／改善教學的科技與方法」與本句語境不同。",
-        "instruction-mcq-86": "「教授某科目／實用技能的人；導師／教練／講師」與本句語境不同。",
-        "instruction-mcq-83": "「實際用於教學活動的時間」與本句語境不同。",
-        "instruction-mcq-87": "「駕駛教練」與本句語境不同。",
-        "instruction-mcq-82": "「教授內容所採用的教學方法」與本句語境不同。"
+        "instruction-mcq-85": "本句的「instructional」指「專門用來教授知識／做法的教學影片」。",
+        "instruction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-85"
     },
@@ -2823,11 +2665,8 @@ export default {
       "masked": "The lawyer acted according to the client’s ____.",
       "options": [
         "instruction-mcq-97",
-        "instruction-mcq-96",
-        "instruction-mcq-98",
-        "instruction-mcq-95",
-        "instruction-mcq-99",
-        "instruction-mcq-94"
+        "instruction-mcq-07",
+        "instruction-mcq-78"
       ],
       "explanation": "本句的「instructions」指「客戶向律師／專業人士提供的事實及辦事指示」。",
       "sentenceIndex": 41,
@@ -2836,12 +2675,9 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-97": "本句指「客戶向律師／專業人士提供的事實及辦事指示」。",
-        "instruction-mcq-96": "「正式委託並向律師提供辦案指示」與本句語境不同。",
-        "instruction-mcq-98": "「律師向客戶聽取案件資料及正式指示」與本句語境不同。",
-        "instruction-mcq-95": "「教某人如何做某事」與本句語境不同。",
-        "instruction-mcq-99": "「正式列出如何處理某事的指示函」與本句語境不同。",
-        "instruction-mcq-94": "「教授某人某一科目／技能」與本句語境不同。"
+        "instruction-mcq-97": "本句的「instructions」指「客戶向律師／專業人士提供的事實及辦事指示」。",
+        "instruction-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-97"
     },
@@ -2853,11 +2689,9 @@ export default {
       "masked": "The solicitor met the client to take ____.",
       "options": [
         "instruction-mcq-98",
-        "instruction-mcq-97",
-        "instruction-mcq-99",
-        "instruction-mcq-96",
-        "instruction-mcq-100",
-        "instruction-mcq-95"
+        "instruction-mcq-25",
+        "instruction-mcq-33",
+        "instruction-mcq-85"
       ],
       "explanation": "本句的「instructions」指「律師向客戶聽取案件資料及正式指示」。",
       "sentenceIndex": 42,
@@ -2866,12 +2700,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-98": "本句指「律師向客戶聽取案件資料及正式指示」。",
-        "instruction-mcq-97": "「客戶向律師／專業人士提供的事實及辦事指示」與本句語境不同。",
-        "instruction-mcq-99": "「正式列出如何處理某事的指示函」與本句語境不同。",
-        "instruction-mcq-96": "「正式委託並向律師提供辦案指示」與本句語境不同。",
-        "instruction-mcq-100": "「法官向陪審團解釋應適用法律的正式指示」與本句語境不同。",
-        "instruction-mcq-95": "「教某人如何做某事」與本句語境不同。"
+        "instruction-mcq-98": "本句的「instructions」指「律師向客戶聽取案件資料及正式指示」。",
+        "instruction-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-98"
     },
@@ -2883,11 +2715,9 @@ export default {
       "masked": "The judge gave the jury its final ____.",
       "options": [
         "instruction-mcq-100",
-        "instruction-mcq-99",
-        "instruction-mcq-101",
-        "instruction-mcq-98",
-        "instruction-mcq-102",
-        "instruction-mcq-97"
+        "instruction-mcq-05",
+        "instruction-mcq-25",
+        "instruction-mcq-78"
       ],
       "explanation": "本句的「instructions」指「法官向陪審團解釋應適用法律的正式指示」。",
       "sentenceIndex": 43,
@@ -2896,12 +2726,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-mcq-100": "本句指「法官向陪審團解釋應適用法律的正式指示」。",
-        "instruction-mcq-99": "「正式列出如何處理某事的指示函」與本句語境不同。",
-        "instruction-mcq-101": "「電腦／處理器可以執行的一個編碼操作指令」與本句語境不同。",
-        "instruction-mcq-98": "「律師向客戶聽取案件資料及正式指示」與本句語境不同。",
-        "instruction-mcq-102": "「由處理器直接執行的機器指令」與本句語境不同。",
-        "instruction-mcq-97": "「客戶向律師／專業人士提供的事實及辦事指示」與本句語境不同。"
+        "instruction-mcq-100": "本句的「instructions」指「法官向陪審團解釋應適用法律的正式指示」。",
+        "instruction-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-mcq-100"
     },
@@ -2913,11 +2741,9 @@ export default {
       "masked": "The processor executes millions of ____.",
       "options": [
         "instruction-pdf-plain-140",
-        "instruction-mcq-76",
-        "instruction-mcq-78",
-        "instruction-mcq-75",
-        "instruction-mcq-79",
-        "instruction-mcq-74"
+        "instruction-mcq-60",
+        "instruction-mcq-56",
+        "instruction-mcq-25"
       ],
       "explanation": "本句的「instructions」指「由電腦處理器執行的指令；機器指令」。",
       "sentenceIndex": 44,
@@ -2926,12 +2752,10 @@ export default {
         "instructions"
       ],
       "optionReasons": {
-        "instruction-pdf-plain-140": "本句指「由電腦處理器執行的指令；機器指令」。",
-        "instruction-mcq-76": "「學生可按自己速度進行的自定進度教學」與本句語境不同。",
-        "instruction-mcq-78": "「系統設計學習目標、活動、教材、評估的教學設計」與本句語境不同。",
-        "instruction-mcq-75": "「因應學生能力／需要不同而調整的差異化教學」與本句語境不同。",
-        "instruction-mcq-79": "「用於教學的教材／教學材料」與本句語境不同。",
-        "instruction-mcq-74": "「按個別學生需要調整的個別化教學」與本句語境不同。"
+        "instruction-pdf-plain-140": "本句的「instructions」指「由電腦處理器執行的指令；機器指令」。",
+        "instruction-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "instruction-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instruction-pdf-plain-140"
     }
@@ -2943,5 +2767,7 @@ export default {
     "sha256": "c32fc225a5bd7dfccd6641de1dd82c71378fd2109bbe046689cb9e12940762f5",
     "pages": 100
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

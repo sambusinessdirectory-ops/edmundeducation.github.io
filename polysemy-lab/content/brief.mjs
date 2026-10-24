@@ -948,18 +948,7 @@ export default {
       "en": "briefing",
       "zh": "簡報；說明會",
       "note": "來源詞義：簡報；說明會",
-      "examples": [
-        [
-          "The project manager briefed the team on its responsibilities.",
-          "項目經理向團隊交代了各項職責。",
-          "簡報；說明會"
-        ],
-        [
-          "Brief the team before they begin.",
-          "團隊開始前先向他們作工作說明。",
-          "簡報；說明會"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1517,6 +1506,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "brief-reviewed-810ab52304",
+      "title": "向團隊交代任務／資訊",
+      "form": "brief · source section 49",
+      "en": "向團隊交代任務／資訊",
+      "zh": "向團隊交代任務／資訊",
+      "note": "對照原始教材第 49 節及例句核實。",
+      "examples": [
+        [
+          "The project manager briefed the team on its responsibilities.",
+          "項目經理向團隊交代了各項職責。",
+          "向團隊交代任務／資訊"
+        ],
+        [
+          "Brief the team before they begin.",
+          "團隊開始前先向他們作工作說明。",
+          "向團隊交代任務／資訊"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1528,11 +1539,9 @@ export default {
       "masked": "____ can reduce confusion.",
       "options": [
         "brief-mcq-01",
-        "brief-mcq-02",
-        "brief-mcq-03",
-        "brief-mcq-04",
-        "brief-mcq-05",
-        "brief-mcq-06"
+        "brief-mcq-30",
+        "brief-mcq-31",
+        "brief-mcq-13"
       ],
       "explanation": "本句的「Brief but regular meetings」指「短暫的；短時間的」。",
       "sentenceIndex": 0,
@@ -1541,12 +1550,10 @@ export default {
         "Brief but regular meetings"
       ],
       "optionReasons": {
-        "brief-mcq-01": "本句指「短暫的；短時間的」。",
-        "brief-mcq-02": "「簡短會議」與本句語境不同。",
-        "brief-mcq-03": "「短暫交談」與本句語境不同。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。"
+        "brief-mcq-01": "本句的「Brief but regular meetings」指「短暫的；短時間的」。",
+        "brief-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-01"
     },
@@ -1558,11 +1565,9 @@ export default {
       "masked": "We had a ____ before the meeting.",
       "options": [
         "brief-mcq-01",
-        "brief-mcq-02",
-        "brief-mcq-03",
-        "brief-mcq-04",
-        "brief-mcq-05",
-        "brief-mcq-06"
+        "brief-mcq-30",
+        "brief-mcq-13",
+        "brief-mcq-58"
       ],
       "explanation": "本句的「brief conversation」指「短暫的；短時間的」。",
       "sentenceIndex": 1,
@@ -1571,12 +1576,10 @@ export default {
         "brief conversation"
       ],
       "optionReasons": {
-        "brief-mcq-01": "本句指「短暫的；短時間的」。",
-        "brief-mcq-02": "「簡短會議」與本句語境不同。",
-        "brief-mcq-03": "「短暫交談」與本句語境不同。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。"
+        "brief-mcq-01": "本句的「brief conversation」指「短暫的；短時間的」。",
+        "brief-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-01"
     },
@@ -1588,11 +1591,9 @@ export default {
       "masked": "She made a ____ to the office.",
       "options": [
         "brief-mcq-01",
-        "brief-mcq-02",
-        "brief-mcq-03",
-        "brief-mcq-04",
-        "brief-mcq-05",
-        "brief-mcq-06"
+        "brief-mcq-39",
+        "brief-mcq-51",
+        "brief-mcq-17"
       ],
       "explanation": "本句的「brief visit」指「短暫的；短時間的」。",
       "sentenceIndex": 2,
@@ -1601,12 +1602,10 @@ export default {
         "brief visit"
       ],
       "optionReasons": {
-        "brief-mcq-01": "本句指「短暫的；短時間的」。",
-        "brief-mcq-02": "「簡短會議」與本句語境不同。",
-        "brief-mcq-03": "「短暫交談」與本句語境不同。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。"
+        "brief-mcq-01": "本句的「brief visit」指「短暫的；短時間的」。",
+        "brief-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-01"
     },
@@ -1618,11 +1617,9 @@ export default {
       "masked": "Let's have a ____ before we begin.",
       "options": [
         "brief-mcq-02",
-        "brief-mcq-01",
-        "brief-mcq-03",
-        "brief-mcq-04",
-        "brief-mcq-05",
-        "brief-mcq-06"
+        "brief-pdf-004",
+        "brief-mcq-57",
+        "brief-mcq-32"
       ],
       "explanation": "本句的「brief meeting」指「簡短會議」。",
       "sentenceIndex": 3,
@@ -1631,12 +1628,10 @@ export default {
         "brief meeting"
       ],
       "optionReasons": {
-        "brief-mcq-02": "本句指「簡短會議」。",
-        "brief-mcq-01": "「短暫的；短時間的」與本句語境不同。",
-        "brief-mcq-03": "「短暫交談」與本句語境不同。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。"
+        "brief-mcq-02": "本句的「brief meeting」指「簡短會議」。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-02"
     },
@@ -1648,11 +1643,9 @@ export default {
       "masked": "A ____ daily meeting may be enough to coordinate the team.",
       "options": [
         "brief-mcq-02",
-        "brief-mcq-01",
-        "brief-mcq-03",
-        "brief-mcq-04",
-        "brief-mcq-05",
-        "brief-mcq-06"
+        "brief-mcq-54",
+        "brief-mcq-30",
+        "brief-mcq-38"
       ],
       "explanation": "本句的「brief」指「簡短會議」。",
       "sentenceIndex": 4,
@@ -1661,12 +1654,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-02": "本句指「簡短會議」。",
-        "brief-mcq-01": "「短暫的；短時間的」與本句語境不同。",
-        "brief-mcq-03": "「短暫交談」與本句語境不同。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。"
+        "brief-mcq-02": "本句的「brief」指「簡短會議」。",
+        "brief-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-02"
     },
@@ -1678,11 +1669,9 @@ export default {
       "masked": "We had a ____ in the corridor.",
       "options": [
         "brief-mcq-03",
-        "brief-mcq-02",
-        "brief-mcq-04",
-        "brief-mcq-01",
-        "brief-mcq-05",
-        "brief-mcq-06"
+        "brief-mcq-54",
+        "brief-pdf-002",
+        "brief-mcq-60"
       ],
       "explanation": "本句的「brief chat」指「短暫交談」。",
       "sentenceIndex": 5,
@@ -1691,12 +1680,10 @@ export default {
         "brief chat"
       ],
       "optionReasons": {
-        "brief-mcq-03": "本句指「短暫交談」。",
-        "brief-mcq-02": "「簡短會議」與本句語境不同。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。",
-        "brief-mcq-01": "「短暫的；短時間的」與本句語境不同。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。"
+        "brief-mcq-03": "本句的「brief chat」指「短暫交談」。",
+        "brief-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-03"
     },
@@ -1708,11 +1695,9 @@ export default {
       "masked": "A ____ conversation clarified the misunderstanding.",
       "options": [
         "brief-mcq-03",
-        "brief-mcq-02",
-        "brief-mcq-04",
-        "brief-mcq-01",
-        "brief-mcq-05",
-        "brief-mcq-06"
+        "brief-mcq-33",
+        "brief-mcq-56",
+        "brief-mcq-32"
       ],
       "explanation": "本句的「brief」指「短暫交談」。",
       "sentenceIndex": 6,
@@ -1721,12 +1706,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-03": "本句指「短暫交談」。",
-        "brief-mcq-02": "「簡短會議」與本句語境不同。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。",
-        "brief-mcq-01": "「短暫的；短時間的」與本句語境不同。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。"
+        "brief-mcq-03": "本句的「brief」指「短暫交談」。",
+        "brief-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-03"
     },
@@ -1738,11 +1721,9 @@ export default {
       "masked": "He made a ____ to the branch office.",
       "options": [
         "brief-mcq-04",
-        "brief-mcq-03",
-        "brief-mcq-05",
-        "brief-mcq-02",
-        "brief-mcq-06",
-        "brief-mcq-01"
+        "brief-mcq-17",
+        "brief-mcq-51",
+        "brief-mcq-58"
       ],
       "explanation": "本句的「brief visit」指「短暫到訪」。",
       "sentenceIndex": 7,
@@ -1751,12 +1732,10 @@ export default {
         "brief visit"
       ],
       "optionReasons": {
-        "brief-mcq-04": "本句指「短暫到訪」。",
-        "brief-mcq-03": "「短暫交談」與本句語境不同。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。",
-        "brief-mcq-02": "「簡短會議」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。",
-        "brief-mcq-01": "「短暫的；短時間的」與本句語境不同。"
+        "brief-mcq-04": "本句的「brief visit」指「短暫到訪」。",
+        "brief-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-04"
     },
@@ -1768,11 +1747,9 @@ export default {
       "masked": "The minister's visit was ____.",
       "options": [
         "brief-mcq-04",
-        "brief-mcq-03",
-        "brief-mcq-05",
-        "brief-mcq-02",
-        "brief-mcq-06",
-        "brief-mcq-01"
+        "brief-mcq-60",
+        "brief-mcq-49",
+        "brief-pdf-002"
       ],
       "explanation": "本句的「brief」指「短暫到訪」。",
       "sentenceIndex": 8,
@@ -1781,12 +1758,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-04": "本句指「短暫到訪」。",
-        "brief-mcq-03": "「短暫交談」與本句語境不同。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。",
-        "brief-mcq-02": "「簡短會議」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。",
-        "brief-mcq-01": "「短暫的；短時間的」與本句語境不同。"
+        "brief-mcq-04": "本句的「brief」指「短暫到訪」。",
+        "brief-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-04"
     },
@@ -1798,11 +1773,9 @@ export default {
       "masked": "After a ____, she continued speaking.",
       "options": [
         "brief-mcq-05",
-        "brief-mcq-04",
-        "brief-mcq-06",
-        "brief-mcq-03",
-        "brief-mcq-07",
-        "brief-mcq-02"
+        "brief-mcq-33",
+        "brief-mcq-29",
+        "brief-mcq-54"
       ],
       "explanation": "本句的「brief pause」指「短暫停頓」。",
       "sentenceIndex": 9,
@@ -1811,12 +1784,10 @@ export default {
         "brief pause"
       ],
       "optionReasons": {
-        "brief-mcq-05": "本句指「短暫停頓」。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。",
-        "brief-mcq-03": "「短暫交談」與本句語境不同。",
-        "brief-mcq-07": "「短短一刻」與本句語境不同。",
-        "brief-mcq-02": "「簡短會議」與本句語境不同。"
+        "brief-mcq-05": "本句的「brief pause」指「短暫停頓」。",
+        "brief-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-05"
     },
@@ -1828,11 +1799,9 @@ export default {
       "masked": "There was a ____ pause in the discussion.",
       "options": [
         "brief-mcq-05",
-        "brief-mcq-04",
-        "brief-mcq-06",
-        "brief-mcq-03",
-        "brief-mcq-07",
-        "brief-mcq-02"
+        "brief-mcq-60",
+        "brief-mcq-57",
+        "brief-pdf-004"
       ],
       "explanation": "本句的「brief」指「短暫停頓」。",
       "sentenceIndex": 10,
@@ -1841,12 +1810,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-05": "本句指「短暫停頓」。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。",
-        "brief-mcq-03": "「短暫交談」與本句語境不同。",
-        "brief-mcq-07": "「短短一刻」與本句語境不同。",
-        "brief-mcq-02": "「簡短會議」與本句語境不同。"
+        "brief-mcq-05": "本句的「brief」指「短暫停頓」。",
+        "brief-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-05"
     },
@@ -1858,11 +1825,9 @@ export default {
       "masked": "He worked abroad for a ____.",
       "options": [
         "brief-mcq-06",
-        "brief-mcq-05",
-        "brief-mcq-07",
-        "brief-mcq-04",
-        "brief-mcq-08",
-        "brief-mcq-03"
+        "brief-mcq-50",
+        "brief-mcq-33",
+        "brief-mcq-30"
       ],
       "explanation": "本句的「brief period」指「短暫時期」。",
       "sentenceIndex": 11,
@@ -1871,12 +1836,10 @@ export default {
         "brief period"
       ],
       "optionReasons": {
-        "brief-mcq-06": "本句指「短暫時期」。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。",
-        "brief-mcq-07": "「短短一刻」與本句語境不同。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。",
-        "brief-mcq-08": "「短期逗留」與本句語境不同。",
-        "brief-mcq-03": "「短暫交談」與本句語境不同。"
+        "brief-mcq-06": "本句的「brief period」指「短暫時期」。",
+        "brief-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-06"
     },
@@ -1888,11 +1851,9 @@ export default {
       "masked": "Demand fell for a ____ period.",
       "options": [
         "brief-mcq-06",
-        "brief-mcq-05",
-        "brief-mcq-07",
-        "brief-mcq-04",
-        "brief-mcq-08",
-        "brief-mcq-03"
+        "brief-mcq-48",
+        "brief-mcq-57",
+        "brief-pdf-002"
       ],
       "explanation": "本句的「brief」指「短暫時期」。",
       "sentenceIndex": 12,
@@ -1901,12 +1862,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-06": "本句指「短暫時期」。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。",
-        "brief-mcq-07": "「短短一刻」與本句語境不同。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。",
-        "brief-mcq-08": "「短期逗留」與本句語境不同。",
-        "brief-mcq-03": "「短暫交談」與本句語境不同。"
+        "brief-mcq-06": "本句的「brief」指「短暫時期」。",
+        "brief-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-06"
     },
@@ -1918,11 +1877,9 @@ export default {
       "masked": "For a ____, nobody spoke.",
       "options": [
         "brief-mcq-07",
-        "brief-mcq-06",
-        "brief-mcq-08",
-        "brief-mcq-05",
-        "brief-mcq-09",
-        "brief-mcq-04"
+        "brief-mcq-26",
+        "brief-mcq-32",
+        "brief-mcq-40"
       ],
       "explanation": "本句的「brief moment」指「短短一刻」。",
       "sentenceIndex": 13,
@@ -1931,12 +1888,10 @@ export default {
         "brief moment"
       ],
       "optionReasons": {
-        "brief-mcq-07": "本句指「短短一刻」。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。",
-        "brief-mcq-08": "「短期逗留」與本句語境不同。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。",
-        "brief-mcq-09": "「短暫露面」與本句語境不同。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。"
+        "brief-mcq-07": "本句的「brief moment」指「短短一刻」。",
+        "brief-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-07"
     },
@@ -1948,11 +1903,9 @@ export default {
       "masked": "She hesitated for a ____ moment.",
       "options": [
         "brief-mcq-07",
-        "brief-mcq-06",
-        "brief-mcq-08",
-        "brief-mcq-05",
-        "brief-mcq-09",
-        "brief-mcq-04"
+        "brief-mcq-60",
+        "brief-mcq-49",
+        "brief-mcq-54"
       ],
       "explanation": "本句的「brief」指「短短一刻」。",
       "sentenceIndex": 14,
@@ -1961,12 +1914,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-07": "本句指「短短一刻」。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。",
-        "brief-mcq-08": "「短期逗留」與本句語境不同。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。",
-        "brief-mcq-09": "「短暫露面」與本句語境不同。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。"
+        "brief-mcq-07": "本句的「brief」指「短短一刻」。",
+        "brief-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-07"
     },
@@ -1978,11 +1929,9 @@ export default {
       "masked": "We had a ____ in Tokyo.",
       "options": [
         "brief-mcq-08",
-        "brief-mcq-07",
-        "brief-mcq-09",
-        "brief-mcq-06",
-        "brief-mcq-10",
-        "brief-mcq-05"
+        "brief-mcq-38",
+        "brief-mcq-57",
+        "brief-mcq-49"
       ],
       "explanation": "本句的「brief stay」指「短期逗留」。",
       "sentenceIndex": 15,
@@ -1991,12 +1940,10 @@ export default {
         "brief stay"
       ],
       "optionReasons": {
-        "brief-mcq-08": "本句指「短期逗留」。",
-        "brief-mcq-07": "「短短一刻」與本句語境不同。",
-        "brief-mcq-09": "「短暫露面」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。",
-        "brief-mcq-10": "「短暫相遇」與本句語境不同。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。"
+        "brief-mcq-08": "本句的「brief stay」指「短期逗留」。",
+        "brief-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-08"
     },
@@ -2008,11 +1955,9 @@ export default {
       "masked": "His stay at the hospital was ____.",
       "options": [
         "brief-mcq-08",
-        "brief-mcq-07",
-        "brief-mcq-09",
-        "brief-mcq-06",
-        "brief-mcq-10",
-        "brief-mcq-05"
+        "brief-mcq-36",
+        "brief-mcq-54",
+        "brief-mcq-57"
       ],
       "explanation": "本句的「brief」指「短期逗留」。",
       "sentenceIndex": 16,
@@ -2021,12 +1966,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-08": "本句指「短期逗留」。",
-        "brief-mcq-07": "「短短一刻」與本句語境不同。",
-        "brief-mcq-09": "「短暫露面」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。",
-        "brief-mcq-10": "「短暫相遇」與本句語境不同。",
-        "brief-mcq-05": "「短暫停頓」與本句語境不同。"
+        "brief-mcq-08": "本句的「brief」指「短期逗留」。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-08"
     },
@@ -2038,11 +1981,9 @@ export default {
       "masked": "The director made a ____ at the event.",
       "options": [
         "brief-mcq-09",
-        "brief-mcq-08",
-        "brief-mcq-10",
-        "brief-mcq-07",
-        "brief-mcq-11",
-        "brief-mcq-06"
+        "brief-mcq-38",
+        "brief-mcq-16",
+        "brief-mcq-61"
       ],
       "explanation": "本句的「brief appearance」指「短暫露面」。",
       "sentenceIndex": 17,
@@ -2051,12 +1992,10 @@ export default {
         "brief appearance"
       ],
       "optionReasons": {
-        "brief-mcq-09": "本句指「短暫露面」。",
-        "brief-mcq-08": "「短期逗留」與本句語境不同。",
-        "brief-mcq-10": "「短暫相遇」與本句語境不同。",
-        "brief-mcq-07": "「短短一刻」與本句語境不同。",
-        "brief-mcq-11": "「短暫一段時間」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。"
+        "brief-mcq-09": "本句的「brief appearance」指「短暫露面」。",
+        "brief-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-09"
     },
@@ -2068,11 +2007,9 @@ export default {
       "masked": "The actor makes only a ____ appearance in the film.",
       "options": [
         "brief-mcq-09",
-        "brief-mcq-08",
-        "brief-mcq-10",
-        "brief-mcq-07",
-        "brief-mcq-11",
-        "brief-mcq-06"
+        "brief-pdf-001",
+        "brief-mcq-16",
+        "brief-mcq-48"
       ],
       "explanation": "本句的「brief」指「短暫露面」。",
       "sentenceIndex": 18,
@@ -2081,12 +2018,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-09": "本句指「短暫露面」。",
-        "brief-mcq-08": "「短期逗留」與本句語境不同。",
-        "brief-mcq-10": "「短暫相遇」與本句語境不同。",
-        "brief-mcq-07": "「短短一刻」與本句語境不同。",
-        "brief-mcq-11": "「短暫一段時間」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。"
+        "brief-mcq-09": "本句的「brief」指「短暫露面」。",
+        "brief-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-09"
     },
@@ -2098,11 +2033,9 @@ export default {
       "masked": "Their ____ changed both their lives.",
       "options": [
         "brief-mcq-10",
-        "brief-mcq-09",
-        "brief-mcq-11",
-        "brief-mcq-08",
-        "brief-mcq-12",
-        "brief-mcq-07"
+        "brief-pdf-004",
+        "brief-mcq-50",
+        "brief-mcq-56"
       ],
       "explanation": "本句的「brief encounter」指「短暫相遇」。",
       "sentenceIndex": 19,
@@ -2111,12 +2044,10 @@ export default {
         "brief encounter"
       ],
       "optionReasons": {
-        "brief-mcq-10": "本句指「短暫相遇」。",
-        "brief-mcq-09": "「短暫露面」與本句語境不同。",
-        "brief-mcq-11": "「短暫一段時間」與本句語境不同。",
-        "brief-mcq-08": "「短期逗留」與本句語境不同。",
-        "brief-mcq-12": "「簡短的；簡潔的」與本句語境不同。",
-        "brief-mcq-07": "「短短一刻」與本句語境不同。"
+        "brief-mcq-10": "本句的「brief encounter」指「短暫相遇」。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-10"
     },
@@ -2128,11 +2059,9 @@ export default {
       "masked": "I remembered our ____ encounter at the conference.",
       "options": [
         "brief-mcq-10",
-        "brief-mcq-09",
-        "brief-mcq-11",
-        "brief-mcq-08",
-        "brief-mcq-12",
-        "brief-mcq-07"
+        "brief-mcq-44",
+        "brief-mcq-59",
+        "brief-mcq-32"
       ],
       "explanation": "本句的「brief」指「短暫相遇」。",
       "sentenceIndex": 20,
@@ -2141,12 +2070,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-10": "本句指「短暫相遇」。",
-        "brief-mcq-09": "「短暫露面」與本句語境不同。",
-        "brief-mcq-11": "「短暫一段時間」與本句語境不同。",
-        "brief-mcq-08": "「短期逗留」與本句語境不同。",
-        "brief-mcq-12": "「簡短的；簡潔的」與本句語境不同。",
-        "brief-mcq-07": "「短短一刻」與本句語境不同。"
+        "brief-mcq-10": "本句的「brief」指「短暫相遇」。",
+        "brief-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-10"
     },
@@ -2158,11 +2085,9 @@ export default {
       "masked": "She had a ____ working overseas.",
       "options": [
         "brief-mcq-11",
-        "brief-mcq-10",
-        "brief-mcq-12",
-        "brief-mcq-09",
-        "brief-mcq-13",
-        "brief-mcq-08"
+        "brief-pdf-002",
+        "brief-mcq-60",
+        "brief-mcq-59"
       ],
       "explanation": "本句的「brief spell」指「短暫一段時間」。",
       "sentenceIndex": 21,
@@ -2171,12 +2096,10 @@ export default {
         "brief spell"
       ],
       "optionReasons": {
-        "brief-mcq-11": "本句指「短暫一段時間」。",
-        "brief-mcq-10": "「短暫相遇」與本句語境不同。",
-        "brief-mcq-12": "「簡短的；簡潔的」與本句語境不同。",
-        "brief-mcq-09": "「短暫露面」與本句語境不同。",
-        "brief-mcq-13": "「簡要描述」與本句語境不同。",
-        "brief-mcq-08": "「短期逗留」與本句語境不同。"
+        "brief-mcq-11": "本句的「brief spell」指「短暫一段時間」。",
+        "brief-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-11"
     },
@@ -2188,11 +2111,9 @@ export default {
       "masked": "There was a ____ spell of sunshine.",
       "options": [
         "brief-mcq-11",
-        "brief-mcq-10",
-        "brief-mcq-12",
-        "brief-mcq-09",
-        "brief-mcq-13",
-        "brief-mcq-08"
+        "brief-mcq-33",
+        "brief-mcq-16",
+        "brief-mcq-58"
       ],
       "explanation": "本句的「brief」指「短暫一段時間」。",
       "sentenceIndex": 22,
@@ -2201,12 +2122,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-11": "本句指「短暫一段時間」。",
-        "brief-mcq-10": "「短暫相遇」與本句語境不同。",
-        "brief-mcq-12": "「簡短的；簡潔的」與本句語境不同。",
-        "brief-mcq-09": "「短暫露面」與本句語境不同。",
-        "brief-mcq-13": "「簡要描述」與本句語境不同。",
-        "brief-mcq-08": "「短期逗留」與本句語境不同。"
+        "brief-mcq-11": "本句的「brief」指「短暫一段時間」。",
+        "brief-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-11"
     },
@@ -2218,11 +2137,9 @@ export default {
       "masked": "Give a ____ of the problem.",
       "options": [
         "brief-mcq-13",
-        "brief-mcq-12",
-        "brief-mcq-14",
-        "brief-mcq-11",
-        "brief-mcq-15",
-        "brief-mcq-10"
+        "brief-mcq-53",
+        "brief-pdf-005",
+        "brief-mcq-22"
       ],
       "explanation": "本句的「brief description」指「簡要描述」。",
       "sentenceIndex": 25,
@@ -2231,12 +2148,10 @@ export default {
         "brief description"
       ],
       "optionReasons": {
-        "brief-mcq-13": "本句指「簡要描述」。",
-        "brief-mcq-12": "「簡短的；簡潔的」與本句語境不同。",
-        "brief-mcq-14": "「簡短解釋」與本句語境不同。",
-        "brief-mcq-11": "「短暫一段時間」與本句語境不同。",
-        "brief-mcq-15": "「簡短摘要」與本句語境不同。",
-        "brief-mcq-10": "「短暫相遇」與本句語境不同。"
+        "brief-mcq-13": "本句的「brief description」指「簡要描述」。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-13"
     },
@@ -2248,11 +2163,9 @@ export default {
       "masked": "The report begins with a ____ description of the project.",
       "options": [
         "brief-mcq-13",
-        "brief-mcq-12",
-        "brief-mcq-14",
-        "brief-mcq-11",
-        "brief-mcq-15",
-        "brief-mcq-10"
+        "brief-mcq-60",
+        "brief-mcq-55",
+        "brief-mcq-58"
       ],
       "explanation": "本句的「brief」指「簡要描述」。",
       "sentenceIndex": 26,
@@ -2261,12 +2174,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-13": "本句指「簡要描述」。",
-        "brief-mcq-12": "「簡短的；簡潔的」與本句語境不同。",
-        "brief-mcq-14": "「簡短解釋」與本句語境不同。",
-        "brief-mcq-11": "「短暫一段時間」與本句語境不同。",
-        "brief-mcq-15": "「簡短摘要」與本句語境不同。",
-        "brief-mcq-10": "「短暫相遇」與本句語境不同。"
+        "brief-mcq-13": "本句的「brief」指「簡要描述」。",
+        "brief-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-13"
     },
@@ -2278,11 +2189,9 @@ export default {
       "masked": "He gave a ____ of the delay.",
       "options": [
         "brief-mcq-14",
-        "brief-mcq-13",
-        "brief-mcq-15",
-        "brief-mcq-12",
-        "brief-mcq-16",
-        "brief-mcq-11"
+        "brief-mcq-54",
+        "brief-mcq-36",
+        "brief-mcq-58"
       ],
       "explanation": "本句的「brief explanation」指「簡短解釋」。",
       "sentenceIndex": 27,
@@ -2291,12 +2200,10 @@ export default {
         "brief explanation"
       ],
       "optionReasons": {
-        "brief-mcq-14": "本句指「簡短解釋」。",
-        "brief-mcq-13": "「簡要描述」與本句語境不同。",
-        "brief-mcq-15": "「簡短摘要」與本句語境不同。",
-        "brief-mcq-12": "「簡短的；簡潔的」與本句語境不同。",
-        "brief-mcq-16": "「簡要概覽」與本句語境不同。",
-        "brief-mcq-11": "「短暫一段時間」與本句語境不同。"
+        "brief-mcq-14": "本句的「brief explanation」指「簡短解釋」。",
+        "brief-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-14"
     },
@@ -2308,11 +2215,9 @@ export default {
       "masked": "A ____ explanation is enough.",
       "options": [
         "brief-mcq-14",
-        "brief-mcq-13",
-        "brief-mcq-15",
-        "brief-mcq-12",
-        "brief-mcq-16",
-        "brief-mcq-11"
+        "brief-mcq-36",
+        "brief-mcq-38",
+        "brief-mcq-53"
       ],
       "explanation": "本句的「brief」指「簡短解釋」。",
       "sentenceIndex": 28,
@@ -2321,12 +2226,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-14": "本句指「簡短解釋」。",
-        "brief-mcq-13": "「簡要描述」與本句語境不同。",
-        "brief-mcq-15": "「簡短摘要」與本句語境不同。",
-        "brief-mcq-12": "「簡短的；簡潔的」與本句語境不同。",
-        "brief-mcq-16": "「簡要概覽」與本句語境不同。",
-        "brief-mcq-11": "「短暫一段時間」與本句語境不同。"
+        "brief-mcq-14": "本句的「brief」指「簡短解釋」。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-14"
     },
@@ -2338,11 +2241,9 @@ export default {
       "masked": "Please prepare a ____.",
       "options": [
         "brief-mcq-15",
-        "brief-mcq-14",
-        "brief-mcq-16",
-        "brief-mcq-13",
-        "brief-mcq-17",
-        "brief-mcq-12"
+        "brief-reviewed-810ab52304",
+        "brief-mcq-58",
+        "brief-mcq-53"
       ],
       "explanation": "本句的「brief summary」指「簡短摘要」。",
       "sentenceIndex": 29,
@@ -2351,12 +2252,10 @@ export default {
         "brief summary"
       ],
       "optionReasons": {
-        "brief-mcq-15": "本句指「簡短摘要」。",
-        "brief-mcq-14": "「簡短解釋」與本句語境不同。",
-        "brief-mcq-16": "「簡要概覽」與本句語境不同。",
-        "brief-mcq-13": "「簡要描述」與本句語境不同。",
-        "brief-mcq-17": "「簡要敘述」與本句語境不同。",
-        "brief-mcq-12": "「簡短的；簡潔的」與本句語境不同。"
+        "brief-mcq-15": "本句的「brief summary」指「簡短摘要」。",
+        "brief-reviewed-810ab52304": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-15"
     },
@@ -2368,11 +2267,9 @@ export default {
       "masked": "The first paragraph gives a ____ summary of the findings.",
       "options": [
         "brief-mcq-15",
-        "brief-mcq-14",
-        "brief-mcq-16",
-        "brief-mcq-13",
-        "brief-mcq-17",
-        "brief-mcq-12"
+        "brief-mcq-61",
+        "brief-mcq-36",
+        "brief-mcq-58"
       ],
       "explanation": "本句的「brief」指「簡短摘要」。",
       "sentenceIndex": 30,
@@ -2381,12 +2278,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-15": "本句指「簡短摘要」。",
-        "brief-mcq-14": "「簡短解釋」與本句語境不同。",
-        "brief-mcq-16": "「簡要概覽」與本句語境不同。",
-        "brief-mcq-13": "「簡要描述」與本句語境不同。",
-        "brief-mcq-17": "「簡要敘述」與本句語境不同。",
-        "brief-mcq-12": "「簡短的；簡潔的」與本句語境不同。"
+        "brief-mcq-15": "本句的「brief」指「簡短摘要」。",
+        "brief-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-15"
     },
@@ -2398,11 +2293,9 @@ export default {
       "masked": "The presentation begins with a ____.",
       "options": [
         "brief-mcq-16",
-        "brief-mcq-15",
-        "brief-mcq-17",
-        "brief-mcq-14",
-        "brief-mcq-18",
-        "brief-mcq-13"
+        "brief-mcq-61",
+        "brief-mcq-03",
+        "brief-mcq-38"
       ],
       "explanation": "本句的「brief overview」指「簡要概覽」。",
       "sentenceIndex": 31,
@@ -2411,12 +2304,10 @@ export default {
         "brief overview"
       ],
       "optionReasons": {
-        "brief-mcq-16": "本句指「簡要概覽」。",
-        "brief-mcq-15": "「簡短摘要」與本句語境不同。",
-        "brief-mcq-17": "「簡要敘述」與本句語境不同。",
-        "brief-mcq-14": "「簡短解釋」與本句語境不同。",
-        "brief-mcq-18": "「簡短聲明」與本句語境不同。",
-        "brief-mcq-13": "「簡要描述」與本句語境不同。"
+        "brief-mcq-16": "本句的「brief overview」指「簡要概覽」。",
+        "brief-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-16"
     },
@@ -2428,11 +2319,9 @@ export default {
       "masked": "I'll give you a ____ overview of the process.",
       "options": [
         "brief-mcq-16",
-        "brief-mcq-15",
-        "brief-mcq-17",
-        "brief-mcq-14",
-        "brief-mcq-18",
-        "brief-mcq-13"
+        "brief-mcq-27",
+        "brief-mcq-03",
+        "brief-pdf-004"
       ],
       "explanation": "本句的「brief」指「簡要概覽」。",
       "sentenceIndex": 32,
@@ -2441,12 +2330,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-16": "本句指「簡要概覽」。",
-        "brief-mcq-15": "「簡短摘要」與本句語境不同。",
-        "brief-mcq-17": "「簡要敘述」與本句語境不同。",
-        "brief-mcq-14": "「簡短解釋」與本句語境不同。",
-        "brief-mcq-18": "「簡短聲明」與本句語境不同。",
-        "brief-mcq-13": "「簡要描述」與本句語境不同。"
+        "brief-mcq-16": "本句的「brief」指「簡要概覽」。",
+        "brief-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-16"
     },
@@ -2458,11 +2345,9 @@ export default {
       "masked": "She gave a ____.",
       "options": [
         "brief-mcq-17",
-        "brief-mcq-16",
-        "brief-mcq-18",
-        "brief-mcq-15",
-        "brief-mcq-19",
-        "brief-mcq-14"
+        "brief-mcq-10",
+        "brief-mcq-35",
+        "brief-mcq-55"
       ],
       "explanation": "本句的「brief account of what happened」指「簡要敘述」。",
       "sentenceIndex": 33,
@@ -2471,12 +2356,10 @@ export default {
         "brief account of what happened"
       ],
       "optionReasons": {
-        "brief-mcq-17": "本句指「簡要敘述」。",
-        "brief-mcq-16": "「簡要概覽」與本句語境不同。",
-        "brief-mcq-18": "「簡短聲明」與本句語境不同。",
-        "brief-mcq-15": "「簡短摘要」與本句語境不同。",
-        "brief-mcq-19": "「簡介」與本句語境不同。",
-        "brief-mcq-14": "「簡短解釋」與本句語境不同。"
+        "brief-mcq-17": "本句的「brief account of what happened」指「簡要敘述」。",
+        "brief-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-17"
     },
@@ -2488,11 +2371,9 @@ export default {
       "masked": "The book provides a ____ account of the organisation's history.",
       "options": [
         "brief-mcq-17",
-        "brief-mcq-16",
-        "brief-mcq-18",
-        "brief-mcq-15",
-        "brief-mcq-19",
-        "brief-mcq-14"
+        "brief-mcq-04",
+        "brief-mcq-57",
+        "brief-mcq-54"
       ],
       "explanation": "本句的「brief」指「簡要敘述」。",
       "sentenceIndex": 34,
@@ -2501,12 +2382,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-17": "本句指「簡要敘述」。",
-        "brief-mcq-16": "「簡要概覽」與本句語境不同。",
-        "brief-mcq-18": "「簡短聲明」與本句語境不同。",
-        "brief-mcq-15": "「簡短摘要」與本句語境不同。",
-        "brief-mcq-19": "「簡介」與本句語境不同。",
-        "brief-mcq-14": "「簡短解釋」與本句語境不同。"
+        "brief-mcq-17": "本句的「brief」指「簡要敘述」。",
+        "brief-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-17"
     },
@@ -2518,11 +2397,9 @@ export default {
       "masked": "The company issued a ____.",
       "options": [
         "brief-mcq-18",
-        "brief-mcq-17",
-        "brief-mcq-19",
-        "brief-mcq-16",
-        "brief-mcq-20",
-        "brief-mcq-15"
+        "brief-mcq-40",
+        "brief-pdf-004",
+        "brief-mcq-61"
       ],
       "explanation": "本句的「brief statement」指「簡短聲明」。",
       "sentenceIndex": 35,
@@ -2531,12 +2408,10 @@ export default {
         "brief statement"
       ],
       "optionReasons": {
-        "brief-mcq-18": "本句指「簡短聲明」。",
-        "brief-mcq-17": "「簡要敘述」與本句語境不同。",
-        "brief-mcq-19": "「簡介」與本句語境不同。",
-        "brief-mcq-16": "「簡要概覽」與本句語境不同。",
-        "brief-mcq-20": "「簡短回答」與本句語境不同。",
-        "brief-mcq-15": "「簡短摘要」與本句語境不同。"
+        "brief-mcq-18": "本句的「brief statement」指「簡短聲明」。",
+        "brief-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-18"
     },
@@ -2548,11 +2423,9 @@ export default {
       "masked": "He made a ____ statement before leaving.",
       "options": [
         "brief-mcq-18",
-        "brief-mcq-17",
-        "brief-mcq-19",
-        "brief-mcq-16",
-        "brief-mcq-20",
-        "brief-mcq-15"
+        "brief-mcq-55",
+        "brief-mcq-35",
+        "brief-mcq-40"
       ],
       "explanation": "本句的「brief」指「簡短聲明」。",
       "sentenceIndex": 36,
@@ -2561,12 +2434,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-18": "本句指「簡短聲明」。",
-        "brief-mcq-17": "「簡要敘述」與本句語境不同。",
-        "brief-mcq-19": "「簡介」與本句語境不同。",
-        "brief-mcq-16": "「簡要概覽」與本句語境不同。",
-        "brief-mcq-20": "「簡短回答」與本句語境不同。",
-        "brief-mcq-15": "「簡短摘要」與本句語境不同。"
+        "brief-mcq-18": "本句的「brief」指「簡短聲明」。",
+        "brief-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-18"
     },
@@ -2578,11 +2449,9 @@ export default {
       "masked": "Let me give a ____.",
       "options": [
         "brief-mcq-19",
-        "brief-mcq-18",
-        "brief-mcq-20",
-        "brief-mcq-17",
-        "brief-mcq-21",
-        "brief-mcq-16"
+        "brief-mcq-61",
+        "brief-mcq-35",
+        "brief-mcq-22"
       ],
       "explanation": "本句的「brief introduction」指「簡介」。",
       "sentenceIndex": 37,
@@ -2591,12 +2460,10 @@ export default {
         "brief introduction"
       ],
       "optionReasons": {
-        "brief-mcq-19": "本句指「簡介」。",
-        "brief-mcq-18": "「簡短聲明」與本句語境不同。",
-        "brief-mcq-20": "「簡短回答」與本句語境不同。",
-        "brief-mcq-17": "「簡要敘述」與本句語境不同。",
-        "brief-mcq-21": "「短箋／簡短說明」與本句語境不同。",
-        "brief-mcq-16": "「簡要概覽」與本句語境不同。"
+        "brief-mcq-19": "本句的「brief introduction」指「簡介」。",
+        "brief-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-19"
     },
@@ -2608,11 +2475,9 @@ export default {
       "masked": "The course begins with a ____ introduction to statistics.",
       "options": [
         "brief-mcq-19",
-        "brief-mcq-18",
-        "brief-mcq-20",
-        "brief-mcq-17",
-        "brief-mcq-21",
-        "brief-mcq-16"
+        "brief-mcq-22",
+        "brief-mcq-59",
+        "brief-mcq-01"
       ],
       "explanation": "本句的「brief」指「簡介」。",
       "sentenceIndex": 38,
@@ -2621,12 +2486,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-19": "本句指「簡介」。",
-        "brief-mcq-18": "「簡短聲明」與本句語境不同。",
-        "brief-mcq-20": "「簡短回答」與本句語境不同。",
-        "brief-mcq-17": "「簡要敘述」與本句語境不同。",
-        "brief-mcq-21": "「短箋／簡短說明」與本句語境不同。",
-        "brief-mcq-16": "「簡要概覽」與本句語境不同。"
+        "brief-mcq-19": "本句的「brief」指「簡介」。",
+        "brief-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-19"
     },
@@ -2638,11 +2501,9 @@ export default {
       "masked": "Her answer was ____.",
       "options": [
         "brief-mcq-20",
-        "brief-mcq-19",
-        "brief-mcq-21",
-        "brief-mcq-18",
-        "brief-mcq-22",
-        "brief-mcq-17"
+        "brief-mcq-57",
+        "brief-mcq-32",
+        "brief-mcq-55"
       ],
       "explanation": "本句的「brief but clear」指「簡短回答」。",
       "sentenceIndex": 39,
@@ -2651,12 +2512,10 @@ export default {
         "brief but clear"
       ],
       "optionReasons": {
-        "brief-mcq-20": "本句指「簡短回答」。",
-        "brief-mcq-19": "「簡介」與本句語境不同。",
-        "brief-mcq-21": "「短箋／簡短說明」與本句語境不同。",
-        "brief-mcq-18": "「簡短聲明」與本句語境不同。",
-        "brief-mcq-22": "「長話短說」與本句語境不同。",
-        "brief-mcq-17": "「簡要敘述」與本句語境不同。"
+        "brief-mcq-20": "本句的「brief but clear」指「簡短回答」。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-20"
     },
@@ -2668,11 +2527,9 @@ export default {
       "masked": "He gave only a ____ response.",
       "options": [
         "brief-mcq-20",
-        "brief-mcq-19",
-        "brief-mcq-21",
-        "brief-mcq-18",
-        "brief-mcq-22",
-        "brief-mcq-17"
+        "brief-mcq-58",
+        "brief-mcq-33",
+        "brief-mcq-55"
       ],
       "explanation": "本句的「brief」指「簡短回答」。",
       "sentenceIndex": 40,
@@ -2681,12 +2538,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-20": "本句指「簡短回答」。",
-        "brief-mcq-19": "「簡介」與本句語境不同。",
-        "brief-mcq-21": "「短箋／簡短說明」與本句語境不同。",
-        "brief-mcq-18": "「簡短聲明」與本句語境不同。",
-        "brief-mcq-22": "「長話短說」與本句語境不同。",
-        "brief-mcq-17": "「簡要敘述」與本句語境不同。"
+        "brief-mcq-20": "本句的「brief」指「簡短回答」。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-20"
     },
@@ -2698,11 +2553,9 @@ export default {
       "masked": "She sent me a ____.",
       "options": [
         "brief-mcq-21",
-        "brief-mcq-20",
-        "brief-mcq-22",
-        "brief-mcq-19",
-        "brief-mcq-23",
-        "brief-mcq-18"
+        "brief-reviewed-810ab52304",
+        "brief-mcq-57",
+        "brief-mcq-56"
       ],
       "explanation": "本句的「brief note」指「短箋／簡短說明」。",
       "sentenceIndex": 41,
@@ -2711,12 +2564,10 @@ export default {
         "brief note"
       ],
       "optionReasons": {
-        "brief-mcq-21": "本句指「短箋／簡短說明」。",
-        "brief-mcq-20": "「簡短回答」與本句語境不同。",
-        "brief-mcq-22": "「長話短說」與本句語境不同。",
-        "brief-mcq-19": "「簡介」與本句語境不同。",
-        "brief-mcq-23": "「簡短一點」與本句語境不同。",
-        "brief-mcq-18": "「簡短聲明」與本句語境不同。"
+        "brief-mcq-21": "本句的「brief note」指「短箋／簡短說明」。",
+        "brief-reviewed-810ab52304": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-21"
     },
@@ -2728,11 +2579,9 @@ export default {
       "masked": "Add a ____ note explaining the change.",
       "options": [
         "brief-mcq-21",
-        "brief-mcq-20",
-        "brief-mcq-22",
-        "brief-mcq-19",
-        "brief-mcq-23",
-        "brief-mcq-18"
+        "brief-mcq-61",
+        "brief-mcq-30",
+        "brief-reviewed-810ab52304"
       ],
       "explanation": "本句的「brief」指「短箋／簡短說明」。",
       "sentenceIndex": 42,
@@ -2741,12 +2590,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-21": "本句指「短箋／簡短說明」。",
-        "brief-mcq-20": "「簡短回答」與本句語境不同。",
-        "brief-mcq-22": "「長話短說」與本句語境不同。",
-        "brief-mcq-19": "「簡介」與本句語境不同。",
-        "brief-mcq-23": "「簡短一點」與本句語境不同。",
-        "brief-mcq-18": "「簡短聲明」與本句語境不同。"
+        "brief-mcq-21": "本句的「brief」指「短箋／簡短說明」。",
+        "brief-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "brief-reviewed-810ab52304": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-21"
     },
@@ -2758,11 +2605,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "brief-mcq-22",
-        "brief-mcq-21",
-        "brief-mcq-23",
-        "brief-mcq-20",
-        "brief-mcq-24",
-        "brief-mcq-19"
+        "brief-pdf-004",
+        "brief-mcq-19",
+        "brief-mcq-36"
       ],
       "explanation": "本句的「be brief」指「長話短說」。",
       "sentenceIndex": 43,
@@ -2771,12 +2616,10 @@ export default {
         "be brief"
       ],
       "optionReasons": {
-        "brief-mcq-22": "本句指「長話短說」。",
-        "brief-mcq-21": "「短箋／簡短說明」與本句語境不同。",
-        "brief-mcq-23": "「簡短一點」與本句語境不同。",
-        "brief-mcq-20": "「簡短回答」與本句語境不同。",
-        "brief-mcq-24": "「短暫地」與本句語境不同。",
-        "brief-mcq-19": "「簡介」與本句語境不同。"
+        "brief-mcq-22": "本句的「be brief」指「長話短說」。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-22"
     },
@@ -2788,11 +2631,9 @@ export default {
       "masked": "I'll be ____ because we are short of time.",
       "options": [
         "brief-mcq-22",
-        "brief-mcq-21",
-        "brief-mcq-23",
-        "brief-mcq-20",
-        "brief-mcq-24",
-        "brief-mcq-19"
+        "brief-mcq-31",
+        "brief-mcq-13",
+        "brief-pdf-002"
       ],
       "explanation": "本句的「brief」指「長話短說」。",
       "sentenceIndex": 44,
@@ -2801,12 +2642,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-22": "本句指「長話短說」。",
-        "brief-mcq-21": "「短箋／簡短說明」與本句語境不同。",
-        "brief-mcq-23": "「簡短一點」與本句語境不同。",
-        "brief-mcq-20": "「簡短回答」與本句語境不同。",
-        "brief-mcq-24": "「短暫地」與本句語境不同。",
-        "brief-mcq-19": "「簡介」與本句語境不同。"
+        "brief-mcq-22": "本句的「brief」指「長話短說」。",
+        "brief-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-22"
     },
@@ -2818,11 +2657,9 @@ export default {
       "masked": "Let's ____.",
       "options": [
         "brief-mcq-23",
-        "brief-mcq-22",
-        "brief-mcq-24",
-        "brief-mcq-21",
-        "brief-mcq-25",
-        "brief-mcq-20"
+        "brief-pdf-001",
+        "brief-mcq-38",
+        "brief-mcq-30"
       ],
       "explanation": "本句的「keep the meeting brief」指「簡短一點」。",
       "sentenceIndex": 45,
@@ -2831,12 +2668,10 @@ export default {
         "keep the meeting brief"
       ],
       "optionReasons": {
-        "brief-mcq-23": "本句指「簡短一點」。",
-        "brief-mcq-22": "「長話短說」與本句語境不同。",
-        "brief-mcq-24": "「短暫地」與本句語境不同。",
-        "brief-mcq-21": "「短箋／簡短說明」與本句語境不同。",
-        "brief-mcq-25": "「簡要地」與本句語境不同。",
-        "brief-mcq-20": "「簡短回答」與本句語境不同。"
+        "brief-mcq-23": "本句的「keep the meeting brief」指「簡短一點」。",
+        "brief-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-23"
     },
@@ -2848,11 +2683,9 @@ export default {
       "masked": "Keep your answer ____ and relevant.",
       "options": [
         "brief-mcq-23",
-        "brief-mcq-22",
-        "brief-mcq-24",
-        "brief-mcq-21",
-        "brief-mcq-25",
-        "brief-mcq-20"
+        "brief-mcq-56",
+        "brief-mcq-53",
+        "brief-reviewed-810ab52304"
       ],
       "explanation": "本句的「brief」指「簡短一點」。",
       "sentenceIndex": 46,
@@ -2861,12 +2694,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-23": "本句指「簡短一點」。",
-        "brief-mcq-22": "「長話短說」與本句語境不同。",
-        "brief-mcq-24": "「短暫地」與本句語境不同。",
-        "brief-mcq-21": "「短箋／簡短說明」與本句語境不同。",
-        "brief-mcq-25": "「簡要地」與本句語境不同。",
-        "brief-mcq-20": "「簡短回答」與本句語境不同。"
+        "brief-mcq-23": "本句的「brief」指「簡短一點」。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "brief-reviewed-810ab52304": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-23"
     },
@@ -2878,11 +2709,9 @@ export default {
       "masked": "We're running late, so ____.",
       "options": [
         "brief-mcq-23",
-        "brief-mcq-22",
-        "brief-mcq-24",
-        "brief-mcq-21",
-        "brief-mcq-25",
-        "brief-mcq-20"
+        "brief-mcq-33",
+        "brief-mcq-53",
+        "brief-mcq-58"
       ],
       "explanation": "本句的「keep it brief」指「簡短一點」。",
       "sentenceIndex": 47,
@@ -2891,12 +2720,10 @@ export default {
         "keep it brief"
       ],
       "optionReasons": {
-        "brief-mcq-23": "本句指「簡短一點」。",
-        "brief-mcq-22": "「長話短說」與本句語境不同。",
-        "brief-mcq-24": "「短暫地」與本句語境不同。",
-        "brief-mcq-21": "「短箋／簡短說明」與本句語境不同。",
-        "brief-mcq-25": "「簡要地」與本句語境不同。",
-        "brief-mcq-20": "「簡短回答」與本句語境不同。"
+        "brief-mcq-23": "本句的「keep it brief」指「簡短一點」。",
+        "brief-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-23"
     },
@@ -2908,11 +2735,9 @@ export default {
       "masked": "I'll keep it ____.",
       "options": [
         "brief-mcq-23",
-        "brief-mcq-22",
-        "brief-mcq-24",
-        "brief-mcq-21",
-        "brief-mcq-25",
-        "brief-mcq-20"
+        "brief-mcq-36",
+        "brief-mcq-59",
+        "brief-mcq-58"
       ],
       "explanation": "本句的「brief」指「簡短一點」。",
       "sentenceIndex": 48,
@@ -2921,12 +2746,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-23": "本句指「簡短一點」。",
-        "brief-mcq-22": "「長話短說」與本句語境不同。",
-        "brief-mcq-24": "「短暫地」與本句語境不同。",
-        "brief-mcq-21": "「短箋／簡短說明」與本句語境不同。",
-        "brief-mcq-25": "「簡要地」與本句語境不同。",
-        "brief-mcq-20": "「簡短回答」與本句語境不同。"
+        "brief-mcq-23": "本句的「brief」指「簡短一點」。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-23"
     },
@@ -2938,11 +2761,9 @@ export default {
       "masked": "She worked there ____.",
       "options": [
         "brief-mcq-24",
-        "brief-mcq-23",
+        "brief-mcq-60",
         "brief-mcq-25",
-        "brief-mcq-22",
-        "brief-mcq-26",
-        "brief-mcq-21"
+        "brief-pdf-004"
       ],
       "explanation": "本句的「briefly」指「短暫地」。",
       "sentenceIndex": 49,
@@ -2951,12 +2772,10 @@ export default {
         "briefly"
       ],
       "optionReasons": {
-        "brief-mcq-24": "本句指「短暫地」。",
-        "brief-mcq-23": "「簡短一點」與本句語境不同。",
-        "brief-mcq-25": "「簡要地」與本句語境不同。",
-        "brief-mcq-22": "「長話短說」與本句語境不同。",
-        "brief-mcq-26": "「簡而言之」與本句語境不同。",
-        "brief-mcq-21": "「短箋／簡短說明」與本句語境不同。"
+        "brief-mcq-24": "本句的「briefly」指「短暫地」。",
+        "brief-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-24"
     },
@@ -2968,11 +2787,9 @@ export default {
       "masked": "We spoke ____ before the meeting.",
       "options": [
         "brief-mcq-24",
-        "brief-mcq-23",
-        "brief-mcq-25",
-        "brief-mcq-22",
-        "brief-mcq-26",
-        "brief-mcq-21"
+        "brief-mcq-45",
+        "brief-mcq-60",
+        "brief-mcq-32"
       ],
       "explanation": "本句的「briefly」指「短暫地」。",
       "sentenceIndex": 50,
@@ -2981,12 +2798,10 @@ export default {
         "briefly"
       ],
       "optionReasons": {
-        "brief-mcq-24": "本句指「短暫地」。",
-        "brief-mcq-23": "「簡短一點」與本句語境不同。",
-        "brief-mcq-25": "「簡要地」與本句語境不同。",
-        "brief-mcq-22": "「長話短說」與本句語境不同。",
-        "brief-mcq-26": "「簡而言之」與本句語境不同。",
-        "brief-mcq-21": "「短箋／簡短說明」與本句語境不同。"
+        "brief-mcq-24": "本句的「briefly」指「短暫地」。",
+        "brief-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-24"
     },
@@ -2998,11 +2813,9 @@ export default {
       "masked": "He ____ before answering.",
       "options": [
         "brief-mcq-05",
-        "brief-mcq-04",
-        "brief-mcq-06",
-        "brief-mcq-03",
-        "brief-mcq-07",
-        "brief-mcq-02"
+        "brief-mcq-50",
+        "brief-reviewed-810ab52304",
+        "brief-mcq-56"
       ],
       "explanation": "本句的「paused briefly」指「短暫停頓」。",
       "sentenceIndex": 51,
@@ -3011,12 +2824,10 @@ export default {
         "paused briefly"
       ],
       "optionReasons": {
-        "brief-mcq-05": "本句指「短暫停頓」。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。",
-        "brief-mcq-03": "「短暫交談」與本句語境不同。",
-        "brief-mcq-07": "「短短一刻」與本句語境不同。",
-        "brief-mcq-02": "「簡短會議」與本句語境不同。"
+        "brief-mcq-05": "本句的「paused briefly」指「短暫停頓」。",
+        "brief-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "brief-reviewed-810ab52304": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-05"
     },
@@ -3028,11 +2839,9 @@ export default {
       "masked": "The system shut down ____.",
       "options": [
         "brief-mcq-05",
-        "brief-mcq-04",
-        "brief-mcq-06",
-        "brief-mcq-03",
-        "brief-mcq-07",
-        "brief-mcq-02"
+        "brief-mcq-53",
+        "brief-mcq-49",
+        "brief-pdf-001"
       ],
       "explanation": "本句的「briefly」指「短暫停頓」。",
       "sentenceIndex": 52,
@@ -3041,12 +2850,10 @@ export default {
         "briefly"
       ],
       "optionReasons": {
-        "brief-mcq-05": "本句指「短暫停頓」。",
-        "brief-mcq-04": "「短暫到訪」與本句語境不同。",
-        "brief-mcq-06": "「短暫時期」與本句語境不同。",
-        "brief-mcq-03": "「短暫交談」與本句語境不同。",
-        "brief-mcq-07": "「短短一刻」與本句語境不同。",
-        "brief-mcq-02": "「簡短會議」與本句語境不同。"
+        "brief-mcq-05": "本句的「briefly」指「短暫停頓」。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-05"
     },
@@ -3058,11 +2865,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "brief-mcq-25",
-        "brief-mcq-24",
-        "brief-mcq-26",
-        "brief-mcq-23",
-        "brief-mcq-27",
-        "brief-mcq-28"
+        "brief-mcq-61",
+        "brief-mcq-59",
+        "brief-mcq-09"
       ],
       "explanation": "本句的「briefly explained the problem」指「簡要地」。",
       "sentenceIndex": 53,
@@ -3071,12 +2876,10 @@ export default {
         "briefly explained the problem"
       ],
       "optionReasons": {
-        "brief-mcq-25": "本句指「簡要地」。",
-        "brief-mcq-24": "「短暫地」與本句語境不同。",
-        "brief-mcq-26": "「簡而言之」與本句語境不同。",
-        "brief-mcq-23": "「簡短一點」與本句語境不同。",
-        "brief-mcq-27": "「長話短說」與本句語境不同。",
-        "brief-mcq-28": "「任務簡報；工作要求」與本句語境不同。"
+        "brief-mcq-25": "本句的「briefly explained the problem」指「簡要地」。",
+        "brief-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-25"
     },
@@ -3088,11 +2891,9 @@ export default {
       "masked": "Please ____ describe your experience.",
       "options": [
         "brief-mcq-25",
-        "brief-mcq-24",
-        "brief-mcq-26",
-        "brief-mcq-23",
-        "brief-mcq-27",
-        "brief-mcq-28"
+        "brief-mcq-61",
+        "brief-mcq-08",
+        "brief-mcq-22"
       ],
       "explanation": "本句的「briefly」指「簡要地」。",
       "sentenceIndex": 54,
@@ -3101,12 +2902,10 @@ export default {
         "briefly"
       ],
       "optionReasons": {
-        "brief-mcq-25": "本句指「簡要地」。",
-        "brief-mcq-24": "「短暫地」與本句語境不同。",
-        "brief-mcq-26": "「簡而言之」與本句語境不同。",
-        "brief-mcq-23": "「簡短一點」與本句語境不同。",
-        "brief-mcq-27": "「長話短說」與本句語境不同。",
-        "brief-mcq-28": "「任務簡報；工作要求」與本句語境不同。"
+        "brief-mcq-25": "本句的「briefly」指「簡要地」。",
+        "brief-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-25"
     },
@@ -3118,11 +2917,9 @@ export default {
       "masked": "____ explain why the project failed.",
       "options": [
         "brief-mcq-25",
-        "brief-mcq-24",
-        "brief-mcq-26",
-        "brief-mcq-23",
-        "brief-mcq-27",
-        "brief-mcq-28"
+        "brief-pdf-005",
+        "brief-mcq-53",
+        "brief-mcq-11"
       ],
       "explanation": "本句的「Briefly」指「簡要地」。",
       "sentenceIndex": 55,
@@ -3131,12 +2928,10 @@ export default {
         "Briefly"
       ],
       "optionReasons": {
-        "brief-mcq-25": "本句指「簡要地」。",
-        "brief-mcq-24": "「短暫地」與本句語境不同。",
-        "brief-mcq-26": "「簡而言之」與本句語境不同。",
-        "brief-mcq-23": "「簡短一點」與本句語境不同。",
-        "brief-mcq-27": "「長話短說」與本句語境不同。",
-        "brief-mcq-28": "「任務簡報；工作要求」與本句語境不同。"
+        "brief-mcq-25": "本句的「Briefly」指「簡要地」。",
+        "brief-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-25"
     },
@@ -3148,11 +2943,9 @@ export default {
       "masked": "The report ____ discusses the main risks.",
       "options": [
         "brief-mcq-25",
-        "brief-mcq-24",
-        "brief-mcq-26",
-        "brief-mcq-23",
-        "brief-mcq-27",
-        "brief-mcq-28"
+        "brief-mcq-53",
+        "brief-mcq-06",
+        "brief-mcq-36"
       ],
       "explanation": "本句的「briefly」指「簡要地」。",
       "sentenceIndex": 56,
@@ -3161,12 +2954,10 @@ export default {
         "briefly"
       ],
       "optionReasons": {
-        "brief-mcq-25": "本句指「簡要地」。",
-        "brief-mcq-24": "「短暫地」與本句語境不同。",
-        "brief-mcq-26": "「簡而言之」與本句語境不同。",
-        "brief-mcq-23": "「簡短一點」與本句語境不同。",
-        "brief-mcq-27": "「長話短說」與本句語境不同。",
-        "brief-mcq-28": "「任務簡報；工作要求」與本句語境不同。"
+        "brief-mcq-25": "本句的「briefly」指「簡要地」。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-25"
     },
@@ -3178,11 +2969,9 @@ export default {
       "masked": "____, the project needs clearer leadership.",
       "options": [
         "brief-mcq-26",
-        "brief-mcq-25",
         "brief-mcq-27",
-        "brief-mcq-24",
-        "brief-mcq-28",
-        "brief-mcq-23"
+        "brief-mcq-58",
+        "brief-reviewed-810ab52304"
       ],
       "explanation": "本句的「In brief」指「簡而言之」。",
       "sentenceIndex": 59,
@@ -3191,12 +2980,10 @@ export default {
         "In brief"
       ],
       "optionReasons": {
-        "brief-mcq-26": "本句指「簡而言之」。",
-        "brief-mcq-25": "「簡要地」與本句語境不同。",
-        "brief-mcq-27": "「長話短說」與本句語境不同。",
-        "brief-mcq-24": "「短暫地」與本句語境不同。",
-        "brief-mcq-28": "「任務簡報；工作要求」與本句語境不同。",
-        "brief-mcq-23": "「簡短一點」與本句語境不同。"
+        "brief-mcq-26": "本句的「In brief」指「簡而言之」。",
+        "brief-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "brief-reviewed-810ab52304": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-26"
     },
@@ -3208,11 +2995,9 @@ export default {
       "masked": "The report explains, in ____, what went wrong.",
       "options": [
         "brief-mcq-26",
-        "brief-mcq-25",
-        "brief-mcq-27",
-        "brief-mcq-24",
-        "brief-mcq-28",
-        "brief-mcq-23"
+        "brief-mcq-36",
+        "brief-mcq-07",
+        "brief-mcq-58"
       ],
       "explanation": "本句的「brief」指「簡而言之」。",
       "sentenceIndex": 60,
@@ -3221,12 +3006,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-26": "本句指「簡而言之」。",
-        "brief-mcq-25": "「簡要地」與本句語境不同。",
-        "brief-mcq-27": "「長話短說」與本句語境不同。",
-        "brief-mcq-24": "「短暫地」與本句語境不同。",
-        "brief-mcq-28": "「任務簡報；工作要求」與本句語境不同。",
-        "brief-mcq-23": "「簡短一點」與本句語境不同。"
+        "brief-mcq-26": "本句的「brief」指「簡而言之」。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-26"
     },
@@ -3238,11 +3021,9 @@ export default {
       "masked": "____, we need more time.",
       "options": [
         "brief-mcq-27",
-        "brief-mcq-26",
-        "brief-mcq-28",
-        "brief-mcq-25",
-        "brief-mcq-29",
-        "brief-mcq-24"
+        "brief-mcq-30",
+        "brief-mcq-60",
+        "brief-mcq-45"
       ],
       "explanation": "本句的「To be brief」指「長話短說」。",
       "sentenceIndex": 61,
@@ -3251,12 +3032,10 @@ export default {
         "To be brief"
       ],
       "optionReasons": {
-        "brief-mcq-27": "本句指「長話短說」。",
-        "brief-mcq-26": "「簡而言之」與本句語境不同。",
-        "brief-mcq-28": "「任務簡報；工作要求」與本句語境不同。",
-        "brief-mcq-25": "「簡要地」與本句語境不同。",
-        "brief-mcq-29": "「項目簡報／要求書」與本句語境不同。",
-        "brief-mcq-24": "「短暫地」與本句語境不同。"
+        "brief-mcq-27": "本句的「To be brief」指「長話短說」。",
+        "brief-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-27"
     },
@@ -3268,11 +3047,9 @@ export default {
       "masked": "To be ____, the two departments failed to coordinate.",
       "options": [
         "brief-mcq-27",
-        "brief-mcq-26",
-        "brief-mcq-28",
-        "brief-mcq-25",
-        "brief-mcq-29",
-        "brief-mcq-24"
+        "brief-mcq-31",
+        "brief-mcq-13",
+        "brief-mcq-57"
       ],
       "explanation": "本句的「brief」指「長話短說」。",
       "sentenceIndex": 62,
@@ -3281,12 +3058,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-27": "本句指「長話短說」。",
-        "brief-mcq-26": "「簡而言之」與本句語境不同。",
-        "brief-mcq-28": "「任務簡報；工作要求」與本句語境不同。",
-        "brief-mcq-25": "「簡要地」與本句語境不同。",
-        "brief-mcq-29": "「項目簡報／要求書」與本句語境不同。",
-        "brief-mcq-24": "「短暫地」與本句語境不同。"
+        "brief-mcq-27": "本句的「brief」指「長話短說」。",
+        "brief-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-27"
     },
@@ -3298,11 +3073,9 @@ export default {
       "masked": "The designer received a detailed ____.",
       "options": [
         "brief-mcq-28",
-        "brief-mcq-27",
-        "brief-mcq-29",
-        "brief-mcq-26",
-        "brief-mcq-30",
-        "brief-mcq-25"
+        "brief-mcq-11",
+        "brief-mcq-53",
+        "brief-mcq-57"
       ],
       "explanation": "本句的「brief」指「任務簡報；工作要求」。",
       "sentenceIndex": 63,
@@ -3311,12 +3084,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-28": "本句指「任務簡報；工作要求」。",
-        "brief-mcq-27": "「長話短說」與本句語境不同。",
-        "brief-mcq-29": "「項目簡報／要求書」與本句語境不同。",
-        "brief-mcq-26": "「簡而言之」與本句語境不同。",
-        "brief-mcq-30": "「設計要求書」與本句語境不同。",
-        "brief-mcq-25": "「簡要地」與本句語境不同。"
+        "brief-mcq-28": "本句的「brief」指「任務簡報；工作要求」。",
+        "brief-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-28"
     },
@@ -3328,11 +3099,9 @@ export default {
       "masked": "Make sure everyone understands the ____.",
       "options": [
         "brief-mcq-28",
-        "brief-mcq-27",
-        "brief-mcq-29",
-        "brief-mcq-26",
-        "brief-mcq-30",
-        "brief-mcq-25"
+        "brief-mcq-53",
+        "brief-mcq-07",
+        "brief-mcq-56"
       ],
       "explanation": "本句的「brief」指「任務簡報；工作要求」。",
       "sentenceIndex": 64,
@@ -3341,12 +3110,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-28": "本句指「任務簡報；工作要求」。",
-        "brief-mcq-27": "「長話短說」與本句語境不同。",
-        "brief-mcq-29": "「項目簡報／要求書」與本句語境不同。",
-        "brief-mcq-26": "「簡而言之」與本句語境不同。",
-        "brief-mcq-30": "「設計要求書」與本句語境不同。",
-        "brief-mcq-25": "「簡要地」與本句語境不同。"
+        "brief-mcq-28": "本句的「brief」指「任務簡報；工作要求」。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-28"
     },
@@ -3358,11 +3125,9 @@ export default {
       "masked": "The ____ defines the scope and objectives.",
       "options": [
         "brief-mcq-29",
-        "brief-mcq-28",
-        "brief-mcq-30",
-        "brief-mcq-27",
-        "brief-mcq-31",
-        "brief-mcq-26"
+        "brief-mcq-04",
+        "brief-mcq-58",
+        "brief-mcq-59"
       ],
       "explanation": "本句的「project brief」指「項目簡報／要求書」。",
       "sentenceIndex": 65,
@@ -3371,12 +3136,10 @@ export default {
         "project brief"
       ],
       "optionReasons": {
-        "brief-mcq-29": "本句指「項目簡報／要求書」。",
-        "brief-mcq-28": "「任務簡報；工作要求」與本句語境不同。",
-        "brief-mcq-30": "「設計要求書」與本句語境不同。",
-        "brief-mcq-27": "「長話短說」與本句語境不同。",
-        "brief-mcq-31": "「創意簡報」與本句語境不同。",
-        "brief-mcq-26": "「簡而言之」與本句語境不同。"
+        "brief-mcq-29": "本句的「project brief」指「項目簡報／要求書」。",
+        "brief-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-29"
     },
@@ -3388,11 +3151,9 @@ export default {
       "masked": "Read the project ____ before assigning tasks.",
       "options": [
         "brief-mcq-29",
-        "brief-mcq-28",
-        "brief-mcq-30",
-        "brief-mcq-27",
-        "brief-mcq-31",
-        "brief-mcq-26"
+        "brief-mcq-11",
+        "brief-mcq-56",
+        "brief-mcq-27"
       ],
       "explanation": "本句的「brief」指「項目簡報／要求書」。",
       "sentenceIndex": 66,
@@ -3401,12 +3162,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-29": "本句指「項目簡報／要求書」。",
-        "brief-mcq-28": "「任務簡報；工作要求」與本句語境不同。",
-        "brief-mcq-30": "「設計要求書」與本句語境不同。",
-        "brief-mcq-27": "「長話短說」與本句語境不同。",
-        "brief-mcq-31": "「創意簡報」與本句語境不同。",
-        "brief-mcq-26": "「簡而言之」與本句語境不同。"
+        "brief-mcq-29": "本句的「brief」指「項目簡報／要求書」。",
+        "brief-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-29"
     },
@@ -3418,11 +3177,9 @@ export default {
       "masked": "The client approved the ____.",
       "options": [
         "brief-mcq-30",
-        "brief-mcq-29",
-        "brief-mcq-31",
-        "brief-mcq-28",
-        "brief-mcq-32",
-        "brief-mcq-27"
+        "brief-mcq-47",
+        "brief-pdf-005",
+        "brief-mcq-06"
       ],
       "explanation": "本句的「design brief」指「設計要求書」。",
       "sentenceIndex": 67,
@@ -3431,12 +3188,10 @@ export default {
         "design brief"
       ],
       "optionReasons": {
-        "brief-mcq-30": "本句指「設計要求書」。",
-        "brief-mcq-29": "「項目簡報／要求書」與本句語境不同。",
-        "brief-mcq-31": "「創意簡報」與本句語境不同。",
-        "brief-mcq-28": "「任務簡報；工作要求」與本句語境不同。",
-        "brief-mcq-32": "「客戶要求」與本句語境不同。",
-        "brief-mcq-27": "「長話短說」與本句語境不同。"
+        "brief-mcq-30": "本句的「design brief」指「設計要求書」。",
+        "brief-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-30"
     },
@@ -3448,11 +3203,9 @@ export default {
       "masked": "The design ____ explains the audience, purpose and constraints.",
       "options": [
         "brief-mcq-30",
-        "brief-mcq-29",
-        "brief-mcq-31",
-        "brief-mcq-28",
-        "brief-mcq-32",
-        "brief-mcq-27"
+        "brief-mcq-55",
+        "brief-mcq-46",
+        "brief-mcq-36"
       ],
       "explanation": "本句的「brief」指「設計要求書」。",
       "sentenceIndex": 68,
@@ -3461,12 +3214,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-30": "本句指「設計要求書」。",
-        "brief-mcq-29": "「項目簡報／要求書」與本句語境不同。",
-        "brief-mcq-31": "「創意簡報」與本句語境不同。",
-        "brief-mcq-28": "「任務簡報；工作要求」與本句語境不同。",
-        "brief-mcq-32": "「客戶要求」與本句語境不同。",
-        "brief-mcq-27": "「長話短說」與本句語境不同。"
+        "brief-mcq-30": "本句的「brief」指「設計要求書」。",
+        "brief-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-30"
     },
@@ -3478,11 +3229,9 @@ export default {
       "masked": "The agency prepared a ____.",
       "options": [
         "brief-mcq-31",
-        "brief-mcq-30",
-        "brief-mcq-32",
-        "brief-mcq-29",
-        "brief-mcq-33",
-        "brief-mcq-28"
+        "brief-mcq-53",
+        "brief-mcq-40",
+        "brief-mcq-30"
       ],
       "explanation": "本句的「creative brief」指「創意簡報」。",
       "sentenceIndex": 69,
@@ -3491,12 +3240,10 @@ export default {
         "creative brief"
       ],
       "optionReasons": {
-        "brief-mcq-31": "本句指「創意簡報」。",
-        "brief-mcq-30": "「設計要求書」與本句語境不同。",
-        "brief-mcq-32": "「客戶要求」與本句語境不同。",
-        "brief-mcq-29": "「項目簡報／要求書」與本句語境不同。",
-        "brief-mcq-33": "「研究任務說明／研究摘要」與本句語境不同。",
-        "brief-mcq-28": "「任務簡報；工作要求」與本句語境不同。"
+        "brief-mcq-31": "本句的「creative brief」指「創意簡報」。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-31"
     },
@@ -3508,11 +3255,9 @@ export default {
       "masked": "A creative ____ gives the team a clear message and target audience.",
       "options": [
         "brief-mcq-31",
-        "brief-mcq-30",
         "brief-mcq-32",
-        "brief-mcq-29",
-        "brief-mcq-33",
-        "brief-mcq-28"
+        "brief-mcq-06",
+        "brief-mcq-33"
       ],
       "explanation": "本句的「brief」指「創意簡報」。",
       "sentenceIndex": 70,
@@ -3521,12 +3266,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-31": "本句指「創意簡報」。",
-        "brief-mcq-30": "「設計要求書」與本句語境不同。",
-        "brief-mcq-32": "「客戶要求」與本句語境不同。",
-        "brief-mcq-29": "「項目簡報／要求書」與本句語境不同。",
-        "brief-mcq-33": "「研究任務說明／研究摘要」與本句語境不同。",
-        "brief-mcq-28": "「任務簡報；工作要求」與本句語境不同。"
+        "brief-mcq-31": "本句的「brief」指「創意簡報」。",
+        "brief-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-31"
     },
@@ -3538,11 +3281,9 @@ export default {
       "masked": "The proposal follows the ____.",
       "options": [
         "brief-mcq-32",
-        "brief-mcq-31",
-        "brief-mcq-33",
-        "brief-mcq-30",
-        "brief-mcq-34",
-        "brief-mcq-29"
+        "brief-mcq-14",
+        "brief-mcq-27",
+        "brief-mcq-06"
       ],
       "explanation": "本句的「client brief」指「客戶要求」。",
       "sentenceIndex": 71,
@@ -3551,12 +3292,10 @@ export default {
         "client brief"
       ],
       "optionReasons": {
-        "brief-mcq-32": "本句指「客戶要求」。",
-        "brief-mcq-31": "「創意簡報」與本句語境不同。",
-        "brief-mcq-33": "「研究任務說明／研究摘要」與本句語境不同。",
-        "brief-mcq-30": "「設計要求書」與本句語境不同。",
-        "brief-mcq-34": "「職責範圍」與本句語境不同。",
-        "brief-mcq-29": "「項目簡報／要求書」與本句語境不同。"
+        "brief-mcq-32": "本句的「client brief」指「客戶要求」。",
+        "brief-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-32"
     },
@@ -3568,11 +3307,9 @@ export default {
       "masked": "The team misunderstood part of the client's ____.",
       "options": [
         "brief-mcq-32",
-        "brief-mcq-31",
-        "brief-mcq-33",
-        "brief-mcq-30",
-        "brief-mcq-34",
-        "brief-mcq-29"
+        "brief-mcq-27",
+        "brief-mcq-36",
+        "brief-mcq-44"
       ],
       "explanation": "本句的「brief」指「客戶要求」。",
       "sentenceIndex": 72,
@@ -3581,12 +3318,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-32": "本句指「客戶要求」。",
-        "brief-mcq-31": "「創意簡報」與本句語境不同。",
-        "brief-mcq-33": "「研究任務說明／研究摘要」與本句語境不同。",
-        "brief-mcq-30": "「設計要求書」與本句語境不同。",
-        "brief-mcq-34": "「職責範圍」與本句語境不同。",
-        "brief-mcq-29": "「項目簡報／要求書」與本句語境不同。"
+        "brief-mcq-32": "本句的「brief」指「客戶要求」。",
+        "brief-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-32"
     },
@@ -3598,11 +3333,9 @@ export default {
       "masked": "The researchers received a clear ____.",
       "options": [
         "brief-mcq-33",
-        "brief-mcq-32",
-        "brief-mcq-34",
-        "brief-mcq-31",
-        "brief-mcq-35",
-        "brief-mcq-30"
+        "brief-mcq-06",
+        "brief-mcq-54",
+        "brief-mcq-45"
       ],
       "explanation": "本句的「research brief」指「研究任務說明／研究摘要」。",
       "sentenceIndex": 73,
@@ -3611,12 +3344,10 @@ export default {
         "research brief"
       ],
       "optionReasons": {
-        "brief-mcq-33": "本句指「研究任務說明／研究摘要」。",
-        "brief-mcq-32": "「客戶要求」與本句語境不同。",
-        "brief-mcq-34": "「職責範圍」與本句語境不同。",
-        "brief-mcq-31": "「創意簡報」與本句語境不同。",
-        "brief-mcq-35": "「在職責範圍內」與本句語境不同。",
-        "brief-mcq-30": "「設計要求書」與本句語境不同。"
+        "brief-mcq-33": "本句的「research brief」指「研究任務說明／研究摘要」。",
+        "brief-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-33"
     },
@@ -3628,11 +3359,9 @@ export default {
       "masked": "The ____ defines the questions the research should answer.",
       "options": [
         "brief-mcq-33",
-        "brief-mcq-32",
-        "brief-mcq-34",
-        "brief-mcq-31",
-        "brief-mcq-35",
-        "brief-mcq-30"
+        "brief-mcq-60",
+        "brief-mcq-53",
+        "brief-mcq-47"
       ],
       "explanation": "本句的「brief」指「研究任務說明／研究摘要」。",
       "sentenceIndex": 74,
@@ -3641,12 +3370,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-33": "本句指「研究任務說明／研究摘要」。",
-        "brief-mcq-32": "「客戶要求」與本句語境不同。",
-        "brief-mcq-34": "「職責範圍」與本句語境不同。",
-        "brief-mcq-31": "「創意簡報」與本句語境不同。",
-        "brief-mcq-35": "「在職責範圍內」與本句語境不同。",
-        "brief-mcq-30": "「設計要求書」與本句語境不同。"
+        "brief-mcq-33": "本句的「brief」指「研究任務說明／研究摘要」。",
+        "brief-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-33"
     },
@@ -3658,11 +3385,9 @@ export default {
       "masked": "International sales are ____.",
       "options": [
         "brief-pdf-001",
-        "brief-mcq-33",
-        "brief-mcq-35",
-        "brief-mcq-32",
-        "brief-mcq-36",
-        "brief-mcq-31"
+        "brief-mcq-27",
+        "brief-mcq-30",
+        "brief-mcq-26"
       ],
       "explanation": "本句的「part of her brief」指「某人被正式交託負責的工作範圍」。",
       "sentenceIndex": 75,
@@ -3671,12 +3396,10 @@ export default {
         "part of her brief"
       ],
       "optionReasons": {
-        "brief-pdf-001": "本句指「某人被正式交託負責的工作範圍」。",
-        "brief-mcq-33": "「研究任務說明／研究摘要」與本句語境不同。",
-        "brief-mcq-35": "「在職責範圍內」與本句語境不同。",
-        "brief-mcq-32": "「客戶要求」與本句語境不同。",
-        "brief-mcq-36": "「超出職責範圍」與本句語境不同。",
-        "brief-mcq-31": "「創意簡報」與本句語境不同。"
+        "brief-pdf-001": "本句的「part of her brief」指「某人被正式交託負責的工作範圍」。",
+        "brief-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-pdf-001"
     },
@@ -3688,11 +3411,9 @@ export default {
       "masked": "That's outside my ____.",
       "options": [
         "brief-pdf-001",
-        "brief-mcq-33",
-        "brief-mcq-35",
-        "brief-mcq-32",
-        "brief-mcq-36",
-        "brief-mcq-31"
+        "brief-mcq-07",
+        "brief-mcq-29",
+        "brief-mcq-40"
       ],
       "explanation": "本句的「brief」指「某人被正式交託負責的工作範圍」。",
       "sentenceIndex": 76,
@@ -3701,12 +3422,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-pdf-001": "本句指「某人被正式交託負責的工作範圍」。",
-        "brief-mcq-33": "「研究任務說明／研究摘要」與本句語境不同。",
-        "brief-mcq-35": "「在職責範圍內」與本句語境不同。",
-        "brief-mcq-32": "「客戶要求」與本句語境不同。",
-        "brief-mcq-36": "「超出職責範圍」與本句語境不同。",
-        "brief-mcq-31": "「創意簡報」與本句語境不同。"
+        "brief-pdf-001": "本句的「brief」指「某人被正式交託負責的工作範圍」。",
+        "brief-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-pdf-001"
     },
@@ -3718,11 +3437,9 @@ export default {
       "masked": "Staff training falls ____.",
       "options": [
         "brief-mcq-35",
-        "brief-mcq-34",
-        "brief-mcq-36",
-        "brief-mcq-33",
-        "brief-mcq-37",
-        "brief-mcq-32"
+        "brief-mcq-44",
+        "brief-mcq-03",
+        "brief-pdf-004"
       ],
       "explanation": "本句的「within my brief」指「在職責範圍內」。",
       "sentenceIndex": 77,
@@ -3731,12 +3448,10 @@ export default {
         "within my brief"
       ],
       "optionReasons": {
-        "brief-mcq-35": "本句指「在職責範圍內」。",
-        "brief-mcq-34": "「職責範圍」與本句語境不同。",
-        "brief-mcq-36": "「超出職責範圍」與本句語境不同。",
-        "brief-mcq-33": "「研究任務說明／研究摘要」與本句語境不同。",
-        "brief-mcq-37": "「政策簡報」與本句語境不同。",
-        "brief-mcq-32": "「客戶要求」與本句語境不同。"
+        "brief-mcq-35": "本句的「within my brief」指「在職責範圍內」。",
+        "brief-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-35"
     },
@@ -3748,11 +3463,9 @@ export default {
       "masked": "The matter is within the committee's ____.",
       "options": [
         "brief-mcq-35",
-        "brief-mcq-34",
-        "brief-mcq-36",
-        "brief-mcq-33",
-        "brief-mcq-37",
-        "brief-mcq-32"
+        "brief-mcq-46",
+        "brief-mcq-22",
+        "brief-pdf-004"
       ],
       "explanation": "本句的「brief」指「在職責範圍內」。",
       "sentenceIndex": 78,
@@ -3761,12 +3474,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-35": "本句指「在職責範圍內」。",
-        "brief-mcq-34": "「職責範圍」與本句語境不同。",
-        "brief-mcq-36": "「超出職責範圍」與本句語境不同。",
-        "brief-mcq-33": "「研究任務說明／研究摘要」與本句語境不同。",
-        "brief-mcq-37": "「政策簡報」與本句語境不同。",
-        "brief-mcq-32": "「客戶要求」與本句語境不同。"
+        "brief-mcq-35": "本句的「brief」指「在職責範圍內」。",
+        "brief-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-35"
     },
@@ -3778,11 +3489,9 @@ export default {
       "masked": "Budget approval is ____.",
       "options": [
         "brief-mcq-36",
-        "brief-mcq-35",
-        "brief-mcq-37",
-        "brief-mcq-34",
-        "brief-mcq-38",
-        "brief-mcq-33"
+        "brief-mcq-21",
+        "brief-mcq-54",
+        "brief-mcq-57"
       ],
       "explanation": "本句的「outside my brief」指「超出職責範圍」。",
       "sentenceIndex": 79,
@@ -3791,12 +3500,10 @@ export default {
         "outside my brief"
       ],
       "optionReasons": {
-        "brief-mcq-36": "本句指「超出職責範圍」。",
-        "brief-mcq-35": "「在職責範圍內」與本句語境不同。",
-        "brief-mcq-37": "「政策簡報」與本句語境不同。",
-        "brief-mcq-34": "「職責範圍」與本句語境不同。",
-        "brief-mcq-38": "「情況說明文件」與本句語境不同。",
-        "brief-mcq-33": "「研究任務說明／研究摘要」與本句語境不同。"
+        "brief-mcq-36": "本句的「outside my brief」指「超出職責範圍」。",
+        "brief-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-36"
     },
@@ -3808,11 +3515,9 @@ export default {
       "masked": "The issue falls outside the team's ____.",
       "options": [
         "brief-mcq-36",
-        "brief-mcq-35",
-        "brief-mcq-37",
-        "brief-mcq-34",
-        "brief-mcq-38",
-        "brief-mcq-33"
+        "brief-mcq-56",
+        "brief-mcq-16",
+        "brief-mcq-40"
       ],
       "explanation": "本句的「brief」指「超出職責範圍」。",
       "sentenceIndex": 80,
@@ -3821,12 +3526,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-36": "本句指「超出職責範圍」。",
-        "brief-mcq-35": "「在職責範圍內」與本句語境不同。",
-        "brief-mcq-37": "「政策簡報」與本句語境不同。",
-        "brief-mcq-34": "「職責範圍」與本句語境不同。",
-        "brief-mcq-38": "「情況說明文件」與本句語境不同。",
-        "brief-mcq-33": "「研究任務說明／研究摘要」與本句語境不同。"
+        "brief-mcq-36": "本句的「brief」指「超出職責範圍」。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-36"
     },
@@ -3838,11 +3541,9 @@ export default {
       "masked": "The institute published a ____ on housing.",
       "options": [
         "brief-mcq-37",
-        "brief-mcq-36",
+        "brief-mcq-03",
         "brief-mcq-38",
-        "brief-mcq-35",
-        "brief-mcq-39",
-        "brief-mcq-34"
+        "brief-mcq-08"
       ],
       "explanation": "本句的「policy brief」指「政策簡報」。",
       "sentenceIndex": 81,
@@ -3851,12 +3552,10 @@ export default {
         "policy brief"
       ],
       "optionReasons": {
-        "brief-mcq-37": "本句指「政策簡報」。",
-        "brief-mcq-36": "「超出職責範圍」與本句語境不同。",
-        "brief-mcq-38": "「情況說明文件」與本句語境不同。",
-        "brief-mcq-35": "「在職責範圍內」與本句語境不同。",
-        "brief-mcq-39": "「新聞簡訊」與本句語境不同。",
-        "brief-mcq-34": "「職責範圍」與本句語境不同。"
+        "brief-mcq-37": "本句的「policy brief」指「政策簡報」。",
+        "brief-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-37"
     },
@@ -3868,11 +3567,9 @@ export default {
       "masked": "A policy ____ summarises evidence and recommendations concisely.",
       "options": [
         "brief-mcq-37",
-        "brief-mcq-36",
+        "brief-mcq-11",
         "brief-mcq-38",
-        "brief-mcq-35",
-        "brief-mcq-39",
-        "brief-mcq-34"
+        "brief-mcq-59"
       ],
       "explanation": "本句的「brief」指「政策簡報」。",
       "sentenceIndex": 82,
@@ -3881,12 +3578,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-37": "本句指「政策簡報」。",
-        "brief-mcq-36": "「超出職責範圍」與本句語境不同。",
-        "brief-mcq-38": "「情況說明文件」與本句語境不同。",
-        "brief-mcq-35": "「在職責範圍內」與本句語境不同。",
-        "brief-mcq-39": "「新聞簡訊」與本句語境不同。",
-        "brief-mcq-34": "「職責範圍」與本句語境不同。"
+        "brief-mcq-37": "本句的「brief」指「政策簡報」。",
+        "brief-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-37"
     },
@@ -3898,11 +3593,9 @@ export default {
       "masked": "The minister received a ____ before the meeting.",
       "options": [
         "brief-mcq-38",
-        "brief-mcq-37",
-        "brief-mcq-39",
-        "brief-mcq-36",
-        "brief-mcq-40",
-        "brief-mcq-35"
+        "brief-mcq-02",
+        "brief-mcq-54",
+        "brief-mcq-58"
       ],
       "explanation": "本句的「briefing note」指「情況說明文件」。",
       "sentenceIndex": 83,
@@ -3911,12 +3604,10 @@ export default {
         "briefing note"
       ],
       "optionReasons": {
-        "brief-mcq-38": "本句指「情況說明文件」。",
-        "brief-mcq-37": "「政策簡報」與本句語境不同。",
-        "brief-mcq-39": "「新聞簡訊」與本句語境不同。",
-        "brief-mcq-36": "「超出職責範圍」與本句語境不同。",
-        "brief-mcq-40": "「判例摘要」與本句語境不同。",
-        "brief-mcq-35": "「在職責範圍內」與本句語境不同。"
+        "brief-mcq-38": "本句的「briefing note」指「情況說明文件」。",
+        "brief-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-38"
     },
@@ -3928,10 +3619,8 @@ export default {
       "masked": "The ____ paper summarises the main options.",
       "options": [
         "brief-mcq-38",
-        "brief-mcq-37",
-        "brief-mcq-39",
-        "brief-mcq-36",
-        "brief-mcq-40",
+        "brief-mcq-05",
+        "brief-mcq-42",
         "brief-mcq-35"
       ],
       "explanation": "本句的「briefing」指「情況說明文件」。",
@@ -3941,12 +3630,10 @@ export default {
         "briefing"
       ],
       "optionReasons": {
-        "brief-mcq-38": "本句指「情況說明文件」。",
-        "brief-mcq-37": "「政策簡報」與本句語境不同。",
-        "brief-mcq-39": "「新聞簡訊」與本句語境不同。",
-        "brief-mcq-36": "「超出職責範圍」與本句語境不同。",
-        "brief-mcq-40": "「判例摘要」與本句語境不同。",
-        "brief-mcq-35": "「在職責範圍內」與本句語境不同。"
+        "brief-mcq-38": "本句的「briefing」指「情況說明文件」。",
+        "brief-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-38"
     },
@@ -3958,11 +3645,9 @@ export default {
       "masked": "The station broadcasts hourly ____.",
       "options": [
         "brief-mcq-39",
-        "brief-mcq-38",
-        "brief-mcq-40",
-        "brief-mcq-37",
-        "brief-mcq-41",
-        "brief-mcq-36"
+        "brief-mcq-03",
+        "brief-mcq-35",
+        "brief-mcq-53"
       ],
       "explanation": "本句的「news briefs」指「新聞簡訊」。",
       "sentenceIndex": 85,
@@ -3971,12 +3656,10 @@ export default {
         "news briefs"
       ],
       "optionReasons": {
-        "brief-mcq-39": "本句指「新聞簡訊」。",
-        "brief-mcq-38": "「情況說明文件」與本句語境不同。",
-        "brief-mcq-40": "「判例摘要」與本句語境不同。",
-        "brief-mcq-37": "「政策簡報」與本句語境不同。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。",
-        "brief-mcq-36": "「超出職責範圍」與本句語境不同。"
+        "brief-mcq-39": "本句的「news briefs」指「新聞簡訊」。",
+        "brief-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-39"
     },
@@ -3988,11 +3671,9 @@ export default {
       "masked": "The app provides a morning news ____.",
       "options": [
         "brief-mcq-39",
-        "brief-mcq-38",
-        "brief-mcq-40",
-        "brief-mcq-37",
-        "brief-mcq-41",
-        "brief-mcq-36"
+        "brief-pdf-001",
+        "brief-mcq-24",
+        "brief-mcq-57"
       ],
       "explanation": "本句的「brief」指「新聞簡訊」。",
       "sentenceIndex": 86,
@@ -4001,12 +3682,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-39": "本句指「新聞簡訊」。",
-        "brief-mcq-38": "「情況說明文件」與本句語境不同。",
-        "brief-mcq-40": "「判例摘要」與本句語境不同。",
-        "brief-mcq-37": "「政策簡報」與本句語境不同。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。",
-        "brief-mcq-36": "「超出職責範圍」與本句語境不同。"
+        "brief-mcq-39": "本句的「brief」指「新聞簡訊」。",
+        "brief-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-39"
     },
@@ -4018,11 +3697,9 @@ export default {
       "masked": "Students prepared a ____.",
       "options": [
         "brief-mcq-40",
-        "brief-mcq-39",
-        "brief-mcq-41",
-        "brief-mcq-38",
-        "brief-mcq-42",
-        "brief-mcq-37"
+        "brief-pdf-005",
+        "brief-mcq-31",
+        "brief-mcq-55"
       ],
       "explanation": "本句的「case brief」指「判例摘要」。",
       "sentenceIndex": 87,
@@ -4031,12 +3708,10 @@ export default {
         "case brief"
       ],
       "optionReasons": {
-        "brief-mcq-40": "本句指「判例摘要」。",
-        "brief-mcq-39": "「新聞簡訊」與本句語境不同。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。",
-        "brief-mcq-38": "「情況說明文件」與本句語境不同。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
-        "brief-mcq-37": "「政策簡報」與本句語境不同。"
+        "brief-mcq-40": "本句的「case brief」指「判例摘要」。",
+        "brief-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-40"
     },
@@ -4048,11 +3723,9 @@ export default {
       "masked": "A case ____ summarises the facts, issue, decision and reasoning.",
       "options": [
         "brief-mcq-40",
-        "brief-mcq-39",
-        "brief-mcq-41",
-        "brief-mcq-38",
-        "brief-mcq-42",
-        "brief-mcq-37"
+        "brief-pdf-003",
+        "brief-pdf-005",
+        "brief-mcq-55"
       ],
       "explanation": "本句的「brief」指「判例摘要」。",
       "sentenceIndex": 88,
@@ -4061,12 +3734,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-40": "本句指「判例摘要」。",
-        "brief-mcq-39": "「新聞簡訊」與本句語境不同。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。",
-        "brief-mcq-38": "「情況說明文件」與本句語境不同。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
-        "brief-mcq-37": "「政策簡報」與本句語境不同。"
+        "brief-mcq-40": "本句的「brief」指「判例摘要」。",
+        "brief-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-40"
     },
@@ -4078,11 +3749,9 @@ export default {
       "masked": "The manager ____ before the meeting.",
       "options": [
         "brief-pdf-002",
-        "brief-mcq-40",
-        "brief-mcq-42",
-        "brief-mcq-39",
-        "brief-mcq-43",
-        "brief-mcq-38"
+        "brief-mcq-19",
+        "brief-mcq-27",
+        "brief-mcq-59"
       ],
       "explanation": "本句的「briefed the team」指「在任務、會議或事件前，向某人提供需要知道的重點資訊和指示」。",
       "sentenceIndex": 89,
@@ -4091,12 +3760,10 @@ export default {
         "briefed the team"
       ],
       "optionReasons": {
-        "brief-pdf-002": "本句指「在任務、會議或事件前，向某人提供需要知道的重點資訊和指示」。",
-        "brief-mcq-40": "「判例摘要」與本句語境不同。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
-        "brief-mcq-39": "「新聞簡訊」與本句語境不同。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
-        "brief-mcq-38": "「情況說明文件」與本句語境不同。"
+        "brief-pdf-002": "本句的「briefed the team」指「在任務、會議或事件前，向某人提供需要知道的重點資訊和指示」。",
+        "brief-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-pdf-002"
     },
@@ -4108,11 +3775,9 @@ export default {
       "masked": "Staff were ____ before the launch.",
       "options": [
         "brief-pdf-002",
-        "brief-mcq-40",
-        "brief-mcq-42",
-        "brief-mcq-39",
-        "brief-mcq-43",
-        "brief-mcq-38"
+        "brief-mcq-01",
+        "brief-mcq-47",
+        "brief-mcq-14"
       ],
       "explanation": "本句的「briefed」指「在任務、會議或事件前，向某人提供需要知道的重點資訊和指示」。",
       "sentenceIndex": 90,
@@ -4121,12 +3786,10 @@ export default {
         "briefed"
       ],
       "optionReasons": {
-        "brief-pdf-002": "本句指「在任務、會議或事件前，向某人提供需要知道的重點資訊和指示」。",
-        "brief-mcq-40": "「判例摘要」與本句語境不同。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
-        "brief-mcq-39": "「新聞簡訊」與本句語境不同。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
-        "brief-mcq-38": "「情況說明文件」與本句語境不同。"
+        "brief-pdf-002": "本句的「briefed」指「在任務、會議或事件前，向某人提供需要知道的重點資訊和指示」。",
+        "brief-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-pdf-002"
     },
@@ -4138,11 +3801,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "brief-mcq-42",
-        "brief-mcq-41",
-        "brief-mcq-43",
-        "brief-mcq-40",
-        "brief-mcq-44",
-        "brief-mcq-39"
+        "brief-pdf-005",
+        "brief-mcq-03",
+        "brief-mcq-40"
       ],
       "explanation": "本句的「briefed us on the latest developments」指「向某人簡報 X」。",
       "sentenceIndex": 91,
@@ -4151,12 +3812,10 @@ export default {
         "briefed us on the latest developments"
       ],
       "optionReasons": {
-        "brief-mcq-42": "本句指「向某人簡報 X」。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
-        "brief-mcq-40": "「判例摘要」與本句語境不同。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-39": "「新聞簡訊」與本句語境不同。"
+        "brief-mcq-42": "本句的「briefed us on the latest developments」指「向某人簡報 X」。",
+        "brief-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-42"
     },
@@ -4168,11 +3827,9 @@ export default {
       "masked": "The lawyer ____ the client on the next steps.",
       "options": [
         "brief-mcq-42",
-        "brief-mcq-41",
-        "brief-mcq-43",
-        "brief-mcq-40",
-        "brief-mcq-44",
-        "brief-mcq-39"
+        "brief-mcq-56",
+        "brief-pdf-005",
+        "brief-mcq-35"
       ],
       "explanation": "本句的「briefed」指「向某人簡報 X」。",
       "sentenceIndex": 92,
@@ -4181,12 +3838,10 @@ export default {
         "briefed"
       ],
       "optionReasons": {
-        "brief-mcq-42": "本句指「向某人簡報 X」。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
-        "brief-mcq-40": "「判例摘要」與本句語境不同。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-39": "「新聞簡訊」與本句語境不同。"
+        "brief-mcq-42": "本句的「briefed」指「向某人簡報 X」。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-42"
     },
@@ -4198,11 +3853,9 @@ export default {
       "masked": "Managers were ____.",
       "options": [
         "brief-mcq-42",
-        "brief-mcq-41",
-        "brief-mcq-43",
-        "brief-mcq-40",
-        "brief-mcq-44",
-        "brief-mcq-39"
+        "brief-mcq-03",
+        "brief-mcq-38",
+        "brief-mcq-53"
       ],
       "explanation": "本句的「briefed about the changes」指「向某人簡報 X」。",
       "sentenceIndex": 93,
@@ -4211,12 +3864,10 @@ export default {
         "briefed about the changes"
       ],
       "optionReasons": {
-        "brief-mcq-42": "本句指「向某人簡報 X」。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
-        "brief-mcq-40": "「判例摘要」與本句語境不同。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-39": "「新聞簡訊」與本句語境不同。"
+        "brief-mcq-42": "本句的「briefed about the changes」指「向某人簡報 X」。",
+        "brief-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-42"
     },
@@ -4228,11 +3879,9 @@ export default {
       "masked": "Please ____ the new staff about the procedure.",
       "options": [
         "brief-mcq-42",
-        "brief-mcq-41",
-        "brief-mcq-43",
-        "brief-mcq-40",
-        "brief-mcq-44",
-        "brief-mcq-39"
+        "brief-mcq-10",
+        "brief-mcq-35",
+        "brief-mcq-38"
       ],
       "explanation": "本句的「brief」指「向某人簡報 X」。",
       "sentenceIndex": 94,
@@ -4241,74 +3890,68 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-42": "本句指「向某人簡報 X」。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
-        "brief-mcq-40": "「判例摘要」與本句語境不同。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-39": "「新聞簡訊」與本句語境不同。"
+        "brief-mcq-42": "本句的「brief」指「向某人簡報 X」。",
+        "brief-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-42"
     },
     {
       "id": "brief-49-0",
-      "sense": "brief-mcq-43",
+      "sense": "brief-reviewed-810ab52304",
       "en": "The project manager briefed the team on its responsibilities.",
       "zh": "項目經理向團隊交代了各項職責。",
       "masked": "The project manager ____ on its responsibilities.",
       "options": [
-        "brief-mcq-43",
-        "brief-mcq-42",
+        "brief-reviewed-810ab52304",
+        "brief-mcq-40",
         "brief-mcq-44",
-        "brief-mcq-41",
-        "brief-mcq-45",
-        "brief-mcq-40"
+        "brief-mcq-58"
       ],
-      "explanation": "本句的「briefed the team」指「簡報；說明會」。",
+      "explanation": "對照完整句子：「項目經理向團隊交代了各項職責。」。這裡的「briefed the team」表示「向團隊交代任務／資訊」。",
       "sentenceIndex": 95,
       "sourcePractice": 1,
       "targets": [
         "briefed the team"
       ],
       "optionReasons": {
-        "brief-mcq-43": "本句指「簡報；說明會」。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。",
-        "brief-mcq-40": "「判例摘要」與本句語境不同。"
+        "brief-reviewed-810ab52304": "對照完整句子：「項目經理向團隊交代了各項職責。」。這裡的「briefed the team」表示「向團隊交代任務／資訊」。",
+        "brief-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "brief-mcq-43"
+      "correctOption": "brief-reviewed-810ab52304",
+      "previousCorrectOption": "brief-mcq-43",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "brief-49-1",
-      "sense": "brief-mcq-43",
+      "sense": "brief-reviewed-810ab52304",
       "en": "Brief the team before they begin.",
       "zh": "團隊開始前先向他們作工作說明。",
       "masked": "____ the team before they begin.",
       "options": [
-        "brief-mcq-43",
-        "brief-mcq-42",
-        "brief-mcq-44",
-        "brief-mcq-41",
-        "brief-mcq-45",
+        "brief-reviewed-810ab52304",
+        "brief-mcq-02",
+        "brief-mcq-61",
         "brief-mcq-40"
       ],
-      "explanation": "本句的「Brief」指「簡報；說明會」。",
+      "explanation": "對照完整句子：「團隊開始前先向他們作工作說明。」。這裡的「Brief」表示「向團隊交代任務／資訊」。",
       "sentenceIndex": 96,
       "sourcePractice": 2,
       "targets": [
         "Brief"
       ],
       "optionReasons": {
-        "brief-mcq-43": "本句指「簡報；說明會」。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。",
-        "brief-mcq-40": "「判例摘要」與本句語境不同。"
+        "brief-reviewed-810ab52304": "對照完整句子：「團隊開始前先向他們作工作說明。」。這裡的「Brief」表示「向團隊交代任務／資訊」。",
+        "brief-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "brief-mcq-43"
+      "correctOption": "brief-reviewed-810ab52304",
+      "previousCorrectOption": "brief-mcq-43",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "brief-50-0",
@@ -4318,11 +3961,9 @@ export default {
       "masked": "She was asked to ____.",
       "options": [
         "brief-mcq-44",
-        "brief-mcq-43",
-        "brief-mcq-45",
-        "brief-mcq-42",
-        "brief-mcq-46",
-        "brief-mcq-41"
+        "brief-mcq-30",
+        "brief-mcq-33",
+        "brief-mcq-24"
       ],
       "explanation": "本句的「brief senior management」指「簡報會」。",
       "sentenceIndex": 97,
@@ -4331,12 +3972,10 @@ export default {
         "brief senior management"
       ],
       "optionReasons": {
-        "brief-mcq-44": "本句指「簡報會」。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
-        "brief-mcq-46": "「新聞簡報會」與本句語境不同。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。"
+        "brief-mcq-44": "本句的「brief senior management」指「簡報會」。",
+        "brief-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-44"
     },
@@ -4348,11 +3987,9 @@ export default {
       "masked": "Analysts ____ the board on the financial risks.",
       "options": [
         "brief-mcq-44",
-        "brief-mcq-43",
-        "brief-mcq-45",
-        "brief-mcq-42",
-        "brief-mcq-46",
-        "brief-mcq-41"
+        "brief-mcq-08",
+        "brief-mcq-01",
+        "brief-mcq-38"
       ],
       "explanation": "本句的「briefed」指「簡報會」。",
       "sentenceIndex": 98,
@@ -4361,12 +3998,10 @@ export default {
         "briefed"
       ],
       "optionReasons": {
-        "brief-mcq-44": "本句指「簡報會」。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
-        "brief-mcq-46": "「新聞簡報會」與本句語境不同。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。"
+        "brief-mcq-44": "本句的「briefed」指「簡報會」。",
+        "brief-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-44"
     },
@@ -4378,11 +4013,9 @@ export default {
       "masked": "We have a ____ at nine.",
       "options": [
         "brief-pdf-003",
-        "brief-mcq-42",
-        "brief-mcq-44",
-        "brief-mcq-41",
-        "brief-mcq-45",
-        "brief-mcq-40"
+        "brief-mcq-59",
+        "brief-mcq-61",
+        "brief-mcq-56"
       ],
       "explanation": "本句的「briefing」指「為某人提供任務、背景、情況或指示的正式簡短說明活動」。",
       "sentenceIndex": 99,
@@ -4391,12 +4024,10 @@ export default {
         "briefing"
       ],
       "optionReasons": {
-        "brief-pdf-003": "本句指「為某人提供任務、背景、情況或指示的正式簡短說明活動」。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。",
-        "brief-mcq-40": "「判例摘要」與本句語境不同。"
+        "brief-pdf-003": "本句的「briefing」指「為某人提供任務、背景、情況或指示的正式簡短說明活動」。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-pdf-003"
     },
@@ -4408,11 +4039,9 @@ export default {
       "masked": "The manager gave a short ____ before the event.",
       "options": [
         "brief-pdf-003",
-        "brief-mcq-42",
-        "brief-mcq-44",
-        "brief-mcq-41",
-        "brief-mcq-45",
-        "brief-mcq-40"
+        "brief-mcq-40",
+        "brief-mcq-54",
+        "brief-mcq-59"
       ],
       "explanation": "本句的「briefing」指「為某人提供任務、背景、情況或指示的正式簡短說明活動」。",
       "sentenceIndex": 100,
@@ -4421,12 +4050,10 @@ export default {
         "briefing"
       ],
       "optionReasons": {
-        "brief-pdf-003": "本句指「為某人提供任務、背景、情況或指示的正式簡短說明活動」。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。",
-        "brief-mcq-40": "「判例摘要」與本句語境不同。"
+        "brief-pdf-003": "本句的「briefing」指「為某人提供任務、背景、情況或指示的正式簡短說明活動」。",
+        "brief-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-pdf-003"
     },
@@ -4438,11 +4065,9 @@ export default {
       "masked": "All staff must attend the ____.",
       "options": [
         "brief-mcq-44",
-        "brief-mcq-43",
-        "brief-mcq-45",
-        "brief-mcq-42",
-        "brief-mcq-46",
-        "brief-mcq-41"
+        "brief-mcq-08",
+        "brief-mcq-40",
+        "brief-mcq-57"
       ],
       "explanation": "本句的「briefing session」指「簡報會」。",
       "sentenceIndex": 101,
@@ -4451,12 +4076,10 @@ export default {
         "briefing session"
       ],
       "optionReasons": {
-        "brief-mcq-44": "本句指「簡報會」。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
-        "brief-mcq-46": "「新聞簡報會」與本句語境不同。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。"
+        "brief-mcq-44": "本句的「briefing session」指「簡報會」。",
+        "brief-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-44"
     },
@@ -4468,11 +4091,9 @@ export default {
       "masked": "A ____ session was held before the project started.",
       "options": [
         "brief-mcq-44",
-        "brief-mcq-43",
-        "brief-mcq-45",
-        "brief-mcq-42",
-        "brief-mcq-46",
-        "brief-mcq-41"
+        "brief-mcq-38",
+        "brief-mcq-36",
+        "brief-mcq-11"
       ],
       "explanation": "本句的「briefing」指「簡報會」。",
       "sentenceIndex": 102,
@@ -4481,12 +4102,10 @@ export default {
         "briefing"
       ],
       "optionReasons": {
-        "brief-mcq-44": "本句指「簡報會」。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。",
-        "brief-mcq-46": "「新聞簡報會」與本句語境不同。",
-        "brief-mcq-41": "「向某人作簡報」與本句語境不同。"
+        "brief-mcq-44": "本句的「briefing」指「簡報會」。",
+        "brief-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-44"
     },
@@ -4498,11 +4117,9 @@ export default {
       "masked": "The morning ____ lasts ten minutes.",
       "options": [
         "brief-mcq-45",
-        "brief-mcq-44",
-        "brief-mcq-46",
-        "brief-mcq-43",
-        "brief-mcq-47",
-        "brief-mcq-42"
+        "brief-mcq-59",
+        "brief-mcq-55",
+        "brief-mcq-30"
       ],
       "explanation": "本句的「team briefing」指「團隊簡報」。",
       "sentenceIndex": 103,
@@ -4511,12 +4128,10 @@ export default {
         "team briefing"
       ],
       "optionReasons": {
-        "brief-mcq-45": "本句指「團隊簡報」。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-46": "「新聞簡報會」與本句語境不同。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
-        "brief-mcq-47": "「安全簡報」與本句語境不同。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。"
+        "brief-mcq-45": "本句的「team briefing」指「團隊簡報」。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-45"
     },
@@ -4528,11 +4143,9 @@ export default {
       "masked": "Daily team ____ keep everyone informed.",
       "options": [
         "brief-mcq-45",
-        "brief-mcq-44",
-        "brief-mcq-46",
-        "brief-mcq-43",
-        "brief-mcq-47",
-        "brief-mcq-42"
+        "brief-pdf-004",
+        "brief-pdf-005",
+        "brief-mcq-32"
       ],
       "explanation": "本句的「briefings」指「團隊簡報」。",
       "sentenceIndex": 104,
@@ -4541,12 +4154,10 @@ export default {
         "briefings"
       ],
       "optionReasons": {
-        "brief-mcq-45": "本句指「團隊簡報」。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-46": "「新聞簡報會」與本句語境不同。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
-        "brief-mcq-47": "「安全簡報」與本句語境不同。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。"
+        "brief-mcq-45": "本句的「briefings」指「團隊簡報」。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-45"
     },
@@ -4558,11 +4169,9 @@ export default {
       "masked": "The findings were presented at a ____.",
       "options": [
         "brief-mcq-45",
-        "brief-mcq-44",
-        "brief-mcq-46",
-        "brief-mcq-43",
-        "brief-mcq-47",
-        "brief-mcq-42"
+        "brief-mcq-01",
+        "brief-mcq-08",
+        "brief-mcq-27"
       ],
       "explanation": "本句的「management briefing」指「團隊簡報」。",
       "sentenceIndex": 105,
@@ -4571,12 +4180,10 @@ export default {
         "management briefing"
       ],
       "optionReasons": {
-        "brief-mcq-45": "本句指「團隊簡報」。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-46": "「新聞簡報會」與本句語境不同。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
-        "brief-mcq-47": "「安全簡報」與本句語境不同。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。"
+        "brief-mcq-45": "本句的「management briefing」指「團隊簡報」。",
+        "brief-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-45"
     },
@@ -4588,11 +4195,9 @@ export default {
       "masked": "The CEO attended the ____.",
       "options": [
         "brief-mcq-45",
-        "brief-mcq-44",
-        "brief-mcq-46",
-        "brief-mcq-43",
-        "brief-mcq-47",
-        "brief-mcq-42"
+        "brief-mcq-36",
+        "brief-mcq-05",
+        "brief-mcq-56"
       ],
       "explanation": "本句的「briefing」指「團隊簡報」。",
       "sentenceIndex": 106,
@@ -4601,12 +4206,10 @@ export default {
         "briefing"
       ],
       "optionReasons": {
-        "brief-mcq-45": "本句指「團隊簡報」。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-46": "「新聞簡報會」與本句語境不同。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。",
-        "brief-mcq-47": "「安全簡報」與本句語境不同。",
-        "brief-mcq-42": "「向某人簡報 X」與本句語境不同。"
+        "brief-mcq-45": "本句的「briefing」指「團隊簡報」。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-45"
     },
@@ -4618,11 +4221,9 @@ export default {
       "masked": "Officials held a ____.",
       "options": [
         "brief-mcq-46",
-        "brief-mcq-45",
-        "brief-mcq-47",
-        "brief-mcq-44",
-        "brief-mcq-48",
-        "brief-mcq-43"
+        "brief-mcq-59",
+        "brief-mcq-27",
+        "brief-mcq-08"
       ],
       "explanation": "本句的「press briefing」指「新聞簡報會」。",
       "sentenceIndex": 107,
@@ -4631,12 +4232,10 @@ export default {
         "press briefing"
       ],
       "optionReasons": {
-        "brief-mcq-46": "本句指「新聞簡報會」。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。",
-        "brief-mcq-47": "「安全簡報」與本句語境不同。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-48": "「飛行前簡報」與本句語境不同。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。"
+        "brief-mcq-46": "本句的「press briefing」指「新聞簡報會」。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-46"
     },
@@ -4648,11 +4247,9 @@ export default {
       "masked": "Questions followed the press ____.",
       "options": [
         "brief-mcq-46",
-        "brief-mcq-45",
-        "brief-mcq-47",
-        "brief-mcq-44",
-        "brief-mcq-48",
-        "brief-mcq-43"
+        "brief-mcq-01",
+        "brief-mcq-22",
+        "brief-mcq-54"
       ],
       "explanation": "本句的「briefing」指「新聞簡報會」。",
       "sentenceIndex": 108,
@@ -4661,12 +4258,10 @@ export default {
         "briefing"
       ],
       "optionReasons": {
-        "brief-mcq-46": "本句指「新聞簡報會」。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。",
-        "brief-mcq-47": "「安全簡報」與本句語境不同。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-48": "「飛行前簡報」與本句語境不同。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。"
+        "brief-mcq-46": "本句的「briefing」指「新聞簡報會」。",
+        "brief-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-46"
     },
@@ -4678,11 +4273,9 @@ export default {
       "masked": "The organisation arranged a ____.",
       "options": [
         "brief-mcq-46",
-        "brief-mcq-45",
-        "brief-mcq-47",
-        "brief-mcq-44",
-        "brief-mcq-48",
-        "brief-mcq-43"
+        "brief-reviewed-810ab52304",
+        "brief-mcq-09",
+        "brief-mcq-57"
       ],
       "explanation": "本句的「media briefing」指「新聞簡報會」。",
       "sentenceIndex": 109,
@@ -4691,12 +4284,10 @@ export default {
         "media briefing"
       ],
       "optionReasons": {
-        "brief-mcq-46": "本句指「新聞簡報會」。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。",
-        "brief-mcq-47": "「安全簡報」與本句語境不同。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-48": "「飛行前簡報」與本句語境不同。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。"
+        "brief-mcq-46": "本句的「media briefing」指「新聞簡報會」。",
+        "brief-reviewed-810ab52304": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-46"
     },
@@ -4708,11 +4299,9 @@ export default {
       "masked": "The announcement was made during a media ____.",
       "options": [
         "brief-mcq-46",
-        "brief-mcq-45",
-        "brief-mcq-47",
-        "brief-mcq-44",
-        "brief-mcq-48",
-        "brief-mcq-43"
+        "brief-mcq-33",
+        "brief-mcq-59",
+        "brief-mcq-10"
       ],
       "explanation": "本句的「briefing」指「新聞簡報會」。",
       "sentenceIndex": 110,
@@ -4721,12 +4310,10 @@ export default {
         "briefing"
       ],
       "optionReasons": {
-        "brief-mcq-46": "本句指「新聞簡報會」。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。",
-        "brief-mcq-47": "「安全簡報」與本句語境不同。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。",
-        "brief-mcq-48": "「飛行前簡報」與本句語境不同。",
-        "brief-mcq-43": "「簡報；說明會」與本句語境不同。"
+        "brief-mcq-46": "本句的「briefing」指「新聞簡報會」。",
+        "brief-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-46"
     },
@@ -4738,11 +4325,9 @@ export default {
       "masked": "Everyone must attend the ____.",
       "options": [
         "brief-mcq-47",
-        "brief-mcq-46",
-        "brief-mcq-48",
-        "brief-mcq-45",
-        "brief-mcq-49",
-        "brief-mcq-44"
+        "brief-mcq-35",
+        "brief-mcq-30",
+        "brief-mcq-55"
       ],
       "explanation": "本句的「safety briefing」指「安全簡報」。",
       "sentenceIndex": 111,
@@ -4751,12 +4336,10 @@ export default {
         "safety briefing"
       ],
       "optionReasons": {
-        "brief-mcq-47": "本句指「安全簡報」。",
-        "brief-mcq-46": "「新聞簡報會」與本句語境不同。",
-        "brief-mcq-48": "「飛行前簡報」與本句語境不同。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。",
-        "brief-mcq-49": "「保安簡報」與本句語境不同。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。"
+        "brief-mcq-47": "本句的「safety briefing」指「安全簡報」。",
+        "brief-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-47"
     },
@@ -4768,11 +4351,9 @@ export default {
       "masked": "The safety ____ explained emergency procedures.",
       "options": [
         "brief-mcq-47",
-        "brief-mcq-46",
-        "brief-mcq-48",
-        "brief-mcq-45",
-        "brief-mcq-49",
-        "brief-mcq-44"
+        "brief-mcq-53",
+        "brief-mcq-08",
+        "brief-mcq-11"
       ],
       "explanation": "本句的「briefing」指「安全簡報」。",
       "sentenceIndex": 112,
@@ -4781,12 +4362,10 @@ export default {
         "briefing"
       ],
       "optionReasons": {
-        "brief-mcq-47": "本句指「安全簡報」。",
-        "brief-mcq-46": "「新聞簡報會」與本句語境不同。",
-        "brief-mcq-48": "「飛行前簡報」與本句語境不同。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。",
-        "brief-mcq-49": "「保安簡報」與本句語境不同。",
-        "brief-mcq-44": "「簡報會」與本句語境不同。"
+        "brief-mcq-47": "本句的「briefing」指「安全簡報」。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-47"
     },
@@ -4798,11 +4377,9 @@ export default {
       "masked": "The crew attended a ____.",
       "options": [
         "brief-mcq-48",
-        "brief-mcq-47",
-        "brief-mcq-49",
-        "brief-mcq-46",
-        "brief-mcq-50",
-        "brief-mcq-45"
+        "brief-mcq-59",
+        "brief-mcq-09",
+        "brief-pdf-004"
       ],
       "explanation": "本句的「pre-flight briefing」指「飛行前簡報」。",
       "sentenceIndex": 113,
@@ -4811,12 +4388,10 @@ export default {
         "pre-flight briefing"
       ],
       "optionReasons": {
-        "brief-mcq-48": "本句指「飛行前簡報」。",
-        "brief-mcq-47": "「安全簡報」與本句語境不同。",
-        "brief-mcq-49": "「保安簡報」與本句語境不同。",
-        "brief-mcq-46": "「新聞簡報會」與本句語境不同。",
-        "brief-mcq-50": "「情報簡報」與本句語境不同。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。"
+        "brief-mcq-48": "本句的「pre-flight briefing」指「飛行前簡報」。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-48"
     },
@@ -4828,11 +4403,9 @@ export default {
       "masked": "The pilot reviewed weather conditions during the pre-flight ____.",
       "options": [
         "brief-mcq-48",
-        "brief-mcq-47",
-        "brief-mcq-49",
-        "brief-mcq-46",
-        "brief-mcq-50",
-        "brief-mcq-45"
+        "brief-mcq-08",
+        "brief-mcq-55",
+        "brief-mcq-05"
       ],
       "explanation": "本句的「briefing」指「飛行前簡報」。",
       "sentenceIndex": 114,
@@ -4841,12 +4414,10 @@ export default {
         "briefing"
       ],
       "optionReasons": {
-        "brief-mcq-48": "本句指「飛行前簡報」。",
-        "brief-mcq-47": "「安全簡報」與本句語境不同。",
-        "brief-mcq-49": "「保安簡報」與本句語境不同。",
-        "brief-mcq-46": "「新聞簡報會」與本句語境不同。",
-        "brief-mcq-50": "「情報簡報」與本句語境不同。",
-        "brief-mcq-45": "「團隊簡報」與本句語境不同。"
+        "brief-mcq-48": "本句的「briefing」指「飛行前簡報」。",
+        "brief-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-48"
     },
@@ -4858,11 +4429,9 @@ export default {
       "masked": "Visitors received a ____.",
       "options": [
         "brief-mcq-49",
-        "brief-mcq-48",
-        "brief-mcq-50",
-        "brief-mcq-47",
-        "brief-mcq-51",
-        "brief-mcq-46"
+        "brief-mcq-38",
+        "brief-mcq-04",
+        "brief-mcq-58"
       ],
       "explanation": "本句的「security briefing」指「保安簡報」。",
       "sentenceIndex": 115,
@@ -4871,12 +4440,10 @@ export default {
         "security briefing"
       ],
       "optionReasons": {
-        "brief-mcq-49": "本句指「保安簡報」。",
-        "brief-mcq-48": "「飛行前簡報」與本句語境不同。",
-        "brief-mcq-50": "「情報簡報」與本句語境不同。",
-        "brief-mcq-47": "「安全簡報」與本句語境不同。",
-        "brief-mcq-51": "「軍事任務簡報」與本句語境不同。",
-        "brief-mcq-46": "「新聞簡報會」與本句語境不同。"
+        "brief-mcq-49": "本句的「security briefing」指「保安簡報」。",
+        "brief-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-49"
     },
@@ -4888,11 +4455,9 @@ export default {
       "masked": "The security ____ covered access restrictions.",
       "options": [
         "brief-mcq-49",
-        "brief-mcq-48",
-        "brief-mcq-50",
-        "brief-mcq-47",
-        "brief-mcq-51",
-        "brief-mcq-46"
+        "brief-pdf-004",
+        "brief-mcq-08",
+        "brief-pdf-005"
       ],
       "explanation": "本句的「briefing」指「保安簡報」。",
       "sentenceIndex": 116,
@@ -4901,12 +4466,10 @@ export default {
         "briefing"
       ],
       "optionReasons": {
-        "brief-mcq-49": "本句指「保安簡報」。",
-        "brief-mcq-48": "「飛行前簡報」與本句語境不同。",
-        "brief-mcq-50": "「情報簡報」與本句語境不同。",
-        "brief-mcq-47": "「安全簡報」與本句語境不同。",
-        "brief-mcq-51": "「軍事任務簡報」與本句語境不同。",
-        "brief-mcq-46": "「新聞簡報會」與本句語境不同。"
+        "brief-mcq-49": "本句的「briefing」指「保安簡報」。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-49"
     },
@@ -4918,11 +4481,9 @@ export default {
       "masked": "Officers received an ____.",
       "options": [
         "brief-mcq-50",
-        "brief-mcq-49",
-        "brief-mcq-51",
-        "brief-mcq-48",
-        "brief-mcq-52",
-        "brief-mcq-47"
+        "brief-mcq-56",
+        "brief-pdf-002",
+        "brief-mcq-24"
       ],
       "explanation": "本句的「intelligence briefing」指「情報簡報」。",
       "sentenceIndex": 117,
@@ -4931,12 +4492,10 @@ export default {
         "intelligence briefing"
       ],
       "optionReasons": {
-        "brief-mcq-50": "本句指「情報簡報」。",
-        "brief-mcq-49": "「保安簡報」與本句語境不同。",
-        "brief-mcq-51": "「軍事任務簡報」與本句語境不同。",
-        "brief-mcq-48": "「飛行前簡報」與本句語境不同。",
-        "brief-mcq-52": "「法律書狀」與本句語境不同。",
-        "brief-mcq-47": "「安全簡報」與本句語境不同。"
+        "brief-mcq-50": "本句的「intelligence briefing」指「情報簡報」。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-50"
     },
@@ -4948,11 +4507,9 @@ export default {
       "masked": "The ____ summarised recent intelligence.",
       "options": [
         "brief-mcq-50",
-        "brief-mcq-49",
-        "brief-mcq-51",
-        "brief-mcq-48",
-        "brief-mcq-52",
-        "brief-mcq-47"
+        "brief-pdf-005",
+        "brief-reviewed-810ab52304",
+        "brief-mcq-56"
       ],
       "explanation": "本句的「briefing」指「情報簡報」。",
       "sentenceIndex": 118,
@@ -4961,12 +4518,10 @@ export default {
         "briefing"
       ],
       "optionReasons": {
-        "brief-mcq-50": "本句指「情報簡報」。",
-        "brief-mcq-49": "「保安簡報」與本句語境不同。",
-        "brief-mcq-51": "「軍事任務簡報」與本句語境不同。",
-        "brief-mcq-48": "「飛行前簡報」與本句語境不同。",
-        "brief-mcq-52": "「法律書狀」與本句語境不同。",
-        "brief-mcq-47": "「安全簡報」與本句語境不同。"
+        "brief-mcq-50": "本句的「briefing」指「情報簡報」。",
+        "brief-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "brief-reviewed-810ab52304": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-50"
     },
@@ -4978,11 +4533,9 @@ export default {
       "masked": "The unit received a ____ before the operation.",
       "options": [
         "brief-mcq-51",
-        "brief-mcq-50",
-        "brief-mcq-52",
-        "brief-mcq-49",
-        "brief-mcq-53",
-        "brief-mcq-48"
+        "brief-pdf-004",
+        "brief-mcq-22",
+        "brief-mcq-01"
       ],
       "explanation": "本句的「military briefing」指「軍事任務簡報」。",
       "sentenceIndex": 119,
@@ -4991,12 +4544,10 @@ export default {
         "military briefing"
       ],
       "optionReasons": {
-        "brief-mcq-51": "本句指「軍事任務簡報」。",
-        "brief-mcq-50": "「情報簡報」與本句語境不同。",
-        "brief-mcq-52": "「法律書狀」與本句語境不同。",
-        "brief-mcq-49": "「保安簡報」與本句語境不同。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。",
-        "brief-mcq-48": "「飛行前簡報」與本句語境不同。"
+        "brief-mcq-51": "本句的「military briefing」指「軍事任務簡報」。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-51"
     },
@@ -5008,11 +4559,9 @@ export default {
       "masked": "The commander ____ personnel on the mission.",
       "options": [
         "brief-mcq-51",
-        "brief-mcq-50",
-        "brief-mcq-52",
-        "brief-mcq-49",
-        "brief-mcq-53",
-        "brief-mcq-48"
+        "brief-mcq-57",
+        "brief-pdf-004",
+        "brief-mcq-24"
       ],
       "explanation": "本句的「briefed」指「軍事任務簡報」。",
       "sentenceIndex": 120,
@@ -5021,12 +4570,10 @@ export default {
         "briefed"
       ],
       "optionReasons": {
-        "brief-mcq-51": "本句指「軍事任務簡報」。",
-        "brief-mcq-50": "「情報簡報」與本句語境不同。",
-        "brief-mcq-52": "「法律書狀」與本句語境不同。",
-        "brief-mcq-49": "「保安簡報」與本句語境不同。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。",
-        "brief-mcq-48": "「飛行前簡報」與本句語境不同。"
+        "brief-mcq-51": "本句的「briefed」指「軍事任務簡報」。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-51"
     },
@@ -5039,10 +4586,8 @@ export default {
       "options": [
         "brief-pdf-004",
         "brief-mcq-51",
-        "brief-mcq-53",
-        "brief-mcq-50",
-        "brief-mcq-54",
-        "brief-mcq-49"
+        "brief-mcq-56",
+        "brief-mcq-24"
       ],
       "explanation": "本句的「brief」指「向法院提交、陳述案件事實、法律論點和相關依據的正式文件」。",
       "sentenceIndex": 121,
@@ -5051,12 +4596,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-pdf-004": "本句指「向法院提交、陳述案件事實、法律論點和相關依據的正式文件」。",
-        "brief-mcq-51": "「軍事任務簡報」與本句語境不同。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。",
-        "brief-mcq-50": "「情報簡報」與本句語境不同。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
-        "brief-mcq-49": "「保安簡報」與本句語境不同。"
+        "brief-pdf-004": "本句的「brief」指「向法院提交、陳述案件事實、法律論點和相關依據的正式文件」。",
+        "brief-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-pdf-004"
     },
@@ -5068,11 +4611,9 @@ export default {
       "masked": "The ____ sets out the legal arguments.",
       "options": [
         "brief-pdf-004",
-        "brief-mcq-51",
-        "brief-mcq-53",
-        "brief-mcq-50",
-        "brief-mcq-54",
-        "brief-mcq-49"
+        "brief-mcq-29",
+        "brief-mcq-14",
+        "brief-mcq-27"
       ],
       "explanation": "本句的「brief」指「向法院提交、陳述案件事實、法律論點和相關依據的正式文件」。",
       "sentenceIndex": 122,
@@ -5081,12 +4622,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-pdf-004": "本句指「向法院提交、陳述案件事實、法律論點和相關依據的正式文件」。",
-        "brief-mcq-51": "「軍事任務簡報」與本句語境不同。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。",
-        "brief-mcq-50": "「情報簡報」與本句語境不同。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
-        "brief-mcq-49": "「保安簡報」與本句語境不同。"
+        "brief-pdf-004": "本句的「brief」指「向法院提交、陳述案件事實、法律論點和相關依據的正式文件」。",
+        "brief-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-pdf-004"
     },
@@ -5098,11 +4637,9 @@ export default {
       "masked": "Counsel ____ on Monday.",
       "options": [
         "brief-mcq-53",
-        "brief-mcq-52",
-        "brief-mcq-54",
-        "brief-mcq-51",
-        "brief-mcq-55",
-        "brief-mcq-50"
+        "brief-mcq-37",
+        "brief-mcq-40",
+        "brief-mcq-01"
       ],
       "explanation": "本句的「filed a brief」指「提交法律書狀」。",
       "sentenceIndex": 123,
@@ -5111,12 +4648,10 @@ export default {
         "filed a brief"
       ],
       "optionReasons": {
-        "brief-mcq-53": "本句指「提交法律書狀」。",
-        "brief-mcq-52": "「法律書狀」與本句語境不同。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
-        "brief-mcq-51": "「軍事任務簡報」與本句語境不同。",
-        "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。",
-        "brief-mcq-50": "「情報簡報」與本句語境不同。"
+        "brief-mcq-53": "本句的「filed a brief」指「提交法律書狀」。",
+        "brief-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-53"
     },
@@ -5128,11 +4663,9 @@ export default {
       "masked": "Both sides submitted written ____.",
       "options": [
         "brief-mcq-53",
-        "brief-mcq-52",
-        "brief-mcq-54",
-        "brief-mcq-51",
-        "brief-mcq-55",
-        "brief-mcq-50"
+        "brief-mcq-13",
+        "brief-mcq-18",
+        "brief-pdf-005"
       ],
       "explanation": "本句的「briefs」指「提交法律書狀」。",
       "sentenceIndex": 124,
@@ -5141,12 +4674,10 @@ export default {
         "briefs"
       ],
       "optionReasons": {
-        "brief-mcq-53": "本句指「提交法律書狀」。",
-        "brief-mcq-52": "「法律書狀」與本句語境不同。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
-        "brief-mcq-51": "「軍事任務簡報」與本句語境不同。",
-        "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。",
-        "brief-mcq-50": "「情報簡報」與本句語境不同。"
+        "brief-mcq-53": "本句的「briefs」指「提交法律書狀」。",
+        "brief-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-53"
     },
@@ -5158,11 +4689,9 @@ export default {
       "masked": "The organisation submitted an ____.",
       "options": [
         "brief-mcq-54",
-        "brief-mcq-53",
-        "brief-mcq-55",
-        "brief-mcq-52",
         "brief-mcq-56",
-        "brief-mcq-51"
+        "brief-mcq-45",
+        "brief-pdf-005"
       ],
       "explanation": "本句的「amicus brief」指「法庭之友意見書」。",
       "sentenceIndex": 125,
@@ -5171,12 +4700,10 @@ export default {
         "amicus brief"
       ],
       "optionReasons": {
-        "brief-mcq-54": "本句指「法庭之友意見書」。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。",
-        "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。",
-        "brief-mcq-52": "「法律書狀」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
-        "brief-mcq-51": "「軍事任務簡報」與本句語境不同。"
+        "brief-mcq-54": "本句的「amicus brief」指「法庭之友意見書」。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-54"
     },
@@ -5188,11 +4715,9 @@ export default {
       "masked": "An amicus ____ offers arguments or information from a non-party.",
       "options": [
         "brief-mcq-54",
-        "brief-mcq-53",
-        "brief-mcq-55",
-        "brief-mcq-52",
-        "brief-mcq-56",
-        "brief-mcq-51"
+        "brief-mcq-28",
+        "brief-mcq-05",
+        "brief-mcq-57"
       ],
       "explanation": "本句的「brief」指「法庭之友意見書」。",
       "sentenceIndex": 126,
@@ -5201,12 +4726,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-54": "本句指「法庭之友意見書」。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。",
-        "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。",
-        "brief-mcq-52": "「法律書狀」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
-        "brief-mcq-51": "「軍事任務簡報」與本句語境不同。"
+        "brief-mcq-54": "本句的「brief」指「法庭之友意見書」。",
+        "brief-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-54"
     },
@@ -5218,11 +4741,9 @@ export default {
       "masked": "The solicitor sent the ____ to counsel.",
       "options": [
         "brief-mcq-55",
-        "brief-mcq-54",
-        "brief-mcq-56",
-        "brief-mcq-53",
-        "brief-mcq-57",
-        "brief-mcq-52"
+        "brief-mcq-05",
+        "brief-mcq-13",
+        "brief-mcq-61"
       ],
       "explanation": "本句的「brief」指「給大律師的案件資料／委託」。",
       "sentenceIndex": 127,
@@ -5231,12 +4752,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-55": "本句指「給大律師的案件資料／委託」。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-52": "「法律書狀」與本句語境不同。"
+        "brief-mcq-55": "本句的「brief」指「給大律師的案件資料／委託」。",
+        "brief-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-55"
     },
@@ -5248,11 +4767,9 @@ export default {
       "masked": "The barrister studied the ____ before the hearing.",
       "options": [
         "brief-mcq-55",
-        "brief-mcq-54",
-        "brief-mcq-56",
-        "brief-mcq-53",
-        "brief-mcq-57",
-        "brief-mcq-52"
+        "brief-mcq-60",
+        "brief-mcq-29",
+        "brief-mcq-58"
       ],
       "explanation": "本句的「brief」指「給大律師的案件資料／委託」。",
       "sentenceIndex": 128,
@@ -5261,12 +4778,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-55": "本句指「給大律師的案件資料／委託」。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-52": "「法律書狀」與本句語境不同。"
+        "brief-mcq-55": "本句的「brief」指「給大律師的案件資料／委託」。",
+        "brief-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-55"
     },
@@ -5278,11 +4793,9 @@ export default {
       "masked": "The firm ____ to appear in court.",
       "options": [
         "brief-mcq-55",
-        "brief-mcq-54",
-        "brief-mcq-56",
-        "brief-mcq-53",
-        "brief-mcq-57",
-        "brief-mcq-52"
+        "brief-mcq-20",
+        "brief-mcq-61",
+        "brief-mcq-27"
       ],
       "explanation": "本句的「briefed a barrister」指「給大律師的案件資料／委託」。",
       "sentenceIndex": 129,
@@ -5291,12 +4804,10 @@ export default {
         "briefed a barrister"
       ],
       "optionReasons": {
-        "brief-mcq-55": "本句指「給大律師的案件資料／委託」。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-52": "「法律書狀」與本句語境不同。"
+        "brief-mcq-55": "本句的「briefed a barrister」指「給大律師的案件資料／委託」。",
+        "brief-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-55"
     },
@@ -5308,11 +4819,9 @@ export default {
       "masked": "Counsel was ____ on the case.",
       "options": [
         "brief-mcq-55",
-        "brief-mcq-54",
-        "brief-mcq-56",
-        "brief-mcq-53",
-        "brief-mcq-57",
-        "brief-mcq-52"
+        "brief-mcq-59",
+        "brief-mcq-18",
+        "brief-mcq-45"
       ],
       "explanation": "本句的「briefed」指「給大律師的案件資料／委託」。",
       "sentenceIndex": 130,
@@ -5321,12 +4830,10 @@ export default {
         "briefed"
       ],
       "optionReasons": {
-        "brief-mcq-55": "本句指「給大律師的案件資料／委託」。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-52": "「法律書狀」與本句語境不同。"
+        "brief-mcq-55": "本句的「briefed」指「給大律師的案件資料／委託」。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-55"
     },
@@ -5338,11 +4845,9 @@ export default {
       "masked": "The barrister accepted the ____.",
       "options": [
         "brief-mcq-55",
-        "brief-mcq-54",
-        "brief-mcq-56",
-        "brief-mcq-53",
-        "brief-mcq-57",
-        "brief-mcq-52"
+        "brief-mcq-02",
+        "brief-mcq-36",
+        "brief-mcq-40"
       ],
       "explanation": "本句的「brief」指「給大律師的案件資料／委託」。",
       "sentenceIndex": 131,
@@ -5351,12 +4856,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-55": "本句指「給大律師的案件資料／委託」。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-52": "「法律書狀」與本句語境不同。"
+        "brief-mcq-55": "本句的「brief」指「給大律師的案件資料／委託」。",
+        "brief-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-55"
     },
@@ -5368,11 +4871,9 @@ export default {
       "masked": "She was given the ____ for the hearing.",
       "options": [
         "brief-mcq-55",
-        "brief-mcq-54",
-        "brief-mcq-56",
-        "brief-mcq-53",
-        "brief-mcq-57",
-        "brief-mcq-52"
+        "brief-mcq-33",
+        "brief-mcq-02",
+        "brief-mcq-59"
       ],
       "explanation": "本句的「brief」指「給大律師的案件資料／委託」。",
       "sentenceIndex": 132,
@@ -5381,12 +4882,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-55": "本句指「給大律師的案件資料／委託」。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-52": "「法律書狀」與本句語境不同。"
+        "brief-mcq-55": "本句的「brief」指「給大律師的案件資料／委託」。",
+        "brief-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-55"
     },
@@ -5398,11 +4897,9 @@ export default {
       "masked": "I ____ poor management.",
       "options": [
         "brief-mcq-56",
-        "brief-mcq-55",
-        "brief-mcq-57",
-        "brief-mcq-54",
-        "brief-mcq-58",
-        "brief-mcq-53"
+        "brief-mcq-05",
+        "brief-mcq-46",
+        "brief-mcq-36"
       ],
       "explanation": "本句的「hold no brief for」指「不支持／不替……辯護」。",
       "sentenceIndex": 133,
@@ -5411,12 +4908,10 @@ export default {
         "hold no brief for"
       ],
       "optionReasons": {
-        "brief-mcq-56": "本句指「不支持／不替……辯護」。",
-        "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
-        "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。"
+        "brief-mcq-56": "本句的「hold no brief for」指「不支持／不替……辯護」。",
+        "brief-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-56"
     },
@@ -5428,11 +4923,9 @@ export default {
       "masked": "He seemed to hold a ____ for the old system.",
       "options": [
         "brief-mcq-56",
-        "brief-mcq-55",
-        "brief-mcq-57",
-        "brief-mcq-54",
-        "brief-mcq-58",
-        "brief-mcq-53"
+        "brief-mcq-22",
+        "brief-mcq-59",
+        "brief-mcq-48"
       ],
       "explanation": "本句的「brief」指「不支持／不替……辯護」。",
       "sentenceIndex": 134,
@@ -5441,12 +4934,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-56": "本句指「不支持／不替……辯護」。",
-        "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
-        "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。"
+        "brief-mcq-56": "本句的「brief」指「不支持／不替……辯護」。",
+        "brief-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-56"
     },
@@ -5458,11 +4949,9 @@ export default {
       "masked": "I ____ either side.",
       "options": [
         "brief-mcq-56",
-        "brief-mcq-55",
-        "brief-mcq-57",
-        "brief-mcq-54",
-        "brief-mcq-58",
-        "brief-mcq-53"
+        "brief-mcq-37",
+        "brief-mcq-05",
+        "brief-mcq-16"
       ],
       "explanation": "本句的「hold no brief for」指「不支持／不替……辯護」。",
       "sentenceIndex": 135,
@@ -5471,12 +4960,10 @@ export default {
         "hold no brief for"
       ],
       "optionReasons": {
-        "brief-mcq-56": "本句指「不支持／不替……辯護」。",
-        "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
-        "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。"
+        "brief-mcq-56": "本句的「hold no brief for」指「不支持／不替……辯護」。",
+        "brief-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-56"
     },
@@ -5488,10 +4975,8 @@ export default {
       "masked": "She holds no ____ for unnecessary bureaucracy.",
       "options": [
         "brief-mcq-56",
-        "brief-mcq-55",
-        "brief-mcq-57",
-        "brief-mcq-54",
-        "brief-mcq-58",
+        "brief-mcq-29",
+        "brief-mcq-14",
         "brief-mcq-53"
       ],
       "explanation": "本句的「brief」指「不支持／不替……辯護」。",
@@ -5501,12 +4986,10 @@ export default {
         "brief"
       ],
       "optionReasons": {
-        "brief-mcq-56": "本句指「不支持／不替……辯護」。",
-        "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。",
-        "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
-        "brief-mcq-53": "「提交法律書狀」與本句語境不同。"
+        "brief-mcq-56": "本句的「brief」指「不支持／不替……辯護」。",
+        "brief-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-56"
     },
@@ -5518,11 +5001,9 @@ export default {
       "masked": "He bought a pack of cotton ____.",
       "options": [
         "brief-pdf-005",
-        "brief-mcq-56",
-        "brief-mcq-58",
-        "brief-mcq-55",
-        "brief-mcq-59",
-        "brief-mcq-54"
+        "brief-mcq-48",
+        "brief-mcq-60",
+        "brief-mcq-16"
       ],
       "explanation": "本句的「briefs」指「貼身、褲腳很短的內褲款式」。",
       "sentenceIndex": 137,
@@ -5531,12 +5012,10 @@ export default {
         "briefs"
       ],
       "optionReasons": {
-        "brief-pdf-005": "本句指「貼身、褲腳很短的內褲款式」。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
-        "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
-        "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。",
-        "brief-mcq-59": "「公事包」與本句語境不同。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。"
+        "brief-pdf-005": "本句的「briefs」指「貼身、褲腳很短的內褲款式」。",
+        "brief-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-pdf-005"
     },
@@ -5548,11 +5027,9 @@ export default {
       "masked": "____ are more close-fitting than boxer shorts.",
       "options": [
         "brief-pdf-005",
-        "brief-mcq-56",
-        "brief-mcq-58",
-        "brief-mcq-55",
-        "brief-mcq-59",
-        "brief-mcq-54"
+        "brief-mcq-42",
+        "brief-mcq-33",
+        "brief-mcq-55"
       ],
       "explanation": "本句的「Briefs」指「貼身、褲腳很短的內褲款式」。",
       "sentenceIndex": 138,
@@ -5561,12 +5038,10 @@ export default {
         "Briefs"
       ],
       "optionReasons": {
-        "brief-pdf-005": "本句指「貼身、褲腳很短的內褲款式」。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
-        "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
-        "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。",
-        "brief-mcq-59": "「公事包」與本句語境不同。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。"
+        "brief-pdf-005": "本句的「Briefs」指「貼身、褲腳很短的內褲款式」。",
+        "brief-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-pdf-005"
     },
@@ -5578,11 +5053,9 @@ export default {
       "masked": "Pack an extra ____.",
       "options": [
         "brief-mcq-58",
-        "brief-mcq-57",
-        "brief-mcq-59",
-        "brief-mcq-56",
-        "brief-mcq-60",
-        "brief-mcq-55"
+        "brief-mcq-55",
+        "brief-mcq-48",
+        "brief-mcq-56"
       ],
       "explanation": "本句的「pair of briefs」指「一條三角內褲」。",
       "sentenceIndex": 139,
@@ -5591,12 +5064,10 @@ export default {
         "pair of briefs"
       ],
       "optionReasons": {
-        "brief-mcq-58": "本句指「一條三角內褲」。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-59": "「公事包」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
-        "brief-mcq-60": "「事後檢討／聽取匯報」與本句語境不同。",
-        "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。"
+        "brief-mcq-58": "本句的「pair of briefs」指「一條三角內褲」。",
+        "brief-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-58"
     },
@@ -5608,11 +5079,9 @@ export default {
       "masked": "He changed into a clean pair of ____.",
       "options": [
         "brief-mcq-58",
-        "brief-mcq-57",
-        "brief-mcq-59",
-        "brief-mcq-56",
-        "brief-mcq-60",
-        "brief-mcq-55"
+        "brief-mcq-09",
+        "brief-mcq-38",
+        "brief-mcq-45"
       ],
       "explanation": "本句的「briefs」指「一條三角內褲」。",
       "sentenceIndex": 140,
@@ -5621,12 +5090,10 @@ export default {
         "briefs"
       ],
       "optionReasons": {
-        "brief-mcq-58": "本句指「一條三角內褲」。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-59": "「公事包」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
-        "brief-mcq-60": "「事後檢討／聽取匯報」與本句語境不同。",
-        "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。"
+        "brief-mcq-58": "本句的「briefs」指「一條三角內褲」。",
+        "brief-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-58"
     },
@@ -5638,11 +5105,9 @@ export default {
       "masked": "The shop sells men's ____ and boxer shorts.",
       "options": [
         "brief-mcq-57",
-        "brief-mcq-56",
-        "brief-mcq-58",
-        "brief-mcq-55",
-        "brief-mcq-59",
-        "brief-mcq-54"
+        "brief-reviewed-810ab52304",
+        "brief-mcq-01",
+        "brief-mcq-59"
       ],
       "explanation": "本句的「briefs」指「三角內褲」。",
       "sentenceIndex": 141,
@@ -5651,12 +5116,10 @@ export default {
         "briefs"
       ],
       "optionReasons": {
-        "brief-mcq-57": "本句指「三角內褲」。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
-        "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
-        "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。",
-        "brief-mcq-59": "「公事包」與本句語境不同。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。"
+        "brief-mcq-57": "本句的「briefs」指「三角內褲」。",
+        "brief-reviewed-810ab52304": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-57"
     },
@@ -5668,11 +5131,9 @@ export default {
       "masked": "____ provide a closer fit.",
       "options": [
         "brief-mcq-57",
-        "brief-mcq-56",
-        "brief-mcq-58",
-        "brief-mcq-55",
-        "brief-mcq-59",
-        "brief-mcq-54"
+        "brief-mcq-28",
+        "brief-pdf-004",
+        "brief-mcq-39"
       ],
       "explanation": "本句的「Briefs」指「三角內褲」。",
       "sentenceIndex": 142,
@@ -5681,12 +5142,10 @@ export default {
         "Briefs"
       ],
       "optionReasons": {
-        "brief-mcq-57": "本句指「三角內褲」。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。",
-        "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
-        "brief-mcq-55": "「給大律師的案件資料／委託」與本句語境不同。",
-        "brief-mcq-59": "「公事包」與本句語境不同。",
-        "brief-mcq-54": "「法庭之友意見書」與本句語境不同。"
+        "brief-mcq-57": "本句的「Briefs」指「三角內褲」。",
+        "brief-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-57"
     },
@@ -5698,10 +5157,8 @@ export default {
       "masked": "He put the documents in his ____.",
       "options": [
         "brief-mcq-59",
-        "brief-mcq-58",
-        "brief-mcq-60",
-        "brief-mcq-57",
-        "brief-mcq-61",
+        "brief-mcq-36",
+        "brief-mcq-45",
         "brief-mcq-56"
       ],
       "explanation": "本句的「briefcase」指「公事包」。",
@@ -5711,12 +5168,10 @@ export default {
         "briefcase"
       ],
       "optionReasons": {
-        "brief-mcq-59": "本句指「公事包」。",
-        "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
-        "brief-mcq-60": "「事後檢討／聽取匯報」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-61": "「事後匯報／檢討會」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。"
+        "brief-mcq-59": "本句的「briefcase」指「公事包」。",
+        "brief-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-59"
     },
@@ -5728,11 +5183,9 @@ export default {
       "masked": "She arrived carrying a black ____.",
       "options": [
         "brief-mcq-59",
-        "brief-mcq-58",
-        "brief-mcq-60",
-        "brief-mcq-57",
-        "brief-mcq-61",
-        "brief-mcq-56"
+        "brief-mcq-19",
+        "brief-mcq-33",
+        "brief-mcq-11"
       ],
       "explanation": "本句的「briefcase」指「公事包」。",
       "sentenceIndex": 144,
@@ -5741,12 +5194,10 @@ export default {
         "briefcase"
       ],
       "optionReasons": {
-        "brief-mcq-59": "本句指「公事包」。",
-        "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
-        "brief-mcq-60": "「事後檢討／聽取匯報」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-61": "「事後匯報／檢討會」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。"
+        "brief-mcq-59": "本句的「briefcase」指「公事包」。",
+        "brief-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-59"
     },
@@ -5758,11 +5209,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "brief-mcq-60",
-        "brief-mcq-59",
-        "brief-mcq-61",
-        "brief-mcq-58",
-        "brief-mcq-57",
-        "brief-mcq-56"
+        "brief-pdf-003",
+        "brief-mcq-06",
+        "brief-mcq-54"
       ],
       "explanation": "本句的「debriefed the team after the presentation」指「事後檢討／聽取匯報」。",
       "sentenceIndex": 145,
@@ -5771,12 +5220,10 @@ export default {
         "debriefed the team after the presentation"
       ],
       "optionReasons": {
-        "brief-mcq-60": "本句指「事後檢討／聽取匯報」。",
-        "brief-mcq-59": "「公事包」與本句語境不同。",
-        "brief-mcq-61": "「事後匯報／檢討會」與本句語境不同。",
-        "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。"
+        "brief-mcq-60": "本句的「debriefed the team after the presentation」指「事後檢討／聽取匯報」。",
+        "brief-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-60"
     },
@@ -5788,11 +5235,9 @@ export default {
       "masked": "Let's ____.",
       "options": [
         "brief-mcq-60",
-        "brief-mcq-59",
-        "brief-mcq-61",
-        "brief-mcq-58",
-        "brief-mcq-57",
-        "brief-mcq-56"
+        "brief-mcq-09",
+        "brief-mcq-54",
+        "brief-pdf-001"
       ],
       "explanation": "本句的「debrief after the meeting」指「事後檢討／聽取匯報」。",
       "sentenceIndex": 146,
@@ -5801,12 +5246,10 @@ export default {
         "debrief after the meeting"
       ],
       "optionReasons": {
-        "brief-mcq-60": "本句指「事後檢討／聽取匯報」。",
-        "brief-mcq-59": "「公事包」與本句語境不同。",
-        "brief-mcq-61": "「事後匯報／檢討會」與本句語境不同。",
-        "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。"
+        "brief-mcq-60": "本句的「debrief after the meeting」指「事後檢討／聽取匯報」。",
+        "brief-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-60"
     },
@@ -5818,11 +5261,9 @@ export default {
       "masked": "We held a ____ after the project.",
       "options": [
         "brief-mcq-61",
-        "brief-mcq-60",
-        "brief-mcq-59",
-        "brief-mcq-58",
-        "brief-mcq-57",
-        "brief-mcq-56"
+        "brief-mcq-05",
+        "brief-mcq-25",
+        "brief-pdf-001"
       ],
       "explanation": "本句的「debriefing」指「事後匯報／檢討會」。",
       "sentenceIndex": 147,
@@ -5831,12 +5272,10 @@ export default {
         "debriefing"
       ],
       "optionReasons": {
-        "brief-mcq-61": "本句指「事後匯報／檢討會」。",
-        "brief-mcq-60": "「事後檢討／聽取匯報」與本句語境不同。",
-        "brief-mcq-59": "「公事包」與本句語境不同。",
-        "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。"
+        "brief-mcq-61": "本句的「debriefing」指「事後匯報／檢討會」。",
+        "brief-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-61"
     },
@@ -5848,11 +5287,9 @@ export default {
       "masked": "A ____ can capture lessons learned.",
       "options": [
         "brief-mcq-61",
-        "brief-mcq-60",
-        "brief-mcq-59",
-        "brief-mcq-58",
-        "brief-mcq-57",
-        "brief-mcq-56"
+        "brief-mcq-53",
+        "brief-pdf-005",
+        "brief-mcq-22"
       ],
       "explanation": "本句的「post-project debrief」指「事後匯報／檢討會」。",
       "sentenceIndex": 148,
@@ -5861,12 +5298,10 @@ export default {
         "post-project debrief"
       ],
       "optionReasons": {
-        "brief-mcq-61": "本句指「事後匯報／檢討會」。",
-        "brief-mcq-60": "「事後檢討／聽取匯報」與本句語境不同。",
-        "brief-mcq-59": "「公事包」與本句語境不同。",
-        "brief-mcq-58": "「一條三角內褲」與本句語境不同。",
-        "brief-mcq-57": "「三角內褲」與本句語境不同。",
-        "brief-mcq-56": "「不支持／不替……辯護」與本句語境不同。"
+        "brief-mcq-61": "本句的「post-project debrief」指「事後匯報／檢討會」。",
+        "brief-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "brief-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "brief-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "brief-mcq-61"
     }
@@ -5878,5 +5313,7 @@ export default {
     "sha256": "df9d3a42c51f78d9eecc769a9951bafa198b5e217cf1c3d8e61167c52e17232c",
     "pages": 51
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

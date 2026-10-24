@@ -895,11 +895,9 @@ export default {
       "masked": "I sent an email but received no ____.",
       "options": [
         "response-mcq-01",
-        "response-mcq-02",
-        "response-mcq-03",
-        "response-mcq-04",
-        "response-mcq-05",
-        "response-mcq-06"
+        "response-mcq-18",
+        "response-mcq-22",
+        "response-mcq-36"
       ],
       "explanation": "本句的「response」指「對問題、訊息、要求或說話作出的回答／回覆」。",
       "sentenceIndex": 0,
@@ -908,12 +906,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-01": "本句指「對問題、訊息、要求或說話作出的回答／回覆」。",
-        "response-mcq-02": "「受到事件、刺激或情況影響後產生的反應」與本句語境不同。",
-        "response-mcq-03": "「使用者看到網上內容後作出的留言、回覆或其他反應」與本句語境不同。",
-        "response-mcq-04": "「因應 X 而作出回應、改變或行動」與本句語境不同。",
-        "response-mcq-05": "「對某事作出的正面／負面反應」與本句語境不同。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。"
+        "response-mcq-01": "本句的「response」指「對問題、訊息、要求或說話作出的回答／回覆」。",
+        "response-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-01"
     },
@@ -925,11 +921,9 @@ export default {
       "masked": "Her ____ was brief.",
       "options": [
         "response-mcq-01",
-        "response-mcq-02",
-        "response-mcq-03",
-        "response-mcq-04",
-        "response-mcq-05",
-        "response-mcq-06"
+        "response-mcq-38",
+        "response-pdf-002",
+        "response-mcq-21"
       ],
       "explanation": "本句的「response」指「對問題、訊息、要求或說話作出的回答／回覆」。",
       "sentenceIndex": 1,
@@ -938,12 +932,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-01": "本句指「對問題、訊息、要求或說話作出的回答／回覆」。",
-        "response-mcq-02": "「受到事件、刺激或情況影響後產生的反應」與本句語境不同。",
-        "response-mcq-03": "「使用者看到網上內容後作出的留言、回覆或其他反應」與本句語境不同。",
-        "response-mcq-04": "「因應 X 而作出回應、改變或行動」與本句語境不同。",
-        "response-mcq-05": "「對某事作出的正面／負面反應」與本句語境不同。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。"
+        "response-mcq-01": "本句的「response」指「對問題、訊息、要求或說話作出的回答／回覆」。",
+        "response-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-01"
     },
@@ -955,11 +947,9 @@ export default {
       "masked": "His immediate ____ was surprise.",
       "options": [
         "response-mcq-02",
-        "response-mcq-01",
-        "response-mcq-03",
-        "response-mcq-04",
-        "response-mcq-05",
-        "response-mcq-06"
+        "response-mcq-28",
+        "response-mcq-36",
+        "response-pdf-002"
       ],
       "explanation": "本句的「response」指「受到事件、刺激或情況影響後產生的反應」。",
       "sentenceIndex": 6,
@@ -968,12 +958,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-02": "本句指「受到事件、刺激或情況影響後產生的反應」。",
-        "response-mcq-01": "「對問題、訊息、要求或說話作出的回答／回覆」與本句語境不同。",
-        "response-mcq-03": "「使用者看到網上內容後作出的留言、回覆或其他反應」與本句語境不同。",
-        "response-mcq-04": "「因應 X 而作出回應、改變或行動」與本句語境不同。",
-        "response-mcq-05": "「對某事作出的正面／負面反應」與本句語境不同。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。"
+        "response-mcq-02": "本句的「response」指「受到事件、刺激或情況影響後產生的反應」。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-02"
     },
@@ -985,11 +973,9 @@ export default {
       "masked": "The announcement produced a strong ____.",
       "options": [
         "response-mcq-02",
-        "response-mcq-01",
-        "response-mcq-03",
-        "response-mcq-04",
-        "response-mcq-05",
-        "response-mcq-06"
+        "response-mcq-36",
+        "response-pdf-002",
+        "response-mcq-12"
       ],
       "explanation": "本句的「response」指「受到事件、刺激或情況影響後產生的反應」。",
       "sentenceIndex": 7,
@@ -998,12 +984,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-02": "本句指「受到事件、刺激或情況影響後產生的反應」。",
-        "response-mcq-01": "「對問題、訊息、要求或說話作出的回答／回覆」與本句語境不同。",
-        "response-mcq-03": "「使用者看到網上內容後作出的留言、回覆或其他反應」與本句語境不同。",
-        "response-mcq-04": "「因應 X 而作出回應、改變或行動」與本句語境不同。",
-        "response-mcq-05": "「對某事作出的正面／負面反應」與本句語境不同。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。"
+        "response-mcq-02": "本句的「response」指「受到事件、刺激或情況影響後產生的反應」。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-02"
     },
@@ -1015,11 +999,9 @@ export default {
       "masked": "Those ____ reminded me that social media can create connection.",
       "options": [
         "response-mcq-02",
-        "response-mcq-01",
-        "response-mcq-03",
-        "response-mcq-04",
-        "response-mcq-05",
-        "response-mcq-06"
+        "response-mcq-28",
+        "response-mcq-35",
+        "response-mcq-12"
       ],
       "explanation": "本句的「responses」指「受到事件、刺激或情況影響後產生的反應」。",
       "sentenceIndex": 12,
@@ -1028,12 +1010,10 @@ export default {
         "responses"
       ],
       "optionReasons": {
-        "response-mcq-02": "本句指「受到事件、刺激或情況影響後產生的反應」。",
-        "response-mcq-01": "「對問題、訊息、要求或說話作出的回答／回覆」與本句語境不同。",
-        "response-mcq-03": "「使用者看到網上內容後作出的留言、回覆或其他反應」與本句語境不同。",
-        "response-mcq-04": "「因應 X 而作出回應、改變或行動」與本句語境不同。",
-        "response-mcq-05": "「對某事作出的正面／負面反應」與本句語境不同。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。"
+        "response-mcq-02": "本句的「responses」指「受到事件、刺激或情況影響後產生的反應」。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-02"
     },
@@ -1046,10 +1026,8 @@ export default {
       "options": [
         "response-mcq-02",
         "response-mcq-01",
-        "response-mcq-03",
-        "response-mcq-04",
-        "response-mcq-05",
-        "response-mcq-06"
+        "response-mcq-36",
+        "response-pdf-002"
       ],
       "explanation": "本句的「responses」指「受到事件、刺激或情況影響後產生的反應」。",
       "sentenceIndex": 13,
@@ -1058,12 +1036,10 @@ export default {
         "responses"
       ],
       "optionReasons": {
-        "response-mcq-02": "本句指「受到事件、刺激或情況影響後產生的反應」。",
-        "response-mcq-01": "「對問題、訊息、要求或說話作出的回答／回覆」與本句語境不同。",
-        "response-mcq-03": "「使用者看到網上內容後作出的留言、回覆或其他反應」與本句語境不同。",
-        "response-mcq-04": "「因應 X 而作出回應、改變或行動」與本句語境不同。",
-        "response-mcq-05": "「對某事作出的正面／負面反應」與本句語境不同。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。"
+        "response-mcq-02": "本句的「responses」指「受到事件、刺激或情況影響後產生的反應」。",
+        "response-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-02"
     },
@@ -1075,11 +1051,9 @@ export default {
       "masked": "The video received a very positive ____.",
       "options": [
         "response-mcq-05",
-        "response-mcq-04",
-        "response-mcq-06",
-        "response-mcq-03",
-        "response-mcq-07",
-        "response-mcq-02"
+        "response-mcq-36",
+        "response-pdf-001",
+        "response-mcq-15"
       ],
       "explanation": "本句的「response」指「對某事作出的正面／負面反應」。",
       "sentenceIndex": 14,
@@ -1088,12 +1062,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-05": "本句指「對某事作出的正面／負面反應」。",
-        "response-mcq-04": "「因應 X 而作出回應、改變或行動」與本句語境不同。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。",
-        "response-mcq-03": "「使用者看到網上內容後作出的留言、回覆或其他反應」與本句語境不同。",
-        "response-mcq-07": "「機構／官方對事件作出的公開回應」與本句語境不同。",
-        "response-mcq-02": "「受到事件、刺激或情況影響後產生的反應」與本句語境不同。"
+        "response-mcq-05": "本句的「response」指「對某事作出的正面／負面反應」。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-05"
     },
@@ -1105,11 +1077,9 @@ export default {
       "masked": "The announcement drew a mixed ____.",
       "options": [
         "response-mcq-05",
-        "response-mcq-04",
-        "response-mcq-06",
-        "response-mcq-03",
-        "response-mcq-07",
-        "response-mcq-02"
+        "response-mcq-33",
+        "response-mcq-36",
+        "response-mcq-21"
       ],
       "explanation": "本句的「response」指「對某事作出的正面／負面反應」。",
       "sentenceIndex": 15,
@@ -1118,12 +1088,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-05": "本句指「對某事作出的正面／負面反應」。",
-        "response-mcq-04": "「因應 X 而作出回應、改變或行動」與本句語境不同。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。",
-        "response-mcq-03": "「使用者看到網上內容後作出的留言、回覆或其他反應」與本句語境不同。",
-        "response-mcq-07": "「機構／官方對事件作出的公開回應」與本句語境不同。",
-        "response-mcq-02": "「受到事件、刺激或情況影響後產生的反應」與本句語境不同。"
+        "response-mcq-05": "本句的「response」指「對某事作出的正面／負面反應」。",
+        "response-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-05"
     },
@@ -1135,11 +1103,9 @@ export default {
       "masked": "The update received a ____ from users.",
       "options": [
         "response-mcq-06",
-        "response-mcq-05",
-        "response-mcq-07",
-        "response-mcq-04",
-        "response-mcq-08",
-        "response-mcq-03"
+        "response-mcq-36",
+        "response-mcq-33",
+        "response-mcq-21"
       ],
       "explanation": "本句的「mixed response」指「同時存在正面與負面反應；褒貶不一」。",
       "sentenceIndex": 16,
@@ -1148,12 +1114,10 @@ export default {
         "mixed response"
       ],
       "optionReasons": {
-        "response-mcq-06": "本句指「同時存在正面與負面反應；褒貶不一」。",
-        "response-mcq-05": "「對某事作出的正面／負面反應」與本句語境不同。",
-        "response-mcq-07": "「機構／官方對事件作出的公開回應」與本句語境不同。",
-        "response-mcq-04": "「因應 X 而作出回應、改變或行動」與本句語境不同。",
-        "response-mcq-08": "「從收到刺激／要求到產生反應所需時間」與本句語境不同。",
-        "response-mcq-03": "「使用者看到網上內容後作出的留言、回覆或其他反應」與本句語境不同。"
+        "response-mcq-06": "本句的「mixed response」指「同時存在正面與負面反應；褒貶不一」。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-06"
     },
@@ -1165,11 +1129,9 @@ export default {
       "masked": "The campaign was met with a mixed ____.",
       "options": [
         "response-mcq-06",
-        "response-mcq-05",
-        "response-mcq-07",
-        "response-mcq-04",
-        "response-mcq-08",
-        "response-mcq-03"
+        "response-pdf-001",
+        "response-mcq-23",
+        "response-mcq-28"
       ],
       "explanation": "本句的「response」指「同時存在正面與負面反應；褒貶不一」。",
       "sentenceIndex": 17,
@@ -1178,12 +1140,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-06": "本句指「同時存在正面與負面反應；褒貶不一」。",
-        "response-mcq-05": "「對某事作出的正面／負面反應」與本句語境不同。",
-        "response-mcq-07": "「機構／官方對事件作出的公開回應」與本句語境不同。",
-        "response-mcq-04": "「因應 X 而作出回應、改變或行動」與本句語境不同。",
-        "response-mcq-08": "「從收到刺激／要求到產生反應所需時間」與本句語境不同。",
-        "response-mcq-03": "「使用者看到網上內容後作出的留言、回覆或其他反應」與本句語境不同。"
+        "response-mcq-06": "本句的「response」指「同時存在正面與負面反應；褒貶不一」。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-06"
     },
@@ -1195,11 +1155,9 @@ export default {
       "masked": "The organisation issued an ____.",
       "options": [
         "response-mcq-07",
-        "response-mcq-06",
-        "response-mcq-08",
-        "response-mcq-05",
-        "response-mcq-09",
-        "response-mcq-04"
+        "response-mcq-36",
+        "response-mcq-23",
+        "response-mcq-15"
       ],
       "explanation": "本句的「official response」指「機構／官方對事件作出的公開回應」。",
       "sentenceIndex": 22,
@@ -1208,12 +1166,10 @@ export default {
         "official response"
       ],
       "optionReasons": {
-        "response-mcq-07": "本句指「機構／官方對事件作出的公開回應」。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。",
-        "response-mcq-08": "「從收到刺激／要求到產生反應所需時間」與本句語境不同。",
-        "response-mcq-05": "「對某事作出的正面／負面反應」與本句語境不同。",
-        "response-mcq-09": "「被接觸者中實際作出回答／反應的比例」與本句語境不同。",
-        "response-mcq-04": "「因應 X 而作出回應、改變或行動」與本句語境不同。"
+        "response-mcq-07": "本句的「official response」指「機構／官方對事件作出的公開回應」。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-07"
     },
@@ -1225,11 +1181,9 @@ export default {
       "masked": "There has been no official ____ so far.",
       "options": [
         "response-mcq-07",
-        "response-mcq-06",
-        "response-mcq-08",
-        "response-mcq-05",
-        "response-mcq-09",
-        "response-mcq-04"
+        "response-mcq-23",
+        "response-mcq-36",
+        "response-mcq-15"
       ],
       "explanation": "本句的「response」指「機構／官方對事件作出的公開回應」。",
       "sentenceIndex": 23,
@@ -1238,12 +1192,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-07": "本句指「機構／官方對事件作出的公開回應」。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。",
-        "response-mcq-08": "「從收到刺激／要求到產生反應所需時間」與本句語境不同。",
-        "response-mcq-05": "「對某事作出的正面／負面反應」與本句語境不同。",
-        "response-mcq-09": "「被接觸者中實際作出回答／反應的比例」與本句語境不同。",
-        "response-mcq-04": "「因應 X 而作出回應、改變或行動」與本句語境不同。"
+        "response-mcq-07": "本句的「response」指「機構／官方對事件作出的公開回應」。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-07"
     },
@@ -1255,11 +1207,9 @@ export default {
       "masked": "Our average customer-service ____ is two hours.",
       "options": [
         "response-mcq-08",
-        "response-mcq-07",
-        "response-mcq-09",
-        "response-mcq-06",
+        "response-mcq-12",
         "response-mcq-10",
-        "response-mcq-05"
+        "response-mcq-23"
       ],
       "explanation": "本句的「response time」指「從收到刺激／要求到產生反應所需時間」。",
       "sentenceIndex": 26,
@@ -1268,12 +1218,10 @@ export default {
         "response time"
       ],
       "optionReasons": {
-        "response-mcq-08": "本句指「從收到刺激／要求到產生反應所需時間」。",
-        "response-mcq-07": "「機構／官方對事件作出的公開回應」與本句語境不同。",
-        "response-mcq-09": "「被接觸者中實際作出回答／反應的比例」與本句語境不同。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。",
-        "response-mcq-10": "「受訪者對問卷題目給出的答案」與本句語境不同。",
-        "response-mcq-05": "「對某事作出的正面／負面反應」與本句語境不同。"
+        "response-mcq-08": "本句的「response time」指「從收到刺激／要求到產生反應所需時間」。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-08"
     },
@@ -1285,11 +1233,9 @@ export default {
       "masked": "The test measures reaction and ____ time.",
       "options": [
         "response-mcq-08",
-        "response-mcq-07",
-        "response-mcq-09",
-        "response-mcq-06",
-        "response-mcq-10",
-        "response-mcq-05"
+        "response-mcq-23",
+        "response-pdf-001",
+        "response-pdf-002"
       ],
       "explanation": "本句的「response」指「從收到刺激／要求到產生反應所需時間」。",
       "sentenceIndex": 27,
@@ -1298,12 +1244,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-08": "本句指「從收到刺激／要求到產生反應所需時間」。",
-        "response-mcq-07": "「機構／官方對事件作出的公開回應」與本句語境不同。",
-        "response-mcq-09": "「被接觸者中實際作出回答／反應的比例」與本句語境不同。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。",
-        "response-mcq-10": "「受訪者對問卷題目給出的答案」與本句語境不同。",
-        "response-mcq-05": "「對某事作出的正面／負面反應」與本句語境不同。"
+        "response-mcq-08": "本句的「response」指「從收到刺激／要求到產生反應所需時間」。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-08"
     },
@@ -1315,11 +1259,9 @@ export default {
       "masked": "The survey had a high ____.",
       "options": [
         "response-mcq-09",
-        "response-mcq-08",
-        "response-mcq-10",
-        "response-mcq-07",
-        "response-mcq-11",
-        "response-mcq-06"
+        "response-pdf-002",
+        "response-mcq-23",
+        "response-mcq-36"
       ],
       "explanation": "本句的「response rate」指「被接觸者中實際作出回答／反應的比例」。",
       "sentenceIndex": 30,
@@ -1328,12 +1270,10 @@ export default {
         "response rate"
       ],
       "optionReasons": {
-        "response-mcq-09": "本句指「被接觸者中實際作出回答／反應的比例」。",
-        "response-mcq-08": "「從收到刺激／要求到產生反應所需時間」與本句語境不同。",
-        "response-mcq-10": "「受訪者對問卷題目給出的答案」與本句語境不同。",
-        "response-mcq-07": "「機構／官方對事件作出的公開回應」與本句語境不同。",
-        "response-mcq-11": "「回答問卷／訪問問題的人」與本句語境不同。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。"
+        "response-mcq-09": "本句的「response rate」指「被接觸者中實際作出回答／反應的比例」。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-09"
     },
@@ -1345,11 +1285,9 @@ export default {
       "masked": "Email ____ rates improved after the redesign.",
       "options": [
         "response-mcq-09",
-        "response-mcq-08",
-        "response-mcq-10",
-        "response-mcq-07",
-        "response-mcq-11",
-        "response-mcq-06"
+        "response-mcq-22",
+        "response-mcq-36",
+        "response-mcq-15"
       ],
       "explanation": "本句的「response」指「被接觸者中實際作出回答／反應的比例」。",
       "sentenceIndex": 31,
@@ -1358,12 +1296,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-09": "本句指「被接觸者中實際作出回答／反應的比例」。",
-        "response-mcq-08": "「從收到刺激／要求到產生反應所需時間」與本句語境不同。",
-        "response-mcq-10": "「受訪者對問卷題目給出的答案」與本句語境不同。",
-        "response-mcq-07": "「機構／官方對事件作出的公開回應」與本句語境不同。",
-        "response-mcq-11": "「回答問卷／訪問問題的人」與本句語境不同。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。"
+        "response-mcq-09": "本句的「response」指「被接觸者中實際作出回答／反應的比例」。",
+        "response-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-09"
     },
@@ -1375,11 +1311,9 @@ export default {
       "masked": "The survey collected 2,000 ____.",
       "options": [
         "response-mcq-10",
-        "response-mcq-09",
-        "response-mcq-11",
-        "response-mcq-08",
-        "response-mcq-12",
-        "response-mcq-07"
+        "response-mcq-20",
+        "response-mcq-22",
+        "response-mcq-36"
       ],
       "explanation": "本句的「responses」指「受訪者對問卷題目給出的答案」。",
       "sentenceIndex": 32,
@@ -1388,12 +1322,10 @@ export default {
         "responses"
       ],
       "optionReasons": {
-        "response-mcq-10": "本句指「受訪者對問卷題目給出的答案」。",
-        "response-mcq-09": "「被接觸者中實際作出回答／反應的比例」與本句語境不同。",
-        "response-mcq-11": "「回答問卷／訪問問題的人」與本句語境不同。",
-        "response-mcq-08": "「從收到刺激／要求到產生反應所需時間」與本句語境不同。",
-        "response-mcq-12": "「對法律申請／上訴作出答辯的一方」與本句語境不同。",
-        "response-mcq-07": "「機構／官方對事件作出的公開回應」與本句語境不同。"
+        "response-mcq-10": "本句的「responses」指「受訪者對問卷題目給出的答案」。",
+        "response-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-10"
     },
@@ -1405,11 +1337,9 @@ export default {
       "masked": "Each ____ was recorded anonymously.",
       "options": [
         "response-mcq-10",
-        "response-mcq-09",
-        "response-mcq-11",
         "response-mcq-08",
-        "response-mcq-12",
-        "response-mcq-07"
+        "response-pdf-002",
+        "response-mcq-21"
       ],
       "explanation": "本句的「response」指「受訪者對問卷題目給出的答案」。",
       "sentenceIndex": 33,
@@ -1418,12 +1348,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-10": "本句指「受訪者對問卷題目給出的答案」。",
-        "response-mcq-09": "「被接觸者中實際作出回答／反應的比例」與本句語境不同。",
-        "response-mcq-11": "「回答問卷／訪問問題的人」與本句語境不同。",
-        "response-mcq-08": "「從收到刺激／要求到產生反應所需時間」與本句語境不同。",
-        "response-mcq-12": "「對法律申請／上訴作出答辯的一方」與本句語境不同。",
-        "response-mcq-07": "「機構／官方對事件作出的公開回應」與本句語境不同。"
+        "response-mcq-10": "本句的「response」指「受訪者對問卷題目給出的答案」。",
+        "response-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-10"
     },
@@ -1435,11 +1363,9 @@ export default {
       "masked": "Some survey ____ were incomplete.",
       "options": [
         "response-mcq-10",
-        "response-mcq-09",
-        "response-mcq-11",
-        "response-mcq-08",
-        "response-mcq-12",
-        "response-mcq-07"
+        "response-mcq-19",
+        "response-pdf-002",
+        "response-mcq-21"
       ],
       "explanation": "本句的「responses」指「受訪者對問卷題目給出的答案」。",
       "sentenceIndex": 34,
@@ -1448,12 +1374,10 @@ export default {
         "responses"
       ],
       "optionReasons": {
-        "response-mcq-10": "本句指「受訪者對問卷題目給出的答案」。",
-        "response-mcq-09": "「被接觸者中實際作出回答／反應的比例」與本句語境不同。",
-        "response-mcq-11": "「回答問卷／訪問問題的人」與本句語境不同。",
-        "response-mcq-08": "「從收到刺激／要求到產生反應所需時間」與本句語境不同。",
-        "response-mcq-12": "「對法律申請／上訴作出答辯的一方」與本句語境不同。",
-        "response-mcq-07": "「機構／官方對事件作出的公開回應」與本句語境不同。"
+        "response-mcq-10": "本句的「responses」指「受訪者對問卷題目給出的答案」。",
+        "response-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-10"
     },
@@ -1465,11 +1389,9 @@ export default {
       "masked": "The researchers analysed all ____.",
       "options": [
         "response-mcq-10",
-        "response-mcq-09",
-        "response-mcq-11",
-        "response-mcq-08",
-        "response-mcq-12",
-        "response-mcq-07"
+        "response-pdf-002",
+        "response-mcq-06",
+        "response-mcq-21"
       ],
       "explanation": "本句的「responses」指「受訪者對問卷題目給出的答案」。",
       "sentenceIndex": 35,
@@ -1478,12 +1400,10 @@ export default {
         "responses"
       ],
       "optionReasons": {
-        "response-mcq-10": "本句指「受訪者對問卷題目給出的答案」。",
-        "response-mcq-09": "「被接觸者中實際作出回答／反應的比例」與本句語境不同。",
-        "response-mcq-11": "「回答問卷／訪問問題的人」與本句語境不同。",
-        "response-mcq-08": "「從收到刺激／要求到產生反應所需時間」與本句語境不同。",
-        "response-mcq-12": "「對法律申請／上訴作出答辯的一方」與本句語境不同。",
-        "response-mcq-07": "「機構／官方對事件作出的公開回應」與本句語境不同。"
+        "response-mcq-10": "本句的「responses」指「受訪者對問卷題目給出的答案」。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-10"
     },
@@ -1495,11 +1415,9 @@ export default {
       "masked": "Most ____ were university students.",
       "options": [
         "response-pdf-001",
-        "response-mcq-11",
-        "response-mcq-13",
-        "response-mcq-10",
-        "response-mcq-14",
-        "response-mcq-09"
+        "response-mcq-06",
+        "response-mcq-22",
+        "response-mcq-15"
       ],
       "explanation": "本句的「respondents」指「回答問卷、訪問或調查的人」。",
       "sentenceIndex": 36,
@@ -1508,12 +1426,10 @@ export default {
         "respondents"
       ],
       "optionReasons": {
-        "response-pdf-001": "本句指「回答問卷、訪問或調查的人」。",
-        "response-mcq-11": "「回答問卷／訪問問題的人」與本句語境不同。",
-        "response-mcq-13": "「對訊息、問題或要求作出回覆」與本句語境不同。",
-        "response-mcq-10": "「受訪者對問卷題目給出的答案」與本句語境不同。",
-        "response-mcq-14": "「對事件／刺激作出情緒、行動或系統反應」與本句語境不同。",
-        "response-mcq-09": "「被接觸者中實際作出回答／反應的比例」與本句語境不同。"
+        "response-pdf-001": "本句的「respondents」指「回答問卷、訪問或調查的人」。",
+        "response-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-pdf-001"
     },
@@ -1525,11 +1441,9 @@ export default {
       "masked": "The ____ filed written arguments.",
       "options": [
         "response-mcq-12",
-        "response-mcq-11",
-        "response-mcq-13",
-        "response-mcq-10",
-        "response-mcq-14",
-        "response-mcq-09"
+        "response-mcq-18",
+        "response-mcq-23",
+        "response-mcq-34"
       ],
       "explanation": "本句的「respondent」指「對法律申請／上訴作出答辯的一方」。",
       "sentenceIndex": 37,
@@ -1538,12 +1452,10 @@ export default {
         "respondent"
       ],
       "optionReasons": {
-        "response-mcq-12": "本句指「對法律申請／上訴作出答辯的一方」。",
-        "response-mcq-11": "「回答問卷／訪問問題的人」與本句語境不同。",
-        "response-mcq-13": "「對訊息、問題或要求作出回覆」與本句語境不同。",
-        "response-mcq-10": "「受訪者對問卷題目給出的答案」與本句語境不同。",
-        "response-mcq-14": "「對事件／刺激作出情緒、行動或系統反應」與本句語境不同。",
-        "response-mcq-09": "「被接觸者中實際作出回答／反應的比例」與本句語境不同。"
+        "response-mcq-12": "本句的「respondent」指「對法律申請／上訴作出答辯的一方」。",
+        "response-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-12"
     },
@@ -1555,11 +1467,9 @@ export default {
       "masked": "She did not ____ to the message.",
       "options": [
         "response-mcq-13",
-        "response-mcq-12",
-        "response-mcq-14",
-        "response-mcq-11",
-        "response-mcq-15",
-        "response-mcq-10"
+        "response-mcq-17",
+        "response-mcq-21",
+        "response-pdf-002"
       ],
       "explanation": "本句的「respond」指「對訊息、問題或要求作出回覆」。",
       "sentenceIndex": 38,
@@ -1568,12 +1478,10 @@ export default {
         "respond"
       ],
       "optionReasons": {
-        "response-mcq-13": "本句指「對訊息、問題或要求作出回覆」。",
-        "response-mcq-12": "「對法律申請／上訴作出答辯的一方」與本句語境不同。",
-        "response-mcq-14": "「對事件／刺激作出情緒、行動或系統反應」與本句語境不同。",
-        "response-mcq-11": "「回答問卷／訪問問題的人」與本句語境不同。",
-        "response-mcq-15": "「接受治療後身體／病情產生的變化」與本句語境不同。",
-        "response-mcq-10": "「受訪者對問卷題目給出的答案」與本句語境不同。"
+        "response-mcq-13": "本句的「respond」指「對訊息、問題或要求作出回覆」。",
+        "response-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-13"
     },
@@ -1585,11 +1493,9 @@ export default {
       "masked": "The patient showed a good ____.",
       "options": [
         "response-mcq-15",
-        "response-mcq-14",
-        "response-mcq-16",
-        "response-mcq-13",
-        "response-mcq-17",
-        "response-mcq-12"
+        "response-mcq-24",
+        "response-mcq-23",
+        "response-mcq-36"
       ],
       "explanation": "本句的「response to treatment」指「接受治療後身體／病情產生的變化」。",
       "sentenceIndex": 39,
@@ -1598,12 +1504,10 @@ export default {
         "response to treatment"
       ],
       "optionReasons": {
-        "response-mcq-15": "本句指「接受治療後身體／病情產生的變化」。",
-        "response-mcq-14": "「對事件／刺激作出情緒、行動或系統反應」與本句語境不同。",
-        "response-mcq-16": "「免疫系統對病原或異物作出的防禦反應」與本句語境不同。",
-        "response-mcq-13": "「對訊息、問題或要求作出回覆」與本句語境不同。",
-        "response-mcq-17": "「身心面對壓力源時產生的一系列反應」與本句語境不同。",
-        "response-mcq-12": "「對法律申請／上訴作出答辯的一方」與本句語境不同。"
+        "response-mcq-15": "本句的「response to treatment」指「接受治療後身體／病情產生的變化」。",
+        "response-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-15"
     },
@@ -1615,11 +1519,9 @@ export default {
       "masked": "Doctors monitored her ____ to the medication.",
       "options": [
         "response-mcq-15",
-        "response-mcq-14",
-        "response-mcq-16",
-        "response-mcq-13",
-        "response-mcq-17",
-        "response-mcq-12"
+        "response-mcq-35",
+        "response-mcq-36",
+        "response-mcq-07"
       ],
       "explanation": "本句的「response」指「接受治療後身體／病情產生的變化」。",
       "sentenceIndex": 40,
@@ -1628,12 +1530,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-15": "本句指「接受治療後身體／病情產生的變化」。",
-        "response-mcq-14": "「對事件／刺激作出情緒、行動或系統反應」與本句語境不同。",
-        "response-mcq-16": "「免疫系統對病原或異物作出的防禦反應」與本句語境不同。",
-        "response-mcq-13": "「對訊息、問題或要求作出回覆」與本句語境不同。",
-        "response-mcq-17": "「身心面對壓力源時產生的一系列反應」與本句語境不同。",
-        "response-mcq-12": "「對法律申請／上訴作出答辯的一方」與本句語境不同。"
+        "response-mcq-15": "本句的「response」指「接受治療後身體／病情產生的變化」。",
+        "response-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-15"
     },
@@ -1645,11 +1545,9 @@ export default {
       "masked": "The vaccine triggers an ____.",
       "options": [
         "response-mcq-16",
-        "response-mcq-15",
-        "response-mcq-17",
-        "response-mcq-14",
-        "response-mcq-18",
-        "response-mcq-13"
+        "response-pdf-001",
+        "response-mcq-36",
+        "response-mcq-23"
       ],
       "explanation": "本句的「immune response」指「免疫系統對病原或異物作出的防禦反應」。",
       "sentenceIndex": 43,
@@ -1658,12 +1556,10 @@ export default {
         "immune response"
       ],
       "optionReasons": {
-        "response-mcq-16": "本句指「免疫系統對病原或異物作出的防禦反應」。",
-        "response-mcq-15": "「接受治療後身體／病情產生的變化」與本句語境不同。",
-        "response-mcq-17": "「身心面對壓力源時產生的一系列反應」與本句語境不同。",
-        "response-mcq-14": "「對事件／刺激作出情緒、行動或系統反應」與本句語境不同。",
-        "response-mcq-18": "「面對威脅時準備戰鬥或逃走的生理反應」與本句語境不同。",
-        "response-mcq-13": "「對訊息、問題或要求作出回覆」與本句語境不同。"
+        "response-mcq-16": "本句的「immune response」指「免疫系統對病原或異物作出的防禦反應」。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-16"
     },
@@ -1675,11 +1571,9 @@ export default {
       "masked": "The immune ____ helps the body fight infection.",
       "options": [
         "response-mcq-16",
-        "response-mcq-15",
-        "response-mcq-17",
-        "response-mcq-14",
-        "response-mcq-18",
-        "response-mcq-13"
+        "response-mcq-21",
+        "response-mcq-36",
+        "response-mcq-35"
       ],
       "explanation": "本句的「response」指「免疫系統對病原或異物作出的防禦反應」。",
       "sentenceIndex": 44,
@@ -1688,12 +1582,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-16": "本句指「免疫系統對病原或異物作出的防禦反應」。",
-        "response-mcq-15": "「接受治療後身體／病情產生的變化」與本句語境不同。",
-        "response-mcq-17": "「身心面對壓力源時產生的一系列反應」與本句語境不同。",
-        "response-mcq-14": "「對事件／刺激作出情緒、行動或系統反應」與本句語境不同。",
-        "response-mcq-18": "「面對威脅時準備戰鬥或逃走的生理反應」與本句語境不同。",
-        "response-mcq-13": "「對訊息、問題或要求作出回覆」與本句語境不同。"
+        "response-mcq-16": "本句的「response」指「免疫系統對病原或異物作出的防禦反應」。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-16"
     },
@@ -1705,11 +1597,9 @@ export default {
       "masked": "The body activates a ____.",
       "options": [
         "response-mcq-17",
-        "response-mcq-16",
-        "response-mcq-18",
-        "response-mcq-15",
-        "response-mcq-19",
-        "response-mcq-14"
+        "response-pdf-001",
+        "response-mcq-28",
+        "response-pdf-002"
       ],
       "explanation": "本句的「stress response」指「身心面對壓力源時產生的一系列反應」。",
       "sentenceIndex": 47,
@@ -1718,12 +1608,10 @@ export default {
         "stress response"
       ],
       "optionReasons": {
-        "response-mcq-17": "本句指「身心面對壓力源時產生的一系列反應」。",
-        "response-mcq-16": "「免疫系統對病原或異物作出的防禦反應」與本句語境不同。",
-        "response-mcq-18": "「面對威脅時準備戰鬥或逃走的生理反應」與本句語境不同。",
-        "response-mcq-15": "「接受治療後身體／病情產生的變化」與本句語境不同。",
-        "response-mcq-19": "「刺激與其引起的行為／生理反應之間的關係」與本句語境不同。",
-        "response-mcq-14": "「對事件／刺激作出情緒、行動或系統反應」與本句語境不同。"
+        "response-mcq-17": "本句的「stress response」指「身心面對壓力源時產生的一系列反應」。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-17"
     },
@@ -1735,11 +1623,9 @@ export default {
       "masked": "A prolonged stress ____ can affect sleep.",
       "options": [
         "response-mcq-17",
-        "response-mcq-16",
-        "response-mcq-18",
-        "response-mcq-15",
-        "response-mcq-19",
-        "response-mcq-14"
+        "response-mcq-12",
+        "response-mcq-28",
+        "response-mcq-10"
       ],
       "explanation": "本句的「response」指「身心面對壓力源時產生的一系列反應」。",
       "sentenceIndex": 48,
@@ -1748,12 +1634,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-17": "本句指「身心面對壓力源時產生的一系列反應」。",
-        "response-mcq-16": "「免疫系統對病原或異物作出的防禦反應」與本句語境不同。",
-        "response-mcq-18": "「面對威脅時準備戰鬥或逃走的生理反應」與本句語境不同。",
-        "response-mcq-15": "「接受治療後身體／病情產生的變化」與本句語境不同。",
-        "response-mcq-19": "「刺激與其引起的行為／生理反應之間的關係」與本句語境不同。",
-        "response-mcq-14": "「對事件／刺激作出情緒、行動或系統反應」與本句語境不同。"
+        "response-mcq-17": "本句的「response」指「身心面對壓力源時產生的一系列反應」。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-17"
     },
@@ -1765,11 +1649,9 @@ export default {
       "masked": "Fear activates the ____.",
       "options": [
         "response-mcq-18",
-        "response-mcq-17",
-        "response-mcq-19",
-        "response-mcq-16",
-        "response-mcq-20",
-        "response-mcq-15"
+        "response-pdf-001",
+        "response-mcq-13",
+        "response-pdf-002"
       ],
       "explanation": "本句的「fight-or-flight response」指「面對威脅時準備戰鬥或逃走的生理反應」。",
       "sentenceIndex": 49,
@@ -1778,12 +1660,10 @@ export default {
         "fight-or-flight response"
       ],
       "optionReasons": {
-        "response-mcq-18": "本句指「面對威脅時準備戰鬥或逃走的生理反應」。",
-        "response-mcq-17": "「身心面對壓力源時產生的一系列反應」與本句語境不同。",
-        "response-mcq-19": "「刺激與其引起的行為／生理反應之間的關係」與本句語境不同。",
-        "response-mcq-16": "「免疫系統對病原或異物作出的防禦反應」與本句語境不同。",
-        "response-mcq-20": "「劑量變化與生物／醫療反應程度之間的關係」與本句語境不同。",
-        "response-mcq-15": "「接受治療後身體／病情產生的變化」與本句語境不同。"
+        "response-mcq-18": "本句的「fight-or-flight response」指「面對威脅時準備戰鬥或逃走的生理反應」。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-18"
     },
@@ -1795,11 +1675,9 @@ export default {
       "masked": "Heart rate rises during the fight-or-flight ____.",
       "options": [
         "response-mcq-18",
-        "response-mcq-17",
-        "response-mcq-19",
-        "response-mcq-16",
-        "response-mcq-20",
-        "response-mcq-15"
+        "response-mcq-28",
+        "response-mcq-35",
+        "response-mcq-34"
       ],
       "explanation": "本句的「response」指「面對威脅時準備戰鬥或逃走的生理反應」。",
       "sentenceIndex": 50,
@@ -1808,12 +1686,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-18": "本句指「面對威脅時準備戰鬥或逃走的生理反應」。",
-        "response-mcq-17": "「身心面對壓力源時產生的一系列反應」與本句語境不同。",
-        "response-mcq-19": "「刺激與其引起的行為／生理反應之間的關係」與本句語境不同。",
-        "response-mcq-16": "「免疫系統對病原或異物作出的防禦反應」與本句語境不同。",
-        "response-mcq-20": "「劑量變化與生物／醫療反應程度之間的關係」與本句語境不同。",
-        "response-mcq-15": "「接受治療後身體／病情產生的變化」與本句語境不同。"
+        "response-mcq-18": "本句的「response」指「面對威脅時準備戰鬥或逃走的生理反應」。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-18"
     },
@@ -1825,11 +1701,9 @@ export default {
       "masked": "The sound produced an immediate ____.",
       "options": [
         "response-mcq-19",
-        "response-mcq-18",
-        "response-mcq-20",
-        "response-mcq-17",
-        "response-mcq-21",
-        "response-mcq-16"
+        "response-mcq-12",
+        "response-mcq-10",
+        "response-pdf-002"
       ],
       "explanation": "本句的「response」指「刺激與其引起的行為／生理反應之間的關係」。",
       "sentenceIndex": 51,
@@ -1838,12 +1712,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-19": "本句指「刺激與其引起的行為／生理反應之間的關係」。",
-        "response-mcq-18": "「面對威脅時準備戰鬥或逃走的生理反應」與本句語境不同。",
-        "response-mcq-20": "「劑量變化與生物／醫療反應程度之間的關係」與本句語境不同。",
-        "response-mcq-17": "「身心面對壓力源時產生的一系列反應」與本句語境不同。",
-        "response-mcq-21": "「緊急事件發生後立即採取的救援／處置行動」與本句語境不同。",
-        "response-mcq-16": "「免疫系統對病原或異物作出的防禦反應」與本句語境不同。"
+        "response-mcq-19": "本句的「response」指「刺激與其引起的行為／生理反應之間的關係」。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-19"
     },
@@ -1855,11 +1727,9 @@ export default {
       "masked": "Researchers recorded the animal’s ____ to light.",
       "options": [
         "response-mcq-19",
-        "response-mcq-18",
-        "response-mcq-20",
-        "response-mcq-17",
-        "response-mcq-21",
-        "response-mcq-16"
+        "response-mcq-28",
+        "response-pdf-002",
+        "response-pdf-001"
       ],
       "explanation": "本句的「response」指「刺激與其引起的行為／生理反應之間的關係」。",
       "sentenceIndex": 52,
@@ -1868,12 +1738,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-19": "本句指「刺激與其引起的行為／生理反應之間的關係」。",
-        "response-mcq-18": "「面對威脅時準備戰鬥或逃走的生理反應」與本句語境不同。",
-        "response-mcq-20": "「劑量變化與生物／醫療反應程度之間的關係」與本句語境不同。",
-        "response-mcq-17": "「身心面對壓力源時產生的一系列反應」與本句語境不同。",
-        "response-mcq-21": "「緊急事件發生後立即採取的救援／處置行動」與本句語境不同。",
-        "response-mcq-16": "「免疫系統對病原或異物作出的防禦反應」與本句語境不同。"
+        "response-mcq-19": "本句的「response」指「刺激與其引起的行為／生理反應之間的關係」。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-19"
     },
@@ -1885,11 +1753,9 @@ export default {
       "masked": "The experiment studied ____.",
       "options": [
         "response-mcq-19",
-        "response-mcq-18",
-        "response-mcq-20",
-        "response-mcq-17",
-        "response-mcq-21",
-        "response-mcq-16"
+        "response-pdf-001",
+        "response-pdf-002",
+        "response-mcq-28"
       ],
       "explanation": "本句的「stimulus-response relationships」指「刺激與其引起的行為／生理反應之間的關係」。",
       "sentenceIndex": 53,
@@ -1898,12 +1764,10 @@ export default {
         "stimulus-response relationships"
       ],
       "optionReasons": {
-        "response-mcq-19": "本句指「刺激與其引起的行為／生理反應之間的關係」。",
-        "response-mcq-18": "「面對威脅時準備戰鬥或逃走的生理反應」與本句語境不同。",
-        "response-mcq-20": "「劑量變化與生物／醫療反應程度之間的關係」與本句語境不同。",
-        "response-mcq-17": "「身心面對壓力源時產生的一系列反應」與本句語境不同。",
-        "response-mcq-21": "「緊急事件發生後立即採取的救援／處置行動」與本句語境不同。",
-        "response-mcq-16": "「免疫系統對病原或異物作出的防禦反應」與本句語境不同。"
+        "response-mcq-19": "本句的「stimulus-response relationships」指「刺激與其引起的行為／生理反應之間的關係」。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-19"
     },
@@ -1915,11 +1779,9 @@ export default {
       "masked": "The ____ became stronger as the stimulus increased.",
       "options": [
         "response-mcq-19",
-        "response-mcq-18",
-        "response-mcq-20",
-        "response-mcq-17",
-        "response-mcq-21",
-        "response-mcq-16"
+        "response-pdf-001",
+        "response-mcq-12",
+        "response-mcq-28"
       ],
       "explanation": "本句的「response」指「刺激與其引起的行為／生理反應之間的關係」。",
       "sentenceIndex": 54,
@@ -1928,12 +1790,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-19": "本句指「刺激與其引起的行為／生理反應之間的關係」。",
-        "response-mcq-18": "「面對威脅時準備戰鬥或逃走的生理反應」與本句語境不同。",
-        "response-mcq-20": "「劑量變化與生物／醫療反應程度之間的關係」與本句語境不同。",
-        "response-mcq-17": "「身心面對壓力源時產生的一系列反應」與本句語境不同。",
-        "response-mcq-21": "「緊急事件發生後立即採取的救援／處置行動」與本句語境不同。",
-        "response-mcq-16": "「免疫系統對病原或異物作出的防禦反應」與本句語境不同。"
+        "response-mcq-19": "本句的「response」指「刺激與其引起的行為／生理反應之間的關係」。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-19"
     },
@@ -1945,11 +1805,9 @@ export default {
       "masked": "The study found a clear ____.",
       "options": [
         "response-mcq-20",
-        "response-mcq-19",
-        "response-mcq-21",
-        "response-mcq-18",
-        "response-mcq-22",
-        "response-mcq-17"
+        "response-mcq-23",
+        "response-mcq-36",
+        "response-pdf-001"
       ],
       "explanation": "本句的「dose-response relationship」指「劑量變化與生物／醫療反應程度之間的關係」。",
       "sentenceIndex": 55,
@@ -1958,12 +1816,10 @@ export default {
         "dose-response relationship"
       ],
       "optionReasons": {
-        "response-mcq-20": "本句指「劑量變化與生物／醫療反應程度之間的關係」。",
-        "response-mcq-19": "「刺激與其引起的行為／生理反應之間的關係」與本句語境不同。",
-        "response-mcq-21": "「緊急事件發生後立即採取的救援／處置行動」與本句語境不同。",
-        "response-mcq-18": "「面對威脅時準備戰鬥或逃走的生理反應」與本句語境不同。",
-        "response-mcq-22": "「對事故、故障或網絡事件的系統化處理」與本句語境不同。",
-        "response-mcq-17": "「身心面對壓力源時產生的一系列反應」與本句語境不同。"
+        "response-mcq-20": "本句的「dose-response relationship」指「劑量變化與生物／醫療反應程度之間的關係」。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-20"
     },
@@ -1975,11 +1831,9 @@ export default {
       "masked": "The ____ increased with the dose.",
       "options": [
         "response-mcq-20",
-        "response-mcq-19",
-        "response-mcq-21",
-        "response-mcq-18",
-        "response-mcq-22",
-        "response-mcq-17"
+        "response-mcq-28",
+        "response-mcq-12",
+        "response-mcq-34"
       ],
       "explanation": "本句的「response」指「劑量變化與生物／醫療反應程度之間的關係」。",
       "sentenceIndex": 56,
@@ -1988,12 +1842,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-20": "本句指「劑量變化與生物／醫療反應程度之間的關係」。",
-        "response-mcq-19": "「刺激與其引起的行為／生理反應之間的關係」與本句語境不同。",
-        "response-mcq-21": "「緊急事件發生後立即採取的救援／處置行動」與本句語境不同。",
-        "response-mcq-18": "「面對威脅時準備戰鬥或逃走的生理反應」與本句語境不同。",
-        "response-mcq-22": "「對事故、故障或網絡事件的系統化處理」與本句語境不同。",
-        "response-mcq-17": "「身心面對壓力源時產生的一系列反應」與本句語境不同。"
+        "response-mcq-20": "本句的「response」指「劑量變化與生物／醫療反應程度之間的關係」。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-20"
     },
@@ -2005,11 +1857,9 @@ export default {
       "masked": "The city improved its ____ system.",
       "options": [
         "response-mcq-21",
-        "response-mcq-20",
-        "response-mcq-22",
-        "response-mcq-19",
-        "response-mcq-23",
-        "response-mcq-18"
+        "response-mcq-12",
+        "response-mcq-36",
+        "response-mcq-34"
       ],
       "explanation": "本句的「emergency response」指「緊急事件發生後立即採取的救援／處置行動」。",
       "sentenceIndex": 57,
@@ -2018,12 +1868,10 @@ export default {
         "emergency response"
       ],
       "optionReasons": {
-        "response-mcq-21": "本句指「緊急事件發生後立即採取的救援／處置行動」。",
-        "response-mcq-20": "「劑量變化與生物／醫療反應程度之間的關係」與本句語境不同。",
-        "response-mcq-22": "「對事故、故障或網絡事件的系統化處理」與本句語境不同。",
-        "response-mcq-19": "「刺激與其引起的行為／生理反應之間的關係」與本句語境不同。",
-        "response-mcq-23": "「為處理某問題而採取的政策措施」與本句語境不同。",
-        "response-mcq-18": "「面對威脅時準備戰鬥或逃走的生理反應」與本句語境不同。"
+        "response-mcq-21": "本句的「emergency response」指「緊急事件發生後立即採取的救援／處置行動」。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-21"
     },
@@ -2035,11 +1883,9 @@ export default {
       "masked": "A rapid emergency ____ saved lives.",
       "options": [
         "response-mcq-21",
-        "response-mcq-20",
-        "response-mcq-22",
-        "response-mcq-19",
-        "response-mcq-23",
-        "response-mcq-18"
+        "response-mcq-09",
+        "response-mcq-36",
+        "response-mcq-34"
       ],
       "explanation": "本句的「response」指「緊急事件發生後立即採取的救援／處置行動」。",
       "sentenceIndex": 58,
@@ -2048,12 +1894,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-21": "本句指「緊急事件發生後立即採取的救援／處置行動」。",
-        "response-mcq-20": "「劑量變化與生物／醫療反應程度之間的關係」與本句語境不同。",
-        "response-mcq-22": "「對事故、故障或網絡事件的系統化處理」與本句語境不同。",
-        "response-mcq-19": "「刺激與其引起的行為／生理反應之間的關係」與本句語境不同。",
-        "response-mcq-23": "「為處理某問題而採取的政策措施」與本句語境不同。",
-        "response-mcq-18": "「面對威脅時準備戰鬥或逃走的生理反應」與本句語境不同。"
+        "response-mcq-21": "本句的「response」指「緊急事件發生後立即採取的救援／處置行動」。",
+        "response-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-21"
     },
@@ -2065,11 +1909,9 @@ export default {
       "masked": "The company has an ____ plan.",
       "options": [
         "response-mcq-22",
-        "response-mcq-21",
-        "response-mcq-23",
-        "response-mcq-20",
-        "response-mcq-24",
-        "response-mcq-19"
+        "response-mcq-37",
+        "response-mcq-12",
+        "response-mcq-28"
       ],
       "explanation": "本句的「incident response」指「對事故、故障或網絡事件的系統化處理」。",
       "sentenceIndex": 62,
@@ -2078,12 +1920,10 @@ export default {
         "incident response"
       ],
       "optionReasons": {
-        "response-mcq-22": "本句指「對事故、故障或網絡事件的系統化處理」。",
-        "response-mcq-21": "「緊急事件發生後立即採取的救援／處置行動」與本句語境不同。",
-        "response-mcq-23": "「為處理某問題而採取的政策措施」與本句語境不同。",
-        "response-mcq-20": "「劑量變化與生物／醫療反應程度之間的關係」與本句語境不同。",
-        "response-mcq-24": "「市場參與者因資訊／事件而出現的價格或行為反應」與本句語境不同。",
-        "response-mcq-19": "「刺激與其引起的行為／生理反應之間的關係」與本句語境不同。"
+        "response-mcq-22": "本句的「incident response」指「對事故、故障或網絡事件的系統化處理」。",
+        "response-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-22"
     },
@@ -2095,11 +1935,9 @@ export default {
       "masked": "The team activated its incident ____ procedure.",
       "options": [
         "response-mcq-22",
-        "response-mcq-21",
-        "response-mcq-23",
-        "response-mcq-20",
-        "response-mcq-24",
-        "response-mcq-19"
+        "response-mcq-36",
+        "response-mcq-38",
+        "response-mcq-10"
       ],
       "explanation": "本句的「response」指「對事故、故障或網絡事件的系統化處理」。",
       "sentenceIndex": 63,
@@ -2108,12 +1946,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-22": "本句指「對事故、故障或網絡事件的系統化處理」。",
-        "response-mcq-21": "「緊急事件發生後立即採取的救援／處置行動」與本句語境不同。",
-        "response-mcq-23": "「為處理某問題而採取的政策措施」與本句語境不同。",
-        "response-mcq-20": "「劑量變化與生物／醫療反應程度之間的關係」與本句語境不同。",
-        "response-mcq-24": "「市場參與者因資訊／事件而出現的價格或行為反應」與本句語境不同。",
-        "response-mcq-19": "「刺激與其引起的行為／生理反應之間的關係」與本句語境不同。"
+        "response-mcq-22": "本句的「response」指「對事故、故障或網絡事件的系統化處理」。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-22"
     },
@@ -2125,11 +1961,9 @@ export default {
       "masked": "The ____ investigated the breach.",
       "options": [
         "response-mcq-22",
-        "response-mcq-21",
-        "response-mcq-23",
-        "response-mcq-20",
-        "response-mcq-24",
-        "response-mcq-19"
+        "response-mcq-34",
+        "response-mcq-36",
+        "response-mcq-09"
       ],
       "explanation": "本句的「incident response team」指「對事故、故障或網絡事件的系統化處理」。",
       "sentenceIndex": 66,
@@ -2138,12 +1972,10 @@ export default {
         "incident response team"
       ],
       "optionReasons": {
-        "response-mcq-22": "本句指「對事故、故障或網絡事件的系統化處理」。",
-        "response-mcq-21": "「緊急事件發生後立即採取的救援／處置行動」與本句語境不同。",
-        "response-mcq-23": "「為處理某問題而採取的政策措施」與本句語境不同。",
-        "response-mcq-20": "「劑量變化與生物／醫療反應程度之間的關係」與本句語境不同。",
-        "response-mcq-24": "「市場參與者因資訊／事件而出現的價格或行為反應」與本句語境不同。",
-        "response-mcq-19": "「刺激與其引起的行為／生理反應之間的關係」與本句語境不同。"
+        "response-mcq-22": "本句的「incident response team」指「對事故、故障或網絡事件的系統化處理」。",
+        "response-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-22"
     },
@@ -2155,11 +1987,9 @@ export default {
       "masked": "The ____ team isolated the affected systems.",
       "options": [
         "response-mcq-22",
-        "response-mcq-21",
-        "response-mcq-23",
-        "response-mcq-20",
-        "response-mcq-24",
-        "response-mcq-19"
+        "response-mcq-35",
+        "response-mcq-28",
+        "response-mcq-36"
       ],
       "explanation": "本句的「response」指「對事故、故障或網絡事件的系統化處理」。",
       "sentenceIndex": 67,
@@ -2168,12 +1998,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-22": "本句指「對事故、故障或網絡事件的系統化處理」。",
-        "response-mcq-21": "「緊急事件發生後立即採取的救援／處置行動」與本句語境不同。",
-        "response-mcq-23": "「為處理某問題而採取的政策措施」與本句語境不同。",
-        "response-mcq-20": "「劑量變化與生物／醫療反應程度之間的關係」與本句語境不同。",
-        "response-mcq-24": "「市場參與者因資訊／事件而出現的價格或行為反應」與本句語境不同。",
-        "response-mcq-19": "「刺激與其引起的行為／生理反應之間的關係」與本句語境不同。"
+        "response-mcq-22": "本句的「response」指「對事故、故障或網絡事件的系統化處理」。",
+        "response-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-22"
     },
@@ -2185,11 +2013,9 @@ export default {
       "masked": "The report recommends a stronger ____.",
       "options": [
         "response-mcq-23",
-        "response-mcq-22",
-        "response-mcq-24",
-        "response-mcq-21",
-        "response-mcq-25",
-        "response-mcq-20"
+        "response-mcq-08",
+        "response-pdf-002",
+        "response-mcq-12"
       ],
       "explanation": "本句的「policy response」指「為處理某問題而採取的政策措施」。",
       "sentenceIndex": 70,
@@ -2198,12 +2024,10 @@ export default {
         "policy response"
       ],
       "optionReasons": {
-        "response-mcq-23": "本句指「為處理某問題而採取的政策措施」。",
-        "response-mcq-22": "「對事故、故障或網絡事件的系統化處理」與本句語境不同。",
-        "response-mcq-24": "「市場參與者因資訊／事件而出現的價格或行為反應」與本句語境不同。",
-        "response-mcq-21": "「緊急事件發生後立即採取的救援／處置行動」與本句語境不同。",
-        "response-mcq-25": "「觀眾對表演、內容或作品的整體反應」與本句語境不同。",
-        "response-mcq-20": "「劑量變化與生物／醫療反應程度之間的關係」與本句語境不同。"
+        "response-mcq-23": "本句的「policy response」指「為處理某問題而採取的政策措施」。",
+        "response-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-23"
     },
@@ -2215,11 +2039,9 @@ export default {
       "masked": "The policy ____ focused on housing supply.",
       "options": [
         "response-mcq-23",
-        "response-mcq-22",
-        "response-mcq-24",
-        "response-mcq-21",
-        "response-mcq-25",
-        "response-mcq-20"
+        "response-mcq-32",
+        "response-mcq-15",
+        "response-mcq-36"
       ],
       "explanation": "本句的「response」指「為處理某問題而採取的政策措施」。",
       "sentenceIndex": 71,
@@ -2228,12 +2050,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-23": "本句指「為處理某問題而採取的政策措施」。",
-        "response-mcq-22": "「對事故、故障或網絡事件的系統化處理」與本句語境不同。",
-        "response-mcq-24": "「市場參與者因資訊／事件而出現的價格或行為反應」與本句語境不同。",
-        "response-mcq-21": "「緊急事件發生後立即採取的救援／處置行動」與本句語境不同。",
-        "response-mcq-25": "「觀眾對表演、內容或作品的整體反應」與本句語境不同。",
-        "response-mcq-20": "「劑量變化與生物／醫療反應程度之間的關係」與本句語境不同。"
+        "response-mcq-23": "本句的「response」指「為處理某問題而採取的政策措施」。",
+        "response-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-23"
     },
@@ -2245,11 +2065,9 @@ export default {
       "masked": "The ____ was positive.",
       "options": [
         "response-mcq-24",
+        "response-pdf-001",
         "response-mcq-23",
-        "response-mcq-25",
-        "response-mcq-22",
-        "response-mcq-26",
-        "response-mcq-21"
+        "response-mcq-15"
       ],
       "explanation": "本句的「market response」指「市場參與者因資訊／事件而出現的價格或行為反應」。",
       "sentenceIndex": 72,
@@ -2258,12 +2076,10 @@ export default {
         "market response"
       ],
       "optionReasons": {
-        "response-mcq-24": "本句指「市場參與者因資訊／事件而出現的價格或行為反應」。",
-        "response-mcq-23": "「為處理某問題而採取的政策措施」與本句語境不同。",
-        "response-mcq-25": "「觀眾對表演、內容或作品的整體反應」與本句語境不同。",
-        "response-mcq-22": "「對事故、故障或網絡事件的系統化處理」與本句語境不同。",
-        "response-mcq-26": "「讀者對文本產生的理解、感受和反應」與本句語境不同。",
-        "response-mcq-21": "「緊急事件發生後立即採取的救援／處置行動」與本句語境不同。"
+        "response-mcq-24": "本句的「market response」指「市場參與者因資訊／事件而出現的價格或行為反應」。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-24"
     },
@@ -2276,10 +2092,8 @@ export default {
       "options": [
         "response-mcq-24",
         "response-mcq-23",
-        "response-mcq-25",
-        "response-mcq-22",
-        "response-mcq-26",
-        "response-mcq-21"
+        "response-mcq-36",
+        "response-mcq-15"
       ],
       "explanation": "本句的「response」指「市場參與者因資訊／事件而出現的價格或行為反應」。",
       "sentenceIndex": 73,
@@ -2288,12 +2102,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-24": "本句指「市場參與者因資訊／事件而出現的價格或行為反應」。",
-        "response-mcq-23": "「為處理某問題而採取的政策措施」與本句語境不同。",
-        "response-mcq-25": "「觀眾對表演、內容或作品的整體反應」與本句語境不同。",
-        "response-mcq-22": "「對事故、故障或網絡事件的系統化處理」與本句語境不同。",
-        "response-mcq-26": "「讀者對文本產生的理解、感受和反應」與本句語境不同。",
-        "response-mcq-21": "「緊急事件發生後立即採取的救援／處置行動」與本句語境不同。"
+        "response-mcq-24": "本句的「response」指「市場參與者因資訊／事件而出現的價格或行為反應」。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-24"
     },
@@ -2305,11 +2117,9 @@ export default {
       "masked": "The performers were pleased with the ____.",
       "options": [
         "response-mcq-25",
-        "response-mcq-24",
-        "response-mcq-26",
-        "response-mcq-23",
-        "response-mcq-27",
-        "response-mcq-22"
+        "response-mcq-28",
+        "response-mcq-33",
+        "response-mcq-21"
       ],
       "explanation": "本句的「audience response」指「觀眾對表演、內容或作品的整體反應」。",
       "sentenceIndex": 76,
@@ -2318,12 +2128,10 @@ export default {
         "audience response"
       ],
       "optionReasons": {
-        "response-mcq-25": "本句指「觀眾對表演、內容或作品的整體反應」。",
-        "response-mcq-24": "「市場參與者因資訊／事件而出現的價格或行為反應」與本句語境不同。",
-        "response-mcq-26": "「讀者對文本產生的理解、感受和反應」與本句語境不同。",
-        "response-mcq-23": "「為處理某問題而採取的政策措施」與本句語境不同。",
-        "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。",
-        "response-mcq-22": "「對事故、故障或網絡事件的系統化處理」與本句語境不同。"
+        "response-mcq-25": "本句的「audience response」指「觀眾對表演、內容或作品的整體反應」。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-25"
     },
@@ -2335,11 +2143,9 @@ export default {
       "masked": "The joke received almost no audience ____.",
       "options": [
         "response-mcq-25",
-        "response-mcq-24",
-        "response-mcq-26",
-        "response-mcq-23",
-        "response-mcq-27",
-        "response-mcq-22"
+        "response-pdf-001",
+        "response-mcq-34",
+        "response-mcq-23"
       ],
       "explanation": "本句的「response」指「觀眾對表演、內容或作品的整體反應」。",
       "sentenceIndex": 77,
@@ -2348,12 +2154,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-25": "本句指「觀眾對表演、內容或作品的整體反應」。",
-        "response-mcq-24": "「市場參與者因資訊／事件而出現的價格或行為反應」與本句語境不同。",
-        "response-mcq-26": "「讀者對文本產生的理解、感受和反應」與本句語境不同。",
-        "response-mcq-23": "「為處理某問題而採取的政策措施」與本句語境不同。",
-        "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。",
-        "response-mcq-22": "「對事故、故障或網絡事件的系統化處理」與本句語境不同。"
+        "response-mcq-25": "本句的「response」指「觀眾對表演、內容或作品的整體反應」。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-25"
     },
@@ -2365,11 +2169,9 @@ export default {
       "masked": "The class discussed different ____.",
       "options": [
         "response-mcq-26",
-        "response-mcq-25",
-        "response-mcq-27",
-        "response-mcq-24",
+        "response-pdf-002",
         "response-mcq-28",
-        "response-mcq-23"
+        "response-pdf-001"
       ],
       "explanation": "本句的「reader responses」指「讀者對文本產生的理解、感受和反應」。",
       "sentenceIndex": 82,
@@ -2378,12 +2180,10 @@ export default {
         "reader responses"
       ],
       "optionReasons": {
-        "response-mcq-26": "本句指「讀者對文本產生的理解、感受和反應」。",
-        "response-mcq-25": "「觀眾對表演、內容或作品的整體反應」與本句語境不同。",
-        "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。",
-        "response-mcq-24": "「市場參與者因資訊／事件而出現的價格或行為反應」與本句語境不同。",
-        "response-mcq-28": "「一方發出請求、另一方返回結果的通訊模式」與本句語境不同。",
-        "response-mcq-23": "「為處理某問題而採取的政策措施」與本句語境不同。"
+        "response-mcq-26": "本句的「reader responses」指「讀者對文本產生的理解、感受和反應」。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-26"
     },
@@ -2395,11 +2195,9 @@ export default {
       "masked": "Reader ____ can vary according to experience.",
       "options": [
         "response-mcq-26",
-        "response-mcq-25",
-        "response-mcq-27",
-        "response-mcq-24",
-        "response-mcq-28",
-        "response-mcq-23"
+        "response-mcq-36",
+        "response-pdf-001",
+        "response-mcq-28"
       ],
       "explanation": "本句的「response」指「讀者對文本產生的理解、感受和反應」。",
       "sentenceIndex": 83,
@@ -2408,12 +2206,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-26": "本句指「讀者對文本產生的理解、感受和反應」。",
-        "response-mcq-25": "「觀眾對表演、內容或作品的整體反應」與本句語境不同。",
-        "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。",
-        "response-mcq-24": "「市場參與者因資訊／事件而出現的價格或行為反應」與本句語境不同。",
-        "response-mcq-28": "「一方發出請求、另一方返回結果的通訊模式」與本句語境不同。",
-        "response-mcq-23": "「為處理某問題而採取的政策措施」與本句語境不同。"
+        "response-mcq-26": "本句的「response」指「讀者對文本產生的理解、感受和反應」。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-26"
     },
@@ -2425,11 +2221,9 @@ export default {
       "masked": "The essay uses ____.",
       "options": [
         "response-mcq-26",
-        "response-mcq-25",
-        "response-mcq-27",
-        "response-mcq-24",
-        "response-mcq-28",
-        "response-mcq-23"
+        "response-mcq-12",
+        "response-pdf-001",
+        "response-mcq-28"
       ],
       "explanation": "本句的「reader-response criticism」指「讀者對文本產生的理解、感受和反應」。",
       "sentenceIndex": 84,
@@ -2438,12 +2232,10 @@ export default {
         "reader-response criticism"
       ],
       "optionReasons": {
-        "response-mcq-26": "本句指「讀者對文本產生的理解、感受和反應」。",
-        "response-mcq-25": "「觀眾對表演、內容或作品的整體反應」與本句語境不同。",
-        "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。",
-        "response-mcq-24": "「市場參與者因資訊／事件而出現的價格或行為反應」與本句語境不同。",
-        "response-mcq-28": "「一方發出請求、另一方返回結果的通訊模式」與本句語境不同。",
-        "response-mcq-23": "「為處理某問題而採取的政策措施」與本句語境不同。"
+        "response-mcq-26": "本句的「reader-response criticism」指「讀者對文本產生的理解、感受和反應」。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-26"
     },
@@ -2455,11 +2247,9 @@ export default {
       "masked": "Reader-____ theory focuses on how readers create meaning.",
       "options": [
         "response-mcq-26",
-        "response-mcq-25",
-        "response-mcq-27",
-        "response-mcq-24",
         "response-mcq-28",
-        "response-mcq-23"
+        "response-mcq-36",
+        "response-pdf-001"
       ],
       "explanation": "本句的「response」指「讀者對文本產生的理解、感受和反應」。",
       "sentenceIndex": 85,
@@ -2468,12 +2258,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-26": "本句指「讀者對文本產生的理解、感受和反應」。",
-        "response-mcq-25": "「觀眾對表演、內容或作品的整體反應」與本句語境不同。",
-        "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。",
-        "response-mcq-24": "「市場參與者因資訊／事件而出現的價格或行為反應」與本句語境不同。",
-        "response-mcq-28": "「一方發出請求、另一方返回結果的通訊模式」與本句語境不同。",
-        "response-mcq-23": "「為處理某問題而採取的政策措施」與本句語境不同。"
+        "response-mcq-26": "本句的「response」指「讀者對文本產生的理解、感受和反應」。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-26"
     },
@@ -2485,11 +2273,9 @@ export default {
       "masked": "HTTP commonly uses a ____ model.",
       "options": [
         "response-mcq-28",
-        "response-mcq-27",
-        "response-mcq-29",
         "response-mcq-26",
-        "response-mcq-30",
-        "response-mcq-25"
+        "response-mcq-36",
+        "response-mcq-22"
       ],
       "explanation": "本句的「request-response」指「一方發出請求、另一方返回結果的通訊模式」。",
       "sentenceIndex": 92,
@@ -2498,12 +2284,10 @@ export default {
         "request-response"
       ],
       "optionReasons": {
-        "response-mcq-28": "本句指「一方發出請求、另一方返回結果的通訊模式」。",
-        "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。",
-        "response-mcq-29": "「能迅速注意並適當回應需求／訊息的」與本句語境不同。",
-        "response-mcq-26": "「讀者對文本產生的理解、感受和反應」與本句語境不同。",
-        "response-mcq-30": "「對聲音、疼痛等刺激能作出反應的」與本句語境不同。",
-        "response-mcq-25": "「觀眾對表演、內容或作品的整體反應」與本句語境不同。"
+        "response-mcq-28": "本句的「request-response」指「一方發出請求、另一方返回結果的通訊模式」。",
+        "response-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-28"
     },
@@ -2515,11 +2299,9 @@ export default {
       "masked": "The client sends a request and receives a ____.",
       "options": [
         "response-mcq-28",
-        "response-mcq-27",
-        "response-mcq-29",
-        "response-mcq-26",
-        "response-mcq-30",
-        "response-mcq-25"
+        "response-mcq-25",
+        "response-pdf-002",
+        "response-mcq-23"
       ],
       "explanation": "本句的「response」指「一方發出請求、另一方返回結果的通訊模式」。",
       "sentenceIndex": 93,
@@ -2528,12 +2310,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-28": "本句指「一方發出請求、另一方返回結果的通訊模式」。",
-        "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。",
-        "response-mcq-29": "「能迅速注意並適當回應需求／訊息的」與本句語境不同。",
-        "response-mcq-26": "「讀者對文本產生的理解、感受和反應」與本句語境不同。",
-        "response-mcq-30": "「對聲音、疼痛等刺激能作出反應的」與本句語境不同。",
-        "response-mcq-25": "「觀眾對表演、內容或作品的整體反應」與本句語境不同。"
+        "response-mcq-28": "本句的「response」指「一方發出請求、另一方返回結果的通訊模式」。",
+        "response-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-28"
     },
@@ -2545,11 +2325,9 @@ export default {
       "masked": "The support team is very ____.",
       "options": [
         "response-mcq-30",
-        "response-mcq-29",
-        "response-mcq-31",
-        "response-mcq-28",
-        "response-mcq-32",
-        "response-mcq-27"
+        "response-mcq-23",
+        "response-pdf-001",
+        "response-mcq-36"
       ],
       "explanation": "本句的「responsive」指「對聲音、疼痛等刺激能作出反應的」。",
       "sentenceIndex": 102,
@@ -2558,12 +2336,10 @@ export default {
         "responsive"
       ],
       "optionReasons": {
-        "response-mcq-30": "本句指「對聲音、疼痛等刺激能作出反應的」。",
-        "response-mcq-29": "「能迅速注意並適當回應需求／訊息的」與本句語境不同。",
-        "response-mcq-31": "「網頁版面會根據裝置／螢幕尺寸自動調整的設計」與本句語境不同。",
-        "response-mcq-28": "「一方發出請求、另一方返回結果的通訊模式」與本句語境不同。",
-        "response-mcq-32": "「作出快速、適當反應的程度／能力」與本句語境不同。",
-        "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。"
+        "response-mcq-30": "本句的「responsive」指「對聲音、疼痛等刺激能作出反應的」。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-30"
     },
@@ -2575,11 +2351,9 @@ export default {
       "masked": "She is ____ to feedback.",
       "options": [
         "response-mcq-30",
-        "response-mcq-29",
-        "response-mcq-31",
-        "response-mcq-28",
-        "response-mcq-32",
-        "response-mcq-27"
+        "response-mcq-23",
+        "response-pdf-001",
+        "response-mcq-34"
       ],
       "explanation": "本句的「responsive」指「對聲音、疼痛等刺激能作出反應的」。",
       "sentenceIndex": 103,
@@ -2588,12 +2362,10 @@ export default {
         "responsive"
       ],
       "optionReasons": {
-        "response-mcq-30": "本句指「對聲音、疼痛等刺激能作出反應的」。",
-        "response-mcq-29": "「能迅速注意並適當回應需求／訊息的」與本句語境不同。",
-        "response-mcq-31": "「網頁版面會根據裝置／螢幕尺寸自動調整的設計」與本句語境不同。",
-        "response-mcq-28": "「一方發出請求、另一方返回結果的通訊模式」與本句語境不同。",
-        "response-mcq-32": "「作出快速、適當反應的程度／能力」與本句語境不同。",
-        "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。"
+        "response-mcq-30": "本句的「responsive」指「對聲音、疼痛等刺激能作出反應的」。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-30"
     },
@@ -2605,11 +2377,9 @@ export default {
       "masked": "The patient was conscious and ____.",
       "options": [
         "response-mcq-30",
-        "response-mcq-29",
-        "response-mcq-31",
-        "response-mcq-28",
-        "response-mcq-32",
-        "response-mcq-27"
+        "response-mcq-33",
+        "response-mcq-21",
+        "response-mcq-36"
       ],
       "explanation": "本句的「responsive」指「對聲音、疼痛等刺激能作出反應的」。",
       "sentenceIndex": 106,
@@ -2618,12 +2388,10 @@ export default {
         "responsive"
       ],
       "optionReasons": {
-        "response-mcq-30": "本句指「對聲音、疼痛等刺激能作出反應的」。",
-        "response-mcq-29": "「能迅速注意並適當回應需求／訊息的」與本句語境不同。",
-        "response-mcq-31": "「網頁版面會根據裝置／螢幕尺寸自動調整的設計」與本句語境不同。",
-        "response-mcq-28": "「一方發出請求、另一方返回結果的通訊模式」與本句語境不同。",
-        "response-mcq-32": "「作出快速、適當反應的程度／能力」與本句語境不同。",
-        "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。"
+        "response-mcq-30": "本句的「responsive」指「對聲音、疼痛等刺激能作出反應的」。",
+        "response-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-30"
     },
@@ -2635,11 +2403,9 @@ export default {
       "masked": "Check whether the person is ____.",
       "options": [
         "response-mcq-30",
-        "response-mcq-29",
-        "response-mcq-31",
-        "response-mcq-28",
-        "response-mcq-32",
-        "response-mcq-27"
+        "response-mcq-23",
+        "response-mcq-34",
+        "response-mcq-36"
       ],
       "explanation": "本句的「responsive」指「對聲音、疼痛等刺激能作出反應的」。",
       "sentenceIndex": 107,
@@ -2648,12 +2414,10 @@ export default {
         "responsive"
       ],
       "optionReasons": {
-        "response-mcq-30": "本句指「對聲音、疼痛等刺激能作出反應的」。",
-        "response-mcq-29": "「能迅速注意並適當回應需求／訊息的」與本句語境不同。",
-        "response-mcq-31": "「網頁版面會根據裝置／螢幕尺寸自動調整的設計」與本句語境不同。",
-        "response-mcq-28": "「一方發出請求、另一方返回結果的通訊模式」與本句語境不同。",
-        "response-mcq-32": "「作出快速、適當反應的程度／能力」與本句語境不同。",
-        "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。"
+        "response-mcq-30": "本句的「responsive」指「對聲音、疼痛等刺激能作出反應的」。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-30"
     },
@@ -2665,11 +2429,9 @@ export default {
       "masked": "The website has a ____.",
       "options": [
         "response-pdf-002",
-        "response-mcq-29",
-        "response-mcq-31",
-        "response-mcq-28",
-        "response-mcq-32",
-        "response-mcq-27"
+        "response-mcq-35",
+        "response-mcq-12",
+        "response-mcq-38"
       ],
       "explanation": "本句的「responsive design」指「網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整」。",
       "sentenceIndex": 111,
@@ -2678,12 +2440,10 @@ export default {
         "responsive design"
       ],
       "optionReasons": {
-        "response-pdf-002": "本句指「網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整」。",
-        "response-mcq-29": "「能迅速注意並適當回應需求／訊息的」與本句語境不同。",
-        "response-mcq-31": "「網頁版面會根據裝置／螢幕尺寸自動調整的設計」與本句語境不同。",
-        "response-mcq-28": "「一方發出請求、另一方返回結果的通訊模式」與本句語境不同。",
-        "response-mcq-32": "「作出快速、適當反應的程度／能力」與本句語境不同。",
-        "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。"
+        "response-pdf-002": "本句的「responsive design」指「網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整」。",
+        "response-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-pdf-002"
     },
@@ -2695,11 +2455,9 @@ export default {
       "masked": "____ pages adapt to different screen sizes.",
       "options": [
         "response-pdf-002",
-        "response-mcq-29",
-        "response-mcq-31",
-        "response-mcq-28",
-        "response-mcq-32",
-        "response-mcq-27"
+        "response-mcq-02",
+        "response-mcq-12",
+        "response-mcq-35"
       ],
       "explanation": "本句的「Responsive」指「網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整」。",
       "sentenceIndex": 112,
@@ -2708,12 +2466,10 @@ export default {
         "Responsive"
       ],
       "optionReasons": {
-        "response-pdf-002": "本句指「網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整」。",
-        "response-mcq-29": "「能迅速注意並適當回應需求／訊息的」與本句語境不同。",
-        "response-mcq-31": "「網頁版面會根據裝置／螢幕尺寸自動調整的設計」與本句語境不同。",
-        "response-mcq-28": "「一方發出請求、另一方返回結果的通訊模式」與本句語境不同。",
-        "response-mcq-32": "「作出快速、適當反應的程度／能力」與本句語境不同。",
-        "response-mcq-27": "「系統收到請求後返回的資料／結果」與本句語境不同。"
+        "response-pdf-002": "本句的「Responsive」指「網頁版面會根據手機、平板、電腦等不同螢幕尺寸自動調整」。",
+        "response-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-pdf-002"
     },
@@ -2725,11 +2481,9 @@ export default {
       "masked": "Customers praised the team’s ____.",
       "options": [
         "response-mcq-32",
-        "response-mcq-31",
-        "response-mcq-33",
-        "response-mcq-30",
-        "response-mcq-34",
-        "response-mcq-29"
+        "response-mcq-21",
+        "response-mcq-15",
+        "response-pdf-001"
       ],
       "explanation": "本句的「responsiveness」指「作出快速、適當反應的程度／能力」。",
       "sentenceIndex": 115,
@@ -2738,12 +2492,10 @@ export default {
         "responsiveness"
       ],
       "optionReasons": {
-        "response-mcq-32": "本句指「作出快速、適當反應的程度／能力」。",
-        "response-mcq-31": "「網頁版面會根據裝置／螢幕尺寸自動調整的設計」與本句語境不同。",
-        "response-mcq-33": "「回答本身受到系統性因素影響而產生的偏差」與本句語境不同。",
-        "response-mcq-30": "「對聲音、疼痛等刺激能作出反應的」與本句語境不同。",
-        "response-mcq-34": "「未回覆者與回覆者存在差異而造成的樣本偏差」與本句語境不同。",
-        "response-mcq-29": "「能迅速注意並適當回應需求／訊息的」與本句語境不同。"
+        "response-mcq-32": "本句的「responsiveness」指「作出快速、適當反應的程度／能力」。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-32"
     },
@@ -2755,11 +2507,9 @@ export default {
       "masked": "____ is important in customer service.",
       "options": [
         "response-mcq-32",
-        "response-mcq-31",
-        "response-mcq-33",
-        "response-mcq-30",
-        "response-mcq-34",
-        "response-mcq-29"
+        "response-mcq-21",
+        "response-pdf-001",
+        "response-pdf-002"
       ],
       "explanation": "本句的「Responsiveness」指「作出快速、適當反應的程度／能力」。",
       "sentenceIndex": 116,
@@ -2768,12 +2518,10 @@ export default {
         "Responsiveness"
       ],
       "optionReasons": {
-        "response-mcq-32": "本句指「作出快速、適當反應的程度／能力」。",
-        "response-mcq-31": "「網頁版面會根據裝置／螢幕尺寸自動調整的設計」與本句語境不同。",
-        "response-mcq-33": "「回答本身受到系統性因素影響而產生的偏差」與本句語境不同。",
-        "response-mcq-30": "「對聲音、疼痛等刺激能作出反應的」與本句語境不同。",
-        "response-mcq-34": "「未回覆者與回覆者存在差異而造成的樣本偏差」與本句語境不同。",
-        "response-mcq-29": "「能迅速注意並適當回應需求／訊息的」與本句語境不同。"
+        "response-mcq-32": "本句的「Responsiveness」指「作出快速、適當反應的程度／能力」。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-32"
     },
@@ -2785,11 +2533,9 @@ export default {
       "masked": "The survey may contain ____.",
       "options": [
         "response-mcq-33",
-        "response-mcq-32",
-        "response-mcq-34",
-        "response-mcq-31",
-        "response-mcq-35",
-        "response-mcq-30"
+        "response-mcq-25",
+        "response-mcq-23",
+        "response-mcq-07"
       ],
       "explanation": "本句的「response bias」指「回答本身受到系統性因素影響而產生的偏差」。",
       "sentenceIndex": 129,
@@ -2798,12 +2544,10 @@ export default {
         "response bias"
       ],
       "optionReasons": {
-        "response-mcq-33": "本句指「回答本身受到系統性因素影響而產生的偏差」。",
-        "response-mcq-32": "「作出快速、適當反應的程度／能力」與本句語境不同。",
-        "response-mcq-34": "「未回覆者與回覆者存在差異而造成的樣本偏差」與本句語境不同。",
-        "response-mcq-31": "「網頁版面會根據裝置／螢幕尺寸自動調整的設計」與本句語境不同。",
-        "response-mcq-35": "「以較短文字回答問題的題型／答案」與本句語境不同。",
-        "response-mcq-30": "「對聲音、疼痛等刺激能作出反應的」與本句語境不同。"
+        "response-mcq-33": "本句的「response bias」指「回答本身受到系統性因素影響而產生的偏差」。",
+        "response-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-33"
     },
@@ -2815,11 +2559,9 @@ export default {
       "masked": "Social pressure can create ____ bias.",
       "options": [
         "response-mcq-33",
-        "response-mcq-32",
-        "response-mcq-34",
-        "response-mcq-31",
-        "response-mcq-35",
-        "response-mcq-30"
+        "response-mcq-30",
+        "response-mcq-23",
+        "response-mcq-28"
       ],
       "explanation": "本句的「response」指「回答本身受到系統性因素影響而產生的偏差」。",
       "sentenceIndex": 130,
@@ -2828,12 +2570,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-33": "本句指「回答本身受到系統性因素影響而產生的偏差」。",
-        "response-mcq-32": "「作出快速、適當反應的程度／能力」與本句語境不同。",
-        "response-mcq-34": "「未回覆者與回覆者存在差異而造成的樣本偏差」與本句語境不同。",
-        "response-mcq-31": "「網頁版面會根據裝置／螢幕尺寸自動調整的設計」與本句語境不同。",
-        "response-mcq-35": "「以較短文字回答問題的題型／答案」與本句語境不同。",
-        "response-mcq-30": "「對聲音、疼痛等刺激能作出反應的」與本句語境不同。"
+        "response-mcq-33": "本句的「response」指「回答本身受到系統性因素影響而產生的偏差」。",
+        "response-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-33"
     },
@@ -2845,11 +2585,9 @@ export default {
       "masked": "The researchers adjusted for ____.",
       "options": [
         "response-mcq-34",
-        "response-mcq-33",
-        "response-mcq-35",
-        "response-mcq-32",
-        "response-mcq-36",
-        "response-mcq-31"
+        "response-mcq-23",
+        "response-mcq-20",
+        "response-mcq-36"
       ],
       "explanation": "本句的「nonresponse」指「未回覆者與回覆者存在差異而造成的樣本偏差」。",
       "sentenceIndex": 131,
@@ -2858,12 +2596,10 @@ export default {
         "nonresponse"
       ],
       "optionReasons": {
-        "response-mcq-34": "本句指「未回覆者與回覆者存在差異而造成的樣本偏差」。",
-        "response-mcq-33": "「回答本身受到系統性因素影響而產生的偏差」與本句語境不同。",
-        "response-mcq-35": "「以較短文字回答問題的題型／答案」與本句語境不同。",
-        "response-mcq-32": "「作出快速、適當反應的程度／能力」與本句語境不同。",
-        "response-mcq-36": "「需要較完整論述、篇幅較長的作答」與本句語境不同。",
-        "response-mcq-31": "「網頁版面會根據裝置／螢幕尺寸自動調整的設計」與本句語境不同。"
+        "response-mcq-34": "本句的「nonresponse」指「未回覆者與回覆者存在差異而造成的樣本偏差」。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-34"
     },
@@ -2875,11 +2611,9 @@ export default {
       "masked": "The sample may suffer from ____.",
       "options": [
         "response-mcq-34",
-        "response-mcq-33",
-        "response-mcq-35",
-        "response-mcq-32",
-        "response-mcq-36",
-        "response-mcq-31"
+        "response-mcq-12",
+        "response-mcq-25",
+        "response-mcq-22"
       ],
       "explanation": "本句的「nonresponse bias」指「未回覆者與回覆者存在差異而造成的樣本偏差」。",
       "sentenceIndex": 132,
@@ -2888,12 +2622,10 @@ export default {
         "nonresponse bias"
       ],
       "optionReasons": {
-        "response-mcq-34": "本句指「未回覆者與回覆者存在差異而造成的樣本偏差」。",
-        "response-mcq-33": "「回答本身受到系統性因素影響而產生的偏差」與本句語境不同。",
-        "response-mcq-35": "「以較短文字回答問題的題型／答案」與本句語境不同。",
-        "response-mcq-32": "「作出快速、適當反應的程度／能力」與本句語境不同。",
-        "response-mcq-36": "「需要較完整論述、篇幅較長的作答」與本句語境不同。",
-        "response-mcq-31": "「網頁版面會根據裝置／螢幕尺寸自動調整的設計」與本句語境不同。"
+        "response-mcq-34": "本句的「nonresponse bias」指「未回覆者與回覆者存在差異而造成的樣本偏差」。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-34"
     },
@@ -2905,11 +2637,9 @@ export default {
       "masked": "Write a short ____ to the passage.",
       "options": [
         "response-mcq-01",
-        "response-mcq-02",
-        "response-mcq-03",
-        "response-mcq-04",
-        "response-mcq-05",
-        "response-mcq-06"
+        "response-mcq-18",
+        "response-mcq-21",
+        "response-pdf-002"
       ],
       "explanation": "本句的「response」指「對問題、訊息、要求或說話作出的回答／回覆」。",
       "sentenceIndex": 137,
@@ -2918,12 +2648,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-01": "本句指「對問題、訊息、要求或說話作出的回答／回覆」。",
-        "response-mcq-02": "「受到事件、刺激或情況影響後產生的反應」與本句語境不同。",
-        "response-mcq-03": "「使用者看到網上內容後作出的留言、回覆或其他反應」與本句語境不同。",
-        "response-mcq-04": "「因應 X 而作出回應、改變或行動」與本句語境不同。",
-        "response-mcq-05": "「對某事作出的正面／負面反應」與本句語境不同。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。"
+        "response-mcq-01": "本句的「response」指「對問題、訊息、要求或說話作出的回答／回覆」。",
+        "response-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-01"
     },
@@ -2935,11 +2663,9 @@ export default {
       "masked": "Your ____ should refer to evidence from the text.",
       "options": [
         "response-mcq-01",
-        "response-mcq-02",
-        "response-mcq-03",
-        "response-mcq-04",
-        "response-mcq-05",
-        "response-mcq-06"
+        "response-mcq-18",
+        "response-pdf-002",
+        "response-mcq-21"
       ],
       "explanation": "本句的「response」指「對問題、訊息、要求或說話作出的回答／回覆」。",
       "sentenceIndex": 138,
@@ -2948,12 +2674,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-01": "本句指「對問題、訊息、要求或說話作出的回答／回覆」。",
-        "response-mcq-02": "「受到事件、刺激或情況影響後產生的反應」與本句語境不同。",
-        "response-mcq-03": "「使用者看到網上內容後作出的留言、回覆或其他反應」與本句語境不同。",
-        "response-mcq-04": "「因應 X 而作出回應、改變或行動」與本句語境不同。",
-        "response-mcq-05": "「對某事作出的正面／負面反應」與本句語境不同。",
-        "response-mcq-06": "「同時存在正面與負面反應；褒貶不一」與本句語境不同。"
+        "response-mcq-01": "本句的「response」指「對問題、訊息、要求或說話作出的回答／回覆」。",
+        "response-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-01"
     },
@@ -2965,11 +2689,9 @@ export default {
       "masked": "Section B contains five ____.",
       "options": [
         "response-mcq-35",
-        "response-mcq-34",
-        "response-mcq-36",
-        "response-mcq-33",
-        "response-mcq-37",
-        "response-mcq-32"
+        "response-mcq-17",
+        "response-mcq-22",
+        "response-mcq-12"
       ],
       "explanation": "本句的「short-response questions」指「以較短文字回答問題的題型／答案」。",
       "sentenceIndex": 139,
@@ -2978,12 +2700,10 @@ export default {
         "short-response questions"
       ],
       "optionReasons": {
-        "response-mcq-35": "本句指「以較短文字回答問題的題型／答案」。",
-        "response-mcq-34": "「未回覆者與回覆者存在差異而造成的樣本偏差」與本句語境不同。",
-        "response-mcq-36": "「需要較完整論述、篇幅較長的作答」與本句語境不同。",
-        "response-mcq-33": "「回答本身受到系統性因素影響而產生的偏差」與本句語境不同。",
-        "response-mcq-37": "「未經有意識思考便自然／習慣性出現的反應」與本句語境不同。",
-        "response-mcq-32": "「作出快速、適當反應的程度／能力」與本句語境不同。"
+        "response-mcq-35": "本句的「short-response questions」指「以較短文字回答問題的題型／答案」。",
+        "response-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-35"
     },
@@ -2995,11 +2715,9 @@ export default {
       "masked": "Give a short ____ in two sentences.",
       "options": [
         "response-mcq-35",
-        "response-mcq-34",
-        "response-mcq-36",
-        "response-mcq-33",
-        "response-mcq-37",
-        "response-mcq-32"
+        "response-mcq-06",
+        "response-mcq-21",
+        "response-mcq-15"
       ],
       "explanation": "本句的「response」指「以較短文字回答問題的題型／答案」。",
       "sentenceIndex": 140,
@@ -3008,12 +2726,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-35": "本句指「以較短文字回答問題的題型／答案」。",
-        "response-mcq-34": "「未回覆者與回覆者存在差異而造成的樣本偏差」與本句語境不同。",
-        "response-mcq-36": "「需要較完整論述、篇幅較長的作答」與本句語境不同。",
-        "response-mcq-33": "「回答本身受到系統性因素影響而產生的偏差」與本句語境不同。",
-        "response-mcq-37": "「未經有意識思考便自然／習慣性出現的反應」與本句語境不同。",
-        "response-mcq-32": "「作出快速、適當反應的程度／能力」與本句語境不同。"
+        "response-mcq-35": "本句的「response」指「以較短文字回答問題的題型／答案」。",
+        "response-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-35"
     },
@@ -3025,11 +2741,9 @@ export default {
       "masked": "The final question requires an ____.",
       "options": [
         "response-mcq-36",
-        "response-mcq-35",
-        "response-mcq-37",
-        "response-mcq-34",
-        "response-mcq-38",
-        "response-mcq-33"
+        "response-mcq-23",
+        "response-mcq-20",
+        "response-mcq-34"
       ],
       "explanation": "本句的「extended response」指「需要較完整論述、篇幅較長的作答」。",
       "sentenceIndex": 141,
@@ -3038,12 +2752,10 @@ export default {
         "extended response"
       ],
       "optionReasons": {
-        "response-mcq-36": "本句指「需要較完整論述、篇幅較長的作答」。",
-        "response-mcq-35": "「以較短文字回答問題的題型／答案」與本句語境不同。",
-        "response-mcq-37": "「未經有意識思考便自然／習慣性出現的反應」與本句語境不同。",
-        "response-mcq-34": "「未回覆者與回覆者存在差異而造成的樣本偏差」與本句語境不同。",
-        "response-mcq-38": "「經學習建立、由特定刺激觸發的反應」與本句語境不同。",
-        "response-mcq-33": "「回答本身受到系統性因素影響而產生的偏差」與本句語境不同。"
+        "response-mcq-36": "本句的「extended response」指「需要較完整論述、篇幅較長的作答」。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-36"
     },
@@ -3055,11 +2767,9 @@ export default {
       "masked": "An extended ____ should develop a clear argument.",
       "options": [
         "response-mcq-36",
-        "response-mcq-35",
-        "response-mcq-37",
-        "response-mcq-34",
-        "response-mcq-38",
-        "response-mcq-33"
+        "response-mcq-18",
+        "response-mcq-23",
+        "response-mcq-34"
       ],
       "explanation": "本句的「response」指「需要較完整論述、篇幅較長的作答」。",
       "sentenceIndex": 142,
@@ -3068,12 +2778,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-36": "本句指「需要較完整論述、篇幅較長的作答」。",
-        "response-mcq-35": "「以較短文字回答問題的題型／答案」與本句語境不同。",
-        "response-mcq-37": "「未經有意識思考便自然／習慣性出現的反應」與本句語境不同。",
-        "response-mcq-34": "「未回覆者與回覆者存在差異而造成的樣本偏差」與本句語境不同。",
-        "response-mcq-38": "「經學習建立、由特定刺激觸發的反應」與本句語境不同。",
-        "response-mcq-33": "「回答本身受到系統性因素影響而產生的偏差」與本句語境不同。"
+        "response-mcq-36": "本句的「response」指「需要較完整論述、篇幅較長的作答」。",
+        "response-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-36"
     },
@@ -3085,11 +2793,9 @@ export default {
       "masked": "Checking the phone became an ____ to every buzz.",
       "options": [
         "response-mcq-37",
-        "response-mcq-36",
-        "response-mcq-38",
-        "response-mcq-35",
-        "response-mcq-39",
-        "response-mcq-34"
+        "response-mcq-21",
+        "response-mcq-15",
+        "response-mcq-36"
       ],
       "explanation": "本句的「automatic response」指「未經有意識思考便自然／習慣性出現的反應」。",
       "sentenceIndex": 165,
@@ -3098,12 +2804,10 @@ export default {
         "automatic response"
       ],
       "optionReasons": {
-        "response-mcq-37": "本句指「未經有意識思考便自然／習慣性出現的反應」。",
-        "response-mcq-36": "「需要較完整論述、篇幅較長的作答」與本句語境不同。",
-        "response-mcq-38": "「經學習建立、由特定刺激觸發的反應」與本句語境不同。",
-        "response-mcq-35": "「以較短文字回答問題的題型／答案」與本句語境不同。",
-        "response-mcq-39": "「由神經系統快速自動產生的反射性反應」與本句語境不同。",
-        "response-mcq-34": "「未回覆者與回覆者存在差異而造成的樣本偏差」與本句語境不同。"
+        "response-mcq-37": "本句的「automatic response」指「未經有意識思考便自然／習慣性出現的反應」。",
+        "response-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-37"
     },
@@ -3115,11 +2819,9 @@ export default {
       "masked": "Blinking is an automatic ____ to sudden movement near the eye.",
       "options": [
         "response-mcq-37",
-        "response-mcq-36",
-        "response-mcq-38",
-        "response-mcq-35",
-        "response-mcq-39",
-        "response-mcq-34"
+        "response-mcq-22",
+        "response-pdf-001",
+        "response-mcq-15"
       ],
       "explanation": "本句的「response」指「未經有意識思考便自然／習慣性出現的反應」。",
       "sentenceIndex": 166,
@@ -3128,12 +2830,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-37": "本句指「未經有意識思考便自然／習慣性出現的反應」。",
-        "response-mcq-36": "「需要較完整論述、篇幅較長的作答」與本句語境不同。",
-        "response-mcq-38": "「經學習建立、由特定刺激觸發的反應」與本句語境不同。",
-        "response-mcq-35": "「以較短文字回答問題的題型／答案」與本句語境不同。",
-        "response-mcq-39": "「由神經系統快速自動產生的反射性反應」與本句語境不同。",
-        "response-mcq-34": "「未回覆者與回覆者存在差異而造成的樣本偏差」與本句語境不同。"
+        "response-mcq-37": "本句的「response」指「未經有意識思考便自然／習慣性出現的反應」。",
+        "response-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "response-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-37"
     },
@@ -3145,11 +2845,9 @@ export default {
       "masked": "The sound eventually produced a ____.",
       "options": [
         "response-mcq-38",
-        "response-mcq-37",
-        "response-mcq-39",
-        "response-mcq-36",
+        "response-mcq-12",
         "response-mcq-35",
-        "response-mcq-34"
+        "response-mcq-36"
       ],
       "explanation": "本句的「conditioned response」指「經學習建立、由特定刺激觸發的反應」。",
       "sentenceIndex": 167,
@@ -3158,12 +2856,10 @@ export default {
         "conditioned response"
       ],
       "optionReasons": {
-        "response-mcq-38": "本句指「經學習建立、由特定刺激觸發的反應」。",
-        "response-mcq-37": "「未經有意識思考便自然／習慣性出現的反應」與本句語境不同。",
-        "response-mcq-39": "「由神經系統快速自動產生的反射性反應」與本句語境不同。",
-        "response-mcq-36": "「需要較完整論述、篇幅較長的作答」與本句語境不同。",
-        "response-mcq-35": "「以較短文字回答問題的題型／答案」與本句語境不同。",
-        "response-mcq-34": "「未回覆者與回覆者存在差異而造成的樣本偏差」與本句語境不同。"
+        "response-mcq-38": "本句的「conditioned response」指「經學習建立、由特定刺激觸發的反應」。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-38"
     },
@@ -3175,11 +2871,9 @@ export default {
       "masked": "Conditioned ____ are learned rather than innate.",
       "options": [
         "response-mcq-38",
-        "response-mcq-37",
-        "response-mcq-39",
-        "response-mcq-36",
+        "response-mcq-22",
         "response-mcq-35",
-        "response-mcq-34"
+        "response-mcq-12"
       ],
       "explanation": "本句的「responses」指「經學習建立、由特定刺激觸發的反應」。",
       "sentenceIndex": 168,
@@ -3188,12 +2882,10 @@ export default {
         "responses"
       ],
       "optionReasons": {
-        "response-mcq-38": "本句指「經學習建立、由特定刺激觸發的反應」。",
-        "response-mcq-37": "「未經有意識思考便自然／習慣性出現的反應」與本句語境不同。",
-        "response-mcq-39": "「由神經系統快速自動產生的反射性反應」與本句語境不同。",
-        "response-mcq-36": "「需要較完整論述、篇幅較長的作答」與本句語境不同。",
-        "response-mcq-35": "「以較短文字回答問題的題型／答案」與本句語境不同。",
-        "response-mcq-34": "「未回覆者與回覆者存在差異而造成的樣本偏差」與本句語境不同。"
+        "response-mcq-38": "本句的「responses」指「經學習建立、由特定刺激觸發的反應」。",
+        "response-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-38"
     },
@@ -3205,11 +2897,9 @@ export default {
       "masked": "The doctor tested the patient’s ____.",
       "options": [
         "response-mcq-39",
-        "response-mcq-38",
-        "response-mcq-37",
-        "response-mcq-36",
-        "response-mcq-35",
-        "response-mcq-34"
+        "response-mcq-28",
+        "response-mcq-10",
+        "response-mcq-36"
       ],
       "explanation": "本句的「reflex response」指「由神經系統快速自動產生的反射性反應」。",
       "sentenceIndex": 169,
@@ -3218,12 +2908,10 @@ export default {
         "reflex response"
       ],
       "optionReasons": {
-        "response-mcq-39": "本句指「由神經系統快速自動產生的反射性反應」。",
-        "response-mcq-38": "「經學習建立、由特定刺激觸發的反應」與本句語境不同。",
-        "response-mcq-37": "「未經有意識思考便自然／習慣性出現的反應」與本句語境不同。",
-        "response-mcq-36": "「需要較完整論述、篇幅較長的作答」與本句語境不同。",
-        "response-mcq-35": "「以較短文字回答問題的題型／答案」與本句語境不同。",
-        "response-mcq-34": "「未回覆者與回覆者存在差異而造成的樣本偏差」與本句語境不同。"
+        "response-mcq-39": "本句的「reflex response」指「由神經系統快速自動產生的反射性反應」。",
+        "response-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-39"
     },
@@ -3235,11 +2923,9 @@ export default {
       "masked": "Pulling your hand away can be a reflex ____.",
       "options": [
         "response-mcq-39",
-        "response-mcq-38",
-        "response-mcq-37",
-        "response-mcq-36",
-        "response-mcq-35",
-        "response-mcq-34"
+        "response-mcq-12",
+        "response-mcq-10",
+        "response-mcq-36"
       ],
       "explanation": "本句的「response」指「由神經系統快速自動產生的反射性反應」。",
       "sentenceIndex": 170,
@@ -3248,12 +2934,10 @@ export default {
         "response"
       ],
       "optionReasons": {
-        "response-mcq-39": "本句指「由神經系統快速自動產生的反射性反應」。",
-        "response-mcq-38": "「經學習建立、由特定刺激觸發的反應」與本句語境不同。",
-        "response-mcq-37": "「未經有意識思考便自然／習慣性出現的反應」與本句語境不同。",
-        "response-mcq-36": "「需要較完整論述、篇幅較長的作答」與本句語境不同。",
-        "response-mcq-35": "「以較短文字回答問題的題型／答案」與本句語境不同。",
-        "response-mcq-34": "「未回覆者與回覆者存在差異而造成的樣本偏差」與本句語境不同。"
+        "response-mcq-39": "本句的「response」指「由神經系統快速自動產生的反射性反應」。",
+        "response-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "response-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "response-mcq-39"
     }
@@ -3265,5 +2949,7 @@ export default {
     "sha256": "2e611c6ebd13aca7de100d31f8cc41ef263fd59eb88d976c229dbc79e678bca3",
     "pages": 59
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

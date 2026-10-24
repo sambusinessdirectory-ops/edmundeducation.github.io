@@ -781,16 +781,6 @@ export default {
           "It’s a long shot, but the plan might work.",
           "這個計劃成功機會很低，但也可能奏效。",
           "成功可能性很低但仍可能值得嘗試的事情"
-        ],
-        [
-          "I’m not perfect—not by a long shot.",
-          "我並不完美——還差得遠呢。",
-          "成功可能性很低但仍可能值得嘗試的事情"
-        ],
-        [
-          "The project isn’t finished, not by a long shot.",
-          "這個項目還沒有完成，離完成還遠得很。",
-          "成功可能性很低但仍可能值得嘗試的事情"
         ]
       ],
       "options": [],
@@ -804,16 +794,6 @@ export default {
       "zh": "對某人／某事產生強烈而持續的渴望",
       "note": "來源詞義：對某人／某事產生強烈而持續的渴望",
       "examples": [
-        [
-          "She succeeded despite the long odds.",
-          "儘管成功機會很低，她還是成功了。",
-          "對某人／某事產生強烈而持續的渴望"
-        ],
-        [
-          "They faced long odds.",
-          "他們面對很低的成功機會。",
-          "對某人／某事產生強烈而持續的渴望"
-        ],
         [
           "She longed for a chance to prove herself.",
           "她渴望有機會證明自己。",
@@ -1515,6 +1495,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "long-reviewed-77e99d7dcf",
+      "title": "遠遠沒有達到某種狀態",
+      "form": "long · source section 46",
+      "en": "遠遠沒有達到某種狀態",
+      "zh": "遠遠沒有達到某種狀態",
+      "note": "對照原始教材第 46 節及例句核實。",
+      "examples": [
+        [
+          "I’m not perfect—not by a long shot.",
+          "我並不完美——還差得遠呢。",
+          "遠遠沒有達到某種狀態"
+        ],
+        [
+          "The project isn’t finished, not by a long shot.",
+          "這個項目還沒有完成，離完成還遠得很。",
+          "遠遠沒有達到某種狀態"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "long-reviewed-d5f3a59794",
+      "title": "很低的勝算",
+      "form": "long · source section 47",
+      "en": "很低的勝算",
+      "zh": "很低的勝算",
+      "note": "對照原始教材第 47 節及例句核實。",
+      "examples": [
+        [
+          "She succeeded despite the long odds.",
+          "儘管成功機會很低，她還是成功了。",
+          "很低的勝算"
+        ],
+        [
+          "They faced long odds.",
+          "他們面對很低的成功機會。",
+          "很低的勝算"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1526,11 +1550,9 @@ export default {
       "masked": "I ____ see them as a brick wall.",
       "options": [
         "long-mcq-01",
-        "long-mcq-02",
-        "long-mcq-03",
-        "long-mcq-04",
-        "long-mcq-05",
-        "long-mcq-06"
+        "long-mcq-54",
+        "long-mcq-46",
+        "long-mcq-47"
       ],
       "explanation": "本句的「no longer」指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
       "sentenceIndex": 0,
@@ -1539,12 +1561,10 @@ export default {
         "no longer"
       ],
       "optionReasons": {
-        "long-mcq-01": "本句指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
-        "long-mcq-02": "「從一端到另一端的物理距離較大」是「long — physical length」的用法，與本句語境不同。",
-        "long-mcq-03": "「在主要長度方向延伸較遠」是「long hair/object」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。"
+        "long-mcq-01": "本句的「no longer」指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
+        "long-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-01"
     },
@@ -1556,11 +1576,9 @@ export default {
       "masked": "I ____ avoid presentations.",
       "options": [
         "long-mcq-01",
-        "long-mcq-02",
-        "long-mcq-03",
         "long-mcq-04",
-        "long-mcq-05",
-        "long-mcq-06"
+        "long-pdf-006",
+        "long-mcq-30"
       ],
       "explanation": "本句的「no longer」指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
       "sentenceIndex": 1,
@@ -1569,12 +1587,10 @@ export default {
         "no longer"
       ],
       "optionReasons": {
-        "long-mcq-01": "本句指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
-        "long-mcq-02": "「從一端到另一端的物理距離較大」是「long — physical length」的用法，與本句語境不同。",
-        "long-mcq-03": "「在主要長度方向延伸較遠」是「long hair/object」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。"
+        "long-mcq-01": "本句的「no longer」指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
+        "long-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-01"
     },
@@ -1586,11 +1602,9 @@ export default {
       "masked": "She ____ works here.",
       "options": [
         "long-mcq-01",
-        "long-mcq-02",
-        "long-mcq-03",
-        "long-mcq-04",
-        "long-mcq-05",
-        "long-mcq-06"
+        "long-mcq-52",
+        "long-mcq-41",
+        "long-mcq-48"
       ],
       "explanation": "本句的「no longer」指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
       "sentenceIndex": 2,
@@ -1599,12 +1613,10 @@ export default {
         "no longer"
       ],
       "optionReasons": {
-        "long-mcq-01": "本句指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
-        "long-mcq-02": "「從一端到另一端的物理距離較大」是「long — physical length」的用法，與本句語境不同。",
-        "long-mcq-03": "「在主要長度方向延伸較遠」是「long hair/object」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。"
+        "long-mcq-01": "本句的「no longer」指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-01"
     },
@@ -1616,11 +1628,9 @@ export default {
       "masked": "I ____ feel terrified.",
       "options": [
         "long-mcq-01",
-        "long-mcq-02",
-        "long-mcq-03",
-        "long-mcq-04",
-        "long-mcq-05",
-        "long-mcq-06"
+        "long-mcq-08",
+        "long-mcq-42",
+        "long-mcq-33"
       ],
       "explanation": "本句的「no longer」指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
       "sentenceIndex": 3,
@@ -1629,12 +1639,10 @@ export default {
         "no longer"
       ],
       "optionReasons": {
-        "long-mcq-01": "本句指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
-        "long-mcq-02": "「從一端到另一端的物理距離較大」是「long — physical length」的用法，與本句語境不同。",
-        "long-mcq-03": "「在主要長度方向延伸較遠」是「long hair/object」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。"
+        "long-mcq-01": "本句的「no longer」指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
+        "long-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-01"
     },
@@ -1646,11 +1654,9 @@ export default {
       "masked": "I don’t feel terrified ____.",
       "options": [
         "long-mcq-01",
-        "long-mcq-02",
-        "long-mcq-03",
-        "long-mcq-04",
-        "long-mcq-05",
-        "long-mcq-06"
+        "long-mcq-52",
+        "long-mcq-30",
+        "long-pdf-006"
       ],
       "explanation": "本句的「anymore」指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
       "sentenceIndex": 4,
@@ -1659,12 +1665,10 @@ export default {
         "anymore"
       ],
       "optionReasons": {
-        "long-mcq-01": "本句指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
-        "long-mcq-02": "「從一端到另一端的物理距離較大」是「long — physical length」的用法，與本句語境不同。",
-        "long-mcq-03": "「在主要長度方向延伸較遠」是「long hair/object」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。"
+        "long-mcq-01": "本句的「anymore」指「某種以前存在的狀態／習慣／事實現在已經停止；不再」。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-01"
     },
@@ -1676,11 +1680,9 @@ export default {
       "masked": "The table is very ____.",
       "options": [
         "long-mcq-02",
-        "long-mcq-01",
-        "long-mcq-03",
-        "long-mcq-04",
-        "long-mcq-05",
-        "long-mcq-06"
+        "long-mcq-32",
+        "long-mcq-23",
+        "long-mcq-07"
       ],
       "explanation": "本句的「long」指「從一端到另一端的物理距離較大」。",
       "sentenceIndex": 5,
@@ -1689,12 +1691,10 @@ export default {
         "long"
       ],
       "optionReasons": {
-        "long-mcq-02": "本句指「從一端到另一端的物理距離較大」。",
-        "long-mcq-01": "「某種以前存在的狀態／習慣／事實現在已經停止；不再」是「no longer」的用法，與本句語境不同。",
-        "long-mcq-03": "「在主要長度方向延伸較遠」是「long hair/object」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。"
+        "long-mcq-02": "本句的「long」指「從一端到另一端的物理距離較大」。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-02"
     },
@@ -1706,11 +1706,9 @@ export default {
       "masked": "She has ____.",
       "options": [
         "long-mcq-02",
-        "long-mcq-01",
-        "long-mcq-03",
-        "long-mcq-04",
-        "long-mcq-05",
-        "long-mcq-06"
+        "long-mcq-20",
+        "long-mcq-50",
+        "long-mcq-34"
       ],
       "explanation": "本句的「long hair」指「從一端到另一端的物理距離較大」。",
       "sentenceIndex": 6,
@@ -1719,12 +1717,10 @@ export default {
         "long hair"
       ],
       "optionReasons": {
-        "long-mcq-02": "本句指「從一端到另一端的物理距離較大」。",
-        "long-mcq-01": "「某種以前存在的狀態／習慣／事實現在已經停止；不再」是「no longer」的用法，與本句語境不同。",
-        "long-mcq-03": "「在主要長度方向延伸較遠」是「long hair/object」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。"
+        "long-mcq-02": "本句的「long hair」指「從一端到另一端的物理距離較大」。",
+        "long-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-02"
     },
@@ -1736,11 +1732,9 @@ export default {
       "masked": "He used to have ____.",
       "options": [
         "long-mcq-03",
-        "long-mcq-02",
-        "long-mcq-04",
-        "long-mcq-01",
-        "long-mcq-05",
-        "long-mcq-06"
+        "long-mcq-48",
+        "long-reviewed-d5f3a59794",
+        "long-mcq-30"
       ],
       "explanation": "本句的「long hair」指「在主要長度方向延伸較遠」。",
       "sentenceIndex": 7,
@@ -1749,12 +1743,10 @@ export default {
         "long hair"
       ],
       "optionReasons": {
-        "long-mcq-03": "本句指「在主要長度方向延伸較遠」。",
-        "long-mcq-02": "「從一端到另一端的物理距離較大」是「long — physical length」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-01": "「某種以前存在的狀態／習慣／事實現在已經停止；不再」是「no longer」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。"
+        "long-mcq-03": "本句的「long hair」指「在主要長度方向延伸較遠」。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-03"
     },
@@ -1766,11 +1758,9 @@ export default {
       "masked": "She tied her ____ back.",
       "options": [
         "long-mcq-03",
-        "long-mcq-02",
-        "long-mcq-04",
-        "long-mcq-01",
-        "long-mcq-05",
-        "long-mcq-06"
+        "long-mcq-32",
+        "long-mcq-17",
+        "long-mcq-15"
       ],
       "explanation": "本句的「long hair」指「在主要長度方向延伸較遠」。",
       "sentenceIndex": 8,
@@ -1779,12 +1769,10 @@ export default {
         "long hair"
       ],
       "optionReasons": {
-        "long-mcq-03": "本句指「在主要長度方向延伸較遠」。",
-        "long-mcq-02": "「從一端到另一端的物理距離較大」是「long — physical length」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-01": "「某種以前存在的狀態／習慣／事實現在已經停止；不再」是「no longer」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。"
+        "long-mcq-03": "本句的「long hair」指「在主要長度方向延伸較遠」。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-03"
     },
@@ -1796,11 +1784,9 @@ export default {
       "masked": "They sat at a ____.",
       "options": [
         "long-mcq-03",
-        "long-mcq-02",
-        "long-mcq-04",
-        "long-mcq-01",
-        "long-mcq-05",
-        "long-mcq-06"
+        "long-reviewed-d5f3a59794",
+        "long-mcq-10",
+        "long-mcq-36"
       ],
       "explanation": "本句的「long table」指「在主要長度方向延伸較遠」。",
       "sentenceIndex": 9,
@@ -1809,12 +1795,10 @@ export default {
         "long table"
       ],
       "optionReasons": {
-        "long-mcq-03": "本句指「在主要長度方向延伸較遠」。",
-        "long-mcq-02": "「從一端到另一端的物理距離較大」是「long — physical length」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-01": "「某種以前存在的狀態／習慣／事實現在已經停止；不再」是「no longer」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。"
+        "long-mcq-03": "本句的「long table」指「在主要長度方向延伸較遠」。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-03"
     },
@@ -1826,11 +1810,9 @@ export default {
       "masked": "A ____ led to the meeting room.",
       "options": [
         "long-mcq-03",
-        "long-mcq-02",
-        "long-mcq-04",
-        "long-mcq-01",
-        "long-mcq-05",
-        "long-mcq-06"
+        "long-mcq-34",
+        "long-mcq-32",
+        "long-mcq-15"
       ],
       "explanation": "本句的「long corridor」指「在主要長度方向延伸較遠」。",
       "sentenceIndex": 10,
@@ -1839,12 +1821,10 @@ export default {
         "long corridor"
       ],
       "optionReasons": {
-        "long-mcq-03": "本句指「在主要長度方向延伸較遠」。",
-        "long-mcq-02": "「從一端到另一端的物理距離較大」是「long — physical length」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-01": "「某種以前存在的狀態／習慣／事實現在已經停止；不再」是「no longer」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。"
+        "long-mcq-03": "本句的「long corridor」指「在主要長度方向延伸較遠」。",
+        "long-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-03"
     },
@@ -1856,11 +1836,9 @@ export default {
       "masked": "She travelled a ____ to attend the event.",
       "options": [
         "long-mcq-04",
-        "long-mcq-03",
-        "long-mcq-05",
-        "long-mcq-02",
-        "long-mcq-06",
-        "long-mcq-01"
+        "long-mcq-42",
+        "long-mcq-01",
+        "long-mcq-32"
       ],
       "explanation": "本句的「long distance」指「起點與終點之間的空間距離較大」。",
       "sentenceIndex": 11,
@@ -1869,12 +1847,10 @@ export default {
         "long distance"
       ],
       "optionReasons": {
-        "long-mcq-04": "本句指「起點與終點之間的空間距離較大」。",
-        "long-mcq-03": "「在主要長度方向延伸較遠」是「long hair/object」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-02": "「從一端到另一端的物理距離較大」是「long — physical length」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。",
-        "long-mcq-01": "「某種以前存在的狀態／習慣／事實現在已經停止；不再」是「no longer」的用法，與本句語境不同。"
+        "long-mcq-04": "本句的「long distance」指「起點與終點之間的空間距離較大」。",
+        "long-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-04"
     },
@@ -1886,11 +1862,9 @@ export default {
       "masked": "Running ____ requires endurance.",
       "options": [
         "long-mcq-04",
-        "long-mcq-03",
-        "long-mcq-05",
-        "long-mcq-02",
-        "long-mcq-06",
-        "long-mcq-01"
+        "long-mcq-36",
+        "long-mcq-55",
+        "long-mcq-33"
       ],
       "explanation": "本句的「long distances」指「起點與終點之間的空間距離較大」。",
       "sentenceIndex": 12,
@@ -1899,12 +1873,10 @@ export default {
         "long distances"
       ],
       "optionReasons": {
-        "long-mcq-04": "本句指「起點與終點之間的空間距離較大」。",
-        "long-mcq-03": "「在主要長度方向延伸較遠」是「long hair/object」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-02": "「從一端到另一端的物理距離較大」是「long — physical length」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。",
-        "long-mcq-01": "「某種以前存在的狀態／習慣／事實現在已經停止；不再」是「no longer」的用法，與本句語境不同。"
+        "long-mcq-04": "本句的「long distances」指「起點與終點之間的空間距離較大」。",
+        "long-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-04"
     },
@@ -1916,11 +1888,9 @@ export default {
       "masked": "We still have a ____ to go.",
       "options": [
         "long-mcq-05",
-        "long-mcq-04",
-        "long-mcq-06",
-        "long-mcq-03",
-        "long-mcq-07",
-        "long-mcq-02"
+        "long-mcq-33",
+        "long-mcq-34",
+        "long-mcq-22"
       ],
       "explanation": "本句的「long way」指「空間距離很大；比喻上亦可指很大的發展距離」。",
       "sentenceIndex": 13,
@@ -1929,12 +1899,10 @@ export default {
         "long way"
       ],
       "optionReasons": {
-        "long-mcq-05": "本句指「空間距離很大；比喻上亦可指很大的發展距離」。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。",
-        "long-mcq-03": "「在主要長度方向延伸較遠」是「long hair/object」的用法，與本句語境不同。",
-        "long-mcq-07": "「從早期狀態發展到明顯更成熟／更進步的狀態」是「come a long way」的用法，與本句語境不同。",
-        "long-mcq-02": "「從一端到另一端的物理距離較大」是「long — physical length」的用法，與本句語境不同。"
+        "long-mcq-05": "本句的「long way」指「空間距離很大；比喻上亦可指很大的發展距離」。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-05"
     },
@@ -1946,11 +1914,9 @@ export default {
       "masked": "The station is a ____ from here.",
       "options": [
         "long-mcq-05",
-        "long-mcq-04",
-        "long-mcq-06",
+        "long-mcq-37",
         "long-mcq-03",
-        "long-mcq-07",
-        "long-mcq-02"
+        "long-mcq-33"
       ],
       "explanation": "本句的「long way」指「空間距離很大；比喻上亦可指很大的發展距離」。",
       "sentenceIndex": 14,
@@ -1959,12 +1925,10 @@ export default {
         "long way"
       ],
       "optionReasons": {
-        "long-mcq-05": "本句指「空間距離很大；比喻上亦可指很大的發展距離」。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。",
-        "long-mcq-03": "「在主要長度方向延伸較遠」是「long hair/object」的用法，與本句語境不同。",
-        "long-mcq-07": "「從早期狀態發展到明顯更成熟／更進步的狀態」是「come a long way」的用法，與本句語境不同。",
-        "long-mcq-02": "「從一端到另一端的物理距離較大」是「long — physical length」的用法，與本句語境不同。"
+        "long-mcq-05": "本句的「long way」指「空間距離很大；比喻上亦可指很大的發展距離」。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-05"
     },
@@ -1976,11 +1940,9 @@ export default {
       "masked": "I’ve improved, but I still have a ____.",
       "options": [
         "long-mcq-06",
-        "long-mcq-05",
-        "long-mcq-07",
-        "long-mcq-04",
-        "long-mcq-08",
-        "long-mcq-03"
+        "long-reviewed-d5f3a59794",
+        "long-mcq-29",
+        "long-mcq-32"
       ],
       "explanation": "本句的「long way to go」指「距離完成、成功或理想狀態仍有很大差距」。",
       "sentenceIndex": 15,
@@ -1989,12 +1951,10 @@ export default {
         "long way to go"
       ],
       "optionReasons": {
-        "long-mcq-06": "本句指「距離完成、成功或理想狀態仍有很大差距」。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-07": "「從早期狀態發展到明顯更成熟／更進步的狀態」是「come a long way」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-08": "「對某個結果產生相當大的幫助／影響」是「go a long way」的用法，與本句語境不同。",
-        "long-mcq-03": "「在主要長度方向延伸較遠」是「long hair/object」的用法，與本句語境不同。"
+        "long-mcq-06": "本句的「long way to go」指「距離完成、成功或理想狀態仍有很大差距」。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-06"
     },
@@ -2006,11 +1966,9 @@ export default {
       "masked": "The project has come far, but there is a ____ way to go.",
       "options": [
         "long-mcq-06",
-        "long-mcq-05",
-        "long-mcq-07",
-        "long-mcq-04",
-        "long-mcq-08",
-        "long-mcq-03"
+        "long-mcq-48",
+        "long-mcq-26",
+        "long-mcq-32"
       ],
       "explanation": "本句的「long」指「距離完成、成功或理想狀態仍有很大差距」。",
       "sentenceIndex": 16,
@@ -2019,12 +1977,10 @@ export default {
         "long"
       ],
       "optionReasons": {
-        "long-mcq-06": "本句指「距離完成、成功或理想狀態仍有很大差距」。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-07": "「從早期狀態發展到明顯更成熟／更進步的狀態」是「come a long way」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。",
-        "long-mcq-08": "「對某個結果產生相當大的幫助／影響」是「go a long way」的用法，與本句語境不同。",
-        "long-mcq-03": "「在主要長度方向延伸較遠」是「long hair/object」的用法，與本句語境不同。"
+        "long-mcq-06": "本句的「long」指「距離完成、成功或理想狀態仍有很大差距」。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-06"
     },
@@ -2036,11 +1992,9 @@ export default {
       "masked": "I’ve ____ since my first presentation.",
       "options": [
         "long-mcq-07",
-        "long-mcq-06",
-        "long-mcq-08",
-        "long-mcq-05",
-        "long-mcq-09",
-        "long-mcq-04"
+        "long-mcq-21",
+        "long-mcq-45",
+        "long-mcq-55"
       ],
       "explanation": "本句的「come a long way」指「從早期狀態發展到明顯更成熟／更進步的狀態」。",
       "sentenceIndex": 17,
@@ -2049,12 +2003,10 @@ export default {
         "come a long way"
       ],
       "optionReasons": {
-        "long-mcq-07": "本句指「從早期狀態發展到明顯更成熟／更進步的狀態」。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。",
-        "long-mcq-08": "「對某個結果產生相當大的幫助／影響」是「go a long way」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-09": "「持續時間較長」是「long — duration」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。"
+        "long-mcq-07": "本句的「come a long way」指「從早期狀態發展到明顯更成熟／更進步的狀態」。",
+        "long-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-07"
     },
@@ -2066,11 +2018,9 @@ export default {
       "masked": "The technology has ____.",
       "options": [
         "long-mcq-07",
-        "long-mcq-06",
-        "long-mcq-08",
-        "long-mcq-05",
-        "long-mcq-09",
-        "long-mcq-04"
+        "long-mcq-02",
+        "long-mcq-17",
+        "long-reviewed-d5f3a59794"
       ],
       "explanation": "本句的「come a long way」指「從早期狀態發展到明顯更成熟／更進步的狀態」。",
       "sentenceIndex": 18,
@@ -2079,12 +2029,10 @@ export default {
         "come a long way"
       ],
       "optionReasons": {
-        "long-mcq-07": "本句指「從早期狀態發展到明顯更成熟／更進步的狀態」。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。",
-        "long-mcq-08": "「對某個結果產生相當大的幫助／影響」是「go a long way」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。",
-        "long-mcq-09": "「持續時間較長」是「long — duration」的用法，與本句語境不同。",
-        "long-mcq-04": "「起點與終點之間的空間距離較大」是「long distance」的用法，與本句語境不同。"
+        "long-mcq-07": "本句的「come a long way」指「從早期狀態發展到明顯更成熟／更進步的狀態」。",
+        "long-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-07"
     },
@@ -2096,11 +2044,9 @@ export default {
       "masked": "Good preparation can ____ toward reducing anxiety.",
       "options": [
         "long-mcq-08",
-        "long-mcq-07",
-        "long-mcq-09",
-        "long-mcq-06",
-        "long-mcq-10",
-        "long-mcq-05"
+        "long-pdf-005",
+        "long-mcq-52",
+        "long-mcq-43"
       ],
       "explanation": "本句的「go a long way」指「對某個結果產生相當大的幫助／影響」。",
       "sentenceIndex": 19,
@@ -2109,12 +2055,10 @@ export default {
         "go a long way"
       ],
       "optionReasons": {
-        "long-mcq-08": "本句指「對某個結果產生相當大的幫助／影響」。",
-        "long-mcq-07": "「從早期狀態發展到明顯更成熟／更進步的狀態」是「come a long way」的用法，與本句語境不同。",
-        "long-mcq-09": "「持續時間較長」是「long — duration」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。",
-        "long-mcq-10": "「持續／相隔很久的一段時間」是「a long time」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。"
+        "long-mcq-08": "本句的「go a long way」指「對某個結果產生相當大的幫助／影響」。",
+        "long-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-08"
     },
@@ -2126,11 +2070,9 @@ export default {
       "masked": "A little encouragement can ____.",
       "options": [
         "long-mcq-08",
-        "long-mcq-07",
-        "long-mcq-09",
-        "long-mcq-06",
-        "long-mcq-10",
-        "long-mcq-05"
+        "long-mcq-17",
+        "long-pdf-007",
+        "long-mcq-33"
       ],
       "explanation": "本句的「go a long way」指「對某個結果產生相當大的幫助／影響」。",
       "sentenceIndex": 20,
@@ -2139,12 +2081,10 @@ export default {
         "go a long way"
       ],
       "optionReasons": {
-        "long-mcq-08": "本句指「對某個結果產生相當大的幫助／影響」。",
-        "long-mcq-07": "「從早期狀態發展到明顯更成熟／更進步的狀態」是「come a long way」的用法，與本句語境不同。",
-        "long-mcq-09": "「持續時間較長」是「long — duration」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。",
-        "long-mcq-10": "「持續／相隔很久的一段時間」是「a long time」的用法，與本句語境不同。",
-        "long-mcq-05": "「空間距離很大；比喻上亦可指很大的發展距離」是「a long way」的用法，與本句語境不同。"
+        "long-mcq-08": "本句的「go a long way」指「對某個結果產生相當大的幫助／影響」。",
+        "long-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-08"
     },
@@ -2156,11 +2096,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "long-mcq-09",
-        "long-mcq-08",
-        "long-mcq-10",
-        "long-mcq-07",
-        "long-mcq-11",
-        "long-mcq-06"
+        "long-mcq-22",
+        "long-mcq-15",
+        "long-reviewed-77e99d7dcf"
       ],
       "explanation": "本句的「long meeting」指「持續時間較長」。",
       "sentenceIndex": 21,
@@ -2169,12 +2107,10 @@ export default {
         "long meeting"
       ],
       "optionReasons": {
-        "long-mcq-09": "本句指「持續時間較長」。",
-        "long-mcq-08": "「對某個結果產生相當大的幫助／影響」是「go a long way」的用法，與本句語境不同。",
-        "long-mcq-10": "「持續／相隔很久的一段時間」是「a long time」的用法，與本句語境不同。",
-        "long-mcq-07": "「從早期狀態發展到明顯更成熟／更進步的狀態」是「come a long way」的用法，與本句語境不同。",
-        "long-mcq-11": "「持續很長時間」是「for long」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。"
+        "long-mcq-09": "本句的「long meeting」指「持續時間較長」。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-77e99d7dcf": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-09"
     },
@@ -2187,9 +2123,7 @@ export default {
       "options": [
         "long-mcq-09",
         "long-mcq-08",
-        "long-mcq-10",
-        "long-mcq-07",
-        "long-mcq-11",
+        "long-mcq-30",
         "long-mcq-06"
       ],
       "explanation": "本句的「long conversation」指「持續時間較長」。",
@@ -2199,12 +2133,10 @@ export default {
         "long conversation"
       ],
       "optionReasons": {
-        "long-mcq-09": "本句指「持續時間較長」。",
-        "long-mcq-08": "「對某個結果產生相當大的幫助／影響」是「go a long way」的用法，與本句語境不同。",
-        "long-mcq-10": "「持續／相隔很久的一段時間」是「a long time」的用法，與本句語境不同。",
-        "long-mcq-07": "「從早期狀態發展到明顯更成熟／更進步的狀態」是「come a long way」的用法，與本句語境不同。",
-        "long-mcq-11": "「持續很長時間」是「for long」的用法，與本句語境不同。",
-        "long-mcq-06": "「距離完成、成功或理想狀態仍有很大差距」是「have a long way to go」的用法，與本句語境不同。"
+        "long-mcq-09": "本句的「long conversation」指「持續時間較長」。",
+        "long-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-09"
     },
@@ -2216,11 +2148,9 @@ export default {
       "masked": "I practised for a ____.",
       "options": [
         "long-mcq-10",
-        "long-mcq-09",
-        "long-mcq-11",
-        "long-mcq-08",
-        "long-mcq-12",
-        "long-mcq-07"
+        "long-mcq-48",
+        "long-mcq-36",
+        "long-mcq-47"
       ],
       "explanation": "本句的「long time」指「持續／相隔很久的一段時間」。",
       "sentenceIndex": 23,
@@ -2229,12 +2159,10 @@ export default {
         "long time"
       ],
       "optionReasons": {
-        "long-mcq-10": "本句指「持續／相隔很久的一段時間」。",
-        "long-mcq-09": "「持續時間較長」是「long — duration」的用法，與本句語境不同。",
-        "long-mcq-11": "「持續很長時間」是「for long」的用法，與本句語境不同。",
-        "long-mcq-08": "「對某個結果產生相當大的幫助／影響」是「go a long way」的用法，與本句語境不同。",
-        "long-mcq-12": "「詢問時間持續多久或物理長度多長」是「how long」的用法，與本句語境不同。",
-        "long-mcq-07": "「從早期狀態發展到明顯更成熟／更進步的狀態」是「come a long way」的用法，與本句語境不同。"
+        "long-mcq-10": "本句的「long time」指「持續／相隔很久的一段時間」。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-10"
     },
@@ -2246,11 +2174,9 @@ export default {
       "masked": "I haven’t seen her for a ____.",
       "options": [
         "long-mcq-10",
-        "long-mcq-09",
-        "long-mcq-11",
-        "long-mcq-08",
-        "long-mcq-12",
-        "long-mcq-07"
+        "long-mcq-35",
+        "long-mcq-54",
+        "long-mcq-22"
       ],
       "explanation": "本句的「long time」指「持續／相隔很久的一段時間」。",
       "sentenceIndex": 24,
@@ -2259,12 +2185,10 @@ export default {
         "long time"
       ],
       "optionReasons": {
-        "long-mcq-10": "本句指「持續／相隔很久的一段時間」。",
-        "long-mcq-09": "「持續時間較長」是「long — duration」的用法，與本句語境不同。",
-        "long-mcq-11": "「持續很長時間」是「for long」的用法，與本句語境不同。",
-        "long-mcq-08": "「對某個結果產生相當大的幫助／影響」是「go a long way」的用法，與本句語境不同。",
-        "long-mcq-12": "「詢問時間持續多久或物理長度多長」是「how long」的用法，與本句語境不同。",
-        "long-mcq-07": "「從早期狀態發展到明顯更成熟／更進步的狀態」是「come a long way」的用法，與本句語境不同。"
+        "long-mcq-10": "本句的「long time」指「持續／相隔很久的一段時間」。",
+        "long-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-10"
     },
@@ -2276,11 +2200,9 @@ export default {
       "masked": "I didn’t have to wait ____.",
       "options": [
         "long-mcq-11",
-        "long-mcq-10",
-        "long-mcq-12",
-        "long-mcq-09",
-        "long-mcq-13",
-        "long-mcq-08"
+        "long-pdf-007",
+        "long-mcq-30",
+        "long-mcq-07"
       ],
       "explanation": "本句的「for long」指「持續很長時間」。",
       "sentenceIndex": 25,
@@ -2289,12 +2211,10 @@ export default {
         "for long"
       ],
       "optionReasons": {
-        "long-mcq-11": "本句指「持續很長時間」。",
-        "long-mcq-10": "「持續／相隔很久的一段時間」是「a long time」的用法，與本句語境不同。",
-        "long-mcq-12": "「詢問時間持續多久或物理長度多長」是「how long」的用法，與本句語境不同。",
-        "long-mcq-09": "「持續時間較長」是「long — duration」的用法，與本句語境不同。",
-        "long-mcq-13": "「在某事件之前很長時間」是「long before」的用法，與本句語境不同。",
-        "long-mcq-08": "「對某個結果產生相當大的幫助／影響」是「go a long way」的用法，與本句語境不同。"
+        "long-mcq-11": "本句的「for long」指「持續很長時間」。",
+        "long-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-11"
     },
@@ -2306,11 +2226,9 @@ export default {
       "masked": "Will you be staying ____?",
       "options": [
         "long-mcq-11",
-        "long-mcq-10",
-        "long-mcq-12",
-        "long-mcq-09",
-        "long-mcq-13",
-        "long-mcq-08"
+        "long-mcq-08",
+        "long-mcq-31",
+        "long-reviewed-77e99d7dcf"
       ],
       "explanation": "本句的「for long」指「持續很長時間」。",
       "sentenceIndex": 26,
@@ -2319,12 +2237,10 @@ export default {
         "for long"
       ],
       "optionReasons": {
-        "long-mcq-11": "本句指「持續很長時間」。",
-        "long-mcq-10": "「持續／相隔很久的一段時間」是「a long time」的用法，與本句語境不同。",
-        "long-mcq-12": "「詢問時間持續多久或物理長度多長」是「how long」的用法，與本句語境不同。",
-        "long-mcq-09": "「持續時間較長」是「long — duration」的用法，與本句語境不同。",
-        "long-mcq-13": "「在某事件之前很長時間」是「long before」的用法，與本句語境不同。",
-        "long-mcq-08": "「對某個結果產生相當大的幫助／影響」是「go a long way」的用法，與本句語境不同。"
+        "long-mcq-11": "本句的「for long」指「持續很長時間」。",
+        "long-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-77e99d7dcf": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-11"
     },
@@ -2336,11 +2252,9 @@ export default {
       "masked": "____ did the presentation last?",
       "options": [
         "long-mcq-12",
-        "long-mcq-11",
-        "long-mcq-13",
-        "long-mcq-10",
-        "long-mcq-14",
-        "long-mcq-09"
+        "long-mcq-33",
+        "long-mcq-52",
+        "long-mcq-07"
       ],
       "explanation": "本句的「How long」指「詢問時間持續多久或物理長度多長」。",
       "sentenceIndex": 27,
@@ -2349,12 +2263,10 @@ export default {
         "How long"
       ],
       "optionReasons": {
-        "long-mcq-12": "本句指「詢問時間持續多久或物理長度多長」。",
-        "long-mcq-11": "「持續很長時間」是「for long」的用法，與本句語境不同。",
-        "long-mcq-13": "「在某事件之前很長時間」是「long before」的用法，與本句語境不同。",
-        "long-mcq-10": "「持續／相隔很久的一段時間」是「a long time」的用法，與本句語境不同。",
-        "long-mcq-14": "「在某事件之後很長時間」是「long after」的用法，與本句語境不同。",
-        "long-mcq-09": "「持續時間較長」是「long — duration」的用法，與本句語境不同。"
+        "long-mcq-12": "本句的「How long」指「詢問時間持續多久或物理長度多長」。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-12"
     },
@@ -2366,11 +2278,9 @@ export default {
       "masked": "____ is the table?",
       "options": [
         "long-mcq-12",
-        "long-mcq-11",
-        "long-mcq-13",
-        "long-mcq-10",
-        "long-mcq-14",
-        "long-mcq-09"
+        "long-mcq-07",
+        "long-mcq-52",
+        "long-reviewed-d5f3a59794"
       ],
       "explanation": "本句的「How long」指「詢問時間持續多久或物理長度多長」。",
       "sentenceIndex": 28,
@@ -2379,12 +2289,10 @@ export default {
         "How long"
       ],
       "optionReasons": {
-        "long-mcq-12": "本句指「詢問時間持續多久或物理長度多長」。",
-        "long-mcq-11": "「持續很長時間」是「for long」的用法，與本句語境不同。",
-        "long-mcq-13": "「在某事件之前很長時間」是「long before」的用法，與本句語境不同。",
-        "long-mcq-10": "「持續／相隔很久的一段時間」是「a long time」的用法，與本句語境不同。",
-        "long-mcq-14": "「在某事件之後很長時間」是「long after」的用法，與本句語境不同。",
-        "long-mcq-09": "「持續時間較長」是「long — duration」的用法，與本句語境不同。"
+        "long-mcq-12": "本句的「How long」指「詢問時間持續多久或物理長度多長」。",
+        "long-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-12"
     },
@@ -2396,11 +2304,9 @@ export default {
       "masked": "I was nervous ____ the presentation began.",
       "options": [
         "long-mcq-13",
-        "long-mcq-12",
-        "long-mcq-14",
-        "long-mcq-11",
-        "long-mcq-15",
-        "long-mcq-10"
+        "long-mcq-47",
+        "long-mcq-34",
+        "long-mcq-06"
       ],
       "explanation": "本句的「long before」指「在某事件之前很長時間」。",
       "sentenceIndex": 29,
@@ -2409,12 +2315,10 @@ export default {
         "long before"
       ],
       "optionReasons": {
-        "long-mcq-13": "本句指「在某事件之前很長時間」。",
-        "long-mcq-12": "「詢問時間持續多久或物理長度多長」是「how long」的用法，與本句語境不同。",
-        "long-mcq-14": "「在某事件之後很長時間」是「long after」的用法，與本句語境不同。",
-        "long-mcq-11": "「持續很長時間」是「for long」的用法，與本句語境不同。",
-        "long-mcq-15": "「距離現在很久以前」是「long ago」的用法，與本句語境不同。",
-        "long-mcq-10": "「持續／相隔很久的一段時間」是「a long time」的用法，與本句語境不同。"
+        "long-mcq-13": "本句的「long before」指「在某事件之前很長時間」。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-13"
     },
@@ -2426,11 +2330,9 @@ export default {
       "masked": "She had prepared everything ____ the event.",
       "options": [
         "long-mcq-13",
-        "long-mcq-12",
-        "long-mcq-14",
-        "long-mcq-11",
-        "long-mcq-15",
-        "long-mcq-10"
+        "long-mcq-06",
+        "long-mcq-37",
+        "long-mcq-08"
       ],
       "explanation": "本句的「long before」指「在某事件之前很長時間」。",
       "sentenceIndex": 30,
@@ -2439,12 +2341,10 @@ export default {
         "long before"
       ],
       "optionReasons": {
-        "long-mcq-13": "本句指「在某事件之前很長時間」。",
-        "long-mcq-12": "「詢問時間持續多久或物理長度多長」是「how long」的用法，與本句語境不同。",
-        "long-mcq-14": "「在某事件之後很長時間」是「long after」的用法，與本句語境不同。",
-        "long-mcq-11": "「持續很長時間」是「for long」的用法，與本句語境不同。",
-        "long-mcq-15": "「距離現在很久以前」是「long ago」的用法，與本句語境不同。",
-        "long-mcq-10": "「持續／相隔很久的一段時間」是「a long time」的用法，與本句語境不同。"
+        "long-mcq-13": "本句的「long before」指「在某事件之前很長時間」。",
+        "long-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-13"
     },
@@ -2456,11 +2356,9 @@ export default {
       "masked": "I remembered the experience ____ the event.",
       "options": [
         "long-mcq-14",
-        "long-mcq-13",
-        "long-mcq-15",
-        "long-mcq-12",
-        "long-mcq-16",
-        "long-mcq-11"
+        "long-mcq-08",
+        "long-mcq-31",
+        "long-reviewed-77e99d7dcf"
       ],
       "explanation": "本句的「long after」指「在某事件之後很長時間」。",
       "sentenceIndex": 31,
@@ -2469,12 +2367,10 @@ export default {
         "long after"
       ],
       "optionReasons": {
-        "long-mcq-14": "本句指「在某事件之後很長時間」。",
-        "long-mcq-13": "「在某事件之前很長時間」是「long before」的用法，與本句語境不同。",
-        "long-mcq-15": "「距離現在很久以前」是「long ago」的用法，與本句語境不同。",
-        "long-mcq-12": "「詢問時間持續多久或物理長度多長」是「how long」的用法，與本句語境不同。",
-        "long-mcq-16": "「經過不太長時間後；不久後」是「before long」的用法，與本句語境不同。",
-        "long-mcq-11": "「持續很長時間」是「for long」的用法，與本句語境不同。"
+        "long-mcq-14": "本句的「long after」指「在某事件之後很長時間」。",
+        "long-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-77e99d7dcf": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-14"
     },
@@ -2486,11 +2382,9 @@ export default {
       "masked": "The lesson stayed with me ____ the presentation.",
       "options": [
         "long-mcq-14",
-        "long-mcq-13",
-        "long-mcq-15",
-        "long-mcq-12",
-        "long-mcq-16",
-        "long-mcq-11"
+        "long-mcq-52",
+        "long-mcq-19",
+        "long-mcq-34"
       ],
       "explanation": "本句的「long after」指「在某事件之後很長時間」。",
       "sentenceIndex": 32,
@@ -2499,12 +2393,10 @@ export default {
         "long after"
       ],
       "optionReasons": {
-        "long-mcq-14": "本句指「在某事件之後很長時間」。",
-        "long-mcq-13": "「在某事件之前很長時間」是「long before」的用法，與本句語境不同。",
-        "long-mcq-15": "「距離現在很久以前」是「long ago」的用法，與本句語境不同。",
-        "long-mcq-12": "「詢問時間持續多久或物理長度多長」是「how long」的用法，與本句語境不同。",
-        "long-mcq-16": "「經過不太長時間後；不久後」是「before long」的用法，與本句語境不同。",
-        "long-mcq-11": "「持續很長時間」是「for long」的用法，與本句語境不同。"
+        "long-mcq-14": "本句的「long after」指「在某事件之後很長時間」。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-14"
     },
@@ -2516,11 +2408,9 @@ export default {
       "masked": "That happened ____.",
       "options": [
         "long-mcq-15",
-        "long-mcq-14",
-        "long-mcq-16",
-        "long-mcq-13",
-        "long-mcq-17",
-        "long-mcq-12"
+        "long-mcq-32",
+        "long-mcq-48",
+        "long-mcq-49"
       ],
       "explanation": "本句的「long ago」指「距離現在很久以前」。",
       "sentenceIndex": 33,
@@ -2529,12 +2419,10 @@ export default {
         "long ago"
       ],
       "optionReasons": {
-        "long-mcq-15": "本句指「距離現在很久以前」。",
-        "long-mcq-14": "「在某事件之後很長時間」是「long after」的用法，與本句語境不同。",
-        "long-mcq-16": "「經過不太長時間後；不久後」是「before long」的用法，與本句語境不同。",
-        "long-mcq-13": "「在某事件之前很長時間」是「long before」的用法，與本句語境不同。",
-        "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。",
-        "long-mcq-12": "「詢問時間持續多久或物理長度多長」是「how long」的用法，與本句語境不同。"
+        "long-mcq-15": "本句的「long ago」指「距離現在很久以前」。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-15"
     },
@@ -2546,11 +2434,9 @@ export default {
       "masked": "I learned that lesson ____.",
       "options": [
         "long-mcq-15",
-        "long-mcq-14",
-        "long-mcq-16",
-        "long-mcq-13",
-        "long-mcq-17",
-        "long-mcq-12"
+        "long-pdf-004",
+        "long-mcq-48",
+        "long-mcq-37"
       ],
       "explanation": "本句的「long ago」指「距離現在很久以前」。",
       "sentenceIndex": 34,
@@ -2559,12 +2445,10 @@ export default {
         "long ago"
       ],
       "optionReasons": {
-        "long-mcq-15": "本句指「距離現在很久以前」。",
-        "long-mcq-14": "「在某事件之後很長時間」是「long after」的用法，與本句語境不同。",
-        "long-mcq-16": "「經過不太長時間後；不久後」是「before long」的用法，與本句語境不同。",
-        "long-mcq-13": "「在某事件之前很長時間」是「long before」的用法，與本句語境不同。",
-        "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。",
-        "long-mcq-12": "「詢問時間持續多久或物理長度多長」是「how long」的用法，與本句語境不同。"
+        "long-mcq-15": "本句的「long ago」指「距離現在很久以前」。",
+        "long-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-15"
     },
@@ -2576,11 +2460,9 @@ export default {
       "masked": "____, I started to relax.",
       "options": [
         "long-mcq-16",
-        "long-mcq-15",
-        "long-mcq-17",
-        "long-mcq-14",
-        "long-mcq-18",
-        "long-mcq-13"
+        "long-mcq-35",
+        "long-mcq-32",
+        "long-mcq-52"
       ],
       "explanation": "本句的「Before long」指「經過不太長時間後；不久後」。",
       "sentenceIndex": 35,
@@ -2589,12 +2471,10 @@ export default {
         "Before long"
       ],
       "optionReasons": {
-        "long-mcq-16": "本句指「經過不太長時間後；不久後」。",
-        "long-mcq-15": "「距離現在很久以前」是「long ago」的用法，與本句語境不同。",
-        "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。",
-        "long-mcq-14": "「在某事件之後很長時間」是「long after」的用法，與本句語境不同。",
-        "long-mcq-18": "「完成／經歷某事需要相當長時間」是「long process/journey」的用法，與本句語境不同。",
-        "long-mcq-13": "「在某事件之前很長時間」是「long before」的用法，與本句語境不同。"
+        "long-mcq-16": "本句的「Before long」指「經過不太長時間後；不久後」。",
+        "long-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-16"
     },
@@ -2606,11 +2486,9 @@ export default {
       "masked": "Before ____, the audience felt less intimidating.",
       "options": [
         "long-mcq-16",
-        "long-mcq-15",
-        "long-mcq-17",
-        "long-mcq-14",
-        "long-mcq-18",
-        "long-mcq-13"
+        "long-mcq-02",
+        "long-pdf-007",
+        "long-mcq-37"
       ],
       "explanation": "本句的「long」指「經過不太長時間後；不久後」。",
       "sentenceIndex": 36,
@@ -2619,12 +2497,10 @@ export default {
         "long"
       ],
       "optionReasons": {
-        "long-mcq-16": "本句指「經過不太長時間後；不久後」。",
-        "long-mcq-15": "「距離現在很久以前」是「long ago」的用法，與本句語境不同。",
-        "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。",
-        "long-mcq-14": "「在某事件之後很長時間」是「long after」的用法，與本句語境不同。",
-        "long-mcq-18": "「完成／經歷某事需要相當長時間」是「long process/journey」的用法，與本句語境不同。",
-        "long-mcq-13": "「在某事件之前很長時間」是「long before」的用法，與本句語境不同。"
+        "long-mcq-16": "本句的「long」指「經過不太長時間後；不久後」。",
+        "long-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-16"
     },
@@ -2636,11 +2512,9 @@ export default {
       "masked": "I worried about the presentation ____.",
       "options": [
         "long-mcq-17",
-        "long-mcq-16",
-        "long-mcq-18",
-        "long-mcq-15",
-        "long-mcq-19",
-        "long-mcq-14"
+        "long-mcq-55",
+        "long-mcq-30",
+        "long-reviewed-77e99d7dcf"
       ],
       "explanation": "本句的「all day long」指「某件事持續整個指定時間段」。",
       "sentenceIndex": 37,
@@ -2649,12 +2523,10 @@ export default {
         "all day long"
       ],
       "optionReasons": {
-        "long-mcq-17": "本句指「某件事持續整個指定時間段」。",
-        "long-mcq-16": "「經過不太長時間後；不久後」是「before long」的用法，與本句語境不同。",
-        "long-mcq-18": "「完成／經歷某事需要相當長時間」是「long process/journey」的用法，與本句語境不同。",
-        "long-mcq-15": "「距離現在很久以前」是「long ago」的用法，與本句語境不同。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。",
-        "long-mcq-14": "「在某事件之後很長時間」是「long after」的用法，與本句語境不同。"
+        "long-mcq-17": "本句的「all day long」指「某件事持續整個指定時間段」。",
+        "long-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-77e99d7dcf": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-17"
     },
@@ -2666,11 +2538,9 @@ export default {
       "masked": "It rained ____.",
       "options": [
         "long-mcq-17",
-        "long-mcq-16",
-        "long-mcq-18",
-        "long-mcq-15",
-        "long-mcq-19",
-        "long-mcq-14"
+        "long-mcq-30",
+        "long-mcq-47",
+        "long-mcq-02"
       ],
       "explanation": "本句的「all night long」指「某件事持續整個指定時間段」。",
       "sentenceIndex": 38,
@@ -2679,12 +2549,10 @@ export default {
         "all night long"
       ],
       "optionReasons": {
-        "long-mcq-17": "本句指「某件事持續整個指定時間段」。",
-        "long-mcq-16": "「經過不太長時間後；不久後」是「before long」的用法，與本句語境不同。",
-        "long-mcq-18": "「完成／經歷某事需要相當長時間」是「long process/journey」的用法，與本句語境不同。",
-        "long-mcq-15": "「距離現在很久以前」是「long ago」的用法，與本句語境不同。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。",
-        "long-mcq-14": "「在某事件之後很長時間」是「long after」的用法，與本句語境不同。"
+        "long-mcq-17": "本句的「all night long」指「某件事持續整個指定時間段」。",
+        "long-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-17"
     },
@@ -2696,11 +2564,9 @@ export default {
       "masked": "The process was ____.",
       "options": [
         "long-mcq-18",
-        "long-mcq-17",
         "long-mcq-19",
-        "long-mcq-16",
-        "long-mcq-20",
-        "long-mcq-15"
+        "long-mcq-32",
+        "long-mcq-52"
       ],
       "explanation": "本句的「long and difficult」指「完成／經歷某事需要相當長時間」。",
       "sentenceIndex": 39,
@@ -2709,12 +2575,10 @@ export default {
         "long and difficult"
       ],
       "optionReasons": {
-        "long-mcq-18": "本句指「完成／經歷某事需要相當長時間」。",
-        "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。",
-        "long-mcq-16": "「經過不太長時間後；不久後」是「before long」的用法，與本句語境不同。",
-        "long-mcq-20": "「長度／時間超過適當或需要程度」是「too long」的用法，與本句語境不同。",
-        "long-mcq-15": "「距離現在很久以前」是「long ago」的用法，與本句語境不同。"
+        "long-mcq-18": "本句的「long and difficult」指「完成／經歷某事需要相當長時間」。",
+        "long-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-18"
     },
@@ -2726,11 +2590,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "long-mcq-18",
-        "long-mcq-17",
-        "long-mcq-19",
-        "long-mcq-16",
-        "long-mcq-20",
-        "long-mcq-15"
+        "long-mcq-15",
+        "long-mcq-36",
+        "long-mcq-48"
       ],
       "explanation": "本句的「long journey」指「完成／經歷某事需要相當長時間」。",
       "sentenceIndex": 40,
@@ -2739,12 +2601,10 @@ export default {
         "long journey"
       ],
       "optionReasons": {
-        "long-mcq-18": "本句指「完成／經歷某事需要相當長時間」。",
-        "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。",
-        "long-mcq-16": "「經過不太長時間後；不久後」是「before long」的用法，與本句語境不同。",
-        "long-mcq-20": "「長度／時間超過適當或需要程度」是「too long」的用法，與本句語境不同。",
-        "long-mcq-15": "「距離現在很久以前」是「long ago」的用法，與本句語境不同。"
+        "long-mcq-18": "本句的「long journey」指「完成／經歷某事需要相當長時間」。",
+        "long-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-18"
     },
@@ -2756,11 +2616,9 @@ export default {
       "masked": "Building confidence can be a ____.",
       "options": [
         "long-mcq-18",
-        "long-mcq-17",
-        "long-mcq-19",
-        "long-mcq-16",
-        "long-mcq-20",
-        "long-mcq-15"
+        "long-mcq-48",
+        "long-mcq-37",
+        "long-mcq-02"
       ],
       "explanation": "本句的「long process」指「完成／經歷某事需要相當長時間」。",
       "sentenceIndex": 41,
@@ -2769,12 +2627,10 @@ export default {
         "long process"
       ],
       "optionReasons": {
-        "long-mcq-18": "本句指「完成／經歷某事需要相當長時間」。",
-        "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。",
-        "long-mcq-16": "「經過不太長時間後；不久後」是「before long」的用法，與本句語境不同。",
-        "long-mcq-20": "「長度／時間超過適當或需要程度」是「too long」的用法，與本句語境不同。",
-        "long-mcq-15": "「距離現在很久以前」是「long ago」的用法，與本句語境不同。"
+        "long-mcq-18": "本句的「long process」指「完成／經歷某事需要相當長時間」。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-18"
     },
@@ -2786,11 +2642,9 @@ export default {
       "masked": "Recovery was a ____.",
       "options": [
         "long-mcq-18",
-        "long-mcq-17",
-        "long-mcq-19",
-        "long-mcq-16",
-        "long-mcq-20",
-        "long-mcq-15"
+        "long-mcq-35",
+        "long-mcq-37",
+        "long-reviewed-d5f3a59794"
       ],
       "explanation": "本句的「long journey」指「完成／經歷某事需要相當長時間」。",
       "sentenceIndex": 42,
@@ -2799,12 +2653,10 @@ export default {
         "long journey"
       ],
       "optionReasons": {
-        "long-mcq-18": "本句指「完成／經歷某事需要相當長時間」。",
-        "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。",
-        "long-mcq-16": "「經過不太長時間後；不久後」是「before long」的用法，與本句語境不同。",
-        "long-mcq-20": "「長度／時間超過適當或需要程度」是「too long」的用法，與本句語境不同。",
-        "long-mcq-15": "「距離現在很久以前」是「long ago」的用法，與本句語境不同。"
+        "long-mcq-18": "本句的「long journey」指「完成／經歷某事需要相當長時間」。",
+        "long-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-18"
     },
@@ -2816,11 +2668,9 @@ export default {
       "masked": "He gave a ____.",
       "options": [
         "long-mcq-19",
-        "long-mcq-18",
-        "long-mcq-20",
-        "long-mcq-17",
-        "long-mcq-21",
-        "long-mcq-16"
+        "long-mcq-37",
+        "long-mcq-33",
+        "long-mcq-39"
       ],
       "explanation": "本句的「long speech」指「說話／文字內容篇幅較大」。",
       "sentenceIndex": 43,
@@ -2829,12 +2679,10 @@ export default {
         "long speech"
       ],
       "optionReasons": {
-        "long-mcq-19": "本句指「說話／文字內容篇幅較大」。",
-        "long-mcq-18": "「完成／經歷某事需要相當長時間」是「long process/journey」的用法，與本句語境不同。",
-        "long-mcq-20": "「長度／時間超過適當或需要程度」是「too long」的用法，與本句語境不同。",
-        "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。",
-        "long-mcq-16": "「經過不太長時間後；不久後」是「before long」的用法，與本句語境不同。"
+        "long-mcq-19": "本句的「long speech」指「說話／文字內容篇幅較大」。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-19"
     },
@@ -2846,11 +2694,9 @@ export default {
       "masked": "The report is too ____.",
       "options": [
         "long-mcq-19",
-        "long-mcq-18",
-        "long-mcq-20",
-        "long-mcq-17",
-        "long-mcq-21",
-        "long-mcq-16"
+        "long-mcq-07",
+        "long-mcq-42",
+        "long-mcq-27"
       ],
       "explanation": "本句的「long」指「說話／文字內容篇幅較大」。",
       "sentenceIndex": 44,
@@ -2859,12 +2705,10 @@ export default {
         "long"
       ],
       "optionReasons": {
-        "long-mcq-19": "本句指「說話／文字內容篇幅較大」。",
-        "long-mcq-18": "「完成／經歷某事需要相當長時間」是「long process/journey」的用法，與本句語境不同。",
-        "long-mcq-20": "「長度／時間超過適當或需要程度」是「too long」的用法，與本句語境不同。",
-        "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。",
-        "long-mcq-16": "「經過不太長時間後；不久後」是「before long」的用法，與本句語境不同。"
+        "long-mcq-19": "本句的「long」指「說話／文字內容篇幅較大」。",
+        "long-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-19"
     },
@@ -2876,11 +2720,9 @@ export default {
       "masked": "The presentation was ____.",
       "options": [
         "long-mcq-20",
-        "long-mcq-19",
-        "long-mcq-21",
-        "long-mcq-18",
-        "long-mcq-22",
-        "long-mcq-17"
+        "long-mcq-37",
+        "long-mcq-48",
+        "long-mcq-02"
       ],
       "explanation": "本句的「too long」指「長度／時間超過適當或需要程度」。",
       "sentenceIndex": 45,
@@ -2889,12 +2731,10 @@ export default {
         "too long"
       ],
       "optionReasons": {
-        "long-mcq-20": "本句指「長度／時間超過適當或需要程度」。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。",
-        "long-mcq-18": "「完成／經歷某事需要相當長時間」是「long process/journey」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
-        "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。"
+        "long-mcq-20": "本句的「too long」指「長度／時間超過適當或需要程度」。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-20"
     },
@@ -2906,11 +2746,9 @@ export default {
       "masked": "Don’t wait ____.",
       "options": [
         "long-mcq-20",
-        "long-mcq-19",
-        "long-mcq-21",
-        "long-mcq-18",
-        "long-mcq-22",
-        "long-mcq-17"
+        "long-mcq-35",
+        "long-mcq-33",
+        "long-mcq-50"
       ],
       "explanation": "本句的「too long」指「長度／時間超過適當或需要程度」。",
       "sentenceIndex": 46,
@@ -2919,12 +2757,10 @@ export default {
         "too long"
       ],
       "optionReasons": {
-        "long-mcq-20": "本句指「長度／時間超過適當或需要程度」。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。",
-        "long-mcq-18": "「完成／經歷某事需要相當長時間」是「long process/journey」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
-        "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。"
+        "long-mcq-20": "本句的「too long」指「長度／時間超過適當或需要程度」。",
+        "long-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-20"
     },
@@ -2936,11 +2772,9 @@ export default {
       "masked": "The meeting didn’t last ____.",
       "options": [
         "long-pdf-001",
-        "long-mcq-19",
-        "long-mcq-21",
-        "long-mcq-18",
-        "long-mcq-22",
-        "long-mcq-17"
+        "long-mcq-02",
+        "long-mcq-42",
+        "long-mcq-36"
       ],
       "explanation": "本句的「long」指「所需／持續的時間不多」。",
       "sentenceIndex": 47,
@@ -2949,12 +2783,10 @@ export default {
         "long"
       ],
       "optionReasons": {
-        "long-pdf-001": "本句指「所需／持續的時間不多」。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。",
-        "long-mcq-18": "「完成／經歷某事需要相當長時間」是「long process/journey」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
-        "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。"
+        "long-pdf-001": "本句的「long」指「所需／持續的時間不多」。",
+        "long-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-001"
     },
@@ -2966,11 +2798,9 @@ export default {
       "masked": "It won’t take ____.",
       "options": [
         "long-pdf-001",
-        "long-mcq-19",
-        "long-mcq-21",
-        "long-mcq-18",
-        "long-mcq-22",
-        "long-mcq-17"
+        "long-pdf-007",
+        "long-mcq-48",
+        "long-mcq-32"
       ],
       "explanation": "本句的「long」指「所需／持續的時間不多」。",
       "sentenceIndex": 48,
@@ -2979,12 +2809,10 @@ export default {
         "long"
       ],
       "optionReasons": {
-        "long-pdf-001": "本句指「所需／持續的時間不多」。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。",
-        "long-mcq-18": "「完成／經歷某事需要相當長時間」是「long process/journey」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
-        "long-mcq-17": "「某件事持續整個指定時間段」是「all day/night long」的用法，與本句語境不同。"
+        "long-pdf-001": "本句的「long」指「所需／持續的時間不多」。",
+        "long-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-001"
     },
@@ -2996,11 +2824,9 @@ export default {
       "masked": "You can stay ____ you need.",
       "options": [
         "long-mcq-21",
-        "long-mcq-20",
-        "long-mcq-22",
-        "long-mcq-19",
-        "long-mcq-23",
-        "long-mcq-18"
+        "long-mcq-45",
+        "long-mcq-55",
+        "long-mcq-22"
       ],
       "explanation": "本句的「as long as」指「在某情況持續的整段時間內」。",
       "sentenceIndex": 49,
@@ -3009,12 +2835,10 @@ export default {
         "as long as"
       ],
       "optionReasons": {
-        "long-mcq-21": "本句指「在某情況持續的整段時間內」。",
-        "long-mcq-20": "「長度／時間超過適當或需要程度」是「too long」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-18": "「完成／經歷某事需要相當長時間」是「long process/journey」的用法，與本句語境不同。"
+        "long-mcq-21": "本句的「as long as」指「在某情況持續的整段時間內」。",
+        "long-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-21"
     },
@@ -3026,11 +2850,9 @@ export default {
       "masked": "I’ll support you ____ you need help.",
       "options": [
         "long-mcq-21",
-        "long-mcq-20",
-        "long-mcq-22",
-        "long-mcq-19",
-        "long-mcq-23",
-        "long-mcq-18"
+        "long-mcq-46",
+        "long-mcq-07",
+        "long-mcq-32"
       ],
       "explanation": "本句的「as long as」指「在某情況持續的整段時間內」。",
       "sentenceIndex": 50,
@@ -3039,12 +2861,10 @@ export default {
         "as long as"
       ],
       "optionReasons": {
-        "long-mcq-21": "本句指「在某情況持續的整段時間內」。",
-        "long-mcq-20": "「長度／時間超過適當或需要程度」是「too long」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-18": "「完成／經歷某事需要相當長時間」是「long process/journey」的用法，與本句語境不同。"
+        "long-mcq-21": "本句的「as long as」指「在某情況持續的整段時間內」。",
+        "long-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-21"
     },
@@ -3056,10 +2876,8 @@ export default {
       "masked": "You’ll improve ____ you keep practising.",
       "options": [
         "long-mcq-22",
-        "long-mcq-21",
-        "long-mcq-23",
-        "long-mcq-20",
-        "long-mcq-24",
+        "long-mcq-09",
+        "long-pdf-006",
         "long-mcq-19"
       ],
       "explanation": "本句的「as long as」指「如果某個必要條件成立；只要」。",
@@ -3069,12 +2887,10 @@ export default {
         "as long as"
       ],
       "optionReasons": {
-        "long-mcq-22": "本句指「如果某個必要條件成立；只要」。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-20": "「長度／時間超過適當或需要程度」是「too long」的用法，與本句語境不同。",
-        "long-mcq-24": "「涉及或關注相對較長時間範圍的」是「long-term」的用法，與本句語境不同。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。"
+        "long-mcq-22": "本句的「as long as」指「如果某個必要條件成立；只要」。",
+        "long-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-22"
     },
@@ -3086,11 +2902,9 @@ export default {
       "masked": "You can make mistakes ____ you keep going.",
       "options": [
         "long-mcq-22",
-        "long-mcq-21",
-        "long-mcq-23",
-        "long-mcq-20",
-        "long-mcq-24",
-        "long-mcq-19"
+        "long-mcq-53",
+        "long-mcq-43",
+        "long-mcq-05"
       ],
       "explanation": "本句的「as long as」指「如果某個必要條件成立；只要」。",
       "sentenceIndex": 52,
@@ -3099,12 +2913,10 @@ export default {
         "as long as"
       ],
       "optionReasons": {
-        "long-mcq-22": "本句指「如果某個必要條件成立；只要」。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-20": "「長度／時間超過適當或需要程度」是「too long」的用法，與本句語境不同。",
-        "long-mcq-24": "「涉及或關注相對較長時間範圍的」是「long-term」的用法，與本句語境不同。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。"
+        "long-mcq-22": "本句的「as long as」指「如果某個必要條件成立；只要」。",
+        "long-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-22"
     },
@@ -3116,11 +2928,9 @@ export default {
       "masked": "You can try again ____ you learn from the mistake.",
       "options": [
         "long-mcq-22",
-        "long-mcq-21",
-        "long-mcq-23",
-        "long-mcq-20",
-        "long-mcq-24",
-        "long-mcq-19"
+        "long-mcq-11",
+        "long-mcq-50",
+        "long-mcq-52"
       ],
       "explanation": "本句的「so long as」指「如果某個必要條件成立；只要」。",
       "sentenceIndex": 53,
@@ -3129,12 +2939,10 @@ export default {
         "so long as"
       ],
       "optionReasons": {
-        "long-mcq-22": "本句指「如果某個必要條件成立；只要」。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-20": "「長度／時間超過適當或需要程度」是「too long」的用法，與本句語境不同。",
-        "long-mcq-24": "「涉及或關注相對較長時間範圍的」是「long-term」的用法，與本句語境不同。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。"
+        "long-mcq-22": "本句的「so long as」指「如果某個必要條件成立；只要」。",
+        "long-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-22"
     },
@@ -3146,11 +2954,9 @@ export default {
       "masked": "The plan will work ____ everyone cooperates.",
       "options": [
         "long-mcq-22",
-        "long-mcq-21",
-        "long-mcq-23",
-        "long-mcq-20",
-        "long-mcq-24",
-        "long-mcq-19"
+        "long-mcq-42",
+        "long-mcq-41",
+        "long-mcq-37"
       ],
       "explanation": "本句的「so long as」指「如果某個必要條件成立；只要」。",
       "sentenceIndex": 54,
@@ -3159,12 +2965,10 @@ export default {
         "so long as"
       ],
       "optionReasons": {
-        "long-mcq-22": "本句指「如果某個必要條件成立；只要」。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-20": "「長度／時間超過適當或需要程度」是「too long」的用法，與本句語境不同。",
-        "long-mcq-24": "「涉及或關注相對較長時間範圍的」是「long-term」的用法，與本句語境不同。",
-        "long-mcq-19": "「說話／文字內容篇幅較大」是「long speech/report」的用法，與本句語境不同。"
+        "long-mcq-22": "本句的「so long as」指「如果某個必要條件成立；只要」。",
+        "long-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-22"
     },
@@ -3176,11 +2980,9 @@ export default {
       "masked": "I practised ____ to feel prepared.",
       "options": [
         "long-mcq-23",
-        "long-mcq-22",
-        "long-mcq-24",
-        "long-mcq-21",
-        "long-mcq-25",
-        "long-mcq-20"
+        "long-mcq-07",
+        "long-mcq-37",
+        "long-mcq-32"
       ],
       "explanation": "本句的「long enough」指「長度／時間達到所需程度」。",
       "sentenceIndex": 55,
@@ -3189,12 +2991,10 @@ export default {
         "long enough"
       ],
       "optionReasons": {
-        "long-mcq-23": "本句指「長度／時間達到所需程度」。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
-        "long-mcq-24": "「涉及或關注相對較長時間範圍的」是「long-term」的用法，與本句語境不同。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。",
-        "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
-        "long-mcq-20": "「長度／時間超過適當或需要程度」是「too long」的用法，與本句語境不同。"
+        "long-mcq-23": "本句的「long enough」指「長度／時間達到所需程度」。",
+        "long-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-23"
     },
@@ -3206,11 +3006,9 @@ export default {
       "masked": "The cable isn’t ____.",
       "options": [
         "long-mcq-23",
-        "long-mcq-22",
-        "long-mcq-24",
-        "long-mcq-21",
-        "long-mcq-25",
-        "long-mcq-20"
+        "long-mcq-50",
+        "long-reviewed-d5f3a59794",
+        "long-mcq-37"
       ],
       "explanation": "本句的「long enough」指「長度／時間達到所需程度」。",
       "sentenceIndex": 56,
@@ -3219,12 +3017,10 @@ export default {
         "long enough"
       ],
       "optionReasons": {
-        "long-mcq-23": "本句指「長度／時間達到所需程度」。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
-        "long-mcq-24": "「涉及或關注相對較長時間範圍的」是「long-term」的用法，與本句語境不同。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。",
-        "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
-        "long-mcq-20": "「長度／時間超過適當或需要程度」是「too long」的用法，與本句語境不同。"
+        "long-mcq-23": "本句的「long enough」指「長度／時間達到所需程度」。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-23"
     },
@@ -3236,11 +3032,9 @@ export default {
       "masked": "The presentation took ____.",
       "options": [
         "long-pdf-002",
-        "long-mcq-23",
-        "long-mcq-25",
-        "long-mcq-22",
-        "long-mcq-26",
-        "long-mcq-21"
+        "long-mcq-47",
+        "long-mcq-37",
+        "long-mcq-48"
       ],
       "explanation": "本句的「longer than expected」指「comparative form of long；在長度／時間上更大」。",
       "sentenceIndex": 57,
@@ -3249,12 +3043,10 @@ export default {
         "longer than expected"
       ],
       "optionReasons": {
-        "long-pdf-002": "本句指「comparative form of long；在長度／時間上更大」。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。"
+        "long-pdf-002": "本句的「longer than expected」指「comparative form of long；在長度／時間上更大」。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-002"
     },
@@ -3266,11 +3058,9 @@ export default {
       "masked": "The road is ____ it looks.",
       "options": [
         "long-pdf-002",
-        "long-mcq-23",
-        "long-mcq-25",
-        "long-mcq-22",
-        "long-mcq-26",
-        "long-mcq-21"
+        "long-mcq-01",
+        "long-mcq-33",
+        "long-mcq-47"
       ],
       "explanation": "本句的「longer than」指「comparative form of long；在長度／時間上更大」。",
       "sentenceIndex": 58,
@@ -3279,12 +3069,10 @@ export default {
         "longer than"
       ],
       "optionReasons": {
-        "long-pdf-002": "本句指「comparative form of long；在長度／時間上更大」。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。"
+        "long-pdf-002": "本句的「longer than」指「comparative form of long；在長度／時間上更大」。",
+        "long-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-002"
     },
@@ -3296,11 +3084,9 @@ export default {
       "masked": "That was the ____ presentation of the day.",
       "options": [
         "long-pdf-003",
-        "long-mcq-23",
-        "long-mcq-25",
         "long-mcq-22",
-        "long-mcq-26",
-        "long-mcq-21"
+        "long-reviewed-d5f3a59794",
+        "long-mcq-48"
       ],
       "explanation": "本句的「longest」指「在比較群體中長度／持續時間最大」。",
       "sentenceIndex": 59,
@@ -3309,12 +3095,10 @@ export default {
         "longest"
       ],
       "optionReasons": {
-        "long-pdf-003": "本句指「在比較群體中長度／持續時間最大」。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。"
+        "long-pdf-003": "本句的「longest」指「在比較群體中長度／持續時間最大」。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-003"
     },
@@ -3326,11 +3110,9 @@ export default {
       "masked": "This is the ____ route.",
       "options": [
         "long-pdf-003",
-        "long-mcq-23",
-        "long-mcq-25",
         "long-mcq-22",
-        "long-mcq-26",
-        "long-mcq-21"
+        "long-mcq-36",
+        "long-reviewed-d5f3a59794"
       ],
       "explanation": "本句的「longest」指「在比較群體中長度／持續時間最大」。",
       "sentenceIndex": 60,
@@ -3339,12 +3121,10 @@ export default {
         "longest"
       ],
       "optionReasons": {
-        "long-pdf-003": "本句指「在比較群體中長度／持續時間最大」。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。"
+        "long-pdf-003": "本句的「longest」指「在比較群體中長度／持續時間最大」。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-003"
     },
@@ -3356,11 +3136,9 @@ export default {
       "masked": "Practice brings ____.",
       "options": [
         "long-mcq-24",
-        "long-mcq-23",
-        "long-mcq-25",
-        "long-mcq-22",
-        "long-mcq-26",
-        "long-mcq-21"
+        "long-mcq-50",
+        "long-mcq-15",
+        "long-mcq-07"
       ],
       "explanation": "本句的「long-term benefits」指「涉及或關注相對較長時間範圍的」。",
       "sentenceIndex": 61,
@@ -3369,12 +3147,10 @@ export default {
         "long-term benefits"
       ],
       "optionReasons": {
-        "long-mcq-24": "本句指「涉及或關注相對較長時間範圍的」。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。"
+        "long-mcq-24": "本句的「long-term benefits」指「涉及或關注相對較長時間範圍的」。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-24"
     },
@@ -3386,11 +3162,9 @@ export default {
       "masked": "We need a ____.",
       "options": [
         "long-mcq-24",
-        "long-mcq-23",
-        "long-mcq-25",
-        "long-mcq-22",
-        "long-mcq-26",
-        "long-mcq-21"
+        "long-reviewed-d5f3a59794",
+        "long-mcq-31",
+        "long-mcq-50"
       ],
       "explanation": "本句的「long-term plan」指「涉及或關注相對較長時間範圍的」。",
       "sentenceIndex": 62,
@@ -3399,12 +3173,10 @@ export default {
         "long-term plan"
       ],
       "optionReasons": {
-        "long-mcq-24": "本句指「涉及或關注相對較長時間範圍的」。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
-        "long-mcq-21": "「在某情況持續的整段時間內」是「as long as — temporal」的用法，與本句語境不同。"
+        "long-mcq-24": "本句的「long-term plan」指「涉及或關注相對較長時間範圍的」。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-24"
     },
@@ -3416,11 +3188,9 @@ export default {
       "masked": "The experience helped me ____.",
       "options": [
         "long-mcq-25",
-        "long-mcq-24",
-        "long-mcq-26",
-        "long-mcq-23",
-        "long-mcq-27",
-        "long-mcq-22"
+        "long-reviewed-d5f3a59794",
+        "long-mcq-06",
+        "long-mcq-34"
       ],
       "explanation": "本句的「in the long term」指「從較長時間尺度考慮最終結果」。",
       "sentenceIndex": 63,
@@ -3429,12 +3199,10 @@ export default {
         "in the long term"
       ],
       "optionReasons": {
-        "long-mcq-25": "本句指「從較長時間尺度考慮最終結果」。",
-        "long-mcq-24": "「涉及或關注相對較長時間範圍的」是「long-term」的用法，與本句語境不同。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-27": "「持續／維持相當長時間的」是「long-lasting」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。"
+        "long-mcq-25": "本句的「in the long term」指「從較長時間尺度考慮最終結果」。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-25"
     },
@@ -3446,11 +3214,9 @@ export default {
       "masked": "The change may save money ____.",
       "options": [
         "long-mcq-25",
-        "long-mcq-24",
-        "long-mcq-26",
-        "long-mcq-23",
-        "long-mcq-27",
-        "long-mcq-22"
+        "long-mcq-15",
+        "long-mcq-34",
+        "long-mcq-50"
       ],
       "explanation": "本句的「in the long term」指「從較長時間尺度考慮最終結果」。",
       "sentenceIndex": 64,
@@ -3459,12 +3225,10 @@ export default {
         "in the long term"
       ],
       "optionReasons": {
-        "long-mcq-25": "本句指「從較長時間尺度考慮最終結果」。",
-        "long-mcq-24": "「涉及或關注相對較長時間範圍的」是「long-term」的用法，與本句語境不同。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-27": "「持續／維持相當長時間的」是「long-lasting」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。"
+        "long-mcq-25": "本句的「in the long term」指「從較長時間尺度考慮最終結果」。",
+        "long-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-25"
     },
@@ -3476,11 +3240,9 @@ export default {
       "masked": "Facing your fear can help ____.",
       "options": [
         "long-mcq-25",
-        "long-mcq-24",
-        "long-mcq-26",
-        "long-mcq-23",
-        "long-mcq-27",
-        "long-mcq-22"
+        "long-mcq-01",
+        "long-mcq-48",
+        "long-mcq-33"
       ],
       "explanation": "本句的「in the long run」指「從較長時間尺度考慮最終結果」。",
       "sentenceIndex": 65,
@@ -3489,12 +3251,10 @@ export default {
         "in the long run"
       ],
       "optionReasons": {
-        "long-mcq-25": "本句指「從較長時間尺度考慮最終結果」。",
-        "long-mcq-24": "「涉及或關注相對較長時間範圍的」是「long-term」的用法，與本句語境不同。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-27": "「持續／維持相當長時間的」是「long-lasting」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。"
+        "long-mcq-25": "本句的「in the long run」指「從較長時間尺度考慮最終結果」。",
+        "long-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-25"
     },
@@ -3506,11 +3266,9 @@ export default {
       "masked": "Good preparation saves time ____.",
       "options": [
         "long-mcq-25",
-        "long-mcq-24",
-        "long-mcq-26",
-        "long-mcq-23",
-        "long-mcq-27",
-        "long-mcq-22"
+        "long-mcq-33",
+        "long-mcq-48",
+        "long-mcq-35"
       ],
       "explanation": "本句的「in the long run」指「從較長時間尺度考慮最終結果」。",
       "sentenceIndex": 66,
@@ -3519,12 +3277,10 @@ export default {
         "in the long run"
       ],
       "optionReasons": {
-        "long-mcq-25": "本句指「從較長時間尺度考慮最終結果」。",
-        "long-mcq-24": "「涉及或關注相對較長時間範圍的」是「long-term」的用法，與本句語境不同。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。",
-        "long-mcq-27": "「持續／維持相當長時間的」是「long-lasting」的用法，與本句語境不同。",
-        "long-mcq-22": "「如果某個必要條件成立；只要」是「as/so long as — condition」的用法，與本句語境不同。"
+        "long-mcq-25": "本句的「in the long run」指「從較長時間尺度考慮最終結果」。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-25"
     },
@@ -3536,11 +3292,9 @@ export default {
       "masked": "She overcame a ____ of public speaking.",
       "options": [
         "long-mcq-26",
-        "long-mcq-25",
-        "long-mcq-27",
-        "long-mcq-24",
-        "long-mcq-28",
-        "long-mcq-23"
+        "long-mcq-48",
+        "long-mcq-30",
+        "long-pdf-006"
       ],
       "explanation": "本句的「long-standing fear」指「已經存在相當長時間的」。",
       "sentenceIndex": 67,
@@ -3549,12 +3303,10 @@ export default {
         "long-standing fear"
       ],
       "optionReasons": {
-        "long-mcq-26": "本句指「已經存在相當長時間的」。",
-        "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
-        "long-mcq-27": "「持續／維持相當長時間的」是「long-lasting」的用法，與本句語境不同。",
-        "long-mcq-24": "「涉及或關注相對較長時間範圍的」是「long-term」的用法，與本句語境不同。",
-        "long-mcq-28": "「生命或存在時間很長的」是「long-lived」的用法，與本句語境不同。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。"
+        "long-mcq-26": "本句的「long-standing fear」指「已經存在相當長時間的」。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-26"
     },
@@ -3566,11 +3318,9 @@ export default {
       "masked": "The two companies have a ____.",
       "options": [
         "long-mcq-26",
-        "long-mcq-25",
-        "long-mcq-27",
-        "long-mcq-24",
-        "long-mcq-28",
-        "long-mcq-23"
+        "long-mcq-50",
+        "long-mcq-52",
+        "long-mcq-35"
       ],
       "explanation": "本句的「long-standing relationship」指「已經存在相當長時間的」。",
       "sentenceIndex": 68,
@@ -3579,12 +3329,10 @@ export default {
         "long-standing relationship"
       ],
       "optionReasons": {
-        "long-mcq-26": "本句指「已經存在相當長時間的」。",
-        "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
-        "long-mcq-27": "「持續／維持相當長時間的」是「long-lasting」的用法，與本句語境不同。",
-        "long-mcq-24": "「涉及或關注相對較長時間範圍的」是「long-term」的用法，與本句語境不同。",
-        "long-mcq-28": "「生命或存在時間很長的」是「long-lived」的用法，與本句語境不同。",
-        "long-mcq-23": "「長度／時間達到所需程度」是「long enough」的用法，與本句語境不同。"
+        "long-mcq-26": "本句的「long-standing relationship」指「已經存在相當長時間的」。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-26"
     },
@@ -3596,11 +3344,9 @@ export default {
       "masked": "The experience had a ____.",
       "options": [
         "long-mcq-27",
-        "long-mcq-26",
-        "long-mcq-28",
-        "long-mcq-25",
-        "long-mcq-29",
-        "long-mcq-24"
+        "long-mcq-48",
+        "long-mcq-22",
+        "long-mcq-06"
       ],
       "explanation": "本句的「long-lasting effect」指「持續／維持相當長時間的」。",
       "sentenceIndex": 69,
@@ -3609,12 +3355,10 @@ export default {
         "long-lasting effect"
       ],
       "optionReasons": {
-        "long-mcq-27": "本句指「持續／維持相當長時間的」。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
-        "long-mcq-28": "「生命或存在時間很長的」是「long-lived」的用法，與本句語境不同。",
-        "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
-        "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。",
-        "long-mcq-24": "「涉及或關注相對較長時間範圍的」是「long-term」的用法，與本句語境不同。"
+        "long-mcq-27": "本句的「long-lasting effect」指「持續／維持相當長時間的」。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-27"
     },
@@ -3626,11 +3370,9 @@ export default {
       "masked": "They built a ____.",
       "options": [
         "long-mcq-27",
-        "long-mcq-26",
-        "long-mcq-28",
-        "long-mcq-25",
-        "long-mcq-29",
-        "long-mcq-24"
+        "long-mcq-52",
+        "long-pdf-006",
+        "long-mcq-22"
       ],
       "explanation": "本句的「long-lasting friendship」指「持續／維持相當長時間的」。",
       "sentenceIndex": 70,
@@ -3639,12 +3381,10 @@ export default {
         "long-lasting friendship"
       ],
       "optionReasons": {
-        "long-mcq-27": "本句指「持續／維持相當長時間的」。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
-        "long-mcq-28": "「生命或存在時間很長的」是「long-lived」的用法，與本句語境不同。",
-        "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。",
-        "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。",
-        "long-mcq-24": "「涉及或關注相對較長時間範圍的」是「long-term」的用法，與本句語境不同。"
+        "long-mcq-27": "本句的「long-lasting friendship」指「持續／維持相當長時間的」。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-27"
     },
@@ -3656,11 +3396,9 @@ export default {
       "masked": "Some trees are extremely ____.",
       "options": [
         "long-mcq-28",
-        "long-mcq-27",
-        "long-mcq-29",
-        "long-mcq-26",
-        "long-mcq-30",
-        "long-mcq-25"
+        "long-mcq-22",
+        "long-mcq-50",
+        "long-reviewed-77e99d7dcf"
       ],
       "explanation": "本句的「long-lived」指「生命或存在時間很長的」。",
       "sentenceIndex": 71,
@@ -3669,12 +3407,10 @@ export default {
         "long-lived"
       ],
       "optionReasons": {
-        "long-mcq-28": "本句指「生命或存在時間很長的」。",
-        "long-mcq-27": "「持續／維持相當長時間的」是「long-lasting」的用法，與本句語境不同。",
-        "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
-        "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。"
+        "long-mcq-28": "本句的「long-lived」指「生命或存在時間很長的」。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-77e99d7dcf": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-28"
     },
@@ -3686,11 +3422,9 @@ export default {
       "masked": "The agreement was surprisingly ____.",
       "options": [
         "long-mcq-28",
-        "long-mcq-27",
-        "long-mcq-29",
-        "long-mcq-26",
-        "long-mcq-30",
-        "long-mcq-25"
+        "long-mcq-19",
+        "long-mcq-52",
+        "long-mcq-22"
       ],
       "explanation": "本句的「long-lived」指「生命或存在時間很長的」。",
       "sentenceIndex": 72,
@@ -3699,12 +3433,10 @@ export default {
         "long-lived"
       ],
       "optionReasons": {
-        "long-mcq-28": "本句指「生命或存在時間很長的」。",
-        "long-mcq-27": "「持續／維持相當長時間的」是「long-lasting」的用法，與本句語境不同。",
-        "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
-        "long-mcq-25": "「從較長時間尺度考慮最終結果」是「in the long run」的用法，與本句語境不同。"
+        "long-mcq-28": "本句的「long-lived」指「生命或存在時間很長的」。",
+        "long-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-28"
     },
@@ -3716,11 +3448,9 @@ export default {
       "masked": "They finally resolved a ____.",
       "options": [
         "long-mcq-29",
-        "long-mcq-28",
-        "long-mcq-30",
-        "long-mcq-27",
-        "long-mcq-31",
-        "long-mcq-26"
+        "long-mcq-15",
+        "long-mcq-35",
+        "long-mcq-32"
       ],
       "explanation": "本句的「long-running dispute」指「已經持續進行、播放、爭論等很長時間的」。",
       "sentenceIndex": 73,
@@ -3729,12 +3459,10 @@ export default {
         "long-running dispute"
       ],
       "optionReasons": {
-        "long-mcq-29": "本句指「已經持續進行、播放、爭論等很長時間的」。",
-        "long-mcq-28": "「生命或存在時間很長的」是「long-lived」的用法，與本句語境不同。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
-        "long-mcq-27": "「持續／維持相當長時間的」是「long-lasting」的用法，與本句語境不同。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。"
+        "long-mcq-29": "本句的「long-running dispute」指「已經持續進行、播放、爭論等很長時間的」。",
+        "long-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-29"
     },
@@ -3746,11 +3474,9 @@ export default {
       "masked": "The show is one of the country’s ____ programmes.",
       "options": [
         "long-mcq-29",
-        "long-mcq-28",
-        "long-mcq-30",
-        "long-mcq-27",
-        "long-mcq-31",
-        "long-mcq-26"
+        "long-mcq-36",
+        "long-mcq-06",
+        "long-reviewed-d5f3a59794"
       ],
       "explanation": "本句的「longest-running」指「已經持續進行、播放、爭論等很長時間的」。",
       "sentenceIndex": 74,
@@ -3759,12 +3485,10 @@ export default {
         "longest-running"
       ],
       "optionReasons": {
-        "long-mcq-29": "本句指「已經持續進行、播放、爭論等很長時間的」。",
-        "long-mcq-28": "「生命或存在時間很長的」是「long-lived」的用法，與本句語境不同。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
-        "long-mcq-27": "「持續／維持相當長時間的」是「long-lasting」的用法，與本句語境不同。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
-        "long-mcq-26": "「已經存在相當長時間的」是「long-standing」的用法，與本句語境不同。"
+        "long-mcq-29": "本句的「longest-running」指「已經持續進行、播放、爭論等很長時間的」。",
+        "long-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-29"
     },
@@ -3776,11 +3500,9 @@ export default {
       "masked": "The ____ announcement finally arrived.",
       "options": [
         "long-mcq-30",
-        "long-mcq-29",
-        "long-mcq-31",
-        "long-mcq-28",
-        "long-mcq-32",
-        "long-mcq-27"
+        "long-mcq-01",
+        "long-mcq-44",
+        "long-mcq-33"
       ],
       "explanation": "本句的「long-awaited」指「等待／期待很久後才終於發生的」。",
       "sentenceIndex": 75,
@@ -3789,12 +3511,10 @@ export default {
         "long-awaited"
       ],
       "optionReasons": {
-        "long-mcq-30": "本句指「等待／期待很久後才終於發生的」。",
-        "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
-        "long-mcq-28": "「生命或存在時間很長的」是「long-lived」的用法，與本句語境不同。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-27": "「持續／維持相當長時間的」是「long-lasting」的用法，與本句語境不同。"
+        "long-mcq-30": "本句的「long-awaited」指「等待／期待很久後才終於發生的」。",
+        "long-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-30"
     },
@@ -3806,11 +3526,9 @@ export default {
       "masked": "She gave her ____ presentation.",
       "options": [
         "long-mcq-30",
-        "long-mcq-29",
-        "long-mcq-31",
-        "long-mcq-28",
-        "long-mcq-32",
-        "long-mcq-27"
+        "long-mcq-17",
+        "long-mcq-52",
+        "long-mcq-22"
       ],
       "explanation": "本句的「long-awaited」指「等待／期待很久後才終於發生的」。",
       "sentenceIndex": 76,
@@ -3819,12 +3537,10 @@ export default {
         "long-awaited"
       ],
       "optionReasons": {
-        "long-mcq-30": "本句指「等待／期待很久後才終於發生的」。",
-        "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
-        "long-mcq-28": "「生命或存在時間很長的」是「long-lived」的用法，與本句語境不同。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-27": "「持續／維持相當長時間的」是「long-lasting」的用法，與本句語境不同。"
+        "long-mcq-30": "本句的「long-awaited」指「等待／期待很久後才終於發生的」。",
+        "long-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-30"
     },
@@ -3836,11 +3552,9 @@ export default {
       "masked": "The update is ____.",
       "options": [
         "long-mcq-31",
-        "long-mcq-30",
-        "long-mcq-32",
-        "long-mcq-29",
-        "long-mcq-33",
-        "long-mcq-28"
+        "long-mcq-25",
+        "long-mcq-40",
+        "long-mcq-47"
       ],
       "explanation": "本句的「long overdue」指「應該在很久以前已發生／完成但一直延遲」。",
       "sentenceIndex": 77,
@@ -3849,12 +3563,10 @@ export default {
         "long overdue"
       ],
       "optionReasons": {
-        "long-mcq-31": "本句指「應該在很久以前已發生／完成但一直延遲」。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
-        "long-mcq-28": "「生命或存在時間很長的」是「long-lived」的用法，與本句語境不同。"
+        "long-mcq-31": "本句的「long overdue」指「應該在很久以前已發生／完成但一直延遲」。",
+        "long-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-31"
     },
@@ -3866,11 +3578,9 @@ export default {
       "masked": "A change was ____.",
       "options": [
         "long-mcq-31",
-        "long-mcq-30",
-        "long-mcq-32",
-        "long-mcq-29",
-        "long-mcq-33",
-        "long-mcq-28"
+        "long-mcq-37",
+        "long-mcq-44",
+        "long-mcq-47"
       ],
       "explanation": "本句的「long overdue」指「應該在很久以前已發生／完成但一直延遲」。",
       "sentenceIndex": 78,
@@ -3879,12 +3589,10 @@ export default {
         "long overdue"
       ],
       "optionReasons": {
-        "long-mcq-31": "本句指「應該在很久以前已發生／完成但一直延遲」。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
-        "long-mcq-28": "「生命或存在時間很長的」是「long-lived」的用法，與本句語境不同。"
+        "long-mcq-31": "本句的「long overdue」指「應該在很久以前已發生／完成但一直延遲」。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-31"
     },
@@ -3896,11 +3604,9 @@ export default {
       "masked": "She worked ____ preparing the presentation.",
       "options": [
         "long-pdf-004",
-        "long-mcq-30",
-        "long-mcq-32",
-        "long-mcq-29",
-        "long-mcq-33",
-        "long-mcq-28"
+        "long-mcq-52",
+        "long-mcq-35",
+        "long-mcq-32"
       ],
       "explanation": "本句的「long hours」指「每天／每段工作時間很長」。",
       "sentenceIndex": 79,
@@ -3909,12 +3615,10 @@ export default {
         "long hours"
       ],
       "optionReasons": {
-        "long-pdf-004": "本句指「每天／每段工作時間很長」。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
-        "long-mcq-28": "「生命或存在時間很長的」是「long-lived」的用法，與本句語境不同。"
+        "long-pdf-004": "本句的「long hours」指「每天／每段工作時間很長」。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-004"
     },
@@ -3926,11 +3630,9 @@ export default {
       "masked": "____ hours can lead to fatigue.",
       "options": [
         "long-pdf-004",
-        "long-mcq-30",
         "long-mcq-32",
-        "long-mcq-29",
-        "long-mcq-33",
-        "long-mcq-28"
+        "long-mcq-31",
+        "long-mcq-52"
       ],
       "explanation": "本句的「Long」指「每天／每段工作時間很長」。",
       "sentenceIndex": 80,
@@ -3939,12 +3641,10 @@ export default {
         "Long"
       ],
       "optionReasons": {
-        "long-pdf-004": "本句指「每天／每段工作時間很長」。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
-        "long-mcq-28": "「生命或存在時間很長的」是「long-lived」的用法，與本句語境不同。"
+        "long-pdf-004": "本句的「Long」指「每天／每段工作時間很長」。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-004"
     },
@@ -3956,11 +3656,9 @@ export default {
       "masked": "It had been a ____.",
       "options": [
         "long-pdf-005",
-        "long-mcq-31",
-        "long-mcq-33",
-        "long-mcq-30",
-        "long-mcq-34",
-        "long-mcq-29"
+        "long-reviewed-77e99d7dcf",
+        "long-mcq-15",
+        "long-pdf-007"
       ],
       "explanation": "本句的「long day」指「因活動多、疲倦或時間感覺漫長而顯得很長的一天」。",
       "sentenceIndex": 81,
@@ -3969,12 +3667,10 @@ export default {
         "long day"
       ],
       "optionReasons": {
-        "long-pdf-005": "本句指「因活動多、疲倦或時間感覺漫長而顯得很長的一天」。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
-        "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。"
+        "long-pdf-005": "本句的「long day」指「因活動多、疲倦或時間感覺漫長而顯得很長的一天」。",
+        "long-reviewed-77e99d7dcf": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-005"
     },
@@ -3986,11 +3682,9 @@ export default {
       "masked": "After a ____ day, I was exhausted.",
       "options": [
         "long-pdf-005",
-        "long-mcq-31",
-        "long-mcq-33",
-        "long-mcq-30",
-        "long-mcq-34",
-        "long-mcq-29"
+        "long-mcq-48",
+        "long-mcq-06",
+        "long-reviewed-d5f3a59794"
       ],
       "explanation": "本句的「long」指「因活動多、疲倦或時間感覺漫長而顯得很長的一天」。",
       "sentenceIndex": 82,
@@ -3999,12 +3693,10 @@ export default {
         "long"
       ],
       "optionReasons": {
-        "long-pdf-005": "本句指「因活動多、疲倦或時間感覺漫長而顯得很長的一天」。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
-        "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。"
+        "long-pdf-005": "本句的「long」指「因活動多、疲倦或時間感覺漫長而顯得很長的一天」。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-005"
     },
@@ -4016,11 +3708,9 @@ export default {
       "masked": "It was a ____ before the presentation.",
       "options": [
         "long-mcq-49",
-        "long-mcq-48",
-        "long-mcq-50",
-        "long-mcq-47",
-        "long-mcq-51",
-        "long-mcq-46"
+        "long-mcq-31",
+        "long-mcq-52",
+        "long-mcq-07"
       ],
       "explanation": "本句的「long night」指「因等待、工作、不適等而感到時間很漫長的一夜」。",
       "sentenceIndex": 83,
@@ -4029,12 +3719,10 @@ export default {
         "long night"
       ],
       "optionReasons": {
-        "long-mcq-49": "本句指「因等待、工作、不適等而感到時間很漫長的一夜」。",
-        "long-mcq-48": "「預期資產價格上升而建立的多頭／好倉部位」是「long position」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-51": "「持續時間較長或屬於某語言長短對立中的元音」是「68. long vowel（長母音） — 長元音」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。"
+        "long-mcq-49": "本句的「long night」指「因等待、工作、不適等而感到時間很漫長的一夜」。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-49"
     },
@@ -4046,11 +3734,9 @@ export default {
       "masked": "We had a ____ night of preparation.",
       "options": [
         "long-mcq-49",
-        "long-mcq-48",
-        "long-mcq-50",
-        "long-mcq-47",
-        "long-mcq-51",
-        "long-mcq-46"
+        "long-mcq-15",
+        "long-mcq-37",
+        "long-mcq-19"
       ],
       "explanation": "本句的「long」指「因等待、工作、不適等而感到時間很漫長的一夜」。",
       "sentenceIndex": 84,
@@ -4059,12 +3745,10 @@ export default {
         "long"
       ],
       "optionReasons": {
-        "long-mcq-49": "本句指「因等待、工作、不適等而感到時間很漫長的一夜」。",
-        "long-mcq-48": "「預期資產價格上升而建立的多頭／好倉部位」是「long position」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-51": "「持續時間較長或屬於某語言長短對立中的元音」是「68. long vowel（長母音） — 長元音」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。"
+        "long-mcq-49": "本句的「long」指「因等待、工作、不適等而感到時間很漫長的一夜」。",
+        "long-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-49"
     },
@@ -4076,11 +3760,9 @@ export default {
       "masked": "Why the ____?",
       "options": [
         "long-mcq-32",
-        "long-mcq-31",
-        "long-mcq-33",
-        "long-mcq-30",
-        "long-mcq-34",
-        "long-mcq-29"
+        "long-mcq-53",
+        "long-mcq-46",
+        "long-mcq-43"
       ],
       "explanation": "本句的「long face」指「顯得失望、悲傷或不高興的表情」。",
       "sentenceIndex": 85,
@@ -4089,12 +3771,10 @@ export default {
         "long face"
       ],
       "optionReasons": {
-        "long-mcq-32": "本句指「顯得失望、悲傷或不高興的表情」。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
-        "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。"
+        "long-mcq-32": "本句的「long face」指「顯得失望、悲傷或不高興的表情」。",
+        "long-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-32"
     },
@@ -4106,11 +3786,9 @@ export default {
       "masked": "He had a ____ after hearing the result.",
       "options": [
         "long-mcq-32",
-        "long-mcq-31",
-        "long-mcq-33",
-        "long-mcq-30",
-        "long-mcq-34",
-        "long-mcq-29"
+        "long-mcq-29",
+        "long-mcq-54",
+        "long-mcq-33"
       ],
       "explanation": "本句的「long face」指「顯得失望、悲傷或不高興的表情」。",
       "sentenceIndex": 86,
@@ -4119,12 +3797,10 @@ export default {
         "long face"
       ],
       "optionReasons": {
-        "long-mcq-32": "本句指「顯得失望、悲傷或不高興的表情」。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
-        "long-mcq-29": "「已經持續進行、播放、爭論等很長時間的」是「long-running」的用法，與本句語境不同。"
+        "long-mcq-32": "本句的「long face」指「顯得失望、悲傷或不高興的表情」。",
+        "long-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-32"
     },
@@ -4136,11 +3812,9 @@ export default {
       "masked": "Getting the role is a ____, but I’ll apply.",
       "options": [
         "long-mcq-33",
-        "long-mcq-32",
-        "long-mcq-34",
-        "long-mcq-31",
-        "long-mcq-35",
-        "long-mcq-30"
+        "long-pdf-002",
+        "long-mcq-30",
+        "long-mcq-35"
       ],
       "explanation": "本句的「long shot」指「成功可能性很低但仍可能值得嘗試的事情」。",
       "sentenceIndex": 87,
@@ -4149,12 +3823,10 @@ export default {
         "long shot"
       ],
       "optionReasons": {
-        "long-mcq-33": "本句指「成功可能性很低但仍可能值得嘗試的事情」。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。"
+        "long-mcq-33": "本句的「long shot」指「成功可能性很低但仍可能值得嘗試的事情」。",
+        "long-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-33"
     },
@@ -4166,11 +3838,9 @@ export default {
       "masked": "It’s a ____, but the plan might work.",
       "options": [
         "long-mcq-33",
-        "long-mcq-32",
-        "long-mcq-34",
-        "long-mcq-31",
-        "long-mcq-35",
-        "long-mcq-30"
+        "long-pdf-001",
+        "long-mcq-52",
+        "long-mcq-50"
       ],
       "explanation": "本句的「long shot」指「成功可能性很低但仍可能值得嘗試的事情」。",
       "sentenceIndex": 88,
@@ -4179,12 +3849,10 @@ export default {
         "long shot"
       ],
       "optionReasons": {
-        "long-mcq-33": "本句指「成功可能性很低但仍可能值得嘗試的事情」。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。"
+        "long-mcq-33": "本句的「long shot」指「成功可能性很低但仍可能值得嘗試的事情」。",
+        "long-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-33"
     },
@@ -4196,11 +3864,9 @@ export default {
       "masked": "This was ____ the hardest presentation I had done.",
       "options": [
         "long-pdf-006",
-        "long-mcq-32",
-        "long-mcq-34",
         "long-mcq-31",
-        "long-mcq-35",
-        "long-mcq-30"
+        "long-mcq-41",
+        "long-reviewed-77e99d7dcf"
       ],
       "explanation": "本句的「by a long way」指「程度差距非常大」。",
       "sentenceIndex": 89,
@@ -4209,12 +3875,10 @@ export default {
         "by a long way"
       ],
       "optionReasons": {
-        "long-pdf-006": "本句指「程度差距非常大」。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。"
+        "long-pdf-006": "本句的「by a long way」指「程度差距非常大」。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-77e99d7dcf": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-006"
     },
@@ -4226,11 +3890,9 @@ export default {
       "masked": "She was the best candidate by a ____ way.",
       "options": [
         "long-pdf-006",
-        "long-mcq-32",
         "long-mcq-34",
-        "long-mcq-31",
-        "long-mcq-35",
-        "long-mcq-30"
+        "long-reviewed-77e99d7dcf",
+        "long-mcq-32"
       ],
       "explanation": "本句的「long」指「程度差距非常大」。",
       "sentenceIndex": 90,
@@ -4239,134 +3901,124 @@ export default {
         "long"
       ],
       "optionReasons": {
-        "long-pdf-006": "本句指「程度差距非常大」。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。"
+        "long-pdf-006": "本句的「long」指「程度差距非常大」。",
+        "long-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-77e99d7dcf": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-006"
     },
     {
       "id": "long-46-0",
-      "sense": "long-mcq-33",
+      "sense": "long-reviewed-77e99d7dcf",
       "en": "I’m not perfect—not by a long shot.",
       "zh": "我並不完美——還差得遠呢。",
       "masked": "I’m not perfect—not ____.",
       "options": [
-        "long-mcq-33",
-        "long-mcq-32",
-        "long-mcq-34",
-        "long-mcq-31",
-        "long-mcq-35",
-        "long-mcq-30"
+        "long-reviewed-77e99d7dcf",
+        "long-pdf-003",
+        "long-mcq-43",
+        "long-mcq-02"
       ],
-      "explanation": "本句的「by a long shot」指「成功可能性很低但仍可能值得嘗試的事情」。",
+      "explanation": "對照完整句子：「我並不完美——還差得遠呢。」。這裡的「by a long shot」表示「遠遠沒有達到某種狀態」。",
       "sentenceIndex": 91,
       "sourcePractice": 92,
       "targets": [
         "by a long shot"
       ],
       "optionReasons": {
-        "long-mcq-33": "本句指「成功可能性很低但仍可能值得嘗試的事情」。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。"
+        "long-reviewed-77e99d7dcf": "對照完整句子：「我並不完美——還差得遠呢。」。這裡的「by a long shot」表示「遠遠沒有達到某種狀態」。",
+        "long-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "long-mcq-33"
+      "correctOption": "long-reviewed-77e99d7dcf",
+      "previousCorrectOption": "long-mcq-33",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "long-46-1",
-      "sense": "long-mcq-33",
+      "sense": "long-reviewed-77e99d7dcf",
       "en": "The project isn’t finished, not by a long shot.",
       "zh": "這個項目還沒有完成，離完成還遠得很。",
       "masked": "The project isn’t finished, not by a ____ shot.",
       "options": [
+        "long-reviewed-77e99d7dcf",
+        "long-mcq-13",
         "long-mcq-33",
-        "long-mcq-32",
-        "long-mcq-34",
-        "long-mcq-31",
-        "long-mcq-35",
-        "long-mcq-30"
+        "long-mcq-37"
       ],
-      "explanation": "本句的「long」指「成功可能性很低但仍可能值得嘗試的事情」。",
+      "explanation": "對照完整句子：「這個項目還沒有完成，離完成還遠得很。」。這裡的「long」表示「遠遠沒有達到某種狀態」。",
       "sentenceIndex": 92,
       "sourcePractice": 93,
       "targets": [
         "long"
       ],
       "optionReasons": {
-        "long-mcq-33": "本句指「成功可能性很低但仍可能值得嘗試的事情」。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-30": "「等待／期待很久後才終於發生的」是「long-awaited」的用法，與本句語境不同。"
+        "long-reviewed-77e99d7dcf": "對照完整句子：「這個項目還沒有完成，離完成還遠得很。」。這裡的「long」表示「遠遠沒有達到某種狀態」。",
+        "long-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "long-mcq-33"
+      "correctOption": "long-reviewed-77e99d7dcf",
+      "previousCorrectOption": "long-mcq-33",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "long-47-0",
-      "sense": "long-mcq-34",
+      "sense": "long-reviewed-d5f3a59794",
       "en": "She succeeded despite the long odds.",
       "zh": "儘管成功機會很低，她還是成功了。",
       "masked": "She succeeded despite the ____.",
       "options": [
-        "long-mcq-34",
-        "long-mcq-33",
-        "long-mcq-35",
-        "long-mcq-32",
-        "long-mcq-36",
-        "long-mcq-31"
+        "long-reviewed-d5f3a59794",
+        "long-mcq-07",
+        "long-mcq-51",
+        "long-mcq-15"
       ],
-      "explanation": "本句的「long odds」指「對某人／某事產生強烈而持續的渴望」。",
+      "explanation": "對照完整句子：「儘管成功機會很低，她還是成功了。」。這裡的「long odds」表示「很低的勝算」。",
       "sentenceIndex": 93,
       "sourcePractice": 94,
       "targets": [
         "long odds"
       ],
       "optionReasons": {
-        "long-mcq-34": "本句指「對某人／某事產生強烈而持續的渴望」。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。"
+        "long-reviewed-d5f3a59794": "對照完整句子：「儘管成功機會很低，她還是成功了。」。這裡的「long odds」表示「很低的勝算」。",
+        "long-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "long-mcq-34"
+      "correctOption": "long-reviewed-d5f3a59794",
+      "previousCorrectOption": "long-mcq-34",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "long-47-1",
-      "sense": "long-mcq-34",
+      "sense": "long-reviewed-d5f3a59794",
       "en": "They faced long odds.",
       "zh": "他們面對很低的成功機會。",
       "masked": "They faced ____ odds.",
       "options": [
-        "long-mcq-34",
-        "long-mcq-33",
-        "long-mcq-35",
-        "long-mcq-32",
-        "long-mcq-36",
-        "long-mcq-31"
+        "long-reviewed-d5f3a59794",
+        "long-pdf-002",
+        "long-mcq-07",
+        "long-mcq-47"
       ],
-      "explanation": "本句的「long」指「對某人／某事產生強烈而持續的渴望」。",
+      "explanation": "對照完整句子：「他們面對很低的成功機會。」。這裡的「long」表示「很低的勝算」。",
       "sentenceIndex": 94,
       "sourcePractice": 95,
       "targets": [
         "long"
       ],
       "optionReasons": {
-        "long-mcq-34": "本句指「對某人／某事產生強烈而持續的渴望」。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。"
+        "long-reviewed-d5f3a59794": "對照完整句子：「他們面對很低的成功機會。」。這裡的「long」表示「很低的勝算」。",
+        "long-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "long-mcq-34"
+      "correctOption": "long-reviewed-d5f3a59794",
+      "previousCorrectOption": "long-mcq-34",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "long-48-0",
@@ -4376,11 +4028,9 @@ export default {
       "masked": "She ____ a chance to prove herself.",
       "options": [
         "long-mcq-34",
-        "long-mcq-33",
-        "long-mcq-35",
-        "long-mcq-32",
-        "long-mcq-36",
-        "long-mcq-31"
+        "long-pdf-002",
+        "long-mcq-45",
+        "long-mcq-43"
       ],
       "explanation": "本句的「longed for」指「對某人／某事產生強烈而持續的渴望」。",
       "sentenceIndex": 95,
@@ -4389,12 +4039,10 @@ export default {
         "longed for"
       ],
       "optionReasons": {
-        "long-mcq-34": "本句指「對某人／某事產生強烈而持續的渴望」。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。"
+        "long-mcq-34": "本句的「longed for」指「對某人／某事產生強烈而持續的渴望」。",
+        "long-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-34"
     },
@@ -4406,11 +4054,9 @@ export default {
       "masked": "I ____ feel more confident.",
       "options": [
         "long-mcq-34",
-        "long-mcq-33",
-        "long-mcq-35",
-        "long-mcq-32",
-        "long-mcq-36",
-        "long-mcq-31"
+        "long-mcq-43",
+        "long-pdf-004",
+        "long-mcq-52"
       ],
       "explanation": "本句的「longed to」指「對某人／某事產生強烈而持續的渴望」。",
       "sentenceIndex": 96,
@@ -4419,12 +4065,10 @@ export default {
         "longed to"
       ],
       "optionReasons": {
-        "long-mcq-34": "本句指「對某人／某事產生強烈而持續的渴望」。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。",
-        "long-mcq-31": "「應該在很久以前已發生／完成但一直延遲」是「long overdue」的用法，與本句語境不同。"
+        "long-mcq-34": "本句的「longed to」指「對某人／某事產生強烈而持續的渴望」。",
+        "long-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-34"
     },
@@ -4436,11 +4080,9 @@ export default {
       "masked": "He ____ a break.",
       "options": [
         "long-mcq-35",
-        "long-mcq-34",
-        "long-mcq-36",
-        "long-mcq-33",
-        "long-mcq-37",
-        "long-mcq-32"
+        "long-mcq-42",
+        "long-mcq-47",
+        "long-pdf-008"
       ],
       "explanation": "本句的「longed for」指「強烈希望得到某人／某物／某種狀態」。",
       "sentenceIndex": 97,
@@ -4449,12 +4091,10 @@ export default {
         "longed for"
       ],
       "optionReasons": {
-        "long-mcq-35": "本句指「強烈希望得到某人／某物／某種狀態」。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
-        "long-mcq-37": "「深切而持續的渴望／思念」是「longing」的用法，與本句語境不同。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。"
+        "long-mcq-35": "本句的「longed for」指「強烈希望得到某人／某物／某種狀態」。",
+        "long-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-35"
     },
@@ -4466,11 +4106,9 @@ export default {
       "masked": "She ____ more freedom.",
       "options": [
         "long-mcq-35",
-        "long-mcq-34",
-        "long-mcq-36",
-        "long-mcq-33",
-        "long-mcq-37",
-        "long-mcq-32"
+        "long-mcq-04",
+        "long-mcq-53",
+        "long-mcq-54"
       ],
       "explanation": "本句的「longed for」指「強烈希望得到某人／某物／某種狀態」。",
       "sentenceIndex": 98,
@@ -4479,12 +4117,10 @@ export default {
         "longed for"
       ],
       "optionReasons": {
-        "long-mcq-35": "本句指「強烈希望得到某人／某物／某種狀態」。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。",
-        "long-mcq-37": "「深切而持續的渴望／思念」是「longing」的用法，與本句語境不同。",
-        "long-mcq-32": "「顯得失望、悲傷或不高興的表情」是「long face」的用法，與本句語境不同。"
+        "long-mcq-35": "本句的「longed for」指「強烈希望得到某人／某物／某種狀態」。",
+        "long-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-35"
     },
@@ -4496,11 +4132,9 @@ export default {
       "masked": "I ____ more confidently.",
       "options": [
         "long-mcq-36",
-        "long-mcq-35",
-        "long-mcq-37",
-        "long-mcq-34",
-        "long-mcq-38",
-        "long-mcq-33"
+        "long-mcq-18",
+        "long-mcq-03",
+        "long-mcq-48"
       ],
       "explanation": "本句的「longed to speak」指「強烈希望能做某件事情」。",
       "sentenceIndex": 99,
@@ -4509,12 +4143,10 @@ export default {
         "longed to speak"
       ],
       "optionReasons": {
-        "long-mcq-36": "本句指「強烈希望能做某件事情」。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-37": "「深切而持續的渴望／思念」是「longing」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
-        "long-mcq-38": "「物理長度、時間長度或篇幅」是「length」的用法，與本句語境不同。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。"
+        "long-mcq-36": "本句的「longed to speak」指「強烈希望能做某件事情」。",
+        "long-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-36"
     },
@@ -4526,11 +4158,9 @@ export default {
       "masked": "She ____ home.",
       "options": [
         "long-mcq-36",
-        "long-mcq-35",
-        "long-mcq-37",
-        "long-mcq-34",
-        "long-mcq-38",
-        "long-mcq-33"
+        "long-mcq-44",
+        "long-mcq-31",
+        "long-reviewed-77e99d7dcf"
       ],
       "explanation": "本句的「longed to return」指「強烈希望能做某件事情」。",
       "sentenceIndex": 100,
@@ -4539,12 +4169,10 @@ export default {
         "longed to return"
       ],
       "optionReasons": {
-        "long-mcq-36": "本句指「強烈希望能做某件事情」。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-37": "「深切而持續的渴望／思念」是「longing」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。",
-        "long-mcq-38": "「物理長度、時間長度或篇幅」是「length」的用法，與本句語境不同。",
-        "long-mcq-33": "「成功可能性很低但仍可能值得嘗試的事情」是「long shot — figurative」的用法，與本句語境不同。"
+        "long-mcq-36": "本句的「longed to return」指「強烈希望能做某件事情」。",
+        "long-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-77e99d7dcf": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-36"
     },
@@ -4556,11 +4184,9 @@ export default {
       "masked": "He felt a deep ____ for home.",
       "options": [
         "long-mcq-37",
-        "long-mcq-36",
-        "long-mcq-38",
-        "long-mcq-35",
-        "long-mcq-39",
-        "long-mcq-34"
+        "long-mcq-25",
+        "long-mcq-42",
+        "long-mcq-33"
       ],
       "explanation": "本句的「longing」指「深切而持續的渴望／思念」。",
       "sentenceIndex": 101,
@@ -4569,12 +4195,10 @@ export default {
         "longing"
       ],
       "optionReasons": {
-        "long-mcq-37": "本句指「深切而持續的渴望／思念」。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。",
-        "long-mcq-38": "「物理長度、時間長度或篇幅」是「length」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-39": "「使物理長度／時間變得更長，或本身變長」是「lengthen」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。"
+        "long-mcq-37": "本句的「longing」指「深切而持續的渴望／思念」。",
+        "long-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-37"
     },
@@ -4586,11 +4210,9 @@ export default {
       "masked": "She had a ____ to travel.",
       "options": [
         "long-mcq-37",
-        "long-mcq-36",
-        "long-mcq-38",
-        "long-mcq-35",
-        "long-mcq-39",
-        "long-mcq-34"
+        "long-mcq-33",
+        "long-mcq-48",
+        "long-mcq-44"
       ],
       "explanation": "本句的「longing」指「深切而持續的渴望／思念」。",
       "sentenceIndex": 102,
@@ -4599,12 +4221,10 @@ export default {
         "longing"
       ],
       "optionReasons": {
-        "long-mcq-37": "本句指「深切而持續的渴望／思念」。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。",
-        "long-mcq-38": "「物理長度、時間長度或篇幅」是「length」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-39": "「使物理長度／時間變得更長，或本身變長」是「lengthen」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。"
+        "long-mcq-37": "本句的「longing」指「深切而持續的渴望／思念」。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-37"
     },
@@ -4616,11 +4236,9 @@ export default {
       "masked": "She looked ____ at the stage.",
       "options": [
         "long-mcq-37",
-        "long-mcq-36",
-        "long-mcq-38",
-        "long-mcq-35",
-        "long-mcq-39",
-        "long-mcq-34"
+        "long-pdf-006",
+        "long-mcq-54",
+        "long-mcq-41"
       ],
       "explanation": "本句的「longingly」指「深切而持續的渴望／思念」。",
       "sentenceIndex": 103,
@@ -4629,12 +4247,10 @@ export default {
         "longingly"
       ],
       "optionReasons": {
-        "long-mcq-37": "本句指「深切而持續的渴望／思念」。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。",
-        "long-mcq-38": "「物理長度、時間長度或篇幅」是「length」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-39": "「使物理長度／時間變得更長，或本身變長」是「lengthen」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。"
+        "long-mcq-37": "本句的「longingly」指「深切而持續的渴望／思念」。",
+        "long-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-37"
     },
@@ -4646,11 +4262,9 @@ export default {
       "masked": "He spoke ____ of home.",
       "options": [
         "long-mcq-37",
-        "long-mcq-36",
-        "long-mcq-38",
-        "long-mcq-35",
-        "long-mcq-39",
-        "long-mcq-34"
+        "long-mcq-42",
+        "long-reviewed-d5f3a59794",
+        "long-mcq-04"
       ],
       "explanation": "本句的「longingly」指「深切而持續的渴望／思念」。",
       "sentenceIndex": 104,
@@ -4659,12 +4273,10 @@ export default {
         "longingly"
       ],
       "optionReasons": {
-        "long-mcq-37": "本句指「深切而持續的渴望／思念」。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。",
-        "long-mcq-38": "「物理長度、時間長度或篇幅」是「length」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。",
-        "long-mcq-39": "「使物理長度／時間變得更長，或本身變長」是「lengthen」的用法，與本句語境不同。",
-        "long-mcq-34": "「對某人／某事產生強烈而持續的渴望」是「long — verb」的用法，與本句語境不同。"
+        "long-mcq-37": "本句的「longingly」指「深切而持續的渴望／思念」。",
+        "long-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-37"
     },
@@ -4676,11 +4288,9 @@ export default {
       "masked": "Measure the ____ of the table.",
       "options": [
         "long-mcq-38",
-        "long-mcq-37",
-        "long-mcq-39",
-        "long-mcq-36",
-        "long-mcq-40",
-        "long-mcq-35"
+        "long-mcq-30",
+        "long-mcq-35",
+        "long-mcq-47"
       ],
       "explanation": "本句的「length」指「物理長度、時間長度或篇幅」。",
       "sentenceIndex": 105,
@@ -4689,12 +4299,10 @@ export default {
         "length"
       ],
       "optionReasons": {
-        "long-mcq-38": "本句指「物理長度、時間長度或篇幅」。",
-        "long-mcq-37": "「深切而持續的渴望／思念」是「longing」的用法，與本句語境不同。",
-        "long-mcq-39": "「使物理長度／時間變得更長，或本身變長」是「lengthen」的用法，與本句語境不同。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。",
-        "long-mcq-40": "「持續／篇幅相當長，常暗示比理想情況更長」是「lengthy」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。"
+        "long-mcq-38": "本句的「length」指「物理長度、時間長度或篇幅」。",
+        "long-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-38"
     },
@@ -4706,11 +4314,9 @@ export default {
       "masked": "The presentation was reduced in ____.",
       "options": [
         "long-mcq-38",
-        "long-mcq-37",
-        "long-mcq-39",
-        "long-mcq-36",
-        "long-mcq-40",
-        "long-mcq-35"
+        "long-mcq-08",
+        "long-mcq-33",
+        "long-mcq-31"
       ],
       "explanation": "本句的「length」指「物理長度、時間長度或篇幅」。",
       "sentenceIndex": 106,
@@ -4719,12 +4325,10 @@ export default {
         "length"
       ],
       "optionReasons": {
-        "long-mcq-38": "本句指「物理長度、時間長度或篇幅」。",
-        "long-mcq-37": "「深切而持續的渴望／思念」是「longing」的用法，與本句語境不同。",
-        "long-mcq-39": "「使物理長度／時間變得更長，或本身變長」是「lengthen」的用法，與本句語境不同。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。",
-        "long-mcq-40": "「持續／篇幅相當長，常暗示比理想情況更長」是「lengthy」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。"
+        "long-mcq-38": "本句的「length」指「物理長度、時間長度或篇幅」。",
+        "long-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-38"
     },
@@ -4736,11 +4340,9 @@ export default {
       "masked": "The ____ of the meeting surprised me.",
       "options": [
         "long-mcq-38",
-        "long-mcq-37",
-        "long-mcq-39",
-        "long-mcq-36",
-        "long-mcq-40",
-        "long-mcq-35"
+        "long-mcq-01",
+        "long-mcq-52",
+        "long-mcq-30"
       ],
       "explanation": "本句的「length」指「物理長度、時間長度或篇幅」。",
       "sentenceIndex": 107,
@@ -4749,12 +4351,10 @@ export default {
         "length"
       ],
       "optionReasons": {
-        "long-mcq-38": "本句指「物理長度、時間長度或篇幅」。",
-        "long-mcq-37": "「深切而持續的渴望／思念」是「longing」的用法，與本句語境不同。",
-        "long-mcq-39": "「使物理長度／時間變得更長，或本身變長」是「lengthen」的用法，與本句語境不同。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。",
-        "long-mcq-40": "「持續／篇幅相當長，常暗示比理想情況更長」是「lengthy」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。"
+        "long-mcq-38": "本句的「length」指「物理長度、時間長度或篇幅」。",
+        "long-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-38"
     },
@@ -4766,11 +4366,9 @@ export default {
       "masked": "There is a limit on presentation ____.",
       "options": [
         "long-mcq-38",
-        "long-mcq-37",
-        "long-mcq-39",
-        "long-mcq-36",
-        "long-mcq-40",
-        "long-mcq-35"
+        "long-mcq-32",
+        "long-mcq-22",
+        "long-mcq-37"
       ],
       "explanation": "本句的「length」指「物理長度、時間長度或篇幅」。",
       "sentenceIndex": 108,
@@ -4779,12 +4377,10 @@ export default {
         "length"
       ],
       "optionReasons": {
-        "long-mcq-38": "本句指「物理長度、時間長度或篇幅」。",
-        "long-mcq-37": "「深切而持續的渴望／思念」是「longing」的用法，與本句語境不同。",
-        "long-mcq-39": "「使物理長度／時間變得更長，或本身變長」是「lengthen」的用法，與本句語境不同。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。",
-        "long-mcq-40": "「持續／篇幅相當長，常暗示比理想情況更長」是「lengthy」的用法，與本句語境不同。",
-        "long-mcq-35": "「強烈希望得到某人／某物／某種狀態」是「long for」的用法，與本句語境不同。"
+        "long-mcq-38": "本句的「length」指「物理長度、時間長度或篇幅」。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-38"
     },
@@ -4796,11 +4392,9 @@ export default {
       "masked": "The days ____ in spring.",
       "options": [
         "long-mcq-39",
-        "long-mcq-38",
-        "long-mcq-40",
-        "long-mcq-37",
-        "long-mcq-41",
-        "long-mcq-36"
+        "long-mcq-01",
+        "long-reviewed-d5f3a59794",
+        "long-mcq-19"
       ],
       "explanation": "本句的「lengthen」指「使物理長度／時間變得更長，或本身變長」。",
       "sentenceIndex": 109,
@@ -4809,12 +4403,10 @@ export default {
         "lengthen"
       ],
       "optionReasons": {
-        "long-mcq-39": "本句指「使物理長度／時間變得更長，或本身變長」。",
-        "long-mcq-38": "「物理長度、時間長度或篇幅」是「length」的用法，與本句語境不同。",
-        "long-mcq-40": "「持續／篇幅相當長，常暗示比理想情況更長」是「lengthy」的用法，與本句語境不同。",
-        "long-mcq-37": "「深切而持續的渴望／思念」是「longing」的用法，與本句語境不同。",
-        "long-mcq-41": "「長時間且詳細地」是「at length」的用法，與本句語境不同。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。"
+        "long-mcq-39": "本句的「lengthen」指「使物理長度／時間變得更長，或本身變長」。",
+        "long-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-39"
     },
@@ -4826,11 +4418,9 @@ export default {
       "masked": "The meeting was ____ by extra questions.",
       "options": [
         "long-mcq-39",
-        "long-mcq-38",
-        "long-mcq-40",
-        "long-mcq-37",
-        "long-mcq-41",
-        "long-mcq-36"
+        "long-reviewed-77e99d7dcf",
+        "long-mcq-48",
+        "long-mcq-47"
       ],
       "explanation": "本句的「lengthened」指「使物理長度／時間變得更長，或本身變長」。",
       "sentenceIndex": 110,
@@ -4839,12 +4429,10 @@ export default {
         "lengthened"
       ],
       "optionReasons": {
-        "long-mcq-39": "本句指「使物理長度／時間變得更長，或本身變長」。",
-        "long-mcq-38": "「物理長度、時間長度或篇幅」是「length」的用法，與本句語境不同。",
-        "long-mcq-40": "「持續／篇幅相當長，常暗示比理想情況更長」是「lengthy」的用法，與本句語境不同。",
-        "long-mcq-37": "「深切而持續的渴望／思念」是「longing」的用法，與本句語境不同。",
-        "long-mcq-41": "「長時間且詳細地」是「at length」的用法，與本句語境不同。",
-        "long-mcq-36": "「強烈希望能做某件事情」是「long to do」的用法，與本句語境不同。"
+        "long-mcq-39": "本句的「lengthened」指「使物理長度／時間變得更長，或本身變長」。",
+        "long-reviewed-77e99d7dcf": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-39"
     },
@@ -4856,11 +4444,9 @@ export default {
       "masked": "They had a ____.",
       "options": [
         "long-mcq-40",
-        "long-mcq-39",
-        "long-mcq-41",
-        "long-mcq-38",
-        "long-mcq-42",
-        "long-mcq-37"
+        "long-reviewed-77e99d7dcf",
+        "long-mcq-48",
+        "long-mcq-15"
       ],
       "explanation": "本句的「lengthy discussion」指「持續／篇幅相當長，常暗示比理想情況更長」。",
       "sentenceIndex": 111,
@@ -4869,12 +4455,10 @@ export default {
         "lengthy discussion"
       ],
       "optionReasons": {
-        "long-mcq-40": "本句指「持續／篇幅相當長，常暗示比理想情況更長」。",
-        "long-mcq-39": "「使物理長度／時間變得更長，或本身變長」是「lengthen」的用法，與本句語境不同。",
-        "long-mcq-41": "「長時間且詳細地」是「at length」的用法，與本句語境不同。",
-        "long-mcq-38": "「物理長度、時間長度或篇幅」是「length」的用法，與本句語境不同。",
-        "long-mcq-42": "「具有完整、通常預期長度的」是「full-length」的用法，與本句語境不同。",
-        "long-mcq-37": "「深切而持續的渴望／思念」是「longing」的用法，與本句語境不同。"
+        "long-mcq-40": "本句的「lengthy discussion」指「持續／篇幅相當長，常暗示比理想情況更長」。",
+        "long-reviewed-77e99d7dcf": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-40"
     },
@@ -4886,11 +4470,9 @@ export default {
       "masked": "The report was unnecessarily ____.",
       "options": [
         "long-mcq-40",
-        "long-mcq-39",
-        "long-mcq-41",
-        "long-mcq-38",
-        "long-mcq-42",
-        "long-mcq-37"
+        "long-mcq-15",
+        "long-reviewed-d5f3a59794",
+        "long-mcq-22"
       ],
       "explanation": "本句的「lengthy」指「持續／篇幅相當長，常暗示比理想情況更長」。",
       "sentenceIndex": 112,
@@ -4899,12 +4481,10 @@ export default {
         "lengthy"
       ],
       "optionReasons": {
-        "long-mcq-40": "本句指「持續／篇幅相當長，常暗示比理想情況更長」。",
-        "long-mcq-39": "「使物理長度／時間變得更長，或本身變長」是「lengthen」的用法，與本句語境不同。",
-        "long-mcq-41": "「長時間且詳細地」是「at length」的用法，與本句語境不同。",
-        "long-mcq-38": "「物理長度、時間長度或篇幅」是「length」的用法，與本句語境不同。",
-        "long-mcq-42": "「具有完整、通常預期長度的」是「full-length」的用法，與本句語境不同。",
-        "long-mcq-37": "「深切而持續的渴望／思念」是「longing」的用法，與本句語境不同。"
+        "long-mcq-40": "本句的「lengthy」指「持續／篇幅相當長，常暗示比理想情況更長」。",
+        "long-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-40"
     },
@@ -4916,11 +4496,9 @@ export default {
       "masked": "She discussed the issue ____.",
       "options": [
         "long-mcq-41",
-        "long-mcq-40",
-        "long-mcq-42",
-        "long-mcq-39",
-        "long-mcq-43",
-        "long-mcq-38"
+        "long-mcq-36",
+        "long-mcq-22",
+        "long-mcq-07"
       ],
       "explanation": "本句的「at length」指「長時間且詳細地」。",
       "sentenceIndex": 113,
@@ -4929,12 +4507,10 @@ export default {
         "at length"
       ],
       "optionReasons": {
-        "long-mcq-41": "本句指「長時間且詳細地」。",
-        "long-mcq-40": "「持續／篇幅相當長，常暗示比理想情況更長」是「lengthy」的用法，與本句語境不同。",
-        "long-mcq-42": "「具有完整、通常預期長度的」是「full-length」的用法，與本句語境不同。",
-        "long-mcq-39": "「使物理長度／時間變得更長，或本身變長」是「lengthen」的用法，與本句語境不同。",
-        "long-mcq-43": "「篇幅較長、能深入展開內容的格式」是「long-form」的用法，與本句語境不同。",
-        "long-mcq-38": "「物理長度、時間長度或篇幅」是「length」的用法，與本句語境不同。"
+        "long-mcq-41": "本句的「at length」指「長時間且詳細地」。",
+        "long-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-41"
     },
@@ -4946,11 +4522,9 @@ export default {
       "masked": "We talked at ____ about preparation.",
       "options": [
         "long-mcq-41",
-        "long-mcq-40",
-        "long-mcq-42",
-        "long-mcq-39",
-        "long-mcq-43",
-        "long-mcq-38"
+        "long-mcq-31",
+        "long-mcq-34",
+        "long-mcq-02"
       ],
       "explanation": "本句的「length」指「長時間且詳細地」。",
       "sentenceIndex": 114,
@@ -4959,12 +4533,10 @@ export default {
         "length"
       ],
       "optionReasons": {
-        "long-mcq-41": "本句指「長時間且詳細地」。",
-        "long-mcq-40": "「持續／篇幅相當長，常暗示比理想情況更長」是「lengthy」的用法，與本句語境不同。",
-        "long-mcq-42": "「具有完整、通常預期長度的」是「full-length」的用法，與本句語境不同。",
-        "long-mcq-39": "「使物理長度／時間變得更長，或本身變長」是「lengthen」的用法，與本句語境不同。",
-        "long-mcq-43": "「篇幅較長、能深入展開內容的格式」是「long-form」的用法，與本句語境不同。",
-        "long-mcq-38": "「物理長度、時間長度或篇幅」是「length」的用法，與本句語境不同。"
+        "long-mcq-41": "本句的「length」指「長時間且詳細地」。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-41"
     },
@@ -4976,11 +4548,9 @@ export default {
       "masked": "They released a ____.",
       "options": [
         "long-mcq-42",
-        "long-mcq-41",
-        "long-mcq-43",
-        "long-mcq-40",
-        "long-mcq-44",
-        "long-mcq-39"
+        "long-mcq-02",
+        "long-mcq-34",
+        "long-mcq-47"
       ],
       "explanation": "本句的「full-length film」指「具有完整、通常預期長度的」。",
       "sentenceIndex": 115,
@@ -4989,12 +4559,10 @@ export default {
         "full-length film"
       ],
       "optionReasons": {
-        "long-mcq-42": "本句指「具有完整、通常預期長度的」。",
-        "long-mcq-41": "「長時間且詳細地」是「at length」的用法，與本句語境不同。",
-        "long-mcq-43": "「篇幅較長、能深入展開內容的格式」是「long-form」的用法，與本句語境不同。",
-        "long-mcq-40": "「持續／篇幅相當長，常暗示比理想情況更長」是「lengthy」的用法，與本句語境不同。",
-        "long-mcq-44": "「涉及遠距離或較長未來時間範圍」是「long-range」的用法，與本句語境不同。",
-        "long-mcq-39": "「使物理長度／時間變得更長，或本身變長」是「lengthen」的用法，與本句語境不同。"
+        "long-mcq-42": "本句的「full-length film」指「具有完整、通常預期長度的」。",
+        "long-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-42"
     },
@@ -5006,11 +4574,9 @@ export default {
       "masked": "She practised the ____.",
       "options": [
         "long-mcq-42",
-        "long-mcq-41",
-        "long-mcq-43",
-        "long-mcq-40",
-        "long-mcq-44",
-        "long-mcq-39"
+        "long-mcq-34",
+        "long-mcq-33",
+        "long-mcq-04"
       ],
       "explanation": "本句的「full-length presentation」指「具有完整、通常預期長度的」。",
       "sentenceIndex": 116,
@@ -5019,12 +4585,10 @@ export default {
         "full-length presentation"
       ],
       "optionReasons": {
-        "long-mcq-42": "本句指「具有完整、通常預期長度的」。",
-        "long-mcq-41": "「長時間且詳細地」是「at length」的用法，與本句語境不同。",
-        "long-mcq-43": "「篇幅較長、能深入展開內容的格式」是「long-form」的用法，與本句語境不同。",
-        "long-mcq-40": "「持續／篇幅相當長，常暗示比理想情況更長」是「lengthy」的用法，與本句語境不同。",
-        "long-mcq-44": "「涉及遠距離或較長未來時間範圍」是「long-range」的用法，與本句語境不同。",
-        "long-mcq-39": "「使物理長度／時間變得更長，或本身變長」是「lengthen」的用法，與本句語境不同。"
+        "long-mcq-42": "本句的「full-length presentation」指「具有完整、通常預期長度的」。",
+        "long-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-42"
     },
@@ -5036,11 +4600,9 @@ export default {
       "masked": "She writes ____.",
       "options": [
         "long-mcq-43",
-        "long-mcq-42",
-        "long-mcq-44",
-        "long-mcq-41",
-        "long-mcq-45",
-        "long-mcq-40"
+        "long-pdf-006",
+        "long-reviewed-77e99d7dcf",
+        "long-pdf-001"
       ],
       "explanation": "本句的「long-form articles」指「篇幅較長、能深入展開內容的格式」。",
       "sentenceIndex": 117,
@@ -5049,12 +4611,10 @@ export default {
         "long-form articles"
       ],
       "optionReasons": {
-        "long-mcq-43": "本句指「篇幅較長、能深入展開內容的格式」。",
-        "long-mcq-42": "「具有完整、通常預期長度的」是「full-length」的用法，與本句語境不同。",
-        "long-mcq-44": "「涉及遠距離或較長未來時間範圍」是「long-range」的用法，與本句語境不同。",
-        "long-mcq-41": "「長時間且詳細地」是「at length」的用法，與本句語境不同。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。",
-        "long-mcq-40": "「持續／篇幅相當長，常暗示比理想情況更長」是「lengthy」的用法，與本句語境不同。"
+        "long-mcq-43": "本句的「long-form articles」指「篇幅較長、能深入展開內容的格式」。",
+        "long-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-77e99d7dcf": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-43"
     },
@@ -5066,11 +4626,9 @@ export default {
       "masked": "The topic works better in a ____.",
       "options": [
         "long-mcq-43",
-        "long-mcq-42",
-        "long-mcq-44",
-        "long-mcq-41",
-        "long-mcq-45",
-        "long-mcq-40"
+        "long-pdf-006",
+        "long-mcq-10",
+        "long-reviewed-77e99d7dcf"
       ],
       "explanation": "本句的「long-form interview」指「篇幅較長、能深入展開內容的格式」。",
       "sentenceIndex": 118,
@@ -5079,12 +4637,10 @@ export default {
         "long-form interview"
       ],
       "optionReasons": {
-        "long-mcq-43": "本句指「篇幅較長、能深入展開內容的格式」。",
-        "long-mcq-42": "「具有完整、通常預期長度的」是「full-length」的用法，與本句語境不同。",
-        "long-mcq-44": "「涉及遠距離或較長未來時間範圍」是「long-range」的用法，與本句語境不同。",
-        "long-mcq-41": "「長時間且詳細地」是「at length」的用法，與本句語境不同。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。",
-        "long-mcq-40": "「持續／篇幅相當長，常暗示比理想情況更長」是「lengthy」的用法，與本句語境不同。"
+        "long-mcq-43": "本句的「long-form interview」指「篇幅較長、能深入展開內容的格式」。",
+        "long-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-77e99d7dcf": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-43"
     },
@@ -5096,11 +4652,9 @@ export default {
       "masked": "We need ____.",
       "options": [
         "long-mcq-44",
-        "long-mcq-43",
-        "long-mcq-45",
-        "long-mcq-42",
-        "long-mcq-46",
-        "long-mcq-41"
+        "long-mcq-47",
+        "long-mcq-33",
+        "long-mcq-31"
       ],
       "explanation": "本句的「long-range planning」指「涉及遠距離或較長未來時間範圍」。",
       "sentenceIndex": 119,
@@ -5109,12 +4663,10 @@ export default {
         "long-range planning"
       ],
       "optionReasons": {
-        "long-mcq-44": "本句指「涉及遠距離或較長未來時間範圍」。",
-        "long-mcq-43": "「篇幅較長、能深入展開內容的格式」是「long-form」的用法，與本句語境不同。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。",
-        "long-mcq-42": "「具有完整、通常預期長度的」是「full-length」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-41": "「長時間且詳細地」是「at length」的用法，與本句語境不同。"
+        "long-mcq-44": "本句的「long-range planning」指「涉及遠距離或較長未來時間範圍」。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-44"
     },
@@ -5126,11 +4678,9 @@ export default {
       "masked": "The device uses a ____.",
       "options": [
         "long-mcq-44",
-        "long-mcq-43",
-        "long-mcq-45",
-        "long-mcq-42",
-        "long-mcq-46",
-        "long-mcq-41"
+        "long-mcq-32",
+        "long-mcq-31",
+        "long-mcq-34"
       ],
       "explanation": "本句的「long-range signal」指「涉及遠距離或較長未來時間範圍」。",
       "sentenceIndex": 120,
@@ -5139,12 +4689,10 @@ export default {
         "long-range signal"
       ],
       "optionReasons": {
-        "long-mcq-44": "本句指「涉及遠距離或較長未來時間範圍」。",
-        "long-mcq-43": "「篇幅較長、能深入展開內容的格式」是「long-form」的用法，與本句語境不同。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。",
-        "long-mcq-42": "「具有完整、通常預期長度的」是「full-length」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-41": "「長時間且詳細地」是「at length」的用法，與本句語境不同。"
+        "long-mcq-44": "本句的「long-range signal」指「涉及遠距離或較長未來時間範圍」。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-44"
     },
@@ -5156,11 +4704,9 @@ export default {
       "masked": "They are in a ____.",
       "options": [
         "long-mcq-45",
-        "long-mcq-44",
-        "long-mcq-46",
-        "long-mcq-43",
-        "long-mcq-47",
-        "long-mcq-42"
+        "long-mcq-37",
+        "long-mcq-08",
+        "long-pdf-007"
       ],
       "explanation": "本句的「long-distance relationship」指「涉及相隔較遠地方／長距離移動」。",
       "sentenceIndex": 121,
@@ -5169,12 +4715,10 @@ export default {
         "long-distance relationship"
       ],
       "optionReasons": {
-        "long-mcq-45": "本句指「涉及相隔較遠地方／長距離移動」。",
-        "long-mcq-44": "「涉及遠距離或較長未來時間範圍」是「long-range」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-43": "「篇幅較長、能深入展開內容的格式」是「long-form」的用法，與本句語境不同。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-42": "「具有完整、通常預期長度的」是「full-length」的用法，與本句語境不同。"
+        "long-mcq-45": "本句的「long-distance relationship」指「涉及相隔較遠地方／長距離移動」。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-45"
     },
@@ -5186,11 +4730,9 @@ export default {
       "masked": "She is a ____.",
       "options": [
         "long-mcq-45",
-        "long-mcq-44",
-        "long-mcq-46",
-        "long-mcq-43",
-        "long-mcq-47",
-        "long-mcq-42"
+        "long-mcq-17",
+        "long-mcq-22",
+        "long-mcq-08"
       ],
       "explanation": "本句的「long-distance runner」指「涉及相隔較遠地方／長距離移動」。",
       "sentenceIndex": 122,
@@ -5199,12 +4741,10 @@ export default {
         "long-distance runner"
       ],
       "optionReasons": {
-        "long-mcq-45": "本句指「涉及相隔較遠地方／長距離移動」。",
-        "long-mcq-44": "「涉及遠距離或較長未來時間範圍」是「long-range」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-43": "「篇幅較長、能深入展開內容的格式」是「long-form」的用法，與本句語境不同。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-42": "「具有完整、通常預期長度的」是「full-length」的用法，與本句語境不同。"
+        "long-mcq-45": "本句的「long-distance runner」指「涉及相隔較遠地方／長距離移動」。",
+        "long-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-45"
     },
@@ -5216,11 +4756,9 @@ export default {
       "masked": "They maintained a ____ for two years.",
       "options": [
         "long-mcq-45",
-        "long-mcq-44",
-        "long-mcq-46",
-        "long-mcq-43",
-        "long-mcq-47",
-        "long-mcq-42"
+        "long-mcq-22",
+        "long-mcq-17",
+        "long-reviewed-d5f3a59794"
       ],
       "explanation": "本句的「long-distance relationship」指「涉及相隔較遠地方／長距離移動」。",
       "sentenceIndex": 123,
@@ -5229,12 +4767,10 @@ export default {
         "long-distance relationship"
       ],
       "optionReasons": {
-        "long-mcq-45": "本句指「涉及相隔較遠地方／長距離移動」。",
-        "long-mcq-44": "「涉及遠距離或較長未來時間範圍」是「long-range」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-43": "「篇幅較長、能深入展開內容的格式」是「long-form」的用法，與本句語境不同。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-42": "「具有完整、通常預期長度的」是「full-length」的用法，與本句語境不同。"
+        "long-mcq-45": "本句的「long-distance relationship」指「涉及相隔較遠地方／長距離移動」。",
+        "long-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-45"
     },
@@ -5246,11 +4782,9 @@ export default {
       "masked": "____ relationships require good communication.",
       "options": [
         "long-mcq-45",
-        "long-mcq-44",
-        "long-mcq-46",
-        "long-mcq-43",
-        "long-mcq-47",
-        "long-mcq-42"
+        "long-mcq-35",
+        "long-pdf-001",
+        "long-mcq-32"
       ],
       "explanation": "本句的「Long-distance」指「涉及相隔較遠地方／長距離移動」。",
       "sentenceIndex": 124,
@@ -5259,12 +4793,10 @@ export default {
         "Long-distance"
       ],
       "optionReasons": {
-        "long-mcq-45": "本句指「涉及相隔較遠地方／長距離移動」。",
-        "long-mcq-44": "「涉及遠距離或較長未來時間範圍」是「long-range」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-43": "「篇幅較長、能深入展開內容的格式」是「long-form」的用法，與本句語境不同。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-42": "「具有完整、通常預期長度的」是「full-length」的用法，與本句語境不同。"
+        "long-mcq-45": "本句的「Long-distance」指「涉及相隔較遠地方／長距離移動」。",
+        "long-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-45"
     },
@@ -5276,11 +4808,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "long-mcq-46",
-        "long-mcq-45",
-        "long-mcq-47",
-        "long-mcq-44",
-        "long-mcq-48",
-        "long-mcq-43"
+        "long-mcq-32",
+        "long-mcq-37",
+        "long-mcq-31"
       ],
       "explanation": "本句的「long-haul flight」指「涉及很長距離，或需要長期努力」。",
       "sentenceIndex": 125,
@@ -5289,12 +4819,10 @@ export default {
         "long-haul flight"
       ],
       "optionReasons": {
-        "long-mcq-46": "本句指「涉及很長距離，或需要長期努力」。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-44": "「涉及遠距離或較長未來時間範圍」是「long-range」的用法，與本句語境不同。",
-        "long-mcq-48": "「預期資產價格上升而建立的多頭／好倉部位」是「long position」的用法，與本句語境不同。",
-        "long-mcq-43": "「篇幅較長、能深入展開內容的格式」是「long-form」的用法，與本句語境不同。"
+        "long-mcq-46": "本句的「long-haul flight」指「涉及很長距離，或需要長期努力」。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-46"
     },
@@ -5306,11 +4834,9 @@ export default {
       "masked": "Building confidence is a ____.",
       "options": [
         "long-mcq-46",
-        "long-mcq-45",
-        "long-mcq-47",
-        "long-mcq-44",
-        "long-mcq-48",
-        "long-mcq-43"
+        "long-mcq-34",
+        "long-mcq-31",
+        "long-mcq-33"
       ],
       "explanation": "本句的「long-haul process」指「涉及很長距離，或需要長期努力」。",
       "sentenceIndex": 126,
@@ -5319,12 +4845,10 @@ export default {
         "long-haul process"
       ],
       "optionReasons": {
-        "long-mcq-46": "本句指「涉及很長距離，或需要長期努力」。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-44": "「涉及遠距離或較長未來時間範圍」是「long-range」的用法，與本句語境不同。",
-        "long-mcq-48": "「預期資產價格上升而建立的多頭／好倉部位」是「long position」的用法，與本句語境不同。",
-        "long-mcq-43": "「篇幅較長、能深入展開內容的格式」是「long-form」的用法，與本句語境不同。"
+        "long-mcq-46": "本句的「long-haul process」指「涉及很長距離，或需要長期努力」。",
+        "long-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-46"
     },
@@ -5336,11 +4860,9 @@ export default {
       "masked": "Improvement requires commitment ____.",
       "options": [
         "long-mcq-46",
-        "long-mcq-45",
-        "long-mcq-47",
-        "long-mcq-44",
-        "long-mcq-48",
-        "long-mcq-43"
+        "long-mcq-50",
+        "long-reviewed-d5f3a59794",
+        "long-reviewed-77e99d7dcf"
       ],
       "explanation": "本句的「for the long haul」指「涉及很長距離，或需要長期努力」。",
       "sentenceIndex": 127,
@@ -5349,12 +4871,10 @@ export default {
         "for the long haul"
       ],
       "optionReasons": {
-        "long-mcq-46": "本句指「涉及很長距離，或需要長期努力」。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-44": "「涉及遠距離或較長未來時間範圍」是「long-range」的用法，與本句語境不同。",
-        "long-mcq-48": "「預期資產價格上升而建立的多頭／好倉部位」是「long position」的用法，與本句語境不同。",
-        "long-mcq-43": "「篇幅較長、能深入展開內容的格式」是「long-form」的用法，與本句語境不同。"
+        "long-mcq-46": "本句的「for the long haul」指「涉及很長距離，或需要長期努力」。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。",
+        "long-reviewed-77e99d7dcf": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-46"
     },
@@ -5366,11 +4886,9 @@ export default {
       "masked": "She was in the project ____.",
       "options": [
         "long-mcq-46",
-        "long-mcq-45",
-        "long-mcq-47",
-        "long-mcq-44",
-        "long-mcq-48",
-        "long-mcq-43"
+        "long-mcq-37",
+        "long-mcq-08",
+        "long-mcq-31"
       ],
       "explanation": "本句的「for the long haul」指「涉及很長距離，或需要長期努力」。",
       "sentenceIndex": 128,
@@ -5379,12 +4897,10 @@ export default {
         "for the long haul"
       ],
       "optionReasons": {
-        "long-mcq-46": "本句指「涉及很長距離，或需要長期努力」。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-44": "「涉及遠距離或較長未來時間範圍」是「long-range」的用法，與本句語境不同。",
-        "long-mcq-48": "「預期資產價格上升而建立的多頭／好倉部位」是「long position」的用法，與本句語境不同。",
-        "long-mcq-43": "「篇幅較長、能深入展開內容的格式」是「long-form」的用法，與本句語境不同。"
+        "long-mcq-46": "本句的「for the long haul」指「涉及很長距離，或需要長期努力」。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-46"
     },
@@ -5396,11 +4912,9 @@ export default {
       "masked": "The explanation was too ____.",
       "options": [
         "long-mcq-47",
-        "long-mcq-46",
-        "long-mcq-48",
-        "long-mcq-45",
-        "long-mcq-49",
-        "long-mcq-44"
+        "long-mcq-08",
+        "long-mcq-33",
+        "long-mcq-11"
       ],
       "explanation": "本句的「long-winded」指「用很多不必要的說話／文字才表達重點」。",
       "sentenceIndex": 129,
@@ -5409,12 +4923,10 @@ export default {
         "long-winded"
       ],
       "optionReasons": {
-        "long-mcq-47": "本句指「用很多不必要的說話／文字才表達重點」。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-48": "「預期資產價格上升而建立的多頭／好倉部位」是「long position」的用法，與本句語境不同。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
-        "long-mcq-44": "「涉及遠距離或較長未來時間範圍」是「long-range」的用法，與本句語境不同。"
+        "long-mcq-47": "本句的「long-winded」指「用很多不必要的說話／文字才表達重點」。",
+        "long-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-47"
     },
@@ -5426,11 +4938,9 @@ export default {
       "masked": "Try not to be ____ in a presentation.",
       "options": [
         "long-mcq-47",
-        "long-mcq-46",
-        "long-mcq-48",
-        "long-mcq-45",
-        "long-mcq-49",
-        "long-mcq-44"
+        "long-mcq-13",
+        "long-mcq-01",
+        "long-mcq-54"
       ],
       "explanation": "本句的「long-winded」指「用很多不必要的說話／文字才表達重點」。",
       "sentenceIndex": 130,
@@ -5439,12 +4949,10 @@ export default {
         "long-winded"
       ],
       "optionReasons": {
-        "long-mcq-47": "本句指「用很多不必要的說話／文字才表達重點」。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-48": "「預期資產價格上升而建立的多頭／好倉部位」是「long position」的用法，與本句語境不同。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
-        "long-mcq-44": "「涉及遠距離或較長未來時間範圍」是「long-range」的用法，與本句語境不同。"
+        "long-mcq-47": "本句的「long-winded」指「用很多不必要的說話／文字才表達重點」。",
+        "long-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-47"
     },
@@ -5456,11 +4964,9 @@ export default {
       "masked": "Write the answer in ____.",
       "options": [
         "long-mcq-50",
-        "long-mcq-49",
-        "long-mcq-51",
-        "long-mcq-48",
-        "long-mcq-52",
-        "long-mcq-47"
+        "long-mcq-26",
+        "long-mcq-35",
+        "long-mcq-03"
       ],
       "explanation": "本句的「longhand」指「普通完整書寫方式，相對於 shorthand（速記）」。",
       "sentenceIndex": 131,
@@ -5469,12 +4975,10 @@ export default {
         "longhand"
       ],
       "optionReasons": {
-        "long-mcq-50": "本句指「普通完整書寫方式，相對於 shorthand（速記）」。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
-        "long-mcq-51": "「持續時間較長或屬於某語言長短對立中的元音」是「68. long vowel（長母音） — 長元音」的用法，與本句語境不同。",
-        "long-mcq-48": "「預期資產價格上升而建立的多頭／好倉部位」是「long position」的用法，與本句語境不同。",
-        "long-mcq-52": "「在運動中移動／射擊距離較遠的」是「71. long = sports: long ball/pass/shot（長傳／遠射） — 長距離的」的用法，與本句語境不同。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。"
+        "long-mcq-50": "本句的「longhand」指「普通完整書寫方式，相對於 shorthand（速記）」。",
+        "long-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-50"
     },
@@ -5486,11 +4990,9 @@ export default {
       "masked": "She wrote the notes in ____ rather than shorthand.",
       "options": [
         "long-mcq-50",
-        "long-mcq-49",
-        "long-mcq-51",
-        "long-mcq-48",
-        "long-mcq-52",
-        "long-mcq-47"
+        "long-mcq-39",
+        "long-mcq-54",
+        "long-mcq-32"
       ],
       "explanation": "本句的「longhand」指「普通完整書寫方式，相對於 shorthand（速記）」。",
       "sentenceIndex": 132,
@@ -5499,12 +5001,10 @@ export default {
         "longhand"
       ],
       "optionReasons": {
-        "long-mcq-50": "本句指「普通完整書寫方式，相對於 shorthand（速記）」。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
-        "long-mcq-51": "「持續時間較長或屬於某語言長短對立中的元音」是「68. long vowel（長母音） — 長元音」的用法，與本句語境不同。",
-        "long-mcq-48": "「預期資產價格上升而建立的多頭／好倉部位」是「long position」的用法，與本句語境不同。",
-        "long-mcq-52": "「在運動中移動／射擊距離較遠的」是「71. long = sports: long ball/pass/shot（長傳／遠射） — 長距離的」的用法，與本句語境不同。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。"
+        "long-mcq-50": "本句的「longhand」指「普通完整書寫方式，相對於 shorthand（速記）」。",
+        "long-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-50"
     },
@@ -5516,11 +5016,9 @@ export default {
       "masked": "The students learned ____.",
       "options": [
         "long-pdf-007",
-        "long-mcq-47",
-        "long-mcq-49",
-        "long-mcq-46",
-        "long-mcq-50",
-        "long-mcq-45"
+        "long-pdf-005",
+        "long-mcq-15",
+        "long-mcq-36"
       ],
       "explanation": "本句的「long division」指「把除法按逐步書寫程序完成的計算方法」。",
       "sentenceIndex": 133,
@@ -5529,12 +5027,10 @@ export default {
         "long division"
       ],
       "optionReasons": {
-        "long-pdf-007": "本句指「把除法按逐步書寫程序完成的計算方法」。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。"
+        "long-pdf-007": "本句的「long division」指「把除法按逐步書寫程序完成的計算方法」。",
+        "long-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-007"
     },
@@ -5546,11 +5042,9 @@ export default {
       "masked": "Use ____ division to solve the problem.",
       "options": [
         "long-pdf-007",
-        "long-mcq-47",
-        "long-mcq-49",
-        "long-mcq-46",
-        "long-mcq-50",
-        "long-mcq-45"
+        "long-mcq-37",
+        "long-mcq-04",
+        "long-mcq-41"
       ],
       "explanation": "本句的「long」指「把除法按逐步書寫程序完成的計算方法」。",
       "sentenceIndex": 134,
@@ -5559,12 +5053,10 @@ export default {
         "long"
       ],
       "optionReasons": {
-        "long-pdf-007": "本句指「把除法按逐步書寫程序完成的計算方法」。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。"
+        "long-pdf-007": "本句的「long」指「把除法按逐步書寫程序完成的計算方法」。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-007"
     },
@@ -5576,11 +5068,9 @@ export default {
       "masked": "The word contains a ____.",
       "options": [
         "long-mcq-51",
-        "long-mcq-50",
-        "long-mcq-52",
-        "long-mcq-49",
-        "long-mcq-53",
-        "long-mcq-48"
+        "long-mcq-30",
+        "long-mcq-33",
+        "long-mcq-07"
       ],
       "explanation": "本句的「long vowel」指「持續時間較長或屬於某語言長短對立中的元音」。",
       "sentenceIndex": 135,
@@ -5589,12 +5079,10 @@ export default {
         "long vowel"
       ],
       "optionReasons": {
-        "long-mcq-51": "本句指「持續時間較長或屬於某語言長短對立中的元音」。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
-        "long-mcq-52": "「在運動中移動／射擊距離較遠的」是「71. long = sports: long ball/pass/shot（長傳／遠射） — 長距離的」的用法，與本句語境不同。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
-        "long-mcq-53": "「持續時間相對較久的停頓／沉默」是「73. long silence/pause（長時間沉默／停頓） — 長時間的停頓」的用法，與本句語境不同。",
-        "long-mcq-48": "「預期資產價格上升而建立的多頭／好倉部位」是「long position」的用法，與本句語境不同。"
+        "long-mcq-51": "本句的「long vowel」指「持續時間較長或屬於某語言長短對立中的元音」。",
+        "long-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-51"
     },
@@ -5606,11 +5094,9 @@ export default {
       "masked": "Vowel ____ can change meaning in some languages.",
       "options": [
         "long-mcq-51",
-        "long-mcq-50",
-        "long-mcq-52",
-        "long-mcq-49",
-        "long-mcq-53",
-        "long-mcq-48"
+        "long-mcq-32",
+        "long-mcq-33",
+        "long-mcq-36"
       ],
       "explanation": "本句的「length」指「持續時間較長或屬於某語言長短對立中的元音」。",
       "sentenceIndex": 136,
@@ -5619,12 +5105,10 @@ export default {
         "length"
       ],
       "optionReasons": {
-        "long-mcq-51": "本句指「持續時間較長或屬於某語言長短對立中的元音」。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
-        "long-mcq-52": "「在運動中移動／射擊距離較遠的」是「71. long = sports: long ball/pass/shot（長傳／遠射） — 長距離的」的用法，與本句語境不同。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
-        "long-mcq-53": "「持續時間相對較久的停頓／沉默」是「73. long silence/pause（長時間沉默／停頓） — 長時間的停頓」的用法，與本句語境不同。",
-        "long-mcq-48": "「預期資產價格上升而建立的多頭／好倉部位」是「long position」的用法，與本句語境不同。"
+        "long-mcq-51": "本句的「length」指「持續時間較長或屬於某語言長短對立中的元音」。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-51"
     },
@@ -5636,11 +5120,9 @@ export default {
       "masked": "The investor is ____ the stock.",
       "options": [
         "long-mcq-48",
+        "long-mcq-27",
         "long-mcq-47",
-        "long-mcq-49",
-        "long-mcq-46",
-        "long-mcq-50",
-        "long-mcq-45"
+        "long-mcq-52"
       ],
       "explanation": "本句的「long」指「預期資產價格上升而建立的多頭／好倉部位」。",
       "sentenceIndex": 137,
@@ -5649,12 +5131,10 @@ export default {
         "long"
       ],
       "optionReasons": {
-        "long-mcq-48": "本句指「預期資產價格上升而建立的多頭／好倉部位」。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。"
+        "long-mcq-48": "本句的「long」指「預期資產價格上升而建立的多頭／好倉部位」。",
+        "long-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-48"
     },
@@ -5666,11 +5146,9 @@ export default {
       "masked": "The fund took a ____ in the currency.",
       "options": [
         "long-mcq-48",
-        "long-mcq-47",
-        "long-mcq-49",
-        "long-mcq-46",
-        "long-mcq-50",
-        "long-mcq-45"
+        "long-mcq-01",
+        "long-mcq-02",
+        "long-mcq-47"
       ],
       "explanation": "本句的「long position」指「預期資產價格上升而建立的多頭／好倉部位」。",
       "sentenceIndex": 138,
@@ -5679,12 +5157,10 @@ export default {
         "long position"
       ],
       "optionReasons": {
-        "long-mcq-48": "本句指「預期資產價格上升而建立的多頭／好倉部位」。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。"
+        "long-mcq-48": "本句的「long position」指「預期資產價格上升而建立的多頭／好倉部位」。",
+        "long-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-48"
     },
@@ -5696,11 +5172,9 @@ export default {
       "masked": "Some traders decided to ____.",
       "options": [
         "long-mcq-48",
-        "long-mcq-47",
-        "long-mcq-49",
-        "long-mcq-46",
-        "long-mcq-50",
-        "long-mcq-45"
+        "long-mcq-40",
+        "long-mcq-16",
+        "long-mcq-03"
       ],
       "explanation": "本句的「go long」指「預期資產價格上升而建立的多頭／好倉部位」。",
       "sentenceIndex": 139,
@@ -5709,12 +5183,10 @@ export default {
         "go long"
       ],
       "optionReasons": {
-        "long-mcq-48": "本句指「預期資產價格上升而建立的多頭／好倉部位」。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。"
+        "long-mcq-48": "本句的「go long」指「預期資產價格上升而建立的多頭／好倉部位」。",
+        "long-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-48"
     },
@@ -5726,11 +5198,9 @@ export default {
       "masked": "He went ____ on the stock.",
       "options": [
         "long-mcq-48",
-        "long-mcq-47",
-        "long-mcq-49",
-        "long-mcq-46",
+        "long-mcq-44",
         "long-mcq-50",
-        "long-mcq-45"
+        "long-mcq-33"
       ],
       "explanation": "本句的「long」指「預期資產價格上升而建立的多頭／好倉部位」。",
       "sentenceIndex": 140,
@@ -5739,12 +5209,10 @@ export default {
         "long"
       ],
       "optionReasons": {
-        "long-mcq-48": "本句指「預期資產價格上升而建立的多頭／好倉部位」。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。"
+        "long-mcq-48": "本句的「long」指「預期資產價格上升而建立的多頭／好倉部位」。",
+        "long-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-48"
     },
@@ -5756,11 +5224,9 @@ export default {
       "masked": "The player sent a ____ forward.",
       "options": [
         "long-mcq-52",
-        "long-mcq-51",
-        "long-mcq-53",
-        "long-mcq-50",
-        "long-mcq-54",
-        "long-mcq-49"
+        "long-mcq-18",
+        "long-mcq-37",
+        "long-mcq-35"
       ],
       "explanation": "本句的「long pass」指「在運動中移動／射擊距離較遠的」。",
       "sentenceIndex": 141,
@@ -5769,12 +5235,10 @@ export default {
         "long pass"
       ],
       "optionReasons": {
-        "long-mcq-52": "本句指「在運動中移動／射擊距離較遠的」。",
-        "long-mcq-51": "「持續時間較長或屬於某語言長短對立中的元音」是「68. long vowel（長母音） — 長元音」的用法，與本句語境不同。",
-        "long-mcq-53": "「持續時間相對較久的停頓／沉默」是「73. long silence/pause（長時間沉默／停頓） — 長時間的停頓」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
-        "long-mcq-54": "「由很多人／項目連成較長序列」是「74. long = extensive list/queue（很長的一列／清單） — 很多項；排很長」的用法，與本句語境不同。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。"
+        "long-mcq-52": "本句的「long pass」指「在運動中移動／射擊距離較遠的」。",
+        "long-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-52"
     },
@@ -5786,11 +5250,9 @@ export default {
       "masked": "He scored with a ____.",
       "options": [
         "long-mcq-52",
-        "long-mcq-51",
-        "long-mcq-53",
-        "long-mcq-50",
-        "long-mcq-54",
-        "long-mcq-49"
+        "long-pdf-007",
+        "long-pdf-004",
+        "long-mcq-30"
       ],
       "explanation": "本句的「long shot」指「在運動中移動／射擊距離較遠的」。",
       "sentenceIndex": 142,
@@ -5799,12 +5261,10 @@ export default {
         "long shot"
       ],
       "optionReasons": {
-        "long-mcq-52": "本句指「在運動中移動／射擊距離較遠的」。",
-        "long-mcq-51": "「持續時間較長或屬於某語言長短對立中的元音」是「68. long vowel（長母音） — 長元音」的用法，與本句語境不同。",
-        "long-mcq-53": "「持續時間相對較久的停頓／沉默」是「73. long silence/pause（長時間沉默／停頓） — 長時間的停頓」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
-        "long-mcq-54": "「由很多人／項目連成較長序列」是「74. long = extensive list/queue（很長的一列／清單） — 很多項；排很長」的用法，與本句語境不同。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。"
+        "long-mcq-52": "本句的「long shot」指「在運動中移動／射擊距離較遠的」。",
+        "long-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-52"
     },
@@ -5816,11 +5276,9 @@ export default {
       "masked": "Hold the note ____.",
       "options": [
         "long-pdf-008",
-        "long-mcq-47",
-        "long-mcq-49",
-        "long-mcq-46",
+        "long-mcq-15",
         "long-mcq-50",
-        "long-mcq-45"
+        "long-mcq-07"
       ],
       "explanation": "本句的「longer」指「聲音／音符持續時間較長」。",
       "sentenceIndex": 143,
@@ -5829,12 +5287,10 @@ export default {
         "longer"
       ],
       "optionReasons": {
-        "long-pdf-008": "本句指「聲音／音符持續時間較長」。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。"
+        "long-pdf-008": "本句的「longer」指「聲音／音符持續時間較長」。",
+        "long-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-008"
     },
@@ -5846,11 +5302,9 @@ export default {
       "masked": "The phrase ends with a ____.",
       "options": [
         "long-pdf-008",
-        "long-mcq-47",
-        "long-mcq-49",
-        "long-mcq-46",
-        "long-mcq-50",
-        "long-mcq-45"
+        "long-pdf-007",
+        "long-mcq-32",
+        "long-mcq-36"
       ],
       "explanation": "本句的「long note」指「聲音／音符持續時間較長」。",
       "sentenceIndex": 144,
@@ -5859,12 +5313,10 @@ export default {
         "long note"
       ],
       "optionReasons": {
-        "long-pdf-008": "本句指「聲音／音符持續時間較長」。",
-        "long-mcq-47": "「用很多不必要的說話／文字才表達重點」是「long-winded」的用法，與本句語境不同。",
-        "long-mcq-49": "「因等待、工作、不適等而感到時間很漫長的一夜」是「42. long night（漫長的一夜） — 難熬的夜晚」的用法，與本句語境不同。",
-        "long-mcq-46": "「涉及很長距離，或需要長期努力」是「long-haul」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。",
-        "long-mcq-45": "「涉及相隔較遠地方／長距離移動」是「long-distance」的用法，與本句語境不同。"
+        "long-pdf-008": "本句的「long note」指「聲音／音符持續時間較長」。",
+        "long-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-pdf-008"
     },
@@ -5876,11 +5328,9 @@ export default {
       "masked": "There was a ____ before she answered.",
       "options": [
         "long-mcq-53",
-        "long-mcq-52",
-        "long-mcq-54",
-        "long-mcq-51",
-        "long-mcq-55",
-        "long-mcq-50"
+        "long-mcq-35",
+        "long-mcq-42",
+        "long-mcq-32"
       ],
       "explanation": "本句的「long pause」指「持續時間相對較久的停頓／沉默」。",
       "sentenceIndex": 145,
@@ -5889,12 +5339,10 @@ export default {
         "long pause"
       ],
       "optionReasons": {
-        "long-mcq-53": "本句指「持續時間相對較久的停頓／沉默」。",
-        "long-mcq-52": "「在運動中移動／射擊距離較遠的」是「71. long = sports: long ball/pass/shot（長傳／遠射） — 長距離的」的用法，與本句語境不同。",
-        "long-mcq-54": "「由很多人／項目連成較長序列」是「74. long = extensive list/queue（很長的一列／清單） — 很多項；排很長」的用法，與本句語境不同。",
-        "long-mcq-51": "「持續時間較長或屬於某語言長短對立中的元音」是「68. long vowel（長母音） — 長元音」的用法，與本句語境不同。",
-        "long-mcq-55": "「項目數量很多，使清單篇幅很長」是「75. long list（長清單／很多項目） — 很多；一大串」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。"
+        "long-mcq-53": "本句的「long pause」指「持續時間相對較久的停頓／沉默」。",
+        "long-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-53"
     },
@@ -5906,11 +5354,9 @@ export default {
       "masked": "A ____ silence followed.",
       "options": [
         "long-mcq-53",
-        "long-mcq-52",
-        "long-mcq-54",
-        "long-mcq-51",
-        "long-mcq-55",
-        "long-mcq-50"
+        "long-reviewed-d5f3a59794",
+        "long-mcq-08",
+        "long-pdf-006"
       ],
       "explanation": "本句的「long」指「持續時間相對較久的停頓／沉默」。",
       "sentenceIndex": 146,
@@ -5919,12 +5365,10 @@ export default {
         "long"
       ],
       "optionReasons": {
-        "long-mcq-53": "本句指「持續時間相對較久的停頓／沉默」。",
-        "long-mcq-52": "「在運動中移動／射擊距離較遠的」是「71. long = sports: long ball/pass/shot（長傳／遠射） — 長距離的」的用法，與本句語境不同。",
-        "long-mcq-54": "「由很多人／項目連成較長序列」是「74. long = extensive list/queue（很長的一列／清單） — 很多項；排很長」的用法，與本句語境不同。",
-        "long-mcq-51": "「持續時間較長或屬於某語言長短對立中的元音」是「68. long vowel（長母音） — 長元音」的用法，與本句語境不同。",
-        "long-mcq-55": "「項目數量很多，使清單篇幅很長」是「75. long list（長清單／很多項目） — 很多；一大串」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。"
+        "long-mcq-53": "本句的「long」指「持續時間相對較久的停頓／沉默」。",
+        "long-reviewed-d5f3a59794": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "long-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-53"
     },
@@ -5936,11 +5380,9 @@ export default {
       "masked": "There was a ____ outside.",
       "options": [
         "long-mcq-54",
-        "long-mcq-53",
-        "long-mcq-55",
-        "long-mcq-52",
-        "long-mcq-51",
-        "long-mcq-50"
+        "long-pdf-001",
+        "long-mcq-08",
+        "long-mcq-32"
       ],
       "explanation": "本句的「long queue」指「由很多人／項目連成較長序列」。",
       "sentenceIndex": 147,
@@ -5949,12 +5391,10 @@ export default {
         "long queue"
       ],
       "optionReasons": {
-        "long-mcq-54": "本句指「由很多人／項目連成較長序列」。",
-        "long-mcq-53": "「持續時間相對較久的停頓／沉默」是「73. long silence/pause（長時間沉默／停頓） — 長時間的停頓」的用法，與本句語境不同。",
-        "long-mcq-55": "「項目數量很多，使清單篇幅很長」是「75. long list（長清單／很多項目） — 很多；一大串」的用法，與本句語境不同。",
-        "long-mcq-52": "「在運動中移動／射擊距離較遠的」是「71. long = sports: long ball/pass/shot（長傳／遠射） — 長距離的」的用法，與本句語境不同。",
-        "long-mcq-51": "「持續時間較長或屬於某語言長短對立中的元音」是「68. long vowel（長母音） — 長元音」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。"
+        "long-mcq-54": "本句的「long queue」指「由很多人／項目連成較長序列」。",
+        "long-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-54"
     },
@@ -5966,10 +5406,8 @@ export default {
       "masked": "She had a ____ of tasks.",
       "options": [
         "long-mcq-54",
-        "long-mcq-53",
-        "long-mcq-55",
-        "long-mcq-52",
-        "long-mcq-51",
+        "long-mcq-08",
+        "long-mcq-10",
         "long-mcq-50"
       ],
       "explanation": "本句的「long list」指「由很多人／項目連成較長序列」。",
@@ -5979,12 +5417,10 @@ export default {
         "long list"
       ],
       "optionReasons": {
-        "long-mcq-54": "本句指「由很多人／項目連成較長序列」。",
-        "long-mcq-53": "「持續時間相對較久的停頓／沉默」是「73. long silence/pause（長時間沉默／停頓） — 長時間的停頓」的用法，與本句語境不同。",
-        "long-mcq-55": "「項目數量很多，使清單篇幅很長」是「75. long list（長清單／很多項目） — 很多；一大串」的用法，與本句語境不同。",
-        "long-mcq-52": "「在運動中移動／射擊距離較遠的」是「71. long = sports: long ball/pass/shot（長傳／遠射） — 長距離的」的用法，與本句語境不同。",
-        "long-mcq-51": "「持續時間較長或屬於某語言長短對立中的元音」是「68. long vowel（長母音） — 長元音」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。"
+        "long-mcq-54": "本句的「long list」指「由很多人／項目連成較長序列」。",
+        "long-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-54"
     },
@@ -5996,10 +5432,8 @@ export default {
       "masked": "There is a ____.",
       "options": [
         "long-mcq-55",
-        "long-mcq-54",
-        "long-mcq-53",
-        "long-mcq-52",
-        "long-mcq-51",
+        "long-mcq-34",
+        "long-mcq-31",
         "long-mcq-50"
       ],
       "explanation": "本句的「long list of reasons」指「項目數量很多，使清單篇幅很長」。",
@@ -6009,12 +5443,10 @@ export default {
         "long list of reasons"
       ],
       "optionReasons": {
-        "long-mcq-55": "本句指「項目數量很多，使清單篇幅很長」。",
-        "long-mcq-54": "「由很多人／項目連成較長序列」是「74. long = extensive list/queue（很長的一列／清單） — 很多項；排很長」的用法，與本句語境不同。",
-        "long-mcq-53": "「持續時間相對較久的停頓／沉默」是「73. long silence/pause（長時間沉默／停頓） — 長時間的停頓」的用法，與本句語境不同。",
-        "long-mcq-52": "「在運動中移動／射擊距離較遠的」是「71. long = sports: long ball/pass/shot（長傳／遠射） — 長距離的」的用法，與本句語境不同。",
-        "long-mcq-51": "「持續時間較長或屬於某語言長短對立中的元音」是「68. long vowel（長母音） — 長元音」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。"
+        "long-mcq-55": "本句的「long list of reasons」指「項目數量很多，使清單篇幅很長」。",
+        "long-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-55"
     },
@@ -6026,10 +5458,8 @@ export default {
       "masked": "The project has a ____ list of requirements.",
       "options": [
         "long-mcq-55",
-        "long-mcq-54",
-        "long-mcq-53",
         "long-mcq-52",
-        "long-mcq-51",
+        "long-mcq-21",
         "long-mcq-50"
       ],
       "explanation": "本句的「long」指「項目數量很多，使清單篇幅很長」。",
@@ -6039,12 +5469,10 @@ export default {
         "long"
       ],
       "optionReasons": {
-        "long-mcq-55": "本句指「項目數量很多，使清單篇幅很長」。",
-        "long-mcq-54": "「由很多人／項目連成較長序列」是「74. long = extensive list/queue（很長的一列／清單） — 很多項；排很長」的用法，與本句語境不同。",
-        "long-mcq-53": "「持續時間相對較久的停頓／沉默」是「73. long silence/pause（長時間沉默／停頓） — 長時間的停頓」的用法，與本句語境不同。",
-        "long-mcq-52": "「在運動中移動／射擊距離較遠的」是「71. long = sports: long ball/pass/shot（長傳／遠射） — 長距離的」的用法，與本句語境不同。",
-        "long-mcq-51": "「持續時間較長或屬於某語言長短對立中的元音」是「68. long vowel（長母音） — 長元音」的用法，與本句語境不同。",
-        "long-mcq-50": "「普通完整書寫方式，相對於 shorthand（速記）」是「66. longhand（手寫全寫形式） — 普通手寫；非速記」的用法，與本句語境不同。"
+        "long-mcq-55": "本句的「long」指「項目數量很多，使清單篇幅很長」。",
+        "long-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "long-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "long-mcq-55"
     }
@@ -6056,5 +5484,7 @@ export default {
     "sha256": "63aa66960c17f87ffb93e0dbd670a8f152ba5c2e5d832b3113b5112776ba2185",
     "pages": 54
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

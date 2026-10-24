@@ -493,11 +493,9 @@ export default {
       "masked": "He is ____, kind, and full of life.",
       "options": [
         "curious-mcq-22",
-        "curious-mcq-21",
-        "curious-mcq-20",
-        "curious-mcq-19",
-        "curious-mcq-18",
-        "curious-mcq-17"
+        "curious-mcq-04",
+        "curious-mcq-06",
+        "curious-mcq-08"
       ],
       "explanation": "本句的「curious」指「很想知道、了解或探索新事物的」。",
       "sentenceIndex": 0,
@@ -506,12 +504,10 @@ export default {
         "curious"
       ],
       "optionReasons": {
-        "curious-mcq-22": "本句指「很想知道、了解或探索新事物的」。",
-        "curious-mcq-21": "「不好奇的」是「incurious」的用法，與本句語境不同。",
-        "curious-mcq-20": "「新奇吸引力」是「curiosity value」的用法，與本句語境不同。",
-        "curious-mcq-19": "「稀奇事物」是「a curiosity」的用法，與本句語境不同。",
-        "curious-mcq-18": "「忍不住好奇」是「curiosity gets the better of X」的用法，與本句語境不同。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。"
+        "curious-mcq-22": "本句的「curious」指「很想知道、了解或探索新事物的」。",
+        "curious-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-22"
     },
@@ -523,11 +519,7 @@ export default {
       "masked": "Leo has always been a very ____ child.",
       "options": [
         "curious-mcq-22",
-        "curious-mcq-21",
-        "curious-mcq-20",
-        "curious-mcq-19",
-        "curious-mcq-18",
-        "curious-mcq-17"
+        "curious-mcq-07"
       ],
       "explanation": "本句的「curious」指「很想知道、了解或探索新事物的」。",
       "sentenceIndex": 1,
@@ -536,12 +528,8 @@ export default {
         "curious"
       ],
       "optionReasons": {
-        "curious-mcq-22": "本句指「很想知道、了解或探索新事物的」。",
-        "curious-mcq-21": "「不好奇的」是「incurious」的用法，與本句語境不同。",
-        "curious-mcq-20": "「新奇吸引力」是「curiosity value」的用法，與本句語境不同。",
-        "curious-mcq-19": "「稀奇事物」是「a curiosity」的用法，與本句語境不同。",
-        "curious-mcq-18": "「忍不住好奇」是「curiosity gets the better of X」的用法，與本句語境不同。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。"
+        "curious-mcq-22": "本句的「curious」指「很想知道、了解或探索新事物的」。",
+        "curious-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-22"
     },
@@ -553,11 +541,7 @@ export default {
       "masked": "____ people often ask a lot of questions.",
       "options": [
         "curious-mcq-22",
-        "curious-mcq-21",
-        "curious-mcq-20",
-        "curious-mcq-19",
-        "curious-mcq-18",
-        "curious-mcq-17"
+        "curious-mcq-21"
       ],
       "explanation": "本句的「Curious」指「很想知道、了解或探索新事物的」。",
       "sentenceIndex": 2,
@@ -566,12 +550,8 @@ export default {
         "Curious"
       ],
       "optionReasons": {
-        "curious-mcq-22": "本句指「很想知道、了解或探索新事物的」。",
-        "curious-mcq-21": "「不好奇的」是「incurious」的用法，與本句語境不同。",
-        "curious-mcq-20": "「新奇吸引力」是「curiosity value」的用法，與本句語境不同。",
-        "curious-mcq-19": "「稀奇事物」是「a curiosity」的用法，與本句語境不同。",
-        "curious-mcq-18": "「忍不住好奇」是「curiosity gets the better of X」的用法，與本句語境不同。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。"
+        "curious-mcq-22": "本句的「Curious」指「很想知道、了解或探索新事物的」。",
+        "curious-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-22"
     },
@@ -583,11 +563,7 @@ export default {
       "masked": "He is ____.",
       "options": [
         "curious-mcq-02",
-        "curious-mcq-01",
-        "curious-mcq-03",
-        "curious-mcq-04",
-        "curious-mcq-05",
-        "curious-mcq-06"
+        "curious-mcq-14"
       ],
       "explanation": "本句的「curious about how machines work」指「對 X 好奇」。",
       "sentenceIndex": 3,
@@ -596,12 +572,8 @@ export default {
         "curious about how machines work"
       ],
       "optionReasons": {
-        "curious-mcq-02": "本句指「對 X 好奇」。",
-        "curious-mcq-01": "「好奇的；求知慾強的」是「curious person/child」的用法，與本句語境不同。",
-        "curious-mcq-03": "「很想知道／看看」是「curious to know/see」的用法，與本句語境不同。",
-        "curious-mcq-04": "「好奇心強的頭腦」是「curious mind」的用法，與本句語境不同。",
-        "curious-mcq-05": "「好奇提出的／奇怪的問題」是「curious question」的用法，與本句語境不同。",
-        "curious-mcq-06": "「奇怪的案件」是「curious case」的用法，與本句語境不同。"
+        "curious-mcq-02": "本句的「curious about how machines work」指「對 X 好奇」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-02"
     },
@@ -613,11 +585,7 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "curious-mcq-02",
-        "curious-mcq-01",
-        "curious-mcq-03",
-        "curious-mcq-04",
-        "curious-mcq-05",
-        "curious-mcq-06"
+        "curious-mcq-03"
       ],
       "explanation": "本句的「curious about her new project」指「對 X 好奇」。",
       "sentenceIndex": 4,
@@ -626,12 +594,8 @@ export default {
         "curious about her new project"
       ],
       "optionReasons": {
-        "curious-mcq-02": "本句指「對 X 好奇」。",
-        "curious-mcq-01": "「好奇的；求知慾強的」是「curious person/child」的用法，與本句語境不同。",
-        "curious-mcq-03": "「很想知道／看看」是「curious to know/see」的用法，與本句語境不同。",
-        "curious-mcq-04": "「好奇心強的頭腦」是「curious mind」的用法，與本句語境不同。",
-        "curious-mcq-05": "「好奇提出的／奇怪的問題」是「curious question」的用法，與本句語境不同。",
-        "curious-mcq-06": "「奇怪的案件」是「curious case」的用法，與本句語境不同。"
+        "curious-mcq-02": "本句的「curious about her new project」指「對 X 好奇」。",
+        "curious-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-02"
     },
@@ -643,11 +607,7 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "curious-mcq-03",
-        "curious-mcq-02",
-        "curious-mcq-04",
-        "curious-mcq-01",
-        "curious-mcq-05",
-        "curious-mcq-06"
+        "curious-mcq-10"
       ],
       "explanation": "本句的「curious to know what happened next」指「很想知道／看看」。",
       "sentenceIndex": 5,
@@ -656,12 +616,8 @@ export default {
         "curious to know what happened next"
       ],
       "optionReasons": {
-        "curious-mcq-03": "本句指「很想知道／看看」。",
-        "curious-mcq-02": "「對 X 好奇」是「curious about X」的用法，與本句語境不同。",
-        "curious-mcq-04": "「好奇心強的頭腦」是「curious mind」的用法，與本句語境不同。",
-        "curious-mcq-01": "「好奇的；求知慾強的」是「curious person/child」的用法，與本句語境不同。",
-        "curious-mcq-05": "「好奇提出的／奇怪的問題」是「curious question」的用法，與本句語境不同。",
-        "curious-mcq-06": "「奇怪的案件」是「curious case」的用法，與本句語境不同。"
+        "curious-mcq-03": "本句的「curious to know what happened next」指「很想知道／看看」。",
+        "curious-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-03"
     },
@@ -673,11 +629,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "curious-mcq-03",
-        "curious-mcq-02",
-        "curious-mcq-04",
-        "curious-mcq-01",
-        "curious-mcq-05",
-        "curious-mcq-06"
+        "curious-mcq-16",
+        "curious-mcq-08",
+        "curious-mcq-20"
       ],
       "explanation": "本句的「curious to see how the experiment would turn out」指「很想知道／看看」。",
       "sentenceIndex": 6,
@@ -686,12 +640,10 @@ export default {
         "curious to see how the experiment would turn out"
       ],
       "optionReasons": {
-        "curious-mcq-03": "本句指「很想知道／看看」。",
-        "curious-mcq-02": "「對 X 好奇」是「curious about X」的用法，與本句語境不同。",
-        "curious-mcq-04": "「好奇心強的頭腦」是「curious mind」的用法，與本句語境不同。",
-        "curious-mcq-01": "「好奇的；求知慾強的」是「curious person/child」的用法，與本句語境不同。",
-        "curious-mcq-05": "「好奇提出的／奇怪的問題」是「curious question」的用法，與本句語境不同。",
-        "curious-mcq-06": "「奇怪的案件」是「curious case」的用法，與本句語境不同。"
+        "curious-mcq-03": "本句的「curious to see how the experiment would turn out」指「很想知道／看看」。",
+        "curious-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-03"
     },
@@ -704,10 +656,8 @@ export default {
       "options": [
         "curious-mcq-04",
         "curious-mcq-03",
-        "curious-mcq-05",
-        "curious-mcq-02",
-        "curious-mcq-06",
-        "curious-mcq-01"
+        "curious-mcq-20",
+        "curious-mcq-06"
       ],
       "explanation": "本句的「curious minds」指「好奇心強的頭腦」。",
       "sentenceIndex": 7,
@@ -716,12 +666,10 @@ export default {
         "curious minds"
       ],
       "optionReasons": {
-        "curious-mcq-04": "本句指「好奇心強的頭腦」。",
-        "curious-mcq-03": "「很想知道／看看」是「curious to know/see」的用法，與本句語境不同。",
-        "curious-mcq-05": "「好奇提出的／奇怪的問題」是「curious question」的用法，與本句語境不同。",
-        "curious-mcq-02": "「對 X 好奇」是「curious about X」的用法，與本句語境不同。",
-        "curious-mcq-06": "「奇怪的案件」是「curious case」的用法，與本句語境不同。",
-        "curious-mcq-01": "「好奇的；求知慾強的」是「curious person/child」的用法，與本句語境不同。"
+        "curious-mcq-04": "本句的「curious minds」指「好奇心強的頭腦」。",
+        "curious-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-04"
     },
@@ -733,11 +681,9 @@ export default {
       "masked": "A ____ is useful in science.",
       "options": [
         "curious-mcq-04",
-        "curious-mcq-03",
-        "curious-mcq-05",
-        "curious-mcq-02",
-        "curious-mcq-06",
-        "curious-mcq-01"
+        "curious-mcq-22",
+        "curious-mcq-08",
+        "curious-mcq-06"
       ],
       "explanation": "本句的「curious mind」指「好奇心強的頭腦」。",
       "sentenceIndex": 8,
@@ -746,12 +692,10 @@ export default {
         "curious mind"
       ],
       "optionReasons": {
-        "curious-mcq-04": "本句指「好奇心強的頭腦」。",
-        "curious-mcq-03": "「很想知道／看看」是「curious to know/see」的用法，與本句語境不同。",
-        "curious-mcq-05": "「好奇提出的／奇怪的問題」是「curious question」的用法，與本句語境不同。",
-        "curious-mcq-02": "「對 X 好奇」是「curious about X」的用法，與本句語境不同。",
-        "curious-mcq-06": "「奇怪的案件」是「curious case」的用法，與本句語境不同。",
-        "curious-mcq-01": "「好奇的；求知慾強的」是「curious person/child」的用法，與本句語境不同。"
+        "curious-mcq-04": "本句的「curious mind」指「好奇心強的頭腦」。",
+        "curious-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-04"
     },
@@ -763,11 +707,9 @@ export default {
       "masked": "The child asked a ____ about the stars.",
       "options": [
         "curious-mcq-05",
-        "curious-mcq-04",
-        "curious-mcq-06",
         "curious-mcq-03",
-        "curious-mcq-07",
-        "curious-mcq-02"
+        "curious-mcq-20",
+        "curious-mcq-08"
       ],
       "explanation": "本句的「curious question」指「好奇提出的／奇怪的問題」。",
       "sentenceIndex": 9,
@@ -776,12 +718,10 @@ export default {
         "curious question"
       ],
       "optionReasons": {
-        "curious-mcq-05": "本句指「好奇提出的／奇怪的問題」。",
-        "curious-mcq-04": "「好奇心強的頭腦」是「curious mind」的用法，與本句語境不同。",
-        "curious-mcq-06": "「奇怪的案件」是「curious case」的用法，與本句語境不同。",
-        "curious-mcq-03": "「很想知道／看看」是「curious to know/see」的用法，與本句語境不同。",
-        "curious-mcq-07": "「奇怪的情況」是「curious situation」的用法，與本句語境不同。",
-        "curious-mcq-02": "「對 X 好奇」是「curious about X」的用法，與本句語境不同。"
+        "curious-mcq-05": "本句的「curious question」指「好奇提出的／奇怪的問題」。",
+        "curious-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-05"
     },
@@ -793,11 +733,9 @@ export default {
       "masked": "That's a rather ____.",
       "options": [
         "curious-mcq-05",
-        "curious-mcq-04",
-        "curious-mcq-06",
-        "curious-mcq-03",
-        "curious-mcq-07",
-        "curious-mcq-02"
+        "curious-mcq-22",
+        "curious-mcq-20",
+        "curious-mcq-08"
       ],
       "explanation": "本句的「curious question」指「好奇提出的／奇怪的問題」。",
       "sentenceIndex": 10,
@@ -806,12 +744,10 @@ export default {
         "curious question"
       ],
       "optionReasons": {
-        "curious-mcq-05": "本句指「好奇提出的／奇怪的問題」。",
-        "curious-mcq-04": "「好奇心強的頭腦」是「curious mind」的用法，與本句語境不同。",
-        "curious-mcq-06": "「奇怪的案件」是「curious case」的用法，與本句語境不同。",
-        "curious-mcq-03": "「很想知道／看看」是「curious to know/see」的用法，與本句語境不同。",
-        "curious-mcq-07": "「奇怪的情況」是「curious situation」的用法，與本句語境不同。",
-        "curious-mcq-02": "「對 X 好奇」是「curious about X」的用法，與本句語境不同。"
+        "curious-mcq-05": "本句的「curious question」指「好奇提出的／奇怪的問題」。",
+        "curious-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-05"
     },
@@ -823,11 +759,9 @@ export default {
       "masked": "There was a ____ in the room.",
       "options": [
         "curious-mcq-06",
-        "curious-mcq-05",
-        "curious-mcq-07",
-        "curious-mcq-04",
-        "curious-mcq-08",
-        "curious-mcq-03"
+        "curious-mcq-03",
+        "curious-mcq-17",
+        "curious-mcq-08"
       ],
       "explanation": "本句的「curious smell」指「奇怪的案件」。",
       "sentenceIndex": 11,
@@ -836,12 +770,10 @@ export default {
         "curious smell"
       ],
       "optionReasons": {
-        "curious-mcq-06": "本句指「奇怪的案件」。",
-        "curious-mcq-05": "「好奇提出的／奇怪的問題」是「curious question」的用法，與本句語境不同。",
-        "curious-mcq-07": "「奇怪的情況」是「curious situation」的用法，與本句語境不同。",
-        "curious-mcq-04": "「好奇心強的頭腦」是「curious mind」的用法，與本句語境不同。",
-        "curious-mcq-08": "「奇特的巧合」是「curious coincidence」的用法，與本句語境不同。",
-        "curious-mcq-03": "「很想知道／看看」是「curious to know/see」的用法，與本句語境不同。"
+        "curious-mcq-06": "本句的「curious smell」指「奇怪的案件」。",
+        "curious-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-06"
     },
@@ -853,11 +785,9 @@ export default {
       "masked": "That's a ____ of solving the problem.",
       "options": [
         "curious-mcq-06",
-        "curious-mcq-05",
-        "curious-mcq-07",
-        "curious-mcq-04",
-        "curious-mcq-08",
-        "curious-mcq-03"
+        "curious-mcq-14",
+        "curious-mcq-18",
+        "curious-mcq-20"
       ],
       "explanation": "本句的「curious way」指「奇怪的案件」。",
       "sentenceIndex": 12,
@@ -866,12 +796,10 @@ export default {
         "curious way"
       ],
       "optionReasons": {
-        "curious-mcq-06": "本句指「奇怪的案件」。",
-        "curious-mcq-05": "「好奇提出的／奇怪的問題」是「curious question」的用法，與本句語境不同。",
-        "curious-mcq-07": "「奇怪的情況」是「curious situation」的用法，與本句語境不同。",
-        "curious-mcq-04": "「好奇心強的頭腦」是「curious mind」的用法，與本句語境不同。",
-        "curious-mcq-08": "「奇特的巧合」是「curious coincidence」的用法，與本句語境不同。",
-        "curious-mcq-03": "「很想知道／看看」是「curious to know/see」的用法，與本句語境不同。"
+        "curious-mcq-06": "本句的「curious way」指「奇怪的案件」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-06"
     },
@@ -883,11 +811,7 @@ export default {
       "masked": "It was a ____ with no obvious explanation.",
       "options": [
         "curious-mcq-07",
-        "curious-mcq-06",
-        "curious-mcq-08",
-        "curious-mcq-05",
-        "curious-mcq-09",
-        "curious-mcq-04"
+        "curious-mcq-22"
       ],
       "explanation": "本句的「curious case」指「奇怪的情況」。",
       "sentenceIndex": 13,
@@ -896,12 +820,8 @@ export default {
         "curious case"
       ],
       "optionReasons": {
-        "curious-mcq-07": "本句指「奇怪的情況」。",
-        "curious-mcq-06": "「奇怪的案件」是「curious case」的用法，與本句語境不同。",
-        "curious-mcq-08": "「奇特的巧合」是「curious coincidence」的用法，與本句語境不同。",
-        "curious-mcq-05": "「好奇提出的／奇怪的問題」是「curious question」的用法，與本句語境不同。",
-        "curious-mcq-09": "「好奇／奇怪的神情」是「curious look」的用法，與本句語境不同。",
-        "curious-mcq-04": "「好奇心強的頭腦」是「curious mind」的用法，與本句語境不同。"
+        "curious-mcq-07": "本句的「curious case」指「奇怪的情況」。",
+        "curious-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-07"
     },
@@ -913,11 +833,7 @@ export default {
       "masked": "We found ourselves in a ____.",
       "options": [
         "curious-mcq-07",
-        "curious-mcq-06",
-        "curious-mcq-08",
-        "curious-mcq-05",
-        "curious-mcq-09",
-        "curious-mcq-04"
+        "curious-mcq-14"
       ],
       "explanation": "本句的「curious situation」指「奇怪的情況」。",
       "sentenceIndex": 14,
@@ -926,12 +842,8 @@ export default {
         "curious situation"
       ],
       "optionReasons": {
-        "curious-mcq-07": "本句指「奇怪的情況」。",
-        "curious-mcq-06": "「奇怪的案件」是「curious case」的用法，與本句語境不同。",
-        "curious-mcq-08": "「奇特的巧合」是「curious coincidence」的用法，與本句語境不同。",
-        "curious-mcq-05": "「好奇提出的／奇怪的問題」是「curious question」的用法，與本句語境不同。",
-        "curious-mcq-09": "「好奇／奇怪的神情」是「curious look」的用法，與本句語境不同。",
-        "curious-mcq-04": "「好奇心強的頭腦」是「curious mind」的用法，與本句語境不同。"
+        "curious-mcq-07": "本句的「curious situation」指「奇怪的情況」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-07"
     },
@@ -943,10 +855,8 @@ export default {
       "masked": "It was a ____ that they arrived at the same time.",
       "options": [
         "curious-mcq-08",
-        "curious-mcq-07",
-        "curious-mcq-09",
-        "curious-mcq-06",
-        "curious-mcq-10",
+        "curious-mcq-03",
+        "curious-mcq-20",
         "curious-mcq-05"
       ],
       "explanation": "本句的「curious coincidence」指「奇特的巧合」。",
@@ -956,12 +866,10 @@ export default {
         "curious coincidence"
       ],
       "optionReasons": {
-        "curious-mcq-08": "本句指「奇特的巧合」。",
-        "curious-mcq-07": "「奇怪的情況」是「curious situation」的用法，與本句語境不同。",
-        "curious-mcq-09": "「好奇／奇怪的神情」是「curious look」的用法，與本句語境不同。",
-        "curious-mcq-06": "「奇怪的案件」是「curious case」的用法，與本句語境不同。",
-        "curious-mcq-10": "「好奇地」是「curiously」的用法，與本句語境不同。",
-        "curious-mcq-05": "「好奇提出的／奇怪的問題」是「curious question」的用法，與本句語境不同。"
+        "curious-mcq-08": "本句的「curious coincidence」指「奇特的巧合」。",
+        "curious-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-08"
     },
@@ -973,11 +881,9 @@ export default {
       "masked": "By a ____, both families had chosen the same name.",
       "options": [
         "curious-mcq-08",
-        "curious-mcq-07",
-        "curious-mcq-09",
-        "curious-mcq-06",
-        "curious-mcq-10",
-        "curious-mcq-05"
+        "curious-mcq-14",
+        "curious-mcq-13",
+        "curious-mcq-20"
       ],
       "explanation": "本句的「curious coincidence」指「奇特的巧合」。",
       "sentenceIndex": 16,
@@ -986,12 +892,10 @@ export default {
         "curious coincidence"
       ],
       "optionReasons": {
-        "curious-mcq-08": "本句指「奇特的巧合」。",
-        "curious-mcq-07": "「奇怪的情況」是「curious situation」的用法，與本句語境不同。",
-        "curious-mcq-09": "「好奇／奇怪的神情」是「curious look」的用法，與本句語境不同。",
-        "curious-mcq-06": "「奇怪的案件」是「curious case」的用法，與本句語境不同。",
-        "curious-mcq-10": "「好奇地」是「curiously」的用法，與本句語境不同。",
-        "curious-mcq-05": "「好奇提出的／奇怪的問題」是「curious question」的用法，與本句語境不同。"
+        "curious-mcq-08": "本句的「curious coincidence」指「奇特的巧合」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-08"
     },
@@ -1003,11 +907,9 @@ export default {
       "masked": "She gave me a ____.",
       "options": [
         "curious-mcq-09",
+        "curious-mcq-03",
         "curious-mcq-08",
-        "curious-mcq-10",
-        "curious-mcq-07",
-        "curious-mcq-11",
-        "curious-mcq-06"
+        "curious-mcq-20"
       ],
       "explanation": "本句的「curious look」指「好奇／奇怪的神情」。",
       "sentenceIndex": 17,
@@ -1016,12 +918,10 @@ export default {
         "curious look"
       ],
       "optionReasons": {
-        "curious-mcq-09": "本句指「好奇／奇怪的神情」。",
-        "curious-mcq-08": "「奇特的巧合」是「curious coincidence」的用法，與本句語境不同。",
-        "curious-mcq-10": "「好奇地」是「curiously」的用法，與本句語境不同。",
-        "curious-mcq-07": "「奇怪的情況」是「curious situation」的用法，與本句語境不同。",
-        "curious-mcq-11": "「奇怪的是……」是「Curiously, ...」的用法，與本句語境不同。",
-        "curious-mcq-06": "「奇怪的案件」是「curious case」的用法，與本句語境不同。"
+        "curious-mcq-09": "本句的「curious look」指「好奇／奇怪的神情」。",
+        "curious-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-09"
     },
@@ -1033,11 +933,9 @@ export default {
       "masked": "He had a ____ on his face.",
       "options": [
         "curious-mcq-09",
+        "curious-mcq-03",
         "curious-mcq-08",
-        "curious-mcq-10",
-        "curious-mcq-07",
-        "curious-mcq-11",
-        "curious-mcq-06"
+        "curious-mcq-20"
       ],
       "explanation": "本句的「curious expression」指「好奇／奇怪的神情」。",
       "sentenceIndex": 18,
@@ -1046,12 +944,10 @@ export default {
         "curious expression"
       ],
       "optionReasons": {
-        "curious-mcq-09": "本句指「好奇／奇怪的神情」。",
-        "curious-mcq-08": "「奇特的巧合」是「curious coincidence」的用法，與本句語境不同。",
-        "curious-mcq-10": "「好奇地」是「curiously」的用法，與本句語境不同。",
-        "curious-mcq-07": "「奇怪的情況」是「curious situation」的用法，與本句語境不同。",
-        "curious-mcq-11": "「奇怪的是……」是「Curiously, ...」的用法，與本句語境不同。",
-        "curious-mcq-06": "「奇怪的案件」是「curious case」的用法，與本句語境不同。"
+        "curious-mcq-09": "本句的「curious expression」指「好奇／奇怪的神情」。",
+        "curious-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-09"
     },
@@ -1063,11 +959,7 @@ export default {
       "masked": "The child looked ____ at the machine.",
       "options": [
         "curious-mcq-10",
-        "curious-mcq-09",
-        "curious-mcq-11",
-        "curious-mcq-08",
-        "curious-mcq-12",
-        "curious-mcq-07"
+        "curious-mcq-14"
       ],
       "explanation": "本句的「curiously」指「好奇地」。",
       "sentenceIndex": 19,
@@ -1076,12 +968,8 @@ export default {
         "curiously"
       ],
       "optionReasons": {
-        "curious-mcq-10": "本句指「好奇地」。",
-        "curious-mcq-09": "「好奇／奇怪的神情」是「curious look」的用法，與本句語境不同。",
-        "curious-mcq-11": "「奇怪的是……」是「Curiously, ...」的用法，與本句語境不同。",
-        "curious-mcq-08": "「奇特的巧合」是「curious coincidence」的用法，與本句語境不同。",
-        "curious-mcq-12": "「好奇心」是「curiosity」的用法，與本句語境不同。",
-        "curious-mcq-07": "「奇怪的情況」是「curious situation」的用法，與本句語境不同。"
+        "curious-mcq-10": "本句的「curiously」指「好奇地」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-10"
     },
@@ -1093,11 +981,7 @@ export default {
       "masked": "She leaned closer ____.",
       "options": [
         "curious-mcq-10",
-        "curious-mcq-09",
-        "curious-mcq-11",
-        "curious-mcq-08",
-        "curious-mcq-12",
-        "curious-mcq-07"
+        "curious-mcq-22"
       ],
       "explanation": "本句的「curiously」指「好奇地」。",
       "sentenceIndex": 20,
@@ -1106,12 +990,8 @@ export default {
         "curiously"
       ],
       "optionReasons": {
-        "curious-mcq-10": "本句指「好奇地」。",
-        "curious-mcq-09": "「好奇／奇怪的神情」是「curious look」的用法，與本句語境不同。",
-        "curious-mcq-11": "「奇怪的是……」是「Curiously, ...」的用法，與本句語境不同。",
-        "curious-mcq-08": "「奇特的巧合」是「curious coincidence」的用法，與本句語境不同。",
-        "curious-mcq-12": "「好奇心」是「curiosity」的用法，與本句語境不同。",
-        "curious-mcq-07": "「奇怪的情況」是「curious situation」的用法，與本句語境不同。"
+        "curious-mcq-10": "本句的「curiously」指「好奇地」。",
+        "curious-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-10"
     },
@@ -1123,11 +1003,7 @@ export default {
       "masked": "____, no one asked any questions.",
       "options": [
         "curious-mcq-11",
-        "curious-mcq-10",
-        "curious-mcq-12",
-        "curious-mcq-09",
-        "curious-mcq-13",
-        "curious-mcq-08"
+        "curious-mcq-14"
       ],
       "explanation": "本句的「Curiously」指「奇怪的是……」。",
       "sentenceIndex": 21,
@@ -1136,12 +1012,8 @@ export default {
         "Curiously"
       ],
       "optionReasons": {
-        "curious-mcq-11": "本句指「奇怪的是……」。",
-        "curious-mcq-10": "「好奇地」是「curiously」的用法，與本句語境不同。",
-        "curious-mcq-12": "「好奇心」是「curiosity」的用法，與本句語境不同。",
-        "curious-mcq-09": "「好奇／奇怪的神情」是「curious look」的用法，與本句語境不同。",
-        "curious-mcq-13": "「天生好奇心」是「natural curiosity」的用法，與本句語境不同。",
-        "curious-mcq-08": "「奇特的巧合」是「curious coincidence」的用法，與本句語境不同。"
+        "curious-mcq-11": "本句的「Curiously」指「奇怪的是……」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-11"
     },
@@ -1153,11 +1025,7 @@ export default {
       "masked": "The room was ____.",
       "options": [
         "curious-mcq-11",
-        "curious-mcq-10",
-        "curious-mcq-12",
-        "curious-mcq-09",
-        "curious-mcq-13",
-        "curious-mcq-08"
+        "curious-mcq-14"
       ],
       "explanation": "本句的「curiously quiet」指「奇怪的是……」。",
       "sentenceIndex": 22,
@@ -1166,12 +1034,8 @@ export default {
         "curiously quiet"
       ],
       "optionReasons": {
-        "curious-mcq-11": "本句指「奇怪的是……」。",
-        "curious-mcq-10": "「好奇地」是「curiously」的用法，與本句語境不同。",
-        "curious-mcq-12": "「好奇心」是「curiosity」的用法，與本句語境不同。",
-        "curious-mcq-09": "「好奇／奇怪的神情」是「curious look」的用法，與本句語境不同。",
-        "curious-mcq-13": "「天生好奇心」是「natural curiosity」的用法，與本句語境不同。",
-        "curious-mcq-08": "「奇特的巧合」是「curious coincidence」的用法，與本句語境不同。"
+        "curious-mcq-11": "本句的「curiously quiet」指「奇怪的是……」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-11"
     },
@@ -1183,11 +1047,7 @@ export default {
       "masked": "His ____ leads him to ask endless questions.",
       "options": [
         "curious-mcq-12",
-        "curious-mcq-11",
-        "curious-mcq-13",
-        "curious-mcq-10",
-        "curious-mcq-14",
-        "curious-mcq-09"
+        "curious-mcq-03"
       ],
       "explanation": "本句的「curiosity」指「好奇心」。",
       "sentenceIndex": 23,
@@ -1196,12 +1056,8 @@ export default {
         "curiosity"
       ],
       "optionReasons": {
-        "curious-mcq-12": "本句指「好奇心」。",
-        "curious-mcq-11": "「奇怪的是……」是「Curiously, ...」的用法，與本句語境不同。",
-        "curious-mcq-13": "「天生好奇心」是「natural curiosity」的用法，與本句語境不同。",
-        "curious-mcq-10": "「好奇地」是「curiously」的用法，與本句語境不同。",
-        "curious-mcq-14": "「求知慾」是「intellectual curiosity」的用法，與本句語境不同。",
-        "curious-mcq-09": "「好奇／奇怪的神情」是「curious look」的用法，與本句語境不同。"
+        "curious-mcq-12": "本句的「curiosity」指「好奇心」。",
+        "curious-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-12"
     },
@@ -1213,11 +1069,7 @@ export default {
       "masked": "Children learn through ____.",
       "options": [
         "curious-mcq-12",
-        "curious-mcq-11",
-        "curious-mcq-13",
-        "curious-mcq-10",
-        "curious-mcq-14",
-        "curious-mcq-09"
+        "curious-mcq-03"
       ],
       "explanation": "本句的「curiosity」指「好奇心」。",
       "sentenceIndex": 24,
@@ -1226,12 +1078,8 @@ export default {
         "curiosity"
       ],
       "optionReasons": {
-        "curious-mcq-12": "本句指「好奇心」。",
-        "curious-mcq-11": "「奇怪的是……」是「Curiously, ...」的用法，與本句語境不同。",
-        "curious-mcq-13": "「天生好奇心」是「natural curiosity」的用法，與本句語境不同。",
-        "curious-mcq-10": "「好奇地」是「curiously」的用法，與本句語境不同。",
-        "curious-mcq-14": "「求知慾」是「intellectual curiosity」的用法，與本句語境不同。",
-        "curious-mcq-09": "「好奇／奇怪的神情」是「curious look」的用法，與本句語境不同。"
+        "curious-mcq-12": "本句的「curiosity」指「好奇心」。",
+        "curious-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-12"
     },
@@ -1243,11 +1091,9 @@ export default {
       "masked": "Young children have a strong ____.",
       "options": [
         "curious-mcq-13",
-        "curious-mcq-12",
         "curious-mcq-14",
-        "curious-mcq-11",
-        "curious-mcq-15",
-        "curious-mcq-10"
+        "curious-mcq-08",
+        "curious-mcq-20"
       ],
       "explanation": "本句的「natural curiosity」指「天生好奇心」。",
       "sentenceIndex": 25,
@@ -1256,12 +1102,10 @@ export default {
         "natural curiosity"
       ],
       "optionReasons": {
-        "curious-mcq-13": "本句指「天生好奇心」。",
-        "curious-mcq-12": "「好奇心」是「curiosity」的用法，與本句語境不同。",
-        "curious-mcq-14": "「求知慾」是「intellectual curiosity」的用法，與本句語境不同。",
-        "curious-mcq-11": "「奇怪的是……」是「Curiously, ...」的用法，與本句語境不同。",
-        "curious-mcq-15": "「出於好奇」是「out of curiosity」的用法，與本句語境不同。",
-        "curious-mcq-10": "「好奇地」是「curiously」的用法，與本句語境不同。"
+        "curious-mcq-13": "本句的「natural curiosity」指「天生好奇心」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-13"
     },
@@ -1273,11 +1117,9 @@ export default {
       "masked": "Good teaching encourages children's ____.",
       "options": [
         "curious-mcq-13",
-        "curious-mcq-12",
         "curious-mcq-14",
-        "curious-mcq-11",
-        "curious-mcq-15",
-        "curious-mcq-10"
+        "curious-mcq-20",
+        "curious-mcq-06"
       ],
       "explanation": "本句的「natural curiosity」指「天生好奇心」。",
       "sentenceIndex": 26,
@@ -1286,12 +1128,10 @@ export default {
         "natural curiosity"
       ],
       "optionReasons": {
-        "curious-mcq-13": "本句指「天生好奇心」。",
-        "curious-mcq-12": "「好奇心」是「curiosity」的用法，與本句語境不同。",
-        "curious-mcq-14": "「求知慾」是「intellectual curiosity」的用法，與本句語境不同。",
-        "curious-mcq-11": "「奇怪的是……」是「Curiously, ...」的用法，與本句語境不同。",
-        "curious-mcq-15": "「出於好奇」是「out of curiosity」的用法，與本句語境不同。",
-        "curious-mcq-10": "「好奇地」是「curiously」的用法，與本句語境不同。"
+        "curious-mcq-13": "本句的「natural curiosity」指「天生好奇心」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-13"
     },
@@ -1303,11 +1143,9 @@ export default {
       "masked": "The university values ____.",
       "options": [
         "curious-mcq-14",
-        "curious-mcq-13",
-        "curious-mcq-15",
-        "curious-mcq-12",
-        "curious-mcq-16",
-        "curious-mcq-11"
+        "curious-mcq-09",
+        "curious-mcq-20",
+        "curious-mcq-08"
       ],
       "explanation": "本句的「intellectual curiosity」指「求知慾」。",
       "sentenceIndex": 27,
@@ -1316,12 +1154,10 @@ export default {
         "intellectual curiosity"
       ],
       "optionReasons": {
-        "curious-mcq-14": "本句指「求知慾」。",
-        "curious-mcq-13": "「天生好奇心」是「natural curiosity」的用法，與本句語境不同。",
-        "curious-mcq-15": "「出於好奇」是「out of curiosity」的用法，與本句語境不同。",
-        "curious-mcq-12": "「好奇心」是「curiosity」的用法，與本句語境不同。",
-        "curious-mcq-16": "「滿足好奇心」是「satisfy curiosity」的用法，與本句語境不同。",
-        "curious-mcq-11": "「奇怪的是……」是「Curiously, ...」的用法，與本句語境不同。"
+        "curious-mcq-14": "本句的「intellectual curiosity」指「求知慾」。",
+        "curious-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-14"
     },
@@ -1333,11 +1169,9 @@ export default {
       "masked": "Her ____ led her to study several subjects.",
       "options": [
         "curious-mcq-14",
-        "curious-mcq-13",
-        "curious-mcq-15",
-        "curious-mcq-12",
-        "curious-mcq-16",
-        "curious-mcq-11"
+        "curious-mcq-18",
+        "curious-mcq-20",
+        "curious-mcq-06"
       ],
       "explanation": "本句的「intellectual curiosity」指「求知慾」。",
       "sentenceIndex": 28,
@@ -1346,12 +1180,10 @@ export default {
         "intellectual curiosity"
       ],
       "optionReasons": {
-        "curious-mcq-14": "本句指「求知慾」。",
-        "curious-mcq-13": "「天生好奇心」是「natural curiosity」的用法，與本句語境不同。",
-        "curious-mcq-15": "「出於好奇」是「out of curiosity」的用法，與本句語境不同。",
-        "curious-mcq-12": "「好奇心」是「curiosity」的用法，與本句語境不同。",
-        "curious-mcq-16": "「滿足好奇心」是「satisfy curiosity」的用法，與本句語境不同。",
-        "curious-mcq-11": "「奇怪的是……」是「Curiously, ...」的用法，與本句語境不同。"
+        "curious-mcq-14": "本句的「intellectual curiosity」指「求知慾」。",
+        "curious-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-14"
     },
@@ -1363,11 +1195,7 @@ export default {
       "masked": "I opened the box ____.",
       "options": [
         "curious-mcq-15",
-        "curious-mcq-14",
-        "curious-mcq-16",
-        "curious-mcq-13",
-        "curious-mcq-17",
-        "curious-mcq-12"
+        "curious-mcq-14"
       ],
       "explanation": "本句的「out of curiosity」指「出於好奇」。",
       "sentenceIndex": 29,
@@ -1376,12 +1204,8 @@ export default {
         "out of curiosity"
       ],
       "optionReasons": {
-        "curious-mcq-15": "本句指「出於好奇」。",
-        "curious-mcq-14": "「求知慾」是「intellectual curiosity」的用法，與本句語境不同。",
-        "curious-mcq-16": "「滿足好奇心」是「satisfy curiosity」的用法，與本句語境不同。",
-        "curious-mcq-13": "「天生好奇心」是「natural curiosity」的用法，與本句語境不同。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。",
-        "curious-mcq-12": "「好奇心」是「curiosity」的用法，與本句語境不同。"
+        "curious-mcq-15": "本句的「out of curiosity」指「出於好奇」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-15"
     },
@@ -1393,11 +1217,7 @@ export default {
       "masked": "____, I asked how the machine worked.",
       "options": [
         "curious-mcq-15",
-        "curious-mcq-14",
-        "curious-mcq-16",
-        "curious-mcq-13",
-        "curious-mcq-17",
-        "curious-mcq-12"
+        "curious-mcq-14"
       ],
       "explanation": "本句的「Out of curiosity」指「出於好奇」。",
       "sentenceIndex": 30,
@@ -1406,12 +1226,8 @@ export default {
         "Out of curiosity"
       ],
       "optionReasons": {
-        "curious-mcq-15": "本句指「出於好奇」。",
-        "curious-mcq-14": "「求知慾」是「intellectual curiosity」的用法，與本句語境不同。",
-        "curious-mcq-16": "「滿足好奇心」是「satisfy curiosity」的用法，與本句語境不同。",
-        "curious-mcq-13": "「天生好奇心」是「natural curiosity」的用法，與本句語境不同。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。",
-        "curious-mcq-12": "「好奇心」是「curiosity」的用法，與本句語境不同。"
+        "curious-mcq-15": "本句的「Out of curiosity」指「出於好奇」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-15"
     },
@@ -1423,11 +1239,9 @@ export default {
       "masked": "I looked inside just to ____.",
       "options": [
         "curious-mcq-16",
-        "curious-mcq-15",
-        "curious-mcq-17",
-        "curious-mcq-14",
-        "curious-mcq-18",
-        "curious-mcq-13"
+        "curious-mcq-03",
+        "curious-mcq-06",
+        "curious-mcq-20"
       ],
       "explanation": "本句的「satisfy my curiosity」指「滿足好奇心」。",
       "sentenceIndex": 31,
@@ -1436,12 +1250,10 @@ export default {
         "satisfy my curiosity"
       ],
       "optionReasons": {
-        "curious-mcq-16": "本句指「滿足好奇心」。",
-        "curious-mcq-15": "「出於好奇」是「out of curiosity」的用法，與本句語境不同。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。",
-        "curious-mcq-14": "「求知慾」是「intellectual curiosity」的用法，與本句語境不同。",
-        "curious-mcq-18": "「忍不住好奇」是「curiosity gets the better of X」的用法，與本句語境不同。",
-        "curious-mcq-13": "「天生好奇心」是「natural curiosity」的用法，與本句語境不同。"
+        "curious-mcq-16": "本句的「satisfy my curiosity」指「滿足好奇心」。",
+        "curious-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-16"
     },
@@ -1453,11 +1265,9 @@ export default {
       "masked": "The explanation did little to ____.",
       "options": [
         "curious-mcq-16",
-        "curious-mcq-15",
-        "curious-mcq-17",
-        "curious-mcq-14",
-        "curious-mcq-18",
-        "curious-mcq-13"
+        "curious-mcq-22",
+        "curious-mcq-08",
+        "curious-mcq-20"
       ],
       "explanation": "本句的「satisfy his curiosity」指「滿足好奇心」。",
       "sentenceIndex": 32,
@@ -1466,12 +1276,10 @@ export default {
         "satisfy his curiosity"
       ],
       "optionReasons": {
-        "curious-mcq-16": "本句指「滿足好奇心」。",
-        "curious-mcq-15": "「出於好奇」是「out of curiosity」的用法，與本句語境不同。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。",
-        "curious-mcq-14": "「求知慾」是「intellectual curiosity」的用法，與本句語境不同。",
-        "curious-mcq-18": "「忍不住好奇」是「curiosity gets the better of X」的用法，與本句語境不同。",
-        "curious-mcq-13": "「天生好奇心」是「natural curiosity」的用法，與本句語境不同。"
+        "curious-mcq-16": "本句的「satisfy his curiosity」指「滿足好奇心」。",
+        "curious-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-16"
     },
@@ -1483,11 +1291,9 @@ export default {
       "masked": "The strange object ____.",
       "options": [
         "curious-mcq-17",
-        "curious-mcq-16",
-        "curious-mcq-18",
-        "curious-mcq-15",
-        "curious-mcq-19",
-        "curious-mcq-14"
+        "curious-mcq-14",
+        "curious-mcq-06",
+        "curious-mcq-20"
       ],
       "explanation": "本句的「aroused his curiosity」指「激發好奇心」。",
       "sentenceIndex": 33,
@@ -1496,12 +1302,10 @@ export default {
         "aroused his curiosity"
       ],
       "optionReasons": {
-        "curious-mcq-17": "本句指「激發好奇心」。",
-        "curious-mcq-16": "「滿足好奇心」是「satisfy curiosity」的用法，與本句語境不同。",
-        "curious-mcq-18": "「忍不住好奇」是「curiosity gets the better of X」的用法，與本句語境不同。",
-        "curious-mcq-15": "「出於好奇」是「out of curiosity」的用法，與本句語境不同。",
-        "curious-mcq-19": "「稀奇事物」是「a curiosity」的用法，與本句語境不同。",
-        "curious-mcq-14": "「求知慾」是「intellectual curiosity」的用法，與本句語境不同。"
+        "curious-mcq-17": "本句的「aroused his curiosity」指「激發好奇心」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-17"
     },
@@ -1513,11 +1317,9 @@ export default {
       "masked": "The experiment ____.",
       "options": [
         "curious-mcq-17",
-        "curious-mcq-16",
-        "curious-mcq-18",
-        "curious-mcq-15",
-        "curious-mcq-19",
-        "curious-mcq-14"
+        "curious-mcq-22",
+        "curious-mcq-08",
+        "curious-mcq-06"
       ],
       "explanation": "本句的「sparked the children's curiosity」指「激發好奇心」。",
       "sentenceIndex": 34,
@@ -1526,12 +1328,10 @@ export default {
         "sparked the children's curiosity"
       ],
       "optionReasons": {
-        "curious-mcq-17": "本句指「激發好奇心」。",
-        "curious-mcq-16": "「滿足好奇心」是「satisfy curiosity」的用法，與本句語境不同。",
-        "curious-mcq-18": "「忍不住好奇」是「curiosity gets the better of X」的用法，與本句語境不同。",
-        "curious-mcq-15": "「出於好奇」是「out of curiosity」的用法，與本句語境不同。",
-        "curious-mcq-19": "「稀奇事物」是「a curiosity」的用法，與本句語境不同。",
-        "curious-mcq-14": "「求知慾」是「intellectual curiosity」的用法，與本句語境不同。"
+        "curious-mcq-17": "本句的「sparked the children's curiosity」指「激發好奇心」。",
+        "curious-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-17"
     },
@@ -1543,11 +1343,9 @@ export default {
       "masked": "My ____, so I opened the letter.",
       "options": [
         "curious-mcq-18",
-        "curious-mcq-17",
-        "curious-mcq-19",
-        "curious-mcq-16",
-        "curious-mcq-20",
-        "curious-mcq-15"
+        "curious-mcq-03",
+        "curious-mcq-08",
+        "curious-mcq-06"
       ],
       "explanation": "本句的「curiosity got the better of me」指「忍不住好奇」。",
       "sentenceIndex": 35,
@@ -1556,12 +1354,10 @@ export default {
         "curiosity got the better of me"
       ],
       "optionReasons": {
-        "curious-mcq-18": "本句指「忍不住好奇」。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。",
-        "curious-mcq-19": "「稀奇事物」是「a curiosity」的用法，與本句語境不同。",
-        "curious-mcq-16": "「滿足好奇心」是「satisfy curiosity」的用法，與本句語境不同。",
-        "curious-mcq-20": "「新奇吸引力」是「curiosity value」的用法，與本句語境不同。",
-        "curious-mcq-15": "「出於好奇」是「out of curiosity」的用法，與本句語境不同。"
+        "curious-mcq-18": "本句的「curiosity got the better of me」指「忍不住好奇」。",
+        "curious-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-18"
     },
@@ -1573,11 +1369,9 @@ export default {
       "masked": "His ____, and he looked inside.",
       "options": [
         "curious-mcq-18",
-        "curious-mcq-17",
-        "curious-mcq-19",
-        "curious-mcq-16",
-        "curious-mcq-20",
-        "curious-mcq-15"
+        "curious-mcq-14",
+        "curious-mcq-08",
+        "curious-mcq-20"
       ],
       "explanation": "本句的「curiosity got the better of him」指「忍不住好奇」。",
       "sentenceIndex": 36,
@@ -1586,12 +1380,10 @@ export default {
         "curiosity got the better of him"
       ],
       "optionReasons": {
-        "curious-mcq-18": "本句指「忍不住好奇」。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。",
-        "curious-mcq-19": "「稀奇事物」是「a curiosity」的用法，與本句語境不同。",
-        "curious-mcq-16": "「滿足好奇心」是「satisfy curiosity」的用法，與本句語境不同。",
-        "curious-mcq-20": "「新奇吸引力」是「curiosity value」的用法，與本句語境不同。",
-        "curious-mcq-15": "「出於好奇」是「out of curiosity」的用法，與本句語境不同。"
+        "curious-mcq-18": "本句的「curiosity got the better of him」指「忍不住好奇」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-18"
     },
@@ -1603,11 +1395,7 @@ export default {
       "masked": "The old machine is now something of a ____.",
       "options": [
         "curious-mcq-19",
-        "curious-mcq-18",
-        "curious-mcq-20",
-        "curious-mcq-17",
-        "curious-mcq-21",
-        "curious-mcq-16"
+        "curious-mcq-14"
       ],
       "explanation": "本句的「curiosity」指「稀奇事物」。",
       "sentenceIndex": 37,
@@ -1616,12 +1404,8 @@ export default {
         "curiosity"
       ],
       "optionReasons": {
-        "curious-mcq-19": "本句指「稀奇事物」。",
-        "curious-mcq-18": "「忍不住好奇」是「curiosity gets the better of X」的用法，與本句語境不同。",
-        "curious-mcq-20": "「新奇吸引力」是「curiosity value」的用法，與本句語境不同。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。",
-        "curious-mcq-21": "「不好奇的」是「incurious」的用法，與本句語境不同。",
-        "curious-mcq-16": "「滿足好奇心」是「satisfy curiosity」的用法，與本句語境不同。"
+        "curious-mcq-19": "本句的「curiosity」指「稀奇事物」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-19"
     },
@@ -1633,11 +1417,7 @@ export default {
       "masked": "The museum contains many historical ____.",
       "options": [
         "curious-mcq-19",
-        "curious-mcq-18",
-        "curious-mcq-20",
-        "curious-mcq-17",
-        "curious-mcq-21",
-        "curious-mcq-16"
+        "curious-mcq-14"
       ],
       "explanation": "本句的「curiosities」指「稀奇事物」。",
       "sentenceIndex": 38,
@@ -1646,12 +1426,8 @@ export default {
         "curiosities"
       ],
       "optionReasons": {
-        "curious-mcq-19": "本句指「稀奇事物」。",
-        "curious-mcq-18": "「忍不住好奇」是「curiosity gets the better of X」的用法，與本句語境不同。",
-        "curious-mcq-20": "「新奇吸引力」是「curiosity value」的用法，與本句語境不同。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。",
-        "curious-mcq-21": "「不好奇的」是「incurious」的用法，與本句語境不同。",
-        "curious-mcq-16": "「滿足好奇心」是「satisfy curiosity」的用法，與本句語境不同。"
+        "curious-mcq-19": "本句的「curiosities」指「稀奇事物」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-19"
     },
@@ -1663,11 +1439,9 @@ export default {
       "masked": "The device has some ____, but it isn't very practical.",
       "options": [
         "curious-mcq-20",
-        "curious-mcq-19",
-        "curious-mcq-21",
-        "curious-mcq-18",
-        "curious-mcq-22",
-        "curious-mcq-17"
+        "curious-mcq-14",
+        "curious-mcq-16",
+        "curious-mcq-06"
       ],
       "explanation": "本句的「curiosity value」指「新奇吸引力」。",
       "sentenceIndex": 39,
@@ -1676,12 +1450,10 @@ export default {
         "curiosity value"
       ],
       "optionReasons": {
-        "curious-mcq-20": "本句指「新奇吸引力」。",
-        "curious-mcq-19": "「稀奇事物」是「a curiosity」的用法，與本句語境不同。",
-        "curious-mcq-21": "「不好奇的」是「incurious」的用法，與本句語境不同。",
-        "curious-mcq-18": "「忍不住好奇」是「curiosity gets the better of X」的用法，與本句語境不同。",
-        "curious-mcq-22": "「很想知道、了解或探索新事物的」是「1. curious（人：好奇的） — 好奇的；求知慾強的」的用法，與本句語境不同。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。"
+        "curious-mcq-20": "本句的「curiosity value」指「新奇吸引力」。",
+        "curious-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-20"
     },
@@ -1693,11 +1465,9 @@ export default {
       "masked": "Visitors came mainly for the ____.",
       "options": [
         "curious-mcq-20",
-        "curious-mcq-19",
-        "curious-mcq-21",
+        "curious-mcq-03",
         "curious-mcq-18",
-        "curious-mcq-22",
-        "curious-mcq-17"
+        "curious-mcq-06"
       ],
       "explanation": "本句的「curiosity value」指「新奇吸引力」。",
       "sentenceIndex": 40,
@@ -1706,12 +1476,10 @@ export default {
         "curiosity value"
       ],
       "optionReasons": {
-        "curious-mcq-20": "本句指「新奇吸引力」。",
-        "curious-mcq-19": "「稀奇事物」是「a curiosity」的用法，與本句語境不同。",
-        "curious-mcq-21": "「不好奇的」是「incurious」的用法，與本句語境不同。",
-        "curious-mcq-18": "「忍不住好奇」是「curiosity gets the better of X」的用法，與本句語境不同。",
-        "curious-mcq-22": "「很想知道、了解或探索新事物的」是「1. curious（人：好奇的） — 好奇的；求知慾強的」的用法，與本句語境不同。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。"
+        "curious-mcq-20": "本句的「curiosity value」指「新奇吸引力」。",
+        "curious-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "curious-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-20"
     },
@@ -1723,11 +1491,7 @@ export default {
       "masked": "An ____ student may accept answers without asking why.",
       "options": [
         "curious-mcq-21",
-        "curious-mcq-20",
-        "curious-mcq-22",
-        "curious-mcq-19",
-        "curious-mcq-18",
-        "curious-mcq-17"
+        "curious-mcq-03"
       ],
       "explanation": "本句的「incurious」指「不好奇的」。",
       "sentenceIndex": 41,
@@ -1736,12 +1500,8 @@ export default {
         "incurious"
       ],
       "optionReasons": {
-        "curious-mcq-21": "本句指「不好奇的」。",
-        "curious-mcq-20": "「新奇吸引力」是「curiosity value」的用法，與本句語境不同。",
-        "curious-mcq-22": "「很想知道、了解或探索新事物的」是「1. curious（人：好奇的） — 好奇的；求知慾強的」的用法，與本句語境不同。",
-        "curious-mcq-19": "「稀奇事物」是「a curiosity」的用法，與本句語境不同。",
-        "curious-mcq-18": "「忍不住好奇」是「curiosity gets the better of X」的用法，與本句語境不同。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。"
+        "curious-mcq-21": "本句的「incurious」指「不好奇的」。",
+        "curious-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-21"
     },
@@ -1753,11 +1513,7 @@ export default {
       "masked": "He was strangely ____ about what had happened.",
       "options": [
         "curious-mcq-21",
-        "curious-mcq-20",
-        "curious-mcq-22",
-        "curious-mcq-19",
-        "curious-mcq-18",
-        "curious-mcq-17"
+        "curious-mcq-03"
       ],
       "explanation": "本句的「incurious」指「不好奇的」。",
       "sentenceIndex": 42,
@@ -1766,12 +1522,8 @@ export default {
         "incurious"
       ],
       "optionReasons": {
-        "curious-mcq-21": "本句指「不好奇的」。",
-        "curious-mcq-20": "「新奇吸引力」是「curiosity value」的用法，與本句語境不同。",
-        "curious-mcq-22": "「很想知道、了解或探索新事物的」是「1. curious（人：好奇的） — 好奇的；求知慾強的」的用法，與本句語境不同。",
-        "curious-mcq-19": "「稀奇事物」是「a curiosity」的用法，與本句語境不同。",
-        "curious-mcq-18": "「忍不住好奇」是「curiosity gets the better of X」的用法，與本句語境不同。",
-        "curious-mcq-17": "「激發好奇心」是「spark/arouse curiosity」的用法，與本句語境不同。"
+        "curious-mcq-21": "本句的「incurious」指「不好奇的」。",
+        "curious-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "curious-mcq-21"
     }
@@ -1783,5 +1535,7 @@ export default {
     "sha256": "5cc0cfa8d5e129720b36d367e8b600af8eafe7a273ea1b43d2bd99e440b3b80b",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -251,7 +251,7 @@ export default {
     },
     {
       "id": "gesture-mcq-15",
-      "title": "表示善意／關懷的舉動",
+      "title": "善意／關懷的舉動",
       "form": "gesture of kindness",
       "en": "gesture of kindness",
       "zh": "表示善意／關懷的舉動",
@@ -268,7 +268,7 @@ export default {
     },
     {
       "id": "gesture-mcq-16",
-      "title": "表示友好、合作意圖的善意姿態",
+      "title": "友好、合作意圖的善意姿態",
       "form": "gesture of goodwill",
       "en": "gesture of goodwill",
       "zh": "表示友好、合作意圖的善意姿態",
@@ -285,7 +285,7 @@ export default {
     },
     {
       "id": "gesture-mcq-17",
-      "title": "表示支持的舉動",
+      "title": "支持的舉動",
       "form": "gesture of support",
       "en": "gesture of support",
       "zh": "表示支持的舉動",
@@ -319,7 +319,7 @@ export default {
     },
     {
       "id": "gesture-mcq-19",
-      "title": "表示歉意的舉動",
+      "title": "歉意的舉動",
       "form": "gesture of apology",
       "en": "gesture of apology",
       "zh": "表示歉意的舉動",
@@ -347,7 +347,7 @@ export default {
     },
     {
       "id": "gesture-mcq-21",
-      "title": "表示反抗／不服從的姿態",
+      "title": "反抗／不服從的姿態",
       "form": "gesture of defiance",
       "en": "gesture of defiance",
       "zh": "表示反抗／不服從的姿態",
@@ -364,7 +364,7 @@ export default {
     },
     {
       "id": "gesture-mcq-22",
-      "title": "表示團結／聲援的舉動",
+      "title": "團結／聲援的舉動",
       "form": "gesture of solidarity",
       "en": "gesture of solidarity",
       "zh": "表示團結／聲援的舉動",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "gesture-mcq-23",
-      "title": "表示和平意圖的手勢／姿態",
+      "title": "和平意圖的手勢／姿態",
       "form": "peace gesture",
       "en": "peace gesture",
       "zh": "表示和平意圖的手勢／姿態",
@@ -1268,7 +1268,7 @@ export default {
     },
     {
       "id": "gesture-mcq-82",
-      "title": "表示不屑／不重視的手勢",
+      "title": "不屑／不重視的手勢",
       "form": "dismissive gesture",
       "en": "dismissive gesture",
       "zh": "表示不屑／不重視的手勢",
@@ -1321,11 +1321,9 @@ export default {
       "masked": "He made a ____ telling us to wait.",
       "options": [
         "gesture-mcq-02",
-        "gesture-mcq-01",
-        "gesture-mcq-03",
-        "gesture-mcq-04",
-        "gesture-mcq-05",
-        "gesture-mcq-06"
+        "gesture-mcq-42",
+        "gesture-mcq-26",
+        "gesture-mcq-17"
       ],
       "explanation": "本句的「hand gesture」指「用手部動作傳達意思的手勢」。",
       "sentenceIndex": 0,
@@ -1334,12 +1332,10 @@ export default {
         "hand gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-02": "本句指「用手部動作傳達意思的手勢」。",
-        "gesture-mcq-01": "「用手、頭、臉或身體動作表達情緒、態度、意圖或意思的手勢／動作」與本句語境不同。",
-        "gesture-mcq-03": "「用臉部動作傳達意思的動作」與本句語境不同。",
-        "gesture-mcq-04": "「用身體動作表達意思的姿態／動作」與本句語境不同。",
-        "gesture-mcq-05": "「做出一個用來表達意思的手勢／動作」與本句語境不同。",
-        "gesture-mcq-06": "「使用手勢／肢體動作輔助表達」與本句語境不同。"
+        "gesture-mcq-02": "本句的「hand gesture」指「用手部動作傳達意思的手勢」。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-02"
     },
@@ -1351,11 +1347,9 @@ export default {
       "masked": "Some ____ have different meanings in different cultures.",
       "options": [
         "gesture-mcq-02",
-        "gesture-mcq-01",
-        "gesture-mcq-03",
-        "gesture-mcq-04",
-        "gesture-mcq-05",
-        "gesture-mcq-06"
+        "gesture-mcq-41",
+        "gesture-mcq-28",
+        "gesture-mcq-21"
       ],
       "explanation": "本句的「hand gestures」指「用手部動作傳達意思的手勢」。",
       "sentenceIndex": 1,
@@ -1364,12 +1358,10 @@ export default {
         "hand gestures"
       ],
       "optionReasons": {
-        "gesture-mcq-02": "本句指「用手部動作傳達意思的手勢」。",
-        "gesture-mcq-01": "「用手、頭、臉或身體動作表達情緒、態度、意圖或意思的手勢／動作」與本句語境不同。",
-        "gesture-mcq-03": "「用臉部動作傳達意思的動作」與本句語境不同。",
-        "gesture-mcq-04": "「用身體動作表達意思的姿態／動作」與本句語境不同。",
-        "gesture-mcq-05": "「做出一個用來表達意思的手勢／動作」與本句語境不同。",
-        "gesture-mcq-06": "「使用手勢／肢體動作輔助表達」與本句語境不同。"
+        "gesture-mcq-02": "本句的「hand gestures」指「用手部動作傳達意思的手勢」。",
+        "gesture-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-02"
     },
@@ -1381,11 +1373,9 @@ export default {
       "masked": "The actor used broad ____.",
       "options": [
         "gesture-mcq-04",
-        "gesture-mcq-03",
-        "gesture-mcq-05",
-        "gesture-mcq-02",
-        "gesture-mcq-06",
-        "gesture-mcq-01"
+        "gesture-mcq-74",
+        "gesture-mcq-42",
+        "gesture-mcq-28"
       ],
       "explanation": "本句的「bodily gestures」指「用身體動作表達意思的姿態／動作」。",
       "sentenceIndex": 2,
@@ -1394,12 +1384,10 @@ export default {
         "bodily gestures"
       ],
       "optionReasons": {
-        "gesture-mcq-04": "本句指「用身體動作表達意思的姿態／動作」。",
-        "gesture-mcq-03": "「用臉部動作傳達意思的動作」與本句語境不同。",
-        "gesture-mcq-05": "「做出一個用來表達意思的手勢／動作」與本句語境不同。",
-        "gesture-mcq-02": "「用手部動作傳達意思的手勢」與本句語境不同。",
-        "gesture-mcq-06": "「使用手勢／肢體動作輔助表達」與本句語境不同。",
-        "gesture-mcq-01": "「用手、頭、臉或身體動作表達情緒、態度、意圖或意思的手勢／動作」與本句語境不同。"
+        "gesture-mcq-04": "本句的「bodily gestures」指「用身體動作表達意思的姿態／動作」。",
+        "gesture-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-04"
     },
@@ -1411,11 +1399,9 @@ export default {
       "masked": "She ____ for us to sit down.",
       "options": [
         "gesture-mcq-05",
-        "gesture-mcq-04",
-        "gesture-mcq-06",
-        "gesture-mcq-03",
-        "gesture-mcq-07",
-        "gesture-mcq-02"
+        "gesture-mcq-26",
+        "gesture-mcq-42",
+        "gesture-mcq-48"
       ],
       "explanation": "本句的「made a gesture」指「做出一個用來表達意思的手勢／動作」。",
       "sentenceIndex": 3,
@@ -1424,12 +1410,10 @@ export default {
         "made a gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-05": "本句指「做出一個用來表達意思的手勢／動作」。",
-        "gesture-mcq-04": "「用身體動作表達意思的姿態／動作」與本句語境不同。",
-        "gesture-mcq-06": "「使用手勢／肢體動作輔助表達」與本句語境不同。",
-        "gesture-mcq-03": "「用臉部動作傳達意思的動作」與本句語境不同。",
-        "gesture-mcq-07": "「向某人做手勢／示意」與本句語境不同。",
-        "gesture-mcq-02": "「用手部動作傳達意思的手勢」與本句語境不同。"
+        "gesture-mcq-05": "本句的「made a gesture」指「做出一個用來表達意思的手勢／動作」。",
+        "gesture-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-05"
     },
@@ -1441,11 +1425,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "gesture-mcq-05",
-        "gesture-mcq-04",
-        "gesture-mcq-06",
-        "gesture-mcq-03",
-        "gesture-mcq-07",
-        "gesture-mcq-02"
+        "gesture-mcq-28",
+        "gesture-mcq-42",
+        "gesture-mcq-21"
       ],
       "explanation": "本句的「made a gesture of impatience」指「做出一個用來表達意思的手勢／動作」。",
       "sentenceIndex": 4,
@@ -1454,12 +1436,10 @@ export default {
         "made a gesture of impatience"
       ],
       "optionReasons": {
-        "gesture-mcq-05": "本句指「做出一個用來表達意思的手勢／動作」。",
-        "gesture-mcq-04": "「用身體動作表達意思的姿態／動作」與本句語境不同。",
-        "gesture-mcq-06": "「使用手勢／肢體動作輔助表達」與本句語境不同。",
-        "gesture-mcq-03": "「用臉部動作傳達意思的動作」與本句語境不同。",
-        "gesture-mcq-07": "「向某人做手勢／示意」與本句語境不同。",
-        "gesture-mcq-02": "「用手部動作傳達意思的手勢」與本句語境不同。"
+        "gesture-mcq-05": "本句的「made a gesture of impatience」指「做出一個用來表達意思的手勢／動作」。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-05"
     },
@@ -1471,11 +1451,9 @@ export default {
       "masked": "Teachers often ____ to clarify meaning.",
       "options": [
         "gesture-mcq-06",
-        "gesture-mcq-05",
-        "gesture-mcq-07",
-        "gesture-mcq-04",
-        "gesture-mcq-08",
-        "gesture-mcq-03"
+        "gesture-mcq-21",
+        "gesture-mcq-09",
+        "gesture-mcq-42"
       ],
       "explanation": "本句的「use gestures」指「使用手勢／肢體動作輔助表達」。",
       "sentenceIndex": 5,
@@ -1484,12 +1462,10 @@ export default {
         "use gestures"
       ],
       "optionReasons": {
-        "gesture-mcq-06": "本句指「使用手勢／肢體動作輔助表達」。",
-        "gesture-mcq-05": "「做出一個用來表達意思的手勢／動作」與本句語境不同。",
-        "gesture-mcq-07": "「向某人做手勢／示意」與本句語境不同。",
-        "gesture-mcq-04": "「用身體動作表達意思的姿態／動作」與本句語境不同。",
-        "gesture-mcq-08": "「朝某物做手勢／用動作指出某物」與本句語境不同。",
-        "gesture-mcq-03": "「用臉部動作傳達意思的動作」與本句語境不同。"
+        "gesture-mcq-06": "本句的「use gestures」指「使用手勢／肢體動作輔助表達」。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-06"
     },
@@ -1501,11 +1477,9 @@ export default {
       "masked": "The actor relied heavily on ____.",
       "options": [
         "gesture-mcq-06",
-        "gesture-mcq-05",
-        "gesture-mcq-07",
-        "gesture-mcq-04",
-        "gesture-mcq-08",
-        "gesture-mcq-03"
+        "gesture-mcq-43",
+        "gesture-mcq-21",
+        "gesture-mcq-42"
       ],
       "explanation": "本句的「gesture」指「使用手勢／肢體動作輔助表達」。",
       "sentenceIndex": 6,
@@ -1514,12 +1488,10 @@ export default {
         "gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-06": "本句指「使用手勢／肢體動作輔助表達」。",
-        "gesture-mcq-05": "「做出一個用來表達意思的手勢／動作」與本句語境不同。",
-        "gesture-mcq-07": "「向某人做手勢／示意」與本句語境不同。",
-        "gesture-mcq-04": "「用身體動作表達意思的姿態／動作」與本句語境不同。",
-        "gesture-mcq-08": "「朝某物做手勢／用動作指出某物」與本句語境不同。",
-        "gesture-mcq-03": "「用臉部動作傳達意思的動作」與本句語境不同。"
+        "gesture-mcq-06": "本句的「gesture」指「使用手勢／肢體動作輔助表達」。",
+        "gesture-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-06"
     },
@@ -1531,11 +1503,9 @@ export default {
       "masked": "She ____ from across the room.",
       "options": [
         "gesture-mcq-07",
-        "gesture-mcq-06",
-        "gesture-mcq-08",
-        "gesture-mcq-05",
-        "gesture-mcq-09",
-        "gesture-mcq-04"
+        "gesture-mcq-17",
+        "gesture-mcq-26",
+        "gesture-mcq-83"
       ],
       "explanation": "本句的「gestured to me」指「向某人做手勢／示意」。",
       "sentenceIndex": 7,
@@ -1544,12 +1514,10 @@ export default {
         "gestured to me"
       ],
       "optionReasons": {
-        "gesture-mcq-07": "本句指「向某人做手勢／示意」。",
-        "gesture-mcq-06": "「使用手勢／肢體動作輔助表達」與本句語境不同。",
-        "gesture-mcq-08": "「朝某物做手勢／用動作指出某物」與本句語境不同。",
-        "gesture-mcq-05": "「做出一個用來表達意思的手勢／動作」與本句語境不同。",
-        "gesture-mcq-09": "「朝某物／方向示意」與本句語境不同。",
-        "gesture-mcq-04": "「用身體動作表達意思的姿態／動作」與本句語境不同。"
+        "gesture-mcq-07": "本句的「gestured to me」指「向某人做手勢／示意」。",
+        "gesture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-07"
     },
@@ -1561,11 +1529,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "gesture-mcq-07",
-        "gesture-mcq-06",
-        "gesture-mcq-08",
-        "gesture-mcq-05",
-        "gesture-mcq-09",
-        "gesture-mcq-04"
+        "gesture-mcq-33",
+        "gesture-mcq-83",
+        "gesture-mcq-42"
       ],
       "explanation": "本句的「gestured to the waiter」指「向某人做手勢／示意」。",
       "sentenceIndex": 8,
@@ -1574,12 +1540,10 @@ export default {
         "gestured to the waiter"
       ],
       "optionReasons": {
-        "gesture-mcq-07": "本句指「向某人做手勢／示意」。",
-        "gesture-mcq-06": "「使用手勢／肢體動作輔助表達」與本句語境不同。",
-        "gesture-mcq-08": "「朝某物做手勢／用動作指出某物」與本句語境不同。",
-        "gesture-mcq-05": "「做出一個用來表達意思的手勢／動作」與本句語境不同。",
-        "gesture-mcq-09": "「朝某物／方向示意」與本句語境不同。",
-        "gesture-mcq-04": "「用身體動作表達意思的姿態／動作」與本句語境不同。"
+        "gesture-mcq-07": "本句的「gestured to the waiter」指「向某人做手勢／示意」。",
+        "gesture-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-07"
     },
@@ -1591,11 +1555,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "gesture-mcq-08",
-        "gesture-mcq-07",
-        "gesture-mcq-09",
-        "gesture-mcq-06",
-        "gesture-mcq-10",
-        "gesture-mcq-05"
+        "gesture-mcq-27",
+        "gesture-mcq-28",
+        "gesture-mcq-42"
       ],
       "explanation": "本句的「gestured at the empty chair」指「朝某物做手勢／用動作指出某物」。",
       "sentenceIndex": 9,
@@ -1604,12 +1566,10 @@ export default {
         "gestured at the empty chair"
       ],
       "optionReasons": {
-        "gesture-mcq-08": "本句指「朝某物做手勢／用動作指出某物」。",
-        "gesture-mcq-07": "「向某人做手勢／示意」與本句語境不同。",
-        "gesture-mcq-09": "「朝某物／方向示意」與本句語境不同。",
-        "gesture-mcq-06": "「使用手勢／肢體動作輔助表達」與本句語境不同。",
-        "gesture-mcq-10": "「做手勢示意某人做某事」與本句語境不同。",
-        "gesture-mcq-05": "「做出一個用來表達意思的手勢／動作」與本句語境不同。"
+        "gesture-mcq-08": "本句的「gestured at the empty chair」指「朝某物做手勢／用動作指出某物」。",
+        "gesture-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-08"
     },
@@ -1621,11 +1581,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "gesture-mcq-09",
-        "gesture-mcq-08",
-        "gesture-mcq-10",
-        "gesture-mcq-07",
-        "gesture-mcq-11",
-        "gesture-mcq-06"
+        "gesture-mcq-50",
+        "gesture-mcq-68",
+        "gesture-mcq-48"
       ],
       "explanation": "本句的「gestured toward the door」指「朝某物／方向示意」。",
       "sentenceIndex": 10,
@@ -1634,12 +1592,10 @@ export default {
         "gestured toward the door"
       ],
       "optionReasons": {
-        "gesture-mcq-09": "本句指「朝某物／方向示意」。",
-        "gesture-mcq-08": "「朝某物做手勢／用動作指出某物」與本句語境不同。",
-        "gesture-mcq-10": "「做手勢示意某人做某事」與本句語境不同。",
-        "gesture-mcq-07": "「向某人做手勢／示意」與本句語境不同。",
-        "gesture-mcq-11": "「做手勢示意某人上前」與本句語境不同。",
-        "gesture-mcq-06": "「使用手勢／肢體動作輔助表達」與本句語境不同。"
+        "gesture-mcq-09": "本句的「gestured toward the door」指「朝某物／方向示意」。",
+        "gesture-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-09"
     },
@@ -1651,11 +1607,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "gesture-mcq-09",
-        "gesture-mcq-08",
-        "gesture-mcq-10",
-        "gesture-mcq-07",
-        "gesture-mcq-11",
-        "gesture-mcq-06"
+        "gesture-mcq-42",
+        "gesture-mcq-45",
+        "gesture-mcq-22"
       ],
       "explanation": "本句的「gestured towards the screen」指「朝某物／方向示意」。",
       "sentenceIndex": 11,
@@ -1664,12 +1618,10 @@ export default {
         "gestured towards the screen"
       ],
       "optionReasons": {
-        "gesture-mcq-09": "本句指「朝某物／方向示意」。",
-        "gesture-mcq-08": "「朝某物做手勢／用動作指出某物」與本句語境不同。",
-        "gesture-mcq-10": "「做手勢示意某人做某事」與本句語境不同。",
-        "gesture-mcq-07": "「向某人做手勢／示意」與本句語境不同。",
-        "gesture-mcq-11": "「做手勢示意某人上前」與本句語境不同。",
-        "gesture-mcq-06": "「使用手勢／肢體動作輔助表達」與本句語境不同。"
+        "gesture-mcq-09": "本句的「gestured towards the screen」指「朝某物／方向示意」。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-09"
     },
@@ -1681,11 +1633,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "gesture-mcq-10",
-        "gesture-mcq-09",
-        "gesture-mcq-11",
-        "gesture-mcq-08",
-        "gesture-mcq-12",
-        "gesture-mcq-07"
+        "gesture-mcq-31",
+        "gesture-mcq-28",
+        "gesture-mcq-21"
       ],
       "explanation": "本句的「gestured for him to come closer」指「做手勢示意某人做某事」。",
       "sentenceIndex": 12,
@@ -1694,12 +1644,10 @@ export default {
         "gestured for him to come closer"
       ],
       "optionReasons": {
-        "gesture-mcq-10": "本句指「做手勢示意某人做某事」。",
-        "gesture-mcq-09": "「朝某物／方向示意」與本句語境不同。",
-        "gesture-mcq-11": "「做手勢示意某人上前」與本句語境不同。",
-        "gesture-mcq-08": "「朝某物做手勢／用動作指出某物」與本句語境不同。",
-        "gesture-mcq-12": "「做手勢示意某人進入」與本句語境不同。",
-        "gesture-mcq-07": "「向某人做手勢／示意」與本句語境不同。"
+        "gesture-mcq-10": "本句的「gestured for him to come closer」指「做手勢示意某人做某事」。",
+        "gesture-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-10"
     },
@@ -1711,11 +1659,9 @@ export default {
       "masked": "The guard ____.",
       "options": [
         "gesture-mcq-10",
-        "gesture-mcq-09",
-        "gesture-mcq-11",
-        "gesture-mcq-08",
-        "gesture-mcq-12",
-        "gesture-mcq-07"
+        "gesture-mcq-42",
+        "gesture-mcq-33",
+        "gesture-mcq-21"
       ],
       "explanation": "本句的「gestured for us to stop」指「做手勢示意某人做某事」。",
       "sentenceIndex": 13,
@@ -1724,12 +1670,10 @@ export default {
         "gestured for us to stop"
       ],
       "optionReasons": {
-        "gesture-mcq-10": "本句指「做手勢示意某人做某事」。",
-        "gesture-mcq-09": "「朝某物／方向示意」與本句語境不同。",
-        "gesture-mcq-11": "「做手勢示意某人上前」與本句語境不同。",
-        "gesture-mcq-08": "「朝某物做手勢／用動作指出某物」與本句語境不同。",
-        "gesture-mcq-12": "「做手勢示意某人進入」與本句語境不同。",
-        "gesture-mcq-07": "「向某人做手勢／示意」與本句語境不同。"
+        "gesture-mcq-10": "本句的「gestured for us to stop」指「做手勢示意某人做某事」。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-10"
     },
@@ -1741,11 +1685,9 @@ export default {
       "masked": "The officer ____.",
       "options": [
         "gesture-mcq-11",
-        "gesture-mcq-10",
-        "gesture-mcq-12",
-        "gesture-mcq-09",
-        "gesture-mcq-13",
-        "gesture-mcq-08"
+        "gesture-mcq-34",
+        "gesture-mcq-42",
+        "gesture-mcq-26"
       ],
       "explanation": "本句的「gestured him forward」指「做手勢示意某人上前」。",
       "sentenceIndex": 14,
@@ -1754,12 +1696,10 @@ export default {
         "gestured him forward"
       ],
       "optionReasons": {
-        "gesture-mcq-11": "本句指「做手勢示意某人上前」。",
-        "gesture-mcq-10": "「做手勢示意某人做某事」與本句語境不同。",
-        "gesture-mcq-12": "「做手勢示意某人進入」與本句語境不同。",
-        "gesture-mcq-09": "「朝某物／方向示意」與本句語境不同。",
-        "gesture-mcq-13": "「做手勢示意某人出去」與本句語境不同。",
-        "gesture-mcq-08": "「朝某物做手勢／用動作指出某物」與本句語境不同。"
+        "gesture-mcq-11": "本句的「gestured him forward」指「做手勢示意某人上前」。",
+        "gesture-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-11"
     },
@@ -1771,11 +1711,9 @@ export default {
       "masked": "She opened the door and ____.",
       "options": [
         "gesture-mcq-12",
-        "gesture-mcq-11",
-        "gesture-mcq-13",
-        "gesture-mcq-10",
-        "gesture-mcq-14",
-        "gesture-mcq-09"
+        "gesture-mcq-34",
+        "gesture-mcq-41",
+        "gesture-mcq-83"
       ],
       "explanation": "本句的「gestured us in」指「做手勢示意某人進入」。",
       "sentenceIndex": 15,
@@ -1784,12 +1722,10 @@ export default {
         "gestured us in"
       ],
       "optionReasons": {
-        "gesture-mcq-12": "本句指「做手勢示意某人進入」。",
-        "gesture-mcq-11": "「做手勢示意某人上前」與本句語境不同。",
-        "gesture-mcq-13": "「做手勢示意某人出去」與本句語境不同。",
-        "gesture-mcq-10": "「做手勢示意某人做某事」與本句語境不同。",
-        "gesture-mcq-14": "「用來表達態度、情感或意圖的象徵性舉動」與本句語境不同。",
-        "gesture-mcq-09": "「朝某物／方向示意」與本句語境不同。"
+        "gesture-mcq-12": "本句的「gestured us in」指「做手勢示意某人進入」。",
+        "gesture-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-12"
     },
@@ -1801,11 +1737,9 @@ export default {
       "masked": "It was a small ____.",
       "options": [
         "gesture-mcq-15",
-        "gesture-mcq-14",
-        "gesture-mcq-16",
-        "gesture-mcq-13",
-        "gesture-mcq-17",
-        "gesture-mcq-12"
+        "gesture-mcq-37",
+        "gesture-mcq-42",
+        "gesture-mcq-28"
       ],
       "explanation": "本句的「gesture of kindness」指「表示善意／關懷的舉動」。",
       "sentenceIndex": 18,
@@ -1814,12 +1748,10 @@ export default {
         "gesture of kindness"
       ],
       "optionReasons": {
-        "gesture-mcq-15": "本句指「表示善意／關懷的舉動」。",
-        "gesture-mcq-14": "「用來表達態度、情感或意圖的象徵性舉動」與本句語境不同。",
-        "gesture-mcq-16": "「表示友好、合作意圖的善意姿態」與本句語境不同。",
-        "gesture-mcq-13": "「做手勢示意某人出去」與本句語境不同。",
-        "gesture-mcq-17": "「表示支持的舉動」與本句語境不同。",
-        "gesture-mcq-12": "「做手勢示意某人進入」與本句語境不同。"
+        "gesture-mcq-15": "本句的「gesture of kindness」指「表示善意／關懷的舉動」。",
+        "gesture-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-15"
     },
@@ -1831,11 +1763,9 @@ export default {
       "masked": "The offer was intended as a ____.",
       "options": [
         "gesture-mcq-16",
-        "gesture-mcq-15",
-        "gesture-mcq-17",
-        "gesture-mcq-14",
-        "gesture-mcq-18",
-        "gesture-mcq-13"
+        "gesture-mcq-34",
+        "gesture-mcq-48",
+        "gesture-mcq-41"
       ],
       "explanation": "本句的「gesture of goodwill」指「表示友好、合作意圖的善意姿態」。",
       "sentenceIndex": 19,
@@ -1844,12 +1774,10 @@ export default {
         "gesture of goodwill"
       ],
       "optionReasons": {
-        "gesture-mcq-16": "本句指「表示友好、合作意圖的善意姿態」。",
-        "gesture-mcq-15": "「表示善意／關懷的舉動」與本句語境不同。",
-        "gesture-mcq-17": "「表示支持的舉動」與本句語境不同。",
-        "gesture-mcq-14": "「用來表達態度、情感或意圖的象徵性舉動」與本句語境不同。",
-        "gesture-mcq-18": "「表達尊重的舉動」與本句語境不同。",
-        "gesture-mcq-13": "「做手勢示意某人出去」與本句語境不同。"
+        "gesture-mcq-16": "本句的「gesture of goodwill」指「表示友好、合作意圖的善意姿態」。",
+        "gesture-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-16"
     },
@@ -1861,11 +1789,9 @@ export default {
       "masked": "Wearing the badge was a ____.",
       "options": [
         "gesture-mcq-17",
-        "gesture-mcq-16",
-        "gesture-mcq-18",
-        "gesture-mcq-15",
-        "gesture-mcq-19",
-        "gesture-mcq-14"
+        "gesture-mcq-10",
+        "gesture-mcq-27",
+        "gesture-mcq-43"
       ],
       "explanation": "本句的「gesture of support」指「表示支持的舉動」。",
       "sentenceIndex": 20,
@@ -1874,12 +1800,10 @@ export default {
         "gesture of support"
       ],
       "optionReasons": {
-        "gesture-mcq-17": "本句指「表示支持的舉動」。",
-        "gesture-mcq-16": "「表示友好、合作意圖的善意姿態」與本句語境不同。",
-        "gesture-mcq-18": "「表達尊重的舉動」與本句語境不同。",
-        "gesture-mcq-15": "「表示善意／關懷的舉動」與本句語境不同。",
-        "gesture-mcq-19": "「表示歉意的舉動」與本句語境不同。",
-        "gesture-mcq-14": "「用來表達態度、情感或意圖的象徵性舉動」與本句語境不同。"
+        "gesture-mcq-17": "本句的「gesture of support」指「表示支持的舉動」。",
+        "gesture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-17"
     },
@@ -1891,11 +1815,9 @@ export default {
       "masked": "Standing in silence was a ____.",
       "options": [
         "gesture-mcq-18",
-        "gesture-mcq-17",
-        "gesture-mcq-19",
-        "gesture-mcq-16",
-        "gesture-mcq-20",
-        "gesture-mcq-15"
+        "gesture-mcq-24",
+        "gesture-mcq-10",
+        "gesture-mcq-48"
       ],
       "explanation": "本句的「gesture of respect」指「表達尊重的舉動」。",
       "sentenceIndex": 21,
@@ -1904,12 +1826,10 @@ export default {
         "gesture of respect"
       ],
       "optionReasons": {
-        "gesture-mcq-18": "本句指「表達尊重的舉動」。",
-        "gesture-mcq-17": "「表示支持的舉動」與本句語境不同。",
-        "gesture-mcq-19": "「表示歉意的舉動」與本句語境不同。",
-        "gesture-mcq-16": "「表示友好、合作意圖的善意姿態」與本句語境不同。",
-        "gesture-mcq-20": "「表達謝意的舉動」與本句語境不同。",
-        "gesture-mcq-15": "「表示善意／關懷的舉動」與本句語境不同。"
+        "gesture-mcq-18": "本句的「gesture of respect」指「表達尊重的舉動」。",
+        "gesture-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-18"
     },
@@ -1921,11 +1841,9 @@ export default {
       "masked": "She brought flowers as a ____.",
       "options": [
         "gesture-mcq-19",
-        "gesture-mcq-18",
-        "gesture-mcq-20",
-        "gesture-mcq-17",
         "gesture-mcq-21",
-        "gesture-mcq-16"
+        "gesture-mcq-82",
+        "gesture-mcq-42"
       ],
       "explanation": "本句的「gesture of apology」指「表示歉意的舉動」。",
       "sentenceIndex": 22,
@@ -1934,12 +1852,10 @@ export default {
         "gesture of apology"
       ],
       "optionReasons": {
-        "gesture-mcq-19": "本句指「表示歉意的舉動」。",
-        "gesture-mcq-18": "「表達尊重的舉動」與本句語境不同。",
-        "gesture-mcq-20": "「表達謝意的舉動」與本句語境不同。",
-        "gesture-mcq-17": "「表示支持的舉動」與本句語境不同。",
-        "gesture-mcq-21": "「表示反抗／不服從的姿態」與本句語境不同。",
-        "gesture-mcq-16": "「表示友好、合作意圖的善意姿態」與本句語境不同。"
+        "gesture-mcq-19": "本句的「gesture of apology」指「表示歉意的舉動」。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-19"
     },
@@ -1951,11 +1867,9 @@ export default {
       "masked": "He raised his fist in a ____.",
       "options": [
         "gesture-mcq-21",
-        "gesture-mcq-20",
-        "gesture-mcq-22",
+        "gesture-mcq-72",
         "gesture-mcq-19",
-        "gesture-mcq-23",
-        "gesture-mcq-18"
+        "gesture-mcq-81"
       ],
       "explanation": "本句的「gesture of defiance」指「表示反抗／不服從的姿態」。",
       "sentenceIndex": 23,
@@ -1964,12 +1878,10 @@ export default {
         "gesture of defiance"
       ],
       "optionReasons": {
-        "gesture-mcq-21": "本句指「表示反抗／不服從的姿態」。",
-        "gesture-mcq-20": "「表達謝意的舉動」與本句語境不同。",
-        "gesture-mcq-22": "「表示團結／聲援的舉動」與本句語境不同。",
-        "gesture-mcq-19": "「表示歉意的舉動」與本句語境不同。",
-        "gesture-mcq-23": "「表示和平意圖的手勢／姿態」與本句語境不同。",
-        "gesture-mcq-18": "「表達尊重的舉動」與本句語境不同。"
+        "gesture-mcq-21": "本句的「gesture of defiance」指「表示反抗／不服從的姿態」。",
+        "gesture-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-81": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-21"
     },
@@ -1981,11 +1893,9 @@ export default {
       "masked": "The workers wore black as a ____.",
       "options": [
         "gesture-mcq-22",
-        "gesture-mcq-21",
-        "gesture-mcq-23",
-        "gesture-mcq-20",
-        "gesture-mcq-24",
-        "gesture-mcq-19"
+        "gesture-mcq-37",
+        "gesture-mcq-43",
+        "gesture-mcq-26"
       ],
       "explanation": "本句的「gesture of solidarity」指「表示團結／聲援的舉動」。",
       "sentenceIndex": 24,
@@ -1994,12 +1904,10 @@ export default {
         "gesture of solidarity"
       ],
       "optionReasons": {
-        "gesture-mcq-22": "本句指「表示團結／聲援的舉動」。",
-        "gesture-mcq-21": "「表示反抗／不服從的姿態」與本句語境不同。",
-        "gesture-mcq-23": "「表示和平意圖的手勢／姿態」與本句語境不同。",
-        "gesture-mcq-20": "「表達謝意的舉動」與本句語境不同。",
-        "gesture-mcq-24": "「為緩和敵意而作出的和解／示好姿態」與本句語境不同。",
-        "gesture-mcq-19": "「表示歉意的舉動」與本句語境不同。"
+        "gesture-mcq-22": "本句的「gesture of solidarity」指「表示團結／聲援的舉動」。",
+        "gesture-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-22"
     },
@@ -2011,11 +1919,9 @@ export default {
       "masked": "The offer was seen as a ____.",
       "options": [
         "gesture-mcq-24",
-        "gesture-mcq-23",
-        "gesture-mcq-25",
-        "gesture-mcq-22",
-        "gesture-mcq-26",
-        "gesture-mcq-21"
+        "gesture-mcq-42",
+        "gesture-mcq-83",
+        "gesture-mcq-54"
       ],
       "explanation": "本句的「conciliatory gesture」指「為緩和敵意而作出的和解／示好姿態」。",
       "sentenceIndex": 25,
@@ -2024,12 +1930,10 @@ export default {
         "conciliatory gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-24": "本句指「為緩和敵意而作出的和解／示好姿態」。",
-        "gesture-mcq-23": "「表示和平意圖的手勢／姿態」與本句語境不同。",
-        "gesture-mcq-25": "「主要具有象徵意義而非實際效果的舉動」與本句語境不同。",
-        "gesture-mcq-22": "「表示團結／聲援的舉動」與本句語境不同。",
-        "gesture-mcq-26": "「實際作用很小、主要為表面表示的象徵性姿態」與本句語境不同。",
-        "gesture-mcq-21": "「表示反抗／不服從的姿態」與本句語境不同。"
+        "gesture-mcq-24": "本句的「conciliatory gesture」指「為緩和敵意而作出的和解／示好姿態」。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-24"
     },
@@ -2041,11 +1945,9 @@ export default {
       "masked": "The decision was largely a ____.",
       "options": [
         "gesture-mcq-25",
-        "gesture-mcq-24",
-        "gesture-mcq-26",
-        "gesture-mcq-23",
-        "gesture-mcq-27",
-        "gesture-mcq-22"
+        "gesture-mcq-58",
+        "gesture-mcq-21",
+        "gesture-mcq-42"
       ],
       "explanation": "本句的「symbolic gesture」指「主要具有象徵意義而非實際效果的舉動」。",
       "sentenceIndex": 26,
@@ -2054,12 +1956,10 @@ export default {
         "symbolic gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-25": "本句指「主要具有象徵意義而非實際效果的舉動」。",
-        "gesture-mcq-24": "「為緩和敵意而作出的和解／示好姿態」與本句語境不同。",
-        "gesture-mcq-26": "「實際作用很小、主要為表面表示的象徵性姿態」與本句語境不同。",
-        "gesture-mcq-23": "「表示和平意圖的手勢／姿態」與本句語境不同。",
-        "gesture-mcq-27": "「看似有意義但缺乏實際承諾／作用的姿態」與本句語境不同。",
-        "gesture-mcq-22": "「表示團結／聲援的舉動」與本句語境不同。"
+        "gesture-mcq-25": "本句的「symbolic gesture」指「主要具有象徵意義而非實際效果的舉動」。",
+        "gesture-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-25"
     },
@@ -2071,11 +1971,9 @@ export default {
       "masked": "Critics dismissed the measure as a ____.",
       "options": [
         "gesture-mcq-26",
-        "gesture-mcq-25",
-        "gesture-mcq-27",
-        "gesture-mcq-24",
-        "gesture-mcq-28",
-        "gesture-mcq-23"
+        "gesture-mcq-33",
+        "gesture-mcq-68",
+        "gesture-mcq-43"
       ],
       "explanation": "本句的「token gesture」指「實際作用很小、主要為表面表示的象徵性姿態」。",
       "sentenceIndex": 27,
@@ -2084,12 +1982,10 @@ export default {
         "token gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-26": "本句指「實際作用很小、主要為表面表示的象徵性姿態」。",
-        "gesture-mcq-25": "「主要具有象徵意義而非實際效果的舉動」與本句語境不同。",
-        "gesture-mcq-27": "「看似有意義但缺乏實際承諾／作用的姿態」與本句語境不同。",
-        "gesture-mcq-24": "「為緩和敵意而作出的和解／示好姿態」與本句語境不同。",
-        "gesture-mcq-28": "「只是表面／象徵性的表示」與本句語境不同。",
-        "gesture-mcq-23": "「表示和平意圖的手勢／姿態」與本句語境不同。"
+        "gesture-mcq-26": "本句的「token gesture」指「實際作用很小、主要為表面表示的象徵性姿態」。",
+        "gesture-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-26"
     },
@@ -2101,11 +1997,9 @@ export default {
       "masked": "An apology without change may feel like an ____.",
       "options": [
         "gesture-mcq-27",
-        "gesture-mcq-26",
-        "gesture-mcq-28",
-        "gesture-mcq-25",
-        "gesture-mcq-29",
-        "gesture-mcq-24"
+        "gesture-mcq-81",
+        "gesture-mcq-17",
+        "gesture-mcq-41"
       ],
       "explanation": "本句的「empty gesture」指「看似有意義但缺乏實際承諾／作用的姿態」。",
       "sentenceIndex": 28,
@@ -2114,12 +2008,10 @@ export default {
         "empty gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-27": "本句指「看似有意義但缺乏實際承諾／作用的姿態」。",
-        "gesture-mcq-26": "「實際作用很小、主要為表面表示的象徵性姿態」與本句語境不同。",
-        "gesture-mcq-28": "「只是表面／象徵性的表示」與本句語境不同。",
-        "gesture-mcq-25": "「主要具有象徵意義而非實際效果的舉動」與本句語境不同。",
-        "gesture-mcq-29": "「真正具有情感或象徵意義的舉動」與本句語境不同。",
-        "gesture-mcq-24": "「為緩和敵意而作出的和解／示好姿態」與本句語境不同。"
+        "gesture-mcq-27": "本句的「empty gesture」指「看似有意義但缺乏實際承諾／作用的姿態」。",
+        "gesture-mcq-81": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-27"
     },
@@ -2131,11 +2023,9 @@ export default {
       "masked": "The promise was more than a ____.",
       "options": [
         "gesture-mcq-28",
-        "gesture-mcq-27",
-        "gesture-mcq-29",
-        "gesture-mcq-26",
-        "gesture-mcq-30",
-        "gesture-mcq-25"
+        "gesture-mcq-11",
+        "gesture-mcq-31",
+        "gesture-mcq-16"
       ],
       "explanation": "本句的「mere gesture」指「只是表面／象徵性的表示」。",
       "sentenceIndex": 29,
@@ -2144,12 +2034,10 @@ export default {
         "mere gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-28": "本句指「只是表面／象徵性的表示」。",
-        "gesture-mcq-27": "「看似有意義但缺乏實際承諾／作用的姿態」與本句語境不同。",
-        "gesture-mcq-29": "「真正具有情感或象徵意義的舉動」與本句語境不同。",
-        "gesture-mcq-26": "「實際作用很小、主要為表面表示的象徵性姿態」與本句語境不同。",
-        "gesture-mcq-30": "「小小但可表達關懷／善意的舉動」與本句語境不同。",
-        "gesture-mcq-25": "「主要具有象徵意義而非實際效果的舉動」與本句語境不同。"
+        "gesture-mcq-28": "本句的「mere gesture」指「只是表面／象徵性的表示」。",
+        "gesture-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-28"
     },
@@ -2161,11 +2049,9 @@ export default {
       "masked": "Her message was a small but ____.",
       "options": [
         "gesture-mcq-29",
-        "gesture-mcq-28",
-        "gesture-mcq-30",
-        "gesture-mcq-27",
-        "gesture-mcq-31",
-        "gesture-mcq-26"
+        "gesture-mcq-54",
+        "gesture-mcq-21",
+        "gesture-mcq-41"
       ],
       "explanation": "本句的「meaningful gesture」指「真正具有情感或象徵意義的舉動」。",
       "sentenceIndex": 30,
@@ -2174,12 +2060,10 @@ export default {
         "meaningful gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-29": "本句指「真正具有情感或象徵意義的舉動」。",
-        "gesture-mcq-28": "「只是表面／象徵性的表示」與本句語境不同。",
-        "gesture-mcq-30": "「小小但可表達關懷／善意的舉動」與本句語境不同。",
-        "gesture-mcq-27": "「看似有意義但缺乏實際承諾／作用的姿態」與本句語境不同。",
-        "gesture-mcq-31": "「顯示體貼與關心的貼心舉動」與本句語境不同。",
-        "gesture-mcq-26": "「實際作用很小、主要為表面表示的象徵性姿態」與本句語境不同。"
+        "gesture-mcq-29": "本句的「meaningful gesture」指「真正具有情感或象徵意義的舉動」。",
+        "gesture-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-29"
     },
@@ -2191,11 +2075,9 @@ export default {
       "masked": "Even a ____ can make someone feel included.",
       "options": [
         "gesture-mcq-30",
-        "gesture-mcq-29",
-        "gesture-mcq-31",
+        "gesture-mcq-82",
         "gesture-mcq-28",
-        "gesture-mcq-32",
-        "gesture-mcq-27"
+        "gesture-mcq-42"
       ],
       "explanation": "本句的「small gesture」指「小小但可表達關懷／善意的舉動」。",
       "sentenceIndex": 31,
@@ -2204,12 +2086,10 @@ export default {
         "small gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-30": "本句指「小小但可表達關懷／善意的舉動」。",
-        "gesture-mcq-29": "「真正具有情感或象徵意義的舉動」與本句語境不同。",
-        "gesture-mcq-31": "「顯示體貼與關心的貼心舉動」與本句語境不同。",
-        "gesture-mcq-28": "「只是表面／象徵性的表示」與本句語境不同。",
-        "gesture-mcq-32": "「表達慷慨的舉動」與本句語境不同。",
-        "gesture-mcq-27": "「看似有意義但缺乏實際承諾／作用的姿態」與本句語境不同。"
+        "gesture-mcq-30": "本句的「small gesture」指「小小但可表達關懷／善意的舉動」。",
+        "gesture-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-30"
     },
@@ -2221,11 +2101,9 @@ export default {
       "masked": "Sending the note was a ____.",
       "options": [
         "gesture-mcq-31",
-        "gesture-mcq-30",
-        "gesture-mcq-32",
-        "gesture-mcq-29",
-        "gesture-mcq-33",
-        "gesture-mcq-28"
+        "gesture-mcq-16",
+        "gesture-mcq-74",
+        "gesture-mcq-48"
       ],
       "explanation": "本句的「thoughtful gesture」指「顯示體貼與關心的貼心舉動」。",
       "sentenceIndex": 32,
@@ -2234,12 +2112,10 @@ export default {
         "thoughtful gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-31": "本句指「顯示體貼與關心的貼心舉動」。",
-        "gesture-mcq-30": "「小小但可表達關懷／善意的舉動」與本句語境不同。",
-        "gesture-mcq-32": "「表達慷慨的舉動」與本句語境不同。",
-        "gesture-mcq-29": "「真正具有情感或象徵意義的舉動」與本句語境不同。",
-        "gesture-mcq-33": "「大型、戲劇化、用來強烈表達情感的舉動」與本句語境不同。",
-        "gesture-mcq-28": "「只是表面／象徵性的表示」與本句語境不同。"
+        "gesture-mcq-31": "本句的「thoughtful gesture」指「顯示體貼與關心的貼心舉動」。",
+        "gesture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-31"
     },
@@ -2251,11 +2127,9 @@ export default {
       "masked": "He tried to win her back with a ____.",
       "options": [
         "gesture-mcq-33",
-        "gesture-mcq-32",
-        "gesture-mcq-34",
-        "gesture-mcq-31",
-        "gesture-mcq-35",
-        "gesture-mcq-30"
+        "gesture-mcq-43",
+        "gesture-mcq-37",
+        "gesture-mcq-42"
       ],
       "explanation": "本句的「grand gesture」指「大型、戲劇化、用來強烈表達情感的舉動」。",
       "sentenceIndex": 33,
@@ -2264,12 +2138,10 @@ export default {
         "grand gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-33": "本句指「大型、戲劇化、用來強烈表達情感的舉動」。",
-        "gesture-mcq-32": "「表達慷慨的舉動」與本句語境不同。",
-        "gesture-mcq-34": "「表達浪漫感情的舉動」與本句語境不同。",
-        "gesture-mcq-31": "「顯示體貼與關心的貼心舉動」與本句語境不同。",
-        "gesture-mcq-35": "「用來表達外交善意／立場的姿態」與本句語境不同。",
-        "gesture-mcq-30": "「小小但可表達關懷／善意的舉動」與本句語境不同。"
+        "gesture-mcq-33": "本句的「grand gesture」指「大型、戲劇化、用來強烈表達情感的舉動」。",
+        "gesture-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-33"
     },
@@ -2281,11 +2153,9 @@ export default {
       "masked": "The surprise dinner was a ____.",
       "options": [
         "gesture-mcq-34",
-        "gesture-mcq-33",
-        "gesture-mcq-35",
-        "gesture-mcq-32",
-        "gesture-mcq-36",
-        "gesture-mcq-31"
+        "gesture-mcq-72",
+        "gesture-mcq-24",
+        "gesture-mcq-48"
       ],
       "explanation": "本句的「romantic gesture」指「表達浪漫感情的舉動」。",
       "sentenceIndex": 34,
@@ -2294,12 +2164,10 @@ export default {
         "romantic gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-34": "本句指「表達浪漫感情的舉動」。",
-        "gesture-mcq-33": "「大型、戲劇化、用來強烈表達情感的舉動」與本句語境不同。",
-        "gesture-mcq-35": "「用來表達外交善意／立場的姿態」與本句語境不同。",
-        "gesture-mcq-32": "「表達慷慨的舉動」與本句語境不同。",
-        "gesture-mcq-36": "「用來表達政治立場的象徵性行動」與本句語境不同。",
-        "gesture-mcq-31": "「顯示體貼與關心的貼心舉動」與本句語境不同。"
+        "gesture-mcq-34": "本句的「romantic gesture」指「表達浪漫感情的舉動」。",
+        "gesture-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-34"
     },
@@ -2311,11 +2179,9 @@ export default {
       "masked": "The visit was interpreted as a ____.",
       "options": [
         "gesture-mcq-35",
-        "gesture-mcq-34",
-        "gesture-mcq-36",
-        "gesture-mcq-33",
-        "gesture-mcq-37",
-        "gesture-mcq-32"
+        "gesture-mcq-48",
+        "gesture-mcq-61",
+        "gesture-mcq-83"
       ],
       "explanation": "本句的「diplomatic gesture」指「用來表達外交善意／立場的姿態」。",
       "sentenceIndex": 35,
@@ -2324,12 +2190,10 @@ export default {
         "diplomatic gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-35": "本句指「用來表達外交善意／立場的姿態」。",
-        "gesture-mcq-34": "「表達浪漫感情的舉動」與本句語境不同。",
-        "gesture-mcq-36": "「用來表達政治立場的象徵性行動」與本句語境不同。",
-        "gesture-mcq-33": "「大型、戲劇化、用來強烈表達情感的舉動」與本句語境不同。",
-        "gesture-mcq-37": "「被視為無禮的手勢」與本句語境不同。",
-        "gesture-mcq-32": "「表達慷慨的舉動」與本句語境不同。"
+        "gesture-mcq-35": "本句的「diplomatic gesture」指「用來表達外交善意／立場的姿態」。",
+        "gesture-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-35"
     },
@@ -2341,11 +2205,9 @@ export default {
       "masked": "He made a ____ at the driver.",
       "options": [
         "gesture-mcq-37",
-        "gesture-mcq-36",
-        "gesture-mcq-38",
-        "gesture-mcq-35",
-        "gesture-mcq-39",
-        "gesture-mcq-34"
+        "gesture-mcq-26",
+        "gesture-mcq-17",
+        "gesture-mcq-83"
       ],
       "explanation": "本句的「rude gesture」指「被視為無禮的手勢」。",
       "sentenceIndex": 36,
@@ -2354,12 +2216,10 @@ export default {
         "rude gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-37": "本句指「被視為無禮的手勢」。",
-        "gesture-mcq-36": "「用來表達政治立場的象徵性行動」與本句語境不同。",
-        "gesture-mcq-38": "「粗俗／猥褻的手勢」與本句語境不同。",
-        "gesture-mcq-35": "「用來表達外交善意／立場的姿態」與本句語境不同。",
-        "gesture-mcq-39": "「帶有威脅意味的動作」與本句語境不同。",
-        "gesture-mcq-34": "「表達浪漫感情的舉動」與本句語境不同。"
+        "gesture-mcq-37": "本句的「rude gesture」指「被視為無禮的手勢」。",
+        "gesture-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-37"
     },
@@ -2371,11 +2231,9 @@ export default {
       "masked": "The player was punished for making an ____.",
       "options": [
         "gesture-mcq-38",
-        "gesture-mcq-37",
-        "gesture-mcq-39",
-        "gesture-mcq-36",
-        "gesture-mcq-40",
-        "gesture-mcq-35"
+        "gesture-mcq-25",
+        "gesture-mcq-42",
+        "gesture-mcq-55"
       ],
       "explanation": "本句的「obscene gesture」指「粗俗／猥褻的手勢」。",
       "sentenceIndex": 37,
@@ -2384,12 +2242,10 @@ export default {
         "obscene gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-38": "本句指「粗俗／猥褻的手勢」。",
-        "gesture-mcq-37": "「被視為無禮的手勢」與本句語境不同。",
-        "gesture-mcq-39": "「帶有威脅意味的動作」與本句語境不同。",
-        "gesture-mcq-36": "「用來表達政治立場的象徵性行動」與本句語境不同。",
-        "gesture-mcq-40": "「表達勝利／慶祝的手勢」與本句語境不同。",
-        "gesture-mcq-35": "「用來表達外交善意／立場的姿態」與本句語境不同。"
+        "gesture-mcq-38": "本句的「obscene gesture」指「粗俗／猥褻的手勢」。",
+        "gesture-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-38"
     },
@@ -2401,11 +2257,9 @@ export default {
       "masked": "The man made a ____.",
       "options": [
         "gesture-mcq-39",
-        "gesture-mcq-38",
-        "gesture-mcq-40",
-        "gesture-mcq-37",
+        "gesture-mcq-67",
         "gesture-mcq-41",
-        "gesture-mcq-36"
+        "gesture-mcq-26"
       ],
       "explanation": "本句的「threatening gesture」指「帶有威脅意味的動作」。",
       "sentenceIndex": 38,
@@ -2414,12 +2268,10 @@ export default {
         "threatening gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-39": "本句指「帶有威脅意味的動作」。",
-        "gesture-mcq-38": "「粗俗／猥褻的手勢」與本句語境不同。",
-        "gesture-mcq-40": "「表達勝利／慶祝的手勢」與本句語境不同。",
-        "gesture-mcq-37": "「被視為無禮的手勢」與本句語境不同。",
-        "gesture-mcq-41": "「比喻：略為指出、暗示或朝某個想法／方向發展」與本句語境不同。",
-        "gesture-mcq-36": "「用來表達政治立場的象徵性行動」與本句語境不同。"
+        "gesture-mcq-39": "本句的「threatening gesture」指「帶有威脅意味的動作」。",
+        "gesture-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-39"
     },
@@ -2431,11 +2283,9 @@ export default {
       "masked": "The final paragraph ____.",
       "options": [
         "gesture-mcq-41",
-        "gesture-mcq-40",
-        "gesture-mcq-42",
-        "gesture-mcq-39",
-        "gesture-mcq-43",
-        "gesture-mcq-38"
+        "gesture-mcq-27",
+        "gesture-mcq-47",
+        "gesture-mcq-19"
       ],
       "explanation": "本句的「gestures toward a possible solution」指「比喻：略為指出、暗示或朝某個想法／方向發展」。",
       "sentenceIndex": 39,
@@ -2444,12 +2294,10 @@ export default {
         "gestures toward a possible solution"
       ],
       "optionReasons": {
-        "gesture-mcq-41": "本句指「比喻：略為指出、暗示或朝某個想法／方向發展」。",
-        "gesture-mcq-40": "「表達勝利／慶祝的手勢」與本句語境不同。",
-        "gesture-mcq-42": "「比喻：略為提及／暗示某問題而未深入展開」與本句語境不同。",
-        "gesture-mcq-39": "「帶有威脅意味的動作」與本句語境不同。",
-        "gesture-mcq-43": "「作出顯示願意向妥協方向靠近的表示」與本句語境不同。",
-        "gesture-mcq-38": "「粗俗／猥褻的手勢」與本句語境不同。"
+        "gesture-mcq-41": "本句的「gestures toward a possible solution」指「比喻：略為指出、暗示或朝某個想法／方向發展」。",
+        "gesture-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-41"
     },
@@ -2461,11 +2309,9 @@ export default {
       "masked": "The film ____.",
       "options": [
         "gesture-mcq-41",
-        "gesture-mcq-40",
-        "gesture-mcq-42",
-        "gesture-mcq-39",
-        "gesture-mcq-43",
-        "gesture-mcq-38"
+        "gesture-mcq-25",
+        "gesture-mcq-46",
+        "gesture-mcq-16"
       ],
       "explanation": "本句的「gestures toward larger social questions」指「比喻：略為指出、暗示或朝某個想法／方向發展」。",
       "sentenceIndex": 40,
@@ -2474,12 +2320,10 @@ export default {
         "gestures toward larger social questions"
       ],
       "optionReasons": {
-        "gesture-mcq-41": "本句指「比喻：略為指出、暗示或朝某個想法／方向發展」。",
-        "gesture-mcq-40": "「表達勝利／慶祝的手勢」與本句語境不同。",
-        "gesture-mcq-42": "「比喻：略為提及／暗示某問題而未深入展開」與本句語境不同。",
-        "gesture-mcq-39": "「帶有威脅意味的動作」與本句語境不同。",
-        "gesture-mcq-43": "「作出顯示願意向妥協方向靠近的表示」與本句語境不同。",
-        "gesture-mcq-38": "「粗俗／猥褻的手勢」與本句語境不同。"
+        "gesture-mcq-41": "本句的「gestures toward larger social questions」指「比喻：略為指出、暗示或朝某個想法／方向發展」。",
+        "gesture-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-41"
     },
@@ -2491,11 +2335,9 @@ export default {
       "masked": "The essay ____ several important issues but does not develop them.",
       "options": [
         "gesture-mcq-42",
-        "gesture-mcq-41",
-        "gesture-mcq-43",
-        "gesture-mcq-40",
-        "gesture-mcq-44",
-        "gesture-mcq-39"
+        "gesture-mcq-81",
+        "gesture-mcq-74",
+        "gesture-mcq-19"
       ],
       "explanation": "本句的「gestures at」指「比喻：略為提及／暗示某問題而未深入展開」。",
       "sentenceIndex": 41,
@@ -2504,12 +2346,10 @@ export default {
         "gestures at"
       ],
       "optionReasons": {
-        "gesture-mcq-42": "本句指「比喻：略為提及／暗示某問題而未深入展開」。",
-        "gesture-mcq-41": "「比喻：略為指出、暗示或朝某個想法／方向發展」與本句語境不同。",
-        "gesture-mcq-43": "「作出顯示願意向妥協方向靠近的表示」與本句語境不同。",
-        "gesture-mcq-40": "「表達勝利／慶祝的手勢」與本句語境不同。",
-        "gesture-mcq-44": "「包括手勢、姿勢、眼神、面部表情等在內的整體肢體語言」與本句語境不同。",
-        "gesture-mcq-39": "「帶有威脅意味的動作」與本句語境不同。"
+        "gesture-mcq-42": "本句的「gestures at」指「比喻：略為提及／暗示某問題而未深入展開」。",
+        "gesture-mcq-81": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-42"
     },
@@ -2521,11 +2361,9 @@ export default {
       "masked": "The proposal ____ without fully resolving the disagreement.",
       "options": [
         "gesture-mcq-43",
-        "gesture-mcq-42",
-        "gesture-mcq-44",
-        "gesture-mcq-41",
-        "gesture-mcq-45",
-        "gesture-mcq-40"
+        "gesture-mcq-54",
+        "gesture-mcq-28",
+        "gesture-mcq-17"
       ],
       "explanation": "本句的「gestures toward compromise」指「作出顯示願意向妥協方向靠近的表示」。",
       "sentenceIndex": 42,
@@ -2534,12 +2372,10 @@ export default {
         "gestures toward compromise"
       ],
       "optionReasons": {
-        "gesture-mcq-43": "本句指「作出顯示願意向妥協方向靠近的表示」。",
-        "gesture-mcq-42": "「比喻：略為提及／暗示某問題而未深入展開」與本句語境不同。",
-        "gesture-mcq-44": "「包括手勢、姿勢、眼神、面部表情等在內的整體肢體語言」與本句語境不同。",
-        "gesture-mcq-41": "「比喻：略為指出、暗示或朝某個想法／方向發展」與本句語境不同。",
-        "gesture-mcq-45": "「主要依靠手勢／肢體動作進行的溝通」與本句語境不同。",
-        "gesture-mcq-40": "「表達勝利／慶祝的手勢」與本句語境不同。"
+        "gesture-mcq-43": "本句的「gestures toward compromise」指「作出顯示願意向妥協方向靠近的表示」。",
+        "gesture-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-43"
     },
@@ -2551,10 +2387,8 @@ export default {
       "masked": "____ can support language learning.",
       "options": [
         "gesture-mcq-45",
-        "gesture-mcq-44",
-        "gesture-mcq-46",
-        "gesture-mcq-43",
-        "gesture-mcq-47",
+        "gesture-mcq-35",
+        "gesture-mcq-28",
         "gesture-mcq-42"
       ],
       "explanation": "本句的「Gestural communication」指「主要依靠手勢／肢體動作進行的溝通」。",
@@ -2564,12 +2398,10 @@ export default {
         "Gestural communication"
       ],
       "optionReasons": {
-        "gesture-mcq-45": "本句指「主要依靠手勢／肢體動作進行的溝通」。",
-        "gesture-mcq-44": "「包括手勢、姿勢、眼神、面部表情等在內的整體肢體語言」與本句語境不同。",
-        "gesture-mcq-46": "「與手勢／動作表達有關的」與本句語境不同。",
-        "gesture-mcq-43": "「作出顯示願意向妥協方向靠近的表示」與本句語境不同。",
-        "gesture-mcq-47": "「透過手勢／肢體動作地」與本句語境不同。",
-        "gesture-mcq-42": "「比喻：略為提及／暗示某問題而未深入展開」與本句語境不同。"
+        "gesture-mcq-45": "本句的「Gestural communication」指「主要依靠手勢／肢體動作進行的溝通」。",
+        "gesture-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-45"
     },
@@ -2581,11 +2413,9 @@ export default {
       "masked": "The performance relies on ____.",
       "options": [
         "gesture-mcq-46",
-        "gesture-mcq-45",
-        "gesture-mcq-47",
-        "gesture-mcq-44",
-        "gesture-mcq-48",
-        "gesture-mcq-43"
+        "gesture-mcq-41",
+        "gesture-mcq-21",
+        "gesture-mcq-28"
       ],
       "explanation": "本句的「gestural expression」指「與手勢／動作表達有關的」。",
       "sentenceIndex": 44,
@@ -2594,12 +2424,10 @@ export default {
         "gestural expression"
       ],
       "optionReasons": {
-        "gesture-mcq-46": "本句指「與手勢／動作表達有關的」。",
-        "gesture-mcq-45": "「主要依靠手勢／肢體動作進行的溝通」與本句語境不同。",
-        "gesture-mcq-47": "「透過手勢／肢體動作地」與本句語境不同。",
-        "gesture-mcq-44": "「包括手勢、姿勢、眼神、面部表情等在內的整體肢體語言」與本句語境不同。",
-        "gesture-mcq-48": "「尤其說話時用手臂／雙手大幅度比手畫腳」與本句語境不同。",
-        "gesture-mcq-43": "「作出顯示願意向妥協方向靠近的表示」與本句語境不同。"
+        "gesture-mcq-46": "本句的「gestural expression」指「與手勢／動作表達有關的」。",
+        "gesture-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-46"
     },
@@ -2611,11 +2439,9 @@ export default {
       "masked": "The actor has a highly ____.",
       "options": [
         "gesture-mcq-46",
-        "gesture-mcq-45",
-        "gesture-mcq-47",
-        "gesture-mcq-44",
-        "gesture-mcq-48",
-        "gesture-mcq-43"
+        "gesture-mcq-41",
+        "gesture-mcq-16",
+        "gesture-mcq-28"
       ],
       "explanation": "本句的「gestural style」指「與手勢／動作表達有關的」。",
       "sentenceIndex": 45,
@@ -2624,12 +2450,10 @@ export default {
         "gestural style"
       ],
       "optionReasons": {
-        "gesture-mcq-46": "本句指「與手勢／動作表達有關的」。",
-        "gesture-mcq-45": "「主要依靠手勢／肢體動作進行的溝通」與本句語境不同。",
-        "gesture-mcq-47": "「透過手勢／肢體動作地」與本句語境不同。",
-        "gesture-mcq-44": "「包括手勢、姿勢、眼神、面部表情等在內的整體肢體語言」與本句語境不同。",
-        "gesture-mcq-48": "「尤其說話時用手臂／雙手大幅度比手畫腳」與本句語境不同。",
-        "gesture-mcq-43": "「作出顯示願意向妥協方向靠近的表示」與本句語境不同。"
+        "gesture-mcq-46": "本句的「gestural style」指「與手勢／動作表達有關的」。",
+        "gesture-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-46"
     },
@@ -2641,11 +2465,9 @@ export default {
       "masked": "The idea was communicated ____.",
       "options": [
         "gesture-mcq-47",
-        "gesture-mcq-46",
-        "gesture-mcq-48",
-        "gesture-mcq-45",
-        "gesture-mcq-49",
-        "gesture-mcq-44"
+        "gesture-mcq-41",
+        "gesture-mcq-28",
+        "gesture-mcq-24"
       ],
       "explanation": "本句的「gesturally」指「透過手勢／肢體動作地」。",
       "sentenceIndex": 46,
@@ -2654,12 +2476,10 @@ export default {
         "gesturally"
       ],
       "optionReasons": {
-        "gesture-mcq-47": "本句指「透過手勢／肢體動作地」。",
-        "gesture-mcq-46": "「與手勢／動作表達有關的」與本句語境不同。",
-        "gesture-mcq-48": "「尤其說話時用手臂／雙手大幅度比手畫腳」與本句語境不同。",
-        "gesture-mcq-45": "「主要依靠手勢／肢體動作進行的溝通」與本句語境不同。",
-        "gesture-mcq-49": "「比手畫腳；富表達性的手部／手臂動作」與本句語境不同。",
-        "gesture-mcq-44": "「包括手勢、姿勢、眼神、面部表情等在內的整體肢體語言」與本句語境不同。"
+        "gesture-mcq-47": "本句的「gesturally」指「透過手勢／肢體動作地」。",
+        "gesture-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-47"
     },
@@ -2671,11 +2491,9 @@ export default {
       "masked": "He ____ as he told the story.",
       "options": [
         "gesture-mcq-48",
-        "gesture-mcq-47",
-        "gesture-mcq-49",
-        "gesture-mcq-46",
-        "gesture-mcq-50",
-        "gesture-mcq-45"
+        "gesture-mcq-31",
+        "gesture-mcq-27",
+        "gesture-mcq-51"
       ],
       "explanation": "本句的「gesticulated wildly」指「尤其說話時用手臂／雙手大幅度比手畫腳」。",
       "sentenceIndex": 47,
@@ -2684,12 +2502,10 @@ export default {
         "gesticulated wildly"
       ],
       "optionReasons": {
-        "gesture-mcq-48": "本句指「尤其說話時用手臂／雙手大幅度比手畫腳」。",
-        "gesture-mcq-47": "「透過手勢／肢體動作地」與本句語境不同。",
-        "gesture-mcq-49": "「比手畫腳；富表達性的手部／手臂動作」與本句語境不同。",
-        "gesture-mcq-46": "「與手勢／動作表達有關的」與本句語境不同。",
-        "gesture-mcq-50": "「快速捕捉人物動勢、姿態而非細節的動勢素描」與本句語境不同。",
-        "gesture-mcq-45": "「主要依靠手勢／肢體動作進行的溝通」與本句語境不同。"
+        "gesture-mcq-48": "本句的「gesticulated wildly」指「尤其說話時用手臂／雙手大幅度比手畫腳」。",
+        "gesture-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-48"
     },
@@ -2701,11 +2517,9 @@ export default {
       "masked": "Students began with a two-minute ____.",
       "options": [
         "gesture-mcq-50",
-        "gesture-mcq-49",
-        "gesture-mcq-51",
-        "gesture-mcq-48",
-        "gesture-mcq-52",
-        "gesture-mcq-47"
+        "gesture-mcq-42",
+        "gesture-mcq-28",
+        "gesture-mcq-09"
       ],
       "explanation": "本句的「gesture drawing」指「快速捕捉人物動勢、姿態而非細節的動勢素描」。",
       "sentenceIndex": 48,
@@ -2714,12 +2528,10 @@ export default {
         "gesture drawing"
       ],
       "optionReasons": {
-        "gesture-mcq-50": "本句指「快速捕捉人物動勢、姿態而非細節的動勢素描」。",
-        "gesture-mcq-49": "「比手畫腳；富表達性的手部／手臂動作」與本句語境不同。",
-        "gesture-mcq-51": "「強調創作動作、筆觸與動勢的藝術」與本句語境不同。",
-        "gesture-mcq-48": "「尤其說話時用手臂／雙手大幅度比手畫腳」與本句語境不同。",
-        "gesture-mcq-52": "「顯示創作者手部動作與能量的動勢筆觸」與本句語境不同。",
-        "gesture-mcq-47": "「透過手勢／肢體動作地」與本句語境不同。"
+        "gesture-mcq-50": "本句的「gesture drawing」指「快速捕捉人物動勢、姿態而非細節的動勢素描」。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-50"
     },
@@ -2731,11 +2543,9 @@ export default {
       "masked": "The painter is known for bold ____.",
       "options": [
         "gesture-mcq-51",
-        "gesture-mcq-50",
-        "gesture-mcq-52",
-        "gesture-mcq-49",
-        "gesture-mcq-53",
-        "gesture-mcq-48"
+        "gesture-mcq-21",
+        "gesture-mcq-48",
+        "gesture-mcq-43"
       ],
       "explanation": "本句的「gestural brushwork」指「強調創作動作、筆觸與動勢的藝術」。",
       "sentenceIndex": 49,
@@ -2744,12 +2554,10 @@ export default {
         "gestural brushwork"
       ],
       "optionReasons": {
-        "gesture-mcq-51": "本句指「強調創作動作、筆觸與動勢的藝術」。",
-        "gesture-mcq-50": "「快速捕捉人物動勢、姿態而非細節的動勢素描」與本句語境不同。",
-        "gesture-mcq-52": "「顯示創作者手部動作與能量的動勢筆觸」與本句語境不同。",
-        "gesture-mcq-49": "「比手畫腳；富表達性的手部／手臂動作」與本句語境不同。",
-        "gesture-mcq-53": "「音樂中可被感知為一個完整表意單位的音型／動勢」與本句語境不同。",
-        "gesture-mcq-48": "「尤其說話時用手臂／雙手大幅度比手畫腳」與本句語境不同。"
+        "gesture-mcq-51": "本句的「gestural brushwork」指「強調創作動作、筆觸與動勢的藝術」。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-51"
     },
@@ -2761,11 +2569,9 @@ export default {
       "masked": "The opening ____ returns later in the piece.",
       "options": [
         "gesture-mcq-53",
-        "gesture-mcq-52",
-        "gesture-mcq-54",
-        "gesture-mcq-51",
-        "gesture-mcq-55",
-        "gesture-mcq-50"
+        "gesture-mcq-28",
+        "gesture-mcq-48",
+        "gesture-mcq-21"
       ],
       "explanation": "本句的「musical gesture」指「音樂中可被感知為一個完整表意單位的音型／動勢」。",
       "sentenceIndex": 50,
@@ -2774,12 +2580,10 @@ export default {
         "musical gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-53": "本句指「音樂中可被感知為一個完整表意單位的音型／動勢」。",
-        "gesture-mcq-52": "「顯示創作者手部動作與能量的動勢筆觸」與本句語境不同。",
-        "gesture-mcq-54": "「指揮用來傳達速度、力度、進入等訊息的手勢」與本句語境不同。",
-        "gesture-mcq-51": "「強調創作動作、筆觸與動勢的藝術」與本句語境不同。",
-        "gesture-mcq-55": "「演員在舞台上用來表達角色意思的戲劇性肢體動作」與本句語境不同。",
-        "gesture-mcq-50": "「快速捕捉人物動勢、姿態而非細節的動勢素描」與本句語境不同。"
+        "gesture-mcq-53": "本句的「musical gesture」指「音樂中可被感知為一個完整表意單位的音型／動勢」。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-53"
     },
@@ -2791,11 +2595,9 @@ export default {
       "masked": "The musicians responded to the conductor’s ____.",
       "options": [
         "gesture-mcq-54",
-        "gesture-mcq-53",
-        "gesture-mcq-55",
-        "gesture-mcq-52",
-        "gesture-mcq-56",
-        "gesture-mcq-51"
+        "gesture-mcq-43",
+        "gesture-mcq-17",
+        "gesture-mcq-28"
       ],
       "explanation": "本句的「gesture」指「指揮用來傳達速度、力度、進入等訊息的手勢」。",
       "sentenceIndex": 51,
@@ -2804,12 +2606,10 @@ export default {
         "gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-54": "本句指「指揮用來傳達速度、力度、進入等訊息的手勢」。",
-        "gesture-mcq-53": "「音樂中可被感知為一個完整表意單位的音型／動勢」與本句語境不同。",
-        "gesture-mcq-55": "「演員在舞台上用來表達角色意思的戲劇性肢體動作」與本句語境不同。",
-        "gesture-mcq-52": "「顯示創作者手部動作與能量的動勢筆觸」與本句語境不同。",
-        "gesture-mcq-56": "「主要用來表態／產生說服效果的象徵性姿態」與本句語境不同。",
-        "gesture-mcq-51": "「強調創作動作、筆觸與動勢的藝術」與本句語境不同。"
+        "gesture-mcq-54": "本句的「gesture」指「指揮用來傳達速度、力度、進入等訊息的手勢」。",
+        "gesture-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-54"
     },
@@ -2821,11 +2621,9 @@ export default {
       "masked": "The actor exaggerated the ____ so the audience could read it clearly.",
       "options": [
         "gesture-mcq-55",
-        "gesture-mcq-54",
-        "gesture-mcq-56",
-        "gesture-mcq-53",
-        "gesture-mcq-57",
-        "gesture-mcq-52"
+        "gesture-mcq-38",
+        "gesture-mcq-42",
+        "gesture-mcq-21"
       ],
       "explanation": "本句的「gesture」指「演員在舞台上用來表達角色意思的戲劇性肢體動作」。",
       "sentenceIndex": 52,
@@ -2834,12 +2632,10 @@ export default {
         "gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-55": "本句指「演員在舞台上用來表達角色意思的戲劇性肢體動作」。",
-        "gesture-mcq-54": "「指揮用來傳達速度、力度、進入等訊息的手勢」與本句語境不同。",
-        "gesture-mcq-56": "「主要用來表態／產生說服效果的象徵性姿態」與本句語境不同。",
-        "gesture-mcq-53": "「音樂中可被感知為一個完整表意單位的音型／動勢」與本句語境不同。",
-        "gesture-mcq-57": "「由電腦／裝置辨識人體手勢的技術」與本句語境不同。",
-        "gesture-mcq-52": "「顯示創作者手部動作與能量的動勢筆觸」與本句語境不同。"
+        "gesture-mcq-55": "本句的「gesture」指「演員在舞台上用來表達角色意思的戲劇性肢體動作」。",
+        "gesture-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-55"
     },
@@ -2851,11 +2647,9 @@ export default {
       "masked": "The camera supports ____.",
       "options": [
         "gesture-mcq-57",
-        "gesture-mcq-56",
-        "gesture-mcq-58",
-        "gesture-mcq-55",
-        "gesture-mcq-59",
-        "gesture-mcq-54"
+        "gesture-mcq-09",
+        "gesture-mcq-22",
+        "gesture-mcq-83"
       ],
       "explanation": "本句的「gesture recognition」指「由電腦／裝置辨識人體手勢的技術」。",
       "sentenceIndex": 53,
@@ -2864,12 +2658,10 @@ export default {
         "gesture recognition"
       ],
       "optionReasons": {
-        "gesture-mcq-57": "本句指「由電腦／裝置辨識人體手勢的技術」。",
-        "gesture-mcq-56": "「主要用來表態／產生說服效果的象徵性姿態」與本句語境不同。",
-        "gesture-mcq-58": "「以手勢控制裝置的操作方式」與本句語境不同。",
-        "gesture-mcq-55": "「演員在舞台上用來表達角色意思的戲劇性肢體動作」與本句語境不同。",
-        "gesture-mcq-59": "「主要透過手勢操作的介面」與本句語境不同。",
-        "gesture-mcq-54": "「指揮用來傳達速度、力度、進入等訊息的手勢」與本句語境不同。"
+        "gesture-mcq-57": "本句的「gesture recognition」指「由電腦／裝置辨識人體手勢的技術」。",
+        "gesture-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-57"
     },
@@ -2881,11 +2673,9 @@ export default {
       "masked": "The display supports ____.",
       "options": [
         "gesture-mcq-58",
-        "gesture-mcq-57",
-        "gesture-mcq-59",
-        "gesture-mcq-56",
-        "gesture-mcq-60",
-        "gesture-mcq-55"
+        "gesture-mcq-17",
+        "gesture-mcq-42",
+        "gesture-mcq-35"
       ],
       "explanation": "本句的「gesture control」指「以手勢控制裝置的操作方式」。",
       "sentenceIndex": 54,
@@ -2894,12 +2684,10 @@ export default {
         "gesture control"
       ],
       "optionReasons": {
-        "gesture-mcq-58": "本句指「以手勢控制裝置的操作方式」。",
-        "gesture-mcq-57": "「由電腦／裝置辨識人體手勢的技術」與本句語境不同。",
-        "gesture-mcq-59": "「主要透過手勢操作的介面」與本句語境不同。",
-        "gesture-mcq-56": "「主要用來表態／產生說服效果的象徵性姿態」與本句語境不同。",
-        "gesture-mcq-60": "「觸控螢幕／觸控板上的手指操作動作」與本句語境不同。",
-        "gesture-mcq-55": "「演員在舞台上用來表達角色意思的戲劇性肢體動作」與本句語境不同。"
+        "gesture-mcq-58": "本句的「gesture control」指「以手勢控制裝置的操作方式」。",
+        "gesture-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-58"
     },
@@ -2911,11 +2699,9 @@ export default {
       "masked": "The game uses a ____.",
       "options": [
         "gesture-mcq-59",
-        "gesture-mcq-58",
-        "gesture-mcq-60",
-        "gesture-mcq-57",
-        "gesture-mcq-61",
-        "gesture-mcq-56"
+        "gesture-mcq-83",
+        "gesture-mcq-33",
+        "gesture-mcq-27"
       ],
       "explanation": "本句的「gesture-based interface」指「主要透過手勢操作的介面」。",
       "sentenceIndex": 55,
@@ -2924,12 +2710,10 @@ export default {
         "gesture-based interface"
       ],
       "optionReasons": {
-        "gesture-mcq-59": "本句指「主要透過手勢操作的介面」。",
-        "gesture-mcq-58": "「以手勢控制裝置的操作方式」與本句語境不同。",
-        "gesture-mcq-60": "「觸控螢幕／觸控板上的手指操作動作」與本句語境不同。",
-        "gesture-mcq-57": "「由電腦／裝置辨識人體手勢的技術」與本句語境不同。",
-        "gesture-mcq-61": "「在觸控表面滑動手指的手勢」與本句語境不同。",
-        "gesture-mcq-56": "「主要用來表態／產生說服效果的象徵性姿態」與本句語境不同。"
+        "gesture-mcq-59": "本句的「gesture-based interface」指「主要透過手勢操作的介面」。",
+        "gesture-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-59"
     },
@@ -2941,11 +2725,9 @@ export default {
       "masked": "Use a ____ to move to the next page.",
       "options": [
         "gesture-mcq-61",
-        "gesture-mcq-60",
-        "gesture-mcq-62",
-        "gesture-mcq-59",
-        "gesture-mcq-63",
-        "gesture-mcq-58"
+        "gesture-mcq-35",
+        "gesture-mcq-43",
+        "gesture-mcq-42"
       ],
       "explanation": "本句的「swipe gesture」指「在觸控表面滑動手指的手勢」。",
       "sentenceIndex": 56,
@@ -2954,12 +2736,10 @@ export default {
         "swipe gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-61": "本句指「在觸控表面滑動手指的手勢」。",
-        "gesture-mcq-60": "「觸控螢幕／觸控板上的手指操作動作」與本句語境不同。",
-        "gesture-mcq-62": "「以兩指捏合／張開進行縮放的手勢」與本句語境不同。",
-        "gesture-mcq-59": "「主要透過手勢操作的介面」與本句語境不同。",
-        "gesture-mcq-63": "「同時使用多個觸控點的手勢」與本句語境不同。",
-        "gesture-mcq-58": "「以手勢控制裝置的操作方式」與本句語境不同。"
+        "gesture-mcq-61": "本句的「swipe gesture」指「在觸控表面滑動手指的手勢」。",
+        "gesture-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-61"
     },
@@ -2971,11 +2751,9 @@ export default {
       "masked": "Use a ____ to zoom out.",
       "options": [
         "gesture-mcq-62",
-        "gesture-mcq-61",
-        "gesture-mcq-63",
-        "gesture-mcq-60",
-        "gesture-mcq-64",
-        "gesture-mcq-59"
+        "gesture-mcq-31",
+        "gesture-mcq-28",
+        "gesture-mcq-21"
       ],
       "explanation": "本句的「pinch gesture」指「以兩指捏合／張開進行縮放的手勢」。",
       "sentenceIndex": 57,
@@ -2984,12 +2762,10 @@ export default {
         "pinch gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-62": "本句指「以兩指捏合／張開進行縮放的手勢」。",
-        "gesture-mcq-61": "「在觸控表面滑動手指的手勢」與本句語境不同。",
-        "gesture-mcq-63": "「同時使用多個觸控點的手勢」與本句語境不同。",
-        "gesture-mcq-60": "「觸控螢幕／觸控板上的手指操作動作」與本句語境不同。",
-        "gesture-mcq-64": "「短暫點按觸控表面的手勢」與本句語境不同。",
-        "gesture-mcq-59": "「主要透過手勢操作的介面」與本句語境不同。"
+        "gesture-mcq-62": "本句的「pinch gesture」指「以兩指捏合／張開進行縮放的手勢」。",
+        "gesture-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-62"
     },
@@ -3001,11 +2777,9 @@ export default {
       "masked": "The system recognizes ____.",
       "options": [
         "gesture-mcq-67",
-        "gesture-mcq-66",
-        "gesture-mcq-68",
-        "gesture-mcq-65",
-        "gesture-mcq-69",
-        "gesture-mcq-64"
+        "gesture-mcq-21",
+        "gesture-mcq-41",
+        "gesture-mcq-28"
       ],
       "explanation": "本句的「air gestures」指「不接觸裝置、由感應器辨識的空中手勢」。",
       "sentenceIndex": 58,
@@ -3014,12 +2788,10 @@ export default {
         "air gestures"
       ],
       "optionReasons": {
-        "gesture-mcq-67": "本句指「不接觸裝置、由感應器辨識的空中手勢」。",
-        "gesture-mcq-66": "「用多指旋轉物件的手勢」與本句語境不同。",
-        "gesture-mcq-68": "「以特定滑鼠移動軌跡執行指令的滑鼠手勢」與本句語境不同。",
-        "gesture-mcq-65": "「按住並移動物件的拖曳手勢」與本句語境不同。",
-        "gesture-mcq-69": "「在觸控板上用手指完成的操作手勢」與本句語境不同。",
-        "gesture-mcq-64": "「短暫點按觸控表面的手勢」與本句語境不同。"
+        "gesture-mcq-67": "本句的「air gestures」指「不接觸裝置、由感應器辨識的空中手勢」。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-67"
     },
@@ -3031,11 +2803,9 @@ export default {
       "masked": "The browser supports customizable ____.",
       "options": [
         "gesture-mcq-68",
-        "gesture-mcq-67",
-        "gesture-mcq-69",
-        "gesture-mcq-66",
-        "gesture-mcq-70",
-        "gesture-mcq-65"
+        "gesture-mcq-26",
+        "gesture-mcq-42",
+        "gesture-mcq-43"
       ],
       "explanation": "本句的「mouse gestures」指「以特定滑鼠移動軌跡執行指令的滑鼠手勢」。",
       "sentenceIndex": 59,
@@ -3044,12 +2814,10 @@ export default {
         "mouse gestures"
       ],
       "optionReasons": {
-        "gesture-mcq-68": "本句指「以特定滑鼠移動軌跡執行指令的滑鼠手勢」。",
-        "gesture-mcq-67": "「不接觸裝置、由感應器辨識的空中手勢」與本句語境不同。",
-        "gesture-mcq-69": "「在觸控板上用手指完成的操作手勢」與本句語境不同。",
-        "gesture-mcq-66": "「用多指旋轉物件的手勢」與本句語境不同。",
-        "gesture-mcq-70": "「以手勢作為電腦／裝置輸入方式」與本句語境不同。",
-        "gesture-mcq-65": "「按住並移動物件的拖曳手勢」與本句語境不同。"
+        "gesture-mcq-68": "本句的「mouse gestures」指「以特定滑鼠移動軌跡執行指令的滑鼠手勢」。",
+        "gesture-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-68"
     },
@@ -3061,11 +2829,9 @@ export default {
       "masked": "Use a three-finger ____.",
       "options": [
         "gesture-mcq-69",
-        "gesture-mcq-68",
-        "gesture-mcq-70",
-        "gesture-mcq-67",
-        "gesture-mcq-71",
-        "gesture-mcq-66"
+        "gesture-mcq-19",
+        "gesture-mcq-21",
+        "gesture-mcq-83"
       ],
       "explanation": "本句的「trackpad gesture」指「在觸控板上用手指完成的操作手勢」。",
       "sentenceIndex": 60,
@@ -3074,12 +2840,10 @@ export default {
         "trackpad gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-69": "本句指「在觸控板上用手指完成的操作手勢」。",
-        "gesture-mcq-68": "「以特定滑鼠移動軌跡執行指令的滑鼠手勢」與本句語境不同。",
-        "gesture-mcq-70": "「以手勢作為電腦／裝置輸入方式」與本句語境不同。",
-        "gesture-mcq-67": "「不接觸裝置、由感應器辨識的空中手勢」與本句語境不同。",
-        "gesture-mcq-71": "「用來偵測人體手勢的感應器」與本句語境不同。",
-        "gesture-mcq-66": "「用多指旋轉物件的手勢」與本句語境不同。"
+        "gesture-mcq-69": "本句的「trackpad gesture」指「在觸控板上用手指完成的操作手勢」。",
+        "gesture-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-69"
     },
@@ -3091,11 +2855,9 @@ export default {
       "masked": "The meaning of a ____ may vary across cultures.",
       "options": [
         "gesture-mcq-72",
-        "gesture-mcq-71",
-        "gesture-mcq-73",
-        "gesture-mcq-70",
-        "gesture-mcq-74",
-        "gesture-mcq-69"
+        "gesture-mcq-34",
+        "gesture-mcq-26",
+        "gesture-mcq-41"
       ],
       "explanation": "本句的「gesture」指「意義取決於特定文化慣例的手勢」。",
       "sentenceIndex": 61,
@@ -3104,12 +2866,10 @@ export default {
         "gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-72": "本句指「意義取決於特定文化慣例的手勢」。",
-        "gesture-mcq-71": "「用來偵測人體手勢的感應器」與本句語境不同。",
-        "gesture-mcq-73": "「具有較固定文化意義的慣例化／象徵性手勢」與本句語境不同。",
-        "gesture-mcq-70": "「以手勢作為電腦／裝置輸入方式」與本句語境不同。",
-        "gesture-mcq-74": "「用來指出人、物、地點或方向的指示手勢」與本句語境不同。",
-        "gesture-mcq-69": "「在觸控板上用手指完成的操作手勢」與本句語境不同。"
+        "gesture-mcq-72": "本句的「gesture」指「意義取決於特定文化慣例的手勢」。",
+        "gesture-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-72"
     },
@@ -3121,11 +2881,9 @@ export default {
       "masked": "Infants often use ____ before they can speak fluently.",
       "options": [
         "gesture-mcq-74",
-        "gesture-mcq-73",
-        "gesture-mcq-75",
-        "gesture-mcq-72",
-        "gesture-mcq-76",
-        "gesture-mcq-71"
+        "gesture-mcq-18",
+        "gesture-mcq-28",
+        "gesture-mcq-21"
       ],
       "explanation": "本句的「pointing gestures」指「用來指出人、物、地點或方向的指示手勢」。",
       "sentenceIndex": 62,
@@ -3134,12 +2892,10 @@ export default {
         "pointing gestures"
       ],
       "optionReasons": {
-        "gesture-mcq-74": "本句指「用來指出人、物、地點或方向的指示手勢」。",
-        "gesture-mcq-73": "「具有較固定文化意義的慣例化／象徵性手勢」與本句語境不同。",
-        "gesture-mcq-75": "「意義依賴實際指向對象／位置的指示性手勢」與本句語境不同。",
-        "gesture-mcq-72": "「意義取決於特定文化慣例的手勢」與本句語境不同。",
-        "gesture-mcq-76": "「形狀／動作模擬所代表事物的圖像式手勢」與本句語境不同。",
-        "gesture-mcq-71": "「用來偵測人體手勢的感應器」與本句語境不同。"
+        "gesture-mcq-74": "本句的「pointing gestures」指「用來指出人、物、地點或方向的指示手勢」。",
+        "gesture-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-74"
     },
@@ -3151,11 +2907,9 @@ export default {
       "masked": "The student’s ____ showed discomfort.",
       "options": [
         "gesture-mcq-80",
-        "gesture-mcq-79",
-        "gesture-mcq-81",
-        "gesture-mcq-78",
-        "gesture-mcq-82",
-        "gesture-mcq-77"
+        "gesture-mcq-28",
+        "gesture-mcq-41",
+        "gesture-mcq-21"
       ],
       "explanation": "本句的「nonverbal gestures」指「不使用語言、單靠動作傳達意思的非語言手勢」。",
       "sentenceIndex": 63,
@@ -3164,12 +2918,10 @@ export default {
         "nonverbal gestures"
       ],
       "optionReasons": {
-        "gesture-mcq-80": "本句指「不使用語言、單靠動作傳達意思的非語言手勢」。",
-        "gesture-mcq-79": "「手勢傳達的資訊與口語內容不一致的現象」與本句語境不同。",
-        "gesture-mcq-81": "「招手叫某人靠近的動作」與本句語境不同。",
-        "gesture-mcq-78": "「與口語同時出現的伴語手勢」與本句語境不同。",
-        "gesture-mcq-82": "「表示不屑／不重視的手勢」與本句語境不同。",
-        "gesture-mcq-77": "「配合說話節奏、用來強調語言結構的節拍手勢」與本句語境不同。"
+        "gesture-mcq-80": "本句的「nonverbal gestures」指「不使用語言、單靠動作傳達意思的非語言手勢」。",
+        "gesture-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-80"
     },
@@ -3181,11 +2933,9 @@ export default {
       "masked": "She made a ____.",
       "options": [
         "gesture-mcq-81",
-        "gesture-mcq-80",
-        "gesture-mcq-82",
-        "gesture-mcq-79",
-        "gesture-mcq-83",
-        "gesture-mcq-78"
+        "gesture-mcq-42",
+        "gesture-mcq-21",
+        "gesture-mcq-09"
       ],
       "explanation": "本句的「beckoning gesture」指「招手叫某人靠近的動作」。",
       "sentenceIndex": 64,
@@ -3194,12 +2944,10 @@ export default {
         "beckoning gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-81": "本句指「招手叫某人靠近的動作」。",
-        "gesture-mcq-80": "「不使用語言、單靠動作傳達意思的非語言手勢」與本句語境不同。",
-        "gesture-mcq-82": "「表示不屑／不重視的手勢」與本句語境不同。",
-        "gesture-mcq-79": "「手勢傳達的資訊與口語內容不一致的現象」與本句語境不同。",
-        "gesture-mcq-83": "「顯示不耐煩的動作」與本句語境不同。",
-        "gesture-mcq-78": "「與口語同時出現的伴語手勢」與本句語境不同。"
+        "gesture-mcq-81": "本句的「beckoning gesture」指「招手叫某人靠近的動作」。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-81"
     },
@@ -3211,11 +2959,9 @@ export default {
       "masked": "He waved his hand in a ____.",
       "options": [
         "gesture-mcq-82",
-        "gesture-mcq-81",
+        "gesture-mcq-19",
         "gesture-mcq-83",
-        "gesture-mcq-80",
-        "gesture-mcq-84",
-        "gesture-mcq-79"
+        "gesture-mcq-41"
       ],
       "explanation": "本句的「dismissive gesture」指「表示不屑／不重視的手勢」。",
       "sentenceIndex": 65,
@@ -3224,12 +2970,10 @@ export default {
         "dismissive gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-82": "本句指「表示不屑／不重視的手勢」。",
-        "gesture-mcq-81": "「招手叫某人靠近的動作」與本句語境不同。",
-        "gesture-mcq-83": "「顯示不耐煩的動作」與本句語境不同。",
-        "gesture-mcq-80": "「不使用語言、單靠動作傳達意思的非語言手勢」與本句語境不同。",
-        "gesture-mcq-84": "「顯示無奈、無能為力的動作」與本句語境不同。",
-        "gesture-mcq-79": "「手勢傳達的資訊與口語內容不一致的現象」與本句語境不同。"
+        "gesture-mcq-82": "本句的「dismissive gesture」指「表示不屑／不重視的手勢」。",
+        "gesture-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-82"
     },
@@ -3241,11 +2985,9 @@ export default {
       "masked": "She glanced at the clock in an ____.",
       "options": [
         "gesture-mcq-83",
-        "gesture-mcq-82",
-        "gesture-mcq-84",
-        "gesture-mcq-81",
-        "gesture-mcq-80",
-        "gesture-mcq-79"
+        "gesture-mcq-57",
+        "gesture-mcq-35",
+        "gesture-mcq-42"
       ],
       "explanation": "本句的「impatient gesture」指「顯示不耐煩的動作」。",
       "sentenceIndex": 66,
@@ -3254,12 +2996,10 @@ export default {
         "impatient gesture"
       ],
       "optionReasons": {
-        "gesture-mcq-83": "本句指「顯示不耐煩的動作」。",
-        "gesture-mcq-82": "「表示不屑／不重視的手勢」與本句語境不同。",
-        "gesture-mcq-84": "「顯示無奈、無能為力的動作」與本句語境不同。",
-        "gesture-mcq-81": "「招手叫某人靠近的動作」與本句語境不同。",
-        "gesture-mcq-80": "「不使用語言、單靠動作傳達意思的非語言手勢」與本句語境不同。",
-        "gesture-mcq-79": "「手勢傳達的資訊與口語內容不一致的現象」與本句語境不同。"
+        "gesture-mcq-83": "本句的「impatient gesture」指「顯示不耐煩的動作」。",
+        "gesture-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "gesture-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gesture-mcq-83"
     }
@@ -3271,5 +3011,7 @@ export default {
     "sha256": "627106bd2b35fd7d34fd99c451a79caff6f679cc55093f595744aa2d9bc95786",
     "pages": 44
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

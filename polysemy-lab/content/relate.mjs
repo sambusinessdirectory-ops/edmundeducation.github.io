@@ -460,11 +460,9 @@ export default {
       "masked": "Instead, it felt calm, polished, and ____.",
       "options": [
         "relate-mcq-01",
-        "relate-mcq-02",
-        "relate-mcq-03",
-        "relate-mcq-04",
-        "relate-mcq-05",
-        "relate-mcq-06"
+        "relate-mcq-09",
+        "relate-mcq-19",
+        "relate-mcq-05"
       ],
       "explanation": "本句的「relatable」指「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」。",
       "sentenceIndex": 0,
@@ -473,12 +471,10 @@ export default {
         "relatable"
       ],
       "optionReasons": {
-        "relate-mcq-01": "本句指「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」。",
-        "relate-mcq-02": "「因有相似經歷或感受而理解並產生共鳴」與本句語境不同。",
-        "relate-mcq-03": "「與某個主題、事情或範疇存在直接關聯」與本句語境不同。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。"
+        "relate-mcq-01": "本句的「relatable」指「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」。",
+        "relate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-01"
     },
@@ -490,11 +486,9 @@ export default {
       "masked": "The character is ____ because she struggles with ordinary problems.",
       "options": [
         "relate-mcq-01",
-        "relate-mcq-02",
         "relate-mcq-03",
-        "relate-mcq-04",
-        "relate-mcq-05",
-        "relate-mcq-06"
+        "relate-mcq-17",
+        "relate-mcq-18"
       ],
       "explanation": "本句的「relatable」指「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」。",
       "sentenceIndex": 1,
@@ -503,12 +497,10 @@ export default {
         "relatable"
       ],
       "optionReasons": {
-        "relate-mcq-01": "本句指「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」。",
-        "relate-mcq-02": "「因有相似經歷或感受而理解並產生共鳴」與本句語境不同。",
-        "relate-mcq-03": "「與某個主題、事情或範疇存在直接關聯」與本句語境不同。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。"
+        "relate-mcq-01": "本句的「relatable」指「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」。",
+        "relate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-01"
     },
@@ -520,11 +512,9 @@ export default {
       "masked": "The advertisement used a ____ situation about commuting home after work.",
       "options": [
         "relate-mcq-01",
-        "relate-mcq-02",
-        "relate-mcq-03",
-        "relate-mcq-04",
-        "relate-mcq-05",
-        "relate-mcq-06"
+        "relate-mcq-12",
+        "relate-mcq-19",
+        "relate-mcq-05"
       ],
       "explanation": "本句的「relatable」指「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」。",
       "sentenceIndex": 2,
@@ -533,12 +523,10 @@ export default {
         "relatable"
       ],
       "optionReasons": {
-        "relate-mcq-01": "本句指「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」。",
-        "relate-mcq-02": "「因有相似經歷或感受而理解並產生共鳴」與本句語境不同。",
-        "relate-mcq-03": "「與某個主題、事情或範疇存在直接關聯」與本句語境不同。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。"
+        "relate-mcq-01": "本句的「relatable」指「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」。",
+        "relate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-01"
     },
@@ -550,11 +538,9 @@ export default {
       "masked": "I can really ____ her experience of commuting every day.",
       "options": [
         "relate-mcq-02",
-        "relate-mcq-01",
-        "relate-mcq-03",
-        "relate-mcq-04",
-        "relate-mcq-05",
-        "relate-mcq-06"
+        "relate-mcq-11",
+        "relate-mcq-17",
+        "relate-mcq-18"
       ],
       "explanation": "本句的「relate to」指「因有相似經歷或感受而理解並產生共鳴」。",
       "sentenceIndex": 3,
@@ -563,12 +549,10 @@ export default {
         "relate to"
       ],
       "optionReasons": {
-        "relate-mcq-02": "本句指「因有相似經歷或感受而理解並產生共鳴」。",
-        "relate-mcq-01": "「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」與本句語境不同。",
-        "relate-mcq-03": "「與某個主題、事情或範疇存在直接關聯」與本句語境不同。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。"
+        "relate-mcq-02": "本句的「relate to」指「因有相似經歷或感受而理解並產生共鳴」。",
+        "relate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-02"
     },
@@ -580,11 +564,8 @@ export default {
       "masked": "Many young workers can ____ the character in the advertisement.",
       "options": [
         "relate-mcq-02",
-        "relate-mcq-01",
         "relate-mcq-03",
-        "relate-mcq-04",
-        "relate-mcq-05",
-        "relate-mcq-06"
+        "relate-mcq-19"
       ],
       "explanation": "本句的「relate to」指「因有相似經歷或感受而理解並產生共鳴」。",
       "sentenceIndex": 4,
@@ -593,12 +574,9 @@ export default {
         "relate to"
       ],
       "optionReasons": {
-        "relate-mcq-02": "本句指「因有相似經歷或感受而理解並產生共鳴」。",
-        "relate-mcq-01": "「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」與本句語境不同。",
-        "relate-mcq-03": "「與某個主題、事情或範疇存在直接關聯」與本句語境不同。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。"
+        "relate-mcq-02": "本句的「relate to」指「因有相似經歷或感受而理解並產生共鳴」。",
+        "relate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-02"
     },
@@ -610,11 +588,9 @@ export default {
       "masked": "The questions ____ customer service.",
       "options": [
         "relate-mcq-03",
-        "relate-mcq-02",
-        "relate-mcq-04",
         "relate-mcq-01",
         "relate-mcq-05",
-        "relate-mcq-06"
+        "relate-mcq-17"
       ],
       "explanation": "本句的「relate to」指「與某個主題、事情或範疇存在直接關聯」。",
       "sentenceIndex": 5,
@@ -623,12 +599,10 @@ export default {
         "relate to"
       ],
       "optionReasons": {
-        "relate-mcq-03": "本句指「與某個主題、事情或範疇存在直接關聯」。",
-        "relate-mcq-02": "「因有相似經歷或感受而理解並產生共鳴」與本句語境不同。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。",
-        "relate-mcq-01": "「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。"
+        "relate-mcq-03": "本句的「relate to」指「與某個主題、事情或範疇存在直接關聯」。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-03"
     },
@@ -640,11 +614,9 @@ export default {
       "masked": "Most complaints ____ delays in delivery.",
       "options": [
         "relate-mcq-03",
-        "relate-mcq-02",
-        "relate-mcq-04",
-        "relate-mcq-01",
-        "relate-mcq-05",
-        "relate-mcq-06"
+        "relate-mcq-17",
+        "relate-mcq-18",
+        "relate-mcq-01"
       ],
       "explanation": "本句的「related to」指「與某個主題、事情或範疇存在直接關聯」。",
       "sentenceIndex": 6,
@@ -653,12 +625,10 @@ export default {
         "related to"
       ],
       "optionReasons": {
-        "relate-mcq-03": "本句指「與某個主題、事情或範疇存在直接關聯」。",
-        "relate-mcq-02": "「因有相似經歷或感受而理解並產生共鳴」與本句語境不同。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。",
-        "relate-mcq-01": "「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。"
+        "relate-mcq-03": "本句的「related to」指「與某個主題、事情或範疇存在直接關聯」。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-03"
     },
@@ -670,11 +640,9 @@ export default {
       "masked": "The teacher ____ the theory to a real-life example.",
       "options": [
         "relate-mcq-04",
-        "relate-mcq-03",
-        "relate-mcq-05",
-        "relate-mcq-02",
-        "relate-mcq-06",
-        "relate-mcq-01"
+        "relate-mcq-01",
+        "relate-mcq-18",
+        "relate-mcq-17"
       ],
       "explanation": "本句的「related」指「把兩件事聯繫起來，指出或理解它們的關係」。",
       "sentenceIndex": 7,
@@ -683,12 +651,10 @@ export default {
         "related"
       ],
       "optionReasons": {
-        "relate-mcq-04": "本句指「把兩件事聯繫起來，指出或理解它們的關係」。",
-        "relate-mcq-03": "「與某個主題、事情或範疇存在直接關聯」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-02": "「因有相似經歷或感受而理解並產生共鳴」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。",
-        "relate-mcq-01": "「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」與本句語境不同。"
+        "relate-mcq-04": "本句的「related」指「把兩件事聯繫起來，指出或理解它們的關係」。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-04"
     },
@@ -700,10 +666,8 @@ export default {
       "masked": "It is difficult to ____ these figures to actual customer behaviour.",
       "options": [
         "relate-mcq-04",
-        "relate-mcq-03",
-        "relate-mcq-05",
-        "relate-mcq-02",
-        "relate-mcq-06",
+        "relate-mcq-18",
+        "relate-mcq-17",
         "relate-mcq-01"
       ],
       "explanation": "本句的「relate」指「把兩件事聯繫起來，指出或理解它們的關係」。",
@@ -713,12 +677,10 @@ export default {
         "relate"
       ],
       "optionReasons": {
-        "relate-mcq-04": "本句指「把兩件事聯繫起來，指出或理解它們的關係」。",
-        "relate-mcq-03": "「與某個主題、事情或範疇存在直接關聯」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-02": "「因有相似經歷或感受而理解並產生共鳴」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。",
-        "relate-mcq-01": "「貼近真實經驗或感受，因此容易令人認同並產生共鳴的」與本句語境不同。"
+        "relate-mcq-04": "本句的「relate」指「把兩件事聯繫起來，指出或理解它們的關係」。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-04"
     },
@@ -730,11 +692,9 @@ export default {
       "masked": "She ____ the whole story to the police.",
       "options": [
         "relate-mcq-05",
-        "relate-mcq-04",
-        "relate-mcq-06",
-        "relate-mcq-03",
-        "relate-mcq-07",
-        "relate-mcq-02"
+        "relate-mcq-16",
+        "relate-mcq-17",
+        "relate-mcq-18"
       ],
       "explanation": "本句的「related」指「把某件事情或經歷敘述出來」。",
       "sentenceIndex": 9,
@@ -743,12 +703,10 @@ export default {
         "related"
       ],
       "optionReasons": {
-        "relate-mcq-05": "本句指「把某件事情或經歷敘述出來」。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。",
-        "relate-mcq-03": "「與某個主題、事情或範疇存在直接關聯」與本句語境不同。",
-        "relate-mcq-07": "「人與人之間具有血緣、婚姻或家族關係的」與本句語境不同。",
-        "relate-mcq-02": "「因有相似經歷或感受而理解並產生共鳴」與本句語境不同。"
+        "relate-mcq-05": "本句的「related」指「把某件事情或經歷敘述出來」。",
+        "relate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-05"
     },
@@ -760,11 +718,9 @@ export default {
       "masked": "He ____ his experience of working overseas.",
       "options": [
         "relate-mcq-05",
-        "relate-mcq-04",
-        "relate-mcq-06",
-        "relate-mcq-03",
-        "relate-mcq-07",
-        "relate-mcq-02"
+        "relate-mcq-18",
+        "relate-mcq-12",
+        "relate-mcq-17"
       ],
       "explanation": "本句的「related」指「把某件事情或經歷敘述出來」。",
       "sentenceIndex": 10,
@@ -773,12 +729,10 @@ export default {
         "related"
       ],
       "optionReasons": {
-        "relate-mcq-05": "本句指「把某件事情或經歷敘述出來」。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。",
-        "relate-mcq-03": "「與某個主題、事情或範疇存在直接關聯」與本句語境不同。",
-        "relate-mcq-07": "「人與人之間具有血緣、婚姻或家族關係的」與本句語境不同。",
-        "relate-mcq-02": "「因有相似經歷或感受而理解並產生共鳴」與本句語境不同。"
+        "relate-mcq-05": "本句的「related」指「把某件事情或經歷敘述出來」。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-05"
     },
@@ -790,11 +744,9 @@ export default {
       "masked": "The two problems are closely ____.",
       "options": [
         "relate-mcq-06",
-        "relate-mcq-05",
-        "relate-mcq-07",
-        "relate-mcq-04",
-        "relate-mcq-08",
-        "relate-mcq-03"
+        "relate-mcq-18",
+        "relate-mcq-02",
+        "relate-mcq-17"
       ],
       "explanation": "本句的「related」指「兩件或多件事物之間存在實質聯繫的」。",
       "sentenceIndex": 11,
@@ -803,12 +755,10 @@ export default {
         "related"
       ],
       "optionReasons": {
-        "relate-mcq-06": "本句指「兩件或多件事物之間存在實質聯繫的」。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-07": "「人與人之間具有血緣、婚姻或家族關係的」與本句語境不同。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。",
-        "relate-mcq-08": "「事情之間不存在實質關聯的」與本句語境不同。",
-        "relate-mcq-03": "「與某個主題、事情或範疇存在直接關聯」與本句語境不同。"
+        "relate-mcq-06": "本句的「related」指「兩件或多件事物之間存在實質聯繫的」。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-06"
     },
@@ -820,11 +770,9 @@ export default {
       "masked": "The report covers several ____ topics.",
       "options": [
         "relate-mcq-06",
-        "relate-mcq-05",
-        "relate-mcq-07",
-        "relate-mcq-04",
-        "relate-mcq-08",
-        "relate-mcq-03"
+        "relate-mcq-18",
+        "relate-mcq-17",
+        "relate-mcq-02"
       ],
       "explanation": "本句的「related」指「兩件或多件事物之間存在實質聯繫的」。",
       "sentenceIndex": 12,
@@ -833,12 +781,10 @@ export default {
         "related"
       ],
       "optionReasons": {
-        "relate-mcq-06": "本句指「兩件或多件事物之間存在實質聯繫的」。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-07": "「人與人之間具有血緣、婚姻或家族關係的」與本句語境不同。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。",
-        "relate-mcq-08": "「事情之間不存在實質關聯的」與本句語境不同。",
-        "relate-mcq-03": "「與某個主題、事情或範疇存在直接關聯」與本句語境不同。"
+        "relate-mcq-06": "本句的「related」指「兩件或多件事物之間存在實質聯繫的」。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-06"
     },
@@ -850,11 +796,8 @@ export default {
       "masked": "The damage was ____ the water leak.",
       "options": [
         "relate-pdf-001",
-        "relate-mcq-06",
-        "relate-mcq-08",
-        "relate-mcq-05",
-        "relate-mcq-09",
-        "relate-mcq-04"
+        "relate-mcq-19",
+        "relate-mcq-02"
       ],
       "explanation": "本句的「related to」指「與某件事情、原因、人物或主題存在關係」。",
       "sentenceIndex": 13,
@@ -863,12 +806,9 @@ export default {
         "related to"
       ],
       "optionReasons": {
-        "relate-pdf-001": "本句指「與某件事情、原因、人物或主題存在關係」。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。",
-        "relate-mcq-08": "「事情之間不存在實質關聯的」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-09": "「人與人之間沒有親屬或家族關係的」與本句語境不同。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。"
+        "relate-pdf-001": "本句的「related to」指「與某件事情、原因、人物或主題存在關係」。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-pdf-001"
     },
@@ -880,11 +820,8 @@ export default {
       "masked": "Several symptoms may be ____ stress.",
       "options": [
         "relate-pdf-001",
-        "relate-mcq-06",
-        "relate-mcq-08",
-        "relate-mcq-05",
-        "relate-mcq-09",
-        "relate-mcq-04"
+        "relate-mcq-19",
+        "relate-mcq-02"
       ],
       "explanation": "本句的「related to」指「與某件事情、原因、人物或主題存在關係」。",
       "sentenceIndex": 14,
@@ -893,12 +830,9 @@ export default {
         "related to"
       ],
       "optionReasons": {
-        "relate-pdf-001": "本句指「與某件事情、原因、人物或主題存在關係」。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。",
-        "relate-mcq-08": "「事情之間不存在實質關聯的」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-09": "「人與人之間沒有親屬或家族關係的」與本句語境不同。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。"
+        "relate-pdf-001": "本句的「related to」指「與某件事情、原因、人物或主題存在關係」。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-pdf-001"
     },
@@ -910,11 +844,8 @@ export default {
       "masked": "Are you two ____?",
       "options": [
         "relate-mcq-07",
-        "relate-mcq-06",
-        "relate-mcq-08",
-        "relate-mcq-05",
-        "relate-mcq-09",
-        "relate-mcq-04"
+        "relate-mcq-02",
+        "relate-mcq-19"
       ],
       "explanation": "本句的「related」指「人與人之間具有血緣、婚姻或家族關係的」。",
       "sentenceIndex": 15,
@@ -923,12 +854,9 @@ export default {
         "related"
       ],
       "optionReasons": {
-        "relate-mcq-07": "本句指「人與人之間具有血緣、婚姻或家族關係的」。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。",
-        "relate-mcq-08": "「事情之間不存在實質關聯的」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-09": "「人與人之間沒有親屬或家族關係的」與本句語境不同。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。"
+        "relate-mcq-07": "本句的「related」指「人與人之間具有血緣、婚姻或家族關係的」。",
+        "relate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-07"
     },
@@ -940,11 +868,9 @@ export default {
       "masked": "They are distantly ____ through their mothers.",
       "options": [
         "relate-mcq-07",
-        "relate-mcq-06",
-        "relate-mcq-08",
-        "relate-mcq-05",
-        "relate-mcq-09",
-        "relate-mcq-04"
+        "relate-mcq-19",
+        "relate-mcq-01",
+        "relate-mcq-05"
       ],
       "explanation": "本句的「related」指「人與人之間具有血緣、婚姻或家族關係的」。",
       "sentenceIndex": 16,
@@ -953,12 +879,10 @@ export default {
         "related"
       ],
       "optionReasons": {
-        "relate-mcq-07": "本句指「人與人之間具有血緣、婚姻或家族關係的」。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。",
-        "relate-mcq-08": "「事情之間不存在實質關聯的」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。",
-        "relate-mcq-09": "「人與人之間沒有親屬或家族關係的」與本句語境不同。",
-        "relate-mcq-04": "「把兩件事聯繫起來，指出或理解它們的關係」與本句語境不同。"
+        "relate-mcq-07": "本句的「related」指「人與人之間具有血緣、婚姻或家族關係的」。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-07"
     },
@@ -970,11 +894,9 @@ export default {
       "masked": "The two incidents appear to be ____.",
       "options": [
         "relate-mcq-08",
-        "relate-mcq-07",
-        "relate-mcq-09",
-        "relate-mcq-06",
-        "relate-mcq-10",
-        "relate-mcq-05"
+        "relate-mcq-02",
+        "relate-mcq-17",
+        "relate-mcq-18"
       ],
       "explanation": "本句的「unrelated」指「事情之間不存在實質關聯的」。",
       "sentenceIndex": 17,
@@ -983,12 +905,10 @@ export default {
         "unrelated"
       ],
       "optionReasons": {
-        "relate-mcq-08": "本句指「事情之間不存在實質關聯的」。",
-        "relate-mcq-07": "「人與人之間具有血緣、婚姻或家族關係的」與本句語境不同。",
-        "relate-mcq-09": "「人與人之間沒有親屬或家族關係的」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。",
-        "relate-mcq-10": "「兩件事物之間存在的連繫或互相影響關係」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。"
+        "relate-mcq-08": "本句的「unrelated」指「事情之間不存在實質關聯的」。",
+        "relate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-08"
     },
@@ -1000,11 +920,9 @@ export default {
       "masked": "That question is ____ to the topic we are discussing.",
       "options": [
         "relate-mcq-08",
-        "relate-mcq-07",
-        "relate-mcq-09",
-        "relate-mcq-06",
-        "relate-mcq-10",
-        "relate-mcq-05"
+        "relate-mcq-19",
+        "relate-mcq-05",
+        "relate-mcq-01"
       ],
       "explanation": "本句的「unrelated」指「事情之間不存在實質關聯的」。",
       "sentenceIndex": 18,
@@ -1013,12 +931,10 @@ export default {
         "unrelated"
       ],
       "optionReasons": {
-        "relate-mcq-08": "本句指「事情之間不存在實質關聯的」。",
-        "relate-mcq-07": "「人與人之間具有血緣、婚姻或家族關係的」與本句語境不同。",
-        "relate-mcq-09": "「人與人之間沒有親屬或家族關係的」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。",
-        "relate-mcq-10": "「兩件事物之間存在的連繫或互相影響關係」與本句語境不同。",
-        "relate-mcq-05": "「把某件事情或經歷敘述出來」與本句語境不同。"
+        "relate-mcq-08": "本句的「unrelated」指「事情之間不存在實質關聯的」。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-08"
     },
@@ -1030,11 +946,9 @@ export default {
       "masked": "The two men have the same surname but are ____.",
       "options": [
         "relate-mcq-09",
-        "relate-mcq-08",
-        "relate-mcq-10",
-        "relate-mcq-07",
-        "relate-mcq-11",
-        "relate-mcq-06"
+        "relate-mcq-19",
+        "relate-mcq-01",
+        "relate-mcq-05"
       ],
       "explanation": "本句的「unrelated」指「人與人之間沒有親屬或家族關係的」。",
       "sentenceIndex": 19,
@@ -1043,12 +957,10 @@ export default {
         "unrelated"
       ],
       "optionReasons": {
-        "relate-mcq-09": "本句指「人與人之間沒有親屬或家族關係的」。",
-        "relate-mcq-08": "「事情之間不存在實質關聯的」與本句語境不同。",
-        "relate-mcq-10": "「兩件事物之間存在的連繫或互相影響關係」與本句語境不同。",
-        "relate-mcq-07": "「人與人之間具有血緣、婚姻或家族關係的」與本句語境不同。",
-        "relate-mcq-11": "「國家、團體或群體之間持續的往來與互動關係」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。"
+        "relate-mcq-09": "本句的「unrelated」指「人與人之間沒有親屬或家族關係的」。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-09"
     },
@@ -1060,11 +972,9 @@ export default {
       "masked": "The children are ____ but grew up together.",
       "options": [
         "relate-mcq-09",
-        "relate-mcq-08",
-        "relate-mcq-10",
-        "relate-mcq-07",
-        "relate-mcq-11",
-        "relate-mcq-06"
+        "relate-mcq-05",
+        "relate-mcq-17",
+        "relate-mcq-01"
       ],
       "explanation": "本句的「unrelated」指「人與人之間沒有親屬或家族關係的」。",
       "sentenceIndex": 20,
@@ -1073,12 +983,10 @@ export default {
         "unrelated"
       ],
       "optionReasons": {
-        "relate-mcq-09": "本句指「人與人之間沒有親屬或家族關係的」。",
-        "relate-mcq-08": "「事情之間不存在實質關聯的」與本句語境不同。",
-        "relate-mcq-10": "「兩件事物之間存在的連繫或互相影響關係」與本句語境不同。",
-        "relate-mcq-07": "「人與人之間具有血緣、婚姻或家族關係的」與本句語境不同。",
-        "relate-mcq-11": "「國家、團體或群體之間持續的往來與互動關係」與本句語境不同。",
-        "relate-mcq-06": "「兩件或多件事物之間存在實質聯繫的」與本句語境不同。"
+        "relate-mcq-09": "本句的「unrelated」指「人與人之間沒有親屬或家族關係的」。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-09"
     },
@@ -1090,11 +998,9 @@ export default {
       "masked": "Researchers studied the ____ between sleep and concentration.",
       "options": [
         "relate-mcq-10",
-        "relate-mcq-09",
-        "relate-mcq-11",
-        "relate-mcq-08",
-        "relate-mcq-12",
-        "relate-mcq-07"
+        "relate-mcq-02",
+        "relate-mcq-17",
+        "relate-mcq-18"
       ],
       "explanation": "本句的「relation」指「兩件事物之間存在的連繫或互相影響關係」。",
       "sentenceIndex": 21,
@@ -1103,12 +1009,10 @@ export default {
         "relation"
       ],
       "optionReasons": {
-        "relate-mcq-10": "本句指「兩件事物之間存在的連繫或互相影響關係」。",
-        "relate-mcq-09": "「人與人之間沒有親屬或家族關係的」與本句語境不同。",
-        "relate-mcq-11": "「國家、團體或群體之間持續的往來與互動關係」與本句語境不同。",
-        "relate-mcq-08": "「事情之間不存在實質關聯的」與本句語境不同。",
-        "relate-mcq-12": "「與自己有家族或血緣關係的人」與本句語境不同。",
-        "relate-mcq-07": "「人與人之間具有血緣、婚姻或家族關係的」與本句語境不同。"
+        "relate-mcq-10": "本句的「relation」指「兩件事物之間存在的連繫或互相影響關係」。",
+        "relate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-10"
     },
@@ -1120,11 +1024,8 @@ export default {
       "masked": "There is a clear ____ between price and demand.",
       "options": [
         "relate-mcq-10",
-        "relate-mcq-09",
-        "relate-mcq-11",
-        "relate-mcq-08",
-        "relate-mcq-12",
-        "relate-mcq-07"
+        "relate-mcq-01",
+        "relate-mcq-19"
       ],
       "explanation": "本句的「relation」指「兩件事物之間存在的連繫或互相影響關係」。",
       "sentenceIndex": 22,
@@ -1133,12 +1034,9 @@ export default {
         "relation"
       ],
       "optionReasons": {
-        "relate-mcq-10": "本句指「兩件事物之間存在的連繫或互相影響關係」。",
-        "relate-mcq-09": "「人與人之間沒有親屬或家族關係的」與本句語境不同。",
-        "relate-mcq-11": "「國家、團體或群體之間持續的往來與互動關係」與本句語境不同。",
-        "relate-mcq-08": "「事情之間不存在實質關聯的」與本句語境不同。",
-        "relate-mcq-12": "「與自己有家族或血緣關係的人」與本句語境不同。",
-        "relate-mcq-07": "「人與人之間具有血緣、婚姻或家族關係的」與本句語境不同。"
+        "relate-mcq-10": "本句的「relation」指「兩件事物之間存在的連繫或互相影響關係」。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-10"
     },
@@ -1150,11 +1048,9 @@ export default {
       "masked": "The two countries have maintained good ____.",
       "options": [
         "relate-mcq-11",
-        "relate-mcq-10",
-        "relate-mcq-12",
-        "relate-mcq-09",
-        "relate-mcq-13",
-        "relate-mcq-08"
+        "relate-mcq-01",
+        "relate-mcq-18",
+        "relate-mcq-17"
       ],
       "explanation": "本句的「relations」指「國家、團體或群體之間持續的往來與互動關係」。",
       "sentenceIndex": 23,
@@ -1163,12 +1059,10 @@ export default {
         "relations"
       ],
       "optionReasons": {
-        "relate-mcq-11": "本句指「國家、團體或群體之間持續的往來與互動關係」。",
-        "relate-mcq-10": "「兩件事物之間存在的連繫或互相影響關係」與本句語境不同。",
-        "relate-mcq-12": "「與自己有家族或血緣關係的人」與本句語境不同。",
-        "relate-mcq-09": "「人與人之間沒有親屬或家族關係的」與本句語境不同。",
-        "relate-mcq-13": "「人或群體長期互動所形成的關係」與本句語境不同。",
-        "relate-mcq-08": "「事情之間不存在實質關聯的」與本句語境不同。"
+        "relate-mcq-11": "本句的「relations」指「國家、團體或群體之間持續的往來與互動關係」。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-11"
     },
@@ -1180,11 +1074,9 @@ export default {
       "masked": "The company wants to improve staff-management ____.",
       "options": [
         "relate-mcq-11",
-        "relate-mcq-10",
-        "relate-mcq-12",
-        "relate-mcq-09",
-        "relate-mcq-13",
-        "relate-mcq-08"
+        "relate-mcq-01",
+        "relate-mcq-18",
+        "relate-mcq-17"
       ],
       "explanation": "本句的「relations」指「國家、團體或群體之間持續的往來與互動關係」。",
       "sentenceIndex": 24,
@@ -1193,12 +1085,10 @@ export default {
         "relations"
       ],
       "optionReasons": {
-        "relate-mcq-11": "本句指「國家、團體或群體之間持續的往來與互動關係」。",
-        "relate-mcq-10": "「兩件事物之間存在的連繫或互相影響關係」與本句語境不同。",
-        "relate-mcq-12": "「與自己有家族或血緣關係的人」與本句語境不同。",
-        "relate-mcq-09": "「人與人之間沒有親屬或家族關係的」與本句語境不同。",
-        "relate-mcq-13": "「人或群體長期互動所形成的關係」與本句語境不同。",
-        "relate-mcq-08": "「事情之間不存在實質關聯的」與本句語境不同。"
+        "relate-mcq-11": "本句的「relations」指「國家、團體或群體之間持續的往來與互動關係」。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-11"
     },
@@ -1210,11 +1100,9 @@ export default {
       "masked": "A distant ____ came to visit us.",
       "options": [
         "relate-mcq-12",
-        "relate-mcq-11",
-        "relate-mcq-13",
-        "relate-mcq-10",
-        "relate-mcq-14",
-        "relate-mcq-09"
+        "relate-mcq-05",
+        "relate-mcq-19",
+        "relate-mcq-01"
       ],
       "explanation": "本句的「relation」指「與自己有家族或血緣關係的人」。",
       "sentenceIndex": 25,
@@ -1223,12 +1111,10 @@ export default {
         "relation"
       ],
       "optionReasons": {
-        "relate-mcq-12": "本句指「與自己有家族或血緣關係的人」。",
-        "relate-mcq-11": "「國家、團體或群體之間持續的往來與互動關係」與本句語境不同。",
-        "relate-mcq-13": "「人或群體長期互動所形成的關係」與本句語境不同。",
-        "relate-mcq-10": "「兩件事物之間存在的連繫或互相影響關係」與本句語境不同。",
-        "relate-mcq-14": "「兩人之間持續的戀愛或伴侶關係」與本句語境不同。",
-        "relate-mcq-09": "「人與人之間沒有親屬或家族關係的」與本句語境不同。"
+        "relate-mcq-12": "本句的「relation」指「與自己有家族或血緣關係的人」。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-12"
     },
@@ -1240,11 +1126,9 @@ export default {
       "masked": "Most of her ____ live overseas.",
       "options": [
         "relate-mcq-12",
-        "relate-mcq-11",
-        "relate-mcq-13",
-        "relate-mcq-10",
-        "relate-mcq-14",
-        "relate-mcq-09"
+        "relate-mcq-01",
+        "relate-mcq-18",
+        "relate-mcq-05"
       ],
       "explanation": "本句的「relations」指「與自己有家族或血緣關係的人」。",
       "sentenceIndex": 26,
@@ -1253,12 +1137,10 @@ export default {
         "relations"
       ],
       "optionReasons": {
-        "relate-mcq-12": "本句指「與自己有家族或血緣關係的人」。",
-        "relate-mcq-11": "「國家、團體或群體之間持續的往來與互動關係」與本句語境不同。",
-        "relate-mcq-13": "「人或群體長期互動所形成的關係」與本句語境不同。",
-        "relate-mcq-10": "「兩件事物之間存在的連繫或互相影響關係」與本句語境不同。",
-        "relate-mcq-14": "「兩人之間持續的戀愛或伴侶關係」與本句語境不同。",
-        "relate-mcq-09": "「人與人之間沒有親屬或家族關係的」與本句語境不同。"
+        "relate-mcq-12": "本句的「relations」指「與自己有家族或血緣關係的人」。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-12"
     },
@@ -1270,11 +1152,8 @@ export default {
       "masked": "She has a good ____ with her manager.",
       "options": [
         "relate-mcq-13",
-        "relate-mcq-12",
-        "relate-mcq-14",
-        "relate-mcq-11",
-        "relate-mcq-15",
-        "relate-mcq-10"
+        "relate-mcq-05",
+        "relate-mcq-19"
       ],
       "explanation": "本句的「relationship」指「人或群體長期互動所形成的關係」。",
       "sentenceIndex": 27,
@@ -1283,12 +1162,9 @@ export default {
         "relationship"
       ],
       "optionReasons": {
-        "relate-mcq-13": "本句指「人或群體長期互動所形成的關係」。",
-        "relate-mcq-12": "「與自己有家族或血緣關係的人」與本句語境不同。",
-        "relate-mcq-14": "「兩人之間持續的戀愛或伴侶關係」與本句語境不同。",
-        "relate-mcq-11": "「國家、團體或群體之間持續的往來與互動關係」與本句語境不同。",
-        "relate-mcq-15": "「兩項因素或事物互相聯繫、影響的方式」與本句語境不同。",
-        "relate-mcq-10": "「兩件事物之間存在的連繫或互相影響關係」與本句語境不同。"
+        "relate-mcq-13": "本句的「relationship」指「人或群體長期互動所形成的關係」。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-13"
     },
@@ -1300,11 +1176,9 @@ export default {
       "masked": "Trust is important in any working ____.",
       "options": [
         "relate-mcq-13",
-        "relate-mcq-12",
-        "relate-mcq-14",
-        "relate-mcq-11",
-        "relate-mcq-15",
-        "relate-mcq-10"
+        "relate-mcq-17",
+        "relate-mcq-18",
+        "relate-mcq-05"
       ],
       "explanation": "本句的「relationship」指「人或群體長期互動所形成的關係」。",
       "sentenceIndex": 28,
@@ -1313,12 +1187,10 @@ export default {
         "relationship"
       ],
       "optionReasons": {
-        "relate-mcq-13": "本句指「人或群體長期互動所形成的關係」。",
-        "relate-mcq-12": "「與自己有家族或血緣關係的人」與本句語境不同。",
-        "relate-mcq-14": "「兩人之間持續的戀愛或伴侶關係」與本句語境不同。",
-        "relate-mcq-11": "「國家、團體或群體之間持續的往來與互動關係」與本句語境不同。",
-        "relate-mcq-15": "「兩項因素或事物互相聯繫、影響的方式」與本句語境不同。",
-        "relate-mcq-10": "「兩件事物之間存在的連繫或互相影響關係」與本句語境不同。"
+        "relate-mcq-13": "本句的「relationship」指「人或群體長期互動所形成的關係」。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-13"
     },
@@ -1330,11 +1202,8 @@ export default {
       "masked": "They have been in a ____ for three years.",
       "options": [
         "relate-mcq-14",
-        "relate-mcq-13",
-        "relate-mcq-15",
-        "relate-mcq-12",
-        "relate-mcq-16",
-        "relate-mcq-11"
+        "relate-mcq-19",
+        "relate-mcq-02"
       ],
       "explanation": "本句的「relationship」指「兩人之間持續的戀愛或伴侶關係」。",
       "sentenceIndex": 29,
@@ -1343,12 +1212,9 @@ export default {
         "relationship"
       ],
       "optionReasons": {
-        "relate-mcq-14": "本句指「兩人之間持續的戀愛或伴侶關係」。",
-        "relate-mcq-13": "「人或群體長期互動所形成的關係」與本句語境不同。",
-        "relate-mcq-15": "「兩項因素或事物互相聯繫、影響的方式」與本句語境不同。",
-        "relate-mcq-12": "「與自己有家族或血緣關係的人」與本句語境不同。",
-        "relate-mcq-16": "「與自己有血緣、婚姻或家族關係的人」與本句語境不同。",
-        "relate-mcq-11": "「國家、團體或群體之間持續的往來與互動關係」與本句語境不同。"
+        "relate-mcq-14": "本句的「relationship」指「兩人之間持續的戀愛或伴侶關係」。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-14"
     },
@@ -1360,11 +1226,9 @@ export default {
       "masked": "Their ____ ended last year.",
       "options": [
         "relate-mcq-14",
-        "relate-mcq-13",
-        "relate-mcq-15",
-        "relate-mcq-12",
-        "relate-mcq-16",
-        "relate-mcq-11"
+        "relate-mcq-19",
+        "relate-mcq-01",
+        "relate-mcq-05"
       ],
       "explanation": "本句的「relationship」指「兩人之間持續的戀愛或伴侶關係」。",
       "sentenceIndex": 30,
@@ -1373,12 +1237,10 @@ export default {
         "relationship"
       ],
       "optionReasons": {
-        "relate-mcq-14": "本句指「兩人之間持續的戀愛或伴侶關係」。",
-        "relate-mcq-13": "「人或群體長期互動所形成的關係」與本句語境不同。",
-        "relate-mcq-15": "「兩項因素或事物互相聯繫、影響的方式」與本句語境不同。",
-        "relate-mcq-12": "「與自己有家族或血緣關係的人」與本句語境不同。",
-        "relate-mcq-16": "「與自己有血緣、婚姻或家族關係的人」與本句語境不同。",
-        "relate-mcq-11": "「國家、團體或群體之間持續的往來與互動關係」與本句語境不同。"
+        "relate-mcq-14": "本句的「relationship」指「兩人之間持續的戀愛或伴侶關係」。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-14"
     },
@@ -1390,11 +1252,9 @@ export default {
       "masked": "The study examined the ____ between exercise and sleep.",
       "options": [
         "relate-mcq-15",
-        "relate-mcq-14",
-        "relate-mcq-16",
-        "relate-mcq-13",
-        "relate-mcq-17",
-        "relate-mcq-12"
+        "relate-mcq-05",
+        "relate-mcq-19",
+        "relate-mcq-01"
       ],
       "explanation": "本句的「relationship」指「兩項因素或事物互相聯繫、影響的方式」。",
       "sentenceIndex": 31,
@@ -1403,12 +1263,10 @@ export default {
         "relationship"
       ],
       "optionReasons": {
-        "relate-mcq-15": "本句指「兩項因素或事物互相聯繫、影響的方式」。",
-        "relate-mcq-14": "「兩人之間持續的戀愛或伴侶關係」與本句語境不同。",
-        "relate-mcq-16": "「與自己有血緣、婚姻或家族關係的人」與本句語境不同。",
-        "relate-mcq-13": "「人或群體長期互動所形成的關係」與本句語境不同。",
-        "relate-mcq-17": "「與其他事物比較後才具有意義的」與本句語境不同。",
-        "relate-mcq-12": "「與自己有家族或血緣關係的人」與本句語境不同。"
+        "relate-mcq-15": "本句的「relationship」指「兩項因素或事物互相聯繫、影響的方式」。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-15"
     },
@@ -1420,11 +1278,9 @@ export default {
       "masked": "There is a strong ____ between supply and price.",
       "options": [
         "relate-mcq-15",
-        "relate-mcq-14",
-        "relate-mcq-16",
-        "relate-mcq-13",
-        "relate-mcq-17",
-        "relate-mcq-12"
+        "relate-mcq-19",
+        "relate-mcq-05",
+        "relate-mcq-01"
       ],
       "explanation": "本句的「relationship」指「兩項因素或事物互相聯繫、影響的方式」。",
       "sentenceIndex": 32,
@@ -1433,12 +1289,10 @@ export default {
         "relationship"
       ],
       "optionReasons": {
-        "relate-mcq-15": "本句指「兩項因素或事物互相聯繫、影響的方式」。",
-        "relate-mcq-14": "「兩人之間持續的戀愛或伴侶關係」與本句語境不同。",
-        "relate-mcq-16": "「與自己有血緣、婚姻或家族關係的人」與本句語境不同。",
-        "relate-mcq-13": "「人或群體長期互動所形成的關係」與本句語境不同。",
-        "relate-mcq-17": "「與其他事物比較後才具有意義的」與本句語境不同。",
-        "relate-mcq-12": "「與自己有家族或血緣關係的人」與本句語境不同。"
+        "relate-mcq-15": "本句的「relationship」指「兩項因素或事物互相聯繫、影響的方式」。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-15"
     },
@@ -1450,11 +1304,9 @@ export default {
       "masked": "Several ____ attended the wedding.",
       "options": [
         "relate-mcq-16",
-        "relate-mcq-15",
-        "relate-mcq-17",
-        "relate-mcq-14",
-        "relate-mcq-18",
-        "relate-mcq-13"
+        "relate-mcq-01",
+        "relate-mcq-05",
+        "relate-mcq-19"
       ],
       "explanation": "本句的「relatives」指「與自己有血緣、婚姻或家族關係的人」。",
       "sentenceIndex": 33,
@@ -1463,12 +1315,10 @@ export default {
         "relatives"
       ],
       "optionReasons": {
-        "relate-mcq-16": "本句指「與自己有血緣、婚姻或家族關係的人」。",
-        "relate-mcq-15": "「兩項因素或事物互相聯繫、影響的方式」與本句語境不同。",
-        "relate-mcq-17": "「與其他事物比較後才具有意義的」與本句語境不同。",
-        "relate-mcq-14": "「兩人之間持續的戀愛或伴侶關係」與本句語境不同。",
-        "relate-mcq-18": "「沒有固定絕對標準、會因情況而改變的」與本句語境不同。",
-        "relate-mcq-13": "「人或群體長期互動所形成的關係」與本句語境不同。"
+        "relate-mcq-16": "本句的「relatives」指「與自己有血緣、婚姻或家族關係的人」。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-16"
     },
@@ -1480,11 +1330,8 @@ export default {
       "masked": "Do you have any ____ living nearby?",
       "options": [
         "relate-mcq-16",
-        "relate-mcq-15",
-        "relate-mcq-17",
-        "relate-mcq-14",
-        "relate-mcq-18",
-        "relate-mcq-13"
+        "relate-mcq-02",
+        "relate-mcq-19"
       ],
       "explanation": "本句的「relatives」指「與自己有血緣、婚姻或家族關係的人」。",
       "sentenceIndex": 34,
@@ -1493,12 +1340,9 @@ export default {
         "relatives"
       ],
       "optionReasons": {
-        "relate-mcq-16": "本句指「與自己有血緣、婚姻或家族關係的人」。",
-        "relate-mcq-15": "「兩項因素或事物互相聯繫、影響的方式」與本句語境不同。",
-        "relate-mcq-17": "「與其他事物比較後才具有意義的」與本句語境不同。",
-        "relate-mcq-14": "「兩人之間持續的戀愛或伴侶關係」與本句語境不同。",
-        "relate-mcq-18": "「沒有固定絕對標準、會因情況而改變的」與本句語境不同。",
-        "relate-mcq-13": "「人或群體長期互動所形成的關係」與本句語境不同。"
+        "relate-mcq-16": "本句的「relatives」指「與自己有血緣、婚姻或家族關係的人」。",
+        "relate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-16"
     },
@@ -1510,11 +1354,9 @@ export default {
       "masked": "The two products are similar in ____ price.",
       "options": [
         "relate-mcq-17",
-        "relate-mcq-16",
-        "relate-mcq-18",
         "relate-mcq-15",
-        "relate-mcq-19",
-        "relate-mcq-14"
+        "relate-mcq-18",
+        "relate-mcq-02"
       ],
       "explanation": "本句的「relative」指「與其他事物比較後才具有意義的」。",
       "sentenceIndex": 35,
@@ -1523,12 +1365,10 @@ export default {
         "relative"
       ],
       "optionReasons": {
-        "relate-mcq-17": "本句指「與其他事物比較後才具有意義的」。",
-        "relate-mcq-16": "「與自己有血緣、婚姻或家族關係的人」與本句語境不同。",
-        "relate-mcq-18": "「沒有固定絕對標準、會因情況而改變的」與本句語境不同。",
-        "relate-mcq-15": "「兩項因素或事物互相聯繫、影響的方式」與本句語境不同。",
-        "relate-mcq-19": "「與其他事物或一般標準相比之下」與本句語境不同。",
-        "relate-mcq-14": "「兩人之間持續的戀愛或伴侶關係」與本句語境不同。"
+        "relate-mcq-17": "本句的「relative」指「與其他事物比較後才具有意義的」。",
+        "relate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-17"
     },
@@ -1540,11 +1380,9 @@ export default {
       "masked": "We need to consider the ____ importance of each factor.",
       "options": [
         "relate-mcq-17",
-        "relate-mcq-16",
-        "relate-mcq-18",
-        "relate-mcq-15",
-        "relate-mcq-19",
-        "relate-mcq-14"
+        "relate-mcq-11",
+        "relate-mcq-05",
+        "relate-mcq-01"
       ],
       "explanation": "本句的「relative」指「與其他事物比較後才具有意義的」。",
       "sentenceIndex": 36,
@@ -1553,12 +1391,10 @@ export default {
         "relative"
       ],
       "optionReasons": {
-        "relate-mcq-17": "本句指「與其他事物比較後才具有意義的」。",
-        "relate-mcq-16": "「與自己有血緣、婚姻或家族關係的人」與本句語境不同。",
-        "relate-mcq-18": "「沒有固定絕對標準、會因情況而改變的」與本句語境不同。",
-        "relate-mcq-15": "「兩項因素或事物互相聯繫、影響的方式」與本句語境不同。",
-        "relate-mcq-19": "「與其他事物或一般標準相比之下」與本句語境不同。",
-        "relate-mcq-14": "「兩人之間持續的戀愛或伴侶關係」與本句語境不同。"
+        "relate-mcq-17": "本句的「relative」指「與其他事物比較後才具有意義的」。",
+        "relate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-17"
     },
@@ -1571,10 +1407,8 @@ export default {
       "options": [
         "relate-mcq-18",
         "relate-mcq-17",
-        "relate-mcq-19",
-        "relate-mcq-16",
-        "relate-mcq-15",
-        "relate-mcq-14"
+        "relate-mcq-11",
+        "relate-mcq-05"
       ],
       "explanation": "本句的「relative」指「沒有固定絕對標準、會因情況而改變的」。",
       "sentenceIndex": 37,
@@ -1583,12 +1417,10 @@ export default {
         "relative"
       ],
       "optionReasons": {
-        "relate-mcq-18": "本句指「沒有固定絕對標準、會因情況而改變的」。",
-        "relate-mcq-17": "「與其他事物比較後才具有意義的」與本句語境不同。",
-        "relate-mcq-19": "「與其他事物或一般標準相比之下」與本句語境不同。",
-        "relate-mcq-16": "「與自己有血緣、婚姻或家族關係的人」與本句語境不同。",
-        "relate-mcq-15": "「兩項因素或事物互相聯繫、影響的方式」與本句語境不同。",
-        "relate-mcq-14": "「兩人之間持續的戀愛或伴侶關係」與本句語境不同。"
+        "relate-mcq-18": "本句的「relative」指「沒有固定絕對標準、會因情況而改變的」。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-18"
     },
@@ -1600,11 +1432,9 @@ export default {
       "masked": "What counts as expensive is ____.",
       "options": [
         "relate-mcq-18",
+        "relate-mcq-06",
         "relate-mcq-17",
-        "relate-mcq-19",
-        "relate-mcq-16",
-        "relate-mcq-15",
-        "relate-mcq-14"
+        "relate-mcq-02"
       ],
       "explanation": "本句的「relative」指「沒有固定絕對標準、會因情況而改變的」。",
       "sentenceIndex": 38,
@@ -1613,12 +1443,10 @@ export default {
         "relative"
       ],
       "optionReasons": {
-        "relate-mcq-18": "本句指「沒有固定絕對標準、會因情況而改變的」。",
-        "relate-mcq-17": "「與其他事物比較後才具有意義的」與本句語境不同。",
-        "relate-mcq-19": "「與其他事物或一般標準相比之下」與本句語境不同。",
-        "relate-mcq-16": "「與自己有血緣、婚姻或家族關係的人」與本句語境不同。",
-        "relate-mcq-15": "「兩項因素或事物互相聯繫、影響的方式」與本句語境不同。",
-        "relate-mcq-14": "「兩人之間持續的戀愛或伴侶關係」與本句語境不同。"
+        "relate-mcq-18": "本句的「relative」指「沒有固定絕對標準、會因情況而改變的」。",
+        "relate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-18"
     },
@@ -1630,11 +1458,9 @@ export default {
       "masked": "The headphones were ____ inexpensive.",
       "options": [
         "relate-mcq-19",
-        "relate-mcq-18",
-        "relate-mcq-17",
         "relate-mcq-16",
-        "relate-mcq-15",
-        "relate-mcq-14"
+        "relate-mcq-01",
+        "relate-mcq-05"
       ],
       "explanation": "本句的「relatively」指「與其他事物或一般標準相比之下」。",
       "sentenceIndex": 39,
@@ -1643,12 +1469,10 @@ export default {
         "relatively"
       ],
       "optionReasons": {
-        "relate-mcq-19": "本句指「與其他事物或一般標準相比之下」。",
-        "relate-mcq-18": "「沒有固定絕對標準、會因情況而改變的」與本句語境不同。",
-        "relate-mcq-17": "「與其他事物比較後才具有意義的」與本句語境不同。",
-        "relate-mcq-16": "「與自己有血緣、婚姻或家族關係的人」與本句語境不同。",
-        "relate-mcq-15": "「兩項因素或事物互相聯繫、影響的方式」與本句語境不同。",
-        "relate-mcq-14": "「兩人之間持續的戀愛或伴侶關係」與本句語境不同。"
+        "relate-mcq-19": "本句的「relatively」指「與其他事物或一般標準相比之下」。",
+        "relate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-19"
     },
@@ -1660,11 +1484,8 @@ export default {
       "masked": "The journey was ____ comfortable.",
       "options": [
         "relate-mcq-19",
-        "relate-mcq-18",
-        "relate-mcq-17",
-        "relate-mcq-16",
-        "relate-mcq-15",
-        "relate-mcq-14"
+        "relate-mcq-10",
+        "relate-mcq-01"
       ],
       "explanation": "本句的「relatively」指「與其他事物或一般標準相比之下」。",
       "sentenceIndex": 40,
@@ -1673,12 +1494,9 @@ export default {
         "relatively"
       ],
       "optionReasons": {
-        "relate-mcq-19": "本句指「與其他事物或一般標準相比之下」。",
-        "relate-mcq-18": "「沒有固定絕對標準、會因情況而改變的」與本句語境不同。",
-        "relate-mcq-17": "「與其他事物比較後才具有意義的」與本句語境不同。",
-        "relate-mcq-16": "「與自己有血緣、婚姻或家族關係的人」與本句語境不同。",
-        "relate-mcq-15": "「兩項因素或事物互相聯繫、影響的方式」與本句語境不同。",
-        "relate-mcq-14": "「兩人之間持續的戀愛或伴侶關係」與本句語境不同。"
+        "relate-mcq-19": "本句的「relatively」指「與其他事物或一般標準相比之下」。",
+        "relate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "relate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "relate-mcq-19"
     }
@@ -1690,5 +1508,7 @@ export default {
     "sha256": "48744a94a9bca19e412f852dec939503bf8c5ae5cacd380869c77facfa68fa02",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

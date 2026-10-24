@@ -161,16 +161,6 @@ export default {
       "note": "來源詞義：欠款",
       "examples": [
         [
-          "I'm behind on my work.",
-          "我的工作積壓了／未完成。",
-          "欠款"
-        ],
-        [
-          "He is behind on his payments.",
-          "他的付款拖欠了。",
-          "欠款"
-        ],
-        [
           "They are two months behind on rent.",
           "他們已經欠了兩個月租金。",
           "欠款"
@@ -191,18 +181,7 @@ export default {
       "en": "behind in work",
       "zh": "工作進度落後",
       "note": "來源詞義：工作進度落後",
-      "examples": [
-        [
-          "We're running five minutes behind.",
-          "我們遲了五分鐘。",
-          "工作進度落後"
-        ],
-        [
-          "The train is ten minutes behind.",
-          "火車晚了十分鐘。",
-          "工作進度落後"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -736,6 +715,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "behind-reviewed-a3d9387ee8",
+      "title": "未能按時完成、支付或處理 X",
+      "form": "behind · source section 9",
+      "en": "未能按時完成、支付或處理 X",
+      "zh": "未能按時完成、支付或處理 X",
+      "note": "對照原始教材第 9 節及例句核實。",
+      "examples": [
+        [
+          "I'm behind on my work.",
+          "我的工作積壓了／未完成。",
+          "未能按時完成、支付或處理 X"
+        ],
+        [
+          "He is behind on his payments.",
+          "他的付款拖欠了。",
+          "未能按時完成、支付或處理 X"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "behind-reviewed-46d1aac86c",
+      "title": "比預定或預期時間遲",
+      "form": "behind · source section 11",
+      "en": "比預定或預期時間遲",
+      "zh": "比預定或預期時間遲",
+      "note": "對照原始教材第 11 節及例句核實。",
+      "examples": [
+        [
+          "We're running five minutes behind.",
+          "我們遲了五分鐘。",
+          "比預定或預期時間遲"
+        ],
+        [
+          "The train is ten minutes behind.",
+          "火車晚了十分鐘。",
+          "比預定或預期時間遲"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -747,11 +770,9 @@ export default {
       "masked": "Kevin was standing ____.",
       "options": [
         "behind-mcq-01",
-        "behind-mcq-02",
-        "behind-mcq-03",
-        "behind-mcq-04",
-        "behind-mcq-05",
-        "behind-mcq-06"
+        "behind-mcq-06",
+        "behind-mcq-27",
+        "behind-mcq-25"
       ],
       "explanation": "本句的「behind me」指「在……後面」。",
       "sentenceIndex": 0,
@@ -760,12 +781,10 @@ export default {
         "behind me"
       ],
       "optionReasons": {
-        "behind-mcq-01": "本句指「在……後面」。",
-        "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。"
+        "behind-mcq-01": "本句的「behind me」指「在……後面」。",
+        "behind-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-01"
     },
@@ -777,11 +796,9 @@ export default {
       "masked": "The car is parked ____.",
       "options": [
         "behind-mcq-01",
-        "behind-mcq-02",
-        "behind-mcq-03",
-        "behind-mcq-04",
-        "behind-mcq-05",
-        "behind-mcq-06"
+        "behind-reviewed-46d1aac86c",
+        "behind-mcq-17",
+        "behind-mcq-19"
       ],
       "explanation": "本句的「behind the building」指「在……後面」。",
       "sentenceIndex": 1,
@@ -790,12 +807,10 @@ export default {
         "behind the building"
       ],
       "optionReasons": {
-        "behind-mcq-01": "本句指「在……後面」。",
-        "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。"
+        "behind-mcq-01": "本句的「behind the building」指「在……後面」。",
+        "behind-reviewed-46d1aac86c": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-01"
     },
@@ -807,11 +822,9 @@ export default {
       "masked": "She hid ____.",
       "options": [
         "behind-mcq-01",
-        "behind-mcq-02",
-        "behind-mcq-03",
-        "behind-mcq-04",
-        "behind-mcq-05",
-        "behind-mcq-06"
+        "behind-mcq-07",
+        "behind-mcq-27",
+        "behind-reviewed-a3d9387ee8"
       ],
       "explanation": "本句的「behind the door」指「在……後面」。",
       "sentenceIndex": 2,
@@ -820,12 +833,10 @@ export default {
         "behind the door"
       ],
       "optionReasons": {
-        "behind-mcq-01": "本句指「在……後面」。",
-        "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。"
+        "behind-mcq-01": "本句的「behind the door」指「在……後面」。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "behind-reviewed-a3d9387ee8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-01"
     },
@@ -837,11 +848,9 @@ export default {
       "masked": "I walked ahead while Kevin followed ____.",
       "options": [
         "behind-mcq-01",
-        "behind-mcq-02",
-        "behind-mcq-03",
-        "behind-mcq-04",
-        "behind-mcq-05",
-        "behind-mcq-06"
+        "behind-mcq-14",
+        "behind-mcq-28",
+        "behind-reviewed-46d1aac86c"
       ],
       "explanation": "本句的「behind」指「在……後面」。",
       "sentenceIndex": 3,
@@ -850,12 +859,10 @@ export default {
         "behind"
       ],
       "optionReasons": {
-        "behind-mcq-01": "本句指「在……後面」。",
-        "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。"
+        "behind-mcq-01": "本句的「behind」指「在……後面」。",
+        "behind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "behind-reviewed-46d1aac86c": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-01"
     },
@@ -867,11 +874,9 @@ export default {
       "masked": "The child ran after her mother from ____.",
       "options": [
         "behind-mcq-01",
-        "behind-mcq-02",
-        "behind-mcq-03",
-        "behind-mcq-04",
-        "behind-mcq-05",
-        "behind-mcq-06"
+        "behind-mcq-28",
+        "behind-pdf-001",
+        "behind-reviewed-46d1aac86c"
       ],
       "explanation": "本句的「behind」指「在……後面」。",
       "sentenceIndex": 4,
@@ -880,12 +885,10 @@ export default {
         "behind"
       ],
       "optionReasons": {
-        "behind-mcq-01": "本句指「在……後面」。",
-        "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。"
+        "behind-mcq-01": "本句的「behind」指「在……後面」。",
+        "behind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "behind-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "behind-reviewed-46d1aac86c": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-01"
     },
@@ -897,11 +900,9 @@ export default {
       "masked": "I was standing ____.",
       "options": [
         "behind-mcq-02",
-        "behind-mcq-01",
-        "behind-mcq-03",
-        "behind-mcq-04",
-        "behind-mcq-05",
-        "behind-mcq-06"
+        "behind-mcq-18",
+        "behind-mcq-27",
+        "behind-reviewed-a3d9387ee8"
       ],
       "explanation": "本句的「behind Kevin in the queue」指「排在某人後面」。",
       "sentenceIndex": 5,
@@ -910,12 +911,10 @@ export default {
         "behind Kevin in the queue"
       ],
       "optionReasons": {
-        "behind-mcq-02": "本句指「排在某人後面」。",
-        "behind-mcq-01": "「在……後面」是「behind (place)」的用法，與本句語境不同。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。"
+        "behind-mcq-02": "本句的「behind Kevin in the queue」指「排在某人後面」。",
+        "behind-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "behind-reviewed-a3d9387ee8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-02"
     },
@@ -927,11 +926,9 @@ export default {
       "masked": "There were several people ____.",
       "options": [
         "behind-mcq-02",
-        "behind-mcq-01",
-        "behind-mcq-03",
-        "behind-mcq-04",
-        "behind-mcq-05",
-        "behind-mcq-06"
+        "behind-mcq-27",
+        "behind-reviewed-46d1aac86c",
+        "behind-mcq-07"
       ],
       "explanation": "本句的「behind us」指「排在某人後面」。",
       "sentenceIndex": 6,
@@ -940,12 +937,10 @@ export default {
         "behind us"
       ],
       "optionReasons": {
-        "behind-mcq-02": "本句指「排在某人後面」。",
-        "behind-mcq-01": "「在……後面」是「behind (place)」的用法，與本句語境不同。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。"
+        "behind-mcq-02": "本句的「behind us」指「排在某人後面」。",
+        "behind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "behind-reviewed-46d1aac86c": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-02"
     },
@@ -957,11 +952,9 @@ export default {
       "masked": "Our team is ____ by two points.",
       "options": [
         "behind-mcq-03",
-        "behind-mcq-02",
-        "behind-mcq-04",
-        "behind-mcq-01",
-        "behind-mcq-05",
-        "behind-mcq-06"
+        "behind-pdf-001",
+        "behind-mcq-06",
+        "behind-mcq-17"
       ],
       "explanation": "本句的「behind」指「落後」。",
       "sentenceIndex": 7,
@@ -970,12 +963,10 @@ export default {
         "behind"
       ],
       "optionReasons": {
-        "behind-mcq-03": "本句指「落後」。",
-        "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-01": "「在……後面」是「behind (place)」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。"
+        "behind-mcq-03": "本句的「behind」指「落後」。",
+        "behind-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-03"
     },
@@ -987,11 +978,9 @@ export default {
       "masked": "The company is ____ in technology.",
       "options": [
         "behind-mcq-03",
-        "behind-mcq-02",
-        "behind-mcq-04",
-        "behind-mcq-01",
-        "behind-mcq-05",
-        "behind-mcq-06"
+        "behind-mcq-30",
+        "behind-mcq-18",
+        "behind-mcq-29"
       ],
       "explanation": "本句的「behind its competitors」指「落後」。",
       "sentenceIndex": 8,
@@ -1000,12 +989,10 @@ export default {
         "behind its competitors"
       ],
       "optionReasons": {
-        "behind-mcq-03": "本句指「落後」。",
-        "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-01": "「在……後面」是「behind (place)」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。"
+        "behind-mcq-03": "本句的「behind its competitors」指「落後」。",
+        "behind-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-03"
     },
@@ -1017,11 +1004,9 @@ export default {
       "masked": "I missed several classes and ____.",
       "options": [
         "behind-mcq-04",
-        "behind-mcq-03",
-        "behind-mcq-05",
-        "behind-mcq-02",
+        "behind-mcq-26",
         "behind-mcq-06",
-        "behind-mcq-01"
+        "behind-pdf-001"
       ],
       "explanation": "本句的「fell behind」指「落後；跟不上」。",
       "sentenceIndex": 9,
@@ -1030,12 +1015,10 @@ export default {
         "fell behind"
       ],
       "optionReasons": {
-        "behind-mcq-04": "本句指「落後；跟不上」。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。",
-        "behind-mcq-01": "「在……後面」是「behind (place)」的用法，與本句語境不同。"
+        "behind-mcq-04": "本句的「fell behind」指「落後；跟不上」。",
+        "behind-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "behind-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-04"
     },
@@ -1047,11 +1030,9 @@ export default {
       "masked": "Don't let the project ____.",
       "options": [
         "behind-mcq-04",
-        "behind-mcq-03",
-        "behind-mcq-05",
-        "behind-mcq-02",
-        "behind-mcq-06",
-        "behind-mcq-01"
+        "behind-reviewed-46d1aac86c",
+        "behind-mcq-28",
+        "behind-mcq-18"
       ],
       "explanation": "本句的「fall behind」指「落後；跟不上」。",
       "sentenceIndex": 10,
@@ -1060,12 +1041,10 @@ export default {
         "fall behind"
       ],
       "optionReasons": {
-        "behind-mcq-04": "本句指「落後；跟不上」。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。",
-        "behind-mcq-01": "「在……後面」是「behind (place)」的用法，與本句語境不同。"
+        "behind-mcq-04": "本句的「fall behind」指「落後；跟不上」。",
+        "behind-reviewed-46d1aac86c": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-04"
     },
@@ -1077,11 +1056,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "behind-pdf-001",
-        "behind-mcq-04",
-        "behind-mcq-06",
-        "behind-mcq-03",
-        "behind-mcq-07",
-        "behind-mcq-02"
+        "behind-mcq-23",
+        "behind-mcq-31",
+        "behind-mcq-24"
       ],
       "explanation": "本句的「behind in my coursework」指「在 X 的進度上未達到應有水平」。",
       "sentenceIndex": 11,
@@ -1090,12 +1067,10 @@ export default {
         "behind in my coursework"
       ],
       "optionReasons": {
-        "behind-pdf-001": "本句指「在 X 的進度上未達到應有水平」。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
-        "behind-mcq-07": "「欠款」是「behind on payments」的用法，與本句語境不同。",
-        "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。"
+        "behind-pdf-001": "本句的「behind in my coursework」指「在 X 的進度上未達到應有水平」。",
+        "behind-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-pdf-001"
     },
@@ -1107,11 +1082,9 @@ export default {
       "masked": "He is several chapters ____.",
       "options": [
         "behind-pdf-001",
+        "behind-mcq-27",
         "behind-mcq-04",
-        "behind-mcq-06",
-        "behind-mcq-03",
-        "behind-mcq-07",
-        "behind-mcq-02"
+        "behind-mcq-23"
       ],
       "explanation": "本句的「behind」指「在 X 的進度上未達到應有水平」。",
       "sentenceIndex": 12,
@@ -1120,12 +1093,10 @@ export default {
         "behind"
       ],
       "optionReasons": {
-        "behind-pdf-001": "本句指「在 X 的進度上未達到應有水平」。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
-        "behind-mcq-07": "「欠款」是「behind on payments」的用法，與本句語境不同。",
-        "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。"
+        "behind-pdf-001": "本句的「behind」指「在 X 的進度上未達到應有水平」。",
+        "behind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-pdf-001"
     },
@@ -1137,11 +1108,9 @@ export default {
       "masked": "The project is ____.",
       "options": [
         "behind-mcq-05",
-        "behind-mcq-04",
-        "behind-mcq-06",
-        "behind-mcq-03",
-        "behind-mcq-07",
-        "behind-mcq-02"
+        "behind-mcq-32",
+        "behind-mcq-24",
+        "behind-mcq-17"
       ],
       "explanation": "本句的「behind schedule」指「進度落後」。",
       "sentenceIndex": 13,
@@ -1150,12 +1119,10 @@ export default {
         "behind schedule"
       ],
       "optionReasons": {
-        "behind-mcq-05": "本句指「進度落後」。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
-        "behind-mcq-07": "「欠款」是「behind on payments」的用法，與本句語境不同。",
-        "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。"
+        "behind-mcq-05": "本句的「behind schedule」指「進度落後」。",
+        "behind-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-05"
     },
@@ -1167,11 +1134,9 @@ export default {
       "masked": "We are two days ____.",
       "options": [
         "behind-mcq-05",
-        "behind-mcq-04",
-        "behind-mcq-06",
-        "behind-mcq-03",
-        "behind-mcq-07",
-        "behind-mcq-02"
+        "behind-mcq-21",
+        "behind-mcq-17",
+        "behind-reviewed-a3d9387ee8"
       ],
       "explanation": "本句的「behind schedule」指「進度落後」。",
       "sentenceIndex": 14,
@@ -1180,12 +1145,10 @@ export default {
         "behind schedule"
       ],
       "optionReasons": {
-        "behind-mcq-05": "本句指「進度落後」。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。",
-        "behind-mcq-07": "「欠款」是「behind on payments」的用法，與本句語境不同。",
-        "behind-mcq-02": "「排在某人後面」是「behind someone in line」的用法，與本句語境不同。"
+        "behind-mcq-05": "本句的「behind schedule」指「進度落後」。",
+        "behind-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "behind-reviewed-a3d9387ee8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-05"
     },
@@ -1197,11 +1160,9 @@ export default {
       "masked": "We're running ____.",
       "options": [
         "behind-mcq-06",
-        "behind-mcq-05",
-        "behind-mcq-07",
-        "behind-mcq-04",
-        "behind-mcq-08",
-        "behind-mcq-03"
+        "behind-mcq-18",
+        "behind-mcq-02",
+        "behind-mcq-28"
       ],
       "explanation": "本句的「behind time」指「遲了」。",
       "sentenceIndex": 15,
@@ -1210,12 +1171,10 @@ export default {
         "behind time"
       ],
       "optionReasons": {
-        "behind-mcq-06": "本句指「遲了」。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-07": "「欠款」是「behind on payments」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-08": "「工作進度落後」是「behind in work」的用法，與本句語境不同。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。"
+        "behind-mcq-06": "本句的「behind time」指「遲了」。",
+        "behind-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-06"
     },
@@ -1227,11 +1186,9 @@ export default {
       "masked": "The meeting started ____.",
       "options": [
         "behind-mcq-06",
-        "behind-mcq-05",
-        "behind-mcq-07",
-        "behind-mcq-04",
-        "behind-mcq-08",
-        "behind-mcq-03"
+        "behind-mcq-10",
+        "behind-mcq-14",
+        "behind-mcq-23"
       ],
       "explanation": "本句的「behind time」指「遲了」。",
       "sentenceIndex": 16,
@@ -1240,74 +1197,68 @@ export default {
         "behind time"
       ],
       "optionReasons": {
-        "behind-mcq-06": "本句指「遲了」。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-07": "「欠款」是「behind on payments」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。",
-        "behind-mcq-08": "「工作進度落後」是「behind in work」的用法，與本句語境不同。",
-        "behind-mcq-03": "「落後」是「behind (progress)」的用法，與本句語境不同。"
+        "behind-mcq-06": "本句的「behind time」指「遲了」。",
+        "behind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-06"
     },
     {
       "id": "behind-09-0",
-      "sense": "behind-mcq-07",
+      "sense": "behind-reviewed-a3d9387ee8",
       "en": "I'm behind on my work.",
       "zh": "我的工作積壓了／未完成。",
       "masked": "I'm ____.",
       "options": [
-        "behind-mcq-07",
-        "behind-mcq-06",
-        "behind-mcq-08",
-        "behind-mcq-05",
-        "behind-mcq-09",
-        "behind-mcq-04"
+        "behind-reviewed-a3d9387ee8",
+        "behind-mcq-16",
+        "behind-mcq-32",
+        "behind-mcq-29"
       ],
-      "explanation": "本句的「behind on my work」指「欠款」。",
+      "explanation": "對照完整句子：「我的工作積壓了／未完成。」。這裡的「behind on my work」表示「未能按時完成、支付或處理 X」。",
       "sentenceIndex": 17,
       "sourcePractice": 1,
       "targets": [
         "behind on my work"
       ],
       "optionReasons": {
-        "behind-mcq-07": "本句指「欠款」。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。",
-        "behind-mcq-08": "「工作進度落後」是「behind in work」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-09": "「X 背後」是「behind X (reason)」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。"
+        "behind-reviewed-a3d9387ee8": "對照完整句子：「我的工作積壓了／未完成。」。這裡的「behind on my work」表示「未能按時完成、支付或處理 X」。",
+        "behind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "behind-mcq-07"
+      "correctOption": "behind-reviewed-a3d9387ee8",
+      "previousCorrectOption": "behind-mcq-07",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "behind-09-1",
-      "sense": "behind-mcq-07",
+      "sense": "behind-reviewed-a3d9387ee8",
       "en": "He is behind on his payments.",
       "zh": "他的付款拖欠了。",
       "masked": "He is ____.",
       "options": [
-        "behind-mcq-07",
-        "behind-mcq-06",
-        "behind-mcq-08",
-        "behind-mcq-05",
-        "behind-mcq-09",
-        "behind-mcq-04"
+        "behind-reviewed-a3d9387ee8",
+        "behind-mcq-13",
+        "behind-mcq-21",
+        "behind-mcq-07"
       ],
-      "explanation": "本句的「behind on his payments」指「欠款」。",
+      "explanation": "對照完整句子：「他的付款拖欠了。」。這裡的「behind on his payments」表示「未能按時完成、支付或處理 X」。",
       "sentenceIndex": 18,
       "sourcePractice": 2,
       "targets": [
         "behind on his payments"
       ],
       "optionReasons": {
-        "behind-mcq-07": "本句指「欠款」。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。",
-        "behind-mcq-08": "「工作進度落後」是「behind in work」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-09": "「X 背後」是「behind X (reason)」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。"
+        "behind-reviewed-a3d9387ee8": "對照完整句子：「他的付款拖欠了。」。這裡的「behind on his payments」表示「未能按時完成、支付或處理 X」。",
+        "behind-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "behind-mcq-07"
+      "correctOption": "behind-reviewed-a3d9387ee8",
+      "previousCorrectOption": "behind-mcq-07",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "behind-10-0",
@@ -1317,11 +1268,9 @@ export default {
       "masked": "They are two months ____.",
       "options": [
         "behind-mcq-07",
-        "behind-mcq-06",
-        "behind-mcq-08",
         "behind-mcq-05",
-        "behind-mcq-09",
-        "behind-mcq-04"
+        "behind-mcq-21",
+        "behind-mcq-24"
       ],
       "explanation": "本句的「behind on rent」指「欠款」。",
       "sentenceIndex": 19,
@@ -1330,12 +1279,10 @@ export default {
         "behind on rent"
       ],
       "optionReasons": {
-        "behind-mcq-07": "本句指「欠款」。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。",
-        "behind-mcq-08": "「工作進度落後」是「behind in work」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-09": "「X 背後」是「behind X (reason)」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。"
+        "behind-mcq-07": "本句的「behind on rent」指「欠款」。",
+        "behind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-07"
     },
@@ -1347,11 +1294,9 @@ export default {
       "masked": "She fell ____.",
       "options": [
         "behind-mcq-07",
+        "behind-mcq-27",
         "behind-mcq-06",
-        "behind-mcq-08",
-        "behind-mcq-05",
-        "behind-mcq-09",
-        "behind-mcq-04"
+        "behind-reviewed-a3d9387ee8"
       ],
       "explanation": "本句的「behind on her loan payments」指「欠款」。",
       "sentenceIndex": 20,
@@ -1360,74 +1305,68 @@ export default {
         "behind on her loan payments"
       ],
       "optionReasons": {
-        "behind-mcq-07": "本句指「欠款」。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。",
-        "behind-mcq-08": "「工作進度落後」是「behind in work」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。",
-        "behind-mcq-09": "「X 背後」是「behind X (reason)」的用法，與本句語境不同。",
-        "behind-mcq-04": "「落後；跟不上」是「fall behind」的用法，與本句語境不同。"
+        "behind-mcq-07": "本句的「behind on her loan payments」指「欠款」。",
+        "behind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "behind-reviewed-a3d9387ee8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-07"
     },
     {
       "id": "behind-11-0",
-      "sense": "behind-mcq-08",
+      "sense": "behind-reviewed-46d1aac86c",
       "en": "We're running five minutes behind.",
       "zh": "我們遲了五分鐘。",
       "masked": "We're running five minutes ____.",
       "options": [
-        "behind-mcq-08",
+        "behind-reviewed-46d1aac86c",
         "behind-mcq-07",
-        "behind-mcq-09",
-        "behind-mcq-06",
-        "behind-mcq-10",
-        "behind-mcq-05"
+        "behind-mcq-21",
+        "behind-mcq-27"
       ],
-      "explanation": "本句的「behind」指「工作進度落後」。",
+      "explanation": "對照完整句子：「我們遲了五分鐘。」。這裡的「behind」表示「比預定或預期時間遲」。",
       "sentenceIndex": 21,
       "sourcePractice": 1,
       "targets": [
         "behind"
       ],
       "optionReasons": {
-        "behind-mcq-08": "本句指「工作進度落後」。",
-        "behind-mcq-07": "「欠款」是「behind on payments」的用法，與本句語境不同。",
-        "behind-mcq-09": "「X 背後」是「behind X (reason)」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。",
-        "behind-mcq-10": "「X 背後的原因」是「reason behind X」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。"
+        "behind-reviewed-46d1aac86c": "對照完整句子：「我們遲了五分鐘。」。這裡的「behind」表示「比預定或預期時間遲」。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "behind-mcq-08"
+      "correctOption": "behind-reviewed-46d1aac86c",
+      "previousCorrectOption": "behind-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "behind-11-1",
-      "sense": "behind-mcq-08",
+      "sense": "behind-reviewed-46d1aac86c",
       "en": "The train is ten minutes behind.",
       "zh": "火車晚了十分鐘。",
       "masked": "The train is ten minutes ____.",
       "options": [
-        "behind-mcq-08",
-        "behind-mcq-07",
-        "behind-mcq-09",
-        "behind-mcq-06",
-        "behind-mcq-10",
-        "behind-mcq-05"
+        "behind-reviewed-46d1aac86c",
+        "behind-mcq-26",
+        "behind-mcq-16",
+        "behind-mcq-32"
       ],
-      "explanation": "本句的「behind」指「工作進度落後」。",
+      "explanation": "對照完整句子：「火車晚了十分鐘。」。這裡的「behind」表示「比預定或預期時間遲」。",
       "sentenceIndex": 22,
       "sourcePractice": 2,
       "targets": [
         "behind"
       ],
       "optionReasons": {
-        "behind-mcq-08": "本句指「工作進度落後」。",
-        "behind-mcq-07": "「欠款」是「behind on payments」的用法，與本句語境不同。",
-        "behind-mcq-09": "「X 背後」是「behind X (reason)」的用法，與本句語境不同。",
-        "behind-mcq-06": "「遲了」是「behind time」的用法，與本句語境不同。",
-        "behind-mcq-10": "「X 背後的原因」是「reason behind X」的用法，與本句語境不同。",
-        "behind-mcq-05": "「進度落後」是「behind schedule」的用法，與本句語境不同。"
+        "behind-reviewed-46d1aac86c": "對照完整句子：「火車晚了十分鐘。」。這裡的「behind」表示「比預定或預期時間遲」。",
+        "behind-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "behind-mcq-08"
+      "correctOption": "behind-reviewed-46d1aac86c",
+      "previousCorrectOption": "behind-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "behind-12-0",
@@ -1437,10 +1376,8 @@ export default {
       "masked": "I remembered the sincerity ____.",
       "options": [
         "behind-mcq-27",
-        "behind-mcq-26",
-        "behind-mcq-28",
-        "behind-mcq-25",
-        "behind-mcq-29",
+        "behind-mcq-04",
+        "behind-pdf-001",
         "behind-mcq-24"
       ],
       "explanation": "本句的「behind the apology」指「構成 X 內在原因、動機、想法或感情的東西」。",
@@ -1450,12 +1387,10 @@ export default {
         "behind the apology"
       ],
       "optionReasons": {
-        "behind-mcq-27": "本句指「構成 X 內在原因、動機、想法或感情的東西」。",
-        "behind-mcq-26": "「臀部；屁股」是「behind (noun)」的用法，與本句語境不同。",
-        "behind-mcq-28": "「X 所根據的理念、推理或思考方式」是「14. the idea / thinking behind something — 某事背後的理念／思路」的用法，與本句語境不同。",
-        "behind-mcq-25": "「落伍」是「behind the times」的用法，與本句語境不同。",
-        "behind-mcq-29": "「推動 X 或透過 X 表達出來的內在感情／真心」是「16. the emotion / sincerity behind something — 某事背後的感情／真誠」的用法，與本句語境不同。",
-        "behind-mcq-24": "「駕駛中」是「behind the wheel」的用法，與本句語境不同。"
+        "behind-mcq-27": "本句的「behind the apology」指「構成 X 內在原因、動機、想法或感情的東西」。",
+        "behind-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "behind-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-27"
     },
@@ -1467,11 +1402,9 @@ export default {
       "masked": "What was the reason ____?",
       "options": [
         "behind-mcq-27",
-        "behind-mcq-26",
-        "behind-mcq-28",
-        "behind-mcq-25",
-        "behind-mcq-29",
-        "behind-mcq-24"
+        "behind-mcq-01",
+        "behind-mcq-19",
+        "behind-pdf-001"
       ],
       "explanation": "本句的「behind his decision」指「構成 X 內在原因、動機、想法或感情的東西」。",
       "sentenceIndex": 24,
@@ -1480,12 +1413,10 @@ export default {
         "behind his decision"
       ],
       "optionReasons": {
-        "behind-mcq-27": "本句指「構成 X 內在原因、動機、想法或感情的東西」。",
-        "behind-mcq-26": "「臀部；屁股」是「behind (noun)」的用法，與本句語境不同。",
-        "behind-mcq-28": "「X 所根據的理念、推理或思考方式」是「14. the idea / thinking behind something — 某事背後的理念／思路」的用法，與本句語境不同。",
-        "behind-mcq-25": "「落伍」是「behind the times」的用法，與本句語境不同。",
-        "behind-mcq-29": "「推動 X 或透過 X 表達出來的內在感情／真心」是「16. the emotion / sincerity behind something — 某事背後的感情／真誠」的用法，與本句語境不同。",
-        "behind-mcq-24": "「駕駛中」是「behind the wheel」的用法，與本句語境不同。"
+        "behind-mcq-27": "本句的「behind his decision」指「構成 X 內在原因、動機、想法或感情的東西」。",
+        "behind-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "behind-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-27"
     },
@@ -1497,11 +1428,9 @@ export default {
       "masked": "I wanted to understand the thinking ____.",
       "options": [
         "behind-mcq-27",
-        "behind-mcq-26",
-        "behind-mcq-28",
+        "behind-mcq-02",
         "behind-mcq-25",
-        "behind-mcq-29",
-        "behind-mcq-24"
+        "behind-mcq-26"
       ],
       "explanation": "本句的「behind the plan」指「構成 X 內在原因、動機、想法或感情的東西」。",
       "sentenceIndex": 25,
@@ -1510,12 +1439,10 @@ export default {
         "behind the plan"
       ],
       "optionReasons": {
-        "behind-mcq-27": "本句指「構成 X 內在原因、動機、想法或感情的東西」。",
-        "behind-mcq-26": "「臀部；屁股」是「behind (noun)」的用法，與本句語境不同。",
-        "behind-mcq-28": "「X 所根據的理念、推理或思考方式」是「14. the idea / thinking behind something — 某事背後的理念／思路」的用法，與本句語境不同。",
-        "behind-mcq-25": "「落伍」是「behind the times」的用法，與本句語境不同。",
-        "behind-mcq-29": "「推動 X 或透過 X 表達出來的內在感情／真心」是「16. the emotion / sincerity behind something — 某事背後的感情／真誠」的用法，與本句語境不同。",
-        "behind-mcq-24": "「駕駛中」是「behind the wheel」的用法，與本句語境不同。"
+        "behind-mcq-27": "本句的「behind the plan」指「構成 X 內在原因、動機、想法或感情的東西」。",
+        "behind-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-27"
     },
@@ -1527,11 +1454,9 @@ export default {
       "masked": "Nobody knew the reason ____.",
       "options": [
         "behind-mcq-10",
-        "behind-mcq-09",
-        "behind-mcq-11",
-        "behind-mcq-08",
-        "behind-mcq-12",
-        "behind-mcq-07"
+        "behind-mcq-26",
+        "behind-mcq-24",
+        "behind-mcq-18"
       ],
       "explanation": "本句的「behind the change」指「X 背後的原因」。",
       "sentenceIndex": 26,
@@ -1540,12 +1465,10 @@ export default {
         "behind the change"
       ],
       "optionReasons": {
-        "behind-mcq-10": "本句指「X 背後的原因」。",
-        "behind-mcq-09": "「X 背後」是「behind X (reason)」的用法，與本句語境不同。",
-        "behind-mcq-11": "「X 背後的含意」是「meaning behind X」的用法，與本句語境不同。",
-        "behind-mcq-08": "「工作進度落後」是「behind in work」的用法，與本句語境不同。",
-        "behind-mcq-12": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "behind-mcq-07": "「欠款」是「behind on payments」的用法，與本句語境不同。"
+        "behind-mcq-10": "本句的「behind the change」指「X 背後的原因」。",
+        "behind-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-10"
     },
@@ -1557,11 +1480,9 @@ export default {
       "masked": "Stress was one reason ____.",
       "options": [
         "behind-mcq-10",
-        "behind-mcq-09",
-        "behind-mcq-11",
-        "behind-mcq-08",
-        "behind-mcq-12",
-        "behind-mcq-07"
+        "behind-mcq-18",
+        "behind-mcq-29",
+        "behind-mcq-28"
       ],
       "explanation": "本句的「behind his reaction」指「X 背後的原因」。",
       "sentenceIndex": 27,
@@ -1570,12 +1491,10 @@ export default {
         "behind his reaction"
       ],
       "optionReasons": {
-        "behind-mcq-10": "本句指「X 背後的原因」。",
-        "behind-mcq-09": "「X 背後」是「behind X (reason)」的用法，與本句語境不同。",
-        "behind-mcq-11": "「X 背後的含意」是「meaning behind X」的用法，與本句語境不同。",
-        "behind-mcq-08": "「工作進度落後」是「behind in work」的用法，與本句語境不同。",
-        "behind-mcq-12": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "behind-mcq-07": "「欠款」是「behind on payments」的用法，與本句語境不同。"
+        "behind-mcq-10": "本句的「behind his reaction」指「X 背後的原因」。",
+        "behind-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-10"
     },
@@ -1587,11 +1506,9 @@ export default {
       "masked": "What's the idea ____?",
       "options": [
         "behind-mcq-28",
-        "behind-mcq-27",
-        "behind-mcq-29",
-        "behind-mcq-26",
-        "behind-mcq-30",
-        "behind-mcq-25"
+        "behind-mcq-07",
+        "behind-mcq-18",
+        "behind-mcq-30"
       ],
       "explanation": "本句的「behind this design」指「X 所根據的理念、推理或思考方式」。",
       "sentenceIndex": 28,
@@ -1600,12 +1517,10 @@ export default {
         "behind this design"
       ],
       "optionReasons": {
-        "behind-mcq-28": "本句指「X 所根據的理念、推理或思考方式」。",
-        "behind-mcq-27": "「構成 X 內在原因、動機、想法或感情的東西」是「12. behind something（背後原因／動機） — 在……背後；是其原因」的用法，與本句語境不同。",
-        "behind-mcq-29": "「推動 X 或透過 X 表達出來的內在感情／真心」是「16. the emotion / sincerity behind something — 某事背後的感情／真誠」的用法，與本句語境不同。",
-        "behind-mcq-26": "「臀部；屁股」是「behind (noun)」的用法，與本句語境不同。",
-        "behind-mcq-30": "「詢問造成 X 的真正原因、動機或機制」是「18. what's behind something? — 甚麼導致……？背後是甚麼？」的用法，與本句語境不同。",
-        "behind-mcq-25": "「落伍」是「behind the times」的用法，與本句語境不同。"
+        "behind-mcq-28": "本句的「behind this design」指「X 所根據的理念、推理或思考方式」。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-28"
     },
@@ -1617,11 +1532,9 @@ export default {
       "masked": "She explained the thinking ____.",
       "options": [
         "behind-mcq-28",
-        "behind-mcq-27",
-        "behind-mcq-29",
-        "behind-mcq-26",
+        "behind-mcq-16",
         "behind-mcq-30",
-        "behind-mcq-25"
+        "behind-mcq-26"
       ],
       "explanation": "本句的「behind the decision」指「X 所根據的理念、推理或思考方式」。",
       "sentenceIndex": 29,
@@ -1630,12 +1543,10 @@ export default {
         "behind the decision"
       ],
       "optionReasons": {
-        "behind-mcq-28": "本句指「X 所根據的理念、推理或思考方式」。",
-        "behind-mcq-27": "「構成 X 內在原因、動機、想法或感情的東西」是「12. behind something（背後原因／動機） — 在……背後；是其原因」的用法，與本句語境不同。",
-        "behind-mcq-29": "「推動 X 或透過 X 表達出來的內在感情／真心」是「16. the emotion / sincerity behind something — 某事背後的感情／真誠」的用法，與本句語境不同。",
-        "behind-mcq-26": "「臀部；屁股」是「behind (noun)」的用法，與本句語境不同。",
-        "behind-mcq-30": "「詢問造成 X 的真正原因、動機或機制」是「18. what's behind something? — 甚麼導致……？背後是甚麼？」的用法，與本句語境不同。",
-        "behind-mcq-25": "「落伍」是「behind the times」的用法，與本句語境不同。"
+        "behind-mcq-28": "本句的「behind the decision」指「X 所根據的理念、推理或思考方式」。",
+        "behind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-28"
     },
@@ -1647,11 +1558,9 @@ export default {
       "masked": "I didn't understand the meaning ____.",
       "options": [
         "behind-mcq-11",
-        "behind-mcq-10",
-        "behind-mcq-12",
-        "behind-mcq-09",
-        "behind-mcq-13",
-        "behind-mcq-08"
+        "behind-mcq-25",
+        "behind-mcq-27",
+        "behind-mcq-32"
       ],
       "explanation": "本句的「behind his words」指「X 背後的含意」。",
       "sentenceIndex": 30,
@@ -1660,12 +1569,10 @@ export default {
         "behind his words"
       ],
       "optionReasons": {
-        "behind-mcq-11": "本句指「X 背後的含意」。",
-        "behind-mcq-10": "「X 背後的原因」是「reason behind X」的用法，與本句語境不同。",
-        "behind-mcq-12": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "behind-mcq-09": "「X 背後」是「behind X (reason)」的用法，與本句語境不同。",
-        "behind-mcq-13": "「是 X 的幕後原因／策劃者」是「be behind X」的用法，與本句語境不同。",
-        "behind-mcq-08": "「工作進度落後」是「behind in work」的用法，與本句語境不同。"
+        "behind-mcq-11": "本句的「behind his words」指「X 背後的含意」。",
+        "behind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-11"
     },
@@ -1677,11 +1584,9 @@ export default {
       "masked": "The symbol has a deeper meaning ____.",
       "options": [
         "behind-mcq-11",
-        "behind-mcq-10",
-        "behind-mcq-12",
-        "behind-mcq-09",
-        "behind-mcq-13",
-        "behind-mcq-08"
+        "behind-mcq-18",
+        "behind-mcq-32",
+        "behind-mcq-28"
       ],
       "explanation": "本句的「behind it」指「X 背後的含意」。",
       "sentenceIndex": 31,
@@ -1690,12 +1595,10 @@ export default {
         "behind it"
       ],
       "optionReasons": {
-        "behind-mcq-11": "本句指「X 背後的含意」。",
-        "behind-mcq-10": "「X 背後的原因」是「reason behind X」的用法，與本句語境不同。",
-        "behind-mcq-12": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "behind-mcq-09": "「X 背後」是「behind X (reason)」的用法，與本句語境不同。",
-        "behind-mcq-13": "「是 X 的幕後原因／策劃者」是「be behind X」的用法，與本句語境不同。",
-        "behind-mcq-08": "「工作進度落後」是「behind in work」的用法，與本句語境不同。"
+        "behind-mcq-11": "本句的「behind it」指「X 背後的含意」。",
+        "behind-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-11"
     },
@@ -1707,11 +1610,9 @@ export default {
       "masked": "I could feel the emotion ____.",
       "options": [
         "behind-mcq-29",
-        "behind-mcq-28",
-        "behind-mcq-30",
-        "behind-mcq-27",
-        "behind-mcq-31",
-        "behind-mcq-26"
+        "behind-mcq-07",
+        "behind-mcq-04",
+        "behind-mcq-19"
       ],
       "explanation": "本句的「behind her words」指「推動 X 或透過 X 表達出來的內在感情／真心」。",
       "sentenceIndex": 32,
@@ -1720,12 +1621,10 @@ export default {
         "behind her words"
       ],
       "optionReasons": {
-        "behind-mcq-29": "本句指「推動 X 或透過 X 表達出來的內在感情／真心」。",
-        "behind-mcq-28": "「X 所根據的理念、推理或思考方式」是「14. the idea / thinking behind something — 某事背後的理念／思路」的用法，與本句語境不同。",
-        "behind-mcq-30": "「詢問造成 X 的真正原因、動機或機制」是「18. what's behind something? — 甚麼導致……？背後是甚麼？」的用法，與本句語境不同。",
-        "behind-mcq-27": "「構成 X 內在原因、動機、想法或感情的東西」是「12. behind something（背後原因／動機） — 在……背後；是其原因」的用法，與本句語境不同。",
-        "behind-mcq-31": "「離開、死亡或結束後，仍有 X 留存」是「27. leave a legacy / something behind — 留下遺產／影響」的用法，與本句語境不同。",
-        "behind-mcq-26": "「臀部；屁股」是「behind (noun)」的用法，與本句語境不同。"
+        "behind-mcq-29": "本句的「behind her words」指「推動 X 或透過 X 表達出來的內在感情／真心」。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-29"
     },
@@ -1737,11 +1636,9 @@ export default {
       "masked": "The sincerity ____ mattered more than the exact wording.",
       "options": [
         "behind-mcq-29",
-        "behind-mcq-28",
-        "behind-mcq-30",
-        "behind-mcq-27",
-        "behind-mcq-31",
-        "behind-mcq-26"
+        "behind-mcq-07",
+        "behind-mcq-19",
+        "behind-mcq-20"
       ],
       "explanation": "本句的「behind his apology」指「推動 X 或透過 X 表達出來的內在感情／真心」。",
       "sentenceIndex": 33,
@@ -1750,12 +1647,10 @@ export default {
         "behind his apology"
       ],
       "optionReasons": {
-        "behind-mcq-29": "本句指「推動 X 或透過 X 表達出來的內在感情／真心」。",
-        "behind-mcq-28": "「X 所根據的理念、推理或思考方式」是「14. the idea / thinking behind something — 某事背後的理念／思路」的用法，與本句語境不同。",
-        "behind-mcq-30": "「詢問造成 X 的真正原因、動機或機制」是「18. what's behind something? — 甚麼導致……？背後是甚麼？」的用法，與本句語境不同。",
-        "behind-mcq-27": "「構成 X 內在原因、動機、想法或感情的東西」是「12. behind something（背後原因／動機） — 在……背後；是其原因」的用法，與本句語境不同。",
-        "behind-mcq-31": "「離開、死亡或結束後，仍有 X 留存」是「27. leave a legacy / something behind — 留下遺產／影響」的用法，與本句語境不同。",
-        "behind-mcq-26": "「臀部；屁股」是「behind (noun)」的用法，與本句語境不同。"
+        "behind-mcq-29": "本句的「behind his apology」指「推動 X 或透過 X 表達出來的內在感情／真心」。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-29"
     },
@@ -1767,11 +1662,9 @@ export default {
       "masked": "Who was ____?",
       "options": [
         "behind-mcq-13",
-        "behind-mcq-12",
-        "behind-mcq-14",
-        "behind-mcq-11",
-        "behind-mcq-15",
-        "behind-mcq-10"
+        "behind-reviewed-46d1aac86c",
+        "behind-mcq-26",
+        "behind-mcq-18"
       ],
       "explanation": "本句的「behind the campaign」指「是 X 的幕後原因／策劃者」。",
       "sentenceIndex": 34,
@@ -1780,12 +1673,10 @@ export default {
         "behind the campaign"
       ],
       "optionReasons": {
-        "behind-mcq-13": "本句指「是 X 的幕後原因／策劃者」。",
-        "behind-mcq-12": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "behind-mcq-14": "「支持某人」是「be behind someone」的用法，與本句語境不同。",
-        "behind-mcq-11": "「X 背後的含意」是「meaning behind X」的用法，與本句語境不同。",
-        "behind-mcq-15": "「支持 X」是「get behind X」的用法，與本句語境不同。",
-        "behind-mcq-10": "「X 背後的原因」是「reason behind X」的用法，與本句語境不同。"
+        "behind-mcq-13": "本句的「behind the campaign」指「是 X 的幕後原因／策劃者」。",
+        "behind-reviewed-46d1aac86c": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-13"
     },
@@ -1797,11 +1688,9 @@ export default {
       "masked": "Investigators wanted to know who was ____.",
       "options": [
         "behind-mcq-13",
-        "behind-mcq-12",
-        "behind-mcq-14",
-        "behind-mcq-11",
-        "behind-mcq-15",
-        "behind-mcq-10"
+        "behind-mcq-25",
+        "behind-mcq-06",
+        "behind-reviewed-a3d9387ee8"
       ],
       "explanation": "本句的「behind the scheme」指「是 X 的幕後原因／策劃者」。",
       "sentenceIndex": 35,
@@ -1810,12 +1699,10 @@ export default {
         "behind the scheme"
       ],
       "optionReasons": {
-        "behind-mcq-13": "本句指「是 X 的幕後原因／策劃者」。",
-        "behind-mcq-12": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "behind-mcq-14": "「支持某人」是「be behind someone」的用法，與本句語境不同。",
-        "behind-mcq-11": "「X 背後的含意」是「meaning behind X」的用法，與本句語境不同。",
-        "behind-mcq-15": "「支持 X」是「get behind X」的用法，與本句語境不同。",
-        "behind-mcq-10": "「X 背後的原因」是「reason behind X」的用法，與本句語境不同。"
+        "behind-mcq-13": "本句的「behind the scheme」指「是 X 的幕後原因／策劃者」。",
+        "behind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "behind-reviewed-a3d9387ee8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-13"
     },
@@ -1827,11 +1714,9 @@ export default {
       "masked": "What's ____?",
       "options": [
         "behind-mcq-30",
-        "behind-mcq-29",
-        "behind-mcq-31",
-        "behind-mcq-28",
-        "behind-mcq-32",
-        "behind-mcq-27"
+        "behind-mcq-17",
+        "behind-pdf-001",
+        "behind-mcq-31"
       ],
       "explanation": "本句的「behind the sudden change」指「詢問造成 X 的真正原因、動機或機制」。",
       "sentenceIndex": 36,
@@ -1840,12 +1725,10 @@ export default {
         "behind the sudden change"
       ],
       "optionReasons": {
-        "behind-mcq-30": "本句指「詢問造成 X 的真正原因、動機或機制」。",
-        "behind-mcq-29": "「推動 X 或透過 X 表達出來的內在感情／真心」是「16. the emotion / sincerity behind something — 某事背後的感情／真誠」的用法，與本句語境不同。",
-        "behind-mcq-31": "「離開、死亡或結束後，仍有 X 留存」是「27. leave a legacy / something behind — 留下遺產／影響」的用法，與本句語境不同。",
-        "behind-mcq-28": "「X 所根據的理念、推理或思考方式」是「14. the idea / thinking behind something — 某事背後的理念／思路」的用法，與本句語境不同。",
-        "behind-mcq-32": "「接受 X 已經過去，不再讓它影響自己」是「32. put something behind you — 放下不愉快的事情」的用法，與本句語境不同。",
-        "behind-mcq-27": "「構成 X 內在原因、動機、想法或感情的東西」是「12. behind something（背後原因／動機） — 在……背後；是其原因」的用法，與本句語境不同。"
+        "behind-mcq-30": "本句的「behind the sudden change」指「詢問造成 X 的真正原因、動機或機制」。",
+        "behind-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "behind-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-30"
     },
@@ -1857,11 +1740,9 @@ export default {
       "masked": "Researchers are trying to find out what's ____.",
       "options": [
         "behind-mcq-30",
-        "behind-mcq-29",
-        "behind-mcq-31",
-        "behind-mcq-28",
-        "behind-mcq-32",
-        "behind-mcq-27"
+        "behind-mcq-24",
+        "behind-mcq-11",
+        "behind-pdf-001"
       ],
       "explanation": "本句的「behind the problem」指「詢問造成 X 的真正原因、動機或機制」。",
       "sentenceIndex": 37,
@@ -1870,12 +1751,10 @@ export default {
         "behind the problem"
       ],
       "optionReasons": {
-        "behind-mcq-30": "本句指「詢問造成 X 的真正原因、動機或機制」。",
-        "behind-mcq-29": "「推動 X 或透過 X 表達出來的內在感情／真心」是「16. the emotion / sincerity behind something — 某事背後的感情／真誠」的用法，與本句語境不同。",
-        "behind-mcq-31": "「離開、死亡或結束後，仍有 X 留存」是「27. leave a legacy / something behind — 留下遺產／影響」的用法，與本句語境不同。",
-        "behind-mcq-28": "「X 所根據的理念、推理或思考方式」是「14. the idea / thinking behind something — 某事背後的理念／思路」的用法，與本句語境不同。",
-        "behind-mcq-32": "「接受 X 已經過去，不再讓它影響自己」是「32. put something behind you — 放下不愉快的事情」的用法，與本句語境不同。",
-        "behind-mcq-27": "「構成 X 內在原因、動機、想法或感情的東西」是「12. behind something（背後原因／動機） — 在……背後；是其原因」的用法，與本句語境不同。"
+        "behind-mcq-30": "本句的「behind the problem」指「詢問造成 X 的真正原因、動機或機制」。",
+        "behind-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "behind-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-30"
     },
@@ -1887,10 +1766,8 @@ export default {
       "masked": "The whole team is ____.",
       "options": [
         "behind-mcq-14",
-        "behind-mcq-13",
-        "behind-mcq-15",
-        "behind-mcq-12",
-        "behind-mcq-16",
+        "behind-mcq-05",
+        "behind-mcq-31",
         "behind-mcq-11"
       ],
       "explanation": "本句的「behind you」指「支持某人」。",
@@ -1900,12 +1777,10 @@ export default {
         "behind you"
       ],
       "optionReasons": {
-        "behind-mcq-14": "本句指「支持某人」。",
-        "behind-mcq-13": "「是 X 的幕後原因／策劃者」是「be behind X」的用法，與本句語境不同。",
-        "behind-mcq-15": "「支持 X」是「get behind X」的用法，與本句語境不同。",
-        "behind-mcq-12": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "behind-mcq-16": "「幕後」是「behind the scenes」的用法，與本句語境不同。",
-        "behind-mcq-11": "「X 背後的含意」是「meaning behind X」的用法，與本句語境不同。"
+        "behind-mcq-14": "本句的「behind you」指「支持某人」。",
+        "behind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-14"
     },
@@ -1917,11 +1792,9 @@ export default {
       "masked": "Her family stood ____ throughout the difficult period.",
       "options": [
         "behind-mcq-14",
-        "behind-mcq-13",
-        "behind-mcq-15",
-        "behind-mcq-12",
-        "behind-mcq-16",
-        "behind-mcq-11"
+        "behind-mcq-31",
+        "behind-mcq-32",
+        "behind-mcq-28"
       ],
       "explanation": "本句的「behind her」指「支持某人」。",
       "sentenceIndex": 39,
@@ -1930,12 +1803,10 @@ export default {
         "behind her"
       ],
       "optionReasons": {
-        "behind-mcq-14": "本句指「支持某人」。",
-        "behind-mcq-13": "「是 X 的幕後原因／策劃者」是「be behind X」的用法，與本句語境不同。",
-        "behind-mcq-15": "「支持 X」是「get behind X」的用法，與本句語境不同。",
-        "behind-mcq-12": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "behind-mcq-16": "「幕後」是「behind the scenes」的用法，與本句語境不同。",
-        "behind-mcq-11": "「X 背後的含意」是「meaning behind X」的用法，與本句語境不同。"
+        "behind-mcq-14": "本句的「behind her」指「支持某人」。",
+        "behind-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-14"
     },
@@ -1947,11 +1818,9 @@ export default {
       "masked": "We all need to ____.",
       "options": [
         "behind-mcq-14",
-        "behind-mcq-13",
-        "behind-mcq-15",
-        "behind-mcq-12",
-        "behind-mcq-16",
-        "behind-mcq-11"
+        "behind-mcq-23",
+        "behind-mcq-04",
+        "behind-mcq-28"
       ],
       "explanation": "本句的「get behind the project」指「支持某人」。",
       "sentenceIndex": 40,
@@ -1960,12 +1829,10 @@ export default {
         "get behind the project"
       ],
       "optionReasons": {
-        "behind-mcq-14": "本句指「支持某人」。",
-        "behind-mcq-13": "「是 X 的幕後原因／策劃者」是「be behind X」的用法，與本句語境不同。",
-        "behind-mcq-15": "「支持 X」是「get behind X」的用法，與本句語境不同。",
-        "behind-mcq-12": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "behind-mcq-16": "「幕後」是「behind the scenes」的用法，與本句語境不同。",
-        "behind-mcq-11": "「X 背後的含意」是「meaning behind X」的用法，與本句語境不同。"
+        "behind-mcq-14": "本句的「get behind the project」指「支持某人」。",
+        "behind-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-14"
     },
@@ -1977,11 +1844,9 @@ export default {
       "masked": "The community ____.",
       "options": [
         "behind-mcq-14",
-        "behind-mcq-13",
-        "behind-mcq-15",
-        "behind-mcq-12",
-        "behind-mcq-16",
-        "behind-mcq-11"
+        "behind-mcq-18",
+        "behind-mcq-10",
+        "behind-mcq-21"
       ],
       "explanation": "本句的「got behind the campaign」指「支持某人」。",
       "sentenceIndex": 41,
@@ -1990,12 +1855,10 @@ export default {
         "got behind the campaign"
       ],
       "optionReasons": {
-        "behind-mcq-14": "本句指「支持某人」。",
-        "behind-mcq-13": "「是 X 的幕後原因／策劃者」是「be behind X」的用法，與本句語境不同。",
-        "behind-mcq-15": "「支持 X」是「get behind X」的用法，與本句語境不同。",
-        "behind-mcq-12": "「X 背後的真誠」是「sincerity behind X」的用法，與本句語境不同。",
-        "behind-mcq-16": "「幕後」是「behind the scenes」的用法，與本句語境不同。",
-        "behind-mcq-11": "「X 背後的含意」是「meaning behind X」的用法，與本句語境不同。"
+        "behind-mcq-14": "本句的「got behind the campaign」指「支持某人」。",
+        "behind-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-14"
     },
@@ -2007,11 +1870,9 @@ export default {
       "masked": "A lot of work happens ____.",
       "options": [
         "behind-mcq-16",
-        "behind-mcq-15",
-        "behind-mcq-17",
+        "behind-mcq-28",
         "behind-mcq-14",
-        "behind-mcq-18",
-        "behind-mcq-13"
+        "behind-mcq-23"
       ],
       "explanation": "本句的「behind the scenes」指「幕後」。",
       "sentenceIndex": 42,
@@ -2020,12 +1881,10 @@ export default {
         "behind the scenes"
       ],
       "optionReasons": {
-        "behind-mcq-16": "本句指「幕後」。",
-        "behind-mcq-15": "「支持 X」是「get behind X」的用法，與本句語境不同。",
-        "behind-mcq-17": "「背着某人」是「behind someone's back」的用法，與本句語境不同。",
-        "behind-mcq-14": "「支持某人」是「be behind someone」的用法，與本句語境不同。",
-        "behind-mcq-18": "「閉門／秘密進行」是「behind closed doors」的用法，與本句語境不同。",
-        "behind-mcq-13": "「是 X 的幕後原因／策劃者」是「be behind X」的用法，與本句語境不同。"
+        "behind-mcq-16": "本句的「behind the scenes」指「幕後」。",
+        "behind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-16"
     },
@@ -2037,11 +1896,9 @@ export default {
       "masked": "She played an important role ____.",
       "options": [
         "behind-mcq-16",
-        "behind-mcq-15",
-        "behind-mcq-17",
-        "behind-mcq-14",
+        "behind-mcq-25",
         "behind-mcq-18",
-        "behind-mcq-13"
+        "behind-mcq-21"
       ],
       "explanation": "本句的「behind the scenes」指「幕後」。",
       "sentenceIndex": 43,
@@ -2050,12 +1907,10 @@ export default {
         "behind the scenes"
       ],
       "optionReasons": {
-        "behind-mcq-16": "本句指「幕後」。",
-        "behind-mcq-15": "「支持 X」是「get behind X」的用法，與本句語境不同。",
-        "behind-mcq-17": "「背着某人」是「behind someone's back」的用法，與本句語境不同。",
-        "behind-mcq-14": "「支持某人」是「be behind someone」的用法，與本句語境不同。",
-        "behind-mcq-18": "「閉門／秘密進行」是「behind closed doors」的用法，與本句語境不同。",
-        "behind-mcq-13": "「是 X 的幕後原因／策劃者」是「be behind X」的用法，與本句語境不同。"
+        "behind-mcq-16": "本句的「behind the scenes」指「幕後」。",
+        "behind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-16"
     },
@@ -2067,11 +1922,9 @@ export default {
       "masked": "They discussed me ____.",
       "options": [
         "behind-mcq-17",
-        "behind-mcq-16",
-        "behind-mcq-18",
-        "behind-mcq-15",
-        "behind-mcq-19",
-        "behind-mcq-14"
+        "behind-pdf-001",
+        "behind-mcq-28",
+        "behind-mcq-07"
       ],
       "explanation": "本句的「behind my back」指「背着某人」。",
       "sentenceIndex": 44,
@@ -2080,12 +1933,10 @@ export default {
         "behind my back"
       ],
       "optionReasons": {
-        "behind-mcq-17": "本句指「背着某人」。",
-        "behind-mcq-16": "「幕後」是「behind the scenes」的用法，與本句語境不同。",
-        "behind-mcq-18": "「閉門／秘密進行」是「behind closed doors」的用法，與本句語境不同。",
-        "behind-mcq-15": "「支持 X」是「get behind X」的用法，與本句語境不同。",
-        "behind-mcq-19": "「留下／遺下 X」是「leave X behind」的用法，與本句語境不同。",
-        "behind-mcq-14": "「支持某人」是「be behind someone」的用法，與本句語境不同。"
+        "behind-mcq-17": "本句的「behind my back」指「背着某人」。",
+        "behind-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-17"
     },
@@ -2097,11 +1948,9 @@ export default {
       "masked": "Don't make decisions ____.",
       "options": [
         "behind-mcq-17",
-        "behind-mcq-16",
-        "behind-mcq-18",
-        "behind-mcq-15",
-        "behind-mcq-19",
-        "behind-mcq-14"
+        "behind-mcq-13",
+        "behind-mcq-31",
+        "behind-mcq-07"
       ],
       "explanation": "本句的「behind her back」指「背着某人」。",
       "sentenceIndex": 45,
@@ -2110,12 +1959,10 @@ export default {
         "behind her back"
       ],
       "optionReasons": {
-        "behind-mcq-17": "本句指「背着某人」。",
-        "behind-mcq-16": "「幕後」是「behind the scenes」的用法，與本句語境不同。",
-        "behind-mcq-18": "「閉門／秘密進行」是「behind closed doors」的用法，與本句語境不同。",
-        "behind-mcq-15": "「支持 X」是「get behind X」的用法，與本句語境不同。",
-        "behind-mcq-19": "「留下／遺下 X」是「leave X behind」的用法，與本句語境不同。",
-        "behind-mcq-14": "「支持某人」是「be behind someone」的用法，與本句語境不同。"
+        "behind-mcq-17": "本句的「behind her back」指「背着某人」。",
+        "behind-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-17"
     },
@@ -2127,11 +1974,9 @@ export default {
       "masked": "He ____ and changed the plan.",
       "options": [
         "behind-mcq-17",
-        "behind-mcq-16",
-        "behind-mcq-18",
-        "behind-mcq-15",
-        "behind-mcq-19",
-        "behind-mcq-14"
+        "behind-mcq-24",
+        "behind-mcq-31",
+        "behind-mcq-05"
       ],
       "explanation": "本句的「went behind my back」指「背着某人」。",
       "sentenceIndex": 46,
@@ -2140,12 +1985,10 @@ export default {
         "went behind my back"
       ],
       "optionReasons": {
-        "behind-mcq-17": "本句指「背着某人」。",
-        "behind-mcq-16": "「幕後」是「behind the scenes」的用法，與本句語境不同。",
-        "behind-mcq-18": "「閉門／秘密進行」是「behind closed doors」的用法，與本句語境不同。",
-        "behind-mcq-15": "「支持 X」是「get behind X」的用法，與本句語境不同。",
-        "behind-mcq-19": "「留下／遺下 X」是「leave X behind」的用法，與本句語境不同。",
-        "behind-mcq-14": "「支持某人」是「be behind someone」的用法，與本句語境不同。"
+        "behind-mcq-17": "本句的「went behind my back」指「背着某人」。",
+        "behind-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-17"
     },
@@ -2157,11 +2000,9 @@ export default {
       "masked": "She felt betrayed because they had ____.",
       "options": [
         "behind-mcq-17",
-        "behind-mcq-16",
+        "behind-mcq-30",
         "behind-mcq-18",
-        "behind-mcq-15",
-        "behind-mcq-19",
-        "behind-mcq-14"
+        "behind-pdf-001"
       ],
       "explanation": "本句的「gone behind her back」指「背着某人」。",
       "sentenceIndex": 47,
@@ -2170,12 +2011,10 @@ export default {
         "gone behind her back"
       ],
       "optionReasons": {
-        "behind-mcq-17": "本句指「背着某人」。",
-        "behind-mcq-16": "「幕後」是「behind the scenes」的用法，與本句語境不同。",
-        "behind-mcq-18": "「閉門／秘密進行」是「behind closed doors」的用法，與本句語境不同。",
-        "behind-mcq-15": "「支持 X」是「get behind X」的用法，與本句語境不同。",
-        "behind-mcq-19": "「留下／遺下 X」是「leave X behind」的用法，與本句語境不同。",
-        "behind-mcq-14": "「支持某人」是「be behind someone」的用法，與本句語境不同。"
+        "behind-mcq-17": "本句的「gone behind her back」指「背着某人」。",
+        "behind-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "behind-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-17"
     },
@@ -2187,11 +2026,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "behind-mcq-19",
-        "behind-mcq-18",
-        "behind-mcq-20",
-        "behind-mcq-17",
-        "behind-mcq-21",
-        "behind-mcq-16"
+        "behind-mcq-10",
+        "behind-pdf-001",
+        "behind-mcq-14"
       ],
       "explanation": "本句的「left my phone behind」指「留下／遺下 X」。",
       "sentenceIndex": 48,
@@ -2200,12 +2037,10 @@ export default {
         "left my phone behind"
       ],
       "optionReasons": {
-        "behind-mcq-19": "本句指「留下／遺下 X」。",
-        "behind-mcq-18": "「閉門／秘密進行」是「behind closed doors」的用法，與本句語境不同。",
-        "behind-mcq-20": "「把某人落在後面」是「leave someone behind」的用法，與本句語境不同。",
-        "behind-mcq-17": "「背着某人」是「behind someone's back」的用法，與本句語境不同。",
-        "behind-mcq-21": "「放下過去」是「leave the past behind」的用法，與本句語境不同。",
-        "behind-mcq-16": "「幕後」是「behind the scenes」的用法，與本句語境不同。"
+        "behind-mcq-19": "本句的「left my phone behind」指「留下／遺下 X」。",
+        "behind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "behind-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-19"
     },
@@ -2217,11 +2052,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "behind-mcq-19",
-        "behind-mcq-18",
-        "behind-mcq-20",
-        "behind-mcq-17",
-        "behind-mcq-21",
-        "behind-mcq-16"
+        "behind-mcq-07",
+        "behind-mcq-11",
+        "behind-mcq-05"
       ],
       "explanation": "本句的「leave anything behind」指「留下／遺下 X」。",
       "sentenceIndex": 49,
@@ -2230,12 +2063,10 @@ export default {
         "leave anything behind"
       ],
       "optionReasons": {
-        "behind-mcq-19": "本句指「留下／遺下 X」。",
-        "behind-mcq-18": "「閉門／秘密進行」是「behind closed doors」的用法，與本句語境不同。",
-        "behind-mcq-20": "「把某人落在後面」是「leave someone behind」的用法，與本句語境不同。",
-        "behind-mcq-17": "「背着某人」是「behind someone's back」的用法，與本句語境不同。",
-        "behind-mcq-21": "「放下過去」是「leave the past behind」的用法，與本句語境不同。",
-        "behind-mcq-16": "「幕後」是「behind the scenes」的用法，與本句語境不同。"
+        "behind-mcq-19": "本句的「leave anything behind」指「留下／遺下 X」。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-19"
     },
@@ -2248,10 +2079,8 @@ export default {
       "options": [
         "behind-mcq-20",
         "behind-mcq-19",
-        "behind-mcq-21",
-        "behind-mcq-18",
-        "behind-mcq-22",
-        "behind-mcq-17"
+        "behind-mcq-28",
+        "behind-pdf-001"
       ],
       "explanation": "本句的「leave me behind」指「把某人落在後面」。",
       "sentenceIndex": 50,
@@ -2260,12 +2089,10 @@ export default {
         "leave me behind"
       ],
       "optionReasons": {
-        "behind-mcq-20": "本句指「把某人落在後面」。",
-        "behind-mcq-19": "「留下／遺下 X」是「leave X behind」的用法，與本句語境不同。",
-        "behind-mcq-21": "「放下過去」是「leave the past behind」的用法，與本句語境不同。",
-        "behind-mcq-18": "「閉門／秘密進行」是「behind closed doors」的用法，與本句語境不同。",
-        "behind-mcq-22": "「放下 X」是「put X behind you」的用法，與本句語境不同。",
-        "behind-mcq-17": "「背着某人」是「behind someone's back」的用法，與本句語境不同。"
+        "behind-mcq-20": "本句的「leave me behind」指「把某人落在後面」。",
+        "behind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "behind-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-20"
     },
@@ -2277,11 +2104,9 @@ export default {
       "masked": "The group moved too quickly and ____.",
       "options": [
         "behind-mcq-20",
-        "behind-mcq-19",
-        "behind-mcq-21",
-        "behind-mcq-18",
-        "behind-mcq-22",
-        "behind-mcq-17"
+        "behind-mcq-30",
+        "behind-mcq-28",
+        "behind-mcq-26"
       ],
       "explanation": "本句的「left him behind」指「把某人落在後面」。",
       "sentenceIndex": 51,
@@ -2290,12 +2115,10 @@ export default {
         "left him behind"
       ],
       "optionReasons": {
-        "behind-mcq-20": "本句指「把某人落在後面」。",
-        "behind-mcq-19": "「留下／遺下 X」是「leave X behind」的用法，與本句語境不同。",
-        "behind-mcq-21": "「放下過去」是「leave the past behind」的用法，與本句語境不同。",
-        "behind-mcq-18": "「閉門／秘密進行」是「behind closed doors」的用法，與本句語境不同。",
-        "behind-mcq-22": "「放下 X」是「put X behind you」的用法，與本句語境不同。",
-        "behind-mcq-17": "「背着某人」是「behind someone's back」的用法，與本句語境不同。"
+        "behind-mcq-20": "本句的「left him behind」指「把某人落在後面」。",
+        "behind-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-20"
     },
@@ -2307,11 +2130,9 @@ export default {
       "masked": "She wanted to ____.",
       "options": [
         "behind-mcq-21",
-        "behind-mcq-20",
-        "behind-mcq-22",
-        "behind-mcq-19",
-        "behind-mcq-23",
-        "behind-mcq-18"
+        "behind-mcq-25",
+        "behind-mcq-07",
+        "behind-mcq-06"
       ],
       "explanation": "本句的「leave the past behind」指「放下過去」。",
       "sentenceIndex": 52,
@@ -2320,12 +2141,10 @@ export default {
         "leave the past behind"
       ],
       "optionReasons": {
-        "behind-mcq-21": "本句指「放下過去」。",
-        "behind-mcq-20": "「把某人落在後面」是「leave someone behind」的用法，與本句語境不同。",
-        "behind-mcq-22": "「放下 X」是「put X behind you」的用法，與本句語境不同。",
-        "behind-mcq-19": "「留下／遺下 X」是「leave X behind」的用法，與本句語境不同。",
-        "behind-mcq-23": "「在監獄中」是「behind bars」的用法，與本句語境不同。",
-        "behind-mcq-18": "「閉門／秘密進行」是「behind closed doors」的用法，與本句語境不同。"
+        "behind-mcq-21": "本句的「leave the past behind」指「放下過去」。",
+        "behind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-21"
     },
@@ -2337,11 +2156,9 @@ export default {
       "masked": "It's time to ____ and move on.",
       "options": [
         "behind-mcq-21",
-        "behind-mcq-20",
-        "behind-mcq-22",
-        "behind-mcq-19",
-        "behind-mcq-23",
-        "behind-mcq-18"
+        "behind-mcq-27",
+        "behind-mcq-01",
+        "behind-mcq-17"
       ],
       "explanation": "本句的「leave the argument behind」指「放下過去」。",
       "sentenceIndex": 53,
@@ -2350,12 +2167,10 @@ export default {
         "leave the argument behind"
       ],
       "optionReasons": {
-        "behind-mcq-21": "本句指「放下過去」。",
-        "behind-mcq-20": "「把某人落在後面」是「leave someone behind」的用法，與本句語境不同。",
-        "behind-mcq-22": "「放下 X」是「put X behind you」的用法，與本句語境不同。",
-        "behind-mcq-19": "「留下／遺下 X」是「leave X behind」的用法，與本句語境不同。",
-        "behind-mcq-23": "「在監獄中」是「behind bars」的用法，與本句語境不同。",
-        "behind-mcq-18": "「閉門／秘密進行」是「behind closed doors」的用法，與本句語境不同。"
+        "behind-mcq-21": "本句的「leave the argument behind」指「放下過去」。",
+        "behind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-21"
     },
@@ -2367,11 +2182,9 @@ export default {
       "masked": "He ____ a large collection of writings.",
       "options": [
         "behind-mcq-31",
-        "behind-mcq-30",
         "behind-mcq-32",
-        "behind-mcq-29",
-        "behind-mcq-28",
-        "behind-mcq-27"
+        "behind-mcq-14",
+        "behind-mcq-29"
       ],
       "explanation": "本句的「left behind」指「離開、死亡或結束後，仍有 X 留存」。",
       "sentenceIndex": 54,
@@ -2380,12 +2193,10 @@ export default {
         "left behind"
       ],
       "optionReasons": {
-        "behind-mcq-31": "本句指「離開、死亡或結束後，仍有 X 留存」。",
-        "behind-mcq-30": "「詢問造成 X 的真正原因、動機或機制」是「18. what's behind something? — 甚麼導致……？背後是甚麼？」的用法，與本句語境不同。",
-        "behind-mcq-32": "「接受 X 已經過去，不再讓它影響自己」是「32. put something behind you — 放下不愉快的事情」的用法，與本句語境不同。",
-        "behind-mcq-29": "「推動 X 或透過 X 表達出來的內在感情／真心」是「16. the emotion / sincerity behind something — 某事背後的感情／真誠」的用法，與本句語境不同。",
-        "behind-mcq-28": "「X 所根據的理念、推理或思考方式」是「14. the idea / thinking behind something — 某事背後的理念／思路」的用法，與本句語境不同。",
-        "behind-mcq-27": "「構成 X 內在原因、動機、想法或感情的東西」是「12. behind something（背後原因／動機） — 在……背後；是其原因」的用法，與本句語境不同。"
+        "behind-mcq-31": "本句的「left behind」指「離開、死亡或結束後，仍有 X 留存」。",
+        "behind-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-31"
     },
@@ -2397,11 +2208,9 @@ export default {
       "masked": "The project ____ a useful system for future students.",
       "options": [
         "behind-mcq-31",
+        "behind-mcq-14",
         "behind-mcq-30",
-        "behind-mcq-32",
-        "behind-mcq-29",
-        "behind-mcq-28",
-        "behind-mcq-27"
+        "behind-mcq-07"
       ],
       "explanation": "本句的「left behind」指「離開、死亡或結束後，仍有 X 留存」。",
       "sentenceIndex": 55,
@@ -2410,12 +2219,10 @@ export default {
         "left behind"
       ],
       "optionReasons": {
-        "behind-mcq-31": "本句指「離開、死亡或結束後，仍有 X 留存」。",
-        "behind-mcq-30": "「詢問造成 X 的真正原因、動機或機制」是「18. what's behind something? — 甚麼導致……？背後是甚麼？」的用法，與本句語境不同。",
-        "behind-mcq-32": "「接受 X 已經過去，不再讓它影響自己」是「32. put something behind you — 放下不愉快的事情」的用法，與本句語境不同。",
-        "behind-mcq-29": "「推動 X 或透過 X 表達出來的內在感情／真心」是「16. the emotion / sincerity behind something — 某事背後的感情／真誠」的用法，與本句語境不同。",
-        "behind-mcq-28": "「X 所根據的理念、推理或思考方式」是「14. the idea / thinking behind something — 某事背後的理念／思路」的用法，與本句語境不同。",
-        "behind-mcq-27": "「構成 X 內在原因、動機、想法或感情的東西」是「12. behind something（背後原因／動機） — 在……背後；是其原因」的用法，與本句語境不同。"
+        "behind-mcq-31": "本句的「left behind」指「離開、死亡或結束後，仍有 X 留存」。",
+        "behind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-31"
     },
@@ -2427,11 +2234,9 @@ export default {
       "masked": "The discussion took place ____.",
       "options": [
         "behind-mcq-18",
-        "behind-mcq-17",
-        "behind-mcq-19",
-        "behind-mcq-16",
-        "behind-mcq-20",
-        "behind-mcq-15"
+        "behind-mcq-04",
+        "behind-mcq-14",
+        "behind-mcq-21"
       ],
       "explanation": "本句的「behind closed doors」指「閉門／秘密進行」。",
       "sentenceIndex": 56,
@@ -2440,12 +2245,10 @@ export default {
         "behind closed doors"
       ],
       "optionReasons": {
-        "behind-mcq-18": "本句指「閉門／秘密進行」。",
-        "behind-mcq-17": "「背着某人」是「behind someone's back」的用法，與本句語境不同。",
-        "behind-mcq-19": "「留下／遺下 X」是「leave X behind」的用法，與本句語境不同。",
-        "behind-mcq-16": "「幕後」是「behind the scenes」的用法，與本句語境不同。",
-        "behind-mcq-20": "「把某人落在後面」是「leave someone behind」的用法，與本句語境不同。",
-        "behind-mcq-15": "「支持 X」是「get behind X」的用法，與本句語境不同。"
+        "behind-mcq-18": "本句的「behind closed doors」指「閉門／秘密進行」。",
+        "behind-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-18"
     },
@@ -2457,11 +2260,9 @@ export default {
       "masked": "They reached the agreement ____.",
       "options": [
         "behind-mcq-18",
-        "behind-mcq-17",
-        "behind-mcq-19",
-        "behind-mcq-16",
-        "behind-mcq-20",
-        "behind-mcq-15"
+        "behind-mcq-10",
+        "behind-mcq-25",
+        "behind-mcq-07"
       ],
       "explanation": "本句的「behind closed doors」指「閉門／秘密進行」。",
       "sentenceIndex": 57,
@@ -2470,12 +2271,10 @@ export default {
         "behind closed doors"
       ],
       "optionReasons": {
-        "behind-mcq-18": "本句指「閉門／秘密進行」。",
-        "behind-mcq-17": "「背着某人」是「behind someone's back」的用法，與本句語境不同。",
-        "behind-mcq-19": "「留下／遺下 X」是「leave X behind」的用法，與本句語境不同。",
-        "behind-mcq-16": "「幕後」是「behind the scenes」的用法，與本句語境不同。",
-        "behind-mcq-20": "「把某人落在後面」是「leave someone behind」的用法，與本句語境不同。",
-        "behind-mcq-15": "「支持 X」是「get behind X」的用法，與本句語境不同。"
+        "behind-mcq-18": "本句的「behind closed doors」指「閉門／秘密進行」。",
+        "behind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-18"
     },
@@ -2487,11 +2286,9 @@ export default {
       "masked": "He spent several years ____.",
       "options": [
         "behind-mcq-23",
-        "behind-mcq-22",
-        "behind-mcq-24",
-        "behind-mcq-21",
         "behind-mcq-25",
-        "behind-mcq-20"
+        "behind-mcq-14",
+        "behind-mcq-29"
       ],
       "explanation": "本句的「behind bars」指「在監獄中」。",
       "sentenceIndex": 58,
@@ -2500,12 +2297,10 @@ export default {
         "behind bars"
       ],
       "optionReasons": {
-        "behind-mcq-23": "本句指「在監獄中」。",
-        "behind-mcq-22": "「放下 X」是「put X behind you」的用法，與本句語境不同。",
-        "behind-mcq-24": "「駕駛中」是「behind the wheel」的用法，與本句語境不同。",
-        "behind-mcq-21": "「放下過去」是「leave the past behind」的用法，與本句語境不同。",
-        "behind-mcq-25": "「落伍」是「behind the times」的用法，與本句語境不同。",
-        "behind-mcq-20": "「把某人落在後面」是「leave someone behind」的用法，與本句語境不同。"
+        "behind-mcq-23": "本句的「behind bars」指「在監獄中」。",
+        "behind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-23"
     },
@@ -2517,11 +2312,9 @@ export default {
       "masked": "The criminal was finally put ____.",
       "options": [
         "behind-mcq-23",
-        "behind-mcq-22",
-        "behind-mcq-24",
-        "behind-mcq-21",
-        "behind-mcq-25",
-        "behind-mcq-20"
+        "behind-mcq-32",
+        "behind-mcq-05",
+        "behind-mcq-14"
       ],
       "explanation": "本句的「behind bars」指「在監獄中」。",
       "sentenceIndex": 59,
@@ -2530,12 +2323,10 @@ export default {
         "behind bars"
       ],
       "optionReasons": {
-        "behind-mcq-23": "本句指「在監獄中」。",
-        "behind-mcq-22": "「放下 X」是「put X behind you」的用法，與本句語境不同。",
-        "behind-mcq-24": "「駕駛中」是「behind the wheel」的用法，與本句語境不同。",
-        "behind-mcq-21": "「放下過去」是「leave the past behind」的用法，與本句語境不同。",
-        "behind-mcq-25": "「落伍」是「behind the times」的用法，與本句語境不同。",
-        "behind-mcq-20": "「把某人落在後面」是「leave someone behind」的用法，與本句語境不同。"
+        "behind-mcq-23": "本句的「behind bars」指「在監獄中」。",
+        "behind-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-23"
     },
@@ -2547,11 +2338,9 @@ export default {
       "masked": "Don't use your phone when you're ____.",
       "options": [
         "behind-mcq-24",
-        "behind-mcq-23",
-        "behind-mcq-25",
-        "behind-mcq-22",
-        "behind-mcq-26",
-        "behind-mcq-21"
+        "behind-reviewed-46d1aac86c",
+        "behind-mcq-19",
+        "behind-mcq-18"
       ],
       "explanation": "本句的「behind the wheel」指「駕駛中」。",
       "sentenceIndex": 60,
@@ -2560,12 +2349,10 @@ export default {
         "behind the wheel"
       ],
       "optionReasons": {
-        "behind-mcq-24": "本句指「駕駛中」。",
-        "behind-mcq-23": "「在監獄中」是「behind bars」的用法，與本句語境不同。",
-        "behind-mcq-25": "「落伍」是「behind the times」的用法，與本句語境不同。",
-        "behind-mcq-22": "「放下 X」是「put X behind you」的用法，與本句語境不同。",
-        "behind-mcq-26": "「臀部；屁股」是「behind (noun)」的用法，與本句語境不同。",
-        "behind-mcq-21": "「放下過去」是「leave the past behind」的用法，與本句語境不同。"
+        "behind-mcq-24": "本句的「behind the wheel」指「駕駛中」。",
+        "behind-reviewed-46d1aac86c": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-24"
     },
@@ -2577,11 +2364,9 @@ export default {
       "masked": "She feels confident ____.",
       "options": [
         "behind-mcq-24",
-        "behind-mcq-23",
-        "behind-mcq-25",
-        "behind-mcq-22",
-        "behind-mcq-26",
-        "behind-mcq-21"
+        "behind-reviewed-a3d9387ee8",
+        "behind-mcq-28",
+        "behind-mcq-07"
       ],
       "explanation": "本句的「behind the wheel」指「駕駛中」。",
       "sentenceIndex": 61,
@@ -2590,12 +2375,10 @@ export default {
         "behind the wheel"
       ],
       "optionReasons": {
-        "behind-mcq-24": "本句指「駕駛中」。",
-        "behind-mcq-23": "「在監獄中」是「behind bars」的用法，與本句語境不同。",
-        "behind-mcq-25": "「落伍」是「behind the times」的用法，與本句語境不同。",
-        "behind-mcq-22": "「放下 X」是「put X behind you」的用法，與本句語境不同。",
-        "behind-mcq-26": "「臀部；屁股」是「behind (noun)」的用法，與本句語境不同。",
-        "behind-mcq-21": "「放下過去」是「leave the past behind」的用法，與本句語境不同。"
+        "behind-mcq-24": "本句的「behind the wheel」指「駕駛中」。",
+        "behind-reviewed-a3d9387ee8": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-24"
     },
@@ -2607,11 +2390,9 @@ export default {
       "masked": "Their system is badly ____.",
       "options": [
         "behind-mcq-25",
-        "behind-mcq-24",
-        "behind-mcq-26",
-        "behind-mcq-23",
-        "behind-mcq-27",
-        "behind-mcq-22"
+        "behind-mcq-30",
+        "behind-mcq-01",
+        "behind-mcq-32"
       ],
       "explanation": "本句的「behind the times」指「落伍」。",
       "sentenceIndex": 62,
@@ -2620,12 +2401,10 @@ export default {
         "behind the times"
       ],
       "optionReasons": {
-        "behind-mcq-25": "本句指「落伍」。",
-        "behind-mcq-24": "「駕駛中」是「behind the wheel」的用法，與本句語境不同。",
-        "behind-mcq-26": "「臀部；屁股」是「behind (noun)」的用法，與本句語境不同。",
-        "behind-mcq-23": "「在監獄中」是「behind bars」的用法，與本句語境不同。",
-        "behind-mcq-27": "「構成 X 內在原因、動機、想法或感情的東西」是「12. behind something（背後原因／動機） — 在……背後；是其原因」的用法，與本句語境不同。",
-        "behind-mcq-22": "「放下 X」是「put X behind you」的用法，與本句語境不同。"
+        "behind-mcq-25": "本句的「behind the times」指「落伍」。",
+        "behind-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-25"
     },
@@ -2637,11 +2416,9 @@ export default {
       "masked": "That attitude feels ____.",
       "options": [
         "behind-mcq-25",
-        "behind-mcq-24",
-        "behind-mcq-26",
-        "behind-mcq-23",
-        "behind-mcq-27",
-        "behind-mcq-22"
+        "behind-reviewed-a3d9387ee8",
+        "behind-mcq-07",
+        "behind-mcq-01"
       ],
       "explanation": "本句的「behind the times」指「落伍」。",
       "sentenceIndex": 63,
@@ -2650,12 +2427,10 @@ export default {
         "behind the times"
       ],
       "optionReasons": {
-        "behind-mcq-25": "本句指「落伍」。",
-        "behind-mcq-24": "「駕駛中」是「behind the wheel」的用法，與本句語境不同。",
-        "behind-mcq-26": "「臀部；屁股」是「behind (noun)」的用法，與本句語境不同。",
-        "behind-mcq-23": "「在監獄中」是「behind bars」的用法，與本句語境不同。",
-        "behind-mcq-27": "「構成 X 內在原因、動機、想法或感情的東西」是「12. behind something（背後原因／動機） — 在……背後；是其原因」的用法，與本句語境不同。",
-        "behind-mcq-22": "「放下 X」是「put X behind you」的用法，與本句語境不同。"
+        "behind-mcq-25": "本句的「behind the times」指「落伍」。",
+        "behind-reviewed-a3d9387ee8": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-25"
     },
@@ -2667,11 +2442,9 @@ export default {
       "masked": "I wanted to ____.",
       "options": [
         "behind-mcq-32",
-        "behind-mcq-31",
-        "behind-mcq-30",
-        "behind-mcq-29",
-        "behind-mcq-28",
-        "behind-mcq-27"
+        "behind-mcq-10",
+        "behind-mcq-07",
+        "behind-mcq-05"
       ],
       "explanation": "本句的「put the misunderstanding behind me」指「接受 X 已經過去，不再讓它影響自己」。",
       "sentenceIndex": 64,
@@ -2680,12 +2453,10 @@ export default {
         "put the misunderstanding behind me"
       ],
       "optionReasons": {
-        "behind-mcq-32": "本句指「接受 X 已經過去，不再讓它影響自己」。",
-        "behind-mcq-31": "「離開、死亡或結束後，仍有 X 留存」是「27. leave a legacy / something behind — 留下遺產／影響」的用法，與本句語境不同。",
-        "behind-mcq-30": "「詢問造成 X 的真正原因、動機或機制」是「18. what's behind something? — 甚麼導致……？背後是甚麼？」的用法，與本句語境不同。",
-        "behind-mcq-29": "「推動 X 或透過 X 表達出來的內在感情／真心」是「16. the emotion / sincerity behind something — 某事背後的感情／真誠」的用法，與本句語境不同。",
-        "behind-mcq-28": "「X 所根據的理念、推理或思考方式」是「14. the idea / thinking behind something — 某事背後的理念／思路」的用法，與本句語境不同。",
-        "behind-mcq-27": "「構成 X 內在原因、動機、想法或感情的東西」是「12. behind something（背後原因／動機） — 在……背後；是其原因」的用法，與本句語境不同。"
+        "behind-mcq-32": "本句的「put the misunderstanding behind me」指「接受 X 已經過去，不再讓它影響自己」。",
+        "behind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-32"
     },
@@ -2697,11 +2468,9 @@ export default {
       "masked": "They apologized and decided to ____.",
       "options": [
         "behind-mcq-32",
-        "behind-mcq-31",
-        "behind-mcq-30",
-        "behind-mcq-29",
-        "behind-mcq-28",
-        "behind-mcq-27"
+        "behind-mcq-23",
+        "behind-mcq-17",
+        "behind-mcq-03"
       ],
       "explanation": "本句的「put the incident behind them」指「接受 X 已經過去，不再讓它影響自己」。",
       "sentenceIndex": 65,
@@ -2710,12 +2479,10 @@ export default {
         "put the incident behind them"
       ],
       "optionReasons": {
-        "behind-mcq-32": "本句指「接受 X 已經過去，不再讓它影響自己」。",
-        "behind-mcq-31": "「離開、死亡或結束後，仍有 X 留存」是「27. leave a legacy / something behind — 留下遺產／影響」的用法，與本句語境不同。",
-        "behind-mcq-30": "「詢問造成 X 的真正原因、動機或機制」是「18. what's behind something? — 甚麼導致……？背後是甚麼？」的用法，與本句語境不同。",
-        "behind-mcq-29": "「推動 X 或透過 X 表達出來的內在感情／真心」是「16. the emotion / sincerity behind something — 某事背後的感情／真誠」的用法，與本句語境不同。",
-        "behind-mcq-28": "「X 所根據的理念、推理或思考方式」是「14. the idea / thinking behind something — 某事背後的理念／思路」的用法，與本句語境不同。",
-        "behind-mcq-27": "「構成 X 內在原因、動機、想法或感情的東西」是「12. behind something（背後原因／動機） — 在……背後；是其原因」的用法，與本句語境不同。"
+        "behind-mcq-32": "本句的「put the incident behind them」指「接受 X 已經過去，不再讓它影響自己」。",
+        "behind-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-32"
     },
@@ -2727,11 +2494,9 @@ export default {
       "masked": "Sit down on your ____.",
       "options": [
         "behind-mcq-26",
-        "behind-mcq-25",
+        "behind-mcq-05",
         "behind-mcq-27",
-        "behind-mcq-24",
-        "behind-mcq-28",
-        "behind-mcq-23"
+        "behind-mcq-32"
       ],
       "explanation": "本句的「behind」指「臀部；屁股」。",
       "sentenceIndex": 66,
@@ -2740,12 +2505,10 @@ export default {
         "behind"
       ],
       "optionReasons": {
-        "behind-mcq-26": "本句指「臀部；屁股」。",
-        "behind-mcq-25": "「落伍」是「behind the times」的用法，與本句語境不同。",
-        "behind-mcq-27": "「構成 X 內在原因、動機、想法或感情的東西」是「12. behind something（背後原因／動機） — 在……背後；是其原因」的用法，與本句語境不同。",
-        "behind-mcq-24": "「駕駛中」是「behind the wheel」的用法，與本句語境不同。",
-        "behind-mcq-28": "「X 所根據的理念、推理或思考方式」是「14. the idea / thinking behind something — 某事背後的理念／思路」的用法，與本句語境不同。",
-        "behind-mcq-23": "「在監獄中」是「behind bars」的用法，與本句語境不同。"
+        "behind-mcq-26": "本句的「behind」指「臀部；屁股」。",
+        "behind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-26"
     },
@@ -2757,11 +2520,9 @@ export default {
       "masked": "He fell on his ____.",
       "options": [
         "behind-mcq-26",
-        "behind-mcq-25",
-        "behind-mcq-27",
-        "behind-mcq-24",
-        "behind-mcq-28",
-        "behind-mcq-23"
+        "behind-mcq-10",
+        "behind-mcq-07",
+        "behind-mcq-28"
       ],
       "explanation": "本句的「behind」指「臀部；屁股」。",
       "sentenceIndex": 67,
@@ -2770,12 +2531,10 @@ export default {
         "behind"
       ],
       "optionReasons": {
-        "behind-mcq-26": "本句指「臀部；屁股」。",
-        "behind-mcq-25": "「落伍」是「behind the times」的用法，與本句語境不同。",
-        "behind-mcq-27": "「構成 X 內在原因、動機、想法或感情的東西」是「12. behind something（背後原因／動機） — 在……背後；是其原因」的用法，與本句語境不同。",
-        "behind-mcq-24": "「駕駛中」是「behind the wheel」的用法，與本句語境不同。",
-        "behind-mcq-28": "「X 所根據的理念、推理或思考方式」是「14. the idea / thinking behind something — 某事背後的理念／思路」的用法，與本句語境不同。",
-        "behind-mcq-23": "「在監獄中」是「behind bars」的用法，與本句語境不同。"
+        "behind-mcq-26": "本句的「behind」指「臀部；屁股」。",
+        "behind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "behind-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "behind-mcq-26"
     }
@@ -2787,5 +2546,7 @@ export default {
     "sha256": "4a15c037278f4aa4f809137333593a9b39884f6e78e09554caa60b2080db2688",
     "pages": 25
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -130,10 +130,8 @@ export default {
       "masked": "People go to the library to ____ books.",
       "options": [
         "borrow-mcq-01",
-        "borrow-mcq-02",
         "borrow-mcq-03",
-        "borrow-mcq-04",
-        "borrow-mcq-05"
+        "borrow-mcq-02"
       ],
       "explanation": "本句的「borrow」指「從別人那裡暫時取得某物使用，之後歸還」。",
       "sentenceIndex": 0,
@@ -142,11 +140,9 @@ export default {
         "borrow"
       ],
       "optionReasons": {
-        "borrow-mcq-01": "本句指「從別人那裡暫時取得某物使用，之後歸還」。",
-        "borrow-mcq-02": "「借入資金，日後需要償還」與本句語境不同。",
-        "borrow-mcq-03": "「從另一來源採用、借鑑或借用想法、風格、詞語等」與本句語境不同。",
-        "borrow-mcq-04": "「暫時挪用其他來源的資源或時間」與本句語境不同。",
-        "borrow-mcq-05": "「借入物品或金錢的人／機構」與本句語境不同。"
+        "borrow-mcq-01": "本句的「borrow」指「從別人那裡暫時取得某物使用，之後歸還」。",
+        "borrow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "borrow-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "borrow-mcq-01"
     },
@@ -158,10 +154,8 @@ export default {
       "masked": "Can I ____ your pen?",
       "options": [
         "borrow-mcq-01",
-        "borrow-mcq-02",
         "borrow-mcq-03",
-        "borrow-mcq-04",
-        "borrow-mcq-05"
+        "borrow-mcq-02"
       ],
       "explanation": "本句的「borrow」指「從別人那裡暫時取得某物使用，之後歸還」。",
       "sentenceIndex": 1,
@@ -170,11 +164,9 @@ export default {
         "borrow"
       ],
       "optionReasons": {
-        "borrow-mcq-01": "本句指「從別人那裡暫時取得某物使用，之後歸還」。",
-        "borrow-mcq-02": "「借入資金，日後需要償還」與本句語境不同。",
-        "borrow-mcq-03": "「從另一來源採用、借鑑或借用想法、風格、詞語等」與本句語境不同。",
-        "borrow-mcq-04": "「暫時挪用其他來源的資源或時間」與本句語境不同。",
-        "borrow-mcq-05": "「借入物品或金錢的人／機構」與本句語境不同。"
+        "borrow-mcq-01": "本句的「borrow」指「從別人那裡暫時取得某物使用，之後歸還」。",
+        "borrow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "borrow-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "borrow-mcq-01"
     },
@@ -186,10 +178,8 @@ export default {
       "masked": "She ____ my umbrella for the afternoon.",
       "options": [
         "borrow-mcq-01",
-        "borrow-mcq-02",
         "borrow-mcq-03",
-        "borrow-mcq-04",
-        "borrow-mcq-05"
+        "borrow-mcq-02"
       ],
       "explanation": "本句的「borrowed」指「從別人那裡暫時取得某物使用，之後歸還」。",
       "sentenceIndex": 2,
@@ -198,11 +188,9 @@ export default {
         "borrowed"
       ],
       "optionReasons": {
-        "borrow-mcq-01": "本句指「從別人那裡暫時取得某物使用，之後歸還」。",
-        "borrow-mcq-02": "「借入資金，日後需要償還」與本句語境不同。",
-        "borrow-mcq-03": "「從另一來源採用、借鑑或借用想法、風格、詞語等」與本句語境不同。",
-        "borrow-mcq-04": "「暫時挪用其他來源的資源或時間」與本句語境不同。",
-        "borrow-mcq-05": "「借入物品或金錢的人／機構」與本句語境不同。"
+        "borrow-mcq-01": "本句的「borrowed」指「從別人那裡暫時取得某物使用，之後歸還」。",
+        "borrow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "borrow-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "borrow-mcq-01"
     },
@@ -214,10 +202,7 @@ export default {
       "masked": "They had to ____ money from the bank.",
       "options": [
         "borrow-mcq-02",
-        "borrow-mcq-01",
-        "borrow-mcq-03",
-        "borrow-mcq-04",
-        "borrow-mcq-05"
+        "borrow-mcq-04"
       ],
       "explanation": "本句的「borrow」指「借入資金，日後需要償還」。",
       "sentenceIndex": 3,
@@ -226,11 +211,8 @@ export default {
         "borrow"
       ],
       "optionReasons": {
-        "borrow-mcq-02": "本句指「借入資金，日後需要償還」。",
-        "borrow-mcq-01": "「從別人那裡暫時取得某物使用，之後歸還」與本句語境不同。",
-        "borrow-mcq-03": "「從另一來源採用、借鑑或借用想法、風格、詞語等」與本句語境不同。",
-        "borrow-mcq-04": "「暫時挪用其他來源的資源或時間」與本句語境不同。",
-        "borrow-mcq-05": "「借入物品或金錢的人／機構」與本句語境不同。"
+        "borrow-mcq-02": "本句的「borrow」指「借入資金，日後需要償還」。",
+        "borrow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "borrow-mcq-02"
     },
@@ -242,10 +224,8 @@ export default {
       "masked": "The company ____ heavily to expand.",
       "options": [
         "borrow-mcq-02",
-        "borrow-mcq-01",
         "borrow-mcq-03",
-        "borrow-mcq-04",
-        "borrow-mcq-05"
+        "borrow-mcq-01"
       ],
       "explanation": "本句的「borrowed」指「借入資金，日後需要償還」。",
       "sentenceIndex": 4,
@@ -254,11 +234,9 @@ export default {
         "borrowed"
       ],
       "optionReasons": {
-        "borrow-mcq-02": "本句指「借入資金，日後需要償還」。",
-        "borrow-mcq-01": "「從別人那裡暫時取得某物使用，之後歸還」與本句語境不同。",
-        "borrow-mcq-03": "「從另一來源採用、借鑑或借用想法、風格、詞語等」與本句語境不同。",
-        "borrow-mcq-04": "「暫時挪用其他來源的資源或時間」與本句語境不同。",
-        "borrow-mcq-05": "「借入物品或金錢的人／機構」與本句語境不同。"
+        "borrow-mcq-02": "本句的「borrowed」指「借入資金，日後需要償還」。",
+        "borrow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "borrow-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "borrow-mcq-02"
     },
@@ -270,10 +248,8 @@ export default {
       "masked": "The design ____ ideas from traditional architecture.",
       "options": [
         "borrow-mcq-03",
-        "borrow-mcq-02",
-        "borrow-mcq-04",
         "borrow-mcq-01",
-        "borrow-mcq-05"
+        "borrow-mcq-02"
       ],
       "explanation": "本句的「borrows」指「從另一來源採用、借鑑或借用想法、風格、詞語等」。",
       "sentenceIndex": 5,
@@ -282,11 +258,9 @@ export default {
         "borrows"
       ],
       "optionReasons": {
-        "borrow-mcq-03": "本句指「從另一來源採用、借鑑或借用想法、風格、詞語等」。",
-        "borrow-mcq-02": "「借入資金，日後需要償還」與本句語境不同。",
-        "borrow-mcq-04": "「暫時挪用其他來源的資源或時間」與本句語境不同。",
-        "borrow-mcq-01": "「從別人那裡暫時取得某物使用，之後歸還」與本句語境不同。",
-        "borrow-mcq-05": "「借入物品或金錢的人／機構」與本句語境不同。"
+        "borrow-mcq-03": "本句的「borrows」指「從另一來源採用、借鑑或借用想法、風格、詞語等」。",
+        "borrow-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "borrow-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "borrow-mcq-03"
     },
@@ -298,10 +272,8 @@ export default {
       "masked": "English has ____ many words from other languages.",
       "options": [
         "borrow-mcq-03",
-        "borrow-mcq-02",
-        "borrow-mcq-04",
         "borrow-mcq-01",
-        "borrow-mcq-05"
+        "borrow-mcq-02"
       ],
       "explanation": "本句的「borrowed」指「從另一來源採用、借鑑或借用想法、風格、詞語等」。",
       "sentenceIndex": 6,
@@ -310,11 +282,9 @@ export default {
         "borrowed"
       ],
       "optionReasons": {
-        "borrow-mcq-03": "本句指「從另一來源採用、借鑑或借用想法、風格、詞語等」。",
-        "borrow-mcq-02": "「借入資金，日後需要償還」與本句語境不同。",
-        "borrow-mcq-04": "「暫時挪用其他來源的資源或時間」與本句語境不同。",
-        "borrow-mcq-01": "「從別人那裡暫時取得某物使用，之後歸還」與本句語境不同。",
-        "borrow-mcq-05": "「借入物品或金錢的人／機構」與本句語境不同。"
+        "borrow-mcq-03": "本句的「borrowed」指「從另一來源採用、借鑑或借用想法、風格、詞語等」。",
+        "borrow-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "borrow-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "borrow-mcq-03"
     },
@@ -326,10 +296,7 @@ export default {
       "masked": "We may need to ____ time from another part of the schedule.",
       "options": [
         "borrow-mcq-04",
-        "borrow-mcq-03",
-        "borrow-mcq-05",
-        "borrow-mcq-02",
-        "borrow-mcq-01"
+        "borrow-mcq-05"
       ],
       "explanation": "本句的「borrow」指「暫時挪用其他來源的資源或時間」。",
       "sentenceIndex": 7,
@@ -338,11 +305,8 @@ export default {
         "borrow"
       ],
       "optionReasons": {
-        "borrow-mcq-04": "本句指「暫時挪用其他來源的資源或時間」。",
-        "borrow-mcq-03": "「從另一來源採用、借鑑或借用想法、風格、詞語等」與本句語境不同。",
-        "borrow-mcq-05": "「借入物品或金錢的人／機構」與本句語境不同。",
-        "borrow-mcq-02": "「借入資金，日後需要償還」與本句語境不同。",
-        "borrow-mcq-01": "「從別人那裡暫時取得某物使用，之後歸還」與本句語境不同。"
+        "borrow-mcq-04": "本句的「borrow」指「暫時挪用其他來源的資源或時間」。",
+        "borrow-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "borrow-mcq-04"
     },
@@ -354,10 +318,7 @@ export default {
       "masked": "The project ____ resources from another department.",
       "options": [
         "borrow-mcq-04",
-        "borrow-mcq-03",
-        "borrow-mcq-05",
-        "borrow-mcq-02",
-        "borrow-mcq-01"
+        "borrow-mcq-05"
       ],
       "explanation": "本句的「borrowed」指「暫時挪用其他來源的資源或時間」。",
       "sentenceIndex": 8,
@@ -366,11 +327,8 @@ export default {
         "borrowed"
       ],
       "optionReasons": {
-        "borrow-mcq-04": "本句指「暫時挪用其他來源的資源或時間」。",
-        "borrow-mcq-03": "「從另一來源採用、借鑑或借用想法、風格、詞語等」與本句語境不同。",
-        "borrow-mcq-05": "「借入物品或金錢的人／機構」與本句語境不同。",
-        "borrow-mcq-02": "「借入資金，日後需要償還」與本句語境不同。",
-        "borrow-mcq-01": "「從別人那裡暫時取得某物使用，之後歸還」與本句語境不同。"
+        "borrow-mcq-04": "本句的「borrowed」指「暫時挪用其他來源的資源或時間」。",
+        "borrow-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "borrow-mcq-04"
     },
@@ -382,10 +340,7 @@ export default {
       "masked": "The ____ must repay the loan on time.",
       "options": [
         "borrow-mcq-05",
-        "borrow-mcq-04",
-        "borrow-mcq-03",
-        "borrow-mcq-02",
-        "borrow-mcq-01"
+        "borrow-mcq-04"
       ],
       "explanation": "本句的「borrower」指「借入物品或金錢的人／機構」。",
       "sentenceIndex": 9,
@@ -394,11 +349,8 @@ export default {
         "borrower"
       ],
       "optionReasons": {
-        "borrow-mcq-05": "本句指「借入物品或金錢的人／機構」。",
-        "borrow-mcq-04": "「暫時挪用其他來源的資源或時間」與本句語境不同。",
-        "borrow-mcq-03": "「從另一來源採用、借鑑或借用想法、風格、詞語等」與本句語境不同。",
-        "borrow-mcq-02": "「借入資金，日後需要償還」與本句語境不同。",
-        "borrow-mcq-01": "「從別人那裡暫時取得某物使用，之後歸還」與本句語境不同。"
+        "borrow-mcq-05": "本句的「borrower」指「借入物品或金錢的人／機構」。",
+        "borrow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "borrow-mcq-05"
     },
@@ -410,10 +362,7 @@ export default {
       "masked": "Library ____ can renew books online.",
       "options": [
         "borrow-mcq-05",
-        "borrow-mcq-04",
-        "borrow-mcq-03",
-        "borrow-mcq-02",
-        "borrow-mcq-01"
+        "borrow-mcq-04"
       ],
       "explanation": "本句的「borrowers」指「借入物品或金錢的人／機構」。",
       "sentenceIndex": 10,
@@ -422,11 +371,8 @@ export default {
         "borrowers"
       ],
       "optionReasons": {
-        "borrow-mcq-05": "本句指「借入物品或金錢的人／機構」。",
-        "borrow-mcq-04": "「暫時挪用其他來源的資源或時間」與本句語境不同。",
-        "borrow-mcq-03": "「從另一來源採用、借鑑或借用想法、風格、詞語等」與本句語境不同。",
-        "borrow-mcq-02": "「借入資金，日後需要償還」與本句語境不同。",
-        "borrow-mcq-01": "「從別人那裡暫時取得某物使用，之後歸還」與本句語境不同。"
+        "borrow-mcq-05": "本句的「borrowers」指「借入物品或金錢的人／機構」。",
+        "borrow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "borrow-mcq-05"
     }
@@ -438,5 +384,7 @@ export default {
     "sha256": "2cb252b49cdfb2ff41afd220581c0c5615cd6c2ea52769c3ba061241cddfc88e",
     "pages": 8
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

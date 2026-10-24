@@ -142,10 +142,7 @@ export default {
       "masked": "The building has a glass ____.",
       "options": [
         "exterior-mcq-01",
-        "exterior-mcq-02",
-        "exterior-mcq-03",
-        "exterior-mcq-04",
-        "exterior-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「exterior」指「建築物、物件或車輛最外面的部分／表面」。",
       "sentenceIndex": 0,
@@ -154,11 +151,8 @@ export default {
         "exterior"
       ],
       "optionReasons": {
-        "exterior-mcq-01": "本句指「建築物、物件或車輛最外面的部分／表面」。",
-        "exterior-mcq-02": "「人或事物表面呈現出來的外在形象」是「exterior — outward appearance」的用法，與本句語境不同。",
-        "exterior-mcq-03": "「位於外部或與外部有關的」是「exterior — adjective」的用法，與本句語境不同。",
-        "exterior-mcq-04": "「外在的、表面的；較正式、低頻」是「exterior — abstract outward side」的用法，與本句語境不同。",
-        "exterior-mcq-05": "「在外部；向外；較少見」是「exteriorly」的用法，與本句語境不同。"
+        "exterior-mcq-01": "本句的「exterior」指「建築物、物件或車輛最外面的部分／表面」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exterior-mcq-01"
     },
@@ -170,10 +164,7 @@ export default {
       "masked": "The car’s ____ was badly scratched.",
       "options": [
         "exterior-mcq-01",
-        "exterior-mcq-02",
-        "exterior-mcq-03",
-        "exterior-mcq-04",
-        "exterior-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「exterior」指「建築物、物件或車輛最外面的部分／表面」。",
       "sentenceIndex": 1,
@@ -182,11 +173,8 @@ export default {
         "exterior"
       ],
       "optionReasons": {
-        "exterior-mcq-01": "本句指「建築物、物件或車輛最外面的部分／表面」。",
-        "exterior-mcq-02": "「人或事物表面呈現出來的外在形象」是「exterior — outward appearance」的用法，與本句語境不同。",
-        "exterior-mcq-03": "「位於外部或與外部有關的」是「exterior — adjective」的用法，與本句語境不同。",
-        "exterior-mcq-04": "「外在的、表面的；較正式、低頻」是「exterior — abstract outward side」的用法，與本句語境不同。",
-        "exterior-mcq-05": "「在外部；向外；較少見」是「exteriorly」的用法，與本句語境不同。"
+        "exterior-mcq-01": "本句的「exterior」指「建築物、物件或車輛最外面的部分／表面」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exterior-mcq-01"
     },
@@ -198,10 +186,7 @@ export default {
       "masked": "The house has a simple ____.",
       "options": [
         "exterior-mcq-01",
-        "exterior-mcq-02",
-        "exterior-mcq-03",
-        "exterior-mcq-04",
-        "exterior-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「exterior」指「建築物、物件或車輛最外面的部分／表面」。",
       "sentenceIndex": 2,
@@ -210,11 +195,8 @@ export default {
         "exterior"
       ],
       "optionReasons": {
-        "exterior-mcq-01": "本句指「建築物、物件或車輛最外面的部分／表面」。",
-        "exterior-mcq-02": "「人或事物表面呈現出來的外在形象」是「exterior — outward appearance」的用法，與本句語境不同。",
-        "exterior-mcq-03": "「位於外部或與外部有關的」是「exterior — adjective」的用法，與本句語境不同。",
-        "exterior-mcq-04": "「外在的、表面的；較正式、低頻」是「exterior — abstract outward side」的用法，與本句語境不同。",
-        "exterior-mcq-05": "「在外部；向外；較少見」是「exteriorly」的用法，與本句語境不同。"
+        "exterior-mcq-01": "本句的「exterior」指「建築物、物件或車輛最外面的部分／表面」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exterior-mcq-01"
     },
@@ -226,10 +208,7 @@ export default {
       "masked": "His calm ____ hid his nervousness.",
       "options": [
         "exterior-mcq-02",
-        "exterior-mcq-01",
-        "exterior-mcq-03",
-        "exterior-mcq-04",
-        "exterior-mcq-05"
+        "exterior-pdf-001"
       ],
       "explanation": "本句的「exterior」指「人或事物表面呈現出來的外在形象」。",
       "sentenceIndex": 3,
@@ -238,11 +217,8 @@ export default {
         "exterior"
       ],
       "optionReasons": {
-        "exterior-mcq-02": "本句指「人或事物表面呈現出來的外在形象」。",
-        "exterior-mcq-01": "「建築物、物件或車輛最外面的部分／表面」是「exterior — physical outside」的用法，與本句語境不同。",
-        "exterior-mcq-03": "「位於外部或與外部有關的」是「exterior — adjective」的用法，與本句語境不同。",
-        "exterior-mcq-04": "「外在的、表面的；較正式、低頻」是「exterior — abstract outward side」的用法，與本句語境不同。",
-        "exterior-mcq-05": "「在外部；向外；較少見」是「exteriorly」的用法，與本句語境不同。"
+        "exterior-mcq-02": "本句的「exterior」指「人或事物表面呈現出來的外在形象」。",
+        "exterior-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exterior-mcq-02"
     },
@@ -254,9 +230,6 @@ export default {
       "masked": "Beneath her confident ____, she was uncertain.",
       "options": [
         "exterior-mcq-02",
-        "exterior-mcq-01",
-        "exterior-mcq-03",
-        "exterior-mcq-04",
         "exterior-mcq-05"
       ],
       "explanation": "本句的「exterior」指「人或事物表面呈現出來的外在形象」。",
@@ -266,11 +239,8 @@ export default {
         "exterior"
       ],
       "optionReasons": {
-        "exterior-mcq-02": "本句指「人或事物表面呈現出來的外在形象」。",
-        "exterior-mcq-01": "「建築物、物件或車輛最外面的部分／表面」是「exterior — physical outside」的用法，與本句語境不同。",
-        "exterior-mcq-03": "「位於外部或與外部有關的」是「exterior — adjective」的用法，與本句語境不同。",
-        "exterior-mcq-04": "「外在的、表面的；較正式、低頻」是「exterior — abstract outward side」的用法，與本句語境不同。",
-        "exterior-mcq-05": "「在外部；向外；較少見」是「exteriorly」的用法，與本句語境不同。"
+        "exterior-mcq-02": "本句的「exterior」指「人或事物表面呈現出來的外在形象」。",
+        "exterior-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exterior-mcq-02"
     },
@@ -282,10 +252,7 @@ export default {
       "masked": "The damage was limited to the ____ of the structure.",
       "options": [
         "exterior-pdf-001",
-        "exterior-mcq-02",
-        "exterior-mcq-04",
-        "exterior-mcq-01",
-        "exterior-mcq-05"
+        "exterior-mcq-04"
       ],
       "explanation": "本句的「exterior」指「某事物最外圍、外層或外部範圍」。",
       "sentenceIndex": 5,
@@ -294,11 +261,8 @@ export default {
         "exterior"
       ],
       "optionReasons": {
-        "exterior-pdf-001": "本句指「某事物最外圍、外層或外部範圍」。",
-        "exterior-mcq-02": "「人或事物表面呈現出來的外在形象」是「exterior — outward appearance」的用法，與本句語境不同。",
-        "exterior-mcq-04": "「外在的、表面的；較正式、低頻」是「exterior — abstract outward side」的用法，與本句語境不同。",
-        "exterior-mcq-01": "「建築物、物件或車輛最外面的部分／表面」是「exterior — physical outside」的用法，與本句語境不同。",
-        "exterior-mcq-05": "「在外部；向外；較少見」是「exteriorly」的用法，與本句語境不同。"
+        "exterior-pdf-001": "本句的「exterior」指「某事物最外圍、外層或外部範圍」。",
+        "exterior-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exterior-pdf-001"
     },
@@ -310,10 +274,7 @@ export default {
       "masked": "The spacecraft’s ____ must withstand extreme temperatures.",
       "options": [
         "exterior-pdf-001",
-        "exterior-mcq-02",
-        "exterior-mcq-04",
-        "exterior-mcq-01",
-        "exterior-mcq-05"
+        "exterior-mcq-04"
       ],
       "explanation": "本句的「exterior」指「某事物最外圍、外層或外部範圍」。",
       "sentenceIndex": 6,
@@ -322,11 +283,8 @@ export default {
         "exterior"
       ],
       "optionReasons": {
-        "exterior-pdf-001": "本句指「某事物最外圍、外層或外部範圍」。",
-        "exterior-mcq-02": "「人或事物表面呈現出來的外在形象」是「exterior — outward appearance」的用法，與本句語境不同。",
-        "exterior-mcq-04": "「外在的、表面的；較正式、低頻」是「exterior — abstract outward side」的用法，與本句語境不同。",
-        "exterior-mcq-01": "「建築物、物件或車輛最外面的部分／表面」是「exterior — physical outside」的用法，與本句語境不同。",
-        "exterior-mcq-05": "「在外部；向外；較少見」是「exteriorly」的用法，與本句語境不同。"
+        "exterior-pdf-001": "本句的「exterior」指「某事物最外圍、外層或外部範圍」。",
+        "exterior-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exterior-pdf-001"
     },
@@ -338,10 +296,7 @@ export default {
       "masked": "The ____ walls were painted white.",
       "options": [
         "exterior-mcq-03",
-        "exterior-mcq-02",
-        "exterior-mcq-04",
-        "exterior-mcq-01",
-        "exterior-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「exterior」指「位於外部或與外部有關的」。",
       "sentenceIndex": 7,
@@ -350,11 +305,8 @@ export default {
         "exterior"
       ],
       "optionReasons": {
-        "exterior-mcq-03": "本句指「位於外部或與外部有關的」。",
-        "exterior-mcq-02": "「人或事物表面呈現出來的外在形象」是「exterior — outward appearance」的用法，與本句語境不同。",
-        "exterior-mcq-04": "「外在的、表面的；較正式、低頻」是「exterior — abstract outward side」的用法，與本句語境不同。",
-        "exterior-mcq-01": "「建築物、物件或車輛最外面的部分／表面」是「exterior — physical outside」的用法，與本句語境不同。",
-        "exterior-mcq-05": "「在外部；向外；較少見」是「exteriorly」的用法，與本句語境不同。"
+        "exterior-mcq-03": "本句的「exterior」指「位於外部或與外部有關的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exterior-mcq-03"
     },
@@ -366,10 +318,7 @@ export default {
       "masked": "The building needs ____ repairs.",
       "options": [
         "exterior-mcq-03",
-        "exterior-mcq-02",
-        "exterior-mcq-04",
-        "exterior-mcq-01",
-        "exterior-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「exterior」指「位於外部或與外部有關的」。",
       "sentenceIndex": 8,
@@ -378,11 +327,8 @@ export default {
         "exterior"
       ],
       "optionReasons": {
-        "exterior-mcq-03": "本句指「位於外部或與外部有關的」。",
-        "exterior-mcq-02": "「人或事物表面呈現出來的外在形象」是「exterior — outward appearance」的用法，與本句語境不同。",
-        "exterior-mcq-04": "「外在的、表面的；較正式、低頻」是「exterior — abstract outward side」的用法，與本句語境不同。",
-        "exterior-mcq-01": "「建築物、物件或車輛最外面的部分／表面」是「exterior — physical outside」的用法，與本句語境不同。",
-        "exterior-mcq-05": "「在外部；向外；較少見」是「exteriorly」的用法，與本句語境不同。"
+        "exterior-mcq-03": "本句的「exterior」指「位於外部或與外部有關的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exterior-mcq-03"
     },
@@ -394,10 +340,7 @@ export default {
       "masked": "The problem is not merely ____.",
       "options": [
         "exterior-mcq-04",
-        "exterior-mcq-03",
-        "exterior-mcq-05",
-        "exterior-mcq-02",
-        "exterior-mcq-01"
+        "exterior-pdf-001"
       ],
       "explanation": "本句的「exterior」指「外在的、表面的；較正式、低頻」。",
       "sentenceIndex": 9,
@@ -406,11 +349,8 @@ export default {
         "exterior"
       ],
       "optionReasons": {
-        "exterior-mcq-04": "本句指「外在的、表面的；較正式、低頻」。",
-        "exterior-mcq-03": "「位於外部或與外部有關的」是「exterior — adjective」的用法，與本句語境不同。",
-        "exterior-mcq-05": "「在外部；向外；較少見」是「exteriorly」的用法，與本句語境不同。",
-        "exterior-mcq-02": "「人或事物表面呈現出來的外在形象」是「exterior — outward appearance」的用法，與本句語境不同。",
-        "exterior-mcq-01": "「建築物、物件或車輛最外面的部分／表面」是「exterior — physical outside」的用法，與本句語境不同。"
+        "exterior-mcq-04": "本句的「exterior」指「外在的、表面的；較正式、低頻」。",
+        "exterior-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exterior-mcq-04"
     },
@@ -422,10 +362,7 @@ export default {
       "masked": "The building was ____ restored.",
       "options": [
         "exterior-mcq-05",
-        "exterior-mcq-04",
-        "exterior-mcq-03",
-        "exterior-mcq-02",
-        "exterior-mcq-01"
+        "exterior-mcq-02"
       ],
       "explanation": "本句的「exteriorly」指「在外部；向外；較少見」。",
       "sentenceIndex": 10,
@@ -434,11 +371,8 @@ export default {
         "exteriorly"
       ],
       "optionReasons": {
-        "exterior-mcq-05": "本句指「在外部；向外；較少見」。",
-        "exterior-mcq-04": "「外在的、表面的；較正式、低頻」是「exterior — abstract outward side」的用法，與本句語境不同。",
-        "exterior-mcq-03": "「位於外部或與外部有關的」是「exterior — adjective」的用法，與本句語境不同。",
-        "exterior-mcq-02": "「人或事物表面呈現出來的外在形象」是「exterior — outward appearance」的用法，與本句語境不同。",
-        "exterior-mcq-01": "「建築物、物件或車輛最外面的部分／表面」是「exterior — physical outside」的用法，與本句語境不同。"
+        "exterior-mcq-05": "本句的「exteriorly」指「在外部；向外；較少見」。",
+        "exterior-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exterior-mcq-05"
     }
@@ -450,5 +384,12 @@ export default {
     "sha256": "6e52f49052089ab7980b157c4ecfdebff369b67c807a118ae7b2b1a692a96f14",
     "pages": 8
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

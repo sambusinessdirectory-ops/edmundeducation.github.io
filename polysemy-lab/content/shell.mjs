@@ -301,11 +301,9 @@ export default {
       "masked": "I remember the turtle’s greenish ____.",
       "options": [
         "shell-mcq-01",
-        "shell-mcq-02",
-        "shell-mcq-03",
-        "shell-mcq-04",
-        "shell-mcq-05",
-        "shell-mcq-06"
+        "shell-mcq-10",
+        "shell-mcq-12",
+        "shell-mcq-07"
       ],
       "explanation": "本句的「shell」指「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」。",
       "sentenceIndex": 0,
@@ -314,12 +312,10 @@ export default {
         "shell"
       ],
       "optionReasons": {
-        "shell-mcq-01": "本句指「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」。",
-        "shell-mcq-02": "「建築、機器、裝置等包圍內部的外層結構／外殼」與本句語境不同。",
-        "shell-mcq-03": "「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」與本句語境不同。",
-        "shell-mcq-04": "「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」與本句語境不同。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。"
+        "shell-mcq-01": "本句的「shell」指「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-01"
     },
@@ -331,11 +327,9 @@ export default {
       "masked": "The snail disappeared into its ____.",
       "options": [
         "shell-mcq-01",
-        "shell-mcq-02",
-        "shell-mcq-03",
-        "shell-mcq-04",
-        "shell-mcq-05",
-        "shell-mcq-06"
+        "shell-mcq-12",
+        "shell-mcq-10",
+        "shell-mcq-07"
       ],
       "explanation": "本句的「shell」指「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」。",
       "sentenceIndex": 1,
@@ -344,12 +338,10 @@ export default {
         "shell"
       ],
       "optionReasons": {
-        "shell-mcq-01": "本句指「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」。",
-        "shell-mcq-02": "「建築、機器、裝置等包圍內部的外層結構／外殼」與本句語境不同。",
-        "shell-mcq-03": "「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」與本句語境不同。",
-        "shell-mcq-04": "「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」與本句語境不同。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。"
+        "shell-mcq-01": "本句的「shell」指「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-01"
     },
@@ -361,11 +353,9 @@ export default {
       "masked": "There was a crack in the egg ____.",
       "options": [
         "shell-mcq-01",
-        "shell-mcq-02",
-        "shell-mcq-03",
-        "shell-mcq-04",
-        "shell-mcq-05",
-        "shell-mcq-06"
+        "shell-mcq-10",
+        "shell-mcq-12",
+        "shell-mcq-07"
       ],
       "explanation": "本句的「shell」指「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」。",
       "sentenceIndex": 2,
@@ -374,12 +364,10 @@ export default {
         "shell"
       ],
       "optionReasons": {
-        "shell-mcq-01": "本句指「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」。",
-        "shell-mcq-02": "「建築、機器、裝置等包圍內部的外層結構／外殼」與本句語境不同。",
-        "shell-mcq-03": "「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」與本句語境不同。",
-        "shell-mcq-04": "「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」與本句語境不同。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。"
+        "shell-mcq-01": "本句的「shell」指「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-01"
     },
@@ -391,11 +379,9 @@ export default {
       "masked": "The laptop has a lightweight metal ____.",
       "options": [
         "shell-mcq-02",
-        "shell-mcq-01",
-        "shell-mcq-03",
-        "shell-mcq-04",
-        "shell-mcq-05",
-        "shell-mcq-06"
+        "shell-mcq-12",
+        "shell-mcq-10",
+        "shell-mcq-11"
       ],
       "explanation": "本句的「shell」指「建築、機器、裝置等包圍內部的外層結構／外殼」。",
       "sentenceIndex": 3,
@@ -404,12 +390,10 @@ export default {
         "shell"
       ],
       "optionReasons": {
-        "shell-mcq-02": "本句指「建築、機器、裝置等包圍內部的外層結構／外殼」。",
-        "shell-mcq-01": "「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」與本句語境不同。",
-        "shell-mcq-03": "「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」與本句語境不同。",
-        "shell-mcq-04": "「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」與本句語境不同。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。"
+        "shell-mcq-02": "本句的「shell」指「建築、機器、裝置等包圍內部的外層結構／外殼」。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-02"
     },
@@ -421,11 +405,9 @@ export default {
       "masked": "Only the ____ of the building remained after the fire.",
       "options": [
         "shell-mcq-02",
-        "shell-mcq-01",
-        "shell-mcq-03",
-        "shell-mcq-04",
-        "shell-mcq-05",
-        "shell-mcq-06"
+        "shell-mcq-10",
+        "shell-mcq-12",
+        "shell-mcq-04"
       ],
       "explanation": "本句的「shell」指「建築、機器、裝置等包圍內部的外層結構／外殼」。",
       "sentenceIndex": 4,
@@ -434,12 +416,10 @@ export default {
         "shell"
       ],
       "optionReasons": {
-        "shell-mcq-02": "本句指「建築、機器、裝置等包圍內部的外層結構／外殼」。",
-        "shell-mcq-01": "「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」與本句語境不同。",
-        "shell-mcq-03": "「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」與本句語境不同。",
-        "shell-mcq-04": "「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」與本句語境不同。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。"
+        "shell-mcq-02": "本句的「shell」指「建築、機器、裝置等包圍內部的外層結構／外殼」。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-02"
     },
@@ -451,11 +431,9 @@ export default {
       "masked": "After years of neglect, the organization was only a ____ of its former self.",
       "options": [
         "shell-mcq-03",
-        "shell-mcq-02",
-        "shell-mcq-04",
-        "shell-mcq-01",
-        "shell-mcq-05",
-        "shell-mcq-06"
+        "shell-mcq-10",
+        "shell-mcq-12",
+        "shell-mcq-11"
       ],
       "explanation": "本句的「shell」指「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」。",
       "sentenceIndex": 5,
@@ -464,12 +442,10 @@ export default {
         "shell"
       ],
       "optionReasons": {
-        "shell-mcq-03": "本句指「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」。",
-        "shell-mcq-02": "「建築、機器、裝置等包圍內部的外層結構／外殼」與本句語境不同。",
-        "shell-mcq-04": "「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」與本句語境不同。",
-        "shell-mcq-01": "「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」與本句語境不同。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。"
+        "shell-mcq-03": "本句的「shell」指「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-03"
     },
@@ -481,11 +457,9 @@ export default {
       "masked": "The old town centre became a ____ after most businesses moved away.",
       "options": [
         "shell-mcq-03",
-        "shell-mcq-02",
-        "shell-mcq-04",
-        "shell-mcq-01",
-        "shell-mcq-05",
-        "shell-mcq-06"
+        "shell-mcq-12",
+        "shell-mcq-10",
+        "shell-mcq-11"
       ],
       "explanation": "本句的「shell」指「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」。",
       "sentenceIndex": 6,
@@ -494,12 +468,10 @@ export default {
         "shell"
       ],
       "optionReasons": {
-        "shell-mcq-03": "本句指「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」。",
-        "shell-mcq-02": "「建築、機器、裝置等包圍內部的外層結構／外殼」與本句語境不同。",
-        "shell-mcq-04": "「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」與本句語境不同。",
-        "shell-mcq-01": "「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」與本句語境不同。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。"
+        "shell-mcq-03": "本句的「shell」指「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-03"
     },
@@ -511,11 +483,9 @@ export default {
       "masked": "The assets were held through several ____.",
       "options": [
         "shell-mcq-04",
-        "shell-mcq-03",
-        "shell-mcq-05",
+        "shell-mcq-10",
         "shell-mcq-02",
-        "shell-mcq-06",
-        "shell-mcq-01"
+        "shell-mcq-12"
       ],
       "explanation": "本句的「shell companies」指「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」。",
       "sentenceIndex": 7,
@@ -524,12 +494,10 @@ export default {
         "shell companies"
       ],
       "optionReasons": {
-        "shell-mcq-04": "本句指「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」。",
-        "shell-mcq-03": "「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」與本句語境不同。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。",
-        "shell-mcq-02": "「建築、機器、裝置等包圍內部的外層結構／外殼」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。",
-        "shell-mcq-01": "「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」與本句語境不同。"
+        "shell-mcq-04": "本句的「shell companies」指「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-04"
     },
@@ -541,11 +509,9 @@ export default {
       "masked": "The investigation examined whether the business was merely a ____.",
       "options": [
         "shell-mcq-04",
-        "shell-mcq-03",
-        "shell-mcq-05",
-        "shell-mcq-02",
-        "shell-mcq-06",
-        "shell-mcq-01"
+        "shell-mcq-10",
+        "shell-mcq-09",
+        "shell-mcq-12"
       ],
       "explanation": "本句的「shell company」指「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」。",
       "sentenceIndex": 8,
@@ -554,12 +520,10 @@ export default {
         "shell company"
       ],
       "optionReasons": {
-        "shell-mcq-04": "本句指「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」。",
-        "shell-mcq-03": "「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」與本句語境不同。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。",
-        "shell-mcq-02": "「建築、機器、裝置等包圍內部的外層結構／外殼」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。",
-        "shell-mcq-01": "「動物、蛋、堅果等外面堅硬、具有保護作用的殼／甲殼」與本句語境不同。"
+        "shell-mcq-04": "本句的「shell company」指「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-04"
     },
@@ -571,11 +535,9 @@ export default {
       "masked": "The museum displayed an old artillery ____.",
       "options": [
         "shell-mcq-05",
-        "shell-mcq-04",
-        "shell-mcq-06",
-        "shell-mcq-03",
-        "shell-mcq-07",
-        "shell-mcq-02"
+        "shell-mcq-11",
+        "shell-mcq-12",
+        "shell-mcq-08"
       ],
       "explanation": "本句的「shell」指「炮彈，或某些語境中的彈藥殼體」。",
       "sentenceIndex": 9,
@@ -584,12 +546,10 @@ export default {
         "shell"
       ],
       "optionReasons": {
-        "shell-mcq-05": "本句指「炮彈，或某些語境中的彈藥殼體」。",
-        "shell-mcq-04": "「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。",
-        "shell-mcq-03": "「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」與本句語境不同。",
-        "shell-mcq-07": "「原子中電子按能量層級分布的電子層／電子殼層」與本句語境不同。",
-        "shell-mcq-02": "「建築、機器、裝置等包圍內部的外層結構／外殼」與本句語境不同。"
+        "shell-mcq-05": "本句的「shell」指「炮彈，或某些語境中的彈藥殼體」。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-05"
     },
@@ -601,11 +561,9 @@ export default {
       "masked": "Empty ____ were found nearby.",
       "options": [
         "shell-mcq-05",
-        "shell-mcq-04",
-        "shell-mcq-06",
-        "shell-mcq-03",
-        "shell-mcq-07",
-        "shell-mcq-02"
+        "shell-mcq-11",
+        "shell-mcq-12",
+        "shell-mcq-07"
       ],
       "explanation": "本句的「shells」指「炮彈，或某些語境中的彈藥殼體」。",
       "sentenceIndex": 10,
@@ -614,12 +572,10 @@ export default {
         "shells"
       ],
       "optionReasons": {
-        "shell-mcq-05": "本句指「炮彈，或某些語境中的彈藥殼體」。",
-        "shell-mcq-04": "「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。",
-        "shell-mcq-03": "「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」與本句語境不同。",
-        "shell-mcq-07": "「原子中電子按能量層級分布的電子層／電子殼層」與本句語境不同。",
-        "shell-mcq-02": "「建築、機器、裝置等包圍內部的外層結構／外殼」與本句語境不同。"
+        "shell-mcq-05": "本句的「shells」指「炮彈，或某些語境中的彈藥殼體」。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-05"
     },
@@ -631,11 +587,9 @@ export default {
       "masked": "Open a ____ and run the command.",
       "options": [
         "shell-mcq-06",
-        "shell-mcq-05",
-        "shell-mcq-07",
-        "shell-mcq-04",
-        "shell-mcq-08",
-        "shell-mcq-03"
+        "shell-mcq-11",
+        "shell-mcq-10",
+        "shell-mcq-08"
       ],
       "explanation": "本句的「shell」指「使用者透過命令與作業系統功能互動的介面／殼層」。",
       "sentenceIndex": 11,
@@ -644,12 +598,10 @@ export default {
         "shell"
       ],
       "optionReasons": {
-        "shell-mcq-06": "本句指「使用者透過命令與作業系統功能互動的介面／殼層」。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。",
-        "shell-mcq-07": "「原子中電子按能量層級分布的電子層／電子殼層」與本句語境不同。",
-        "shell-mcq-04": "「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」與本句語境不同。",
-        "shell-mcq-08": "「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」與本句語境不同。",
-        "shell-mcq-03": "「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」與本句語境不同。"
+        "shell-mcq-06": "本句的「shell」指「使用者透過命令與作業系統功能互動的介面／殼層」。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-06"
     },
@@ -661,11 +613,9 @@ export default {
       "masked": "The script runs inside a Unix ____.",
       "options": [
         "shell-mcq-06",
-        "shell-mcq-05",
-        "shell-mcq-07",
-        "shell-mcq-04",
-        "shell-mcq-08",
-        "shell-mcq-03"
+        "shell-mcq-11",
+        "shell-mcq-10",
+        "shell-mcq-08"
       ],
       "explanation": "本句的「shell」指「使用者透過命令與作業系統功能互動的介面／殼層」。",
       "sentenceIndex": 12,
@@ -674,12 +624,10 @@ export default {
         "shell"
       ],
       "optionReasons": {
-        "shell-mcq-06": "本句指「使用者透過命令與作業系統功能互動的介面／殼層」。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。",
-        "shell-mcq-07": "「原子中電子按能量層級分布的電子層／電子殼層」與本句語境不同。",
-        "shell-mcq-04": "「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」與本句語境不同。",
-        "shell-mcq-08": "「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」與本句語境不同。",
-        "shell-mcq-03": "「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」與本句語境不同。"
+        "shell-mcq-06": "本句的「shell」指「使用者透過命令與作業系統功能互動的介面／殼層」。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-06"
     },
@@ -691,11 +639,9 @@ export default {
       "masked": "He wrote a short ____ to automate the task.",
       "options": [
         "shell-mcq-06",
-        "shell-mcq-05",
-        "shell-mcq-07",
-        "shell-mcq-04",
-        "shell-mcq-08",
-        "shell-mcq-03"
+        "shell-mcq-11",
+        "shell-mcq-10",
+        "shell-mcq-08"
       ],
       "explanation": "本句的「shell script」指「使用者透過命令與作業系統功能互動的介面／殼層」。",
       "sentenceIndex": 13,
@@ -704,12 +650,10 @@ export default {
         "shell script"
       ],
       "optionReasons": {
-        "shell-mcq-06": "本句指「使用者透過命令與作業系統功能互動的介面／殼層」。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。",
-        "shell-mcq-07": "「原子中電子按能量層級分布的電子層／電子殼層」與本句語境不同。",
-        "shell-mcq-04": "「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」與本句語境不同。",
-        "shell-mcq-08": "「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」與本句語境不同。",
-        "shell-mcq-03": "「外在形式仍存在，但內部實質內容、活動或力量已大幅減少的空殼」與本句語境不同。"
+        "shell-mcq-06": "本句的「shell script」指「使用者透過命令與作業系統功能互動的介面／殼層」。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-06"
     },
@@ -721,11 +665,9 @@ export default {
       "masked": "Electrons occupy different ____ around the nucleus.",
       "options": [
         "shell-mcq-07",
-        "shell-mcq-06",
-        "shell-mcq-08",
-        "shell-mcq-05",
-        "shell-mcq-09",
-        "shell-mcq-04"
+        "shell-mcq-12",
+        "shell-mcq-10",
+        "shell-mcq-11"
       ],
       "explanation": "本句的「shells」指「原子中電子按能量層級分布的電子層／電子殼層」。",
       "sentenceIndex": 14,
@@ -734,12 +676,10 @@ export default {
         "shells"
       ],
       "optionReasons": {
-        "shell-mcq-07": "本句指「原子中電子按能量層級分布的電子層／電子殼層」。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。",
-        "shell-mcq-08": "「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」與本句語境不同。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。",
-        "shell-mcq-09": "「把豆類、堅果等的外殼除去」與本句語境不同。",
-        "shell-mcq-04": "「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」與本句語境不同。"
+        "shell-mcq-07": "本句的「shells」指「原子中電子按能量層級分布的電子層／電子殼層」。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-07"
     },
@@ -751,11 +691,9 @@ export default {
       "masked": "The outer ____ contains the atom’s outermost electrons.",
       "options": [
         "shell-mcq-07",
-        "shell-mcq-06",
-        "shell-mcq-08",
-        "shell-mcq-05",
-        "shell-mcq-09",
-        "shell-mcq-04"
+        "shell-mcq-10",
+        "shell-mcq-11",
+        "shell-mcq-12"
       ],
       "explanation": "本句的「shell」指「原子中電子按能量層級分布的電子層／電子殼層」。",
       "sentenceIndex": 15,
@@ -764,12 +702,10 @@ export default {
         "shell"
       ],
       "optionReasons": {
-        "shell-mcq-07": "本句指「原子中電子按能量層級分布的電子層／電子殼層」。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。",
-        "shell-mcq-08": "「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」與本句語境不同。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。",
-        "shell-mcq-09": "「把豆類、堅果等的外殼除去」與本句語境不同。",
-        "shell-mcq-04": "「法律上存在，但本身幾乎沒有實際營運或重大業務活動的空殼公司」與本句語境不同。"
+        "shell-mcq-07": "本句的「shell」指「原子中電子按能量層級分布的電子層／電子殼層」。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-07"
     },
@@ -781,11 +717,9 @@ export default {
       "masked": "Fill the pastry ____ with cream.",
       "options": [
         "shell-mcq-08",
-        "shell-mcq-07",
-        "shell-mcq-09",
-        "shell-mcq-06",
         "shell-mcq-10",
-        "shell-mcq-05"
+        "shell-mcq-12",
+        "shell-mcq-07"
       ],
       "explanation": "本句的「shells」指「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」。",
       "sentenceIndex": 16,
@@ -794,12 +728,10 @@ export default {
         "shells"
       ],
       "optionReasons": {
-        "shell-mcq-08": "本句指「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」。",
-        "shell-mcq-07": "「原子中電子按能量層級分布的電子層／電子殼層」與本句語境不同。",
-        "shell-mcq-09": "「把豆類、堅果等的外殼除去」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。",
-        "shell-mcq-10": "「用炮彈轟擊某個地方」與本句語境不同。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。"
+        "shell-mcq-08": "本句的「shells」指「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-08"
     },
@@ -811,11 +743,9 @@ export default {
       "masked": "The taco ____ broke when I picked it up.",
       "options": [
         "shell-mcq-08",
-        "shell-mcq-07",
-        "shell-mcq-09",
-        "shell-mcq-06",
         "shell-mcq-10",
-        "shell-mcq-05"
+        "shell-mcq-12",
+        "shell-mcq-11"
       ],
       "explanation": "本句的「shell」指「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」。",
       "sentenceIndex": 17,
@@ -824,12 +754,10 @@ export default {
         "shell"
       ],
       "optionReasons": {
-        "shell-mcq-08": "本句指「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」。",
-        "shell-mcq-07": "「原子中電子按能量層級分布的電子層／電子殼層」與本句語境不同。",
-        "shell-mcq-09": "「把豆類、堅果等的外殼除去」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。",
-        "shell-mcq-10": "「用炮彈轟擊某個地方」與本句語境不同。",
-        "shell-mcq-05": "「炮彈，或某些語境中的彈藥殼體」與本句語境不同。"
+        "shell-mcq-08": "本句的「shell」指「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-08"
     },
@@ -841,11 +769,9 @@ export default {
       "masked": "She ____ the peas before cooking them.",
       "options": [
         "shell-mcq-09",
-        "shell-mcq-08",
         "shell-mcq-10",
-        "shell-mcq-07",
         "shell-mcq-11",
-        "shell-mcq-06"
+        "shell-mcq-12"
       ],
       "explanation": "本句的「shelled」指「把豆類、堅果等的外殼除去」。",
       "sentenceIndex": 18,
@@ -854,12 +780,10 @@ export default {
         "shelled"
       ],
       "optionReasons": {
-        "shell-mcq-09": "本句指「把豆類、堅果等的外殼除去」。",
-        "shell-mcq-08": "「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」與本句語境不同。",
-        "shell-mcq-10": "「用炮彈轟擊某個地方」與本句語境不同。",
-        "shell-mcq-07": "「原子中電子按能量層級分布的電子層／電子殼層」與本句語境不同。",
-        "shell-mcq-11": "「比喻封閉、保護自己、不願讓別人接近內心的心理狀態」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。"
+        "shell-mcq-09": "本句的「shelled」指「把豆類、堅果等的外殼除去」。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-09"
     },
@@ -871,11 +795,9 @@ export default {
       "masked": "We spent the afternoon ____ nuts.",
       "options": [
         "shell-mcq-09",
-        "shell-mcq-08",
-        "shell-mcq-10",
-        "shell-mcq-07",
         "shell-mcq-11",
-        "shell-mcq-06"
+        "shell-mcq-12",
+        "shell-mcq-10"
       ],
       "explanation": "本句的「shelling」指「把豆類、堅果等的外殼除去」。",
       "sentenceIndex": 19,
@@ -884,12 +806,10 @@ export default {
         "shelling"
       ],
       "optionReasons": {
-        "shell-mcq-09": "本句指「把豆類、堅果等的外殼除去」。",
-        "shell-mcq-08": "「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」與本句語境不同。",
-        "shell-mcq-10": "「用炮彈轟擊某個地方」與本句語境不同。",
-        "shell-mcq-07": "「原子中電子按能量層級分布的電子層／電子殼層」與本句語境不同。",
-        "shell-mcq-11": "「比喻封閉、保護自己、不願讓別人接近內心的心理狀態」與本句語境不同。",
-        "shell-mcq-06": "「使用者透過命令與作業系統功能互動的介面／殼層」與本句語境不同。"
+        "shell-mcq-09": "本句的「shelling」指「把豆類、堅果等的外殼除去」。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-09"
     },
@@ -901,11 +821,9 @@ export default {
       "masked": "The position was heavily ____.",
       "options": [
         "shell-mcq-10",
-        "shell-mcq-09",
-        "shell-mcq-11",
-        "shell-mcq-08",
-        "shell-mcq-12",
-        "shell-mcq-07"
+        "shell-mcq-06",
+        "shell-mcq-03",
+        "shell-mcq-11"
       ],
       "explanation": "本句的「shelled」指「用炮彈轟擊某個地方」。",
       "sentenceIndex": 20,
@@ -914,12 +832,10 @@ export default {
         "shelled"
       ],
       "optionReasons": {
-        "shell-mcq-10": "本句指「用炮彈轟擊某個地方」。",
-        "shell-mcq-09": "「把豆類、堅果等的外殼除去」與本句語境不同。",
-        "shell-mcq-11": "「比喻封閉、保護自己、不願讓別人接近內心的心理狀態」與本句語境不同。",
-        "shell-mcq-08": "「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」與本句語境不同。",
-        "shell-mcq-12": "「透過轉移和隱藏造成混淆的騙局／障眼法」與本句語境不同。",
-        "shell-mcq-07": "「原子中電子按能量層級分布的電子層／電子殼層」與本句語境不同。"
+        "shell-mcq-10": "本句的「shelled」指「用炮彈轟擊某個地方」。",
+        "shell-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-10"
     },
@@ -931,11 +847,9 @@ export default {
       "masked": "The town was ____ during the fighting.",
       "options": [
         "shell-mcq-10",
-        "shell-mcq-09",
-        "shell-mcq-11",
         "shell-mcq-08",
-        "shell-mcq-12",
-        "shell-mcq-07"
+        "shell-mcq-13",
+        "shell-mcq-04"
       ],
       "explanation": "本句的「shelled」指「用炮彈轟擊某個地方」。",
       "sentenceIndex": 21,
@@ -944,12 +858,10 @@ export default {
         "shelled"
       ],
       "optionReasons": {
-        "shell-mcq-10": "本句指「用炮彈轟擊某個地方」。",
-        "shell-mcq-09": "「把豆類、堅果等的外殼除去」與本句語境不同。",
-        "shell-mcq-11": "「比喻封閉、保護自己、不願讓別人接近內心的心理狀態」與本句語境不同。",
-        "shell-mcq-08": "「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」與本句語境不同。",
-        "shell-mcq-12": "「透過轉移和隱藏造成混淆的騙局／障眼法」與本句語境不同。",
-        "shell-mcq-07": "「原子中電子按能量層級分布的電子層／電子殼層」與本句語境不同。"
+        "shell-mcq-10": "本句的「shelled」指「用炮彈轟擊某個地方」。",
+        "shell-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-10"
     },
@@ -961,11 +873,9 @@ export default {
       "masked": "After the argument, he retreated into his ____.",
       "options": [
         "shell-mcq-11",
-        "shell-mcq-10",
-        "shell-mcq-12",
-        "shell-mcq-09",
+        "shell-mcq-07",
         "shell-mcq-13",
-        "shell-mcq-08"
+        "shell-mcq-05"
       ],
       "explanation": "本句的「shell」指「比喻封閉、保護自己、不願讓別人接近內心的心理狀態」。",
       "sentenceIndex": 22,
@@ -974,12 +884,10 @@ export default {
         "shell"
       ],
       "optionReasons": {
-        "shell-mcq-11": "本句指「比喻封閉、保護自己、不願讓別人接近內心的心理狀態」。",
-        "shell-mcq-10": "「用炮彈轟擊某個地方」與本句語境不同。",
-        "shell-mcq-12": "「透過轉移和隱藏造成混淆的騙局／障眼法」與本句語境不同。",
-        "shell-mcq-09": "「把豆類、堅果等的外殼除去」與本句語境不同。",
-        "shell-mcq-13": "「甲殼類及軟體動物等傳統海鮮分類」與本句語境不同。",
-        "shell-mcq-08": "「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」與本句語境不同。"
+        "shell-mcq-11": "本句的「shell」指「比喻封閉、保護自己、不願讓別人接近內心的心理狀態」。",
+        "shell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-11"
     },
@@ -991,11 +899,9 @@ export default {
       "masked": "She slowly began to come out of her ____.",
       "options": [
         "shell-mcq-11",
-        "shell-mcq-10",
-        "shell-mcq-12",
-        "shell-mcq-09",
+        "shell-mcq-05",
         "shell-mcq-13",
-        "shell-mcq-08"
+        "shell-mcq-12"
       ],
       "explanation": "本句的「shell」指「比喻封閉、保護自己、不願讓別人接近內心的心理狀態」。",
       "sentenceIndex": 23,
@@ -1004,12 +910,10 @@ export default {
         "shell"
       ],
       "optionReasons": {
-        "shell-mcq-11": "本句指「比喻封閉、保護自己、不願讓別人接近內心的心理狀態」。",
-        "shell-mcq-10": "「用炮彈轟擊某個地方」與本句語境不同。",
-        "shell-mcq-12": "「透過轉移和隱藏造成混淆的騙局／障眼法」與本句語境不同。",
-        "shell-mcq-09": "「把豆類、堅果等的外殼除去」與本句語境不同。",
-        "shell-mcq-13": "「甲殼類及軟體動物等傳統海鮮分類」與本句語境不同。",
-        "shell-mcq-08": "「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」與本句語境不同。"
+        "shell-mcq-11": "本句的「shell」指「比喻封閉、保護自己、不願讓別人接近內心的心理狀態」。",
+        "shell-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-11"
     },
@@ -1022,10 +926,8 @@ export default {
       "options": [
         "shell-mcq-12",
         "shell-mcq-11",
-        "shell-mcq-13",
-        "shell-mcq-10",
-        "shell-mcq-09",
-        "shell-mcq-08"
+        "shell-mcq-02",
+        "shell-mcq-10"
       ],
       "explanation": "本句的「shell game」指「透過轉移和隱藏造成混淆的騙局／障眼法」。",
       "sentenceIndex": 26,
@@ -1034,12 +936,10 @@ export default {
         "shell game"
       ],
       "optionReasons": {
-        "shell-mcq-12": "本句指「透過轉移和隱藏造成混淆的騙局／障眼法」。",
-        "shell-mcq-11": "「比喻封閉、保護自己、不願讓別人接近內心的心理狀態」與本句語境不同。",
-        "shell-mcq-13": "「甲殼類及軟體動物等傳統海鮮分類」與本句語境不同。",
-        "shell-mcq-10": "「用炮彈轟擊某個地方」與本句語境不同。",
-        "shell-mcq-09": "「把豆類、堅果等的外殼除去」與本句語境不同。",
-        "shell-mcq-08": "「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」與本句語境不同。"
+        "shell-mcq-12": "本句的「shell game」指「透過轉移和隱藏造成混淆的騙局／障眼法」。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-12"
     },
@@ -1051,11 +951,9 @@ export default {
       "masked": "The restaurant serves fresh ____.",
       "options": [
         "shell-mcq-13",
-        "shell-mcq-12",
         "shell-mcq-11",
         "shell-mcq-10",
-        "shell-mcq-09",
-        "shell-mcq-08"
+        "shell-mcq-12"
       ],
       "explanation": "本句的「shellfish」指「甲殼類及軟體動物等傳統海鮮分類」。",
       "sentenceIndex": 29,
@@ -1064,12 +962,10 @@ export default {
         "shellfish"
       ],
       "optionReasons": {
-        "shell-mcq-13": "本句指「甲殼類及軟體動物等傳統海鮮分類」。",
-        "shell-mcq-12": "「透過轉移和隱藏造成混淆的騙局／障眼法」與本句語境不同。",
-        "shell-mcq-11": "「比喻封閉、保護自己、不願讓別人接近內心的心理狀態」與本句語境不同。",
-        "shell-mcq-10": "「用炮彈轟擊某個地方」與本句語境不同。",
-        "shell-mcq-09": "「把豆類、堅果等的外殼除去」與本句語境不同。",
-        "shell-mcq-08": "「用來包住餡料或內容物的硬／中空食物外殼；屬於 casing 義」與本句語境不同。"
+        "shell-mcq-13": "本句的「shellfish」指「甲殼類及軟體動物等傳統海鮮分類」。",
+        "shell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shell-mcq-13"
     }
@@ -1081,5 +977,7 @@ export default {
     "sha256": "961015ff6113f6e1fe4bbbb348cf4f411e52347f5648d1bedd1ca676d80e2638",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

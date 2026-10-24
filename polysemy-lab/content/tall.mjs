@@ -218,11 +218,8 @@ export default {
       "masked": "He was quite ____ and thin.",
       "options": [
         "tall-mcq-10",
-        "tall-mcq-09",
-        "tall-mcq-08",
         "tall-mcq-07",
-        "tall-mcq-06",
-        "tall-mcq-05"
+        "tall-mcq-09"
       ],
       "explanation": "本句的「tall」指「身高比一般人高，或由底部到頂部的高度較大」。",
       "sentenceIndex": 0,
@@ -231,12 +228,9 @@ export default {
         "tall"
       ],
       "optionReasons": {
-        "tall-mcq-10": "本句指「身高比一般人高，或由底部到頂部的高度較大」。",
-        "tall-mcq-09": "「荒誕誇張故事」是「a tall tale」的用法，與本句語境不同。",
-        "tall-mcq-08": "「高難度要求」是「a tall order」的用法，與本句語境不同。",
-        "tall-mcq-07": "「昂首自信地做人」是「walk tall」的用法，與本句語境不同。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。"
+        "tall-mcq-10": "本句的「tall」指「身高比一般人高，或由底部到頂部的高度較大」。",
+        "tall-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-10"
     },
@@ -248,11 +242,8 @@ export default {
       "masked": "She is ____ for her age.",
       "options": [
         "tall-mcq-10",
-        "tall-mcq-09",
-        "tall-mcq-08",
-        "tall-mcq-07",
         "tall-mcq-06",
-        "tall-mcq-05"
+        "tall-mcq-09"
       ],
       "explanation": "本句的「tall」指「身高比一般人高，或由底部到頂部的高度較大」。",
       "sentenceIndex": 1,
@@ -261,12 +252,9 @@ export default {
         "tall"
       ],
       "optionReasons": {
-        "tall-mcq-10": "本句指「身高比一般人高，或由底部到頂部的高度較大」。",
-        "tall-mcq-09": "「荒誕誇張故事」是「a tall tale」的用法，與本句語境不同。",
-        "tall-mcq-08": "「高難度要求」是「a tall order」的用法，與本句語境不同。",
-        "tall-mcq-07": "「昂首自信地做人」是「walk tall」的用法，與本句語境不同。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。"
+        "tall-mcq-10": "本句的「tall」指「身高比一般人高，或由底部到頂部的高度較大」。",
+        "tall-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-10"
     },
@@ -279,10 +267,7 @@ export default {
       "options": [
         "tall-mcq-10",
         "tall-mcq-09",
-        "tall-mcq-08",
-        "tall-mcq-07",
-        "tall-mcq-06",
-        "tall-mcq-05"
+        "tall-mcq-07"
       ],
       "explanation": "本句的「tallest」指「身高比一般人高，或由底部到頂部的高度較大」。",
       "sentenceIndex": 2,
@@ -291,12 +276,9 @@ export default {
         "tallest"
       ],
       "optionReasons": {
-        "tall-mcq-10": "本句指「身高比一般人高，或由底部到頂部的高度較大」。",
-        "tall-mcq-09": "「荒誕誇張故事」是「a tall tale」的用法，與本句語境不同。",
-        "tall-mcq-08": "「高難度要求」是「a tall order」的用法，與本句語境不同。",
-        "tall-mcq-07": "「昂首自信地做人」是「walk tall」的用法，與本句語境不同。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。"
+        "tall-mcq-10": "本句的「tallest」指「身高比一般人高，或由底部到頂部的高度較大」。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-10"
     },
@@ -308,11 +290,8 @@ export default {
       "masked": "They live in a ____.",
       "options": [
         "tall-mcq-02",
-        "tall-mcq-01",
-        "tall-mcq-03",
-        "tall-mcq-04",
-        "tall-mcq-05",
-        "tall-mcq-06"
+        "tall-mcq-07",
+        "tall-mcq-09"
       ],
       "explanation": "本句的「tall building」指「高樓」。",
       "sentenceIndex": 3,
@@ -321,12 +300,9 @@ export default {
         "tall building"
       ],
       "optionReasons": {
-        "tall-mcq-02": "本句指「高樓」。",
-        "tall-mcq-01": "「高個子的人」是「tall person」的用法，與本句語境不同。",
-        "tall-mcq-03": "「高大的樹」是「tall tree」的用法，與本句語境不同。",
-        "tall-mcq-04": "「高 X 米」是「X metres tall」的用法，與本句語境不同。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。"
+        "tall-mcq-02": "本句的「tall building」指「高樓」。",
+        "tall-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-02"
     },
@@ -338,11 +314,8 @@ export default {
       "masked": "A ____ stood beside the house.",
       "options": [
         "tall-mcq-02",
-        "tall-mcq-01",
-        "tall-mcq-03",
-        "tall-mcq-04",
-        "tall-mcq-05",
-        "tall-mcq-06"
+        "tall-mcq-07",
+        "tall-mcq-09"
       ],
       "explanation": "本句的「tall tree」指「高樓」。",
       "sentenceIndex": 4,
@@ -351,12 +324,9 @@ export default {
         "tall tree"
       ],
       "optionReasons": {
-        "tall-mcq-02": "本句指「高樓」。",
-        "tall-mcq-01": "「高個子的人」是「tall person」的用法，與本句語境不同。",
-        "tall-mcq-03": "「高大的樹」是「tall tree」的用法，與本句語境不同。",
-        "tall-mcq-04": "「高 X 米」是「X metres tall」的用法，與本句語境不同。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。"
+        "tall-mcq-02": "本句的「tall tree」指「高樓」。",
+        "tall-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-02"
     },
@@ -368,11 +338,8 @@ export default {
       "masked": "The tower is 60 metres ____.",
       "options": [
         "tall-mcq-04",
-        "tall-mcq-03",
-        "tall-mcq-05",
-        "tall-mcq-02",
         "tall-mcq-06",
-        "tall-mcq-01"
+        "tall-mcq-09"
       ],
       "explanation": "本句的「tall」指「高 X 米」。",
       "sentenceIndex": 5,
@@ -381,12 +348,9 @@ export default {
         "tall"
       ],
       "optionReasons": {
-        "tall-mcq-04": "本句指「高 X 米」。",
-        "tall-mcq-03": "「高大的樹」是「tall tree」的用法，與本句語境不同。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。",
-        "tall-mcq-02": "「高樓」是「tall building」的用法，與本句語境不同。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。",
-        "tall-mcq-01": "「高個子的人」是「tall person」的用法，與本句語境不同。"
+        "tall-mcq-04": "本句的「tall」指「高 X 米」。",
+        "tall-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-04"
     },
@@ -398,11 +362,8 @@ export default {
       "masked": "He is six feet ____.",
       "options": [
         "tall-mcq-04",
-        "tall-mcq-03",
-        "tall-mcq-05",
-        "tall-mcq-02",
         "tall-mcq-06",
-        "tall-mcq-01"
+        "tall-mcq-09"
       ],
       "explanation": "本句的「tall」指「高 X 米」。",
       "sentenceIndex": 6,
@@ -411,12 +372,9 @@ export default {
         "tall"
       ],
       "optionReasons": {
-        "tall-mcq-04": "本句指「高 X 米」。",
-        "tall-mcq-03": "「高大的樹」是「tall tree」的用法，與本句語境不同。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。",
-        "tall-mcq-02": "「高樓」是「tall building」的用法，與本句語境不同。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。",
-        "tall-mcq-01": "「高個子的人」是「tall person」的用法，與本句語境不同。"
+        "tall-mcq-04": "本句的「tall」指「高 X 米」。",
+        "tall-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-04"
     },
@@ -428,11 +386,8 @@ export default {
       "masked": "She poured the juice into a ____.",
       "options": [
         "tall-mcq-05",
-        "tall-mcq-04",
         "tall-mcq-06",
-        "tall-mcq-03",
-        "tall-mcq-07",
-        "tall-mcq-02"
+        "tall-mcq-09"
       ],
       "explanation": "本句的「tall glass」指「高身杯」。",
       "sentenceIndex": 7,
@@ -441,12 +396,9 @@ export default {
         "tall glass"
       ],
       "optionReasons": {
-        "tall-mcq-05": "本句指「高身杯」。",
-        "tall-mcq-04": "「高 X 米」是「X metres tall」的用法，與本句語境不同。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。",
-        "tall-mcq-03": "「高大的樹」是「tall tree」的用法，與本句語境不同。",
-        "tall-mcq-07": "「昂首自信地做人」是「walk tall」的用法，與本句語境不同。",
-        "tall-mcq-02": "「高樓」是「tall building」的用法，與本句語境不同。"
+        "tall-mcq-05": "本句的「tall glass」指「高身杯」。",
+        "tall-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-05"
     },
@@ -458,11 +410,8 @@ export default {
       "masked": "The flowers were arranged in a ____.",
       "options": [
         "tall-mcq-05",
-        "tall-mcq-04",
         "tall-mcq-06",
-        "tall-mcq-03",
-        "tall-mcq-07",
-        "tall-mcq-02"
+        "tall-mcq-09"
       ],
       "explanation": "本句的「tall vase」指「高身杯」。",
       "sentenceIndex": 8,
@@ -471,12 +420,9 @@ export default {
         "tall vase"
       ],
       "optionReasons": {
-        "tall-mcq-05": "本句指「高身杯」。",
-        "tall-mcq-04": "「高 X 米」是「X metres tall」的用法，與本句語境不同。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。",
-        "tall-mcq-03": "「高大的樹」是「tall tree」的用法，與本句語境不同。",
-        "tall-mcq-07": "「昂首自信地做人」是「walk tall」的用法，與本句語境不同。",
-        "tall-mcq-02": "「高樓」是「tall building」的用法，與本句語境不同。"
+        "tall-mcq-05": "本句的「tall vase」指「高身杯」。",
+        "tall-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-05"
     },
@@ -488,11 +434,8 @@ export default {
       "masked": "He ____ at the front of the room.",
       "options": [
         "tall-mcq-06",
-        "tall-mcq-05",
-        "tall-mcq-07",
-        "tall-mcq-04",
-        "tall-mcq-08",
-        "tall-mcq-03"
+        "tall-mcq-09",
+        "tall-mcq-08"
       ],
       "explanation": "本句的「stood tall」指「挺直／昂首面對」。",
       "sentenceIndex": 9,
@@ -501,12 +444,9 @@ export default {
         "stood tall"
       ],
       "optionReasons": {
-        "tall-mcq-06": "本句指「挺直／昂首面對」。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。",
-        "tall-mcq-07": "「昂首自信地做人」是「walk tall」的用法，與本句語境不同。",
-        "tall-mcq-04": "「高 X 米」是「X metres tall」的用法，與本句語境不同。",
-        "tall-mcq-08": "「高難度要求」是「a tall order」的用法，與本句語境不同。",
-        "tall-mcq-03": "「高大的樹」是「tall tree」的用法，與本句語境不同。"
+        "tall-mcq-06": "本句的「stood tall」指「挺直／昂首面對」。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-06"
     },
@@ -518,11 +458,8 @@ export default {
       "masked": "She ____ despite the criticism.",
       "options": [
         "tall-mcq-06",
-        "tall-mcq-05",
-        "tall-mcq-07",
-        "tall-mcq-04",
-        "tall-mcq-08",
-        "tall-mcq-03"
+        "tall-mcq-09",
+        "tall-mcq-10"
       ],
       "explanation": "本句的「stood tall」指「挺直／昂首面對」。",
       "sentenceIndex": 10,
@@ -531,12 +468,9 @@ export default {
         "stood tall"
       ],
       "optionReasons": {
-        "tall-mcq-06": "本句指「挺直／昂首面對」。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。",
-        "tall-mcq-07": "「昂首自信地做人」是「walk tall」的用法，與本句語境不同。",
-        "tall-mcq-04": "「高 X 米」是「X metres tall」的用法，與本句語境不同。",
-        "tall-mcq-08": "「高難度要求」是「a tall order」的用法，與本句語境不同。",
-        "tall-mcq-03": "「高大的樹」是「tall tree」的用法，與本句語境不同。"
+        "tall-mcq-06": "本句的「stood tall」指「挺直／昂首面對」。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-06"
     },
@@ -548,11 +482,8 @@ export default {
       "masked": "After winning the award, he seemed to ____.",
       "options": [
         "tall-mcq-07",
-        "tall-mcq-06",
-        "tall-mcq-08",
-        "tall-mcq-05",
         "tall-mcq-09",
-        "tall-mcq-04"
+        "tall-mcq-08"
       ],
       "explanation": "本句的「walk tall」指「昂首自信地做人」。",
       "sentenceIndex": 11,
@@ -561,12 +492,9 @@ export default {
         "walk tall"
       ],
       "optionReasons": {
-        "tall-mcq-07": "本句指「昂首自信地做人」。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。",
-        "tall-mcq-08": "「高難度要求」是「a tall order」的用法，與本句語境不同。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。",
-        "tall-mcq-09": "「荒誕誇張故事」是「a tall tale」的用法，與本句語境不同。",
-        "tall-mcq-04": "「高 X 米」是「X metres tall」的用法，與本句語境不同。"
+        "tall-mcq-07": "本句的「walk tall」指「昂首自信地做人」。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-07"
     },
@@ -578,11 +506,8 @@ export default {
       "masked": "You should be proud and ____.",
       "options": [
         "tall-mcq-07",
-        "tall-mcq-06",
-        "tall-mcq-08",
-        "tall-mcq-05",
-        "tall-mcq-09",
-        "tall-mcq-04"
+        "tall-mcq-02",
+        "tall-mcq-09"
       ],
       "explanation": "本句的「walk tall」指「昂首自信地做人」。",
       "sentenceIndex": 12,
@@ -591,12 +516,9 @@ export default {
         "walk tall"
       ],
       "optionReasons": {
-        "tall-mcq-07": "本句指「昂首自信地做人」。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。",
-        "tall-mcq-08": "「高難度要求」是「a tall order」的用法，與本句語境不同。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。",
-        "tall-mcq-09": "「荒誕誇張故事」是「a tall tale」的用法，與本句語境不同。",
-        "tall-mcq-04": "「高 X 米」是「X metres tall」的用法，與本句語境不同。"
+        "tall-mcq-07": "本句的「walk tall」指「昂首自信地做人」。",
+        "tall-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-07"
     },
@@ -608,11 +530,8 @@ export default {
       "masked": "Finishing all this work today is a ____.",
       "options": [
         "tall-mcq-08",
-        "tall-mcq-07",
         "tall-mcq-09",
-        "tall-mcq-06",
-        "tall-mcq-10",
-        "tall-mcq-05"
+        "tall-mcq-06"
       ],
       "explanation": "本句的「tall order」指「高難度要求」。",
       "sentenceIndex": 13,
@@ -621,12 +540,9 @@ export default {
         "tall order"
       ],
       "optionReasons": {
-        "tall-mcq-08": "本句指「高難度要求」。",
-        "tall-mcq-07": "「昂首自信地做人」是「walk tall」的用法，與本句語境不同。",
-        "tall-mcq-09": "「荒誕誇張故事」是「a tall tale」的用法，與本句語境不同。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。",
-        "tall-mcq-10": "「身高比一般人高，或由底部到頂部的高度較大」是「1. tall（人：高個子的） — 高的；高個子的」的用法，與本句語境不同。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。"
+        "tall-mcq-08": "本句的「tall order」指「高難度要求」。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-08"
     },
@@ -638,11 +554,8 @@ export default {
       "masked": "Asking a beginner to master this in a week is a ____.",
       "options": [
         "tall-mcq-08",
-        "tall-mcq-07",
-        "tall-mcq-09",
         "tall-mcq-06",
-        "tall-mcq-10",
-        "tall-mcq-05"
+        "tall-mcq-09"
       ],
       "explanation": "本句的「tall order」指「高難度要求」。",
       "sentenceIndex": 14,
@@ -651,12 +564,9 @@ export default {
         "tall order"
       ],
       "optionReasons": {
-        "tall-mcq-08": "本句指「高難度要求」。",
-        "tall-mcq-07": "「昂首自信地做人」是「walk tall」的用法，與本句語境不同。",
-        "tall-mcq-09": "「荒誕誇張故事」是「a tall tale」的用法，與本句語境不同。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。",
-        "tall-mcq-10": "「身高比一般人高，或由底部到頂部的高度較大」是「1. tall（人：高個子的） — 高的；高個子的」的用法，與本句語境不同。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。"
+        "tall-mcq-08": "本句的「tall order」指「高難度要求」。",
+        "tall-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-08"
     },
@@ -668,11 +578,8 @@ export default {
       "masked": "He told us a ____ about meeting a movie star.",
       "options": [
         "tall-mcq-09",
-        "tall-mcq-08",
-        "tall-mcq-10",
-        "tall-mcq-07",
         "tall-mcq-06",
-        "tall-mcq-05"
+        "tall-mcq-04"
       ],
       "explanation": "本句的「tall tale」指「荒誕誇張故事」。",
       "sentenceIndex": 15,
@@ -681,12 +588,9 @@ export default {
         "tall tale"
       ],
       "optionReasons": {
-        "tall-mcq-09": "本句指「荒誕誇張故事」。",
-        "tall-mcq-08": "「高難度要求」是「a tall order」的用法，與本句語境不同。",
-        "tall-mcq-10": "「身高比一般人高，或由底部到頂部的高度較大」是「1. tall（人：高個子的） — 高的；高個子的」的用法，與本句語境不同。",
-        "tall-mcq-07": "「昂首自信地做人」是「walk tall」的用法，與本句語境不同。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。"
+        "tall-mcq-09": "本句的「tall tale」指「荒誕誇張故事」。",
+        "tall-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-09"
     },
@@ -699,10 +603,7 @@ export default {
       "options": [
         "tall-mcq-09",
         "tall-mcq-08",
-        "tall-mcq-10",
-        "tall-mcq-07",
-        "tall-mcq-06",
-        "tall-mcq-05"
+        "tall-mcq-07"
       ],
       "explanation": "本句的「tall tale」指「荒誕誇張故事」。",
       "sentenceIndex": 16,
@@ -711,12 +612,9 @@ export default {
         "tall tale"
       ],
       "optionReasons": {
-        "tall-mcq-09": "本句指「荒誕誇張故事」。",
-        "tall-mcq-08": "「高難度要求」是「a tall order」的用法，與本句語境不同。",
-        "tall-mcq-10": "「身高比一般人高，或由底部到頂部的高度較大」是「1. tall（人：高個子的） — 高的；高個子的」的用法，與本句語境不同。",
-        "tall-mcq-07": "「昂首自信地做人」是「walk tall」的用法，與本句語境不同。",
-        "tall-mcq-06": "「挺直／昂首面對」是「stand tall」的用法，與本句語境不同。",
-        "tall-mcq-05": "「高身杯」是「tall glass」的用法，與本句語境不同。"
+        "tall-mcq-09": "本句的「tall tale」指「荒誕誇張故事」。",
+        "tall-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tall-mcq-09"
     }
@@ -728,5 +626,7 @@ export default {
     "sha256": "cd24aafc606187949a1c4dd7e58de2fa63c3cc4add9f959dc1f7c71f1537f95a",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

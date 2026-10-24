@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "potential-mcq-01",
-      "title": "表示潛力；發展潛能；例句：「教練立刻看出了她的潛力。」",
+      "title": "潛力；發展潛能",
       "form": "Passage anchor > “She also had a sharp eye for potential.",
       "en": "Passage anchor > “She also had a sharp eye for potential.",
       "zh": "表示潛力；發展潛能；例句：「教練立刻看出了她的潛力。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "potential-mcq-02",
-      "title": "表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」",
+      "title": "潛力；潛能；發展可能性",
       "form": "potential — noun: ability or capacity for future development = qualities or abilities that may develop and lead to future success 潛力；潛能；發展可能性",
       "en": "potential — noun: ability or capacity for future development = qualities or abilities that may develop and lead to future success 潛力；潛能；發展可能性",
       "zh": "表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "potential-mcq-03",
-      "title": "表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」",
+      "title": "觀光發展潛力",
       "form": "potential for something = possibility or capacity for something to happen or develop ……的可能性；……的潛力",
       "en": "potential for something = possibility or capacity for something to happen or develop ……的可能性；……的潛力",
       "zh": "表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "potential-mcq-04",
-      "title": "表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」",
+      "title": "有可能……；有能力發展到……",
       "form": "potential to do something = capacity or possibility to develop into, achieve, or cause something 有可能……；有能力發展到……",
       "en": "potential to do something = capacity or possibility to develop into, achieve, or cause something 有可能……；有能力發展到……",
       "zh": "表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "potential-mcq-05",
-      "title": "表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」",
+      "title": "可能性；潛在可能",
       "form": "potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能",
       "en": "potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能",
       "zh": "表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "potential-mcq-06",
-      "title": "表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」",
+      "title": "潛在的；可能的",
       "form": "potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的",
       "en": "potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的",
       "zh": "表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "potential-mcq-07",
-      "title": "表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」",
+      "title": "潛在顧客／買家／客戶",
       "form": "potential customer / buyer / client = someone who might become a customer, buyer, or client 潛在顧客／買家／客戶",
       "en": "potential customer / buyer / client = someone who might become a customer, buyer, or client 潛在顧客／買家／客戶",
       "zh": "表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "potential-mcq-08",
-      "title": "表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」",
+      "title": "潛在的問題／風險／危險／威脅",
       "form": "potential problem / risk / danger / threat = something that could become a problem, risk, danger, or threat 潛在的問題／風險／危險／威脅",
       "en": "potential problem / risk / danger / threat = something that could become a problem, risk, danger, or threat 潛在的問題／風險／危險／威脅",
       "zh": "表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "potential-mcq-10",
-      "title": "表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」",
+      "title": "可能的原因／來源／解釋",
       "form": "potential cause / source / explanation = a possible cause, source, or explanation 可能的原因／來源／解釋",
       "en": "potential cause / source / explanation = a possible cause, source, or explanation 可能的原因／來源／解釋",
       "zh": "表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "potential-mcq-11",
-      "title": "表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」",
+      "title": "全部潛能；最大潛力",
       "form": "someone’s full potential = the highest level of ability or achievement that a person could realistically develop 全部潛能；最大潛力",
       "en": "someone’s full potential = the highest level of ability or achievement that a person could realistically develop 全部潛能；最大潛力",
       "zh": "表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "potential-mcq-12",
-      "title": "表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」",
+      "title": "發揮潛能；實現潛力",
       "form": "realize / fulfil one’s potential = develop and use one’s abilities as fully as possible 發揮潛能；實現潛力",
       "en": "realize / fulfil one’s potential = develop and use one’s abilities as fully as possible 發揮潛能；實現潛力",
       "zh": "表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "potential-mcq-15",
-      "title": "表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」",
+      "title": "市場潛力；市場潛能",
       "form": "market potential = possible future demand, sales, or commercial opportunity in a market 市場潛力；市場潛能",
       "en": "market potential = possible future demand, sales, or commercial opportunity in a market 市場潛力；市場潛能",
       "zh": "表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "potential-mcq-16",
-      "title": "表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」",
+      "title": "成長潛力；發展潛力",
       "form": "growth potential = capacity for future growth 成長潛力；發展潛力",
       "en": "growth potential = capacity for future growth 成長潛力；發展潛力",
       "zh": "表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "potential-mcq-17",
-      "title": "表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」",
+      "title": "賺錢潛力；收入潛力",
       "form": "earning potential = amount of money someone could potentially earn 賺錢潛力；收入潛力",
       "en": "earning potential = amount of money someone could potentially earn 賺錢潛力；收入潛力",
       "zh": "表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "potential-mcq-18",
-      "title": "表示發展潛力；例句：「這塊土地具有很大的開發潛力。」",
+      "title": "發展潛力",
       "form": "development potential = capacity of a place, project, person, or system for future development 發展潛力",
       "en": "development potential = capacity of a place, project, person, or system for future development 發展潛力",
       "zh": "表示發展潛力；例句：「這塊土地具有很大的開發潛力。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "potential-mcq-19",
-      "title": "表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」",
+      "title": "位能；勢能",
       "form": "potential energy = stored energy resulting from position, configuration, or condition 位能；勢能",
       "en": "potential energy = stored energy resulting from position, configuration, or condition 位能；勢能",
       "zh": "表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "potential-mcq-20",
-      "title": "表示電勢；例句：「這兩點之間的電勢不同。」",
+      "title": "電勢",
       "form": "electric potential = electric potential energy per unit charge at a point 電勢",
       "en": "electric potential = electric potential energy per unit charge at a point 電勢",
       "zh": "表示電勢；例句：「這兩點之間的電勢不同。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "potential-mcq-21",
-      "title": "表示電勢差；電位差；例句：「電池兩端存在電勢差。」",
+      "title": "電勢差；電位差",
       "form": "potential difference = difference in electric potential between two points 電勢差；電位差",
       "en": "potential difference = difference in electric potential between two points 電勢差；電位差",
       "zh": "表示電勢差；電位差；例句：「電池兩端存在電勢差。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "potential-mcq-22",
-      "title": "表示潛在人選；例句：「她是這個職位的潛在人選。」",
+      "title": "潛在人選",
       "form": "potential as an adjective potential + noun = possible or capable of becoming actual in the future Examples: * potential customer 潛在顧客",
       "en": "potential as an adjective potential + noun = possible or capable of becoming actual in the future Examples: * potential customer 潛在顧客",
       "zh": "表示潛在人選；例句：「她是這個職位的潛在人選。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "potential-mcq-23",
-      "title": "表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」",
+      "title": "可能地；潛在地；有可能",
       "form": "potentially = possibly; in a way that could develop into or cause something 可能地；潛在地；有可能",
       "en": "potentially = possibly; in a way that could develop into or cause something 可能地；潛在地；有可能",
       "zh": "表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "potential-mcq-24",
-      "title": "表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」",
+      "title": "可能很嚴重的問題",
       "form": "potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的",
       "en": "potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的",
       "zh": "表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "potential-mcq-25",
-      "title": "表示看出……的潛力；例句：「老師立刻看出了他的潛力。」",
+      "title": "看出……的潛力",
       "form": "see potential in someone / something = recognize capacity for future development or success 看出……的潛力",
       "en": "see potential in someone / something = recognize capacity for future development or success 看出……的潛力",
       "zh": "表示看出……的潛力；例句：「老師立刻看出了他的潛力。」",
@@ -557,7 +557,7 @@ export default {
     },
     {
       "id": "potential-mcq-26",
-      "title": "表示展現潛力；例句：「她展現出成為作家的巨大潛力。」",
+      "title": "展現潛力",
       "form": "show potential = demonstrate signs of future ability or success 展現潛力",
       "en": "show potential = demonstrate signs of future ability or success 展現潛力",
       "zh": "表示展現潛力；例句：「她展現出成為作家的巨大潛力。」",
@@ -601,7 +601,7 @@ export default {
     },
     {
       "id": "potential-mcq-28",
-      "title": "表示釋放潛能；開發潛力；例句：「良好的教育可以激發孩子的潛能。」",
+      "title": "釋放潛能；開發潛力",
       "form": "unlock someone’s / something’s potential = make it possible for hidden or unrealized capacity to develop 釋放潛能；開發潛力",
       "en": "unlock someone’s / something’s potential = make it possible for hidden or unrealized capacity to develop 釋放潛能；開發潛力",
       "zh": "表示釋放潛能；開發潛力；例句：「良好的教育可以激發孩子的潛能。」",
@@ -623,7 +623,7 @@ export default {
     },
     {
       "id": "potential-mcq-29",
-      "title": "表示最大化潛力；充分發揮潛能；例句：「這項訓練計畫旨在充分發揮每位運動員的潛能。」",
+      "title": "最大化潛力；充分發揮潛能",
       "form": "maximize potential = develop or use capacity as fully as possible 最大化潛力；充分發揮潛能",
       "en": "maximize potential = develop or use capacity as fully as possible 最大化潛力；充分發揮潛能",
       "zh": "表示最大化潛力；充分發揮潛能；例句：「這項訓練計畫旨在充分發揮每位運動員的潛能。」",
@@ -653,11 +653,9 @@ export default {
       "masked": "The coach immediately recognized her ____.",
       "options": [
         "potential-mcq-01",
-        "potential-mcq-02",
-        "potential-mcq-03",
-        "potential-mcq-04",
-        "potential-mcq-05",
-        "potential-mcq-06"
+        "potential-mcq-10",
+        "potential-mcq-20",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「potential」指「表示潛力；發展潛能；例句：「教練立刻看出了她的潛力。」」。",
       "sentenceIndex": 0,
@@ -666,12 +664,10 @@ export default {
         "potential"
       ],
       "optionReasons": {
-        "potential-mcq-01": "本句指「表示潛力；發展潛能；例句：「教練立刻看出了她的潛力。」」。",
-        "potential-mcq-02": "「表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」」是「potential — noun: ability or capacity for future development = qualities or abilities that may develop and lead to future success 潛力；潛能；發展可能性」的用法，與本句語境不同。",
-        "potential-mcq-03": "「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」是「potential for something = possibility or capacity for something to happen or develop ……的可能性；……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-04": "「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」是「potential to do something = capacity or possibility to develop into, achieve, or cause something 有可能……；有能力發展到……」的用法，與本句語境不同。",
-        "potential-mcq-05": "「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」是「potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能」的用法，與本句語境不同。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。"
+        "potential-mcq-01": "本句的「potential」指「表示潛力；發展潛能；例句：「教練立刻看出了她的潛力。」」。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-01"
     },
@@ -683,11 +679,9 @@ export default {
       "masked": "He has enormous ____, but he still needs experience.",
       "options": [
         "potential-mcq-01",
-        "potential-mcq-02",
-        "potential-mcq-03",
-        "potential-mcq-04",
-        "potential-mcq-05",
-        "potential-mcq-06"
+        "potential-mcq-21",
+        "potential-mcq-10",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「potential」指「表示潛力；發展潛能；例句：「教練立刻看出了她的潛力。」」。",
       "sentenceIndex": 1,
@@ -696,12 +690,10 @@ export default {
         "potential"
       ],
       "optionReasons": {
-        "potential-mcq-01": "本句指「表示潛力；發展潛能；例句：「教練立刻看出了她的潛力。」」。",
-        "potential-mcq-02": "「表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」」是「potential — noun: ability or capacity for future development = qualities or abilities that may develop and lead to future success 潛力；潛能；發展可能性」的用法，與本句語境不同。",
-        "potential-mcq-03": "「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」是「potential for something = possibility or capacity for something to happen or develop ……的可能性；……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-04": "「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」是「potential to do something = capacity or possibility to develop into, achieve, or cause something 有可能……；有能力發展到……」的用法，與本句語境不同。",
-        "potential-mcq-05": "「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」是「potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能」的用法，與本句語境不同。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。"
+        "potential-mcq-01": "本句的「potential」指「表示潛力；發展潛能；例句：「教練立刻看出了她的潛力。」」。",
+        "potential-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-01"
     },
@@ -713,11 +705,8 @@ export default {
       "masked": "She has the ____ to become an excellent leader.",
       "options": [
         "potential-mcq-02",
-        "potential-mcq-01",
-        "potential-mcq-03",
-        "potential-mcq-04",
-        "potential-mcq-05",
-        "potential-mcq-06"
+        "potential-mcq-21",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「potential」指「表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」」。",
       "sentenceIndex": 2,
@@ -726,12 +715,9 @@ export default {
         "potential"
       ],
       "optionReasons": {
-        "potential-mcq-02": "本句指「表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」」。",
-        "potential-mcq-01": "「表示潛力；發展潛能；例句：「教練立刻看出了她的潛力。」」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。",
-        "potential-mcq-03": "「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」是「potential for something = possibility or capacity for something to happen or develop ……的可能性；……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-04": "「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」是「potential to do something = capacity or possibility to develop into, achieve, or cause something 有可能……；有能力發展到……」的用法，與本句語境不同。",
-        "potential-mcq-05": "「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」是「potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能」的用法，與本句語境不同。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。"
+        "potential-mcq-02": "本句的「potential」指「表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」」。",
+        "potential-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-02"
     },
@@ -743,11 +729,8 @@ export default {
       "masked": "The teacher saw ____ in a student who lacked confidence.",
       "options": [
         "potential-mcq-02",
-        "potential-mcq-01",
-        "potential-mcq-03",
-        "potential-mcq-04",
-        "potential-mcq-05",
-        "potential-mcq-06"
+        "potential-mcq-20",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「potential」指「表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」」。",
       "sentenceIndex": 3,
@@ -756,12 +739,9 @@ export default {
         "potential"
       ],
       "optionReasons": {
-        "potential-mcq-02": "本句指「表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」」。",
-        "potential-mcq-01": "「表示潛力；發展潛能；例句：「教練立刻看出了她的潛力。」」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。",
-        "potential-mcq-03": "「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」是「potential for something = possibility or capacity for something to happen or develop ……的可能性；……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-04": "「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」是「potential to do something = capacity or possibility to develop into, achieve, or cause something 有可能……；有能力發展到……」的用法，與本句語境不同。",
-        "potential-mcq-05": "「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」是「potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能」的用法，與本句語境不同。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。"
+        "potential-mcq-02": "本句的「potential」指「表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」」。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-02"
     },
@@ -773,11 +753,9 @@ export default {
       "masked": "The area has great ____.",
       "options": [
         "potential-mcq-03",
-        "potential-mcq-02",
-        "potential-mcq-04",
-        "potential-mcq-01",
-        "potential-mcq-05",
-        "potential-mcq-06"
+        "potential-mcq-19",
+        "potential-mcq-10",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「potential for tourism」指「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」。",
       "sentenceIndex": 4,
@@ -786,12 +764,10 @@ export default {
         "potential for tourism"
       ],
       "optionReasons": {
-        "potential-mcq-03": "本句指「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」。",
-        "potential-mcq-02": "「表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」」是「potential — noun: ability or capacity for future development = qualities or abilities that may develop and lead to future success 潛力；潛能；發展可能性」的用法，與本句語境不同。",
-        "potential-mcq-04": "「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」是「potential to do something = capacity or possibility to develop into, achieve, or cause something 有可能……；有能力發展到……」的用法，與本句語境不同。",
-        "potential-mcq-01": "「表示潛力；發展潛能；例句：「教練立刻看出了她的潛力。」」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。",
-        "potential-mcq-05": "「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」是「potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能」的用法，與本句語境不同。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。"
+        "potential-mcq-03": "本句的「potential for tourism」指「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-03"
     },
@@ -803,11 +779,9 @@ export default {
       "masked": "The technology has considerable ____.",
       "options": [
         "potential-mcq-03",
-        "potential-mcq-02",
-        "potential-mcq-04",
-        "potential-mcq-01",
-        "potential-mcq-05",
-        "potential-mcq-06"
+        "potential-mcq-19",
+        "potential-mcq-10",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「potential for growth」指「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」。",
       "sentenceIndex": 5,
@@ -816,12 +790,10 @@ export default {
         "potential for growth"
       ],
       "optionReasons": {
-        "potential-mcq-03": "本句指「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」。",
-        "potential-mcq-02": "「表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」」是「potential — noun: ability or capacity for future development = qualities or abilities that may develop and lead to future success 潛力；潛能；發展可能性」的用法，與本句語境不同。",
-        "potential-mcq-04": "「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」是「potential to do something = capacity or possibility to develop into, achieve, or cause something 有可能……；有能力發展到……」的用法，與本句語境不同。",
-        "potential-mcq-01": "「表示潛力；發展潛能；例句：「教練立刻看出了她的潛力。」」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。",
-        "potential-mcq-05": "「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」是「potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能」的用法，與本句語境不同。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。"
+        "potential-mcq-03": "本句的「potential for growth」指「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-03"
     },
@@ -833,11 +805,8 @@ export default {
       "masked": "This idea has the ____ the industry.",
       "options": [
         "potential-mcq-04",
-        "potential-mcq-03",
-        "potential-mcq-05",
-        "potential-mcq-02",
-        "potential-mcq-06",
-        "potential-mcq-01"
+        "potential-mcq-19",
+        "potential-mcq-22"
       ],
       "explanation": "本句的「potential to change」指「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」。",
       "sentenceIndex": 6,
@@ -846,12 +815,9 @@ export default {
         "potential to change"
       ],
       "optionReasons": {
-        "potential-mcq-04": "本句指「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」。",
-        "potential-mcq-03": "「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」是「potential for something = possibility or capacity for something to happen or develop ……的可能性；……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-05": "「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」是「potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能」的用法，與本句語境不同。",
-        "potential-mcq-02": "「表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」」是「potential — noun: ability or capacity for future development = qualities or abilities that may develop and lead to future success 潛力；潛能；發展可能性」的用法，與本句語境不同。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。",
-        "potential-mcq-01": "「表示潛力；發展潛能；例句：「教練立刻看出了她的潛力。」」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。"
+        "potential-mcq-04": "本句的「potential to change」指「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-04"
     },
@@ -863,11 +829,8 @@ export default {
       "masked": "The child has the ____ a gifted musician.",
       "options": [
         "potential-mcq-04",
-        "potential-mcq-03",
-        "potential-mcq-05",
-        "potential-mcq-02",
-        "potential-mcq-06",
-        "potential-mcq-01"
+        "potential-mcq-07",
+        "potential-mcq-20"
       ],
       "explanation": "本句的「potential to become」指「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」。",
       "sentenceIndex": 7,
@@ -876,12 +839,9 @@ export default {
         "potential to become"
       ],
       "optionReasons": {
-        "potential-mcq-04": "本句指「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」。",
-        "potential-mcq-03": "「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」是「potential for something = possibility or capacity for something to happen or develop ……的可能性；……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-05": "「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」是「potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能」的用法，與本句語境不同。",
-        "potential-mcq-02": "「表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」」是「potential — noun: ability or capacity for future development = qualities or abilities that may develop and lead to future success 潛力；潛能；發展可能性」的用法，與本句語境不同。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。",
-        "potential-mcq-01": "「表示潛力；發展潛能；例句：「教練立刻看出了她的潛力。」」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。"
+        "potential-mcq-04": "本句的「potential to become」指「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-04"
     },
@@ -893,11 +853,7 @@ export default {
       "masked": "We need to consider the ____ for further delays.",
       "options": [
         "potential-mcq-05",
-        "potential-mcq-04",
-        "potential-mcq-06",
-        "potential-mcq-03",
-        "potential-mcq-07",
-        "potential-mcq-02"
+        "potential-mcq-20"
       ],
       "explanation": "本句的「potential」指「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」。",
       "sentenceIndex": 8,
@@ -906,12 +862,8 @@ export default {
         "potential"
       ],
       "optionReasons": {
-        "potential-mcq-05": "本句指「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」。",
-        "potential-mcq-04": "「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」是「potential to do something = capacity or possibility to develop into, achieve, or cause something 有可能……；有能力發展到……」的用法，與本句語境不同。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。",
-        "potential-mcq-03": "「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」是「potential for something = possibility or capacity for something to happen or develop ……的可能性；……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-07": "「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」是「potential customer / buyer / client = someone who might become a customer, buyer, or client 潛在顧客／買家／客戶」的用法，與本句語境不同。",
-        "potential-mcq-02": "「表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」」是「potential — noun: ability or capacity for future development = qualities or abilities that may develop and lead to future success 潛力；潛能；發展可能性」的用法，與本句語境不同。"
+        "potential-mcq-05": "本句的「potential」指「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-05"
     },
@@ -923,11 +875,7 @@ export default {
       "masked": "The situation has the ____ for serious conflict.",
       "options": [
         "potential-mcq-05",
-        "potential-mcq-04",
-        "potential-mcq-06",
-        "potential-mcq-03",
-        "potential-mcq-07",
-        "potential-mcq-02"
+        "potential-mcq-20"
       ],
       "explanation": "本句的「potential」指「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」。",
       "sentenceIndex": 9,
@@ -936,12 +884,8 @@ export default {
         "potential"
       ],
       "optionReasons": {
-        "potential-mcq-05": "本句指「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」。",
-        "potential-mcq-04": "「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」是「potential to do something = capacity or possibility to develop into, achieve, or cause something 有可能……；有能力發展到……」的用法，與本句語境不同。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。",
-        "potential-mcq-03": "「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」是「potential for something = possibility or capacity for something to happen or develop ……的可能性；……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-07": "「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」是「potential customer / buyer / client = someone who might become a customer, buyer, or client 潛在顧客／買家／客戶」的用法，與本句語境不同。",
-        "potential-mcq-02": "「表示潛力；潛能；發展可能性；例句：「她有成為優秀領導者的潛力。」」是「potential — noun: ability or capacity for future development = qualities or abilities that may develop and lead to future success 潛力；潛能；發展可能性」的用法，與本句語境不同。"
+        "potential-mcq-05": "本句的「potential」指「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-05"
     },
@@ -953,11 +897,7 @@ export default {
       "masked": "The company is looking for ____.",
       "options": [
         "potential-mcq-06",
-        "potential-mcq-05",
-        "potential-mcq-07",
-        "potential-mcq-04",
-        "potential-mcq-08",
-        "potential-mcq-03"
+        "potential-mcq-19"
       ],
       "explanation": "本句的「potential investors」指「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」。",
       "sentenceIndex": 10,
@@ -966,12 +906,8 @@ export default {
         "potential investors"
       ],
       "optionReasons": {
-        "potential-mcq-06": "本句指「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」。",
-        "potential-mcq-05": "「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」是「potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能」的用法，與本句語境不同。",
-        "potential-mcq-07": "「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」是「potential customer / buyer / client = someone who might become a customer, buyer, or client 潛在顧客／買家／客戶」的用法，與本句語境不同。",
-        "potential-mcq-04": "「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」是「potential to do something = capacity or possibility to develop into, achieve, or cause something 有可能……；有能力發展到……」的用法，與本句語境不同。",
-        "potential-mcq-08": "「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」是「potential problem / risk / danger / threat = something that could become a problem, risk, danger, or threat 潛在的問題／風險／危險／威脅」的用法，與本句語境不同。",
-        "potential-mcq-03": "「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」是「potential for something = possibility or capacity for something to happen or develop ……的可能性；……的潛力」的用法，與本句語境不同。"
+        "potential-mcq-06": "本句的「potential investors」指「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-06"
     },
@@ -983,11 +919,7 @@ export default {
       "masked": "We discussed several ____.",
       "options": [
         "potential-mcq-06",
-        "potential-mcq-05",
-        "potential-mcq-07",
-        "potential-mcq-04",
-        "potential-mcq-08",
-        "potential-mcq-03"
+        "potential-mcq-19"
       ],
       "explanation": "本句的「potential solutions」指「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」。",
       "sentenceIndex": 11,
@@ -996,12 +928,8 @@ export default {
         "potential solutions"
       ],
       "optionReasons": {
-        "potential-mcq-06": "本句指「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」。",
-        "potential-mcq-05": "「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」是「potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能」的用法，與本句語境不同。",
-        "potential-mcq-07": "「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」是「potential customer / buyer / client = someone who might become a customer, buyer, or client 潛在顧客／買家／客戶」的用法，與本句語境不同。",
-        "potential-mcq-04": "「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」是「potential to do something = capacity or possibility to develop into, achieve, or cause something 有可能……；有能力發展到……」的用法，與本句語境不同。",
-        "potential-mcq-08": "「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」是「potential problem / risk / danger / threat = something that could become a problem, risk, danger, or threat 潛在的問題／風險／危險／威脅」的用法，與本句語境不同。",
-        "potential-mcq-03": "「表示觀光發展潛力；例句：「這個地區具有很大的觀光發展潛力。」」是「potential for something = possibility or capacity for something to happen or develop ……的可能性；……的潛力」的用法，與本句語境不同。"
+        "potential-mcq-06": "本句的「potential solutions」指「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-06"
     },
@@ -1013,11 +941,9 @@ export default {
       "masked": "The website is designed to attract ____.",
       "options": [
         "potential-mcq-07",
-        "potential-mcq-06",
-        "potential-mcq-08",
-        "potential-mcq-05",
-        "potential-mcq-09",
-        "potential-mcq-04"
+        "potential-mcq-19",
+        "potential-mcq-24",
+        "potential-mcq-18"
       ],
       "explanation": "本句的「potential customers」指「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」。",
       "sentenceIndex": 12,
@@ -1026,12 +952,10 @@ export default {
         "potential customers"
       ],
       "optionReasons": {
-        "potential-mcq-07": "本句指「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。",
-        "potential-mcq-08": "「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」是「potential problem / risk / danger / threat = something that could become a problem, risk, danger, or threat 潛在的問題／風險／危險／威脅」的用法，與本句語境不同。",
-        "potential-mcq-05": "「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」是「potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能」的用法，與本句語境不同。",
-        "potential-mcq-09": "「潛在利益；潛在優勢；潛在機會」是「potential benefit / advantage / opportunity = a benefit, advantage, or opportunity that may be realized 潛在利益；潛在優勢；潛在機會」的用法，與本句語境不同。",
-        "potential-mcq-04": "「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」是「potential to do something = capacity or possibility to develop into, achieve, or cause something 有可能……；有能力發展到……」的用法，與本句語境不同。"
+        "potential-mcq-07": "本句的「potential customers」指「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-07"
     },
@@ -1043,11 +967,9 @@ export default {
       "masked": "She met several ____ at the conference.",
       "options": [
         "potential-mcq-07",
-        "potential-mcq-06",
-        "potential-mcq-08",
-        "potential-mcq-05",
-        "potential-mcq-09",
-        "potential-mcq-04"
+        "potential-mcq-10",
+        "potential-mcq-19",
+        "potential-mcq-29"
       ],
       "explanation": "本句的「potential clients」指「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」。",
       "sentenceIndex": 13,
@@ -1056,12 +978,10 @@ export default {
         "potential clients"
       ],
       "optionReasons": {
-        "potential-mcq-07": "本句指「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。",
-        "potential-mcq-08": "「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」是「potential problem / risk / danger / threat = something that could become a problem, risk, danger, or threat 潛在的問題／風險／危險／威脅」的用法，與本句語境不同。",
-        "potential-mcq-05": "「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」是「potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能」的用法，與本句語境不同。",
-        "potential-mcq-09": "「潛在利益；潛在優勢；潛在機會」是「potential benefit / advantage / opportunity = a benefit, advantage, or opportunity that may be realized 潛在利益；潛在優勢；潛在機會」的用法，與本句語境不同。",
-        "potential-mcq-04": "「表示有可能……；有能力發展到……；例句：「這個構想有可能改變整個產業。」」是「potential to do something = capacity or possibility to develop into, achieve, or cause something 有可能……；有能力發展到……」的用法，與本句語境不同。"
+        "potential-mcq-07": "本句的「potential clients」指「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-07"
     },
@@ -1073,11 +993,8 @@ export default {
       "masked": "We identified several ____ before launch.",
       "options": [
         "potential-mcq-08",
-        "potential-mcq-07",
-        "potential-mcq-09",
-        "potential-mcq-06",
-        "potential-mcq-10",
-        "potential-mcq-05"
+        "potential-mcq-20",
+        "potential-mcq-29"
       ],
       "explanation": "本句的「potential problems」指「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」。",
       "sentenceIndex": 14,
@@ -1086,12 +1003,9 @@ export default {
         "potential problems"
       ],
       "optionReasons": {
-        "potential-mcq-08": "本句指「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」。",
-        "potential-mcq-07": "「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」是「potential customer / buyer / client = someone who might become a customer, buyer, or client 潛在顧客／買家／客戶」的用法，與本句語境不同。",
-        "potential-mcq-09": "「潛在利益；潛在優勢；潛在機會」是「potential benefit / advantage / opportunity = a benefit, advantage, or opportunity that may be realized 潛在利益；潛在優勢；潛在機會」的用法，與本句語境不同。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。",
-        "potential-mcq-10": "「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」是「potential cause / source / explanation = a possible cause, source, or explanation 可能的原因／來源／解釋」的用法，與本句語境不同。",
-        "potential-mcq-05": "「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」是「potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能」的用法，與本句語境不同。"
+        "potential-mcq-08": "本句的「potential problems」指「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-08"
     },
@@ -1103,11 +1017,8 @@ export default {
       "masked": "Security experts warned about a ____.",
       "options": [
         "potential-mcq-08",
-        "potential-mcq-07",
-        "potential-mcq-09",
-        "potential-mcq-06",
-        "potential-mcq-10",
-        "potential-mcq-05"
+        "potential-mcq-20",
+        "potential-mcq-17"
       ],
       "explanation": "本句的「potential threat」指「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」。",
       "sentenceIndex": 15,
@@ -1116,12 +1027,9 @@ export default {
         "potential threat"
       ],
       "optionReasons": {
-        "potential-mcq-08": "本句指「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」。",
-        "potential-mcq-07": "「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」是「potential customer / buyer / client = someone who might become a customer, buyer, or client 潛在顧客／買家／客戶」的用法，與本句語境不同。",
-        "potential-mcq-09": "「潛在利益；潛在優勢；潛在機會」是「potential benefit / advantage / opportunity = a benefit, advantage, or opportunity that may be realized 潛在利益；潛在優勢；潛在機會」的用法，與本句語境不同。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。",
-        "potential-mcq-10": "「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」是「potential cause / source / explanation = a possible cause, source, or explanation 可能的原因／來源／解釋」的用法，與本句語境不同。",
-        "potential-mcq-05": "「表示可能性；潛在可能；例句：「我們需要考慮進一步延誤的可能性。」」是「potential — noun: possibility that something could happen = the possibility of a future event, development, problem, or outcome 可能性；潛在可能」的用法，與本句語境不同。"
+        "potential-mcq-08": "本句的「potential threat」指「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-08"
     },
@@ -1133,11 +1041,8 @@ export default {
       "masked": "The project offers several ____.",
       "options": [
         "potential-mcq-09",
-        "potential-mcq-08",
-        "potential-mcq-10",
-        "potential-mcq-07",
-        "potential-mcq-11",
-        "potential-mcq-06"
+        "potential-mcq-01",
+        "potential-mcq-21"
       ],
       "explanation": "本句的「potential benefits」指「潛在利益；潛在優勢；潛在機會」。",
       "sentenceIndex": 16,
@@ -1146,12 +1051,9 @@ export default {
         "potential benefits"
       ],
       "optionReasons": {
-        "potential-mcq-09": "本句指「潛在利益；潛在優勢；潛在機會」。",
-        "potential-mcq-08": "「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」是「potential problem / risk / danger / threat = something that could become a problem, risk, danger, or threat 潛在的問題／風險／危險／威脅」的用法，與本句語境不同。",
-        "potential-mcq-10": "「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」是「potential cause / source / explanation = a possible cause, source, or explanation 可能的原因／來源／解釋」的用法，與本句語境不同。",
-        "potential-mcq-07": "「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」是「potential customer / buyer / client = someone who might become a customer, buyer, or client 潛在顧客／買家／客戶」的用法，與本句語境不同。",
-        "potential-mcq-11": "「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」是「someone’s full potential = the highest level of ability or achievement that a person could realistically develop 全部潛能；最大潛力」的用法，與本句語境不同。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。"
+        "potential-mcq-09": "本句的「potential benefits」指「潛在利益；潛在優勢；潛在機會」。",
+        "potential-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-09"
     },
@@ -1163,11 +1065,8 @@ export default {
       "masked": "We should consider both the risks and the ____.",
       "options": [
         "potential-mcq-09",
-        "potential-mcq-08",
-        "potential-mcq-10",
-        "potential-mcq-07",
-        "potential-mcq-11",
-        "potential-mcq-06"
+        "potential-mcq-18",
+        "potential-mcq-21"
       ],
       "explanation": "本句的「potential advantages」指「潛在利益；潛在優勢；潛在機會」。",
       "sentenceIndex": 17,
@@ -1176,12 +1075,9 @@ export default {
         "potential advantages"
       ],
       "optionReasons": {
-        "potential-mcq-09": "本句指「潛在利益；潛在優勢；潛在機會」。",
-        "potential-mcq-08": "「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」是「potential problem / risk / danger / threat = something that could become a problem, risk, danger, or threat 潛在的問題／風險／危險／威脅」的用法，與本句語境不同。",
-        "potential-mcq-10": "「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」是「potential cause / source / explanation = a possible cause, source, or explanation 可能的原因／來源／解釋」的用法，與本句語境不同。",
-        "potential-mcq-07": "「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」是「potential customer / buyer / client = someone who might become a customer, buyer, or client 潛在顧客／買家／客戶」的用法，與本句語境不同。",
-        "potential-mcq-11": "「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」是「someone’s full potential = the highest level of ability or achievement that a person could realistically develop 全部潛能；最大潛力」的用法，與本句語境不同。",
-        "potential-mcq-06": "「表示潛在的；可能的；例句：「公司正在尋找潛在投資者。」」是「potential — adjective: possible in the future = possible, but not yet actual or certain 潛在的；可能的」的用法，與本句語境不同。"
+        "potential-mcq-09": "本句的「potential advantages」指「潛在利益；潛在優勢；潛在機會」。",
+        "potential-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-09"
     },
@@ -1193,10 +1089,8 @@ export default {
       "masked": "Researchers examined several ____ of the decline.",
       "options": [
         "potential-mcq-10",
-        "potential-mcq-09",
         "potential-mcq-11",
-        "potential-mcq-08",
-        "potential-mcq-12",
+        "potential-mcq-21",
         "potential-mcq-07"
       ],
       "explanation": "本句的「potential causes」指「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」。",
@@ -1206,12 +1100,10 @@ export default {
         "potential causes"
       ],
       "optionReasons": {
-        "potential-mcq-10": "本句指「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」。",
-        "potential-mcq-09": "「潛在利益；潛在優勢；潛在機會」是「potential benefit / advantage / opportunity = a benefit, advantage, or opportunity that may be realized 潛在利益；潛在優勢；潛在機會」的用法，與本句語境不同。",
-        "potential-mcq-11": "「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」是「someone’s full potential = the highest level of ability or achievement that a person could realistically develop 全部潛能；最大潛力」的用法，與本句語境不同。",
-        "potential-mcq-08": "「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」是「potential problem / risk / danger / threat = something that could become a problem, risk, danger, or threat 潛在的問題／風險／危險／威脅」的用法，與本句語境不同。",
-        "potential-mcq-12": "「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」是「realize / fulfil one’s potential = develop and use one’s abilities as fully as possible 發揮潛能；實現潛力」的用法，與本句語境不同。",
-        "potential-mcq-07": "「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」是「potential customer / buyer / client = someone who might become a customer, buyer, or client 潛在顧客／買家／客戶」的用法，與本句語境不同。"
+        "potential-mcq-10": "本句的「potential causes」指「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」。",
+        "potential-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-10"
     },
@@ -1223,10 +1115,8 @@ export default {
       "masked": "Stress is one ____ for the symptoms.",
       "options": [
         "potential-mcq-10",
-        "potential-mcq-09",
         "potential-mcq-11",
-        "potential-mcq-08",
-        "potential-mcq-12",
+        "potential-mcq-20",
         "potential-mcq-07"
       ],
       "explanation": "本句的「potential explanation」指「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」。",
@@ -1236,12 +1126,10 @@ export default {
         "potential explanation"
       ],
       "optionReasons": {
-        "potential-mcq-10": "本句指「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」。",
-        "potential-mcq-09": "「潛在利益；潛在優勢；潛在機會」是「potential benefit / advantage / opportunity = a benefit, advantage, or opportunity that may be realized 潛在利益；潛在優勢；潛在機會」的用法，與本句語境不同。",
-        "potential-mcq-11": "「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」是「someone’s full potential = the highest level of ability or achievement that a person could realistically develop 全部潛能；最大潛力」的用法，與本句語境不同。",
-        "potential-mcq-08": "「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」是「potential problem / risk / danger / threat = something that could become a problem, risk, danger, or threat 潛在的問題／風險／危險／威脅」的用法，與本句語境不同。",
-        "potential-mcq-12": "「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」是「realize / fulfil one’s potential = develop and use one’s abilities as fully as possible 發揮潛能；實現潛力」的用法，與本句語境不同。",
-        "potential-mcq-07": "「表示潛在顧客／買家／客戶；例句：「這個網站旨在吸引潛在顧客。」」是「potential customer / buyer / client = someone who might become a customer, buyer, or client 潛在顧客／買家／客戶」的用法，與本句語境不同。"
+        "potential-mcq-10": "本句的「potential explanation」指「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」。",
+        "potential-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-10"
     },
@@ -1253,11 +1141,9 @@ export default {
       "masked": "Good teachers help students reach their ____.",
       "options": [
         "potential-mcq-11",
-        "potential-mcq-10",
-        "potential-mcq-12",
-        "potential-mcq-09",
-        "potential-mcq-13",
-        "potential-mcq-08"
+        "potential-mcq-24",
+        "potential-mcq-19",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「full potential」指「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」。",
       "sentenceIndex": 20,
@@ -1266,12 +1152,10 @@ export default {
         "full potential"
       ],
       "optionReasons": {
-        "potential-mcq-11": "本句指「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」。",
-        "potential-mcq-10": "「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」是「potential cause / source / explanation = a possible cause, source, or explanation 可能的原因／來源／解釋」的用法，與本句語境不同。",
-        "potential-mcq-12": "「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」是「realize / fulfil one’s potential = develop and use one’s abilities as fully as possible 發揮潛能；實現潛力」的用法，與本句語境不同。",
-        "potential-mcq-09": "「潛在利益；潛在優勢；潛在機會」是「potential benefit / advantage / opportunity = a benefit, advantage, or opportunity that may be realized 潛在利益；潛在優勢；潛在機會」的用法，與本句語境不同。",
-        "potential-mcq-13": "「尚未開發的潛力；未被發掘的潛能」是「untapped potential = ability, resources, or opportunity that exists but has not yet been used or developed 尚未開發的潛力；未被發掘的潛能」的用法，與本句語境不同。",
-        "potential-mcq-08": "「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」是「potential problem / risk / danger / threat = something that could become a problem, risk, danger, or threat 潛在的問題／風險／危險／威脅」的用法，與本句語境不同。"
+        "potential-mcq-11": "本句的「full potential」指「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-11"
     },
@@ -1284,10 +1168,8 @@ export default {
       "options": [
         "potential-mcq-11",
         "potential-mcq-10",
-        "potential-mcq-12",
-        "potential-mcq-09",
-        "potential-mcq-13",
-        "potential-mcq-08"
+        "potential-mcq-21",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「full potential」指「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」。",
       "sentenceIndex": 21,
@@ -1296,12 +1178,10 @@ export default {
         "full potential"
       ],
       "optionReasons": {
-        "potential-mcq-11": "本句指「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」。",
-        "potential-mcq-10": "「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」是「potential cause / source / explanation = a possible cause, source, or explanation 可能的原因／來源／解釋」的用法，與本句語境不同。",
-        "potential-mcq-12": "「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」是「realize / fulfil one’s potential = develop and use one’s abilities as fully as possible 發揮潛能；實現潛力」的用法，與本句語境不同。",
-        "potential-mcq-09": "「潛在利益；潛在優勢；潛在機會」是「potential benefit / advantage / opportunity = a benefit, advantage, or opportunity that may be realized 潛在利益；潛在優勢；潛在機會」的用法，與本句語境不同。",
-        "potential-mcq-13": "「尚未開發的潛力；未被發掘的潛能」是「untapped potential = ability, resources, or opportunity that exists but has not yet been used or developed 尚未開發的潛力；未被發掘的潛能」的用法，與本句語境不同。",
-        "potential-mcq-08": "「表示潛在的問題／風險／危險／威脅；例句：「我們在推出之前發現了幾個潛在問題。」」是「potential problem / risk / danger / threat = something that could become a problem, risk, danger, or threat 潛在的問題／風險／危險／威脅」的用法，與本句語境不同。"
+        "potential-mcq-11": "本句的「full potential」指「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-11"
     },
@@ -1313,11 +1193,9 @@ export default {
       "masked": "Supportive parents can help children ____.",
       "options": [
         "potential-mcq-12",
-        "potential-mcq-11",
-        "potential-mcq-13",
-        "potential-mcq-10",
-        "potential-mcq-14",
-        "potential-mcq-09"
+        "potential-mcq-19",
+        "potential-mcq-24",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「realize their potential」指「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」。",
       "sentenceIndex": 22,
@@ -1326,12 +1204,10 @@ export default {
         "realize their potential"
       ],
       "optionReasons": {
-        "potential-mcq-12": "本句指「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」。",
-        "potential-mcq-11": "「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」是「someone’s full potential = the highest level of ability or achievement that a person could realistically develop 全部潛能；最大潛力」的用法，與本句語境不同。",
-        "potential-mcq-13": "「尚未開發的潛力；未被發掘的潛能」是「untapped potential = ability, resources, or opportunity that exists but has not yet been used or developed 尚未開發的潛力；未被發掘的潛能」的用法，與本句語境不同。",
-        "potential-mcq-10": "「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」是「potential cause / source / explanation = a possible cause, source, or explanation 可能的原因／來源／解釋」的用法，與本句語境不同。",
-        "potential-mcq-14": "「隱藏的潛力；尚未顯現的潛能」是「hidden potential = ability or capacity that is present but not yet obvious 隱藏的潛力；尚未顯現的潛能」的用法，與本句語境不同。",
-        "potential-mcq-09": "「潛在利益；潛在優勢；潛在機會」是「potential benefit / advantage / opportunity = a benefit, advantage, or opportunity that may be realized 潛在利益；潛在優勢；潛在機會」的用法，與本句語境不同。"
+        "potential-mcq-12": "本句的「realize their potential」指「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-12"
     },
@@ -1343,11 +1219,9 @@ export default {
       "masked": "He moved abroad to ____ as a musician.",
       "options": [
         "potential-mcq-12",
-        "potential-mcq-11",
-        "potential-mcq-13",
         "potential-mcq-10",
-        "potential-mcq-14",
-        "potential-mcq-09"
+        "potential-mcq-21",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「fulfil his potential」指「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」。",
       "sentenceIndex": 23,
@@ -1356,12 +1230,10 @@ export default {
         "fulfil his potential"
       ],
       "optionReasons": {
-        "potential-mcq-12": "本句指「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」。",
-        "potential-mcq-11": "「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」是「someone’s full potential = the highest level of ability or achievement that a person could realistically develop 全部潛能；最大潛力」的用法，與本句語境不同。",
-        "potential-mcq-13": "「尚未開發的潛力；未被發掘的潛能」是「untapped potential = ability, resources, or opportunity that exists but has not yet been used or developed 尚未開發的潛力；未被發掘的潛能」的用法，與本句語境不同。",
-        "potential-mcq-10": "「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」是「potential cause / source / explanation = a possible cause, source, or explanation 可能的原因／來源／解釋」的用法，與本句語境不同。",
-        "potential-mcq-14": "「隱藏的潛力；尚未顯現的潛能」是「hidden potential = ability or capacity that is present but not yet obvious 隱藏的潛力；尚未顯現的潛能」的用法，與本句語境不同。",
-        "potential-mcq-09": "「潛在利益；潛在優勢；潛在機會」是「potential benefit / advantage / opportunity = a benefit, advantage, or opportunity that may be realized 潛在利益；潛在優勢；潛在機會」的用法，與本句語境不同。"
+        "potential-mcq-12": "本句的「fulfil his potential」指「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-12"
     },
@@ -1373,11 +1245,9 @@ export default {
       "masked": "The region has enormous ____ for renewable energy.",
       "options": [
         "potential-mcq-13",
-        "potential-mcq-12",
-        "potential-mcq-14",
-        "potential-mcq-11",
-        "potential-mcq-15",
-        "potential-mcq-10"
+        "potential-mcq-20",
+        "potential-mcq-24",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「untapped potential」指「尚未開發的潛力；未被發掘的潛能」。",
       "sentenceIndex": 24,
@@ -1386,12 +1256,10 @@ export default {
         "untapped potential"
       ],
       "optionReasons": {
-        "potential-mcq-13": "本句指「尚未開發的潛力；未被發掘的潛能」。",
-        "potential-mcq-12": "「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」是「realize / fulfil one’s potential = develop and use one’s abilities as fully as possible 發揮潛能；實現潛力」的用法，與本句語境不同。",
-        "potential-mcq-14": "「隱藏的潛力；尚未顯現的潛能」是「hidden potential = ability or capacity that is present but not yet obvious 隱藏的潛力；尚未顯現的潛能」的用法，與本句語境不同。",
-        "potential-mcq-11": "「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」是「someone’s full potential = the highest level of ability or achievement that a person could realistically develop 全部潛能；最大潛力」的用法，與本句語境不同。",
-        "potential-mcq-15": "「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」是「market potential = possible future demand, sales, or commercial opportunity in a market 市場潛力；市場潛能」的用法，與本句語境不同。",
-        "potential-mcq-10": "「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」是「potential cause / source / explanation = a possible cause, source, or explanation 可能的原因／來源／解釋」的用法，與本句語境不同。"
+        "potential-mcq-13": "本句的「untapped potential」指「尚未開發的潛力；未被發掘的潛能」。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-13"
     },
@@ -1403,11 +1271,9 @@ export default {
       "masked": "The manager believed the team had a lot of ____.",
       "options": [
         "potential-mcq-13",
-        "potential-mcq-12",
-        "potential-mcq-14",
-        "potential-mcq-11",
-        "potential-mcq-15",
-        "potential-mcq-10"
+        "potential-mcq-20",
+        "potential-mcq-10",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「untapped potential」指「尚未開發的潛力；未被發掘的潛能」。",
       "sentenceIndex": 25,
@@ -1416,12 +1282,10 @@ export default {
         "untapped potential"
       ],
       "optionReasons": {
-        "potential-mcq-13": "本句指「尚未開發的潛力；未被發掘的潛能」。",
-        "potential-mcq-12": "「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」是「realize / fulfil one’s potential = develop and use one’s abilities as fully as possible 發揮潛能；實現潛力」的用法，與本句語境不同。",
-        "potential-mcq-14": "「隱藏的潛力；尚未顯現的潛能」是「hidden potential = ability or capacity that is present but not yet obvious 隱藏的潛力；尚未顯現的潛能」的用法，與本句語境不同。",
-        "potential-mcq-11": "「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」是「someone’s full potential = the highest level of ability or achievement that a person could realistically develop 全部潛能；最大潛力」的用法，與本句語境不同。",
-        "potential-mcq-15": "「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」是「market potential = possible future demand, sales, or commercial opportunity in a market 市場潛力；市場潛能」的用法，與本句語境不同。",
-        "potential-mcq-10": "「表示可能的原因／來源／解釋；例句：「研究人員檢視了這種下降現象的幾個可能原因。」」是「potential cause / source / explanation = a possible cause, source, or explanation 可能的原因／來源／解釋」的用法，與本句語境不同。"
+        "potential-mcq-13": "本句的「untapped potential」指「尚未開發的潛力；未被發掘的潛能」。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-13"
     },
@@ -1433,11 +1297,9 @@ export default {
       "masked": "The programme helps young people discover their ____.",
       "options": [
         "potential-mcq-14",
-        "potential-mcq-13",
-        "potential-mcq-15",
-        "potential-mcq-12",
-        "potential-mcq-16",
-        "potential-mcq-11"
+        "potential-mcq-10",
+        "potential-mcq-21",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「hidden potential」指「隱藏的潛力；尚未顯現的潛能」。",
       "sentenceIndex": 26,
@@ -1446,12 +1308,10 @@ export default {
         "hidden potential"
       ],
       "optionReasons": {
-        "potential-mcq-14": "本句指「隱藏的潛力；尚未顯現的潛能」。",
-        "potential-mcq-13": "「尚未開發的潛力；未被發掘的潛能」是「untapped potential = ability, resources, or opportunity that exists but has not yet been used or developed 尚未開發的潛力；未被發掘的潛能」的用法，與本句語境不同。",
-        "potential-mcq-15": "「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」是「market potential = possible future demand, sales, or commercial opportunity in a market 市場潛力；市場潛能」的用法，與本句語境不同。",
-        "potential-mcq-12": "「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」是「realize / fulfil one’s potential = develop and use one’s abilities as fully as possible 發揮潛能；實現潛力」的用法，與本句語境不同。",
-        "potential-mcq-16": "「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」是「growth potential = capacity for future growth 成長潛力；發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-11": "「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」是「someone’s full potential = the highest level of ability or achievement that a person could realistically develop 全部潛能；最大潛力」的用法，與本句語境不同。"
+        "potential-mcq-14": "本句的「hidden potential」指「隱藏的潛力；尚未顯現的潛能」。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-14"
     },
@@ -1463,11 +1323,9 @@ export default {
       "masked": "She saw ____ in the quiet student.",
       "options": [
         "potential-mcq-14",
-        "potential-mcq-13",
-        "potential-mcq-15",
-        "potential-mcq-12",
-        "potential-mcq-16",
-        "potential-mcq-11"
+        "potential-mcq-19",
+        "potential-mcq-24",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「hidden potential」指「隱藏的潛力；尚未顯現的潛能」。",
       "sentenceIndex": 27,
@@ -1476,12 +1334,10 @@ export default {
         "hidden potential"
       ],
       "optionReasons": {
-        "potential-mcq-14": "本句指「隱藏的潛力；尚未顯現的潛能」。",
-        "potential-mcq-13": "「尚未開發的潛力；未被發掘的潛能」是「untapped potential = ability, resources, or opportunity that exists but has not yet been used or developed 尚未開發的潛力；未被發掘的潛能」的用法，與本句語境不同。",
-        "potential-mcq-15": "「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」是「market potential = possible future demand, sales, or commercial opportunity in a market 市場潛力；市場潛能」的用法，與本句語境不同。",
-        "potential-mcq-12": "「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」是「realize / fulfil one’s potential = develop and use one’s abilities as fully as possible 發揮潛能；實現潛力」的用法，與本句語境不同。",
-        "potential-mcq-16": "「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」是「growth potential = capacity for future growth 成長潛力；發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-11": "「表示全部潛能；最大潛力；例句：「優秀的老師幫助學生充分發揮潛能。」」是「someone’s full potential = the highest level of ability or achievement that a person could realistically develop 全部潛能；最大潛力」的用法，與本句語境不同。"
+        "potential-mcq-14": "本句的「hidden potential」指「隱藏的潛力；尚未顯現的潛能」。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-14"
     },
@@ -1493,11 +1349,9 @@ export default {
       "masked": "Analysts are assessing the product’s ____.",
       "options": [
         "potential-mcq-15",
-        "potential-mcq-14",
-        "potential-mcq-16",
-        "potential-mcq-13",
-        "potential-mcq-17",
-        "potential-mcq-12"
+        "potential-mcq-10",
+        "potential-mcq-19",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「market potential」指「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」。",
       "sentenceIndex": 28,
@@ -1506,12 +1360,10 @@ export default {
         "market potential"
       ],
       "optionReasons": {
-        "potential-mcq-15": "本句指「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」。",
-        "potential-mcq-14": "「隱藏的潛力；尚未顯現的潛能」是「hidden potential = ability or capacity that is present but not yet obvious 隱藏的潛力；尚未顯現的潛能」的用法，與本句語境不同。",
-        "potential-mcq-16": "「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」是「growth potential = capacity for future growth 成長潛力；發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-13": "「尚未開發的潛力；未被發掘的潛能」是「untapped potential = ability, resources, or opportunity that exists but has not yet been used or developed 尚未開發的潛力；未被發掘的潛能」的用法，與本句語境不同。",
-        "potential-mcq-17": "「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」是「earning potential = amount of money someone could potentially earn 賺錢潛力；收入潛力」的用法，與本句語境不同。",
-        "potential-mcq-12": "「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」是「realize / fulfil one’s potential = develop and use one’s abilities as fully as possible 發揮潛能；實現潛力」的用法，與本句語境不同。"
+        "potential-mcq-15": "本句的「market potential」指「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-15"
     },
@@ -1523,11 +1375,9 @@ export default {
       "masked": "The region has strong ____ for electric vehicles.",
       "options": [
         "potential-mcq-15",
-        "potential-mcq-14",
-        "potential-mcq-16",
-        "potential-mcq-13",
-        "potential-mcq-17",
-        "potential-mcq-12"
+        "potential-mcq-10",
+        "potential-mcq-20",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「market potential」指「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」。",
       "sentenceIndex": 29,
@@ -1536,12 +1386,10 @@ export default {
         "market potential"
       ],
       "optionReasons": {
-        "potential-mcq-15": "本句指「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」。",
-        "potential-mcq-14": "「隱藏的潛力；尚未顯現的潛能」是「hidden potential = ability or capacity that is present but not yet obvious 隱藏的潛力；尚未顯現的潛能」的用法，與本句語境不同。",
-        "potential-mcq-16": "「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」是「growth potential = capacity for future growth 成長潛力；發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-13": "「尚未開發的潛力；未被發掘的潛能」是「untapped potential = ability, resources, or opportunity that exists but has not yet been used or developed 尚未開發的潛力；未被發掘的潛能」的用法，與本句語境不同。",
-        "potential-mcq-17": "「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」是「earning potential = amount of money someone could potentially earn 賺錢潛力；收入潛力」的用法，與本句語境不同。",
-        "potential-mcq-12": "「表示發揮潛能；實現潛力；例句：「有支持性的父母可以幫助孩子發揮潛能。」」是「realize / fulfil one’s potential = develop and use one’s abilities as fully as possible 發揮潛能；實現潛力」的用法，與本句語境不同。"
+        "potential-mcq-15": "本句的「market potential」指「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-15"
     },
@@ -1553,11 +1401,9 @@ export default {
       "masked": "Investors prefer companies with strong ____.",
       "options": [
         "potential-mcq-16",
-        "potential-mcq-15",
-        "potential-mcq-17",
-        "potential-mcq-14",
-        "potential-mcq-18",
-        "potential-mcq-13"
+        "potential-mcq-19",
+        "potential-mcq-10",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「growth potential」指「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」。",
       "sentenceIndex": 30,
@@ -1566,12 +1412,10 @@ export default {
         "growth potential"
       ],
       "optionReasons": {
-        "potential-mcq-16": "本句指「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」。",
-        "potential-mcq-15": "「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」是「market potential = possible future demand, sales, or commercial opportunity in a market 市場潛力；市場潛能」的用法，與本句語境不同。",
-        "potential-mcq-17": "「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」是「earning potential = amount of money someone could potentially earn 賺錢潛力；收入潛力」的用法，與本句語境不同。",
-        "potential-mcq-14": "「隱藏的潛力；尚未顯現的潛能」是「hidden potential = ability or capacity that is present but not yet obvious 隱藏的潛力；尚未顯現的潛能」的用法，與本句語境不同。",
-        "potential-mcq-18": "「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」是「development potential = capacity of a place, project, person, or system for future development 發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-13": "「尚未開發的潛力；未被發掘的潛能」是「untapped potential = ability, resources, or opportunity that exists but has not yet been used or developed 尚未開發的潛力；未被發掘的潛能」的用法，與本句語境不同。"
+        "potential-mcq-16": "本句的「growth potential」指「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-16"
     },
@@ -1583,11 +1427,9 @@ export default {
       "masked": "The industry still has considerable ____.",
       "options": [
         "potential-mcq-16",
-        "potential-mcq-15",
-        "potential-mcq-17",
-        "potential-mcq-14",
-        "potential-mcq-18",
-        "potential-mcq-13"
+        "potential-mcq-20",
+        "potential-mcq-10",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「growth potential」指「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」。",
       "sentenceIndex": 31,
@@ -1596,12 +1438,10 @@ export default {
         "growth potential"
       ],
       "optionReasons": {
-        "potential-mcq-16": "本句指「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」。",
-        "potential-mcq-15": "「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」是「market potential = possible future demand, sales, or commercial opportunity in a market 市場潛力；市場潛能」的用法，與本句語境不同。",
-        "potential-mcq-17": "「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」是「earning potential = amount of money someone could potentially earn 賺錢潛力；收入潛力」的用法，與本句語境不同。",
-        "potential-mcq-14": "「隱藏的潛力；尚未顯現的潛能」是「hidden potential = ability or capacity that is present but not yet obvious 隱藏的潛力；尚未顯現的潛能」的用法，與本句語境不同。",
-        "potential-mcq-18": "「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」是「development potential = capacity of a place, project, person, or system for future development 發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-13": "「尚未開發的潛力；未被發掘的潛能」是「untapped potential = ability, resources, or opportunity that exists but has not yet been used or developed 尚未開發的潛力；未被發掘的潛能」的用法，與本句語境不同。"
+        "potential-mcq-16": "本句的「growth potential」指「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-16"
     },
@@ -1613,11 +1453,9 @@ export default {
       "masked": "Additional qualifications may increase your ____.",
       "options": [
         "potential-mcq-17",
-        "potential-mcq-16",
-        "potential-mcq-18",
-        "potential-mcq-15",
+        "potential-mcq-24",
         "potential-mcq-19",
-        "potential-mcq-14"
+        "potential-mcq-07"
       ],
       "explanation": "本句的「earning potential」指「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」。",
       "sentenceIndex": 32,
@@ -1626,12 +1464,10 @@ export default {
         "earning potential"
       ],
       "optionReasons": {
-        "potential-mcq-17": "本句指「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」。",
-        "potential-mcq-16": "「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」是「growth potential = capacity for future growth 成長潛力；發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-18": "「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」是「development potential = capacity of a place, project, person, or system for future development 發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-15": "「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」是「market potential = possible future demand, sales, or commercial opportunity in a market 市場潛力；市場潛能」的用法，與本句語境不同。",
-        "potential-mcq-19": "「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」是「potential energy = stored energy resulting from position, configuration, or condition 位能；勢能」的用法，與本句語境不同。",
-        "potential-mcq-14": "「隱藏的潛力；尚未顯現的潛能」是「hidden potential = ability or capacity that is present but not yet obvious 隱藏的潛力；尚未顯現的潛能」的用法，與本句語境不同。"
+        "potential-mcq-17": "本句的「earning potential」指「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-17"
     },
@@ -1643,11 +1479,9 @@ export default {
       "masked": "He chose the career partly because of its high ____.",
       "options": [
         "potential-mcq-17",
-        "potential-mcq-16",
-        "potential-mcq-18",
-        "potential-mcq-15",
-        "potential-mcq-19",
-        "potential-mcq-14"
+        "potential-mcq-24",
+        "potential-mcq-20",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「earning potential」指「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」。",
       "sentenceIndex": 33,
@@ -1656,12 +1490,10 @@ export default {
         "earning potential"
       ],
       "optionReasons": {
-        "potential-mcq-17": "本句指「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」。",
-        "potential-mcq-16": "「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」是「growth potential = capacity for future growth 成長潛力；發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-18": "「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」是「development potential = capacity of a place, project, person, or system for future development 發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-15": "「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」是「market potential = possible future demand, sales, or commercial opportunity in a market 市場潛力；市場潛能」的用法，與本句語境不同。",
-        "potential-mcq-19": "「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」是「potential energy = stored energy resulting from position, configuration, or condition 位能；勢能」的用法，與本句語境不同。",
-        "potential-mcq-14": "「隱藏的潛力；尚未顯現的潛能」是「hidden potential = ability or capacity that is present but not yet obvious 隱藏的潛力；尚未顯現的潛能」的用法，與本句語境不同。"
+        "potential-mcq-17": "本句的「earning potential」指「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-17"
     },
@@ -1673,11 +1505,9 @@ export default {
       "masked": "The land has significant ____.",
       "options": [
         "potential-mcq-18",
-        "potential-mcq-17",
         "potential-mcq-19",
-        "potential-mcq-16",
-        "potential-mcq-20",
-        "potential-mcq-15"
+        "potential-mcq-24",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「development potential」指「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」。",
       "sentenceIndex": 34,
@@ -1686,12 +1516,10 @@ export default {
         "development potential"
       ],
       "optionReasons": {
-        "potential-mcq-18": "本句指「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」。",
-        "potential-mcq-17": "「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」是「earning potential = amount of money someone could potentially earn 賺錢潛力；收入潛力」的用法，與本句語境不同。",
-        "potential-mcq-19": "「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」是「potential energy = stored energy resulting from position, configuration, or condition 位能；勢能」的用法，與本句語境不同。",
-        "potential-mcq-16": "「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」是「growth potential = capacity for future growth 成長潛力；發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-20": "「表示電勢；例句：「這兩點之間的電勢不同。」」是「electric potential = electric potential energy per unit charge at a point 電勢」的用法，與本句語境不同。",
-        "potential-mcq-15": "「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」是「market potential = possible future demand, sales, or commercial opportunity in a market 市場潛力；市場潛能」的用法，與本句語境不同。"
+        "potential-mcq-18": "本句的「development potential」指「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-18"
     },
@@ -1703,11 +1531,9 @@ export default {
       "masked": "The report evaluates the region’s economic ____.",
       "options": [
         "potential-mcq-18",
-        "potential-mcq-17",
         "potential-mcq-19",
-        "potential-mcq-16",
-        "potential-mcq-20",
-        "potential-mcq-15"
+        "potential-mcq-24",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「development potential」指「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」。",
       "sentenceIndex": 35,
@@ -1716,12 +1542,10 @@ export default {
         "development potential"
       ],
       "optionReasons": {
-        "potential-mcq-18": "本句指「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」。",
-        "potential-mcq-17": "「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」是「earning potential = amount of money someone could potentially earn 賺錢潛力；收入潛力」的用法，與本句語境不同。",
-        "potential-mcq-19": "「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」是「potential energy = stored energy resulting from position, configuration, or condition 位能；勢能」的用法，與本句語境不同。",
-        "potential-mcq-16": "「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」是「growth potential = capacity for future growth 成長潛力；發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-20": "「表示電勢；例句：「這兩點之間的電勢不同。」」是「electric potential = electric potential energy per unit charge at a point 電勢」的用法，與本句語境不同。",
-        "potential-mcq-15": "「表示市場潛力；市場潛能；例句：「分析師正在評估這項產品的市場潛力。」」是「market potential = possible future demand, sales, or commercial opportunity in a market 市場潛力；市場潛能」的用法，與本句語境不同。"
+        "potential-mcq-18": "本句的「development potential」指「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-18"
     },
@@ -1733,11 +1557,7 @@ export default {
       "masked": "Water stored behind a dam has gravitational ____.",
       "options": [
         "potential-mcq-19",
-        "potential-mcq-18",
-        "potential-mcq-20",
-        "potential-mcq-17",
-        "potential-mcq-21",
-        "potential-mcq-16"
+        "potential-mcq-23"
       ],
       "explanation": "本句的「potential energy」指「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」。",
       "sentenceIndex": 36,
@@ -1746,12 +1566,8 @@ export default {
         "potential energy"
       ],
       "optionReasons": {
-        "potential-mcq-19": "本句指「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」。",
-        "potential-mcq-18": "「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」是「development potential = capacity of a place, project, person, or system for future development 發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-20": "「表示電勢；例句：「這兩點之間的電勢不同。」」是「electric potential = electric potential energy per unit charge at a point 電勢」的用法，與本句語境不同。",
-        "potential-mcq-17": "「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」是「earning potential = amount of money someone could potentially earn 賺錢潛力；收入潛力」的用法，與本句語境不同。",
-        "potential-mcq-21": "「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」是「potential difference = difference in electric potential between two points 電勢差；電位差」的用法，與本句語境不同。",
-        "potential-mcq-16": "「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」是「growth potential = capacity for future growth 成長潛力；發展潛力」的用法，與本句語境不同。"
+        "potential-mcq-19": "本句的「potential energy」指「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」。",
+        "potential-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-19"
     },
@@ -1763,11 +1579,8 @@ export default {
       "masked": "A stretched spring contains elastic ____.",
       "options": [
         "potential-mcq-19",
-        "potential-mcq-18",
-        "potential-mcq-20",
-        "potential-mcq-17",
-        "potential-mcq-21",
-        "potential-mcq-16"
+        "potential-mcq-14",
+        "potential-mcq-08"
       ],
       "explanation": "本句的「potential energy」指「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」。",
       "sentenceIndex": 37,
@@ -1776,12 +1589,9 @@ export default {
         "potential energy"
       ],
       "optionReasons": {
-        "potential-mcq-19": "本句指「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」。",
-        "potential-mcq-18": "「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」是「development potential = capacity of a place, project, person, or system for future development 發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-20": "「表示電勢；例句：「這兩點之間的電勢不同。」」是「electric potential = electric potential energy per unit charge at a point 電勢」的用法，與本句語境不同。",
-        "potential-mcq-17": "「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」是「earning potential = amount of money someone could potentially earn 賺錢潛力；收入潛力」的用法，與本句語境不同。",
-        "potential-mcq-21": "「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」是「potential difference = difference in electric potential between two points 電勢差；電位差」的用法，與本句語境不同。",
-        "potential-mcq-16": "「表示成長潛力；發展潛力；例句：「投資者偏好具有強大成長潛力的公司。」」是「growth potential = capacity for future growth 成長潛力；發展潛力」的用法，與本句語境不同。"
+        "potential-mcq-19": "本句的「potential energy」指「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」。",
+        "potential-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-19"
     },
@@ -1793,11 +1603,9 @@ export default {
       "masked": "The electric ____ differs between the two points.",
       "options": [
         "potential-mcq-20",
-        "potential-mcq-19",
-        "potential-mcq-21",
-        "potential-mcq-18",
-        "potential-mcq-22",
-        "potential-mcq-17"
+        "potential-mcq-16",
+        "potential-mcq-24",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「potential」指「表示電勢；例句：「這兩點之間的電勢不同。」」。",
       "sentenceIndex": 38,
@@ -1806,12 +1614,10 @@ export default {
         "potential"
       ],
       "optionReasons": {
-        "potential-mcq-20": "本句指「表示電勢；例句：「這兩點之間的電勢不同。」」。",
-        "potential-mcq-19": "「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」是「potential energy = stored energy resulting from position, configuration, or condition 位能；勢能」的用法，與本句語境不同。",
-        "potential-mcq-21": "「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」是「potential difference = difference in electric potential between two points 電勢差；電位差」的用法，與本句語境不同。",
-        "potential-mcq-18": "「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」是「development potential = capacity of a place, project, person, or system for future development 發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-22": "「表示潛在人選；例句：「她是這個職位的潛在人選。」」是「potential as an adjective potential + noun = possible or capable of becoming actual in the future Examples: * potential customer 潛在顧客」的用法，與本句語境不同。",
-        "potential-mcq-17": "「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」是「earning potential = amount of money someone could potentially earn 賺錢潛力；收入潛力」的用法，與本句語境不同。"
+        "potential-mcq-20": "本句的「potential」指「表示電勢；例句：「這兩點之間的電勢不同。」」。",
+        "potential-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-20"
     },
@@ -1823,11 +1629,9 @@ export default {
       "masked": "Voltage represents a difference in electric ____.",
       "options": [
         "potential-mcq-20",
-        "potential-mcq-19",
-        "potential-mcq-21",
-        "potential-mcq-18",
-        "potential-mcq-22",
-        "potential-mcq-17"
+        "potential-mcq-07",
+        "potential-mcq-10",
+        "potential-mcq-03"
       ],
       "explanation": "本句的「potential」指「表示電勢；例句：「這兩點之間的電勢不同。」」。",
       "sentenceIndex": 39,
@@ -1836,12 +1640,10 @@ export default {
         "potential"
       ],
       "optionReasons": {
-        "potential-mcq-20": "本句指「表示電勢；例句：「這兩點之間的電勢不同。」」。",
-        "potential-mcq-19": "「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」是「potential energy = stored energy resulting from position, configuration, or condition 位能；勢能」的用法，與本句語境不同。",
-        "potential-mcq-21": "「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」是「potential difference = difference in electric potential between two points 電勢差；電位差」的用法，與本句語境不同。",
-        "potential-mcq-18": "「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」是「development potential = capacity of a place, project, person, or system for future development 發展潛力」的用法，與本句語境不同。",
-        "potential-mcq-22": "「表示潛在人選；例句：「她是這個職位的潛在人選。」」是「potential as an adjective potential + noun = possible or capable of becoming actual in the future Examples: * potential customer 潛在顧客」的用法，與本句語境不同。",
-        "potential-mcq-17": "「表示賺錢潛力；收入潛力；例句：「額外的資格可能提高你的收入潛力。」」是「earning potential = amount of money someone could potentially earn 賺錢潛力；收入潛力」的用法，與本句語境不同。"
+        "potential-mcq-20": "本句的「potential」指「表示電勢；例句：「這兩點之間的電勢不同。」」。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-20"
     },
@@ -1853,11 +1655,9 @@ export default {
       "masked": "A ____ exists across the battery terminals.",
       "options": [
         "potential-mcq-21",
-        "potential-mcq-20",
-        "potential-mcq-22",
-        "potential-mcq-19",
-        "potential-mcq-23",
-        "potential-mcq-18"
+        "potential-mcq-14",
+        "potential-mcq-07",
+        "potential-mcq-24"
       ],
       "explanation": "本句的「potential difference」指「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」。",
       "sentenceIndex": 40,
@@ -1866,12 +1666,10 @@ export default {
         "potential difference"
       ],
       "optionReasons": {
-        "potential-mcq-21": "本句指「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」。",
-        "potential-mcq-20": "「表示電勢；例句：「這兩點之間的電勢不同。」」是「electric potential = electric potential energy per unit charge at a point 電勢」的用法，與本句語境不同。",
-        "potential-mcq-22": "「表示潛在人選；例句：「她是這個職位的潛在人選。」」是「potential as an adjective potential + noun = possible or capable of becoming actual in the future Examples: * potential customer 潛在顧客」的用法，與本句語境不同。",
-        "potential-mcq-19": "「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」是「potential energy = stored energy resulting from position, configuration, or condition 位能；勢能」的用法，與本句語境不同。",
-        "potential-mcq-23": "「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」是「potentially = possibly; in a way that could develop into or cause something 可能地；潛在地；有可能」的用法，與本句語境不同。",
-        "potential-mcq-18": "「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」是「development potential = capacity of a place, project, person, or system for future development 發展潛力」的用法，與本句語境不同。"
+        "potential-mcq-21": "本句的「potential difference」指「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」。",
+        "potential-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-21"
     },
@@ -1883,11 +1681,7 @@ export default {
       "masked": "The voltmeter measures ____.",
       "options": [
         "potential-mcq-21",
-        "potential-mcq-20",
-        "potential-mcq-22",
-        "potential-mcq-19",
-        "potential-mcq-23",
-        "potential-mcq-18"
+        "potential-mcq-05"
       ],
       "explanation": "本句的「potential difference」指「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」。",
       "sentenceIndex": 41,
@@ -1896,12 +1690,8 @@ export default {
         "potential difference"
       ],
       "optionReasons": {
-        "potential-mcq-21": "本句指「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」。",
-        "potential-mcq-20": "「表示電勢；例句：「這兩點之間的電勢不同。」」是「electric potential = electric potential energy per unit charge at a point 電勢」的用法，與本句語境不同。",
-        "potential-mcq-22": "「表示潛在人選；例句：「她是這個職位的潛在人選。」」是「potential as an adjective potential + noun = possible or capable of becoming actual in the future Examples: * potential customer 潛在顧客」的用法，與本句語境不同。",
-        "potential-mcq-19": "「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」是「potential energy = stored energy resulting from position, configuration, or condition 位能；勢能」的用法，與本句語境不同。",
-        "potential-mcq-23": "「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」是「potentially = possibly; in a way that could develop into or cause something 可能地；潛在地；有可能」的用法，與本句語境不同。",
-        "potential-mcq-18": "「表示發展潛力；例句：「這塊土地具有很大的開發潛力。」」是「development potential = capacity of a place, project, person, or system for future development 發展潛力」的用法，與本句語境不同。"
+        "potential-mcq-21": "本句的「potential difference」指「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」。",
+        "potential-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-21"
     },
@@ -1913,11 +1703,8 @@ export default {
       "masked": "She is a ____ for the position.",
       "options": [
         "potential-mcq-22",
-        "potential-mcq-21",
-        "potential-mcq-23",
         "potential-mcq-20",
-        "potential-mcq-24",
-        "potential-mcq-19"
+        "potential-mcq-10"
       ],
       "explanation": "本句的「potential candidate」指「表示潛在人選；例句：「她是這個職位的潛在人選。」」。",
       "sentenceIndex": 42,
@@ -1926,12 +1713,9 @@ export default {
         "potential candidate"
       ],
       "optionReasons": {
-        "potential-mcq-22": "本句指「表示潛在人選；例句：「她是這個職位的潛在人選。」」。",
-        "potential-mcq-21": "「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」是「potential difference = difference in electric potential between two points 電勢差；電位差」的用法，與本句語境不同。",
-        "potential-mcq-23": "「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」是「potentially = possibly; in a way that could develop into or cause something 可能地；潛在地；有可能」的用法，與本句語境不同。",
-        "potential-mcq-20": "「表示電勢；例句：「這兩點之間的電勢不同。」」是「electric potential = electric potential energy per unit charge at a point 電勢」的用法，與本句語境不同。",
-        "potential-mcq-24": "「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」是「potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的」的用法，與本句語境不同。",
-        "potential-mcq-19": "「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」是「potential energy = stored energy resulting from position, configuration, or condition 位能；勢能」的用法，與本句語境不同。"
+        "potential-mcq-22": "本句的「potential candidate」指「表示潛在人選；例句：「她是這個職位的潛在人選。」」。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-22"
     },
@@ -1943,11 +1727,8 @@ export default {
       "masked": "We need to identify ____ early.",
       "options": [
         "potential-mcq-22",
-        "potential-mcq-21",
-        "potential-mcq-23",
-        "potential-mcq-20",
         "potential-mcq-24",
-        "potential-mcq-19"
+        "potential-mcq-21"
       ],
       "explanation": "本句的「potential risks」指「表示潛在人選；例句：「她是這個職位的潛在人選。」」。",
       "sentenceIndex": 43,
@@ -1956,12 +1737,9 @@ export default {
         "potential risks"
       ],
       "optionReasons": {
-        "potential-mcq-22": "本句指「表示潛在人選；例句：「她是這個職位的潛在人選。」」。",
-        "potential-mcq-21": "「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」是「potential difference = difference in electric potential between two points 電勢差；電位差」的用法，與本句語境不同。",
-        "potential-mcq-23": "「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」是「potentially = possibly; in a way that could develop into or cause something 可能地；潛在地；有可能」的用法，與本句語境不同。",
-        "potential-mcq-20": "「表示電勢；例句：「這兩點之間的電勢不同。」」是「electric potential = electric potential energy per unit charge at a point 電勢」的用法，與本句語境不同。",
-        "potential-mcq-24": "「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」是「potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的」的用法，與本句語境不同。",
-        "potential-mcq-19": "「表示位能；勢能；例句：「水壩後儲存的水具有重力位能。」」是「potential energy = stored energy resulting from position, configuration, or condition 位能；勢能」的用法，與本句語境不同。"
+        "potential-mcq-22": "本句的「potential risks」指「表示潛在人選；例句：「她是這個職位的潛在人選。」」。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-22"
     },
@@ -1973,11 +1751,7 @@ export default {
       "masked": "The mistake could be ____.",
       "options": [
         "potential-mcq-23",
-        "potential-mcq-22",
-        "potential-mcq-24",
-        "potential-mcq-21",
-        "potential-mcq-25",
-        "potential-mcq-20"
+        "potential-mcq-21"
       ],
       "explanation": "本句的「potentially dangerous」指「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」。",
       "sentenceIndex": 44,
@@ -1986,12 +1760,8 @@ export default {
         "potentially dangerous"
       ],
       "optionReasons": {
-        "potential-mcq-23": "本句指「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」。",
-        "potential-mcq-22": "「表示潛在人選；例句：「她是這個職位的潛在人選。」」是「potential as an adjective potential + noun = possible or capable of becoming actual in the future Examples: * potential customer 潛在顧客」的用法，與本句語境不同。",
-        "potential-mcq-24": "「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」是「potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的」的用法，與本句語境不同。",
-        "potential-mcq-21": "「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」是「potential difference = difference in electric potential between two points 電勢差；電位差」的用法，與本句語境不同。",
-        "potential-mcq-25": "「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」是「see potential in someone / something = recognize capacity for future development or success 看出……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-20": "「表示電勢；例句：「這兩點之間的電勢不同。」」是「electric potential = electric potential energy per unit charge at a point 電勢」的用法，與本句語境不同。"
+        "potential-mcq-23": "本句的「potentially dangerous」指「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」。",
+        "potential-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-23"
     },
@@ -2003,11 +1773,7 @@ export default {
       "masked": "The discovery is ____.",
       "options": [
         "potential-mcq-23",
-        "potential-mcq-22",
-        "potential-mcq-24",
-        "potential-mcq-21",
-        "potential-mcq-25",
-        "potential-mcq-20"
+        "potential-mcq-19"
       ],
       "explanation": "本句的「potentially very important」指「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」。",
       "sentenceIndex": 45,
@@ -2016,12 +1782,8 @@ export default {
         "potentially very important"
       ],
       "optionReasons": {
-        "potential-mcq-23": "本句指「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」。",
-        "potential-mcq-22": "「表示潛在人選；例句：「她是這個職位的潛在人選。」」是「potential as an adjective potential + noun = possible or capable of becoming actual in the future Examples: * potential customer 潛在顧客」的用法，與本句語境不同。",
-        "potential-mcq-24": "「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」是「potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的」的用法，與本句語境不同。",
-        "potential-mcq-21": "「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」是「potential difference = difference in electric potential between two points 電勢差；電位差」的用法，與本句語境不同。",
-        "potential-mcq-25": "「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」是「see potential in someone / something = recognize capacity for future development or success 看出……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-20": "「表示電勢；例句：「這兩點之間的電勢不同。」」是「electric potential = electric potential energy per unit charge at a point 電勢」的用法，與本句語境不同。"
+        "potential-mcq-23": "本句的「potentially very important」指「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-23"
     },
@@ -2033,11 +1795,9 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "potential-mcq-24",
-        "potential-mcq-23",
-        "potential-mcq-25",
-        "potential-mcq-22",
-        "potential-mcq-26",
-        "potential-mcq-21"
+        "potential-mcq-15",
+        "potential-mcq-21",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「potentially serious problem」指「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」。",
       "sentenceIndex": 46,
@@ -2046,12 +1806,10 @@ export default {
         "potentially serious problem"
       ],
       "optionReasons": {
-        "potential-mcq-24": "本句指「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」。",
-        "potential-mcq-23": "「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」是「potentially = possibly; in a way that could develop into or cause something 可能地；潛在地；有可能」的用法，與本句語境不同。",
-        "potential-mcq-25": "「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」是「see potential in someone / something = recognize capacity for future development or success 看出……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-22": "「表示潛在人選；例句：「她是這個職位的潛在人選。」」是「potential as an adjective potential + noun = possible or capable of becoming actual in the future Examples: * potential customer 潛在顧客」的用法，與本句語境不同。",
-        "potential-mcq-26": "「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」是「show potential = demonstrate signs of future ability or success 展現潛力」的用法，與本句語境不同。",
-        "potential-mcq-21": "「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」是「potential difference = difference in electric potential between two points 電勢差；電位差」的用法，與本句語境不同。"
+        "potential-mcq-24": "本句的「potentially serious problem」指「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」。",
+        "potential-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-24"
     },
@@ -2063,11 +1821,9 @@ export default {
       "masked": "The data could be ____ for future research.",
       "options": [
         "potential-mcq-24",
-        "potential-mcq-23",
-        "potential-mcq-25",
-        "potential-mcq-22",
-        "potential-mcq-26",
-        "potential-mcq-21"
+        "potential-mcq-17",
+        "potential-mcq-19",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「potentially useful」指「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」。",
       "sentenceIndex": 47,
@@ -2076,12 +1832,10 @@ export default {
         "potentially useful"
       ],
       "optionReasons": {
-        "potential-mcq-24": "本句指「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」。",
-        "potential-mcq-23": "「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」是「potentially = possibly; in a way that could develop into or cause something 可能地；潛在地；有可能」的用法，與本句語境不同。",
-        "potential-mcq-25": "「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」是「see potential in someone / something = recognize capacity for future development or success 看出……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-22": "「表示潛在人選；例句：「她是這個職位的潛在人選。」」是「potential as an adjective potential + noun = possible or capable of becoming actual in the future Examples: * potential customer 潛在顧客」的用法，與本句語境不同。",
-        "potential-mcq-26": "「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」是「show potential = demonstrate signs of future ability or success 展現潛力」的用法，與本句語境不同。",
-        "potential-mcq-21": "「表示電勢差；電位差；例句：「電池兩端存在電勢差。」」是「potential difference = difference in electric potential between two points 電勢差；電位差」的用法，與本句語境不同。"
+        "potential-mcq-24": "本句的「potentially useful」指「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」。",
+        "potential-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-24"
     },
@@ -2094,10 +1848,8 @@ export default {
       "options": [
         "potential-mcq-25",
         "potential-mcq-24",
-        "potential-mcq-26",
-        "potential-mcq-23",
-        "potential-mcq-27",
-        "potential-mcq-22"
+        "potential-mcq-19",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「saw potential in him」指「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」。",
       "sentenceIndex": 48,
@@ -2106,12 +1858,10 @@ export default {
         "saw potential in him"
       ],
       "optionReasons": {
-        "potential-mcq-25": "本句指「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」。",
-        "potential-mcq-24": "「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」是「potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的」的用法，與本句語境不同。",
-        "potential-mcq-26": "「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」是「show potential = demonstrate signs of future ability or success 展現潛力」的用法，與本句語境不同。",
-        "potential-mcq-23": "「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」是「potentially = possibly; in a way that could develop into or cause something 可能地；潛在地；有可能」的用法，與本句語境不同。",
-        "potential-mcq-27": "「有很大的／巨大的／相當大的潛力」是「have great / enormous / considerable potential = possess strong capacity for development 有很大的／巨大的／相當大的潛力」的用法，與本句語境不同。",
-        "potential-mcq-22": "「表示潛在人選；例句：「她是這個職位的潛在人選。」」是「potential as an adjective potential + noun = possible or capable of becoming actual in the future Examples: * potential customer 潛在顧客」的用法，與本句語境不同。"
+        "potential-mcq-25": "本句的「saw potential in him」指「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-25"
     },
@@ -2123,11 +1873,9 @@ export default {
       "masked": "Investors ____ the new technology.",
       "options": [
         "potential-mcq-25",
-        "potential-mcq-24",
-        "potential-mcq-26",
-        "potential-mcq-23",
-        "potential-mcq-27",
-        "potential-mcq-22"
+        "potential-mcq-10",
+        "potential-mcq-19",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「see potential in」指「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」。",
       "sentenceIndex": 49,
@@ -2136,12 +1884,10 @@ export default {
         "see potential in"
       ],
       "optionReasons": {
-        "potential-mcq-25": "本句指「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」。",
-        "potential-mcq-24": "「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」是「potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的」的用法，與本句語境不同。",
-        "potential-mcq-26": "「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」是「show potential = demonstrate signs of future ability or success 展現潛力」的用法，與本句語境不同。",
-        "potential-mcq-23": "「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」是「potentially = possibly; in a way that could develop into or cause something 可能地；潛在地；有可能」的用法，與本句語境不同。",
-        "potential-mcq-27": "「有很大的／巨大的／相當大的潛力」是「have great / enormous / considerable potential = possess strong capacity for development 有很大的／巨大的／相當大的潛力」的用法，與本句語境不同。",
-        "potential-mcq-22": "「表示潛在人選；例句：「她是這個職位的潛在人選。」」是「potential as an adjective potential + noun = possible or capable of becoming actual in the future Examples: * potential customer 潛在顧客」的用法，與本句語境不同。"
+        "potential-mcq-25": "本句的「see potential in」指「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-25"
     },
@@ -2153,11 +1899,9 @@ export default {
       "masked": "She ____ as a writer.",
       "options": [
         "potential-mcq-26",
-        "potential-mcq-25",
-        "potential-mcq-27",
+        "potential-mcq-20",
         "potential-mcq-24",
-        "potential-mcq-28",
-        "potential-mcq-23"
+        "potential-mcq-07"
       ],
       "explanation": "本句的「showed great potential」指「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」。",
       "sentenceIndex": 50,
@@ -2166,12 +1910,10 @@ export default {
         "showed great potential"
       ],
       "optionReasons": {
-        "potential-mcq-26": "本句指「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」。",
-        "potential-mcq-25": "「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」是「see potential in someone / something = recognize capacity for future development or success 看出……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-27": "「有很大的／巨大的／相當大的潛力」是「have great / enormous / considerable potential = possess strong capacity for development 有很大的／巨大的／相當大的潛力」的用法，與本句語境不同。",
-        "potential-mcq-24": "「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」是「potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的」的用法，與本句語境不同。",
-        "potential-mcq-28": "「表示釋放潛能；開發潛力；例句：「良好的教育可以激發孩子的潛能。」」是「unlock someone’s / something’s potential = make it possible for hidden or unrealized capacity to develop 釋放潛能；開發潛力」的用法，與本句語境不同。",
-        "potential-mcq-23": "「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」是「potentially = possibly; in a way that could develop into or cause something 可能地；潛在地；有可能」的用法，與本句語境不同。"
+        "potential-mcq-26": "本句的「showed great potential」指「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-26"
     },
@@ -2183,11 +1925,9 @@ export default {
       "masked": "The young player is already ____.",
       "options": [
         "potential-mcq-26",
-        "potential-mcq-25",
-        "potential-mcq-27",
         "potential-mcq-24",
-        "potential-mcq-28",
-        "potential-mcq-23"
+        "potential-mcq-19",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「showing potential」指「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」。",
       "sentenceIndex": 51,
@@ -2196,12 +1936,10 @@ export default {
         "showing potential"
       ],
       "optionReasons": {
-        "potential-mcq-26": "本句指「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」。",
-        "potential-mcq-25": "「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」是「see potential in someone / something = recognize capacity for future development or success 看出……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-27": "「有很大的／巨大的／相當大的潛力」是「have great / enormous / considerable potential = possess strong capacity for development 有很大的／巨大的／相當大的潛力」的用法，與本句語境不同。",
-        "potential-mcq-24": "「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」是「potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的」的用法，與本句語境不同。",
-        "potential-mcq-28": "「表示釋放潛能；開發潛力；例句：「良好的教育可以激發孩子的潛能。」」是「unlock someone’s / something’s potential = make it possible for hidden or unrealized capacity to develop 釋放潛能；開發潛力」的用法，與本句語境不同。",
-        "potential-mcq-23": "「表示可能地；潛在地；有可能；例句：「這個錯誤可能具有危險性。」」是「potentially = possibly; in a way that could develop into or cause something 可能地；潛在地；有可能」的用法，與本句語境不同。"
+        "potential-mcq-26": "本句的「showing potential」指「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-26"
     },
@@ -2213,11 +1951,9 @@ export default {
       "masked": "The project has ____.",
       "options": [
         "potential-mcq-27",
-        "potential-mcq-26",
-        "potential-mcq-28",
-        "potential-mcq-25",
-        "potential-mcq-29",
-        "potential-mcq-24"
+        "potential-mcq-19",
+        "potential-mcq-10",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「enormous potential」指「有很大的／巨大的／相當大的潛力」。",
       "sentenceIndex": 52,
@@ -2226,12 +1962,10 @@ export default {
         "enormous potential"
       ],
       "optionReasons": {
-        "potential-mcq-27": "本句指「有很大的／巨大的／相當大的潛力」。",
-        "potential-mcq-26": "「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」是「show potential = demonstrate signs of future ability or success 展現潛力」的用法，與本句語境不同。",
-        "potential-mcq-28": "「表示釋放潛能；開發潛力；例句：「良好的教育可以激發孩子的潛能。」」是「unlock someone’s / something’s potential = make it possible for hidden or unrealized capacity to develop 釋放潛能；開發潛力」的用法，與本句語境不同。",
-        "potential-mcq-25": "「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」是「see potential in someone / something = recognize capacity for future development or success 看出……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-29": "「表示最大化潛力；充分發揮潛能；例句：「這項訓練計畫旨在充分發揮每位運動員的潛能。」」是「maximize potential = develop or use capacity as fully as possible 最大化潛力；充分發揮潛能」的用法，與本句語境不同。",
-        "potential-mcq-24": "「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」是「potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的」的用法，與本句語境不同。"
+        "potential-mcq-27": "本句的「enormous potential」指「有很大的／巨大的／相當大的潛力」。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-27"
     },
@@ -2243,11 +1977,9 @@ export default {
       "masked": "She is young but has ____.",
       "options": [
         "potential-mcq-27",
-        "potential-mcq-26",
-        "potential-mcq-28",
-        "potential-mcq-25",
-        "potential-mcq-29",
-        "potential-mcq-24"
+        "potential-mcq-24",
+        "potential-mcq-19",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「considerable potential」指「有很大的／巨大的／相當大的潛力」。",
       "sentenceIndex": 53,
@@ -2256,12 +1988,10 @@ export default {
         "considerable potential"
       ],
       "optionReasons": {
-        "potential-mcq-27": "本句指「有很大的／巨大的／相當大的潛力」。",
-        "potential-mcq-26": "「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」是「show potential = demonstrate signs of future ability or success 展現潛力」的用法，與本句語境不同。",
-        "potential-mcq-28": "「表示釋放潛能；開發潛力；例句：「良好的教育可以激發孩子的潛能。」」是「unlock someone’s / something’s potential = make it possible for hidden or unrealized capacity to develop 釋放潛能；開發潛力」的用法，與本句語境不同。",
-        "potential-mcq-25": "「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」是「see potential in someone / something = recognize capacity for future development or success 看出……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-29": "「表示最大化潛力；充分發揮潛能；例句：「這項訓練計畫旨在充分發揮每位運動員的潛能。」」是「maximize potential = develop or use capacity as fully as possible 最大化潛力；充分發揮潛能」的用法，與本句語境不同。",
-        "potential-mcq-24": "「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」是「potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的」的用法，與本句語境不同。"
+        "potential-mcq-27": "本句的「considerable potential」指「有很大的／巨大的／相當大的潛力」。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-27"
     },
@@ -2273,11 +2003,9 @@ export default {
       "masked": "Good education can ____.",
       "options": [
         "potential-mcq-28",
-        "potential-mcq-27",
-        "potential-mcq-29",
-        "potential-mcq-26",
-        "potential-mcq-25",
-        "potential-mcq-24"
+        "potential-mcq-20",
+        "potential-mcq-24",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「unlock a child’s potential」指「表示釋放潛能；開發潛力；例句：「良好的教育可以激發孩子的潛能。」」。",
       "sentenceIndex": 54,
@@ -2286,12 +2014,10 @@ export default {
         "unlock a child’s potential"
       ],
       "optionReasons": {
-        "potential-mcq-28": "本句指「表示釋放潛能；開發潛力；例句：「良好的教育可以激發孩子的潛能。」」。",
-        "potential-mcq-27": "「有很大的／巨大的／相當大的潛力」是「have great / enormous / considerable potential = possess strong capacity for development 有很大的／巨大的／相當大的潛力」的用法，與本句語境不同。",
-        "potential-mcq-29": "「表示最大化潛力；充分發揮潛能；例句：「這項訓練計畫旨在充分發揮每位運動員的潛能。」」是「maximize potential = develop or use capacity as fully as possible 最大化潛力；充分發揮潛能」的用法，與本句語境不同。",
-        "potential-mcq-26": "「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」是「show potential = demonstrate signs of future ability or success 展現潛力」的用法，與本句語境不同。",
-        "potential-mcq-25": "「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」是「see potential in someone / something = recognize capacity for future development or success 看出……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-24": "「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」是「potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的」的用法，與本句語境不同。"
+        "potential-mcq-28": "本句的「unlock a child’s potential」指「表示釋放潛能；開發潛力；例句：「良好的教育可以激發孩子的潛能。」」。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-28"
     },
@@ -2303,11 +2029,9 @@ export default {
       "masked": "The investment could ____.",
       "options": [
         "potential-mcq-28",
-        "potential-mcq-27",
-        "potential-mcq-29",
-        "potential-mcq-26",
-        "potential-mcq-25",
-        "potential-mcq-24"
+        "potential-mcq-19",
+        "potential-mcq-24",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「unlock the region’s economic potential」指「表示釋放潛能；開發潛力；例句：「良好的教育可以激發孩子的潛能。」」。",
       "sentenceIndex": 55,
@@ -2316,12 +2040,10 @@ export default {
         "unlock the region’s economic potential"
       ],
       "optionReasons": {
-        "potential-mcq-28": "本句指「表示釋放潛能；開發潛力；例句：「良好的教育可以激發孩子的潛能。」」。",
-        "potential-mcq-27": "「有很大的／巨大的／相當大的潛力」是「have great / enormous / considerable potential = possess strong capacity for development 有很大的／巨大的／相當大的潛力」的用法，與本句語境不同。",
-        "potential-mcq-29": "「表示最大化潛力；充分發揮潛能；例句：「這項訓練計畫旨在充分發揮每位運動員的潛能。」」是「maximize potential = develop or use capacity as fully as possible 最大化潛力；充分發揮潛能」的用法，與本句語境不同。",
-        "potential-mcq-26": "「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」是「show potential = demonstrate signs of future ability or success 展現潛力」的用法，與本句語境不同。",
-        "potential-mcq-25": "「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」是「see potential in someone / something = recognize capacity for future development or success 看出……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-24": "「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」是「potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的」的用法，與本句語境不同。"
+        "potential-mcq-28": "本句的「unlock the region’s economic potential」指「表示釋放潛能；開發潛力；例句：「良好的教育可以激發孩子的潛能。」」。",
+        "potential-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-28"
     },
@@ -2333,11 +2055,9 @@ export default {
       "masked": "The training programme is designed to ____.",
       "options": [
         "potential-mcq-29",
-        "potential-mcq-28",
-        "potential-mcq-27",
-        "potential-mcq-26",
-        "potential-mcq-25",
-        "potential-mcq-24"
+        "potential-mcq-10",
+        "potential-mcq-21",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「maximize each athlete’s potential」指「表示最大化潛力；充分發揮潛能；例句：「這項訓練計畫旨在充分發揮每位運動員的潛能。」」。",
       "sentenceIndex": 56,
@@ -2346,12 +2066,10 @@ export default {
         "maximize each athlete’s potential"
       ],
       "optionReasons": {
-        "potential-mcq-29": "本句指「表示最大化潛力；充分發揮潛能；例句：「這項訓練計畫旨在充分發揮每位運動員的潛能。」」。",
-        "potential-mcq-28": "「表示釋放潛能；開發潛力；例句：「良好的教育可以激發孩子的潛能。」」是「unlock someone’s / something’s potential = make it possible for hidden or unrealized capacity to develop 釋放潛能；開發潛力」的用法，與本句語境不同。",
-        "potential-mcq-27": "「有很大的／巨大的／相當大的潛力」是「have great / enormous / considerable potential = possess strong capacity for development 有很大的／巨大的／相當大的潛力」的用法，與本句語境不同。",
-        "potential-mcq-26": "「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」是「show potential = demonstrate signs of future ability or success 展現潛力」的用法，與本句語境不同。",
-        "potential-mcq-25": "「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」是「see potential in someone / something = recognize capacity for future development or success 看出……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-24": "「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」是「potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的」的用法，與本句語境不同。"
+        "potential-mcq-29": "本句的「maximize each athlete’s potential」指「表示最大化潛力；充分發揮潛能；例句：「這項訓練計畫旨在充分發揮每位運動員的潛能。」」。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-29"
     },
@@ -2363,11 +2081,9 @@ export default {
       "masked": "Better planning could ____.",
       "options": [
         "potential-mcq-29",
-        "potential-mcq-28",
-        "potential-mcq-27",
-        "potential-mcq-26",
-        "potential-mcq-25",
-        "potential-mcq-24"
+        "potential-mcq-20",
+        "potential-mcq-10",
+        "potential-mcq-07"
       ],
       "explanation": "本句的「maximize the site’s potential」指「表示最大化潛力；充分發揮潛能；例句：「這項訓練計畫旨在充分發揮每位運動員的潛能。」」。",
       "sentenceIndex": 57,
@@ -2376,12 +2092,10 @@ export default {
         "maximize the site’s potential"
       ],
       "optionReasons": {
-        "potential-mcq-29": "本句指「表示最大化潛力；充分發揮潛能；例句：「這項訓練計畫旨在充分發揮每位運動員的潛能。」」。",
-        "potential-mcq-28": "「表示釋放潛能；開發潛力；例句：「良好的教育可以激發孩子的潛能。」」是「unlock someone’s / something’s potential = make it possible for hidden or unrealized capacity to develop 釋放潛能；開發潛力」的用法，與本句語境不同。",
-        "potential-mcq-27": "「有很大的／巨大的／相當大的潛力」是「have great / enormous / considerable potential = possess strong capacity for development 有很大的／巨大的／相當大的潛力」的用法，與本句語境不同。",
-        "potential-mcq-26": "「表示展現潛力；例句：「她展現出成為作家的巨大潛力。」」是「show potential = demonstrate signs of future ability or success 展現潛力」的用法，與本句語境不同。",
-        "potential-mcq-25": "「表示看出……的潛力；例句：「老師立刻看出了他的潛力。」」是「see potential in someone / something = recognize capacity for future development or success 看出……的潛力」的用法，與本句語境不同。",
-        "potential-mcq-24": "「表示可能很嚴重的問題；例句：「這是一個可能很嚴重的問題。」」是「potentially + adjective Very common combinations include: * potentially harmful 可能有害的 * potentially dangerous 可能危險的 * potentially useful 可能有用的」的用法，與本句語境不同。"
+        "potential-mcq-29": "本句的「maximize the site’s potential」指「表示最大化潛力；充分發揮潛能；例句：「這項訓練計畫旨在充分發揮每位運動員的潛能。」」。",
+        "potential-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "potential-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "potential-mcq-29"
     }
@@ -2393,5 +2107,7 @@ export default {
     "sha256": "57d0a63349d132abe05effead92be0d9c9282326b9ef01d45933d38193ab914e",
     "pages": 17
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -384,18 +384,7 @@ export default {
       "en": "work a room/crowd",
       "zh": "巧妙與現場人士互動，以取得注意、支持或良好反應",
       "note": "來源詞義：巧妙與現場人士互動，以取得注意、支持或良好反應",
-      "examples": [
-        [
-          "They worked for years to improve the product.",
-          "他們多年來一直努力改善產品。",
-          "巧妙與現場人士互動，以取得注意、支持或良好反應"
-        ],
-        [
-          "We need to work together to solve the problem.",
-          "我們需要一起努力解決問題。",
-          "巧妙與現場人士互動，以取得注意、支持或良好反應"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -818,7 +807,7 @@ export default {
     },
     {
       "id": "work-mcq-37",
-      "title": "表示努力使 …… 達成／改變",
+      "title": "努力使 …… 達成／改變",
       "form": "Unmapped practice work-22-0",
       "en": "Unmapped practice work-22-0",
       "zh": "表示努力使 …… 達成／改變",
@@ -835,7 +824,7 @@ export default {
     },
     {
       "id": "work-mcq-38",
-      "title": "表示努力使 …… 達成／改變",
+      "title": "努力使 …… 達成／改變",
       "form": "Unmapped practice work-22-1",
       "en": "Unmapped practice work-22-1",
       "zh": "表示努力使 …… 達成／改變",
@@ -852,7 +841,7 @@ export default {
     },
     {
       "id": "work-mcq-39",
-      "title": "表示經營；善用；設法影響",
+      "title": "經營；善用；設法影響",
       "form": "Unmapped practice work-23-0",
       "en": "Unmapped practice work-23-0",
       "zh": "表示經營；善用；設法影響",
@@ -869,7 +858,7 @@ export default {
     },
     {
       "id": "work-mcq-40",
-      "title": "表示經營；善用；設法影響",
+      "title": "經營；善用；設法影響",
       "form": "Unmapped practice work-23-1",
       "en": "Unmapped practice work-23-1",
       "zh": "表示經營；善用；設法影響",
@@ -905,6 +894,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "work-reviewed-070d24c0c0",
+      "title": "努力；致力",
+      "form": "work · source section 24",
+      "en": "努力；致力",
+      "zh": "努力；致力",
+      "note": "對照原始教材第 24 節及例句核實。",
+      "examples": [
+        [
+          "They worked for years to improve the product.",
+          "他們多年來一直努力改善產品。",
+          "努力；致力"
+        ],
+        [
+          "We need to work together to solve the problem.",
+          "我們需要一起努力解決問題。",
+          "努力；致力"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "comparisons": [
@@ -933,11 +944,9 @@ export default {
       "masked": "我____後看電視。",
       "options": [
         "work-mcq-01",
-        "work-mcq-02",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-37",
+        "work-mcq-21",
+        "work-mcq-05"
       ],
       "explanation": "本句的「after work」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
       "sentenceIndex": 0,
@@ -946,12 +955,10 @@ export default {
         "after work"
       ],
       "optionReasons": {
-        "work-mcq-01": "本句指「一個人為職業、崗位或僱主進行的日常工作活動」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-01": "本句的「after work」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-01"
     },
@@ -963,11 +970,9 @@ export default {
       "masked": "我今天有很多____要做。",
       "options": [
         "work-mcq-01",
-        "work-mcq-02",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-39",
+        "work-reviewed-070d24c0c0",
+        "work-mcq-19"
       ],
       "explanation": "本句的「work」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
       "sentenceIndex": 1,
@@ -976,12 +981,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-01": "本句指「一個人為職業、崗位或僱主進行的日常工作活動」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-01": "本句的「work」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "work-reviewed-070d24c0c0": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-01"
     },
@@ -993,11 +996,9 @@ export default {
       "masked": "她____了一整天後感到很累。",
       "options": [
         "work-mcq-01",
-        "work-mcq-02",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-10",
+        "work-mcq-21",
+        "work-mcq-39"
       ],
       "explanation": "本句的「work」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
       "sentenceIndex": 2,
@@ -1006,12 +1007,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-01": "本句指「一個人為職業、崗位或僱主進行的日常工作活動」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-01": "本句的「work」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-01"
     },
@@ -1023,11 +1022,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-01",
-        "work-mcq-02",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-reviewed-070d24c0c0",
+        "work-mcq-40",
+        "work-mcq-19"
       ],
       "explanation": "本句的「at work」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
       "sentenceIndex": 3,
@@ -1036,12 +1033,10 @@ export default {
         "at work"
       ],
       "optionReasons": {
-        "work-mcq-01": "本句指「一個人為職業、崗位或僱主進行的日常工作活動」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-01": "本句的「at work」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
+        "work-reviewed-070d24c0c0": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-01"
     },
@@ -1053,11 +1048,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-01",
-        "work-mcq-02",
-        "work-mcq-03",
-        "work-mcq-04",
+        "work-reviewed-070d24c0c0",
         "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-11"
       ],
       "explanation": "本句的「at work」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
       "sentenceIndex": 4,
@@ -1066,12 +1059,10 @@ export default {
         "at work"
       ],
       "optionReasons": {
-        "work-mcq-01": "本句指「一個人為職業、崗位或僱主進行的日常工作活動」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-01": "本句的「at work」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
+        "work-reviewed-070d24c0c0": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-01"
     },
@@ -1083,11 +1074,9 @@ export default {
       "masked": "我乘火車____。",
       "options": [
         "work-mcq-01",
-        "work-mcq-02",
-        "work-mcq-03",
-        "work-mcq-04",
+        "work-mcq-38",
         "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-19"
       ],
       "explanation": "本句的「go to work」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
       "sentenceIndex": 5,
@@ -1096,12 +1085,10 @@ export default {
         "go to work"
       ],
       "optionReasons": {
-        "work-mcq-01": "本句指「一個人為職業、崗位或僱主進行的日常工作活動」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-01": "本句的「go to work」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
+        "work-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-01"
     },
@@ -1113,11 +1100,9 @@ export default {
       "masked": "____？",
       "options": [
         "work-mcq-01",
+        "work-mcq-40",
         "work-mcq-02",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-10"
       ],
       "explanation": "本句的「finish work」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
       "sentenceIndex": 6,
@@ -1126,12 +1111,10 @@ export default {
         "finish work"
       ],
       "optionReasons": {
-        "work-mcq-01": "本句指「一個人為職業、崗位或僱主進行的日常工作活動」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-01": "本句的「finish work」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-01"
     },
@@ -1143,11 +1126,9 @@ export default {
       "masked": "她為一家科技公司____。",
       "options": [
         "work-mcq-01",
-        "work-mcq-02",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-40",
+        "work-mcq-37",
+        "work-mcq-21"
       ],
       "explanation": "本句的「works for」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
       "sentenceIndex": 7,
@@ -1156,12 +1137,10 @@ export default {
         "works for"
       ],
       "optionReasons": {
-        "work-mcq-01": "本句指「一個人為職業、崗位或僱主進行的日常工作活動」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-01": "本句的「works for」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-01"
     },
@@ -1173,11 +1152,9 @@ export default {
       "masked": "他以前為政府____。",
       "options": [
         "work-mcq-01",
-        "work-mcq-02",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-39",
+        "work-mcq-37",
+        "work-mcq-11"
       ],
       "explanation": "本句的「work for」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
       "sentenceIndex": 8,
@@ -1186,12 +1163,10 @@ export default {
         "work for"
       ],
       "optionReasons": {
-        "work-mcq-01": "本句指「一個人為職業、崗位或僱主進行的日常工作活動」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-01": "本句的「work for」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-01"
     },
@@ -1203,11 +1178,9 @@ export default {
       "masked": "她____設計師。",
       "options": [
         "work-mcq-01",
-        "work-mcq-02",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-40",
+        "work-mcq-11",
+        "work-mcq-37"
       ],
       "explanation": "本句的「works as」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
       "sentenceIndex": 9,
@@ -1216,12 +1189,10 @@ export default {
         "works as"
       ],
       "optionReasons": {
-        "work-mcq-01": "本句指「一個人為職業、崗位或僱主進行的日常工作活動」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-01": "本句的「works as」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-01"
     },
@@ -1234,10 +1205,8 @@ export default {
       "options": [
         "work-mcq-01",
         "work-mcq-02",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-21",
+        "work-mcq-40"
       ],
       "explanation": "本句的「worked as」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
       "sentenceIndex": 10,
@@ -1246,12 +1215,10 @@ export default {
         "worked as"
       ],
       "optionReasons": {
-        "work-mcq-01": "本句指「一個人為職業、崗位或僱主進行的日常工作活動」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-01": "本句的「worked as」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
+        "work-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-01"
     },
@@ -1263,11 +1230,9 @@ export default {
       "masked": "她在醫院____。",
       "options": [
         "work-mcq-01",
-        "work-mcq-02",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-reviewed-070d24c0c0",
+        "work-mcq-10",
+        "work-mcq-39"
       ],
       "explanation": "本句的「works at」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
       "sentenceIndex": 11,
@@ -1276,12 +1241,10 @@ export default {
         "works at"
       ],
       "optionReasons": {
-        "work-mcq-01": "本句指「一個人為職業、崗位或僱主進行的日常工作活動」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-01": "本句的「works at」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
+        "work-reviewed-070d24c0c0": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-01"
     },
@@ -1293,11 +1256,9 @@ export default {
       "masked": "他在銀行____。",
       "options": [
         "work-mcq-01",
+        "work-mcq-39",
         "work-mcq-02",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-11"
       ],
       "explanation": "本句的「works in」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
       "sentenceIndex": 12,
@@ -1306,12 +1267,10 @@ export default {
         "works in"
       ],
       "optionReasons": {
-        "work-mcq-01": "本句指「一個人為職業、崗位或僱主進行的日常工作活動」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-01": "本句的「works in」指「一個人為職業、崗位或僱主進行的日常工作活動」。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-01"
     },
@@ -1323,11 +1282,9 @@ export default {
       "masked": "她____廣告業。",
       "options": [
         "work-pdf-plain-007",
-        "work-mcq-01",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-10",
+        "work-mcq-11",
+        "work-mcq-39"
       ],
       "explanation": "本句的「works in」指「從事某個行業或專業領域的工作」。",
       "sentenceIndex": 13,
@@ -1336,12 +1293,10 @@ export default {
         "works in"
       ],
       "optionReasons": {
-        "work-pdf-plain-007": "本句指「從事某個行業或專業領域的工作」。",
-        "work-mcq-01": "「一個人為職業、崗位或僱主進行的日常工作活動」與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」與本句語境不同。"
+        "work-pdf-plain-007": "本句的「works in」指「從事某個行業或專業領域的工作」。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-pdf-plain-007"
     },
@@ -1353,11 +1308,9 @@ export default {
       "masked": "他希望____科技行業。",
       "options": [
         "work-pdf-plain-007",
-        "work-mcq-01",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-13",
+        "work-mcq-38",
+        "work-mcq-07"
       ],
       "explanation": "本句的「work in」指「從事某個行業或專業領域的工作」。",
       "sentenceIndex": 14,
@@ -1366,12 +1319,10 @@ export default {
         "work in"
       ],
       "optionReasons": {
-        "work-pdf-plain-007": "本句指「從事某個行業或專業領域的工作」。",
-        "work-mcq-01": "「一個人為職業、崗位或僱主進行的日常工作活動」與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」與本句語境不同。"
+        "work-pdf-plain-007": "本句的「work in」指「從事某個行業或專業領域的工作」。",
+        "work-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-pdf-plain-007"
     },
@@ -1383,11 +1334,9 @@ export default {
       "masked": "學好一種語言需要花很多功夫和____。",
       "options": [
         "work-mcq-02",
+        "work-mcq-09",
         "work-mcq-01",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-07"
       ],
       "explanation": "本句的「work」指「為完成目標投入的體力、腦力、時間和努力」。",
       "sentenceIndex": 15,
@@ -1396,12 +1345,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-02": "本句指「為完成目標投入的體力、腦力、時間和努力」。",
-        "work-mcq-01": "「一個人為職業、崗位或僱主進行的日常工作活動」是「work — employment」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-02": "本句的「work」指「為完成目標投入的體力、腦力、時間和努力」。",
+        "work-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-02"
     },
@@ -1413,11 +1360,9 @@ export default {
       "masked": "所有那些辛勤____終於有了回報。",
       "options": [
         "work-mcq-02",
-        "work-mcq-01",
-        "work-mcq-03",
-        "work-mcq-04",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-26",
+        "work-mcq-19",
+        "work-mcq-40"
       ],
       "explanation": "本句的「work」指「為完成目標投入的體力、腦力、時間和努力」。",
       "sentenceIndex": 16,
@@ -1426,12 +1371,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-02": "本句指「為完成目標投入的體力、腦力、時間和努力」。",
-        "work-mcq-01": "「一個人為職業、崗位或僱主進行的日常工作活動」是「work — employment」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-02": "本句的「work」指「為完成目標投入的體力、腦力、時間和努力」。",
+        "work-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-02"
     },
@@ -1443,11 +1386,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-03",
-        "work-mcq-02",
-        "work-mcq-04",
-        "work-mcq-01",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-09",
+        "work-mcq-13",
+        "work-mcq-39"
       ],
       "explanation": "本句的「work」指「需要完成的一項或一批任務／工作內容」。",
       "sentenceIndex": 17,
@@ -1456,12 +1397,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-03": "本句指「需要完成的一項或一批任務／工作內容」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-01": "「一個人為職業、崗位或僱主進行的日常工作活動」是「work — employment」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-03": "本句的「work」指「需要完成的一項或一批任務／工作內容」。",
+        "work-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-03"
     },
@@ -1473,11 +1412,9 @@ export default {
       "masked": "維修所需的____量比預期多。",
       "options": [
         "work-mcq-03",
-        "work-mcq-02",
-        "work-mcq-04",
-        "work-mcq-01",
-        "work-mcq-05",
-        "work-mcq-06"
+        "work-mcq-13",
+        "work-mcq-08",
+        "work-mcq-18"
       ],
       "explanation": "本句的「work」指「需要完成的一項或一批任務／工作內容」。",
       "sentenceIndex": 18,
@@ -1486,12 +1423,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-03": "本句指「需要完成的一項或一批任務／工作內容」。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-01": "「一個人為職業、崗位或僱主進行的日常工作活動」是「work — employment」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-03": "本句的「work」指「需要完成的一項或一批任務／工作內容」。",
+        "work-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-03"
     },
@@ -1503,11 +1438,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-04",
-        "work-mcq-03",
-        "work-mcq-05",
-        "work-mcq-02",
-        "work-mcq-06",
-        "work-mcq-01"
+        "work-reviewed-070d24c0c0",
+        "work-mcq-39",
+        "work-mcq-07"
       ],
       "explanation": "本句的「work」指「學生為課程、練習或學習而完成的作業／成果」。",
       "sentenceIndex": 19,
@@ -1516,12 +1449,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-04": "本句指「學生為課程、練習或學習而完成的作業／成果」。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。",
-        "work-mcq-01": "「一個人為職業、崗位或僱主進行的日常工作活動」是「work — employment」的用法，與本句語境不同。"
+        "work-mcq-04": "本句的「work」指「學生為課程、練習或學習而完成的作業／成果」。",
+        "work-reviewed-070d24c0c0": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-04"
     },
@@ -1533,11 +1464,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-04",
-        "work-mcq-03",
-        "work-mcq-05",
-        "work-mcq-02",
-        "work-mcq-06",
-        "work-mcq-01"
+        "work-mcq-08",
+        "work-mcq-18",
+        "work-mcq-23"
       ],
       "explanation": "本句的「work」指「學生為課程、練習或學習而完成的作業／成果」。",
       "sentenceIndex": 20,
@@ -1546,12 +1475,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-04": "本句指「學生為課程、練習或學習而完成的作業／成果」。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。",
-        "work-mcq-01": "「一個人為職業、崗位或僱主進行的日常工作活動」是「work — employment」的用法，與本句語境不同。"
+        "work-mcq-04": "本句的「work」指「學生為課程、練習或學習而完成的作業／成果」。",
+        "work-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-04"
     },
@@ -1563,11 +1490,9 @@ export default {
       "masked": "這幅畫是她最出色的____之一。",
       "options": [
         "work-mcq-05",
-        "work-mcq-04",
-        "work-mcq-06",
-        "work-mcq-03",
-        "work-mcq-07",
-        "work-mcq-02"
+        "work-reviewed-070d24c0c0",
+        "work-mcq-40",
+        "work-mcq-12"
       ],
       "explanation": "本句的「works」指「藝術家、作家或創作者完成的一件／多件作品」。",
       "sentenceIndex": 21,
@@ -1576,12 +1501,10 @@ export default {
         "works"
       ],
       "optionReasons": {
-        "work-mcq-05": "本句指「藝術家、作家或創作者完成的一件／多件作品」。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-07": "「機器、裝置或部件能按照設計正常發揮功能」是「work — machine/device」的用法，與本句語境不同。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。"
+        "work-mcq-05": "本句的「works」指「藝術家、作家或創作者完成的一件／多件作品」。",
+        "work-reviewed-070d24c0c0": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-05"
     },
@@ -1593,11 +1516,9 @@ export default {
       "masked": "博物館展出幾件重要的現代藝術____。",
       "options": [
         "work-mcq-05",
-        "work-mcq-04",
-        "work-mcq-06",
-        "work-mcq-03",
-        "work-mcq-07",
-        "work-mcq-02"
+        "work-mcq-17",
+        "work-mcq-22",
+        "work-mcq-27"
       ],
       "explanation": "本句的「works」指「藝術家、作家或創作者完成的一件／多件作品」。",
       "sentenceIndex": 22,
@@ -1606,12 +1527,10 @@ export default {
         "works"
       ],
       "optionReasons": {
-        "work-mcq-05": "本句指「藝術家、作家或創作者完成的一件／多件作品」。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-07": "「機器、裝置或部件能按照設計正常發揮功能」是「work — machine/device」的用法，與本句語境不同。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。"
+        "work-mcq-05": "本句的「works」指「藝術家、作家或創作者完成的一件／多件作品」。",
+        "work-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-05"
     },
@@ -1623,11 +1542,9 @@ export default {
       "masked": "她研究莎士比亞的____。",
       "options": [
         "work-mcq-05",
-        "work-mcq-04",
-        "work-mcq-06",
-        "work-mcq-03",
-        "work-mcq-07",
-        "work-mcq-02"
+        "work-mcq-12",
+        "work-mcq-40",
+        "work-mcq-24"
       ],
       "explanation": "本句的「works of Shakespeare」指「藝術家、作家或創作者完成的一件／多件作品」。",
       "sentenceIndex": 23,
@@ -1636,12 +1553,10 @@ export default {
         "works of Shakespeare"
       ],
       "optionReasons": {
-        "work-mcq-05": "本句指「藝術家、作家或創作者完成的一件／多件作品」。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-07": "「機器、裝置或部件能按照設計正常發揮功能」是「work — machine/device」的用法，與本句語境不同。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。"
+        "work-mcq-05": "本句的「works of Shakespeare」指「藝術家、作家或創作者完成的一件／多件作品」。",
+        "work-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-05"
     },
@@ -1653,11 +1568,9 @@ export default {
       "masked": "他的早期____很不一樣。",
       "options": [
         "work-mcq-05",
-        "work-mcq-04",
-        "work-mcq-06",
-        "work-mcq-03",
-        "work-mcq-07",
-        "work-mcq-02"
+        "work-mcq-17",
+        "work-mcq-29",
+        "work-mcq-19"
       ],
       "explanation": "本句的「works」指「藝術家、作家或創作者完成的一件／多件作品」。",
       "sentenceIndex": 24,
@@ -1666,12 +1579,10 @@ export default {
         "works"
       ],
       "optionReasons": {
-        "work-mcq-05": "本句指「藝術家、作家或創作者完成的一件／多件作品」。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。",
-        "work-mcq-07": "「機器、裝置或部件能按照設計正常發揮功能」是「work — machine/device」的用法，與本句語境不同。",
-        "work-mcq-02": "「為完成目標投入的體力、腦力、時間和努力」是「work — effort」的用法，與本句語境不同。"
+        "work-mcq-05": "本句的「works」指「藝術家、作家或創作者完成的一件／多件作品」。",
+        "work-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-05"
     },
@@ -1683,11 +1594,9 @@ export default {
       "masked": "她的____工作集中於語言學習。",
       "options": [
         "work-mcq-06",
-        "work-mcq-05",
-        "work-mcq-07",
-        "work-mcq-04",
-        "work-mcq-08",
-        "work-mcq-03"
+        "work-mcq-11",
+        "work-mcq-17",
+        "work-mcq-12"
       ],
       "explanation": "本句的「work」指「某人進行的研究、分析或知識創造活動及成果」。",
       "sentenceIndex": 25,
@@ -1696,12 +1605,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-06": "本句指「某人進行的研究、分析或知識創造活動及成果」。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-07": "「機器、裝置或部件能按照設計正常發揮功能」是「work — machine/device」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-08": "「系統或軟件能正常運行並提供預期功能」是「work — system/software」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。"
+        "work-mcq-06": "本句的「work」指「某人進行的研究、分析或知識創造活動及成果」。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-06"
     },
@@ -1713,11 +1620,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-06",
-        "work-mcq-05",
         "work-mcq-07",
-        "work-mcq-04",
-        "work-mcq-08",
-        "work-mcq-03"
+        "work-mcq-28",
+        "work-mcq-22"
       ],
       "explanation": "本句的「work」指「某人進行的研究、分析或知識創造活動及成果」。",
       "sentenceIndex": 26,
@@ -1726,12 +1631,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-06": "本句指「某人進行的研究、分析或知識創造活動及成果」。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-07": "「機器、裝置或部件能按照設計正常發揮功能」是「work — machine/device」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。",
-        "work-mcq-08": "「系統或軟件能正常運行並提供預期功能」是「work — system/software」的用法，與本句語境不同。",
-        "work-mcq-03": "「需要完成的一項或一批任務／工作內容」是「work — task/workload」的用法，與本句語境不同。"
+        "work-mcq-06": "本句的「work」指「某人進行的研究、分析或知識創造活動及成果」。",
+        "work-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-06"
     },
@@ -1743,11 +1646,9 @@ export default {
       "masked": "這副耳機仍然____正常。",
       "options": [
         "work-mcq-07",
-        "work-mcq-06",
-        "work-mcq-08",
-        "work-mcq-05",
-        "work-mcq-09",
-        "work-mcq-04"
+        "work-mcq-37",
+        "work-mcq-23",
+        "work-mcq-24"
       ],
       "explanation": "本句的「work」指「機器、裝置或部件能按照設計正常發揮功能」。",
       "sentenceIndex": 27,
@@ -1756,12 +1657,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-07": "本句指「機器、裝置或部件能按照設計正常發揮功能」。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。",
-        "work-mcq-08": "「系統或軟件能正常運行並提供預期功能」是「work — system/software」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-09": "「方法或策略實際能產生預期結果；奏效／行得通」是「work — plan/method」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。"
+        "work-mcq-07": "本句的「work」指「機器、裝置或部件能按照設計正常發揮功能」。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-07"
     },
@@ -1773,11 +1672,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-07",
-        "work-mcq-06",
-        "work-mcq-08",
-        "work-mcq-05",
-        "work-mcq-09",
-        "work-mcq-04"
+        "work-mcq-02",
+        "work-mcq-10",
+        "work-pdf-plain-007"
       ],
       "explanation": "本句的「work」指「機器、裝置或部件能按照設計正常發揮功能」。",
       "sentenceIndex": 28,
@@ -1786,12 +1683,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-07": "本句指「機器、裝置或部件能按照設計正常發揮功能」。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。",
-        "work-mcq-08": "「系統或軟件能正常運行並提供預期功能」是「work — system/software」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。",
-        "work-mcq-09": "「方法或策略實際能產生預期結果；奏效／行得通」是「work — plan/method」的用法，與本句語境不同。",
-        "work-mcq-04": "「學生為課程、練習或學習而完成的作業／成果」是「work — education」的用法，與本句語境不同。"
+        "work-mcq-07": "本句的「work」指「機器、裝置或部件能按照設計正常發揮功能」。",
+        "work-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "work-pdf-plain-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-07"
     },
@@ -1803,11 +1698,9 @@ export default {
       "masked": "這個應用程式在我的手機上不能正常____。",
       "options": [
         "work-mcq-08",
-        "work-mcq-07",
-        "work-mcq-09",
-        "work-mcq-06",
-        "work-mcq-10",
-        "work-mcq-05"
+        "work-mcq-40",
+        "work-mcq-31",
+        "work-mcq-27"
       ],
       "explanation": "本句的「work」指「系統或軟件能正常運行並提供預期功能」。",
       "sentenceIndex": 29,
@@ -1816,12 +1709,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-08": "本句指「系統或軟件能正常運行並提供預期功能」。",
-        "work-mcq-07": "「機器、裝置或部件能按照設計正常發揮功能」是「work — machine/device」的用法，與本句語境不同。",
-        "work-mcq-09": "「方法或策略實際能產生預期結果；奏效／行得通」是「work — plan/method」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。",
-        "work-mcq-10": "「藥物／治療能產生預期作用」是「work — treatment」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。"
+        "work-mcq-08": "本句的「work」指「系統或軟件能正常運行並提供預期功能」。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-08"
     },
@@ -1833,11 +1724,9 @@ export default {
       "masked": "付款系統再次恢復正常____。",
       "options": [
         "work-mcq-08",
-        "work-mcq-07",
-        "work-mcq-09",
-        "work-mcq-06",
-        "work-mcq-10",
-        "work-mcq-05"
+        "work-mcq-20",
+        "work-mcq-27",
+        "work-mcq-37"
       ],
       "explanation": "本句的「working」指「系統或軟件能正常運行並提供預期功能」。",
       "sentenceIndex": 30,
@@ -1846,12 +1735,10 @@ export default {
         "working"
       ],
       "optionReasons": {
-        "work-mcq-08": "本句指「系統或軟件能正常運行並提供預期功能」。",
-        "work-mcq-07": "「機器、裝置或部件能按照設計正常發揮功能」是「work — machine/device」的用法，與本句語境不同。",
-        "work-mcq-09": "「方法或策略實際能產生預期結果；奏效／行得通」是「work — plan/method」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。",
-        "work-mcq-10": "「藥物／治療能產生預期作用」是「work — treatment」的用法，與本句語境不同。",
-        "work-mcq-05": "「藝術家、作家或創作者完成的一件／多件作品」是「a work / works」的用法，與本句語境不同。"
+        "work-mcq-08": "本句的「working」指「系統或軟件能正常運行並提供預期功能」。",
+        "work-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-08"
     },
@@ -1863,11 +1750,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-09",
-        "work-mcq-08",
-        "work-mcq-10",
-        "work-mcq-07",
+        "work-mcq-37",
         "work-mcq-11",
-        "work-mcq-06"
+        "work-mcq-03"
       ],
       "explanation": "本句的「worked」指「方法或策略實際能產生預期結果；奏效／行得通」。",
       "sentenceIndex": 31,
@@ -1876,12 +1761,10 @@ export default {
         "worked"
       ],
       "optionReasons": {
-        "work-mcq-09": "本句指「方法或策略實際能產生預期結果；奏效／行得通」。",
-        "work-mcq-08": "「系統或軟件能正常運行並提供預期功能」是「work — system/software」的用法，與本句語境不同。",
-        "work-mcq-10": "「藥物／治療能產生預期作用」是「work — treatment」的用法，與本句語境不同。",
-        "work-mcq-07": "「機器、裝置或部件能按照設計正常發揮功能」是「work — machine/device」的用法，與本句語境不同。",
-        "work-mcq-11": "「操作、控制某台機器或設備」是「work a machine」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-09": "本句的「worked」指「方法或策略實際能產生預期結果；奏效／行得通」。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-09"
     },
@@ -1893,11 +1776,9 @@ export default {
       "masked": "如果這個方法____，我們會試另一個。",
       "options": [
         "work-mcq-09",
-        "work-mcq-08",
-        "work-mcq-10",
-        "work-mcq-07",
-        "work-mcq-11",
-        "work-mcq-06"
+        "work-mcq-29",
+        "work-mcq-37",
+        "work-mcq-17"
       ],
       "explanation": "本句的「work」指「方法或策略實際能產生預期結果；奏效／行得通」。",
       "sentenceIndex": 32,
@@ -1906,12 +1787,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-09": "本句指「方法或策略實際能產生預期結果；奏效／行得通」。",
-        "work-mcq-08": "「系統或軟件能正常運行並提供預期功能」是「work — system/software」的用法，與本句語境不同。",
-        "work-mcq-10": "「藥物／治療能產生預期作用」是「work — treatment」的用法，與本句語境不同。",
-        "work-mcq-07": "「機器、裝置或部件能按照設計正常發揮功能」是「work — machine/device」的用法，與本句語境不同。",
-        "work-mcq-11": "「操作、控制某台機器或設備」是「work a machine」的用法，與本句語境不同。",
-        "work-mcq-06": "「某人進行的研究、分析或知識創造活動及成果」是「work — academic」的用法，與本句語境不同。"
+        "work-mcq-09": "本句的「work」指「方法或策略實際能產生預期結果；奏效／行得通」。",
+        "work-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-09"
     },
@@ -1923,11 +1802,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-10",
-        "work-mcq-09",
-        "work-mcq-11",
-        "work-mcq-08",
-        "work-mcq-12",
-        "work-mcq-07"
+        "work-mcq-40",
+        "work-mcq-25",
+        "work-mcq-21"
       ],
       "explanation": "本句的「work」指「藥物／治療能產生預期作用」。",
       "sentenceIndex": 33,
@@ -1936,12 +1813,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-10": "本句指「藥物／治療能產生預期作用」。",
-        "work-mcq-09": "「方法或策略實際能產生預期結果；奏效／行得通」是「work — plan/method」的用法，與本句語境不同。",
-        "work-mcq-11": "「操作、控制某台機器或設備」是「work a machine」的用法，與本句語境不同。",
-        "work-mcq-08": "「系統或軟件能正常運行並提供預期功能」是「work — system/software」的用法，與本句語境不同。",
-        "work-mcq-12": "「透過加工、塑形等方式改變材料」是「work material」的用法，與本句語境不同。",
-        "work-mcq-07": "「機器、裝置或部件能按照設計正常發揮功能」是「work — machine/device」的用法，與本句語境不同。"
+        "work-mcq-10": "本句的「work」指「藥物／治療能產生預期作用」。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-10"
     },
@@ -1953,11 +1828,9 @@ export default {
       "masked": "這項治療並不是對所有人都____。",
       "options": [
         "work-mcq-10",
-        "work-mcq-09",
-        "work-mcq-11",
-        "work-mcq-08",
-        "work-mcq-12",
-        "work-mcq-07"
+        "work-mcq-28",
+        "work-mcq-38",
+        "work-mcq-17"
       ],
       "explanation": "本句的「work」指「藥物／治療能產生預期作用」。",
       "sentenceIndex": 34,
@@ -1966,12 +1839,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-10": "本句指「藥物／治療能產生預期作用」。",
-        "work-mcq-09": "「方法或策略實際能產生預期結果；奏效／行得通」是「work — plan/method」的用法，與本句語境不同。",
-        "work-mcq-11": "「操作、控制某台機器或設備」是「work a machine」的用法，與本句語境不同。",
-        "work-mcq-08": "「系統或軟件能正常運行並提供預期功能」是「work — system/software」的用法，與本句語境不同。",
-        "work-mcq-12": "「透過加工、塑形等方式改變材料」是「work material」的用法，與本句語境不同。",
-        "work-mcq-07": "「機器、裝置或部件能按照設計正常發揮功能」是「work — machine/device」的用法，與本句語境不同。"
+        "work-mcq-10": "本句的「work」指「藥物／治療能產生預期作用」。",
+        "work-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-10"
     },
@@ -1983,11 +1854,9 @@ export default {
       "masked": "你知道怎樣____這部機器嗎？",
       "options": [
         "work-mcq-11",
-        "work-mcq-10",
-        "work-mcq-12",
-        "work-mcq-09",
-        "work-mcq-13",
-        "work-mcq-08"
+        "work-pdf-plain-007",
+        "work-mcq-19",
+        "work-mcq-37"
       ],
       "explanation": "本句的「work」指「操作、控制某台機器或設備」。",
       "sentenceIndex": 35,
@@ -1996,12 +1865,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-11": "本句指「操作、控制某台機器或設備」。",
-        "work-mcq-10": "「藥物／治療能產生預期作用」是「work — treatment」的用法，與本句語境不同。",
-        "work-mcq-12": "「透過加工、塑形等方式改變材料」是「work material」的用法，與本句語境不同。",
-        "work-mcq-09": "「方法或策略實際能產生預期結果；奏效／行得通」是「work — plan/method」的用法，與本句語境不同。",
-        "work-mcq-13": "「使特定肌肉／身體部位活動並受到鍛鍊」是「work muscles」的用法，與本句語境不同。",
-        "work-mcq-08": "「系統或軟件能正常運行並提供預期功能」是「work — system/software」的用法，與本句語境不同。"
+        "work-mcq-11": "本句的「work」指「操作、控制某台機器或設備」。",
+        "work-pdf-plain-007": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-11"
     },
@@ -2013,11 +1880,9 @@ export default {
       "masked": "她很快學會了怎樣____控制裝置。",
       "options": [
         "work-mcq-11",
-        "work-mcq-10",
+        "work-pdf-plain-007",
         "work-mcq-12",
-        "work-mcq-09",
-        "work-mcq-13",
-        "work-mcq-08"
+        "work-mcq-17"
       ],
       "explanation": "本句的「work」指「操作、控制某台機器或設備」。",
       "sentenceIndex": 36,
@@ -2026,12 +1891,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-11": "本句指「操作、控制某台機器或設備」。",
-        "work-mcq-10": "「藥物／治療能產生預期作用」是「work — treatment」的用法，與本句語境不同。",
-        "work-mcq-12": "「透過加工、塑形等方式改變材料」是「work material」的用法，與本句語境不同。",
-        "work-mcq-09": "「方法或策略實際能產生預期結果；奏效／行得通」是「work — plan/method」的用法，與本句語境不同。",
-        "work-mcq-13": "「使特定肌肉／身體部位活動並受到鍛鍊」是「work muscles」的用法，與本句語境不同。",
-        "work-mcq-08": "「系統或軟件能正常運行並提供預期功能」是「work — system/software」的用法，與本句語境不同。"
+        "work-mcq-11": "本句的「work」指「操作、控制某台機器或設備」。",
+        "work-pdf-plain-007": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-11"
     },
@@ -2043,11 +1906,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-12",
-        "work-mcq-11",
-        "work-mcq-13",
         "work-mcq-10",
-        "work-mcq-14",
-        "work-mcq-09"
+        "work-mcq-40",
+        "work-mcq-19"
       ],
       "explanation": "本句的「work」指「透過加工、塑形等方式改變材料」。",
       "sentenceIndex": 37,
@@ -2056,12 +1917,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-12": "本句指「透過加工、塑形等方式改變材料」。",
-        "work-mcq-11": "「操作、控制某台機器或設備」是「work a machine」的用法，與本句語境不同。",
-        "work-mcq-13": "「使特定肌肉／身體部位活動並受到鍛鍊」是「work muscles」的用法，與本句語境不同。",
-        "work-mcq-10": "「藥物／治療能產生預期作用」是「work — treatment」的用法，與本句語境不同。",
-        "work-mcq-14": "「使某人投入工作，尤其指工作量較大」是「work someone」的用法，與本句語境不同。",
-        "work-mcq-09": "「方法或策略實際能產生預期結果；奏效／行得通」是「work — plan/method」的用法，與本句語境不同。"
+        "work-mcq-12": "本句的「work」指「透過加工、塑形等方式改變材料」。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-12"
     },
@@ -2073,11 +1932,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-12",
-        "work-mcq-11",
-        "work-mcq-13",
-        "work-mcq-10",
-        "work-mcq-14",
-        "work-mcq-09"
+        "work-mcq-02",
+        "work-mcq-06",
+        "work-mcq-21"
       ],
       "explanation": "本句的「worked」指「透過加工、塑形等方式改變材料」。",
       "sentenceIndex": 38,
@@ -2086,12 +1943,10 @@ export default {
         "worked"
       ],
       "optionReasons": {
-        "work-mcq-12": "本句指「透過加工、塑形等方式改變材料」。",
-        "work-mcq-11": "「操作、控制某台機器或設備」是「work a machine」的用法，與本句語境不同。",
-        "work-mcq-13": "「使特定肌肉／身體部位活動並受到鍛鍊」是「work muscles」的用法，與本句語境不同。",
-        "work-mcq-10": "「藥物／治療能產生預期作用」是「work — treatment」的用法，與本句語境不同。",
-        "work-mcq-14": "「使某人投入工作，尤其指工作量較大」是「work someone」的用法，與本句語境不同。",
-        "work-mcq-09": "「方法或策略實際能產生預期結果；奏效／行得通」是「work — plan/method」的用法，與本句語境不同。"
+        "work-mcq-12": "本句的「worked」指「透過加工、塑形等方式改變材料」。",
+        "work-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-12"
     },
@@ -2103,11 +1958,9 @@ export default {
       "masked": "這個運動可以____肩膀肌肉。",
       "options": [
         "work-mcq-13",
-        "work-mcq-12",
-        "work-mcq-14",
-        "work-mcq-11",
-        "work-mcq-15",
-        "work-mcq-10"
+        "work-mcq-22",
+        "work-mcq-05",
+        "work-reviewed-070d24c0c0"
       ],
       "explanation": "本句的「works」指「使特定肌肉／身體部位活動並受到鍛鍊」。",
       "sentenceIndex": 39,
@@ -2116,12 +1969,10 @@ export default {
         "works"
       ],
       "optionReasons": {
-        "work-mcq-13": "本句指「使特定肌肉／身體部位活動並受到鍛鍊」。",
-        "work-mcq-12": "「透過加工、塑形等方式改變材料」是「work material」的用法，與本句語境不同。",
-        "work-mcq-14": "「使某人投入工作，尤其指工作量較大」是「work someone」的用法，與本句語境不同。",
-        "work-mcq-11": "「操作、控制某台機器或設備」是「work a machine」的用法，與本句語境不同。",
-        "work-mcq-15": "「巧妙與現場人士互動，以取得注意、支持或良好反應」是「work a room/crowd」的用法，與本句語境不同。",
-        "work-mcq-10": "「藥物／治療能產生預期作用」是「work — treatment」的用法，與本句語境不同。"
+        "work-mcq-13": "本句的「works」指「使特定肌肉／身體部位活動並受到鍛鍊」。",
+        "work-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "work-reviewed-070d24c0c0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-13"
     },
@@ -2133,11 +1984,9 @@ export default {
       "masked": "游泳可以____全身。",
       "options": [
         "work-mcq-13",
-        "work-mcq-12",
-        "work-mcq-14",
-        "work-mcq-11",
-        "work-mcq-15",
-        "work-mcq-10"
+        "work-mcq-03",
+        "work-mcq-22",
+        "work-mcq-38"
       ],
       "explanation": "本句的「works」指「使特定肌肉／身體部位活動並受到鍛鍊」。",
       "sentenceIndex": 40,
@@ -2146,12 +1995,10 @@ export default {
         "works"
       ],
       "optionReasons": {
-        "work-mcq-13": "本句指「使特定肌肉／身體部位活動並受到鍛鍊」。",
-        "work-mcq-12": "「透過加工、塑形等方式改變材料」是「work material」的用法，與本句語境不同。",
-        "work-mcq-14": "「使某人投入工作，尤其指工作量較大」是「work someone」的用法，與本句語境不同。",
-        "work-mcq-11": "「操作、控制某台機器或設備」是「work a machine」的用法，與本句語境不同。",
-        "work-mcq-15": "「巧妙與現場人士互動，以取得注意、支持或良好反應」是「work a room/crowd」的用法，與本句語境不同。",
-        "work-mcq-10": "「藥物／治療能產生預期作用」是「work — treatment」的用法，與本句語境不同。"
+        "work-mcq-13": "本句的「works」指「使特定肌肉／身體部位活動並受到鍛鍊」。",
+        "work-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-13"
     },
@@ -2163,11 +2010,9 @@ export default {
       "masked": "經理讓員工____得非常辛苦。",
       "options": [
         "work-mcq-14",
-        "work-mcq-13",
-        "work-mcq-15",
-        "work-mcq-12",
-        "work-mcq-16",
-        "work-mcq-11"
+        "work-mcq-04",
+        "work-mcq-21",
+        "work-mcq-07"
       ],
       "explanation": "本句的「worked」指「使某人投入工作，尤其指工作量較大」。",
       "sentenceIndex": 41,
@@ -2176,12 +2021,10 @@ export default {
         "worked"
       ],
       "optionReasons": {
-        "work-mcq-14": "本句指「使某人投入工作，尤其指工作量較大」。",
-        "work-mcq-13": "「使特定肌肉／身體部位活動並受到鍛鍊」是「work muscles」的用法，與本句語境不同。",
-        "work-mcq-15": "「巧妙與現場人士互動，以取得注意、支持或良好反應」是「work a room/crowd」的用法，與本句語境不同。",
-        "work-mcq-12": "「透過加工、塑形等方式改變材料」是「work material」的用法，與本句語境不同。",
-        "work-mcq-16": "「正在受僱、從事工作的」是「working — employed」的用法，與本句語境不同。",
-        "work-mcq-11": "「操作、控制某台機器或設備」是「work a machine」的用法，與本句語境不同。"
+        "work-mcq-14": "本句的「worked」指「使某人投入工作，尤其指工作量較大」。",
+        "work-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-14"
     },
@@ -2193,11 +2036,9 @@ export default {
       "masked": "他們讓團隊長時間____。",
       "options": [
         "work-mcq-14",
-        "work-mcq-13",
-        "work-mcq-15",
-        "work-mcq-12",
-        "work-mcq-16",
-        "work-mcq-11"
+        "work-mcq-17",
+        "work-mcq-04",
+        "work-mcq-21"
       ],
       "explanation": "本句的「worked」指「使某人投入工作，尤其指工作量較大」。",
       "sentenceIndex": 42,
@@ -2206,12 +2047,10 @@ export default {
         "worked"
       ],
       "optionReasons": {
-        "work-mcq-14": "本句指「使某人投入工作，尤其指工作量較大」。",
-        "work-mcq-13": "「使特定肌肉／身體部位活動並受到鍛鍊」是「work muscles」的用法，與本句語境不同。",
-        "work-mcq-15": "「巧妙與現場人士互動，以取得注意、支持或良好反應」是「work a room/crowd」的用法，與本句語境不同。",
-        "work-mcq-12": "「透過加工、塑形等方式改變材料」是「work material」的用法，與本句語境不同。",
-        "work-mcq-16": "「正在受僱、從事工作的」是「working — employed」的用法，與本句語境不同。",
-        "work-mcq-11": "「操作、控制某台機器或設備」是「work a machine」的用法，與本句語境不同。"
+        "work-mcq-14": "本句的「worked」指「使某人投入工作，尤其指工作量較大」。",
+        "work-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-14"
     },
@@ -2223,11 +2062,9 @@ export default {
       "masked": "她____所需形狀。",
       "options": [
         "work-mcq-37",
-        "work-mcq-36",
-        "work-mcq-35",
-        "work-mcq-39",
-        "work-mcq-34",
-        "work-mcq-33"
+        "work-mcq-10",
+        "work-mcq-11",
+        "work-mcq-01"
       ],
       "explanation": "本句的「worked」指「表示努力使 …… 達成／改變」。",
       "sentenceIndex": 43,
@@ -2236,12 +2073,10 @@ export default {
         "worked"
       ],
       "optionReasons": {
-        "work-mcq-37": "本句指「表示努力使 …… 達成／改變」。",
-        "work-mcq-36": "「奏效／有效」是「it worked well →」的用法，與本句語境不同。",
-        "work-mcq-35": "「工作／上班」是「So your passage itself already gives us two very different uses: after work →」的用法，與本句語境不同。",
-        "work-mcq-39": "「表示經營；善用；設法影響」是「Unmapped practice work-23-0」的用法，與本句語境不同。",
-        "work-mcq-34": "「奏效了／成功產生預期效果」是「And later in the same passage: “Another reason it worked so well…” the same spelling has a completely different meaning: worked =」的用法，與本句語境不同。",
-        "work-mcq-33": "「下班後／完成當天工作之後」」是「Therefore: after work = 「」的用法，與本句語境不同。"
+        "work-mcq-37": "本句的「worked」指「表示努力使 …… 達成／改變」。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-37"
     },
@@ -2253,11 +2088,9 @@ export default {
       "masked": "他____鎖孔。",
       "options": [
         "work-mcq-38",
-        "work-mcq-39",
-        "work-mcq-36",
-        "work-mcq-35",
-        "work-mcq-34",
-        "work-mcq-33"
+        "work-mcq-27",
+        "work-mcq-40",
+        "work-mcq-07"
       ],
       "explanation": "本句的「worked」指「表示努力使 …… 達成／改變」。",
       "sentenceIndex": 44,
@@ -2266,12 +2099,10 @@ export default {
         "worked"
       ],
       "optionReasons": {
-        "work-mcq-38": "本句指「表示努力使 …… 達成／改變」。",
-        "work-mcq-39": "「表示經營；善用；設法影響」是「Unmapped practice work-23-0」的用法，與本句語境不同。",
-        "work-mcq-36": "「奏效／有效」是「it worked well →」的用法，與本句語境不同。",
-        "work-mcq-35": "「工作／上班」是「So your passage itself already gives us two very different uses: after work →」的用法，與本句語境不同。",
-        "work-mcq-34": "「奏效了／成功產生預期效果」是「And later in the same passage: “Another reason it worked so well…” the same spelling has a completely different meaning: worked =」的用法，與本句語境不同。",
-        "work-mcq-33": "「下班後／完成當天工作之後」」是「Therefore: after work = 「」的用法，與本句語境不同。"
+        "work-mcq-38": "本句的「worked」指「表示努力使 …… 達成／改變」。",
+        "work-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-38"
     },
@@ -2283,11 +2114,9 @@ export default {
       "masked": "她很懂得怎樣____群眾氣氛。",
       "options": [
         "work-mcq-39",
-        "work-mcq-38",
-        "work-mcq-36",
-        "work-mcq-35",
-        "work-mcq-34",
-        "work-mcq-33"
+        "work-pdf-plain-007",
+        "work-mcq-27",
+        "work-mcq-02"
       ],
       "explanation": "本句的「work」指「表示經營；善用；設法影響」。",
       "sentenceIndex": 45,
@@ -2296,12 +2125,10 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-39": "本句指「表示經營；善用；設法影響」。",
-        "work-mcq-38": "「表示努力使 …… 達成／改變」是「Unmapped practice work-22-1」的用法，與本句語境不同。",
-        "work-mcq-36": "「奏效／有效」是「it worked well →」的用法，與本句語境不同。",
-        "work-mcq-35": "「工作／上班」是「So your passage itself already gives us two very different uses: after work →」的用法，與本句語境不同。",
-        "work-mcq-34": "「奏效了／成功產生預期效果」是「And later in the same passage: “Another reason it worked so well…” the same spelling has a completely different meaning: worked =」的用法，與本句語境不同。",
-        "work-mcq-33": "「下班後／完成當天工作之後」」是「Therefore: after work = 「」的用法，與本句語境不同。"
+        "work-mcq-39": "本句的「work」指「表示經營；善用；設法影響」。",
+        "work-pdf-plain-007": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-39"
     },
@@ -2313,11 +2140,9 @@ export default {
       "masked": "好的銷售員懂得怎樣____。",
       "options": [
         "work-mcq-40",
-        "work-mcq-38",
-        "work-mcq-36",
-        "work-mcq-35",
-        "work-mcq-34",
-        "work-mcq-33"
+        "work-mcq-01",
+        "work-mcq-21",
+        "work-mcq-10"
       ],
       "explanation": "本句的「work」指「表示經營；善用；設法影響」。",
       "sentenceIndex": 46,
@@ -2326,74 +2151,68 @@ export default {
         "work"
       ],
       "optionReasons": {
-        "work-mcq-40": "本句指「表示經營；善用；設法影響」。",
-        "work-mcq-38": "「表示努力使 …… 達成／改變」是「Unmapped practice work-22-1」的用法，與本句語境不同。",
-        "work-mcq-36": "「奏效／有效」是「it worked well →」的用法，與本句語境不同。",
-        "work-mcq-35": "「工作／上班」是「So your passage itself already gives us two very different uses: after work →」的用法，與本句語境不同。",
-        "work-mcq-34": "「奏效了／成功產生預期效果」是「And later in the same passage: “Another reason it worked so well…” the same spelling has a completely different meaning: worked =」的用法，與本句語境不同。",
-        "work-mcq-33": "「下班後／完成當天工作之後」」是「Therefore: after work = 「」的用法，與本句語境不同。"
+        "work-mcq-40": "本句的「work」指「表示經營；善用；設法影響」。",
+        "work-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-40"
     },
     {
       "id": "work-24-0",
-      "sense": "work-mcq-15",
+      "sense": "work-reviewed-070d24c0c0",
       "en": "They worked for years to improve the product.",
       "zh": "他們多年來一直努力改善產品。",
       "masked": "他們多年來一直____改善產品。",
       "options": [
-        "work-mcq-15",
-        "work-mcq-14",
-        "work-mcq-16",
-        "work-mcq-13",
-        "work-mcq-17",
-        "work-mcq-12"
+        "work-reviewed-070d24c0c0",
+        "work-mcq-10",
+        "work-mcq-07",
+        "work-mcq-27"
       ],
-      "explanation": "本句的「worked」指「巧妙與現場人士互動，以取得注意、支持或良好反應」。",
+      "explanation": "對照完整句子：「他們多年來一直努力改善產品。」。這裡的「worked」表示「努力；致力」。",
       "sentenceIndex": 47,
       "sourcePractice": 48,
       "targets": [
         "worked"
       ],
       "optionReasons": {
-        "work-mcq-15": "本句指「巧妙與現場人士互動，以取得注意、支持或良好反應」。",
-        "work-mcq-14": "「使某人投入工作，尤其指工作量較大」是「work someone」的用法，與本句語境不同。",
-        "work-mcq-16": "「正在受僱、從事工作的」是「working — employed」的用法，與本句語境不同。",
-        "work-mcq-13": "「使特定肌肉／身體部位活動並受到鍛鍊」是「work muscles」的用法，與本句語境不同。",
-        "work-mcq-17": "「已能正常運作、發揮所需功能的」是「working — functioning」的用法，與本句語境不同。",
-        "work-mcq-12": "「透過加工、塑形等方式改變材料」是「work material」的用法，與本句語境不同。"
+        "work-reviewed-070d24c0c0": "對照完整句子：「他們多年來一直努力改善產品。」。這裡的「worked」表示「努力；致力」。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "work-mcq-15"
+      "correctOption": "work-reviewed-070d24c0c0",
+      "previousCorrectOption": "work-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "work-24-1",
-      "sense": "work-mcq-15",
+      "sense": "work-reviewed-070d24c0c0",
       "en": "We need to work together to solve the problem.",
       "zh": "我們需要一起努力解決問題。",
       "masked": "我們需要一起____解決問題。",
       "options": [
-        "work-mcq-15",
-        "work-mcq-14",
-        "work-mcq-16",
-        "work-mcq-13",
-        "work-mcq-17",
-        "work-mcq-12"
+        "work-reviewed-070d24c0c0",
+        "work-mcq-22",
+        "work-mcq-24",
+        "work-mcq-40"
       ],
-      "explanation": "本句的「work」指「巧妙與現場人士互動，以取得注意、支持或良好反應」。",
+      "explanation": "對照完整句子：「我們需要一起努力解決問題。」。這裡的「work」表示「努力；致力」。",
       "sentenceIndex": 48,
       "sourcePractice": 49,
       "targets": [
         "work"
       ],
       "optionReasons": {
-        "work-mcq-15": "本句指「巧妙與現場人士互動，以取得注意、支持或良好反應」。",
-        "work-mcq-14": "「使某人投入工作，尤其指工作量較大」是「work someone」的用法，與本句語境不同。",
-        "work-mcq-16": "「正在受僱、從事工作的」是「working — employed」的用法，與本句語境不同。",
-        "work-mcq-13": "「使特定肌肉／身體部位活動並受到鍛鍊」是「work muscles」的用法，與本句語境不同。",
-        "work-mcq-17": "「已能正常運作、發揮所需功能的」是「working — functioning」的用法，與本句語境不同。",
-        "work-mcq-12": "「透過加工、塑形等方式改變材料」是「work material」的用法，與本句語境不同。"
+        "work-reviewed-070d24c0c0": "對照完整句子：「我們需要一起努力解決問題。」。這裡的「work」表示「努力；致力」。",
+        "work-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "work-mcq-15"
+      "correctOption": "work-reviewed-070d24c0c0",
+      "previousCorrectOption": "work-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "work-25-0",
@@ -2403,11 +2222,9 @@ export default {
       "masked": "這項計劃支援____父母。",
       "options": [
         "work-mcq-16",
-        "work-mcq-15",
-        "work-mcq-17",
-        "work-mcq-14",
-        "work-mcq-18",
-        "work-mcq-13"
+        "work-mcq-05",
+        "work-reviewed-070d24c0c0",
+        "work-mcq-39"
       ],
       "explanation": "本句的「working parents」指「正在受僱、從事工作的」。",
       "sentenceIndex": 49,
@@ -2416,12 +2233,10 @@ export default {
         "working parents"
       ],
       "optionReasons": {
-        "work-mcq-16": "本句指「正在受僱、從事工作的」。",
-        "work-mcq-15": "「巧妙與現場人士互動，以取得注意、支持或良好反應」是「work a room/crowd」的用法，與本句語境不同。",
-        "work-mcq-17": "「已能正常運作、發揮所需功能的」是「working — functioning」的用法，與本句語境不同。",
-        "work-mcq-14": "「使某人投入工作，尤其指工作量較大」是「work someone」的用法，與本句語境不同。",
-        "work-mcq-18": "「為目前實際使用而暫時採用、之後仍可能修改的」是「working definition/hypothesis」的用法，與本句語境不同。",
-        "work-mcq-13": "「使特定肌肉／身體部位活動並受到鍛鍊」是「work muscles」的用法，與本句語境不同。"
+        "work-mcq-16": "本句的「working parents」指「正在受僱、從事工作的」。",
+        "work-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "work-reviewed-070d24c0c0": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-16"
     },
@@ -2433,11 +2248,9 @@ export default {
       "masked": "大多數____成年人的空閒時間有限。",
       "options": [
         "work-mcq-16",
-        "work-mcq-15",
-        "work-mcq-17",
-        "work-mcq-14",
-        "work-mcq-18",
-        "work-mcq-13"
+        "work-mcq-10",
+        "work-mcq-02",
+        "work-mcq-11"
       ],
       "explanation": "本句的「working adults」指「正在受僱、從事工作的」。",
       "sentenceIndex": 50,
@@ -2446,12 +2259,10 @@ export default {
         "working adults"
       ],
       "optionReasons": {
-        "work-mcq-16": "本句指「正在受僱、從事工作的」。",
-        "work-mcq-15": "「巧妙與現場人士互動，以取得注意、支持或良好反應」是「work a room/crowd」的用法，與本句語境不同。",
-        "work-mcq-17": "「已能正常運作、發揮所需功能的」是「working — functioning」的用法，與本句語境不同。",
-        "work-mcq-14": "「使某人投入工作，尤其指工作量較大」是「work someone」的用法，與本句語境不同。",
-        "work-mcq-18": "「為目前實際使用而暫時採用、之後仍可能修改的」是「working definition/hypothesis」的用法，與本句語境不同。",
-        "work-mcq-13": "「使特定肌肉／身體部位活動並受到鍛鍊」是「work muscles」的用法，與本句語境不同。"
+        "work-mcq-16": "本句的「working adults」指「正在受僱、從事工作的」。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-16"
     },
@@ -2463,11 +2274,9 @@ export default {
       "masked": "我們終於有一個能正常____原型。",
       "options": [
         "work-mcq-17",
-        "work-mcq-16",
-        "work-mcq-18",
-        "work-mcq-15",
-        "work-mcq-19",
-        "work-mcq-14"
+        "work-mcq-29",
+        "work-mcq-09",
+        "work-reviewed-070d24c0c0"
       ],
       "explanation": "本句的「working prototype」指「已能正常運作、發揮所需功能的」。",
       "sentenceIndex": 51,
@@ -2476,12 +2285,10 @@ export default {
         "working prototype"
       ],
       "optionReasons": {
-        "work-mcq-17": "本句指「已能正常運作、發揮所需功能的」。",
-        "work-mcq-16": "「正在受僱、從事工作的」是「working — employed」的用法，與本句語境不同。",
-        "work-mcq-18": "「為目前實際使用而暫時採用、之後仍可能修改的」是「working definition/hypothesis」的用法，與本句語境不同。",
-        "work-mcq-15": "「巧妙與現場人士互動，以取得注意、支持或良好反應」是「work a room/crowd」的用法，與本句語境不同。",
-        "work-mcq-19": "「未必精通，但足以在實際情況中使用的知識」是「working knowledge」的用法，與本句語境不同。",
-        "work-mcq-14": "「使某人投入工作，尤其指工作量較大」是「work someone」的用法，與本句語境不同。"
+        "work-mcq-17": "本句的「working prototype」指「已能正常運作、發揮所需功能的」。",
+        "work-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "work-reviewed-070d24c0c0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-17"
     },
@@ -2493,11 +2300,9 @@ export default {
       "masked": "麥克風是否處於可正常____狀態？",
       "options": [
         "work-mcq-17",
-        "work-mcq-16",
-        "work-mcq-18",
-        "work-mcq-15",
-        "work-mcq-19",
-        "work-mcq-14"
+        "work-mcq-29",
+        "work-mcq-39",
+        "work-mcq-02"
       ],
       "explanation": "本句的「working condition」指「已能正常運作、發揮所需功能的」。",
       "sentenceIndex": 52,
@@ -2506,12 +2311,10 @@ export default {
         "working condition"
       ],
       "optionReasons": {
-        "work-mcq-17": "本句指「已能正常運作、發揮所需功能的」。",
-        "work-mcq-16": "「正在受僱、從事工作的」是「working — employed」的用法，與本句語境不同。",
-        "work-mcq-18": "「為目前實際使用而暫時採用、之後仍可能修改的」是「working definition/hypothesis」的用法，與本句語境不同。",
-        "work-mcq-15": "「巧妙與現場人士互動，以取得注意、支持或良好反應」是「work a room/crowd」的用法，與本句語境不同。",
-        "work-mcq-19": "「未必精通，但足以在實際情況中使用的知識」是「working knowledge」的用法，與本句語境不同。",
-        "work-mcq-14": "「使某人投入工作，尤其指工作量較大」是「work someone」的用法，與本句語境不同。"
+        "work-mcq-17": "本句的「working condition」指「已能正常運作、發揮所需功能的」。",
+        "work-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-17"
     },
@@ -2523,11 +2326,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-18",
-        "work-mcq-17",
-        "work-mcq-19",
-        "work-mcq-16",
-        "work-mcq-20",
-        "work-mcq-15"
+        "work-mcq-05",
+        "work-mcq-24",
+        "work-mcq-22"
       ],
       "explanation": "本句的「working definition」指「為目前實際使用而暫時採用、之後仍可能修改的」。",
       "sentenceIndex": 53,
@@ -2536,12 +2337,10 @@ export default {
         "working definition"
       ],
       "optionReasons": {
-        "work-mcq-18": "本句指「為目前實際使用而暫時採用、之後仍可能修改的」。",
-        "work-mcq-17": "「已能正常運作、發揮所需功能的」是「working — functioning」的用法，與本句語境不同。",
-        "work-mcq-19": "「未必精通，但足以在實際情況中使用的知識」是「working knowledge」的用法，與本句語境不同。",
-        "work-mcq-16": "「正在受僱、從事工作的」是「working — employed」的用法，與本句語境不同。",
-        "work-mcq-20": "「從事工作的人；員工／工人／工作者」是「worker」的用法，與本句語境不同。",
-        "work-mcq-15": "「巧妙與現場人士互動，以取得注意、支持或良好反應」是「work a room/crowd」的用法，與本句語境不同。"
+        "work-mcq-18": "本句的「working definition」指「為目前實際使用而暫時採用、之後仍可能修改的」。",
+        "work-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-18"
     },
@@ -2553,11 +2352,9 @@ export default {
       "masked": "他們建立了一個目前用來指導研究的____假設。",
       "options": [
         "work-mcq-18",
-        "work-mcq-17",
-        "work-mcq-19",
-        "work-mcq-16",
-        "work-mcq-20",
-        "work-mcq-15"
+        "work-mcq-30",
+        "work-mcq-04",
+        "work-mcq-40"
       ],
       "explanation": "本句的「working hypothesis」指「為目前實際使用而暫時採用、之後仍可能修改的」。",
       "sentenceIndex": 54,
@@ -2566,12 +2363,10 @@ export default {
         "working hypothesis"
       ],
       "optionReasons": {
-        "work-mcq-18": "本句指「為目前實際使用而暫時採用、之後仍可能修改的」。",
-        "work-mcq-17": "「已能正常運作、發揮所需功能的」是「working — functioning」的用法，與本句語境不同。",
-        "work-mcq-19": "「未必精通，但足以在實際情況中使用的知識」是「working knowledge」的用法，與本句語境不同。",
-        "work-mcq-16": "「正在受僱、從事工作的」是「working — employed」的用法，與本句語境不同。",
-        "work-mcq-20": "「從事工作的人；員工／工人／工作者」是「worker」的用法，與本句語境不同。",
-        "work-mcq-15": "「巧妙與現場人士互動，以取得注意、支持或良好反應」是「work a room/crowd」的用法，與本句語境不同。"
+        "work-mcq-18": "本句的「working hypothesis」指「為目前實際使用而暫時採用、之後仍可能修改的」。",
+        "work-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-18"
     },
@@ -2583,11 +2378,9 @@ export default {
       "masked": "她具備足以實際____法語知識。",
       "options": [
         "work-mcq-19",
-        "work-mcq-18",
-        "work-mcq-20",
-        "work-mcq-17",
-        "work-mcq-21",
-        "work-mcq-16"
+        "work-mcq-03",
+        "work-mcq-22",
+        "work-mcq-38"
       ],
       "explanation": "本句的「working knowledge」指「未必精通，但足以在實際情況中使用的知識」。",
       "sentenceIndex": 55,
@@ -2596,12 +2389,10 @@ export default {
         "working knowledge"
       ],
       "optionReasons": {
-        "work-mcq-19": "本句指「未必精通，但足以在實際情況中使用的知識」。",
-        "work-mcq-18": "「為目前實際使用而暫時採用、之後仍可能修改的」是「working definition/hypothesis」的用法，與本句語境不同。",
-        "work-mcq-20": "「從事工作的人；員工／工人／工作者」是「worker」的用法，與本句語境不同。",
-        "work-mcq-17": "「已能正常運作、發揮所需功能的」是「working — functioning」的用法，與本句語境不同。",
-        "work-mcq-21": "「在現實條件下可實施並有合理成功可能的」是「workable — plan」的用法，與本句語境不同。",
-        "work-mcq-16": "「正在受僱、從事工作的」是「working — employed」的用法，與本句語境不同。"
+        "work-mcq-19": "本句的「working knowledge」指「未必精通，但足以在實際情況中使用的知識」。",
+        "work-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-19"
     },
@@ -2613,11 +2404,9 @@ export default {
       "masked": "你需要具備基本而能實際操作____試算表知識。",
       "options": [
         "work-mcq-19",
-        "work-mcq-18",
-        "work-mcq-20",
+        "work-mcq-38",
         "work-mcq-17",
-        "work-mcq-21",
-        "work-mcq-16"
+        "work-mcq-20"
       ],
       "explanation": "本句的「working knowledge」指「未必精通，但足以在實際情況中使用的知識」。",
       "sentenceIndex": 56,
@@ -2626,12 +2415,10 @@ export default {
         "working knowledge"
       ],
       "optionReasons": {
-        "work-mcq-19": "本句指「未必精通，但足以在實際情況中使用的知識」。",
-        "work-mcq-18": "「為目前實際使用而暫時採用、之後仍可能修改的」是「working definition/hypothesis」的用法，與本句語境不同。",
-        "work-mcq-20": "「從事工作的人；員工／工人／工作者」是「worker」的用法，與本句語境不同。",
-        "work-mcq-17": "「已能正常運作、發揮所需功能的」是「working — functioning」的用法，與本句語境不同。",
-        "work-mcq-21": "「在現實條件下可實施並有合理成功可能的」是「workable — plan」的用法，與本句語境不同。",
-        "work-mcq-16": "「正在受僱、從事工作的」是「working — employed」的用法，與本句語境不同。"
+        "work-mcq-19": "本句的「working knowledge」指「未必精通，但足以在實際情況中使用的知識」。",
+        "work-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-19"
     },
@@ -2643,11 +2430,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-20",
-        "work-mcq-19",
-        "work-mcq-21",
-        "work-mcq-18",
-        "work-mcq-22",
-        "work-mcq-17"
+        "work-mcq-10",
+        "work-mcq-07",
+        "work-mcq-02"
       ],
       "explanation": "本句的「workers」指「從事工作的人；員工／工人／工作者」。",
       "sentenceIndex": 57,
@@ -2656,12 +2441,10 @@ export default {
         "workers"
       ],
       "optionReasons": {
-        "work-mcq-20": "本句指「從事工作的人；員工／工人／工作者」。",
-        "work-mcq-19": "「未必精通，但足以在實際情況中使用的知識」是「working knowledge」的用法，與本句語境不同。",
-        "work-mcq-21": "「在現實條件下可實施並有合理成功可能的」是「workable — plan」的用法，與本句語境不同。",
-        "work-mcq-18": "「為目前實際使用而暫時採用、之後仍可能修改的」是「working definition/hypothesis」的用法，與本句語境不同。",
-        "work-mcq-22": "「狀態允許容易加工、塑形或處理的」是「workable — material」的用法，與本句語境不同。",
-        "work-mcq-17": "「已能正常運作、發揮所需功能的」是「working — functioning」的用法，與本句語境不同。"
+        "work-mcq-20": "本句的「workers」指「從事工作的人；員工／工人／工作者」。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-20"
     },
@@ -2673,11 +2456,9 @@ export default {
       "masked": "辦公室____者經常長時間坐著。",
       "options": [
         "work-mcq-20",
-        "work-mcq-19",
-        "work-mcq-21",
-        "work-mcq-18",
-        "work-mcq-22",
-        "work-mcq-17"
+        "work-mcq-39",
+        "work-reviewed-070d24c0c0",
+        "work-mcq-09"
       ],
       "explanation": "本句的「workers」指「從事工作的人；員工／工人／工作者」。",
       "sentenceIndex": 58,
@@ -2686,12 +2467,10 @@ export default {
         "workers"
       ],
       "optionReasons": {
-        "work-mcq-20": "本句指「從事工作的人；員工／工人／工作者」。",
-        "work-mcq-19": "「未必精通，但足以在實際情況中使用的知識」是「working knowledge」的用法，與本句語境不同。",
-        "work-mcq-21": "「在現實條件下可實施並有合理成功可能的」是「workable — plan」的用法，與本句語境不同。",
-        "work-mcq-18": "「為目前實際使用而暫時採用、之後仍可能修改的」是「working definition/hypothesis」的用法，與本句語境不同。",
-        "work-mcq-22": "「狀態允許容易加工、塑形或處理的」是「workable — material」的用法，與本句語境不同。",
-        "work-mcq-17": "「已能正常運作、發揮所需功能的」是「working — functioning」的用法，與本句語境不同。"
+        "work-mcq-20": "本句的「workers」指「從事工作的人；員工／工人／工作者」。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "work-reviewed-070d24c0c0": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-20"
     },
@@ -2703,11 +2482,9 @@ export default {
       "masked": "她是一個____很勤奮的人。",
       "options": [
         "work-mcq-20",
-        "work-mcq-19",
-        "work-mcq-21",
-        "work-mcq-18",
-        "work-mcq-22",
-        "work-mcq-17"
+        "work-mcq-40",
+        "work-mcq-04",
+        "work-mcq-19"
       ],
       "explanation": "本句的「worker」指「從事工作的人；員工／工人／工作者」。",
       "sentenceIndex": 59,
@@ -2716,12 +2493,10 @@ export default {
         "worker"
       ],
       "optionReasons": {
-        "work-mcq-20": "本句指「從事工作的人；員工／工人／工作者」。",
-        "work-mcq-19": "「未必精通，但足以在實際情況中使用的知識」是「working knowledge」的用法，與本句語境不同。",
-        "work-mcq-21": "「在現實條件下可實施並有合理成功可能的」是「workable — plan」的用法，與本句語境不同。",
-        "work-mcq-18": "「為目前實際使用而暫時採用、之後仍可能修改的」是「working definition/hypothesis」的用法，與本句語境不同。",
-        "work-mcq-22": "「狀態允許容易加工、塑形或處理的」是「workable — material」的用法，與本句語境不同。",
-        "work-mcq-17": "「已能正常運作、發揮所需功能的」是「working — functioning」的用法，與本句語境不同。"
+        "work-mcq-20": "本句的「worker」指「從事工作的人；員工／工人／工作者」。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-20"
     },
@@ -2733,11 +2508,9 @@ export default {
       "masked": "他是一位____效率很高的人。",
       "options": [
         "work-mcq-20",
-        "work-mcq-19",
-        "work-mcq-21",
-        "work-mcq-18",
-        "work-mcq-22",
-        "work-mcq-17"
+        "work-mcq-10",
+        "work-mcq-27",
+        "work-mcq-11"
       ],
       "explanation": "本句的「worker」指「從事工作的人；員工／工人／工作者」。",
       "sentenceIndex": 60,
@@ -2746,12 +2519,10 @@ export default {
         "worker"
       ],
       "optionReasons": {
-        "work-mcq-20": "本句指「從事工作的人；員工／工人／工作者」。",
-        "work-mcq-19": "「未必精通，但足以在實際情況中使用的知識」是「working knowledge」的用法，與本句語境不同。",
-        "work-mcq-21": "「在現實條件下可實施並有合理成功可能的」是「workable — plan」的用法，與本句語境不同。",
-        "work-mcq-18": "「為目前實際使用而暫時採用、之後仍可能修改的」是「working definition/hypothesis」的用法，與本句語境不同。",
-        "work-mcq-22": "「狀態允許容易加工、塑形或處理的」是「workable — material」的用法，與本句語境不同。",
-        "work-mcq-17": "「已能正常運作、發揮所需功能的」是「working — functioning」的用法，與本句語境不同。"
+        "work-mcq-20": "本句的「worker」指「從事工作的人；員工／工人／工作者」。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-20"
     },
@@ -2763,11 +2534,9 @@ export default {
       "masked": "我們需要一個實際____解決方案。",
       "options": [
         "work-mcq-21",
-        "work-mcq-20",
-        "work-mcq-22",
-        "work-mcq-19",
-        "work-mcq-23",
-        "work-mcq-18"
+        "work-mcq-01",
+        "work-mcq-10",
+        "work-mcq-40"
       ],
       "explanation": "本句的「workable solution」指「在現實條件下可實施並有合理成功可能的」。",
       "sentenceIndex": 61,
@@ -2776,12 +2545,10 @@ export default {
         "workable solution"
       ],
       "optionReasons": {
-        "work-mcq-21": "本句指「在現實條件下可實施並有合理成功可能的」。",
-        "work-mcq-20": "「從事工作的人；員工／工人／工作者」是「worker」的用法，與本句語境不同。",
-        "work-mcq-22": "「狀態允許容易加工、塑形或處理的」是「workable — material」的用法，與本句語境不同。",
-        "work-mcq-19": "「未必精通，但足以在實際情況中使用的知識」是「working knowledge」的用法，與本句語境不同。",
-        "work-mcq-23": "「製造、施工或手工製作中展現的技巧和做工品質」是「workmanship」的用法，與本句語境不同。",
-        "work-mcq-18": "「為目前實際使用而暫時採用、之後仍可能修改的」是「working definition/hypothesis」的用法，與本句語境不同。"
+        "work-mcq-21": "本句的「workable solution」指「在現實條件下可實施並有合理成功可能的」。",
+        "work-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-21"
     },
@@ -2793,11 +2560,9 @@ export default {
       "masked": "這個想法聽起來不錯，但____嗎？",
       "options": [
         "work-mcq-21",
-        "work-mcq-20",
-        "work-mcq-22",
-        "work-mcq-19",
-        "work-mcq-23",
-        "work-mcq-18"
+        "work-mcq-01",
+        "work-mcq-12",
+        "work-mcq-10"
       ],
       "explanation": "本句的「workable」指「在現實條件下可實施並有合理成功可能的」。",
       "sentenceIndex": 62,
@@ -2806,12 +2571,10 @@ export default {
         "workable"
       ],
       "optionReasons": {
-        "work-mcq-21": "本句指「在現實條件下可實施並有合理成功可能的」。",
-        "work-mcq-20": "「從事工作的人；員工／工人／工作者」是「worker」的用法，與本句語境不同。",
-        "work-mcq-22": "「狀態允許容易加工、塑形或處理的」是「workable — material」的用法，與本句語境不同。",
-        "work-mcq-19": "「未必精通，但足以在實際情況中使用的知識」是「working knowledge」的用法，與本句語境不同。",
-        "work-mcq-23": "「製造、施工或手工製作中展現的技巧和做工品質」是「workmanship」的用法，與本句語境不同。",
-        "work-mcq-18": "「為目前實際使用而暫時採用、之後仍可能修改的」是「working definition/hypothesis」的用法，與本句語境不同。"
+        "work-mcq-21": "本句的「workable」指「在現實條件下可實施並有合理成功可能的」。",
+        "work-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-21"
     },
@@ -2823,11 +2586,9 @@ export default {
       "masked": "這種材料加熱後會變得更容____塑形。",
       "options": [
         "work-mcq-22",
-        "work-mcq-21",
-        "work-mcq-23",
-        "work-mcq-20",
-        "work-mcq-24",
-        "work-mcq-19"
+        "work-mcq-04",
+        "work-mcq-09",
+        "work-mcq-37"
       ],
       "explanation": "本句的「workable」指「狀態允許容易加工、塑形或處理的」。",
       "sentenceIndex": 63,
@@ -2836,12 +2597,10 @@ export default {
         "workable"
       ],
       "optionReasons": {
-        "work-mcq-22": "本句指「狀態允許容易加工、塑形或處理的」。",
-        "work-mcq-21": "「在現實條件下可實施並有合理成功可能的」是「workable — plan」的用法，與本句語境不同。",
-        "work-mcq-23": "「製造、施工或手工製作中展現的技巧和做工品質」是「workmanship」的用法，與本句語境不同。",
-        "work-mcq-20": "「從事工作的人；員工／工人／工作者」是「worker」的用法，與本句語境不同。",
-        "work-mcq-24": "「人們進行受僱工作的地方／職場環境」是「workplace」的用法，與本句語境不同。",
-        "work-mcq-19": "「未必精通，但足以在實際情況中使用的知識」是「working knowledge」的用法，與本句語境不同。"
+        "work-mcq-22": "本句的「workable」指「狀態允許容易加工、塑形或處理的」。",
+        "work-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-22"
     },
@@ -2853,11 +2612,9 @@ export default {
       "masked": "黏土必須保持柔軟而且可以____塑造。",
       "options": [
         "work-mcq-22",
-        "work-mcq-21",
-        "work-mcq-23",
-        "work-mcq-20",
-        "work-mcq-24",
-        "work-mcq-19"
+        "work-mcq-10",
+        "work-mcq-38",
+        "work-mcq-17"
       ],
       "explanation": "本句的「workable」指「狀態允許容易加工、塑形或處理的」。",
       "sentenceIndex": 64,
@@ -2866,12 +2623,10 @@ export default {
         "workable"
       ],
       "optionReasons": {
-        "work-mcq-22": "本句指「狀態允許容易加工、塑形或處理的」。",
-        "work-mcq-21": "「在現實條件下可實施並有合理成功可能的」是「workable — plan」的用法，與本句語境不同。",
-        "work-mcq-23": "「製造、施工或手工製作中展現的技巧和做工品質」是「workmanship」的用法，與本句語境不同。",
-        "work-mcq-20": "「從事工作的人；員工／工人／工作者」是「worker」的用法，與本句語境不同。",
-        "work-mcq-24": "「人們進行受僱工作的地方／職場環境」是「workplace」的用法，與本句語境不同。",
-        "work-mcq-19": "「未必精通，但足以在實際情況中使用的知識」是「working knowledge」的用法，與本句語境不同。"
+        "work-mcq-22": "本句的「workable」指「狀態允許容易加工、塑形或處理的」。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-22"
     },
@@ -2883,11 +2638,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-23",
-        "work-mcq-22",
-        "work-mcq-24",
-        "work-mcq-21",
-        "work-mcq-25",
-        "work-mcq-20"
+        "work-mcq-13",
+        "work-mcq-04",
+        "work-mcq-07"
       ],
       "explanation": "本句的「workmanship」指「製造、施工或手工製作中展現的技巧和做工品質」。",
       "sentenceIndex": 65,
@@ -2896,12 +2649,10 @@ export default {
         "workmanship"
       ],
       "optionReasons": {
-        "work-mcq-23": "本句指「製造、施工或手工製作中展現的技巧和做工品質」。",
-        "work-mcq-22": "「狀態允許容易加工、塑形或處理的」是「workable — material」的用法，與本句語境不同。",
-        "work-mcq-24": "「人們進行受僱工作的地方／職場環境」是「workplace」的用法，與本句語境不同。",
-        "work-mcq-21": "「在現實條件下可實施並有合理成功可能的」是「workable — plan」的用法，與本句語境不同。",
-        "work-mcq-25": "「某企業、行業或地區所有工作人口／勞動力」是「workforce」的用法，與本句語境不同。",
-        "work-mcq-20": "「從事工作的人；員工／工人／工作者」是「worker」的用法，與本句語境不同。"
+        "work-mcq-23": "本句的「workmanship」指「製造、施工或手工製作中展現的技巧和做工品質」。",
+        "work-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-23"
     },
@@ -2913,11 +2664,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-23",
-        "work-mcq-22",
-        "work-mcq-24",
-        "work-mcq-21",
-        "work-mcq-25",
-        "work-mcq-20"
+        "work-mcq-13",
+        "work-mcq-37",
+        "work-mcq-07"
       ],
       "explanation": "本句的「workmanship」指「製造、施工或手工製作中展現的技巧和做工品質」。",
       "sentenceIndex": 66,
@@ -2926,12 +2675,10 @@ export default {
         "workmanship"
       ],
       "optionReasons": {
-        "work-mcq-23": "本句指「製造、施工或手工製作中展現的技巧和做工品質」。",
-        "work-mcq-22": "「狀態允許容易加工、塑形或處理的」是「workable — material」的用法，與本句語境不同。",
-        "work-mcq-24": "「人們進行受僱工作的地方／職場環境」是「workplace」的用法，與本句語境不同。",
-        "work-mcq-21": "「在現實條件下可實施並有合理成功可能的」是「workable — plan」的用法，與本句語境不同。",
-        "work-mcq-25": "「某企業、行業或地區所有工作人口／勞動力」是「workforce」的用法，與本句語境不同。",
-        "work-mcq-20": "「從事工作的人；員工／工人／工作者」是「worker」的用法，與本句語境不同。"
+        "work-mcq-23": "本句的「workmanship」指「製造、施工或手工製作中展現的技巧和做工品質」。",
+        "work-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-23"
     },
@@ -2943,11 +2690,9 @@ export default {
       "masked": "噪音是常見的____問題。",
       "options": [
         "work-mcq-24",
-        "work-mcq-23",
-        "work-mcq-25",
-        "work-mcq-22",
-        "work-mcq-26",
-        "work-mcq-21"
+        "work-mcq-10",
+        "work-mcq-37",
+        "work-mcq-39"
       ],
       "explanation": "本句的「workplace」指「人們進行受僱工作的地方／職場環境」。",
       "sentenceIndex": 67,
@@ -2956,12 +2701,10 @@ export default {
         "workplace"
       ],
       "optionReasons": {
-        "work-mcq-24": "本句指「人們進行受僱工作的地方／職場環境」。",
-        "work-mcq-23": "「製造、施工或手工製作中展現的技巧和做工品質」是「workmanship」的用法，與本句語境不同。",
-        "work-mcq-25": "「某企業、行業或地區所有工作人口／勞動力」是「workforce」的用法，與本句語境不同。",
-        "work-mcq-22": "「狀態允許容易加工、塑形或處理的」是「workable — material」的用法，與本句語境不同。",
-        "work-mcq-26": "「進行製作、修理或手工工作的場所」是「workshop — place」的用法，與本句語境不同。",
-        "work-mcq-21": "「在現實條件下可實施並有合理成功可能的」是「workable — plan」的用法，與本句語境不同。"
+        "work-mcq-24": "本句的「workplace」指「人們進行受僱工作的地方／職場環境」。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-24"
     },
@@ -2973,11 +2716,9 @@ export default {
       "masked": "公司推動____安全。",
       "options": [
         "work-mcq-24",
-        "work-mcq-23",
-        "work-mcq-25",
-        "work-mcq-22",
-        "work-mcq-26",
-        "work-mcq-21"
+        "work-mcq-39",
+        "work-mcq-11",
+        "work-mcq-18"
       ],
       "explanation": "本句的「workplace」指「人們進行受僱工作的地方／職場環境」。",
       "sentenceIndex": 68,
@@ -2986,12 +2727,10 @@ export default {
         "workplace"
       ],
       "optionReasons": {
-        "work-mcq-24": "本句指「人們進行受僱工作的地方／職場環境」。",
-        "work-mcq-23": "「製造、施工或手工製作中展現的技巧和做工品質」是「workmanship」的用法，與本句語境不同。",
-        "work-mcq-25": "「某企業、行業或地區所有工作人口／勞動力」是「workforce」的用法，與本句語境不同。",
-        "work-mcq-22": "「狀態允許容易加工、塑形或處理的」是「workable — material」的用法，與本句語境不同。",
-        "work-mcq-26": "「進行製作、修理或手工工作的場所」是「workshop — place」的用法，與本句語境不同。",
-        "work-mcq-21": "「在現實條件下可實施並有合理成功可能的」是「workable — plan」的用法，與本句語境不同。"
+        "work-mcq-24": "本句的「workplace」指「人們進行受僱工作的地方／職場環境」。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-24"
     },
@@ -3003,11 +2742,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-25",
-        "work-mcq-24",
-        "work-mcq-26",
-        "work-mcq-23",
-        "work-mcq-27",
-        "work-mcq-22"
+        "work-mcq-17",
+        "work-mcq-11",
+        "work-mcq-40"
       ],
       "explanation": "本句的「workforce」指「某企業、行業或地區所有工作人口／勞動力」。",
       "sentenceIndex": 69,
@@ -3016,12 +2753,10 @@ export default {
         "workforce"
       ],
       "optionReasons": {
-        "work-mcq-25": "本句指「某企業、行業或地區所有工作人口／勞動力」。",
-        "work-mcq-24": "「人們進行受僱工作的地方／職場環境」是「workplace」的用法，與本句語境不同。",
-        "work-mcq-26": "「進行製作、修理或手工工作的場所」是「workshop — place」的用法，與本句語境不同。",
-        "work-mcq-23": "「製造、施工或手工製作中展現的技巧和做工品質」是「workmanship」的用法，與本句語境不同。",
-        "work-mcq-27": "「以討論、實作和練習為主的小型互動培訓活動」是「workshop — event」的用法，與本句語境不同。",
-        "work-mcq-22": "「狀態允許容易加工、塑形或處理的」是「workable — material」的用法，與本句語境不同。"
+        "work-mcq-25": "本句的「workforce」指「某企業、行業或地區所有工作人口／勞動力」。",
+        "work-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-25"
     },
@@ -3033,11 +2768,9 @@ export default {
       "masked": "科技正在改變____市場中的工作人口結構。",
       "options": [
         "work-mcq-25",
-        "work-mcq-24",
-        "work-mcq-26",
-        "work-mcq-23",
-        "work-mcq-27",
-        "work-mcq-22"
+        "work-mcq-11",
+        "work-mcq-17",
+        "work-mcq-18"
       ],
       "explanation": "本句的「workforce」指「某企業、行業或地區所有工作人口／勞動力」。",
       "sentenceIndex": 70,
@@ -3046,12 +2779,10 @@ export default {
         "workforce"
       ],
       "optionReasons": {
-        "work-mcq-25": "本句指「某企業、行業或地區所有工作人口／勞動力」。",
-        "work-mcq-24": "「人們進行受僱工作的地方／職場環境」是「workplace」的用法，與本句語境不同。",
-        "work-mcq-26": "「進行製作、修理或手工工作的場所」是「workshop — place」的用法，與本句語境不同。",
-        "work-mcq-23": "「製造、施工或手工製作中展現的技巧和做工品質」是「workmanship」的用法，與本句語境不同。",
-        "work-mcq-27": "「以討論、實作和練習為主的小型互動培訓活動」是「workshop — event」的用法，與本句語境不同。",
-        "work-mcq-22": "「狀態允許容易加工、塑形或處理的」是「workable — material」的用法，與本句語境不同。"
+        "work-mcq-25": "本句的「workforce」指「某企業、行業或地區所有工作人口／勞動力」。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-25"
     },
@@ -3063,11 +2794,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-26",
-        "work-mcq-25",
-        "work-mcq-27",
-        "work-mcq-24",
-        "work-mcq-28",
-        "work-mcq-23"
+        "work-mcq-17",
+        "work-mcq-13",
+        "work-mcq-39"
       ],
       "explanation": "本句的「workshop」指「進行製作、修理或手工工作的場所」。",
       "sentenceIndex": 71,
@@ -3076,12 +2805,10 @@ export default {
         "workshop"
       ],
       "optionReasons": {
-        "work-mcq-26": "本句指「進行製作、修理或手工工作的場所」。",
-        "work-mcq-25": "「某企業、行業或地區所有工作人口／勞動力」是「workforce」的用法，與本句語境不同。",
-        "work-mcq-27": "「以討論、實作和練習為主的小型互動培訓活動」是「workshop — event」的用法，與本句語境不同。",
-        "work-mcq-24": "「人們進行受僱工作的地方／職場環境」是「workplace」的用法，與本句語境不同。",
-        "work-mcq-28": "「工作時間、強度或負擔超過合理／健康程度」是「overwork」的用法，與本句語境不同。",
-        "work-mcq-23": "「製造、施工或手工製作中展現的技巧和做工品質」是「workmanship」的用法，與本句語境不同。"
+        "work-mcq-26": "本句的「workshop」指「進行製作、修理或手工工作的場所」。",
+        "work-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-26"
     },
@@ -3093,11 +2820,9 @@ export default {
       "masked": "他在自己的____修理單車。",
       "options": [
         "work-mcq-26",
-        "work-mcq-25",
-        "work-mcq-27",
-        "work-mcq-24",
-        "work-mcq-28",
-        "work-mcq-23"
+        "work-mcq-39",
+        "work-mcq-38",
+        "work-mcq-11"
       ],
       "explanation": "本句的「workshop」指「進行製作、修理或手工工作的場所」。",
       "sentenceIndex": 72,
@@ -3106,12 +2831,10 @@ export default {
         "workshop"
       ],
       "optionReasons": {
-        "work-mcq-26": "本句指「進行製作、修理或手工工作的場所」。",
-        "work-mcq-25": "「某企業、行業或地區所有工作人口／勞動力」是「workforce」的用法，與本句語境不同。",
-        "work-mcq-27": "「以討論、實作和練習為主的小型互動培訓活動」是「workshop — event」的用法，與本句語境不同。",
-        "work-mcq-24": "「人們進行受僱工作的地方／職場環境」是「workplace」的用法，與本句語境不同。",
-        "work-mcq-28": "「工作時間、強度或負擔超過合理／健康程度」是「overwork」的用法，與本句語境不同。",
-        "work-mcq-23": "「製造、施工或手工製作中展現的技巧和做工品質」是「workmanship」的用法，與本句語境不同。"
+        "work-mcq-26": "本句的「workshop」指「進行製作、修理或手工工作的場所」。",
+        "work-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-26"
     },
@@ -3123,11 +2846,9 @@ export default {
       "masked": "我參加了一個寫作____。",
       "options": [
         "work-mcq-27",
-        "work-mcq-26",
-        "work-mcq-28",
-        "work-mcq-25",
-        "work-mcq-29",
-        "work-mcq-24"
+        "work-mcq-40",
+        "work-mcq-20",
+        "work-mcq-10"
       ],
       "explanation": "本句的「workshop」指「以討論、實作和練習為主的小型互動培訓活動」。",
       "sentenceIndex": 73,
@@ -3136,12 +2857,10 @@ export default {
         "workshop"
       ],
       "optionReasons": {
-        "work-mcq-27": "本句指「以討論、實作和練習為主的小型互動培訓活動」。",
-        "work-mcq-26": "「進行製作、修理或手工工作的場所」是「workshop — place」的用法，與本句語境不同。",
-        "work-mcq-28": "「工作時間、強度或負擔超過合理／健康程度」是「overwork」的用法，與本句語境不同。",
-        "work-mcq-25": "「某企業、行業或地區所有工作人口／勞動力」是「workforce」的用法，與本句語境不同。",
-        "work-mcq-29": "「因工作量或工時太多而承受過度負擔的」是「overworked」的用法，與本句語境不同。",
-        "work-mcq-24": "「人們進行受僱工作的地方／職場環境」是「workplace」的用法，與本句語境不同。"
+        "work-mcq-27": "本句的「workshop」指「以討論、實作和練習為主的小型互動培訓活動」。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-27"
     },
@@ -3153,11 +2872,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-27",
-        "work-mcq-26",
-        "work-mcq-28",
-        "work-mcq-25",
-        "work-mcq-29",
-        "work-mcq-24"
+        "work-mcq-31",
+        "work-mcq-40",
+        "work-mcq-38"
       ],
       "explanation": "本句的「workshop」指「以討論、實作和練習為主的小型互動培訓活動」。",
       "sentenceIndex": 74,
@@ -3166,12 +2883,10 @@ export default {
         "workshop"
       ],
       "optionReasons": {
-        "work-mcq-27": "本句指「以討論、實作和練習為主的小型互動培訓活動」。",
-        "work-mcq-26": "「進行製作、修理或手工工作的場所」是「workshop — place」的用法，與本句語境不同。",
-        "work-mcq-28": "「工作時間、強度或負擔超過合理／健康程度」是「overwork」的用法，與本句語境不同。",
-        "work-mcq-25": "「某企業、行業或地區所有工作人口／勞動力」是「workforce」的用法，與本句語境不同。",
-        "work-mcq-29": "「因工作量或工時太多而承受過度負擔的」是「overworked」的用法，與本句語境不同。",
-        "work-mcq-24": "「人們進行受僱工作的地方／職場環境」是「workplace」的用法，與本句語境不同。"
+        "work-mcq-27": "本句的「workshop」指「以討論、實作和練習為主的小型互動培訓活動」。",
+        "work-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-27"
     },
@@ -3183,11 +2898,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-28",
-        "work-mcq-27",
-        "work-mcq-29",
-        "work-mcq-26",
-        "work-mcq-30",
-        "work-mcq-25"
+        "work-mcq-17",
+        "work-mcq-13",
+        "work-reviewed-070d24c0c0"
       ],
       "explanation": "本句的「overwork」指「工作時間、強度或負擔超過合理／健康程度」。",
       "sentenceIndex": 75,
@@ -3196,12 +2909,10 @@ export default {
         "overwork"
       ],
       "optionReasons": {
-        "work-mcq-28": "本句指「工作時間、強度或負擔超過合理／健康程度」。",
-        "work-mcq-27": "「以討論、實作和練習為主的小型互動培訓活動」是「workshop — event」的用法，與本句語境不同。",
-        "work-mcq-29": "「因工作量或工時太多而承受過度負擔的」是「overworked」的用法，與本句語境不同。",
-        "work-mcq-26": "「進行製作、修理或手工工作的場所」是「workshop — place」的用法，與本句語境不同。",
-        "work-mcq-30": "「進行大型製造、加工或公共工程運作的工業設施」是「works — industrial」的用法，與本句語境不同。",
-        "work-mcq-25": "「某企業、行業或地區所有工作人口／勞動力」是「workforce」的用法，與本句語境不同。"
+        "work-mcq-28": "本句的「overwork」指「工作時間、強度或負擔超過合理／健康程度」。",
+        "work-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "work-reviewed-070d24c0c0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-28"
     },
@@ -3213,11 +2924,9 @@ export default {
       "masked": "公司被指控讓員工____。",
       "options": [
         "work-mcq-28",
-        "work-mcq-27",
-        "work-mcq-29",
-        "work-mcq-26",
-        "work-mcq-30",
-        "work-mcq-25"
+        "work-mcq-10",
+        "work-mcq-07",
+        "work-reviewed-070d24c0c0"
       ],
       "explanation": "本句的「overworking」指「工作時間、強度或負擔超過合理／健康程度」。",
       "sentenceIndex": 76,
@@ -3226,12 +2935,10 @@ export default {
         "overworking"
       ],
       "optionReasons": {
-        "work-mcq-28": "本句指「工作時間、強度或負擔超過合理／健康程度」。",
-        "work-mcq-27": "「以討論、實作和練習為主的小型互動培訓活動」是「workshop — event」的用法，與本句語境不同。",
-        "work-mcq-29": "「因工作量或工時太多而承受過度負擔的」是「overworked」的用法，與本句語境不同。",
-        "work-mcq-26": "「進行製作、修理或手工工作的場所」是「workshop — place」的用法，與本句語境不同。",
-        "work-mcq-30": "「進行大型製造、加工或公共工程運作的工業設施」是「works — industrial」的用法，與本句語境不同。",
-        "work-mcq-25": "「某企業、行業或地區所有工作人口／勞動力」是「workforce」的用法，與本句語境不同。"
+        "work-mcq-28": "本句的「overworking」指「工作時間、強度或負擔超過合理／健康程度」。",
+        "work-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "work-reviewed-070d24c0c0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-28"
     },
@@ -3243,11 +2950,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-29",
-        "work-mcq-28",
-        "work-mcq-30",
-        "work-mcq-27",
-        "work-mcq-31",
-        "work-mcq-26"
+        "work-mcq-09",
+        "work-mcq-40",
+        "work-mcq-37"
       ],
       "explanation": "本句的「overworked」指「因工作量或工時太多而承受過度負擔的」。",
       "sentenceIndex": 77,
@@ -3256,12 +2961,10 @@ export default {
         "overworked"
       ],
       "optionReasons": {
-        "work-mcq-29": "本句指「因工作量或工時太多而承受過度負擔的」。",
-        "work-mcq-28": "「工作時間、強度或負擔超過合理／健康程度」是「overwork」的用法，與本句語境不同。",
-        "work-mcq-30": "「進行大型製造、加工或公共工程運作的工業設施」是「works — industrial」的用法，與本句語境不同。",
-        "work-mcq-27": "「以討論、實作和練習為主的小型互動培訓活動」是「workshop — event」的用法，與本句語境不同。",
-        "work-mcq-31": "「由政府／公共機構建造或維護的公共基礎設施工程」是「public works」的用法，與本句語境不同。",
-        "work-mcq-26": "「進行製作、修理或手工工作的場所」是「workshop — place」的用法，與本句語境不同。"
+        "work-mcq-29": "本句的「overworked」指「因工作量或工時太多而承受過度負擔的」。",
+        "work-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-29"
     },
@@ -3273,11 +2976,9 @@ export default {
       "masked": "部門人手不足，員工亦____。",
       "options": [
         "work-mcq-29",
-        "work-mcq-28",
-        "work-mcq-30",
-        "work-mcq-27",
-        "work-mcq-31",
-        "work-mcq-26"
+        "work-mcq-04",
+        "work-mcq-11",
+        "work-mcq-19"
       ],
       "explanation": "本句的「overworked」指「因工作量或工時太多而承受過度負擔的」。",
       "sentenceIndex": 78,
@@ -3286,12 +2987,10 @@ export default {
         "overworked"
       ],
       "optionReasons": {
-        "work-mcq-29": "本句指「因工作量或工時太多而承受過度負擔的」。",
-        "work-mcq-28": "「工作時間、強度或負擔超過合理／健康程度」是「overwork」的用法，與本句語境不同。",
-        "work-mcq-30": "「進行大型製造、加工或公共工程運作的工業設施」是「works — industrial」的用法，與本句語境不同。",
-        "work-mcq-27": "「以討論、實作和練習為主的小型互動培訓活動」是「workshop — event」的用法，與本句語境不同。",
-        "work-mcq-31": "「由政府／公共機構建造或維護的公共基礎設施工程」是「public works」的用法，與本句語境不同。",
-        "work-mcq-26": "「進行製作、修理或手工工作的場所」是「workshop — place」的用法，與本句語境不同。"
+        "work-mcq-29": "本句的「overworked」指「因工作量或工時太多而承受過度負擔的」。",
+        "work-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-29"
     },
@@ -3303,11 +3002,9 @@ export default {
       "masked": "他在一家____工作。",
       "options": [
         "work-mcq-30",
-        "work-mcq-29",
-        "work-mcq-31",
-        "work-mcq-28",
-        "work-mcq-32",
-        "work-mcq-27"
+        "work-mcq-19",
+        "work-mcq-37",
+        "work-mcq-13"
       ],
       "explanation": "本句的「works」指「進行大型製造、加工或公共工程運作的工業設施」。",
       "sentenceIndex": 79,
@@ -3317,12 +3014,10 @@ export default {
       ],
       "targetOccurrence": "last",
       "optionReasons": {
-        "work-mcq-30": "本句指「進行大型製造、加工或公共工程運作的工業設施」。",
-        "work-mcq-29": "「因工作量或工時太多而承受過度負擔的」是「overworked」的用法，與本句語境不同。",
-        "work-mcq-31": "「由政府／公共機構建造或維護的公共基礎設施工程」是「public works」的用法，與本句語境不同。",
-        "work-mcq-28": "「工作時間、強度或負擔超過合理／健康程度」是「overwork」的用法，與本句語境不同。",
-        "work-mcq-32": "「說話者日常受僱工作以及當天的工作時段」是「For your original sentence “I saw it about a year ago when I was watching television late at night after work.” The exact meaning is: work =」的用法，與本句語境不同。",
-        "work-mcq-27": "「以討論、實作和練習為主的小型互動培訓活動」是「workshop — event」的用法，與本句語境不同。"
+        "work-mcq-30": "本句的「works」指「進行大型製造、加工或公共工程運作的工業設施」。",
+        "work-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-30"
     },
@@ -3334,11 +3029,9 @@ export default {
       "masked": "____。",
       "options": [
         "work-mcq-30",
-        "work-mcq-29",
-        "work-mcq-31",
-        "work-mcq-28",
-        "work-mcq-32",
-        "work-mcq-27"
+        "work-mcq-19",
+        "work-mcq-38",
+        "work-mcq-13"
       ],
       "explanation": "本句的「works」指「進行大型製造、加工或公共工程運作的工業設施」。",
       "sentenceIndex": 80,
@@ -3347,12 +3040,10 @@ export default {
         "works"
       ],
       "optionReasons": {
-        "work-mcq-30": "本句指「進行大型製造、加工或公共工程運作的工業設施」。",
-        "work-mcq-29": "「因工作量或工時太多而承受過度負擔的」是「overworked」的用法，與本句語境不同。",
-        "work-mcq-31": "「由政府／公共機構建造或維護的公共基礎設施工程」是「public works」的用法，與本句語境不同。",
-        "work-mcq-28": "「工作時間、強度或負擔超過合理／健康程度」是「overwork」的用法，與本句語境不同。",
-        "work-mcq-32": "「說話者日常受僱工作以及當天的工作時段」是「For your original sentence “I saw it about a year ago when I was watching television late at night after work.” The exact meaning is: work =」的用法，與本句語境不同。",
-        "work-mcq-27": "「以討論、實作和練習為主的小型互動培訓活動」是「workshop — event」的用法，與本句語境不同。"
+        "work-mcq-30": "本句的「works」指「進行大型製造、加工或公共工程運作的工業設施」。",
+        "work-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-30"
     },
@@ -3364,11 +3055,9 @@ export default {
       "masked": "政府大量投資____。",
       "options": [
         "work-mcq-31",
-        "work-mcq-30",
-        "work-mcq-32",
-        "work-mcq-29",
-        "work-mcq-33",
-        "work-mcq-28"
+        "work-mcq-17",
+        "work-mcq-18",
+        "work-mcq-13"
       ],
       "explanation": "本句的「public works」指「由政府／公共機構建造或維護的公共基礎設施工程」。",
       "sentenceIndex": 81,
@@ -3377,12 +3066,10 @@ export default {
         "public works"
       ],
       "optionReasons": {
-        "work-mcq-31": "本句指「由政府／公共機構建造或維護的公共基礎設施工程」。",
-        "work-mcq-30": "「進行大型製造、加工或公共工程運作的工業設施」是「works — industrial」的用法，與本句語境不同。",
-        "work-mcq-32": "「說話者日常受僱工作以及當天的工作時段」是「For your original sentence “I saw it about a year ago when I was watching television late at night after work.” The exact meaning is: work =」的用法，與本句語境不同。",
-        "work-mcq-29": "「因工作量或工時太多而承受過度負擔的」是「overworked」的用法，與本句語境不同。",
-        "work-mcq-33": "「下班後／完成當天工作之後」」是「Therefore: after work = 「」的用法，與本句語境不同。",
-        "work-mcq-28": "「工作時間、強度或負擔超過合理／健康程度」是「overwork」的用法，與本句語境不同。"
+        "work-mcq-31": "本句的「public works」指「由政府／公共機構建造或維護的公共基礎設施工程」。",
+        "work-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-31"
     },
@@ -3394,11 +3081,9 @@ export default {
       "masked": "這個項目是大型____計劃的一部分。",
       "options": [
         "work-mcq-31",
-        "work-mcq-30",
-        "work-mcq-32",
-        "work-mcq-29",
-        "work-mcq-33",
-        "work-mcq-28"
+        "work-mcq-37",
+        "work-mcq-08",
+        "work-mcq-13"
       ],
       "explanation": "本句的「public works」指「由政府／公共機構建造或維護的公共基礎設施工程」。",
       "sentenceIndex": 82,
@@ -3407,12 +3092,10 @@ export default {
         "public works"
       ],
       "optionReasons": {
-        "work-mcq-31": "本句指「由政府／公共機構建造或維護的公共基礎設施工程」。",
-        "work-mcq-30": "「進行大型製造、加工或公共工程運作的工業設施」是「works — industrial」的用法，與本句語境不同。",
-        "work-mcq-32": "「說話者日常受僱工作以及當天的工作時段」是「For your original sentence “I saw it about a year ago when I was watching television late at night after work.” The exact meaning is: work =」的用法，與本句語境不同。",
-        "work-mcq-29": "「因工作量或工時太多而承受過度負擔的」是「overworked」的用法，與本句語境不同。",
-        "work-mcq-33": "「下班後／完成當天工作之後」」是「Therefore: after work = 「」的用法，與本句語境不同。",
-        "work-mcq-28": "「工作時間、強度或負擔超過合理／健康程度」是「overwork」的用法，與本句語境不同。"
+        "work-mcq-31": "本句的「public works」指「由政府／公共機構建造或維護的公共基礎設施工程」。",
+        "work-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "work-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "work-mcq-31"
     }
@@ -3422,5 +3105,7 @@ export default {
     "sha256": "92a16fd30b5e8b66295c6a5cff85f9a92dc5072b60cb7b2aa3a68eb48deb4f1f",
     "path": "manuals/work.pdf"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -701,11 +701,9 @@ export default {
       "masked": "My supervisor asked me to re____ the team and present a project I had spent months working on.",
       "options": [
         "present-mcq-01",
-        "present-mcq-02",
-        "present-mcq-03",
-        "present-mcq-04",
-        "present-mcq-05",
-        "present-mcq-06"
+        "present-mcq-21",
+        "present-mcq-16",
+        "present-mcq-10"
       ],
       "explanation": "本句的「present」指「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」。",
       "sentenceIndex": 0,
@@ -714,12 +712,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-01": "本句指「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」。",
-        "present-mcq-02": "「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」是「present information/data/results」的用法，與本句語境不同。",
-        "present-mcq-03": "「正式提出證據、事實或論點，讓別人考慮、審視或判斷」是「present evidence/arguments」的用法，與本句語境不同。",
-        "present-mcq-04": "「把資料、方案、結果等正式展示或提交給某人／某群體」是「present something to someone」的用法，與本句語境不同。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。"
+        "present-mcq-01": "本句的「present」指「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」。",
+        "present-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-01"
     },
@@ -731,11 +727,9 @@ export default {
       "masked": "She ____ the project to senior management.",
       "options": [
         "present-mcq-01",
-        "present-mcq-02",
-        "present-mcq-03",
-        "present-mcq-04",
-        "present-mcq-05",
-        "present-mcq-06"
+        "present-mcq-15",
+        "present-mcq-12",
+        "present-mcq-16"
       ],
       "explanation": "本句的「presented」指「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」。",
       "sentenceIndex": 1,
@@ -744,12 +738,10 @@ export default {
         "presented"
       ],
       "optionReasons": {
-        "present-mcq-01": "本句指「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」。",
-        "present-mcq-02": "「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」是「present information/data/results」的用法，與本句語境不同。",
-        "present-mcq-03": "「正式提出證據、事實或論點，讓別人考慮、審視或判斷」是「present evidence/arguments」的用法，與本句語境不同。",
-        "present-mcq-04": "「把資料、方案、結果等正式展示或提交給某人／某群體」是「present something to someone」的用法，與本句語境不同。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。"
+        "present-mcq-01": "本句的「presented」指「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-01"
     },
@@ -761,11 +753,9 @@ export default {
       "masked": "Each team will ____ its ideas at the end of the workshop.",
       "options": [
         "present-mcq-01",
-        "present-mcq-02",
-        "present-mcq-03",
-        "present-mcq-04",
-        "present-mcq-05",
-        "present-mcq-06"
+        "present-mcq-12",
+        "present-mcq-17",
+        "present-mcq-10"
       ],
       "explanation": "本句的「present」指「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」。",
       "sentenceIndex": 2,
@@ -774,12 +764,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-01": "本句指「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」。",
-        "present-mcq-02": "「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」是「present information/data/results」的用法，與本句語境不同。",
-        "present-mcq-03": "「正式提出證據、事實或論點，讓別人考慮、審視或判斷」是「present evidence/arguments」的用法，與本句語境不同。",
-        "present-mcq-04": "「把資料、方案、結果等正式展示或提交給某人／某群體」是「present something to someone」的用法，與本句語境不同。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。"
+        "present-mcq-01": "本句的「present」指「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」。",
+        "present-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-01"
     },
@@ -791,11 +779,9 @@ export default {
       "masked": "The report ____ the results in a clear table.",
       "options": [
         "present-mcq-02",
-        "present-mcq-01",
-        "present-mcq-03",
-        "present-mcq-04",
-        "present-mcq-05",
-        "present-mcq-06"
+        "present-mcq-25",
+        "present-mcq-22",
+        "present-mcq-13"
       ],
       "explanation": "本句的「presents」指「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」。",
       "sentenceIndex": 3,
@@ -804,12 +790,10 @@ export default {
         "presents"
       ],
       "optionReasons": {
-        "present-mcq-02": "本句指「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」。",
-        "present-mcq-01": "「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」是「present a project/report/idea」的用法，與本句語境不同。",
-        "present-mcq-03": "「正式提出證據、事實或論點，讓別人考慮、審視或判斷」是「present evidence/arguments」的用法，與本句語境不同。",
-        "present-mcq-04": "「把資料、方案、結果等正式展示或提交給某人／某群體」是「present something to someone」的用法，與本句語境不同。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。"
+        "present-mcq-02": "本句的「presents」指「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」。",
+        "present-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-02"
     },
@@ -821,11 +805,9 @@ export default {
       "masked": "The chart ____ the data visually.",
       "options": [
         "present-mcq-02",
-        "present-mcq-01",
-        "present-mcq-03",
-        "present-mcq-04",
-        "present-mcq-05",
-        "present-mcq-06"
+        "present-mcq-12",
+        "present-mcq-17",
+        "present-mcq-16"
       ],
       "explanation": "本句的「presents」指「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」。",
       "sentenceIndex": 4,
@@ -834,12 +816,10 @@ export default {
         "presents"
       ],
       "optionReasons": {
-        "present-mcq-02": "本句指「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」。",
-        "present-mcq-01": "「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」是「present a project/report/idea」的用法，與本句語境不同。",
-        "present-mcq-03": "「正式提出證據、事實或論點，讓別人考慮、審視或判斷」是「present evidence/arguments」的用法，與本句語境不同。",
-        "present-mcq-04": "「把資料、方案、結果等正式展示或提交給某人／某群體」是「present something to someone」的用法，與本句語境不同。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。"
+        "present-mcq-02": "本句的「presents」指「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」。",
+        "present-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-02"
     },
@@ -851,11 +831,9 @@ export default {
       "masked": "The researcher ____ evidence supporting the theory.",
       "options": [
         "present-mcq-03",
-        "present-mcq-02",
-        "present-mcq-04",
-        "present-mcq-01",
-        "present-mcq-05",
-        "present-mcq-06"
+        "present-mcq-30",
+        "present-mcq-10",
+        "present-mcq-31"
       ],
       "explanation": "本句的「presented」指「正式提出證據、事實或論點，讓別人考慮、審視或判斷」。",
       "sentenceIndex": 5,
@@ -864,12 +842,10 @@ export default {
         "presented"
       ],
       "optionReasons": {
-        "present-mcq-03": "本句指「正式提出證據、事實或論點，讓別人考慮、審視或判斷」。",
-        "present-mcq-02": "「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」是「present information/data/results」的用法，與本句語境不同。",
-        "present-mcq-04": "「把資料、方案、結果等正式展示或提交給某人／某群體」是「present something to someone」的用法，與本句語境不同。",
-        "present-mcq-01": "「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」是「present a project/report/idea」的用法，與本句語境不同。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。"
+        "present-mcq-03": "本句的「presented」指「正式提出證據、事實或論點，讓別人考慮、審視或判斷」。",
+        "present-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-03"
     },
@@ -881,11 +857,9 @@ export default {
       "masked": "Both sides were allowed to ____ their arguments.",
       "options": [
         "present-mcq-03",
-        "present-mcq-02",
-        "present-mcq-04",
-        "present-mcq-01",
-        "present-mcq-05",
-        "present-mcq-06"
+        "present-mcq-19",
+        "present-mcq-21",
+        "present-mcq-10"
       ],
       "explanation": "本句的「present」指「正式提出證據、事實或論點，讓別人考慮、審視或判斷」。",
       "sentenceIndex": 6,
@@ -894,12 +868,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-03": "本句指「正式提出證據、事實或論點，讓別人考慮、審視或判斷」。",
-        "present-mcq-02": "「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」是「present information/data/results」的用法，與本句語境不同。",
-        "present-mcq-04": "「把資料、方案、結果等正式展示或提交給某人／某群體」是「present something to someone」的用法，與本句語境不同。",
-        "present-mcq-01": "「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」是「present a project/report/idea」的用法，與本句語境不同。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。"
+        "present-mcq-03": "本句的「present」指「正式提出證據、事實或論點，讓別人考慮、審視或判斷」。",
+        "present-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-03"
     },
@@ -911,11 +883,9 @@ export default {
       "masked": "The team ____ its proposal to the board.",
       "options": [
         "present-mcq-04",
-        "present-mcq-03",
-        "present-mcq-05",
-        "present-mcq-02",
-        "present-mcq-06",
-        "present-mcq-01"
+        "present-mcq-31",
+        "present-mcq-30",
+        "present-mcq-21"
       ],
       "explanation": "本句的「presented」指「把資料、方案、結果等正式展示或提交給某人／某群體」。",
       "sentenceIndex": 7,
@@ -924,12 +894,10 @@ export default {
         "presented"
       ],
       "optionReasons": {
-        "present-mcq-04": "本句指「把資料、方案、結果等正式展示或提交給某人／某群體」。",
-        "present-mcq-03": "「正式提出證據、事實或論點，讓別人考慮、審視或判斷」是「present evidence/arguments」的用法，與本句語境不同。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。",
-        "present-mcq-02": "「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」是「present information/data/results」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。",
-        "present-mcq-01": "「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」是「present a project/report/idea」的用法，與本句語境不同。"
+        "present-mcq-04": "本句的「presented」指「把資料、方案、結果等正式展示或提交給某人／某群體」。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-04"
     },
@@ -941,11 +909,9 @@ export default {
       "masked": "She ____ the findings to her colleagues.",
       "options": [
         "present-mcq-04",
-        "present-mcq-03",
-        "present-mcq-05",
-        "present-mcq-02",
-        "present-mcq-06",
-        "present-mcq-01"
+        "present-mcq-11",
+        "present-mcq-17",
+        "present-mcq-10"
       ],
       "explanation": "本句的「presented」指「把資料、方案、結果等正式展示或提交給某人／某群體」。",
       "sentenceIndex": 8,
@@ -954,12 +920,10 @@ export default {
         "presented"
       ],
       "optionReasons": {
-        "present-mcq-04": "本句指「把資料、方案、結果等正式展示或提交給某人／某群體」。",
-        "present-mcq-03": "「正式提出證據、事實或論點，讓別人考慮、審視或判斷」是「present evidence/arguments」的用法，與本句語境不同。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。",
-        "present-mcq-02": "「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」是「present information/data/results」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。",
-        "present-mcq-01": "「向聽眾正式、有組織地介紹、講解或匯報某個項目、報告或構思」是「present a project/report/idea」的用法，與本句語境不同。"
+        "present-mcq-04": "本句的「presented」指「把資料、方案、結果等正式展示或提交給某人／某群體」。",
+        "present-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-04"
     },
@@ -971,11 +935,9 @@ export default {
       "masked": "The manager ____ the award to the winning team.",
       "options": [
         "present-mcq-05",
-        "present-mcq-04",
-        "present-mcq-06",
-        "present-mcq-03",
-        "present-mcq-07",
-        "present-mcq-02"
+        "present-mcq-10",
+        "present-mcq-31",
+        "present-mcq-12"
       ],
       "explanation": "本句的「presented」指「在正式場合把獎項、證書或禮物頒授給某人」。",
       "sentenceIndex": 9,
@@ -984,12 +946,10 @@ export default {
         "presented"
       ],
       "optionReasons": {
-        "present-mcq-05": "本句指「在正式場合把獎項、證書或禮物頒授給某人」。",
-        "present-mcq-04": "「把資料、方案、結果等正式展示或提交給某人／某群體」是「present something to someone」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。",
-        "present-mcq-03": "「正式提出證據、事實或論點，讓別人考慮、審視或判斷」是「present evidence/arguments」的用法，與本句語境不同。",
-        "present-mcq-07": "「以主持人身份介紹節目內容、嘉賓及各個環節」是「present a programme/show」的用法，與本句語境不同。",
-        "present-mcq-02": "「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」是「present information/data/results」的用法，與本句語境不同。"
+        "present-mcq-05": "本句的「presented」指「在正式場合把獎項、證書或禮物頒授給某人」。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-05"
     },
@@ -1001,11 +961,9 @@ export default {
       "masked": "She was ____ with a certificate after the course.",
       "options": [
         "present-mcq-05",
-        "present-mcq-04",
-        "present-mcq-06",
-        "present-mcq-03",
-        "present-mcq-07",
-        "present-mcq-02"
+        "present-mcq-22",
+        "present-mcq-30",
+        "present-mcq-31"
       ],
       "explanation": "本句的「presented」指「在正式場合把獎項、證書或禮物頒授給某人」。",
       "sentenceIndex": 10,
@@ -1014,12 +972,10 @@ export default {
         "presented"
       ],
       "optionReasons": {
-        "present-mcq-05": "本句指「在正式場合把獎項、證書或禮物頒授給某人」。",
-        "present-mcq-04": "「把資料、方案、結果等正式展示或提交給某人／某群體」是「present something to someone」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。",
-        "present-mcq-03": "「正式提出證據、事實或論點，讓別人考慮、審視或判斷」是「present evidence/arguments」的用法，與本句語境不同。",
-        "present-mcq-07": "「以主持人身份介紹節目內容、嘉賓及各個環節」是「present a programme/show」的用法，與本句語境不同。",
-        "present-mcq-02": "「以清楚、有組織或指定方式把資料、數據或結果展示給讀者／觀眾」是「present information/data/results」的用法，與本句語境不同。"
+        "present-mcq-05": "本句的「presented」指「在正式場合把獎項、證書或禮物頒授給某人」。",
+        "present-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-05"
     },
@@ -1031,11 +987,9 @@ export default {
       "masked": "The company ____ her with an award.",
       "options": [
         "present-mcq-06",
-        "present-mcq-05",
-        "present-mcq-07",
-        "present-mcq-04",
-        "present-mcq-08",
-        "present-mcq-03"
+        "present-mcq-17",
+        "present-mcq-31",
+        "present-mcq-12"
       ],
       "explanation": "本句的「presented」指「正式向某人贈送或頒發某件物品／獎項」。",
       "sentenceIndex": 11,
@@ -1044,12 +998,10 @@ export default {
         "presented"
       ],
       "optionReasons": {
-        "present-mcq-06": "本句指「正式向某人贈送或頒發某件物品／獎項」。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。",
-        "present-mcq-07": "「以主持人身份介紹節目內容、嘉賓及各個環節」是「present a programme/show」的用法，與本句語境不同。",
-        "present-mcq-04": "「把資料、方案、結果等正式展示或提交給某人／某群體」是「present something to someone」的用法，與本句語境不同。",
-        "present-mcq-08": "「透過外表、言行或表達方式讓別人形成某種對自己的印象」是「present yourself」的用法，與本句語境不同。",
-        "present-mcq-03": "「正式提出證據、事實或論點，讓別人考慮、審視或判斷」是「present evidence/arguments」的用法，與本句語境不同。"
+        "present-mcq-06": "本句的「presented」指「正式向某人贈送或頒發某件物品／獎項」。",
+        "present-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-06"
     },
@@ -1061,11 +1013,9 @@ export default {
       "masked": "The retiring employee was ____ with a gift.",
       "options": [
         "present-mcq-06",
-        "present-mcq-05",
-        "present-mcq-07",
-        "present-mcq-04",
-        "present-mcq-08",
-        "present-mcq-03"
+        "present-mcq-11",
+        "present-mcq-17",
+        "present-mcq-27"
       ],
       "explanation": "本句的「presented」指「正式向某人贈送或頒發某件物品／獎項」。",
       "sentenceIndex": 12,
@@ -1074,12 +1024,10 @@ export default {
         "presented"
       ],
       "optionReasons": {
-        "present-mcq-06": "本句指「正式向某人贈送或頒發某件物品／獎項」。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。",
-        "present-mcq-07": "「以主持人身份介紹節目內容、嘉賓及各個環節」是「present a programme/show」的用法，與本句語境不同。",
-        "present-mcq-04": "「把資料、方案、結果等正式展示或提交給某人／某群體」是「present something to someone」的用法，與本句語境不同。",
-        "present-mcq-08": "「透過外表、言行或表達方式讓別人形成某種對自己的印象」是「present yourself」的用法，與本句語境不同。",
-        "present-mcq-03": "「正式提出證據、事實或論點，讓別人考慮、審視或判斷」是「present evidence/arguments」的用法，與本句語境不同。"
+        "present-mcq-06": "本句的「presented」指「正式向某人贈送或頒發某件物品／獎項」。",
+        "present-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-06"
     },
@@ -1091,11 +1039,9 @@ export default {
       "masked": "She ____ a weekly radio programme.",
       "options": [
         "present-mcq-07",
+        "present-mcq-31",
         "present-mcq-06",
-        "present-mcq-08",
-        "present-mcq-05",
-        "present-mcq-09",
-        "present-mcq-04"
+        "present-mcq-17"
       ],
       "explanation": "本句的「presents」指「以主持人身份介紹節目內容、嘉賓及各個環節」。",
       "sentenceIndex": 13,
@@ -1104,12 +1050,10 @@ export default {
         "presents"
       ],
       "optionReasons": {
-        "present-mcq-07": "本句指「以主持人身份介紹節目內容、嘉賓及各個環節」。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。",
-        "present-mcq-08": "「透過外表、言行或表達方式讓別人形成某種對自己的印象」是「present yourself」的用法，與本句語境不同。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。",
-        "present-mcq-09": "「以某種方式描述或包裝 A，使別人把它理解成 B」是「present A as B」的用法，與本句語境不同。",
-        "present-mcq-04": "「把資料、方案、結果等正式展示或提交給某人／某群體」是「present something to someone」的用法，與本句語境不同。"
+        "present-mcq-07": "本句的「presents」指「以主持人身份介紹節目內容、嘉賓及各個環節」。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-07"
     },
@@ -1121,11 +1065,9 @@ export default {
       "masked": "The awards ceremony was ____ by a well-known actor.",
       "options": [
         "present-mcq-07",
-        "present-mcq-06",
-        "present-mcq-08",
-        "present-mcq-05",
-        "present-mcq-09",
-        "present-mcq-04"
+        "present-mcq-31",
+        "present-mcq-28",
+        "present-mcq-17"
       ],
       "explanation": "本句的「presented」指「以主持人身份介紹節目內容、嘉賓及各個環節」。",
       "sentenceIndex": 14,
@@ -1134,12 +1076,10 @@ export default {
         "presented"
       ],
       "optionReasons": {
-        "present-mcq-07": "本句指「以主持人身份介紹節目內容、嘉賓及各個環節」。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。",
-        "present-mcq-08": "「透過外表、言行或表達方式讓別人形成某種對自己的印象」是「present yourself」的用法，與本句語境不同。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。",
-        "present-mcq-09": "「以某種方式描述或包裝 A，使別人把它理解成 B」是「present A as B」的用法，與本句語境不同。",
-        "present-mcq-04": "「把資料、方案、結果等正式展示或提交給某人／某群體」是「present something to someone」的用法，與本句語境不同。"
+        "present-mcq-07": "本句的「presented」指「以主持人身份介紹節目內容、嘉賓及各個環節」。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-07"
     },
@@ -1151,11 +1091,9 @@ export default {
       "masked": "You should ____ yourself professionally during the interview.",
       "options": [
         "present-mcq-08",
-        "present-mcq-07",
-        "present-mcq-09",
-        "present-mcq-06",
-        "present-mcq-10",
-        "present-mcq-05"
+        "present-mcq-26",
+        "present-mcq-18",
+        "present-mcq-22"
       ],
       "explanation": "本句的「present」指「透過外表、言行或表達方式讓別人形成某種對自己的印象」。",
       "sentenceIndex": 15,
@@ -1164,12 +1102,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-08": "本句指「透過外表、言行或表達方式讓別人形成某種對自己的印象」。",
-        "present-mcq-07": "「以主持人身份介紹節目內容、嘉賓及各個環節」是「present a programme/show」的用法，與本句語境不同。",
-        "present-mcq-09": "「以某種方式描述或包裝 A，使別人把它理解成 B」是「present A as B」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。",
-        "present-mcq-10": "「某個情況本身造成需要處理的問題、困難或挑戰」是「present a problem/challenge」的用法，與本句語境不同。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。"
+        "present-mcq-08": "本句的「present」指「透過外表、言行或表達方式讓別人形成某種對自己的印象」。",
+        "present-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-08"
     },
@@ -1181,11 +1117,9 @@ export default {
       "masked": "She ____ herself as a confident and experienced manager.",
       "options": [
         "present-mcq-08",
-        "present-mcq-07",
-        "present-mcq-09",
-        "present-mcq-06",
-        "present-mcq-10",
-        "present-mcq-05"
+        "present-mcq-30",
+        "present-mcq-26",
+        "present-mcq-21"
       ],
       "explanation": "本句的「presented」指「透過外表、言行或表達方式讓別人形成某種對自己的印象」。",
       "sentenceIndex": 16,
@@ -1194,12 +1128,10 @@ export default {
         "presented"
       ],
       "optionReasons": {
-        "present-mcq-08": "本句指「透過外表、言行或表達方式讓別人形成某種對自己的印象」。",
-        "present-mcq-07": "「以主持人身份介紹節目內容、嘉賓及各個環節」是「present a programme/show」的用法，與本句語境不同。",
-        "present-mcq-09": "「以某種方式描述或包裝 A，使別人把它理解成 B」是「present A as B」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。",
-        "present-mcq-10": "「某個情況本身造成需要處理的問題、困難或挑戰」是「present a problem/challenge」的用法，與本句語境不同。",
-        "present-mcq-05": "「在正式場合把獎項、證書或禮物頒授給某人」是「present an award/prize」的用法，與本句語境不同。"
+        "present-mcq-08": "本句的「presented」指「透過外表、言行或表達方式讓別人形成某種對自己的印象」。",
+        "present-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-08"
     },
@@ -1211,11 +1143,9 @@ export default {
       "masked": "The company ____ the change as an improvement.",
       "options": [
         "present-mcq-09",
-        "present-mcq-08",
-        "present-mcq-10",
-        "present-mcq-07",
-        "present-mcq-11",
-        "present-mcq-06"
+        "present-mcq-18",
+        "present-mcq-12",
+        "present-mcq-20"
       ],
       "explanation": "本句的「presented」指「以某種方式描述或包裝 A，使別人把它理解成 B」。",
       "sentenceIndex": 17,
@@ -1224,12 +1154,10 @@ export default {
         "presented"
       ],
       "optionReasons": {
-        "present-mcq-09": "本句指「以某種方式描述或包裝 A，使別人把它理解成 B」。",
-        "present-mcq-08": "「透過外表、言行或表達方式讓別人形成某種對自己的印象」是「present yourself」的用法，與本句語境不同。",
-        "present-mcq-10": "「某個情況本身造成需要處理的問題、困難或挑戰」是「present a problem/challenge」的用法，與本句語境不同。",
-        "present-mcq-07": "「以主持人身份介紹節目內容、嘉賓及各個環節」是「present a programme/show」的用法，與本句語境不同。",
-        "present-mcq-11": "「某種情況使新的機會或可能性出現」是「present an opportunity」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。"
+        "present-mcq-09": "本句的「presented」指「以某種方式描述或包裝 A，使別人把它理解成 B」。",
+        "present-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-09"
     },
@@ -1241,11 +1169,9 @@ export default {
       "masked": "The article ____ the issue as a simple choice.",
       "options": [
         "present-mcq-09",
-        "present-mcq-08",
-        "present-mcq-10",
-        "present-mcq-07",
-        "present-mcq-11",
-        "present-mcq-06"
+        "present-mcq-31",
+        "present-mcq-19",
+        "present-mcq-28"
       ],
       "explanation": "本句的「presents」指「以某種方式描述或包裝 A，使別人把它理解成 B」。",
       "sentenceIndex": 18,
@@ -1254,12 +1180,10 @@ export default {
         "presents"
       ],
       "optionReasons": {
-        "present-mcq-09": "本句指「以某種方式描述或包裝 A，使別人把它理解成 B」。",
-        "present-mcq-08": "「透過外表、言行或表達方式讓別人形成某種對自己的印象」是「present yourself」的用法，與本句語境不同。",
-        "present-mcq-10": "「某個情況本身造成需要處理的問題、困難或挑戰」是「present a problem/challenge」的用法，與本句語境不同。",
-        "present-mcq-07": "「以主持人身份介紹節目內容、嘉賓及各個環節」是「present a programme/show」的用法，與本句語境不同。",
-        "present-mcq-11": "「某種情況使新的機會或可能性出現」是「present an opportunity」的用法，與本句語境不同。",
-        "present-mcq-06": "「正式向某人贈送或頒發某件物品／獎項」是「present someone with something」的用法，與本句語境不同。"
+        "present-mcq-09": "本句的「presents」指「以某種方式描述或包裝 A，使別人把它理解成 B」。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-09"
     },
@@ -1271,11 +1195,9 @@ export default {
       "masked": "The tight deadline ____ a challenge for the team.",
       "options": [
         "present-mcq-10",
-        "present-mcq-09",
-        "present-mcq-11",
-        "present-mcq-08",
-        "present-mcq-12",
-        "present-mcq-07"
+        "present-mcq-25",
+        "present-mcq-27",
+        "present-mcq-18"
       ],
       "explanation": "本句的「presents」指「某個情況本身造成需要處理的問題、困難或挑戰」。",
       "sentenceIndex": 19,
@@ -1284,12 +1206,10 @@ export default {
         "presents"
       ],
       "optionReasons": {
-        "present-mcq-10": "本句指「某個情況本身造成需要處理的問題、困難或挑戰」。",
-        "present-mcq-09": "「以某種方式描述或包裝 A，使別人把它理解成 B」是「present A as B」的用法，與本句語境不同。",
-        "present-mcq-11": "「某種情況使新的機會或可能性出現」是「present an opportunity」的用法，與本句語境不同。",
-        "present-mcq-08": "「透過外表、言行或表達方式讓別人形成某種對自己的印象」是「present yourself」的用法，與本句語境不同。",
-        "present-mcq-12": "「在醫療語境中出現某種症狀／因該症狀求診」是「present with symptoms」的用法，與本句語境不同。",
-        "present-mcq-07": "「以主持人身份介紹節目內容、嘉賓及各個環節」是「present a programme/show」的用法，與本句語境不同。"
+        "present-mcq-10": "本句的「presents」指「某個情況本身造成需要處理的問題、困難或挑戰」。",
+        "present-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-10"
     },
@@ -1301,11 +1221,9 @@ export default {
       "masked": "The new regulations ____ serious difficulties for small businesses.",
       "options": [
         "present-mcq-10",
-        "present-mcq-09",
-        "present-mcq-11",
-        "present-mcq-08",
-        "present-mcq-12",
-        "present-mcq-07"
+        "present-mcq-18",
+        "present-mcq-27",
+        "present-mcq-03"
       ],
       "explanation": "本句的「present」指「某個情況本身造成需要處理的問題、困難或挑戰」。",
       "sentenceIndex": 20,
@@ -1314,12 +1232,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-10": "本句指「某個情況本身造成需要處理的問題、困難或挑戰」。",
-        "present-mcq-09": "「以某種方式描述或包裝 A，使別人把它理解成 B」是「present A as B」的用法，與本句語境不同。",
-        "present-mcq-11": "「某種情況使新的機會或可能性出現」是「present an opportunity」的用法，與本句語境不同。",
-        "present-mcq-08": "「透過外表、言行或表達方式讓別人形成某種對自己的印象」是「present yourself」的用法，與本句語境不同。",
-        "present-mcq-12": "「在醫療語境中出現某種症狀／因該症狀求診」是「present with symptoms」的用法，與本句語境不同。",
-        "present-mcq-07": "「以主持人身份介紹節目內容、嘉賓及各個環節」是「present a programme/show」的用法，與本句語境不同。"
+        "present-mcq-10": "本句的「present」指「某個情況本身造成需要處理的問題、困難或挑戰」。",
+        "present-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-10"
     },
@@ -1331,11 +1247,9 @@ export default {
       "masked": "The new market ____ an opportunity for growth.",
       "options": [
         "present-mcq-11",
-        "present-mcq-10",
-        "present-mcq-12",
-        "present-mcq-09",
-        "present-mcq-13",
-        "present-mcq-08"
+        "present-mcq-28",
+        "present-mcq-15",
+        "present-mcq-31"
       ],
       "explanation": "本句的「presents」指「某種情況使新的機會或可能性出現」。",
       "sentenceIndex": 21,
@@ -1344,12 +1258,10 @@ export default {
         "presents"
       ],
       "optionReasons": {
-        "present-mcq-11": "本句指「某種情況使新的機會或可能性出現」。",
-        "present-mcq-10": "「某個情況本身造成需要處理的問題、困難或挑戰」是「present a problem/challenge」的用法，與本句語境不同。",
-        "present-mcq-12": "「在醫療語境中出現某種症狀／因該症狀求診」是「present with symptoms」的用法，與本句語境不同。",
-        "present-mcq-09": "「以某種方式描述或包裝 A，使別人把它理解成 B」是「present A as B」的用法，與本句語境不同。",
-        "present-mcq-13": "「屬於目前這個時間、現在正在存在或適用的」是「present — current」的用法，與本句語境不同。",
-        "present-mcq-08": "「透過外表、言行或表達方式讓別人形成某種對自己的印象」是「present yourself」的用法，與本句語境不同。"
+        "present-mcq-11": "本句的「presents」指「某種情況使新的機會或可能性出現」。",
+        "present-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-11"
     },
@@ -1361,11 +1273,9 @@ export default {
       "masked": "Remote work ____ new possibilities for international teams.",
       "options": [
         "present-mcq-11",
-        "present-mcq-10",
-        "present-mcq-12",
-        "present-mcq-09",
-        "present-mcq-13",
-        "present-mcq-08"
+        "present-mcq-23",
+        "present-mcq-31",
+        "present-mcq-10"
       ],
       "explanation": "本句的「presents」指「某種情況使新的機會或可能性出現」。",
       "sentenceIndex": 22,
@@ -1374,12 +1284,10 @@ export default {
         "presents"
       ],
       "optionReasons": {
-        "present-mcq-11": "本句指「某種情況使新的機會或可能性出現」。",
-        "present-mcq-10": "「某個情況本身造成需要處理的問題、困難或挑戰」是「present a problem/challenge」的用法，與本句語境不同。",
-        "present-mcq-12": "「在醫療語境中出現某種症狀／因該症狀求診」是「present with symptoms」的用法，與本句語境不同。",
-        "present-mcq-09": "「以某種方式描述或包裝 A，使別人把它理解成 B」是「present A as B」的用法，與本句語境不同。",
-        "present-mcq-13": "「屬於目前這個時間、現在正在存在或適用的」是「present — current」的用法，與本句語境不同。",
-        "present-mcq-08": "「透過外表、言行或表達方式讓別人形成某種對自己的印象」是「present yourself」的用法，與本句語境不同。"
+        "present-mcq-11": "本句的「presents」指「某種情況使新的機會或可能性出現」。",
+        "present-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-11"
     },
@@ -1391,11 +1299,9 @@ export default {
       "masked": "The patient ____ with chest pain.",
       "options": [
         "present-mcq-12",
-        "present-mcq-11",
-        "present-mcq-13",
-        "present-mcq-10",
-        "present-mcq-14",
-        "present-mcq-09"
+        "present-mcq-05",
+        "present-mcq-27",
+        "present-mcq-19"
       ],
       "explanation": "本句的「presented」指「在醫療語境中出現某種症狀／因該症狀求診」。",
       "sentenceIndex": 23,
@@ -1404,12 +1310,10 @@ export default {
         "presented"
       ],
       "optionReasons": {
-        "present-mcq-12": "本句指「在醫療語境中出現某種症狀／因該症狀求診」。",
-        "present-mcq-11": "「某種情況使新的機會或可能性出現」是「present an opportunity」的用法，與本句語境不同。",
-        "present-mcq-13": "「屬於目前這個時間、現在正在存在或適用的」是「present — current」的用法，與本句語境不同。",
-        "present-mcq-10": "「某個情況本身造成需要處理的問題、困難或挑戰」是「present a problem/challenge」的用法，與本句語境不同。",
-        "present-mcq-14": "「屬於現今時代的；現代的」是「present-day」的用法，與本句語境不同。",
-        "present-mcq-09": "「以某種方式描述或包裝 A，使別人把它理解成 B」是「present A as B」的用法，與本句語境不同。"
+        "present-mcq-12": "本句的「presented」指「在醫療語境中出現某種症狀／因該症狀求診」。",
+        "present-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-12"
     },
@@ -1421,11 +1325,9 @@ export default {
       "masked": "The condition may ____ differently in children.",
       "options": [
         "present-mcq-12",
-        "present-mcq-11",
-        "present-mcq-13",
-        "present-mcq-10",
-        "present-mcq-14",
-        "present-mcq-09"
+        "present-mcq-29",
+        "present-mcq-27",
+        "present-mcq-15"
       ],
       "explanation": "本句的「present」指「在醫療語境中出現某種症狀／因該症狀求診」。",
       "sentenceIndex": 24,
@@ -1434,12 +1336,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-12": "本句指「在醫療語境中出現某種症狀／因該症狀求診」。",
-        "present-mcq-11": "「某種情況使新的機會或可能性出現」是「present an opportunity」的用法，與本句語境不同。",
-        "present-mcq-13": "「屬於目前這個時間、現在正在存在或適用的」是「present — current」的用法，與本句語境不同。",
-        "present-mcq-10": "「某個情況本身造成需要處理的問題、困難或挑戰」是「present a problem/challenge」的用法，與本句語境不同。",
-        "present-mcq-14": "「屬於現今時代的；現代的」是「present-day」的用法，與本句語境不同。",
-        "present-mcq-09": "「以某種方式描述或包裝 A，使別人把它理解成 B」是「present A as B」的用法，與本句語境不同。"
+        "present-mcq-12": "本句的「present」指「在醫療語境中出現某種症狀／因該症狀求診」。",
+        "present-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-12"
     },
@@ -1451,11 +1351,9 @@ export default {
       "masked": "The ____ situation is difficult.",
       "options": [
         "present-mcq-13",
-        "present-mcq-12",
-        "present-mcq-14",
-        "present-mcq-11",
-        "present-mcq-15",
-        "present-mcq-10"
+        "present-mcq-20",
+        "present-mcq-10",
+        "present-mcq-15"
       ],
       "explanation": "本句的「present」指「屬於目前這個時間、現在正在存在或適用的」。",
       "sentenceIndex": 25,
@@ -1464,12 +1362,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-13": "本句指「屬於目前這個時間、現在正在存在或適用的」。",
-        "present-mcq-12": "「在醫療語境中出現某種症狀／因該症狀求診」是「present with symptoms」的用法，與本句語境不同。",
-        "present-mcq-14": "「屬於現今時代的；現代的」是「present-day」的用法，與本句語境不同。",
-        "present-mcq-11": "「某種情況使新的機會或可能性出現」是「present an opportunity」的用法，與本句語境不同。",
-        "present-mcq-15": "「本人實際在某個地方、活動或場合中」是「be present — attendance」的用法，與本句語境不同。",
-        "present-mcq-10": "「某個情況本身造成需要處理的問題、困難或挑戰」是「present a problem/challenge」的用法，與本句語境不同。"
+        "present-mcq-13": "本句的「present」指「屬於目前這個時間、現在正在存在或適用的」。",
+        "present-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-13"
     },
@@ -1481,9 +1377,7 @@ export default {
       "masked": "Under the ____ system, employees work from home twice a week.",
       "options": [
         "present-mcq-13",
-        "present-mcq-12",
-        "present-mcq-14",
-        "present-mcq-11",
+        "present-mcq-02",
         "present-mcq-15",
         "present-mcq-10"
       ],
@@ -1494,12 +1388,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-13": "本句指「屬於目前這個時間、現在正在存在或適用的」。",
-        "present-mcq-12": "「在醫療語境中出現某種症狀／因該症狀求診」是「present with symptoms」的用法，與本句語境不同。",
-        "present-mcq-14": "「屬於現今時代的；現代的」是「present-day」的用法，與本句語境不同。",
-        "present-mcq-11": "「某種情況使新的機會或可能性出現」是「present an opportunity」的用法，與本句語境不同。",
-        "present-mcq-15": "「本人實際在某個地方、活動或場合中」是「be present — attendance」的用法，與本句語境不同。",
-        "present-mcq-10": "「某個情況本身造成需要處理的問題、困難或挑戰」是「present a problem/challenge」的用法，與本句語境不同。"
+        "present-mcq-13": "本句的「present」指「屬於目前這個時間、現在正在存在或適用的」。",
+        "present-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-13"
     },
@@ -1511,11 +1403,9 @@ export default {
       "masked": "____-day technology makes remote ____ much easier.",
       "options": [
         "present-mcq-14",
-        "present-mcq-13",
-        "present-mcq-15",
-        "present-mcq-12",
-        "present-mcq-16",
-        "present-mcq-11"
+        "present-mcq-07",
+        "present-mcq-06",
+        "present-mcq-31"
       ],
       "explanation": "本句的「Present」指「屬於現今時代的；現代的」。",
       "sentenceIndex": 27,
@@ -1525,12 +1415,10 @@ export default {
         "presentations"
       ],
       "optionReasons": {
-        "present-mcq-14": "本句指「屬於現今時代的；現代的」。",
-        "present-mcq-13": "「屬於目前這個時間、現在正在存在或適用的」是「present — current」的用法，與本句語境不同。",
-        "present-mcq-15": "「本人實際在某個地方、活動或場合中」是「be present — attendance」的用法，與本句語境不同。",
-        "present-mcq-12": "「在醫療語境中出現某種症狀／因該症狀求診」是「present with symptoms」的用法，與本句語境不同。",
-        "present-mcq-16": "「某種物質、因素、特徵或現象存在於某處／某系統中」是「be present — exist」的用法，與本句語境不同。",
-        "present-mcq-11": "「某種情況使新的機會或可能性出現」是「present an opportunity」的用法，與本句語境不同。"
+        "present-mcq-14": "本句的「Present」指「屬於現今時代的；現代的」。",
+        "present-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-14"
     },
@@ -1542,11 +1430,9 @@ export default {
       "masked": "The area looks very different from its ____-day form.",
       "options": [
         "present-mcq-14",
-        "present-mcq-13",
-        "present-mcq-15",
-        "present-mcq-12",
-        "present-mcq-16",
-        "present-mcq-11"
+        "present-mcq-09",
+        "present-mcq-10",
+        "present-mcq-15"
       ],
       "explanation": "本句的「present」指「屬於現今時代的；現代的」。",
       "sentenceIndex": 28,
@@ -1555,12 +1441,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-14": "本句指「屬於現今時代的；現代的」。",
-        "present-mcq-13": "「屬於目前這個時間、現在正在存在或適用的」是「present — current」的用法，與本句語境不同。",
-        "present-mcq-15": "「本人實際在某個地方、活動或場合中」是「be present — attendance」的用法，與本句語境不同。",
-        "present-mcq-12": "「在醫療語境中出現某種症狀／因該症狀求診」是「present with symptoms」的用法，與本句語境不同。",
-        "present-mcq-16": "「某種物質、因素、特徵或現象存在於某處／某系統中」是「be present — exist」的用法，與本句語境不同。",
-        "present-mcq-11": "「某種情況使新的機會或可能性出現」是「present an opportunity」的用法，與本句語境不同。"
+        "present-mcq-14": "本句的「present」指「屬於現今時代的；現代的」。",
+        "present-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-14"
     },
@@ -1572,11 +1456,9 @@ export default {
       "masked": "Several senior managers were ____ at the event.",
       "options": [
         "present-mcq-15",
-        "present-mcq-14",
-        "present-mcq-16",
-        "present-mcq-13",
         "present-mcq-17",
-        "present-mcq-12"
+        "present-mcq-16",
+        "present-mcq-31"
       ],
       "explanation": "本句的「present」指「本人實際在某個地方、活動或場合中」。",
       "sentenceIndex": 29,
@@ -1585,12 +1467,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-15": "本句指「本人實際在某個地方、活動或場合中」。",
-        "present-mcq-14": "「屬於現今時代的；現代的」是「present-day」的用法，與本句語境不同。",
-        "present-mcq-16": "「某種物質、因素、特徵或現象存在於某處／某系統中」是「be present — exist」的用法，與本句語境不同。",
-        "present-mcq-13": "「屬於目前這個時間、現在正在存在或適用的」是「present — current」的用法，與本句語境不同。",
-        "present-mcq-17": "「現在這個時間或當前時期」是「the present」的用法，與本句語境不同。",
-        "present-mcq-12": "「在醫療語境中出現某種症狀／因該症狀求診」是「present with symptoms」的用法，與本句語境不同。"
+        "present-mcq-15": "本句的「present」指「本人實際在某個地方、活動或場合中」。",
+        "present-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-15"
     },
@@ -1602,11 +1482,9 @@ export default {
       "masked": "Everyone must be ____ at the meeting.",
       "options": [
         "present-mcq-15",
-        "present-mcq-14",
-        "present-mcq-16",
-        "present-mcq-13",
-        "present-mcq-17",
-        "present-mcq-12"
+        "present-mcq-08",
+        "present-mcq-07",
+        "present-mcq-17"
       ],
       "explanation": "本句的「present」指「本人實際在某個地方、活動或場合中」。",
       "sentenceIndex": 30,
@@ -1615,12 +1493,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-15": "本句指「本人實際在某個地方、活動或場合中」。",
-        "present-mcq-14": "「屬於現今時代的；現代的」是「present-day」的用法，與本句語境不同。",
-        "present-mcq-16": "「某種物質、因素、特徵或現象存在於某處／某系統中」是「be present — exist」的用法，與本句語境不同。",
-        "present-mcq-13": "「屬於目前這個時間、現在正在存在或適用的」是「present — current」的用法，與本句語境不同。",
-        "present-mcq-17": "「現在這個時間或當前時期」是「the present」的用法，與本句語境不同。",
-        "present-mcq-12": "「在醫療語境中出現某種症狀／因該症狀求診」是「present with symptoms」的用法，與本句語境不同。"
+        "present-mcq-15": "本句的「present」指「本人實際在某個地方、活動或場合中」。",
+        "present-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-15"
     },
@@ -1632,11 +1508,9 @@ export default {
       "masked": "Small amounts of the chemical are ____ in the water.",
       "options": [
         "present-mcq-16",
-        "present-mcq-15",
-        "present-mcq-17",
-        "present-mcq-14",
-        "present-mcq-18",
-        "present-mcq-13"
+        "present-mcq-01",
+        "present-mcq-31",
+        "present-mcq-15"
       ],
       "explanation": "本句的「present」指「某種物質、因素、特徵或現象存在於某處／某系統中」。",
       "sentenceIndex": 31,
@@ -1645,12 +1519,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-16": "本句指「某種物質、因素、特徵或現象存在於某處／某系統中」。",
-        "present-mcq-15": "「本人實際在某個地方、活動或場合中」是「be present — attendance」的用法，與本句語境不同。",
-        "present-mcq-17": "「現在這個時間或當前時期」是「the present」的用法，與本句語境不同。",
-        "present-mcq-14": "「屬於現今時代的；現代的」是「present-day」的用法，與本句語境不同。",
-        "present-mcq-18": "「在目前這段時間；目前／現時」是「at present」的用法，與本句語境不同。",
-        "present-mcq-13": "「屬於目前這個時間、現在正在存在或適用的」是「present — current」的用法，與本句語境不同。"
+        "present-mcq-16": "本句的「present」指「某種物質、因素、特徵或現象存在於某處／某系統中」。",
+        "present-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-16"
     },
@@ -1662,11 +1534,9 @@ export default {
       "masked": "The virus may be ____ without causing symptoms.",
       "options": [
         "present-mcq-16",
-        "present-mcq-15",
-        "present-mcq-17",
-        "present-mcq-14",
-        "present-mcq-18",
-        "present-mcq-13"
+        "present-mcq-31",
+        "present-mcq-28",
+        "present-mcq-09"
       ],
       "explanation": "本句的「present」指「某種物質、因素、特徵或現象存在於某處／某系統中」。",
       "sentenceIndex": 32,
@@ -1675,12 +1545,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-16": "本句指「某種物質、因素、特徵或現象存在於某處／某系統中」。",
-        "present-mcq-15": "「本人實際在某個地方、活動或場合中」是「be present — attendance」的用法，與本句語境不同。",
-        "present-mcq-17": "「現在這個時間或當前時期」是「the present」的用法，與本句語境不同。",
-        "present-mcq-14": "「屬於現今時代的；現代的」是「present-day」的用法，與本句語境不同。",
-        "present-mcq-18": "「在目前這段時間；目前／現時」是「at present」的用法，與本句語境不同。",
-        "present-mcq-13": "「屬於目前這個時間、現在正在存在或適用的」是「present — current」的用法，與本句語境不同。"
+        "present-mcq-16": "本句的「present」指「某種物質、因素、特徵或現象存在於某處／某系統中」。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-16"
     },
@@ -1692,11 +1560,9 @@ export default {
       "masked": "We need to focus on the ____ rather than worry about the future.",
       "options": [
         "present-mcq-17",
-        "present-mcq-16",
-        "present-mcq-18",
+        "present-mcq-28",
         "present-mcq-15",
-        "present-mcq-19",
-        "present-mcq-14"
+        "present-mcq-07"
       ],
       "explanation": "本句的「present」指「現在這個時間或當前時期」。",
       "sentenceIndex": 33,
@@ -1705,12 +1571,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-17": "本句指「現在這個時間或當前時期」。",
-        "present-mcq-16": "「某種物質、因素、特徵或現象存在於某處／某系統中」是「be present — exist」的用法，與本句語境不同。",
-        "present-mcq-18": "「在目前這段時間；目前／現時」是「at present」的用法，與本句語境不同。",
-        "present-mcq-15": "「本人實際在某個地方、活動或場合中」是「be present — attendance」的用法，與本句語境不同。",
-        "present-mcq-19": "「暫時維持目前情況，日後可能改變」是「for the present」的用法，與本句語境不同。",
-        "present-mcq-14": "「屬於現今時代的；現代的」是「present-day」的用法，與本句語境不同。"
+        "present-mcq-17": "本句的「present」指「現在這個時間或當前時期」。",
+        "present-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-17"
     },
@@ -1722,11 +1586,9 @@ export default {
       "masked": "The story moves between the past and the ____.",
       "options": [
         "present-mcq-17",
-        "present-mcq-16",
-        "present-mcq-18",
-        "present-mcq-15",
-        "present-mcq-19",
-        "present-mcq-14"
+        "present-mcq-25",
+        "present-mcq-10",
+        "present-mcq-07"
       ],
       "explanation": "本句的「present」指「現在這個時間或當前時期」。",
       "sentenceIndex": 34,
@@ -1735,12 +1597,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-17": "本句指「現在這個時間或當前時期」。",
-        "present-mcq-16": "「某種物質、因素、特徵或現象存在於某處／某系統中」是「be present — exist」的用法，與本句語境不同。",
-        "present-mcq-18": "「在目前這段時間；目前／現時」是「at present」的用法，與本句語境不同。",
-        "present-mcq-15": "「本人實際在某個地方、活動或場合中」是「be present — attendance」的用法，與本句語境不同。",
-        "present-mcq-19": "「暫時維持目前情況，日後可能改變」是「for the present」的用法，與本句語境不同。",
-        "present-mcq-14": "「屬於現今時代的；現代的」是「present-day」的用法，與本句語境不同。"
+        "present-mcq-17": "本句的「present」指「現在這個時間或當前時期」。",
+        "present-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-17"
     },
@@ -1752,11 +1612,9 @@ export default {
       "masked": "The position is not available at ____.",
       "options": [
         "present-mcq-18",
-        "present-mcq-17",
-        "present-mcq-19",
-        "present-mcq-16",
-        "present-mcq-20",
-        "present-mcq-15"
+        "present-mcq-04",
+        "present-mcq-15",
+        "present-mcq-31"
       ],
       "explanation": "本句的「present」指「在目前這段時間；目前／現時」。",
       "sentenceIndex": 35,
@@ -1765,12 +1623,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-18": "本句指「在目前這段時間；目前／現時」。",
-        "present-mcq-17": "「現在這個時間或當前時期」是「the present」的用法，與本句語境不同。",
-        "present-mcq-19": "「暫時維持目前情況，日後可能改變」是「for the present」的用法，與本句語境不同。",
-        "present-mcq-16": "「某種物質、因素、特徵或現象存在於某處／某系統中」是「be present — exist」的用法，與本句語境不同。",
-        "present-mcq-20": "「為表達祝賀、感謝、友情等而送出的禮物」是「a present」的用法，與本句語境不同。",
-        "present-mcq-15": "「本人實際在某個地方、活動或場合中」是「be present — attendance」的用法，與本句語境不同。"
+        "present-mcq-18": "本句的「present」指「在目前這段時間；目前／現時」。",
+        "present-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-18"
     },
@@ -1782,11 +1638,9 @@ export default {
       "masked": "At ____, we have no plans to change the system.",
       "options": [
         "present-mcq-18",
-        "present-mcq-17",
-        "present-mcq-19",
-        "present-mcq-16",
-        "present-mcq-20",
-        "present-mcq-15"
+        "present-mcq-28",
+        "present-mcq-31",
+        "present-mcq-10"
       ],
       "explanation": "本句的「present」指「在目前這段時間；目前／現時」。",
       "sentenceIndex": 36,
@@ -1795,12 +1649,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-18": "本句指「在目前這段時間；目前／現時」。",
-        "present-mcq-17": "「現在這個時間或當前時期」是「the present」的用法，與本句語境不同。",
-        "present-mcq-19": "「暫時維持目前情況，日後可能改變」是「for the present」的用法，與本句語境不同。",
-        "present-mcq-16": "「某種物質、因素、特徵或現象存在於某處／某系統中」是「be present — exist」的用法，與本句語境不同。",
-        "present-mcq-20": "「為表達祝賀、感謝、友情等而送出的禮物」是「a present」的用法，與本句語境不同。",
-        "present-mcq-15": "「本人實際在某個地方、活動或場合中」是「be present — attendance」的用法，與本句語境不同。"
+        "present-mcq-18": "本句的「present」指「在目前這段時間；目前／現時」。",
+        "present-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-18"
     },
@@ -1812,11 +1664,9 @@ export default {
       "masked": "We will continue with the current arrangement for the ____.",
       "options": [
         "present-mcq-19",
-        "present-mcq-18",
-        "present-mcq-20",
-        "present-mcq-17",
-        "present-mcq-21",
-        "present-mcq-16"
+        "present-mcq-28",
+        "present-mcq-22",
+        "present-mcq-15"
       ],
       "explanation": "本句的「present」指「暫時維持目前情況，日後可能改變」。",
       "sentenceIndex": 37,
@@ -1825,12 +1675,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-19": "本句指「暫時維持目前情況，日後可能改變」。",
-        "present-mcq-18": "「在目前這段時間；目前／現時」是「at present」的用法，與本句語境不同。",
-        "present-mcq-20": "「為表達祝賀、感謝、友情等而送出的禮物」是「a present」的用法，與本句語境不同。",
-        "present-mcq-17": "「現在這個時間或當前時期」是「the present」的用法，與本句語境不同。",
-        "present-mcq-21": "「當時與說話者同處一個場合的人」是「present company」的用法，與本句語境不同。",
-        "present-mcq-16": "「某種物質、因素、特徵或現象存在於某處／某系統中」是「be present — exist」的用法，與本句語境不同。"
+        "present-mcq-19": "本句的「present」指「暫時維持目前情況，日後可能改變」。",
+        "present-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-19"
     },
@@ -1842,11 +1690,9 @@ export default {
       "masked": "The issue can be left unresolved for the ____.",
       "options": [
         "present-mcq-19",
-        "present-mcq-18",
-        "present-mcq-20",
-        "present-mcq-17",
-        "present-mcq-21",
-        "present-mcq-16"
+        "present-mcq-22",
+        "present-mcq-28",
+        "present-mcq-15"
       ],
       "explanation": "本句的「present」指「暫時維持目前情況，日後可能改變」。",
       "sentenceIndex": 38,
@@ -1855,12 +1701,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-19": "本句指「暫時維持目前情況，日後可能改變」。",
-        "present-mcq-18": "「在目前這段時間；目前／現時」是「at present」的用法，與本句語境不同。",
-        "present-mcq-20": "「為表達祝賀、感謝、友情等而送出的禮物」是「a present」的用法，與本句語境不同。",
-        "present-mcq-17": "「現在這個時間或當前時期」是「the present」的用法，與本句語境不同。",
-        "present-mcq-21": "「當時與說話者同處一個場合的人」是「present company」的用法，與本句語境不同。",
-        "present-mcq-16": "「某種物質、因素、特徵或現象存在於某處／某系統中」是「be present — exist」的用法，與本句語境不同。"
+        "present-mcq-19": "本句的「present」指「暫時維持目前情況，日後可能改變」。",
+        "present-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-19"
     },
@@ -1872,11 +1716,9 @@ export default {
       "masked": "My colleagues gave me a ____ after the event.",
       "options": [
         "present-mcq-20",
+        "present-mcq-10",
         "present-mcq-19",
-        "present-mcq-21",
-        "present-mcq-18",
-        "present-mcq-22",
-        "present-mcq-17"
+        "present-mcq-27"
       ],
       "explanation": "本句的「present」指「為表達祝賀、感謝、友情等而送出的禮物」。",
       "sentenceIndex": 39,
@@ -1885,12 +1727,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-20": "本句指「為表達祝賀、感謝、友情等而送出的禮物」。",
-        "present-mcq-19": "「暫時維持目前情況，日後可能改變」是「for the present」的用法，與本句語境不同。",
-        "present-mcq-21": "「當時與說話者同處一個場合的人」是「present company」的用法，與本句語境不同。",
-        "present-mcq-18": "「在目前這段時間；目前／現時」是「at present」的用法，與本句語境不同。",
-        "present-mcq-22": "「應該出現的人／物全部到齊、齊備而沒有缺漏」是「present and correct」的用法，與本句語境不同。",
-        "present-mcq-17": "「現在這個時間或當前時期」是「the present」的用法，與本句語境不同。"
+        "present-mcq-20": "本句的「present」指「為表達祝賀、感謝、友情等而送出的禮物」。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-20"
     },
@@ -1902,11 +1742,9 @@ export default {
       "masked": "She bought him a birthday ____.",
       "options": [
         "present-mcq-20",
-        "present-mcq-19",
-        "present-mcq-21",
         "present-mcq-18",
-        "present-mcq-22",
-        "present-mcq-17"
+        "present-mcq-31",
+        "present-mcq-27"
       ],
       "explanation": "本句的「present」指「為表達祝賀、感謝、友情等而送出的禮物」。",
       "sentenceIndex": 40,
@@ -1915,12 +1753,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-20": "本句指「為表達祝賀、感謝、友情等而送出的禮物」。",
-        "present-mcq-19": "「暫時維持目前情況，日後可能改變」是「for the present」的用法，與本句語境不同。",
-        "present-mcq-21": "「當時與說話者同處一個場合的人」是「present company」的用法，與本句語境不同。",
-        "present-mcq-18": "「在目前這段時間；目前／現時」是「at present」的用法，與本句語境不同。",
-        "present-mcq-22": "「應該出現的人／物全部到齊、齊備而沒有缺漏」是「present and correct」的用法，與本句語境不同。",
-        "present-mcq-17": "「現在這個時間或當前時期」是「the present」的用法，與本句語境不同。"
+        "present-mcq-20": "本句的「present」指「為表達祝賀、感謝、友情等而送出的禮物」。",
+        "present-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-20"
     },
@@ -1932,11 +1768,9 @@ export default {
       "masked": "____ company excepted, I usually dislike formal speeches.",
       "options": [
         "present-mcq-21",
-        "present-mcq-20",
-        "present-mcq-22",
-        "present-mcq-19",
         "present-mcq-23",
-        "present-mcq-18"
+        "present-mcq-11",
+        "present-mcq-24"
       ],
       "explanation": "本句的「Present」指「當時與說話者同處一個場合的人」。",
       "sentenceIndex": 41,
@@ -1945,12 +1779,10 @@ export default {
         "Present"
       ],
       "optionReasons": {
-        "present-mcq-21": "本句指「當時與說話者同處一個場合的人」。",
-        "present-mcq-20": "「為表達祝賀、感謝、友情等而送出的禮物」是「a present」的用法，與本句語境不同。",
-        "present-mcq-22": "「應該出現的人／物全部到齊、齊備而沒有缺漏」是「present and correct」的用法，與本句語境不同。",
-        "present-mcq-19": "「暫時維持目前情況，日後可能改變」是「for the present」的用法，與本句語境不同。",
-        "present-mcq-23": "「向觀眾正式介紹、講解或匯報資料的活動／內容」是「presentation — formal talk/report」的用法，與本句語境不同。",
-        "present-mcq-18": "「在目前這段時間；目前／現時」是「at present」的用法，與本句語境不同。"
+        "present-mcq-21": "本句的「Present」指「當時與說話者同處一個場合的人」。",
+        "present-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-21"
     },
@@ -1962,11 +1794,9 @@ export default {
       "masked": "I mean no criticism of ____ company.",
       "options": [
         "present-mcq-21",
-        "present-mcq-20",
-        "present-mcq-22",
-        "present-mcq-19",
-        "present-mcq-23",
-        "present-mcq-18"
+        "present-mcq-12",
+        "present-mcq-31",
+        "present-mcq-20"
       ],
       "explanation": "本句的「present」指「當時與說話者同處一個場合的人」。",
       "sentenceIndex": 42,
@@ -1975,12 +1805,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-21": "本句指「當時與說話者同處一個場合的人」。",
-        "present-mcq-20": "「為表達祝賀、感謝、友情等而送出的禮物」是「a present」的用法，與本句語境不同。",
-        "present-mcq-22": "「應該出現的人／物全部到齊、齊備而沒有缺漏」是「present and correct」的用法，與本句語境不同。",
-        "present-mcq-19": "「暫時維持目前情況，日後可能改變」是「for the present」的用法，與本句語境不同。",
-        "present-mcq-23": "「向觀眾正式介紹、講解或匯報資料的活動／內容」是「presentation — formal talk/report」的用法，與本句語境不同。",
-        "present-mcq-18": "「在目前這段時間；目前／現時」是「at present」的用法，與本句語境不同。"
+        "present-mcq-21": "本句的「present」指「當時與說話者同處一個場合的人」。",
+        "present-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-21"
     },
@@ -1992,10 +1820,8 @@ export default {
       "masked": "Everyone was ____ and correct before the meeting started.",
       "options": [
         "present-mcq-22",
-        "present-mcq-21",
-        "present-mcq-23",
-        "present-mcq-20",
-        "present-mcq-24",
+        "present-mcq-31",
+        "present-mcq-08",
         "present-mcq-19"
       ],
       "explanation": "本句的「present」指「應該出現的人／物全部到齊、齊備而沒有缺漏」。",
@@ -2005,12 +1831,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-22": "本句指「應該出現的人／物全部到齊、齊備而沒有缺漏」。",
-        "present-mcq-21": "「當時與說話者同處一個場合的人」是「present company」的用法，與本句語境不同。",
-        "present-mcq-23": "「向觀眾正式介紹、講解或匯報資料的活動／內容」是「presentation — formal talk/report」的用法，與本句語境不同。",
-        "present-mcq-20": "「為表達祝賀、感謝、友情等而送出的禮物」是「a present」的用法，與本句語境不同。",
-        "present-mcq-24": "「某樣東西被展示、安排或呈現給別人看的方式」是「presentation — display」的用法，與本句語境不同。",
-        "present-mcq-19": "「暫時維持目前情況，日後可能改變」是「for the present」的用法，與本句語境不同。"
+        "present-mcq-22": "本句的「present」指「應該出現的人／物全部到齊、齊備而沒有缺漏」。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-22"
     },
@@ -2022,11 +1846,9 @@ export default {
       "masked": "The documents are all ____ and correct.",
       "options": [
         "present-mcq-22",
-        "present-mcq-21",
-        "present-mcq-23",
-        "present-mcq-20",
-        "present-mcq-24",
-        "present-mcq-19"
+        "present-mcq-26",
+        "present-mcq-09",
+        "present-mcq-15"
       ],
       "explanation": "本句的「present」指「應該出現的人／物全部到齊、齊備而沒有缺漏」。",
       "sentenceIndex": 44,
@@ -2035,12 +1857,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-22": "本句指「應該出現的人／物全部到齊、齊備而沒有缺漏」。",
-        "present-mcq-21": "「當時與說話者同處一個場合的人」是「present company」的用法，與本句語境不同。",
-        "present-mcq-23": "「向觀眾正式介紹、講解或匯報資料的活動／內容」是「presentation — formal talk/report」的用法，與本句語境不同。",
-        "present-mcq-20": "「為表達祝賀、感謝、友情等而送出的禮物」是「a present」的用法，與本句語境不同。",
-        "present-mcq-24": "「某樣東西被展示、安排或呈現給別人看的方式」是「presentation — display」的用法，與本句語境不同。",
-        "present-mcq-19": "「暫時維持目前情況，日後可能改變」是「for the present」的用法，與本句語境不同。"
+        "present-mcq-22": "本句的「present」指「應該出現的人／物全部到齊、齊備而沒有缺漏」。",
+        "present-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-22"
     },
@@ -2052,11 +1872,9 @@ export default {
       "masked": "I spent several evenings preparing my ____.",
       "options": [
         "present-mcq-23",
-        "present-mcq-22",
-        "present-mcq-24",
         "present-mcq-21",
-        "present-mcq-25",
-        "present-mcq-20"
+        "present-mcq-16",
+        "present-mcq-14"
       ],
       "explanation": "本句的「presentation」指「向觀眾正式介紹、講解或匯報資料的活動／內容」。",
       "sentenceIndex": 45,
@@ -2065,12 +1883,10 @@ export default {
         "presentation"
       ],
       "optionReasons": {
-        "present-mcq-23": "本句指「向觀眾正式介紹、講解或匯報資料的活動／內容」。",
-        "present-mcq-22": "「應該出現的人／物全部到齊、齊備而沒有缺漏」是「present and correct」的用法，與本句語境不同。",
-        "present-mcq-24": "「某樣東西被展示、安排或呈現給別人看的方式」是「presentation — display」的用法，與本句語境不同。",
-        "present-mcq-21": "「當時與說話者同處一個場合的人」是「present company」的用法，與本句語境不同。",
-        "present-mcq-25": "「正式頒授獎項、證書或禮物的行為／儀式」是「presentation — award giving」的用法，與本句語境不同。",
-        "present-mcq-20": "「為表達祝賀、感謝、友情等而送出的禮物」是「a present」的用法，與本句語境不同。"
+        "present-mcq-23": "本句的「presentation」指「向觀眾正式介紹、講解或匯報資料的活動／內容」。",
+        "present-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-23"
     },
@@ -2082,11 +1898,9 @@ export default {
       "masked": "Her ____ lasted twenty minutes.",
       "options": [
         "present-mcq-23",
-        "present-mcq-22",
-        "present-mcq-24",
-        "present-mcq-21",
-        "present-mcq-25",
-        "present-mcq-20"
+        "present-mcq-16",
+        "present-mcq-27",
+        "present-mcq-11"
       ],
       "explanation": "本句的「presentation」指「向觀眾正式介紹、講解或匯報資料的活動／內容」。",
       "sentenceIndex": 46,
@@ -2095,12 +1909,10 @@ export default {
         "presentation"
       ],
       "optionReasons": {
-        "present-mcq-23": "本句指「向觀眾正式介紹、講解或匯報資料的活動／內容」。",
-        "present-mcq-22": "「應該出現的人／物全部到齊、齊備而沒有缺漏」是「present and correct」的用法，與本句語境不同。",
-        "present-mcq-24": "「某樣東西被展示、安排或呈現給別人看的方式」是「presentation — display」的用法，與本句語境不同。",
-        "present-mcq-21": "「當時與說話者同處一個場合的人」是「present company」的用法，與本句語境不同。",
-        "present-mcq-25": "「正式頒授獎項、證書或禮物的行為／儀式」是「presentation — award giving」的用法，與本句語境不同。",
-        "present-mcq-20": "「為表達祝賀、感謝、友情等而送出的禮物」是「a present」的用法，與本句語境不同。"
+        "present-mcq-23": "本句的「presentation」指「向觀眾正式介紹、講解或匯報資料的活動／內容」。",
+        "present-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-23"
     },
@@ -2112,11 +1924,9 @@ export default {
       "masked": "The food tasted good, but the ____ could be improved.",
       "options": [
         "present-mcq-24",
-        "present-mcq-23",
-        "present-mcq-25",
-        "present-mcq-22",
-        "present-mcq-26",
-        "present-mcq-21"
+        "present-mcq-31",
+        "present-mcq-15",
+        "present-mcq-07"
       ],
       "explanation": "本句的「presentation」指「某樣東西被展示、安排或呈現給別人看的方式」。",
       "sentenceIndex": 47,
@@ -2125,12 +1935,10 @@ export default {
         "presentation"
       ],
       "optionReasons": {
-        "present-mcq-24": "本句指「某樣東西被展示、安排或呈現給別人看的方式」。",
-        "present-mcq-23": "「向觀眾正式介紹、講解或匯報資料的活動／內容」是「presentation — formal talk/report」的用法，與本句語境不同。",
-        "present-mcq-25": "「正式頒授獎項、證書或禮物的行為／儀式」是「presentation — award giving」的用法，與本句語境不同。",
-        "present-mcq-22": "「應該出現的人／物全部到齊、齊備而沒有缺漏」是「present and correct」的用法，與本句語境不同。",
-        "present-mcq-26": "「負責向觀眾正式講解或匯報內容的人」是「presenter — speaker」的用法，與本句語境不同。",
-        "present-mcq-21": "「當時與說話者同處一個場合的人」是「present company」的用法，與本句語境不同。"
+        "present-mcq-24": "本句的「presentation」指「某樣東西被展示、安排或呈現給別人看的方式」。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-24"
     },
@@ -2142,11 +1950,9 @@ export default {
       "masked": "Clear visual ____ makes the report easier to read.",
       "options": [
         "present-mcq-24",
-        "present-mcq-23",
-        "present-mcq-25",
-        "present-mcq-22",
-        "present-mcq-26",
-        "present-mcq-21"
+        "present-mcq-15",
+        "present-mcq-07",
+        "present-mcq-19"
       ],
       "explanation": "本句的「presentation」指「某樣東西被展示、安排或呈現給別人看的方式」。",
       "sentenceIndex": 48,
@@ -2155,12 +1961,10 @@ export default {
         "presentation"
       ],
       "optionReasons": {
-        "present-mcq-24": "本句指「某樣東西被展示、安排或呈現給別人看的方式」。",
-        "present-mcq-23": "「向觀眾正式介紹、講解或匯報資料的活動／內容」是「presentation — formal talk/report」的用法，與本句語境不同。",
-        "present-mcq-25": "「正式頒授獎項、證書或禮物的行為／儀式」是「presentation — award giving」的用法，與本句語境不同。",
-        "present-mcq-22": "「應該出現的人／物全部到齊、齊備而沒有缺漏」是「present and correct」的用法，與本句語境不同。",
-        "present-mcq-26": "「負責向觀眾正式講解或匯報內容的人」是「presenter — speaker」的用法，與本句語境不同。",
-        "present-mcq-21": "「當時與說話者同處一個場合的人」是「present company」的用法，與本句語境不同。"
+        "present-mcq-24": "本句的「presentation」指「某樣東西被展示、安排或呈現給別人看的方式」。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-24"
     },
@@ -2172,11 +1976,9 @@ export default {
       "masked": "The prize ____ took place after dinner.",
       "options": [
         "present-mcq-25",
-        "present-mcq-24",
-        "present-mcq-26",
-        "present-mcq-23",
-        "present-mcq-27",
-        "present-mcq-22"
+        "present-mcq-10",
+        "present-mcq-14",
+        "present-mcq-16"
       ],
       "explanation": "本句的「presentation」指「正式頒授獎項、證書或禮物的行為／儀式」。",
       "sentenceIndex": 49,
@@ -2185,12 +1987,10 @@ export default {
         "presentation"
       ],
       "optionReasons": {
-        "present-mcq-25": "本句指「正式頒授獎項、證書或禮物的行為／儀式」。",
-        "present-mcq-24": "「某樣東西被展示、安排或呈現給別人看的方式」是「presentation — display」的用法，與本句語境不同。",
-        "present-mcq-26": "「負責向觀眾正式講解或匯報內容的人」是「presenter — speaker」的用法，與本句語境不同。",
-        "present-mcq-23": "「向觀眾正式介紹、講解或匯報資料的活動／內容」是「presentation — formal talk/report」的用法，與本句語境不同。",
-        "present-mcq-27": "「負責主持電視、電台或其他節目的主持人」是「presenter — TV/radio」的用法，與本句語境不同。",
-        "present-mcq-22": "「應該出現的人／物全部到齊、齊備而沒有缺漏」是「present and correct」的用法，與本句語境不同。"
+        "present-mcq-25": "本句的「presentation」指「正式頒授獎項、證書或禮物的行為／儀式」。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-25"
     },
@@ -2202,11 +2002,9 @@ export default {
       "masked": "There will be a certificate ____ at the end of the course.",
       "options": [
         "present-mcq-25",
-        "present-mcq-24",
-        "present-mcq-26",
-        "present-mcq-23",
-        "present-mcq-27",
-        "present-mcq-22"
+        "present-mcq-30",
+        "present-mcq-12",
+        "present-mcq-02"
       ],
       "explanation": "本句的「presentation」指「正式頒授獎項、證書或禮物的行為／儀式」。",
       "sentenceIndex": 50,
@@ -2215,12 +2013,10 @@ export default {
         "presentation"
       ],
       "optionReasons": {
-        "present-mcq-25": "本句指「正式頒授獎項、證書或禮物的行為／儀式」。",
-        "present-mcq-24": "「某樣東西被展示、安排或呈現給別人看的方式」是「presentation — display」的用法，與本句語境不同。",
-        "present-mcq-26": "「負責向觀眾正式講解或匯報內容的人」是「presenter — speaker」的用法，與本句語境不同。",
-        "present-mcq-23": "「向觀眾正式介紹、講解或匯報資料的活動／內容」是「presentation — formal talk/report」的用法，與本句語境不同。",
-        "present-mcq-27": "「負責主持電視、電台或其他節目的主持人」是「presenter — TV/radio」的用法，與本句語境不同。",
-        "present-mcq-22": "「應該出現的人／物全部到齊、齊備而沒有缺漏」是「present and correct」的用法，與本句語境不同。"
+        "present-mcq-25": "本句的「presentation」指「正式頒授獎項、證書或禮物的行為／儀式」。",
+        "present-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-25"
     },
@@ -2232,11 +2028,9 @@ export default {
       "masked": "Each ____ has ten minutes to speak.",
       "options": [
         "present-mcq-26",
-        "present-mcq-25",
-        "present-mcq-27",
-        "present-mcq-24",
-        "present-mcq-28",
-        "present-mcq-23"
+        "present-mcq-08",
+        "present-mcq-16",
+        "present-mcq-12"
       ],
       "explanation": "本句的「presenter」指「負責向觀眾正式講解或匯報內容的人」。",
       "sentenceIndex": 51,
@@ -2245,12 +2039,10 @@ export default {
         "presenter"
       ],
       "optionReasons": {
-        "present-mcq-26": "本句指「負責向觀眾正式講解或匯報內容的人」。",
-        "present-mcq-25": "「正式頒授獎項、證書或禮物的行為／儀式」是「presentation — award giving」的用法，與本句語境不同。",
-        "present-mcq-27": "「負責主持電視、電台或其他節目的主持人」是「presenter — TV/radio」的用法，與本句語境不同。",
-        "present-mcq-24": "「某樣東西被展示、安排或呈現給別人看的方式」是「presentation — display」的用法，與本句語境不同。",
-        "present-mcq-28": "「外觀整潔、得體，達到適合正式見人或展示的程度」是「presentable — appearance」的用法，與本句語境不同。",
-        "present-mcq-23": "「向觀眾正式介紹、講解或匯報資料的活動／內容」是「presentation — formal talk/report」的用法，與本句語境不同。"
+        "present-mcq-26": "本句的「presenter」指「負責向觀眾正式講解或匯報內容的人」。",
+        "present-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-26"
     },
@@ -2262,11 +2054,9 @@ export default {
       "masked": "The ____ answered questions at the end.",
       "options": [
         "present-mcq-26",
-        "present-mcq-25",
-        "present-mcq-27",
-        "present-mcq-24",
-        "present-mcq-28",
-        "present-mcq-23"
+        "present-mcq-30",
+        "present-mcq-31",
+        "present-mcq-24"
       ],
       "explanation": "本句的「presenter」指「負責向觀眾正式講解或匯報內容的人」。",
       "sentenceIndex": 52,
@@ -2275,12 +2065,10 @@ export default {
         "presenter"
       ],
       "optionReasons": {
-        "present-mcq-26": "本句指「負責向觀眾正式講解或匯報內容的人」。",
-        "present-mcq-25": "「正式頒授獎項、證書或禮物的行為／儀式」是「presentation — award giving」的用法，與本句語境不同。",
-        "present-mcq-27": "「負責主持電視、電台或其他節目的主持人」是「presenter — TV/radio」的用法，與本句語境不同。",
-        "present-mcq-24": "「某樣東西被展示、安排或呈現給別人看的方式」是「presentation — display」的用法，與本句語境不同。",
-        "present-mcq-28": "「外觀整潔、得體，達到適合正式見人或展示的程度」是「presentable — appearance」的用法，與本句語境不同。",
-        "present-mcq-23": "「向觀眾正式介紹、講解或匯報資料的活動／內容」是「presentation — formal talk/report」的用法，與本句語境不同。"
+        "present-mcq-26": "本句的「presenter」指「負責向觀眾正式講解或匯報內容的人」。",
+        "present-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-26"
     },
@@ -2292,11 +2080,9 @@ export default {
       "masked": "She works as a television ____.",
       "options": [
         "present-mcq-27",
-        "present-mcq-26",
-        "present-mcq-28",
-        "present-mcq-25",
-        "present-mcq-29",
-        "present-mcq-24"
+        "present-mcq-09",
+        "present-mcq-10",
+        "present-mcq-17"
       ],
       "explanation": "本句的「presenter」指「負責主持電視、電台或其他節目的主持人」。",
       "sentenceIndex": 53,
@@ -2305,12 +2091,10 @@ export default {
         "presenter"
       ],
       "optionReasons": {
-        "present-mcq-27": "本句指「負責主持電視、電台或其他節目的主持人」。",
-        "present-mcq-26": "「負責向觀眾正式講解或匯報內容的人」是「presenter — speaker」的用法，與本句語境不同。",
-        "present-mcq-28": "「外觀整潔、得體，達到適合正式見人或展示的程度」是「presentable — appearance」的用法，與本句語境不同。",
-        "present-mcq-25": "「正式頒授獎項、證書或禮物的行為／儀式」是「presentation — award giving」的用法，與本句語境不同。",
-        "present-mcq-29": "「品質或外觀達到可以正式提交或展示給別人的程度」是「presentable — work/product」的用法，與本句語境不同。",
-        "present-mcq-24": "「某樣東西被展示、安排或呈現給別人看的方式」是「presentation — display」的用法，與本句語境不同。"
+        "present-mcq-27": "本句的「presenter」指「負責主持電視、電台或其他節目的主持人」。",
+        "present-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-27"
     },
@@ -2322,11 +2106,9 @@ export default {
       "masked": "The radio ____ interviewed two guests.",
       "options": [
         "present-mcq-27",
-        "present-mcq-26",
-        "present-mcq-28",
-        "present-mcq-25",
-        "present-mcq-29",
-        "present-mcq-24"
+        "present-mcq-20",
+        "present-mcq-06",
+        "present-mcq-12"
       ],
       "explanation": "本句的「presenter」指「負責主持電視、電台或其他節目的主持人」。",
       "sentenceIndex": 54,
@@ -2335,12 +2117,10 @@ export default {
         "presenter"
       ],
       "optionReasons": {
-        "present-mcq-27": "本句指「負責主持電視、電台或其他節目的主持人」。",
-        "present-mcq-26": "「負責向觀眾正式講解或匯報內容的人」是「presenter — speaker」的用法，與本句語境不同。",
-        "present-mcq-28": "「外觀整潔、得體，達到適合正式見人或展示的程度」是「presentable — appearance」的用法，與本句語境不同。",
-        "present-mcq-25": "「正式頒授獎項、證書或禮物的行為／儀式」是「presentation — award giving」的用法，與本句語境不同。",
-        "present-mcq-29": "「品質或外觀達到可以正式提交或展示給別人的程度」是「presentable — work/product」的用法，與本句語境不同。",
-        "present-mcq-24": "「某樣東西被展示、安排或呈現給別人看的方式」是「presentation — display」的用法，與本句語境不同。"
+        "present-mcq-27": "本句的「presenter」指「負責主持電視、電台或其他節目的主持人」。",
+        "present-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-27"
     },
@@ -2352,11 +2132,9 @@ export default {
       "masked": "I wanted to look ____able before going on stage.",
       "options": [
         "present-mcq-28",
-        "present-mcq-27",
-        "present-mcq-29",
-        "present-mcq-26",
-        "present-mcq-30",
-        "present-mcq-25"
+        "present-mcq-07",
+        "present-mcq-12",
+        "present-mcq-17"
       ],
       "explanation": "本句的「present」指「外觀整潔、得體，達到適合正式見人或展示的程度」。",
       "sentenceIndex": 55,
@@ -2365,12 +2143,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-28": "本句指「外觀整潔、得體，達到適合正式見人或展示的程度」。",
-        "present-mcq-27": "「負責主持電視、電台或其他節目的主持人」是「presenter — TV/radio」的用法，與本句語境不同。",
-        "present-mcq-29": "「品質或外觀達到可以正式提交或展示給別人的程度」是「presentable — work/product」的用法，與本句語境不同。",
-        "present-mcq-26": "「負責向觀眾正式講解或匯報內容的人」是「presenter — speaker」的用法，與本句語境不同。",
-        "present-mcq-30": "「在目前這個時間；目前／現時」是「presently — currently」的用法，與本句語境不同。",
-        "present-mcq-25": "「正式頒授獎項、證書或禮物的行為／儀式」是「presentation — award giving」的用法，與本句語境不同。"
+        "present-mcq-28": "本句的「present」指「外觀整潔、得體，達到適合正式見人或展示的程度」。",
+        "present-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-28"
     },
@@ -2382,11 +2158,9 @@ export default {
       "masked": "The room needs cleaning before it is ____able.",
       "options": [
         "present-mcq-28",
-        "present-mcq-27",
-        "present-mcq-29",
-        "present-mcq-26",
-        "present-mcq-30",
-        "present-mcq-25"
+        "present-mcq-31",
+        "present-mcq-09",
+        "present-mcq-16"
       ],
       "explanation": "本句的「present」指「外觀整潔、得體，達到適合正式見人或展示的程度」。",
       "sentenceIndex": 56,
@@ -2395,12 +2169,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-28": "本句指「外觀整潔、得體，達到適合正式見人或展示的程度」。",
-        "present-mcq-27": "「負責主持電視、電台或其他節目的主持人」是「presenter — TV/radio」的用法，與本句語境不同。",
-        "present-mcq-29": "「品質或外觀達到可以正式提交或展示給別人的程度」是「presentable — work/product」的用法，與本句語境不同。",
-        "present-mcq-26": "「負責向觀眾正式講解或匯報內容的人」是「presenter — speaker」的用法，與本句語境不同。",
-        "present-mcq-30": "「在目前這個時間；目前／現時」是「presently — currently」的用法，與本句語境不同。",
-        "present-mcq-25": "「正式頒授獎項、證書或禮物的行為／儀式」是「presentation — award giving」的用法，與本句語境不同。"
+        "present-mcq-28": "本句的「present」指「外觀整潔、得體，達到適合正式見人或展示的程度」。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-28"
     },
@@ -2412,11 +2184,9 @@ export default {
       "masked": "The first draft is not yet ____able.",
       "options": [
         "present-mcq-29",
-        "present-mcq-28",
-        "present-mcq-30",
-        "present-mcq-27",
-        "present-mcq-31",
-        "present-mcq-26"
+        "present-mcq-11",
+        "present-mcq-21",
+        "present-mcq-10"
       ],
       "explanation": "本句的「present」指「品質或外觀達到可以正式提交或展示給別人的程度」。",
       "sentenceIndex": 57,
@@ -2425,12 +2195,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-29": "本句指「品質或外觀達到可以正式提交或展示給別人的程度」。",
-        "present-mcq-28": "「外觀整潔、得體，達到適合正式見人或展示的程度」是「presentable — appearance」的用法，與本句語境不同。",
-        "present-mcq-30": "「在目前這個時間；目前／現時」是「presently — currently」的用法，與本句語境不同。",
-        "present-mcq-27": "「負責主持電視、電台或其他節目的主持人」是「presenter — TV/radio」的用法，與本句語境不同。",
-        "present-mcq-31": "「在不久之後；很快／待會兒」是「presently — soon」的用法，與本句語境不同。",
-        "present-mcq-26": "「負責向觀眾正式講解或匯報內容的人」是「presenter — speaker」的用法，與本句語境不同。"
+        "present-mcq-29": "本句的「present」指「品質或外觀達到可以正式提交或展示給別人的程度」。",
+        "present-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-29"
     },
@@ -2442,11 +2210,9 @@ export default {
       "masked": "We need to make the slides more ____able.",
       "options": [
         "present-mcq-29",
-        "present-mcq-28",
-        "present-mcq-30",
-        "present-mcq-27",
+        "present-mcq-17",
         "present-mcq-31",
-        "present-mcq-26"
+        "present-mcq-11"
       ],
       "explanation": "本句的「present」指「品質或外觀達到可以正式提交或展示給別人的程度」。",
       "sentenceIndex": 58,
@@ -2455,12 +2221,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-29": "本句指「品質或外觀達到可以正式提交或展示給別人的程度」。",
-        "present-mcq-28": "「外觀整潔、得體，達到適合正式見人或展示的程度」是「presentable — appearance」的用法，與本句語境不同。",
-        "present-mcq-30": "「在目前這個時間；目前／現時」是「presently — currently」的用法，與本句語境不同。",
-        "present-mcq-27": "「負責主持電視、電台或其他節目的主持人」是「presenter — TV/radio」的用法，與本句語境不同。",
-        "present-mcq-31": "「在不久之後；很快／待會兒」是「presently — soon」的用法，與本句語境不同。",
-        "present-mcq-26": "「負責向觀眾正式講解或匯報內容的人」是「presenter — speaker」的用法，與本句語境不同。"
+        "present-mcq-29": "本句的「present」指「品質或外觀達到可以正式提交或展示給別人的程度」。",
+        "present-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-29"
     },
@@ -2472,11 +2236,9 @@ export default {
       "masked": "She is ____ly working on another project.",
       "options": [
         "present-mcq-30",
-        "present-mcq-29",
+        "present-mcq-26",
         "present-mcq-31",
-        "present-mcq-28",
-        "present-mcq-27",
-        "present-mcq-26"
+        "present-mcq-15"
       ],
       "explanation": "本句的「present」指「在目前這個時間；目前／現時」。",
       "sentenceIndex": 59,
@@ -2485,12 +2247,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-30": "本句指「在目前這個時間；目前／現時」。",
-        "present-mcq-29": "「品質或外觀達到可以正式提交或展示給別人的程度」是「presentable — work/product」的用法，與本句語境不同。",
-        "present-mcq-31": "「在不久之後；很快／待會兒」是「presently — soon」的用法，與本句語境不同。",
-        "present-mcq-28": "「外觀整潔、得體，達到適合正式見人或展示的程度」是「presentable — appearance」的用法，與本句語境不同。",
-        "present-mcq-27": "「負責主持電視、電台或其他節目的主持人」是「presenter — TV/radio」的用法，與本句語境不同。",
-        "present-mcq-26": "「負責向觀眾正式講解或匯報內容的人」是「presenter — speaker」的用法，與本句語境不同。"
+        "present-mcq-30": "本句的「present」指「在目前這個時間；目前／現時」。",
+        "present-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-30"
     },
@@ -2502,11 +2262,9 @@ export default {
       "masked": "The service is ____ly unavailable.",
       "options": [
         "present-mcq-30",
-        "present-mcq-29",
-        "present-mcq-31",
-        "present-mcq-28",
-        "present-mcq-27",
-        "present-mcq-26"
+        "present-mcq-08",
+        "present-mcq-23",
+        "present-mcq-31"
       ],
       "explanation": "本句的「present」指「在目前這個時間；目前／現時」。",
       "sentenceIndex": 60,
@@ -2515,12 +2273,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-30": "本句指「在目前這個時間；目前／現時」。",
-        "present-mcq-29": "「品質或外觀達到可以正式提交或展示給別人的程度」是「presentable — work/product」的用法，與本句語境不同。",
-        "present-mcq-31": "「在不久之後；很快／待會兒」是「presently — soon」的用法，與本句語境不同。",
-        "present-mcq-28": "「外觀整潔、得體，達到適合正式見人或展示的程度」是「presentable — appearance」的用法，與本句語境不同。",
-        "present-mcq-27": "「負責主持電視、電台或其他節目的主持人」是「presenter — TV/radio」的用法，與本句語境不同。",
-        "present-mcq-26": "「負責向觀眾正式講解或匯報內容的人」是「presenter — speaker」的用法，與本句語境不同。"
+        "present-mcq-30": "本句的「present」指「在目前這個時間；目前／現時」。",
+        "present-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-30"
     },
@@ -2532,11 +2288,9 @@ export default {
       "masked": "The manager will see you ____ly.",
       "options": [
         "present-mcq-31",
-        "present-mcq-30",
-        "present-mcq-29",
-        "present-mcq-28",
-        "present-mcq-27",
-        "present-mcq-26"
+        "present-mcq-14",
+        "present-mcq-01",
+        "present-mcq-27"
       ],
       "explanation": "本句的「present」指「在不久之後；很快／待會兒」。",
       "sentenceIndex": 61,
@@ -2545,12 +2299,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-31": "本句指「在不久之後；很快／待會兒」。",
-        "present-mcq-30": "「在目前這個時間；目前／現時」是「presently — currently」的用法，與本句語境不同。",
-        "present-mcq-29": "「品質或外觀達到可以正式提交或展示給別人的程度」是「presentable — work/product」的用法，與本句語境不同。",
-        "present-mcq-28": "「外觀整潔、得體，達到適合正式見人或展示的程度」是「presentable — appearance」的用法，與本句語境不同。",
-        "present-mcq-27": "「負責主持電視、電台或其他節目的主持人」是「presenter — TV/radio」的用法，與本句語境不同。",
-        "present-mcq-26": "「負責向觀眾正式講解或匯報內容的人」是「presenter — speaker」的用法，與本句語境不同。"
+        "present-mcq-31": "本句的「present」指「在不久之後；很快／待會兒」。",
+        "present-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-31"
     },
@@ -2562,11 +2314,9 @@ export default {
       "masked": "She returned ____ly with the documents.",
       "options": [
         "present-mcq-31",
-        "present-mcq-30",
-        "present-mcq-29",
-        "present-mcq-28",
-        "present-mcq-27",
-        "present-mcq-26"
+        "present-mcq-07",
+        "present-mcq-17",
+        "present-mcq-28"
       ],
       "explanation": "本句的「present」指「在不久之後；很快／待會兒」。",
       "sentenceIndex": 62,
@@ -2575,12 +2325,10 @@ export default {
         "present"
       ],
       "optionReasons": {
-        "present-mcq-31": "本句指「在不久之後；很快／待會兒」。",
-        "present-mcq-30": "「在目前這個時間；目前／現時」是「presently — currently」的用法，與本句語境不同。",
-        "present-mcq-29": "「品質或外觀達到可以正式提交或展示給別人的程度」是「presentable — work/product」的用法，與本句語境不同。",
-        "present-mcq-28": "「外觀整潔、得體，達到適合正式見人或展示的程度」是「presentable — appearance」的用法，與本句語境不同。",
-        "present-mcq-27": "「負責主持電視、電台或其他節目的主持人」是「presenter — TV/radio」的用法，與本句語境不同。",
-        "present-mcq-26": "「負責向觀眾正式講解或匯報內容的人」是「presenter — speaker」的用法，與本句語境不同。"
+        "present-mcq-31": "本句的「present」指「在不久之後；很快／待會兒」。",
+        "present-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "present-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "present-mcq-31"
     }
@@ -2592,5 +2340,7 @@ export default {
     "sha256": "ca50611b2ef2c4d633c5511d369ab7ba5a222abdc5402e196fcdb00e6b780e35",
     "pages": 31
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

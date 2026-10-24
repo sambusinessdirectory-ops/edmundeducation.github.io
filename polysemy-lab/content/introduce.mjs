@@ -493,11 +493,6 @@ export default {
           "Thanks for the introduction.",
           "謝謝你的介紹。",
           "向第三者介紹某人的介紹信"
-        ],
-        [
-          "The introduction of online booking reduced waiting times.",
-          "網上預約的引入縮短了等候時間。",
-          "向第三者介紹某人的介紹信"
         ]
       ],
       "options": [],
@@ -552,6 +547,23 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "introduce-reviewed-ee6746967d",
+      "title": "引入；推出",
+      "form": "introduce · source section 80",
+      "en": "引入；推出",
+      "zh": "引入；推出",
+      "note": "對照原始教材第 80 節及例句核實。",
+      "examples": [
+        [
+          "The introduction of online booking reduced waiting times.",
+          "網上預約的引入縮短了等候時間。",
+          "引入；推出"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -563,11 +575,9 @@ export default {
       "masked": "The restaurant ____ a ninety-minute seating limit.",
       "options": [
         "introduce-mcq-04",
-        "introduce-mcq-03",
-        "introduce-mcq-05",
-        "introduce-mcq-02",
-        "introduce-mcq-06",
-        "introduce-mcq-01"
+        "introduce-mcq-18",
+        "introduce-mcq-21",
+        "introduce-mcq-33"
       ],
       "explanation": "本句的「introduced」指「引入／實施新的改動」。",
       "sentenceIndex": 0,
@@ -576,12 +586,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-04": "本句指「引入／實施新的改動」。",
-        "introduce-mcq-03": "「開始使用一套新制度／系統」與本句語境不同。",
-        "introduce-mcq-05": "「把法案正式提交立法程序審議」與本句語境不同。",
-        "introduce-mcq-02": "「推出新的措施」與本句語境不同。",
-        "introduce-mcq-06": "「提出／引入新的立法」與本句語境不同。",
-        "introduce-mcq-01": "「把新的政策／規則正式帶入現有制度並開始採用」與本句語境不同。"
+        "introduce-mcq-04": "本句的「introduced」指「引入／實施新的改動」。",
+        "introduce-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-04"
     },
@@ -593,11 +601,9 @@ export default {
       "masked": "The school ____ a new attendance policy.",
       "options": [
         "introduce-mcq-04",
-        "introduce-mcq-03",
-        "introduce-mcq-05",
-        "introduce-mcq-02",
-        "introduce-mcq-06",
-        "introduce-mcq-01"
+        "introduce-mcq-11",
+        "introduce-mcq-17",
+        "introduce-mcq-05"
       ],
       "explanation": "本句的「introduced」指「引入／實施新的改動」。",
       "sentenceIndex": 1,
@@ -606,12 +612,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-04": "本句指「引入／實施新的改動」。",
-        "introduce-mcq-03": "「開始使用一套新制度／系統」與本句語境不同。",
-        "introduce-mcq-05": "「把法案正式提交立法程序審議」與本句語境不同。",
-        "introduce-mcq-02": "「推出新的措施」與本句語境不同。",
-        "introduce-mcq-06": "「提出／引入新的立法」與本句語境不同。",
-        "introduce-mcq-01": "「把新的政策／規則正式帶入現有制度並開始採用」與本句語境不同。"
+        "introduce-mcq-04": "本句的「introduced」指「引入／實施新的改動」。",
+        "introduce-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-04"
     },
@@ -623,11 +627,9 @@ export default {
       "masked": "The company plans to ____ flexible working arrangements.",
       "options": [
         "introduce-mcq-04",
-        "introduce-mcq-03",
-        "introduce-mcq-05",
-        "introduce-mcq-02",
-        "introduce-mcq-06",
-        "introduce-mcq-01"
+        "introduce-mcq-07",
+        "introduce-mcq-21",
+        "introduce-mcq-17"
       ],
       "explanation": "本句的「introduce」指「引入／實施新的改動」。",
       "sentenceIndex": 2,
@@ -636,12 +638,10 @@ export default {
         "introduce"
       ],
       "optionReasons": {
-        "introduce-mcq-04": "本句指「引入／實施新的改動」。",
-        "introduce-mcq-03": "「開始使用一套新制度／系統」與本句語境不同。",
-        "introduce-mcq-05": "「把法案正式提交立法程序審議」與本句語境不同。",
-        "introduce-mcq-02": "「推出新的措施」與本句語境不同。",
-        "introduce-mcq-06": "「提出／引入新的立法」與本句語境不同。",
-        "introduce-mcq-01": "「把新的政策／規則正式帶入現有制度並開始採用」與本句語境不同。"
+        "introduce-mcq-04": "本句的「introduce」指「引入／實施新的改動」。",
+        "introduce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-04"
     },
@@ -653,11 +653,9 @@ export default {
       "masked": "Management ____ a clearer policy on table use.",
       "options": [
         "introduce-mcq-01",
-        "introduce-mcq-02",
-        "introduce-mcq-03",
-        "introduce-mcq-04",
-        "introduce-mcq-05",
-        "introduce-mcq-06"
+        "introduce-mcq-07",
+        "introduce-mcq-18",
+        "introduce-mcq-21"
       ],
       "explanation": "本句的「introduced」指「把新的政策／規則正式帶入現有制度並開始採用」。",
       "sentenceIndex": 3,
@@ -666,12 +664,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-01": "本句指「把新的政策／規則正式帶入現有制度並開始採用」。",
-        "introduce-mcq-02": "「推出新的措施」與本句語境不同。",
-        "introduce-mcq-03": "「開始使用一套新制度／系統」與本句語境不同。",
-        "introduce-mcq-04": "「引入／實施新的改動」與本句語境不同。",
-        "introduce-mcq-05": "「把法案正式提交立法程序審議」與本句語境不同。",
-        "introduce-mcq-06": "「提出／引入新的立法」與本句語境不同。"
+        "introduce-mcq-01": "本句的「introduced」指「把新的政策／規則正式帶入現有制度並開始採用」。",
+        "introduce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-01"
     },
@@ -683,11 +679,9 @@ export default {
       "masked": "The organization ____ measures to reduce overcrowding.",
       "options": [
         "introduce-mcq-02",
-        "introduce-mcq-01",
-        "introduce-mcq-03",
-        "introduce-mcq-04",
         "introduce-mcq-05",
-        "introduce-mcq-06"
+        "introduce-mcq-15",
+        "introduce-mcq-23"
       ],
       "explanation": "本句的「introduced」指「推出新的措施」。",
       "sentenceIndex": 4,
@@ -696,12 +690,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-02": "本句指「推出新的措施」。",
-        "introduce-mcq-01": "「把新的政策／規則正式帶入現有制度並開始採用」與本句語境不同。",
-        "introduce-mcq-03": "「開始使用一套新制度／系統」與本句語境不同。",
-        "introduce-mcq-04": "「引入／實施新的改動」與本句語境不同。",
-        "introduce-mcq-05": "「把法案正式提交立法程序審議」與本句語境不同。",
-        "introduce-mcq-06": "「提出／引入新的立法」與本句語境不同。"
+        "introduce-mcq-02": "本句的「introduced」指「推出新的措施」。",
+        "introduce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-02"
     },
@@ -713,11 +705,9 @@ export default {
       "masked": "A bill was ____ to change the licensing rules.",
       "options": [
         "introduce-mcq-05",
-        "introduce-mcq-04",
-        "introduce-mcq-06",
-        "introduce-mcq-03",
-        "introduce-mcq-07",
-        "introduce-mcq-02"
+        "introduce-mcq-17",
+        "introduce-mcq-10",
+        "introduce-mcq-23"
       ],
       "explanation": "本句的「introduced」指「把法案正式提交立法程序審議」。",
       "sentenceIndex": 5,
@@ -726,12 +716,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-05": "本句指「把法案正式提交立法程序審議」。",
-        "introduce-mcq-04": "「引入／實施新的改動」與本句語境不同。",
-        "introduce-mcq-06": "「提出／引入新的立法」與本句語境不同。",
-        "introduce-mcq-03": "「開始使用一套新制度／系統」與本句語境不同。",
-        "introduce-mcq-07": "「把兩人介紹給彼此認識」與本句語境不同。",
-        "introduce-mcq-02": "「推出新的措施」與本句語境不同。"
+        "introduce-mcq-05": "本句的「introduced」指「把法案正式提交立法程序審議」。",
+        "introduce-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-05"
     },
@@ -743,11 +731,9 @@ export default {
       "masked": "Let me ____ my colleague.",
       "options": [
         "introduce-mcq-07",
-        "introduce-mcq-06",
-        "introduce-mcq-08",
-        "introduce-mcq-05",
-        "introduce-mcq-09",
-        "introduce-mcq-04"
+        "introduce-mcq-02",
+        "introduce-mcq-20",
+        "introduce-mcq-23"
       ],
       "explanation": "本句的「introduce you to」指「把兩人介紹給彼此認識」。",
       "sentenceIndex": 6,
@@ -756,12 +742,10 @@ export default {
         "introduce you to"
       ],
       "optionReasons": {
-        "introduce-mcq-07": "本句指「把兩人介紹給彼此認識」。",
-        "introduce-mcq-06": "「提出／引入新的立法」與本句語境不同。",
-        "introduce-mcq-08": "「向別人說明自己的姓名／身分；自我介紹」與本句語境不同。",
-        "introduce-mcq-05": "「把法案正式提交立法程序審議」與本句語境不同。",
-        "introduce-mcq-09": "「以某職位／身分介紹某人」與本句語境不同。",
-        "introduce-mcq-04": "「引入／實施新的改動」與本句語境不同。"
+        "introduce-mcq-07": "本句的「introduce you to」指「把兩人介紹給彼此認識」。",
+        "introduce-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-07"
     },
@@ -773,11 +757,9 @@ export default {
       "masked": "She ____ me to her parents.",
       "options": [
         "introduce-mcq-07",
-        "introduce-mcq-06",
-        "introduce-mcq-08",
-        "introduce-mcq-05",
-        "introduce-mcq-09",
-        "introduce-mcq-04"
+        "introduce-mcq-01",
+        "introduce-mcq-18",
+        "introduce-mcq-21"
       ],
       "explanation": "本句的「introduced」指「把兩人介紹給彼此認識」。",
       "sentenceIndex": 7,
@@ -786,12 +768,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-07": "本句指「把兩人介紹給彼此認識」。",
-        "introduce-mcq-06": "「提出／引入新的立法」與本句語境不同。",
-        "introduce-mcq-08": "「向別人說明自己的姓名／身分；自我介紹」與本句語境不同。",
-        "introduce-mcq-05": "「把法案正式提交立法程序審議」與本句語境不同。",
-        "introduce-mcq-09": "「以某職位／身分介紹某人」與本句語境不同。",
-        "introduce-mcq-04": "「引入／實施新的改動」與本句語境不同。"
+        "introduce-mcq-07": "本句的「introduced」指「把兩人介紹給彼此認識」。",
+        "introduce-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-07"
     },
@@ -803,11 +783,9 @@ export default {
       "masked": "She ____ herself to the group.",
       "options": [
         "introduce-mcq-08",
-        "introduce-mcq-07",
-        "introduce-mcq-09",
-        "introduce-mcq-06",
-        "introduce-mcq-10",
-        "introduce-mcq-05"
+        "introduce-mcq-14",
+        "introduce-mcq-05",
+        "introduce-mcq-17"
       ],
       "explanation": "本句的「introduced」指「向別人說明自己的姓名／身分；自我介紹」。",
       "sentenceIndex": 8,
@@ -816,12 +794,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-08": "本句指「向別人說明自己的姓名／身分；自我介紹」。",
-        "introduce-mcq-07": "「把兩人介紹給彼此認識」與本句語境不同。",
-        "introduce-mcq-09": "「以某職位／身分介紹某人」與本句語境不同。",
-        "introduce-mcq-06": "「提出／引入新的立法」與本句語境不同。",
-        "introduce-mcq-10": "「向觀眾介紹即將發言的人」與本句語境不同。",
-        "introduce-mcq-05": "「把法案正式提交立法程序審議」與本句語境不同。"
+        "introduce-mcq-08": "本句的「introduced」指「向別人說明自己的姓名／身分；自我介紹」。",
+        "introduce-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-08"
     },
@@ -833,11 +809,9 @@ export default {
       "masked": "She ____ him as the new manager.",
       "options": [
         "introduce-mcq-09",
-        "introduce-mcq-08",
-        "introduce-mcq-10",
-        "introduce-mcq-07",
-        "introduce-mcq-11",
-        "introduce-mcq-06"
+        "introduce-mcq-20",
+        "introduce-mcq-15",
+        "introduce-mcq-04"
       ],
       "explanation": "本句的「introduced」指「以某職位／身分介紹某人」。",
       "sentenceIndex": 9,
@@ -846,12 +820,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-09": "本句指「以某職位／身分介紹某人」。",
-        "introduce-mcq-08": "「向別人說明自己的姓名／身分；自我介紹」與本句語境不同。",
-        "introduce-mcq-10": "「向觀眾介紹即將發言的人」與本句語境不同。",
-        "introduce-mcq-07": "「把兩人介紹給彼此認識」與本句語境不同。",
-        "introduce-mcq-11": "「讓某人初次接觸／認識一個主題」與本句語境不同。",
-        "introduce-mcq-06": "「提出／引入新的立法」與本句語境不同。"
+        "introduce-mcq-09": "本句的「introduced」指「以某職位／身分介紹某人」。",
+        "introduce-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-09"
     },
@@ -863,11 +835,9 @@ export default {
       "masked": "The host ____ the next speaker.",
       "options": [
         "introduce-mcq-10",
-        "introduce-mcq-09",
-        "introduce-mcq-11",
-        "introduce-mcq-08",
-        "introduce-mcq-12",
-        "introduce-mcq-07"
+        "introduce-mcq-30",
+        "introduce-mcq-14",
+        "introduce-mcq-20"
       ],
       "explanation": "本句的「introduced」指「向觀眾介紹即將發言的人」。",
       "sentenceIndex": 10,
@@ -876,12 +846,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-10": "本句指「向觀眾介紹即將發言的人」。",
-        "introduce-mcq-09": "「以某職位／身分介紹某人」與本句語境不同。",
-        "introduce-mcq-11": "「讓某人初次接觸／認識一個主題」與本句語境不同。",
-        "introduce-mcq-08": "「向別人說明自己的姓名／身分；自我介紹」與本句語境不同。",
-        "introduce-mcq-12": "「首次把某議題／概念帶入課堂、文章或討論」與本句語境不同。",
-        "introduce-mcq-07": "「把兩人介紹給彼此認識」與本句語境不同。"
+        "introduce-mcq-10": "本句的「introduced」指「向觀眾介紹即將發言的人」。",
+        "introduce-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-10"
     },
@@ -893,11 +861,9 @@ export default {
       "masked": "My teacher ____ me to classical music.",
       "options": [
         "introduce-mcq-11",
-        "introduce-mcq-10",
-        "introduce-mcq-12",
-        "introduce-mcq-09",
-        "introduce-mcq-13",
-        "introduce-mcq-08"
+        "introduce-mcq-01",
+        "introduce-mcq-23",
+        "introduce-reviewed-ee6746967d"
       ],
       "explanation": "本句的「introduced」指「讓某人初次接觸／認識一個主題」。",
       "sentenceIndex": 11,
@@ -906,12 +872,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-11": "本句指「讓某人初次接觸／認識一個主題」。",
-        "introduce-mcq-10": "「向觀眾介紹即將發言的人」與本句語境不同。",
-        "introduce-mcq-12": "「首次把某議題／概念帶入課堂、文章或討論」與本句語境不同。",
-        "introduce-mcq-09": "「以某職位／身分介紹某人」與本句語境不同。",
-        "introduce-mcq-13": "「文章開始時交代背景、目的、主題的引言」與本句語境不同。",
-        "introduce-mcq-08": "「向別人說明自己的姓名／身分；自我介紹」與本句語境不同。"
+        "introduce-mcq-11": "本句的「introduced」指「讓某人初次接觸／認識一個主題」。",
+        "introduce-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "introduce-reviewed-ee6746967d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-11"
     },
@@ -923,11 +887,9 @@ export default {
       "masked": "The course ____ students to basic economics.",
       "options": [
         "introduce-mcq-11",
-        "introduce-mcq-10",
-        "introduce-mcq-12",
-        "introduce-mcq-09",
-        "introduce-mcq-13",
-        "introduce-mcq-08"
+        "introduce-mcq-02",
+        "introduce-mcq-21",
+        "introduce-mcq-23"
       ],
       "explanation": "本句的「introduces」指「讓某人初次接觸／認識一個主題」。",
       "sentenceIndex": 12,
@@ -936,12 +898,10 @@ export default {
         "introduces"
       ],
       "optionReasons": {
-        "introduce-mcq-11": "本句指「讓某人初次接觸／認識一個主題」。",
-        "introduce-mcq-10": "「向觀眾介紹即將發言的人」與本句語境不同。",
-        "introduce-mcq-12": "「首次把某議題／概念帶入課堂、文章或討論」與本句語境不同。",
-        "introduce-mcq-09": "「以某職位／身分介紹某人」與本句語境不同。",
-        "introduce-mcq-13": "「文章開始時交代背景、目的、主題的引言」與本句語境不同。",
-        "introduce-mcq-08": "「向別人說明自己的姓名／身分；自我介紹」與本句語境不同。"
+        "introduce-mcq-11": "本句的「introduces」指「讓某人初次接觸／認識一個主題」。",
+        "introduce-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-11"
     },
@@ -953,11 +913,9 @@ export default {
       "masked": "The next chapter ____ the concept of opportunity cost.",
       "options": [
         "introduce-mcq-12",
-        "introduce-mcq-11",
-        "introduce-mcq-13",
-        "introduce-mcq-10",
-        "introduce-mcq-14",
-        "introduce-mcq-09"
+        "introduce-mcq-07",
+        "introduce-mcq-21",
+        "introduce-mcq-18"
       ],
       "explanation": "本句的「introduces」指「首次把某議題／概念帶入課堂、文章或討論」。",
       "sentenceIndex": 13,
@@ -966,12 +924,10 @@ export default {
         "introduces"
       ],
       "optionReasons": {
-        "introduce-mcq-12": "本句指「首次把某議題／概念帶入課堂、文章或討論」。",
-        "introduce-mcq-11": "「讓某人初次接觸／認識一個主題」與本句語境不同。",
-        "introduce-mcq-13": "「文章開始時交代背景、目的、主題的引言」與本句語境不同。",
-        "introduce-mcq-10": "「向觀眾介紹即將發言的人」與本句語境不同。",
-        "introduce-mcq-14": "「某學科／主題的基本入門內容」與本句語境不同。",
-        "introduce-mcq-09": "「以某職位／身分介紹某人」與本句語境不同。"
+        "introduce-mcq-12": "本句的「introduces」指「首次把某議題／概念帶入課堂、文章或討論」。",
+        "introduce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-12"
     },
@@ -983,11 +939,9 @@ export default {
       "masked": "The ____ explains the purpose of the report.",
       "options": [
         "introduce-mcq-13",
-        "introduce-mcq-12",
-        "introduce-mcq-14",
-        "introduce-mcq-11",
-        "introduce-mcq-15",
-        "introduce-mcq-10"
+        "introduce-mcq-02",
+        "introduce-mcq-08",
+        "introduce-mcq-15"
       ],
       "explanation": "本句的「introduction」指「文章開始時交代背景、目的、主題的引言」。",
       "sentenceIndex": 14,
@@ -996,12 +950,10 @@ export default {
         "introduction"
       ],
       "optionReasons": {
-        "introduce-mcq-13": "本句指「文章開始時交代背景、目的、主題的引言」。",
-        "introduce-mcq-12": "「首次把某議題／概念帶入課堂、文章或討論」與本句語境不同。",
-        "introduce-mcq-14": "「某學科／主題的基本入門內容」與本句語境不同。",
-        "introduce-mcq-11": "「讓某人初次接觸／認識一個主題」與本句語境不同。",
-        "introduce-mcq-15": "「為初學者設計的入門課程」與本句語境不同。",
-        "introduce-mcq-10": "「向觀眾介紹即將發言的人」與本句語境不同。"
+        "introduce-mcq-13": "本句的「introduction」指「文章開始時交代背景、目的、主題的引言」。",
+        "introduce-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-13"
     },
@@ -1013,11 +965,9 @@ export default {
       "masked": "She took an ____ course in psychology.",
       "options": [
         "introduce-mcq-15",
-        "introduce-mcq-14",
-        "introduce-mcq-16",
-        "introduce-mcq-13",
-        "introduce-mcq-17",
-        "introduce-mcq-12"
+        "introduce-mcq-07",
+        "introduce-mcq-30",
+        "introduce-mcq-13"
       ],
       "explanation": "本句的「introductory」指「為初學者設計的入門課程」。",
       "sentenceIndex": 15,
@@ -1026,12 +976,10 @@ export default {
         "introductory"
       ],
       "optionReasons": {
-        "introduce-mcq-15": "本句指「為初學者設計的入門課程」。",
-        "introduce-mcq-14": "「某學科／主題的基本入門內容」與本句語境不同。",
-        "introduce-mcq-16": "「正式內容前的開場白」與本句語境不同。",
-        "introduce-mcq-13": "「文章開始時交代背景、目的、主題的引言」與本句語境不同。",
-        "introduce-mcq-17": "「第一次把產品／服務推出市場供人使用」與本句語境不同。",
-        "introduce-mcq-12": "「首次把某議題／概念帶入課堂、文章或討論」與本句語境不同。"
+        "introduce-mcq-15": "本句的「introductory」指「為初學者設計的入門課程」。",
+        "introduce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-15"
     },
@@ -1043,11 +991,9 @@ export default {
       "masked": "The company ____ a new model last year.",
       "options": [
         "introduce-mcq-17",
-        "introduce-mcq-16",
-        "introduce-mcq-18",
-        "introduce-mcq-15",
-        "introduce-mcq-19",
-        "introduce-mcq-14"
+        "introduce-mcq-14",
+        "introduce-mcq-04",
+        "introduce-mcq-08"
       ],
       "explanation": "本句的「introduced」指「第一次把產品／服務推出市場供人使用」。",
       "sentenceIndex": 16,
@@ -1056,12 +1002,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-17": "本句指「第一次把產品／服務推出市場供人使用」。",
-        "introduce-mcq-16": "「正式內容前的開場白」與本句語境不同。",
-        "introduce-mcq-18": "「產品／服務推出初期提供的優惠價／費率」與本句語境不同。",
-        "introduce-mcq-15": "「為初學者設計的入門課程」與本句語境不同。",
-        "introduce-mcq-19": "「把新產品由開發推進至製造／上市的導入過程」與本句語境不同。",
-        "introduce-mcq-14": "「某學科／主題的基本入門內容」與本句語境不同。"
+        "introduce-mcq-17": "本句的「introduced」指「第一次把產品／服務推出市場供人使用」。",
+        "introduce-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-17"
     },
@@ -1073,11 +1017,9 @@ export default {
       "masked": "The factory ____ automated inspection.",
       "options": [
         "introduce-mcq-18",
-        "introduce-mcq-17",
-        "introduce-mcq-19",
-        "introduce-mcq-16",
-        "introduce-mcq-20",
-        "introduce-mcq-15"
+        "introduce-mcq-33",
+        "introduce-mcq-12",
+        "introduce-mcq-23"
       ],
       "explanation": "本句的「introduced」指「產品／服務推出初期提供的優惠價／費率」。",
       "sentenceIndex": 17,
@@ -1086,12 +1028,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-18": "本句指「產品／服務推出初期提供的優惠價／費率」。",
-        "introduce-mcq-17": "「第一次把產品／服務推出市場供人使用」與本句語境不同。",
-        "introduce-mcq-19": "「把新產品由開發推進至製造／上市的導入過程」與本句語境不同。",
-        "introduce-mcq-16": "「正式內容前的開場白」與本句語境不同。",
-        "introduce-mcq-20": "「把某元素、物質、因素帶入另一系統／環境」與本句語境不同。",
-        "introduce-mcq-15": "「為初學者設計的入門課程」與本句語境不同。"
+        "introduce-mcq-18": "本句的「introduced」指「產品／服務推出初期提供的優惠價／費率」。",
+        "introduce-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-18"
     },
@@ -1103,10 +1043,8 @@ export default {
       "masked": "The change ____ additional complexity into the system.",
       "options": [
         "introduce-mcq-20",
-        "introduce-mcq-19",
-        "introduce-mcq-21",
-        "introduce-mcq-18",
-        "introduce-mcq-22",
+        "introduce-mcq-09",
+        "introduce-mcq-30",
         "introduce-mcq-17"
       ],
       "explanation": "本句的「introduced」指「把某元素、物質、因素帶入另一系統／環境」。",
@@ -1116,12 +1054,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-20": "本句指「把某元素、物質、因素帶入另一系統／環境」。",
-        "introduce-mcq-19": "「把新產品由開發推進至製造／上市的導入過程」與本句語境不同。",
-        "introduce-mcq-21": "「使研究／系統產生原本沒有的偏差／誤差」與本句語境不同。",
-        "introduce-mcq-18": "「產品／服務推出初期提供的優惠價／費率」與本句語境不同。",
-        "introduce-mcq-22": "「把污染物帶入樣本／系統」與本句語境不同。",
-        "introduce-mcq-17": "「第一次把產品／服務推出市場供人使用」與本句語境不同。"
+        "introduce-mcq-20": "本句的「introduced」指「把某元素、物質、因素帶入另一系統／環境」。",
+        "introduce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-20"
     },
@@ -1133,11 +1069,9 @@ export default {
       "masked": "Poor sampling can ____ bias.",
       "options": [
         "introduce-mcq-21",
-        "introduce-mcq-20",
-        "introduce-mcq-22",
-        "introduce-mcq-19",
-        "introduce-mcq-23",
-        "introduce-mcq-18"
+        "introduce-mcq-33",
+        "introduce-mcq-01",
+        "introduce-reviewed-ee6746967d"
       ],
       "explanation": "本句的「introduce」指「使研究／系統產生原本沒有的偏差／誤差」。",
       "sentenceIndex": 19,
@@ -1146,12 +1080,10 @@ export default {
         "introduce"
       ],
       "optionReasons": {
-        "introduce-mcq-21": "本句指「使研究／系統產生原本沒有的偏差／誤差」。",
-        "introduce-mcq-20": "「把某元素、物質、因素帶入另一系統／環境」與本句語境不同。",
-        "introduce-mcq-22": "「把污染物帶入樣本／系統」與本句語境不同。",
-        "introduce-mcq-19": "「把新產品由開發推進至製造／上市的導入過程」與本句語境不同。",
-        "introduce-mcq-23": "「透過人類活動把物種帶到其原生分布以外地區」與本句語境不同。",
-        "introduce-mcq-18": "「產品／服務推出初期提供的優惠價／費率」與本句語境不同。"
+        "introduce-mcq-21": "本句的「introduce」指「使研究／系統產生原本沒有的偏差／誤差」。",
+        "introduce-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "introduce-reviewed-ee6746967d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-21"
     },
@@ -1163,11 +1095,9 @@ export default {
       "masked": "The species was ____ to the island.",
       "options": [
         "introduce-mcq-23",
-        "introduce-mcq-22",
-        "introduce-mcq-24",
-        "introduce-mcq-21",
-        "introduce-mcq-25",
-        "introduce-mcq-20"
+        "introduce-mcq-17",
+        "introduce-mcq-05",
+        "introduce-mcq-31"
       ],
       "explanation": "本句的「introduced」指「透過人類活動把物種帶到其原生分布以外地區」。",
       "sentenceIndex": 20,
@@ -1176,12 +1106,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-23": "本句指「透過人類活動把物種帶到其原生分布以外地區」。",
-        "introduce-mcq-22": "「把污染物帶入樣本／系統」與本句語境不同。",
-        "introduce-mcq-24": "「因人類活動而出現在非原生地區的引入／外來物種」與本句語境不同。",
-        "introduce-mcq-21": "「使研究／系統產生原本沒有的偏差／誤差」與本句語境不同。",
-        "introduce-mcq-25": "「把物種重新放回其過去曾自然分布的地區」與本句語境不同。",
-        "introduce-mcq-20": "「把某元素、物質、因素帶入另一系統／環境」與本句語境不同。"
+        "introduce-mcq-23": "本句的「introduced」指「透過人類活動把物種帶到其原生分布以外地區」。",
+        "introduce-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-23"
     },
@@ -1193,11 +1121,9 @@ export default {
       "masked": "A catheter is ____ into the vessel.",
       "options": [
         "introduce-mcq-27",
-        "introduce-mcq-26",
-        "introduce-mcq-28",
-        "introduce-mcq-25",
-        "introduce-mcq-29",
-        "introduce-mcq-24"
+        "introduce-mcq-21",
+        "introduce-mcq-17",
+        "introduce-mcq-07"
       ],
       "explanation": "本句的「introduced」指「將導管／器械導入或置入身體部位；正式醫療用語」。",
       "sentenceIndex": 21,
@@ -1206,12 +1132,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-27": "本句指「將導管／器械導入或置入身體部位；正式醫療用語」。",
-        "introduce-mcq-26": "「令病原體首次傳入某個環境／群體」與本句語境不同。",
-        "introduce-mcq-28": "「協助導管等進入血管的導入鞘」與本句語境不同。",
-        "introduce-mcq-25": "「把物種重新放回其過去曾自然分布的地區」與本句語境不同。",
-        "introduce-mcq-29": "「在法律程序中正式提出／提交證據」與本句語境不同。",
-        "introduce-mcq-24": "「因人類活動而出現在非原生地區的引入／外來物種」與本句語境不同。"
+        "introduce-mcq-27": "本句的「introduced」指「將導管／器械導入或置入身體部位；正式醫療用語」。",
+        "introduce-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-27"
     },
@@ -1223,11 +1147,9 @@ export default {
       "masked": "The prosecution ____ the document into evidence.",
       "options": [
         "introduce-mcq-29",
-        "introduce-mcq-28",
-        "introduce-mcq-30",
-        "introduce-mcq-27",
-        "introduce-mcq-31",
-        "introduce-mcq-26"
+        "introduce-mcq-12",
+        "introduce-mcq-09",
+        "introduce-mcq-23"
       ],
       "explanation": "本句的「introduced」指「在法律程序中正式提出／提交證據」。",
       "sentenceIndex": 22,
@@ -1236,12 +1158,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-29": "本句指「在法律程序中正式提出／提交證據」。",
-        "introduce-mcq-28": "「協助導管等進入血管的導入鞘」與本句語境不同。",
-        "introduce-mcq-30": "「正式提出一項動議供考慮」與本句語境不同。",
-        "introduce-mcq-27": "「將導管／器械導入或置入身體部位；正式醫療用語」與本句語境不同。",
-        "introduce-mcq-31": "「向第三者介紹某人的介紹信」與本句語境不同。",
-        "introduce-mcq-26": "「令病原體首次傳入某個環境／群體」與本句語境不同。"
+        "introduce-mcq-29": "本句的「introduced」指「在法律程序中正式提出／提交證據」。",
+        "introduce-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-29"
     },
@@ -1253,11 +1173,9 @@ export default {
       "masked": "She ____ a motion to change the procedure.",
       "options": [
         "introduce-mcq-30",
-        "introduce-mcq-29",
+        "introduce-mcq-14",
         "introduce-mcq-31",
-        "introduce-mcq-28",
-        "introduce-mcq-32",
-        "introduce-mcq-27"
+        "introduce-mcq-21"
       ],
       "explanation": "本句的「introduced」指「正式提出一項動議供考慮」。",
       "sentenceIndex": 23,
@@ -1266,12 +1184,10 @@ export default {
         "introduced"
       ],
       "optionReasons": {
-        "introduce-mcq-30": "本句指「正式提出一項動議供考慮」。",
-        "introduce-mcq-29": "「在法律程序中正式提出／提交證據」與本句語境不同。",
-        "introduce-mcq-31": "「向第三者介紹某人的介紹信」與本句語境不同。",
-        "introduce-mcq-28": "「協助導管等進入血管的導入鞘」與本句語境不同。",
-        "introduce-mcq-32": "「歌曲／樂曲主體前的前奏／引子」與本句語境不同。",
-        "introduce-mcq-27": "「將導管／器械導入或置入身體部位；正式醫療用語」與本句語境不同。"
+        "introduce-mcq-30": "本句的「introduced」指「正式提出一項動議供考慮」。",
+        "introduce-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-30"
     },
@@ -1283,11 +1199,9 @@ export default {
       "masked": "Thanks for the ____.",
       "options": [
         "introduce-mcq-31",
-        "introduce-mcq-30",
-        "introduce-mcq-32",
-        "introduce-mcq-29",
-        "introduce-mcq-33",
-        "introduce-mcq-28"
+        "introduce-mcq-21",
+        "introduce-mcq-27",
+        "introduce-mcq-14"
       ],
       "explanation": "本句的「introduction」指「向第三者介紹某人的介紹信」。",
       "sentenceIndex": 24,
@@ -1296,12 +1210,10 @@ export default {
         "introduction"
       ],
       "optionReasons": {
-        "introduce-mcq-31": "本句指「向第三者介紹某人的介紹信」。",
-        "introduce-mcq-30": "「正式提出一項動議供考慮」與本句語境不同。",
-        "introduce-mcq-32": "「歌曲／樂曲主體前的前奏／引子」與本句語境不同。",
-        "introduce-mcq-29": "「在法律程序中正式提出／提交證據」與本句語境不同。",
-        "introduce-mcq-33": "「某人／事太著名，不需要再作介紹」與本句語境不同。",
-        "introduce-mcq-28": "「協助導管等進入血管的導入鞘」與本句語境不同。"
+        "introduce-mcq-31": "本句的「introduction」指「向第三者介紹某人的介紹信」。",
+        "introduce-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-31"
     },
@@ -1313,11 +1225,9 @@ export default {
       "masked": "The course was my first ____ to philosophy.",
       "options": [
         "introduce-mcq-14",
-        "introduce-mcq-13",
-        "introduce-mcq-15",
-        "introduce-mcq-12",
-        "introduce-mcq-16",
-        "introduce-mcq-11"
+        "introduce-mcq-07",
+        "introduce-mcq-30",
+        "introduce-mcq-23"
       ],
       "explanation": "本句的「introduction」指「某學科／主題的基本入門內容」。",
       "sentenceIndex": 25,
@@ -1326,44 +1236,40 @@ export default {
         "introduction"
       ],
       "optionReasons": {
-        "introduce-mcq-14": "本句指「某學科／主題的基本入門內容」。",
-        "introduce-mcq-13": "「文章開始時交代背景、目的、主題的引言」與本句語境不同。",
-        "introduce-mcq-15": "「為初學者設計的入門課程」與本句語境不同。",
-        "introduce-mcq-12": "「首次把某議題／概念帶入課堂、文章或討論」與本句語境不同。",
-        "introduce-mcq-16": "「正式內容前的開場白」與本句語境不同。",
-        "introduce-mcq-11": "「讓某人初次接觸／認識一個主題」與本句語境不同。"
+        "introduce-mcq-14": "本句的「introduction」指「某學科／主題的基本入門內容」。",
+        "introduce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-14"
     },
     {
       "id": "introduce-80-0",
-      "sense": "introduce-mcq-31",
+      "sense": "introduce-reviewed-ee6746967d",
       "en": "The introduction of online booking reduced waiting times.",
       "zh": "網上預約的引入縮短了等候時間。",
       "masked": "The ____ of online booking reduced waiting times.",
       "options": [
-        "introduce-mcq-31",
-        "introduce-mcq-30",
-        "introduce-mcq-32",
-        "introduce-mcq-29",
-        "introduce-mcq-33",
-        "introduce-mcq-28"
+        "introduce-reviewed-ee6746967d",
+        "introduce-mcq-07",
+        "introduce-mcq-05",
+        "introduce-mcq-23"
       ],
-      "explanation": "本句的「introduction」指「向第三者介紹某人的介紹信」。",
+      "explanation": "對照完整句子：「網上預約的引入縮短了等候時間。」。這裡的「introduction」表示「引入；推出」。",
       "sentenceIndex": 26,
       "sourcePractice": 28,
       "targets": [
         "introduction"
       ],
       "optionReasons": {
-        "introduce-mcq-31": "本句指「向第三者介紹某人的介紹信」。",
-        "introduce-mcq-30": "「正式提出一項動議供考慮」與本句語境不同。",
-        "introduce-mcq-32": "「歌曲／樂曲主體前的前奏／引子」與本句語境不同。",
-        "introduce-mcq-29": "「在法律程序中正式提出／提交證據」與本句語境不同。",
-        "introduce-mcq-33": "「某人／事太著名，不需要再作介紹」與本句語境不同。",
-        "introduce-mcq-28": "「協助導管等進入血管的導入鞘」與本句語境不同。"
+        "introduce-reviewed-ee6746967d": "對照完整句子：「網上預約的引入縮短了等候時間。」。這裡的「introduction」表示「引入；推出」。",
+        "introduce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "introduce-mcq-31"
+      "correctOption": "introduce-reviewed-ee6746967d",
+      "previousCorrectOption": "introduce-mcq-31",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "introduce-89-0",
@@ -1373,10 +1279,8 @@ export default {
       "masked": "She needs no ____.",
       "options": [
         "introduce-mcq-33",
-        "introduce-mcq-32",
-        "introduce-mcq-34",
-        "introduce-mcq-31",
-        "introduce-mcq-35",
+        "introduce-mcq-04",
+        "introduce-mcq-20",
         "introduce-mcq-30"
       ],
       "explanation": "本句的「introduction」指「某人／事太著名，不需要再作介紹」。",
@@ -1386,12 +1290,10 @@ export default {
         "introduction"
       ],
       "optionReasons": {
-        "introduce-mcq-33": "本句指「某人／事太著名，不需要再作介紹」。",
-        "introduce-mcq-32": "「歌曲／樂曲主體前的前奏／引子」與本句語境不同。",
-        "introduce-mcq-34": "「把已停止／撤出的服務或產品重新推出」與本句語境不同。",
-        "introduce-mcq-31": "「向第三者介紹某人的介紹信」與本句語境不同。",
-        "introduce-mcq-35": "「新制度／系統開始被採用的引入過程」與本句語境不同。",
-        "introduce-mcq-30": "「正式提出一項動議供考慮」與本句語境不同。"
+        "introduce-mcq-33": "本句的「introduction」指「某人／事太著名，不需要再作介紹」。",
+        "introduce-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "introduce-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "introduce-mcq-33"
     }
@@ -1403,5 +1305,7 @@ export default {
     "sha256": "ef146e2b81c65f47c5fab6f6cc6671af45b832715a429faa298b65a98fa8c0f3",
     "pages": 39
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

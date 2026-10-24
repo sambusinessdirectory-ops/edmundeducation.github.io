@@ -178,7 +178,7 @@ export default {
     },
     {
       "id": "facility-mcq-09",
-      "title": "表示對……有天分／很熟練",
+      "title": "對……有天分／很熟練",
       "form": "Useful construction: facility for / facility with — 對……有天分／很熟練",
       "en": "Useful construction: facility for / facility with — 對……有天分／很熟練",
       "zh": "表示對……有天分／很熟練",
@@ -230,10 +230,8 @@ export default {
       "masked": "The library is an important public ____.",
       "options": [
         "facility-mcq-01",
-        "facility-mcq-02",
+        "facility-mcq-09",
         "facility-mcq-03",
-        "facility-mcq-04",
-        "facility-mcq-05",
         "facility-mcq-06"
       ],
       "explanation": "本句的「facility」指「為某種特定用途或服務而設計、配備的建築物、場所或機構」。",
@@ -243,12 +241,10 @@ export default {
         "facility"
       ],
       "optionReasons": {
-        "facility-mcq-01": "本句指「為某種特定用途或服務而設計、配備的建築物、場所或機構」。",
-        "facility-mcq-02": "「某個地方提供給人使用的設備、空間或服務配套」是「facilities — amenities/equipment」的用法，與本句語境不同。",
-        "facility-mcq-03": "「洗手間／廁所的委婉說法」是「facilities — toilets」的用法，與本句語境不同。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。"
+        "facility-mcq-01": "本句的「facility」指「為某種特定用途或服務而設計、配備的建築物、場所或機構」。",
+        "facility-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-01"
     },
@@ -260,11 +256,9 @@ export default {
       "masked": "The town has a new sports ____.",
       "options": [
         "facility-mcq-01",
-        "facility-mcq-02",
-        "facility-mcq-03",
-        "facility-mcq-04",
-        "facility-mcq-05",
-        "facility-mcq-06"
+        "facility-mcq-06",
+        "facility-mcq-09",
+        "facility-mcq-03"
       ],
       "explanation": "本句的「facility」指「為某種特定用途或服務而設計、配備的建築物、場所或機構」。",
       "sentenceIndex": 1,
@@ -273,12 +267,10 @@ export default {
         "facility"
       ],
       "optionReasons": {
-        "facility-mcq-01": "本句指「為某種特定用途或服務而設計、配備的建築物、場所或機構」。",
-        "facility-mcq-02": "「某個地方提供給人使用的設備、空間或服務配套」是「facilities — amenities/equipment」的用法，與本句語境不同。",
-        "facility-mcq-03": "「洗手間／廁所的委婉說法」是「facilities — toilets」的用法，與本句語境不同。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。"
+        "facility-mcq-01": "本句的「facility」指「為某種特定用途或服務而設計、配備的建築物、場所或機構」。",
+        "facility-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-01"
     },
@@ -290,11 +282,9 @@ export default {
       "masked": "The company operates a research ____ nearby.",
       "options": [
         "facility-mcq-01",
-        "facility-mcq-02",
+        "facility-pdf-001",
         "facility-mcq-03",
-        "facility-mcq-04",
-        "facility-mcq-05",
-        "facility-mcq-06"
+        "facility-mcq-07"
       ],
       "explanation": "本句的「facility」指「為某種特定用途或服務而設計、配備的建築物、場所或機構」。",
       "sentenceIndex": 2,
@@ -303,12 +293,10 @@ export default {
         "facility"
       ],
       "optionReasons": {
-        "facility-mcq-01": "本句指「為某種特定用途或服務而設計、配備的建築物、場所或機構」。",
-        "facility-mcq-02": "「某個地方提供給人使用的設備、空間或服務配套」是「facilities — amenities/equipment」的用法，與本句語境不同。",
-        "facility-mcq-03": "「洗手間／廁所的委婉說法」是「facilities — toilets」的用法，與本句語境不同。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。"
+        "facility-mcq-01": "本句的「facility」指「為某種特定用途或服務而設計、配備的建築物、場所或機構」。",
+        "facility-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-01"
     },
@@ -320,11 +308,9 @@ export default {
       "masked": "The hotel has excellent ____.",
       "options": [
         "facility-mcq-02",
-        "facility-mcq-01",
-        "facility-mcq-03",
         "facility-mcq-04",
-        "facility-mcq-05",
-        "facility-mcq-06"
+        "facility-mcq-07",
+        "facility-mcq-03"
       ],
       "explanation": "本句的「facilities」指「某個地方提供給人使用的設備、空間或服務配套」。",
       "sentenceIndex": 3,
@@ -333,12 +319,10 @@ export default {
         "facilities"
       ],
       "optionReasons": {
-        "facility-mcq-02": "本句指「某個地方提供給人使用的設備、空間或服務配套」。",
-        "facility-mcq-01": "「為某種特定用途或服務而設計、配備的建築物、場所或機構」是「facility — building/site」的用法，與本句語境不同。",
-        "facility-mcq-03": "「洗手間／廁所的委婉說法」是「facilities — toilets」的用法，與本句語境不同。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。"
+        "facility-mcq-02": "本句的「facilities」指「某個地方提供給人使用的設備、空間或服務配套」。",
+        "facility-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-02"
     },
@@ -350,11 +334,9 @@ export default {
       "masked": "The school provides good sports ____.",
       "options": [
         "facility-mcq-02",
-        "facility-mcq-01",
-        "facility-mcq-03",
-        "facility-mcq-04",
-        "facility-mcq-05",
-        "facility-mcq-06"
+        "facility-pdf-001",
+        "facility-mcq-06",
+        "facility-mcq-03"
       ],
       "explanation": "本句的「facilities」指「某個地方提供給人使用的設備、空間或服務配套」。",
       "sentenceIndex": 4,
@@ -363,12 +345,10 @@ export default {
         "facilities"
       ],
       "optionReasons": {
-        "facility-mcq-02": "本句指「某個地方提供給人使用的設備、空間或服務配套」。",
-        "facility-mcq-01": "「為某種特定用途或服務而設計、配備的建築物、場所或機構」是「facility — building/site」的用法，與本句語境不同。",
-        "facility-mcq-03": "「洗手間／廁所的委婉說法」是「facilities — toilets」的用法，與本句語境不同。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。"
+        "facility-mcq-02": "本句的「facilities」指「某個地方提供給人使用的設備、空間或服務配套」。",
+        "facility-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-02"
     },
@@ -380,11 +360,9 @@ export default {
       "masked": "Are there any ____ nearby?",
       "options": [
         "facility-mcq-03",
-        "facility-mcq-02",
-        "facility-mcq-04",
-        "facility-mcq-01",
-        "facility-mcq-05",
-        "facility-mcq-06"
+        "facility-mcq-08",
+        "facility-pdf-001",
+        "facility-mcq-07"
       ],
       "explanation": "本句的「facilities」指「洗手間／廁所的委婉說法」。",
       "sentenceIndex": 5,
@@ -393,12 +371,10 @@ export default {
         "facilities"
       ],
       "optionReasons": {
-        "facility-mcq-03": "本句指「洗手間／廁所的委婉說法」。",
-        "facility-mcq-02": "「某個地方提供給人使用的設備、空間或服務配套」是「facilities — amenities/equipment」的用法，與本句語境不同。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。",
-        "facility-mcq-01": "「為某種特定用途或服務而設計、配備的建築物、場所或機構」是「facility — building/site」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。"
+        "facility-mcq-03": "本句的「facilities」指「洗手間／廁所的委婉說法」。",
+        "facility-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "facility-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-03"
     },
@@ -410,11 +386,9 @@ export default {
       "masked": "The ____ are on the ground floor.",
       "options": [
         "facility-mcq-03",
-        "facility-mcq-02",
-        "facility-mcq-04",
+        "facility-mcq-06",
         "facility-mcq-01",
-        "facility-mcq-05",
-        "facility-mcq-06"
+        "facility-mcq-09"
       ],
       "explanation": "本句的「facilities」指「洗手間／廁所的委婉說法」。",
       "sentenceIndex": 6,
@@ -423,12 +397,10 @@ export default {
         "facilities"
       ],
       "optionReasons": {
-        "facility-mcq-03": "本句指「洗手間／廁所的委婉說法」。",
-        "facility-mcq-02": "「某個地方提供給人使用的設備、空間或服務配套」是「facilities — amenities/equipment」的用法，與本句語境不同。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。",
-        "facility-mcq-01": "「為某種特定用途或服務而設計、配備的建築物、場所或機構」是「facility — building/site」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。"
+        "facility-mcq-03": "本句的「facilities」指「洗手間／廁所的委婉說法」。",
+        "facility-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-03"
     },
@@ -440,11 +412,9 @@ export default {
       "masked": "She has a remarkable ____ for languages.",
       "options": [
         "facility-mcq-04",
+        "facility-mcq-08",
         "facility-mcq-03",
-        "facility-mcq-05",
-        "facility-mcq-02",
-        "facility-mcq-06",
-        "facility-mcq-01"
+        "facility-mcq-07"
       ],
       "explanation": "本句的「facility」指「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」。",
       "sentenceIndex": 7,
@@ -453,12 +423,10 @@ export default {
         "facility"
       ],
       "optionReasons": {
-        "facility-mcq-04": "本句指「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」。",
-        "facility-mcq-03": "「洗手間／廁所的委婉說法」是「facilities — toilets」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-02": "「某個地方提供給人使用的設備、空間或服務配套」是「facilities — amenities/equipment」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。",
-        "facility-mcq-01": "「為某種特定用途或服務而設計、配備的建築物、場所或機構」是「facility — building/site」的用法，與本句語境不同。"
+        "facility-mcq-04": "本句的「facility」指「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」。",
+        "facility-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-04"
     },
@@ -471,10 +439,8 @@ export default {
       "options": [
         "facility-mcq-04",
         "facility-mcq-03",
-        "facility-mcq-05",
         "facility-mcq-02",
-        "facility-mcq-06",
-        "facility-mcq-01"
+        "facility-mcq-05"
       ],
       "explanation": "本句的「facility」指「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」。",
       "sentenceIndex": 8,
@@ -483,12 +449,10 @@ export default {
         "facility"
       ],
       "optionReasons": {
-        "facility-mcq-04": "本句指「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」。",
-        "facility-mcq-03": "「洗手間／廁所的委婉說法」是「facilities — toilets」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-02": "「某個地方提供給人使用的設備、空間或服務配套」是「facilities — amenities/equipment」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。",
-        "facility-mcq-01": "「為某種特定用途或服務而設計、配備的建築物、場所或機構」是「facility — building/site」的用法，與本句語境不同。"
+        "facility-mcq-04": "本句的「facility」指「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-04"
     },
@@ -500,11 +464,9 @@ export default {
       "masked": "She answered the questions with surprising ____.",
       "options": [
         "facility-pdf-001",
-        "facility-mcq-03",
-        "facility-mcq-05",
-        "facility-mcq-02",
         "facility-mcq-06",
-        "facility-mcq-01"
+        "facility-mcq-08",
+        "facility-mcq-03"
       ],
       "explanation": "本句的「facility」指「輕鬆、熟練、自如地」。",
       "sentenceIndex": 9,
@@ -513,12 +475,10 @@ export default {
         "facility"
       ],
       "optionReasons": {
-        "facility-pdf-001": "本句指「輕鬆、熟練、自如地」。",
-        "facility-mcq-03": "「洗手間／廁所的委婉說法」是「facilities — toilets」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-02": "「某個地方提供給人使用的設備、空間或服務配套」是「facilities — amenities/equipment」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。",
-        "facility-mcq-01": "「為某種特定用途或服務而設計、配備的建築物、場所或機構」是「facility — building/site」的用法，與本句語境不同。"
+        "facility-pdf-001": "本句的「facility」指「輕鬆、熟練、自如地」。",
+        "facility-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-pdf-001"
     },
@@ -531,10 +491,8 @@ export default {
       "options": [
         "facility-pdf-001",
         "facility-mcq-03",
-        "facility-mcq-05",
-        "facility-mcq-02",
-        "facility-mcq-06",
-        "facility-mcq-01"
+        "facility-mcq-01",
+        "facility-mcq-06"
       ],
       "explanation": "本句的「facility」指「輕鬆、熟練、自如地」。",
       "sentenceIndex": 10,
@@ -543,12 +501,10 @@ export default {
         "facility"
       ],
       "optionReasons": {
-        "facility-pdf-001": "本句指「輕鬆、熟練、自如地」。",
-        "facility-mcq-03": "「洗手間／廁所的委婉說法」是「facilities — toilets」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-02": "「某個地方提供給人使用的設備、空間或服務配套」是「facilities — amenities/equipment」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。",
-        "facility-mcq-01": "「為某種特定用途或服務而設計、配備的建築物、場所或機構」是「facility — building/site」的用法，與本句語境不同。"
+        "facility-pdf-001": "本句的「facility」指「輕鬆、熟練、自如地」。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-pdf-001"
     },
@@ -561,10 +517,8 @@ export default {
       "options": [
         "facility-mcq-08",
         "facility-mcq-07",
-        "facility-mcq-09",
-        "facility-mcq-06",
-        "facility-mcq-05",
-        "facility-mcq-04"
+        "facility-mcq-04",
+        "facility-mcq-03"
       ],
       "explanation": "本句的「facility」指「為生產、儲存、處理、研究等特定用途設立的工業或技術場所」。",
       "sentenceIndex": 11,
@@ -573,12 +527,10 @@ export default {
         "facility"
       ],
       "optionReasons": {
-        "facility-mcq-08": "本句指「為生產、儲存、處理、研究等特定用途設立的工業或技術場所」。",
-        "facility-mcq-07": "「協助小組、討論或流程順利進行的人」是「facilitator」的用法，與本句語境不同。",
-        "facility-mcq-09": "「表示對……有天分／很熟練」是「Useful construction: facility for / facility with — 對……有天分／很熟練」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。"
+        "facility-mcq-08": "本句的「facility」指「為生產、儲存、處理、研究等特定用途設立的工業或技術場所」。",
+        "facility-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-08"
     },
@@ -590,11 +542,9 @@ export default {
       "masked": "Waste is processed at a treatment ____.",
       "options": [
         "facility-mcq-08",
-        "facility-mcq-07",
-        "facility-mcq-09",
         "facility-mcq-06",
-        "facility-mcq-05",
-        "facility-mcq-04"
+        "facility-mcq-09",
+        "facility-mcq-03"
       ],
       "explanation": "本句的「facility」指「為生產、儲存、處理、研究等特定用途設立的工業或技術場所」。",
       "sentenceIndex": 12,
@@ -603,12 +553,10 @@ export default {
         "facility"
       ],
       "optionReasons": {
-        "facility-mcq-08": "本句指「為生產、儲存、處理、研究等特定用途設立的工業或技術場所」。",
-        "facility-mcq-07": "「協助小組、討論或流程順利進行的人」是「facilitator」的用法，與本句語境不同。",
-        "facility-mcq-09": "「表示對……有天分／很熟練」是「Useful construction: facility for / facility with — 對……有天分／很熟練」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。"
+        "facility-mcq-08": "本句的「facility」指「為生產、儲存、處理、研究等特定用途設立的工業或技術場所」。",
+        "facility-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-08"
     },
@@ -620,11 +568,9 @@ export default {
       "masked": "The new system will ____ communication.",
       "options": [
         "facility-mcq-05",
-        "facility-mcq-04",
-        "facility-mcq-06",
-        "facility-mcq-03",
-        "facility-mcq-07",
-        "facility-mcq-02"
+        "facility-mcq-09",
+        "facility-mcq-02",
+        "facility-mcq-03"
       ],
       "explanation": "本句的「facilitate」指「使某個過程、活動或事情更容易、更順暢地進行」。",
       "sentenceIndex": 13,
@@ -633,12 +579,10 @@ export default {
         "facilitate"
       ],
       "optionReasons": {
-        "facility-mcq-05": "本句指「使某個過程、活動或事情更容易、更順暢地進行」。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。",
-        "facility-mcq-03": "「洗手間／廁所的委婉說法」是「facilities — toilets」的用法，與本句語境不同。",
-        "facility-mcq-07": "「協助小組、討論或流程順利進行的人」是「facilitator」的用法，與本句語境不同。",
-        "facility-mcq-02": "「某個地方提供給人使用的設備、空間或服務配套」是「facilities — amenities/equipment」的用法，與本句語境不同。"
+        "facility-mcq-05": "本句的「facilitate」指「使某個過程、活動或事情更容易、更順暢地進行」。",
+        "facility-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-05"
     },
@@ -650,11 +594,9 @@ export default {
       "masked": "The teacher helped ____ the discussion.",
       "options": [
         "facility-mcq-05",
-        "facility-mcq-04",
-        "facility-mcq-06",
         "facility-mcq-03",
-        "facility-mcq-07",
-        "facility-mcq-02"
+        "facility-mcq-08",
+        "facility-mcq-09"
       ],
       "explanation": "本句的「facilitate」指「使某個過程、活動或事情更容易、更順暢地進行」。",
       "sentenceIndex": 14,
@@ -663,12 +605,10 @@ export default {
         "facilitate"
       ],
       "optionReasons": {
-        "facility-mcq-05": "本句指「使某個過程、活動或事情更容易、更順暢地進行」。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。",
-        "facility-mcq-03": "「洗手間／廁所的委婉說法」是「facilities — toilets」的用法，與本句語境不同。",
-        "facility-mcq-07": "「協助小組、討論或流程順利進行的人」是「facilitator」的用法，與本句語境不同。",
-        "facility-mcq-02": "「某個地方提供給人使用的設備、空間或服務配套」是「facilities — amenities/equipment」的用法，與本句語境不同。"
+        "facility-mcq-05": "本句的「facilitate」指「使某個過程、活動或事情更容易、更順暢地進行」。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-05"
     },
@@ -680,10 +620,8 @@ export default {
       "masked": "Good ____ can improve group discussions.",
       "options": [
         "facility-mcq-06",
-        "facility-mcq-05",
-        "facility-mcq-07",
-        "facility-mcq-04",
         "facility-mcq-08",
+        "facility-mcq-09",
         "facility-mcq-03"
       ],
       "explanation": "本句的「facilitation」指「協助某件事順利進行的過程」。",
@@ -693,12 +631,10 @@ export default {
         "facilitation"
       ],
       "optionReasons": {
-        "facility-mcq-06": "本句指「協助某件事順利進行的過程」。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-07": "「協助小組、討論或流程順利進行的人」是「facilitator」的用法，與本句語境不同。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。",
-        "facility-mcq-08": "「為生產、儲存、處理、研究等特定用途設立的工業或技術場所」是「6. facility = industrial/technical site（工業／技術） — 廠房；設施基地」的用法，與本句語境不同。",
-        "facility-mcq-03": "「洗手間／廁所的委婉說法」是「facilities — toilets」的用法，與本句語境不同。"
+        "facility-mcq-06": "本句的「facilitation」指「協助某件事順利進行的過程」。",
+        "facility-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-06"
     },
@@ -710,11 +646,9 @@ export default {
       "masked": "The workshop was led by an experienced ____.",
       "options": [
         "facility-mcq-07",
-        "facility-mcq-06",
-        "facility-mcq-08",
-        "facility-mcq-05",
         "facility-mcq-09",
-        "facility-mcq-04"
+        "facility-mcq-08",
+        "facility-mcq-03"
       ],
       "explanation": "本句的「facilitator」指「協助小組、討論或流程順利進行的人」。",
       "sentenceIndex": 16,
@@ -723,12 +657,10 @@ export default {
         "facilitator"
       ],
       "optionReasons": {
-        "facility-mcq-07": "本句指「協助小組、討論或流程順利進行的人」。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。",
-        "facility-mcq-08": "「為生產、儲存、處理、研究等特定用途設立的工業或技術場所」是「6. facility = industrial/technical site（工業／技術） — 廠房；設施基地」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-09": "「表示對……有天分／很熟練」是「Useful construction: facility for / facility with — 對……有天分／很熟練」的用法，與本句語境不同。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。"
+        "facility-mcq-07": "本句的「facilitator」指「協助小組、討論或流程順利進行的人」。",
+        "facility-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-07"
     },
@@ -740,11 +672,9 @@ export default {
       "masked": "She has a natural ____ learning languages.",
       "options": [
         "facility-mcq-09",
-        "facility-mcq-08",
-        "facility-mcq-07",
         "facility-mcq-06",
-        "facility-mcq-05",
-        "facility-mcq-04"
+        "facility-mcq-03",
+        "facility-mcq-02"
       ],
       "explanation": "本句的「facility for」指「表示對……有天分／很熟練」。",
       "sentenceIndex": 17,
@@ -753,12 +683,10 @@ export default {
         "facility for"
       ],
       "optionReasons": {
-        "facility-mcq-09": "本句指「表示對……有天分／很熟練」。",
-        "facility-mcq-08": "「為生產、儲存、處理、研究等特定用途設立的工業或技術場所」是「6. facility = industrial/technical site（工業／技術） — 廠房；設施基地」的用法，與本句語境不同。",
-        "facility-mcq-07": "「協助小組、討論或流程順利進行的人」是「facilitator」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。"
+        "facility-mcq-09": "本句的「facility for」指「表示對……有天分／很熟練」。",
+        "facility-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-09"
     },
@@ -770,11 +698,9 @@ export default {
       "masked": "He has great ____ numbers.",
       "options": [
         "facility-mcq-09",
-        "facility-mcq-08",
-        "facility-mcq-07",
-        "facility-mcq-06",
         "facility-mcq-05",
-        "facility-mcq-04"
+        "facility-mcq-02",
+        "facility-mcq-03"
       ],
       "explanation": "本句的「facility with」指「表示對……有天分／很熟練」。",
       "sentenceIndex": 18,
@@ -783,12 +709,10 @@ export default {
         "facility with"
       ],
       "optionReasons": {
-        "facility-mcq-09": "本句指「表示對……有天分／很熟練」。",
-        "facility-mcq-08": "「為生產、儲存、處理、研究等特定用途設立的工業或技術場所」是「6. facility = industrial/technical site（工業／技術） — 廠房；設施基地」的用法，與本句語境不同。",
-        "facility-mcq-07": "「協助小組、討論或流程順利進行的人」是「facilitator」的用法，與本句語境不同。",
-        "facility-mcq-06": "「協助某件事順利進行的過程」是「facilitation」的用法，與本句語境不同。",
-        "facility-mcq-05": "「使某個過程、活動或事情更容易、更順暢地進行」是「facilitate」的用法，與本句語境不同。",
-        "facility-mcq-04": "「做某件事時表現出的天分、熟練程度或輕鬆自如的能力」是「facility — ability/ease」的用法，與本句語境不同。"
+        "facility-mcq-09": "本句的「facility with」指「表示對……有天分／很熟練」。",
+        "facility-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "facility-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "facility-mcq-09"
     }
@@ -800,5 +724,7 @@ export default {
     "sha256": "f7b011ef8bd1f13315800d5ae6420bd1a659152c8590bbf8566fe7c89cd929b9",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

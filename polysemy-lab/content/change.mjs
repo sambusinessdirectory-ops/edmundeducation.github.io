@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "change-mcq-01",
-      "title": "表示改變；使……變得不同；例句：「那次經歷徹底改變了我看待失敗的方式。」",
+      "title": "改變；使……變得不同",
       "form": "Passage anchor > “The reason she influenced me so deeply is that she changed not only my English, but also my mindset.",
       "en": "Passage anchor > “The reason she influenced me so deeply is that she changed not only my English, but also my mindset.",
       "zh": "表示改變；使……變得不同；例句：「那次經歷徹底改變了我看待失敗的方式。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "change-mcq-02",
-      "title": "表示改變；變化；變得不同；例句：「天氣突然變了。」",
+      "title": "改變；變化；變得不同",
       "form": "change — become different = become different from a previous state 改變；變化；變得不同",
       "en": "change — become different = become different from a previous state 改變；變化；變得不同",
       "zh": "表示改變；變化；變得不同；例句：「天氣突然變了。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "change-mcq-03",
-      "title": "表示改變；更改；例句：「我們需要更改計畫。」",
+      "title": "改變；更改",
       "form": "change something — make something different = cause something to become different 改變；更改",
       "en": "change something — make something different = cause something to become different 改變；更改",
       "zh": "表示改變；更改；例句：「我們需要更改計畫。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "change-mcq-05",
-      "title": "表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」",
+      "title": "改變主意；改變想法",
       "form": "change your mind = form a different opinion or decision 改變主意；改變想法",
       "en": "change your mind = form a different opinion or decision 改變主意；改變想法",
       "zh": "表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "change-mcq-06",
-      "title": "表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」",
+      "title": "改變態度／行為／習慣",
       "form": "change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣",
       "en": "change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣",
       "zh": "表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "change-mcq-07",
-      "title": "表示更換；替換；例句：「我需要換電池。」",
+      "title": "更換；替換",
       "form": "change something — replace one thing with another = remove or stop using one thing and use another instead 更換；替換",
       "en": "change something — replace one thing with another = remove or stop using one thing and use another instead 更換；替換",
       "zh": "表示更換；替換；例句：「我需要換電池。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "change-mcq-08",
-      "title": "表示換衣服；例句：「晚餐前我需要換衣服。」",
+      "title": "換衣服",
       "form": "change clothes = take off one set of clothes and put on another 換衣服",
       "en": "change clothes = take off one set of clothes and put on another 換衣服",
       "zh": "表示換衣服；例句：「晚餐前我需要換衣服。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "change-mcq-09",
-      "title": "表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」",
+      "title": "換鞋／換襯衫／換裝",
       "form": "change your shoes / shirt / outfit = replace what you are wearing 換鞋／換襯衫／換裝",
       "en": "change your shoes / shirt / outfit = replace what you are wearing 換鞋／換襯衫／換裝",
       "zh": "表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "change-mcq-10",
-      "title": "表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」",
+      "title": "轉車；轉乘",
       "form": "change trains / buses / planes = leave one vehicle and continue the journey on another 轉車；轉乘",
       "en": "change trains / buses / planes = leave one vehicle and continue the journey on another 轉車；轉乘",
       "zh": "表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "change-mcq-11",
-      "title": "表示轉台；換頻道；例句：「你可以轉台嗎？」",
+      "title": "轉台；換頻道",
       "form": "change channels = switch from one television/radio channel to another 轉台；換頻道",
       "en": "change channels = switch from one television/radio channel to another 轉台；換頻道",
       "zh": "表示轉台；換頻道；例句：「你可以轉台嗎？」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "change-mcq-12",
-      "title": "表示換工作／轉學／轉換職業；例句：「她去年換了工作。」",
+      "title": "換工作／轉學／轉換職業",
       "form": "change jobs / schools / careers = leave one job, school, or career path and move to another 換工作／轉學／轉換職業",
       "en": "change jobs / schools / careers = leave one job, school, or career path and move to another 換工作／轉學／轉換職業",
       "zh": "表示換工作／轉學／轉換職業；例句：「她去年換了工作。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "change-mcq-13",
-      "title": "表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」",
+      "title": "更改日期／時間／預約",
       "form": "change a date / time / appointment = move something to a different scheduled time 更改日期／時間／預約",
       "en": "change a date / time / appointment = move something to a different scheduled time 更改日期／時間／預約",
       "zh": "表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "change-mcq-14",
-      "title": "表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」",
+      "title": "更改姓名／地址／密碼",
       "form": "change a name / address / password = replace existing information with different information 更改姓名／地址／密碼",
       "en": "change a name / address / password = replace existing information with different information 更改姓名／地址／密碼",
       "zh": "表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "change-mcq-15",
-      "title": "表示轉換話題；例句：「他看起來不自在，所以我換了話題。」",
+      "title": "轉換話題",
       "form": "change the subject = begin talking about a different topic 轉換話題",
       "en": "change the subject = begin talking about a different topic 轉換話題",
       "zh": "表示轉換話題；例句：「他看起來不自在，所以我換了話題。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "change-mcq-16",
-      "title": "表示改變方向；轉向；例句：「那輛車突然改變方向。」",
+      "title": "改變方向；轉向",
       "form": "change direction = begin moving or developing in a different direction 改變方向；轉向",
       "en": "change direction = begin moving or developing in a different direction 改變方向；轉向",
       "zh": "表示改變方向；轉向；例句：「那輛車突然改變方向。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "change-mcq-17",
-      "title": "表示從A變成B；例句：「天空從藍色變成灰色。」",
+      "title": "從A變成B",
       "form": "change from A to B = become different, moving from one state or form to another 從A變成B",
       "en": "change from A to B = become different, moving from one state or form to another 從A變成B",
       "zh": "表示從A變成B；例句：「天空從藍色變成灰色。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "change-mcq-18",
-      "title": "表示變成；轉變成；例句：「水結冰時會變成冰。」",
+      "title": "變成；轉變成",
       "form": "change into something = become or be transformed into another form 變成；轉變成",
       "en": "change into something = become or be transformed into another form 變成；轉變成",
       "zh": "表示變成；轉變成；例句：「水結冰時會變成冰。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "change-mcq-19",
-      "title": "表示把……變成……；例句：「他們把舊工廠改建成公寓。」",
+      "title": "把……變成……",
       "form": "change something into something = transform one thing into another 把……變成……",
       "en": "change something into something = transform one thing into another 把……變成……",
       "zh": "表示把……變成……；例句：「他們把舊工廠改建成公寓。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "change-mcq-20",
-      "title": "表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」",
+      "title": "隨時間改變",
       "form": "change over time = gradually become different as time passes 隨時間改變",
       "en": "change over time = gradually become different as time passes 隨時間改變",
       "zh": "表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "change-mcq-21",
-      "title": "表示變得更好；改善；例句：「他搬家後，生活變得更好了。」",
+      "title": "變得更好；改善",
       "form": "change for the better = become better than before 變得更好；改善",
       "en": "change for the better = become better than before 變得更好；改善",
       "zh": "表示變得更好；改善；例句：「他搬家後，生活變得更好了。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "change-mcq-22",
-      "title": "表示變得更糟；惡化；例句：「情況一夜之間惡化了。」",
+      "title": "變得更糟；惡化",
       "form": "change for the worse = become worse than before 變得更糟；惡化",
       "en": "change for the worse = become worse than before 變得更糟；惡化",
       "zh": "表示變得更糟；惡化；例句：「情況一夜之間惡化了。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "change-mcq-23",
-      "title": "表示改變；變化；例句：「公司正經歷重大的變革。」",
+      "title": "改變；變化",
       "form": "change — the act or process of becoming different = a difference or process of becoming different 改變；變化",
       "en": "change — the act or process of becoming different = a difference or process of becoming different 改變；變化",
       "zh": "表示改變；變化；例句：「公司正經歷重大的變革。」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "change-mcq-24",
-      "title": "表示變化；例句：「政策出現了變化。」",
+      "title": "變化",
       "form": "a change in something = a difference in a particular feature, condition, or situation ……的變化",
       "en": "a change in something = a difference in a particular feature, condition, or situation ……的變化",
       "zh": "表示變化；例句：「政策出現了變化。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "change-mcq-25",
-      "title": "表示更換；改變；例句：「換個環境也許對你有幫助。」",
+      "title": "更換；改變",
       "form": "a change of something = replacement or switch to something different 更換；改變",
       "en": "a change of something = replacement or switch to something different 更換；改變",
       "zh": "表示更換；改變；例句：「換個環境也許對你有幫助。」",
@@ -557,7 +557,7 @@ export default {
     },
     {
       "id": "change-mcq-26",
-      "title": "表示作出改變；例句：「我知道自己必須作出改變。」",
+      "title": "作出改變",
       "form": "make a change = alter something or begin doing something differently 作出改變",
       "en": "make a change = alter something or begin doing something differently 作出改變",
       "zh": "表示作出改變；例句：「我知道自己必須作出改變。」",
@@ -579,7 +579,7 @@ export default {
     },
     {
       "id": "change-mcq-27",
-      "title": "表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」",
+      "title": "零錢；硬幣",
       "form": "change — coins or small-denomination money = money in coins rather than large notes/bills 零錢；硬幣",
       "en": "change — coins or small-denomination money = money in coins rather than large notes/bills 零錢；硬幣",
       "zh": "表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」",
@@ -601,7 +601,7 @@ export default {
     },
     {
       "id": "change-mcq-28",
-      "title": "表示找零；找回的錢；例句：「不用找了。」",
+      "title": "找零；找回的錢",
       "form": "change — money returned after payment = money given back when you pay more than the price 找零；找回的錢",
       "en": "change — money returned after payment = money given back when you pay more than the price 找零；找回的錢",
       "zh": "表示找零；找回的錢；例句：「不用找了。」",
@@ -623,7 +623,7 @@ export default {
     },
     {
       "id": "change-mcq-29",
-      "title": "表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」",
+      "title": "換零錢；找零",
       "form": "make change = exchange money into smaller units or provide the correct amount back 換零錢；找零",
       "en": "make change = exchange money into smaller units or provide the correct amount back 換零錢；找零",
       "zh": "表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」",
@@ -645,7 +645,7 @@ export default {
     },
     {
       "id": "change-mcq-30",
-      "title": "表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」",
+      "title": "零散硬幣；零錢",
       "form": "loose change = small coins carried casually 零散硬幣；零錢",
       "en": "loose change = small coins carried casually 零散硬幣；零錢",
       "zh": "表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」",
@@ -667,7 +667,7 @@ export default {
     },
     {
       "id": "change-mcq-31",
-      "title": "表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」",
+      "title": "變換；換換口味；不同的體驗",
       "form": "a change — something different from the usual = an activity, experience, or situation that is pleasantly different 變換；換換口味；不同的體驗",
       "en": "a change — something different from the usual = an activity, experience, or situation that is pleasantly different 變換；換換口味；不同的體驗",
       "zh": "表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」",
@@ -711,7 +711,7 @@ export default {
     },
     {
       "id": "change-mcq-33",
-      "title": "表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」",
+      "title": "換個環境",
       "form": "a change of scene / scenery = moving to a different environment, often for freshness or relief 換個環境",
       "en": "a change of scene / scenery = moving to a different environment, often for freshness or relief 換個環境",
       "zh": "表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」",
@@ -733,7 +733,7 @@ export default {
     },
     {
       "id": "change-mcq-34",
-      "title": "表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」",
+      "title": "社會／政治／文化變遷",
       "form": "social / political / cultural change = large-scale transformation in society, institutions, or culture 社會／政治／文化變遷",
       "en": "social / political / cultural change = large-scale transformation in society, institutions, or culture 社會／政治／文化變遷",
       "zh": "表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」",
@@ -755,7 +755,7 @@ export default {
     },
     {
       "id": "change-mcq-35",
-      "title": "表示氣候變遷；例句：「科學家研究氣候變遷的影響。」",
+      "title": "氣候變遷",
       "form": "climate change = long-term change in climate patterns, especially current global warming-related changes 氣候變遷",
       "en": "climate change = long-term change in climate patterns, especially current global warming-related changes 氣候變遷",
       "zh": "表示氣候變遷；例句：「科學家研究氣候變遷的影響。」",
@@ -777,7 +777,7 @@ export default {
     },
     {
       "id": "change-mcq-36",
-      "title": "表示變色；例句：「樹葉在秋天會變色。」",
+      "title": "變色",
       "form": "change colour = become a different colour 變色",
       "en": "change colour = become a different colour 變色",
       "zh": "表示變色；例句：「樹葉在秋天會變色。」",
@@ -799,7 +799,7 @@ export default {
     },
     {
       "id": "change-mcq-37",
-      "title": "表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」",
+      "title": "改變形狀／形態",
       "form": "change shape / form = become physically different in shape or structure 改變形狀／形態",
       "en": "change shape / form = become physically different in shape or structure 改變形狀／形態",
       "zh": "表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」",
@@ -821,7 +821,7 @@ export default {
     },
     {
       "id": "change-mcq-38",
-      "title": "表示某人變了；例句：「自從上次見面以來，你真的變了很多。」",
+      "title": "某人變了",
       "form": "someone has changed = someone’s personality, behavior, outlook, or appearance has become different 某人變了",
       "en": "someone has changed = someone’s personality, behavior, outlook, or appearance has become different 某人變了",
       "zh": "表示某人變了；例句：「自從上次見面以來，你真的變了很多。」",
@@ -843,7 +843,7 @@ export default {
     },
     {
       "id": "change-mcq-39",
-      "title": "表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」",
+      "title": "改變自己",
       "form": "change yourself = deliberately alter your behavior, habits, or personality 改變自己",
       "en": "change yourself = deliberately alter your behavior, habits, or personality 改變自己",
       "zh": "表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」",
@@ -865,7 +865,7 @@ export default {
     },
     {
       "id": "change-mcq-40",
-      "title": "表示轉手；易主；例句：「這棟房子已經轉手好幾次。」",
+      "title": "轉手；易主",
       "form": "change hands = pass from one owner to another 轉手；易主",
       "en": "change hands = pass from one owner to another 轉手；易主",
       "zh": "表示轉手；易主；例句：「這棟房子已經轉手好幾次。」",
@@ -887,7 +887,7 @@ export default {
     },
     {
       "id": "change-mcq-41",
-      "title": "表示交換位置；換位子；例句：「我們可以交換位置嗎？」",
+      "title": "交換位置；換位子",
       "form": "change places = exchange positions with someone or move to a different position 交換位置；換位子",
       "en": "change places = exchange positions with someone or move to a different position 交換位置；換位子",
       "zh": "表示交換位置；換位子；例句：「我們可以交換位置嗎？」",
@@ -909,7 +909,7 @@ export default {
     },
     {
       "id": "change-mcq-42",
-      "title": "表示換邊；例句：「中場休息後，兩隊交換場地。」",
+      "title": "換邊",
       "form": "change sides",
       "en": "change sides",
       "zh": "表示換邊；例句：「中場休息後，兩隊交換場地。」",
@@ -931,7 +931,7 @@ export default {
     },
     {
       "id": "change-mcq-43",
-      "title": "表示改變航向；例句：「船隻改變航向以避開風暴。」",
+      "title": "改變航向",
       "form": "change course",
       "en": "change course",
       "zh": "表示改變航向；例句：「船隻改變航向以避開風暴。」",
@@ -953,7 +953,7 @@ export default {
     },
     {
       "id": "change-mcq-44",
-      "title": "表示改變心意；改變態度；例句：「他改變了心意，決定留下。」",
+      "title": "改變心意；改變態度",
       "form": "change of heart = a change in feelings, attitude, or decision 改變心意；改變態度",
       "en": "change of heart = a change in feelings, attitude, or decision 改變心意；改變態度",
       "zh": "表示改變心意；改變態度；例句：「他改變了心意，決定留下。」",
@@ -975,7 +975,7 @@ export default {
     },
     {
       "id": "change-mcq-45",
-      "title": "表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」",
+      "title": "重大轉變；徹底變化",
       "form": "sea change = a major and profound transformation 重大轉變；徹底變化",
       "en": "sea change = a major and profound transformation 重大轉變；徹底變化",
       "zh": "表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」",
@@ -997,7 +997,7 @@ export default {
     },
     {
       "id": "change-mcq-46",
-      "title": "表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」",
+      "title": "變化中的；不斷改變的",
       "form": "changing = becoming different; continually developing 變化中的；不斷改變的",
       "en": "changing = becoming different; continually developing 變化中的；不斷改變的",
       "zh": "表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」",
@@ -1019,7 +1019,7 @@ export default {
     },
     {
       "id": "change-mcq-47",
-      "title": "表示多變的；易變的；例句：「這裡的天氣非常多變。」",
+      "title": "多變的；易變的",
       "form": "changeable = likely to change frequently 多變的；易變的",
       "en": "changeable = likely to change frequently 多變的；易變的",
       "zh": "表示多變的；易變的；例句：「這裡的天氣非常多變。」",
@@ -1041,7 +1041,7 @@ export default {
     },
     {
       "id": "change-mcq-48",
-      "title": "表示未改變的；保持不變的；例句：「價格保持不變。」",
+      "title": "未改變的；保持不變的",
       "form": "unchanged = remaining the same 未改變的；保持不變的",
       "en": "unchanged = remaining the same 未改變的；保持不變的",
       "zh": "表示未改變的；保持不變的；例句：「價格保持不變。」",
@@ -1063,7 +1063,7 @@ export default {
     },
     {
       "id": "change-mcq-49",
-      "title": "表示無法改變的；不可變的；例句：「合約的某些部分是不能更改的。」",
+      "title": "無法改變的；不可變的",
       "form": "unchangeable = impossible or very difficult to change 無法改變的；不可變的",
       "en": "unchangeable = impossible or very difficult to change 無法改變的；不可變的",
       "zh": "表示無法改變的；不可變的；例句：「合約的某些部分是不能更改的。」",
@@ -1085,7 +1085,7 @@ export default {
     },
     {
       "id": "change-mcq-50",
-      "title": "表示永恆不變的；不變的；例句：「群山看起來彷彿永恆不變。」",
+      "title": "永恆不變的；不變的",
       "form": "changeless = never changing 永恆不變的；不變的",
       "en": "changeless = never changing 永恆不變的；不變的",
       "zh": "表示永恆不變的；不變的；例句：「群山看起來彷彿永恆不變。」",
@@ -1115,11 +1115,9 @@ export default {
       "masked": "That experience completely ____ about failure.",
       "options": [
         "change-mcq-01",
-        "change-mcq-02",
-        "change-mcq-03",
-        "change-mcq-04",
-        "change-mcq-05",
-        "change-mcq-06"
+        "change-mcq-42",
+        "change-mcq-30",
+        "change-mcq-40"
       ],
       "explanation": "本句的「changed the way I think」指「表示改變；使……變得不同；例句：「那次經歷徹底改變了我看待失敗的方式。」」。",
       "sentenceIndex": 0,
@@ -1128,12 +1126,10 @@ export default {
         "changed the way I think"
       ],
       "optionReasons": {
-        "change-mcq-01": "本句指「表示改變；使……變得不同；例句：「那次經歷徹底改變了我看待失敗的方式。」」。",
-        "change-mcq-02": "「表示改變；變化；變得不同；例句：「天氣突然變了。」」是「change — become different = become different from a previous state 改變；變化；變得不同」的用法，與本句語境不同。",
-        "change-mcq-03": "「表示改變；更改；例句：「我們需要更改計畫。」」是「change something — make something different = cause something to become different 改變；更改」的用法，與本句語境不同。",
-        "change-mcq-04": "「改變某人的想法／感受／行為方式」是「change the way someone thinks / feels / behaves = alter someone’s attitude, thinking, feelings, or behavior 改變某人的想法／感受／行為方式」的用法，與本句語境不同。",
-        "change-mcq-05": "「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」是「change your mind = form a different opinion or decision 改變主意；改變想法」的用法，與本句語境不同。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。"
+        "change-mcq-01": "本句的「changed the way I think」指「表示改變；使……變得不同；例句：「那次經歷徹底改變了我看待失敗的方式。」」。",
+        "change-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-01"
     },
@@ -1145,11 +1141,9 @@ export default {
       "masked": "A supportive teacher can ____ toward learning.",
       "options": [
         "change-mcq-01",
-        "change-mcq-02",
-        "change-mcq-03",
-        "change-mcq-04",
-        "change-mcq-05",
-        "change-mcq-06"
+        "change-mcq-33",
+        "change-mcq-40",
+        "change-mcq-27"
       ],
       "explanation": "本句的「change a student’s attitude」指「表示改變；使……變得不同；例句：「那次經歷徹底改變了我看待失敗的方式。」」。",
       "sentenceIndex": 1,
@@ -1158,12 +1152,10 @@ export default {
         "change a student’s attitude"
       ],
       "optionReasons": {
-        "change-mcq-01": "本句指「表示改變；使……變得不同；例句：「那次經歷徹底改變了我看待失敗的方式。」」。",
-        "change-mcq-02": "「表示改變；變化；變得不同；例句：「天氣突然變了。」」是「change — become different = become different from a previous state 改變；變化；變得不同」的用法，與本句語境不同。",
-        "change-mcq-03": "「表示改變；更改；例句：「我們需要更改計畫。」」是「change something — make something different = cause something to become different 改變；更改」的用法，與本句語境不同。",
-        "change-mcq-04": "「改變某人的想法／感受／行為方式」是「change the way someone thinks / feels / behaves = alter someone’s attitude, thinking, feelings, or behavior 改變某人的想法／感受／行為方式」的用法，與本句語境不同。",
-        "change-mcq-05": "「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」是「change your mind = form a different opinion or decision 改變主意；改變想法」的用法，與本句語境不同。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。"
+        "change-mcq-01": "本句的「change a student’s attitude」指「表示改變；使……變得不同；例句：「那次經歷徹底改變了我看待失敗的方式。」」。",
+        "change-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-01"
     },
@@ -1175,11 +1167,9 @@ export default {
       "masked": "The weather ____ suddenly.",
       "options": [
         "change-mcq-02",
-        "change-mcq-01",
-        "change-mcq-03",
-        "change-mcq-04",
-        "change-mcq-05",
-        "change-mcq-06"
+        "change-mcq-29",
+        "change-mcq-11",
+        "change-mcq-41"
       ],
       "explanation": "本句的「changed」指「表示改變；變化；變得不同；例句：「天氣突然變了。」」。",
       "sentenceIndex": 2,
@@ -1188,12 +1178,10 @@ export default {
         "changed"
       ],
       "optionReasons": {
-        "change-mcq-02": "本句指「表示改變；變化；變得不同；例句：「天氣突然變了。」」。",
-        "change-mcq-01": "「表示改變；使……變得不同；例句：「那次經歷徹底改變了我看待失敗的方式。」」是「Passage anchor > “The reason she influenced me so deeply is that she changed not only my English, but also my mindset.」的用法，與本句語境不同。",
-        "change-mcq-03": "「表示改變；更改；例句：「我們需要更改計畫。」」是「change something — make something different = cause something to become different 改變；更改」的用法，與本句語境不同。",
-        "change-mcq-04": "「改變某人的想法／感受／行為方式」是「change the way someone thinks / feels / behaves = alter someone’s attitude, thinking, feelings, or behavior 改變某人的想法／感受／行為方式」的用法，與本句語境不同。",
-        "change-mcq-05": "「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」是「change your mind = form a different opinion or decision 改變主意；改變想法」的用法，與本句語境不同。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。"
+        "change-mcq-02": "本句的「changed」指「表示改變；變化；變得不同；例句：「天氣突然變了。」」。",
+        "change-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-02"
     },
@@ -1205,11 +1193,9 @@ export default {
       "masked": "Her personality has ____ a lot since university.",
       "options": [
         "change-mcq-02",
-        "change-mcq-01",
-        "change-mcq-03",
-        "change-mcq-04",
-        "change-mcq-05",
-        "change-mcq-06"
+        "change-mcq-29",
+        "change-mcq-09",
+        "change-mcq-10"
       ],
       "explanation": "本句的「changed」指「表示改變；變化；變得不同；例句：「天氣突然變了。」」。",
       "sentenceIndex": 3,
@@ -1218,12 +1204,10 @@ export default {
         "changed"
       ],
       "optionReasons": {
-        "change-mcq-02": "本句指「表示改變；變化；變得不同；例句：「天氣突然變了。」」。",
-        "change-mcq-01": "「表示改變；使……變得不同；例句：「那次經歷徹底改變了我看待失敗的方式。」」是「Passage anchor > “The reason she influenced me so deeply is that she changed not only my English, but also my mindset.」的用法，與本句語境不同。",
-        "change-mcq-03": "「表示改變；更改；例句：「我們需要更改計畫。」」是「change something — make something different = cause something to become different 改變；更改」的用法，與本句語境不同。",
-        "change-mcq-04": "「改變某人的想法／感受／行為方式」是「change the way someone thinks / feels / behaves = alter someone’s attitude, thinking, feelings, or behavior 改變某人的想法／感受／行為方式」的用法，與本句語境不同。",
-        "change-mcq-05": "「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」是「change your mind = form a different opinion or decision 改變主意；改變想法」的用法，與本句語境不同。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。"
+        "change-mcq-02": "本句的「changed」指「表示改變；變化；變得不同；例句：「天氣突然變了。」」。",
+        "change-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-02"
     },
@@ -1235,11 +1219,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "change-mcq-03",
-        "change-mcq-02",
-        "change-mcq-04",
-        "change-mcq-01",
-        "change-mcq-05",
-        "change-mcq-06"
+        "change-mcq-30",
+        "change-mcq-10",
+        "change-mcq-32"
       ],
       "explanation": "本句的「change the plan」指「表示改變；更改；例句：「我們需要更改計畫。」」。",
       "sentenceIndex": 4,
@@ -1248,12 +1230,10 @@ export default {
         "change the plan"
       ],
       "optionReasons": {
-        "change-mcq-03": "本句指「表示改變；更改；例句：「我們需要更改計畫。」」。",
-        "change-mcq-02": "「表示改變；變化；變得不同；例句：「天氣突然變了。」」是「change — become different = become different from a previous state 改變；變化；變得不同」的用法，與本句語境不同。",
-        "change-mcq-04": "「改變某人的想法／感受／行為方式」是「change the way someone thinks / feels / behaves = alter someone’s attitude, thinking, feelings, or behavior 改變某人的想法／感受／行為方式」的用法，與本句語境不同。",
-        "change-mcq-01": "「表示改變；使……變得不同；例句：「那次經歷徹底改變了我看待失敗的方式。」」是「Passage anchor > “The reason she influenced me so deeply is that she changed not only my English, but also my mindset.」的用法，與本句語境不同。",
-        "change-mcq-05": "「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」是「change your mind = form a different opinion or decision 改變主意；改變想法」的用法，與本句語境不同。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。"
+        "change-mcq-03": "本句的「change the plan」指「表示改變；更改；例句：「我們需要更改計畫。」」。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-03"
     },
@@ -1265,11 +1245,9 @@ export default {
       "masked": "The experience ____.",
       "options": [
         "change-mcq-03",
-        "change-mcq-02",
-        "change-mcq-04",
-        "change-mcq-01",
-        "change-mcq-05",
-        "change-mcq-06"
+        "change-mcq-28",
+        "change-mcq-10",
+        "change-mcq-41"
       ],
       "explanation": "本句的「changed his life」指「表示改變；更改；例句：「我們需要更改計畫。」」。",
       "sentenceIndex": 5,
@@ -1278,12 +1256,10 @@ export default {
         "changed his life"
       ],
       "optionReasons": {
-        "change-mcq-03": "本句指「表示改變；更改；例句：「我們需要更改計畫。」」。",
-        "change-mcq-02": "「表示改變；變化；變得不同；例句：「天氣突然變了。」」是「change — become different = become different from a previous state 改變；變化；變得不同」的用法，與本句語境不同。",
-        "change-mcq-04": "「改變某人的想法／感受／行為方式」是「change the way someone thinks / feels / behaves = alter someone’s attitude, thinking, feelings, or behavior 改變某人的想法／感受／行為方式」的用法，與本句語境不同。",
-        "change-mcq-01": "「表示改變；使……變得不同；例句：「那次經歷徹底改變了我看待失敗的方式。」」是「Passage anchor > “The reason she influenced me so deeply is that she changed not only my English, but also my mindset.」的用法，與本句語境不同。",
-        "change-mcq-05": "「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」是「change your mind = form a different opinion or decision 改變主意；改變想法」的用法，與本句語境不同。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。"
+        "change-mcq-03": "本句的「changed his life」指「表示改變；更改；例句：「我們需要更改計畫。」」。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-03"
     },
@@ -1295,11 +1271,9 @@ export default {
       "masked": "The book ____ about success.",
       "options": [
         "change-mcq-04",
-        "change-mcq-03",
-        "change-mcq-05",
-        "change-mcq-02",
-        "change-mcq-06",
-        "change-mcq-01"
+        "change-mcq-08",
+        "change-mcq-28",
+        "change-mcq-10"
       ],
       "explanation": "本句的「changed the way she thought」指「改變某人的想法／感受／行為方式」。",
       "sentenceIndex": 6,
@@ -1308,12 +1282,10 @@ export default {
         "changed the way she thought"
       ],
       "optionReasons": {
-        "change-mcq-04": "本句指「改變某人的想法／感受／行為方式」。",
-        "change-mcq-03": "「表示改變；更改；例句：「我們需要更改計畫。」」是「change something — make something different = cause something to become different 改變；更改」的用法，與本句語境不同。",
-        "change-mcq-05": "「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」是「change your mind = form a different opinion or decision 改變主意；改變想法」的用法，與本句語境不同。",
-        "change-mcq-02": "「表示改變；變化；變得不同；例句：「天氣突然變了。」」是「change — become different = become different from a previous state 改變；變化；變得不同」的用法，與本句語境不同。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。",
-        "change-mcq-01": "「表示改變；使……變得不同；例句：「那次經歷徹底改變了我看待失敗的方式。」」是「Passage anchor > “The reason she influenced me so deeply is that she changed not only my English, but also my mindset.」的用法，與本句語境不同。"
+        "change-mcq-04": "本句的「changed the way she thought」指「改變某人的想法／感受／行為方式」。",
+        "change-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-04"
     },
@@ -1325,11 +1297,9 @@ export default {
       "masked": "Becoming a parent ____.",
       "options": [
         "change-mcq-04",
-        "change-mcq-03",
-        "change-mcq-05",
-        "change-mcq-02",
-        "change-mcq-06",
-        "change-mcq-01"
+        "change-mcq-41",
+        "change-mcq-27",
+        "change-mcq-09"
       ],
       "explanation": "本句的「changed how he viewed responsibility」指「改變某人的想法／感受／行為方式」。",
       "sentenceIndex": 7,
@@ -1338,12 +1308,10 @@ export default {
         "changed how he viewed responsibility"
       ],
       "optionReasons": {
-        "change-mcq-04": "本句指「改變某人的想法／感受／行為方式」。",
-        "change-mcq-03": "「表示改變；更改；例句：「我們需要更改計畫。」」是「change something — make something different = cause something to become different 改變；更改」的用法，與本句語境不同。",
-        "change-mcq-05": "「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」是「change your mind = form a different opinion or decision 改變主意；改變想法」的用法，與本句語境不同。",
-        "change-mcq-02": "「表示改變；變化；變得不同；例句：「天氣突然變了。」」是「change — become different = become different from a previous state 改變；變化；變得不同」的用法，與本句語境不同。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。",
-        "change-mcq-01": "「表示改變；使……變得不同；例句：「那次經歷徹底改變了我看待失敗的方式。」」是「Passage anchor > “The reason she influenced me so deeply is that she changed not only my English, but also my mindset.」的用法，與本句語境不同。"
+        "change-mcq-04": "本句的「changed how he viewed responsibility」指「改變某人的想法／感受／行為方式」。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-04"
     },
@@ -1355,11 +1323,9 @@ export default {
       "masked": "I was going to stay home, but I ____.",
       "options": [
         "change-mcq-05",
-        "change-mcq-04",
-        "change-mcq-06",
-        "change-mcq-03",
-        "change-mcq-07",
-        "change-mcq-02"
+        "change-mcq-27",
+        "change-mcq-32",
+        "change-mcq-09"
       ],
       "explanation": "本句的「changed my mind」指「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」。",
       "sentenceIndex": 8,
@@ -1368,12 +1334,10 @@ export default {
         "changed my mind"
       ],
       "optionReasons": {
-        "change-mcq-05": "本句指「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」。",
-        "change-mcq-04": "「改變某人的想法／感受／行為方式」是「change the way someone thinks / feels / behaves = alter someone’s attitude, thinking, feelings, or behavior 改變某人的想法／感受／行為方式」的用法，與本句語境不同。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。",
-        "change-mcq-03": "「表示改變；更改；例句：「我們需要更改計畫。」」是「change something — make something different = cause something to become different 改變；更改」的用法，與本句語境不同。",
-        "change-mcq-07": "「表示更換；替換；例句：「我需要換電池。」」是「change something — replace one thing with another = remove or stop using one thing and use another instead 更換；替換」的用法，與本句語境不同。",
-        "change-mcq-02": "「表示改變；變化；變得不同；例句：「天氣突然變了。」」是「change — become different = become different from a previous state 改變；變化；變得不同」的用法，與本句語境不同。"
+        "change-mcq-05": "本句的「changed my mind」指「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-05"
     },
@@ -1385,11 +1349,9 @@ export default {
       "masked": "Nothing you say will ____.",
       "options": [
         "change-mcq-05",
-        "change-mcq-04",
-        "change-mcq-06",
-        "change-mcq-03",
-        "change-mcq-07",
-        "change-mcq-02"
+        "change-mcq-27",
+        "change-mcq-11",
+        "change-mcq-32"
       ],
       "explanation": "本句的「change her mind」指「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」。",
       "sentenceIndex": 9,
@@ -1398,12 +1360,10 @@ export default {
         "change her mind"
       ],
       "optionReasons": {
-        "change-mcq-05": "本句指「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」。",
-        "change-mcq-04": "「改變某人的想法／感受／行為方式」是「change the way someone thinks / feels / behaves = alter someone’s attitude, thinking, feelings, or behavior 改變某人的想法／感受／行為方式」的用法，與本句語境不同。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。",
-        "change-mcq-03": "「表示改變；更改；例句：「我們需要更改計畫。」」是「change something — make something different = cause something to become different 改變；更改」的用法，與本句語境不同。",
-        "change-mcq-07": "「表示更換；替換；例句：「我需要換電池。」」是「change something — replace one thing with another = remove or stop using one thing and use another instead 更換；替換」的用法，與本句語境不同。",
-        "change-mcq-02": "「表示改變；變化；變得不同；例句：「天氣突然變了。」」是「change — become different = become different from a previous state 改變；變化；變得不同」的用法，與本句語境不同。"
+        "change-mcq-05": "本句的「change her mind」指「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-05"
     },
@@ -1415,11 +1375,9 @@ export default {
       "masked": "He needs to ____ toward teamwork.",
       "options": [
         "change-mcq-06",
-        "change-mcq-05",
-        "change-mcq-07",
-        "change-mcq-04",
-        "change-mcq-08",
-        "change-mcq-03"
+        "change-mcq-10",
+        "change-mcq-41",
+        "change-mcq-29"
       ],
       "explanation": "本句的「change his attitude」指「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」。",
       "sentenceIndex": 10,
@@ -1428,12 +1386,10 @@ export default {
         "change his attitude"
       ],
       "optionReasons": {
-        "change-mcq-06": "本句指「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」。",
-        "change-mcq-05": "「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」是「change your mind = form a different opinion or decision 改變主意；改變想法」的用法，與本句語境不同。",
-        "change-mcq-07": "「表示更換；替換；例句：「我需要換電池。」」是「change something — replace one thing with another = remove or stop using one thing and use another instead 更換；替換」的用法，與本句語境不同。",
-        "change-mcq-04": "「改變某人的想法／感受／行為方式」是「change the way someone thinks / feels / behaves = alter someone’s attitude, thinking, feelings, or behavior 改變某人的想法／感受／行為方式」的用法，與本句語境不同。",
-        "change-mcq-08": "「表示換衣服；例句：「晚餐前我需要換衣服。」」是「change clothes = take off one set of clothes and put on another 換衣服」的用法，與本句語境不同。",
-        "change-mcq-03": "「表示改變；更改；例句：「我們需要更改計畫。」」是「change something — make something different = cause something to become different 改變；更改」的用法，與本句語境不同。"
+        "change-mcq-06": "本句的「change his attitude」指「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-06"
     },
@@ -1445,11 +1401,9 @@ export default {
       "masked": "She gradually ____.",
       "options": [
         "change-mcq-06",
-        "change-mcq-05",
-        "change-mcq-07",
-        "change-mcq-04",
-        "change-mcq-08",
-        "change-mcq-03"
+        "change-mcq-11",
+        "change-mcq-41",
+        "change-mcq-28"
       ],
       "explanation": "本句的「changed her eating habits」指「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」。",
       "sentenceIndex": 11,
@@ -1458,12 +1412,10 @@ export default {
         "changed her eating habits"
       ],
       "optionReasons": {
-        "change-mcq-06": "本句指「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」。",
-        "change-mcq-05": "「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」是「change your mind = form a different opinion or decision 改變主意；改變想法」的用法，與本句語境不同。",
-        "change-mcq-07": "「表示更換；替換；例句：「我需要換電池。」」是「change something — replace one thing with another = remove or stop using one thing and use another instead 更換；替換」的用法，與本句語境不同。",
-        "change-mcq-04": "「改變某人的想法／感受／行為方式」是「change the way someone thinks / feels / behaves = alter someone’s attitude, thinking, feelings, or behavior 改變某人的想法／感受／行為方式」的用法，與本句語境不同。",
-        "change-mcq-08": "「表示換衣服；例句：「晚餐前我需要換衣服。」」是「change clothes = take off one set of clothes and put on another 換衣服」的用法，與本句語境不同。",
-        "change-mcq-03": "「表示改變；更改；例句：「我們需要更改計畫。」」是「change something — make something different = cause something to become different 改變；更改」的用法，與本句語境不同。"
+        "change-mcq-06": "本句的「changed her eating habits」指「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」。",
+        "change-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-06"
     },
@@ -1475,11 +1427,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "change-mcq-07",
-        "change-mcq-06",
-        "change-mcq-08",
-        "change-mcq-05",
-        "change-mcq-09",
-        "change-mcq-04"
+        "change-mcq-10",
+        "change-mcq-50",
+        "change-mcq-14"
       ],
       "explanation": "本句的「change the battery」指「表示更換；替換；例句：「我需要換電池。」」。",
       "sentenceIndex": 12,
@@ -1488,12 +1438,10 @@ export default {
         "change the battery"
       ],
       "optionReasons": {
-        "change-mcq-07": "本句指「表示更換；替換；例句：「我需要換電池。」」。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。",
-        "change-mcq-08": "「表示換衣服；例句：「晚餐前我需要換衣服。」」是「change clothes = take off one set of clothes and put on another 換衣服」的用法，與本句語境不同。",
-        "change-mcq-05": "「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」是「change your mind = form a different opinion or decision 改變主意；改變想法」的用法，與本句語境不同。",
-        "change-mcq-09": "「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」是「change your shoes / shirt / outfit = replace what you are wearing 換鞋／換襯衫／換裝」的用法，與本句語境不同。",
-        "change-mcq-04": "「改變某人的想法／感受／行為方式」是「change the way someone thinks / feels / behaves = alter someone’s attitude, thinking, feelings, or behavior 改變某人的想法／感受／行為方式」的用法，與本句語境不同。"
+        "change-mcq-07": "本句的「change the battery」指「表示更換；替換；例句：「我需要換電池。」」。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-07"
     },
@@ -1505,11 +1453,9 @@ export default {
       "masked": "They ____ for newer ones.",
       "options": [
         "change-mcq-07",
-        "change-mcq-06",
-        "change-mcq-08",
-        "change-mcq-05",
-        "change-mcq-09",
-        "change-mcq-04"
+        "change-mcq-40",
+        "change-mcq-38",
+        "change-mcq-27"
       ],
       "explanation": "本句的「changed the old chairs」指「表示更換；替換；例句：「我需要換電池。」」。",
       "sentenceIndex": 13,
@@ -1518,12 +1464,10 @@ export default {
         "changed the old chairs"
       ],
       "optionReasons": {
-        "change-mcq-07": "本句指「表示更換；替換；例句：「我需要換電池。」」。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。",
-        "change-mcq-08": "「表示換衣服；例句：「晚餐前我需要換衣服。」」是「change clothes = take off one set of clothes and put on another 換衣服」的用法，與本句語境不同。",
-        "change-mcq-05": "「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」是「change your mind = form a different opinion or decision 改變主意；改變想法」的用法，與本句語境不同。",
-        "change-mcq-09": "「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」是「change your shoes / shirt / outfit = replace what you are wearing 換鞋／換襯衫／換裝」的用法，與本句語境不同。",
-        "change-mcq-04": "「改變某人的想法／感受／行為方式」是「change the way someone thinks / feels / behaves = alter someone’s attitude, thinking, feelings, or behavior 改變某人的想法／感受／行為方式」的用法，與本句語境不同。"
+        "change-mcq-07": "本句的「changed the old chairs」指「表示更換；替換；例句：「我需要換電池。」」。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-07"
     },
@@ -1535,11 +1479,9 @@ export default {
       "masked": "I need to ____ before dinner.",
       "options": [
         "change-mcq-08",
-        "change-mcq-07",
-        "change-mcq-09",
-        "change-mcq-06",
-        "change-mcq-10",
-        "change-mcq-05"
+        "change-mcq-03",
+        "change-mcq-30",
+        "change-mcq-10"
       ],
       "explanation": "本句的「change clothes」指「表示換衣服；例句：「晚餐前我需要換衣服。」」。",
       "sentenceIndex": 14,
@@ -1548,12 +1490,10 @@ export default {
         "change clothes"
       ],
       "optionReasons": {
-        "change-mcq-08": "本句指「表示換衣服；例句：「晚餐前我需要換衣服。」」。",
-        "change-mcq-07": "「表示更換；替換；例句：「我需要換電池。」」是「change something — replace one thing with another = remove or stop using one thing and use another instead 更換；替換」的用法，與本句語境不同。",
-        "change-mcq-09": "「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」是「change your shoes / shirt / outfit = replace what you are wearing 換鞋／換襯衫／換裝」的用法，與本句語境不同。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。",
-        "change-mcq-10": "「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」是「change trains / buses / planes = leave one vehicle and continue the journey on another 轉車；轉乘」的用法，與本句語境不同。",
-        "change-mcq-05": "「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」是「change your mind = form a different opinion or decision 改變主意；改變想法」的用法，與本句語境不同。"
+        "change-mcq-08": "本句的「change clothes」指「表示換衣服；例句：「晚餐前我需要換衣服。」」。",
+        "change-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-08"
     },
@@ -1565,11 +1505,9 @@ export default {
       "masked": "She went upstairs to ____.",
       "options": [
         "change-mcq-08",
-        "change-mcq-07",
-        "change-mcq-09",
-        "change-mcq-06",
-        "change-mcq-10",
-        "change-mcq-05"
+        "change-mcq-16",
+        "change-mcq-35",
+        "change-mcq-30"
       ],
       "explanation": "本句的「change」指「表示換衣服；例句：「晚餐前我需要換衣服。」」。",
       "sentenceIndex": 15,
@@ -1578,12 +1516,10 @@ export default {
         "change"
       ],
       "optionReasons": {
-        "change-mcq-08": "本句指「表示換衣服；例句：「晚餐前我需要換衣服。」」。",
-        "change-mcq-07": "「表示更換；替換；例句：「我需要換電池。」」是「change something — replace one thing with another = remove or stop using one thing and use another instead 更換；替換」的用法，與本句語境不同。",
-        "change-mcq-09": "「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」是「change your shoes / shirt / outfit = replace what you are wearing 換鞋／換襯衫／換裝」的用法，與本句語境不同。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。",
-        "change-mcq-10": "「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」是「change trains / buses / planes = leave one vehicle and continue the journey on another 轉車；轉乘」的用法，與本句語境不同。",
-        "change-mcq-05": "「表示改變主意；改變想法；例句：「我本來打算待在家，但後來改變主意了。」」是「change your mind = form a different opinion or decision 改變主意；改變想法」的用法，與本句語境不同。"
+        "change-mcq-08": "本句的「change」指「表示換衣服；例句：「晚餐前我需要換衣服。」」。",
+        "change-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-08"
     },
@@ -1595,11 +1531,9 @@ export default {
       "masked": "You should ____ before going outside.",
       "options": [
         "change-mcq-09",
-        "change-mcq-08",
-        "change-mcq-10",
-        "change-mcq-07",
-        "change-mcq-11",
-        "change-mcq-06"
+        "change-mcq-16",
+        "change-mcq-27",
+        "change-mcq-22"
       ],
       "explanation": "本句的「change your shoes」指「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」。",
       "sentenceIndex": 16,
@@ -1608,12 +1542,10 @@ export default {
         "change your shoes"
       ],
       "optionReasons": {
-        "change-mcq-09": "本句指「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」。",
-        "change-mcq-08": "「表示換衣服；例句：「晚餐前我需要換衣服。」」是「change clothes = take off one set of clothes and put on another 換衣服」的用法，與本句語境不同。",
-        "change-mcq-10": "「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」是「change trains / buses / planes = leave one vehicle and continue the journey on another 轉車；轉乘」的用法，與本句語境不同。",
-        "change-mcq-07": "「表示更換；替換；例句：「我需要換電池。」」是「change something — replace one thing with another = remove or stop using one thing and use another instead 更換；替換」的用法，與本句語境不同。",
-        "change-mcq-11": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「change channels = switch from one television/radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。"
+        "change-mcq-09": "本句的「change your shoes」指「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」。",
+        "change-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-09"
     },
@@ -1625,11 +1557,9 @@ export default {
       "masked": "He ____ after lunch.",
       "options": [
         "change-mcq-09",
-        "change-mcq-08",
-        "change-mcq-10",
-        "change-mcq-07",
-        "change-mcq-11",
-        "change-mcq-06"
+        "change-mcq-17",
+        "change-mcq-30",
+        "change-mcq-10"
       ],
       "explanation": "本句的「changed his shirt」指「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」。",
       "sentenceIndex": 17,
@@ -1638,12 +1568,10 @@ export default {
         "changed his shirt"
       ],
       "optionReasons": {
-        "change-mcq-09": "本句指「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」。",
-        "change-mcq-08": "「表示換衣服；例句：「晚餐前我需要換衣服。」」是「change clothes = take off one set of clothes and put on another 換衣服」的用法，與本句語境不同。",
-        "change-mcq-10": "「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」是「change trains / buses / planes = leave one vehicle and continue the journey on another 轉車；轉乘」的用法，與本句語境不同。",
-        "change-mcq-07": "「表示更換；替換；例句：「我需要換電池。」」是「change something — replace one thing with another = remove or stop using one thing and use another instead 更換；替換」的用法，與本句語境不同。",
-        "change-mcq-11": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「change channels = switch from one television/radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "change-mcq-06": "「表示改變態度／行為／習慣；例句：「他需要改變自己對團隊合作的態度。」」是「change your attitude / behavior / habits = alter the way you think or act 改變態度／行為／習慣」的用法，與本句語境不同。"
+        "change-mcq-09": "本句的「changed his shirt」指「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」。",
+        "change-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-09"
     },
@@ -1655,11 +1583,9 @@ export default {
       "masked": "You have to ____ in Birmingham.",
       "options": [
         "change-mcq-10",
-        "change-mcq-09",
-        "change-mcq-11",
-        "change-mcq-08",
-        "change-mcq-12",
-        "change-mcq-07"
+        "change-mcq-04",
+        "change-mcq-35",
+        "change-mcq-09"
       ],
       "explanation": "本句的「change trains」指「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」。",
       "sentenceIndex": 18,
@@ -1668,12 +1594,10 @@ export default {
         "change trains"
       ],
       "optionReasons": {
-        "change-mcq-10": "本句指「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」。",
-        "change-mcq-09": "「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」是「change your shoes / shirt / outfit = replace what you are wearing 換鞋／換襯衫／換裝」的用法，與本句語境不同。",
-        "change-mcq-11": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「change channels = switch from one television/radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "change-mcq-08": "「表示換衣服；例句：「晚餐前我需要換衣服。」」是「change clothes = take off one set of clothes and put on another 換衣服」的用法，與本句語境不同。",
-        "change-mcq-12": "「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」是「change jobs / schools / careers = leave one job, school, or career path and move to another 換工作／轉學／轉換職業」的用法，與本句語境不同。",
-        "change-mcq-07": "「表示更換；替換；例句：「我需要換電池。」」是「change something — replace one thing with another = remove or stop using one thing and use another instead 更換；替換」的用法，與本句語境不同。"
+        "change-mcq-10": "本句的「change trains」指「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」。",
+        "change-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-10"
     },
@@ -1685,11 +1609,9 @@ export default {
       "masked": "We ____ twice on the way there.",
       "options": [
         "change-mcq-10",
-        "change-mcq-09",
-        "change-mcq-11",
-        "change-mcq-08",
-        "change-mcq-12",
-        "change-mcq-07"
+        "change-mcq-35",
+        "change-mcq-05",
+        "change-mcq-08"
       ],
       "explanation": "本句的「changed buses」指「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」。",
       "sentenceIndex": 19,
@@ -1698,12 +1620,10 @@ export default {
         "changed buses"
       ],
       "optionReasons": {
-        "change-mcq-10": "本句指「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」。",
-        "change-mcq-09": "「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」是「change your shoes / shirt / outfit = replace what you are wearing 換鞋／換襯衫／換裝」的用法，與本句語境不同。",
-        "change-mcq-11": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「change channels = switch from one television/radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "change-mcq-08": "「表示換衣服；例句：「晚餐前我需要換衣服。」」是「change clothes = take off one set of clothes and put on another 換衣服」的用法，與本句語境不同。",
-        "change-mcq-12": "「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」是「change jobs / schools / careers = leave one job, school, or career path and move to another 換工作／轉學／轉換職業」的用法，與本句語境不同。",
-        "change-mcq-07": "「表示更換；替換；例句：「我需要換電池。」」是「change something — replace one thing with another = remove or stop using one thing and use another instead 更換；替換」的用法，與本句語境不同。"
+        "change-mcq-10": "本句的「changed buses」指「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」。",
+        "change-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-10"
     },
@@ -1715,11 +1635,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "change-mcq-11",
-        "change-mcq-10",
-        "change-mcq-12",
-        "change-mcq-09",
-        "change-mcq-13",
-        "change-mcq-08"
+        "change-mcq-01",
+        "change-mcq-27",
+        "change-mcq-41"
       ],
       "explanation": "本句的「change the channel」指「表示轉台；換頻道；例句：「你可以轉台嗎？」」。",
       "sentenceIndex": 20,
@@ -1728,12 +1646,10 @@ export default {
         "change the channel"
       ],
       "optionReasons": {
-        "change-mcq-11": "本句指「表示轉台；換頻道；例句：「你可以轉台嗎？」」。",
-        "change-mcq-10": "「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」是「change trains / buses / planes = leave one vehicle and continue the journey on another 轉車；轉乘」的用法，與本句語境不同。",
-        "change-mcq-12": "「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」是「change jobs / schools / careers = leave one job, school, or career path and move to another 換工作／轉學／轉換職業」的用法，與本句語境不同。",
-        "change-mcq-09": "「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」是「change your shoes / shirt / outfit = replace what you are wearing 換鞋／換襯衫／換裝」的用法，與本句語境不同。",
-        "change-mcq-13": "「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」是「change a date / time / appointment = move something to a different scheduled time 更改日期／時間／預約」的用法，與本句語境不同。",
-        "change-mcq-08": "「表示換衣服；例句：「晚餐前我需要換衣服。」」是「change clothes = take off one set of clothes and put on another 換衣服」的用法，與本句語境不同。"
+        "change-mcq-11": "本句的「change the channel」指「表示轉台；換頻道；例句：「你可以轉台嗎？」」。",
+        "change-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-11"
     },
@@ -1745,11 +1661,9 @@ export default {
       "masked": "He kept ____ during the news.",
       "options": [
         "change-mcq-11",
-        "change-mcq-10",
-        "change-mcq-12",
-        "change-mcq-09",
-        "change-mcq-13",
-        "change-mcq-08"
+        "change-mcq-03",
+        "change-mcq-28",
+        "change-mcq-32"
       ],
       "explanation": "本句的「changing channels」指「表示轉台；換頻道；例句：「你可以轉台嗎？」」。",
       "sentenceIndex": 21,
@@ -1758,12 +1672,10 @@ export default {
         "changing channels"
       ],
       "optionReasons": {
-        "change-mcq-11": "本句指「表示轉台；換頻道；例句：「你可以轉台嗎？」」。",
-        "change-mcq-10": "「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」是「change trains / buses / planes = leave one vehicle and continue the journey on another 轉車；轉乘」的用法，與本句語境不同。",
-        "change-mcq-12": "「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」是「change jobs / schools / careers = leave one job, school, or career path and move to another 換工作／轉學／轉換職業」的用法，與本句語境不同。",
-        "change-mcq-09": "「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」是「change your shoes / shirt / outfit = replace what you are wearing 換鞋／換襯衫／換裝」的用法，與本句語境不同。",
-        "change-mcq-13": "「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」是「change a date / time / appointment = move something to a different scheduled time 更改日期／時間／預約」的用法，與本句語境不同。",
-        "change-mcq-08": "「表示換衣服；例句：「晚餐前我需要換衣服。」」是「change clothes = take off one set of clothes and put on another 換衣服」的用法，與本句語境不同。"
+        "change-mcq-11": "本句的「changing channels」指「表示轉台；換頻道；例句：「你可以轉台嗎？」」。",
+        "change-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-11"
     },
@@ -1775,11 +1687,9 @@ export default {
       "masked": "She ____ last year.",
       "options": [
         "change-mcq-12",
-        "change-mcq-11",
-        "change-mcq-13",
-        "change-mcq-10",
+        "change-mcq-36",
         "change-mcq-14",
-        "change-mcq-09"
+        "change-mcq-27"
       ],
       "explanation": "本句的「changed jobs」指「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」。",
       "sentenceIndex": 22,
@@ -1788,12 +1698,10 @@ export default {
         "changed jobs"
       ],
       "optionReasons": {
-        "change-mcq-12": "本句指「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」。",
-        "change-mcq-11": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「change channels = switch from one television/radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "change-mcq-13": "「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」是「change a date / time / appointment = move something to a different scheduled time 更改日期／時間／預約」的用法，與本句語境不同。",
-        "change-mcq-10": "「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」是「change trains / buses / planes = leave one vehicle and continue the journey on another 轉車；轉乘」的用法，與本句語境不同。",
-        "change-mcq-14": "「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」是「change a name / address / password = replace existing information with different information 更改姓名／地址／密碼」的用法，與本句語境不同。",
-        "change-mcq-09": "「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」是「change your shoes / shirt / outfit = replace what you are wearing 換鞋／換襯衫／換裝」的用法，與本句語境不同。"
+        "change-mcq-12": "本句的「changed jobs」指「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」。",
+        "change-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-12"
     },
@@ -1805,11 +1713,9 @@ export default {
       "masked": "He decided to ____ in his thirties.",
       "options": [
         "change-mcq-12",
-        "change-mcq-11",
-        "change-mcq-13",
-        "change-mcq-10",
-        "change-mcq-14",
-        "change-mcq-09"
+        "change-mcq-28",
+        "change-mcq-22",
+        "change-mcq-13"
       ],
       "explanation": "本句的「change careers」指「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」。",
       "sentenceIndex": 23,
@@ -1818,12 +1724,10 @@ export default {
         "change careers"
       ],
       "optionReasons": {
-        "change-mcq-12": "本句指「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」。",
-        "change-mcq-11": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「change channels = switch from one television/radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "change-mcq-13": "「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」是「change a date / time / appointment = move something to a different scheduled time 更改日期／時間／預約」的用法，與本句語境不同。",
-        "change-mcq-10": "「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」是「change trains / buses / planes = leave one vehicle and continue the journey on another 轉車；轉乘」的用法，與本句語境不同。",
-        "change-mcq-14": "「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」是「change a name / address / password = replace existing information with different information 更改姓名／地址／密碼」的用法，與本句語境不同。",
-        "change-mcq-09": "「表示換鞋／換襯衫／換裝；例句：「出門前你應該換雙鞋。」」是「change your shoes / shirt / outfit = replace what you are wearing 換鞋／換襯衫／換裝」的用法，與本句語境不同。"
+        "change-mcq-12": "本句的「change careers」指「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-12"
     },
@@ -1835,11 +1739,9 @@ export default {
       "masked": "Could we ____?",
       "options": [
         "change-mcq-13",
-        "change-mcq-12",
-        "change-mcq-14",
-        "change-mcq-11",
-        "change-mcq-15",
-        "change-mcq-10"
+        "change-mcq-35",
+        "change-mcq-10",
+        "change-mcq-08"
       ],
       "explanation": "本句的「change the meeting time」指「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」。",
       "sentenceIndex": 24,
@@ -1848,12 +1750,10 @@ export default {
         "change the meeting time"
       ],
       "optionReasons": {
-        "change-mcq-13": "本句指「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」。",
-        "change-mcq-12": "「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」是「change jobs / schools / careers = leave one job, school, or career path and move to another 換工作／轉學／轉換職業」的用法，與本句語境不同。",
-        "change-mcq-14": "「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」是「change a name / address / password = replace existing information with different information 更改姓名／地址／密碼」的用法，與本句語境不同。",
-        "change-mcq-11": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「change channels = switch from one television/radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "change-mcq-15": "「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」是「change the subject = begin talking about a different topic 轉換話題」的用法，與本句語境不同。",
-        "change-mcq-10": "「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」是「change trains / buses / planes = leave one vehicle and continue the journey on another 轉車；轉乘」的用法，與本句語境不同。"
+        "change-mcq-13": "本句的「change the meeting time」指「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」。",
+        "change-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-13"
     },
@@ -1865,11 +1765,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "change-mcq-13",
-        "change-mcq-12",
-        "change-mcq-14",
-        "change-mcq-11",
-        "change-mcq-15",
-        "change-mcq-10"
+        "change-mcq-45",
+        "change-mcq-35",
+        "change-mcq-27"
       ],
       "explanation": "本句的「change my appointment」指「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」。",
       "sentenceIndex": 25,
@@ -1878,12 +1776,10 @@ export default {
         "change my appointment"
       ],
       "optionReasons": {
-        "change-mcq-13": "本句指「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」。",
-        "change-mcq-12": "「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」是「change jobs / schools / careers = leave one job, school, or career path and move to another 換工作／轉學／轉換職業」的用法，與本句語境不同。",
-        "change-mcq-14": "「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」是「change a name / address / password = replace existing information with different information 更改姓名／地址／密碼」的用法，與本句語境不同。",
-        "change-mcq-11": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「change channels = switch from one television/radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "change-mcq-15": "「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」是「change the subject = begin talking about a different topic 轉換話題」的用法，與本句語境不同。",
-        "change-mcq-10": "「表示轉車；轉乘；例句：「你必須在伯明罕轉火車。」」是「change trains / buses / planes = leave one vehicle and continue the journey on another 轉車；轉乘」的用法，與本句語境不同。"
+        "change-mcq-13": "本句的「change my appointment」指「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」。",
+        "change-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-13"
     },
@@ -1895,11 +1791,9 @@ export default {
       "masked": "I recently ____.",
       "options": [
         "change-mcq-14",
-        "change-mcq-13",
-        "change-mcq-15",
-        "change-mcq-12",
-        "change-mcq-16",
-        "change-mcq-11"
+        "change-mcq-28",
+        "change-mcq-17",
+        "change-mcq-41"
       ],
       "explanation": "本句的「changed my password」指「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」。",
       "sentenceIndex": 26,
@@ -1908,12 +1802,10 @@ export default {
         "changed my password"
       ],
       "optionReasons": {
-        "change-mcq-14": "本句指「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」。",
-        "change-mcq-13": "「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」是「change a date / time / appointment = move something to a different scheduled time 更改日期／時間／預約」的用法，與本句語境不同。",
-        "change-mcq-15": "「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」是「change the subject = begin talking about a different topic 轉換話題」的用法，與本句語境不同。",
-        "change-mcq-12": "「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」是「change jobs / schools / careers = leave one job, school, or career path and move to another 換工作／轉學／轉換職業」的用法，與本句語境不同。",
-        "change-mcq-16": "「表示改變方向；轉向；例句：「那輛車突然改變方向。」」是「change direction = begin moving or developing in a different direction 改變方向；轉向」的用法，與本句語境不同。",
-        "change-mcq-11": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「change channels = switch from one television/radio channel to another 轉台；換頻道」的用法，與本句語境不同。"
+        "change-mcq-14": "本句的「changed my password」指「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-14"
     },
@@ -1925,11 +1817,9 @@ export default {
       "masked": "Please tell us if you ____.",
       "options": [
         "change-mcq-14",
-        "change-mcq-13",
-        "change-mcq-15",
-        "change-mcq-12",
-        "change-mcq-16",
-        "change-mcq-11"
+        "change-mcq-45",
+        "change-mcq-35",
+        "change-mcq-29"
       ],
       "explanation": "本句的「change your address」指「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」。",
       "sentenceIndex": 27,
@@ -1938,12 +1828,10 @@ export default {
         "change your address"
       ],
       "optionReasons": {
-        "change-mcq-14": "本句指「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」。",
-        "change-mcq-13": "「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」是「change a date / time / appointment = move something to a different scheduled time 更改日期／時間／預約」的用法，與本句語境不同。",
-        "change-mcq-15": "「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」是「change the subject = begin talking about a different topic 轉換話題」的用法，與本句語境不同。",
-        "change-mcq-12": "「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」是「change jobs / schools / careers = leave one job, school, or career path and move to another 換工作／轉學／轉換職業」的用法，與本句語境不同。",
-        "change-mcq-16": "「表示改變方向；轉向；例句：「那輛車突然改變方向。」」是「change direction = begin moving or developing in a different direction 改變方向；轉向」的用法，與本句語境不同。",
-        "change-mcq-11": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「change channels = switch from one television/radio channel to another 轉台；換頻道」的用法，與本句語境不同。"
+        "change-mcq-14": "本句的「change your address」指「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」。",
+        "change-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-14"
     },
@@ -1955,11 +1843,9 @@ export default {
       "masked": "He looked uncomfortable, so I ____.",
       "options": [
         "change-mcq-15",
+        "change-mcq-34",
         "change-mcq-14",
-        "change-mcq-16",
-        "change-mcq-13",
-        "change-mcq-17",
-        "change-mcq-12"
+        "change-mcq-27"
       ],
       "explanation": "本句的「changed the subject」指「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」。",
       "sentenceIndex": 28,
@@ -1968,12 +1854,10 @@ export default {
         "changed the subject"
       ],
       "optionReasons": {
-        "change-mcq-15": "本句指「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」。",
-        "change-mcq-14": "「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」是「change a name / address / password = replace existing information with different information 更改姓名／地址／密碼」的用法，與本句語境不同。",
-        "change-mcq-16": "「表示改變方向；轉向；例句：「那輛車突然改變方向。」」是「change direction = begin moving or developing in a different direction 改變方向；轉向」的用法，與本句語境不同。",
-        "change-mcq-13": "「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」是「change a date / time / appointment = move something to a different scheduled time 更改日期／時間／預約」的用法，與本句語境不同。",
-        "change-mcq-17": "「表示從A變成B；例句：「天空從藍色變成灰色。」」是「change from A to B = become different, moving from one state or form to another 從A變成B」的用法，與本句語境不同。",
-        "change-mcq-12": "「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」是「change jobs / schools / careers = leave one job, school, or career path and move to another 換工作／轉學／轉換職業」的用法，與本句語境不同。"
+        "change-mcq-15": "本句的「changed the subject」指「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」。",
+        "change-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-15"
     },
@@ -1985,11 +1869,9 @@ export default {
       "masked": "She quickly ____ when money was mentioned.",
       "options": [
         "change-mcq-15",
-        "change-mcq-14",
-        "change-mcq-16",
-        "change-mcq-13",
-        "change-mcq-17",
-        "change-mcq-12"
+        "change-mcq-47",
+        "change-mcq-27",
+        "change-mcq-14"
       ],
       "explanation": "本句的「changed the subject」指「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」。",
       "sentenceIndex": 29,
@@ -1998,12 +1880,10 @@ export default {
         "changed the subject"
       ],
       "optionReasons": {
-        "change-mcq-15": "本句指「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」。",
-        "change-mcq-14": "「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」是「change a name / address / password = replace existing information with different information 更改姓名／地址／密碼」的用法，與本句語境不同。",
-        "change-mcq-16": "「表示改變方向；轉向；例句：「那輛車突然改變方向。」」是「change direction = begin moving or developing in a different direction 改變方向；轉向」的用法，與本句語境不同。",
-        "change-mcq-13": "「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」是「change a date / time / appointment = move something to a different scheduled time 更改日期／時間／預約」的用法，與本句語境不同。",
-        "change-mcq-17": "「表示從A變成B；例句：「天空從藍色變成灰色。」」是「change from A to B = become different, moving from one state or form to another 從A變成B」的用法，與本句語境不同。",
-        "change-mcq-12": "「表示換工作／轉學／轉換職業；例句：「她去年換了工作。」」是「change jobs / schools / careers = leave one job, school, or career path and move to another 換工作／轉學／轉換職業」的用法，與本句語境不同。"
+        "change-mcq-15": "本句的「changed the subject」指「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」。",
+        "change-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-15"
     },
@@ -2015,11 +1895,9 @@ export default {
       "masked": "The car suddenly ____.",
       "options": [
         "change-mcq-16",
-        "change-mcq-15",
-        "change-mcq-17",
-        "change-mcq-14",
-        "change-mcq-18",
-        "change-mcq-13"
+        "change-mcq-42",
+        "change-mcq-30",
+        "change-mcq-40"
       ],
       "explanation": "本句的「changed direction」指「表示改變方向；轉向；例句：「那輛車突然改變方向。」」。",
       "sentenceIndex": 30,
@@ -2028,12 +1906,10 @@ export default {
         "changed direction"
       ],
       "optionReasons": {
-        "change-mcq-16": "本句指「表示改變方向；轉向；例句：「那輛車突然改變方向。」」。",
-        "change-mcq-15": "「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」是「change the subject = begin talking about a different topic 轉換話題」的用法，與本句語境不同。",
-        "change-mcq-17": "「表示從A變成B；例句：「天空從藍色變成灰色。」」是「change from A to B = become different, moving from one state or form to another 從A變成B」的用法，與本句語境不同。",
-        "change-mcq-14": "「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」是「change a name / address / password = replace existing information with different information 更改姓名／地址／密碼」的用法，與本句語境不同。",
-        "change-mcq-18": "「表示變成；轉變成；例句：「水結冰時會變成冰。」」是「change into something = become or be transformed into another form 變成；轉變成」的用法，與本句語境不同。",
-        "change-mcq-13": "「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」是「change a date / time / appointment = move something to a different scheduled time 更改日期／時間／預約」的用法，與本句語境不同。"
+        "change-mcq-16": "本句的「changed direction」指「表示改變方向；轉向；例句：「那輛車突然改變方向。」」。",
+        "change-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-16"
     },
@@ -2045,11 +1921,9 @@ export default {
       "masked": "The discussion ____ after her question.",
       "options": [
         "change-mcq-16",
-        "change-mcq-15",
-        "change-mcq-17",
-        "change-mcq-14",
-        "change-mcq-18",
-        "change-mcq-13"
+        "change-mcq-32",
+        "change-mcq-27",
+        "change-mcq-09"
       ],
       "explanation": "本句的「changed direction」指「表示改變方向；轉向；例句：「那輛車突然改變方向。」」。",
       "sentenceIndex": 31,
@@ -2058,12 +1932,10 @@ export default {
         "changed direction"
       ],
       "optionReasons": {
-        "change-mcq-16": "本句指「表示改變方向；轉向；例句：「那輛車突然改變方向。」」。",
-        "change-mcq-15": "「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」是「change the subject = begin talking about a different topic 轉換話題」的用法，與本句語境不同。",
-        "change-mcq-17": "「表示從A變成B；例句：「天空從藍色變成灰色。」」是「change from A to B = become different, moving from one state or form to another 從A變成B」的用法，與本句語境不同。",
-        "change-mcq-14": "「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」是「change a name / address / password = replace existing information with different information 更改姓名／地址／密碼」的用法，與本句語境不同。",
-        "change-mcq-18": "「表示變成；轉變成；例句：「水結冰時會變成冰。」」是「change into something = become or be transformed into another form 變成；轉變成」的用法，與本句語境不同。",
-        "change-mcq-13": "「表示更改日期／時間／預約；例句：「我們可以更改會議時間嗎？」」是「change a date / time / appointment = move something to a different scheduled time 更改日期／時間／預約」的用法，與本句語境不同。"
+        "change-mcq-16": "本句的「changed direction」指「表示改變方向；轉向；例句：「那輛車突然改變方向。」」。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-16"
     },
@@ -2075,11 +1947,9 @@ export default {
       "masked": "The sky ____.",
       "options": [
         "change-mcq-17",
-        "change-mcq-16",
-        "change-mcq-18",
-        "change-mcq-15",
-        "change-mcq-19",
-        "change-mcq-14"
+        "change-mcq-33",
+        "change-mcq-13",
+        "change-mcq-10"
       ],
       "explanation": "本句的「changed from blue to grey」指「表示從A變成B；例句：「天空從藍色變成灰色。」」。",
       "sentenceIndex": 32,
@@ -2088,12 +1958,10 @@ export default {
         "changed from blue to grey"
       ],
       "optionReasons": {
-        "change-mcq-17": "本句指「表示從A變成B；例句：「天空從藍色變成灰色。」」。",
-        "change-mcq-16": "「表示改變方向；轉向；例句：「那輛車突然改變方向。」」是「change direction = begin moving or developing in a different direction 改變方向；轉向」的用法，與本句語境不同。",
-        "change-mcq-18": "「表示變成；轉變成；例句：「水結冰時會變成冰。」」是「change into something = become or be transformed into another form 變成；轉變成」的用法，與本句語境不同。",
-        "change-mcq-15": "「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」是「change the subject = begin talking about a different topic 轉換話題」的用法，與本句語境不同。",
-        "change-mcq-19": "「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」是「change something into something = transform one thing into another 把……變成……」的用法，與本句語境不同。",
-        "change-mcq-14": "「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」是「change a name / address / password = replace existing information with different information 更改姓名／地址／密碼」的用法，與本句語境不同。"
+        "change-mcq-17": "本句的「changed from blue to grey」指「表示從A變成B；例句：「天空從藍色變成灰色。」」。",
+        "change-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-17"
     },
@@ -2105,11 +1973,9 @@ export default {
       "masked": "His mood ____.",
       "options": [
         "change-mcq-17",
-        "change-mcq-16",
-        "change-mcq-18",
-        "change-mcq-15",
-        "change-mcq-19",
-        "change-mcq-14"
+        "change-mcq-32",
+        "change-mcq-40",
+        "change-mcq-41"
       ],
       "explanation": "本句的「changed from excitement to disappointment」指「表示從A變成B；例句：「天空從藍色變成灰色。」」。",
       "sentenceIndex": 33,
@@ -2118,12 +1984,10 @@ export default {
         "changed from excitement to disappointment"
       ],
       "optionReasons": {
-        "change-mcq-17": "本句指「表示從A變成B；例句：「天空從藍色變成灰色。」」。",
-        "change-mcq-16": "「表示改變方向；轉向；例句：「那輛車突然改變方向。」」是「change direction = begin moving or developing in a different direction 改變方向；轉向」的用法，與本句語境不同。",
-        "change-mcq-18": "「表示變成；轉變成；例句：「水結冰時會變成冰。」」是「change into something = become or be transformed into another form 變成；轉變成」的用法，與本句語境不同。",
-        "change-mcq-15": "「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」是「change the subject = begin talking about a different topic 轉換話題」的用法，與本句語境不同。",
-        "change-mcq-19": "「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」是「change something into something = transform one thing into another 把……變成……」的用法，與本句語境不同。",
-        "change-mcq-14": "「表示更改姓名／地址／密碼；例句：「我最近更改了密碼。」」是「change a name / address / password = replace existing information with different information 更改姓名／地址／密碼」的用法，與本句語境不同。"
+        "change-mcq-17": "本句的「changed from excitement to disappointment」指「表示從A變成B；例句：「天空從藍色變成灰色。」」。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-17"
     },
@@ -2135,11 +1999,9 @@ export default {
       "masked": "Water ____ when it freezes.",
       "options": [
         "change-mcq-18",
-        "change-mcq-17",
-        "change-mcq-19",
-        "change-mcq-16",
-        "change-mcq-20",
-        "change-mcq-15"
+        "change-mcq-32",
+        "change-mcq-14",
+        "change-mcq-29"
       ],
       "explanation": "本句的「changes into ice」指「表示變成；轉變成；例句：「水結冰時會變成冰。」」。",
       "sentenceIndex": 34,
@@ -2148,12 +2010,10 @@ export default {
         "changes into ice"
       ],
       "optionReasons": {
-        "change-mcq-18": "本句指「表示變成；轉變成；例句：「水結冰時會變成冰。」」。",
-        "change-mcq-17": "「表示從A變成B；例句：「天空從藍色變成灰色。」」是「change from A to B = become different, moving from one state or form to another 從A變成B」的用法，與本句語境不同。",
-        "change-mcq-19": "「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」是「change something into something = transform one thing into another 把……變成……」的用法，與本句語境不同。",
-        "change-mcq-16": "「表示改變方向；轉向；例句：「那輛車突然改變方向。」」是「change direction = begin moving or developing in a different direction 改變方向；轉向」的用法，與本句語境不同。",
-        "change-mcq-20": "「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」是「change over time = gradually become different as time passes 隨時間改變」的用法，與本句語境不同。",
-        "change-mcq-15": "「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」是「change the subject = begin talking about a different topic 轉換話題」的用法，與本句語境不同。"
+        "change-mcq-18": "本句的「changes into ice」指「表示變成；轉變成；例句：「水結冰時會變成冰。」」。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-18"
     },
@@ -2165,11 +2025,9 @@ export default {
       "masked": "The small town has ____ a busy tourist centre.",
       "options": [
         "change-mcq-18",
-        "change-mcq-17",
-        "change-mcq-19",
-        "change-mcq-16",
-        "change-mcq-20",
-        "change-mcq-15"
+        "change-mcq-08",
+        "change-mcq-27",
+        "change-mcq-13"
       ],
       "explanation": "本句的「changed into」指「表示變成；轉變成；例句：「水結冰時會變成冰。」」。",
       "sentenceIndex": 35,
@@ -2178,12 +2036,10 @@ export default {
         "changed into"
       ],
       "optionReasons": {
-        "change-mcq-18": "本句指「表示變成；轉變成；例句：「水結冰時會變成冰。」」。",
-        "change-mcq-17": "「表示從A變成B；例句：「天空從藍色變成灰色。」」是「change from A to B = become different, moving from one state or form to another 從A變成B」的用法，與本句語境不同。",
-        "change-mcq-19": "「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」是「change something into something = transform one thing into another 把……變成……」的用法，與本句語境不同。",
-        "change-mcq-16": "「表示改變方向；轉向；例句：「那輛車突然改變方向。」」是「change direction = begin moving or developing in a different direction 改變方向；轉向」的用法，與本句語境不同。",
-        "change-mcq-20": "「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」是「change over time = gradually become different as time passes 隨時間改變」的用法，與本句語境不同。",
-        "change-mcq-15": "「表示轉換話題；例句：「他看起來不自在，所以我換了話題。」」是「change the subject = begin talking about a different topic 轉換話題」的用法，與本句語境不同。"
+        "change-mcq-18": "本句的「changed into」指「表示變成；轉變成；例句：「水結冰時會變成冰。」」。",
+        "change-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-18"
     },
@@ -2195,11 +2051,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "change-mcq-19",
-        "change-mcq-18",
-        "change-mcq-20",
-        "change-mcq-17",
-        "change-mcq-21",
-        "change-mcq-16"
+        "change-mcq-11",
+        "change-mcq-13",
+        "change-mcq-28"
       ],
       "explanation": "本句的「changed the old factory into apartments」指「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」。",
       "sentenceIndex": 36,
@@ -2208,12 +2062,10 @@ export default {
         "changed the old factory into apartments"
       ],
       "optionReasons": {
-        "change-mcq-19": "本句指「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」。",
-        "change-mcq-18": "「表示變成；轉變成；例句：「水結冰時會變成冰。」」是「change into something = become or be transformed into another form 變成；轉變成」的用法，與本句語境不同。",
-        "change-mcq-20": "「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」是「change over time = gradually become different as time passes 隨時間改變」的用法，與本句語境不同。",
-        "change-mcq-17": "「表示從A變成B；例句：「天空從藍色變成灰色。」」是「change from A to B = become different, moving from one state or form to another 從A變成B」的用法，與本句語境不同。",
-        "change-mcq-21": "「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」是「change for the better = become better than before 變得更好；改善」的用法，與本句語境不同。",
-        "change-mcq-16": "「表示改變方向；轉向；例句：「那輛車突然改變方向。」」是「change direction = begin moving or developing in a different direction 改變方向；轉向」的用法，與本句語境不同。"
+        "change-mcq-19": "本句的「changed the old factory into apartments」指「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」。",
+        "change-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-19"
     },
@@ -2225,11 +2077,9 @@ export default {
       "masked": "Technology has ____.",
       "options": [
         "change-mcq-19",
-        "change-mcq-18",
-        "change-mcq-20",
-        "change-mcq-17",
-        "change-mcq-21",
-        "change-mcq-16"
+        "change-mcq-42",
+        "change-mcq-40",
+        "change-mcq-13"
       ],
       "explanation": "本句的「changed phones into powerful computers」指「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」。",
       "sentenceIndex": 37,
@@ -2238,12 +2088,10 @@ export default {
         "changed phones into powerful computers"
       ],
       "optionReasons": {
-        "change-mcq-19": "本句指「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」。",
-        "change-mcq-18": "「表示變成；轉變成；例句：「水結冰時會變成冰。」」是「change into something = become or be transformed into another form 變成；轉變成」的用法，與本句語境不同。",
-        "change-mcq-20": "「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」是「change over time = gradually become different as time passes 隨時間改變」的用法，與本句語境不同。",
-        "change-mcq-17": "「表示從A變成B；例句：「天空從藍色變成灰色。」」是「change from A to B = become different, moving from one state or form to another 從A變成B」的用法，與本句語境不同。",
-        "change-mcq-21": "「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」是「change for the better = become better than before 變得更好；改善」的用法，與本句語境不同。",
-        "change-mcq-16": "「表示改變方向；轉向；例句：「那輛車突然改變方向。」」是「change direction = begin moving or developing in a different direction 改變方向；轉向」的用法，與本句語境不同。"
+        "change-mcq-19": "本句的「changed phones into powerful computers」指「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」。",
+        "change-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-19"
     },
@@ -2255,11 +2103,9 @@ export default {
       "masked": "People’s priorities often ____.",
       "options": [
         "change-mcq-20",
-        "change-mcq-19",
-        "change-mcq-21",
-        "change-mcq-18",
-        "change-mcq-22",
-        "change-mcq-17"
+        "change-mcq-27",
+        "change-mcq-32",
+        "change-mcq-40"
       ],
       "explanation": "本句的「change over time」指「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」。",
       "sentenceIndex": 38,
@@ -2268,12 +2114,10 @@ export default {
         "change over time"
       ],
       "optionReasons": {
-        "change-mcq-20": "本句指「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」。",
-        "change-mcq-19": "「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」是「change something into something = transform one thing into another 把……變成……」的用法，與本句語境不同。",
-        "change-mcq-21": "「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」是「change for the better = become better than before 變得更好；改善」的用法，與本句語境不同。",
-        "change-mcq-18": "「表示變成；轉變成；例句：「水結冰時會變成冰。」」是「change into something = become or be transformed into another form 變成；轉變成」的用法，與本句語境不同。",
-        "change-mcq-22": "「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」是「change for the worse = become worse than before 變得更糟；惡化」的用法，與本句語境不同。",
-        "change-mcq-17": "「表示從A變成B；例句：「天空從藍色變成灰色。」」是「change from A to B = become different, moving from one state or form to another 從A變成B」的用法，與本句語境不同。"
+        "change-mcq-20": "本句的「change over time」指「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-20"
     },
@@ -2285,11 +2129,9 @@ export default {
       "masked": "Language is constantly ____.",
       "options": [
         "change-mcq-20",
-        "change-mcq-19",
-        "change-mcq-21",
-        "change-mcq-18",
-        "change-mcq-22",
-        "change-mcq-17"
+        "change-mcq-27",
+        "change-mcq-08",
+        "change-mcq-40"
       ],
       "explanation": "本句的「changing over time」指「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」。",
       "sentenceIndex": 39,
@@ -2298,12 +2140,10 @@ export default {
         "changing over time"
       ],
       "optionReasons": {
-        "change-mcq-20": "本句指「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」。",
-        "change-mcq-19": "「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」是「change something into something = transform one thing into another 把……變成……」的用法，與本句語境不同。",
-        "change-mcq-21": "「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」是「change for the better = become better than before 變得更好；改善」的用法，與本句語境不同。",
-        "change-mcq-18": "「表示變成；轉變成；例句：「水結冰時會變成冰。」」是「change into something = become or be transformed into another form 變成；轉變成」的用法，與本句語境不同。",
-        "change-mcq-22": "「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」是「change for the worse = become worse than before 變得更糟；惡化」的用法，與本句語境不同。",
-        "change-mcq-17": "「表示從A變成B；例句：「天空從藍色變成灰色。」」是「change from A to B = become different, moving from one state or form to another 從A變成B」的用法，與本句語境不同。"
+        "change-mcq-20": "本句的「changing over time」指「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-20"
     },
@@ -2315,11 +2155,9 @@ export default {
       "masked": "His life ____ after he moved.",
       "options": [
         "change-mcq-21",
-        "change-mcq-20",
-        "change-mcq-22",
-        "change-mcq-19",
-        "change-mcq-23",
-        "change-mcq-18"
+        "change-mcq-41",
+        "change-mcq-30",
+        "change-mcq-40"
       ],
       "explanation": "本句的「changed for the better」指「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」。",
       "sentenceIndex": 40,
@@ -2328,12 +2166,10 @@ export default {
         "changed for the better"
       ],
       "optionReasons": {
-        "change-mcq-21": "本句指「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」。",
-        "change-mcq-20": "「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」是「change over time = gradually become different as time passes 隨時間改變」的用法，與本句語境不同。",
-        "change-mcq-22": "「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」是「change for the worse = become worse than before 變得更糟；惡化」的用法，與本句語境不同。",
-        "change-mcq-19": "「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」是「change something into something = transform one thing into another 把……變成……」的用法，與本句語境不同。",
-        "change-mcq-23": "「表示改變；變化；例句：「公司正經歷重大的變革。」」是「change — the act or process of becoming different = a difference or process of becoming different 改變；變化」的用法，與本句語境不同。",
-        "change-mcq-18": "「表示變成；轉變成；例句：「水結冰時會變成冰。」」是「change into something = become or be transformed into another form 變成；轉變成」的用法，與本句語境不同。"
+        "change-mcq-21": "本句的「changed for the better」指「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-21"
     },
@@ -2345,11 +2181,9 @@ export default {
       "masked": "The atmosphere in the team has ____.",
       "options": [
         "change-mcq-21",
-        "change-mcq-20",
-        "change-mcq-22",
-        "change-mcq-19",
-        "change-mcq-23",
-        "change-mcq-18"
+        "change-mcq-27",
+        "change-mcq-08",
+        "change-mcq-40"
       ],
       "explanation": "本句的「changed for the better」指「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」。",
       "sentenceIndex": 41,
@@ -2358,12 +2192,10 @@ export default {
         "changed for the better"
       ],
       "optionReasons": {
-        "change-mcq-21": "本句指「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」。",
-        "change-mcq-20": "「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」是「change over time = gradually become different as time passes 隨時間改變」的用法，與本句語境不同。",
-        "change-mcq-22": "「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」是「change for the worse = become worse than before 變得更糟；惡化」的用法，與本句語境不同。",
-        "change-mcq-19": "「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」是「change something into something = transform one thing into another 把……變成……」的用法，與本句語境不同。",
-        "change-mcq-23": "「表示改變；變化；例句：「公司正經歷重大的變革。」」是「change — the act or process of becoming different = a difference or process of becoming different 改變；變化」的用法，與本句語境不同。",
-        "change-mcq-18": "「表示變成；轉變成；例句：「水結冰時會變成冰。」」是「change into something = become or be transformed into another form 變成；轉變成」的用法，與本句語境不同。"
+        "change-mcq-21": "本句的「changed for the better」指「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-21"
     },
@@ -2375,11 +2207,9 @@ export default {
       "masked": "The situation ____ overnight.",
       "options": [
         "change-mcq-22",
-        "change-mcq-21",
-        "change-mcq-23",
-        "change-mcq-20",
-        "change-mcq-24",
-        "change-mcq-19"
+        "change-mcq-09",
+        "change-mcq-40",
+        "change-mcq-12"
       ],
       "explanation": "本句的「changed for the worse」指「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」。",
       "sentenceIndex": 42,
@@ -2388,12 +2218,10 @@ export default {
         "changed for the worse"
       ],
       "optionReasons": {
-        "change-mcq-22": "本句指「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」。",
-        "change-mcq-21": "「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」是「change for the better = become better than before 變得更好；改善」的用法，與本句語境不同。",
-        "change-mcq-23": "「表示改變；變化；例句：「公司正經歷重大的變革。」」是「change — the act or process of becoming different = a difference or process of becoming different 改變；變化」的用法，與本句語境不同。",
-        "change-mcq-20": "「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」是「change over time = gradually become different as time passes 隨時間改變」的用法，與本句語境不同。",
-        "change-mcq-24": "「表示變化；例句：「政策出現了變化。」」是「a change in something = a difference in a particular feature, condition, or situation ……的變化」的用法，與本句語境不同。",
-        "change-mcq-19": "「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」是「change something into something = transform one thing into another 把……變成……」的用法，與本句語境不同。"
+        "change-mcq-22": "本句的「changed for the worse」指「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-22"
     },
@@ -2405,11 +2233,9 @@ export default {
       "masked": "His health suddenly ____.",
       "options": [
         "change-mcq-22",
-        "change-mcq-21",
-        "change-mcq-23",
-        "change-mcq-20",
-        "change-mcq-24",
-        "change-mcq-19"
+        "change-mcq-27",
+        "change-mcq-09",
+        "change-mcq-41"
       ],
       "explanation": "本句的「changed for the worse」指「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」。",
       "sentenceIndex": 43,
@@ -2418,12 +2244,10 @@ export default {
         "changed for the worse"
       ],
       "optionReasons": {
-        "change-mcq-22": "本句指「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」。",
-        "change-mcq-21": "「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」是「change for the better = become better than before 變得更好；改善」的用法，與本句語境不同。",
-        "change-mcq-23": "「表示改變；變化；例句：「公司正經歷重大的變革。」」是「change — the act or process of becoming different = a difference or process of becoming different 改變；變化」的用法，與本句語境不同。",
-        "change-mcq-20": "「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」是「change over time = gradually become different as time passes 隨時間改變」的用法，與本句語境不同。",
-        "change-mcq-24": "「表示變化；例句：「政策出現了變化。」」是「a change in something = a difference in a particular feature, condition, or situation ……的變化」的用法，與本句語境不同。",
-        "change-mcq-19": "「表示把……變成……；例句：「他們把舊工廠改建成公寓。」」是「change something into something = transform one thing into another 把……變成……」的用法，與本句語境不同。"
+        "change-mcq-22": "本句的「changed for the worse」指「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-22"
     },
@@ -2435,11 +2259,9 @@ export default {
       "masked": "The company is going through major ____.",
       "options": [
         "change-mcq-23",
-        "change-mcq-22",
-        "change-mcq-24",
-        "change-mcq-21",
-        "change-mcq-25",
-        "change-mcq-20"
+        "change-mcq-33",
+        "change-mcq-10",
+        "change-mcq-28"
       ],
       "explanation": "本句的「changes」指「表示改變；變化；例句：「公司正經歷重大的變革。」」。",
       "sentenceIndex": 44,
@@ -2448,12 +2270,10 @@ export default {
         "changes"
       ],
       "optionReasons": {
-        "change-mcq-23": "本句指「表示改變；變化；例句：「公司正經歷重大的變革。」」。",
-        "change-mcq-22": "「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」是「change for the worse = become worse than before 變得更糟；惡化」的用法，與本句語境不同。",
-        "change-mcq-24": "「表示變化；例句：「政策出現了變化。」」是「a change in something = a difference in a particular feature, condition, or situation ……的變化」的用法，與本句語境不同。",
-        "change-mcq-21": "「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」是「change for the better = become better than before 變得更好；改善」的用法，與本句語境不同。",
-        "change-mcq-25": "「表示更換；改變；例句：「換個環境也許對你有幫助。」」是「a change of something = replacement or switch to something different 更換；改變」的用法，與本句語境不同。",
-        "change-mcq-20": "「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」是「change over time = gradually become different as time passes 隨時間改變」的用法，與本句語境不同。"
+        "change-mcq-23": "本句的「changes」指「表示改變；變化；例句：「公司正經歷重大的變革。」」。",
+        "change-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-23"
     },
@@ -2465,11 +2285,9 @@ export default {
       "masked": "I’ve noticed a ____ in her attitude.",
       "options": [
         "change-mcq-23",
-        "change-mcq-22",
-        "change-mcq-24",
-        "change-mcq-21",
-        "change-mcq-25",
-        "change-mcq-20"
+        "change-mcq-10",
+        "change-mcq-27",
+        "change-mcq-08"
       ],
       "explanation": "本句的「change」指「表示改變；變化；例句：「公司正經歷重大的變革。」」。",
       "sentenceIndex": 45,
@@ -2478,12 +2296,10 @@ export default {
         "change"
       ],
       "optionReasons": {
-        "change-mcq-23": "本句指「表示改變；變化；例句：「公司正經歷重大的變革。」」。",
-        "change-mcq-22": "「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」是「change for the worse = become worse than before 變得更糟；惡化」的用法，與本句語境不同。",
-        "change-mcq-24": "「表示變化；例句：「政策出現了變化。」」是「a change in something = a difference in a particular feature, condition, or situation ……的變化」的用法，與本句語境不同。",
-        "change-mcq-21": "「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」是「change for the better = become better than before 變得更好；改善」的用法，與本句語境不同。",
-        "change-mcq-25": "「表示更換；改變；例句：「換個環境也許對你有幫助。」」是「a change of something = replacement or switch to something different 更換；改變」的用法，與本句語境不同。",
-        "change-mcq-20": "「表示隨時間改變；例句：「人們的優先考量常常會隨時間改變。」」是「change over time = gradually become different as time passes 隨時間改變」的用法，與本句語境不同。"
+        "change-mcq-23": "本句的「change」指「表示改變；變化；例句：「公司正經歷重大的變革。」」。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-23"
     },
@@ -2495,11 +2311,9 @@ export default {
       "masked": "There has been a ____.",
       "options": [
         "change-mcq-24",
-        "change-mcq-23",
-        "change-mcq-25",
-        "change-mcq-22",
-        "change-mcq-26",
-        "change-mcq-21"
+        "change-mcq-14",
+        "change-mcq-11",
+        "change-mcq-28"
       ],
       "explanation": "本句的「change in policy」指「表示變化；例句：「政策出現了變化。」」。",
       "sentenceIndex": 46,
@@ -2508,12 +2322,10 @@ export default {
         "change in policy"
       ],
       "optionReasons": {
-        "change-mcq-24": "本句指「表示變化；例句：「政策出現了變化。」」。",
-        "change-mcq-23": "「表示改變；變化；例句：「公司正經歷重大的變革。」」是「change — the act or process of becoming different = a difference or process of becoming different 改變；變化」的用法，與本句語境不同。",
-        "change-mcq-25": "「表示更換；改變；例句：「換個環境也許對你有幫助。」」是「a change of something = replacement or switch to something different 更換；改變」的用法，與本句語境不同。",
-        "change-mcq-22": "「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」是「change for the worse = become worse than before 變得更糟；惡化」的用法，與本句語境不同。",
-        "change-mcq-26": "「表示作出改變；例句：「我知道自己必須作出改變。」」是「make a change = alter something or begin doing something differently 作出改變」的用法，與本句語境不同。",
-        "change-mcq-21": "「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」是「change for the better = become better than before 變得更好；改善」的用法，與本句語境不同。"
+        "change-mcq-24": "本句的「change in policy」指「表示變化；例句：「政策出現了變化。」」。",
+        "change-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-24"
     },
@@ -2525,11 +2337,9 @@ export default {
       "masked": "We noticed a sudden ____.",
       "options": [
         "change-mcq-24",
-        "change-mcq-23",
-        "change-mcq-25",
-        "change-mcq-22",
-        "change-mcq-26",
-        "change-mcq-21"
+        "change-mcq-10",
+        "change-mcq-13",
+        "change-mcq-09"
       ],
       "explanation": "本句的「change in temperature」指「表示變化；例句：「政策出現了變化。」」。",
       "sentenceIndex": 47,
@@ -2538,12 +2348,10 @@ export default {
         "change in temperature"
       ],
       "optionReasons": {
-        "change-mcq-24": "本句指「表示變化；例句：「政策出現了變化。」」。",
-        "change-mcq-23": "「表示改變；變化；例句：「公司正經歷重大的變革。」」是「change — the act or process of becoming different = a difference or process of becoming different 改變；變化」的用法，與本句語境不同。",
-        "change-mcq-25": "「表示更換；改變；例句：「換個環境也許對你有幫助。」」是「a change of something = replacement or switch to something different 更換；改變」的用法，與本句語境不同。",
-        "change-mcq-22": "「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」是「change for the worse = become worse than before 變得更糟；惡化」的用法，與本句語境不同。",
-        "change-mcq-26": "「表示作出改變；例句：「我知道自己必須作出改變。」」是「make a change = alter something or begin doing something differently 作出改變」的用法，與本句語境不同。",
-        "change-mcq-21": "「表示變得更好；改善；例句：「他搬家後，生活變得更好了。」」是「change for the better = become better than before 變得更好；改善」的用法，與本句語境不同。"
+        "change-mcq-24": "本句的「change in temperature」指「表示變化；例句：「政策出現了變化。」」。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-24"
     },
@@ -2555,11 +2363,8 @@ export default {
       "masked": "A ____ might do you good.",
       "options": [
         "change-mcq-25",
-        "change-mcq-24",
-        "change-mcq-26",
-        "change-mcq-23",
-        "change-mcq-27",
-        "change-mcq-22"
+        "change-mcq-30",
+        "change-mcq-10"
       ],
       "explanation": "本句的「change of scenery」指「表示更換；改變；例句：「換個環境也許對你有幫助。」」。",
       "sentenceIndex": 48,
@@ -2568,12 +2373,9 @@ export default {
         "change of scenery"
       ],
       "optionReasons": {
-        "change-mcq-25": "本句指「表示更換；改變；例句：「換個環境也許對你有幫助。」」。",
-        "change-mcq-24": "「表示變化；例句：「政策出現了變化。」」是「a change in something = a difference in a particular feature, condition, or situation ……的變化」的用法，與本句語境不同。",
-        "change-mcq-26": "「表示作出改變；例句：「我知道自己必須作出改變。」」是「make a change = alter something or begin doing something differently 作出改變」的用法，與本句語境不同。",
-        "change-mcq-23": "「表示改變；變化；例句：「公司正經歷重大的變革。」」是「change — the act or process of becoming different = a difference or process of becoming different 改變；變化」的用法，與本句語境不同。",
-        "change-mcq-27": "「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」是「change — coins or small-denomination money = money in coins rather than large notes/bills 零錢；硬幣」的用法，與本句語境不同。",
-        "change-mcq-22": "「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」是「change for the worse = become worse than before 變得更糟；惡化」的用法，與本句語境不同。"
+        "change-mcq-25": "本句的「change of scenery」指「表示更換；改變；例句：「換個環境也許對你有幫助。」」。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-25"
     },
@@ -2585,11 +2387,8 @@ export default {
       "masked": "The team needed a ____.",
       "options": [
         "change-mcq-25",
-        "change-mcq-24",
-        "change-mcq-26",
-        "change-mcq-23",
-        "change-mcq-27",
-        "change-mcq-22"
+        "change-mcq-30",
+        "change-mcq-10"
       ],
       "explanation": "本句的「change of strategy」指「表示更換；改變；例句：「換個環境也許對你有幫助。」」。",
       "sentenceIndex": 49,
@@ -2598,12 +2397,9 @@ export default {
         "change of strategy"
       ],
       "optionReasons": {
-        "change-mcq-25": "本句指「表示更換；改變；例句：「換個環境也許對你有幫助。」」。",
-        "change-mcq-24": "「表示變化；例句：「政策出現了變化。」」是「a change in something = a difference in a particular feature, condition, or situation ……的變化」的用法，與本句語境不同。",
-        "change-mcq-26": "「表示作出改變；例句：「我知道自己必須作出改變。」」是「make a change = alter something or begin doing something differently 作出改變」的用法，與本句語境不同。",
-        "change-mcq-23": "「表示改變；變化；例句：「公司正經歷重大的變革。」」是「change — the act or process of becoming different = a difference or process of becoming different 改變；變化」的用法，與本句語境不同。",
-        "change-mcq-27": "「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」是「change — coins or small-denomination money = money in coins rather than large notes/bills 零錢；硬幣」的用法，與本句語境不同。",
-        "change-mcq-22": "「表示變得更糟；惡化；例句：「情況一夜之間惡化了。」」是「change for the worse = become worse than before 變得更糟；惡化」的用法，與本句語境不同。"
+        "change-mcq-25": "本句的「change of strategy」指「表示更換；改變；例句：「換個環境也許對你有幫助。」」。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-25"
     },
@@ -2615,11 +2411,9 @@ export default {
       "masked": "I knew I had to ____.",
       "options": [
         "change-mcq-26",
-        "change-mcq-25",
-        "change-mcq-27",
-        "change-mcq-24",
-        "change-mcq-28",
-        "change-mcq-23"
+        "change-mcq-11",
+        "change-mcq-32",
+        "change-mcq-41"
       ],
       "explanation": "本句的「make a change」指「表示作出改變；例句：「我知道自己必須作出改變。」」。",
       "sentenceIndex": 50,
@@ -2628,12 +2422,10 @@ export default {
         "make a change"
       ],
       "optionReasons": {
-        "change-mcq-26": "本句指「表示作出改變；例句：「我知道自己必須作出改變。」」。",
-        "change-mcq-25": "「表示更換；改變；例句：「換個環境也許對你有幫助。」」是「a change of something = replacement or switch to something different 更換；改變」的用法，與本句語境不同。",
-        "change-mcq-27": "「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」是「change — coins or small-denomination money = money in coins rather than large notes/bills 零錢；硬幣」的用法，與本句語境不同。",
-        "change-mcq-24": "「表示變化；例句：「政策出現了變化。」」是「a change in something = a difference in a particular feature, condition, or situation ……的變化」的用法，與本句語境不同。",
-        "change-mcq-28": "「表示找零；找回的錢；例句：「不用找了。」」是「change — money returned after payment = money given back when you pay more than the price 找零；找回的錢」的用法，與本句語境不同。",
-        "change-mcq-23": "「表示改變；變化；例句：「公司正經歷重大的變革。」」是「change — the act or process of becoming different = a difference or process of becoming different 改變；變化」的用法，與本句語境不同。"
+        "change-mcq-26": "本句的「make a change」指「表示作出改變；例句：「我知道自己必須作出改變。」」。",
+        "change-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-26"
     },
@@ -2645,11 +2437,9 @@ export default {
       "masked": "Small ____ can make a big difference.",
       "options": [
         "change-mcq-26",
-        "change-mcq-25",
-        "change-mcq-27",
-        "change-mcq-24",
         "change-mcq-28",
-        "change-mcq-23"
+        "change-mcq-33",
+        "change-mcq-40"
       ],
       "explanation": "本句的「changes」指「表示作出改變；例句：「我知道自己必須作出改變。」」。",
       "sentenceIndex": 51,
@@ -2658,12 +2448,10 @@ export default {
         "changes"
       ],
       "optionReasons": {
-        "change-mcq-26": "本句指「表示作出改變；例句：「我知道自己必須作出改變。」」。",
-        "change-mcq-25": "「表示更換；改變；例句：「換個環境也許對你有幫助。」」是「a change of something = replacement or switch to something different 更換；改變」的用法，與本句語境不同。",
-        "change-mcq-27": "「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」是「change — coins or small-denomination money = money in coins rather than large notes/bills 零錢；硬幣」的用法，與本句語境不同。",
-        "change-mcq-24": "「表示變化；例句：「政策出現了變化。」」是「a change in something = a difference in a particular feature, condition, or situation ……的變化」的用法，與本句語境不同。",
-        "change-mcq-28": "「表示找零；找回的錢；例句：「不用找了。」」是「change — money returned after payment = money given back when you pay more than the price 找零；找回的錢」的用法，與本句語境不同。",
-        "change-mcq-23": "「表示改變；變化；例句：「公司正經歷重大的變革。」」是「change — the act or process of becoming different = a difference or process of becoming different 改變；變化」的用法，與本句語境不同。"
+        "change-mcq-26": "本句的「changes」指「表示作出改變；例句：「我知道自己必須作出改變。」」。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-26"
     },
@@ -2675,11 +2463,9 @@ export default {
       "masked": "Do you have any ____ for the parking meter?",
       "options": [
         "change-mcq-27",
-        "change-mcq-26",
-        "change-mcq-28",
-        "change-mcq-25",
-        "change-mcq-29",
-        "change-mcq-24"
+        "change-mcq-36",
+        "change-mcq-13",
+        "change-mcq-08"
       ],
       "explanation": "本句的「change」指「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」。",
       "sentenceIndex": 52,
@@ -2688,12 +2474,10 @@ export default {
         "change"
       ],
       "optionReasons": {
-        "change-mcq-27": "本句指「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」。",
-        "change-mcq-26": "「表示作出改變；例句：「我知道自己必須作出改變。」」是「make a change = alter something or begin doing something differently 作出改變」的用法，與本句語境不同。",
-        "change-mcq-28": "「表示找零；找回的錢；例句：「不用找了。」」是「change — money returned after payment = money given back when you pay more than the price 找零；找回的錢」的用法，與本句語境不同。",
-        "change-mcq-25": "「表示更換；改變；例句：「換個環境也許對你有幫助。」」是「a change of something = replacement or switch to something different 更換；改變」的用法，與本句語境不同。",
-        "change-mcq-29": "「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」是「make change = exchange money into smaller units or provide the correct amount back 換零錢；找零」的用法，與本句語境不同。",
-        "change-mcq-24": "「表示變化；例句：「政策出現了變化。」」是「a change in something = a difference in a particular feature, condition, or situation ……的變化」的用法，與本句語境不同。"
+        "change-mcq-27": "本句的「change」指「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」。",
+        "change-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-27"
     },
@@ -2705,11 +2489,9 @@ export default {
       "masked": "I always carry some ____ in my bag.",
       "options": [
         "change-mcq-27",
-        "change-mcq-26",
-        "change-mcq-28",
-        "change-mcq-25",
-        "change-mcq-29",
-        "change-mcq-24"
+        "change-mcq-40",
+        "change-mcq-34",
+        "change-mcq-06"
       ],
       "explanation": "本句的「change」指「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」。",
       "sentenceIndex": 53,
@@ -2718,12 +2500,10 @@ export default {
         "change"
       ],
       "optionReasons": {
-        "change-mcq-27": "本句指「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」。",
-        "change-mcq-26": "「表示作出改變；例句：「我知道自己必須作出改變。」」是「make a change = alter something or begin doing something differently 作出改變」的用法，與本句語境不同。",
-        "change-mcq-28": "「表示找零；找回的錢；例句：「不用找了。」」是「change — money returned after payment = money given back when you pay more than the price 找零；找回的錢」的用法，與本句語境不同。",
-        "change-mcq-25": "「表示更換；改變；例句：「換個環境也許對你有幫助。」」是「a change of something = replacement or switch to something different 更換；改變」的用法，與本句語境不同。",
-        "change-mcq-29": "「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」是「make change = exchange money into smaller units or provide the correct amount back 換零錢；找零」的用法，與本句語境不同。",
-        "change-mcq-24": "「表示變化；例句：「政策出現了變化。」」是「a change in something = a difference in a particular feature, condition, or situation ……的變化」的用法，與本句語境不同。"
+        "change-mcq-27": "本句的「change」指「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-27"
     },
@@ -2735,11 +2515,9 @@ export default {
       "masked": "Keep the ____.",
       "options": [
         "change-mcq-28",
-        "change-mcq-27",
-        "change-mcq-29",
-        "change-mcq-26",
-        "change-mcq-30",
-        "change-mcq-25"
+        "change-mcq-19",
+        "change-mcq-40",
+        "change-mcq-33"
       ],
       "explanation": "本句的「change」指「表示找零；找回的錢；例句：「不用找了。」」。",
       "sentenceIndex": 54,
@@ -2748,12 +2526,10 @@ export default {
         "change"
       ],
       "optionReasons": {
-        "change-mcq-28": "本句指「表示找零；找回的錢；例句：「不用找了。」」。",
-        "change-mcq-27": "「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」是「change — coins or small-denomination money = money in coins rather than large notes/bills 零錢；硬幣」的用法，與本句語境不同。",
-        "change-mcq-29": "「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」是「make change = exchange money into smaller units or provide the correct amount back 換零錢；找零」的用法，與本句語境不同。",
-        "change-mcq-26": "「表示作出改變；例句：「我知道自己必須作出改變。」」是「make a change = alter something or begin doing something differently 作出改變」的用法，與本句語境不同。",
-        "change-mcq-30": "「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」是「loose change = small coins carried casually 零散硬幣；零錢」的用法，與本句語境不同。",
-        "change-mcq-25": "「表示更換；改變；例句：「換個環境也許對你有幫助。」」是「a change of something = replacement or switch to something different 更換；改變」的用法，與本句語境不同。"
+        "change-mcq-28": "本句的「change」指「表示找零；找回的錢；例句：「不用找了。」」。",
+        "change-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-28"
     },
@@ -2765,11 +2541,9 @@ export default {
       "masked": "The cashier gave me the wrong ____.",
       "options": [
         "change-mcq-28",
-        "change-mcq-27",
-        "change-mcq-29",
-        "change-mcq-26",
-        "change-mcq-30",
-        "change-mcq-25"
+        "change-mcq-46",
+        "change-mcq-32",
+        "change-mcq-11"
       ],
       "explanation": "本句的「change」指「表示找零；找回的錢；例句：「不用找了。」」。",
       "sentenceIndex": 55,
@@ -2778,12 +2552,10 @@ export default {
         "change"
       ],
       "optionReasons": {
-        "change-mcq-28": "本句指「表示找零；找回的錢；例句：「不用找了。」」。",
-        "change-mcq-27": "「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」是「change — coins or small-denomination money = money in coins rather than large notes/bills 零錢；硬幣」的用法，與本句語境不同。",
-        "change-mcq-29": "「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」是「make change = exchange money into smaller units or provide the correct amount back 換零錢；找零」的用法，與本句語境不同。",
-        "change-mcq-26": "「表示作出改變；例句：「我知道自己必須作出改變。」」是「make a change = alter something or begin doing something differently 作出改變」的用法，與本句語境不同。",
-        "change-mcq-30": "「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」是「loose change = small coins carried casually 零散硬幣；零錢」的用法，與本句語境不同。",
-        "change-mcq-25": "「表示更換；改變；例句：「換個環境也許對你有幫助。」」是「a change of something = replacement or switch to something different 更換；改變」的用法，與本句語境不同。"
+        "change-mcq-28": "本句的「change」指「表示找零；找回的錢；例句：「不用找了。」」。",
+        "change-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-28"
     },
@@ -2795,11 +2567,9 @@ export default {
       "masked": "Can you ____ for a twenty-dollar bill?",
       "options": [
         "change-mcq-29",
-        "change-mcq-28",
-        "change-mcq-30",
-        "change-mcq-27",
-        "change-mcq-31",
-        "change-mcq-26"
+        "change-mcq-40",
+        "change-mcq-37",
+        "change-mcq-34"
       ],
       "explanation": "本句的「make change」指「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」。",
       "sentenceIndex": 56,
@@ -2808,12 +2578,10 @@ export default {
         "make change"
       ],
       "optionReasons": {
-        "change-mcq-29": "本句指「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」。",
-        "change-mcq-28": "「表示找零；找回的錢；例句：「不用找了。」」是「change — money returned after payment = money given back when you pay more than the price 找零；找回的錢」的用法，與本句語境不同。",
-        "change-mcq-30": "「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」是「loose change = small coins carried casually 零散硬幣；零錢」的用法，與本句語境不同。",
-        "change-mcq-27": "「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」是「change — coins or small-denomination money = money in coins rather than large notes/bills 零錢；硬幣」的用法，與本句語境不同。",
-        "change-mcq-31": "「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」是「a change — something different from the usual = an activity, experience, or situation that is pleasantly different 變換；換換口味；不同的體驗」的用法，與本句語境不同。",
-        "change-mcq-26": "「表示作出改變；例句：「我知道自己必須作出改變。」」是「make a change = alter something or begin doing something differently 作出改變」的用法，與本句語境不同。"
+        "change-mcq-29": "本句的「make change」指「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-29"
     },
@@ -2825,11 +2593,9 @@ export default {
       "masked": "The machine cannot ____.",
       "options": [
         "change-mcq-29",
-        "change-mcq-28",
-        "change-mcq-30",
-        "change-mcq-27",
-        "change-mcq-31",
-        "change-mcq-26"
+        "change-mcq-06",
+        "change-mcq-14",
+        "change-mcq-34"
       ],
       "explanation": "本句的「make change」指「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」。",
       "sentenceIndex": 57,
@@ -2838,12 +2604,10 @@ export default {
         "make change"
       ],
       "optionReasons": {
-        "change-mcq-29": "本句指「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」。",
-        "change-mcq-28": "「表示找零；找回的錢；例句：「不用找了。」」是「change — money returned after payment = money given back when you pay more than the price 找零；找回的錢」的用法，與本句語境不同。",
-        "change-mcq-30": "「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」是「loose change = small coins carried casually 零散硬幣；零錢」的用法，與本句語境不同。",
-        "change-mcq-27": "「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」是「change — coins or small-denomination money = money in coins rather than large notes/bills 零錢；硬幣」的用法，與本句語境不同。",
-        "change-mcq-31": "「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」是「a change — something different from the usual = an activity, experience, or situation that is pleasantly different 變換；換換口味；不同的體驗」的用法，與本句語境不同。",
-        "change-mcq-26": "「表示作出改變；例句：「我知道自己必須作出改變。」」是「make a change = alter something or begin doing something differently 作出改變」的用法，與本句語境不同。"
+        "change-mcq-29": "本句的「make change」指「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」。",
+        "change-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-29"
     },
@@ -2855,11 +2619,9 @@ export default {
       "masked": "He emptied his ____ onto the table.",
       "options": [
         "change-mcq-30",
-        "change-mcq-29",
-        "change-mcq-31",
-        "change-mcq-28",
-        "change-mcq-32",
-        "change-mcq-27"
+        "change-mcq-01",
+        "change-mcq-41",
+        "change-mcq-40"
       ],
       "explanation": "本句的「loose change」指「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」。",
       "sentenceIndex": 58,
@@ -2868,12 +2630,10 @@ export default {
         "loose change"
       ],
       "optionReasons": {
-        "change-mcq-30": "本句指「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」。",
-        "change-mcq-29": "「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」是「make change = exchange money into smaller units or provide the correct amount back 換零錢；找零」的用法，與本句語境不同。",
-        "change-mcq-31": "「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」是「a change — something different from the usual = an activity, experience, or situation that is pleasantly different 變換；換換口味；不同的體驗」的用法，與本句語境不同。",
-        "change-mcq-28": "「表示找零；找回的錢；例句：「不用找了。」」是「change — money returned after payment = money given back when you pay more than the price 找零；找回的錢」的用法，與本句語境不同。",
-        "change-mcq-32": "「換換口味；難得；這次換個不同的方式」是「for a change = as something different from what usually happens 換換口味；難得；這次換個不同的方式」的用法，與本句語境不同。",
-        "change-mcq-27": "「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」是「change — coins or small-denomination money = money in coins rather than large notes/bills 零錢；硬幣」的用法，與本句語境不同。"
+        "change-mcq-30": "本句的「loose change」指「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」。",
+        "change-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-30"
     },
@@ -2885,11 +2645,8 @@ export default {
       "masked": "I found some ____ in my pocket.",
       "options": [
         "change-mcq-30",
-        "change-mcq-29",
-        "change-mcq-31",
-        "change-mcq-28",
-        "change-mcq-32",
-        "change-mcq-27"
+        "change-mcq-25",
+        "change-mcq-40"
       ],
       "explanation": "本句的「loose change」指「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」。",
       "sentenceIndex": 59,
@@ -2898,12 +2655,9 @@ export default {
         "loose change"
       ],
       "optionReasons": {
-        "change-mcq-30": "本句指「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」。",
-        "change-mcq-29": "「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」是「make change = exchange money into smaller units or provide the correct amount back 換零錢；找零」的用法，與本句語境不同。",
-        "change-mcq-31": "「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」是「a change — something different from the usual = an activity, experience, or situation that is pleasantly different 變換；換換口味；不同的體驗」的用法，與本句語境不同。",
-        "change-mcq-28": "「表示找零；找回的錢；例句：「不用找了。」」是「change — money returned after payment = money given back when you pay more than the price 找零；找回的錢」的用法，與本句語境不同。",
-        "change-mcq-32": "「換換口味；難得；這次換個不同的方式」是「for a change = as something different from what usually happens 換換口味；難得；這次換個不同的方式」的用法，與本句語境不同。",
-        "change-mcq-27": "「表示零錢；硬幣；例句：「你有停車計時器可以用的零錢嗎？」」是「change — coins or small-denomination money = money in coins rather than large notes/bills 零錢；硬幣」的用法，與本句語境不同。"
+        "change-mcq-30": "本句的「loose change」指「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」。",
+        "change-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-30"
     },
@@ -2915,11 +2669,9 @@ export default {
       "masked": "Let’s eat outside for ____.",
       "options": [
         "change-mcq-31",
-        "change-mcq-30",
-        "change-mcq-32",
-        "change-mcq-29",
-        "change-mcq-33",
-        "change-mcq-28"
+        "change-mcq-13",
+        "change-mcq-10",
+        "change-mcq-30"
       ],
       "explanation": "本句的「a change」指「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」。",
       "sentenceIndex": 60,
@@ -2928,12 +2680,10 @@ export default {
         "a change"
       ],
       "optionReasons": {
-        "change-mcq-31": "本句指「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」。",
-        "change-mcq-30": "「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」是「loose change = small coins carried casually 零散硬幣；零錢」的用法，與本句語境不同。",
-        "change-mcq-32": "「換換口味；難得；這次換個不同的方式」是「for a change = as something different from what usually happens 換換口味；難得；這次換個不同的方式」的用法，與本句語境不同。",
-        "change-mcq-29": "「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」是「make change = exchange money into smaller units or provide the correct amount back 換零錢；找零」的用法，與本句語境不同。",
-        "change-mcq-33": "「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」是「a change of scene / scenery = moving to a different environment, often for freshness or relief 換個環境」的用法，與本句語境不同。",
-        "change-mcq-28": "「表示找零；找回的錢；例句：「不用找了。」」是「change — money returned after payment = money given back when you pay more than the price 找零；找回的錢」的用法，與本句語境不同。"
+        "change-mcq-31": "本句的「a change」指「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」。",
+        "change-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-31"
     },
@@ -2945,11 +2695,9 @@ export default {
       "masked": "It was nice to do something different for ____.",
       "options": [
         "change-mcq-31",
-        "change-mcq-30",
-        "change-mcq-32",
-        "change-mcq-29",
-        "change-mcq-33",
-        "change-mcq-28"
+        "change-mcq-28",
+        "change-mcq-14",
+        "change-mcq-10"
       ],
       "explanation": "本句的「a change」指「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」。",
       "sentenceIndex": 61,
@@ -2958,12 +2706,10 @@ export default {
         "a change"
       ],
       "optionReasons": {
-        "change-mcq-31": "本句指「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」。",
-        "change-mcq-30": "「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」是「loose change = small coins carried casually 零散硬幣；零錢」的用法，與本句語境不同。",
-        "change-mcq-32": "「換換口味；難得；這次換個不同的方式」是「for a change = as something different from what usually happens 換換口味；難得；這次換個不同的方式」的用法，與本句語境不同。",
-        "change-mcq-29": "「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」是「make change = exchange money into smaller units or provide the correct amount back 換零錢；找零」的用法，與本句語境不同。",
-        "change-mcq-33": "「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」是「a change of scene / scenery = moving to a different environment, often for freshness or relief 換個環境」的用法，與本句語境不同。",
-        "change-mcq-28": "「表示找零；找回的錢；例句：「不用找了。」」是「change — money returned after payment = money given back when you pay more than the price 找零；找回的錢」的用法，與本句語境不同。"
+        "change-mcq-31": "本句的「a change」指「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-31"
     },
@@ -2975,11 +2721,9 @@ export default {
       "masked": "Why don’t you cook tonight ____?",
       "options": [
         "change-mcq-32",
-        "change-mcq-31",
-        "change-mcq-33",
-        "change-mcq-30",
-        "change-mcq-34",
-        "change-mcq-29"
+        "change-mcq-16",
+        "change-mcq-13",
+        "change-mcq-22"
       ],
       "explanation": "本句的「for a change」指「換換口味；難得；這次換個不同的方式」。",
       "sentenceIndex": 62,
@@ -2988,12 +2732,10 @@ export default {
         "for a change"
       ],
       "optionReasons": {
-        "change-mcq-32": "本句指「換換口味；難得；這次換個不同的方式」。",
-        "change-mcq-31": "「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」是「a change — something different from the usual = an activity, experience, or situation that is pleasantly different 變換；換換口味；不同的體驗」的用法，與本句語境不同。",
-        "change-mcq-33": "「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」是「a change of scene / scenery = moving to a different environment, often for freshness or relief 換個環境」的用法，與本句語境不同。",
-        "change-mcq-30": "「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」是「loose change = small coins carried casually 零散硬幣；零錢」的用法，與本句語境不同。",
-        "change-mcq-34": "「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」是「social / political / cultural change = large-scale transformation in society, institutions, or culture 社會／政治／文化變遷」的用法，與本句語境不同。",
-        "change-mcq-29": "「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」是「make change = exchange money into smaller units or provide the correct amount back 換零錢；找零」的用法，與本句語境不同。"
+        "change-mcq-32": "本句的「for a change」指「換換口味；難得；這次換個不同的方式」。",
+        "change-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-32"
     },
@@ -3005,11 +2747,9 @@ export default {
       "masked": "He arrived early ____.",
       "options": [
         "change-mcq-32",
-        "change-mcq-31",
-        "change-mcq-33",
-        "change-mcq-30",
-        "change-mcq-34",
-        "change-mcq-29"
+        "change-mcq-16",
+        "change-mcq-27",
+        "change-mcq-34"
       ],
       "explanation": "本句的「for a change」指「換換口味；難得；這次換個不同的方式」。",
       "sentenceIndex": 63,
@@ -3018,12 +2758,10 @@ export default {
         "for a change"
       ],
       "optionReasons": {
-        "change-mcq-32": "本句指「換換口味；難得；這次換個不同的方式」。",
-        "change-mcq-31": "「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」是「a change — something different from the usual = an activity, experience, or situation that is pleasantly different 變換；換換口味；不同的體驗」的用法，與本句語境不同。",
-        "change-mcq-33": "「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」是「a change of scene / scenery = moving to a different environment, often for freshness or relief 換個環境」的用法，與本句語境不同。",
-        "change-mcq-30": "「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」是「loose change = small coins carried casually 零散硬幣；零錢」的用法，與本句語境不同。",
-        "change-mcq-34": "「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」是「social / political / cultural change = large-scale transformation in society, institutions, or culture 社會／政治／文化變遷」的用法，與本句語境不同。",
-        "change-mcq-29": "「表示換零錢；找零；例句：「你可以把二十元鈔票換成零錢嗎？」」是「make change = exchange money into smaller units or provide the correct amount back 換零錢；找零」的用法，與本句語境不同。"
+        "change-mcq-32": "本句的「for a change」指「換換口味；難得；這次換個不同的方式」。",
+        "change-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-32"
     },
@@ -3035,11 +2773,9 @@ export default {
       "masked": "I needed a ____ after months at home.",
       "options": [
         "change-mcq-33",
-        "change-mcq-32",
-        "change-mcq-34",
-        "change-mcq-31",
-        "change-mcq-35",
-        "change-mcq-30"
+        "change-mcq-03",
+        "change-mcq-10",
+        "change-mcq-28"
       ],
       "explanation": "本句的「change of scenery」指「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」。",
       "sentenceIndex": 64,
@@ -3048,12 +2784,10 @@ export default {
         "change of scenery"
       ],
       "optionReasons": {
-        "change-mcq-33": "本句指「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」。",
-        "change-mcq-32": "「換換口味；難得；這次換個不同的方式」是「for a change = as something different from what usually happens 換換口味；難得；這次換個不同的方式」的用法，與本句語境不同。",
-        "change-mcq-34": "「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」是「social / political / cultural change = large-scale transformation in society, institutions, or culture 社會／政治／文化變遷」的用法，與本句語境不同。",
-        "change-mcq-31": "「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」是「a change — something different from the usual = an activity, experience, or situation that is pleasantly different 變換；換換口味；不同的體驗」的用法，與本句語境不同。",
-        "change-mcq-35": "「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」是「climate change = long-term change in climate patterns, especially current global warming-related changes 氣候變遷」的用法，與本句語境不同。",
-        "change-mcq-30": "「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」是「loose change = small coins carried casually 零散硬幣；零錢」的用法，與本句語境不同。"
+        "change-mcq-33": "本句的「change of scenery」指「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」。",
+        "change-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-33"
     },
@@ -3065,10 +2799,8 @@ export default {
       "masked": "A weekend away would give us a ____.",
       "options": [
         "change-mcq-33",
-        "change-mcq-32",
-        "change-mcq-34",
-        "change-mcq-31",
-        "change-mcq-35",
+        "change-mcq-16",
+        "change-mcq-40",
         "change-mcq-30"
       ],
       "explanation": "本句的「change of scene」指「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」。",
@@ -3078,12 +2810,10 @@ export default {
         "change of scene"
       ],
       "optionReasons": {
-        "change-mcq-33": "本句指「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」。",
-        "change-mcq-32": "「換換口味；難得；這次換個不同的方式」是「for a change = as something different from what usually happens 換換口味；難得；這次換個不同的方式」的用法，與本句語境不同。",
-        "change-mcq-34": "「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」是「social / political / cultural change = large-scale transformation in society, institutions, or culture 社會／政治／文化變遷」的用法，與本句語境不同。",
-        "change-mcq-31": "「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」是「a change — something different from the usual = an activity, experience, or situation that is pleasantly different 變換；換換口味；不同的體驗」的用法，與本句語境不同。",
-        "change-mcq-35": "「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」是「climate change = long-term change in climate patterns, especially current global warming-related changes 氣候變遷」的用法，與本句語境不同。",
-        "change-mcq-30": "「表示零散硬幣；零錢；例句：「他把身上的零散硬幣倒在桌上。」」是「loose change = small coins carried casually 零散硬幣；零錢」的用法，與本句語境不同。"
+        "change-mcq-33": "本句的「change of scene」指「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」。",
+        "change-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-33"
     },
@@ -3095,11 +2825,9 @@ export default {
       "masked": "Technology has accelerated ____.",
       "options": [
         "change-mcq-34",
-        "change-mcq-33",
-        "change-mcq-35",
-        "change-mcq-32",
-        "change-mcq-36",
-        "change-mcq-31"
+        "change-mcq-10",
+        "change-mcq-42",
+        "change-mcq-14"
       ],
       "explanation": "本句的「social change」指「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」。",
       "sentenceIndex": 66,
@@ -3108,12 +2836,10 @@ export default {
         "social change"
       ],
       "optionReasons": {
-        "change-mcq-34": "本句指「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」。",
-        "change-mcq-33": "「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」是「a change of scene / scenery = moving to a different environment, often for freshness or relief 換個環境」的用法，與本句語境不同。",
-        "change-mcq-35": "「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」是「climate change = long-term change in climate patterns, especially current global warming-related changes 氣候變遷」的用法，與本句語境不同。",
-        "change-mcq-32": "「換換口味；難得；這次換個不同的方式」是「for a change = as something different from what usually happens 換換口味；難得；這次換個不同的方式」的用法，與本句語境不同。",
-        "change-mcq-36": "「表示變色；例句：「樹葉在秋天會變色。」」是「change colour = become a different colour 變色」的用法，與本句語境不同。",
-        "change-mcq-31": "「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」是「a change — something different from the usual = an activity, experience, or situation that is pleasantly different 變換；換換口味；不同的體驗」的用法，與本句語境不同。"
+        "change-mcq-34": "本句的「social change」指「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-34"
     },
@@ -3125,11 +2851,9 @@ export default {
       "masked": "The country experienced major ____.",
       "options": [
         "change-mcq-34",
-        "change-mcq-33",
-        "change-mcq-35",
-        "change-mcq-32",
-        "change-mcq-36",
-        "change-mcq-31"
+        "change-mcq-29",
+        "change-mcq-13",
+        "change-mcq-40"
       ],
       "explanation": "本句的「political changes」指「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」。",
       "sentenceIndex": 67,
@@ -3138,12 +2862,10 @@ export default {
         "political changes"
       ],
       "optionReasons": {
-        "change-mcq-34": "本句指「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」。",
-        "change-mcq-33": "「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」是「a change of scene / scenery = moving to a different environment, often for freshness or relief 換個環境」的用法，與本句語境不同。",
-        "change-mcq-35": "「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」是「climate change = long-term change in climate patterns, especially current global warming-related changes 氣候變遷」的用法，與本句語境不同。",
-        "change-mcq-32": "「換換口味；難得；這次換個不同的方式」是「for a change = as something different from what usually happens 換換口味；難得；這次換個不同的方式」的用法，與本句語境不同。",
-        "change-mcq-36": "「表示變色；例句：「樹葉在秋天會變色。」」是「change colour = become a different colour 變色」的用法，與本句語境不同。",
-        "change-mcq-31": "「表示變換；換換口味；不同的體驗；例句：「我們今天換個方式，到外面吃吧。」」是「a change — something different from the usual = an activity, experience, or situation that is pleasantly different 變換；換換口味；不同的體驗」的用法，與本句語境不同。"
+        "change-mcq-34": "本句的「political changes」指「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」。",
+        "change-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-34"
     },
@@ -3155,10 +2877,8 @@ export default {
       "masked": "Scientists study the effects of ____.",
       "options": [
         "change-mcq-35",
-        "change-mcq-34",
-        "change-mcq-36",
-        "change-mcq-33",
-        "change-mcq-37",
+        "change-mcq-40",
+        "change-mcq-27",
         "change-mcq-32"
       ],
       "explanation": "本句的「climate change」指「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」。",
@@ -3168,12 +2888,10 @@ export default {
         "climate change"
       ],
       "optionReasons": {
-        "change-mcq-35": "本句指「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」。",
-        "change-mcq-34": "「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」是「social / political / cultural change = large-scale transformation in society, institutions, or culture 社會／政治／文化變遷」的用法，與本句語境不同。",
-        "change-mcq-36": "「表示變色；例句：「樹葉在秋天會變色。」」是「change colour = become a different colour 變色」的用法，與本句語境不同。",
-        "change-mcq-33": "「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」是「a change of scene / scenery = moving to a different environment, often for freshness or relief 換個環境」的用法，與本句語境不同。",
-        "change-mcq-37": "「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」是「change shape / form = become physically different in shape or structure 改變形狀／形態」的用法，與本句語境不同。",
-        "change-mcq-32": "「換換口味；難得；這次換個不同的方式」是「for a change = as something different from what usually happens 換換口味；難得；這次換個不同的方式」的用法，與本句語境不同。"
+        "change-mcq-35": "本句的「climate change」指「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-35"
     },
@@ -3185,11 +2903,9 @@ export default {
       "masked": "Coastal communities are especially vulnerable to ____.",
       "options": [
         "change-mcq-35",
-        "change-mcq-34",
-        "change-mcq-36",
-        "change-mcq-33",
-        "change-mcq-37",
-        "change-mcq-32"
+        "change-mcq-07",
+        "change-mcq-40",
+        "change-mcq-14"
       ],
       "explanation": "本句的「climate change」指「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」。",
       "sentenceIndex": 69,
@@ -3198,12 +2914,10 @@ export default {
         "climate change"
       ],
       "optionReasons": {
-        "change-mcq-35": "本句指「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」。",
-        "change-mcq-34": "「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」是「social / political / cultural change = large-scale transformation in society, institutions, or culture 社會／政治／文化變遷」的用法，與本句語境不同。",
-        "change-mcq-36": "「表示變色；例句：「樹葉在秋天會變色。」」是「change colour = become a different colour 變色」的用法，與本句語境不同。",
-        "change-mcq-33": "「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」是「a change of scene / scenery = moving to a different environment, often for freshness or relief 換個環境」的用法，與本句語境不同。",
-        "change-mcq-37": "「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」是「change shape / form = become physically different in shape or structure 改變形狀／形態」的用法，與本句語境不同。",
-        "change-mcq-32": "「換換口味；難得；這次換個不同的方式」是「for a change = as something different from what usually happens 換換口味；難得；這次換個不同的方式」的用法，與本句語境不同。"
+        "change-mcq-35": "本句的「climate change」指「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」。",
+        "change-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-35"
     },
@@ -3215,11 +2929,9 @@ export default {
       "masked": "The leaves ____ in autumn.",
       "options": [
         "change-mcq-36",
-        "change-mcq-35",
-        "change-mcq-37",
-        "change-mcq-34",
-        "change-mcq-38",
-        "change-mcq-33"
+        "change-mcq-10",
+        "change-mcq-42",
+        "change-mcq-28"
       ],
       "explanation": "本句的「change colour」指「表示變色；例句：「樹葉在秋天會變色。」」。",
       "sentenceIndex": 70,
@@ -3228,12 +2940,10 @@ export default {
         "change colour"
       ],
       "optionReasons": {
-        "change-mcq-36": "本句指「表示變色；例句：「樹葉在秋天會變色。」」。",
-        "change-mcq-35": "「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」是「climate change = long-term change in climate patterns, especially current global warming-related changes 氣候變遷」的用法，與本句語境不同。",
-        "change-mcq-37": "「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」是「change shape / form = become physically different in shape or structure 改變形狀／形態」的用法，與本句語境不同。",
-        "change-mcq-34": "「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」是「social / political / cultural change = large-scale transformation in society, institutions, or culture 社會／政治／文化變遷」的用法，與本句語境不同。",
-        "change-mcq-38": "「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」是「someone has changed = someone’s personality, behavior, outlook, or appearance has become different 某人變了」的用法，與本句語境不同。",
-        "change-mcq-33": "「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」是「a change of scene / scenery = moving to a different environment, often for freshness or relief 換個環境」的用法，與本句語境不同。"
+        "change-mcq-36": "本句的「change colour」指「表示變色；例句：「樹葉在秋天會變色。」」。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-36"
     },
@@ -3245,11 +2955,9 @@ export default {
       "masked": "Her face ____ when she heard the news.",
       "options": [
         "change-mcq-36",
-        "change-mcq-35",
-        "change-mcq-37",
-        "change-mcq-34",
-        "change-mcq-38",
-        "change-mcq-33"
+        "change-mcq-07",
+        "change-mcq-40",
+        "change-mcq-13"
       ],
       "explanation": "本句的「changed colour」指「表示變色；例句：「樹葉在秋天會變色。」」。",
       "sentenceIndex": 71,
@@ -3258,12 +2966,10 @@ export default {
         "changed colour"
       ],
       "optionReasons": {
-        "change-mcq-36": "本句指「表示變色；例句：「樹葉在秋天會變色。」」。",
-        "change-mcq-35": "「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」是「climate change = long-term change in climate patterns, especially current global warming-related changes 氣候變遷」的用法，與本句語境不同。",
-        "change-mcq-37": "「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」是「change shape / form = become physically different in shape or structure 改變形狀／形態」的用法，與本句語境不同。",
-        "change-mcq-34": "「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」是「social / political / cultural change = large-scale transformation in society, institutions, or culture 社會／政治／文化變遷」的用法，與本句語境不同。",
-        "change-mcq-38": "「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」是「someone has changed = someone’s personality, behavior, outlook, or appearance has become different 某人變了」的用法，與本句語境不同。",
-        "change-mcq-33": "「表示換個環境；例句：「在家待了幾個月後，我需要換個環境。」」是「a change of scene / scenery = moving to a different environment, often for freshness or relief 換個環境」的用法，與本句語境不同。"
+        "change-mcq-36": "本句的「changed colour」指「表示變色；例句：「樹葉在秋天會變色。」」。",
+        "change-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-36"
     },
@@ -3275,11 +2981,9 @@ export default {
       "masked": "The material ____ when heated.",
       "options": [
         "change-mcq-37",
-        "change-mcq-36",
-        "change-mcq-38",
-        "change-mcq-35",
-        "change-mcq-39",
-        "change-mcq-34"
+        "change-mcq-40",
+        "change-mcq-11",
+        "change-mcq-41"
       ],
       "explanation": "本句的「changes shape」指「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」。",
       "sentenceIndex": 72,
@@ -3288,12 +2992,10 @@ export default {
         "changes shape"
       ],
       "optionReasons": {
-        "change-mcq-37": "本句指「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」。",
-        "change-mcq-36": "「表示變色；例句：「樹葉在秋天會變色。」」是「change colour = become a different colour 變色」的用法，與本句語境不同。",
-        "change-mcq-38": "「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」是「someone has changed = someone’s personality, behavior, outlook, or appearance has become different 某人變了」的用法，與本句語境不同。",
-        "change-mcq-35": "「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」是「climate change = long-term change in climate patterns, especially current global warming-related changes 氣候變遷」的用法，與本句語境不同。",
-        "change-mcq-39": "「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」是「change yourself = deliberately alter your behavior, habits, or personality 改變自己」的用法，與本句語境不同。",
-        "change-mcq-34": "「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」是「social / political / cultural change = large-scale transformation in society, institutions, or culture 社會／政治／文化變遷」的用法，與本句語境不同。"
+        "change-mcq-37": "本句的「changes shape」指「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-37"
     },
@@ -3305,11 +3007,9 @@ export default {
       "masked": "Clouds constantly ____.",
       "options": [
         "change-mcq-37",
-        "change-mcq-36",
-        "change-mcq-38",
-        "change-mcq-35",
-        "change-mcq-39",
-        "change-mcq-34"
+        "change-mcq-42",
+        "change-mcq-10",
+        "change-mcq-28"
       ],
       "explanation": "本句的「change form」指「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」。",
       "sentenceIndex": 73,
@@ -3318,12 +3018,10 @@ export default {
         "change form"
       ],
       "optionReasons": {
-        "change-mcq-37": "本句指「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」。",
-        "change-mcq-36": "「表示變色；例句：「樹葉在秋天會變色。」」是「change colour = become a different colour 變色」的用法，與本句語境不同。",
-        "change-mcq-38": "「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」是「someone has changed = someone’s personality, behavior, outlook, or appearance has become different 某人變了」的用法，與本句語境不同。",
-        "change-mcq-35": "「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」是「climate change = long-term change in climate patterns, especially current global warming-related changes 氣候變遷」的用法，與本句語境不同。",
-        "change-mcq-39": "「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」是「change yourself = deliberately alter your behavior, habits, or personality 改變自己」的用法，與本句語境不同。",
-        "change-mcq-34": "「表示社會／政治／文化變遷；例句：「科技加速了社會變遷。」」是「social / political / cultural change = large-scale transformation in society, institutions, or culture 社會／政治／文化變遷」的用法，與本句語境不同。"
+        "change-mcq-37": "本句的「change form」指「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」。",
+        "change-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-37"
     },
@@ -3335,11 +3033,9 @@ export default {
       "masked": "You’ve really ____ since I last saw you.",
       "options": [
         "change-mcq-38",
-        "change-mcq-37",
-        "change-mcq-39",
-        "change-mcq-36",
-        "change-mcq-40",
-        "change-mcq-35"
+        "change-mcq-28",
+        "change-mcq-12",
+        "change-mcq-41"
       ],
       "explanation": "本句的「changed」指「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」。",
       "sentenceIndex": 74,
@@ -3348,12 +3044,10 @@ export default {
         "changed"
       ],
       "optionReasons": {
-        "change-mcq-38": "本句指「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」。",
-        "change-mcq-37": "「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」是「change shape / form = become physically different in shape or structure 改變形狀／形態」的用法，與本句語境不同。",
-        "change-mcq-39": "「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」是「change yourself = deliberately alter your behavior, habits, or personality 改變自己」的用法，與本句語境不同。",
-        "change-mcq-36": "「表示變色；例句：「樹葉在秋天會變色。」」是「change colour = become a different colour 變色」的用法，與本句語境不同。",
-        "change-mcq-40": "「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」是「change hands = pass from one owner to another 轉手；易主」的用法，與本句語境不同。",
-        "change-mcq-35": "「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」是「climate change = long-term change in climate patterns, especially current global warming-related changes 氣候變遷」的用法，與本句語境不同。"
+        "change-mcq-38": "本句的「changed」指「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-38"
     },
@@ -3365,11 +3059,9 @@ export default {
       "masked": "He hasn’t ____ at all.",
       "options": [
         "change-mcq-38",
-        "change-mcq-37",
-        "change-mcq-39",
-        "change-mcq-36",
-        "change-mcq-40",
-        "change-mcq-35"
+        "change-mcq-29",
+        "change-mcq-15",
+        "change-mcq-41"
       ],
       "explanation": "本句的「changed」指「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」。",
       "sentenceIndex": 75,
@@ -3378,12 +3070,10 @@ export default {
         "changed"
       ],
       "optionReasons": {
-        "change-mcq-38": "本句指「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」。",
-        "change-mcq-37": "「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」是「change shape / form = become physically different in shape or structure 改變形狀／形態」的用法，與本句語境不同。",
-        "change-mcq-39": "「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」是「change yourself = deliberately alter your behavior, habits, or personality 改變自己」的用法，與本句語境不同。",
-        "change-mcq-36": "「表示變色；例句：「樹葉在秋天會變色。」」是「change colour = become a different colour 變色」的用法，與本句語境不同。",
-        "change-mcq-40": "「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」是「change hands = pass from one owner to another 轉手；易主」的用法，與本句語境不同。",
-        "change-mcq-35": "「表示氣候變遷；例句：「科學家研究氣候變遷的影響。」」是「climate change = long-term change in climate patterns, especially current global warming-related changes 氣候變遷」的用法，與本句語境不同。"
+        "change-mcq-38": "本句的「changed」指「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」。",
+        "change-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-38"
     },
@@ -3395,11 +3085,9 @@ export default {
       "masked": "You don’t have to completely ____ to please other people.",
       "options": [
         "change-mcq-39",
-        "change-mcq-38",
         "change-mcq-40",
-        "change-mcq-37",
-        "change-mcq-41",
-        "change-mcq-36"
+        "change-mcq-09",
+        "change-mcq-32"
       ],
       "explanation": "本句的「change yourself」指「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」。",
       "sentenceIndex": 76,
@@ -3408,12 +3096,10 @@ export default {
         "change yourself"
       ],
       "optionReasons": {
-        "change-mcq-39": "本句指「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」。",
-        "change-mcq-38": "「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」是「someone has changed = someone’s personality, behavior, outlook, or appearance has become different 某人變了」的用法，與本句語境不同。",
-        "change-mcq-40": "「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」是「change hands = pass from one owner to another 轉手；易主」的用法，與本句語境不同。",
-        "change-mcq-37": "「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」是「change shape / form = become physically different in shape or structure 改變形狀／形態」的用法，與本句語境不同。",
-        "change-mcq-41": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「change places = exchange positions with someone or move to a different position 交換位置；換位子」的用法，與本句語境不同。",
-        "change-mcq-36": "「表示變色；例句：「樹葉在秋天會變色。」」是「change colour = become a different colour 變色」的用法，與本句語境不同。"
+        "change-mcq-39": "本句的「change yourself」指「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-39"
     },
@@ -3425,11 +3111,9 @@ export default {
       "masked": "He worked hard to ____.",
       "options": [
         "change-mcq-39",
-        "change-mcq-38",
-        "change-mcq-40",
-        "change-mcq-37",
-        "change-mcq-41",
-        "change-mcq-36"
+        "change-mcq-28",
+        "change-mcq-33",
+        "change-mcq-40"
       ],
       "explanation": "本句的「change himself」指「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」。",
       "sentenceIndex": 77,
@@ -3438,12 +3122,10 @@ export default {
         "change himself"
       ],
       "optionReasons": {
-        "change-mcq-39": "本句指「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」。",
-        "change-mcq-38": "「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」是「someone has changed = someone’s personality, behavior, outlook, or appearance has become different 某人變了」的用法，與本句語境不同。",
-        "change-mcq-40": "「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」是「change hands = pass from one owner to another 轉手；易主」的用法，與本句語境不同。",
-        "change-mcq-37": "「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」是「change shape / form = become physically different in shape or structure 改變形狀／形態」的用法，與本句語境不同。",
-        "change-mcq-41": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「change places = exchange positions with someone or move to a different position 交換位置；換位子」的用法，與本句語境不同。",
-        "change-mcq-36": "「表示變色；例句：「樹葉在秋天會變色。」」是「change colour = become a different colour 變色」的用法，與本句語境不同。"
+        "change-mcq-39": "本句的「change himself」指「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-39"
     },
@@ -3455,11 +3137,9 @@ export default {
       "masked": "The house has ____ several times.",
       "options": [
         "change-mcq-40",
-        "change-mcq-39",
-        "change-mcq-41",
-        "change-mcq-38",
-        "change-mcq-42",
-        "change-mcq-37"
+        "change-mcq-01",
+        "change-mcq-08",
+        "change-mcq-30"
       ],
       "explanation": "本句的「changed hands」指「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」。",
       "sentenceIndex": 78,
@@ -3468,12 +3148,10 @@ export default {
         "changed hands"
       ],
       "optionReasons": {
-        "change-mcq-40": "本句指「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」。",
-        "change-mcq-39": "「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」是「change yourself = deliberately alter your behavior, habits, or personality 改變自己」的用法，與本句語境不同。",
-        "change-mcq-41": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「change places = exchange positions with someone or move to a different position 交換位置；換位子」的用法，與本句語境不同。",
-        "change-mcq-38": "「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」是「someone has changed = someone’s personality, behavior, outlook, or appearance has become different 某人變了」的用法，與本句語境不同。",
-        "change-mcq-42": "「表示換邊；例句：「中場休息後，兩隊交換場地。」」是「change sides」的用法，與本句語境不同。",
-        "change-mcq-37": "「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」是「change shape / form = become physically different in shape or structure 改變形狀／形態」的用法，與本句語境不同。"
+        "change-mcq-40": "本句的「changed hands」指「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」。",
+        "change-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-40"
     },
@@ -3485,11 +3163,9 @@ export default {
       "masked": "The company ____ last year.",
       "options": [
         "change-mcq-40",
-        "change-mcq-39",
-        "change-mcq-41",
+        "change-mcq-27",
         "change-mcq-38",
-        "change-mcq-42",
-        "change-mcq-37"
+        "change-mcq-09"
       ],
       "explanation": "本句的「changed hands」指「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」。",
       "sentenceIndex": 79,
@@ -3498,12 +3174,10 @@ export default {
         "changed hands"
       ],
       "optionReasons": {
-        "change-mcq-40": "本句指「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」。",
-        "change-mcq-39": "「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」是「change yourself = deliberately alter your behavior, habits, or personality 改變自己」的用法，與本句語境不同。",
-        "change-mcq-41": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「change places = exchange positions with someone or move to a different position 交換位置；換位子」的用法，與本句語境不同。",
-        "change-mcq-38": "「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」是「someone has changed = someone’s personality, behavior, outlook, or appearance has become different 某人變了」的用法，與本句語境不同。",
-        "change-mcq-42": "「表示換邊；例句：「中場休息後，兩隊交換場地。」」是「change sides」的用法，與本句語境不同。",
-        "change-mcq-37": "「表示改變形狀／形態；例句：「這種材料受熱時會改變形狀。」」是「change shape / form = become physically different in shape or structure 改變形狀／形態」的用法，與本句語境不同。"
+        "change-mcq-40": "本句的「changed hands」指「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-40"
     },
@@ -3515,11 +3189,9 @@ export default {
       "masked": "Can we ____?",
       "options": [
         "change-mcq-41",
-        "change-mcq-40",
-        "change-mcq-42",
-        "change-mcq-39",
-        "change-mcq-43",
-        "change-mcq-38"
+        "change-mcq-24",
+        "change-mcq-27",
+        "change-mcq-14"
       ],
       "explanation": "本句的「change places」指「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」。",
       "sentenceIndex": 80,
@@ -3528,12 +3200,10 @@ export default {
         "change places"
       ],
       "optionReasons": {
-        "change-mcq-41": "本句指「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」。",
-        "change-mcq-40": "「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」是「change hands = pass from one owner to another 轉手；易主」的用法，與本句語境不同。",
-        "change-mcq-42": "「表示換邊；例句：「中場休息後，兩隊交換場地。」」是「change sides」的用法，與本句語境不同。",
-        "change-mcq-39": "「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」是「change yourself = deliberately alter your behavior, habits, or personality 改變自己」的用法，與本句語境不同。",
-        "change-mcq-43": "「表示改變航向；例句：「船隻改變航向以避開風暴。」」是「change course」的用法，與本句語境不同。",
-        "change-mcq-38": "「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」是「someone has changed = someone’s personality, behavior, outlook, or appearance has become different 某人變了」的用法，與本句語境不同。"
+        "change-mcq-41": "本句的「change places」指「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」。",
+        "change-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-41"
     },
@@ -3545,11 +3215,9 @@ export default {
       "masked": "The two students ____.",
       "options": [
         "change-mcq-41",
-        "change-mcq-40",
-        "change-mcq-42",
-        "change-mcq-39",
-        "change-mcq-43",
-        "change-mcq-38"
+        "change-mcq-48",
+        "change-mcq-10",
+        "change-mcq-34"
       ],
       "explanation": "本句的「changed places」指「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」。",
       "sentenceIndex": 81,
@@ -3558,12 +3226,10 @@ export default {
         "changed places"
       ],
       "optionReasons": {
-        "change-mcq-41": "本句指「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」。",
-        "change-mcq-40": "「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」是「change hands = pass from one owner to another 轉手；易主」的用法，與本句語境不同。",
-        "change-mcq-42": "「表示換邊；例句：「中場休息後，兩隊交換場地。」」是「change sides」的用法，與本句語境不同。",
-        "change-mcq-39": "「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」是「change yourself = deliberately alter your behavior, habits, or personality 改變自己」的用法，與本句語境不同。",
-        "change-mcq-43": "「表示改變航向；例句：「船隻改變航向以避開風暴。」」是「change course」的用法，與本句語境不同。",
-        "change-mcq-38": "「表示某人變了；例句：「自從上次見面以來，你真的變了很多。」」是「someone has changed = someone’s personality, behavior, outlook, or appearance has become different 某人變了」的用法，與本句語境不同。"
+        "change-mcq-41": "本句的「changed places」指「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」。",
+        "change-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-41"
     },
@@ -3575,11 +3241,9 @@ export default {
       "masked": "The teams ____ after half-time.",
       "options": [
         "change-mcq-42",
-        "change-mcq-41",
-        "change-mcq-43",
-        "change-mcq-40",
-        "change-mcq-44",
-        "change-mcq-39"
+        "change-mcq-48",
+        "change-mcq-27",
+        "change-mcq-34"
       ],
       "explanation": "本句的「changed sides」指「表示換邊；例句：「中場休息後，兩隊交換場地。」」。",
       "sentenceIndex": 82,
@@ -3588,12 +3252,10 @@ export default {
         "changed sides"
       ],
       "optionReasons": {
-        "change-mcq-42": "本句指「表示換邊；例句：「中場休息後，兩隊交換場地。」」。",
-        "change-mcq-41": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「change places = exchange positions with someone or move to a different position 交換位置；換位子」的用法，與本句語境不同。",
-        "change-mcq-43": "「表示改變航向；例句：「船隻改變航向以避開風暴。」」是「change course」的用法，與本句語境不同。",
-        "change-mcq-40": "「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」是「change hands = pass from one owner to another 轉手；易主」的用法，與本句語境不同。",
-        "change-mcq-44": "「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」是「change of heart = a change in feelings, attitude, or decision 改變心意；改變態度」的用法，與本句語境不同。",
-        "change-mcq-39": "「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」是「change yourself = deliberately alter your behavior, habits, or personality 改變自己」的用法，與本句語境不同。"
+        "change-mcq-42": "本句的「changed sides」指「表示換邊；例句：「中場休息後，兩隊交換場地。」」。",
+        "change-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-42"
     },
@@ -3605,11 +3267,9 @@ export default {
       "masked": "Several politicians later ____.",
       "options": [
         "change-mcq-42",
-        "change-mcq-41",
-        "change-mcq-43",
-        "change-mcq-40",
-        "change-mcq-44",
-        "change-mcq-39"
+        "change-mcq-02",
+        "change-mcq-30",
+        "change-mcq-14"
       ],
       "explanation": "本句的「changed sides」指「表示換邊；例句：「中場休息後，兩隊交換場地。」」。",
       "sentenceIndex": 83,
@@ -3618,12 +3278,10 @@ export default {
         "changed sides"
       ],
       "optionReasons": {
-        "change-mcq-42": "本句指「表示換邊；例句：「中場休息後，兩隊交換場地。」」。",
-        "change-mcq-41": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「change places = exchange positions with someone or move to a different position 交換位置；換位子」的用法，與本句語境不同。",
-        "change-mcq-43": "「表示改變航向；例句：「船隻改變航向以避開風暴。」」是「change course」的用法，與本句語境不同。",
-        "change-mcq-40": "「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」是「change hands = pass from one owner to another 轉手；易主」的用法，與本句語境不同。",
-        "change-mcq-44": "「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」是「change of heart = a change in feelings, attitude, or decision 改變心意；改變態度」的用法，與本句語境不同。",
-        "change-mcq-39": "「表示改變自己；例句：「你不需要為了取悅別人而徹底改變自己。」」是「change yourself = deliberately alter your behavior, habits, or personality 改變自己」的用法，與本句語境不同。"
+        "change-mcq-42": "本句的「changed sides」指「表示換邊；例句：「中場休息後，兩隊交換場地。」」。",
+        "change-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-42"
     },
@@ -3635,11 +3293,9 @@ export default {
       "masked": "The ship ____ to avoid the storm.",
       "options": [
         "change-mcq-43",
-        "change-mcq-42",
-        "change-mcq-44",
-        "change-mcq-41",
-        "change-mcq-45",
-        "change-mcq-40"
+        "change-mcq-30",
+        "change-mcq-32",
+        "change-mcq-09"
       ],
       "explanation": "本句的「changed course」指「表示改變航向；例句：「船隻改變航向以避開風暴。」」。",
       "sentenceIndex": 84,
@@ -3648,12 +3304,10 @@ export default {
         "changed course"
       ],
       "optionReasons": {
-        "change-mcq-43": "本句指「表示改變航向；例句：「船隻改變航向以避開風暴。」」。",
-        "change-mcq-42": "「表示換邊；例句：「中場休息後，兩隊交換場地。」」是「change sides」的用法，與本句語境不同。",
-        "change-mcq-44": "「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」是「change of heart = a change in feelings, attitude, or decision 改變心意；改變態度」的用法，與本句語境不同。",
-        "change-mcq-41": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「change places = exchange positions with someone or move to a different position 交換位置；換位子」的用法，與本句語境不同。",
-        "change-mcq-45": "「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」是「sea change = a major and profound transformation 重大轉變；徹底變化」的用法，與本句語境不同。",
-        "change-mcq-40": "「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」是「change hands = pass from one owner to another 轉手；易主」的用法，與本句語境不同。"
+        "change-mcq-43": "本句的「changed course」指「表示改變航向；例句：「船隻改變航向以避開風暴。」」。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-43"
     },
@@ -3665,11 +3319,9 @@ export default {
       "masked": "The company decided to ____ after poor results.",
       "options": [
         "change-mcq-43",
-        "change-mcq-42",
-        "change-mcq-44",
-        "change-mcq-41",
-        "change-mcq-45",
-        "change-mcq-40"
+        "change-mcq-11",
+        "change-mcq-32",
+        "change-mcq-27"
       ],
       "explanation": "本句的「change course」指「表示改變航向；例句：「船隻改變航向以避開風暴。」」。",
       "sentenceIndex": 85,
@@ -3678,12 +3330,10 @@ export default {
         "change course"
       ],
       "optionReasons": {
-        "change-mcq-43": "本句指「表示改變航向；例句：「船隻改變航向以避開風暴。」」。",
-        "change-mcq-42": "「表示換邊；例句：「中場休息後，兩隊交換場地。」」是「change sides」的用法，與本句語境不同。",
-        "change-mcq-44": "「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」是「change of heart = a change in feelings, attitude, or decision 改變心意；改變態度」的用法，與本句語境不同。",
-        "change-mcq-41": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「change places = exchange positions with someone or move to a different position 交換位置；換位子」的用法，與本句語境不同。",
-        "change-mcq-45": "「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」是「sea change = a major and profound transformation 重大轉變；徹底變化」的用法，與本句語境不同。",
-        "change-mcq-40": "「表示轉手；易主；例句：「這棟房子已經轉手好幾次。」」是「change hands = pass from one owner to another 轉手；易主」的用法，與本句語境不同。"
+        "change-mcq-43": "本句的「change course」指「表示改變航向；例句：「船隻改變航向以避開風暴。」」。",
+        "change-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-43"
     },
@@ -3695,11 +3345,9 @@ export default {
       "masked": "He had a ____ and decided to stay.",
       "options": [
         "change-mcq-44",
-        "change-mcq-43",
-        "change-mcq-45",
-        "change-mcq-42",
-        "change-mcq-46",
-        "change-mcq-41"
+        "change-mcq-32",
+        "change-mcq-09",
+        "change-mcq-40"
       ],
       "explanation": "本句的「change of heart」指「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」。",
       "sentenceIndex": 86,
@@ -3708,12 +3356,10 @@ export default {
         "change of heart"
       ],
       "optionReasons": {
-        "change-mcq-44": "本句指「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」。",
-        "change-mcq-43": "「表示改變航向；例句：「船隻改變航向以避開風暴。」」是「change course」的用法，與本句語境不同。",
-        "change-mcq-45": "「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」是「sea change = a major and profound transformation 重大轉變；徹底變化」的用法，與本句語境不同。",
-        "change-mcq-42": "「表示換邊；例句：「中場休息後，兩隊交換場地。」」是「change sides」的用法，與本句語境不同。",
-        "change-mcq-46": "「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」是「changing = becoming different; continually developing 變化中的；不斷改變的」的用法，與本句語境不同。",
-        "change-mcq-41": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「change places = exchange positions with someone or move to a different position 交換位置；換位子」的用法，與本句語境不同。"
+        "change-mcq-44": "本句的「change of heart」指「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-44"
     },
@@ -3725,11 +3371,9 @@ export default {
       "masked": "She seems to have had a ____ about the proposal.",
       "options": [
         "change-mcq-44",
-        "change-mcq-43",
-        "change-mcq-45",
-        "change-mcq-42",
-        "change-mcq-46",
-        "change-mcq-41"
+        "change-mcq-28",
+        "change-mcq-40",
+        "change-mcq-09"
       ],
       "explanation": "本句的「change of heart」指「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」。",
       "sentenceIndex": 87,
@@ -3738,12 +3382,10 @@ export default {
         "change of heart"
       ],
       "optionReasons": {
-        "change-mcq-44": "本句指「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」。",
-        "change-mcq-43": "「表示改變航向；例句：「船隻改變航向以避開風暴。」」是「change course」的用法，與本句語境不同。",
-        "change-mcq-45": "「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」是「sea change = a major and profound transformation 重大轉變；徹底變化」的用法，與本句語境不同。",
-        "change-mcq-42": "「表示換邊；例句：「中場休息後，兩隊交換場地。」」是「change sides」的用法，與本句語境不同。",
-        "change-mcq-46": "「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」是「changing = becoming different; continually developing 變化中的；不斷改變的」的用法，與本句語境不同。",
-        "change-mcq-41": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「change places = exchange positions with someone or move to a different position 交換位置；換位子」的用法，與本句語境不同。"
+        "change-mcq-44": "本句的「change of heart」指「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-44"
     },
@@ -3755,11 +3397,9 @@ export default {
       "masked": "The internet caused a ____ in communication.",
       "options": [
         "change-mcq-45",
-        "change-mcq-44",
-        "change-mcq-46",
-        "change-mcq-43",
-        "change-mcq-47",
-        "change-mcq-42"
+        "change-mcq-13",
+        "change-mcq-08",
+        "change-mcq-27"
       ],
       "explanation": "本句的「sea change」指「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」。",
       "sentenceIndex": 88,
@@ -3768,12 +3408,10 @@ export default {
         "sea change"
       ],
       "optionReasons": {
-        "change-mcq-45": "本句指「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」。",
-        "change-mcq-44": "「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」是「change of heart = a change in feelings, attitude, or decision 改變心意；改變態度」的用法，與本句語境不同。",
-        "change-mcq-46": "「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」是「changing = becoming different; continually developing 變化中的；不斷改變的」的用法，與本句語境不同。",
-        "change-mcq-43": "「表示改變航向；例句：「船隻改變航向以避開風暴。」」是「change course」的用法，與本句語境不同。",
-        "change-mcq-47": "「表示多變的；易變的；例句：「這裡的天氣非常多變。」」是「changeable = likely to change frequently 多變的；易變的」的用法，與本句語境不同。",
-        "change-mcq-42": "「表示換邊；例句：「中場休息後，兩隊交換場地。」」是「change sides」的用法，與本句語境不同。"
+        "change-mcq-45": "本句的「sea change」指「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」。",
+        "change-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-45"
     },
@@ -3785,11 +3423,9 @@ export default {
       "masked": "There has been a ____ in public attitudes.",
       "options": [
         "change-mcq-45",
-        "change-mcq-44",
-        "change-mcq-46",
-        "change-mcq-43",
-        "change-mcq-47",
-        "change-mcq-42"
+        "change-mcq-29",
+        "change-mcq-32",
+        "change-mcq-41"
       ],
       "explanation": "本句的「sea change」指「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」。",
       "sentenceIndex": 89,
@@ -3798,12 +3434,10 @@ export default {
         "sea change"
       ],
       "optionReasons": {
-        "change-mcq-45": "本句指「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」。",
-        "change-mcq-44": "「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」是「change of heart = a change in feelings, attitude, or decision 改變心意；改變態度」的用法，與本句語境不同。",
-        "change-mcq-46": "「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」是「changing = becoming different; continually developing 變化中的；不斷改變的」的用法，與本句語境不同。",
-        "change-mcq-43": "「表示改變航向；例句：「船隻改變航向以避開風暴。」」是「change course」的用法，與本句語境不同。",
-        "change-mcq-47": "「表示多變的；易變的；例句：「這裡的天氣非常多變。」」是「changeable = likely to change frequently 多變的；易變的」的用法，與本句語境不同。",
-        "change-mcq-42": "「表示換邊；例句：「中場休息後，兩隊交換場地。」」是「change sides」的用法，與本句語境不同。"
+        "change-mcq-45": "本句的「sea change」指「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」。",
+        "change-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-45"
     },
@@ -3815,11 +3449,9 @@ export default {
       "masked": "We live in a rapidly ____.",
       "options": [
         "change-mcq-46",
-        "change-mcq-45",
-        "change-mcq-47",
-        "change-mcq-44",
-        "change-mcq-48",
-        "change-mcq-43"
+        "change-mcq-41",
+        "change-mcq-09",
+        "change-mcq-10"
       ],
       "explanation": "本句的「changing world」指「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」。",
       "sentenceIndex": 90,
@@ -3828,12 +3460,10 @@ export default {
         "changing world"
       ],
       "optionReasons": {
-        "change-mcq-46": "本句指「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」。",
-        "change-mcq-45": "「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」是「sea change = a major and profound transformation 重大轉變；徹底變化」的用法，與本句語境不同。",
-        "change-mcq-47": "「表示多變的；易變的；例句：「這裡的天氣非常多變。」」是「changeable = likely to change frequently 多變的；易變的」的用法，與本句語境不同。",
-        "change-mcq-44": "「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」是「change of heart = a change in feelings, attitude, or decision 改變心意；改變態度」的用法，與本句語境不同。",
-        "change-mcq-48": "「表示未改變的；保持不變的；例句：「價格保持不變。」」是「unchanged = remaining the same 未改變的；保持不變的」的用法，與本句語境不同。",
-        "change-mcq-43": "「表示改變航向；例句：「船隻改變航向以避開風暴。」」是「change course」的用法，與本句語境不同。"
+        "change-mcq-46": "本句的「changing world」指「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」。",
+        "change-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-46"
     },
@@ -3845,11 +3475,9 @@ export default {
       "masked": "Businesses must adapt to ____.",
       "options": [
         "change-mcq-46",
-        "change-mcq-45",
-        "change-mcq-47",
-        "change-mcq-44",
-        "change-mcq-48",
-        "change-mcq-43"
+        "change-mcq-10",
+        "change-mcq-28",
+        "change-mcq-42"
       ],
       "explanation": "本句的「changing conditions」指「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」。",
       "sentenceIndex": 91,
@@ -3858,12 +3486,10 @@ export default {
         "changing conditions"
       ],
       "optionReasons": {
-        "change-mcq-46": "本句指「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」。",
-        "change-mcq-45": "「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」是「sea change = a major and profound transformation 重大轉變；徹底變化」的用法，與本句語境不同。",
-        "change-mcq-47": "「表示多變的；易變的；例句：「這裡的天氣非常多變。」」是「changeable = likely to change frequently 多變的；易變的」的用法，與本句語境不同。",
-        "change-mcq-44": "「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」是「change of heart = a change in feelings, attitude, or decision 改變心意；改變態度」的用法，與本句語境不同。",
-        "change-mcq-48": "「表示未改變的；保持不變的；例句：「價格保持不變。」」是「unchanged = remaining the same 未改變的；保持不變的」的用法，與本句語境不同。",
-        "change-mcq-43": "「表示改變航向；例句：「船隻改變航向以避開風暴。」」是「change course」的用法，與本句語境不同。"
+        "change-mcq-46": "本句的「changing conditions」指「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-46"
     },
@@ -3875,11 +3501,9 @@ export default {
       "masked": "The weather here is very ____.",
       "options": [
         "change-mcq-47",
-        "change-mcq-46",
-        "change-mcq-48",
-        "change-mcq-45",
-        "change-mcq-49",
-        "change-mcq-44"
+        "change-mcq-07",
+        "change-mcq-14",
+        "change-mcq-10"
       ],
       "explanation": "本句的「changeable」指「表示多變的；易變的；例句：「這裡的天氣非常多變。」」。",
       "sentenceIndex": 92,
@@ -3888,12 +3512,10 @@ export default {
         "changeable"
       ],
       "optionReasons": {
-        "change-mcq-47": "本句指「表示多變的；易變的；例句：「這裡的天氣非常多變。」」。",
-        "change-mcq-46": "「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」是「changing = becoming different; continually developing 變化中的；不斷改變的」的用法，與本句語境不同。",
-        "change-mcq-48": "「表示未改變的；保持不變的；例句：「價格保持不變。」」是「unchanged = remaining the same 未改變的；保持不變的」的用法，與本句語境不同。",
-        "change-mcq-45": "「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」是「sea change = a major and profound transformation 重大轉變；徹底變化」的用法，與本句語境不同。",
-        "change-mcq-49": "「表示無法改變的；不可變的；例句：「合約的某些部分是不能更改的。」」是「unchangeable = impossible or very difficult to change 無法改變的；不可變的」的用法，與本句語境不同。",
-        "change-mcq-44": "「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」是「change of heart = a change in feelings, attitude, or decision 改變心意；改變態度」的用法，與本句語境不同。"
+        "change-mcq-47": "本句的「changeable」指「表示多變的；易變的；例句：「這裡的天氣非常多變。」」。",
+        "change-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-47"
     },
@@ -3905,11 +3527,9 @@ export default {
       "masked": "His mood can be quite ____.",
       "options": [
         "change-mcq-47",
-        "change-mcq-46",
-        "change-mcq-48",
-        "change-mcq-45",
-        "change-mcq-49",
-        "change-mcq-44"
+        "change-mcq-29",
+        "change-mcq-32",
+        "change-mcq-09"
       ],
       "explanation": "本句的「changeable」指「表示多變的；易變的；例句：「這裡的天氣非常多變。」」。",
       "sentenceIndex": 93,
@@ -3918,12 +3538,10 @@ export default {
         "changeable"
       ],
       "optionReasons": {
-        "change-mcq-47": "本句指「表示多變的；易變的；例句：「這裡的天氣非常多變。」」。",
-        "change-mcq-46": "「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」是「changing = becoming different; continually developing 變化中的；不斷改變的」的用法，與本句語境不同。",
-        "change-mcq-48": "「表示未改變的；保持不變的；例句：「價格保持不變。」」是「unchanged = remaining the same 未改變的；保持不變的」的用法，與本句語境不同。",
-        "change-mcq-45": "「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」是「sea change = a major and profound transformation 重大轉變；徹底變化」的用法，與本句語境不同。",
-        "change-mcq-49": "「表示無法改變的；不可變的；例句：「合約的某些部分是不能更改的。」」是「unchangeable = impossible or very difficult to change 無法改變的；不可變的」的用法，與本句語境不同。",
-        "change-mcq-44": "「表示改變心意；改變態度；例句：「他改變了心意，決定留下。」」是「change of heart = a change in feelings, attitude, or decision 改變心意；改變態度」的用法，與本句語境不同。"
+        "change-mcq-47": "本句的「changeable」指「表示多變的；易變的；例句：「這裡的天氣非常多變。」」。",
+        "change-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-47"
     },
@@ -3935,11 +3553,9 @@ export default {
       "masked": "The price remained ____.",
       "options": [
         "change-mcq-48",
-        "change-mcq-47",
-        "change-mcq-49",
-        "change-mcq-46",
-        "change-mcq-50",
-        "change-mcq-45"
+        "change-mcq-29",
+        "change-mcq-40",
+        "change-mcq-11"
       ],
       "explanation": "本句的「unchanged」指「表示未改變的；保持不變的；例句：「價格保持不變。」」。",
       "sentenceIndex": 94,
@@ -3948,12 +3564,10 @@ export default {
         "unchanged"
       ],
       "optionReasons": {
-        "change-mcq-48": "本句指「表示未改變的；保持不變的；例句：「價格保持不變。」」。",
-        "change-mcq-47": "「表示多變的；易變的；例句：「這裡的天氣非常多變。」」是「changeable = likely to change frequently 多變的；易變的」的用法，與本句語境不同。",
-        "change-mcq-49": "「表示無法改變的；不可變的；例句：「合約的某些部分是不能更改的。」」是「unchangeable = impossible or very difficult to change 無法改變的；不可變的」的用法，與本句語境不同。",
-        "change-mcq-46": "「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」是「changing = becoming different; continually developing 變化中的；不斷改變的」的用法，與本句語境不同。",
-        "change-mcq-50": "「表示永恆不變的；不變的；例句：「群山看起來彷彿永恆不變。」」是「changeless = never changing 永恆不變的；不變的」的用法，與本句語境不同。",
-        "change-mcq-45": "「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」是「sea change = a major and profound transformation 重大轉變；徹底變化」的用法，與本句語境不同。"
+        "change-mcq-48": "本句的「unchanged」指「表示未改變的；保持不變的；例句：「價格保持不變。」」。",
+        "change-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-48"
     },
@@ -3965,11 +3579,9 @@ export default {
       "masked": "Her opinion was ____ after the discussion.",
       "options": [
         "change-mcq-48",
-        "change-mcq-47",
-        "change-mcq-49",
-        "change-mcq-46",
-        "change-mcq-50",
-        "change-mcq-45"
+        "change-mcq-32",
+        "change-mcq-27",
+        "change-mcq-09"
       ],
       "explanation": "本句的「unchanged」指「表示未改變的；保持不變的；例句：「價格保持不變。」」。",
       "sentenceIndex": 95,
@@ -3978,12 +3590,10 @@ export default {
         "unchanged"
       ],
       "optionReasons": {
-        "change-mcq-48": "本句指「表示未改變的；保持不變的；例句：「價格保持不變。」」。",
-        "change-mcq-47": "「表示多變的；易變的；例句：「這裡的天氣非常多變。」」是「changeable = likely to change frequently 多變的；易變的」的用法，與本句語境不同。",
-        "change-mcq-49": "「表示無法改變的；不可變的；例句：「合約的某些部分是不能更改的。」」是「unchangeable = impossible or very difficult to change 無法改變的；不可變的」的用法，與本句語境不同。",
-        "change-mcq-46": "「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」是「changing = becoming different; continually developing 變化中的；不斷改變的」的用法，與本句語境不同。",
-        "change-mcq-50": "「表示永恆不變的；不變的；例句：「群山看起來彷彿永恆不變。」」是「changeless = never changing 永恆不變的；不變的」的用法，與本句語境不同。",
-        "change-mcq-45": "「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」是「sea change = a major and profound transformation 重大轉變；徹底變化」的用法，與本句語境不同。"
+        "change-mcq-48": "本句的「unchanged」指「表示未改變的；保持不變的；例句：「價格保持不變。」」。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-48"
     },
@@ -3995,11 +3605,9 @@ export default {
       "masked": "Some features of the contract are ____.",
       "options": [
         "change-mcq-49",
-        "change-mcq-48",
-        "change-mcq-50",
-        "change-mcq-47",
-        "change-mcq-46",
-        "change-mcq-45"
+        "change-mcq-28",
+        "change-mcq-33",
+        "change-mcq-10"
       ],
       "explanation": "本句的「unchangeable」指「表示無法改變的；不可變的；例句：「合約的某些部分是不能更改的。」」。",
       "sentenceIndex": 96,
@@ -4008,12 +3616,10 @@ export default {
         "unchangeable"
       ],
       "optionReasons": {
-        "change-mcq-49": "本句指「表示無法改變的；不可變的；例句：「合約的某些部分是不能更改的。」」。",
-        "change-mcq-48": "「表示未改變的；保持不變的；例句：「價格保持不變。」」是「unchanged = remaining the same 未改變的；保持不變的」的用法，與本句語境不同。",
-        "change-mcq-50": "「表示永恆不變的；不變的；例句：「群山看起來彷彿永恆不變。」」是「changeless = never changing 永恆不變的；不變的」的用法，與本句語境不同。",
-        "change-mcq-47": "「表示多變的；易變的；例句：「這裡的天氣非常多變。」」是「changeable = likely to change frequently 多變的；易變的」的用法，與本句語境不同。",
-        "change-mcq-46": "「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」是「changing = becoming different; continually developing 變化中的；不斷改變的」的用法，與本句語境不同。",
-        "change-mcq-45": "「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」是「sea change = a major and profound transformation 重大轉變；徹底變化」的用法，與本句語境不同。"
+        "change-mcq-49": "本句的「unchangeable」指「表示無法改變的；不可變的；例句：「合約的某些部分是不能更改的。」」。",
+        "change-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-49"
     },
@@ -4025,11 +3631,9 @@ export default {
       "masked": "He treated the rule as completely ____.",
       "options": [
         "change-mcq-49",
-        "change-mcq-48",
-        "change-mcq-50",
-        "change-mcq-47",
-        "change-mcq-46",
-        "change-mcq-45"
+        "change-mcq-29",
+        "change-mcq-40",
+        "change-mcq-32"
       ],
       "explanation": "本句的「unchangeable」指「表示無法改變的；不可變的；例句：「合約的某些部分是不能更改的。」」。",
       "sentenceIndex": 97,
@@ -4038,12 +3642,10 @@ export default {
         "unchangeable"
       ],
       "optionReasons": {
-        "change-mcq-49": "本句指「表示無法改變的；不可變的；例句：「合約的某些部分是不能更改的。」」。",
-        "change-mcq-48": "「表示未改變的；保持不變的；例句：「價格保持不變。」」是「unchanged = remaining the same 未改變的；保持不變的」的用法，與本句語境不同。",
-        "change-mcq-50": "「表示永恆不變的；不變的；例句：「群山看起來彷彿永恆不變。」」是「changeless = never changing 永恆不變的；不變的」的用法，與本句語境不同。",
-        "change-mcq-47": "「表示多變的；易變的；例句：「這裡的天氣非常多變。」」是「changeable = likely to change frequently 多變的；易變的」的用法，與本句語境不同。",
-        "change-mcq-46": "「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」是「changing = becoming different; continually developing 變化中的；不斷改變的」的用法，與本句語境不同。",
-        "change-mcq-45": "「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」是「sea change = a major and profound transformation 重大轉變；徹底變化」的用法，與本句語境不同。"
+        "change-mcq-49": "本句的「unchangeable」指「表示無法改變的；不可變的；例句：「合約的某些部分是不能更改的。」」。",
+        "change-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-49"
     },
@@ -4055,11 +3657,9 @@ export default {
       "masked": "The mountains seemed ____.",
       "options": [
         "change-mcq-50",
-        "change-mcq-49",
-        "change-mcq-48",
-        "change-mcq-47",
-        "change-mcq-46",
-        "change-mcq-45"
+        "change-mcq-11",
+        "change-mcq-30",
+        "change-mcq-09"
       ],
       "explanation": "本句的「changeless」指「表示永恆不變的；不變的；例句：「群山看起來彷彿永恆不變。」」。",
       "sentenceIndex": 98,
@@ -4068,12 +3668,10 @@ export default {
         "changeless"
       ],
       "optionReasons": {
-        "change-mcq-50": "本句指「表示永恆不變的；不變的；例句：「群山看起來彷彿永恆不變。」」。",
-        "change-mcq-49": "「表示無法改變的；不可變的；例句：「合約的某些部分是不能更改的。」」是「unchangeable = impossible or very difficult to change 無法改變的；不可變的」的用法，與本句語境不同。",
-        "change-mcq-48": "「表示未改變的；保持不變的；例句：「價格保持不變。」」是「unchanged = remaining the same 未改變的；保持不變的」的用法，與本句語境不同。",
-        "change-mcq-47": "「表示多變的；易變的；例句：「這裡的天氣非常多變。」」是「changeable = likely to change frequently 多變的；易變的」的用法，與本句語境不同。",
-        "change-mcq-46": "「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」是「changing = becoming different; continually developing 變化中的；不斷改變的」的用法，與本句語境不同。",
-        "change-mcq-45": "「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」是「sea change = a major and profound transformation 重大轉變；徹底變化」的用法，與本句語境不同。"
+        "change-mcq-50": "本句的「changeless」指「表示永恆不變的；不變的；例句：「群山看起來彷彿永恆不變。」」。",
+        "change-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-50"
     },
@@ -4085,11 +3683,9 @@ export default {
       "masked": "The poem presents nature as timeless and ____.",
       "options": [
         "change-mcq-50",
-        "change-mcq-49",
-        "change-mcq-48",
-        "change-mcq-47",
-        "change-mcq-46",
-        "change-mcq-45"
+        "change-mcq-08",
+        "change-mcq-27",
+        "change-mcq-13"
       ],
       "explanation": "本句的「changeless」指「表示永恆不變的；不變的；例句：「群山看起來彷彿永恆不變。」」。",
       "sentenceIndex": 99,
@@ -4098,12 +3694,10 @@ export default {
         "changeless"
       ],
       "optionReasons": {
-        "change-mcq-50": "本句指「表示永恆不變的；不變的；例句：「群山看起來彷彿永恆不變。」」。",
-        "change-mcq-49": "「表示無法改變的；不可變的；例句：「合約的某些部分是不能更改的。」」是「unchangeable = impossible or very difficult to change 無法改變的；不可變的」的用法，與本句語境不同。",
-        "change-mcq-48": "「表示未改變的；保持不變的；例句：「價格保持不變。」」是「unchanged = remaining the same 未改變的；保持不變的」的用法，與本句語境不同。",
-        "change-mcq-47": "「表示多變的；易變的；例句：「這裡的天氣非常多變。」」是「changeable = likely to change frequently 多變的；易變的」的用法，與本句語境不同。",
-        "change-mcq-46": "「表示變化中的；不斷改變的；例句：「我們生活在一個快速變化的世界。」」是「changing = becoming different; continually developing 變化中的；不斷改變的」的用法，與本句語境不同。",
-        "change-mcq-45": "「表示重大轉變；徹底變化；例句：「網際網路使溝通方式產生了重大轉變。」」是「sea change = a major and profound transformation 重大轉變；徹底變化」的用法，與本句語境不同。"
+        "change-mcq-50": "本句的「changeless」指「表示永恆不變的；不變的；例句：「群山看起來彷彿永恆不變。」」。",
+        "change-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "change-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "change-mcq-50"
     }
@@ -4115,5 +3709,7 @@ export default {
     "sha256": "66945c11de0dbebc6daadb30ec1de41cb5ccf110db963a096c6479298a6c5e44",
     "pages": 22
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

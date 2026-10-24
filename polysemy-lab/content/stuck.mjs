@@ -376,11 +376,9 @@ export default {
       "masked": "The door is ____.",
       "options": [
         "stuck-mcq-01",
-        "stuck-mcq-02",
-        "stuck-mcq-03",
-        "stuck-mcq-04",
-        "stuck-mcq-05",
-        "stuck-mcq-06"
+        "stuck-mcq-14",
+        "stuck-mcq-07",
+        "stuck-mcq-15"
       ],
       "explanation": "本句的「stuck」指「因被卡住、陷住或固定而無法移動」。",
       "sentenceIndex": 2,
@@ -389,12 +387,10 @@ export default {
         "stuck"
       ],
       "optionReasons": {
-        "stuck-mcq-01": "本句指「因被卡住、陷住或固定而無法移動」。",
-        "stuck-mcq-02": "「變得無法移動、繼續或取得進展」與本句語境不同。",
-        "stuck-mcq-03": "「因某個問題太難而無法繼續理解、解答或完成」與本句語境不同。",
-        "stuck-mcq-04": "「一時想不出答案、主意或下一步」與本句語境不同。",
-        "stuck-mcq-05": "「因交通、故障、事故等原因無法離開某處」與本句語境不同。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。"
+        "stuck-mcq-01": "本句的「stuck」指「因被卡住、陷住或固定而無法移動」。",
+        "stuck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-01"
     },
@@ -406,11 +402,9 @@ export default {
       "masked": "My car got ____ in the mud.",
       "options": [
         "stuck-mcq-01",
-        "stuck-mcq-02",
-        "stuck-mcq-03",
         "stuck-mcq-04",
-        "stuck-mcq-05",
-        "stuck-mcq-06"
+        "stuck-mcq-07",
+        "stuck-mcq-15"
       ],
       "explanation": "本句的「stuck」指「因被卡住、陷住或固定而無法移動」。",
       "sentenceIndex": 3,
@@ -419,12 +413,10 @@ export default {
         "stuck"
       ],
       "optionReasons": {
-        "stuck-mcq-01": "本句指「因被卡住、陷住或固定而無法移動」。",
-        "stuck-mcq-02": "「變得無法移動、繼續或取得進展」與本句語境不同。",
-        "stuck-mcq-03": "「因某個問題太難而無法繼續理解、解答或完成」與本句語境不同。",
-        "stuck-mcq-04": "「一時想不出答案、主意或下一步」與本句語境不同。",
-        "stuck-mcq-05": "「因交通、故障、事故等原因無法離開某處」與本句語境不同。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。"
+        "stuck-mcq-01": "本句的「stuck」指「因被卡住、陷住或固定而無法移動」。",
+        "stuck-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-01"
     },
@@ -436,11 +428,9 @@ export default {
       "masked": "The drawer ____ halfway open.",
       "options": [
         "stuck-mcq-01",
-        "stuck-mcq-02",
-        "stuck-mcq-03",
-        "stuck-mcq-04",
-        "stuck-mcq-05",
-        "stuck-mcq-06"
+        "stuck-mcq-14",
+        "stuck-mcq-15",
+        "stuck-mcq-07"
       ],
       "explanation": "本句的「got stuck」指「因被卡住、陷住或固定而無法移動」。",
       "sentenceIndex": 4,
@@ -449,12 +439,10 @@ export default {
         "got stuck"
       ],
       "optionReasons": {
-        "stuck-mcq-01": "本句指「因被卡住、陷住或固定而無法移動」。",
-        "stuck-mcq-02": "「變得無法移動、繼續或取得進展」與本句語境不同。",
-        "stuck-mcq-03": "「因某個問題太難而無法繼續理解、解答或完成」與本句語境不同。",
-        "stuck-mcq-04": "「一時想不出答案、主意或下一步」與本句語境不同。",
-        "stuck-mcq-05": "「因交通、故障、事故等原因無法離開某處」與本句語境不同。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。"
+        "stuck-mcq-01": "本句的「got stuck」指「因被卡住、陷住或固定而無法移動」。",
+        "stuck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-01"
     },
@@ -466,11 +454,9 @@ export default {
       "masked": "We ____ in traffic.",
       "options": [
         "stuck-mcq-01",
-        "stuck-mcq-02",
-        "stuck-mcq-03",
-        "stuck-mcq-04",
-        "stuck-mcq-05",
-        "stuck-mcq-06"
+        "stuck-mcq-14",
+        "stuck-mcq-15",
+        "stuck-mcq-07"
       ],
       "explanation": "本句的「got stuck」指「因被卡住、陷住或固定而無法移動」。",
       "sentenceIndex": 5,
@@ -479,12 +465,10 @@ export default {
         "got stuck"
       ],
       "optionReasons": {
-        "stuck-mcq-01": "本句指「因被卡住、陷住或固定而無法移動」。",
-        "stuck-mcq-02": "「變得無法移動、繼續或取得進展」與本句語境不同。",
-        "stuck-mcq-03": "「因某個問題太難而無法繼續理解、解答或完成」與本句語境不同。",
-        "stuck-mcq-04": "「一時想不出答案、主意或下一步」與本句語境不同。",
-        "stuck-mcq-05": "「因交通、故障、事故等原因無法離開某處」與本句語境不同。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。"
+        "stuck-mcq-01": "本句的「got stuck」指「因被卡住、陷住或固定而無法移動」。",
+        "stuck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-01"
     },
@@ -496,11 +480,9 @@ export default {
       "masked": "I ____ a physics problem.",
       "options": [
         "stuck-mcq-03",
-        "stuck-mcq-02",
-        "stuck-mcq-04",
-        "stuck-mcq-01",
-        "stuck-mcq-05",
-        "stuck-mcq-06"
+        "stuck-mcq-08",
+        "stuck-mcq-14",
+        "stuck-mcq-07"
       ],
       "explanation": "本句的「got stuck on」指「因某個問題太難而無法繼續理解、解答或完成」。",
       "sentenceIndex": 6,
@@ -509,12 +491,10 @@ export default {
         "got stuck on"
       ],
       "optionReasons": {
-        "stuck-mcq-03": "本句指「因某個問題太難而無法繼續理解、解答或完成」。",
-        "stuck-mcq-02": "「變得無法移動、繼續或取得進展」與本句語境不同。",
-        "stuck-mcq-04": "「一時想不出答案、主意或下一步」與本句語境不同。",
-        "stuck-mcq-01": "「因被卡住、陷住或固定而無法移動」與本句語境不同。",
-        "stuck-mcq-05": "「因交通、故障、事故等原因無法離開某處」與本句語境不同。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。"
+        "stuck-mcq-03": "本句的「got stuck on」指「因某個問題太難而無法繼續理解、解答或完成」。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-03"
     },
@@ -526,11 +506,9 @@ export default {
       "masked": "She ____ the final step.",
       "options": [
         "stuck-mcq-03",
-        "stuck-mcq-02",
-        "stuck-mcq-04",
-        "stuck-mcq-01",
-        "stuck-mcq-05",
-        "stuck-mcq-06"
+        "stuck-mcq-08",
+        "stuck-mcq-14",
+        "stuck-mcq-07"
       ],
       "explanation": "本句的「got stuck on」指「因某個問題太難而無法繼續理解、解答或完成」。",
       "sentenceIndex": 7,
@@ -539,12 +517,10 @@ export default {
         "got stuck on"
       ],
       "optionReasons": {
-        "stuck-mcq-03": "本句指「因某個問題太難而無法繼續理解、解答或完成」。",
-        "stuck-mcq-02": "「變得無法移動、繼續或取得進展」與本句語境不同。",
-        "stuck-mcq-04": "「一時想不出答案、主意或下一步」與本句語境不同。",
-        "stuck-mcq-01": "「因被卡住、陷住或固定而無法移動」與本句語境不同。",
-        "stuck-mcq-05": "「因交通、故障、事故等原因無法離開某處」與本句語境不同。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。"
+        "stuck-mcq-03": "本句的「got stuck on」指「因某個問題太難而無法繼續理解、解答或完成」。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-03"
     },
@@ -556,11 +532,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "stuck-mcq-04",
-        "stuck-mcq-03",
-        "stuck-mcq-05",
-        "stuck-mcq-02",
-        "stuck-mcq-06",
-        "stuck-mcq-01"
+        "stuck-mcq-01",
+        "stuck-mcq-08",
+        "stuck-mcq-07"
       ],
       "explanation": "本句的「stuck for an answer」指「一時想不出答案、主意或下一步」。",
       "sentenceIndex": 8,
@@ -569,12 +543,10 @@ export default {
         "stuck for an answer"
       ],
       "optionReasons": {
-        "stuck-mcq-04": "本句指「一時想不出答案、主意或下一步」。",
-        "stuck-mcq-03": "「因某個問題太難而無法繼續理解、解答或完成」與本句語境不同。",
-        "stuck-mcq-05": "「因交通、故障、事故等原因無法離開某處」與本句語境不同。",
-        "stuck-mcq-02": "「變得無法移動、繼續或取得進展」與本句語境不同。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。",
-        "stuck-mcq-01": "「因被卡住、陷住或固定而無法移動」與本句語境不同。"
+        "stuck-mcq-04": "本句的「stuck for an answer」指「一時想不出答案、主意或下一步」。",
+        "stuck-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-04"
     },
@@ -586,11 +558,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "stuck-mcq-04",
-        "stuck-mcq-03",
+        "stuck-mcq-16",
         "stuck-mcq-05",
-        "stuck-mcq-02",
-        "stuck-mcq-06",
-        "stuck-mcq-01"
+        "stuck-mcq-08"
       ],
       "explanation": "本句的「stuck for words」指「一時想不出答案、主意或下一步」。",
       "sentenceIndex": 9,
@@ -599,12 +569,10 @@ export default {
         "stuck for words"
       ],
       "optionReasons": {
-        "stuck-mcq-04": "本句指「一時想不出答案、主意或下一步」。",
-        "stuck-mcq-03": "「因某個問題太難而無法繼續理解、解答或完成」與本句語境不同。",
-        "stuck-mcq-05": "「因交通、故障、事故等原因無法離開某處」與本句語境不同。",
-        "stuck-mcq-02": "「變得無法移動、繼續或取得進展」與本句語境不同。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。",
-        "stuck-mcq-01": "「因被卡住、陷住或固定而無法移動」與本句語境不同。"
+        "stuck-mcq-04": "本句的「stuck for words」指「一時想不出答案、主意或下一步」。",
+        "stuck-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-04"
     },
@@ -617,10 +585,8 @@ export default {
       "options": [
         "stuck-mcq-05",
         "stuck-mcq-04",
-        "stuck-mcq-06",
-        "stuck-mcq-03",
-        "stuck-mcq-07",
-        "stuck-mcq-02"
+        "stuck-mcq-08",
+        "stuck-mcq-16"
       ],
       "explanation": "本句的「stuck at the airport」指「因交通、故障、事故等原因無法離開某處」。",
       "sentenceIndex": 10,
@@ -629,12 +595,10 @@ export default {
         "stuck at the airport"
       ],
       "optionReasons": {
-        "stuck-mcq-05": "本句指「因交通、故障、事故等原因無法離開某處」。",
-        "stuck-mcq-04": "「一時想不出答案、主意或下一步」與本句語境不同。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。",
-        "stuck-mcq-03": "「因某個問題太難而無法繼續理解、解答或完成」與本句語境不同。",
-        "stuck-mcq-07": "「黏在某物表面，難以分開」與本句語境不同。",
-        "stuck-mcq-02": "「變得無法移動、繼續或取得進展」與本句語境不同。"
+        "stuck-mcq-05": "本句的「stuck at the airport」指「因交通、故障、事故等原因無法離開某處」。",
+        "stuck-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-05"
     },
@@ -646,11 +610,9 @@ export default {
       "masked": "She was ____ for twenty minutes.",
       "options": [
         "stuck-mcq-05",
-        "stuck-mcq-04",
-        "stuck-mcq-06",
-        "stuck-mcq-03",
-        "stuck-mcq-07",
-        "stuck-mcq-02"
+        "stuck-mcq-08",
+        "stuck-mcq-14",
+        "stuck-mcq-07"
       ],
       "explanation": "本句的「stuck in the lift」指「因交通、故障、事故等原因無法離開某處」。",
       "sentenceIndex": 11,
@@ -659,12 +621,10 @@ export default {
         "stuck in the lift"
       ],
       "optionReasons": {
-        "stuck-mcq-05": "本句指「因交通、故障、事故等原因無法離開某處」。",
-        "stuck-mcq-04": "「一時想不出答案、主意或下一步」與本句語境不同。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。",
-        "stuck-mcq-03": "「因某個問題太難而無法繼續理解、解答或完成」與本句語境不同。",
-        "stuck-mcq-07": "「黏在某物表面，難以分開」與本句語境不同。",
-        "stuck-mcq-02": "「變得無法移動、繼續或取得進展」與本句語境不同。"
+        "stuck-mcq-05": "本句的「stuck in the lift」指「因交通、故障、事故等原因無法離開某處」。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-05"
     },
@@ -676,11 +636,9 @@ export default {
       "masked": "Sorry I’m late—I was ____.",
       "options": [
         "stuck-mcq-06",
-        "stuck-mcq-05",
-        "stuck-mcq-07",
         "stuck-mcq-04",
         "stuck-mcq-08",
-        "stuck-mcq-03"
+        "stuck-mcq-15"
       ],
       "explanation": "本句的「stuck in traffic」指「因交通擠塞而無法前進；塞車」。",
       "sentenceIndex": 12,
@@ -689,12 +647,10 @@ export default {
         "stuck in traffic"
       ],
       "optionReasons": {
-        "stuck-mcq-06": "本句指「因交通擠塞而無法前進；塞車」。",
-        "stuck-mcq-05": "「因交通、故障、事故等原因無法離開某處」與本句語境不同。",
-        "stuck-mcq-07": "「黏在某物表面，難以分開」與本句語境不同。",
-        "stuck-mcq-04": "「一時想不出答案、主意或下一步」與本句語境不同。",
-        "stuck-mcq-08": "「兩個或多個東西黏／卡在一起」與本句語境不同。",
-        "stuck-mcq-03": "「因某個問題太難而無法繼續理解、解答或完成」與本句語境不同。"
+        "stuck-mcq-06": "本句的「stuck in traffic」指「因交通擠塞而無法前進；塞車」。",
+        "stuck-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-06"
     },
@@ -706,11 +662,9 @@ export default {
       "masked": "We were ____ for nearly an hour.",
       "options": [
         "stuck-mcq-06",
-        "stuck-mcq-05",
-        "stuck-mcq-07",
         "stuck-mcq-04",
-        "stuck-mcq-08",
-        "stuck-mcq-03"
+        "stuck-mcq-07",
+        "stuck-mcq-15"
       ],
       "explanation": "本句的「stuck in traffic」指「因交通擠塞而無法前進；塞車」。",
       "sentenceIndex": 13,
@@ -719,12 +673,10 @@ export default {
         "stuck in traffic"
       ],
       "optionReasons": {
-        "stuck-mcq-06": "本句指「因交通擠塞而無法前進；塞車」。",
-        "stuck-mcq-05": "「因交通、故障、事故等原因無法離開某處」與本句語境不同。",
-        "stuck-mcq-07": "「黏在某物表面，難以分開」與本句語境不同。",
-        "stuck-mcq-04": "「一時想不出答案、主意或下一步」與本句語境不同。",
-        "stuck-mcq-08": "「兩個或多個東西黏／卡在一起」與本句語境不同。",
-        "stuck-mcq-03": "「因某個問題太難而無法繼續理解、解答或完成」與本句語境不同。"
+        "stuck-mcq-06": "本句的「stuck in traffic」指「因交通擠塞而無法前進；塞車」。",
+        "stuck-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-06"
     },
@@ -736,11 +688,9 @@ export default {
       "masked": "The label was ____.",
       "options": [
         "stuck-mcq-07",
+        "stuck-mcq-04",
         "stuck-mcq-06",
-        "stuck-mcq-08",
-        "stuck-mcq-05",
-        "stuck-mcq-09",
-        "stuck-mcq-04"
+        "stuck-mcq-12"
       ],
       "explanation": "本句的「stuck to the box」指「黏在某物表面，難以分開」。",
       "sentenceIndex": 14,
@@ -749,12 +699,10 @@ export default {
         "stuck to the box"
       ],
       "optionReasons": {
-        "stuck-mcq-07": "本句指「黏在某物表面，難以分開」。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。",
-        "stuck-mcq-08": "「兩個或多個東西黏／卡在一起」與本句語境不同。",
-        "stuck-mcq-05": "「因交通、故障、事故等原因無法離開某處」與本句語境不同。",
-        "stuck-mcq-09": "「處於一個不理想且難以改變或離開的處境」與本句語境不同。",
-        "stuck-mcq-04": "「一時想不出答案、主意或下一步」與本句語境不同。"
+        "stuck-mcq-07": "本句的「stuck to the box」指「黏在某物表面，難以分開」。",
+        "stuck-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-07"
     },
@@ -766,11 +714,9 @@ export default {
       "masked": "Gum was ____.",
       "options": [
         "stuck-mcq-07",
+        "stuck-mcq-04",
         "stuck-mcq-06",
-        "stuck-mcq-08",
-        "stuck-mcq-05",
-        "stuck-mcq-09",
-        "stuck-mcq-04"
+        "stuck-mcq-12"
       ],
       "explanation": "本句的「stuck to my shoe」指「黏在某物表面，難以分開」。",
       "sentenceIndex": 15,
@@ -779,12 +725,10 @@ export default {
         "stuck to my shoe"
       ],
       "optionReasons": {
-        "stuck-mcq-07": "本句指「黏在某物表面，難以分開」。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。",
-        "stuck-mcq-08": "「兩個或多個東西黏／卡在一起」與本句語境不同。",
-        "stuck-mcq-05": "「因交通、故障、事故等原因無法離開某處」與本句語境不同。",
-        "stuck-mcq-09": "「處於一個不理想且難以改變或離開的處境」與本句語境不同。",
-        "stuck-mcq-04": "「一時想不出答案、主意或下一步」與本句語境不同。"
+        "stuck-mcq-07": "本句的「stuck to my shoe」指「黏在某物表面，難以分開」。",
+        "stuck-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-07"
     },
@@ -796,11 +740,9 @@ export default {
       "masked": "The pages were ____.",
       "options": [
         "stuck-mcq-08",
-        "stuck-mcq-07",
+        "stuck-mcq-04",
         "stuck-mcq-09",
-        "stuck-mcq-06",
-        "stuck-mcq-10",
-        "stuck-mcq-05"
+        "stuck-mcq-13"
       ],
       "explanation": "本句的「stuck together」指「兩個或多個東西黏／卡在一起」。",
       "sentenceIndex": 16,
@@ -809,12 +751,10 @@ export default {
         "stuck together"
       ],
       "optionReasons": {
-        "stuck-mcq-08": "本句指「兩個或多個東西黏／卡在一起」。",
-        "stuck-mcq-07": "「黏在某物表面，難以分開」與本句語境不同。",
-        "stuck-mcq-09": "「處於一個不理想且難以改變或離開的處境」與本句語境不同。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。",
-        "stuck-mcq-10": "「覺得自己無法取得進展或不知道下一步怎麼做」與本句語境不同。",
-        "stuck-mcq-05": "「因交通、故障、事故等原因無法離開某處」與本句語境不同。"
+        "stuck-mcq-08": "本句的「stuck together」指「兩個或多個東西黏／卡在一起」。",
+        "stuck-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-08"
     },
@@ -826,11 +766,9 @@ export default {
       "masked": "The two pieces were ____ with glue.",
       "options": [
         "stuck-mcq-08",
-        "stuck-mcq-07",
-        "stuck-mcq-09",
+        "stuck-mcq-15",
         "stuck-mcq-06",
-        "stuck-mcq-10",
-        "stuck-mcq-05"
+        "stuck-mcq-14"
       ],
       "explanation": "本句的「stuck together」指「兩個或多個東西黏／卡在一起」。",
       "sentenceIndex": 17,
@@ -839,12 +777,10 @@ export default {
         "stuck together"
       ],
       "optionReasons": {
-        "stuck-mcq-08": "本句指「兩個或多個東西黏／卡在一起」。",
-        "stuck-mcq-07": "「黏在某物表面，難以分開」與本句語境不同。",
-        "stuck-mcq-09": "「處於一個不理想且難以改變或離開的處境」與本句語境不同。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。",
-        "stuck-mcq-10": "「覺得自己無法取得進展或不知道下一步怎麼做」與本句語境不同。",
-        "stuck-mcq-05": "「因交通、故障、事故等原因無法離開某處」與本句語境不同。"
+        "stuck-mcq-08": "本句的「stuck together」指「兩個或多個東西黏／卡在一起」。",
+        "stuck-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-08"
     },
@@ -858,9 +794,7 @@ export default {
         "stuck-mcq-09",
         "stuck-mcq-08",
         "stuck-mcq-10",
-        "stuck-mcq-07",
-        "stuck-mcq-11",
-        "stuck-mcq-06"
+        "stuck-mcq-15"
       ],
       "explanation": "本句的「stuck in a job he hated」指「處於一個不理想且難以改變或離開的處境」。",
       "sentenceIndex": 18,
@@ -869,12 +803,10 @@ export default {
         "stuck in a job he hated"
       ],
       "optionReasons": {
-        "stuck-mcq-09": "本句指「處於一個不理想且難以改變或離開的處境」。",
-        "stuck-mcq-08": "「兩個或多個東西黏／卡在一起」與本句語境不同。",
-        "stuck-mcq-10": "「覺得自己無法取得進展或不知道下一步怎麼做」與本句語境不同。",
-        "stuck-mcq-07": "「黏在某物表面，難以分開」與本句語境不同。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。"
+        "stuck-mcq-09": "本句的「stuck in a job he hated」指「處於一個不理想且難以改變或離開的處境」。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-09"
     },
@@ -886,11 +818,9 @@ export default {
       "masked": "She didn’t want to stay ____.",
       "options": [
         "stuck-mcq-09",
-        "stuck-mcq-08",
         "stuck-mcq-10",
-        "stuck-mcq-07",
-        "stuck-mcq-11",
-        "stuck-mcq-06"
+        "stuck-mcq-08",
+        "stuck-mcq-14"
       ],
       "explanation": "本句的「stuck in the same routine」指「處於一個不理想且難以改變或離開的處境」。",
       "sentenceIndex": 19,
@@ -899,12 +829,10 @@ export default {
         "stuck in the same routine"
       ],
       "optionReasons": {
-        "stuck-mcq-09": "本句指「處於一個不理想且難以改變或離開的處境」。",
-        "stuck-mcq-08": "「兩個或多個東西黏／卡在一起」與本句語境不同。",
-        "stuck-mcq-10": "「覺得自己無法取得進展或不知道下一步怎麼做」與本句語境不同。",
-        "stuck-mcq-07": "「黏在某物表面，難以分開」與本句語境不同。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。",
-        "stuck-mcq-06": "「因交通擠塞而無法前進；塞車」與本句語境不同。"
+        "stuck-mcq-09": "本句的「stuck in the same routine」指「處於一個不理想且難以改變或離開的處境」。",
+        "stuck-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-09"
     },
@@ -916,11 +844,9 @@ export default {
       "masked": "I felt ____ and didn’t know what to do next.",
       "options": [
         "stuck-mcq-10",
-        "stuck-mcq-09",
-        "stuck-mcq-11",
-        "stuck-mcq-08",
         "stuck-mcq-12",
-        "stuck-mcq-07"
+        "stuck-mcq-08",
+        "stuck-mcq-09"
       ],
       "explanation": "本句的「stuck」指「覺得自己無法取得進展或不知道下一步怎麼做」。",
       "sentenceIndex": 20,
@@ -929,12 +855,10 @@ export default {
         "stuck"
       ],
       "optionReasons": {
-        "stuck-mcq-10": "本句指「覺得自己無法取得進展或不知道下一步怎麼做」。",
-        "stuck-mcq-09": "「處於一個不理想且難以改變或離開的處境」與本句語境不同。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。",
-        "stuck-mcq-08": "「兩個或多個東西黏／卡在一起」與本句語境不同。",
-        "stuck-mcq-12": "「因情況所迫而不得不與某人相處或應付某人」與本句語境不同。",
-        "stuck-mcq-07": "「黏在某物表面，難以分開」與本句語境不同。"
+        "stuck-mcq-10": "本句的「stuck」指「覺得自己無法取得進展或不知道下一步怎麼做」。",
+        "stuck-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-10"
     },
@@ -947,10 +871,8 @@ export default {
       "options": [
         "stuck-mcq-10",
         "stuck-mcq-09",
-        "stuck-mcq-11",
         "stuck-mcq-08",
-        "stuck-mcq-12",
-        "stuck-mcq-07"
+        "stuck-mcq-12"
       ],
       "explanation": "本句的「stuck」指「覺得自己無法取得進展或不知道下一步怎麼做」。",
       "sentenceIndex": 21,
@@ -959,12 +881,10 @@ export default {
         "stuck"
       ],
       "optionReasons": {
-        "stuck-mcq-10": "本句指「覺得自己無法取得進展或不知道下一步怎麼做」。",
-        "stuck-mcq-09": "「處於一個不理想且難以改變或離開的處境」與本句語境不同。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。",
-        "stuck-mcq-08": "「兩個或多個東西黏／卡在一起」與本句語境不同。",
-        "stuck-mcq-12": "「因情況所迫而不得不與某人相處或應付某人」與本句語境不同。",
-        "stuck-mcq-07": "「黏在某物表面，難以分開」與本句語境不同。"
+        "stuck-mcq-10": "本句的「stuck」指「覺得自己無法取得進展或不知道下一步怎麼做」。",
+        "stuck-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-10"
     },
@@ -976,11 +896,9 @@ export default {
       "masked": "We’re ____ for now.",
       "options": [
         "stuck-mcq-11",
-        "stuck-mcq-10",
-        "stuck-mcq-12",
-        "stuck-mcq-09",
-        "stuck-mcq-13",
-        "stuck-mcq-08"
+        "stuck-mcq-16",
+        "stuck-mcq-08",
+        "stuck-mcq-15"
       ],
       "explanation": "本句的「stuck with this old computer」指「因沒有其他選擇而不得不保留、承擔或處理某事」。",
       "sentenceIndex": 22,
@@ -989,12 +907,10 @@ export default {
         "stuck with this old computer"
       ],
       "optionReasons": {
-        "stuck-mcq-11": "本句指「因沒有其他選擇而不得不保留、承擔或處理某事」。",
-        "stuck-mcq-10": "「覺得自己無法取得進展或不知道下一步怎麼做」與本句語境不同。",
-        "stuck-mcq-12": "「因情況所迫而不得不與某人相處或應付某人」與本句語境不同。",
-        "stuck-mcq-09": "「處於一個不理想且難以改變或離開的處境」與本句語境不同。",
-        "stuck-mcq-13": "「一直停留在某個問題、想法或階段，無法向前」與本句語境不同。",
-        "stuck-mcq-08": "「兩個或多個東西黏／卡在一起」與本句語境不同。"
+        "stuck-mcq-11": "本句的「stuck with this old computer」指「因沒有其他選擇而不得不保留、承擔或處理某事」。",
+        "stuck-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-11"
     },
@@ -1006,10 +922,8 @@ export default {
       "masked": "She was ____.",
       "options": [
         "stuck-mcq-11",
-        "stuck-mcq-10",
-        "stuck-mcq-12",
-        "stuck-mcq-09",
-        "stuck-mcq-13",
+        "stuck-mcq-15",
+        "stuck-mcq-14",
         "stuck-mcq-08"
       ],
       "explanation": "本句的「stuck with the bill」指「因沒有其他選擇而不得不保留、承擔或處理某事」。",
@@ -1019,12 +933,10 @@ export default {
         "stuck with the bill"
       ],
       "optionReasons": {
-        "stuck-mcq-11": "本句指「因沒有其他選擇而不得不保留、承擔或處理某事」。",
-        "stuck-mcq-10": "「覺得自己無法取得進展或不知道下一步怎麼做」與本句語境不同。",
-        "stuck-mcq-12": "「因情況所迫而不得不與某人相處或應付某人」與本句語境不同。",
-        "stuck-mcq-09": "「處於一個不理想且難以改變或離開的處境」與本句語境不同。",
-        "stuck-mcq-13": "「一直停留在某個問題、想法或階段，無法向前」與本句語境不同。",
-        "stuck-mcq-08": "「兩個或多個東西黏／卡在一起」與本句語境不同。"
+        "stuck-mcq-11": "本句的「stuck with the bill」指「因沒有其他選擇而不得不保留、承擔或處理某事」。",
+        "stuck-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-11"
     },
@@ -1036,11 +948,9 @@ export default {
       "masked": "I was ____ for the whole journey.",
       "options": [
         "stuck-mcq-12",
-        "stuck-mcq-11",
-        "stuck-mcq-13",
+        "stuck-mcq-07",
         "stuck-mcq-10",
-        "stuck-mcq-14",
-        "stuck-mcq-09"
+        "stuck-mcq-15"
       ],
       "explanation": "本句的「stuck with him」指「因情況所迫而不得不與某人相處或應付某人」。",
       "sentenceIndex": 24,
@@ -1049,12 +959,10 @@ export default {
         "stuck with him"
       ],
       "optionReasons": {
-        "stuck-mcq-12": "本句指「因情況所迫而不得不與某人相處或應付某人」。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。",
-        "stuck-mcq-13": "「一直停留在某個問題、想法或階段，無法向前」與本句語境不同。",
-        "stuck-mcq-10": "「覺得自己無法取得進展或不知道下一步怎麼做」與本句語境不同。",
-        "stuck-mcq-14": "「一時想不到該說什麼；語塞」與本句語境不同。",
-        "stuck-mcq-09": "「處於一個不理想且難以改變或離開的處境」與本句語境不同。"
+        "stuck-mcq-12": "本句的「stuck with him」指「因情況所迫而不得不與某人相處或應付某人」。",
+        "stuck-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-12"
     },
@@ -1066,11 +974,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "stuck-mcq-12",
-        "stuck-mcq-11",
-        "stuck-mcq-13",
+        "stuck-mcq-08",
         "stuck-mcq-10",
-        "stuck-mcq-14",
-        "stuck-mcq-09"
+        "stuck-mcq-07"
       ],
       "explanation": "本句的「stuck with a difficult customer」指「因情況所迫而不得不與某人相處或應付某人」。",
       "sentenceIndex": 25,
@@ -1079,12 +985,10 @@ export default {
         "stuck with a difficult customer"
       ],
       "optionReasons": {
-        "stuck-mcq-12": "本句指「因情況所迫而不得不與某人相處或應付某人」。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。",
-        "stuck-mcq-13": "「一直停留在某個問題、想法或階段，無法向前」與本句語境不同。",
-        "stuck-mcq-10": "「覺得自己無法取得進展或不知道下一步怎麼做」與本句語境不同。",
-        "stuck-mcq-14": "「一時想不到該說什麼；語塞」與本句語境不同。",
-        "stuck-mcq-09": "「處於一個不理想且難以改變或離開的處境」與本句語境不同。"
+        "stuck-mcq-12": "本句的「stuck with a difficult customer」指「因情況所迫而不得不與某人相處或應付某人」。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-12"
     },
@@ -1096,11 +1000,9 @@ export default {
       "masked": "We’re still ____.",
       "options": [
         "stuck-mcq-13",
-        "stuck-mcq-12",
-        "stuck-mcq-14",
-        "stuck-mcq-11",
+        "stuck-mcq-07",
         "stuck-mcq-15",
-        "stuck-mcq-10"
+        "stuck-mcq-12"
       ],
       "explanation": "本句的「stuck on the same problem」指「一直停留在某個問題、想法或階段，無法向前」。",
       "sentenceIndex": 26,
@@ -1109,12 +1011,10 @@ export default {
         "stuck on the same problem"
       ],
       "optionReasons": {
-        "stuck-mcq-13": "本句指「一直停留在某個問題、想法或階段，無法向前」。",
-        "stuck-mcq-12": "「因情況所迫而不得不與某人相處或應付某人」與本句語境不同。",
-        "stuck-mcq-14": "「一時想不到該說什麼；語塞」與本句語境不同。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。",
-        "stuck-mcq-15": "「積極投入並開始做某事」與本句語境不同。",
-        "stuck-mcq-10": "「覺得自己無法取得進展或不知道下一步怎麼做」與本句語境不同。"
+        "stuck-mcq-13": "本句的「stuck on the same problem」指「一直停留在某個問題、想法或階段，無法向前」。",
+        "stuck-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-13"
     },
@@ -1126,11 +1026,9 @@ export default {
       "masked": "He seems ____.",
       "options": [
         "stuck-mcq-13",
-        "stuck-mcq-12",
-        "stuck-mcq-14",
-        "stuck-mcq-11",
         "stuck-mcq-15",
-        "stuck-mcq-10"
+        "stuck-mcq-07",
+        "stuck-mcq-08"
       ],
       "explanation": "本句的「stuck on one idea」指「一直停留在某個問題、想法或階段，無法向前」。",
       "sentenceIndex": 27,
@@ -1139,12 +1037,10 @@ export default {
         "stuck on one idea"
       ],
       "optionReasons": {
-        "stuck-mcq-13": "本句指「一直停留在某個問題、想法或階段，無法向前」。",
-        "stuck-mcq-12": "「因情況所迫而不得不與某人相處或應付某人」與本句語境不同。",
-        "stuck-mcq-14": "「一時想不到該說什麼；語塞」與本句語境不同。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。",
-        "stuck-mcq-15": "「積極投入並開始做某事」與本句語境不同。",
-        "stuck-mcq-10": "「覺得自己無法取得進展或不知道下一步怎麼做」與本句語境不同。"
+        "stuck-mcq-13": "本句的「stuck on one idea」指「一直停留在某個問題、想法或階段，無法向前」。",
+        "stuck-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-13"
     },
@@ -1156,11 +1052,9 @@ export default {
       "masked": "I was completely ____.",
       "options": [
         "stuck-mcq-14",
-        "stuck-mcq-13",
-        "stuck-mcq-15",
-        "stuck-mcq-12",
-        "stuck-mcq-16",
-        "stuck-mcq-11"
+        "stuck-mcq-07",
+        "stuck-mcq-11",
+        "stuck-mcq-08"
       ],
       "explanation": "本句的「stuck for words」指「一時想不到該說什麼；語塞」。",
       "sentenceIndex": 28,
@@ -1169,12 +1063,10 @@ export default {
         "stuck for words"
       ],
       "optionReasons": {
-        "stuck-mcq-14": "本句指「一時想不到該說什麼；語塞」。",
-        "stuck-mcq-13": "「一直停留在某個問題、想法或階段，無法向前」與本句語境不同。",
-        "stuck-mcq-15": "「積極投入並開始做某事」與本句語境不同。",
-        "stuck-mcq-12": "「因情況所迫而不得不與某人相處或應付某人」與本句語境不同。",
-        "stuck-mcq-16": "「陷入重複、無聊且難以改變的生活或工作模式」與本句語境不同。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。"
+        "stuck-mcq-14": "本句的「stuck for words」指「一時想不到該說什麼；語塞」。",
+        "stuck-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-14"
     },
@@ -1186,11 +1078,9 @@ export default {
       "masked": "Her question left me ____.",
       "options": [
         "stuck-mcq-14",
-        "stuck-mcq-13",
         "stuck-mcq-15",
         "stuck-mcq-12",
-        "stuck-mcq-16",
-        "stuck-mcq-11"
+        "stuck-mcq-16"
       ],
       "explanation": "本句的「stuck for words」指「一時想不到該說什麼；語塞」。",
       "sentenceIndex": 29,
@@ -1199,12 +1089,10 @@ export default {
         "stuck for words"
       ],
       "optionReasons": {
-        "stuck-mcq-14": "本句指「一時想不到該說什麼；語塞」。",
-        "stuck-mcq-13": "「一直停留在某個問題、想法或階段，無法向前」與本句語境不同。",
-        "stuck-mcq-15": "「積極投入並開始做某事」與本句語境不同。",
-        "stuck-mcq-12": "「因情況所迫而不得不與某人相處或應付某人」與本句語境不同。",
-        "stuck-mcq-16": "「陷入重複、無聊且難以改變的生活或工作模式」與本句語境不同。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。"
+        "stuck-mcq-14": "本句的「stuck for words」指「一時想不到該說什麼；語塞」。",
+        "stuck-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-14"
     },
@@ -1216,11 +1104,9 @@ export default {
       "masked": "Don’t spend too long if you ____.",
       "options": [
         "stuck-mcq-15",
-        "stuck-mcq-14",
-        "stuck-mcq-16",
         "stuck-mcq-13",
         "stuck-mcq-12",
-        "stuck-mcq-11"
+        "stuck-mcq-08"
       ],
       "explanation": "本句的「get stuck on a question」指「積極投入並開始做某事」。",
       "sentenceIndex": 32,
@@ -1229,12 +1115,10 @@ export default {
         "get stuck on a question"
       ],
       "optionReasons": {
-        "stuck-mcq-15": "本句指「積極投入並開始做某事」。",
-        "stuck-mcq-14": "「一時想不到該說什麼；語塞」與本句語境不同。",
-        "stuck-mcq-16": "「陷入重複、無聊且難以改變的生活或工作模式」與本句語境不同。",
-        "stuck-mcq-13": "「一直停留在某個問題、想法或階段，無法向前」與本句語境不同。",
-        "stuck-mcq-12": "「因情況所迫而不得不與某人相處或應付某人」與本句語境不同。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。"
+        "stuck-mcq-15": "本句的「get stuck on a question」指「積極投入並開始做某事」。",
+        "stuck-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-15"
     },
@@ -1246,11 +1130,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "stuck-mcq-15",
-        "stuck-mcq-14",
-        "stuck-mcq-16",
-        "stuck-mcq-13",
         "stuck-mcq-12",
-        "stuck-mcq-11"
+        "stuck-mcq-14",
+        "stuck-mcq-13"
       ],
       "explanation": "本句的「got stuck on question five」指「積極投入並開始做某事」。",
       "sentenceIndex": 33,
@@ -1259,12 +1141,10 @@ export default {
         "got stuck on question five"
       ],
       "optionReasons": {
-        "stuck-mcq-15": "本句指「積極投入並開始做某事」。",
-        "stuck-mcq-14": "「一時想不到該說什麼；語塞」與本句語境不同。",
-        "stuck-mcq-16": "「陷入重複、無聊且難以改變的生活或工作模式」與本句語境不同。",
-        "stuck-mcq-13": "「一直停留在某個問題、想法或階段，無法向前」與本句語境不同。",
-        "stuck-mcq-12": "「因情況所迫而不得不與某人相處或應付某人」與本句語境不同。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。"
+        "stuck-mcq-15": "本句的「got stuck on question five」指「積極投入並開始做某事」。",
+        "stuck-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-15"
     },
@@ -1276,11 +1156,9 @@ export default {
       "masked": "Everyone ____ and helped clean the room.",
       "options": [
         "stuck-mcq-15",
+        "stuck-mcq-01",
         "stuck-mcq-14",
-        "stuck-mcq-16",
-        "stuck-mcq-13",
-        "stuck-mcq-12",
-        "stuck-mcq-11"
+        "stuck-mcq-08"
       ],
       "explanation": "本句的「got stuck in」指「積極投入並開始做某事」。",
       "sentenceIndex": 34,
@@ -1289,12 +1167,10 @@ export default {
         "got stuck in"
       ],
       "optionReasons": {
-        "stuck-mcq-15": "本句指「積極投入並開始做某事」。",
-        "stuck-mcq-14": "「一時想不到該說什麼；語塞」與本句語境不同。",
-        "stuck-mcq-16": "「陷入重複、無聊且難以改變的生活或工作模式」與本句語境不同。",
-        "stuck-mcq-13": "「一直停留在某個問題、想法或階段，無法向前」與本句語境不同。",
-        "stuck-mcq-12": "「因情況所迫而不得不與某人相處或應付某人」與本句語境不同。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。"
+        "stuck-mcq-15": "本句的「got stuck in」指「積極投入並開始做某事」。",
+        "stuck-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-15"
     },
@@ -1307,10 +1183,8 @@ export default {
       "options": [
         "stuck-mcq-15",
         "stuck-mcq-14",
-        "stuck-mcq-16",
-        "stuck-mcq-13",
-        "stuck-mcq-12",
-        "stuck-mcq-11"
+        "stuck-mcq-11",
+        "stuck-mcq-08"
       ],
       "explanation": "本句的「get stuck in」指「積極投入並開始做某事」。",
       "sentenceIndex": 35,
@@ -1319,12 +1193,10 @@ export default {
         "get stuck in"
       ],
       "optionReasons": {
-        "stuck-mcq-15": "本句指「積極投入並開始做某事」。",
-        "stuck-mcq-14": "「一時想不到該說什麼；語塞」與本句語境不同。",
-        "stuck-mcq-16": "「陷入重複、無聊且難以改變的生活或工作模式」與本句語境不同。",
-        "stuck-mcq-13": "「一直停留在某個問題、想法或階段，無法向前」與本句語境不同。",
-        "stuck-mcq-12": "「因情況所迫而不得不與某人相處或應付某人」與本句語境不同。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。"
+        "stuck-mcq-15": "本句的「get stuck in」指「積極投入並開始做某事」。",
+        "stuck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-15"
     },
@@ -1336,11 +1208,9 @@ export default {
       "masked": "I felt ____.",
       "options": [
         "stuck-mcq-16",
-        "stuck-mcq-15",
-        "stuck-mcq-14",
-        "stuck-mcq-13",
         "stuck-mcq-12",
-        "stuck-mcq-11"
+        "stuck-mcq-08",
+        "stuck-mcq-14"
       ],
       "explanation": "本句的「stuck in a rut」指「陷入重複、無聊且難以改變的生活或工作模式」。",
       "sentenceIndex": 36,
@@ -1349,12 +1219,10 @@ export default {
         "stuck in a rut"
       ],
       "optionReasons": {
-        "stuck-mcq-16": "本句指「陷入重複、無聊且難以改變的生活或工作模式」。",
-        "stuck-mcq-15": "「積極投入並開始做某事」與本句語境不同。",
-        "stuck-mcq-14": "「一時想不到該說什麼；語塞」與本句語境不同。",
-        "stuck-mcq-13": "「一直停留在某個問題、想法或階段，無法向前」與本句語境不同。",
-        "stuck-mcq-12": "「因情況所迫而不得不與某人相處或應付某人」與本句語境不同。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。"
+        "stuck-mcq-16": "本句的「stuck in a rut」指「陷入重複、無聊且難以改變的生活或工作模式」。",
+        "stuck-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-16"
     },
@@ -1366,10 +1234,8 @@ export default {
       "masked": "Changing jobs helped her get out of the rut she was ____.",
       "options": [
         "stuck-mcq-16",
-        "stuck-mcq-15",
+        "stuck-mcq-08",
         "stuck-mcq-14",
-        "stuck-mcq-13",
-        "stuck-mcq-12",
         "stuck-mcq-11"
       ],
       "explanation": "本句的「stuck in」指「陷入重複、無聊且難以改變的生活或工作模式」。",
@@ -1379,12 +1245,10 @@ export default {
         "stuck in"
       ],
       "optionReasons": {
-        "stuck-mcq-16": "本句指「陷入重複、無聊且難以改變的生活或工作模式」。",
-        "stuck-mcq-15": "「積極投入並開始做某事」與本句語境不同。",
-        "stuck-mcq-14": "「一時想不到該說什麼；語塞」與本句語境不同。",
-        "stuck-mcq-13": "「一直停留在某個問題、想法或階段，無法向前」與本句語境不同。",
-        "stuck-mcq-12": "「因情況所迫而不得不與某人相處或應付某人」與本句語境不同。",
-        "stuck-mcq-11": "「因沒有其他選擇而不得不保留、承擔或處理某事」與本句語境不同。"
+        "stuck-mcq-16": "本句的「stuck in」指「陷入重複、無聊且難以改變的生活或工作模式」。",
+        "stuck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stuck-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuck-mcq-16"
     }
@@ -1396,5 +1260,7 @@ export default {
     "sha256": "98e4916b5cda1ce2a73269f097986192466b3af8b3144a58c013c039f1d710fe",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

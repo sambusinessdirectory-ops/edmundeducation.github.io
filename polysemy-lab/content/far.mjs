@@ -627,11 +627,9 @@ export default {
       "masked": "The station is ____ from my house.",
       "options": [
         "far-mcq-01",
-        "far-mcq-02",
-        "far-mcq-03",
+        "far-mcq-16",
         "far-mcq-04",
-        "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-23"
       ],
       "explanation": "本句的「far」指「很遠；遠處」。",
       "sentenceIndex": 0,
@@ -640,12 +638,10 @@ export default {
         "far"
       ],
       "optionReasons": {
-        "far-mcq-01": "本句指「很遠；遠處」。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-01": "本句的「far」指「很遠；遠處」。",
+        "far-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-01"
     },
@@ -657,11 +653,9 @@ export default {
       "masked": "They travelled ____ to reach the village.",
       "options": [
         "far-mcq-01",
-        "far-mcq-02",
-        "far-mcq-03",
-        "far-mcq-04",
-        "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-16",
+        "far-mcq-22",
+        "far-mcq-05"
       ],
       "explanation": "本句的「far」指「很遠；遠處」。",
       "sentenceIndex": 1,
@@ -670,12 +664,10 @@ export default {
         "far"
       ],
       "optionReasons": {
-        "far-mcq-01": "本句指「很遠；遠處」。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-01": "本句的「far」指「很遠；遠處」。",
+        "far-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-01"
     },
@@ -687,11 +679,9 @@ export default {
       "masked": "How ____ is the airport?",
       "options": [
         "far-mcq-01",
-        "far-mcq-02",
-        "far-mcq-03",
-        "far-mcq-04",
-        "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-10",
+        "far-mcq-11",
+        "far-mcq-16"
       ],
       "explanation": "本句的「far」指「很遠；遠處」。",
       "sentenceIndex": 2,
@@ -700,12 +690,10 @@ export default {
         "far"
       ],
       "optionReasons": {
-        "far-mcq-01": "本句指「很遠；遠處」。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-01": "本句的「far」指「很遠；遠處」。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-01"
     },
@@ -717,11 +705,9 @@ export default {
       "masked": "My grandparents live ____.",
       "options": [
         "far-mcq-01",
-        "far-mcq-02",
-        "far-mcq-03",
         "far-mcq-04",
-        "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-10",
+        "far-mcq-05"
       ],
       "explanation": "本句的「far away」指「很遠；遠處」。",
       "sentenceIndex": 3,
@@ -730,12 +716,10 @@ export default {
         "far away"
       ],
       "optionReasons": {
-        "far-mcq-01": "本句指「很遠；遠處」。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-01": "本句的「far away」指「很遠；遠處」。",
+        "far-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-01"
     },
@@ -747,11 +731,9 @@ export default {
       "masked": "We could see mountains ____.",
       "options": [
         "far-mcq-01",
-        "far-mcq-02",
-        "far-mcq-03",
-        "far-mcq-04",
-        "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-16",
+        "far-mcq-11",
+        "far-mcq-22"
       ],
       "explanation": "本句的「far away」指「很遠；遠處」。",
       "sentenceIndex": 4,
@@ -760,12 +742,10 @@ export default {
         "far away"
       ],
       "optionReasons": {
-        "far-mcq-01": "本句指「很遠；遠處」。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-01": "本句的「far away」指「很遠；遠處」。",
+        "far-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-01"
     },
@@ -777,11 +757,9 @@ export default {
       "masked": "The hotel is ____.",
       "options": [
         "far-mcq-02",
-        "far-mcq-01",
-        "far-mcq-03",
-        "far-mcq-04",
-        "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-14",
+        "far-mcq-15",
+        "far-mcq-08"
       ],
       "explanation": "本句的「far from the city centre」指「離 X 很遠」。",
       "sentenceIndex": 5,
@@ -790,12 +768,10 @@ export default {
         "far from the city centre"
       ],
       "optionReasons": {
-        "far-mcq-02": "本句指「離 X 很遠」。",
-        "far-mcq-01": "「很遠；遠處」與本句語境不同。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-02": "本句的「far from the city centre」指「離 X 很遠」。",
+        "far-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-02"
     },
@@ -807,11 +783,9 @@ export default {
       "masked": "We live ____.",
       "options": [
         "far-mcq-02",
-        "far-mcq-01",
-        "far-mcq-03",
-        "far-mcq-04",
+        "far-mcq-10",
         "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-11"
       ],
       "explanation": "本句的「far from school」指「離 X 很遠」。",
       "sentenceIndex": 6,
@@ -820,12 +794,10 @@ export default {
         "far from school"
       ],
       "optionReasons": {
-        "far-mcq-02": "本句指「離 X 很遠」。",
-        "far-mcq-01": "「很遠；遠處」與本句語境不同。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-02": "本句的「far from school」指「離 X 很遠」。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-02"
     },
@@ -837,11 +809,9 @@ export default {
       "masked": "The café is ____.",
       "options": [
         "far-mcq-02",
-        "far-mcq-01",
-        "far-mcq-03",
-        "far-mcq-04",
-        "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-22",
+        "far-mcq-08",
+        "far-mcq-14"
       ],
       "explanation": "本句的「not far from here」指「離 X 很遠」。",
       "sentenceIndex": 7,
@@ -850,12 +820,10 @@ export default {
         "not far from here"
       ],
       "optionReasons": {
-        "far-mcq-02": "本句指「離 X 很遠」。",
-        "far-mcq-01": "「很遠；遠處」與本句語境不同。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-02": "本句的「not far from here」指「離 X 很遠」。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-02"
     },
@@ -867,11 +835,9 @@ export default {
       "masked": "She lives ____.",
       "options": [
         "far-mcq-02",
-        "far-mcq-01",
-        "far-mcq-03",
         "far-mcq-04",
-        "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-08",
+        "far-mcq-13"
       ],
       "explanation": "本句的「not far from the station」指「離 X 很遠」。",
       "sentenceIndex": 8,
@@ -880,12 +846,10 @@ export default {
         "not far from the station"
       ],
       "optionReasons": {
-        "far-mcq-02": "本句指「離 X 很遠」。",
-        "far-mcq-01": "「很遠；遠處」與本句語境不同。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-02": "本句的「not far from the station」指「離 X 很遠」。",
+        "far-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-02"
     },
@@ -897,11 +861,9 @@ export default {
       "masked": "That happened in the ____.",
       "options": [
         "far-mcq-03",
-        "far-mcq-02",
-        "far-mcq-04",
-        "far-mcq-01",
-        "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-11",
+        "far-mcq-13",
+        "far-mcq-10"
       ],
       "explanation": "本句的「far past」指「久遠過去／遙遠未來」。",
       "sentenceIndex": 9,
@@ -910,12 +872,10 @@ export default {
         "far past"
       ],
       "optionReasons": {
-        "far-mcq-03": "本句指「久遠過去／遙遠未來」。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-01": "「很遠；遠處」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-03": "本句的「far past」指「久遠過去／遙遠未來」。",
+        "far-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-03"
     },
@@ -927,11 +887,9 @@ export default {
       "masked": "People imagined life in the ____.",
       "options": [
         "far-mcq-03",
-        "far-mcq-02",
-        "far-mcq-04",
-        "far-mcq-01",
-        "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-22",
+        "far-mcq-14",
+        "far-mcq-09"
       ],
       "explanation": "本句的「far future」指「久遠過去／遙遠未來」。",
       "sentenceIndex": 10,
@@ -940,12 +898,10 @@ export default {
         "far future"
       ],
       "optionReasons": {
-        "far-mcq-03": "本句指「久遠過去／遙遠未來」。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-01": "「很遠；遠處」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-03": "本句的「far future」指「久遠過去／遙遠未來」。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-03"
     },
@@ -957,11 +913,9 @@ export default {
       "masked": "They dreamed of ____.",
       "options": [
         "far-mcq-03",
-        "far-mcq-02",
-        "far-mcq-04",
-        "far-mcq-01",
-        "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-18",
+        "far-mcq-22",
+        "far-mcq-05"
       ],
       "explanation": "本句的「far-off places」指「久遠過去／遙遠未來」。",
       "sentenceIndex": 11,
@@ -970,12 +924,10 @@ export default {
         "far-off places"
       ],
       "optionReasons": {
-        "far-mcq-03": "本句指「久遠過去／遙遠未來」。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-01": "「很遠；遠處」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-03": "本句的「far-off places」指「久遠過去／遙遠未來」。",
+        "far-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-03"
     },
@@ -987,11 +939,9 @@ export default {
       "masked": "That now feels like a ____.",
       "options": [
         "far-mcq-03",
-        "far-mcq-02",
-        "far-mcq-04",
-        "far-mcq-01",
-        "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-12",
+        "far-mcq-18",
+        "far-mcq-10"
       ],
       "explanation": "本句的「far-off memory」指「久遠過去／遙遠未來」。",
       "sentenceIndex": 12,
@@ -1000,12 +950,10 @@ export default {
         "far-off memory"
       ],
       "optionReasons": {
-        "far-mcq-03": "本句指「久遠過去／遙遠未來」。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-01": "「很遠；遠處」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-03": "本句的「far-off memory」指「久遠過去／遙遠未來」。",
+        "far-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-03"
     },
@@ -1017,11 +965,9 @@ export default {
       "masked": "She comes from a ____.",
       "options": [
         "far-mcq-03",
-        "far-mcq-02",
-        "far-mcq-04",
-        "far-mcq-01",
-        "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-23",
+        "far-mcq-18",
+        "far-mcq-10"
       ],
       "explanation": "本句的「faraway country」指「久遠過去／遙遠未來」。",
       "sentenceIndex": 13,
@@ -1030,12 +976,10 @@ export default {
         "faraway country"
       ],
       "optionReasons": {
-        "far-mcq-03": "本句指「久遠過去／遙遠未來」。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-01": "「很遠；遠處」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-03": "本句的「faraway country」指「久遠過去／遙遠未來」。",
+        "far-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-03"
     },
@@ -1047,11 +991,9 @@ export default {
       "masked": "He had a ____ in his eyes.",
       "options": [
         "far-mcq-03",
-        "far-mcq-02",
-        "far-mcq-04",
-        "far-mcq-01",
-        "far-mcq-05",
-        "far-mcq-06"
+        "far-mcq-10",
+        "far-mcq-11",
+        "far-mcq-15"
       ],
       "explanation": "本句的「faraway look」指「久遠過去／遙遠未來」。",
       "sentenceIndex": 14,
@@ -1060,12 +1002,10 @@ export default {
         "faraway look"
       ],
       "optionReasons": {
-        "far-mcq-03": "本句指「久遠過去／遙遠未來」。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-01": "「很遠；遠處」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-03": "本句的「faraway look」指「久遠過去／遙遠未來」。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-03"
     },
@@ -1077,11 +1017,9 @@ export default {
       "masked": "This option is ____.",
       "options": [
         "far-mcq-04",
-        "far-mcq-03",
-        "far-mcq-05",
-        "far-mcq-02",
-        "far-mcq-06",
-        "far-mcq-01"
+        "far-mcq-20",
+        "far-mcq-13",
+        "far-mcq-05"
       ],
       "explanation": "本句的「far better」指「多得多；更加」。",
       "sentenceIndex": 15,
@@ -1090,12 +1028,10 @@ export default {
         "far better"
       ],
       "optionReasons": {
-        "far-mcq-04": "本句指「多得多；更加」。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。",
-        "far-mcq-01": "「很遠；遠處」與本句語境不同。"
+        "far-mcq-04": "本句的「far better」指「多得多；更加」。",
+        "far-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-04"
     },
@@ -1107,11 +1043,9 @@ export default {
       "masked": "The task was ____ than expected.",
       "options": [
         "far-mcq-04",
-        "far-mcq-03",
-        "far-mcq-05",
-        "far-mcq-02",
-        "far-mcq-06",
-        "far-mcq-01"
+        "far-mcq-01",
+        "far-mcq-16",
+        "far-mcq-23"
       ],
       "explanation": "本句的「far harder」指「多得多；更加」。",
       "sentenceIndex": 16,
@@ -1120,12 +1054,10 @@ export default {
         "far harder"
       ],
       "optionReasons": {
-        "far-mcq-04": "本句指「多得多；更加」。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。",
-        "far-mcq-01": "「很遠；遠處」與本句語境不同。"
+        "far-mcq-04": "本句的「far harder」指「多得多；更加」。",
+        "far-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-04"
     },
@@ -1138,10 +1070,8 @@ export default {
       "options": [
         "far-mcq-04",
         "far-mcq-03",
-        "far-mcq-05",
-        "far-mcq-02",
-        "far-mcq-06",
-        "far-mcq-01"
+        "far-mcq-13",
+        "far-mcq-09"
       ],
       "explanation": "本句的「far more thoughtful」指「多得多；更加」。",
       "sentenceIndex": 17,
@@ -1150,12 +1080,10 @@ export default {
         "far more thoughtful"
       ],
       "optionReasons": {
-        "far-mcq-04": "本句指「多得多；更加」。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。",
-        "far-mcq-01": "「很遠；遠處」與本句語境不同。"
+        "far-mcq-04": "本句的「far more thoughtful」指「多得多；更加」。",
+        "far-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-04"
     },
@@ -1168,10 +1096,8 @@ export default {
       "options": [
         "far-mcq-04",
         "far-mcq-03",
-        "far-mcq-05",
-        "far-mcq-02",
-        "far-mcq-06",
-        "far-mcq-01"
+        "far-mcq-13",
+        "far-mcq-09"
       ],
       "explanation": "本句的「far more effective」指「多得多；更加」。",
       "sentenceIndex": 18,
@@ -1180,12 +1106,10 @@ export default {
         "far more effective"
       ],
       "optionReasons": {
-        "far-mcq-04": "本句指「多得多；更加」。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。",
-        "far-mcq-01": "「很遠；遠處」與本句語境不同。"
+        "far-mcq-04": "本句的「far more effective」指「多得多；更加」。",
+        "far-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-04"
     },
@@ -1197,11 +1121,9 @@ export default {
       "masked": "The second option is ____.",
       "options": [
         "far-mcq-05",
-        "far-mcq-04",
-        "far-mcq-06",
-        "far-mcq-03",
-        "far-mcq-07",
-        "far-mcq-02"
+        "far-mcq-08",
+        "far-mcq-01",
+        "far-mcq-15"
       ],
       "explanation": "本句的「far less expensive」指「少得多」。",
       "sentenceIndex": 19,
@@ -1210,12 +1132,10 @@ export default {
         "far less expensive"
       ],
       "optionReasons": {
-        "far-mcq-05": "本句指「少得多」。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-07": "「遠遠；明顯地」與本句語境不同。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。"
+        "far-mcq-05": "本句的「far less expensive」指「少得多」。",
+        "far-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-05"
     },
@@ -1227,11 +1147,9 @@ export default {
       "masked": "The result was ____ than expected.",
       "options": [
         "far-mcq-05",
-        "far-mcq-04",
-        "far-mcq-06",
-        "far-mcq-03",
-        "far-mcq-07",
-        "far-mcq-02"
+        "far-mcq-22",
+        "far-mcq-17",
+        "far-mcq-12"
       ],
       "explanation": "本句的「far less impressive」指「少得多」。",
       "sentenceIndex": 20,
@@ -1240,12 +1158,10 @@ export default {
         "far less impressive"
       ],
       "optionReasons": {
-        "far-mcq-05": "本句指「少得多」。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。",
-        "far-mcq-03": "「久遠過去／遙遠未來」與本句語境不同。",
-        "far-mcq-07": "「遠遠；明顯地」與本句語境不同。",
-        "far-mcq-02": "「離 X 很遠」與本句語境不同。"
+        "far-mcq-05": "本句的「far less impressive」指「少得多」。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-05"
     },
@@ -1257,11 +1173,9 @@ export default {
       "masked": "This one was ____.",
       "options": [
         "far-mcq-07",
-        "far-mcq-06",
+        "far-mcq-23",
         "far-mcq-08",
-        "far-mcq-05",
-        "far-mcq-09",
-        "far-mcq-04"
+        "far-mcq-10"
       ],
       "explanation": "本句的「by far the most meaningful」指「遠遠；明顯地」。",
       "sentenceIndex": 21,
@@ -1270,12 +1184,10 @@ export default {
         "by far the most meaningful"
       ],
       "optionReasons": {
-        "far-mcq-07": "本句指「遠遠；明顯地」。",
-        "far-mcq-06": "「好得多」與本句語境不同。",
-        "far-mcq-08": "「實在太……」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-09": "「到目前為止」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。"
+        "far-mcq-07": "本句的「by far the most meaningful」指「遠遠；明顯地」。",
+        "far-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-07"
     },
@@ -1287,11 +1199,9 @@ export default {
       "masked": "She is ____ player on the team.",
       "options": [
         "far-mcq-07",
-        "far-mcq-06",
         "far-mcq-08",
-        "far-mcq-05",
-        "far-mcq-09",
-        "far-mcq-04"
+        "far-mcq-18",
+        "far-mcq-15"
       ],
       "explanation": "本句的「by far the best」指「遠遠；明顯地」。",
       "sentenceIndex": 22,
@@ -1300,12 +1210,10 @@ export default {
         "by far the best"
       ],
       "optionReasons": {
-        "far-mcq-07": "本句指「遠遠；明顯地」。",
-        "far-mcq-06": "「好得多」與本句語境不同。",
-        "far-mcq-08": "「實在太……」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-09": "「到目前為止」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。"
+        "far-mcq-07": "本句的「by far the best」指「遠遠；明顯地」。",
+        "far-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-07"
     },
@@ -1317,11 +1225,9 @@ export default {
       "masked": "This was ____ exam.",
       "options": [
         "far-mcq-07",
-        "far-mcq-06",
-        "far-mcq-08",
-        "far-mcq-05",
         "far-mcq-09",
-        "far-mcq-04"
+        "far-mcq-22",
+        "far-mcq-14"
       ],
       "explanation": "本句的「by far the hardest」指「遠遠；明顯地」。",
       "sentenceIndex": 23,
@@ -1330,12 +1236,10 @@ export default {
         "by far the hardest"
       ],
       "optionReasons": {
-        "far-mcq-07": "本句指「遠遠；明顯地」。",
-        "far-mcq-06": "「好得多」與本句語境不同。",
-        "far-mcq-08": "「實在太……」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-09": "「到目前為止」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。"
+        "far-mcq-07": "本句的「by far the hardest」指「遠遠；明顯地」。",
+        "far-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-07"
     },
@@ -1347,11 +1251,9 @@ export default {
       "masked": "That was ____ lesson.",
       "options": [
         "far-mcq-07",
-        "far-mcq-06",
-        "far-mcq-08",
-        "far-mcq-05",
-        "far-mcq-09",
-        "far-mcq-04"
+        "far-mcq-11",
+        "far-mcq-04",
+        "far-mcq-05"
       ],
       "explanation": "本句的「by far the most useful」指「遠遠；明顯地」。",
       "sentenceIndex": 24,
@@ -1360,12 +1262,10 @@ export default {
         "by far the most useful"
       ],
       "optionReasons": {
-        "far-mcq-07": "本句指「遠遠；明顯地」。",
-        "far-mcq-06": "「好得多」與本句語境不同。",
-        "far-mcq-08": "「實在太……」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-09": "「到目前為止」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。"
+        "far-mcq-07": "本句的「by far the most useful」指「遠遠；明顯地」。",
+        "far-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-07"
     },
@@ -1377,11 +1277,9 @@ export default {
       "masked": "This version is ____ than the old one.",
       "options": [
         "far-mcq-07",
-        "far-mcq-06",
-        "far-mcq-08",
-        "far-mcq-05",
         "far-mcq-09",
-        "far-mcq-04"
+        "far-mcq-16",
+        "far-mcq-12"
       ],
       "explanation": "本句的「by far better」指「遠遠；明顯地」。",
       "sentenceIndex": 25,
@@ -1390,12 +1288,10 @@ export default {
         "by far better"
       ],
       "optionReasons": {
-        "far-mcq-07": "本句指「遠遠；明顯地」。",
-        "far-mcq-06": "「好得多」與本句語境不同。",
-        "far-mcq-08": "「實在太……」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-09": "「到目前為止」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。"
+        "far-mcq-07": "本句的「by far better」指「遠遠；明顯地」。",
+        "far-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-07"
     },
@@ -1407,11 +1303,9 @@ export default {
       "masked": "The new route is ____.",
       "options": [
         "far-mcq-07",
-        "far-mcq-06",
         "far-mcq-08",
-        "far-mcq-05",
-        "far-mcq-09",
-        "far-mcq-04"
+        "far-mcq-23",
+        "far-mcq-15"
       ],
       "explanation": "本句的「by far shorter」指「遠遠；明顯地」。",
       "sentenceIndex": 26,
@@ -1420,12 +1314,10 @@ export default {
         "by far shorter"
       ],
       "optionReasons": {
-        "far-mcq-07": "本句指「遠遠；明顯地」。",
-        "far-mcq-06": "「好得多」與本句語境不同。",
-        "far-mcq-08": "「實在太……」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。",
-        "far-mcq-09": "「到目前為止」與本句語境不同。",
-        "far-mcq-04": "「多得多；更加」與本句語境不同。"
+        "far-mcq-07": "本句的「by far shorter」指「遠遠；明顯地」。",
+        "far-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-07"
     },
@@ -1437,11 +1329,9 @@ export default {
       "masked": "The bag is ____.",
       "options": [
         "far-mcq-08",
-        "far-mcq-07",
-        "far-mcq-09",
-        "far-mcq-06",
-        "far-mcq-10",
-        "far-mcq-05"
+        "far-mcq-03",
+        "far-mcq-14",
+        "far-mcq-11"
       ],
       "explanation": "本句的「far too heavy」指「實在太……」。",
       "sentenceIndex": 27,
@@ -1450,12 +1340,10 @@ export default {
         "far too heavy"
       ],
       "optionReasons": {
-        "far-mcq-08": "本句指「實在太……」。",
-        "far-mcq-07": "「遠遠；明顯地」與本句語境不同。",
-        "far-mcq-09": "「到目前為止」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。",
-        "far-mcq-10": "「一直到 X」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。"
+        "far-mcq-08": "本句的「far too heavy」指「實在太……」。",
+        "far-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-08"
     },
@@ -1467,11 +1355,9 @@ export default {
       "masked": "It's ____ to change the plan.",
       "options": [
         "far-mcq-08",
-        "far-mcq-07",
-        "far-mcq-09",
-        "far-mcq-06",
-        "far-mcq-10",
-        "far-mcq-05"
+        "far-mcq-15",
+        "far-mcq-19",
+        "far-mcq-09"
       ],
       "explanation": "本句的「far too late」指「實在太……」。",
       "sentenceIndex": 28,
@@ -1480,12 +1366,10 @@ export default {
         "far too late"
       ],
       "optionReasons": {
-        "far-mcq-08": "本句指「實在太……」。",
-        "far-mcq-07": "「遠遠；明顯地」與本句語境不同。",
-        "far-mcq-09": "「到目前為止」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。",
-        "far-mcq-10": "「一直到 X」與本句語境不同。",
-        "far-mcq-05": "「少得多」與本句語境不同。"
+        "far-mcq-08": "本句的「far too late」指「實在太……」。",
+        "far-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-08"
     },
@@ -1498,10 +1382,8 @@ export default {
       "options": [
         "far-mcq-09",
         "far-mcq-08",
-        "far-mcq-10",
-        "far-mcq-07",
         "far-mcq-11",
-        "far-mcq-06"
+        "far-mcq-17"
       ],
       "explanation": "本句的「So far」指「到目前為止」。",
       "sentenceIndex": 29,
@@ -1510,12 +1392,10 @@ export default {
         "So far"
       ],
       "optionReasons": {
-        "far-mcq-09": "本句指「到目前為止」。",
-        "far-mcq-08": "「實在太……」與本句語境不同。",
-        "far-mcq-10": "「一直到 X」與本句語境不同。",
-        "far-mcq-07": "「遠遠；明顯地」與本句語境不同。",
-        "far-mcq-11": "「據我所知」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-09": "本句的「So far」指「到目前為止」。",
+        "far-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-09"
     },
@@ -1527,11 +1407,9 @@ export default {
       "masked": "I have read three chapters ____.",
       "options": [
         "far-mcq-09",
-        "far-mcq-08",
-        "far-mcq-10",
-        "far-mcq-07",
-        "far-mcq-11",
-        "far-mcq-06"
+        "far-mcq-19",
+        "far-mcq-23",
+        "far-mcq-12"
       ],
       "explanation": "本句的「so far」指「到目前為止」。",
       "sentenceIndex": 30,
@@ -1540,12 +1418,10 @@ export default {
         "so far"
       ],
       "optionReasons": {
-        "far-mcq-09": "本句指「到目前為止」。",
-        "far-mcq-08": "「實在太……」與本句語境不同。",
-        "far-mcq-10": "「一直到 X」與本句語境不同。",
-        "far-mcq-07": "「遠遠；明顯地」與本句語境不同。",
-        "far-mcq-11": "「據我所知」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-09": "本句的「so far」指「到目前為止」。",
+        "far-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-09"
     },
@@ -1557,11 +1433,9 @@ export default {
       "masked": "We have only walked ____.",
       "options": [
         "far-mcq-09",
-        "far-mcq-08",
-        "far-mcq-10",
-        "far-mcq-07",
-        "far-mcq-11",
-        "far-mcq-06"
+        "far-mcq-21",
+        "far-mcq-15",
+        "far-mcq-11"
       ],
       "explanation": "本句的「so far」指「到目前為止」。",
       "sentenceIndex": 31,
@@ -1570,12 +1444,10 @@ export default {
         "so far"
       ],
       "optionReasons": {
-        "far-mcq-09": "本句指「到目前為止」。",
-        "far-mcq-08": "「實在太……」與本句語境不同。",
-        "far-mcq-10": "「一直到 X」與本句語境不同。",
-        "far-mcq-07": "「遠遠；明顯地」與本句語境不同。",
-        "far-mcq-11": "「據我所知」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-09": "本句的「so far」指「到目前為止」。",
+        "far-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-09"
     },
@@ -1588,10 +1460,8 @@ export default {
       "options": [
         "far-mcq-09",
         "far-mcq-08",
-        "far-mcq-10",
-        "far-mcq-07",
         "far-mcq-11",
-        "far-mcq-06"
+        "far-mcq-22"
       ],
       "explanation": "本句的「so far」指「到目前為止」。",
       "sentenceIndex": 32,
@@ -1600,12 +1470,10 @@ export default {
         "so far"
       ],
       "optionReasons": {
-        "far-mcq-09": "本句指「到目前為止」。",
-        "far-mcq-08": "「實在太……」與本句語境不同。",
-        "far-mcq-10": "「一直到 X」與本句語境不同。",
-        "far-mcq-07": "「遠遠；明顯地」與本句語境不同。",
-        "far-mcq-11": "「據我所知」與本句語境不同。",
-        "far-mcq-06": "「好得多」與本句語境不同。"
+        "far-mcq-09": "本句的「so far」指「到目前為止」。",
+        "far-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-09"
     },
@@ -1617,11 +1485,9 @@ export default {
       "masked": "We walked ____.",
       "options": [
         "far-mcq-10",
-        "far-mcq-09",
-        "far-mcq-11",
-        "far-mcq-08",
-        "far-mcq-12",
-        "far-mcq-07"
+        "far-mcq-14",
+        "far-mcq-03",
+        "far-mcq-09"
       ],
       "explanation": "本句的「as far as the river」指「一直到 X」。",
       "sentenceIndex": 33,
@@ -1630,12 +1496,10 @@ export default {
         "as far as the river"
       ],
       "optionReasons": {
-        "far-mcq-10": "本句指「一直到 X」。",
-        "far-mcq-09": "「到目前為止」與本句語境不同。",
-        "far-mcq-11": "「據我所知」與本句語境不同。",
-        "far-mcq-08": "「實在太……」與本句語境不同。",
-        "far-mcq-12": "「就我而言」與本句語境不同。",
-        "far-mcq-07": "「遠遠；明顯地」與本句語境不同。"
+        "far-mcq-10": "本句的「as far as the river」指「一直到 X」。",
+        "far-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-10"
     },
@@ -1647,11 +1511,9 @@ export default {
       "masked": "The bus goes ____.",
       "options": [
         "far-mcq-10",
-        "far-mcq-09",
-        "far-mcq-11",
-        "far-mcq-08",
-        "far-mcq-12",
-        "far-mcq-07"
+        "far-mcq-14",
+        "far-mcq-21",
+        "far-mcq-22"
       ],
       "explanation": "本句的「as far as the airport」指「一直到 X」。",
       "sentenceIndex": 34,
@@ -1660,12 +1522,10 @@ export default {
         "as far as the airport"
       ],
       "optionReasons": {
-        "far-mcq-10": "本句指「一直到 X」。",
-        "far-mcq-09": "「到目前為止」與本句語境不同。",
-        "far-mcq-11": "「據我所知」與本句語境不同。",
-        "far-mcq-08": "「實在太……」與本句語境不同。",
-        "far-mcq-12": "「就我而言」與本句語境不同。",
-        "far-mcq-07": "「遠遠；明顯地」與本句語境不同。"
+        "far-mcq-10": "本句的「as far as the airport」指「一直到 X」。",
+        "far-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-10"
     },
@@ -1677,11 +1537,9 @@ export default {
       "masked": "____, the meeting is still on.",
       "options": [
         "far-mcq-11",
-        "far-mcq-10",
-        "far-mcq-12",
-        "far-mcq-09",
-        "far-mcq-13",
-        "far-mcq-08"
+        "far-mcq-01",
+        "far-mcq-04",
+        "far-mcq-22"
       ],
       "explanation": "本句的「As far as I know」指「據我所知」。",
       "sentenceIndex": 35,
@@ -1690,12 +1548,10 @@ export default {
         "As far as I know"
       ],
       "optionReasons": {
-        "far-mcq-11": "本句指「據我所知」。",
-        "far-mcq-10": "「一直到 X」與本句語境不同。",
-        "far-mcq-12": "「就我而言」與本句語境不同。",
-        "far-mcq-09": "「到目前為止」與本句語境不同。",
-        "far-mcq-13": "「盡可能」與本句語境不同。",
-        "far-mcq-08": "「實在太……」與本句語境不同。"
+        "far-mcq-11": "本句的「As far as I know」指「據我所知」。",
+        "far-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-11"
     },
@@ -1707,11 +1563,9 @@ export default {
       "masked": "____, she has already left.",
       "options": [
         "far-mcq-11",
-        "far-mcq-10",
-        "far-mcq-12",
         "far-mcq-09",
-        "far-mcq-13",
-        "far-mcq-08"
+        "far-mcq-20",
+        "far-mcq-22"
       ],
       "explanation": "本句的「As far as I know」指「據我所知」。",
       "sentenceIndex": 36,
@@ -1720,12 +1574,10 @@ export default {
         "As far as I know"
       ],
       "optionReasons": {
-        "far-mcq-11": "本句指「據我所知」。",
-        "far-mcq-10": "「一直到 X」與本句語境不同。",
-        "far-mcq-12": "「就我而言」與本句語境不同。",
-        "far-mcq-09": "「到目前為止」與本句語境不同。",
-        "far-mcq-13": "「盡可能」與本句語境不同。",
-        "far-mcq-08": "「實在太……」與本句語境不同。"
+        "far-mcq-11": "本句的「As far as I know」指「據我所知」。",
+        "far-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-11"
     },
@@ -1737,11 +1589,9 @@ export default {
       "masked": "____, the matter is settled.",
       "options": [
         "far-mcq-12",
-        "far-mcq-11",
-        "far-mcq-13",
-        "far-mcq-10",
+        "far-mcq-19",
         "far-mcq-14",
-        "far-mcq-09"
+        "far-mcq-13"
       ],
       "explanation": "本句的「As far as I'm concerned」指「就我而言」。",
       "sentenceIndex": 37,
@@ -1750,12 +1600,10 @@ export default {
         "As far as I'm concerned"
       ],
       "optionReasons": {
-        "far-mcq-12": "本句指「就我而言」。",
-        "far-mcq-11": "「據我所知」與本句語境不同。",
-        "far-mcq-13": "「盡可能」與本句語境不同。",
-        "far-mcq-10": "「一直到 X」與本句語境不同。",
-        "far-mcq-14": "「絕不容易」與本句語境不同。",
-        "far-mcq-09": "「到目前為止」與本句語境不同。"
+        "far-mcq-12": "本句的「As far as I'm concerned」指「就我而言」。",
+        "far-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-12"
     },
@@ -1767,11 +1615,9 @@ export default {
       "masked": "____, everyone should get a chance.",
       "options": [
         "far-mcq-12",
-        "far-mcq-11",
-        "far-mcq-13",
-        "far-mcq-10",
-        "far-mcq-14",
-        "far-mcq-09"
+        "far-mcq-09",
+        "far-mcq-16",
+        "far-mcq-22"
       ],
       "explanation": "本句的「As far as I'm concerned」指「就我而言」。",
       "sentenceIndex": 38,
@@ -1780,12 +1626,10 @@ export default {
         "As far as I'm concerned"
       ],
       "optionReasons": {
-        "far-mcq-12": "本句指「就我而言」。",
-        "far-mcq-11": "「據我所知」與本句語境不同。",
-        "far-mcq-13": "「盡可能」與本句語境不同。",
-        "far-mcq-10": "「一直到 X」與本句語境不同。",
-        "far-mcq-14": "「絕不容易」與本句語境不同。",
-        "far-mcq-09": "「到目前為止」與本句語境不同。"
+        "far-mcq-12": "本句的「As far as I'm concerned」指「就我而言」。",
+        "far-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-12"
     },
@@ -1797,11 +1641,9 @@ export default {
       "masked": "Keep the explanation simple ____.",
       "options": [
         "far-mcq-13",
-        "far-mcq-12",
-        "far-mcq-14",
-        "far-mcq-11",
-        "far-mcq-15",
-        "far-mcq-10"
+        "far-mcq-10",
+        "far-mcq-03",
+        "far-mcq-17"
       ],
       "explanation": "本句的「as far as possible」指「盡可能」。",
       "sentenceIndex": 39,
@@ -1810,12 +1652,10 @@ export default {
         "as far as possible"
       ],
       "optionReasons": {
-        "far-mcq-13": "本句指「盡可能」。",
-        "far-mcq-12": "「就我而言」與本句語境不同。",
-        "far-mcq-14": "「絕不容易」與本句語境不同。",
-        "far-mcq-11": "「據我所知」與本句語境不同。",
-        "far-mcq-15": "「完全不是」與本句語境不同。",
-        "far-mcq-10": "「一直到 X」與本句語境不同。"
+        "far-mcq-13": "本句的「as far as possible」指「盡可能」。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-13"
     },
@@ -1827,11 +1667,9 @@ export default {
       "masked": "We should avoid delays ____.",
       "options": [
         "far-mcq-13",
-        "far-mcq-12",
-        "far-mcq-14",
-        "far-mcq-11",
+        "far-mcq-03",
         "far-mcq-15",
-        "far-mcq-10"
+        "far-mcq-22"
       ],
       "explanation": "本句的「as far as possible」指「盡可能」。",
       "sentenceIndex": 40,
@@ -1840,12 +1678,10 @@ export default {
         "as far as possible"
       ],
       "optionReasons": {
-        "far-mcq-13": "本句指「盡可能」。",
-        "far-mcq-12": "「就我而言」與本句語境不同。",
-        "far-mcq-14": "「絕不容易」與本句語境不同。",
-        "far-mcq-11": "「據我所知」與本句語境不同。",
-        "far-mcq-15": "「完全不是」與本句語境不同。",
-        "far-mcq-10": "「一直到 X」與本句語境不同。"
+        "far-mcq-13": "本句的「as far as possible」指「盡可能」。",
+        "far-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-13"
     },
@@ -1857,11 +1693,9 @@ export default {
       "masked": "The job was ____.",
       "options": [
         "far-mcq-14",
-        "far-mcq-13",
-        "far-mcq-15",
-        "far-mcq-12",
-        "far-mcq-16",
-        "far-mcq-11"
+        "far-mcq-24",
+        "far-mcq-05",
+        "far-mcq-04"
       ],
       "explanation": "本句的「far from easy」指「絕不容易」。",
       "sentenceIndex": 41,
@@ -1870,12 +1704,10 @@ export default {
         "far from easy"
       ],
       "optionReasons": {
-        "far-mcq-14": "本句指「絕不容易」。",
-        "far-mcq-13": "「盡可能」與本句語境不同。",
-        "far-mcq-15": "「完全不是」與本句語境不同。",
-        "far-mcq-12": "「就我而言」與本句語境不同。",
-        "far-mcq-16": "「太過分」與本句語境不同。",
-        "far-mcq-11": "「據我所知」與本句語境不同。"
+        "far-mcq-14": "本句的「far from easy」指「絕不容易」。",
+        "far-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-14"
     },
@@ -1887,11 +1719,9 @@ export default {
       "masked": "The result was ____.",
       "options": [
         "far-mcq-14",
-        "far-mcq-13",
-        "far-mcq-15",
-        "far-mcq-12",
-        "far-mcq-16",
-        "far-mcq-11"
+        "far-mcq-01",
+        "far-mcq-11",
+        "far-mcq-23"
       ],
       "explanation": "本句的「far from perfect」指「絕不容易」。",
       "sentenceIndex": 42,
@@ -1900,12 +1730,10 @@ export default {
         "far from perfect"
       ],
       "optionReasons": {
-        "far-mcq-14": "本句指「絕不容易」。",
-        "far-mcq-13": "「盡可能」與本句語境不同。",
-        "far-mcq-15": "「完全不是」與本句語境不同。",
-        "far-mcq-12": "「就我而言」與本句語境不同。",
-        "far-mcq-16": "「太過分」與本句語境不同。",
-        "far-mcq-11": "「據我所知」與本句語境不同。"
+        "far-mcq-14": "本句的「far from perfect」指「絕不容易」。",
+        "far-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-14"
     },
@@ -1917,11 +1745,9 @@ export default {
       "masked": "Was he angry? — ____.",
       "options": [
         "far-mcq-15",
-        "far-mcq-14",
-        "far-mcq-16",
-        "far-mcq-13",
-        "far-mcq-17",
-        "far-mcq-12"
+        "far-mcq-18",
+        "far-mcq-05",
+        "far-mcq-07"
       ],
       "explanation": "本句的「Far from it」指「完全不是」。",
       "sentenceIndex": 43,
@@ -1930,12 +1756,10 @@ export default {
         "Far from it"
       ],
       "optionReasons": {
-        "far-mcq-15": "本句指「完全不是」。",
-        "far-mcq-14": "「絕不容易」與本句語境不同。",
-        "far-mcq-16": "「太過分」與本句語境不同。",
-        "far-mcq-13": "「盡可能」與本句語境不同。",
-        "far-mcq-17": "「多遠／到甚麼程度」與本句語境不同。",
-        "far-mcq-12": "「就我而言」與本句語境不同。"
+        "far-mcq-15": "本句的「Far from it」指「完全不是」。",
+        "far-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-15"
     },
@@ -1947,11 +1771,9 @@ export default {
       "masked": "The task wasn't boring. ____.",
       "options": [
         "far-mcq-15",
-        "far-mcq-14",
-        "far-mcq-16",
-        "far-mcq-13",
-        "far-mcq-17",
-        "far-mcq-12"
+        "far-mcq-20",
+        "far-mcq-12",
+        "far-mcq-03"
       ],
       "explanation": "本句的「Far from it」指「完全不是」。",
       "sentenceIndex": 44,
@@ -1960,12 +1782,10 @@ export default {
         "Far from it"
       ],
       "optionReasons": {
-        "far-mcq-15": "本句指「完全不是」。",
-        "far-mcq-14": "「絕不容易」與本句語境不同。",
-        "far-mcq-16": "「太過分」與本句語境不同。",
-        "far-mcq-13": "「盡可能」與本句語境不同。",
-        "far-mcq-17": "「多遠／到甚麼程度」與本句語境不同。",
-        "far-mcq-12": "「就我而言」與本句語境不同。"
+        "far-mcq-15": "本句的「Far from it」指「完全不是」。",
+        "far-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-15"
     },
@@ -1977,11 +1797,9 @@ export default {
       "masked": "I think that joke ____.",
       "options": [
         "far-mcq-16",
-        "far-mcq-15",
         "far-mcq-17",
-        "far-mcq-14",
-        "far-mcq-18",
-        "far-mcq-13"
+        "far-mcq-10",
+        "far-mcq-11"
       ],
       "explanation": "本句的「went too far」指「太過分」。",
       "sentenceIndex": 45,
@@ -1990,12 +1808,10 @@ export default {
         "went too far"
       ],
       "optionReasons": {
-        "far-mcq-16": "本句指「太過分」。",
-        "far-mcq-15": "「完全不是」與本句語境不同。",
-        "far-mcq-17": "「多遠／到甚麼程度」與本句語境不同。",
-        "far-mcq-14": "「絕不容易」與本句語境不同。",
-        "far-mcq-18": "「到處；四面八方」與本句語境不同。",
-        "far-mcq-13": "「盡可能」與本句語境不同。"
+        "far-mcq-16": "本句的「went too far」指「太過分」。",
+        "far-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-16"
     },
@@ -2007,11 +1823,9 @@ export default {
       "masked": "Criticism is fine, but personal attacks ____.",
       "options": [
         "far-mcq-16",
-        "far-mcq-15",
         "far-mcq-17",
-        "far-mcq-14",
-        "far-mcq-18",
-        "far-mcq-13"
+        "far-mcq-20",
+        "far-mcq-10"
       ],
       "explanation": "本句的「go too far」指「太過分」。",
       "sentenceIndex": 46,
@@ -2020,12 +1834,10 @@ export default {
         "go too far"
       ],
       "optionReasons": {
-        "far-mcq-16": "本句指「太過分」。",
-        "far-mcq-15": "「完全不是」與本句語境不同。",
-        "far-mcq-17": "「多遠／到甚麼程度」與本句語境不同。",
-        "far-mcq-14": "「絕不容易」與本句語境不同。",
-        "far-mcq-18": "「到處；四面八方」與本句語境不同。",
-        "far-mcq-13": "「盡可能」與本句語境不同。"
+        "far-mcq-16": "本句的「go too far」指「太過分」。",
+        "far-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-16"
     },
@@ -2037,10 +1849,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "far-mcq-16",
-        "far-mcq-15",
-        "far-mcq-17",
-        "far-mcq-14",
-        "far-mcq-18",
+        "far-mcq-24",
+        "far-mcq-23",
         "far-mcq-13"
       ],
       "explanation": "本句的「took the joke too far」指「太過分」。",
@@ -2050,12 +1860,10 @@ export default {
         "took the joke too far"
       ],
       "optionReasons": {
-        "far-mcq-16": "本句指「太過分」。",
-        "far-mcq-15": "「完全不是」與本句語境不同。",
-        "far-mcq-17": "「多遠／到甚麼程度」與本句語境不同。",
-        "far-mcq-14": "「絕不容易」與本句語境不同。",
-        "far-mcq-18": "「到處；四面八方」與本句語境不同。",
-        "far-mcq-13": "「盡可能」與本句語境不同。"
+        "far-mcq-16": "本句的「took the joke too far」指「太過分」。",
+        "far-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-16"
     },
@@ -2067,11 +1875,9 @@ export default {
       "masked": "Healthy competition can become harmful if you ____.",
       "options": [
         "far-mcq-16",
+        "far-mcq-09",
         "far-mcq-15",
-        "far-mcq-17",
-        "far-mcq-14",
-        "far-mcq-18",
-        "far-mcq-13"
+        "far-mcq-17"
       ],
       "explanation": "本句的「take it too far」指「太過分」。",
       "sentenceIndex": 48,
@@ -2080,12 +1886,10 @@ export default {
         "take it too far"
       ],
       "optionReasons": {
-        "far-mcq-16": "本句指「太過分」。",
-        "far-mcq-15": "「完全不是」與本句語境不同。",
-        "far-mcq-17": "「多遠／到甚麼程度」與本句語境不同。",
-        "far-mcq-14": "「絕不容易」與本句語境不同。",
-        "far-mcq-18": "「到處；四面八方」與本句語境不同。",
-        "far-mcq-13": "「盡可能」與本句語境不同。"
+        "far-mcq-16": "本句的「take it too far」指「太過分」。",
+        "far-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-16"
     },
@@ -2097,11 +1901,9 @@ export default {
       "masked": "____ is the station?",
       "options": [
         "far-mcq-17",
-        "far-mcq-16",
         "far-mcq-18",
-        "far-mcq-15",
-        "far-mcq-19",
-        "far-mcq-14"
+        "far-mcq-12",
+        "far-mcq-15"
       ],
       "explanation": "本句的「How far」指「多遠／到甚麼程度」。",
       "sentenceIndex": 49,
@@ -2110,12 +1912,10 @@ export default {
         "How far"
       ],
       "optionReasons": {
-        "far-mcq-17": "本句指「多遠／到甚麼程度」。",
-        "far-mcq-16": "「太過分」與本句語境不同。",
-        "far-mcq-18": "「到處；四面八方」與本句語境不同。",
-        "far-mcq-15": "「完全不是」與本句語境不同。",
-        "far-mcq-19": "「與……相差很遠」與本句語境不同。",
-        "far-mcq-14": "「絕不容易」與本句語境不同。"
+        "far-mcq-17": "本句的「How far」指「多遠／到甚麼程度」。",
+        "far-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-17"
     },
@@ -2128,10 +1928,8 @@ export default {
       "options": [
         "far-mcq-17",
         "far-mcq-16",
-        "far-mcq-18",
-        "far-mcq-15",
-        "far-mcq-19",
-        "far-mcq-14"
+        "far-mcq-04",
+        "far-mcq-22"
       ],
       "explanation": "本句的「How far」指「多遠／到甚麼程度」。",
       "sentenceIndex": 50,
@@ -2140,12 +1938,10 @@ export default {
         "How far"
       ],
       "optionReasons": {
-        "far-mcq-17": "本句指「多遠／到甚麼程度」。",
-        "far-mcq-16": "「太過分」與本句語境不同。",
-        "far-mcq-18": "「到處；四面八方」與本句語境不同。",
-        "far-mcq-15": "「完全不是」與本句語境不同。",
-        "far-mcq-19": "「與……相差很遠」與本句語境不同。",
-        "far-mcq-14": "「絕不容易」與本句語境不同。"
+        "far-mcq-17": "本句的「How far」指「多遠／到甚麼程度」。",
+        "far-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-17"
     },
@@ -2157,11 +1953,9 @@ export default {
       "masked": "People came from ____.",
       "options": [
         "far-mcq-18",
-        "far-mcq-17",
+        "far-mcq-10",
         "far-mcq-19",
-        "far-mcq-16",
-        "far-mcq-20",
-        "far-mcq-15"
+        "far-mcq-22"
       ],
       "explanation": "本句的「far and wide」指「到處；四面八方」。",
       "sentenceIndex": 51,
@@ -2170,12 +1964,10 @@ export default {
         "far and wide"
       ],
       "optionReasons": {
-        "far-mcq-18": "本句指「到處；四面八方」。",
-        "far-mcq-17": "「多遠／到甚麼程度」與本句語境不同。",
-        "far-mcq-19": "「與……相差很遠」與本句語境不同。",
-        "far-mcq-16": "「太過分」與本句語境不同。",
-        "far-mcq-20": "「影響深遠的」與本句語境不同。",
-        "far-mcq-15": "「完全不是」與本句語境不同。"
+        "far-mcq-18": "本句的「far and wide」指「到處；四面八方」。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-18"
     },
@@ -2188,10 +1980,8 @@ export default {
       "options": [
         "far-mcq-18",
         "far-mcq-17",
-        "far-mcq-19",
-        "far-mcq-16",
-        "far-mcq-20",
-        "far-mcq-15"
+        "far-mcq-03",
+        "far-mcq-11"
       ],
       "explanation": "本句的「far and wide」指「到處；四面八方」。",
       "sentenceIndex": 52,
@@ -2200,12 +1990,10 @@ export default {
         "far and wide"
       ],
       "optionReasons": {
-        "far-mcq-18": "本句指「到處；四面八方」。",
-        "far-mcq-17": "「多遠／到甚麼程度」與本句語境不同。",
-        "far-mcq-19": "「與……相差很遠」與本句語境不同。",
-        "far-mcq-16": "「太過分」與本句語境不同。",
-        "far-mcq-20": "「影響深遠的」與本句語境不同。",
-        "far-mcq-15": "「完全不是」與本句語境不同。"
+        "far-mcq-18": "本句的「far and wide」指「到處；四面八方」。",
+        "far-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-18"
     },
@@ -2217,11 +2005,9 @@ export default {
       "masked": "His new life is ____ his childhood.",
       "options": [
         "far-mcq-19",
-        "far-mcq-18",
-        "far-mcq-20",
-        "far-mcq-17",
-        "far-mcq-21",
-        "far-mcq-16"
+        "far-mcq-22",
+        "far-mcq-13",
+        "far-mcq-14"
       ],
       "explanation": "本句的「a far cry from」指「與……相差很遠」。",
       "sentenceIndex": 53,
@@ -2230,12 +2016,10 @@ export default {
         "a far cry from"
       ],
       "optionReasons": {
-        "far-mcq-19": "本句指「與……相差很遠」。",
-        "far-mcq-18": "「到處；四面八方」與本句語境不同。",
-        "far-mcq-20": "「影響深遠的」與本句語境不同。",
-        "far-mcq-17": "「多遠／到甚麼程度」與本句語境不同。",
-        "far-mcq-21": "「更遠」與本句語境不同。",
-        "far-mcq-16": "「太過分」與本句語境不同。"
+        "far-mcq-19": "本句的「a far cry from」指「與……相差很遠」。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-19"
     },
@@ -2247,11 +2031,9 @@ export default {
       "masked": "The final product was ____ the original idea.",
       "options": [
         "far-mcq-19",
-        "far-mcq-18",
-        "far-mcq-20",
-        "far-mcq-17",
-        "far-mcq-21",
-        "far-mcq-16"
+        "far-mcq-09",
+        "far-mcq-16",
+        "far-mcq-15"
       ],
       "explanation": "本句的「a far cry from」指「與……相差很遠」。",
       "sentenceIndex": 54,
@@ -2260,12 +2042,10 @@ export default {
         "a far cry from"
       ],
       "optionReasons": {
-        "far-mcq-19": "本句指「與……相差很遠」。",
-        "far-mcq-18": "「到處；四面八方」與本句語境不同。",
-        "far-mcq-20": "「影響深遠的」與本句語境不同。",
-        "far-mcq-17": "「多遠／到甚麼程度」與本句語境不同。",
-        "far-mcq-21": "「更遠」與本句語境不同。",
-        "far-mcq-16": "「太過分」與本句語境不同。"
+        "far-mcq-19": "本句的「a far cry from」指「與……相差很遠」。",
+        "far-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-19"
     },
@@ -2277,11 +2057,9 @@ export default {
       "masked": "The decision had ____.",
       "options": [
         "far-mcq-20",
-        "far-mcq-19",
-        "far-mcq-21",
-        "far-mcq-18",
-        "far-mcq-22",
-        "far-mcq-17"
+        "far-mcq-09",
+        "far-mcq-13",
+        "far-mcq-18"
       ],
       "explanation": "本句的「far-reaching consequences」指「影響深遠的」。",
       "sentenceIndex": 55,
@@ -2290,12 +2068,10 @@ export default {
         "far-reaching consequences"
       ],
       "optionReasons": {
-        "far-mcq-20": "本句指「影響深遠的」。",
-        "far-mcq-19": "「與……相差很遠」與本句語境不同。",
-        "far-mcq-21": "「更遠」與本句語境不同。",
-        "far-mcq-18": "「到處；四面八方」與本句語境不同。",
-        "far-mcq-22": "「進一步資料」與本句語境不同。",
-        "far-mcq-17": "「多遠／到甚麼程度」與本句語境不同。"
+        "far-mcq-20": "本句的「far-reaching consequences」指「影響深遠的」。",
+        "far-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-20"
     },
@@ -2307,11 +2083,9 @@ export default {
       "masked": "The invention had ____ on society.",
       "options": [
         "far-mcq-20",
-        "far-mcq-19",
-        "far-mcq-21",
-        "far-mcq-18",
-        "far-mcq-22",
-        "far-mcq-17"
+        "far-mcq-11",
+        "far-mcq-15",
+        "far-mcq-16"
       ],
       "explanation": "本句的「far-reaching effects」指「影響深遠的」。",
       "sentenceIndex": 56,
@@ -2320,12 +2094,10 @@ export default {
         "far-reaching effects"
       ],
       "optionReasons": {
-        "far-mcq-20": "本句指「影響深遠的」。",
-        "far-mcq-19": "「與……相差很遠」與本句語境不同。",
-        "far-mcq-21": "「更遠」與本句語境不同。",
-        "far-mcq-18": "「到處；四面八方」與本句語境不同。",
-        "far-mcq-22": "「進一步資料」與本句語境不同。",
-        "far-mcq-17": "「多遠／到甚麼程度」與本句語境不同。"
+        "far-mcq-20": "本句的「far-reaching effects」指「影響深遠的」。",
+        "far-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-20"
     },
@@ -2337,11 +2109,9 @@ export default {
       "masked": "We walked ____ than yesterday.",
       "options": [
         "far-mcq-21",
-        "far-mcq-20",
-        "far-mcq-22",
-        "far-mcq-19",
-        "far-mcq-23",
-        "far-mcq-18"
+        "far-mcq-16",
+        "far-mcq-14",
+        "far-mcq-22"
       ],
       "explanation": "本句的「farther/further」指「更遠」。",
       "sentenceIndex": 57,
@@ -2350,12 +2120,10 @@ export default {
         "farther/further"
       ],
       "optionReasons": {
-        "far-mcq-21": "本句指「更遠」。",
-        "far-mcq-20": "「影響深遠的」與本句語境不同。",
-        "far-mcq-22": "「進一步資料」與本句語境不同。",
-        "far-mcq-19": "「與……相差很遠」與本句語境不同。",
-        "far-mcq-23": "「促進；推進」與本句語境不同。",
-        "far-mcq-18": "「到處；四面八方」與本句語境不同。"
+        "far-mcq-21": "本句的「farther/further」指「更遠」。",
+        "far-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-21"
     },
@@ -2367,11 +2135,9 @@ export default {
       "masked": "The station is ____ down the road.",
       "options": [
         "far-mcq-21",
-        "far-mcq-20",
-        "far-mcq-22",
-        "far-mcq-19",
-        "far-mcq-23",
-        "far-mcq-18"
+        "far-mcq-18",
+        "far-mcq-05",
+        "far-mcq-16"
       ],
       "explanation": "本句的「farther/further」指「更遠」。",
       "sentenceIndex": 58,
@@ -2380,12 +2146,10 @@ export default {
         "farther/further"
       ],
       "optionReasons": {
-        "far-mcq-21": "本句指「更遠」。",
-        "far-mcq-20": "「影響深遠的」與本句語境不同。",
-        "far-mcq-22": "「進一步資料」與本句語境不同。",
-        "far-mcq-19": "「與……相差很遠」與本句語境不同。",
-        "far-mcq-23": "「促進；推進」與本句語境不同。",
-        "far-mcq-18": "「到處；四面八方」與本句語境不同。"
+        "far-mcq-21": "本句的「farther/further」指「更遠」。",
+        "far-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-21"
     },
@@ -2397,11 +2161,9 @@ export default {
       "masked": "We need ____.",
       "options": [
         "far-mcq-22",
-        "far-mcq-21",
-        "far-mcq-23",
-        "far-mcq-20",
         "far-mcq-24",
-        "far-mcq-19"
+        "far-mcq-10",
+        "far-mcq-12"
       ],
       "explanation": "本句的「further information」指「進一步資料」。",
       "sentenceIndex": 59,
@@ -2410,12 +2172,10 @@ export default {
         "further information"
       ],
       "optionReasons": {
-        "far-mcq-22": "本句指「進一步資料」。",
-        "far-mcq-21": "「更遠」與本句語境不同。",
-        "far-mcq-23": "「促進；推進」與本句語境不同。",
-        "far-mcq-20": "「影響深遠的」與本句語境不同。",
-        "far-mcq-24": "「最遠」與本句語境不同。",
-        "far-mcq-19": "「與……相差很遠」與本句語境不同。"
+        "far-mcq-22": "本句的「further information」指「進一步資料」。",
+        "far-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-22"
     },
@@ -2427,11 +2187,9 @@ export default {
       "masked": "The issue requires ____.",
       "options": [
         "far-mcq-22",
-        "far-mcq-21",
-        "far-mcq-23",
-        "far-mcq-20",
-        "far-mcq-24",
-        "far-mcq-19"
+        "far-mcq-03",
+        "far-mcq-18",
+        "far-mcq-10"
       ],
       "explanation": "本句的「further discussion」指「進一步資料」。",
       "sentenceIndex": 60,
@@ -2440,12 +2198,10 @@ export default {
         "further discussion"
       ],
       "optionReasons": {
-        "far-mcq-22": "本句指「進一步資料」。",
-        "far-mcq-21": "「更遠」與本句語境不同。",
-        "far-mcq-23": "「促進；推進」與本句語境不同。",
-        "far-mcq-20": "「影響深遠的」與本句語境不同。",
-        "far-mcq-24": "「最遠」與本句語境不同。",
-        "far-mcq-19": "「與……相差很遠」與本句語境不同。"
+        "far-mcq-22": "本句的「further discussion」指「進一步資料」。",
+        "far-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-22"
     },
@@ -2457,11 +2213,9 @@ export default {
       "masked": "The programme aims to ____ between the two groups.",
       "options": [
         "far-mcq-23",
-        "far-mcq-22",
-        "far-mcq-24",
-        "far-mcq-21",
-        "far-mcq-20",
-        "far-mcq-19"
+        "far-mcq-07",
+        "far-mcq-12",
+        "far-mcq-04"
       ],
       "explanation": "本句的「further understanding」指「促進；推進」。",
       "sentenceIndex": 61,
@@ -2470,12 +2224,10 @@ export default {
         "further understanding"
       ],
       "optionReasons": {
-        "far-mcq-23": "本句指「促進；推進」。",
-        "far-mcq-22": "「進一步資料」與本句語境不同。",
-        "far-mcq-24": "「最遠」與本句語境不同。",
-        "far-mcq-21": "「更遠」與本句語境不同。",
-        "far-mcq-20": "「影響深遠的」與本句語境不同。",
-        "far-mcq-19": "「與……相差很遠」與本句語境不同。"
+        "far-mcq-23": "本句的「further understanding」指「促進；推進」。",
+        "far-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-23"
     },
@@ -2487,11 +2239,9 @@ export default {
       "masked": "She studied abroad to ____.",
       "options": [
         "far-mcq-23",
-        "far-mcq-22",
-        "far-mcq-24",
-        "far-mcq-21",
         "far-mcq-20",
-        "far-mcq-19"
+        "far-mcq-14",
+        "far-mcq-10"
       ],
       "explanation": "本句的「further her career」指「促進；推進」。",
       "sentenceIndex": 62,
@@ -2500,12 +2250,10 @@ export default {
         "further her career"
       ],
       "optionReasons": {
-        "far-mcq-23": "本句指「促進；推進」。",
-        "far-mcq-22": "「進一步資料」與本句語境不同。",
-        "far-mcq-24": "「最遠」與本句語境不同。",
-        "far-mcq-21": "「更遠」與本句語境不同。",
-        "far-mcq-20": "「影響深遠的」與本句語境不同。",
-        "far-mcq-19": "「與……相差很遠」與本句語境不同。"
+        "far-mcq-23": "本句的「further her career」指「促進；推進」。",
+        "far-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-23"
     },
@@ -2517,11 +2265,9 @@ export default {
       "masked": "This is the ____ I've ever travelled.",
       "options": [
         "far-mcq-24",
-        "far-mcq-23",
-        "far-mcq-22",
-        "far-mcq-21",
-        "far-mcq-20",
-        "far-mcq-19"
+        "far-mcq-09",
+        "far-mcq-05",
+        "far-mcq-04"
       ],
       "explanation": "本句的「farthest」指「最遠」。",
       "sentenceIndex": 63,
@@ -2530,12 +2276,10 @@ export default {
         "farthest"
       ],
       "optionReasons": {
-        "far-mcq-24": "本句指「最遠」。",
-        "far-mcq-23": "「促進；推進」與本句語境不同。",
-        "far-mcq-22": "「進一步資料」與本句語境不同。",
-        "far-mcq-21": "「更遠」與本句語境不同。",
-        "far-mcq-20": "「影響深遠的」與本句語境不同。",
-        "far-mcq-19": "「與……相差很遠」與本句語境不同。"
+        "far-mcq-24": "本句的「farthest」指「最遠」。",
+        "far-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-24"
     },
@@ -2547,11 +2291,9 @@ export default {
       "masked": "Which planet is ____ from the Sun?",
       "options": [
         "far-mcq-24",
-        "far-mcq-23",
         "far-mcq-22",
-        "far-mcq-21",
-        "far-mcq-20",
-        "far-mcq-19"
+        "far-mcq-18",
+        "far-mcq-12"
       ],
       "explanation": "本句的「furthest」指「最遠」。",
       "sentenceIndex": 64,
@@ -2560,12 +2302,10 @@ export default {
         "furthest"
       ],
       "optionReasons": {
-        "far-mcq-24": "本句指「最遠」。",
-        "far-mcq-23": "「促進；推進」與本句語境不同。",
-        "far-mcq-22": "「進一步資料」與本句語境不同。",
-        "far-mcq-21": "「更遠」與本句語境不同。",
-        "far-mcq-20": "「影響深遠的」與本句語境不同。",
-        "far-mcq-19": "「與……相差很遠」與本句語境不同。"
+        "far-mcq-24": "本句的「furthest」指「最遠」。",
+        "far-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "far-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "far-mcq-24"
     }
@@ -2577,5 +2317,7 @@ export default {
     "sha256": "c6ad58a61155f55a361a810d313d1c10dba1979cadb9bc2b5207f4b783a1a5f2",
     "pages": 25
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

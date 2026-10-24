@@ -229,11 +229,7 @@ export default {
       "masked": "The bakery has carved out a ____ in the local area.",
       "options": [
         "niche-mcq-01",
-        "niche-mcq-02",
-        "niche-mcq-03",
-        "niche-mcq-04",
-        "niche-mcq-05",
-        "niche-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「niche」指「市場中規模較小、需求明確、針對特定客群或需求的專門位置」。",
       "sentenceIndex": 0,
@@ -242,12 +238,8 @@ export default {
         "niche"
       ],
       "optionReasons": {
-        "niche-mcq-01": "本句指「市場中規模較小、需求明確、針對特定客群或需求的專門位置」。",
-        "niche-mcq-02": "「某人／某物特別適合並能發揮優勢的專門角色或位置」與本句語境不同。",
-        "niche-mcq-03": "「找到最適合自己的專長、角色或市場定位」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。"
+        "niche-mcq-01": "本句的「niche」指「市場中規模較小、需求明確、針對特定客群或需求的專門位置」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-01"
     },
@@ -259,11 +251,7 @@ export default {
       "masked": "The company found a profitable ____ selling handmade products.",
       "options": [
         "niche-mcq-01",
-        "niche-mcq-02",
-        "niche-mcq-03",
-        "niche-mcq-04",
-        "niche-mcq-05",
-        "niche-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「niche」指「市場中規模較小、需求明確、針對特定客群或需求的專門位置」。",
       "sentenceIndex": 1,
@@ -272,12 +260,8 @@ export default {
         "niche"
       ],
       "optionReasons": {
-        "niche-mcq-01": "本句指「市場中規模較小、需求明確、針對特定客群或需求的專門位置」。",
-        "niche-mcq-02": "「某人／某物特別適合並能發揮優勢的專門角色或位置」與本句語境不同。",
-        "niche-mcq-03": "「找到最適合自己的專長、角色或市場定位」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。"
+        "niche-mcq-01": "本句的「niche」指「市場中規模較小、需求明確、針對特定客群或需求的專門位置」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-01"
     },
@@ -289,11 +273,7 @@ export default {
       "masked": "Small firms often succeed by serving a specific ____.",
       "options": [
         "niche-mcq-01",
-        "niche-mcq-02",
-        "niche-mcq-03",
-        "niche-mcq-04",
-        "niche-mcq-05",
-        "niche-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「niche」指「市場中規模較小、需求明確、針對特定客群或需求的專門位置」。",
       "sentenceIndex": 2,
@@ -302,12 +282,8 @@ export default {
         "niche"
       ],
       "optionReasons": {
-        "niche-mcq-01": "本句指「市場中規模較小、需求明確、針對特定客群或需求的專門位置」。",
-        "niche-mcq-02": "「某人／某物特別適合並能發揮優勢的專門角色或位置」與本句語境不同。",
-        "niche-mcq-03": "「找到最適合自己的專長、角色或市場定位」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。"
+        "niche-mcq-01": "本句的「niche」指「市場中規模較小、需求明確、針對特定客群或需求的專門位置」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-01"
     },
@@ -319,11 +295,7 @@ export default {
       "masked": "She found her ____ in graphic design.",
       "options": [
         "niche-mcq-02",
-        "niche-mcq-01",
-        "niche-mcq-03",
-        "niche-mcq-04",
-        "niche-mcq-05",
-        "niche-mcq-06"
+        "niche-mcq-04"
       ],
       "explanation": "本句的「niche」指「某人／某物特別適合並能發揮優勢的專門角色或位置」。",
       "sentenceIndex": 3,
@@ -332,12 +304,8 @@ export default {
         "niche"
       ],
       "optionReasons": {
-        "niche-mcq-02": "本句指「某人／某物特別適合並能發揮優勢的專門角色或位置」。",
-        "niche-mcq-01": "「市場中規模較小、需求明確、針對特定客群或需求的專門位置」與本句語境不同。",
-        "niche-mcq-03": "「找到最適合自己的專長、角色或市場定位」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。"
+        "niche-mcq-02": "本句的「niche」指「某人／某物特別適合並能發揮優勢的專門角色或位置」。",
+        "niche-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-02"
     },
@@ -349,11 +317,7 @@ export default {
       "masked": "He has created a ____ for himself as a food photographer.",
       "options": [
         "niche-mcq-02",
-        "niche-mcq-01",
-        "niche-mcq-03",
-        "niche-mcq-04",
-        "niche-mcq-05",
-        "niche-mcq-06"
+        "niche-mcq-04"
       ],
       "explanation": "本句的「niche」指「某人／某物特別適合並能發揮優勢的專門角色或位置」。",
       "sentenceIndex": 4,
@@ -362,12 +326,8 @@ export default {
         "niche"
       ],
       "optionReasons": {
-        "niche-mcq-02": "本句指「某人／某物特別適合並能發揮優勢的專門角色或位置」。",
-        "niche-mcq-01": "「市場中規模較小、需求明確、針對特定客群或需求的專門位置」與本句語境不同。",
-        "niche-mcq-03": "「找到最適合自己的專長、角色或市場定位」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。"
+        "niche-mcq-02": "本句的「niche」指「某人／某物特別適合並能發揮優勢的專門角色或位置」。",
+        "niche-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-02"
     },
@@ -379,11 +339,8 @@ export default {
       "masked": "It took her years to ____.",
       "options": [
         "niche-mcq-03",
-        "niche-mcq-02",
-        "niche-mcq-04",
-        "niche-mcq-01",
-        "niche-mcq-05",
-        "niche-mcq-06"
+        "niche-mcq-06",
+        "niche-mcq-04"
       ],
       "explanation": "本句的「find her niche」指「找到最適合自己的專長、角色或市場定位」。",
       "sentenceIndex": 5,
@@ -392,12 +349,9 @@ export default {
         "find her niche"
       ],
       "optionReasons": {
-        "niche-mcq-03": "本句指「找到最適合自己的專長、角色或市場定位」。",
-        "niche-mcq-02": "「某人／某物特別適合並能發揮優勢的專門角色或位置」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。",
-        "niche-mcq-01": "「市場中規模較小、需求明確、針對特定客群或需求的專門位置」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。"
+        "niche-mcq-03": "本句的「find her niche」指「找到最適合自己的專長、角色或市場定位」。",
+        "niche-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "niche-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-03"
     },
@@ -409,11 +363,8 @@ export default {
       "masked": "The bakery found its ____ by focusing on custom cakes.",
       "options": [
         "niche-mcq-03",
-        "niche-mcq-02",
-        "niche-mcq-04",
-        "niche-mcq-01",
-        "niche-mcq-05",
-        "niche-mcq-06"
+        "niche-mcq-06",
+        "niche-mcq-04"
       ],
       "explanation": "本句的「niche」指「找到最適合自己的專長、角色或市場定位」。",
       "sentenceIndex": 6,
@@ -422,12 +373,9 @@ export default {
         "niche"
       ],
       "optionReasons": {
-        "niche-mcq-03": "本句指「找到最適合自己的專長、角色或市場定位」。",
-        "niche-mcq-02": "「某人／某物特別適合並能發揮優勢的專門角色或位置」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。",
-        "niche-mcq-01": "「市場中規模較小、需求明確、針對特定客群或需求的專門位置」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。"
+        "niche-mcq-03": "本句的「niche」指「找到最適合自己的專長、角色或市場定位」。",
+        "niche-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "niche-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-03"
     },
@@ -439,11 +387,7 @@ export default {
       "masked": "This is a ____ for serious bakers.",
       "options": [
         "niche-mcq-05",
-        "niche-mcq-04",
-        "niche-mcq-06",
-        "niche-mcq-03",
-        "niche-mcq-07",
-        "niche-mcq-02"
+        "niche-mcq-07"
       ],
       "explanation": "本句的「niche product」指「專門為較小、特定客群設計的產品」。",
       "sentenceIndex": 11,
@@ -452,12 +396,8 @@ export default {
         "niche product"
       ],
       "optionReasons": {
-        "niche-mcq-05": "本句指「專門為較小、特定客群設計的產品」。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。",
-        "niche-mcq-03": "「找到最適合自己的專長、角色或市場定位」與本句語境不同。",
-        "niche-mcq-07": "「一個物種在生態系統中的角色、資源使用方式和生存位置」與本句語境不同。",
-        "niche-mcq-02": "「某人／某物特別適合並能發揮優勢的專門角色或位置」與本句語境不同。"
+        "niche-mcq-05": "本句的「niche product」指「專門為較小、特定客群設計的產品」。",
+        "niche-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-05"
     },
@@ -469,11 +409,7 @@ export default {
       "masked": "The company sells ____ products with limited but loyal demand.",
       "options": [
         "niche-mcq-05",
-        "niche-mcq-04",
-        "niche-mcq-06",
-        "niche-mcq-03",
-        "niche-mcq-07",
-        "niche-mcq-02"
+        "niche-mcq-07"
       ],
       "explanation": "本句的「niche」指「專門為較小、特定客群設計的產品」。",
       "sentenceIndex": 12,
@@ -482,12 +418,8 @@ export default {
         "niche"
       ],
       "optionReasons": {
-        "niche-mcq-05": "本句指「專門為較小、特定客群設計的產品」。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。",
-        "niche-mcq-03": "「找到最適合自己的專長、角色或市場定位」與本句語境不同。",
-        "niche-mcq-07": "「一個物種在生態系統中的角色、資源使用方式和生存位置」與本句語境不同。",
-        "niche-mcq-02": "「某人／某物特別適合並能發揮優勢的專門角色或位置」與本句語境不同。"
+        "niche-mcq-05": "本句的「niche」指「專門為較小、特定客群設計的產品」。",
+        "niche-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-05"
     },
@@ -499,11 +431,8 @@ export default {
       "masked": "The documentary attracted a ____.",
       "options": [
         "niche-mcq-04",
-        "niche-mcq-03",
-        "niche-mcq-05",
-        "niche-mcq-02",
-        "niche-mcq-06",
-        "niche-mcq-01"
+        "niche-mcq-07",
+        "niche-mcq-08"
       ],
       "explanation": "本句的「niche audience」指「因共同特殊興趣而形成的較小受眾群」。",
       "sentenceIndex": 13,
@@ -512,12 +441,9 @@ export default {
         "niche audience"
       ],
       "optionReasons": {
-        "niche-mcq-04": "本句指「因共同特殊興趣而形成的較小受眾群」。",
-        "niche-mcq-03": "「找到最適合自己的專長、角色或市場定位」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-02": "「某人／某物特別適合並能發揮優勢的專門角色或位置」與本句語境不同。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。",
-        "niche-mcq-01": "「市場中規模較小、需求明確、針對特定客群或需求的專門位置」與本句語境不同。"
+        "niche-mcq-04": "本句的「niche audience」指「因共同特殊興趣而形成的較小受眾群」。",
+        "niche-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "niche-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-04"
     },
@@ -530,10 +456,7 @@ export default {
       "options": [
         "niche-mcq-04",
         "niche-mcq-03",
-        "niche-mcq-05",
-        "niche-mcq-02",
-        "niche-mcq-06",
-        "niche-mcq-01"
+        "niche-mcq-06"
       ],
       "explanation": "本句的「niche」指「因共同特殊興趣而形成的較小受眾群」。",
       "sentenceIndex": 14,
@@ -542,12 +465,9 @@ export default {
         "niche"
       ],
       "optionReasons": {
-        "niche-mcq-04": "本句指「因共同特殊興趣而形成的較小受眾群」。",
-        "niche-mcq-03": "「找到最適合自己的專長、角色或市場定位」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-02": "「某人／某物特別適合並能發揮優勢的專門角色或位置」與本句語境不同。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。",
-        "niche-mcq-01": "「市場中規模較小、需求明確、針對特定客群或需求的專門位置」與本句語境不同。"
+        "niche-mcq-04": "本句的「niche」指「因共同特殊興趣而形成的較小受眾群」。",
+        "niche-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "niche-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-04"
     },
@@ -559,11 +479,8 @@ export default {
       "masked": "The statue stood in a ____ in the wall.",
       "options": [
         "niche-mcq-06",
-        "niche-mcq-05",
-        "niche-mcq-07",
-        "niche-mcq-04",
-        "niche-mcq-08",
-        "niche-mcq-03"
+        "niche-mcq-03",
+        "niche-mcq-05"
       ],
       "explanation": "本句的「niche」指「牆面向內凹入、常用來放置雕像或裝飾物的小空間」。",
       "sentenceIndex": 15,
@@ -572,12 +489,9 @@ export default {
         "niche"
       ],
       "optionReasons": {
-        "niche-mcq-06": "本句指「牆面向內凹入、常用來放置雕像或裝飾物的小空間」。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-07": "「一個物種在生態系統中的角色、資源使用方式和生存位置」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。",
-        "niche-mcq-08": "「滿足原本未被充分服務的特定需求／空缺」與本句語境不同。",
-        "niche-mcq-03": "「找到最適合自己的專長、角色或市場定位」與本句語境不同。"
+        "niche-mcq-06": "本句的「niche」指「牆面向內凹入、常用來放置雕像或裝飾物的小空間」。",
+        "niche-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "niche-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-06"
     },
@@ -589,11 +503,8 @@ export default {
       "masked": "A lamp was placed in a small ____ beside the door.",
       "options": [
         "niche-mcq-06",
-        "niche-mcq-05",
-        "niche-mcq-07",
-        "niche-mcq-04",
-        "niche-mcq-08",
-        "niche-mcq-03"
+        "niche-mcq-03",
+        "niche-mcq-04"
       ],
       "explanation": "本句的「niche」指「牆面向內凹入、常用來放置雕像或裝飾物的小空間」。",
       "sentenceIndex": 16,
@@ -602,12 +513,9 @@ export default {
         "niche"
       ],
       "optionReasons": {
-        "niche-mcq-06": "本句指「牆面向內凹入、常用來放置雕像或裝飾物的小空間」。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-07": "「一個物種在生態系統中的角色、資源使用方式和生存位置」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。",
-        "niche-mcq-08": "「滿足原本未被充分服務的特定需求／空缺」與本句語境不同。",
-        "niche-mcq-03": "「找到最適合自己的專長、角色或市場定位」與本句語境不同。"
+        "niche-mcq-06": "本句的「niche」指「牆面向內凹入、常用來放置雕像或裝飾物的小空間」。",
+        "niche-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "niche-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-06"
     },
@@ -619,10 +527,7 @@ export default {
       "masked": "Each species occupies a particular ecological ____.",
       "options": [
         "niche-mcq-07",
-        "niche-mcq-06",
         "niche-mcq-08",
-        "niche-mcq-05",
-        "niche-mcq-09",
         "niche-mcq-04"
       ],
       "explanation": "本句的「niche」指「一個物種在生態系統中的角色、資源使用方式和生存位置」。",
@@ -632,12 +537,9 @@ export default {
         "niche"
       ],
       "optionReasons": {
-        "niche-mcq-07": "本句指「一個物種在生態系統中的角色、資源使用方式和生存位置」。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。",
-        "niche-mcq-08": "「滿足原本未被充分服務的特定需求／空缺」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-09": "「靠差異化和努力逐步建立獨特的市場／專業定位」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。"
+        "niche-mcq-07": "本句的「niche」指「一個物種在生態系統中的角色、資源使用方式和生存位置」。",
+        "niche-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "niche-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-07"
     },
@@ -649,11 +551,7 @@ export default {
       "masked": "The two animals compete for the same ____.",
       "options": [
         "niche-mcq-07",
-        "niche-mcq-06",
-        "niche-mcq-08",
-        "niche-mcq-05",
-        "niche-mcq-09",
-        "niche-mcq-04"
+        "niche-mcq-05"
       ],
       "explanation": "本句的「niche」指「一個物種在生態系統中的角色、資源使用方式和生存位置」。",
       "sentenceIndex": 18,
@@ -662,12 +560,8 @@ export default {
         "niche"
       ],
       "optionReasons": {
-        "niche-mcq-07": "本句指「一個物種在生態系統中的角色、資源使用方式和生存位置」。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。",
-        "niche-mcq-08": "「滿足原本未被充分服務的特定需求／空缺」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-09": "「靠差異化和努力逐步建立獨特的市場／專業定位」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。"
+        "niche-mcq-07": "本句的「niche」指「一個物種在生態系統中的角色、資源使用方式和生存位置」。",
+        "niche-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-07"
     },
@@ -679,11 +573,7 @@ export default {
       "masked": "Diet is one part of an animal’s ____.",
       "options": [
         "niche-pdf-001",
-        "niche-mcq-06",
-        "niche-mcq-08",
-        "niche-mcq-05",
-        "niche-mcq-09",
-        "niche-mcq-04"
+        "niche-mcq-05"
       ],
       "explanation": "本句的「ecological niche」指「物種如何利用環境、食物、空間及與其他生物互動的整體角色」。",
       "sentenceIndex": 19,
@@ -692,12 +582,8 @@ export default {
         "ecological niche"
       ],
       "optionReasons": {
-        "niche-pdf-001": "本句指「物種如何利用環境、食物、空間及與其他生物互動的整體角色」。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。",
-        "niche-mcq-08": "「滿足原本未被充分服務的特定需求／空缺」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-09": "「靠差異化和努力逐步建立獨特的市場／專業定位」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。"
+        "niche-pdf-001": "本句的「ecological niche」指「物種如何利用環境、食物、空間及與其他生物互動的整體角色」。",
+        "niche-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-pdf-001"
     },
@@ -709,11 +595,7 @@ export default {
       "masked": "Changes in climate can alter ecological ____.",
       "options": [
         "niche-pdf-001",
-        "niche-mcq-06",
-        "niche-mcq-08",
-        "niche-mcq-05",
-        "niche-mcq-09",
-        "niche-mcq-04"
+        "niche-mcq-05"
       ],
       "explanation": "本句的「niches」指「物種如何利用環境、食物、空間及與其他生物互動的整體角色」。",
       "sentenceIndex": 20,
@@ -722,12 +604,8 @@ export default {
         "niches"
       ],
       "optionReasons": {
-        "niche-pdf-001": "本句指「物種如何利用環境、食物、空間及與其他生物互動的整體角色」。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。",
-        "niche-mcq-08": "「滿足原本未被充分服務的特定需求／空缺」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-09": "「靠差異化和努力逐步建立獨特的市場／專業定位」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。"
+        "niche-pdf-001": "本句的「niches」指「物種如何利用環境、食物、空間及與其他生物互動的整體角色」。",
+        "niche-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-pdf-001"
     },
@@ -740,9 +618,6 @@ export default {
       "options": [
         "niche-mcq-08",
         "niche-mcq-07",
-        "niche-mcq-09",
-        "niche-mcq-06",
-        "niche-mcq-05",
         "niche-mcq-04"
       ],
       "explanation": "本句的「fills a niche」指「滿足原本未被充分服務的特定需求／空缺」。",
@@ -752,12 +627,9 @@ export default {
         "fills a niche"
       ],
       "optionReasons": {
-        "niche-mcq-08": "本句指「滿足原本未被充分服務的特定需求／空缺」。",
-        "niche-mcq-07": "「一個物種在生態系統中的角色、資源使用方式和生存位置」與本句語境不同。",
-        "niche-mcq-09": "「靠差異化和努力逐步建立獨特的市場／專業定位」與本句語境不同。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。"
+        "niche-mcq-08": "本句的「fills a niche」指「滿足原本未被充分服務的特定需求／空缺」。",
+        "niche-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "niche-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-08"
     },
@@ -770,9 +642,6 @@ export default {
       "options": [
         "niche-mcq-08",
         "niche-mcq-07",
-        "niche-mcq-09",
-        "niche-mcq-06",
-        "niche-mcq-05",
         "niche-mcq-04"
       ],
       "explanation": "本句的「niche」指「滿足原本未被充分服務的特定需求／空缺」。",
@@ -782,12 +651,9 @@ export default {
         "niche"
       ],
       "optionReasons": {
-        "niche-mcq-08": "本句指「滿足原本未被充分服務的特定需求／空缺」。",
-        "niche-mcq-07": "「一個物種在生態系統中的角色、資源使用方式和生存位置」與本句語境不同。",
-        "niche-mcq-09": "「靠差異化和努力逐步建立獨特的市場／專業定位」與本句語境不同。",
-        "niche-mcq-06": "「牆面向內凹入、常用來放置雕像或裝飾物的小空間」與本句語境不同。",
-        "niche-mcq-05": "「專門為較小、特定客群設計的產品」與本句語境不同。",
-        "niche-mcq-04": "「因共同特殊興趣而形成的較小受眾群」與本句語境不同。"
+        "niche-mcq-08": "本句的「niche」指「滿足原本未被充分服務的特定需求／空缺」。",
+        "niche-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "niche-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "niche-mcq-08"
     }
@@ -799,5 +665,12 @@ export default {
     "sha256": "d36a0f95a6a6e2c917a2575852b43f1dc185c1a59409c5ae7c6e697d64025e75",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

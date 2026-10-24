@@ -493,10 +493,7 @@ export default {
       "options": [
         "organise-mcq-01",
         "organise-mcq-02",
-        "organise-mcq-03",
-        "organise-mcq-04",
-        "organise-mcq-05",
-        "organise-mcq-06"
+        "organise-mcq-08"
       ],
       "explanation": "本句的「well-organised」指「能有系統地安排時間、工作、物品和責任，做事不混亂的」。",
       "sentenceIndex": 0,
@@ -505,12 +502,9 @@ export default {
         "well-organised"
       ],
       "optionReasons": {
-        "organise-mcq-01": "本句指「能有系統地安排時間、工作、物品和責任，做事不混亂的」。",
-        "organise-mcq-02": "「按照清晰次序、類別或結構把物件／資料整理好」是「organise objects/files/information」的用法，與本句語境不同。",
-        "organise-mcq-03": "「把分散或混亂的思想按照清晰邏輯排列」是「organise thoughts/ideas」的用法，與本句語境不同。",
-        "organise-mcq-04": "「規劃並協調人員、時間、地點和資源，使活動順利進行」是「organise an event/activity」的用法，與本句語境不同。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。"
+        "organise-mcq-01": "本句的「well-organised」指「能有系統地安排時間、工作、物品和責任，做事不混亂的」。",
+        "organise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-01"
     },
@@ -523,10 +517,7 @@ export default {
       "options": [
         "organise-mcq-01",
         "organise-mcq-02",
-        "organise-mcq-03",
-        "organise-mcq-04",
-        "organise-mcq-05",
-        "organise-mcq-06"
+        "organise-mcq-08"
       ],
       "explanation": "本句的「organised」指「能有系統地安排時間、工作、物品和責任，做事不混亂的」。",
       "sentenceIndex": 1,
@@ -535,12 +526,9 @@ export default {
         "organised"
       ],
       "optionReasons": {
-        "organise-mcq-01": "本句指「能有系統地安排時間、工作、物品和責任，做事不混亂的」。",
-        "organise-mcq-02": "「按照清晰次序、類別或結構把物件／資料整理好」是「organise objects/files/information」的用法，與本句語境不同。",
-        "organise-mcq-03": "「把分散或混亂的思想按照清晰邏輯排列」是「organise thoughts/ideas」的用法，與本句語境不同。",
-        "organise-mcq-04": "「規劃並協調人員、時間、地點和資源，使活動順利進行」是「organise an event/activity」的用法，與本句語境不同。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。"
+        "organise-mcq-01": "本句的「organised」指「能有系統地安排時間、工作、物品和責任，做事不混亂的」。",
+        "organise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-01"
     },
@@ -553,10 +541,7 @@ export default {
       "options": [
         "organise-mcq-01",
         "organise-mcq-02",
-        "organise-mcq-03",
-        "organise-mcq-04",
-        "organise-mcq-05",
-        "organise-mcq-06"
+        "organise-mcq-19"
       ],
       "explanation": "本句的「well-organised」指「能有系統地安排時間、工作、物品和責任，做事不混亂的」。",
       "sentenceIndex": 2,
@@ -565,12 +550,9 @@ export default {
         "well-organised"
       ],
       "optionReasons": {
-        "organise-mcq-01": "本句指「能有系統地安排時間、工作、物品和責任，做事不混亂的」。",
-        "organise-mcq-02": "「按照清晰次序、類別或結構把物件／資料整理好」是「organise objects/files/information」的用法，與本句語境不同。",
-        "organise-mcq-03": "「把分散或混亂的思想按照清晰邏輯排列」是「organise thoughts/ideas」的用法，與本句語境不同。",
-        "organise-mcq-04": "「規劃並協調人員、時間、地點和資源，使活動順利進行」是「organise an event/activity」的用法，與本句語境不同。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。"
+        "organise-mcq-01": "本句的「well-organised」指「能有系統地安排時間、工作、物品和責任，做事不混亂的」。",
+        "organise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-01"
     },
@@ -582,11 +564,8 @@ export default {
       "masked": "I need to ____ these files.",
       "options": [
         "organise-mcq-02",
-        "organise-mcq-01",
-        "organise-mcq-03",
-        "organise-mcq-04",
         "organise-mcq-05",
-        "organise-mcq-06"
+        "organise-mcq-08"
       ],
       "explanation": "本句的「organise」指「按照清晰次序、類別或結構把物件／資料整理好」。",
       "sentenceIndex": 3,
@@ -595,12 +574,9 @@ export default {
         "organise"
       ],
       "optionReasons": {
-        "organise-mcq-02": "本句指「按照清晰次序、類別或結構把物件／資料整理好」。",
-        "organise-mcq-01": "「能有系統地安排時間、工作、物品和責任，做事不混亂的」是「organised person」的用法，與本句語境不同。",
-        "organise-mcq-03": "「把分散或混亂的思想按照清晰邏輯排列」是「organise thoughts/ideas」的用法，與本句語境不同。",
-        "organise-mcq-04": "「規劃並協調人員、時間、地點和資源，使活動順利進行」是「organise an event/activity」的用法，與本句語境不同。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。"
+        "organise-mcq-02": "本句的「organise」指「按照清晰次序、類別或結構把物件／資料整理好」。",
+        "organise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-02"
     },
@@ -612,11 +588,8 @@ export default {
       "masked": "She ____ the books by subject.",
       "options": [
         "organise-mcq-02",
-        "organise-mcq-01",
-        "organise-mcq-03",
-        "organise-mcq-04",
-        "organise-mcq-05",
-        "organise-mcq-06"
+        "organise-mcq-13",
+        "organise-mcq-19"
       ],
       "explanation": "本句的「organised」指「按照清晰次序、類別或結構把物件／資料整理好」。",
       "sentenceIndex": 4,
@@ -625,12 +598,9 @@ export default {
         "organised"
       ],
       "optionReasons": {
-        "organise-mcq-02": "本句指「按照清晰次序、類別或結構把物件／資料整理好」。",
-        "organise-mcq-01": "「能有系統地安排時間、工作、物品和責任，做事不混亂的」是「organised person」的用法，與本句語境不同。",
-        "organise-mcq-03": "「把分散或混亂的思想按照清晰邏輯排列」是「organise thoughts/ideas」的用法，與本句語境不同。",
-        "organise-mcq-04": "「規劃並協調人員、時間、地點和資源，使活動順利進行」是「organise an event/activity」的用法，與本句語境不同。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。"
+        "organise-mcq-02": "本句的「organised」指「按照清晰次序、類別或結構把物件／資料整理好」。",
+        "organise-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-02"
     },
@@ -642,11 +612,8 @@ export default {
       "masked": "Give me a moment to ____.",
       "options": [
         "organise-mcq-03",
-        "organise-mcq-02",
         "organise-mcq-04",
-        "organise-mcq-01",
-        "organise-mcq-05",
-        "organise-mcq-06"
+        "organise-mcq-14"
       ],
       "explanation": "本句的「organise my thoughts」指「把分散或混亂的思想按照清晰邏輯排列」。",
       "sentenceIndex": 5,
@@ -655,12 +622,9 @@ export default {
         "organise my thoughts"
       ],
       "optionReasons": {
-        "organise-mcq-03": "本句指「把分散或混亂的思想按照清晰邏輯排列」。",
-        "organise-mcq-02": "「按照清晰次序、類別或結構把物件／資料整理好」是「organise objects/files/information」的用法，與本句語境不同。",
-        "organise-mcq-04": "「規劃並協調人員、時間、地點和資源，使活動順利進行」是「organise an event/activity」的用法，與本句語境不同。",
-        "organise-mcq-01": "「能有系統地安排時間、工作、物品和責任，做事不混亂的」是「organised person」的用法，與本句語境不同。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。"
+        "organise-mcq-03": "本句的「organise my thoughts」指「把分散或混亂的思想按照清晰邏輯排列」。",
+        "organise-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-03"
     },
@@ -672,11 +636,9 @@ export default {
       "masked": "The outline helped her ____ before writing.",
       "options": [
         "organise-mcq-03",
-        "organise-mcq-02",
-        "organise-mcq-04",
-        "organise-mcq-01",
-        "organise-mcq-05",
-        "organise-mcq-06"
+        "organise-mcq-20",
+        "organise-mcq-14",
+        "organise-mcq-08"
       ],
       "explanation": "本句的「organise her ideas」指「把分散或混亂的思想按照清晰邏輯排列」。",
       "sentenceIndex": 6,
@@ -685,12 +647,10 @@ export default {
         "organise her ideas"
       ],
       "optionReasons": {
-        "organise-mcq-03": "本句指「把分散或混亂的思想按照清晰邏輯排列」。",
-        "organise-mcq-02": "「按照清晰次序、類別或結構把物件／資料整理好」是「organise objects/files/information」的用法，與本句語境不同。",
-        "organise-mcq-04": "「規劃並協調人員、時間、地點和資源，使活動順利進行」是「organise an event/activity」的用法，與本句語境不同。",
-        "organise-mcq-01": "「能有系統地安排時間、工作、物品和責任，做事不混亂的」是「organised person」的用法，與本句語境不同。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。"
+        "organise-mcq-03": "本句的「organise her ideas」指「把分散或混亂的思想按照清晰邏輯排列」。",
+        "organise-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-03"
     },
@@ -703,10 +663,7 @@ export default {
       "options": [
         "organise-mcq-04",
         "organise-mcq-03",
-        "organise-mcq-05",
-        "organise-mcq-02",
-        "organise-mcq-06",
-        "organise-mcq-01"
+        "organise-mcq-14"
       ],
       "explanation": "本句的「organised」指「規劃並協調人員、時間、地點和資源，使活動順利進行」。",
       "sentenceIndex": 7,
@@ -715,12 +672,9 @@ export default {
         "organised"
       ],
       "optionReasons": {
-        "organise-mcq-04": "本句指「規劃並協調人員、時間、地點和資源，使活動順利進行」。",
-        "organise-mcq-03": "「把分散或混亂的思想按照清晰邏輯排列」是「organise thoughts/ideas」的用法，與本句語境不同。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。",
-        "organise-mcq-02": "「按照清晰次序、類別或結構把物件／資料整理好」是「organise objects/files/information」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。",
-        "organise-mcq-01": "「能有系統地安排時間、工作、物品和責任，做事不混亂的」是「organised person」的用法，與本句語境不同。"
+        "organise-mcq-04": "本句的「organised」指「規劃並協調人員、時間、地點和資源，使活動順利進行」。",
+        "organise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-04"
     },
@@ -732,11 +686,7 @@ export default {
       "masked": "She is ____ a meeting for next Friday.",
       "options": [
         "organise-mcq-04",
-        "organise-mcq-03",
-        "organise-mcq-05",
-        "organise-mcq-02",
-        "organise-mcq-06",
-        "organise-mcq-01"
+        "organise-mcq-12"
       ],
       "explanation": "本句的「organising」指「規劃並協調人員、時間、地點和資源，使活動順利進行」。",
       "sentenceIndex": 8,
@@ -745,12 +695,8 @@ export default {
         "organising"
       ],
       "optionReasons": {
-        "organise-mcq-04": "本句指「規劃並協調人員、時間、地點和資源，使活動順利進行」。",
-        "organise-mcq-03": "「把分散或混亂的思想按照清晰邏輯排列」是「organise thoughts/ideas」的用法，與本句語境不同。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。",
-        "organise-mcq-02": "「按照清晰次序、類別或結構把物件／資料整理好」是「organise objects/files/information」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。",
-        "organise-mcq-01": "「能有系統地安排時間、工作、物品和責任，做事不混亂的」是「organised person」的用法，與本句語境不同。"
+        "organise-mcq-04": "本句的「organising」指「規劃並協調人員、時間、地點和資源，使活動順利進行」。",
+        "organise-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-04"
     },
@@ -762,11 +708,8 @@ export default {
       "masked": "The company ____ for the staff.",
       "options": [
         "organise-mcq-05",
-        "organise-mcq-04",
-        "organise-mcq-06",
-        "organise-mcq-03",
-        "organise-mcq-07",
-        "organise-mcq-02"
+        "organise-mcq-08",
+        "organise-mcq-06"
       ],
       "explanation": "本句的「organised transport」指「把交通、住宿、會議等實際需要協調安排妥當」。",
       "sentenceIndex": 9,
@@ -775,12 +718,9 @@ export default {
         "organised transport"
       ],
       "optionReasons": {
-        "organise-mcq-05": "本句指「把交通、住宿、會議等實際需要協調安排妥當」。",
-        "organise-mcq-04": "「規劃並協調人員、時間、地點和資源，使活動順利進行」是「organise an event/activity」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。",
-        "organise-mcq-03": "「把分散或混亂的思想按照清晰邏輯排列」是「organise thoughts/ideas」的用法，與本句語境不同。",
-        "organise-mcq-07": "「把多人按照共同目標、角色或結構組合起來」是「organise people」的用法，與本句語境不同。",
-        "organise-mcq-02": "「按照清晰次序、類別或結構把物件／資料整理好」是「organise objects/files/information」的用法，與本句語境不同。"
+        "organise-mcq-05": "本句的「organised transport」指「把交通、住宿、會議等實際需要協調安排妥當」。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-05"
     },
@@ -792,11 +732,8 @@ export default {
       "masked": "Can you ____ for the visitors?",
       "options": [
         "organise-mcq-05",
-        "organise-mcq-04",
-        "organise-mcq-06",
-        "organise-mcq-03",
-        "organise-mcq-07",
-        "organise-mcq-02"
+        "organise-mcq-19",
+        "organise-mcq-06"
       ],
       "explanation": "本句的「organise accommodation」指「把交通、住宿、會議等實際需要協調安排妥當」。",
       "sentenceIndex": 10,
@@ -805,12 +742,9 @@ export default {
         "organise accommodation"
       ],
       "optionReasons": {
-        "organise-mcq-05": "本句指「把交通、住宿、會議等實際需要協調安排妥當」。",
-        "organise-mcq-04": "「規劃並協調人員、時間、地點和資源，使活動順利進行」是「organise an event/activity」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。",
-        "organise-mcq-03": "「把分散或混亂的思想按照清晰邏輯排列」是「organise thoughts/ideas」的用法，與本句語境不同。",
-        "organise-mcq-07": "「把多人按照共同目標、角色或結構組合起來」是「organise people」的用法，與本句語境不同。",
-        "organise-mcq-02": "「按照清晰次序、類別或結構把物件／資料整理好」是「organise objects/files/information」的用法，與本句語境不同。"
+        "organise-mcq-05": "本句的「organise accommodation」指「把交通、住宿、會議等實際需要協調安排妥當」。",
+        "organise-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-05"
     },
@@ -822,11 +756,7 @@ export default {
       "masked": "She knows how to ____ efficiently.",
       "options": [
         "organise-mcq-06",
-        "organise-mcq-05",
-        "organise-mcq-07",
-        "organise-mcq-04",
-        "organise-mcq-08",
-        "organise-mcq-03"
+        "organise-mcq-11"
       ],
       "explanation": "本句的「organise her time」指「有系統地分配時間、工作和優先次序」。",
       "sentenceIndex": 11,
@@ -835,12 +765,8 @@ export default {
         "organise her time"
       ],
       "optionReasons": {
-        "organise-mcq-06": "本句指「有系統地分配時間、工作和優先次序」。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。",
-        "organise-mcq-07": "「把多人按照共同目標、角色或結構組合起來」是「organise people」的用法，與本句語境不同。",
-        "organise-mcq-04": "「規劃並協調人員、時間、地點和資源，使活動順利進行」是「organise an event/activity」的用法，與本句語境不同。",
-        "organise-mcq-08": "「把工人組織成具有集體代表性的團體，尤其涉及工會活動」是「organise workers」的用法，與本句語境不同。",
-        "organise-mcq-03": "「把分散或混亂的思想按照清晰邏輯排列」是「organise thoughts/ideas」的用法，與本句語境不同。"
+        "organise-mcq-06": "本句的「organise her time」指「有系統地分配時間、工作和優先次序」。",
+        "organise-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-06"
     },
@@ -852,11 +778,8 @@ export default {
       "masked": "I need to ____ before taking on another task.",
       "options": [
         "organise-mcq-06",
-        "organise-mcq-05",
         "organise-mcq-07",
-        "organise-mcq-04",
-        "organise-mcq-08",
-        "organise-mcq-03"
+        "organise-mcq-08"
       ],
       "explanation": "本句的「organise my workload」指「有系統地分配時間、工作和優先次序」。",
       "sentenceIndex": 12,
@@ -865,12 +788,9 @@ export default {
         "organise my workload"
       ],
       "optionReasons": {
-        "organise-mcq-06": "本句指「有系統地分配時間、工作和優先次序」。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。",
-        "organise-mcq-07": "「把多人按照共同目標、角色或結構組合起來」是「organise people」的用法，與本句語境不同。",
-        "organise-mcq-04": "「規劃並協調人員、時間、地點和資源，使活動順利進行」是「organise an event/activity」的用法，與本句語境不同。",
-        "organise-mcq-08": "「把工人組織成具有集體代表性的團體，尤其涉及工會活動」是「organise workers」的用法，與本句語境不同。",
-        "organise-mcq-03": "「把分散或混亂的思想按照清晰邏輯排列」是「organise thoughts/ideas」的用法，與本句語境不同。"
+        "organise-mcq-06": "本句的「organise my workload」指「有系統地分配時間、工作和優先次序」。",
+        "organise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-06"
     },
@@ -883,10 +803,7 @@ export default {
       "options": [
         "organise-mcq-07",
         "organise-mcq-06",
-        "organise-mcq-08",
-        "organise-mcq-05",
-        "organise-mcq-09",
-        "organise-mcq-04"
+        "organise-mcq-08"
       ],
       "explanation": "本句的「organised into teams」指「把多人按照共同目標、角色或結構組合起來」。",
       "sentenceIndex": 13,
@@ -895,12 +812,9 @@ export default {
         "organised into teams"
       ],
       "optionReasons": {
-        "organise-mcq-07": "本句指「把多人按照共同目標、角色或結構組合起來」。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。",
-        "organise-mcq-08": "「把工人組織成具有集體代表性的團體，尤其涉及工會活動」是「organise workers」的用法，與本句語境不同。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。",
-        "organise-mcq-09": "「各部分按照清楚、合理的結構或計劃安排的」是「organised — information/activity」的用法，與本句語境不同。",
-        "organise-mcq-04": "「規劃並協調人員、時間、地點和資源，使活動順利進行」是「organise an event/activity」的用法，與本句語境不同。"
+        "organise-mcq-07": "本句的「organised into teams」指「把多人按照共同目標、角色或結構組合起來」。",
+        "organise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-07"
     },
@@ -913,10 +827,7 @@ export default {
       "options": [
         "organise-mcq-07",
         "organise-mcq-06",
-        "organise-mcq-08",
-        "organise-mcq-05",
-        "organise-mcq-09",
-        "organise-mcq-04"
+        "organise-mcq-08"
       ],
       "explanation": "本句的「organise the community」指「把多人按照共同目標、角色或結構組合起來」。",
       "sentenceIndex": 14,
@@ -925,12 +836,9 @@ export default {
         "organise the community"
       ],
       "optionReasons": {
-        "organise-mcq-07": "本句指「把多人按照共同目標、角色或結構組合起來」。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。",
-        "organise-mcq-08": "「把工人組織成具有集體代表性的團體，尤其涉及工會活動」是「organise workers」的用法，與本句語境不同。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。",
-        "organise-mcq-09": "「各部分按照清楚、合理的結構或計劃安排的」是「organised — information/activity」的用法，與本句語境不同。",
-        "organise-mcq-04": "「規劃並協調人員、時間、地點和資源，使活動順利進行」是「organise an event/activity」的用法，與本句語境不同。"
+        "organise-mcq-07": "本句的「organise the community」指「把多人按照共同目標、角色或結構組合起來」。",
+        "organise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-07"
     },
@@ -942,10 +850,7 @@ export default {
       "masked": "Workers began to ____ for better conditions.",
       "options": [
         "organise-mcq-08",
-        "organise-mcq-07",
-        "organise-mcq-09",
-        "organise-mcq-06",
-        "organise-mcq-10",
+        "organise-mcq-12",
         "organise-mcq-05"
       ],
       "explanation": "本句的「organise」指「把工人組織成具有集體代表性的團體，尤其涉及工會活動」。",
@@ -955,12 +860,9 @@ export default {
         "organise"
       ],
       "optionReasons": {
-        "organise-mcq-08": "本句指「把工人組織成具有集體代表性的團體，尤其涉及工會活動」。",
-        "organise-mcq-07": "「把多人按照共同目標、角色或結構組合起來」是「organise people」的用法，與本句語境不同。",
-        "organise-mcq-09": "「各部分按照清楚、合理的結構或計劃安排的」是「organised — information/activity」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。",
-        "organise-mcq-10": "「把人、工作、資料或資源有系統安排協調的過程／能力」是「organisation — process」的用法，與本句語境不同。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。"
+        "organise-mcq-08": "本句的「organise」指「把工人組織成具有集體代表性的團體，尤其涉及工會活動」。",
+        "organise-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-08"
     },
@@ -972,11 +874,8 @@ export default {
       "masked": "The union tried to ____ workers at the factory.",
       "options": [
         "organise-mcq-08",
-        "organise-mcq-07",
-        "organise-mcq-09",
-        "organise-mcq-06",
-        "organise-mcq-10",
-        "organise-mcq-05"
+        "organise-mcq-12",
+        "organise-mcq-20"
       ],
       "explanation": "本句的「organise」指「把工人組織成具有集體代表性的團體，尤其涉及工會活動」。",
       "sentenceIndex": 16,
@@ -985,12 +884,9 @@ export default {
         "organise"
       ],
       "optionReasons": {
-        "organise-mcq-08": "本句指「把工人組織成具有集體代表性的團體，尤其涉及工會活動」。",
-        "organise-mcq-07": "「把多人按照共同目標、角色或結構組合起來」是「organise people」的用法，與本句語境不同。",
-        "organise-mcq-09": "「各部分按照清楚、合理的結構或計劃安排的」是「organised — information/activity」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。",
-        "organise-mcq-10": "「把人、工作、資料或資源有系統安排協調的過程／能力」是「organisation — process」的用法，與本句語境不同。",
-        "organise-mcq-05": "「把交通、住宿、會議等實際需要協調安排妥當」是「organise practical arrangements」的用法，與本句語境不同。"
+        "organise-mcq-08": "本句的「organise」指「把工人組織成具有集體代表性的團體，尤其涉及工會活動」。",
+        "organise-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-08"
     },
@@ -1003,10 +899,7 @@ export default {
       "options": [
         "organise-mcq-09",
         "organise-mcq-08",
-        "organise-mcq-10",
-        "organise-mcq-07",
-        "organise-mcq-11",
-        "organise-mcq-06"
+        "organise-mcq-14"
       ],
       "explanation": "本句的「well-organised」指「各部分按照清楚、合理的結構或計劃安排的」。",
       "sentenceIndex": 17,
@@ -1015,12 +908,9 @@ export default {
         "well-organised"
       ],
       "optionReasons": {
-        "organise-mcq-09": "本句指「各部分按照清楚、合理的結構或計劃安排的」。",
-        "organise-mcq-08": "「把工人組織成具有集體代表性的團體，尤其涉及工會活動」是「organise workers」的用法，與本句語境不同。",
-        "organise-mcq-10": "「把人、工作、資料或資源有系統安排協調的過程／能力」是「organisation — process」的用法，與本句語境不同。",
-        "organise-mcq-07": "「把多人按照共同目標、角色或結構組合起來」是「organise people」的用法，與本句語境不同。",
-        "organise-mcq-11": "「為共同目的建立並具有正式結構和成員的團體／機構」是「organisation — institution」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。"
+        "organise-mcq-09": "本句的「well-organised」指「各部分按照清楚、合理的結構或計劃安排的」。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-09"
     },
@@ -1033,9 +923,6 @@ export default {
       "options": [
         "organise-mcq-09",
         "organise-mcq-08",
-        "organise-mcq-10",
-        "organise-mcq-07",
-        "organise-mcq-11",
         "organise-mcq-06"
       ],
       "explanation": "本句的「organised」指「各部分按照清楚、合理的結構或計劃安排的」。",
@@ -1045,12 +932,9 @@ export default {
         "organised"
       ],
       "optionReasons": {
-        "organise-mcq-09": "本句指「各部分按照清楚、合理的結構或計劃安排的」。",
-        "organise-mcq-08": "「把工人組織成具有集體代表性的團體，尤其涉及工會活動」是「organise workers」的用法，與本句語境不同。",
-        "organise-mcq-10": "「把人、工作、資料或資源有系統安排協調的過程／能力」是「organisation — process」的用法，與本句語境不同。",
-        "organise-mcq-07": "「把多人按照共同目標、角色或結構組合起來」是「organise people」的用法，與本句語境不同。",
-        "organise-mcq-11": "「為共同目的建立並具有正式結構和成員的團體／機構」是「organisation — institution」的用法，與本句語境不同。",
-        "organise-mcq-06": "「有系統地分配時間、工作和優先次序」是「organise time/work」的用法，與本句語境不同。"
+        "organise-mcq-09": "本句的「organised」指「各部分按照清楚、合理的結構或計劃安排的」。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-09"
     },
@@ -1062,11 +946,9 @@ export default {
       "masked": "The protest was highly ____.",
       "options": [
         "organise-mcq-20",
-        "organise-mcq-19",
-        "organise-mcq-18",
-        "organise-mcq-17",
-        "organise-mcq-16",
-        "organise-mcq-15"
+        "organise-mcq-14",
+        "organise-mcq-03",
+        "organise-mcq-08"
       ],
       "explanation": "本句的「organised」指「事先有規劃、協調和結構，而不是完全臨時／自發進行的」。",
       "sentenceIndex": 19,
@@ -1075,12 +957,10 @@ export default {
         "organised"
       ],
       "optionReasons": {
-        "organise-mcq-20": "本句指「事先有規劃、協調和結構，而不是完全臨時／自發進行的」。",
-        "organise-mcq-19": "「具有正式教義、制度、領袖和組織架構的宗教體系」是「organised religion」的用法，與本句語境不同。",
-        "organise-mcq-18": "「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」是「organised crime」的用法，與本句語境不同。",
-        "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。"
+        "organise-mcq-20": "本句的「organised」指「事先有規劃、協調和結構，而不是完全臨時／自發進行的」。",
+        "organise-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-20"
     },
@@ -1092,11 +972,9 @@ export default {
       "masked": "They offer ____ for children during the holidays.",
       "options": [
         "organise-mcq-20",
-        "organise-mcq-19",
-        "organise-mcq-18",
-        "organise-mcq-17",
-        "organise-mcq-16",
-        "organise-mcq-15"
+        "organise-mcq-03",
+        "organise-mcq-14",
+        "organise-mcq-08"
       ],
       "explanation": "本句的「organised activities」指「事先有規劃、協調和結構，而不是完全臨時／自發進行的」。",
       "sentenceIndex": 20,
@@ -1105,12 +983,10 @@ export default {
         "organised activities"
       ],
       "optionReasons": {
-        "organise-mcq-20": "本句指「事先有規劃、協調和結構，而不是完全臨時／自發進行的」。",
-        "organise-mcq-19": "「具有正式教義、制度、領袖和組織架構的宗教體系」是「organised religion」的用法，與本句語境不同。",
-        "organise-mcq-18": "「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」是「organised crime」的用法，與本句語境不同。",
-        "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。"
+        "organise-mcq-20": "本句的「organised activities」指「事先有規劃、協調和結構，而不是完全臨時／自發進行的」。",
+        "organise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-20"
     },
@@ -1122,11 +998,8 @@ export default {
       "masked": "Good ____ is essential for a successful event.",
       "options": [
         "organise-mcq-10",
-        "organise-mcq-09",
-        "organise-mcq-11",
-        "organise-mcq-08",
-        "organise-mcq-12",
-        "organise-mcq-07"
+        "organise-mcq-03",
+        "organise-mcq-19"
       ],
       "explanation": "本句的「organisation」指「把人、工作、資料或資源有系統安排協調的過程／能力」。",
       "sentenceIndex": 21,
@@ -1135,12 +1008,9 @@ export default {
         "organisation"
       ],
       "optionReasons": {
-        "organise-mcq-10": "本句指「把人、工作、資料或資源有系統安排協調的過程／能力」。",
-        "organise-mcq-09": "「各部分按照清楚、合理的結構或計劃安排的」是「organised — information/activity」的用法，與本句語境不同。",
-        "organise-mcq-11": "「為共同目的建立並具有正式結構和成員的團體／機構」是「organisation — institution」的用法，與本句語境不同。",
-        "organise-mcq-08": "「把工人組織成具有集體代表性的團體，尤其涉及工會活動」是「organise workers」的用法，與本句語境不同。",
-        "organise-mcq-12": "「文章、系統等不同部分的排列和互相關係方式」是「organisation — structure」的用法，與本句語境不同。",
-        "organise-mcq-07": "「把多人按照共同目標、角色或結構組合起來」是「organise people」的用法，與本句語境不同。"
+        "organise-mcq-10": "本句的「organisation」指「把人、工作、資料或資源有系統安排協調的過程／能力」。",
+        "organise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-10"
     },
@@ -1152,11 +1022,8 @@ export default {
       "masked": "The project failed because of poor ____.",
       "options": [
         "organise-mcq-10",
-        "organise-mcq-09",
-        "organise-mcq-11",
-        "organise-mcq-08",
-        "organise-mcq-12",
-        "organise-mcq-07"
+        "organise-mcq-19",
+        "organise-mcq-03"
       ],
       "explanation": "本句的「organisation」指「把人、工作、資料或資源有系統安排協調的過程／能力」。",
       "sentenceIndex": 22,
@@ -1165,12 +1032,9 @@ export default {
         "organisation"
       ],
       "optionReasons": {
-        "organise-mcq-10": "本句指「把人、工作、資料或資源有系統安排協調的過程／能力」。",
-        "organise-mcq-09": "「各部分按照清楚、合理的結構或計劃安排的」是「organised — information/activity」的用法，與本句語境不同。",
-        "organise-mcq-11": "「為共同目的建立並具有正式結構和成員的團體／機構」是「organisation — institution」的用法，與本句語境不同。",
-        "organise-mcq-08": "「把工人組織成具有集體代表性的團體，尤其涉及工會活動」是「organise workers」的用法，與本句語境不同。",
-        "organise-mcq-12": "「文章、系統等不同部分的排列和互相關係方式」是「organisation — structure」的用法，與本句語境不同。",
-        "organise-mcq-07": "「把多人按照共同目標、角色或結構組合起來」是「organise people」的用法，與本句語境不同。"
+        "organise-mcq-10": "本句的「organisation」指「把人、工作、資料或資源有系統安排協調的過程／能力」。",
+        "organise-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-10"
     },
@@ -1182,11 +1046,8 @@ export default {
       "masked": "She works for an international ____.",
       "options": [
         "organise-mcq-11",
-        "organise-mcq-10",
-        "organise-mcq-12",
-        "organise-mcq-09",
-        "organise-mcq-13",
-        "organise-mcq-08"
+        "organise-mcq-03",
+        "organise-mcq-14"
       ],
       "explanation": "本句的「organisation」指「為共同目的建立並具有正式結構和成員的團體／機構」。",
       "sentenceIndex": 23,
@@ -1195,12 +1056,9 @@ export default {
         "organisation"
       ],
       "optionReasons": {
-        "organise-mcq-11": "本句指「為共同目的建立並具有正式結構和成員的團體／機構」。",
-        "organise-mcq-10": "「把人、工作、資料或資源有系統安排協調的過程／能力」是「organisation — process」的用法，與本句語境不同。",
-        "organise-mcq-12": "「文章、系統等不同部分的排列和互相關係方式」是「organisation — structure」的用法，與本句語境不同。",
-        "organise-mcq-09": "「各部分按照清楚、合理的結構或計劃安排的」是「organised — information/activity」的用法，與本句語境不同。",
-        "organise-mcq-13": "「負責規劃、安排和協調活動的人」是「organiser — person」的用法，與本句語境不同。",
-        "organise-mcq-08": "「把工人組織成具有集體代表性的團體，尤其涉及工會活動」是「organise workers」的用法，與本句語境不同。"
+        "organise-mcq-11": "本句的「organisation」指「為共同目的建立並具有正式結構和成員的團體／機構」。",
+        "organise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-11"
     },
@@ -1212,11 +1070,7 @@ export default {
       "masked": "The charity is a non-profit ____.",
       "options": [
         "organise-mcq-11",
-        "organise-mcq-10",
-        "organise-mcq-12",
-        "organise-mcq-09",
-        "organise-mcq-13",
-        "organise-mcq-08"
+        "organise-mcq-06"
       ],
       "explanation": "本句的「organisation」指「為共同目的建立並具有正式結構和成員的團體／機構」。",
       "sentenceIndex": 24,
@@ -1225,12 +1079,8 @@ export default {
         "organisation"
       ],
       "optionReasons": {
-        "organise-mcq-11": "本句指「為共同目的建立並具有正式結構和成員的團體／機構」。",
-        "organise-mcq-10": "「把人、工作、資料或資源有系統安排協調的過程／能力」是「organisation — process」的用法，與本句語境不同。",
-        "organise-mcq-12": "「文章、系統等不同部分的排列和互相關係方式」是「organisation — structure」的用法，與本句語境不同。",
-        "organise-mcq-09": "「各部分按照清楚、合理的結構或計劃安排的」是「organised — information/activity」的用法，與本句語境不同。",
-        "organise-mcq-13": "「負責規劃、安排和協調活動的人」是「organiser — person」的用法，與本句語境不同。",
-        "organise-mcq-08": "「把工人組織成具有集體代表性的團體，尤其涉及工會活動」是「organise workers」的用法，與本句語境不同。"
+        "organise-mcq-11": "本句的「organisation」指「為共同目的建立並具有正式結構和成員的團體／機構」。",
+        "organise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-11"
     },
@@ -1242,11 +1092,8 @@ export default {
       "masked": "The ____ of the essay is very clear.",
       "options": [
         "organise-mcq-12",
-        "organise-mcq-11",
-        "organise-mcq-13",
-        "organise-mcq-10",
-        "organise-mcq-14",
-        "organise-mcq-09"
+        "organise-mcq-16",
+        "organise-mcq-08"
       ],
       "explanation": "本句的「organisation」指「文章、系統等不同部分的排列和互相關係方式」。",
       "sentenceIndex": 25,
@@ -1255,12 +1102,9 @@ export default {
         "organisation"
       ],
       "optionReasons": {
-        "organise-mcq-12": "本句指「文章、系統等不同部分的排列和互相關係方式」。",
-        "organise-mcq-11": "「為共同目的建立並具有正式結構和成員的團體／機構」是「organisation — institution」的用法，與本句語境不同。",
-        "organise-mcq-13": "「負責規劃、安排和協調活動的人」是「organiser — person」的用法，與本句語境不同。",
-        "organise-mcq-10": "「把人、工作、資料或資源有系統安排協調的過程／能力」是「organisation — process」的用法，與本句語境不同。",
-        "organise-mcq-14": "「用來整理物件、資料或日程的工具／裝置」是「organiser — tool」的用法，與本句語境不同。",
-        "organise-mcq-09": "「各部分按照清楚、合理的結構或計劃安排的」是「organised — information/activity」的用法，與本句語境不同。"
+        "organise-mcq-12": "本句的「organisation」指「文章、系統等不同部分的排列和互相關係方式」。",
+        "organise-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-12"
     },
@@ -1272,11 +1116,7 @@ export default {
       "masked": "The book’s ____ makes it easy to follow.",
       "options": [
         "organise-mcq-12",
-        "organise-mcq-11",
-        "organise-mcq-13",
-        "organise-mcq-10",
-        "organise-mcq-14",
-        "organise-mcq-09"
+        "organise-mcq-04"
       ],
       "explanation": "本句的「organisation」指「文章、系統等不同部分的排列和互相關係方式」。",
       "sentenceIndex": 26,
@@ -1285,12 +1125,8 @@ export default {
         "organisation"
       ],
       "optionReasons": {
-        "organise-mcq-12": "本句指「文章、系統等不同部分的排列和互相關係方式」。",
-        "organise-mcq-11": "「為共同目的建立並具有正式結構和成員的團體／機構」是「organisation — institution」的用法，與本句語境不同。",
-        "organise-mcq-13": "「負責規劃、安排和協調活動的人」是「organiser — person」的用法，與本句語境不同。",
-        "organise-mcq-10": "「把人、工作、資料或資源有系統安排協調的過程／能力」是「organisation — process」的用法，與本句語境不同。",
-        "organise-mcq-14": "「用來整理物件、資料或日程的工具／裝置」是「organiser — tool」的用法，與本句語境不同。",
-        "organise-mcq-09": "「各部分按照清楚、合理的結構或計劃安排的」是「organised — information/activity」的用法，與本句語境不同。"
+        "organise-mcq-12": "本句的「organisation」指「文章、系統等不同部分的排列和互相關係方式」。",
+        "organise-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-12"
     },
@@ -1302,11 +1138,9 @@ export default {
       "masked": "The event ____ thanked all the volunteers.",
       "options": [
         "organise-mcq-13",
-        "organise-mcq-12",
         "organise-mcq-14",
-        "organise-mcq-11",
-        "organise-mcq-15",
-        "organise-mcq-10"
+        "organise-mcq-19",
+        "organise-mcq-03"
       ],
       "explanation": "本句的「organiser」指「負責規劃、安排和協調活動的人」。",
       "sentenceIndex": 27,
@@ -1315,12 +1149,10 @@ export default {
         "organiser"
       ],
       "optionReasons": {
-        "organise-mcq-13": "本句指「負責規劃、安排和協調活動的人」。",
-        "organise-mcq-12": "「文章、系統等不同部分的排列和互相關係方式」是「organisation — structure」的用法，與本句語境不同。",
-        "organise-mcq-14": "「用來整理物件、資料或日程的工具／裝置」是「organiser — tool」的用法，與本句語境不同。",
-        "organise-mcq-11": "「為共同目的建立並具有正式結構和成員的團體／機構」是「organisation — institution」的用法，與本句語境不同。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。",
-        "organise-mcq-10": "「把人、工作、資料或資源有系統安排協調的過程／能力」是「organisation — process」的用法，與本句語境不同。"
+        "organise-mcq-13": "本句的「organiser」指「負責規劃、安排和協調活動的人」。",
+        "organise-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-13"
     },
@@ -1332,11 +1164,8 @@ export default {
       "masked": "Please contact the conference ____ for details.",
       "options": [
         "organise-mcq-13",
-        "organise-mcq-12",
-        "organise-mcq-14",
-        "organise-mcq-11",
-        "organise-mcq-15",
-        "organise-mcq-10"
+        "organise-mcq-02",
+        "organise-mcq-19"
       ],
       "explanation": "本句的「organiser」指「負責規劃、安排和協調活動的人」。",
       "sentenceIndex": 28,
@@ -1345,12 +1174,9 @@ export default {
         "organiser"
       ],
       "optionReasons": {
-        "organise-mcq-13": "本句指「負責規劃、安排和協調活動的人」。",
-        "organise-mcq-12": "「文章、系統等不同部分的排列和互相關係方式」是「organisation — structure」的用法，與本句語境不同。",
-        "organise-mcq-14": "「用來整理物件、資料或日程的工具／裝置」是「organiser — tool」的用法，與本句語境不同。",
-        "organise-mcq-11": "「為共同目的建立並具有正式結構和成員的團體／機構」是「organisation — institution」的用法，與本句語境不同。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。",
-        "organise-mcq-10": "「把人、工作、資料或資源有系統安排協調的過程／能力」是「organisation — process」的用法，與本句語境不同。"
+        "organise-mcq-13": "本句的「organiser」指「負責規劃、安排和協調活動的人」。",
+        "organise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-13"
     },
@@ -1362,11 +1188,8 @@ export default {
       "masked": "She keeps appointments in a digital ____.",
       "options": [
         "organise-mcq-14",
-        "organise-mcq-13",
-        "organise-mcq-15",
-        "organise-mcq-12",
-        "organise-mcq-16",
-        "organise-mcq-11"
+        "organise-mcq-03",
+        "organise-mcq-17"
       ],
       "explanation": "本句的「organiser」指「用來整理物件、資料或日程的工具／裝置」。",
       "sentenceIndex": 29,
@@ -1375,12 +1198,9 @@ export default {
         "organiser"
       ],
       "optionReasons": {
-        "organise-mcq-14": "本句指「用來整理物件、資料或日程的工具／裝置」。",
-        "organise-mcq-13": "「負責規劃、安排和協調活動的人」是「organiser — person」的用法，與本句語境不同。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。",
-        "organise-mcq-12": "「文章、系統等不同部分的排列和互相關係方式」是「organisation — structure」的用法，與本句語境不同。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-11": "「為共同目的建立並具有正式結構和成員的團體／機構」是「organisation — institution」的用法，與本句語境不同。"
+        "organise-mcq-14": "本句的「organiser」指「用來整理物件、資料或日程的工具／裝置」。",
+        "organise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-14"
     },
@@ -1392,11 +1212,9 @@ export default {
       "masked": "I bought a desk ____ for my pens and papers.",
       "options": [
         "organise-mcq-14",
+        "organise-mcq-03",
         "organise-mcq-13",
-        "organise-mcq-15",
-        "organise-mcq-12",
-        "organise-mcq-16",
-        "organise-mcq-11"
+        "organise-mcq-19"
       ],
       "explanation": "本句的「organiser」指「用來整理物件、資料或日程的工具／裝置」。",
       "sentenceIndex": 30,
@@ -1405,12 +1223,10 @@ export default {
         "organiser"
       ],
       "optionReasons": {
-        "organise-mcq-14": "本句指「用來整理物件、資料或日程的工具／裝置」。",
-        "organise-mcq-13": "「負責規劃、安排和協調活動的人」是「organiser — person」的用法，與本句語境不同。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。",
-        "organise-mcq-12": "「文章、系統等不同部分的排列和互相關係方式」是「organisation — structure」的用法，與本句語境不同。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-11": "「為共同目的建立並具有正式結構和成員的團體／機構」是「organisation — institution」的用法，與本句語境不同。"
+        "organise-mcq-14": "本句的「organiser」指「用來整理物件、資料或日程的工具／裝置」。",
+        "organise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-14"
     },
@@ -1422,11 +1238,7 @@ export default {
       "masked": "She has excellent ____.",
       "options": [
         "organise-mcq-15",
-        "organise-mcq-14",
-        "organise-mcq-16",
-        "organise-mcq-13",
-        "organise-mcq-17",
-        "organise-mcq-12"
+        "organise-mcq-06"
       ],
       "explanation": "本句的「organisational skills」指「與機構結構、管理或組織安排能力有關的」。",
       "sentenceIndex": 31,
@@ -1435,12 +1247,8 @@ export default {
         "organisational skills"
       ],
       "optionReasons": {
-        "organise-mcq-15": "本句指「與機構結構、管理或組織安排能力有關的」。",
-        "organise-mcq-14": "「用來整理物件、資料或日程的工具／裝置」是「organiser — tool」的用法，與本句語境不同。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-13": "「負責規劃、安排和協調活動的人」是「organiser — person」的用法，與本句語境不同。",
-        "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
-        "organise-mcq-12": "「文章、系統等不同部分的排列和互相關係方式」是「organisation — structure」的用法，與本句語境不同。"
+        "organise-mcq-15": "本句的「organisational skills」指「與機構結構、管理或組織安排能力有關的」。",
+        "organise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-15"
     },
@@ -1452,11 +1260,7 @@ export default {
       "masked": "The company is making major ____.",
       "options": [
         "organise-mcq-15",
-        "organise-mcq-14",
-        "organise-mcq-16",
-        "organise-mcq-13",
-        "organise-mcq-17",
-        "organise-mcq-12"
+        "organise-mcq-06"
       ],
       "explanation": "本句的「organisational changes」指「與機構結構、管理或組織安排能力有關的」。",
       "sentenceIndex": 32,
@@ -1465,12 +1269,8 @@ export default {
         "organisational changes"
       ],
       "optionReasons": {
-        "organise-mcq-15": "本句指「與機構結構、管理或組織安排能力有關的」。",
-        "organise-mcq-14": "「用來整理物件、資料或日程的工具／裝置」是「organiser — tool」的用法，與本句語境不同。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-13": "「負責規劃、安排和協調活動的人」是「organiser — person」的用法，與本句語境不同。",
-        "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
-        "organise-mcq-12": "「文章、系統等不同部分的排列和互相關係方式」是「organisation — structure」的用法，與本句語境不同。"
+        "organise-mcq-15": "本句的「organisational changes」指「與機構結構、管理或組織安排能力有關的」。",
+        "organise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-15"
     },
@@ -1482,11 +1282,7 @@ export default {
       "masked": "Teachers need strong ____.",
       "options": [
         "organise-mcq-15",
-        "organise-mcq-14",
-        "organise-mcq-16",
-        "organise-mcq-13",
-        "organise-mcq-17",
-        "organise-mcq-12"
+        "organise-mcq-06"
       ],
       "explanation": "本句的「organisational skills」指「與機構結構、管理或組織安排能力有關的」。",
       "sentenceIndex": 33,
@@ -1495,12 +1291,8 @@ export default {
         "organisational skills"
       ],
       "optionReasons": {
-        "organise-mcq-15": "本句指「與機構結構、管理或組織安排能力有關的」。",
-        "organise-mcq-14": "「用來整理物件、資料或日程的工具／裝置」是「organiser — tool」的用法，與本句語境不同。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-13": "「負責規劃、安排和協調活動的人」是「organiser — person」的用法，與本句語境不同。",
-        "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
-        "organise-mcq-12": "「文章、系統等不同部分的排列和互相關係方式」是「organisation — structure」的用法，與本句語境不同。"
+        "organise-mcq-15": "本句的「organisational skills」指「與機構結構、管理或組織安排能力有關的」。",
+        "organise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-15"
     },
@@ -1512,11 +1304,7 @@ export default {
       "masked": "Her ____ skills help her manage several classes efficiently.",
       "options": [
         "organise-mcq-15",
-        "organise-mcq-14",
-        "organise-mcq-16",
-        "organise-mcq-13",
-        "organise-mcq-17",
-        "organise-mcq-12"
+        "organise-mcq-06"
       ],
       "explanation": "本句的「organisational」指「與機構結構、管理或組織安排能力有關的」。",
       "sentenceIndex": 34,
@@ -1525,12 +1313,8 @@ export default {
         "organisational"
       ],
       "optionReasons": {
-        "organise-mcq-15": "本句指「與機構結構、管理或組織安排能力有關的」。",
-        "organise-mcq-14": "「用來整理物件、資料或日程的工具／裝置」是「organiser — tool」的用法，與本句語境不同。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-13": "「負責規劃、安排和協調活動的人」是「organiser — person」的用法，與本句語境不同。",
-        "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
-        "organise-mcq-12": "「文章、系統等不同部分的排列和互相關係方式」是「organisation — structure」的用法，與本句語境不同。"
+        "organise-mcq-15": "本句的「organisational」指「與機構結構、管理或組織安排能力有關的」。",
+        "organise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-15"
     },
@@ -1542,11 +1326,8 @@ export default {
       "masked": "His desk was completely ____.",
       "options": [
         "organise-mcq-16",
-        "organise-mcq-15",
-        "organise-mcq-17",
-        "organise-mcq-14",
-        "organise-mcq-18",
-        "organise-mcq-13"
+        "organise-mcq-08",
+        "organise-mcq-12"
       ],
       "explanation": "本句的「disorganised」指「缺乏清晰次序、計劃或結構，因此顯得混亂的」。",
       "sentenceIndex": 35,
@@ -1555,12 +1336,9 @@ export default {
         "disorganised"
       ],
       "optionReasons": {
-        "organise-mcq-16": "本句指「缺乏清晰次序、計劃或結構，因此顯得混亂的」。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。",
-        "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
-        "organise-mcq-14": "「用來整理物件、資料或日程的工具／裝置」是「organiser — tool」的用法，與本句語境不同。",
-        "organise-mcq-18": "「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」是「organised crime」的用法，與本句語境不同。",
-        "organise-mcq-13": "「負責規劃、安排和協調活動的人」是「organiser — person」的用法，與本句語境不同。"
+        "organise-mcq-16": "本句的「disorganised」指「缺乏清晰次序、計劃或結構，因此顯得混亂的」。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-16"
     },
@@ -1572,11 +1350,8 @@ export default {
       "masked": "The meeting felt ____ because nobody knew what to do.",
       "options": [
         "organise-mcq-16",
-        "organise-mcq-15",
-        "organise-mcq-17",
-        "organise-mcq-14",
-        "organise-mcq-18",
-        "organise-mcq-13"
+        "organise-mcq-08",
+        "organise-mcq-14"
       ],
       "explanation": "本句的「disorganised」指「缺乏清晰次序、計劃或結構，因此顯得混亂的」。",
       "sentenceIndex": 36,
@@ -1585,12 +1360,9 @@ export default {
         "disorganised"
       ],
       "optionReasons": {
-        "organise-mcq-16": "本句指「缺乏清晰次序、計劃或結構，因此顯得混亂的」。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。",
-        "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
-        "organise-mcq-14": "「用來整理物件、資料或日程的工具／裝置」是「organiser — tool」的用法，與本句語境不同。",
-        "organise-mcq-18": "「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」是「organised crime」的用法，與本句語境不同。",
-        "organise-mcq-13": "「負責規劃、安排和協調活動的人」是「organiser — person」的用法，與本句語境不同。"
+        "organise-mcq-16": "本句的「disorganised」指「缺乏清晰次序、計劃或結構，因此顯得混亂的」。",
+        "organise-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-16"
     },
@@ -1602,11 +1374,7 @@ export default {
       "masked": "We need to ____ the filing system.",
       "options": [
         "organise-mcq-17",
-        "organise-mcq-16",
-        "organise-mcq-18",
-        "organise-mcq-15",
-        "organise-mcq-19",
-        "organise-mcq-14"
+        "organise-mcq-06"
       ],
       "explanation": "本句的「reorganise」指「改變原有安排／結構並重新建立新的組織方式」。",
       "sentenceIndex": 37,
@@ -1615,12 +1383,8 @@ export default {
         "reorganise"
       ],
       "optionReasons": {
-        "organise-mcq-17": "本句指「改變原有安排／結構並重新建立新的組織方式」。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-18": "「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」是「organised crime」的用法，與本句語境不同。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。",
-        "organise-mcq-19": "「具有正式教義、制度、領袖和組織架構的宗教體系」是「organised religion」的用法，與本句語境不同。",
-        "organise-mcq-14": "「用來整理物件、資料或日程的工具／裝置」是「organiser — tool」的用法，與本句語境不同。"
+        "organise-mcq-17": "本句的「reorganise」指「改變原有安排／結構並重新建立新的組織方式」。",
+        "organise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-17"
     },
@@ -1632,11 +1396,7 @@ export default {
       "masked": "The company decided to ____ its departments.",
       "options": [
         "organise-mcq-17",
-        "organise-mcq-16",
-        "organise-mcq-18",
-        "organise-mcq-15",
-        "organise-mcq-19",
-        "organise-mcq-14"
+        "organise-mcq-06"
       ],
       "explanation": "本句的「reorganise」指「改變原有安排／結構並重新建立新的組織方式」。",
       "sentenceIndex": 38,
@@ -1645,12 +1405,8 @@ export default {
         "reorganise"
       ],
       "optionReasons": {
-        "organise-mcq-17": "本句指「改變原有安排／結構並重新建立新的組織方式」。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-18": "「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」是「organised crime」的用法，與本句語境不同。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。",
-        "organise-mcq-19": "「具有正式教義、制度、領袖和組織架構的宗教體系」是「organised religion」的用法，與本句語境不同。",
-        "organise-mcq-14": "「用來整理物件、資料或日程的工具／裝置」是「organiser — tool」的用法，與本句語境不同。"
+        "organise-mcq-17": "本句的「reorganise」指「改變原有安排／結構並重新建立新的組織方式」。",
+        "organise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-17"
     },
@@ -1662,11 +1418,7 @@ export default {
       "masked": "The company announced a major ____.",
       "options": [
         "organise-pdf-001",
-        "organise-mcq-17",
-        "organise-mcq-19",
-        "organise-mcq-16",
-        "organise-mcq-20",
-        "organise-mcq-15"
+        "organise-mcq-06"
       ],
       "explanation": "本句的「reorganisation」指「對原有結構、部門、資訊或安排進行重新組織的過程」。",
       "sentenceIndex": 39,
@@ -1675,12 +1427,8 @@ export default {
         "reorganisation"
       ],
       "optionReasons": {
-        "organise-pdf-001": "本句指「對原有結構、部門、資訊或安排進行重新組織的過程」。",
-        "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
-        "organise-mcq-19": "「具有正式教義、制度、領袖和組織架構的宗教體系」是「organised religion」的用法，與本句語境不同。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-20": "「事先有規劃、協調和結構，而不是完全臨時／自發進行的」是「10. organised = planned/coordinated rather than spontaneous（活動） — 有組織的；有計劃」的用法，與本句語境不同。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。"
+        "organise-pdf-001": "本句的「reorganisation」指「對原有結構、部門、資訊或安排進行重新組織的過程」。",
+        "organise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-pdf-001"
     },
@@ -1692,11 +1440,7 @@ export default {
       "masked": "The ____ of the files took several days.",
       "options": [
         "organise-pdf-001",
-        "organise-mcq-17",
-        "organise-mcq-19",
-        "organise-mcq-16",
-        "organise-mcq-20",
-        "organise-mcq-15"
+        "organise-mcq-06"
       ],
       "explanation": "本句的「reorganisation」指「對原有結構、部門、資訊或安排進行重新組織的過程」。",
       "sentenceIndex": 40,
@@ -1705,12 +1449,8 @@ export default {
         "reorganisation"
       ],
       "optionReasons": {
-        "organise-pdf-001": "本句指「對原有結構、部門、資訊或安排進行重新組織的過程」。",
-        "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
-        "organise-mcq-19": "「具有正式教義、制度、領袖和組織架構的宗教體系」是「organised religion」的用法，與本句語境不同。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-20": "「事先有規劃、協調和結構，而不是完全臨時／自發進行的」是「10. organised = planned/coordinated rather than spontaneous（活動） — 有組織的；有計劃」的用法，與本句語境不同。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。"
+        "organise-pdf-001": "本句的「reorganisation」指「對原有結構、部門、資訊或安排進行重新組織的過程」。",
+        "organise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-pdf-001"
     },
@@ -1722,11 +1462,7 @@ export default {
       "masked": "The police created a unit to investigate ____.",
       "options": [
         "organise-mcq-18",
-        "organise-mcq-17",
-        "organise-mcq-19",
-        "organise-mcq-16",
-        "organise-mcq-20",
-        "organise-mcq-15"
+        "organise-mcq-01"
       ],
       "explanation": "本句的「organised crime」指「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」。",
       "sentenceIndex": 41,
@@ -1735,12 +1471,8 @@ export default {
         "organised crime"
       ],
       "optionReasons": {
-        "organise-mcq-18": "本句指「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」。",
-        "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
-        "organise-mcq-19": "「具有正式教義、制度、領袖和組織架構的宗教體系」是「organised religion」的用法，與本句語境不同。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-20": "「事先有規劃、協調和結構，而不是完全臨時／自發進行的」是「10. organised = planned/coordinated rather than spontaneous（活動） — 有組織的；有計劃」的用法，與本句語境不同。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。"
+        "organise-mcq-18": "本句的「organised crime」指「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」。",
+        "organise-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-18"
     },
@@ -1752,11 +1484,7 @@ export default {
       "masked": "____ crime often involves structured criminal networks.",
       "options": [
         "organise-mcq-18",
-        "organise-mcq-17",
-        "organise-mcq-19",
-        "organise-mcq-16",
-        "organise-mcq-20",
-        "organise-mcq-15"
+        "organise-mcq-12"
       ],
       "explanation": "本句的「Organised」指「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」。",
       "sentenceIndex": 42,
@@ -1765,12 +1493,8 @@ export default {
         "Organised"
       ],
       "optionReasons": {
-        "organise-mcq-18": "本句指「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」。",
-        "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
-        "organise-mcq-19": "「具有正式教義、制度、領袖和組織架構的宗教體系」是「organised religion」的用法，與本句語境不同。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-20": "「事先有規劃、協調和結構，而不是完全臨時／自發進行的」是「10. organised = planned/coordinated rather than spontaneous（活動） — 有組織的；有計劃」的用法，與本句語境不同。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。"
+        "organise-mcq-18": "本句的「Organised」指「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」。",
+        "organise-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-18"
     },
@@ -1782,11 +1506,9 @@ export default {
       "masked": "He is interested in spirituality but not in ____.",
       "options": [
         "organise-mcq-19",
-        "organise-mcq-18",
-        "organise-mcq-20",
-        "organise-mcq-17",
-        "organise-mcq-16",
-        "organise-mcq-15"
+        "organise-mcq-05",
+        "organise-mcq-03",
+        "organise-mcq-14"
       ],
       "explanation": "本句的「organised religion」指「具有正式教義、制度、領袖和組織架構的宗教體系」。",
       "sentenceIndex": 43,
@@ -1795,12 +1517,10 @@ export default {
         "organised religion"
       ],
       "optionReasons": {
-        "organise-mcq-19": "本句指「具有正式教義、制度、領袖和組織架構的宗教體系」。",
-        "organise-mcq-18": "「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」是「organised crime」的用法，與本句語境不同。",
-        "organise-mcq-20": "「事先有規劃、協調和結構，而不是完全臨時／自發進行的」是「10. organised = planned/coordinated rather than spontaneous（活動） — 有組織的；有計劃」的用法，與本句語境不同。",
-        "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。"
+        "organise-mcq-19": "本句的「organised religion」指「具有正式教義、制度、領袖和組織架構的宗教體系」。",
+        "organise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-19"
     },
@@ -1812,11 +1532,9 @@ export default {
       "masked": "The study examines the role of ____ religion in society.",
       "options": [
         "organise-mcq-19",
-        "organise-mcq-18",
-        "organise-mcq-20",
-        "organise-mcq-17",
-        "organise-mcq-16",
-        "organise-mcq-15"
+        "organise-mcq-05",
+        "organise-mcq-03",
+        "organise-mcq-14"
       ],
       "explanation": "本句的「organised」指「具有正式教義、制度、領袖和組織架構的宗教體系」。",
       "sentenceIndex": 44,
@@ -1825,12 +1543,10 @@ export default {
         "organised"
       ],
       "optionReasons": {
-        "organise-mcq-19": "本句指「具有正式教義、制度、領袖和組織架構的宗教體系」。",
-        "organise-mcq-18": "「由具有持續結構、分工和協調的犯罪團體進行的犯罪活動」是「organised crime」的用法，與本句語境不同。",
-        "organise-mcq-20": "「事先有規劃、協調和結構，而不是完全臨時／自發進行的」是「10. organised = planned/coordinated rather than spontaneous（活動） — 有組織的；有計劃」的用法，與本句語境不同。",
-        "organise-mcq-17": "「改變原有安排／結構並重新建立新的組織方式」是「reorganise」的用法，與本句語境不同。",
-        "organise-mcq-16": "「缺乏清晰次序、計劃或結構，因此顯得混亂的」是「disorganised」的用法，與本句語境不同。",
-        "organise-mcq-15": "「與機構結構、管理或組織安排能力有關的」是「organisational」的用法，與本句語境不同。"
+        "organise-mcq-19": "本句的「organised」指「具有正式教義、制度、領袖和組織架構的宗教體系」。",
+        "organise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "organise-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "organise-mcq-19"
     }
@@ -1842,5 +1558,7 @@ export default {
     "sha256": "fe47f0d67fcc276468f4541207fbefe18675477ce66a7d00217f0ee7cd1529b2",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

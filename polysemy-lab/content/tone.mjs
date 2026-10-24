@@ -1537,11 +1537,9 @@ export default {
       "masked": "His ____ sounded impatient.",
       "options": [
         "tone-mcq-02",
-        "tone-mcq-01",
-        "tone-mcq-03",
-        "tone-mcq-04",
-        "tone-mcq-05",
-        "tone-mcq-06"
+        "tone-mcq-63",
+        "tone-mcq-14",
+        "tone-mcq-89"
       ],
       "explanation": "本句的「tone of voice」指「說話聲音所呈現的態度或情緒」。",
       "sentenceIndex": 0,
@@ -1550,12 +1548,10 @@ export default {
         "tone of voice"
       ],
       "optionReasons": {
-        "tone-mcq-02": "本句指「說話聲音所呈現的態度或情緒」。",
-        "tone-mcq-01": "「說話時透過聲音表達出的情緒、態度或意圖；語氣／口吻」與本句語境不同。",
-        "tone-mcq-03": "「以某種語氣說話」與本句語境不同。",
-        "tone-mcq-04": "「採用某種口吻或態度」與本句語境不同。",
-        "tone-mcq-05": "「注意自己的說話口氣；別太無禮」與本句語境不同。",
-        "tone-mcq-06": "「注意你的語氣／口吻」與本句語境不同。"
+        "tone-mcq-02": "本句的「tone of voice」指「說話聲音所呈現的態度或情緒」。",
+        "tone-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-89": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-02"
     },
@@ -1567,11 +1563,9 @@ export default {
       "masked": "Try using a gentler ____.",
       "options": [
         "tone-mcq-02",
-        "tone-mcq-01",
-        "tone-mcq-03",
-        "tone-mcq-04",
-        "tone-mcq-05",
-        "tone-mcq-06"
+        "tone-mcq-40",
+        "tone-mcq-13",
+        "tone-mcq-78"
       ],
       "explanation": "本句的「tone of voice」指「說話聲音所呈現的態度或情緒」。",
       "sentenceIndex": 1,
@@ -1580,12 +1574,10 @@ export default {
         "tone of voice"
       ],
       "optionReasons": {
-        "tone-mcq-02": "本句指「說話聲音所呈現的態度或情緒」。",
-        "tone-mcq-01": "「說話時透過聲音表達出的情緒、態度或意圖；語氣／口吻」與本句語境不同。",
-        "tone-mcq-03": "「以某種語氣說話」與本句語境不同。",
-        "tone-mcq-04": "「採用某種口吻或態度」與本句語境不同。",
-        "tone-mcq-05": "「注意自己的說話口氣；別太無禮」與本句語境不同。",
-        "tone-mcq-06": "「注意你的語氣／口吻」與本句語境不同。"
+        "tone-mcq-02": "本句的「tone of voice」指「說話聲音所呈現的態度或情緒」。",
+        "tone-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-02"
     },
@@ -1597,11 +1589,9 @@ export default {
       "masked": "She spoke ____.",
       "options": [
         "tone-mcq-03",
-        "tone-mcq-02",
-        "tone-mcq-04",
-        "tone-mcq-01",
-        "tone-mcq-05",
-        "tone-mcq-06"
+        "tone-mcq-30",
+        "tone-mcq-84",
+        "tone-mcq-22"
       ],
       "explanation": "本句的「in a calm tone」指「以某種語氣說話」。",
       "sentenceIndex": 2,
@@ -1610,12 +1600,10 @@ export default {
         "in a calm tone"
       ],
       "optionReasons": {
-        "tone-mcq-03": "本句指「以某種語氣說話」。",
-        "tone-mcq-02": "「說話聲音所呈現的態度或情緒」與本句語境不同。",
-        "tone-mcq-04": "「採用某種口吻或態度」與本句語境不同。",
-        "tone-mcq-01": "「說話時透過聲音表達出的情緒、態度或意圖；語氣／口吻」與本句語境不同。",
-        "tone-mcq-05": "「注意自己的說話口氣；別太無禮」與本句語境不同。",
-        "tone-mcq-06": "「注意你的語氣／口吻」與本句語境不同。"
+        "tone-mcq-03": "本句的「in a calm tone」指「以某種語氣說話」。",
+        "tone-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-03"
     },
@@ -1627,11 +1615,9 @@ export default {
       "masked": "Leave me alone,” he said ____.",
       "options": [
         "tone-mcq-03",
-        "tone-mcq-02",
-        "tone-mcq-04",
-        "tone-mcq-01",
-        "tone-mcq-05",
-        "tone-mcq-06"
+        "tone-mcq-63",
+        "tone-mcq-86",
+        "tone-mcq-19"
       ],
       "explanation": "本句的「in a sharp tone」指「以某種語氣說話」。",
       "sentenceIndex": 3,
@@ -1640,12 +1626,10 @@ export default {
         "in a sharp tone"
       ],
       "optionReasons": {
-        "tone-mcq-03": "本句指「以某種語氣說話」。",
-        "tone-mcq-02": "「說話聲音所呈現的態度或情緒」與本句語境不同。",
-        "tone-mcq-04": "「採用某種口吻或態度」與本句語境不同。",
-        "tone-mcq-01": "「說話時透過聲音表達出的情緒、態度或意圖；語氣／口吻」與本句語境不同。",
-        "tone-mcq-05": "「注意自己的說話口氣；別太無禮」與本句語境不同。",
-        "tone-mcq-06": "「注意你的語氣／口吻」與本句語境不同。"
+        "tone-mcq-03": "本句的「in a sharp tone」指「以某種語氣說話」。",
+        "tone-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-03"
     },
@@ -1657,11 +1641,9 @@ export default {
       "masked": "His reply ____.",
       "options": [
         "tone-mcq-04",
-        "tone-mcq-03",
-        "tone-mcq-05",
-        "tone-mcq-02",
-        "tone-mcq-06",
-        "tone-mcq-01"
+        "tone-mcq-08",
+        "tone-mcq-33",
+        "tone-mcq-81"
       ],
       "explanation": "本句的「took a more serious tone」指「採用某種口吻或態度」。",
       "sentenceIndex": 4,
@@ -1670,12 +1652,10 @@ export default {
         "took a more serious tone"
       ],
       "optionReasons": {
-        "tone-mcq-04": "本句指「採用某種口吻或態度」。",
-        "tone-mcq-03": "「以某種語氣說話」與本句語境不同。",
-        "tone-mcq-05": "「注意自己的說話口氣；別太無禮」與本句語境不同。",
-        "tone-mcq-02": "「說話聲音所呈現的態度或情緒」與本句語境不同。",
-        "tone-mcq-06": "「注意你的語氣／口吻」與本句語境不同。",
-        "tone-mcq-01": "「說話時透過聲音表達出的情緒、態度或意圖；語氣／口吻」與本句語境不同。"
+        "tone-mcq-04": "本句的「took a more serious tone」指「採用某種口吻或態度」。",
+        "tone-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-81": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-04"
     },
@@ -1687,11 +1667,9 @@ export default {
       "masked": "The conversation suddenly ____.",
       "options": [
         "tone-mcq-04",
-        "tone-mcq-03",
-        "tone-mcq-05",
-        "tone-mcq-02",
-        "tone-mcq-06",
-        "tone-mcq-01"
+        "tone-mcq-57",
+        "tone-mcq-64",
+        "tone-mcq-72"
       ],
       "explanation": "本句的「took an angry tone」指「採用某種口吻或態度」。",
       "sentenceIndex": 5,
@@ -1700,12 +1678,10 @@ export default {
         "took an angry tone"
       ],
       "optionReasons": {
-        "tone-mcq-04": "本句指「採用某種口吻或態度」。",
-        "tone-mcq-03": "「以某種語氣說話」與本句語境不同。",
-        "tone-mcq-05": "「注意自己的說話口氣；別太無禮」與本句語境不同。",
-        "tone-mcq-02": "「說話聲音所呈現的態度或情緒」與本句語境不同。",
-        "tone-mcq-06": "「注意你的語氣／口吻」與本句語境不同。",
-        "tone-mcq-01": "「說話時透過聲音表達出的情緒、態度或意圖；語氣／口吻」與本句語境不同。"
+        "tone-mcq-04": "本句的「took an angry tone」指「採用某種口吻或態度」。",
+        "tone-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-04"
     },
@@ -1717,11 +1693,9 @@ export default {
       "masked": "Avoid using an accusing ____.",
       "options": [
         "tone-mcq-04",
-        "tone-mcq-03",
-        "tone-mcq-05",
-        "tone-mcq-02",
-        "tone-mcq-06",
-        "tone-mcq-01"
+        "tone-mcq-25",
+        "tone-mcq-69",
+        "tone-mcq-52"
       ],
       "explanation": "本句的「tone」指「採用某種口吻或態度」。",
       "sentenceIndex": 6,
@@ -1730,12 +1704,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-04": "本句指「採用某種口吻或態度」。",
-        "tone-mcq-03": "「以某種語氣說話」與本句語境不同。",
-        "tone-mcq-05": "「注意自己的說話口氣；別太無禮」與本句語境不同。",
-        "tone-mcq-02": "「說話聲音所呈現的態度或情緒」與本句語境不同。",
-        "tone-mcq-06": "「注意你的語氣／口吻」與本句語境不同。",
-        "tone-mcq-01": "「說話時透過聲音表達出的情緒、態度或意圖；語氣／口吻」與本句語境不同。"
+        "tone-mcq-04": "本句的「tone」指「採用某種口吻或態度」。",
+        "tone-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-04"
     },
@@ -1747,11 +1719,9 @@ export default {
       "masked": "____ when you speak to your teacher.",
       "options": [
         "tone-mcq-05",
-        "tone-mcq-04",
-        "tone-mcq-06",
-        "tone-mcq-03",
-        "tone-mcq-07",
-        "tone-mcq-02"
+        "tone-mcq-86",
+        "tone-mcq-49",
+        "tone-mcq-27"
       ],
       "explanation": "本句的「Watch your tone」指「注意自己的說話口氣；別太無禮」。",
       "sentenceIndex": 7,
@@ -1760,12 +1730,10 @@ export default {
         "Watch your tone"
       ],
       "optionReasons": {
-        "tone-mcq-05": "本句指「注意自己的說話口氣；別太無禮」。",
-        "tone-mcq-04": "「採用某種口吻或態度」與本句語境不同。",
-        "tone-mcq-06": "「注意你的語氣／口吻」與本句語境不同。",
-        "tone-mcq-03": "「以某種語氣說話」與本句語境不同。",
-        "tone-mcq-07": "「用令人不滿／無禮的口氣跟某人說話」與本句語境不同。",
-        "tone-mcq-02": "「說話聲音所呈現的態度或情緒」與本句語境不同。"
+        "tone-mcq-05": "本句的「Watch your tone」指「注意自己的說話口氣；別太無禮」。",
+        "tone-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-05"
     },
@@ -1777,11 +1745,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "tone-mcq-07",
-        "tone-mcq-06",
-        "tone-mcq-08",
-        "tone-mcq-05",
-        "tone-mcq-09",
-        "tone-mcq-04"
+        "tone-mcq-59",
+        "tone-mcq-63",
+        "tone-mcq-52"
       ],
       "explanation": "本句的「take that tone with me」指「用令人不滿／無禮的口氣跟某人說話」。",
       "sentenceIndex": 8,
@@ -1790,12 +1756,10 @@ export default {
         "take that tone with me"
       ],
       "optionReasons": {
-        "tone-mcq-07": "本句指「用令人不滿／無禮的口氣跟某人說話」。",
-        "tone-mcq-06": "「注意你的語氣／口吻」與本句語境不同。",
-        "tone-mcq-08": "「改變說話語氣」與本句語境不同。",
-        "tone-mcq-05": "「注意自己的說話口氣；別太無禮」與本句語境不同。",
-        "tone-mcq-09": "「改變態度／口風」與本句語境不同。",
-        "tone-mcq-04": "「採用某種口吻或態度」與本句語境不同。"
+        "tone-mcq-07": "本句的「take that tone with me」指「用令人不滿／無禮的口氣跟某人說話」。",
+        "tone-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-07"
     },
@@ -1807,11 +1771,9 @@ export default {
       "masked": "His ____ when he realized the mistake.",
       "options": [
         "tone-mcq-09",
-        "tone-mcq-08",
-        "tone-mcq-10",
-        "tone-mcq-07",
-        "tone-mcq-11",
-        "tone-mcq-06"
+        "tone-mcq-94",
+        "tone-mcq-39",
+        "tone-mcq-57"
       ],
       "explanation": "本句的「tone changed」指「改變態度／口風」。",
       "sentenceIndex": 9,
@@ -1820,12 +1782,10 @@ export default {
         "tone changed"
       ],
       "optionReasons": {
-        "tone-mcq-09": "本句指「改變態度／口風」。",
-        "tone-mcq-08": "「改變說話語氣」與本句語境不同。",
-        "tone-mcq-10": "「文字中所傳達的態度／口吻」與本句語境不同。",
-        "tone-mcq-07": "「用令人不滿／無禮的口氣跟某人說話」與本句語境不同。",
-        "tone-mcq-11": "「電郵／訊息所使用的語氣」與本句語境不同。",
-        "tone-mcq-06": "「注意你的語氣／口吻」與本句語境不同。"
+        "tone-mcq-09": "本句的「tone changed」指「改變態度／口風」。",
+        "tone-mcq-94": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-09"
     },
@@ -1837,11 +1797,9 @@ export default {
       "masked": "Critics ____ after the results improved.",
       "options": [
         "tone-mcq-09",
-        "tone-mcq-08",
-        "tone-mcq-10",
-        "tone-mcq-07",
-        "tone-mcq-11",
-        "tone-mcq-06"
+        "tone-mcq-27",
+        "tone-mcq-40",
+        "tone-mcq-25"
       ],
       "explanation": "本句的「changed their tone」指「改變態度／口風」。",
       "sentenceIndex": 10,
@@ -1850,12 +1808,10 @@ export default {
         "changed their tone"
       ],
       "optionReasons": {
-        "tone-mcq-09": "本句指「改變態度／口風」。",
-        "tone-mcq-08": "「改變說話語氣」與本句語境不同。",
-        "tone-mcq-10": "「文字中所傳達的態度／口吻」與本句語境不同。",
-        "tone-mcq-07": "「用令人不滿／無禮的口氣跟某人說話」與本句語境不同。",
-        "tone-mcq-11": "「電郵／訊息所使用的語氣」與本句語境不同。",
-        "tone-mcq-06": "「注意你的語氣／口吻」與本句語境不同。"
+        "tone-mcq-09": "本句的「changed their tone」指「改變態度／口風」。",
+        "tone-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-09"
     },
@@ -1867,11 +1823,9 @@ export default {
       "masked": "I disliked the ____ of the message.",
       "options": [
         "tone-mcq-08",
-        "tone-mcq-07",
-        "tone-mcq-09",
-        "tone-mcq-06",
-        "tone-mcq-10",
-        "tone-mcq-05"
+        "tone-mcq-45",
+        "tone-mcq-63",
+        "tone-mcq-86"
       ],
       "explanation": "本句的「tone」指「改變說話語氣」。",
       "sentenceIndex": 11,
@@ -1880,12 +1834,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-08": "本句指「改變說話語氣」。",
-        "tone-mcq-07": "「用令人不滿／無禮的口氣跟某人說話」與本句語境不同。",
-        "tone-mcq-09": "「改變態度／口風」與本句語境不同。",
-        "tone-mcq-06": "「注意你的語氣／口吻」與本句語境不同。",
-        "tone-mcq-10": "「文字中所傳達的態度／口吻」與本句語境不同。",
-        "tone-mcq-05": "「注意自己的說話口氣；別太無禮」與本句語境不同。"
+        "tone-mcq-08": "本句的「tone」指「改變說話語氣」。",
+        "tone-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-86": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-08"
     },
@@ -1897,11 +1849,9 @@ export default {
       "masked": "Her email had a professional ____.",
       "options": [
         "tone-mcq-08",
-        "tone-mcq-07",
-        "tone-mcq-09",
-        "tone-mcq-06",
-        "tone-mcq-10",
-        "tone-mcq-05"
+        "tone-mcq-30",
+        "tone-mcq-19",
+        "tone-mcq-88"
       ],
       "explanation": "本句的「tone」指「改變說話語氣」。",
       "sentenceIndex": 12,
@@ -1910,12 +1860,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-08": "本句指「改變說話語氣」。",
-        "tone-mcq-07": "「用令人不滿／無禮的口氣跟某人說話」與本句語境不同。",
-        "tone-mcq-09": "「改變態度／口風」與本句語境不同。",
-        "tone-mcq-06": "「注意你的語氣／口吻」與本句語境不同。",
-        "tone-mcq-10": "「文字中所傳達的態度／口吻」與本句語境不同。",
-        "tone-mcq-05": "「注意自己的說話口氣；別太無禮」與本句語境不同。"
+        "tone-mcq-08": "本句的「tone」指「改變說話語氣」。",
+        "tone-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-88": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-08"
     },
@@ -1927,11 +1875,9 @@ export default {
       "masked": "Check the ____ before sending it.",
       "options": [
         "tone-mcq-10",
-        "tone-mcq-09",
-        "tone-mcq-11",
-        "tone-mcq-08",
-        "tone-mcq-12",
-        "tone-mcq-07"
+        "tone-mcq-52",
+        "tone-mcq-34",
+        "tone-mcq-87"
       ],
       "explanation": "本句的「tone of your email」指「文字中所傳達的態度／口吻」。",
       "sentenceIndex": 13,
@@ -1940,12 +1886,10 @@ export default {
         "tone of your email"
       ],
       "optionReasons": {
-        "tone-mcq-10": "本句指「文字中所傳達的態度／口吻」。",
-        "tone-mcq-09": "「改變態度／口風」與本句語境不同。",
-        "tone-mcq-11": "「電郵／訊息所使用的語氣」與本句語境不同。",
-        "tone-mcq-08": "「改變說話語氣」與本句語境不同。",
-        "tone-mcq-12": "「正式、專業的語氣／文風」與本句語境不同。",
-        "tone-mcq-07": "「用令人不滿／無禮的口氣跟某人說話」與本句語境不同。"
+        "tone-mcq-10": "本句的「tone of your email」指「文字中所傳達的態度／口吻」。",
+        "tone-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-87": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-10"
     },
@@ -1957,11 +1901,9 @@ export default {
       "masked": "The letter’s ____ was unnecessarily aggressive.",
       "options": [
         "tone-mcq-10",
-        "tone-mcq-09",
-        "tone-mcq-11",
-        "tone-mcq-08",
-        "tone-mcq-12",
-        "tone-mcq-07"
+        "tone-mcq-78",
+        "tone-mcq-21",
+        "tone-mcq-41"
       ],
       "explanation": "本句的「tone」指「文字中所傳達的態度／口吻」。",
       "sentenceIndex": 14,
@@ -1970,12 +1912,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-10": "本句指「文字中所傳達的態度／口吻」。",
-        "tone-mcq-09": "「改變態度／口風」與本句語境不同。",
-        "tone-mcq-11": "「電郵／訊息所使用的語氣」與本句語境不同。",
-        "tone-mcq-08": "「改變說話語氣」與本句語境不同。",
-        "tone-mcq-12": "「正式、專業的語氣／文風」與本句語境不同。",
-        "tone-mcq-07": "「用令人不滿／無禮的口氣跟某人說話」與本句語境不同。"
+        "tone-mcq-10": "本句的「tone」指「文字中所傳達的態度／口吻」。",
+        "tone-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-10"
     },
@@ -1987,11 +1927,9 @@ export default {
       "masked": "A job application usually requires a more ____.",
       "options": [
         "tone-mcq-13",
-        "tone-mcq-12",
-        "tone-mcq-14",
-        "tone-mcq-11",
-        "tone-mcq-15",
-        "tone-mcq-10"
+        "tone-mcq-66",
+        "tone-mcq-65",
+        "tone-mcq-64"
       ],
       "explanation": "本句的「formal tone」指「輕鬆、口語化的語氣」。",
       "sentenceIndex": 15,
@@ -2000,12 +1938,10 @@ export default {
         "formal tone"
       ],
       "optionReasons": {
-        "tone-mcq-13": "本句指「輕鬆、口語化的語氣」。",
-        "tone-mcq-12": "「正式、專業的語氣／文風」與本句語境不同。",
-        "tone-mcq-14": "「帶有諷刺意味的語氣」與本句語境不同。",
-        "tone-mcq-11": "「電郵／訊息所使用的語氣」與本句語境不同。",
-        "tone-mcq-15": "「作者／敘述者對題材或讀者所呈現的態度」與本句語境不同。",
-        "tone-mcq-10": "「文字中所傳達的態度／口吻」與本句語境不同。"
+        "tone-mcq-13": "本句的「formal tone」指「輕鬆、口語化的語氣」。",
+        "tone-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-13"
     },
@@ -2017,11 +1953,9 @@ export default {
       "masked": "I could hear the ____ in his reply.",
       "options": [
         "tone-mcq-14",
-        "tone-mcq-13",
-        "tone-mcq-15",
-        "tone-mcq-12",
-        "tone-mcq-16",
-        "tone-mcq-11"
+        "tone-mcq-26",
+        "tone-mcq-63",
+        "tone-mcq-41"
       ],
       "explanation": "本句的「sarcastic tone」指「帶有諷刺意味的語氣」。",
       "sentenceIndex": 16,
@@ -2030,12 +1964,10 @@ export default {
         "sarcastic tone"
       ],
       "optionReasons": {
-        "tone-mcq-14": "本句指「帶有諷刺意味的語氣」。",
-        "tone-mcq-13": "「輕鬆、口語化的語氣」與本句語境不同。",
-        "tone-mcq-15": "「作者／敘述者對題材或讀者所呈現的態度」與本句語境不同。",
-        "tone-mcq-12": "「正式、專業的語氣／文風」與本句語境不同。",
-        "tone-mcq-16": "「文章整體呈現的語調／態度」與本句語境不同。",
-        "tone-mcq-11": "「電郵／訊息所使用的語氣」與本句語境不同。"
+        "tone-mcq-14": "本句的「sarcastic tone」指「帶有諷刺意味的語氣」。",
+        "tone-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-14"
     },
@@ -2047,11 +1979,9 @@ export default {
       "masked": "The passage has a humorous ____.",
       "options": [
         "tone-mcq-15",
-        "tone-mcq-14",
-        "tone-mcq-16",
-        "tone-mcq-13",
-        "tone-mcq-17",
-        "tone-mcq-12"
+        "tone-mcq-50",
+        "tone-mcq-24",
+        "tone-mcq-78"
       ],
       "explanation": "本句的「tone」指「作者／敘述者對題材或讀者所呈現的態度」。",
       "sentenceIndex": 17,
@@ -2060,12 +1990,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-15": "本句指「作者／敘述者對題材或讀者所呈現的態度」。",
-        "tone-mcq-14": "「帶有諷刺意味的語氣」與本句語境不同。",
-        "tone-mcq-16": "「文章整體呈現的語調／態度」與本句語境不同。",
-        "tone-mcq-13": "「輕鬆、口語化的語氣」與本句語境不同。",
-        "tone-mcq-17": "「活動、討論、關係等的整體基調／氣氛」與本句語境不同。",
-        "tone-mcq-12": "「正式、專業的語氣／文風」與本句語境不同。"
+        "tone-mcq-15": "本句的「tone」指「作者／敘述者對題材或讀者所呈現的態度」。",
+        "tone-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-15"
     },
@@ -2077,11 +2005,9 @@ export default {
       "masked": "The author adopts a critical ____.",
       "options": [
         "tone-mcq-15",
-        "tone-mcq-14",
-        "tone-mcq-16",
-        "tone-mcq-13",
-        "tone-mcq-17",
-        "tone-mcq-12"
+        "tone-mcq-68",
+        "tone-mcq-93",
+        "tone-mcq-30"
       ],
       "explanation": "本句的「tone」指「作者／敘述者對題材或讀者所呈現的態度」。",
       "sentenceIndex": 18,
@@ -2090,12 +2016,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-15": "本句指「作者／敘述者對題材或讀者所呈現的態度」。",
-        "tone-mcq-14": "「帶有諷刺意味的語氣」與本句語境不同。",
-        "tone-mcq-16": "「文章整體呈現的語調／態度」與本句語境不同。",
-        "tone-mcq-13": "「輕鬆、口語化的語氣」與本句語境不同。",
-        "tone-mcq-17": "「活動、討論、關係等的整體基調／氣氛」與本句語境不同。",
-        "tone-mcq-12": "「正式、專業的語氣／文風」與本句語境不同。"
+        "tone-mcq-15": "本句的「tone」指「作者／敘述者對題材或讀者所呈現的態度」。",
+        "tone-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-15"
     },
@@ -2107,11 +2031,9 @@ export default {
       "masked": "The opening remarks established a serious ____.",
       "options": [
         "tone-mcq-17",
-        "tone-mcq-16",
-        "tone-mcq-18",
-        "tone-mcq-15",
-        "tone-mcq-19",
-        "tone-mcq-14"
+        "tone-mcq-52",
+        "tone-mcq-02",
+        "tone-mcq-93"
       ],
       "explanation": "本句的「tone」指「活動、討論、關係等的整體基調／氣氛」。",
       "sentenceIndex": 19,
@@ -2120,12 +2042,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-17": "本句指「活動、討論、關係等的整體基調／氣氛」。",
-        "tone-mcq-16": "「文章整體呈現的語調／態度」與本句語境不同。",
-        "tone-mcq-18": "「為接下來的事情定下氣氛、風格或態度」與本句語境不同。",
-        "tone-mcq-15": "「作者／敘述者對題材或讀者所呈現的態度」與本句語境不同。",
-        "tone-mcq-19": "「有意採取某種口吻／基調」與本句語境不同。",
-        "tone-mcq-14": "「帶有諷刺意味的語氣」與本句語境不同。"
+        "tone-mcq-17": "本句的「tone」指「活動、討論、關係等的整體基調／氣氛」。",
+        "tone-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-17"
     },
@@ -2137,11 +2057,9 @@ export default {
       "masked": "One rude comment changed the ____.",
       "options": [
         "tone-mcq-17",
-        "tone-mcq-16",
-        "tone-mcq-18",
-        "tone-mcq-15",
-        "tone-mcq-19",
-        "tone-mcq-14"
+        "tone-mcq-41",
+        "tone-mcq-81",
+        "tone-mcq-09"
       ],
       "explanation": "本句的「tone of the meeting」指「活動、討論、關係等的整體基調／氣氛」。",
       "sentenceIndex": 20,
@@ -2150,12 +2068,10 @@ export default {
         "tone of the meeting"
       ],
       "optionReasons": {
-        "tone-mcq-17": "本句指「活動、討論、關係等的整體基調／氣氛」。",
-        "tone-mcq-16": "「文章整體呈現的語調／態度」與本句語境不同。",
-        "tone-mcq-18": "「為接下來的事情定下氣氛、風格或態度」與本句語境不同。",
-        "tone-mcq-15": "「作者／敘述者對題材或讀者所呈現的態度」與本句語境不同。",
-        "tone-mcq-19": "「有意採取某種口吻／基調」與本句語境不同。",
-        "tone-mcq-14": "「帶有諷刺意味的語氣」與本句語境不同。"
+        "tone-mcq-17": "本句的「tone of the meeting」指「活動、討論、關係等的整體基調／氣氛」。",
+        "tone-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-81": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-17"
     },
@@ -2167,11 +2083,9 @@ export default {
       "masked": "The teacher’s opening question ____.",
       "options": [
         "tone-mcq-18",
-        "tone-mcq-17",
-        "tone-mcq-19",
-        "tone-mcq-16",
-        "tone-mcq-20",
-        "tone-mcq-15"
+        "tone-mcq-94",
+        "tone-mcq-87",
+        "tone-mcq-81"
       ],
       "explanation": "本句的「set the tone for the lesson」指「為接下來的事情定下氣氛、風格或態度」。",
       "sentenceIndex": 21,
@@ -2180,12 +2094,10 @@ export default {
         "set the tone for the lesson"
       ],
       "optionReasons": {
-        "tone-mcq-18": "本句指「為接下來的事情定下氣氛、風格或態度」。",
-        "tone-mcq-17": "「活動、討論、關係等的整體基調／氣氛」與本句語境不同。",
-        "tone-mcq-19": "「有意採取某種口吻／基調」與本句語境不同。",
-        "tone-mcq-16": "「文章整體呈現的語調／態度」與本句語境不同。",
-        "tone-mcq-20": "「選用恰當的語氣／態度」與本句語境不同。",
-        "tone-mcq-15": "「作者／敘述者對題材或讀者所呈現的態度」與本句語境不同。"
+        "tone-mcq-18": "本句的「set the tone for the lesson」指「為接下來的事情定下氣氛、風格或態度」。",
+        "tone-mcq-94": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-81": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-18"
     },
@@ -2197,11 +2109,9 @@ export default {
       "masked": "Her friendliness ____.",
       "options": [
         "tone-mcq-18",
-        "tone-mcq-17",
-        "tone-mcq-19",
-        "tone-mcq-16",
-        "tone-mcq-20",
-        "tone-mcq-15"
+        "tone-mcq-93",
+        "tone-mcq-49",
+        "tone-mcq-56"
       ],
       "explanation": "本句的「set the tone for the meeting」指「為接下來的事情定下氣氛、風格或態度」。",
       "sentenceIndex": 22,
@@ -2210,12 +2120,10 @@ export default {
         "set the tone for the meeting"
       ],
       "optionReasons": {
-        "tone-mcq-18": "本句指「為接下來的事情定下氣氛、風格或態度」。",
-        "tone-mcq-17": "「活動、討論、關係等的整體基調／氣氛」與本句語境不同。",
-        "tone-mcq-19": "「有意採取某種口吻／基調」與本句語境不同。",
-        "tone-mcq-16": "「文章整體呈現的語調／態度」與本句語境不同。",
-        "tone-mcq-20": "「選用恰當的語氣／態度」與本句語境不同。",
-        "tone-mcq-15": "「作者／敘述者對題材或讀者所呈現的態度」與本句語境不同。"
+        "tone-mcq-18": "本句的「set the tone for the meeting」指「為接下來的事情定下氣氛、風格或態度」。",
+        "tone-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-18"
     },
@@ -2227,11 +2135,9 @@ export default {
       "masked": "The statement ____.",
       "options": [
         "tone-mcq-19",
-        "tone-mcq-18",
-        "tone-mcq-20",
-        "tone-mcq-17",
-        "tone-mcq-21",
-        "tone-mcq-16"
+        "tone-mcq-84",
+        "tone-mcq-08",
+        "tone-mcq-94"
       ],
       "explanation": "本句的「struck a conciliatory tone」指「有意採取某種口吻／基調」。",
       "sentenceIndex": 23,
@@ -2240,12 +2146,10 @@ export default {
         "struck a conciliatory tone"
       ],
       "optionReasons": {
-        "tone-mcq-19": "本句指「有意採取某種口吻／基調」。",
-        "tone-mcq-18": "「為接下來的事情定下氣氛、風格或態度」與本句語境不同。",
-        "tone-mcq-20": "「選用恰當的語氣／態度」與本句語境不同。",
-        "tone-mcq-17": "「活動、討論、關係等的整體基調／氣氛」與本句語境不同。",
-        "tone-mcq-21": "「尤其英式：使談話／活動的格調降低」與本句語境不同。",
-        "tone-mcq-16": "「文章整體呈現的語調／態度」與本句語境不同。"
+        "tone-mcq-19": "本句的「struck a conciliatory tone」指「有意採取某種口吻／基調」。",
+        "tone-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-94": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-19"
     },
@@ -2257,11 +2161,9 @@ export default {
       "masked": "She tried to ____.",
       "options": [
         "tone-mcq-19",
-        "tone-mcq-18",
-        "tone-mcq-20",
-        "tone-mcq-17",
-        "tone-mcq-21",
-        "tone-mcq-16"
+        "tone-mcq-57",
+        "tone-mcq-81",
+        "tone-mcq-18"
       ],
       "explanation": "本句的「strike a positive tone」指「有意採取某種口吻／基調」。",
       "sentenceIndex": 24,
@@ -2270,12 +2172,10 @@ export default {
         "strike a positive tone"
       ],
       "optionReasons": {
-        "tone-mcq-19": "本句指「有意採取某種口吻／基調」。",
-        "tone-mcq-18": "「為接下來的事情定下氣氛、風格或態度」與本句語境不同。",
-        "tone-mcq-20": "「選用恰當的語氣／態度」與本句語境不同。",
-        "tone-mcq-17": "「活動、討論、關係等的整體基調／氣氛」與本句語境不同。",
-        "tone-mcq-21": "「尤其英式：使談話／活動的格調降低」與本句語境不同。",
-        "tone-mcq-16": "「文章整體呈現的語調／態度」與本句語境不同。"
+        "tone-mcq-19": "本句的「strike a positive tone」指「有意採取某種口吻／基調」。",
+        "tone-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-81": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-19"
     },
@@ -2287,11 +2187,9 @@ export default {
       "masked": "The speech ____.",
       "options": [
         "tone-mcq-20",
-        "tone-mcq-19",
-        "tone-mcq-21",
-        "tone-mcq-18",
-        "tone-mcq-22",
-        "tone-mcq-17"
+        "tone-mcq-52",
+        "tone-mcq-63",
+        "tone-mcq-78"
       ],
       "explanation": "本句的「struck the right tone」指「選用恰當的語氣／態度」。",
       "sentenceIndex": 25,
@@ -2300,12 +2198,10 @@ export default {
         "struck the right tone"
       ],
       "optionReasons": {
-        "tone-mcq-20": "本句指「選用恰當的語氣／態度」。",
-        "tone-mcq-19": "「有意採取某種口吻／基調」與本句語境不同。",
-        "tone-mcq-21": "「尤其英式：使談話／活動的格調降低」與本句語境不同。",
-        "tone-mcq-18": "「為接下來的事情定下氣氛、風格或態度」與本句語境不同。",
-        "tone-mcq-22": "「高層領導所建立的道德、合規及組織文化基調」與本句語境不同。",
-        "tone-mcq-17": "「活動、討論、關係等的整體基調／氣氛」與本句語境不同。"
+        "tone-mcq-20": "本句的「struck the right tone」指「選用恰當的語氣／態度」。",
+        "tone-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-20"
     },
@@ -2317,11 +2213,9 @@ export default {
       "masked": "His crude jokes ____ of the evening.",
       "options": [
         "tone-mcq-21",
-        "tone-mcq-20",
-        "tone-mcq-22",
-        "tone-mcq-19",
-        "tone-mcq-23",
-        "tone-mcq-18"
+        "tone-mcq-83",
+        "tone-mcq-65",
+        "tone-mcq-26"
       ],
       "explanation": "本句的「lowered the tone」指「尤其英式：使談話／活動的格調降低」。",
       "sentenceIndex": 26,
@@ -2330,12 +2224,10 @@ export default {
         "lowered the tone"
       ],
       "optionReasons": {
-        "tone-mcq-21": "本句指「尤其英式：使談話／活動的格調降低」。",
-        "tone-mcq-20": "「選用恰當的語氣／態度」與本句語境不同。",
-        "tone-mcq-22": "「高層領導所建立的道德、合規及組織文化基調」與本句語境不同。",
-        "tone-mcq-19": "「有意採取某種口吻／基調」與本句語境不同。",
-        "tone-mcq-23": "「把焦點放在說話者的情緒／語氣，而忽略其實質訴求」與本句語境不同。",
-        "tone-mcq-18": "「為接下來的事情定下氣氛、風格或態度」與本句語境不同。"
+        "tone-mcq-21": "本句的「lowered the tone」指「尤其英式：使談話／活動的格調降低」。",
+        "tone-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-21"
     },
@@ -2347,11 +2239,9 @@ export default {
       "masked": "Strong compliance begins with the right ____.",
       "options": [
         "tone-mcq-22",
-        "tone-mcq-21",
-        "tone-mcq-23",
-        "tone-mcq-20",
-        "tone-mcq-24",
-        "tone-mcq-19"
+        "tone-mcq-93",
+        "tone-mcq-66",
+        "tone-mcq-65"
       ],
       "explanation": "本句的「tone at the top」指「高層領導所建立的道德、合規及組織文化基調」。",
       "sentenceIndex": 27,
@@ -2360,12 +2250,10 @@ export default {
         "tone at the top"
       ],
       "optionReasons": {
-        "tone-mcq-22": "本句指「高層領導所建立的道德、合規及組織文化基調」。",
-        "tone-mcq-21": "「尤其英式：使談話／活動的格調降低」與本句語境不同。",
-        "tone-mcq-23": "「把焦點放在說話者的情緒／語氣，而忽略其實質訴求」與本句語境不同。",
-        "tone-mcq-20": "「選用恰當的語氣／態度」與本句語境不同。",
-        "tone-mcq-24": "「具有特定音高的樂音／聲音」與本句語境不同。",
-        "tone-mcq-19": "「有意採取某種口吻／基調」與本句語境不同。"
+        "tone-mcq-22": "本句的「tone at the top」指「高層領導所建立的道德、合規及組織文化基調」。",
+        "tone-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-22"
     },
@@ -2377,11 +2265,9 @@ export default {
       "masked": "The instrument produced a clear ____.",
       "options": [
         "tone-mcq-24",
-        "tone-mcq-23",
-        "tone-mcq-25",
-        "tone-mcq-22",
-        "tone-mcq-26",
-        "tone-mcq-21"
+        "tone-mcq-78",
+        "tone-mcq-83",
+        "tone-mcq-19"
       ],
       "explanation": "本句的「tone」指「具有特定音高的樂音／聲音」。",
       "sentenceIndex": 28,
@@ -2390,12 +2276,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-24": "本句指「具有特定音高的樂音／聲音」。",
-        "tone-mcq-23": "「把焦點放在說話者的情緒／語氣，而忽略其實質訴求」與本句語境不同。",
-        "tone-mcq-25": "「高／低音調」與本句語境不同。",
-        "tone-mcq-22": "「高層領導所建立的道德、合規及組織文化基調」與本句語境不同。",
-        "tone-mcq-26": "「主要由單一頻率組成的純音」與本句語境不同。",
-        "tone-mcq-21": "「尤其英式：使談話／活動的格調降低」與本句語境不同。"
+        "tone-mcq-24": "本句的「tone」指「具有特定音高的樂音／聲音」。",
+        "tone-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-24"
     },
@@ -2407,11 +2291,9 @@ export default {
       "masked": "She played a single ____.",
       "options": [
         "tone-mcq-24",
-        "tone-mcq-23",
-        "tone-mcq-25",
-        "tone-mcq-22",
-        "tone-mcq-26",
-        "tone-mcq-21"
+        "tone-mcq-14",
+        "tone-mcq-84",
+        "tone-mcq-87"
       ],
       "explanation": "本句的「tone」指「具有特定音高的樂音／聲音」。",
       "sentenceIndex": 29,
@@ -2420,12 +2302,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-24": "本句指「具有特定音高的樂音／聲音」。",
-        "tone-mcq-23": "「把焦點放在說話者的情緒／語氣，而忽略其實質訴求」與本句語境不同。",
-        "tone-mcq-25": "「高／低音調」與本句語境不同。",
-        "tone-mcq-22": "「高層領導所建立的道德、合規及組織文化基調」與本句語境不同。",
-        "tone-mcq-26": "「主要由單一頻率組成的純音」與本句語境不同。",
-        "tone-mcq-21": "「尤其英式：使談話／活動的格調降低」與本句語境不同。"
+        "tone-mcq-24": "本句的「tone」指「具有特定音高的樂音／聲音」。",
+        "tone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-87": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-24"
     },
@@ -2437,11 +2317,9 @@ export default {
       "masked": "The alarm emits a high ____.",
       "options": [
         "tone-mcq-25",
-        "tone-mcq-24",
-        "tone-mcq-26",
-        "tone-mcq-23",
-        "tone-mcq-27",
-        "tone-mcq-22"
+        "tone-mcq-20",
+        "tone-mcq-86",
+        "tone-mcq-94"
       ],
       "explanation": "本句的「tone」指「高／低音調」。",
       "sentenceIndex": 30,
@@ -2450,12 +2328,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-25": "本句指「高／低音調」。",
-        "tone-mcq-24": "「具有特定音高的樂音／聲音」與本句語境不同。",
-        "tone-mcq-26": "「主要由單一頻率組成的純音」與本句語境不同。",
-        "tone-mcq-23": "「把焦點放在說話者的情緒／語氣，而忽略其實質訴求」與本句語境不同。",
-        "tone-mcq-27": "「用來測試音響、聽力等的標準測試音」與本句語境不同。",
-        "tone-mcq-22": "「高層領導所建立的道德、合規及組織文化基調」與本句語境不同。"
+        "tone-mcq-25": "本句的「tone」指「高／低音調」。",
+        "tone-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-94": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-25"
     },
@@ -2467,11 +2343,9 @@ export default {
       "masked": "Hearing tests may use ____.",
       "options": [
         "tone-mcq-26",
-        "tone-mcq-25",
-        "tone-mcq-27",
-        "tone-mcq-24",
-        "tone-mcq-28",
-        "tone-mcq-23"
+        "tone-mcq-78",
+        "tone-mcq-15",
+        "tone-mcq-40"
       ],
       "explanation": "本句的「pure tones」指「主要由單一頻率組成的純音」。",
       "sentenceIndex": 31,
@@ -2480,12 +2354,10 @@ export default {
         "pure tones"
       ],
       "optionReasons": {
-        "tone-mcq-26": "本句指「主要由單一頻率組成的純音」。",
-        "tone-mcq-25": "「高／低音調」與本句語境不同。",
-        "tone-mcq-27": "「用來測試音響、聽力等的標準測試音」與本句語境不同。",
-        "tone-mcq-24": "「具有特定音高的樂音／聲音」與本句語境不同。",
-        "tone-mcq-28": "「樂器或聲音獨特的音色／音質」與本句語境不同。",
-        "tone-mcq-23": "「把焦點放在說話者的情緒／語氣，而忽略其實質訴求」與本句語境不同。"
+        "tone-mcq-26": "本句的「pure tones」指「主要由單一頻率組成的純音」。",
+        "tone-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-26"
     },
@@ -2497,11 +2369,9 @@ export default {
       "masked": "The speaker played a ____.",
       "options": [
         "tone-mcq-27",
-        "tone-mcq-26",
-        "tone-mcq-28",
-        "tone-mcq-25",
-        "tone-mcq-29",
-        "tone-mcq-24"
+        "tone-mcq-92",
+        "tone-mcq-68",
+        "tone-mcq-40"
       ],
       "explanation": "本句的「test tone」指「用來測試音響、聽力等的標準測試音」。",
       "sentenceIndex": 32,
@@ -2510,12 +2380,10 @@ export default {
         "test tone"
       ],
       "optionReasons": {
-        "tone-mcq-27": "本句指「用來測試音響、聽力等的標準測試音」。",
-        "tone-mcq-26": "「主要由單一頻率組成的純音」與本句語境不同。",
-        "tone-mcq-28": "「樂器或聲音獨特的音色／音質」與本句語境不同。",
-        "tone-mcq-25": "「高／低音調」與本句語境不同。",
-        "tone-mcq-29": "「聲音本身的音色／音質」與本句語境不同。",
-        "tone-mcq-24": "「具有特定音高的樂音／聲音」與本句語境不同。"
+        "tone-mcq-27": "本句的「test tone」指「用來測試音響、聽力等的標準測試音」。",
+        "tone-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-27"
     },
@@ -2527,11 +2395,9 @@ export default {
       "masked": "The violin has a warm ____.",
       "options": [
         "tone-mcq-30",
-        "tone-mcq-29",
-        "tone-mcq-31",
-        "tone-mcq-28",
-        "tone-mcq-32",
-        "tone-mcq-27"
+        "tone-mcq-04",
+        "tone-mcq-84",
+        "tone-mcq-89"
       ],
       "explanation": "本句的「tone」指「音色」。",
       "sentenceIndex": 33,
@@ -2540,12 +2406,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-30": "本句指「音色」。",
-        "tone-mcq-29": "「聲音本身的音色／音質」與本句語境不同。",
-        "tone-mcq-31": "「英式音樂術語：兩個半音構成的一個全音」與本句語境不同。",
-        "tone-mcq-28": "「樂器或聲音獨特的音色／音質」與本句語境不同。",
-        "tone-mcq-32": "「全部由全音構成的全音音階」與本句語境不同。",
-        "tone-mcq-27": "「用來測試音響、聽力等的標準測試音」與本句語境不同。"
+        "tone-mcq-30": "本句的「tone」指「音色」。",
+        "tone-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-89": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-30"
     },
@@ -2557,11 +2421,9 @@ export default {
       "masked": "Her voice has a rich ____.",
       "options": [
         "tone-mcq-30",
-        "tone-mcq-29",
-        "tone-mcq-31",
-        "tone-mcq-28",
-        "tone-mcq-32",
-        "tone-mcq-27"
+        "tone-mcq-89",
+        "tone-mcq-88",
+        "tone-mcq-72"
       ],
       "explanation": "本句的「tone」指「音色」。",
       "sentenceIndex": 34,
@@ -2570,12 +2432,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-30": "本句指「音色」。",
-        "tone-mcq-29": "「聲音本身的音色／音質」與本句語境不同。",
-        "tone-mcq-31": "「英式音樂術語：兩個半音構成的一個全音」與本句語境不同。",
-        "tone-mcq-28": "「樂器或聲音獨特的音色／音質」與本句語境不同。",
-        "tone-mcq-32": "「全部由全音構成的全音音階」與本句語境不同。",
-        "tone-mcq-27": "「用來測試音響、聽力等的標準測試音」與本句語境不同。"
+        "tone-mcq-30": "本句的「tone」指「音色」。",
+        "tone-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-30"
     },
@@ -2587,11 +2447,9 @@ export default {
       "masked": "The piece has an unusual ____.",
       "options": [
         "tone-mcq-33",
-        "tone-mcq-32",
-        "tone-mcq-34",
-        "tone-mcq-31",
-        "tone-mcq-35",
-        "tone-mcq-30"
+        "tone-mcq-81",
+        "tone-mcq-40",
+        "tone-mcq-68"
       ],
       "explanation": "本句的「tonal structure」指「與音調／調性有關的」。",
       "sentenceIndex": 35,
@@ -2600,12 +2458,10 @@ export default {
         "tonal structure"
       ],
       "optionReasons": {
-        "tone-mcq-33": "本句指「與音調／調性有關的」。",
-        "tone-mcq-32": "「全部由全音構成的全音音階」與本句語境不同。",
-        "tone-mcq-34": "「音樂圍繞中心調／主音建立的調性」與本句語境不同。",
-        "tone-mcq-31": "「英式音樂術語：兩個半音構成的一個全音」與本句語境不同。",
-        "tone-mcq-35": "「樂曲的調性中心」與本句語境不同。",
-        "tone-mcq-30": "「音色」與本句語境不同。"
+        "tone-mcq-33": "本句的「tonal structure」指「與音調／調性有關的」。",
+        "tone-mcq-81": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-33"
     },
@@ -2617,11 +2473,9 @@ export default {
       "masked": "The composer experiments with ____.",
       "options": [
         "tone-mcq-34",
-        "tone-mcq-33",
-        "tone-mcq-35",
-        "tone-mcq-32",
-        "tone-mcq-36",
-        "tone-mcq-31"
+        "tone-mcq-88",
+        "tone-mcq-14",
+        "tone-mcq-93"
       ],
       "explanation": "本句的「tonality」指「音樂圍繞中心調／主音建立的調性」。",
       "sentenceIndex": 36,
@@ -2630,12 +2484,10 @@ export default {
         "tonality"
       ],
       "optionReasons": {
-        "tone-mcq-34": "本句指「音樂圍繞中心調／主音建立的調性」。",
-        "tone-mcq-33": "「與音調／調性有關的」與本句語境不同。",
-        "tone-mcq-35": "「樂曲的調性中心」與本句語境不同。",
-        "tone-mcq-32": "「全部由全音構成的全音音階」與本句語境不同。",
-        "tone-mcq-36": "「使用十二音技法創作的音樂」與本句語境不同。",
-        "tone-mcq-31": "「英式音樂術語：兩個半音構成的一個全音」與本句語境不同。"
+        "tone-mcq-34": "本句的「tonality」指「音樂圍繞中心調／主音建立的調性」。",
+        "tone-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-34"
     },
@@ -2647,11 +2499,9 @@ export default {
       "masked": "He says he is completely ____.",
       "options": [
         "tone-mcq-39",
-        "tone-mcq-38",
-        "tone-mcq-40",
-        "tone-mcq-37",
-        "tone-mcq-41",
-        "tone-mcq-36"
+        "tone-mcq-83",
+        "tone-mcq-10",
+        "tone-mcq-63"
       ],
       "explanation": "本句的「tone-deaf」指「難以辨別／唱準音高的；俗稱五音不全」。",
       "sentenceIndex": 37,
@@ -2660,12 +2510,10 @@ export default {
         "tone-deaf"
       ],
       "optionReasons": {
-        "tone-mcq-39": "本句指「難以辨別／唱準音高的；俗稱五音不全」。",
-        "tone-mcq-38": "「以音樂描繪故事／意象的交響詩」與本句語境不同。",
-        "tone-mcq-40": "「對他人感受、社會氣氛或情境極不敏感的」與本句語境不同。",
-        "tone-mcq-37": "「十二音音樂中的音列」與本句語境不同。",
-        "tone-mcq-41": "「聲音缺乏情緒、抑揚或表情的」與本句語境不同。",
-        "tone-mcq-36": "「使用十二音技法創作的音樂」與本句語境不同。"
+        "tone-mcq-39": "本句的「tone-deaf」指「難以辨別／唱準音高的；俗稱五音不全」。",
+        "tone-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-39"
     },
@@ -2677,11 +2525,9 @@ export default {
       "masked": "The joke seemed ____ given the circumstances.",
       "options": [
         "tone-mcq-40",
-        "tone-mcq-39",
-        "tone-mcq-41",
-        "tone-mcq-38",
-        "tone-mcq-42",
-        "tone-mcq-37"
+        "tone-mcq-88",
+        "tone-mcq-59",
+        "tone-mcq-72"
       ],
       "explanation": "本句的「tone-deaf」指「對他人感受、社會氣氛或情境極不敏感的」。",
       "sentenceIndex": 38,
@@ -2690,12 +2536,10 @@ export default {
         "tone-deaf"
       ],
       "optionReasons": {
-        "tone-mcq-40": "本句指「對他人感受、社會氣氛或情境極不敏感的」。",
-        "tone-mcq-39": "「難以辨別／唱準音高的；俗稱五音不全」與本句語境不同。",
-        "tone-mcq-41": "「聲音缺乏情緒、抑揚或表情的」與本句語境不同。",
-        "tone-mcq-38": "「以音樂描繪故事／意象的交響詩」與本句語境不同。",
-        "tone-mcq-42": "「音高／語調幾乎沒有變化的單調聲音」與本句語境不同。",
-        "tone-mcq-37": "「十二音音樂中的音列」與本句語境不同。"
+        "tone-mcq-40": "本句的「tone-deaf」指「對他人感受、社會氣氛或情境極不敏感的」。",
+        "tone-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-40"
     },
@@ -2707,11 +2551,9 @@ export default {
       "masked": "The campaign was criticized as ____.",
       "options": [
         "tone-mcq-40",
-        "tone-mcq-39",
-        "tone-mcq-41",
-        "tone-mcq-38",
-        "tone-mcq-42",
-        "tone-mcq-37"
+        "tone-mcq-44",
+        "tone-mcq-63",
+        "tone-mcq-93"
       ],
       "explanation": "本句的「tone-deaf」指「對他人感受、社會氣氛或情境極不敏感的」。",
       "sentenceIndex": 39,
@@ -2720,12 +2562,10 @@ export default {
         "tone-deaf"
       ],
       "optionReasons": {
-        "tone-mcq-40": "本句指「對他人感受、社會氣氛或情境極不敏感的」。",
-        "tone-mcq-39": "「難以辨別／唱準音高的；俗稱五音不全」與本句語境不同。",
-        "tone-mcq-41": "「聲音缺乏情緒、抑揚或表情的」與本句語境不同。",
-        "tone-mcq-38": "「以音樂描繪故事／意象的交響詩」與本句語境不同。",
-        "tone-mcq-42": "「音高／語調幾乎沒有變化的單調聲音」與本句語境不同。",
-        "tone-mcq-37": "「十二音音樂中的音列」與本句語境不同。"
+        "tone-mcq-40": "本句的「tone-deaf」指「對他人感受、社會氣氛或情境極不敏感的」。",
+        "tone-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-40"
     },
@@ -2737,11 +2577,9 @@ export default {
       "masked": "He replied in a ____.",
       "options": [
         "tone-mcq-41",
-        "tone-mcq-40",
-        "tone-mcq-42",
-        "tone-mcq-39",
-        "tone-mcq-43",
-        "tone-mcq-38"
+        "tone-mcq-81",
+        "tone-mcq-71",
+        "tone-mcq-03"
       ],
       "explanation": "本句的「toneless voice」指「聲音缺乏情緒、抑揚或表情的」。",
       "sentenceIndex": 40,
@@ -2750,12 +2588,10 @@ export default {
         "toneless voice"
       ],
       "optionReasons": {
-        "tone-mcq-41": "本句指「聲音缺乏情緒、抑揚或表情的」。",
-        "tone-mcq-40": "「對他人感受、社會氣氛或情境極不敏感的」與本句語境不同。",
-        "tone-mcq-42": "「音高／語調幾乎沒有變化的單調聲音」與本句語境不同。",
-        "tone-mcq-39": "「難以辨別／唱準音高的；俗稱五音不全」與本句語境不同。",
-        "tone-mcq-43": "「在聲調語言中可改變詞義的音高模式；聲調」與本句語境不同。",
-        "tone-mcq-38": "「以音樂描繪故事／意象的交響詩」與本句語境不同。"
+        "tone-mcq-41": "本句的「toneless voice」指「聲音缺乏情緒、抑揚或表情的」。",
+        "tone-mcq-81": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-41"
     },
@@ -2767,11 +2603,9 @@ export default {
       "masked": "He read the paragraph ____.",
       "options": [
         "tone-mcq-42",
-        "tone-mcq-41",
-        "tone-mcq-43",
-        "tone-mcq-40",
-        "tone-mcq-44",
-        "tone-mcq-39"
+        "tone-mcq-68",
+        "tone-mcq-93",
+        "tone-mcq-81"
       ],
       "explanation": "本句的「in a monotone」指「音高／語調幾乎沒有變化的單調聲音」。",
       "sentenceIndex": 41,
@@ -2780,12 +2614,10 @@ export default {
         "in a monotone"
       ],
       "optionReasons": {
-        "tone-mcq-42": "本句指「音高／語調幾乎沒有變化的單調聲音」。",
-        "tone-mcq-41": "「聲音缺乏情緒、抑揚或表情的」與本句語境不同。",
-        "tone-mcq-43": "「在聲調語言中可改變詞義的音高模式；聲調」與本句語境不同。",
-        "tone-mcq-40": "「對他人感受、社會氣氛或情境極不敏感的」與本句語境不同。",
-        "tone-mcq-44": "「用聲調區分詞義的語言」與本句語境不同。",
-        "tone-mcq-39": "「難以辨別／唱準音高的；俗稱五音不全」與本句語境不同。"
+        "tone-mcq-42": "本句的「in a monotone」指「音高／語調幾乎沒有變化的單調聲音」。",
+        "tone-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-81": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-42"
     },
@@ -2797,11 +2629,9 @@ export default {
       "masked": "The word has a different meaning when pronounced with a different ____.",
       "options": [
         "tone-mcq-44",
-        "tone-mcq-43",
-        "tone-mcq-45",
-        "tone-mcq-42",
-        "tone-mcq-46",
-        "tone-mcq-41"
+        "tone-mcq-30",
+        "tone-mcq-84",
+        "tone-mcq-93"
       ],
       "explanation": "本句的「tone」指「用聲調區分詞義的語言」。",
       "sentenceIndex": 42,
@@ -2810,12 +2640,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-44": "本句指「用聲調區分詞義的語言」。",
-        "tone-mcq-43": "「在聲調語言中可改變詞義的音高模式；聲調」與本句語境不同。",
-        "tone-mcq-45": "「標示聲調的符號」與本句語境不同。",
-        "tone-mcq-42": "「音高／語調幾乎沒有變化的單調聲音」與本句語境不同。",
-        "tone-mcq-46": "「用數字標示聲調的系統」與本句語境不同。",
-        "tone-mcq-41": "「聲音缺乏情緒、抑揚或表情的」與本句語境不同。"
+        "tone-mcq-44": "本句的「tone」指「用聲調區分詞義的語言」。",
+        "tone-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-44"
     },
@@ -2827,11 +2655,9 @@ export default {
       "masked": "Learners need to practise the ____ carefully.",
       "options": [
         "tone-mcq-44",
-        "tone-mcq-43",
-        "tone-mcq-45",
-        "tone-mcq-42",
-        "tone-mcq-46",
-        "tone-mcq-41"
+        "tone-mcq-30",
+        "tone-mcq-94",
+        "tone-mcq-84"
       ],
       "explanation": "本句的「tones」指「用聲調區分詞義的語言」。",
       "sentenceIndex": 43,
@@ -2840,12 +2666,10 @@ export default {
         "tones"
       ],
       "optionReasons": {
-        "tone-mcq-44": "本句指「用聲調區分詞義的語言」。",
-        "tone-mcq-43": "「在聲調語言中可改變詞義的音高模式；聲調」與本句語境不同。",
-        "tone-mcq-45": "「標示聲調的符號」與本句語境不同。",
-        "tone-mcq-42": "「音高／語調幾乎沒有變化的單調聲音」與本句語境不同。",
-        "tone-mcq-46": "「用數字標示聲調的系統」與本句語境不同。",
-        "tone-mcq-41": "「聲音缺乏情緒、抑揚或表情的」與本句語境不同。"
+        "tone-mcq-44": "本句的「tones」指「用聲調區分詞義的語言」。",
+        "tone-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-94": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-44"
     },
@@ -2857,11 +2681,9 @@ export default {
       "masked": "Cantonese is a ____.",
       "options": [
         "tone-mcq-44",
-        "tone-mcq-43",
-        "tone-mcq-45",
-        "tone-mcq-42",
-        "tone-mcq-46",
-        "tone-mcq-41"
+        "tone-mcq-93",
+        "tone-mcq-39",
+        "tone-mcq-84"
       ],
       "explanation": "本句的「tonal language」指「用聲調區分詞義的語言」。",
       "sentenceIndex": 44,
@@ -2870,12 +2692,10 @@ export default {
         "tonal language"
       ],
       "optionReasons": {
-        "tone-mcq-44": "本句指「用聲調區分詞義的語言」。",
-        "tone-mcq-43": "「在聲調語言中可改變詞義的音高模式；聲調」與本句語境不同。",
-        "tone-mcq-45": "「標示聲調的符號」與本句語境不同。",
-        "tone-mcq-42": "「音高／語調幾乎沒有變化的單調聲音」與本句語境不同。",
-        "tone-mcq-46": "「用數字標示聲調的系統」與本句語境不同。",
-        "tone-mcq-41": "「聲音缺乏情緒、抑揚或表情的」與本句語境不同。"
+        "tone-mcq-44": "本句的「tonal language」指「用聲調區分詞義的語言」。",
+        "tone-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-44"
     },
@@ -2887,11 +2707,9 @@ export default {
       "masked": "Add the correct ____.",
       "options": [
         "tone-mcq-45",
-        "tone-mcq-44",
-        "tone-mcq-46",
-        "tone-mcq-43",
-        "tone-mcq-47",
-        "tone-mcq-42"
+        "tone-mcq-13",
+        "tone-mcq-83",
+        "tone-mcq-30"
       ],
       "explanation": "本句的「tone mark」指「標示聲調的符號」。",
       "sentenceIndex": 45,
@@ -2900,12 +2718,10 @@ export default {
         "tone mark"
       ],
       "optionReasons": {
-        "tone-mcq-45": "本句指「標示聲調的符號」。",
-        "tone-mcq-44": "「用聲調區分詞義的語言」與本句語境不同。",
-        "tone-mcq-46": "「用數字標示聲調的系統」與本句語境不同。",
-        "tone-mcq-43": "「在聲調語言中可改變詞義的音高模式；聲調」與本句語境不同。",
-        "tone-mcq-47": "「聲調內部音高升降的輪廓」與本句語境不同。",
-        "tone-mcq-42": "「音高／語調幾乎沒有變化的單調聲音」與本句語境不同。"
+        "tone-mcq-45": "本句的「tone mark」指「標示聲調的符號」。",
+        "tone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-45"
     },
@@ -2917,11 +2733,9 @@ export default {
       "masked": "Wait for the ____ before speaking.",
       "options": [
         "tone-mcq-49",
-        "tone-mcq-48",
-        "tone-mcq-50",
-        "tone-mcq-47",
-        "tone-mcq-51",
-        "tone-mcq-46"
+        "tone-mcq-05",
+        "tone-mcq-78",
+        "tone-mcq-19"
       ],
       "explanation": "本句的「tone」指「用作提示或訊號的電子聲音」。",
       "sentenceIndex": 46,
@@ -2930,12 +2744,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-49": "本句指「用作提示或訊號的電子聲音」。",
-        "tone-mcq-48": "「因相鄰聲調／語境而發生的變調」與本句語境不同。",
-        "tone-mcq-50": "「電話可開始撥號時的撥號音」與本句語境不同。",
-        "tone-mcq-47": "「聲調內部音高升降的輪廓」與本句語境不同。",
-        "tone-mcq-51": "「電話線忙時發出的忙音」與本句語境不同。",
-        "tone-mcq-46": "「用數字標示聲調的系統」與本句語境不同。"
+        "tone-mcq-49": "本句的「tone」指「用作提示或訊號的電子聲音」。",
+        "tone-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-49"
     },
@@ -2947,11 +2759,9 @@ export default {
       "masked": "The machine emitted a warning ____.",
       "options": [
         "tone-mcq-49",
-        "tone-mcq-48",
-        "tone-mcq-50",
-        "tone-mcq-47",
-        "tone-mcq-51",
-        "tone-mcq-46"
+        "tone-mcq-20",
+        "tone-mcq-40",
+        "tone-mcq-71"
       ],
       "explanation": "本句的「tone」指「用作提示或訊號的電子聲音」。",
       "sentenceIndex": 47,
@@ -2960,12 +2770,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-49": "本句指「用作提示或訊號的電子聲音」。",
-        "tone-mcq-48": "「因相鄰聲調／語境而發生的變調」與本句語境不同。",
-        "tone-mcq-50": "「電話可開始撥號時的撥號音」與本句語境不同。",
-        "tone-mcq-47": "「聲調內部音高升降的輪廓」與本句語境不同。",
-        "tone-mcq-51": "「電話線忙時發出的忙音」與本句語境不同。",
-        "tone-mcq-46": "「用數字標示聲調的系統」與本句語境不同。"
+        "tone-mcq-49": "本句的「tone」指「用作提示或訊號的電子聲音」。",
+        "tone-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-49"
     },
@@ -2977,11 +2785,9 @@ export default {
       "masked": "I picked up the phone but heard no ____.",
       "options": [
         "tone-mcq-50",
-        "tone-mcq-49",
-        "tone-mcq-51",
-        "tone-mcq-48",
-        "tone-mcq-52",
-        "tone-mcq-47"
+        "tone-mcq-78",
+        "tone-mcq-44",
+        "tone-mcq-86"
       ],
       "explanation": "本句的「dial tone」指「電話可開始撥號時的撥號音」。",
       "sentenceIndex": 48,
@@ -2990,12 +2796,10 @@ export default {
         "dial tone"
       ],
       "optionReasons": {
-        "tone-mcq-50": "本句指「電話可開始撥號時的撥號音」。",
-        "tone-mcq-49": "「用作提示或訊號的電子聲音」與本句語境不同。",
-        "tone-mcq-51": "「電話線忙時發出的忙音」與本句語境不同。",
-        "tone-mcq-48": "「因相鄰聲調／語境而發生的變調」與本句語境不同。",
-        "tone-mcq-52": "「手機有來電時播放的鈴聲」與本句語境不同。",
-        "tone-mcq-47": "「聲調內部音高升降的輪廓」與本句語境不同。"
+        "tone-mcq-50": "本句的「dial tone」指「電話可開始撥號時的撥號音」。",
+        "tone-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-86": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-50"
     },
@@ -3007,11 +2811,9 @@ export default {
       "masked": "I changed my ____.",
       "options": [
         "tone-mcq-52",
-        "tone-mcq-51",
-        "tone-mcq-53",
-        "tone-mcq-50",
-        "tone-mcq-54",
-        "tone-mcq-49"
+        "tone-mcq-09",
+        "tone-mcq-63",
+        "tone-mcq-69"
       ],
       "explanation": "本句的「ringtone」指「手機有來電時播放的鈴聲」。",
       "sentenceIndex": 49,
@@ -3020,12 +2822,10 @@ export default {
         "ringtone"
       ],
       "optionReasons": {
-        "tone-mcq-52": "本句指「手機有來電時播放的鈴聲」。",
-        "tone-mcq-51": "「電話線忙時發出的忙音」與本句語境不同。",
-        "tone-mcq-53": "「用來提醒危險／故障的警告音」與本句語境不同。",
-        "tone-mcq-50": "「電話可開始撥號時的撥號音」與本句語境不同。",
-        "tone-mcq-54": "「電子裝置有通知時發出的提示音」與本句語境不同。",
-        "tone-mcq-49": "「用作提示或訊號的電子聲音」與本句語境不同。"
+        "tone-mcq-52": "本句的「ringtone」指「手機有來電時播放的鈴聲」。",
+        "tone-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-52"
     },
@@ -3037,11 +2837,9 @@ export default {
       "masked": "Adjust the ____ on the amplifier.",
       "options": [
         "tone-mcq-56",
-        "tone-mcq-55",
-        "tone-mcq-57",
-        "tone-mcq-54",
-        "tone-mcq-58",
-        "tone-mcq-53"
+        "tone-mcq-13",
+        "tone-mcq-65",
+        "tone-mcq-40"
       ],
       "explanation": "本句的「tone controls」指「調整音響高低頻／音色的控制」。",
       "sentenceIndex": 50,
@@ -3050,12 +2848,10 @@ export default {
         "tone controls"
       ],
       "optionReasons": {
-        "tone-mcq-56": "本句指「調整音響高低頻／音色的控制」。",
-        "tone-mcq-55": "「按鍵產生音頻訊號的電話系統」與本句語境不同。",
-        "tone-mcq-57": "「樂器產生的整體音色與聲音質感」與本句語境不同。",
-        "tone-mcq-54": "「電子裝置有通知時發出的提示音」與本句語境不同。",
-        "tone-mcq-58": "「黑膠唱盤承載唱針的唱臂」與本句語境不同。",
-        "tone-mcq-53": "「用來提醒危險／故障的警告音」與本句語境不同。"
+        "tone-mcq-56": "本句的「tone controls」指「調整音響高低頻／音色的控制」。",
+        "tone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-56"
     },
@@ -3067,11 +2863,9 @@ export default {
       "masked": "The guitarist spent hours adjusting his ____.",
       "options": [
         "tone-mcq-57",
-        "tone-mcq-56",
-        "tone-mcq-58",
-        "tone-mcq-55",
-        "tone-mcq-59",
-        "tone-mcq-54"
+        "tone-mcq-08",
+        "tone-mcq-81",
+        "tone-mcq-94"
       ],
       "explanation": "本句的「tone」指「樂器產生的整體音色與聲音質感」。",
       "sentenceIndex": 51,
@@ -3080,12 +2874,10 @@ export default {
         "tone"
       ],
       "optionReasons": {
-        "tone-mcq-57": "本句指「樂器產生的整體音色與聲音質感」。",
-        "tone-mcq-56": "「調整音響高低頻／音色的控制」與本句語境不同。",
-        "tone-mcq-58": "「黑膠唱盤承載唱針的唱臂」與本句語境不同。",
-        "tone-mcq-55": "「按鍵產生音頻訊號的電話系統」與本句語境不同。",
-        "tone-mcq-59": "「某種顏色的深淺、冷暖或整體色調」與本句語境不同。",
-        "tone-mcq-54": "「電子裝置有通知時發出的提示音」與本句語境不同。"
+        "tone-mcq-57": "本句的「tone」指「樂器產生的整體音色與聲音質感」。",
+        "tone-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-81": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-94": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-57"
     },
@@ -3097,11 +2889,9 @@ export default {
       "masked": "The room uses warm earth ____.",
       "options": [
         "tone-mcq-59",
-        "tone-mcq-58",
-        "tone-mcq-60",
-        "tone-mcq-57",
-        "tone-mcq-61",
-        "tone-mcq-56"
+        "tone-mcq-07",
+        "tone-mcq-84",
+        "tone-mcq-26"
       ],
       "explanation": "本句的「tones」指「某種顏色的深淺、冷暖或整體色調」。",
       "sentenceIndex": 52,
@@ -3110,12 +2900,10 @@ export default {
         "tones"
       ],
       "optionReasons": {
-        "tone-mcq-59": "本句指「某種顏色的深淺、冷暖或整體色調」。",
-        "tone-mcq-58": "「黑膠唱盤承載唱針的唱臂」與本句語境不同。",
-        "tone-mcq-60": "「偏紅、黃、橙等感覺的暖色調」與本句語境不同。",
-        "tone-mcq-57": "「樂器產生的整體音色與聲音質感」與本句語境不同。",
-        "tone-mcq-61": "「偏藍、綠等感覺的冷色調」與本句語境不同。",
-        "tone-mcq-56": "「調整音響高低頻／音色的控制」與本句語境不同。"
+        "tone-mcq-59": "本句的「tones」指「某種顏色的深淺、冷暖或整體色調」。",
+        "tone-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-59"
     },
@@ -3127,11 +2915,9 @@ export default {
       "masked": "Choose a softer ____.",
       "options": [
         "tone-mcq-59",
-        "tone-mcq-58",
-        "tone-mcq-60",
-        "tone-mcq-57",
-        "tone-mcq-61",
-        "tone-mcq-56"
+        "tone-mcq-18",
+        "tone-mcq-39",
+        "tone-mcq-52"
       ],
       "explanation": "本句的「tone of blue」指「某種顏色的深淺、冷暖或整體色調」。",
       "sentenceIndex": 53,
@@ -3140,12 +2926,10 @@ export default {
         "tone of blue"
       ],
       "optionReasons": {
-        "tone-mcq-59": "本句指「某種顏色的深淺、冷暖或整體色調」。",
-        "tone-mcq-58": "「黑膠唱盤承載唱針的唱臂」與本句語境不同。",
-        "tone-mcq-60": "「偏紅、黃、橙等感覺的暖色調」與本句語境不同。",
-        "tone-mcq-57": "「樂器產生的整體音色與聲音質感」與本句語境不同。",
-        "tone-mcq-61": "「偏藍、綠等感覺的冷色調」與本句語境不同。",
-        "tone-mcq-56": "「調整音響高低頻／音色的控制」與本句語境不同。"
+        "tone-mcq-59": "本句的「tone of blue」指「某種顏色的深淺、冷暖或整體色調」。",
+        "tone-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-59"
     },
@@ -3157,11 +2941,9 @@ export default {
       "masked": "The room is decorated in ____.",
       "options": [
         "tone-mcq-62",
-        "tone-mcq-61",
-        "tone-mcq-63",
-        "tone-mcq-60",
-        "tone-mcq-64",
-        "tone-mcq-59"
+        "tone-mcq-81",
+        "tone-mcq-49",
+        "tone-mcq-14"
       ],
       "explanation": "本句的「muted tones」指「柔和、低飽和度的色調」。",
       "sentenceIndex": 54,
@@ -3170,12 +2952,10 @@ export default {
         "muted tones"
       ],
       "optionReasons": {
-        "tone-mcq-62": "本句指「柔和、低飽和度的色調」。",
-        "tone-mcq-61": "「偏藍、綠等感覺的冷色調」與本句語境不同。",
-        "tone-mcq-63": "「人的天然膚色」與本句語境不同。",
-        "tone-mcq-60": "「偏紅、黃、橙等感覺的暖色調」與本句語境不同。",
-        "tone-mcq-64": "「表面顏色之下較細微的底色／底調」與本句語境不同。",
-        "tone-mcq-59": "「某種顏色的深淺、冷暖或整體色調」與本句語境不同。"
+        "tone-mcq-62": "本句的「muted tones」指「柔和、低飽和度的色調」。",
+        "tone-mcq-81": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-62"
     },
@@ -3187,11 +2967,9 @@ export default {
       "masked": "Choose a foundation that matches your ____.",
       "options": [
         "tone-mcq-63",
-        "tone-mcq-62",
-        "tone-mcq-64",
-        "tone-mcq-61",
-        "tone-mcq-65",
-        "tone-mcq-60"
+        "tone-mcq-19",
+        "tone-mcq-13",
+        "tone-mcq-49"
       ],
       "explanation": "本句的「skin tone」指「人的天然膚色」。",
       "sentenceIndex": 55,
@@ -3200,12 +2978,10 @@ export default {
         "skin tone"
       ],
       "optionReasons": {
-        "tone-mcq-63": "本句指「人的天然膚色」。",
-        "tone-mcq-62": "「柔和、低飽和度的色調」與本句語境不同。",
-        "tone-mcq-64": "「表面顏色之下較細微的底色／底調」與本句語境不同。",
-        "tone-mcq-61": "「偏藍、綠等感覺的冷色調」與本句語境不同。",
-        "tone-mcq-65": "「沒有明說但隱約存在的情緒／意味」與本句語境不同。",
-        "tone-mcq-60": "「偏紅、黃、橙等感覺的暖色調」與本句語境不同。"
+        "tone-mcq-63": "本句的「skin tone」指「人的天然膚色」。",
+        "tone-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-63"
     },
@@ -3217,11 +2993,9 @@ export default {
       "masked": "Her skin has a warm ____.",
       "options": [
         "tone-mcq-64",
-        "tone-mcq-63",
-        "tone-mcq-65",
-        "tone-mcq-62",
-        "tone-mcq-66",
-        "tone-mcq-61"
+        "tone-mcq-84",
+        "tone-mcq-88",
+        "tone-mcq-94"
       ],
       "explanation": "本句的「undertone」指「表面顏色之下較細微的底色／底調」。",
       "sentenceIndex": 56,
@@ -3230,12 +3004,10 @@ export default {
         "undertone"
       ],
       "optionReasons": {
-        "tone-mcq-64": "本句指「表面顏色之下較細微的底色／底調」。",
-        "tone-mcq-63": "「人的天然膚色」與本句語境不同。",
-        "tone-mcq-65": "「沒有明說但隱約存在的情緒／意味」與本句語境不同。",
-        "tone-mcq-62": "「柔和、低飽和度的色調」與本句語境不同。",
-        "tone-mcq-66": "「以很低的聲音說話」與本句語境不同。",
-        "tone-mcq-61": "「偏藍、綠等感覺的冷色調」與本句語境不同。"
+        "tone-mcq-64": "本句的「undertone」指「表面顏色之下較細微的底色／底調」。",
+        "tone-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-94": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-64"
     },
@@ -3247,11 +3019,9 @@ export default {
       "masked": "There was an ____ in his voice.",
       "options": [
         "tone-mcq-65",
-        "tone-mcq-64",
-        "tone-mcq-66",
-        "tone-mcq-63",
-        "tone-mcq-67",
-        "tone-mcq-62"
+        "tone-mcq-87",
+        "tone-mcq-13",
+        "tone-mcq-15"
       ],
       "explanation": "本句的「undertone of anger」指「沒有明說但隱約存在的情緒／意味」。",
       "sentenceIndex": 57,
@@ -3260,12 +3030,10 @@ export default {
         "undertone of anger"
       ],
       "optionReasons": {
-        "tone-mcq-65": "本句指「沒有明說但隱約存在的情緒／意味」。",
-        "tone-mcq-64": "「表面顏色之下較細微的底色／底調」與本句語境不同。",
-        "tone-mcq-66": "「以很低的聲音說話」與本句語境不同。",
-        "tone-mcq-63": "「人的天然膚色」與本句語境不同。",
-        "tone-mcq-67": "「基頻以上的泛音」與本句語境不同。",
-        "tone-mcq-62": "「柔和、低飽和度的色調」與本句語境不同。"
+        "tone-mcq-65": "本句的「undertone of anger」指「沒有明說但隱約存在的情緒／意味」。",
+        "tone-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-65"
     },
@@ -3277,11 +3045,9 @@ export default {
       "masked": "The conversation had a threatening ____.",
       "options": [
         "tone-mcq-65",
-        "tone-mcq-64",
-        "tone-mcq-66",
-        "tone-mcq-63",
-        "tone-mcq-67",
-        "tone-mcq-62"
+        "tone-mcq-10",
+        "tone-mcq-33",
+        "tone-mcq-87"
       ],
       "explanation": "本句的「undertone」指「沒有明說但隱約存在的情緒／意味」。",
       "sentenceIndex": 58,
@@ -3290,12 +3056,10 @@ export default {
         "undertone"
       ],
       "optionReasons": {
-        "tone-mcq-65": "本句指「沒有明說但隱約存在的情緒／意味」。",
-        "tone-mcq-64": "「表面顏色之下較細微的底色／底調」與本句語境不同。",
-        "tone-mcq-66": "「以很低的聲音說話」與本句語境不同。",
-        "tone-mcq-63": "「人的天然膚色」與本句語境不同。",
-        "tone-mcq-67": "「基頻以上的泛音」與本句語境不同。",
-        "tone-mcq-62": "「柔和、低飽和度的色調」與本句語境不同。"
+        "tone-mcq-65": "本句的「undertone」指「沒有明說但隱約存在的情緒／意味」。",
+        "tone-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-87": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-65"
     },
@@ -3307,11 +3071,9 @@ export default {
       "masked": "They spoke ____.",
       "options": [
         "tone-mcq-66",
-        "tone-mcq-65",
-        "tone-mcq-67",
-        "tone-mcq-64",
-        "tone-mcq-68",
-        "tone-mcq-63"
+        "tone-mcq-84",
+        "tone-mcq-20",
+        "tone-mcq-94"
       ],
       "explanation": "本句的「in undertones」指「以很低的聲音說話」。",
       "sentenceIndex": 59,
@@ -3320,12 +3082,10 @@ export default {
         "in undertones"
       ],
       "optionReasons": {
-        "tone-mcq-66": "本句指「以很低的聲音說話」。",
-        "tone-mcq-65": "「沒有明說但隱約存在的情緒／意味」與本句語境不同。",
-        "tone-mcq-67": "「基頻以上的泛音」與本句語境不同。",
-        "tone-mcq-64": "「表面顏色之下較細微的底色／底調」與本句語境不同。",
-        "tone-mcq-68": "「附帶的暗示、聯想或言外之意」與本句語境不同。",
-        "tone-mcq-63": "「人的天然膚色」與本句語境不同。"
+        "tone-mcq-66": "本句的「in undertones」指「以很低的聲音說話」。",
+        "tone-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-94": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-66"
     },
@@ -3337,11 +3097,9 @@ export default {
       "masked": "The remark had political ____.",
       "options": [
         "tone-mcq-68",
-        "tone-mcq-67",
-        "tone-mcq-69",
-        "tone-mcq-66",
-        "tone-mcq-70",
-        "tone-mcq-65"
+        "tone-mcq-24",
+        "tone-mcq-27",
+        "tone-mcq-40"
       ],
       "explanation": "本句的「overtones」指「附帶的暗示、聯想或言外之意」。",
       "sentenceIndex": 60,
@@ -3350,12 +3108,10 @@ export default {
         "overtones"
       ],
       "optionReasons": {
-        "tone-mcq-68": "本句指「附帶的暗示、聯想或言外之意」。",
-        "tone-mcq-67": "「基頻以上的泛音」與本句語境不同。",
-        "tone-mcq-69": "「具有兩種明顯顏色／色調的」與本句語境不同。",
-        "tone-mcq-66": "「以很低的聲音說話」與本句語境不同。",
-        "tone-mcq-70": "「使用同一／相近色系不同深淺的配色」與本句語境不同。",
-        "tone-mcq-65": "「沒有明說但隱約存在的情緒／意味」與本句語境不同。"
+        "tone-mcq-68": "本句的「overtones」指「附帶的暗示、聯想或言外之意」。",
+        "tone-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-68"
     },
@@ -3367,11 +3123,9 @@ export default {
       "masked": "The story has religious ____.",
       "options": [
         "tone-mcq-68",
-        "tone-mcq-67",
-        "tone-mcq-69",
-        "tone-mcq-66",
-        "tone-mcq-70",
-        "tone-mcq-65"
+        "tone-mcq-94",
+        "tone-mcq-59",
+        "tone-mcq-49"
       ],
       "explanation": "本句的「overtones」指「附帶的暗示、聯想或言外之意」。",
       "sentenceIndex": 61,
@@ -3380,12 +3134,10 @@ export default {
         "overtones"
       ],
       "optionReasons": {
-        "tone-mcq-68": "本句指「附帶的暗示、聯想或言外之意」。",
-        "tone-mcq-67": "「基頻以上的泛音」與本句語境不同。",
-        "tone-mcq-69": "「具有兩種明顯顏色／色調的」與本句語境不同。",
-        "tone-mcq-66": "「以很低的聲音說話」與本句語境不同。",
-        "tone-mcq-70": "「使用同一／相近色系不同深淺的配色」與本句語境不同。",
-        "tone-mcq-65": "「沒有明說但隱約存在的情緒／意味」與本句語境不同。"
+        "tone-mcq-68": "本句的「overtones」指「附帶的暗示、聯想或言外之意」。",
+        "tone-mcq-94": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-68"
     },
@@ -3397,11 +3149,9 @@ export default {
       "masked": "She bought a ____ jacket.",
       "options": [
         "tone-mcq-69",
-        "tone-mcq-68",
-        "tone-mcq-70",
-        "tone-mcq-67",
-        "tone-mcq-71",
-        "tone-mcq-66"
+        "tone-mcq-86",
+        "tone-mcq-20",
+        "tone-mcq-93"
       ],
       "explanation": "本句的「two-tone」指「具有兩種明顯顏色／色調的」。",
       "sentenceIndex": 62,
@@ -3410,12 +3160,10 @@ export default {
         "two-tone"
       ],
       "optionReasons": {
-        "tone-mcq-69": "本句指「具有兩種明顯顏色／色調的」。",
-        "tone-mcq-68": "「附帶的暗示、聯想或言外之意」與本句語境不同。",
-        "tone-mcq-70": "「使用同一／相近色系不同深淺的配色」與本句語境不同。",
-        "tone-mcq-67": "「基頻以上的泛音」與本句語境不同。",
-        "tone-mcq-71": "「與畫面明暗／色調關係有關的」與本句語境不同。",
-        "tone-mcq-66": "「以很低的聲音說話」與本句語境不同。"
+        "tone-mcq-69": "本句的「two-tone」指「具有兩種明顯顏色／色調的」。",
+        "tone-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-69"
     },
@@ -3427,11 +3175,9 @@ export default {
       "masked": "The painting has strong ____.",
       "options": [
         "tone-mcq-71",
-        "tone-mcq-70",
-        "tone-mcq-72",
-        "tone-mcq-69",
-        "tone-mcq-73",
-        "tone-mcq-68"
+        "tone-mcq-40",
+        "tone-mcq-83",
+        "tone-mcq-49"
       ],
       "explanation": "本句的「tonal contrast」指「與畫面明暗／色調關係有關的」。",
       "sentenceIndex": 63,
@@ -3440,12 +3186,10 @@ export default {
         "tonal contrast"
       ],
       "optionReasons": {
-        "tone-mcq-71": "本句指「與畫面明暗／色調關係有關的」。",
-        "tone-mcq-70": "「使用同一／相近色系不同深淺的配色」與本句語境不同。",
-        "tone-mcq-72": "「圖像從最暗到最亮的影調範圍」與本句語境不同。",
-        "tone-mcq-69": "「具有兩種明顯顏色／色調的」與本句語境不同。",
-        "tone-mcq-73": "「介乎高光與陰影之間的中間調」與本句語境不同。",
-        "tone-mcq-68": "「附帶的暗示、聯想或言外之意」與本句語境不同。"
+        "tone-mcq-71": "本句的「tonal contrast」指「與畫面明暗／色調關係有關的」。",
+        "tone-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-71"
     },
@@ -3457,11 +3201,9 @@ export default {
       "masked": "The photograph has a wide ____.",
       "options": [
         "tone-mcq-72",
-        "tone-mcq-71",
-        "tone-mcq-73",
-        "tone-mcq-70",
-        "tone-mcq-74",
-        "tone-mcq-69"
+        "tone-mcq-49",
+        "tone-mcq-15",
+        "tone-mcq-14"
       ],
       "explanation": "本句的「tonal range」指「圖像從最暗到最亮的影調範圍」。",
       "sentenceIndex": 64,
@@ -3470,12 +3212,10 @@ export default {
         "tonal range"
       ],
       "optionReasons": {
-        "tone-mcq-72": "本句指「圖像從最暗到最亮的影調範圍」。",
-        "tone-mcq-71": "「與畫面明暗／色調關係有關的」與本句語境不同。",
-        "tone-mcq-73": "「介乎高光與陰影之間的中間調」與本句語境不同。",
-        "tone-mcq-70": "「使用同一／相近色系不同深淺的配色」與本句語境不同。",
-        "tone-mcq-74": "「以網點模擬連續深淺的半色調印刷／圖像」與本句語境不同。",
-        "tone-mcq-69": "「具有兩種明顯顏色／色調的」與本句語境不同。"
+        "tone-mcq-72": "本句的「tonal range」指「圖像從最暗到最亮的影調範圍」。",
+        "tone-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-72"
     },
@@ -3487,11 +3227,9 @@ export default {
       "masked": "The image was ____ to give it a warmer appearance.",
       "options": [
         "tone-mcq-76",
-        "tone-mcq-75",
-        "tone-mcq-77",
-        "tone-mcq-74",
-        "tone-mcq-78",
-        "tone-mcq-73"
+        "tone-mcq-02",
+        "tone-mcq-40",
+        "tone-mcq-83"
       ],
       "explanation": "本句的「toned」指「調整圖像／材料的色調」。",
       "sentenceIndex": 65,
@@ -3500,12 +3238,10 @@ export default {
         "toned"
       ],
       "optionReasons": {
-        "tone-mcq-76": "本句指「調整圖像／材料的色調」。",
-        "tone-mcq-75": "「具有連續明暗漸變的圖像」與本句語境不同。",
-        "tone-mcq-77": "「改變照片色調的處理」與本句語境不同。",
-        "tone-mcq-74": "「以網點模擬連續深淺的半色調印刷／圖像」與本句語境不同。",
-        "tone-mcq-78": "「用來調整／中和髮色色調的調色劑」與本句語境不同。",
-        "tone-mcq-73": "「介乎高光與陰影之間的中間調」與本句語境不同。"
+        "tone-mcq-76": "本句的「toned」指「調整圖像／材料的色調」。",
+        "tone-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-83": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-76"
     },
@@ -3517,11 +3253,9 @@ export default {
       "masked": "The print was ____ sepia.",
       "options": [
         "tone-mcq-76",
-        "tone-mcq-75",
-        "tone-mcq-77",
-        "tone-mcq-74",
-        "tone-mcq-78",
-        "tone-mcq-73"
+        "tone-mcq-94",
+        "tone-mcq-26",
+        "tone-mcq-41"
       ],
       "explanation": "本句的「toned」指「調整圖像／材料的色調」。",
       "sentenceIndex": 66,
@@ -3530,12 +3264,10 @@ export default {
         "toned"
       ],
       "optionReasons": {
-        "tone-mcq-76": "本句指「調整圖像／材料的色調」。",
-        "tone-mcq-75": "「具有連續明暗漸變的圖像」與本句語境不同。",
-        "tone-mcq-77": "「改變照片色調的處理」與本句語境不同。",
-        "tone-mcq-74": "「以網點模擬連續深淺的半色調印刷／圖像」與本句語境不同。",
-        "tone-mcq-78": "「用來調整／中和髮色色調的調色劑」與本句語境不同。",
-        "tone-mcq-73": "「介乎高光與陰影之間的中間調」與本句語境不同。"
+        "tone-mcq-76": "本句的「toned」指「調整圖像／材料的色調」。",
+        "tone-mcq-94": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-76"
     },
@@ -3547,11 +3279,9 @@ export default {
       "masked": "The stylist used a ____ to reduce the yellow colour.",
       "options": [
         "tone-mcq-78",
-        "tone-mcq-77",
-        "tone-mcq-79",
-        "tone-mcq-76",
-        "tone-mcq-80",
-        "tone-mcq-75"
+        "tone-mcq-40",
+        "tone-mcq-88",
+        "tone-mcq-41"
       ],
       "explanation": "本句的「toner」指「用來調整／中和髮色色調的調色劑」。",
       "sentenceIndex": 67,
@@ -3560,12 +3290,10 @@ export default {
         "toner"
       ],
       "optionReasons": {
-        "tone-mcq-78": "本句指「用來調整／中和髮色色調的調色劑」。",
-        "tone-mcq-77": "「改變照片色調的處理」與本句語境不同。",
-        "tone-mcq-79": "「潔面後使用的爽膚水／化妝水」與本句語境不同。",
-        "tone-mcq-76": "「調整圖像／材料的色調」與本句語境不同。",
-        "tone-mcq-80": "「雷射打印機／影印機使用的碳粉」與本句語境不同。",
-        "tone-mcq-75": "「具有連續明暗漸變的圖像」與本句語境不同。"
+        "tone-mcq-78": "本句的「toner」指「用來調整／中和髮色色調的調色劑」。",
+        "tone-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-88": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-78"
     },
@@ -3577,11 +3305,9 @@ export default {
       "masked": "She applied ____ after washing her face.",
       "options": [
         "tone-mcq-94",
-        "tone-mcq-93",
-        "tone-mcq-95",
-        "tone-mcq-92",
-        "tone-mcq-91",
-        "tone-mcq-90"
+        "tone-mcq-64",
+        "tone-mcq-40",
+        "tone-mcq-26"
       ],
       "explanation": "本句的「toner」指「爽膚水／化妝水」。",
       "sentenceIndex": 68,
@@ -3590,12 +3316,10 @@ export default {
         "toner"
       ],
       "optionReasons": {
-        "tone-mcq-94": "本句指「爽膚水／化妝水」。",
-        "tone-mcq-93": "「打印機／影印機碳粉」與本句語境不同。",
-        "tone-mcq-95": "「調整髮色色調的產品」與本句語境不同。",
-        "tone-mcq-92": "「語氣、態度或作品基調的明顯轉變」與本句語境不同。",
-        "tone-mcq-91": "「網上文字中用來提示玩笑、諷刺等意圖的語氣標記」與本句語境不同。",
-        "tone-mcq-90": "「英式：在色調或風格上與某物協調」與本句語境不同。"
+        "tone-mcq-94": "本句的「toner」指「爽膚水／化妝水」。",
+        "tone-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-94"
     },
@@ -3607,11 +3331,9 @@ export default {
       "masked": "The printer is low on ____.",
       "options": [
         "tone-mcq-93",
-        "tone-mcq-92",
-        "tone-mcq-94",
-        "tone-mcq-91",
-        "tone-mcq-95",
-        "tone-mcq-90"
+        "tone-mcq-13",
+        "tone-mcq-02",
+        "tone-mcq-76"
       ],
       "explanation": "本句的「toner」指「打印機／影印機碳粉」。",
       "sentenceIndex": 69,
@@ -3620,12 +3342,10 @@ export default {
         "toner"
       ],
       "optionReasons": {
-        "tone-mcq-93": "本句指「打印機／影印機碳粉」。",
-        "tone-mcq-92": "「語氣、態度或作品基調的明顯轉變」與本句語境不同。",
-        "tone-mcq-94": "「爽膚水／化妝水」與本句語境不同。",
-        "tone-mcq-91": "「網上文字中用來提示玩笑、諷刺等意圖的語氣標記」與本句語境不同。",
-        "tone-mcq-95": "「調整髮色色調的產品」與本句語境不同。",
-        "tone-mcq-90": "「英式：在色調或風格上與某物協調」與本句語境不同。"
+        "tone-mcq-93": "本句的「toner」指「打印機／影印機碳粉」。",
+        "tone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-93"
     },
@@ -3637,11 +3357,9 @@ export default {
       "masked": "The therapist assessed the patient’s ____.",
       "options": [
         "tone-mcq-81",
-        "tone-mcq-80",
-        "tone-mcq-82",
-        "tone-mcq-79",
-        "tone-mcq-83",
-        "tone-mcq-78"
+        "tone-mcq-30",
+        "tone-mcq-92",
+        "tone-mcq-07"
       ],
       "explanation": "本句的「muscle tone」指「肌肉即使休息時仍保持的自然張力；肌張力」。",
       "sentenceIndex": 70,
@@ -3650,12 +3368,10 @@ export default {
         "muscle tone"
       ],
       "optionReasons": {
-        "tone-mcq-81": "本句指「肌肉即使休息時仍保持的自然張力；肌張力」。",
-        "tone-mcq-80": "「雷射打印機／影印機使用的碳粉」與本句語境不同。",
-        "tone-mcq-82": "「肌張力偏高／偏低」與本句語境不同。",
-        "tone-mcq-79": "「潔面後使用的爽膚水／化妝水」與本句語境不同。",
-        "tone-mcq-83": "「透過鍛鍊使肌肉／身體線條更結實」與本句語境不同。",
-        "tone-mcq-78": "「用來調整／中和髮色色調的調色劑」與本句語境不同。"
+        "tone-mcq-81": "本句的「muscle tone」指「肌肉即使休息時仍保持的自然張力；肌張力」。",
+        "tone-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-81"
     },
@@ -3667,11 +3383,9 @@ export default {
       "masked": "These exercises help ____.",
       "options": [
         "tone-mcq-83",
-        "tone-mcq-82",
-        "tone-mcq-84",
-        "tone-mcq-81",
-        "tone-mcq-85",
-        "tone-mcq-80"
+        "tone-mcq-10",
+        "tone-mcq-27",
+        "tone-mcq-41"
       ],
       "explanation": "本句的「tone the legs」指「透過鍛鍊使肌肉／身體線條更結實」。",
       "sentenceIndex": 71,
@@ -3680,12 +3394,10 @@ export default {
         "tone the legs"
       ],
       "optionReasons": {
-        "tone-mcq-83": "本句指「透過鍛鍊使肌肉／身體線條更結實」。",
-        "tone-mcq-82": "「肌張力偏高／偏低」與本句語境不同。",
-        "tone-mcq-84": "「肌肉緊實、有明顯線條的」與本句語境不同。",
-        "tone-mcq-81": "「肌肉即使休息時仍保持的自然張力；肌張力」與本句語境不同。",
-        "tone-mcq-85": "「肌肉鍛鍊良好、線條結實的」與本句語境不同。",
-        "tone-mcq-80": "「雷射打印機／影印機使用的碳粉」與本句語境不同。"
+        "tone-mcq-83": "本句的「tone the legs」指「透過鍛鍊使肌肉／身體線條更結實」。",
+        "tone-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-83"
     },
@@ -3697,11 +3409,9 @@ export default {
       "masked": "Swimming can help ____.",
       "options": [
         "tone-mcq-83",
-        "tone-mcq-82",
-        "tone-mcq-84",
-        "tone-mcq-81",
-        "tone-mcq-85",
-        "tone-mcq-80"
+        "tone-mcq-45",
+        "tone-mcq-76",
+        "tone-mcq-21"
       ],
       "explanation": "本句的「tone the whole body」指「透過鍛鍊使肌肉／身體線條更結實」。",
       "sentenceIndex": 72,
@@ -3710,12 +3420,10 @@ export default {
         "tone the whole body"
       ],
       "optionReasons": {
-        "tone-mcq-83": "本句指「透過鍛鍊使肌肉／身體線條更結實」。",
-        "tone-mcq-82": "「肌張力偏高／偏低」與本句語境不同。",
-        "tone-mcq-84": "「肌肉緊實、有明顯線條的」與本句語境不同。",
-        "tone-mcq-81": "「肌肉即使休息時仍保持的自然張力；肌張力」與本句語境不同。",
-        "tone-mcq-85": "「肌肉鍛鍊良好、線條結實的」與本句語境不同。",
-        "tone-mcq-80": "「雷射打印機／影印機使用的碳粉」與本句語境不同。"
+        "tone-mcq-83": "本句的「tone the whole body」指「透過鍛鍊使肌肉／身體線條更結實」。",
+        "tone-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-83"
     },
@@ -3727,11 +3435,9 @@ export default {
       "masked": "She has strong, ____.",
       "options": [
         "tone-mcq-84",
-        "tone-mcq-83",
-        "tone-mcq-85",
-        "tone-mcq-82",
-        "tone-mcq-86",
-        "tone-mcq-81"
+        "tone-mcq-30",
+        "tone-mcq-52",
+        "tone-mcq-88"
       ],
       "explanation": "本句的「toned arms」指「肌肉緊實、有明顯線條的」。",
       "sentenceIndex": 73,
@@ -3740,12 +3446,10 @@ export default {
         "toned arms"
       ],
       "optionReasons": {
-        "tone-mcq-84": "本句指「肌肉緊實、有明顯線條的」。",
-        "tone-mcq-83": "「透過鍛鍊使肌肉／身體線條更結實」與本句語境不同。",
-        "tone-mcq-85": "「肌肉鍛鍊良好、線條結實的」與本句語境不同。",
-        "tone-mcq-82": "「肌張力偏高／偏低」與本句語境不同。",
-        "tone-mcq-86": "「透過運動令身體／肌肉更結實」與本句語境不同。",
-        "tone-mcq-81": "「肌肉即使休息時仍保持的自然張力；肌張力」與本句語境不同。"
+        "tone-mcq-84": "本句的「toned arms」指「肌肉緊實、有明顯線條的」。",
+        "tone-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-88": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-84"
     },
@@ -3757,11 +3461,9 @@ export default {
       "masked": "Exercise helped him become more ____.",
       "options": [
         "tone-mcq-84",
-        "tone-mcq-83",
-        "tone-mcq-85",
-        "tone-mcq-82",
-        "tone-mcq-86",
-        "tone-mcq-81"
+        "tone-mcq-26",
+        "tone-mcq-56",
+        "tone-mcq-88"
       ],
       "explanation": "本句的「toned」指「肌肉緊實、有明顯線條的」。",
       "sentenceIndex": 74,
@@ -3770,12 +3472,10 @@ export default {
         "toned"
       ],
       "optionReasons": {
-        "tone-mcq-84": "本句指「肌肉緊實、有明顯線條的」。",
-        "tone-mcq-83": "「透過鍛鍊使肌肉／身體線條更結實」與本句語境不同。",
-        "tone-mcq-85": "「肌肉鍛鍊良好、線條結實的」與本句語境不同。",
-        "tone-mcq-82": "「肌張力偏高／偏低」與本句語境不同。",
-        "tone-mcq-86": "「透過運動令身體／肌肉更結實」與本句語境不同。",
-        "tone-mcq-81": "「肌肉即使休息時仍保持的自然張力；肌張力」與本句語境不同。"
+        "tone-mcq-84": "本句的「toned」指「肌肉緊實、有明顯線條的」。",
+        "tone-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-88": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-84"
     },
@@ -3787,11 +3487,9 @@ export default {
       "masked": "She exercises to ____.",
       "options": [
         "tone-mcq-86",
-        "tone-mcq-85",
-        "tone-mcq-87",
-        "tone-mcq-84",
-        "tone-mcq-88",
-        "tone-mcq-83"
+        "tone-mcq-69",
+        "tone-mcq-26",
+        "tone-mcq-93"
       ],
       "explanation": "本句的「tone up」指「透過運動令身體／肌肉更結實」。",
       "sentenceIndex": 75,
@@ -3800,12 +3498,10 @@ export default {
         "tone up"
       ],
       "optionReasons": {
-        "tone-mcq-86": "本句指「透過運動令身體／肌肉更結實」。",
-        "tone-mcq-85": "「肌肉鍛鍊良好、線條結實的」與本句語境不同。",
-        "tone-mcq-87": "「令言辭、色彩、批評、行為等變得較溫和／不強烈」與本句語境不同。",
-        "tone-mcq-84": "「肌肉緊實、有明顯線條的」與本句語境不同。",
-        "tone-mcq-88": "「收斂一點；把聲量／態度／強度降低」與本句語境不同。",
-        "tone-mcq-83": "「透過鍛鍊使肌肉／身體線條更結實」與本句語境不同。"
+        "tone-mcq-86": "本句的「tone up」指「透過運動令身體／肌肉更結實」。",
+        "tone-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-86"
     },
@@ -3817,11 +3513,9 @@ export default {
       "masked": "These exercises ____.",
       "options": [
         "tone-mcq-86",
-        "tone-mcq-85",
-        "tone-mcq-87",
-        "tone-mcq-84",
-        "tone-mcq-88",
-        "tone-mcq-83"
+        "tone-mcq-19",
+        "tone-mcq-03",
+        "tone-mcq-72"
       ],
       "explanation": "本句的「tone up the abdominal muscles」指「透過運動令身體／肌肉更結實」。",
       "sentenceIndex": 76,
@@ -3830,12 +3524,10 @@ export default {
         "tone up the abdominal muscles"
       ],
       "optionReasons": {
-        "tone-mcq-86": "本句指「透過運動令身體／肌肉更結實」。",
-        "tone-mcq-85": "「肌肉鍛鍊良好、線條結實的」與本句語境不同。",
-        "tone-mcq-87": "「令言辭、色彩、批評、行為等變得較溫和／不強烈」與本句語境不同。",
-        "tone-mcq-84": "「肌肉緊實、有明顯線條的」與本句語境不同。",
-        "tone-mcq-88": "「收斂一點；把聲量／態度／強度降低」與本句語境不同。",
-        "tone-mcq-83": "「透過鍛鍊使肌肉／身體線條更結實」與本句語境不同。"
+        "tone-mcq-86": "本句的「tone up the abdominal muscles」指「透過運動令身體／肌肉更結實」。",
+        "tone-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-86"
     },
@@ -3847,10 +3539,8 @@ export default {
       "masked": "You should ____.",
       "options": [
         "tone-mcq-87",
-        "tone-mcq-86",
-        "tone-mcq-88",
-        "tone-mcq-85",
-        "tone-mcq-89",
+        "tone-mcq-14",
+        "tone-mcq-66",
         "tone-mcq-84"
       ],
       "explanation": "本句的「tone down the language」指「令言辭、色彩、批評、行為等變得較溫和／不強烈」。",
@@ -3860,12 +3550,10 @@ export default {
         "tone down the language"
       ],
       "optionReasons": {
-        "tone-mcq-87": "本句指「令言辭、色彩、批評、行為等變得較溫和／不強烈」。",
-        "tone-mcq-86": "「透過運動令身體／肌肉更結實」與本句語境不同。",
-        "tone-mcq-88": "「收斂一點；把聲量／態度／強度降低」與本句語境不同。",
-        "tone-mcq-85": "「肌肉鍛鍊良好、線條結實的」與本句語境不同。",
-        "tone-mcq-89": "「經過弱化、變得較溫和／低調的」與本句語境不同。",
-        "tone-mcq-84": "「肌肉緊實、有明顯線條的」與本句語境不同。"
+        "tone-mcq-87": "本句的「tone down the language」指「令言辭、色彩、批評、行為等變得較溫和／不強烈」。",
+        "tone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-87"
     },
@@ -3877,11 +3565,9 @@ export default {
       "masked": "The designer ____.",
       "options": [
         "tone-mcq-87",
-        "tone-mcq-86",
-        "tone-mcq-88",
-        "tone-mcq-85",
-        "tone-mcq-89",
-        "tone-mcq-84"
+        "tone-mcq-50",
+        "tone-mcq-20",
+        "tone-mcq-05"
       ],
       "explanation": "本句的「toned down the colours」指「令言辭、色彩、批評、行為等變得較溫和／不強烈」。",
       "sentenceIndex": 78,
@@ -3890,12 +3576,10 @@ export default {
         "toned down the colours"
       ],
       "optionReasons": {
-        "tone-mcq-87": "本句指「令言辭、色彩、批評、行為等變得較溫和／不強烈」。",
-        "tone-mcq-86": "「透過運動令身體／肌肉更結實」與本句語境不同。",
-        "tone-mcq-88": "「收斂一點；把聲量／態度／強度降低」與本句語境不同。",
-        "tone-mcq-85": "「肌肉鍛鍊良好、線條結實的」與本句語境不同。",
-        "tone-mcq-89": "「經過弱化、變得較溫和／低調的」與本句語境不同。",
-        "tone-mcq-84": "「肌肉緊實、有明顯線條的」與本句語境不同。"
+        "tone-mcq-87": "本句的「toned down the colours」指「令言辭、色彩、批評、行為等變得較溫和／不強烈」。",
+        "tone-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-87"
     },
@@ -3907,10 +3591,8 @@ export default {
       "masked": "He was asked to ____.",
       "options": [
         "tone-mcq-87",
-        "tone-mcq-86",
-        "tone-mcq-88",
-        "tone-mcq-85",
-        "tone-mcq-89",
+        "tone-mcq-20",
+        "tone-mcq-93",
         "tone-mcq-84"
       ],
       "explanation": "本句的「tone down his criticism」指「令言辭、色彩、批評、行為等變得較溫和／不強烈」。",
@@ -3920,12 +3602,10 @@ export default {
         "tone down his criticism"
       ],
       "optionReasons": {
-        "tone-mcq-87": "本句指「令言辭、色彩、批評、行為等變得較溫和／不強烈」。",
-        "tone-mcq-86": "「透過運動令身體／肌肉更結實」與本句語境不同。",
-        "tone-mcq-88": "「收斂一點；把聲量／態度／強度降低」與本句語境不同。",
-        "tone-mcq-85": "「肌肉鍛鍊良好、線條結實的」與本句語境不同。",
-        "tone-mcq-89": "「經過弱化、變得較溫和／低調的」與本句語境不同。",
-        "tone-mcq-84": "「肌肉緊實、有明顯線條的」與本句語境不同。"
+        "tone-mcq-87": "本句的「tone down his criticism」指「令言辭、色彩、批評、行為等變得較溫和／不強烈」。",
+        "tone-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-87"
     },
@@ -3937,11 +3617,9 @@ export default {
       "masked": "Could you ____ a little?",
       "options": [
         "tone-mcq-88",
-        "tone-mcq-87",
-        "tone-mcq-89",
-        "tone-mcq-86",
-        "tone-mcq-90",
-        "tone-mcq-85"
+        "tone-mcq-14",
+        "tone-mcq-27",
+        "tone-mcq-71"
       ],
       "explanation": "本句的「tone it down」指「收斂一點；把聲量／態度／強度降低」。",
       "sentenceIndex": 80,
@@ -3950,12 +3628,10 @@ export default {
         "tone it down"
       ],
       "optionReasons": {
-        "tone-mcq-88": "本句指「收斂一點；把聲量／態度／強度降低」。",
-        "tone-mcq-87": "「令言辭、色彩、批評、行為等變得較溫和／不強烈」與本句語境不同。",
-        "tone-mcq-89": "「經過弱化、變得較溫和／低調的」與本句語境不同。",
-        "tone-mcq-86": "「透過運動令身體／肌肉更結實」與本句語境不同。",
-        "tone-mcq-90": "「英式：在色調或風格上與某物協調」與本句語境不同。",
-        "tone-mcq-85": "「肌肉鍛鍊良好、線條結實的」與本句語境不同。"
+        "tone-mcq-88": "本句的「tone it down」指「收斂一點；把聲量／態度／強度降低」。",
+        "tone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-88"
     },
@@ -3967,11 +3643,9 @@ export default {
       "masked": "The argument was getting loud, so the teacher told everyone to ____.",
       "options": [
         "tone-mcq-88",
-        "tone-mcq-87",
-        "tone-mcq-89",
         "tone-mcq-86",
-        "tone-mcq-90",
-        "tone-mcq-85"
+        "tone-mcq-40",
+        "tone-mcq-39"
       ],
       "explanation": "本句的「tone it down」指「收斂一點；把聲量／態度／強度降低」。",
       "sentenceIndex": 81,
@@ -3980,12 +3654,10 @@ export default {
         "tone it down"
       ],
       "optionReasons": {
-        "tone-mcq-88": "本句指「收斂一點；把聲量／態度／強度降低」。",
-        "tone-mcq-87": "「令言辭、色彩、批評、行為等變得較溫和／不強烈」與本句語境不同。",
-        "tone-mcq-89": "「經過弱化、變得較溫和／低調的」與本句語境不同。",
-        "tone-mcq-86": "「透過運動令身體／肌肉更結實」與本句語境不同。",
-        "tone-mcq-90": "「英式：在色調或風格上與某物協調」與本句語境不同。",
-        "tone-mcq-85": "「肌肉鍛鍊良好、線條結實的」與本句語境不同。"
+        "tone-mcq-88": "本句的「tone it down」指「收斂一點；把聲量／態度／強度降低」。",
+        "tone-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-88"
     },
@@ -3997,11 +3669,9 @@ export default {
       "masked": "They released a ____ of the advertisement.",
       "options": [
         "tone-mcq-89",
-        "tone-mcq-88",
-        "tone-mcq-90",
-        "tone-mcq-87",
-        "tone-mcq-91",
-        "tone-mcq-86"
+        "tone-mcq-41",
+        "tone-mcq-84",
+        "tone-mcq-39"
       ],
       "explanation": "本句的「toned-down version」指「經過弱化、變得較溫和／低調的」。",
       "sentenceIndex": 82,
@@ -4010,12 +3680,10 @@ export default {
         "toned-down version"
       ],
       "optionReasons": {
-        "tone-mcq-89": "本句指「經過弱化、變得較溫和／低調的」。",
-        "tone-mcq-88": "「收斂一點；把聲量／態度／強度降低」與本句語境不同。",
-        "tone-mcq-90": "「英式：在色調或風格上與某物協調」與本句語境不同。",
-        "tone-mcq-87": "「令言辭、色彩、批評、行為等變得較溫和／不強烈」與本句語境不同。",
-        "tone-mcq-91": "「網上文字中用來提示玩笑、諷刺等意圖的語氣標記」與本句語境不同。",
-        "tone-mcq-86": "「透過運動令身體／肌肉更結實」與本句語境不同。"
+        "tone-mcq-89": "本句的「toned-down version」指「經過弱化、變得較溫和／低調的」。",
+        "tone-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-89"
     },
@@ -4027,11 +3695,9 @@ export default {
       "masked": "There is a clear ____ halfway through the passage.",
       "options": [
         "tone-mcq-92",
-        "tone-mcq-91",
-        "tone-mcq-93",
-        "tone-mcq-90",
         "tone-mcq-94",
-        "tone-mcq-89"
+        "tone-mcq-52",
+        "tone-mcq-30"
       ],
       "explanation": "本句的「shift in tone」指「語氣、態度或作品基調的明顯轉變」。",
       "sentenceIndex": 83,
@@ -4040,12 +3706,10 @@ export default {
         "shift in tone"
       ],
       "optionReasons": {
-        "tone-mcq-92": "本句指「語氣、態度或作品基調的明顯轉變」。",
-        "tone-mcq-91": "「網上文字中用來提示玩笑、諷刺等意圖的語氣標記」與本句語境不同。",
-        "tone-mcq-93": "「打印機／影印機碳粉」與本句語境不同。",
-        "tone-mcq-90": "「英式：在色調或風格上與某物協調」與本句語境不同。",
-        "tone-mcq-94": "「爽膚水／化妝水」與本句語境不同。",
-        "tone-mcq-89": "「經過弱化、變得較溫和／低調的」與本句語境不同。"
+        "tone-mcq-92": "本句的「shift in tone」指「語氣、態度或作品基調的明顯轉變」。",
+        "tone-mcq-94": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "tone-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tone-mcq-92"
     }
@@ -4057,5 +3721,7 @@ export default {
     "sha256": "99ff83300114e04723893498cdae1a352c77e0b26aacb6c13e1d013b54a70990",
     "pages": 52
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

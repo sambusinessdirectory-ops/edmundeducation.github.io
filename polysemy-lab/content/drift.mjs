@@ -321,11 +321,9 @@ export default {
       "masked": "The aroma was ____ out onto the street.",
       "options": [
         "drift-mcq-01",
-        "drift-mcq-02",
-        "drift-mcq-03",
-        "drift-mcq-04",
         "drift-mcq-05",
-        "drift-mcq-06"
+        "drift-mcq-09",
+        "drift-mcq-10"
       ],
       "explanation": "本句的「drifting」指「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」。",
       "sentenceIndex": 0,
@@ -334,12 +332,10 @@ export default {
         "drifting"
       ],
       "optionReasons": {
-        "drift-mcq-01": "本句指「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」。",
-        "drift-mcq-02": "「主要受水流／風推動，在水面上沒有主動控制地漂流」與本句語境不同。",
-        "drift-mcq-03": "「沒有明確目的地或計劃地慢慢移動」與本句語境不同。",
-        "drift-mcq-04": "「沒有明確決定地逐漸進入另一種狀態」與本句語境不同。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。"
+        "drift-mcq-01": "本句的「drifting」指「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」。",
+        "drift-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-01"
     },
@@ -351,11 +347,9 @@ export default {
       "masked": "Music ____ through the open window.",
       "options": [
         "drift-mcq-01",
-        "drift-mcq-02",
-        "drift-mcq-03",
-        "drift-mcq-04",
         "drift-mcq-05",
-        "drift-mcq-06"
+        "drift-mcq-09",
+        "drift-mcq-10"
       ],
       "explanation": "本句的「drifted」指「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」。",
       "sentenceIndex": 1,
@@ -364,12 +358,10 @@ export default {
         "drifted"
       ],
       "optionReasons": {
-        "drift-mcq-01": "本句指「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」。",
-        "drift-mcq-02": "「主要受水流／風推動，在水面上沒有主動控制地漂流」與本句語境不同。",
-        "drift-mcq-03": "「沒有明確目的地或計劃地慢慢移動」與本句語境不同。",
-        "drift-mcq-04": "「沒有明確決定地逐漸進入另一種狀態」與本句語境不同。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。"
+        "drift-mcq-01": "本句的「drifted」指「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」。",
+        "drift-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-01"
     },
@@ -381,11 +373,9 @@ export default {
       "masked": "Smoke ____ across the room.",
       "options": [
         "drift-mcq-01",
-        "drift-mcq-02",
-        "drift-mcq-03",
-        "drift-mcq-04",
-        "drift-mcq-05",
-        "drift-mcq-06"
+        "drift-mcq-08",
+        "drift-mcq-10",
+        "drift-mcq-12"
       ],
       "explanation": "本句的「drifted」指「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」。",
       "sentenceIndex": 2,
@@ -394,12 +384,10 @@ export default {
         "drifted"
       ],
       "optionReasons": {
-        "drift-mcq-01": "本句指「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」。",
-        "drift-mcq-02": "「主要受水流／風推動，在水面上沒有主動控制地漂流」與本句語境不同。",
-        "drift-mcq-03": "「沒有明確目的地或計劃地慢慢移動」與本句語境不同。",
-        "drift-mcq-04": "「沒有明確決定地逐漸進入另一種狀態」與本句語境不同。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。"
+        "drift-mcq-01": "本句的「drifted」指「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」。",
+        "drift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-01"
     },
@@ -411,11 +399,9 @@ export default {
       "masked": "The boat ____ across the lake.",
       "options": [
         "drift-mcq-02",
-        "drift-mcq-01",
-        "drift-mcq-03",
-        "drift-mcq-04",
-        "drift-mcq-05",
-        "drift-mcq-06"
+        "drift-mcq-08",
+        "drift-mcq-10",
+        "drift-mcq-12"
       ],
       "explanation": "本句的「drifted」指「主要受水流／風推動，在水面上沒有主動控制地漂流」。",
       "sentenceIndex": 3,
@@ -424,12 +410,10 @@ export default {
         "drifted"
       ],
       "optionReasons": {
-        "drift-mcq-02": "本句指「主要受水流／風推動，在水面上沒有主動控制地漂流」。",
-        "drift-mcq-01": "「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」與本句語境不同。",
-        "drift-mcq-03": "「沒有明確目的地或計劃地慢慢移動」與本句語境不同。",
-        "drift-mcq-04": "「沒有明確決定地逐漸進入另一種狀態」與本句語境不同。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。"
+        "drift-mcq-02": "本句的「drifted」指「主要受水流／風推動，在水面上沒有主動控制地漂流」。",
+        "drift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-02"
     },
@@ -441,11 +425,9 @@ export default {
       "masked": "The leaves ____ downstream.",
       "options": [
         "drift-mcq-02",
-        "drift-mcq-01",
-        "drift-mcq-03",
-        "drift-mcq-04",
-        "drift-mcq-05",
-        "drift-mcq-06"
+        "drift-mcq-08",
+        "drift-mcq-12",
+        "drift-mcq-10"
       ],
       "explanation": "本句的「drifted」指「主要受水流／風推動，在水面上沒有主動控制地漂流」。",
       "sentenceIndex": 4,
@@ -454,12 +436,10 @@ export default {
         "drifted"
       ],
       "optionReasons": {
-        "drift-mcq-02": "本句指「主要受水流／風推動，在水面上沒有主動控制地漂流」。",
-        "drift-mcq-01": "「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」與本句語境不同。",
-        "drift-mcq-03": "「沒有明確目的地或計劃地慢慢移動」與本句語境不同。",
-        "drift-mcq-04": "「沒有明確決定地逐漸進入另一種狀態」與本句語境不同。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。"
+        "drift-mcq-02": "本句的「drifted」指「主要受水流／風推動，在水面上沒有主動控制地漂流」。",
+        "drift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-02"
     },
@@ -471,11 +451,9 @@ export default {
       "masked": "People ____ around the market.",
       "options": [
         "drift-mcq-03",
-        "drift-mcq-02",
-        "drift-mcq-04",
-        "drift-mcq-01",
-        "drift-mcq-05",
-        "drift-mcq-06"
+        "drift-mcq-07",
+        "drift-mcq-09",
+        "drift-mcq-12"
       ],
       "explanation": "本句的「drifted」指「沒有明確目的地或計劃地慢慢移動」。",
       "sentenceIndex": 5,
@@ -484,12 +462,10 @@ export default {
         "drifted"
       ],
       "optionReasons": {
-        "drift-mcq-03": "本句指「沒有明確目的地或計劃地慢慢移動」。",
-        "drift-mcq-02": "「主要受水流／風推動，在水面上沒有主動控制地漂流」與本句語境不同。",
-        "drift-mcq-04": "「沒有明確決定地逐漸進入另一種狀態」與本句語境不同。",
-        "drift-mcq-01": "「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」與本句語境不同。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。"
+        "drift-mcq-03": "本句的「drifted」指「沒有明確目的地或計劃地慢慢移動」。",
+        "drift-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-03"
     },
@@ -501,11 +477,9 @@ export default {
       "masked": "He ____ from café to café all afternoon.",
       "options": [
         "drift-mcq-03",
-        "drift-mcq-02",
-        "drift-mcq-04",
-        "drift-mcq-01",
-        "drift-mcq-05",
-        "drift-mcq-06"
+        "drift-mcq-12",
+        "drift-mcq-07",
+        "drift-mcq-09"
       ],
       "explanation": "本句的「drifted」指「沒有明確目的地或計劃地慢慢移動」。",
       "sentenceIndex": 6,
@@ -514,12 +488,10 @@ export default {
         "drifted"
       ],
       "optionReasons": {
-        "drift-mcq-03": "本句指「沒有明確目的地或計劃地慢慢移動」。",
-        "drift-mcq-02": "「主要受水流／風推動，在水面上沒有主動控制地漂流」與本句語境不同。",
-        "drift-mcq-04": "「沒有明確決定地逐漸進入另一種狀態」與本句語境不同。",
-        "drift-mcq-01": "「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」與本句語境不同。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。"
+        "drift-mcq-03": "本句的「drifted」指「沒有明確目的地或計劃地慢慢移動」。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-03"
     },
@@ -531,11 +503,9 @@ export default {
       "masked": "The conversation ____ into silence.",
       "options": [
         "drift-mcq-04",
-        "drift-mcq-03",
-        "drift-mcq-05",
-        "drift-mcq-02",
         "drift-mcq-06",
-        "drift-mcq-01"
+        "drift-mcq-08",
+        "drift-mcq-10"
       ],
       "explanation": "本句的「drifted」指「沒有明確決定地逐漸進入另一種狀態」。",
       "sentenceIndex": 7,
@@ -544,12 +514,10 @@ export default {
         "drifted"
       ],
       "optionReasons": {
-        "drift-mcq-04": "本句指「沒有明確決定地逐漸進入另一種狀態」。",
-        "drift-mcq-03": "「沒有明確目的地或計劃地慢慢移動」與本句語境不同。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。",
-        "drift-mcq-02": "「主要受水流／風推動，在水面上沒有主動控制地漂流」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。",
-        "drift-mcq-01": "「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」與本句語境不同。"
+        "drift-mcq-04": "本句的「drifted」指「沒有明確決定地逐漸進入另一種狀態」。",
+        "drift-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-04"
     },
@@ -561,11 +529,9 @@ export default {
       "masked": "The town gradually ____ into decline.",
       "options": [
         "drift-mcq-04",
-        "drift-mcq-03",
-        "drift-mcq-05",
-        "drift-mcq-02",
-        "drift-mcq-06",
-        "drift-mcq-01"
+        "drift-mcq-12",
+        "drift-mcq-10",
+        "drift-mcq-08"
       ],
       "explanation": "本句的「drifted」指「沒有明確決定地逐漸進入另一種狀態」。",
       "sentenceIndex": 8,
@@ -574,12 +540,10 @@ export default {
         "drifted"
       ],
       "optionReasons": {
-        "drift-mcq-04": "本句指「沒有明確決定地逐漸進入另一種狀態」。",
-        "drift-mcq-03": "「沒有明確目的地或計劃地慢慢移動」與本句語境不同。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。",
-        "drift-mcq-02": "「主要受水流／風推動，在水面上沒有主動控制地漂流」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。",
-        "drift-mcq-01": "「受氣流等自然力量帶動，在空氣中緩慢輕柔地移動」與本句語境不同。"
+        "drift-mcq-04": "本句的「drifted」指「沒有明確決定地逐漸進入另一種狀態」。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-04"
     },
@@ -591,11 +555,9 @@ export default {
       "masked": "The discussion began to ____ the main topic.",
       "options": [
         "drift-mcq-05",
-        "drift-mcq-04",
-        "drift-mcq-06",
-        "drift-mcq-03",
-        "drift-mcq-07",
-        "drift-mcq-02"
+        "drift-mcq-01",
+        "drift-mcq-12",
+        "drift-mcq-10"
       ],
       "explanation": "本句的「drift away from」指「不知不覺逐步偏離原本方向、目標或話題」。",
       "sentenceIndex": 9,
@@ -604,12 +566,10 @@ export default {
         "drift away from"
       ],
       "optionReasons": {
-        "drift-mcq-05": "本句指「不知不覺逐步偏離原本方向、目標或話題」。",
-        "drift-mcq-04": "「沒有明確決定地逐漸進入另一種狀態」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。",
-        "drift-mcq-03": "「沒有明確目的地或計劃地慢慢移動」與本句語境不同。",
-        "drift-mcq-07": "「某狀況、立場或方向隨時間逐步改變的過程」與本句語境不同。",
-        "drift-mcq-02": "「主要受水流／風推動，在水面上沒有主動控制地漂流」與本句語境不同。"
+        "drift-mcq-05": "本句的「drift away from」指「不知不覺逐步偏離原本方向、目標或話題」。",
+        "drift-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-05"
     },
@@ -621,10 +581,8 @@ export default {
       "masked": "The project has ____ away from its original purpose.",
       "options": [
         "drift-mcq-05",
-        "drift-mcq-04",
-        "drift-mcq-06",
-        "drift-mcq-03",
-        "drift-mcq-07",
+        "drift-mcq-12",
+        "drift-mcq-10",
         "drift-mcq-02"
       ],
       "explanation": "本句的「drifted」指「不知不覺逐步偏離原本方向、目標或話題」。",
@@ -634,12 +592,10 @@ export default {
         "drifted"
       ],
       "optionReasons": {
-        "drift-mcq-05": "本句指「不知不覺逐步偏離原本方向、目標或話題」。",
-        "drift-mcq-04": "「沒有明確決定地逐漸進入另一種狀態」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。",
-        "drift-mcq-03": "「沒有明確目的地或計劃地慢慢移動」與本句語境不同。",
-        "drift-mcq-07": "「某狀況、立場或方向隨時間逐步改變的過程」與本句語境不同。",
-        "drift-mcq-02": "「主要受水流／風推動，在水面上沒有主動控制地漂流」與本句語境不同。"
+        "drift-mcq-05": "本句的「drifted」指「不知不覺逐步偏離原本方向、目標或話題」。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-05"
     },
@@ -651,11 +607,9 @@ export default {
       "masked": "My attention ____ during the lecture.",
       "options": [
         "drift-mcq-06",
-        "drift-mcq-05",
-        "drift-mcq-07",
         "drift-mcq-04",
-        "drift-mcq-08",
-        "drift-mcq-03"
+        "drift-mcq-10",
+        "drift-mcq-05"
       ],
       "explanation": "本句的「drifted」指「注意力／思緒不受控制地慢慢移向別處」。",
       "sentenceIndex": 11,
@@ -664,12 +618,10 @@ export default {
         "drifted"
       ],
       "optionReasons": {
-        "drift-mcq-06": "本句指「注意力／思緒不受控制地慢慢移向別處」。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。",
-        "drift-mcq-07": "「某狀況、立場或方向隨時間逐步改變的過程」與本句語境不同。",
-        "drift-mcq-04": "「沒有明確決定地逐漸進入另一種狀態」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。",
-        "drift-mcq-03": "「沒有明確目的地或計劃地慢慢移動」與本句語境不同。"
+        "drift-mcq-06": "本句的「drifted」指「注意力／思緒不受控制地慢慢移向別處」。",
+        "drift-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-06"
     },
@@ -681,11 +633,9 @@ export default {
       "masked": "Her thoughts ____ back to childhood.",
       "options": [
         "drift-mcq-06",
-        "drift-mcq-05",
-        "drift-mcq-07",
         "drift-mcq-04",
-        "drift-mcq-08",
-        "drift-mcq-03"
+        "drift-mcq-10",
+        "drift-mcq-07"
       ],
       "explanation": "本句的「drifted」指「注意力／思緒不受控制地慢慢移向別處」。",
       "sentenceIndex": 12,
@@ -694,12 +644,10 @@ export default {
         "drifted"
       ],
       "optionReasons": {
-        "drift-mcq-06": "本句指「注意力／思緒不受控制地慢慢移向別處」。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。",
-        "drift-mcq-07": "「某狀況、立場或方向隨時間逐步改變的過程」與本句語境不同。",
-        "drift-mcq-04": "「沒有明確決定地逐漸進入另一種狀態」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。",
-        "drift-mcq-03": "「沒有明確目的地或計劃地慢慢移動」與本句語境不同。"
+        "drift-mcq-06": "本句的「drifted」指「注意力／思緒不受控制地慢慢移向別處」。",
+        "drift-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-06"
     },
@@ -711,11 +659,9 @@ export default {
       "masked": "There has been a gradual ____ toward online shopping.",
       "options": [
         "drift-mcq-07",
-        "drift-mcq-06",
-        "drift-mcq-08",
-        "drift-mcq-05",
-        "drift-mcq-09",
-        "drift-mcq-04"
+        "drift-mcq-02",
+        "drift-mcq-10",
+        "drift-mcq-09"
       ],
       "explanation": "本句的「drift」指「某狀況、立場或方向隨時間逐步改變的過程」。",
       "sentenceIndex": 13,
@@ -724,12 +670,10 @@ export default {
         "drift"
       ],
       "optionReasons": {
-        "drift-mcq-07": "本句指「某狀況、立場或方向隨時間逐步改變的過程」。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-04": "「沒有明確決定地逐漸進入另一種狀態」與本句語境不同。"
+        "drift-mcq-07": "本句的「drift」指「某狀況、立場或方向隨時間逐步改變的過程」。",
+        "drift-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-07"
     },
@@ -741,11 +685,9 @@ export default {
       "masked": "The policy shows a slow ____ away from its original goals.",
       "options": [
         "drift-mcq-07",
-        "drift-mcq-06",
-        "drift-mcq-08",
-        "drift-mcq-05",
+        "drift-mcq-10",
         "drift-mcq-09",
-        "drift-mcq-04"
+        "drift-mcq-03"
       ],
       "explanation": "本句的「drift」指「某狀況、立場或方向隨時間逐步改變的過程」。",
       "sentenceIndex": 14,
@@ -754,12 +696,10 @@ export default {
         "drift"
       ],
       "optionReasons": {
-        "drift-mcq-07": "本句指「某狀況、立場或方向隨時間逐步改變的過程」。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-04": "「沒有明確決定地逐漸進入另一種狀態」與本句語境不同。"
+        "drift-mcq-07": "本句的「drift」指「某狀況、立場或方向隨時間逐步改變的過程」。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-07"
     },
@@ -771,11 +711,9 @@ export default {
       "masked": "The general ____ of public opinion was clear.",
       "options": [
         "drift-mcq-08",
-        "drift-mcq-07",
-        "drift-mcq-09",
-        "drift-mcq-06",
-        "drift-mcq-10",
-        "drift-mcq-05"
+        "drift-mcq-12",
+        "drift-mcq-03",
+        "drift-mcq-10"
       ],
       "explanation": "本句的「drift」指「一段時間內事情整體發展的方向／趨勢」。",
       "sentenceIndex": 15,
@@ -784,12 +722,10 @@ export default {
         "drift"
       ],
       "optionReasons": {
-        "drift-mcq-08": "本句指「一段時間內事情整體發展的方向／趨勢」。",
-        "drift-mcq-07": "「某狀況、立場或方向隨時間逐步改變的過程」與本句語境不同。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。",
-        "drift-mcq-10": "「由風吹動並堆積形成的雪堆／沙堆」與本句語境不同。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。"
+        "drift-mcq-08": "本句的「drift」指「一段時間內事情整體發展的方向／趨勢」。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-08"
     },
@@ -801,11 +737,9 @@ export default {
       "masked": "The ____ in consumer habits is difficult to ignore.",
       "options": [
         "drift-mcq-08",
-        "drift-mcq-07",
-        "drift-mcq-09",
-        "drift-mcq-06",
-        "drift-mcq-10",
-        "drift-mcq-05"
+        "drift-mcq-01",
+        "drift-mcq-12",
+        "drift-mcq-10"
       ],
       "explanation": "本句的「drift」指「一段時間內事情整體發展的方向／趨勢」。",
       "sentenceIndex": 16,
@@ -814,12 +748,10 @@ export default {
         "drift"
       ],
       "optionReasons": {
-        "drift-mcq-08": "本句指「一段時間內事情整體發展的方向／趨勢」。",
-        "drift-mcq-07": "「某狀況、立場或方向隨時間逐步改變的過程」與本句語境不同。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。",
-        "drift-mcq-10": "「由風吹動並堆積形成的雪堆／沙堆」與本句語境不同。",
-        "drift-mcq-05": "「不知不覺逐步偏離原本方向、目標或話題」與本句語境不同。"
+        "drift-mcq-08": "本句的「drift」指「一段時間內事情整體發展的方向／趨勢」。",
+        "drift-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-08"
     },
@@ -831,11 +763,9 @@ export default {
       "masked": "I didn’t understand every word, but I got the ____.",
       "options": [
         "drift-mcq-09",
-        "drift-mcq-08",
-        "drift-mcq-10",
-        "drift-mcq-07",
-        "drift-mcq-11",
-        "drift-mcq-06"
+        "drift-mcq-01",
+        "drift-mcq-02",
+        "drift-mcq-07"
       ],
       "explanation": "本句的「drift」指「說話、文章或論證的整體意思／大意」。",
       "sentenceIndex": 17,
@@ -844,12 +774,10 @@ export default {
         "drift"
       ],
       "optionReasons": {
-        "drift-mcq-09": "本句指「說話、文章或論證的整體意思／大意」。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。",
-        "drift-mcq-10": "「由風吹動並堆積形成的雪堆／沙堆」與本句語境不同。",
-        "drift-mcq-07": "「某狀況、立場或方向隨時間逐步改變的過程」與本句語境不同。",
-        "drift-mcq-11": "「大陸在地質時間尺度上相對移動的現象」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。"
+        "drift-mcq-09": "本句的「drift」指「說話、文章或論證的整體意思／大意」。",
+        "drift-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-09"
     },
@@ -861,11 +789,9 @@ export default {
       "masked": "The ____ of his argument was easy to follow.",
       "options": [
         "drift-mcq-09",
-        "drift-mcq-08",
-        "drift-mcq-10",
-        "drift-mcq-07",
-        "drift-mcq-11",
-        "drift-mcq-06"
+        "drift-mcq-13",
+        "drift-mcq-12",
+        "drift-mcq-10"
       ],
       "explanation": "本句的「drift」指「說話、文章或論證的整體意思／大意」。",
       "sentenceIndex": 18,
@@ -874,12 +800,10 @@ export default {
         "drift"
       ],
       "optionReasons": {
-        "drift-mcq-09": "本句指「說話、文章或論證的整體意思／大意」。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。",
-        "drift-mcq-10": "「由風吹動並堆積形成的雪堆／沙堆」與本句語境不同。",
-        "drift-mcq-07": "「某狀況、立場或方向隨時間逐步改變的過程」與本句語境不同。",
-        "drift-mcq-11": "「大陸在地質時間尺度上相對移動的現象」與本句語境不同。",
-        "drift-mcq-06": "「注意力／思緒不受控制地慢慢移向別處」與本句語境不同。"
+        "drift-mcq-09": "本句的「drift」指「說話、文章或論證的整體意思／大意」。",
+        "drift-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-09"
     },
@@ -891,11 +815,9 @@ export default {
       "masked": "The road was blocked by deep snow ____.",
       "options": [
         "drift-mcq-10",
-        "drift-mcq-09",
-        "drift-mcq-11",
         "drift-mcq-08",
         "drift-mcq-12",
-        "drift-mcq-07"
+        "drift-mcq-04"
       ],
       "explanation": "本句的「drifts」指「由風吹動並堆積形成的雪堆／沙堆」。",
       "sentenceIndex": 21,
@@ -904,12 +826,10 @@ export default {
         "drifts"
       ],
       "optionReasons": {
-        "drift-mcq-10": "本句指「由風吹動並堆積形成的雪堆／沙堆」。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-11": "「大陸在地質時間尺度上相對移動的現象」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。",
-        "drift-mcq-12": "「車輪部分失去抓地力、車輛以受控側滑方式過彎」與本句語境不同。",
-        "drift-mcq-07": "「某狀況、立場或方向隨時間逐步改變的過程」與本句語境不同。"
+        "drift-mcq-10": "本句的「drifts」指「由風吹動並堆積形成的雪堆／沙堆」。",
+        "drift-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-10"
     },
@@ -921,11 +841,9 @@ export default {
       "masked": "Sand ____ formed beside the fence.",
       "options": [
         "drift-mcq-10",
+        "drift-mcq-04",
         "drift-mcq-09",
-        "drift-mcq-11",
-        "drift-mcq-08",
-        "drift-mcq-12",
-        "drift-mcq-07"
+        "drift-mcq-06"
       ],
       "explanation": "本句的「drifts」指「由風吹動並堆積形成的雪堆／沙堆」。",
       "sentenceIndex": 22,
@@ -934,12 +852,10 @@ export default {
         "drifts"
       ],
       "optionReasons": {
-        "drift-mcq-10": "本句指「由風吹動並堆積形成的雪堆／沙堆」。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-11": "「大陸在地質時間尺度上相對移動的現象」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。",
-        "drift-mcq-12": "「車輪部分失去抓地力、車輛以受控側滑方式過彎」與本句語境不同。",
-        "drift-mcq-07": "「某狀況、立場或方向隨時間逐步改變的過程」與本句語境不同。"
+        "drift-mcq-10": "本句的「drifts」指「由風吹動並堆積形成的雪堆／沙堆」。",
+        "drift-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-10"
     },
@@ -951,11 +867,9 @@ export default {
       "masked": "The car was trapped in a ____.",
       "options": [
         "drift-mcq-10",
-        "drift-mcq-09",
-        "drift-mcq-11",
-        "drift-mcq-08",
         "drift-mcq-12",
-        "drift-mcq-07"
+        "drift-mcq-05",
+        "drift-mcq-04"
       ],
       "explanation": "本句的「snowdrift」指「由風吹動並堆積形成的雪堆／沙堆」。",
       "sentenceIndex": 23,
@@ -964,12 +878,10 @@ export default {
         "snowdrift"
       ],
       "optionReasons": {
-        "drift-mcq-10": "本句指「由風吹動並堆積形成的雪堆／沙堆」。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-11": "「大陸在地質時間尺度上相對移動的現象」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。",
-        "drift-mcq-12": "「車輪部分失去抓地力、車輛以受控側滑方式過彎」與本句語境不同。",
-        "drift-mcq-07": "「某狀況、立場或方向隨時間逐步改變的過程」與本句語境不同。"
+        "drift-mcq-10": "本句的「snowdrift」指「由風吹動並堆積形成的雪堆／沙堆」。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-10"
     },
@@ -981,11 +893,9 @@ export default {
       "masked": "____ changed the positions of the continents over geological time.",
       "options": [
         "drift-mcq-11",
-        "drift-mcq-10",
         "drift-mcq-12",
-        "drift-mcq-09",
-        "drift-mcq-13",
-        "drift-mcq-08"
+        "drift-mcq-05",
+        "drift-mcq-10"
       ],
       "explanation": "本句的「Continental drift」指「大陸在地質時間尺度上相對移動的現象」。",
       "sentenceIndex": 24,
@@ -994,12 +904,10 @@ export default {
         "Continental drift"
       ],
       "optionReasons": {
-        "drift-mcq-11": "本句指「大陸在地質時間尺度上相對移動的現象」。",
-        "drift-mcq-10": "「由風吹動並堆積形成的雪堆／沙堆」與本句語境不同。",
-        "drift-mcq-12": "「車輪部分失去抓地力、車輛以受控側滑方式過彎」與本句語境不同。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-13": "「沒有固定住所／生活方向而經常四處移動的人」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。"
+        "drift-mcq-11": "本句的「Continental drift」指「大陸在地質時間尺度上相對移動的現象」。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-11"
     },
@@ -1011,11 +919,9 @@ export default {
       "masked": "Early evidence for continental ____ came from matching coastlines.",
       "options": [
         "drift-mcq-11",
-        "drift-mcq-10",
+        "drift-mcq-05",
         "drift-mcq-12",
-        "drift-mcq-09",
-        "drift-mcq-13",
-        "drift-mcq-08"
+        "drift-mcq-02"
       ],
       "explanation": "本句的「drift」指「大陸在地質時間尺度上相對移動的現象」。",
       "sentenceIndex": 25,
@@ -1024,12 +930,10 @@ export default {
         "drift"
       ],
       "optionReasons": {
-        "drift-mcq-11": "本句指「大陸在地質時間尺度上相對移動的現象」。",
-        "drift-mcq-10": "「由風吹動並堆積形成的雪堆／沙堆」與本句語境不同。",
-        "drift-mcq-12": "「車輪部分失去抓地力、車輛以受控側滑方式過彎」與本句語境不同。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-13": "「沒有固定住所／生活方向而經常四處移動的人」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。"
+        "drift-mcq-11": "本句的「drift」指「大陸在地質時間尺度上相對移動的現象」。",
+        "drift-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-11"
     },
@@ -1041,11 +945,9 @@ export default {
       "masked": "The driver ____ the car around the corner.",
       "options": [
         "drift-mcq-12",
-        "drift-mcq-11",
-        "drift-mcq-13",
-        "drift-mcq-10",
         "drift-mcq-09",
-        "drift-mcq-08"
+        "drift-mcq-11",
+        "drift-mcq-10"
       ],
       "explanation": "本句的「drifted」指「車輪部分失去抓地力、車輛以受控側滑方式過彎」。",
       "sentenceIndex": 26,
@@ -1054,12 +956,10 @@ export default {
         "drifted"
       ],
       "optionReasons": {
-        "drift-mcq-12": "本句指「車輪部分失去抓地力、車輛以受控側滑方式過彎」。",
-        "drift-mcq-11": "「大陸在地質時間尺度上相對移動的現象」與本句語境不同。",
-        "drift-mcq-13": "「沒有固定住所／生活方向而經常四處移動的人」與本句語境不同。",
-        "drift-mcq-10": "「由風吹動並堆積形成的雪堆／沙堆」與本句語境不同。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。"
+        "drift-mcq-12": "本句的「drifted」指「車輪部分失去抓地力、車輛以受控側滑方式過彎」。",
+        "drift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-12"
     },
@@ -1071,11 +971,9 @@ export default {
       "masked": "____ requires careful control of the car.",
       "options": [
         "drift-mcq-12",
-        "drift-mcq-11",
-        "drift-mcq-13",
-        "drift-mcq-10",
-        "drift-mcq-09",
-        "drift-mcq-08"
+        "drift-mcq-04",
+        "drift-mcq-05",
+        "drift-mcq-09"
       ],
       "explanation": "本句的「Drifting」指「車輪部分失去抓地力、車輛以受控側滑方式過彎」。",
       "sentenceIndex": 27,
@@ -1084,12 +982,10 @@ export default {
         "Drifting"
       ],
       "optionReasons": {
-        "drift-mcq-12": "本句指「車輪部分失去抓地力、車輛以受控側滑方式過彎」。",
-        "drift-mcq-11": "「大陸在地質時間尺度上相對移動的現象」與本句語境不同。",
-        "drift-mcq-13": "「沒有固定住所／生活方向而經常四處移動的人」與本句語境不同。",
-        "drift-mcq-10": "「由風吹動並堆積形成的雪堆／沙堆」與本句語境不同。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。"
+        "drift-mcq-12": "本句的「Drifting」指「車輪部分失去抓地力、車輛以受控側滑方式過彎」。",
+        "drift-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-12"
     },
@@ -1101,11 +997,9 @@ export default {
       "masked": "He lived for years as a ____.",
       "options": [
         "drift-mcq-13",
-        "drift-mcq-12",
-        "drift-mcq-11",
-        "drift-mcq-10",
         "drift-mcq-09",
-        "drift-mcq-08"
+        "drift-mcq-12",
+        "drift-mcq-10"
       ],
       "explanation": "本句的「drifter」指「沒有固定住所／生活方向而經常四處移動的人」。",
       "sentenceIndex": 28,
@@ -1114,12 +1008,10 @@ export default {
         "drifter"
       ],
       "optionReasons": {
-        "drift-mcq-13": "本句指「沒有固定住所／生活方向而經常四處移動的人」。",
-        "drift-mcq-12": "「車輪部分失去抓地力、車輛以受控側滑方式過彎」與本句語境不同。",
-        "drift-mcq-11": "「大陸在地質時間尺度上相對移動的現象」與本句語境不同。",
-        "drift-mcq-10": "「由風吹動並堆積形成的雪堆／沙堆」與本句語境不同。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。"
+        "drift-mcq-13": "本句的「drifter」指「沒有固定住所／生活方向而經常四處移動的人」。",
+        "drift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-13"
     },
@@ -1132,10 +1024,8 @@ export default {
       "options": [
         "drift-mcq-13",
         "drift-mcq-12",
-        "drift-mcq-11",
-        "drift-mcq-10",
         "drift-mcq-09",
-        "drift-mcq-08"
+        "drift-mcq-10"
       ],
       "explanation": "本句的「drifter」指「沒有固定住所／生活方向而經常四處移動的人」。",
       "sentenceIndex": 29,
@@ -1144,12 +1034,10 @@ export default {
         "drifter"
       ],
       "optionReasons": {
-        "drift-mcq-13": "本句指「沒有固定住所／生活方向而經常四處移動的人」。",
-        "drift-mcq-12": "「車輪部分失去抓地力、車輛以受控側滑方式過彎」與本句語境不同。",
-        "drift-mcq-11": "「大陸在地質時間尺度上相對移動的現象」與本句語境不同。",
-        "drift-mcq-10": "「由風吹動並堆積形成的雪堆／沙堆」與本句語境不同。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。"
+        "drift-mcq-13": "本句的「drifter」指「沒有固定住所／生活方向而經常四處移動的人」。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-13"
     },
@@ -1161,11 +1049,9 @@ export default {
       "masked": "He felt like a ____ after leaving university.",
       "options": [
         "drift-mcq-13",
-        "drift-mcq-12",
-        "drift-mcq-11",
-        "drift-mcq-10",
         "drift-mcq-09",
-        "drift-mcq-08"
+        "drift-mcq-12",
+        "drift-mcq-10"
       ],
       "explanation": "本句的「drifter」指「沒有固定住所／生活方向而經常四處移動的人」。",
       "sentenceIndex": 30,
@@ -1174,12 +1060,10 @@ export default {
         "drifter"
       ],
       "optionReasons": {
-        "drift-mcq-13": "本句指「沒有固定住所／生活方向而經常四處移動的人」。",
-        "drift-mcq-12": "「車輪部分失去抓地力、車輛以受控側滑方式過彎」與本句語境不同。",
-        "drift-mcq-11": "「大陸在地質時間尺度上相對移動的現象」與本句語境不同。",
-        "drift-mcq-10": "「由風吹動並堆積形成的雪堆／沙堆」與本句語境不同。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。"
+        "drift-mcq-13": "本句的「drifter」指「沒有固定住所／生活方向而經常四處移動的人」。",
+        "drift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-13"
     },
@@ -1192,10 +1076,8 @@ export default {
       "options": [
         "drift-mcq-13",
         "drift-mcq-12",
-        "drift-mcq-11",
-        "drift-mcq-10",
         "drift-mcq-09",
-        "drift-mcq-08"
+        "drift-mcq-10"
       ],
       "explanation": "本句的「drifter」指「沒有固定住所／生活方向而經常四處移動的人」。",
       "sentenceIndex": 31,
@@ -1204,12 +1086,10 @@ export default {
         "drifter"
       ],
       "optionReasons": {
-        "drift-mcq-13": "本句指「沒有固定住所／生活方向而經常四處移動的人」。",
-        "drift-mcq-12": "「車輪部分失去抓地力、車輛以受控側滑方式過彎」與本句語境不同。",
-        "drift-mcq-11": "「大陸在地質時間尺度上相對移動的現象」與本句語境不同。",
-        "drift-mcq-10": "「由風吹動並堆積形成的雪堆／沙堆」與本句語境不同。",
-        "drift-mcq-09": "「說話、文章或論證的整體意思／大意」與本句語境不同。",
-        "drift-mcq-08": "「一段時間內事情整體發展的方向／趨勢」與本句語境不同。"
+        "drift-mcq-13": "本句的「drifter」指「沒有固定住所／生活方向而經常四處移動的人」。",
+        "drift-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drift-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drift-mcq-13"
     }
@@ -1221,5 +1101,7 @@ export default {
     "sha256": "ee80648d6e0d300d05a561ae948223651663b64b72191f632ad0ede1eeef1fc6",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

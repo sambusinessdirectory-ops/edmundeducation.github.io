@@ -444,7 +444,7 @@ export default {
     },
     {
       "id": "club-mcq-20",
-      "title": "表示科學學會；科學社",
+      "title": "科學學會；科學社",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示科學學會；科學社",
@@ -466,7 +466,7 @@ export default {
     },
     {
       "id": "club-mcq-21",
-      "title": "表示大家湊在一起做／買……",
+      "title": "大家湊在一起做／買……",
       "form": "15. club together to do something",
       "en": "15. club together to do something",
       "zh": "表示大家湊在一起做／買……",
@@ -496,11 +496,9 @@ export default {
       "masked": "She helps run the school ____.",
       "options": [
         "club-mcq-20",
-        "club-mcq-19",
-        "club-mcq-21",
-        "club-mcq-18",
         "club-mcq-17",
-        "club-mcq-16"
+        "club-mcq-10",
+        "club-mcq-11"
       ],
       "explanation": "本句的「science club」指「表示科學學會；科學社」。",
       "sentenceIndex": 0,
@@ -509,12 +507,10 @@ export default {
         "science club"
       ],
       "optionReasons": {
-        "club-mcq-20": "本句指「表示科學學會；科學社」。",
-        "club-mcq-19": "「負責組織、管理或經營社團」是「run a club」的用法，與本句語境不同。",
-        "club-mcq-21": "「表示大家湊在一起做／買……」是「15. club together to do something」的用法，與本句語境不同。",
-        "club-mcq-18": "「成為某個社團或俱樂部的成員」是「join a club」的用法，與本句語境不同。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。"
+        "club-mcq-20": "本句的「science club」指「表示科學學會；科學社」。",
+        "club-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-20"
     },
@@ -526,11 +522,9 @@ export default {
       "masked": "I joined a photography ____ after school.",
       "options": [
         "club-mcq-20",
-        "club-mcq-19",
-        "club-mcq-21",
-        "club-mcq-18",
-        "club-mcq-17",
-        "club-mcq-16"
+        "club-mcq-15",
+        "club-mcq-13",
+        "club-mcq-17"
       ],
       "explanation": "本句的「club」指「表示科學學會；科學社」。",
       "sentenceIndex": 1,
@@ -539,12 +533,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-20": "本句指「表示科學學會；科學社」。",
-        "club-mcq-19": "「負責組織、管理或經營社團」是「run a club」的用法，與本句語境不同。",
-        "club-mcq-21": "「表示大家湊在一起做／買……」是「15. club together to do something」的用法，與本句語境不同。",
-        "club-mcq-18": "「成為某個社團或俱樂部的成員」是「join a club」的用法，與本句語境不同。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。"
+        "club-mcq-20": "本句的「club」指「表示科學學會；科學社」。",
+        "club-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-20"
     },
@@ -556,11 +548,9 @@ export default {
       "masked": "She joined the school drama ____.",
       "options": [
         "club-mcq-01",
-        "club-mcq-02",
-        "club-mcq-03",
-        "club-mcq-04",
-        "club-mcq-05",
-        "club-mcq-06"
+        "club-mcq-09",
+        "club-mcq-10",
+        "club-mcq-21"
       ],
       "explanation": "本句的「club」指「因共同興趣、活動或目的而組成並定期活動的社團／俱樂部」。",
       "sentenceIndex": 2,
@@ -569,12 +559,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-01": "本句指「因共同興趣、活動或目的而組成並定期活動的社團／俱樂部」。",
-        "club-mcq-02": "「學校內由學生參加的課外社團」是「school club」的用法，與本句語境不同。",
-        "club-mcq-03": "「以科學活動、實驗與學習為主的科學社／科學學會」是「science club」的用法，與本句語境不同。",
-        "club-mcq-04": "「組織運動員、訓練或比賽活動的體育俱樂部」是「sports club」的用法，與本句語境不同。",
-        "club-mcq-05": "「會員聚會、社交或活動所使用的會所／俱樂部」是「club — members’ venue」的用法，與本句語境不同。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。"
+        "club-mcq-01": "本句的「club」指「因共同興趣、活動或目的而組成並定期活動的社團／俱樂部」。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-01"
     },
@@ -586,11 +574,9 @@ export default {
       "masked": "The chess ____ meets every Friday.",
       "options": [
         "club-mcq-01",
-        "club-mcq-02",
-        "club-mcq-03",
-        "club-mcq-04",
-        "club-mcq-05",
-        "club-mcq-06"
+        "club-mcq-12",
+        "club-mcq-09",
+        "club-mcq-21"
       ],
       "explanation": "本句的「club」指「因共同興趣、活動或目的而組成並定期活動的社團／俱樂部」。",
       "sentenceIndex": 3,
@@ -599,12 +585,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-01": "本句指「因共同興趣、活動或目的而組成並定期活動的社團／俱樂部」。",
-        "club-mcq-02": "「學校內由學生參加的課外社團」是「school club」的用法，與本句語境不同。",
-        "club-mcq-03": "「以科學活動、實驗與學習為主的科學社／科學學會」是「science club」的用法，與本句語境不同。",
-        "club-mcq-04": "「組織運動員、訓練或比賽活動的體育俱樂部」是「sports club」的用法，與本句語境不同。",
-        "club-mcq-05": "「會員聚會、社交或活動所使用的會所／俱樂部」是「club — members’ venue」的用法，與本句語境不同。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。"
+        "club-mcq-01": "本句的「club」指「因共同興趣、活動或目的而組成並定期活動的社團／俱樂部」。",
+        "club-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-01"
     },
@@ -616,11 +600,9 @@ export default {
       "masked": "Students can join several ____.",
       "options": [
         "club-mcq-02",
-        "club-mcq-01",
-        "club-mcq-03",
-        "club-mcq-04",
-        "club-mcq-05",
-        "club-mcq-06"
+        "club-mcq-14",
+        "club-mcq-13",
+        "club-mcq-15"
       ],
       "explanation": "本句的「school clubs」指「學校內由學生參加的課外社團」。",
       "sentenceIndex": 4,
@@ -629,12 +611,10 @@ export default {
         "school clubs"
       ],
       "optionReasons": {
-        "club-mcq-02": "本句指「學校內由學生參加的課外社團」。",
-        "club-mcq-01": "「因共同興趣、活動或目的而組成並定期活動的社團／俱樂部」是「club — organized interest group」的用法，與本句語境不同。",
-        "club-mcq-03": "「以科學活動、實驗與學習為主的科學社／科學學會」是「science club」的用法，與本句語境不同。",
-        "club-mcq-04": "「組織運動員、訓練或比賽活動的體育俱樂部」是「sports club」的用法，與本句語境不同。",
-        "club-mcq-05": "「會員聚會、社交或活動所使用的會所／俱樂部」是「club — members’ venue」的用法，與本句語境不同。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。"
+        "club-mcq-02": "本句的「school clubs」指「學校內由學生參加的課外社團」。",
+        "club-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-02"
     },
@@ -646,11 +626,9 @@ export default {
       "masked": "The science ____ organizes experiments and competitions.",
       "options": [
         "club-mcq-02",
-        "club-mcq-01",
-        "club-mcq-03",
-        "club-mcq-04",
-        "club-mcq-05",
-        "club-mcq-06"
+        "club-mcq-11",
+        "club-mcq-14",
+        "club-mcq-17"
       ],
       "explanation": "本句的「club」指「學校內由學生參加的課外社團」。",
       "sentenceIndex": 5,
@@ -659,12 +637,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-02": "本句指「學校內由學生參加的課外社團」。",
-        "club-mcq-01": "「因共同興趣、活動或目的而組成並定期活動的社團／俱樂部」是「club — organized interest group」的用法，與本句語境不同。",
-        "club-mcq-03": "「以科學活動、實驗與學習為主的科學社／科學學會」是「science club」的用法，與本句語境不同。",
-        "club-mcq-04": "「組織運動員、訓練或比賽活動的體育俱樂部」是「sports club」的用法，與本句語境不同。",
-        "club-mcq-05": "「會員聚會、社交或活動所使用的會所／俱樂部」是「club — members’ venue」的用法，與本句語境不同。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。"
+        "club-mcq-02": "本句的「club」指「學校內由學生參加的課外社團」。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-02"
     },
@@ -676,11 +652,9 @@ export default {
       "masked": "He belongs to a local football ____.",
       "options": [
         "club-mcq-04",
-        "club-mcq-03",
-        "club-mcq-05",
-        "club-mcq-02",
-        "club-mcq-06",
-        "club-mcq-01"
+        "club-mcq-20",
+        "club-mcq-09",
+        "club-mcq-14"
       ],
       "explanation": "本句的「club」指「組織運動員、訓練或比賽活動的體育俱樂部」。",
       "sentenceIndex": 6,
@@ -689,12 +663,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-04": "本句指「組織運動員、訓練或比賽活動的體育俱樂部」。",
-        "club-mcq-03": "「以科學活動、實驗與學習為主的科學社／科學學會」是「science club」的用法，與本句語境不同。",
-        "club-mcq-05": "「會員聚會、社交或活動所使用的會所／俱樂部」是「club — members’ venue」的用法，與本句語境不同。",
-        "club-mcq-02": "「學校內由學生參加的課外社團」是「school club」的用法，與本句語境不同。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。",
-        "club-mcq-01": "「因共同興趣、活動或目的而組成並定期活動的社團／俱樂部」是「club — organized interest group」的用法，與本句語境不同。"
+        "club-mcq-04": "本句的「club」指「組織運動員、訓練或比賽活動的體育俱樂部」。",
+        "club-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-04"
     },
@@ -706,11 +678,9 @@ export default {
       "masked": "The swimming ____ trains twice a week.",
       "options": [
         "club-mcq-04",
-        "club-mcq-03",
-        "club-mcq-05",
-        "club-mcq-02",
-        "club-mcq-06",
-        "club-mcq-01"
+        "club-mcq-14",
+        "club-mcq-20",
+        "club-mcq-11"
       ],
       "explanation": "本句的「club」指「組織運動員、訓練或比賽活動的體育俱樂部」。",
       "sentenceIndex": 7,
@@ -719,12 +689,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-04": "本句指「組織運動員、訓練或比賽活動的體育俱樂部」。",
-        "club-mcq-03": "「以科學活動、實驗與學習為主的科學社／科學學會」是「science club」的用法，與本句語境不同。",
-        "club-mcq-05": "「會員聚會、社交或活動所使用的會所／俱樂部」是「club — members’ venue」的用法，與本句語境不同。",
-        "club-mcq-02": "「學校內由學生參加的課外社團」是「school club」的用法，與本句語境不同。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。",
-        "club-mcq-01": "「因共同興趣、活動或目的而組成並定期活動的社團／俱樂部」是「club — organized interest group」的用法，與本句語境不同。"
+        "club-mcq-04": "本句的「club」指「組織運動員、訓練或比賽活動的體育俱樂部」。",
+        "club-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-04"
     },
@@ -736,11 +704,9 @@ export default {
       "masked": "They met at a private members’ ____.",
       "options": [
         "club-mcq-05",
-        "club-mcq-04",
-        "club-mcq-06",
-        "club-mcq-03",
-        "club-mcq-07",
-        "club-mcq-02"
+        "club-mcq-09",
+        "club-mcq-21",
+        "club-mcq-12"
       ],
       "explanation": "本句的「club」指「會員聚會、社交或活動所使用的會所／俱樂部」。",
       "sentenceIndex": 8,
@@ -749,12 +715,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-05": "本句指「會員聚會、社交或活動所使用的會所／俱樂部」。",
-        "club-mcq-04": "「組織運動員、訓練或比賽活動的體育俱樂部」是「sports club」的用法，與本句語境不同。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。",
-        "club-mcq-03": "「以科學活動、實驗與學習為主的科學社／科學學會」是「science club」的用法，與本句語境不同。",
-        "club-mcq-07": "「去夜店跳舞、社交或娛樂」是「go clubbing」的用法，與本句語境不同。",
-        "club-mcq-02": "「學校內由學生參加的課外社團」是「school club」的用法，與本句語境不同。"
+        "club-mcq-05": "本句的「club」指「會員聚會、社交或活動所使用的會所／俱樂部」。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-05"
     },
@@ -766,11 +730,9 @@ export default {
       "masked": "The golf ____ has a restaurant and lounge.",
       "options": [
         "club-mcq-05",
-        "club-mcq-04",
-        "club-mcq-06",
-        "club-mcq-03",
-        "club-mcq-07",
-        "club-mcq-02"
+        "club-mcq-12",
+        "club-mcq-11",
+        "club-mcq-21"
       ],
       "explanation": "本句的「club」指「會員聚會、社交或活動所使用的會所／俱樂部」。",
       "sentenceIndex": 9,
@@ -779,12 +741,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-05": "本句指「會員聚會、社交或活動所使用的會所／俱樂部」。",
-        "club-mcq-04": "「組織運動員、訓練或比賽活動的體育俱樂部」是「sports club」的用法，與本句語境不同。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。",
-        "club-mcq-03": "「以科學活動、實驗與學習為主的科學社／科學學會」是「science club」的用法，與本句語境不同。",
-        "club-mcq-07": "「去夜店跳舞、社交或娛樂」是「go clubbing」的用法，與本句語境不同。",
-        "club-mcq-02": "「學校內由學生參加的課外社團」是「school club」的用法，與本句語境不同。"
+        "club-mcq-05": "本句的「club」指「會員聚會、社交或活動所使用的會所／俱樂部」。",
+        "club-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-05"
     },
@@ -796,11 +756,9 @@ export default {
       "masked": "They went to a ____ after dinner.",
       "options": [
         "club-mcq-06",
-        "club-mcq-05",
-        "club-mcq-07",
-        "club-mcq-04",
-        "club-mcq-08",
-        "club-mcq-03"
+        "club-mcq-12",
+        "club-mcq-21",
+        "club-mcq-15"
       ],
       "explanation": "本句的「club」指「夜間供跳舞、聽音樂和社交的夜店」。",
       "sentenceIndex": 10,
@@ -809,12 +767,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-06": "本句指「夜間供跳舞、聽音樂和社交的夜店」。",
-        "club-mcq-05": "「會員聚會、社交或活動所使用的會所／俱樂部」是「club — members’ venue」的用法，與本句語境不同。",
-        "club-mcq-07": "「去夜店跳舞、社交或娛樂」是「go clubbing」的用法，與本句語境不同。",
-        "club-mcq-04": "「組織運動員、訓練或比賽活動的體育俱樂部」是「sports club」的用法，與本句語境不同。",
-        "club-mcq-08": "「經營或代表運動隊伍的球會／俱樂部」是「club — sports organization/team」的用法，與本句語境不同。",
-        "club-mcq-03": "「以科學活動、實驗與學習為主的科學社／科學學會」是「science club」的用法，與本句語境不同。"
+        "club-mcq-06": "本句的「club」指「夜間供跳舞、聽音樂和社交的夜店」。",
+        "club-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-06"
     },
@@ -826,11 +782,9 @@ export default {
       "masked": "The ____ stays open until 3 a.m.",
       "options": [
         "club-mcq-06",
-        "club-mcq-05",
-        "club-mcq-07",
-        "club-mcq-04",
-        "club-mcq-08",
-        "club-mcq-03"
+        "club-mcq-14",
+        "club-mcq-15",
+        "club-mcq-11"
       ],
       "explanation": "本句的「club」指「夜間供跳舞、聽音樂和社交的夜店」。",
       "sentenceIndex": 11,
@@ -839,12 +793,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-06": "本句指「夜間供跳舞、聽音樂和社交的夜店」。",
-        "club-mcq-05": "「會員聚會、社交或活動所使用的會所／俱樂部」是「club — members’ venue」的用法，與本句語境不同。",
-        "club-mcq-07": "「去夜店跳舞、社交或娛樂」是「go clubbing」的用法，與本句語境不同。",
-        "club-mcq-04": "「組織運動員、訓練或比賽活動的體育俱樂部」是「sports club」的用法，與本句語境不同。",
-        "club-mcq-08": "「經營或代表運動隊伍的球會／俱樂部」是「club — sports organization/team」的用法，與本句語境不同。",
-        "club-mcq-03": "「以科學活動、實驗與學習為主的科學社／科學學會」是「science club」的用法，與本句語境不同。"
+        "club-mcq-06": "本句的「club」指「夜間供跳舞、聽音樂和社交的夜店」。",
+        "club-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-06"
     },
@@ -856,11 +808,9 @@ export default {
       "masked": "They went ____ on Saturday night.",
       "options": [
         "club-mcq-07",
-        "club-mcq-06",
-        "club-mcq-08",
-        "club-mcq-05",
         "club-mcq-09",
-        "club-mcq-04"
+        "club-mcq-11",
+        "club-mcq-13"
       ],
       "explanation": "本句的「clubbing」指「去夜店跳舞、社交或娛樂」。",
       "sentenceIndex": 12,
@@ -869,12 +819,10 @@ export default {
         "clubbing"
       ],
       "optionReasons": {
-        "club-mcq-07": "本句指「去夜店跳舞、社交或娛樂」。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。",
-        "club-mcq-08": "「經營或代表運動隊伍的球會／俱樂部」是「club — sports organization/team」的用法，與本句語境不同。",
-        "club-mcq-05": "「會員聚會、社交或活動所使用的會所／俱樂部」是「club — members’ venue」的用法，與本句語境不同。",
-        "club-mcq-09": "「用來擊打高爾夫球的球桿」是「golf club」的用法，與本句語境不同。",
-        "club-mcq-04": "「組織運動員、訓練或比賽活動的體育俱樂部」是「sports club」的用法，與本句語境不同。"
+        "club-mcq-07": "本句的「clubbing」指「去夜店跳舞、社交或娛樂」。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-07"
     },
@@ -886,11 +834,9 @@ export default {
       "masked": "I don’t go ____ very often.",
       "options": [
         "club-mcq-07",
-        "club-mcq-06",
-        "club-mcq-08",
-        "club-mcq-05",
-        "club-mcq-09",
-        "club-mcq-04"
+        "club-mcq-21",
+        "club-mcq-15",
+        "club-mcq-11"
       ],
       "explanation": "本句的「clubbing」指「去夜店跳舞、社交或娛樂」。",
       "sentenceIndex": 13,
@@ -899,12 +845,10 @@ export default {
         "clubbing"
       ],
       "optionReasons": {
-        "club-mcq-07": "本句指「去夜店跳舞、社交或娛樂」。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。",
-        "club-mcq-08": "「經營或代表運動隊伍的球會／俱樂部」是「club — sports organization/team」的用法，與本句語境不同。",
-        "club-mcq-05": "「會員聚會、社交或活動所使用的會所／俱樂部」是「club — members’ venue」的用法，與本句語境不同。",
-        "club-mcq-09": "「用來擊打高爾夫球的球桿」是「golf club」的用法，與本句語境不同。",
-        "club-mcq-04": "「組織運動員、訓練或比賽活動的體育俱樂部」是「sports club」的用法，與本句語境不同。"
+        "club-mcq-07": "本句的「clubbing」指「去夜店跳舞、社交或娛樂」。",
+        "club-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-07"
     },
@@ -916,11 +860,9 @@ export default {
       "masked": "He signed for a new football ____.",
       "options": [
         "club-mcq-08",
-        "club-mcq-07",
-        "club-mcq-09",
-        "club-mcq-06",
-        "club-mcq-10",
-        "club-mcq-05"
+        "club-mcq-02",
+        "club-mcq-15",
+        "club-mcq-10"
       ],
       "explanation": "本句的「club」指「經營或代表運動隊伍的球會／俱樂部」。",
       "sentenceIndex": 14,
@@ -929,12 +871,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-08": "本句指「經營或代表運動隊伍的球會／俱樂部」。",
-        "club-mcq-07": "「去夜店跳舞、社交或娛樂」是「go clubbing」的用法，與本句語境不同。",
-        "club-mcq-09": "「用來擊打高爾夫球的球桿」是「golf club」的用法，與本句語境不同。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。",
-        "club-mcq-10": "「可用作武器的粗重棍棒」是「club — weapon」的用法，與本句語境不同。",
-        "club-mcq-05": "「會員聚會、社交或活動所使用的會所／俱樂部」是「club — members’ venue」的用法，與本句語境不同。"
+        "club-mcq-08": "本句的「club」指「經營或代表運動隊伍的球會／俱樂部」。",
+        "club-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-08"
     },
@@ -946,11 +886,9 @@ export default {
       "masked": "The ____ announced a new coach.",
       "options": [
         "club-mcq-08",
-        "club-mcq-07",
-        "club-mcq-09",
-        "club-mcq-06",
+        "club-mcq-13",
         "club-mcq-10",
-        "club-mcq-05"
+        "club-mcq-02"
       ],
       "explanation": "本句的「club」指「經營或代表運動隊伍的球會／俱樂部」。",
       "sentenceIndex": 15,
@@ -959,12 +897,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-08": "本句指「經營或代表運動隊伍的球會／俱樂部」。",
-        "club-mcq-07": "「去夜店跳舞、社交或娛樂」是「go clubbing」的用法，與本句語境不同。",
-        "club-mcq-09": "「用來擊打高爾夫球的球桿」是「golf club」的用法，與本句語境不同。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。",
-        "club-mcq-10": "「可用作武器的粗重棍棒」是「club — weapon」的用法，與本句語境不同。",
-        "club-mcq-05": "「會員聚會、社交或活動所使用的會所／俱樂部」是「club — members’ venue」的用法，與本句語境不同。"
+        "club-mcq-08": "本句的「club」指「經營或代表運動隊伍的球會／俱樂部」。",
+        "club-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-08"
     },
@@ -976,11 +912,9 @@ export default {
       "masked": "The ____ won the league.",
       "options": [
         "club-mcq-08",
-        "club-mcq-07",
-        "club-mcq-09",
-        "club-mcq-06",
-        "club-mcq-10",
-        "club-mcq-05"
+        "club-mcq-12",
+        "club-mcq-15",
+        "club-mcq-20"
       ],
       "explanation": "本句的「club」指「經營或代表運動隊伍的球會／俱樂部」。",
       "sentenceIndex": 16,
@@ -989,12 +923,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-08": "本句指「經營或代表運動隊伍的球會／俱樂部」。",
-        "club-mcq-07": "「去夜店跳舞、社交或娛樂」是「go clubbing」的用法，與本句語境不同。",
-        "club-mcq-09": "「用來擊打高爾夫球的球桿」是「golf club」的用法，與本句語境不同。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。",
-        "club-mcq-10": "「可用作武器的粗重棍棒」是「club — weapon」的用法，與本句語境不同。",
-        "club-mcq-05": "「會員聚會、社交或活動所使用的會所／俱樂部」是「club — members’ venue」的用法，與本句語境不同。"
+        "club-mcq-08": "本句的「club」指「經營或代表運動隊伍的球會／俱樂部」。",
+        "club-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-08"
     },
@@ -1006,11 +938,9 @@ export default {
       "masked": "She has supported the same ____ for years.",
       "options": [
         "club-mcq-08",
-        "club-mcq-07",
-        "club-mcq-09",
-        "club-mcq-06",
-        "club-mcq-10",
-        "club-mcq-05"
+        "club-mcq-02",
+        "club-mcq-15",
+        "club-mcq-11"
       ],
       "explanation": "本句的「club」指「經營或代表運動隊伍的球會／俱樂部」。",
       "sentenceIndex": 17,
@@ -1019,12 +949,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-08": "本句指「經營或代表運動隊伍的球會／俱樂部」。",
-        "club-mcq-07": "「去夜店跳舞、社交或娛樂」是「go clubbing」的用法，與本句語境不同。",
-        "club-mcq-09": "「用來擊打高爾夫球的球桿」是「golf club」的用法，與本句語境不同。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。",
-        "club-mcq-10": "「可用作武器的粗重棍棒」是「club — weapon」的用法，與本句語境不同。",
-        "club-mcq-05": "「會員聚會、社交或活動所使用的會所／俱樂部」是「club — members’ venue」的用法，與本句語境不同。"
+        "club-mcq-08": "本句的「club」指「經營或代表運動隊伍的球會／俱樂部」。",
+        "club-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-08"
     },
@@ -1036,11 +964,9 @@ export default {
       "masked": "He chose a different ____ for the next shot.",
       "options": [
         "club-mcq-09",
-        "club-mcq-08",
-        "club-mcq-10",
-        "club-mcq-07",
-        "club-mcq-11",
-        "club-mcq-06"
+        "club-mcq-14",
+        "club-mcq-01",
+        "club-mcq-07"
       ],
       "explanation": "本句的「club」指「用來擊打高爾夫球的球桿」。",
       "sentenceIndex": 18,
@@ -1049,12 +975,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-09": "本句指「用來擊打高爾夫球的球桿」。",
-        "club-mcq-08": "「經營或代表運動隊伍的球會／俱樂部」是「club — sports organization/team」的用法，與本句語境不同。",
-        "club-mcq-10": "「可用作武器的粗重棍棒」是「club — weapon」的用法，與本句語境不同。",
-        "club-mcq-07": "「去夜店跳舞、社交或娛樂」是「go clubbing」的用法，與本句語境不同。",
-        "club-mcq-11": "「撲克牌四種花色之一；梅花」是「clubs — playing cards」的用法，與本句語境不同。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。"
+        "club-mcq-09": "本句的「club」指「用來擊打高爾夫球的球桿」。",
+        "club-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-09"
     },
@@ -1066,11 +990,9 @@ export default {
       "masked": "She carried several ____ in her bag.",
       "options": [
         "club-mcq-09",
-        "club-mcq-08",
-        "club-mcq-10",
-        "club-mcq-07",
-        "club-mcq-11",
-        "club-mcq-06"
+        "club-mcq-01",
+        "club-mcq-06",
+        "club-mcq-11"
       ],
       "explanation": "本句的「clubs」指「用來擊打高爾夫球的球桿」。",
       "sentenceIndex": 19,
@@ -1079,12 +1001,10 @@ export default {
         "clubs"
       ],
       "optionReasons": {
-        "club-mcq-09": "本句指「用來擊打高爾夫球的球桿」。",
-        "club-mcq-08": "「經營或代表運動隊伍的球會／俱樂部」是「club — sports organization/team」的用法，與本句語境不同。",
-        "club-mcq-10": "「可用作武器的粗重棍棒」是「club — weapon」的用法，與本句語境不同。",
-        "club-mcq-07": "「去夜店跳舞、社交或娛樂」是「go clubbing」的用法，與本句語境不同。",
-        "club-mcq-11": "「撲克牌四種花色之一；梅花」是「clubs — playing cards」的用法，與本句語境不同。",
-        "club-mcq-06": "「夜間供跳舞、聽音樂和社交的夜店」是「club — nightclub」的用法，與本句語境不同。"
+        "club-mcq-09": "本句的「clubs」指「用來擊打高爾夫球的球桿」。",
+        "club-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-09"
     },
@@ -1096,11 +1016,9 @@ export default {
       "masked": "The figure carried a wooden ____.",
       "options": [
         "club-mcq-10",
-        "club-mcq-09",
+        "club-mcq-21",
         "club-mcq-11",
-        "club-mcq-08",
-        "club-mcq-12",
-        "club-mcq-07"
+        "club-mcq-04"
       ],
       "explanation": "本句的「club」指「可用作武器的粗重棍棒」。",
       "sentenceIndex": 20,
@@ -1109,12 +1027,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-10": "本句指「可用作武器的粗重棍棒」。",
-        "club-mcq-09": "「用來擊打高爾夫球的球桿」是「golf club」的用法，與本句語境不同。",
-        "club-mcq-11": "「撲克牌四種花色之一；梅花」是「clubs — playing cards」的用法，與本句語境不同。",
-        "club-mcq-08": "「經營或代表運動隊伍的球會／俱樂部」是「club — sports organization/team」的用法，與本句語境不同。",
-        "club-mcq-12": "「用棍棒或類似重物猛擊」是「club — verb hit」的用法，與本句語境不同。",
-        "club-mcq-07": "「去夜店跳舞、社交或娛樂」是「go clubbing」的用法，與本句語境不同。"
+        "club-mcq-10": "本句的「club」指「可用作武器的粗重棍棒」。",
+        "club-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-10"
     },
@@ -1126,11 +1042,9 @@ export default {
       "masked": "A ____ was found at the scene.",
       "options": [
         "club-mcq-10",
-        "club-mcq-09",
-        "club-mcq-11",
-        "club-mcq-08",
-        "club-mcq-12",
-        "club-mcq-07"
+        "club-mcq-21",
+        "club-mcq-04",
+        "club-mcq-11"
       ],
       "explanation": "本句的「club」指「可用作武器的粗重棍棒」。",
       "sentenceIndex": 21,
@@ -1139,12 +1053,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-10": "本句指「可用作武器的粗重棍棒」。",
-        "club-mcq-09": "「用來擊打高爾夫球的球桿」是「golf club」的用法，與本句語境不同。",
-        "club-mcq-11": "「撲克牌四種花色之一；梅花」是「clubs — playing cards」的用法，與本句語境不同。",
-        "club-mcq-08": "「經營或代表運動隊伍的球會／俱樂部」是「club — sports organization/team」的用法，與本句語境不同。",
-        "club-mcq-12": "「用棍棒或類似重物猛擊」是「club — verb hit」的用法，與本句語境不同。",
-        "club-mcq-07": "「去夜店跳舞、社交或娛樂」是「go clubbing」的用法，與本句語境不同。"
+        "club-mcq-10": "本句的「club」指「可用作武器的粗重棍棒」。",
+        "club-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-10"
     },
@@ -1156,11 +1068,9 @@ export default {
       "masked": "She played the ace of ____.",
       "options": [
         "club-mcq-11",
-        "club-mcq-10",
-        "club-mcq-12",
-        "club-mcq-09",
-        "club-mcq-13",
-        "club-mcq-08"
+        "club-mcq-21",
+        "club-mcq-05",
+        "club-mcq-09"
       ],
       "explanation": "本句的「clubs」指「撲克牌四種花色之一；梅花」。",
       "sentenceIndex": 22,
@@ -1169,12 +1079,10 @@ export default {
         "clubs"
       ],
       "optionReasons": {
-        "club-mcq-11": "本句指「撲克牌四種花色之一；梅花」。",
-        "club-mcq-10": "「可用作武器的粗重棍棒」是「club — weapon」的用法，與本句語境不同。",
-        "club-mcq-12": "「用棍棒或類似重物猛擊」是「club — verb hit」的用法，與本句語境不同。",
-        "club-mcq-09": "「用來擊打高爾夫球的球桿」是「golf club」的用法，與本句語境不同。",
-        "club-mcq-13": "「多人把錢、資源或力量集中起來；共同湊錢／出力」是「club together」的用法，與本句語境不同。",
-        "club-mcq-08": "「經營或代表運動隊伍的球會／俱樂部」是「club — sports organization/team」的用法，與本句語境不同。"
+        "club-mcq-11": "本句的「clubs」指「撲克牌四種花色之一；梅花」。",
+        "club-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-11"
     },
@@ -1186,11 +1094,9 @@ export default {
       "masked": "I need a ____ to complete the hand.",
       "options": [
         "club-mcq-11",
-        "club-mcq-10",
-        "club-mcq-12",
-        "club-mcq-09",
-        "club-mcq-13",
-        "club-mcq-08"
+        "club-mcq-21",
+        "club-mcq-17",
+        "club-mcq-07"
       ],
       "explanation": "本句的「club」指「撲克牌四種花色之一；梅花」。",
       "sentenceIndex": 23,
@@ -1199,12 +1105,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-11": "本句指「撲克牌四種花色之一；梅花」。",
-        "club-mcq-10": "「可用作武器的粗重棍棒」是「club — weapon」的用法，與本句語境不同。",
-        "club-mcq-12": "「用棍棒或類似重物猛擊」是「club — verb hit」的用法，與本句語境不同。",
-        "club-mcq-09": "「用來擊打高爾夫球的球桿」是「golf club」的用法，與本句語境不同。",
-        "club-mcq-13": "「多人把錢、資源或力量集中起來；共同湊錢／出力」是「club together」的用法，與本句語境不同。",
-        "club-mcq-08": "「經營或代表運動隊伍的球會／俱樂部」是「club — sports organization/team」的用法，與本句語境不同。"
+        "club-mcq-11": "本句的「club」指「撲克牌四種花色之一；梅花」。",
+        "club-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-11"
     },
@@ -1216,11 +1120,9 @@ export default {
       "masked": "The animal was ____ to death.",
       "options": [
         "club-mcq-12",
-        "club-mcq-11",
-        "club-mcq-13",
-        "club-mcq-10",
-        "club-mcq-14",
-        "club-mcq-09"
+        "club-mcq-16",
+        "club-mcq-07",
+        "club-mcq-13"
       ],
       "explanation": "本句的「clubbed」指「用棍棒或類似重物猛擊」。",
       "sentenceIndex": 24,
@@ -1229,12 +1131,10 @@ export default {
         "clubbed"
       ],
       "optionReasons": {
-        "club-mcq-12": "本句指「用棍棒或類似重物猛擊」。",
-        "club-mcq-11": "「撲克牌四種花色之一；梅花」是「clubs — playing cards」的用法，與本句語境不同。",
-        "club-mcq-13": "「多人把錢、資源或力量集中起來；共同湊錢／出力」是「club together」的用法，與本句語境不同。",
-        "club-mcq-10": "「可用作武器的粗重棍棒」是「club — weapon」的用法，與本句語境不同。",
-        "club-mcq-14": "「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」是「join the club」的用法，與本句語境不同。",
-        "club-mcq-09": "「用來擊打高爾夫球的球桿」是「golf club」的用法，與本句語境不同。"
+        "club-mcq-12": "本句的「clubbed」指「用棍棒或類似重物猛擊」。",
+        "club-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-12"
     },
@@ -1246,11 +1146,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "club-mcq-12",
-        "club-mcq-11",
-        "club-mcq-13",
-        "club-mcq-10",
-        "club-mcq-14",
-        "club-mcq-09"
+        "club-mcq-07",
+        "club-mcq-19",
+        "club-mcq-11"
       ],
       "explanation": "本句的「clubbed over the head」指「用棍棒或類似重物猛擊」。",
       "sentenceIndex": 25,
@@ -1259,12 +1157,10 @@ export default {
         "clubbed over the head"
       ],
       "optionReasons": {
-        "club-mcq-12": "本句指「用棍棒或類似重物猛擊」。",
-        "club-mcq-11": "「撲克牌四種花色之一；梅花」是「clubs — playing cards」的用法，與本句語境不同。",
-        "club-mcq-13": "「多人把錢、資源或力量集中起來；共同湊錢／出力」是「club together」的用法，與本句語境不同。",
-        "club-mcq-10": "「可用作武器的粗重棍棒」是「club — weapon」的用法，與本句語境不同。",
-        "club-mcq-14": "「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」是「join the club」的用法，與本句語境不同。",
-        "club-mcq-09": "「用來擊打高爾夫球的球桿」是「golf club」的用法，與本句語境不同。"
+        "club-mcq-12": "本句的「clubbed over the head」指「用棍棒或類似重物猛擊」。",
+        "club-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-12"
     },
@@ -1276,11 +1172,9 @@ export default {
       "masked": "We ____ to buy her a present.",
       "options": [
         "club-mcq-13",
-        "club-mcq-12",
-        "club-mcq-14",
         "club-mcq-11",
-        "club-mcq-15",
-        "club-mcq-10"
+        "club-mcq-17",
+        "club-mcq-19"
       ],
       "explanation": "本句的「clubbed together」指「多人把錢、資源或力量集中起來；共同湊錢／出力」。",
       "sentenceIndex": 26,
@@ -1289,12 +1183,10 @@ export default {
         "clubbed together"
       ],
       "optionReasons": {
-        "club-mcq-13": "本句指「多人把錢、資源或力量集中起來；共同湊錢／出力」。",
-        "club-mcq-12": "「用棍棒或類似重物猛擊」是「club — verb hit」的用法，與本句語境不同。",
-        "club-mcq-14": "「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」是「join the club」的用法，與本句語境不同。",
-        "club-mcq-11": "「撲克牌四種花色之一；梅花」是「clubs — playing cards」的用法，與本句語境不同。",
-        "club-mcq-15": "「成員極少、資格難得的精英圈／特殊行列」是「exclusive club」的用法，與本句語境不同。",
-        "club-mcq-10": "「可用作武器的粗重棍棒」是「club — weapon」的用法，與本句語境不同。"
+        "club-mcq-13": "本句的「clubbed together」指「多人把錢、資源或力量集中起來；共同湊錢／出力」。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-13"
     },
@@ -1306,11 +1198,9 @@ export default {
       "masked": "The neighbours ____ to repair the garden.",
       "options": [
         "club-mcq-13",
-        "club-mcq-12",
-        "club-mcq-14",
-        "club-mcq-11",
-        "club-mcq-15",
-        "club-mcq-10"
+        "club-mcq-17",
+        "club-mcq-06",
+        "club-mcq-19"
       ],
       "explanation": "本句的「clubbed together」指「多人把錢、資源或力量集中起來；共同湊錢／出力」。",
       "sentenceIndex": 27,
@@ -1319,12 +1209,10 @@ export default {
         "clubbed together"
       ],
       "optionReasons": {
-        "club-mcq-13": "本句指「多人把錢、資源或力量集中起來；共同湊錢／出力」。",
-        "club-mcq-12": "「用棍棒或類似重物猛擊」是「club — verb hit」的用法，與本句語境不同。",
-        "club-mcq-14": "「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」是「join the club」的用法，與本句語境不同。",
-        "club-mcq-11": "「撲克牌四種花色之一；梅花」是「clubs — playing cards」的用法，與本句語境不同。",
-        "club-mcq-15": "「成員極少、資格難得的精英圈／特殊行列」是「exclusive club」的用法，與本句語境不同。",
-        "club-mcq-10": "「可用作武器的粗重棍棒」是「club — weapon」的用法，與本句語境不同。"
+        "club-mcq-13": "本句的「clubbed together」指「多人把錢、資源或力量集中起來；共同湊錢／出力」。",
+        "club-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-13"
     },
@@ -1336,11 +1224,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "club-mcq-21",
-        "club-mcq-20",
-        "club-mcq-19",
+        "club-mcq-06",
         "club-mcq-18",
-        "club-mcq-17",
-        "club-mcq-16"
+        "club-mcq-11"
       ],
       "explanation": "本句的「clubbed together to pay for the meal」指「表示大家湊在一起做／買……」。",
       "sentenceIndex": 28,
@@ -1349,12 +1235,10 @@ export default {
         "clubbed together to pay for the meal"
       ],
       "optionReasons": {
-        "club-mcq-21": "本句指「表示大家湊在一起做／買……」。",
-        "club-mcq-20": "「表示科學學會；科學社」是「Passage meaning」的用法，與本句語境不同。",
-        "club-mcq-19": "「負責組織、管理或經營社團」是「run a club」的用法，與本句語境不同。",
-        "club-mcq-18": "「成為某個社團或俱樂部的成員」是「join a club」的用法，與本句語境不同。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。"
+        "club-mcq-21": "本句的「clubbed together to pay for the meal」指「表示大家湊在一起做／買……」。",
+        "club-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-21"
     },
@@ -1366,11 +1250,9 @@ export default {
       "masked": "The students ____.",
       "options": [
         "club-mcq-21",
-        "club-mcq-20",
-        "club-mcq-19",
-        "club-mcq-18",
-        "club-mcq-17",
-        "club-mcq-16"
+        "club-mcq-10",
+        "club-mcq-01",
+        "club-mcq-11"
       ],
       "explanation": "本句的「clubbed together to buy new equipment」指「表示大家湊在一起做／買……」。",
       "sentenceIndex": 29,
@@ -1379,12 +1261,10 @@ export default {
         "clubbed together to buy new equipment"
       ],
       "optionReasons": {
-        "club-mcq-21": "本句指「表示大家湊在一起做／買……」。",
-        "club-mcq-20": "「表示科學學會；科學社」是「Passage meaning」的用法，與本句語境不同。",
-        "club-mcq-19": "「負責組織、管理或經營社團」是「run a club」的用法，與本句語境不同。",
-        "club-mcq-18": "「成為某個社團或俱樂部的成員」是「join a club」的用法，與本句語境不同。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。"
+        "club-mcq-21": "本句的「clubbed together to buy new equipment」指「表示大家湊在一起做／買……」。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-21"
     },
@@ -1396,11 +1276,9 @@ export default {
       "masked": "I’m exhausted.” “____",
       "options": [
         "club-mcq-14",
-        "club-mcq-13",
-        "club-mcq-15",
-        "club-mcq-12",
-        "club-mcq-16",
-        "club-mcq-11"
+        "club-mcq-20",
+        "club-mcq-09",
+        "club-mcq-17"
       ],
       "explanation": "本句的「Join the club.」指「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」。",
       "sentenceIndex": 30,
@@ -1409,12 +1287,10 @@ export default {
         "Join the club."
       ],
       "optionReasons": {
-        "club-mcq-14": "本句指「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」。",
-        "club-mcq-13": "「多人把錢、資源或力量集中起來；共同湊錢／出力」是「club together」的用法，與本句語境不同。",
-        "club-mcq-15": "「成員極少、資格難得的精英圈／特殊行列」是「exclusive club」的用法，與本句語境不同。",
-        "club-mcq-12": "「用棍棒或類似重物猛擊」是「club — verb hit」的用法，與本句語境不同。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。",
-        "club-mcq-11": "「撲克牌四種花色之一；梅花」是「clubs — playing cards」的用法，與本句語境不同。"
+        "club-mcq-14": "本句的「Join the club.」指「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」。",
+        "club-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-14"
     },
@@ -1426,11 +1302,9 @@ export default {
       "masked": "I never understand tax forms.” “____",
       "options": [
         "club-mcq-14",
-        "club-mcq-13",
         "club-mcq-15",
-        "club-mcq-12",
-        "club-mcq-16",
-        "club-mcq-11"
+        "club-mcq-10",
+        "club-mcq-20"
       ],
       "explanation": "本句的「Join the club.」指「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」。",
       "sentenceIndex": 31,
@@ -1439,12 +1313,10 @@ export default {
         "Join the club."
       ],
       "optionReasons": {
-        "club-mcq-14": "本句指「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」。",
-        "club-mcq-13": "「多人把錢、資源或力量集中起來；共同湊錢／出力」是「club together」的用法，與本句語境不同。",
-        "club-mcq-15": "「成員極少、資格難得的精英圈／特殊行列」是「exclusive club」的用法，與本句語境不同。",
-        "club-mcq-12": "「用棍棒或類似重物猛擊」是「club — verb hit」的用法，與本句語境不同。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。",
-        "club-mcq-11": "「撲克牌四種花色之一；梅花」是「clubs — playing cards」的用法，與本句語境不同。"
+        "club-mcq-14": "本句的「Join the club.」指「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」。",
+        "club-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-14"
     },
@@ -1456,11 +1328,9 @@ export default {
       "masked": "Only a few athletes belong to that ____.",
       "options": [
         "club-mcq-15",
-        "club-mcq-14",
-        "club-mcq-16",
-        "club-mcq-13",
-        "club-mcq-17",
-        "club-mcq-12"
+        "club-mcq-08",
+        "club-mcq-12",
+        "club-mcq-02"
       ],
       "explanation": "本句的「exclusive club」指「成員極少、資格難得的精英圈／特殊行列」。",
       "sentenceIndex": 32,
@@ -1469,12 +1339,10 @@ export default {
         "exclusive club"
       ],
       "optionReasons": {
-        "club-mcq-15": "本句指「成員極少、資格難得的精英圈／特殊行列」。",
-        "club-mcq-14": "「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」是「join the club」的用法，與本句語境不同。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。",
-        "club-mcq-13": "「多人把錢、資源或力量集中起來；共同湊錢／出力」是「club together」的用法，與本句語境不同。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-12": "「用棍棒或類似重物猛擊」是「club — verb hit」的用法，與本句語境不同。"
+        "club-mcq-15": "本句的「exclusive club」指「成員極少、資格難得的精英圈／特殊行列」。",
+        "club-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-15"
     },
@@ -1486,11 +1354,9 @@ export default {
       "masked": "Winning all four titles placed her in an ____.",
       "options": [
         "club-mcq-15",
-        "club-mcq-14",
-        "club-mcq-16",
-        "club-mcq-13",
-        "club-mcq-17",
-        "club-mcq-12"
+        "club-mcq-09",
+        "club-mcq-07",
+        "club-mcq-14"
       ],
       "explanation": "本句的「exclusive club」指「成員極少、資格難得的精英圈／特殊行列」。",
       "sentenceIndex": 33,
@@ -1499,12 +1365,10 @@ export default {
         "exclusive club"
       ],
       "optionReasons": {
-        "club-mcq-15": "本句指「成員極少、資格難得的精英圈／特殊行列」。",
-        "club-mcq-14": "「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」是「join the club」的用法，與本句語境不同。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。",
-        "club-mcq-13": "「多人把錢、資源或力量集中起來；共同湊錢／出力」是「club together」的用法，與本句語境不同。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-12": "「用棍棒或類似重物猛擊」是「club — verb hit」的用法，與本句語境不同。"
+        "club-mcq-15": "本句的「exclusive club」指「成員極少、資格難得的精英圈／特殊行列」。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-15"
     },
@@ -1516,10 +1380,8 @@ export default {
       "masked": "I joined the bookstore’s reading ____.",
       "options": [
         "club-mcq-16",
-        "club-mcq-15",
-        "club-mcq-17",
+        "club-mcq-10",
         "club-mcq-14",
-        "club-mcq-18",
         "club-mcq-13"
       ],
       "explanation": "本句的「club」指「某個社團或俱樂部的成員／會員」。",
@@ -1529,12 +1391,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-16": "本句指「某個社團或俱樂部的成員／會員」。",
-        "club-mcq-15": "「成員極少、資格難得的精英圈／特殊行列」是「exclusive club」的用法，與本句語境不同。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-14": "「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」是「join the club」的用法，與本句語境不同。",
-        "club-mcq-18": "「成為某個社團或俱樂部的成員」是「join a club」的用法，與本句語境不同。",
-        "club-mcq-13": "「多人把錢、資源或力量集中起來；共同湊錢／出力」是「club together」的用法，與本句語境不同。"
+        "club-mcq-16": "本句的「club」指「某個社團或俱樂部的成員／會員」。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-16"
     },
@@ -1546,11 +1406,9 @@ export default {
       "masked": "Members of the travel ____ receive discounts.",
       "options": [
         "club-mcq-16",
-        "club-mcq-15",
-        "club-mcq-17",
-        "club-mcq-14",
-        "club-mcq-18",
-        "club-mcq-13"
+        "club-mcq-21",
+        "club-mcq-12",
+        "club-mcq-11"
       ],
       "explanation": "本句的「club」指「某個社團或俱樂部的成員／會員」。",
       "sentenceIndex": 35,
@@ -1559,12 +1417,10 @@ export default {
         "club"
       ],
       "optionReasons": {
-        "club-mcq-16": "本句指「某個社團或俱樂部的成員／會員」。",
-        "club-mcq-15": "「成員極少、資格難得的精英圈／特殊行列」是「exclusive club」的用法，與本句語境不同。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-14": "「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」是「join the club」的用法，與本句語境不同。",
-        "club-mcq-18": "「成為某個社團或俱樂部的成員」是「join a club」的用法，與本句語境不同。",
-        "club-mcq-13": "「多人把錢、資源或力量集中起來；共同湊錢／出力」是「club together」的用法，與本句語境不同。"
+        "club-mcq-16": "本句的「club」指「某個社團或俱樂部的成員／會員」。",
+        "club-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-16"
     },
@@ -1576,11 +1432,9 @@ export default {
       "masked": "Every ____ can vote.",
       "options": [
         "club-mcq-16",
-        "club-mcq-15",
-        "club-mcq-17",
-        "club-mcq-14",
-        "club-mcq-18",
-        "club-mcq-13"
+        "club-mcq-21",
+        "club-mcq-09",
+        "club-mcq-10"
       ],
       "explanation": "本句的「club member」指「某個社團或俱樂部的成員／會員」。",
       "sentenceIndex": 36,
@@ -1589,12 +1443,10 @@ export default {
         "club member"
       ],
       "optionReasons": {
-        "club-mcq-16": "本句指「某個社團或俱樂部的成員／會員」。",
-        "club-mcq-15": "「成員極少、資格難得的精英圈／特殊行列」是「exclusive club」的用法，與本句語境不同。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-14": "「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」是「join the club」的用法，與本句語境不同。",
-        "club-mcq-18": "「成為某個社團或俱樂部的成員」是「join a club」的用法，與本句語境不同。",
-        "club-mcq-13": "「多人把錢、資源或力量集中起來；共同湊錢／出力」是「club together」的用法，與本句語境不同。"
+        "club-mcq-16": "本句的「club member」指「某個社團或俱樂部的成員／會員」。",
+        "club-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-16"
     },
@@ -1606,11 +1458,9 @@ export default {
       "masked": "The school has more than fifty science ____.",
       "options": [
         "club-mcq-16",
-        "club-mcq-15",
-        "club-mcq-17",
-        "club-mcq-14",
-        "club-mcq-18",
-        "club-mcq-13"
+        "club-mcq-10",
+        "club-mcq-11",
+        "club-mcq-09"
       ],
       "explanation": "本句的「club members」指「某個社團或俱樂部的成員／會員」。",
       "sentenceIndex": 37,
@@ -1619,12 +1469,10 @@ export default {
         "club members"
       ],
       "optionReasons": {
-        "club-mcq-16": "本句指「某個社團或俱樂部的成員／會員」。",
-        "club-mcq-15": "「成員極少、資格難得的精英圈／特殊行列」是「exclusive club」的用法，與本句語境不同。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-14": "「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」是「join the club」的用法，與本句語境不同。",
-        "club-mcq-18": "「成為某個社團或俱樂部的成員」是「join a club」的用法，與本句語境不同。",
-        "club-mcq-13": "「多人把錢、資源或力量集中起來；共同湊錢／出力」是「club together」的用法，與本句語境不同。"
+        "club-mcq-16": "本句的「club members」指「某個社團或俱樂部的成員／會員」。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-16"
     },
@@ -1636,11 +1484,9 @@ export default {
       "masked": "The players returned to the ____.",
       "options": [
         "club-mcq-17",
-        "club-mcq-16",
-        "club-mcq-18",
-        "club-mcq-15",
-        "club-mcq-19",
-        "club-mcq-14"
+        "club-mcq-02",
+        "club-mcq-14",
+        "club-mcq-10"
       ],
       "explanation": "本句的「clubhouse」指「俱樂部、球會等供會員使用的會所」。",
       "sentenceIndex": 38,
@@ -1649,12 +1495,10 @@ export default {
         "clubhouse"
       ],
       "optionReasons": {
-        "club-mcq-17": "本句指「俱樂部、球會等供會員使用的會所」。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。",
-        "club-mcq-18": "「成為某個社團或俱樂部的成員」是「join a club」的用法，與本句語境不同。",
-        "club-mcq-15": "「成員極少、資格難得的精英圈／特殊行列」是「exclusive club」的用法，與本句語境不同。",
-        "club-mcq-19": "「負責組織、管理或經營社團」是「run a club」的用法，與本句語境不同。",
-        "club-mcq-14": "「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」是「join the club」的用法，與本句語境不同。"
+        "club-mcq-17": "本句的「clubhouse」指「俱樂部、球會等供會員使用的會所」。",
+        "club-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-17"
     },
@@ -1666,11 +1510,9 @@ export default {
       "masked": "We had lunch in the golf ____.",
       "options": [
         "club-mcq-17",
-        "club-mcq-16",
-        "club-mcq-18",
-        "club-mcq-15",
+        "club-mcq-13",
         "club-mcq-19",
-        "club-mcq-14"
+        "club-mcq-10"
       ],
       "explanation": "本句的「clubhouse」指「俱樂部、球會等供會員使用的會所」。",
       "sentenceIndex": 39,
@@ -1679,12 +1521,10 @@ export default {
         "clubhouse"
       ],
       "optionReasons": {
-        "club-mcq-17": "本句指「俱樂部、球會等供會員使用的會所」。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。",
-        "club-mcq-18": "「成為某個社團或俱樂部的成員」是「join a club」的用法，與本句語境不同。",
-        "club-mcq-15": "「成員極少、資格難得的精英圈／特殊行列」是「exclusive club」的用法，與本句語境不同。",
-        "club-mcq-19": "「負責組織、管理或經營社團」是「run a club」的用法，與本句語境不同。",
-        "club-mcq-14": "「非正式表示自己也有相同問題或經歷；我也一樣／大家都一樣」是「join the club」的用法，與本句語境不同。"
+        "club-mcq-17": "本句的「clubhouse」指「俱樂部、球會等供會員使用的會所」。",
+        "club-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-17"
     },
@@ -1696,11 +1536,9 @@ export default {
       "masked": "I ____ in Year 10.",
       "options": [
         "club-mcq-18",
-        "club-mcq-17",
-        "club-mcq-19",
-        "club-mcq-16",
-        "club-mcq-20",
-        "club-mcq-15"
+        "club-mcq-09",
+        "club-mcq-10",
+        "club-mcq-21"
       ],
       "explanation": "本句的「joined the science club」指「成為某個社團或俱樂部的成員」。",
       "sentenceIndex": 40,
@@ -1709,12 +1547,10 @@ export default {
         "joined the science club"
       ],
       "optionReasons": {
-        "club-mcq-18": "本句指「成為某個社團或俱樂部的成員」。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-19": "「負責組織、管理或經營社團」是「run a club」的用法，與本句語境不同。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。",
-        "club-mcq-20": "「表示科學學會；科學社」是「Passage meaning」的用法，與本句語境不同。",
-        "club-mcq-15": "「成員極少、資格難得的精英圈／特殊行列」是「exclusive club」的用法，與本句語境不同。"
+        "club-mcq-18": "本句的「joined the science club」指「成為某個社團或俱樂部的成員」。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-18"
     },
@@ -1726,11 +1562,9 @@ export default {
       "masked": "She encouraged students to ____.",
       "options": [
         "club-mcq-18",
-        "club-mcq-17",
-        "club-mcq-19",
-        "club-mcq-16",
-        "club-mcq-20",
-        "club-mcq-15"
+        "club-mcq-09",
+        "club-mcq-10",
+        "club-mcq-11"
       ],
       "explanation": "本句的「join a club」指「成為某個社團或俱樂部的成員」。",
       "sentenceIndex": 41,
@@ -1739,12 +1573,10 @@ export default {
         "join a club"
       ],
       "optionReasons": {
-        "club-mcq-18": "本句指「成為某個社團或俱樂部的成員」。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-19": "「負責組織、管理或經營社團」是「run a club」的用法，與本句語境不同。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。",
-        "club-mcq-20": "「表示科學學會；科學社」是「Passage meaning」的用法，與本句語境不同。",
-        "club-mcq-15": "「成員極少、資格難得的精英圈／特殊行列」是「exclusive club」的用法，與本句語境不同。"
+        "club-mcq-18": "本句的「join a club」指「成為某個社團或俱樂部的成員」。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-18"
     },
@@ -1756,11 +1588,9 @@ export default {
       "masked": "A teacher helps ____.",
       "options": [
         "club-mcq-19",
-        "club-mcq-18",
-        "club-mcq-20",
-        "club-mcq-17",
-        "club-mcq-21",
-        "club-mcq-16"
+        "club-mcq-09",
+        "club-mcq-11",
+        "club-mcq-21"
       ],
       "explanation": "本句的「run the science club」指「負責組織、管理或經營社團」。",
       "sentenceIndex": 42,
@@ -1769,12 +1599,10 @@ export default {
         "run the science club"
       ],
       "optionReasons": {
-        "club-mcq-19": "本句指「負責組織、管理或經營社團」。",
-        "club-mcq-18": "「成為某個社團或俱樂部的成員」是「join a club」的用法，與本句語境不同。",
-        "club-mcq-20": "「表示科學學會；科學社」是「Passage meaning」的用法，與本句語境不同。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-21": "「表示大家湊在一起做／買……」是「15. club together to do something」的用法，與本句語境不同。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。"
+        "club-mcq-19": "本句的「run the science club」指「負責組織、管理或經營社團」。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-19"
     },
@@ -1786,11 +1614,9 @@ export default {
       "masked": "Students ____ themselves.",
       "options": [
         "club-mcq-19",
-        "club-mcq-18",
-        "club-mcq-20",
-        "club-mcq-17",
-        "club-mcq-21",
-        "club-mcq-16"
+        "club-mcq-13",
+        "club-mcq-10",
+        "club-mcq-17"
       ],
       "explanation": "本句的「run the club」指「負責組織、管理或經營社團」。",
       "sentenceIndex": 43,
@@ -1799,12 +1625,10 @@ export default {
         "run the club"
       ],
       "optionReasons": {
-        "club-mcq-19": "本句指「負責組織、管理或經營社團」。",
-        "club-mcq-18": "「成為某個社團或俱樂部的成員」是「join a club」的用法，與本句語境不同。",
-        "club-mcq-20": "「表示科學學會；科學社」是「Passage meaning」的用法，與本句語境不同。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-21": "「表示大家湊在一起做／買……」是「15. club together to do something」的用法，與本句語境不同。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。"
+        "club-mcq-19": "本句的「run the club」指「負責組織、管理或經營社團」。",
+        "club-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-19"
     },
@@ -1816,11 +1640,9 @@ export default {
       "masked": "We have a ____ after school.",
       "options": [
         "club-mcq-19",
-        "club-mcq-18",
-        "club-mcq-20",
-        "club-mcq-17",
-        "club-mcq-21",
-        "club-mcq-16"
+        "club-mcq-09",
+        "club-mcq-13",
+        "club-mcq-11"
       ],
       "explanation": "本句的「club meeting」指「負責組織、管理或經營社團」。",
       "sentenceIndex": 44,
@@ -1829,12 +1651,10 @@ export default {
         "club meeting"
       ],
       "optionReasons": {
-        "club-mcq-19": "本句指「負責組織、管理或經營社團」。",
-        "club-mcq-18": "「成為某個社團或俱樂部的成員」是「join a club」的用法，與本句語境不同。",
-        "club-mcq-20": "「表示科學學會；科學社」是「Passage meaning」的用法，與本句語境不同。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-21": "「表示大家湊在一起做／買……」是「15. club together to do something」的用法，與本句語境不同。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。"
+        "club-mcq-19": "本句的「club meeting」指「負責組織、管理或經營社團」。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-19"
     },
@@ -1846,11 +1666,9 @@ export default {
       "masked": "The next ____ is on Friday.",
       "options": [
         "club-mcq-19",
-        "club-mcq-18",
-        "club-mcq-20",
-        "club-mcq-17",
-        "club-mcq-21",
-        "club-mcq-16"
+        "club-mcq-09",
+        "club-mcq-10",
+        "club-mcq-13"
       ],
       "explanation": "本句的「club meeting」指「負責組織、管理或經營社團」。",
       "sentenceIndex": 45,
@@ -1859,12 +1677,10 @@ export default {
         "club meeting"
       ],
       "optionReasons": {
-        "club-mcq-19": "本句指「負責組織、管理或經營社團」。",
-        "club-mcq-18": "「成為某個社團或俱樂部的成員」是「join a club」的用法，與本句語境不同。",
-        "club-mcq-20": "「表示科學學會；科學社」是「Passage meaning」的用法，與本句語境不同。",
-        "club-mcq-17": "「俱樂部、球會等供會員使用的會所」是「clubhouse」的用法，與本句語境不同。",
-        "club-mcq-21": "「表示大家湊在一起做／買……」是「15. club together to do something」的用法，與本句語境不同。",
-        "club-mcq-16": "「某個社團或俱樂部的成員／會員」是「club member」的用法，與本句語境不同。"
+        "club-mcq-19": "本句的「club meeting」指「負責組織、管理或經營社團」。",
+        "club-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "club-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "club-mcq-19"
     }
@@ -1876,5 +1692,7 @@ export default {
     "sha256": "9be1d214a7b3525d2c721adb04775fef1b92bc1c2445d0b9febf4abbe46e2ac5",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

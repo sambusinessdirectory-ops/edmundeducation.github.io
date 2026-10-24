@@ -531,11 +531,9 @@ export default {
       "masked": "The two countries signed a ____ agreement.",
       "options": [
         "peace-mcq-01",
-        "peace-mcq-02",
-        "peace-mcq-03",
-        "peace-mcq-04",
-        "peace-mcq-05",
-        "peace-mcq-06"
+        "peace-mcq-22",
+        "peace-mcq-23",
+        "peace-mcq-21"
       ],
       "explanation": "本句的「peace」指「沒有戰爭或武裝衝突的和平狀態」。",
       "sentenceIndex": 2,
@@ -544,12 +542,10 @@ export default {
         "peace"
       ],
       "optionReasons": {
-        "peace-mcq-01": "本句指「沒有戰爭或武裝衝突的和平狀態」。",
-        "peace-mcq-02": "「人與人、群體之間沒有爭執或敵意的和睦狀態」與本句語境不同。",
-        "peace-mcq-03": "「沒有焦慮、衝突或強烈不安的內心平靜」與本句語境不同。",
-        "peace-mcq-04": "「不受噪音、打擾或麻煩干擾的清靜／安寧」與本句語境不同。",
-        "peace-mcq-05": "「防止爭執或衝突；維持和氣／秩序」與本句語境不同。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。"
+        "peace-mcq-01": "本句的「peace」指「沒有戰爭或武裝衝突的和平狀態」。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-01"
     },
@@ -561,11 +557,9 @@ export default {
       "masked": "People hoped for lasting ____.",
       "options": [
         "peace-mcq-01",
-        "peace-mcq-02",
-        "peace-mcq-03",
-        "peace-mcq-04",
-        "peace-mcq-05",
-        "peace-mcq-06"
+        "peace-mcq-21",
+        "peace-mcq-08",
+        "peace-mcq-22"
       ],
       "explanation": "本句的「peace」指「沒有戰爭或武裝衝突的和平狀態」。",
       "sentenceIndex": 3,
@@ -574,12 +568,10 @@ export default {
         "peace"
       ],
       "optionReasons": {
-        "peace-mcq-01": "本句指「沒有戰爭或武裝衝突的和平狀態」。",
-        "peace-mcq-02": "「人與人、群體之間沒有爭執或敵意的和睦狀態」與本句語境不同。",
-        "peace-mcq-03": "「沒有焦慮、衝突或強烈不安的內心平靜」與本句語境不同。",
-        "peace-mcq-04": "「不受噪音、打擾或麻煩干擾的清靜／安寧」與本句語境不同。",
-        "peace-mcq-05": "「防止爭執或衝突；維持和氣／秩序」與本句語境不同。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。"
+        "peace-mcq-01": "本句的「peace」指「沒有戰爭或武裝衝突的和平狀態」。",
+        "peace-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-01"
     },
@@ -591,11 +583,9 @@ export default {
       "masked": "She tried to ____ between the two sides.",
       "options": [
         "peace-mcq-05",
-        "peace-mcq-04",
-        "peace-mcq-06",
-        "peace-mcq-03",
-        "peace-mcq-07",
-        "peace-mcq-02"
+        "peace-mcq-24",
+        "peace-mcq-17",
+        "peace-mcq-08"
       ],
       "explanation": "本句的「keep the peace」指「防止爭執或衝突；維持和氣／秩序」。",
       "sentenceIndex": 8,
@@ -604,12 +594,10 @@ export default {
         "keep the peace"
       ],
       "optionReasons": {
-        "peace-mcq-05": "本句指「防止爭執或衝突；維持和氣／秩序」。",
-        "peace-mcq-04": "「不受噪音、打擾或麻煩干擾的清靜／安寧」與本句語境不同。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。",
-        "peace-mcq-03": "「沒有焦慮、衝突或強烈不安的內心平靜」與本句語境不同。",
-        "peace-mcq-07": "「與某人結束衝突並和解」與本句語境不同。",
-        "peace-mcq-02": "「人與人、群體之間沒有爭執或敵意的和睦狀態」與本句語境不同。"
+        "peace-mcq-05": "本句的「keep the peace」指「防止爭執或衝突；維持和氣／秩序」。",
+        "peace-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-05"
     },
@@ -621,11 +609,9 @@ export default {
       "masked": "He stayed quiet to ____.",
       "options": [
         "peace-mcq-05",
-        "peace-mcq-04",
-        "peace-mcq-06",
-        "peace-mcq-03",
-        "peace-mcq-07",
-        "peace-mcq-02"
+        "peace-mcq-24",
+        "peace-mcq-17",
+        "peace-mcq-08"
       ],
       "explanation": "本句的「keep the peace」指「防止爭執或衝突；維持和氣／秩序」。",
       "sentenceIndex": 9,
@@ -634,12 +620,10 @@ export default {
         "keep the peace"
       ],
       "optionReasons": {
-        "peace-mcq-05": "本句指「防止爭執或衝突；維持和氣／秩序」。",
-        "peace-mcq-04": "「不受噪音、打擾或麻煩干擾的清靜／安寧」與本句語境不同。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。",
-        "peace-mcq-03": "「沒有焦慮、衝突或強烈不安的內心平靜」與本句語境不同。",
-        "peace-mcq-07": "「與某人結束衝突並和解」與本句語境不同。",
-        "peace-mcq-02": "「人與人、群體之間沒有爭執或敵意的和睦狀態」與本句語境不同。"
+        "peace-mcq-05": "本句的「keep the peace」指「防止爭執或衝突；維持和氣／秩序」。",
+        "peace-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-05"
     },
@@ -651,11 +635,9 @@ export default {
       "masked": "Meditation gives her a sense of ____.",
       "options": [
         "peace-mcq-03",
-        "peace-mcq-02",
-        "peace-mcq-04",
-        "peace-mcq-01",
-        "peace-mcq-05",
-        "peace-mcq-06"
+        "peace-mcq-08",
+        "peace-mcq-22",
+        "peace-mcq-24"
       ],
       "explanation": "本句的「peace」指「沒有焦慮、衝突或強烈不安的內心平靜」。",
       "sentenceIndex": 10,
@@ -664,12 +646,10 @@ export default {
         "peace"
       ],
       "optionReasons": {
-        "peace-mcq-03": "本句指「沒有焦慮、衝突或強烈不安的內心平靜」。",
-        "peace-mcq-02": "「人與人、群體之間沒有爭執或敵意的和睦狀態」與本句語境不同。",
-        "peace-mcq-04": "「不受噪音、打擾或麻煩干擾的清靜／安寧」與本句語境不同。",
-        "peace-mcq-01": "「沒有戰爭或武裝衝突的和平狀態」與本句語境不同。",
-        "peace-mcq-05": "「防止爭執或衝突；維持和氣／秩序」與本句語境不同。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。"
+        "peace-mcq-03": "本句的「peace」指「沒有焦慮、衝突或強烈不安的內心平靜」。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-03"
     },
@@ -681,11 +661,9 @@ export default {
       "masked": "He finally found some ____ after a stressful year.",
       "options": [
         "peace-mcq-03",
-        "peace-mcq-02",
-        "peace-mcq-04",
-        "peace-mcq-01",
-        "peace-mcq-05",
-        "peace-mcq-06"
+        "peace-mcq-22",
+        "peace-mcq-08",
+        "peace-mcq-23"
       ],
       "explanation": "本句的「peace」指「沒有焦慮、衝突或強烈不安的內心平靜」。",
       "sentenceIndex": 11,
@@ -694,12 +672,10 @@ export default {
         "peace"
       ],
       "optionReasons": {
-        "peace-mcq-03": "本句指「沒有焦慮、衝突或強烈不安的內心平靜」。",
-        "peace-mcq-02": "「人與人、群體之間沒有爭執或敵意的和睦狀態」與本句語境不同。",
-        "peace-mcq-04": "「不受噪音、打擾或麻煩干擾的清靜／安寧」與本句語境不同。",
-        "peace-mcq-01": "「沒有戰爭或武裝衝突的和平狀態」與本句語境不同。",
-        "peace-mcq-05": "「防止爭執或衝突；維持和氣／秩序」與本句語境不同。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。"
+        "peace-mcq-03": "本句的「peace」指「沒有焦慮、衝突或強烈不安的內心平靜」。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-03"
     },
@@ -711,11 +687,9 @@ export default {
       "masked": "She values ____ more than status.",
       "options": [
         "peace-mcq-03",
-        "peace-mcq-02",
-        "peace-mcq-04",
-        "peace-mcq-01",
-        "peace-mcq-05",
-        "peace-mcq-06"
+        "peace-mcq-22",
+        "peace-mcq-08",
+        "peace-mcq-16"
       ],
       "explanation": "本句的「inner peace」指「沒有焦慮、衝突或強烈不安的內心平靜」。",
       "sentenceIndex": 12,
@@ -724,12 +698,10 @@ export default {
         "inner peace"
       ],
       "optionReasons": {
-        "peace-mcq-03": "本句指「沒有焦慮、衝突或強烈不安的內心平靜」。",
-        "peace-mcq-02": "「人與人、群體之間沒有爭執或敵意的和睦狀態」與本句語境不同。",
-        "peace-mcq-04": "「不受噪音、打擾或麻煩干擾的清靜／安寧」與本句語境不同。",
-        "peace-mcq-01": "「沒有戰爭或武裝衝突的和平狀態」與本句語境不同。",
-        "peace-mcq-05": "「防止爭執或衝突；維持和氣／秩序」與本句語境不同。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。"
+        "peace-mcq-03": "本句的「inner peace」指「沒有焦慮、衝突或強烈不安的內心平靜」。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-03"
     },
@@ -741,11 +713,9 @@ export default {
       "masked": "The retreat helped him find ____.",
       "options": [
         "peace-mcq-03",
-        "peace-mcq-02",
-        "peace-mcq-04",
-        "peace-mcq-01",
-        "peace-mcq-05",
-        "peace-mcq-06"
+        "peace-mcq-22",
+        "peace-mcq-08",
+        "peace-mcq-21"
       ],
       "explanation": "本句的「inner peace」指「沒有焦慮、衝突或強烈不安的內心平靜」。",
       "sentenceIndex": 13,
@@ -754,12 +724,10 @@ export default {
         "inner peace"
       ],
       "optionReasons": {
-        "peace-mcq-03": "本句指「沒有焦慮、衝突或強烈不安的內心平靜」。",
-        "peace-mcq-02": "「人與人、群體之間沒有爭執或敵意的和睦狀態」與本句語境不同。",
-        "peace-mcq-04": "「不受噪音、打擾或麻煩干擾的清靜／安寧」與本句語境不同。",
-        "peace-mcq-01": "「沒有戰爭或武裝衝突的和平狀態」與本句語境不同。",
-        "peace-mcq-05": "「防止爭執或衝突；維持和氣／秩序」與本句語境不同。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。"
+        "peace-mcq-03": "本句的「inner peace」指「沒有焦慮、衝突或強烈不安的內心平靜」。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-03"
     },
@@ -771,11 +739,9 @@ export default {
       "masked": "After a busy week, I needed some ____.",
       "options": [
         "peace-mcq-04",
-        "peace-mcq-03",
-        "peace-mcq-05",
-        "peace-mcq-02",
-        "peace-mcq-06",
-        "peace-mcq-01"
+        "peace-mcq-22",
+        "peace-mcq-16",
+        "peace-mcq-06"
       ],
       "explanation": "本句的「peace and quiet」指「不受噪音、打擾或麻煩干擾的清靜／安寧」。",
       "sentenceIndex": 16,
@@ -784,12 +750,10 @@ export default {
         "peace and quiet"
       ],
       "optionReasons": {
-        "peace-mcq-04": "本句指「不受噪音、打擾或麻煩干擾的清靜／安寧」。",
-        "peace-mcq-03": "「沒有焦慮、衝突或強烈不安的內心平靜」與本句語境不同。",
-        "peace-mcq-05": "「防止爭執或衝突；維持和氣／秩序」與本句語境不同。",
-        "peace-mcq-02": "「人與人、群體之間沒有爭執或敵意的和睦狀態」與本句語境不同。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。",
-        "peace-mcq-01": "「沒有戰爭或武裝衝突的和平狀態」與本句語境不同。"
+        "peace-mcq-04": "本句的「peace and quiet」指「不受噪音、打擾或麻煩干擾的清靜／安寧」。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-04"
     },
@@ -801,11 +765,9 @@ export default {
       "masked": "They moved away from the city for more ____.",
       "options": [
         "peace-mcq-04",
-        "peace-mcq-03",
-        "peace-mcq-05",
-        "peace-mcq-02",
-        "peace-mcq-06",
-        "peace-mcq-01"
+        "peace-mcq-26",
+        "peace-mcq-22",
+        "peace-mcq-07"
       ],
       "explanation": "本句的「peace and quiet」指「不受噪音、打擾或麻煩干擾的清靜／安寧」。",
       "sentenceIndex": 17,
@@ -814,12 +776,10 @@ export default {
         "peace and quiet"
       ],
       "optionReasons": {
-        "peace-mcq-04": "本句指「不受噪音、打擾或麻煩干擾的清靜／安寧」。",
-        "peace-mcq-03": "「沒有焦慮、衝突或強烈不安的內心平靜」與本句語境不同。",
-        "peace-mcq-05": "「防止爭執或衝突；維持和氣／秩序」與本句語境不同。",
-        "peace-mcq-02": "「人與人、群體之間沒有爭執或敵意的和睦狀態」與本句語境不同。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。",
-        "peace-mcq-01": "「沒有戰爭或武裝衝突的和平狀態」與本句語境不同。"
+        "peace-mcq-04": "本句的「peace and quiet」指「不受噪音、打擾或麻煩干擾的清靜／安寧」。",
+        "peace-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-04"
     },
@@ -831,11 +791,9 @@ export default {
       "masked": "The two sides finally ____.",
       "options": [
         "peace-mcq-06",
-        "peace-mcq-05",
-        "peace-mcq-07",
+        "peace-mcq-11",
         "peace-mcq-04",
-        "peace-mcq-08",
-        "peace-mcq-03"
+        "peace-mcq-23"
       ],
       "explanation": "本句的「made peace」指「停止衝突並恢復和好；講和」。",
       "sentenceIndex": 18,
@@ -844,12 +802,10 @@ export default {
         "made peace"
       ],
       "optionReasons": {
-        "peace-mcq-06": "本句指「停止衝突並恢復和好；講和」。",
-        "peace-mcq-05": "「防止爭執或衝突；維持和氣／秩序」與本句語境不同。",
-        "peace-mcq-07": "「與某人結束衝突並和解」與本句語境不同。",
-        "peace-mcq-04": "「不受噪音、打擾或麻煩干擾的清靜／安寧」與本句語境不同。",
-        "peace-mcq-08": "「在情感上接受某個事實、過去或選擇；與之和解」與本句語境不同。",
-        "peace-mcq-03": "「沒有焦慮、衝突或強烈不安的內心平靜」與本句語境不同。"
+        "peace-mcq-06": "本句的「made peace」指「停止衝突並恢復和好；講和」。",
+        "peace-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-06"
     },
@@ -861,11 +817,9 @@ export default {
       "masked": "They decided to ____ after years of disagreement.",
       "options": [
         "peace-mcq-06",
-        "peace-mcq-05",
-        "peace-mcq-07",
+        "peace-mcq-11",
         "peace-mcq-04",
-        "peace-mcq-08",
-        "peace-mcq-03"
+        "peace-mcq-17"
       ],
       "explanation": "本句的「make peace」指「停止衝突並恢復和好；講和」。",
       "sentenceIndex": 19,
@@ -874,12 +828,10 @@ export default {
         "make peace"
       ],
       "optionReasons": {
-        "peace-mcq-06": "本句指「停止衝突並恢復和好；講和」。",
-        "peace-mcq-05": "「防止爭執或衝突；維持和氣／秩序」與本句語境不同。",
-        "peace-mcq-07": "「與某人結束衝突並和解」與本句語境不同。",
-        "peace-mcq-04": "「不受噪音、打擾或麻煩干擾的清靜／安寧」與本句語境不同。",
-        "peace-mcq-08": "「在情感上接受某個事實、過去或選擇；與之和解」與本句語境不同。",
-        "peace-mcq-03": "「沒有焦慮、衝突或強烈不安的內心平靜」與本句語境不同。"
+        "peace-mcq-06": "本句的「make peace」指「停止衝突並恢復和好；講和」。",
+        "peace-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-06"
     },
@@ -891,10 +843,8 @@ export default {
       "masked": "She eventually ____ her sister.",
       "options": [
         "peace-mcq-07",
-        "peace-mcq-06",
-        "peace-mcq-08",
-        "peace-mcq-05",
-        "peace-mcq-09",
+        "peace-mcq-16",
+        "peace-mcq-23",
         "peace-mcq-04"
       ],
       "explanation": "本句的「made peace with」指「與某人結束衝突並和解」。",
@@ -904,12 +854,10 @@ export default {
         "made peace with"
       ],
       "optionReasons": {
-        "peace-mcq-07": "本句指「與某人結束衝突並和解」。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。",
-        "peace-mcq-08": "「在情感上接受某個事實、過去或選擇；與之和解」與本句語境不同。",
-        "peace-mcq-05": "「防止爭執或衝突；維持和氣／秩序」與本句語境不同。",
-        "peace-mcq-09": "「正式結束或減少衝突的和平協議／條約」與本句語境不同。",
-        "peace-mcq-04": "「不受噪音、打擾或麻煩干擾的清靜／安寧」與本句語境不同。"
+        "peace-mcq-07": "本句的「made peace with」指「與某人結束衝突並和解」。",
+        "peace-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-07"
     },
@@ -921,11 +869,9 @@ export default {
       "masked": "He wanted to ____ his former friend.",
       "options": [
         "peace-mcq-07",
-        "peace-mcq-06",
-        "peace-mcq-08",
-        "peace-mcq-05",
-        "peace-mcq-09",
-        "peace-mcq-04"
+        "peace-mcq-24",
+        "peace-mcq-22",
+        "peace-mcq-23"
       ],
       "explanation": "本句的「make peace with」指「與某人結束衝突並和解」。",
       "sentenceIndex": 21,
@@ -934,12 +880,10 @@ export default {
         "make peace with"
       ],
       "optionReasons": {
-        "peace-mcq-07": "本句指「與某人結束衝突並和解」。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。",
-        "peace-mcq-08": "「在情感上接受某個事實、過去或選擇；與之和解」與本句語境不同。",
-        "peace-mcq-05": "「防止爭執或衝突；維持和氣／秩序」與本句語境不同。",
-        "peace-mcq-09": "「正式結束或減少衝突的和平協議／條約」與本句語境不同。",
-        "peace-mcq-04": "「不受噪音、打擾或麻煩干擾的清靜／安寧」與本句語境不同。"
+        "peace-mcq-07": "本句的「make peace with」指「與某人結束衝突並和解」。",
+        "peace-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-07"
     },
@@ -951,11 +895,9 @@ export default {
       "masked": "He had to ____ the fact that things had changed.",
       "options": [
         "peace-mcq-08",
-        "peace-mcq-07",
-        "peace-mcq-09",
-        "peace-mcq-06",
-        "peace-mcq-10",
-        "peace-mcq-05"
+        "peace-mcq-21",
+        "peace-mcq-24",
+        "peace-mcq-06"
       ],
       "explanation": "本句的「make peace with」指「在情感上接受某個事實、過去或選擇；與之和解」。",
       "sentenceIndex": 22,
@@ -964,12 +906,10 @@ export default {
         "make peace with"
       ],
       "optionReasons": {
-        "peace-mcq-08": "本句指「在情感上接受某個事實、過去或選擇；與之和解」。",
-        "peace-mcq-07": "「與某人結束衝突並和解」與本句語境不同。",
-        "peace-mcq-09": "「正式結束或減少衝突的和平協議／條約」與本句語境不同。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。",
-        "peace-mcq-10": "「為結束衝突而進行的談判及和平進程」與本句語境不同。",
-        "peace-mcq-05": "「防止爭執或衝突；維持和氣／秩序」與本句語境不同。"
+        "peace-mcq-08": "本句的「make peace with」指「在情感上接受某個事實、過去或選擇；與之和解」。",
+        "peace-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-08"
     },
@@ -981,11 +921,9 @@ export default {
       "masked": "She slowly ____ her past.",
       "options": [
         "peace-mcq-08",
-        "peace-mcq-07",
-        "peace-mcq-09",
-        "peace-mcq-06",
+        "peace-mcq-21",
         "peace-mcq-10",
-        "peace-mcq-05"
+        "peace-mcq-22"
       ],
       "explanation": "本句的「made peace with」指「在情感上接受某個事實、過去或選擇；與之和解」。",
       "sentenceIndex": 23,
@@ -994,12 +932,10 @@ export default {
         "made peace with"
       ],
       "optionReasons": {
-        "peace-mcq-08": "本句指「在情感上接受某個事實、過去或選擇；與之和解」。",
-        "peace-mcq-07": "「與某人結束衝突並和解」與本句語境不同。",
-        "peace-mcq-09": "「正式結束或減少衝突的和平協議／條約」與本句語境不同。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。",
-        "peace-mcq-10": "「為結束衝突而進行的談判及和平進程」與本句語境不同。",
-        "peace-mcq-05": "「防止爭執或衝突；維持和氣／秩序」與本句語境不同。"
+        "peace-mcq-08": "本句的「made peace with」指「在情感上接受某個事實、過去或選擇；與之和解」。",
+        "peace-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-08"
     },
@@ -1011,11 +947,9 @@ export default {
       "masked": "The countries signed a ____.",
       "options": [
         "peace-mcq-09",
+        "peace-mcq-21",
         "peace-mcq-08",
-        "peace-mcq-10",
-        "peace-mcq-07",
-        "peace-mcq-11",
-        "peace-mcq-06"
+        "peace-mcq-22"
       ],
       "explanation": "本句的「peace treaty」指「正式結束或減少衝突的和平協議／條約」。",
       "sentenceIndex": 24,
@@ -1024,12 +958,10 @@ export default {
         "peace treaty"
       ],
       "optionReasons": {
-        "peace-mcq-09": "本句指「正式結束或減少衝突的和平協議／條約」。",
-        "peace-mcq-08": "「在情感上接受某個事實、過去或選擇；與之和解」與本句語境不同。",
-        "peace-mcq-10": "「為結束衝突而進行的談判及和平進程」與本句語境不同。",
-        "peace-mcq-07": "「與某人結束衝突並和解」與本句語境不同。",
-        "peace-mcq-11": "「維持或協助維持和平的行動；維和」與本句語境不同。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。"
+        "peace-mcq-09": "本句的「peace treaty」指「正式結束或減少衝突的和平協議／條約」。",
+        "peace-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-09"
     },
@@ -1041,11 +973,9 @@ export default {
       "masked": "Negotiators worked toward a ____.",
       "options": [
         "peace-mcq-09",
-        "peace-mcq-08",
-        "peace-mcq-10",
-        "peace-mcq-07",
-        "peace-mcq-11",
-        "peace-mcq-06"
+        "peace-mcq-21",
+        "peace-mcq-23",
+        "peace-mcq-22"
       ],
       "explanation": "本句的「peace agreement」指「正式結束或減少衝突的和平協議／條約」。",
       "sentenceIndex": 25,
@@ -1054,12 +984,10 @@ export default {
         "peace agreement"
       ],
       "optionReasons": {
-        "peace-mcq-09": "本句指「正式結束或減少衝突的和平協議／條約」。",
-        "peace-mcq-08": "「在情感上接受某個事實、過去或選擇；與之和解」與本句語境不同。",
-        "peace-mcq-10": "「為結束衝突而進行的談判及和平進程」與本句語境不同。",
-        "peace-mcq-07": "「與某人結束衝突並和解」與本句語境不同。",
-        "peace-mcq-11": "「維持或協助維持和平的行動；維和」與本句語境不同。",
-        "peace-mcq-06": "「停止衝突並恢復和好；講和」與本句語境不同。"
+        "peace-mcq-09": "本句的「peace agreement」指「正式結束或減少衝突的和平協議／條約」。",
+        "peace-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-09"
     },
@@ -1071,11 +999,9 @@ export default {
       "masked": "Talks resumed as part of the ____.",
       "options": [
         "peace-mcq-10",
-        "peace-mcq-09",
-        "peace-mcq-11",
-        "peace-mcq-08",
-        "peace-mcq-12",
-        "peace-mcq-07"
+        "peace-mcq-04",
+        "peace-mcq-22",
+        "peace-mcq-23"
       ],
       "explanation": "本句的「peace process」指「為結束衝突而進行的談判及和平進程」。",
       "sentenceIndex": 26,
@@ -1084,12 +1010,10 @@ export default {
         "peace process"
       ],
       "optionReasons": {
-        "peace-mcq-10": "本句指「為結束衝突而進行的談判及和平進程」。",
-        "peace-mcq-09": "「正式結束或減少衝突的和平協議／條約」與本句語境不同。",
-        "peace-mcq-11": "「維持或協助維持和平的行動；維和」與本句語境不同。",
-        "peace-mcq-08": "「在情感上接受某個事實、過去或選擇；與之和解」與本句語境不同。",
-        "peace-mcq-12": "「維持和平的人員；亦可指調解爭執的人」與本句語境不同。",
-        "peace-mcq-07": "「與某人結束衝突並和解」與本句語境不同。"
+        "peace-mcq-10": "本句的「peace process」指「為結束衝突而進行的談判及和平進程」。",
+        "peace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-10"
     },
@@ -1101,11 +1025,9 @@ export default {
       "masked": "The ____ faced several setbacks.",
       "options": [
         "peace-mcq-10",
-        "peace-mcq-09",
-        "peace-mcq-11",
-        "peace-mcq-08",
-        "peace-mcq-12",
-        "peace-mcq-07"
+        "peace-mcq-21",
+        "peace-mcq-23",
+        "peace-mcq-08"
       ],
       "explanation": "本句的「peace process」指「為結束衝突而進行的談判及和平進程」。",
       "sentenceIndex": 27,
@@ -1114,12 +1036,10 @@ export default {
         "peace process"
       ],
       "optionReasons": {
-        "peace-mcq-10": "本句指「為結束衝突而進行的談判及和平進程」。",
-        "peace-mcq-09": "「正式結束或減少衝突的和平協議／條約」與本句語境不同。",
-        "peace-mcq-11": "「維持或協助維持和平的行動；維和」與本句語境不同。",
-        "peace-mcq-08": "「在情感上接受某個事實、過去或選擇；與之和解」與本句語境不同。",
-        "peace-mcq-12": "「維持和平的人員；亦可指調解爭執的人」與本句語境不同。",
-        "peace-mcq-07": "「與某人結束衝突並和解」與本句語境不同。"
+        "peace-mcq-10": "本句的「peace process」指「為結束衝突而進行的談判及和平進程」。",
+        "peace-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-10"
     },
@@ -1131,11 +1051,9 @@ export default {
       "masked": "The troops joined a ____ mission.",
       "options": [
         "peace-mcq-11",
-        "peace-mcq-10",
-        "peace-mcq-12",
-        "peace-mcq-09",
-        "peace-mcq-13",
-        "peace-mcq-08"
+        "peace-mcq-04",
+        "peace-mcq-08",
+        "peace-mcq-23"
       ],
       "explanation": "本句的「peacekeeping」指「維持或協助維持和平的行動；維和」。",
       "sentenceIndex": 28,
@@ -1144,12 +1062,10 @@ export default {
         "peacekeeping"
       ],
       "optionReasons": {
-        "peace-mcq-11": "本句指「維持或協助維持和平的行動；維和」。",
-        "peace-mcq-10": "「為結束衝突而進行的談判及和平進程」與本句語境不同。",
-        "peace-mcq-12": "「維持和平的人員；亦可指調解爭執的人」與本句語境不同。",
-        "peace-mcq-09": "「正式結束或減少衝突的和平協議／條約」與本句語境不同。",
-        "peace-mcq-13": "「沒有戰爭、暴力或衝突的」與本句語境不同。",
-        "peace-mcq-08": "「在情感上接受某個事實、過去或選擇；與之和解」與本句語境不同。"
+        "peace-mcq-11": "本句的「peacekeeping」指「維持或協助維持和平的行動；維和」。",
+        "peace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-11"
     },
@@ -1161,11 +1077,9 @@ export default {
       "masked": "International ____ can be difficult.",
       "options": [
         "peace-mcq-11",
-        "peace-mcq-10",
-        "peace-mcq-12",
-        "peace-mcq-09",
-        "peace-mcq-13",
-        "peace-mcq-08"
+        "peace-mcq-04",
+        "peace-mcq-06",
+        "peace-mcq-23"
       ],
       "explanation": "本句的「peacekeeping」指「維持或協助維持和平的行動；維和」。",
       "sentenceIndex": 29,
@@ -1174,12 +1088,10 @@ export default {
         "peacekeeping"
       ],
       "optionReasons": {
-        "peace-mcq-11": "本句指「維持或協助維持和平的行動；維和」。",
-        "peace-mcq-10": "「為結束衝突而進行的談判及和平進程」與本句語境不同。",
-        "peace-mcq-12": "「維持和平的人員；亦可指調解爭執的人」與本句語境不同。",
-        "peace-mcq-09": "「正式結束或減少衝突的和平協議／條約」與本句語境不同。",
-        "peace-mcq-13": "「沒有戰爭、暴力或衝突的」與本句語境不同。",
-        "peace-mcq-08": "「在情感上接受某個事實、過去或選擇；與之和解」與本句語境不同。"
+        "peace-mcq-11": "本句的「peacekeeping」指「維持或協助維持和平的行動；維和」。",
+        "peace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-11"
     },
@@ -1191,11 +1103,9 @@ export default {
       "masked": "UN ____ were sent to the region.",
       "options": [
         "peace-mcq-12",
-        "peace-mcq-11",
-        "peace-mcq-13",
-        "peace-mcq-10",
-        "peace-mcq-14",
-        "peace-mcq-09"
+        "peace-mcq-06",
+        "peace-mcq-17",
+        "peace-mcq-04"
       ],
       "explanation": "本句的「peacekeepers」指「維持和平的人員；亦可指調解爭執的人」。",
       "sentenceIndex": 30,
@@ -1204,12 +1114,10 @@ export default {
         "peacekeepers"
       ],
       "optionReasons": {
-        "peace-mcq-12": "本句指「維持和平的人員；亦可指調解爭執的人」。",
-        "peace-mcq-11": "「維持或協助維持和平的行動；維和」與本句語境不同。",
-        "peace-mcq-13": "「沒有戰爭、暴力或衝突的」與本句語境不同。",
-        "peace-mcq-10": "「為結束衝突而進行的談判及和平進程」與本句語境不同。",
-        "peace-mcq-14": "「平靜、安寧、不受打擾的」與本句語境不同。",
-        "peace-mcq-09": "「正式結束或減少衝突的和平協議／條約」與本句語境不同。"
+        "peace-mcq-12": "本句的「peacekeepers」指「維持和平的人員；亦可指調解爭執的人」。",
+        "peace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-12"
     },
@@ -1221,11 +1129,9 @@ export default {
       "masked": "She often acts as the family ____.",
       "options": [
         "peace-mcq-12",
-        "peace-mcq-11",
-        "peace-mcq-13",
-        "peace-mcq-10",
-        "peace-mcq-14",
-        "peace-mcq-09"
+        "peace-mcq-06",
+        "peace-mcq-17",
+        "peace-mcq-23"
       ],
       "explanation": "本句的「peacekeeper」指「維持和平的人員；亦可指調解爭執的人」。",
       "sentenceIndex": 31,
@@ -1234,12 +1140,10 @@ export default {
         "peacekeeper"
       ],
       "optionReasons": {
-        "peace-mcq-12": "本句指「維持和平的人員；亦可指調解爭執的人」。",
-        "peace-mcq-11": "「維持或協助維持和平的行動；維和」與本句語境不同。",
-        "peace-mcq-13": "「沒有戰爭、暴力或衝突的」與本句語境不同。",
-        "peace-mcq-10": "「為結束衝突而進行的談判及和平進程」與本句語境不同。",
-        "peace-mcq-14": "「平靜、安寧、不受打擾的」與本句語境不同。",
-        "peace-mcq-09": "「正式結束或減少衝突的和平協議／條約」與本句語境不同。"
+        "peace-mcq-12": "本句的「peacekeeper」指「維持和平的人員；亦可指調解爭執的人」。",
+        "peace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-12"
     },
@@ -1251,11 +1155,9 @@ export default {
       "masked": "The child slept ____.",
       "options": [
         "peace-mcq-15",
-        "peace-mcq-14",
-        "peace-mcq-16",
-        "peace-mcq-13",
+        "peace-mcq-05",
         "peace-mcq-17",
-        "peace-mcq-12"
+        "peace-mcq-23"
       ],
       "explanation": "本句的「peacefully」指「平靜地／和平地」。",
       "sentenceIndex": 32,
@@ -1264,12 +1166,10 @@ export default {
         "peacefully"
       ],
       "optionReasons": {
-        "peace-mcq-15": "本句指「平靜地／和平地」。",
-        "peace-mcq-14": "「平靜、安寧、不受打擾的」與本句語境不同。",
-        "peace-mcq-16": "「不喜爭鬥、傾向和平的」與本句語境不同。",
-        "peace-mcq-13": "「沒有戰爭、暴力或衝突的」與本句語境不同。",
-        "peace-mcq-17": "「不再擔心、感到安全安心的狀態」與本句語境不同。",
-        "peace-mcq-12": "「維持和平的人員；亦可指調解爭執的人」與本句語境不同。"
+        "peace-mcq-15": "本句的「peacefully」指「平靜地／和平地」。",
+        "peace-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-15"
     },
@@ -1281,11 +1181,9 @@ export default {
       "masked": "The demonstration ended ____.",
       "options": [
         "peace-mcq-15",
-        "peace-mcq-14",
-        "peace-mcq-16",
-        "peace-mcq-13",
-        "peace-mcq-17",
-        "peace-mcq-12"
+        "peace-mcq-08",
+        "peace-mcq-23",
+        "peace-mcq-22"
       ],
       "explanation": "本句的「peacefully」指「平靜地／和平地」。",
       "sentenceIndex": 33,
@@ -1294,12 +1192,10 @@ export default {
         "peacefully"
       ],
       "optionReasons": {
-        "peace-mcq-15": "本句指「平靜地／和平地」。",
-        "peace-mcq-14": "「平靜、安寧、不受打擾的」與本句語境不同。",
-        "peace-mcq-16": "「不喜爭鬥、傾向和平的」與本句語境不同。",
-        "peace-mcq-13": "「沒有戰爭、暴力或衝突的」與本句語境不同。",
-        "peace-mcq-17": "「不再擔心、感到安全安心的狀態」與本句語境不同。",
-        "peace-mcq-12": "「維持和平的人員；亦可指調解爭執的人」與本句語境不同。"
+        "peace-mcq-15": "本句的「peacefully」指「平靜地／和平地」。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-15"
     },
@@ -1311,11 +1207,9 @@ export default {
       "masked": "They reached a ____.",
       "options": [
         "peace-mcq-16",
-        "peace-mcq-15",
-        "peace-mcq-17",
-        "peace-mcq-14",
-        "peace-mcq-18",
-        "peace-mcq-13"
+        "peace-mcq-04",
+        "peace-mcq-08",
+        "peace-mcq-22"
       ],
       "explanation": "本句的「peaceable settlement」指「不喜爭鬥、傾向和平的」。",
       "sentenceIndex": 34,
@@ -1324,12 +1218,10 @@ export default {
         "peaceable settlement"
       ],
       "optionReasons": {
-        "peace-mcq-16": "本句指「不喜爭鬥、傾向和平的」。",
-        "peace-mcq-15": "「平靜地／和平地」與本句語境不同。",
-        "peace-mcq-17": "「不再擔心、感到安全安心的狀態」與本句語境不同。",
-        "peace-mcq-14": "「平靜、安寧、不受打擾的」與本句語境不同。",
-        "peace-mcq-18": "「內心平靜、已接受現實的」與本句語境不同。",
-        "peace-mcq-13": "「沒有戰爭、暴力或衝突的」與本句語境不同。"
+        "peace-mcq-16": "本句的「peaceable settlement」指「不喜爭鬥、傾向和平的」。",
+        "peace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-16"
     },
@@ -1341,11 +1233,9 @@ export default {
       "masked": "He is a quiet, ____ man.",
       "options": [
         "peace-mcq-16",
-        "peace-mcq-15",
         "peace-mcq-17",
-        "peace-mcq-14",
-        "peace-mcq-18",
-        "peace-mcq-13"
+        "peace-mcq-08",
+        "peace-mcq-22"
       ],
       "explanation": "本句的「peaceable」指「不喜爭鬥、傾向和平的」。",
       "sentenceIndex": 35,
@@ -1354,12 +1244,10 @@ export default {
         "peaceable"
       ],
       "optionReasons": {
-        "peace-mcq-16": "本句指「不喜爭鬥、傾向和平的」。",
-        "peace-mcq-15": "「平靜地／和平地」與本句語境不同。",
-        "peace-mcq-17": "「不再擔心、感到安全安心的狀態」與本句語境不同。",
-        "peace-mcq-14": "「平靜、安寧、不受打擾的」與本句語境不同。",
-        "peace-mcq-18": "「內心平靜、已接受現實的」與本句語境不同。",
-        "peace-mcq-13": "「沒有戰爭、暴力或衝突的」與本句語境不同。"
+        "peace-mcq-16": "本句的「peaceable」指「不喜爭鬥、傾向和平的」。",
+        "peace-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-16"
     },
@@ -1371,11 +1259,9 @@ export default {
       "masked": "Insurance gives people ____.",
       "options": [
         "peace-mcq-17",
-        "peace-mcq-16",
-        "peace-mcq-18",
-        "peace-mcq-15",
-        "peace-mcq-19",
-        "peace-mcq-14"
+        "peace-mcq-26",
+        "peace-mcq-05",
+        "peace-mcq-23"
       ],
       "explanation": "本句的「peace of mind」指「不再擔心、感到安全安心的狀態」。",
       "sentenceIndex": 36,
@@ -1384,12 +1270,10 @@ export default {
         "peace of mind"
       ],
       "optionReasons": {
-        "peace-mcq-17": "本句指「不再擔心、感到安全安心的狀態」。",
-        "peace-mcq-16": "「不喜爭鬥、傾向和平的」與本句語境不同。",
-        "peace-mcq-18": "「內心平靜、已接受現實的」與本句語境不同。",
-        "peace-mcq-15": "「平靜地／和平地」與本句語境不同。",
-        "peace-mcq-19": "「已安息；婉指死亡」與本句語境不同。",
-        "peace-mcq-14": "「平靜、安寧、不受打擾的」與本句語境不同。"
+        "peace-mcq-17": "本句的「peace of mind」指「不再擔心、感到安全安心的狀態」。",
+        "peace-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-17"
     },
@@ -1401,11 +1285,9 @@ export default {
       "masked": "Knowing the work was finished gave her ____.",
       "options": [
         "peace-mcq-17",
-        "peace-mcq-16",
-        "peace-mcq-18",
-        "peace-mcq-15",
-        "peace-mcq-19",
-        "peace-mcq-14"
+        "peace-mcq-06",
+        "peace-mcq-11",
+        "peace-mcq-23"
       ],
       "explanation": "本句的「peace of mind」指「不再擔心、感到安全安心的狀態」。",
       "sentenceIndex": 37,
@@ -1414,12 +1296,10 @@ export default {
         "peace of mind"
       ],
       "optionReasons": {
-        "peace-mcq-17": "本句指「不再擔心、感到安全安心的狀態」。",
-        "peace-mcq-16": "「不喜爭鬥、傾向和平的」與本句語境不同。",
-        "peace-mcq-18": "「內心平靜、已接受現實的」與本句語境不同。",
-        "peace-mcq-15": "「平靜地／和平地」與本句語境不同。",
-        "peace-mcq-19": "「已安息；婉指死亡」與本句語境不同。",
-        "peace-mcq-14": "「平靜、安寧、不受打擾的」與本句語境不同。"
+        "peace-mcq-17": "本句的「peace of mind」指「不再擔心、感到安全安心的狀態」。",
+        "peace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-17"
     },
@@ -1431,11 +1311,9 @@ export default {
       "masked": "He became more ____.",
       "options": [
         "peace-mcq-20",
-        "peace-mcq-19",
-        "peace-mcq-21",
-        "peace-mcq-18",
         "peace-mcq-22",
-        "peace-mcq-17"
+        "peace-mcq-23",
+        "peace-mcq-21"
       ],
       "explanation": "本句的「at peace with himself」指「接受自己並感到內心平和」。",
       "sentenceIndex": 38,
@@ -1444,12 +1322,10 @@ export default {
         "at peace with himself"
       ],
       "optionReasons": {
-        "peace-mcq-20": "本句指「接受自己並感到內心平和」。",
-        "peace-mcq-19": "「已安息；婉指死亡」與本句語境不同。",
-        "peace-mcq-21": "「不再打擾某人；讓某人清靜」與本句語境不同。",
-        "peace-mcq-18": "「內心平靜、已接受現實的」與本句語境不同。",
-        "peace-mcq-22": "「保持沉默、不發言」與本句語境不同。",
-        "peace-mcq-17": "「不再擔心、感到安全安心的狀態」與本句語境不同。"
+        "peace-mcq-20": "本句的「at peace with himself」指「接受自己並感到內心平和」。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-20"
     },
@@ -1461,11 +1337,9 @@ export default {
       "masked": "She seems completely ____.",
       "options": [
         "peace-mcq-20",
-        "peace-mcq-19",
-        "peace-mcq-21",
-        "peace-mcq-18",
         "peace-mcq-22",
-        "peace-mcq-17"
+        "peace-mcq-21",
+        "peace-mcq-23"
       ],
       "explanation": "本句的「at peace with herself」指「接受自己並感到內心平和」。",
       "sentenceIndex": 39,
@@ -1474,12 +1348,10 @@ export default {
         "at peace with herself"
       ],
       "optionReasons": {
-        "peace-mcq-20": "本句指「接受自己並感到內心平和」。",
-        "peace-mcq-19": "「已安息；婉指死亡」與本句語境不同。",
-        "peace-mcq-21": "「不再打擾某人；讓某人清靜」與本句語境不同。",
-        "peace-mcq-18": "「內心平靜、已接受現實的」與本句語境不同。",
-        "peace-mcq-22": "「保持沉默、不發言」與本句語境不同。",
-        "peace-mcq-17": "「不再擔心、感到安全安心的狀態」與本句語境不同。"
+        "peace-mcq-20": "本句的「at peace with herself」指「接受自己並感到內心平和」。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-20"
     },
@@ -1493,9 +1365,7 @@ export default {
         "peace-mcq-21",
         "peace-mcq-20",
         "peace-mcq-22",
-        "peace-mcq-19",
-        "peace-mcq-23",
-        "peace-mcq-18"
+        "peace-mcq-16"
       ],
       "explanation": "本句的「leave me in peace」指「不再打擾某人；讓某人清靜」。",
       "sentenceIndex": 40,
@@ -1504,12 +1374,10 @@ export default {
         "leave me in peace"
       ],
       "optionReasons": {
-        "peace-mcq-21": "本句指「不再打擾某人；讓某人清靜」。",
-        "peace-mcq-20": "「接受自己並感到內心平和」與本句語境不同。",
-        "peace-mcq-22": "「保持沉默、不發言」與本句語境不同。",
-        "peace-mcq-19": "「已安息；婉指死亡」與本句語境不同。",
-        "peace-mcq-23": "「對死者表示「願安息」」與本句語境不同。",
-        "peace-mcq-18": "「內心平靜、已接受現實的」與本句語境不同。"
+        "peace-mcq-21": "本句的「leave me in peace」指「不再打擾某人；讓某人清靜」。",
+        "peace-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-21"
     },
@@ -1521,11 +1389,9 @@ export default {
       "masked": "She wanted to be ____.",
       "options": [
         "peace-mcq-21",
-        "peace-mcq-20",
-        "peace-mcq-22",
-        "peace-mcq-19",
+        "peace-mcq-10",
         "peace-mcq-23",
-        "peace-mcq-18"
+        "peace-mcq-08"
       ],
       "explanation": "本句的「left in peace」指「不再打擾某人；讓某人清靜」。",
       "sentenceIndex": 41,
@@ -1534,12 +1400,10 @@ export default {
         "left in peace"
       ],
       "optionReasons": {
-        "peace-mcq-21": "本句指「不再打擾某人；讓某人清靜」。",
-        "peace-mcq-20": "「接受自己並感到內心平和」與本句語境不同。",
-        "peace-mcq-22": "「保持沉默、不發言」與本句語境不同。",
-        "peace-mcq-19": "「已安息；婉指死亡」與本句語境不同。",
-        "peace-mcq-23": "「對死者表示「願安息」」與本句語境不同。",
-        "peace-mcq-18": "「內心平靜、已接受現實的」與本句語境不同。"
+        "peace-mcq-21": "本句的「left in peace」指「不再打擾某人；讓某人清靜」。",
+        "peace-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-21"
     },
@@ -1551,11 +1415,9 @@ export default {
       "masked": "He decided to ____.",
       "options": [
         "peace-mcq-22",
-        "peace-mcq-21",
-        "peace-mcq-23",
-        "peace-mcq-20",
-        "peace-mcq-24",
-        "peace-mcq-19"
+        "peace-mcq-01",
+        "peace-mcq-08",
+        "peace-mcq-04"
       ],
       "explanation": "本句的「hold his peace」指「保持沉默、不發言」。",
       "sentenceIndex": 42,
@@ -1564,12 +1426,10 @@ export default {
         "hold his peace"
       ],
       "optionReasons": {
-        "peace-mcq-22": "本句指「保持沉默、不發言」。",
-        "peace-mcq-21": "「不再打擾某人；讓某人清靜」與本句語境不同。",
-        "peace-mcq-23": "「對死者表示「願安息」」與本句語境不同。",
-        "peace-mcq-20": "「接受自己並感到內心平和」與本句語境不同。",
-        "peace-mcq-24": "「象徵和平的標誌」與本句語境不同。",
-        "peace-mcq-19": "「已安息；婉指死亡」與本句語境不同。"
+        "peace-mcq-22": "本句的「hold his peace」指「保持沉默、不發言」。",
+        "peace-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-22"
     },
@@ -1581,11 +1441,9 @@ export default {
       "masked": "If you disagree, speak now or ____.",
       "options": [
         "peace-mcq-22",
-        "peace-mcq-21",
-        "peace-mcq-23",
-        "peace-mcq-20",
-        "peace-mcq-24",
-        "peace-mcq-19"
+        "peace-mcq-03",
+        "peace-mcq-04",
+        "peace-mcq-08"
       ],
       "explanation": "本句的「hold your peace」指「保持沉默、不發言」。",
       "sentenceIndex": 43,
@@ -1594,12 +1452,10 @@ export default {
         "hold your peace"
       ],
       "optionReasons": {
-        "peace-mcq-22": "本句指「保持沉默、不發言」。",
-        "peace-mcq-21": "「不再打擾某人；讓某人清靜」與本句語境不同。",
-        "peace-mcq-23": "「對死者表示「願安息」」與本句語境不同。",
-        "peace-mcq-20": "「接受自己並感到內心平和」與本句語境不同。",
-        "peace-mcq-24": "「象徵和平的標誌」與本句語境不同。",
-        "peace-mcq-19": "「已安息；婉指死亡」與本句語境不同。"
+        "peace-mcq-22": "本句的「hold your peace」指「保持沉默、不發言」。",
+        "peace-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-22"
     },
@@ -1611,10 +1467,8 @@ export default {
       "masked": "____",
       "options": [
         "peace-mcq-23",
-        "peace-mcq-22",
-        "peace-mcq-24",
+        "peace-mcq-11",
         "peace-mcq-21",
-        "peace-mcq-25",
         "peace-mcq-20"
       ],
       "explanation": "本句的「Rest in peace.」指「對死者表示「願安息」」。",
@@ -1624,12 +1478,10 @@ export default {
         "Rest in peace."
       ],
       "optionReasons": {
-        "peace-mcq-23": "本句指「對死者表示「願安息」」。",
-        "peace-mcq-22": "「保持沉默、不發言」與本句語境不同。",
-        "peace-mcq-24": "「象徵和平的標誌」與本句語境不同。",
-        "peace-mcq-21": "「不再打擾某人；讓某人清靜」與本句語境不同。",
-        "peace-mcq-25": "「手指形成 V 字的和平手勢」與本句語境不同。",
-        "peace-mcq-20": "「接受自己並感到內心平和」與本句語境不同。"
+        "peace-mcq-23": "本句的「Rest in peace.」指「對死者表示「願安息」」。",
+        "peace-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-23"
     },
@@ -1641,11 +1493,9 @@ export default {
       "masked": "Messages online said, “____.",
       "options": [
         "peace-mcq-23",
-        "peace-mcq-22",
-        "peace-mcq-24",
+        "peace-mcq-08",
         "peace-mcq-21",
-        "peace-mcq-25",
-        "peace-mcq-20"
+        "peace-mcq-24"
       ],
       "explanation": "本句的「Rest in peace」指「對死者表示「願安息」」。",
       "sentenceIndex": 45,
@@ -1654,12 +1504,10 @@ export default {
         "Rest in peace"
       ],
       "optionReasons": {
-        "peace-mcq-23": "本句指「對死者表示「願安息」」。",
-        "peace-mcq-22": "「保持沉默、不發言」與本句語境不同。",
-        "peace-mcq-24": "「象徵和平的標誌」與本句語境不同。",
-        "peace-mcq-21": "「不再打擾某人；讓某人清靜」與本句語境不同。",
-        "peace-mcq-25": "「手指形成 V 字的和平手勢」與本句語境不同。",
-        "peace-mcq-20": "「接受自己並感到內心平和」與本句語境不同。"
+        "peace-mcq-23": "本句的「Rest in peace」指「對死者表示「願安息」」。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-23"
     },
@@ -1671,11 +1519,9 @@ export default {
       "masked": "She wore a necklace with a ____.",
       "options": [
         "peace-mcq-24",
-        "peace-mcq-23",
-        "peace-mcq-25",
-        "peace-mcq-22",
-        "peace-mcq-26",
-        "peace-mcq-21"
+        "peace-mcq-08",
+        "peace-mcq-17",
+        "peace-mcq-06"
       ],
       "explanation": "本句的「peace sign」指「象徵和平的標誌」。",
       "sentenceIndex": 48,
@@ -1684,12 +1530,10 @@ export default {
         "peace sign"
       ],
       "optionReasons": {
-        "peace-mcq-24": "本句指「象徵和平的標誌」。",
-        "peace-mcq-23": "「對死者表示「願安息」」與本句語境不同。",
-        "peace-mcq-25": "「手指形成 V 字的和平手勢」與本句語境不同。",
-        "peace-mcq-22": "「保持沉默、不發言」與本句語境不同。",
-        "peace-mcq-26": "「國家沒有處於戰爭的和平時期」與本句語境不同。",
-        "peace-mcq-21": "「不再打擾某人；讓某人清靜」與本句語境不同。"
+        "peace-mcq-24": "本句的「peace sign」指「象徵和平的標誌」。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-24"
     },
@@ -1701,11 +1545,9 @@ export default {
       "masked": "He smiled and made a ____ for the camera.",
       "options": [
         "peace-mcq-24",
-        "peace-mcq-23",
-        "peace-mcq-25",
+        "peace-mcq-08",
         "peace-mcq-22",
-        "peace-mcq-26",
-        "peace-mcq-21"
+        "peace-mcq-04"
       ],
       "explanation": "本句的「peace sign」指「象徵和平的標誌」。",
       "sentenceIndex": 49,
@@ -1714,12 +1556,10 @@ export default {
         "peace sign"
       ],
       "optionReasons": {
-        "peace-mcq-24": "本句指「象徵和平的標誌」。",
-        "peace-mcq-23": "「對死者表示「願安息」」與本句語境不同。",
-        "peace-mcq-25": "「手指形成 V 字的和平手勢」與本句語境不同。",
-        "peace-mcq-22": "「保持沉默、不發言」與本句語境不同。",
-        "peace-mcq-26": "「國家沒有處於戰爭的和平時期」與本句語境不同。",
-        "peace-mcq-21": "「不再打擾某人；讓某人清靜」與本句語境不同。"
+        "peace-mcq-24": "本句的「peace sign」指「象徵和平的標誌」。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-24"
     },
@@ -1731,11 +1571,9 @@ export default {
       "masked": "Military spending usually changes in ____.",
       "options": [
         "peace-mcq-26",
-        "peace-mcq-25",
-        "peace-mcq-24",
-        "peace-mcq-23",
-        "peace-mcq-22",
-        "peace-mcq-21"
+        "peace-mcq-17",
+        "peace-mcq-08",
+        "peace-mcq-23"
       ],
       "explanation": "本句的「peacetime」指「國家沒有處於戰爭的和平時期」。",
       "sentenceIndex": 50,
@@ -1744,12 +1582,10 @@ export default {
         "peacetime"
       ],
       "optionReasons": {
-        "peace-mcq-26": "本句指「國家沒有處於戰爭的和平時期」。",
-        "peace-mcq-25": "「手指形成 V 字的和平手勢」與本句語境不同。",
-        "peace-mcq-24": "「象徵和平的標誌」與本句語境不同。",
-        "peace-mcq-23": "「對死者表示「願安息」」與本句語境不同。",
-        "peace-mcq-22": "「保持沉默、不發言」與本句語境不同。",
-        "peace-mcq-21": "「不再打擾某人；讓某人清靜」與本句語境不同。"
+        "peace-mcq-26": "本句的「peacetime」指「國家沒有處於戰爭的和平時期」。",
+        "peace-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-26"
     },
@@ -1761,11 +1597,9 @@ export default {
       "masked": "The law was introduced during ____.",
       "options": [
         "peace-mcq-26",
-        "peace-mcq-25",
-        "peace-mcq-24",
-        "peace-mcq-23",
         "peace-mcq-22",
-        "peace-mcq-21"
+        "peace-mcq-06",
+        "peace-mcq-08"
       ],
       "explanation": "本句的「peacetime」指「國家沒有處於戰爭的和平時期」。",
       "sentenceIndex": 51,
@@ -1774,12 +1608,10 @@ export default {
         "peacetime"
       ],
       "optionReasons": {
-        "peace-mcq-26": "本句指「國家沒有處於戰爭的和平時期」。",
-        "peace-mcq-25": "「手指形成 V 字的和平手勢」與本句語境不同。",
-        "peace-mcq-24": "「象徵和平的標誌」與本句語境不同。",
-        "peace-mcq-23": "「對死者表示「願安息」」與本句語境不同。",
-        "peace-mcq-22": "「保持沉默、不發言」與本句語境不同。",
-        "peace-mcq-21": "「不再打擾某人；讓某人清靜」與本句語境不同。"
+        "peace-mcq-26": "本句的「peacetime」指「國家沒有處於戰爭的和平時期」。",
+        "peace-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "peace-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peace-mcq-26"
     }
@@ -1791,5 +1623,7 @@ export default {
     "sha256": "600452d452def9d0c27288af9c5f5f13cbe565a4224b395bf7f1a5e4705c94e0",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

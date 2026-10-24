@@ -447,11 +447,9 @@ export default {
       "masked": "他們____。",
       "options": [
         "cancel-mcq-01",
-        "cancel-mcq-02",
+        "cancel-mcq-12",
         "cancel-mcq-03",
-        "cancel-mcq-04",
-        "cancel-mcq-05",
-        "cancel-mcq-06"
+        "cancel-mcq-17"
       ],
       "explanation": "本句的「cancelled」指「決定原本安排的活動不再舉行」。",
       "sentenceIndex": 0,
@@ -460,12 +458,10 @@ export default {
         "cancelled"
       ],
       "optionReasons": {
-        "cancel-mcq-01": "本句指「決定原本安排的活動不再舉行」。",
-        "cancel-mcq-02": "「撤銷原本作出的預訂或購買安排」是「cancel a booking/order」的用法，與本句語境不同。",
-        "cancel-mcq-03": "「終止持續中的訂閱、會籍或服務」是「cancel a subscription/service」的用法，與本句語境不同。",
-        "cancel-mcq-04": "「正式終止原本有效的合約／協議」是「cancel a contract」的用法，與本句語境不同。",
-        "cancel-mcq-05": "「阻止付款完成或令付款工具失去效力」是「cancel a payment/cheque」的用法，與本句語境不同。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。"
+        "cancel-mcq-01": "本句的「cancelled」指「決定原本安排的活動不再舉行」。",
+        "cancel-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-01"
     },
@@ -477,11 +473,9 @@ export default {
       "masked": "演唱會因天氣惡劣而被____。",
       "options": [
         "cancel-mcq-01",
-        "cancel-mcq-02",
-        "cancel-mcq-03",
-        "cancel-mcq-04",
         "cancel-mcq-05",
-        "cancel-mcq-06"
+        "cancel-mcq-09",
+        "cancel-mcq-17"
       ],
       "explanation": "本句的「canceled」指「決定原本安排的活動不再舉行」。",
       "sentenceIndex": 1,
@@ -490,12 +484,10 @@ export default {
         "canceled"
       ],
       "optionReasons": {
-        "cancel-mcq-01": "本句指「決定原本安排的活動不再舉行」。",
-        "cancel-mcq-02": "「撤銷原本作出的預訂或購買安排」是「cancel a booking/order」的用法，與本句語境不同。",
-        "cancel-mcq-03": "「終止持續中的訂閱、會籍或服務」是「cancel a subscription/service」的用法，與本句語境不同。",
-        "cancel-mcq-04": "「正式終止原本有效的合約／協議」是「cancel a contract」的用法，與本句語境不同。",
-        "cancel-mcq-05": "「阻止付款完成或令付款工具失去效力」是「cancel a payment/cheque」的用法，與本句語境不同。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。"
+        "cancel-mcq-01": "本句的「canceled」指「決定原本安排的活動不再舉行」。",
+        "cancel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-01"
     },
@@ -507,11 +499,9 @@ export default {
       "masked": "我不得不____。",
       "options": [
         "cancel-mcq-02",
-        "cancel-mcq-01",
-        "cancel-mcq-03",
-        "cancel-mcq-04",
-        "cancel-mcq-05",
-        "cancel-mcq-06"
+        "cancel-mcq-11",
+        "cancel-mcq-10",
+        "cancel-mcq-05"
       ],
       "explanation": "本句的「cancel my hotel reservation」指「撤銷原本作出的預訂或購買安排」。",
       "sentenceIndex": 2,
@@ -520,12 +510,10 @@ export default {
         "cancel my hotel reservation"
       ],
       "optionReasons": {
-        "cancel-mcq-02": "本句指「撤銷原本作出的預訂或購買安排」。",
-        "cancel-mcq-01": "「決定原本安排的活動不再舉行」是「cancel an event」的用法，與本句語境不同。",
-        "cancel-mcq-03": "「終止持續中的訂閱、會籍或服務」是「cancel a subscription/service」的用法，與本句語境不同。",
-        "cancel-mcq-04": "「正式終止原本有效的合約／協議」是「cancel a contract」的用法，與本句語境不同。",
-        "cancel-mcq-05": "「阻止付款完成或令付款工具失去效力」是「cancel a payment/cheque」的用法，與本句語境不同。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。"
+        "cancel-mcq-02": "本句的「cancel my hotel reservation」指「撤銷原本作出的預訂或購買安排」。",
+        "cancel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-02"
     },
@@ -537,11 +525,9 @@ export default {
       "masked": "顧客在貨物寄出之前____。",
       "options": [
         "cancel-mcq-02",
-        "cancel-mcq-01",
-        "cancel-mcq-03",
-        "cancel-mcq-04",
         "cancel-mcq-05",
-        "cancel-mcq-06"
+        "cancel-mcq-08",
+        "cancel-mcq-11"
       ],
       "explanation": "本句的「cancelled the order」指「撤銷原本作出的預訂或購買安排」。",
       "sentenceIndex": 3,
@@ -550,12 +536,10 @@ export default {
         "cancelled the order"
       ],
       "optionReasons": {
-        "cancel-mcq-02": "本句指「撤銷原本作出的預訂或購買安排」。",
-        "cancel-mcq-01": "「決定原本安排的活動不再舉行」是「cancel an event」的用法，與本句語境不同。",
-        "cancel-mcq-03": "「終止持續中的訂閱、會籍或服務」是「cancel a subscription/service」的用法，與本句語境不同。",
-        "cancel-mcq-04": "「正式終止原本有效的合約／協議」是「cancel a contract」的用法，與本句語境不同。",
-        "cancel-mcq-05": "「阻止付款完成或令付款工具失去效力」是「cancel a payment/cheque」的用法，與本句語境不同。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。"
+        "cancel-mcq-02": "本句的「cancelled the order」指「撤銷原本作出的預訂或購買安排」。",
+        "cancel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-02"
     },
@@ -567,11 +551,9 @@ export default {
       "masked": "我上個月____。",
       "options": [
         "cancel-mcq-03",
-        "cancel-mcq-02",
-        "cancel-mcq-04",
-        "cancel-mcq-01",
-        "cancel-mcq-05",
-        "cancel-mcq-06"
+        "cancel-mcq-17",
+        "cancel-mcq-06",
+        "cancel-mcq-09"
       ],
       "explanation": "本句的「cancelled my subscription」指「終止持續中的訂閱、會籍或服務」。",
       "sentenceIndex": 4,
@@ -580,12 +562,10 @@ export default {
         "cancelled my subscription"
       ],
       "optionReasons": {
-        "cancel-mcq-03": "本句指「終止持續中的訂閱、會籍或服務」。",
-        "cancel-mcq-02": "「撤銷原本作出的預訂或購買安排」是「cancel a booking/order」的用法，與本句語境不同。",
-        "cancel-mcq-04": "「正式終止原本有效的合約／協議」是「cancel a contract」的用法，與本句語境不同。",
-        "cancel-mcq-01": "「決定原本安排的活動不再舉行」是「cancel an event」的用法，與本句語境不同。",
-        "cancel-mcq-05": "「阻止付款完成或令付款工具失去效力」是「cancel a payment/cheque」的用法，與本句語境不同。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。"
+        "cancel-mcq-03": "本句的「cancelled my subscription」指「終止持續中的訂閱、會籍或服務」。",
+        "cancel-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-03"
     },
@@ -597,11 +577,9 @@ export default {
       "masked": "你可以隨時____這項服務。",
       "options": [
         "cancel-mcq-03",
-        "cancel-mcq-02",
-        "cancel-mcq-04",
+        "cancel-mcq-17",
         "cancel-mcq-01",
-        "cancel-mcq-05",
-        "cancel-mcq-06"
+        "cancel-mcq-09"
       ],
       "explanation": "本句的「cancel the service」指「終止持續中的訂閱、會籍或服務」。",
       "sentenceIndex": 5,
@@ -610,12 +588,10 @@ export default {
         "cancel the service"
       ],
       "optionReasons": {
-        "cancel-mcq-03": "本句指「終止持續中的訂閱、會籍或服務」。",
-        "cancel-mcq-02": "「撤銷原本作出的預訂或購買安排」是「cancel a booking/order」的用法，與本句語境不同。",
-        "cancel-mcq-04": "「正式終止原本有效的合約／協議」是「cancel a contract」的用法，與本句語境不同。",
-        "cancel-mcq-01": "「決定原本安排的活動不再舉行」是「cancel an event」的用法，與本句語境不同。",
-        "cancel-mcq-05": "「阻止付款完成或令付款工具失去效力」是「cancel a payment/cheque」的用法，與本句語境不同。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。"
+        "cancel-mcq-03": "本句的「cancel the service」指「終止持續中的訂閱、會籍或服務」。",
+        "cancel-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-03"
     },
@@ -627,11 +603,8 @@ export default {
       "masked": "任何一方都可以提前三十天通知以____。",
       "options": [
         "cancel-mcq-04",
-        "cancel-mcq-03",
-        "cancel-mcq-05",
-        "cancel-mcq-02",
-        "cancel-mcq-06",
-        "cancel-mcq-01"
+        "cancel-mcq-07",
+        "cancel-mcq-18"
       ],
       "explanation": "本句的「cancel the contract」指「正式終止原本有效的合約／協議」。",
       "sentenceIndex": 6,
@@ -640,12 +613,9 @@ export default {
         "cancel the contract"
       ],
       "optionReasons": {
-        "cancel-mcq-04": "本句指「正式終止原本有效的合約／協議」。",
-        "cancel-mcq-03": "「終止持續中的訂閱、會籍或服務」是「cancel a subscription/service」的用法，與本句語境不同。",
-        "cancel-mcq-05": "「阻止付款完成或令付款工具失去效力」是「cancel a payment/cheque」的用法，與本句語境不同。",
-        "cancel-mcq-02": "「撤銷原本作出的預訂或購買安排」是「cancel a booking/order」的用法，與本句語境不同。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。",
-        "cancel-mcq-01": "「決定原本安排的活動不再舉行」是「cancel an event」的用法，與本句語境不同。"
+        "cancel-mcq-04": "本句的「cancel the contract」指「正式終止原本有效的合約／協議」。",
+        "cancel-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-04"
     },
@@ -657,11 +627,8 @@ export default {
       "masked": "雙方未能達成和解後，協議被____。",
       "options": [
         "cancel-mcq-04",
-        "cancel-mcq-03",
-        "cancel-mcq-05",
-        "cancel-mcq-02",
-        "cancel-mcq-06",
-        "cancel-mcq-01"
+        "cancel-mcq-07",
+        "cancel-mcq-18"
       ],
       "explanation": "本句的「cancelled」指「正式終止原本有效的合約／協議」。",
       "sentenceIndex": 7,
@@ -670,12 +637,9 @@ export default {
         "cancelled"
       ],
       "optionReasons": {
-        "cancel-mcq-04": "本句指「正式終止原本有效的合約／協議」。",
-        "cancel-mcq-03": "「終止持續中的訂閱、會籍或服務」是「cancel a subscription/service」的用法，與本句語境不同。",
-        "cancel-mcq-05": "「阻止付款完成或令付款工具失去效力」是「cancel a payment/cheque」的用法，與本句語境不同。",
-        "cancel-mcq-02": "「撤銷原本作出的預訂或購買安排」是「cancel a booking/order」的用法，與本句語境不同。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。",
-        "cancel-mcq-01": "「決定原本安排的活動不再舉行」是「cancel an event」的用法，與本句語境不同。"
+        "cancel-mcq-04": "本句的「cancelled」指「正式終止原本有效的合約／協議」。",
+        "cancel-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-04"
     },
@@ -687,11 +651,9 @@ export default {
       "masked": "他要求銀行____那筆付款。",
       "options": [
         "cancel-mcq-05",
-        "cancel-mcq-04",
-        "cancel-mcq-06",
-        "cancel-mcq-03",
-        "cancel-mcq-07",
-        "cancel-mcq-02"
+        "cancel-mcq-09",
+        "cancel-mcq-13",
+        "cancel-mcq-01"
       ],
       "explanation": "本句的「cancel the payment」指「阻止付款完成或令付款工具失去效力」。",
       "sentenceIndex": 8,
@@ -700,12 +662,10 @@ export default {
         "cancel the payment"
       ],
       "optionReasons": {
-        "cancel-mcq-05": "本句指「阻止付款完成或令付款工具失去效力」。",
-        "cancel-mcq-04": "「正式終止原本有效的合約／協議」是「cancel a contract」的用法，與本句語境不同。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。",
-        "cancel-mcq-03": "「終止持續中的訂閱、會籍或服務」是「cancel a subscription/service」的用法，與本句語境不同。",
-        "cancel-mcq-07": "「透過抵消作用令不想要的聲音明顯減弱」是「cancel noise/sound」的用法，與本句語境不同。",
-        "cancel-mcq-02": "「撤銷原本作出的預訂或購買安排」是「cancel a booking/order」的用法，與本句語境不同。"
+        "cancel-mcq-05": "本句的「cancel the payment」指「阻止付款完成或令付款工具失去效力」。",
+        "cancel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-05"
     },
@@ -717,11 +677,9 @@ export default {
       "masked": "她發現支票遺失後，便把支票____。",
       "options": [
         "cancel-mcq-05",
-        "cancel-mcq-04",
-        "cancel-mcq-06",
-        "cancel-mcq-03",
-        "cancel-mcq-07",
-        "cancel-mcq-02"
+        "cancel-mcq-13",
+        "cancel-mcq-09",
+        "cancel-mcq-16"
       ],
       "explanation": "本句的「cancelled the cheque」指「阻止付款完成或令付款工具失去效力」。",
       "sentenceIndex": 9,
@@ -730,12 +688,10 @@ export default {
         "cancelled the cheque"
       ],
       "optionReasons": {
-        "cancel-mcq-05": "本句指「阻止付款完成或令付款工具失去效力」。",
-        "cancel-mcq-04": "「正式終止原本有效的合約／協議」是「cancel a contract」的用法，與本句語境不同。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。",
-        "cancel-mcq-03": "「終止持續中的訂閱、會籍或服務」是「cancel a subscription/service」的用法，與本句語境不同。",
-        "cancel-mcq-07": "「透過抵消作用令不想要的聲音明顯減弱」是「cancel noise/sound」的用法，與本句語境不同。",
-        "cancel-mcq-02": "「撤銷原本作出的預訂或購買安排」是「cancel a booking/order」的用法，與本句語境不同。"
+        "cancel-mcq-05": "本句的「cancelled the cheque」指「阻止付款完成或令付款工具失去效力」。",
+        "cancel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-05"
     },
@@ -747,11 +703,9 @@ export default {
       "masked": "銀行把被盜的卡____。",
       "options": [
         "cancel-mcq-06",
-        "cancel-mcq-05",
-        "cancel-mcq-07",
-        "cancel-mcq-04",
         "cancel-mcq-08",
-        "cancel-mcq-03"
+        "cancel-mcq-03",
+        "cancel-mcq-14"
       ],
       "explanation": "本句的「cancelled」指「正式令原本有效的卡、票或文件作廢」。",
       "sentenceIndex": 10,
@@ -760,12 +714,10 @@ export default {
         "cancelled"
       ],
       "optionReasons": {
-        "cancel-mcq-06": "本句指「正式令原本有效的卡、票或文件作廢」。",
-        "cancel-mcq-05": "「阻止付款完成或令付款工具失去效力」是「cancel a payment/cheque」的用法，與本句語境不同。",
-        "cancel-mcq-07": "「透過抵消作用令不想要的聲音明顯減弱」是「cancel noise/sound」的用法，與本句語境不同。",
-        "cancel-mcq-04": "「正式終止原本有效的合約／協議」是「cancel a contract」的用法，與本句語境不同。",
-        "cancel-mcq-08": "「能主動／被動減少外界噪音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "cancel-mcq-03": "「終止持續中的訂閱、會籍或服務」是「cancel a subscription/service」的用法，與本句語境不同。"
+        "cancel-mcq-06": "本句的「cancelled」指「正式令原本有效的卡、票或文件作廢」。",
+        "cancel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-06"
     },
@@ -777,11 +729,9 @@ export default {
       "masked": "那張票使用後被____。",
       "options": [
         "cancel-mcq-06",
-        "cancel-mcq-05",
-        "cancel-mcq-07",
-        "cancel-mcq-04",
-        "cancel-mcq-08",
-        "cancel-mcq-03"
+        "cancel-mcq-11",
+        "cancel-mcq-03",
+        "cancel-mcq-09"
       ],
       "explanation": "本句的「cancelled」指「正式令原本有效的卡、票或文件作廢」。",
       "sentenceIndex": 11,
@@ -790,12 +740,10 @@ export default {
         "cancelled"
       ],
       "optionReasons": {
-        "cancel-mcq-06": "本句指「正式令原本有效的卡、票或文件作廢」。",
-        "cancel-mcq-05": "「阻止付款完成或令付款工具失去效力」是「cancel a payment/cheque」的用法，與本句語境不同。",
-        "cancel-mcq-07": "「透過抵消作用令不想要的聲音明顯減弱」是「cancel noise/sound」的用法，與本句語境不同。",
-        "cancel-mcq-04": "「正式終止原本有效的合約／協議」是「cancel a contract」的用法，與本句語境不同。",
-        "cancel-mcq-08": "「能主動／被動減少外界噪音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "cancel-mcq-03": "「終止持續中的訂閱、會籍或服務」是「cancel a subscription/service」的用法，與本句語境不同。"
+        "cancel-mcq-06": "本句的「cancelled」指「正式令原本有效的卡、票或文件作廢」。",
+        "cancel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-06"
     },
@@ -807,11 +755,9 @@ export default {
       "masked": "耳機利用麥克風協助____外界噪音。",
       "options": [
         "cancel-mcq-07",
-        "cancel-mcq-06",
-        "cancel-mcq-08",
-        "cancel-mcq-05",
-        "cancel-mcq-09",
-        "cancel-mcq-04"
+        "cancel-mcq-01",
+        "cancel-mcq-03",
+        "cancel-mcq-13"
       ],
       "explanation": "本句的「cancel external noise」指「透過抵消作用令不想要的聲音明顯減弱」。",
       "sentenceIndex": 12,
@@ -820,12 +766,10 @@ export default {
         "cancel external noise"
       ],
       "optionReasons": {
-        "cancel-mcq-07": "本句指「透過抵消作用令不想要的聲音明顯減弱」。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。",
-        "cancel-mcq-08": "「能主動／被動減少外界噪音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "cancel-mcq-05": "「阻止付款完成或令付款工具失去效力」是「cancel a payment/cheque」的用法，與本句語境不同。",
-        "cancel-mcq-09": "「偵測噪音並產生反向聲波以減弱噪音的技術」是「active noise cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-04": "「正式終止原本有效的合約／協議」是「cancel a contract」的用法，與本句語境不同。"
+        "cancel-mcq-07": "本句的「cancel external noise」指「透過抵消作用令不想要的聲音明顯減弱」。",
+        "cancel-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-07"
     },
@@ -837,11 +781,9 @@ export default {
       "masked": "系統產生相反的訊號來____不需要的聲音。",
       "options": [
         "cancel-mcq-07",
-        "cancel-mcq-06",
-        "cancel-mcq-08",
-        "cancel-mcq-05",
-        "cancel-mcq-09",
-        "cancel-mcq-04"
+        "cancel-mcq-01",
+        "cancel-mcq-03",
+        "cancel-mcq-17"
       ],
       "explanation": "本句的「cancel unwanted sound」指「透過抵消作用令不想要的聲音明顯減弱」。",
       "sentenceIndex": 13,
@@ -850,12 +792,10 @@ export default {
         "cancel unwanted sound"
       ],
       "optionReasons": {
-        "cancel-mcq-07": "本句指「透過抵消作用令不想要的聲音明顯減弱」。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。",
-        "cancel-mcq-08": "「能主動／被動減少外界噪音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "cancel-mcq-05": "「阻止付款完成或令付款工具失去效力」是「cancel a payment/cheque」的用法，與本句語境不同。",
-        "cancel-mcq-09": "「偵測噪音並產生反向聲波以減弱噪音的技術」是「active noise cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-04": "「正式終止原本有效的合約／協議」是「cancel a contract」的用法，與本句語境不同。"
+        "cancel-mcq-07": "本句的「cancel unwanted sound」指「透過抵消作用令不想要的聲音明顯減弱」。",
+        "cancel-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-07"
     },
@@ -867,11 +807,9 @@ export default {
       "masked": "我買了一副____耳機，旅行時使用。",
       "options": [
         "cancel-mcq-08",
-        "cancel-mcq-07",
-        "cancel-mcq-09",
-        "cancel-mcq-06",
-        "cancel-mcq-10",
-        "cancel-mcq-05"
+        "cancel-mcq-16",
+        "cancel-mcq-03",
+        "cancel-mcq-14"
       ],
       "explanation": "本句的「noise-cancelling headphones」指「能主動／被動減少外界噪音的」。",
       "sentenceIndex": 14,
@@ -880,12 +818,10 @@ export default {
         "noise-cancelling headphones"
       ],
       "optionReasons": {
-        "cancel-mcq-08": "本句指「能主動／被動減少外界噪音的」。",
-        "cancel-mcq-07": "「透過抵消作用令不想要的聲音明顯減弱」是「cancel noise/sound」的用法，與本句語境不同。",
-        "cancel-mcq-09": "「偵測噪音並產生反向聲波以減弱噪音的技術」是「active noise cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。",
-        "cancel-mcq-10": "「識別並減少通訊系統中不需要的回聲」是「echo cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-05": "「阻止付款完成或令付款工具失去效力」是「cancel a payment/cheque」的用法，與本句語境不同。"
+        "cancel-mcq-08": "本句的「noise-cancelling headphones」指「能主動／被動減少外界噪音的」。",
+        "cancel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-08"
     },
@@ -897,22 +833,18 @@ export default {
       "masked": "____技術在飛機上很有用。",
       "options": [
         "cancel-mcq-08",
-        "cancel-mcq-07",
-        "cancel-mcq-09",
-        "cancel-mcq-06",
-        "cancel-mcq-10",
-        "cancel-mcq-05"
+        "cancel-mcq-16",
+        "cancel-mcq-03",
+        "cancel-mcq-14"
       ],
       "explanation": "本句的「cancel」指「能主動／被動減少外界噪音的」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "optionReasons": {
-        "cancel-mcq-08": "本句指「能主動／被動減少外界噪音的」。",
-        "cancel-mcq-07": "「透過抵消作用令不想要的聲音明顯減弱」是「cancel noise/sound」的用法，與本句語境不同。",
-        "cancel-mcq-09": "「偵測噪音並產生反向聲波以減弱噪音的技術」是「active noise cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。",
-        "cancel-mcq-10": "「識別並減少通訊系統中不需要的回聲」是「echo cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-05": "「阻止付款完成或令付款工具失去效力」是「cancel a payment/cheque」的用法，與本句語境不同。"
+        "cancel-mcq-08": "本句的「cancel」指「能主動／被動減少外界噪音的」。",
+        "cancel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-08"
     },
@@ -924,11 +856,9 @@ export default {
       "masked": "這副耳機支援____ （ ANC ）。",
       "options": [
         "cancel-mcq-09",
-        "cancel-mcq-08",
-        "cancel-mcq-10",
-        "cancel-mcq-07",
-        "cancel-mcq-11",
-        "cancel-mcq-06"
+        "cancel-mcq-01",
+        "cancel-mcq-13",
+        "cancel-mcq-11"
       ],
       "explanation": "本句的「active noise cancellation」指「偵測噪音並產生反向聲波以減弱噪音的技術」。",
       "sentenceIndex": 16,
@@ -937,12 +867,10 @@ export default {
         "active noise cancellation"
       ],
       "optionReasons": {
-        "cancel-mcq-09": "本句指「偵測噪音並產生反向聲波以減弱噪音的技術」。",
-        "cancel-mcq-08": "「能主動／被動減少外界噪音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "cancel-mcq-10": "「識別並減少通訊系統中不需要的回聲」是「echo cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-07": "「透過抵消作用令不想要的聲音明顯減弱」是「cancel noise/sound」的用法，與本句語境不同。",
-        "cancel-mcq-11": "「把可互相抵消的相同項／因子消去以簡化運算」是「cancel — mathematics」的用法，與本句語境不同。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。"
+        "cancel-mcq-09": "本句的「active noise cancellation」指「偵測噪音並產生反向聲波以減弱噪音的技術」。",
+        "cancel-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-09"
     },
@@ -954,11 +882,9 @@ export default {
       "masked": "開啟____功能可以減少低頻背景噪音。",
       "options": [
         "cancel-mcq-09",
-        "cancel-mcq-08",
-        "cancel-mcq-10",
-        "cancel-mcq-07",
-        "cancel-mcq-11",
-        "cancel-mcq-06"
+        "cancel-mcq-05",
+        "cancel-mcq-18",
+        "cancel-mcq-14"
       ],
       "explanation": "本句的「active noise cancellation」指「偵測噪音並產生反向聲波以減弱噪音的技術」。",
       "sentenceIndex": 17,
@@ -967,12 +893,10 @@ export default {
         "active noise cancellation"
       ],
       "optionReasons": {
-        "cancel-mcq-09": "本句指「偵測噪音並產生反向聲波以減弱噪音的技術」。",
-        "cancel-mcq-08": "「能主動／被動減少外界噪音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "cancel-mcq-10": "「識別並減少通訊系統中不需要的回聲」是「echo cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-07": "「透過抵消作用令不想要的聲音明顯減弱」是「cancel noise/sound」的用法，與本句語境不同。",
-        "cancel-mcq-11": "「把可互相抵消的相同項／因子消去以簡化運算」是「cancel — mathematics」的用法，與本句語境不同。",
-        "cancel-mcq-06": "「正式令原本有效的卡、票或文件作廢」是「cancel a card/ticket/document」的用法，與本句語境不同。"
+        "cancel-mcq-09": "本句的「active noise cancellation」指「偵測噪音並產生反向聲波以減弱噪音的技術」。",
+        "cancel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-09"
     },
@@ -984,11 +908,9 @@ export default {
       "masked": "這套軟件包含視像通話用的____功能。",
       "options": [
         "cancel-mcq-10",
-        "cancel-mcq-09",
-        "cancel-mcq-11",
-        "cancel-mcq-08",
-        "cancel-mcq-12",
-        "cancel-mcq-07"
+        "cancel-mcq-03",
+        "cancel-mcq-01",
+        "cancel-mcq-17"
       ],
       "explanation": "本句的「echo cancellation」指「識別並減少通訊系統中不需要的回聲」。",
       "sentenceIndex": 18,
@@ -997,12 +919,10 @@ export default {
         "echo cancellation"
       ],
       "optionReasons": {
-        "cancel-mcq-10": "本句指「識別並減少通訊系統中不需要的回聲」。",
-        "cancel-mcq-09": "「偵測噪音並產生反向聲波以減弱噪音的技術」是「active noise cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-11": "「把可互相抵消的相同項／因子消去以簡化運算」是「cancel — mathematics」的用法，與本句語境不同。",
-        "cancel-mcq-08": "「能主動／被動減少外界噪音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "cancel-mcq-12": "「兩個相反作用彼此抵消，使總效果減少／接近零」是「cancel opposing effects」的用法，與本句語境不同。",
-        "cancel-mcq-07": "「透過抵消作用令不想要的聲音明顯減弱」是「cancel noise/sound」的用法，與本句語境不同。"
+        "cancel-mcq-10": "本句的「echo cancellation」指「識別並減少通訊系統中不需要的回聲」。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-10"
     },
@@ -1014,22 +934,18 @@ export default {
       "masked": "更好的____技術可以令通話更清晰。",
       "options": [
         "cancel-mcq-10",
-        "cancel-mcq-09",
+        "cancel-mcq-03",
         "cancel-mcq-11",
-        "cancel-mcq-08",
-        "cancel-mcq-12",
-        "cancel-mcq-07"
+        "cancel-mcq-06"
       ],
       "explanation": "本句的「cancel」指「識別並減少通訊系統中不需要的回聲」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "optionReasons": {
-        "cancel-mcq-10": "本句指「識別並減少通訊系統中不需要的回聲」。",
-        "cancel-mcq-09": "「偵測噪音並產生反向聲波以減弱噪音的技術」是「active noise cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-11": "「把可互相抵消的相同項／因子消去以簡化運算」是「cancel — mathematics」的用法，與本句語境不同。",
-        "cancel-mcq-08": "「能主動／被動減少外界噪音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "cancel-mcq-12": "「兩個相反作用彼此抵消，使總效果減少／接近零」是「cancel opposing effects」的用法，與本句語境不同。",
-        "cancel-mcq-07": "「透過抵消作用令不想要的聲音明顯減弱」是「cancel noise/sound」的用法，與本句語境不同。"
+        "cancel-mcq-10": "本句的「cancel」指「識別並減少通訊系統中不需要的回聲」。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-10"
     },
@@ -1041,11 +957,9 @@ export default {
       "masked": "共同因數可以____。",
       "options": [
         "cancel-mcq-11",
-        "cancel-mcq-10",
-        "cancel-mcq-12",
         "cancel-mcq-09",
-        "cancel-mcq-13",
-        "cancel-mcq-08"
+        "cancel-mcq-02",
+        "cancel-mcq-03"
       ],
       "explanation": "本句的「cancelled」指「把可互相抵消的相同項／因子消去以簡化運算」。",
       "sentenceIndex": 20,
@@ -1054,12 +968,10 @@ export default {
         "cancelled"
       ],
       "optionReasons": {
-        "cancel-mcq-11": "本句指「把可互相抵消的相同項／因子消去以簡化運算」。",
-        "cancel-mcq-10": "「識別並減少通訊系統中不需要的回聲」是「echo cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-12": "「兩個相反作用彼此抵消，使總效果減少／接近零」是「cancel opposing effects」的用法，與本句語境不同。",
-        "cancel-mcq-09": "「偵測噪音並產生反向聲波以減弱噪音的技術」是「active noise cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。",
-        "cancel-mcq-08": "「能主動／被動減少外界噪音的」是「noise-cancelling」的用法，與本句語境不同。"
+        "cancel-mcq-11": "本句的「cancelled」指「把可互相抵消的相同項／因子消去以簡化運算」。",
+        "cancel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-11"
     },
@@ -1071,22 +983,18 @@ export default {
       "masked": "把兩邊的 x 項____。",
       "options": [
         "cancel-mcq-11",
-        "cancel-mcq-10",
-        "cancel-mcq-12",
-        "cancel-mcq-09",
-        "cancel-mcq-13",
-        "cancel-mcq-08"
+        "cancel-mcq-02",
+        "cancel-mcq-08",
+        "cancel-mcq-03"
       ],
       "explanation": "本句的「cancel」指「把可互相抵消的相同項／因子消去以簡化運算」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "optionReasons": {
-        "cancel-mcq-11": "本句指「把可互相抵消的相同項／因子消去以簡化運算」。",
-        "cancel-mcq-10": "「識別並減少通訊系統中不需要的回聲」是「echo cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-12": "「兩個相反作用彼此抵消，使總效果減少／接近零」是「cancel opposing effects」的用法，與本句語境不同。",
-        "cancel-mcq-09": "「偵測噪音並產生反向聲波以減弱噪音的技術」是「active noise cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。",
-        "cancel-mcq-08": "「能主動／被動減少外界噪音的」是「noise-cancelling」的用法，與本句語境不同。"
+        "cancel-mcq-11": "本句的「cancel」指「把可互相抵消的相同項／因子消去以簡化運算」。",
+        "cancel-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-11"
     },
@@ -1098,11 +1006,9 @@ export default {
       "masked": "兩個力____。",
       "options": [
         "cancel-mcq-12",
-        "cancel-mcq-11",
-        "cancel-mcq-13",
-        "cancel-mcq-10",
-        "cancel-mcq-14",
-        "cancel-mcq-09"
+        "cancel-mcq-02",
+        "cancel-mcq-03",
+        "cancel-mcq-14"
       ],
       "explanation": "本句的「cancel」指「兩個相反作用彼此抵消，使總效果減少／接近零」。",
       "sentenceIndex": 22,
@@ -1111,12 +1017,10 @@ export default {
         "cancel"
       ],
       "optionReasons": {
-        "cancel-mcq-12": "本句指「兩個相反作用彼此抵消，使總效果減少／接近零」。",
-        "cancel-mcq-11": "「把可互相抵消的相同項／因子消去以簡化運算」是「cancel — mathematics」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。",
-        "cancel-mcq-10": "「識別並減少通訊系統中不需要的回聲」是「echo cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-09": "「偵測噪音並產生反向聲波以減弱噪音的技術」是「active noise cancellation」的用法，與本句語境不同。"
+        "cancel-mcq-12": "本句的「cancel」指「兩個相反作用彼此抵消，使總效果減少／接近零」。",
+        "cancel-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-12"
     },
@@ -1128,11 +1032,9 @@ export default {
       "masked": "優點和缺點幾乎____。",
       "options": [
         "cancel-mcq-12",
-        "cancel-mcq-11",
-        "cancel-mcq-13",
-        "cancel-mcq-10",
-        "cancel-mcq-14",
-        "cancel-mcq-09"
+        "cancel-mcq-02",
+        "cancel-mcq-03",
+        "cancel-mcq-14"
       ],
       "explanation": "本句的「cancel」指「兩個相反作用彼此抵消，使總效果減少／接近零」。",
       "sentenceIndex": 23,
@@ -1141,12 +1043,10 @@ export default {
         "cancel"
       ],
       "optionReasons": {
-        "cancel-mcq-12": "本句指「兩個相反作用彼此抵消，使總效果減少／接近零」。",
-        "cancel-mcq-11": "「把可互相抵消的相同項／因子消去以簡化運算」是「cancel — mathematics」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。",
-        "cancel-mcq-10": "「識別並減少通訊系統中不需要的回聲」是「echo cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-09": "「偵測噪音並產生反向聲波以減弱噪音的技術」是「active noise cancellation」的用法，與本句語境不同。"
+        "cancel-mcq-12": "本句的「cancel」指「兩個相反作用彼此抵消，使總效果減少／接近零」。",
+        "cancel-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-12"
     },
@@ -1158,11 +1058,9 @@ export default {
       "masked": "有些網民呼籲____。",
       "options": [
         "cancel-mcq-13",
-        "cancel-mcq-12",
-        "cancel-mcq-14",
-        "cancel-mcq-11",
-        "cancel-mcq-15",
-        "cancel-mcq-10"
+        "cancel-mcq-09",
+        "cancel-mcq-06",
+        "cancel-mcq-05"
       ],
       "explanation": "本句的「cancelled」指「因其言行被認為有問題而公開撤回支持、關注或消費」。",
       "sentenceIndex": 24,
@@ -1171,12 +1069,10 @@ export default {
         "cancelled"
       ],
       "optionReasons": {
-        "cancel-mcq-13": "本句指「因其言行被認為有問題而公開撤回支持、關注或消費」。",
-        "cancel-mcq-12": "「兩個相反作用彼此抵消，使總效果減少／接近零」是「cancel opposing effects」的用法，與本句語境不同。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-11": "「把可互相抵消的相同項／因子消去以簡化運算」是「cancel — mathematics」的用法，與本句語境不同。",
-        "cancel-mcq-15": "「某項活動、預訂、服務或權利被正式停止／撤銷」是「cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-10": "「識別並減少通訊系統中不需要的回聲」是「echo cancellation」的用法，與本句語境不同。"
+        "cancel-mcq-13": "本句的「cancelled」指「因其言行被認為有問題而公開撤回支持、關注或消費」。",
+        "cancel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-13"
     },
@@ -1188,11 +1084,9 @@ export default {
       "masked": "爭議發生後，有人呼籲____。",
       "options": [
         "cancel-mcq-13",
-        "cancel-mcq-12",
-        "cancel-mcq-14",
-        "cancel-mcq-11",
-        "cancel-mcq-15",
-        "cancel-mcq-10"
+        "cancel-mcq-06",
+        "cancel-mcq-05",
+        "cancel-mcq-08"
       ],
       "explanation": "本句的「canceled」指「因其言行被認為有問題而公開撤回支持、關注或消費」。",
       "sentenceIndex": 25,
@@ -1201,12 +1095,10 @@ export default {
         "canceled"
       ],
       "optionReasons": {
-        "cancel-mcq-13": "本句指「因其言行被認為有問題而公開撤回支持、關注或消費」。",
-        "cancel-mcq-12": "「兩個相反作用彼此抵消，使總效果減少／接近零」是「cancel opposing effects」的用法，與本句語境不同。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-11": "「把可互相抵消的相同項／因子消去以簡化運算」是「cancel — mathematics」的用法，與本句語境不同。",
-        "cancel-mcq-15": "「某項活動、預訂、服務或權利被正式停止／撤銷」是「cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-10": "「識別並減少通訊系統中不需要的回聲」是「echo cancellation」的用法，與本句語境不同。"
+        "cancel-mcq-13": "本句的「canceled」指「因其言行被認為有問題而公開撤回支持、關注或消費」。",
+        "cancel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-13"
     },
@@ -1218,11 +1110,9 @@ export default {
       "masked": "關於____的討論，常涉及問責與言論自由。",
       "options": [
         "cancel-mcq-14",
-        "cancel-mcq-13",
-        "cancel-mcq-15",
-        "cancel-mcq-12",
-        "cancel-mcq-16",
-        "cancel-mcq-11"
+        "cancel-mcq-06",
+        "cancel-mcq-05",
+        "cancel-mcq-18"
       ],
       "explanation": "本句的「cancel culture」指「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」。",
       "sentenceIndex": 26,
@@ -1231,12 +1121,10 @@ export default {
         "cancel culture"
       ],
       "optionReasons": {
-        "cancel-mcq-14": "本句指「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。",
-        "cancel-mcq-15": "「某項活動、預訂、服務或權利被正式停止／撤銷」是「cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-12": "「兩個相反作用彼此抵消，使總效果減少／接近零」是「cancel opposing effects」的用法，與本句語境不同。",
-        "cancel-mcq-16": "「一個原本已安排但後來被取消的預約／名額」是「a cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-11": "「把可互相抵消的相同項／因子消去以簡化運算」是「cancel — mathematics」的用法，與本句語境不同。"
+        "cancel-mcq-14": "本句的「cancel culture」指「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」。",
+        "cancel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-14"
     },
@@ -1248,22 +1136,18 @@ export default {
       "masked": "不同說話者對 『 ____ 』 這個詞的使用方式並不完全相同。",
       "options": [
         "cancel-mcq-14",
-        "cancel-mcq-13",
-        "cancel-mcq-15",
-        "cancel-mcq-12",
-        "cancel-mcq-16",
-        "cancel-mcq-11"
+        "cancel-mcq-04",
+        "cancel-mcq-18",
+        "cancel-mcq-08"
       ],
       "explanation": "本句的「cancel」指「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "optionReasons": {
-        "cancel-mcq-14": "本句指「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。",
-        "cancel-mcq-15": "「某項活動、預訂、服務或權利被正式停止／撤銷」是「cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-12": "「兩個相反作用彼此抵消，使總效果減少／接近零」是「cancel opposing effects」的用法，與本句語境不同。",
-        "cancel-mcq-16": "「一個原本已安排但後來被取消的預約／名額」是「a cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-11": "「把可互相抵消的相同項／因子消去以簡化運算」是「cancel — mathematics」的用法，與本句語境不同。"
+        "cancel-mcq-14": "本句的「cancel」指「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」。",
+        "cancel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-14"
     },
@@ -1275,11 +1159,9 @@ export default {
       "masked": "我們收到航班____通知。",
       "options": [
         "cancel-mcq-15",
-        "cancel-mcq-14",
-        "cancel-mcq-16",
-        "cancel-mcq-13",
-        "cancel-mcq-17",
-        "cancel-mcq-12"
+        "cancel-mcq-12",
+        "cancel-mcq-18",
+        "cancel-mcq-14"
       ],
       "explanation": "本句的「cancellation」指「某項活動、預訂、服務或權利被正式停止／撤銷」。",
       "sentenceIndex": 28,
@@ -1288,12 +1170,10 @@ export default {
         "cancellation"
       ],
       "optionReasons": {
-        "cancel-mcq-15": "本句指「某項活動、預訂、服務或權利被正式停止／撤銷」。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-16": "「一個原本已安排但後來被取消的預約／名額」是「a cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。",
-        "cancel-mcq-17": "「規則允許之後撤銷或取消的」是「cancellable/cancelable」的用法，與本句語境不同。",
-        "cancel-mcq-12": "「兩個相反作用彼此抵消，使總效果減少／接近零」是「cancel opposing effects」的用法，與本句語境不同。"
+        "cancel-mcq-15": "本句的「cancellation」指「某項活動、預訂、服務或權利被正式停止／撤銷」。",
+        "cancel-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-15"
     },
@@ -1305,11 +1185,9 @@ export default {
       "masked": "提早____可能需要支付費用。",
       "options": [
         "cancel-mcq-15",
-        "cancel-mcq-14",
-        "cancel-mcq-16",
-        "cancel-mcq-13",
-        "cancel-mcq-17",
-        "cancel-mcq-12"
+        "cancel-mcq-09",
+        "cancel-mcq-18",
+        "cancel-mcq-14"
       ],
       "explanation": "本句的「cancellation」指「某項活動、預訂、服務或權利被正式停止／撤銷」。",
       "sentenceIndex": 29,
@@ -1318,12 +1196,10 @@ export default {
         "cancellation"
       ],
       "optionReasons": {
-        "cancel-mcq-15": "本句指「某項活動、預訂、服務或權利被正式停止／撤銷」。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-16": "「一個原本已安排但後來被取消的預約／名額」是「a cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。",
-        "cancel-mcq-17": "「規則允許之後撤銷或取消的」是「cancellable/cancelable」的用法，與本句語境不同。",
-        "cancel-mcq-12": "「兩個相反作用彼此抵消，使總效果減少／接近零」是「cancel opposing effects」的用法，與本句語境不同。"
+        "cancel-mcq-15": "本句的「cancellation」指「某項活動、預訂、服務或權利被正式停止／撤銷」。",
+        "cancel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-15"
     },
@@ -1335,11 +1211,9 @@ export default {
       "masked": "餐廳臨時有一個____。",
       "options": [
         "cancel-mcq-16",
-        "cancel-mcq-15",
-        "cancel-mcq-17",
-        "cancel-mcq-14",
-        "cancel-mcq-18",
-        "cancel-mcq-13"
+        "cancel-mcq-09",
+        "cancel-mcq-03",
+        "cancel-mcq-14"
       ],
       "explanation": "本句的「cancellation」指「一個原本已安排但後來被取消的預約／名額」。",
       "sentenceIndex": 30,
@@ -1348,12 +1222,10 @@ export default {
         "cancellation"
       ],
       "optionReasons": {
-        "cancel-mcq-16": "本句指「一個原本已安排但後來被取消的預約／名額」。",
-        "cancel-mcq-15": "「某項活動、預訂、服務或權利被正式停止／撤銷」是「cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-17": "「規則允許之後撤銷或取消的」是「cancellable/cancelable」的用法，與本句語境不同。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-18": "「一旦安排／購買後按規則不能再取消的」是「non-cancellable」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。"
+        "cancel-mcq-16": "本句的「cancellation」指「一個原本已安排但後來被取消的預約／名額」。",
+        "cancel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-16"
     },
@@ -1365,11 +1237,9 @@ export default {
       "masked": "因為有人____，我們才約到時間。",
       "options": [
         "cancel-mcq-16",
-        "cancel-mcq-15",
-        "cancel-mcq-17",
+        "cancel-mcq-03",
         "cancel-mcq-14",
-        "cancel-mcq-18",
-        "cancel-mcq-13"
+        "cancel-mcq-09"
       ],
       "explanation": "本句的「cancellation」指「一個原本已安排但後來被取消的預約／名額」。",
       "sentenceIndex": 31,
@@ -1378,12 +1248,10 @@ export default {
         "cancellation"
       ],
       "optionReasons": {
-        "cancel-mcq-16": "本句指「一個原本已安排但後來被取消的預約／名額」。",
-        "cancel-mcq-15": "「某項活動、預訂、服務或權利被正式停止／撤銷」是「cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-17": "「規則允許之後撤銷或取消的」是「cancellable/cancelable」的用法，與本句語境不同。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-18": "「一旦安排／購買後按規則不能再取消的」是「non-cancellable」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。"
+        "cancel-mcq-16": "本句的「cancellation」指「一個原本已安排但後來被取消的預約／名額」。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-16"
     },
@@ -1395,11 +1263,9 @@ export default {
       "masked": "預訂前先查看酒店的____。",
       "options": [
         "cancel-mcq-16",
-        "cancel-mcq-15",
-        "cancel-mcq-17",
+        "cancel-mcq-08",
         "cancel-mcq-14",
-        "cancel-mcq-18",
-        "cancel-mcq-13"
+        "cancel-mcq-05"
       ],
       "explanation": "本句的「cancellation policy」指「一個原本已安排但後來被取消的預約／名額」。",
       "sentenceIndex": 32,
@@ -1408,12 +1274,10 @@ export default {
         "cancellation policy"
       ],
       "optionReasons": {
-        "cancel-mcq-16": "本句指「一個原本已安排但後來被取消的預約／名額」。",
-        "cancel-mcq-15": "「某項活動、預訂、服務或權利被正式停止／撤銷」是「cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-17": "「規則允許之後撤銷或取消的」是「cancellable/cancelable」的用法，與本句語境不同。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-18": "「一旦安排／購買後按規則不能再取消的」是「non-cancellable」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。"
+        "cancel-mcq-16": "本句的「cancellation policy」指「一個原本已安排但後來被取消的預約／名額」。",
+        "cancel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-16"
     },
@@ -1425,22 +1289,18 @@ export default {
       "masked": "____允許在抵達前 24 小時免費更改。",
       "options": [
         "cancel-mcq-16",
-        "cancel-mcq-15",
-        "cancel-mcq-17",
-        "cancel-mcq-14",
-        "cancel-mcq-18",
-        "cancel-mcq-13"
+        "cancel-mcq-08",
+        "cancel-mcq-05",
+        "cancel-mcq-14"
       ],
       "explanation": "本句的「cancel」指「一個原本已安排但後來被取消的預約／名額」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "optionReasons": {
-        "cancel-mcq-16": "本句指「一個原本已安排但後來被取消的預約／名額」。",
-        "cancel-mcq-15": "「某項活動、預訂、服務或權利被正式停止／撤銷」是「cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-17": "「規則允許之後撤銷或取消的」是「cancellable/cancelable」的用法，與本句語境不同。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-18": "「一旦安排／購買後按規則不能再取消的」是「non-cancellable」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。"
+        "cancel-mcq-16": "本句的「cancel」指「一個原本已安排但後來被取消的預約／名額」。",
+        "cancel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-16"
     },
@@ -1452,11 +1312,9 @@ export default {
       "masked": "航空公司收取了____。",
       "options": [
         "cancel-mcq-16",
-        "cancel-mcq-15",
-        "cancel-mcq-17",
+        "cancel-mcq-10",
         "cancel-mcq-14",
-        "cancel-mcq-18",
-        "cancel-mcq-13"
+        "cancel-mcq-03"
       ],
       "explanation": "本句的「cancellation fee」指「一個原本已安排但後來被取消的預約／名額」。",
       "sentenceIndex": 34,
@@ -1465,12 +1323,10 @@ export default {
         "cancellation fee"
       ],
       "optionReasons": {
-        "cancel-mcq-16": "本句指「一個原本已安排但後來被取消的預約／名額」。",
-        "cancel-mcq-15": "「某項活動、預訂、服務或權利被正式停止／撤銷」是「cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-17": "「規則允許之後撤銷或取消的」是「cancellable/cancelable」的用法，與本句語境不同。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-18": "「一旦安排／購買後按規則不能再取消的」是「non-cancellable」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。"
+        "cancel-mcq-16": "本句的「cancellation fee」指「一個原本已安排但後來被取消的預約／名額」。",
+        "cancel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-16"
     },
@@ -1482,11 +1338,9 @@ export default {
       "masked": "如果你在 24 小時內取消，就不用支付____。",
       "options": [
         "cancel-mcq-16",
-        "cancel-mcq-15",
-        "cancel-mcq-17",
-        "cancel-mcq-14",
-        "cancel-mcq-18",
-        "cancel-mcq-13"
+        "cancel-mcq-03",
+        "cancel-mcq-09",
+        "cancel-mcq-14"
       ],
       "explanation": "本句的「cancellation fee」指「一個原本已安排但後來被取消的預約／名額」。",
       "sentenceIndex": 35,
@@ -1495,12 +1349,10 @@ export default {
         "cancellation fee"
       ],
       "optionReasons": {
-        "cancel-mcq-16": "本句指「一個原本已安排但後來被取消的預約／名額」。",
-        "cancel-mcq-15": "「某項活動、預訂、服務或權利被正式停止／撤銷」是「cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-17": "「規則允許之後撤銷或取消的」是「cancellable/cancelable」的用法，與本句語境不同。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-18": "「一旦安排／購買後按規則不能再取消的」是「non-cancellable」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。"
+        "cancel-mcq-16": "本句的「cancellation fee」指「一個原本已安排但後來被取消的預約／名額」。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-16"
     },
@@ -1512,11 +1364,9 @@ export default {
       "masked": "這項預訂____。",
       "options": [
         "cancel-mcq-17",
-        "cancel-mcq-16",
-        "cancel-mcq-18",
-        "cancel-mcq-15",
-        "cancel-mcq-14",
-        "cancel-mcq-13"
+        "cancel-mcq-08",
+        "cancel-mcq-06",
+        "cancel-mcq-03"
       ],
       "explanation": "本句的「cancellable」指「規則允許之後撤銷或取消的」。",
       "sentenceIndex": 36,
@@ -1525,12 +1375,10 @@ export default {
         "cancellable"
       ],
       "optionReasons": {
-        "cancel-mcq-17": "本句指「規則允許之後撤銷或取消的」。",
-        "cancel-mcq-16": "「一個原本已安排但後來被取消的預約／名額」是「a cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-18": "「一旦安排／購買後按規則不能再取消的」是「non-cancellable」的用法，與本句語境不同。",
-        "cancel-mcq-15": "「某項活動、預訂、服務或權利被正式停止／撤銷」是「cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。"
+        "cancel-mcq-17": "本句的「cancellable」指「規則允許之後撤銷或取消的」。",
+        "cancel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-17"
     },
@@ -1542,11 +1390,9 @@ export default {
       "masked": "這張票____。",
       "options": [
         "cancel-mcq-17",
-        "cancel-mcq-16",
-        "cancel-mcq-18",
-        "cancel-mcq-15",
-        "cancel-mcq-14",
-        "cancel-mcq-13"
+        "cancel-mcq-10",
+        "cancel-mcq-03",
+        "cancel-mcq-01"
       ],
       "explanation": "本句的「cancelable」指「規則允許之後撤銷或取消的」。",
       "sentenceIndex": 37,
@@ -1555,12 +1401,10 @@ export default {
         "cancelable"
       ],
       "optionReasons": {
-        "cancel-mcq-17": "本句指「規則允許之後撤銷或取消的」。",
-        "cancel-mcq-16": "「一個原本已安排但後來被取消的預約／名額」是「a cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-18": "「一旦安排／購買後按規則不能再取消的」是「non-cancellable」的用法，與本句語境不同。",
-        "cancel-mcq-15": "「某項活動、預訂、服務或權利被正式停止／撤銷」是「cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。"
+        "cancel-mcq-17": "本句的「cancelable」指「規則允許之後撤銷或取消的」。",
+        "cancel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-17"
     },
@@ -1572,11 +1416,9 @@ export default {
       "masked": "這項折扣預訂是____的。",
       "options": [
         "cancel-mcq-18",
-        "cancel-mcq-17",
-        "cancel-mcq-16",
-        "cancel-mcq-15",
         "cancel-mcq-14",
-        "cancel-mcq-13"
+        "cancel-mcq-03",
+        "cancel-mcq-08"
       ],
       "explanation": "本句的「non-cancellable」指「一旦安排／購買後按規則不能再取消的」。",
       "sentenceIndex": 38,
@@ -1585,12 +1427,10 @@ export default {
         "non-cancellable"
       ],
       "optionReasons": {
-        "cancel-mcq-18": "本句指「一旦安排／購買後按規則不能再取消的」。",
-        "cancel-mcq-17": "「規則允許之後撤銷或取消的」是「cancellable/cancelable」的用法，與本句語境不同。",
-        "cancel-mcq-16": "「一個原本已安排但後來被取消的預約／名額」是「a cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-15": "「某項活動、預訂、服務或權利被正式停止／撤銷」是「cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。"
+        "cancel-mcq-18": "本句的「non-cancellable」指「一旦安排／購買後按規則不能再取消的」。",
+        "cancel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-18"
     },
@@ -1602,22 +1442,18 @@ export default {
       "masked": "這張票____，也不可退款。",
       "options": [
         "cancel-mcq-18",
-        "cancel-mcq-17",
-        "cancel-mcq-16",
-        "cancel-mcq-15",
-        "cancel-mcq-14",
-        "cancel-mcq-13"
+        "cancel-mcq-03",
+        "cancel-mcq-06",
+        "cancel-mcq-10"
       ],
       "explanation": "本句的「cancel」指「一旦安排／購買後按規則不能再取消的」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "optionReasons": {
-        "cancel-mcq-18": "本句指「一旦安排／購買後按規則不能再取消的」。",
-        "cancel-mcq-17": "「規則允許之後撤銷或取消的」是「cancellable/cancelable」的用法，與本句語境不同。",
-        "cancel-mcq-16": "「一個原本已安排但後來被取消的預約／名額」是「a cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-15": "「某項活動、預訂、服務或權利被正式停止／撤銷」是「cancellation」的用法，與本句語境不同。",
-        "cancel-mcq-14": "「透過公開批評、抵制或撤回支持回應被認為有問題言行的社會現象」是「cancel culture」的用法，與本句語境不同。",
-        "cancel-mcq-13": "「因其言行被認為有問題而公開撤回支持、關注或消費」是「cancel someone」的用法，與本句語境不同。"
+        "cancel-mcq-18": "本句的「cancel」指「一旦安排／購買後按規則不能再取消的」。",
+        "cancel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cancel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cancel-mcq-18"
     }
@@ -1627,5 +1463,7 @@ export default {
     "sha256": "8f05decfffdfe4b16619ad135773551f5864556bf44d02f6ba3374542eb6069f",
     "path": "manuals/cancel.pdf"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

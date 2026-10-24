@@ -592,11 +592,9 @@ export default {
       "masked": "The leaves are bright ____.",
       "options": [
         "green-mcq-01",
-        "green-mcq-02",
-        "green-mcq-03",
-        "green-mcq-04",
-        "green-mcq-05",
-        "green-mcq-06"
+        "green-mcq-08",
+        "green-mcq-20",
+        "green-mcq-05"
       ],
       "explanation": "本句的「green」指「與青草／葉子相似的綠色」。",
       "sentenceIndex": 0,
@@ -605,12 +603,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-01": "本句指「與青草／葉子相似的綠色」。",
-        "green-mcq-02": "「因大量草木生長而呈現青翠、有植物覆蓋的」是「green — vegetation」的用法，與本句語境不同。",
-        "green-mcq-03": "「對環境造成較少傷害或有助節能、減排、保護資源的」是「green — environmental」的用法，與本句語境不同。",
-        "green-mcq-04": "「開始採用更環保、節能或可持續的做法」是「go green」的用法，與本句語境不同。",
-        "green-mcq-05": "「尚未完全成熟，仍具有未成熟特徵的」是「green — fruit」的用法，與本句語境不同。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。"
+        "green-mcq-01": "本句的「green」指「與青草／葉子相似的綠色」。",
+        "green-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-01"
     },
@@ -622,11 +618,9 @@ export default {
       "masked": "She painted the door ____.",
       "options": [
         "green-mcq-01",
-        "green-mcq-02",
-        "green-mcq-03",
         "green-mcq-04",
         "green-mcq-05",
-        "green-mcq-06"
+        "green-mcq-07"
       ],
       "explanation": "本句的「green」指「與青草／葉子相似的綠色」。",
       "sentenceIndex": 1,
@@ -635,12 +629,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-01": "本句指「與青草／葉子相似的綠色」。",
-        "green-mcq-02": "「因大量草木生長而呈現青翠、有植物覆蓋的」是「green — vegetation」的用法，與本句語境不同。",
-        "green-mcq-03": "「對環境造成較少傷害或有助節能、減排、保護資源的」是「green — environmental」的用法，與本句語境不同。",
-        "green-mcq-04": "「開始採用更環保、節能或可持續的做法」是「go green」的用法，與本句語境不同。",
-        "green-mcq-05": "「尚未完全成熟，仍具有未成熟特徵的」是「green — fruit」的用法，與本句語境不同。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。"
+        "green-mcq-01": "本句的「green」指「與青草／葉子相似的綠色」。",
+        "green-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-01"
     },
@@ -652,11 +644,9 @@ export default {
       "masked": "The valley stays ____ throughout the spring.",
       "options": [
         "green-mcq-02",
-        "green-mcq-01",
-        "green-mcq-03",
+        "green-mcq-11",
         "green-mcq-04",
-        "green-mcq-05",
-        "green-mcq-06"
+        "green-mcq-09"
       ],
       "explanation": "本句的「green」指「因大量草木生長而呈現青翠、有植物覆蓋的」。",
       "sentenceIndex": 2,
@@ -665,12 +655,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-02": "本句指「因大量草木生長而呈現青翠、有植物覆蓋的」。",
-        "green-mcq-01": "「與青草／葉子相似的綠色」是「green — colour」的用法，與本句語境不同。",
-        "green-mcq-03": "「對環境造成較少傷害或有助節能、減排、保護資源的」是「green — environmental」的用法，與本句語境不同。",
-        "green-mcq-04": "「開始採用更環保、節能或可持續的做法」是「go green」的用法，與本句語境不同。",
-        "green-mcq-05": "「尚未完全成熟，仍具有未成熟特徵的」是「green — fruit」的用法，與本句語境不同。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。"
+        "green-mcq-02": "本句的「green」指「因大量草木生長而呈現青翠、有植物覆蓋的」。",
+        "green-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-02"
     },
@@ -682,11 +670,9 @@ export default {
       "masked": "They live in a very ____ area.",
       "options": [
         "green-mcq-02",
-        "green-mcq-01",
-        "green-mcq-03",
+        "green-mcq-11",
         "green-mcq-04",
-        "green-mcq-05",
-        "green-mcq-06"
+        "green-mcq-09"
       ],
       "explanation": "本句的「green」指「因大量草木生長而呈現青翠、有植物覆蓋的」。",
       "sentenceIndex": 3,
@@ -695,12 +681,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-02": "本句指「因大量草木生長而呈現青翠、有植物覆蓋的」。",
-        "green-mcq-01": "「與青草／葉子相似的綠色」是「green — colour」的用法，與本句語境不同。",
-        "green-mcq-03": "「對環境造成較少傷害或有助節能、減排、保護資源的」是「green — environmental」的用法，與本句語境不同。",
-        "green-mcq-04": "「開始採用更環保、節能或可持續的做法」是「go green」的用法，與本句語境不同。",
-        "green-mcq-05": "「尚未完全成熟，仍具有未成熟特徵的」是「green — fruit」的用法，與本句語境不同。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。"
+        "green-mcq-02": "本句的「green」指「因大量草木生長而呈現青翠、有植物覆蓋的」。",
+        "green-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-02"
     },
@@ -712,11 +696,9 @@ export default {
       "masked": "The company is investing in ____.",
       "options": [
         "green-mcq-03",
-        "green-mcq-02",
-        "green-mcq-04",
-        "green-mcq-01",
-        "green-mcq-05",
-        "green-mcq-06"
+        "green-mcq-22",
+        "green-mcq-23",
+        "green-mcq-01"
       ],
       "explanation": "本句的「green technology」指「對環境造成較少傷害或有助節能、減排、保護資源的」。",
       "sentenceIndex": 4,
@@ -725,12 +707,10 @@ export default {
         "green technology"
       ],
       "optionReasons": {
-        "green-mcq-03": "本句指「對環境造成較少傷害或有助節能、減排、保護資源的」。",
-        "green-mcq-02": "「因大量草木生長而呈現青翠、有植物覆蓋的」是「green — vegetation」的用法，與本句語境不同。",
-        "green-mcq-04": "「開始採用更環保、節能或可持續的做法」是「go green」的用法，與本句語境不同。",
-        "green-mcq-01": "「與青草／葉子相似的綠色」是「green — colour」的用法，與本句語境不同。",
-        "green-mcq-05": "「尚未完全成熟，仍具有未成熟特徵的」是「green — fruit」的用法，與本句語境不同。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。"
+        "green-mcq-03": "本句的「green technology」指「對環境造成較少傷害或有助節能、減排、保護資源的」。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-03"
     },
@@ -742,11 +722,9 @@ export default {
       "masked": "Many cities are trying to become ____.",
       "options": [
         "green-mcq-03",
-        "green-mcq-02",
-        "green-mcq-04",
-        "green-mcq-01",
-        "green-mcq-05",
-        "green-mcq-06"
+        "green-mcq-16",
+        "green-mcq-22",
+        "green-mcq-08"
       ],
       "explanation": "本句的「greener」指「對環境造成較少傷害或有助節能、減排、保護資源的」。",
       "sentenceIndex": 5,
@@ -755,12 +733,10 @@ export default {
         "greener"
       ],
       "optionReasons": {
-        "green-mcq-03": "本句指「對環境造成較少傷害或有助節能、減排、保護資源的」。",
-        "green-mcq-02": "「因大量草木生長而呈現青翠、有植物覆蓋的」是「green — vegetation」的用法，與本句語境不同。",
-        "green-mcq-04": "「開始採用更環保、節能或可持續的做法」是「go green」的用法，與本句語境不同。",
-        "green-mcq-01": "「與青草／葉子相似的綠色」是「green — colour」的用法，與本句語境不同。",
-        "green-mcq-05": "「尚未完全成熟，仍具有未成熟特徵的」是「green — fruit」的用法，與本句語境不同。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。"
+        "green-mcq-03": "本句的「greener」指「對環境造成較少傷害或有助節能、減排、保護資源的」。",
+        "green-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-03"
     },
@@ -772,11 +748,9 @@ export default {
       "masked": "The school is trying to ____ by reducing waste.",
       "options": [
         "green-mcq-04",
-        "green-mcq-03",
-        "green-mcq-05",
         "green-mcq-02",
-        "green-mcq-06",
-        "green-mcq-01"
+        "green-mcq-16",
+        "green-mcq-07"
       ],
       "explanation": "本句的「go green」指「開始採用更環保、節能或可持續的做法」。",
       "sentenceIndex": 6,
@@ -785,12 +759,10 @@ export default {
         "go green"
       ],
       "optionReasons": {
-        "green-mcq-04": "本句指「開始採用更環保、節能或可持續的做法」。",
-        "green-mcq-03": "「對環境造成較少傷害或有助節能、減排、保護資源的」是「green — environmental」的用法，與本句語境不同。",
-        "green-mcq-05": "「尚未完全成熟，仍具有未成熟特徵的」是「green — fruit」的用法，與本句語境不同。",
-        "green-mcq-02": "「因大量草木生長而呈現青翠、有植物覆蓋的」是「green — vegetation」的用法，與本句語境不同。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。",
-        "green-mcq-01": "「與青草／葉子相似的綠色」是「green — colour」的用法，與本句語境不同。"
+        "green-mcq-04": "本句的「go green」指「開始採用更環保、節能或可持續的做法」。",
+        "green-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-04"
     },
@@ -802,11 +774,9 @@ export default {
       "masked": "More businesses are going ____.",
       "options": [
         "green-mcq-04",
-        "green-mcq-03",
-        "green-mcq-05",
-        "green-mcq-02",
-        "green-mcq-06",
-        "green-mcq-01"
+        "green-mcq-01",
+        "green-mcq-09",
+        "green-mcq-22"
       ],
       "explanation": "本句的「green」指「開始採用更環保、節能或可持續的做法」。",
       "sentenceIndex": 7,
@@ -815,12 +785,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-04": "本句指「開始採用更環保、節能或可持續的做法」。",
-        "green-mcq-03": "「對環境造成較少傷害或有助節能、減排、保護資源的」是「green — environmental」的用法，與本句語境不同。",
-        "green-mcq-05": "「尚未完全成熟，仍具有未成熟特徵的」是「green — fruit」的用法，與本句語境不同。",
-        "green-mcq-02": "「因大量草木生長而呈現青翠、有植物覆蓋的」是「green — vegetation」的用法，與本句語境不同。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。",
-        "green-mcq-01": "「與青草／葉子相似的綠色」是「green — colour」的用法，與本句語境不同。"
+        "green-mcq-04": "本句的「green」指「開始採用更環保、節能或可持續的做法」。",
+        "green-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-04"
     },
@@ -832,11 +800,9 @@ export default {
       "masked": "The tomatoes are still ____.",
       "options": [
         "green-mcq-05",
-        "green-mcq-04",
-        "green-mcq-06",
-        "green-mcq-03",
-        "green-mcq-07",
-        "green-mcq-02"
+        "green-mcq-18",
+        "green-mcq-12",
+        "green-mcq-08"
       ],
       "explanation": "本句的「green」指「尚未完全成熟，仍具有未成熟特徵的」。",
       "sentenceIndex": 8,
@@ -845,12 +811,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-05": "本句指「尚未完全成熟，仍具有未成熟特徵的」。",
-        "green-mcq-04": "「開始採用更環保、節能或可持續的做法」是「go green」的用法，與本句語境不同。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。",
-        "green-mcq-03": "「對環境造成較少傷害或有助節能、減排、保護資源的」是「green — environmental」的用法，與本句語境不同。",
-        "green-mcq-07": "「因剛接觸某領域而缺乏實際經驗的」是「green — inexperienced」的用法，與本句語境不同。",
-        "green-mcq-02": "「因大量草木生長而呈現青翠、有植物覆蓋的」是「green — vegetation」的用法，與本句語境不同。"
+        "green-mcq-05": "本句的「green」指「尚未完全成熟，仍具有未成熟特徵的」。",
+        "green-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-05"
     },
@@ -862,11 +826,9 @@ export default {
       "masked": "Don’t pick the fruit while it is still ____.",
       "options": [
         "green-mcq-05",
-        "green-mcq-04",
-        "green-mcq-06",
-        "green-mcq-03",
-        "green-mcq-07",
-        "green-mcq-02"
+        "green-mcq-08",
+        "green-mcq-15",
+        "green-mcq-26"
       ],
       "explanation": "本句的「green」指「尚未完全成熟，仍具有未成熟特徵的」。",
       "sentenceIndex": 9,
@@ -875,12 +837,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-05": "本句指「尚未完全成熟，仍具有未成熟特徵的」。",
-        "green-mcq-04": "「開始採用更環保、節能或可持續的做法」是「go green」的用法，與本句語境不同。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。",
-        "green-mcq-03": "「對環境造成較少傷害或有助節能、減排、保護資源的」是「green — environmental」的用法，與本句語境不同。",
-        "green-mcq-07": "「因剛接觸某領域而缺乏實際經驗的」是「green — inexperienced」的用法，與本句語境不同。",
-        "green-mcq-02": "「因大量草木生長而呈現青翠、有植物覆蓋的」是「green — vegetation」的用法，與本句語境不同。"
+        "green-mcq-05": "本句的「green」指「尚未完全成熟，仍具有未成熟特徵的」。",
+        "green-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-05"
     },
@@ -892,11 +852,9 @@ export default {
       "masked": "The firewood was too ____ to burn properly.",
       "options": [
         "green-mcq-06",
-        "green-mcq-05",
-        "green-mcq-07",
+        "green-mcq-16",
         "green-mcq-04",
-        "green-mcq-08",
-        "green-mcq-03"
+        "green-mcq-10"
       ],
       "explanation": "本句的「green」指「剛砍下、含水量高、尚未乾燥／熟成的」。",
       "sentenceIndex": 10,
@@ -905,12 +863,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-06": "本句指「剛砍下、含水量高、尚未乾燥／熟成的」。",
-        "green-mcq-05": "「尚未完全成熟，仍具有未成熟特徵的」是「green — fruit」的用法，與本句語境不同。",
-        "green-mcq-07": "「因剛接觸某領域而缺乏實際經驗的」是「green — inexperienced」的用法，與本句語境不同。",
-        "green-mcq-04": "「開始採用更環保、節能或可持續的做法」是「go green」的用法，與本句語境不同。",
-        "green-mcq-08": "「因缺乏人生／社會經驗而顯得天真、不懂世故的」是「green — naïve」的用法，與本句語境不同。",
-        "green-mcq-03": "「對環境造成較少傷害或有助節能、減排、保護資源的」是「green — environmental」的用法，與本句語境不同。"
+        "green-mcq-06": "本句的「green」指「剛砍下、含水量高、尚未乾燥／熟成的」。",
+        "green-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-06"
     },
@@ -922,11 +878,9 @@ export default {
       "masked": "____ wood can change shape as it dries.",
       "options": [
         "green-mcq-06",
-        "green-mcq-05",
-        "green-mcq-07",
-        "green-mcq-04",
-        "green-mcq-08",
-        "green-mcq-03"
+        "green-mcq-18",
+        "green-mcq-21",
+        "green-mcq-25"
       ],
       "explanation": "本句的「Green」指「剛砍下、含水量高、尚未乾燥／熟成的」。",
       "sentenceIndex": 11,
@@ -935,12 +889,10 @@ export default {
         "Green"
       ],
       "optionReasons": {
-        "green-mcq-06": "本句指「剛砍下、含水量高、尚未乾燥／熟成的」。",
-        "green-mcq-05": "「尚未完全成熟，仍具有未成熟特徵的」是「green — fruit」的用法，與本句語境不同。",
-        "green-mcq-07": "「因剛接觸某領域而缺乏實際經驗的」是「green — inexperienced」的用法，與本句語境不同。",
-        "green-mcq-04": "「開始採用更環保、節能或可持續的做法」是「go green」的用法，與本句語境不同。",
-        "green-mcq-08": "「因缺乏人生／社會經驗而顯得天真、不懂世故的」是「green — naïve」的用法，與本句語境不同。",
-        "green-mcq-03": "「對環境造成較少傷害或有助節能、減排、保護資源的」是「green — environmental」的用法，與本句語境不同。"
+        "green-mcq-06": "本句的「Green」指「剛砍下、含水量高、尚未乾燥／熟成的」。",
+        "green-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-06"
     },
@@ -952,11 +904,9 @@ export default {
       "masked": "The new employee is still quite ____.",
       "options": [
         "green-mcq-07",
-        "green-mcq-06",
-        "green-mcq-08",
+        "green-mcq-11",
         "green-mcq-05",
-        "green-mcq-09",
-        "green-mcq-04"
+        "green-mcq-14"
       ],
       "explanation": "本句的「green」指「因剛接觸某領域而缺乏實際經驗的」。",
       "sentenceIndex": 12,
@@ -965,12 +915,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-07": "本句指「因剛接觸某領域而缺乏實際經驗的」。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。",
-        "green-mcq-08": "「因缺乏人生／社會經驗而顯得天真、不懂世故的」是「green — naïve」的用法，與本句語境不同。",
-        "green-mcq-05": "「尚未完全成熟，仍具有未成熟特徵的」是「green — fruit」的用法，與本句語境不同。",
-        "green-mcq-09": "「對別人所擁有的東西感到非常嫉妒／眼紅」是「green with envy」的用法，與本句語境不同。",
-        "green-mcq-04": "「開始採用更環保、節能或可持續的做法」是「go green」的用法，與本句語境不同。"
+        "green-mcq-07": "本句的「green」指「因剛接觸某領域而缺乏實際經驗的」。",
+        "green-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-07"
     },
@@ -982,11 +930,9 @@ export default {
       "masked": "He was talented but ____ when he first became a manager.",
       "options": [
         "green-mcq-07",
-        "green-mcq-06",
-        "green-mcq-08",
-        "green-mcq-05",
-        "green-mcq-09",
-        "green-mcq-04"
+        "green-mcq-25",
+        "green-mcq-04",
+        "green-mcq-14"
       ],
       "explanation": "本句的「green」指「因剛接觸某領域而缺乏實際經驗的」。",
       "sentenceIndex": 13,
@@ -995,12 +941,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-07": "本句指「因剛接觸某領域而缺乏實際經驗的」。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。",
-        "green-mcq-08": "「因缺乏人生／社會經驗而顯得天真、不懂世故的」是「green — naïve」的用法，與本句語境不同。",
-        "green-mcq-05": "「尚未完全成熟，仍具有未成熟特徵的」是「green — fruit」的用法，與本句語境不同。",
-        "green-mcq-09": "「對別人所擁有的東西感到非常嫉妒／眼紅」是「green with envy」的用法，與本句語境不同。",
-        "green-mcq-04": "「開始採用更環保、節能或可持續的做法」是「go green」的用法，與本句語境不同。"
+        "green-mcq-07": "本句的「green」指「因剛接觸某領域而缺乏實際經驗的」。",
+        "green-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-07"
     },
@@ -1012,11 +956,9 @@ export default {
       "masked": "He was too ____ to realise that the offer was suspicious.",
       "options": [
         "green-mcq-08",
-        "green-mcq-07",
-        "green-mcq-09",
-        "green-mcq-06",
-        "green-mcq-10",
-        "green-mcq-05"
+        "green-mcq-17",
+        "green-mcq-04",
+        "green-mcq-09"
       ],
       "explanation": "本句的「green」指「因缺乏人生／社會經驗而顯得天真、不懂世故的」。",
       "sentenceIndex": 14,
@@ -1025,12 +967,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-08": "本句指「因缺乏人生／社會經驗而顯得天真、不懂世故的」。",
-        "green-mcq-07": "「因剛接觸某領域而缺乏實際經驗的」是「green — inexperienced」的用法，與本句語境不同。",
-        "green-mcq-09": "「對別人所擁有的東西感到非常嫉妒／眼紅」是「green with envy」的用法，與本句語境不同。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。",
-        "green-mcq-10": "「因噁心或不適而顯得臉色異常發青的」是「green — sick-looking」的用法，與本句語境不同。",
-        "green-mcq-05": "「尚未完全成熟，仍具有未成熟特徵的」是「green — fruit」的用法，與本句語境不同。"
+        "green-mcq-08": "本句的「green」指「因缺乏人生／社會經驗而顯得天真、不懂世故的」。",
+        "green-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-08"
     },
@@ -1042,11 +982,9 @@ export default {
       "masked": "She was young and ____ when she first moved to the city.",
       "options": [
         "green-mcq-08",
-        "green-mcq-07",
-        "green-mcq-09",
-        "green-mcq-06",
-        "green-mcq-10",
-        "green-mcq-05"
+        "green-mcq-05",
+        "green-mcq-22",
+        "green-mcq-11"
       ],
       "explanation": "本句的「green」指「因缺乏人生／社會經驗而顯得天真、不懂世故的」。",
       "sentenceIndex": 15,
@@ -1055,12 +993,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-08": "本句指「因缺乏人生／社會經驗而顯得天真、不懂世故的」。",
-        "green-mcq-07": "「因剛接觸某領域而缺乏實際經驗的」是「green — inexperienced」的用法，與本句語境不同。",
-        "green-mcq-09": "「對別人所擁有的東西感到非常嫉妒／眼紅」是「green with envy」的用法，與本句語境不同。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。",
-        "green-mcq-10": "「因噁心或不適而顯得臉色異常發青的」是「green — sick-looking」的用法，與本句語境不同。",
-        "green-mcq-05": "「尚未完全成熟，仍具有未成熟特徵的」是「green — fruit」的用法，與本句語境不同。"
+        "green-mcq-08": "本句的「green」指「因缺乏人生／社會經驗而顯得天真、不懂世故的」。",
+        "green-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-08"
     },
@@ -1072,11 +1008,9 @@ export default {
       "masked": "She was ____ when she saw her friend’s garden.",
       "options": [
         "green-mcq-09",
-        "green-mcq-08",
-        "green-mcq-10",
-        "green-mcq-07",
-        "green-mcq-11",
-        "green-mcq-06"
+        "green-mcq-06",
+        "green-mcq-20",
+        "green-mcq-12"
       ],
       "explanation": "本句的「green with envy」指「對別人所擁有的東西感到非常嫉妒／眼紅」。",
       "sentenceIndex": 16,
@@ -1085,12 +1019,10 @@ export default {
         "green with envy"
       ],
       "optionReasons": {
-        "green-mcq-09": "本句指「對別人所擁有的東西感到非常嫉妒／眼紅」。",
-        "green-mcq-08": "「因缺乏人生／社會經驗而顯得天真、不懂世故的」是「green — naïve」的用法，與本句語境不同。",
-        "green-mcq-10": "「因噁心或不適而顯得臉色異常發青的」是「green — sick-looking」的用法，與本句語境不同。",
-        "green-mcq-07": "「因剛接觸某領域而缺乏實際經驗的」是「green — inexperienced」的用法，與本句語境不同。",
-        "green-mcq-11": "「交通訊號中表示可以前進的綠色燈號」是「green light — literal」的用法，與本句語境不同。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。"
+        "green-mcq-09": "本句的「green with envy」指「對別人所擁有的東西感到非常嫉妒／眼紅」。",
+        "green-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-09"
     },
@@ -1102,11 +1034,9 @@ export default {
       "masked": "His colleagues were ____ with envy after he won the prize.",
       "options": [
         "green-mcq-09",
-        "green-mcq-08",
-        "green-mcq-10",
-        "green-mcq-07",
-        "green-mcq-11",
-        "green-mcq-06"
+        "green-mcq-25",
+        "green-mcq-23",
+        "green-mcq-22"
       ],
       "explanation": "本句的「green」指「對別人所擁有的東西感到非常嫉妒／眼紅」。",
       "sentenceIndex": 17,
@@ -1115,12 +1045,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-09": "本句指「對別人所擁有的東西感到非常嫉妒／眼紅」。",
-        "green-mcq-08": "「因缺乏人生／社會經驗而顯得天真、不懂世故的」是「green — naïve」的用法，與本句語境不同。",
-        "green-mcq-10": "「因噁心或不適而顯得臉色異常發青的」是「green — sick-looking」的用法，與本句語境不同。",
-        "green-mcq-07": "「因剛接觸某領域而缺乏實際經驗的」是「green — inexperienced」的用法，與本句語境不同。",
-        "green-mcq-11": "「交通訊號中表示可以前進的綠色燈號」是「green light — literal」的用法，與本句語境不同。",
-        "green-mcq-06": "「剛砍下、含水量高、尚未乾燥／熟成的」是「green — wood」的用法，與本句語境不同。"
+        "green-mcq-09": "本句的「green」指「對別人所擁有的東西感到非常嫉妒／眼紅」。",
+        "green-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-09"
     },
@@ -1132,11 +1060,9 @@ export default {
       "masked": "He looked slightly ____ after the boat ride.",
       "options": [
         "green-mcq-10",
-        "green-mcq-09",
-        "green-mcq-11",
-        "green-mcq-08",
-        "green-mcq-12",
-        "green-mcq-07"
+        "green-mcq-21",
+        "green-mcq-25",
+        "green-mcq-22"
       ],
       "explanation": "本句的「green」指「因噁心或不適而顯得臉色異常發青的」。",
       "sentenceIndex": 18,
@@ -1145,12 +1071,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-10": "本句指「因噁心或不適而顯得臉色異常發青的」。",
-        "green-mcq-09": "「對別人所擁有的東西感到非常嫉妒／眼紅」是「green with envy」的用法，與本句語境不同。",
-        "green-mcq-11": "「交通訊號中表示可以前進的綠色燈號」是「green light — literal」的用法，與本句語境不同。",
-        "green-mcq-08": "「因缺乏人生／社會經驗而顯得天真、不懂世故的」是「green — naïve」的用法，與本句語境不同。",
-        "green-mcq-12": "「正式允許某項計劃／行動開始進行的批准」是「green light — figurative」的用法，與本句語境不同。",
-        "green-mcq-07": "「因剛接觸某領域而缺乏實際經驗的」是「green — inexperienced」的用法，與本句語境不同。"
+        "green-mcq-10": "本句的「green」指「因噁心或不適而顯得臉色異常發青的」。",
+        "green-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-10"
     },
@@ -1162,11 +1086,9 @@ export default {
       "masked": "You look a bit ____. Are you feeling sick?",
       "options": [
         "green-mcq-10",
-        "green-mcq-09",
-        "green-mcq-11",
-        "green-mcq-08",
         "green-mcq-12",
-        "green-mcq-07"
+        "green-mcq-03",
+        "green-mcq-20"
       ],
       "explanation": "本句的「green」指「因噁心或不適而顯得臉色異常發青的」。",
       "sentenceIndex": 19,
@@ -1175,12 +1097,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-10": "本句指「因噁心或不適而顯得臉色異常發青的」。",
-        "green-mcq-09": "「對別人所擁有的東西感到非常嫉妒／眼紅」是「green with envy」的用法，與本句語境不同。",
-        "green-mcq-11": "「交通訊號中表示可以前進的綠色燈號」是「green light — literal」的用法，與本句語境不同。",
-        "green-mcq-08": "「因缺乏人生／社會經驗而顯得天真、不懂世故的」是「green — naïve」的用法，與本句語境不同。",
-        "green-mcq-12": "「正式允許某項計劃／行動開始進行的批准」是「green light — figurative」的用法，與本句語境不同。",
-        "green-mcq-07": "「因剛接觸某領域而缺乏實際經驗的」是「green — inexperienced」的用法，與本句語境不同。"
+        "green-mcq-10": "本句的「green」指「因噁心或不適而顯得臉色異常發青的」。",
+        "green-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-10"
     },
@@ -1192,11 +1112,9 @@ export default {
       "masked": "Wait until the light turns ____.",
       "options": [
         "green-mcq-11",
-        "green-mcq-10",
-        "green-mcq-12",
-        "green-mcq-09",
-        "green-mcq-13",
-        "green-mcq-08"
+        "green-mcq-07",
+        "green-mcq-20",
+        "green-mcq-02"
       ],
       "explanation": "本句的「green」指「交通訊號中表示可以前進的綠色燈號」。",
       "sentenceIndex": 20,
@@ -1205,12 +1123,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-11": "本句指「交通訊號中表示可以前進的綠色燈號」。",
-        "green-mcq-10": "「因噁心或不適而顯得臉色異常發青的」是「green — sick-looking」的用法，與本句語境不同。",
-        "green-mcq-12": "「正式允許某項計劃／行動開始進行的批准」是「green light — figurative」的用法，與本句語境不同。",
-        "green-mcq-09": "「對別人所擁有的東西感到非常嫉妒／眼紅」是「green with envy」的用法，與本句語境不同。",
-        "green-mcq-13": "「城市／社區中由草地、樹木等形成的自然開放空間」是「green space」的用法，與本句語境不同。",
-        "green-mcq-08": "「因缺乏人生／社會經驗而顯得天真、不懂世故的」是「green — naïve」的用法，與本句語境不同。"
+        "green-mcq-11": "本句的「green」指「交通訊號中表示可以前進的綠色燈號」。",
+        "green-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-11"
     },
@@ -1222,11 +1138,9 @@ export default {
       "masked": "The cars moved when the ____ light appeared.",
       "options": [
         "green-mcq-11",
-        "green-mcq-10",
-        "green-mcq-12",
-        "green-mcq-09",
-        "green-mcq-13",
-        "green-mcq-08"
+        "green-mcq-06",
+        "green-mcq-25",
+        "green-mcq-07"
       ],
       "explanation": "本句的「green」指「交通訊號中表示可以前進的綠色燈號」。",
       "sentenceIndex": 21,
@@ -1235,12 +1149,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-11": "本句指「交通訊號中表示可以前進的綠色燈號」。",
-        "green-mcq-10": "「因噁心或不適而顯得臉色異常發青的」是「green — sick-looking」的用法，與本句語境不同。",
-        "green-mcq-12": "「正式允許某項計劃／行動開始進行的批准」是「green light — figurative」的用法，與本句語境不同。",
-        "green-mcq-09": "「對別人所擁有的東西感到非常嫉妒／眼紅」是「green with envy」的用法，與本句語境不同。",
-        "green-mcq-13": "「城市／社區中由草地、樹木等形成的自然開放空間」是「green space」的用法，與本句語境不同。",
-        "green-mcq-08": "「因缺乏人生／社會經驗而顯得天真、不懂世故的」是「green — naïve」的用法，與本句語境不同。"
+        "green-mcq-11": "本句的「green」指「交通訊號中表示可以前進的綠色燈號」。",
+        "green-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-11"
     },
@@ -1252,11 +1164,9 @@ export default {
       "masked": "The project received the ____.",
       "options": [
         "green-mcq-12",
-        "green-mcq-11",
-        "green-mcq-13",
-        "green-mcq-10",
-        "green-mcq-14",
-        "green-mcq-09"
+        "green-mcq-23",
+        "green-mcq-16",
+        "green-mcq-22"
       ],
       "explanation": "本句的「green light」指「正式允許某項計劃／行動開始進行的批准」。",
       "sentenceIndex": 22,
@@ -1265,12 +1175,10 @@ export default {
         "green light"
       ],
       "optionReasons": {
-        "green-mcq-12": "本句指「正式允許某項計劃／行動開始進行的批准」。",
-        "green-mcq-11": "「交通訊號中表示可以前進的綠色燈號」是「green light — literal」的用法，與本句語境不同。",
-        "green-mcq-13": "「城市／社區中由草地、樹木等形成的自然開放空間」是「green space」的用法，與本句語境不同。",
-        "green-mcq-10": "「因噁心或不適而顯得臉色異常發青的」是「green — sick-looking」的用法，與本句語境不同。",
-        "green-mcq-14": "「主要由青草覆蓋的公共草地」是「the green」的用法，與本句語境不同。",
-        "green-mcq-09": "「對別人所擁有的東西感到非常嫉妒／眼紅」是「green with envy」的用法，與本句語境不同。"
+        "green-mcq-12": "本句的「green light」指「正式允許某項計劃／行動開始進行的批准」。",
+        "green-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-12"
     },
@@ -1282,11 +1190,9 @@ export default {
       "masked": "Management gave us the ____ light to begin.",
       "options": [
         "green-mcq-12",
-        "green-mcq-11",
-        "green-mcq-13",
-        "green-mcq-10",
-        "green-mcq-14",
-        "green-mcq-09"
+        "green-mcq-05",
+        "green-mcq-22",
+        "green-mcq-07"
       ],
       "explanation": "本句的「green」指「正式允許某項計劃／行動開始進行的批准」。",
       "sentenceIndex": 23,
@@ -1295,12 +1201,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-12": "本句指「正式允許某項計劃／行動開始進行的批准」。",
-        "green-mcq-11": "「交通訊號中表示可以前進的綠色燈號」是「green light — literal」的用法，與本句語境不同。",
-        "green-mcq-13": "「城市／社區中由草地、樹木等形成的自然開放空間」是「green space」的用法，與本句語境不同。",
-        "green-mcq-10": "「因噁心或不適而顯得臉色異常發青的」是「green — sick-looking」的用法，與本句語境不同。",
-        "green-mcq-14": "「主要由青草覆蓋的公共草地」是「the green」的用法，與本句語境不同。",
-        "green-mcq-09": "「對別人所擁有的東西感到非常嫉妒／眼紅」是「green with envy」的用法，與本句語境不同。"
+        "green-mcq-12": "本句的「green」指「正式允許某項計劃／行動開始進行的批准」。",
+        "green-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-12"
     },
@@ -1312,11 +1216,9 @@ export default {
       "masked": "The neighbourhood has plenty of ____.",
       "options": [
         "green-mcq-13",
-        "green-mcq-12",
-        "green-mcq-14",
-        "green-mcq-11",
-        "green-mcq-15",
-        "green-mcq-10"
+        "green-mcq-09",
+        "green-mcq-10",
+        "green-mcq-20"
       ],
       "explanation": "本句的「green space」指「城市／社區中由草地、樹木等形成的自然開放空間」。",
       "sentenceIndex": 24,
@@ -1325,12 +1227,10 @@ export default {
         "green space"
       ],
       "optionReasons": {
-        "green-mcq-13": "本句指「城市／社區中由草地、樹木等形成的自然開放空間」。",
-        "green-mcq-12": "「正式允許某項計劃／行動開始進行的批准」是「green light — figurative」的用法，與本句語境不同。",
-        "green-mcq-14": "「主要由青草覆蓋的公共草地」是「the green」的用法，與本句語境不同。",
-        "green-mcq-11": "「交通訊號中表示可以前進的綠色燈號」是「green light — literal」的用法，與本句語境不同。",
-        "green-mcq-15": "「球洞周圍供球員推桿的短草區域；果嶺」是「green — golf」的用法，與本句語境不同。",
-        "green-mcq-10": "「因噁心或不適而顯得臉色異常發青的」是「green — sick-looking」的用法，與本句語境不同。"
+        "green-mcq-13": "本句的「green space」指「城市／社區中由草地、樹木等形成的自然開放空間」。",
+        "green-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-13"
     },
@@ -1342,11 +1242,9 @@ export default {
       "masked": "Parks provide valuable ____ space in crowded cities.",
       "options": [
         "green-mcq-13",
-        "green-mcq-12",
-        "green-mcq-14",
-        "green-mcq-11",
-        "green-mcq-15",
-        "green-mcq-10"
+        "green-mcq-09",
+        "green-mcq-22",
+        "green-mcq-11"
       ],
       "explanation": "本句的「green」指「城市／社區中由草地、樹木等形成的自然開放空間」。",
       "sentenceIndex": 25,
@@ -1355,12 +1253,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-13": "本句指「城市／社區中由草地、樹木等形成的自然開放空間」。",
-        "green-mcq-12": "「正式允許某項計劃／行動開始進行的批准」是「green light — figurative」的用法，與本句語境不同。",
-        "green-mcq-14": "「主要由青草覆蓋的公共草地」是「the green」的用法，與本句語境不同。",
-        "green-mcq-11": "「交通訊號中表示可以前進的綠色燈號」是「green light — literal」的用法，與本句語境不同。",
-        "green-mcq-15": "「球洞周圍供球員推桿的短草區域；果嶺」是「green — golf」的用法，與本句語境不同。",
-        "green-mcq-10": "「因噁心或不適而顯得臉色異常發青的」是「green — sick-looking」的用法，與本句語境不同。"
+        "green-mcq-13": "本句的「green」指「城市／社區中由草地、樹木等形成的自然開放空間」。",
+        "green-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-13"
     },
@@ -1372,11 +1268,9 @@ export default {
       "masked": "Children were playing on the village ____.",
       "options": [
         "green-mcq-14",
-        "green-mcq-13",
-        "green-mcq-15",
-        "green-mcq-12",
         "green-mcq-16",
-        "green-mcq-11"
+        "green-mcq-24",
+        "green-mcq-06"
       ],
       "explanation": "本句的「green」指「主要由青草覆蓋的公共草地」。",
       "sentenceIndex": 26,
@@ -1385,12 +1279,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-14": "本句指「主要由青草覆蓋的公共草地」。",
-        "green-mcq-13": "「城市／社區中由草地、樹木等形成的自然開放空間」是「green space」的用法，與本句語境不同。",
-        "green-mcq-15": "「球洞周圍供球員推桿的短草區域；果嶺」是「green — golf」的用法，與本句語境不同。",
-        "green-mcq-12": "「正式允許某項計劃／行動開始進行的批准」是「green light — figurative」的用法，與本句語境不同。",
-        "green-mcq-16": "「供食用的綠葉蔬菜」是「greens」的用法，與本句語境不同。",
-        "green-mcq-11": "「交通訊號中表示可以前進的綠色燈號」是「green light — literal」的用法，與本句語境不同。"
+        "green-mcq-14": "本句的「green」指「主要由青草覆蓋的公共草地」。",
+        "green-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-14"
     },
@@ -1402,11 +1294,9 @@ export default {
       "masked": "People gathered on the ____ for the summer event.",
       "options": [
         "green-mcq-14",
-        "green-mcq-13",
-        "green-mcq-15",
-        "green-mcq-12",
-        "green-mcq-16",
-        "green-mcq-11"
+        "green-mcq-17",
+        "green-mcq-23",
+        "green-mcq-22"
       ],
       "explanation": "本句的「green」指「主要由青草覆蓋的公共草地」。",
       "sentenceIndex": 27,
@@ -1415,12 +1305,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-14": "本句指「主要由青草覆蓋的公共草地」。",
-        "green-mcq-13": "「城市／社區中由草地、樹木等形成的自然開放空間」是「green space」的用法，與本句語境不同。",
-        "green-mcq-15": "「球洞周圍供球員推桿的短草區域；果嶺」是「green — golf」的用法，與本句語境不同。",
-        "green-mcq-12": "「正式允許某項計劃／行動開始進行的批准」是「green light — figurative」的用法，與本句語境不同。",
-        "green-mcq-16": "「供食用的綠葉蔬菜」是「greens」的用法，與本句語境不同。",
-        "green-mcq-11": "「交通訊號中表示可以前進的綠色燈號」是「green light — literal」的用法，與本句語境不同。"
+        "green-mcq-14": "本句的「green」指「主要由青草覆蓋的公共草地」。",
+        "green-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-14"
     },
@@ -1432,11 +1320,9 @@ export default {
       "masked": "Her ball landed on the ____.",
       "options": [
         "green-mcq-15",
-        "green-mcq-14",
-        "green-mcq-16",
-        "green-mcq-13",
-        "green-mcq-17",
-        "green-mcq-12"
+        "green-mcq-10",
+        "green-mcq-19",
+        "green-mcq-06"
       ],
       "explanation": "本句的「green」指「球洞周圍供球員推桿的短草區域；果嶺」。",
       "sentenceIndex": 28,
@@ -1445,12 +1331,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-15": "本句指「球洞周圍供球員推桿的短草區域；果嶺」。",
-        "green-mcq-14": "「主要由青草覆蓋的公共草地」是「the green」的用法，與本句語境不同。",
-        "green-mcq-16": "「供食用的綠葉蔬菜」是「greens」的用法，與本句語境不同。",
-        "green-mcq-13": "「城市／社區中由草地、樹木等形成的自然開放空間」是「green space」的用法，與本句語境不同。",
-        "green-mcq-17": "「植物、綠葉和綠色植被形成的整體」是「greenery」的用法，與本句語境不同。",
-        "green-mcq-12": "「正式允許某項計劃／行動開始進行的批准」是「green light — figurative」的用法，與本句語境不同。"
+        "green-mcq-15": "本句的「green」指「球洞周圍供球員推桿的短草區域；果嶺」。",
+        "green-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-15"
     },
@@ -1462,11 +1346,9 @@ export default {
       "masked": "The golfer carefully read the ____ before putting.",
       "options": [
         "green-mcq-15",
-        "green-mcq-14",
-        "green-mcq-16",
-        "green-mcq-13",
-        "green-mcq-17",
-        "green-mcq-12"
+        "green-mcq-06",
+        "green-mcq-20",
+        "green-mcq-09"
       ],
       "explanation": "本句的「green」指「球洞周圍供球員推桿的短草區域；果嶺」。",
       "sentenceIndex": 29,
@@ -1475,12 +1357,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-15": "本句指「球洞周圍供球員推桿的短草區域；果嶺」。",
-        "green-mcq-14": "「主要由青草覆蓋的公共草地」是「the green」的用法，與本句語境不同。",
-        "green-mcq-16": "「供食用的綠葉蔬菜」是「greens」的用法，與本句語境不同。",
-        "green-mcq-13": "「城市／社區中由草地、樹木等形成的自然開放空間」是「green space」的用法，與本句語境不同。",
-        "green-mcq-17": "「植物、綠葉和綠色植被形成的整體」是「greenery」的用法，與本句語境不同。",
-        "green-mcq-12": "「正式允許某項計劃／行動開始進行的批准」是「green light — figurative」的用法，與本句語境不同。"
+        "green-mcq-15": "本句的「green」指「球洞周圍供球員推桿的短草區域；果嶺」。",
+        "green-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-15"
     },
@@ -1492,11 +1372,9 @@ export default {
       "masked": "You should eat more leafy ____.",
       "options": [
         "green-mcq-16",
-        "green-mcq-15",
-        "green-mcq-17",
-        "green-mcq-14",
-        "green-mcq-18",
-        "green-mcq-13"
+        "green-mcq-10",
+        "green-mcq-20",
+        "green-mcq-06"
       ],
       "explanation": "本句的「greens」指「供食用的綠葉蔬菜」。",
       "sentenceIndex": 30,
@@ -1505,12 +1383,10 @@ export default {
         "greens"
       ],
       "optionReasons": {
-        "green-mcq-16": "本句指「供食用的綠葉蔬菜」。",
-        "green-mcq-15": "「球洞周圍供球員推桿的短草區域；果嶺」是「green — golf」的用法，與本句語境不同。",
-        "green-mcq-17": "「植物、綠葉和綠色植被形成的整體」是「greenery」的用法，與本句語境不同。",
-        "green-mcq-14": "「主要由青草覆蓋的公共草地」是「the green」的用法，與本句語境不同。",
-        "green-mcq-18": "「顏色有些接近綠色但並非純綠的」是「greenish」的用法，與本句語境不同。",
-        "green-mcq-13": "「城市／社區中由草地、樹木等形成的自然開放空間」是「green space」的用法，與本句語境不同。"
+        "green-mcq-16": "本句的「greens」指「供食用的綠葉蔬菜」。",
+        "green-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-16"
     },
@@ -1522,11 +1398,9 @@ export default {
       "masked": "The meal came with rice and fresh ____.",
       "options": [
         "green-mcq-16",
-        "green-mcq-15",
-        "green-mcq-17",
-        "green-mcq-14",
-        "green-mcq-18",
-        "green-mcq-13"
+        "green-mcq-03",
+        "green-mcq-08",
+        "green-mcq-09"
       ],
       "explanation": "本句的「greens」指「供食用的綠葉蔬菜」。",
       "sentenceIndex": 31,
@@ -1535,12 +1409,10 @@ export default {
         "greens"
       ],
       "optionReasons": {
-        "green-mcq-16": "本句指「供食用的綠葉蔬菜」。",
-        "green-mcq-15": "「球洞周圍供球員推桿的短草區域；果嶺」是「green — golf」的用法，與本句語境不同。",
-        "green-mcq-17": "「植物、綠葉和綠色植被形成的整體」是「greenery」的用法，與本句語境不同。",
-        "green-mcq-14": "「主要由青草覆蓋的公共草地」是「the green」的用法，與本句語境不同。",
-        "green-mcq-18": "「顏色有些接近綠色但並非純綠的」是「greenish」的用法，與本句語境不同。",
-        "green-mcq-13": "「城市／社區中由草地、樹木等形成的自然開放空間」是「green space」的用法，與本句語境不同。"
+        "green-mcq-16": "本句的「greens」指「供食用的綠葉蔬菜」。",
+        "green-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-16"
     },
@@ -1552,11 +1424,9 @@ export default {
       "masked": "The balcony was filled with ____.",
       "options": [
         "green-mcq-17",
-        "green-mcq-16",
-        "green-mcq-18",
-        "green-mcq-15",
-        "green-mcq-19",
-        "green-mcq-14"
+        "green-mcq-12",
+        "green-mcq-07",
+        "green-mcq-22"
       ],
       "explanation": "本句的「greenery」指「植物、綠葉和綠色植被形成的整體」。",
       "sentenceIndex": 32,
@@ -1565,12 +1435,10 @@ export default {
         "greenery"
       ],
       "optionReasons": {
-        "green-mcq-17": "本句指「植物、綠葉和綠色植被形成的整體」。",
-        "green-mcq-16": "「供食用的綠葉蔬菜」是「greens」的用法，與本句語境不同。",
-        "green-mcq-18": "「顏色有些接近綠色但並非純綠的」是「greenish」的用法，與本句語境不同。",
-        "green-mcq-15": "「球洞周圍供球員推桿的短草區域；果嶺」是「green — golf」的用法，與本句語境不同。",
-        "green-mcq-19": "「葉子全年保持綠色的植物」是「evergreen — literal」的用法，與本句語境不同。",
-        "green-mcq-14": "「主要由青草覆蓋的公共草地」是「the green」的用法，與本句語境不同。"
+        "green-mcq-17": "本句的「greenery」指「植物、綠葉和綠色植被形成的整體」。",
+        "green-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-17"
     },
@@ -1582,11 +1450,9 @@ export default {
       "masked": "The café uses ____ to create a relaxing atmosphere.",
       "options": [
         "green-mcq-17",
-        "green-mcq-16",
-        "green-mcq-18",
-        "green-mcq-15",
-        "green-mcq-19",
-        "green-mcq-14"
+        "green-mcq-08",
+        "green-mcq-14",
+        "green-mcq-09"
       ],
       "explanation": "本句的「greenery」指「植物、綠葉和綠色植被形成的整體」。",
       "sentenceIndex": 33,
@@ -1595,12 +1461,10 @@ export default {
         "greenery"
       ],
       "optionReasons": {
-        "green-mcq-17": "本句指「植物、綠葉和綠色植被形成的整體」。",
-        "green-mcq-16": "「供食用的綠葉蔬菜」是「greens」的用法，與本句語境不同。",
-        "green-mcq-18": "「顏色有些接近綠色但並非純綠的」是「greenish」的用法，與本句語境不同。",
-        "green-mcq-15": "「球洞周圍供球員推桿的短草區域；果嶺」是「green — golf」的用法，與本句語境不同。",
-        "green-mcq-19": "「葉子全年保持綠色的植物」是「evergreen — literal」的用法，與本句語境不同。",
-        "green-mcq-14": "「主要由青草覆蓋的公共草地」是「the green」的用法，與本句語境不同。"
+        "green-mcq-17": "本句的「greenery」指「植物、綠葉和綠色植被形成的整體」。",
+        "green-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-17"
     },
@@ -1612,11 +1476,9 @@ export default {
       "masked": "The rain restored the ____ of the hills.",
       "options": [
         "green-mcq-26",
-        "green-mcq-25",
-        "green-mcq-24",
-        "green-mcq-23",
-        "green-mcq-22",
-        "green-mcq-21"
+        "green-mcq-05",
+        "green-mcq-08",
+        "green-mcq-12"
       ],
       "explanation": "本句的「greenness」指「呈綠色／青翠的程度，或比喻某事物的環保程度」。",
       "sentenceIndex": 34,
@@ -1625,12 +1487,10 @@ export default {
         "greenness"
       ],
       "optionReasons": {
-        "green-mcq-26": "本句指「呈綠色／青翠的程度，或比喻某事物的環保程度」。",
-        "green-mcq-25": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。",
-        "green-mcq-24": "「城市周邊受保護、限制大規模建設的開放綠化土地」是「green belt」的用法，與本句語境不同。",
-        "green-mcq-23": "「劇場／媒體場所供表演者、嘉賓等待和休息的房間」是「green room」的用法，與本句語境不同。",
-        "green-mcq-22": "「證明美國永久居民身分的證件」是「green card」的用法，與本句語境不同。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。"
+        "green-mcq-26": "本句的「greenness」指「呈綠色／青翠的程度，或比喻某事物的環保程度」。",
+        "green-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-26"
     },
@@ -1642,11 +1502,9 @@ export default {
       "masked": "The report compares the ____ of different buildings.",
       "options": [
         "green-mcq-26",
-        "green-mcq-25",
-        "green-mcq-24",
-        "green-mcq-23",
+        "green-mcq-08",
         "green-mcq-22",
-        "green-mcq-21"
+        "green-mcq-05"
       ],
       "explanation": "本句的「greenness」指「呈綠色／青翠的程度，或比喻某事物的環保程度」。",
       "sentenceIndex": 35,
@@ -1655,12 +1513,10 @@ export default {
         "greenness"
       ],
       "optionReasons": {
-        "green-mcq-26": "本句指「呈綠色／青翠的程度，或比喻某事物的環保程度」。",
-        "green-mcq-25": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。",
-        "green-mcq-24": "「城市周邊受保護、限制大規模建設的開放綠化土地」是「green belt」的用法，與本句語境不同。",
-        "green-mcq-23": "「劇場／媒體場所供表演者、嘉賓等待和休息的房間」是「green room」的用法，與本句語境不同。",
-        "green-mcq-22": "「證明美國永久居民身分的證件」是「green card」的用法，與本句語境不同。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。"
+        "green-mcq-26": "本句的「greenness」指「呈綠色／青翠的程度，或比喻某事物的環保程度」。",
+        "green-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-26"
     },
@@ -1672,11 +1528,9 @@ export default {
       "masked": "The water had a ____ colour.",
       "options": [
         "green-mcq-18",
-        "green-mcq-17",
-        "green-mcq-19",
-        "green-mcq-16",
-        "green-mcq-20",
-        "green-mcq-15"
+        "green-mcq-05",
+        "green-mcq-23",
+        "green-mcq-04"
       ],
       "explanation": "本句的「greenish」指「顏色有些接近綠色但並非純綠的」。",
       "sentenceIndex": 36,
@@ -1685,12 +1539,10 @@ export default {
         "greenish"
       ],
       "optionReasons": {
-        "green-mcq-18": "本句指「顏色有些接近綠色但並非純綠的」。",
-        "green-mcq-17": "「植物、綠葉和綠色植被形成的整體」是「greenery」的用法，與本句語境不同。",
-        "green-mcq-19": "「葉子全年保持綠色的植物」是「evergreen — literal」的用法，與本句語境不同。",
-        "green-mcq-16": "「供食用的綠葉蔬菜」是「greens」的用法，與本句語境不同。",
-        "green-mcq-20": "「長期保持受歡迎、重要或相關，不容易過時的」是「evergreen — figurative」的用法，與本句語境不同。",
-        "green-mcq-15": "「球洞周圍供球員推桿的短草區域；果嶺」是「green — golf」的用法，與本句語境不同。"
+        "green-mcq-18": "本句的「greenish」指「顏色有些接近綠色但並非純綠的」。",
+        "green-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-18"
     },
@@ -1702,11 +1554,9 @@ export default {
       "masked": "The leaves turned ____.",
       "options": [
         "green-mcq-18",
-        "green-mcq-17",
-        "green-mcq-19",
-        "green-mcq-16",
-        "green-mcq-20",
-        "green-mcq-15"
+        "green-mcq-23",
+        "green-mcq-03",
+        "green-mcq-22"
       ],
       "explanation": "本句的「greenish-yellow」指「顏色有些接近綠色但並非純綠的」。",
       "sentenceIndex": 37,
@@ -1715,12 +1565,10 @@ export default {
         "greenish-yellow"
       ],
       "optionReasons": {
-        "green-mcq-18": "本句指「顏色有些接近綠色但並非純綠的」。",
-        "green-mcq-17": "「植物、綠葉和綠色植被形成的整體」是「greenery」的用法，與本句語境不同。",
-        "green-mcq-19": "「葉子全年保持綠色的植物」是「evergreen — literal」的用法，與本句語境不同。",
-        "green-mcq-16": "「供食用的綠葉蔬菜」是「greens」的用法，與本句語境不同。",
-        "green-mcq-20": "「長期保持受歡迎、重要或相關，不容易過時的」是「evergreen — figurative」的用法，與本句語境不同。",
-        "green-mcq-15": "「球洞周圍供球員推桿的短草區域；果嶺」是「green — golf」的用法，與本句語境不同。"
+        "green-mcq-18": "本句的「greenish-yellow」指「顏色有些接近綠色但並非純綠的」。",
+        "green-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-18"
     },
@@ -1732,11 +1580,9 @@ export default {
       "masked": "Pine trees are ____.",
       "options": [
         "green-mcq-19",
-        "green-mcq-18",
-        "green-mcq-20",
-        "green-mcq-17",
-        "green-mcq-21",
-        "green-mcq-16"
+        "green-mcq-06",
+        "green-mcq-22",
+        "green-mcq-15"
       ],
       "explanation": "本句的「evergreen」指「葉子全年保持綠色的植物」。",
       "sentenceIndex": 38,
@@ -1745,12 +1591,10 @@ export default {
         "evergreen"
       ],
       "optionReasons": {
-        "green-mcq-19": "本句指「葉子全年保持綠色的植物」。",
-        "green-mcq-18": "「顏色有些接近綠色但並非純綠的」是「greenish」的用法，與本句語境不同。",
-        "green-mcq-20": "「長期保持受歡迎、重要或相關，不容易過時的」是「evergreen — figurative」的用法，與本句語境不同。",
-        "green-mcq-17": "「植物、綠葉和綠色植被形成的整體」是「greenery」的用法，與本句語境不同。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。",
-        "green-mcq-16": "「供食用的綠葉蔬菜」是「greens」的用法，與本句語境不同。"
+        "green-mcq-19": "本句的「evergreen」指「葉子全年保持綠色的植物」。",
+        "green-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-19"
     },
@@ -1762,11 +1606,9 @@ export default {
       "masked": "They planted several ____ trees around the garden.",
       "options": [
         "green-mcq-19",
-        "green-mcq-18",
-        "green-mcq-20",
-        "green-mcq-17",
-        "green-mcq-21",
-        "green-mcq-16"
+        "green-mcq-15",
+        "green-mcq-14",
+        "green-mcq-09"
       ],
       "explanation": "本句的「evergreen」指「葉子全年保持綠色的植物」。",
       "sentenceIndex": 39,
@@ -1775,12 +1617,10 @@ export default {
         "evergreen"
       ],
       "optionReasons": {
-        "green-mcq-19": "本句指「葉子全年保持綠色的植物」。",
-        "green-mcq-18": "「顏色有些接近綠色但並非純綠的」是「greenish」的用法，與本句語境不同。",
-        "green-mcq-20": "「長期保持受歡迎、重要或相關，不容易過時的」是「evergreen — figurative」的用法，與本句語境不同。",
-        "green-mcq-17": "「植物、綠葉和綠色植被形成的整體」是「greenery」的用法，與本句語境不同。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。",
-        "green-mcq-16": "「供食用的綠葉蔬菜」是「greens」的用法，與本句語境不同。"
+        "green-mcq-19": "本句的「evergreen」指「葉子全年保持綠色的植物」。",
+        "green-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-19"
     },
@@ -1792,11 +1632,9 @@ export default {
       "masked": "The song became an ____.",
       "options": [
         "green-mcq-20",
-        "green-mcq-19",
-        "green-mcq-21",
-        "green-mcq-18",
-        "green-mcq-22",
-        "green-mcq-17"
+        "green-mcq-10",
+        "green-mcq-05",
+        "green-mcq-12"
       ],
       "explanation": "本句的「evergreen classic」指「長期保持受歡迎、重要或相關，不容易過時的」。",
       "sentenceIndex": 40,
@@ -1805,12 +1643,10 @@ export default {
         "evergreen classic"
       ],
       "optionReasons": {
-        "green-mcq-20": "本句指「長期保持受歡迎、重要或相關，不容易過時的」。",
-        "green-mcq-19": "「葉子全年保持綠色的植物」是「evergreen — literal」的用法，與本句語境不同。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。",
-        "green-mcq-18": "「顏色有些接近綠色但並非純綠的」是「greenish」的用法，與本句語境不同。",
-        "green-mcq-22": "「證明美國永久居民身分的證件」是「green card」的用法，與本句語境不同。",
-        "green-mcq-17": "「植物、綠葉和綠色植被形成的整體」是「greenery」的用法，與本句語境不同。"
+        "green-mcq-20": "本句的「evergreen classic」指「長期保持受歡迎、重要或相關，不容易過時的」。",
+        "green-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-20"
     },
@@ -1822,11 +1658,9 @@ export default {
       "masked": "It is an ____ topic in education.",
       "options": [
         "green-mcq-20",
-        "green-mcq-19",
-        "green-mcq-21",
-        "green-mcq-18",
-        "green-mcq-22",
-        "green-mcq-17"
+        "green-mcq-06",
+        "green-mcq-12",
+        "green-mcq-22"
       ],
       "explanation": "本句的「evergreen」指「長期保持受歡迎、重要或相關，不容易過時的」。",
       "sentenceIndex": 41,
@@ -1835,12 +1669,10 @@ export default {
         "evergreen"
       ],
       "optionReasons": {
-        "green-mcq-20": "本句指「長期保持受歡迎、重要或相關，不容易過時的」。",
-        "green-mcq-19": "「葉子全年保持綠色的植物」是「evergreen — literal」的用法，與本句語境不同。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。",
-        "green-mcq-18": "「顏色有些接近綠色但並非純綠的」是「greenish」的用法，與本句語境不同。",
-        "green-mcq-22": "「證明美國永久居民身分的證件」是「green card」的用法，與本句語境不同。",
-        "green-mcq-17": "「植物、綠葉和綠色植被形成的整體」是「greenery」的用法，與本句語境不同。"
+        "green-mcq-20": "本句的「evergreen」指「長期保持受歡迎、重要或相關，不容易過時的」。",
+        "green-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-20"
     },
@@ -1852,11 +1684,9 @@ export default {
       "masked": "Consumers accused the company of ____.",
       "options": [
         "green-mcq-21",
-        "green-mcq-20",
-        "green-mcq-22",
-        "green-mcq-19",
-        "green-mcq-23",
-        "green-mcq-18"
+        "green-mcq-01",
+        "green-mcq-15",
+        "green-mcq-12"
       ],
       "explanation": "本句的「greenwashing」指「把公司／產品宣傳得比實際更環保的誤導性形象包裝」。",
       "sentenceIndex": 42,
@@ -1865,12 +1695,10 @@ export default {
         "greenwashing"
       ],
       "optionReasons": {
-        "green-mcq-21": "本句指「把公司／產品宣傳得比實際更環保的誤導性形象包裝」。",
-        "green-mcq-20": "「長期保持受歡迎、重要或相關，不容易過時的」是「evergreen — figurative」的用法，與本句語境不同。",
-        "green-mcq-22": "「證明美國永久居民身分的證件」是「green card」的用法，與本句語境不同。",
-        "green-mcq-19": "「葉子全年保持綠色的植物」是「evergreen — literal」的用法，與本句語境不同。",
-        "green-mcq-23": "「劇場／媒體場所供表演者、嘉賓等待和休息的房間」是「green room」的用法，與本句語境不同。",
-        "green-mcq-18": "「顏色有些接近綠色但並非純綠的」是「greenish」的用法，與本句語境不同。"
+        "green-mcq-21": "本句的「greenwashing」指「把公司／產品宣傳得比實際更環保的誤導性形象包裝」。",
+        "green-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-21"
     },
@@ -1882,11 +1710,9 @@ export default {
       "masked": "____ can make a product appear more environmentally friendly than it really is.",
       "options": [
         "green-mcq-21",
-        "green-mcq-20",
-        "green-mcq-22",
-        "green-mcq-19",
         "green-mcq-23",
-        "green-mcq-18"
+        "green-mcq-05",
+        "green-mcq-22"
       ],
       "explanation": "本句的「Greenwashing」指「把公司／產品宣傳得比實際更環保的誤導性形象包裝」。",
       "sentenceIndex": 43,
@@ -1895,12 +1721,10 @@ export default {
         "Greenwashing"
       ],
       "optionReasons": {
-        "green-mcq-21": "本句指「把公司／產品宣傳得比實際更環保的誤導性形象包裝」。",
-        "green-mcq-20": "「長期保持受歡迎、重要或相關，不容易過時的」是「evergreen — figurative」的用法，與本句語境不同。",
-        "green-mcq-22": "「證明美國永久居民身分的證件」是「green card」的用法，與本句語境不同。",
-        "green-mcq-19": "「葉子全年保持綠色的植物」是「evergreen — literal」的用法，與本句語境不同。",
-        "green-mcq-23": "「劇場／媒體場所供表演者、嘉賓等待和休息的房間」是「green room」的用法，與本句語境不同。",
-        "green-mcq-18": "「顏色有些接近綠色但並非純綠的」是「greenish」的用法，與本句語境不同。"
+        "green-mcq-21": "本句的「Greenwashing」指「把公司／產品宣傳得比實際更環保的誤導性形象包裝」。",
+        "green-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-21"
     },
@@ -1912,11 +1736,9 @@ export default {
       "masked": "She received her ____ after several years.",
       "options": [
         "green-mcq-22",
-        "green-mcq-21",
-        "green-mcq-23",
-        "green-mcq-20",
-        "green-mcq-24",
-        "green-mcq-19"
+        "green-mcq-18",
+        "green-mcq-04",
+        "green-mcq-15"
       ],
       "explanation": "本句的「green card」指「證明美國永久居民身分的證件」。",
       "sentenceIndex": 44,
@@ -1925,12 +1747,10 @@ export default {
         "green card"
       ],
       "optionReasons": {
-        "green-mcq-22": "本句指「證明美國永久居民身分的證件」。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。",
-        "green-mcq-23": "「劇場／媒體場所供表演者、嘉賓等待和休息的房間」是「green room」的用法，與本句語境不同。",
-        "green-mcq-20": "「長期保持受歡迎、重要或相關，不容易過時的」是「evergreen — figurative」的用法，與本句語境不同。",
-        "green-mcq-24": "「城市周邊受保護、限制大規模建設的開放綠化土地」是「green belt」的用法，與本句語境不同。",
-        "green-mcq-19": "「葉子全年保持綠色的植物」是「evergreen — literal」的用法，與本句語境不同。"
+        "green-mcq-22": "本句的「green card」指「證明美國永久居民身分的證件」。",
+        "green-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-22"
     },
@@ -1942,11 +1762,9 @@ export default {
       "masked": "A ____ card allows a person to live permanently in the United States, subject to the relevant rules.",
       "options": [
         "green-mcq-22",
-        "green-mcq-21",
-        "green-mcq-23",
-        "green-mcq-20",
-        "green-mcq-24",
-        "green-mcq-19"
+        "green-mcq-11",
+        "green-mcq-09",
+        "green-mcq-07"
       ],
       "explanation": "本句的「green」指「證明美國永久居民身分的證件」。",
       "sentenceIndex": 45,
@@ -1955,12 +1773,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-22": "本句指「證明美國永久居民身分的證件」。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。",
-        "green-mcq-23": "「劇場／媒體場所供表演者、嘉賓等待和休息的房間」是「green room」的用法，與本句語境不同。",
-        "green-mcq-20": "「長期保持受歡迎、重要或相關，不容易過時的」是「evergreen — figurative」的用法，與本句語境不同。",
-        "green-mcq-24": "「城市周邊受保護、限制大規模建設的開放綠化土地」是「green belt」的用法，與本句語境不同。",
-        "green-mcq-19": "「葉子全年保持綠色的植物」是「evergreen — literal」的用法，與本句語境不同。"
+        "green-mcq-22": "本句的「green」指「證明美國永久居民身分的證件」。",
+        "green-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-22"
     },
@@ -1972,10 +1788,8 @@ export default {
       "masked": "The guests waited in the ____ before the interview.",
       "options": [
         "green-mcq-23",
-        "green-mcq-22",
-        "green-mcq-24",
-        "green-mcq-21",
-        "green-mcq-25",
+        "green-mcq-05",
+        "green-mcq-12",
         "green-mcq-20"
       ],
       "explanation": "本句的「green room」指「劇場／媒體場所供表演者、嘉賓等待和休息的房間」。",
@@ -1985,12 +1799,10 @@ export default {
         "green room"
       ],
       "optionReasons": {
-        "green-mcq-23": "本句指「劇場／媒體場所供表演者、嘉賓等待和休息的房間」。",
-        "green-mcq-22": "「證明美國永久居民身分的證件」是「green card」的用法，與本句語境不同。",
-        "green-mcq-24": "「城市周邊受保護、限制大規模建設的開放綠化土地」是「green belt」的用法，與本句語境不同。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。",
-        "green-mcq-25": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。",
-        "green-mcq-20": "「長期保持受歡迎、重要或相關，不容易過時的」是「evergreen — figurative」的用法，與本句語境不同。"
+        "green-mcq-23": "本句的「green room」指「劇場／媒體場所供表演者、嘉賓等待和休息的房間」。",
+        "green-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-23"
     },
@@ -2002,11 +1814,9 @@ export default {
       "masked": "The actor returned to the ____ room after the performance.",
       "options": [
         "green-mcq-23",
-        "green-mcq-22",
-        "green-mcq-24",
-        "green-mcq-21",
-        "green-mcq-25",
-        "green-mcq-20"
+        "green-mcq-19",
+        "green-mcq-14",
+        "green-mcq-12"
       ],
       "explanation": "本句的「green」指「劇場／媒體場所供表演者、嘉賓等待和休息的房間」。",
       "sentenceIndex": 47,
@@ -2015,12 +1825,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-23": "本句指「劇場／媒體場所供表演者、嘉賓等待和休息的房間」。",
-        "green-mcq-22": "「證明美國永久居民身分的證件」是「green card」的用法，與本句語境不同。",
-        "green-mcq-24": "「城市周邊受保護、限制大規模建設的開放綠化土地」是「green belt」的用法，與本句語境不同。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。",
-        "green-mcq-25": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。",
-        "green-mcq-20": "「長期保持受歡迎、重要或相關，不容易過時的」是「evergreen — figurative」的用法，與本句語境不同。"
+        "green-mcq-23": "本句的「green」指「劇場／媒體場所供表演者、嘉賓等待和休息的房間」。",
+        "green-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-23"
     },
@@ -2032,11 +1840,9 @@ export default {
       "masked": "Development is restricted in the ____.",
       "options": [
         "green-mcq-24",
-        "green-mcq-23",
-        "green-mcq-25",
-        "green-mcq-22",
-        "green-mcq-26",
-        "green-mcq-21"
+        "green-mcq-05",
+        "green-mcq-08",
+        "green-mcq-22"
       ],
       "explanation": "本句的「green belt」指「城市周邊受保護、限制大規模建設的開放綠化土地」。",
       "sentenceIndex": 48,
@@ -2045,12 +1851,10 @@ export default {
         "green belt"
       ],
       "optionReasons": {
-        "green-mcq-24": "本句指「城市周邊受保護、限制大規模建設的開放綠化土地」。",
-        "green-mcq-23": "「劇場／媒體場所供表演者、嘉賓等待和休息的房間」是「green room」的用法，與本句語境不同。",
-        "green-mcq-25": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。",
-        "green-mcq-22": "「證明美國永久居民身分的證件」是「green card」的用法，與本句語境不同。",
-        "green-mcq-26": "「呈綠色／青翠的程度，或比喻某事物的環保程度」是「18. greenness = quality/state of being green — 綠色程度；青翠；環保程度」的用法，與本句語境不同。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。"
+        "green-mcq-24": "本句的「green belt」指「城市周邊受保護、限制大規模建設的開放綠化土地」。",
+        "green-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-24"
     },
@@ -2062,11 +1866,9 @@ export default {
       "masked": "The ____ belt helps preserve open land around the city.",
       "options": [
         "green-mcq-24",
-        "green-mcq-23",
         "green-mcq-25",
-        "green-mcq-22",
-        "green-mcq-26",
-        "green-mcq-21"
+        "green-mcq-23",
+        "green-mcq-07"
       ],
       "explanation": "本句的「green」指「城市周邊受保護、限制大規模建設的開放綠化土地」。",
       "sentenceIndex": 49,
@@ -2075,12 +1877,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-24": "本句指「城市周邊受保護、限制大規模建設的開放綠化土地」。",
-        "green-mcq-23": "「劇場／媒體場所供表演者、嘉賓等待和休息的房間」是「green room」的用法，與本句語境不同。",
-        "green-mcq-25": "「很擅長種植和照顧植物的能力／園藝天分」是「green thumb」的用法，與本句語境不同。",
-        "green-mcq-22": "「證明美國永久居民身分的證件」是「green card」的用法，與本句語境不同。",
-        "green-mcq-26": "「呈綠色／青翠的程度，或比喻某事物的環保程度」是「18. greenness = quality/state of being green — 綠色程度；青翠；環保程度」的用法，與本句語境不同。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。"
+        "green-mcq-24": "本句的「green」指「城市周邊受保護、限制大規模建設的開放綠化土地」。",
+        "green-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-24"
     },
@@ -2092,11 +1892,9 @@ export default {
       "masked": "She seems to have a real ____.",
       "options": [
         "green-mcq-25",
-        "green-mcq-24",
-        "green-mcq-26",
-        "green-mcq-23",
-        "green-mcq-22",
-        "green-mcq-21"
+        "green-mcq-16",
+        "green-mcq-09",
+        "green-mcq-24"
       ],
       "explanation": "本句的「green thumb」指「很擅長種植和照顧植物的能力／園藝天分」。",
       "sentenceIndex": 50,
@@ -2105,12 +1903,10 @@ export default {
         "green thumb"
       ],
       "optionReasons": {
-        "green-mcq-25": "本句指「很擅長種植和照顧植物的能力／園藝天分」。",
-        "green-mcq-24": "「城市周邊受保護、限制大規模建設的開放綠化土地」是「green belt」的用法，與本句語境不同。",
-        "green-mcq-26": "「呈綠色／青翠的程度，或比喻某事物的環保程度」是「18. greenness = quality/state of being green — 綠色程度；青翠；環保程度」的用法，與本句語境不同。",
-        "green-mcq-23": "「劇場／媒體場所供表演者、嘉賓等待和休息的房間」是「green room」的用法，與本句語境不同。",
-        "green-mcq-22": "「證明美國永久居民身分的證件」是「green card」的用法，與本句語境不同。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。"
+        "green-mcq-25": "本句的「green thumb」指「很擅長種植和照顧植物的能力／園藝天分」。",
+        "green-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-25"
     },
@@ -2122,11 +1918,9 @@ export default {
       "masked": "My grandfather has a ____ thumb; almost everything he plants grows well.",
       "options": [
         "green-mcq-25",
-        "green-mcq-24",
-        "green-mcq-26",
-        "green-mcq-23",
-        "green-mcq-22",
-        "green-mcq-21"
+        "green-mcq-01",
+        "green-mcq-15",
+        "green-mcq-12"
       ],
       "explanation": "本句的「green」指「很擅長種植和照顧植物的能力／園藝天分」。",
       "sentenceIndex": 51,
@@ -2135,12 +1929,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-25": "本句指「很擅長種植和照顧植物的能力／園藝天分」。",
-        "green-mcq-24": "「城市周邊受保護、限制大規模建設的開放綠化土地」是「green belt」的用法，與本句語境不同。",
-        "green-mcq-26": "「呈綠色／青翠的程度，或比喻某事物的環保程度」是「18. greenness = quality/state of being green — 綠色程度；青翠；環保程度」的用法，與本句語境不同。",
-        "green-mcq-23": "「劇場／媒體場所供表演者、嘉賓等待和休息的房間」是「green room」的用法，與本句語境不同。",
-        "green-mcq-22": "「證明美國永久居民身分的證件」是「green card」的用法，與本句語境不同。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。"
+        "green-mcq-25": "本句的「green」指「很擅長種植和照顧植物的能力／園藝天分」。",
+        "green-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-25"
     },
@@ -2152,11 +1944,9 @@ export default {
       "masked": "I definitely don’t have a ____ thumb.",
       "options": [
         "green-mcq-25",
-        "green-mcq-24",
-        "green-mcq-26",
         "green-mcq-23",
-        "green-mcq-22",
-        "green-mcq-21"
+        "green-mcq-09",
+        "green-mcq-14"
       ],
       "explanation": "本句的「green」指「很擅長種植和照顧植物的能力／園藝天分」。",
       "sentenceIndex": 52,
@@ -2165,12 +1955,10 @@ export default {
         "green"
       ],
       "optionReasons": {
-        "green-mcq-25": "本句指「很擅長種植和照顧植物的能力／園藝天分」。",
-        "green-mcq-24": "「城市周邊受保護、限制大規模建設的開放綠化土地」是「green belt」的用法，與本句語境不同。",
-        "green-mcq-26": "「呈綠色／青翠的程度，或比喻某事物的環保程度」是「18. greenness = quality/state of being green — 綠色程度；青翠；環保程度」的用法，與本句語境不同。",
-        "green-mcq-23": "「劇場／媒體場所供表演者、嘉賓等待和休息的房間」是「green room」的用法，與本句語境不同。",
-        "green-mcq-22": "「證明美國永久居民身分的證件」是「green card」的用法，與本句語境不同。",
-        "green-mcq-21": "「把公司／產品宣傳得比實際更環保的誤導性形象包裝」是「greenwashing」的用法，與本句語境不同。"
+        "green-mcq-25": "本句的「green」指「很擅長種植和照顧植物的能力／園藝天分」。",
+        "green-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "green-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "green-mcq-25"
     }
@@ -2182,5 +1970,7 @@ export default {
     "sha256": "c42305d83dc83c038c74c12f84a9cfcc2263f4cc0ac8bdff730221957b29acfb",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

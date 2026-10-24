@@ -392,11 +392,9 @@ export default {
       "masked": "Try to ____ slowly.",
       "options": [
         "breathe-mcq-01",
-        "breathe-mcq-02",
-        "breathe-mcq-03",
+        "breathe-mcq-06",
         "breathe-mcq-04",
-        "breathe-mcq-05",
-        "breathe-mcq-06"
+        "breathe-mcq-10"
       ],
       "explanation": "本句的「breathe」指「把空氣吸入肺部，再呼出體外」。",
       "sentenceIndex": 0,
@@ -405,12 +403,10 @@ export default {
         "breathe"
       ],
       "optionReasons": {
-        "breathe-mcq-01": "本句指「把空氣吸入肺部，再呼出體外」。",
-        "breathe-mcq-02": "「從忙碌、壓力或緊張中稍作停頓並重新放鬆」是「breathe — figurative」的用法，與本句語境不同。",
-        "breathe-mcq-03": "「吸入或呼出某種氣體／空氣」是「breathe + substance」的用法，與本句語境不同。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。"
+        "breathe-mcq-01": "本句的「breathe」指「把空氣吸入肺部，再呼出體外」。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-01"
     },
@@ -423,10 +419,8 @@ export default {
       "options": [
         "breathe-mcq-01",
         "breathe-mcq-02",
-        "breathe-mcq-03",
         "breathe-mcq-04",
-        "breathe-mcq-05",
-        "breathe-mcq-06"
+        "breathe-mcq-09"
       ],
       "explanation": "本句的「breathe」指「把空氣吸入肺部，再呼出體外」。",
       "sentenceIndex": 1,
@@ -435,12 +429,10 @@ export default {
         "breathe"
       ],
       "optionReasons": {
-        "breathe-mcq-01": "本句指「把空氣吸入肺部，再呼出體外」。",
-        "breathe-mcq-02": "「從忙碌、壓力或緊張中稍作停頓並重新放鬆」是「breathe — figurative」的用法，與本句語境不同。",
-        "breathe-mcq-03": "「吸入或呼出某種氣體／空氣」是「breathe + substance」的用法，與本句語境不同。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。"
+        "breathe-mcq-01": "本句的「breathe」指「把空氣吸入肺部，再呼出體外」。",
+        "breathe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-01"
     },
@@ -452,11 +444,9 @@ export default {
       "masked": "____ and relax your shoulders.",
       "options": [
         "breathe-mcq-01",
-        "breathe-mcq-02",
-        "breathe-mcq-03",
+        "breathe-mcq-06",
         "breathe-mcq-04",
-        "breathe-mcq-05",
-        "breathe-mcq-06"
+        "breathe-mcq-08"
       ],
       "explanation": "本句的「Breathe deeply」指「把空氣吸入肺部，再呼出體外」。",
       "sentenceIndex": 2,
@@ -465,12 +455,10 @@ export default {
         "Breathe deeply"
       ],
       "optionReasons": {
-        "breathe-mcq-01": "本句指「把空氣吸入肺部，再呼出體外」。",
-        "breathe-mcq-02": "「從忙碌、壓力或緊張中稍作停頓並重新放鬆」是「breathe — figurative」的用法，與本句語境不同。",
-        "breathe-mcq-03": "「吸入或呼出某種氣體／空氣」是「breathe + substance」的用法，與本句語境不同。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。"
+        "breathe-mcq-01": "本句的「Breathe deeply」指「把空氣吸入肺部，再呼出體外」。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-01"
     },
@@ -483,10 +471,8 @@ export default {
       "options": [
         "breathe-mcq-01",
         "breathe-mcq-02",
-        "breathe-mcq-03",
         "breathe-mcq-04",
-        "breathe-mcq-05",
-        "breathe-mcq-06"
+        "breathe-mcq-09"
       ],
       "explanation": "本句的「breathed」指「把空氣吸入肺部，再呼出體外」。",
       "sentenceIndex": 3,
@@ -495,12 +481,10 @@ export default {
         "breathed"
       ],
       "optionReasons": {
-        "breathe-mcq-01": "本句指「把空氣吸入肺部，再呼出體外」。",
-        "breathe-mcq-02": "「從忙碌、壓力或緊張中稍作停頓並重新放鬆」是「breathe — figurative」的用法，與本句語境不同。",
-        "breathe-mcq-03": "「吸入或呼出某種氣體／空氣」是「breathe + substance」的用法，與本句語境不同。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。"
+        "breathe-mcq-01": "本句的「breathed」指「把空氣吸入肺部，再呼出體外」。",
+        "breathe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-01"
     },
@@ -512,11 +496,9 @@ export default {
       "masked": "Gardening gives her a chance to slow down and ____.",
       "options": [
         "breathe-mcq-02",
-        "breathe-mcq-01",
-        "breathe-mcq-03",
         "breathe-mcq-04",
         "breathe-mcq-05",
-        "breathe-mcq-06"
+        "breathe-mcq-14"
       ],
       "explanation": "本句的「breathe」指「從忙碌、壓力或緊張中稍作停頓並重新放鬆」。",
       "sentenceIndex": 4,
@@ -525,12 +507,10 @@ export default {
         "breathe"
       ],
       "optionReasons": {
-        "breathe-mcq-02": "本句指「從忙碌、壓力或緊張中稍作停頓並重新放鬆」。",
-        "breathe-mcq-01": "「把空氣吸入肺部，再呼出體外」是「breathe — literal」的用法，與本句語境不同。",
-        "breathe-mcq-03": "「吸入或呼出某種氣體／空氣」是「breathe + substance」的用法，與本句語境不同。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。"
+        "breathe-mcq-02": "本句的「breathe」指「從忙碌、壓力或緊張中稍作停頓並重新放鬆」。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-02"
     },
@@ -542,11 +522,9 @@ export default {
       "masked": "After a stressful morning, I just need a few minutes to ____.",
       "options": [
         "breathe-mcq-02",
-        "breathe-mcq-01",
-        "breathe-mcq-03",
-        "breathe-mcq-04",
-        "breathe-mcq-05",
-        "breathe-mcq-06"
+        "breathe-mcq-07",
+        "breathe-mcq-12",
+        "breathe-mcq-04"
       ],
       "explanation": "本句的「breathe」指「從忙碌、壓力或緊張中稍作停頓並重新放鬆」。",
       "sentenceIndex": 5,
@@ -555,12 +533,10 @@ export default {
         "breathe"
       ],
       "optionReasons": {
-        "breathe-mcq-02": "本句指「從忙碌、壓力或緊張中稍作停頓並重新放鬆」。",
-        "breathe-mcq-01": "「把空氣吸入肺部，再呼出體外」是「breathe — literal」的用法，與本句語境不同。",
-        "breathe-mcq-03": "「吸入或呼出某種氣體／空氣」是「breathe + substance」的用法，與本句語境不同。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。"
+        "breathe-mcq-02": "本句的「breathe」指「從忙碌、壓力或緊張中稍作停頓並重新放鬆」。",
+        "breathe-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-02"
     },
@@ -572,11 +548,9 @@ export default {
       "masked": "The weekend finally gave us space to ____.",
       "options": [
         "breathe-mcq-02",
+        "breathe-mcq-09",
         "breathe-mcq-01",
-        "breathe-mcq-03",
-        "breathe-mcq-04",
-        "breathe-mcq-05",
-        "breathe-mcq-06"
+        "breathe-mcq-04"
       ],
       "explanation": "本句的「breathe」指「從忙碌、壓力或緊張中稍作停頓並重新放鬆」。",
       "sentenceIndex": 6,
@@ -585,12 +559,10 @@ export default {
         "breathe"
       ],
       "optionReasons": {
-        "breathe-mcq-02": "本句指「從忙碌、壓力或緊張中稍作停頓並重新放鬆」。",
-        "breathe-mcq-01": "「把空氣吸入肺部，再呼出體外」是「breathe — literal」的用法，與本句語境不同。",
-        "breathe-mcq-03": "「吸入或呼出某種氣體／空氣」是「breathe + substance」的用法，與本句語境不同。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。"
+        "breathe-mcq-02": "本句的「breathe」指「從忙碌、壓力或緊張中稍作停頓並重新放鬆」。",
+        "breathe-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-02"
     },
@@ -603,10 +575,7 @@ export default {
       "options": [
         "breathe-mcq-03",
         "breathe-mcq-02",
-        "breathe-mcq-04",
-        "breathe-mcq-01",
-        "breathe-mcq-05",
-        "breathe-mcq-06"
+        "breathe-mcq-09"
       ],
       "explanation": "本句的「breathe」指「吸入或呼出某種氣體／空氣」。",
       "sentenceIndex": 7,
@@ -615,12 +584,9 @@ export default {
         "breathe"
       ],
       "optionReasons": {
-        "breathe-mcq-03": "本句指「吸入或呼出某種氣體／空氣」。",
-        "breathe-mcq-02": "「從忙碌、壓力或緊張中稍作停頓並重新放鬆」是「breathe — figurative」的用法，與本句語境不同。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。",
-        "breathe-mcq-01": "「把空氣吸入肺部，再呼出體外」是「breathe — literal」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。"
+        "breathe-mcq-03": "本句的「breathe」指「吸入或呼出某種氣體／空氣」。",
+        "breathe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-03"
     },
@@ -633,10 +599,7 @@ export default {
       "options": [
         "breathe-mcq-03",
         "breathe-mcq-02",
-        "breathe-mcq-04",
-        "breathe-mcq-01",
-        "breathe-mcq-05",
-        "breathe-mcq-06"
+        "breathe-mcq-09"
       ],
       "explanation": "本句的「breathed」指「吸入或呼出某種氣體／空氣」。",
       "sentenceIndex": 8,
@@ -645,12 +608,9 @@ export default {
         "breathed"
       ],
       "optionReasons": {
-        "breathe-mcq-03": "本句指「吸入或呼出某種氣體／空氣」。",
-        "breathe-mcq-02": "「從忙碌、壓力或緊張中稍作停頓並重新放鬆」是「breathe — figurative」的用法，與本句語境不同。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。",
-        "breathe-mcq-01": "「把空氣吸入肺部，再呼出體外」是「breathe — literal」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。"
+        "breathe-mcq-03": "本句的「breathed」指「吸入或呼出某種氣體／空氣」。",
+        "breathe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-03"
     },
@@ -662,11 +622,9 @@ export default {
       "masked": "‘Thank you,’ she ____.",
       "options": [
         "breathe-mcq-04",
-        "breathe-mcq-03",
-        "breathe-mcq-05",
         "breathe-mcq-02",
-        "breathe-mcq-06",
-        "breathe-mcq-01"
+        "breathe-mcq-11",
+        "breathe-mcq-05"
       ],
       "explanation": "本句的「breathed」指「用很輕、柔的聲音說出某些話」。",
       "sentenceIndex": 9,
@@ -675,12 +633,10 @@ export default {
         "breathed"
       ],
       "optionReasons": {
-        "breathe-mcq-04": "本句指「用很輕、柔的聲音說出某些話」。",
-        "breathe-mcq-03": "「吸入或呼出某種氣體／空氣」是「breathe + substance」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-02": "「從忙碌、壓力或緊張中稍作停頓並重新放鬆」是「breathe — figurative」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。",
-        "breathe-mcq-01": "「把空氣吸入肺部，再呼出體外」是「breathe — literal」的用法，與本句語境不同。"
+        "breathe-mcq-04": "本句的「breathed」指「用很輕、柔的聲音說出某些話」。",
+        "breathe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-04"
     },
@@ -692,11 +648,9 @@ export default {
       "masked": "He ____ her name quietly.",
       "options": [
         "breathe-mcq-04",
-        "breathe-mcq-03",
-        "breathe-mcq-05",
-        "breathe-mcq-02",
+        "breathe-mcq-11",
         "breathe-mcq-06",
-        "breathe-mcq-01"
+        "breathe-mcq-05"
       ],
       "explanation": "本句的「breathed」指「用很輕、柔的聲音說出某些話」。",
       "sentenceIndex": 10,
@@ -705,12 +659,10 @@ export default {
         "breathed"
       ],
       "optionReasons": {
-        "breathe-mcq-04": "本句指「用很輕、柔的聲音說出某些話」。",
-        "breathe-mcq-03": "「吸入或呼出某種氣體／空氣」是「breathe + substance」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-02": "「從忙碌、壓力或緊張中稍作停頓並重新放鬆」是「breathe — figurative」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。",
-        "breathe-mcq-01": "「把空氣吸入肺部，再呼出體外」是「breathe — literal」的用法，與本句語境不同。"
+        "breathe-mcq-04": "本句的「breathed」指「用很輕、柔的聲音說出某些話」。",
+        "breathe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-04"
     },
@@ -722,10 +674,8 @@ export default {
       "masked": "This fabric ____ well.",
       "options": [
         "breathe-mcq-05",
+        "breathe-mcq-09",
         "breathe-mcq-04",
-        "breathe-mcq-06",
-        "breathe-mcq-03",
-        "breathe-mcq-07",
         "breathe-mcq-02"
       ],
       "explanation": "本句的「breathes」指「讓空氣／水蒸氣可以通過；透氣」。",
@@ -735,12 +685,10 @@ export default {
         "breathes"
       ],
       "optionReasons": {
-        "breathe-mcq-05": "本句指「讓空氣／水蒸氣可以通過；透氣」。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。",
-        "breathe-mcq-03": "「吸入或呼出某種氣體／空氣」是「breathe + substance」的用法，與本句語境不同。",
-        "breathe-mcq-07": "「一次吸入／呼出的空氣；一口氣」是「breath」的用法，與本句語境不同。",
-        "breathe-mcq-02": "「從忙碌、壓力或緊張中稍作停頓並重新放鬆」是「breathe — figurative」的用法，與本句語境不同。"
+        "breathe-mcq-05": "本句的「breathes」指「讓空氣／水蒸氣可以通過；透氣」。",
+        "breathe-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-05"
     },
@@ -752,11 +700,9 @@ export default {
       "masked": "Leather needs to ____.",
       "options": [
         "breathe-mcq-05",
+        "breathe-mcq-10",
         "breathe-mcq-04",
-        "breathe-mcq-06",
-        "breathe-mcq-03",
-        "breathe-mcq-07",
-        "breathe-mcq-02"
+        "breathe-mcq-06"
       ],
       "explanation": "本句的「breathe」指「讓空氣／水蒸氣可以通過；透氣」。",
       "sentenceIndex": 12,
@@ -765,12 +711,10 @@ export default {
         "breathe"
       ],
       "optionReasons": {
-        "breathe-mcq-05": "本句指「讓空氣／水蒸氣可以通過；透氣」。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。",
-        "breathe-mcq-03": "「吸入或呼出某種氣體／空氣」是「breathe + substance」的用法，與本句語境不同。",
-        "breathe-mcq-07": "「一次吸入／呼出的空氣；一口氣」是「breath」的用法，與本句語境不同。",
-        "breathe-mcq-02": "「從忙碌、壓力或緊張中稍作停頓並重新放鬆」是「breathe — figurative」的用法，與本句語境不同。"
+        "breathe-mcq-05": "本句的「breathe」指「讓空氣／水蒸氣可以通過；透氣」。",
+        "breathe-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-05"
     },
@@ -783,10 +727,8 @@ export default {
       "options": [
         "breathe-mcq-06",
         "breathe-mcq-05",
-        "breathe-mcq-07",
-        "breathe-mcq-04",
-        "breathe-mcq-08",
-        "breathe-mcq-03"
+        "breathe-mcq-10",
+        "breathe-mcq-04"
       ],
       "explanation": "本句的「breathed life into」指「令某事重新變得有活力、有趣或有生命力」。",
       "sentenceIndex": 13,
@@ -795,12 +737,10 @@ export default {
         "breathed life into"
       ],
       "optionReasons": {
-        "breathe-mcq-06": "本句指「令某事重新變得有活力、有趣或有生命力」。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-07": "「一次吸入／呼出的空氣；一口氣」是「breath」的用法，與本句語境不同。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。",
-        "breathe-mcq-08": "「吸一口氣，或短暫停頓一下」是「take a breath」的用法，與本句語境不同。",
-        "breathe-mcq-03": "「吸入或呼出某種氣體／空氣」是「breathe + substance」的用法，與本句語境不同。"
+        "breathe-mcq-06": "本句的「breathed life into」指「令某事重新變得有活力、有趣或有生命力」。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-06"
     },
@@ -812,11 +752,9 @@ export default {
       "masked": "Her ideas ____ new life into the project.",
       "options": [
         "breathe-mcq-06",
-        "breathe-mcq-05",
-        "breathe-mcq-07",
+        "breathe-mcq-11",
         "breathe-mcq-04",
-        "breathe-mcq-08",
-        "breathe-mcq-03"
+        "breathe-mcq-01"
       ],
       "explanation": "本句的「breathed」指「令某事重新變得有活力、有趣或有生命力」。",
       "sentenceIndex": 14,
@@ -825,12 +763,10 @@ export default {
         "breathed"
       ],
       "optionReasons": {
-        "breathe-mcq-06": "本句指「令某事重新變得有活力、有趣或有生命力」。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-07": "「一次吸入／呼出的空氣；一口氣」是「breath」的用法，與本句語境不同。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。",
-        "breathe-mcq-08": "「吸一口氣，或短暫停頓一下」是「take a breath」的用法，與本句語境不同。",
-        "breathe-mcq-03": "「吸入或呼出某種氣體／空氣」是「breathe + substance」的用法，與本句語境不同。"
+        "breathe-mcq-06": "本句的「breathed」指「令某事重新變得有活力、有趣或有生命力」。",
+        "breathe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-06"
     },
@@ -842,11 +778,9 @@ export default {
       "masked": "Take a deep ____.",
       "options": [
         "breathe-mcq-07",
-        "breathe-mcq-06",
-        "breathe-mcq-08",
-        "breathe-mcq-05",
-        "breathe-mcq-09",
-        "breathe-mcq-04"
+        "breathe-mcq-02",
+        "breathe-mcq-04",
+        "breathe-mcq-09"
       ],
       "explanation": "本句的「breath」指「一次吸入／呼出的空氣；一口氣」。",
       "sentenceIndex": 15,
@@ -855,12 +789,10 @@ export default {
         "breath"
       ],
       "optionReasons": {
-        "breathe-mcq-07": "本句指「一次吸入／呼出的空氣；一口氣」。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。",
-        "breathe-mcq-08": "「吸一口氣，或短暫停頓一下」是「take a breath」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-09": "「在劇烈活動或驚訝後恢復正常呼吸」是「catch one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。"
+        "breathe-mcq-07": "本句的「breath」指「一次吸入／呼出的空氣；一口氣」。",
+        "breathe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-07"
     },
@@ -873,10 +805,8 @@ export default {
       "options": [
         "breathe-mcq-07",
         "breathe-mcq-06",
-        "breathe-mcq-08",
-        "breathe-mcq-05",
-        "breathe-mcq-09",
-        "breathe-mcq-04"
+        "breathe-mcq-04",
+        "breathe-mcq-14"
       ],
       "explanation": "本句的「breath」指「一次吸入／呼出的空氣；一口氣」。",
       "sentenceIndex": 16,
@@ -885,12 +815,10 @@ export default {
         "breath"
       ],
       "optionReasons": {
-        "breathe-mcq-07": "本句指「一次吸入／呼出的空氣；一口氣」。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。",
-        "breathe-mcq-08": "「吸一口氣，或短暫停頓一下」是「take a breath」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。",
-        "breathe-mcq-09": "「在劇烈活動或驚訝後恢復正常呼吸」是「catch one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-04": "「用很輕、柔的聲音說出某些話」是「breathe — literary speech」的用法，與本句語境不同。"
+        "breathe-mcq-07": "本句的「breath」指「一次吸入／呼出的空氣；一口氣」。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-07"
     },
@@ -902,10 +830,8 @@ export default {
       "masked": "Take a ____ before you answer.",
       "options": [
         "breathe-mcq-08",
-        "breathe-mcq-07",
-        "breathe-mcq-09",
+        "breathe-mcq-04",
         "breathe-mcq-06",
-        "breathe-mcq-10",
         "breathe-mcq-05"
       ],
       "explanation": "本句的「breath」指「吸一口氣，或短暫停頓一下」。",
@@ -915,12 +841,10 @@ export default {
         "breath"
       ],
       "optionReasons": {
-        "breathe-mcq-08": "本句指「吸一口氣，或短暫停頓一下」。",
-        "breathe-mcq-07": "「一次吸入／呼出的空氣；一口氣」是「breath」的用法，與本句語境不同。",
-        "breathe-mcq-09": "「在劇烈活動或驚訝後恢復正常呼吸」是「catch one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。",
-        "breathe-mcq-10": "「暫時停止呼吸；亦可比喻緊張等待」是「hold one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。"
+        "breathe-mcq-08": "本句的「breath」指「吸一口氣，或短暫停頓一下」。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-08"
     },
@@ -932,10 +856,8 @@ export default {
       "masked": "She paused to take a ____.",
       "options": [
         "breathe-mcq-08",
-        "breathe-mcq-07",
-        "breathe-mcq-09",
+        "breathe-mcq-04",
         "breathe-mcq-06",
-        "breathe-mcq-10",
         "breathe-mcq-05"
       ],
       "explanation": "本句的「breath」指「吸一口氣，或短暫停頓一下」。",
@@ -945,12 +867,10 @@ export default {
         "breath"
       ],
       "optionReasons": {
-        "breathe-mcq-08": "本句指「吸一口氣，或短暫停頓一下」。",
-        "breathe-mcq-07": "「一次吸入／呼出的空氣；一口氣」是「breath」的用法，與本句語境不同。",
-        "breathe-mcq-09": "「在劇烈活動或驚訝後恢復正常呼吸」是「catch one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。",
-        "breathe-mcq-10": "「暫時停止呼吸；亦可比喻緊張等待」是「hold one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-05": "「讓空氣／水蒸氣可以通過；透氣」是「breathe — material」的用法，與本句語境不同。"
+        "breathe-mcq-08": "本句的「breath」指「吸一口氣，或短暫停頓一下」。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-08"
     },
@@ -962,11 +882,9 @@ export default {
       "masked": "He stopped running to ____.",
       "options": [
         "breathe-mcq-09",
-        "breathe-mcq-08",
-        "breathe-mcq-10",
-        "breathe-mcq-07",
-        "breathe-mcq-11",
-        "breathe-mcq-06"
+        "breathe-mcq-05",
+        "breathe-mcq-04",
+        "breathe-mcq-02"
       ],
       "explanation": "本句的「catch his breath」指「在劇烈活動或驚訝後恢復正常呼吸」。",
       "sentenceIndex": 19,
@@ -975,12 +893,10 @@ export default {
         "catch his breath"
       ],
       "optionReasons": {
-        "breathe-mcq-09": "本句指「在劇烈活動或驚訝後恢復正常呼吸」。",
-        "breathe-mcq-08": "「吸一口氣，或短暫停頓一下」是「take a breath」的用法，與本句語境不同。",
-        "breathe-mcq-10": "「暫時停止呼吸；亦可比喻緊張等待」是「hold one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-07": "「一次吸入／呼出的空氣；一口氣」是「breath」的用法，與本句語境不同。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。"
+        "breathe-mcq-09": "本句的「catch his breath」指「在劇烈活動或驚訝後恢復正常呼吸」。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-09"
     },
@@ -992,11 +908,9 @@ export default {
       "masked": "Give me a minute to catch my ____.",
       "options": [
         "breathe-mcq-09",
-        "breathe-mcq-08",
-        "breathe-mcq-10",
-        "breathe-mcq-07",
-        "breathe-mcq-11",
-        "breathe-mcq-06"
+        "breathe-mcq-04",
+        "breathe-mcq-02",
+        "breathe-mcq-05"
       ],
       "explanation": "本句的「breath」指「在劇烈活動或驚訝後恢復正常呼吸」。",
       "sentenceIndex": 20,
@@ -1005,12 +919,10 @@ export default {
         "breath"
       ],
       "optionReasons": {
-        "breathe-mcq-09": "本句指「在劇烈活動或驚訝後恢復正常呼吸」。",
-        "breathe-mcq-08": "「吸一口氣，或短暫停頓一下」是「take a breath」的用法，與本句語境不同。",
-        "breathe-mcq-10": "「暫時停止呼吸；亦可比喻緊張等待」是「hold one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-07": "「一次吸入／呼出的空氣；一口氣」是「breath」的用法，與本句語境不同。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。",
-        "breathe-mcq-06": "「令某事重新變得有活力、有趣或有生命力」是「breathe life into」的用法，與本句語境不同。"
+        "breathe-mcq-09": "本句的「breath」指「在劇烈活動或驚訝後恢復正常呼吸」。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-09"
     },
@@ -1022,11 +934,9 @@ export default {
       "masked": "She ____ underwater.",
       "options": [
         "breathe-mcq-10",
-        "breathe-mcq-09",
-        "breathe-mcq-11",
-        "breathe-mcq-08",
-        "breathe-mcq-12",
-        "breathe-mcq-07"
+        "breathe-mcq-05",
+        "breathe-mcq-06",
+        "breathe-mcq-04"
       ],
       "explanation": "本句的「held her breath」指「暫時停止呼吸；亦可比喻緊張等待」。",
       "sentenceIndex": 21,
@@ -1035,12 +945,10 @@ export default {
         "held her breath"
       ],
       "optionReasons": {
-        "breathe-mcq-10": "本句指「暫時停止呼吸；亦可比喻緊張等待」。",
-        "breathe-mcq-09": "「在劇烈活動或驚訝後恢復正常呼吸」是「catch one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。",
-        "breathe-mcq-08": "「吸一口氣，或短暫停頓一下」是「take a breath」的用法，與本句語境不同。",
-        "breathe-mcq-12": "「呼吸這個持續的生理過程」是「breathing」的用法，與本句語境不同。",
-        "breathe-mcq-07": "「一次吸入／呼出的空氣；一口氣」是「breath」的用法，與本句語境不同。"
+        "breathe-mcq-10": "本句的「held her breath」指「暫時停止呼吸；亦可比喻緊張等待」。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-10"
     },
@@ -1052,11 +960,9 @@ export default {
       "masked": "Hold your ____ for a few seconds.",
       "options": [
         "breathe-mcq-10",
-        "breathe-mcq-09",
-        "breathe-mcq-11",
-        "breathe-mcq-08",
-        "breathe-mcq-12",
-        "breathe-mcq-07"
+        "breathe-mcq-04",
+        "breathe-mcq-05",
+        "breathe-mcq-06"
       ],
       "explanation": "本句的「breath」指「暫時停止呼吸；亦可比喻緊張等待」。",
       "sentenceIndex": 22,
@@ -1065,12 +971,10 @@ export default {
         "breath"
       ],
       "optionReasons": {
-        "breathe-mcq-10": "本句指「暫時停止呼吸；亦可比喻緊張等待」。",
-        "breathe-mcq-09": "「在劇烈活動或驚訝後恢復正常呼吸」是「catch one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。",
-        "breathe-mcq-08": "「吸一口氣，或短暫停頓一下」是「take a breath」的用法，與本句語境不同。",
-        "breathe-mcq-12": "「呼吸這個持續的生理過程」是「breathing」的用法，與本句語境不同。",
-        "breathe-mcq-07": "「一次吸入／呼出的空氣；一口氣」是「breath」的用法，與本句語境不同。"
+        "breathe-mcq-10": "本句的「breath」指「暫時停止呼吸；亦可比喻緊張等待」。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-10"
     },
@@ -1082,11 +986,9 @@ export default {
       "masked": "Everyone ____ as the results were announced.",
       "options": [
         "breathe-mcq-10",
-        "breathe-mcq-09",
-        "breathe-mcq-11",
-        "breathe-mcq-08",
-        "breathe-mcq-12",
-        "breathe-mcq-07"
+        "breathe-mcq-04",
+        "breathe-mcq-06",
+        "breathe-mcq-05"
       ],
       "explanation": "本句的「held their breath」指「暫時停止呼吸；亦可比喻緊張等待」。",
       "sentenceIndex": 23,
@@ -1095,12 +997,10 @@ export default {
         "held their breath"
       ],
       "optionReasons": {
-        "breathe-mcq-10": "本句指「暫時停止呼吸；亦可比喻緊張等待」。",
-        "breathe-mcq-09": "「在劇烈活動或驚訝後恢復正常呼吸」是「catch one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。",
-        "breathe-mcq-08": "「吸一口氣，或短暫停頓一下」是「take a breath」的用法，與本句語境不同。",
-        "breathe-mcq-12": "「呼吸這個持續的生理過程」是「breathing」的用法，與本句語境不同。",
-        "breathe-mcq-07": "「一次吸入／呼出的空氣；一口氣」是「breath」的用法，與本句語境不同。"
+        "breathe-mcq-10": "本句的「held their breath」指「暫時停止呼吸；亦可比喻緊張等待」。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-10"
     },
@@ -1112,11 +1012,9 @@ export default {
       "masked": "We held our ____ waiting for the final decision.",
       "options": [
         "breathe-mcq-10",
-        "breathe-mcq-09",
-        "breathe-mcq-11",
-        "breathe-mcq-08",
-        "breathe-mcq-12",
-        "breathe-mcq-07"
+        "breathe-mcq-05",
+        "breathe-mcq-04",
+        "breathe-mcq-06"
       ],
       "explanation": "本句的「breath」指「暫時停止呼吸；亦可比喻緊張等待」。",
       "sentenceIndex": 24,
@@ -1125,12 +1023,10 @@ export default {
         "breath"
       ],
       "optionReasons": {
-        "breathe-mcq-10": "本句指「暫時停止呼吸；亦可比喻緊張等待」。",
-        "breathe-mcq-09": "「在劇烈活動或驚訝後恢復正常呼吸」是「catch one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。",
-        "breathe-mcq-08": "「吸一口氣，或短暫停頓一下」是「take a breath」的用法，與本句語境不同。",
-        "breathe-mcq-12": "「呼吸這個持續的生理過程」是「breathing」的用法，與本句語境不同。",
-        "breathe-mcq-07": "「一次吸入／呼出的空氣；一口氣」是「breath」的用法，與本句語境不同。"
+        "breathe-mcq-10": "本句的「breath」指「暫時停止呼吸；亦可比喻緊張等待」。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-10"
     },
@@ -1142,11 +1038,9 @@ export default {
       "masked": "I was ____ after climbing the stairs.",
       "options": [
         "breathe-mcq-11",
-        "breathe-mcq-10",
-        "breathe-mcq-12",
-        "breathe-mcq-09",
-        "breathe-mcq-13",
-        "breathe-mcq-08"
+        "breathe-mcq-02",
+        "breathe-mcq-04",
+        "breathe-mcq-05"
       ],
       "explanation": "本句的「out of breath」指「因運動等而呼吸急促、氣喘吁吁」。",
       "sentenceIndex": 25,
@@ -1155,12 +1049,10 @@ export default {
         "out of breath"
       ],
       "optionReasons": {
-        "breathe-mcq-11": "本句指「因運動等而呼吸急促、氣喘吁吁」。",
-        "breathe-mcq-10": "「暫時停止呼吸；亦可比喻緊張等待」是「hold one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-12": "「呼吸這個持續的生理過程」是「breathing」的用法，與本句語境不同。",
-        "breathe-mcq-09": "「在劇烈活動或驚訝後恢復正常呼吸」是「catch one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-13": "「暫時減輕壓力、讓人恢復或重新安排的時間／空間」是「breathing space」的用法，與本句語境不同。",
-        "breathe-mcq-08": "「吸一口氣，或短暫停頓一下」是「take a breath」的用法，與本句語境不同。"
+        "breathe-mcq-11": "本句的「out of breath」指「因運動等而呼吸急促、氣喘吁吁」。",
+        "breathe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-11"
     },
@@ -1172,11 +1064,9 @@ export default {
       "masked": "She arrived out of ____.",
       "options": [
         "breathe-mcq-11",
-        "breathe-mcq-10",
-        "breathe-mcq-12",
-        "breathe-mcq-09",
         "breathe-mcq-13",
-        "breathe-mcq-08"
+        "breathe-mcq-04",
+        "breathe-mcq-05"
       ],
       "explanation": "本句的「breath」指「因運動等而呼吸急促、氣喘吁吁」。",
       "sentenceIndex": 26,
@@ -1185,12 +1075,10 @@ export default {
         "breath"
       ],
       "optionReasons": {
-        "breathe-mcq-11": "本句指「因運動等而呼吸急促、氣喘吁吁」。",
-        "breathe-mcq-10": "「暫時停止呼吸；亦可比喻緊張等待」是「hold one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-12": "「呼吸這個持續的生理過程」是「breathing」的用法，與本句語境不同。",
-        "breathe-mcq-09": "「在劇烈活動或驚訝後恢復正常呼吸」是「catch one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-13": "「暫時減輕壓力、讓人恢復或重新安排的時間／空間」是「breathing space」的用法，與本句語境不同。",
-        "breathe-mcq-08": "「吸一口氣，或短暫停頓一下」是「take a breath」的用法，與本句語境不同。"
+        "breathe-mcq-11": "本句的「breath」指「因運動等而呼吸急促、氣喘吁吁」。",
+        "breathe-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-11"
     },
@@ -1202,11 +1090,9 @@ export default {
       "masked": "Her ____ became slower.",
       "options": [
         "breathe-mcq-12",
-        "breathe-mcq-11",
         "breathe-mcq-13",
-        "breathe-mcq-10",
-        "breathe-mcq-14",
-        "breathe-mcq-09"
+        "breathe-mcq-04",
+        "breathe-mcq-05"
       ],
       "explanation": "本句的「breathing」指「呼吸這個持續的生理過程」。",
       "sentenceIndex": 27,
@@ -1215,12 +1101,10 @@ export default {
         "breathing"
       ],
       "optionReasons": {
-        "breathe-mcq-12": "本句指「呼吸這個持續的生理過程」。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。",
-        "breathe-mcq-13": "「暫時減輕壓力、讓人恢復或重新安排的時間／空間」是「breathing space」的用法，與本句語境不同。",
-        "breathe-mcq-10": "「暫時停止呼吸；亦可比喻緊張等待」是「hold one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-14": "「呼吸急促、難以正常呼吸的」是「breathless — physical」的用法，與本句語境不同。",
-        "breathe-mcq-09": "「在劇烈活動或驚訝後恢復正常呼吸」是「catch one’s breath」的用法，與本句語境不同。"
+        "breathe-mcq-12": "本句的「breathing」指「呼吸這個持續的生理過程」。",
+        "breathe-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-12"
     },
@@ -1232,11 +1116,9 @@ export default {
       "masked": "Deep ____ can help some people relax.",
       "options": [
         "breathe-mcq-12",
-        "breathe-mcq-11",
+        "breathe-mcq-04",
         "breathe-mcq-13",
-        "breathe-mcq-10",
-        "breathe-mcq-14",
-        "breathe-mcq-09"
+        "breathe-mcq-08"
       ],
       "explanation": "本句的「breathing」指「呼吸這個持續的生理過程」。",
       "sentenceIndex": 28,
@@ -1245,12 +1127,10 @@ export default {
         "breathing"
       ],
       "optionReasons": {
-        "breathe-mcq-12": "本句指「呼吸這個持續的生理過程」。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。",
-        "breathe-mcq-13": "「暫時減輕壓力、讓人恢復或重新安排的時間／空間」是「breathing space」的用法，與本句語境不同。",
-        "breathe-mcq-10": "「暫時停止呼吸；亦可比喻緊張等待」是「hold one’s breath」的用法，與本句語境不同。",
-        "breathe-mcq-14": "「呼吸急促、難以正常呼吸的」是「breathless — physical」的用法，與本句語境不同。",
-        "breathe-mcq-09": "「在劇烈活動或驚訝後恢復正常呼吸」是「catch one’s breath」的用法，與本句語境不同。"
+        "breathe-mcq-12": "本句的「breathing」指「呼吸這個持續的生理過程」。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-12"
     },
@@ -1262,11 +1142,9 @@ export default {
       "masked": "The deadline extension gave us some ____.",
       "options": [
         "breathe-mcq-13",
-        "breathe-mcq-12",
-        "breathe-mcq-14",
-        "breathe-mcq-11",
         "breathe-mcq-15",
-        "breathe-mcq-10"
+        "breathe-mcq-08",
+        "breathe-mcq-04"
       ],
       "explanation": "本句的「breathing space」指「暫時減輕壓力、讓人恢復或重新安排的時間／空間」。",
       "sentenceIndex": 29,
@@ -1275,12 +1153,10 @@ export default {
         "breathing space"
       ],
       "optionReasons": {
-        "breathe-mcq-13": "本句指「暫時減輕壓力、讓人恢復或重新安排的時間／空間」。",
-        "breathe-mcq-12": "「呼吸這個持續的生理過程」是「breathing」的用法，與本句語境不同。",
-        "breathe-mcq-14": "「呼吸急促、難以正常呼吸的」是「breathless — physical」的用法，與本句語境不同。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。",
-        "breathe-mcq-15": "「因興奮、緊張或急切而顯得呼吸急促／語氣急促的」是「breathless — figurative」的用法，與本句語境不同。",
-        "breathe-mcq-10": "「暫時停止呼吸；亦可比喻緊張等待」是「hold one’s breath」的用法，與本句語境不同。"
+        "breathe-mcq-13": "本句的「breathing space」指「暫時減輕壓力、讓人恢復或重新安排的時間／空間」。",
+        "breathe-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-13"
     },
@@ -1292,11 +1168,9 @@ export default {
       "masked": "She needs more ____ space in her schedule.",
       "options": [
         "breathe-mcq-13",
-        "breathe-mcq-12",
-        "breathe-mcq-14",
-        "breathe-mcq-11",
-        "breathe-mcq-15",
-        "breathe-mcq-10"
+        "breathe-mcq-16",
+        "breathe-mcq-03",
+        "breathe-mcq-08"
       ],
       "explanation": "本句的「breathing」指「暫時減輕壓力、讓人恢復或重新安排的時間／空間」。",
       "sentenceIndex": 30,
@@ -1305,12 +1179,10 @@ export default {
         "breathing"
       ],
       "optionReasons": {
-        "breathe-mcq-13": "本句指「暫時減輕壓力、讓人恢復或重新安排的時間／空間」。",
-        "breathe-mcq-12": "「呼吸這個持續的生理過程」是「breathing」的用法，與本句語境不同。",
-        "breathe-mcq-14": "「呼吸急促、難以正常呼吸的」是「breathless — physical」的用法，與本句語境不同。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。",
-        "breathe-mcq-15": "「因興奮、緊張或急切而顯得呼吸急促／語氣急促的」是「breathless — figurative」的用法，與本句語境不同。",
-        "breathe-mcq-10": "「暫時停止呼吸；亦可比喻緊張等待」是「hold one’s breath」的用法，與本句語境不同。"
+        "breathe-mcq-13": "本句的「breathing」指「暫時減輕壓力、讓人恢復或重新安排的時間／空間」。",
+        "breathe-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-13"
     },
@@ -1322,11 +1194,9 @@ export default {
       "masked": "She was ____ after running upstairs.",
       "options": [
         "breathe-mcq-14",
-        "breathe-mcq-13",
-        "breathe-mcq-15",
-        "breathe-mcq-12",
-        "breathe-mcq-16",
-        "breathe-mcq-11"
+        "breathe-mcq-04",
+        "breathe-mcq-02",
+        "breathe-mcq-05"
       ],
       "explanation": "本句的「breathless」指「呼吸急促、難以正常呼吸的」。",
       "sentenceIndex": 31,
@@ -1335,12 +1205,10 @@ export default {
         "breathless"
       ],
       "optionReasons": {
-        "breathe-mcq-14": "本句指「呼吸急促、難以正常呼吸的」。",
-        "breathe-mcq-13": "「暫時減輕壓力、讓人恢復或重新安排的時間／空間」是「breathing space」的用法，與本句語境不同。",
-        "breathe-mcq-15": "「因興奮、緊張或急切而顯得呼吸急促／語氣急促的」是「breathless — figurative」的用法，與本句語境不同。",
-        "breathe-mcq-12": "「呼吸這個持續的生理過程」是「breathing」的用法，與本句語境不同。",
-        "breathe-mcq-16": "「以呼吸急促或非常激動的方式」是「breathlessly」的用法，與本句語境不同。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。"
+        "breathe-mcq-14": "本句的「breathless」指「呼吸急促、難以正常呼吸的」。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-14"
     },
@@ -1352,11 +1220,9 @@ export default {
       "masked": "The climb left us ____.",
       "options": [
         "breathe-mcq-14",
-        "breathe-mcq-13",
-        "breathe-mcq-15",
-        "breathe-mcq-12",
-        "breathe-mcq-16",
-        "breathe-mcq-11"
+        "breathe-mcq-04",
+        "breathe-mcq-06",
+        "breathe-mcq-05"
       ],
       "explanation": "本句的「breathless」指「呼吸急促、難以正常呼吸的」。",
       "sentenceIndex": 32,
@@ -1365,12 +1231,10 @@ export default {
         "breathless"
       ],
       "optionReasons": {
-        "breathe-mcq-14": "本句指「呼吸急促、難以正常呼吸的」。",
-        "breathe-mcq-13": "「暫時減輕壓力、讓人恢復或重新安排的時間／空間」是「breathing space」的用法，與本句語境不同。",
-        "breathe-mcq-15": "「因興奮、緊張或急切而顯得呼吸急促／語氣急促的」是「breathless — figurative」的用法，與本句語境不同。",
-        "breathe-mcq-12": "「呼吸這個持續的生理過程」是「breathing」的用法，與本句語境不同。",
-        "breathe-mcq-16": "「以呼吸急促或非常激動的方式」是「breathlessly」的用法，與本句語境不同。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。"
+        "breathe-mcq-14": "本句的「breathless」指「呼吸急促、難以正常呼吸的」。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-14"
     },
@@ -1382,11 +1246,9 @@ export default {
       "masked": "The audience waited in ____.",
       "options": [
         "breathe-mcq-15",
-        "breathe-mcq-14",
-        "breathe-mcq-16",
-        "breathe-mcq-13",
-        "breathe-mcq-12",
-        "breathe-mcq-11"
+        "breathe-mcq-06",
+        "breathe-mcq-04",
+        "breathe-mcq-05"
       ],
       "explanation": "本句的「breathless silence」指「因興奮、緊張或急切而顯得呼吸急促／語氣急促的」。",
       "sentenceIndex": 33,
@@ -1395,12 +1257,10 @@ export default {
         "breathless silence"
       ],
       "optionReasons": {
-        "breathe-mcq-15": "本句指「因興奮、緊張或急切而顯得呼吸急促／語氣急促的」。",
-        "breathe-mcq-14": "「呼吸急促、難以正常呼吸的」是「breathless — physical」的用法，與本句語境不同。",
-        "breathe-mcq-16": "「以呼吸急促或非常激動的方式」是「breathlessly」的用法，與本句語境不同。",
-        "breathe-mcq-13": "「暫時減輕壓力、讓人恢復或重新安排的時間／空間」是「breathing space」的用法，與本句語境不同。",
-        "breathe-mcq-12": "「呼吸這個持續的生理過程」是「breathing」的用法，與本句語境不同。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。"
+        "breathe-mcq-15": "本句的「breathless silence」指「因興奮、緊張或急切而顯得呼吸急促／語氣急促的」。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-15"
     },
@@ -1412,11 +1272,9 @@ export default {
       "masked": "She gave a ____ account of what happened.",
       "options": [
         "breathe-mcq-15",
-        "breathe-mcq-14",
-        "breathe-mcq-16",
-        "breathe-mcq-13",
-        "breathe-mcq-12",
-        "breathe-mcq-11"
+        "breathe-mcq-04",
+        "breathe-mcq-06",
+        "breathe-mcq-05"
       ],
       "explanation": "本句的「breathless」指「因興奮、緊張或急切而顯得呼吸急促／語氣急促的」。",
       "sentenceIndex": 34,
@@ -1425,12 +1283,10 @@ export default {
         "breathless"
       ],
       "optionReasons": {
-        "breathe-mcq-15": "本句指「因興奮、緊張或急切而顯得呼吸急促／語氣急促的」。",
-        "breathe-mcq-14": "「呼吸急促、難以正常呼吸的」是「breathless — physical」的用法，與本句語境不同。",
-        "breathe-mcq-16": "「以呼吸急促或非常激動的方式」是「breathlessly」的用法，與本句語境不同。",
-        "breathe-mcq-13": "「暫時減輕壓力、讓人恢復或重新安排的時間／空間」是「breathing space」的用法，與本句語境不同。",
-        "breathe-mcq-12": "「呼吸這個持續的生理過程」是「breathing」的用法，與本句語境不同。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。"
+        "breathe-mcq-15": "本句的「breathless」指「因興奮、緊張或急切而顯得呼吸急促／語氣急促的」。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-15"
     },
@@ -1442,11 +1298,9 @@ export default {
       "masked": "He spoke ____ after running into the room.",
       "options": [
         "breathe-mcq-16",
-        "breathe-mcq-15",
-        "breathe-mcq-14",
-        "breathe-mcq-13",
-        "breathe-mcq-12",
-        "breathe-mcq-11"
+        "breathe-mcq-06",
+        "breathe-mcq-04",
+        "breathe-mcq-05"
       ],
       "explanation": "本句的「breathlessly」指「以呼吸急促或非常激動的方式」。",
       "sentenceIndex": 35,
@@ -1455,12 +1309,10 @@ export default {
         "breathlessly"
       ],
       "optionReasons": {
-        "breathe-mcq-16": "本句指「以呼吸急促或非常激動的方式」。",
-        "breathe-mcq-15": "「因興奮、緊張或急切而顯得呼吸急促／語氣急促的」是「breathless — figurative」的用法，與本句語境不同。",
-        "breathe-mcq-14": "「呼吸急促、難以正常呼吸的」是「breathless — physical」的用法，與本句語境不同。",
-        "breathe-mcq-13": "「暫時減輕壓力、讓人恢復或重新安排的時間／空間」是「breathing space」的用法，與本句語境不同。",
-        "breathe-mcq-12": "「呼吸這個持續的生理過程」是「breathing」的用法，與本句語境不同。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。"
+        "breathe-mcq-16": "本句的「breathlessly」指「以呼吸急促或非常激動的方式」。",
+        "breathe-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-16"
     },
@@ -1472,11 +1324,9 @@ export default {
       "masked": "She ____ told us the news.",
       "options": [
         "breathe-mcq-16",
-        "breathe-mcq-15",
-        "breathe-mcq-14",
         "breathe-mcq-13",
-        "breathe-mcq-12",
-        "breathe-mcq-11"
+        "breathe-mcq-04",
+        "breathe-mcq-05"
       ],
       "explanation": "本句的「breathlessly」指「以呼吸急促或非常激動的方式」。",
       "sentenceIndex": 36,
@@ -1485,12 +1335,10 @@ export default {
         "breathlessly"
       ],
       "optionReasons": {
-        "breathe-mcq-16": "本句指「以呼吸急促或非常激動的方式」。",
-        "breathe-mcq-15": "「因興奮、緊張或急切而顯得呼吸急促／語氣急促的」是「breathless — figurative」的用法，與本句語境不同。",
-        "breathe-mcq-14": "「呼吸急促、難以正常呼吸的」是「breathless — physical」的用法，與本句語境不同。",
-        "breathe-mcq-13": "「暫時減輕壓力、讓人恢復或重新安排的時間／空間」是「breathing space」的用法，與本句語境不同。",
-        "breathe-mcq-12": "「呼吸這個持續的生理過程」是「breathing」的用法，與本句語境不同。",
-        "breathe-mcq-11": "「因運動等而呼吸急促、氣喘吁吁」是「out of breath」的用法，與本句語境不同。"
+        "breathe-mcq-16": "本句的「breathlessly」指「以呼吸急促或非常激動的方式」。",
+        "breathe-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "breathe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "breathe-mcq-16"
     }
@@ -1502,5 +1350,7 @@ export default {
     "sha256": "6587830da21a715d5c1b1c86786d827fc949a873261aeb687bd6d1368eabc05a",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

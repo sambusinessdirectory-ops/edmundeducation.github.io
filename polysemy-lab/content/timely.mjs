@@ -316,11 +316,7 @@ export default {
       "masked": "A ____ can really mend the situation.",
       "options": [
         "timely-mcq-01",
-        "timely-mcq-02",
-        "timely-mcq-03",
-        "timely-mcq-04",
-        "timely-mcq-05",
-        "timely-mcq-06"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timely apology」指「及時的；適時的」。",
       "sentenceIndex": 0,
@@ -329,12 +325,8 @@ export default {
         "timely apology"
       ],
       "optionReasons": {
-        "timely-mcq-01": "本句指「及時的；適時的」。",
-        "timely-mcq-02": "「及時的道歉」與本句語境不同。",
-        "timely-mcq-03": "「及時回應」與本句語境不同。",
-        "timely-mcq-04": "「及時行動」與本句語境不同。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。"
+        "timely-mcq-01": "本句的「timely apology」指「及時的；適時的」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-01"
     },
@@ -346,11 +338,7 @@ export default {
       "masked": "Her ____ prevented the problem from getting worse.",
       "options": [
         "timely-mcq-01",
-        "timely-mcq-02",
-        "timely-mcq-03",
-        "timely-mcq-04",
-        "timely-mcq-05",
-        "timely-mcq-06"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timely response」指「及時的；適時的」。",
       "sentenceIndex": 1,
@@ -359,12 +347,8 @@ export default {
         "timely response"
       ],
       "optionReasons": {
-        "timely-mcq-01": "本句指「及時的；適時的」。",
-        "timely-mcq-02": "「及時的道歉」與本句語境不同。",
-        "timely-mcq-03": "「及時回應」與本句語境不同。",
-        "timely-mcq-04": "「及時行動」與本句語境不同。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。"
+        "timely-mcq-01": "本句的「timely response」指「及時的；適時的」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-01"
     },
@@ -376,11 +360,7 @@ export default {
       "masked": "We received a ____.",
       "options": [
         "timely-mcq-01",
-        "timely-mcq-02",
-        "timely-mcq-03",
-        "timely-mcq-04",
-        "timely-mcq-05",
-        "timely-mcq-06"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timely warning」指「及時的；適時的」。",
       "sentenceIndex": 2,
@@ -389,12 +369,8 @@ export default {
         "timely warning"
       ],
       "optionReasons": {
-        "timely-mcq-01": "本句指「及時的；適時的」。",
-        "timely-mcq-02": "「及時的道歉」與本句語境不同。",
-        "timely-mcq-03": "「及時回應」與本句語境不同。",
-        "timely-mcq-04": "「及時行動」與本句語境不同。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。"
+        "timely-mcq-01": "本句的「timely warning」指「及時的；適時的」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-01"
     },
@@ -406,11 +382,7 @@ export default {
       "masked": "His ____ helped clear the air.",
       "options": [
         "timely-mcq-02",
-        "timely-mcq-01",
-        "timely-mcq-03",
-        "timely-mcq-04",
-        "timely-mcq-05",
-        "timely-mcq-06"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timely apology」指「及時的道歉」。",
       "sentenceIndex": 3,
@@ -419,12 +391,8 @@ export default {
         "timely apology"
       ],
       "optionReasons": {
-        "timely-mcq-02": "本句指「及時的道歉」。",
-        "timely-mcq-01": "「及時的；適時的」與本句語境不同。",
-        "timely-mcq-03": "「及時回應」與本句語境不同。",
-        "timely-mcq-04": "「及時行動」與本句語境不同。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。"
+        "timely-mcq-02": "本句的「timely apology」指「及時的道歉」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-02"
     },
@@ -436,11 +404,7 @@ export default {
       "masked": "A ____ can prevent resentment from building.",
       "options": [
         "timely-mcq-02",
-        "timely-mcq-01",
-        "timely-mcq-03",
-        "timely-mcq-04",
-        "timely-mcq-05",
-        "timely-mcq-06"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timely apology」指「及時的道歉」。",
       "sentenceIndex": 4,
@@ -449,12 +413,8 @@ export default {
         "timely apology"
       ],
       "optionReasons": {
-        "timely-mcq-02": "本句指「及時的道歉」。",
-        "timely-mcq-01": "「及時的；適時的」與本句語境不同。",
-        "timely-mcq-03": "「及時回應」與本句語境不同。",
-        "timely-mcq-04": "「及時行動」與本句語境不同。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。"
+        "timely-mcq-02": "本句的「timely apology」指「及時的道歉」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-02"
     },
@@ -466,11 +426,7 @@ export default {
       "masked": "Thank you for your ____.",
       "options": [
         "timely-mcq-03",
-        "timely-mcq-02",
-        "timely-mcq-04",
-        "timely-mcq-01",
-        "timely-mcq-05",
-        "timely-mcq-06"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timely response」指「及時回應」。",
       "sentenceIndex": 5,
@@ -479,12 +435,8 @@ export default {
         "timely response"
       ],
       "optionReasons": {
-        "timely-mcq-03": "本句指「及時回應」。",
-        "timely-mcq-02": "「及時的道歉」與本句語境不同。",
-        "timely-mcq-04": "「及時行動」與本句語境不同。",
-        "timely-mcq-01": "「及時的；適時的」與本句語境不同。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。"
+        "timely-mcq-03": "本句的「timely response」指「及時回應」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-03"
     },
@@ -496,11 +448,7 @@ export default {
       "masked": "A ____ is important during a crisis.",
       "options": [
         "timely-mcq-03",
-        "timely-mcq-02",
-        "timely-mcq-04",
-        "timely-mcq-01",
-        "timely-mcq-05",
-        "timely-mcq-06"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timely response」指「及時回應」。",
       "sentenceIndex": 6,
@@ -509,12 +457,8 @@ export default {
         "timely response"
       ],
       "optionReasons": {
-        "timely-mcq-03": "本句指「及時回應」。",
-        "timely-mcq-02": "「及時的道歉」與本句語境不同。",
-        "timely-mcq-04": "「及時行動」與本句語境不同。",
-        "timely-mcq-01": "「及時的；適時的」與本句語境不同。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。"
+        "timely-mcq-03": "本句的「timely response」指「及時回應」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-03"
     },
@@ -526,11 +470,7 @@ export default {
       "masked": "____ prevented further damage.",
       "options": [
         "timely-mcq-04",
-        "timely-mcq-03",
-        "timely-mcq-05",
-        "timely-mcq-02",
-        "timely-mcq-06",
-        "timely-mcq-01"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「Timely action」指「及時行動」。",
       "sentenceIndex": 7,
@@ -539,12 +479,8 @@ export default {
         "Timely action"
       ],
       "optionReasons": {
-        "timely-mcq-04": "本句指「及時行動」。",
-        "timely-mcq-03": "「及時回應」與本句語境不同。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。",
-        "timely-mcq-02": "「及時的道歉」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。",
-        "timely-mcq-01": "「及時的；適時的」與本句語境不同。"
+        "timely-mcq-04": "本句的「Timely action」指「及時行動」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-04"
     },
@@ -556,11 +492,7 @@ export default {
       "masked": "The problem could have been solved with more ____.",
       "options": [
         "timely-mcq-04",
-        "timely-mcq-03",
-        "timely-mcq-05",
-        "timely-mcq-02",
-        "timely-mcq-06",
-        "timely-mcq-01"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timely action」指「及時行動」。",
       "sentenceIndex": 8,
@@ -569,12 +501,8 @@ export default {
         "timely action"
       ],
       "optionReasons": {
-        "timely-mcq-04": "本句指「及時行動」。",
-        "timely-mcq-03": "「及時回應」與本句語境不同。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。",
-        "timely-mcq-02": "「及時的道歉」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。",
-        "timely-mcq-01": "「及時的；適時的」與本句語境不同。"
+        "timely-mcq-04": "本句的「timely action」指「及時行動」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-04"
     },
@@ -586,11 +514,7 @@ export default {
       "masked": "Her ____ stopped the argument from escalating.",
       "options": [
         "timely-mcq-05",
-        "timely-mcq-04",
-        "timely-mcq-06",
-        "timely-mcq-03",
-        "timely-mcq-07",
-        "timely-mcq-02"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timely intervention」指「及時介入」。",
       "sentenceIndex": 9,
@@ -599,12 +523,8 @@ export default {
         "timely intervention"
       ],
       "optionReasons": {
-        "timely-mcq-05": "本句指「及時介入」。",
-        "timely-mcq-04": "「及時行動」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。",
-        "timely-mcq-03": "「及時回應」與本句語境不同。",
-        "timely-mcq-07": "「及時資訊」與本句語境不同。",
-        "timely-mcq-02": "「及時的道歉」與本句語境不同。"
+        "timely-mcq-05": "本句的「timely intervention」指「及時介入」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-05"
     },
@@ -616,11 +536,7 @@ export default {
       "masked": "Early and ____ can make a big difference.",
       "options": [
         "timely-mcq-05",
-        "timely-mcq-04",
-        "timely-mcq-06",
-        "timely-mcq-03",
-        "timely-mcq-07",
-        "timely-mcq-02"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timely intervention」指「及時介入」。",
       "sentenceIndex": 10,
@@ -629,12 +545,8 @@ export default {
         "timely intervention"
       ],
       "optionReasons": {
-        "timely-mcq-05": "本句指「及時介入」。",
-        "timely-mcq-04": "「及時行動」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。",
-        "timely-mcq-03": "「及時回應」與本句語境不同。",
-        "timely-mcq-07": "「及時資訊」與本句語境不同。",
-        "timely-mcq-02": "「及時的道歉」與本句語境不同。"
+        "timely-mcq-05": "本句的「timely intervention」指「及時介入」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-05"
     },
@@ -646,11 +558,7 @@ export default {
       "masked": "The message was a ____ of the deadline.",
       "options": [
         "timely-mcq-06",
-        "timely-mcq-05",
-        "timely-mcq-07",
-        "timely-mcq-04",
-        "timely-mcq-08",
-        "timely-mcq-03"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timely reminder」指「及時提醒」。",
       "sentenceIndex": 11,
@@ -659,12 +567,8 @@ export default {
         "timely reminder"
       ],
       "optionReasons": {
-        "timely-mcq-06": "本句指「及時提醒」。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。",
-        "timely-mcq-07": "「及時資訊」與本句語境不同。",
-        "timely-mcq-04": "「及時行動」與本句語境不同。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。",
-        "timely-mcq-03": "「及時回應」與本句語境不同。"
+        "timely-mcq-06": "本句的「timely reminder」指「及時提醒」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-06"
     },
@@ -676,11 +580,7 @@ export default {
       "masked": "Her comment was a ____ to stay calm.",
       "options": [
         "timely-mcq-06",
-        "timely-mcq-05",
-        "timely-mcq-07",
-        "timely-mcq-04",
-        "timely-mcq-08",
-        "timely-mcq-03"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timely reminder」指「及時提醒」。",
       "sentenceIndex": 12,
@@ -689,12 +589,8 @@ export default {
         "timely reminder"
       ],
       "optionReasons": {
-        "timely-mcq-06": "本句指「及時提醒」。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。",
-        "timely-mcq-07": "「及時資訊」與本句語境不同。",
-        "timely-mcq-04": "「及時行動」與本句語境不同。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。",
-        "timely-mcq-03": "「及時回應」與本句語境不同。"
+        "timely-mcq-06": "本句的「timely reminder」指「及時提醒」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-06"
     },
@@ -706,11 +602,7 @@ export default {
       "masked": "Managers need accurate and ____.",
       "options": [
         "timely-mcq-07",
-        "timely-mcq-06",
-        "timely-mcq-08",
-        "timely-mcq-05",
-        "timely-mcq-09",
-        "timely-mcq-04"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timely information」指「及時資訊」。",
       "sentenceIndex": 13,
@@ -719,12 +611,8 @@ export default {
         "timely information"
       ],
       "optionReasons": {
-        "timely-mcq-07": "本句指「及時資訊」。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。",
-        "timely-mcq-09": "「及時地」與本句語境不同。",
-        "timely-mcq-04": "「及時行動」與本句語境不同。"
+        "timely-mcq-07": "本句的「timely information」指「及時資訊」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-07"
     },
@@ -736,11 +624,7 @@ export default {
       "masked": "The team did not receive ____ about the change.",
       "options": [
         "timely-mcq-07",
-        "timely-mcq-06",
-        "timely-mcq-08",
-        "timely-mcq-05",
-        "timely-mcq-09",
-        "timely-mcq-04"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timely information」指「及時資訊」。",
       "sentenceIndex": 14,
@@ -749,12 +633,8 @@ export default {
         "timely information"
       ],
       "optionReasons": {
-        "timely-mcq-07": "本句指「及時資訊」。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。",
-        "timely-mcq-09": "「及時地」與本句語境不同。",
-        "timely-mcq-04": "「及時行動」與本句語境不同。"
+        "timely-mcq-07": "本句的「timely information」指「及時資訊」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-07"
     },
@@ -766,11 +646,8 @@ export default {
       "masked": "A ____ saved the project.",
       "options": [
         "timely-mcq-08",
-        "timely-mcq-07",
-        "timely-mcq-09",
-        "timely-mcq-06",
-        "timely-mcq-10",
-        "timely-mcq-05"
+        "timely-mcq-13",
+        "timely-mcq-12"
       ],
       "explanation": "本句的「timely decision」指「適時決定」。",
       "sentenceIndex": 15,
@@ -779,12 +656,9 @@ export default {
         "timely decision"
       ],
       "optionReasons": {
-        "timely-mcq-08": "本句指「適時決定」。",
-        "timely-mcq-07": "「及時資訊」與本句語境不同。",
-        "timely-mcq-09": "「及時地」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。",
-        "timely-mcq-10": "「及時性」與本句語境不同。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。"
+        "timely-mcq-08": "本句的「timely decision」指「適時決定」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "timely-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-08"
     },
@@ -796,11 +670,8 @@ export default {
       "masked": "Leaders sometimes need to make ____ with limited information.",
       "options": [
         "timely-mcq-08",
-        "timely-mcq-07",
-        "timely-mcq-09",
-        "timely-mcq-06",
-        "timely-mcq-10",
-        "timely-mcq-05"
+        "timely-mcq-13",
+        "timely-mcq-12"
       ],
       "explanation": "本句的「timely decisions」指「適時決定」。",
       "sentenceIndex": 16,
@@ -809,12 +680,9 @@ export default {
         "timely decisions"
       ],
       "optionReasons": {
-        "timely-mcq-08": "本句指「適時決定」。",
-        "timely-mcq-07": "「及時資訊」與本句語境不同。",
-        "timely-mcq-09": "「及時地」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。",
-        "timely-mcq-10": "「及時性」與本句語境不同。",
-        "timely-mcq-05": "「及時介入」與本句語境不同。"
+        "timely-mcq-08": "本句的「timely decisions」指「適時決定」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "timely-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-08"
     },
@@ -826,11 +694,7 @@ export default {
       "masked": "Please respond ____.",
       "options": [
         "timely-mcq-09",
-        "timely-mcq-08",
-        "timely-mcq-10",
-        "timely-mcq-07",
-        "timely-mcq-11",
-        "timely-mcq-06"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「in a timely manner」指「及時地」。",
       "sentenceIndex": 17,
@@ -839,12 +703,8 @@ export default {
         "in a timely manner"
       ],
       "optionReasons": {
-        "timely-mcq-09": "本句指「及時地」。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。",
-        "timely-mcq-10": "「及時性」與本句語境不同。",
-        "timely-mcq-07": "「及時資訊」與本句語境不同。",
-        "timely-mcq-11": "「不合時宜的」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。"
+        "timely-mcq-09": "本句的「in a timely manner」指「及時地」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-09"
     },
@@ -856,11 +716,7 @@ export default {
       "masked": "The issue was handled ____.",
       "options": [
         "timely-mcq-09",
-        "timely-mcq-08",
-        "timely-mcq-10",
-        "timely-mcq-07",
-        "timely-mcq-11",
-        "timely-mcq-06"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「in a timely manner」指「及時地」。",
       "sentenceIndex": 18,
@@ -869,12 +725,8 @@ export default {
         "in a timely manner"
       ],
       "optionReasons": {
-        "timely-mcq-09": "本句指「及時地」。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。",
-        "timely-mcq-10": "「及時性」與本句語境不同。",
-        "timely-mcq-07": "「及時資訊」與本句語境不同。",
-        "timely-mcq-11": "「不合時宜的」與本句語境不同。",
-        "timely-mcq-06": "「及時提醒」與本句語境不同。"
+        "timely-mcq-09": "本句的「in a timely manner」指「及時地」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-09"
     },
@@ -886,11 +738,7 @@ export default {
       "masked": "The ____ of the apology mattered.",
       "options": [
         "timely-mcq-10",
-        "timely-mcq-09",
-        "timely-mcq-11",
-        "timely-mcq-08",
-        "timely-mcq-12",
-        "timely-mcq-07"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timeliness」指「及時性」。",
       "sentenceIndex": 19,
@@ -899,12 +747,8 @@ export default {
         "timeliness"
       ],
       "optionReasons": {
-        "timely-mcq-10": "本句指「及時性」。",
-        "timely-mcq-09": "「及時地」與本句語境不同。",
-        "timely-mcq-11": "「不合時宜的」與本句語境不同。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。",
-        "timely-mcq-12": "「不合時宜的打斷」與本句語境不同。",
-        "timely-mcq-07": "「及時資訊」與本句語境不同。"
+        "timely-mcq-10": "本句的「timeliness」指「及時性」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-10"
     },
@@ -916,11 +760,7 @@ export default {
       "masked": "Accuracy and ____ are both important.",
       "options": [
         "timely-mcq-10",
-        "timely-mcq-09",
-        "timely-mcq-11",
-        "timely-mcq-08",
-        "timely-mcq-12",
-        "timely-mcq-07"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timeliness」指「及時性」。",
       "sentenceIndex": 20,
@@ -929,12 +769,8 @@ export default {
         "timeliness"
       ],
       "optionReasons": {
-        "timely-mcq-10": "本句指「及時性」。",
-        "timely-mcq-09": "「及時地」與本句語境不同。",
-        "timely-mcq-11": "「不合時宜的」與本句語境不同。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。",
-        "timely-mcq-12": "「不合時宜的打斷」與本句語境不同。",
-        "timely-mcq-07": "「及時資訊」與本句語境不同。"
+        "timely-mcq-10": "本句的「timeliness」指「及時性」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-10"
     },
@@ -946,11 +782,7 @@ export default {
       "masked": "We appreciated the ____.",
       "options": [
         "timely-mcq-10",
-        "timely-mcq-09",
-        "timely-mcq-11",
-        "timely-mcq-08",
-        "timely-mcq-12",
-        "timely-mcq-07"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timeliness of her response」指「及時性」。",
       "sentenceIndex": 21,
@@ -959,12 +791,8 @@ export default {
         "timeliness of her response"
       ],
       "optionReasons": {
-        "timely-mcq-10": "本句指「及時性」。",
-        "timely-mcq-09": "「及時地」與本句語境不同。",
-        "timely-mcq-11": "「不合時宜的」與本句語境不同。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。",
-        "timely-mcq-12": "「不合時宜的打斷」與本句語境不同。",
-        "timely-mcq-07": "「及時資訊」與本句語境不同。"
+        "timely-mcq-10": "本句的「timeliness of her response」指「及時性」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-10"
     },
@@ -976,11 +804,7 @@ export default {
       "masked": "The ____ helped prevent harm.",
       "options": [
         "timely-mcq-10",
-        "timely-mcq-09",
-        "timely-mcq-11",
-        "timely-mcq-08",
-        "timely-mcq-12",
-        "timely-mcq-07"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「timeliness of the warning」指「及時性」。",
       "sentenceIndex": 22,
@@ -989,12 +813,8 @@ export default {
         "timeliness of the warning"
       ],
       "optionReasons": {
-        "timely-mcq-10": "本句指「及時性」。",
-        "timely-mcq-09": "「及時地」與本句語境不同。",
-        "timely-mcq-11": "「不合時宜的」與本句語境不同。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。",
-        "timely-mcq-12": "「不合時宜的打斷」與本句語境不同。",
-        "timely-mcq-07": "「及時資訊」與本句語境不同。"
+        "timely-mcq-10": "本句的「timeliness of the warning」指「及時性」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-10"
     },
@@ -1006,11 +826,7 @@ export default {
       "masked": "His joke was ____.",
       "options": [
         "timely-mcq-11",
-        "timely-mcq-10",
-        "timely-mcq-12",
-        "timely-mcq-09",
-        "timely-mcq-13",
-        "timely-mcq-08"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「untimely」指「不合時宜的」。",
       "sentenceIndex": 23,
@@ -1019,12 +835,8 @@ export default {
         "untimely"
       ],
       "optionReasons": {
-        "timely-mcq-11": "本句指「不合時宜的」。",
-        "timely-mcq-10": "「及時性」與本句語境不同。",
-        "timely-mcq-12": "「不合時宜的打斷」與本句語境不同。",
-        "timely-mcq-09": "「及時地」與本句語境不同。",
-        "timely-mcq-13": "「過早死亡；英年早逝」與本句語境不同。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。"
+        "timely-mcq-11": "本句的「untimely」指「不合時宜的」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-11"
     },
@@ -1036,11 +848,7 @@ export default {
       "masked": "The interruption was ____.",
       "options": [
         "timely-mcq-11",
-        "timely-mcq-10",
-        "timely-mcq-12",
-        "timely-mcq-09",
-        "timely-mcq-13",
-        "timely-mcq-08"
+        "timely-mcq-13"
       ],
       "explanation": "本句的「untimely」指「不合時宜的」。",
       "sentenceIndex": 24,
@@ -1049,12 +857,8 @@ export default {
         "untimely"
       ],
       "optionReasons": {
-        "timely-mcq-11": "本句指「不合時宜的」。",
-        "timely-mcq-10": "「及時性」與本句語境不同。",
-        "timely-mcq-12": "「不合時宜的打斷」與本句語境不同。",
-        "timely-mcq-09": "「及時地」與本句語境不同。",
-        "timely-mcq-13": "「過早死亡；英年早逝」與本句語境不同。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。"
+        "timely-mcq-11": "本句的「untimely」指「不合時宜的」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-11"
     },
@@ -1066,11 +870,7 @@ export default {
       "masked": "The book discusses the artist's ____.",
       "options": [
         "timely-mcq-13",
-        "timely-mcq-12",
-        "timely-mcq-11",
-        "timely-mcq-10",
-        "timely-mcq-09",
-        "timely-mcq-08"
+        "timely-mcq-11"
       ],
       "explanation": "本句的「untimely death」指「過早死亡；英年早逝」。",
       "sentenceIndex": 25,
@@ -1079,12 +879,8 @@ export default {
         "untimely death"
       ],
       "optionReasons": {
-        "timely-mcq-13": "本句指「過早死亡；英年早逝」。",
-        "timely-mcq-12": "「不合時宜的打斷」與本句語境不同。",
-        "timely-mcq-11": "「不合時宜的」與本句語境不同。",
-        "timely-mcq-10": "「及時性」與本句語境不同。",
-        "timely-mcq-09": "「及時地」與本句語境不同。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。"
+        "timely-mcq-13": "本句的「untimely death」指「過早死亡；英年早逝」。",
+        "timely-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-13"
     },
@@ -1096,11 +892,7 @@ export default {
       "masked": "His ____ shocked the community.",
       "options": [
         "timely-mcq-13",
-        "timely-mcq-12",
-        "timely-mcq-11",
-        "timely-mcq-10",
-        "timely-mcq-09",
-        "timely-mcq-08"
+        "timely-mcq-03"
       ],
       "explanation": "本句的「untimely death」指「過早死亡；英年早逝」。",
       "sentenceIndex": 26,
@@ -1109,12 +901,8 @@ export default {
         "untimely death"
       ],
       "optionReasons": {
-        "timely-mcq-13": "本句指「過早死亡；英年早逝」。",
-        "timely-mcq-12": "「不合時宜的打斷」與本句語境不同。",
-        "timely-mcq-11": "「不合時宜的」與本句語境不同。",
-        "timely-mcq-10": "「及時性」與本句語境不同。",
-        "timely-mcq-09": "「及時地」與本句語境不同。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。"
+        "timely-mcq-13": "本句的「untimely death」指「過早死亡；英年早逝」。",
+        "timely-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-13"
     },
@@ -1126,10 +914,7 @@ export default {
       "masked": "An ____ broke his concentration.",
       "options": [
         "timely-mcq-12",
-        "timely-mcq-11",
         "timely-mcq-13",
-        "timely-mcq-10",
-        "timely-mcq-09",
         "timely-mcq-08"
       ],
       "explanation": "本句的「untimely interruption」指「不合時宜的打斷」。",
@@ -1139,12 +924,9 @@ export default {
         "untimely interruption"
       ],
       "optionReasons": {
-        "timely-mcq-12": "本句指「不合時宜的打斷」。",
-        "timely-mcq-11": "「不合時宜的」與本句語境不同。",
-        "timely-mcq-13": "「過早死亡；英年早逝」與本句語境不同。",
-        "timely-mcq-10": "「及時性」與本句語境不同。",
-        "timely-mcq-09": "「及時地」與本句語境不同。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。"
+        "timely-mcq-12": "本句的「untimely interruption」指「不合時宜的打斷」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "timely-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-12"
     },
@@ -1156,10 +938,7 @@ export default {
       "masked": "The announcement came at an ____.",
       "options": [
         "timely-mcq-12",
-        "timely-mcq-11",
         "timely-mcq-13",
-        "timely-mcq-10",
-        "timely-mcq-09",
         "timely-mcq-08"
       ],
       "explanation": "本句的「untimely moment」指「不合時宜的打斷」。",
@@ -1169,12 +948,9 @@ export default {
         "untimely moment"
       ],
       "optionReasons": {
-        "timely-mcq-12": "本句指「不合時宜的打斷」。",
-        "timely-mcq-11": "「不合時宜的」與本句語境不同。",
-        "timely-mcq-13": "「過早死亡；英年早逝」與本句語境不同。",
-        "timely-mcq-10": "「及時性」與本句語境不同。",
-        "timely-mcq-09": "「及時地」與本句語境不同。",
-        "timely-mcq-08": "「適時決定」與本句語境不同。"
+        "timely-mcq-12": "本句的「untimely moment」指「不合時宜的打斷」。",
+        "timely-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "timely-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "timely-mcq-12"
     }
@@ -1186,5 +962,7 @@ export default {
     "sha256": "f0440735f4c7c36c569eaef02ba52f352189beb0e8d4e471fc50470a19a5fa46",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

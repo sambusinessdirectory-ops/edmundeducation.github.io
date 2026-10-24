@@ -414,11 +414,9 @@ export default {
       "masked": "The rain was hitting the ____.",
       "options": [
         "roof-mcq-01",
-        "roof-mcq-02",
-        "roof-mcq-03",
-        "roof-mcq-04",
-        "roof-mcq-05",
-        "roof-mcq-06"
+        "roof-mcq-17",
+        "roof-mcq-16",
+        "roof-mcq-15"
       ],
       "explanation": "本句的「roof」指「覆蓋建築物最上方、用來遮雨擋風的結構」。",
       "sentenceIndex": 0,
@@ -427,12 +425,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-01": "本句指「覆蓋建築物最上方、用來遮雨擋風的結構」。",
-        "roof-mcq-02": "「建築物最頂部的外部表面／可使用的天台空間」與本句語境不同。",
-        "roof-mcq-03": "「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」與本句語境不同。",
-        "roof-mcq-04": "「車輛最上方的覆蓋結構；車頂」與本句語境不同。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。"
+        "roof-mcq-01": "本句的「roof」指「覆蓋建築物最上方、用來遮雨擋風的結構」。",
+        "roof-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-01"
     },
@@ -444,11 +440,9 @@ export default {
       "masked": "The house has a red tiled ____.",
       "options": [
         "roof-mcq-01",
-        "roof-mcq-02",
-        "roof-mcq-03",
-        "roof-mcq-04",
-        "roof-mcq-05",
-        "roof-mcq-06"
+        "roof-mcq-17",
+        "roof-mcq-13",
+        "roof-mcq-14"
       ],
       "explanation": "本句的「roof」指「覆蓋建築物最上方、用來遮雨擋風的結構」。",
       "sentenceIndex": 1,
@@ -457,12 +451,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-01": "本句指「覆蓋建築物最上方、用來遮雨擋風的結構」。",
-        "roof-mcq-02": "「建築物最頂部的外部表面／可使用的天台空間」與本句語境不同。",
-        "roof-mcq-03": "「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」與本句語境不同。",
-        "roof-mcq-04": "「車輛最上方的覆蓋結構；車頂」與本句語境不同。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。"
+        "roof-mcq-01": "本句的「roof」指「覆蓋建築物最上方、用來遮雨擋風的結構」。",
+        "roof-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-01"
     },
@@ -474,11 +466,9 @@ export default {
       "masked": "Most of the plants are grown on the ____.",
       "options": [
         "roof-mcq-02",
-        "roof-mcq-01",
-        "roof-mcq-03",
-        "roof-mcq-04",
-        "roof-mcq-05",
-        "roof-mcq-06"
+        "roof-mcq-14",
+        "roof-mcq-16",
+        "roof-mcq-15"
       ],
       "explanation": "本句的「rooftop」指「建築物最頂部的外部表面／可使用的天台空間」。",
       "sentenceIndex": 2,
@@ -487,12 +477,10 @@ export default {
         "rooftop"
       ],
       "optionReasons": {
-        "roof-mcq-02": "本句指「建築物最頂部的外部表面／可使用的天台空間」。",
-        "roof-mcq-01": "「覆蓋建築物最上方、用來遮雨擋風的結構」與本句語境不同。",
-        "roof-mcq-03": "「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」與本句語境不同。",
-        "roof-mcq-04": "「車輛最上方的覆蓋結構；車頂」與本句語境不同。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。"
+        "roof-mcq-02": "本句的「rooftop」指「建築物最頂部的外部表面／可使用的天台空間」。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-02"
     },
@@ -504,11 +492,9 @@ export default {
       "masked": "The hotel has a ____ garden.",
       "options": [
         "roof-mcq-02",
-        "roof-mcq-01",
-        "roof-mcq-03",
-        "roof-mcq-04",
-        "roof-mcq-05",
-        "roof-mcq-06"
+        "roof-mcq-14",
+        "roof-mcq-16",
+        "roof-mcq-13"
       ],
       "explanation": "本句的「rooftop」指「建築物最頂部的外部表面／可使用的天台空間」。",
       "sentenceIndex": 3,
@@ -517,12 +503,10 @@ export default {
         "rooftop"
       ],
       "optionReasons": {
-        "roof-mcq-02": "本句指「建築物最頂部的外部表面／可使用的天台空間」。",
-        "roof-mcq-01": "「覆蓋建築物最上方、用來遮雨擋風的結構」與本句語境不同。",
-        "roof-mcq-03": "「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」與本句語境不同。",
-        "roof-mcq-04": "「車輛最上方的覆蓋結構；車頂」與本句語境不同。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。"
+        "roof-mcq-02": "本句的「rooftop」指「建築物最頂部的外部表面／可使用的天台空間」。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-02"
     },
@@ -534,11 +518,9 @@ export default {
       "masked": "People gathered on the ____ to watch the fireworks.",
       "options": [
         "roof-mcq-02",
-        "roof-mcq-01",
-        "roof-mcq-03",
-        "roof-mcq-04",
-        "roof-mcq-05",
-        "roof-mcq-06"
+        "roof-mcq-15",
+        "roof-mcq-16",
+        "roof-mcq-13"
       ],
       "explanation": "本句的「rooftop」指「建築物最頂部的外部表面／可使用的天台空間」。",
       "sentenceIndex": 4,
@@ -547,12 +529,10 @@ export default {
         "rooftop"
       ],
       "optionReasons": {
-        "roof-mcq-02": "本句指「建築物最頂部的外部表面／可使用的天台空間」。",
-        "roof-mcq-01": "「覆蓋建築物最上方、用來遮雨擋風的結構」與本句語境不同。",
-        "roof-mcq-03": "「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」與本句語境不同。",
-        "roof-mcq-04": "「車輛最上方的覆蓋結構；車頂」與本句語境不同。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。"
+        "roof-mcq-02": "本句的「rooftop」指「建築物最頂部的外部表面／可使用的天台空間」。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-02"
     },
@@ -564,11 +544,9 @@ export default {
       "masked": "Water dripped from the ____.",
       "options": [
         "roof-mcq-03",
-        "roof-mcq-02",
-        "roof-mcq-04",
-        "roof-mcq-01",
-        "roof-mcq-05",
-        "roof-mcq-06"
+        "roof-mcq-15",
+        "roof-mcq-13",
+        "roof-mcq-14"
       ],
       "explanation": "本句的「roof of the cave」指「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」。",
       "sentenceIndex": 5,
@@ -577,12 +555,10 @@ export default {
         "roof of the cave"
       ],
       "optionReasons": {
-        "roof-mcq-03": "本句指「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」。",
-        "roof-mcq-02": "「建築物最頂部的外部表面／可使用的天台空間」與本句語境不同。",
-        "roof-mcq-04": "「車輛最上方的覆蓋結構；車頂」與本句語境不同。",
-        "roof-mcq-01": "「覆蓋建築物最上方、用來遮雨擋風的結構」與本句語境不同。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。"
+        "roof-mcq-03": "本句的「roof of the cave」指「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-03"
     },
@@ -594,11 +570,9 @@ export default {
       "masked": "The tunnel ____ was reinforced.",
       "options": [
         "roof-mcq-03",
-        "roof-mcq-02",
-        "roof-mcq-04",
-        "roof-mcq-01",
-        "roof-mcq-05",
-        "roof-mcq-06"
+        "roof-mcq-15",
+        "roof-mcq-13",
+        "roof-mcq-16"
       ],
       "explanation": "本句的「roof」指「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」。",
       "sentenceIndex": 6,
@@ -607,12 +581,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-03": "本句指「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」。",
-        "roof-mcq-02": "「建築物最頂部的外部表面／可使用的天台空間」與本句語境不同。",
-        "roof-mcq-04": "「車輛最上方的覆蓋結構；車頂」與本句語境不同。",
-        "roof-mcq-01": "「覆蓋建築物最上方、用來遮雨擋風的結構」與本句語境不同。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。"
+        "roof-mcq-03": "本句的「roof」指「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-03"
     },
@@ -624,11 +596,9 @@ export default {
       "masked": "The luggage was tied to the car ____.",
       "options": [
         "roof-mcq-04",
-        "roof-mcq-03",
-        "roof-mcq-05",
-        "roof-mcq-02",
-        "roof-mcq-06",
-        "roof-mcq-01"
+        "roof-mcq-15",
+        "roof-mcq-13",
+        "roof-mcq-12"
       ],
       "explanation": "本句的「roof」指「車輛最上方的覆蓋結構；車頂」。",
       "sentenceIndex": 7,
@@ -637,12 +607,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-04": "本句指「車輛最上方的覆蓋結構；車頂」。",
-        "roof-mcq-03": "「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」與本句語境不同。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。",
-        "roof-mcq-02": "「建築物最頂部的外部表面／可使用的天台空間」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。",
-        "roof-mcq-01": "「覆蓋建築物最上方、用來遮雨擋風的結構」與本句語境不同。"
+        "roof-mcq-04": "本句的「roof」指「車輛最上方的覆蓋結構；車頂」。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-04"
     },
@@ -654,11 +622,9 @@ export default {
       "masked": "The bus has a glass ____.",
       "options": [
         "roof-mcq-04",
-        "roof-mcq-03",
-        "roof-mcq-05",
-        "roof-mcq-02",
-        "roof-mcq-06",
-        "roof-mcq-01"
+        "roof-mcq-12",
+        "roof-mcq-13",
+        "roof-mcq-14"
       ],
       "explanation": "本句的「roof」指「車輛最上方的覆蓋結構；車頂」。",
       "sentenceIndex": 8,
@@ -667,12 +633,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-04": "本句指「車輛最上方的覆蓋結構；車頂」。",
-        "roof-mcq-03": "「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」與本句語境不同。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。",
-        "roof-mcq-02": "「建築物最頂部的外部表面／可使用的天台空間」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。",
-        "roof-mcq-01": "「覆蓋建築物最上方、用來遮雨擋風的結構」與本句語境不同。"
+        "roof-mcq-04": "本句的「roof」指「車輛最上方的覆蓋結構；車頂」。",
+        "roof-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-04"
     },
@@ -684,11 +648,9 @@ export default {
       "masked": "The hot food burned the ____.",
       "options": [
         "roof-mcq-05",
-        "roof-mcq-04",
-        "roof-mcq-06",
-        "roof-mcq-03",
-        "roof-mcq-07",
-        "roof-mcq-02"
+        "roof-mcq-16",
+        "roof-mcq-13",
+        "roof-mcq-01"
       ],
       "explanation": "本句的「roof of my mouth」指「口腔上方的上顎／口腔頂部」。",
       "sentenceIndex": 9,
@@ -697,12 +659,10 @@ export default {
         "roof of my mouth"
       ],
       "optionReasons": {
-        "roof-mcq-05": "本句指「口腔上方的上顎／口腔頂部」。",
-        "roof-mcq-04": "「車輛最上方的覆蓋結構；車頂」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。",
-        "roof-mcq-03": "「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」與本句語境不同。",
-        "roof-mcq-07": "「上方有屋頂／遮蓋結構的」與本句語境不同。",
-        "roof-mcq-02": "「建築物最頂部的外部表面／可使用的天台空間」與本句語境不同。"
+        "roof-mcq-05": "本句的「roof of my mouth」指「口腔上方的上顎／口腔頂部」。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-05"
     },
@@ -714,11 +674,9 @@ export default {
       "masked": "Your tongue touches the ____ of your mouth when producing some sounds.",
       "options": [
         "roof-mcq-05",
-        "roof-mcq-04",
-        "roof-mcq-06",
-        "roof-mcq-03",
-        "roof-mcq-07",
-        "roof-mcq-02"
+        "roof-mcq-16",
+        "roof-mcq-15",
+        "roof-mcq-13"
       ],
       "explanation": "本句的「roof」指「口腔上方的上顎／口腔頂部」。",
       "sentenceIndex": 10,
@@ -727,12 +685,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-05": "本句指「口腔上方的上顎／口腔頂部」。",
-        "roof-mcq-04": "「車輛最上方的覆蓋結構；車頂」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。",
-        "roof-mcq-03": "「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」與本句語境不同。",
-        "roof-mcq-07": "「上方有屋頂／遮蓋結構的」與本句語境不同。",
-        "roof-mcq-02": "「建築物最頂部的外部表面／可使用的天台空間」與本句語境不同。"
+        "roof-mcq-05": "本句的「roof」指「口腔上方的上顎／口腔頂部」。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-05"
     },
@@ -744,11 +700,9 @@ export default {
       "masked": "The builders ____ the house in two days.",
       "options": [
         "roof-mcq-06",
-        "roof-mcq-05",
-        "roof-mcq-07",
-        "roof-mcq-04",
-        "roof-mcq-08",
-        "roof-mcq-03"
+        "roof-mcq-14",
+        "roof-mcq-16",
+        "roof-mcq-13"
       ],
       "explanation": "本句的「roofed」指「在建築物上加建、鋪設或完成屋頂」。",
       "sentenceIndex": 11,
@@ -757,12 +711,10 @@ export default {
         "roofed"
       ],
       "optionReasons": {
-        "roof-mcq-06": "本句指「在建築物上加建、鋪設或完成屋頂」。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。",
-        "roof-mcq-07": "「上方有屋頂／遮蓋結構的」與本句語境不同。",
-        "roof-mcq-04": "「車輛最上方的覆蓋結構；車頂」與本句語境不同。",
-        "roof-mcq-08": "「用來建造／覆蓋屋頂的材料或相關工程」與本句語境不同。",
-        "roof-mcq-03": "「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」與本句語境不同。"
+        "roof-mcq-06": "本句的「roofed」指「在建築物上加建、鋪設或完成屋頂」。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-06"
     },
@@ -774,11 +726,9 @@ export default {
       "masked": "The structure was ____ with metal sheets.",
       "options": [
         "roof-mcq-06",
-        "roof-mcq-05",
-        "roof-mcq-07",
-        "roof-mcq-04",
-        "roof-mcq-08",
-        "roof-mcq-03"
+        "roof-mcq-14",
+        "roof-mcq-16",
+        "roof-mcq-13"
       ],
       "explanation": "本句的「roofed」指「在建築物上加建、鋪設或完成屋頂」。",
       "sentenceIndex": 12,
@@ -787,12 +737,10 @@ export default {
         "roofed"
       ],
       "optionReasons": {
-        "roof-mcq-06": "本句指「在建築物上加建、鋪設或完成屋頂」。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。",
-        "roof-mcq-07": "「上方有屋頂／遮蓋結構的」與本句語境不同。",
-        "roof-mcq-04": "「車輛最上方的覆蓋結構；車頂」與本句語境不同。",
-        "roof-mcq-08": "「用來建造／覆蓋屋頂的材料或相關工程」與本句語境不同。",
-        "roof-mcq-03": "「某個封閉空間最上方像屋頂一樣覆蓋其內部的部分」與本句語境不同。"
+        "roof-mcq-06": "本句的「roofed」指「在建築物上加建、鋪設或完成屋頂」。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-06"
     },
@@ -804,11 +752,9 @@ export default {
       "masked": "The market is fully ____.",
       "options": [
         "roof-mcq-07",
-        "roof-mcq-06",
-        "roof-mcq-08",
-        "roof-mcq-05",
-        "roof-mcq-09",
-        "roof-mcq-04"
+        "roof-mcq-13",
+        "roof-mcq-15",
+        "roof-mcq-12"
       ],
       "explanation": "本句的「roofed」指「上方有屋頂／遮蓋結構的」。",
       "sentenceIndex": 13,
@@ -817,12 +763,10 @@ export default {
         "roofed"
       ],
       "optionReasons": {
-        "roof-mcq-07": "本句指「上方有屋頂／遮蓋結構的」。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。",
-        "roof-mcq-08": "「用來建造／覆蓋屋頂的材料或相關工程」與本句語境不同。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。",
-        "roof-mcq-09": "「專門建造、鋪設或維修屋頂的人」與本句語境不同。",
-        "roof-mcq-04": "「車輛最上方的覆蓋結構；車頂」與本句語境不同。"
+        "roof-mcq-07": "本句的「roofed」指「上方有屋頂／遮蓋結構的」。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-07"
     },
@@ -834,11 +778,9 @@ export default {
       "masked": "They built a ____ area beside the garden.",
       "options": [
         "roof-mcq-07",
-        "roof-mcq-06",
-        "roof-mcq-08",
-        "roof-mcq-05",
-        "roof-mcq-09",
-        "roof-mcq-04"
+        "roof-mcq-13",
+        "roof-mcq-16",
+        "roof-mcq-12"
       ],
       "explanation": "本句的「roofed」指「上方有屋頂／遮蓋結構的」。",
       "sentenceIndex": 14,
@@ -847,12 +789,10 @@ export default {
         "roofed"
       ],
       "optionReasons": {
-        "roof-mcq-07": "本句指「上方有屋頂／遮蓋結構的」。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。",
-        "roof-mcq-08": "「用來建造／覆蓋屋頂的材料或相關工程」與本句語境不同。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。",
-        "roof-mcq-09": "「專門建造、鋪設或維修屋頂的人」與本句語境不同。",
-        "roof-mcq-04": "「車輛最上方的覆蓋結構；車頂」與本句語境不同。"
+        "roof-mcq-07": "本句的「roofed」指「上方有屋頂／遮蓋結構的」。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-07"
     },
@@ -864,11 +804,9 @@ export default {
       "masked": "The old ____ needs to be replaced.",
       "options": [
         "roof-mcq-08",
-        "roof-mcq-07",
-        "roof-mcq-09",
-        "roof-mcq-06",
-        "roof-mcq-10",
-        "roof-mcq-05"
+        "roof-mcq-13",
+        "roof-mcq-14",
+        "roof-mcq-16"
       ],
       "explanation": "本句的「roofing」指「用來建造／覆蓋屋頂的材料或相關工程」。",
       "sentenceIndex": 15,
@@ -877,12 +815,10 @@ export default {
         "roofing"
       ],
       "optionReasons": {
-        "roof-mcq-08": "本句指「用來建造／覆蓋屋頂的材料或相關工程」。",
-        "roof-mcq-07": "「上方有屋頂／遮蓋結構的」與本句語境不同。",
-        "roof-mcq-09": "「專門建造、鋪設或維修屋頂的人」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。",
-        "roof-mcq-10": "「設於建築物屋頂的園藝／休憩空間」與本句語境不同。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。"
+        "roof-mcq-08": "本句的「roofing」指「用來建造／覆蓋屋頂的材料或相關工程」。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-08"
     },
@@ -894,11 +830,9 @@ export default {
       "masked": "Metal ____ is common in some areas.",
       "options": [
         "roof-mcq-08",
-        "roof-mcq-07",
-        "roof-mcq-09",
-        "roof-mcq-06",
-        "roof-mcq-10",
-        "roof-mcq-05"
+        "roof-mcq-16",
+        "roof-mcq-13",
+        "roof-mcq-14"
       ],
       "explanation": "本句的「roofing」指「用來建造／覆蓋屋頂的材料或相關工程」。",
       "sentenceIndex": 16,
@@ -907,12 +841,10 @@ export default {
         "roofing"
       ],
       "optionReasons": {
-        "roof-mcq-08": "本句指「用來建造／覆蓋屋頂的材料或相關工程」。",
-        "roof-mcq-07": "「上方有屋頂／遮蓋結構的」與本句語境不同。",
-        "roof-mcq-09": "「專門建造、鋪設或維修屋頂的人」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。",
-        "roof-mcq-10": "「設於建築物屋頂的園藝／休憩空間」與本句語境不同。",
-        "roof-mcq-05": "「口腔上方的上顎／口腔頂部」與本句語境不同。"
+        "roof-mcq-08": "本句的「roofing」指「用來建造／覆蓋屋頂的材料或相關工程」。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-08"
     },
@@ -924,11 +856,9 @@ export default {
       "masked": "We called a ____ to repair the leak.",
       "options": [
         "roof-mcq-09",
-        "roof-mcq-08",
-        "roof-mcq-10",
-        "roof-mcq-07",
-        "roof-mcq-11",
-        "roof-mcq-06"
+        "roof-mcq-15",
+        "roof-mcq-13",
+        "roof-mcq-14"
       ],
       "explanation": "本句的「roofer」指「專門建造、鋪設或維修屋頂的人」。",
       "sentenceIndex": 17,
@@ -937,12 +867,10 @@ export default {
         "roofer"
       ],
       "optionReasons": {
-        "roof-mcq-09": "本句指「專門建造、鋪設或維修屋頂的人」。",
-        "roof-mcq-08": "「用來建造／覆蓋屋頂的材料或相關工程」與本句語境不同。",
-        "roof-mcq-10": "「設於建築物屋頂的園藝／休憩空間」與本句語境不同。",
-        "roof-mcq-07": "「上方有屋頂／遮蓋結構的」與本句語境不同。",
-        "roof-mcq-11": "「設於屋頂、供人使用的露天平台」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。"
+        "roof-mcq-09": "本句的「roofer」指「專門建造、鋪設或維修屋頂的人」。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-09"
     },
@@ -954,11 +882,9 @@ export default {
       "masked": "The ____ inspected the tiles.",
       "options": [
         "roof-mcq-09",
-        "roof-mcq-08",
-        "roof-mcq-10",
-        "roof-mcq-07",
-        "roof-mcq-11",
-        "roof-mcq-06"
+        "roof-mcq-16",
+        "roof-mcq-13",
+        "roof-mcq-14"
       ],
       "explanation": "本句的「roofer」指「專門建造、鋪設或維修屋頂的人」。",
       "sentenceIndex": 18,
@@ -967,12 +893,10 @@ export default {
         "roofer"
       ],
       "optionReasons": {
-        "roof-mcq-09": "本句指「專門建造、鋪設或維修屋頂的人」。",
-        "roof-mcq-08": "「用來建造／覆蓋屋頂的材料或相關工程」與本句語境不同。",
-        "roof-mcq-10": "「設於建築物屋頂的園藝／休憩空間」與本句語境不同。",
-        "roof-mcq-07": "「上方有屋頂／遮蓋結構的」與本句語境不同。",
-        "roof-mcq-11": "「設於屋頂、供人使用的露天平台」與本句語境不同。",
-        "roof-mcq-06": "「在建築物上加建、鋪設或完成屋頂」與本句語境不同。"
+        "roof-mcq-09": "本句的「roofer」指「專門建造、鋪設或維修屋頂的人」。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-09"
     },
@@ -984,11 +908,9 @@ export default {
       "masked": "She has created a small ____.",
       "options": [
         "roof-mcq-10",
-        "roof-mcq-09",
-        "roof-mcq-11",
-        "roof-mcq-08",
-        "roof-mcq-12",
-        "roof-mcq-07"
+        "roof-mcq-16",
+        "roof-mcq-15",
+        "roof-mcq-13"
       ],
       "explanation": "本句的「rooftop garden」指「設於建築物屋頂的園藝／休憩空間」。",
       "sentenceIndex": 19,
@@ -997,12 +919,10 @@ export default {
         "rooftop garden"
       ],
       "optionReasons": {
-        "roof-mcq-10": "本句指「設於建築物屋頂的園藝／休憩空間」。",
-        "roof-mcq-09": "「專門建造、鋪設或維修屋頂的人」與本句語境不同。",
-        "roof-mcq-11": "「設於屋頂、供人使用的露天平台」與本句語境不同。",
-        "roof-mcq-08": "「用來建造／覆蓋屋頂的材料或相關工程」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。",
-        "roof-mcq-07": "「上方有屋頂／遮蓋結構的」與本句語境不同。"
+        "roof-mcq-10": "本句的「rooftop garden」指「設於建築物屋頂的園藝／休憩空間」。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-10"
     },
@@ -1014,11 +934,9 @@ export default {
       "masked": "A ____ garden can make good use of limited space.",
       "options": [
         "roof-mcq-10",
-        "roof-mcq-09",
-        "roof-mcq-11",
-        "roof-mcq-08",
-        "roof-mcq-12",
-        "roof-mcq-07"
+        "roof-mcq-13",
+        "roof-mcq-15",
+        "roof-mcq-14"
       ],
       "explanation": "本句的「roof」指「設於建築物屋頂的園藝／休憩空間」。",
       "sentenceIndex": 20,
@@ -1027,12 +945,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-10": "本句指「設於建築物屋頂的園藝／休憩空間」。",
-        "roof-mcq-09": "「專門建造、鋪設或維修屋頂的人」與本句語境不同。",
-        "roof-mcq-11": "「設於屋頂、供人使用的露天平台」與本句語境不同。",
-        "roof-mcq-08": "「用來建造／覆蓋屋頂的材料或相關工程」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。",
-        "roof-mcq-07": "「上方有屋頂／遮蓋結構的」與本句語境不同。"
+        "roof-mcq-10": "本句的「roof」指「設於建築物屋頂的園藝／休憩空間」。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-10"
     },
@@ -1044,11 +960,9 @@ export default {
       "masked": "The apartment has a private ____.",
       "options": [
         "roof-mcq-11",
-        "roof-mcq-10",
-        "roof-mcq-12",
-        "roof-mcq-09",
-        "roof-mcq-13",
-        "roof-mcq-08"
+        "roof-mcq-14",
+        "roof-mcq-01",
+        "roof-mcq-16"
       ],
       "explanation": "本句的「roof terrace」指「設於屋頂、供人使用的露天平台」。",
       "sentenceIndex": 21,
@@ -1057,12 +971,10 @@ export default {
         "roof terrace"
       ],
       "optionReasons": {
-        "roof-mcq-11": "本句指「設於屋頂、供人使用的露天平台」。",
-        "roof-mcq-10": "「設於建築物屋頂的園藝／休憩空間」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。",
-        "roof-mcq-09": "「專門建造、鋪設或維修屋頂的人」與本句語境不同。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-08": "「用來建造／覆蓋屋頂的材料或相關工程」與本句語境不同。"
+        "roof-mcq-11": "本句的「roof terrace」指「設於屋頂、供人使用的露天平台」。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-11"
     },
@@ -1074,11 +986,9 @@ export default {
       "masked": "They eat outside on the ____ terrace in summer.",
       "options": [
         "roof-mcq-11",
-        "roof-mcq-10",
-        "roof-mcq-12",
-        "roof-mcq-09",
+        "roof-mcq-16",
         "roof-mcq-13",
-        "roof-mcq-08"
+        "roof-mcq-01"
       ],
       "explanation": "本句的「roof」指「設於屋頂、供人使用的露天平台」。",
       "sentenceIndex": 22,
@@ -1087,12 +997,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-11": "本句指「設於屋頂、供人使用的露天平台」。",
-        "roof-mcq-10": "「設於建築物屋頂的園藝／休憩空間」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。",
-        "roof-mcq-09": "「專門建造、鋪設或維修屋頂的人」與本句語境不同。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-08": "「用來建造／覆蓋屋頂的材料或相關工程」與本句語境不同。"
+        "roof-mcq-11": "本句的「roof」指「設於屋頂、供人使用的露天平台」。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-11"
     },
@@ -1105,10 +1013,8 @@ export default {
       "options": [
         "roof-mcq-12",
         "roof-mcq-11",
-        "roof-mcq-13",
-        "roof-mcq-10",
-        "roof-mcq-14",
-        "roof-mcq-09"
+        "roof-mcq-04",
+        "roof-mcq-16"
       ],
       "explanation": "本句的「under one roof」指「在同一棟建築／同一地方內」。",
       "sentenceIndex": 23,
@@ -1117,12 +1023,10 @@ export default {
         "under one roof"
       ],
       "optionReasons": {
-        "roof-mcq-12": "本句指「在同一棟建築／同一地方內」。",
-        "roof-mcq-11": "「設於屋頂、供人使用的露天平台」與本句語境不同。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-10": "「設於建築物屋頂的園藝／休憩空間」與本句語境不同。",
-        "roof-mcq-14": "「突然變得極度憤怒；大發雷霆」與本句語境不同。",
-        "roof-mcq-09": "「專門建造、鋪設或維修屋頂的人」與本句語境不同。"
+        "roof-mcq-12": "本句的「under one roof」指「在同一棟建築／同一地方內」。",
+        "roof-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-12"
     },
@@ -1134,11 +1038,9 @@ export default {
       "masked": "The centre brings several services under one ____.",
       "options": [
         "roof-mcq-12",
-        "roof-mcq-11",
-        "roof-mcq-13",
-        "roof-mcq-10",
-        "roof-mcq-14",
-        "roof-mcq-09"
+        "roof-mcq-05",
+        "roof-mcq-07",
+        "roof-mcq-16"
       ],
       "explanation": "本句的「roof」指「在同一棟建築／同一地方內」。",
       "sentenceIndex": 24,
@@ -1147,12 +1049,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-12": "本句指「在同一棟建築／同一地方內」。",
-        "roof-mcq-11": "「設於屋頂、供人使用的露天平台」與本句語境不同。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-10": "「設於建築物屋頂的園藝／休憩空間」與本句語境不同。",
-        "roof-mcq-14": "「突然變得極度憤怒；大發雷霆」與本句語境不同。",
-        "roof-mcq-09": "「專門建造、鋪設或維修屋頂的人」與本句語境不同。"
+        "roof-mcq-12": "本句的「roof」指「在同一棟建築／同一地方內」。",
+        "roof-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-12"
     },
@@ -1164,11 +1064,9 @@ export default {
       "masked": "Everyone needs a ____.",
       "options": [
         "roof-mcq-13",
-        "roof-mcq-12",
-        "roof-mcq-14",
         "roof-mcq-11",
-        "roof-mcq-15",
-        "roof-mcq-10"
+        "roof-mcq-14",
+        "roof-mcq-04"
       ],
       "explanation": "本句的「roof over their head」指「一個基本、安全的住處」。",
       "sentenceIndex": 25,
@@ -1177,12 +1075,10 @@ export default {
         "roof over their head"
       ],
       "optionReasons": {
-        "roof-mcq-13": "本句指「一個基本、安全的住處」。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。",
-        "roof-mcq-14": "「突然變得極度憤怒；大發雷霆」與本句語境不同。",
-        "roof-mcq-11": "「設於屋頂、供人使用的露天平台」與本句語境不同。",
-        "roof-mcq-15": "「價格、數量或程度急升到非常高的水平」與本句語境不同。",
-        "roof-mcq-10": "「設於建築物屋頂的園藝／休憩空間」與本句語境不同。"
+        "roof-mcq-13": "本句的「roof over their head」指「一個基本、安全的住處」。",
+        "roof-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-13"
     },
@@ -1194,11 +1090,9 @@ export default {
       "masked": "The job gave him enough money to keep a ____ over his head.",
       "options": [
         "roof-mcq-13",
-        "roof-mcq-12",
-        "roof-mcq-14",
-        "roof-mcq-11",
-        "roof-mcq-15",
-        "roof-mcq-10"
+        "roof-mcq-16",
+        "roof-mcq-04",
+        "roof-mcq-05"
       ],
       "explanation": "本句的「roof」指「一個基本、安全的住處」。",
       "sentenceIndex": 26,
@@ -1207,12 +1101,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-13": "本句指「一個基本、安全的住處」。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。",
-        "roof-mcq-14": "「突然變得極度憤怒；大發雷霆」與本句語境不同。",
-        "roof-mcq-11": "「設於屋頂、供人使用的露天平台」與本句語境不同。",
-        "roof-mcq-15": "「價格、數量或程度急升到非常高的水平」與本句語境不同。",
-        "roof-mcq-10": "「設於建築物屋頂的園藝／休憩空間」與本句語境不同。"
+        "roof-mcq-13": "本句的「roof」指「一個基本、安全的住處」。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-13"
     },
@@ -1225,10 +1117,8 @@ export default {
       "options": [
         "roof-mcq-14",
         "roof-mcq-13",
-        "roof-mcq-15",
-        "roof-mcq-12",
-        "roof-mcq-16",
-        "roof-mcq-11"
+        "roof-mcq-03",
+        "roof-mcq-15"
       ],
       "explanation": "本句的「hit the roof」指「突然變得極度憤怒；大發雷霆」。",
       "sentenceIndex": 27,
@@ -1237,12 +1127,10 @@ export default {
         "hit the roof"
       ],
       "optionReasons": {
-        "roof-mcq-14": "本句指「突然變得極度憤怒；大發雷霆」。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-15": "「價格、數量或程度急升到非常高的水平」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。",
-        "roof-mcq-16": "「發出極大聲的歡呼、音樂或喧鬧」與本句語境不同。",
-        "roof-mcq-11": "「設於屋頂、供人使用的露天平台」與本句語境不同。"
+        "roof-mcq-14": "本句的「hit the roof」指「突然變得極度憤怒；大發雷霆」。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-14"
     },
@@ -1254,10 +1142,8 @@ export default {
       "masked": "She hit the ____ when she discovered the damage.",
       "options": [
         "roof-mcq-14",
-        "roof-mcq-13",
-        "roof-mcq-15",
         "roof-mcq-12",
-        "roof-mcq-16",
+        "roof-mcq-13",
         "roof-mcq-11"
       ],
       "explanation": "本句的「roof」指「突然變得極度憤怒；大發雷霆」。",
@@ -1267,12 +1153,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-14": "本句指「突然變得極度憤怒；大發雷霆」。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-15": "「價格、數量或程度急升到非常高的水平」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。",
-        "roof-mcq-16": "「發出極大聲的歡呼、音樂或喧鬧」與本句語境不同。",
-        "roof-mcq-11": "「設於屋頂、供人使用的露天平台」與本句語境不同。"
+        "roof-mcq-14": "本句的「roof」指「突然變得極度憤怒；大發雷霆」。",
+        "roof-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-14"
     },
@@ -1284,11 +1168,9 @@ export default {
       "masked": "House prices have gone ____.",
       "options": [
         "roof-mcq-15",
-        "roof-mcq-14",
-        "roof-mcq-16",
-        "roof-mcq-13",
+        "roof-mcq-04",
         "roof-mcq-17",
-        "roof-mcq-12"
+        "roof-mcq-13"
       ],
       "explanation": "本句的「through the roof」指「價格、數量或程度急升到非常高的水平」。",
       "sentenceIndex": 29,
@@ -1297,12 +1179,10 @@ export default {
         "through the roof"
       ],
       "optionReasons": {
-        "roof-mcq-15": "本句指「價格、數量或程度急升到非常高的水平」。",
-        "roof-mcq-14": "「突然變得極度憤怒；大發雷霆」與本句語境不同。",
-        "roof-mcq-16": "「發出極大聲的歡呼、音樂或喧鬧」與本句語境不同。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-17": "「從外部看到的屋頂上緣／整體輪廓」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。"
+        "roof-mcq-15": "本句的「through the roof」指「價格、數量或程度急升到非常高的水平」。",
+        "roof-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-15"
     },
@@ -1314,11 +1194,9 @@ export default {
       "masked": "Demand went through the ____ after the announcement.",
       "options": [
         "roof-mcq-15",
-        "roof-mcq-14",
-        "roof-mcq-16",
-        "roof-mcq-13",
-        "roof-mcq-17",
-        "roof-mcq-12"
+        "roof-mcq-05",
+        "roof-mcq-12",
+        "roof-mcq-16"
       ],
       "explanation": "本句的「roof」指「價格、數量或程度急升到非常高的水平」。",
       "sentenceIndex": 30,
@@ -1327,12 +1205,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-15": "本句指「價格、數量或程度急升到非常高的水平」。",
-        "roof-mcq-14": "「突然變得極度憤怒；大發雷霆」與本句語境不同。",
-        "roof-mcq-16": "「發出極大聲的歡呼、音樂或喧鬧」與本句語境不同。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-17": "「從外部看到的屋頂上緣／整體輪廓」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。"
+        "roof-mcq-15": "本句的「roof」指「價格、數量或程度急升到非常高的水平」。",
+        "roof-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-15"
     },
@@ -1344,11 +1220,9 @@ export default {
       "masked": "His stress levels were ____.",
       "options": [
         "roof-mcq-15",
-        "roof-mcq-14",
-        "roof-mcq-16",
-        "roof-mcq-13",
-        "roof-mcq-17",
-        "roof-mcq-12"
+        "roof-mcq-02",
+        "roof-mcq-04",
+        "roof-mcq-13"
       ],
       "explanation": "本句的「through the roof」指「價格、數量或程度急升到非常高的水平」。",
       "sentenceIndex": 31,
@@ -1357,12 +1231,10 @@ export default {
         "through the roof"
       ],
       "optionReasons": {
-        "roof-mcq-15": "本句指「價格、數量或程度急升到非常高的水平」。",
-        "roof-mcq-14": "「突然變得極度憤怒；大發雷霆」與本句語境不同。",
-        "roof-mcq-16": "「發出極大聲的歡呼、音樂或喧鬧」與本句語境不同。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-17": "「從外部看到的屋頂上緣／整體輪廓」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。"
+        "roof-mcq-15": "本句的「through the roof」指「價格、數量或程度急升到非常高的水平」。",
+        "roof-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-15"
     },
@@ -1374,11 +1246,9 @@ export default {
       "masked": "Excitement was through the ____.",
       "options": [
         "roof-mcq-15",
-        "roof-mcq-14",
+        "roof-mcq-01",
         "roof-mcq-16",
-        "roof-mcq-13",
-        "roof-mcq-17",
-        "roof-mcq-12"
+        "roof-mcq-05"
       ],
       "explanation": "本句的「roof」指「價格、數量或程度急升到非常高的水平」。",
       "sentenceIndex": 32,
@@ -1387,12 +1257,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-15": "本句指「價格、數量或程度急升到非常高的水平」。",
-        "roof-mcq-14": "「突然變得極度憤怒；大發雷霆」與本句語境不同。",
-        "roof-mcq-16": "「發出極大聲的歡呼、音樂或喧鬧」與本句語境不同。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-17": "「從外部看到的屋頂上緣／整體輪廓」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。"
+        "roof-mcq-15": "本句的「roof」指「價格、數量或程度急升到非常高的水平」。",
+        "roof-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-15"
     },
@@ -1404,11 +1272,9 @@ export default {
       "masked": "The crowd ____ when the team scored.",
       "options": [
         "roof-mcq-16",
-        "roof-mcq-15",
-        "roof-mcq-17",
-        "roof-mcq-14",
+        "roof-mcq-02",
         "roof-mcq-13",
-        "roof-mcq-12"
+        "roof-mcq-15"
       ],
       "explanation": "本句的「raised the roof」指「發出極大聲的歡呼、音樂或喧鬧」。",
       "sentenceIndex": 33,
@@ -1417,12 +1283,10 @@ export default {
         "raised the roof"
       ],
       "optionReasons": {
-        "roof-mcq-16": "本句指「發出極大聲的歡呼、音樂或喧鬧」。",
-        "roof-mcq-15": "「價格、數量或程度急升到非常高的水平」與本句語境不同。",
-        "roof-mcq-17": "「從外部看到的屋頂上緣／整體輪廓」與本句語境不同。",
-        "roof-mcq-14": "「突然變得極度憤怒；大發雷霆」與本句語境不同。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。"
+        "roof-mcq-16": "本句的「raised the roof」指「發出極大聲的歡呼、音樂或喧鬧」。",
+        "roof-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-16"
     },
@@ -1434,10 +1298,8 @@ export default {
       "masked": "The audience raised the ____ at the end of the concert.",
       "options": [
         "roof-mcq-16",
-        "roof-mcq-15",
-        "roof-mcq-17",
-        "roof-mcq-14",
-        "roof-mcq-13",
+        "roof-mcq-04",
+        "roof-mcq-11",
         "roof-mcq-12"
       ],
       "explanation": "本句的「roof」指「發出極大聲的歡呼、音樂或喧鬧」。",
@@ -1447,12 +1309,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-16": "本句指「發出極大聲的歡呼、音樂或喧鬧」。",
-        "roof-mcq-15": "「價格、數量或程度急升到非常高的水平」與本句語境不同。",
-        "roof-mcq-17": "「從外部看到的屋頂上緣／整體輪廓」與本句語境不同。",
-        "roof-mcq-14": "「突然變得極度憤怒；大發雷霆」與本句語境不同。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。"
+        "roof-mcq-16": "本句的「roof」指「發出極大聲的歡呼、音樂或喧鬧」。",
+        "roof-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-16"
     },
@@ -1464,11 +1324,9 @@ export default {
       "masked": "His father raised the ____ when he heard the news.",
       "options": [
         "roof-mcq-16",
-        "roof-mcq-15",
-        "roof-mcq-17",
-        "roof-mcq-14",
-        "roof-mcq-13",
-        "roof-mcq-12"
+        "roof-mcq-04",
+        "roof-mcq-09",
+        "roof-mcq-05"
       ],
       "explanation": "本句的「roof」指「發出極大聲的歡呼、音樂或喧鬧」。",
       "sentenceIndex": 35,
@@ -1477,12 +1335,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-16": "本句指「發出極大聲的歡呼、音樂或喧鬧」。",
-        "roof-mcq-15": "「價格、數量或程度急升到非常高的水平」與本句語境不同。",
-        "roof-mcq-17": "「從外部看到的屋頂上緣／整體輪廓」與本句語境不同。",
-        "roof-mcq-14": "「突然變得極度憤怒；大發雷霆」與本句語境不同。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。"
+        "roof-mcq-16": "本句的「roof」指「發出極大聲的歡呼、音樂或喧鬧」。",
+        "roof-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-16"
     },
@@ -1494,11 +1350,9 @@ export default {
       "masked": "She raised the ____ over the missing money.",
       "options": [
         "roof-mcq-16",
-        "roof-mcq-15",
-        "roof-mcq-17",
-        "roof-mcq-14",
-        "roof-mcq-13",
-        "roof-mcq-12"
+        "roof-mcq-07",
+        "roof-mcq-05",
+        "roof-mcq-15"
       ],
       "explanation": "本句的「roof」指「發出極大聲的歡呼、音樂或喧鬧」。",
       "sentenceIndex": 36,
@@ -1507,12 +1361,10 @@ export default {
         "roof"
       ],
       "optionReasons": {
-        "roof-mcq-16": "本句指「發出極大聲的歡呼、音樂或喧鬧」。",
-        "roof-mcq-15": "「價格、數量或程度急升到非常高的水平」與本句語境不同。",
-        "roof-mcq-17": "「從外部看到的屋頂上緣／整體輪廓」與本句語境不同。",
-        "roof-mcq-14": "「突然變得極度憤怒；大發雷霆」與本句語境不同。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。"
+        "roof-mcq-16": "本句的「roof」指「發出極大聲的歡呼、音樂或喧鬧」。",
+        "roof-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-16"
     },
@@ -1524,11 +1376,9 @@ export default {
       "masked": "The building has a distinctive ____.",
       "options": [
         "roof-mcq-17",
-        "roof-mcq-16",
-        "roof-mcq-15",
-        "roof-mcq-14",
         "roof-mcq-13",
-        "roof-mcq-12"
+        "roof-mcq-15",
+        "roof-mcq-16"
       ],
       "explanation": "本句的「roofline」指「從外部看到的屋頂上緣／整體輪廓」。",
       "sentenceIndex": 37,
@@ -1537,12 +1387,10 @@ export default {
         "roofline"
       ],
       "optionReasons": {
-        "roof-mcq-17": "本句指「從外部看到的屋頂上緣／整體輪廓」。",
-        "roof-mcq-16": "「發出極大聲的歡呼、音樂或喧鬧」與本句語境不同。",
-        "roof-mcq-15": "「價格、數量或程度急升到非常高的水平」與本句語境不同。",
-        "roof-mcq-14": "「突然變得極度憤怒；大發雷霆」與本句語境不同。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。"
+        "roof-mcq-17": "本句的「roofline」指「從外部看到的屋頂上緣／整體輪廓」。",
+        "roof-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-17"
     },
@@ -1554,11 +1402,9 @@ export default {
       "masked": "Trees partly hide the ____.",
       "options": [
         "roof-mcq-17",
-        "roof-mcq-16",
+        "roof-mcq-12",
         "roof-mcq-15",
-        "roof-mcq-14",
-        "roof-mcq-13",
-        "roof-mcq-12"
+        "roof-mcq-14"
       ],
       "explanation": "本句的「roofline」指「從外部看到的屋頂上緣／整體輪廓」。",
       "sentenceIndex": 38,
@@ -1567,12 +1413,10 @@ export default {
         "roofline"
       ],
       "optionReasons": {
-        "roof-mcq-17": "本句指「從外部看到的屋頂上緣／整體輪廓」。",
-        "roof-mcq-16": "「發出極大聲的歡呼、音樂或喧鬧」與本句語境不同。",
-        "roof-mcq-15": "「價格、數量或程度急升到非常高的水平」與本句語境不同。",
-        "roof-mcq-14": "「突然變得極度憤怒；大發雷霆」與本句語境不同。",
-        "roof-mcq-13": "「一個基本、安全的住處」與本句語境不同。",
-        "roof-mcq-12": "「在同一棟建築／同一地方內」與本句語境不同。"
+        "roof-mcq-17": "本句的「roofline」指「從外部看到的屋頂上緣／整體輪廓」。",
+        "roof-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "roof-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "roof-mcq-17"
     }
@@ -1584,5 +1428,7 @@ export default {
     "sha256": "e18de99071be24104175931fbcadaae335ac8e2659dfb86a4e1e9c830d67687f",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -350,11 +350,9 @@ export default {
       "masked": "Once he started teaching, he became much more ____ than people expected.",
       "options": [
         "lively-mcq-01",
-        "lively-mcq-02",
-        "lively-mcq-03",
-        "lively-mcq-04",
-        "lively-mcq-05",
-        "lively-mcq-06"
+        "lively-mcq-10",
+        "lively-mcq-11",
+        "lively-mcq-04"
       ],
       "explanation": "本句的「lively」指「活潑的；有活力的」。",
       "sentenceIndex": 0,
@@ -363,12 +361,10 @@ export default {
         "lively"
       ],
       "optionReasons": {
-        "lively-mcq-01": "本句指「活潑的；有活力的」。",
-        "lively-mcq-02": "「生動有活力的老師」與本句語境不同。",
-        "lively-mcq-03": "「生動的課堂」與本句語境不同。",
-        "lively-mcq-04": "「熱烈討論」與本句語境不同。",
-        "lively-mcq-05": "「熱烈辯論」與本句語境不同。",
-        "lively-mcq-06": "「熱鬧／活躍氣氛」與本句語境不同。"
+        "lively-mcq-01": "本句的「lively」指「活潑的；有活力的」。",
+        "lively-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-01"
     },
@@ -380,11 +376,9 @@ export default {
       "masked": "She is a very ____ and cheerful person.",
       "options": [
         "lively-mcq-01",
-        "lively-mcq-02",
         "lively-mcq-03",
-        "lively-mcq-04",
-        "lively-mcq-05",
-        "lively-mcq-06"
+        "lively-mcq-07",
+        "lively-mcq-15"
       ],
       "explanation": "本句的「lively」指「活潑的；有活力的」。",
       "sentenceIndex": 1,
@@ -393,12 +387,10 @@ export default {
         "lively"
       ],
       "optionReasons": {
-        "lively-mcq-01": "本句指「活潑的；有活力的」。",
-        "lively-mcq-02": "「生動有活力的老師」與本句語境不同。",
-        "lively-mcq-03": "「生動的課堂」與本句語境不同。",
-        "lively-mcq-04": "「熱烈討論」與本句語境不同。",
-        "lively-mcq-05": "「熱烈辯論」與本句語境不同。",
-        "lively-mcq-06": "「熱鬧／活躍氣氛」與本句語境不同。"
+        "lively-mcq-01": "本句的「lively」指「活潑的；有活力的」。",
+        "lively-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-01"
     },
@@ -410,11 +402,9 @@ export default {
       "masked": "The children were still ____ after dinner.",
       "options": [
         "lively-mcq-01",
-        "lively-mcq-02",
         "lively-mcq-03",
-        "lively-mcq-04",
-        "lively-mcq-05",
-        "lively-mcq-06"
+        "lively-mcq-15",
+        "lively-mcq-07"
       ],
       "explanation": "本句的「lively」指「活潑的；有活力的」。",
       "sentenceIndex": 2,
@@ -423,12 +413,10 @@ export default {
         "lively"
       ],
       "optionReasons": {
-        "lively-mcq-01": "本句指「活潑的；有活力的」。",
-        "lively-mcq-02": "「生動有活力的老師」與本句語境不同。",
-        "lively-mcq-03": "「生動的課堂」與本句語境不同。",
-        "lively-mcq-04": "「熱烈討論」與本句語境不同。",
-        "lively-mcq-05": "「熱烈辯論」與本句語境不同。",
-        "lively-mcq-06": "「熱鬧／活躍氣氛」與本句語境不同。"
+        "lively-mcq-01": "本句的「lively」指「活潑的；有活力的」。",
+        "lively-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-01"
     },
@@ -440,11 +428,9 @@ export default {
       "masked": "He always taught ____.",
       "options": [
         "lively-mcq-03",
-        "lively-mcq-02",
-        "lively-mcq-04",
-        "lively-mcq-01",
-        "lively-mcq-05",
-        "lively-mcq-06"
+        "lively-mcq-14",
+        "lively-mcq-07",
+        "lively-mcq-11"
       ],
       "explanation": "本句的「lively lessons」指「生動的課堂」。",
       "sentenceIndex": 3,
@@ -453,12 +439,10 @@ export default {
         "lively lessons"
       ],
       "optionReasons": {
-        "lively-mcq-03": "本句指「生動的課堂」。",
-        "lively-mcq-02": "「生動有活力的老師」與本句語境不同。",
-        "lively-mcq-04": "「熱烈討論」與本句語境不同。",
-        "lively-mcq-01": "「活潑的；有活力的」與本句語境不同。",
-        "lively-mcq-05": "「熱烈辯論」與本句語境不同。",
-        "lively-mcq-06": "「熱鬧／活躍氣氛」與本句語境不同。"
+        "lively-mcq-03": "本句的「lively lessons」指「生動的課堂」。",
+        "lively-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-03"
     },
@@ -470,11 +454,9 @@ export default {
       "masked": "The teacher turned a difficult topic into a ____.",
       "options": [
         "lively-mcq-03",
-        "lively-mcq-02",
-        "lively-mcq-04",
-        "lively-mcq-01",
-        "lively-mcq-05",
-        "lively-mcq-06"
+        "lively-mcq-08",
+        "lively-mcq-07",
+        "lively-mcq-15"
       ],
       "explanation": "本句的「lively class」指「生動的課堂」。",
       "sentenceIndex": 4,
@@ -483,12 +465,10 @@ export default {
         "lively class"
       ],
       "optionReasons": {
-        "lively-mcq-03": "本句指「生動的課堂」。",
-        "lively-mcq-02": "「生動有活力的老師」與本句語境不同。",
-        "lively-mcq-04": "「熱烈討論」與本句語境不同。",
-        "lively-mcq-01": "「活潑的；有活力的」與本句語境不同。",
-        "lively-mcq-05": "「熱烈辯論」與本句語境不同。",
-        "lively-mcq-06": "「熱鬧／活躍氣氛」與本句語境不同。"
+        "lively-mcq-03": "本句的「lively class」指「生動的課堂」。",
+        "lively-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-03"
     },
@@ -500,11 +480,9 @@ export default {
       "masked": "The question led to a ____.",
       "options": [
         "lively-mcq-04",
-        "lively-mcq-03",
-        "lively-mcq-05",
-        "lively-mcq-02",
-        "lively-mcq-06",
-        "lively-mcq-01"
+        "lively-mcq-11",
+        "lively-mcq-08",
+        "lively-mcq-12"
       ],
       "explanation": "本句的「lively discussion」指「熱烈討論」。",
       "sentenceIndex": 5,
@@ -513,12 +491,10 @@ export default {
         "lively discussion"
       ],
       "optionReasons": {
-        "lively-mcq-04": "本句指「熱烈討論」。",
-        "lively-mcq-03": "「生動的課堂」與本句語境不同。",
-        "lively-mcq-05": "「熱烈辯論」與本句語境不同。",
-        "lively-mcq-02": "「生動有活力的老師」與本句語境不同。",
-        "lively-mcq-06": "「熱鬧／活躍氣氛」與本句語境不同。",
-        "lively-mcq-01": "「活潑的；有活力的」與本句語境不同。"
+        "lively-mcq-04": "本句的「lively discussion」指「熱烈討論」。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-04"
     },
@@ -530,11 +506,9 @@ export default {
       "masked": "The students had a ____ about the issue.",
       "options": [
         "lively-mcq-04",
-        "lively-mcq-03",
-        "lively-mcq-05",
-        "lively-mcq-02",
-        "lively-mcq-06",
-        "lively-mcq-01"
+        "lively-mcq-01",
+        "lively-mcq-15",
+        "lively-mcq-09"
       ],
       "explanation": "本句的「lively debate」指「熱烈討論」。",
       "sentenceIndex": 6,
@@ -543,12 +517,10 @@ export default {
         "lively debate"
       ],
       "optionReasons": {
-        "lively-mcq-04": "本句指「熱烈討論」。",
-        "lively-mcq-03": "「生動的課堂」與本句語境不同。",
-        "lively-mcq-05": "「熱烈辯論」與本句語境不同。",
-        "lively-mcq-02": "「生動有活力的老師」與本句語境不同。",
-        "lively-mcq-06": "「熱鬧／活躍氣氛」與本句語境不同。",
-        "lively-mcq-01": "「活潑的；有活力的」與本句語境不同。"
+        "lively-mcq-04": "本句的「lively debate」指「熱烈討論」。",
+        "lively-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-04"
     },
@@ -560,11 +532,9 @@ export default {
       "masked": "The café had a ____.",
       "options": [
         "lively-mcq-06",
-        "lively-mcq-05",
-        "lively-mcq-07",
-        "lively-mcq-04",
-        "lively-mcq-08",
-        "lively-mcq-03"
+        "lively-mcq-10",
+        "lively-mcq-15",
+        "lively-mcq-11"
       ],
       "explanation": "本句的「lively atmosphere」指「熱鬧／活躍氣氛」。",
       "sentenceIndex": 7,
@@ -573,12 +543,10 @@ export default {
         "lively atmosphere"
       ],
       "optionReasons": {
-        "lively-mcq-06": "本句指「熱鬧／活躍氣氛」。",
-        "lively-mcq-05": "「熱烈辯論」與本句語境不同。",
-        "lively-mcq-07": "「熱鬧的地方」與本句語境不同。",
-        "lively-mcq-04": "「熱烈討論」與本句語境不同。",
-        "lively-mcq-08": "「輕快活潑的音樂」與本句語境不同。",
-        "lively-mcq-03": "「生動的課堂」與本句語境不同。"
+        "lively-mcq-06": "本句的「lively atmosphere」指「熱鬧／活躍氣氛」。",
+        "lively-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-06"
     },
@@ -590,11 +558,9 @@ export default {
       "masked": "Music created a ____ at the party.",
       "options": [
         "lively-mcq-06",
-        "lively-mcq-05",
-        "lively-mcq-07",
-        "lively-mcq-04",
-        "lively-mcq-08",
-        "lively-mcq-03"
+        "lively-mcq-10",
+        "lively-mcq-15",
+        "lively-mcq-11"
       ],
       "explanation": "本句的「lively atmosphere」指「熱鬧／活躍氣氛」。",
       "sentenceIndex": 8,
@@ -603,12 +569,10 @@ export default {
         "lively atmosphere"
       ],
       "optionReasons": {
-        "lively-mcq-06": "本句指「熱鬧／活躍氣氛」。",
-        "lively-mcq-05": "「熱烈辯論」與本句語境不同。",
-        "lively-mcq-07": "「熱鬧的地方」與本句語境不同。",
-        "lively-mcq-04": "「熱烈討論」與本句語境不同。",
-        "lively-mcq-08": "「輕快活潑的音樂」與本句語境不同。",
-        "lively-mcq-03": "「生動的課堂」與本句語境不同。"
+        "lively-mcq-06": "本句的「lively atmosphere」指「熱鬧／活躍氣氛」。",
+        "lively-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-06"
     },
@@ -620,11 +584,9 @@ export default {
       "masked": "The market is especially ____ at night.",
       "options": [
         "lively-mcq-07",
-        "lively-mcq-06",
-        "lively-mcq-08",
-        "lively-mcq-05",
-        "lively-mcq-09",
-        "lively-mcq-04"
+        "lively-mcq-10",
+        "lively-mcq-12",
+        "lively-mcq-08"
       ],
       "explanation": "本句的「lively」指「熱鬧的地方」。",
       "sentenceIndex": 9,
@@ -633,12 +595,10 @@ export default {
         "lively"
       ],
       "optionReasons": {
-        "lively-mcq-07": "本句指「熱鬧的地方」。",
-        "lively-mcq-06": "「熱鬧／活躍氣氛」與本句語境不同。",
-        "lively-mcq-08": "「輕快活潑的音樂」與本句語境不同。",
-        "lively-mcq-05": "「熱烈辯論」與本句語境不同。",
-        "lively-mcq-09": "「生動文筆」與本句語境不同。",
-        "lively-mcq-04": "「熱烈討論」與本句語境不同。"
+        "lively-mcq-07": "本句的「lively」指「熱鬧的地方」。",
+        "lively-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-07"
     },
@@ -650,11 +610,9 @@ export default {
       "masked": "They live in a ____.",
       "options": [
         "lively-mcq-07",
-        "lively-mcq-06",
+        "lively-mcq-12",
         "lively-mcq-08",
-        "lively-mcq-05",
-        "lively-mcq-09",
-        "lively-mcq-04"
+        "lively-mcq-09"
       ],
       "explanation": "本句的「lively neighbourhood」指「熱鬧的地方」。",
       "sentenceIndex": 10,
@@ -663,12 +621,10 @@ export default {
         "lively neighbourhood"
       ],
       "optionReasons": {
-        "lively-mcq-07": "本句指「熱鬧的地方」。",
-        "lively-mcq-06": "「熱鬧／活躍氣氛」與本句語境不同。",
-        "lively-mcq-08": "「輕快活潑的音樂」與本句語境不同。",
-        "lively-mcq-05": "「熱烈辯論」與本句語境不同。",
-        "lively-mcq-09": "「生動文筆」與本句語境不同。",
-        "lively-mcq-04": "「熱烈討論」與本句語境不同。"
+        "lively-mcq-07": "本句的「lively neighbourhood」指「熱鬧的地方」。",
+        "lively-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-07"
     },
@@ -680,11 +636,9 @@ export default {
       "masked": "They danced to ____.",
       "options": [
         "lively-mcq-08",
-        "lively-mcq-07",
-        "lively-mcq-09",
-        "lively-mcq-06",
-        "lively-mcq-10",
-        "lively-mcq-05"
+        "lively-mcq-03",
+        "lively-mcq-04",
+        "lively-mcq-11"
       ],
       "explanation": "本句的「lively music」指「輕快活潑的音樂」。",
       "sentenceIndex": 11,
@@ -693,12 +647,10 @@ export default {
         "lively music"
       ],
       "optionReasons": {
-        "lively-mcq-08": "本句指「輕快活潑的音樂」。",
-        "lively-mcq-07": "「熱鬧的地方」與本句語境不同。",
-        "lively-mcq-09": "「生動文筆」與本句語境不同。",
-        "lively-mcq-06": "「熱鬧／活躍氣氛」與本句語境不同。",
-        "lively-mcq-10": "「生動描述」與本句語境不同。",
-        "lively-mcq-05": "「熱烈辯論」與本句語境不同。"
+        "lively-mcq-08": "本句的「lively music」指「輕快活潑的音樂」。",
+        "lively-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-08"
     },
@@ -710,11 +662,9 @@ export default {
       "masked": "The band played a ____.",
       "options": [
         "lively-mcq-08",
-        "lively-mcq-07",
-        "lively-mcq-09",
-        "lively-mcq-06",
-        "lively-mcq-10",
-        "lively-mcq-05"
+        "lively-mcq-03",
+        "lively-mcq-11",
+        "lively-mcq-07"
       ],
       "explanation": "本句的「lively tune」指「輕快活潑的音樂」。",
       "sentenceIndex": 12,
@@ -723,12 +673,10 @@ export default {
         "lively tune"
       ],
       "optionReasons": {
-        "lively-mcq-08": "本句指「輕快活潑的音樂」。",
-        "lively-mcq-07": "「熱鬧的地方」與本句語境不同。",
-        "lively-mcq-09": "「生動文筆」與本句語境不同。",
-        "lively-mcq-06": "「熱鬧／活躍氣氛」與本句語境不同。",
-        "lively-mcq-10": "「生動描述」與本句語境不同。",
-        "lively-mcq-05": "「熱烈辯論」與本句語境不同。"
+        "lively-mcq-08": "本句的「lively tune」指「輕快活潑的音樂」。",
+        "lively-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-08"
     },
@@ -740,11 +688,9 @@ export default {
       "masked": "The book is written in a ____.",
       "options": [
         "lively-mcq-09",
-        "lively-mcq-08",
-        "lively-mcq-10",
+        "lively-mcq-12",
         "lively-mcq-07",
-        "lively-mcq-11",
-        "lively-mcq-06"
+        "lively-mcq-08"
       ],
       "explanation": "本句的「lively style」指「生動文筆」。",
       "sentenceIndex": 13,
@@ -753,12 +699,10 @@ export default {
         "lively style"
       ],
       "optionReasons": {
-        "lively-mcq-09": "本句指「生動文筆」。",
-        "lively-mcq-08": "「輕快活潑的音樂」與本句語境不同。",
-        "lively-mcq-10": "「生動描述」與本句語境不同。",
-        "lively-mcq-07": "「熱鬧的地方」與本句語境不同。",
-        "lively-mcq-11": "「濃厚興趣」與本句語境不同。",
-        "lively-mcq-06": "「熱鬧／活躍氣氛」與本句語境不同。"
+        "lively-mcq-09": "本句的「lively style」指「生動文筆」。",
+        "lively-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-09"
     },
@@ -770,10 +714,8 @@ export default {
       "masked": "Her ____ makes history easy to read.",
       "options": [
         "lively-mcq-09",
-        "lively-mcq-08",
-        "lively-mcq-10",
-        "lively-mcq-07",
         "lively-mcq-11",
+        "lively-mcq-13",
         "lively-mcq-06"
       ],
       "explanation": "本句的「lively writing」指「生動文筆」。",
@@ -783,12 +725,10 @@ export default {
         "lively writing"
       ],
       "optionReasons": {
-        "lively-mcq-09": "本句指「生動文筆」。",
-        "lively-mcq-08": "「輕快活潑的音樂」與本句語境不同。",
-        "lively-mcq-10": "「生動描述」與本句語境不同。",
-        "lively-mcq-07": "「熱鬧的地方」與本句語境不同。",
-        "lively-mcq-11": "「濃厚興趣」與本句語境不同。",
-        "lively-mcq-06": "「熱鬧／活躍氣氛」與本句語境不同。"
+        "lively-mcq-09": "本句的「lively writing」指「生動文筆」。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-09"
     },
@@ -800,11 +740,9 @@ export default {
       "masked": "He gave a ____ of the event.",
       "options": [
         "lively-mcq-10",
-        "lively-mcq-09",
-        "lively-mcq-11",
+        "lively-mcq-06",
         "lively-mcq-08",
-        "lively-mcq-12",
-        "lively-mcq-07"
+        "lively-mcq-04"
       ],
       "explanation": "本句的「lively description」指「生動描述」。",
       "sentenceIndex": 15,
@@ -813,12 +751,10 @@ export default {
         "lively description"
       ],
       "optionReasons": {
-        "lively-mcq-10": "本句指「生動描述」。",
-        "lively-mcq-09": "「生動文筆」與本句語境不同。",
-        "lively-mcq-11": "「濃厚興趣」與本句語境不同。",
-        "lively-mcq-08": "「輕快活潑的音樂」與本句語境不同。",
-        "lively-mcq-12": "「活躍想像力」與本句語境不同。",
-        "lively-mcq-07": "「熱鬧的地方」與本句語境不同。"
+        "lively-mcq-10": "本句的「lively description」指「生動描述」。",
+        "lively-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-10"
     },
@@ -830,11 +766,9 @@ export default {
       "masked": "The guide gave a ____ of local history.",
       "options": [
         "lively-mcq-10",
-        "lively-mcq-09",
         "lively-mcq-11",
-        "lively-mcq-08",
-        "lively-mcq-12",
-        "lively-mcq-07"
+        "lively-mcq-06",
+        "lively-mcq-13"
       ],
       "explanation": "本句的「lively account」指「生動描述」。",
       "sentenceIndex": 16,
@@ -843,12 +777,10 @@ export default {
         "lively account"
       ],
       "optionReasons": {
-        "lively-mcq-10": "本句指「生動描述」。",
-        "lively-mcq-09": "「生動文筆」與本句語境不同。",
-        "lively-mcq-11": "「濃厚興趣」與本句語境不同。",
-        "lively-mcq-08": "「輕快活潑的音樂」與本句語境不同。",
-        "lively-mcq-12": "「活躍想像力」與本句語境不同。",
-        "lively-mcq-07": "「熱鬧的地方」與本句語境不同。"
+        "lively-mcq-10": "本句的「lively account」指「生動描述」。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-10"
     },
@@ -860,11 +792,9 @@ export default {
       "masked": "She has a ____ in politics.",
       "options": [
         "lively-mcq-11",
-        "lively-mcq-10",
-        "lively-mcq-12",
-        "lively-mcq-09",
         "lively-mcq-13",
-        "lively-mcq-08"
+        "lively-mcq-03",
+        "lively-mcq-04"
       ],
       "explanation": "本句的「lively interest」指「濃厚興趣」。",
       "sentenceIndex": 17,
@@ -873,12 +803,10 @@ export default {
         "lively interest"
       ],
       "optionReasons": {
-        "lively-mcq-11": "本句指「濃厚興趣」。",
-        "lively-mcq-10": "「生動描述」與本句語境不同。",
-        "lively-mcq-12": "「活躍想像力」與本句語境不同。",
-        "lively-mcq-09": "「生動文筆」與本句語境不同。",
-        "lively-mcq-13": "「鮮明活潑色彩」與本句語境不同。",
-        "lively-mcq-08": "「輕快活潑的音樂」與本句語境不同。"
+        "lively-mcq-11": "本句的「lively interest」指「濃厚興趣」。",
+        "lively-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-11"
     },
@@ -890,11 +818,9 @@ export default {
       "masked": "The topic aroused ____ among students.",
       "options": [
         "lively-mcq-11",
-        "lively-mcq-10",
-        "lively-mcq-12",
-        "lively-mcq-09",
-        "lively-mcq-13",
-        "lively-mcq-08"
+        "lively-mcq-07",
+        "lively-mcq-15",
+        "lively-mcq-09"
       ],
       "explanation": "本句的「lively interest」指「濃厚興趣」。",
       "sentenceIndex": 18,
@@ -903,12 +829,10 @@ export default {
         "lively interest"
       ],
       "optionReasons": {
-        "lively-mcq-11": "本句指「濃厚興趣」。",
-        "lively-mcq-10": "「生動描述」與本句語境不同。",
-        "lively-mcq-12": "「活躍想像力」與本句語境不同。",
-        "lively-mcq-09": "「生動文筆」與本句語境不同。",
-        "lively-mcq-13": "「鮮明活潑色彩」與本句語境不同。",
-        "lively-mcq-08": "「輕快活潑的音樂」與本句語境不同。"
+        "lively-mcq-11": "本句的「lively interest」指「濃厚興趣」。",
+        "lively-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-11"
     },
@@ -920,11 +844,9 @@ export default {
       "masked": "Children often have ____.",
       "options": [
         "lively-mcq-12",
-        "lively-mcq-11",
-        "lively-mcq-13",
-        "lively-mcq-10",
-        "lively-mcq-14",
-        "lively-mcq-09"
+        "lively-mcq-04",
+        "lively-mcq-03",
+        "lively-mcq-15"
       ],
       "explanation": "本句的「lively imaginations」指「活躍想像力」。",
       "sentenceIndex": 19,
@@ -933,12 +855,10 @@ export default {
         "lively imaginations"
       ],
       "optionReasons": {
-        "lively-mcq-12": "本句指「活躍想像力」。",
-        "lively-mcq-11": "「濃厚興趣」與本句語境不同。",
-        "lively-mcq-13": "「鮮明活潑色彩」與本句語境不同。",
-        "lively-mcq-10": "「生動描述」與本句語境不同。",
-        "lively-mcq-14": "「活躍市場」與本句語境不同。",
-        "lively-mcq-09": "「生動文筆」與本句語境不同。"
+        "lively-mcq-12": "本句的「lively imaginations」指「活躍想像力」。",
+        "lively-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-12"
     },
@@ -950,11 +870,9 @@ export default {
       "masked": "His ____ helped him tell great stories.",
       "options": [
         "lively-mcq-12",
-        "lively-mcq-11",
-        "lively-mcq-13",
-        "lively-mcq-10",
-        "lively-mcq-14",
-        "lively-mcq-09"
+        "lively-mcq-15",
+        "lively-mcq-03",
+        "lively-mcq-07"
       ],
       "explanation": "本句的「lively imagination」指「活躍想像力」。",
       "sentenceIndex": 20,
@@ -963,12 +881,10 @@ export default {
         "lively imagination"
       ],
       "optionReasons": {
-        "lively-mcq-12": "本句指「活躍想像力」。",
-        "lively-mcq-11": "「濃厚興趣」與本句語境不同。",
-        "lively-mcq-13": "「鮮明活潑色彩」與本句語境不同。",
-        "lively-mcq-10": "「生動描述」與本句語境不同。",
-        "lively-mcq-14": "「活躍市場」與本句語境不同。",
-        "lively-mcq-09": "「生動文筆」與本句語境不同。"
+        "lively-mcq-12": "本句的「lively imagination」指「活躍想像力」。",
+        "lively-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-12"
     },
@@ -980,11 +896,9 @@ export default {
       "masked": "The room was decorated in ____.",
       "options": [
         "lively-mcq-13",
-        "lively-mcq-12",
-        "lively-mcq-14",
-        "lively-mcq-11",
-        "lively-mcq-15",
-        "lively-mcq-10"
+        "lively-mcq-10",
+        "lively-mcq-07",
+        "lively-mcq-11"
       ],
       "explanation": "本句的「lively colours」指「鮮明活潑色彩」。",
       "sentenceIndex": 21,
@@ -993,12 +907,10 @@ export default {
         "lively colours"
       ],
       "optionReasons": {
-        "lively-mcq-13": "本句指「鮮明活潑色彩」。",
-        "lively-mcq-12": "「活躍想像力」與本句語境不同。",
-        "lively-mcq-14": "「活躍市場」與本句語境不同。",
-        "lively-mcq-11": "「濃厚興趣」與本句語境不同。",
-        "lively-mcq-15": "「明快節奏」與本句語境不同。",
-        "lively-mcq-10": "「生動描述」與本句語境不同。"
+        "lively-mcq-13": "本句的「lively colours」指「鮮明活潑色彩」。",
+        "lively-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-13"
     },
@@ -1010,11 +922,9 @@ export default {
       "masked": "The painting uses ____.",
       "options": [
         "lively-mcq-13",
-        "lively-mcq-12",
-        "lively-mcq-14",
-        "lively-mcq-11",
-        "lively-mcq-15",
-        "lively-mcq-10"
+        "lively-mcq-10",
+        "lively-mcq-04",
+        "lively-mcq-11"
       ],
       "explanation": "本句的「lively colours」指「鮮明活潑色彩」。",
       "sentenceIndex": 22,
@@ -1023,12 +933,10 @@ export default {
         "lively colours"
       ],
       "optionReasons": {
-        "lively-mcq-13": "本句指「鮮明活潑色彩」。",
-        "lively-mcq-12": "「活躍想像力」與本句語境不同。",
-        "lively-mcq-14": "「活躍市場」與本句語境不同。",
-        "lively-mcq-11": "「濃厚興趣」與本句語境不同。",
-        "lively-mcq-15": "「明快節奏」與本句語境不同。",
-        "lively-mcq-10": "「生動描述」與本句語境不同。"
+        "lively-mcq-13": "本句的「lively colours」指「鮮明活潑色彩」。",
+        "lively-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-13"
     },
@@ -1040,11 +948,9 @@ export default {
       "masked": "There is a ____ for second-hand books.",
       "options": [
         "lively-mcq-14",
-        "lively-mcq-13",
         "lively-mcq-15",
-        "lively-mcq-12",
-        "lively-mcq-16",
-        "lively-mcq-11"
+        "lively-mcq-07",
+        "lively-mcq-03"
       ],
       "explanation": "本句的「lively market」指「活躍市場」。",
       "sentenceIndex": 23,
@@ -1053,12 +959,10 @@ export default {
         "lively market"
       ],
       "optionReasons": {
-        "lively-mcq-14": "本句指「活躍市場」。",
-        "lively-mcq-13": "「鮮明活潑色彩」與本句語境不同。",
-        "lively-mcq-15": "「明快節奏」與本句語境不同。",
-        "lively-mcq-12": "「活躍想像力」與本句語境不同。",
-        "lively-mcq-16": "「活潑；生氣；熱鬧」與本句語境不同。",
-        "lively-mcq-11": "「濃厚興趣」與本句語境不同。"
+        "lively-mcq-14": "本句的「lively market」指「活躍市場」。",
+        "lively-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-14"
     },
@@ -1070,11 +974,9 @@ export default {
       "masked": "Trade remained ____ throughout the month.",
       "options": [
         "lively-mcq-14",
-        "lively-mcq-13",
         "lively-mcq-15",
-        "lively-mcq-12",
-        "lively-mcq-16",
-        "lively-mcq-11"
+        "lively-mcq-10",
+        "lively-mcq-04"
       ],
       "explanation": "本句的「lively」指「活躍市場」。",
       "sentenceIndex": 24,
@@ -1083,12 +985,10 @@ export default {
         "lively"
       ],
       "optionReasons": {
-        "lively-mcq-14": "本句指「活躍市場」。",
-        "lively-mcq-13": "「鮮明活潑色彩」與本句語境不同。",
-        "lively-mcq-15": "「明快節奏」與本句語境不同。",
-        "lively-mcq-12": "「活躍想像力」與本句語境不同。",
-        "lively-mcq-16": "「活潑；生氣；熱鬧」與本句語境不同。",
-        "lively-mcq-11": "「濃厚興趣」與本句語境不同。"
+        "lively-mcq-14": "本句的「lively」指「活躍市場」。",
+        "lively-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-14"
     },
@@ -1100,11 +1000,9 @@ export default {
       "masked": "The film moves at a ____.",
       "options": [
         "lively-mcq-15",
-        "lively-mcq-14",
-        "lively-mcq-16",
-        "lively-mcq-13",
-        "lively-mcq-12",
-        "lively-mcq-11"
+        "lively-mcq-11",
+        "lively-mcq-04",
+        "lively-mcq-01"
       ],
       "explanation": "本句的「lively pace」指「明快節奏」。",
       "sentenceIndex": 25,
@@ -1113,12 +1011,10 @@ export default {
         "lively pace"
       ],
       "optionReasons": {
-        "lively-mcq-15": "本句指「明快節奏」。",
-        "lively-mcq-14": "「活躍市場」與本句語境不同。",
-        "lively-mcq-16": "「活潑；生氣；熱鬧」與本句語境不同。",
-        "lively-mcq-13": "「鮮明活潑色彩」與本句語境不同。",
-        "lively-mcq-12": "「活躍想像力」與本句語境不同。",
-        "lively-mcq-11": "「濃厚興趣」與本句語境不同。"
+        "lively-mcq-15": "本句的「lively pace」指「明快節奏」。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-15"
     },
@@ -1130,11 +1026,9 @@ export default {
       "masked": "The lesson continued at a ____.",
       "options": [
         "lively-mcq-15",
-        "lively-mcq-14",
-        "lively-mcq-16",
-        "lively-mcq-13",
-        "lively-mcq-12",
-        "lively-mcq-11"
+        "lively-mcq-11",
+        "lively-mcq-03",
+        "lively-mcq-01"
       ],
       "explanation": "本句的「lively pace」指「明快節奏」。",
       "sentenceIndex": 26,
@@ -1143,12 +1037,10 @@ export default {
         "lively pace"
       ],
       "optionReasons": {
-        "lively-mcq-15": "本句指「明快節奏」。",
-        "lively-mcq-14": "「活躍市場」與本句語境不同。",
-        "lively-mcq-16": "「活潑；生氣；熱鬧」與本句語境不同。",
-        "lively-mcq-13": "「鮮明活潑色彩」與本句語境不同。",
-        "lively-mcq-12": "「活躍想像力」與本句語境不同。",
-        "lively-mcq-11": "「濃厚興趣」與本句語境不同。"
+        "lively-mcq-15": "本句的「lively pace」指「明快節奏」。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-15"
     },
@@ -1161,10 +1053,8 @@ export default {
       "options": [
         "lively-mcq-16",
         "lively-mcq-15",
-        "lively-mcq-14",
-        "lively-mcq-13",
-        "lively-mcq-12",
-        "lively-mcq-11"
+        "lively-mcq-11",
+        "lively-mcq-04"
       ],
       "explanation": "本句的「liveliness」指「活潑；生氣；熱鬧」。",
       "sentenceIndex": 27,
@@ -1173,12 +1063,10 @@ export default {
         "liveliness"
       ],
       "optionReasons": {
-        "lively-mcq-16": "本句指「活潑；生氣；熱鬧」。",
-        "lively-mcq-15": "「明快節奏」與本句語境不同。",
-        "lively-mcq-14": "「活躍市場」與本句語境不同。",
-        "lively-mcq-13": "「鮮明活潑色彩」與本句語境不同。",
-        "lively-mcq-12": "「活躍想像力」與本句語境不同。",
-        "lively-mcq-11": "「濃厚興趣」與本句語境不同。"
+        "lively-mcq-16": "本句的「liveliness」指「活潑；生氣；熱鬧」。",
+        "lively-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-16"
     },
@@ -1190,11 +1078,9 @@ export default {
       "masked": "The music added ____ to the event.",
       "options": [
         "lively-mcq-16",
+        "lively-mcq-11",
         "lively-mcq-15",
-        "lively-mcq-14",
-        "lively-mcq-13",
-        "lively-mcq-12",
-        "lively-mcq-11"
+        "lively-mcq-14"
       ],
       "explanation": "本句的「liveliness」指「活潑；生氣；熱鬧」。",
       "sentenceIndex": 28,
@@ -1203,12 +1089,10 @@ export default {
         "liveliness"
       ],
       "optionReasons": {
-        "lively-mcq-16": "本句指「活潑；生氣；熱鬧」。",
-        "lively-mcq-15": "「明快節奏」與本句語境不同。",
-        "lively-mcq-14": "「活躍市場」與本句語境不同。",
-        "lively-mcq-13": "「鮮明活潑色彩」與本句語境不同。",
-        "lively-mcq-12": "「活躍想像力」與本句語境不同。",
-        "lively-mcq-11": "「濃厚興趣」與本句語境不同。"
+        "lively-mcq-16": "本句的「liveliness」指「活潑；生氣；熱鬧」。",
+        "lively-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "lively-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lively-mcq-16"
     }
@@ -1220,5 +1104,7 @@ export default {
     "sha256": "2746894af645d079e9662de72362a628cda4fce6c5176399720989a25f197eed",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

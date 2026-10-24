@@ -1896,11 +1896,9 @@ export default {
       "masked": "These tools can ____ confusion substantially.",
       "options": [
         "reduce-mcq-01",
-        "reduce-mcq-02",
-        "reduce-mcq-03",
-        "reduce-mcq-04",
-        "reduce-mcq-05",
-        "reduce-mcq-06"
+        "reduce-mcq-26",
+        "reduce-mcq-51",
+        "reduce-pdf-plain-082"
       ],
       "explanation": "本句的「reduce」指「減少；降低 make less」。",
       "sentenceIndex": 0,
@@ -1909,12 +1907,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-01": "本句指「減少；降低 make less」。",
-        "reduce-mcq-02": "「減少混亂 lower confusion」與本句語境不同。",
-        "reduce-mcq-03": "「減少錯誤 fewer mistakes」與本句語境不同。",
-        "reduce-mcq-04": "「減少數量 quantity」與本句語境不同。",
-        "reduce-mcq-05": "「減少數目 count」與本句語境不同。",
-        "reduce-mcq-06": "「降低水平 degree」與本句語境不同。"
+        "reduce-mcq-01": "本句的「reduce」指「減少；降低 make less」。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-01"
     },
@@ -1926,11 +1922,9 @@ export default {
       "masked": "Clear instructions can ____ mistakes.",
       "options": [
         "reduce-mcq-01",
-        "reduce-mcq-02",
-        "reduce-mcq-03",
-        "reduce-mcq-04",
-        "reduce-mcq-05",
-        "reduce-mcq-06"
+        "reduce-mcq-57",
+        "reduce-mcq-26",
+        "reduce-mcq-52"
       ],
       "explanation": "本句的「reduce」指「減少；降低 make less」。",
       "sentenceIndex": 1,
@@ -1939,12 +1933,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-01": "本句指「減少；降低 make less」。",
-        "reduce-mcq-02": "「減少混亂 lower confusion」與本句語境不同。",
-        "reduce-mcq-03": "「減少錯誤 fewer mistakes」與本句語境不同。",
-        "reduce-mcq-04": "「減少數量 quantity」與本句語境不同。",
-        "reduce-mcq-05": "「減少數目 count」與本句語境不同。",
-        "reduce-mcq-06": "「降低水平 degree」與本句語境不同。"
+        "reduce-mcq-01": "本句的「reduce」指「減少；降低 make less」。",
+        "reduce-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-01"
     },
@@ -1956,11 +1948,9 @@ export default {
       "masked": "Better planning may ____ delays.",
       "options": [
         "reduce-mcq-01",
-        "reduce-mcq-02",
-        "reduce-mcq-03",
-        "reduce-mcq-04",
-        "reduce-mcq-05",
-        "reduce-mcq-06"
+        "reduce-mcq-25",
+        "reduce-mcq-57",
+        "reduce-mcq-51"
       ],
       "explanation": "本句的「reduce」指「減少；降低 make less」。",
       "sentenceIndex": 2,
@@ -1969,12 +1959,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-01": "本句指「減少；降低 make less」。",
-        "reduce-mcq-02": "「減少混亂 lower confusion」與本句語境不同。",
-        "reduce-mcq-03": "「減少錯誤 fewer mistakes」與本句語境不同。",
-        "reduce-mcq-04": "「減少數量 quantity」與本句語境不同。",
-        "reduce-mcq-05": "「減少數目 count」與本句語境不同。",
-        "reduce-mcq-06": "「降低水平 degree」與本句語境不同。"
+        "reduce-mcq-01": "本句的「reduce」指「減少；降低 make less」。",
+        "reduce-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-01"
     },
@@ -1986,11 +1974,9 @@ export default {
       "masked": "The company wants to ____ the amount of waste it produces.",
       "options": [
         "reduce-mcq-04",
-        "reduce-mcq-03",
-        "reduce-mcq-05",
-        "reduce-mcq-02",
-        "reduce-mcq-06",
-        "reduce-mcq-01"
+        "reduce-mcq-63",
+        "reduce-mcq-13",
+        "reduce-mcq-35"
       ],
       "explanation": "本句的「reduce」指「減少數量 quantity」。",
       "sentenceIndex": 3,
@@ -1999,12 +1985,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-04": "本句指「減少數量 quantity」。",
-        "reduce-mcq-03": "「減少錯誤 fewer mistakes」與本句語境不同。",
-        "reduce-mcq-05": "「減少數目 count」與本句語境不同。",
-        "reduce-mcq-02": "「減少混亂 lower confusion」與本句語境不同。",
-        "reduce-mcq-06": "「降低水平 degree」與本句語境不同。",
-        "reduce-mcq-01": "「減少；降低 make less」與本句語境不同。"
+        "reduce-mcq-04": "本句的「reduce」指「減少數量 quantity」。",
+        "reduce-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-04"
     },
@@ -2016,11 +2000,9 @@ export default {
       "masked": "Better coordination ____ the amount of duplicated work.",
       "options": [
         "reduce-mcq-04",
-        "reduce-mcq-03",
-        "reduce-mcq-05",
-        "reduce-mcq-02",
-        "reduce-mcq-06",
-        "reduce-mcq-01"
+        "reduce-mcq-87",
+        "reduce-mcq-58",
+        "reduce-mcq-52"
       ],
       "explanation": "本句的「reduces」指「減少數量 quantity」。",
       "sentenceIndex": 4,
@@ -2029,12 +2011,10 @@ export default {
         "reduces"
       ],
       "optionReasons": {
-        "reduce-mcq-04": "本句指「減少數量 quantity」。",
-        "reduce-mcq-03": "「減少錯誤 fewer mistakes」與本句語境不同。",
-        "reduce-mcq-05": "「減少數目 count」與本句語境不同。",
-        "reduce-mcq-02": "「減少混亂 lower confusion」與本句語境不同。",
-        "reduce-mcq-06": "「降低水平 degree」與本句語境不同。",
-        "reduce-mcq-01": "「減少；降低 make less」與本句語境不同。"
+        "reduce-mcq-04": "本句的「reduces」指「減少數量 quantity」。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-04"
     },
@@ -2046,11 +2026,9 @@ export default {
       "masked": "The new system ____ the number of errors.",
       "options": [
         "reduce-mcq-05",
-        "reduce-mcq-04",
-        "reduce-mcq-06",
-        "reduce-mcq-03",
-        "reduce-mcq-07",
-        "reduce-mcq-02"
+        "reduce-mcq-35",
+        "reduce-mcq-76",
+        "reduce-mcq-77"
       ],
       "explanation": "本句的「reduced」指「減少數目 count」。",
       "sentenceIndex": 5,
@@ -2059,12 +2037,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-05": "本句指「減少數目 count」。",
-        "reduce-mcq-04": "「減少數量 quantity」與本句語境不同。",
-        "reduce-mcq-06": "「降低水平 degree」與本句語境不同。",
-        "reduce-mcq-03": "「減少錯誤 fewer mistakes」與本句語境不同。",
-        "reduce-mcq-07": "「降低比率 rate」與本句語境不同。",
-        "reduce-mcq-02": "「減少混亂 lower confusion」與本句語境不同。"
+        "reduce-mcq-05": "本句的「reduced」指「減少數目 count」。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-05"
     },
@@ -2076,11 +2052,9 @@ export default {
       "masked": "Automation may ____ the number of repetitive tasks.",
       "options": [
         "reduce-mcq-05",
-        "reduce-mcq-04",
-        "reduce-mcq-06",
-        "reduce-mcq-03",
-        "reduce-mcq-07",
-        "reduce-mcq-02"
+        "reduce-mcq-87",
+        "reduce-mcq-51",
+        "reduce-mcq-75"
       ],
       "explanation": "本句的「reduce」指「減少數目 count」。",
       "sentenceIndex": 6,
@@ -2089,12 +2063,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-05": "本句指「減少數目 count」。",
-        "reduce-mcq-04": "「減少數量 quantity」與本句語境不同。",
-        "reduce-mcq-06": "「降低水平 degree」與本句語境不同。",
-        "reduce-mcq-03": "「減少錯誤 fewer mistakes」與本句語境不同。",
-        "reduce-mcq-07": "「降低比率 rate」與本句語境不同。",
-        "reduce-mcq-02": "「減少混亂 lower confusion」與本句語境不同。"
+        "reduce-mcq-05": "本句的「reduce」指「減少數目 count」。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-05"
     },
@@ -2106,11 +2078,9 @@ export default {
       "masked": "The changes ____ the level of uncertainty.",
       "options": [
         "reduce-mcq-06",
-        "reduce-mcq-05",
-        "reduce-mcq-07",
-        "reduce-mcq-04",
-        "reduce-mcq-08",
-        "reduce-mcq-03"
+        "reduce-pdf-plain-101",
+        "reduce-mcq-52",
+        "reduce-mcq-82"
       ],
       "explanation": "本句的「reduced」指「降低水平 degree」。",
       "sentenceIndex": 7,
@@ -2119,12 +2089,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-06": "本句指「降低水平 degree」。",
-        "reduce-mcq-05": "「減少數目 count」與本句語境不同。",
-        "reduce-mcq-07": "「降低比率 rate」與本句語境不同。",
-        "reduce-mcq-04": "「減少數量 quantity」與本句語境不同。",
-        "reduce-mcq-08": "「縮小 size」與本句語境不同。",
-        "reduce-mcq-03": "「減少錯誤 fewer mistakes」與本句語境不同。"
+        "reduce-mcq-06": "本句的「reduced」指「降低水平 degree」。",
+        "reduce-pdf-plain-101": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-82": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-06"
     },
@@ -2136,11 +2104,9 @@ export default {
       "masked": "Exercise can ____ stress levels.",
       "options": [
         "reduce-mcq-06",
-        "reduce-mcq-05",
-        "reduce-mcq-07",
-        "reduce-mcq-04",
-        "reduce-mcq-08",
-        "reduce-mcq-03"
+        "reduce-mcq-35",
+        "reduce-mcq-33",
+        "reduce-mcq-51"
       ],
       "explanation": "本句的「reduce」指「降低水平 degree」。",
       "sentenceIndex": 8,
@@ -2149,12 +2115,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-06": "本句指「降低水平 degree」。",
-        "reduce-mcq-05": "「減少數目 count」與本句語境不同。",
-        "reduce-mcq-07": "「降低比率 rate」與本句語境不同。",
-        "reduce-mcq-04": "「減少數量 quantity」與本句語境不同。",
-        "reduce-mcq-08": "「縮小 size」與本句語境不同。",
-        "reduce-mcq-03": "「減少錯誤 fewer mistakes」與本句語境不同。"
+        "reduce-mcq-06": "本句的「reduce」指「降低水平 degree」。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-06"
     },
@@ -2166,11 +2130,9 @@ export default {
       "masked": "The programme aims to ____ the error rate.",
       "options": [
         "reduce-mcq-07",
-        "reduce-mcq-06",
-        "reduce-mcq-08",
-        "reduce-mcq-05",
-        "reduce-mcq-09",
-        "reduce-mcq-04"
+        "reduce-mcq-60",
+        "reduce-mcq-82",
+        "reduce-pdf-plain-101"
       ],
       "explanation": "本句的「reduce」指「降低比率 rate」。",
       "sentenceIndex": 9,
@@ -2179,12 +2141,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-07": "本句指「降低比率 rate」。",
-        "reduce-mcq-06": "「降低水平 degree」與本句語境不同。",
-        "reduce-mcq-08": "「縮小 size」與本句語境不同。",
-        "reduce-mcq-05": "「減少數目 count」與本句語境不同。",
-        "reduce-mcq-09": "「縮短等候時間 duration」與本句語境不同。",
-        "reduce-mcq-04": "「減少數量 quantity」與本句語境不同。"
+        "reduce-mcq-07": "本句的「reduce」指「降低比率 rate」。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-101": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-07"
     },
@@ -2196,11 +2156,9 @@ export default {
       "masked": "Safety measures ____ the accident rate.",
       "options": [
         "reduce-mcq-07",
-        "reduce-mcq-06",
-        "reduce-mcq-08",
-        "reduce-mcq-05",
-        "reduce-mcq-09",
-        "reduce-mcq-04"
+        "reduce-mcq-56",
+        "reduce-mcq-64",
+        "reduce-mcq-22"
       ],
       "explanation": "本句的「reduced」指「降低比率 rate」。",
       "sentenceIndex": 10,
@@ -2209,12 +2167,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-07": "本句指「降低比率 rate」。",
-        "reduce-mcq-06": "「降低水平 degree」與本句語境不同。",
-        "reduce-mcq-08": "「縮小 size」與本句語境不同。",
-        "reduce-mcq-05": "「減少數目 count」與本句語境不同。",
-        "reduce-mcq-09": "「縮短等候時間 duration」與本句語境不同。",
-        "reduce-mcq-04": "「減少數量 quantity」與本句語境不同。"
+        "reduce-mcq-07": "本句的「reduced」指「降低比率 rate」。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-07"
     },
@@ -2226,11 +2182,9 @@ export default {
       "masked": "The company decided to ____ the size of the team.",
       "options": [
         "reduce-mcq-08",
-        "reduce-mcq-07",
-        "reduce-mcq-09",
-        "reduce-mcq-06",
-        "reduce-mcq-10",
-        "reduce-mcq-05"
+        "reduce-mcq-26",
+        "reduce-mcq-57",
+        "reduce-mcq-86"
       ],
       "explanation": "本句的「reduce」指「縮小 size」。",
       "sentenceIndex": 11,
@@ -2239,12 +2193,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-08": "本句指「縮小 size」。",
-        "reduce-mcq-07": "「降低比率 rate」與本句語境不同。",
-        "reduce-mcq-09": "「縮短等候時間 duration」與本句語境不同。",
-        "reduce-mcq-06": "「降低水平 degree」與本句語境不同。",
-        "reduce-mcq-10": "「減輕壓力 intensity」與本句語境不同。",
-        "reduce-mcq-05": "「減少數目 count」與本句語境不同。"
+        "reduce-mcq-08": "本句的「reduce」指「縮小 size」。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-86": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-08"
     },
@@ -2256,11 +2208,9 @@ export default {
       "masked": "Compressing the file ____ its size.",
       "options": [
         "reduce-mcq-08",
-        "reduce-mcq-07",
-        "reduce-mcq-09",
-        "reduce-mcq-06",
-        "reduce-mcq-10",
-        "reduce-mcq-05"
+        "reduce-mcq-52",
+        "reduce-mcq-60",
+        "reduce-mcq-45"
       ],
       "explanation": "本句的「reduces」指「縮小 size」。",
       "sentenceIndex": 12,
@@ -2269,12 +2219,10 @@ export default {
         "reduces"
       ],
       "optionReasons": {
-        "reduce-mcq-08": "本句指「縮小 size」。",
-        "reduce-mcq-07": "「降低比率 rate」與本句語境不同。",
-        "reduce-mcq-09": "「縮短等候時間 duration」與本句語境不同。",
-        "reduce-mcq-06": "「降低水平 degree」與本句語境不同。",
-        "reduce-mcq-10": "「減輕壓力 intensity」與本句語境不同。",
-        "reduce-mcq-05": "「減少數目 count」與本句語境不同。"
+        "reduce-mcq-08": "本句的「reduces」指「縮小 size」。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-08"
     },
@@ -2286,11 +2234,9 @@ export default {
       "masked": "Clear roles ____ confusion.",
       "options": [
         "reduce-mcq-02",
-        "reduce-mcq-01",
-        "reduce-mcq-03",
-        "reduce-mcq-04",
-        "reduce-mcq-05",
-        "reduce-mcq-06"
+        "reduce-mcq-59",
+        "reduce-mcq-72",
+        "reduce-mcq-51"
       ],
       "explanation": "本句的「reduce」指「減少混亂 lower confusion」。",
       "sentenceIndex": 15,
@@ -2299,12 +2245,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-02": "本句指「減少混亂 lower confusion」。",
-        "reduce-mcq-01": "「減少；降低 make less」與本句語境不同。",
-        "reduce-mcq-03": "「減少錯誤 fewer mistakes」與本句語境不同。",
-        "reduce-mcq-04": "「減少數量 quantity」與本句語境不同。",
-        "reduce-mcq-05": "「減少數目 count」與本句語境不同。",
-        "reduce-mcq-06": "「降低水平 degree」與本句語境不同。"
+        "reduce-mcq-02": "本句的「reduce」指「減少混亂 lower confusion」。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-02"
     },
@@ -2316,11 +2260,9 @@ export default {
       "masked": "Written summaries help ____ confusion after meetings.",
       "options": [
         "reduce-mcq-02",
-        "reduce-mcq-01",
-        "reduce-mcq-03",
-        "reduce-mcq-04",
-        "reduce-mcq-05",
-        "reduce-mcq-06"
+        "reduce-mcq-76",
+        "reduce-mcq-51",
+        "reduce-pdf-plain-083"
       ],
       "explanation": "本句的「reduce」指「減少混亂 lower confusion」。",
       "sentenceIndex": 16,
@@ -2329,12 +2271,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-02": "本句指「減少混亂 lower confusion」。",
-        "reduce-mcq-01": "「減少；降低 make less」與本句語境不同。",
-        "reduce-mcq-03": "「減少錯誤 fewer mistakes」與本句語境不同。",
-        "reduce-mcq-04": "「減少數量 quantity」與本句語境不同。",
-        "reduce-mcq-05": "「減少數目 count」與本句語境不同。",
-        "reduce-mcq-06": "「降低水平 degree」與本句語境不同。"
+        "reduce-mcq-02": "本句的「reduce」指「減少混亂 lower confusion」。",
+        "reduce-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-083": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-02"
     },
@@ -2346,11 +2286,9 @@ export default {
       "masked": "Better workload planning can ____ stress.",
       "options": [
         "reduce-mcq-10",
-        "reduce-mcq-09",
-        "reduce-mcq-11",
-        "reduce-mcq-08",
-        "reduce-mcq-12",
-        "reduce-mcq-07"
+        "reduce-mcq-63",
+        "reduce-mcq-58",
+        "reduce-mcq-76"
       ],
       "explanation": "本句的「reduce」指「減輕壓力 intensity」。",
       "sentenceIndex": 17,
@@ -2359,12 +2297,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-10": "本句指「減輕壓力 intensity」。",
-        "reduce-mcq-09": "「縮短等候時間 duration」與本句語境不同。",
-        "reduce-mcq-11": "「減輕／降低壓力 intensity」與本句語境不同。",
-        "reduce-mcq-08": "「縮小 size」與本句語境不同。",
-        "reduce-mcq-12": "「減輕疼痛 symptom」與本句語境不同。",
-        "reduce-mcq-07": "「降低比率 rate」與本句語境不同。"
+        "reduce-mcq-10": "本句的「reduce」指「減輕壓力 intensity」。",
+        "reduce-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-10"
     },
@@ -2376,11 +2312,9 @@ export default {
       "masked": "Regular breaks may ____ stress.",
       "options": [
         "reduce-mcq-10",
-        "reduce-mcq-09",
-        "reduce-mcq-11",
-        "reduce-mcq-08",
-        "reduce-mcq-12",
-        "reduce-mcq-07"
+        "reduce-mcq-58",
+        "reduce-mcq-56",
+        "reduce-mcq-75"
       ],
       "explanation": "本句的「reduce」指「減輕壓力 intensity」。",
       "sentenceIndex": 18,
@@ -2389,12 +2323,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-10": "本句指「減輕壓力 intensity」。",
-        "reduce-mcq-09": "「縮短等候時間 duration」與本句語境不同。",
-        "reduce-mcq-11": "「減輕／降低壓力 intensity」與本句語境不同。",
-        "reduce-mcq-08": "「縮小 size」與本句語境不同。",
-        "reduce-mcq-12": "「減輕疼痛 symptom」與本句語境不同。",
-        "reduce-mcq-07": "「降低比率 rate」與本句語境不同。"
+        "reduce-mcq-10": "本句的「reduce」指「減輕壓力 intensity」。",
+        "reduce-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-10"
     },
@@ -2406,11 +2338,9 @@ export default {
       "masked": "Hiring more staff could ____ pressure on the team.",
       "options": [
         "reduce-mcq-11",
-        "reduce-mcq-10",
-        "reduce-mcq-12",
-        "reduce-mcq-09",
-        "reduce-mcq-13",
-        "reduce-mcq-08"
+        "reduce-mcq-35",
+        "reduce-pdf-plain-083",
+        "reduce-mcq-74"
       ],
       "explanation": "本句的「reduce」指「減輕／降低壓力 intensity」。",
       "sentenceIndex": 19,
@@ -2419,12 +2349,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-11": "本句指「減輕／降低壓力 intensity」。",
-        "reduce-mcq-10": "「減輕壓力 intensity」與本句語境不同。",
-        "reduce-mcq-12": "「減輕疼痛 symptom」與本句語境不同。",
-        "reduce-mcq-09": "「縮短等候時間 duration」與本句語境不同。",
-        "reduce-mcq-13": "「緩和緊張 tension」與本句語境不同。",
-        "reduce-mcq-08": "「縮小 size」與本句語境不同。"
+        "reduce-mcq-11": "本句的「reduce」指「減輕／降低壓力 intensity」。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-083": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-11"
     },
@@ -2436,11 +2364,9 @@ export default {
       "masked": "The valve ____ water pressure.",
       "options": [
         "reduce-mcq-11",
-        "reduce-mcq-10",
-        "reduce-mcq-12",
-        "reduce-mcq-09",
-        "reduce-mcq-13",
-        "reduce-mcq-08"
+        "reduce-mcq-73",
+        "reduce-mcq-59",
+        "reduce-mcq-52"
       ],
       "explanation": "本句的「reduces」指「減輕／降低壓力 intensity」。",
       "sentenceIndex": 20,
@@ -2449,12 +2375,10 @@ export default {
         "reduces"
       ],
       "optionReasons": {
-        "reduce-mcq-11": "本句指「減輕／降低壓力 intensity」。",
-        "reduce-mcq-10": "「減輕壓力 intensity」與本句語境不同。",
-        "reduce-mcq-12": "「減輕疼痛 symptom」與本句語境不同。",
-        "reduce-mcq-09": "「縮短等候時間 duration」與本句語境不同。",
-        "reduce-mcq-13": "「緩和緊張 tension」與本句語境不同。",
-        "reduce-mcq-08": "「縮小 size」與本句語境不同。"
+        "reduce-mcq-11": "本句的「reduces」指「減輕／降低壓力 intensity」。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-11"
     },
@@ -2466,11 +2390,9 @@ export default {
       "masked": "The treatment may ____ pain.",
       "options": [
         "reduce-mcq-12",
-        "reduce-mcq-11",
-        "reduce-mcq-13",
-        "reduce-mcq-10",
-        "reduce-mcq-14",
-        "reduce-mcq-09"
+        "reduce-mcq-73",
+        "reduce-mcq-35",
+        "reduce-mcq-56"
       ],
       "explanation": "本句的「reduce」指「減輕疼痛 symptom」。",
       "sentenceIndex": 21,
@@ -2479,12 +2401,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-12": "本句指「減輕疼痛 symptom」。",
-        "reduce-mcq-11": "「減輕／降低壓力 intensity」與本句語境不同。",
-        "reduce-mcq-13": "「緩和緊張 tension」與本句語境不同。",
-        "reduce-mcq-10": "「減輕壓力 intensity」與本句語境不同。",
-        "reduce-mcq-14": "「減少不確定性 uncertainty」與本句語境不同。",
-        "reduce-mcq-09": "「縮短等候時間 duration」與本句語境不同。"
+        "reduce-mcq-12": "本句的「reduce」指「減輕疼痛 symptom」。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-12"
     },
@@ -2496,11 +2416,9 @@ export default {
       "masked": "Ice can help ____ swelling and pain.",
       "options": [
         "reduce-mcq-12",
-        "reduce-mcq-11",
-        "reduce-mcq-13",
-        "reduce-mcq-10",
-        "reduce-mcq-14",
-        "reduce-mcq-09"
+        "reduce-mcq-60",
+        "reduce-mcq-87",
+        "reduce-mcq-23"
       ],
       "explanation": "本句的「reduce」指「減輕疼痛 symptom」。",
       "sentenceIndex": 22,
@@ -2509,12 +2427,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-12": "本句指「減輕疼痛 symptom」。",
-        "reduce-mcq-11": "「減輕／降低壓力 intensity」與本句語境不同。",
-        "reduce-mcq-13": "「緩和緊張 tension」與本句語境不同。",
-        "reduce-mcq-10": "「減輕壓力 intensity」與本句語境不同。",
-        "reduce-mcq-14": "「減少不確定性 uncertainty」與本句語境不同。",
-        "reduce-mcq-09": "「縮短等候時間 duration」與本句語境不同。"
+        "reduce-mcq-12": "本句的「reduce」指「減輕疼痛 symptom」。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-12"
     },
@@ -2526,11 +2442,9 @@ export default {
       "masked": "Better communication can ____ tension between departments.",
       "options": [
         "reduce-mcq-13",
-        "reduce-mcq-12",
-        "reduce-mcq-14",
-        "reduce-mcq-11",
-        "reduce-mcq-15",
-        "reduce-mcq-10"
+        "reduce-mcq-41",
+        "reduce-mcq-51",
+        "reduce-mcq-65"
       ],
       "explanation": "本句的「reduce」指「緩和緊張 tension」。",
       "sentenceIndex": 23,
@@ -2539,12 +2453,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-13": "本句指「緩和緊張 tension」。",
-        "reduce-mcq-12": "「減輕疼痛 symptom」與本句語境不同。",
-        "reduce-mcq-14": "「減少不確定性 uncertainty」與本句語境不同。",
-        "reduce-mcq-11": "「減輕／降低壓力 intensity」與本句語境不同。",
-        "reduce-mcq-15": "「降低風險 risk」與本句語境不同。",
-        "reduce-mcq-10": "「減輕壓力 intensity」與本句語境不同。"
+        "reduce-mcq-13": "本句的「reduce」指「緩和緊張 tension」。",
+        "reduce-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-13"
     },
@@ -2556,11 +2468,9 @@ export default {
       "masked": "The meeting helped ____ tension.",
       "options": [
         "reduce-mcq-13",
-        "reduce-mcq-12",
-        "reduce-mcq-14",
-        "reduce-mcq-11",
-        "reduce-mcq-15",
-        "reduce-mcq-10"
+        "reduce-mcq-48",
+        "reduce-pdf-plain-083",
+        "reduce-mcq-35"
       ],
       "explanation": "本句的「reduce」指「緩和緊張 tension」。",
       "sentenceIndex": 24,
@@ -2569,12 +2479,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-13": "本句指「緩和緊張 tension」。",
-        "reduce-mcq-12": "「減輕疼痛 symptom」與本句語境不同。",
-        "reduce-mcq-14": "「減少不確定性 uncertainty」與本句語境不同。",
-        "reduce-mcq-11": "「減輕／降低壓力 intensity」與本句語境不同。",
-        "reduce-mcq-15": "「降低風險 risk」與本句語境不同。",
-        "reduce-mcq-10": "「減輕壓力 intensity」與本句語境不同。"
+        "reduce-mcq-13": "本句的「reduce」指「緩和緊張 tension」。",
+        "reduce-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-083": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-13"
     },
@@ -2586,11 +2494,9 @@ export default {
       "masked": "Clear deadlines ____ uncertainty.",
       "options": [
         "reduce-mcq-14",
-        "reduce-mcq-13",
-        "reduce-mcq-15",
-        "reduce-mcq-12",
-        "reduce-mcq-16",
-        "reduce-mcq-11"
+        "reduce-mcq-74",
+        "reduce-mcq-25",
+        "reduce-mcq-86"
       ],
       "explanation": "本句的「reduce」指「減少不確定性 uncertainty」。",
       "sentenceIndex": 25,
@@ -2599,12 +2505,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-14": "本句指「減少不確定性 uncertainty」。",
-        "reduce-mcq-13": "「緩和緊張 tension」與本句語境不同。",
-        "reduce-mcq-15": "「降低風險 risk」與本句語境不同。",
-        "reduce-mcq-12": "「減輕疼痛 symptom」與本句語境不同。",
-        "reduce-mcq-16": "「風險降低 risk management」與本句語境不同。",
-        "reduce-mcq-11": "「減輕／降低壓力 intensity」與本句語境不同。"
+        "reduce-mcq-14": "本句的「reduce」指「減少不確定性 uncertainty」。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-86": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-14"
     },
@@ -2616,11 +2520,9 @@ export default {
       "masked": "More information may ____ uncertainty.",
       "options": [
         "reduce-mcq-14",
-        "reduce-mcq-13",
-        "reduce-mcq-15",
-        "reduce-mcq-12",
-        "reduce-mcq-16",
-        "reduce-mcq-11"
+        "reduce-mcq-25",
+        "reduce-mcq-51",
+        "reduce-mcq-60"
       ],
       "explanation": "本句的「reduce」指「減少不確定性 uncertainty」。",
       "sentenceIndex": 26,
@@ -2629,12 +2531,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-14": "本句指「減少不確定性 uncertainty」。",
-        "reduce-mcq-13": "「緩和緊張 tension」與本句語境不同。",
-        "reduce-mcq-15": "「降低風險 risk」與本句語境不同。",
-        "reduce-mcq-12": "「減輕疼痛 symptom」與本句語境不同。",
-        "reduce-mcq-16": "「風險降低 risk management」與本句語境不同。",
-        "reduce-mcq-11": "「減輕／降低壓力 intensity」與本句語境不同。"
+        "reduce-mcq-14": "本句的「reduce」指「減少不確定性 uncertainty」。",
+        "reduce-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-14"
     },
@@ -2646,11 +2546,9 @@ export default {
       "masked": "Compliance checks help ____ risk.",
       "options": [
         "reduce-mcq-15",
-        "reduce-mcq-14",
-        "reduce-mcq-16",
-        "reduce-mcq-13",
-        "reduce-mcq-17",
-        "reduce-mcq-12"
+        "reduce-mcq-20",
+        "reduce-mcq-64",
+        "reduce-mcq-13"
       ],
       "explanation": "本句的「reduce」指「降低風險 risk」。",
       "sentenceIndex": 29,
@@ -2659,12 +2557,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-15": "本句指「降低風險 risk」。",
-        "reduce-mcq-14": "「減少不確定性 uncertainty」與本句語境不同。",
-        "reduce-mcq-16": "「風險降低 risk management」與本句語境不同。",
-        "reduce-mcq-13": "「緩和緊張 tension」與本句語境不同。",
-        "reduce-mcq-17": "「減害 reduce」與本句語境不同。",
-        "reduce-mcq-12": "「減輕疼痛 symptom」與本句語境不同。"
+        "reduce-mcq-15": "本句的「reduce」指「降低風險 risk」。",
+        "reduce-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-15"
     },
@@ -2676,11 +2572,9 @@ export default {
       "masked": "Diversification may ____ investment risk.",
       "options": [
         "reduce-mcq-15",
-        "reduce-mcq-14",
-        "reduce-mcq-16",
-        "reduce-mcq-13",
-        "reduce-mcq-17",
-        "reduce-mcq-12"
+        "reduce-mcq-74",
+        "reduce-mcq-86",
+        "reduce-mcq-33"
       ],
       "explanation": "本句的「reduce」指「降低風險 risk」。",
       "sentenceIndex": 30,
@@ -2689,12 +2583,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-15": "本句指「降低風險 risk」。",
-        "reduce-mcq-14": "「減少不確定性 uncertainty」與本句語境不同。",
-        "reduce-mcq-16": "「風險降低 risk management」與本句語境不同。",
-        "reduce-mcq-13": "「緩和緊張 tension」與本句語境不同。",
-        "reduce-mcq-17": "「減害 reduce」與本句語境不同。",
-        "reduce-mcq-12": "「減輕疼痛 symptom」與本句語境不同。"
+        "reduce-mcq-15": "本句的「reduce」指「降低風險 risk」。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-15"
     },
@@ -2706,11 +2598,9 @@ export default {
       "masked": "Training is an important part of risk ____.",
       "options": [
         "reduce-mcq-16",
-        "reduce-mcq-15",
-        "reduce-mcq-17",
-        "reduce-mcq-14",
-        "reduce-mcq-18",
-        "reduce-mcq-13"
+        "reduce-mcq-60",
+        "reduce-mcq-59",
+        "reduce-mcq-73"
       ],
       "explanation": "本句的「reduction」指「風險降低 risk management」。",
       "sentenceIndex": 33,
@@ -2719,12 +2609,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-16": "本句指「風險降低 risk management」。",
-        "reduce-mcq-15": "「降低風險 risk」與本句語境不同。",
-        "reduce-mcq-17": "「減害 reduce」與本句語境不同。",
-        "reduce-mcq-14": "「減少不確定性 uncertainty」與本句語境不同。",
-        "reduce-mcq-18": "「降低成本 money」與本句語境不同。",
-        "reduce-mcq-13": "「緩和緊張 tension」與本句語境不同。"
+        "reduce-mcq-16": "本句的「reduction」指「風險降低 risk management」。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-16"
     },
@@ -2736,11 +2624,9 @@ export default {
       "masked": "The project includes several risk-____ measures.",
       "options": [
         "reduce-mcq-16",
-        "reduce-mcq-15",
-        "reduce-mcq-17",
-        "reduce-mcq-14",
-        "reduce-mcq-18",
-        "reduce-mcq-13"
+        "reduce-mcq-87",
+        "reduce-mcq-20",
+        "reduce-mcq-59"
       ],
       "explanation": "本句的「reduction」指「風險降低 risk management」。",
       "sentenceIndex": 34,
@@ -2749,12 +2635,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-16": "本句指「風險降低 risk management」。",
-        "reduce-mcq-15": "「降低風險 risk」與本句語境不同。",
-        "reduce-mcq-17": "「減害 reduce」與本句語境不同。",
-        "reduce-mcq-14": "「減少不確定性 uncertainty」與本句語境不同。",
-        "reduce-mcq-18": "「降低成本 money」與本句語境不同。",
-        "reduce-mcq-13": "「緩和緊張 tension」與本句語境不同。"
+        "reduce-mcq-16": "本句的「reduction」指「風險降低 risk management」。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-16"
     },
@@ -2766,11 +2650,9 @@ export default {
       "masked": "The programme follows a harm-____ approach.",
       "options": [
         "reduce-mcq-17",
-        "reduce-mcq-16",
-        "reduce-mcq-18",
-        "reduce-mcq-15",
-        "reduce-mcq-19",
-        "reduce-mcq-14"
+        "reduce-mcq-65",
+        "reduce-mcq-52",
+        "reduce-mcq-58"
       ],
       "explanation": "本句的「reduction」指「減害 reduce」。",
       "sentenceIndex": 35,
@@ -2779,12 +2661,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-17": "本句指「減害 reduce」。",
-        "reduce-mcq-16": "「風險降低 risk management」與本句語境不同。",
-        "reduce-mcq-18": "「降低成本 money」與本句語境不同。",
-        "reduce-mcq-15": "「降低風險 risk」與本句語境不同。",
-        "reduce-mcq-19": "「減少開支 expenditure」與本句語境不同。",
-        "reduce-mcq-14": "「減少不確定性 uncertainty」與本句語境不同。"
+        "reduce-mcq-17": "本句的「reduction」指「減害 reduce」。",
+        "reduce-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-17"
     },
@@ -2796,11 +2676,9 @@ export default {
       "masked": "Harm ____ focuses on reducing negative consequences.",
       "options": [
         "reduce-mcq-17",
-        "reduce-mcq-16",
-        "reduce-mcq-18",
-        "reduce-mcq-15",
-        "reduce-mcq-19",
-        "reduce-mcq-14"
+        "reduce-mcq-79",
+        "reduce-mcq-72",
+        "reduce-mcq-13"
       ],
       "explanation": "本句的「reduction」指「減害 reduce」。",
       "sentenceIndex": 36,
@@ -2809,12 +2687,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-17": "本句指「減害 reduce」。",
-        "reduce-mcq-16": "「風險降低 risk management」與本句語境不同。",
-        "reduce-mcq-18": "「降低成本 money」與本句語境不同。",
-        "reduce-mcq-15": "「降低風險 risk」與本句語境不同。",
-        "reduce-mcq-19": "「減少開支 expenditure」與本句語境不同。",
-        "reduce-mcq-14": "「減少不確定性 uncertainty」與本句語境不同。"
+        "reduce-mcq-17": "本句的「reduction」指「減害 reduce」。",
+        "reduce-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-17"
     },
@@ -2826,11 +2702,9 @@ export default {
       "masked": "Automation can ____ costs.",
       "options": [
         "reduce-mcq-18",
-        "reduce-mcq-17",
-        "reduce-mcq-19",
-        "reduce-mcq-16",
-        "reduce-mcq-20",
-        "reduce-mcq-15"
+        "reduce-mcq-82",
+        "reduce-pdf-plain-082",
+        "reduce-mcq-57"
       ],
       "explanation": "本句的「reduce」指「降低成本 money」。",
       "sentenceIndex": 37,
@@ -2839,12 +2713,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-18": "本句指「降低成本 money」。",
-        "reduce-mcq-17": "「減害 reduce」與本句語境不同。",
-        "reduce-mcq-19": "「減少開支 expenditure」與本句語境不同。",
-        "reduce-mcq-16": "「風險降低 risk management」與本句語境不同。",
-        "reduce-mcq-20": "「削減預算 budget」與本句語境不同。",
-        "reduce-mcq-15": "「降低風險 risk」與本句語境不同。"
+        "reduce-mcq-18": "本句的「reduce」指「降低成本 money」。",
+        "reduce-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-18"
     },
@@ -2856,11 +2728,9 @@ export default {
       "masked": "The company ____ operating costs.",
       "options": [
         "reduce-mcq-18",
-        "reduce-mcq-17",
-        "reduce-mcq-19",
-        "reduce-mcq-16",
-        "reduce-mcq-20",
-        "reduce-mcq-15"
+        "reduce-mcq-82",
+        "reduce-pdf-plain-101",
+        "reduce-mcq-57"
       ],
       "explanation": "本句的「reduced」指「降低成本 money」。",
       "sentenceIndex": 38,
@@ -2869,12 +2739,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-18": "本句指「降低成本 money」。",
-        "reduce-mcq-17": "「減害 reduce」與本句語境不同。",
-        "reduce-mcq-19": "「減少開支 expenditure」與本句語境不同。",
-        "reduce-mcq-16": "「風險降低 risk management」與本句語境不同。",
-        "reduce-mcq-20": "「削減預算 budget」與本句語境不同。",
-        "reduce-mcq-15": "「降低風險 risk」與本句語境不同。"
+        "reduce-mcq-18": "本句的「reduced」指「降低成本 money」。",
+        "reduce-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-101": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-18"
     },
@@ -2886,11 +2754,9 @@ export default {
       "masked": "Management plans to ____ spending.",
       "options": [
         "reduce-mcq-19",
-        "reduce-mcq-18",
-        "reduce-mcq-20",
-        "reduce-mcq-17",
-        "reduce-mcq-21",
-        "reduce-mcq-16"
+        "reduce-mcq-56",
+        "reduce-mcq-13",
+        "reduce-mcq-74"
       ],
       "explanation": "本句的「reduce」指「減少開支 expenditure」。",
       "sentenceIndex": 39,
@@ -2899,12 +2765,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-19": "本句指「減少開支 expenditure」。",
-        "reduce-mcq-18": "「降低成本 money」與本句語境不同。",
-        "reduce-mcq-20": "「削減預算 budget」與本句語境不同。",
-        "reduce-mcq-17": "「減害 reduce」與本句語境不同。",
-        "reduce-mcq-21": "「減債 debt」與本句語境不同。",
-        "reduce-mcq-16": "「風險降低 risk management」與本句語境不同。"
+        "reduce-mcq-19": "本句的「reduce」指「減少開支 expenditure」。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-19"
     },
@@ -2916,11 +2780,9 @@ export default {
       "masked": "The department was asked to ____ expenditure.",
       "options": [
         "reduce-mcq-19",
-        "reduce-mcq-18",
-        "reduce-mcq-20",
-        "reduce-mcq-17",
-        "reduce-mcq-21",
-        "reduce-mcq-16"
+        "reduce-mcq-71",
+        "reduce-mcq-57",
+        "reduce-mcq-52"
       ],
       "explanation": "本句的「reduce」指「減少開支 expenditure」。",
       "sentenceIndex": 40,
@@ -2929,12 +2791,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-19": "本句指「減少開支 expenditure」。",
-        "reduce-mcq-18": "「降低成本 money」與本句語境不同。",
-        "reduce-mcq-20": "「削減預算 budget」與本句語境不同。",
-        "reduce-mcq-17": "「減害 reduce」與本句語境不同。",
-        "reduce-mcq-21": "「減債 debt」與本句語境不同。",
-        "reduce-mcq-16": "「風險降低 risk management」與本句語境不同。"
+        "reduce-mcq-19": "本句的「reduce」指「減少開支 expenditure」。",
+        "reduce-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-19"
     },
@@ -2946,11 +2806,9 @@ export default {
       "masked": "The budget was ____ by ten percent.",
       "options": [
         "reduce-mcq-20",
-        "reduce-mcq-19",
-        "reduce-mcq-21",
-        "reduce-mcq-18",
-        "reduce-mcq-22",
-        "reduce-mcq-17"
+        "reduce-mcq-26",
+        "reduce-mcq-40",
+        "reduce-mcq-72"
       ],
       "explanation": "本句的「reduced」指「削減預算 budget」。",
       "sentenceIndex": 41,
@@ -2959,12 +2817,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-20": "本句指「削減預算 budget」。",
-        "reduce-mcq-19": "「減少開支 expenditure」與本句語境不同。",
-        "reduce-mcq-21": "「減債 debt」與本句語境不同。",
-        "reduce-mcq-18": "「降低成本 money」與本句語境不同。",
-        "reduce-mcq-22": "「成本削減 cost control」與本句語境不同。",
-        "reduce-mcq-17": "「減害 reduce」與本句語境不同。"
+        "reduce-mcq-20": "本句的「reduced」指「削減預算 budget」。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-20"
     },
@@ -2976,11 +2832,9 @@ export default {
       "masked": "Management ____ the department's budget.",
       "options": [
         "reduce-mcq-20",
-        "reduce-mcq-19",
-        "reduce-mcq-21",
-        "reduce-mcq-18",
-        "reduce-mcq-22",
-        "reduce-mcq-17"
+        "reduce-mcq-79",
+        "reduce-mcq-73",
+        "reduce-mcq-56"
       ],
       "explanation": "本句的「reduced」指「削減預算 budget」。",
       "sentenceIndex": 42,
@@ -2989,12 +2843,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-20": "本句指「削減預算 budget」。",
-        "reduce-mcq-19": "「減少開支 expenditure」與本句語境不同。",
-        "reduce-mcq-21": "「減債 debt」與本句語境不同。",
-        "reduce-mcq-18": "「降低成本 money」與本句語境不同。",
-        "reduce-mcq-22": "「成本削減 cost control」與本句語境不同。",
-        "reduce-mcq-17": "「減害 reduce」與本句語境不同。"
+        "reduce-mcq-20": "本句的「reduced」指「削減預算 budget」。",
+        "reduce-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-20"
     },
@@ -3006,11 +2858,9 @@ export default {
       "masked": "The company used profits to ____ debt.",
       "options": [
         "reduce-mcq-21",
-        "reduce-mcq-20",
-        "reduce-mcq-22",
-        "reduce-mcq-19",
-        "reduce-mcq-23",
-        "reduce-mcq-18"
+        "reduce-mcq-63",
+        "reduce-mcq-74",
+        "reduce-mcq-26"
       ],
       "explanation": "本句的「reduce」指「減債 debt」。",
       "sentenceIndex": 43,
@@ -3019,12 +2869,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-21": "本句指「減債 debt」。",
-        "reduce-mcq-20": "「削減預算 budget」與本句語境不同。",
-        "reduce-mcq-22": "「成本削減 cost control」與本句語境不同。",
-        "reduce-mcq-19": "「減少開支 expenditure」與本句語境不同。",
-        "reduce-mcq-23": "「降價 price」與本句語境不同。",
-        "reduce-mcq-18": "「降低成本 money」與本句語境不同。"
+        "reduce-mcq-21": "本句的「reduce」指「減債 debt」。",
+        "reduce-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-21"
     },
@@ -3036,11 +2884,9 @@ export default {
       "masked": "Households may cut spending to ____ debt.",
       "options": [
         "reduce-mcq-21",
-        "reduce-mcq-20",
-        "reduce-mcq-22",
-        "reduce-mcq-19",
-        "reduce-mcq-23",
-        "reduce-mcq-18"
+        "reduce-mcq-48",
+        "reduce-mcq-51",
+        "reduce-mcq-63"
       ],
       "explanation": "本句的「reduce」指「減債 debt」。",
       "sentenceIndex": 44,
@@ -3049,12 +2895,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-21": "本句指「減債 debt」。",
-        "reduce-mcq-20": "「削減預算 budget」與本句語境不同。",
-        "reduce-mcq-22": "「成本削減 cost control」與本句語境不同。",
-        "reduce-mcq-19": "「減少開支 expenditure」與本句語境不同。",
-        "reduce-mcq-23": "「降價 price」與本句語境不同。",
-        "reduce-mcq-18": "「降低成本 money」與本句語境不同。"
+        "reduce-mcq-21": "本句的「reduce」指「減債 debt」。",
+        "reduce-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-21"
     },
@@ -3066,11 +2910,9 @@ export default {
       "masked": "The company launched a cost-____ programme.",
       "options": [
         "reduce-mcq-22",
-        "reduce-mcq-21",
-        "reduce-mcq-23",
-        "reduce-mcq-20",
-        "reduce-mcq-24",
-        "reduce-mcq-19"
+        "reduce-mcq-72",
+        "reduce-mcq-27",
+        "reduce-mcq-76"
       ],
       "explanation": "本句的「reduction」指「成本削減 cost control」。",
       "sentenceIndex": 45,
@@ -3079,12 +2921,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-22": "本句指「成本削減 cost control」。",
-        "reduce-mcq-21": "「減債 debt」與本句語境不同。",
-        "reduce-mcq-23": "「降價 price」與本句語境不同。",
-        "reduce-mcq-20": "「削減預算 budget」與本句語境不同。",
-        "reduce-mcq-24": "「減價／優惠價 lower price」與本句語境不同。",
-        "reduce-mcq-19": "「減少開支 expenditure」與本句語境不同。"
+        "reduce-mcq-22": "本句的「reduction」指「成本削減 cost control」。",
+        "reduce-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-22"
     },
@@ -3096,11 +2936,9 @@ export default {
       "masked": "Cost ____ should not damage quality.",
       "options": [
         "reduce-mcq-22",
-        "reduce-mcq-21",
-        "reduce-mcq-23",
-        "reduce-mcq-20",
-        "reduce-mcq-24",
-        "reduce-mcq-19"
+        "reduce-mcq-72",
+        "reduce-mcq-40",
+        "reduce-mcq-76"
       ],
       "explanation": "本句的「reduction」指「成本削減 cost control」。",
       "sentenceIndex": 46,
@@ -3109,12 +2947,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-22": "本句指「成本削減 cost control」。",
-        "reduce-mcq-21": "「減債 debt」與本句語境不同。",
-        "reduce-mcq-23": "「降價 price」與本句語境不同。",
-        "reduce-mcq-20": "「削減預算 budget」與本句語境不同。",
-        "reduce-mcq-24": "「減價／優惠價 lower price」與本句語境不同。",
-        "reduce-mcq-19": "「減少開支 expenditure」與本句語境不同。"
+        "reduce-mcq-22": "本句的「reduction」指「成本削減 cost control」。",
+        "reduce-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-22"
     },
@@ -3126,11 +2962,9 @@ export default {
       "masked": "The shop ____ the price by 20%.",
       "options": [
         "reduce-mcq-23",
-        "reduce-mcq-22",
-        "reduce-mcq-24",
-        "reduce-mcq-21",
-        "reduce-mcq-25",
-        "reduce-mcq-20"
+        "reduce-mcq-14",
+        "reduce-pdf-plain-082",
+        "reduce-mcq-87"
       ],
       "explanation": "本句的「reduced」指「降價 price」。",
       "sentenceIndex": 47,
@@ -3139,12 +2973,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-23": "本句指「降價 price」。",
-        "reduce-mcq-22": "「成本削減 cost control」與本句語境不同。",
-        "reduce-mcq-24": "「減價／優惠價 lower price」與本句語境不同。",
-        "reduce-mcq-21": "「減債 debt」與本句語境不同。",
-        "reduce-mcq-25": "「優惠費率 lower rate」與本句語境不同。",
-        "reduce-mcq-20": "「削減預算 budget」與本句語境不同。"
+        "reduce-mcq-23": "本句的「reduced」指「降價 price」。",
+        "reduce-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-23"
     },
@@ -3156,11 +2988,9 @@ export default {
       "masked": "Prices were ____ after demand weakened.",
       "options": [
         "reduce-mcq-23",
-        "reduce-mcq-22",
-        "reduce-mcq-24",
-        "reduce-mcq-21",
-        "reduce-mcq-25",
-        "reduce-mcq-20"
+        "reduce-mcq-73",
+        "reduce-mcq-64",
+        "reduce-mcq-67"
       ],
       "explanation": "本句的「reduced」指「降價 price」。",
       "sentenceIndex": 48,
@@ -3169,12 +2999,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-23": "本句指「降價 price」。",
-        "reduce-mcq-22": "「成本削減 cost control」與本句語境不同。",
-        "reduce-mcq-24": "「減價／優惠價 lower price」與本句語境不同。",
-        "reduce-mcq-21": "「減債 debt」與本句語境不同。",
-        "reduce-mcq-25": "「優惠費率 lower rate」與本句語境不同。",
-        "reduce-mcq-20": "「削減預算 budget」與本句語境不同。"
+        "reduce-mcq-23": "本句的「reduced」指「降價 price」。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-23"
     },
@@ -3186,11 +3014,9 @@ export default {
       "masked": "The item is available at a ____ price.",
       "options": [
         "reduce-mcq-24",
-        "reduce-mcq-23",
-        "reduce-mcq-25",
-        "reduce-mcq-22",
-        "reduce-mcq-26",
-        "reduce-mcq-21"
+        "reduce-mcq-73",
+        "reduce-mcq-78",
+        "reduce-mcq-59"
       ],
       "explanation": "本句的「reduced」指「減價／優惠價 lower price」。",
       "sentenceIndex": 49,
@@ -3199,12 +3025,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-24": "本句指「減價／優惠價 lower price」。",
-        "reduce-mcq-23": "「降價 price」與本句語境不同。",
-        "reduce-mcq-25": "「優惠費率 lower rate」與本句語境不同。",
-        "reduce-mcq-22": "「成本削減 cost control」與本句語境不同。",
-        "reduce-mcq-26": "「優惠票價 transport」與本句語境不同。",
-        "reduce-mcq-21": "「減債 debt」與本句語境不同。"
+        "reduce-mcq-24": "本句的「reduced」指「減價／優惠價 lower price」。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-24"
     },
@@ -3216,11 +3040,9 @@ export default {
       "masked": "Students can buy tickets at ____ prices.",
       "options": [
         "reduce-mcq-24",
-        "reduce-mcq-23",
-        "reduce-mcq-25",
-        "reduce-mcq-22",
-        "reduce-mcq-26",
-        "reduce-mcq-21"
+        "reduce-mcq-07",
+        "reduce-mcq-72",
+        "reduce-mcq-87"
       ],
       "explanation": "本句的「reduced」指「減價／優惠價 lower price」。",
       "sentenceIndex": 50,
@@ -3229,12 +3051,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-24": "本句指「減價／優惠價 lower price」。",
-        "reduce-mcq-23": "「降價 price」與本句語境不同。",
-        "reduce-mcq-25": "「優惠費率 lower rate」與本句語境不同。",
-        "reduce-mcq-22": "「成本削減 cost control」與本句語境不同。",
-        "reduce-mcq-26": "「優惠票價 transport」與本句語境不同。",
-        "reduce-mcq-21": "「減債 debt」與本句語境不同。"
+        "reduce-mcq-24": "本句的「reduced」指「減價／優惠價 lower price」。",
+        "reduce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-24"
     },
@@ -3246,11 +3066,9 @@ export default {
       "masked": "Children pay a ____ rate.",
       "options": [
         "reduce-mcq-25",
-        "reduce-mcq-24",
-        "reduce-mcq-26",
-        "reduce-mcq-23",
-        "reduce-mcq-27",
-        "reduce-mcq-22"
+        "reduce-mcq-10",
+        "reduce-mcq-86",
+        "reduce-mcq-64"
       ],
       "explanation": "本句的「reduced」指「優惠費率 lower rate」。",
       "sentenceIndex": 51,
@@ -3259,12 +3077,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-25": "本句指「優惠費率 lower rate」。",
-        "reduce-mcq-24": "「減價／優惠價 lower price」與本句語境不同。",
-        "reduce-mcq-26": "「優惠票價 transport」與本句語境不同。",
-        "reduce-mcq-23": "「降價 price」與本句語境不同。",
-        "reduce-mcq-27": "「降低需求 demand」與本句語境不同。",
-        "reduce-mcq-22": "「成本削減 cost control」與本句語境不同。"
+        "reduce-mcq-25": "本句的「reduced」指「優惠費率 lower rate」。",
+        "reduce-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-25"
     },
@@ -3276,11 +3092,9 @@ export default {
       "masked": "Members receive a ____ rate.",
       "options": [
         "reduce-mcq-25",
-        "reduce-mcq-24",
-        "reduce-mcq-26",
-        "reduce-mcq-23",
-        "reduce-mcq-27",
-        "reduce-mcq-22"
+        "reduce-mcq-71",
+        "reduce-mcq-76",
+        "reduce-mcq-52"
       ],
       "explanation": "本句的「reduced」指「優惠費率 lower rate」。",
       "sentenceIndex": 52,
@@ -3289,12 +3103,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-25": "本句指「優惠費率 lower rate」。",
-        "reduce-mcq-24": "「減價／優惠價 lower price」與本句語境不同。",
-        "reduce-mcq-26": "「優惠票價 transport」與本句語境不同。",
-        "reduce-mcq-23": "「降價 price」與本句語境不同。",
-        "reduce-mcq-27": "「降低需求 demand」與本句語境不同。",
-        "reduce-mcq-22": "「成本削減 cost control」與本句語境不同。"
+        "reduce-mcq-25": "本句的「reduced」指「優惠費率 lower rate」。",
+        "reduce-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-25"
     },
@@ -3306,11 +3118,9 @@ export default {
       "masked": "Seniors may qualify for a ____ fare.",
       "options": [
         "reduce-mcq-26",
-        "reduce-mcq-25",
-        "reduce-mcq-27",
-        "reduce-mcq-24",
-        "reduce-mcq-28",
-        "reduce-mcq-23"
+        "reduce-mcq-51",
+        "reduce-mcq-42",
+        "reduce-mcq-71"
       ],
       "explanation": "本句的「reduced」指「優惠票價 transport」。",
       "sentenceIndex": 53,
@@ -3319,12 +3129,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-26": "本句指「優惠票價 transport」。",
-        "reduce-mcq-25": "「優惠費率 lower rate」與本句語境不同。",
-        "reduce-mcq-27": "「降低需求 demand」與本句語境不同。",
-        "reduce-mcq-24": "「減價／優惠價 lower price」與本句語境不同。",
-        "reduce-mcq-28": "「減少供應 supply」與本句語境不同。",
-        "reduce-mcq-23": "「降價 price」與本句語境不同。"
+        "reduce-mcq-26": "本句的「reduced」指「優惠票價 transport」。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-26"
     },
@@ -3336,11 +3144,9 @@ export default {
       "masked": "Students travel at ____ fares.",
       "options": [
         "reduce-mcq-26",
-        "reduce-mcq-25",
-        "reduce-mcq-27",
-        "reduce-mcq-24",
-        "reduce-mcq-28",
-        "reduce-mcq-23"
+        "reduce-mcq-71",
+        "reduce-mcq-48",
+        "reduce-mcq-86"
       ],
       "explanation": "本句的「reduced」指「優惠票價 transport」。",
       "sentenceIndex": 54,
@@ -3349,12 +3155,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-26": "本句指「優惠票價 transport」。",
-        "reduce-mcq-25": "「優惠費率 lower rate」與本句語境不同。",
-        "reduce-mcq-27": "「降低需求 demand」與本句語境不同。",
-        "reduce-mcq-24": "「減價／優惠價 lower price」與本句語境不同。",
-        "reduce-mcq-28": "「減少供應 supply」與本句語境不同。",
-        "reduce-mcq-23": "「降價 price」與本句語境不同。"
+        "reduce-mcq-26": "本句的「reduced」指「優惠票價 transport」。",
+        "reduce-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-86": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-26"
     },
@@ -3366,11 +3170,9 @@ export default {
       "masked": "Higher prices may ____ demand.",
       "options": [
         "reduce-mcq-27",
-        "reduce-mcq-26",
-        "reduce-mcq-28",
-        "reduce-mcq-25",
-        "reduce-mcq-29",
-        "reduce-mcq-24"
+        "reduce-mcq-21",
+        "reduce-mcq-57",
+        "reduce-mcq-25"
       ],
       "explanation": "本句的「reduce」指「降低需求 demand」。",
       "sentenceIndex": 57,
@@ -3379,12 +3181,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-27": "本句指「降低需求 demand」。",
-        "reduce-mcq-26": "「優惠票價 transport」與本句語境不同。",
-        "reduce-mcq-28": "「減少供應 supply」與本句語境不同。",
-        "reduce-mcq-25": "「優惠費率 lower rate」與本句語境不同。",
-        "reduce-mcq-29": "「減少消耗 consumption」與本句語境不同。",
-        "reduce-mcq-24": "「減價／優惠價 lower price」與本句語境不同。"
+        "reduce-mcq-27": "本句的「reduce」指「降低需求 demand」。",
+        "reduce-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-27"
     },
@@ -3396,11 +3196,9 @@ export default {
       "masked": "Remote work ____ demand for office space.",
       "options": [
         "reduce-mcq-27",
-        "reduce-mcq-26",
-        "reduce-mcq-28",
-        "reduce-mcq-25",
-        "reduce-mcq-29",
-        "reduce-mcq-24"
+        "reduce-mcq-33",
+        "reduce-mcq-76",
+        "reduce-mcq-56"
       ],
       "explanation": "本句的「reduced」指「降低需求 demand」。",
       "sentenceIndex": 58,
@@ -3409,12 +3207,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-27": "本句指「降低需求 demand」。",
-        "reduce-mcq-26": "「優惠票價 transport」與本句語境不同。",
-        "reduce-mcq-28": "「減少供應 supply」與本句語境不同。",
-        "reduce-mcq-25": "「優惠費率 lower rate」與本句語境不同。",
-        "reduce-mcq-29": "「減少消耗 consumption」與本句語境不同。",
-        "reduce-mcq-24": "「減價／優惠價 lower price」與本句語境不同。"
+        "reduce-mcq-27": "本句的「reduced」指「降低需求 demand」。",
+        "reduce-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-27"
     },
@@ -3426,11 +3222,9 @@ export default {
       "masked": "Bad weather ____ supply.",
       "options": [
         "reduce-mcq-28",
-        "reduce-mcq-27",
-        "reduce-mcq-29",
-        "reduce-mcq-26",
-        "reduce-mcq-30",
-        "reduce-mcq-25"
+        "reduce-mcq-59",
+        "reduce-mcq-52",
+        "reduce-mcq-13"
       ],
       "explanation": "本句的「reduced」指「減少供應 supply」。",
       "sentenceIndex": 59,
@@ -3439,12 +3233,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-28": "本句指「減少供應 supply」。",
-        "reduce-mcq-27": "「降低需求 demand」與本句語境不同。",
-        "reduce-mcq-29": "「減少消耗 consumption」與本句語境不同。",
-        "reduce-mcq-26": "「優惠票價 transport」與本句語境不同。",
-        "reduce-mcq-30": "「減少廢物 environment」與本句語境不同。",
-        "reduce-mcq-25": "「優惠費率 lower rate」與本句語境不同。"
+        "reduce-mcq-28": "本句的「reduced」指「減少供應 supply」。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-28"
     },
@@ -3456,11 +3248,9 @@ export default {
       "masked": "Production cuts ____ the supply of the product.",
       "options": [
         "reduce-mcq-28",
-        "reduce-mcq-27",
-        "reduce-mcq-29",
-        "reduce-mcq-26",
-        "reduce-mcq-30",
-        "reduce-mcq-25"
+        "reduce-mcq-66",
+        "reduce-mcq-77",
+        "reduce-mcq-35"
       ],
       "explanation": "本句的「reduced」指「減少供應 supply」。",
       "sentenceIndex": 60,
@@ -3469,12 +3259,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-28": "本句指「減少供應 supply」。",
-        "reduce-mcq-27": "「降低需求 demand」與本句語境不同。",
-        "reduce-mcq-29": "「減少消耗 consumption」與本句語境不同。",
-        "reduce-mcq-26": "「優惠票價 transport」與本句語境不同。",
-        "reduce-mcq-30": "「減少廢物 environment」與本句語境不同。",
-        "reduce-mcq-25": "「優惠費率 lower rate」與本句語境不同。"
+        "reduce-mcq-28": "本句的「reduced」指「減少供應 supply」。",
+        "reduce-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-28"
     },
@@ -3486,11 +3274,9 @@ export default {
       "masked": "The company wants to ____ energy consumption.",
       "options": [
         "reduce-mcq-29",
-        "reduce-mcq-28",
-        "reduce-mcq-30",
-        "reduce-mcq-27",
-        "reduce-mcq-31",
-        "reduce-mcq-26"
+        "reduce-mcq-87",
+        "reduce-mcq-60",
+        "reduce-mcq-73"
       ],
       "explanation": "本句的「reduce」指「減少消耗 consumption」。",
       "sentenceIndex": 61,
@@ -3499,12 +3285,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-29": "本句指「減少消耗 consumption」。",
-        "reduce-mcq-28": "「減少供應 supply」與本句語境不同。",
-        "reduce-mcq-30": "「減少廢物 environment」與本句語境不同。",
-        "reduce-mcq-27": "「降低需求 demand」與本句語境不同。",
-        "reduce-mcq-31": "「減廢 environment」與本句語境不同。",
-        "reduce-mcq-26": "「優惠票價 transport」與本句語境不同。"
+        "reduce-mcq-29": "本句的「reduce」指「減少消耗 consumption」。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-29"
     },
@@ -3516,11 +3300,9 @@ export default {
       "masked": "Higher prices may ____ consumption.",
       "options": [
         "reduce-mcq-29",
-        "reduce-mcq-28",
-        "reduce-mcq-30",
-        "reduce-mcq-27",
-        "reduce-mcq-31",
-        "reduce-mcq-26"
+        "reduce-mcq-58",
+        "reduce-mcq-25",
+        "reduce-mcq-13"
       ],
       "explanation": "本句的「reduce」指「減少消耗 consumption」。",
       "sentenceIndex": 62,
@@ -3529,12 +3311,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-29": "本句指「減少消耗 consumption」。",
-        "reduce-mcq-28": "「減少供應 supply」與本句語境不同。",
-        "reduce-mcq-30": "「減少廢物 environment」與本句語境不同。",
-        "reduce-mcq-27": "「降低需求 demand」與本句語境不同。",
-        "reduce-mcq-31": "「減廢 environment」與本句語境不同。",
-        "reduce-mcq-26": "「優惠票價 transport」與本句語境不同。"
+        "reduce-mcq-29": "本句的「reduce」指「減少消耗 consumption」。",
+        "reduce-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-29"
     },
@@ -3546,11 +3326,9 @@ export default {
       "masked": "Reusable containers help ____ waste.",
       "options": [
         "reduce-mcq-30",
-        "reduce-mcq-29",
-        "reduce-mcq-31",
-        "reduce-mcq-28",
-        "reduce-mcq-32",
-        "reduce-mcq-27"
+        "reduce-mcq-59",
+        "reduce-mcq-87",
+        "reduce-mcq-71"
       ],
       "explanation": "本句的「reduce」指「減少廢物 environment」。",
       "sentenceIndex": 65,
@@ -3559,12 +3337,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-30": "本句指「減少廢物 environment」。",
-        "reduce-mcq-29": "「減少消耗 consumption」與本句語境不同。",
-        "reduce-mcq-31": "「減廢 environment」與本句語境不同。",
-        "reduce-mcq-28": "「減少供應 supply」與本句語境不同。",
-        "reduce-mcq-32": "「減少污染 environment」與本句語境不同。",
-        "reduce-mcq-27": "「降低需求 demand」與本句語境不同。"
+        "reduce-mcq-30": "本句的「reduce」指「減少廢物 environment」。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-30"
     },
@@ -3576,11 +3352,9 @@ export default {
       "masked": "The factory introduced measures to ____ production waste.",
       "options": [
         "reduce-mcq-30",
-        "reduce-mcq-29",
-        "reduce-mcq-31",
-        "reduce-mcq-28",
-        "reduce-mcq-32",
-        "reduce-mcq-27"
+        "reduce-mcq-86",
+        "reduce-mcq-77",
+        "reduce-mcq-73"
       ],
       "explanation": "本句的「reduce」指「減少廢物 environment」。",
       "sentenceIndex": 66,
@@ -3589,12 +3363,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-30": "本句指「減少廢物 environment」。",
-        "reduce-mcq-29": "「減少消耗 consumption」與本句語境不同。",
-        "reduce-mcq-31": "「減廢 environment」與本句語境不同。",
-        "reduce-mcq-28": "「減少供應 supply」與本句語境不同。",
-        "reduce-mcq-32": "「減少污染 environment」與本句語境不同。",
-        "reduce-mcq-27": "「降低需求 demand」與本句語境不同。"
+        "reduce-mcq-30": "本句的「reduce」指「減少廢物 environment」。",
+        "reduce-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-30"
     },
@@ -3606,11 +3378,9 @@ export default {
       "masked": "Waste ____ is part of the sustainability strategy.",
       "options": [
         "reduce-mcq-31",
-        "reduce-mcq-30",
-        "reduce-mcq-32",
-        "reduce-mcq-29",
-        "reduce-mcq-33",
-        "reduce-mcq-28"
+        "reduce-mcq-08",
+        "reduce-mcq-26",
+        "reduce-mcq-56"
       ],
       "explanation": "本句的「reduction」指「減廢 environment」。",
       "sentenceIndex": 67,
@@ -3619,12 +3389,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-31": "本句指「減廢 environment」。",
-        "reduce-mcq-30": "「減少廢物 environment」與本句語境不同。",
-        "reduce-mcq-32": "「減少污染 environment」與本句語境不同。",
-        "reduce-mcq-29": "「減少消耗 consumption」與本句語境不同。",
-        "reduce-mcq-33": "「減排 environment」與本句語境不同。",
-        "reduce-mcq-28": "「減少供應 supply」與本句語境不同。"
+        "reduce-mcq-31": "本句的「reduction」指「減廢 environment」。",
+        "reduce-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-31"
     },
@@ -3636,11 +3404,9 @@ export default {
       "masked": "The programme sets waste-____ targets.",
       "options": [
         "reduce-mcq-31",
-        "reduce-mcq-30",
-        "reduce-mcq-32",
-        "reduce-mcq-29",
-        "reduce-mcq-33",
-        "reduce-mcq-28"
+        "reduce-mcq-48",
+        "reduce-mcq-58",
+        "reduce-pdf-plain-082"
       ],
       "explanation": "本句的「reduction」指「減廢 environment」。",
       "sentenceIndex": 68,
@@ -3649,12 +3415,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-31": "本句指「減廢 environment」。",
-        "reduce-mcq-30": "「減少廢物 environment」與本句語境不同。",
-        "reduce-mcq-32": "「減少污染 environment」與本句語境不同。",
-        "reduce-mcq-29": "「減少消耗 consumption」與本句語境不同。",
-        "reduce-mcq-33": "「減排 environment」與本句語境不同。",
-        "reduce-mcq-28": "「減少供應 supply」與本句語境不同。"
+        "reduce-mcq-31": "本句的「reduction」指「減廢 environment」。",
+        "reduce-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-31"
     },
@@ -3666,11 +3430,9 @@ export default {
       "masked": "Public transport can help ____ pollution.",
       "options": [
         "reduce-mcq-32",
-        "reduce-mcq-31",
-        "reduce-mcq-33",
-        "reduce-mcq-30",
-        "reduce-mcq-34",
-        "reduce-mcq-29"
+        "reduce-mcq-59",
+        "reduce-mcq-71",
+        "reduce-pdf-plain-082"
       ],
       "explanation": "本句的「reduce」指「減少污染 environment」。",
       "sentenceIndex": 69,
@@ -3679,12 +3441,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-32": "本句指「減少污染 environment」。",
-        "reduce-mcq-31": "「減廢 environment」與本句語境不同。",
-        "reduce-mcq-33": "「減排 environment」與本句語境不同。",
-        "reduce-mcq-30": "「減少廢物 environment」與本句語境不同。",
-        "reduce-mcq-34": "「減少人手 staffing」與本句語境不同。",
-        "reduce-mcq-29": "「減少消耗 consumption」與本句語境不同。"
+        "reduce-mcq-32": "本句的「reduce」指「減少污染 environment」。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-32"
     },
@@ -3696,11 +3456,9 @@ export default {
       "masked": "New rules aim to ____ air pollution.",
       "options": [
         "reduce-mcq-32",
-        "reduce-mcq-31",
-        "reduce-mcq-33",
-        "reduce-mcq-30",
-        "reduce-mcq-34",
-        "reduce-mcq-29"
+        "reduce-mcq-74",
+        "reduce-mcq-71",
+        "reduce-pdf-plain-082"
       ],
       "explanation": "本句的「reduce」指「減少污染 environment」。",
       "sentenceIndex": 70,
@@ -3709,12 +3467,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-32": "本句指「減少污染 environment」。",
-        "reduce-mcq-31": "「減廢 environment」與本句語境不同。",
-        "reduce-mcq-33": "「減排 environment」與本句語境不同。",
-        "reduce-mcq-30": "「減少廢物 environment」與本句語境不同。",
-        "reduce-mcq-34": "「減少人手 staffing」與本句語境不同。",
-        "reduce-mcq-29": "「減少消耗 consumption」與本句語境不同。"
+        "reduce-mcq-32": "本句的「reduce」指「減少污染 environment」。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-32"
     },
@@ -3726,11 +3482,9 @@ export default {
       "masked": "The company aims to ____ emissions.",
       "options": [
         "reduce-mcq-33",
-        "reduce-mcq-32",
-        "reduce-mcq-34",
-        "reduce-mcq-31",
-        "reduce-mcq-35",
-        "reduce-mcq-30"
+        "reduce-mcq-59",
+        "reduce-mcq-13",
+        "reduce-mcq-87"
       ],
       "explanation": "本句的「reduce」指「減排 environment」。",
       "sentenceIndex": 71,
@@ -3739,12 +3493,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-33": "本句指「減排 environment」。",
-        "reduce-mcq-32": "「減少污染 environment」與本句語境不同。",
-        "reduce-mcq-34": "「減少人手 staffing」與本句語境不同。",
-        "reduce-mcq-31": "「減廢 environment」與本句語境不同。",
-        "reduce-mcq-35": "「縮短工時 work」與本句語境不同。",
-        "reduce-mcq-30": "「減少廢物 environment」與本句語境不同。"
+        "reduce-mcq-33": "本句的「reduce」指「減排 environment」。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-33"
     },
@@ -3756,11 +3508,9 @@ export default {
       "masked": "Cleaner technology can ____ carbon emissions.",
       "options": [
         "reduce-mcq-33",
-        "reduce-mcq-32",
-        "reduce-mcq-34",
-        "reduce-mcq-31",
-        "reduce-mcq-35",
-        "reduce-mcq-30"
+        "reduce-mcq-77",
+        "reduce-mcq-65",
+        "reduce-mcq-86"
       ],
       "explanation": "本句的「reduce」指「減排 environment」。",
       "sentenceIndex": 72,
@@ -3769,12 +3519,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-33": "本句指「減排 environment」。",
-        "reduce-mcq-32": "「減少污染 environment」與本句語境不同。",
-        "reduce-mcq-34": "「減少人手 staffing」與本句語境不同。",
-        "reduce-mcq-31": "「減廢 environment」與本句語境不同。",
-        "reduce-mcq-35": "「縮短工時 work」與本句語境不同。",
-        "reduce-mcq-30": "「減少廢物 environment」與本句語境不同。"
+        "reduce-mcq-33": "本句的「reduce」指「減排 environment」。",
+        "reduce-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-86": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-33"
     },
@@ -3786,11 +3534,9 @@ export default {
       "masked": "The plan includes an emissions-____ target.",
       "options": [
         "reduce-mcq-33",
-        "reduce-mcq-32",
-        "reduce-mcq-34",
-        "reduce-mcq-31",
-        "reduce-mcq-35",
-        "reduce-mcq-30"
+        "reduce-mcq-16",
+        "reduce-mcq-86",
+        "reduce-mcq-51"
       ],
       "explanation": "本句的「reduction」指「減排 environment」。",
       "sentenceIndex": 73,
@@ -3799,12 +3545,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-33": "本句指「減排 environment」。",
-        "reduce-mcq-32": "「減少污染 environment」與本句語境不同。",
-        "reduce-mcq-34": "「減少人手 staffing」與本句語境不同。",
-        "reduce-mcq-31": "「減廢 environment」與本句語境不同。",
-        "reduce-mcq-35": "「縮短工時 work」與本句語境不同。",
-        "reduce-mcq-30": "「減少廢物 environment」與本句語境不同。"
+        "reduce-mcq-33": "本句的「reduction」指「減排 environment」。",
+        "reduce-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-33"
     },
@@ -3816,11 +3560,9 @@ export default {
       "masked": "Emissions ____ were larger than expected.",
       "options": [
         "reduce-mcq-33",
-        "reduce-mcq-32",
-        "reduce-mcq-34",
-        "reduce-mcq-31",
-        "reduce-mcq-35",
-        "reduce-mcq-30"
+        "reduce-mcq-60",
+        "reduce-mcq-75",
+        "reduce-mcq-73"
       ],
       "explanation": "本句的「reductions」指「減排 environment」。",
       "sentenceIndex": 74,
@@ -3829,12 +3571,10 @@ export default {
         "reductions"
       ],
       "optionReasons": {
-        "reduce-mcq-33": "本句指「減排 environment」。",
-        "reduce-mcq-32": "「減少污染 environment」與本句語境不同。",
-        "reduce-mcq-34": "「減少人手 staffing」與本句語境不同。",
-        "reduce-mcq-31": "「減廢 environment」與本句語境不同。",
-        "reduce-mcq-35": "「縮短工時 work」與本句語境不同。",
-        "reduce-mcq-30": "「減少廢物 environment」與本句語境不同。"
+        "reduce-mcq-33": "本句的「reductions」指「減排 environment」。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-33"
     },
@@ -3846,11 +3586,9 @@ export default {
       "masked": "The factory ____ production capacity.",
       "options": [
         "reduce-mcq-77",
-        "reduce-mcq-76",
-        "reduce-mcq-78",
-        "reduce-mcq-75",
-        "reduce-mcq-79",
-        "reduce-mcq-74"
+        "reduce-mcq-26",
+        "reduce-mcq-72",
+        "reduce-mcq-30"
       ],
       "explanation": "本句的「reduced」指「較低產能／容量 lower capacity」。",
       "sentenceIndex": 81,
@@ -3859,12 +3597,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-77": "本句指「較低產能／容量 lower capacity」。",
-        "reduce-mcq-76": "「經濟狀況大不如前 fixed expression」與本句語境不同。",
-        "reduce-mcq-78": "「能見度降低 visibility」與本句語境不同。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
-        "reduce-mcq-79": "「行動能力下降 mobility」與本句語境不同。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。"
+        "reduce-mcq-77": "本句的「reduced」指「較低產能／容量 lower capacity」。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-77"
     },
@@ -3876,11 +3612,9 @@ export default {
       "masked": "Maintenance temporarily ____ system capacity.",
       "options": [
         "reduce-mcq-77",
-        "reduce-mcq-76",
-        "reduce-mcq-78",
-        "reduce-mcq-75",
-        "reduce-mcq-79",
-        "reduce-mcq-74"
+        "reduce-mcq-24",
+        "reduce-mcq-58",
+        "reduce-mcq-13"
       ],
       "explanation": "本句的「reduced」指「較低產能／容量 lower capacity」。",
       "sentenceIndex": 82,
@@ -3889,12 +3623,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-77": "本句指「較低產能／容量 lower capacity」。",
-        "reduce-mcq-76": "「經濟狀況大不如前 fixed expression」與本句語境不同。",
-        "reduce-mcq-78": "「能見度降低 visibility」與本句語境不同。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
-        "reduce-mcq-79": "「行動能力下降 mobility」與本句語境不同。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。"
+        "reduce-mcq-77": "本句的「reduced」指「較低產能／容量 lower capacity」。",
+        "reduce-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-77"
     },
@@ -3906,11 +3638,9 @@ export default {
       "masked": "She returned to work on ____ hours.",
       "options": [
         "reduce-mcq-35",
-        "reduce-mcq-34",
-        "reduce-mcq-36",
-        "reduce-mcq-33",
-        "reduce-mcq-37",
-        "reduce-mcq-32"
+        "reduce-mcq-66",
+        "reduce-mcq-87",
+        "reduce-mcq-42"
       ],
       "explanation": "本句的「reduced」指「縮短工時 work」。",
       "sentenceIndex": 83,
@@ -3919,12 +3649,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-35": "本句指「縮短工時 work」。",
-        "reduce-mcq-34": "「減少人手 staffing」與本句語境不同。",
-        "reduce-mcq-36": "「減少不平等 society」與本句語境不同。",
-        "reduce-mcq-33": "「減排 environment」與本句語境不同。",
-        "reduce-mcq-37": "「減貧 society」與本句語境不同。",
-        "reduce-mcq-32": "「減少污染 environment」與本句語境不同。"
+        "reduce-mcq-35": "本句的「reduced」指「縮短工時 work」。",
+        "reduce-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-35"
     },
@@ -3936,11 +3664,9 @@ export default {
       "masked": "The company introduced ____ working hours.",
       "options": [
         "reduce-mcq-35",
-        "reduce-mcq-34",
         "reduce-mcq-36",
-        "reduce-mcq-33",
-        "reduce-mcq-37",
-        "reduce-mcq-32"
+        "reduce-mcq-71",
+        "reduce-mcq-22"
       ],
       "explanation": "本句的「reduced」指「縮短工時 work」。",
       "sentenceIndex": 84,
@@ -3949,12 +3675,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-35": "本句指「縮短工時 work」。",
-        "reduce-mcq-34": "「減少人手 staffing」與本句語境不同。",
-        "reduce-mcq-36": "「減少不平等 society」與本句語境不同。",
-        "reduce-mcq-33": "「減排 environment」與本句語境不同。",
-        "reduce-mcq-37": "「減貧 society」與本句語境不同。",
-        "reduce-mcq-32": "「減少污染 environment」與本句語境不同。"
+        "reduce-mcq-35": "本句的「reduced」指「縮短工時 work」。",
+        "reduce-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-35"
     },
@@ -3966,11 +3690,9 @@ export default {
       "masked": "The programme aims to ____ inequality.",
       "options": [
         "reduce-mcq-36",
-        "reduce-mcq-35",
-        "reduce-mcq-37",
-        "reduce-mcq-34",
-        "reduce-mcq-38",
-        "reduce-mcq-33"
+        "reduce-mcq-73",
+        "reduce-mcq-86",
+        "reduce-mcq-65"
       ],
       "explanation": "本句的「reduce」指「減少不平等 society」。",
       "sentenceIndex": 85,
@@ -3979,12 +3701,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-36": "本句指「減少不平等 society」。",
-        "reduce-mcq-35": "「縮短工時 work」與本句語境不同。",
-        "reduce-mcq-37": "「減貧 society」與本句語境不同。",
-        "reduce-mcq-34": "「減少人手 staffing」與本句語境不同。",
-        "reduce-mcq-38": "「降低失業 economy」與本句語境不同。",
-        "reduce-mcq-33": "「減排 environment」與本句語境不同。"
+        "reduce-mcq-36": "本句的「reduce」指「減少不平等 society」。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-36"
     },
@@ -3996,11 +3716,9 @@ export default {
       "masked": "Better access to education may ____ inequality.",
       "options": [
         "reduce-mcq-36",
-        "reduce-mcq-35",
-        "reduce-mcq-37",
-        "reduce-mcq-34",
-        "reduce-mcq-38",
-        "reduce-mcq-33"
+        "reduce-mcq-26",
+        "reduce-mcq-87",
+        "reduce-mcq-51"
       ],
       "explanation": "本句的「reduce」指「減少不平等 society」。",
       "sentenceIndex": 86,
@@ -4009,12 +3727,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-36": "本句指「減少不平等 society」。",
-        "reduce-mcq-35": "「縮短工時 work」與本句語境不同。",
-        "reduce-mcq-37": "「減貧 society」與本句語境不同。",
-        "reduce-mcq-34": "「減少人手 staffing」與本句語境不同。",
-        "reduce-mcq-38": "「降低失業 economy」與本句語境不同。",
-        "reduce-mcq-33": "「減排 environment」與本句語境不同。"
+        "reduce-mcq-36": "本句的「reduce」指「減少不平等 society」。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-36"
     },
@@ -4026,11 +3742,9 @@ export default {
       "masked": "Economic growth alone may not ____ poverty.",
       "options": [
         "reduce-mcq-37",
-        "reduce-mcq-36",
-        "reduce-mcq-38",
-        "reduce-mcq-35",
-        "reduce-mcq-39",
-        "reduce-mcq-34"
+        "reduce-mcq-63",
+        "reduce-pdf-plain-082",
+        "reduce-mcq-66"
       ],
       "explanation": "本句的「reduce」指「減貧 society」。",
       "sentenceIndex": 87,
@@ -4039,12 +3753,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-37": "本句指「減貧 society」。",
-        "reduce-mcq-36": "「減少不平等 society」與本句語境不同。",
-        "reduce-mcq-38": "「降低失業 economy」與本句語境不同。",
-        "reduce-mcq-35": "「縮短工時 work」與本句語境不同。",
-        "reduce-mcq-39": "「減少罪案 society」與本句語境不同。",
-        "reduce-mcq-34": "「減少人手 staffing」與本句語境不同。"
+        "reduce-mcq-37": "本句的「reduce」指「減貧 society」。",
+        "reduce-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-37"
     },
@@ -4056,11 +3768,9 @@ export default {
       "masked": "The programme was introduced to ____ child poverty.",
       "options": [
         "reduce-mcq-37",
-        "reduce-mcq-36",
-        "reduce-mcq-38",
-        "reduce-mcq-35",
-        "reduce-mcq-39",
-        "reduce-mcq-34"
+        "reduce-mcq-27",
+        "reduce-mcq-52",
+        "reduce-mcq-35"
       ],
       "explanation": "本句的「reduce」指「減貧 society」。",
       "sentenceIndex": 88,
@@ -4069,12 +3779,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-37": "本句指「減貧 society」。",
-        "reduce-mcq-36": "「減少不平等 society」與本句語境不同。",
-        "reduce-mcq-38": "「降低失業 economy」與本句語境不同。",
-        "reduce-mcq-35": "「縮短工時 work」與本句語境不同。",
-        "reduce-mcq-39": "「減少罪案 society」與本句語境不同。",
-        "reduce-mcq-34": "「減少人手 staffing」與本句語境不同。"
+        "reduce-mcq-37": "本句的「reduce」指「減貧 society」。",
+        "reduce-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-37"
     },
@@ -4086,11 +3794,9 @@ export default {
       "masked": "Investment may help ____ unemployment.",
       "options": [
         "reduce-mcq-38",
-        "reduce-mcq-37",
-        "reduce-mcq-39",
-        "reduce-mcq-36",
-        "reduce-mcq-40",
-        "reduce-mcq-35"
+        "reduce-mcq-56",
+        "reduce-mcq-13",
+        "reduce-mcq-82"
       ],
       "explanation": "本句的「reduce」指「降低失業 economy」。",
       "sentenceIndex": 89,
@@ -4099,12 +3805,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-38": "本句指「降低失業 economy」。",
-        "reduce-mcq-37": "「減貧 society」與本句語境不同。",
-        "reduce-mcq-39": "「減少罪案 society」與本句語境不同。",
-        "reduce-mcq-36": "「減少不平等 society」與本句語境不同。",
-        "reduce-mcq-40": "「降低血壓 medical」與本句語境不同。",
-        "reduce-mcq-35": "「縮短工時 work」與本句語境不同。"
+        "reduce-mcq-38": "本句的「reduce」指「降低失業 economy」。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-82": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-38"
     },
@@ -4116,11 +3820,9 @@ export default {
       "masked": "The policy aims to ____ youth unemployment.",
       "options": [
         "reduce-mcq-38",
-        "reduce-mcq-37",
-        "reduce-mcq-39",
-        "reduce-mcq-36",
-        "reduce-mcq-40",
-        "reduce-mcq-35"
+        "reduce-pdf-plain-083",
+        "reduce-mcq-60",
+        "reduce-mcq-72"
       ],
       "explanation": "本句的「reduce」指「降低失業 economy」。",
       "sentenceIndex": 90,
@@ -4129,12 +3831,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-38": "本句指「降低失業 economy」。",
-        "reduce-mcq-37": "「減貧 society」與本句語境不同。",
-        "reduce-mcq-39": "「減少罪案 society」與本句語境不同。",
-        "reduce-mcq-36": "「減少不平等 society」與本句語境不同。",
-        "reduce-mcq-40": "「降低血壓 medical」與本句語境不同。",
-        "reduce-mcq-35": "「縮短工時 work」與本句語境不同。"
+        "reduce-mcq-38": "本句的「reduce」指「降低失業 economy」。",
+        "reduce-pdf-plain-083": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-38"
     },
@@ -4146,11 +3846,9 @@ export default {
       "masked": "Better lighting may help ____ crime.",
       "options": [
         "reduce-mcq-39",
-        "reduce-mcq-38",
-        "reduce-mcq-40",
-        "reduce-mcq-37",
-        "reduce-mcq-41",
-        "reduce-mcq-36"
+        "reduce-mcq-77",
+        "reduce-mcq-35",
+        "reduce-mcq-23"
       ],
       "explanation": "本句的「reduce」指「減少罪案 society」。",
       "sentenceIndex": 91,
@@ -4159,12 +3857,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-39": "本句指「減少罪案 society」。",
-        "reduce-mcq-38": "「降低失業 economy」與本句語境不同。",
-        "reduce-mcq-40": "「降低血壓 medical」與本句語境不同。",
-        "reduce-mcq-37": "「減貧 society」與本句語境不同。",
-        "reduce-mcq-41": "「減輕腫脹 medical」與本句語境不同。",
-        "reduce-mcq-36": "「減少不平等 society」與本句語境不同。"
+        "reduce-mcq-39": "本句的「reduce」指「減少罪案 society」。",
+        "reduce-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-39"
     },
@@ -4176,11 +3872,9 @@ export default {
       "masked": "The programme aims to ____ violent crime.",
       "options": [
         "reduce-mcq-39",
-        "reduce-mcq-38",
-        "reduce-mcq-40",
-        "reduce-mcq-37",
-        "reduce-mcq-41",
-        "reduce-mcq-36"
+        "reduce-mcq-56",
+        "reduce-mcq-74",
+        "reduce-mcq-60"
       ],
       "explanation": "本句的「reduce」指「減少罪案 society」。",
       "sentenceIndex": 92,
@@ -4189,12 +3883,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-39": "本句指「減少罪案 society」。",
-        "reduce-mcq-38": "「降低失業 economy」與本句語境不同。",
-        "reduce-mcq-40": "「降低血壓 medical」與本句語境不同。",
-        "reduce-mcq-37": "「減貧 society」與本句語境不同。",
-        "reduce-mcq-41": "「減輕腫脹 medical」與本句語境不同。",
-        "reduce-mcq-36": "「減少不平等 society」與本句語境不同。"
+        "reduce-mcq-39": "本句的「reduce」指「減少罪案 society」。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-39"
     },
@@ -4206,11 +3898,9 @@ export default {
       "masked": "Exercise can help ____ blood pressure.",
       "options": [
         "reduce-mcq-40",
-        "reduce-mcq-39",
-        "reduce-mcq-41",
-        "reduce-mcq-38",
-        "reduce-mcq-42",
-        "reduce-mcq-37"
+        "reduce-mcq-22",
+        "reduce-mcq-59",
+        "reduce-mcq-73"
       ],
       "explanation": "本句的「reduce」指「降低血壓 medical」。",
       "sentenceIndex": 93,
@@ -4219,12 +3909,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-40": "本句指「降低血壓 medical」。",
-        "reduce-mcq-39": "「減少罪案 society」與本句語境不同。",
-        "reduce-mcq-41": "「減輕腫脹 medical」與本句語境不同。",
-        "reduce-mcq-38": "「降低失業 economy」與本句語境不同。",
-        "reduce-mcq-42": "「減輕症狀 medical」與本句語境不同。",
-        "reduce-mcq-37": "「減貧 society」與本句語境不同。"
+        "reduce-mcq-40": "本句的「reduce」指「降低血壓 medical」。",
+        "reduce-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-40"
     },
@@ -4236,11 +3924,9 @@ export default {
       "masked": "The medicine ____ her blood pressure.",
       "options": [
         "reduce-mcq-40",
-        "reduce-mcq-39",
-        "reduce-mcq-41",
-        "reduce-mcq-38",
-        "reduce-mcq-42",
-        "reduce-mcq-37"
+        "reduce-mcq-26",
+        "reduce-mcq-60",
+        "reduce-mcq-57"
       ],
       "explanation": "本句的「reduced」指「降低血壓 medical」。",
       "sentenceIndex": 94,
@@ -4249,12 +3935,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-40": "本句指「降低血壓 medical」。",
-        "reduce-mcq-39": "「減少罪案 society」與本句語境不同。",
-        "reduce-mcq-41": "「減輕腫脹 medical」與本句語境不同。",
-        "reduce-mcq-38": "「降低失業 economy」與本句語境不同。",
-        "reduce-mcq-42": "「減輕症狀 medical」與本句語境不同。",
-        "reduce-mcq-37": "「減貧 society」與本句語境不同。"
+        "reduce-mcq-40": "本句的「reduced」指「降低血壓 medical」。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-40"
     },
@@ -4266,11 +3950,9 @@ export default {
       "masked": "Ice may ____ swelling.",
       "options": [
         "reduce-mcq-41",
-        "reduce-mcq-40",
-        "reduce-mcq-42",
-        "reduce-mcq-39",
-        "reduce-mcq-43",
-        "reduce-mcq-38"
+        "reduce-mcq-25",
+        "reduce-mcq-66",
+        "reduce-mcq-52"
       ],
       "explanation": "本句的「reduce」指「減輕腫脹 medical」。",
       "sentenceIndex": 97,
@@ -4279,12 +3961,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-41": "本句指「減輕腫脹 medical」。",
-        "reduce-mcq-40": "「降低血壓 medical」與本句語境不同。",
-        "reduce-mcq-42": "「減輕症狀 medical」與本句語境不同。",
-        "reduce-mcq-39": "「減少罪案 society」與本句語境不同。",
-        "reduce-mcq-43": "「減少了 X amount of change」與本句語境不同。",
-        "reduce-mcq-38": "「降低失業 economy」與本句語境不同。"
+        "reduce-mcq-41": "本句的「reduce」指「減輕腫脹 medical」。",
+        "reduce-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-41"
     },
@@ -4296,11 +3976,9 @@ export default {
       "masked": "The drug helps ____ inflammation.",
       "options": [
         "reduce-mcq-41",
-        "reduce-mcq-40",
-        "reduce-mcq-42",
-        "reduce-mcq-39",
-        "reduce-mcq-43",
-        "reduce-mcq-38"
+        "reduce-mcq-26",
+        "reduce-pdf-plain-083",
+        "reduce-mcq-76"
       ],
       "explanation": "本句的「reduce」指「減輕腫脹 medical」。",
       "sentenceIndex": 98,
@@ -4309,12 +3987,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-41": "本句指「減輕腫脹 medical」。",
-        "reduce-mcq-40": "「降低血壓 medical」與本句語境不同。",
-        "reduce-mcq-42": "「減輕症狀 medical」與本句語境不同。",
-        "reduce-mcq-39": "「減少罪案 society」與本句語境不同。",
-        "reduce-mcq-43": "「減少了 X amount of change」與本句語境不同。",
-        "reduce-mcq-38": "「降低失業 economy」與本句語境不同。"
+        "reduce-mcq-41": "本句的「reduce」指「減輕腫脹 medical」。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-083": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-41"
     },
@@ -4326,11 +4002,9 @@ export default {
       "masked": "The treatment can ____ symptoms.",
       "options": [
         "reduce-mcq-42",
-        "reduce-mcq-41",
-        "reduce-mcq-43",
-        "reduce-mcq-40",
-        "reduce-mcq-44",
-        "reduce-mcq-39"
+        "reduce-mcq-72",
+        "reduce-mcq-86",
+        "reduce-mcq-58"
       ],
       "explanation": "本句的「reduce」指「減輕症狀 medical」。",
       "sentenceIndex": 99,
@@ -4339,12 +4013,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-42": "本句指「減輕症狀 medical」。",
-        "reduce-mcq-41": "「減輕腫脹 medical」與本句語境不同。",
-        "reduce-mcq-43": "「減少了 X amount of change」與本句語境不同。",
-        "reduce-mcq-40": "「降低血壓 medical」與本句語境不同。",
-        "reduce-mcq-44": "「減至 X final level」與本句語境不同。",
-        "reduce-mcq-39": "「減少罪案 society」與本句語境不同。"
+        "reduce-mcq-42": "本句的「reduce」指「減輕症狀 medical」。",
+        "reduce-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-42"
     },
@@ -4356,11 +4028,9 @@ export default {
       "masked": "Rest may ____ the severity of symptoms.",
       "options": [
         "reduce-mcq-42",
-        "reduce-mcq-41",
-        "reduce-mcq-43",
-        "reduce-mcq-40",
-        "reduce-mcq-44",
-        "reduce-mcq-39"
+        "reduce-mcq-59",
+        "reduce-mcq-23",
+        "reduce-mcq-77"
       ],
       "explanation": "本句的「reduce」指「減輕症狀 medical」。",
       "sentenceIndex": 100,
@@ -4369,12 +4039,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-42": "本句指「減輕症狀 medical」。",
-        "reduce-mcq-41": "「減輕腫脹 medical」與本句語境不同。",
-        "reduce-mcq-43": "「減少了 X amount of change」與本句語境不同。",
-        "reduce-mcq-40": "「降低血壓 medical」與本句語境不同。",
-        "reduce-mcq-44": "「減至 X final level」與本句語境不同。",
-        "reduce-mcq-39": "「減少罪案 society」與本句語境不同。"
+        "reduce-mcq-42": "本句的「reduce」指「減輕症狀 medical」。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-42"
     },
@@ -4386,11 +4054,9 @@ export default {
       "masked": "Costs were ____ by 20%.",
       "options": [
         "reduce-mcq-43",
-        "reduce-mcq-42",
-        "reduce-mcq-44",
-        "reduce-mcq-41",
-        "reduce-mcq-45",
-        "reduce-mcq-40"
+        "reduce-mcq-86",
+        "reduce-mcq-13",
+        "reduce-mcq-51"
       ],
       "explanation": "本句的「reduced」指「減少了 X amount of change」。",
       "sentenceIndex": 101,
@@ -4399,12 +4065,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-43": "本句指「減少了 X amount of change」。",
-        "reduce-mcq-42": "「減輕症狀 medical」與本句語境不同。",
-        "reduce-mcq-44": "「減至 X final level」與本句語境不同。",
-        "reduce-mcq-41": "「減輕腫脹 medical」與本句語境不同。",
-        "reduce-mcq-45": "「由 A 減至 B start/end」與本句語境不同。",
-        "reduce-mcq-40": "「降低血壓 medical」與本句語境不同。"
+        "reduce-mcq-43": "本句的「reduced」指「減少了 X amount of change」。",
+        "reduce-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-43"
     },
@@ -4416,11 +4080,9 @@ export default {
       "masked": "The meeting was ____ by fifteen minutes.",
       "options": [
         "reduce-mcq-43",
-        "reduce-mcq-42",
-        "reduce-mcq-44",
-        "reduce-mcq-41",
-        "reduce-mcq-45",
-        "reduce-mcq-40"
+        "reduce-mcq-58",
+        "reduce-mcq-13",
+        "reduce-pdf-plain-082"
       ],
       "explanation": "本句的「reduced」指「減少了 X amount of change」。",
       "sentenceIndex": 102,
@@ -4429,12 +4091,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-43": "本句指「減少了 X amount of change」。",
-        "reduce-mcq-42": "「減輕症狀 medical」與本句語境不同。",
-        "reduce-mcq-44": "「減至 X final level」與本句語境不同。",
-        "reduce-mcq-41": "「減輕腫脹 medical」與本句語境不同。",
-        "reduce-mcq-45": "「由 A 減至 B start/end」與本句語境不同。",
-        "reduce-mcq-40": "「降低血壓 medical」與本句語境不同。"
+        "reduce-mcq-43": "本句的「reduced」指「減少了 X amount of change」。",
+        "reduce-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-43"
     },
@@ -4446,11 +4106,9 @@ export default {
       "masked": "The error rate was ____ from 10% to 4%.",
       "options": [
         "reduce-mcq-45",
-        "reduce-mcq-44",
-        "reduce-mcq-46",
-        "reduce-mcq-43",
-        "reduce-mcq-47",
-        "reduce-mcq-42"
+        "reduce-mcq-75",
+        "reduce-mcq-76",
+        "reduce-mcq-87"
       ],
       "explanation": "本句的「reduced」指「由 A 減至 B start/end」。",
       "sentenceIndex": 105,
@@ -4459,12 +4117,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-45": "本句指「由 A 減至 B start/end」。",
-        "reduce-mcq-44": "「減至 X final level」與本句語境不同。",
-        "reduce-mcq-46": "「減少一半 change amount」與本句語境不同。",
-        "reduce-mcq-43": "「減少了 X amount of change」與本句語境不同。",
-        "reduce-mcq-47": "「大幅減少 degree」與本句語境不同。",
-        "reduce-mcq-42": "「減輕症狀 medical」與本句語境不同。"
+        "reduce-mcq-45": "本句的「reduced」指「由 A 減至 B start/end」。",
+        "reduce-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-45"
     },
@@ -4476,11 +4132,9 @@ export default {
       "masked": "The meeting was ____ from one hour to thirty minutes.",
       "options": [
         "reduce-mcq-45",
-        "reduce-mcq-44",
-        "reduce-mcq-46",
-        "reduce-mcq-43",
-        "reduce-mcq-47",
-        "reduce-mcq-42"
+        "reduce-mcq-35",
+        "reduce-mcq-18",
+        "reduce-mcq-26"
       ],
       "explanation": "本句的「reduced」指「由 A 減至 B start/end」。",
       "sentenceIndex": 106,
@@ -4489,12 +4143,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-45": "本句指「由 A 減至 B start/end」。",
-        "reduce-mcq-44": "「減至 X final level」與本句語境不同。",
-        "reduce-mcq-46": "「減少一半 change amount」與本句語境不同。",
-        "reduce-mcq-43": "「減少了 X amount of change」與本句語境不同。",
-        "reduce-mcq-47": "「大幅減少 degree」與本句語境不同。",
-        "reduce-mcq-42": "「減輕症狀 medical」與本句語境不同。"
+        "reduce-mcq-45": "本句的「reduced」指「由 A 減至 B start/end」。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-45"
     },
@@ -4506,11 +4158,9 @@ export default {
       "masked": "The new process ____ waiting time by half.",
       "options": [
         "reduce-mcq-46",
-        "reduce-mcq-45",
-        "reduce-mcq-47",
-        "reduce-mcq-44",
-        "reduce-mcq-48",
-        "reduce-mcq-43"
+        "reduce-mcq-56",
+        "reduce-pdf-plain-082",
+        "reduce-mcq-76"
       ],
       "explanation": "本句的「reduced」指「減少一半 change amount」。",
       "sentenceIndex": 107,
@@ -4519,12 +4169,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-46": "本句指「減少一半 change amount」。",
-        "reduce-mcq-45": "「由 A 減至 B start/end」與本句語境不同。",
-        "reduce-mcq-47": "「大幅減少 degree」與本句語境不同。",
-        "reduce-mcq-44": "「減至 X final level」與本句語境不同。",
-        "reduce-mcq-48": "「顯著降低 degree」與本句語境不同。",
-        "reduce-mcq-43": "「減少了 X amount of change」與本句語境不同。"
+        "reduce-mcq-46": "本句的「reduced」指「減少一半 change amount」。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-46"
     },
@@ -4536,11 +4184,9 @@ export default {
       "masked": "The team wants to ____ errors by half.",
       "options": [
         "reduce-mcq-46",
-        "reduce-mcq-45",
-        "reduce-mcq-47",
-        "reduce-mcq-44",
-        "reduce-mcq-48",
-        "reduce-mcq-43"
+        "reduce-mcq-25",
+        "reduce-mcq-75",
+        "reduce-mcq-56"
       ],
       "explanation": "本句的「reduce」指「減少一半 change amount」。",
       "sentenceIndex": 108,
@@ -4549,12 +4195,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-46": "本句指「減少一半 change amount」。",
-        "reduce-mcq-45": "「由 A 減至 B start/end」與本句語境不同。",
-        "reduce-mcq-47": "「大幅減少 degree」與本句語境不同。",
-        "reduce-mcq-44": "「減至 X final level」與本句語境不同。",
-        "reduce-mcq-48": "「顯著降低 degree」與本句語境不同。",
-        "reduce-mcq-43": "「減少了 X amount of change」與本句語境不同。"
+        "reduce-mcq-46": "本句的「reduce」指「減少一半 change amount」。",
+        "reduce-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-46"
     },
@@ -4566,11 +4210,9 @@ export default {
       "masked": "Digital tools can ____ confusion substantially.",
       "options": [
         "reduce-mcq-47",
-        "reduce-mcq-46",
-        "reduce-mcq-48",
-        "reduce-mcq-45",
-        "reduce-mcq-49",
-        "reduce-mcq-44"
+        "reduce-mcq-51",
+        "reduce-mcq-58",
+        "reduce-mcq-60"
       ],
       "explanation": "本句的「reduce」指「大幅減少 degree」。",
       "sentenceIndex": 113,
@@ -4579,12 +4221,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-47": "本句指「大幅減少 degree」。",
-        "reduce-mcq-46": "「減少一半 change amount」與本句語境不同。",
-        "reduce-mcq-48": "「顯著降低 degree」與本句語境不同。",
-        "reduce-mcq-45": "「由 A 減至 B start/end」與本句語境不同。",
-        "reduce-mcq-49": "「使 X 變成／陷入 Y resulting state」與本句語境不同。",
-        "reduce-mcq-44": "「減至 X final level」與本句語境不同。"
+        "reduce-mcq-47": "本句的「reduce」指「大幅減少 degree」。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-47"
     },
@@ -4596,11 +4236,9 @@ export default {
       "masked": "The new process substantially ____ delays.",
       "options": [
         "reduce-mcq-47",
-        "reduce-mcq-46",
-        "reduce-mcq-48",
-        "reduce-mcq-45",
-        "reduce-mcq-49",
-        "reduce-mcq-44"
+        "reduce-mcq-63",
+        "reduce-mcq-25",
+        "reduce-mcq-77"
       ],
       "explanation": "本句的「reduced」指「大幅減少 degree」。",
       "sentenceIndex": 114,
@@ -4609,12 +4247,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-47": "本句指「大幅減少 degree」。",
-        "reduce-mcq-46": "「減少一半 change amount」與本句語境不同。",
-        "reduce-mcq-48": "「顯著降低 degree」與本句語境不同。",
-        "reduce-mcq-45": "「由 A 減至 B start/end」與本句語境不同。",
-        "reduce-mcq-49": "「使 X 變成／陷入 Y resulting state」與本句語境不同。",
-        "reduce-mcq-44": "「減至 X final level」與本句語境不同。"
+        "reduce-mcq-47": "本句的「reduced」指「大幅減少 degree」。",
+        "reduce-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-47"
     },
@@ -4626,11 +4262,9 @@ export default {
       "masked": "Training significantly ____ errors.",
       "options": [
         "reduce-mcq-48",
-        "reduce-mcq-47",
-        "reduce-mcq-49",
-        "reduce-mcq-46",
-        "reduce-mcq-50",
-        "reduce-mcq-45"
+        "reduce-mcq-74",
+        "reduce-mcq-68",
+        "reduce-mcq-86"
       ],
       "explanation": "本句的「reduced」指「顯著降低 degree」。",
       "sentenceIndex": 115,
@@ -4639,12 +4273,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-48": "本句指「顯著降低 degree」。",
-        "reduce-mcq-47": "「大幅減少 degree」與本句語境不同。",
-        "reduce-mcq-49": "「使 X 變成／陷入 Y resulting state」與本句語境不同。",
-        "reduce-mcq-46": "「減少一半 change amount」與本句語境不同。",
-        "reduce-mcq-50": "「令某人哭起來 emotional state」與本句語境不同。",
-        "reduce-mcq-45": "「由 A 減至 B start/end」與本句語境不同。"
+        "reduce-mcq-48": "本句的「reduced」指「顯著降低 degree」。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-86": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-48"
     },
@@ -4656,11 +4288,9 @@ export default {
       "masked": "The risk was significantly ____.",
       "options": [
         "reduce-mcq-48",
-        "reduce-mcq-47",
-        "reduce-mcq-49",
-        "reduce-mcq-46",
-        "reduce-mcq-50",
-        "reduce-mcq-45"
+        "reduce-mcq-20",
+        "reduce-mcq-72",
+        "reduce-mcq-64"
       ],
       "explanation": "本句的「reduced」指「顯著降低 degree」。",
       "sentenceIndex": 116,
@@ -4669,12 +4299,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-48": "本句指「顯著降低 degree」。",
-        "reduce-mcq-47": "「大幅減少 degree」與本句語境不同。",
-        "reduce-mcq-49": "「使 X 變成／陷入 Y resulting state」與本句語境不同。",
-        "reduce-mcq-46": "「減少一半 change amount」與本句語境不同。",
-        "reduce-mcq-50": "「令某人哭起來 emotional state」與本句語境不同。",
-        "reduce-mcq-45": "「由 A 減至 B start/end」與本句語境不同。"
+        "reduce-mcq-48": "本句的「reduced」指「顯著降低 degree」。",
+        "reduce-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-48"
     },
@@ -4686,11 +4314,9 @@ export default {
       "masked": "The question ____ the room to silence.",
       "options": [
         "reduce-mcq-51",
-        "reduce-mcq-50",
-        "reduce-mcq-52",
-        "reduce-mcq-49",
-        "reduce-mcq-53",
-        "reduce-mcq-48"
+        "reduce-mcq-38",
+        "reduce-mcq-82",
+        "reduce-mcq-25"
       ],
       "explanation": "本句的「reduced」指「令某人無言 state」。",
       "sentenceIndex": 125,
@@ -4699,12 +4325,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-51": "本句指「令某人無言 state」。",
-        "reduce-mcq-50": "「令某人哭起來 emotional state」與本句語境不同。",
-        "reduce-mcq-52": "「淪落／只能做 loss of options」與本句語境不同。",
-        "reduce-mcq-49": "「使 X 變成／陷入 Y resulting state」與本句語境不同。",
-        "reduce-mcq-53": "「夷為廢墟 destruction」與本句語境不同。",
-        "reduce-mcq-48": "「顯著降低 degree」與本句語境不同。"
+        "reduce-mcq-51": "本句的「reduced」指「令某人無言 state」。",
+        "reduce-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-51"
     },
@@ -4716,11 +4340,9 @@ export default {
       "masked": "His reply ____ his critics to silence.",
       "options": [
         "reduce-mcq-51",
-        "reduce-mcq-50",
-        "reduce-mcq-52",
-        "reduce-mcq-49",
-        "reduce-mcq-53",
-        "reduce-mcq-48"
+        "reduce-mcq-56",
+        "reduce-mcq-07",
+        "reduce-mcq-58"
       ],
       "explanation": "本句的「reduced」指「令某人無言 state」。",
       "sentenceIndex": 126,
@@ -4729,12 +4351,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-51": "本句指「令某人無言 state」。",
-        "reduce-mcq-50": "「令某人哭起來 emotional state」與本句語境不同。",
-        "reduce-mcq-52": "「淪落／只能做 loss of options」與本句語境不同。",
-        "reduce-mcq-49": "「使 X 變成／陷入 Y resulting state」與本句語境不同。",
-        "reduce-mcq-53": "「夷為廢墟 destruction」與本句語境不同。",
-        "reduce-mcq-48": "「顯著降低 degree」與本句語境不同。"
+        "reduce-mcq-51": "本句的「reduced」指「令某人無言 state」。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-51"
     },
@@ -4746,11 +4366,9 @@ export default {
       "masked": "Without clear evidence, they were ____ to guessing.",
       "options": [
         "reduce-mcq-52",
-        "reduce-mcq-51",
-        "reduce-mcq-53",
-        "reduce-mcq-50",
-        "reduce-mcq-54",
-        "reduce-mcq-49"
+        "reduce-mcq-36",
+        "reduce-pdf-plain-101",
+        "reduce-mcq-20"
       ],
       "explanation": "本句的「reduced」指「淪落／只能做 loss of options」。",
       "sentenceIndex": 131,
@@ -4759,12 +4377,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-52": "本句指「淪落／只能做 loss of options」。",
-        "reduce-mcq-51": "「令某人無言 state」與本句語境不同。",
-        "reduce-mcq-53": "「夷為廢墟 destruction」與本句語境不同。",
-        "reduce-mcq-50": "「令某人哭起來 emotional state」與本句語境不同。",
-        "reduce-mcq-54": "「化為灰燼 destruction」與本句語境不同。",
-        "reduce-mcq-49": "「使 X 變成／陷入 Y resulting state」與本句語境不同。"
+        "reduce-mcq-52": "本句的「reduced」指「淪落／只能做 loss of options」。",
+        "reduce-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-101": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-52"
     },
@@ -4776,11 +4392,9 @@ export default {
       "masked": "The team was ____ to working with outdated equipment.",
       "options": [
         "reduce-mcq-52",
-        "reduce-mcq-51",
-        "reduce-mcq-53",
-        "reduce-mcq-50",
-        "reduce-mcq-54",
-        "reduce-mcq-49"
+        "reduce-mcq-77",
+        "reduce-mcq-60",
+        "reduce-mcq-43"
       ],
       "explanation": "本句的「reduced」指「淪落／只能做 loss of options」。",
       "sentenceIndex": 132,
@@ -4789,12 +4403,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-52": "本句指「淪落／只能做 loss of options」。",
-        "reduce-mcq-51": "「令某人無言 state」與本句語境不同。",
-        "reduce-mcq-53": "「夷為廢墟 destruction」與本句語境不同。",
-        "reduce-mcq-50": "「令某人哭起來 emotional state」與本句語境不同。",
-        "reduce-mcq-54": "「化為灰燼 destruction」與本句語境不同。",
-        "reduce-mcq-49": "「使 X 變成／陷入 Y resulting state」與本句語境不同。"
+        "reduce-mcq-52": "本句的「reduced」指「淪落／只能做 loss of options」。",
+        "reduce-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-52"
     },
@@ -4806,11 +4418,9 @@ export default {
       "masked": "That explanation is too ____.",
       "options": [
         "reduce-mcq-56",
-        "reduce-mcq-55",
-        "reduce-mcq-57",
-        "reduce-mcq-54",
-        "reduce-mcq-58",
-        "reduce-mcq-53"
+        "reduce-mcq-77",
+        "reduce-mcq-51",
+        "reduce-mcq-23"
       ],
       "explanation": "本句的「reductive」指「過分簡化的 oversimplification」。",
       "sentenceIndex": 145,
@@ -4819,12 +4429,10 @@ export default {
         "reductive"
       ],
       "optionReasons": {
-        "reduce-mcq-56": "本句指「過分簡化的 oversimplification」。",
-        "reduce-mcq-55": "「簡化至核心 simplification」與本句語境不同。",
-        "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
-        "reduce-mcq-54": "「化為灰燼 destruction」與本句語境不同。",
-        "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
-        "reduce-mcq-53": "「夷為廢墟 destruction」與本句語境不同。"
+        "reduce-mcq-56": "本句的「reductive」指「過分簡化的 oversimplification」。",
+        "reduce-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-56"
     },
@@ -4836,11 +4444,9 @@ export default {
       "masked": "It would be ____ to blame the failure on one employee.",
       "options": [
         "reduce-mcq-56",
-        "reduce-mcq-55",
-        "reduce-mcq-57",
-        "reduce-mcq-54",
-        "reduce-mcq-58",
-        "reduce-mcq-53"
+        "reduce-mcq-42",
+        "reduce-mcq-35",
+        "reduce-mcq-74"
       ],
       "explanation": "本句的「reductive」指「過分簡化的 oversimplification」。",
       "sentenceIndex": 146,
@@ -4849,12 +4455,10 @@ export default {
         "reductive"
       ],
       "optionReasons": {
-        "reduce-mcq-56": "本句指「過分簡化的 oversimplification」。",
-        "reduce-mcq-55": "「簡化至核心 simplification」與本句語境不同。",
-        "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
-        "reduce-mcq-54": "「化為灰燼 destruction」與本句語境不同。",
-        "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
-        "reduce-mcq-53": "「夷為廢墟 destruction」與本句語境不同。"
+        "reduce-mcq-56": "本句的「reductive」指「過分簡化的 oversimplification」。",
+        "reduce-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-56"
     },
@@ -4866,11 +4470,9 @@ export default {
       "masked": "Poor leadership caused everything” is a ____ explanation.",
       "options": [
         "reduce-mcq-56",
-        "reduce-mcq-55",
-        "reduce-mcq-57",
-        "reduce-mcq-54",
-        "reduce-mcq-58",
-        "reduce-mcq-53"
+        "reduce-mcq-82",
+        "reduce-mcq-19",
+        "reduce-mcq-52"
       ],
       "explanation": "本句的「reductive」指「過分簡化的 oversimplification」。",
       "sentenceIndex": 147,
@@ -4879,12 +4481,10 @@ export default {
         "reductive"
       ],
       "optionReasons": {
-        "reduce-mcq-56": "本句指「過分簡化的 oversimplification」。",
-        "reduce-mcq-55": "「簡化至核心 simplification」與本句語境不同。",
-        "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
-        "reduce-mcq-54": "「化為灰燼 destruction」與本句語境不同。",
-        "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
-        "reduce-mcq-53": "「夷為廢墟 destruction」與本句語境不同。"
+        "reduce-mcq-56": "本句的「reductive」指「過分簡化的 oversimplification」。",
+        "reduce-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-56"
     },
@@ -4896,11 +4496,9 @@ export default {
       "masked": "The issue needs more than a ____ account.",
       "options": [
         "reduce-mcq-56",
-        "reduce-mcq-55",
-        "reduce-mcq-57",
-        "reduce-mcq-54",
-        "reduce-mcq-58",
-        "reduce-mcq-53"
+        "reduce-mcq-02",
+        "reduce-mcq-52",
+        "reduce-mcq-25"
       ],
       "explanation": "本句的「reductive」指「過分簡化的 oversimplification」。",
       "sentenceIndex": 148,
@@ -4909,12 +4507,10 @@ export default {
         "reductive"
       ],
       "optionReasons": {
-        "reduce-mcq-56": "本句指「過分簡化的 oversimplification」。",
-        "reduce-mcq-55": "「簡化至核心 simplification」與本句語境不同。",
-        "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
-        "reduce-mcq-54": "「化為灰燼 destruction」與本句語境不同。",
-        "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
-        "reduce-mcq-53": "「夷為廢墟 destruction」與本句語境不同。"
+        "reduce-mcq-56": "本句的「reductive」指「過分簡化的 oversimplification」。",
+        "reduce-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-56"
     },
@@ -4926,11 +4522,9 @@ export default {
       "masked": "____ the fraction to its simplest form.",
       "options": [
         "reduce-mcq-57",
-        "reduce-mcq-56",
-        "reduce-mcq-58",
-        "reduce-mcq-55",
-        "reduce-mcq-59",
-        "reduce-mcq-54"
+        "reduce-mcq-67",
+        "reduce-mcq-17",
+        "reduce-pdf-plain-082"
       ],
       "explanation": "本句的「Reduce」指「約分 mathematics」。",
       "sentenceIndex": 151,
@@ -4939,12 +4533,10 @@ export default {
         "Reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-57": "本句指「約分 mathematics」。",
-        "reduce-mcq-56": "「過分簡化的 oversimplification」與本句語境不同。",
-        "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
-        "reduce-mcq-55": "「簡化至核心 simplification」與本句語境不同。",
-        "reduce-mcq-59": "「行化簡 mathematics」與本句語境不同。",
-        "reduce-mcq-54": "「化為灰燼 destruction」與本句語境不同。"
+        "reduce-mcq-57": "本句的「Reduce」指「約分 mathematics」。",
+        "reduce-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-57"
     },
@@ -4956,11 +4548,9 @@ export default {
       "masked": "Six eighths ____ to three quarters.",
       "options": [
         "reduce-mcq-57",
-        "reduce-mcq-56",
-        "reduce-mcq-58",
-        "reduce-mcq-55",
-        "reduce-mcq-59",
-        "reduce-mcq-54"
+        "reduce-mcq-69",
+        "reduce-mcq-40",
+        "reduce-mcq-74"
       ],
       "explanation": "本句的「reduces」指「約分 mathematics」。",
       "sentenceIndex": 152,
@@ -4969,12 +4559,10 @@ export default {
         "reduces"
       ],
       "optionReasons": {
-        "reduce-mcq-57": "本句指「約分 mathematics」。",
-        "reduce-mcq-56": "「過分簡化的 oversimplification」與本句語境不同。",
-        "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
-        "reduce-mcq-55": "「簡化至核心 simplification」與本句語境不同。",
-        "reduce-mcq-59": "「行化簡 mathematics」與本句語境不同。",
-        "reduce-mcq-54": "「化為灰燼 destruction」與本句語境不同。"
+        "reduce-mcq-57": "本句的「reduces」指「約分 mathematics」。",
+        "reduce-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-57"
     },
@@ -4986,11 +4574,9 @@ export default {
       "masked": "____ 12/18 to lowest terms.",
       "options": [
         "reduce-mcq-58",
-        "reduce-mcq-57",
-        "reduce-mcq-59",
-        "reduce-mcq-56",
-        "reduce-mcq-60",
-        "reduce-mcq-55"
+        "reduce-mcq-63",
+        "reduce-mcq-47",
+        "reduce-mcq-64"
       ],
       "explanation": "本句的「Reduce」指「約至最簡 mathematics」。",
       "sentenceIndex": 153,
@@ -4999,12 +4585,10 @@ export default {
         "Reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-58": "本句指「約至最簡 mathematics」。",
-        "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
-        "reduce-mcq-59": "「行化簡 mathematics」與本句語境不同。",
-        "reduce-mcq-56": "「過分簡化的 oversimplification」與本句語境不同。",
-        "reduce-mcq-60": "「收汁；煮濃 cooking」與本句語境不同。",
-        "reduce-mcq-55": "「簡化至核心 simplification」與本句語境不同。"
+        "reduce-mcq-58": "本句的「Reduce」指「約至最簡 mathematics」。",
+        "reduce-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-58"
     },
@@ -5016,11 +4600,9 @@ export default {
       "masked": "The fraction is already ____ to lowest terms.",
       "options": [
         "reduce-mcq-58",
-        "reduce-mcq-57",
-        "reduce-mcq-59",
-        "reduce-mcq-56",
-        "reduce-mcq-60",
-        "reduce-mcq-55"
+        "reduce-mcq-76",
+        "reduce-mcq-26",
+        "reduce-mcq-12"
       ],
       "explanation": "本句的「reduced」指「約至最簡 mathematics」。",
       "sentenceIndex": 154,
@@ -5029,12 +4611,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-58": "本句指「約至最簡 mathematics」。",
-        "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
-        "reduce-mcq-59": "「行化簡 mathematics」與本句語境不同。",
-        "reduce-mcq-56": "「過分簡化的 oversimplification」與本句語境不同。",
-        "reduce-mcq-60": "「收汁；煮濃 cooking」與本句語境不同。",
-        "reduce-mcq-55": "「簡化至核心 simplification」與本句語境不同。"
+        "reduce-mcq-58": "本句的「reduced」指「約至最簡 mathematics」。",
+        "reduce-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-58"
     },
@@ -5046,11 +4626,9 @@ export default {
       "masked": "Solve the system using row ____.",
       "options": [
         "reduce-mcq-59",
-        "reduce-mcq-58",
-        "reduce-mcq-60",
-        "reduce-mcq-57",
-        "reduce-mcq-61",
-        "reduce-mcq-56"
+        "reduce-mcq-37",
+        "reduce-mcq-08",
+        "reduce-mcq-75"
       ],
       "explanation": "本句的「reduction」指「行化簡 mathematics」。",
       "sentenceIndex": 157,
@@ -5059,12 +4637,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-59": "本句指「行化簡 mathematics」。",
-        "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
-        "reduce-mcq-60": "「收汁；煮濃 cooking」與本句語境不同。",
-        "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
-        "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。",
-        "reduce-mcq-56": "「過分簡化的 oversimplification」與本句語境不同。"
+        "reduce-mcq-59": "本句的「reduction」指「行化簡 mathematics」。",
+        "reduce-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-59"
     },
@@ -5076,11 +4652,9 @@ export default {
       "masked": "Gaussian elimination is a form of row ____.",
       "options": [
         "reduce-mcq-59",
-        "reduce-mcq-58",
-        "reduce-mcq-60",
-        "reduce-mcq-57",
-        "reduce-mcq-61",
-        "reduce-mcq-56"
+        "reduce-mcq-06",
+        "reduce-mcq-82",
+        "reduce-mcq-64"
       ],
       "explanation": "本句的「reduction」指「行化簡 mathematics」。",
       "sentenceIndex": 158,
@@ -5089,12 +4663,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-59": "本句指「行化簡 mathematics」。",
-        "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
-        "reduce-mcq-60": "「收汁；煮濃 cooking」與本句語境不同。",
-        "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
-        "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。",
-        "reduce-mcq-56": "「過分簡化的 oversimplification」與本句語境不同。"
+        "reduce-mcq-59": "本句的「reduction」指「行化簡 mathematics」。",
+        "reduce-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-59"
     },
@@ -5106,11 +4678,9 @@ export default {
       "masked": "____ the sauce over low heat.",
       "options": [
         "reduce-mcq-60",
-        "reduce-mcq-59",
-        "reduce-mcq-61",
-        "reduce-mcq-58",
-        "reduce-mcq-62",
-        "reduce-mcq-57"
+        "reduce-mcq-20",
+        "reduce-mcq-28",
+        "reduce-mcq-72"
       ],
       "explanation": "本句的「Reduce」指「收汁；煮濃 cooking」。",
       "sentenceIndex": 159,
@@ -5119,12 +4689,10 @@ export default {
         "Reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-60": "本句指「收汁；煮濃 cooking」。",
-        "reduce-mcq-59": "「行化簡 mathematics」與本句語境不同。",
-        "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。",
-        "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
-        "reduce-mcq-62": "「還原 chemistry」與本句語境不同。",
-        "reduce-mcq-57": "「約分 mathematics」與本句語境不同。"
+        "reduce-mcq-60": "本句的「Reduce」指「收汁；煮濃 cooking」。",
+        "reduce-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-60"
     },
@@ -5136,11 +4704,9 @@ export default {
       "masked": "Let the liquid ____ by half.",
       "options": [
         "reduce-mcq-60",
-        "reduce-mcq-59",
-        "reduce-mcq-61",
-        "reduce-mcq-58",
-        "reduce-mcq-62",
-        "reduce-mcq-57"
+        "reduce-mcq-04",
+        "reduce-mcq-82",
+        "reduce-mcq-26"
       ],
       "explanation": "本句的「reduce」指「收汁；煮濃 cooking」。",
       "sentenceIndex": 160,
@@ -5149,12 +4715,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-60": "本句指「收汁；煮濃 cooking」。",
-        "reduce-mcq-59": "「行化簡 mathematics」與本句語境不同。",
-        "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。",
-        "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
-        "reduce-mcq-62": "「還原 chemistry」與本句語境不同。",
-        "reduce-mcq-57": "「約分 mathematics」與本句語境不同。"
+        "reduce-mcq-60": "本句的「reduce」指「收汁；煮濃 cooking」。",
+        "reduce-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-60"
     },
@@ -5166,11 +4730,9 @@ export default {
       "masked": "Simmer until the stock has ____ by half.",
       "options": [
         "reduce-mcq-46",
-        "reduce-mcq-45",
-        "reduce-mcq-47",
-        "reduce-mcq-44",
-        "reduce-mcq-48",
-        "reduce-mcq-43"
+        "reduce-mcq-26",
+        "reduce-mcq-77",
+        "reduce-mcq-59"
       ],
       "explanation": "本句的「reduced」指「減少一半 change amount」。",
       "sentenceIndex": 161,
@@ -5179,12 +4741,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-46": "本句指「減少一半 change amount」。",
-        "reduce-mcq-45": "「由 A 減至 B start/end」與本句語境不同。",
-        "reduce-mcq-47": "「大幅減少 degree」與本句語境不同。",
-        "reduce-mcq-44": "「減至 X final level」與本句語境不同。",
-        "reduce-mcq-48": "「顯著降低 degree」與本句語境不同。",
-        "reduce-mcq-43": "「減少了 X amount of change」與本句語境不同。"
+        "reduce-mcq-46": "本句的「reduced」指「減少一半 change amount」。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-46"
     },
@@ -5196,11 +4756,9 @@ export default {
       "masked": "The wine should ____ slightly before the cream is added.",
       "options": [
         "reduce-mcq-46",
-        "reduce-mcq-45",
-        "reduce-mcq-47",
-        "reduce-mcq-44",
-        "reduce-mcq-48",
-        "reduce-mcq-43"
+        "reduce-mcq-77",
+        "reduce-mcq-74",
+        "reduce-mcq-87"
       ],
       "explanation": "本句的「reduce」指「減少一半 change amount」。",
       "sentenceIndex": 162,
@@ -5209,12 +4767,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-46": "本句指「減少一半 change amount」。",
-        "reduce-mcq-45": "「由 A 減至 B start/end」與本句語境不同。",
-        "reduce-mcq-47": "「大幅減少 degree」與本句語境不同。",
-        "reduce-mcq-44": "「減至 X final level」與本句語境不同。",
-        "reduce-mcq-48": "「顯著降低 degree」與本句語境不同。",
-        "reduce-mcq-43": "「減少了 X amount of change」與本句語境不同。"
+        "reduce-mcq-46": "本句的「reduce」指「減少一半 change amount」。",
+        "reduce-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-46"
     },
@@ -5226,11 +4782,9 @@ export default {
       "masked": "The dish was served with a balsamic ____.",
       "options": [
         "reduce-pdf-plain-082",
-        "reduce-mcq-58",
-        "reduce-mcq-60",
-        "reduce-mcq-57",
-        "reduce-mcq-61",
-        "reduce-mcq-56"
+        "reduce-mcq-32",
+        "reduce-mcq-72",
+        "reduce-pdf-plain-083"
       ],
       "explanation": "本句的「reduction」指「烹調時收濃的汁液；濃縮汁」。",
       "sentenceIndex": 163,
@@ -5239,12 +4793,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-pdf-plain-082": "本句指「烹調時收濃的汁液；濃縮汁」。",
-        "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
-        "reduce-mcq-60": "「收汁；煮濃 cooking」與本句語境不同。",
-        "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
-        "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。",
-        "reduce-mcq-56": "「過分簡化的 oversimplification」與本句語境不同。"
+        "reduce-pdf-plain-082": "本句的「reduction」指「烹調時收濃的汁液；濃縮汁」。",
+        "reduce-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-083": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-pdf-plain-082"
     },
@@ -5256,10 +4808,8 @@ export default {
       "masked": "A wine ____ adds concentrated flavour.",
       "options": [
         "reduce-pdf-plain-082",
-        "reduce-mcq-58",
-        "reduce-mcq-60",
-        "reduce-mcq-57",
-        "reduce-mcq-61",
+        "reduce-mcq-82",
+        "reduce-mcq-41",
         "reduce-mcq-56"
       ],
       "explanation": "本句的「reduction」指「烹調時收濃的汁液；濃縮汁」。",
@@ -5269,12 +4819,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-pdf-plain-082": "本句指「烹調時收濃的汁液；濃縮汁」。",
-        "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
-        "reduce-mcq-60": "「收汁；煮濃 cooking」與本句語境不同。",
-        "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
-        "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。",
-        "reduce-mcq-56": "「過分簡化的 oversimplification」與本句語境不同。"
+        "reduce-pdf-plain-082": "本句的「reduction」指「烹調時收濃的汁液；濃縮汁」。",
+        "reduce-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-pdf-plain-082"
     },
@@ -5286,11 +4834,9 @@ export default {
       "masked": "The reaction involves oxidation and ____.",
       "options": [
         "reduce-pdf-plain-083",
-        "reduce-mcq-58",
-        "reduce-mcq-60",
-        "reduce-mcq-57",
-        "reduce-mcq-61",
-        "reduce-mcq-56"
+        "reduce-mcq-14",
+        "reduce-mcq-66",
+        "reduce-mcq-72"
       ],
       "explanation": "本句的「reduction」指「化學反應中的還原」。",
       "sentenceIndex": 165,
@@ -5299,12 +4845,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-pdf-plain-083": "本句指「化學反應中的還原」。",
-        "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
-        "reduce-mcq-60": "「收汁；煮濃 cooking」與本句語境不同。",
-        "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
-        "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。",
-        "reduce-mcq-56": "「過分簡化的 oversimplification」與本句語境不同。"
+        "reduce-pdf-plain-083": "本句的「reduction」指「化學反應中的還原」。",
+        "reduce-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-pdf-plain-083"
     },
@@ -5316,11 +4860,9 @@ export default {
       "masked": "____ involves a gain of electrons in redox chemistry.",
       "options": [
         "reduce-pdf-plain-083",
-        "reduce-mcq-58",
-        "reduce-mcq-60",
-        "reduce-mcq-57",
-        "reduce-mcq-61",
-        "reduce-mcq-56"
+        "reduce-mcq-65",
+        "reduce-mcq-32",
+        "reduce-mcq-82"
       ],
       "explanation": "本句的「Reduction」指「化學反應中的還原」。",
       "sentenceIndex": 166,
@@ -5329,12 +4871,10 @@ export default {
         "Reduction"
       ],
       "optionReasons": {
-        "reduce-pdf-plain-083": "本句指「化學反應中的還原」。",
-        "reduce-mcq-58": "「約至最簡 mathematics」與本句語境不同。",
-        "reduce-mcq-60": "「收汁；煮濃 cooking」與本句語境不同。",
-        "reduce-mcq-57": "「約分 mathematics」與本句語境不同。",
-        "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。",
-        "reduce-mcq-56": "「過分簡化的 oversimplification」與本句語境不同。"
+        "reduce-pdf-plain-083": "本句的「Reduction」指「化學反應中的還原」。",
+        "reduce-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-82": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-pdf-plain-083"
     },
@@ -5346,11 +4886,9 @@ export default {
       "masked": "Hydrogen acts as a ____ agent.",
       "options": [
         "reduce-mcq-63",
-        "reduce-mcq-62",
-        "reduce-mcq-64",
-        "reduce-mcq-61",
-        "reduce-mcq-65",
-        "reduce-mcq-60"
+        "reduce-mcq-41",
+        "reduce-mcq-59",
+        "reduce-mcq-25"
       ],
       "explanation": "本句的「reducing」指「還原劑 chemistry」。",
       "sentenceIndex": 171,
@@ -5359,12 +4897,10 @@ export default {
         "reducing"
       ],
       "optionReasons": {
-        "reduce-mcq-63": "本句指「還原劑 chemistry」。",
-        "reduce-mcq-62": "「還原 chemistry」與本句語境不同。",
-        "reduce-mcq-64": "「數據縮減 computing」與本句語境不同。",
-        "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。",
-        "reduce-mcq-65": "「降維 data science」與本句語境不同。",
-        "reduce-mcq-60": "「收汁；煮濃 cooking」與本句語境不同。"
+        "reduce-mcq-63": "本句的「reducing」指「還原劑 chemistry」。",
+        "reduce-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-63"
     },
@@ -5376,11 +4912,9 @@ export default {
       "masked": "A ____ agent causes another species to be reduced.",
       "options": [
         "reduce-mcq-63",
-        "reduce-mcq-62",
-        "reduce-mcq-64",
-        "reduce-mcq-61",
-        "reduce-mcq-65",
-        "reduce-mcq-60"
+        "reduce-mcq-56",
+        "reduce-mcq-74",
+        "reduce-mcq-76"
       ],
       "explanation": "本句的「reducing」指「還原劑 chemistry」。",
       "sentenceIndex": 172,
@@ -5389,12 +4923,10 @@ export default {
         "reducing"
       ],
       "optionReasons": {
-        "reduce-mcq-63": "本句指「還原劑 chemistry」。",
-        "reduce-mcq-62": "「還原 chemistry」與本句語境不同。",
-        "reduce-mcq-64": "「數據縮減 computing」與本句語境不同。",
-        "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。",
-        "reduce-mcq-65": "「降維 data science」與本句語境不同。",
-        "reduce-mcq-60": "「收汁；煮濃 cooking」與本句語境不同。"
+        "reduce-mcq-63": "本句的「reducing」指「還原劑 chemistry」。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-63"
     },
@@ -5406,11 +4938,9 @@ export default {
       "masked": "The analysis begins with data ____.",
       "options": [
         "reduce-mcq-64",
-        "reduce-mcq-63",
-        "reduce-mcq-65",
-        "reduce-mcq-62",
-        "reduce-mcq-66",
-        "reduce-mcq-61"
+        "reduce-mcq-86",
+        "reduce-mcq-18",
+        "reduce-mcq-13"
       ],
       "explanation": "本句的「reduction」指「數據縮減 computing」。",
       "sentenceIndex": 173,
@@ -5419,12 +4949,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-64": "本句指「數據縮減 computing」。",
-        "reduce-mcq-63": "「還原劑 chemistry」與本句語境不同。",
-        "reduce-mcq-65": "「降維 data science」與本句語境不同。",
-        "reduce-mcq-62": "「還原 chemistry」與本句語境不同。",
-        "reduce-mcq-66": "「降噪 signal/audio」與本句語境不同。",
-        "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。"
+        "reduce-mcq-64": "本句的「reduction」指「數據縮減 computing」。",
+        "reduce-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-64"
     },
@@ -5436,11 +4964,9 @@ export default {
       "masked": "Data ____ makes large datasets easier to analyse.",
       "options": [
         "reduce-mcq-64",
-        "reduce-mcq-63",
-        "reduce-mcq-65",
-        "reduce-mcq-62",
-        "reduce-mcq-66",
-        "reduce-mcq-61"
+        "reduce-mcq-26",
+        "reduce-mcq-58",
+        "reduce-mcq-66"
       ],
       "explanation": "本句的「reduction」指「數據縮減 computing」。",
       "sentenceIndex": 174,
@@ -5449,12 +4975,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-64": "本句指「數據縮減 computing」。",
-        "reduce-mcq-63": "「還原劑 chemistry」與本句語境不同。",
-        "reduce-mcq-65": "「降維 data science」與本句語境不同。",
-        "reduce-mcq-62": "「還原 chemistry」與本句語境不同。",
-        "reduce-mcq-66": "「降噪 signal/audio」與本句語境不同。",
-        "reduce-mcq-61": "「濃縮汁 cooking」與本句語境不同。"
+        "reduce-mcq-64": "本句的「reduction」指「數據縮減 computing」。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-64"
     },
@@ -5466,11 +4990,9 @@ export default {
       "masked": "PCA is often used for dimensionality ____.",
       "options": [
         "reduce-mcq-65",
-        "reduce-mcq-64",
-        "reduce-mcq-66",
-        "reduce-mcq-63",
-        "reduce-mcq-67",
-        "reduce-mcq-62"
+        "reduce-mcq-17",
+        "reduce-mcq-71",
+        "reduce-mcq-67"
       ],
       "explanation": "本句的「reduction」指「降維 data science」。",
       "sentenceIndex": 175,
@@ -5479,12 +5001,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-65": "本句指「降維 data science」。",
-        "reduce-mcq-64": "「數據縮減 computing」與本句語境不同。",
-        "reduce-mcq-66": "「降噪 signal/audio」與本句語境不同。",
-        "reduce-mcq-63": "「還原劑 chemistry」與本句語境不同。",
-        "reduce-mcq-67": "「縮小檔案 computing」與本句語境不同。",
-        "reduce-mcq-62": "「還原 chemistry」與本句語境不同。"
+        "reduce-mcq-65": "本句的「reduction」指「降維 data science」。",
+        "reduce-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-65"
     },
@@ -5496,11 +5016,9 @@ export default {
       "masked": "Dimensionality ____ can simplify a dataset while preserving important information.",
       "options": [
         "reduce-mcq-65",
-        "reduce-mcq-64",
-        "reduce-mcq-66",
-        "reduce-mcq-63",
-        "reduce-mcq-67",
-        "reduce-mcq-62"
+        "reduce-mcq-60",
+        "reduce-mcq-43",
+        "reduce-mcq-87"
       ],
       "explanation": "本句的「reduction」指「降維 data science」。",
       "sentenceIndex": 176,
@@ -5509,12 +5027,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-65": "本句指「降維 data science」。",
-        "reduce-mcq-64": "「數據縮減 computing」與本句語境不同。",
-        "reduce-mcq-66": "「降噪 signal/audio」與本句語境不同。",
-        "reduce-mcq-63": "「還原劑 chemistry」與本句語境不同。",
-        "reduce-mcq-67": "「縮小檔案 computing」與本句語境不同。",
-        "reduce-mcq-62": "「還原 chemistry」與本句語境不同。"
+        "reduce-mcq-65": "本句的「reduction」指「降維 data science」。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-65"
     },
@@ -5526,11 +5042,9 @@ export default {
       "masked": "The headphones use active noise ____.",
       "options": [
         "reduce-mcq-66",
-        "reduce-mcq-65",
-        "reduce-mcq-67",
-        "reduce-mcq-64",
-        "reduce-mcq-68",
-        "reduce-mcq-63"
+        "reduce-mcq-41",
+        "reduce-mcq-24",
+        "reduce-pdf-plain-082"
       ],
       "explanation": "本句的「reduction」指「降噪 signal/audio」。",
       "sentenceIndex": 177,
@@ -5539,12 +5053,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-66": "本句指「降噪 signal/audio」。",
-        "reduce-mcq-65": "「降維 data science」與本句語境不同。",
-        "reduce-mcq-67": "「縮小檔案 computing」與本句語境不同。",
-        "reduce-mcq-64": "「數據縮減 computing」與本句語境不同。",
-        "reduce-mcq-68": "「減速 engineering」與本句語境不同。",
-        "reduce-mcq-63": "「還原劑 chemistry」與本句語境不同。"
+        "reduce-mcq-66": "本句的「reduction」指「降噪 signal/audio」。",
+        "reduce-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-66"
     },
@@ -5556,11 +5068,9 @@ export default {
       "masked": "Noise ____ improved the recording.",
       "options": [
         "reduce-mcq-66",
-        "reduce-mcq-65",
-        "reduce-mcq-67",
-        "reduce-mcq-64",
-        "reduce-mcq-68",
-        "reduce-mcq-63"
+        "reduce-mcq-20",
+        "reduce-pdf-plain-099",
+        "reduce-mcq-69"
       ],
       "explanation": "本句的「reduction」指「降噪 signal/audio」。",
       "sentenceIndex": 178,
@@ -5569,12 +5079,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-66": "本句指「降噪 signal/audio」。",
-        "reduce-mcq-65": "「降維 data science」與本句語境不同。",
-        "reduce-mcq-67": "「縮小檔案 computing」與本句語境不同。",
-        "reduce-mcq-64": "「數據縮減 computing」與本句語境不同。",
-        "reduce-mcq-68": "「減速 engineering」與本句語境不同。",
-        "reduce-mcq-63": "「還原劑 chemistry」與本句語境不同。"
+        "reduce-mcq-66": "本句的「reduction」指「降噪 signal/audio」。",
+        "reduce-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-099": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-66"
     },
@@ -5586,11 +5094,9 @@ export default {
       "masked": "Compression can ____ file size.",
       "options": [
         "reduce-mcq-67",
-        "reduce-mcq-66",
-        "reduce-mcq-68",
-        "reduce-mcq-65",
-        "reduce-mcq-69",
-        "reduce-mcq-64"
+        "reduce-mcq-57",
+        "reduce-mcq-75",
+        "reduce-mcq-73"
       ],
       "explanation": "本句的「reduce」指「縮小檔案 computing」。",
       "sentenceIndex": 179,
@@ -5599,12 +5105,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-67": "本句指「縮小檔案 computing」。",
-        "reduce-mcq-66": "「降噪 signal/audio」與本句語境不同。",
-        "reduce-mcq-68": "「減速 engineering」與本句語境不同。",
-        "reduce-mcq-65": "「降維 data science」與本句語境不同。",
-        "reduce-mcq-69": "「減速齒輪 engineering」與本句語境不同。",
-        "reduce-mcq-64": "「數據縮減 computing」與本句語境不同。"
+        "reduce-mcq-67": "本句的「reduce」指「縮小檔案 computing」。",
+        "reduce-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-67"
     },
@@ -5616,11 +5120,9 @@ export default {
       "masked": "Resize the image to ____ the file size.",
       "options": [
         "reduce-mcq-67",
-        "reduce-mcq-66",
-        "reduce-mcq-68",
-        "reduce-mcq-65",
-        "reduce-mcq-69",
-        "reduce-mcq-64"
+        "reduce-mcq-75",
+        "reduce-mcq-71",
+        "reduce-mcq-17"
       ],
       "explanation": "本句的「reduce」指「縮小檔案 computing」。",
       "sentenceIndex": 180,
@@ -5629,12 +5131,10 @@ export default {
         "reduce"
       ],
       "optionReasons": {
-        "reduce-mcq-67": "本句指「縮小檔案 computing」。",
-        "reduce-mcq-66": "「降噪 signal/audio」與本句語境不同。",
-        "reduce-mcq-68": "「減速 engineering」與本句語境不同。",
-        "reduce-mcq-65": "「降維 data science」與本句語境不同。",
-        "reduce-mcq-69": "「減速齒輪 engineering」與本句語境不同。",
-        "reduce-mcq-64": "「數據縮減 computing」與本句語境不同。"
+        "reduce-mcq-67": "本句的「reduce」指「縮小檔案 computing」。",
+        "reduce-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-67"
     },
@@ -5646,11 +5146,9 @@ export default {
       "masked": "The gearbox provides speed ____.",
       "options": [
         "reduce-mcq-68",
-        "reduce-mcq-67",
-        "reduce-mcq-69",
-        "reduce-mcq-66",
-        "reduce-mcq-70",
-        "reduce-mcq-65"
+        "reduce-mcq-26",
+        "reduce-mcq-73",
+        "reduce-mcq-66"
       ],
       "explanation": "本句的「reduction」指「減速 engineering」。",
       "sentenceIndex": 183,
@@ -5659,12 +5157,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-68": "本句指「減速 engineering」。",
-        "reduce-mcq-67": "「縮小檔案 computing」與本句語境不同。",
-        "reduce-mcq-69": "「減速齒輪 engineering」與本句語境不同。",
-        "reduce-mcq-66": "「降噪 signal/audio」與本句語境不同。",
-        "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。",
-        "reduce-mcq-65": "「降維 data science」與本句語境不同。"
+        "reduce-mcq-68": "本句的「reduction」指「減速 engineering」。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-68"
     },
@@ -5676,11 +5172,9 @@ export default {
       "masked": "Speed ____ increases torque in some mechanical systems.",
       "options": [
         "reduce-mcq-68",
-        "reduce-mcq-67",
-        "reduce-mcq-69",
-        "reduce-mcq-66",
-        "reduce-mcq-70",
-        "reduce-mcq-65"
+        "reduce-mcq-27",
+        "reduce-pdf-plain-083",
+        "reduce-mcq-73"
       ],
       "explanation": "本句的「reduction」指「減速 engineering」。",
       "sentenceIndex": 184,
@@ -5689,12 +5183,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-68": "本句指「減速 engineering」。",
-        "reduce-mcq-67": "「縮小檔案 computing」與本句語境不同。",
-        "reduce-mcq-69": "「減速齒輪 engineering」與本句語境不同。",
-        "reduce-mcq-66": "「降噪 signal/audio」與本句語境不同。",
-        "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。",
-        "reduce-mcq-65": "「降維 data science」與本句語境不同。"
+        "reduce-mcq-68": "本句的「reduction」指「減速 engineering」。",
+        "reduce-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-083": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-68"
     },
@@ -5706,11 +5198,9 @@ export default {
       "masked": "The motor drives the machine through a ____ gearbox.",
       "options": [
         "reduce-mcq-69",
-        "reduce-mcq-68",
-        "reduce-mcq-70",
-        "reduce-mcq-67",
-        "reduce-mcq-71",
-        "reduce-mcq-66"
+        "reduce-pdf-plain-099",
+        "reduce-mcq-35",
+        "reduce-mcq-13"
       ],
       "explanation": "本句的「reduction」指「減速齒輪 engineering」。",
       "sentenceIndex": 185,
@@ -5719,12 +5209,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-69": "本句指「減速齒輪 engineering」。",
-        "reduce-mcq-68": "「減速 engineering」與本句語境不同。",
-        "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。",
-        "reduce-mcq-67": "「縮小檔案 computing」與本句語境不同。",
-        "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。",
-        "reduce-mcq-66": "「降噪 signal/audio」與本句語境不同。"
+        "reduce-mcq-69": "本句的「reduction」指「減速齒輪 engineering」。",
+        "reduce-pdf-plain-099": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-69"
     },
@@ -5736,11 +5224,9 @@ export default {
       "masked": "____ gearing lowers rotational speed.",
       "options": [
         "reduce-mcq-69",
-        "reduce-mcq-68",
-        "reduce-mcq-70",
-        "reduce-mcq-67",
-        "reduce-mcq-71",
-        "reduce-mcq-66"
+        "reduce-pdf-plain-082",
+        "reduce-mcq-27",
+        "reduce-mcq-59"
       ],
       "explanation": "本句的「Reduction」指「減速齒輪 engineering」。",
       "sentenceIndex": 186,
@@ -5749,12 +5235,10 @@ export default {
         "Reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-69": "本句指「減速齒輪 engineering」。",
-        "reduce-mcq-68": "「減速 engineering」與本句語境不同。",
-        "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。",
-        "reduce-mcq-67": "「縮小檔案 computing」與本句語境不同。",
-        "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。",
-        "reduce-mcq-66": "「降噪 signal/audio」與本句語境不同。"
+        "reduce-mcq-69": "本句的「Reduction」指「減速齒輪 engineering」。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-69"
     },
@@ -5766,11 +5250,9 @@ export default {
       "masked": "The fracture required ____.",
       "options": [
         "reduce-mcq-71",
-        "reduce-mcq-70",
-        "reduce-mcq-72",
-        "reduce-mcq-69",
-        "reduce-mcq-73",
-        "reduce-mcq-68"
+        "reduce-mcq-79",
+        "reduce-mcq-37",
+        "reduce-pdf-plain-083"
       ],
       "explanation": "本句的「reduction」指「骨折復位 medicine」。",
       "sentenceIndex": 189,
@@ -5779,12 +5261,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-71": "本句指「骨折復位 medicine」。",
-        "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。",
-        "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。",
-        "reduce-mcq-69": "「減速齒輪 engineering」與本句語境不同。",
-        "reduce-mcq-73": "「切開復位 medicine」與本句語境不同。",
-        "reduce-mcq-68": "「減速 engineering」與本句語境不同。"
+        "reduce-mcq-71": "本句的「reduction」指「骨折復位 medicine」。",
+        "reduce-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-083": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-71"
     },
@@ -5796,11 +5276,9 @@ export default {
       "masked": "Doctors performed a closed ____.",
       "options": [
         "reduce-mcq-71",
-        "reduce-mcq-70",
-        "reduce-mcq-72",
-        "reduce-mcq-69",
-        "reduce-mcq-73",
-        "reduce-mcq-68"
+        "reduce-mcq-21",
+        "reduce-mcq-52",
+        "reduce-mcq-48"
       ],
       "explanation": "本句的「reduction」指「骨折復位 medicine」。",
       "sentenceIndex": 190,
@@ -5809,12 +5287,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-71": "本句指「骨折復位 medicine」。",
-        "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。",
-        "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。",
-        "reduce-mcq-69": "「減速齒輪 engineering」與本句語境不同。",
-        "reduce-mcq-73": "「切開復位 medicine」與本句語境不同。",
-        "reduce-mcq-68": "「減速 engineering」與本句語境不同。"
+        "reduce-mcq-71": "本句的「reduction」指「骨折復位 medicine」。",
+        "reduce-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-71"
     },
@@ -5826,11 +5302,9 @@ export default {
       "masked": "The fracture was treated with closed ____.",
       "options": [
         "reduce-mcq-72",
-        "reduce-mcq-71",
-        "reduce-mcq-73",
-        "reduce-mcq-70",
-        "reduce-mcq-74",
-        "reduce-mcq-69"
+        "reduce-mcq-63",
+        "reduce-mcq-19",
+        "reduce-mcq-51"
       ],
       "explanation": "本句的「reduction」指「閉合復位 medicine」。",
       "sentenceIndex": 191,
@@ -5839,12 +5313,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-72": "本句指「閉合復位 medicine」。",
-        "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。",
-        "reduce-mcq-73": "「切開復位 medicine」與本句語境不同。",
-        "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
-        "reduce-mcq-69": "「減速齒輪 engineering」與本句語境不同。"
+        "reduce-mcq-72": "本句的「reduction」指「閉合復位 medicine」。",
+        "reduce-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-72"
     },
@@ -5856,11 +5328,9 @@ export default {
       "masked": "Closed ____ does not require surgically opening the fracture site.",
       "options": [
         "reduce-mcq-72",
-        "reduce-mcq-71",
-        "reduce-mcq-73",
-        "reduce-mcq-70",
-        "reduce-mcq-74",
-        "reduce-mcq-69"
+        "reduce-mcq-64",
+        "reduce-pdf-plain-099",
+        "reduce-mcq-74"
       ],
       "explanation": "本句的「reduction」指「閉合復位 medicine」。",
       "sentenceIndex": 192,
@@ -5869,12 +5339,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-72": "本句指「閉合復位 medicine」。",
-        "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。",
-        "reduce-mcq-73": "「切開復位 medicine」與本句語境不同。",
-        "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
-        "reduce-mcq-69": "「減速齒輪 engineering」與本句語境不同。"
+        "reduce-mcq-72": "本句的「reduction」指「閉合復位 medicine」。",
+        "reduce-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-099": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-72"
     },
@@ -5886,11 +5354,9 @@ export default {
       "masked": "Severe fractures may require open ____.",
       "options": [
         "reduce-mcq-73",
-        "reduce-mcq-72",
-        "reduce-mcq-74",
-        "reduce-mcq-71",
-        "reduce-mcq-75",
-        "reduce-mcq-70"
+        "reduce-mcq-83",
+        "reduce-mcq-35",
+        "reduce-mcq-65"
       ],
       "explanation": "本句的「reduction」指「切開復位 medicine」。",
       "sentenceIndex": 193,
@@ -5899,12 +5365,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-73": "本句指「切開復位 medicine」。",
-        "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
-        "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
-        "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。"
+        "reduce-mcq-73": "本句的「reduction」指「切開復位 medicine」。",
+        "reduce-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-73"
     },
@@ -5916,11 +5380,9 @@ export default {
       "masked": "Open ____ allows direct surgical alignment.",
       "options": [
         "reduce-mcq-73",
-        "reduce-mcq-72",
-        "reduce-mcq-74",
-        "reduce-mcq-71",
-        "reduce-mcq-75",
-        "reduce-mcq-70"
+        "reduce-mcq-05",
+        "reduce-mcq-52",
+        "reduce-pdf-plain-101"
       ],
       "explanation": "本句的「reduction」指「切開復位 medicine」。",
       "sentenceIndex": 194,
@@ -5929,12 +5391,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-73": "本句指「切開復位 medicine」。",
-        "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
-        "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
-        "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。"
+        "reduce-mcq-73": "本句的「reduction」指「切開復位 medicine」。",
+        "reduce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-101": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-73"
     },
@@ -5946,11 +5406,9 @@ export default {
       "masked": "She underwent breast ____ surgery.",
       "options": [
         "reduce-mcq-74",
-        "reduce-mcq-73",
-        "reduce-mcq-75",
-        "reduce-mcq-72",
-        "reduce-mcq-76",
-        "reduce-mcq-71"
+        "reduce-mcq-33",
+        "reduce-mcq-79",
+        "reduce-mcq-76"
       ],
       "explanation": "本句的「reduction」指「縮胸手術 medicine」。",
       "sentenceIndex": 195,
@@ -5959,12 +5417,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-74": "本句指「縮胸手術 medicine」。",
-        "reduce-mcq-73": "「切開復位 medicine」與本句語境不同。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
-        "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。",
-        "reduce-mcq-76": "「經濟狀況大不如前 fixed expression」與本句語境不同。",
-        "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。"
+        "reduce-mcq-74": "本句的「reduction」指「縮胸手術 medicine」。",
+        "reduce-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-74"
     },
@@ -5976,11 +5432,9 @@ export default {
       "masked": "Breast ____ removes tissue to reduce breast size.",
       "options": [
         "reduce-mcq-74",
-        "reduce-mcq-73",
-        "reduce-mcq-75",
-        "reduce-mcq-72",
-        "reduce-mcq-76",
-        "reduce-mcq-71"
+        "reduce-mcq-65",
+        "reduce-mcq-82",
+        "reduce-mcq-63"
       ],
       "explanation": "本句的「reduction」指「縮胸手術 medicine」。",
       "sentenceIndex": 196,
@@ -5989,12 +5443,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-74": "本句指「縮胸手術 medicine」。",
-        "reduce-mcq-73": "「切開復位 medicine」與本句語境不同。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
-        "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。",
-        "reduce-mcq-76": "「經濟狀況大不如前 fixed expression」與本句語境不同。",
-        "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。"
+        "reduce-mcq-74": "本句的「reduction」指「縮胸手術 medicine」。",
+        "reduce-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-74"
     },
@@ -6006,11 +5458,9 @@ export default {
       "masked": "The image is a ____ of the original.",
       "options": [
         "reduce-pdf-plain-099",
-        "reduce-mcq-72",
-        "reduce-mcq-74",
-        "reduce-mcq-71",
-        "reduce-mcq-75",
-        "reduce-mcq-70"
+        "reduce-mcq-31",
+        "reduce-mcq-73",
+        "reduce-mcq-75"
       ],
       "explanation": "本句的「reduction」指「原圖的縮小版本；縮印」。",
       "sentenceIndex": 197,
@@ -6019,12 +5469,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-pdf-plain-099": "本句指「原圖的縮小版本；縮印」。",
-        "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
-        "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
-        "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。"
+        "reduce-pdf-plain-099": "本句的「reduction」指「原圖的縮小版本；縮印」。",
+        "reduce-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-pdf-plain-099"
     },
@@ -6036,11 +5484,9 @@ export default {
       "masked": "The document was printed at a 50% ____.",
       "options": [
         "reduce-pdf-plain-099",
-        "reduce-mcq-72",
-        "reduce-mcq-74",
-        "reduce-mcq-71",
-        "reduce-mcq-75",
-        "reduce-mcq-70"
+        "reduce-mcq-37",
+        "reduce-mcq-60",
+        "reduce-mcq-71"
       ],
       "explanation": "本句的「reduction」指「原圖的縮小版本；縮印」。",
       "sentenceIndex": 198,
@@ -6049,12 +5495,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-pdf-plain-099": "本句指「原圖的縮小版本；縮印」。",
-        "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
-        "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
-        "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。"
+        "reduce-pdf-plain-099": "本句的「reduction」指「原圖的縮小版本；縮印」。",
+        "reduce-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-pdf-plain-099"
     },
@@ -6066,11 +5510,9 @@ export default {
       "masked": "Members receive a 10% ____.",
       "options": [
         "reduce-pdf-plain-101",
-        "reduce-mcq-72",
-        "reduce-mcq-74",
-        "reduce-mcq-71",
-        "reduce-mcq-75",
-        "reduce-mcq-70"
+        "reduce-mcq-35",
+        "reduce-mcq-16",
+        "reduce-mcq-87"
       ],
       "explanation": "本句的「reduction」指「減價；折扣」。",
       "sentenceIndex": 201,
@@ -6079,12 +5521,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-pdf-plain-101": "本句指「減價；折扣」。",
-        "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
-        "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
-        "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。"
+        "reduce-pdf-plain-101": "本句的「reduction」指「減價；折扣」。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-pdf-plain-101"
     },
@@ -6096,11 +5536,9 @@ export default {
       "masked": "There has been a substantial ____ in prices.",
       "options": [
         "reduce-pdf-plain-101",
-        "reduce-mcq-72",
-        "reduce-mcq-74",
-        "reduce-mcq-71",
-        "reduce-mcq-75",
-        "reduce-mcq-70"
+        "reduce-mcq-35",
+        "reduce-mcq-73",
+        "reduce-mcq-78"
       ],
       "explanation": "本句的「reduction」指「減價；折扣」。",
       "sentenceIndex": 202,
@@ -6109,12 +5547,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-pdf-plain-101": "本句指「減價；折扣」。",
-        "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
-        "reduce-mcq-71": "「骨折復位 medicine」與本句語境不同。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
-        "reduce-mcq-70": "「減速器／變徑接頭等 technical」與本句語境不同。"
+        "reduce-pdf-plain-101": "本句的「reduction」指「減價；折扣」。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-pdf-plain-101"
     },
@@ -6126,11 +5562,9 @@ export default {
       "masked": "The store announced a price ____.",
       "options": [
         "reduce-mcq-75",
-        "reduce-mcq-74",
-        "reduce-mcq-76",
-        "reduce-mcq-73",
-        "reduce-mcq-77",
-        "reduce-mcq-72"
+        "reduce-mcq-31",
+        "reduce-pdf-plain-082",
+        "reduce-mcq-86"
       ],
       "explanation": "本句的「reduction」指「降價 commercial」。",
       "sentenceIndex": 203,
@@ -6139,12 +5573,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-75": "本句指「降價 commercial」。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
-        "reduce-mcq-76": "「經濟狀況大不如前 fixed expression」與本句語境不同。",
-        "reduce-mcq-73": "「切開復位 medicine」與本句語境不同。",
-        "reduce-mcq-77": "「較低產能／容量 lower capacity」與本句語境不同。",
-        "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。"
+        "reduce-mcq-75": "本句的「reduction」指「降價 commercial」。",
+        "reduce-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-86": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-75"
     },
@@ -6156,11 +5588,9 @@ export default {
       "masked": "The price ____ increased demand.",
       "options": [
         "reduce-mcq-75",
+        "reduce-mcq-28",
         "reduce-mcq-74",
-        "reduce-mcq-76",
-        "reduce-mcq-73",
-        "reduce-mcq-77",
-        "reduce-mcq-72"
+        "reduce-mcq-13"
       ],
       "explanation": "本句的「reduction」指「降價 commercial」。",
       "sentenceIndex": 204,
@@ -6169,12 +5599,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-75": "本句指「降價 commercial」。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
-        "reduce-mcq-76": "「經濟狀況大不如前 fixed expression」與本句語境不同。",
-        "reduce-mcq-73": "「切開復位 medicine」與本句語境不同。",
-        "reduce-mcq-77": "「較低產能／容量 lower capacity」與本句語境不同。",
-        "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。"
+        "reduce-mcq-75": "本句的「reduction」指「降價 commercial」。",
+        "reduce-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-75"
     },
@@ -6186,11 +5614,9 @@ export default {
       "masked": "The family was living in ____ circumstances.",
       "options": [
         "reduce-mcq-76",
-        "reduce-mcq-75",
-        "reduce-mcq-77",
-        "reduce-mcq-74",
-        "reduce-mcq-78",
-        "reduce-mcq-73"
+        "reduce-mcq-45",
+        "reduce-mcq-25",
+        "reduce-mcq-52"
       ],
       "explanation": "本句的「reduced」指「經濟狀況大不如前 fixed expression」。",
       "sentenceIndex": 207,
@@ -6199,12 +5625,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-76": "本句指「經濟狀況大不如前 fixed expression」。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
-        "reduce-mcq-77": "「較低產能／容量 lower capacity」與本句語境不同。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
-        "reduce-mcq-78": "「能見度降低 visibility」與本句語境不同。",
-        "reduce-mcq-73": "「切開復位 medicine」與本句語境不同。"
+        "reduce-mcq-76": "本句的「reduced」指「經濟狀況大不如前 fixed expression」。",
+        "reduce-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-76"
     },
@@ -6216,11 +5640,9 @@ export default {
       "masked": "After losing the business, he found himself in ____ circumstances.",
       "options": [
         "reduce-mcq-76",
-        "reduce-mcq-75",
-        "reduce-mcq-77",
-        "reduce-mcq-74",
-        "reduce-mcq-78",
-        "reduce-mcq-73"
+        "reduce-pdf-plain-082",
+        "reduce-mcq-36",
+        "reduce-mcq-26"
       ],
       "explanation": "本句的「reduced」指「經濟狀況大不如前 fixed expression」。",
       "sentenceIndex": 208,
@@ -6229,12 +5651,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-76": "本句指「經濟狀況大不如前 fixed expression」。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
-        "reduce-mcq-77": "「較低產能／容量 lower capacity」與本句語境不同。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
-        "reduce-mcq-78": "「能見度降低 visibility」與本句語境不同。",
-        "reduce-mcq-73": "「切開復位 medicine」與本句語境不同。"
+        "reduce-mcq-76": "本句的「reduced」指「經濟狀況大不如前 fixed expression」。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-76"
     },
@@ -6246,11 +5666,9 @@ export default {
       "masked": "The factory is operating at ____ capacity.",
       "options": [
         "reduce-mcq-77",
-        "reduce-mcq-76",
-        "reduce-mcq-78",
-        "reduce-mcq-75",
-        "reduce-mcq-79",
-        "reduce-mcq-74"
+        "reduce-mcq-23",
+        "reduce-pdf-plain-083",
+        "reduce-mcq-05"
       ],
       "explanation": "本句的「reduced」指「較低產能／容量 lower capacity」。",
       "sentenceIndex": 209,
@@ -6259,12 +5677,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-77": "本句指「較低產能／容量 lower capacity」。",
-        "reduce-mcq-76": "「經濟狀況大不如前 fixed expression」與本句語境不同。",
-        "reduce-mcq-78": "「能見度降低 visibility」與本句語境不同。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
-        "reduce-mcq-79": "「行動能力下降 mobility」與本句語境不同。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。"
+        "reduce-mcq-77": "本句的「reduced」指「較低產能／容量 lower capacity」。",
+        "reduce-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-083": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-77"
     },
@@ -6276,11 +5692,9 @@ export default {
       "masked": "The service continued at ____ capacity.",
       "options": [
         "reduce-mcq-77",
-        "reduce-mcq-76",
-        "reduce-mcq-78",
-        "reduce-mcq-75",
-        "reduce-mcq-79",
-        "reduce-mcq-74"
+        "reduce-mcq-59",
+        "reduce-mcq-43",
+        "reduce-mcq-87"
       ],
       "explanation": "本句的「reduced」指「較低產能／容量 lower capacity」。",
       "sentenceIndex": 210,
@@ -6289,12 +5703,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-77": "本句指「較低產能／容量 lower capacity」。",
-        "reduce-mcq-76": "「經濟狀況大不如前 fixed expression」與本句語境不同。",
-        "reduce-mcq-78": "「能見度降低 visibility」與本句語境不同。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。",
-        "reduce-mcq-79": "「行動能力下降 mobility」與本句語境不同。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。"
+        "reduce-mcq-77": "本句的「reduced」指「較低產能／容量 lower capacity」。",
+        "reduce-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-77"
     },
@@ -6306,11 +5718,9 @@ export default {
       "masked": "Drivers should slow down in ____ visibility.",
       "options": [
         "reduce-mcq-78",
-        "reduce-mcq-77",
-        "reduce-mcq-79",
-        "reduce-mcq-76",
-        "reduce-mcq-80",
-        "reduce-mcq-75"
+        "reduce-mcq-56",
+        "reduce-pdf-plain-082",
+        "reduce-mcq-68"
       ],
       "explanation": "本句的「reduced」指「能見度降低 visibility」。",
       "sentenceIndex": 211,
@@ -6319,12 +5729,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-78": "本句指「能見度降低 visibility」。",
-        "reduce-mcq-77": "「較低產能／容量 lower capacity」與本句語境不同。",
-        "reduce-mcq-79": "「行動能力下降 mobility」與本句語境不同。",
-        "reduce-mcq-76": "「經濟狀況大不如前 fixed expression」與本句語境不同。",
-        "reduce-mcq-80": "「的下降 noun result」與本句語境不同。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。"
+        "reduce-mcq-78": "本句的「reduced」指「能見度降低 visibility」。",
+        "reduce-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-082": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-78"
     },
@@ -6336,11 +5744,9 @@ export default {
       "masked": "Fog caused ____ visibility.",
       "options": [
         "reduce-mcq-78",
-        "reduce-mcq-77",
-        "reduce-mcq-79",
-        "reduce-mcq-76",
-        "reduce-mcq-80",
-        "reduce-mcq-75"
+        "reduce-mcq-37",
+        "reduce-mcq-74",
+        "reduce-mcq-73"
       ],
       "explanation": "本句的「reduced」指「能見度降低 visibility」。",
       "sentenceIndex": 212,
@@ -6349,12 +5755,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-78": "本句指「能見度降低 visibility」。",
-        "reduce-mcq-77": "「較低產能／容量 lower capacity」與本句語境不同。",
-        "reduce-mcq-79": "「行動能力下降 mobility」與本句語境不同。",
-        "reduce-mcq-76": "「經濟狀況大不如前 fixed expression」與本句語境不同。",
-        "reduce-mcq-80": "「的下降 noun result」與本句語境不同。",
-        "reduce-mcq-75": "「降價 commercial」與本句語境不同。"
+        "reduce-mcq-78": "本句的「reduced」指「能見度降低 visibility」。",
+        "reduce-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-78"
     },
@@ -6366,11 +5770,9 @@ export default {
       "masked": "The building has facilities for people with ____ mobility.",
       "options": [
         "reduce-mcq-79",
-        "reduce-mcq-78",
-        "reduce-mcq-80",
-        "reduce-mcq-77",
-        "reduce-mcq-81",
-        "reduce-mcq-76"
+        "reduce-mcq-13",
+        "reduce-mcq-22",
+        "reduce-pdf-plain-083"
       ],
       "explanation": "本句的「reduced」指「行動能力下降 mobility」。",
       "sentenceIndex": 213,
@@ -6379,12 +5781,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-79": "本句指「行動能力下降 mobility」。",
-        "reduce-mcq-78": "「能見度降低 visibility」與本句語境不同。",
-        "reduce-mcq-80": "「的下降 noun result」與本句語境不同。",
-        "reduce-mcq-77": "「較低產能／容量 lower capacity」與本句語境不同。",
-        "reduce-mcq-81": "「對 X 的削減 noun process」與本句語境不同。",
-        "reduce-mcq-76": "「經濟狀況大不如前 fixed expression」與本句語境不同。"
+        "reduce-mcq-79": "本句的「reduced」指「行動能力下降 mobility」。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-083": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-79"
     },
@@ -6396,11 +5796,9 @@ export default {
       "masked": "Injury can cause temporarily ____ mobility.",
       "options": [
         "reduce-mcq-79",
-        "reduce-mcq-78",
-        "reduce-mcq-80",
-        "reduce-mcq-77",
-        "reduce-mcq-81",
-        "reduce-mcq-76"
+        "reduce-mcq-25",
+        "reduce-pdf-plain-083",
+        "reduce-mcq-60"
       ],
       "explanation": "本句的「reduced」指「行動能力下降 mobility」。",
       "sentenceIndex": 214,
@@ -6409,12 +5807,10 @@ export default {
         "reduced"
       ],
       "optionReasons": {
-        "reduce-mcq-79": "本句指「行動能力下降 mobility」。",
-        "reduce-mcq-78": "「能見度降低 visibility」與本句語境不同。",
-        "reduce-mcq-80": "「的下降 noun result」與本句語境不同。",
-        "reduce-mcq-77": "「較低產能／容量 lower capacity」與本句語境不同。",
-        "reduce-mcq-81": "「對 X 的削減 noun process」與本句語境不同。",
-        "reduce-mcq-76": "「經濟狀況大不如前 fixed expression」與本句語境不同。"
+        "reduce-mcq-79": "本句的「reduced」指「行動能力下降 mobility」。",
+        "reduce-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "reduce-pdf-plain-083": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-79"
     },
@@ -6426,11 +5822,9 @@ export default {
       "masked": "There has been a significant ____ in confusion.",
       "options": [
         "reduce-mcq-75",
-        "reduce-mcq-74",
-        "reduce-mcq-76",
-        "reduce-mcq-73",
-        "reduce-mcq-77",
-        "reduce-mcq-72"
+        "reduce-mcq-42",
+        "reduce-mcq-52",
+        "reduce-mcq-13"
       ],
       "explanation": "本句的「reduction」指「降價 commercial」。",
       "sentenceIndex": 217,
@@ -6439,12 +5833,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-75": "本句指「降價 commercial」。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
-        "reduce-mcq-76": "「經濟狀況大不如前 fixed expression」與本句語境不同。",
-        "reduce-mcq-73": "「切開復位 medicine」與本句語境不同。",
-        "reduce-mcq-77": "「較低產能／容量 lower capacity」與本句語境不同。",
-        "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。"
+        "reduce-mcq-75": "本句的「reduction」指「降價 commercial」。",
+        "reduce-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-75"
     },
@@ -6456,11 +5848,9 @@ export default {
       "masked": "The company reported a ____ in costs.",
       "options": [
         "reduce-mcq-75",
-        "reduce-mcq-74",
-        "reduce-mcq-76",
         "reduce-mcq-73",
         "reduce-mcq-77",
-        "reduce-mcq-72"
+        "reduce-mcq-08"
       ],
       "explanation": "本句的「reduction」指「降價 commercial」。",
       "sentenceIndex": 218,
@@ -6469,12 +5859,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-75": "本句指「降價 commercial」。",
-        "reduce-mcq-74": "「縮胸手術 medicine」與本句語境不同。",
-        "reduce-mcq-76": "「經濟狀況大不如前 fixed expression」與本句語境不同。",
-        "reduce-mcq-73": "「切開復位 medicine」與本句語境不同。",
-        "reduce-mcq-77": "「較低產能／容量 lower capacity」與本句語境不同。",
-        "reduce-mcq-72": "「閉合復位 medicine」與本句語境不同。"
+        "reduce-mcq-75": "本句的「reduction」指「降價 commercial」。",
+        "reduce-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-75"
     },
@@ -6486,11 +5874,9 @@ export default {
       "masked": "The company set an emissions ____ target.",
       "options": [
         "reduce-mcq-82",
-        "reduce-mcq-81",
-        "reduce-mcq-83",
-        "reduce-mcq-80",
-        "reduce-mcq-84",
-        "reduce-mcq-79"
+        "reduce-mcq-40",
+        "reduce-mcq-51",
+        "reduce-mcq-13"
       ],
       "explanation": "本句的「reduction」指「削減目標 target」。",
       "sentenceIndex": 227,
@@ -6499,12 +5885,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-82": "本句指「削減目標 target」。",
-        "reduce-mcq-81": "「對 X 的削減 noun process」與本句語境不同。",
-        "reduce-mcq-83": "「可減少／可化簡的 can be reduced」與本句語境不同。",
-        "reduce-mcq-80": "「的下降 noun result」與本句語境不同。",
-        "reduce-mcq-84": "「不可再減少／化簡的 cannot be reduced」與本句語境不同。",
-        "reduce-mcq-79": "「行動能力下降 mobility」與本句語境不同。"
+        "reduce-mcq-82": "本句的「reduction」指「削減目標 target」。",
+        "reduce-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-82"
     },
@@ -6516,11 +5900,9 @@ export default {
       "masked": "The cost-____ target was achieved.",
       "options": [
         "reduce-mcq-82",
-        "reduce-mcq-81",
-        "reduce-mcq-83",
-        "reduce-mcq-80",
-        "reduce-mcq-84",
-        "reduce-mcq-79"
+        "reduce-mcq-60",
+        "reduce-mcq-38",
+        "reduce-mcq-35"
       ],
       "explanation": "本句的「reduction」指「削減目標 target」。",
       "sentenceIndex": 228,
@@ -6529,12 +5911,10 @@ export default {
         "reduction"
       ],
       "optionReasons": {
-        "reduce-mcq-82": "本句指「削減目標 target」。",
-        "reduce-mcq-81": "「對 X 的削減 noun process」與本句語境不同。",
-        "reduce-mcq-83": "「可減少／可化簡的 can be reduced」與本句語境不同。",
-        "reduce-mcq-80": "「的下降 noun result」與本句語境不同。",
-        "reduce-mcq-84": "「不可再減少／化簡的 cannot be reduced」與本句語境不同。",
-        "reduce-mcq-79": "「行動能力下降 mobility」與本句語境不同。"
+        "reduce-mcq-82": "本句的「reduction」指「削減目標 target」。",
+        "reduce-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-82"
     },
@@ -6546,11 +5926,9 @@ export default {
       "masked": "Some costs are more easily ____ than others.",
       "options": [
         "reduce-mcq-83",
-        "reduce-mcq-82",
-        "reduce-mcq-84",
-        "reduce-mcq-81",
-        "reduce-mcq-85",
-        "reduce-mcq-80"
+        "reduce-mcq-35",
+        "reduce-mcq-13",
+        "reduce-mcq-71"
       ],
       "explanation": "本句的「reducible」指「可減少／可化簡的 can be reduced」。",
       "sentenceIndex": 229,
@@ -6559,12 +5937,10 @@ export default {
         "reducible"
       ],
       "optionReasons": {
-        "reduce-mcq-83": "本句指「可減少／可化簡的 can be reduced」。",
-        "reduce-mcq-82": "「削減目標 target」與本句語境不同。",
-        "reduce-mcq-84": "「不可再減少／化簡的 cannot be reduced」與本句語境不同。",
-        "reduce-mcq-81": "「對 X 的削減 noun process」與本句語境不同。",
-        "reduce-mcq-85": "「不可再降低的最低限度 minimum」與本句語境不同。",
-        "reduce-mcq-80": "「的下降 noun result」與本句語境不同。"
+        "reduce-mcq-83": "本句的「reducible」指「可減少／可化簡的 can be reduced」。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-83"
     },
@@ -6576,11 +5952,9 @@ export default {
       "masked": "The fraction is ____.",
       "options": [
         "reduce-mcq-83",
-        "reduce-mcq-82",
-        "reduce-mcq-84",
-        "reduce-mcq-81",
-        "reduce-mcq-85",
-        "reduce-mcq-80"
+        "reduce-mcq-66",
+        "reduce-mcq-87",
+        "reduce-mcq-25"
       ],
       "explanation": "本句的「reducible」指「可減少／可化簡的 can be reduced」。",
       "sentenceIndex": 230,
@@ -6589,12 +5963,10 @@ export default {
         "reducible"
       ],
       "optionReasons": {
-        "reduce-mcq-83": "本句指「可減少／可化簡的 can be reduced」。",
-        "reduce-mcq-82": "「削減目標 target」與本句語境不同。",
-        "reduce-mcq-84": "「不可再減少／化簡的 cannot be reduced」與本句語境不同。",
-        "reduce-mcq-81": "「對 X 的削減 noun process」與本句語境不同。",
-        "reduce-mcq-85": "「不可再降低的最低限度 minimum」與本句語境不同。",
-        "reduce-mcq-80": "「的下降 noun result」與本句語境不同。"
+        "reduce-mcq-83": "本句的「reducible」指「可減少／可化簡的 can be reduced」。",
+        "reduce-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-83"
     },
@@ -6606,11 +5978,9 @@ export default {
       "masked": "Critics accused the theory of ____.",
       "options": [
         "reduce-mcq-86",
-        "reduce-mcq-85",
-        "reduce-mcq-87",
-        "reduce-mcq-84",
-        "reduce-mcq-83",
-        "reduce-mcq-82"
+        "reduce-mcq-08",
+        "reduce-mcq-51",
+        "reduce-mcq-71"
       ],
       "explanation": "本句的「reductionism」指「還原論 theoretical approach」。",
       "sentenceIndex": 231,
@@ -6619,12 +5989,10 @@ export default {
         "reductionism"
       ],
       "optionReasons": {
-        "reduce-mcq-86": "本句指「還原論 theoretical approach」。",
-        "reduce-mcq-85": "「不可再降低的最低限度 minimum」與本句語境不同。",
-        "reduce-mcq-87": "「還原論的／還原論者 theory/person」與本句語境不同。",
-        "reduce-mcq-84": "「不可再減少／化簡的 cannot be reduced」與本句語境不同。",
-        "reduce-mcq-83": "「可減少／可化簡的 can be reduced」與本句語境不同。",
-        "reduce-mcq-82": "「削減目標 target」與本句語境不同。"
+        "reduce-mcq-86": "本句的「reductionism」指「還原論 theoretical approach」。",
+        "reduce-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-86"
     },
@@ -6636,11 +6004,9 @@ export default {
       "masked": "____ attempts to explain complex phenomena in terms of simpler components.",
       "options": [
         "reduce-mcq-86",
-        "reduce-mcq-85",
-        "reduce-mcq-87",
-        "reduce-mcq-84",
-        "reduce-mcq-83",
-        "reduce-mcq-82"
+        "reduce-mcq-14",
+        "reduce-mcq-74",
+        "reduce-mcq-23"
       ],
       "explanation": "本句的「Reductionism」指「還原論 theoretical approach」。",
       "sentenceIndex": 232,
@@ -6649,12 +6015,10 @@ export default {
         "Reductionism"
       ],
       "optionReasons": {
-        "reduce-mcq-86": "本句指「還原論 theoretical approach」。",
-        "reduce-mcq-85": "「不可再降低的最低限度 minimum」與本句語境不同。",
-        "reduce-mcq-87": "「還原論的／還原論者 theory/person」與本句語境不同。",
-        "reduce-mcq-84": "「不可再減少／化簡的 cannot be reduced」與本句語境不同。",
-        "reduce-mcq-83": "「可減少／可化簡的 can be reduced」與本句語境不同。",
-        "reduce-mcq-82": "「削減目標 target」與本句語境不同。"
+        "reduce-mcq-86": "本句的「Reductionism」指「還原論 theoretical approach」。",
+        "reduce-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-86"
     },
@@ -6666,11 +6030,9 @@ export default {
       "masked": "That is a ____ explanation of human behaviour.",
       "options": [
         "reduce-mcq-87",
-        "reduce-mcq-86",
-        "reduce-mcq-85",
-        "reduce-mcq-84",
-        "reduce-mcq-83",
-        "reduce-mcq-82"
+        "reduce-mcq-35",
+        "reduce-mcq-47",
+        "reduce-mcq-65"
       ],
       "explanation": "本句的「reductionist」指「還原論的／還原論者 theory/person」。",
       "sentenceIndex": 233,
@@ -6679,12 +6041,10 @@ export default {
         "reductionist"
       ],
       "optionReasons": {
-        "reduce-mcq-87": "本句指「還原論的／還原論者 theory/person」。",
-        "reduce-mcq-86": "「還原論 theoretical approach」與本句語境不同。",
-        "reduce-mcq-85": "「不可再降低的最低限度 minimum」與本句語境不同。",
-        "reduce-mcq-84": "「不可再減少／化簡的 cannot be reduced」與本句語境不同。",
-        "reduce-mcq-83": "「可減少／可化簡的 can be reduced」與本句語境不同。",
-        "reduce-mcq-82": "「削減目標 target」與本句語境不同。"
+        "reduce-mcq-87": "本句的「reductionist」指「還原論的／還原論者 theory/person」。",
+        "reduce-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-87"
     },
@@ -6696,11 +6056,9 @@ export default {
       "masked": "A ____ may focus on simpler underlying mechanisms.",
       "options": [
         "reduce-mcq-87",
-        "reduce-mcq-86",
-        "reduce-mcq-85",
-        "reduce-mcq-84",
-        "reduce-mcq-83",
-        "reduce-mcq-82"
+        "reduce-mcq-38",
+        "reduce-mcq-72",
+        "reduce-mcq-20"
       ],
       "explanation": "本句的「reductionist」指「還原論的／還原論者 theory/person」。",
       "sentenceIndex": 234,
@@ -6709,12 +6067,10 @@ export default {
         "reductionist"
       ],
       "optionReasons": {
-        "reduce-mcq-87": "本句指「還原論的／還原論者 theory/person」。",
-        "reduce-mcq-86": "「還原論 theoretical approach」與本句語境不同。",
-        "reduce-mcq-85": "「不可再降低的最低限度 minimum」與本句語境不同。",
-        "reduce-mcq-84": "「不可再減少／化簡的 cannot be reduced」與本句語境不同。",
-        "reduce-mcq-83": "「可減少／可化簡的 can be reduced」與本句語境不同。",
-        "reduce-mcq-82": "「削減目標 target」與本句語境不同。"
+        "reduce-mcq-87": "本句的「reductionist」指「還原論的／還原論者 theory/person」。",
+        "reduce-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "reduce-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reduce-mcq-87"
     }
@@ -6726,5 +6082,7 @@ export default {
     "sha256": "6af1b295720cce12a04ad01f17415af465a4f0c7dd1aae2a6a221676d34c1882",
     "pages": 81
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

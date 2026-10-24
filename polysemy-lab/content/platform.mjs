@@ -664,11 +664,9 @@ export default {
       "masked": "The speaker stood on a raised ____.",
       "options": [
         "platform-mcq-01",
-        "platform-mcq-02",
-        "platform-mcq-03",
-        "platform-mcq-04",
-        "platform-mcq-05",
-        "platform-mcq-06"
+        "platform-mcq-14",
+        "platform-mcq-19",
+        "platform-mcq-18"
       ],
       "explanation": "本句的「platform」指「高於周圍表面的平坦區域，供人站立、工作或放置設備」。",
       "sentenceIndex": 0,
@@ -677,12 +675,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-01": "本句指「高於周圍表面的平坦區域，供人站立、工作或放置設備」。",
-        "platform-mcq-02": "「供演講者／表演者站立的高台」與本句語境不同。",
-        "platform-mcq-03": "「車站內供乘客候車及上落列車的月台」與本句語境不同。",
-        "platform-mcq-04": "「讓使用者發布內容、互動、交易或使用服務的網上系統」與本句語境不同。",
-        "platform-mcq-05": "「讓使用者建立、發布、分享內容及社交互動的數碼服務」與本句語境不同。",
-        "platform-mcq-06": "「軟件運行／開發所依賴的硬件、作業系統或技術環境」與本句語境不同。"
+        "platform-mcq-01": "本句的「platform」指「高於周圍表面的平坦區域，供人站立、工作或放置設備」。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-01"
     },
@@ -694,11 +690,9 @@ export default {
       "masked": "The equipment was placed on a concrete ____.",
       "options": [
         "platform-mcq-01",
-        "platform-mcq-02",
-        "platform-mcq-03",
-        "platform-mcq-04",
-        "platform-mcq-05",
-        "platform-mcq-06"
+        "platform-mcq-19",
+        "platform-mcq-14",
+        "platform-mcq-20"
       ],
       "explanation": "本句的「platform」指「高於周圍表面的平坦區域，供人站立、工作或放置設備」。",
       "sentenceIndex": 1,
@@ -707,12 +701,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-01": "本句指「高於周圍表面的平坦區域，供人站立、工作或放置設備」。",
-        "platform-mcq-02": "「供演講者／表演者站立的高台」與本句語境不同。",
-        "platform-mcq-03": "「車站內供乘客候車及上落列車的月台」與本句語境不同。",
-        "platform-mcq-04": "「讓使用者發布內容、互動、交易或使用服務的網上系統」與本句語境不同。",
-        "platform-mcq-05": "「讓使用者建立、發布、分享內容及社交互動的數碼服務」與本句語境不同。",
-        "platform-mcq-06": "「軟件運行／開發所依賴的硬件、作業系統或技術環境」與本句語境不同。"
+        "platform-mcq-01": "本句的「platform」指「高於周圍表面的平坦區域，供人站立、工作或放置設備」。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-01"
     },
@@ -724,11 +716,9 @@ export default {
       "masked": "She stepped onto the ____ to address the crowd.",
       "options": [
         "platform-mcq-02",
-        "platform-mcq-01",
-        "platform-mcq-03",
-        "platform-mcq-04",
-        "platform-mcq-05",
-        "platform-mcq-06"
+        "platform-mcq-21",
+        "platform-mcq-19",
+        "platform-mcq-22"
       ],
       "explanation": "本句的「platform」指「供演講者／表演者站立的高台」。",
       "sentenceIndex": 2,
@@ -737,12 +727,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-02": "本句指「供演講者／表演者站立的高台」。",
-        "platform-mcq-01": "「高於周圍表面的平坦區域，供人站立、工作或放置設備」與本句語境不同。",
-        "platform-mcq-03": "「車站內供乘客候車及上落列車的月台」與本句語境不同。",
-        "platform-mcq-04": "「讓使用者發布內容、互動、交易或使用服務的網上系統」與本句語境不同。",
-        "platform-mcq-05": "「讓使用者建立、發布、分享內容及社交互動的數碼服務」與本句語境不同。",
-        "platform-mcq-06": "「軟件運行／開發所依賴的硬件、作業系統或技術環境」與本句語境不同。"
+        "platform-mcq-02": "本句的「platform」指「供演講者／表演者站立的高台」。",
+        "platform-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-02"
     },
@@ -754,10 +742,8 @@ export default {
       "masked": "The musicians were seated on a small ____.",
       "options": [
         "platform-mcq-02",
-        "platform-mcq-01",
-        "platform-mcq-03",
-        "platform-mcq-04",
-        "platform-mcq-05",
+        "platform-mcq-19",
+        "platform-mcq-22",
         "platform-mcq-06"
       ],
       "explanation": "本句的「platform」指「供演講者／表演者站立的高台」。",
@@ -767,12 +753,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-02": "本句指「供演講者／表演者站立的高台」。",
-        "platform-mcq-01": "「高於周圍表面的平坦區域，供人站立、工作或放置設備」與本句語境不同。",
-        "platform-mcq-03": "「車站內供乘客候車及上落列車的月台」與本句語境不同。",
-        "platform-mcq-04": "「讓使用者發布內容、互動、交易或使用服務的網上系統」與本句語境不同。",
-        "platform-mcq-05": "「讓使用者建立、發布、分享內容及社交互動的數碼服務」與本句語境不同。",
-        "platform-mcq-06": "「軟件運行／開發所依賴的硬件、作業系統或技術環境」與本句語境不同。"
+        "platform-mcq-02": "本句的「platform」指「供演講者／表演者站立的高台」。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-02"
     },
@@ -784,11 +768,9 @@ export default {
       "masked": "The train leaves from ____.",
       "options": [
         "platform-pdf-001",
-        "platform-mcq-01",
-        "platform-mcq-03",
-        "platform-mcq-04",
-        "platform-mcq-05",
-        "platform-mcq-06"
+        "platform-mcq-25",
+        "platform-mcq-14",
+        "platform-mcq-19"
       ],
       "explanation": "本句的「platform 4」指「火車／地鐵站內供乘客上落列車和等候的平面區域」。",
       "sentenceIndex": 6,
@@ -797,12 +779,10 @@ export default {
         "platform 4"
       ],
       "optionReasons": {
-        "platform-pdf-001": "本句指「火車／地鐵站內供乘客上落列車和等候的平面區域」。",
-        "platform-mcq-01": "「高於周圍表面的平坦區域，供人站立、工作或放置設備」與本句語境不同。",
-        "platform-mcq-03": "「車站內供乘客候車及上落列車的月台」與本句語境不同。",
-        "platform-mcq-04": "「讓使用者發布內容、互動、交易或使用服務的網上系統」與本句語境不同。",
-        "platform-mcq-05": "「讓使用者建立、發布、分享內容及社交互動的數碼服務」與本句語境不同。",
-        "platform-mcq-06": "「軟件運行／開發所依賴的硬件、作業系統或技術環境」與本句語境不同。"
+        "platform-pdf-001": "本句的「platform 4」指「火車／地鐵站內供乘客上落列車和等候的平面區域」。",
+        "platform-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-pdf-001"
     },
@@ -814,11 +794,9 @@ export default {
       "masked": "Passengers waited on the ____.",
       "options": [
         "platform-pdf-001",
-        "platform-mcq-01",
-        "platform-mcq-03",
-        "platform-mcq-04",
-        "platform-mcq-05",
-        "platform-mcq-06"
+        "platform-mcq-14",
+        "platform-mcq-25",
+        "platform-mcq-19"
       ],
       "explanation": "本句的「platform」指「火車／地鐵站內供乘客上落列車和等候的平面區域」。",
       "sentenceIndex": 7,
@@ -827,12 +805,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-pdf-001": "本句指「火車／地鐵站內供乘客上落列車和等候的平面區域」。",
-        "platform-mcq-01": "「高於周圍表面的平坦區域，供人站立、工作或放置設備」與本句語境不同。",
-        "platform-mcq-03": "「車站內供乘客候車及上落列車的月台」與本句語境不同。",
-        "platform-mcq-04": "「讓使用者發布內容、互動、交易或使用服務的網上系統」與本句語境不同。",
-        "platform-mcq-05": "「讓使用者建立、發布、分享內容及社交互動的數碼服務」與本句語境不同。",
-        "platform-mcq-06": "「軟件運行／開發所依賴的硬件、作業系統或技術環境」與本句語境不同。"
+        "platform-pdf-001": "本句的「platform」指「火車／地鐵站內供乘客上落列車和等候的平面區域」。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-pdf-001"
     },
@@ -844,11 +820,9 @@ export default {
       "masked": "The video spread quickly across several social media ____.",
       "options": [
         "platform-mcq-27",
-        "platform-mcq-26",
-        "platform-mcq-28",
-        "platform-mcq-25",
-        "platform-mcq-29",
-        "platform-mcq-24"
+        "platform-mcq-19",
+        "platform-mcq-14",
+        "platform-mcq-18"
       ],
       "explanation": "本句的「platforms」指「由雲端提供應用程式開發／部署環境的平台服務」。",
       "sentenceIndex": 14,
@@ -857,12 +831,10 @@ export default {
         "platforms"
       ],
       "optionReasons": {
-        "platform-mcq-27": "本句指「由雲端提供應用程式開發／部署環境的平台服務」。",
-        "platform-mcq-26": "「在雲端提供運算、儲存、開發或部署能力的平台」與本句語境不同。",
-        "platform-mcq-28": "「給某人／某觀點提供公開受眾、曝光或傳播渠道」與本句語境不同。",
-        "platform-mcq-25": "「讓使用者買賣金融資產的系統」與本句語境不同。",
-        "platform-mcq-29": "「取消某人使用某平台／公開發言渠道的能力」與本句語境不同。",
-        "platform-mcq-24": "「讓商戶與顧客進行網上商品交易的系統」與本句語境不同。"
+        "platform-mcq-27": "本句的「platforms」指「由雲端提供應用程式開發／部署環境的平台服務」。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-27"
     },
@@ -874,11 +846,9 @@ export default {
       "masked": "Each ____ has different rules.",
       "options": [
         "platform-mcq-27",
-        "platform-mcq-26",
-        "platform-mcq-28",
-        "platform-mcq-25",
-        "platform-mcq-29",
-        "platform-mcq-24"
+        "platform-mcq-19",
+        "platform-mcq-18",
+        "platform-mcq-20"
       ],
       "explanation": "本句的「platform」指「由雲端提供應用程式開發／部署環境的平台服務」。",
       "sentenceIndex": 15,
@@ -887,12 +857,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-27": "本句指「由雲端提供應用程式開發／部署環境的平台服務」。",
-        "platform-mcq-26": "「在雲端提供運算、儲存、開發或部署能力的平台」與本句語境不同。",
-        "platform-mcq-28": "「給某人／某觀點提供公開受眾、曝光或傳播渠道」與本句語境不同。",
-        "platform-mcq-25": "「讓使用者買賣金融資產的系統」與本句語境不同。",
-        "platform-mcq-29": "「取消某人使用某平台／公開發言渠道的能力」與本句語境不同。",
-        "platform-mcq-24": "「讓商戶與顧客進行網上商品交易的系統」與本句語境不同。"
+        "platform-mcq-27": "本句的「platform」指「由雲端提供應用程式開發／部署環境的平台服務」。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-27"
     },
@@ -904,11 +872,9 @@ export default {
       "masked": "Young people use several ____.",
       "options": [
         "platform-mcq-05",
-        "platform-mcq-04",
-        "platform-mcq-06",
-        "platform-mcq-03",
-        "platform-mcq-07",
-        "platform-mcq-02"
+        "platform-mcq-20",
+        "platform-mcq-18",
+        "platform-mcq-19"
       ],
       "explanation": "本句的「social media platforms」指「讓使用者建立、發布、分享內容及社交互動的數碼服務」。",
       "sentenceIndex": 16,
@@ -917,12 +883,10 @@ export default {
         "social media platforms"
       ],
       "optionReasons": {
-        "platform-mcq-05": "本句指「讓使用者建立、發布、分享內容及社交互動的數碼服務」。",
-        "platform-mcq-04": "「讓使用者發布內容、互動、交易或使用服務的網上系統」與本句語境不同。",
-        "platform-mcq-06": "「軟件運行／開發所依賴的硬件、作業系統或技術環境」與本句語境不同。",
-        "platform-mcq-03": "「車站內供乘客候車及上落列車的月台」與本句語境不同。",
-        "platform-mcq-07": "「提供共同工具／介面／服務，讓其他產品或服務建立其上的技術基礎」與本句語境不同。",
-        "platform-mcq-02": "「供演講者／表演者站立的高台」與本句語境不同。"
+        "platform-mcq-05": "本句的「social media platforms」指「讓使用者建立、發布、分享內容及社交互動的數碼服務」。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-05"
     },
@@ -934,11 +898,9 @@ export default {
       "masked": "The ____ recommends videos based on user activity.",
       "options": [
         "platform-mcq-05",
-        "platform-mcq-04",
-        "platform-mcq-06",
-        "platform-mcq-03",
-        "platform-mcq-07",
-        "platform-mcq-02"
+        "platform-mcq-20",
+        "platform-mcq-30",
+        "platform-mcq-19"
       ],
       "explanation": "本句的「platform」指「讓使用者建立、發布、分享內容及社交互動的數碼服務」。",
       "sentenceIndex": 17,
@@ -947,12 +909,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-05": "本句指「讓使用者建立、發布、分享內容及社交互動的數碼服務」。",
-        "platform-mcq-04": "「讓使用者發布內容、互動、交易或使用服務的網上系統」與本句語境不同。",
-        "platform-mcq-06": "「軟件運行／開發所依賴的硬件、作業系統或技術環境」與本句語境不同。",
-        "platform-mcq-03": "「車站內供乘客候車及上落列車的月台」與本句語境不同。",
-        "platform-mcq-07": "「提供共同工具／介面／服務，讓其他產品或服務建立其上的技術基礎」與本句語境不同。",
-        "platform-mcq-02": "「供演講者／表演者站立的高台」與本句語境不同。"
+        "platform-mcq-05": "本句的「platform」指「讓使用者建立、發布、分享內容及社交互動的數碼服務」。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-05"
     },
@@ -964,11 +924,9 @@ export default {
       "masked": "The software runs on several ____.",
       "options": [
         "platform-mcq-06",
-        "platform-mcq-05",
-        "platform-mcq-07",
-        "platform-mcq-04",
-        "platform-mcq-08",
-        "platform-mcq-03"
+        "platform-mcq-30",
+        "platform-mcq-02",
+        "platform-mcq-18"
       ],
       "explanation": "本句的「platforms」指「軟件運行／開發所依賴的硬件、作業系統或技術環境」。",
       "sentenceIndex": 26,
@@ -977,12 +935,10 @@ export default {
         "platforms"
       ],
       "optionReasons": {
-        "platform-mcq-06": "本句指「軟件運行／開發所依賴的硬件、作業系統或技術環境」。",
-        "platform-mcq-05": "「讓使用者建立、發布、分享內容及社交互動的數碼服務」與本句語境不同。",
-        "platform-mcq-07": "「提供共同工具／介面／服務，讓其他產品或服務建立其上的技術基礎」與本句語境不同。",
-        "platform-mcq-04": "「讓使用者發布內容、互動、交易或使用服務的網上系統」與本句語境不同。",
-        "platform-mcq-08": "「圍繞核心平台形成的使用者、開發者、供應商和互補服務網絡」與本句語境不同。",
-        "platform-mcq-03": "「車站內供乘客候車及上落列車的月台」與本句語境不同。"
+        "platform-mcq-06": "本句的「platforms」指「軟件運行／開發所依賴的硬件、作業系統或技術環境」。",
+        "platform-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-06"
     },
@@ -994,11 +950,9 @@ export default {
       "masked": "The application was developed for a mobile ____.",
       "options": [
         "platform-mcq-06",
-        "platform-mcq-05",
-        "platform-mcq-07",
-        "platform-mcq-04",
-        "platform-mcq-08",
-        "platform-mcq-03"
+        "platform-mcq-02",
+        "platform-mcq-22",
+        "platform-mcq-20"
       ],
       "explanation": "本句的「platform」指「軟件運行／開發所依賴的硬件、作業系統或技術環境」。",
       "sentenceIndex": 27,
@@ -1007,12 +961,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-06": "本句指「軟件運行／開發所依賴的硬件、作業系統或技術環境」。",
-        "platform-mcq-05": "「讓使用者建立、發布、分享內容及社交互動的數碼服務」與本句語境不同。",
-        "platform-mcq-07": "「提供共同工具／介面／服務，讓其他產品或服務建立其上的技術基礎」與本句語境不同。",
-        "platform-mcq-04": "「讓使用者發布內容、互動、交易或使用服務的網上系統」與本句語境不同。",
-        "platform-mcq-08": "「圍繞核心平台形成的使用者、開發者、供應商和互補服務網絡」與本句語境不同。",
-        "platform-mcq-03": "「車站內供乘客候車及上落列車的月台」與本句語境不同。"
+        "platform-mcq-06": "本句的「platform」指「軟件運行／開發所依賴的硬件、作業系統或技術環境」。",
+        "platform-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-06"
     },
@@ -1024,11 +976,9 @@ export default {
       "masked": "Thousands of sellers operate within the ____.",
       "options": [
         "platform-mcq-08",
-        "platform-mcq-07",
-        "platform-mcq-09",
-        "platform-mcq-06",
-        "platform-mcq-10",
-        "platform-mcq-05"
+        "platform-mcq-19",
+        "platform-mcq-14",
+        "platform-mcq-18"
       ],
       "explanation": "本句的「platform ecosystem」指「圍繞核心平台形成的使用者、開發者、供應商和互補服務網絡」。",
       "sentenceIndex": 36,
@@ -1037,12 +987,10 @@ export default {
         "platform ecosystem"
       ],
       "optionReasons": {
-        "platform-mcq-08": "本句指「圍繞核心平台形成的使用者、開發者、供應商和互補服務網絡」。",
-        "platform-mcq-07": "「提供共同工具／介面／服務，讓其他產品或服務建立其上的技術基礎」與本句語境不同。",
-        "platform-mcq-09": "「透過數碼平台連接不同市場參與者的經濟模式」與本句語境不同。",
-        "platform-mcq-06": "「軟件運行／開發所依賴的硬件、作業系統或技術環境」與本句語境不同。",
-        "platform-mcq-10": "「連接兩個或多個使用者群體並促成交易／互動的系統」與本句語境不同。",
-        "platform-mcq-05": "「讓使用者建立、發布、分享內容及社交互動的數碼服務」與本句語境不同。"
+        "platform-mcq-08": "本句的「platform ecosystem」指「圍繞核心平台形成的使用者、開發者、供應商和互補服務網絡」。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-08"
     },
@@ -1054,11 +1002,9 @@ export default {
       "masked": "A strong ecosystem can make a ____ more valuable.",
       "options": [
         "platform-mcq-08",
-        "platform-mcq-07",
-        "platform-mcq-09",
-        "platform-mcq-06",
-        "platform-mcq-10",
-        "platform-mcq-05"
+        "platform-mcq-19",
+        "platform-mcq-18",
+        "platform-mcq-14"
       ],
       "explanation": "本句的「platform」指「圍繞核心平台形成的使用者、開發者、供應商和互補服務網絡」。",
       "sentenceIndex": 37,
@@ -1067,12 +1013,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-08": "本句指「圍繞核心平台形成的使用者、開發者、供應商和互補服務網絡」。",
-        "platform-mcq-07": "「提供共同工具／介面／服務，讓其他產品或服務建立其上的技術基礎」與本句語境不同。",
-        "platform-mcq-09": "「透過數碼平台連接不同市場參與者的經濟模式」與本句語境不同。",
-        "platform-mcq-06": "「軟件運行／開發所依賴的硬件、作業系統或技術環境」與本句語境不同。",
-        "platform-mcq-10": "「連接兩個或多個使用者群體並促成交易／互動的系統」與本句語境不同。",
-        "platform-mcq-05": "「讓使用者建立、發布、分享內容及社交互動的數碼服務」與本句語境不同。"
+        "platform-mcq-08": "本句的「platform」指「圍繞核心平台形成的使用者、開發者、供應商和互補服務網絡」。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-08"
     },
@@ -1084,11 +1028,9 @@ export default {
       "masked": "The ____ has changed how services are bought and sold.",
       "options": [
         "platform-mcq-09",
-        "platform-mcq-08",
-        "platform-mcq-10",
-        "platform-mcq-07",
-        "platform-mcq-11",
-        "platform-mcq-06"
+        "platform-mcq-19",
+        "platform-mcq-14",
+        "platform-mcq-16"
       ],
       "explanation": "本句的「platform economy」指「透過數碼平台連接不同市場參與者的經濟模式」。",
       "sentenceIndex": 38,
@@ -1097,12 +1039,10 @@ export default {
         "platform economy"
       ],
       "optionReasons": {
-        "platform-mcq-09": "本句指「透過數碼平台連接不同市場參與者的經濟模式」。",
-        "platform-mcq-08": "「圍繞核心平台形成的使用者、開發者、供應商和互補服務網絡」與本句語境不同。",
-        "platform-mcq-10": "「連接兩個或多個使用者群體並促成交易／互動的系統」與本句語境不同。",
-        "platform-mcq-07": "「提供共同工具／介面／服務，讓其他產品或服務建立其上的技術基礎」與本句語境不同。",
-        "platform-mcq-11": "「政黨／候選人公開提出的一整套政策立場和政綱」與本句語境不同。",
-        "platform-mcq-06": "「軟件運行／開發所依賴的硬件、作業系統或技術環境」與本句語境不同。"
+        "platform-mcq-09": "本句的「platform economy」指「透過數碼平台連接不同市場參與者的經濟模式」。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-09"
     },
@@ -1114,11 +1054,9 @@ export default {
       "masked": "Gig work is often linked to the ____ economy.",
       "options": [
         "platform-mcq-09",
-        "platform-mcq-08",
-        "platform-mcq-10",
-        "platform-mcq-07",
-        "platform-mcq-11",
-        "platform-mcq-06"
+        "platform-mcq-19",
+        "platform-mcq-16",
+        "platform-mcq-14"
       ],
       "explanation": "本句的「platform」指「透過數碼平台連接不同市場參與者的經濟模式」。",
       "sentenceIndex": 39,
@@ -1127,12 +1065,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-09": "本句指「透過數碼平台連接不同市場參與者的經濟模式」。",
-        "platform-mcq-08": "「圍繞核心平台形成的使用者、開發者、供應商和互補服務網絡」與本句語境不同。",
-        "platform-mcq-10": "「連接兩個或多個使用者群體並促成交易／互動的系統」與本句語境不同。",
-        "platform-mcq-07": "「提供共同工具／介面／服務，讓其他產品或服務建立其上的技術基礎」與本句語境不同。",
-        "platform-mcq-11": "「政黨／候選人公開提出的一整套政策立場和政綱」與本句語境不同。",
-        "platform-mcq-06": "「軟件運行／開發所依賴的硬件、作業系統或技術環境」與本句語境不同。"
+        "platform-mcq-09": "本句的「platform」指「透過數碼平台連接不同市場參與者的經濟模式」。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-09"
     },
@@ -1144,11 +1080,9 @@ export default {
       "masked": "The business connects buyers and sellers through its ____.",
       "options": [
         "platform-mcq-10",
-        "platform-mcq-09",
-        "platform-mcq-11",
-        "platform-mcq-08",
-        "platform-mcq-12",
-        "platform-mcq-07"
+        "platform-mcq-20",
+        "platform-mcq-19",
+        "platform-mcq-16"
       ],
       "explanation": "本句的「platform」指「連接兩個或多個使用者群體並促成交易／互動的系統」。",
       "sentenceIndex": 40,
@@ -1157,12 +1091,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-10": "本句指「連接兩個或多個使用者群體並促成交易／互動的系統」。",
-        "platform-mcq-09": "「透過數碼平台連接不同市場參與者的經濟模式」與本句語境不同。",
-        "platform-mcq-11": "「政黨／候選人公開提出的一整套政策立場和政綱」與本句語境不同。",
-        "platform-mcq-08": "「圍繞核心平台形成的使用者、開發者、供應商和互補服務網絡」與本句語境不同。",
-        "platform-mcq-12": "「讓某人可以接觸受眾、公開表達或產生影響的渠道」與本句語境不同。",
-        "platform-mcq-07": "「提供共同工具／介面／服務，讓其他產品或服務建立其上的技術基礎」與本句語境不同。"
+        "platform-mcq-10": "本句的「platform」指「連接兩個或多個使用者群體並促成交易／互動的系統」。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-10"
     },
@@ -1174,11 +1106,9 @@ export default {
       "masked": "The ____ earns fees from both sides of the market.",
       "options": [
         "platform-mcq-10",
-        "platform-mcq-09",
-        "platform-mcq-11",
-        "platform-mcq-08",
-        "platform-mcq-12",
-        "platform-mcq-07"
+        "platform-mcq-20",
+        "platform-pdf-001",
+        "platform-mcq-16"
       ],
       "explanation": "本句的「platform」指「連接兩個或多個使用者群體並促成交易／互動的系統」。",
       "sentenceIndex": 41,
@@ -1187,12 +1117,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-10": "本句指「連接兩個或多個使用者群體並促成交易／互動的系統」。",
-        "platform-mcq-09": "「透過數碼平台連接不同市場參與者的經濟模式」與本句語境不同。",
-        "platform-mcq-11": "「政黨／候選人公開提出的一整套政策立場和政綱」與本句語境不同。",
-        "platform-mcq-08": "「圍繞核心平台形成的使用者、開發者、供應商和互補服務網絡」與本句語境不同。",
-        "platform-mcq-12": "「讓某人可以接觸受眾、公開表達或產生影響的渠道」與本句語境不同。",
-        "platform-mcq-07": "「提供共同工具／介面／服務，讓其他產品或服務建立其上的技術基礎」與本句語境不同。"
+        "platform-mcq-10": "本句的「platform」指「連接兩個或多個使用者群體並促成交易／互動的系統」。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "platform-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-10"
     },
@@ -1204,11 +1132,9 @@ export default {
       "masked": "The programme gives young writers a ____.",
       "options": [
         "platform-mcq-13",
-        "platform-mcq-12",
-        "platform-mcq-14",
-        "platform-mcq-11",
-        "platform-mcq-15",
-        "platform-mcq-10"
+        "platform-mcq-22",
+        "platform-mcq-25",
+        "platform-mcq-20"
       ],
       "explanation": "本句的「platform」指「提供公開發言、展示或接觸受眾的機會」。",
       "sentenceIndex": 54,
@@ -1217,12 +1143,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-13": "本句指「提供公開發言、展示或接觸受眾的機會」。",
-        "platform-mcq-12": "「讓某人可以接觸受眾、公開表達或產生影響的渠道」與本句語境不同。",
-        "platform-mcq-14": "「利用自己已有的公眾身份、受眾或影響力來發聲」與本句語境不同。",
-        "platform-mcq-11": "「政黨／候選人公開提出的一整套政策立場和政綱」與本句語境不同。",
-        "platform-mcq-15": "「可供未來發展、合作或行動建立其上的基礎」與本句語境不同。",
-        "platform-mcq-10": "「連接兩個或多個使用者群體並促成交易／互動的系統」與本句語境不同。"
+        "platform-mcq-13": "本句的「platform」指「提供公開發言、展示或接觸受眾的機會」。",
+        "platform-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-13"
     },
@@ -1234,11 +1158,9 @@ export default {
       "masked": "The conference gave researchers a ____ to present their work.",
       "options": [
         "platform-mcq-13",
-        "platform-mcq-12",
-        "platform-mcq-14",
-        "platform-mcq-11",
-        "platform-mcq-15",
-        "platform-mcq-10"
+        "platform-mcq-21",
+        "platform-mcq-19",
+        "platform-mcq-18"
       ],
       "explanation": "本句的「platform」指「提供公開發言、展示或接觸受眾的機會」。",
       "sentenceIndex": 55,
@@ -1247,12 +1169,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-13": "本句指「提供公開發言、展示或接觸受眾的機會」。",
-        "platform-mcq-12": "「讓某人可以接觸受眾、公開表達或產生影響的渠道」與本句語境不同。",
-        "platform-mcq-14": "「利用自己已有的公眾身份、受眾或影響力來發聲」與本句語境不同。",
-        "platform-mcq-11": "「政黨／候選人公開提出的一整套政策立場和政綱」與本句語境不同。",
-        "platform-mcq-15": "「可供未來發展、合作或行動建立其上的基礎」與本句語境不同。",
-        "platform-mcq-10": "「連接兩個或多個使用者群體並促成交易／互動的系統」與本句語境不同。"
+        "platform-mcq-13": "本句的「platform」指「提供公開發言、展示或接觸受眾的機會」。",
+        "platform-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-13"
     },
@@ -1264,11 +1184,9 @@ export default {
       "masked": "She used her ____ to discuss mental health.",
       "options": [
         "platform-mcq-14",
-        "platform-mcq-13",
-        "platform-mcq-15",
-        "platform-mcq-12",
-        "platform-mcq-16",
-        "platform-mcq-11"
+        "platform-mcq-22",
+        "platform-mcq-20",
+        "platform-mcq-10"
       ],
       "explanation": "本句的「platform」指「利用自己已有的公眾身份、受眾或影響力來發聲」。",
       "sentenceIndex": 56,
@@ -1277,12 +1195,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-14": "本句指「利用自己已有的公眾身份、受眾或影響力來發聲」。",
-        "platform-mcq-13": "「提供公開發言、展示或接觸受眾的機會」與本句語境不同。",
-        "platform-mcq-15": "「可供未來發展、合作或行動建立其上的基礎」與本句語境不同。",
-        "platform-mcq-12": "「讓某人可以接觸受眾、公開表達或產生影響的渠道」與本句語境不同。",
-        "platform-mcq-16": "「海上供石油／天然氣鑽探、生產使用的大型結構」與本句語境不同。",
-        "platform-mcq-11": "「政黨／候選人公開提出的一整套政策立場和政綱」與本句語境不同。"
+        "platform-mcq-14": "本句的「platform」指「利用自己已有的公眾身份、受眾或影響力來發聲」。",
+        "platform-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-14"
     },
@@ -1294,11 +1210,9 @@ export default {
       "masked": "Public figures often use their ____ to promote causes.",
       "options": [
         "platform-mcq-14",
-        "platform-mcq-13",
-        "platform-mcq-15",
-        "platform-mcq-12",
-        "platform-mcq-16",
-        "platform-mcq-11"
+        "platform-mcq-24",
+        "platform-mcq-02",
+        "platform-mcq-16"
       ],
       "explanation": "本句的「platforms」指「利用自己已有的公眾身份、受眾或影響力來發聲」。",
       "sentenceIndex": 57,
@@ -1307,12 +1221,10 @@ export default {
         "platforms"
       ],
       "optionReasons": {
-        "platform-mcq-14": "本句指「利用自己已有的公眾身份、受眾或影響力來發聲」。",
-        "platform-mcq-13": "「提供公開發言、展示或接觸受眾的機會」與本句語境不同。",
-        "platform-mcq-15": "「可供未來發展、合作或行動建立其上的基礎」與本句語境不同。",
-        "platform-mcq-12": "「讓某人可以接觸受眾、公開表達或產生影響的渠道」與本句語境不同。",
-        "platform-mcq-16": "「海上供石油／天然氣鑽探、生產使用的大型結構」與本句語境不同。",
-        "platform-mcq-11": "「政黨／候選人公開提出的一整套政策立場和政綱」與本句語境不同。"
+        "platform-mcq-14": "本句的「platforms」指「利用自己已有的公眾身份、受眾或影響力來發聲」。",
+        "platform-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-14"
     },
@@ -1324,11 +1236,9 @@ export default {
       "masked": "The company installed a new ____.",
       "options": [
         "platform-mcq-16",
-        "platform-mcq-15",
-        "platform-mcq-17",
-        "platform-mcq-14",
+        "platform-mcq-10",
         "platform-mcq-18",
-        "platform-mcq-13"
+        "platform-mcq-30"
       ],
       "explanation": "本句的「drilling platform」指「海上供石油／天然氣鑽探、生產使用的大型結構」。",
       "sentenceIndex": 68,
@@ -1337,12 +1247,10 @@ export default {
         "drilling platform"
       ],
       "optionReasons": {
-        "platform-mcq-16": "本句指「海上供石油／天然氣鑽探、生產使用的大型結構」。",
-        "platform-mcq-15": "「可供未來發展、合作或行動建立其上的基礎」與本句語境不同。",
-        "platform-mcq-17": "「供工作、檢修或進出設備使用的平坦工作面」與本句語境不同。",
-        "platform-mcq-14": "「利用自己已有的公眾身份、受眾或影響力來發聲」與本句語境不同。",
-        "platform-mcq-18": "「固定、升高的跳水台」與本句語境不同。",
-        "platform-mcq-13": "「提供公開發言、展示或接觸受眾的機會」與本句語境不同。"
+        "platform-mcq-16": "本句的「drilling platform」指「海上供石油／天然氣鑽探、生產使用的大型結構」。",
+        "platform-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-16"
     },
@@ -1354,11 +1262,9 @@ export default {
       "masked": "The drilling ____ operates in deep water.",
       "options": [
         "platform-mcq-16",
-        "platform-mcq-15",
-        "platform-mcq-17",
-        "platform-mcq-14",
+        "platform-mcq-09",
         "platform-mcq-18",
-        "platform-mcq-13"
+        "platform-mcq-14"
       ],
       "explanation": "本句的「platform」指「海上供石油／天然氣鑽探、生產使用的大型結構」。",
       "sentenceIndex": 69,
@@ -1367,12 +1273,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-16": "本句指「海上供石油／天然氣鑽探、生產使用的大型結構」。",
-        "platform-mcq-15": "「可供未來發展、合作或行動建立其上的基礎」與本句語境不同。",
-        "platform-mcq-17": "「供工作、檢修或進出設備使用的平坦工作面」與本句語境不同。",
-        "platform-mcq-14": "「利用自己已有的公眾身份、受眾或影響力來發聲」與本句語境不同。",
-        "platform-mcq-18": "「固定、升高的跳水台」與本句語境不同。",
-        "platform-mcq-13": "「提供公開發言、展示或接觸受眾的機會」與本句語境不同。"
+        "platform-mcq-16": "本句的「platform」指「海上供石油／天然氣鑽探、生產使用的大型結構」。",
+        "platform-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-16"
     },
@@ -1384,11 +1288,9 @@ export default {
       "masked": "Technicians stood on the maintenance ____.",
       "options": [
         "platform-mcq-17",
-        "platform-mcq-16",
         "platform-mcq-18",
-        "platform-mcq-15",
-        "platform-mcq-19",
-        "platform-mcq-14"
+        "platform-mcq-14",
+        "platform-mcq-19"
       ],
       "explanation": "本句的「platform」指「供工作、檢修或進出設備使用的平坦工作面」。",
       "sentenceIndex": 70,
@@ -1397,12 +1299,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-17": "本句指「供工作、檢修或進出設備使用的平坦工作面」。",
-        "platform-mcq-16": "「海上供石油／天然氣鑽探、生產使用的大型結構」與本句語境不同。",
-        "platform-mcq-18": "「固定、升高的跳水台」與本句語境不同。",
-        "platform-mcq-15": "「可供未來發展、合作或行動建立其上的基礎」與本句語境不同。",
-        "platform-mcq-19": "「鞋底前後大幅加厚的厚底鞋」與本句語境不同。",
-        "platform-mcq-14": "「利用自己已有的公眾身份、受眾或影響力來發聲」與本句語境不同。"
+        "platform-mcq-17": "本句的「platform」指「供工作、檢修或進出設備使用的平坦工作面」。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-17"
     },
@@ -1414,11 +1314,9 @@ export default {
       "masked": "A safety rail surrounds the ____.",
       "options": [
         "platform-mcq-17",
-        "platform-mcq-16",
-        "platform-mcq-18",
-        "platform-mcq-15",
+        "platform-mcq-14",
         "platform-mcq-19",
-        "platform-mcq-14"
+        "platform-mcq-18"
       ],
       "explanation": "本句的「platform」指「供工作、檢修或進出設備使用的平坦工作面」。",
       "sentenceIndex": 71,
@@ -1427,12 +1325,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-17": "本句指「供工作、檢修或進出設備使用的平坦工作面」。",
-        "platform-mcq-16": "「海上供石油／天然氣鑽探、生產使用的大型結構」與本句語境不同。",
-        "platform-mcq-18": "「固定、升高的跳水台」與本句語境不同。",
-        "platform-mcq-15": "「可供未來發展、合作或行動建立其上的基礎」與本句語境不同。",
-        "platform-mcq-19": "「鞋底前後大幅加厚的厚底鞋」與本句語境不同。",
-        "platform-mcq-14": "「利用自己已有的公眾身份、受眾或影響力來發聲」與本句語境不同。"
+        "platform-mcq-17": "本句的「platform」指「供工作、檢修或進出設備使用的平坦工作面」。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-17"
     },
@@ -1444,11 +1340,9 @@ export default {
       "masked": "She stood on the ten-metre ____.",
       "options": [
         "platform-mcq-18",
-        "platform-mcq-17",
-        "platform-mcq-19",
-        "platform-mcq-16",
+        "platform-mcq-25",
         "platform-mcq-20",
-        "platform-mcq-15"
+        "platform-mcq-14"
       ],
       "explanation": "本句的「diving platform」指「固定、升高的跳水台」。",
       "sentenceIndex": 74,
@@ -1457,12 +1351,10 @@ export default {
         "diving platform"
       ],
       "optionReasons": {
-        "platform-mcq-18": "本句指「固定、升高的跳水台」。",
-        "platform-mcq-17": "「供工作、檢修或進出設備使用的平坦工作面」與本句語境不同。",
-        "platform-mcq-19": "「鞋底前後大幅加厚的厚底鞋」與本句語境不同。",
-        "platform-mcq-16": "「海上供石油／天然氣鑽探、生產使用的大型結構」與本句語境不同。",
-        "platform-mcq-20": "「多款車型共用的核心底盤／工程架構」與本句語境不同。",
-        "platform-mcq-15": "「可供未來發展、合作或行動建立其上的基礎」與本句語境不同。"
+        "platform-mcq-18": "本句的「diving platform」指「固定、升高的跳水台」。",
+        "platform-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-18"
     },
@@ -1474,11 +1366,9 @@ export default {
       "masked": "____ diving requires precise technique.",
       "options": [
         "platform-mcq-18",
-        "platform-mcq-17",
-        "platform-mcq-19",
-        "platform-mcq-16",
-        "platform-mcq-20",
-        "platform-mcq-15"
+        "platform-mcq-10",
+        "platform-pdf-001",
+        "platform-mcq-19"
       ],
       "explanation": "本句的「Platform」指「固定、升高的跳水台」。",
       "sentenceIndex": 75,
@@ -1487,12 +1377,10 @@ export default {
         "Platform"
       ],
       "optionReasons": {
-        "platform-mcq-18": "本句指「固定、升高的跳水台」。",
-        "platform-mcq-17": "「供工作、檢修或進出設備使用的平坦工作面」與本句語境不同。",
-        "platform-mcq-19": "「鞋底前後大幅加厚的厚底鞋」與本句語境不同。",
-        "platform-mcq-16": "「海上供石油／天然氣鑽探、生產使用的大型結構」與本句語境不同。",
-        "platform-mcq-20": "「多款車型共用的核心底盤／工程架構」與本句語境不同。",
-        "platform-mcq-15": "「可供未來發展、合作或行動建立其上的基礎」與本句語境不同。"
+        "platform-mcq-18": "本句的「Platform」指「固定、升高的跳水台」。",
+        "platform-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "platform-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-18"
     },
@@ -1505,10 +1393,8 @@ export default {
       "options": [
         "platform-mcq-19",
         "platform-mcq-18",
-        "platform-mcq-20",
-        "platform-mcq-17",
-        "platform-mcq-21",
-        "platform-mcq-16"
+        "platform-mcq-06",
+        "platform-pdf-001"
       ],
       "explanation": "本句的「platform shoes」指「鞋底前後大幅加厚的厚底鞋」。",
       "sentenceIndex": 78,
@@ -1517,12 +1403,10 @@ export default {
         "platform shoes"
       ],
       "optionReasons": {
-        "platform-mcq-19": "本句指「鞋底前後大幅加厚的厚底鞋」。",
-        "platform-mcq-18": "「固定、升高的跳水台」與本句語境不同。",
-        "platform-mcq-20": "「多款車型共用的核心底盤／工程架構」與本句語境不同。",
-        "platform-mcq-17": "「供工作、檢修或進出設備使用的平坦工作面」與本句語境不同。",
-        "platform-mcq-21": "「支援多種軟件／產品的共同硬件架構」與本句語境不同。",
-        "platform-mcq-16": "「海上供石油／天然氣鑽探、生產使用的大型結構」與本句語境不同。"
+        "platform-mcq-19": "本句的「platform shoes」指「鞋底前後大幅加厚的厚底鞋」。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "platform-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-19"
     },
@@ -1534,11 +1418,9 @@ export default {
       "masked": "____ shoes became fashionable again.",
       "options": [
         "platform-mcq-19",
-        "platform-mcq-18",
-        "platform-mcq-20",
-        "platform-mcq-17",
-        "platform-mcq-21",
-        "platform-mcq-16"
+        "platform-mcq-14",
+        "platform-mcq-30",
+        "platform-mcq-05"
       ],
       "explanation": "本句的「Platform」指「鞋底前後大幅加厚的厚底鞋」。",
       "sentenceIndex": 79,
@@ -1547,12 +1429,10 @@ export default {
         "Platform"
       ],
       "optionReasons": {
-        "platform-mcq-19": "本句指「鞋底前後大幅加厚的厚底鞋」。",
-        "platform-mcq-18": "「固定、升高的跳水台」與本句語境不同。",
-        "platform-mcq-20": "「多款車型共用的核心底盤／工程架構」與本句語境不同。",
-        "platform-mcq-17": "「供工作、檢修或進出設備使用的平坦工作面」與本句語境不同。",
-        "platform-mcq-21": "「支援多種軟件／產品的共同硬件架構」與本句語境不同。",
-        "platform-mcq-16": "「海上供石油／天然氣鑽探、生產使用的大型結構」與本句語境不同。"
+        "platform-mcq-19": "本句的「Platform」指「鞋底前後大幅加厚的厚底鞋」。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-19"
     },
@@ -1564,11 +1444,9 @@ export default {
       "masked": "The two cars share the same ____.",
       "options": [
         "platform-mcq-20",
-        "platform-mcq-19",
-        "platform-mcq-21",
-        "platform-mcq-18",
+        "platform-mcq-29",
         "platform-mcq-22",
-        "platform-mcq-17"
+        "platform-pdf-002"
       ],
       "explanation": "本句的「platform」指「多款車型共用的核心底盤／工程架構」。",
       "sentenceIndex": 82,
@@ -1577,12 +1455,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-20": "本句指「多款車型共用的核心底盤／工程架構」。",
-        "platform-mcq-19": "「鞋底前後大幅加厚的厚底鞋」與本句語境不同。",
-        "platform-mcq-21": "「支援多種軟件／產品的共同硬件架構」與本句語境不同。",
-        "platform-mcq-18": "「固定、升高的跳水台」與本句語境不同。",
-        "platform-mcq-22": "「海浪侵蝕海崖後形成的平坦岩石面」與本句語境不同。",
-        "platform-mcq-17": "「供工作、檢修或進出設備使用的平坦工作面」與本句語境不同。"
+        "platform-mcq-20": "本句的「platform」指「多款車型共用的核心底盤／工程架構」。",
+        "platform-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "platform-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-20"
     },
@@ -1594,11 +1470,9 @@ export default {
       "masked": "The manufacturer developed a new electric-vehicle ____.",
       "options": [
         "platform-mcq-20",
-        "platform-mcq-19",
-        "platform-mcq-21",
-        "platform-mcq-18",
-        "platform-mcq-22",
-        "platform-mcq-17"
+        "platform-mcq-24",
+        "platform-mcq-02",
+        "platform-mcq-29"
       ],
       "explanation": "本句的「platform」指「多款車型共用的核心底盤／工程架構」。",
       "sentenceIndex": 83,
@@ -1607,12 +1481,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-20": "本句指「多款車型共用的核心底盤／工程架構」。",
-        "platform-mcq-19": "「鞋底前後大幅加厚的厚底鞋」與本句語境不同。",
-        "platform-mcq-21": "「支援多種軟件／產品的共同硬件架構」與本句語境不同。",
-        "platform-mcq-18": "「固定、升高的跳水台」與本句語境不同。",
-        "platform-mcq-22": "「海浪侵蝕海崖後形成的平坦岩石面」與本句語境不同。",
-        "platform-mcq-17": "「供工作、檢修或進出設備使用的平坦工作面」與本句語境不同。"
+        "platform-mcq-20": "本句的「platform」指「多款車型共用的核心底盤／工程架構」。",
+        "platform-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-20"
     },
@@ -1624,11 +1496,9 @@ export default {
       "masked": "The device uses a new ____.",
       "options": [
         "platform-mcq-21",
-        "platform-mcq-20",
-        "platform-mcq-22",
-        "platform-mcq-19",
-        "platform-mcq-23",
-        "platform-mcq-18"
+        "platform-mcq-29",
+        "platform-pdf-001",
+        "platform-mcq-19"
       ],
       "explanation": "本句的「hardware platform」指「支援多種軟件／產品的共同硬件架構」。",
       "sentenceIndex": 86,
@@ -1637,12 +1507,10 @@ export default {
         "hardware platform"
       ],
       "optionReasons": {
-        "platform-mcq-21": "本句指「支援多種軟件／產品的共同硬件架構」。",
-        "platform-mcq-20": "「多款車型共用的核心底盤／工程架構」與本句語境不同。",
-        "platform-mcq-22": "「海浪侵蝕海崖後形成的平坦岩石面」與本句語境不同。",
-        "platform-mcq-19": "「鞋底前後大幅加厚的厚底鞋」與本句語境不同。",
-        "platform-mcq-23": "「提供課程、教材、互動或作業功能的數碼學習系統」與本句語境不同。",
-        "platform-mcq-18": "「固定、升高的跳水台」與本句語境不同。"
+        "platform-mcq-21": "本句的「hardware platform」指「支援多種軟件／產品的共同硬件架構」。",
+        "platform-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "platform-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-21"
     },
@@ -1654,11 +1522,9 @@ export default {
       "masked": "Several products share the same hardware ____.",
       "options": [
         "platform-mcq-21",
-        "platform-mcq-20",
-        "platform-mcq-22",
-        "platform-mcq-19",
-        "platform-mcq-23",
-        "platform-mcq-18"
+        "platform-mcq-13",
+        "platform-pdf-001",
+        "platform-mcq-19"
       ],
       "explanation": "本句的「platform」指「支援多種軟件／產品的共同硬件架構」。",
       "sentenceIndex": 87,
@@ -1667,12 +1533,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-21": "本句指「支援多種軟件／產品的共同硬件架構」。",
-        "platform-mcq-20": "「多款車型共用的核心底盤／工程架構」與本句語境不同。",
-        "platform-mcq-22": "「海浪侵蝕海崖後形成的平坦岩石面」與本句語境不同。",
-        "platform-mcq-19": "「鞋底前後大幅加厚的厚底鞋」與本句語境不同。",
-        "platform-mcq-23": "「提供課程、教材、互動或作業功能的數碼學習系統」與本句語境不同。",
-        "platform-mcq-18": "「固定、升高的跳水台」與本句語境不同。"
+        "platform-mcq-21": "本句的「platform」指「支援多種軟件／產品的共同硬件架構」。",
+        "platform-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "platform-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-21"
     },
@@ -1684,11 +1548,9 @@ export default {
       "masked": "The equipment rests on a reinforced ____.",
       "options": [
         "platform-mcq-15",
-        "platform-mcq-14",
-        "platform-mcq-16",
-        "platform-mcq-13",
-        "platform-mcq-17",
-        "platform-mcq-12"
+        "platform-mcq-19",
+        "platform-mcq-18",
+        "platform-mcq-25"
       ],
       "explanation": "本句的「platform」指「可供未來發展、合作或行動建立其上的基礎」。",
       "sentenceIndex": 92,
@@ -1697,12 +1559,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-15": "本句指「可供未來發展、合作或行動建立其上的基礎」。",
-        "platform-mcq-14": "「利用自己已有的公眾身份、受眾或影響力來發聲」與本句語境不同。",
-        "platform-mcq-16": "「海上供石油／天然氣鑽探、生產使用的大型結構」與本句語境不同。",
-        "platform-mcq-13": "「提供公開發言、展示或接觸受眾的機會」與本句語境不同。",
-        "platform-mcq-17": "「供工作、檢修或進出設備使用的平坦工作面」與本句語境不同。",
-        "platform-mcq-12": "「讓某人可以接觸受眾、公開表達或產生影響的渠道」與本句語境不同。"
+        "platform-mcq-15": "本句的「platform」指「可供未來發展、合作或行動建立其上的基礎」。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-15"
     },
@@ -1714,11 +1574,9 @@ export default {
       "masked": "The ____ distributes the load.",
       "options": [
         "platform-mcq-15",
-        "platform-mcq-14",
-        "platform-mcq-16",
-        "platform-mcq-13",
-        "platform-mcq-17",
-        "platform-mcq-12"
+        "platform-mcq-25",
+        "platform-mcq-20",
+        "platform-mcq-18"
       ],
       "explanation": "本句的「platform」指「可供未來發展、合作或行動建立其上的基礎」。",
       "sentenceIndex": 93,
@@ -1727,12 +1585,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-15": "本句指「可供未來發展、合作或行動建立其上的基礎」。",
-        "platform-mcq-14": "「利用自己已有的公眾身份、受眾或影響力來發聲」與本句語境不同。",
-        "platform-mcq-16": "「海上供石油／天然氣鑽探、生產使用的大型結構」與本句語境不同。",
-        "platform-mcq-13": "「提供公開發言、展示或接觸受眾的機會」與本句語境不同。",
-        "platform-mcq-17": "「供工作、檢修或進出設備使用的平坦工作面」與本句語境不同。",
-        "platform-mcq-12": "「讓某人可以接觸受眾、公開表達或產生影響的渠道」與本句語境不同。"
+        "platform-mcq-15": "本句的「platform」指「可供未來發展、合作或行動建立其上的基礎」。",
+        "platform-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-15"
     },
@@ -1744,11 +1600,9 @@ export default {
       "masked": "The aircraft serves as a surveillance ____.",
       "options": [
         "platform-pdf-002",
+        "platform-mcq-29",
         "platform-mcq-19",
-        "platform-mcq-21",
-        "platform-mcq-18",
-        "platform-mcq-22",
-        "platform-mcq-17"
+        "platform-mcq-20"
       ],
       "explanation": "本句的「platform」指「承載感應器、武器、通訊設備等並提供操作基礎的載具／系統」。",
       "sentenceIndex": 94,
@@ -1757,12 +1611,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-pdf-002": "本句指「承載感應器、武器、通訊設備等並提供操作基礎的載具／系統」。",
-        "platform-mcq-19": "「鞋底前後大幅加厚的厚底鞋」與本句語境不同。",
-        "platform-mcq-21": "「支援多種軟件／產品的共同硬件架構」與本句語境不同。",
-        "platform-mcq-18": "「固定、升高的跳水台」與本句語境不同。",
-        "platform-mcq-22": "「海浪侵蝕海崖後形成的平坦岩石面」與本句語境不同。",
-        "platform-mcq-17": "「供工作、檢修或進出設備使用的平坦工作面」與本句語境不同。"
+        "platform-pdf-002": "本句的「platform」指「承載感應器、武器、通訊設備等並提供操作基礎的載具／系統」。",
+        "platform-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-pdf-002"
     },
@@ -1774,11 +1626,9 @@ export default {
       "masked": "The ship provides a stable weapons ____.",
       "options": [
         "platform-pdf-002",
-        "platform-mcq-19",
-        "platform-mcq-21",
-        "platform-mcq-18",
-        "platform-mcq-22",
-        "platform-mcq-17"
+        "platform-mcq-14",
+        "platform-mcq-20",
+        "platform-mcq-22"
       ],
       "explanation": "本句的「platform」指「承載感應器、武器、通訊設備等並提供操作基礎的載具／系統」。",
       "sentenceIndex": 95,
@@ -1787,12 +1637,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-pdf-002": "本句指「承載感應器、武器、通訊設備等並提供操作基礎的載具／系統」。",
-        "platform-mcq-19": "「鞋底前後大幅加厚的厚底鞋」與本句語境不同。",
-        "platform-mcq-21": "「支援多種軟件／產品的共同硬件架構」與本句語境不同。",
-        "platform-mcq-18": "「固定、升高的跳水台」與本句語境不同。",
-        "platform-mcq-22": "「海浪侵蝕海崖後形成的平坦岩石面」與本句語境不同。",
-        "platform-mcq-17": "「供工作、檢修或進出設備使用的平坦工作面」與本句語境不同。"
+        "platform-pdf-002": "本句的「platform」指「承載感應器、武器、通訊設備等並提供操作基礎的載具／系統」。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-pdf-002"
     },
@@ -1804,11 +1652,9 @@ export default {
       "masked": "A ____ formed at the foot of the cliff.",
       "options": [
         "platform-mcq-22",
+        "platform-mcq-02",
         "platform-mcq-21",
-        "platform-mcq-23",
-        "platform-mcq-20",
-        "platform-mcq-24",
-        "platform-mcq-19"
+        "platform-mcq-18"
       ],
       "explanation": "本句的「wave-cut platform」指「海浪侵蝕海崖後形成的平坦岩石面」。",
       "sentenceIndex": 102,
@@ -1817,12 +1663,10 @@ export default {
         "wave-cut platform"
       ],
       "optionReasons": {
-        "platform-mcq-22": "本句指「海浪侵蝕海崖後形成的平坦岩石面」。",
-        "platform-mcq-21": "「支援多種軟件／產品的共同硬件架構」與本句語境不同。",
-        "platform-mcq-23": "「提供課程、教材、互動或作業功能的數碼學習系統」與本句語境不同。",
-        "platform-mcq-20": "「多款車型共用的核心底盤／工程架構」與本句語境不同。",
-        "platform-mcq-24": "「讓商戶與顧客進行網上商品交易的系統」與本句語境不同。",
-        "platform-mcq-19": "「鞋底前後大幅加厚的厚底鞋」與本句語境不同。"
+        "platform-mcq-22": "本句的「wave-cut platform」指「海浪侵蝕海崖後形成的平坦岩石面」。",
+        "platform-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-22"
     },
@@ -1834,11 +1678,9 @@ export default {
       "masked": "The ____ is exposed at low tide.",
       "options": [
         "platform-mcq-22",
-        "platform-mcq-21",
-        "platform-mcq-23",
+        "platform-mcq-25",
         "platform-mcq-20",
-        "platform-mcq-24",
-        "platform-mcq-19"
+        "platform-mcq-14"
       ],
       "explanation": "本句的「platform」指「海浪侵蝕海崖後形成的平坦岩石面」。",
       "sentenceIndex": 103,
@@ -1847,12 +1689,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-22": "本句指「海浪侵蝕海崖後形成的平坦岩石面」。",
-        "platform-mcq-21": "「支援多種軟件／產品的共同硬件架構」與本句語境不同。",
-        "platform-mcq-23": "「提供課程、教材、互動或作業功能的數碼學習系統」與本句語境不同。",
-        "platform-mcq-20": "「多款車型共用的核心底盤／工程架構」與本句語境不同。",
-        "platform-mcq-24": "「讓商戶與顧客進行網上商品交易的系統」與本句語境不同。",
-        "platform-mcq-19": "「鞋底前後大幅加厚的厚底鞋」與本句語境不同。"
+        "platform-mcq-22": "本句的「platform」指「海浪侵蝕海崖後形成的平坦岩石面」。",
+        "platform-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-22"
     },
@@ -1865,10 +1705,8 @@ export default {
       "options": [
         "platform-mcq-23",
         "platform-mcq-22",
-        "platform-mcq-24",
-        "platform-mcq-21",
-        "platform-mcq-25",
-        "platform-mcq-20"
+        "platform-mcq-14",
+        "platform-mcq-18"
       ],
       "explanation": "本句的「learning platform」指「提供課程、教材、互動或作業功能的數碼學習系統」。",
       "sentenceIndex": 106,
@@ -1877,12 +1715,10 @@ export default {
         "learning platform"
       ],
       "optionReasons": {
-        "platform-mcq-23": "本句指「提供課程、教材、互動或作業功能的數碼學習系統」。",
-        "platform-mcq-22": "「海浪侵蝕海崖後形成的平坦岩石面」與本句語境不同。",
-        "platform-mcq-24": "「讓商戶與顧客進行網上商品交易的系統」與本句語境不同。",
-        "platform-mcq-21": "「支援多種軟件／產品的共同硬件架構」與本句語境不同。",
-        "platform-mcq-25": "「讓使用者買賣金融資產的系統」與本句語境不同。",
-        "platform-mcq-20": "「多款車型共用的核心底盤／工程架構」與本句語境不同。"
+        "platform-mcq-23": "本句的「learning platform」指「提供課程、教材、互動或作業功能的數碼學習系統」。",
+        "platform-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-23"
     },
@@ -1894,11 +1730,9 @@ export default {
       "masked": "The ____ contains videos and quizzes.",
       "options": [
         "platform-mcq-23",
-        "platform-mcq-22",
-        "platform-mcq-24",
-        "platform-mcq-21",
-        "platform-mcq-25",
-        "platform-mcq-20"
+        "platform-mcq-30",
+        "platform-mcq-18",
+        "platform-mcq-19"
       ],
       "explanation": "本句的「platform」指「提供課程、教材、互動或作業功能的數碼學習系統」。",
       "sentenceIndex": 107,
@@ -1907,12 +1741,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-23": "本句指「提供課程、教材、互動或作業功能的數碼學習系統」。",
-        "platform-mcq-22": "「海浪侵蝕海崖後形成的平坦岩石面」與本句語境不同。",
-        "platform-mcq-24": "「讓商戶與顧客進行網上商品交易的系統」與本句語境不同。",
-        "platform-mcq-21": "「支援多種軟件／產品的共同硬件架構」與本句語境不同。",
-        "platform-mcq-25": "「讓使用者買賣金融資產的系統」與本句語境不同。",
-        "platform-mcq-20": "「多款車型共用的核心底盤／工程架構」與本句語境不同。"
+        "platform-mcq-23": "本句的「platform」指「提供課程、教材、互動或作業功能的數碼學習系統」。",
+        "platform-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-23"
     },
@@ -1924,11 +1756,9 @@ export default {
       "masked": "The shop sells through an ____.",
       "options": [
         "platform-mcq-24",
-        "platform-mcq-23",
-        "platform-mcq-25",
-        "platform-mcq-22",
-        "platform-mcq-26",
-        "platform-mcq-21"
+        "platform-mcq-29",
+        "platform-mcq-19",
+        "platform-mcq-16"
       ],
       "explanation": "本句的「e-commerce platform」指「讓商戶與顧客進行網上商品交易的系統」。",
       "sentenceIndex": 110,
@@ -1937,12 +1767,10 @@ export default {
         "e-commerce platform"
       ],
       "optionReasons": {
-        "platform-mcq-24": "本句指「讓商戶與顧客進行網上商品交易的系統」。",
-        "platform-mcq-23": "「提供課程、教材、互動或作業功能的數碼學習系統」與本句語境不同。",
-        "platform-mcq-25": "「讓使用者買賣金融資產的系統」與本句語境不同。",
-        "platform-mcq-22": "「海浪侵蝕海崖後形成的平坦岩石面」與本句語境不同。",
-        "platform-mcq-26": "「在雲端提供運算、儲存、開發或部署能力的平台」與本句語境不同。",
-        "platform-mcq-21": "「支援多種軟件／產品的共同硬件架構」與本句語境不同。"
+        "platform-mcq-24": "本句的「e-commerce platform」指「讓商戶與顧客進行網上商品交易的系統」。",
+        "platform-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-24"
     },
@@ -1954,11 +1782,9 @@ export default {
       "masked": "The ____ handles orders and payments.",
       "options": [
         "platform-mcq-24",
-        "platform-mcq-23",
-        "platform-mcq-25",
-        "platform-mcq-22",
-        "platform-mcq-26",
-        "platform-mcq-21"
+        "platform-mcq-18",
+        "platform-mcq-02",
+        "platform-mcq-16"
       ],
       "explanation": "本句的「platform」指「讓商戶與顧客進行網上商品交易的系統」。",
       "sentenceIndex": 111,
@@ -1967,12 +1793,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-24": "本句指「讓商戶與顧客進行網上商品交易的系統」。",
-        "platform-mcq-23": "「提供課程、教材、互動或作業功能的數碼學習系統」與本句語境不同。",
-        "platform-mcq-25": "「讓使用者買賣金融資產的系統」與本句語境不同。",
-        "platform-mcq-22": "「海浪侵蝕海崖後形成的平坦岩石面」與本句語境不同。",
-        "platform-mcq-26": "「在雲端提供運算、儲存、開發或部署能力的平台」與本句語境不同。",
-        "platform-mcq-21": "「支援多種軟件／產品的共同硬件架構」與本句語境不同。"
+        "platform-mcq-24": "本句的「platform」指「讓商戶與顧客進行網上商品交易的系統」。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-24"
     },
@@ -1984,11 +1808,9 @@ export default {
       "masked": "Investors use an online ____.",
       "options": [
         "platform-mcq-25",
-        "platform-mcq-24",
-        "platform-mcq-26",
-        "platform-mcq-23",
-        "platform-mcq-27",
-        "platform-mcq-22"
+        "platform-mcq-13",
+        "platform-mcq-19",
+        "platform-mcq-15"
       ],
       "explanation": "本句的「trading platform」指「讓使用者買賣金融資產的系統」。",
       "sentenceIndex": 114,
@@ -1997,12 +1819,10 @@ export default {
         "trading platform"
       ],
       "optionReasons": {
-        "platform-mcq-25": "本句指「讓使用者買賣金融資產的系統」。",
-        "platform-mcq-24": "「讓商戶與顧客進行網上商品交易的系統」與本句語境不同。",
-        "platform-mcq-26": "「在雲端提供運算、儲存、開發或部署能力的平台」與本句語境不同。",
-        "platform-mcq-23": "「提供課程、教材、互動或作業功能的數碼學習系統」與本句語境不同。",
-        "platform-mcq-27": "「由雲端提供應用程式開發／部署環境的平台服務」與本句語境不同。",
-        "platform-mcq-22": "「海浪侵蝕海崖後形成的平坦岩石面」與本句語境不同。"
+        "platform-mcq-25": "本句的「trading platform」指「讓使用者買賣金融資產的系統」。",
+        "platform-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-25"
     },
@@ -2014,11 +1834,9 @@ export default {
       "masked": "The trading ____ provides real-time prices.",
       "options": [
         "platform-mcq-25",
-        "platform-mcq-24",
-        "platform-mcq-26",
-        "platform-mcq-23",
-        "platform-mcq-27",
-        "platform-mcq-22"
+        "platform-mcq-22",
+        "platform-mcq-19",
+        "platform-mcq-13"
       ],
       "explanation": "本句的「platform」指「讓使用者買賣金融資產的系統」。",
       "sentenceIndex": 115,
@@ -2027,12 +1845,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-25": "本句指「讓使用者買賣金融資產的系統」。",
-        "platform-mcq-24": "「讓商戶與顧客進行網上商品交易的系統」與本句語境不同。",
-        "platform-mcq-26": "「在雲端提供運算、儲存、開發或部署能力的平台」與本句語境不同。",
-        "platform-mcq-23": "「提供課程、教材、互動或作業功能的數碼學習系統」與本句語境不同。",
-        "platform-mcq-27": "「由雲端提供應用程式開發／部署環境的平台服務」與本句語境不同。",
-        "platform-mcq-22": "「海浪侵蝕海崖後形成的平坦岩石面」與本句語境不同。"
+        "platform-mcq-25": "本句的「platform」指「讓使用者買賣金融資產的系統」。",
+        "platform-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-25"
     },
@@ -2044,11 +1860,9 @@ export default {
       "masked": "The application runs on a ____.",
       "options": [
         "platform-mcq-26",
+        "platform-mcq-19",
         "platform-mcq-25",
-        "platform-mcq-27",
-        "platform-mcq-24",
-        "platform-mcq-28",
-        "platform-mcq-23"
+        "platform-mcq-20"
       ],
       "explanation": "本句的「cloud platform」指「在雲端提供運算、儲存、開發或部署能力的平台」。",
       "sentenceIndex": 126,
@@ -2057,12 +1871,10 @@ export default {
         "cloud platform"
       ],
       "optionReasons": {
-        "platform-mcq-26": "本句指「在雲端提供運算、儲存、開發或部署能力的平台」。",
-        "platform-mcq-25": "「讓使用者買賣金融資產的系統」與本句語境不同。",
-        "platform-mcq-27": "「由雲端提供應用程式開發／部署環境的平台服務」與本句語境不同。",
-        "platform-mcq-24": "「讓商戶與顧客進行網上商品交易的系統」與本句語境不同。",
-        "platform-mcq-28": "「給某人／某觀點提供公開受眾、曝光或傳播渠道」與本句語境不同。",
-        "platform-mcq-23": "「提供課程、教材、互動或作業功能的數碼學習系統」與本句語境不同。"
+        "platform-mcq-26": "本句的「cloud platform」指「在雲端提供運算、儲存、開發或部署能力的平台」。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-26"
     },
@@ -2074,11 +1886,9 @@ export default {
       "masked": "The company moved its systems to a cloud ____.",
       "options": [
         "platform-mcq-26",
-        "platform-mcq-25",
-        "platform-mcq-27",
-        "platform-mcq-24",
-        "platform-mcq-28",
-        "platform-mcq-23"
+        "platform-mcq-21",
+        "platform-mcq-19",
+        "platform-mcq-16"
       ],
       "explanation": "本句的「platform」指「在雲端提供運算、儲存、開發或部署能力的平台」。",
       "sentenceIndex": 127,
@@ -2087,12 +1897,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-26": "本句指「在雲端提供運算、儲存、開發或部署能力的平台」。",
-        "platform-mcq-25": "「讓使用者買賣金融資產的系統」與本句語境不同。",
-        "platform-mcq-27": "「由雲端提供應用程式開發／部署環境的平台服務」與本句語境不同。",
-        "platform-mcq-24": "「讓商戶與顧客進行網上商品交易的系統」與本句語境不同。",
-        "platform-mcq-28": "「給某人／某觀點提供公開受眾、曝光或傳播渠道」與本句語境不同。",
-        "platform-mcq-23": "「提供課程、教材、互動或作業功能的數碼學習系統」與本句語境不同。"
+        "platform-mcq-26": "本句的「platform」指「在雲端提供運算、儲存、開發或部署能力的平台」。",
+        "platform-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-26"
     },
@@ -2104,11 +1912,9 @@ export default {
       "masked": "The company uses ____ for application development.",
       "options": [
         "platform-mcq-27",
-        "platform-mcq-26",
-        "platform-mcq-28",
-        "platform-mcq-25",
-        "platform-mcq-29",
-        "platform-mcq-24"
+        "platform-mcq-19",
+        "platform-mcq-14",
+        "platform-mcq-18"
       ],
       "explanation": "本句的「platform as a service」指「由雲端提供應用程式開發／部署環境的平台服務」。",
       "sentenceIndex": 128,
@@ -2117,12 +1923,10 @@ export default {
         "platform as a service"
       ],
       "optionReasons": {
-        "platform-mcq-27": "本句指「由雲端提供應用程式開發／部署環境的平台服務」。",
-        "platform-mcq-26": "「在雲端提供運算、儲存、開發或部署能力的平台」與本句語境不同。",
-        "platform-mcq-28": "「給某人／某觀點提供公開受眾、曝光或傳播渠道」與本句語境不同。",
-        "platform-mcq-25": "「讓使用者買賣金融資產的系統」與本句語境不同。",
-        "platform-mcq-29": "「取消某人使用某平台／公開發言渠道的能力」與本句語境不同。",
-        "platform-mcq-24": "「讓商戶與顧客進行網上商品交易的系統」與本句語境不同。"
+        "platform-mcq-27": "本句的「platform as a service」指「由雲端提供應用程式開發／部署環境的平台服務」。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-27"
     },
@@ -2134,11 +1938,9 @@ export default {
       "masked": "The service ____ several accounts.",
       "options": [
         "platform-mcq-29",
-        "platform-mcq-28",
-        "platform-mcq-30",
-        "platform-mcq-27",
-        "platform-mcq-31",
-        "platform-mcq-26"
+        "platform-mcq-24",
+        "platform-mcq-16",
+        "platform-mcq-19"
       ],
       "explanation": "本句的「deplatformed」指「取消某人使用某平台／公開發言渠道的能力」。",
       "sentenceIndex": 131,
@@ -2147,12 +1949,10 @@ export default {
         "deplatformed"
       ],
       "optionReasons": {
-        "platform-mcq-29": "本句指「取消某人使用某平台／公開發言渠道的能力」。",
-        "platform-mcq-28": "「給某人／某觀點提供公開受眾、曝光或傳播渠道」與本句語境不同。",
-        "platform-mcq-30": "「用來裝卸貨物的平台」與本句語境不同。",
-        "platform-mcq-27": "「由雲端提供應用程式開發／部署環境的平台服務」與本句語境不同。",
-        "platform-mcq-31": "「承載武器、感應器或作戰設備的載具／系統」與本句語境不同。",
-        "platform-mcq-26": "「在雲端提供運算、儲存、開發或部署能力的平台」與本句語境不同。"
+        "platform-mcq-29": "本句的「deplatformed」指「取消某人使用某平台／公開發言渠道的能力」。",
+        "platform-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-29"
     },
@@ -2164,11 +1964,9 @@ export default {
       "masked": "The goods were placed on the ____.",
       "options": [
         "platform-mcq-30",
-        "platform-mcq-29",
-        "platform-mcq-31",
-        "platform-mcq-28",
-        "platform-mcq-27",
-        "platform-mcq-26"
+        "platform-pdf-002",
+        "platform-mcq-20",
+        "platform-mcq-19"
       ],
       "explanation": "本句的「loading platform」指「用來裝卸貨物的平台」。",
       "sentenceIndex": 143,
@@ -2177,12 +1975,10 @@ export default {
         "loading platform"
       ],
       "optionReasons": {
-        "platform-mcq-30": "本句指「用來裝卸貨物的平台」。",
-        "platform-mcq-29": "「取消某人使用某平台／公開發言渠道的能力」與本句語境不同。",
-        "platform-mcq-31": "「承載武器、感應器或作戰設備的載具／系統」與本句語境不同。",
-        "platform-mcq-28": "「給某人／某觀點提供公開受眾、曝光或傳播渠道」與本句語境不同。",
-        "platform-mcq-27": "「由雲端提供應用程式開發／部署環境的平台服務」與本句語境不同。",
-        "platform-mcq-26": "「在雲端提供運算、儲存、開發或部署能力的平台」與本句語境不同。"
+        "platform-mcq-30": "本句的「loading platform」指「用來裝卸貨物的平台」。",
+        "platform-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-30"
     },
@@ -2194,11 +1990,9 @@ export default {
       "masked": "Workers moved boxes from the loading ____.",
       "options": [
         "platform-mcq-30",
-        "platform-mcq-29",
-        "platform-mcq-31",
-        "platform-mcq-28",
-        "platform-mcq-27",
-        "platform-mcq-26"
+        "platform-mcq-19",
+        "platform-mcq-16",
+        "platform-mcq-25"
       ],
       "explanation": "本句的「platform」指「用來裝卸貨物的平台」。",
       "sentenceIndex": 144,
@@ -2207,12 +2001,10 @@ export default {
         "platform"
       ],
       "optionReasons": {
-        "platform-mcq-30": "本句指「用來裝卸貨物的平台」。",
-        "platform-mcq-29": "「取消某人使用某平台／公開發言渠道的能力」與本句語境不同。",
-        "platform-mcq-31": "「承載武器、感應器或作戰設備的載具／系統」與本句語境不同。",
-        "platform-mcq-28": "「給某人／某觀點提供公開受眾、曝光或傳播渠道」與本句語境不同。",
-        "platform-mcq-27": "「由雲端提供應用程式開發／部署環境的平台服務」與本句語境不同。",
-        "platform-mcq-26": "「在雲端提供運算、儲存、開發或部署能力的平台」與本句語境不同。"
+        "platform-mcq-30": "本句的「platform」指「用來裝卸貨物的平台」。",
+        "platform-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "platform-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "platform-mcq-30"
     }
@@ -2224,5 +2016,7 @@ export default {
     "sha256": "b578c6645a5588166666684bffa9d5747a2311298c11bc1d1db01fdda3217317",
     "pages": 49
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

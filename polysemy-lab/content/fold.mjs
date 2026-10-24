@@ -506,7 +506,7 @@ export default {
     },
     {
       "id": "fold-mcq-23",
-      "title": "表示數量／程度是原來的若干倍",
+      "title": "數量／程度是原來的若干倍",
       "form": "-fold",
       "en": "-fold",
       "zh": "表示數量／程度是原來的若干倍",
@@ -602,11 +602,9 @@ export default {
       "masked": "He can spend hours … ____ out of old notebooks.",
       "options": [
         "fold-mcq-01",
-        "fold-mcq-02",
-        "fold-mcq-03",
-        "fold-mcq-04",
-        "fold-mcq-05",
-        "fold-mcq-06"
+        "fold-mcq-15",
+        "fold-mcq-06",
+        "fold-mcq-25"
       ],
       "explanation": "本句的「folding paper rockets」指「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」。",
       "sentenceIndex": 0,
@@ -615,12 +613,10 @@ export default {
         "folding paper rockets"
       ],
       "optionReasons": {
-        "fold-mcq-01": "本句指「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」。",
-        "fold-mcq-02": "「把物件摺成兩個大致相等的部分」是「fold in half」的用法，與本句語境不同。",
-        "fold-mcq-03": "「把衣物摺疊整齊，方便收納」是「fold clothes」的用法，與本句語境不同。",
-        "fold-mcq-04": "「把雙臂彎曲並交叉放在胸前」是「fold your arms」的用法，與本句語境不同。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。"
+        "fold-mcq-01": "本句的「folding paper rockets」指「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」。",
+        "fold-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-01"
     },
@@ -632,11 +628,9 @@ export default {
       "masked": "She ____ the paper in half.",
       "options": [
         "fold-mcq-01",
-        "fold-mcq-02",
-        "fold-mcq-03",
-        "fold-mcq-04",
-        "fold-mcq-05",
-        "fold-mcq-06"
+        "fold-mcq-24",
+        "fold-mcq-07",
+        "fold-mcq-17"
       ],
       "explanation": "本句的「folded」指「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」。",
       "sentenceIndex": 1,
@@ -645,12 +639,10 @@ export default {
         "folded"
       ],
       "optionReasons": {
-        "fold-mcq-01": "本句指「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」。",
-        "fold-mcq-02": "「把物件摺成兩個大致相等的部分」是「fold in half」的用法，與本句語境不同。",
-        "fold-mcq-03": "「把衣物摺疊整齊，方便收納」是「fold clothes」的用法，與本句語境不同。",
-        "fold-mcq-04": "「把雙臂彎曲並交叉放在胸前」是「fold your arms」的用法，與本句語境不同。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。"
+        "fold-mcq-01": "本句的「folded」指「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」。",
+        "fold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-01"
     },
@@ -662,11 +654,9 @@ export default {
       "masked": "The child carefully ____ the corner.",
       "options": [
         "fold-mcq-01",
-        "fold-mcq-02",
-        "fold-mcq-03",
-        "fold-mcq-04",
-        "fold-mcq-05",
-        "fold-mcq-06"
+        "fold-mcq-14",
+        "fold-mcq-09",
+        "fold-mcq-25"
       ],
       "explanation": "本句的「folded」指「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」。",
       "sentenceIndex": 2,
@@ -675,12 +665,10 @@ export default {
         "folded"
       ],
       "optionReasons": {
-        "fold-mcq-01": "本句指「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」。",
-        "fold-mcq-02": "「把物件摺成兩個大致相等的部分」是「fold in half」的用法，與本句語境不同。",
-        "fold-mcq-03": "「把衣物摺疊整齊，方便收納」是「fold clothes」的用法，與本句語境不同。",
-        "fold-mcq-04": "「把雙臂彎曲並交叉放在胸前」是「fold your arms」的用法，與本句語境不同。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。"
+        "fold-mcq-01": "本句的「folded」指「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」。",
+        "fold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-01"
     },
@@ -692,11 +680,9 @@ export default {
       "masked": "____ the paper in half.",
       "options": [
         "fold-mcq-02",
-        "fold-mcq-01",
-        "fold-mcq-03",
-        "fold-mcq-04",
-        "fold-mcq-05",
-        "fold-mcq-06"
+        "fold-mcq-16",
+        "fold-mcq-26",
+        "fold-mcq-23"
       ],
       "explanation": "本句的「Fold」指「把物件摺成兩個大致相等的部分」。",
       "sentenceIndex": 3,
@@ -705,12 +691,10 @@ export default {
         "Fold"
       ],
       "optionReasons": {
-        "fold-mcq-02": "本句指「把物件摺成兩個大致相等的部分」。",
-        "fold-mcq-01": "「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」是「fold — paper/material」的用法，與本句語境不同。",
-        "fold-mcq-03": "「把衣物摺疊整齊，方便收納」是「fold clothes」的用法，與本句語境不同。",
-        "fold-mcq-04": "「把雙臂彎曲並交叉放在胸前」是「fold your arms」的用法，與本句語境不同。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。"
+        "fold-mcq-02": "本句的「Fold」指「把物件摺成兩個大致相等的部分」。",
+        "fold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-02"
     },
@@ -722,11 +706,9 @@ export default {
       "masked": "She ____ the card in half.",
       "options": [
         "fold-mcq-02",
-        "fold-mcq-01",
-        "fold-mcq-03",
         "fold-mcq-04",
-        "fold-mcq-05",
-        "fold-mcq-06"
+        "fold-mcq-15",
+        "fold-mcq-17"
       ],
       "explanation": "本句的「folded」指「把物件摺成兩個大致相等的部分」。",
       "sentenceIndex": 4,
@@ -735,12 +717,10 @@ export default {
         "folded"
       ],
       "optionReasons": {
-        "fold-mcq-02": "本句指「把物件摺成兩個大致相等的部分」。",
-        "fold-mcq-01": "「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」是「fold — paper/material」的用法，與本句語境不同。",
-        "fold-mcq-03": "「把衣物摺疊整齊，方便收納」是「fold clothes」的用法，與本句語境不同。",
-        "fold-mcq-04": "「把雙臂彎曲並交叉放在胸前」是「fold your arms」的用法，與本句語境不同。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。"
+        "fold-mcq-02": "本句的「folded」指「把物件摺成兩個大致相等的部分」。",
+        "fold-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-02"
     },
@@ -752,11 +732,9 @@ export default {
       "masked": "She ____ the clean clothes.",
       "options": [
         "fold-mcq-03",
-        "fold-mcq-02",
-        "fold-mcq-04",
-        "fold-mcq-01",
-        "fold-mcq-05",
-        "fold-mcq-06"
+        "fold-mcq-13",
+        "fold-mcq-14",
+        "fold-mcq-18"
       ],
       "explanation": "本句的「folded」指「把衣物摺疊整齊，方便收納」。",
       "sentenceIndex": 5,
@@ -765,12 +743,10 @@ export default {
         "folded"
       ],
       "optionReasons": {
-        "fold-mcq-03": "本句指「把衣物摺疊整齊，方便收納」。",
-        "fold-mcq-02": "「把物件摺成兩個大致相等的部分」是「fold in half」的用法，與本句語境不同。",
-        "fold-mcq-04": "「把雙臂彎曲並交叉放在胸前」是「fold your arms」的用法，與本句語境不同。",
-        "fold-mcq-01": "「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」是「fold — paper/material」的用法，與本句語境不同。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。"
+        "fold-mcq-03": "本句的「folded」指「把衣物摺疊整齊，方便收納」。",
+        "fold-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-03"
     },
@@ -782,11 +758,9 @@ export default {
       "masked": "Can you help me ____ the towels?",
       "options": [
         "fold-mcq-03",
-        "fold-mcq-02",
-        "fold-mcq-04",
-        "fold-mcq-01",
-        "fold-mcq-05",
-        "fold-mcq-06"
+        "fold-mcq-24",
+        "fold-mcq-11",
+        "fold-mcq-17"
       ],
       "explanation": "本句的「fold」指「把衣物摺疊整齊，方便收納」。",
       "sentenceIndex": 6,
@@ -795,12 +769,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-03": "本句指「把衣物摺疊整齊，方便收納」。",
-        "fold-mcq-02": "「把物件摺成兩個大致相等的部分」是「fold in half」的用法，與本句語境不同。",
-        "fold-mcq-04": "「把雙臂彎曲並交叉放在胸前」是「fold your arms」的用法，與本句語境不同。",
-        "fold-mcq-01": "「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」是「fold — paper/material」的用法，與本句語境不同。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。"
+        "fold-mcq-03": "本句的「fold」指「把衣物摺疊整齊，方便收納」。",
+        "fold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-03"
     },
@@ -812,11 +784,9 @@ export default {
       "masked": "He ____ and waited.",
       "options": [
         "fold-mcq-04",
-        "fold-mcq-03",
-        "fold-mcq-05",
-        "fold-mcq-02",
-        "fold-mcq-06",
-        "fold-mcq-01"
+        "fold-mcq-24",
+        "fold-mcq-21",
+        "fold-mcq-26"
       ],
       "explanation": "本句的「folded his arms」指「把雙臂彎曲並交叉放在胸前」。",
       "sentenceIndex": 7,
@@ -825,12 +795,10 @@ export default {
         "folded his arms"
       ],
       "optionReasons": {
-        "fold-mcq-04": "本句指「把雙臂彎曲並交叉放在胸前」。",
-        "fold-mcq-03": "「把衣物摺疊整齊，方便收納」是「fold clothes」的用法，與本句語境不同。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。",
-        "fold-mcq-02": "「把物件摺成兩個大致相等的部分」是「fold in half」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。",
-        "fold-mcq-01": "「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」是「fold — paper/material」的用法，與本句語境不同。"
+        "fold-mcq-04": "本句的「folded his arms」指「把雙臂彎曲並交叉放在胸前」。",
+        "fold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-04"
     },
@@ -842,11 +810,9 @@ export default {
       "masked": "She stood there with her arms ____.",
       "options": [
         "fold-mcq-04",
+        "fold-mcq-24",
         "fold-mcq-03",
-        "fold-mcq-05",
-        "fold-mcq-02",
-        "fold-mcq-06",
-        "fold-mcq-01"
+        "fold-mcq-26"
       ],
       "explanation": "本句的「folded」指「把雙臂彎曲並交叉放在胸前」。",
       "sentenceIndex": 8,
@@ -855,12 +821,10 @@ export default {
         "folded"
       ],
       "optionReasons": {
-        "fold-mcq-04": "本句指「把雙臂彎曲並交叉放在胸前」。",
-        "fold-mcq-03": "「把衣物摺疊整齊，方便收納」是「fold clothes」的用法，與本句語境不同。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。",
-        "fold-mcq-02": "「把物件摺成兩個大致相等的部分」是「fold in half」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。",
-        "fold-mcq-01": "「把紙、布等柔軟物料彎折，使一部分疊到另一部分上」是「fold — paper/material」的用法，與本句語境不同。"
+        "fold-mcq-04": "本句的「folded」指「把雙臂彎曲並交叉放在胸前」。",
+        "fold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-04"
     },
@@ -872,11 +836,9 @@ export default {
       "masked": "The chair can be ____ flat.",
       "options": [
         "fold-mcq-05",
-        "fold-mcq-04",
-        "fold-mcq-06",
-        "fold-mcq-03",
-        "fold-mcq-07",
-        "fold-mcq-02"
+        "fold-mcq-17",
+        "fold-mcq-14",
+        "fold-mcq-26"
       ],
       "explanation": "本句的「folded」指「把可彎物件摺起，使其縮小或改變形狀」。",
       "sentenceIndex": 9,
@@ -885,12 +847,10 @@ export default {
         "folded"
       ],
       "optionReasons": {
-        "fold-mcq-05": "本句指「把可彎物件摺起，使其縮小或改變形狀」。",
-        "fold-mcq-04": "「把雙臂彎曲並交叉放在胸前」是「fold your arms」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。",
-        "fold-mcq-03": "「把衣物摺疊整齊，方便收納」是「fold clothes」的用法，與本句語境不同。",
-        "fold-mcq-07": "「把物件摺起並收好」是「fold away」的用法，與本句語境不同。",
-        "fold-mcq-02": "「把物件摺成兩個大致相等的部分」是「fold in half」的用法，與本句語境不同。"
+        "fold-mcq-05": "本句的「folded」指「把可彎物件摺起，使其縮小或改變形狀」。",
+        "fold-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-05"
     },
@@ -902,11 +862,9 @@ export default {
       "masked": "He ____ the map and put it away.",
       "options": [
         "fold-mcq-05",
-        "fold-mcq-04",
-        "fold-mcq-06",
-        "fold-mcq-03",
-        "fold-mcq-07",
-        "fold-mcq-02"
+        "fold-mcq-24",
+        "fold-mcq-18",
+        "fold-mcq-14"
       ],
       "explanation": "本句的「folded」指「把可彎物件摺起，使其縮小或改變形狀」。",
       "sentenceIndex": 10,
@@ -915,12 +873,10 @@ export default {
         "folded"
       ],
       "optionReasons": {
-        "fold-mcq-05": "本句指「把可彎物件摺起，使其縮小或改變形狀」。",
-        "fold-mcq-04": "「把雙臂彎曲並交叉放在胸前」是「fold your arms」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。",
-        "fold-mcq-03": "「把衣物摺疊整齊，方便收納」是「fold clothes」的用法，與本句語境不同。",
-        "fold-mcq-07": "「把物件摺起並收好」是「fold away」的用法，與本句語境不同。",
-        "fold-mcq-02": "「把物件摺成兩個大致相等的部分」是「fold in half」的用法，與本句語境不同。"
+        "fold-mcq-05": "本句的「folded」指「把可彎物件摺起，使其縮小或改變形狀」。",
+        "fold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-05"
     },
@@ -932,11 +888,9 @@ export default {
       "masked": "The table ____ easily.",
       "options": [
         "fold-mcq-06",
-        "fold-mcq-05",
-        "fold-mcq-07",
+        "fold-mcq-24",
         "fold-mcq-04",
-        "fold-mcq-08",
-        "fold-mcq-03"
+        "fold-mcq-14"
       ],
       "explanation": "本句的「folds up」指「把某物摺起／摺合成較小形態」。",
       "sentenceIndex": 11,
@@ -945,12 +899,10 @@ export default {
         "folds up"
       ],
       "optionReasons": {
-        "fold-mcq-06": "本句指「把某物摺起／摺合成較小形態」。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。",
-        "fold-mcq-07": "「把物件摺起並收好」是「fold away」的用法，與本句語境不同。",
-        "fold-mcq-04": "「把雙臂彎曲並交叉放在胸前」是「fold your arms」的用法，與本句語境不同。",
-        "fold-mcq-08": "「可以摺起或彎折的」是「foldable」的用法，與本句語境不同。",
-        "fold-mcq-03": "「把衣物摺疊整齊，方便收納」是「fold clothes」的用法，與本句語境不同。"
+        "fold-mcq-06": "本句的「folds up」指「把某物摺起／摺合成較小形態」。",
+        "fold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-06"
     },
@@ -962,11 +914,9 @@ export default {
       "masked": "She ____ the blanket.",
       "options": [
         "fold-mcq-06",
-        "fold-mcq-05",
-        "fold-mcq-07",
+        "fold-mcq-24",
         "fold-mcq-04",
-        "fold-mcq-08",
-        "fold-mcq-03"
+        "fold-mcq-15"
       ],
       "explanation": "本句的「folded up」指「把某物摺起／摺合成較小形態」。",
       "sentenceIndex": 12,
@@ -975,12 +925,10 @@ export default {
         "folded up"
       ],
       "optionReasons": {
-        "fold-mcq-06": "本句指「把某物摺起／摺合成較小形態」。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。",
-        "fold-mcq-07": "「把物件摺起並收好」是「fold away」的用法，與本句語境不同。",
-        "fold-mcq-04": "「把雙臂彎曲並交叉放在胸前」是「fold your arms」的用法，與本句語境不同。",
-        "fold-mcq-08": "「可以摺起或彎折的」是「foldable」的用法，與本句語境不同。",
-        "fold-mcq-03": "「把衣物摺疊整齊，方便收納」是「fold clothes」的用法，與本句語境不同。"
+        "fold-mcq-06": "本句的「folded up」指「把某物摺起／摺合成較小形態」。",
+        "fold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-06"
     },
@@ -992,11 +940,9 @@ export default {
       "masked": "The bed ____ into the wall.",
       "options": [
         "fold-mcq-07",
-        "fold-mcq-06",
-        "fold-mcq-08",
-        "fold-mcq-05",
-        "fold-mcq-09",
-        "fold-mcq-04"
+        "fold-mcq-12",
+        "fold-mcq-24",
+        "fold-mcq-17"
       ],
       "explanation": "本句的「folds away」指「把物件摺起並收好」。",
       "sentenceIndex": 13,
@@ -1005,12 +951,10 @@ export default {
         "folds away"
       ],
       "optionReasons": {
-        "fold-mcq-07": "本句指「把物件摺起並收好」。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。",
-        "fold-mcq-08": "「可以摺起或彎折的」是「foldable」的用法，與本句語境不同。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。",
-        "fold-mcq-09": "「可以摺合、方便收納／攜帶的」是「folding + noun」的用法，與本句語境不同。",
-        "fold-mcq-04": "「把雙臂彎曲並交叉放在胸前」是「fold your arms」的用法，與本句語境不同。"
+        "fold-mcq-07": "本句的「folds away」指「把物件摺起並收好」。",
+        "fold-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-07"
     },
@@ -1022,11 +966,9 @@ export default {
       "masked": "The chairs can be ____ when not in use.",
       "options": [
         "fold-mcq-07",
-        "fold-mcq-06",
-        "fold-mcq-08",
-        "fold-mcq-05",
-        "fold-mcq-09",
-        "fold-mcq-04"
+        "fold-mcq-15",
+        "fold-mcq-26",
+        "fold-mcq-13"
       ],
       "explanation": "本句的「folded away」指「把物件摺起並收好」。",
       "sentenceIndex": 14,
@@ -1035,12 +977,10 @@ export default {
         "folded away"
       ],
       "optionReasons": {
-        "fold-mcq-07": "本句指「把物件摺起並收好」。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。",
-        "fold-mcq-08": "「可以摺起或彎折的」是「foldable」的用法，與本句語境不同。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。",
-        "fold-mcq-09": "「可以摺合、方便收納／攜帶的」是「folding + noun」的用法，與本句語境不同。",
-        "fold-mcq-04": "「把雙臂彎曲並交叉放在胸前」是「fold your arms」的用法，與本句語境不同。"
+        "fold-mcq-07": "本句的「folded away」指「把物件摺起並收好」。",
+        "fold-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-07"
     },
@@ -1052,11 +992,9 @@ export default {
       "masked": "They bought a ____ table.",
       "options": [
         "fold-mcq-08",
-        "fold-mcq-07",
-        "fold-mcq-09",
-        "fold-mcq-06",
-        "fold-mcq-10",
-        "fold-mcq-05"
+        "fold-mcq-20",
+        "fold-mcq-18",
+        "fold-mcq-14"
       ],
       "explanation": "本句的「foldable」指「可以摺起或彎折的」。",
       "sentenceIndex": 15,
@@ -1065,12 +1003,10 @@ export default {
         "foldable"
       ],
       "optionReasons": {
-        "fold-mcq-08": "本句指「可以摺起或彎折的」。",
-        "fold-mcq-07": "「把物件摺起並收好」是「fold away」的用法，與本句語境不同。",
-        "fold-mcq-09": "「可以摺合、方便收納／攜帶的」是「folding + noun」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。",
-        "fold-mcq-10": "「因摺疊而形成的摺痕／摺線」是「fold — crease」的用法，與本句語境不同。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。"
+        "fold-mcq-08": "本句的「foldable」指「可以摺起或彎折的」。",
+        "fold-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-08"
     },
@@ -1082,11 +1018,9 @@ export default {
       "masked": "The phone has a ____ screen.",
       "options": [
         "fold-mcq-08",
-        "fold-mcq-07",
-        "fold-mcq-09",
-        "fold-mcq-06",
-        "fold-mcq-10",
-        "fold-mcq-05"
+        "fold-mcq-18",
+        "fold-mcq-23",
+        "fold-mcq-14"
       ],
       "explanation": "本句的「foldable」指「可以摺起或彎折的」。",
       "sentenceIndex": 16,
@@ -1095,12 +1029,10 @@ export default {
         "foldable"
       ],
       "optionReasons": {
-        "fold-mcq-08": "本句指「可以摺起或彎折的」。",
-        "fold-mcq-07": "「把物件摺起並收好」是「fold away」的用法，與本句語境不同。",
-        "fold-mcq-09": "「可以摺合、方便收納／攜帶的」是「folding + noun」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。",
-        "fold-mcq-10": "「因摺疊而形成的摺痕／摺線」是「fold — crease」的用法，與本句語境不同。",
-        "fold-mcq-05": "「把可彎物件摺起，使其縮小或改變形狀」是「fold — flexible object」的用法，與本句語境不同。"
+        "fold-mcq-08": "本句的「foldable」指「可以摺起或彎折的」。",
+        "fold-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-08"
     },
@@ -1112,11 +1044,9 @@ export default {
       "masked": "We brought ____.",
       "options": [
         "fold-mcq-09",
-        "fold-mcq-08",
-        "fold-mcq-10",
-        "fold-mcq-07",
-        "fold-mcq-11",
-        "fold-mcq-06"
+        "fold-mcq-16",
+        "fold-mcq-19",
+        "fold-mcq-17"
       ],
       "explanation": "本句的「folding chairs」指「可以摺合、方便收納／攜帶的」。",
       "sentenceIndex": 17,
@@ -1125,12 +1055,10 @@ export default {
         "folding chairs"
       ],
       "optionReasons": {
-        "fold-mcq-09": "本句指「可以摺合、方便收納／攜帶的」。",
-        "fold-mcq-08": "「可以摺起或彎折的」是「foldable」的用法，與本句語境不同。",
-        "fold-mcq-10": "「因摺疊而形成的摺痕／摺線」是「fold — crease」的用法，與本句語境不同。",
-        "fold-mcq-07": "「把物件摺起並收好」是「fold away」的用法，與本句語境不同。",
-        "fold-mcq-11": "「布料等自然彎曲形成的褶皺部分」是「fold — fabric layer」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。"
+        "fold-mcq-09": "本句的「folding chairs」指「可以摺合、方便收納／攜帶的」。",
+        "fold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-09"
     },
@@ -1142,11 +1070,9 @@ export default {
       "masked": "He uses a ____.",
       "options": [
         "fold-mcq-09",
-        "fold-mcq-08",
-        "fold-mcq-10",
-        "fold-mcq-07",
         "fold-mcq-11",
-        "fold-mcq-06"
+        "fold-mcq-25",
+        "fold-mcq-15"
       ],
       "explanation": "本句的「folding bike」指「可以摺合、方便收納／攜帶的」。",
       "sentenceIndex": 18,
@@ -1155,12 +1081,10 @@ export default {
         "folding bike"
       ],
       "optionReasons": {
-        "fold-mcq-09": "本句指「可以摺合、方便收納／攜帶的」。",
-        "fold-mcq-08": "「可以摺起或彎折的」是「foldable」的用法，與本句語境不同。",
-        "fold-mcq-10": "「因摺疊而形成的摺痕／摺線」是「fold — crease」的用法，與本句語境不同。",
-        "fold-mcq-07": "「把物件摺起並收好」是「fold away」的用法，與本句語境不同。",
-        "fold-mcq-11": "「布料等自然彎曲形成的褶皺部分」是「fold — fabric layer」的用法，與本句語境不同。",
-        "fold-mcq-06": "「把某物摺起／摺合成較小形態」是「fold up」的用法，與本句語境不同。"
+        "fold-mcq-09": "本句的「folding bike」指「可以摺合、方便收納／攜帶的」。",
+        "fold-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-09"
     },
@@ -1172,11 +1096,9 @@ export default {
       "masked": "There is a ____ in the paper.",
       "options": [
         "fold-mcq-10",
-        "fold-mcq-09",
-        "fold-mcq-11",
-        "fold-mcq-08",
-        "fold-mcq-12",
-        "fold-mcq-07"
+        "fold-mcq-24",
+        "fold-mcq-21",
+        "fold-mcq-26"
       ],
       "explanation": "本句的「fold」指「因摺疊而形成的摺痕／摺線」。",
       "sentenceIndex": 19,
@@ -1185,12 +1107,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-10": "本句指「因摺疊而形成的摺痕／摺線」。",
-        "fold-mcq-09": "「可以摺合、方便收納／攜帶的」是「folding + noun」的用法，與本句語境不同。",
-        "fold-mcq-11": "「布料等自然彎曲形成的褶皺部分」是「fold — fabric layer」的用法，與本句語境不同。",
-        "fold-mcq-08": "「可以摺起或彎折的」是「foldable」的用法，與本句語境不同。",
-        "fold-mcq-12": "「皮膚／組織彎曲重疊形成的褶皺」是「fold — anatomical」的用法，與本句語境不同。",
-        "fold-mcq-07": "「把物件摺起並收好」是「fold away」的用法，與本句語境不同。"
+        "fold-mcq-10": "本句的「fold」指「因摺疊而形成的摺痕／摺線」。",
+        "fold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-10"
     },
@@ -1202,11 +1122,9 @@ export default {
       "masked": "Make a sharp ____ along the line.",
       "options": [
         "fold-mcq-10",
-        "fold-mcq-09",
-        "fold-mcq-11",
-        "fold-mcq-08",
-        "fold-mcq-12",
-        "fold-mcq-07"
+        "fold-mcq-23",
+        "fold-mcq-04",
+        "fold-mcq-20"
       ],
       "explanation": "本句的「fold」指「因摺疊而形成的摺痕／摺線」。",
       "sentenceIndex": 20,
@@ -1215,12 +1133,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-10": "本句指「因摺疊而形成的摺痕／摺線」。",
-        "fold-mcq-09": "「可以摺合、方便收納／攜帶的」是「folding + noun」的用法，與本句語境不同。",
-        "fold-mcq-11": "「布料等自然彎曲形成的褶皺部分」是「fold — fabric layer」的用法，與本句語境不同。",
-        "fold-mcq-08": "「可以摺起或彎折的」是「foldable」的用法，與本句語境不同。",
-        "fold-mcq-12": "「皮膚／組織彎曲重疊形成的褶皺」是「fold — anatomical」的用法，與本句語境不同。",
-        "fold-mcq-07": "「把物件摺起並收好」是「fold away」的用法，與本句語境不同。"
+        "fold-mcq-10": "本句的「fold」指「因摺疊而形成的摺痕／摺線」。",
+        "fold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-10"
     },
@@ -1232,11 +1148,9 @@ export default {
       "masked": "The dress fell in soft ____.",
       "options": [
         "fold-mcq-11",
-        "fold-mcq-10",
-        "fold-mcq-12",
-        "fold-mcq-09",
-        "fold-mcq-13",
-        "fold-mcq-08"
+        "fold-mcq-03",
+        "fold-mcq-14",
+        "fold-mcq-18"
       ],
       "explanation": "本句的「folds」指「布料等自然彎曲形成的褶皺部分」。",
       "sentenceIndex": 21,
@@ -1245,12 +1159,10 @@ export default {
         "folds"
       ],
       "optionReasons": {
-        "fold-mcq-11": "本句指「布料等自然彎曲形成的褶皺部分」。",
-        "fold-mcq-10": "「因摺疊而形成的摺痕／摺線」是「fold — crease」的用法，與本句語境不同。",
-        "fold-mcq-12": "「皮膚／組織彎曲重疊形成的褶皺」是「fold — anatomical」的用法，與本句語境不同。",
-        "fold-mcq-09": "「可以摺合、方便收納／攜帶的」是「folding + noun」的用法，與本句語境不同。",
-        "fold-mcq-13": "「岩層受壓彎曲形成的地質褶皺」是「fold — geology」的用法，與本句語境不同。",
-        "fold-mcq-08": "「可以摺起或彎折的」是「foldable」的用法，與本句語境不同。"
+        "fold-mcq-11": "本句的「folds」指「布料等自然彎曲形成的褶皺部分」。",
+        "fold-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-11"
     },
@@ -1262,11 +1174,9 @@ export default {
       "masked": "Water collected in the ____ of the fabric.",
       "options": [
         "fold-mcq-11",
-        "fold-mcq-10",
-        "fold-mcq-12",
-        "fold-mcq-09",
-        "fold-mcq-13",
-        "fold-mcq-08"
+        "fold-mcq-16",
+        "fold-mcq-24",
+        "fold-mcq-03"
       ],
       "explanation": "本句的「folds」指「布料等自然彎曲形成的褶皺部分」。",
       "sentenceIndex": 22,
@@ -1275,12 +1185,10 @@ export default {
         "folds"
       ],
       "optionReasons": {
-        "fold-mcq-11": "本句指「布料等自然彎曲形成的褶皺部分」。",
-        "fold-mcq-10": "「因摺疊而形成的摺痕／摺線」是「fold — crease」的用法，與本句語境不同。",
-        "fold-mcq-12": "「皮膚／組織彎曲重疊形成的褶皺」是「fold — anatomical」的用法，與本句語境不同。",
-        "fold-mcq-09": "「可以摺合、方便收納／攜帶的」是「folding + noun」的用法，與本句語境不同。",
-        "fold-mcq-13": "「岩層受壓彎曲形成的地質褶皺」是「fold — geology」的用法，與本句語境不同。",
-        "fold-mcq-08": "「可以摺起或彎折的」是「foldable」的用法，與本句語境不同。"
+        "fold-mcq-11": "本句的「folds」指「布料等自然彎曲形成的褶皺部分」。",
+        "fold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-11"
     },
@@ -1292,11 +1200,9 @@ export default {
       "masked": "The cream should be applied between skin ____.",
       "options": [
         "fold-mcq-12",
-        "fold-mcq-11",
-        "fold-mcq-13",
-        "fold-mcq-10",
-        "fold-mcq-14",
-        "fold-mcq-09"
+        "fold-mcq-16",
+        "fold-mcq-25",
+        "fold-mcq-21"
       ],
       "explanation": "本句的「folds」指「皮膚／組織彎曲重疊形成的褶皺」。",
       "sentenceIndex": 23,
@@ -1305,12 +1211,10 @@ export default {
         "folds"
       ],
       "optionReasons": {
-        "fold-mcq-12": "本句指「皮膚／組織彎曲重疊形成的褶皺」。",
-        "fold-mcq-11": "「布料等自然彎曲形成的褶皺部分」是「fold — fabric layer」的用法，與本句語境不同。",
-        "fold-mcq-13": "「岩層受壓彎曲形成的地質褶皺」是「fold — geology」的用法，與本句語境不同。",
-        "fold-mcq-10": "「因摺疊而形成的摺痕／摺線」是「fold — crease」的用法，與本句語境不同。",
-        "fold-mcq-14": "「有共同信念、身份或歸屬感的群體／圈子」是「the fold — group」的用法，與本句語境不同。",
-        "fold-mcq-09": "「可以摺合、方便收納／攜帶的」是「folding + noun」的用法，與本句語境不同。"
+        "fold-mcq-12": "本句的「folds」指「皮膚／組織彎曲重疊形成的褶皺」。",
+        "fold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-12"
     },
@@ -1322,11 +1226,9 @@ export default {
       "masked": "The doctor examined the tissue ____.",
       "options": [
         "fold-mcq-12",
-        "fold-mcq-11",
-        "fold-mcq-13",
-        "fold-mcq-10",
-        "fold-mcq-14",
-        "fold-mcq-09"
+        "fold-mcq-23",
+        "fold-mcq-21",
+        "fold-mcq-07"
       ],
       "explanation": "本句的「fold」指「皮膚／組織彎曲重疊形成的褶皺」。",
       "sentenceIndex": 24,
@@ -1335,12 +1237,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-12": "本句指「皮膚／組織彎曲重疊形成的褶皺」。",
-        "fold-mcq-11": "「布料等自然彎曲形成的褶皺部分」是「fold — fabric layer」的用法，與本句語境不同。",
-        "fold-mcq-13": "「岩層受壓彎曲形成的地質褶皺」是「fold — geology」的用法，與本句語境不同。",
-        "fold-mcq-10": "「因摺疊而形成的摺痕／摺線」是「fold — crease」的用法，與本句語境不同。",
-        "fold-mcq-14": "「有共同信念、身份或歸屬感的群體／圈子」是「the fold — group」的用法，與本句語境不同。",
-        "fold-mcq-09": "「可以摺合、方便收納／攜帶的」是「folding + noun」的用法，與本句語境不同。"
+        "fold-mcq-12": "本句的「fold」指「皮膚／組織彎曲重疊形成的褶皺」。",
+        "fold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-12"
     },
@@ -1352,11 +1252,9 @@ export default {
       "masked": "The mountain contains several geological ____.",
       "options": [
         "fold-mcq-13",
-        "fold-mcq-12",
-        "fold-mcq-14",
-        "fold-mcq-11",
-        "fold-mcq-15",
-        "fold-mcq-10"
+        "fold-mcq-07",
+        "fold-mcq-17",
+        "fold-mcq-20"
       ],
       "explanation": "本句的「folds」指「岩層受壓彎曲形成的地質褶皺」。",
       "sentenceIndex": 25,
@@ -1365,12 +1263,10 @@ export default {
         "folds"
       ],
       "optionReasons": {
-        "fold-mcq-13": "本句指「岩層受壓彎曲形成的地質褶皺」。",
-        "fold-mcq-12": "「皮膚／組織彎曲重疊形成的褶皺」是「fold — anatomical」的用法，與本句語境不同。",
-        "fold-mcq-14": "「有共同信念、身份或歸屬感的群體／圈子」是「the fold — group」的用法，與本句語境不同。",
-        "fold-mcq-11": "「布料等自然彎曲形成的褶皺部分」是「fold — fabric layer」的用法，與本句語境不同。",
-        "fold-mcq-15": "「重新回到原來所屬的團體／圈子」是「return to the fold」的用法，與本句語境不同。",
-        "fold-mcq-10": "「因摺疊而形成的摺痕／摺線」是「fold — crease」的用法，與本句語境不同。"
+        "fold-mcq-13": "本句的「folds」指「岩層受壓彎曲形成的地質褶皺」。",
+        "fold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-13"
     },
@@ -1382,11 +1278,9 @@ export default {
       "masked": "Pressure caused the rock layers to ____.",
       "options": [
         "fold-mcq-13",
-        "fold-mcq-12",
-        "fold-mcq-14",
-        "fold-mcq-11",
-        "fold-mcq-15",
-        "fold-mcq-10"
+        "fold-mcq-09",
+        "fold-mcq-17",
+        "fold-mcq-14"
       ],
       "explanation": "本句的「fold」指「岩層受壓彎曲形成的地質褶皺」。",
       "sentenceIndex": 26,
@@ -1395,12 +1289,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-13": "本句指「岩層受壓彎曲形成的地質褶皺」。",
-        "fold-mcq-12": "「皮膚／組織彎曲重疊形成的褶皺」是「fold — anatomical」的用法，與本句語境不同。",
-        "fold-mcq-14": "「有共同信念、身份或歸屬感的群體／圈子」是「the fold — group」的用法，與本句語境不同。",
-        "fold-mcq-11": "「布料等自然彎曲形成的褶皺部分」是「fold — fabric layer」的用法，與本句語境不同。",
-        "fold-mcq-15": "「重新回到原來所屬的團體／圈子」是「return to the fold」的用法，與本句語境不同。",
-        "fold-mcq-10": "「因摺疊而形成的摺痕／摺線」是「fold — crease」的用法，與本句語境不同。"
+        "fold-mcq-13": "本句的「fold」指「岩層受壓彎曲形成的地質褶皺」。",
+        "fold-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-13"
     },
@@ -1413,10 +1305,8 @@ export default {
       "options": [
         "fold-mcq-14",
         "fold-mcq-13",
-        "fold-mcq-15",
-        "fold-mcq-12",
-        "fold-mcq-16",
-        "fold-mcq-11"
+        "fold-mcq-19",
+        "fold-mcq-06"
       ],
       "explanation": "本句的「fold」指「有共同信念、身份或歸屬感的群體／圈子」。",
       "sentenceIndex": 27,
@@ -1425,12 +1315,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-14": "本句指「有共同信念、身份或歸屬感的群體／圈子」。",
-        "fold-mcq-13": "「岩層受壓彎曲形成的地質褶皺」是「fold — geology」的用法，與本句語境不同。",
-        "fold-mcq-15": "「重新回到原來所屬的團體／圈子」是「return to the fold」的用法，與本句語境不同。",
-        "fold-mcq-12": "「皮膚／組織彎曲重疊形成的褶皺」是「fold — anatomical」的用法，與本句語境不同。",
-        "fold-mcq-16": "「圍起來供羊群停留和受保護的羊圈」是「fold — sheep enclosure」的用法，與本句語境不同。",
-        "fold-mcq-11": "「布料等自然彎曲形成的褶皺部分」是「fold — fabric layer」的用法，與本句語境不同。"
+        "fold-mcq-14": "本句的「fold」指「有共同信念、身份或歸屬感的群體／圈子」。",
+        "fold-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-14"
     },
@@ -1442,11 +1330,9 @@ export default {
       "masked": "Several members returned to the political ____.",
       "options": [
         "fold-mcq-14",
-        "fold-mcq-13",
-        "fold-mcq-15",
-        "fold-mcq-12",
-        "fold-mcq-16",
-        "fold-mcq-11"
+        "fold-mcq-17",
+        "fold-mcq-11",
+        "fold-mcq-25"
       ],
       "explanation": "本句的「fold」指「有共同信念、身份或歸屬感的群體／圈子」。",
       "sentenceIndex": 28,
@@ -1455,12 +1341,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-14": "本句指「有共同信念、身份或歸屬感的群體／圈子」。",
-        "fold-mcq-13": "「岩層受壓彎曲形成的地質褶皺」是「fold — geology」的用法，與本句語境不同。",
-        "fold-mcq-15": "「重新回到原來所屬的團體／圈子」是「return to the fold」的用法，與本句語境不同。",
-        "fold-mcq-12": "「皮膚／組織彎曲重疊形成的褶皺」是「fold — anatomical」的用法，與本句語境不同。",
-        "fold-mcq-16": "「圍起來供羊群停留和受保護的羊圈」是「fold — sheep enclosure」的用法，與本句語境不同。",
-        "fold-mcq-11": "「布料等自然彎曲形成的褶皺部分」是「fold — fabric layer」的用法，與本句語境不同。"
+        "fold-mcq-14": "本句的「fold」指「有共同信念、身份或歸屬感的群體／圈子」。",
+        "fold-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-14"
     },
@@ -1472,11 +1356,9 @@ export default {
       "masked": "She eventually returned to the ____.",
       "options": [
         "fold-mcq-15",
-        "fold-mcq-14",
-        "fold-mcq-16",
-        "fold-mcq-13",
-        "fold-mcq-17",
-        "fold-mcq-12"
+        "fold-mcq-10",
+        "fold-mcq-07",
+        "fold-mcq-01"
       ],
       "explanation": "本句的「fold」指「重新回到原來所屬的團體／圈子」。",
       "sentenceIndex": 29,
@@ -1485,12 +1367,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-15": "本句指「重新回到原來所屬的團體／圈子」。",
-        "fold-mcq-14": "「有共同信念、身份或歸屬感的群體／圈子」是「the fold — group」的用法，與本句語境不同。",
-        "fold-mcq-16": "「圍起來供羊群停留和受保護的羊圈」是「fold — sheep enclosure」的用法，與本句語境不同。",
-        "fold-mcq-13": "「岩層受壓彎曲形成的地質褶皺」是「fold — geology」的用法，與本句語境不同。",
-        "fold-mcq-17": "「因財務／經營問題停止運作；倒閉」是「fold — business」的用法，與本句語境不同。",
-        "fold-mcq-12": "「皮膚／組織彎曲重疊形成的褶皺」是「fold — anatomical」的用法，與本句語境不同。"
+        "fold-mcq-15": "本句的「fold」指「重新回到原來所屬的團體／圈子」。",
+        "fold-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-15"
     },
@@ -1502,11 +1382,9 @@ export default {
       "masked": "The organization hopes to bring former members back into the ____.",
       "options": [
         "fold-mcq-15",
-        "fold-mcq-14",
-        "fold-mcq-16",
+        "fold-mcq-02",
         "fold-mcq-13",
-        "fold-mcq-17",
-        "fold-mcq-12"
+        "fold-mcq-18"
       ],
       "explanation": "本句的「fold」指「重新回到原來所屬的團體／圈子」。",
       "sentenceIndex": 30,
@@ -1515,12 +1393,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-15": "本句指「重新回到原來所屬的團體／圈子」。",
-        "fold-mcq-14": "「有共同信念、身份或歸屬感的群體／圈子」是「the fold — group」的用法，與本句語境不同。",
-        "fold-mcq-16": "「圍起來供羊群停留和受保護的羊圈」是「fold — sheep enclosure」的用法，與本句語境不同。",
-        "fold-mcq-13": "「岩層受壓彎曲形成的地質褶皺」是「fold — geology」的用法，與本句語境不同。",
-        "fold-mcq-17": "「因財務／經營問題停止運作；倒閉」是「fold — business」的用法，與本句語境不同。",
-        "fold-mcq-12": "「皮膚／組織彎曲重疊形成的褶皺」是「fold — anatomical」的用法，與本句語境不同。"
+        "fold-mcq-15": "本句的「fold」指「重新回到原來所屬的團體／圈子」。",
+        "fold-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-15"
     },
@@ -1532,11 +1408,9 @@ export default {
       "masked": "The shepherd led the sheep into the ____.",
       "options": [
         "fold-mcq-16",
-        "fold-mcq-15",
-        "fold-mcq-17",
-        "fold-mcq-14",
-        "fold-mcq-18",
-        "fold-mcq-13"
+        "fold-mcq-09",
+        "fold-mcq-04",
+        "fold-mcq-24"
       ],
       "explanation": "本句的「fold」指「圍起來供羊群停留和受保護的羊圈」。",
       "sentenceIndex": 31,
@@ -1545,12 +1419,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-16": "本句指「圍起來供羊群停留和受保護的羊圈」。",
-        "fold-mcq-15": "「重新回到原來所屬的團體／圈子」是「return to the fold」的用法，與本句語境不同。",
-        "fold-mcq-17": "「因財務／經營問題停止運作；倒閉」是「fold — business」的用法，與本句語境不同。",
-        "fold-mcq-14": "「有共同信念、身份或歸屬感的群體／圈子」是「the fold — group」的用法，與本句語境不同。",
-        "fold-mcq-18": "「因壓力太大而屈服、崩潰或停止抵抗」是「fold — under pressure」的用法，與本句語境不同。",
-        "fold-mcq-13": "「岩層受壓彎曲形成的地質褶皺」是「fold — geology」的用法，與本句語境不同。"
+        "fold-mcq-16": "本句的「fold」指「圍起來供羊群停留和受保護的羊圈」。",
+        "fold-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-16"
     },
@@ -1562,11 +1434,9 @@ export default {
       "masked": "The sheep stayed safely inside the ____ overnight.",
       "options": [
         "fold-mcq-16",
-        "fold-mcq-15",
-        "fold-mcq-17",
-        "fold-mcq-14",
-        "fold-mcq-18",
-        "fold-mcq-13"
+        "fold-mcq-03",
+        "fold-mcq-01",
+        "fold-mcq-19"
       ],
       "explanation": "本句的「fold」指「圍起來供羊群停留和受保護的羊圈」。",
       "sentenceIndex": 32,
@@ -1575,12 +1445,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-16": "本句指「圍起來供羊群停留和受保護的羊圈」。",
-        "fold-mcq-15": "「重新回到原來所屬的團體／圈子」是「return to the fold」的用法，與本句語境不同。",
-        "fold-mcq-17": "「因財務／經營問題停止運作；倒閉」是「fold — business」的用法，與本句語境不同。",
-        "fold-mcq-14": "「有共同信念、身份或歸屬感的群體／圈子」是「the fold — group」的用法，與本句語境不同。",
-        "fold-mcq-18": "「因壓力太大而屈服、崩潰或停止抵抗」是「fold — under pressure」的用法，與本句語境不同。",
-        "fold-mcq-13": "「岩層受壓彎曲形成的地質褶皺」是「fold — geology」的用法，與本句語境不同。"
+        "fold-mcq-16": "本句的「fold」指「圍起來供羊群停留和受保護的羊圈」。",
+        "fold-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-16"
     },
@@ -1592,11 +1460,9 @@ export default {
       "masked": "The company ____ after losing too much money.",
       "options": [
         "fold-mcq-17",
-        "fold-mcq-16",
-        "fold-mcq-18",
-        "fold-mcq-15",
-        "fold-mcq-19",
-        "fold-mcq-14"
+        "fold-mcq-23",
+        "fold-mcq-02",
+        "fold-mcq-19"
       ],
       "explanation": "本句的「folded」指「因財務／經營問題停止運作；倒閉」。",
       "sentenceIndex": 33,
@@ -1605,12 +1471,10 @@ export default {
         "folded"
       ],
       "optionReasons": {
-        "fold-mcq-17": "本句指「因財務／經營問題停止運作；倒閉」。",
-        "fold-mcq-16": "「圍起來供羊群停留和受保護的羊圈」是「fold — sheep enclosure」的用法，與本句語境不同。",
-        "fold-mcq-18": "「因壓力太大而屈服、崩潰或停止抵抗」是「fold — under pressure」的用法，與本句語境不同。",
-        "fold-mcq-15": "「重新回到原來所屬的團體／圈子」是「return to the fold」的用法，與本句語境不同。",
-        "fold-mcq-19": "「在牌局中放棄當前一手牌，不再繼續下注」是「fold — poker」的用法，與本句語境不同。",
-        "fold-mcq-14": "「有共同信念、身份或歸屬感的群體／圈子」是「the fold — group」的用法，與本句語境不同。"
+        "fold-mcq-17": "本句的「folded」指「因財務／經營問題停止運作；倒閉」。",
+        "fold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-17"
     },
@@ -1622,11 +1486,9 @@ export default {
       "masked": "Several small shops ____ during the downturn.",
       "options": [
         "fold-mcq-17",
-        "fold-mcq-16",
-        "fold-mcq-18",
-        "fold-mcq-15",
-        "fold-mcq-19",
-        "fold-mcq-14"
+        "fold-mcq-11",
+        "fold-mcq-14",
+        "fold-mcq-19"
       ],
       "explanation": "本句的「folded」指「因財務／經營問題停止運作；倒閉」。",
       "sentenceIndex": 34,
@@ -1635,12 +1497,10 @@ export default {
         "folded"
       ],
       "optionReasons": {
-        "fold-mcq-17": "本句指「因財務／經營問題停止運作；倒閉」。",
-        "fold-mcq-16": "「圍起來供羊群停留和受保護的羊圈」是「fold — sheep enclosure」的用法，與本句語境不同。",
-        "fold-mcq-18": "「因壓力太大而屈服、崩潰或停止抵抗」是「fold — under pressure」的用法，與本句語境不同。",
-        "fold-mcq-15": "「重新回到原來所屬的團體／圈子」是「return to the fold」的用法，與本句語境不同。",
-        "fold-mcq-19": "「在牌局中放棄當前一手牌，不再繼續下注」是「fold — poker」的用法，與本句語境不同。",
-        "fold-mcq-14": "「有共同信念、身份或歸屬感的群體／圈子」是「the fold — group」的用法，與本句語境不同。"
+        "fold-mcq-17": "本句的「folded」指「因財務／經營問題停止運作；倒閉」。",
+        "fold-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-17"
     },
@@ -1652,11 +1512,9 @@ export default {
       "masked": "He refused to ____ under pressure.",
       "options": [
         "fold-mcq-18",
-        "fold-mcq-17",
-        "fold-mcq-19",
-        "fold-mcq-16",
-        "fold-mcq-20",
-        "fold-mcq-15"
+        "fold-mcq-04",
+        "fold-mcq-26",
+        "fold-mcq-05"
       ],
       "explanation": "本句的「fold」指「因壓力太大而屈服、崩潰或停止抵抗」。",
       "sentenceIndex": 35,
@@ -1665,12 +1523,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-18": "本句指「因壓力太大而屈服、崩潰或停止抵抗」。",
-        "fold-mcq-17": "「因財務／經營問題停止運作；倒閉」是「fold — business」的用法，與本句語境不同。",
-        "fold-mcq-19": "「在牌局中放棄當前一手牌，不再繼續下注」是「fold — poker」的用法，與本句語境不同。",
-        "fold-mcq-16": "「圍起來供羊群停留和受保護的羊圈」是「fold — sheep enclosure」的用法，與本句語境不同。",
-        "fold-mcq-20": "「把某部分納入、整合或併入較大的整體」是「fold into」的用法，與本句語境不同。",
-        "fold-mcq-15": "「重新回到原來所屬的團體／圈子」是「return to the fold」的用法，與本句語境不同。"
+        "fold-mcq-18": "本句的「fold」指「因壓力太大而屈服、崩潰或停止抵抗」。",
+        "fold-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-18"
     },
@@ -1682,11 +1538,9 @@ export default {
       "masked": "The team did not ____ when things became difficult.",
       "options": [
         "fold-mcq-18",
-        "fold-mcq-17",
-        "fold-mcq-19",
-        "fold-mcq-16",
-        "fold-mcq-20",
-        "fold-mcq-15"
+        "fold-mcq-09",
+        "fold-mcq-24",
+        "fold-mcq-04"
       ],
       "explanation": "本句的「fold」指「因壓力太大而屈服、崩潰或停止抵抗」。",
       "sentenceIndex": 36,
@@ -1695,12 +1549,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-18": "本句指「因壓力太大而屈服、崩潰或停止抵抗」。",
-        "fold-mcq-17": "「因財務／經營問題停止運作；倒閉」是「fold — business」的用法，與本句語境不同。",
-        "fold-mcq-19": "「在牌局中放棄當前一手牌，不再繼續下注」是「fold — poker」的用法，與本句語境不同。",
-        "fold-mcq-16": "「圍起來供羊群停留和受保護的羊圈」是「fold — sheep enclosure」的用法，與本句語境不同。",
-        "fold-mcq-20": "「把某部分納入、整合或併入較大的整體」是「fold into」的用法，與本句語境不同。",
-        "fold-mcq-15": "「重新回到原來所屬的團體／圈子」是「return to the fold」的用法，與本句語境不同。"
+        "fold-mcq-18": "本句的「fold」指「因壓力太大而屈服、崩潰或停止抵抗」。",
+        "fold-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-18"
     },
@@ -1712,11 +1564,9 @@ export default {
       "masked": "He ____ after seeing the bet.",
       "options": [
         "fold-mcq-19",
-        "fold-mcq-18",
-        "fold-mcq-20",
-        "fold-mcq-17",
-        "fold-mcq-21",
-        "fold-mcq-16"
+        "fold-mcq-08",
+        "fold-mcq-12",
+        "fold-mcq-26"
       ],
       "explanation": "本句的「folded」指「在牌局中放棄當前一手牌，不再繼續下注」。",
       "sentenceIndex": 37,
@@ -1725,12 +1575,10 @@ export default {
         "folded"
       ],
       "optionReasons": {
-        "fold-mcq-19": "本句指「在牌局中放棄當前一手牌，不再繼續下注」。",
-        "fold-mcq-18": "「因壓力太大而屈服、崩潰或停止抵抗」是「fold — under pressure」的用法，與本句語境不同。",
-        "fold-mcq-20": "「把某部分納入、整合或併入較大的整體」是「fold into」的用法，與本句語境不同。",
-        "fold-mcq-17": "「因財務／經營問題停止運作；倒閉」是「fold — business」的用法，與本句語境不同。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。",
-        "fold-mcq-16": "「圍起來供羊群停留和受保護的羊圈」是「fold — sheep enclosure」的用法，與本句語境不同。"
+        "fold-mcq-19": "本句的「folded」指「在牌局中放棄當前一手牌，不再繼續下注」。",
+        "fold-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-19"
     },
@@ -1742,11 +1590,9 @@ export default {
       "masked": "You can call, raise, or ____.",
       "options": [
         "fold-mcq-19",
-        "fold-mcq-18",
+        "fold-mcq-05",
         "fold-mcq-20",
-        "fold-mcq-17",
-        "fold-mcq-21",
-        "fold-mcq-16"
+        "fold-mcq-23"
       ],
       "explanation": "本句的「fold」指「在牌局中放棄當前一手牌，不再繼續下注」。",
       "sentenceIndex": 38,
@@ -1755,12 +1601,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-19": "本句指「在牌局中放棄當前一手牌，不再繼續下注」。",
-        "fold-mcq-18": "「因壓力太大而屈服、崩潰或停止抵抗」是「fold — under pressure」的用法，與本句語境不同。",
-        "fold-mcq-20": "「把某部分納入、整合或併入較大的整體」是「fold into」的用法，與本句語境不同。",
-        "fold-mcq-17": "「因財務／經營問題停止運作；倒閉」是「fold — business」的用法，與本句語境不同。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。",
-        "fold-mcq-16": "「圍起來供羊群停留和受保護的羊圈」是「fold — sheep enclosure」的用法，與本句語境不同。"
+        "fold-mcq-19": "本句的「fold」指「在牌局中放棄當前一手牌，不再繼續下注」。",
+        "fold-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-19"
     },
@@ -1772,11 +1616,9 @@ export default {
       "masked": "The smaller team was ____ the larger department.",
       "options": [
         "fold-mcq-20",
-        "fold-mcq-19",
-        "fold-mcq-21",
-        "fold-mcq-18",
-        "fold-mcq-22",
-        "fold-mcq-17"
+        "fold-mcq-07",
+        "fold-mcq-24",
+        "fold-mcq-04"
       ],
       "explanation": "本句的「folded into」指「把某部分納入、整合或併入較大的整體」。",
       "sentenceIndex": 39,
@@ -1785,12 +1627,10 @@ export default {
         "folded into"
       ],
       "optionReasons": {
-        "fold-mcq-20": "本句指「把某部分納入、整合或併入較大的整體」。",
-        "fold-mcq-19": "「在牌局中放棄當前一手牌，不再繼續下注」是「fold — poker」的用法，與本句語境不同。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。",
-        "fold-mcq-18": "「因壓力太大而屈服、崩潰或停止抵抗」是「fold — under pressure」的用法，與本句語境不同。",
-        "fold-mcq-22": "「令身體彎曲、蜷縮或收合」是「fold body/self」的用法，與本句語境不同。",
-        "fold-mcq-17": "「因財務／經營問題停止運作；倒閉」是「fold — business」的用法，與本句語境不同。"
+        "fold-mcq-20": "本句的「folded into」指「把某部分納入、整合或併入較大的整體」。",
+        "fold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-20"
     },
@@ -1802,11 +1642,9 @@ export default {
       "masked": "The new service will be ____ the existing system.",
       "options": [
         "fold-mcq-20",
-        "fold-mcq-19",
-        "fold-mcq-21",
-        "fold-mcq-18",
-        "fold-mcq-22",
-        "fold-mcq-17"
+        "fold-mcq-08",
+        "fold-mcq-17",
+        "fold-mcq-10"
       ],
       "explanation": "本句的「folded into」指「把某部分納入、整合或併入較大的整體」。",
       "sentenceIndex": 40,
@@ -1815,12 +1653,10 @@ export default {
         "folded into"
       ],
       "optionReasons": {
-        "fold-mcq-20": "本句指「把某部分納入、整合或併入較大的整體」。",
-        "fold-mcq-19": "「在牌局中放棄當前一手牌，不再繼續下注」是「fold — poker」的用法，與本句語境不同。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。",
-        "fold-mcq-18": "「因壓力太大而屈服、崩潰或停止抵抗」是「fold — under pressure」的用法，與本句語境不同。",
-        "fold-mcq-22": "「令身體彎曲、蜷縮或收合」是「fold body/self」的用法，與本句語境不同。",
-        "fold-mcq-17": "「因財務／經營問題停止運作；倒閉」是「fold — business」的用法，與本句語境不同。"
+        "fold-mcq-20": "本句的「folded into」指「把某部分納入、整合或併入較大的整體」。",
+        "fold-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-20"
     },
@@ -1832,11 +1668,9 @@ export default {
       "masked": "____ the flour gently.",
       "options": [
         "fold-mcq-21",
-        "fold-mcq-20",
-        "fold-mcq-22",
-        "fold-mcq-19",
-        "fold-mcq-23",
-        "fold-mcq-18"
+        "fold-mcq-17",
+        "fold-mcq-10",
+        "fold-mcq-08"
       ],
       "explanation": "本句的「Fold in」指「用輕柔翻拌動作把材料混合，以保持空氣／結構」。",
       "sentenceIndex": 41,
@@ -1845,12 +1679,10 @@ export default {
         "Fold in"
       ],
       "optionReasons": {
-        "fold-mcq-21": "本句指「用輕柔翻拌動作把材料混合，以保持空氣／結構」。",
-        "fold-mcq-20": "「把某部分納入、整合或併入較大的整體」是「fold into」的用法，與本句語境不同。",
-        "fold-mcq-22": "「令身體彎曲、蜷縮或收合」是「fold body/self」的用法，與本句語境不同。",
-        "fold-mcq-19": "「在牌局中放棄當前一手牌，不再繼續下注」是「fold — poker」的用法，與本句語境不同。",
-        "fold-mcq-23": "「表示數量／程度是原來的若干倍」是「-fold」的用法，與本句語境不同。",
-        "fold-mcq-18": "「因壓力太大而屈服、崩潰或停止抵抗」是「fold — under pressure」的用法，與本句語境不同。"
+        "fold-mcq-21": "本句的「Fold in」指「用輕柔翻拌動作把材料混合，以保持空氣／結構」。",
+        "fold-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-21"
     },
@@ -1862,11 +1694,9 @@ export default {
       "masked": "She ____ the mixture.",
       "options": [
         "fold-mcq-21",
-        "fold-mcq-20",
-        "fold-mcq-22",
-        "fold-mcq-19",
-        "fold-mcq-23",
-        "fold-mcq-18"
+        "fold-mcq-13",
+        "fold-mcq-02",
+        "fold-mcq-03"
       ],
       "explanation": "本句的「folded the egg whites into」指「用輕柔翻拌動作把材料混合，以保持空氣／結構」。",
       "sentenceIndex": 42,
@@ -1875,12 +1705,10 @@ export default {
         "folded the egg whites into"
       ],
       "optionReasons": {
-        "fold-mcq-21": "本句指「用輕柔翻拌動作把材料混合，以保持空氣／結構」。",
-        "fold-mcq-20": "「把某部分納入、整合或併入較大的整體」是「fold into」的用法，與本句語境不同。",
-        "fold-mcq-22": "「令身體彎曲、蜷縮或收合」是「fold body/self」的用法，與本句語境不同。",
-        "fold-mcq-19": "「在牌局中放棄當前一手牌，不再繼續下注」是「fold — poker」的用法，與本句語境不同。",
-        "fold-mcq-23": "「表示數量／程度是原來的若干倍」是「-fold」的用法，與本句語境不同。",
-        "fold-mcq-18": "「因壓力太大而屈服、崩潰或停止抵抗」是「fold — under pressure」的用法，與本句語境不同。"
+        "fold-mcq-21": "本句的「folded the egg whites into」指「用輕柔翻拌動作把材料混合，以保持空氣／結構」。",
+        "fold-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-21"
     },
@@ -1892,11 +1720,9 @@ export default {
       "masked": "He ____ himself into the small chair.",
       "options": [
         "fold-mcq-22",
-        "fold-mcq-21",
-        "fold-mcq-23",
-        "fold-mcq-20",
+        "fold-mcq-18",
         "fold-mcq-24",
-        "fold-mcq-19"
+        "fold-mcq-10"
       ],
       "explanation": "本句的「folded」指「令身體彎曲、蜷縮或收合」。",
       "sentenceIndex": 43,
@@ -1905,12 +1731,10 @@ export default {
         "folded"
       ],
       "optionReasons": {
-        "fold-mcq-22": "本句指「令身體彎曲、蜷縮或收合」。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。",
-        "fold-mcq-23": "「表示數量／程度是原來的若干倍」是「-fold」的用法，與本句語境不同。",
-        "fold-mcq-20": "「把某部分納入、整合或併入較大的整體」是「fold into」的用法，與本句語境不同。",
-        "fold-mcq-24": "「有兩個方面；或達兩倍」是「twofold」的用法，與本句語境不同。",
-        "fold-mcq-19": "「在牌局中放棄當前一手牌，不再繼續下注」是「fold — poker」的用法，與本句語境不同。"
+        "fold-mcq-22": "本句的「folded」指「令身體彎曲、蜷縮或收合」。",
+        "fold-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-22"
     },
@@ -1922,11 +1746,9 @@ export default {
       "masked": "She ____ forward with laughter.",
       "options": [
         "fold-mcq-22",
-        "fold-mcq-21",
-        "fold-mcq-23",
-        "fold-mcq-20",
-        "fold-mcq-24",
-        "fold-mcq-19"
+        "fold-mcq-18",
+        "fold-mcq-10",
+        "fold-mcq-25"
       ],
       "explanation": "本句的「folded」指「令身體彎曲、蜷縮或收合」。",
       "sentenceIndex": 44,
@@ -1935,12 +1757,10 @@ export default {
         "folded"
       ],
       "optionReasons": {
-        "fold-mcq-22": "本句指「令身體彎曲、蜷縮或收合」。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。",
-        "fold-mcq-23": "「表示數量／程度是原來的若干倍」是「-fold」的用法，與本句語境不同。",
-        "fold-mcq-20": "「把某部分納入、整合或併入較大的整體」是「fold into」的用法，與本句語境不同。",
-        "fold-mcq-24": "「有兩個方面；或達兩倍」是「twofold」的用法，與本句語境不同。",
-        "fold-mcq-19": "「在牌局中放棄當前一手牌，不再繼續下注」是「fold — poker」的用法，與本句語境不同。"
+        "fold-mcq-22": "本句的「folded」指「令身體彎曲、蜷縮或收合」。",
+        "fold-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-22"
     },
@@ -1952,10 +1772,8 @@ export default {
       "masked": "She sat with her legs ____ beneath her.",
       "options": [
         "fold-mcq-22",
-        "fold-mcq-21",
-        "fold-mcq-23",
-        "fold-mcq-20",
-        "fold-mcq-24",
+        "fold-mcq-02",
+        "fold-mcq-16",
         "fold-mcq-19"
       ],
       "explanation": "本句的「folded」指「令身體彎曲、蜷縮或收合」。",
@@ -1965,12 +1783,10 @@ export default {
         "folded"
       ],
       "optionReasons": {
-        "fold-mcq-22": "本句指「令身體彎曲、蜷縮或收合」。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。",
-        "fold-mcq-23": "「表示數量／程度是原來的若干倍」是「-fold」的用法，與本句語境不同。",
-        "fold-mcq-20": "「把某部分納入、整合或併入較大的整體」是「fold into」的用法，與本句語境不同。",
-        "fold-mcq-24": "「有兩個方面；或達兩倍」是「twofold」的用法，與本句語境不同。",
-        "fold-mcq-19": "「在牌局中放棄當前一手牌，不再繼續下注」是「fold — poker」的用法，與本句語境不同。"
+        "fold-mcq-22": "本句的「folded」指「令身體彎曲、蜷縮或收合」。",
+        "fold-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-22"
     },
@@ -1982,11 +1798,9 @@ export default {
       "masked": "He watched with his arms ____.",
       "options": [
         "fold-mcq-22",
-        "fold-mcq-21",
-        "fold-mcq-23",
-        "fold-mcq-20",
-        "fold-mcq-24",
-        "fold-mcq-19"
+        "fold-mcq-02",
+        "fold-mcq-19",
+        "fold-mcq-10"
       ],
       "explanation": "本句的「folded」指「令身體彎曲、蜷縮或收合」。",
       "sentenceIndex": 46,
@@ -1995,12 +1809,10 @@ export default {
         "folded"
       ],
       "optionReasons": {
-        "fold-mcq-22": "本句指「令身體彎曲、蜷縮或收合」。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。",
-        "fold-mcq-23": "「表示數量／程度是原來的若干倍」是「-fold」的用法，與本句語境不同。",
-        "fold-mcq-20": "「把某部分納入、整合或併入較大的整體」是「fold into」的用法，與本句語境不同。",
-        "fold-mcq-24": "「有兩個方面；或達兩倍」是「twofold」的用法，與本句語境不同。",
-        "fold-mcq-19": "「在牌局中放棄當前一手牌，不再繼續下注」是「fold — poker」的用法，與本句語境不同。"
+        "fold-mcq-22": "本句的「folded」指「令身體彎曲、蜷縮或收合」。",
+        "fold-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-22"
     },
@@ -2012,11 +1824,9 @@ export default {
       "masked": "Sales increased three____.",
       "options": [
         "fold-mcq-23",
+        "fold-mcq-03",
         "fold-mcq-22",
-        "fold-mcq-24",
-        "fold-mcq-21",
-        "fold-mcq-25",
-        "fold-mcq-20"
+        "fold-mcq-18"
       ],
       "explanation": "本句的「fold」指「表示數量／程度是原來的若干倍」。",
       "sentenceIndex": 47,
@@ -2025,12 +1835,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-23": "本句指「表示數量／程度是原來的若干倍」。",
-        "fold-mcq-22": "「令身體彎曲、蜷縮或收合」是「fold body/self」的用法，與本句語境不同。",
-        "fold-mcq-24": "「有兩個方面；或達兩倍」是「twofold」的用法，與本句語境不同。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。",
-        "fold-mcq-25": "「用來整理和保存文件的文件夾」是「folder — paper」的用法，與本句語境不同。",
-        "fold-mcq-20": "「把某部分納入、整合或併入較大的整體」是「fold into」的用法，與本句語境不同。"
+        "fold-mcq-23": "本句的「fold」指「表示數量／程度是原來的若干倍」。",
+        "fold-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-23"
     },
@@ -2042,11 +1850,9 @@ export default {
       "masked": "There was a ten____ increase.",
       "options": [
         "fold-mcq-23",
-        "fold-mcq-22",
-        "fold-mcq-24",
-        "fold-mcq-21",
-        "fold-mcq-25",
-        "fold-mcq-20"
+        "fold-mcq-07",
+        "fold-mcq-14",
+        "fold-mcq-01"
       ],
       "explanation": "本句的「fold」指「表示數量／程度是原來的若干倍」。",
       "sentenceIndex": 48,
@@ -2055,12 +1861,10 @@ export default {
         "fold"
       ],
       "optionReasons": {
-        "fold-mcq-23": "本句指「表示數量／程度是原來的若干倍」。",
-        "fold-mcq-22": "「令身體彎曲、蜷縮或收合」是「fold body/self」的用法，與本句語境不同。",
-        "fold-mcq-24": "「有兩個方面；或達兩倍」是「twofold」的用法，與本句語境不同。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。",
-        "fold-mcq-25": "「用來整理和保存文件的文件夾」是「folder — paper」的用法，與本句語境不同。",
-        "fold-mcq-20": "「把某部分納入、整合或併入較大的整體」是「fold into」的用法，與本句語境不同。"
+        "fold-mcq-23": "本句的「fold」指「表示數量／程度是原來的若干倍」。",
+        "fold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-23"
     },
@@ -2072,11 +1876,9 @@ export default {
       "masked": "The purpose is ____.",
       "options": [
         "fold-mcq-24",
-        "fold-mcq-23",
+        "fold-mcq-09",
         "fold-mcq-25",
-        "fold-mcq-22",
-        "fold-mcq-26",
-        "fold-mcq-21"
+        "fold-mcq-11"
       ],
       "explanation": "本句的「twofold」指「有兩個方面；或達兩倍」。",
       "sentenceIndex": 49,
@@ -2085,12 +1887,10 @@ export default {
         "twofold"
       ],
       "optionReasons": {
-        "fold-mcq-24": "本句指「有兩個方面；或達兩倍」。",
-        "fold-mcq-23": "「表示數量／程度是原來的若干倍」是「-fold」的用法，與本句語境不同。",
-        "fold-mcq-25": "「用來整理和保存文件的文件夾」是「folder — paper」的用法，與本句語境不同。",
-        "fold-mcq-22": "「令身體彎曲、蜷縮或收合」是「fold body/self」的用法，與本句語境不同。",
-        "fold-mcq-26": "「電腦中用來整理檔案的虛擬資料夾」是「folder — computing」的用法，與本句語境不同。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。"
+        "fold-mcq-24": "本句的「twofold」指「有兩個方面；或達兩倍」。",
+        "fold-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-24"
     },
@@ -2102,11 +1902,9 @@ export default {
       "masked": "Demand increased ____.",
       "options": [
         "fold-mcq-24",
-        "fold-mcq-23",
+        "fold-mcq-04",
         "fold-mcq-25",
-        "fold-mcq-22",
-        "fold-mcq-26",
-        "fold-mcq-21"
+        "fold-mcq-20"
       ],
       "explanation": "本句的「twofold」指「有兩個方面；或達兩倍」。",
       "sentenceIndex": 50,
@@ -2115,12 +1913,10 @@ export default {
         "twofold"
       ],
       "optionReasons": {
-        "fold-mcq-24": "本句指「有兩個方面；或達兩倍」。",
-        "fold-mcq-23": "「表示數量／程度是原來的若干倍」是「-fold」的用法，與本句語境不同。",
-        "fold-mcq-25": "「用來整理和保存文件的文件夾」是「folder — paper」的用法，與本句語境不同。",
-        "fold-mcq-22": "「令身體彎曲、蜷縮或收合」是「fold body/self」的用法，與本句語境不同。",
-        "fold-mcq-26": "「電腦中用來整理檔案的虛擬資料夾」是「folder — computing」的用法，與本句語境不同。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。"
+        "fold-mcq-24": "本句的「twofold」指「有兩個方面；或達兩倍」。",
+        "fold-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-24"
     },
@@ -2132,11 +1928,9 @@ export default {
       "masked": "Put the documents in the blue ____.",
       "options": [
         "fold-mcq-25",
-        "fold-mcq-24",
-        "fold-mcq-26",
-        "fold-mcq-23",
-        "fold-mcq-22",
-        "fold-mcq-21"
+        "fold-mcq-18",
+        "fold-mcq-08",
+        "fold-mcq-11"
       ],
       "explanation": "本句的「folder」指「用來整理和保存文件的文件夾」。",
       "sentenceIndex": 51,
@@ -2145,12 +1939,10 @@ export default {
         "folder"
       ],
       "optionReasons": {
-        "fold-mcq-25": "本句指「用來整理和保存文件的文件夾」。",
-        "fold-mcq-24": "「有兩個方面；或達兩倍」是「twofold」的用法，與本句語境不同。",
-        "fold-mcq-26": "「電腦中用來整理檔案的虛擬資料夾」是「folder — computing」的用法，與本句語境不同。",
-        "fold-mcq-23": "「表示數量／程度是原來的若干倍」是「-fold」的用法，與本句語境不同。",
-        "fold-mcq-22": "「令身體彎曲、蜷縮或收合」是「fold body/self」的用法，與本句語境不同。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。"
+        "fold-mcq-25": "本句的「folder」指「用來整理和保存文件的文件夾」。",
+        "fold-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-25"
     },
@@ -2162,11 +1954,9 @@ export default {
       "masked": "She organized the papers into separate ____.",
       "options": [
         "fold-mcq-25",
-        "fold-mcq-24",
-        "fold-mcq-26",
-        "fold-mcq-23",
-        "fold-mcq-22",
-        "fold-mcq-21"
+        "fold-mcq-17",
+        "fold-mcq-06",
+        "fold-mcq-04"
       ],
       "explanation": "本句的「folders」指「用來整理和保存文件的文件夾」。",
       "sentenceIndex": 52,
@@ -2175,12 +1965,10 @@ export default {
         "folders"
       ],
       "optionReasons": {
-        "fold-mcq-25": "本句指「用來整理和保存文件的文件夾」。",
-        "fold-mcq-24": "「有兩個方面；或達兩倍」是「twofold」的用法，與本句語境不同。",
-        "fold-mcq-26": "「電腦中用來整理檔案的虛擬資料夾」是「folder — computing」的用法，與本句語境不同。",
-        "fold-mcq-23": "「表示數量／程度是原來的若干倍」是「-fold」的用法，與本句語境不同。",
-        "fold-mcq-22": "「令身體彎曲、蜷縮或收合」是「fold body/self」的用法，與本句語境不同。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。"
+        "fold-mcq-25": "本句的「folders」指「用來整理和保存文件的文件夾」。",
+        "fold-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-25"
     },
@@ -2192,11 +1980,9 @@ export default {
       "masked": "Save the file in this ____.",
       "options": [
         "fold-mcq-26",
-        "fold-mcq-25",
-        "fold-mcq-24",
-        "fold-mcq-23",
+        "fold-mcq-14",
         "fold-mcq-22",
-        "fold-mcq-21"
+        "fold-mcq-08"
       ],
       "explanation": "本句的「folder」指「電腦中用來整理檔案的虛擬資料夾」。",
       "sentenceIndex": 53,
@@ -2205,12 +1991,10 @@ export default {
         "folder"
       ],
       "optionReasons": {
-        "fold-mcq-26": "本句指「電腦中用來整理檔案的虛擬資料夾」。",
-        "fold-mcq-25": "「用來整理和保存文件的文件夾」是「folder — paper」的用法，與本句語境不同。",
-        "fold-mcq-24": "「有兩個方面；或達兩倍」是「twofold」的用法，與本句語境不同。",
-        "fold-mcq-23": "「表示數量／程度是原來的若干倍」是「-fold」的用法，與本句語境不同。",
-        "fold-mcq-22": "「令身體彎曲、蜷縮或收合」是「fold body/self」的用法，與本句語境不同。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。"
+        "fold-mcq-26": "本句的「folder」指「電腦中用來整理檔案的虛擬資料夾」。",
+        "fold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-26"
     },
@@ -2222,11 +2006,9 @@ export default {
       "masked": "Create a new ____ for the photos.",
       "options": [
         "fold-mcq-26",
-        "fold-mcq-25",
-        "fold-mcq-24",
-        "fold-mcq-23",
-        "fold-mcq-22",
-        "fold-mcq-21"
+        "fold-mcq-12",
+        "fold-mcq-08",
+        "fold-mcq-02"
       ],
       "explanation": "本句的「folder」指「電腦中用來整理檔案的虛擬資料夾」。",
       "sentenceIndex": 54,
@@ -2235,12 +2017,10 @@ export default {
         "folder"
       ],
       "optionReasons": {
-        "fold-mcq-26": "本句指「電腦中用來整理檔案的虛擬資料夾」。",
-        "fold-mcq-25": "「用來整理和保存文件的文件夾」是「folder — paper」的用法，與本句語境不同。",
-        "fold-mcq-24": "「有兩個方面；或達兩倍」是「twofold」的用法，與本句語境不同。",
-        "fold-mcq-23": "「表示數量／程度是原來的若干倍」是「-fold」的用法，與本句語境不同。",
-        "fold-mcq-22": "「令身體彎曲、蜷縮或收合」是「fold body/self」的用法，與本句語境不同。",
-        "fold-mcq-21": "「用輕柔翻拌動作把材料混合，以保持空氣／結構」是「fold in — cooking」的用法，與本句語境不同。"
+        "fold-mcq-26": "本句的「folder」指「電腦中用來整理檔案的虛擬資料夾」。",
+        "fold-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fold-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fold-mcq-26"
     }
@@ -2252,5 +2032,7 @@ export default {
     "sha256": "c7943cdbfe1717f760b2e862f320fcfc60fdad57c74e41ce473c6557676e64f9",
     "pages": 22
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -169,11 +169,7 @@ export default {
       "masked": "The bowl contained a ____ of flour, sugar, and butter.",
       "options": [
         "mixture-mcq-01",
-        "mixture-mcq-02",
-        "mixture-mcq-03",
-        "mixture-mcq-04",
-        "mixture-mcq-05",
-        "mixture-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mixture」指「由兩種或以上不同物質或成分混合而成的整體／混合物」。",
       "sentenceIndex": 0,
@@ -182,12 +178,8 @@ export default {
         "mixture"
       ],
       "optionReasons": {
-        "mixture-mcq-01": "本句指「由兩種或以上不同物質或成分混合而成的整體／混合物」。",
-        "mixture-mcq-02": "「不同特質、風格、元素、感受等同時存在並結合在一起」與本句語境不同。",
-        "mixture-mcq-03": "「多種不同情緒同時存在形成的複合感受」與本句語境不同。",
-        "mixture-mcq-04": "「由不同類別的人或物共同組成的整體；屬於 combination 義」與本句語境不同。",
-        "mixture-mcq-05": "「由多種成分配製而成的液體藥劑；較舊／較英式」與本句語境不同。",
-        "mixture-mcq-06": "「把不同事物混合、結合」與本句語境不同。"
+        "mixture-mcq-01": "本句的「mixture」指「由兩種或以上不同物質或成分混合而成的整體／混合物」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mixture-mcq-01"
     },
@@ -199,11 +191,7 @@ export default {
       "masked": "The drink is a ____ of fruit juice and sparkling water.",
       "options": [
         "mixture-mcq-01",
-        "mixture-mcq-02",
-        "mixture-mcq-03",
-        "mixture-mcq-04",
-        "mixture-mcq-05",
-        "mixture-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mixture」指「由兩種或以上不同物質或成分混合而成的整體／混合物」。",
       "sentenceIndex": 1,
@@ -212,12 +200,8 @@ export default {
         "mixture"
       ],
       "optionReasons": {
-        "mixture-mcq-01": "本句指「由兩種或以上不同物質或成分混合而成的整體／混合物」。",
-        "mixture-mcq-02": "「不同特質、風格、元素、感受等同時存在並結合在一起」與本句語境不同。",
-        "mixture-mcq-03": "「多種不同情緒同時存在形成的複合感受」與本句語境不同。",
-        "mixture-mcq-04": "「由不同類別的人或物共同組成的整體；屬於 combination 義」與本句語境不同。",
-        "mixture-mcq-05": "「由多種成分配製而成的液體藥劑；較舊／較英式」與本句語境不同。",
-        "mixture-mcq-06": "「把不同事物混合、結合」與本句語境不同。"
+        "mixture-mcq-01": "本句的「mixture」指「由兩種或以上不同物質或成分混合而成的整體／混合物」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mixture-mcq-01"
     },
@@ -229,11 +213,7 @@ export default {
       "masked": "The city is a ____ of old and new.",
       "options": [
         "mixture-mcq-02",
-        "mixture-mcq-01",
-        "mixture-mcq-03",
-        "mixture-mcq-04",
-        "mixture-mcq-05",
-        "mixture-mcq-06"
+        "mixture-mcq-05"
       ],
       "explanation": "本句的「mixture」指「不同特質、風格、元素、感受等同時存在並結合在一起」。",
       "sentenceIndex": 2,
@@ -242,12 +222,8 @@ export default {
         "mixture"
       ],
       "optionReasons": {
-        "mixture-mcq-02": "本句指「不同特質、風格、元素、感受等同時存在並結合在一起」。",
-        "mixture-mcq-01": "「由兩種或以上不同物質或成分混合而成的整體／混合物」與本句語境不同。",
-        "mixture-mcq-03": "「多種不同情緒同時存在形成的複合感受」與本句語境不同。",
-        "mixture-mcq-04": "「由不同類別的人或物共同組成的整體；屬於 combination 義」與本句語境不同。",
-        "mixture-mcq-05": "「由多種成分配製而成的液體藥劑；較舊／較英式」與本句語境不同。",
-        "mixture-mcq-06": "「把不同事物混合、結合」與本句語境不同。"
+        "mixture-mcq-02": "本句的「mixture」指「不同特質、風格、元素、感受等同時存在並結合在一起」。",
+        "mixture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mixture-mcq-02"
     },
@@ -259,11 +235,7 @@ export default {
       "masked": "Her style is a ____ of elegance and simplicity.",
       "options": [
         "mixture-mcq-02",
-        "mixture-mcq-01",
-        "mixture-mcq-03",
-        "mixture-mcq-04",
-        "mixture-mcq-05",
-        "mixture-mcq-06"
+        "mixture-mcq-05"
       ],
       "explanation": "本句的「mixture」指「不同特質、風格、元素、感受等同時存在並結合在一起」。",
       "sentenceIndex": 3,
@@ -272,12 +244,8 @@ export default {
         "mixture"
       ],
       "optionReasons": {
-        "mixture-mcq-02": "本句指「不同特質、風格、元素、感受等同時存在並結合在一起」。",
-        "mixture-mcq-01": "「由兩種或以上不同物質或成分混合而成的整體／混合物」與本句語境不同。",
-        "mixture-mcq-03": "「多種不同情緒同時存在形成的複合感受」與本句語境不同。",
-        "mixture-mcq-04": "「由不同類別的人或物共同組成的整體；屬於 combination 義」與本句語境不同。",
-        "mixture-mcq-05": "「由多種成分配製而成的液體藥劑；較舊／較英式」與本句語境不同。",
-        "mixture-mcq-06": "「把不同事物混合、結合」與本句語境不同。"
+        "mixture-mcq-02": "本句的「mixture」指「不同特質、風格、元素、感受等同時存在並結合在一起」。",
+        "mixture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mixture-mcq-02"
     },
@@ -289,11 +257,7 @@ export default {
       "masked": "I feel a ____ of admiration and calm.",
       "options": [
         "mixture-mcq-03",
-        "mixture-mcq-02",
-        "mixture-mcq-04",
-        "mixture-mcq-01",
-        "mixture-mcq-05",
-        "mixture-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mixture」指「多種不同情緒同時存在形成的複合感受」。",
       "sentenceIndex": 4,
@@ -302,12 +266,8 @@ export default {
         "mixture"
       ],
       "optionReasons": {
-        "mixture-mcq-03": "本句指「多種不同情緒同時存在形成的複合感受」。",
-        "mixture-mcq-02": "「不同特質、風格、元素、感受等同時存在並結合在一起」與本句語境不同。",
-        "mixture-mcq-04": "「由不同類別的人或物共同組成的整體；屬於 combination 義」與本句語境不同。",
-        "mixture-mcq-01": "「由兩種或以上不同物質或成分混合而成的整體／混合物」與本句語境不同。",
-        "mixture-mcq-05": "「由多種成分配製而成的液體藥劑；較舊／較英式」與本句語境不同。",
-        "mixture-mcq-06": "「把不同事物混合、結合」與本句語境不同。"
+        "mixture-mcq-03": "本句的「mixture」指「多種不同情緒同時存在形成的複合感受」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mixture-mcq-03"
     },
@@ -319,11 +279,7 @@ export default {
       "masked": "She felt a ____ of excitement and nervousness.",
       "options": [
         "mixture-mcq-03",
-        "mixture-mcq-02",
-        "mixture-mcq-04",
-        "mixture-mcq-01",
-        "mixture-mcq-05",
-        "mixture-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mixture」指「多種不同情緒同時存在形成的複合感受」。",
       "sentenceIndex": 5,
@@ -332,12 +288,8 @@ export default {
         "mixture"
       ],
       "optionReasons": {
-        "mixture-mcq-03": "本句指「多種不同情緒同時存在形成的複合感受」。",
-        "mixture-mcq-02": "「不同特質、風格、元素、感受等同時存在並結合在一起」與本句語境不同。",
-        "mixture-mcq-04": "「由不同類別的人或物共同組成的整體；屬於 combination 義」與本句語境不同。",
-        "mixture-mcq-01": "「由兩種或以上不同物質或成分混合而成的整體／混合物」與本句語境不同。",
-        "mixture-mcq-05": "「由多種成分配製而成的液體藥劑；較舊／較英式」與本句語境不同。",
-        "mixture-mcq-06": "「把不同事物混合、結合」與本句語境不同。"
+        "mixture-mcq-03": "本句的「mixture」指「多種不同情緒同時存在形成的複合感受」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mixture-mcq-03"
     },
@@ -349,11 +301,7 @@ export default {
       "masked": "His expression showed a ____ of relief and sadness.",
       "options": [
         "mixture-mcq-03",
-        "mixture-mcq-02",
-        "mixture-mcq-04",
-        "mixture-mcq-01",
-        "mixture-mcq-05",
-        "mixture-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mixture」指「多種不同情緒同時存在形成的複合感受」。",
       "sentenceIndex": 6,
@@ -362,12 +310,8 @@ export default {
         "mixture"
       ],
       "optionReasons": {
-        "mixture-mcq-03": "本句指「多種不同情緒同時存在形成的複合感受」。",
-        "mixture-mcq-02": "「不同特質、風格、元素、感受等同時存在並結合在一起」與本句語境不同。",
-        "mixture-mcq-04": "「由不同類別的人或物共同組成的整體；屬於 combination 義」與本句語境不同。",
-        "mixture-mcq-01": "「由兩種或以上不同物質或成分混合而成的整體／混合物」與本句語境不同。",
-        "mixture-mcq-05": "「由多種成分配製而成的液體藥劑；較舊／較英式」與本句語境不同。",
-        "mixture-mcq-06": "「把不同事物混合、結合」與本句語境不同。"
+        "mixture-mcq-03": "本句的「mixture」指「多種不同情緒同時存在形成的複合感受」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mixture-mcq-03"
     },
@@ -379,11 +323,7 @@ export default {
       "masked": "The audience was a ____ of students and professionals.",
       "options": [
         "mixture-mcq-04",
-        "mixture-mcq-03",
-        "mixture-mcq-05",
-        "mixture-mcq-02",
-        "mixture-mcq-06",
-        "mixture-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mixture」指「由不同類別的人或物共同組成的整體；屬於 combination 義」。",
       "sentenceIndex": 7,
@@ -392,12 +332,8 @@ export default {
         "mixture"
       ],
       "optionReasons": {
-        "mixture-mcq-04": "本句指「由不同類別的人或物共同組成的整體；屬於 combination 義」。",
-        "mixture-mcq-03": "「多種不同情緒同時存在形成的複合感受」與本句語境不同。",
-        "mixture-mcq-05": "「由多種成分配製而成的液體藥劑；較舊／較英式」與本句語境不同。",
-        "mixture-mcq-02": "「不同特質、風格、元素、感受等同時存在並結合在一起」與本句語境不同。",
-        "mixture-mcq-06": "「把不同事物混合、結合」與本句語境不同。",
-        "mixture-mcq-01": "「由兩種或以上不同物質或成分混合而成的整體／混合物」與本句語境不同。"
+        "mixture-mcq-04": "本句的「mixture」指「由不同類別的人或物共同組成的整體；屬於 combination 義」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mixture-mcq-04"
     },
@@ -409,11 +345,7 @@ export default {
       "masked": "The shop sells a ____ of modern and traditional products.",
       "options": [
         "mixture-mcq-04",
-        "mixture-mcq-03",
-        "mixture-mcq-05",
-        "mixture-mcq-02",
-        "mixture-mcq-06",
-        "mixture-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mixture」指「由不同類別的人或物共同組成的整體；屬於 combination 義」。",
       "sentenceIndex": 8,
@@ -422,12 +354,8 @@ export default {
         "mixture"
       ],
       "optionReasons": {
-        "mixture-mcq-04": "本句指「由不同類別的人或物共同組成的整體；屬於 combination 義」。",
-        "mixture-mcq-03": "「多種不同情緒同時存在形成的複合感受」與本句語境不同。",
-        "mixture-mcq-05": "「由多種成分配製而成的液體藥劑；較舊／較英式」與本句語境不同。",
-        "mixture-mcq-02": "「不同特質、風格、元素、感受等同時存在並結合在一起」與本句語境不同。",
-        "mixture-mcq-06": "「把不同事物混合、結合」與本句語境不同。",
-        "mixture-mcq-01": "「由兩種或以上不同物質或成分混合而成的整體／混合物」與本句語境不同。"
+        "mixture-mcq-04": "本句的「mixture」指「由不同類別的人或物共同組成的整體；屬於 combination 義」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mixture-mcq-04"
     },
@@ -439,10 +367,6 @@ export default {
       "masked": "The doctor prescribed a cough ____.",
       "options": [
         "mixture-mcq-05",
-        "mixture-mcq-04",
-        "mixture-mcq-06",
-        "mixture-mcq-03",
-        "mixture-mcq-07",
         "mixture-mcq-02"
       ],
       "explanation": "本句的「mixture」指「由多種成分配製而成的液體藥劑；較舊／較英式」。",
@@ -452,12 +376,8 @@ export default {
         "mixture"
       ],
       "optionReasons": {
-        "mixture-mcq-05": "本句指「由多種成分配製而成的液體藥劑；較舊／較英式」。",
-        "mixture-mcq-04": "「由不同類別的人或物共同組成的整體；屬於 combination 義」與本句語境不同。",
-        "mixture-mcq-06": "「把不同事物混合、結合」與本句語境不同。",
-        "mixture-mcq-03": "「多種不同情緒同時存在形成的複合感受」與本句語境不同。",
-        "mixture-mcq-07": "「由不同種類組成的；mixed feelings 則指複雜／矛盾感受」與本句語境不同。",
-        "mixture-mcq-02": "「不同特質、風格、元素、感受等同時存在並結合在一起」與本句語境不同。"
+        "mixture-mcq-05": "本句的「mixture」指「由多種成分配製而成的液體藥劑；較舊／較英式」。",
+        "mixture-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mixture-mcq-05"
     },
@@ -469,10 +389,6 @@ export default {
       "masked": "Take one spoonful of the ____ twice a day.",
       "options": [
         "mixture-mcq-05",
-        "mixture-mcq-04",
-        "mixture-mcq-06",
-        "mixture-mcq-03",
-        "mixture-mcq-07",
         "mixture-mcq-02"
       ],
       "explanation": "本句的「mixture」指「由多種成分配製而成的液體藥劑；較舊／較英式」。",
@@ -482,12 +398,8 @@ export default {
         "mixture"
       ],
       "optionReasons": {
-        "mixture-mcq-05": "本句指「由多種成分配製而成的液體藥劑；較舊／較英式」。",
-        "mixture-mcq-04": "「由不同類別的人或物共同組成的整體；屬於 combination 義」與本句語境不同。",
-        "mixture-mcq-06": "「把不同事物混合、結合」與本句語境不同。",
-        "mixture-mcq-03": "「多種不同情緒同時存在形成的複合感受」與本句語境不同。",
-        "mixture-mcq-07": "「由不同種類組成的；mixed feelings 則指複雜／矛盾感受」與本句語境不同。",
-        "mixture-mcq-02": "「不同特質、風格、元素、感受等同時存在並結合在一起」與本句語境不同。"
+        "mixture-mcq-05": "本句的「mixture」指「由多種成分配製而成的液體藥劑；較舊／較英式」。",
+        "mixture-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mixture-mcq-05"
     },
@@ -499,11 +411,7 @@ export default {
       "masked": "The colours ____ naturally.",
       "options": [
         "mixture-mcq-06",
-        "mixture-mcq-05",
-        "mixture-mcq-07",
-        "mixture-mcq-04",
-        "mixture-mcq-03",
-        "mixture-mcq-02"
+        "mixture-mcq-05"
       ],
       "explanation": "本句的「mixed」指「把不同事物混合、結合」。",
       "sentenceIndex": 11,
@@ -512,12 +420,8 @@ export default {
         "mixed"
       ],
       "optionReasons": {
-        "mixture-mcq-06": "本句指「把不同事物混合、結合」。",
-        "mixture-mcq-05": "「由多種成分配製而成的液體藥劑；較舊／較英式」與本句語境不同。",
-        "mixture-mcq-07": "「由不同種類組成的；mixed feelings 則指複雜／矛盾感受」與本句語境不同。",
-        "mixture-mcq-04": "「由不同類別的人或物共同組成的整體；屬於 combination 義」與本句語境不同。",
-        "mixture-mcq-03": "「多種不同情緒同時存在形成的複合感受」與本句語境不同。",
-        "mixture-mcq-02": "「不同特質、風格、元素、感受等同時存在並結合在一起」與本句語境不同。"
+        "mixture-mcq-06": "本句的「mixed」指「把不同事物混合、結合」。",
+        "mixture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mixture-mcq-06"
     },
@@ -529,11 +433,7 @@ export default {
       "masked": "We ordered a ____ salad.",
       "options": [
         "mixture-mcq-07",
-        "mixture-mcq-06",
-        "mixture-mcq-05",
-        "mixture-mcq-04",
-        "mixture-mcq-03",
-        "mixture-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mixed」指「由不同種類組成的；mixed feelings 則指複雜／矛盾感受」。",
       "sentenceIndex": 12,
@@ -542,12 +442,8 @@ export default {
         "mixed"
       ],
       "optionReasons": {
-        "mixture-mcq-07": "本句指「由不同種類組成的；mixed feelings 則指複雜／矛盾感受」。",
-        "mixture-mcq-06": "「把不同事物混合、結合」與本句語境不同。",
-        "mixture-mcq-05": "「由多種成分配製而成的液體藥劑；較舊／較英式」與本句語境不同。",
-        "mixture-mcq-04": "「由不同類別的人或物共同組成的整體；屬於 combination 義」與本句語境不同。",
-        "mixture-mcq-03": "「多種不同情緒同時存在形成的複合感受」與本句語境不同。",
-        "mixture-mcq-02": "「不同特質、風格、元素、感受等同時存在並結合在一起」與本句語境不同。"
+        "mixture-mcq-07": "本句的「mixed」指「由不同種類組成的；mixed feelings 則指複雜／矛盾感受」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mixture-mcq-07"
     },
@@ -559,11 +455,7 @@ export default {
       "masked": "I have ____ about the decision.",
       "options": [
         "mixture-mcq-03",
-        "mixture-mcq-02",
-        "mixture-mcq-04",
-        "mixture-mcq-01",
-        "mixture-mcq-05",
-        "mixture-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「mixed feelings」指「多種不同情緒同時存在形成的複合感受」。",
       "sentenceIndex": 13,
@@ -572,12 +464,8 @@ export default {
         "mixed feelings"
       ],
       "optionReasons": {
-        "mixture-mcq-03": "本句指「多種不同情緒同時存在形成的複合感受」。",
-        "mixture-mcq-02": "「不同特質、風格、元素、感受等同時存在並結合在一起」與本句語境不同。",
-        "mixture-mcq-04": "「由不同類別的人或物共同組成的整體；屬於 combination 義」與本句語境不同。",
-        "mixture-mcq-01": "「由兩種或以上不同物質或成分混合而成的整體／混合物」與本句語境不同。",
-        "mixture-mcq-05": "「由多種成分配製而成的液體藥劑；較舊／較英式」與本句語境不同。",
-        "mixture-mcq-06": "「把不同事物混合、結合」與本句語境不同。"
+        "mixture-mcq-03": "本句的「mixed feelings」指「多種不同情緒同時存在形成的複合感受」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mixture-mcq-03"
     }
@@ -589,5 +477,12 @@ export default {
     "sha256": "d0030f68d18ce27ac790121ba72192da63f964a162ded068aed39a1b1aeae287",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

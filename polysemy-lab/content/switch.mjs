@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "switch-mcq-01",
-      "title": "表示打開；開啟（電器、燈等）；例句：「她打開燈，然後拉開窗簾。」",
+      "title": "打開；開啟（電器、燈等）",
       "form": "Passage anchor > “It was like a light switching on in a dim room.",
       "en": "Passage anchor > “It was like a light switching on in a dim room.",
       "zh": "表示打開；開啟（電器、燈等）；例句：「她打開燈，然後拉開窗簾。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "switch-mcq-02",
-      "title": "表示開關；例句：「電燈開關在哪裡？」",
+      "title": "開關",
       "form": "switch — noun: a device used to turn something on or off = a small control used to start, stop, or change the operation of an electrical device 開關",
       "en": "switch — noun: a device used to turn something on or off = a small control used to start, stop, or change the operation of an electrical device 開關",
       "zh": "表示開關；例句：「電燈開關在哪裡？」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "switch-mcq-03",
-      "title": "表示打開；開啟；例句：「請打開風扇。」",
+      "title": "打開；開啟",
       "form": "switch on = make a device, light, machine, etc. begin operating 打開；開啟",
       "en": "switch on = make a device, light, machine, etc. begin operating 打開；開啟",
       "zh": "表示打開；開啟；例句：「請打開風扇。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "switch-mcq-04",
-      "title": "表示關掉；關閉；例句：「別忘了關燈。」",
+      "title": "關掉；關閉",
       "form": "switch off = make a device, light, machine, etc. stop operating 關掉；關閉",
       "en": "switch off = make a device, light, machine, etc. stop operating 關掉；關閉",
       "zh": "表示關掉；關閉；例句：「別忘了關燈。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "switch-mcq-05",
-      "title": "表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」",
+      "title": "轉換；改換；改用",
       "form": "switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用",
       "en": "switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用",
       "zh": "表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "switch-mcq-06",
-      "title": "表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」",
+      "title": "從A轉換到B",
       "form": "switch from A to B = change from one option, system, activity, or state to another 從A轉換到B",
       "en": "switch from A to B = change from one option, system, activity, or state to another 從A轉換到B",
       "zh": "表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "switch-mcq-07",
-      "title": "表示改用；轉用；轉向；例句：「很多人已經改開電動車。」",
+      "title": "改用；轉用；轉向",
       "form": "switch to something = begin using or doing a different thing 改用；轉用；轉向",
       "en": "switch to something = begin using or doing a different thing 改用；轉用；轉向",
       "zh": "表示改用；轉用；轉向；例句：「很多人已經改開電動車。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "switch-mcq-08",
-      "title": "表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」",
+      "title": "在A與B之間切換",
       "form": "switch between A and B = alternate repeatedly between two things 在A與B之間切換",
       "en": "switch between A and B = alternate repeatedly between two things 在A與B之間切換",
       "zh": "表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "switch-mcq-09",
-      "title": "表示交換位置；換位子；例句：「我們可以交換位置嗎？」",
+      "title": "交換位置；換位子",
       "form": "switch places = exchange positions with another person 交換位置；換位子",
       "en": "switch places = exchange positions with another person 交換位置；換位子",
       "zh": "表示交換位置；換位子；例句：「我們可以交換位置嗎？」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "switch-mcq-10",
-      "title": "表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」",
+      "title": "交換角色；互換職責",
       "form": "switch roles = exchange functions, responsibilities, or positions 交換角色；互換職責",
       "en": "switch roles = exchange functions, responsibilities, or positions 交換角色；互換職責",
       "zh": "表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "switch-mcq-11",
-      "title": "表示換邊；例句：「休息後兩隊交換場地。」",
+      "title": "換邊",
       "form": "switch sides",
       "en": "switch sides",
       "zh": "表示換邊；例句：「休息後兩隊交換場地。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "switch-mcq-12",
-      "title": "表示轉台；換頻道；例句：「你可以轉台嗎？」",
+      "title": "轉台；換頻道",
       "form": "switch channels = change from one television or radio channel to another 轉台；換頻道",
       "en": "switch channels = change from one television or radio channel to another 轉台；換頻道",
       "zh": "表示轉台；換頻道；例句：「你可以轉台嗎？」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "switch-mcq-13",
-      "title": "表示切換模式；例句：「相機在低光環境下會自動切換模式。」",
+      "title": "切換模式",
       "form": "switch modes = move from one operating mode to another 切換模式",
       "en": "switch modes = move from one operating mode to another 切換模式",
       "zh": "表示切換模式；例句：「相機在低光環境下會自動切換模式。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "switch-mcq-14",
-      "title": "表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」",
+      "title": "切換帳號／使用者設定檔",
       "form": "switch accounts / profiles = move from one account or user profile to another 切換帳號／使用者設定檔",
       "en": "switch accounts / profiles = move from one account or user profile to another 切換帳號／使用者設定檔",
       "zh": "表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "switch-mcq-15",
-      "title": "表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」",
+      "title": "轉移注意力；切換焦點",
       "form": "switch attention / focus = redirect attention from one thing to another 轉移注意力；切換焦點",
       "en": "switch attention / focus = redirect attention from one thing to another 轉移注意力；切換焦點",
       "zh": "表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "switch-mcq-16",
-      "title": "表示轉換話題；例句：「她很快就換了話題。」",
+      "title": "轉換話題",
       "form": "switch topics / subjects = begin discussing something different 轉換話題",
       "en": "switch topics / subjects = begin discussing something different 轉換話題",
       "zh": "表示轉換話題；例句：「她很快就換了話題。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "switch-mcq-17",
-      "title": "表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」",
+      "title": "腦中突然開竅；突然明白",
       "form": "something switches on in your mind = begin functioning or become suddenly clear mentally 腦中突然開竅；突然明白 This is a figurative extension of the electrical meaning.",
       "en": "something switches on in your mind = begin functioning or become suddenly clear mentally 腦中突然開竅；突然明白 This is a figurative extension of the electrical meaning.",
       "zh": "表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "switch-mcq-18",
-      "title": "表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」",
+      "title": "轉換；改變；改換",
       "form": "switch — noun: a change from one thing to another = an act of changing from one option, system, position, or activity to another 轉換；改變；改換",
       "en": "switch — noun: a change from one thing to another = an act of changing from one option, system, position, or activity to another 轉換；改變；改換",
       "zh": "表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "switch-mcq-19",
-      "title": "表示作出轉換；改換；例句：「我們決定轉用再生能源。」",
+      "title": "作出轉換；改換",
       "form": "make a switch = make a deliberate change to another option 作出轉換；改換",
       "en": "make a switch = make a deliberate change to another option 作出轉換；改換",
       "zh": "表示作出轉換；改換；例句：「我們決定轉用再生能源。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "switch-mcq-20",
-      "title": "表示網路交換器；例句：「這些電腦透過網路交換器連接。」",
+      "title": "網路交換器",
       "form": "switch — network switch = a device that connects devices within a computer network and directs data to the appropriate destination 網路交換器",
       "en": "switch — network switch = a device that connects devices within a computer network and directs data to the appropriate destination 網路交換器",
       "zh": "表示網路交換器；例句：「這些電腦透過網路交換器連接。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "switch-mcq-21",
-      "title": "表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」",
+      "title": "開關元件；切換元件",
       "form": "switch — electronic switching component = a component that opens, closes, or redirects an electrical or electronic circuit 開關元件；切換元件",
       "en": "switch — electronic switching component = a component that opens, closes, or redirects an electrical or electronic circuit 開關元件；切換元件",
       "zh": "表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "switch-mcq-22",
-      "title": "表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」",
+      "title": "鐵路轉轍器；道岔",
       "form": "switch — railway points / track mechanism In North American English: = a mechanism that moves trains from one track to another 鐵路轉轍器；道岔",
       "en": "switch — railway points / track mechanism In North American English: = a mechanism that moves trains from one track to another 鐵路轉轍器；道岔",
       "zh": "表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "switch-mcq-23",
-      "title": "表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」",
+      "title": "交換；調換",
       "form": "switch something with something = exchange one thing for another 交換；調換",
       "en": "switch something with something = exchange one thing for another 交換；調換",
       "zh": "表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "switch-mcq-24",
-      "title": "表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」",
+      "title": "對調；把位置互換",
       "form": "switch two things around = exchange their positions or order 對調；把位置互換",
       "en": "switch two things around = exchange their positions or order 對調；把位置互換",
       "zh": "表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "switch-mcq-25",
-      "title": "表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」",
+      "title": "突然轉變；切換",
       "form": "switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換",
       "en": "switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換",
       "zh": "表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」",
@@ -557,7 +557,7 @@ export default {
     },
     {
       "id": "switch-mcq-26",
-      "title": "表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」",
+      "title": "失去興趣；不再專心",
       "form": "switch off — stop paying attention Informally: = lose interest or stop mentally paying attention 失去興趣；不再專心",
       "en": "switch off — stop paying attention Informally: = lose interest or stop mentally paying attention 失去興趣；不再專心",
       "zh": "表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」",
@@ -579,7 +579,7 @@ export default {
     },
     {
       "id": "switch-mcq-27",
-      "title": "表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」",
+      "title": "讓某人失去興趣；倒胃口",
       "form": "switch someone off = make someone lose interest or enthusiasm 讓某人失去興趣；倒胃口",
       "en": "switch someone off = make someone lose interest or enthusiasm 讓某人失去興趣；倒胃口",
       "zh": "表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」",
@@ -601,7 +601,7 @@ export default {
     },
     {
       "id": "switch-mcq-28",
-      "title": "表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」",
+      "title": "開始專注；腦筋開始運轉",
       "form": "switch on — become mentally alert or engaged Less fixed than the device meaning, but figuratively: = become alert, engaged, or mentally active 開始專注；腦筋開始運轉",
       "en": "switch on — become mentally alert or engaged Less fixed than the device meaning, but figuratively: = become alert, engaged, or mentally active 開始專注；腦筋開始運轉",
       "zh": "表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」",
@@ -623,7 +623,7 @@ export default {
     },
     {
       "id": "switch-mcq-29",
-      "title": "表示切換；轉換；例句：「不斷切換任務可能降低專注力。」",
+      "title": "切換；轉換",
       "form": "switching = the act or process of changing from one thing, state, route, or setting to another 切換；轉換",
       "en": "switching = the act or process of changing from one thing, state, route, or setting to another 切換；轉換",
       "zh": "表示切換；轉換；例句：「不斷切換任務可能降低專注力。」",
@@ -645,7 +645,7 @@ export default {
     },
     {
       "id": "switch-mcq-30",
-      "title": "表示可切換的；例句：「這個裝置有可切換模式。」",
+      "title": "可切換的",
       "form": "switchable = capable of being switched between states or modes 可切換的",
       "en": "switchable = capable of being switched between states or modes 可切換的",
       "zh": "表示可切換的；例句：「這個裝置有可切換模式。」",
@@ -675,11 +675,9 @@ export default {
       "masked": "She ____ and opened the curtains.",
       "options": [
         "switch-mcq-01",
-        "switch-mcq-02",
-        "switch-mcq-03",
-        "switch-mcq-04",
-        "switch-mcq-05",
-        "switch-mcq-06"
+        "switch-mcq-24",
+        "switch-mcq-18",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switched on the light」指「表示打開；開啟（電器、燈等）；例句：「她打開燈，然後拉開窗簾。」」。",
       "sentenceIndex": 0,
@@ -688,12 +686,10 @@ export default {
         "switched on the light"
       ],
       "optionReasons": {
-        "switch-mcq-01": "本句指「表示打開；開啟（電器、燈等）；例句：「她打開燈，然後拉開窗簾。」」。",
-        "switch-mcq-02": "「表示開關；例句：「電燈開關在哪裡？」」是「switch — noun: a device used to turn something on or off = a small control used to start, stop, or change the operation of an electrical device 開關」的用法，與本句語境不同。",
-        "switch-mcq-03": "「表示打開；開啟；例句：「請打開風扇。」」是「switch on = make a device, light, machine, etc. begin operating 打開；開啟」的用法，與本句語境不同。",
-        "switch-mcq-04": "「表示關掉；關閉；例句：「別忘了關燈。」」是「switch off = make a device, light, machine, etc. stop operating 關掉；關閉」的用法，與本句語境不同。",
-        "switch-mcq-05": "「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」是「switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用」的用法，與本句語境不同。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。"
+        "switch-mcq-01": "本句的「switched on the light」指「表示打開；開啟（電器、燈等）；例句：「她打開燈，然後拉開窗簾。」」。",
+        "switch-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-01"
     },
@@ -705,11 +701,9 @@ export default {
       "masked": "His explanation made something ____.",
       "options": [
         "switch-mcq-01",
-        "switch-mcq-02",
-        "switch-mcq-03",
-        "switch-mcq-04",
-        "switch-mcq-05",
-        "switch-mcq-06"
+        "switch-mcq-24",
+        "switch-mcq-07",
+        "switch-mcq-14"
       ],
       "explanation": "本句的「switch on in my mind」指「表示打開；開啟（電器、燈等）；例句：「她打開燈，然後拉開窗簾。」」。",
       "sentenceIndex": 1,
@@ -718,12 +712,10 @@ export default {
         "switch on in my mind"
       ],
       "optionReasons": {
-        "switch-mcq-01": "本句指「表示打開；開啟（電器、燈等）；例句：「她打開燈，然後拉開窗簾。」」。",
-        "switch-mcq-02": "「表示開關；例句：「電燈開關在哪裡？」」是「switch — noun: a device used to turn something on or off = a small control used to start, stop, or change the operation of an electrical device 開關」的用法，與本句語境不同。",
-        "switch-mcq-03": "「表示打開；開啟；例句：「請打開風扇。」」是「switch on = make a device, light, machine, etc. begin operating 打開；開啟」的用法，與本句語境不同。",
-        "switch-mcq-04": "「表示關掉；關閉；例句：「別忘了關燈。」」是「switch off = make a device, light, machine, etc. stop operating 關掉；關閉」的用法，與本句語境不同。",
-        "switch-mcq-05": "「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」是「switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用」的用法，與本句語境不同。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。"
+        "switch-mcq-01": "本句的「switch on in my mind」指「表示打開；開啟（電器、燈等）；例句：「她打開燈，然後拉開窗簾。」」。",
+        "switch-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-01"
     },
@@ -735,11 +727,9 @@ export default {
       "masked": "Where is the light ____?",
       "options": [
         "switch-mcq-02",
-        "switch-mcq-01",
-        "switch-mcq-03",
-        "switch-mcq-04",
-        "switch-mcq-05",
-        "switch-mcq-06"
+        "switch-mcq-07",
+        "switch-mcq-14",
+        "switch-mcq-20"
       ],
       "explanation": "本句的「switch」指「表示開關；例句：「電燈開關在哪裡？」」。",
       "sentenceIndex": 2,
@@ -748,12 +738,10 @@ export default {
         "switch"
       ],
       "optionReasons": {
-        "switch-mcq-02": "本句指「表示開關；例句：「電燈開關在哪裡？」」。",
-        "switch-mcq-01": "「表示打開；開啟（電器、燈等）；例句：「她打開燈，然後拉開窗簾。」」是「Passage anchor > “It was like a light switching on in a dim room.」的用法，與本句語境不同。",
-        "switch-mcq-03": "「表示打開；開啟；例句：「請打開風扇。」」是「switch on = make a device, light, machine, etc. begin operating 打開；開啟」的用法，與本句語境不同。",
-        "switch-mcq-04": "「表示關掉；關閉；例句：「別忘了關燈。」」是「switch off = make a device, light, machine, etc. stop operating 關掉；關閉」的用法，與本句語境不同。",
-        "switch-mcq-05": "「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」是「switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用」的用法，與本句語境不同。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。"
+        "switch-mcq-02": "本句的「switch」指「表示開關；例句：「電燈開關在哪裡？」」。",
+        "switch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-02"
     },
@@ -765,11 +753,9 @@ export default {
       "masked": "Flip the ____ to turn the machine on.",
       "options": [
         "switch-mcq-02",
-        "switch-mcq-01",
-        "switch-mcq-03",
+        "switch-mcq-11",
         "switch-mcq-04",
-        "switch-mcq-05",
-        "switch-mcq-06"
+        "switch-mcq-26"
       ],
       "explanation": "本句的「switch」指「表示開關；例句：「電燈開關在哪裡？」」。",
       "sentenceIndex": 3,
@@ -778,12 +764,10 @@ export default {
         "switch"
       ],
       "optionReasons": {
-        "switch-mcq-02": "本句指「表示開關；例句：「電燈開關在哪裡？」」。",
-        "switch-mcq-01": "「表示打開；開啟（電器、燈等）；例句：「她打開燈，然後拉開窗簾。」」是「Passage anchor > “It was like a light switching on in a dim room.」的用法，與本句語境不同。",
-        "switch-mcq-03": "「表示打開；開啟；例句：「請打開風扇。」」是「switch on = make a device, light, machine, etc. begin operating 打開；開啟」的用法，與本句語境不同。",
-        "switch-mcq-04": "「表示關掉；關閉；例句：「別忘了關燈。」」是「switch off = make a device, light, machine, etc. stop operating 關掉；關閉」的用法，與本句語境不同。",
-        "switch-mcq-05": "「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」是「switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用」的用法，與本句語境不同。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。"
+        "switch-mcq-02": "本句的「switch」指「表示開關；例句：「電燈開關在哪裡？」」。",
+        "switch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-02"
     },
@@ -795,11 +779,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "switch-mcq-03",
-        "switch-mcq-02",
-        "switch-mcq-04",
-        "switch-mcq-01",
-        "switch-mcq-05",
-        "switch-mcq-06"
+        "switch-mcq-24",
+        "switch-mcq-15",
+        "switch-mcq-27"
       ],
       "explanation": "本句的「switch on the fan」指「表示打開；開啟；例句：「請打開風扇。」」。",
       "sentenceIndex": 4,
@@ -808,12 +790,10 @@ export default {
         "switch on the fan"
       ],
       "optionReasons": {
-        "switch-mcq-03": "本句指「表示打開；開啟；例句：「請打開風扇。」」。",
-        "switch-mcq-02": "「表示開關；例句：「電燈開關在哪裡？」」是「switch — noun: a device used to turn something on or off = a small control used to start, stop, or change the operation of an electrical device 開關」的用法，與本句語境不同。",
-        "switch-mcq-04": "「表示關掉；關閉；例句：「別忘了關燈。」」是「switch off = make a device, light, machine, etc. stop operating 關掉；關閉」的用法，與本句語境不同。",
-        "switch-mcq-01": "「表示打開；開啟（電器、燈等）；例句：「她打開燈，然後拉開窗簾。」」是「Passage anchor > “It was like a light switching on in a dim room.」的用法，與本句語境不同。",
-        "switch-mcq-05": "「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」是「switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用」的用法，與本句語境不同。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。"
+        "switch-mcq-03": "本句的「switch on the fan」指「表示打開；開啟；例句：「請打開風扇。」」。",
+        "switch-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-03"
     },
@@ -825,11 +805,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "switch-mcq-03",
-        "switch-mcq-02",
-        "switch-mcq-04",
-        "switch-mcq-01",
-        "switch-mcq-05",
-        "switch-mcq-06"
+        "switch-mcq-13",
+        "switch-mcq-26",
+        "switch-mcq-22"
       ],
       "explanation": "本句的「switched on the computer」指「表示打開；開啟；例句：「請打開風扇。」」。",
       "sentenceIndex": 5,
@@ -838,12 +816,10 @@ export default {
         "switched on the computer"
       ],
       "optionReasons": {
-        "switch-mcq-03": "本句指「表示打開；開啟；例句：「請打開風扇。」」。",
-        "switch-mcq-02": "「表示開關；例句：「電燈開關在哪裡？」」是「switch — noun: a device used to turn something on or off = a small control used to start, stop, or change the operation of an electrical device 開關」的用法，與本句語境不同。",
-        "switch-mcq-04": "「表示關掉；關閉；例句：「別忘了關燈。」」是「switch off = make a device, light, machine, etc. stop operating 關掉；關閉」的用法，與本句語境不同。",
-        "switch-mcq-01": "「表示打開；開啟（電器、燈等）；例句：「她打開燈，然後拉開窗簾。」」是「Passage anchor > “It was like a light switching on in a dim room.」的用法，與本句語境不同。",
-        "switch-mcq-05": "「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」是「switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用」的用法，與本句語境不同。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。"
+        "switch-mcq-03": "本句的「switched on the computer」指「表示打開；開啟；例句：「請打開風扇。」」。",
+        "switch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-03"
     },
@@ -855,11 +831,9 @@ export default {
       "masked": "Don’t forget to ____.",
       "options": [
         "switch-mcq-04",
-        "switch-mcq-03",
-        "switch-mcq-05",
-        "switch-mcq-02",
-        "switch-mcq-06",
-        "switch-mcq-01"
+        "switch-mcq-11",
+        "switch-mcq-28",
+        "switch-mcq-17"
       ],
       "explanation": "本句的「switch off the lights」指「表示關掉；關閉；例句：「別忘了關燈。」」。",
       "sentenceIndex": 6,
@@ -868,12 +842,10 @@ export default {
         "switch off the lights"
       ],
       "optionReasons": {
-        "switch-mcq-04": "本句指「表示關掉；關閉；例句：「別忘了關燈。」」。",
-        "switch-mcq-03": "「表示打開；開啟；例句：「請打開風扇。」」是「switch on = make a device, light, machine, etc. begin operating 打開；開啟」的用法，與本句語境不同。",
-        "switch-mcq-05": "「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」是「switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用」的用法，與本句語境不同。",
-        "switch-mcq-02": "「表示開關；例句：「電燈開關在哪裡？」」是「switch — noun: a device used to turn something on or off = a small control used to start, stop, or change the operation of an electrical device 開關」的用法，與本句語境不同。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。",
-        "switch-mcq-01": "「表示打開；開啟（電器、燈等）；例句：「她打開燈，然後拉開窗簾。」」是「Passage anchor > “It was like a light switching on in a dim room.」的用法，與本句語境不同。"
+        "switch-mcq-04": "本句的「switch off the lights」指「表示關掉；關閉；例句：「別忘了關燈。」」。",
+        "switch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-04"
     },
@@ -885,11 +857,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "switch-mcq-04",
-        "switch-mcq-03",
-        "switch-mcq-05",
-        "switch-mcq-02",
-        "switch-mcq-06",
-        "switch-mcq-01"
+        "switch-mcq-24",
+        "switch-mcq-12",
+        "switch-mcq-28"
       ],
       "explanation": "本句的「switched off the television」指「表示關掉；關閉；例句：「別忘了關燈。」」。",
       "sentenceIndex": 7,
@@ -898,12 +868,10 @@ export default {
         "switched off the television"
       ],
       "optionReasons": {
-        "switch-mcq-04": "本句指「表示關掉；關閉；例句：「別忘了關燈。」」。",
-        "switch-mcq-03": "「表示打開；開啟；例句：「請打開風扇。」」是「switch on = make a device, light, machine, etc. begin operating 打開；開啟」的用法，與本句語境不同。",
-        "switch-mcq-05": "「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」是「switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用」的用法，與本句語境不同。",
-        "switch-mcq-02": "「表示開關；例句：「電燈開關在哪裡？」」是「switch — noun: a device used to turn something on or off = a small control used to start, stop, or change the operation of an electrical device 開關」的用法，與本句語境不同。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。",
-        "switch-mcq-01": "「表示打開；開啟（電器、燈等）；例句：「她打開燈，然後拉開窗簾。」」是「Passage anchor > “It was like a light switching on in a dim room.」的用法，與本句語境不同。"
+        "switch-mcq-04": "本句的「switched off the television」指「表示關掉；關閉；例句：「別忘了關燈。」」。",
+        "switch-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-04"
     },
@@ -915,11 +883,9 @@ export default {
       "masked": "We ____ last year.",
       "options": [
         "switch-mcq-05",
-        "switch-mcq-04",
-        "switch-mcq-06",
         "switch-mcq-03",
-        "switch-mcq-07",
-        "switch-mcq-02"
+        "switch-mcq-04",
+        "switch-mcq-27"
       ],
       "explanation": "本句的「switched to a different system」指「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」。",
       "sentenceIndex": 8,
@@ -928,12 +894,10 @@ export default {
         "switched to a different system"
       ],
       "optionReasons": {
-        "switch-mcq-05": "本句指「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」。",
-        "switch-mcq-04": "「表示關掉；關閉；例句：「別忘了關燈。」」是「switch off = make a device, light, machine, etc. stop operating 關掉；關閉」的用法，與本句語境不同。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。",
-        "switch-mcq-03": "「表示打開；開啟；例句：「請打開風扇。」」是「switch on = make a device, light, machine, etc. begin operating 打開；開啟」的用法，與本句語境不同。",
-        "switch-mcq-07": "「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」是「switch to something = begin using or doing a different thing 改用；轉用；轉向」的用法，與本句語境不同。",
-        "switch-mcq-02": "「表示開關；例句：「電燈開關在哪裡？」」是「switch — noun: a device used to turn something on or off = a small control used to start, stop, or change the operation of an electrical device 開關」的用法，與本句語境不同。"
+        "switch-mcq-05": "本句的「switched to a different system」指「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」。",
+        "switch-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-05"
     },
@@ -945,11 +909,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "switch-mcq-05",
-        "switch-mcq-04",
-        "switch-mcq-06",
-        "switch-mcq-03",
-        "switch-mcq-07",
-        "switch-mcq-02"
+        "switch-mcq-17",
+        "switch-mcq-26",
+        "switch-mcq-01"
       ],
       "explanation": "本句的「switched from coffee to tea」指「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」。",
       "sentenceIndex": 9,
@@ -958,12 +920,10 @@ export default {
         "switched from coffee to tea"
       ],
       "optionReasons": {
-        "switch-mcq-05": "本句指「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」。",
-        "switch-mcq-04": "「表示關掉；關閉；例句：「別忘了關燈。」」是「switch off = make a device, light, machine, etc. stop operating 關掉；關閉」的用法，與本句語境不同。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。",
-        "switch-mcq-03": "「表示打開；開啟；例句：「請打開風扇。」」是「switch on = make a device, light, machine, etc. begin operating 打開；開啟」的用法，與本句語境不同。",
-        "switch-mcq-07": "「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」是「switch to something = begin using or doing a different thing 改用；轉用；轉向」的用法，與本句語境不同。",
-        "switch-mcq-02": "「表示開關；例句：「電燈開關在哪裡？」」是「switch — noun: a device used to turn something on or off = a small control used to start, stop, or change the operation of an electrical device 開關」的用法，與本句語境不同。"
+        "switch-mcq-05": "本句的「switched from coffee to tea」指「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-05"
     },
@@ -975,11 +935,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "switch-mcq-06",
-        "switch-mcq-05",
-        "switch-mcq-07",
-        "switch-mcq-04",
-        "switch-mcq-08",
-        "switch-mcq-03"
+        "switch-mcq-17",
+        "switch-mcq-27",
+        "switch-mcq-01"
       ],
       "explanation": "本句的「switched from paper records to digital files」指「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」。",
       "sentenceIndex": 10,
@@ -988,12 +946,10 @@ export default {
         "switched from paper records to digital files"
       ],
       "optionReasons": {
-        "switch-mcq-06": "本句指「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」。",
-        "switch-mcq-05": "「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」是「switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用」的用法，與本句語境不同。",
-        "switch-mcq-07": "「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」是「switch to something = begin using or doing a different thing 改用；轉用；轉向」的用法，與本句語境不同。",
-        "switch-mcq-04": "「表示關掉；關閉；例句：「別忘了關燈。」」是「switch off = make a device, light, machine, etc. stop operating 關掉；關閉」的用法，與本句語境不同。",
-        "switch-mcq-08": "「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」是「switch between A and B = alternate repeatedly between two things 在A與B之間切換」的用法，與本句語境不同。",
-        "switch-mcq-03": "「表示打開；開啟；例句：「請打開風扇。」」是「switch on = make a device, light, machine, etc. begin operating 打開；開啟」的用法，與本句語境不同。"
+        "switch-mcq-06": "本句的「switched from paper records to digital files」指「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-06"
     },
@@ -1005,11 +961,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "switch-mcq-06",
-        "switch-mcq-05",
-        "switch-mcq-07",
         "switch-mcq-04",
-        "switch-mcq-08",
-        "switch-mcq-03"
+        "switch-mcq-27",
+        "switch-mcq-17"
       ],
       "explanation": "本句的「switched from engineering to design」指「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」。",
       "sentenceIndex": 11,
@@ -1018,12 +972,10 @@ export default {
         "switched from engineering to design"
       ],
       "optionReasons": {
-        "switch-mcq-06": "本句指「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」。",
-        "switch-mcq-05": "「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」是「switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用」的用法，與本句語境不同。",
-        "switch-mcq-07": "「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」是「switch to something = begin using or doing a different thing 改用；轉用；轉向」的用法，與本句語境不同。",
-        "switch-mcq-04": "「表示關掉；關閉；例句：「別忘了關燈。」」是「switch off = make a device, light, machine, etc. stop operating 關掉；關閉」的用法，與本句語境不同。",
-        "switch-mcq-08": "「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」是「switch between A and B = alternate repeatedly between two things 在A與B之間切換」的用法，與本句語境不同。",
-        "switch-mcq-03": "「表示打開；開啟；例句：「請打開風扇。」」是「switch on = make a device, light, machine, etc. begin operating 打開；開啟」的用法，與本句語境不同。"
+        "switch-mcq-06": "本句的「switched from engineering to design」指「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-06"
     },
@@ -1035,11 +987,9 @@ export default {
       "masked": "Many people have ____.",
       "options": [
         "switch-mcq-07",
-        "switch-mcq-06",
-        "switch-mcq-08",
-        "switch-mcq-05",
-        "switch-mcq-09",
-        "switch-mcq-04"
+        "switch-mcq-11",
+        "switch-mcq-01",
+        "switch-mcq-27"
       ],
       "explanation": "本句的「switched to electric cars」指「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」。",
       "sentenceIndex": 12,
@@ -1048,12 +998,10 @@ export default {
         "switched to electric cars"
       ],
       "optionReasons": {
-        "switch-mcq-07": "本句指「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。",
-        "switch-mcq-08": "「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」是「switch between A and B = alternate repeatedly between two things 在A與B之間切換」的用法，與本句語境不同。",
-        "switch-mcq-05": "「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」是「switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用」的用法，與本句語境不同。",
-        "switch-mcq-09": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「switch places = exchange positions with another person 交換位置；換位子」的用法，與本句語境不同。",
-        "switch-mcq-04": "「表示關掉；關閉；例句：「別忘了關燈。」」是「switch off = make a device, light, machine, etc. stop operating 關掉；關閉」的用法，與本句語境不同。"
+        "switch-mcq-07": "本句的「switched to electric cars」指「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」。",
+        "switch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-07"
     },
@@ -1065,11 +1013,9 @@ export default {
       "masked": "We decided to ____.",
       "options": [
         "switch-mcq-07",
-        "switch-mcq-06",
-        "switch-mcq-08",
-        "switch-mcq-05",
-        "switch-mcq-09",
-        "switch-mcq-04"
+        "switch-mcq-17",
+        "switch-mcq-23",
+        "switch-mcq-27"
       ],
       "explanation": "本句的「switch to a cheaper plan」指「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」。",
       "sentenceIndex": 13,
@@ -1078,12 +1024,10 @@ export default {
         "switch to a cheaper plan"
       ],
       "optionReasons": {
-        "switch-mcq-07": "本句指「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。",
-        "switch-mcq-08": "「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」是「switch between A and B = alternate repeatedly between two things 在A與B之間切換」的用法，與本句語境不同。",
-        "switch-mcq-05": "「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」是「switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用」的用法，與本句語境不同。",
-        "switch-mcq-09": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「switch places = exchange positions with another person 交換位置；換位子」的用法，與本句語境不同。",
-        "switch-mcq-04": "「表示關掉；關閉；例句：「別忘了關燈。」」是「switch off = make a device, light, machine, etc. stop operating 關掉；關閉」的用法，與本句語境不同。"
+        "switch-mcq-07": "本句的「switch to a cheaper plan」指「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-07"
     },
@@ -1095,11 +1039,9 @@ export default {
       "masked": "She can easily ____.",
       "options": [
         "switch-mcq-08",
-        "switch-mcq-07",
-        "switch-mcq-09",
-        "switch-mcq-06",
-        "switch-mcq-10",
-        "switch-mcq-05"
+        "switch-mcq-01",
+        "switch-mcq-28",
+        "switch-mcq-17"
       ],
       "explanation": "本句的「switch between English and Chinese」指「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」。",
       "sentenceIndex": 14,
@@ -1108,12 +1050,10 @@ export default {
         "switch between English and Chinese"
       ],
       "optionReasons": {
-        "switch-mcq-08": "本句指「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」。",
-        "switch-mcq-07": "「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」是「switch to something = begin using or doing a different thing 改用；轉用；轉向」的用法，與本句語境不同。",
-        "switch-mcq-09": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「switch places = exchange positions with another person 交換位置；換位子」的用法，與本句語境不同。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。",
-        "switch-mcq-10": "「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」是「switch roles = exchange functions, responsibilities, or positions 交換角色；互換職責」的用法，與本句語境不同。",
-        "switch-mcq-05": "「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」是「switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用」的用法，與本句語境不同。"
+        "switch-mcq-08": "本句的「switch between English and Chinese」指「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-08"
     },
@@ -1126,10 +1066,8 @@ export default {
       "options": [
         "switch-mcq-08",
         "switch-mcq-07",
-        "switch-mcq-09",
-        "switch-mcq-06",
-        "switch-mcq-10",
-        "switch-mcq-05"
+        "switch-mcq-03",
+        "switch-mcq-26"
       ],
       "explanation": "本句的「switch between different views」指「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」。",
       "sentenceIndex": 15,
@@ -1138,12 +1076,10 @@ export default {
         "switch between different views"
       ],
       "optionReasons": {
-        "switch-mcq-08": "本句指「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」。",
-        "switch-mcq-07": "「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」是「switch to something = begin using or doing a different thing 改用；轉用；轉向」的用法，與本句語境不同。",
-        "switch-mcq-09": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「switch places = exchange positions with another person 交換位置；換位子」的用法，與本句語境不同。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。",
-        "switch-mcq-10": "「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」是「switch roles = exchange functions, responsibilities, or positions 交換角色；互換職責」的用法，與本句語境不同。",
-        "switch-mcq-05": "「表示轉換；改換；改用；例句：「我們去年改用了另一套系統。」」是「switch — verb: change from one thing to another = stop using, doing, or choosing one thing and begin using, doing, or choosing another 轉換；改換；改用」的用法，與本句語境不同。"
+        "switch-mcq-08": "本句的「switch between different views」指「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」。",
+        "switch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-08"
     },
@@ -1155,11 +1091,9 @@ export default {
       "masked": "Can we ____?",
       "options": [
         "switch-mcq-09",
-        "switch-mcq-08",
-        "switch-mcq-10",
-        "switch-mcq-07",
-        "switch-mcq-11",
-        "switch-mcq-06"
+        "switch-mcq-02",
+        "switch-mcq-22",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switch places」指「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」。",
       "sentenceIndex": 16,
@@ -1168,12 +1102,10 @@ export default {
         "switch places"
       ],
       "optionReasons": {
-        "switch-mcq-09": "本句指「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」。",
-        "switch-mcq-08": "「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」是「switch between A and B = alternate repeatedly between two things 在A與B之間切換」的用法，與本句語境不同。",
-        "switch-mcq-10": "「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」是「switch roles = exchange functions, responsibilities, or positions 交換角色；互換職責」的用法，與本句語境不同。",
-        "switch-mcq-07": "「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」是「switch to something = begin using or doing a different thing 改用；轉用；轉向」的用法，與本句語境不同。",
-        "switch-mcq-11": "「表示換邊；例句：「休息後兩隊交換場地。」」是「switch sides」的用法，與本句語境不同。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。"
+        "switch-mcq-09": "本句的「switch places」指「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」。",
+        "switch-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-09"
     },
@@ -1185,11 +1117,9 @@ export default {
       "masked": "The two students ____.",
       "options": [
         "switch-mcq-09",
-        "switch-mcq-08",
-        "switch-mcq-10",
-        "switch-mcq-07",
-        "switch-mcq-11",
-        "switch-mcq-06"
+        "switch-mcq-27",
+        "switch-mcq-28",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switched places」指「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」。",
       "sentenceIndex": 17,
@@ -1198,12 +1128,10 @@ export default {
         "switched places"
       ],
       "optionReasons": {
-        "switch-mcq-09": "本句指「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」。",
-        "switch-mcq-08": "「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」是「switch between A and B = alternate repeatedly between two things 在A與B之間切換」的用法，與本句語境不同。",
-        "switch-mcq-10": "「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」是「switch roles = exchange functions, responsibilities, or positions 交換角色；互換職責」的用法，與本句語境不同。",
-        "switch-mcq-07": "「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」是「switch to something = begin using or doing a different thing 改用；轉用；轉向」的用法，與本句語境不同。",
-        "switch-mcq-11": "「表示換邊；例句：「休息後兩隊交換場地。」」是「switch sides」的用法，與本句語境不同。",
-        "switch-mcq-06": "「表示從A轉換到B；例句：「公司從紙本紀錄轉成數位檔案。」」是「switch from A to B = change from one option, system, activity, or state to another 從A轉換到B」的用法，與本句語境不同。"
+        "switch-mcq-09": "本句的「switched places」指「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-09"
     },
@@ -1215,11 +1143,9 @@ export default {
       "masked": "Halfway through the exercise, the students ____.",
       "options": [
         "switch-mcq-10",
-        "switch-mcq-09",
-        "switch-mcq-11",
-        "switch-mcq-08",
-        "switch-mcq-12",
-        "switch-mcq-07"
+        "switch-mcq-28",
+        "switch-mcq-26",
+        "switch-mcq-01"
       ],
       "explanation": "本句的「switched roles」指「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」。",
       "sentenceIndex": 18,
@@ -1228,12 +1154,10 @@ export default {
         "switched roles"
       ],
       "optionReasons": {
-        "switch-mcq-10": "本句指「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」。",
-        "switch-mcq-09": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「switch places = exchange positions with another person 交換位置；換位子」的用法，與本句語境不同。",
-        "switch-mcq-11": "「表示換邊；例句：「休息後兩隊交換場地。」」是「switch sides」的用法，與本句語境不同。",
-        "switch-mcq-08": "「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」是「switch between A and B = alternate repeatedly between two things 在A與B之間切換」的用法，與本句語境不同。",
-        "switch-mcq-12": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「switch channels = change from one television or radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "switch-mcq-07": "「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」是「switch to something = begin using or doing a different thing 改用；轉用；轉向」的用法，與本句語境不同。"
+        "switch-mcq-10": "本句的「switched roles」指「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」。",
+        "switch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-10"
     },
@@ -1245,11 +1169,9 @@ export default {
       "masked": "The parents ____ for the day.",
       "options": [
         "switch-mcq-10",
-        "switch-mcq-09",
-        "switch-mcq-11",
-        "switch-mcq-08",
-        "switch-mcq-12",
-        "switch-mcq-07"
+        "switch-mcq-27",
+        "switch-mcq-17",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switched roles」指「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」。",
       "sentenceIndex": 19,
@@ -1258,12 +1180,10 @@ export default {
         "switched roles"
       ],
       "optionReasons": {
-        "switch-mcq-10": "本句指「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」。",
-        "switch-mcq-09": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「switch places = exchange positions with another person 交換位置；換位子」的用法，與本句語境不同。",
-        "switch-mcq-11": "「表示換邊；例句：「休息後兩隊交換場地。」」是「switch sides」的用法，與本句語境不同。",
-        "switch-mcq-08": "「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」是「switch between A and B = alternate repeatedly between two things 在A與B之間切換」的用法，與本句語境不同。",
-        "switch-mcq-12": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「switch channels = change from one television or radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "switch-mcq-07": "「表示改用；轉用；轉向；例句：「很多人已經改開電動車。」」是「switch to something = begin using or doing a different thing 改用；轉用；轉向」的用法，與本句語境不同。"
+        "switch-mcq-10": "本句的「switched roles」指「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-10"
     },
@@ -1275,11 +1195,9 @@ export default {
       "masked": "The teams ____ after the break.",
       "options": [
         "switch-mcq-11",
-        "switch-mcq-10",
-        "switch-mcq-12",
-        "switch-mcq-09",
-        "switch-mcq-13",
-        "switch-mcq-08"
+        "switch-mcq-03",
+        "switch-mcq-07",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switched sides」指「表示換邊；例句：「休息後兩隊交換場地。」」。",
       "sentenceIndex": 20,
@@ -1288,12 +1206,10 @@ export default {
         "switched sides"
       ],
       "optionReasons": {
-        "switch-mcq-11": "本句指「表示換邊；例句：「休息後兩隊交換場地。」」。",
-        "switch-mcq-10": "「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」是「switch roles = exchange functions, responsibilities, or positions 交換角色；互換職責」的用法，與本句語境不同。",
-        "switch-mcq-12": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「switch channels = change from one television or radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "switch-mcq-09": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「switch places = exchange positions with another person 交換位置；換位子」的用法，與本句語境不同。",
-        "switch-mcq-13": "「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」是「switch modes = move from one operating mode to another 切換模式」的用法，與本句語境不同。",
-        "switch-mcq-08": "「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」是「switch between A and B = alternate repeatedly between two things 在A與B之間切換」的用法，與本句語境不同。"
+        "switch-mcq-11": "本句的「switched sides」指「表示換邊；例句：「休息後兩隊交換場地。」」。",
+        "switch-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-11"
     },
@@ -1305,11 +1221,9 @@ export default {
       "masked": "Several members later ____.",
       "options": [
         "switch-mcq-11",
-        "switch-mcq-10",
-        "switch-mcq-12",
-        "switch-mcq-09",
-        "switch-mcq-13",
-        "switch-mcq-08"
+        "switch-mcq-03",
+        "switch-mcq-04",
+        "switch-mcq-26"
       ],
       "explanation": "本句的「switched sides」指「表示換邊；例句：「休息後兩隊交換場地。」」。",
       "sentenceIndex": 21,
@@ -1318,12 +1232,10 @@ export default {
         "switched sides"
       ],
       "optionReasons": {
-        "switch-mcq-11": "本句指「表示換邊；例句：「休息後兩隊交換場地。」」。",
-        "switch-mcq-10": "「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」是「switch roles = exchange functions, responsibilities, or positions 交換角色；互換職責」的用法，與本句語境不同。",
-        "switch-mcq-12": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「switch channels = change from one television or radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "switch-mcq-09": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「switch places = exchange positions with another person 交換位置；換位子」的用法，與本句語境不同。",
-        "switch-mcq-13": "「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」是「switch modes = move from one operating mode to another 切換模式」的用法，與本句語境不同。",
-        "switch-mcq-08": "「表示在A與B之間切換；例句：「她可以輕鬆地在英文和中文之間切換。」」是「switch between A and B = alternate repeatedly between two things 在A與B之間切換」的用法，與本句語境不同。"
+        "switch-mcq-11": "本句的「switched sides」指「表示換邊；例句：「休息後兩隊交換場地。」」。",
+        "switch-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-11"
     },
@@ -1335,11 +1247,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "switch-mcq-12",
-        "switch-mcq-11",
-        "switch-mcq-13",
-        "switch-mcq-10",
-        "switch-mcq-14",
-        "switch-mcq-09"
+        "switch-mcq-26",
+        "switch-mcq-03",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switch channels」指「表示轉台；換頻道；例句：「你可以轉台嗎？」」。",
       "sentenceIndex": 22,
@@ -1348,12 +1258,10 @@ export default {
         "switch channels"
       ],
       "optionReasons": {
-        "switch-mcq-12": "本句指「表示轉台；換頻道；例句：「你可以轉台嗎？」」。",
-        "switch-mcq-11": "「表示換邊；例句：「休息後兩隊交換場地。」」是「switch sides」的用法，與本句語境不同。",
-        "switch-mcq-13": "「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」是「switch modes = move from one operating mode to another 切換模式」的用法，與本句語境不同。",
-        "switch-mcq-10": "「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」是「switch roles = exchange functions, responsibilities, or positions 交換角色；互換職責」的用法，與本句語境不同。",
-        "switch-mcq-14": "「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」是「switch accounts / profiles = move from one account or user profile to another 切換帳號／使用者設定檔」的用法，與本句語境不同。",
-        "switch-mcq-09": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「switch places = exchange positions with another person 交換位置；換位子」的用法，與本句語境不同。"
+        "switch-mcq-12": "本句的「switch channels」指「表示轉台；換頻道；例句：「你可以轉台嗎？」」。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-12"
     },
@@ -1365,11 +1273,9 @@ export default {
       "masked": "He kept ____ during the news.",
       "options": [
         "switch-mcq-12",
-        "switch-mcq-11",
-        "switch-mcq-13",
-        "switch-mcq-10",
-        "switch-mcq-14",
-        "switch-mcq-09"
+        "switch-mcq-27",
+        "switch-mcq-01",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switching channels」指「表示轉台；換頻道；例句：「你可以轉台嗎？」」。",
       "sentenceIndex": 23,
@@ -1378,12 +1284,10 @@ export default {
         "switching channels"
       ],
       "optionReasons": {
-        "switch-mcq-12": "本句指「表示轉台；換頻道；例句：「你可以轉台嗎？」」。",
-        "switch-mcq-11": "「表示換邊；例句：「休息後兩隊交換場地。」」是「switch sides」的用法，與本句語境不同。",
-        "switch-mcq-13": "「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」是「switch modes = move from one operating mode to another 切換模式」的用法，與本句語境不同。",
-        "switch-mcq-10": "「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」是「switch roles = exchange functions, responsibilities, or positions 交換角色；互換職責」的用法，與本句語境不同。",
-        "switch-mcq-14": "「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」是「switch accounts / profiles = move from one account or user profile to another 切換帳號／使用者設定檔」的用法，與本句語境不同。",
-        "switch-mcq-09": "「表示交換位置；換位子；例句：「我們可以交換位置嗎？」」是「switch places = exchange positions with another person 交換位置；換位子」的用法，與本句語境不同。"
+        "switch-mcq-12": "本句的「switching channels」指「表示轉台；換頻道；例句：「你可以轉台嗎？」」。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-12"
     },
@@ -1395,11 +1299,9 @@ export default {
       "masked": "The camera automatically ____ in low light.",
       "options": [
         "switch-mcq-13",
-        "switch-mcq-12",
-        "switch-mcq-14",
-        "switch-mcq-11",
-        "switch-mcq-15",
-        "switch-mcq-10"
+        "switch-mcq-04",
+        "switch-mcq-07",
+        "switch-mcq-17"
       ],
       "explanation": "本句的「switches modes」指「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」。",
       "sentenceIndex": 24,
@@ -1408,12 +1310,10 @@ export default {
         "switches modes"
       ],
       "optionReasons": {
-        "switch-mcq-13": "本句指「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」。",
-        "switch-mcq-12": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「switch channels = change from one television or radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "switch-mcq-14": "「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」是「switch accounts / profiles = move from one account or user profile to another 切換帳號／使用者設定檔」的用法，與本句語境不同。",
-        "switch-mcq-11": "「表示換邊；例句：「休息後兩隊交換場地。」」是「switch sides」的用法，與本句語境不同。",
-        "switch-mcq-15": "「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」是「switch attention / focus = redirect attention from one thing to another 轉移注意力；切換焦點」的用法，與本句語境不同。",
-        "switch-mcq-10": "「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」是「switch roles = exchange functions, responsibilities, or positions 交換角色；互換職責」的用法，與本句語境不同。"
+        "switch-mcq-13": "本句的「switches modes」指「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-13"
     },
@@ -1425,11 +1325,9 @@ export default {
       "masked": "You can ____ in the settings.",
       "options": [
         "switch-mcq-13",
-        "switch-mcq-12",
-        "switch-mcq-14",
-        "switch-mcq-11",
-        "switch-mcq-15",
-        "switch-mcq-10"
+        "switch-mcq-04",
+        "switch-mcq-01",
+        "switch-mcq-27"
       ],
       "explanation": "本句的「switch to dark mode」指「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」。",
       "sentenceIndex": 25,
@@ -1438,12 +1336,10 @@ export default {
         "switch to dark mode"
       ],
       "optionReasons": {
-        "switch-mcq-13": "本句指「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」。",
-        "switch-mcq-12": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「switch channels = change from one television or radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "switch-mcq-14": "「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」是「switch accounts / profiles = move from one account or user profile to another 切換帳號／使用者設定檔」的用法，與本句語境不同。",
-        "switch-mcq-11": "「表示換邊；例句：「休息後兩隊交換場地。」」是「switch sides」的用法，與本句語境不同。",
-        "switch-mcq-15": "「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」是「switch attention / focus = redirect attention from one thing to another 轉移注意力；切換焦點」的用法，與本句語境不同。",
-        "switch-mcq-10": "「表示交換角色；互換職責；例句：「練習做到一半時，學生們交換角色。」」是「switch roles = exchange functions, responsibilities, or positions 交換角色；互換職責」的用法，與本句語境不同。"
+        "switch-mcq-13": "本句的「switch to dark mode」指「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-13"
     },
@@ -1455,11 +1351,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "switch-mcq-14",
-        "switch-mcq-13",
-        "switch-mcq-15",
-        "switch-mcq-12",
-        "switch-mcq-16",
-        "switch-mcq-11"
+        "switch-mcq-04",
+        "switch-mcq-26",
+        "switch-mcq-17"
       ],
       "explanation": "本句的「switch accounts」指「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」。",
       "sentenceIndex": 26,
@@ -1468,12 +1362,10 @@ export default {
         "switch accounts"
       ],
       "optionReasons": {
-        "switch-mcq-14": "本句指「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」。",
-        "switch-mcq-13": "「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」是「switch modes = move from one operating mode to another 切換模式」的用法，與本句語境不同。",
-        "switch-mcq-15": "「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」是「switch attention / focus = redirect attention from one thing to another 轉移注意力；切換焦點」的用法，與本句語境不同。",
-        "switch-mcq-12": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「switch channels = change from one television or radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "switch-mcq-16": "「表示轉換話題；例句：「她很快就換了話題。」」是「switch topics / subjects = begin discussing something different 轉換話題」的用法，與本句語境不同。",
-        "switch-mcq-11": "「表示換邊；例句：「休息後兩隊交換場地。」」是「switch sides」的用法，與本句語境不同。"
+        "switch-mcq-14": "本句的「switch accounts」指「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-14"
     },
@@ -1485,11 +1377,9 @@ export default {
       "masked": "You can quickly ____.",
       "options": [
         "switch-mcq-14",
-        "switch-mcq-13",
-        "switch-mcq-15",
-        "switch-mcq-12",
-        "switch-mcq-16",
-        "switch-mcq-11"
+        "switch-mcq-28",
+        "switch-mcq-22",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switch between profiles」指「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」。",
       "sentenceIndex": 27,
@@ -1498,12 +1388,10 @@ export default {
         "switch between profiles"
       ],
       "optionReasons": {
-        "switch-mcq-14": "本句指「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」。",
-        "switch-mcq-13": "「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」是「switch modes = move from one operating mode to another 切換模式」的用法，與本句語境不同。",
-        "switch-mcq-15": "「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」是「switch attention / focus = redirect attention from one thing to another 轉移注意力；切換焦點」的用法，與本句語境不同。",
-        "switch-mcq-12": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「switch channels = change from one television or radio channel to another 轉台；換頻道」的用法，與本句語境不同。",
-        "switch-mcq-16": "「表示轉換話題；例句：「她很快就換了話題。」」是「switch topics / subjects = begin discussing something different 轉換話題」的用法，與本句語境不同。",
-        "switch-mcq-11": "「表示換邊；例句：「休息後兩隊交換場地。」」是「switch sides」的用法，與本句語境不同。"
+        "switch-mcq-14": "本句的「switch between profiles」指「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」。",
+        "switch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-14"
     },
@@ -1515,11 +1403,9 @@ export default {
       "masked": "It was difficult to ____ back to work.",
       "options": [
         "switch-mcq-15",
-        "switch-mcq-14",
-        "switch-mcq-16",
-        "switch-mcq-13",
-        "switch-mcq-17",
-        "switch-mcq-12"
+        "switch-mcq-02",
+        "switch-mcq-27",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switch my attention」指「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」。",
       "sentenceIndex": 28,
@@ -1528,12 +1414,10 @@ export default {
         "switch my attention"
       ],
       "optionReasons": {
-        "switch-mcq-15": "本句指「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」。",
-        "switch-mcq-14": "「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」是「switch accounts / profiles = move from one account or user profile to another 切換帳號／使用者設定檔」的用法，與本句語境不同。",
-        "switch-mcq-16": "「表示轉換話題；例句：「她很快就換了話題。」」是「switch topics / subjects = begin discussing something different 轉換話題」的用法，與本句語境不同。",
-        "switch-mcq-13": "「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」是「switch modes = move from one operating mode to another 切換模式」的用法，與本句語境不同。",
-        "switch-mcq-17": "「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」是「something switches on in your mind = begin functioning or become suddenly clear mentally 腦中突然開竅；突然明白 This is a figurative extension of the electrical meaning.」的用法，與本句語境不同。",
-        "switch-mcq-12": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「switch channels = change from one television or radio channel to another 轉台；換頻道」的用法，與本句語境不同。"
+        "switch-mcq-15": "本句的「switch my attention」指「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」。",
+        "switch-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-15"
     },
@@ -1545,11 +1429,9 @@ export default {
       "masked": "The discussion ____ to costs.",
       "options": [
         "switch-mcq-15",
-        "switch-mcq-14",
-        "switch-mcq-16",
-        "switch-mcq-13",
+        "switch-mcq-26",
         "switch-mcq-17",
-        "switch-mcq-12"
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switched focus」指「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」。",
       "sentenceIndex": 29,
@@ -1558,12 +1440,10 @@ export default {
         "switched focus"
       ],
       "optionReasons": {
-        "switch-mcq-15": "本句指「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」。",
-        "switch-mcq-14": "「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」是「switch accounts / profiles = move from one account or user profile to another 切換帳號／使用者設定檔」的用法，與本句語境不同。",
-        "switch-mcq-16": "「表示轉換話題；例句：「她很快就換了話題。」」是「switch topics / subjects = begin discussing something different 轉換話題」的用法，與本句語境不同。",
-        "switch-mcq-13": "「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」是「switch modes = move from one operating mode to another 切換模式」的用法，與本句語境不同。",
-        "switch-mcq-17": "「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」是「something switches on in your mind = begin functioning or become suddenly clear mentally 腦中突然開竅；突然明白 This is a figurative extension of the electrical meaning.」的用法，與本句語境不同。",
-        "switch-mcq-12": "「表示轉台；換頻道；例句：「你可以轉台嗎？」」是「switch channels = change from one television or radio channel to another 轉台；換頻道」的用法，與本句語境不同。"
+        "switch-mcq-15": "本句的「switched focus」指「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-15"
     },
@@ -1575,11 +1455,9 @@ export default {
       "masked": "She quickly ____.",
       "options": [
         "switch-mcq-16",
-        "switch-mcq-15",
         "switch-mcq-17",
-        "switch-mcq-14",
-        "switch-mcq-18",
-        "switch-mcq-13"
+        "switch-mcq-04",
+        "switch-mcq-27"
       ],
       "explanation": "本句的「switched topics」指「表示轉換話題；例句：「她很快就換了話題。」」。",
       "sentenceIndex": 30,
@@ -1588,12 +1466,10 @@ export default {
         "switched topics"
       ],
       "optionReasons": {
-        "switch-mcq-16": "本句指「表示轉換話題；例句：「她很快就換了話題。」」。",
-        "switch-mcq-15": "「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」是「switch attention / focus = redirect attention from one thing to another 轉移注意力；切換焦點」的用法，與本句語境不同。",
-        "switch-mcq-17": "「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」是「something switches on in your mind = begin functioning or become suddenly clear mentally 腦中突然開竅；突然明白 This is a figurative extension of the electrical meaning.」的用法，與本句語境不同。",
-        "switch-mcq-14": "「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」是「switch accounts / profiles = move from one account or user profile to another 切換帳號／使用者設定檔」的用法，與本句語境不同。",
-        "switch-mcq-18": "「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」是「switch — noun: a change from one thing to another = an act of changing from one option, system, position, or activity to another 轉換；改變；改換」的用法，與本句語境不同。",
-        "switch-mcq-13": "「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」是「switch modes = move from one operating mode to another 切換模式」的用法，與本句語境不同。"
+        "switch-mcq-16": "本句的「switched topics」指「表示轉換話題；例句：「她很快就換了話題。」」。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-16"
     },
@@ -1605,11 +1481,9 @@ export default {
       "masked": "Let’s ____.",
       "options": [
         "switch-mcq-16",
-        "switch-mcq-15",
         "switch-mcq-17",
-        "switch-mcq-14",
-        "switch-mcq-18",
-        "switch-mcq-13"
+        "switch-mcq-01",
+        "switch-mcq-26"
       ],
       "explanation": "本句的「switch to another subject」指「表示轉換話題；例句：「她很快就換了話題。」」。",
       "sentenceIndex": 31,
@@ -1618,12 +1492,10 @@ export default {
         "switch to another subject"
       ],
       "optionReasons": {
-        "switch-mcq-16": "本句指「表示轉換話題；例句：「她很快就換了話題。」」。",
-        "switch-mcq-15": "「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」是「switch attention / focus = redirect attention from one thing to another 轉移注意力；切換焦點」的用法，與本句語境不同。",
-        "switch-mcq-17": "「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」是「something switches on in your mind = begin functioning or become suddenly clear mentally 腦中突然開竅；突然明白 This is a figurative extension of the electrical meaning.」的用法，與本句語境不同。",
-        "switch-mcq-14": "「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」是「switch accounts / profiles = move from one account or user profile to another 切換帳號／使用者設定檔」的用法，與本句語境不同。",
-        "switch-mcq-18": "「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」是「switch — noun: a change from one thing to another = an act of changing from one option, system, position, or activity to another 轉換；改變；改換」的用法，與本句語境不同。",
-        "switch-mcq-13": "「表示切換模式；例句：「相機在低光環境下會自動切換模式。」」是「switch modes = move from one operating mode to another 切換模式」的用法，與本句語境不同。"
+        "switch-mcq-16": "本句的「switch to another subject」指「表示轉換話題；例句：「她很快就換了話題。」」。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-16"
     },
@@ -1635,11 +1507,9 @@ export default {
       "masked": "Suddenly, something ____ and I understood the pattern.",
       "options": [
         "switch-mcq-17",
-        "switch-mcq-16",
+        "switch-mcq-26",
         "switch-mcq-18",
-        "switch-mcq-15",
-        "switch-mcq-19",
-        "switch-mcq-14"
+        "switch-mcq-20"
       ],
       "explanation": "本句的「switched on in my brain」指「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」。",
       "sentenceIndex": 32,
@@ -1648,12 +1518,10 @@ export default {
         "switched on in my brain"
       ],
       "optionReasons": {
-        "switch-mcq-17": "本句指「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」。",
-        "switch-mcq-16": "「表示轉換話題；例句：「她很快就換了話題。」」是「switch topics / subjects = begin discussing something different 轉換話題」的用法，與本句語境不同。",
-        "switch-mcq-18": "「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」是「switch — noun: a change from one thing to another = an act of changing from one option, system, position, or activity to another 轉換；改變；改換」的用法，與本句語境不同。",
-        "switch-mcq-15": "「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」是「switch attention / focus = redirect attention from one thing to another 轉移注意力；切換焦點」的用法，與本句語境不同。",
-        "switch-mcq-19": "「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」是「make a switch = make a deliberate change to another option 作出轉換；改換」的用法，與本句語境不同。",
-        "switch-mcq-14": "「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」是「switch accounts / profiles = move from one account or user profile to another 切換帳號／使用者設定檔」的用法，與本句語境不同。"
+        "switch-mcq-17": "本句的「switched on in my brain」指「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-17"
     },
@@ -1665,11 +1533,9 @@ export default {
       "masked": "Her question seemed to ____ in him.",
       "options": [
         "switch-mcq-17",
-        "switch-mcq-16",
-        "switch-mcq-18",
-        "switch-mcq-15",
-        "switch-mcq-19",
-        "switch-mcq-14"
+        "switch-mcq-05",
+        "switch-mcq-26",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switch something on」指「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」。",
       "sentenceIndex": 33,
@@ -1678,12 +1544,10 @@ export default {
         "switch something on"
       ],
       "optionReasons": {
-        "switch-mcq-17": "本句指「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」。",
-        "switch-mcq-16": "「表示轉換話題；例句：「她很快就換了話題。」」是「switch topics / subjects = begin discussing something different 轉換話題」的用法，與本句語境不同。",
-        "switch-mcq-18": "「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」是「switch — noun: a change from one thing to another = an act of changing from one option, system, position, or activity to another 轉換；改變；改換」的用法，與本句語境不同。",
-        "switch-mcq-15": "「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」是「switch attention / focus = redirect attention from one thing to another 轉移注意力；切換焦點」的用法，與本句語境不同。",
-        "switch-mcq-19": "「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」是「make a switch = make a deliberate change to another option 作出轉換；改換」的用法，與本句語境不同。",
-        "switch-mcq-14": "「表示切換帳號／使用者設定檔；例句：「我需要切換帳號。」」是「switch accounts / profiles = move from one account or user profile to another 切換帳號／使用者設定檔」的用法，與本句語境不同。"
+        "switch-mcq-17": "本句的「switch something on」指「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」。",
+        "switch-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-17"
     },
@@ -1695,11 +1559,9 @@ export default {
       "masked": "The ____ happened quickly.",
       "options": [
         "switch-mcq-18",
-        "switch-mcq-17",
-        "switch-mcq-19",
-        "switch-mcq-16",
-        "switch-mcq-20",
-        "switch-mcq-15"
+        "switch-mcq-01",
+        "switch-mcq-27",
+        "switch-mcq-17"
       ],
       "explanation": "本句的「switch to online learning」指「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」。",
       "sentenceIndex": 34,
@@ -1708,12 +1570,10 @@ export default {
         "switch to online learning"
       ],
       "optionReasons": {
-        "switch-mcq-18": "本句指「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」。",
-        "switch-mcq-17": "「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」是「something switches on in your mind = begin functioning or become suddenly clear mentally 腦中突然開竅；突然明白 This is a figurative extension of the electrical meaning.」的用法，與本句語境不同。",
-        "switch-mcq-19": "「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」是「make a switch = make a deliberate change to another option 作出轉換；改換」的用法，與本句語境不同。",
-        "switch-mcq-16": "「表示轉換話題；例句：「她很快就換了話題。」」是「switch topics / subjects = begin discussing something different 轉換話題」的用法，與本句語境不同。",
-        "switch-mcq-20": "「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」是「switch — network switch = a device that connects devices within a computer network and directs data to the appropriate destination 網路交換器」的用法，與本句語境不同。",
-        "switch-mcq-15": "「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」是「switch attention / focus = redirect attention from one thing to another 轉移注意力；切換焦點」的用法，與本句語境不同。"
+        "switch-mcq-18": "本句的「switch to online learning」指「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-18"
     },
@@ -1725,11 +1585,9 @@ export default {
       "masked": "The company announced a ____.",
       "options": [
         "switch-mcq-18",
-        "switch-mcq-17",
-        "switch-mcq-19",
-        "switch-mcq-16",
-        "switch-mcq-20",
-        "switch-mcq-15"
+        "switch-mcq-27",
+        "switch-mcq-04",
+        "switch-mcq-17"
       ],
       "explanation": "本句的「switch in strategy」指「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」。",
       "sentenceIndex": 35,
@@ -1738,12 +1596,10 @@ export default {
         "switch in strategy"
       ],
       "optionReasons": {
-        "switch-mcq-18": "本句指「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」。",
-        "switch-mcq-17": "「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」是「something switches on in your mind = begin functioning or become suddenly clear mentally 腦中突然開竅；突然明白 This is a figurative extension of the electrical meaning.」的用法，與本句語境不同。",
-        "switch-mcq-19": "「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」是「make a switch = make a deliberate change to another option 作出轉換；改換」的用法，與本句語境不同。",
-        "switch-mcq-16": "「表示轉換話題；例句：「她很快就換了話題。」」是「switch topics / subjects = begin discussing something different 轉換話題」的用法，與本句語境不同。",
-        "switch-mcq-20": "「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」是「switch — network switch = a device that connects devices within a computer network and directs data to the appropriate destination 網路交換器」的用法，與本句語境不同。",
-        "switch-mcq-15": "「表示轉移注意力；切換焦點；例句：「我很難把注意力轉回工作。」」是「switch attention / focus = redirect attention from one thing to another 轉移注意力；切換焦點」的用法，與本句語境不同。"
+        "switch-mcq-18": "本句的「switch in strategy」指「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-18"
     },
@@ -1755,11 +1611,9 @@ export default {
       "masked": "We decided to ____ to renewable energy.",
       "options": [
         "switch-mcq-19",
-        "switch-mcq-18",
-        "switch-mcq-20",
+        "switch-mcq-27",
         "switch-mcq-17",
-        "switch-mcq-21",
-        "switch-mcq-16"
+        "switch-mcq-01"
       ],
       "explanation": "本句的「make the switch」指「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」。",
       "sentenceIndex": 36,
@@ -1768,12 +1622,10 @@ export default {
         "make the switch"
       ],
       "optionReasons": {
-        "switch-mcq-19": "本句指「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」。",
-        "switch-mcq-18": "「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」是「switch — noun: a change from one thing to another = an act of changing from one option, system, position, or activity to another 轉換；改變；改換」的用法，與本句語境不同。",
-        "switch-mcq-20": "「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」是「switch — network switch = a device that connects devices within a computer network and directs data to the appropriate destination 網路交換器」的用法，與本句語境不同。",
-        "switch-mcq-17": "「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」是「something switches on in your mind = begin functioning or become suddenly clear mentally 腦中突然開竅；突然明白 This is a figurative extension of the electrical meaning.」的用法，與本句語境不同。",
-        "switch-mcq-21": "「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」是「switch — electronic switching component = a component that opens, closes, or redirects an electrical or electronic circuit 開關元件；切換元件」的用法，與本句語境不同。",
-        "switch-mcq-16": "「表示轉換話題；例句：「她很快就換了話題。」」是「switch topics / subjects = begin discussing something different 轉換話題」的用法，與本句語境不同。"
+        "switch-mcq-19": "本句的「make the switch」指「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-19"
     },
@@ -1785,11 +1637,9 @@ export default {
       "masked": "She finally ____ to a new career.",
       "options": [
         "switch-mcq-19",
-        "switch-mcq-18",
-        "switch-mcq-20",
+        "switch-mcq-27",
         "switch-mcq-17",
-        "switch-mcq-21",
-        "switch-mcq-16"
+        "switch-mcq-01"
       ],
       "explanation": "本句的「made the switch」指「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」。",
       "sentenceIndex": 37,
@@ -1798,12 +1648,10 @@ export default {
         "made the switch"
       ],
       "optionReasons": {
-        "switch-mcq-19": "本句指「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」。",
-        "switch-mcq-18": "「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」是「switch — noun: a change from one thing to another = an act of changing from one option, system, position, or activity to another 轉換；改變；改換」的用法，與本句語境不同。",
-        "switch-mcq-20": "「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」是「switch — network switch = a device that connects devices within a computer network and directs data to the appropriate destination 網路交換器」的用法，與本句語境不同。",
-        "switch-mcq-17": "「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」是「something switches on in your mind = begin functioning or become suddenly clear mentally 腦中突然開竅；突然明白 This is a figurative extension of the electrical meaning.」的用法，與本句語境不同。",
-        "switch-mcq-21": "「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」是「switch — electronic switching component = a component that opens, closes, or redirects an electrical or electronic circuit 開關元件；切換元件」的用法，與本句語境不同。",
-        "switch-mcq-16": "「表示轉換話題；例句：「她很快就換了話題。」」是「switch topics / subjects = begin discussing something different 轉換話題」的用法，與本句語境不同。"
+        "switch-mcq-19": "本句的「made the switch」指「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-19"
     },
@@ -1815,10 +1663,8 @@ export default {
       "masked": "The computers are connected through a network ____.",
       "options": [
         "switch-mcq-20",
-        "switch-mcq-19",
-        "switch-mcq-21",
-        "switch-mcq-18",
-        "switch-mcq-22",
+        "switch-mcq-28",
+        "switch-mcq-26",
         "switch-mcq-17"
       ],
       "explanation": "本句的「switch」指「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」。",
@@ -1828,12 +1674,10 @@ export default {
         "switch"
       ],
       "optionReasons": {
-        "switch-mcq-20": "本句指「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」。",
-        "switch-mcq-19": "「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」是「make a switch = make a deliberate change to another option 作出轉換；改換」的用法，與本句語境不同。",
-        "switch-mcq-21": "「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」是「switch — electronic switching component = a component that opens, closes, or redirects an electrical or electronic circuit 開關元件；切換元件」的用法，與本句語境不同。",
-        "switch-mcq-18": "「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」是「switch — noun: a change from one thing to another = an act of changing from one option, system, position, or activity to another 轉換；改變；改換」的用法，與本句語境不同。",
-        "switch-mcq-22": "「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」是「switch — railway points / track mechanism In North American English: = a mechanism that moves trains from one track to another 鐵路轉轍器；道岔」的用法，與本句語境不同。",
-        "switch-mcq-17": "「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」是「something switches on in your mind = begin functioning or become suddenly clear mentally 腦中突然開竅；突然明白 This is a figurative extension of the electrical meaning.」的用法，與本句語境不同。"
+        "switch-mcq-20": "本句的「switch」指「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」。",
+        "switch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-20"
     },
@@ -1845,11 +1689,9 @@ export default {
       "masked": "The technician replaced the faulty ____.",
       "options": [
         "switch-mcq-20",
-        "switch-mcq-19",
-        "switch-mcq-21",
-        "switch-mcq-18",
-        "switch-mcq-22",
-        "switch-mcq-17"
+        "switch-mcq-28",
+        "switch-mcq-17",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switch」指「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」。",
       "sentenceIndex": 39,
@@ -1858,12 +1700,10 @@ export default {
         "switch"
       ],
       "optionReasons": {
-        "switch-mcq-20": "本句指「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」。",
-        "switch-mcq-19": "「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」是「make a switch = make a deliberate change to another option 作出轉換；改換」的用法，與本句語境不同。",
-        "switch-mcq-21": "「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」是「switch — electronic switching component = a component that opens, closes, or redirects an electrical or electronic circuit 開關元件；切換元件」的用法，與本句語境不同。",
-        "switch-mcq-18": "「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」是「switch — noun: a change from one thing to another = an act of changing from one option, system, position, or activity to another 轉換；改變；改換」的用法，與本句語境不同。",
-        "switch-mcq-22": "「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」是「switch — railway points / track mechanism In North American English: = a mechanism that moves trains from one track to another 鐵路轉轍器；道岔」的用法，與本句語境不同。",
-        "switch-mcq-17": "「表示腦中突然開竅；突然明白；例句：「突然間，我腦中像是開竅了，理解了那個規律。」」是「something switches on in your mind = begin functioning or become suddenly clear mentally 腦中突然開竅；突然明白 This is a figurative extension of the electrical meaning.」的用法，與本句語境不同。"
+        "switch-mcq-20": "本句的「switch」指「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」。",
+        "switch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-20"
     },
@@ -1875,11 +1715,9 @@ export default {
       "masked": "The circuit uses an electronic ____.",
       "options": [
         "switch-mcq-21",
-        "switch-mcq-20",
         "switch-mcq-22",
-        "switch-mcq-19",
-        "switch-mcq-23",
-        "switch-mcq-18"
+        "switch-mcq-26",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switch」指「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」。",
       "sentenceIndex": 40,
@@ -1888,12 +1726,10 @@ export default {
         "switch"
       ],
       "optionReasons": {
-        "switch-mcq-21": "本句指「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」。",
-        "switch-mcq-20": "「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」是「switch — network switch = a device that connects devices within a computer network and directs data to the appropriate destination 網路交換器」的用法，與本句語境不同。",
-        "switch-mcq-22": "「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」是「switch — railway points / track mechanism In North American English: = a mechanism that moves trains from one track to another 鐵路轉轍器；道岔」的用法，與本句語境不同。",
-        "switch-mcq-19": "「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」是「make a switch = make a deliberate change to another option 作出轉換；改換」的用法，與本句語境不同。",
-        "switch-mcq-23": "「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」是「switch something with something = exchange one thing for another 交換；調換」的用法，與本句語境不同。",
-        "switch-mcq-18": "「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」是「switch — noun: a change from one thing to another = an act of changing from one option, system, position, or activity to another 轉換；改變；改換」的用法，與本句語境不同。"
+        "switch-mcq-21": "本句的「switch」指「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」。",
+        "switch-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-21"
     },
@@ -1905,11 +1741,9 @@ export default {
       "masked": "The ____ controls the flow of current.",
       "options": [
         "switch-mcq-21",
-        "switch-mcq-20",
         "switch-mcq-22",
-        "switch-mcq-19",
-        "switch-mcq-23",
-        "switch-mcq-18"
+        "switch-mcq-27",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switch」指「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」。",
       "sentenceIndex": 41,
@@ -1918,12 +1752,10 @@ export default {
         "switch"
       ],
       "optionReasons": {
-        "switch-mcq-21": "本句指「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」。",
-        "switch-mcq-20": "「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」是「switch — network switch = a device that connects devices within a computer network and directs data to the appropriate destination 網路交換器」的用法，與本句語境不同。",
-        "switch-mcq-22": "「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」是「switch — railway points / track mechanism In North American English: = a mechanism that moves trains from one track to another 鐵路轉轍器；道岔」的用法，與本句語境不同。",
-        "switch-mcq-19": "「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」是「make a switch = make a deliberate change to another option 作出轉換；改換」的用法，與本句語境不同。",
-        "switch-mcq-23": "「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」是「switch something with something = exchange one thing for another 交換；調換」的用法，與本句語境不同。",
-        "switch-mcq-18": "「表示轉換；改變；改換；例句：「轉向線上學習發生得很快。」」是「switch — noun: a change from one thing to another = an act of changing from one option, system, position, or activity to another 轉換；改變；改換」的用法，與本句語境不同。"
+        "switch-mcq-21": "本句的「switch」指「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」。",
+        "switch-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-21"
     },
@@ -1935,11 +1767,9 @@ export default {
       "masked": "The train moved through the ____ onto another track.",
       "options": [
         "switch-mcq-22",
-        "switch-mcq-21",
-        "switch-mcq-23",
-        "switch-mcq-20",
-        "switch-mcq-24",
-        "switch-mcq-19"
+        "switch-mcq-27",
+        "switch-mcq-14",
+        "switch-mcq-02"
       ],
       "explanation": "本句的「switch」指「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」。",
       "sentenceIndex": 42,
@@ -1948,12 +1778,10 @@ export default {
         "switch"
       ],
       "optionReasons": {
-        "switch-mcq-22": "本句指「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」。",
-        "switch-mcq-21": "「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」是「switch — electronic switching component = a component that opens, closes, or redirects an electrical or electronic circuit 開關元件；切換元件」的用法，與本句語境不同。",
-        "switch-mcq-23": "「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」是「switch something with something = exchange one thing for another 交換；調換」的用法，與本句語境不同。",
-        "switch-mcq-20": "「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」是「switch — network switch = a device that connects devices within a computer network and directs data to the appropriate destination 網路交換器」的用法，與本句語境不同。",
-        "switch-mcq-24": "「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」是「switch two things around = exchange their positions or order 對調；把位置互換」的用法，與本句語境不同。",
-        "switch-mcq-19": "「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」是「make a switch = make a deliberate change to another option 作出轉換；改換」的用法，與本句語境不同。"
+        "switch-mcq-22": "本句的「switch」指「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-22"
     },
@@ -1965,11 +1793,9 @@ export default {
       "masked": "A faulty ____ delayed several trains.",
       "options": [
         "switch-mcq-22",
-        "switch-mcq-21",
-        "switch-mcq-23",
-        "switch-mcq-20",
-        "switch-mcq-24",
-        "switch-mcq-19"
+        "switch-mcq-11",
+        "switch-mcq-26",
+        "switch-mcq-17"
       ],
       "explanation": "本句的「switch」指「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」。",
       "sentenceIndex": 43,
@@ -1978,12 +1804,10 @@ export default {
         "switch"
       ],
       "optionReasons": {
-        "switch-mcq-22": "本句指「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」。",
-        "switch-mcq-21": "「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」是「switch — electronic switching component = a component that opens, closes, or redirects an electrical or electronic circuit 開關元件；切換元件」的用法，與本句語境不同。",
-        "switch-mcq-23": "「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」是「switch something with something = exchange one thing for another 交換；調換」的用法，與本句語境不同。",
-        "switch-mcq-20": "「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」是「switch — network switch = a device that connects devices within a computer network and directs data to the appropriate destination 網路交換器」的用法，與本句語境不同。",
-        "switch-mcq-24": "「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」是「switch two things around = exchange their positions or order 對調；把位置互換」的用法，與本句語境不同。",
-        "switch-mcq-19": "「表示作出轉換；改換；例句：「我們決定轉用再生能源。」」是「make a switch = make a deliberate change to another option 作出轉換；改換」的用法，與本句語境不同。"
+        "switch-mcq-22": "本句的「switch」指「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」。",
+        "switch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-22"
     },
@@ -1995,11 +1819,9 @@ export default {
       "masked": "Someone ____ by mistake.",
       "options": [
         "switch-mcq-23",
-        "switch-mcq-22",
-        "switch-mcq-24",
-        "switch-mcq-21",
-        "switch-mcq-25",
-        "switch-mcq-20"
+        "switch-mcq-28",
+        "switch-mcq-17",
+        "switch-mcq-01"
       ],
       "explanation": "本句的「switched my bag with theirs」指「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」。",
       "sentenceIndex": 44,
@@ -2008,12 +1830,10 @@ export default {
         "switched my bag with theirs"
       ],
       "optionReasons": {
-        "switch-mcq-23": "本句指「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」。",
-        "switch-mcq-22": "「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」是「switch — railway points / track mechanism In North American English: = a mechanism that moves trains from one track to another 鐵路轉轍器；道岔」的用法，與本句語境不同。",
-        "switch-mcq-24": "「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」是「switch two things around = exchange their positions or order 對調；把位置互換」的用法，與本句語境不同。",
-        "switch-mcq-21": "「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」是「switch — electronic switching component = a component that opens, closes, or redirects an electrical or electronic circuit 開關元件；切換元件」的用法，與本句語境不同。",
-        "switch-mcq-25": "「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」是「switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換」的用法，與本句語境不同。",
-        "switch-mcq-20": "「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」是「switch — network switch = a device that connects devices within a computer network and directs data to the appropriate destination 網路交換器」的用法，與本句語境不同。"
+        "switch-mcq-23": "本句的「switched my bag with theirs」指「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」。",
+        "switch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-23"
     },
@@ -2025,11 +1845,9 @@ export default {
       "masked": "The labels had been ____.",
       "options": [
         "switch-mcq-23",
-        "switch-mcq-22",
-        "switch-mcq-24",
-        "switch-mcq-21",
-        "switch-mcq-25",
-        "switch-mcq-20"
+        "switch-mcq-26",
+        "switch-mcq-07",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switched」指「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」。",
       "sentenceIndex": 45,
@@ -2038,12 +1856,10 @@ export default {
         "switched"
       ],
       "optionReasons": {
-        "switch-mcq-23": "本句指「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」。",
-        "switch-mcq-22": "「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」是「switch — railway points / track mechanism In North American English: = a mechanism that moves trains from one track to another 鐵路轉轍器；道岔」的用法，與本句語境不同。",
-        "switch-mcq-24": "「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」是「switch two things around = exchange their positions or order 對調；把位置互換」的用法，與本句語境不同。",
-        "switch-mcq-21": "「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」是「switch — electronic switching component = a component that opens, closes, or redirects an electrical or electronic circuit 開關元件；切換元件」的用法，與本句語境不同。",
-        "switch-mcq-25": "「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」是「switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換」的用法，與本句語境不同。",
-        "switch-mcq-20": "「表示網路交換器；例句：「這些電腦透過網路交換器連接。」」是「switch — network switch = a device that connects devices within a computer network and directs data to the appropriate destination 網路交換器」的用法，與本句語境不同。"
+        "switch-mcq-23": "本句的「switched」指「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-23"
     },
@@ -2055,11 +1871,9 @@ export default {
       "masked": "I accidentally ____.",
       "options": [
         "switch-mcq-24",
-        "switch-mcq-23",
-        "switch-mcq-25",
-        "switch-mcq-22",
-        "switch-mcq-26",
-        "switch-mcq-21"
+        "switch-mcq-27",
+        "switch-mcq-17",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switched the two names around」指「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」。",
       "sentenceIndex": 46,
@@ -2068,12 +1882,10 @@ export default {
         "switched the two names around"
       ],
       "optionReasons": {
-        "switch-mcq-24": "本句指「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」。",
-        "switch-mcq-23": "「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」是「switch something with something = exchange one thing for another 交換；調換」的用法，與本句語境不同。",
-        "switch-mcq-25": "「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」是「switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換」的用法，與本句語境不同。",
-        "switch-mcq-22": "「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」是「switch — railway points / track mechanism In North American English: = a mechanism that moves trains from one track to another 鐵路轉轍器；道岔」的用法，與本句語境不同。",
-        "switch-mcq-26": "「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」是「switch off — stop paying attention Informally: = lose interest or stop mentally paying attention 失去興趣；不再專心」的用法，與本句語境不同。",
-        "switch-mcq-21": "「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」是「switch — electronic switching component = a component that opens, closes, or redirects an electrical or electronic circuit 開關元件；切換元件」的用法，與本句語境不同。"
+        "switch-mcq-24": "本句的「switched the two names around」指「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-24"
     },
@@ -2085,11 +1897,9 @@ export default {
       "masked": "Let’s ____.",
       "options": [
         "switch-mcq-24",
-        "switch-mcq-23",
-        "switch-mcq-25",
-        "switch-mcq-22",
-        "switch-mcq-26",
-        "switch-mcq-21"
+        "switch-mcq-27",
+        "switch-mcq-28",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switch the chairs around」指「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」。",
       "sentenceIndex": 47,
@@ -2098,12 +1908,10 @@ export default {
         "switch the chairs around"
       ],
       "optionReasons": {
-        "switch-mcq-24": "本句指「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」。",
-        "switch-mcq-23": "「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」是「switch something with something = exchange one thing for another 交換；調換」的用法，與本句語境不同。",
-        "switch-mcq-25": "「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」是「switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換」的用法，與本句語境不同。",
-        "switch-mcq-22": "「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」是「switch — railway points / track mechanism In North American English: = a mechanism that moves trains from one track to another 鐵路轉轍器；道岔」的用法，與本句語境不同。",
-        "switch-mcq-26": "「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」是「switch off — stop paying attention Informally: = lose interest or stop mentally paying attention 失去興趣；不再專心」的用法，與本句語境不同。",
-        "switch-mcq-21": "「表示開關元件；切換元件；例句：「這個電路使用電子開關元件。」」是「switch — electronic switching component = a component that opens, closes, or redirects an electrical or electronic circuit 開關元件；切換元件」的用法，與本句語境不同。"
+        "switch-mcq-24": "本句的「switch the chairs around」指「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-24"
     },
@@ -2115,11 +1923,9 @@ export default {
       "masked": "He can ____ very quickly.",
       "options": [
         "switch-mcq-25",
-        "switch-mcq-24",
-        "switch-mcq-26",
-        "switch-mcq-23",
         "switch-mcq-27",
-        "switch-mcq-22"
+        "switch-mcq-03",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switch from serious to playful」指「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」。",
       "sentenceIndex": 48,
@@ -2128,12 +1934,10 @@ export default {
         "switch from serious to playful"
       ],
       "optionReasons": {
-        "switch-mcq-25": "本句指「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」。",
-        "switch-mcq-24": "「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」是「switch two things around = exchange their positions or order 對調；把位置互換」的用法，與本句語境不同。",
-        "switch-mcq-26": "「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」是「switch off — stop paying attention Informally: = lose interest or stop mentally paying attention 失去興趣；不再專心」的用法，與本句語境不同。",
-        "switch-mcq-23": "「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」是「switch something with something = exchange one thing for another 交換；調換」的用法，與本句語境不同。",
-        "switch-mcq-27": "「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」是「switch someone off = make someone lose interest or enthusiasm 讓某人失去興趣；倒胃口」的用法，與本句語境不同。",
-        "switch-mcq-22": "「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」是「switch — railway points / track mechanism In North American English: = a mechanism that moves trains from one track to another 鐵路轉轍器；道岔」的用法，與本句語境不同。"
+        "switch-mcq-25": "本句的「switch from serious to playful」指「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-25"
     },
@@ -2145,11 +1949,9 @@ export default {
       "masked": "Her tone suddenly ____.",
       "options": [
         "switch-mcq-25",
-        "switch-mcq-24",
+        "switch-mcq-03",
         "switch-mcq-26",
-        "switch-mcq-23",
-        "switch-mcq-27",
-        "switch-mcq-22"
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switched」指「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」。",
       "sentenceIndex": 49,
@@ -2158,12 +1960,10 @@ export default {
         "switched"
       ],
       "optionReasons": {
-        "switch-mcq-25": "本句指「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」。",
-        "switch-mcq-24": "「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」是「switch two things around = exchange their positions or order 對調；把位置互換」的用法，與本句語境不同。",
-        "switch-mcq-26": "「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」是「switch off — stop paying attention Informally: = lose interest or stop mentally paying attention 失去興趣；不再專心」的用法，與本句語境不同。",
-        "switch-mcq-23": "「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」是「switch something with something = exchange one thing for another 交換；調換」的用法，與本句語境不同。",
-        "switch-mcq-27": "「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」是「switch someone off = make someone lose interest or enthusiasm 讓某人失去興趣；倒胃口」的用法，與本句語境不同。",
-        "switch-mcq-22": "「表示鐵路轉轍器；道岔；例句：「火車經過轉轍器駛入另一條軌道。」」是「switch — railway points / track mechanism In North American English: = a mechanism that moves trains from one track to another 鐵路轉轍器；道岔」的用法，與本句語境不同。"
+        "switch-mcq-25": "本句的「switched」指「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」。",
+        "switch-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-25"
     },
@@ -2175,11 +1975,9 @@ export default {
       "masked": "I ____ when meetings become too long.",
       "options": [
         "switch-mcq-26",
-        "switch-mcq-25",
-        "switch-mcq-27",
-        "switch-mcq-24",
-        "switch-mcq-28",
-        "switch-mcq-23"
+        "switch-mcq-30",
+        "switch-mcq-17",
+        "switch-mcq-22"
       ],
       "explanation": "本句的「switch off」指「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」。",
       "sentenceIndex": 50,
@@ -2188,12 +1986,10 @@ export default {
         "switch off"
       ],
       "optionReasons": {
-        "switch-mcq-26": "本句指「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」。",
-        "switch-mcq-25": "「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」是「switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換」的用法，與本句語境不同。",
-        "switch-mcq-27": "「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」是「switch someone off = make someone lose interest or enthusiasm 讓某人失去興趣；倒胃口」的用法，與本句語境不同。",
-        "switch-mcq-24": "「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」是「switch two things around = exchange their positions or order 對調；把位置互換」的用法，與本句語境不同。",
-        "switch-mcq-28": "「表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」」是「switch on — become mentally alert or engaged Less fixed than the device meaning, but figuratively: = become alert, engaged, or mentally active 開始專注；腦筋開始運轉」的用法，與本句語境不同。",
-        "switch-mcq-23": "「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」是「switch something with something = exchange one thing for another 交換；調換」的用法，與本句語境不同。"
+        "switch-mcq-26": "本句的「switch off」指「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」。",
+        "switch-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-26"
     },
@@ -2205,11 +2001,9 @@ export default {
       "masked": "Half the class seemed to ____ during the lecture.",
       "options": [
         "switch-mcq-26",
+        "switch-mcq-09",
         "switch-mcq-25",
-        "switch-mcq-27",
-        "switch-mcq-24",
-        "switch-mcq-28",
-        "switch-mcq-23"
+        "switch-mcq-02"
       ],
       "explanation": "本句的「switch off」指「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」。",
       "sentenceIndex": 51,
@@ -2218,12 +2012,10 @@ export default {
         "switch off"
       ],
       "optionReasons": {
-        "switch-mcq-26": "本句指「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」。",
-        "switch-mcq-25": "「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」是「switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換」的用法，與本句語境不同。",
-        "switch-mcq-27": "「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」是「switch someone off = make someone lose interest or enthusiasm 讓某人失去興趣；倒胃口」的用法，與本句語境不同。",
-        "switch-mcq-24": "「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」是「switch two things around = exchange their positions or order 對調；把位置互換」的用法，與本句語境不同。",
-        "switch-mcq-28": "「表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」」是「switch on — become mentally alert or engaged Less fixed than the device meaning, but figuratively: = become alert, engaged, or mentally active 開始專注；腦筋開始運轉」的用法，與本句語境不同。",
-        "switch-mcq-23": "「表示交換；調換；例句：「有人不小心把我的包和他的拿錯交換了。」」是「switch something with something = exchange one thing for another 交換；調換」的用法，與本句語境不同。"
+        "switch-mcq-26": "本句的「switch off」指「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」。",
+        "switch-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-26"
     },
@@ -2235,11 +2027,9 @@ export default {
       "masked": "Too much technical language ____.",
       "options": [
         "switch-mcq-27",
-        "switch-mcq-26",
-        "switch-mcq-28",
-        "switch-mcq-25",
-        "switch-mcq-29",
-        "switch-mcq-24"
+        "switch-mcq-01",
+        "switch-mcq-21",
+        "switch-mcq-12"
       ],
       "explanation": "本句的「switches people off」指「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」。",
       "sentenceIndex": 52,
@@ -2248,12 +2038,10 @@ export default {
         "switches people off"
       ],
       "optionReasons": {
-        "switch-mcq-27": "本句指「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」。",
-        "switch-mcq-26": "「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」是「switch off — stop paying attention Informally: = lose interest or stop mentally paying attention 失去興趣；不再專心」的用法，與本句語境不同。",
-        "switch-mcq-28": "「表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」」是「switch on — become mentally alert or engaged Less fixed than the device meaning, but figuratively: = become alert, engaged, or mentally active 開始專注；腦筋開始運轉」的用法，與本句語境不同。",
-        "switch-mcq-25": "「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」是「switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換」的用法，與本句語境不同。",
-        "switch-mcq-29": "「表示切換；轉換；例句：「不斷切換任務可能降低專注力。」」是「switching = the act or process of changing from one thing, state, route, or setting to another 切換；轉換」的用法，與本句語境不同。",
-        "switch-mcq-24": "「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」是「switch two things around = exchange their positions or order 對調；把位置互換」的用法，與本句語境不同。"
+        "switch-mcq-27": "本句的「switches people off」指「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-27"
     },
@@ -2265,11 +2053,9 @@ export default {
       "masked": "His arrogant manner really ____.",
       "options": [
         "switch-mcq-27",
-        "switch-mcq-26",
-        "switch-mcq-28",
-        "switch-mcq-25",
-        "switch-mcq-29",
-        "switch-mcq-24"
+        "switch-mcq-30",
+        "switch-mcq-22",
+        "switch-mcq-28"
       ],
       "explanation": "本句的「switched me off」指「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」。",
       "sentenceIndex": 53,
@@ -2278,12 +2064,10 @@ export default {
         "switched me off"
       ],
       "optionReasons": {
-        "switch-mcq-27": "本句指「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」。",
-        "switch-mcq-26": "「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」是「switch off — stop paying attention Informally: = lose interest or stop mentally paying attention 失去興趣；不再專心」的用法，與本句語境不同。",
-        "switch-mcq-28": "「表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」」是「switch on — become mentally alert or engaged Less fixed than the device meaning, but figuratively: = become alert, engaged, or mentally active 開始專注；腦筋開始運轉」的用法，與本句語境不同。",
-        "switch-mcq-25": "「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」是「switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換」的用法，與本句語境不同。",
-        "switch-mcq-29": "「表示切換；轉換；例句：「不斷切換任務可能降低專注力。」」是「switching = the act or process of changing from one thing, state, route, or setting to another 切換；轉換」的用法，與本句語境不同。",
-        "switch-mcq-24": "「表示對調；把位置互換；例句：「我不小心把兩個名字對調了。」」是「switch two things around = exchange their positions or order 對調；把位置互換」的用法，與本句語境不同。"
+        "switch-mcq-27": "本句的「switched me off」指「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」。",
+        "switch-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-27"
     },
@@ -2295,11 +2079,9 @@ export default {
       "masked": "It takes me a while to ____ in the morning.",
       "options": [
         "switch-mcq-28",
+        "switch-mcq-11",
         "switch-mcq-27",
-        "switch-mcq-29",
-        "switch-mcq-26",
-        "switch-mcq-30",
-        "switch-mcq-25"
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switch on」指「表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」」。",
       "sentenceIndex": 54,
@@ -2308,12 +2090,10 @@ export default {
         "switch on"
       ],
       "optionReasons": {
-        "switch-mcq-28": "本句指「表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」」。",
-        "switch-mcq-27": "「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」是「switch someone off = make someone lose interest or enthusiasm 讓某人失去興趣；倒胃口」的用法，與本句語境不同。",
-        "switch-mcq-29": "「表示切換；轉換；例句：「不斷切換任務可能降低專注力。」」是「switching = the act or process of changing from one thing, state, route, or setting to another 切換；轉換」的用法，與本句語境不同。",
-        "switch-mcq-26": "「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」是「switch off — stop paying attention Informally: = lose interest or stop mentally paying attention 失去興趣；不再專心」的用法，與本句語境不同。",
-        "switch-mcq-30": "「表示可切換的；例句：「這個裝置有可切換模式。」」是「switchable = capable of being switched between states or modes 可切換的」的用法，與本句語境不同。",
-        "switch-mcq-25": "「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」是「switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換」的用法，與本句語境不同。"
+        "switch-mcq-28": "本句的「switch on」指「表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」」。",
+        "switch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-28"
     },
@@ -2325,11 +2105,9 @@ export default {
       "masked": "Once the discussion became interesting, everyone ____.",
       "options": [
         "switch-mcq-28",
+        "switch-mcq-13",
         "switch-mcq-27",
-        "switch-mcq-29",
-        "switch-mcq-26",
-        "switch-mcq-30",
-        "switch-mcq-25"
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switched on」指「表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」」。",
       "sentenceIndex": 55,
@@ -2338,12 +2116,10 @@ export default {
         "switched on"
       ],
       "optionReasons": {
-        "switch-mcq-28": "本句指「表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」」。",
-        "switch-mcq-27": "「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」是「switch someone off = make someone lose interest or enthusiasm 讓某人失去興趣；倒胃口」的用法，與本句語境不同。",
-        "switch-mcq-29": "「表示切換；轉換；例句：「不斷切換任務可能降低專注力。」」是「switching = the act or process of changing from one thing, state, route, or setting to another 切換；轉換」的用法，與本句語境不同。",
-        "switch-mcq-26": "「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」是「switch off — stop paying attention Informally: = lose interest or stop mentally paying attention 失去興趣；不再專心」的用法，與本句語境不同。",
-        "switch-mcq-30": "「表示可切換的；例句：「這個裝置有可切換模式。」」是「switchable = capable of being switched between states or modes 可切換的」的用法，與本句語境不同。",
-        "switch-mcq-25": "「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」是「switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換」的用法，與本句語境不同。"
+        "switch-mcq-28": "本句的「switched on」指「表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」」。",
+        "switch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-28"
     },
@@ -2355,11 +2131,9 @@ export default {
       "masked": "____ can reduce concentration.",
       "options": [
         "switch-mcq-29",
-        "switch-mcq-28",
-        "switch-mcq-30",
-        "switch-mcq-27",
-        "switch-mcq-26",
-        "switch-mcq-25"
+        "switch-mcq-04",
+        "switch-mcq-17",
+        "switch-mcq-01"
       ],
       "explanation": "本句的「Switching between tasks」指「表示切換；轉換；例句：「不斷切換任務可能降低專注力。」」。",
       "sentenceIndex": 56,
@@ -2368,12 +2142,10 @@ export default {
         "Switching between tasks"
       ],
       "optionReasons": {
-        "switch-mcq-29": "本句指「表示切換；轉換；例句：「不斷切換任務可能降低專注力。」」。",
-        "switch-mcq-28": "「表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」」是「switch on — become mentally alert or engaged Less fixed than the device meaning, but figuratively: = become alert, engaged, or mentally active 開始專注；腦筋開始運轉」的用法，與本句語境不同。",
-        "switch-mcq-30": "「表示可切換的；例句：「這個裝置有可切換模式。」」是「switchable = capable of being switched between states or modes 可切換的」的用法，與本句語境不同。",
-        "switch-mcq-27": "「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」是「switch someone off = make someone lose interest or enthusiasm 讓某人失去興趣；倒胃口」的用法，與本句語境不同。",
-        "switch-mcq-26": "「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」是「switch off — stop paying attention Informally: = lose interest or stop mentally paying attention 失去興趣；不再專心」的用法，與本句語境不同。",
-        "switch-mcq-25": "「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」是「switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換」的用法，與本句語境不同。"
+        "switch-mcq-29": "本句的「Switching between tasks」指「表示切換；轉換；例句：「不斷切換任務可能降低專注力。」」。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-29"
     },
@@ -2385,11 +2157,9 @@ export default {
       "masked": "The system allows automatic ____ between networks.",
       "options": [
         "switch-mcq-29",
-        "switch-mcq-28",
-        "switch-mcq-30",
-        "switch-mcq-27",
         "switch-mcq-26",
-        "switch-mcq-25"
+        "switch-mcq-01",
+        "switch-mcq-04"
       ],
       "explanation": "本句的「switching」指「表示切換；轉換；例句：「不斷切換任務可能降低專注力。」」。",
       "sentenceIndex": 57,
@@ -2398,12 +2168,10 @@ export default {
         "switching"
       ],
       "optionReasons": {
-        "switch-mcq-29": "本句指「表示切換；轉換；例句：「不斷切換任務可能降低專注力。」」。",
-        "switch-mcq-28": "「表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」」是「switch on — become mentally alert or engaged Less fixed than the device meaning, but figuratively: = become alert, engaged, or mentally active 開始專注；腦筋開始運轉」的用法，與本句語境不同。",
-        "switch-mcq-30": "「表示可切換的；例句：「這個裝置有可切換模式。」」是「switchable = capable of being switched between states or modes 可切換的」的用法，與本句語境不同。",
-        "switch-mcq-27": "「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」是「switch someone off = make someone lose interest or enthusiasm 讓某人失去興趣；倒胃口」的用法，與本句語境不同。",
-        "switch-mcq-26": "「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」是「switch off — stop paying attention Informally: = lose interest or stop mentally paying attention 失去興趣；不再專心」的用法，與本句語境不同。",
-        "switch-mcq-25": "「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」是「switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換」的用法，與本句語境不同。"
+        "switch-mcq-29": "本句的「switching」指「表示切換；轉換；例句：「不斷切換任務可能降低專注力。」」。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-29"
     },
@@ -2415,11 +2183,9 @@ export default {
       "masked": "The device has ____.",
       "options": [
         "switch-mcq-30",
-        "switch-mcq-29",
-        "switch-mcq-28",
-        "switch-mcq-27",
+        "switch-mcq-04",
         "switch-mcq-26",
-        "switch-mcq-25"
+        "switch-mcq-22"
       ],
       "explanation": "本句的「switchable modes」指「表示可切換的；例句：「這個裝置有可切換模式。」」。",
       "sentenceIndex": 58,
@@ -2428,12 +2194,10 @@ export default {
         "switchable modes"
       ],
       "optionReasons": {
-        "switch-mcq-30": "本句指「表示可切換的；例句：「這個裝置有可切換模式。」」。",
-        "switch-mcq-29": "「表示切換；轉換；例句：「不斷切換任務可能降低專注力。」」是「switching = the act or process of changing from one thing, state, route, or setting to another 切換；轉換」的用法，與本句語境不同。",
-        "switch-mcq-28": "「表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」」是「switch on — become mentally alert or engaged Less fixed than the device meaning, but figuratively: = become alert, engaged, or mentally active 開始專注；腦筋開始運轉」的用法，與本句語境不同。",
-        "switch-mcq-27": "「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」是「switch someone off = make someone lose interest or enthusiasm 讓某人失去興趣；倒胃口」的用法，與本句語境不同。",
-        "switch-mcq-26": "「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」是「switch off — stop paying attention Informally: = lose interest or stop mentally paying attention 失去興趣；不再專心」的用法，與本句語境不同。",
-        "switch-mcq-25": "「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」是「switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換」的用法，與本句語境不同。"
+        "switch-mcq-30": "本句的「switchable modes」指「表示可切換的；例句：「這個裝置有可切換模式。」」。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-30"
     },
@@ -2445,11 +2209,9 @@ export default {
       "masked": "The lens has ____.",
       "options": [
         "switch-mcq-30",
-        "switch-mcq-29",
-        "switch-mcq-28",
-        "switch-mcq-27",
-        "switch-mcq-26",
-        "switch-mcq-25"
+        "switch-mcq-02",
+        "switch-mcq-04",
+        "switch-mcq-07"
       ],
       "explanation": "本句的「switchable settings」指「表示可切換的；例句：「這個裝置有可切換模式。」」。",
       "sentenceIndex": 59,
@@ -2458,12 +2220,10 @@ export default {
         "switchable settings"
       ],
       "optionReasons": {
-        "switch-mcq-30": "本句指「表示可切換的；例句：「這個裝置有可切換模式。」」。",
-        "switch-mcq-29": "「表示切換；轉換；例句：「不斷切換任務可能降低專注力。」」是「switching = the act or process of changing from one thing, state, route, or setting to another 切換；轉換」的用法，與本句語境不同。",
-        "switch-mcq-28": "「表示開始專注；腦筋開始運轉；例句：「我早上需要一點時間才能清醒進入狀態。」」是「switch on — become mentally alert or engaged Less fixed than the device meaning, but figuratively: = become alert, engaged, or mentally active 開始專注；腦筋開始運轉」的用法，與本句語境不同。",
-        "switch-mcq-27": "「表示讓某人失去興趣；倒胃口；例句：「太多技術性用語會讓人失去興趣。」」是「switch someone off = make someone lose interest or enthusiasm 讓某人失去興趣；倒胃口」的用法，與本句語境不同。",
-        "switch-mcq-26": "「表示失去興趣；不再專心；例句：「會議太長時，我就會開始走神。」」是「switch off — stop paying attention Informally: = lose interest or stop mentally paying attention 失去興趣；不再專心」的用法，與本句語境不同。",
-        "switch-mcq-25": "「表示突然轉變；切換；例句：「他可以很快從嚴肅轉成輕鬆玩鬧。」」是「switch from one mood/style to another = change suddenly in manner, tone, or behavior 突然轉變；切換」的用法，與本句語境不同。"
+        "switch-mcq-30": "本句的「switchable settings」指「表示可切換的；例句：「這個裝置有可切換模式。」」。",
+        "switch-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "switch-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "switch-mcq-30"
     }
@@ -2475,5 +2235,7 @@ export default {
     "sha256": "83b4757799ad23225af81bd269f243fe367296c90c8ced9666014850a74f49a7",
     "pages": 16
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

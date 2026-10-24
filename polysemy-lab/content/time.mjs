@@ -203,18 +203,7 @@ export default {
       "en": "time for + activity/event（",
       "zh": "活動／事情）",
       "note": "來源詞義：活動／事情）",
-      "examples": [
-        [
-          "It’s time for lunch.",
-          "到吃午飯的時間了。",
-          "活動／事情）"
-        ],
-        [
-          "We still have time for one more question.",
-          "我們還有時間再問一個問題。",
-          "活動／事情）"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -368,18 +357,7 @@ export default {
       "en": "time + action/event（",
       "zh": "動作／活動）",
       "note": "來源詞義：動作／活動）",
-      "examples": [
-        [
-          "The coach timed each runner.",
-          "教練為每名跑手計時。",
-          "動作／活動）"
-        ],
-        [
-          "I timed the journey, and it took 35 minutes.",
-          "我為這段路程計時，結果用了 35 分鐘。",
-          "動作／活動）"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -401,18 +379,7 @@ export default {
       "en": "time + action/event（",
       "zh": "事件／行動）",
       "note": "來源詞義：事件／行動）",
-      "examples": [
-        [
-          "They timed the announcement carefully.",
-          "他們仔細選定了公布消息的時機。",
-          "事件／行動）"
-        ],
-        [
-          "The launch was timed for the holiday season.",
-          "產品發布被安排在假期期間。",
-          "事件／行動）"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -492,6 +459,72 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "time-reviewed-c22543681d",
+      "title": "……的時間",
+      "form": "time · source section 9",
+      "en": "……的時間",
+      "zh": "……的時間",
+      "note": "對照原始教材第 9 節及例句核實。",
+      "examples": [
+        [
+          "It’s time for lunch.",
+          "到吃午飯的時間了。",
+          "……的時間"
+        ],
+        [
+          "We still have time for one more question.",
+          "我們還有時間再問一個問題。",
+          "……的時間"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "time-reviewed-c4702d9c8b",
+      "title": "計時",
+      "form": "time · source section 16",
+      "en": "計時",
+      "zh": "計時",
+      "note": "對照原始教材第 16 節及例句核實。",
+      "examples": [
+        [
+          "The coach timed each runner.",
+          "教練為每名跑手計時。",
+          "計時"
+        ],
+        [
+          "I timed the journey, and it took 35 minutes.",
+          "我為這段路程計時，結果用了 35 分鐘。",
+          "計時"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "time-reviewed-b676f87208",
+      "title": "安排時間；選定時機",
+      "form": "time · source section 17",
+      "en": "安排時間；選定時機",
+      "zh": "安排時間；選定時機",
+      "note": "對照原始教材第 17 節及例句核實。",
+      "examples": [
+        [
+          "They timed the announcement carefully.",
+          "他們仔細選定了公布消息的時機。",
+          "安排時間；選定時機"
+        ],
+        [
+          "The launch was timed for the holiday season.",
+          "產品發布被安排在假期期間。",
+          "安排時間；選定時機"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -503,11 +536,9 @@ export default {
       "masked": "At that ____, I was commuting every day.",
       "options": [
         "time-mcq-02",
-        "time-mcq-01",
-        "time-mcq-03",
-        "time-mcq-04",
-        "time-mcq-05",
-        "time-mcq-06"
+        "time-mcq-22",
+        "time-mcq-16",
+        "time-mcq-14"
       ],
       "explanation": "本句的「time」指「當時／那時候」。",
       "sentenceIndex": 0,
@@ -516,12 +547,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-02": "本句指「當時／那時候」。",
-        "time-mcq-01": "「繁體中文」是「Meaning」的用法，與本句語境不同。",
-        "time-mcq-03": "「幾點」是「what time? clock time」的用法，與本句語境不同。",
-        "time-mcq-04": "「很長時間」是「a long time duration」的用法，與本句語境不同。",
-        "time-mcq-05": "「有時間」是「have time available time」的用法，與本句語境不同。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。"
+        "time-mcq-02": "本句的「time」指「當時／那時候」。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-02"
     },
@@ -533,11 +562,9 @@ export default {
       "masked": "I was living in London at the ____.",
       "options": [
         "time-mcq-02",
-        "time-mcq-01",
-        "time-mcq-03",
-        "time-mcq-04",
-        "time-mcq-05",
-        "time-mcq-06"
+        "time-mcq-22",
+        "time-mcq-14",
+        "time-mcq-15"
       ],
       "explanation": "本句的「time」指「當時／那時候」。",
       "sentenceIndex": 1,
@@ -546,12 +573,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-02": "本句指「當時／那時候」。",
-        "time-mcq-01": "「繁體中文」是「Meaning」的用法，與本句語境不同。",
-        "time-mcq-03": "「幾點」是「what time? clock time」的用法，與本句語境不同。",
-        "time-mcq-04": "「很長時間」是「a long time duration」的用法，與本句語境不同。",
-        "time-mcq-05": "「有時間」是「have time available time」的用法，與本句語境不同。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。"
+        "time-mcq-02": "本句的「time」指「當時／那時候」。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-02"
     },
@@ -563,11 +588,9 @@ export default {
       "masked": "It was a difficult ____ for the company.",
       "options": [
         "time-mcq-02",
-        "time-mcq-01",
-        "time-mcq-03",
-        "time-mcq-04",
-        "time-mcq-05",
-        "time-mcq-06"
+        "time-mcq-15",
+        "time-mcq-22",
+        "time-mcq-14"
       ],
       "explanation": "本句的「time」指「當時／那時候」。",
       "sentenceIndex": 2,
@@ -576,12 +599,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-02": "本句指「當時／那時候」。",
-        "time-mcq-01": "「繁體中文」是「Meaning」的用法，與本句語境不同。",
-        "time-mcq-03": "「幾點」是「what time? clock time」的用法，與本句語境不同。",
-        "time-mcq-04": "「很長時間」是「a long time duration」的用法，與本句語境不同。",
-        "time-mcq-05": "「有時間」是「have time available time」的用法，與本句語境不同。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。"
+        "time-mcq-02": "本句的「time」指「當時／那時候」。",
+        "time-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-02"
     },
@@ -593,11 +614,9 @@ export default {
       "masked": "What ____ is the meeting?",
       "options": [
         "time-mcq-03",
-        "time-mcq-02",
-        "time-mcq-04",
-        "time-mcq-01",
-        "time-mcq-05",
-        "time-mcq-06"
+        "time-mcq-13",
+        "time-mcq-17",
+        "time-mcq-16"
       ],
       "explanation": "本句的「time」指「幾點」。",
       "sentenceIndex": 3,
@@ -606,12 +625,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-03": "本句指「幾點」。",
-        "time-mcq-02": "「當時／那時候」是「at that time particular point/period」的用法，與本句語境不同。",
-        "time-mcq-04": "「很長時間」是「a long time duration」的用法，與本句語境不同。",
-        "time-mcq-01": "「繁體中文」是「Meaning」的用法，與本句語境不同。",
-        "time-mcq-05": "「有時間」是「have time available time」的用法，與本句語境不同。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。"
+        "time-mcq-03": "本句的「time」指「幾點」。",
+        "time-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-03"
     },
@@ -623,11 +640,9 @@ export default {
       "masked": "Can you tell me the ____?",
       "options": [
         "time-mcq-03",
-        "time-mcq-02",
-        "time-mcq-04",
-        "time-mcq-01",
-        "time-mcq-05",
-        "time-mcq-06"
+        "time-mcq-15",
+        "time-mcq-12",
+        "time-mcq-22"
       ],
       "explanation": "本句的「time」指「幾點」。",
       "sentenceIndex": 4,
@@ -636,12 +651,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-03": "本句指「幾點」。",
-        "time-mcq-02": "「當時／那時候」是「at that time particular point/period」的用法，與本句語境不同。",
-        "time-mcq-04": "「很長時間」是「a long time duration」的用法，與本句語境不同。",
-        "time-mcq-01": "「繁體中文」是「Meaning」的用法，與本句語境不同。",
-        "time-mcq-05": "「有時間」是「have time available time」的用法，與本句語境不同。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。"
+        "time-mcq-03": "本句的「time」指「幾點」。",
+        "time-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-03"
     },
@@ -653,11 +666,9 @@ export default {
       "masked": "The journey takes a long ____.",
       "options": [
         "time-mcq-04",
+        "time-mcq-16",
         "time-mcq-03",
-        "time-mcq-05",
-        "time-mcq-02",
-        "time-mcq-06",
-        "time-mcq-01"
+        "time-mcq-22"
       ],
       "explanation": "本句的「time」指「很長時間」。",
       "sentenceIndex": 5,
@@ -666,12 +677,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-04": "本句指「很長時間」。",
-        "time-mcq-03": "「幾點」是「what time? clock time」的用法，與本句語境不同。",
-        "time-mcq-05": "「有時間」是「have time available time」的用法，與本句語境不同。",
-        "time-mcq-02": "「當時／那時候」是「at that time particular point/period」的用法，與本句語境不同。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。",
-        "time-mcq-01": "「繁體中文」是「Meaning」的用法，與本句語境不同。"
+        "time-mcq-04": "本句的「time」指「很長時間」。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-04"
     },
@@ -684,10 +693,8 @@ export default {
       "options": [
         "time-mcq-04",
         "time-mcq-03",
-        "time-mcq-05",
-        "time-mcq-02",
-        "time-mcq-06",
-        "time-mcq-01"
+        "time-mcq-14",
+        "time-mcq-22"
       ],
       "explanation": "本句的「time」指「很長時間」。",
       "sentenceIndex": 6,
@@ -696,12 +703,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-04": "本句指「很長時間」。",
-        "time-mcq-03": "「幾點」是「what time? clock time」的用法，與本句語境不同。",
-        "time-mcq-05": "「有時間」是「have time available time」的用法，與本句語境不同。",
-        "time-mcq-02": "「當時／那時候」是「at that time particular point/period」的用法，與本句語境不同。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。",
-        "time-mcq-01": "「繁體中文」是「Meaning」的用法，與本句語境不同。"
+        "time-mcq-04": "本句的「time」指「很長時間」。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-04"
     },
@@ -713,11 +718,9 @@ export default {
       "masked": "I don’t have ____ to cook tonight.",
       "options": [
         "time-mcq-05",
-        "time-mcq-04",
-        "time-mcq-06",
-        "time-mcq-03",
-        "time-mcq-07",
-        "time-mcq-02"
+        "time-mcq-13",
+        "time-mcq-16",
+        "time-mcq-22"
       ],
       "explanation": "本句的「time」指「有時間」。",
       "sentenceIndex": 7,
@@ -726,12 +729,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-05": "本句指「有時間」。",
-        "time-mcq-04": "「很長時間」是「a long time duration」的用法，與本句語境不同。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。",
-        "time-mcq-03": "「幾點」是「what time? clock time」的用法，與本句語境不同。",
-        "time-mcq-07": "「度過愉快時光」是「have a good time experience」的用法，與本句語境不同。",
-        "time-mcq-02": "「當時／那時候」是「at that time particular point/period」的用法，與本句語境不同。"
+        "time-mcq-05": "本句的「time」指「有時間」。",
+        "time-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-05"
     },
@@ -743,11 +744,9 @@ export default {
       "masked": "Do you have ____ to talk?",
       "options": [
         "time-mcq-05",
-        "time-mcq-04",
-        "time-mcq-06",
-        "time-mcq-03",
-        "time-mcq-07",
-        "time-mcq-02"
+        "time-mcq-15",
+        "time-mcq-13",
+        "time-mcq-22"
       ],
       "explanation": "本句的「time」指「有時間」。",
       "sentenceIndex": 8,
@@ -756,12 +755,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-05": "本句指「有時間」。",
-        "time-mcq-04": "「很長時間」是「a long time duration」的用法，與本句語境不同。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。",
-        "time-mcq-03": "「幾點」是「what time? clock time」的用法，與本句語境不同。",
-        "time-mcq-07": "「度過愉快時光」是「have a good time experience」的用法，與本句語境不同。",
-        "time-mcq-02": "「當時／那時候」是「at that time particular point/period」的用法，與本句語境不同。"
+        "time-mcq-05": "本句的「time」指「有時間」。",
+        "time-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-05"
     },
@@ -773,11 +770,9 @@ export default {
       "masked": "This is my first ____ visiting Japan.",
       "options": [
         "time-mcq-06",
-        "time-mcq-05",
-        "time-mcq-07",
-        "time-mcq-04",
         "time-mcq-08",
-        "time-mcq-03"
+        "time-mcq-22",
+        "time-mcq-16"
       ],
       "explanation": "本句的「time」指「三次」。",
       "sentenceIndex": 9,
@@ -786,12 +781,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-06": "本句指「三次」。",
-        "time-mcq-05": "「有時間」是「have time available time」的用法，與本句語境不同。",
-        "time-mcq-07": "「度過愉快時光」是「have a good time experience」的用法，與本句語境不同。",
-        "time-mcq-04": "「很長時間」是「a long time duration」的用法，與本句語境不同。",
-        "time-mcq-08": "「羅馬時代」是「Roman times historical period」的用法，與本句語境不同。",
-        "time-mcq-03": "「幾點」是「what time? clock time」的用法，與本句語境不同。"
+        "time-mcq-06": "本句的「time」指「三次」。",
+        "time-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-06"
     },
@@ -803,11 +796,9 @@ export default {
       "masked": "I’ve called him three ____ today.",
       "options": [
         "time-mcq-06",
-        "time-mcq-05",
         "time-mcq-07",
-        "time-mcq-04",
-        "time-mcq-08",
-        "time-mcq-03"
+        "time-mcq-22",
+        "time-mcq-16"
       ],
       "explanation": "本句的「times」指「三次」。",
       "sentenceIndex": 10,
@@ -816,12 +807,10 @@ export default {
         "times"
       ],
       "optionReasons": {
-        "time-mcq-06": "本句指「三次」。",
-        "time-mcq-05": "「有時間」是「have time available time」的用法，與本句語境不同。",
-        "time-mcq-07": "「度過愉快時光」是「have a good time experience」的用法，與本句語境不同。",
-        "time-mcq-04": "「很長時間」是「a long time duration」的用法，與本句語境不同。",
-        "time-mcq-08": "「羅馬時代」是「Roman times historical period」的用法，與本句語境不同。",
-        "time-mcq-03": "「幾點」是「what time? clock time」的用法，與本句語境不同。"
+        "time-mcq-06": "本句的「times」指「三次」。",
+        "time-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-06"
     },
@@ -833,11 +822,9 @@ export default {
       "masked": "We had a great ____ at the party.",
       "options": [
         "time-mcq-07",
+        "time-mcq-15",
         "time-mcq-06",
-        "time-mcq-08",
-        "time-mcq-05",
-        "time-mcq-09",
-        "time-mcq-04"
+        "time-mcq-03"
       ],
       "explanation": "本句的「time」指「度過愉快時光」。",
       "sentenceIndex": 11,
@@ -846,12 +833,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-07": "本句指「度過愉快時光」。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。",
-        "time-mcq-08": "「羅馬時代」是「Roman times historical period」的用法，與本句語境不同。",
-        "time-mcq-05": "「有時間」是「have time available time」的用法，與本句語境不同。",
-        "time-mcq-09": "「好時機」是「a good time to… suitable moment」的用法，與本句語境不同。",
-        "time-mcq-04": "「很長時間」是「a long time duration」的用法，與本句語境不同。"
+        "time-mcq-07": "本句的「time」指「度過愉快時光」。",
+        "time-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-07"
     },
@@ -864,10 +849,8 @@ export default {
       "options": [
         "time-mcq-07",
         "time-mcq-06",
-        "time-mcq-08",
-        "time-mcq-05",
-        "time-mcq-09",
-        "time-mcq-04"
+        "time-mcq-16",
+        "time-mcq-22"
       ],
       "explanation": "本句的「time」指「度過愉快時光」。",
       "sentenceIndex": 12,
@@ -876,12 +859,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-07": "本句指「度過愉快時光」。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。",
-        "time-mcq-08": "「羅馬時代」是「Roman times historical period」的用法，與本句語境不同。",
-        "time-mcq-05": "「有時間」是「have time available time」的用法，與本句語境不同。",
-        "time-mcq-09": "「好時機」是「a good time to… suitable moment」的用法，與本句語境不同。",
-        "time-mcq-04": "「很長時間」是「a long time duration」的用法，與本句語境不同。"
+        "time-mcq-07": "本句的「time」指「度過愉快時光」。",
+        "time-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-07"
     },
@@ -893,11 +874,9 @@ export default {
       "masked": "Life was very different in Roman ____.",
       "options": [
         "time-mcq-08",
-        "time-mcq-07",
-        "time-mcq-09",
         "time-mcq-06",
-        "time-mcq-10",
-        "time-mcq-05"
+        "time-mcq-16",
+        "time-mcq-22"
       ],
       "explanation": "本句的「times」指「羅馬時代」。",
       "sentenceIndex": 13,
@@ -906,12 +885,10 @@ export default {
         "times"
       ],
       "optionReasons": {
-        "time-mcq-08": "本句指「羅馬時代」。",
-        "time-mcq-07": "「度過愉快時光」是「have a good time experience」的用法，與本句語境不同。",
-        "time-mcq-09": "「好時機」是「a good time to… suitable moment」的用法，與本句語境不同。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。",
-        "time-mcq-10": "「活動／事情）」是「time for + activity/event（」的用法，與本句語境不同。",
-        "time-mcq-05": "「有時間」是「have time available time」的用法，與本句語境不同。"
+        "time-mcq-08": "本句的「times」指「羅馬時代」。",
+        "time-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-08"
     },
@@ -923,11 +900,9 @@ export default {
       "masked": "Technology has changed greatly since that ____.",
       "options": [
         "time-mcq-08",
-        "time-mcq-07",
-        "time-mcq-09",
-        "time-mcq-06",
-        "time-mcq-10",
-        "time-mcq-05"
+        "time-mcq-14",
+        "time-mcq-15",
+        "time-mcq-22"
       ],
       "explanation": "本句的「time」指「羅馬時代」。",
       "sentenceIndex": 14,
@@ -936,12 +911,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-08": "本句指「羅馬時代」。",
-        "time-mcq-07": "「度過愉快時光」是「have a good time experience」的用法，與本句語境不同。",
-        "time-mcq-09": "「好時機」是「a good time to… suitable moment」的用法，與本句語境不同。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。",
-        "time-mcq-10": "「活動／事情）」是「time for + activity/event（」的用法，與本句語境不同。",
-        "time-mcq-05": "「有時間」是「have time available time」的用法，與本句語境不同。"
+        "time-mcq-08": "本句的「time」指「羅馬時代」。",
+        "time-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-08"
     },
@@ -953,11 +926,9 @@ export default {
       "masked": "Now is a good ____ to ask questions.",
       "options": [
         "time-mcq-09",
-        "time-mcq-08",
-        "time-mcq-10",
-        "time-mcq-07",
-        "time-mcq-11",
-        "time-mcq-06"
+        "time-mcq-13",
+        "time-mcq-03",
+        "time-mcq-16"
       ],
       "explanation": "本句的「time」指「好時機」。",
       "sentenceIndex": 15,
@@ -966,12 +937,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-09": "本句指「好時機」。",
-        "time-mcq-08": "「羅馬時代」是「Roman times historical period」的用法，與本句語境不同。",
-        "time-mcq-10": "「活動／事情）」是「time for + activity/event（」的用法，與本句語境不同。",
-        "time-mcq-07": "「度過愉快時光」是「have a good time experience」的用法，與本句語境不同。",
-        "time-mcq-11": "「的時間」是「intended period ……」的用法，與本句語境不同。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。"
+        "time-mcq-09": "本句的「time」指「好時機」。",
+        "time-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-09"
     },
@@ -983,11 +952,9 @@ export default {
       "masked": "It’s ____ to leave.",
       "options": [
         "time-mcq-09",
-        "time-mcq-08",
-        "time-mcq-10",
-        "time-mcq-07",
-        "time-mcq-11",
-        "time-mcq-06"
+        "time-mcq-16",
+        "time-mcq-03",
+        "time-mcq-13"
       ],
       "explanation": "本句的「time」指「好時機」。",
       "sentenceIndex": 16,
@@ -996,74 +963,68 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-09": "本句指「好時機」。",
-        "time-mcq-08": "「羅馬時代」是「Roman times historical period」的用法，與本句語境不同。",
-        "time-mcq-10": "「活動／事情）」是「time for + activity/event（」的用法，與本句語境不同。",
-        "time-mcq-07": "「度過愉快時光」是「have a good time experience」的用法，與本句語境不同。",
-        "time-mcq-11": "「的時間」是「intended period ……」的用法，與本句語境不同。",
-        "time-mcq-06": "「三次」是「three times occasions」的用法，與本句語境不同。"
+        "time-mcq-09": "本句的「time」指「好時機」。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-09"
     },
     {
       "id": "time-09-0",
-      "sense": "time-mcq-10",
+      "sense": "time-reviewed-c22543681d",
       "en": "It’s time for lunch.",
       "zh": "到吃午飯的時間了。",
       "masked": "It’s ____ for lunch.",
       "options": [
-        "time-mcq-10",
-        "time-mcq-09",
-        "time-mcq-11",
-        "time-mcq-08",
-        "time-mcq-12",
-        "time-mcq-07"
+        "time-reviewed-c22543681d",
+        "time-mcq-06",
+        "time-mcq-15",
+        "time-mcq-16"
       ],
-      "explanation": "本句的「time」指「活動／事情）」。",
+      "explanation": "對照完整句子：「到吃午飯的時間了。」。這裡的「time」表示「……的時間」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "time"
       ],
       "optionReasons": {
-        "time-mcq-10": "本句指「活動／事情）」。",
-        "time-mcq-09": "「好時機」是「a good time to… suitable moment」的用法，與本句語境不同。",
-        "time-mcq-11": "「的時間」是「intended period ……」的用法，與本句語境不同。",
-        "time-mcq-08": "「羅馬時代」是「Roman times historical period」的用法，與本句語境不同。",
-        "time-mcq-12": "「時限到了」是「time is up allowed period ends」的用法，與本句語境不同。",
-        "time-mcq-07": "「度過愉快時光」是「have a good time experience」的用法，與本句語境不同。"
+        "time-reviewed-c22543681d": "對照完整句子：「到吃午飯的時間了。」。這裡的「time」表示「……的時間」。",
+        "time-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "time-mcq-10"
+      "correctOption": "time-reviewed-c22543681d",
+      "previousCorrectOption": "time-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "time-09-1",
-      "sense": "time-mcq-10",
+      "sense": "time-reviewed-c22543681d",
       "en": "We still have time for one more question.",
       "zh": "我們還有時間再問一個問題。",
       "masked": "We still have ____ for one more question.",
       "options": [
-        "time-mcq-10",
-        "time-mcq-09",
-        "time-mcq-11",
-        "time-mcq-08",
-        "time-mcq-12",
-        "time-mcq-07"
+        "time-reviewed-c22543681d",
+        "time-mcq-15",
+        "time-mcq-03",
+        "time-mcq-16"
       ],
-      "explanation": "本句的「time」指「活動／事情）」。",
+      "explanation": "對照完整句子：「我們還有時間再問一個問題。」。這裡的「time」表示「……的時間」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "time"
       ],
       "optionReasons": {
-        "time-mcq-10": "本句指「活動／事情）」。",
-        "time-mcq-09": "「好時機」是「a good time to… suitable moment」的用法，與本句語境不同。",
-        "time-mcq-11": "「的時間」是「intended period ……」的用法，與本句語境不同。",
-        "time-mcq-08": "「羅馬時代」是「Roman times historical period」的用法，與本句語境不同。",
-        "time-mcq-12": "「時限到了」是「time is up allowed period ends」的用法，與本句語境不同。",
-        "time-mcq-07": "「度過愉快時光」是「have a good time experience」的用法，與本句語境不同。"
+        "time-reviewed-c22543681d": "對照完整句子：「我們還有時間再問一個問題。」。這裡的「time」表示「……的時間」。",
+        "time-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "time-mcq-10"
+      "correctOption": "time-reviewed-c22543681d",
+      "previousCorrectOption": "time-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "time-10-0",
@@ -1073,11 +1034,9 @@ export default {
       "masked": "Your ____ is almost up.",
       "options": [
         "time-mcq-12",
-        "time-mcq-11",
+        "time-mcq-22",
         "time-mcq-13",
-        "time-mcq-10",
-        "time-mcq-14",
-        "time-mcq-09"
+        "time-mcq-16"
       ],
       "explanation": "本句的「time」指「時限到了」。",
       "sentenceIndex": 19,
@@ -1086,12 +1045,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-12": "本句指「時限到了」。",
-        "time-mcq-11": "「的時間」是「intended period ……」的用法，與本句語境不同。",
-        "time-mcq-13": "「大三倍」是「three times bigger multiple」的用法，與本句語境不同。",
-        "time-mcq-10": "「活動／事情）」是「time for + activity/event（」的用法，與本句語境不同。",
-        "time-mcq-14": "「三乘四」是「three times four multiplication」的用法，與本句語境不同。",
-        "time-mcq-09": "「好時機」是「a good time to… suitable moment」的用法，與本句語境不同。"
+        "time-mcq-12": "本句的「time」指「時限到了」。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-12"
     },
@@ -1103,11 +1060,9 @@ export default {
       "masked": "The students were given two hours’ ____ to complete the test.",
       "options": [
         "time-mcq-12",
-        "time-mcq-11",
-        "time-mcq-13",
-        "time-mcq-10",
-        "time-mcq-14",
-        "time-mcq-09"
+        "time-mcq-15",
+        "time-mcq-16",
+        "time-mcq-06"
       ],
       "explanation": "本句的「time」指「時限到了」。",
       "sentenceIndex": 20,
@@ -1116,12 +1071,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-12": "本句指「時限到了」。",
-        "time-mcq-11": "「的時間」是「intended period ……」的用法，與本句語境不同。",
-        "time-mcq-13": "「大三倍」是「three times bigger multiple」的用法，與本句語境不同。",
-        "time-mcq-10": "「活動／事情）」是「time for + activity/event（」的用法，與本句語境不同。",
-        "time-mcq-14": "「三乘四」是「three times four multiplication」的用法，與本句語境不同。",
-        "time-mcq-09": "「好時機」是「a good time to… suitable moment」的用法，與本句語境不同。"
+        "time-mcq-12": "本句的「time」指「時限到了」。",
+        "time-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-12"
     },
@@ -1133,11 +1086,9 @@ export default {
       "masked": "This room is three ____ larger than the old one.",
       "options": [
         "time-mcq-13",
-        "time-mcq-12",
-        "time-mcq-14",
-        "time-mcq-11",
-        "time-mcq-15",
-        "time-mcq-10"
+        "time-mcq-22",
+        "time-mcq-23",
+        "time-mcq-16"
       ],
       "explanation": "本句的「times」指「大三倍」。",
       "sentenceIndex": 21,
@@ -1146,12 +1097,10 @@ export default {
         "times"
       ],
       "optionReasons": {
-        "time-mcq-13": "本句指「大三倍」。",
-        "time-mcq-12": "「時限到了」是「time is up allowed period ends」的用法，與本句語境不同。",
-        "time-mcq-14": "「三乘四」是「three times four multiplication」的用法，與本句語境不同。",
-        "time-mcq-11": "「的時間」是「intended period ……」的用法，與本句語境不同。",
-        "time-mcq-15": "「節拍」是「musical time rhythm」的用法，與本句語境不同。",
-        "time-mcq-10": "「活動／事情）」是「time for + activity/event（」的用法，與本句語境不同。"
+        "time-mcq-13": "本句的「times」指「大三倍」。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-13"
     },
@@ -1163,11 +1112,9 @@ export default {
       "masked": "The new computer is two ____ faster.",
       "options": [
         "time-mcq-13",
-        "time-mcq-12",
-        "time-mcq-14",
-        "time-mcq-11",
-        "time-mcq-15",
-        "time-mcq-10"
+        "time-mcq-23",
+        "time-mcq-22",
+        "time-mcq-03"
       ],
       "explanation": "本句的「times」指「大三倍」。",
       "sentenceIndex": 22,
@@ -1176,12 +1123,10 @@ export default {
         "times"
       ],
       "optionReasons": {
-        "time-mcq-13": "本句指「大三倍」。",
-        "time-mcq-12": "「時限到了」是「time is up allowed period ends」的用法，與本句語境不同。",
-        "time-mcq-14": "「三乘四」是「three times four multiplication」的用法，與本句語境不同。",
-        "time-mcq-11": "「的時間」是「intended period ……」的用法，與本句語境不同。",
-        "time-mcq-15": "「節拍」是「musical time rhythm」的用法，與本句語境不同。",
-        "time-mcq-10": "「活動／事情）」是「time for + activity/event（」的用法，與本句語境不同。"
+        "time-mcq-13": "本句的「times」指「大三倍」。",
+        "time-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-13"
     },
@@ -1193,11 +1138,9 @@ export default {
       "masked": "Three ____ four is twelve.",
       "options": [
         "time-mcq-14",
-        "time-mcq-13",
-        "time-mcq-15",
-        "time-mcq-12",
-        "time-mcq-16",
-        "time-mcq-11"
+        "time-mcq-17",
+        "time-mcq-22",
+        "time-mcq-07"
       ],
       "explanation": "本句的「times」指「三乘四」。",
       "sentenceIndex": 23,
@@ -1206,12 +1149,10 @@ export default {
         "times"
       ],
       "optionReasons": {
-        "time-mcq-14": "本句指「三乘四」。",
-        "time-mcq-13": "「大三倍」是「three times bigger multiple」的用法，與本句語境不同。",
-        "time-mcq-15": "「節拍」是「musical time rhythm」的用法，與本句語境不同。",
-        "time-mcq-12": "「時限到了」是「time is up allowed period ends」的用法，與本句語境不同。",
-        "time-mcq-16": "「人生階段」是「a time in your life life stage」的用法，與本句語境不同。",
-        "time-mcq-11": "「的時間」是「intended period ……」的用法，與本句語境不同。"
+        "time-mcq-14": "本句的「times」指「三乘四」。",
+        "time-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-14"
     },
@@ -1223,11 +1164,9 @@ export default {
       "masked": "Five ____ six equals thirty.",
       "options": [
         "time-mcq-14",
-        "time-mcq-13",
-        "time-mcq-15",
-        "time-mcq-12",
-        "time-mcq-16",
-        "time-mcq-11"
+        "time-mcq-07",
+        "time-mcq-03",
+        "time-mcq-15"
       ],
       "explanation": "本句的「times」指「三乘四」。",
       "sentenceIndex": 24,
@@ -1236,12 +1175,10 @@ export default {
         "times"
       ],
       "optionReasons": {
-        "time-mcq-14": "本句指「三乘四」。",
-        "time-mcq-13": "「大三倍」是「three times bigger multiple」的用法，與本句語境不同。",
-        "time-mcq-15": "「節拍」是「musical time rhythm」的用法，與本句語境不同。",
-        "time-mcq-12": "「時限到了」是「time is up allowed period ends」的用法，與本句語境不同。",
-        "time-mcq-16": "「人生階段」是「a time in your life life stage」的用法，與本句語境不同。",
-        "time-mcq-11": "「的時間」是「intended period ……」的用法，與本句語境不同。"
+        "time-mcq-14": "本句的「times」指「三乘四」。",
+        "time-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-14"
     },
@@ -1253,11 +1190,9 @@ export default {
       "masked": "The dancers moved in ____ with the music.",
       "options": [
         "time-mcq-15",
-        "time-mcq-14",
-        "time-mcq-16",
-        "time-mcq-13",
-        "time-mcq-17",
-        "time-mcq-12"
+        "time-mcq-05",
+        "time-mcq-22",
+        "time-mcq-13"
       ],
       "explanation": "本句的「time」指「節拍」。",
       "sentenceIndex": 25,
@@ -1266,12 +1201,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-15": "本句指「節拍」。",
-        "time-mcq-14": "「三乘四」是「three times four multiplication」的用法，與本句語境不同。",
-        "time-mcq-16": "「人生階段」是「a time in your life life stage」的用法，與本句語境不同。",
-        "time-mcq-13": "「大三倍」是「three times bigger multiple」的用法，與本句語境不同。",
-        "time-mcq-17": "「聖誕時節」是「Christmas time recurring period」的用法，與本句語境不同。",
-        "time-mcq-12": "「時限到了」是「time is up allowed period ends」的用法，與本句語境不同。"
+        "time-mcq-15": "本句的「time」指「節拍」。",
+        "time-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-15"
     },
@@ -1283,11 +1216,9 @@ export default {
       "masked": "The drummer kept perfect ____.",
       "options": [
         "time-mcq-15",
-        "time-mcq-14",
-        "time-mcq-16",
+        "time-reviewed-b676f87208",
         "time-mcq-13",
-        "time-mcq-17",
-        "time-mcq-12"
+        "time-mcq-22"
       ],
       "explanation": "本句的「time」指「節拍」。",
       "sentenceIndex": 26,
@@ -1296,12 +1227,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-15": "本句指「節拍」。",
-        "time-mcq-14": "「三乘四」是「three times four multiplication」的用法，與本句語境不同。",
-        "time-mcq-16": "「人生階段」是「a time in your life life stage」的用法，與本句語境不同。",
-        "time-mcq-13": "「大三倍」是「three times bigger multiple」的用法，與本句語境不同。",
-        "time-mcq-17": "「聖誕時節」是「Christmas time recurring period」的用法，與本句語境不同。",
-        "time-mcq-12": "「時限到了」是「time is up allowed period ends」的用法，與本句語境不同。"
+        "time-mcq-15": "本句的「time」指「節拍」。",
+        "time-reviewed-b676f87208": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-15"
     },
@@ -1313,11 +1242,9 @@ export default {
       "masked": "University was an important ____ in my life.",
       "options": [
         "time-mcq-16",
-        "time-mcq-15",
-        "time-mcq-17",
-        "time-mcq-14",
-        "time-mcq-18",
-        "time-mcq-13"
+        "time-mcq-06",
+        "time-mcq-02",
+        "time-mcq-03"
       ],
       "explanation": "本句的「time」指「人生階段」。",
       "sentenceIndex": 27,
@@ -1326,12 +1253,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-16": "本句指「人生階段」。",
-        "time-mcq-15": "「節拍」是「musical time rhythm」的用法，與本句語境不同。",
-        "time-mcq-17": "「聖誕時節」是「Christmas time recurring period」的用法，與本句語境不同。",
-        "time-mcq-14": "「三乘四」是「three times four multiplication」的用法，與本句語境不同。",
-        "time-mcq-18": "「動作／活動）」是「time + action/event（」的用法，與本句語境不同。",
-        "time-mcq-13": "「大三倍」是「three times bigger multiple」的用法，與本句語境不同。"
+        "time-mcq-16": "本句的「time」指「人生階段」。",
+        "time-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-16"
     },
@@ -1343,11 +1268,9 @@ export default {
       "masked": "She went through a difficult ____ as a teenager.",
       "options": [
         "time-mcq-16",
-        "time-mcq-15",
-        "time-mcq-17",
-        "time-mcq-14",
-        "time-mcq-18",
-        "time-mcq-13"
+        "time-mcq-04",
+        "time-mcq-22",
+        "time-mcq-06"
       ],
       "explanation": "本句的「time」指「人生階段」。",
       "sentenceIndex": 28,
@@ -1356,12 +1279,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-16": "本句指「人生階段」。",
-        "time-mcq-15": "「節拍」是「musical time rhythm」的用法，與本句語境不同。",
-        "time-mcq-17": "「聖誕時節」是「Christmas time recurring period」的用法，與本句語境不同。",
-        "time-mcq-14": "「三乘四」是「three times four multiplication」的用法，與本句語境不同。",
-        "time-mcq-18": "「動作／活動）」是「time + action/event（」的用法，與本句語境不同。",
-        "time-mcq-13": "「大三倍」是「three times bigger multiple」的用法，與本句語境不同。"
+        "time-mcq-16": "本句的「time」指「人生階段」。",
+        "time-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-16"
     },
@@ -1373,11 +1294,9 @@ export default {
       "masked": "Christmas is a busy ____ for retailers.",
       "options": [
         "time-mcq-17",
-        "time-mcq-16",
-        "time-mcq-18",
-        "time-mcq-15",
-        "time-mcq-19",
-        "time-mcq-14"
+        "time-mcq-14",
+        "time-mcq-03",
+        "time-mcq-16"
       ],
       "explanation": "本句的「time」指「聖誕時節」。",
       "sentenceIndex": 29,
@@ -1386,12 +1305,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-17": "本句指「聖誕時節」。",
-        "time-mcq-16": "「人生階段」是「a time in your life life stage」的用法，與本句語境不同。",
-        "time-mcq-18": "「動作／活動）」是「time + action/event（」的用法，與本句語境不同。",
-        "time-mcq-15": "「節拍」是「musical time rhythm」的用法，與本句語境不同。",
-        "time-mcq-19": "「計時」是「measure duration」的用法，與本句語境不同。",
-        "time-mcq-14": "「三乘四」是「three times four multiplication」的用法，與本句語境不同。"
+        "time-mcq-17": "本句的「time」指「聖誕時節」。",
+        "time-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-17"
     },
@@ -1403,11 +1320,9 @@ export default {
       "masked": "Spring is the best ____ to visit the garden.",
       "options": [
         "time-mcq-17",
+        "time-mcq-06",
         "time-mcq-16",
-        "time-mcq-18",
-        "time-mcq-15",
-        "time-mcq-19",
-        "time-mcq-14"
+        "time-mcq-03"
       ],
       "explanation": "本句的「time」指「聖誕時節」。",
       "sentenceIndex": 30,
@@ -1416,134 +1331,124 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-17": "本句指「聖誕時節」。",
-        "time-mcq-16": "「人生階段」是「a time in your life life stage」的用法，與本句語境不同。",
-        "time-mcq-18": "「動作／活動）」是「time + action/event（」的用法，與本句語境不同。",
-        "time-mcq-15": "「節拍」是「musical time rhythm」的用法，與本句語境不同。",
-        "time-mcq-19": "「計時」是「measure duration」的用法，與本句語境不同。",
-        "time-mcq-14": "「三乘四」是「three times four multiplication」的用法，與本句語境不同。"
+        "time-mcq-17": "本句的「time」指「聖誕時節」。",
+        "time-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-17"
     },
     {
       "id": "time-16-0",
-      "sense": "time-mcq-18",
+      "sense": "time-reviewed-c4702d9c8b",
       "en": "The coach timed each runner.",
       "zh": "教練為每名跑手計時。",
       "masked": "The coach ____ each runner.",
       "options": [
-        "time-mcq-18",
-        "time-mcq-17",
-        "time-mcq-19",
+        "time-reviewed-c4702d9c8b",
+        "time-mcq-03",
         "time-mcq-16",
-        "time-mcq-20",
-        "time-mcq-15"
+        "time-mcq-14"
       ],
-      "explanation": "本句的「timed」指「動作／活動）」。",
+      "explanation": "對照完整句子：「教練為每名跑手計時。」。這裡的「timed」表示「計時」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "timed"
       ],
       "optionReasons": {
-        "time-mcq-18": "本句指「動作／活動）」。",
-        "time-mcq-17": "「聖誕時節」是「Christmas time recurring period」的用法，與本句語境不同。",
-        "time-mcq-19": "「計時」是「measure duration」的用法，與本句語境不同。",
-        "time-mcq-16": "「人生階段」是「a time in your life life stage」的用法，與本句語境不同。",
-        "time-mcq-20": "「事件／行動）」是「time + action/event（」的用法，與本句語境不同。",
-        "time-mcq-15": "「節拍」是「musical time rhythm」的用法，與本句語境不同。"
+        "time-reviewed-c4702d9c8b": "對照完整句子：「教練為每名跑手計時。」。這裡的「timed」表示「計時」。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "time-mcq-18"
+      "correctOption": "time-reviewed-c4702d9c8b",
+      "previousCorrectOption": "time-mcq-18",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "time-16-1",
-      "sense": "time-mcq-18",
+      "sense": "time-reviewed-c4702d9c8b",
       "en": "I timed the journey, and it took 35 minutes.",
       "zh": "我為這段路程計時，結果用了 35 分鐘。",
       "masked": "I ____ the journey, and it took 35 minutes.",
       "options": [
-        "time-mcq-18",
-        "time-mcq-17",
-        "time-mcq-19",
+        "time-reviewed-c4702d9c8b",
         "time-mcq-16",
-        "time-mcq-20",
-        "time-mcq-15"
+        "time-mcq-03",
+        "time-mcq-06"
       ],
-      "explanation": "本句的「timed」指「動作／活動）」。",
+      "explanation": "對照完整句子：「我為這段路程計時，結果用了 35 分鐘。」。這裡的「timed」表示「計時」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "timed"
       ],
       "optionReasons": {
-        "time-mcq-18": "本句指「動作／活動）」。",
-        "time-mcq-17": "「聖誕時節」是「Christmas time recurring period」的用法，與本句語境不同。",
-        "time-mcq-19": "「計時」是「measure duration」的用法，與本句語境不同。",
-        "time-mcq-16": "「人生階段」是「a time in your life life stage」的用法，與本句語境不同。",
-        "time-mcq-20": "「事件／行動）」是「time + action/event（」的用法，與本句語境不同。",
-        "time-mcq-15": "「節拍」是「musical time rhythm」的用法，與本句語境不同。"
+        "time-reviewed-c4702d9c8b": "對照完整句子：「我為這段路程計時，結果用了 35 分鐘。」。這裡的「timed」表示「計時」。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "time-mcq-18"
+      "correctOption": "time-reviewed-c4702d9c8b",
+      "previousCorrectOption": "time-mcq-18",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "time-17-0",
-      "sense": "time-mcq-20",
+      "sense": "time-reviewed-b676f87208",
       "en": "They timed the announcement carefully.",
       "zh": "他們仔細選定了公布消息的時機。",
       "masked": "They ____ the announcement carefully.",
       "options": [
-        "time-mcq-20",
-        "time-mcq-19",
-        "time-mcq-21",
-        "time-mcq-18",
-        "time-mcq-22",
-        "time-mcq-17"
+        "time-reviewed-b676f87208",
+        "time-mcq-03",
+        "time-mcq-06",
+        "time-mcq-22"
       ],
-      "explanation": "本句的「timed」指「事件／行動）」。",
+      "explanation": "對照完整句子：「他們仔細選定了公布消息的時機。」。這裡的「timed」表示「安排時間；選定時機」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "targets": [
         "timed"
       ],
       "optionReasons": {
-        "time-mcq-20": "本句指「事件／行動）」。",
-        "time-mcq-19": "「計時」是「measure duration」的用法，與本句語境不同。",
-        "time-mcq-21": "「安排時間／選定時機」是「schedule carefully」的用法，與本句語境不同。",
-        "time-mcq-18": "「動作／活動）」是「time + action/event（」的用法，與本句語境不同。",
-        "time-mcq-22": "「刑期」是「prison time imprisonment」的用法，與本句語境不同。",
-        "time-mcq-17": "「聖誕時節」是「Christmas time recurring period」的用法，與本句語境不同。"
+        "time-reviewed-b676f87208": "對照完整句子：「他們仔細選定了公布消息的時機。」。這裡的「timed」表示「安排時間；選定時機」。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "time-mcq-20"
+      "correctOption": "time-reviewed-b676f87208",
+      "previousCorrectOption": "time-mcq-20",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "time-17-1",
-      "sense": "time-mcq-20",
+      "sense": "time-reviewed-b676f87208",
       "en": "The launch was timed for the holiday season.",
       "zh": "產品發布被安排在假期期間。",
       "masked": "The launch was ____ for the holiday season.",
       "options": [
-        "time-mcq-20",
-        "time-mcq-19",
-        "time-mcq-21",
-        "time-mcq-18",
+        "time-reviewed-b676f87208",
+        "time-mcq-16",
         "time-mcq-22",
-        "time-mcq-17"
+        "time-mcq-14"
       ],
-      "explanation": "本句的「timed」指「事件／行動）」。",
+      "explanation": "對照完整句子：「產品發布被安排在假期期間。」。這裡的「timed」表示「安排時間；選定時機」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "timed"
       ],
       "optionReasons": {
-        "time-mcq-20": "本句指「事件／行動）」。",
-        "time-mcq-19": "「計時」是「measure duration」的用法，與本句語境不同。",
-        "time-mcq-21": "「安排時間／選定時機」是「schedule carefully」的用法，與本句語境不同。",
-        "time-mcq-18": "「動作／活動）」是「time + action/event（」的用法，與本句語境不同。",
-        "time-mcq-22": "「刑期」是「prison time imprisonment」的用法，與本句語境不同。",
-        "time-mcq-17": "「聖誕時節」是「Christmas time recurring period」的用法，與本句語境不同。"
+        "time-reviewed-b676f87208": "對照完整句子：「產品發布被安排在假期期間。」。這裡的「timed」表示「安排時間；選定時機」。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "time-mcq-20"
+      "correctOption": "time-reviewed-b676f87208",
+      "previousCorrectOption": "time-mcq-20",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "time-18-0",
@@ -1553,11 +1458,9 @@ export default {
       "masked": "He spent ____ in prison.",
       "options": [
         "time-mcq-22",
-        "time-mcq-21",
-        "time-mcq-23",
-        "time-mcq-20",
-        "time-mcq-24",
-        "time-mcq-19"
+        "time-mcq-06",
+        "time-reviewed-b676f87208",
+        "time-mcq-15"
       ],
       "explanation": "本句的「time」指「刑期」。",
       "sentenceIndex": 35,
@@ -1566,12 +1469,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-22": "本句指「刑期」。",
-        "time-mcq-21": "「安排時間／選定時機」是「schedule carefully」的用法，與本句語境不同。",
-        "time-mcq-23": "「工作時間」是「company time working hours」的用法，與本句語境不同。",
-        "time-mcq-20": "「事件／行動）」是「time + action/event（」的用法，與本句語境不同。",
-        "time-mcq-24": "「時勢」是「changing times circumstances/era」的用法，與本句語境不同。",
-        "time-mcq-19": "「計時」是「measure duration」的用法，與本句語境不同。"
+        "time-mcq-22": "本句的「time」指「刑期」。",
+        "time-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "time-reviewed-b676f87208": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-22"
     },
@@ -1583,11 +1484,9 @@ export default {
       "masked": "She served ____ for the offence.",
       "options": [
         "time-mcq-22",
-        "time-mcq-21",
-        "time-mcq-23",
-        "time-mcq-20",
-        "time-mcq-24",
-        "time-mcq-19"
+        "time-mcq-05",
+        "time-mcq-14",
+        "time-mcq-15"
       ],
       "explanation": "本句的「time」指「刑期」。",
       "sentenceIndex": 36,
@@ -1596,12 +1495,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-22": "本句指「刑期」。",
-        "time-mcq-21": "「安排時間／選定時機」是「schedule carefully」的用法，與本句語境不同。",
-        "time-mcq-23": "「工作時間」是「company time working hours」的用法，與本句語境不同。",
-        "time-mcq-20": "「事件／行動）」是「time + action/event（」的用法，與本句語境不同。",
-        "time-mcq-24": "「時勢」是「changing times circumstances/era」的用法，與本句語境不同。",
-        "time-mcq-19": "「計時」是「measure duration」的用法，與本句語境不同。"
+        "time-mcq-22": "本句的「time」指「刑期」。",
+        "time-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-22"
     },
@@ -1613,11 +1510,9 @@ export default {
       "masked": "The training must be completed during company ____.",
       "options": [
         "time-mcq-23",
+        "time-mcq-14",
         "time-mcq-22",
-        "time-mcq-24",
-        "time-mcq-21",
-        "time-mcq-20",
-        "time-mcq-19"
+        "time-mcq-16"
       ],
       "explanation": "本句的「time」指「工作時間」。",
       "sentenceIndex": 37,
@@ -1626,12 +1521,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-23": "本句指「工作時間」。",
-        "time-mcq-22": "「刑期」是「prison time imprisonment」的用法，與本句語境不同。",
-        "time-mcq-24": "「時勢」是「changing times circumstances/era」的用法，與本句語境不同。",
-        "time-mcq-21": "「安排時間／選定時機」是「schedule carefully」的用法，與本句語境不同。",
-        "time-mcq-20": "「事件／行動）」是「time + action/event（」的用法，與本句語境不同。",
-        "time-mcq-19": "「計時」是「measure duration」的用法，與本句語境不同。"
+        "time-mcq-23": "本句的「time」指「工作時間」。",
+        "time-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-23"
     },
@@ -1643,11 +1536,9 @@ export default {
       "masked": "Employees are paid for their ____.",
       "options": [
         "time-mcq-23",
-        "time-mcq-22",
-        "time-mcq-24",
-        "time-mcq-21",
-        "time-mcq-20",
-        "time-mcq-19"
+        "time-mcq-06",
+        "time-mcq-16",
+        "time-mcq-15"
       ],
       "explanation": "本句的「time」指「工作時間」。",
       "sentenceIndex": 38,
@@ -1656,12 +1547,10 @@ export default {
         "time"
       ],
       "optionReasons": {
-        "time-mcq-23": "本句指「工作時間」。",
-        "time-mcq-22": "「刑期」是「prison time imprisonment」的用法，與本句語境不同。",
-        "time-mcq-24": "「時勢」是「changing times circumstances/era」的用法，與本句語境不同。",
-        "time-mcq-21": "「安排時間／選定時機」是「schedule carefully」的用法，與本句語境不同。",
-        "time-mcq-20": "「事件／行動）」是「time + action/event（」的用法，與本句語境不同。",
-        "time-mcq-19": "「計時」是「measure duration」的用法，與本句語境不同。"
+        "time-mcq-23": "本句的「time」指「工作時間」。",
+        "time-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-23"
     },
@@ -1673,11 +1562,9 @@ export default {
       "masked": "These are difficult ____ for small businesses.",
       "options": [
         "time-mcq-24",
-        "time-mcq-23",
-        "time-mcq-22",
-        "time-mcq-21",
-        "time-mcq-20",
-        "time-mcq-19"
+        "time-mcq-03",
+        "time-mcq-06",
+        "time-mcq-16"
       ],
       "explanation": "本句的「times」指「時勢」。",
       "sentenceIndex": 39,
@@ -1686,12 +1573,10 @@ export default {
         "times"
       ],
       "optionReasons": {
-        "time-mcq-24": "本句指「時勢」。",
-        "time-mcq-23": "「工作時間」是「company time working hours」的用法，與本句語境不同。",
-        "time-mcq-22": "「刑期」是「prison time imprisonment」的用法，與本句語境不同。",
-        "time-mcq-21": "「安排時間／選定時機」是「schedule carefully」的用法，與本句語境不同。",
-        "time-mcq-20": "「事件／行動）」是「time + action/event（」的用法，與本句語境不同。",
-        "time-mcq-19": "「計時」是「measure duration」的用法，與本句語境不同。"
+        "time-mcq-24": "本句的「times」指「時勢」。",
+        "time-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-24"
     },
@@ -1703,11 +1588,9 @@ export default {
       "masked": "People have to adapt to changing ____.",
       "options": [
         "time-mcq-24",
-        "time-mcq-23",
-        "time-mcq-22",
-        "time-mcq-21",
-        "time-mcq-20",
-        "time-mcq-19"
+        "time-mcq-16",
+        "time-mcq-06",
+        "time-mcq-15"
       ],
       "explanation": "本句的「times」指「時勢」。",
       "sentenceIndex": 40,
@@ -1716,12 +1599,10 @@ export default {
         "times"
       ],
       "optionReasons": {
-        "time-mcq-24": "本句指「時勢」。",
-        "time-mcq-23": "「工作時間」是「company time working hours」的用法，與本句語境不同。",
-        "time-mcq-22": "「刑期」是「prison time imprisonment」的用法，與本句語境不同。",
-        "time-mcq-21": "「安排時間／選定時機」是「schedule carefully」的用法，與本句語境不同。",
-        "time-mcq-20": "「事件／行動）」是「time + action/event（」的用法，與本句語境不同。",
-        "time-mcq-19": "「計時」是「measure duration」的用法，與本句語境不同。"
+        "time-mcq-24": "本句的「times」指「時勢」。",
+        "time-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "time-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "time-mcq-24"
     }
@@ -1733,5 +1614,7 @@ export default {
     "sha256": "96fa565762913e4b50a6eb8114d22c2f998097dfdbb82a2c5bdef59148663040",
     "pages": 8
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

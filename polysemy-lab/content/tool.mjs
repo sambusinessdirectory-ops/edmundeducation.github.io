@@ -454,11 +454,8 @@ export default {
       "masked": "Good baking ____ make the work easier.",
       "options": [
         "tool-mcq-01",
-        "tool-mcq-02",
-        "tool-mcq-03",
-        "tool-mcq-04",
-        "tool-mcq-05",
-        "tool-mcq-06"
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tools」指「用來完成特定實際工作的工具／器具」。",
       "sentenceIndex": 0,
@@ -467,12 +464,9 @@ export default {
         "tools"
       ],
       "optionReasons": {
-        "tool-mcq-01": "本句指「用來完成特定實際工作的工具／器具」。",
-        "tool-mcq-02": "「主要靠人手操作而非馬達驅動的工具」與本句語境不同。",
-        "tool-mcq-03": "「專業工作中用來完成特定任務的器械／設備」與本句語境不同。",
-        "tool-mcq-04": "「用來達成某個目的的方法、手段或資源」與本句語境不同。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。"
+        "tool-mcq-01": "本句的「tools」指「用來完成特定實際工作的工具／器具」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-01"
     },
@@ -484,11 +478,8 @@ export default {
       "masked": "I would need to buy the right ____ before starting the business.",
       "options": [
         "tool-mcq-01",
-        "tool-mcq-02",
-        "tool-mcq-03",
-        "tool-mcq-04",
-        "tool-mcq-05",
-        "tool-mcq-06"
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tools」指「用來完成特定實際工作的工具／器具」。",
       "sentenceIndex": 1,
@@ -497,12 +488,9 @@ export default {
         "tools"
       ],
       "optionReasons": {
-        "tool-mcq-01": "本句指「用來完成特定實際工作的工具／器具」。",
-        "tool-mcq-02": "「主要靠人手操作而非馬達驅動的工具」與本句語境不同。",
-        "tool-mcq-03": "「專業工作中用來完成特定任務的器械／設備」與本句語境不同。",
-        "tool-mcq-04": "「用來達成某個目的的方法、手段或資源」與本句語境不同。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。"
+        "tool-mcq-01": "本句的「tools」指「用來完成特定實際工作的工具／器具」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-01"
     },
@@ -514,11 +502,8 @@ export default {
       "masked": "A knife is an important kitchen ____.",
       "options": [
         "tool-mcq-01",
-        "tool-mcq-02",
-        "tool-mcq-03",
-        "tool-mcq-04",
-        "tool-mcq-05",
-        "tool-mcq-06"
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tool」指「用來完成特定實際工作的工具／器具」。",
       "sentenceIndex": 2,
@@ -527,12 +512,9 @@ export default {
         "tool"
       ],
       "optionReasons": {
-        "tool-mcq-01": "本句指「用來完成特定實際工作的工具／器具」。",
-        "tool-mcq-02": "「主要靠人手操作而非馬達驅動的工具」與本句語境不同。",
-        "tool-mcq-03": "「專業工作中用來完成特定任務的器械／設備」與本句語境不同。",
-        "tool-mcq-04": "「用來達成某個目的的方法、手段或資源」與本句語境不同。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。"
+        "tool-mcq-01": "本句的「tool」指「用來完成特定實際工作的工具／器具」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-01"
     },
@@ -544,11 +526,8 @@ export default {
       "masked": "Keep the ____ in a safe place.",
       "options": [
         "tool-mcq-01",
-        "tool-mcq-02",
-        "tool-mcq-03",
-        "tool-mcq-04",
-        "tool-mcq-05",
-        "tool-mcq-06"
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tools」指「用來完成特定實際工作的工具／器具」。",
       "sentenceIndex": 3,
@@ -557,12 +536,9 @@ export default {
         "tools"
       ],
       "optionReasons": {
-        "tool-mcq-01": "本句指「用來完成特定實際工作的工具／器具」。",
-        "tool-mcq-02": "「主要靠人手操作而非馬達驅動的工具」與本句語境不同。",
-        "tool-mcq-03": "「專業工作中用來完成特定任務的器械／設備」與本句語境不同。",
-        "tool-mcq-04": "「用來達成某個目的的方法、手段或資源」與本句語境不同。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。"
+        "tool-mcq-01": "本句的「tools」指「用來完成特定實際工作的工具／器具」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-01"
     },
@@ -574,11 +550,9 @@ export default {
       "masked": "The workshop contains basic ____.",
       "options": [
         "tool-mcq-02",
-        "tool-mcq-01",
+        "tool-mcq-14",
         "tool-mcq-03",
-        "tool-mcq-04",
-        "tool-mcq-05",
-        "tool-mcq-06"
+        "tool-mcq-10"
       ],
       "explanation": "本句的「hand tools」指「主要靠人手操作而非馬達驅動的工具」。",
       "sentenceIndex": 4,
@@ -587,12 +561,10 @@ export default {
         "hand tools"
       ],
       "optionReasons": {
-        "tool-mcq-02": "本句指「主要靠人手操作而非馬達驅動的工具」。",
-        "tool-mcq-01": "「用來完成特定實際工作的工具／器具」與本句語境不同。",
-        "tool-mcq-03": "「專業工作中用來完成特定任務的器械／設備」與本句語境不同。",
-        "tool-mcq-04": "「用來達成某個目的的方法、手段或資源」與本句語境不同。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。"
+        "tool-mcq-02": "本句的「hand tools」指「主要靠人手操作而非馬達驅動的工具」。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-02"
     },
@@ -604,11 +576,9 @@ export default {
       "masked": "A screwdriver is a common ____.",
       "options": [
         "tool-mcq-02",
-        "tool-mcq-01",
+        "tool-mcq-14",
         "tool-mcq-03",
-        "tool-mcq-04",
-        "tool-mcq-05",
-        "tool-mcq-06"
+        "tool-mcq-10"
       ],
       "explanation": "本句的「hand tool」指「主要靠人手操作而非馬達驅動的工具」。",
       "sentenceIndex": 5,
@@ -617,12 +587,10 @@ export default {
         "hand tool"
       ],
       "optionReasons": {
-        "tool-mcq-02": "本句指「主要靠人手操作而非馬達驅動的工具」。",
-        "tool-mcq-01": "「用來完成特定實際工作的工具／器具」與本句語境不同。",
-        "tool-mcq-03": "「專業工作中用來完成特定任務的器械／設備」與本句語境不同。",
-        "tool-mcq-04": "「用來達成某個目的的方法、手段或資源」與本句語境不同。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。"
+        "tool-mcq-02": "本句的「hand tool」指「主要靠人手操作而非馬達驅動的工具」。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-02"
     },
@@ -634,11 +602,9 @@ export default {
       "masked": "The camera is an important ____ for the photographer.",
       "options": [
         "tool-mcq-03",
-        "tool-mcq-02",
-        "tool-mcq-04",
-        "tool-mcq-01",
-        "tool-mcq-05",
-        "tool-mcq-06"
+        "tool-mcq-10",
+        "tool-mcq-14",
+        "tool-mcq-02"
       ],
       "explanation": "本句的「tool」指「專業工作中用來完成特定任務的器械／設備」。",
       "sentenceIndex": 6,
@@ -647,12 +613,10 @@ export default {
         "tool"
       ],
       "optionReasons": {
-        "tool-mcq-03": "本句指「專業工作中用來完成特定任務的器械／設備」。",
-        "tool-mcq-02": "「主要靠人手操作而非馬達驅動的工具」與本句語境不同。",
-        "tool-mcq-04": "「用來達成某個目的的方法、手段或資源」與本句語境不同。",
-        "tool-mcq-01": "「用來完成特定實際工作的工具／器具」與本句語境不同。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。"
+        "tool-mcq-03": "本句的「tool」指「專業工作中用來完成特定任務的器械／設備」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-03"
     },
@@ -664,11 +628,9 @@ export default {
       "masked": "A thermometer is a useful ____ in the kitchen.",
       "options": [
         "tool-mcq-03",
+        "tool-mcq-10",
         "tool-mcq-02",
-        "tool-mcq-04",
-        "tool-mcq-01",
-        "tool-mcq-05",
-        "tool-mcq-06"
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tool」指「專業工作中用來完成特定任務的器械／設備」。",
       "sentenceIndex": 7,
@@ -677,12 +639,10 @@ export default {
         "tool"
       ],
       "optionReasons": {
-        "tool-mcq-03": "本句指「專業工作中用來完成特定任務的器械／設備」。",
-        "tool-mcq-02": "「主要靠人手操作而非馬達驅動的工具」與本句語境不同。",
-        "tool-mcq-04": "「用來達成某個目的的方法、手段或資源」與本句語境不同。",
-        "tool-mcq-01": "「用來完成特定實際工作的工具／器具」與本句語境不同。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。"
+        "tool-mcq-03": "本句的「tool」指「專業工作中用來完成特定任務的器械／設備」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-03"
     },
@@ -694,11 +654,9 @@ export default {
       "masked": "Language is a powerful ____ for communication.",
       "options": [
         "tool-mcq-04",
-        "tool-mcq-03",
-        "tool-mcq-05",
-        "tool-mcq-02",
-        "tool-mcq-06",
-        "tool-mcq-01"
+        "tool-mcq-10",
+        "tool-mcq-08",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tool」指「用來達成某個目的的方法、手段或資源」。",
       "sentenceIndex": 8,
@@ -707,12 +665,10 @@ export default {
         "tool"
       ],
       "optionReasons": {
-        "tool-mcq-04": "本句指「用來達成某個目的的方法、手段或資源」。",
-        "tool-mcq-03": "「專業工作中用來完成特定任務的器械／設備」與本句語境不同。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。",
-        "tool-mcq-02": "「主要靠人手操作而非馬達驅動的工具」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。",
-        "tool-mcq-01": "「用來完成特定實際工作的工具／器具」與本句語境不同。"
+        "tool-mcq-04": "本句的「tool」指「用來達成某個目的的方法、手段或資源」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-04"
     },
@@ -724,11 +680,9 @@ export default {
       "masked": "Education can be a ____ for social change.",
       "options": [
         "tool-mcq-04",
-        "tool-mcq-03",
-        "tool-mcq-05",
-        "tool-mcq-02",
-        "tool-mcq-06",
-        "tool-mcq-01"
+        "tool-mcq-21",
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tool」指「用來達成某個目的的方法、手段或資源」。",
       "sentenceIndex": 9,
@@ -737,12 +691,10 @@ export default {
         "tool"
       ],
       "optionReasons": {
-        "tool-mcq-04": "本句指「用來達成某個目的的方法、手段或資源」。",
-        "tool-mcq-03": "「專業工作中用來完成特定任務的器械／設備」與本句語境不同。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。",
-        "tool-mcq-02": "「主要靠人手操作而非馬達驅動的工具」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。",
-        "tool-mcq-01": "「用來完成特定實際工作的工具／器具」與本句語境不同。"
+        "tool-mcq-04": "本句的「tool」指「用來達成某個目的的方法、手段或資源」。",
+        "tool-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-04"
     },
@@ -754,11 +706,8 @@ export default {
       "masked": "Feedback is a useful ____.",
       "options": [
         "tool-mcq-05",
-        "tool-mcq-04",
-        "tool-mcq-06",
-        "tool-mcq-03",
-        "tool-mcq-07",
-        "tool-mcq-02"
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tool for improvement」指「用來完成某目的的工具／手段」。",
       "sentenceIndex": 10,
@@ -767,12 +716,9 @@ export default {
         "tool for improvement"
       ],
       "optionReasons": {
-        "tool-mcq-05": "本句指「用來完成某目的的工具／手段」。",
-        "tool-mcq-04": "「用來達成某個目的的方法、手段或資源」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。",
-        "tool-mcq-03": "「專業工作中用來完成特定任務的器械／設備」與本句語境不同。",
-        "tool-mcq-07": "「用來完成工作或解決問題的數位軟體工具」與本句語境不同。",
-        "tool-mcq-02": "「主要靠人手操作而非馬達驅動的工具」與本句語境不同。"
+        "tool-mcq-05": "本句的「tool for improvement」指「用來完成某目的的工具／手段」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-05"
     },
@@ -784,11 +730,8 @@ export default {
       "masked": "Data can be a powerful ____.",
       "options": [
         "tool-mcq-05",
-        "tool-mcq-04",
-        "tool-mcq-06",
-        "tool-mcq-03",
-        "tool-mcq-07",
-        "tool-mcq-02"
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tool for decision-making」指「用來完成某目的的工具／手段」。",
       "sentenceIndex": 11,
@@ -797,12 +740,9 @@ export default {
         "tool for decision-making"
       ],
       "optionReasons": {
-        "tool-mcq-05": "本句指「用來完成某目的的工具／手段」。",
-        "tool-mcq-04": "「用來達成某個目的的方法、手段或資源」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。",
-        "tool-mcq-03": "「專業工作中用來完成特定任務的器械／設備」與本句語境不同。",
-        "tool-mcq-07": "「用來完成工作或解決問題的數位軟體工具」與本句語境不同。",
-        "tool-mcq-02": "「主要靠人手操作而非馬達驅動的工具」與本句語境不同。"
+        "tool-mcq-05": "本句的「tool for decision-making」指「用來完成某目的的工具／手段」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-05"
     },
@@ -814,11 +754,8 @@ export default {
       "masked": "We use an online ____ to manage orders.",
       "options": [
         "tool-mcq-06",
-        "tool-mcq-05",
-        "tool-mcq-07",
-        "tool-mcq-04",
-        "tool-mcq-08",
-        "tool-mcq-03"
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tool」指「用來執行特定工作或功能的軟體／數位工具」。",
       "sentenceIndex": 12,
@@ -827,12 +764,9 @@ export default {
         "tool"
       ],
       "optionReasons": {
-        "tool-mcq-06": "本句指「用來執行特定工作或功能的軟體／數位工具」。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。",
-        "tool-mcq-07": "「用來完成工作或解決問題的數位軟體工具」與本句語境不同。",
-        "tool-mcq-04": "「用來達成某個目的的方法、手段或資源」與本句語境不同。",
-        "tool-mcq-08": "「用於程式開發、除錯、測試等的開發工具」與本句語境不同。",
-        "tool-mcq-03": "「專業工作中用來完成特定任務的器械／設備」與本句語境不同。"
+        "tool-mcq-06": "本句的「tool」指「用來執行特定工作或功能的軟體／數位工具」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-06"
     },
@@ -844,11 +778,8 @@ export default {
       "masked": "This design ____ is easy to use.",
       "options": [
         "tool-mcq-06",
-        "tool-mcq-05",
-        "tool-mcq-07",
-        "tool-mcq-04",
-        "tool-mcq-08",
-        "tool-mcq-03"
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tool」指「用來執行特定工作或功能的軟體／數位工具」。",
       "sentenceIndex": 13,
@@ -857,12 +788,9 @@ export default {
         "tool"
       ],
       "optionReasons": {
-        "tool-mcq-06": "本句指「用來執行特定工作或功能的軟體／數位工具」。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。",
-        "tool-mcq-07": "「用來完成工作或解決問題的數位軟體工具」與本句語境不同。",
-        "tool-mcq-04": "「用來達成某個目的的方法、手段或資源」與本句語境不同。",
-        "tool-mcq-08": "「用於程式開發、除錯、測試等的開發工具」與本句語境不同。",
-        "tool-mcq-03": "「專業工作中用來完成特定任務的器械／設備」與本句語境不同。"
+        "tool-mcq-06": "本句的「tool」指「用來執行特定工作或功能的軟體／數位工具」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-06"
     },
@@ -874,11 +802,8 @@ export default {
       "masked": "Small businesses rely on many ____.",
       "options": [
         "tool-mcq-07",
-        "tool-mcq-06",
-        "tool-mcq-08",
-        "tool-mcq-05",
-        "tool-mcq-09",
-        "tool-mcq-04"
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「digital tools」指「用來完成工作或解決問題的數位軟體工具」。",
       "sentenceIndex": 14,
@@ -887,12 +812,9 @@ export default {
         "digital tools"
       ],
       "optionReasons": {
-        "tool-mcq-07": "本句指「用來完成工作或解決問題的數位軟體工具」。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。",
-        "tool-mcq-08": "「用於程式開發、除錯、測試等的開發工具」與本句語境不同。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。",
-        "tool-mcq-09": "「被另一人／組織操控、利用的人；工具／傀儡」與本句語境不同。",
-        "tool-mcq-04": "「用來達成某個目的的方法、手段或資源」與本句語境不同。"
+        "tool-mcq-07": "本句的「digital tools」指「用來完成工作或解決問題的數位軟體工具」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-07"
     },
@@ -904,11 +826,8 @@ export default {
       "masked": "The app is a useful ____ for scheduling.",
       "options": [
         "tool-mcq-07",
-        "tool-mcq-06",
-        "tool-mcq-08",
-        "tool-mcq-05",
-        "tool-mcq-09",
-        "tool-mcq-04"
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「digital tool」指「用來完成工作或解決問題的數位軟體工具」。",
       "sentenceIndex": 15,
@@ -917,12 +836,9 @@ export default {
         "digital tool"
       ],
       "optionReasons": {
-        "tool-mcq-07": "本句指「用來完成工作或解決問題的數位軟體工具」。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。",
-        "tool-mcq-08": "「用於程式開發、除錯、測試等的開發工具」與本句語境不同。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。",
-        "tool-mcq-09": "「被另一人／組織操控、利用的人；工具／傀儡」與本句語境不同。",
-        "tool-mcq-04": "「用來達成某個目的的方法、手段或資源」與本句語境不同。"
+        "tool-mcq-07": "本句的「digital tool」指「用來完成工作或解決問題的數位軟體工具」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-07"
     },
@@ -934,11 +850,9 @@ export default {
       "masked": "The browser includes several ____.",
       "options": [
         "tool-mcq-08",
-        "tool-mcq-07",
-        "tool-mcq-09",
-        "tool-mcq-06",
+        "tool-mcq-04",
         "tool-mcq-10",
-        "tool-mcq-05"
+        "tool-mcq-14"
       ],
       "explanation": "本句的「developer tools」指「用於程式開發、除錯、測試等的開發工具」。",
       "sentenceIndex": 16,
@@ -947,12 +861,10 @@ export default {
         "developer tools"
       ],
       "optionReasons": {
-        "tool-mcq-08": "本句指「用於程式開發、除錯、測試等的開發工具」。",
-        "tool-mcq-07": "「用來完成工作或解決問題的數位軟體工具」與本句語境不同。",
-        "tool-mcq-09": "「被另一人／組織操控、利用的人；工具／傀儡」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。",
-        "tool-mcq-10": "「非正式貶義：愚蠢、討厭或易受操控的人」與本句語境不同。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。"
+        "tool-mcq-08": "本句的「developer tools」指「用於程式開發、除錯、測試等的開發工具」。",
+        "tool-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-08"
     },
@@ -964,11 +876,9 @@ export default {
       "masked": "The team uses automated testing ____.",
       "options": [
         "tool-mcq-08",
-        "tool-mcq-07",
-        "tool-mcq-09",
-        "tool-mcq-06",
+        "tool-mcq-04",
         "tool-mcq-10",
-        "tool-mcq-05"
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tools」指「用於程式開發、除錯、測試等的開發工具」。",
       "sentenceIndex": 17,
@@ -977,12 +887,10 @@ export default {
         "tools"
       ],
       "optionReasons": {
-        "tool-mcq-08": "本句指「用於程式開發、除錯、測試等的開發工具」。",
-        "tool-mcq-07": "「用來完成工作或解決問題的數位軟體工具」與本句語境不同。",
-        "tool-mcq-09": "「被另一人／組織操控、利用的人；工具／傀儡」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。",
-        "tool-mcq-10": "「非正式貶義：愚蠢、討厭或易受操控的人」與本句語境不同。",
-        "tool-mcq-05": "「用來完成某目的的工具／手段」與本句語境不同。"
+        "tool-mcq-08": "本句的「tools」指「用於程式開發、除錯、測試等的開發工具」。",
+        "tool-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-08"
     },
@@ -994,11 +902,8 @@ export default {
       "masked": "He was accused of being a ____ of the organization.",
       "options": [
         "tool-mcq-09",
-        "tool-mcq-08",
-        "tool-mcq-10",
-        "tool-mcq-07",
-        "tool-mcq-11",
-        "tool-mcq-06"
+        "tool-mcq-04",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tool」指「被另一人／組織操控、利用的人；工具／傀儡」。",
       "sentenceIndex": 18,
@@ -1007,12 +912,9 @@ export default {
         "tool"
       ],
       "optionReasons": {
-        "tool-mcq-09": "本句指「被另一人／組織操控、利用的人；工具／傀儡」。",
-        "tool-mcq-08": "「用於程式開發、除錯、測試等的開發工具」與本句語境不同。",
-        "tool-mcq-10": "「非正式貶義：愚蠢、討厭或易受操控的人」與本句語境不同。",
-        "tool-mcq-07": "「用來完成工作或解決問題的數位軟體工具」與本句語境不同。",
-        "tool-mcq-11": "「機械加工中用來切削、鑽孔、成形的刀具／工具」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。"
+        "tool-mcq-09": "本句的「tool」指「被另一人／組織操控、利用的人；工具／傀儡」。",
+        "tool-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-09"
     },
@@ -1024,11 +926,8 @@ export default {
       "masked": "She refused to become anyone’s ____.",
       "options": [
         "tool-mcq-09",
-        "tool-mcq-08",
-        "tool-mcq-10",
-        "tool-mcq-07",
-        "tool-mcq-11",
-        "tool-mcq-06"
+        "tool-mcq-04",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tool」指「被另一人／組織操控、利用的人；工具／傀儡」。",
       "sentenceIndex": 19,
@@ -1037,12 +936,9 @@ export default {
         "tool"
       ],
       "optionReasons": {
-        "tool-mcq-09": "本句指「被另一人／組織操控、利用的人；工具／傀儡」。",
-        "tool-mcq-08": "「用於程式開發、除錯、測試等的開發工具」與本句語境不同。",
-        "tool-mcq-10": "「非正式貶義：愚蠢、討厭或易受操控的人」與本句語境不同。",
-        "tool-mcq-07": "「用來完成工作或解決問題的數位軟體工具」與本句語境不同。",
-        "tool-mcq-11": "「機械加工中用來切削、鑽孔、成形的刀具／工具」與本句語境不同。",
-        "tool-mcq-06": "「用來執行特定工作或功能的軟體／數位工具」與本句語境不同。"
+        "tool-mcq-09": "本句的「tool」指「被另一人／組織操控、利用的人；工具／傀儡」。",
+        "tool-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-09"
     },
@@ -1054,11 +950,8 @@ export default {
       "masked": "Don’t be such a ____.",
       "options": [
         "tool-mcq-10",
-        "tool-mcq-09",
-        "tool-mcq-11",
-        "tool-mcq-08",
-        "tool-mcq-12",
-        "tool-mcq-07"
+        "tool-mcq-14",
+        "tool-mcq-20"
       ],
       "explanation": "本句的「tool」指「非正式貶義：愚蠢、討厭或易受操控的人」。",
       "sentenceIndex": 20,
@@ -1067,12 +960,9 @@ export default {
         "tool"
       ],
       "optionReasons": {
-        "tool-mcq-10": "本句指「非正式貶義：愚蠢、討厭或易受操控的人」。",
-        "tool-mcq-09": "「被另一人／組織操控、利用的人；工具／傀儡」與本句語境不同。",
-        "tool-mcq-11": "「機械加工中用來切削、鑽孔、成形的刀具／工具」與本句語境不同。",
-        "tool-mcq-08": "「用於程式開發、除錯、測試等的開發工具」與本句語境不同。",
-        "tool-mcq-12": "「用來加工金屬等材料的機床」與本句語境不同。",
-        "tool-mcq-07": "「用來完成工作或解決問題的數位軟體工具」與本句語境不同。"
+        "tool-mcq-10": "本句的「tool」指「非正式貶義：愚蠢、討厭或易受操控的人」。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-10"
     },
@@ -1084,11 +974,8 @@ export default {
       "masked": "He acted like a complete ____.",
       "options": [
         "tool-mcq-10",
-        "tool-mcq-09",
-        "tool-mcq-11",
-        "tool-mcq-08",
-        "tool-mcq-12",
-        "tool-mcq-07"
+        "tool-mcq-14",
+        "tool-mcq-06"
       ],
       "explanation": "本句的「tool」指「非正式貶義：愚蠢、討厭或易受操控的人」。",
       "sentenceIndex": 21,
@@ -1097,12 +984,9 @@ export default {
         "tool"
       ],
       "optionReasons": {
-        "tool-mcq-10": "本句指「非正式貶義：愚蠢、討厭或易受操控的人」。",
-        "tool-mcq-09": "「被另一人／組織操控、利用的人；工具／傀儡」與本句語境不同。",
-        "tool-mcq-11": "「機械加工中用來切削、鑽孔、成形的刀具／工具」與本句語境不同。",
-        "tool-mcq-08": "「用於程式開發、除錯、測試等的開發工具」與本句語境不同。",
-        "tool-mcq-12": "「用來加工金屬等材料的機床」與本句語境不同。",
-        "tool-mcq-07": "「用來完成工作或解決問題的數位軟體工具」與本句語境不同。"
+        "tool-mcq-10": "本句的「tool」指「非正式貶義：愚蠢、討厭或易受操控的人」。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-10"
     },
@@ -1114,11 +998,7 @@ export default {
       "masked": "The machine uses a diamond cutting ____.",
       "options": [
         "tool-mcq-11",
-        "tool-mcq-10",
-        "tool-mcq-12",
-        "tool-mcq-09",
-        "tool-mcq-13",
-        "tool-mcq-08"
+        "tool-mcq-10"
       ],
       "explanation": "本句的「tool」指「機械加工中用來切削、鑽孔、成形的刀具／工具」。",
       "sentenceIndex": 22,
@@ -1127,12 +1007,8 @@ export default {
         "tool"
       ],
       "optionReasons": {
-        "tool-mcq-11": "本句指「機械加工中用來切削、鑽孔、成形的刀具／工具」。",
-        "tool-mcq-10": "「非正式貶義：愚蠢、討厭或易受操控的人」與本句語境不同。",
-        "tool-mcq-12": "「用來加工金屬等材料的機床」與本句語境不同。",
-        "tool-mcq-09": "「被另一人／組織操控、利用的人；工具／傀儡」與本句語境不同。",
-        "tool-mcq-13": "「用工具把材料加工、雕飾或成形」與本句語境不同。",
-        "tool-mcq-08": "「用於程式開發、除錯、測試等的開發工具」與本句語境不同。"
+        "tool-mcq-11": "本句的「tool」指「機械加工中用來切削、鑽孔、成形的刀具／工具」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-11"
     },
@@ -1144,11 +1020,7 @@ export default {
       "masked": "The ____ must be replaced when worn.",
       "options": [
         "tool-mcq-11",
-        "tool-mcq-10",
-        "tool-mcq-12",
-        "tool-mcq-09",
-        "tool-mcq-13",
-        "tool-mcq-08"
+        "tool-mcq-10"
       ],
       "explanation": "本句的「tool」指「機械加工中用來切削、鑽孔、成形的刀具／工具」。",
       "sentenceIndex": 23,
@@ -1157,12 +1029,8 @@ export default {
         "tool"
       ],
       "optionReasons": {
-        "tool-mcq-11": "本句指「機械加工中用來切削、鑽孔、成形的刀具／工具」。",
-        "tool-mcq-10": "「非正式貶義：愚蠢、討厭或易受操控的人」與本句語境不同。",
-        "tool-mcq-12": "「用來加工金屬等材料的機床」與本句語境不同。",
-        "tool-mcq-09": "「被另一人／組織操控、利用的人；工具／傀儡」與本句語境不同。",
-        "tool-mcq-13": "「用工具把材料加工、雕飾或成形」與本句語境不同。",
-        "tool-mcq-08": "「用於程式開發、除錯、測試等的開發工具」與本句語境不同。"
+        "tool-mcq-11": "本句的「tool」指「機械加工中用來切削、鑽孔、成形的刀具／工具」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-11"
     },
@@ -1174,11 +1042,8 @@ export default {
       "masked": "The factory produces precision ____.",
       "options": [
         "tool-mcq-12",
-        "tool-mcq-11",
-        "tool-mcq-13",
         "tool-mcq-10",
-        "tool-mcq-14",
-        "tool-mcq-09"
+        "tool-mcq-19"
       ],
       "explanation": "本句的「machine tools」指「用來加工金屬等材料的機床」。",
       "sentenceIndex": 24,
@@ -1187,12 +1052,9 @@ export default {
         "machine tools"
       ],
       "optionReasons": {
-        "tool-mcq-12": "本句指「用來加工金屬等材料的機床」。",
-        "tool-mcq-11": "「機械加工中用來切削、鑽孔、成形的刀具／工具」與本句語境不同。",
-        "tool-mcq-13": "「用工具把材料加工、雕飾或成形」與本句語境不同。",
-        "tool-mcq-10": "「非正式貶義：愚蠢、討厭或易受操控的人」與本句語境不同。",
-        "tool-mcq-14": "「經壓花／雕飾加工的皮革」與本句語境不同。",
-        "tool-mcq-09": "「被另一人／組織操控、利用的人；工具／傀儡」與本句語境不同。"
+        "tool-mcq-12": "本句的「machine tools」指「用來加工金屬等材料的機床」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-12"
     },
@@ -1204,11 +1066,8 @@ export default {
       "masked": "A lathe is a type of ____.",
       "options": [
         "tool-mcq-12",
-        "tool-mcq-11",
-        "tool-mcq-13",
         "tool-mcq-10",
-        "tool-mcq-14",
-        "tool-mcq-09"
+        "tool-mcq-02"
       ],
       "explanation": "本句的「machine tool」指「用來加工金屬等材料的機床」。",
       "sentenceIndex": 25,
@@ -1217,12 +1076,9 @@ export default {
         "machine tool"
       ],
       "optionReasons": {
-        "tool-mcq-12": "本句指「用來加工金屬等材料的機床」。",
-        "tool-mcq-11": "「機械加工中用來切削、鑽孔、成形的刀具／工具」與本句語境不同。",
-        "tool-mcq-13": "「用工具把材料加工、雕飾或成形」與本句語境不同。",
-        "tool-mcq-10": "「非正式貶義：愚蠢、討厭或易受操控的人」與本句語境不同。",
-        "tool-mcq-14": "「經壓花／雕飾加工的皮革」與本句語境不同。",
-        "tool-mcq-09": "「被另一人／組織操控、利用的人；工具／傀儡」與本句語境不同。"
+        "tool-mcq-12": "本句的「machine tool」指「用來加工金屬等材料的機床」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-12"
     },
@@ -1234,11 +1090,8 @@ export default {
       "masked": "The leather was carefully ____ by hand.",
       "options": [
         "tool-mcq-13",
-        "tool-mcq-12",
-        "tool-mcq-14",
-        "tool-mcq-11",
-        "tool-mcq-15",
-        "tool-mcq-10"
+        "tool-mcq-10",
+        "tool-mcq-04"
       ],
       "explanation": "本句的「tooled」指「用工具把材料加工、雕飾或成形」。",
       "sentenceIndex": 26,
@@ -1247,12 +1100,9 @@ export default {
         "tooled"
       ],
       "optionReasons": {
-        "tool-mcq-13": "本句指「用工具把材料加工、雕飾或成形」。",
-        "tool-mcq-12": "「用來加工金屬等材料的機床」與本句語境不同。",
-        "tool-mcq-14": "「經壓花／雕飾加工的皮革」與本句語境不同。",
-        "tool-mcq-11": "「機械加工中用來切削、鑽孔、成形的刀具／工具」與本句語境不同。",
-        "tool-mcq-15": "「製造業中的工裝、模具、刀具等設備及其製作」與本句語境不同。",
-        "tool-mcq-10": "「非正式貶義：愚蠢、討厭或易受操控的人」與本句語境不同。"
+        "tool-mcq-13": "本句的「tooled」指「用工具把材料加工、雕飾或成形」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-13"
     },
@@ -1264,11 +1114,8 @@ export default {
       "masked": "The metal was ____ into shape.",
       "options": [
         "tool-mcq-13",
-        "tool-mcq-12",
-        "tool-mcq-14",
-        "tool-mcq-11",
-        "tool-mcq-15",
-        "tool-mcq-10"
+        "tool-mcq-10",
+        "tool-mcq-04"
       ],
       "explanation": "本句的「tooled」指「用工具把材料加工、雕飾或成形」。",
       "sentenceIndex": 27,
@@ -1277,12 +1124,9 @@ export default {
         "tooled"
       ],
       "optionReasons": {
-        "tool-mcq-13": "本句指「用工具把材料加工、雕飾或成形」。",
-        "tool-mcq-12": "「用來加工金屬等材料的機床」與本句語境不同。",
-        "tool-mcq-14": "「經壓花／雕飾加工的皮革」與本句語境不同。",
-        "tool-mcq-11": "「機械加工中用來切削、鑽孔、成形的刀具／工具」與本句語境不同。",
-        "tool-mcq-15": "「製造業中的工裝、模具、刀具等設備及其製作」與本句語境不同。",
-        "tool-mcq-10": "「非正式貶義：愚蠢、討厭或易受操控的人」與本句語境不同。"
+        "tool-mcq-13": "本句的「tooled」指「用工具把材料加工、雕飾或成形」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-13"
     },
@@ -1294,11 +1138,9 @@ export default {
       "masked": "The bag is made from ____.",
       "options": [
         "tool-mcq-14",
-        "tool-mcq-13",
-        "tool-mcq-15",
-        "tool-mcq-12",
-        "tool-mcq-16",
-        "tool-mcq-11"
+        "tool-mcq-04",
+        "tool-mcq-10",
+        "tool-mcq-21"
       ],
       "explanation": "本句的「tooled leather」指「經壓花／雕飾加工的皮革」。",
       "sentenceIndex": 28,
@@ -1307,12 +1149,10 @@ export default {
         "tooled leather"
       ],
       "optionReasons": {
-        "tool-mcq-14": "本句指「經壓花／雕飾加工的皮革」。",
-        "tool-mcq-13": "「用工具把材料加工、雕飾或成形」與本句語境不同。",
-        "tool-mcq-15": "「製造業中的工裝、模具、刀具等設備及其製作」與本句語境不同。",
-        "tool-mcq-12": "「用來加工金屬等材料的機床」與本句語境不同。",
-        "tool-mcq-16": "「一套存放在一起的工具／工具箱」與本句語境不同。",
-        "tool-mcq-11": "「機械加工中用來切削、鑽孔、成形的刀具／工具」與本句語境不同。"
+        "tool-mcq-14": "本句的「tooled leather」指「經壓花／雕飾加工的皮革」。",
+        "tool-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-14"
     },
@@ -1324,11 +1164,9 @@ export default {
       "masked": "The cover has a ____ pattern.",
       "options": [
         "tool-mcq-14",
-        "tool-mcq-13",
-        "tool-mcq-15",
-        "tool-mcq-12",
-        "tool-mcq-16",
-        "tool-mcq-11"
+        "tool-mcq-04",
+        "tool-mcq-10",
+        "tool-mcq-02"
       ],
       "explanation": "本句的「tooled」指「經壓花／雕飾加工的皮革」。",
       "sentenceIndex": 29,
@@ -1337,12 +1175,10 @@ export default {
         "tooled"
       ],
       "optionReasons": {
-        "tool-mcq-14": "本句指「經壓花／雕飾加工的皮革」。",
-        "tool-mcq-13": "「用工具把材料加工、雕飾或成形」與本句語境不同。",
-        "tool-mcq-15": "「製造業中的工裝、模具、刀具等設備及其製作」與本句語境不同。",
-        "tool-mcq-12": "「用來加工金屬等材料的機床」與本句語境不同。",
-        "tool-mcq-16": "「一套存放在一起的工具／工具箱」與本句語境不同。",
-        "tool-mcq-11": "「機械加工中用來切削、鑽孔、成形的刀具／工具」與本句語境不同。"
+        "tool-mcq-14": "本句的「tooled」指「經壓花／雕飾加工的皮革」。",
+        "tool-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-14"
     },
@@ -1354,11 +1190,8 @@ export default {
       "masked": "The software provides a useful ____.",
       "options": [
         "tool-mcq-18",
-        "tool-mcq-17",
-        "tool-mcq-19",
-        "tool-mcq-16",
-        "tool-mcq-20",
-        "tool-mcq-15"
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「toolset」指「完成某類工作所具備的一組工具／能力」。",
       "sentenceIndex": 30,
@@ -1367,12 +1200,9 @@ export default {
         "toolset"
       ],
       "optionReasons": {
-        "tool-mcq-18": "本句指「完成某類工作所具備的一組工具／能力」。",
-        "tool-mcq-17": "「一套可用來處理問題的技能、方法或資源」與本句語境不同。",
-        "tool-mcq-19": "「最適合某項任務的工具或方法」與本句語境不同。",
-        "tool-mcq-16": "「一套存放在一起的工具／工具箱」與本句語境不同。",
-        "tool-mcq-20": "「某職業通常必須具備的工具、技能或方法」與本句語境不同。",
-        "tool-mcq-15": "「製造業中的工裝、模具、刀具等設備及其製作」與本句語境不同。"
+        "tool-mcq-18": "本句的「toolset」指「完成某類工作所具備的一組工具／能力」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-18"
     },
@@ -1384,11 +1214,8 @@ export default {
       "masked": "Communication skills are part of a manager’s ____.",
       "options": [
         "tool-mcq-18",
-        "tool-mcq-17",
-        "tool-mcq-19",
-        "tool-mcq-16",
-        "tool-mcq-20",
-        "tool-mcq-15"
+        "tool-mcq-10",
+        "tool-mcq-12"
       ],
       "explanation": "本句的「toolset」指「完成某類工作所具備的一組工具／能力」。",
       "sentenceIndex": 31,
@@ -1397,12 +1224,9 @@ export default {
         "toolset"
       ],
       "optionReasons": {
-        "tool-mcq-18": "本句指「完成某類工作所具備的一組工具／能力」。",
-        "tool-mcq-17": "「一套可用來處理問題的技能、方法或資源」與本句語境不同。",
-        "tool-mcq-19": "「最適合某項任務的工具或方法」與本句語境不同。",
-        "tool-mcq-16": "「一套存放在一起的工具／工具箱」與本句語境不同。",
-        "tool-mcq-20": "「某職業通常必須具備的工具、技能或方法」與本句語境不同。",
-        "tool-mcq-15": "「製造業中的工裝、模具、刀具等設備及其製作」與本句語境不同。"
+        "tool-mcq-18": "本句的「toolset」指「完成某類工作所具備的一組工具／能力」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-18"
     },
@@ -1414,11 +1238,8 @@ export default {
       "masked": "Make sure you use the ____.",
       "options": [
         "tool-mcq-19",
-        "tool-mcq-18",
-        "tool-mcq-20",
-        "tool-mcq-17",
-        "tool-mcq-21",
-        "tool-mcq-16"
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「right tool for the job」指「最適合某項任務的工具或方法」。",
       "sentenceIndex": 32,
@@ -1427,12 +1248,9 @@ export default {
         "right tool for the job"
       ],
       "optionReasons": {
-        "tool-mcq-19": "本句指「最適合某項任務的工具或方法」。",
-        "tool-mcq-18": "「完成某類工作所具備的一組工具／能力」與本句語境不同。",
-        "tool-mcq-20": "「某職業通常必須具備的工具、技能或方法」與本句語境不同。",
-        "tool-mcq-17": "「一套可用來處理問題的技能、方法或資源」與本句語境不同。",
-        "tool-mcq-21": "「為生產／工作添置並配備所需工具設備」與本句語境不同。",
-        "tool-mcq-16": "「一套存放在一起的工具／工具箱」與本句語境不同。"
+        "tool-mcq-19": "本句的「right tool for the job」指「最適合某項任務的工具或方法」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-19"
     },
@@ -1444,11 +1262,8 @@ export default {
       "masked": "A spreadsheet may be the ____.",
       "options": [
         "tool-mcq-19",
-        "tool-mcq-18",
-        "tool-mcq-20",
-        "tool-mcq-17",
-        "tool-mcq-21",
-        "tool-mcq-16"
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「right tool for the job」指「最適合某項任務的工具或方法」。",
       "sentenceIndex": 33,
@@ -1457,12 +1272,9 @@ export default {
         "right tool for the job"
       ],
       "optionReasons": {
-        "tool-mcq-19": "本句指「最適合某項任務的工具或方法」。",
-        "tool-mcq-18": "「完成某類工作所具備的一組工具／能力」與本句語境不同。",
-        "tool-mcq-20": "「某職業通常必須具備的工具、技能或方法」與本句語境不同。",
-        "tool-mcq-17": "「一套可用來處理問題的技能、方法或資源」與本句語境不同。",
-        "tool-mcq-21": "「為生產／工作添置並配備所需工具設備」與本句語境不同。",
-        "tool-mcq-16": "「一套存放在一起的工具／工具箱」與本句語境不同。"
+        "tool-mcq-19": "本句的「right tool for the job」指「最適合某項任務的工具或方法」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-19"
     },
@@ -1474,11 +1286,8 @@ export default {
       "masked": "Knives are among a chef’s ____.",
       "options": [
         "tool-mcq-20",
-        "tool-mcq-19",
-        "tool-mcq-21",
-        "tool-mcq-18",
-        "tool-mcq-17",
-        "tool-mcq-16"
+        "tool-mcq-10",
+        "tool-mcq-12"
       ],
       "explanation": "本句的「tools of the trade」指「某職業通常必須具備的工具、技能或方法」。",
       "sentenceIndex": 34,
@@ -1487,12 +1296,9 @@ export default {
         "tools of the trade"
       ],
       "optionReasons": {
-        "tool-mcq-20": "本句指「某職業通常必須具備的工具、技能或方法」。",
-        "tool-mcq-19": "「最適合某項任務的工具或方法」與本句語境不同。",
-        "tool-mcq-21": "「為生產／工作添置並配備所需工具設備」與本句語境不同。",
-        "tool-mcq-18": "「完成某類工作所具備的一組工具／能力」與本句語境不同。",
-        "tool-mcq-17": "「一套可用來處理問題的技能、方法或資源」與本句語境不同。",
-        "tool-mcq-16": "「一套存放在一起的工具／工具箱」與本句語境不同。"
+        "tool-mcq-20": "本句的「tools of the trade」指「某職業通常必須具備的工具、技能或方法」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-20"
     },
@@ -1504,11 +1310,8 @@ export default {
       "masked": "Good communication is one of a manager’s ____.",
       "options": [
         "tool-mcq-20",
-        "tool-mcq-19",
-        "tool-mcq-21",
-        "tool-mcq-18",
-        "tool-mcq-17",
-        "tool-mcq-16"
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tools of the trade」指「某職業通常必須具備的工具、技能或方法」。",
       "sentenceIndex": 35,
@@ -1517,12 +1320,9 @@ export default {
         "tools of the trade"
       ],
       "optionReasons": {
-        "tool-mcq-20": "本句指「某職業通常必須具備的工具、技能或方法」。",
-        "tool-mcq-19": "「最適合某項任務的工具或方法」與本句語境不同。",
-        "tool-mcq-21": "「為生產／工作添置並配備所需工具設備」與本句語境不同。",
-        "tool-mcq-18": "「完成某類工作所具備的一組工具／能力」與本句語境不同。",
-        "tool-mcq-17": "「一套可用來處理問題的技能、方法或資源」與本句語境不同。",
-        "tool-mcq-16": "「一套存放在一起的工具／工具箱」與本句語境不同。"
+        "tool-mcq-20": "本句的「tools of the trade」指「某職業通常必須具備的工具、技能或方法」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-20"
     },
@@ -1534,11 +1334,9 @@ export default {
       "masked": "The factory ____ for increased production.",
       "options": [
         "tool-mcq-21",
-        "tool-mcq-20",
-        "tool-mcq-19",
-        "tool-mcq-18",
-        "tool-mcq-17",
-        "tool-mcq-16"
+        "tool-mcq-04",
+        "tool-mcq-10",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tooled up」指「為生產／工作添置並配備所需工具設備」。",
       "sentenceIndex": 36,
@@ -1547,12 +1345,10 @@ export default {
         "tooled up"
       ],
       "optionReasons": {
-        "tool-mcq-21": "本句指「為生產／工作添置並配備所需工具設備」。",
-        "tool-mcq-20": "「某職業通常必須具備的工具、技能或方法」與本句語境不同。",
-        "tool-mcq-19": "「最適合某項任務的工具或方法」與本句語境不同。",
-        "tool-mcq-18": "「完成某類工作所具備的一組工具／能力」與本句語境不同。",
-        "tool-mcq-17": "「一套可用來處理問題的技能、方法或資源」與本句語境不同。",
-        "tool-mcq-16": "「一套存放在一起的工具／工具箱」與本句語境不同。"
+        "tool-mcq-21": "本句的「tooled up」指「為生產／工作添置並配備所需工具設備」。",
+        "tool-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-21"
     },
@@ -1564,11 +1360,9 @@ export default {
       "masked": "The company had to ____ quickly.",
       "options": [
         "tool-mcq-21",
-        "tool-mcq-20",
-        "tool-mcq-19",
-        "tool-mcq-18",
-        "tool-mcq-17",
-        "tool-mcq-16"
+        "tool-mcq-10",
+        "tool-mcq-04",
+        "tool-mcq-14"
       ],
       "explanation": "本句的「tool up」指「為生產／工作添置並配備所需工具設備」。",
       "sentenceIndex": 37,
@@ -1577,12 +1371,10 @@ export default {
         "tool up"
       ],
       "optionReasons": {
-        "tool-mcq-21": "本句指「為生產／工作添置並配備所需工具設備」。",
-        "tool-mcq-20": "「某職業通常必須具備的工具、技能或方法」與本句語境不同。",
-        "tool-mcq-19": "「最適合某項任務的工具或方法」與本句語境不同。",
-        "tool-mcq-18": "「完成某類工作所具備的一組工具／能力」與本句語境不同。",
-        "tool-mcq-17": "「一套可用來處理問題的技能、方法或資源」與本句語境不同。",
-        "tool-mcq-16": "「一套存放在一起的工具／工具箱」與本句語境不同。"
+        "tool-mcq-21": "本句的「tool up」指「為生產／工作添置並配備所需工具設備」。",
+        "tool-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tool-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tool-mcq-21"
     }
@@ -1594,5 +1386,7 @@ export default {
     "sha256": "1073c67b226abeecdecfd22fb8f12bf566206b16109fac158b6fa53883766dc7",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

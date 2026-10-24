@@ -464,11 +464,8 @@ export default {
       "masked": "Her intelligence was matched by genuine ____.",
       "options": [
         "humility-mcq-01",
-        "humility-mcq-02",
-        "humility-mcq-03",
-        "humility-mcq-04",
-        "humility-mcq-05",
-        "humility-mcq-06"
+        "humility-mcq-13",
+        "humility-mcq-05"
       ],
       "explanation": "本句的「humility」指「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」。",
       "sentenceIndex": 0,
@@ -477,12 +474,9 @@ export default {
         "humility"
       ],
       "optionReasons": {
-        "humility-mcq-01": "本句指「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」。",
-        "humility-mcq-02": "「願意承認自己的知識、能力或判斷可能有限」與本句語境不同。",
-        "humility-mcq-03": "「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」與本句語境不同。",
-        "humility-mcq-04": "「願意聆聽、接受回饋並向別人學習的虛心態度」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。"
+        "humility-mcq-01": "本句的「humility」指「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-01"
     },
@@ -494,11 +488,8 @@ export default {
       "masked": "Despite her achievements, she always spoke with ____.",
       "options": [
         "humility-mcq-01",
-        "humility-mcq-02",
-        "humility-mcq-03",
-        "humility-mcq-04",
-        "humility-mcq-05",
-        "humility-mcq-06"
+        "humility-mcq-13",
+        "humility-mcq-05"
       ],
       "explanation": "本句的「humility」指「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」。",
       "sentenceIndex": 1,
@@ -507,12 +498,9 @@ export default {
         "humility"
       ],
       "optionReasons": {
-        "humility-mcq-01": "本句指「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」。",
-        "humility-mcq-02": "「願意承認自己的知識、能力或判斷可能有限」與本句語境不同。",
-        "humility-mcq-03": "「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」與本句語境不同。",
-        "humility-mcq-04": "「願意聆聽、接受回饋並向別人學習的虛心態度」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。"
+        "humility-mcq-01": "本句的「humility」指「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-01"
     },
@@ -524,11 +512,8 @@ export default {
       "masked": "Great leaders often combine confidence with ____.",
       "options": [
         "humility-mcq-01",
-        "humility-mcq-02",
-        "humility-mcq-03",
-        "humility-mcq-04",
-        "humility-mcq-05",
-        "humility-mcq-06"
+        "humility-mcq-13",
+        "humility-mcq-05"
       ],
       "explanation": "本句的「humility」指「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」。",
       "sentenceIndex": 2,
@@ -537,12 +522,9 @@ export default {
         "humility"
       ],
       "optionReasons": {
-        "humility-mcq-01": "本句指「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」。",
-        "humility-mcq-02": "「願意承認自己的知識、能力或判斷可能有限」與本句語境不同。",
-        "humility-mcq-03": "「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」與本句語境不同。",
-        "humility-mcq-04": "「願意聆聽、接受回饋並向別人學習的虛心態度」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。"
+        "humility-mcq-01": "本句的「humility」指「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-01"
     },
@@ -554,11 +536,8 @@ export default {
       "masked": "She accepted the award with ____.",
       "options": [
         "humility-mcq-01",
-        "humility-mcq-02",
-        "humility-mcq-03",
-        "humility-mcq-04",
-        "humility-mcq-05",
-        "humility-mcq-06"
+        "humility-mcq-13",
+        "humility-mcq-05"
       ],
       "explanation": "本句的「humility」指「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」。",
       "sentenceIndex": 3,
@@ -567,12 +546,9 @@ export default {
         "humility"
       ],
       "optionReasons": {
-        "humility-mcq-01": "本句指「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」。",
-        "humility-mcq-02": "「願意承認自己的知識、能力或判斷可能有限」與本句語境不同。",
-        "humility-mcq-03": "「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」與本句語境不同。",
-        "humility-mcq-04": "「願意聆聽、接受回饋並向別人學習的虛心態度」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。"
+        "humility-mcq-01": "本句的「humility」指「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-01"
     },
@@ -584,11 +560,9 @@ export default {
       "masked": "Good researchers need the ____ to admit when the evidence is incomplete.",
       "options": [
         "humility-mcq-02",
-        "humility-mcq-01",
-        "humility-mcq-03",
-        "humility-mcq-04",
         "humility-mcq-05",
-        "humility-mcq-06"
+        "humility-mcq-13",
+        "humility-mcq-10"
       ],
       "explanation": "本句的「humility」指「願意承認自己的知識、能力或判斷可能有限」。",
       "sentenceIndex": 4,
@@ -597,12 +571,10 @@ export default {
         "humility"
       ],
       "optionReasons": {
-        "humility-mcq-02": "本句指「願意承認自己的知識、能力或判斷可能有限」。",
-        "humility-mcq-01": "「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」與本句語境不同。",
-        "humility-mcq-03": "「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」與本句語境不同。",
-        "humility-mcq-04": "「願意聆聽、接受回饋並向別人學習的虛心態度」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。"
+        "humility-mcq-02": "本句的「humility」指「願意承認自己的知識、能力或判斷可能有限」。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-02"
     },
@@ -614,11 +586,9 @@ export default {
       "masked": "It takes ____ to say, “I was wrong.",
       "options": [
         "humility-mcq-02",
-        "humility-mcq-01",
-        "humility-mcq-03",
-        "humility-mcq-04",
-        "humility-mcq-05",
-        "humility-mcq-06"
+        "humility-mcq-19",
+        "humility-mcq-14",
+        "humility-mcq-10"
       ],
       "explanation": "本句的「humility」指「願意承認自己的知識、能力或判斷可能有限」。",
       "sentenceIndex": 5,
@@ -627,12 +597,10 @@ export default {
         "humility"
       ],
       "optionReasons": {
-        "humility-mcq-02": "本句指「願意承認自己的知識、能力或判斷可能有限」。",
-        "humility-mcq-01": "「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」與本句語境不同。",
-        "humility-mcq-03": "「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」與本句語境不同。",
-        "humility-mcq-04": "「願意聆聽、接受回饋並向別人學習的虛心態度」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。"
+        "humility-mcq-02": "本句的「humility」指「願意承認自己的知識、能力或判斷可能有限」。",
+        "humility-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-02"
     },
@@ -644,11 +612,8 @@ export default {
       "masked": "____ allows people to reconsider their assumptions.",
       "options": [
         "humility-mcq-03",
-        "humility-mcq-02",
-        "humility-mcq-04",
-        "humility-mcq-01",
-        "humility-mcq-05",
-        "humility-mcq-06"
+        "humility-mcq-13",
+        "humility-mcq-05"
       ],
       "explanation": "本句的「Intellectual humility」指「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」。",
       "sentenceIndex": 6,
@@ -657,12 +622,9 @@ export default {
         "Intellectual humility"
       ],
       "optionReasons": {
-        "humility-mcq-03": "本句指「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」。",
-        "humility-mcq-02": "「願意承認自己的知識、能力或判斷可能有限」與本句語境不同。",
-        "humility-mcq-04": "「願意聆聽、接受回饋並向別人學習的虛心態度」與本句語境不同。",
-        "humility-mcq-01": "「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。"
+        "humility-mcq-03": "本句的「Intellectual humility」指「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-03"
     },
@@ -674,11 +636,8 @@ export default {
       "masked": "A good scientist needs both confidence and ____.",
       "options": [
         "humility-mcq-03",
-        "humility-mcq-02",
-        "humility-mcq-04",
-        "humility-mcq-01",
-        "humility-mcq-05",
-        "humility-mcq-06"
+        "humility-mcq-13",
+        "humility-mcq-05"
       ],
       "explanation": "本句的「intellectual humility」指「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」。",
       "sentenceIndex": 7,
@@ -687,12 +646,9 @@ export default {
         "intellectual humility"
       ],
       "optionReasons": {
-        "humility-mcq-03": "本句指「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」。",
-        "humility-mcq-02": "「願意承認自己的知識、能力或判斷可能有限」與本句語境不同。",
-        "humility-mcq-04": "「願意聆聽、接受回饋並向別人學習的虛心態度」與本句語境不同。",
-        "humility-mcq-01": "「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。"
+        "humility-mcq-03": "本句的「intellectual humility」指「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-03"
     },
@@ -704,10 +660,7 @@ export default {
       "masked": "She handled her success with remarkable ____.",
       "options": [
         "humility-mcq-08",
-        "humility-mcq-07",
-        "humility-mcq-09",
-        "humility-mcq-06",
-        "humility-mcq-10",
+        "humility-mcq-13",
         "humility-mcq-05"
       ],
       "explanation": "本句的「humility」指「以謙遜、不自大的態度」。",
@@ -717,12 +670,9 @@ export default {
         "humility"
       ],
       "optionReasons": {
-        "humility-mcq-08": "本句指「以謙遜、不自大的態度」。",
-        "humility-mcq-07": "「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」與本句語境不同。",
-        "humility-mcq-09": "「足夠謙遜，願意承認、接受或做某事」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。",
-        "humility-mcq-10": "「透過言行表現出謙遜」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。"
+        "humility-mcq-08": "本句的「humility」指「以謙遜、不自大的態度」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-08"
     },
@@ -734,10 +684,7 @@ export default {
       "masked": "His ____ made him easy to work with.",
       "options": [
         "humility-mcq-08",
-        "humility-mcq-07",
-        "humility-mcq-09",
-        "humility-mcq-06",
-        "humility-mcq-10",
+        "humility-mcq-13",
         "humility-mcq-05"
       ],
       "explanation": "本句的「humility」指「以謙遜、不自大的態度」。",
@@ -747,12 +694,9 @@ export default {
         "humility"
       ],
       "optionReasons": {
-        "humility-mcq-08": "本句指「以謙遜、不自大的態度」。",
-        "humility-mcq-07": "「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」與本句語境不同。",
-        "humility-mcq-09": "「足夠謙遜，願意承認、接受或做某事」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。",
-        "humility-mcq-10": "「透過言行表現出謙遜」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。"
+        "humility-mcq-08": "本句的「humility」指「以謙遜、不自大的態度」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-08"
     },
@@ -764,11 +708,9 @@ export default {
       "masked": "She had the ____.",
       "options": [
         "humility-mcq-04",
-        "humility-mcq-03",
         "humility-mcq-05",
-        "humility-mcq-02",
-        "humility-mcq-06",
-        "humility-mcq-01"
+        "humility-mcq-10",
+        "humility-mcq-13"
       ],
       "explanation": "本句的「humility to learn from younger colleagues」指「願意聆聽、接受回饋並向別人學習的虛心態度」。",
       "sentenceIndex": 10,
@@ -777,12 +719,10 @@ export default {
         "humility to learn from younger colleagues"
       ],
       "optionReasons": {
-        "humility-mcq-04": "本句指「願意聆聽、接受回饋並向別人學習的虛心態度」。",
-        "humility-mcq-03": "「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。",
-        "humility-mcq-02": "「願意承認自己的知識、能力或判斷可能有限」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。",
-        "humility-mcq-01": "「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」與本句語境不同。"
+        "humility-mcq-04": "本句的「humility to learn from younger colleagues」指「願意聆聽、接受回饋並向別人學習的虛心態度」。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-04"
     },
@@ -794,11 +734,9 @@ export default {
       "masked": "Improvement requires enough ____.",
       "options": [
         "humility-mcq-04",
-        "humility-mcq-03",
-        "humility-mcq-05",
-        "humility-mcq-02",
-        "humility-mcq-06",
-        "humility-mcq-01"
+        "humility-mcq-13",
+        "humility-mcq-10",
+        "humility-mcq-05"
       ],
       "explanation": "本句的「humility to accept feedback」指「願意聆聽、接受回饋並向別人學習的虛心態度」。",
       "sentenceIndex": 11,
@@ -807,12 +745,10 @@ export default {
         "humility to accept feedback"
       ],
       "optionReasons": {
-        "humility-mcq-04": "本句指「願意聆聽、接受回饋並向別人學習的虛心態度」。",
-        "humility-mcq-03": "「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。",
-        "humility-mcq-02": "「願意承認自己的知識、能力或判斷可能有限」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。",
-        "humility-mcq-01": "「不認為自己比別人更重要、更優秀，並保持不自大的態度；謙遜／謙虛」與本句語境不同。"
+        "humility-mcq-04": "本句的「humility to accept feedback」指「願意聆聽、接受回饋並向別人學習的虛心態度」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-04"
     },
@@ -824,11 +760,9 @@ export default {
       "masked": "The tradition emphasizes ____ and service to others.",
       "options": [
         "humility-mcq-05",
-        "humility-mcq-04",
-        "humility-mcq-06",
-        "humility-mcq-03",
-        "humility-mcq-07",
-        "humility-mcq-02"
+        "humility-mcq-16",
+        "humility-mcq-13",
+        "humility-mcq-09"
       ],
       "explanation": "本句的「humility」指「作為道德或宗教美德的謙卑、不驕傲」。",
       "sentenceIndex": 12,
@@ -837,12 +771,10 @@ export default {
         "humility"
       ],
       "optionReasons": {
-        "humility-mcq-05": "本句指「作為道德或宗教美德的謙卑、不驕傲」。",
-        "humility-mcq-04": "「願意聆聽、接受回饋並向別人學習的虛心態度」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。",
-        "humility-mcq-03": "「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」與本句語境不同。",
-        "humility-mcq-07": "「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」與本句語境不同。",
-        "humility-mcq-02": "「願意承認自己的知識、能力或判斷可能有限」與本句語境不同。"
+        "humility-mcq-05": "本句的「humility」指「作為道德或宗教美德的謙卑、不驕傲」。",
+        "humility-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-05"
     },
@@ -854,11 +786,9 @@ export default {
       "masked": "____ is regarded as an important virtue in many religious traditions.",
       "options": [
         "humility-mcq-05",
-        "humility-mcq-04",
-        "humility-mcq-06",
-        "humility-mcq-03",
-        "humility-mcq-07",
-        "humility-mcq-02"
+        "humility-mcq-16",
+        "humility-mcq-13",
+        "humility-mcq-09"
       ],
       "explanation": "本句的「Humility」指「作為道德或宗教美德的謙卑、不驕傲」。",
       "sentenceIndex": 13,
@@ -867,12 +797,10 @@ export default {
         "Humility"
       ],
       "optionReasons": {
-        "humility-mcq-05": "本句指「作為道德或宗教美德的謙卑、不驕傲」。",
-        "humility-mcq-04": "「願意聆聽、接受回饋並向別人學習的虛心態度」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。",
-        "humility-mcq-03": "「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」與本句語境不同。",
-        "humility-mcq-07": "「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」與本句語境不同。",
-        "humility-mcq-02": "「願意承認自己的知識、能力或判斷可能有限」與本句語境不同。"
+        "humility-mcq-05": "本句的「Humility」指「作為道德或宗教美德的謙卑、不驕傲」。",
+        "humility-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-05"
     },
@@ -884,11 +812,9 @@ export default {
       "masked": "Failure taught him ____.",
       "options": [
         "humility-mcq-06",
-        "humility-mcq-05",
-        "humility-mcq-07",
+        "humility-mcq-13",
         "humility-mcq-04",
-        "humility-mcq-08",
-        "humility-mcq-03"
+        "humility-mcq-05"
       ],
       "explanation": "本句的「humility」指「經歷事情後變得更謙遜、認清自己的局限」。",
       "sentenceIndex": 14,
@@ -897,12 +823,10 @@ export default {
         "humility"
       ],
       "optionReasons": {
-        "humility-mcq-06": "本句指「經歷事情後變得更謙遜、認清自己的局限」。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。",
-        "humility-mcq-07": "「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」與本句語境不同。",
-        "humility-mcq-04": "「願意聆聽、接受回饋並向別人學習的虛心態度」與本句語境不同。",
-        "humility-mcq-08": "「以謙遜、不自大的態度」與本句語境不同。",
-        "humility-mcq-03": "「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」與本句語境不同。"
+        "humility-mcq-06": "本句的「humility」指「經歷事情後變得更謙遜、認清自己的局限」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-06"
     },
@@ -914,11 +838,9 @@ export default {
       "masked": "The experience gave her a new sense of ____.",
       "options": [
         "humility-mcq-06",
-        "humility-mcq-05",
-        "humility-mcq-07",
+        "humility-mcq-13",
         "humility-mcq-04",
-        "humility-mcq-08",
-        "humility-mcq-03"
+        "humility-mcq-05"
       ],
       "explanation": "本句的「humility」指「經歷事情後變得更謙遜、認清自己的局限」。",
       "sentenceIndex": 15,
@@ -927,12 +849,10 @@ export default {
         "humility"
       ],
       "optionReasons": {
-        "humility-mcq-06": "本句指「經歷事情後變得更謙遜、認清自己的局限」。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。",
-        "humility-mcq-07": "「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」與本句語境不同。",
-        "humility-mcq-04": "「願意聆聽、接受回饋並向別人學習的虛心態度」與本句語境不同。",
-        "humility-mcq-08": "「以謙遜、不自大的態度」與本句語境不同。",
-        "humility-mcq-03": "「願意承認自己的信念、知識或推理可能不完整或有錯；智識謙遜」與本句語境不同。"
+        "humility-mcq-06": "本句的「humility」指「經歷事情後變得更謙遜、認清自己的局限」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-06"
     },
@@ -944,11 +864,8 @@ export default {
       "masked": "Losing the match was a ____.",
       "options": [
         "humility-mcq-07",
-        "humility-mcq-06",
-        "humility-mcq-08",
-        "humility-mcq-05",
-        "humility-mcq-09",
-        "humility-mcq-04"
+        "humility-mcq-14",
+        "humility-mcq-05"
       ],
       "explanation": "本句的「lesson in humility」指「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」。",
       "sentenceIndex": 16,
@@ -957,12 +874,9 @@ export default {
         "lesson in humility"
       ],
       "optionReasons": {
-        "humility-mcq-07": "本句指「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。",
-        "humility-mcq-08": "「以謙遜、不自大的態度」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。",
-        "humility-mcq-09": "「足夠謙遜，願意承認、接受或做某事」與本句語境不同。",
-        "humility-mcq-04": "「願意聆聽、接受回饋並向別人學習的虛心態度」與本句語境不同。"
+        "humility-mcq-07": "本句的「lesson in humility」指「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」。",
+        "humility-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-07"
     },
@@ -974,11 +888,8 @@ export default {
       "masked": "Starting a new job can sometimes be a ____.",
       "options": [
         "humility-mcq-07",
-        "humility-mcq-06",
-        "humility-mcq-08",
-        "humility-mcq-05",
-        "humility-mcq-09",
-        "humility-mcq-04"
+        "humility-mcq-13",
+        "humility-mcq-19"
       ],
       "explanation": "本句的「lesson in humility」指「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」。",
       "sentenceIndex": 17,
@@ -987,12 +898,9 @@ export default {
         "lesson in humility"
       ],
       "optionReasons": {
-        "humility-mcq-07": "本句指「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。",
-        "humility-mcq-08": "「以謙遜、不自大的態度」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。",
-        "humility-mcq-09": "「足夠謙遜，願意承認、接受或做某事」與本句語境不同。",
-        "humility-mcq-04": "「願意聆聽、接受回饋並向別人學習的虛心態度」與本句語境不同。"
+        "humility-mcq-07": "本句的「lesson in humility」指「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-07"
     },
@@ -1004,10 +912,7 @@ export default {
       "masked": "She accepted the criticism ____.",
       "options": [
         "humility-mcq-08",
-        "humility-mcq-07",
-        "humility-mcq-09",
-        "humility-mcq-06",
-        "humility-mcq-10",
+        "humility-mcq-13",
         "humility-mcq-05"
       ],
       "explanation": "本句的「with humility」指「以謙遜、不自大的態度」。",
@@ -1017,12 +922,9 @@ export default {
         "with humility"
       ],
       "optionReasons": {
-        "humility-mcq-08": "本句指「以謙遜、不自大的態度」。",
-        "humility-mcq-07": "「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」與本句語境不同。",
-        "humility-mcq-09": "「足夠謙遜，願意承認、接受或做某事」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。",
-        "humility-mcq-10": "「透過言行表現出謙遜」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。"
+        "humility-mcq-08": "本句的「with humility」指「以謙遜、不自大的態度」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-08"
     },
@@ -1034,10 +936,7 @@ export default {
       "masked": "He spoke about his achievements ____.",
       "options": [
         "humility-mcq-08",
-        "humility-mcq-07",
-        "humility-mcq-09",
-        "humility-mcq-06",
-        "humility-mcq-10",
+        "humility-mcq-13",
         "humility-mcq-05"
       ],
       "explanation": "本句的「with humility」指「以謙遜、不自大的態度」。",
@@ -1047,12 +946,9 @@ export default {
         "with humility"
       ],
       "optionReasons": {
-        "humility-mcq-08": "本句指「以謙遜、不自大的態度」。",
-        "humility-mcq-07": "「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」與本句語境不同。",
-        "humility-mcq-09": "「足夠謙遜，願意承認、接受或做某事」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。",
-        "humility-mcq-10": "「透過言行表現出謙遜」與本句語境不同。",
-        "humility-mcq-05": "「作為道德或宗教美德的謙卑、不驕傲」與本句語境不同。"
+        "humility-mcq-08": "本句的「with humility」指「以謙遜、不自大的態度」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-08"
     },
@@ -1064,11 +960,9 @@ export default {
       "masked": "She had the ____.",
       "options": [
         "humility-mcq-09",
-        "humility-mcq-08",
-        "humility-mcq-10",
-        "humility-mcq-07",
-        "humility-mcq-11",
-        "humility-mcq-06"
+        "humility-mcq-14",
+        "humility-mcq-05",
+        "humility-mcq-15"
       ],
       "explanation": "本句的「humility to admit that she did not know the answer」指「足夠謙遜，願意承認、接受或做某事」。",
       "sentenceIndex": 20,
@@ -1077,12 +971,10 @@ export default {
         "humility to admit that she did not know the answer"
       ],
       "optionReasons": {
-        "humility-mcq-09": "本句指「足夠謙遜，願意承認、接受或做某事」。",
-        "humility-mcq-08": "「以謙遜、不自大的態度」與本句語境不同。",
-        "humility-mcq-10": "「透過言行表現出謙遜」與本句語境不同。",
-        "humility-mcq-07": "「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」與本句語境不同。",
-        "humility-mcq-11": "「對自身位置和局限保持的謙遜心態」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。"
+        "humility-mcq-09": "本句的「humility to admit that she did not know the answer」指「足夠謙遜，願意承認、接受或做某事」。",
+        "humility-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-09"
     },
@@ -1094,11 +986,9 @@ export default {
       "masked": "Good leaders have the ____.",
       "options": [
         "humility-mcq-09",
-        "humility-mcq-08",
-        "humility-mcq-10",
-        "humility-mcq-07",
-        "humility-mcq-11",
-        "humility-mcq-06"
+        "humility-mcq-13",
+        "humility-mcq-05",
+        "humility-mcq-16"
       ],
       "explanation": "本句的「humility to ask for help」指「足夠謙遜，願意承認、接受或做某事」。",
       "sentenceIndex": 21,
@@ -1107,12 +997,10 @@ export default {
         "humility to ask for help"
       ],
       "optionReasons": {
-        "humility-mcq-09": "本句指「足夠謙遜，願意承認、接受或做某事」。",
-        "humility-mcq-08": "「以謙遜、不自大的態度」與本句語境不同。",
-        "humility-mcq-10": "「透過言行表現出謙遜」與本句語境不同。",
-        "humility-mcq-07": "「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」與本句語境不同。",
-        "humility-mcq-11": "「對自身位置和局限保持的謙遜心態」與本句語境不同。",
-        "humility-mcq-06": "「經歷事情後變得更謙遜、認清自己的局限」與本句語境不同。"
+        "humility-mcq-09": "本句的「humility to ask for help」指「足夠謙遜，願意承認、接受或做某事」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-09"
     },
@@ -1124,11 +1012,9 @@ export default {
       "masked": "He ____ after winning the award.",
       "options": [
         "humility-mcq-10",
-        "humility-mcq-09",
-        "humility-mcq-11",
-        "humility-mcq-08",
-        "humility-mcq-12",
-        "humility-mcq-07"
+        "humility-mcq-14",
+        "humility-mcq-02",
+        "humility-mcq-19"
       ],
       "explanation": "本句的「showed humility」指「透過言行表現出謙遜」。",
       "sentenceIndex": 22,
@@ -1137,12 +1023,10 @@ export default {
         "showed humility"
       ],
       "optionReasons": {
-        "humility-mcq-10": "本句指「透過言行表現出謙遜」。",
-        "humility-mcq-09": "「足夠謙遜，願意承認、接受或做某事」與本句語境不同。",
-        "humility-mcq-11": "「對自身位置和局限保持的謙遜心態」與本句語境不同。",
-        "humility-mcq-08": "「以謙遜、不自大的態度」與本句語境不同。",
-        "humility-mcq-12": "「不自大、不認為自己高人一等的；謙虛的」與本句語境不同。",
-        "humility-mcq-07": "「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」與本句語境不同。"
+        "humility-mcq-10": "本句的「showed humility」指「透過言行表現出謙遜」。",
+        "humility-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-10"
     },
@@ -1154,11 +1038,9 @@ export default {
       "masked": "Admitting your mistake can ____.",
       "options": [
         "humility-mcq-10",
-        "humility-mcq-09",
-        "humility-mcq-11",
-        "humility-mcq-08",
-        "humility-mcq-12",
-        "humility-mcq-07"
+        "humility-mcq-14",
+        "humility-mcq-02",
+        "humility-mcq-19"
       ],
       "explanation": "本句的「show humility」指「透過言行表現出謙遜」。",
       "sentenceIndex": 23,
@@ -1167,12 +1049,10 @@ export default {
         "show humility"
       ],
       "optionReasons": {
-        "humility-mcq-10": "本句指「透過言行表現出謙遜」。",
-        "humility-mcq-09": "「足夠謙遜，願意承認、接受或做某事」與本句語境不同。",
-        "humility-mcq-11": "「對自身位置和局限保持的謙遜心態」與本句語境不同。",
-        "humility-mcq-08": "「以謙遜、不自大的態度」與本句語境不同。",
-        "humility-mcq-12": "「不自大、不認為自己高人一等的；謙虛的」與本句語境不同。",
-        "humility-mcq-07": "「讓人認清自己並非無所不能的經歷；使人學會謙遜的一課」與本句語境不同。"
+        "humility-mcq-10": "本句的「show humility」指「透過言行表現出謙遜」。",
+        "humility-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-10"
     },
@@ -1184,11 +1064,9 @@ export default {
       "masked": "The experience gave him a greater ____.",
       "options": [
         "humility-mcq-11",
-        "humility-mcq-10",
-        "humility-mcq-12",
-        "humility-mcq-09",
-        "humility-mcq-13",
-        "humility-mcq-08"
+        "humility-mcq-14",
+        "humility-mcq-19",
+        "humility-mcq-02"
       ],
       "explanation": "本句的「sense of humility」指「對自身位置和局限保持的謙遜心態」。",
       "sentenceIndex": 24,
@@ -1197,12 +1075,10 @@ export default {
         "sense of humility"
       ],
       "optionReasons": {
-        "humility-mcq-11": "本句指「對自身位置和局限保持的謙遜心態」。",
-        "humility-mcq-10": "「透過言行表現出謙遜」與本句語境不同。",
-        "humility-mcq-12": "「不自大、不認為自己高人一等的；謙虛的」與本句語境不同。",
-        "humility-mcq-09": "「足夠謙遜，願意承認、接受或做某事」與本句語境不同。",
-        "humility-mcq-13": "「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」與本句語境不同。",
-        "humility-mcq-08": "「以謙遜、不自大的態度」與本句語境不同。"
+        "humility-mcq-11": "本句的「sense of humility」指「對自身位置和局限保持的謙遜心態」。",
+        "humility-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-11"
     },
@@ -1214,11 +1090,9 @@ export default {
       "masked": "Good education can encourage curiosity and a ____.",
       "options": [
         "humility-mcq-11",
-        "humility-mcq-10",
-        "humility-mcq-12",
-        "humility-mcq-09",
-        "humility-mcq-13",
-        "humility-mcq-08"
+        "humility-mcq-14",
+        "humility-mcq-19",
+        "humility-mcq-02"
       ],
       "explanation": "本句的「sense of humility」指「對自身位置和局限保持的謙遜心態」。",
       "sentenceIndex": 25,
@@ -1227,12 +1101,10 @@ export default {
         "sense of humility"
       ],
       "optionReasons": {
-        "humility-mcq-11": "本句指「對自身位置和局限保持的謙遜心態」。",
-        "humility-mcq-10": "「透過言行表現出謙遜」與本句語境不同。",
-        "humility-mcq-12": "「不自大、不認為自己高人一等的；謙虛的」與本句語境不同。",
-        "humility-mcq-09": "「足夠謙遜，願意承認、接受或做某事」與本句語境不同。",
-        "humility-mcq-13": "「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」與本句語境不同。",
-        "humility-mcq-08": "「以謙遜、不自大的態度」與本句語境不同。"
+        "humility-mcq-11": "本句的「sense of humility」指「對自身位置和局限保持的謙遜心態」。",
+        "humility-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-11"
     },
@@ -1244,11 +1116,9 @@ export default {
       "masked": "She is brilliant but very ____.",
       "options": [
         "humility-mcq-12",
-        "humility-mcq-11",
         "humility-mcq-13",
         "humility-mcq-10",
-        "humility-mcq-14",
-        "humility-mcq-09"
+        "humility-mcq-05"
       ],
       "explanation": "本句的「humble」指「不自大、不認為自己高人一等的；謙虛的」。",
       "sentenceIndex": 26,
@@ -1257,12 +1127,10 @@ export default {
         "humble"
       ],
       "optionReasons": {
-        "humility-mcq-12": "本句指「不自大、不認為自己高人一等的；謙虛的」。",
-        "humility-mcq-11": "「對自身位置和局限保持的謙遜心態」與本句語境不同。",
-        "humility-mcq-13": "「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」與本句語境不同。",
-        "humility-mcq-10": "「透過言行表現出謙遜」與本句語境不同。",
-        "humility-mcq-14": "「一個人、公司等起初平凡、貧困或不起眼的背景」與本句語境不同。",
-        "humility-mcq-09": "「足夠謙遜，願意承認、接受或做某事」與本句語境不同。"
+        "humility-mcq-12": "本句的「humble」指「不自大、不認為自己高人一等的；謙虛的」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-12"
     },
@@ -1274,11 +1142,9 @@ export default {
       "masked": "He remained ____ despite his success.",
       "options": [
         "humility-mcq-12",
-        "humility-mcq-11",
-        "humility-mcq-13",
-        "humility-mcq-10",
         "humility-mcq-14",
-        "humility-mcq-09"
+        "humility-mcq-05",
+        "humility-mcq-10"
       ],
       "explanation": "本句的「humble」指「不自大、不認為自己高人一等的；謙虛的」。",
       "sentenceIndex": 27,
@@ -1287,12 +1153,10 @@ export default {
         "humble"
       ],
       "optionReasons": {
-        "humility-mcq-12": "本句指「不自大、不認為自己高人一等的；謙虛的」。",
-        "humility-mcq-11": "「對自身位置和局限保持的謙遜心態」與本句語境不同。",
-        "humility-mcq-13": "「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」與本句語境不同。",
-        "humility-mcq-10": "「透過言行表現出謙遜」與本句語境不同。",
-        "humility-mcq-14": "「一個人、公司等起初平凡、貧困或不起眼的背景」與本句語境不同。",
-        "humility-mcq-09": "「足夠謙遜，願意承認、接受或做某事」與本句語境不同。"
+        "humility-mcq-12": "本句的「humble」指「不自大、不認為自己高人一等的；謙虛的」。",
+        "humility-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-12"
     },
@@ -1304,11 +1168,9 @@ export default {
       "masked": "He came from ____.",
       "options": [
         "humility-mcq-13",
-        "humility-mcq-12",
-        "humility-mcq-14",
-        "humility-mcq-11",
-        "humility-mcq-15",
-        "humility-mcq-10"
+        "humility-mcq-06",
+        "humility-mcq-19",
+        "humility-mcq-04"
       ],
       "explanation": "本句的「humble beginnings」指「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」。",
       "sentenceIndex": 28,
@@ -1317,12 +1179,10 @@ export default {
         "humble beginnings"
       ],
       "optionReasons": {
-        "humility-mcq-13": "本句指「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」。",
-        "humility-mcq-12": "「不自大、不認為自己高人一等的；謙虛的」與本句語境不同。",
-        "humility-mcq-14": "「一個人、公司等起初平凡、貧困或不起眼的背景」與本句語境不同。",
-        "humility-mcq-11": "「對自身位置和局限保持的謙遜心態」與本句語境不同。",
-        "humility-mcq-15": "「以謙虛語氣提出自己的看法；愚見／依我淺見」與本句語境不同。",
-        "humility-mcq-10": "「透過言行表現出謙遜」與本句語境不同。"
+        "humility-mcq-13": "本句的「humble beginnings」指「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」。",
+        "humility-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-13"
     },
@@ -1334,11 +1194,8 @@ export default {
       "masked": "The restaurant began as a ____.",
       "options": [
         "humility-mcq-13",
-        "humility-mcq-12",
-        "humility-mcq-14",
-        "humility-mcq-11",
-        "humility-mcq-15",
-        "humility-mcq-10"
+        "humility-mcq-01",
+        "humility-mcq-05"
       ],
       "explanation": "本句的「humble street stall」指「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」。",
       "sentenceIndex": 29,
@@ -1347,12 +1204,9 @@ export default {
         "humble street stall"
       ],
       "optionReasons": {
-        "humility-mcq-13": "本句指「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」。",
-        "humility-mcq-12": "「不自大、不認為自己高人一等的；謙虛的」與本句語境不同。",
-        "humility-mcq-14": "「一個人、公司等起初平凡、貧困或不起眼的背景」與本句語境不同。",
-        "humility-mcq-11": "「對自身位置和局限保持的謙遜心態」與本句語境不同。",
-        "humility-mcq-15": "「以謙虛語氣提出自己的看法；愚見／依我淺見」與本句語境不同。",
-        "humility-mcq-10": "「透過言行表現出謙遜」與本句語境不同。"
+        "humility-mcq-13": "本句的「humble street stall」指「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」。",
+        "humility-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-13"
     },
@@ -1364,10 +1218,7 @@ export default {
       "masked": "The company grew from ____.",
       "options": [
         "humility-mcq-14",
-        "humility-mcq-13",
         "humility-mcq-15",
-        "humility-mcq-12",
-        "humility-mcq-16",
         "humility-mcq-11"
       ],
       "explanation": "本句的「humble beginnings」指「一個人、公司等起初平凡、貧困或不起眼的背景」。",
@@ -1377,12 +1228,9 @@ export default {
         "humble beginnings"
       ],
       "optionReasons": {
-        "humility-mcq-14": "本句指「一個人、公司等起初平凡、貧困或不起眼的背景」。",
-        "humility-mcq-13": "「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」與本句語境不同。",
-        "humility-mcq-15": "「以謙虛語氣提出自己的看法；愚見／依我淺見」與本句語境不同。",
-        "humility-mcq-12": "「不自大、不認為自己高人一等的；謙虛的」與本句語境不同。",
-        "humility-mcq-16": "「使某人認清自己的局限，不再過度自信或自大」與本句語境不同。",
-        "humility-mcq-11": "「對自身位置和局限保持的謙遜心態」與本句語境不同。"
+        "humility-mcq-14": "本句的「humble beginnings」指「一個人、公司等起初平凡、貧困或不起眼的背景」。",
+        "humility-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-14"
     },
@@ -1394,11 +1242,8 @@ export default {
       "masked": "Despite her ____, she became a respected scientist.",
       "options": [
         "humility-mcq-14",
-        "humility-mcq-13",
-        "humility-mcq-15",
-        "humility-mcq-12",
-        "humility-mcq-16",
-        "humility-mcq-11"
+        "humility-mcq-19",
+        "humility-mcq-09"
       ],
       "explanation": "本句的「humble beginnings」指「一個人、公司等起初平凡、貧困或不起眼的背景」。",
       "sentenceIndex": 31,
@@ -1407,12 +1252,9 @@ export default {
         "humble beginnings"
       ],
       "optionReasons": {
-        "humility-mcq-14": "本句指「一個人、公司等起初平凡、貧困或不起眼的背景」。",
-        "humility-mcq-13": "「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」與本句語境不同。",
-        "humility-mcq-15": "「以謙虛語氣提出自己的看法；愚見／依我淺見」與本句語境不同。",
-        "humility-mcq-12": "「不自大、不認為自己高人一等的；謙虛的」與本句語境不同。",
-        "humility-mcq-16": "「使某人認清自己的局限，不再過度自信或自大」與本句語境不同。",
-        "humility-mcq-11": "「對自身位置和局限保持的謙遜心態」與本句語境不同。"
+        "humility-mcq-14": "本句的「humble beginnings」指「一個人、公司等起初平凡、貧困或不起眼的背景」。",
+        "humility-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-14"
     },
@@ -1425,10 +1267,8 @@ export default {
       "options": [
         "humility-mcq-15",
         "humility-mcq-14",
-        "humility-mcq-16",
-        "humility-mcq-13",
-        "humility-mcq-17",
-        "humility-mcq-12"
+        "humility-mcq-05",
+        "humility-mcq-09"
       ],
       "explanation": "本句的「humble opinion」指「以謙虛語氣提出自己的看法；愚見／依我淺見」。",
       "sentenceIndex": 32,
@@ -1437,12 +1277,10 @@ export default {
         "humble opinion"
       ],
       "optionReasons": {
-        "humility-mcq-15": "本句指「以謙虛語氣提出自己的看法；愚見／依我淺見」。",
-        "humility-mcq-14": "「一個人、公司等起初平凡、貧困或不起眼的背景」與本句語境不同。",
-        "humility-mcq-16": "「使某人認清自己的局限，不再過度自信或自大」與本句語境不同。",
-        "humility-mcq-13": "「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」與本句語境不同。",
-        "humility-mcq-17": "「因榮譽、經歷或他人善意而感到謙卑、受寵若驚或更謙遜」與本句語境不同。",
-        "humility-mcq-12": "「不自大、不認為自己高人一等的；謙虛的」與本句語境不同。"
+        "humility-mcq-15": "本句的「humble opinion」指「以謙虛語氣提出自己的看法；愚見／依我淺見」。",
+        "humility-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-15"
     },
@@ -1455,10 +1293,8 @@ export default {
       "options": [
         "humility-mcq-15",
         "humility-mcq-14",
-        "humility-mcq-16",
-        "humility-mcq-13",
-        "humility-mcq-17",
-        "humility-mcq-12"
+        "humility-mcq-05",
+        "humility-mcq-09"
       ],
       "explanation": "本句的「humble opinion」指「以謙虛語氣提出自己的看法；愚見／依我淺見」。",
       "sentenceIndex": 33,
@@ -1467,12 +1303,10 @@ export default {
         "humble opinion"
       ],
       "optionReasons": {
-        "humility-mcq-15": "本句指「以謙虛語氣提出自己的看法；愚見／依我淺見」。",
-        "humility-mcq-14": "「一個人、公司等起初平凡、貧困或不起眼的背景」與本句語境不同。",
-        "humility-mcq-16": "「使某人認清自己的局限，不再過度自信或自大」與本句語境不同。",
-        "humility-mcq-13": "「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」與本句語境不同。",
-        "humility-mcq-17": "「因榮譽、經歷或他人善意而感到謙卑、受寵若驚或更謙遜」與本句語境不同。",
-        "humility-mcq-12": "「不自大、不認為自己高人一等的；謙虛的」與本句語境不同。"
+        "humility-mcq-15": "本句的「humble opinion」指「以謙虛語氣提出自己的看法；愚見／依我淺見」。",
+        "humility-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-15"
     },
@@ -1484,11 +1318,9 @@ export default {
       "masked": "The defeat ____.",
       "options": [
         "humility-mcq-16",
-        "humility-mcq-15",
-        "humility-mcq-17",
-        "humility-mcq-14",
-        "humility-mcq-18",
-        "humility-mcq-13"
+        "humility-mcq-13",
+        "humility-mcq-05",
+        "humility-mcq-09"
       ],
       "explanation": "本句的「humbled the team」指「使某人認清自己的局限，不再過度自信或自大」。",
       "sentenceIndex": 34,
@@ -1497,12 +1329,10 @@ export default {
         "humbled the team"
       ],
       "optionReasons": {
-        "humility-mcq-16": "本句指「使某人認清自己的局限，不再過度自信或自大」。",
-        "humility-mcq-15": "「以謙虛語氣提出自己的看法；愚見／依我淺見」與本句語境不同。",
-        "humility-mcq-17": "「因榮譽、經歷或他人善意而感到謙卑、受寵若驚或更謙遜」與本句語境不同。",
-        "humility-mcq-14": "「一個人、公司等起初平凡、貧困或不起眼的背景」與本句語境不同。",
-        "humility-mcq-18": "「使人認識自己的局限、變得謙遜的」與本句語境不同。",
-        "humility-mcq-13": "「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」與本句語境不同。"
+        "humility-mcq-16": "本句的「humbled the team」指「使某人認清自己的局限，不再過度自信或自大」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-16"
     },
@@ -1514,11 +1344,9 @@ export default {
       "masked": "The experience ____.",
       "options": [
         "humility-mcq-16",
-        "humility-mcq-15",
-        "humility-mcq-17",
-        "humility-mcq-14",
-        "humility-mcq-18",
-        "humility-mcq-13"
+        "humility-mcq-13",
+        "humility-mcq-05",
+        "humility-mcq-09"
       ],
       "explanation": "本句的「humbled him」指「使某人認清自己的局限，不再過度自信或自大」。",
       "sentenceIndex": 35,
@@ -1527,12 +1355,10 @@ export default {
         "humbled him"
       ],
       "optionReasons": {
-        "humility-mcq-16": "本句指「使某人認清自己的局限，不再過度自信或自大」。",
-        "humility-mcq-15": "「以謙虛語氣提出自己的看法；愚見／依我淺見」與本句語境不同。",
-        "humility-mcq-17": "「因榮譽、經歷或他人善意而感到謙卑、受寵若驚或更謙遜」與本句語境不同。",
-        "humility-mcq-14": "「一個人、公司等起初平凡、貧困或不起眼的背景」與本句語境不同。",
-        "humility-mcq-18": "「使人認識自己的局限、變得謙遜的」與本句語境不同。",
-        "humility-mcq-13": "「地位、出身、規模等普通、不顯赫的；平凡的／寒微的」與本句語境不同。"
+        "humility-mcq-16": "本句的「humbled him」指「使某人認清自己的局限，不再過度自信或自大」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-16"
     },
@@ -1544,11 +1370,8 @@ export default {
       "masked": "I was ____.",
       "options": [
         "humility-mcq-17",
-        "humility-mcq-16",
-        "humility-mcq-18",
-        "humility-mcq-15",
-        "humility-mcq-19",
-        "humility-mcq-14"
+        "humility-mcq-13",
+        "humility-mcq-02"
       ],
       "explanation": "本句的「humbled by their kindness」指「因榮譽、經歷或他人善意而感到謙卑、受寵若驚或更謙遜」。",
       "sentenceIndex": 36,
@@ -1557,12 +1380,9 @@ export default {
         "humbled by their kindness"
       ],
       "optionReasons": {
-        "humility-mcq-17": "本句指「因榮譽、經歷或他人善意而感到謙卑、受寵若驚或更謙遜」。",
-        "humility-mcq-16": "「使某人認清自己的局限，不再過度自信或自大」與本句語境不同。",
-        "humility-mcq-18": "「使人認識自己的局限、變得謙遜的」與本句語境不同。",
-        "humility-mcq-15": "「以謙虛語氣提出自己的看法；愚見／依我淺見」與本句語境不同。",
-        "humility-mcq-19": "「以謙虛、謙卑或恭敬的方式」與本句語境不同。",
-        "humility-mcq-14": "「一個人、公司等起初平凡、貧困或不起眼的背景」與本句語境不同。"
+        "humility-mcq-17": "本句的「humbled by their kindness」指「因榮譽、經歷或他人善意而感到謙卑、受寵若驚或更謙遜」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-17"
     },
@@ -1574,11 +1394,8 @@ export default {
       "masked": "She said she was ____.",
       "options": [
         "humility-mcq-17",
-        "humility-mcq-16",
-        "humility-mcq-18",
-        "humility-mcq-15",
-        "humility-mcq-19",
-        "humility-mcq-14"
+        "humility-mcq-13",
+        "humility-mcq-15"
       ],
       "explanation": "本句的「humbled by the award」指「因榮譽、經歷或他人善意而感到謙卑、受寵若驚或更謙遜」。",
       "sentenceIndex": 37,
@@ -1587,12 +1404,9 @@ export default {
         "humbled by the award"
       ],
       "optionReasons": {
-        "humility-mcq-17": "本句指「因榮譽、經歷或他人善意而感到謙卑、受寵若驚或更謙遜」。",
-        "humility-mcq-16": "「使某人認清自己的局限，不再過度自信或自大」與本句語境不同。",
-        "humility-mcq-18": "「使人認識自己的局限、變得謙遜的」與本句語境不同。",
-        "humility-mcq-15": "「以謙虛語氣提出自己的看法；愚見／依我淺見」與本句語境不同。",
-        "humility-mcq-19": "「以謙虛、謙卑或恭敬的方式」與本句語境不同。",
-        "humility-mcq-14": "「一個人、公司等起初平凡、貧困或不起眼的背景」與本句語境不同。"
+        "humility-mcq-17": "本句的「humbled by the award」指「因榮譽、經歷或他人善意而感到謙卑、受寵若驚或更謙遜」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-17"
     },
@@ -1604,11 +1418,8 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "humility-mcq-18",
-        "humility-mcq-17",
-        "humility-mcq-19",
-        "humility-mcq-16",
-        "humility-mcq-20",
-        "humility-mcq-15"
+        "humility-mcq-14",
+        "humility-mcq-19"
       ],
       "explanation": "本句的「humbling experience」指「使人認識自己的局限、變得謙遜的」。",
       "sentenceIndex": 38,
@@ -1617,12 +1428,9 @@ export default {
         "humbling experience"
       ],
       "optionReasons": {
-        "humility-mcq-18": "本句指「使人認識自己的局限、變得謙遜的」。",
-        "humility-mcq-17": "「因榮譽、經歷或他人善意而感到謙卑、受寵若驚或更謙遜」與本句語境不同。",
-        "humility-mcq-19": "「以謙虛、謙卑或恭敬的方式」與本句語境不同。",
-        "humility-mcq-16": "「使某人認清自己的局限，不再過度自信或自大」與本句語境不同。",
-        "humility-mcq-20": "「humility = 謙遜；humiliation = 羞辱／屈辱，兩者不可混淆」與本句語境不同。",
-        "humility-mcq-15": "「以謙虛語氣提出自己的看法；愚見／依我淺見」與本句語境不同。"
+        "humility-mcq-18": "本句的「humbling experience」指「使人認識自己的局限、變得謙遜的」。",
+        "humility-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-18"
     },
@@ -1634,11 +1442,8 @@ export default {
       "masked": "Teaching beginners can be surprisingly ____.",
       "options": [
         "humility-mcq-18",
-        "humility-mcq-17",
-        "humility-mcq-19",
-        "humility-mcq-16",
-        "humility-mcq-20",
-        "humility-mcq-15"
+        "humility-mcq-14",
+        "humility-mcq-19"
       ],
       "explanation": "本句的「humbling」指「使人認識自己的局限、變得謙遜的」。",
       "sentenceIndex": 39,
@@ -1647,12 +1452,9 @@ export default {
         "humbling"
       ],
       "optionReasons": {
-        "humility-mcq-18": "本句指「使人認識自己的局限、變得謙遜的」。",
-        "humility-mcq-17": "「因榮譽、經歷或他人善意而感到謙卑、受寵若驚或更謙遜」與本句語境不同。",
-        "humility-mcq-19": "「以謙虛、謙卑或恭敬的方式」與本句語境不同。",
-        "humility-mcq-16": "「使某人認清自己的局限，不再過度自信或自大」與本句語境不同。",
-        "humility-mcq-20": "「humility = 謙遜；humiliation = 羞辱／屈辱，兩者不可混淆」與本句語境不同。",
-        "humility-mcq-15": "「以謙虛語氣提出自己的看法；愚見／依我淺見」與本句語境不同。"
+        "humility-mcq-18": "本句的「humbling」指「使人認識自己的局限、變得謙遜的」。",
+        "humility-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-18"
     },
@@ -1664,11 +1466,9 @@ export default {
       "masked": "She ____ the award.",
       "options": [
         "humility-mcq-19",
-        "humility-mcq-18",
-        "humility-mcq-20",
-        "humility-mcq-17",
         "humility-mcq-16",
-        "humility-mcq-15"
+        "humility-mcq-13",
+        "humility-mcq-10"
       ],
       "explanation": "本句的「humbly accepted」指「以謙虛、謙卑或恭敬的方式」。",
       "sentenceIndex": 40,
@@ -1677,12 +1477,10 @@ export default {
         "humbly accepted"
       ],
       "optionReasons": {
-        "humility-mcq-19": "本句指「以謙虛、謙卑或恭敬的方式」。",
-        "humility-mcq-18": "「使人認識自己的局限、變得謙遜的」與本句語境不同。",
-        "humility-mcq-20": "「humility = 謙遜；humiliation = 羞辱／屈辱，兩者不可混淆」與本句語境不同。",
-        "humility-mcq-17": "「因榮譽、經歷或他人善意而感到謙卑、受寵若驚或更謙遜」與本句語境不同。",
-        "humility-mcq-16": "「使某人認清自己的局限，不再過度自信或自大」與本句語境不同。",
-        "humility-mcq-15": "「以謙虛語氣提出自己的看法；愚見／依我淺見」與本句語境不同。"
+        "humility-mcq-19": "本句的「humbly accepted」指「以謙虛、謙卑或恭敬的方式」。",
+        "humility-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-19"
     },
@@ -1694,11 +1492,9 @@ export default {
       "masked": "I ____ that I was wrong.",
       "options": [
         "humility-mcq-19",
-        "humility-mcq-18",
-        "humility-mcq-20",
-        "humility-mcq-17",
-        "humility-mcq-16",
-        "humility-mcq-15"
+        "humility-mcq-13",
+        "humility-mcq-02",
+        "humility-mcq-10"
       ],
       "explanation": "本句的「humbly admit」指「以謙虛、謙卑或恭敬的方式」。",
       "sentenceIndex": 41,
@@ -1707,12 +1503,10 @@ export default {
         "humbly admit"
       ],
       "optionReasons": {
-        "humility-mcq-19": "本句指「以謙虛、謙卑或恭敬的方式」。",
-        "humility-mcq-18": "「使人認識自己的局限、變得謙遜的」與本句語境不同。",
-        "humility-mcq-20": "「humility = 謙遜；humiliation = 羞辱／屈辱，兩者不可混淆」與本句語境不同。",
-        "humility-mcq-17": "「因榮譽、經歷或他人善意而感到謙卑、受寵若驚或更謙遜」與本句語境不同。",
-        "humility-mcq-16": "「使某人認清自己的局限，不再過度自信或自大」與本句語境不同。",
-        "humility-mcq-15": "「以謙虛語氣提出自己的看法；愚見／依我淺見」與本句語境不同。"
+        "humility-mcq-19": "本句的「humbly admit」指「以謙虛、謙卑或恭敬的方式」。",
+        "humility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "humility-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "humility-mcq-19"
     }
@@ -1724,5 +1518,7 @@ export default {
     "sha256": "ef93c2b700a11325f699780cc20d729fa1aa82e4223349ed827541f6a5d7957f",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

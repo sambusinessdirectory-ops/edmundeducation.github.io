@@ -630,7 +630,7 @@ export default {
     },
     {
       "id": "mind-mcq-28",
-      "title": "表示某件事不用再擔心、討論或處理；不要緊／算了",
+      "title": "某件事不用再擔心、討論或處理；不要緊／算了",
       "form": "never mind — no problem",
       "en": "never mind — no problem",
       "zh": "表示某件事不用再擔心、討論或處理；不要緊／算了",
@@ -962,11 +962,9 @@ export default {
       "masked": "My ____.",
       "options": [
         "mind-mcq-01",
-        "mind-mcq-02",
-        "mind-mcq-03",
-        "mind-mcq-04",
-        "mind-mcq-05",
-        "mind-mcq-06"
+        "mind-mcq-29",
+        "mind-mcq-27",
+        "mind-mcq-24"
       ],
       "explanation": "本句的「mind would go blank」指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
       "sentenceIndex": 0,
@@ -975,12 +973,10 @@ export default {
         "mind would go blank"
       ],
       "optionReasons": {
-        "mind-mcq-01": "本句指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
-        "mind-mcq-02": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」是「mind goes blank」的用法，與本句語境不同。",
-        "mind-mcq-03": "「某一刻正在腦中出現並佔據注意力的思緒」是「mind — current thoughts」的用法，與本句語境不同。",
-        "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。"
+        "mind-mcq-01": "本句的「mind would go blank」指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-01"
     },
@@ -992,11 +988,9 @@ export default {
       "masked": "I couldn’t concentrate because my ____ was full of worries.",
       "options": [
         "mind-mcq-01",
-        "mind-mcq-02",
-        "mind-mcq-03",
-        "mind-mcq-04",
-        "mind-mcq-05",
-        "mind-mcq-06"
+        "mind-mcq-29",
+        "mind-mcq-27",
+        "mind-mcq-24"
       ],
       "explanation": "本句的「mind」指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
       "sentenceIndex": 1,
@@ -1005,12 +999,10 @@ export default {
         "mind"
       ],
       "optionReasons": {
-        "mind-mcq-01": "本句指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
-        "mind-mcq-02": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」是「mind goes blank」的用法，與本句語境不同。",
-        "mind-mcq-03": "「某一刻正在腦中出現並佔據注意力的思緒」是「mind — current thoughts」的用法，與本句語境不同。",
-        "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。"
+        "mind-mcq-01": "本句的「mind」指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-01"
     },
@@ -1022,11 +1014,9 @@ export default {
       "masked": "A clear ____ helps you make better decisions.",
       "options": [
         "mind-mcq-01",
-        "mind-mcq-02",
-        "mind-mcq-03",
-        "mind-mcq-04",
-        "mind-mcq-05",
-        "mind-mcq-06"
+        "mind-mcq-27",
+        "mind-mcq-29",
+        "mind-mcq-24"
       ],
       "explanation": "本句的「mind」指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
       "sentenceIndex": 2,
@@ -1035,12 +1025,10 @@ export default {
         "mind"
       ],
       "optionReasons": {
-        "mind-mcq-01": "本句指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
-        "mind-mcq-02": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」是「mind goes blank」的用法，與本句語境不同。",
-        "mind-mcq-03": "「某一刻正在腦中出現並佔據注意力的思緒」是「mind — current thoughts」的用法，與本句語境不同。",
-        "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。"
+        "mind-mcq-01": "本句的「mind」指「人用來思考、理解、記憶、想像及產生意識的心智能力」。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-01"
     },
@@ -1052,11 +1040,9 @@ export default {
       "masked": "My ____.",
       "options": [
         "mind-pdf-001",
-        "mind-mcq-02",
-        "mind-mcq-03",
-        "mind-mcq-04",
-        "mind-mcq-05",
-        "mind-mcq-06"
+        "mind-mcq-35",
+        "mind-mcq-27",
+        "mind-pdf-reviewed-01"
       ],
       "explanation": "本句的「mind would go blank」指「因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法」。",
       "sentenceIndex": 3,
@@ -1065,12 +1051,10 @@ export default {
         "mind would go blank"
       ],
       "optionReasons": {
-        "mind-pdf-001": "本句指「因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法」。",
-        "mind-mcq-02": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」是「mind goes blank」的用法，與本句語境不同。",
-        "mind-mcq-03": "「某一刻正在腦中出現並佔據注意力的思緒」是「mind — current thoughts」的用法，與本句語境不同。",
-        "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。"
+        "mind-pdf-001": "本句的「mind would go blank」指「因緊張、壓力或突然受驚而短暫無法回想、組織或產生想法」。",
+        "mind-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-pdf-001"
     },
@@ -1082,11 +1066,9 @@ export default {
       "masked": "When they asked me the question, my ____.",
       "options": [
         "mind-mcq-02",
-        "mind-mcq-01",
-        "mind-mcq-03",
-        "mind-mcq-04",
-        "mind-mcq-05",
-        "mind-mcq-06"
+        "mind-mcq-29",
+        "mind-mcq-27",
+        "mind-pdf-reviewed-01"
       ],
       "explanation": "本句的「mind went blank」指「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」。",
       "sentenceIndex": 4,
@@ -1095,12 +1077,10 @@ export default {
         "mind went blank"
       ],
       "optionReasons": {
-        "mind-mcq-02": "本句指「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」。",
-        "mind-mcq-01": "「人用來思考、理解、記憶、想像及產生意識的心智能力」是「mind — thinking faculty」的用法，與本句語境不同。",
-        "mind-mcq-03": "「某一刻正在腦中出現並佔據注意力的思緒」是「mind — current thoughts」的用法，與本句語境不同。",
-        "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。"
+        "mind-mcq-02": "本句的「mind went blank」指「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-02"
     },
@@ -1112,11 +1092,9 @@ export default {
       "masked": "A lot was going through my ____ before the presentation.",
       "options": [
         "mind-mcq-03",
-        "mind-mcq-02",
-        "mind-mcq-04",
-        "mind-mcq-01",
-        "mind-mcq-05",
-        "mind-mcq-06"
+        "mind-mcq-29",
+        "mind-mcq-15",
+        "mind-mcq-39"
       ],
       "explanation": "本句的「mind」指「某一刻正在腦中出現並佔據注意力的思緒」。",
       "sentenceIndex": 5,
@@ -1125,12 +1103,10 @@ export default {
         "mind"
       ],
       "optionReasons": {
-        "mind-mcq-03": "本句指「某一刻正在腦中出現並佔據注意力的思緒」。",
-        "mind-mcq-02": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」是「mind goes blank」的用法，與本句語境不同。",
-        "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。",
-        "mind-mcq-01": "「人用來思考、理解、記憶、想像及產生意識的心智能力」是「mind — thinking faculty」的用法，與本句語境不同。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。"
+        "mind-mcq-03": "本句的「mind」指「某一刻正在腦中出現並佔據注意力的思緒」。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-03"
     },
@@ -1142,11 +1118,9 @@ export default {
       "masked": "I couldn’t get the problem out of my ____.",
       "options": [
         "mind-mcq-03",
-        "mind-mcq-02",
-        "mind-mcq-04",
-        "mind-mcq-01",
         "mind-mcq-05",
-        "mind-mcq-06"
+        "mind-mcq-28",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「mind」指「某一刻正在腦中出現並佔據注意力的思緒」。",
       "sentenceIndex": 6,
@@ -1155,12 +1129,10 @@ export default {
         "mind"
       ],
       "optionReasons": {
-        "mind-mcq-03": "本句指「某一刻正在腦中出現並佔據注意力的思緒」。",
-        "mind-mcq-02": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」是「mind goes blank」的用法，與本句語境不同。",
-        "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。",
-        "mind-mcq-01": "「人用來思考、理解、記憶、想像及產生意識的心智能力」是「mind — thinking faculty」的用法，與本句語境不同。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。"
+        "mind-mcq-03": "本句的「mind」指「某一刻正在腦中出現並佔據注意力的思緒」。",
+        "mind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-03"
     },
@@ -1172,11 +1144,9 @@ export default {
       "masked": "The presentation was ____ all week.",
       "options": [
         "mind-mcq-04",
-        "mind-mcq-03",
-        "mind-mcq-05",
-        "mind-mcq-02",
-        "mind-mcq-06",
-        "mind-mcq-01"
+        "mind-mcq-09",
+        "mind-mcq-34",
+        "mind-mcq-27"
       ],
       "explanation": "本句的「on my mind」指「某件事持續佔據思緒、令你惦記或擔心」。",
       "sentenceIndex": 7,
@@ -1185,12 +1155,10 @@ export default {
         "on my mind"
       ],
       "optionReasons": {
-        "mind-mcq-04": "本句指「某件事持續佔據思緒、令你惦記或擔心」。",
-        "mind-mcq-03": "「某一刻正在腦中出現並佔據注意力的思緒」是「mind — current thoughts」的用法，與本句語境不同。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
-        "mind-mcq-02": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」是「mind goes blank」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。",
-        "mind-mcq-01": "「人用來思考、理解、記憶、想像及產生意識的心智能力」是「mind — thinking faculty」的用法，與本句語境不同。"
+        "mind-mcq-04": "本句的「on my mind」指「某件事持續佔據思緒、令你惦記或擔心」。",
+        "mind-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-04"
     },
@@ -1202,11 +1170,9 @@ export default {
       "masked": "You look worried. What’s ____?",
       "options": [
         "mind-mcq-04",
-        "mind-mcq-03",
-        "mind-mcq-05",
-        "mind-mcq-02",
-        "mind-mcq-06",
-        "mind-mcq-01"
+        "mind-mcq-25",
+        "mind-pdf-reviewed-01",
+        "mind-mcq-39"
       ],
       "explanation": "本句的「on your mind」指「某件事持續佔據思緒、令你惦記或擔心」。",
       "sentenceIndex": 8,
@@ -1215,12 +1181,10 @@ export default {
         "on your mind"
       ],
       "optionReasons": {
-        "mind-mcq-04": "本句指「某件事持續佔據思緒、令你惦記或擔心」。",
-        "mind-mcq-03": "「某一刻正在腦中出現並佔據注意力的思緒」是「mind — current thoughts」的用法，與本句語境不同。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
-        "mind-mcq-02": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」是「mind goes blank」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。",
-        "mind-mcq-01": "「人用來思考、理解、記憶、想像及產生意識的心智能力」是「mind — thinking faculty」的用法，與本句語境不同。"
+        "mind-mcq-04": "本句的「on your mind」指「某件事持續佔據思緒、令你惦記或擔心」。",
+        "mind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mind-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-04"
     },
@@ -1232,11 +1196,9 @@ export default {
       "masked": "I practised the opening ____ before going on stage.",
       "options": [
         "mind-mcq-05",
-        "mind-mcq-04",
-        "mind-mcq-06",
-        "mind-mcq-03",
-        "mind-mcq-07",
-        "mind-mcq-02"
+        "mind-mcq-34",
+        "mind-mcq-10",
+        "mind-mcq-23"
       ],
       "explanation": "本句的「in my mind」指「在某人的想像、理解、判斷或內心看法中」。",
       "sentenceIndex": 9,
@@ -1245,12 +1207,10 @@ export default {
         "in my mind"
       ],
       "optionReasons": {
-        "mind-mcq-05": "本句指「在某人的想像、理解、判斷或內心看法中」。",
-        "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。",
-        "mind-mcq-03": "「某一刻正在腦中出現並佔據注意力的思緒」是「mind — current thoughts」的用法，與本句語境不同。",
-        "mind-mcq-07": "「改變原來的意見、選擇或決定」是「change your mind」的用法，與本句語境不同。",
-        "mind-mcq-02": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」是「mind goes blank」的用法，與本句語境不同。"
+        "mind-mcq-05": "本句的「in my mind」指「在某人的想像、理解、判斷或內心看法中」。",
+        "mind-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-05"
     },
@@ -1262,11 +1222,9 @@ export default {
       "masked": "In my ____, the project was already a success.",
       "options": [
         "mind-mcq-05",
-        "mind-mcq-04",
-        "mind-mcq-06",
-        "mind-mcq-03",
-        "mind-mcq-07",
-        "mind-mcq-02"
+        "mind-mcq-26",
+        "mind-mcq-23",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「mind」指「在某人的想像、理解、判斷或內心看法中」。",
       "sentenceIndex": 10,
@@ -1275,12 +1233,10 @@ export default {
         "mind"
       ],
       "optionReasons": {
-        "mind-mcq-05": "本句指「在某人的想像、理解、判斷或內心看法中」。",
-        "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。",
-        "mind-mcq-03": "「某一刻正在腦中出現並佔據注意力的思緒」是「mind — current thoughts」的用法，與本句語境不同。",
-        "mind-mcq-07": "「改變原來的意見、選擇或決定」是「change your mind」的用法，與本句語境不同。",
-        "mind-mcq-02": "「因緊張、壓力或突發情況而短暫無法回想、組織或產生想法」是「mind goes blank」的用法，與本句語境不同。"
+        "mind-mcq-05": "本句的「mind」指「在某人的想像、理解、判斷或內心看法中」。",
+        "mind-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-05"
     },
@@ -1292,11 +1248,9 @@ export default {
       "masked": "I’d like to know your ____ on the issue.",
       "options": [
         "mind-mcq-06",
-        "mind-mcq-05",
-        "mind-mcq-07",
-        "mind-mcq-04",
-        "mind-mcq-08",
-        "mind-mcq-03"
+        "mind-mcq-27",
+        "mind-mcq-13",
+        "mind-mcq-10"
       ],
       "explanation": "本句的「mind」指「某人對某件事情形成的看法、判斷或意見」。",
       "sentenceIndex": 11,
@@ -1305,12 +1259,10 @@ export default {
         "mind"
       ],
       "optionReasons": {
-        "mind-mcq-06": "本句指「某人對某件事情形成的看法、判斷或意見」。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
-        "mind-mcq-07": "「改變原來的意見、選擇或決定」是「change your mind」的用法，與本句語境不同。",
-        "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。",
-        "mind-mcq-08": "「經過考慮後作出明確決定；拿定主意」是「make up your mind」的用法，與本句語境不同。",
-        "mind-mcq-03": "「某一刻正在腦中出現並佔據注意力的思緒」是「mind — current thoughts」的用法，與本句語境不同。"
+        "mind-mcq-06": "本句的「mind」指「某人對某件事情形成的看法、判斷或意見」。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-06"
     },
@@ -1322,10 +1274,8 @@ export default {
       "masked": "She spoke her ____ clearly.",
       "options": [
         "mind-mcq-06",
-        "mind-mcq-05",
-        "mind-mcq-07",
-        "mind-mcq-04",
-        "mind-mcq-08",
+        "mind-mcq-27",
+        "mind-mcq-16",
         "mind-mcq-03"
       ],
       "explanation": "本句的「mind」指「某人對某件事情形成的看法、判斷或意見」。",
@@ -1335,12 +1285,10 @@ export default {
         "mind"
       ],
       "optionReasons": {
-        "mind-mcq-06": "本句指「某人對某件事情形成的看法、判斷或意見」。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
-        "mind-mcq-07": "「改變原來的意見、選擇或決定」是「change your mind」的用法，與本句語境不同。",
-        "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。",
-        "mind-mcq-08": "「經過考慮後作出明確決定；拿定主意」是「make up your mind」的用法，與本句語境不同。",
-        "mind-mcq-03": "「某一刻正在腦中出現並佔據注意力的思緒」是「mind — current thoughts」的用法，與本句語境不同。"
+        "mind-mcq-06": "本句的「mind」指「某人對某件事情形成的看法、判斷或意見」。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-06"
     },
@@ -1352,11 +1300,9 @@ export default {
       "masked": "I almost turned the opportunity down, but I ____.",
       "options": [
         "mind-mcq-07",
-        "mind-mcq-06",
-        "mind-mcq-08",
-        "mind-mcq-05",
-        "mind-mcq-09",
-        "mind-mcq-04"
+        "mind-mcq-28",
+        "mind-mcq-13",
+        "mind-mcq-36"
       ],
       "explanation": "本句的「changed my mind」指「改變原來的意見、選擇或決定」。",
       "sentenceIndex": 13,
@@ -1365,12 +1311,10 @@ export default {
         "changed my mind"
       ],
       "optionReasons": {
-        "mind-mcq-07": "本句指「改變原來的意見、選擇或決定」。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。",
-        "mind-mcq-08": "「經過考慮後作出明確決定；拿定主意」是「make up your mind」的用法，與本句語境不同。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
-        "mind-mcq-09": "「已經在考慮某個想法、計劃、人物或選擇」是「have something in mind」的用法，與本句語境不同。",
-        "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。"
+        "mind-mcq-07": "本句的「changed my mind」指「改變原來的意見、選擇或決定」。",
+        "mind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-07"
     },
@@ -1382,10 +1326,8 @@ export default {
       "masked": "You can still ____.",
       "options": [
         "mind-mcq-07",
-        "mind-mcq-06",
-        "mind-mcq-08",
-        "mind-mcq-05",
-        "mind-mcq-09",
+        "mind-mcq-27",
+        "mind-mcq-13",
         "mind-mcq-04"
       ],
       "explanation": "本句的「change your mind」指「改變原來的意見、選擇或決定」。",
@@ -1395,12 +1337,10 @@ export default {
         "change your mind"
       ],
       "optionReasons": {
-        "mind-mcq-07": "本句指「改變原來的意見、選擇或決定」。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。",
-        "mind-mcq-08": "「經過考慮後作出明確決定；拿定主意」是「make up your mind」的用法，與本句語境不同。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。",
-        "mind-mcq-09": "「已經在考慮某個想法、計劃、人物或選擇」是「have something in mind」的用法，與本句語境不同。",
-        "mind-mcq-04": "「某件事持續佔據思緒、令你惦記或擔心」是「on your mind」的用法，與本句語境不同。"
+        "mind-mcq-07": "本句的「change your mind」指「改變原來的意見、選擇或決定」。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-07"
     },
@@ -1412,11 +1352,9 @@ export default {
       "masked": "I finally ____ to accept the challenge.",
       "options": [
         "mind-mcq-08",
-        "mind-mcq-07",
-        "mind-mcq-09",
-        "mind-mcq-06",
-        "mind-mcq-10",
-        "mind-mcq-05"
+        "mind-mcq-27",
+        "mind-mcq-16",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「made up my mind」指「經過考慮後作出明確決定；拿定主意」。",
       "sentenceIndex": 15,
@@ -1425,12 +1363,10 @@ export default {
         "made up my mind"
       ],
       "optionReasons": {
-        "mind-mcq-08": "本句指「經過考慮後作出明確決定；拿定主意」。",
-        "mind-mcq-07": "「改變原來的意見、選擇或決定」是「change your mind」的用法，與本句語境不同。",
-        "mind-mcq-09": "「已經在考慮某個想法、計劃、人物或選擇」是「have something in mind」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。",
-        "mind-mcq-10": "「在決定或行動時持續記住並考慮某項重要因素」是「keep/bear in mind」的用法，與本句語境不同。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。"
+        "mind-mcq-08": "本句的「made up my mind」指「經過考慮後作出明確決定；拿定主意」。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-08"
     },
@@ -1442,11 +1378,9 @@ export default {
       "masked": "Have you ____ yet?",
       "options": [
         "mind-mcq-08",
-        "mind-mcq-07",
-        "mind-mcq-09",
-        "mind-mcq-06",
-        "mind-mcq-10",
-        "mind-mcq-05"
+        "mind-mcq-02",
+        "mind-mcq-27",
+        "mind-mcq-22"
       ],
       "explanation": "本句的「made up your mind」指「經過考慮後作出明確決定；拿定主意」。",
       "sentenceIndex": 16,
@@ -1455,12 +1389,10 @@ export default {
         "made up your mind"
       ],
       "optionReasons": {
-        "mind-mcq-08": "本句指「經過考慮後作出明確決定；拿定主意」。",
-        "mind-mcq-07": "「改變原來的意見、選擇或決定」是「change your mind」的用法，與本句語境不同。",
-        "mind-mcq-09": "「已經在考慮某個想法、計劃、人物或選擇」是「have something in mind」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。",
-        "mind-mcq-10": "「在決定或行動時持續記住並考慮某項重要因素」是「keep/bear in mind」的用法，與本句語境不同。",
-        "mind-mcq-05": "「在某人的想像、理解、判斷或內心看法中」是「in your mind」的用法，與本句語境不同。"
+        "mind-mcq-08": "本句的「made up your mind」指「經過考慮後作出明確決定；拿定主意」。",
+        "mind-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-08"
     },
@@ -1472,11 +1404,9 @@ export default {
       "masked": "I already ____.",
       "options": [
         "mind-mcq-09",
-        "mind-mcq-08",
-        "mind-mcq-10",
-        "mind-mcq-07",
-        "mind-mcq-11",
-        "mind-mcq-06"
+        "mind-mcq-15",
+        "mind-mcq-20",
+        "mind-mcq-27"
       ],
       "explanation": "本句的「have a few examples in mind」指「已經在考慮某個想法、計劃、人物或選擇」。",
       "sentenceIndex": 17,
@@ -1485,12 +1415,10 @@ export default {
         "have a few examples in mind"
       ],
       "optionReasons": {
-        "mind-mcq-09": "本句指「已經在考慮某個想法、計劃、人物或選擇」。",
-        "mind-mcq-08": "「經過考慮後作出明確決定；拿定主意」是「make up your mind」的用法，與本句語境不同。",
-        "mind-mcq-10": "「在決定或行動時持續記住並考慮某項重要因素」是「keep/bear in mind」的用法，與本句語境不同。",
-        "mind-mcq-07": "「改變原來的意見、選擇或決定」是「change your mind」的用法，與本句語境不同。",
-        "mind-mcq-11": "「某個想法、人物或記憶自然出現在腦中」是「come to mind」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。"
+        "mind-mcq-09": "本句的「have a few examples in mind」指「已經在考慮某個想法、計劃、人物或選擇」。",
+        "mind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-09"
     },
@@ -1502,11 +1430,9 @@ export default {
       "masked": "What did you ____?",
       "options": [
         "mind-mcq-09",
-        "mind-mcq-08",
-        "mind-mcq-10",
-        "mind-mcq-07",
-        "mind-mcq-11",
-        "mind-mcq-06"
+        "mind-mcq-16",
+        "mind-mcq-20",
+        "mind-mcq-25"
       ],
       "explanation": "本句的「have in mind」指「已經在考慮某個想法、計劃、人物或選擇」。",
       "sentenceIndex": 18,
@@ -1515,12 +1441,10 @@ export default {
         "have in mind"
       ],
       "optionReasons": {
-        "mind-mcq-09": "本句指「已經在考慮某個想法、計劃、人物或選擇」。",
-        "mind-mcq-08": "「經過考慮後作出明確決定；拿定主意」是「make up your mind」的用法，與本句語境不同。",
-        "mind-mcq-10": "「在決定或行動時持續記住並考慮某項重要因素」是「keep/bear in mind」的用法，與本句語境不同。",
-        "mind-mcq-07": "「改變原來的意見、選擇或決定」是「change your mind」的用法，與本句語境不同。",
-        "mind-mcq-11": "「某個想法、人物或記憶自然出現在腦中」是「come to mind」的用法，與本句語境不同。",
-        "mind-mcq-06": "「某人對某件事情形成的看法、判斷或意見」是「mind — opinion」的用法，與本句語境不同。"
+        "mind-mcq-09": "本句的「have in mind」指「已經在考慮某個想法、計劃、人物或選擇」。",
+        "mind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-09"
     },
@@ -1532,11 +1456,9 @@ export default {
       "masked": "____ that the audience may not know the technical details.",
       "options": [
         "mind-mcq-10",
-        "mind-mcq-09",
-        "mind-mcq-11",
-        "mind-mcq-08",
-        "mind-mcq-12",
-        "mind-mcq-07"
+        "mind-mcq-22",
+        "mind-mcq-05",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「Keep in mind」指「在決定或行動時持續記住並考慮某項重要因素」。",
       "sentenceIndex": 19,
@@ -1545,12 +1467,10 @@ export default {
         "Keep in mind"
       ],
       "optionReasons": {
-        "mind-mcq-10": "本句指「在決定或行動時持續記住並考慮某項重要因素」。",
-        "mind-mcq-09": "「已經在考慮某個想法、計劃、人物或選擇」是「have something in mind」的用法，與本句語境不同。",
-        "mind-mcq-11": "「某個想法、人物或記憶自然出現在腦中」是「come to mind」的用法，與本句語境不同。",
-        "mind-mcq-08": "「經過考慮後作出明確決定；拿定主意」是「make up your mind」的用法，與本句語境不同。",
-        "mind-mcq-12": "「並非故意地暫時忘記某件事」是「slip your mind」的用法，與本句語境不同。",
-        "mind-mcq-07": "「改變原來的意見、選擇或決定」是「change your mind」的用法，與本句語境不同。"
+        "mind-mcq-10": "本句的「Keep in mind」指「在決定或行動時持續記住並考慮某項重要因素」。",
+        "mind-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-10"
     },
@@ -1562,11 +1482,9 @@ export default {
       "masked": "Please ____ that the schedule may change.",
       "options": [
         "mind-mcq-10",
-        "mind-mcq-09",
-        "mind-mcq-11",
-        "mind-mcq-08",
-        "mind-mcq-12",
-        "mind-mcq-07"
+        "mind-mcq-05",
+        "mind-mcq-23",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「bear in mind」指「在決定或行動時持續記住並考慮某項重要因素」。",
       "sentenceIndex": 20,
@@ -1575,12 +1493,10 @@ export default {
         "bear in mind"
       ],
       "optionReasons": {
-        "mind-mcq-10": "本句指「在決定或行動時持續記住並考慮某項重要因素」。",
-        "mind-mcq-09": "「已經在考慮某個想法、計劃、人物或選擇」是「have something in mind」的用法，與本句語境不同。",
-        "mind-mcq-11": "「某個想法、人物或記憶自然出現在腦中」是「come to mind」的用法，與本句語境不同。",
-        "mind-mcq-08": "「經過考慮後作出明確決定；拿定主意」是「make up your mind」的用法，與本句語境不同。",
-        "mind-mcq-12": "「並非故意地暫時忘記某件事」是「slip your mind」的用法，與本句語境不同。",
-        "mind-mcq-07": "「改變原來的意見、選擇或決定」是「change your mind」的用法，與本句語境不同。"
+        "mind-mcq-10": "本句的「bear in mind」指「在決定或行動時持續記住並考慮某項重要因素」。",
+        "mind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-10"
     },
@@ -1592,11 +1508,9 @@ export default {
       "masked": "The photo ____.",
       "options": [
         "mind-mcq-11",
-        "mind-mcq-10",
-        "mind-mcq-12",
-        "mind-mcq-09",
-        "mind-mcq-13",
-        "mind-mcq-08"
+        "mind-mcq-28",
+        "mind-pdf-reviewed-01",
+        "mind-mcq-36"
       ],
       "explanation": "本句的「brought the event to mind」指「某個想法、人物或記憶自然出現在腦中」。",
       "sentenceIndex": 21,
@@ -1605,12 +1519,10 @@ export default {
         "brought the event to mind"
       ],
       "optionReasons": {
-        "mind-mcq-11": "本句指「某個想法、人物或記憶自然出現在腦中」。",
-        "mind-mcq-10": "「在決定或行動時持續記住並考慮某項重要因素」是「keep/bear in mind」的用法，與本句語境不同。",
-        "mind-mcq-12": "「並非故意地暫時忘記某件事」是「slip your mind」的用法，與本句語境不同。",
-        "mind-mcq-09": "「已經在考慮某個想法、計劃、人物或選擇」是「have something in mind」的用法，與本句語境不同。",
-        "mind-mcq-13": "「儲存和回想資訊的記憶能力／內容」是「mind — memory」的用法，與本句語境不同。",
-        "mind-mcq-08": "「經過考慮後作出明確決定；拿定主意」是「make up your mind」的用法，與本句語境不同。"
+        "mind-mcq-11": "本句的「brought the event to mind」指「某個想法、人物或記憶自然出現在腦中」。",
+        "mind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mind-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-11"
     },
@@ -1622,11 +1534,9 @@ export default {
       "masked": "His voice ____ my old teacher.",
       "options": [
         "mind-mcq-11",
-        "mind-mcq-10",
-        "mind-mcq-12",
-        "mind-mcq-09",
-        "mind-mcq-13",
-        "mind-mcq-08"
+        "mind-mcq-20",
+        "mind-mcq-36",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「called to mind」指「某個想法、人物或記憶自然出現在腦中」。",
       "sentenceIndex": 22,
@@ -1635,12 +1545,10 @@ export default {
         "called to mind"
       ],
       "optionReasons": {
-        "mind-mcq-11": "本句指「某個想法、人物或記憶自然出現在腦中」。",
-        "mind-mcq-10": "「在決定或行動時持續記住並考慮某項重要因素」是「keep/bear in mind」的用法，與本句語境不同。",
-        "mind-mcq-12": "「並非故意地暫時忘記某件事」是「slip your mind」的用法，與本句語境不同。",
-        "mind-mcq-09": "「已經在考慮某個想法、計劃、人物或選擇」是「have something in mind」的用法，與本句語境不同。",
-        "mind-mcq-13": "「儲存和回想資訊的記憶能力／內容」是「mind — memory」的用法，與本句語境不同。",
-        "mind-mcq-08": "「經過考慮後作出明確決定；拿定主意」是「make up your mind」的用法，與本句語境不同。"
+        "mind-mcq-11": "本句的「called to mind」指「某個想法、人物或記憶自然出現在腦中」。",
+        "mind-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-11"
     },
@@ -1652,11 +1560,9 @@ export default {
       "masked": "Several examples ____.",
       "options": [
         "mind-mcq-11",
-        "mind-mcq-10",
-        "mind-mcq-12",
-        "mind-mcq-09",
-        "mind-mcq-13",
-        "mind-mcq-08"
+        "mind-mcq-36",
+        "mind-mcq-29",
+        "mind-pdf-reviewed-01"
       ],
       "explanation": "本句的「came to mind」指「某個想法、人物或記憶自然出現在腦中」。",
       "sentenceIndex": 23,
@@ -1665,12 +1571,10 @@ export default {
         "came to mind"
       ],
       "optionReasons": {
-        "mind-mcq-11": "本句指「某個想法、人物或記憶自然出現在腦中」。",
-        "mind-mcq-10": "「在決定或行動時持續記住並考慮某項重要因素」是「keep/bear in mind」的用法，與本句語境不同。",
-        "mind-mcq-12": "「並非故意地暫時忘記某件事」是「slip your mind」的用法，與本句語境不同。",
-        "mind-mcq-09": "「已經在考慮某個想法、計劃、人物或選擇」是「have something in mind」的用法，與本句語境不同。",
-        "mind-mcq-13": "「儲存和回想資訊的記憶能力／內容」是「mind — memory」的用法，與本句語境不同。",
-        "mind-mcq-08": "「經過考慮後作出明確決定；拿定主意」是「make up your mind」的用法，與本句語境不同。"
+        "mind-mcq-11": "本句的「came to mind」指「某個想法、人物或記憶自然出現在腦中」。",
+        "mind-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-11"
     },
@@ -1682,11 +1586,9 @@ export default {
       "masked": "What is the first word that ____?",
       "options": [
         "mind-mcq-11",
-        "mind-mcq-10",
-        "mind-mcq-12",
-        "mind-mcq-09",
-        "mind-mcq-13",
-        "mind-mcq-08"
+        "mind-mcq-16",
+        "mind-mcq-28",
+        "mind-mcq-34"
       ],
       "explanation": "本句的「comes to mind」指「某個想法、人物或記憶自然出現在腦中」。",
       "sentenceIndex": 24,
@@ -1695,12 +1597,10 @@ export default {
         "comes to mind"
       ],
       "optionReasons": {
-        "mind-mcq-11": "本句指「某個想法、人物或記憶自然出現在腦中」。",
-        "mind-mcq-10": "「在決定或行動時持續記住並考慮某項重要因素」是「keep/bear in mind」的用法，與本句語境不同。",
-        "mind-mcq-12": "「並非故意地暫時忘記某件事」是「slip your mind」的用法，與本句語境不同。",
-        "mind-mcq-09": "「已經在考慮某個想法、計劃、人物或選擇」是「have something in mind」的用法，與本句語境不同。",
-        "mind-mcq-13": "「儲存和回想資訊的記憶能力／內容」是「mind — memory」的用法，與本句語境不同。",
-        "mind-mcq-08": "「經過考慮後作出明確決定；拿定主意」是「make up your mind」的用法，與本句語境不同。"
+        "mind-mcq-11": "本句的「comes to mind」指「某個想法、人物或記憶自然出現在腦中」。",
+        "mind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-11"
     },
@@ -1712,11 +1612,9 @@ export default {
       "masked": "I’m sorry—the meeting completely ____.",
       "options": [
         "mind-mcq-12",
-        "mind-mcq-11",
-        "mind-mcq-13",
-        "mind-mcq-10",
-        "mind-mcq-14",
-        "mind-mcq-09"
+        "mind-mcq-27",
+        "mind-mcq-17",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「slipped my mind」指「並非故意地暫時忘記某件事」。",
       "sentenceIndex": 25,
@@ -1725,12 +1623,10 @@ export default {
         "slipped my mind"
       ],
       "optionReasons": {
-        "mind-mcq-12": "本句指「並非故意地暫時忘記某件事」。",
-        "mind-mcq-11": "「某個想法、人物或記憶自然出現在腦中」是「come to mind」的用法，與本句語境不同。",
-        "mind-mcq-13": "「儲存和回想資訊的記憶能力／內容」是「mind — memory」的用法，與本句語境不同。",
-        "mind-mcq-10": "「在決定或行動時持續記住並考慮某項重要因素」是「keep/bear in mind」的用法，與本句語境不同。",
-        "mind-mcq-14": "「某一刻的情緒、態度及思考狀態」是「state/frame of mind」的用法，與本句語境不同。",
-        "mind-mcq-09": "「已經在考慮某個想法、計劃、人物或選擇」是「have something in mind」的用法，與本句語境不同。"
+        "mind-mcq-12": "本句的「slipped my mind」指「並非故意地暫時忘記某件事」。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-12"
     },
@@ -1742,11 +1638,9 @@ export default {
       "masked": "Her name has ____.",
       "options": [
         "mind-mcq-12",
-        "mind-mcq-11",
-        "mind-mcq-13",
-        "mind-mcq-10",
-        "mind-mcq-14",
-        "mind-mcq-09"
+        "mind-mcq-40",
+        "mind-mcq-39",
+        "mind-mcq-27"
       ],
       "explanation": "本句的「slipped my mind」指「並非故意地暫時忘記某件事」。",
       "sentenceIndex": 26,
@@ -1755,12 +1649,10 @@ export default {
         "slipped my mind"
       ],
       "optionReasons": {
-        "mind-mcq-12": "本句指「並非故意地暫時忘記某件事」。",
-        "mind-mcq-11": "「某個想法、人物或記憶自然出現在腦中」是「come to mind」的用法，與本句語境不同。",
-        "mind-mcq-13": "「儲存和回想資訊的記憶能力／內容」是「mind — memory」的用法，與本句語境不同。",
-        "mind-mcq-10": "「在決定或行動時持續記住並考慮某項重要因素」是「keep/bear in mind」的用法，與本句語境不同。",
-        "mind-mcq-14": "「某一刻的情緒、態度及思考狀態」是「state/frame of mind」的用法，與本句語境不同。",
-        "mind-mcq-09": "「已經在考慮某個想法、計劃、人物或選擇」是「have something in mind」的用法，與本句語境不同。"
+        "mind-mcq-12": "本句的「slipped my mind」指「並非故意地暫時忘記某件事」。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-12"
     },
@@ -1772,11 +1664,9 @@ export default {
       "masked": "He has an excellent ____.",
       "options": [
         "mind-mcq-13",
-        "mind-mcq-12",
-        "mind-mcq-14",
-        "mind-mcq-11",
-        "mind-mcq-15",
-        "mind-mcq-10"
+        "mind-mcq-32",
+        "mind-mcq-40",
+        "mind-mcq-22"
       ],
       "explanation": "本句的「mind for names」指「儲存和回想資訊的記憶能力／內容」。",
       "sentenceIndex": 27,
@@ -1785,12 +1675,10 @@ export default {
         "mind for names"
       ],
       "optionReasons": {
-        "mind-mcq-13": "本句指「儲存和回想資訊的記憶能力／內容」。",
-        "mind-mcq-12": "「並非故意地暫時忘記某件事」是「slip your mind」的用法，與本句語境不同。",
-        "mind-mcq-14": "「某一刻的情緒、態度及思考狀態」是「state/frame of mind」的用法，與本句語境不同。",
-        "mind-mcq-11": "「某個想法、人物或記憶自然出現在腦中」是「come to mind」的用法，與本句語境不同。",
-        "mind-mcq-15": "「沒有強烈擔憂或不安的內心平靜狀態」是「peace of mind」的用法，與本句語境不同。",
-        "mind-mcq-10": "「在決定或行動時持續記住並考慮某項重要因素」是「keep/bear in mind」的用法，與本句語境不同。"
+        "mind-mcq-13": "本句的「mind for names」指「儲存和回想資訊的記憶能力／內容」。",
+        "mind-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-13"
     },
@@ -1802,11 +1690,9 @@ export default {
       "masked": "The details are still fresh in my ____.",
       "options": [
         "mind-mcq-13",
-        "mind-mcq-12",
+        "mind-mcq-08",
         "mind-mcq-14",
-        "mind-mcq-11",
-        "mind-mcq-15",
-        "mind-mcq-10"
+        "mind-mcq-22"
       ],
       "explanation": "本句的「mind」指「儲存和回想資訊的記憶能力／內容」。",
       "sentenceIndex": 28,
@@ -1815,12 +1701,10 @@ export default {
         "mind"
       ],
       "optionReasons": {
-        "mind-mcq-13": "本句指「儲存和回想資訊的記憶能力／內容」。",
-        "mind-mcq-12": "「並非故意地暫時忘記某件事」是「slip your mind」的用法，與本句語境不同。",
-        "mind-mcq-14": "「某一刻的情緒、態度及思考狀態」是「state/frame of mind」的用法，與本句語境不同。",
-        "mind-mcq-11": "「某個想法、人物或記憶自然出現在腦中」是「come to mind」的用法，與本句語境不同。",
-        "mind-mcq-15": "「沒有強烈擔憂或不安的內心平靜狀態」是「peace of mind」的用法，與本句語境不同。",
-        "mind-mcq-10": "「在決定或行動時持續記住並考慮某項重要因素」是「keep/bear in mind」的用法，與本句語境不同。"
+        "mind-mcq-13": "本句的「mind」指「儲存和回想資訊的記憶能力／內容」。",
+        "mind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-13"
     },
@@ -1832,11 +1716,9 @@ export default {
       "masked": "I wasn’t in the right ____ to give the presentation.",
       "options": [
         "mind-mcq-14",
-        "mind-mcq-13",
-        "mind-mcq-15",
-        "mind-mcq-12",
-        "mind-mcq-16",
-        "mind-mcq-11"
+        "mind-mcq-31",
+        "mind-mcq-40",
+        "mind-mcq-24"
       ],
       "explanation": "本句的「frame of mind」指「某一刻的情緒、態度及思考狀態」。",
       "sentenceIndex": 29,
@@ -1845,12 +1727,10 @@ export default {
         "frame of mind"
       ],
       "optionReasons": {
-        "mind-mcq-14": "本句指「某一刻的情緒、態度及思考狀態」。",
-        "mind-mcq-13": "「儲存和回想資訊的記憶能力／內容」是「mind — memory」的用法，與本句語境不同。",
-        "mind-mcq-15": "「沒有強烈擔憂或不安的內心平靜狀態」是「peace of mind」的用法，與本句語境不同。",
-        "mind-mcq-12": "「並非故意地暫時忘記某件事」是「slip your mind」的用法，與本句語境不同。",
-        "mind-mcq-16": "「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」是「presence of mind」的用法，與本句語境不同。",
-        "mind-mcq-11": "「某個想法、人物或記憶自然出現在腦中」是「come to mind」的用法，與本句語境不同。"
+        "mind-mcq-14": "本句的「frame of mind」指「某一刻的情緒、態度及思考狀態」。",
+        "mind-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-14"
     },
@@ -1863,10 +1743,8 @@ export default {
       "options": [
         "mind-mcq-14",
         "mind-mcq-13",
-        "mind-mcq-15",
-        "mind-mcq-12",
-        "mind-mcq-16",
-        "mind-mcq-11"
+        "mind-mcq-28",
+        "mind-pdf-reviewed-01"
       ],
       "explanation": "本句的「state of mind」指「某一刻的情緒、態度及思考狀態」。",
       "sentenceIndex": 30,
@@ -1875,12 +1753,10 @@ export default {
         "state of mind"
       ],
       "optionReasons": {
-        "mind-mcq-14": "本句指「某一刻的情緒、態度及思考狀態」。",
-        "mind-mcq-13": "「儲存和回想資訊的記憶能力／內容」是「mind — memory」的用法，與本句語境不同。",
-        "mind-mcq-15": "「沒有強烈擔憂或不安的內心平靜狀態」是「peace of mind」的用法，與本句語境不同。",
-        "mind-mcq-12": "「並非故意地暫時忘記某件事」是「slip your mind」的用法，與本句語境不同。",
-        "mind-mcq-16": "「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」是「presence of mind」的用法，與本句語境不同。",
-        "mind-mcq-11": "「某個想法、人物或記憶自然出現在腦中」是「come to mind」的用法，與本句語境不同。"
+        "mind-mcq-14": "本句的「state of mind」指「某一刻的情緒、態度及思考狀態」。",
+        "mind-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mind-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-14"
     },
@@ -1892,11 +1768,9 @@ export default {
       "masked": "Practising several times gave me ____.",
       "options": [
         "mind-mcq-15",
-        "mind-mcq-14",
-        "mind-mcq-16",
-        "mind-mcq-13",
-        "mind-mcq-17",
-        "mind-mcq-12"
+        "mind-mcq-12",
+        "mind-mcq-25",
+        "mind-mcq-21"
       ],
       "explanation": "本句的「peace of mind」指「沒有強烈擔憂或不安的內心平靜狀態」。",
       "sentenceIndex": 31,
@@ -1905,12 +1779,10 @@ export default {
         "peace of mind"
       ],
       "optionReasons": {
-        "mind-mcq-15": "本句指「沒有強烈擔憂或不安的內心平靜狀態」。",
-        "mind-mcq-14": "「某一刻的情緒、態度及思考狀態」是「state/frame of mind」的用法，與本句語境不同。",
-        "mind-mcq-16": "「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」是「presence of mind」的用法，與本句語境不同。",
-        "mind-mcq-13": "「儲存和回想資訊的記憶能力／內容」是「mind — memory」的用法，與本句語境不同。",
-        "mind-mcq-17": "「一個人的思考、分析和理解能力；才智」是「mind — intellect」的用法，與本句語境不同。",
-        "mind-mcq-12": "「並非故意地暫時忘記某件事」是「slip your mind」的用法，與本句語境不同。"
+        "mind-mcq-15": "本句的「peace of mind」指「沒有強烈擔憂或不安的內心平靜狀態」。",
+        "mind-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-15"
     },
@@ -1922,10 +1794,8 @@ export default {
       "masked": "The backup copy gives me ____.",
       "options": [
         "mind-mcq-15",
-        "mind-mcq-14",
-        "mind-mcq-16",
-        "mind-mcq-13",
-        "mind-mcq-17",
+        "mind-mcq-03",
+        "mind-mcq-08",
         "mind-mcq-12"
       ],
       "explanation": "本句的「peace of mind」指「沒有強烈擔憂或不安的內心平靜狀態」。",
@@ -1935,12 +1805,10 @@ export default {
         "peace of mind"
       ],
       "optionReasons": {
-        "mind-mcq-15": "本句指「沒有強烈擔憂或不安的內心平靜狀態」。",
-        "mind-mcq-14": "「某一刻的情緒、態度及思考狀態」是「state/frame of mind」的用法，與本句語境不同。",
-        "mind-mcq-16": "「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」是「presence of mind」的用法，與本句語境不同。",
-        "mind-mcq-13": "「儲存和回想資訊的記憶能力／內容」是「mind — memory」的用法，與本句語境不同。",
-        "mind-mcq-17": "「一個人的思考、分析和理解能力；才智」是「mind — intellect」的用法，與本句語境不同。",
-        "mind-mcq-12": "「並非故意地暫時忘記某件事」是「slip your mind」的用法，與本句語境不同。"
+        "mind-mcq-15": "本句的「peace of mind」指「沒有強烈擔憂或不安的內心平靜狀態」。",
+        "mind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-15"
     },
@@ -1952,11 +1820,9 @@ export default {
       "masked": "She had the ____ to continue after making a mistake.",
       "options": [
         "mind-mcq-16",
-        "mind-mcq-15",
-        "mind-mcq-17",
-        "mind-mcq-14",
-        "mind-mcq-18",
-        "mind-mcq-13"
+        "mind-mcq-23",
+        "mind-mcq-09",
+        "mind-mcq-27"
       ],
       "explanation": "本句的「presence of mind」指「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」。",
       "sentenceIndex": 33,
@@ -1965,12 +1831,10 @@ export default {
         "presence of mind"
       ],
       "optionReasons": {
-        "mind-mcq-16": "本句指「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」。",
-        "mind-mcq-15": "「沒有強烈擔憂或不安的內心平靜狀態」是「peace of mind」的用法，與本句語境不同。",
-        "mind-mcq-17": "「一個人的思考、分析和理解能力；才智」是「mind — intellect」的用法，與本句語境不同。",
-        "mind-mcq-14": "「某一刻的情緒、態度及思考狀態」是「state/frame of mind」的用法，與本句語境不同。",
-        "mind-mcq-18": "「思考能力卓越的人／傑出人才」是「a great/brilliant mind」的用法，與本句語境不同。",
-        "mind-mcq-13": "「儲存和回想資訊的記憶能力／內容」是「mind — memory」的用法，與本句語境不同。"
+        "mind-mcq-16": "本句的「presence of mind」指「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」。",
+        "mind-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-16"
     },
@@ -1982,11 +1846,9 @@ export default {
       "masked": "He had the ____ to call for help.",
       "options": [
         "mind-mcq-16",
-        "mind-mcq-15",
-        "mind-mcq-17",
-        "mind-mcq-14",
-        "mind-mcq-18",
-        "mind-mcq-13"
+        "mind-mcq-07",
+        "mind-mcq-29",
+        "mind-mcq-27"
       ],
       "explanation": "本句的「presence of mind」指「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」。",
       "sentenceIndex": 34,
@@ -1995,12 +1857,10 @@ export default {
         "presence of mind"
       ],
       "optionReasons": {
-        "mind-mcq-16": "本句指「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」。",
-        "mind-mcq-15": "「沒有強烈擔憂或不安的內心平靜狀態」是「peace of mind」的用法，與本句語境不同。",
-        "mind-mcq-17": "「一個人的思考、分析和理解能力；才智」是「mind — intellect」的用法，與本句語境不同。",
-        "mind-mcq-14": "「某一刻的情緒、態度及思考狀態」是「state/frame of mind」的用法，與本句語境不同。",
-        "mind-mcq-18": "「思考能力卓越的人／傑出人才」是「a great/brilliant mind」的用法，與本句語境不同。",
-        "mind-mcq-13": "「儲存和回想資訊的記憶能力／內容」是「mind — memory」的用法，與本句語境不同。"
+        "mind-mcq-16": "本句的「presence of mind」指「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」。",
+        "mind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-16"
     },
@@ -2012,11 +1872,9 @@ export default {
       "masked": "She has a brilliant ____.",
       "options": [
         "mind-mcq-17",
-        "mind-mcq-16",
-        "mind-mcq-18",
-        "mind-mcq-15",
-        "mind-mcq-19",
-        "mind-mcq-14"
+        "mind-mcq-27",
+        "mind-mcq-40",
+        "mind-mcq-12"
       ],
       "explanation": "本句的「mind」指「一個人的思考、分析和理解能力；才智」。",
       "sentenceIndex": 35,
@@ -2025,12 +1883,10 @@ export default {
         "mind"
       ],
       "optionReasons": {
-        "mind-mcq-17": "本句指「一個人的思考、分析和理解能力；才智」。",
-        "mind-mcq-16": "「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」是「presence of mind」的用法，與本句語境不同。",
-        "mind-mcq-18": "「思考能力卓越的人／傑出人才」是「a great/brilliant mind」的用法，與本句語境不同。",
-        "mind-mcq-15": "「沒有強烈擔憂或不安的內心平靜狀態」是「peace of mind」的用法，與本句語境不同。",
-        "mind-mcq-19": "「某人當下集中注意和思考的能力／方向」是「mind — attention」的用法，與本句語境不同。",
-        "mind-mcq-14": "「某一刻的情緒、態度及思考狀態」是「state/frame of mind」的用法，與本句語境不同。"
+        "mind-mcq-17": "本句的「mind」指「一個人的思考、分析和理解能力；才智」。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-17"
     },
@@ -2042,11 +1898,9 @@ export default {
       "masked": "Some of the best ____ in the industry worked on the problem.",
       "options": [
         "mind-mcq-17",
-        "mind-mcq-16",
-        "mind-mcq-18",
-        "mind-mcq-15",
-        "mind-mcq-19",
-        "mind-mcq-14"
+        "mind-mcq-23",
+        "mind-mcq-31",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「minds」指「一個人的思考、分析和理解能力；才智」。",
       "sentenceIndex": 36,
@@ -2055,12 +1909,10 @@ export default {
         "minds"
       ],
       "optionReasons": {
-        "mind-mcq-17": "本句指「一個人的思考、分析和理解能力；才智」。",
-        "mind-mcq-16": "「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」是「presence of mind」的用法，與本句語境不同。",
-        "mind-mcq-18": "「思考能力卓越的人／傑出人才」是「a great/brilliant mind」的用法，與本句語境不同。",
-        "mind-mcq-15": "「沒有強烈擔憂或不安的內心平靜狀態」是「peace of mind」的用法，與本句語境不同。",
-        "mind-mcq-19": "「某人當下集中注意和思考的能力／方向」是「mind — attention」的用法，與本句語境不同。",
-        "mind-mcq-14": "「某一刻的情緒、態度及思考狀態」是「state/frame of mind」的用法，與本句語境不同。"
+        "mind-mcq-17": "本句的「minds」指「一個人的思考、分析和理解能力；才智」。",
+        "mind-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-17"
     },
@@ -2072,11 +1924,9 @@ export default {
       "masked": "She is one of the great ____ of her field.",
       "options": [
         "mind-mcq-18",
-        "mind-mcq-17",
-        "mind-mcq-19",
-        "mind-mcq-16",
-        "mind-mcq-20",
-        "mind-mcq-15"
+        "mind-mcq-21",
+        "mind-mcq-23",
+        "mind-pdf-reviewed-01"
       ],
       "explanation": "本句的「minds」指「思考能力卓越的人／傑出人才」。",
       "sentenceIndex": 37,
@@ -2085,12 +1935,10 @@ export default {
         "minds"
       ],
       "optionReasons": {
-        "mind-mcq-18": "本句指「思考能力卓越的人／傑出人才」。",
-        "mind-mcq-17": "「一個人的思考、分析和理解能力；才智」是「mind — intellect」的用法，與本句語境不同。",
-        "mind-mcq-19": "「某人當下集中注意和思考的能力／方向」是「mind — attention」的用法，與本句語境不同。",
-        "mind-mcq-16": "「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」是「presence of mind」的用法，與本句語境不同。",
-        "mind-mcq-20": "「集中精神、意志和努力去完成某件事」是「put/set your mind to」的用法，與本句語境不同。",
-        "mind-mcq-15": "「沒有強烈擔憂或不安的內心平靜狀態」是「peace of mind」的用法，與本句語境不同。"
+        "mind-mcq-18": "本句的「minds」指「思考能力卓越的人／傑出人才」。",
+        "mind-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mind-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-18"
     },
@@ -2102,11 +1950,9 @@ export default {
       "masked": "The conference brought together leading ____ in technology.",
       "options": [
         "mind-mcq-18",
-        "mind-mcq-17",
-        "mind-mcq-19",
-        "mind-mcq-16",
-        "mind-mcq-20",
-        "mind-mcq-15"
+        "mind-mcq-26",
+        "mind-mcq-22",
+        "mind-mcq-24"
       ],
       "explanation": "本句的「minds」指「思考能力卓越的人／傑出人才」。",
       "sentenceIndex": 38,
@@ -2115,12 +1961,10 @@ export default {
         "minds"
       ],
       "optionReasons": {
-        "mind-mcq-18": "本句指「思考能力卓越的人／傑出人才」。",
-        "mind-mcq-17": "「一個人的思考、分析和理解能力；才智」是「mind — intellect」的用法，與本句語境不同。",
-        "mind-mcq-19": "「某人當下集中注意和思考的能力／方向」是「mind — attention」的用法，與本句語境不同。",
-        "mind-mcq-16": "「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」是「presence of mind」的用法，與本句語境不同。",
-        "mind-mcq-20": "「集中精神、意志和努力去完成某件事」是「put/set your mind to」的用法，與本句語境不同。",
-        "mind-mcq-15": "「沒有強烈擔憂或不安的內心平靜狀態」是「peace of mind」的用法，與本句語境不同。"
+        "mind-mcq-18": "本句的「minds」指「思考能力卓越的人／傑出人才」。",
+        "mind-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-18"
     },
@@ -2132,11 +1976,9 @@ export default {
       "masked": "Keep your ____ on the presentation.",
       "options": [
         "mind-mcq-19",
-        "mind-mcq-18",
-        "mind-mcq-20",
-        "mind-mcq-17",
-        "mind-mcq-21",
-        "mind-mcq-16"
+        "mind-mcq-27",
+        "mind-mcq-29",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「mind」指「某人當下集中注意和思考的能力／方向」。",
       "sentenceIndex": 39,
@@ -2145,12 +1987,10 @@ export default {
         "mind"
       ],
       "optionReasons": {
-        "mind-mcq-19": "本句指「某人當下集中注意和思考的能力／方向」。",
-        "mind-mcq-18": "「思考能力卓越的人／傑出人才」是「a great/brilliant mind」的用法，與本句語境不同。",
-        "mind-mcq-20": "「集中精神、意志和努力去完成某件事」是「put/set your mind to」的用法，與本句語境不同。",
-        "mind-mcq-17": "「一個人的思考、分析和理解能力；才智」是「mind — intellect」的用法，與本句語境不同。",
-        "mind-mcq-21": "「某人對某項行動的意向、傾向或打算」是「mind — intention」的用法，與本句語境不同。",
-        "mind-mcq-16": "「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」是「presence of mind」的用法，與本句語境不同。"
+        "mind-mcq-19": "本句的「mind」指「某人當下集中注意和思考的能力／方向」。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-19"
     },
@@ -2162,11 +2002,9 @@ export default {
       "masked": "My ____ kept wandering.",
       "options": [
         "mind-mcq-19",
-        "mind-mcq-18",
-        "mind-mcq-20",
-        "mind-mcq-17",
-        "mind-mcq-21",
-        "mind-mcq-16"
+        "mind-mcq-40",
+        "mind-mcq-28",
+        "mind-mcq-31"
       ],
       "explanation": "本句的「mind」指「某人當下集中注意和思考的能力／方向」。",
       "sentenceIndex": 40,
@@ -2175,12 +2013,10 @@ export default {
         "mind"
       ],
       "optionReasons": {
-        "mind-mcq-19": "本句指「某人當下集中注意和思考的能力／方向」。",
-        "mind-mcq-18": "「思考能力卓越的人／傑出人才」是「a great/brilliant mind」的用法，與本句語境不同。",
-        "mind-mcq-20": "「集中精神、意志和努力去完成某件事」是「put/set your mind to」的用法，與本句語境不同。",
-        "mind-mcq-17": "「一個人的思考、分析和理解能力；才智」是「mind — intellect」的用法，與本句語境不同。",
-        "mind-mcq-21": "「某人對某項行動的意向、傾向或打算」是「mind — intention」的用法，與本句語境不同。",
-        "mind-mcq-16": "「在突發或壓力情況下仍保持冷靜並迅速合理反應的能力」是「presence of mind」的用法，與本句語境不同。"
+        "mind-mcq-19": "本句的「mind」指「某人當下集中注意和思考的能力／方向」。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-19"
     },
@@ -2192,11 +2028,9 @@ export default {
       "masked": "You can improve quickly if you ____.",
       "options": [
         "mind-mcq-20",
-        "mind-mcq-19",
-        "mind-mcq-21",
-        "mind-mcq-18",
-        "mind-mcq-22",
-        "mind-mcq-17"
+        "mind-mcq-27",
+        "mind-mcq-09",
+        "mind-mcq-15"
       ],
       "explanation": "本句的「put your mind to it」指「集中精神、意志和努力去完成某件事」。",
       "sentenceIndex": 41,
@@ -2205,12 +2039,10 @@ export default {
         "put your mind to it"
       ],
       "optionReasons": {
-        "mind-mcq-20": "本句指「集中精神、意志和努力去完成某件事」。",
-        "mind-mcq-19": "「某人當下集中注意和思考的能力／方向」是「mind — attention」的用法，與本句語境不同。",
-        "mind-mcq-21": "「某人對某項行動的意向、傾向或打算」是「mind — intention」的用法，與本句語境不同。",
-        "mind-mcq-18": "「思考能力卓越的人／傑出人才」是「a great/brilliant mind」的用法，與本句語境不同。",
-        "mind-mcq-22": "「對某件事感到不方便、不舒服、不高興或反對；介意」是「mind — object/care」的用法，與本句語境不同。",
-        "mind-mcq-17": "「一個人的思考、分析和理解能力；才智」是「mind — intellect」的用法，與本句語境不同。"
+        "mind-mcq-20": "本句的「put your mind to it」指「集中精神、意志和努力去完成某件事」。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-20"
     },
@@ -2222,11 +2054,9 @@ export default {
       "masked": "Once she ____ the task, she completed it.",
       "options": [
         "mind-mcq-20",
-        "mind-mcq-19",
-        "mind-mcq-21",
-        "mind-mcq-18",
-        "mind-mcq-22",
-        "mind-mcq-17"
+        "mind-mcq-05",
+        "mind-mcq-27",
+        "mind-mcq-10"
       ],
       "explanation": "本句的「set her mind to」指「集中精神、意志和努力去完成某件事」。",
       "sentenceIndex": 42,
@@ -2235,12 +2065,10 @@ export default {
         "set her mind to"
       ],
       "optionReasons": {
-        "mind-mcq-20": "本句指「集中精神、意志和努力去完成某件事」。",
-        "mind-mcq-19": "「某人當下集中注意和思考的能力／方向」是「mind — attention」的用法，與本句語境不同。",
-        "mind-mcq-21": "「某人對某項行動的意向、傾向或打算」是「mind — intention」的用法，與本句語境不同。",
-        "mind-mcq-18": "「思考能力卓越的人／傑出人才」是「a great/brilliant mind」的用法，與本句語境不同。",
-        "mind-mcq-22": "「對某件事感到不方便、不舒服、不高興或反對；介意」是「mind — object/care」的用法，與本句語境不同。",
-        "mind-mcq-17": "「一個人的思考、分析和理解能力；才智」是「mind — intellect」的用法，與本句語境不同。"
+        "mind-mcq-20": "本句的「set her mind to」指「集中精神、意志和努力去完成某件事」。",
+        "mind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-20"
     },
@@ -2252,11 +2080,9 @@ export default {
       "masked": "She was of a ____ refuse the offer.",
       "options": [
         "mind-mcq-21",
-        "mind-mcq-20",
-        "mind-mcq-22",
-        "mind-mcq-19",
-        "mind-mcq-23",
-        "mind-mcq-18"
+        "mind-mcq-14",
+        "mind-mcq-04",
+        "mind-mcq-13"
       ],
       "explanation": "本句的「mind to」指「某人對某項行動的意向、傾向或打算」。",
       "sentenceIndex": 43,
@@ -2265,12 +2091,10 @@ export default {
         "mind to"
       ],
       "optionReasons": {
-        "mind-mcq-21": "本句指「某人對某項行動的意向、傾向或打算」。",
-        "mind-mcq-20": "「集中精神、意志和努力去完成某件事」是「put/set your mind to」的用法，與本句語境不同。",
-        "mind-mcq-22": "「對某件事感到不方便、不舒服、不高興或反對；介意」是「mind — object/care」的用法，與本句語境不同。",
-        "mind-mcq-19": "「某人當下集中注意和思考的能力／方向」是「mind — attention」的用法，與本句語境不同。",
-        "mind-mcq-23": "「禮貌詢問對方是否介意做某件事」是「Do/Would you mind + -ing」的用法，與本句語境不同。",
-        "mind-mcq-18": "「思考能力卓越的人／傑出人才」是「a great/brilliant mind」的用法，與本句語境不同。"
+        "mind-mcq-21": "本句的「mind to」指「某人對某項行動的意向、傾向或打算」。",
+        "mind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-21"
     },
@@ -2282,11 +2106,9 @@ export default {
       "masked": "I have half a ____ complain.",
       "options": [
         "mind-mcq-21",
-        "mind-mcq-20",
-        "mind-mcq-22",
-        "mind-mcq-19",
-        "mind-mcq-23",
-        "mind-mcq-18"
+        "mind-mcq-29",
+        "mind-mcq-39",
+        "mind-mcq-15"
       ],
       "explanation": "本句的「mind to」指「某人對某項行動的意向、傾向或打算」。",
       "sentenceIndex": 44,
@@ -2295,12 +2117,10 @@ export default {
         "mind to"
       ],
       "optionReasons": {
-        "mind-mcq-21": "本句指「某人對某項行動的意向、傾向或打算」。",
-        "mind-mcq-20": "「集中精神、意志和努力去完成某件事」是「put/set your mind to」的用法，與本句語境不同。",
-        "mind-mcq-22": "「對某件事感到不方便、不舒服、不高興或反對；介意」是「mind — object/care」的用法，與本句語境不同。",
-        "mind-mcq-19": "「某人當下集中注意和思考的能力／方向」是「mind — attention」的用法，與本句語境不同。",
-        "mind-mcq-23": "「禮貌詢問對方是否介意做某件事」是「Do/Would you mind + -ing」的用法，與本句語境不同。",
-        "mind-mcq-18": "「思考能力卓越的人／傑出人才」是「a great/brilliant mind」的用法，與本句語境不同。"
+        "mind-mcq-21": "本句的「mind to」指「某人對某項行動的意向、傾向或打算」。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-21"
     },
@@ -2312,11 +2132,9 @@ export default {
       "masked": "Do you ____ if I open the window?",
       "options": [
         "mind-mcq-22",
-        "mind-mcq-21",
-        "mind-mcq-23",
-        "mind-mcq-20",
-        "mind-mcq-24",
-        "mind-mcq-19"
+        "mind-mcq-11",
+        "mind-mcq-15",
+        "mind-mcq-10"
       ],
       "explanation": "本句的「mind」指「對某件事感到不方便、不舒服、不高興或反對；介意」。",
       "sentenceIndex": 45,
@@ -2325,12 +2143,10 @@ export default {
         "mind"
       ],
       "optionReasons": {
-        "mind-mcq-22": "本句指「對某件事感到不方便、不舒服、不高興或反對；介意」。",
-        "mind-mcq-21": "「某人對某項行動的意向、傾向或打算」是「mind — intention」的用法，與本句語境不同。",
-        "mind-mcq-23": "「禮貌詢問對方是否介意做某件事」是「Do/Would you mind + -ing」的用法，與本句語境不同。",
-        "mind-mcq-20": "「集中精神、意志和努力去完成某件事」是「put/set your mind to」的用法，與本句語境不同。",
-        "mind-mcq-24": "「暫時照顧、看守或留意某人／某物」是「mind — look after」的用法，與本句語境不同。",
-        "mind-mcq-19": "「某人當下集中注意和思考的能力／方向」是「mind — attention」的用法，與本句語境不同。"
+        "mind-mcq-22": "本句的「mind」指「對某件事感到不方便、不舒服、不高興或反對；介意」。",
+        "mind-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-22"
     },
@@ -2342,11 +2158,9 @@ export default {
       "masked": "I don’t ____ waiting.",
       "options": [
         "mind-mcq-22",
-        "mind-mcq-21",
-        "mind-mcq-23",
-        "mind-mcq-20",
-        "mind-mcq-24",
-        "mind-mcq-19"
+        "mind-pdf-001",
+        "mind-mcq-10",
+        "mind-mcq-27"
       ],
       "explanation": "本句的「mind」指「對某件事感到不方便、不舒服、不高興或反對；介意」。",
       "sentenceIndex": 46,
@@ -2355,12 +2169,10 @@ export default {
         "mind"
       ],
       "optionReasons": {
-        "mind-mcq-22": "本句指「對某件事感到不方便、不舒服、不高興或反對；介意」。",
-        "mind-mcq-21": "「某人對某項行動的意向、傾向或打算」是「mind — intention」的用法，與本句語境不同。",
-        "mind-mcq-23": "「禮貌詢問對方是否介意做某件事」是「Do/Would you mind + -ing」的用法，與本句語境不同。",
-        "mind-mcq-20": "「集中精神、意志和努力去完成某件事」是「put/set your mind to」的用法，與本句語境不同。",
-        "mind-mcq-24": "「暫時照顧、看守或留意某人／某物」是「mind — look after」的用法，與本句語境不同。",
-        "mind-mcq-19": "「某人當下集中注意和思考的能力／方向」是「mind — attention」的用法，與本句語境不同。"
+        "mind-mcq-22": "本句的「mind」指「對某件事感到不方便、不舒服、不高興或反對；介意」。",
+        "mind-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-22"
     },
@@ -2372,11 +2184,9 @@ export default {
       "masked": "Do you ____ my slides?",
       "options": [
         "mind-mcq-23",
-        "mind-mcq-22",
-        "mind-mcq-24",
-        "mind-mcq-21",
-        "mind-mcq-25",
-        "mind-mcq-20"
+        "mind-mcq-02",
+        "mind-mcq-10",
+        "mind-mcq-03"
       ],
       "explanation": "本句的「mind checking」指「禮貌詢問對方是否介意做某件事」。",
       "sentenceIndex": 47,
@@ -2385,12 +2195,10 @@ export default {
         "mind checking"
       ],
       "optionReasons": {
-        "mind-mcq-23": "本句指「禮貌詢問對方是否介意做某件事」。",
-        "mind-mcq-22": "「對某件事感到不方便、不舒服、不高興或反對；介意」是「mind — object/care」的用法，與本句語境不同。",
-        "mind-mcq-24": "「暫時照顧、看守或留意某人／某物」是「mind — look after」的用法，與本句語境不同。",
-        "mind-mcq-21": "「某人對某項行動的意向、傾向或打算」是「mind — intention」的用法，與本句語境不同。",
-        "mind-mcq-25": "「留意某個危險、障礙或需要注意的事物」是「mind — be careful」的用法，與本句語境不同。",
-        "mind-mcq-20": "「集中精神、意志和努力去完成某件事」是「put/set your mind to」的用法，與本句語境不同。"
+        "mind-mcq-23": "本句的「mind checking」指「禮貌詢問對方是否介意做某件事」。",
+        "mind-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-23"
     },
@@ -2402,11 +2210,9 @@ export default {
       "masked": "Would you ____ more slowly?",
       "options": [
         "mind-mcq-23",
-        "mind-mcq-22",
-        "mind-mcq-24",
-        "mind-mcq-21",
-        "mind-mcq-25",
-        "mind-mcq-20"
+        "mind-mcq-14",
+        "mind-mcq-10",
+        "mind-mcq-13"
       ],
       "explanation": "本句的「mind speaking」指「禮貌詢問對方是否介意做某件事」。",
       "sentenceIndex": 48,
@@ -2415,12 +2221,10 @@ export default {
         "mind speaking"
       ],
       "optionReasons": {
-        "mind-mcq-23": "本句指「禮貌詢問對方是否介意做某件事」。",
-        "mind-mcq-22": "「對某件事感到不方便、不舒服、不高興或反對；介意」是「mind — object/care」的用法，與本句語境不同。",
-        "mind-mcq-24": "「暫時照顧、看守或留意某人／某物」是「mind — look after」的用法，與本句語境不同。",
-        "mind-mcq-21": "「某人對某項行動的意向、傾向或打算」是「mind — intention」的用法，與本句語境不同。",
-        "mind-mcq-25": "「留意某個危險、障礙或需要注意的事物」是「mind — be careful」的用法，與本句語境不同。",
-        "mind-mcq-20": "「集中精神、意志和努力去完成某件事」是「put/set your mind to」的用法，與本句語境不同。"
+        "mind-mcq-23": "本句的「mind speaking」指「禮貌詢問對方是否介意做某件事」。",
+        "mind-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-23"
     },
@@ -2432,11 +2236,9 @@ export default {
       "masked": "Do you ____?",
       "options": [
         "mind-mcq-23",
-        "mind-mcq-22",
-        "mind-mcq-24",
-        "mind-mcq-21",
-        "mind-mcq-25",
-        "mind-mcq-20"
+        "mind-pdf-001",
+        "mind-mcq-10",
+        "mind-mcq-25"
       ],
       "explanation": "本句的「mind if I sit here」指「禮貌詢問對方是否介意做某件事」。",
       "sentenceIndex": 49,
@@ -2445,12 +2247,10 @@ export default {
         "mind if I sit here"
       ],
       "optionReasons": {
-        "mind-mcq-23": "本句指「禮貌詢問對方是否介意做某件事」。",
-        "mind-mcq-22": "「對某件事感到不方便、不舒服、不高興或反對；介意」是「mind — object/care」的用法，與本句語境不同。",
-        "mind-mcq-24": "「暫時照顧、看守或留意某人／某物」是「mind — look after」的用法，與本句語境不同。",
-        "mind-mcq-21": "「某人對某項行動的意向、傾向或打算」是「mind — intention」的用法，與本句語境不同。",
-        "mind-mcq-25": "「留意某個危險、障礙或需要注意的事物」是「mind — be careful」的用法，與本句語境不同。",
-        "mind-mcq-20": "「集中精神、意志和努力去完成某件事」是「put/set your mind to」的用法，與本句語境不同。"
+        "mind-mcq-23": "本句的「mind if I sit here」指「禮貌詢問對方是否介意做某件事」。",
+        "mind-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-23"
     },
@@ -2462,11 +2262,9 @@ export default {
       "masked": "Would you ____?",
       "options": [
         "mind-mcq-23",
-        "mind-mcq-22",
-        "mind-mcq-24",
-        "mind-mcq-21",
-        "mind-mcq-25",
-        "mind-mcq-20"
+        "mind-pdf-001",
+        "mind-mcq-10",
+        "mind-mcq-30"
       ],
       "explanation": "本句的「mind if we started early」指「禮貌詢問對方是否介意做某件事」。",
       "sentenceIndex": 50,
@@ -2475,12 +2273,10 @@ export default {
         "mind if we started early"
       ],
       "optionReasons": {
-        "mind-mcq-23": "本句指「禮貌詢問對方是否介意做某件事」。",
-        "mind-mcq-22": "「對某件事感到不方便、不舒服、不高興或反對；介意」是「mind — object/care」的用法，與本句語境不同。",
-        "mind-mcq-24": "「暫時照顧、看守或留意某人／某物」是「mind — look after」的用法，與本句語境不同。",
-        "mind-mcq-21": "「某人對某項行動的意向、傾向或打算」是「mind — intention」的用法，與本句語境不同。",
-        "mind-mcq-25": "「留意某個危險、障礙或需要注意的事物」是「mind — be careful」的用法，與本句語境不同。",
-        "mind-mcq-20": "「集中精神、意志和努力去完成某件事」是「put/set your mind to」的用法，與本句語境不同。"
+        "mind-mcq-23": "本句的「mind if we started early」指「禮貌詢問對方是否介意做某件事」。",
+        "mind-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-23"
     },
@@ -2492,11 +2288,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "mind-mcq-40",
-        "mind-mcq-39",
-        "mind-mcq-38",
-        "mind-mcq-37",
-        "mind-mcq-36",
-        "mind-mcq-35"
+        "mind-mcq-19",
+        "mind-mcq-29",
+        "mind-mcq-27"
       ],
       "explanation": "本句的「don’t mind」指「某個選擇／情況對我沒有造成不便或不滿」。",
       "sentenceIndex": 51,
@@ -2505,12 +2299,10 @@ export default {
         "don’t mind"
       ],
       "optionReasons": {
-        "mind-mcq-40": "本句指「某個選擇／情況對我沒有造成不便或不滿」。",
-        "mind-mcq-39": "「在重要觀點、態度或興趣上彼此相近的；志同道合的」是「like-minded」的用法，與本句語境不同。",
-        "mind-mcq-38": "「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」是「mindset」的用法，與本句語境不同。",
-        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」是「mindless」的用法，與本句語境不同。",
-        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」是「mindfulness」的用法，與本句語境不同。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」是「mindful of」的用法，與本句語境不同。"
+        "mind-mcq-40": "本句的「don’t mind」指「某個選擇／情況對我沒有造成不便或不滿」。",
+        "mind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-40"
     },
@@ -2522,11 +2314,9 @@ export default {
       "masked": "I ____ speaking first.",
       "options": [
         "mind-mcq-40",
-        "mind-mcq-39",
-        "mind-mcq-38",
-        "mind-mcq-37",
-        "mind-mcq-36",
-        "mind-mcq-35"
+        "mind-mcq-05",
+        "mind-mcq-12",
+        "mind-mcq-16"
       ],
       "explanation": "本句的「don’t mind」指「某個選擇／情況對我沒有造成不便或不滿」。",
       "sentenceIndex": 52,
@@ -2535,12 +2325,10 @@ export default {
         "don’t mind"
       ],
       "optionReasons": {
-        "mind-mcq-40": "本句指「某個選擇／情況對我沒有造成不便或不滿」。",
-        "mind-mcq-39": "「在重要觀點、態度或興趣上彼此相近的；志同道合的」是「like-minded」的用法，與本句語境不同。",
-        "mind-mcq-38": "「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」是「mindset」的用法，與本句語境不同。",
-        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」是「mindless」的用法，與本句語境不同。",
-        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」是「mindfulness」的用法，與本句語境不同。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」是「mindful of」的用法，與本句語境不同。"
+        "mind-mcq-40": "本句的「don’t mind」指「某個選擇／情況對我沒有造成不便或不滿」。",
+        "mind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-40"
     },
@@ -2552,11 +2340,9 @@ export default {
       "masked": "Could you ____ for a minute?",
       "options": [
         "mind-mcq-24",
-        "mind-mcq-23",
-        "mind-mcq-25",
-        "mind-mcq-22",
-        "mind-mcq-26",
-        "mind-mcq-21"
+        "mind-mcq-13",
+        "mind-mcq-04",
+        "mind-mcq-14"
       ],
       "explanation": "本句的「mind my bag」指「暫時照顧、看守或留意某人／某物」。",
       "sentenceIndex": 53,
@@ -2565,12 +2351,10 @@ export default {
         "mind my bag"
       ],
       "optionReasons": {
-        "mind-mcq-24": "本句指「暫時照顧、看守或留意某人／某物」。",
-        "mind-mcq-23": "「禮貌詢問對方是否介意做某件事」是「Do/Would you mind + -ing」的用法，與本句語境不同。",
-        "mind-mcq-25": "「留意某個危險、障礙或需要注意的事物」是「mind — be careful」的用法，與本句語境不同。",
-        "mind-mcq-22": "「對某件事感到不方便、不舒服、不高興或反對；介意」是「mind — object/care」的用法，與本句語境不同。",
-        "mind-mcq-26": "「注意並控制自己的言語或行為，使其保持適當」是「mind your language/manners」的用法，與本句語境不同。",
-        "mind-mcq-21": "「某人對某項行動的意向、傾向或打算」是「mind — intention」的用法，與本句語境不同。"
+        "mind-mcq-24": "本句的「mind my bag」指「暫時照顧、看守或留意某人／某物」。",
+        "mind-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-24"
     },
@@ -2582,11 +2366,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "mind-mcq-24",
-        "mind-mcq-23",
-        "mind-mcq-25",
-        "mind-mcq-22",
-        "mind-mcq-26",
-        "mind-mcq-21"
+        "mind-mcq-18",
+        "mind-mcq-28",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「minding the children」指「暫時照顧、看守或留意某人／某物」。",
       "sentenceIndex": 54,
@@ -2595,12 +2377,10 @@ export default {
         "minding the children"
       ],
       "optionReasons": {
-        "mind-mcq-24": "本句指「暫時照顧、看守或留意某人／某物」。",
-        "mind-mcq-23": "「禮貌詢問對方是否介意做某件事」是「Do/Would you mind + -ing」的用法，與本句語境不同。",
-        "mind-mcq-25": "「留意某個危險、障礙或需要注意的事物」是「mind — be careful」的用法，與本句語境不同。",
-        "mind-mcq-22": "「對某件事感到不方便、不舒服、不高興或反對；介意」是「mind — object/care」的用法，與本句語境不同。",
-        "mind-mcq-26": "「注意並控制自己的言語或行為，使其保持適當」是「mind your language/manners」的用法，與本句語境不同。",
-        "mind-mcq-21": "「某人對某項行動的意向、傾向或打算」是「mind — intention」的用法，與本句語境不同。"
+        "mind-mcq-24": "本句的「minding the children」指「暫時照顧、看守或留意某人／某物」。",
+        "mind-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-24"
     },
@@ -2612,11 +2392,9 @@ export default {
       "masked": "____",
       "options": [
         "mind-mcq-25",
-        "mind-mcq-24",
-        "mind-mcq-26",
-        "mind-mcq-23",
-        "mind-mcq-27",
-        "mind-mcq-22"
+        "mind-mcq-15",
+        "mind-mcq-33",
+        "mind-mcq-10"
       ],
       "explanation": "本句的「Mind the step.」指「留意某個危險、障礙或需要注意的事物」。",
       "sentenceIndex": 55,
@@ -2625,12 +2403,10 @@ export default {
         "Mind the step."
       ],
       "optionReasons": {
-        "mind-mcq-25": "本句指「留意某個危險、障礙或需要注意的事物」。",
-        "mind-mcq-24": "「暫時照顧、看守或留意某人／某物」是「mind — look after」的用法，與本句語境不同。",
-        "mind-mcq-26": "「注意並控制自己的言語或行為，使其保持適當」是「mind your language/manners」的用法，與本句語境不同。",
-        "mind-mcq-23": "「禮貌詢問對方是否介意做某件事」是「Do/Would you mind + -ing」的用法，與本句語境不同。",
-        "mind-mcq-27": "「不要介入不關自己事的私人事情」是「mind your own business」的用法，與本句語境不同。",
-        "mind-mcq-22": "「對某件事感到不方便、不舒服、不高興或反對；介意」是「mind — object/care」的用法，與本句語境不同。"
+        "mind-mcq-25": "本句的「Mind the step.」指「留意某個危險、障礙或需要注意的事物」。",
+        "mind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-25"
     },
@@ -2642,11 +2418,9 @@ export default {
       "masked": "____ as you go through the door.",
       "options": [
         "mind-mcq-25",
-        "mind-mcq-24",
-        "mind-mcq-26",
-        "mind-mcq-23",
-        "mind-mcq-27",
-        "mind-mcq-22"
+        "mind-mcq-05",
+        "mind-mcq-16",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「Mind your head」指「留意某個危險、障礙或需要注意的事物」。",
       "sentenceIndex": 56,
@@ -2655,12 +2429,10 @@ export default {
         "Mind your head"
       ],
       "optionReasons": {
-        "mind-mcq-25": "本句指「留意某個危險、障礙或需要注意的事物」。",
-        "mind-mcq-24": "「暫時照顧、看守或留意某人／某物」是「mind — look after」的用法，與本句語境不同。",
-        "mind-mcq-26": "「注意並控制自己的言語或行為，使其保持適當」是「mind your language/manners」的用法，與本句語境不同。",
-        "mind-mcq-23": "「禮貌詢問對方是否介意做某件事」是「Do/Would you mind + -ing」的用法，與本句語境不同。",
-        "mind-mcq-27": "「不要介入不關自己事的私人事情」是「mind your own business」的用法，與本句語境不同。",
-        "mind-mcq-22": "「對某件事感到不方便、不舒服、不高興或反對；介意」是「mind — object/care」的用法，與本句語境不同。"
+        "mind-mcq-25": "本句的「Mind your head」指「留意某個危險、障礙或需要注意的事物」。",
+        "mind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-25"
     },
@@ -2672,11 +2444,9 @@ export default {
       "masked": "Please ____ between the train and the platform.",
       "options": [
         "mind-mcq-25",
-        "mind-mcq-24",
-        "mind-mcq-26",
-        "mind-mcq-23",
-        "mind-mcq-27",
-        "mind-mcq-22"
+        "mind-mcq-09",
+        "mind-mcq-04",
+        "mind-mcq-13"
       ],
       "explanation": "本句的「mind the gap」指「留意某個危險、障礙或需要注意的事物」。",
       "sentenceIndex": 57,
@@ -2685,12 +2455,10 @@ export default {
         "mind the gap"
       ],
       "optionReasons": {
-        "mind-mcq-25": "本句指「留意某個危險、障礙或需要注意的事物」。",
-        "mind-mcq-24": "「暫時照顧、看守或留意某人／某物」是「mind — look after」的用法，與本句語境不同。",
-        "mind-mcq-26": "「注意並控制自己的言語或行為，使其保持適當」是「mind your language/manners」的用法，與本句語境不同。",
-        "mind-mcq-23": "「禮貌詢問對方是否介意做某件事」是「Do/Would you mind + -ing」的用法，與本句語境不同。",
-        "mind-mcq-27": "「不要介入不關自己事的私人事情」是「mind your own business」的用法，與本句語境不同。",
-        "mind-mcq-22": "「對某件事感到不方便、不舒服、不高興或反對；介意」是「mind — object/care」的用法，與本句語境不同。"
+        "mind-mcq-25": "本句的「mind the gap」指「留意某個危險、障礙或需要注意的事物」。",
+        "mind-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-25"
     },
@@ -2702,11 +2470,9 @@ export default {
       "masked": "The announcement reminded passengers to ____.",
       "options": [
         "mind-mcq-25",
-        "mind-mcq-24",
-        "mind-mcq-26",
-        "mind-mcq-23",
-        "mind-mcq-27",
-        "mind-mcq-22"
+        "mind-mcq-17",
+        "mind-mcq-04",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「mind the gap」指「留意某個危險、障礙或需要注意的事物」。",
       "sentenceIndex": 58,
@@ -2715,12 +2481,10 @@ export default {
         "mind the gap"
       ],
       "optionReasons": {
-        "mind-mcq-25": "本句指「留意某個危險、障礙或需要注意的事物」。",
-        "mind-mcq-24": "「暫時照顧、看守或留意某人／某物」是「mind — look after」的用法，與本句語境不同。",
-        "mind-mcq-26": "「注意並控制自己的言語或行為，使其保持適當」是「mind your language/manners」的用法，與本句語境不同。",
-        "mind-mcq-23": "「禮貌詢問對方是否介意做某件事」是「Do/Would you mind + -ing」的用法，與本句語境不同。",
-        "mind-mcq-27": "「不要介入不關自己事的私人事情」是「mind your own business」的用法，與本句語境不同。",
-        "mind-mcq-22": "「對某件事感到不方便、不舒服、不高興或反對；介意」是「mind — object/care」的用法，與本句語境不同。"
+        "mind-mcq-25": "本句的「mind the gap」指「留意某個危險、障礙或需要注意的事物」。",
+        "mind-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-25"
     },
@@ -2732,11 +2496,9 @@ export default {
       "masked": "____ in front of the children.",
       "options": [
         "mind-mcq-26",
-        "mind-mcq-25",
-        "mind-mcq-27",
-        "mind-mcq-24",
-        "mind-mcq-28",
-        "mind-mcq-23"
+        "mind-mcq-18",
+        "mind-mcq-29",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「Mind your language」指「注意並控制自己的言語或行為，使其保持適當」。",
       "sentenceIndex": 59,
@@ -2745,12 +2507,10 @@ export default {
         "Mind your language"
       ],
       "optionReasons": {
-        "mind-mcq-26": "本句指「注意並控制自己的言語或行為，使其保持適當」。",
-        "mind-mcq-25": "「留意某個危險、障礙或需要注意的事物」是「mind — be careful」的用法，與本句語境不同。",
-        "mind-mcq-27": "「不要介入不關自己事的私人事情」是「mind your own business」的用法，與本句語境不同。",
-        "mind-mcq-24": "「暫時照顧、看守或留意某人／某物」是「mind — look after」的用法，與本句語境不同。",
-        "mind-mcq-28": "「表示某件事不用再擔心、討論或處理；不要緊／算了」是「never mind — no problem」的用法，與本句語境不同。",
-        "mind-mcq-23": "「禮貌詢問對方是否介意做某件事」是「Do/Would you mind + -ing」的用法，與本句語境不同。"
+        "mind-mcq-26": "本句的「Mind your language」指「注意並控制自己的言語或行為，使其保持適當」。",
+        "mind-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-26"
     },
@@ -2762,11 +2522,9 @@ export default {
       "masked": "You should ____.",
       "options": [
         "mind-mcq-26",
-        "mind-mcq-25",
-        "mind-mcq-27",
-        "mind-mcq-24",
+        "mind-mcq-09",
         "mind-mcq-28",
-        "mind-mcq-23"
+        "mind-mcq-13"
       ],
       "explanation": "本句的「mind your manners」指「注意並控制自己的言語或行為，使其保持適當」。",
       "sentenceIndex": 60,
@@ -2775,12 +2533,10 @@ export default {
         "mind your manners"
       ],
       "optionReasons": {
-        "mind-mcq-26": "本句指「注意並控制自己的言語或行為，使其保持適當」。",
-        "mind-mcq-25": "「留意某個危險、障礙或需要注意的事物」是「mind — be careful」的用法，與本句語境不同。",
-        "mind-mcq-27": "「不要介入不關自己事的私人事情」是「mind your own business」的用法，與本句語境不同。",
-        "mind-mcq-24": "「暫時照顧、看守或留意某人／某物」是「mind — look after」的用法，與本句語境不同。",
-        "mind-mcq-28": "「表示某件事不用再擔心、討論或處理；不要緊／算了」是「never mind — no problem」的用法，與本句語境不同。",
-        "mind-mcq-23": "「禮貌詢問對方是否介意做某件事」是「Do/Would you mind + -ing」的用法，與本句語境不同。"
+        "mind-mcq-26": "本句的「mind your manners」指「注意並控制自己的言語或行為，使其保持適當」。",
+        "mind-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-26"
     },
@@ -2792,11 +2548,9 @@ export default {
       "masked": "Just ____.",
       "options": [
         "mind-mcq-27",
-        "mind-mcq-26",
-        "mind-mcq-28",
-        "mind-mcq-25",
-        "mind-mcq-29",
-        "mind-mcq-24"
+        "mind-mcq-15",
+        "mind-mcq-12",
+        "mind-mcq-38"
       ],
       "explanation": "本句的「mind your own business」指「不要介入不關自己事的私人事情」。",
       "sentenceIndex": 61,
@@ -2805,12 +2559,10 @@ export default {
         "mind your own business"
       ],
       "optionReasons": {
-        "mind-mcq-27": "本句指「不要介入不關自己事的私人事情」。",
-        "mind-mcq-26": "「注意並控制自己的言語或行為，使其保持適當」是「mind your language/manners」的用法，與本句語境不同。",
-        "mind-mcq-28": "「表示某件事不用再擔心、討論或處理；不要緊／算了」是「never mind — no problem」的用法，與本句語境不同。",
-        "mind-mcq-25": "「留意某個危險、障礙或需要注意的事物」是「mind — be careful」的用法，與本句語境不同。",
-        "mind-mcq-29": "「前一件事已很難／不可能，更不用說後面更進一步的事情」是「never mind — let alone」的用法，與本句語境不同。",
-        "mind-mcq-24": "「暫時照顧、看守或留意某人／某物」是「mind — look after」的用法，與本句語境不同。"
+        "mind-mcq-27": "本句的「mind your own business」指「不要介入不關自己事的私人事情」。",
+        "mind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-27"
     },
@@ -2822,11 +2574,9 @@ export default {
       "masked": "He told me to ____.",
       "options": [
         "mind-mcq-27",
-        "mind-mcq-26",
-        "mind-mcq-28",
-        "mind-mcq-25",
+        "mind-mcq-02",
         "mind-mcq-29",
-        "mind-mcq-24"
+        "mind-pdf-reviewed-01"
       ],
       "explanation": "本句的「mind my own business」指「不要介入不關自己事的私人事情」。",
       "sentenceIndex": 62,
@@ -2835,12 +2585,10 @@ export default {
         "mind my own business"
       ],
       "optionReasons": {
-        "mind-mcq-27": "本句指「不要介入不關自己事的私人事情」。",
-        "mind-mcq-26": "「注意並控制自己的言語或行為，使其保持適當」是「mind your language/manners」的用法，與本句語境不同。",
-        "mind-mcq-28": "「表示某件事不用再擔心、討論或處理；不要緊／算了」是「never mind — no problem」的用法，與本句語境不同。",
-        "mind-mcq-25": "「留意某個危險、障礙或需要注意的事物」是「mind — be careful」的用法，與本句語境不同。",
-        "mind-mcq-29": "「前一件事已很難／不可能，更不用說後面更進一步的事情」是「never mind — let alone」的用法，與本句語境不同。",
-        "mind-mcq-24": "「暫時照顧、看守或留意某人／某物」是「mind — look after」的用法，與本句語境不同。"
+        "mind-mcq-27": "本句的「mind my own business」指「不要介入不關自己事的私人事情」。",
+        "mind-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-27"
     },
@@ -2852,11 +2600,9 @@ export default {
       "masked": "____",
       "options": [
         "mind-mcq-28",
-        "mind-mcq-27",
-        "mind-mcq-29",
-        "mind-mcq-26",
-        "mind-mcq-30",
-        "mind-mcq-25"
+        "mind-mcq-13",
+        "mind-mcq-24",
+        "mind-mcq-08"
       ],
       "explanation": "本句的「Never mind.」指「表示某件事不用再擔心、討論或處理；不要緊／算了」。",
       "sentenceIndex": 63,
@@ -2865,12 +2611,10 @@ export default {
         "Never mind."
       ],
       "optionReasons": {
-        "mind-mcq-28": "本句指「表示某件事不用再擔心、討論或處理；不要緊／算了」。",
-        "mind-mcq-27": "「不要介入不關自己事的私人事情」是「mind your own business」的用法，與本句語境不同。",
-        "mind-mcq-29": "「前一件事已很難／不可能，更不用說後面更進一步的事情」是「never mind — let alone」的用法，與本句語境不同。",
-        "mind-mcq-26": "「注意並控制自己的言語或行為，使其保持適當」是「mind your language/manners」的用法，與本句語境不同。",
-        "mind-mcq-30": "「加入一項需要注意、修正或平衡前面說法的補充資訊」是「mind you」的用法，與本句語境不同。",
-        "mind-mcq-25": "「留意某個危險、障礙或需要注意的事物」是「mind — be careful」的用法，與本句語境不同。"
+        "mind-mcq-28": "本句的「Never mind.」指「表示某件事不用再擔心、討論或處理；不要緊／算了」。",
+        "mind-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-28"
     },
@@ -2882,11 +2626,9 @@ export default {
       "masked": "____, I’ll do it myself.",
       "options": [
         "mind-mcq-28",
-        "mind-mcq-27",
-        "mind-mcq-29",
-        "mind-mcq-26",
-        "mind-mcq-30",
-        "mind-mcq-25"
+        "mind-mcq-19",
+        "mind-pdf-reviewed-01",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「Never mind」指「表示某件事不用再擔心、討論或處理；不要緊／算了」。",
       "sentenceIndex": 64,
@@ -2895,12 +2637,10 @@ export default {
         "Never mind"
       ],
       "optionReasons": {
-        "mind-mcq-28": "本句指「表示某件事不用再擔心、討論或處理；不要緊／算了」。",
-        "mind-mcq-27": "「不要介入不關自己事的私人事情」是「mind your own business」的用法，與本句語境不同。",
-        "mind-mcq-29": "「前一件事已很難／不可能，更不用說後面更進一步的事情」是「never mind — let alone」的用法，與本句語境不同。",
-        "mind-mcq-26": "「注意並控制自己的言語或行為，使其保持適當」是「mind your language/manners」的用法，與本句語境不同。",
-        "mind-mcq-30": "「加入一項需要注意、修正或平衡前面說法的補充資訊」是「mind you」的用法，與本句語境不同。",
-        "mind-mcq-25": "「留意某個危險、障礙或需要注意的事物」是「mind — be careful」的用法，與本句語境不同。"
+        "mind-mcq-28": "本句的「Never mind」指「表示某件事不用再擔心、討論或處理；不要緊／算了」。",
+        "mind-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mind-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-28"
     },
@@ -2912,11 +2652,9 @@ export default {
       "masked": "He can barely give a short talk, ____ a two-hour lecture.",
       "options": [
         "mind-mcq-29",
-        "mind-mcq-28",
-        "mind-mcq-30",
-        "mind-mcq-27",
-        "mind-mcq-31",
-        "mind-mcq-26"
+        "mind-mcq-24",
+        "mind-mcq-36",
+        "mind-mcq-13"
       ],
       "explanation": "本句的「never mind」指「前一件事已很難／不可能，更不用說後面更進一步的事情」。",
       "sentenceIndex": 65,
@@ -2925,12 +2663,10 @@ export default {
         "never mind"
       ],
       "optionReasons": {
-        "mind-mcq-29": "本句指「前一件事已很難／不可能，更不用說後面更進一步的事情」。",
-        "mind-mcq-28": "「表示某件事不用再擔心、討論或處理；不要緊／算了」是「never mind — no problem」的用法，與本句語境不同。",
-        "mind-mcq-30": "「加入一項需要注意、修正或平衡前面說法的補充資訊」是「mind you」的用法，與本句語境不同。",
-        "mind-mcq-27": "「不要介入不關自己事的私人事情」是「mind your own business」的用法，與本句語境不同。",
-        "mind-mcq-31": "「對某事不反對，有時委婉表示自己其實願意／想要」是「wouldn’t mind」的用法，與本句語境不同。",
-        "mind-mcq-26": "「注意並控制自己的言語或行為，使其保持適當」是「mind your language/manners」的用法，與本句語境不同。"
+        "mind-mcq-29": "本句的「never mind」指「前一件事已很難／不可能，更不用說後面更進一步的事情」。",
+        "mind-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-29"
     },
@@ -2942,11 +2678,9 @@ export default {
       "masked": "I didn’t have time to eat, ____ prepare a full presentation.",
       "options": [
         "mind-mcq-29",
-        "mind-mcq-28",
-        "mind-mcq-30",
-        "mind-mcq-27",
-        "mind-mcq-31",
-        "mind-mcq-26"
+        "mind-mcq-34",
+        "mind-mcq-05",
+        "mind-mcq-16"
       ],
       "explanation": "本句的「never mind」指「前一件事已很難／不可能，更不用說後面更進一步的事情」。",
       "sentenceIndex": 66,
@@ -2955,12 +2689,10 @@ export default {
         "never mind"
       ],
       "optionReasons": {
-        "mind-mcq-29": "本句指「前一件事已很難／不可能，更不用說後面更進一步的事情」。",
-        "mind-mcq-28": "「表示某件事不用再擔心、討論或處理；不要緊／算了」是「never mind — no problem」的用法，與本句語境不同。",
-        "mind-mcq-30": "「加入一項需要注意、修正或平衡前面說法的補充資訊」是「mind you」的用法，與本句語境不同。",
-        "mind-mcq-27": "「不要介入不關自己事的私人事情」是「mind your own business」的用法，與本句語境不同。",
-        "mind-mcq-31": "「對某事不反對，有時委婉表示自己其實願意／想要」是「wouldn’t mind」的用法，與本句語境不同。",
-        "mind-mcq-26": "「注意並控制自己的言語或行為，使其保持適當」是「mind your language/manners」的用法，與本句語境不同。"
+        "mind-mcq-29": "本句的「never mind」指「前一件事已很難／不可能，更不用說後面更進一步的事情」。",
+        "mind-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-29"
     },
@@ -2972,11 +2704,9 @@ export default {
       "masked": "The presentation was difficult. ____, it was also rewarding.",
       "options": [
         "mind-mcq-30",
-        "mind-mcq-29",
-        "mind-mcq-31",
-        "mind-mcq-28",
-        "mind-mcq-32",
-        "mind-mcq-27"
+        "mind-mcq-17",
+        "mind-mcq-40",
+        "mind-mcq-04"
       ],
       "explanation": "本句的「Mind you」指「加入一項需要注意、修正或平衡前面說法的補充資訊」。",
       "sentenceIndex": 67,
@@ -2985,12 +2715,10 @@ export default {
         "Mind you"
       ],
       "optionReasons": {
-        "mind-mcq-30": "本句指「加入一項需要注意、修正或平衡前面說法的補充資訊」。",
-        "mind-mcq-29": "「前一件事已很難／不可能，更不用說後面更進一步的事情」是「never mind — let alone」的用法，與本句語境不同。",
-        "mind-mcq-31": "「對某事不反對，有時委婉表示自己其實願意／想要」是「wouldn’t mind」的用法，與本句語境不同。",
-        "mind-mcq-28": "「表示某件事不用再擔心、討論或處理；不要緊／算了」是「never mind — no problem」的用法，與本句語境不同。",
-        "mind-mcq-32": "「願意公平考慮不同、新的或不熟悉觀點的」是「open-minded」的用法，與本句語境不同。",
-        "mind-mcq-27": "「不要介入不關自己事的私人事情」是「mind your own business」的用法，與本句語境不同。"
+        "mind-mcq-30": "本句的「Mind you」指「加入一項需要注意、修正或平衡前面說法的補充資訊」。",
+        "mind-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-30"
     },
@@ -3002,11 +2730,9 @@ export default {
       "masked": "He’s quiet. ____, he speaks very confidently on stage.",
       "options": [
         "mind-mcq-30",
-        "mind-mcq-29",
-        "mind-mcq-31",
-        "mind-mcq-28",
-        "mind-mcq-32",
-        "mind-mcq-27"
+        "mind-mcq-40",
+        "mind-mcq-04",
+        "mind-mcq-17"
       ],
       "explanation": "本句的「Mind you」指「加入一項需要注意、修正或平衡前面說法的補充資訊」。",
       "sentenceIndex": 68,
@@ -3015,12 +2741,10 @@ export default {
         "Mind you"
       ],
       "optionReasons": {
-        "mind-mcq-30": "本句指「加入一項需要注意、修正或平衡前面說法的補充資訊」。",
-        "mind-mcq-29": "「前一件事已很難／不可能，更不用說後面更進一步的事情」是「never mind — let alone」的用法，與本句語境不同。",
-        "mind-mcq-31": "「對某事不反對，有時委婉表示自己其實願意／想要」是「wouldn’t mind」的用法，與本句語境不同。",
-        "mind-mcq-28": "「表示某件事不用再擔心、討論或處理；不要緊／算了」是「never mind — no problem」的用法，與本句語境不同。",
-        "mind-mcq-32": "「願意公平考慮不同、新的或不熟悉觀點的」是「open-minded」的用法，與本句語境不同。",
-        "mind-mcq-27": "「不要介入不關自己事的私人事情」是「mind your own business」的用法，與本句語境不同。"
+        "mind-mcq-30": "本句的「Mind you」指「加入一項需要注意、修正或平衡前面說法的補充資訊」。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-30"
     },
@@ -3032,11 +2756,9 @@ export default {
       "masked": "I ____ another chance to present.",
       "options": [
         "mind-mcq-31",
-        "mind-mcq-30",
-        "mind-mcq-32",
+        "mind-mcq-15",
         "mind-mcq-29",
-        "mind-mcq-33",
-        "mind-mcq-28"
+        "mind-mcq-38"
       ],
       "explanation": "本句的「wouldn’t mind having」指「對某事不反對，有時委婉表示自己其實願意／想要」。",
       "sentenceIndex": 69,
@@ -3045,12 +2767,10 @@ export default {
         "wouldn’t mind having"
       ],
       "optionReasons": {
-        "mind-mcq-31": "本句指「對某事不反對，有時委婉表示自己其實願意／想要」。",
-        "mind-mcq-30": "「加入一項需要注意、修正或平衡前面說法的補充資訊」是「mind you」的用法，與本句語境不同。",
-        "mind-mcq-32": "「願意公平考慮不同、新的或不熟悉觀點的」是「open-minded」的用法，與本句語境不同。",
-        "mind-mcq-29": "「前一件事已很難／不可能，更不用說後面更進一步的事情」是「never mind — let alone」的用法，與本句語境不同。",
-        "mind-mcq-33": "「不願接受與原有觀點不同的思想／生活方式的」是「narrow-minded」的用法，與本句語境不同。",
-        "mind-mcq-28": "「表示某件事不用再擔心、討論或處理；不要緊／算了」是「never mind — no problem」的用法，與本句語境不同。"
+        "mind-mcq-31": "本句的「wouldn’t mind having」指「對某事不反對，有時委婉表示自己其實願意／想要」。",
+        "mind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-31"
     },
@@ -3062,11 +2782,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "mind-mcq-31",
-        "mind-mcq-30",
-        "mind-mcq-32",
+        "mind-mcq-15",
         "mind-mcq-29",
-        "mind-mcq-33",
-        "mind-mcq-28"
+        "mind-mcq-38"
       ],
       "explanation": "本句的「wouldn’t mind a coffee」指「對某事不反對，有時委婉表示自己其實願意／想要」。",
       "sentenceIndex": 70,
@@ -3075,12 +2793,10 @@ export default {
         "wouldn’t mind a coffee"
       ],
       "optionReasons": {
-        "mind-mcq-31": "本句指「對某事不反對，有時委婉表示自己其實願意／想要」。",
-        "mind-mcq-30": "「加入一項需要注意、修正或平衡前面說法的補充資訊」是「mind you」的用法，與本句語境不同。",
-        "mind-mcq-32": "「願意公平考慮不同、新的或不熟悉觀點的」是「open-minded」的用法，與本句語境不同。",
-        "mind-mcq-29": "「前一件事已很難／不可能，更不用說後面更進一步的事情」是「never mind — let alone」的用法，與本句語境不同。",
-        "mind-mcq-33": "「不願接受與原有觀點不同的思想／生活方式的」是「narrow-minded」的用法，與本句語境不同。",
-        "mind-mcq-28": "「表示某件事不用再擔心、討論或處理；不要緊／算了」是「never mind — no problem」的用法，與本句語境不同。"
+        "mind-mcq-31": "本句的「wouldn’t mind a coffee」指「對某事不反對，有時委婉表示自己其實願意／想要」。",
+        "mind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-31"
     },
@@ -3092,11 +2808,9 @@ export default {
       "masked": "I’d like to finish first, ____.",
       "options": [
         "mind-mcq-31",
-        "mind-mcq-30",
-        "mind-mcq-32",
+        "mind-mcq-15",
         "mind-mcq-29",
-        "mind-mcq-33",
-        "mind-mcq-28"
+        "mind-mcq-38"
       ],
       "explanation": "本句的「if you don’t mind」指「對某事不反對，有時委婉表示自己其實願意／想要」。",
       "sentenceIndex": 71,
@@ -3105,12 +2819,10 @@ export default {
         "if you don’t mind"
       ],
       "optionReasons": {
-        "mind-mcq-31": "本句指「對某事不反對，有時委婉表示自己其實願意／想要」。",
-        "mind-mcq-30": "「加入一項需要注意、修正或平衡前面說法的補充資訊」是「mind you」的用法，與本句語境不同。",
-        "mind-mcq-32": "「願意公平考慮不同、新的或不熟悉觀點的」是「open-minded」的用法，與本句語境不同。",
-        "mind-mcq-29": "「前一件事已很難／不可能，更不用說後面更進一步的事情」是「never mind — let alone」的用法，與本句語境不同。",
-        "mind-mcq-33": "「不願接受與原有觀點不同的思想／生活方式的」是「narrow-minded」的用法，與本句語境不同。",
-        "mind-mcq-28": "「表示某件事不用再擔心、討論或處理；不要緊／算了」是「never mind — no problem」的用法，與本句語境不同。"
+        "mind-mcq-31": "本句的「if you don’t mind」指「對某事不反對，有時委婉表示自己其實願意／想要」。",
+        "mind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-31"
     },
@@ -3122,11 +2834,9 @@ export default {
       "masked": "I’ll sit here, ____.",
       "options": [
         "mind-mcq-31",
-        "mind-mcq-30",
-        "mind-mcq-32",
-        "mind-mcq-29",
-        "mind-mcq-33",
-        "mind-mcq-28"
+        "mind-mcq-04",
+        "mind-mcq-38",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「if you don’t mind」指「對某事不反對，有時委婉表示自己其實願意／想要」。",
       "sentenceIndex": 72,
@@ -3135,12 +2845,10 @@ export default {
         "if you don’t mind"
       ],
       "optionReasons": {
-        "mind-mcq-31": "本句指「對某事不反對，有時委婉表示自己其實願意／想要」。",
-        "mind-mcq-30": "「加入一項需要注意、修正或平衡前面說法的補充資訊」是「mind you」的用法，與本句語境不同。",
-        "mind-mcq-32": "「願意公平考慮不同、新的或不熟悉觀點的」是「open-minded」的用法，與本句語境不同。",
-        "mind-mcq-29": "「前一件事已很難／不可能，更不用說後面更進一步的事情」是「never mind — let alone」的用法，與本句語境不同。",
-        "mind-mcq-33": "「不願接受與原有觀點不同的思想／生活方式的」是「narrow-minded」的用法，與本句語境不同。",
-        "mind-mcq-28": "「表示某件事不用再擔心、討論或處理；不要緊／算了」是「never mind — no problem」的用法，與本句語境不同。"
+        "mind-mcq-31": "本句的「if you don’t mind」指「對某事不反對，有時委婉表示自己其實願意／想要」。",
+        "mind-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-31"
     },
@@ -3152,11 +2860,9 @@ export default {
       "masked": "Try to stay ____ when receiving feedback.",
       "options": [
         "mind-mcq-32",
-        "mind-mcq-31",
-        "mind-mcq-33",
-        "mind-mcq-30",
-        "mind-mcq-34",
-        "mind-mcq-29"
+        "mind-mcq-29",
+        "mind-mcq-40",
+        "mind-mcq-13"
       ],
       "explanation": "本句的「open-minded」指「願意公平考慮不同、新的或不熟悉觀點的」。",
       "sentenceIndex": 73,
@@ -3165,12 +2871,10 @@ export default {
         "open-minded"
       ],
       "optionReasons": {
-        "mind-mcq-32": "本句指「願意公平考慮不同、新的或不熟悉觀點的」。",
-        "mind-mcq-31": "「對某事不反對，有時委婉表示自己其實願意／想要」是「wouldn’t mind」的用法，與本句語境不同。",
-        "mind-mcq-33": "「不願接受與原有觀點不同的思想／生活方式的」是「narrow-minded」的用法，與本句語境不同。",
-        "mind-mcq-30": "「加入一項需要注意、修正或平衡前面說法的補充資訊」是「mind you」的用法，與本句語境不同。",
-        "mind-mcq-34": "「因注意力不集中而容易忘事或忽略周圍情況的」是「absent-minded」的用法，與本句語境不同。",
-        "mind-mcq-29": "「前一件事已很難／不可能，更不用說後面更進一步的事情」是「never mind — let alone」的用法，與本句語境不同。"
+        "mind-mcq-32": "本句的「open-minded」指「願意公平考慮不同、新的或不熟悉觀點的」。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-32"
     },
@@ -3182,10 +2886,8 @@ export default {
       "masked": "She is very ____ about new ideas.",
       "options": [
         "mind-mcq-32",
-        "mind-mcq-31",
-        "mind-mcq-33",
-        "mind-mcq-30",
-        "mind-mcq-34",
+        "mind-mcq-27",
+        "mind-mcq-16",
         "mind-mcq-29"
       ],
       "explanation": "本句的「open-minded」指「願意公平考慮不同、新的或不熟悉觀點的」。",
@@ -3195,12 +2897,10 @@ export default {
         "open-minded"
       ],
       "optionReasons": {
-        "mind-mcq-32": "本句指「願意公平考慮不同、新的或不熟悉觀點的」。",
-        "mind-mcq-31": "「對某事不反對，有時委婉表示自己其實願意／想要」是「wouldn’t mind」的用法，與本句語境不同。",
-        "mind-mcq-33": "「不願接受與原有觀點不同的思想／生活方式的」是「narrow-minded」的用法，與本句語境不同。",
-        "mind-mcq-30": "「加入一項需要注意、修正或平衡前面說法的補充資訊」是「mind you」的用法，與本句語境不同。",
-        "mind-mcq-34": "「因注意力不集中而容易忘事或忽略周圍情況的」是「absent-minded」的用法，與本句語境不同。",
-        "mind-mcq-29": "「前一件事已很難／不可能，更不用說後面更進一步的事情」是「never mind — let alone」的用法，與本句語境不同。"
+        "mind-mcq-32": "本句的「open-minded」指「願意公平考慮不同、新的或不熟悉觀點的」。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-32"
     },
@@ -3212,11 +2912,9 @@ export default {
       "masked": "It would be ____ to reject the idea without considering it.",
       "options": [
         "mind-mcq-33",
-        "mind-mcq-32",
-        "mind-mcq-34",
-        "mind-mcq-31",
-        "mind-mcq-35",
-        "mind-mcq-30"
+        "mind-mcq-12",
+        "mind-mcq-16",
+        "mind-mcq-21"
       ],
       "explanation": "本句的「narrow-minded」指「不願接受與原有觀點不同的思想／生活方式的」。",
       "sentenceIndex": 75,
@@ -3225,12 +2923,10 @@ export default {
         "narrow-minded"
       ],
       "optionReasons": {
-        "mind-mcq-33": "本句指「不願接受與原有觀點不同的思想／生活方式的」。",
-        "mind-mcq-32": "「願意公平考慮不同、新的或不熟悉觀點的」是「open-minded」的用法，與本句語境不同。",
-        "mind-mcq-34": "「因注意力不集中而容易忘事或忽略周圍情況的」是「absent-minded」的用法，與本句語境不同。",
-        "mind-mcq-31": "「對某事不反對，有時委婉表示自己其實願意／想要」是「wouldn’t mind」的用法，與本句語境不同。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」是「mindful of」的用法，與本句語境不同。",
-        "mind-mcq-30": "「加入一項需要注意、修正或平衡前面說法的補充資訊」是「mind you」的用法，與本句語境不同。"
+        "mind-mcq-33": "本句的「narrow-minded」指「不願接受與原有觀點不同的思想／生活方式的」。",
+        "mind-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-33"
     },
@@ -3242,11 +2938,9 @@ export default {
       "masked": "He is too ____ about different ways of working.",
       "options": [
         "mind-mcq-33",
-        "mind-mcq-32",
-        "mind-mcq-34",
-        "mind-mcq-31",
-        "mind-mcq-35",
-        "mind-mcq-30"
+        "mind-mcq-10",
+        "mind-mcq-20",
+        "mind-mcq-24"
       ],
       "explanation": "本句的「narrow-minded」指「不願接受與原有觀點不同的思想／生活方式的」。",
       "sentenceIndex": 76,
@@ -3255,12 +2949,10 @@ export default {
         "narrow-minded"
       ],
       "optionReasons": {
-        "mind-mcq-33": "本句指「不願接受與原有觀點不同的思想／生活方式的」。",
-        "mind-mcq-32": "「願意公平考慮不同、新的或不熟悉觀點的」是「open-minded」的用法，與本句語境不同。",
-        "mind-mcq-34": "「因注意力不集中而容易忘事或忽略周圍情況的」是「absent-minded」的用法，與本句語境不同。",
-        "mind-mcq-31": "「對某事不反對，有時委婉表示自己其實願意／想要」是「wouldn’t mind」的用法，與本句語境不同。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」是「mindful of」的用法，與本句語境不同。",
-        "mind-mcq-30": "「加入一項需要注意、修正或平衡前面說法的補充資訊」是「mind you」的用法，與本句語境不同。"
+        "mind-mcq-33": "本句的「narrow-minded」指「不願接受與原有觀點不同的思想／生活方式的」。",
+        "mind-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-33"
     },
@@ -3272,11 +2964,9 @@ export default {
       "masked": "I became ____ because I was so nervous.",
       "options": [
         "mind-mcq-34",
-        "mind-mcq-33",
-        "mind-mcq-35",
-        "mind-mcq-32",
-        "mind-mcq-36",
-        "mind-mcq-31"
+        "mind-mcq-09",
+        "mind-mcq-27",
+        "mind-mcq-04"
       ],
       "explanation": "本句的「absent-minded」指「因注意力不集中而容易忘事或忽略周圍情況的」。",
       "sentenceIndex": 77,
@@ -3285,12 +2975,10 @@ export default {
         "absent-minded"
       ],
       "optionReasons": {
-        "mind-mcq-34": "本句指「因注意力不集中而容易忘事或忽略周圍情況的」。",
-        "mind-mcq-33": "「不願接受與原有觀點不同的思想／生活方式的」是「narrow-minded」的用法，與本句語境不同。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」是「mindful of」的用法，與本句語境不同。",
-        "mind-mcq-32": "「願意公平考慮不同、新的或不熟悉觀點的」是「open-minded」的用法，與本句語境不同。",
-        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」是「mindfulness」的用法，與本句語境不同。",
-        "mind-mcq-31": "「對某事不反對，有時委婉表示自己其實願意／想要」是「wouldn’t mind」的用法，與本句語境不同。"
+        "mind-mcq-34": "本句的「absent-minded」指「因注意力不集中而容易忘事或忽略周圍情況的」。",
+        "mind-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-34"
     },
@@ -3303,10 +2991,8 @@ export default {
       "options": [
         "mind-mcq-34",
         "mind-mcq-33",
-        "mind-mcq-35",
-        "mind-mcq-32",
-        "mind-mcq-36",
-        "mind-mcq-31"
+        "mind-mcq-15",
+        "mind-mcq-27"
       ],
       "explanation": "本句的「absent-minded」指「因注意力不集中而容易忘事或忽略周圍情況的」。",
       "sentenceIndex": 78,
@@ -3315,12 +3001,10 @@ export default {
         "absent-minded"
       ],
       "optionReasons": {
-        "mind-mcq-34": "本句指「因注意力不集中而容易忘事或忽略周圍情況的」。",
-        "mind-mcq-33": "「不願接受與原有觀點不同的思想／生活方式的」是「narrow-minded」的用法，與本句語境不同。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」是「mindful of」的用法，與本句語境不同。",
-        "mind-mcq-32": "「願意公平考慮不同、新的或不熟悉觀點的」是「open-minded」的用法，與本句語境不同。",
-        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」是「mindfulness」的用法，與本句語境不同。",
-        "mind-mcq-31": "「對某事不反對，有時委婉表示自己其實願意／想要」是「wouldn’t mind」的用法，與本句語境不同。"
+        "mind-mcq-34": "本句的「absent-minded」指「因注意力不集中而容易忘事或忽略周圍情況的」。",
+        "mind-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-34"
     },
@@ -3332,11 +3016,9 @@ export default {
       "masked": "Be ____ your timing during the presentation.",
       "options": [
         "mind-mcq-35",
-        "mind-mcq-34",
-        "mind-mcq-36",
-        "mind-mcq-33",
-        "mind-mcq-37",
-        "mind-mcq-32"
+        "mind-mcq-15",
+        "mind-mcq-27",
+        "mind-mcq-33"
       ],
       "explanation": "本句的「mindful of」指「有意識地留意、記住並考慮某件事情」。",
       "sentenceIndex": 79,
@@ -3345,12 +3027,10 @@ export default {
         "mindful of"
       ],
       "optionReasons": {
-        "mind-mcq-35": "本句指「有意識地留意、記住並考慮某件事情」。",
-        "mind-mcq-34": "「因注意力不集中而容易忘事或忽略周圍情況的」是「absent-minded」的用法，與本句語境不同。",
-        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」是「mindfulness」的用法，與本句語境不同。",
-        "mind-mcq-33": "「不願接受與原有觀點不同的思想／生活方式的」是「narrow-minded」的用法，與本句語境不同。",
-        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」是「mindless」的用法，與本句語境不同。",
-        "mind-mcq-32": "「願意公平考慮不同、新的或不熟悉觀點的」是「open-minded」的用法，與本句語境不同。"
+        "mind-mcq-35": "本句的「mindful of」指「有意識地留意、記住並考慮某件事情」。",
+        "mind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-35"
     },
@@ -3362,11 +3042,9 @@ export default {
       "masked": "We should be ____ how our words affect others.",
       "options": [
         "mind-mcq-35",
-        "mind-mcq-34",
-        "mind-mcq-36",
         "mind-mcq-33",
-        "mind-mcq-37",
-        "mind-mcq-32"
+        "mind-mcq-15",
+        "mind-mcq-27"
       ],
       "explanation": "本句的「mindful of」指「有意識地留意、記住並考慮某件事情」。",
       "sentenceIndex": 80,
@@ -3375,12 +3053,10 @@ export default {
         "mindful of"
       ],
       "optionReasons": {
-        "mind-mcq-35": "本句指「有意識地留意、記住並考慮某件事情」。",
-        "mind-mcq-34": "「因注意力不集中而容易忘事或忽略周圍情況的」是「absent-minded」的用法，與本句語境不同。",
-        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」是「mindfulness」的用法，與本句語境不同。",
-        "mind-mcq-33": "「不願接受與原有觀點不同的思想／生活方式的」是「narrow-minded」的用法，與本句語境不同。",
-        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」是「mindless」的用法，與本句語境不同。",
-        "mind-mcq-32": "「願意公平考慮不同、新的或不熟悉觀點的」是「open-minded」的用法，與本句語境不同。"
+        "mind-mcq-35": "本句的「mindful of」指「有意識地留意、記住並考慮某件事情」。",
+        "mind-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-35"
     },
@@ -3392,11 +3068,9 @@ export default {
       "masked": "Some people practise ____ before speaking in public.",
       "options": [
         "mind-mcq-36",
-        "mind-mcq-35",
-        "mind-mcq-37",
-        "mind-mcq-34",
-        "mind-mcq-38",
-        "mind-mcq-33"
+        "mind-mcq-27",
+        "mind-mcq-33",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「mindfulness」指「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」。",
       "sentenceIndex": 81,
@@ -3405,12 +3079,10 @@ export default {
         "mindfulness"
       ],
       "optionReasons": {
-        "mind-mcq-36": "本句指「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」是「mindful of」的用法，與本句語境不同。",
-        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」是「mindless」的用法，與本句語境不同。",
-        "mind-mcq-34": "「因注意力不集中而容易忘事或忽略周圍情況的」是「absent-minded」的用法，與本句語境不同。",
-        "mind-mcq-38": "「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」是「mindset」的用法，與本句語境不同。",
-        "mind-mcq-33": "「不願接受與原有觀點不同的思想／生活方式的」是「narrow-minded」的用法，與本句語境不同。"
+        "mind-mcq-36": "本句的「mindfulness」指「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-36"
     },
@@ -3422,11 +3094,9 @@ export default {
       "masked": "____ can help people notice their thoughts without reacting immediately.",
       "options": [
         "mind-mcq-36",
-        "mind-mcq-35",
-        "mind-mcq-37",
-        "mind-mcq-34",
-        "mind-mcq-38",
-        "mind-mcq-33"
+        "mind-mcq-29",
+        "mind-mcq-27",
+        "mind-mcq-11"
       ],
       "explanation": "本句的「Mindfulness」指「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」。",
       "sentenceIndex": 82,
@@ -3435,12 +3105,10 @@ export default {
         "Mindfulness"
       ],
       "optionReasons": {
-        "mind-mcq-36": "本句指「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」是「mindful of」的用法，與本句語境不同。",
-        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」是「mindless」的用法，與本句語境不同。",
-        "mind-mcq-34": "「因注意力不集中而容易忘事或忽略周圍情況的」是「absent-minded」的用法，與本句語境不同。",
-        "mind-mcq-38": "「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」是「mindset」的用法，與本句語境不同。",
-        "mind-mcq-33": "「不願接受與原有觀點不同的思想／生活方式的」是「narrow-minded」的用法，與本句語境不同。"
+        "mind-mcq-36": "本句的「Mindfulness」指「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-36"
     },
@@ -3452,11 +3120,9 @@ export default {
       "masked": "Preparation helped me develop a more confident ____.",
       "options": [
         "mind-mcq-38",
-        "mind-mcq-37",
-        "mind-mcq-39",
-        "mind-mcq-36",
-        "mind-mcq-40",
-        "mind-mcq-35"
+        "mind-mcq-25",
+        "mind-mcq-27",
+        "mind-mcq-23"
       ],
       "explanation": "本句的「mindset」指「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」。",
       "sentenceIndex": 83,
@@ -3465,12 +3131,10 @@ export default {
         "mindset"
       ],
       "optionReasons": {
-        "mind-mcq-38": "本句指「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」。",
-        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」是「mindless」的用法，與本句語境不同。",
-        "mind-mcq-39": "「在重要觀點、態度或興趣上彼此相近的；志同道合的」是「like-minded」的用法，與本句語境不同。",
-        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」是「mindfulness」的用法，與本句語境不同。",
-        "mind-mcq-40": "「某個選擇／情況對我沒有造成不便或不滿」是「26. I don’t mind（我不介意） — 我沒所謂；我不介意」的用法，與本句語境不同。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」是「mindful of」的用法，與本句語境不同。"
+        "mind-mcq-38": "本句的「mindset」指「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」。",
+        "mind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-38"
     },
@@ -3482,11 +3146,9 @@ export default {
       "masked": "A growth ____ encourages people to learn from mistakes.",
       "options": [
         "mind-mcq-38",
-        "mind-mcq-37",
-        "mind-mcq-39",
-        "mind-mcq-36",
-        "mind-mcq-40",
-        "mind-mcq-35"
+        "mind-mcq-31",
+        "mind-mcq-25",
+        "mind-pdf-reviewed-01"
       ],
       "explanation": "本句的「mindset」指「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」。",
       "sentenceIndex": 84,
@@ -3495,12 +3157,10 @@ export default {
         "mindset"
       ],
       "optionReasons": {
-        "mind-mcq-38": "本句指「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」。",
-        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」是「mindless」的用法，與本句語境不同。",
-        "mind-mcq-39": "「在重要觀點、態度或興趣上彼此相近的；志同道合的」是「like-minded」的用法，與本句語境不同。",
-        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」是「mindfulness」的用法，與本句語境不同。",
-        "mind-mcq-40": "「某個選擇／情況對我沒有造成不便或不滿」是「26. I don’t mind（我不介意） — 我沒所謂；我不介意」的用法，與本句語境不同。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」是「mindful of」的用法，與本句語境不同。"
+        "mind-mcq-38": "本句的「mindset」指「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」。",
+        "mind-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mind-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-38"
     },
@@ -3512,11 +3172,9 @@ export default {
       "masked": "She joined a group of ____ professionals.",
       "options": [
         "mind-mcq-39",
-        "mind-mcq-38",
-        "mind-mcq-40",
-        "mind-mcq-37",
-        "mind-mcq-36",
-        "mind-mcq-35"
+        "mind-mcq-24",
+        "mind-mcq-29",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「like-minded」指「在重要觀點、態度或興趣上彼此相近的；志同道合的」。",
       "sentenceIndex": 85,
@@ -3525,12 +3183,10 @@ export default {
         "like-minded"
       ],
       "optionReasons": {
-        "mind-mcq-39": "本句指「在重要觀點、態度或興趣上彼此相近的；志同道合的」。",
-        "mind-mcq-38": "「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」是「mindset」的用法，與本句語境不同。",
-        "mind-mcq-40": "「某個選擇／情況對我沒有造成不便或不滿」是「26. I don’t mind（我不介意） — 我沒所謂；我不介意」的用法，與本句語境不同。",
-        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」是「mindless」的用法，與本句語境不同。",
-        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」是「mindfulness」的用法，與本句語境不同。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」是「mindful of」的用法，與本句語境不同。"
+        "mind-mcq-39": "本句的「like-minded」指「在重要觀點、態度或興趣上彼此相近的；志同道合的」。",
+        "mind-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-39"
     },
@@ -3542,11 +3198,9 @@ export default {
       "masked": "The event brought together ____ people.",
       "options": [
         "mind-mcq-39",
-        "mind-mcq-38",
-        "mind-mcq-40",
-        "mind-mcq-37",
-        "mind-mcq-36",
-        "mind-mcq-35"
+        "mind-mcq-03",
+        "mind-mcq-35",
+        "mind-mcq-40"
       ],
       "explanation": "本句的「like-minded」指「在重要觀點、態度或興趣上彼此相近的；志同道合的」。",
       "sentenceIndex": 86,
@@ -3555,12 +3209,10 @@ export default {
         "like-minded"
       ],
       "optionReasons": {
-        "mind-mcq-39": "本句指「在重要觀點、態度或興趣上彼此相近的；志同道合的」。",
-        "mind-mcq-38": "「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」是「mindset」的用法，與本句語境不同。",
-        "mind-mcq-40": "「某個選擇／情況對我沒有造成不便或不滿」是「26. I don’t mind（我不介意） — 我沒所謂；我不介意」的用法，與本句語境不同。",
-        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」是「mindless」的用法，與本句語境不同。",
-        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」是「mindfulness」的用法，與本句語境不同。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」是「mindful of」的用法，與本句語境不同。"
+        "mind-mcq-39": "本句的「like-minded」指「在重要觀點、態度或興趣上彼此相近的；志同道合的」。",
+        "mind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-mcq-39"
     },
@@ -3572,11 +3224,9 @@ export default {
       "masked": "She is ____ and rarely gives in to pressure.",
       "options": [
         "mind-pdf-reviewed-01",
-        "mind-mcq-38",
-        "mind-mcq-40",
-        "mind-mcq-37",
-        "mind-mcq-36",
-        "mind-mcq-35"
+        "mind-mcq-29",
+        "mind-mcq-13",
+        "mind-mcq-14"
       ],
       "explanation": "本句的「strong-minded」指「有主見或意志堅定的」。",
       "sentenceIndex": 87,
@@ -3585,12 +3235,10 @@ export default {
         "strong-minded"
       ],
       "optionReasons": {
-        "mind-pdf-reviewed-01": "本句指「有主見或意志堅定的」。",
-        "mind-mcq-38": "「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」與本句語境不同。",
-        "mind-mcq-40": "「某個選擇／情況對我沒有造成不便或不滿」與本句語境不同。",
-        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」與本句語境不同。",
-        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」與本句語境不同。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」與本句語境不同。"
+        "mind-pdf-reviewed-01": "本句的「strong-minded」指「有主見或意志堅定的」。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-pdf-reviewed-01"
     },
@@ -3602,11 +3250,9 @@ export default {
       "masked": "The company values ____ employees.",
       "options": [
         "mind-pdf-reviewed-01",
-        "mind-mcq-38",
-        "mind-mcq-40",
-        "mind-mcq-37",
-        "mind-mcq-36",
-        "mind-mcq-35"
+        "mind-mcq-15",
+        "mind-mcq-27",
+        "mind-mcq-29"
       ],
       "explanation": "本句的「independent-minded」指「有主見或意志堅定的」。",
       "sentenceIndex": 88,
@@ -3615,12 +3261,10 @@ export default {
         "independent-minded"
       ],
       "optionReasons": {
-        "mind-pdf-reviewed-01": "本句指「有主見或意志堅定的」。",
-        "mind-mcq-38": "「一個人慣常用來理解、判斷和回應事情的一套基本態度／思考方式」與本句語境不同。",
-        "mind-mcq-40": "「某個選擇／情況對我沒有造成不便或不滿」與本句語境不同。",
-        "mind-mcq-37": "「缺乏思考、注意或合理目的的；或幾乎無需思考的」與本句語境不同。",
-        "mind-mcq-36": "「有意識把注意力放在當下經驗並保持覺察的心理狀態／練習」與本句語境不同。",
-        "mind-mcq-35": "「有意識地留意、記住並考慮某件事情」與本句語境不同。"
+        "mind-pdf-reviewed-01": "本句的「independent-minded」指「有主見或意志堅定的」。",
+        "mind-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mind-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mind-pdf-reviewed-01"
     }
@@ -3632,5 +3276,7 @@ export default {
     "sha256": "b6e92b7f3818b6bf442c58a8448fd2e64a03ba166c5265f8e678ebadbbfd6171",
     "pages": 34
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

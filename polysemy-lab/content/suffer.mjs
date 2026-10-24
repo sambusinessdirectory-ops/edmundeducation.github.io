@@ -510,16 +510,6 @@ export default {
           "The company's share price suffered another drop.",
           "公司股價再次下跌。",
           "出現下降"
-        ],
-        [
-          "The region suffered severe food shortages.",
-          "該地區面對嚴重糧食短缺。",
-          "出現下降"
-        ],
-        [
-          "Hospitals suffered shortages of essential supplies.",
-          "醫院缺乏重要物資。",
-          "出現下降"
         ]
       ],
       "options": [],
@@ -1543,6 +1533,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "suffer-reviewed-00c185d3d7",
+      "title": "面對短缺",
+      "form": "suffer · source section 29",
+      "en": "面對短缺",
+      "zh": "面對短缺",
+      "note": "對照原始教材第 29 節及例句核實。",
+      "examples": [
+        [
+          "The region suffered severe food shortages.",
+          "該地區面對嚴重糧食短缺。",
+          "面對短缺"
+        ],
+        [
+          "Hospitals suffered shortages of essential supplies.",
+          "醫院缺乏重要物資。",
+          "面對短缺"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1554,11 +1566,9 @@ export default {
       "masked": "Group work often ____, miscommunication and interpersonal tension.",
       "options": [
         "suffer-pdf-001",
-        "suffer-mcq-02",
-        "suffer-mcq-03",
-        "suffer-mcq-04",
-        "suffer-mcq-05",
-        "suffer-mcq-06"
+        "suffer-mcq-19",
+        "suffer-mcq-47",
+        "suffer-mcq-30"
       ],
       "explanation": "本句的「suffers from free-riding」指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
       "sentenceIndex": 0,
@@ -1567,12 +1577,10 @@ export default {
         "suffers from free-riding"
       ],
       "optionReasons": {
-        "suffer-pdf-001": "本句指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
-        "suffer-mcq-02": "「受搭便車問題影響」與本句語境不同。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。"
+        "suffer-pdf-001": "本句的「suffers from free-riding」指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
+        "suffer-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-pdf-001"
     },
@@ -1584,11 +1592,9 @@ export default {
       "masked": "The project ____.",
       "options": [
         "suffer-pdf-001",
-        "suffer-mcq-02",
-        "suffer-mcq-03",
-        "suffer-mcq-04",
-        "suffer-mcq-05",
-        "suffer-mcq-06"
+        "suffer-mcq-19",
+        "suffer-mcq-08",
+        "suffer-mcq-52"
       ],
       "explanation": "本句的「suffered from poor communication」指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
       "sentenceIndex": 1,
@@ -1597,12 +1603,10 @@ export default {
         "suffered from poor communication"
       ],
       "optionReasons": {
-        "suffer-pdf-001": "本句指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
-        "suffer-mcq-02": "「受搭便車問題影響」與本句語境不同。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。"
+        "suffer-pdf-001": "本句的「suffered from poor communication」指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
+        "suffer-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-pdf-001"
     },
@@ -1614,11 +1618,9 @@ export default {
       "masked": "Many large organisations ____ from unnecessary bureaucracy.",
       "options": [
         "suffer-pdf-001",
-        "suffer-mcq-02",
-        "suffer-mcq-03",
-        "suffer-mcq-04",
-        "suffer-mcq-05",
-        "suffer-mcq-06"
+        "suffer-mcq-50",
+        "suffer-mcq-06",
+        "suffer-mcq-41"
       ],
       "explanation": "本句的「suffer」指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
       "sentenceIndex": 2,
@@ -1627,12 +1629,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-pdf-001": "本句指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
-        "suffer-mcq-02": "「受搭便車問題影響」與本句語境不同。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。"
+        "suffer-pdf-001": "本句的「suffer」指「因 X 這個問題而導致表現、狀況、品質或效果變差」。",
+        "suffer-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-pdf-001"
     },
@@ -1644,11 +1644,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "suffer-mcq-03",
-        "suffer-mcq-02",
-        "suffer-mcq-04",
-        "suffer-mcq-01",
-        "suffer-mcq-05",
-        "suffer-mcq-06"
+        "suffer-reviewed-00c185d3d7",
+        "suffer-mcq-56",
+        "suffer-mcq-51"
       ],
       "explanation": "本句的「suffered from poor management」指「受管理不善影響」。",
       "sentenceIndex": 3,
@@ -1657,12 +1655,10 @@ export default {
         "suffered from poor management"
       ],
       "optionReasons": {
-        "suffer-mcq-03": "本句指「受管理不善影響」。",
-        "suffer-mcq-02": "「受搭便車問題影響」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-01": "「受 X 困擾／影響」與本句語境不同。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。"
+        "suffer-mcq-03": "本句的「suffered from poor management」指「受管理不善影響」。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-03"
     },
@@ -1674,11 +1670,9 @@ export default {
       "masked": "Even a talented team can ____ from weak leadership.",
       "options": [
         "suffer-mcq-03",
-        "suffer-mcq-02",
-        "suffer-mcq-04",
-        "suffer-mcq-01",
-        "suffer-mcq-05",
-        "suffer-mcq-06"
+        "suffer-mcq-60",
+        "suffer-mcq-53",
+        "suffer-mcq-36"
       ],
       "explanation": "本句的「suffer」指「受管理不善影響」。",
       "sentenceIndex": 4,
@@ -1687,12 +1681,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-03": "本句指「受管理不善影響」。",
-        "suffer-mcq-02": "「受搭便車問題影響」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-01": "「受 X 困擾／影響」與本句語境不同。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。"
+        "suffer-mcq-03": "本句的「suffer」指「受管理不善影響」。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-03"
     },
@@ -1704,11 +1696,9 @@ export default {
       "masked": "The project ____.",
       "options": [
         "suffer-mcq-04",
-        "suffer-mcq-03",
-        "suffer-mcq-05",
-        "suffer-mcq-02",
-        "suffer-mcq-06",
-        "suffer-mcq-01"
+        "suffer-mcq-22",
+        "suffer-mcq-56",
+        "suffer-mcq-50"
       ],
       "explanation": "本句的「suffered from a lack of clear direction」指「因缺乏 X 而受影響」。",
       "sentenceIndex": 5,
@@ -1717,12 +1707,10 @@ export default {
         "suffered from a lack of clear direction"
       ],
       "optionReasons": {
-        "suffer-mcq-04": "本句指「因缺乏 X 而受影響」。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-02": "「受搭便車問題影響」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。",
-        "suffer-mcq-01": "「受 X 困擾／影響」與本句語境不同。"
+        "suffer-mcq-04": "本句的「suffered from a lack of clear direction」指「因缺乏 X 而受影響」。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-04"
     },
@@ -1734,11 +1722,9 @@ export default {
       "masked": "Small businesses may ____ from a lack of finance.",
       "options": [
         "suffer-mcq-04",
-        "suffer-mcq-03",
-        "suffer-mcq-05",
-        "suffer-mcq-02",
-        "suffer-mcq-06",
-        "suffer-mcq-01"
+        "suffer-mcq-28",
+        "suffer-mcq-41",
+        "suffer-mcq-56"
       ],
       "explanation": "本句的「suffer」指「因缺乏 X 而受影響」。",
       "sentenceIndex": 6,
@@ -1747,12 +1733,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-04": "本句指「因缺乏 X 而受影響」。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-02": "「受搭便車問題影響」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。",
-        "suffer-mcq-01": "「受 X 困擾／影響」與本句語境不同。"
+        "suffer-mcq-04": "本句的「suffer」指「因缺乏 X 而受影響」。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-04"
     },
@@ -1764,11 +1748,9 @@ export default {
       "masked": "The building has ____.",
       "options": [
         "suffer-mcq-05",
-        "suffer-mcq-04",
-        "suffer-mcq-06",
-        "suffer-mcq-03",
-        "suffer-mcq-07",
-        "suffer-mcq-02"
+        "suffer-mcq-51",
+        "suffer-mcq-52",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「suffered from years of neglect」指「因被忽視而受損」。",
       "sentenceIndex": 7,
@@ -1777,12 +1759,10 @@ export default {
         "suffered from years of neglect"
       ],
       "optionReasons": {
-        "suffer-mcq-05": "本句指「因被忽視而受損」。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-02": "「受搭便車問題影響」與本句語境不同。"
+        "suffer-mcq-05": "本句的「suffered from years of neglect」指「因被忽視而受損」。",
+        "suffer-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-05"
     },
@@ -1794,11 +1774,9 @@ export default {
       "masked": "Smaller departments sometimes ____ from neglect.",
       "options": [
         "suffer-mcq-05",
-        "suffer-mcq-04",
-        "suffer-mcq-06",
-        "suffer-mcq-03",
-        "suffer-mcq-07",
-        "suffer-mcq-02"
+        "suffer-mcq-41",
+        "suffer-pdf-002",
+        "suffer-mcq-47"
       ],
       "explanation": "本句的「suffer」指「因被忽視而受損」。",
       "sentenceIndex": 8,
@@ -1807,12 +1785,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-05": "本句指「因被忽視而受損」。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-02": "「受搭便車問題影響」與本句語境不同。"
+        "suffer-mcq-05": "本句的「suffer」指「因被忽視而受損」。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-05"
     },
@@ -1824,11 +1800,9 @@ export default {
       "masked": "The transport system ____.",
       "options": [
         "suffer-mcq-05",
-        "suffer-mcq-04",
-        "suffer-mcq-06",
-        "suffer-mcq-03",
-        "suffer-mcq-07",
-        "suffer-mcq-02"
+        "suffer-pdf-002",
+        "suffer-mcq-27",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「suffers from chronic underinvestment」指「因被忽視而受損」。",
       "sentenceIndex": 9,
@@ -1837,12 +1811,10 @@ export default {
         "suffers from chronic underinvestment"
       ],
       "optionReasons": {
-        "suffer-mcq-05": "本句指「因被忽視而受損」。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-02": "「受搭便車問題影響」與本句語境不同。"
+        "suffer-mcq-05": "本句的「suffers from chronic underinvestment」指「因被忽視而受損」。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-05"
     },
@@ -1854,11 +1826,9 @@ export default {
       "masked": "The department ____ from years of underinvestment.",
       "options": [
         "suffer-mcq-05",
-        "suffer-mcq-04",
-        "suffer-mcq-06",
-        "suffer-mcq-03",
-        "suffer-mcq-07",
-        "suffer-mcq-02"
+        "suffer-mcq-53",
+        "suffer-reviewed-00c185d3d7",
+        "suffer-mcq-41"
       ],
       "explanation": "本句的「suffered」指「因被忽視而受損」。",
       "sentenceIndex": 10,
@@ -1867,12 +1837,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-05": "本句指「因被忽視而受損」。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-02": "「受搭便車問題影響」與本句語境不同。"
+        "suffer-mcq-05": "本句的「suffered」指「因被忽視而受損」。",
+        "suffer-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-05"
     },
@@ -1884,11 +1852,9 @@ export default {
       "masked": "The city centre ____.",
       "options": [
         "suffer-mcq-06",
-        "suffer-mcq-05",
-        "suffer-mcq-07",
-        "suffer-mcq-04",
-        "suffer-mcq-08",
-        "suffer-mcq-03"
+        "suffer-mcq-36",
+        "suffer-reviewed-00c185d3d7",
+        "suffer-mcq-50"
       ],
       "explanation": "本句的「suffers from heavy congestion」指「患病／受疾病困擾」。",
       "sentenceIndex": 11,
@@ -1897,12 +1863,10 @@ export default {
         "suffers from heavy congestion"
       ],
       "optionReasons": {
-        "suffer-mcq-06": "本句指「患病／受疾病困擾」。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。"
+        "suffer-mcq-06": "本句的「suffers from heavy congestion」指「患病／受疾病困擾」。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-06"
     },
@@ -1914,11 +1878,9 @@ export default {
       "masked": "Some schools ____ from overcrowding.",
       "options": [
         "suffer-mcq-06",
-        "suffer-mcq-05",
-        "suffer-mcq-07",
-        "suffer-mcq-04",
-        "suffer-mcq-08",
-        "suffer-mcq-03"
+        "suffer-mcq-28",
+        "suffer-mcq-56",
+        "suffer-mcq-41"
       ],
       "explanation": "本句的「suffer」指「患病／受疾病困擾」。",
       "sentenceIndex": 12,
@@ -1927,12 +1889,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-06": "本句指「患病／受疾病困擾」。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。"
+        "suffer-mcq-06": "本句的「suffer」指「患病／受疾病困擾」。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-06"
     },
@@ -1944,11 +1904,9 @@ export default {
       "masked": "The old system ____.",
       "options": [
         "suffer-mcq-06",
-        "suffer-mcq-05",
-        "suffer-mcq-07",
-        "suffer-mcq-04",
-        "suffer-mcq-08",
-        "suffer-mcq-03"
+        "suffer-mcq-28",
+        "suffer-mcq-47",
+        "suffer-mcq-55"
       ],
       "explanation": "本句的「suffers from serious inefficiencies」指「患病／受疾病困擾」。",
       "sentenceIndex": 13,
@@ -1957,12 +1915,10 @@ export default {
         "suffers from serious inefficiencies"
       ],
       "optionReasons": {
-        "suffer-mcq-06": "本句指「患病／受疾病困擾」。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。"
+        "suffer-mcq-06": "本句的「suffers from serious inefficiencies」指「患病／受疾病困擾」。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-06"
     },
@@ -1974,11 +1930,9 @@ export default {
       "masked": "Large organisations can ____ from slow decision-making.",
       "options": [
         "suffer-mcq-06",
-        "suffer-mcq-05",
-        "suffer-mcq-07",
-        "suffer-mcq-04",
-        "suffer-mcq-08",
-        "suffer-mcq-03"
+        "suffer-mcq-53",
+        "suffer-mcq-60",
+        "suffer-mcq-26"
       ],
       "explanation": "本句的「suffer」指「患病／受疾病困擾」。",
       "sentenceIndex": 14,
@@ -1987,12 +1941,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-06": "本句指「患病／受疾病困擾」。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。"
+        "suffer-mcq-06": "本句的「suffer」指「患病／受疾病困擾」。",
+        "suffer-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-06"
     },
@@ -2004,11 +1956,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "suffer-mcq-06",
-        "suffer-mcq-05",
-        "suffer-mcq-07",
-        "suffer-mcq-04",
-        "suffer-mcq-08",
-        "suffer-mcq-03"
+        "suffer-mcq-28",
+        "suffer-reviewed-00c185d3d7",
+        "suffer-mcq-47"
       ],
       "explanation": "本句的「suffers from asthma」指「患病／受疾病困擾」。",
       "sentenceIndex": 15,
@@ -2017,12 +1967,10 @@ export default {
         "suffers from asthma"
       ],
       "optionReasons": {
-        "suffer-mcq-06": "本句指「患病／受疾病困擾」。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。"
+        "suffer-mcq-06": "本句的「suffers from asthma」指「患病／受疾病困擾」。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-06"
     },
@@ -2034,11 +1982,9 @@ export default {
       "masked": "She has ____ from migraines for years.",
       "options": [
         "suffer-mcq-06",
-        "suffer-mcq-05",
-        "suffer-mcq-07",
-        "suffer-mcq-04",
-        "suffer-mcq-08",
-        "suffer-mcq-03"
+        "suffer-reviewed-00c185d3d7",
+        "suffer-mcq-36",
+        "suffer-pdf-002"
       ],
       "explanation": "本句的「suffered」指「患病／受疾病困擾」。",
       "sentenceIndex": 16,
@@ -2047,12 +1993,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-06": "本句指「患病／受疾病困擾」。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-03": "「受管理不善影響」與本句語境不同。"
+        "suffer-mcq-06": "本句的「suffered」指「患病／受疾病困擾」。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-06"
     },
@@ -2064,11 +2008,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "suffer-mcq-07",
-        "suffer-mcq-06",
-        "suffer-mcq-08",
-        "suffer-mcq-05",
-        "suffer-mcq-09",
-        "suffer-mcq-04"
+        "suffer-mcq-56",
+        "suffer-mcq-26",
+        "suffer-mcq-41"
       ],
       "explanation": "本句的「suffers from chronic back pain」指「受疼痛困擾」。",
       "sentenceIndex": 17,
@@ -2077,12 +2019,10 @@ export default {
         "suffers from chronic back pain"
       ],
       "optionReasons": {
-        "suffer-mcq-07": "本句指「受疼痛困擾」。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。"
+        "suffer-mcq-07": "本句的「suffers from chronic back pain」指「受疼痛困擾」。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-07"
     },
@@ -2094,11 +2034,9 @@ export default {
       "masked": "Many patients ____ from severe pain.",
       "options": [
         "suffer-mcq-07",
-        "suffer-mcq-06",
-        "suffer-mcq-08",
-        "suffer-mcq-05",
-        "suffer-mcq-09",
-        "suffer-mcq-04"
+        "suffer-mcq-56",
+        "suffer-mcq-55",
+        "suffer-mcq-27"
       ],
       "explanation": "本句的「suffer」指「受疼痛困擾」。",
       "sentenceIndex": 18,
@@ -2107,12 +2045,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-07": "本句指「受疼痛困擾」。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。"
+        "suffer-mcq-07": "本句的「suffer」指「受疼痛困擾」。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-07"
     },
@@ -2124,11 +2060,9 @@ export default {
       "masked": "He frequently ____.",
       "options": [
         "suffer-mcq-07",
-        "suffer-mcq-06",
-        "suffer-mcq-08",
-        "suffer-mcq-05",
-        "suffer-mcq-09",
-        "suffer-mcq-04"
+        "suffer-mcq-41",
+        "suffer-pdf-001",
+        "suffer-mcq-47"
       ],
       "explanation": "本句的「suffers from headaches」指「受疼痛困擾」。",
       "sentenceIndex": 19,
@@ -2137,12 +2071,10 @@ export default {
         "suffers from headaches"
       ],
       "optionReasons": {
-        "suffer-mcq-07": "本句指「受疼痛困擾」。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。"
+        "suffer-mcq-07": "本句的「suffers from headaches」指「受疼痛困擾」。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-07"
     },
@@ -2154,11 +2086,9 @@ export default {
       "masked": "She began ____ from headaches after the accident.",
       "options": [
         "suffer-mcq-07",
-        "suffer-mcq-06",
-        "suffer-mcq-08",
-        "suffer-mcq-05",
-        "suffer-mcq-09",
-        "suffer-mcq-04"
+        "suffer-mcq-52",
+        "suffer-reviewed-00c185d3d7",
+        "suffer-mcq-27"
       ],
       "explanation": "本句的「suffering」指「受疼痛困擾」。",
       "sentenceIndex": 20,
@@ -2167,12 +2097,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-07": "本句指「受疼痛困擾」。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。",
-        "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。",
-        "suffer-mcq-04": "「因缺乏 X 而受影響」與本句語境不同。"
+        "suffer-mcq-07": "本句的「suffering」指「受疼痛困擾」。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-07"
     },
@@ -2184,11 +2112,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "suffer-mcq-08",
-        "suffer-mcq-07",
-        "suffer-mcq-09",
-        "suffer-mcq-06",
-        "suffer-mcq-10",
-        "suffer-mcq-05"
+        "suffer-mcq-50",
+        "suffer-reviewed-00c185d3d7",
+        "suffer-mcq-28"
       ],
       "explanation": "本句的「suffers from insomnia」指「受失眠困擾」。",
       "sentenceIndex": 21,
@@ -2197,12 +2123,10 @@ export default {
         "suffers from insomnia"
       ],
       "optionReasons": {
-        "suffer-mcq-08": "本句指「受失眠困擾」。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。",
-        "suffer-mcq-10": "「受苦」與本句語境不同。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。"
+        "suffer-mcq-08": "本句的「suffers from insomnia」指「受失眠困擾」。",
+        "suffer-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-08"
     },
@@ -2214,11 +2138,9 @@ export default {
       "masked": "Stress can cause people to ____ from insomnia.",
       "options": [
         "suffer-mcq-08",
-        "suffer-mcq-07",
-        "suffer-mcq-09",
-        "suffer-mcq-06",
-        "suffer-mcq-10",
-        "suffer-mcq-05"
+        "suffer-mcq-27",
+        "suffer-mcq-47",
+        "suffer-mcq-60"
       ],
       "explanation": "本句的「suffer」指「受失眠困擾」。",
       "sentenceIndex": 22,
@@ -2227,12 +2149,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-08": "本句指「受失眠困擾」。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。",
-        "suffer-mcq-10": "「受苦」與本句語境不同。",
-        "suffer-mcq-05": "「因被忽視而受損」與本句語境不同。"
+        "suffer-mcq-08": "本句的「suffer」指「受失眠困擾」。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-08"
     },
@@ -2244,11 +2164,9 @@ export default {
       "masked": "Some students ____ before exams.",
       "options": [
         "suffer-mcq-09",
-        "suffer-mcq-08",
-        "suffer-mcq-10",
-        "suffer-mcq-07",
-        "suffer-mcq-11",
-        "suffer-mcq-06"
+        "suffer-mcq-26",
+        "suffer-mcq-53",
+        "suffer-mcq-47"
       ],
       "explanation": "本句的「suffer from severe anxiety」指「受焦慮困擾」。",
       "sentenceIndex": 23,
@@ -2257,12 +2175,10 @@ export default {
         "suffer from severe anxiety"
       ],
       "optionReasons": {
-        "suffer-mcq-09": "本句指「受焦慮困擾」。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-10": "「受苦」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-11": "「身體上受苦」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。"
+        "suffer-mcq-09": "本句的「suffer from severe anxiety」指「受焦慮困擾」。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-09"
     },
@@ -2274,11 +2190,9 @@ export default {
       "masked": "People ____ from depression may need professional support.",
       "options": [
         "suffer-mcq-09",
-        "suffer-mcq-08",
-        "suffer-mcq-10",
-        "suffer-mcq-07",
-        "suffer-mcq-11",
-        "suffer-mcq-06"
+        "suffer-mcq-60",
+        "suffer-mcq-22",
+        "suffer-mcq-51"
       ],
       "explanation": "本句的「suffering」指「受焦慮困擾」。",
       "sentenceIndex": 24,
@@ -2287,12 +2201,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-09": "本句指「受焦慮困擾」。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-10": "「受苦」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-11": "「身體上受苦」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。"
+        "suffer-mcq-09": "本句的「suffering」指「受焦慮困擾」。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-09"
     },
@@ -2304,11 +2216,9 @@ export default {
       "masked": "The patient ____.",
       "options": [
         "suffer-mcq-09",
-        "suffer-mcq-08",
-        "suffer-mcq-10",
-        "suffer-mcq-07",
-        "suffer-mcq-11",
-        "suffer-mcq-06"
+        "suffer-mcq-41",
+        "suffer-mcq-28",
+        "suffer-pdf-002"
       ],
       "explanation": "本句的「suffered from memory loss」指「受焦慮困擾」。",
       "sentenceIndex": 25,
@@ -2317,12 +2227,10 @@ export default {
         "suffered from memory loss"
       ],
       "optionReasons": {
-        "suffer-mcq-09": "本句指「受焦慮困擾」。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-10": "「受苦」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-11": "「身體上受苦」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。"
+        "suffer-mcq-09": "本句的「suffered from memory loss」指「受焦慮困擾」。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-09"
     },
@@ -2334,11 +2242,9 @@ export default {
       "masked": "Employees may ____ from fatigue after prolonged overwork.",
       "options": [
         "suffer-mcq-09",
-        "suffer-mcq-08",
-        "suffer-mcq-10",
-        "suffer-mcq-07",
-        "suffer-mcq-11",
-        "suffer-mcq-06"
+        "suffer-pdf-002",
+        "suffer-mcq-60",
+        "suffer-mcq-27"
       ],
       "explanation": "本句的「suffer」指「受焦慮困擾」。",
       "sentenceIndex": 26,
@@ -2347,12 +2253,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-09": "本句指「受焦慮困擾」。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-10": "「受苦」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。",
-        "suffer-mcq-11": "「身體上受苦」與本句語境不同。",
-        "suffer-mcq-06": "「患病／受疾病困擾」與本句語境不同。"
+        "suffer-mcq-09": "本句的「suffer」指「受焦慮困擾」。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-09"
     },
@@ -2364,11 +2268,9 @@ export default {
       "masked": "Nobody should have to ____.",
       "options": [
         "suffer-pdf-002",
-        "suffer-mcq-09",
-        "suffer-mcq-11",
-        "suffer-mcq-08",
-        "suffer-mcq-12",
-        "suffer-mcq-07"
+        "suffer-mcq-56",
+        "suffer-mcq-29",
+        "suffer-mcq-18"
       ],
       "explanation": "本句的「suffer unnecessarily」指「經歷身體、心理或情感上的痛苦」。",
       "sentenceIndex": 27,
@@ -2377,12 +2279,10 @@ export default {
         "suffer unnecessarily"
       ],
       "optionReasons": {
-        "suffer-pdf-002": "本句指「經歷身體、心理或情感上的痛苦」。",
-        "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。",
-        "suffer-mcq-11": "「身體上受苦」與本句語境不同。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-12": "「情緒上受苦」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。"
+        "suffer-pdf-002": "本句的「suffer unnecessarily」指「經歷身體、心理或情感上的痛苦」。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-pdf-002"
     },
@@ -2394,11 +2294,9 @@ export default {
       "masked": "She ____ greatly after the loss.",
       "options": [
         "suffer-pdf-002",
-        "suffer-mcq-09",
-        "suffer-mcq-11",
-        "suffer-mcq-08",
-        "suffer-mcq-12",
-        "suffer-mcq-07"
+        "suffer-mcq-15",
+        "suffer-pdf-001",
+        "suffer-mcq-36"
       ],
       "explanation": "本句的「suffered」指「經歷身體、心理或情感上的痛苦」。",
       "sentenceIndex": 28,
@@ -2407,12 +2305,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-pdf-002": "本句指「經歷身體、心理或情感上的痛苦」。",
-        "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。",
-        "suffer-mcq-11": "「身體上受苦」與本句語境不同。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。",
-        "suffer-mcq-12": "「情緒上受苦」與本句語境不同。",
-        "suffer-mcq-07": "「受疼痛困擾」與本句語境不同。"
+        "suffer-pdf-002": "本句的「suffered」指「經歷身體、心理或情感上的痛苦」。",
+        "suffer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-pdf-002"
     },
@@ -2424,11 +2320,9 @@ export default {
       "masked": "He ____ during the illness.",
       "options": [
         "suffer-mcq-11",
-        "suffer-mcq-10",
-        "suffer-mcq-12",
-        "suffer-mcq-09",
-        "suffer-mcq-13",
-        "suffer-mcq-08"
+        "suffer-reviewed-00c185d3d7",
+        "suffer-mcq-28",
+        "suffer-mcq-36"
       ],
       "explanation": "本句的「suffered physically」指「身體上受苦」。",
       "sentenceIndex": 29,
@@ -2437,12 +2331,10 @@ export default {
         "suffered physically"
       ],
       "optionReasons": {
-        "suffer-mcq-11": "本句指「身體上受苦」。",
-        "suffer-mcq-10": "「受苦」與本句語境不同。",
-        "suffer-mcq-12": "「情緒上受苦」與本句語境不同。",
-        "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。",
-        "suffer-mcq-13": "「受很多苦」與本句語境不同。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。"
+        "suffer-mcq-11": "本句的「suffered physically」指「身體上受苦」。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-11"
     },
@@ -2454,11 +2346,9 @@ export default {
       "masked": "Workers may ____ physically if safety standards are ignored.",
       "options": [
         "suffer-mcq-11",
-        "suffer-mcq-10",
-        "suffer-mcq-12",
-        "suffer-mcq-09",
-        "suffer-mcq-13",
-        "suffer-mcq-08"
+        "suffer-mcq-22",
+        "suffer-mcq-55",
+        "suffer-mcq-56"
       ],
       "explanation": "本句的「suffer」指「身體上受苦」。",
       "sentenceIndex": 30,
@@ -2467,12 +2357,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-11": "本句指「身體上受苦」。",
-        "suffer-mcq-10": "「受苦」與本句語境不同。",
-        "suffer-mcq-12": "「情緒上受苦」與本句語境不同。",
-        "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。",
-        "suffer-mcq-13": "「受很多苦」與本句語境不同。",
-        "suffer-mcq-08": "「受失眠困擾」與本句語境不同。"
+        "suffer-mcq-11": "本句的「suffer」指「身體上受苦」。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-11"
     },
@@ -2484,11 +2372,9 @@ export default {
       "masked": "Children can ____ during family conflict.",
       "options": [
         "suffer-mcq-12",
-        "suffer-mcq-11",
-        "suffer-mcq-13",
-        "suffer-mcq-10",
-        "suffer-mcq-14",
-        "suffer-mcq-09"
+        "suffer-mcq-22",
+        "suffer-mcq-55",
+        "suffer-mcq-36"
       ],
       "explanation": "本句的「suffer emotionally」指「情緒上受苦」。",
       "sentenceIndex": 31,
@@ -2497,12 +2383,10 @@ export default {
         "suffer emotionally"
       ],
       "optionReasons": {
-        "suffer-mcq-12": "本句指「情緒上受苦」。",
-        "suffer-mcq-11": "「身體上受苦」與本句語境不同。",
-        "suffer-mcq-13": "「受很多苦」與本句語境不同。",
-        "suffer-mcq-10": "「受苦」與本句語境不同。",
-        "suffer-mcq-14": "「遭受 X」與本句語境不同。",
-        "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。"
+        "suffer-mcq-12": "本句的「suffer emotionally」指「情緒上受苦」。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-12"
     },
@@ -2514,11 +2398,9 @@ export default {
       "masked": "She ____ emotionally after the breakdown of the relationship.",
       "options": [
         "suffer-mcq-12",
-        "suffer-mcq-11",
-        "suffer-mcq-13",
-        "suffer-mcq-10",
-        "suffer-mcq-14",
-        "suffer-mcq-09"
+        "suffer-mcq-41",
+        "suffer-mcq-60",
+        "suffer-mcq-22"
       ],
       "explanation": "本句的「suffered」指「情緒上受苦」。",
       "sentenceIndex": 32,
@@ -2527,12 +2409,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-12": "本句指「情緒上受苦」。",
-        "suffer-mcq-11": "「身體上受苦」與本句語境不同。",
-        "suffer-mcq-13": "「受很多苦」與本句語境不同。",
-        "suffer-mcq-10": "「受苦」與本句語境不同。",
-        "suffer-mcq-14": "「遭受 X」與本句語境不同。",
-        "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。"
+        "suffer-mcq-12": "本句的「suffered」指「情緒上受苦」。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-12"
     },
@@ -2544,11 +2424,9 @@ export default {
       "masked": "People may ____ after traumatic events.",
       "options": [
         "suffer-mcq-12",
-        "suffer-mcq-11",
-        "suffer-mcq-13",
-        "suffer-mcq-10",
-        "suffer-mcq-14",
-        "suffer-mcq-09"
+        "suffer-mcq-27",
+        "suffer-mcq-55",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「suffer psychologically」指「情緒上受苦」。",
       "sentenceIndex": 33,
@@ -2557,12 +2435,10 @@ export default {
         "suffer psychologically"
       ],
       "optionReasons": {
-        "suffer-mcq-12": "本句指「情緒上受苦」。",
-        "suffer-mcq-11": "「身體上受苦」與本句語境不同。",
-        "suffer-mcq-13": "「受很多苦」與本句語境不同。",
-        "suffer-mcq-10": "「受苦」與本句語境不同。",
-        "suffer-mcq-14": "「遭受 X」與本句語境不同。",
-        "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。"
+        "suffer-mcq-12": "本句的「suffer psychologically」指「情緒上受苦」。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-12"
     },
@@ -2574,11 +2450,9 @@ export default {
       "masked": "Long-term stress can make employees ____ mentally.",
       "options": [
         "suffer-mcq-12",
-        "suffer-mcq-11",
-        "suffer-mcq-13",
-        "suffer-mcq-10",
-        "suffer-mcq-14",
-        "suffer-mcq-09"
+        "suffer-mcq-22",
+        "suffer-mcq-56",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「suffer」指「情緒上受苦」。",
       "sentenceIndex": 34,
@@ -2587,12 +2461,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-12": "本句指「情緒上受苦」。",
-        "suffer-mcq-11": "「身體上受苦」與本句語境不同。",
-        "suffer-mcq-13": "「受很多苦」與本句語境不同。",
-        "suffer-mcq-10": "「受苦」與本句語境不同。",
-        "suffer-mcq-14": "「遭受 X」與本句語境不同。",
-        "suffer-mcq-09": "「受焦慮困擾」與本句語境不同。"
+        "suffer-mcq-12": "本句的「suffer」指「情緒上受苦」。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-12"
     },
@@ -2604,11 +2476,9 @@ export default {
       "masked": "The community ____ after the disaster.",
       "options": [
         "suffer-mcq-13",
-        "suffer-mcq-12",
-        "suffer-mcq-14",
-        "suffer-mcq-11",
-        "suffer-mcq-15",
-        "suffer-mcq-10"
+        "suffer-mcq-27",
+        "suffer-mcq-41",
+        "suffer-mcq-60"
       ],
       "explanation": "本句的「suffered greatly」指「受很多苦」。",
       "sentenceIndex": 35,
@@ -2617,12 +2487,10 @@ export default {
         "suffered greatly"
       ],
       "optionReasons": {
-        "suffer-mcq-13": "本句指「受很多苦」。",
-        "suffer-mcq-12": "「情緒上受苦」與本句語境不同。",
-        "suffer-mcq-14": "「遭受 X」與本句語境不同。",
-        "suffer-mcq-11": "「身體上受苦」與本句語境不同。",
-        "suffer-mcq-15": "「受傷」與本句語境不同。",
-        "suffer-mcq-10": "「受苦」與本句語境不同。"
+        "suffer-mcq-13": "本句的「suffered greatly」指「受很多苦」。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-13"
     },
@@ -2634,11 +2502,9 @@ export default {
       "masked": "He ____ badly during the final weeks of his illness.",
       "options": [
         "suffer-mcq-13",
-        "suffer-mcq-12",
-        "suffer-mcq-14",
-        "suffer-mcq-11",
-        "suffer-mcq-15",
-        "suffer-mcq-10"
+        "suffer-mcq-28",
+        "suffer-mcq-55",
+        "suffer-mcq-41"
       ],
       "explanation": "本句的「suffered」指「受很多苦」。",
       "sentenceIndex": 36,
@@ -2647,12 +2513,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-13": "本句指「受很多苦」。",
-        "suffer-mcq-12": "「情緒上受苦」與本句語境不同。",
-        "suffer-mcq-14": "「遭受 X」與本句語境不同。",
-        "suffer-mcq-11": "「身體上受苦」與本句語境不同。",
-        "suffer-mcq-15": "「受傷」與本句語境不同。",
-        "suffer-mcq-10": "「受苦」與本句語境不同。"
+        "suffer-mcq-13": "本句的「suffered」指「受很多苦」。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-13"
     },
@@ -2664,11 +2528,9 @@ export default {
       "masked": "He ____ during training.",
       "options": [
         "suffer-mcq-15",
-        "suffer-mcq-14",
-        "suffer-mcq-16",
-        "suffer-mcq-13",
-        "suffer-mcq-17",
-        "suffer-mcq-12"
+        "suffer-mcq-56",
+        "suffer-mcq-27",
+        "suffer-mcq-47"
       ],
       "explanation": "本句的「suffered a knee injury」指「受傷」。",
       "sentenceIndex": 39,
@@ -2677,12 +2539,10 @@ export default {
         "suffered a knee injury"
       ],
       "optionReasons": {
-        "suffer-mcq-15": "本句指「受傷」。",
-        "suffer-mcq-14": "「遭受 X」與本句語境不同。",
-        "suffer-mcq-16": "「遭受損害」與本句語境不同。",
-        "suffer-mcq-13": "「受很多苦」與本句語境不同。",
-        "suffer-mcq-17": "「蒙受損失」與本句語境不同。",
-        "suffer-mcq-12": "「情緒上受苦」與本句語境不同。"
+        "suffer-mcq-15": "本句的「suffered a knee injury」指「受傷」。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-15"
     },
@@ -2694,11 +2554,9 @@ export default {
       "masked": "Several passengers ____ minor injuries.",
       "options": [
         "suffer-mcq-15",
-        "suffer-mcq-14",
-        "suffer-mcq-16",
-        "suffer-mcq-13",
-        "suffer-mcq-17",
-        "suffer-mcq-12"
+        "suffer-pdf-002",
+        "suffer-mcq-28",
+        "suffer-mcq-52"
       ],
       "explanation": "本句的「suffered」指「受傷」。",
       "sentenceIndex": 40,
@@ -2707,12 +2565,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-15": "本句指「受傷」。",
-        "suffer-mcq-14": "「遭受 X」與本句語境不同。",
-        "suffer-mcq-16": "「遭受損害」與本句語境不同。",
-        "suffer-mcq-13": "「受很多苦」與本句語境不同。",
-        "suffer-mcq-17": "「蒙受損失」與本句語境不同。",
-        "suffer-mcq-12": "「情緒上受苦」與本句語境不同。"
+        "suffer-mcq-15": "本句的「suffered」指「受傷」。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-15"
     },
@@ -2724,11 +2580,9 @@ export default {
       "masked": "The building ____.",
       "options": [
         "suffer-mcq-16",
-        "suffer-mcq-15",
-        "suffer-mcq-17",
-        "suffer-mcq-14",
-        "suffer-mcq-18",
-        "suffer-mcq-13"
+        "suffer-pdf-002",
+        "suffer-mcq-56",
+        "suffer-mcq-26"
       ],
       "explanation": "本句的「suffered extensive damage」指「遭受損害」。",
       "sentenceIndex": 41,
@@ -2737,12 +2591,10 @@ export default {
         "suffered extensive damage"
       ],
       "optionReasons": {
-        "suffer-mcq-16": "本句指「遭受損害」。",
-        "suffer-mcq-15": "「受傷」與本句語境不同。",
-        "suffer-mcq-17": "「蒙受損失」與本句語境不同。",
-        "suffer-mcq-14": "「遭受 X」與本句語境不同。",
-        "suffer-mcq-18": "「蒙受多項／重大損失」與本句語境不同。",
-        "suffer-mcq-13": "「受很多苦」與本句語境不同。"
+        "suffer-mcq-16": "本句的「suffered extensive damage」指「遭受損害」。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-16"
     },
@@ -2754,11 +2606,9 @@ export default {
       "masked": "Trust ____ significant damage after the incident.",
       "options": [
         "suffer-mcq-16",
-        "suffer-mcq-15",
-        "suffer-mcq-17",
-        "suffer-mcq-14",
-        "suffer-mcq-18",
-        "suffer-mcq-13"
+        "suffer-mcq-60",
+        "suffer-pdf-002",
+        "suffer-mcq-52"
       ],
       "explanation": "本句的「suffered」指「遭受損害」。",
       "sentenceIndex": 42,
@@ -2767,12 +2617,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-16": "本句指「遭受損害」。",
-        "suffer-mcq-15": "「受傷」與本句語境不同。",
-        "suffer-mcq-17": "「蒙受損失」與本句語境不同。",
-        "suffer-mcq-14": "「遭受 X」與本句語境不同。",
-        "suffer-mcq-18": "「蒙受多項／重大損失」與本句語境不同。",
-        "suffer-mcq-13": "「受很多苦」與本句語境不同。"
+        "suffer-mcq-16": "本句的「suffered」指「遭受損害」。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-16"
     },
@@ -2784,11 +2632,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "suffer-mcq-17",
-        "suffer-mcq-16",
-        "suffer-mcq-18",
-        "suffer-mcq-15",
-        "suffer-mcq-19",
-        "suffer-mcq-14"
+        "suffer-mcq-36",
+        "suffer-mcq-52",
+        "suffer-mcq-41"
       ],
       "explanation": "本句的「suffered a major financial loss」指「蒙受損失」。",
       "sentenceIndex": 43,
@@ -2797,12 +2643,10 @@ export default {
         "suffered a major financial loss"
       ],
       "optionReasons": {
-        "suffer-mcq-17": "本句指「蒙受損失」。",
-        "suffer-mcq-16": "「遭受損害」與本句語境不同。",
-        "suffer-mcq-18": "「蒙受多項／重大損失」與本句語境不同。",
-        "suffer-mcq-15": "「受傷」與本句語境不同。",
-        "suffer-mcq-19": "「遭受挫折」與本句語境不同。",
-        "suffer-mcq-14": "「遭受 X」與本句語境不同。"
+        "suffer-mcq-17": "本句的「suffered a major financial loss」指「蒙受損失」。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-17"
     },
@@ -2814,11 +2658,9 @@ export default {
       "masked": "Investors ____ losses during the downturn.",
       "options": [
         "suffer-mcq-17",
-        "suffer-mcq-16",
-        "suffer-mcq-18",
-        "suffer-mcq-15",
-        "suffer-mcq-19",
-        "suffer-mcq-14"
+        "suffer-mcq-26",
+        "suffer-mcq-36",
+        "suffer-mcq-50"
       ],
       "explanation": "本句的「suffered」指「蒙受損失」。",
       "sentenceIndex": 44,
@@ -2827,12 +2669,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-17": "本句指「蒙受損失」。",
-        "suffer-mcq-16": "「遭受損害」與本句語境不同。",
-        "suffer-mcq-18": "「蒙受多項／重大損失」與本句語境不同。",
-        "suffer-mcq-15": "「受傷」與本句語境不同。",
-        "suffer-mcq-19": "「遭受挫折」與本句語境不同。",
-        "suffer-mcq-14": "「遭受 X」與本句語境不同。"
+        "suffer-mcq-17": "本句的「suffered」指「蒙受損失」。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-17"
     },
@@ -2844,11 +2684,9 @@ export default {
       "masked": "Many small firms ____.",
       "options": [
         "suffer-mcq-18",
-        "suffer-mcq-17",
-        "suffer-mcq-19",
-        "suffer-mcq-16",
-        "suffer-mcq-20",
-        "suffer-mcq-15"
+        "suffer-mcq-55",
+        "suffer-mcq-47",
+        "suffer-mcq-53"
       ],
       "explanation": "本句的「suffered financial losses」指「蒙受多項／重大損失」。",
       "sentenceIndex": 45,
@@ -2857,12 +2695,10 @@ export default {
         "suffered financial losses"
       ],
       "optionReasons": {
-        "suffer-mcq-18": "本句指「蒙受多項／重大損失」。",
-        "suffer-mcq-17": "「蒙受損失」與本句語境不同。",
-        "suffer-mcq-19": "「遭受挫折」與本句語境不同。",
-        "suffer-mcq-16": "「遭受損害」與本句語境不同。",
-        "suffer-mcq-20": "「遭受失敗」與本句語境不同。",
-        "suffer-mcq-15": "「受傷」與本句語境不同。"
+        "suffer-mcq-18": "本句的「suffered financial losses」指「蒙受多項／重大損失」。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-18"
     },
@@ -2874,11 +2710,9 @@ export default {
       "masked": "Delays caused the company to ____ additional losses.",
       "options": [
         "suffer-mcq-18",
-        "suffer-mcq-17",
-        "suffer-mcq-19",
-        "suffer-mcq-16",
-        "suffer-mcq-20",
-        "suffer-mcq-15"
+        "suffer-mcq-47",
+        "suffer-pdf-002",
+        "suffer-mcq-56"
       ],
       "explanation": "本句的「suffer」指「蒙受多項／重大損失」。",
       "sentenceIndex": 46,
@@ -2887,12 +2721,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-18": "本句指「蒙受多項／重大損失」。",
-        "suffer-mcq-17": "「蒙受損失」與本句語境不同。",
-        "suffer-mcq-19": "「遭受挫折」與本句語境不同。",
-        "suffer-mcq-16": "「遭受損害」與本句語境不同。",
-        "suffer-mcq-20": "「遭受失敗」與本句語境不同。",
-        "suffer-mcq-15": "「受傷」與本句語境不同。"
+        "suffer-mcq-18": "本句的「suffer」指「蒙受多項／重大損失」。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-18"
     },
@@ -2904,11 +2736,9 @@ export default {
       "masked": "The project ____.",
       "options": [
         "suffer-mcq-19",
-        "suffer-mcq-18",
-        "suffer-mcq-20",
-        "suffer-mcq-17",
-        "suffer-mcq-21",
-        "suffer-mcq-16"
+        "suffer-mcq-60",
+        "suffer-mcq-26",
+        "suffer-mcq-51"
       ],
       "explanation": "本句的「suffered a serious setback」指「遭受挫折」。",
       "sentenceIndex": 47,
@@ -2917,12 +2747,10 @@ export default {
         "suffered a serious setback"
       ],
       "optionReasons": {
-        "suffer-mcq-19": "本句指「遭受挫折」。",
-        "suffer-mcq-18": "「蒙受多項／重大損失」與本句語境不同。",
-        "suffer-mcq-20": "「遭受失敗」與本句語境不同。",
-        "suffer-mcq-17": "「蒙受損失」與本句語境不同。",
-        "suffer-mcq-21": "「遭受打擊」與本句語境不同。",
-        "suffer-mcq-16": "「遭受損害」與本句語境不同。"
+        "suffer-mcq-19": "本句的「suffered a serious setback」指「遭受挫折」。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-19"
     },
@@ -2934,11 +2762,9 @@ export default {
       "masked": "The negotiations ____ another setback.",
       "options": [
         "suffer-mcq-19",
-        "suffer-mcq-18",
-        "suffer-mcq-20",
-        "suffer-mcq-17",
-        "suffer-mcq-21",
-        "suffer-mcq-16"
+        "suffer-mcq-47",
+        "suffer-mcq-56",
+        "suffer-mcq-51"
       ],
       "explanation": "本句的「suffered」指「遭受挫折」。",
       "sentenceIndex": 48,
@@ -2947,12 +2773,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-19": "本句指「遭受挫折」。",
-        "suffer-mcq-18": "「蒙受多項／重大損失」與本句語境不同。",
-        "suffer-mcq-20": "「遭受失敗」與本句語境不同。",
-        "suffer-mcq-17": "「蒙受損失」與本句語境不同。",
-        "suffer-mcq-21": "「遭受打擊」與本句語境不同。",
-        "suffer-mcq-16": "「遭受損害」與本句語境不同。"
+        "suffer-mcq-19": "本句的「suffered」指「遭受挫折」。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-19"
     },
@@ -2964,11 +2788,9 @@ export default {
       "masked": "The team ____.",
       "options": [
         "suffer-mcq-20",
-        "suffer-mcq-19",
-        "suffer-mcq-21",
-        "suffer-mcq-18",
-        "suffer-mcq-22",
-        "suffer-mcq-17"
+        "suffer-mcq-26",
+        "suffer-mcq-56",
+        "suffer-mcq-27"
       ],
       "explanation": "本句的「suffered a heavy defeat」指「遭受失敗」。",
       "sentenceIndex": 49,
@@ -2977,12 +2799,10 @@ export default {
         "suffered a heavy defeat"
       ],
       "optionReasons": {
-        "suffer-mcq-20": "本句指「遭受失敗」。",
-        "suffer-mcq-19": "「遭受挫折」與本句語境不同。",
-        "suffer-mcq-21": "「遭受打擊」與本句語境不同。",
-        "suffer-mcq-18": "「蒙受多項／重大損失」與本句語境不同。",
-        "suffer-mcq-22": "「出現下降」與本句語境不同。",
-        "suffer-mcq-17": "「蒙受損失」與本句語境不同。"
+        "suffer-mcq-20": "本句的「suffered a heavy defeat」指「遭受失敗」。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-20"
     },
@@ -2994,11 +2814,9 @@ export default {
       "masked": "The proposal ____ defeat in the vote.",
       "options": [
         "suffer-mcq-20",
-        "suffer-mcq-19",
-        "suffer-mcq-21",
-        "suffer-mcq-18",
+        "suffer-mcq-56",
         "suffer-mcq-22",
-        "suffer-mcq-17"
+        "suffer-mcq-50"
       ],
       "explanation": "本句的「suffered」指「遭受失敗」。",
       "sentenceIndex": 50,
@@ -3007,12 +2825,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-20": "本句指「遭受失敗」。",
-        "suffer-mcq-19": "「遭受挫折」與本句語境不同。",
-        "suffer-mcq-21": "「遭受打擊」與本句語境不同。",
-        "suffer-mcq-18": "「蒙受多項／重大損失」與本句語境不同。",
-        "suffer-mcq-22": "「出現下降」與本句語境不同。",
-        "suffer-mcq-17": "「蒙受損失」與本句語境不同。"
+        "suffer-mcq-20": "本句的「suffered」指「遭受失敗」。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-20"
     },
@@ -3024,11 +2840,9 @@ export default {
       "masked": "The industry ____ when demand collapsed.",
       "options": [
         "suffer-mcq-21",
-        "suffer-mcq-20",
-        "suffer-mcq-22",
-        "suffer-mcq-19",
-        "suffer-mcq-23",
-        "suffer-mcq-18"
+        "suffer-mcq-55",
+        "suffer-mcq-60",
+        "suffer-mcq-27"
       ],
       "explanation": "本句的「suffered a major blow」指「遭受打擊」。",
       "sentenceIndex": 51,
@@ -3037,12 +2851,10 @@ export default {
         "suffered a major blow"
       ],
       "optionReasons": {
-        "suffer-mcq-21": "本句指「遭受打擊」。",
-        "suffer-mcq-20": "「遭受失敗」與本句語境不同。",
-        "suffer-mcq-22": "「出現下降」與本句語境不同。",
-        "suffer-mcq-19": "「遭受挫折」與本句語境不同。",
-        "suffer-mcq-23": "「業務受挫」與本句語境不同。",
-        "suffer-mcq-18": "「蒙受多項／重大損失」與本句語境不同。"
+        "suffer-mcq-21": "本句的「suffered a major blow」指「遭受打擊」。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-21"
     },
@@ -3054,11 +2866,9 @@ export default {
       "masked": "His confidence ____ a serious blow.",
       "options": [
         "suffer-mcq-21",
-        "suffer-mcq-20",
-        "suffer-mcq-22",
-        "suffer-mcq-19",
-        "suffer-mcq-23",
-        "suffer-mcq-18"
+        "suffer-pdf-001",
+        "suffer-mcq-36",
+        "suffer-pdf-002"
       ],
       "explanation": "本句的「suffered」指「遭受打擊」。",
       "sentenceIndex": 52,
@@ -3067,12 +2877,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-21": "本句指「遭受打擊」。",
-        "suffer-mcq-20": "「遭受失敗」與本句語境不同。",
-        "suffer-mcq-22": "「出現下降」與本句語境不同。",
-        "suffer-mcq-19": "「遭受挫折」與本句語境不同。",
-        "suffer-mcq-23": "「業務受挫」與本句語境不同。",
-        "suffer-mcq-18": "「蒙受多項／重大損失」與本句語境不同。"
+        "suffer-mcq-21": "本句的「suffered」指「遭受打擊」。",
+        "suffer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-21"
     },
@@ -3085,10 +2893,8 @@ export default {
       "options": [
         "suffer-mcq-22",
         "suffer-mcq-21",
-        "suffer-mcq-23",
-        "suffer-mcq-20",
-        "suffer-mcq-24",
-        "suffer-mcq-19"
+        "suffer-mcq-04",
+        "suffer-mcq-32"
       ],
       "explanation": "本句的「suffered a sharp decline」指「出現下降」。",
       "sentenceIndex": 53,
@@ -3097,12 +2903,10 @@ export default {
         "suffered a sharp decline"
       ],
       "optionReasons": {
-        "suffer-mcq-22": "本句指「出現下降」。",
-        "suffer-mcq-21": "「遭受打擊」與本句語境不同。",
-        "suffer-mcq-23": "「業務受挫」與本句語境不同。",
-        "suffer-mcq-20": "「遭受失敗」與本句語境不同。",
-        "suffer-mcq-24": "「銷售受影響」與本句語境不同。",
-        "suffer-mcq-19": "「遭受挫折」與本句語境不同。"
+        "suffer-mcq-22": "本句的「suffered a sharp decline」指「出現下降」。",
+        "suffer-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-22"
     },
@@ -3114,11 +2918,9 @@ export default {
       "masked": "The organisation ____ a decline in membership.",
       "options": [
         "suffer-mcq-22",
-        "suffer-mcq-21",
-        "suffer-mcq-23",
-        "suffer-mcq-20",
-        "suffer-mcq-24",
-        "suffer-mcq-19"
+        "suffer-mcq-13",
+        "suffer-mcq-60",
+        "suffer-mcq-55"
       ],
       "explanation": "本句的「suffered」指「出現下降」。",
       "sentenceIndex": 54,
@@ -3127,12 +2929,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-22": "本句指「出現下降」。",
-        "suffer-mcq-21": "「遭受打擊」與本句語境不同。",
-        "suffer-mcq-23": "「業務受挫」與本句語境不同。",
-        "suffer-mcq-20": "「遭受失敗」與本句語境不同。",
-        "suffer-mcq-24": "「銷售受影響」與本句語境不同。",
-        "suffer-mcq-19": "「遭受挫折」與本句語境不同。"
+        "suffer-mcq-22": "本句的「suffered」指「出現下降」。",
+        "suffer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-22"
     },
@@ -3144,11 +2944,9 @@ export default {
       "masked": "Profits ____.",
       "options": [
         "suffer-mcq-22",
-        "suffer-mcq-21",
-        "suffer-mcq-23",
-        "suffer-mcq-20",
-        "suffer-mcq-24",
-        "suffer-mcq-19"
+        "suffer-mcq-03",
+        "suffer-pdf-005",
+        "suffer-mcq-11"
       ],
       "explanation": "本句的「suffered a substantial fall」指「出現下降」。",
       "sentenceIndex": 55,
@@ -3157,12 +2955,10 @@ export default {
         "suffered a substantial fall"
       ],
       "optionReasons": {
-        "suffer-mcq-22": "本句指「出現下降」。",
-        "suffer-mcq-21": "「遭受打擊」與本句語境不同。",
-        "suffer-mcq-23": "「業務受挫」與本句語境不同。",
-        "suffer-mcq-20": "「遭受失敗」與本句語境不同。",
-        "suffer-mcq-24": "「銷售受影響」與本句語境不同。",
-        "suffer-mcq-19": "「遭受挫折」與本句語境不同。"
+        "suffer-mcq-22": "本句的「suffered a substantial fall」指「出現下降」。",
+        "suffer-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-22"
     },
@@ -3174,11 +2970,9 @@ export default {
       "masked": "The company's share price ____ another drop.",
       "options": [
         "suffer-mcq-22",
-        "suffer-mcq-21",
-        "suffer-mcq-23",
-        "suffer-mcq-20",
-        "suffer-mcq-24",
-        "suffer-mcq-19"
+        "suffer-mcq-43",
+        "suffer-pdf-003",
+        "suffer-mcq-60"
       ],
       "explanation": "本句的「suffered」指「出現下降」。",
       "sentenceIndex": 56,
@@ -3187,74 +2981,68 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-22": "本句指「出現下降」。",
-        "suffer-mcq-21": "「遭受打擊」與本句語境不同。",
-        "suffer-mcq-23": "「業務受挫」與本句語境不同。",
-        "suffer-mcq-20": "「遭受失敗」與本句語境不同。",
-        "suffer-mcq-24": "「銷售受影響」與本句語境不同。",
-        "suffer-mcq-19": "「遭受挫折」與本句語境不同。"
+        "suffer-mcq-22": "本句的「suffered」指「出現下降」。",
+        "suffer-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-22"
     },
     {
       "id": "suffer-29-0",
-      "sense": "suffer-mcq-22",
+      "sense": "suffer-reviewed-00c185d3d7",
       "en": "The region suffered severe food shortages.",
       "zh": "該地區面對嚴重糧食短缺。",
       "masked": "The region ____.",
       "options": [
-        "suffer-mcq-22",
-        "suffer-mcq-21",
-        "suffer-mcq-23",
-        "suffer-mcq-20",
-        "suffer-mcq-24",
-        "suffer-mcq-19"
+        "suffer-reviewed-00c185d3d7",
+        "suffer-mcq-51",
+        "suffer-mcq-47",
+        "suffer-mcq-41"
       ],
-      "explanation": "本句的「suffered severe food shortages」指「出現下降」。",
+      "explanation": "對照完整句子：「該地區面對嚴重糧食短缺。」。這裡的「suffered severe food shortages」表示「面對短缺」。",
       "sentenceIndex": 57,
       "sourcePractice": 1,
       "targets": [
         "suffered severe food shortages"
       ],
       "optionReasons": {
-        "suffer-mcq-22": "本句指「出現下降」。",
-        "suffer-mcq-21": "「遭受打擊」與本句語境不同。",
-        "suffer-mcq-23": "「業務受挫」與本句語境不同。",
-        "suffer-mcq-20": "「遭受失敗」與本句語境不同。",
-        "suffer-mcq-24": "「銷售受影響」與本句語境不同。",
-        "suffer-mcq-19": "「遭受挫折」與本句語境不同。"
+        "suffer-reviewed-00c185d3d7": "對照完整句子：「該地區面對嚴重糧食短缺。」。這裡的「suffered severe food shortages」表示「面對短缺」。",
+        "suffer-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "suffer-mcq-22"
+      "correctOption": "suffer-reviewed-00c185d3d7",
+      "previousCorrectOption": "suffer-mcq-22",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "suffer-29-1",
-      "sense": "suffer-mcq-22",
+      "sense": "suffer-reviewed-00c185d3d7",
       "en": "Hospitals suffered shortages of essential supplies.",
       "zh": "醫院缺乏重要物資。",
       "masked": "Hospitals ____ shortages of essential supplies.",
       "options": [
-        "suffer-mcq-22",
-        "suffer-mcq-21",
-        "suffer-mcq-23",
-        "suffer-mcq-20",
-        "suffer-mcq-24",
-        "suffer-mcq-19"
+        "suffer-reviewed-00c185d3d7",
+        "suffer-mcq-30",
+        "suffer-mcq-09",
+        "suffer-mcq-37"
       ],
-      "explanation": "本句的「suffered」指「出現下降」。",
+      "explanation": "對照完整句子：「醫院缺乏重要物資。」。這裡的「suffered」表示「面對短缺」。",
       "sentenceIndex": 58,
       "sourcePractice": 2,
       "targets": [
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-22": "本句指「出現下降」。",
-        "suffer-mcq-21": "「遭受打擊」與本句語境不同。",
-        "suffer-mcq-23": "「業務受挫」與本句語境不同。",
-        "suffer-mcq-20": "「遭受失敗」與本句語境不同。",
-        "suffer-mcq-24": "「銷售受影響」與本句語境不同。",
-        "suffer-mcq-19": "「遭受挫折」與本句語境不同。"
+        "suffer-reviewed-00c185d3d7": "對照完整句子：「醫院缺乏重要物資。」。這裡的「suffered」表示「面對短缺」。",
+        "suffer-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "suffer-mcq-22"
+      "correctOption": "suffer-reviewed-00c185d3d7",
+      "previousCorrectOption": "suffer-mcq-22",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "suffer-30-0",
@@ -3264,11 +3052,9 @@ export default {
       "masked": "The business ____.",
       "options": [
         "suffer-mcq-23",
-        "suffer-mcq-22",
-        "suffer-mcq-24",
-        "suffer-mcq-21",
-        "suffer-mcq-25",
-        "suffer-mcq-20"
+        "suffer-mcq-27",
+        "suffer-mcq-51",
+        "suffer-mcq-52"
       ],
       "explanation": "本句的「suffered during the recession」指「業務受挫」。",
       "sentenceIndex": 59,
@@ -3277,12 +3063,10 @@ export default {
         "suffered during the recession"
       ],
       "optionReasons": {
-        "suffer-mcq-23": "本句指「業務受挫」。",
-        "suffer-mcq-22": "「出現下降」與本句語境不同。",
-        "suffer-mcq-24": "「銷售受影響」與本句語境不同。",
-        "suffer-mcq-21": "「遭受打擊」與本句語境不同。",
-        "suffer-mcq-25": "「盈利受打擊」與本句語境不同。",
-        "suffer-mcq-20": "「遭受失敗」與本句語境不同。"
+        "suffer-mcq-23": "本句的「suffered during the recession」指「業務受挫」。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-23"
     },
@@ -3294,11 +3078,9 @@ export default {
       "masked": "Sales ____ after the product failure.",
       "options": [
         "suffer-mcq-23",
-        "suffer-mcq-22",
-        "suffer-mcq-24",
-        "suffer-mcq-21",
-        "suffer-mcq-25",
-        "suffer-mcq-20"
+        "suffer-mcq-51",
+        "suffer-reviewed-00c185d3d7",
+        "suffer-mcq-26"
       ],
       "explanation": "本句的「suffered」指「業務受挫」。",
       "sentenceIndex": 60,
@@ -3307,12 +3089,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-23": "本句指「業務受挫」。",
-        "suffer-mcq-22": "「出現下降」與本句語境不同。",
-        "suffer-mcq-24": "「銷售受影響」與本句語境不同。",
-        "suffer-mcq-21": "「遭受打擊」與本句語境不同。",
-        "suffer-mcq-25": "「盈利受打擊」與本句語境不同。",
-        "suffer-mcq-20": "「遭受失敗」與本句語境不同。"
+        "suffer-mcq-23": "本句的「suffered」指「業務受挫」。",
+        "suffer-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-23"
     },
@@ -3324,11 +3104,9 @@ export default {
       "masked": "Sales ____.",
       "options": [
         "suffer-mcq-24",
-        "suffer-mcq-23",
-        "suffer-mcq-25",
-        "suffer-mcq-22",
-        "suffer-mcq-26",
-        "suffer-mcq-21"
+        "suffer-mcq-28",
+        "suffer-mcq-56",
+        "suffer-pdf-002"
       ],
       "explanation": "本句的「suffered because of weak demand」指「銷售受影響」。",
       "sentenceIndex": 61,
@@ -3337,12 +3115,10 @@ export default {
         "suffered because of weak demand"
       ],
       "optionReasons": {
-        "suffer-mcq-24": "本句指「銷售受影響」。",
-        "suffer-mcq-23": "「業務受挫」與本句語境不同。",
-        "suffer-mcq-25": "「盈利受打擊」與本句語境不同。",
-        "suffer-mcq-22": "「出現下降」與本句語境不同。",
-        "suffer-mcq-26": "「表現變差」與本句語境不同。",
-        "suffer-mcq-21": "「遭受打擊」與本句語境不同。"
+        "suffer-mcq-24": "本句的「suffered because of weak demand」指「銷售受影響」。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-24"
     },
@@ -3354,11 +3130,9 @@ export default {
       "masked": "If service quality falls, sales may ____.",
       "options": [
         "suffer-mcq-24",
-        "suffer-mcq-23",
-        "suffer-mcq-25",
-        "suffer-mcq-22",
-        "suffer-mcq-26",
-        "suffer-mcq-21"
+        "suffer-mcq-50",
+        "suffer-mcq-41",
+        "suffer-mcq-28"
       ],
       "explanation": "本句的「suffer」指「銷售受影響」。",
       "sentenceIndex": 62,
@@ -3367,12 +3141,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-24": "本句指「銷售受影響」。",
-        "suffer-mcq-23": "「業務受挫」與本句語境不同。",
-        "suffer-mcq-25": "「盈利受打擊」與本句語境不同。",
-        "suffer-mcq-22": "「出現下降」與本句語境不同。",
-        "suffer-mcq-26": "「表現變差」與本句語境不同。",
-        "suffer-mcq-21": "「遭受打擊」與本句語境不同。"
+        "suffer-mcq-24": "本句的「suffer」指「銷售受影響」。",
+        "suffer-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-24"
     },
@@ -3384,11 +3156,9 @@ export default {
       "masked": "Profits ____.",
       "options": [
         "suffer-mcq-25",
-        "suffer-mcq-24",
-        "suffer-mcq-26",
-        "suffer-mcq-23",
-        "suffer-mcq-27",
-        "suffer-mcq-22"
+        "suffer-pdf-001",
+        "suffer-mcq-41",
+        "suffer-mcq-56"
       ],
       "explanation": "本句的「suffered as costs increased」指「盈利受打擊」。",
       "sentenceIndex": 63,
@@ -3397,12 +3167,10 @@ export default {
         "suffered as costs increased"
       ],
       "optionReasons": {
-        "suffer-mcq-25": "本句指「盈利受打擊」。",
-        "suffer-mcq-24": "「銷售受影響」與本句語境不同。",
-        "suffer-mcq-26": "「表現變差」與本句語境不同。",
-        "suffer-mcq-23": "「業務受挫」與本句語境不同。",
-        "suffer-mcq-27": "「質素下降」與本句語境不同。",
-        "suffer-mcq-22": "「出現下降」與本句語境不同。"
+        "suffer-mcq-25": "本句的「suffered as costs increased」指「盈利受打擊」。",
+        "suffer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-25"
     },
@@ -3414,11 +3182,9 @@ export default {
       "masked": "The company's profits may ____ in the short term.",
       "options": [
         "suffer-mcq-25",
-        "suffer-mcq-24",
-        "suffer-mcq-26",
-        "suffer-mcq-23",
-        "suffer-mcq-27",
-        "suffer-mcq-22"
+        "suffer-mcq-28",
+        "suffer-mcq-36",
+        "suffer-mcq-51"
       ],
       "explanation": "本句的「suffer」指「盈利受打擊」。",
       "sentenceIndex": 64,
@@ -3427,12 +3193,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-25": "本句指「盈利受打擊」。",
-        "suffer-mcq-24": "「銷售受影響」與本句語境不同。",
-        "suffer-mcq-26": "「表現變差」與本句語境不同。",
-        "suffer-mcq-23": "「業務受挫」與本句語境不同。",
-        "suffer-mcq-27": "「質素下降」與本句語境不同。",
-        "suffer-mcq-22": "「出現下降」與本句語境不同。"
+        "suffer-mcq-25": "本句的「suffer」指「盈利受打擊」。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-25"
     },
@@ -3444,11 +3208,9 @@ export default {
       "masked": "When employees are exhausted, ____.",
       "options": [
         "suffer-mcq-26",
-        "suffer-mcq-25",
-        "suffer-mcq-27",
-        "suffer-mcq-24",
         "suffer-mcq-28",
-        "suffer-mcq-23"
+        "suffer-mcq-09",
+        "suffer-mcq-24"
       ],
       "explanation": "本句的「performance suffers」指「表現變差」。",
       "sentenceIndex": 65,
@@ -3457,12 +3219,10 @@ export default {
         "performance suffers"
       ],
       "optionReasons": {
-        "suffer-mcq-26": "本句指「表現變差」。",
-        "suffer-mcq-25": "「盈利受打擊」與本句語境不同。",
-        "suffer-mcq-27": "「質素下降」與本句語境不同。",
-        "suffer-mcq-24": "「銷售受影響」與本句語境不同。",
-        "suffer-mcq-28": "「生產力下降」與本句語境不同。",
-        "suffer-mcq-23": "「業務受挫」與本句語境不同。"
+        "suffer-mcq-26": "本句的「performance suffers」指「表現變差」。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-26"
     },
@@ -3474,11 +3234,9 @@ export default {
       "masked": "Team performance ____ because responsibilities were unclear.",
       "options": [
         "suffer-mcq-26",
-        "suffer-mcq-25",
         "suffer-mcq-27",
-        "suffer-mcq-24",
-        "suffer-mcq-28",
-        "suffer-mcq-23"
+        "suffer-mcq-48",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「suffered」指「表現變差」。",
       "sentenceIndex": 66,
@@ -3487,12 +3245,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-26": "本句指「表現變差」。",
-        "suffer-mcq-25": "「盈利受打擊」與本句語境不同。",
-        "suffer-mcq-27": "「質素下降」與本句語境不同。",
-        "suffer-mcq-24": "「銷售受影響」與本句語境不同。",
-        "suffer-mcq-28": "「生產力下降」與本句語境不同。",
-        "suffer-mcq-23": "「業務受挫」與本句語境不同。"
+        "suffer-mcq-26": "本句的「suffered」指「表現變差」。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-26"
     },
@@ -3504,11 +3260,9 @@ export default {
       "masked": "If the process is rushed, ____.",
       "options": [
         "suffer-mcq-27",
-        "suffer-mcq-26",
-        "suffer-mcq-28",
-        "suffer-mcq-25",
-        "suffer-mcq-29",
-        "suffer-mcq-24"
+        "suffer-mcq-15",
+        "suffer-mcq-56",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「quality may suffer」指「質素下降」。",
       "sentenceIndex": 67,
@@ -3517,12 +3271,10 @@ export default {
         "quality may suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-27": "本句指「質素下降」。",
-        "suffer-mcq-26": "「表現變差」與本句語境不同。",
-        "suffer-mcq-28": "「生產力下降」與本句語境不同。",
-        "suffer-mcq-25": "「盈利受打擊」與本句語境不同。",
-        "suffer-mcq-29": "「士氣受挫」與本句語境不同。",
-        "suffer-mcq-24": "「銷售受影響」與本句語境不同。"
+        "suffer-mcq-27": "本句的「quality may suffer」指「質素下降」。",
+        "suffer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-27"
     },
@@ -3534,11 +3286,9 @@ export default {
       "masked": "Quality ____ when the company cut training.",
       "options": [
         "suffer-mcq-27",
-        "suffer-mcq-26",
-        "suffer-mcq-28",
-        "suffer-mcq-25",
-        "suffer-mcq-29",
-        "suffer-mcq-24"
+        "suffer-mcq-55",
+        "suffer-mcq-21",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「suffered」指「質素下降」。",
       "sentenceIndex": 68,
@@ -3547,12 +3297,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-27": "本句指「質素下降」。",
-        "suffer-mcq-26": "「表現變差」與本句語境不同。",
-        "suffer-mcq-28": "「生產力下降」與本句語境不同。",
-        "suffer-mcq-25": "「盈利受打擊」與本句語境不同。",
-        "suffer-mcq-29": "「士氣受挫」與本句語境不同。",
-        "suffer-mcq-24": "「銷售受影響」與本句語境不同。"
+        "suffer-mcq-27": "本句的「suffered」指「質素下降」。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-27"
     },
@@ -3564,11 +3312,9 @@ export default {
       "masked": "Productivity ____.",
       "options": [
         "suffer-mcq-28",
-        "suffer-mcq-27",
-        "suffer-mcq-29",
-        "suffer-mcq-26",
-        "suffer-mcq-30",
-        "suffer-mcq-25"
+        "suffer-mcq-36",
+        "suffer-mcq-60",
+        "suffer-mcq-20"
       ],
       "explanation": "本句的「suffers when communication is poor」指「生產力下降」。",
       "sentenceIndex": 69,
@@ -3577,12 +3323,10 @@ export default {
         "suffers when communication is poor"
       ],
       "optionReasons": {
-        "suffer-mcq-28": "本句指「生產力下降」。",
-        "suffer-mcq-27": "「質素下降」與本句語境不同。",
-        "suffer-mcq-29": "「士氣受挫」與本句語境不同。",
-        "suffer-mcq-26": "「表現變差」與本句語境不同。",
-        "suffer-mcq-30": "「聲譽受損」與本句語境不同。",
-        "suffer-mcq-25": "「盈利受打擊」與本句語境不同。"
+        "suffer-mcq-28": "本句的「suffers when communication is poor」指「生產力下降」。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-28"
     },
@@ -3594,11 +3338,9 @@ export default {
       "masked": "Constant interruptions can make productivity ____.",
       "options": [
         "suffer-mcq-28",
-        "suffer-mcq-27",
-        "suffer-mcq-29",
-        "suffer-mcq-26",
-        "suffer-mcq-30",
-        "suffer-mcq-25"
+        "suffer-mcq-07",
+        "suffer-mcq-34",
+        "suffer-mcq-21"
       ],
       "explanation": "本句的「suffer」指「生產力下降」。",
       "sentenceIndex": 70,
@@ -3607,12 +3349,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-28": "本句指「生產力下降」。",
-        "suffer-mcq-27": "「質素下降」與本句語境不同。",
-        "suffer-mcq-29": "「士氣受挫」與本句語境不同。",
-        "suffer-mcq-26": "「表現變差」與本句語境不同。",
-        "suffer-mcq-30": "「聲譽受損」與本句語境不同。",
-        "suffer-mcq-25": "「盈利受打擊」與本句語境不同。"
+        "suffer-mcq-28": "本句的「suffer」指「生產力下降」。",
+        "suffer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-28"
     },
@@ -3624,11 +3364,9 @@ export default {
       "masked": "Staff morale ____.",
       "options": [
         "suffer-mcq-29",
+        "suffer-mcq-36",
         "suffer-mcq-28",
-        "suffer-mcq-30",
-        "suffer-mcq-27",
-        "suffer-mcq-31",
-        "suffer-mcq-26"
+        "suffer-mcq-55"
       ],
       "explanation": "本句的「suffered after the restructuring」指「士氣受挫」。",
       "sentenceIndex": 71,
@@ -3637,12 +3375,10 @@ export default {
         "suffered after the restructuring"
       ],
       "optionReasons": {
-        "suffer-mcq-29": "本句指「士氣受挫」。",
-        "suffer-mcq-28": "「生產力下降」與本句語境不同。",
-        "suffer-mcq-30": "「聲譽受損」與本句語境不同。",
-        "suffer-mcq-27": "「質素下降」與本句語境不同。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。",
-        "suffer-mcq-26": "「表現變差」與本句語境不同。"
+        "suffer-mcq-29": "本句的「suffered after the restructuring」指「士氣受挫」。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-29"
     },
@@ -3654,11 +3390,9 @@ export default {
       "masked": "Morale ____ when employees feel ignored.",
       "options": [
         "suffer-mcq-29",
-        "suffer-mcq-28",
-        "suffer-mcq-30",
-        "suffer-mcq-27",
-        "suffer-mcq-31",
-        "suffer-mcq-26"
+        "suffer-pdf-001",
+        "suffer-mcq-60",
+        "suffer-pdf-002"
       ],
       "explanation": "本句的「suffers」指「士氣受挫」。",
       "sentenceIndex": 72,
@@ -3667,12 +3401,10 @@ export default {
         "suffers"
       ],
       "optionReasons": {
-        "suffer-mcq-29": "本句指「士氣受挫」。",
-        "suffer-mcq-28": "「生產力下降」與本句語境不同。",
-        "suffer-mcq-30": "「聲譽受損」與本句語境不同。",
-        "suffer-mcq-27": "「質素下降」與本句語境不同。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。",
-        "suffer-mcq-26": "「表現變差」與本句語境不同。"
+        "suffer-mcq-29": "本句的「suffers」指「士氣受挫」。",
+        "suffer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-29"
     },
@@ -3684,11 +3416,9 @@ export default {
       "masked": "The company's reputation ____.",
       "options": [
         "suffer-mcq-30",
-        "suffer-mcq-29",
-        "suffer-mcq-31",
-        "suffer-mcq-28",
-        "suffer-mcq-32",
-        "suffer-mcq-27"
+        "suffer-mcq-26",
+        "suffer-mcq-56",
+        "suffer-mcq-36"
       ],
       "explanation": "本句的「suffered badly」指「聲譽受損」。",
       "sentenceIndex": 73,
@@ -3697,12 +3427,10 @@ export default {
         "suffered badly"
       ],
       "optionReasons": {
-        "suffer-mcq-30": "本句指「聲譽受損」。",
-        "suffer-mcq-29": "「士氣受挫」與本句語境不同。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。",
-        "suffer-mcq-28": "「生產力下降」與本句語境不同。",
-        "suffer-mcq-32": "「財務上受損」與本句語境不同。",
-        "suffer-mcq-27": "「質素下降」與本句語境不同。"
+        "suffer-mcq-30": "本句的「suffered badly」指「聲譽受損」。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-30"
     },
@@ -3714,11 +3442,9 @@ export default {
       "masked": "A lack of transparency can make an organisation's reputation ____.",
       "options": [
         "suffer-mcq-30",
-        "suffer-mcq-29",
-        "suffer-mcq-31",
-        "suffer-mcq-28",
-        "suffer-mcq-32",
-        "suffer-mcq-27"
+        "suffer-pdf-003",
+        "suffer-mcq-36",
+        "suffer-mcq-52"
       ],
       "explanation": "本句的「suffer」指「聲譽受損」。",
       "sentenceIndex": 74,
@@ -3727,12 +3453,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-30": "本句指「聲譽受損」。",
-        "suffer-mcq-29": "「士氣受挫」與本句語境不同。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。",
-        "suffer-mcq-28": "「生產力下降」與本句語境不同。",
-        "suffer-mcq-32": "「財務上受損」與本句語境不同。",
-        "suffer-mcq-27": "「質素下降」與本句語境不同。"
+        "suffer-mcq-30": "本句的「suffer」指「聲譽受損」。",
+        "suffer-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-30"
     },
@@ -3744,11 +3468,9 @@ export default {
       "masked": "Their working relationship ____.",
       "options": [
         "suffer-mcq-31",
-        "suffer-mcq-30",
-        "suffer-mcq-32",
-        "suffer-mcq-29",
-        "suffer-mcq-33",
-        "suffer-mcq-28"
+        "suffer-mcq-47",
+        "suffer-mcq-41",
+        "suffer-mcq-55"
       ],
       "explanation": "本句的「suffered after the dispute」指「關係受損」。",
       "sentenceIndex": 75,
@@ -3757,12 +3479,10 @@ export default {
         "suffered after the dispute"
       ],
       "optionReasons": {
-        "suffer-mcq-31": "本句指「關係受損」。",
-        "suffer-mcq-30": "「聲譽受損」與本句語境不同。",
-        "suffer-mcq-32": "「財務上受損」與本句語境不同。",
-        "suffer-mcq-29": "「士氣受挫」與本句語境不同。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。",
-        "suffer-mcq-28": "「生產力下降」與本句語境不同。"
+        "suffer-mcq-31": "本句的「suffered after the dispute」指「關係受損」。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-31"
     },
@@ -3774,11 +3494,9 @@ export default {
       "masked": "Relationships ____ when trust disappears.",
       "options": [
         "suffer-mcq-31",
-        "suffer-mcq-30",
-        "suffer-mcq-32",
-        "suffer-mcq-29",
-        "suffer-mcq-33",
-        "suffer-mcq-28"
+        "suffer-mcq-52",
+        "suffer-pdf-003",
+        "suffer-mcq-47"
       ],
       "explanation": "本句的「suffer」指「關係受損」。",
       "sentenceIndex": 76,
@@ -3787,12 +3505,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-31": "本句指「關係受損」。",
-        "suffer-mcq-30": "「聲譽受損」與本句語境不同。",
-        "suffer-mcq-32": "「財務上受損」與本句語境不同。",
-        "suffer-mcq-29": "「士氣受挫」與本句語境不同。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。",
-        "suffer-mcq-28": "「生產力下降」與本句語境不同。"
+        "suffer-mcq-31": "本句的「suffer」指「關係受損」。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-31"
     },
@@ -3804,11 +3520,9 @@ export default {
       "masked": "Small businesses ____ during the downturn.",
       "options": [
         "suffer-mcq-32",
-        "suffer-mcq-31",
-        "suffer-mcq-33",
-        "suffer-mcq-30",
-        "suffer-mcq-34",
-        "suffer-mcq-29"
+        "suffer-mcq-27",
+        "suffer-mcq-26",
+        "suffer-pdf-002"
       ],
       "explanation": "本句的「suffered financially」指「財務上受損」。",
       "sentenceIndex": 77,
@@ -3817,12 +3531,10 @@ export default {
         "suffered financially"
       ],
       "optionReasons": {
-        "suffer-mcq-32": "本句指「財務上受損」。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。",
-        "suffer-mcq-30": "「聲譽受損」與本句語境不同。",
-        "suffer-mcq-34": "「承受後果」與本句語境不同。",
-        "suffer-mcq-29": "「士氣受挫」與本句語境不同。"
+        "suffer-mcq-32": "本句的「suffered financially」指「財務上受損」。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-32"
     },
@@ -3834,11 +3546,9 @@ export default {
       "masked": "Employees may ____ financially if working hours are cut.",
       "options": [
         "suffer-mcq-32",
-        "suffer-mcq-31",
-        "suffer-mcq-33",
-        "suffer-mcq-30",
-        "suffer-mcq-34",
-        "suffer-mcq-29"
+        "suffer-pdf-002",
+        "suffer-pdf-001",
+        "suffer-mcq-56"
       ],
       "explanation": "本句的「suffer」指「財務上受損」。",
       "sentenceIndex": 78,
@@ -3847,12 +3557,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-32": "本句指「財務上受損」。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。",
-        "suffer-mcq-30": "「聲譽受損」與本句語境不同。",
-        "suffer-mcq-34": "「承受後果」與本句語境不同。",
-        "suffer-mcq-29": "「士氣受挫」與本句語境不同。"
+        "suffer-mcq-32": "本句的「suffer」指「財務上受損」。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-32"
     },
@@ -3864,11 +3572,9 @@ export default {
       "masked": "Her career ____ after the dispute became public.",
       "options": [
         "suffer-mcq-32",
-        "suffer-mcq-31",
-        "suffer-mcq-33",
-        "suffer-mcq-30",
-        "suffer-mcq-34",
-        "suffer-mcq-29"
+        "suffer-pdf-003",
+        "suffer-mcq-36",
+        "suffer-mcq-56"
       ],
       "explanation": "本句的「suffered professionally」指「財務上受損」。",
       "sentenceIndex": 79,
@@ -3877,12 +3583,10 @@ export default {
         "suffered professionally"
       ],
       "optionReasons": {
-        "suffer-mcq-32": "本句指「財務上受損」。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。",
-        "suffer-mcq-30": "「聲譽受損」與本句語境不同。",
-        "suffer-mcq-34": "「承受後果」與本句語境不同。",
-        "suffer-mcq-29": "「士氣受挫」與本句語境不同。"
+        "suffer-mcq-32": "本句的「suffered professionally」指「財務上受損」。",
+        "suffer-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-32"
     },
@@ -3894,11 +3598,9 @@ export default {
       "masked": "People can ____ professionally when workplace trust collapses.",
       "options": [
         "suffer-mcq-32",
-        "suffer-mcq-31",
-        "suffer-mcq-33",
-        "suffer-mcq-30",
-        "suffer-mcq-34",
-        "suffer-mcq-29"
+        "suffer-mcq-28",
+        "suffer-mcq-50",
+        "suffer-mcq-41"
       ],
       "explanation": "本句的「suffer」指「財務上受損」。",
       "sentenceIndex": 80,
@@ -3907,12 +3609,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-32": "本句指「財務上受損」。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。",
-        "suffer-mcq-30": "「聲譽受損」與本句語境不同。",
-        "suffer-mcq-34": "「承受後果」與本句語境不同。",
-        "suffer-mcq-29": "「士氣受挫」與本句語境不同。"
+        "suffer-mcq-32": "本句的「suffer」指「財務上受損」。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-32"
     },
@@ -3924,11 +3624,9 @@ export default {
       "masked": "The failure affected the company, but he also ____.",
       "options": [
         "suffer-mcq-33",
-        "suffer-mcq-32",
-        "suffer-mcq-34",
-        "suffer-mcq-31",
-        "suffer-mcq-35",
-        "suffer-mcq-30"
+        "suffer-mcq-28",
+        "suffer-mcq-50",
+        "suffer-mcq-41"
       ],
       "explanation": "本句的「suffered personally」指「個人層面受影響」。",
       "sentenceIndex": 81,
@@ -3937,12 +3635,10 @@ export default {
         "suffered personally"
       ],
       "optionReasons": {
-        "suffer-mcq-33": "本句指「個人層面受影響」。",
-        "suffer-mcq-32": "「財務上受損」與本句語境不同。",
-        "suffer-mcq-34": "「承受後果」與本句語境不同。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。",
-        "suffer-mcq-35": "「因 X 而受苦／付代價」與本句語境不同。",
-        "suffer-mcq-30": "「聲譽受損」與本句語境不同。"
+        "suffer-mcq-33": "本句的「suffered personally」指「個人層面受影響」。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-33"
     },
@@ -3954,11 +3650,9 @@ export default {
       "masked": "Employees may ____ personally from prolonged workplace conflict.",
       "options": [
         "suffer-mcq-33",
-        "suffer-mcq-32",
-        "suffer-mcq-34",
-        "suffer-mcq-31",
-        "suffer-mcq-35",
-        "suffer-mcq-30"
+        "suffer-mcq-27",
+        "suffer-mcq-60",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「suffer」指「個人層面受影響」。",
       "sentenceIndex": 82,
@@ -3967,12 +3661,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-33": "本句指「個人層面受影響」。",
-        "suffer-mcq-32": "「財務上受損」與本句語境不同。",
-        "suffer-mcq-34": "「承受後果」與本句語境不同。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。",
-        "suffer-mcq-35": "「因 X 而受苦／付代價」與本句語境不同。",
-        "suffer-mcq-30": "「聲譽受損」與本句語境不同。"
+        "suffer-mcq-33": "本句的「suffer」指「個人層面受影響」。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-33"
     },
@@ -3984,11 +3676,9 @@ export default {
       "masked": "If the team ignores the warning, it will ____.",
       "options": [
         "suffer-mcq-34",
-        "suffer-mcq-33",
-        "suffer-mcq-35",
-        "suffer-mcq-32",
-        "suffer-mcq-36",
-        "suffer-mcq-31"
+        "suffer-mcq-51",
+        "suffer-mcq-22",
+        "suffer-mcq-41"
       ],
       "explanation": "本句的「suffer the consequences」指「承受後果」。",
       "sentenceIndex": 83,
@@ -3997,12 +3687,10 @@ export default {
         "suffer the consequences"
       ],
       "optionReasons": {
-        "suffer-mcq-34": "本句指「承受後果」。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。",
-        "suffer-mcq-35": "「因 X 而受苦／付代價」與本句語境不同。",
-        "suffer-mcq-32": "「財務上受損」與本句語境不同。",
-        "suffer-mcq-36": "「為錯誤付代價」與本句語境不同。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。"
+        "suffer-mcq-34": "本句的「suffer the consequences」指「承受後果」。",
+        "suffer-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-34"
     },
@@ -4014,11 +3702,9 @@ export default {
       "masked": "Poor decisions can cause innocent people to ____ the consequences.",
       "options": [
         "suffer-mcq-34",
-        "suffer-mcq-33",
-        "suffer-mcq-35",
-        "suffer-mcq-32",
-        "suffer-mcq-36",
-        "suffer-mcq-31"
+        "suffer-mcq-50",
+        "suffer-mcq-27",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「suffer」指「承受後果」。",
       "sentenceIndex": 84,
@@ -4027,12 +3713,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-34": "本句指「承受後果」。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。",
-        "suffer-mcq-35": "「因 X 而受苦／付代價」與本句語境不同。",
-        "suffer-mcq-32": "「財務上受損」與本句語境不同。",
-        "suffer-mcq-36": "「為錯誤付代價」與本句語境不同。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。"
+        "suffer-mcq-34": "本句的「suffer」指「承受後果」。",
+        "suffer-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-34"
     },
@@ -4044,11 +3728,9 @@ export default {
       "masked": "Employees should not ____ negative consequences for asking reasonable questions.",
       "options": [
         "suffer-mcq-34",
-        "suffer-mcq-33",
-        "suffer-mcq-35",
-        "suffer-mcq-32",
-        "suffer-mcq-36",
-        "suffer-mcq-31"
+        "suffer-pdf-003",
+        "suffer-mcq-55",
+        "suffer-mcq-52"
       ],
       "explanation": "本句的「suffer」指「承受後果」。",
       "sentenceIndex": 85,
@@ -4057,12 +3739,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-34": "本句指「承受後果」。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。",
-        "suffer-mcq-35": "「因 X 而受苦／付代價」與本句語境不同。",
-        "suffer-mcq-32": "「財務上受損」與本句語境不同。",
-        "suffer-mcq-36": "「為錯誤付代價」與本句語境不同。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。"
+        "suffer-mcq-34": "本句的「suffer」指「承受後果」。",
+        "suffer-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-34"
     },
@@ -4074,11 +3754,9 @@ export default {
       "masked": "The whole team ____ the consequences of poor planning.",
       "options": [
         "suffer-mcq-34",
-        "suffer-mcq-33",
-        "suffer-mcq-35",
-        "suffer-mcq-32",
-        "suffer-mcq-36",
-        "suffer-mcq-31"
+        "suffer-pdf-002",
+        "suffer-mcq-47",
+        "suffer-mcq-26"
       ],
       "explanation": "本句的「suffered」指「承受後果」。",
       "sentenceIndex": 86,
@@ -4087,12 +3765,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-34": "本句指「承受後果」。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。",
-        "suffer-mcq-35": "「因 X 而受苦／付代價」與本句語境不同。",
-        "suffer-mcq-32": "「財務上受損」與本句語境不同。",
-        "suffer-mcq-36": "「為錯誤付代價」與本句語境不同。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。"
+        "suffer-mcq-34": "本句的「suffered」指「承受後果」。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-34"
     },
@@ -4104,11 +3780,9 @@ export default {
       "masked": "The policy made junior staff ____ the consequences of senior mistakes.",
       "options": [
         "suffer-mcq-34",
-        "suffer-mcq-33",
-        "suffer-mcq-35",
-        "suffer-mcq-32",
-        "suffer-mcq-36",
-        "suffer-mcq-31"
+        "suffer-mcq-26",
+        "suffer-pdf-002",
+        "suffer-mcq-52"
       ],
       "explanation": "本句的「suffer」指「承受後果」。",
       "sentenceIndex": 87,
@@ -4117,12 +3791,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-34": "本句指「承受後果」。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。",
-        "suffer-mcq-35": "「因 X 而受苦／付代價」與本句語境不同。",
-        "suffer-mcq-32": "「財務上受損」與本句語境不同。",
-        "suffer-mcq-36": "「為錯誤付代價」與本句語境不同。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。"
+        "suffer-mcq-34": "本句的「suffer」指「承受後果」。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-34"
     },
@@ -4134,11 +3806,9 @@ export default {
       "masked": "One employee's negligence can make others ____ the consequences.",
       "options": [
         "suffer-mcq-34",
-        "suffer-mcq-33",
-        "suffer-mcq-35",
-        "suffer-mcq-32",
-        "suffer-mcq-36",
-        "suffer-mcq-31"
+        "suffer-mcq-53",
+        "suffer-reviewed-00c185d3d7",
+        "suffer-mcq-26"
       ],
       "explanation": "本句的「suffer」指「承受後果」。",
       "sentenceIndex": 88,
@@ -4147,12 +3817,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-34": "本句指「承受後果」。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。",
-        "suffer-mcq-35": "「因 X 而受苦／付代價」與本句語境不同。",
-        "suffer-mcq-32": "「財務上受損」與本句語境不同。",
-        "suffer-mcq-36": "「為錯誤付代價」與本句語境不同。",
-        "suffer-mcq-31": "「關係受損」與本句語境不同。"
+        "suffer-mcq-34": "本句的「suffer」指「承受後果」。",
+        "suffer-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-34"
     },
@@ -4164,11 +3832,9 @@ export default {
       "masked": "The whole team ____.",
       "options": [
         "suffer-mcq-35",
-        "suffer-mcq-34",
-        "suffer-mcq-36",
-        "suffer-mcq-33",
-        "suffer-mcq-37",
-        "suffer-mcq-32"
+        "suffer-mcq-27",
+        "suffer-mcq-60",
+        "suffer-mcq-55"
       ],
       "explanation": "本句的「suffered for one person's mistake」指「因 X 而受苦／付代價」。",
       "sentenceIndex": 89,
@@ -4177,12 +3843,10 @@ export default {
         "suffered for one person's mistake"
       ],
       "optionReasons": {
-        "suffer-mcq-35": "本句指「因 X 而受苦／付代價」。",
-        "suffer-mcq-34": "「承受後果」與本句語境不同。",
-        "suffer-mcq-36": "「為錯誤付代價」與本句語境不同。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。",
-        "suffer-mcq-37": "「因信念而受苦」與本句語境不同。",
-        "suffer-mcq-32": "「財務上受損」與本句語境不同。"
+        "suffer-mcq-35": "本句的「suffered for one person's mistake」指「因 X 而受苦／付代價」。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-35"
     },
@@ -4194,11 +3858,9 @@ export default {
       "masked": "Customers should not have to ____ for poor management decisions.",
       "options": [
         "suffer-mcq-35",
-        "suffer-mcq-34",
-        "suffer-mcq-36",
-        "suffer-mcq-33",
-        "suffer-mcq-37",
-        "suffer-mcq-32"
+        "suffer-mcq-22",
+        "suffer-mcq-56",
+        "suffer-mcq-55"
       ],
       "explanation": "本句的「suffer」指「因 X 而受苦／付代價」。",
       "sentenceIndex": 90,
@@ -4207,12 +3869,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-35": "本句指「因 X 而受苦／付代價」。",
-        "suffer-mcq-34": "「承受後果」與本句語境不同。",
-        "suffer-mcq-36": "「為錯誤付代價」與本句語境不同。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。",
-        "suffer-mcq-37": "「因信念而受苦」與本句語境不同。",
-        "suffer-mcq-32": "「財務上受損」與本句語境不同。"
+        "suffer-mcq-35": "本句的「suffer」指「因 X 而受苦／付代價」。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-35"
     },
@@ -4224,11 +3884,9 @@ export default {
       "masked": "He had to ____.",
       "options": [
         "suffer-mcq-36",
-        "suffer-mcq-35",
-        "suffer-mcq-37",
-        "suffer-mcq-34",
-        "suffer-mcq-38",
-        "suffer-mcq-33"
+        "suffer-mcq-33",
+        "suffer-mcq-16",
+        "suffer-mcq-25"
       ],
       "explanation": "本句的「suffer for his mistakes」指「為錯誤付代價」。",
       "sentenceIndex": 91,
@@ -4237,12 +3895,10 @@ export default {
         "suffer for his mistakes"
       ],
       "optionReasons": {
-        "suffer-mcq-36": "本句指「為錯誤付代價」。",
-        "suffer-mcq-35": "「因 X 而受苦／付代價」與本句語境不同。",
-        "suffer-mcq-37": "「因信念而受苦」與本句語境不同。",
-        "suffer-mcq-34": "「承受後果」與本句語境不同。",
-        "suffer-mcq-38": "「因 X 而受影響」與本句語境不同。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。"
+        "suffer-mcq-36": "本句的「suffer for his mistakes」指「為錯誤付代價」。",
+        "suffer-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-36"
     },
@@ -4254,11 +3910,9 @@ export default {
       "masked": "Teams should learn from mistakes rather than make one person ____ indefinitely for them.",
       "options": [
         "suffer-mcq-36",
-        "suffer-mcq-35",
-        "suffer-mcq-37",
-        "suffer-mcq-34",
-        "suffer-mcq-38",
-        "suffer-mcq-33"
+        "suffer-mcq-25",
+        "suffer-mcq-26",
+        "suffer-mcq-07"
       ],
       "explanation": "本句的「suffer」指「為錯誤付代價」。",
       "sentenceIndex": 92,
@@ -4267,12 +3921,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-36": "本句指「為錯誤付代價」。",
-        "suffer-mcq-35": "「因 X 而受苦／付代價」與本句語境不同。",
-        "suffer-mcq-37": "「因信念而受苦」與本句語境不同。",
-        "suffer-mcq-34": "「承受後果」與本句語境不同。",
-        "suffer-mcq-38": "「因 X 而受影響」與本句語境不同。",
-        "suffer-mcq-33": "「個人層面受影響」與本句語境不同。"
+        "suffer-mcq-36": "本句的「suffer」指「為錯誤付代價」。",
+        "suffer-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-36"
     },
@@ -4284,11 +3936,9 @@ export default {
       "masked": "Some people have ____.",
       "options": [
         "suffer-mcq-37",
-        "suffer-mcq-36",
-        "suffer-mcq-38",
-        "suffer-mcq-35",
-        "suffer-mcq-39",
-        "suffer-mcq-34"
+        "suffer-mcq-27",
+        "suffer-mcq-41",
+        "suffer-mcq-36"
       ],
       "explanation": "本句的「suffered for their beliefs」指「因信念而受苦」。",
       "sentenceIndex": 93,
@@ -4297,12 +3947,10 @@ export default {
         "suffered for their beliefs"
       ],
       "optionReasons": {
-        "suffer-mcq-37": "本句指「因信念而受苦」。",
-        "suffer-mcq-36": "「為錯誤付代價」與本句語境不同。",
-        "suffer-mcq-38": "「因 X 而受影響」與本句語境不同。",
-        "suffer-mcq-35": "「因 X 而受苦／付代價」與本句語境不同。",
-        "suffer-mcq-39": "「因 X 的結果而受損」與本句語境不同。",
-        "suffer-mcq-34": "「承受後果」與本句語境不同。"
+        "suffer-mcq-37": "本句的「suffered for their beliefs」指「因信念而受苦」。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-37"
     },
@@ -4314,11 +3962,9 @@ export default {
       "masked": "He was willing to ____ for what he believed was right.",
       "options": [
         "suffer-mcq-37",
-        "suffer-mcq-36",
-        "suffer-mcq-38",
-        "suffer-mcq-35",
-        "suffer-mcq-39",
-        "suffer-mcq-34"
+        "suffer-mcq-60",
+        "suffer-mcq-55",
+        "suffer-mcq-22"
       ],
       "explanation": "本句的「suffer」指「因信念而受苦」。",
       "sentenceIndex": 94,
@@ -4327,12 +3973,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-37": "本句指「因信念而受苦」。",
-        "suffer-mcq-36": "「為錯誤付代價」與本句語境不同。",
-        "suffer-mcq-38": "「因 X 而受影響」與本句語境不同。",
-        "suffer-mcq-35": "「因 X 而受苦／付代價」與本句語境不同。",
-        "suffer-mcq-39": "「因 X 的結果而受損」與本句語境不同。",
-        "suffer-mcq-34": "「承受後果」與本句語境不同。"
+        "suffer-mcq-37": "本句的「suffer」指「因信念而受苦」。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-37"
     },
@@ -4344,11 +3988,9 @@ export default {
       "masked": "The project ____ because of unclear leadership.",
       "options": [
         "suffer-mcq-38",
-        "suffer-mcq-37",
-        "suffer-mcq-39",
-        "suffer-mcq-36",
-        "suffer-mcq-40",
-        "suffer-mcq-35"
+        "suffer-mcq-50",
+        "suffer-mcq-41",
+        "suffer-mcq-36"
       ],
       "explanation": "本句的「suffered」指「因 X 而受影響」。",
       "sentenceIndex": 95,
@@ -4357,12 +3999,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-38": "本句指「因 X 而受影響」。",
-        "suffer-mcq-37": "「因信念而受苦」與本句語境不同。",
-        "suffer-mcq-39": "「因 X 的結果而受損」與本句語境不同。",
-        "suffer-mcq-36": "「為錯誤付代價」與本句語境不同。",
-        "suffer-mcq-40": "「在 X 之下受苦」與本句語境不同。",
-        "suffer-mcq-35": "「因 X 而受苦／付代價」與本句語境不同。"
+        "suffer-mcq-38": "本句的「suffered」指「因 X 而受影響」。",
+        "suffer-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-38"
     },
@@ -4374,11 +4014,9 @@ export default {
       "masked": "Customers ____ because of the delay.",
       "options": [
         "suffer-mcq-38",
-        "suffer-mcq-37",
-        "suffer-mcq-39",
-        "suffer-mcq-36",
-        "suffer-mcq-40",
-        "suffer-mcq-35"
+        "suffer-mcq-52",
+        "suffer-mcq-51",
+        "suffer-mcq-27"
       ],
       "explanation": "本句的「suffered」指「因 X 而受影響」。",
       "sentenceIndex": 96,
@@ -4387,12 +4025,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-38": "本句指「因 X 而受影響」。",
-        "suffer-mcq-37": "「因信念而受苦」與本句語境不同。",
-        "suffer-mcq-39": "「因 X 的結果而受損」與本句語境不同。",
-        "suffer-mcq-36": "「為錯誤付代價」與本句語境不同。",
-        "suffer-mcq-40": "「在 X 之下受苦」與本句語境不同。",
-        "suffer-mcq-35": "「因 X 而受苦／付代價」與本句語境不同。"
+        "suffer-mcq-38": "本句的「suffered」指「因 X 而受影響」。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-38"
     },
@@ -4404,11 +4040,9 @@ export default {
       "masked": "Morale suffered ____.",
       "options": [
         "suffer-mcq-39",
-        "suffer-mcq-38",
-        "suffer-mcq-40",
-        "suffer-mcq-37",
-        "suffer-mcq-41",
-        "suffer-mcq-36"
+        "suffer-mcq-52",
+        "suffer-pdf-002",
+        "suffer-mcq-41"
       ],
       "explanation": "本句的「as a result of repeated conflict」指「因 X 的結果而受損」。",
       "sentenceIndex": 97,
@@ -4417,12 +4051,10 @@ export default {
         "as a result of repeated conflict"
       ],
       "optionReasons": {
-        "suffer-mcq-39": "本句指「因 X 的結果而受損」。",
-        "suffer-mcq-38": "「因 X 而受影響」與本句語境不同。",
-        "suffer-mcq-40": "「在 X 之下受苦」與本句語境不同。",
-        "suffer-mcq-37": "「因信念而受苦」與本句語境不同。",
-        "suffer-mcq-41": "「遭 X 傷害／欺壓」與本句語境不同。",
-        "suffer-mcq-36": "「為錯誤付代價」與本句語境不同。"
+        "suffer-mcq-39": "本句的「as a result of repeated conflict」指「因 X 的結果而受損」。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-39"
     },
@@ -4434,11 +4066,9 @@ export default {
       "masked": "Several businesses ____ as a result of the closure.",
       "options": [
         "suffer-mcq-39",
-        "suffer-mcq-38",
-        "suffer-mcq-40",
-        "suffer-mcq-37",
-        "suffer-mcq-41",
-        "suffer-mcq-36"
+        "suffer-mcq-52",
+        "suffer-mcq-53",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「suffered」指「因 X 的結果而受損」。",
       "sentenceIndex": 98,
@@ -4447,12 +4077,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-39": "本句指「因 X 的結果而受損」。",
-        "suffer-mcq-38": "「因 X 而受影響」與本句語境不同。",
-        "suffer-mcq-40": "「在 X 之下受苦」與本句語境不同。",
-        "suffer-mcq-37": "「因信念而受苦」與本句語境不同。",
-        "suffer-mcq-41": "「遭 X 傷害／欺壓」與本句語境不同。",
-        "suffer-mcq-36": "「為錯誤付代價」與本句語境不同。"
+        "suffer-mcq-39": "本句的「suffered」指「因 X 的結果而受損」。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-39"
     },
@@ -4464,11 +4092,9 @@ export default {
       "masked": "Workers ____.",
       "options": [
         "suffer-mcq-40",
-        "suffer-mcq-39",
-        "suffer-mcq-41",
-        "suffer-mcq-38",
-        "suffer-mcq-42",
-        "suffer-mcq-37"
+        "suffer-mcq-22",
+        "suffer-mcq-55",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「suffered under poor leadership」指「在 X 之下受苦」。",
       "sentenceIndex": 99,
@@ -4477,12 +4103,10 @@ export default {
         "suffered under poor leadership"
       ],
       "optionReasons": {
-        "suffer-mcq-40": "本句指「在 X 之下受苦」。",
-        "suffer-mcq-39": "「因 X 的結果而受損」與本句語境不同。",
-        "suffer-mcq-41": "「遭 X 傷害／欺壓」與本句語境不同。",
-        "suffer-mcq-38": "「因 X 而受影響」與本句語境不同。",
-        "suffer-mcq-42": "「遭受虐待／辱罵」與本句語境不同。",
-        "suffer-mcq-37": "「因信念而受苦」與本句語境不同。"
+        "suffer-mcq-40": "本句的「suffered under poor leadership」指「在 X 之下受苦」。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-40"
     },
@@ -4494,11 +4118,9 @@ export default {
       "masked": "The population ____ under harsh conditions.",
       "options": [
         "suffer-mcq-40",
-        "suffer-mcq-39",
-        "suffer-mcq-41",
-        "suffer-mcq-38",
-        "suffer-mcq-42",
-        "suffer-mcq-37"
+        "suffer-mcq-55",
+        "suffer-mcq-26",
+        "suffer-mcq-36"
       ],
       "explanation": "本句的「suffered」指「在 X 之下受苦」。",
       "sentenceIndex": 100,
@@ -4507,12 +4129,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-40": "本句指「在 X 之下受苦」。",
-        "suffer-mcq-39": "「因 X 的結果而受損」與本句語境不同。",
-        "suffer-mcq-41": "「遭 X 傷害／欺壓」與本句語境不同。",
-        "suffer-mcq-38": "「因 X 而受影響」與本句語境不同。",
-        "suffer-mcq-42": "「遭受虐待／辱罵」與本句語境不同。",
-        "suffer-mcq-37": "「因信念而受苦」與本句語境不同。"
+        "suffer-mcq-40": "本句的「suffered」指「在 X 之下受苦」。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-40"
     },
@@ -4524,11 +4144,9 @@ export default {
       "masked": "Communities may ____.",
       "options": [
         "suffer-mcq-40",
-        "suffer-mcq-39",
-        "suffer-mcq-41",
-        "suffer-mcq-38",
-        "suffer-mcq-42",
-        "suffer-mcq-37"
+        "suffer-mcq-36",
+        "suffer-mcq-28",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「suffer under oppressive systems」指「在 X 之下受苦」。",
       "sentenceIndex": 101,
@@ -4537,12 +4155,10 @@ export default {
         "suffer under oppressive systems"
       ],
       "optionReasons": {
-        "suffer-mcq-40": "本句指「在 X 之下受苦」。",
-        "suffer-mcq-39": "「因 X 的結果而受損」與本句語境不同。",
-        "suffer-mcq-41": "「遭 X 傷害／欺壓」與本句語境不同。",
-        "suffer-mcq-38": "「因 X 而受影響」與本句語境不同。",
-        "suffer-mcq-42": "「遭受虐待／辱罵」與本句語境不同。",
-        "suffer-mcq-37": "「因信念而受苦」與本句語境不同。"
+        "suffer-mcq-40": "本句的「suffer under oppressive systems」指「在 X 之下受苦」。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-40"
     },
@@ -4554,11 +4170,9 @@ export default {
       "masked": "Generations ____ under discriminatory rules.",
       "options": [
         "suffer-mcq-40",
-        "suffer-mcq-39",
-        "suffer-mcq-41",
-        "suffer-mcq-38",
-        "suffer-mcq-42",
-        "suffer-mcq-37"
+        "suffer-pdf-001",
+        "suffer-mcq-60",
+        "suffer-mcq-41"
       ],
       "explanation": "本句的「suffered」指「在 X 之下受苦」。",
       "sentenceIndex": 102,
@@ -4567,12 +4181,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-40": "本句指「在 X 之下受苦」。",
-        "suffer-mcq-39": "「因 X 的結果而受損」與本句語境不同。",
-        "suffer-mcq-41": "「遭 X 傷害／欺壓」與本句語境不同。",
-        "suffer-mcq-38": "「因 X 而受影響」與本句語境不同。",
-        "suffer-mcq-42": "「遭受虐待／辱罵」與本句語境不同。",
-        "suffer-mcq-37": "「因信念而受苦」與本句語境不同。"
+        "suffer-mcq-40": "本句的「suffered」指「在 X 之下受苦」。",
+        "suffer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-40"
     },
@@ -4584,11 +4196,9 @@ export default {
       "masked": "Employees ____.",
       "options": [
         "suffer-mcq-40",
-        "suffer-mcq-39",
         "suffer-mcq-41",
-        "suffer-mcq-38",
-        "suffer-mcq-42",
-        "suffer-mcq-37"
+        "suffer-mcq-36",
+        "suffer-mcq-56"
       ],
       "explanation": "本句的「suffered under an excessive workload」指「在 X 之下受苦」。",
       "sentenceIndex": 103,
@@ -4597,12 +4207,10 @@ export default {
         "suffered under an excessive workload"
       ],
       "optionReasons": {
-        "suffer-mcq-40": "本句指「在 X 之下受苦」。",
-        "suffer-mcq-39": "「因 X 的結果而受損」與本句語境不同。",
-        "suffer-mcq-41": "「遭 X 傷害／欺壓」與本句語境不同。",
-        "suffer-mcq-38": "「因 X 而受影響」與本句語境不同。",
-        "suffer-mcq-42": "「遭受虐待／辱罵」與本句語境不同。",
-        "suffer-mcq-37": "「因信念而受苦」與本句語境不同。"
+        "suffer-mcq-40": "本句的「suffered under an excessive workload」指「在 X 之下受苦」。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-40"
     },
@@ -4614,11 +4222,9 @@ export default {
       "masked": "Performance may decline when workers ____ under constant pressure.",
       "options": [
         "suffer-mcq-40",
-        "suffer-mcq-39",
-        "suffer-mcq-41",
-        "suffer-mcq-38",
-        "suffer-mcq-42",
-        "suffer-mcq-37"
+        "suffer-mcq-36",
+        "suffer-mcq-27",
+        "suffer-mcq-56"
       ],
       "explanation": "本句的「suffer」指「在 X 之下受苦」。",
       "sentenceIndex": 104,
@@ -4627,12 +4233,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-40": "本句指「在 X 之下受苦」。",
-        "suffer-mcq-39": "「因 X 的結果而受損」與本句語境不同。",
-        "suffer-mcq-41": "「遭 X 傷害／欺壓」與本句語境不同。",
-        "suffer-mcq-38": "「因 X 而受影響」與本句語境不同。",
-        "suffer-mcq-42": "「遭受虐待／辱罵」與本句語境不同。",
-        "suffer-mcq-37": "「因信念而受苦」與本句語境不同。"
+        "suffer-mcq-40": "本句的「suffer」指「在 X 之下受苦」。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-40"
     },
@@ -4644,11 +4248,9 @@ export default {
       "masked": "Employees ____.",
       "options": [
         "suffer-mcq-41",
-        "suffer-mcq-40",
-        "suffer-mcq-42",
-        "suffer-mcq-39",
-        "suffer-mcq-43",
-        "suffer-mcq-38"
+        "suffer-mcq-31",
+        "suffer-mcq-36",
+        "suffer-pdf-001"
       ],
       "explanation": "本句的「suffered at the hands of an abusive manager」指「遭 X 傷害／欺壓」。",
       "sentenceIndex": 105,
@@ -4657,12 +4259,10 @@ export default {
         "suffered at the hands of an abusive manager"
       ],
       "optionReasons": {
-        "suffer-mcq-41": "本句指「遭 X 傷害／欺壓」。",
-        "suffer-mcq-40": "「在 X 之下受苦」與本句語境不同。",
-        "suffer-mcq-42": "「遭受虐待／辱罵」與本句語境不同。",
-        "suffer-mcq-39": "「因 X 的結果而受損」與本句語境不同。",
-        "suffer-mcq-43": "「遭受歧視」與本句語境不同。",
-        "suffer-mcq-38": "「因 X 而受影響」與本句語境不同。"
+        "suffer-mcq-41": "本句的「suffered at the hands of an abusive manager」指「遭 X 傷害／欺壓」。",
+        "suffer-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-41"
     },
@@ -4674,11 +4274,9 @@ export default {
       "masked": "The community had ____ greatly at the hands of those in power.",
       "options": [
         "suffer-mcq-41",
-        "suffer-mcq-40",
-        "suffer-mcq-42",
-        "suffer-mcq-39",
-        "suffer-mcq-43",
-        "suffer-mcq-38"
+        "suffer-mcq-29",
+        "suffer-mcq-52",
+        "suffer-mcq-09"
       ],
       "explanation": "本句的「suffered」指「遭 X 傷害／欺壓」。",
       "sentenceIndex": 106,
@@ -4687,12 +4285,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-41": "本句指「遭 X 傷害／欺壓」。",
-        "suffer-mcq-40": "「在 X 之下受苦」與本句語境不同。",
-        "suffer-mcq-42": "「遭受虐待／辱罵」與本句語境不同。",
-        "suffer-mcq-39": "「因 X 的結果而受損」與本句語境不同。",
-        "suffer-mcq-43": "「遭受歧視」與本句語境不同。",
-        "suffer-mcq-38": "「因 X 而受影響」與本句語境不同。"
+        "suffer-mcq-41": "本句的「suffered」指「遭 X 傷害／欺壓」。",
+        "suffer-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-41"
     },
@@ -4704,11 +4300,9 @@ export default {
       "masked": "Staff should not have to ____.",
       "options": [
         "suffer-mcq-42",
-        "suffer-mcq-41",
-        "suffer-mcq-43",
-        "suffer-mcq-40",
-        "suffer-mcq-44",
-        "suffer-mcq-39"
+        "suffer-mcq-36",
+        "suffer-mcq-26",
+        "suffer-pdf-002"
       ],
       "explanation": "本句的「suffer abuse from customers」指「遭受虐待／辱罵」。",
       "sentenceIndex": 107,
@@ -4717,12 +4311,10 @@ export default {
         "suffer abuse from customers"
       ],
       "optionReasons": {
-        "suffer-mcq-42": "本句指「遭受虐待／辱罵」。",
-        "suffer-mcq-41": "「遭 X 傷害／欺壓」與本句語境不同。",
-        "suffer-mcq-43": "「遭受歧視」與本句語境不同。",
-        "suffer-mcq-40": "「在 X 之下受苦」與本句語境不同。",
-        "suffer-mcq-44": "「遭受困苦」與本句語境不同。",
-        "suffer-mcq-39": "「因 X 的結果而受損」與本句語境不同。"
+        "suffer-mcq-42": "本句的「suffer abuse from customers」指「遭受虐待／辱罵」。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-42"
     },
@@ -4734,11 +4326,9 @@ export default {
       "masked": "He ____ repeated verbal abuse.",
       "options": [
         "suffer-mcq-42",
-        "suffer-mcq-41",
-        "suffer-mcq-43",
-        "suffer-mcq-40",
-        "suffer-mcq-44",
-        "suffer-mcq-39"
+        "suffer-mcq-55",
+        "suffer-mcq-22",
+        "suffer-mcq-51"
       ],
       "explanation": "本句的「suffered」指「遭受虐待／辱罵」。",
       "sentenceIndex": 108,
@@ -4747,12 +4337,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-42": "本句指「遭受虐待／辱罵」。",
-        "suffer-mcq-41": "「遭 X 傷害／欺壓」與本句語境不同。",
-        "suffer-mcq-43": "「遭受歧視」與本句語境不同。",
-        "suffer-mcq-40": "「在 X 之下受苦」與本句語境不同。",
-        "suffer-mcq-44": "「遭受困苦」與本句語境不同。",
-        "suffer-mcq-39": "「因 X 的結果而受損」與本句語境不同。"
+        "suffer-mcq-42": "本句的「suffered」指「遭受虐待／辱罵」。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-42"
     },
@@ -4764,11 +4352,9 @@ export default {
       "masked": "Workers may ____ because of unfair practices.",
       "options": [
         "suffer-mcq-43",
-        "suffer-mcq-42",
-        "suffer-mcq-44",
-        "suffer-mcq-41",
-        "suffer-mcq-45",
-        "suffer-mcq-40"
+        "suffer-mcq-50",
+        "suffer-mcq-60",
+        "suffer-mcq-22"
       ],
       "explanation": "本句的「suffer discrimination」指「遭受歧視」。",
       "sentenceIndex": 109,
@@ -4777,12 +4363,10 @@ export default {
         "suffer discrimination"
       ],
       "optionReasons": {
-        "suffer-mcq-43": "本句指「遭受歧視」。",
-        "suffer-mcq-42": "「遭受虐待／辱罵」與本句語境不同。",
-        "suffer-mcq-44": "「遭受困苦」與本句語境不同。",
-        "suffer-mcq-41": "「遭 X 傷害／欺壓」與本句語境不同。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。",
-        "suffer-mcq-40": "「在 X 之下受苦」與本句語境不同。"
+        "suffer-mcq-43": "本句的「suffer discrimination」指「遭受歧視」。",
+        "suffer-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-43"
     },
@@ -4794,11 +4378,9 @@ export default {
       "masked": "Nobody should ____ discrimination at work.",
       "options": [
         "suffer-mcq-43",
-        "suffer-mcq-42",
-        "suffer-mcq-44",
-        "suffer-mcq-41",
-        "suffer-mcq-45",
-        "suffer-mcq-40"
+        "suffer-pdf-002",
+        "suffer-mcq-36",
+        "suffer-mcq-55"
       ],
       "explanation": "本句的「suffer」指「遭受歧視」。",
       "sentenceIndex": 110,
@@ -4807,12 +4389,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-43": "本句指「遭受歧視」。",
-        "suffer-mcq-42": "「遭受虐待／辱罵」與本句語境不同。",
-        "suffer-mcq-44": "「遭受困苦」與本句語境不同。",
-        "suffer-mcq-41": "「遭 X 傷害／欺壓」與本句語境不同。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。",
-        "suffer-mcq-40": "「在 X 之下受苦」與本句語境不同。"
+        "suffer-mcq-43": "本句的「suffer」指「遭受歧視」。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-43"
     },
@@ -4824,11 +4404,9 @@ export default {
       "masked": "Many families ____ during the recession.",
       "options": [
         "suffer-mcq-44",
-        "suffer-mcq-43",
-        "suffer-mcq-45",
-        "suffer-mcq-42",
-        "suffer-mcq-46",
-        "suffer-mcq-41"
+        "suffer-mcq-36",
+        "suffer-mcq-28",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「suffered hardship」指「遭受困苦」。",
       "sentenceIndex": 111,
@@ -4837,12 +4415,10 @@ export default {
         "suffered hardship"
       ],
       "optionReasons": {
-        "suffer-mcq-44": "本句指「遭受困苦」。",
-        "suffer-mcq-43": "「遭受歧視」與本句語境不同。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。",
-        "suffer-mcq-42": "「遭受虐待／辱罵」與本句語境不同。",
-        "suffer-mcq-46": "「默默忍受」與本句語境不同。",
-        "suffer-mcq-41": "「遭 X 傷害／欺壓」與本句語境不同。"
+        "suffer-mcq-44": "本句的「suffered hardship」指「遭受困苦」。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-44"
     },
@@ -4854,11 +4430,9 @@ export default {
       "masked": "The policy was designed to support people ____ hardship.",
       "options": [
         "suffer-mcq-44",
-        "suffer-mcq-43",
-        "suffer-mcq-45",
-        "suffer-mcq-42",
-        "suffer-mcq-46",
-        "suffer-mcq-41"
+        "suffer-mcq-56",
+        "suffer-mcq-36",
+        "suffer-mcq-27"
       ],
       "explanation": "本句的「suffering」指「遭受困苦」。",
       "sentenceIndex": 112,
@@ -4867,12 +4441,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-44": "本句指「遭受困苦」。",
-        "suffer-mcq-43": "「遭受歧視」與本句語境不同。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。",
-        "suffer-mcq-42": "「遭受虐待／辱罵」與本句語境不同。",
-        "suffer-mcq-46": "「默默忍受」與本句語境不同。",
-        "suffer-mcq-41": "「遭 X 傷害／欺壓」與本句語境不同。"
+        "suffer-mcq-44": "本句的「suffering」指「遭受困苦」。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-44"
     },
@@ -4884,11 +4456,9 @@ export default {
       "masked": "Children should not have to ____.",
       "options": [
         "suffer-mcq-45",
-        "suffer-mcq-44",
-        "suffer-mcq-46",
-        "suffer-mcq-43",
-        "suffer-mcq-47",
-        "suffer-mcq-42"
+        "suffer-mcq-53",
+        "suffer-mcq-56",
+        "suffer-mcq-55"
       ],
       "explanation": "本句的「suffer severe deprivation」指「遭受匱乏」。",
       "sentenceIndex": 113,
@@ -4897,12 +4467,10 @@ export default {
         "suffer severe deprivation"
       ],
       "optionReasons": {
-        "suffer-mcq-45": "本句指「遭受匱乏」。",
-        "suffer-mcq-44": "「遭受困苦」與本句語境不同。",
-        "suffer-mcq-46": "「默默忍受」與本句語境不同。",
-        "suffer-mcq-43": "「遭受歧視」與本句語境不同。",
-        "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。",
-        "suffer-mcq-42": "「遭受虐待／辱罵」與本句語境不同。"
+        "suffer-mcq-45": "本句的「suffer severe deprivation」指「遭受匱乏」。",
+        "suffer-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-45"
     },
@@ -4914,11 +4482,9 @@ export default {
       "masked": "The region ____ years of deprivation.",
       "options": [
         "suffer-mcq-45",
-        "suffer-mcq-44",
-        "suffer-mcq-46",
-        "suffer-mcq-43",
-        "suffer-mcq-47",
-        "suffer-mcq-42"
+        "suffer-mcq-36",
+        "suffer-mcq-27",
+        "suffer-mcq-55"
       ],
       "explanation": "本句的「suffered」指「遭受匱乏」。",
       "sentenceIndex": 114,
@@ -4927,12 +4493,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-45": "本句指「遭受匱乏」。",
-        "suffer-mcq-44": "「遭受困苦」與本句語境不同。",
-        "suffer-mcq-46": "「默默忍受」與本句語境不同。",
-        "suffer-mcq-43": "「遭受歧視」與本句語境不同。",
-        "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。",
-        "suffer-mcq-42": "「遭受虐待／辱罵」與本句語境不同。"
+        "suffer-mcq-45": "本句的「suffered」指「遭受匱乏」。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-45"
     },
@@ -4944,11 +4508,9 @@ export default {
       "masked": "Employees should not be expected to ____.",
       "options": [
         "suffer-mcq-46",
-        "suffer-mcq-45",
-        "suffer-mcq-47",
-        "suffer-mcq-44",
-        "suffer-mcq-48",
-        "suffer-mcq-43"
+        "suffer-mcq-53",
+        "suffer-mcq-26",
+        "suffer-mcq-47"
       ],
       "explanation": "本句的「suffer in silence」指「默默忍受」。",
       "sentenceIndex": 115,
@@ -4957,12 +4519,10 @@ export default {
         "suffer in silence"
       ],
       "optionReasons": {
-        "suffer-mcq-46": "本句指「默默忍受」。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。",
-        "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。",
-        "suffer-mcq-44": "「遭受困苦」與本句語境不同。",
-        "suffer-mcq-48": "「令某人受苦」與本句語境不同。",
-        "suffer-mcq-43": "「遭受歧視」與本句語境不同。"
+        "suffer-mcq-46": "本句的「suffer in silence」指「默默忍受」。",
+        "suffer-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-46"
     },
@@ -4974,11 +4534,9 @@ export default {
       "masked": "She ____ in silence rather than ask for help.",
       "options": [
         "suffer-mcq-46",
-        "suffer-mcq-45",
-        "suffer-mcq-47",
-        "suffer-mcq-44",
-        "suffer-mcq-48",
-        "suffer-mcq-43"
+        "suffer-mcq-28",
+        "suffer-mcq-36",
+        "suffer-pdf-002"
       ],
       "explanation": "本句的「suffered」指「默默忍受」。",
       "sentenceIndex": 116,
@@ -4987,12 +4545,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-46": "本句指「默默忍受」。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。",
-        "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。",
-        "suffer-mcq-44": "「遭受困苦」與本句語境不同。",
-        "suffer-mcq-48": "「令某人受苦」與本句語境不同。",
-        "suffer-mcq-43": "「遭受歧視」與本句語境不同。"
+        "suffer-mcq-46": "本句的「suffered」指「默默忍受」。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-46"
     },
@@ -5004,11 +4560,9 @@ export default {
       "masked": "Nobody should have to ____.",
       "options": [
         "suffer-mcq-46",
-        "suffer-mcq-45",
-        "suffer-mcq-47",
-        "suffer-mcq-44",
-        "suffer-mcq-48",
-        "suffer-mcq-43"
+        "suffer-mcq-27",
+        "suffer-pdf-003",
+        "suffer-mcq-55"
       ],
       "explanation": "本句的「suffer alone」指「默默忍受」。",
       "sentenceIndex": 117,
@@ -5017,12 +4571,10 @@ export default {
         "suffer alone"
       ],
       "optionReasons": {
-        "suffer-mcq-46": "本句指「默默忍受」。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。",
-        "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。",
-        "suffer-mcq-44": "「遭受困苦」與本句語境不同。",
-        "suffer-mcq-48": "「令某人受苦」與本句語境不同。",
-        "suffer-mcq-43": "「遭受歧視」與本句語境不同。"
+        "suffer-mcq-46": "本句的「suffer alone」指「默默忍受」。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-46"
     },
@@ -5034,11 +4586,9 @@ export default {
       "masked": "Support systems can prevent people from ____ alone.",
       "options": [
         "suffer-mcq-46",
-        "suffer-mcq-45",
+        "suffer-mcq-52",
         "suffer-mcq-47",
-        "suffer-mcq-44",
-        "suffer-mcq-48",
-        "suffer-mcq-43"
+        "suffer-mcq-36"
       ],
       "explanation": "本句的「suffering」指「默默忍受」。",
       "sentenceIndex": 118,
@@ -5047,12 +4597,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-46": "本句指「默默忍受」。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。",
-        "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。",
-        "suffer-mcq-44": "「遭受困苦」與本句語境不同。",
-        "suffer-mcq-48": "「令某人受苦」與本句語境不同。",
-        "suffer-mcq-43": "「遭受歧視」與本句語境不同。"
+        "suffer-mcq-46": "本句的「suffering」指「默默忍受」。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-46"
     },
@@ -5064,11 +4612,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "suffer-mcq-47",
-        "suffer-mcq-46",
-        "suffer-mcq-48",
-        "suffer-mcq-45",
-        "suffer-mcq-49",
-        "suffer-mcq-44"
+        "suffer-mcq-32",
+        "suffer-mcq-38",
+        "suffer-mcq-43"
       ],
       "explanation": "本句的「suffered through a three-hour meeting」指「苦撐捱過 X」。",
       "sentenceIndex": 119,
@@ -5077,12 +4623,10 @@ export default {
         "suffered through a three-hour meeting"
       ],
       "optionReasons": {
-        "suffer-mcq-47": "本句指「苦撐捱過 X」。",
-        "suffer-mcq-46": "「默默忍受」與本句語境不同。",
-        "suffer-mcq-48": "「令某人受苦」與本句語境不同。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。",
-        "suffer-mcq-49": "「痛苦；苦難」與本句語境不同。",
-        "suffer-mcq-44": "「遭受困苦」與本句語境不同。"
+        "suffer-mcq-47": "本句的「suffered through a three-hour meeting」指「苦撐捱過 X」。",
+        "suffer-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-47"
     },
@@ -5094,11 +4638,9 @@ export default {
       "masked": "She ____ through months of uncertainty.",
       "options": [
         "suffer-mcq-47",
-        "suffer-mcq-46",
-        "suffer-mcq-48",
-        "suffer-mcq-45",
-        "suffer-mcq-49",
-        "suffer-mcq-44"
+        "suffer-mcq-22",
+        "suffer-mcq-43",
+        "suffer-mcq-57"
       ],
       "explanation": "本句的「suffered」指「苦撐捱過 X」。",
       "sentenceIndex": 120,
@@ -5107,12 +4649,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-47": "本句指「苦撐捱過 X」。",
-        "suffer-mcq-46": "「默默忍受」與本句語境不同。",
-        "suffer-mcq-48": "「令某人受苦」與本句語境不同。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。",
-        "suffer-mcq-49": "「痛苦；苦難」與本句語境不同。",
-        "suffer-mcq-44": "「遭受困苦」與本句語境不同。"
+        "suffer-mcq-47": "本句的「suffered」指「苦撐捱過 X」。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-47"
     },
@@ -5124,11 +4664,9 @@ export default {
       "masked": "The audience ____ through an extremely long speech.",
       "options": [
         "suffer-mcq-47",
-        "suffer-mcq-46",
-        "suffer-mcq-48",
-        "suffer-mcq-45",
-        "suffer-mcq-49",
-        "suffer-mcq-44"
+        "suffer-pdf-004",
+        "suffer-mcq-39",
+        "suffer-mcq-27"
       ],
       "explanation": "本句的「suffered」指「苦撐捱過 X」。",
       "sentenceIndex": 121,
@@ -5137,12 +4675,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-47": "本句指「苦撐捱過 X」。",
-        "suffer-mcq-46": "「默默忍受」與本句語境不同。",
-        "suffer-mcq-48": "「令某人受苦」與本句語境不同。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。",
-        "suffer-mcq-49": "「痛苦；苦難」與本句語境不同。",
-        "suffer-mcq-44": "「遭受困苦」與本句語境不同。"
+        "suffer-mcq-47": "本句的「suffered」指「苦撐捱過 X」。",
+        "suffer-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-47"
     },
@@ -5154,11 +4690,9 @@ export default {
       "masked": "We ____ through another unnecessary meeting.",
       "options": [
         "suffer-mcq-47",
-        "suffer-mcq-46",
-        "suffer-mcq-48",
-        "suffer-mcq-45",
-        "suffer-mcq-49",
-        "suffer-mcq-44"
+        "suffer-mcq-56",
+        "suffer-mcq-18",
+        "suffer-mcq-27"
       ],
       "explanation": "本句的「suffered」指「苦撐捱過 X」。",
       "sentenceIndex": 122,
@@ -5167,12 +4701,10 @@ export default {
         "suffered"
       ],
       "optionReasons": {
-        "suffer-mcq-47": "本句指「苦撐捱過 X」。",
-        "suffer-mcq-46": "「默默忍受」與本句語境不同。",
-        "suffer-mcq-48": "「令某人受苦」與本句語境不同。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。",
-        "suffer-mcq-49": "「痛苦；苦難」與本句語境不同。",
-        "suffer-mcq-44": "「遭受困苦」與本句語境不同。"
+        "suffer-mcq-47": "本句的「suffered」指「苦撐捱過 X」。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-47"
     },
@@ -5184,11 +4716,9 @@ export default {
       "masked": "Poor decisions can ____.",
       "options": [
         "suffer-mcq-48",
-        "suffer-mcq-47",
-        "suffer-mcq-49",
-        "suffer-mcq-46",
-        "suffer-mcq-50",
-        "suffer-mcq-45"
+        "suffer-mcq-56",
+        "suffer-mcq-26",
+        "suffer-mcq-27"
       ],
       "explanation": "本句的「make others suffer」指「令某人受苦」。",
       "sentenceIndex": 123,
@@ -5197,12 +4727,10 @@ export default {
         "make others suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-48": "本句指「令某人受苦」。",
-        "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。",
-        "suffer-mcq-49": "「痛苦；苦難」與本句語境不同。",
-        "suffer-mcq-46": "「默默忍受」與本句語境不同。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。"
+        "suffer-mcq-48": "本句的「make others suffer」指「令某人受苦」。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-48"
     },
@@ -5214,11 +4742,9 @@ export default {
       "masked": "Nobody should be made to ____ for someone else's mistake.",
       "options": [
         "suffer-mcq-48",
-        "suffer-mcq-47",
-        "suffer-mcq-49",
-        "suffer-mcq-46",
-        "suffer-mcq-50",
-        "suffer-mcq-45"
+        "suffer-pdf-001",
+        "suffer-mcq-56",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「suffer」指「令某人受苦」。",
       "sentenceIndex": 124,
@@ -5227,12 +4753,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-48": "本句指「令某人受苦」。",
-        "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。",
-        "suffer-mcq-49": "「痛苦；苦難」與本句語境不同。",
-        "suffer-mcq-46": "「默默忍受」與本句語境不同。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。"
+        "suffer-mcq-48": "本句的「suffer」指「令某人受苦」。",
+        "suffer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-48"
     },
@@ -5244,11 +4768,9 @@ export default {
       "masked": "The uncertainty ____.",
       "options": [
         "suffer-mcq-48",
-        "suffer-mcq-47",
-        "suffer-mcq-49",
-        "suffer-mcq-46",
-        "suffer-mcq-50",
-        "suffer-mcq-45"
+        "suffer-mcq-56",
+        "suffer-mcq-22",
+        "suffer-mcq-41"
       ],
       "explanation": "本句的「caused employees to suffer unnecessary stress」指「令某人受苦」。",
       "sentenceIndex": 125,
@@ -5257,12 +4779,10 @@ export default {
         "caused employees to suffer unnecessary stress"
       ],
       "optionReasons": {
-        "suffer-mcq-48": "本句指「令某人受苦」。",
-        "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。",
-        "suffer-mcq-49": "「痛苦；苦難」與本句語境不同。",
-        "suffer-mcq-46": "「默默忍受」與本句語境不同。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。"
+        "suffer-mcq-48": "本句的「caused employees to suffer unnecessary stress」指「令某人受苦」。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-48"
     },
@@ -5274,11 +4794,9 @@ export default {
       "masked": "The delay caused customers to ____ financial losses.",
       "options": [
         "suffer-mcq-48",
-        "suffer-mcq-47",
-        "suffer-mcq-49",
-        "suffer-mcq-46",
-        "suffer-mcq-50",
-        "suffer-mcq-45"
+        "suffer-mcq-41",
+        "suffer-pdf-001",
+        "suffer-mcq-56"
       ],
       "explanation": "本句的「suffer」指「令某人受苦」。",
       "sentenceIndex": 126,
@@ -5287,12 +4805,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-48": "本句指「令某人受苦」。",
-        "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。",
-        "suffer-mcq-49": "「痛苦；苦難」與本句語境不同。",
-        "suffer-mcq-46": "「默默忍受」與本句語境不同。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。",
-        "suffer-mcq-45": "「遭受匱乏」與本句語境不同。"
+        "suffer-mcq-48": "本句的「suffer」指「令某人受苦」。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-48"
     },
@@ -5304,11 +4820,9 @@ export default {
       "masked": "The treatment aims to reduce ____.",
       "options": [
         "suffer-pdf-003",
-        "suffer-mcq-48",
-        "suffer-mcq-50",
-        "suffer-mcq-47",
-        "suffer-mcq-51",
-        "suffer-mcq-46"
+        "suffer-mcq-27",
+        "suffer-mcq-56",
+        "suffer-mcq-21"
       ],
       "explanation": "本句的「suffering」指「因疾病、傷害、失去、困境等造成的身體或心理痛苦」。",
       "sentenceIndex": 127,
@@ -5317,12 +4831,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-pdf-003": "本句指「因疾病、傷害、失去、困境等造成的身體或心理痛苦」。",
-        "suffer-mcq-48": "「令某人受苦」與本句語境不同。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。",
-        "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。",
-        "suffer-mcq-51": "「不必要痛苦」與本句語境不同。",
-        "suffer-mcq-46": "「默默忍受」與本句語境不同。"
+        "suffer-pdf-003": "本句的「suffering」指「因疾病、傷害、失去、困境等造成的身體或心理痛苦」。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-pdf-003"
     },
@@ -5334,11 +4846,9 @@ export default {
       "masked": "The disaster caused widespread ____.",
       "options": [
         "suffer-pdf-003",
-        "suffer-mcq-48",
-        "suffer-mcq-50",
-        "suffer-mcq-47",
-        "suffer-mcq-51",
-        "suffer-mcq-46"
+        "suffer-mcq-60",
+        "suffer-mcq-31",
+        "suffer-mcq-55"
       ],
       "explanation": "本句的「suffering」指「因疾病、傷害、失去、困境等造成的身體或心理痛苦」。",
       "sentenceIndex": 128,
@@ -5347,12 +4857,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-pdf-003": "本句指「因疾病、傷害、失去、困境等造成的身體或心理痛苦」。",
-        "suffer-mcq-48": "「令某人受苦」與本句語境不同。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。",
-        "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。",
-        "suffer-mcq-51": "「不必要痛苦」與本句語境不同。",
-        "suffer-mcq-46": "「默默忍受」與本句語境不同。"
+        "suffer-pdf-003": "本句的「suffering」指「因疾病、傷害、失去、困境等造成的身體或心理痛苦」。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-pdf-003"
     },
@@ -5364,11 +4872,9 @@ export default {
       "masked": "The crisis caused enormous ____.",
       "options": [
         "suffer-mcq-50",
-        "suffer-mcq-49",
-        "suffer-mcq-51",
-        "suffer-mcq-48",
-        "suffer-mcq-52",
-        "suffer-mcq-47"
+        "suffer-mcq-29",
+        "suffer-mcq-28",
+        "suffer-mcq-06"
       ],
       "explanation": "本句的「human suffering」指「人類苦難」。",
       "sentenceIndex": 129,
@@ -5377,12 +4883,10 @@ export default {
         "human suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-50": "本句指「人類苦難」。",
-        "suffer-mcq-49": "「痛苦；苦難」與本句語境不同。",
-        "suffer-mcq-51": "「不必要痛苦」與本句語境不同。",
-        "suffer-mcq-48": "「令某人受苦」與本句語境不同。",
-        "suffer-mcq-52": "「廣泛苦難」與本句語境不同。",
-        "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。"
+        "suffer-mcq-50": "本句的「human suffering」指「人類苦難」。",
+        "suffer-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-50"
     },
@@ -5394,11 +4898,9 @@ export default {
       "masked": "Relief work aims to reduce human ____.",
       "options": [
         "suffer-mcq-50",
-        "suffer-mcq-49",
-        "suffer-mcq-51",
-        "suffer-mcq-48",
-        "suffer-mcq-52",
-        "suffer-mcq-47"
+        "suffer-mcq-15",
+        "suffer-mcq-60",
+        "suffer-mcq-26"
       ],
       "explanation": "本句的「suffering」指「人類苦難」。",
       "sentenceIndex": 130,
@@ -5407,12 +4909,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-50": "本句指「人類苦難」。",
-        "suffer-mcq-49": "「痛苦；苦難」與本句語境不同。",
-        "suffer-mcq-51": "「不必要痛苦」與本句語境不同。",
-        "suffer-mcq-48": "「令某人受苦」與本句語境不同。",
-        "suffer-mcq-52": "「廣泛苦難」與本句語境不同。",
-        "suffer-mcq-47": "「苦撐捱過 X」與本句語境不同。"
+        "suffer-mcq-50": "本句的「suffering」指「人類苦難」。",
+        "suffer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-50"
     },
@@ -5424,11 +4924,9 @@ export default {
       "masked": "Better planning could prevent ____.",
       "options": [
         "suffer-mcq-51",
-        "suffer-mcq-50",
-        "suffer-mcq-52",
-        "suffer-mcq-49",
-        "suffer-mcq-53",
-        "suffer-mcq-48"
+        "suffer-reviewed-00c185d3d7",
+        "suffer-mcq-09",
+        "suffer-mcq-30"
       ],
       "explanation": "本句的「unnecessary suffering」指「不必要痛苦」。",
       "sentenceIndex": 131,
@@ -5437,12 +4935,10 @@ export default {
         "unnecessary suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-51": "本句指「不必要痛苦」。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。",
-        "suffer-mcq-52": "「廣泛苦難」與本句語境不同。",
-        "suffer-mcq-49": "「痛苦；苦難」與本句語境不同。",
-        "suffer-mcq-53": "「減輕痛苦」與本句語境不同。",
-        "suffer-mcq-48": "「令某人受苦」與本句語境不同。"
+        "suffer-mcq-51": "本句的「unnecessary suffering」指「不必要痛苦」。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-51"
     },
@@ -5454,11 +4950,9 @@ export default {
       "masked": "The aim is to minimise unnecessary ____.",
       "options": [
         "suffer-mcq-51",
-        "suffer-mcq-50",
-        "suffer-mcq-52",
-        "suffer-mcq-49",
-        "suffer-mcq-53",
-        "suffer-mcq-48"
+        "suffer-mcq-46",
+        "suffer-mcq-55",
+        "suffer-mcq-36"
       ],
       "explanation": "本句的「suffering」指「不必要痛苦」。",
       "sentenceIndex": 132,
@@ -5467,12 +4961,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-51": "本句指「不必要痛苦」。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。",
-        "suffer-mcq-52": "「廣泛苦難」與本句語境不同。",
-        "suffer-mcq-49": "「痛苦；苦難」與本句語境不同。",
-        "suffer-mcq-53": "「減輕痛苦」與本句語境不同。",
-        "suffer-mcq-48": "「令某人受苦」與本句語境不同。"
+        "suffer-mcq-51": "本句的「suffering」指「不必要痛苦」。",
+        "suffer-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-51"
     },
@@ -5484,11 +4976,9 @@ export default {
       "masked": "The conflict caused ____.",
       "options": [
         "suffer-mcq-52",
-        "suffer-mcq-51",
-        "suffer-mcq-53",
-        "suffer-mcq-50",
-        "suffer-mcq-54",
-        "suffer-mcq-49"
+        "suffer-mcq-60",
+        "suffer-mcq-20",
+        "suffer-mcq-28"
       ],
       "explanation": "本句的「widespread suffering」指「廣泛苦難」。",
       "sentenceIndex": 133,
@@ -5497,12 +4987,10 @@ export default {
         "widespread suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-52": "本句指「廣泛苦難」。",
-        "suffer-mcq-51": "「不必要痛苦」與本句語境不同。",
-        "suffer-mcq-53": "「減輕痛苦」與本句語境不同。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
-        "suffer-mcq-49": "「痛苦；苦難」與本句語境不同。"
+        "suffer-mcq-52": "本句的「widespread suffering」指「廣泛苦難」。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-52"
     },
@@ -5514,11 +5002,9 @@ export default {
       "masked": "Food shortages produced widespread ____.",
       "options": [
         "suffer-mcq-52",
-        "suffer-mcq-51",
-        "suffer-mcq-53",
-        "suffer-mcq-50",
-        "suffer-mcq-54",
-        "suffer-mcq-49"
+        "suffer-mcq-60",
+        "suffer-mcq-29",
+        "suffer-mcq-43"
       ],
       "explanation": "本句的「suffering」指「廣泛苦難」。",
       "sentenceIndex": 134,
@@ -5527,12 +5013,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-52": "本句指「廣泛苦難」。",
-        "suffer-mcq-51": "「不必要痛苦」與本句語境不同。",
-        "suffer-mcq-53": "「減輕痛苦」與本句語境不同。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
-        "suffer-mcq-49": "「痛苦；苦難」與本句語境不同。"
+        "suffer-mcq-52": "本句的「suffering」指「廣泛苦難」。",
+        "suffer-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-52"
     },
@@ -5544,11 +5028,9 @@ export default {
       "masked": "The illness caused ____.",
       "options": [
         "suffer-mcq-53",
-        "suffer-mcq-52",
-        "suffer-mcq-54",
-        "suffer-mcq-51",
-        "suffer-mcq-55",
-        "suffer-mcq-50"
+        "suffer-mcq-05",
+        "suffer-pdf-001",
+        "suffer-mcq-42"
       ],
       "explanation": "本句的「prolonged suffering」指「減輕痛苦」。",
       "sentenceIndex": 135,
@@ -5557,12 +5039,10 @@ export default {
         "prolonged suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-53": "本句指「減輕痛苦」。",
-        "suffer-mcq-52": "「廣泛苦難」與本句語境不同。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
-        "suffer-mcq-51": "「不必要痛苦」與本句語境不同。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。"
+        "suffer-mcq-53": "本句的「prolonged suffering」指「減輕痛苦」。",
+        "suffer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-53"
     },
@@ -5574,11 +5054,9 @@ export default {
       "masked": "Early intervention may prevent prolonged ____.",
       "options": [
         "suffer-mcq-53",
-        "suffer-mcq-52",
-        "suffer-mcq-54",
-        "suffer-mcq-51",
-        "suffer-mcq-55",
-        "suffer-mcq-50"
+        "suffer-mcq-21",
+        "suffer-mcq-34",
+        "suffer-pdf-004"
       ],
       "explanation": "本句的「suffering」指「減輕痛苦」。",
       "sentenceIndex": 136,
@@ -5587,12 +5065,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-53": "本句指「減輕痛苦」。",
-        "suffer-mcq-52": "「廣泛苦難」與本句語境不同。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
-        "suffer-mcq-51": "「不必要痛苦」與本句語境不同。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。"
+        "suffer-mcq-53": "本句的「suffering」指「減輕痛苦」。",
+        "suffer-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-53"
     },
@@ -5604,11 +5080,9 @@ export default {
       "masked": "The programme aims to ____.",
       "options": [
         "suffer-mcq-53",
-        "suffer-mcq-52",
-        "suffer-mcq-54",
-        "suffer-mcq-51",
-        "suffer-mcq-55",
-        "suffer-mcq-50"
+        "suffer-mcq-23",
+        "suffer-mcq-30",
+        "suffer-mcq-06"
       ],
       "explanation": "本句的「alleviate suffering」指「減輕痛苦」。",
       "sentenceIndex": 137,
@@ -5617,12 +5091,10 @@ export default {
         "alleviate suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-53": "本句指「減輕痛苦」。",
-        "suffer-mcq-52": "「廣泛苦難」與本句語境不同。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
-        "suffer-mcq-51": "「不必要痛苦」與本句語境不同。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。"
+        "suffer-mcq-53": "本句的「alleviate suffering」指「減輕痛苦」。",
+        "suffer-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-53"
     },
@@ -5634,11 +5106,9 @@ export default {
       "masked": "Effective treatment can alleviate ____.",
       "options": [
         "suffer-mcq-53",
-        "suffer-mcq-52",
-        "suffer-mcq-54",
-        "suffer-mcq-51",
-        "suffer-mcq-55",
-        "suffer-mcq-50"
+        "suffer-mcq-36",
+        "suffer-mcq-34",
+        "suffer-mcq-45"
       ],
       "explanation": "本句的「suffering」指「減輕痛苦」。",
       "sentenceIndex": 138,
@@ -5647,12 +5117,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-53": "本句指「減輕痛苦」。",
-        "suffer-mcq-52": "「廣泛苦難」與本句語境不同。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
-        "suffer-mcq-51": "「不必要痛苦」與本句語境不同。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。"
+        "suffer-mcq-53": "本句的「suffering」指「減輕痛苦」。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-53"
     },
@@ -5664,11 +5132,9 @@ export default {
       "masked": "The organisation works to ____.",
       "options": [
         "suffer-mcq-53",
-        "suffer-mcq-52",
-        "suffer-mcq-54",
-        "suffer-mcq-51",
-        "suffer-mcq-55",
-        "suffer-mcq-50"
+        "suffer-mcq-57",
+        "suffer-mcq-05",
+        "suffer-pdf-004"
       ],
       "explanation": "本句的「end unnecessary suffering」指「減輕痛苦」。",
       "sentenceIndex": 139,
@@ -5677,12 +5143,10 @@ export default {
         "end unnecessary suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-53": "本句指「減輕痛苦」。",
-        "suffer-mcq-52": "「廣泛苦難」與本句語境不同。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
-        "suffer-mcq-51": "「不必要痛苦」與本句語境不同。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。"
+        "suffer-mcq-53": "本句的「end unnecessary suffering」指「減輕痛苦」。",
+        "suffer-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-53"
     },
@@ -5694,11 +5158,9 @@ export default {
       "masked": "They hoped the treatment would end his ____.",
       "options": [
         "suffer-mcq-53",
-        "suffer-mcq-52",
-        "suffer-mcq-54",
-        "suffer-mcq-51",
-        "suffer-mcq-55",
-        "suffer-mcq-50"
+        "suffer-pdf-001",
+        "suffer-mcq-57",
+        "suffer-mcq-29"
       ],
       "explanation": "本句的「suffering」指「減輕痛苦」。",
       "sentenceIndex": 140,
@@ -5707,12 +5169,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-53": "本句指「減輕痛苦」。",
-        "suffer-mcq-52": "「廣泛苦難」與本句語境不同。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
-        "suffer-mcq-51": "「不必要痛苦」與本句語境不同。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
-        "suffer-mcq-50": "「人類苦難」與本句語境不同。"
+        "suffer-mcq-53": "本句的「suffering」指「減輕痛苦」。",
+        "suffer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-53"
     },
@@ -5724,11 +5184,9 @@ export default {
       "masked": "Asthma ____ may need medication.",
       "options": [
         "suffer-pdf-004",
-        "suffer-mcq-53",
-        "suffer-mcq-55",
-        "suffer-mcq-52",
-        "suffer-mcq-56",
-        "suffer-mcq-51"
+        "suffer-mcq-26",
+        "suffer-mcq-51",
+        "suffer-mcq-27"
       ],
       "explanation": "本句的「sufferers」指「長期受到某疾病、症狀或問題影響的人」。",
       "sentenceIndex": 141,
@@ -5737,12 +5195,10 @@ export default {
         "sufferers"
       ],
       "optionReasons": {
-        "suffer-pdf-004": "本句指「長期受到某疾病、症狀或問題影響的人」。",
-        "suffer-mcq-53": "「減輕痛苦」與本句語境不同。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
-        "suffer-mcq-52": "「廣泛苦難」與本句語境不同。",
-        "suffer-mcq-56": "「長期忍耐的」與本句語境不同。",
-        "suffer-mcq-51": "「不必要痛苦」與本句語境不同。"
+        "suffer-pdf-004": "本句的「sufferers」指「長期受到某疾病、症狀或問題影響的人」。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-pdf-004"
     },
@@ -5754,11 +5210,9 @@ export default {
       "masked": "The service supports migraine ____.",
       "options": [
         "suffer-pdf-004",
-        "suffer-mcq-53",
-        "suffer-mcq-55",
-        "suffer-mcq-52",
-        "suffer-mcq-56",
-        "suffer-mcq-51"
+        "suffer-mcq-28",
+        "suffer-mcq-41",
+        "suffer-reviewed-00c185d3d7"
       ],
       "explanation": "本句的「sufferers」指「長期受到某疾病、症狀或問題影響的人」。",
       "sentenceIndex": 142,
@@ -5767,12 +5221,10 @@ export default {
         "sufferers"
       ],
       "optionReasons": {
-        "suffer-pdf-004": "本句指「長期受到某疾病、症狀或問題影響的人」。",
-        "suffer-mcq-53": "「減輕痛苦」與本句語境不同。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
-        "suffer-mcq-52": "「廣泛苦難」與本句語境不同。",
-        "suffer-mcq-56": "「長期忍耐的」與本句語境不同。",
-        "suffer-mcq-51": "「不必要痛苦」與本句語境不同。"
+        "suffer-pdf-004": "本句的「sufferers」指「長期受到某疾病、症狀或問題影響的人」。",
+        "suffer-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-pdf-004"
     },
@@ -5784,11 +5236,9 @@ export default {
       "masked": "She exchanged advice with ____.",
       "options": [
         "suffer-mcq-55",
-        "suffer-mcq-54",
-        "suffer-mcq-56",
-        "suffer-mcq-53",
-        "suffer-mcq-57",
-        "suffer-mcq-52"
+        "suffer-mcq-46",
+        "suffer-pdf-002",
+        "suffer-mcq-22"
       ],
       "explanation": "本句的「fellow sufferers」指「有同樣問題的人」。",
       "sentenceIndex": 145,
@@ -5797,12 +5247,10 @@ export default {
         "fellow sufferers"
       ],
       "optionReasons": {
-        "suffer-mcq-55": "本句指「有同樣問題的人」。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
-        "suffer-mcq-56": "「長期忍耐的」與本句語境不同。",
-        "suffer-mcq-53": "「減輕痛苦」與本句語境不同。",
-        "suffer-mcq-57": "「令人無法忍受的」與本句語境不同。",
-        "suffer-mcq-52": "「廣泛苦難」與本句語境不同。"
+        "suffer-mcq-55": "本句的「fellow sufferers」指「有同樣問題的人」。",
+        "suffer-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-55"
     },
@@ -5814,10 +5262,8 @@ export default {
       "masked": "Online groups can connect fellow ____.",
       "options": [
         "suffer-mcq-55",
-        "suffer-mcq-54",
-        "suffer-mcq-56",
-        "suffer-mcq-53",
-        "suffer-mcq-57",
+        "suffer-mcq-16",
+        "suffer-mcq-06",
         "suffer-mcq-52"
       ],
       "explanation": "本句的「sufferers」指「有同樣問題的人」。",
@@ -5827,12 +5273,10 @@ export default {
         "sufferers"
       ],
       "optionReasons": {
-        "suffer-mcq-55": "本句指「有同樣問題的人」。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
-        "suffer-mcq-56": "「長期忍耐的」與本句語境不同。",
-        "suffer-mcq-53": "「減輕痛苦」與本句語境不同。",
-        "suffer-mcq-57": "「令人無法忍受的」與本句語境不同。",
-        "suffer-mcq-52": "「廣泛苦難」與本句語境不同。"
+        "suffer-mcq-55": "本句的「sufferers」指「有同樣問題的人」。",
+        "suffer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-55"
     },
@@ -5844,11 +5288,9 @@ export default {
       "masked": "His ____ had tolerated the behaviour for years.",
       "options": [
         "suffer-pdf-005",
-        "suffer-mcq-55",
-        "suffer-mcq-57",
-        "suffer-mcq-54",
-        "suffer-mcq-58",
-        "suffer-mcq-53"
+        "suffer-reviewed-00c185d3d7",
+        "suffer-mcq-22",
+        "suffer-mcq-55"
       ],
       "explanation": "本句的「long-suffering colleagues」指「長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的」。",
       "sentenceIndex": 147,
@@ -5857,12 +5299,10 @@ export default {
         "long-suffering colleagues"
       ],
       "optionReasons": {
-        "suffer-pdf-005": "本句指「長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的」。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
-        "suffer-mcq-57": "「令人無法忍受的」與本句語境不同。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
-        "suffer-mcq-58": "「令人受不了的傲慢」與本句語境不同。",
-        "suffer-mcq-53": "「減輕痛苦」與本句語境不同。"
+        "suffer-pdf-005": "本句的「long-suffering colleagues」指「長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的」。",
+        "suffer-reviewed-00c185d3d7": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-pdf-005"
     },
@@ -5874,11 +5314,9 @@ export default {
       "masked": "The long-____ customers finally received an apology.",
       "options": [
         "suffer-pdf-005",
-        "suffer-mcq-55",
-        "suffer-mcq-57",
-        "suffer-mcq-54",
-        "suffer-mcq-58",
-        "suffer-mcq-53"
+        "suffer-mcq-36",
+        "suffer-mcq-27",
+        "suffer-mcq-26"
       ],
       "explanation": "本句的「suffering」指「長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的」。",
       "sentenceIndex": 148,
@@ -5887,12 +5325,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-pdf-005": "本句指「長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的」。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
-        "suffer-mcq-57": "「令人無法忍受的」與本句語境不同。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
-        "suffer-mcq-58": "「令人受不了的傲慢」與本句語境不同。",
-        "suffer-mcq-53": "「減輕痛苦」與本句語境不同。"
+        "suffer-pdf-005": "本句的「suffering」指「長期面對麻煩、壓力或別人的難相處行為，卻一直耐心忍受的」。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-pdf-005"
     },
@@ -5904,11 +5340,9 @@ export default {
       "masked": "Long-____ employees were relieved when the system was replaced.",
       "options": [
         "suffer-mcq-56",
-        "suffer-mcq-55",
-        "suffer-mcq-57",
-        "suffer-mcq-54",
+        "suffer-mcq-25",
         "suffer-mcq-58",
-        "suffer-mcq-53"
+        "suffer-mcq-43"
       ],
       "explanation": "本句的「suffering」指「長期忍耐的」。",
       "sentenceIndex": 149,
@@ -5917,12 +5351,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-56": "本句指「長期忍耐的」。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
-        "suffer-mcq-57": "「令人無法忍受的」與本句語境不同。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
-        "suffer-mcq-58": "「令人受不了的傲慢」與本句語境不同。",
-        "suffer-mcq-53": "「減輕痛苦」與本句語境不同。"
+        "suffer-mcq-56": "本句的「suffering」指「長期忍耐的」。",
+        "suffer-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-56"
     },
@@ -5934,11 +5366,9 @@ export default {
       "masked": "Long-____ fans finally saw their team win.",
       "options": [
         "suffer-mcq-56",
+        "suffer-mcq-09",
         "suffer-mcq-55",
-        "suffer-mcq-57",
-        "suffer-mcq-54",
-        "suffer-mcq-58",
-        "suffer-mcq-53"
+        "suffer-mcq-45"
       ],
       "explanation": "本句的「suffering」指「長期忍耐的」。",
       "sentenceIndex": 150,
@@ -5947,12 +5377,10 @@ export default {
         "suffering"
       ],
       "optionReasons": {
-        "suffer-mcq-56": "本句指「長期忍耐的」。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
-        "suffer-mcq-57": "「令人無法忍受的」與本句語境不同。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。",
-        "suffer-mcq-58": "「令人受不了的傲慢」與本句語境不同。",
-        "suffer-mcq-53": "「減輕痛苦」與本句語境不同。"
+        "suffer-mcq-56": "本句的「suffering」指「長期忍耐的」。",
+        "suffer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-56"
     },
@@ -5964,11 +5392,9 @@ export default {
       "masked": "His arrogance was ____.",
       "options": [
         "suffer-mcq-57",
-        "suffer-mcq-56",
-        "suffer-mcq-58",
         "suffer-mcq-55",
-        "suffer-mcq-59",
-        "suffer-mcq-54"
+        "suffer-mcq-53",
+        "suffer-mcq-26"
       ],
       "explanation": "本句的「insufferable」指「令人無法忍受的」。",
       "sentenceIndex": 151,
@@ -5977,12 +5403,10 @@ export default {
         "insufferable"
       ],
       "optionReasons": {
-        "suffer-mcq-57": "本句指「令人無法忍受的」。",
-        "suffer-mcq-56": "「長期忍耐的」與本句語境不同。",
-        "suffer-mcq-58": "「令人受不了的傲慢」與本句語境不同。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。",
-        "suffer-mcq-59": "「令人無法忍受地」與本句語境不同。",
-        "suffer-mcq-54": "「患者；受苦者」與本句語境不同。"
+        "suffer-mcq-57": "本句的「insufferable」指「令人無法忍受的」。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-57"
     },
@@ -5994,10 +5418,8 @@ export default {
       "masked": "He can be ____ when he thinks he is right.",
       "options": [
         "suffer-mcq-58",
-        "suffer-mcq-57",
-        "suffer-mcq-59",
-        "suffer-mcq-56",
-        "suffer-mcq-60",
+        "suffer-pdf-003",
+        "suffer-mcq-36",
         "suffer-mcq-55"
       ],
       "explanation": "本句的「insufferable」指「令人受不了的傲慢」。",
@@ -6007,12 +5429,10 @@ export default {
         "insufferable"
       ],
       "optionReasons": {
-        "suffer-mcq-58": "本句指「令人受不了的傲慢」。",
-        "suffer-mcq-57": "「令人無法忍受的」與本句語境不同。",
-        "suffer-mcq-59": "「令人無法忍受地」與本句語境不同。",
-        "suffer-mcq-56": "「長期忍耐的」與本句語境不同。",
-        "suffer-mcq-60": "「不耐煩容忍愚蠢的人」與本句語境不同。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。"
+        "suffer-mcq-58": "本句的「insufferable」指「令人受不了的傲慢」。",
+        "suffer-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-58"
     },
@@ -6024,10 +5444,8 @@ export default {
       "masked": "His ____ damaged team relationships.",
       "options": [
         "suffer-mcq-58",
-        "suffer-mcq-57",
-        "suffer-mcq-59",
-        "suffer-mcq-56",
-        "suffer-mcq-60",
+        "suffer-mcq-51",
+        "suffer-mcq-27",
         "suffer-mcq-55"
       ],
       "explanation": "本句的「insufferable arrogance」指「令人受不了的傲慢」。",
@@ -6037,12 +5455,10 @@ export default {
         "insufferable arrogance"
       ],
       "optionReasons": {
-        "suffer-mcq-58": "本句指「令人受不了的傲慢」。",
-        "suffer-mcq-57": "「令人無法忍受的」與本句語境不同。",
-        "suffer-mcq-59": "「令人無法忍受地」與本句語境不同。",
-        "suffer-mcq-56": "「長期忍耐的」與本句語境不同。",
-        "suffer-mcq-60": "「不耐煩容忍愚蠢的人」與本句語境不同。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。"
+        "suffer-mcq-58": "本句的「insufferable arrogance」指「令人受不了的傲慢」。",
+        "suffer-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-58"
     },
@@ -6054,11 +5470,9 @@ export default {
       "masked": "He behaved ____ throughout the meeting.",
       "options": [
         "suffer-mcq-59",
-        "suffer-mcq-58",
-        "suffer-mcq-60",
-        "suffer-mcq-57",
-        "suffer-mcq-56",
-        "suffer-mcq-55"
+        "suffer-mcq-47",
+        "suffer-mcq-27",
+        "suffer-pdf-003"
       ],
       "explanation": "本句的「insufferably」指「令人無法忍受地」。",
       "sentenceIndex": 154,
@@ -6067,12 +5481,10 @@ export default {
         "insufferably"
       ],
       "optionReasons": {
-        "suffer-mcq-59": "本句指「令人無法忍受地」。",
-        "suffer-mcq-58": "「令人受不了的傲慢」與本句語境不同。",
-        "suffer-mcq-60": "「不耐煩容忍愚蠢的人」與本句語境不同。",
-        "suffer-mcq-57": "「令人無法忍受的」與本句語境不同。",
-        "suffer-mcq-56": "「長期忍耐的」與本句語境不同。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。"
+        "suffer-mcq-59": "本句的「insufferably」指「令人無法忍受地」。",
+        "suffer-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "suffer-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-59"
     },
@@ -6084,11 +5496,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "suffer-mcq-60",
-        "suffer-mcq-59",
+        "suffer-mcq-19",
         "suffer-mcq-58",
-        "suffer-mcq-57",
-        "suffer-mcq-56",
-        "suffer-mcq-55"
+        "suffer-mcq-06"
       ],
       "explanation": "本句的「doesn't suffer fools gladly」指「不耐煩容忍愚蠢的人」。",
       "sentenceIndex": 155,
@@ -6097,12 +5507,10 @@ export default {
         "doesn't suffer fools gladly"
       ],
       "optionReasons": {
-        "suffer-mcq-60": "本句指「不耐煩容忍愚蠢的人」。",
-        "suffer-mcq-59": "「令人無法忍受地」與本句語境不同。",
-        "suffer-mcq-58": "「令人受不了的傲慢」與本句語境不同。",
-        "suffer-mcq-57": "「令人無法忍受的」與本句語境不同。",
-        "suffer-mcq-56": "「長期忍耐的」與本句語境不同。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。"
+        "suffer-mcq-60": "本句的「doesn't suffer fools gladly」指「不耐煩容忍愚蠢的人」。",
+        "suffer-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-60"
     },
@@ -6114,11 +5522,9 @@ export default {
       "masked": "The manager is highly competent but does not ____ fools gladly.",
       "options": [
         "suffer-mcq-60",
-        "suffer-mcq-59",
-        "suffer-mcq-58",
-        "suffer-mcq-57",
-        "suffer-mcq-56",
-        "suffer-mcq-55"
+        "suffer-mcq-37",
+        "suffer-mcq-55",
+        "suffer-mcq-23"
       ],
       "explanation": "本句的「suffer」指「不耐煩容忍愚蠢的人」。",
       "sentenceIndex": 156,
@@ -6127,12 +5533,10 @@ export default {
         "suffer"
       ],
       "optionReasons": {
-        "suffer-mcq-60": "本句指「不耐煩容忍愚蠢的人」。",
-        "suffer-mcq-59": "「令人無法忍受地」與本句語境不同。",
-        "suffer-mcq-58": "「令人受不了的傲慢」與本句語境不同。",
-        "suffer-mcq-57": "「令人無法忍受的」與本句語境不同。",
-        "suffer-mcq-56": "「長期忍耐的」與本句語境不同。",
-        "suffer-mcq-55": "「有同樣問題的人」與本句語境不同。"
+        "suffer-mcq-60": "本句的「suffer」指「不耐煩容忍愚蠢的人」。",
+        "suffer-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "suffer-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "suffer-mcq-60"
     }
@@ -6144,5 +5548,7 @@ export default {
     "sha256": "4f746844e0642a269885e948cd416e2a5db0aabaf83a9fd7c64ea4c8b2234f5a",
     "pages": 53
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

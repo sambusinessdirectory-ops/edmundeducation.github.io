@@ -592,11 +592,9 @@ export default {
       "masked": "There is a big ____ between the two designs.",
       "options": [
         "difference-mcq-01",
-        "difference-mcq-02",
-        "difference-mcq-03",
-        "difference-mcq-04",
-        "difference-mcq-05",
-        "difference-mcq-06"
+        "difference-mcq-06",
+        "difference-mcq-12",
+        "difference-mcq-13"
       ],
       "explanation": "本句的「difference」指「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」。",
       "sentenceIndex": 2,
@@ -605,12 +603,10 @@ export default {
         "difference"
       ],
       "optionReasons": {
-        "difference-mcq-01": "本句指「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」。",
-        "difference-mcq-02": "「某個特定方面所呈現出的不同／差異」與本句語境不同。",
-        "difference-mcq-03": "「程度明顯、重要或很大的差異」與本句語境不同。",
-        "difference-mcq-04": "「程度很小、細微的不同」與本句語境不同。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。"
+        "difference-mcq-01": "本句的「difference」指「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」。",
+        "difference-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-01"
     },
@@ -622,11 +618,8 @@ export default {
       "masked": "Can you explain the ____ between these words?",
       "options": [
         "difference-mcq-01",
-        "difference-mcq-02",
-        "difference-mcq-03",
-        "difference-mcq-04",
-        "difference-mcq-05",
-        "difference-mcq-06"
+        "difference-mcq-07",
+        "difference-mcq-13"
       ],
       "explanation": "本句的「difference」指「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」。",
       "sentenceIndex": 3,
@@ -635,12 +628,9 @@ export default {
         "difference"
       ],
       "optionReasons": {
-        "difference-mcq-01": "本句指「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」。",
-        "difference-mcq-02": "「某個特定方面所呈現出的不同／差異」與本句語境不同。",
-        "difference-mcq-03": "「程度明顯、重要或很大的差異」與本句語境不同。",
-        "difference-mcq-04": "「程度很小、細微的不同」與本句語境不同。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。"
+        "difference-mcq-01": "本句的「difference」指「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」。",
+        "difference-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-01"
     },
@@ -652,11 +642,9 @@ export default {
       "masked": "What is the ____ *hear* and *listen*?",
       "options": [
         "difference-mcq-01",
-        "difference-mcq-02",
-        "difference-mcq-03",
-        "difference-mcq-04",
-        "difference-mcq-05",
-        "difference-mcq-06"
+        "difference-mcq-06",
+        "difference-mcq-12",
+        "difference-mcq-13"
       ],
       "explanation": "本句的「difference between」指「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」。",
       "sentenceIndex": 4,
@@ -665,12 +653,10 @@ export default {
         "difference between"
       ],
       "optionReasons": {
-        "difference-mcq-01": "本句指「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」。",
-        "difference-mcq-02": "「某個特定方面所呈現出的不同／差異」與本句語境不同。",
-        "difference-mcq-03": "「程度明顯、重要或很大的差異」與本句語境不同。",
-        "difference-mcq-04": "「程度很小、細微的不同」與本句語境不同。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。"
+        "difference-mcq-01": "本句的「difference between」指「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」。",
+        "difference-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-01"
     },
@@ -682,11 +668,8 @@ export default {
       "masked": "There is little ____ the two methods.",
       "options": [
         "difference-mcq-01",
-        "difference-mcq-02",
-        "difference-mcq-03",
-        "difference-mcq-04",
-        "difference-mcq-05",
-        "difference-mcq-06"
+        "difference-mcq-07",
+        "difference-mcq-13"
       ],
       "explanation": "本句的「difference between」指「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」。",
       "sentenceIndex": 5,
@@ -695,12 +678,9 @@ export default {
         "difference between"
       ],
       "optionReasons": {
-        "difference-mcq-01": "本句指「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」。",
-        "difference-mcq-02": "「某個特定方面所呈現出的不同／差異」與本句語境不同。",
-        "difference-mcq-03": "「程度明顯、重要或很大的差異」與本句語境不同。",
-        "difference-mcq-04": "「程度很小、細微的不同」與本句語境不同。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。"
+        "difference-mcq-01": "本句的「difference between」指「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」。",
+        "difference-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-01"
     },
@@ -712,11 +692,9 @@ export default {
       "masked": "There is a clear ____.",
       "options": [
         "difference-mcq-02",
-        "difference-mcq-01",
-        "difference-mcq-03",
-        "difference-mcq-04",
-        "difference-mcq-05",
-        "difference-mcq-06"
+        "difference-mcq-09",
+        "difference-mcq-13",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「difference in quality」指「某個特定方面所呈現出的不同／差異」。",
       "sentenceIndex": 6,
@@ -725,12 +703,10 @@ export default {
         "difference in quality"
       ],
       "optionReasons": {
-        "difference-mcq-02": "本句指「某個特定方面所呈現出的不同／差異」。",
-        "difference-mcq-01": "「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」與本句語境不同。",
-        "difference-mcq-03": "「程度明顯、重要或很大的差異」與本句語境不同。",
-        "difference-mcq-04": "「程度很小、細微的不同」與本句語境不同。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。"
+        "difference-mcq-02": "本句的「difference in quality」指「某個特定方面所呈現出的不同／差異」。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-02"
     },
@@ -742,11 +718,9 @@ export default {
       "masked": "We noticed a ____.",
       "options": [
         "difference-mcq-02",
-        "difference-mcq-01",
-        "difference-mcq-03",
-        "difference-mcq-04",
-        "difference-mcq-05",
-        "difference-mcq-06"
+        "difference-mcq-09",
+        "difference-mcq-24",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「difference in tone」指「某個特定方面所呈現出的不同／差異」。",
       "sentenceIndex": 7,
@@ -755,12 +729,10 @@ export default {
         "difference in tone"
       ],
       "optionReasons": {
-        "difference-mcq-02": "本句指「某個特定方面所呈現出的不同／差異」。",
-        "difference-mcq-01": "「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」與本句語境不同。",
-        "difference-mcq-03": "「程度明顯、重要或很大的差異」與本句語境不同。",
-        "difference-mcq-04": "「程度很小、細微的不同」與本句語境不同。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。"
+        "difference-mcq-02": "本句的「difference in tone」指「某個特定方面所呈現出的不同／差異」。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-02"
     },
@@ -772,10 +744,7 @@ export default {
       "masked": "There is a ____ between the results.",
       "options": [
         "difference-mcq-03",
-        "difference-mcq-02",
-        "difference-mcq-04",
-        "difference-mcq-01",
-        "difference-mcq-05",
+        "difference-mcq-13",
         "difference-mcq-06"
       ],
       "explanation": "本句的「significant difference」指「程度明顯、重要或很大的差異」。",
@@ -785,12 +754,9 @@ export default {
         "significant difference"
       ],
       "optionReasons": {
-        "difference-mcq-03": "本句指「程度明顯、重要或很大的差異」。",
-        "difference-mcq-02": "「某個特定方面所呈現出的不同／差異」與本句語境不同。",
-        "difference-mcq-04": "「程度很小、細微的不同」與本句語境不同。",
-        "difference-mcq-01": "「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」與本句語境不同。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。"
+        "difference-mcq-03": "本句的「significant difference」指「程度明顯、重要或很大的差異」。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-03"
     },
@@ -802,10 +768,7 @@ export default {
       "masked": "The new version shows a ____ in performance.",
       "options": [
         "difference-mcq-03",
-        "difference-mcq-02",
-        "difference-mcq-04",
-        "difference-mcq-01",
-        "difference-mcq-05",
+        "difference-mcq-13",
         "difference-mcq-06"
       ],
       "explanation": "本句的「major difference」指「程度明顯、重要或很大的差異」。",
@@ -815,12 +778,9 @@ export default {
         "major difference"
       ],
       "optionReasons": {
-        "difference-mcq-03": "本句指「程度明顯、重要或很大的差異」。",
-        "difference-mcq-02": "「某個特定方面所呈現出的不同／差異」與本句語境不同。",
-        "difference-mcq-04": "「程度很小、細微的不同」與本句語境不同。",
-        "difference-mcq-01": "「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」與本句語境不同。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。"
+        "difference-mcq-03": "本句的「major difference」指「程度明顯、重要或很大的差異」。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-03"
     },
@@ -832,11 +792,9 @@ export default {
       "masked": "There is only a ____ in colour.",
       "options": [
         "difference-mcq-04",
-        "difference-mcq-03",
-        "difference-mcq-05",
-        "difference-mcq-02",
-        "difference-mcq-06",
-        "difference-mcq-01"
+        "difference-mcq-17",
+        "difference-mcq-12",
+        "difference-mcq-09"
       ],
       "explanation": "本句的「slight difference」指「程度很小、細微的不同」。",
       "sentenceIndex": 10,
@@ -845,12 +803,10 @@ export default {
         "slight difference"
       ],
       "optionReasons": {
-        "difference-mcq-04": "本句指「程度很小、細微的不同」。",
-        "difference-mcq-03": "「程度明顯、重要或很大的差異」與本句語境不同。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。",
-        "difference-mcq-02": "「某個特定方面所呈現出的不同／差異」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。",
-        "difference-mcq-01": "「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」與本句語境不同。"
+        "difference-mcq-04": "本句的「slight difference」指「程度很小、細微的不同」。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-04"
     },
@@ -862,11 +818,8 @@ export default {
       "masked": "The two versions have a few ____.",
       "options": [
         "difference-mcq-04",
-        "difference-mcq-03",
-        "difference-mcq-05",
-        "difference-mcq-02",
-        "difference-mcq-06",
-        "difference-mcq-01"
+        "difference-mcq-08",
+        "difference-mcq-17"
       ],
       "explanation": "本句的「small differences」指「程度很小、細微的不同」。",
       "sentenceIndex": 11,
@@ -875,12 +828,9 @@ export default {
         "small differences"
       ],
       "optionReasons": {
-        "difference-mcq-04": "本句指「程度很小、細微的不同」。",
-        "difference-mcq-03": "「程度明顯、重要或很大的差異」與本句語境不同。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。",
-        "difference-mcq-02": "「某個特定方面所呈現出的不同／差異」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。",
-        "difference-mcq-01": "「A 與 B 在特徵、性質、外觀、程度等方面不相同之處；差異」與本句語境不同。"
+        "difference-mcq-04": "本句的「small differences」指「程度很小、細微的不同」。",
+        "difference-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-04"
     },
@@ -892,11 +842,8 @@ export default {
       "masked": "There is ____ in price.",
       "options": [
         "difference-mcq-05",
-        "difference-mcq-04",
-        "difference-mcq-06",
-        "difference-mcq-03",
-        "difference-mcq-07",
-        "difference-mcq-02"
+        "difference-mcq-08",
+        "difference-mcq-13"
       ],
       "explanation": "本句的「no difference」指「兩個事物在相關方面沒有有意義的不同」。",
       "sentenceIndex": 12,
@@ -905,12 +852,9 @@ export default {
         "no difference"
       ],
       "optionReasons": {
-        "difference-mcq-05": "本句指「兩個事物在相關方面沒有有意義的不同」。",
-        "difference-mcq-04": "「程度很小、細微的不同」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。",
-        "difference-mcq-03": "「程度明顯、重要或很大的差異」與本句語境不同。",
-        "difference-mcq-07": "「造成很大、明顯或重要的影響」與本句語境不同。",
-        "difference-mcq-02": "「某個特定方面所呈現出的不同／差異」與本句語境不同。"
+        "difference-mcq-05": "本句的「no difference」指「兩個事物在相關方面沒有有意義的不同」。",
+        "difference-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-05"
     },
@@ -922,11 +866,9 @@ export default {
       "masked": "It makes ____ which route we take.",
       "options": [
         "difference-mcq-05",
-        "difference-mcq-04",
         "difference-mcq-06",
-        "difference-mcq-03",
-        "difference-mcq-07",
-        "difference-mcq-02"
+        "difference-mcq-12",
+        "difference-mcq-13"
       ],
       "explanation": "本句的「no difference」指「兩個事物在相關方面沒有有意義的不同」。",
       "sentenceIndex": 13,
@@ -935,12 +877,10 @@ export default {
         "no difference"
       ],
       "optionReasons": {
-        "difference-mcq-05": "本句指「兩個事物在相關方面沒有有意義的不同」。",
-        "difference-mcq-04": "「程度很小、細微的不同」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。",
-        "difference-mcq-03": "「程度明顯、重要或很大的差異」與本句語境不同。",
-        "difference-mcq-07": "「造成很大、明顯或重要的影響」與本句語境不同。",
-        "difference-mcq-02": "「某個特定方面所呈現出的不同／差異」與本句語境不同。"
+        "difference-mcq-05": "本句的「no difference」指「兩個事物在相關方面沒有有意義的不同」。",
+        "difference-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-05"
     },
@@ -953,10 +893,8 @@ export default {
       "options": [
         "difference-mcq-06",
         "difference-mcq-05",
-        "difference-mcq-07",
-        "difference-mcq-04",
-        "difference-mcq-08",
-        "difference-mcq-03"
+        "difference-mcq-12",
+        "difference-mcq-13"
       ],
       "explanation": "本句的「make a difference」指「對情況、結果或某人的狀態產生實際影響」。",
       "sentenceIndex": 14,
@@ -965,12 +903,10 @@ export default {
         "make a difference"
       ],
       "optionReasons": {
-        "difference-mcq-06": "本句指「對情況、結果或某人的狀態產生實際影響」。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。",
-        "difference-mcq-07": "「造成很大、明顯或重要的影響」與本句語境不同。",
-        "difference-mcq-04": "「程度很小、細微的不同」與本句語境不同。",
-        "difference-mcq-08": "「成為改變最終結果的關鍵因素；產生決定性作用」與本句語境不同。",
-        "difference-mcq-03": "「程度明顯、重要或很大的差異」與本句語境不同。"
+        "difference-mcq-06": "本句的「make a difference」指「對情況、結果或某人的狀態產生實際影響」。",
+        "difference-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-06"
     },
@@ -982,11 +918,9 @@ export default {
       "masked": "Your support really ____.",
       "options": [
         "difference-mcq-06",
-        "difference-mcq-05",
-        "difference-mcq-07",
-        "difference-mcq-04",
-        "difference-mcq-08",
-        "difference-mcq-03"
+        "difference-mcq-20",
+        "difference-mcq-12",
+        "difference-mcq-13"
       ],
       "explanation": "本句的「made a difference」指「對情況、結果或某人的狀態產生實際影響」。",
       "sentenceIndex": 15,
@@ -995,12 +929,10 @@ export default {
         "made a difference"
       ],
       "optionReasons": {
-        "difference-mcq-06": "本句指「對情況、結果或某人的狀態產生實際影響」。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。",
-        "difference-mcq-07": "「造成很大、明顯或重要的影響」與本句語境不同。",
-        "difference-mcq-04": "「程度很小、細微的不同」與本句語境不同。",
-        "difference-mcq-08": "「成為改變最終結果的關鍵因素；產生決定性作用」與本句語境不同。",
-        "difference-mcq-03": "「程度明顯、重要或很大的差異」與本句語境不同。"
+        "difference-mcq-06": "本句的「made a difference」指「對情況、結果或某人的狀態產生實際影響」。",
+        "difference-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-06"
     },
@@ -1012,11 +944,7 @@ export default {
       "masked": "Better communication can ____.",
       "options": [
         "difference-mcq-07",
-        "difference-mcq-06",
-        "difference-mcq-08",
-        "difference-mcq-05",
-        "difference-mcq-09",
-        "difference-mcq-04"
+        "difference-mcq-10"
       ],
       "explanation": "本句的「make a huge difference」指「造成很大、明顯或重要的影響」。",
       "sentenceIndex": 16,
@@ -1025,12 +953,8 @@ export default {
         "make a huge difference"
       ],
       "optionReasons": {
-        "difference-mcq-07": "本句指「造成很大、明顯或重要的影響」。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。",
-        "difference-mcq-08": "「成為改變最終結果的關鍵因素；產生決定性作用」與本句語境不同。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。",
-        "difference-mcq-09": "「對最終結果或情況不產生影響」與本句語境不同。",
-        "difference-mcq-04": "「程度很小、細微的不同」與本句語境不同。"
+        "difference-mcq-07": "本句的「make a huge difference」指「造成很大、明顯或重要的影響」。",
+        "difference-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-07"
     },
@@ -1042,11 +966,8 @@ export default {
       "masked": "Her feedback ____ to my confidence.",
       "options": [
         "difference-mcq-07",
-        "difference-mcq-06",
-        "difference-mcq-08",
-        "difference-mcq-05",
-        "difference-mcq-09",
-        "difference-mcq-04"
+        "difference-mcq-13",
+        "difference-mcq-01"
       ],
       "explanation": "本句的「made a real difference」指「造成很大、明顯或重要的影響」。",
       "sentenceIndex": 17,
@@ -1055,12 +976,9 @@ export default {
         "made a real difference"
       ],
       "optionReasons": {
-        "difference-mcq-07": "本句指「造成很大、明顯或重要的影響」。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。",
-        "difference-mcq-08": "「成為改變最終結果的關鍵因素；產生決定性作用」與本句語境不同。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。",
-        "difference-mcq-09": "「對最終結果或情況不產生影響」與本句語境不同。",
-        "difference-mcq-04": "「程度很小、細微的不同」與本句語境不同。"
+        "difference-mcq-07": "本句的「made a real difference」指「造成很大、明顯或重要的影響」。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-07"
     },
@@ -1072,11 +990,8 @@ export default {
       "masked": "A little preparation can ____.",
       "options": [
         "difference-mcq-08",
-        "difference-mcq-07",
-        "difference-mcq-09",
-        "difference-mcq-06",
-        "difference-mcq-10",
-        "difference-mcq-05"
+        "difference-mcq-05",
+        "difference-mcq-13"
       ],
       "explanation": "本句的「make all the difference」指「成為改變最終結果的關鍵因素；產生決定性作用」。",
       "sentenceIndex": 18,
@@ -1085,12 +1000,9 @@ export default {
         "make all the difference"
       ],
       "optionReasons": {
-        "difference-mcq-08": "本句指「成為改變最終結果的關鍵因素；產生決定性作用」。",
-        "difference-mcq-07": "「造成很大、明顯或重要的影響」與本句語境不同。",
-        "difference-mcq-09": "「對最終結果或情況不產生影響」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。",
-        "difference-mcq-10": "「能辨認兩者之間的不同」與本句語境不同。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。"
+        "difference-mcq-08": "本句的「make all the difference」指「成為改變最終結果的關鍵因素；產生決定性作用」。",
+        "difference-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-08"
     },
@@ -1102,11 +1014,7 @@ export default {
       "masked": "Her encouragement ____ when I was struggling.",
       "options": [
         "difference-mcq-08",
-        "difference-mcq-07",
-        "difference-mcq-09",
-        "difference-mcq-06",
-        "difference-mcq-10",
-        "difference-mcq-05"
+        "difference-mcq-10"
       ],
       "explanation": "本句的「made all the difference」指「成為改變最終結果的關鍵因素；產生決定性作用」。",
       "sentenceIndex": 19,
@@ -1115,12 +1023,8 @@ export default {
         "made all the difference"
       ],
       "optionReasons": {
-        "difference-mcq-08": "本句指「成為改變最終結果的關鍵因素；產生決定性作用」。",
-        "difference-mcq-07": "「造成很大、明顯或重要的影響」與本句語境不同。",
-        "difference-mcq-09": "「對最終結果或情況不產生影響」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。",
-        "difference-mcq-10": "「能辨認兩者之間的不同」與本句語境不同。",
-        "difference-mcq-05": "「兩個事物在相關方面沒有有意義的不同」與本句語境不同。"
+        "difference-mcq-08": "本句的「made all the difference」指「成為改變最終結果的關鍵因素；產生決定性作用」。",
+        "difference-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-08"
     },
@@ -1132,11 +1036,8 @@ export default {
       "masked": "It ____ what time we leave.",
       "options": [
         "difference-mcq-09",
-        "difference-mcq-08",
-        "difference-mcq-10",
-        "difference-mcq-07",
-        "difference-mcq-11",
-        "difference-mcq-06"
+        "difference-mcq-03",
+        "difference-mcq-13"
       ],
       "explanation": "本句的「makes no difference」指「對最終結果或情況不產生影響」。",
       "sentenceIndex": 20,
@@ -1145,12 +1046,9 @@ export default {
         "makes no difference"
       ],
       "optionReasons": {
-        "difference-mcq-09": "本句指「對最終結果或情況不產生影響」。",
-        "difference-mcq-08": "「成為改變最終結果的關鍵因素；產生決定性作用」與本句語境不同。",
-        "difference-mcq-10": "「能辨認兩者之間的不同」與本句語境不同。",
-        "difference-mcq-07": "「造成很大、明顯或重要的影響」與本句語境不同。",
-        "difference-mcq-11": "「察覺某人／某物相較之前或其他事物已有不同」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。"
+        "difference-mcq-09": "本句的「makes no difference」指「對最終結果或情況不產生影響」。",
+        "difference-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-09"
     },
@@ -1162,11 +1060,9 @@ export default {
       "masked": "His apology ____ to her decision.",
       "options": [
         "difference-mcq-09",
-        "difference-mcq-08",
-        "difference-mcq-10",
-        "difference-mcq-07",
-        "difference-mcq-11",
-        "difference-mcq-06"
+        "difference-mcq-04",
+        "difference-mcq-12",
+        "difference-mcq-13"
       ],
       "explanation": "本句的「made no difference」指「對最終結果或情況不產生影響」。",
       "sentenceIndex": 21,
@@ -1175,12 +1071,10 @@ export default {
         "made no difference"
       ],
       "optionReasons": {
-        "difference-mcq-09": "本句指「對最終結果或情況不產生影響」。",
-        "difference-mcq-08": "「成為改變最終結果的關鍵因素；產生決定性作用」與本句語境不同。",
-        "difference-mcq-10": "「能辨認兩者之間的不同」與本句語境不同。",
-        "difference-mcq-07": "「造成很大、明顯或重要的影響」與本句語境不同。",
-        "difference-mcq-11": "「察覺某人／某物相較之前或其他事物已有不同」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。"
+        "difference-mcq-09": "本句的「made no difference」指「對最終結果或情況不產生影響」。",
+        "difference-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-09"
     },
@@ -1192,11 +1086,9 @@ export default {
       "masked": "The change ____ to the final result.",
       "options": [
         "difference-mcq-09",
-        "difference-mcq-08",
-        "difference-mcq-10",
-        "difference-mcq-07",
-        "difference-mcq-11",
-        "difference-mcq-06"
+        "difference-mcq-17",
+        "difference-mcq-01",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「made little difference」指「對最終結果或情況不產生影響」。",
       "sentenceIndex": 22,
@@ -1205,12 +1097,10 @@ export default {
         "made little difference"
       ],
       "optionReasons": {
-        "difference-mcq-09": "本句指「對最終結果或情況不產生影響」。",
-        "difference-mcq-08": "「成為改變最終結果的關鍵因素；產生決定性作用」與本句語境不同。",
-        "difference-mcq-10": "「能辨認兩者之間的不同」與本句語境不同。",
-        "difference-mcq-07": "「造成很大、明顯或重要的影響」與本句語境不同。",
-        "difference-mcq-11": "「察覺某人／某物相較之前或其他事物已有不同」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。"
+        "difference-mcq-09": "本句的「made little difference」指「對最終結果或情況不產生影響」。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-09"
     },
@@ -1222,11 +1112,9 @@ export default {
       "masked": "Extra practice made only a ____.",
       "options": [
         "difference-mcq-09",
-        "difference-mcq-08",
-        "difference-mcq-10",
-        "difference-mcq-07",
-        "difference-mcq-11",
-        "difference-mcq-06"
+        "difference-mcq-05",
+        "difference-mcq-13",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「small difference」指「對最終結果或情況不產生影響」。",
       "sentenceIndex": 23,
@@ -1235,12 +1123,10 @@ export default {
         "small difference"
       ],
       "optionReasons": {
-        "difference-mcq-09": "本句指「對最終結果或情況不產生影響」。",
-        "difference-mcq-08": "「成為改變最終結果的關鍵因素；產生決定性作用」與本句語境不同。",
-        "difference-mcq-10": "「能辨認兩者之間的不同」與本句語境不同。",
-        "difference-mcq-07": "「造成很大、明顯或重要的影響」與本句語境不同。",
-        "difference-mcq-11": "「察覺某人／某物相較之前或其他事物已有不同」與本句語境不同。",
-        "difference-mcq-06": "「對情況、結果或某人的狀態產生實際影響」與本句語境不同。"
+        "difference-mcq-09": "本句的「small difference」指「對最終結果或情況不產生影響」。",
+        "difference-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-09"
     },
@@ -1252,11 +1138,7 @@ export default {
       "masked": "I can’t ____ between the two versions.",
       "options": [
         "difference-mcq-10",
-        "difference-mcq-09",
-        "difference-mcq-11",
-        "difference-mcq-08",
-        "difference-mcq-12",
-        "difference-mcq-07"
+        "difference-mcq-08"
       ],
       "explanation": "本句的「tell the difference」指「能辨認兩者之間的不同」。",
       "sentenceIndex": 24,
@@ -1265,12 +1147,8 @@ export default {
         "tell the difference"
       ],
       "optionReasons": {
-        "difference-mcq-10": "本句指「能辨認兩者之間的不同」。",
-        "difference-mcq-09": "「對最終結果或情況不產生影響」與本句語境不同。",
-        "difference-mcq-11": "「察覺某人／某物相較之前或其他事物已有不同」與本句語境不同。",
-        "difference-mcq-08": "「成為改變最終結果的關鍵因素；產生決定性作用」與本句語境不同。",
-        "difference-mcq-12": "「相較之前所出現的明顯變化」與本句語境不同。",
-        "difference-mcq-07": "「造成很大、明顯或重要的影響」與本句語境不同。"
+        "difference-mcq-10": "本句的「tell the difference」指「能辨認兩者之間的不同」。",
+        "difference-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-10"
     },
@@ -1283,10 +1161,7 @@ export default {
       "options": [
         "difference-mcq-10",
         "difference-mcq-09",
-        "difference-mcq-11",
-        "difference-mcq-08",
-        "difference-mcq-12",
-        "difference-mcq-07"
+        "difference-mcq-12"
       ],
       "explanation": "本句的「tell the difference」指「能辨認兩者之間的不同」。",
       "sentenceIndex": 25,
@@ -1295,12 +1170,9 @@ export default {
         "tell the difference"
       ],
       "optionReasons": {
-        "difference-mcq-10": "本句指「能辨認兩者之間的不同」。",
-        "difference-mcq-09": "「對最終結果或情況不產生影響」與本句語境不同。",
-        "difference-mcq-11": "「察覺某人／某物相較之前或其他事物已有不同」與本句語境不同。",
-        "difference-mcq-08": "「成為改變最終結果的關鍵因素；產生決定性作用」與本句語境不同。",
-        "difference-mcq-12": "「相較之前所出現的明顯變化」與本句語境不同。",
-        "difference-mcq-07": "「造成很大、明顯或重要的影響」與本句語境不同。"
+        "difference-mcq-10": "本句的「tell the difference」指「能辨認兩者之間的不同」。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-10"
     },
@@ -1312,11 +1184,8 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "difference-mcq-11",
-        "difference-mcq-10",
-        "difference-mcq-12",
         "difference-mcq-09",
-        "difference-mcq-13",
-        "difference-mcq-08"
+        "difference-mcq-17"
       ],
       "explanation": "本句的「see the difference」指「察覺某人／某物相較之前或其他事物已有不同」。",
       "sentenceIndex": 26,
@@ -1325,12 +1194,9 @@ export default {
         "see the difference"
       ],
       "optionReasons": {
-        "difference-mcq-11": "本句指「察覺某人／某物相較之前或其他事物已有不同」。",
-        "difference-mcq-10": "「能辨認兩者之間的不同」與本句語境不同。",
-        "difference-mcq-12": "「相較之前所出現的明顯變化」與本句語境不同。",
-        "difference-mcq-09": "「對最終結果或情況不產生影響」與本句語境不同。",
-        "difference-mcq-13": "「人與人之間在意見、立場或看法上的分歧」與本句語境不同。",
-        "difference-mcq-08": "「成為改變最終結果的關鍵因素；產生決定性作用」與本句語境不同。"
+        "difference-mcq-11": "本句的「see the difference」指「察覺某人／某物相較之前或其他事物已有不同」。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-11"
     },
@@ -1342,11 +1208,8 @@ export default {
       "masked": "I noticed a ____ after a few weeks.",
       "options": [
         "difference-mcq-11",
-        "difference-mcq-10",
-        "difference-mcq-12",
-        "difference-mcq-09",
         "difference-mcq-13",
-        "difference-mcq-08"
+        "difference-mcq-07"
       ],
       "explanation": "本句的「difference」指「察覺某人／某物相較之前或其他事物已有不同」。",
       "sentenceIndex": 27,
@@ -1355,12 +1218,9 @@ export default {
         "difference"
       ],
       "optionReasons": {
-        "difference-mcq-11": "本句指「察覺某人／某物相較之前或其他事物已有不同」。",
-        "difference-mcq-10": "「能辨認兩者之間的不同」與本句語境不同。",
-        "difference-mcq-12": "「相較之前所出現的明顯變化」與本句語境不同。",
-        "difference-mcq-09": "「對最終結果或情況不產生影響」與本句語境不同。",
-        "difference-mcq-13": "「人與人之間在意見、立場或看法上的分歧」與本句語境不同。",
-        "difference-mcq-08": "「成為改變最終結果的關鍵因素；產生決定性作用」與本句語境不同。"
+        "difference-mcq-11": "本句的「difference」指「察覺某人／某物相較之前或其他事物已有不同」。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-11"
     },
@@ -1372,11 +1232,9 @@ export default {
       "masked": "I can see a real ____ in her confidence.",
       "options": [
         "difference-mcq-12",
-        "difference-mcq-11",
-        "difference-mcq-13",
-        "difference-mcq-10",
-        "difference-mcq-14",
-        "difference-mcq-09"
+        "difference-mcq-15",
+        "difference-mcq-06",
+        "difference-mcq-17"
       ],
       "explanation": "本句的「difference」指「相較之前所出現的明顯變化」。",
       "sentenceIndex": 28,
@@ -1385,12 +1243,10 @@ export default {
         "difference"
       ],
       "optionReasons": {
-        "difference-mcq-12": "本句指「相較之前所出現的明顯變化」。",
-        "difference-mcq-11": "「察覺某人／某物相較之前或其他事物已有不同」與本句語境不同。",
-        "difference-mcq-13": "「人與人之間在意見、立場或看法上的分歧」與本句語境不同。",
-        "difference-mcq-10": "「能辨認兩者之間的不同」與本句語境不同。",
-        "difference-mcq-14": "「雙方存在的意見分歧、矛盾或不同立場」與本句語境不同。",
-        "difference-mcq-09": "「對最終結果或情況不產生影響」與本句語境不同。"
+        "difference-mcq-12": "本句的「difference」指「相較之前所出現的明顯變化」。",
+        "difference-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-12"
     },
@@ -1402,11 +1258,9 @@ export default {
       "masked": "The treatment made a noticeable ____.",
       "options": [
         "difference-mcq-12",
-        "difference-mcq-11",
-        "difference-mcq-13",
-        "difference-mcq-10",
-        "difference-mcq-14",
-        "difference-mcq-09"
+        "difference-mcq-24",
+        "difference-mcq-20",
+        "difference-mcq-06"
       ],
       "explanation": "本句的「difference」指「相較之前所出現的明顯變化」。",
       "sentenceIndex": 29,
@@ -1415,12 +1269,10 @@ export default {
         "difference"
       ],
       "optionReasons": {
-        "difference-mcq-12": "本句指「相較之前所出現的明顯變化」。",
-        "difference-mcq-11": "「察覺某人／某物相較之前或其他事物已有不同」與本句語境不同。",
-        "difference-mcq-13": "「人與人之間在意見、立場或看法上的分歧」與本句語境不同。",
-        "difference-mcq-10": "「能辨認兩者之間的不同」與本句語境不同。",
-        "difference-mcq-14": "「雙方存在的意見分歧、矛盾或不同立場」與本句語境不同。",
-        "difference-mcq-09": "「對最終結果或情況不產生影響」與本句語境不同。"
+        "difference-mcq-12": "本句的「difference」指「相較之前所出現的明顯變化」。",
+        "difference-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-12"
     },
@@ -1432,11 +1284,9 @@ export default {
       "masked": "They had a ____.",
       "options": [
         "difference-mcq-13",
-        "difference-mcq-12",
-        "difference-mcq-14",
-        "difference-mcq-11",
-        "difference-mcq-15",
-        "difference-mcq-10"
+        "difference-mcq-20",
+        "difference-mcq-09",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「difference of opinion」指「人與人之間在意見、立場或看法上的分歧」。",
       "sentenceIndex": 30,
@@ -1445,12 +1295,10 @@ export default {
         "difference of opinion"
       ],
       "optionReasons": {
-        "difference-mcq-13": "本句指「人與人之間在意見、立場或看法上的分歧」。",
-        "difference-mcq-12": "「相較之前所出現的明顯變化」與本句語境不同。",
-        "difference-mcq-14": "「雙方存在的意見分歧、矛盾或不同立場」與本句語境不同。",
-        "difference-mcq-11": "「察覺某人／某物相較之前或其他事物已有不同」與本句語境不同。",
-        "difference-mcq-15": "「對同一問題持有不同看法；意見分歧」與本句語境不同。",
-        "difference-mcq-10": "「能辨認兩者之間的不同」與本句語境不同。"
+        "difference-mcq-13": "本句的「difference of opinion」指「人與人之間在意見、立場或看法上的分歧」。",
+        "difference-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-13"
     },
@@ -1462,11 +1310,9 @@ export default {
       "masked": "We have our ____, but we still work well together.",
       "options": [
         "difference-mcq-13",
-        "difference-mcq-12",
-        "difference-mcq-14",
-        "difference-mcq-11",
-        "difference-mcq-15",
-        "difference-mcq-10"
+        "difference-mcq-02",
+        "difference-mcq-09",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「differences」指「人與人之間在意見、立場或看法上的分歧」。",
       "sentenceIndex": 31,
@@ -1475,12 +1321,10 @@ export default {
         "differences"
       ],
       "optionReasons": {
-        "difference-mcq-13": "本句指「人與人之間在意見、立場或看法上的分歧」。",
-        "difference-mcq-12": "「相較之前所出現的明顯變化」與本句語境不同。",
-        "difference-mcq-14": "「雙方存在的意見分歧、矛盾或不同立場」與本句語境不同。",
-        "difference-mcq-11": "「察覺某人／某物相較之前或其他事物已有不同」與本句語境不同。",
-        "difference-mcq-15": "「對同一問題持有不同看法；意見分歧」與本句語境不同。",
-        "difference-mcq-10": "「能辨認兩者之間的不同」與本句語境不同。"
+        "difference-mcq-13": "本句的「differences」指「人與人之間在意見、立場或看法上的分歧」。",
+        "difference-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-13"
     },
@@ -1492,11 +1336,9 @@ export default {
       "masked": "The two sides are trying to resolve their ____.",
       "options": [
         "difference-mcq-14",
-        "difference-mcq-13",
-        "difference-mcq-15",
-        "difference-mcq-12",
-        "difference-mcq-16",
-        "difference-mcq-11"
+        "difference-mcq-09",
+        "difference-mcq-17",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「differences」指「雙方存在的意見分歧、矛盾或不同立場」。",
       "sentenceIndex": 32,
@@ -1505,12 +1347,10 @@ export default {
         "differences"
       ],
       "optionReasons": {
-        "difference-mcq-14": "本句指「雙方存在的意見分歧、矛盾或不同立場」。",
-        "difference-mcq-13": "「人與人之間在意見、立場或看法上的分歧」與本句語境不同。",
-        "difference-mcq-15": "「對同一問題持有不同看法；意見分歧」與本句語境不同。",
-        "difference-mcq-12": "「相較之前所出現的明顯變化」與本句語境不同。",
-        "difference-mcq-16": "「兩個數值相差的數量；差值」與本句語境不同。",
-        "difference-mcq-11": "「察覺某人／某物相較之前或其他事物已有不同」與本句語境不同。"
+        "difference-mcq-14": "本句的「differences」指「雙方存在的意見分歧、矛盾或不同立場」。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-14"
     },
@@ -1522,11 +1362,9 @@ export default {
       "masked": "They put aside their ____.",
       "options": [
         "difference-mcq-14",
-        "difference-mcq-13",
-        "difference-mcq-15",
         "difference-mcq-12",
-        "difference-mcq-16",
-        "difference-mcq-11"
+        "difference-mcq-17",
+        "difference-mcq-06"
       ],
       "explanation": "本句的「differences」指「雙方存在的意見分歧、矛盾或不同立場」。",
       "sentenceIndex": 33,
@@ -1535,12 +1373,10 @@ export default {
         "differences"
       ],
       "optionReasons": {
-        "difference-mcq-14": "本句指「雙方存在的意見分歧、矛盾或不同立場」。",
-        "difference-mcq-13": "「人與人之間在意見、立場或看法上的分歧」與本句語境不同。",
-        "difference-mcq-15": "「對同一問題持有不同看法；意見分歧」與本句語境不同。",
-        "difference-mcq-12": "「相較之前所出現的明顯變化」與本句語境不同。",
-        "difference-mcq-16": "「兩個數值相差的數量；差值」與本句語境不同。",
-        "difference-mcq-11": "「察覺某人／某物相較之前或其他事物已有不同」與本句語境不同。"
+        "difference-mcq-14": "本句的「differences」指「雙方存在的意見分歧、矛盾或不同立場」。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-14"
     },
@@ -1552,11 +1388,8 @@ export default {
       "masked": "We had a ____ about the strategy.",
       "options": [
         "difference-mcq-15",
-        "difference-mcq-14",
-        "difference-mcq-16",
-        "difference-mcq-13",
-        "difference-mcq-17",
-        "difference-mcq-12"
+        "difference-mcq-07",
+        "difference-mcq-17"
       ],
       "explanation": "本句的「difference of opinion」指「對同一問題持有不同看法；意見分歧」。",
       "sentenceIndex": 34,
@@ -1565,12 +1398,9 @@ export default {
         "difference of opinion"
       ],
       "optionReasons": {
-        "difference-mcq-15": "本句指「對同一問題持有不同看法；意見分歧」。",
-        "difference-mcq-14": "「雙方存在的意見分歧、矛盾或不同立場」與本句語境不同。",
-        "difference-mcq-16": "「兩個數值相差的數量；差值」與本句語境不同。",
-        "difference-mcq-13": "「人與人之間在意見、立場或看法上的分歧」與本句語境不同。",
-        "difference-mcq-17": "「兩個價格之間的差額／價差」與本句語境不同。",
-        "difference-mcq-12": "「相較之前所出現的明顯變化」與本句語境不同。"
+        "difference-mcq-15": "本句的「difference of opinion」指「對同一問題持有不同看法；意見分歧」。",
+        "difference-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-15"
     },
@@ -1582,11 +1412,8 @@ export default {
       "masked": "A ____ does not have to become a conflict.",
       "options": [
         "difference-mcq-15",
-        "difference-mcq-14",
-        "difference-mcq-16",
-        "difference-mcq-13",
-        "difference-mcq-17",
-        "difference-mcq-12"
+        "difference-mcq-08",
+        "difference-mcq-17"
       ],
       "explanation": "本句的「difference of opinion」指「對同一問題持有不同看法；意見分歧」。",
       "sentenceIndex": 35,
@@ -1595,12 +1422,9 @@ export default {
         "difference of opinion"
       ],
       "optionReasons": {
-        "difference-mcq-15": "本句指「對同一問題持有不同看法；意見分歧」。",
-        "difference-mcq-14": "「雙方存在的意見分歧、矛盾或不同立場」與本句語境不同。",
-        "difference-mcq-16": "「兩個數值相差的數量；差值」與本句語境不同。",
-        "difference-mcq-13": "「人與人之間在意見、立場或看法上的分歧」與本句語境不同。",
-        "difference-mcq-17": "「兩個價格之間的差額／價差」與本句語境不同。",
-        "difference-mcq-12": "「相較之前所出現的明顯變化」與本句語境不同。"
+        "difference-mcq-15": "本句的「difference of opinion」指「對同一問題持有不同看法；意見分歧」。",
+        "difference-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-15"
     },
@@ -1612,11 +1436,9 @@ export default {
       "masked": "The ____ between 10 and 6 is 4.",
       "options": [
         "difference-mcq-17",
-        "difference-mcq-16",
-        "difference-mcq-18",
-        "difference-mcq-15",
-        "difference-mcq-19",
-        "difference-mcq-14"
+        "difference-mcq-12",
+        "difference-mcq-09",
+        "difference-mcq-15"
       ],
       "explanation": "本句的「difference」指「兩個價格之間的差額／價差」。",
       "sentenceIndex": 36,
@@ -1625,12 +1447,10 @@ export default {
         "difference"
       ],
       "optionReasons": {
-        "difference-mcq-17": "本句指「兩個價格之間的差額／價差」。",
-        "difference-mcq-16": "「兩個數值相差的數量；差值」與本句語境不同。",
-        "difference-mcq-18": "「不同文化在價值、習慣、行為等方面的差異」與本句語境不同。",
-        "difference-mcq-15": "「對同一問題持有不同看法；意見分歧」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。",
-        "difference-mcq-14": "「雙方存在的意見分歧、矛盾或不同立場」與本句語境不同。"
+        "difference-mcq-17": "本句的「difference」指「兩個價格之間的差額／價差」。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-17"
     },
@@ -1642,11 +1462,9 @@ export default {
       "masked": "There is a $20 ____ in price.",
       "options": [
         "difference-mcq-17",
-        "difference-mcq-16",
-        "difference-mcq-18",
-        "difference-mcq-15",
-        "difference-mcq-19",
-        "difference-mcq-14"
+        "difference-mcq-14",
+        "difference-mcq-09",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「difference」指「兩個價格之間的差額／價差」。",
       "sentenceIndex": 37,
@@ -1655,12 +1473,10 @@ export default {
         "difference"
       ],
       "optionReasons": {
-        "difference-mcq-17": "本句指「兩個價格之間的差額／價差」。",
-        "difference-mcq-16": "「兩個數值相差的數量；差值」與本句語境不同。",
-        "difference-mcq-18": "「不同文化在價值、習慣、行為等方面的差異」與本句語境不同。",
-        "difference-mcq-15": "「對同一問題持有不同看法；意見分歧」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。",
-        "difference-mcq-14": "「雙方存在的意見分歧、矛盾或不同立場」與本句語境不同。"
+        "difference-mcq-17": "本句的「difference」指「兩個價格之間的差額／價差」。",
+        "difference-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-17"
     },
@@ -1672,11 +1488,9 @@ export default {
       "masked": "The ____ is quite small.",
       "options": [
         "difference-mcq-17",
-        "difference-mcq-16",
-        "difference-mcq-18",
-        "difference-mcq-15",
-        "difference-mcq-19",
-        "difference-mcq-14"
+        "difference-mcq-06",
+        "difference-mcq-22",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「price difference」指「兩個價格之間的差額／價差」。",
       "sentenceIndex": 38,
@@ -1685,12 +1499,10 @@ export default {
         "price difference"
       ],
       "optionReasons": {
-        "difference-mcq-17": "本句指「兩個價格之間的差額／價差」。",
-        "difference-mcq-16": "「兩個數值相差的數量；差值」與本句語境不同。",
-        "difference-mcq-18": "「不同文化在價值、習慣、行為等方面的差異」與本句語境不同。",
-        "difference-mcq-15": "「對同一問題持有不同看法；意見分歧」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。",
-        "difference-mcq-14": "「雙方存在的意見分歧、矛盾或不同立場」與本句語境不同。"
+        "difference-mcq-17": "本句的「price difference」指「兩個價格之間的差額／價差」。",
+        "difference-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-17"
     },
@@ -1702,11 +1514,9 @@ export default {
       "masked": "Is the quality worth the ____?",
       "options": [
         "difference-mcq-17",
-        "difference-mcq-16",
-        "difference-mcq-18",
-        "difference-mcq-15",
-        "difference-mcq-19",
-        "difference-mcq-14"
+        "difference-mcq-12",
+        "difference-mcq-22",
+        "difference-mcq-09"
       ],
       "explanation": "本句的「difference in price」指「兩個價格之間的差額／價差」。",
       "sentenceIndex": 39,
@@ -1715,12 +1525,10 @@ export default {
         "difference in price"
       ],
       "optionReasons": {
-        "difference-mcq-17": "本句指「兩個價格之間的差額／價差」。",
-        "difference-mcq-16": "「兩個數值相差的數量；差值」與本句語境不同。",
-        "difference-mcq-18": "「不同文化在價值、習慣、行為等方面的差異」與本句語境不同。",
-        "difference-mcq-15": "「對同一問題持有不同看法；意見分歧」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。",
-        "difference-mcq-14": "「雙方存在的意見分歧、矛盾或不同立場」與本句語境不同。"
+        "difference-mcq-17": "本句的「difference in price」指「兩個價格之間的差額／價差」。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-17"
     },
@@ -1732,11 +1540,9 @@ export default {
       "masked": "____ can affect communication.",
       "options": [
         "difference-mcq-18",
-        "difference-mcq-17",
-        "difference-mcq-19",
-        "difference-mcq-16",
-        "difference-mcq-20",
-        "difference-mcq-15"
+        "difference-mcq-09",
+        "difference-mcq-13",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「Cultural differences」指「不同文化在價值、習慣、行為等方面的差異」。",
       "sentenceIndex": 40,
@@ -1745,12 +1551,10 @@ export default {
         "Cultural differences"
       ],
       "optionReasons": {
-        "difference-mcq-18": "本句指「不同文化在價值、習慣、行為等方面的差異」。",
-        "difference-mcq-17": "「兩個價格之間的差額／價差」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。",
-        "difference-mcq-16": "「兩個數值相差的數量；差值」與本句語境不同。",
-        "difference-mcq-20": "「不相同的；不同的」與本句語境不同。",
-        "difference-mcq-15": "「對同一問題持有不同看法；意見分歧」與本句語境不同。"
+        "difference-mcq-18": "本句的「Cultural differences」指「不同文化在價值、習慣、行為等方面的差異」。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-18"
     },
@@ -1762,11 +1566,9 @@ export default {
       "masked": "Travelling made her more aware of ____.",
       "options": [
         "difference-mcq-18",
-        "difference-mcq-17",
-        "difference-mcq-19",
-        "difference-mcq-16",
-        "difference-mcq-20",
-        "difference-mcq-15"
+        "difference-mcq-13",
+        "difference-mcq-06",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「cultural differences」指「不同文化在價值、習慣、行為等方面的差異」。",
       "sentenceIndex": 41,
@@ -1775,12 +1577,10 @@ export default {
         "cultural differences"
       ],
       "optionReasons": {
-        "difference-mcq-18": "本句指「不同文化在價值、習慣、行為等方面的差異」。",
-        "difference-mcq-17": "「兩個價格之間的差額／價差」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。",
-        "difference-mcq-16": "「兩個數值相差的數量；差值」與本句語境不同。",
-        "difference-mcq-20": "「不相同的；不同的」與本句語境不同。",
-        "difference-mcq-15": "「對同一問題持有不同看法；意見分歧」與本句語境不同。"
+        "difference-mcq-18": "本句的「cultural differences」指「不同文化在價值、習慣、行為等方面的差異」。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-18"
     },
@@ -1792,11 +1592,8 @@ export default {
       "masked": "Teachers need to consider ____.",
       "options": [
         "difference-mcq-19",
-        "difference-mcq-18",
-        "difference-mcq-20",
-        "difference-mcq-17",
-        "difference-mcq-21",
-        "difference-mcq-16"
+        "difference-mcq-13",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「individual differences」指「不同個人在能力、特質、需求等方面的差異」。",
       "sentenceIndex": 42,
@@ -1805,12 +1602,9 @@ export default {
         "individual differences"
       ],
       "optionReasons": {
-        "difference-mcq-19": "本句指「不同個人在能力、特質、需求等方面的差異」。",
-        "difference-mcq-18": "「不同文化在價值、習慣、行為等方面的差異」與本句語境不同。",
-        "difference-mcq-20": "「不相同的；不同的」與本句語境不同。",
-        "difference-mcq-17": "「兩個價格之間的差額／價差」與本句語境不同。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-16": "「兩個數值相差的數量；差值」與本句語境不同。"
+        "difference-mcq-19": "本句的「individual differences」指「不同個人在能力、特質、需求等方面的差異」。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-19"
     },
@@ -1822,11 +1616,8 @@ export default {
       "masked": "Learning speed varies because of ____.",
       "options": [
         "difference-mcq-19",
-        "difference-mcq-18",
-        "difference-mcq-20",
-        "difference-mcq-17",
-        "difference-mcq-21",
-        "difference-mcq-16"
+        "difference-mcq-08",
+        "difference-mcq-24"
       ],
       "explanation": "本句的「individual differences」指「不同個人在能力、特質、需求等方面的差異」。",
       "sentenceIndex": 43,
@@ -1835,12 +1626,9 @@ export default {
         "individual differences"
       ],
       "optionReasons": {
-        "difference-mcq-19": "本句指「不同個人在能力、特質、需求等方面的差異」。",
-        "difference-mcq-18": "「不同文化在價值、習慣、行為等方面的差異」與本句語境不同。",
-        "difference-mcq-20": "「不相同的；不同的」與本句語境不同。",
-        "difference-mcq-17": "「兩個價格之間的差額／價差」與本句語境不同。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-16": "「兩個數值相差的數量；差值」與本句語境不同。"
+        "difference-mcq-19": "本句的「individual differences」指「不同個人在能力、特質、需求等方面的差異」。",
+        "difference-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-19"
     },
@@ -1852,11 +1640,8 @@ export default {
       "masked": "We have ____.",
       "options": [
         "difference-mcq-20",
-        "difference-mcq-19",
-        "difference-mcq-21",
-        "difference-mcq-18",
-        "difference-mcq-22",
-        "difference-mcq-17"
+        "difference-mcq-07",
+        "difference-mcq-24"
       ],
       "explanation": "本句的「different opinions」指「不相同的；不同的」。",
       "sentenceIndex": 44,
@@ -1865,12 +1650,9 @@ export default {
         "different opinions"
       ],
       "optionReasons": {
-        "difference-mcq-20": "本句指「不相同的；不同的」。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-18": "「不同文化在價值、習慣、行為等方面的差異」與本句語境不同。",
-        "difference-mcq-22": "「對某議題持不同意見；有分歧」與本句語境不同。",
-        "difference-mcq-17": "「兩個價格之間的差額／價差」與本句語境不同。"
+        "difference-mcq-20": "本句的「different opinions」指「不相同的；不同的」。",
+        "difference-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-20"
     },
@@ -1882,11 +1664,9 @@ export default {
       "masked": "Her approach is completely ____.",
       "options": [
         "difference-mcq-20",
-        "difference-mcq-19",
-        "difference-mcq-21",
-        "difference-mcq-18",
-        "difference-mcq-22",
-        "difference-mcq-17"
+        "difference-mcq-24",
+        "difference-mcq-09",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「different from mine」指「不相同的；不同的」。",
       "sentenceIndex": 45,
@@ -1895,12 +1675,10 @@ export default {
         "different from mine"
       ],
       "optionReasons": {
-        "difference-mcq-20": "本句指「不相同的；不同的」。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-18": "「不同文化在價值、習慣、行為等方面的差異」與本句語境不同。",
-        "difference-mcq-22": "「對某議題持不同意見；有分歧」與本句語境不同。",
-        "difference-mcq-17": "「兩個價格之間的差額／價差」與本句語境不同。"
+        "difference-mcq-20": "本句的「different from mine」指「不相同的；不同的」。",
+        "difference-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-20"
     },
@@ -1912,11 +1690,8 @@ export default {
       "masked": "This version is ____.",
       "options": [
         "difference-mcq-20",
-        "difference-mcq-19",
-        "difference-mcq-21",
-        "difference-mcq-18",
-        "difference-mcq-22",
-        "difference-mcq-17"
+        "difference-mcq-24",
+        "difference-mcq-08"
       ],
       "explanation": "本句的「different from the original」指「不相同的；不同的」。",
       "sentenceIndex": 46,
@@ -1925,12 +1700,9 @@ export default {
         "different from the original"
       ],
       "optionReasons": {
-        "difference-mcq-20": "本句指「不相同的；不同的」。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-18": "「不同文化在價值、習慣、行為等方面的差異」與本句語境不同。",
-        "difference-mcq-22": "「對某議題持不同意見；有分歧」與本句語境不同。",
-        "difference-mcq-17": "「兩個價格之間的差額／價差」與本句語境不同。"
+        "difference-mcq-20": "本句的「different from the original」指「不相同的；不同的」。",
+        "difference-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-20"
     },
@@ -1942,11 +1714,9 @@ export default {
       "masked": "Her experience was very ____.",
       "options": [
         "difference-mcq-20",
-        "difference-mcq-19",
-        "difference-mcq-21",
-        "difference-mcq-18",
-        "difference-mcq-22",
-        "difference-mcq-17"
+        "difference-mcq-17",
+        "difference-mcq-12",
+        "difference-mcq-06"
       ],
       "explanation": "本句的「different from mine」指「不相同的；不同的」。",
       "sentenceIndex": 47,
@@ -1955,12 +1725,10 @@ export default {
         "different from mine"
       ],
       "optionReasons": {
-        "difference-mcq-20": "本句指「不相同的；不同的」。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-18": "「不同文化在價值、習慣、行為等方面的差異」與本句語境不同。",
-        "difference-mcq-22": "「對某議題持不同意見；有分歧」與本句語境不同。",
-        "difference-mcq-17": "「兩個價格之間的差額／價差」與本句語境不同。"
+        "difference-mcq-20": "本句的「different from mine」指「不相同的；不同的」。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-20"
     },
@@ -1972,11 +1740,9 @@ export default {
       "masked": "People learn ____.",
       "options": [
         "difference-mcq-20",
-        "difference-mcq-19",
-        "difference-mcq-21",
-        "difference-mcq-18",
-        "difference-mcq-22",
-        "difference-mcq-17"
+        "difference-mcq-17",
+        "difference-mcq-09",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「differently」指「不相同的；不同的」。",
       "sentenceIndex": 48,
@@ -1985,12 +1751,10 @@ export default {
         "differently"
       ],
       "optionReasons": {
-        "difference-mcq-20": "本句指「不相同的；不同的」。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-18": "「不同文化在價值、習慣、行為等方面的差異」與本句語境不同。",
-        "difference-mcq-22": "「對某議題持不同意見；有分歧」與本句語境不同。",
-        "difference-mcq-17": "「兩個價格之間的差額／價差」與本句語境不同。"
+        "difference-mcq-20": "本句的「differently」指「不相同的；不同的」。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-20"
     },
@@ -2002,11 +1766,8 @@ export default {
       "masked": "I see the issue ____ now.",
       "options": [
         "difference-mcq-20",
-        "difference-mcq-19",
-        "difference-mcq-21",
-        "difference-mcq-18",
-        "difference-mcq-22",
-        "difference-mcq-17"
+        "difference-mcq-07",
+        "difference-mcq-24"
       ],
       "explanation": "本句的「differently」指「不相同的；不同的」。",
       "sentenceIndex": 49,
@@ -2015,12 +1776,9 @@ export default {
         "differently"
       ],
       "optionReasons": {
-        "difference-mcq-20": "本句指「不相同的；不同的」。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-18": "「不同文化在價值、習慣、行為等方面的差異」與本句語境不同。",
-        "difference-mcq-22": "「對某議題持不同意見；有分歧」與本句語境不同。",
-        "difference-mcq-17": "「兩個價格之間的差額／價差」與本句語境不同。"
+        "difference-mcq-20": "本句的「differently」指「不相同的；不同的」。",
+        "difference-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-20"
     },
@@ -2032,11 +1790,8 @@ export default {
       "masked": "The two methods ____ in several ways.",
       "options": [
         "difference-mcq-21",
-        "difference-mcq-20",
-        "difference-mcq-22",
-        "difference-mcq-19",
-        "difference-mcq-23",
-        "difference-mcq-18"
+        "difference-mcq-07",
+        "difference-mcq-24"
       ],
       "explanation": "本句的「differ」指「在某方面不相同；有差異」。",
       "sentenceIndex": 50,
@@ -2045,12 +1800,9 @@ export default {
         "differ"
       ],
       "optionReasons": {
-        "difference-mcq-21": "本句指「在某方面不相同；有差異」。",
-        "difference-mcq-20": "「不相同的；不同的」與本句語境不同。",
-        "difference-mcq-22": "「對某議題持不同意見；有分歧」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。",
-        "difference-mcq-23": "「非常巨大、明顯的差異；天壤之別」與本句語境不同。",
-        "difference-mcq-18": "「不同文化在價值、習慣、行為等方面的差異」與本句語境不同。"
+        "difference-mcq-21": "本句的「differ」指「在某方面不相同；有差異」。",
+        "difference-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-21"
     },
@@ -2062,11 +1814,8 @@ export default {
       "masked": "Opinions ____ on the issue.",
       "options": [
         "difference-mcq-21",
-        "difference-mcq-20",
-        "difference-mcq-22",
-        "difference-mcq-19",
-        "difference-mcq-23",
-        "difference-mcq-18"
+        "difference-mcq-07",
+        "difference-mcq-24"
       ],
       "explanation": "本句的「differ」指「在某方面不相同；有差異」。",
       "sentenceIndex": 51,
@@ -2075,12 +1824,9 @@ export default {
         "differ"
       ],
       "optionReasons": {
-        "difference-mcq-21": "本句指「在某方面不相同；有差異」。",
-        "difference-mcq-20": "「不相同的；不同的」與本句語境不同。",
-        "difference-mcq-22": "「對某議題持不同意見；有分歧」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。",
-        "difference-mcq-23": "「非常巨大、明顯的差異；天壤之別」與本句語境不同。",
-        "difference-mcq-18": "「不同文化在價值、習慣、行為等方面的差異」與本句語境不同。"
+        "difference-mcq-21": "本句的「differ」指「在某方面不相同；有差異」。",
+        "difference-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-21"
     },
@@ -2092,11 +1838,9 @@ export default {
       "masked": "Her approach ____.",
       "options": [
         "difference-mcq-22",
-        "difference-mcq-21",
-        "difference-mcq-23",
-        "difference-mcq-20",
-        "difference-mcq-24",
-        "difference-mcq-19"
+        "difference-mcq-17",
+        "difference-mcq-06",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「differs from mine」指「對某議題持不同意見；有分歧」。",
       "sentenceIndex": 52,
@@ -2105,12 +1849,10 @@ export default {
         "differs from mine"
       ],
       "optionReasons": {
-        "difference-mcq-22": "本句指「對某議題持不同意見；有分歧」。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-23": "「非常巨大、明顯的差異；天壤之別」與本句語境不同。",
-        "difference-mcq-20": "「不相同的；不同的」與本句語境不同。",
-        "difference-mcq-24": "「在兩個數值或立場之間取中間值作為折衷」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。"
+        "difference-mcq-22": "本句的「differs from mine」指「對某議題持不同意見；有分歧」。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-22"
     },
@@ -2122,11 +1864,8 @@ export default {
       "masked": "The two models ____ in size.",
       "options": [
         "difference-mcq-22",
-        "difference-mcq-21",
-        "difference-mcq-23",
-        "difference-mcq-20",
-        "difference-mcq-24",
-        "difference-mcq-19"
+        "difference-mcq-08",
+        "difference-mcq-17"
       ],
       "explanation": "本句的「differ from each other」指「對某議題持不同意見；有分歧」。",
       "sentenceIndex": 53,
@@ -2135,12 +1874,9 @@ export default {
         "differ from each other"
       ],
       "optionReasons": {
-        "difference-mcq-22": "本句指「對某議題持不同意見；有分歧」。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-23": "「非常巨大、明顯的差異；天壤之別」與本句語境不同。",
-        "difference-mcq-20": "「不相同的；不同的」與本句語境不同。",
-        "difference-mcq-24": "「在兩個數值或立場之間取中間值作為折衷」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。"
+        "difference-mcq-22": "本句的「differ from each other」指「對某議題持不同意見；有分歧」。",
+        "difference-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-22"
     },
@@ -2152,11 +1888,9 @@ export default {
       "masked": "Experts ____ the best solution.",
       "options": [
         "difference-mcq-22",
-        "difference-mcq-21",
-        "difference-mcq-23",
-        "difference-mcq-20",
-        "difference-mcq-24",
-        "difference-mcq-19"
+        "difference-mcq-06",
+        "difference-mcq-12",
+        "difference-mcq-17"
       ],
       "explanation": "本句的「differ on」指「對某議題持不同意見；有分歧」。",
       "sentenceIndex": 54,
@@ -2165,12 +1899,10 @@ export default {
         "differ on"
       ],
       "optionReasons": {
-        "difference-mcq-22": "本句指「對某議題持不同意見；有分歧」。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-23": "「非常巨大、明顯的差異；天壤之別」與本句語境不同。",
-        "difference-mcq-20": "「不相同的；不同的」與本句語境不同。",
-        "difference-mcq-24": "「在兩個數值或立場之間取中間值作為折衷」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。"
+        "difference-mcq-22": "本句的「differ on」指「對某議題持不同意見；有分歧」。",
+        "difference-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-22"
     },
@@ -2182,11 +1914,9 @@ export default {
       "masked": "The two groups ____ the strategy.",
       "options": [
         "difference-mcq-22",
-        "difference-mcq-21",
-        "difference-mcq-23",
-        "difference-mcq-20",
-        "difference-mcq-24",
-        "difference-mcq-19"
+        "difference-mcq-09",
+        "difference-mcq-12",
+        "difference-mcq-17"
       ],
       "explanation": "本句的「differed over」指「對某議題持不同意見；有分歧」。",
       "sentenceIndex": 55,
@@ -2195,12 +1925,10 @@ export default {
         "differed over"
       ],
       "optionReasons": {
-        "difference-mcq-22": "本句指「對某議題持不同意見；有分歧」。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-23": "「非常巨大、明顯的差異；天壤之別」與本句語境不同。",
-        "difference-mcq-20": "「不相同的；不同的」與本句語境不同。",
-        "difference-mcq-24": "「在兩個數值或立場之間取中間值作為折衷」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。"
+        "difference-mcq-22": "本句的「differed over」指「對某議題持不同意見；有分歧」。",
+        "difference-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-22"
     },
@@ -2212,11 +1940,8 @@ export default {
       "masked": "Good lighting can make ____.",
       "options": [
         "difference-mcq-23",
-        "difference-mcq-22",
-        "difference-mcq-24",
-        "difference-mcq-21",
-        "difference-mcq-20",
-        "difference-mcq-19"
+        "difference-mcq-08",
+        "difference-mcq-24"
       ],
       "explanation": "本句的「a world of difference」指「非常巨大、明顯的差異；天壤之別」。",
       "sentenceIndex": 56,
@@ -2225,12 +1950,9 @@ export default {
         "a world of difference"
       ],
       "optionReasons": {
-        "difference-mcq-23": "本句指「非常巨大、明顯的差異；天壤之別」。",
-        "difference-mcq-22": "「對某議題持不同意見；有分歧」與本句語境不同。",
-        "difference-mcq-24": "「在兩個數值或立場之間取中間值作為折衷」與本句語境不同。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-20": "「不相同的；不同的」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。"
+        "difference-mcq-23": "本句的「a world of difference」指「非常巨大、明顯的差異；天壤之別」。",
+        "difference-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-23"
     },
@@ -2242,11 +1964,8 @@ export default {
       "masked": "A supportive teacher can make ____ to a shy student.",
       "options": [
         "difference-mcq-23",
-        "difference-mcq-22",
-        "difference-mcq-24",
-        "difference-mcq-21",
-        "difference-mcq-20",
-        "difference-mcq-19"
+        "difference-mcq-08",
+        "difference-mcq-13"
       ],
       "explanation": "本句的「a world of difference」指「非常巨大、明顯的差異；天壤之別」。",
       "sentenceIndex": 57,
@@ -2255,12 +1974,9 @@ export default {
         "a world of difference"
       ],
       "optionReasons": {
-        "difference-mcq-23": "本句指「非常巨大、明顯的差異；天壤之別」。",
-        "difference-mcq-22": "「對某議題持不同意見；有分歧」與本句語境不同。",
-        "difference-mcq-24": "「在兩個數值或立場之間取中間值作為折衷」與本句語境不同。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-20": "「不相同的；不同的」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。"
+        "difference-mcq-23": "本句的「a world of difference」指「非常巨大、明顯的差異；天壤之別」。",
+        "difference-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-23"
     },
@@ -2272,11 +1988,8 @@ export default {
       "masked": "You want 60 and I want 40, so let’s ____ at 50.",
       "options": [
         "difference-mcq-24",
-        "difference-mcq-23",
-        "difference-mcq-22",
-        "difference-mcq-21",
         "difference-mcq-20",
-        "difference-mcq-19"
+        "difference-mcq-07"
       ],
       "explanation": "本句的「split the difference」指「在兩個數值或立場之間取中間值作為折衷」。",
       "sentenceIndex": 58,
@@ -2285,12 +1998,9 @@ export default {
         "split the difference"
       ],
       "optionReasons": {
-        "difference-mcq-24": "本句指「在兩個數值或立場之間取中間值作為折衷」。",
-        "difference-mcq-23": "「非常巨大、明顯的差異；天壤之別」與本句語境不同。",
-        "difference-mcq-22": "「對某議題持不同意見；有分歧」與本句語境不同。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-20": "「不相同的；不同的」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。"
+        "difference-mcq-24": "本句的「split the difference」指「在兩個數值或立場之間取中間值作為折衷」。",
+        "difference-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-24"
     },
@@ -2302,11 +2012,8 @@ export default {
       "masked": "They agreed to ____.",
       "options": [
         "difference-mcq-24",
-        "difference-mcq-23",
-        "difference-mcq-22",
-        "difference-mcq-21",
-        "difference-mcq-20",
-        "difference-mcq-19"
+        "difference-mcq-19",
+        "difference-mcq-12"
       ],
       "explanation": "本句的「split the difference」指「在兩個數值或立場之間取中間值作為折衷」。",
       "sentenceIndex": 59,
@@ -2315,12 +2022,9 @@ export default {
         "split the difference"
       ],
       "optionReasons": {
-        "difference-mcq-24": "本句指「在兩個數值或立場之間取中間值作為折衷」。",
-        "difference-mcq-23": "「非常巨大、明顯的差異；天壤之別」與本句語境不同。",
-        "difference-mcq-22": "「對某議題持不同意見；有分歧」與本句語境不同。",
-        "difference-mcq-21": "「在某方面不相同；有差異」與本句語境不同。",
-        "difference-mcq-20": "「不相同的；不同的」與本句語境不同。",
-        "difference-mcq-19": "「不同個人在能力、特質、需求等方面的差異」與本句語境不同。"
+        "difference-mcq-24": "本句的「split the difference」指「在兩個數值或立場之間取中間值作為折衷」。",
+        "difference-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "difference-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "difference-mcq-24"
     }
@@ -2332,5 +2036,7 @@ export default {
     "sha256": "d196930a1365e7f4e4ddc9d9c68915caaa1b5300f0d81c5c5636aa90a3ae8197",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -254,7 +254,7 @@ export default {
     },
     {
       "id": "develop-mcq-13",
-      "title": "表示由……發展而來",
+      "title": "由……發展而來",
       "form": "Useful construction: develop from — 由……發展而來",
       "en": "Useful construction: develop from — 由……發展而來",
       "zh": "表示由……發展而來",
@@ -301,10 +301,8 @@ export default {
       "masked": "The book explains how human beings ____ over time.",
       "options": [
         "develop-mcq-01",
-        "develop-mcq-02",
-        "develop-mcq-03",
+        "develop-pdf-001",
         "develop-mcq-04",
-        "develop-mcq-05",
         "develop-mcq-06"
       ],
       "explanation": "本句的「developed」指「隨時間逐步發展、演變、成熟或變得更複雜」。",
@@ -314,12 +312,10 @@ export default {
         "developed"
       ],
       "optionReasons": {
-        "develop-mcq-01": "本句指「隨時間逐步發展、演變、成熟或變得更複雜」。",
-        "develop-mcq-02": "「透過設計、測試和改良逐步開發或研製某物」是「develop — create/product/system」的用法，與本句語境不同。",
-        "develop-mcq-03": "「使能力、特質、習慣或關係逐步形成並增強」是「develop — skill/quality/relationship」的用法，與本句語境不同。",
-        "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。"
+        "develop-mcq-01": "本句的「developed」指「隨時間逐步發展、演變、成熟或變得更複雜」。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-01"
     },
@@ -331,10 +327,8 @@ export default {
       "masked": "The town ____ rapidly after the railway arrived.",
       "options": [
         "develop-mcq-01",
-        "develop-mcq-02",
-        "develop-mcq-03",
         "develop-mcq-04",
-        "develop-mcq-05",
+        "develop-pdf-001",
         "develop-mcq-06"
       ],
       "explanation": "本句的「developed」指「隨時間逐步發展、演變、成熟或變得更複雜」。",
@@ -344,12 +338,10 @@ export default {
         "developed"
       ],
       "optionReasons": {
-        "develop-mcq-01": "本句指「隨時間逐步發展、演變、成熟或變得更複雜」。",
-        "develop-mcq-02": "「透過設計、測試和改良逐步開發或研製某物」是「develop — create/product/system」的用法，與本句語境不同。",
-        "develop-mcq-03": "「使能力、特質、習慣或關係逐步形成並增強」是「develop — skill/quality/relationship」的用法，與本句語境不同。",
-        "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。"
+        "develop-mcq-01": "本句的「developed」指「隨時間逐步發展、演變、成熟或變得更複雜」。",
+        "develop-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-01"
     },
@@ -361,10 +353,8 @@ export default {
       "masked": "Her confidence ____ slowly.",
       "options": [
         "develop-mcq-01",
-        "develop-mcq-02",
-        "develop-mcq-03",
+        "develop-pdf-001",
         "develop-mcq-04",
-        "develop-mcq-05",
         "develop-mcq-06"
       ],
       "explanation": "本句的「developed」指「隨時間逐步發展、演變、成熟或變得更複雜」。",
@@ -374,12 +364,10 @@ export default {
         "developed"
       ],
       "optionReasons": {
-        "develop-mcq-01": "本句指「隨時間逐步發展、演變、成熟或變得更複雜」。",
-        "develop-mcq-02": "「透過設計、測試和改良逐步開發或研製某物」是「develop — create/product/system」的用法，與本句語境不同。",
-        "develop-mcq-03": "「使能力、特質、習慣或關係逐步形成並增強」是「develop — skill/quality/relationship」的用法，與本句語境不同。",
-        "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。"
+        "develop-mcq-01": "本句的「developed」指「隨時間逐步發展、演變、成熟或變得更複雜」。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-01"
     },
@@ -391,11 +379,9 @@ export default {
       "masked": "The company is ____ a new app.",
       "options": [
         "develop-mcq-02",
-        "develop-mcq-01",
-        "develop-mcq-03",
+        "develop-mcq-13",
         "develop-mcq-04",
-        "develop-mcq-05",
-        "develop-mcq-06"
+        "develop-mcq-12"
       ],
       "explanation": "本句的「developing」指「透過設計、測試和改良逐步開發或研製某物」。",
       "sentenceIndex": 3,
@@ -404,12 +390,10 @@ export default {
         "developing"
       ],
       "optionReasons": {
-        "develop-mcq-02": "本句指「透過設計、測試和改良逐步開發或研製某物」。",
-        "develop-mcq-01": "「隨時間逐步發展、演變、成熟或變得更複雜」是「develop — grow/change gradually」的用法，與本句語境不同。",
-        "develop-mcq-03": "「使能力、特質、習慣或關係逐步形成並增強」是「develop — skill/quality/relationship」的用法，與本句語境不同。",
-        "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。"
+        "develop-mcq-02": "本句的「developing」指「透過設計、測試和改良逐步開發或研製某物」。",
+        "develop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-02"
     },
@@ -421,11 +405,9 @@ export default {
       "masked": "Scientists ____ a new method.",
       "options": [
         "develop-mcq-02",
-        "develop-mcq-01",
-        "develop-mcq-03",
         "develop-mcq-04",
-        "develop-mcq-05",
-        "develop-mcq-06"
+        "develop-mcq-13",
+        "develop-mcq-12"
       ],
       "explanation": "本句的「developed」指「透過設計、測試和改良逐步開發或研製某物」。",
       "sentenceIndex": 4,
@@ -434,12 +416,10 @@ export default {
         "developed"
       ],
       "optionReasons": {
-        "develop-mcq-02": "本句指「透過設計、測試和改良逐步開發或研製某物」。",
-        "develop-mcq-01": "「隨時間逐步發展、演變、成熟或變得更複雜」是「develop — grow/change gradually」的用法，與本句語境不同。",
-        "develop-mcq-03": "「使能力、特質、習慣或關係逐步形成並增強」是「develop — skill/quality/relationship」的用法，與本句語境不同。",
-        "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。"
+        "develop-mcq-02": "本句的「developed」指「透過設計、測試和改良逐步開發或研製某物」。",
+        "develop-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-02"
     },
@@ -451,11 +431,9 @@ export default {
       "masked": "Reading helps children ____ language skills.",
       "options": [
         "develop-mcq-03",
-        "develop-mcq-02",
-        "develop-mcq-04",
-        "develop-mcq-01",
-        "develop-mcq-05",
-        "develop-mcq-06"
+        "develop-mcq-13",
+        "develop-pdf-001",
+        "develop-mcq-04"
       ],
       "explanation": "本句的「develop」指「使能力、特質、習慣或關係逐步形成並增強」。",
       "sentenceIndex": 5,
@@ -464,12 +442,10 @@ export default {
         "develop"
       ],
       "optionReasons": {
-        "develop-mcq-03": "本句指「使能力、特質、習慣或關係逐步形成並增強」。",
-        "develop-mcq-02": "「透過設計、測試和改良逐步開發或研製某物」是「develop — create/product/system」的用法，與本句語境不同。",
-        "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。",
-        "develop-mcq-01": "「隨時間逐步發展、演變、成熟或變得更複雜」是「develop — grow/change gradually」的用法，與本句語境不同。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。"
+        "develop-mcq-03": "本句的「develop」指「使能力、特質、習慣或關係逐步形成並增強」。",
+        "develop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-03"
     },
@@ -481,11 +457,9 @@ export default {
       "masked": "They gradually ____ a close friendship.",
       "options": [
         "develop-mcq-03",
-        "develop-mcq-02",
-        "develop-mcq-04",
-        "develop-mcq-01",
-        "develop-mcq-05",
-        "develop-mcq-06"
+        "develop-pdf-001",
+        "develop-mcq-13",
+        "develop-mcq-04"
       ],
       "explanation": "本句的「developed」指「使能力、特質、習慣或關係逐步形成並增強」。",
       "sentenceIndex": 6,
@@ -494,12 +468,10 @@ export default {
         "developed"
       ],
       "optionReasons": {
-        "develop-mcq-03": "本句指「使能力、特質、習慣或關係逐步形成並增強」。",
-        "develop-mcq-02": "「透過設計、測試和改良逐步開發或研製某物」是「develop — create/product/system」的用法，與本句語境不同。",
-        "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。",
-        "develop-mcq-01": "「隨時間逐步發展、演變、成熟或變得更複雜」是「develop — grow/change gradually」的用法，與本句語境不同。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。"
+        "develop-mcq-03": "本句的「developed」指「使能力、特質、習慣或關係逐步形成並增強」。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-03"
     },
@@ -511,11 +483,9 @@ export default {
       "masked": "He ____ a fever overnight.",
       "options": [
         "develop-mcq-04",
-        "develop-mcq-03",
-        "develop-mcq-05",
-        "develop-mcq-02",
-        "develop-mcq-06",
-        "develop-mcq-01"
+        "develop-mcq-13",
+        "develop-mcq-12",
+        "develop-mcq-06"
       ],
       "explanation": "本句的「developed」指「某種疾病、症狀、問題或特徵開始出現」。",
       "sentenceIndex": 7,
@@ -524,12 +494,10 @@ export default {
         "developed"
       ],
       "optionReasons": {
-        "develop-mcq-04": "本句指「某種疾病、症狀、問題或特徵開始出現」。",
-        "develop-mcq-03": "「使能力、特質、習慣或關係逐步形成並增強」是「develop — skill/quality/relationship」的用法，與本句語境不同。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
-        "develop-mcq-02": "「透過設計、測試和改良逐步開發或研製某物」是「develop — create/product/system」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。",
-        "develop-mcq-01": "「隨時間逐步發展、演變、成熟或變得更複雜」是「develop — grow/change gradually」的用法，與本句語境不同。"
+        "develop-mcq-04": "本句的「developed」指「某種疾病、症狀、問題或特徵開始出現」。",
+        "develop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-04"
     },
@@ -541,11 +509,9 @@ export default {
       "masked": "The machine ____ a fault.",
       "options": [
         "develop-mcq-04",
-        "develop-mcq-03",
-        "develop-mcq-05",
-        "develop-mcq-02",
+        "develop-mcq-13",
         "develop-mcq-06",
-        "develop-mcq-01"
+        "develop-mcq-12"
       ],
       "explanation": "本句的「developed」指「某種疾病、症狀、問題或特徵開始出現」。",
       "sentenceIndex": 8,
@@ -554,12 +520,10 @@ export default {
         "developed"
       ],
       "optionReasons": {
-        "develop-mcq-04": "本句指「某種疾病、症狀、問題或特徵開始出現」。",
-        "develop-mcq-03": "「使能力、特質、習慣或關係逐步形成並增強」是「develop — skill/quality/relationship」的用法，與本句語境不同。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
-        "develop-mcq-02": "「透過設計、測試和改良逐步開發或研製某物」是「develop — create/product/system」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。",
-        "develop-mcq-01": "「隨時間逐步發展、演變、成熟或變得更複雜」是「develop — grow/change gradually」的用法，與本句語境不同。"
+        "develop-mcq-04": "本句的「developed」指「某種疾病、症狀、問題或特徵開始出現」。",
+        "develop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-04"
     },
@@ -571,11 +535,9 @@ export default {
       "masked": "The situation ____ quickly.",
       "options": [
         "develop-mcq-05",
-        "develop-mcq-04",
+        "develop-mcq-13",
         "develop-mcq-06",
-        "develop-mcq-03",
-        "develop-mcq-07",
-        "develop-mcq-02"
+        "develop-pdf-001"
       ],
       "explanation": "本句的「developed」指「情況、事件或故事逐步展開或變化」。",
       "sentenceIndex": 9,
@@ -584,12 +546,10 @@ export default {
         "developed"
       ],
       "optionReasons": {
-        "develop-mcq-05": "本句指「情況、事件或故事逐步展開或變化」。",
-        "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。",
-        "develop-mcq-03": "「使能力、特質、習慣或關係逐步形成並增強」是「develop — skill/quality/relationship」的用法，與本句語境不同。",
-        "develop-mcq-07": "「對菲林／照片進行化學顯影或沖洗」是「develop — photography」的用法，與本句語境不同。",
-        "develop-mcq-02": "「透過設計、測試和改良逐步開發或研製某物」是「develop — create/product/system」的用法，與本句語境不同。"
+        "develop-mcq-05": "本句的「developed」指「情況、事件或故事逐步展開或變化」。",
+        "develop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-05"
     },
@@ -601,11 +561,9 @@ export default {
       "masked": "We will see how the story ____.",
       "options": [
         "develop-mcq-05",
-        "develop-mcq-04",
-        "develop-mcq-06",
-        "develop-mcq-03",
-        "develop-mcq-07",
-        "develop-mcq-02"
+        "develop-mcq-11",
+        "develop-pdf-001",
+        "develop-mcq-06"
       ],
       "explanation": "本句的「develops」指「情況、事件或故事逐步展開或變化」。",
       "sentenceIndex": 10,
@@ -614,12 +572,10 @@ export default {
         "develops"
       ],
       "optionReasons": {
-        "develop-mcq-05": "本句指「情況、事件或故事逐步展開或變化」。",
-        "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。",
-        "develop-mcq-03": "「使能力、特質、習慣或關係逐步形成並增強」是「develop — skill/quality/relationship」的用法，與本句語境不同。",
-        "develop-mcq-07": "「對菲林／照片進行化學顯影或沖洗」是「develop — photography」的用法，與本句語境不同。",
-        "develop-mcq-02": "「透過設計、測試和改良逐步開發或研製某物」是「develop — create/product/system」的用法，與本句語境不同。"
+        "develop-mcq-05": "本句的「develops」指「情況、事件或故事逐步展開或變化」。",
+        "develop-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-05"
     },
@@ -631,11 +587,9 @@ export default {
       "masked": "The company plans to ____ the land.",
       "options": [
         "develop-mcq-06",
-        "develop-mcq-05",
-        "develop-mcq-07",
-        "develop-mcq-04",
-        "develop-mcq-08",
-        "develop-mcq-03"
+        "develop-pdf-001",
+        "develop-mcq-12",
+        "develop-mcq-11"
       ],
       "explanation": "本句的「develop」指「對土地進行建設、規劃或商業／住宅開發」。",
       "sentenceIndex": 11,
@@ -644,12 +598,10 @@ export default {
         "develop"
       ],
       "optionReasons": {
-        "develop-mcq-06": "本句指「對土地進行建設、規劃或商業／住宅開發」。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
-        "develop-mcq-07": "「對菲林／照片進行化學顯影或沖洗」是「develop — photography」的用法，與本句語境不同。",
-        "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。",
-        "develop-mcq-08": "「把想法、論點或主題進一步展開、深入闡述」是「develop — idea/argument」的用法，與本句語境不同。",
-        "develop-mcq-03": "「使能力、特質、習慣或關係逐步形成並增強」是「develop — skill/quality/relationship」的用法，與本句語境不同。"
+        "develop-mcq-06": "本句的「develop」指「對土地進行建設、規劃或商業／住宅開發」。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-06"
     },
@@ -661,11 +613,9 @@ export default {
       "masked": "The area was heavily ____ in the 1990s.",
       "options": [
         "develop-mcq-06",
-        "develop-mcq-05",
-        "develop-mcq-07",
-        "develop-mcq-04",
-        "develop-mcq-08",
-        "develop-mcq-03"
+        "develop-mcq-12",
+        "develop-pdf-001",
+        "develop-mcq-13"
       ],
       "explanation": "本句的「developed」指「對土地進行建設、規劃或商業／住宅開發」。",
       "sentenceIndex": 12,
@@ -674,12 +624,10 @@ export default {
         "developed"
       ],
       "optionReasons": {
-        "develop-mcq-06": "本句指「對土地進行建設、規劃或商業／住宅開發」。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
-        "develop-mcq-07": "「對菲林／照片進行化學顯影或沖洗」是「develop — photography」的用法，與本句語境不同。",
-        "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。",
-        "develop-mcq-08": "「把想法、論點或主題進一步展開、深入闡述」是「develop — idea/argument」的用法，與本句語境不同。",
-        "develop-mcq-03": "「使能力、特質、習慣或關係逐步形成並增強」是「develop — skill/quality/relationship」的用法，與本句語境不同。"
+        "develop-mcq-06": "本句的「developed」指「對土地進行建設、規劃或商業／住宅開發」。",
+        "develop-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-06"
     },
@@ -692,10 +640,8 @@ export default {
       "options": [
         "develop-pdf-001",
         "develop-mcq-06",
-        "develop-mcq-08",
-        "develop-mcq-05",
-        "develop-mcq-09",
-        "develop-mcq-04"
+        "develop-mcq-01",
+        "develop-mcq-08"
       ],
       "explanation": "本句的「developed」指「透過化學處理令菲林上的影像顯現出來」。",
       "sentenceIndex": 13,
@@ -704,12 +650,10 @@ export default {
         "developed"
       ],
       "optionReasons": {
-        "develop-pdf-001": "本句指「透過化學處理令菲林上的影像顯現出來」。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。",
-        "develop-mcq-08": "「把想法、論點或主題進一步展開、深入闡述」是「develop — idea/argument」的用法，與本句語境不同。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
-        "develop-mcq-09": "「發展；新進展；開發建設」是「development」的用法，與本句語境不同。",
-        "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。"
+        "develop-pdf-001": "本句的「developed」指「透過化學處理令菲林上的影像顯現出來」。",
+        "develop-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-pdf-001"
     },
@@ -723,9 +667,7 @@ export default {
         "develop-pdf-001",
         "develop-mcq-06",
         "develop-mcq-08",
-        "develop-mcq-05",
-        "develop-mcq-09",
-        "develop-mcq-04"
+        "develop-mcq-01"
       ],
       "explanation": "本句的「developed」指「透過化學處理令菲林上的影像顯現出來」。",
       "sentenceIndex": 14,
@@ -734,12 +676,10 @@ export default {
         "developed"
       ],
       "optionReasons": {
-        "develop-pdf-001": "本句指「透過化學處理令菲林上的影像顯現出來」。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。",
-        "develop-mcq-08": "「把想法、論點或主題進一步展開、深入闡述」是「develop — idea/argument」的用法，與本句語境不同。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。",
-        "develop-mcq-09": "「發展；新進展；開發建設」是「development」的用法，與本句語境不同。",
-        "develop-mcq-04": "「某種疾病、症狀、問題或特徵開始出現」是「develop — disease/problem/feature」的用法，與本句語境不同。"
+        "develop-pdf-001": "本句的「developed」指「透過化學處理令菲林上的影像顯現出來」。",
+        "develop-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-pdf-001"
     },
@@ -751,11 +691,9 @@ export default {
       "masked": "You need to ____ this argument further.",
       "options": [
         "develop-mcq-08",
-        "develop-mcq-07",
-        "develop-mcq-09",
-        "develop-mcq-06",
-        "develop-mcq-10",
-        "develop-mcq-05"
+        "develop-mcq-12",
+        "develop-pdf-001",
+        "develop-mcq-13"
       ],
       "explanation": "本句的「develop」指「把想法、論點或主題進一步展開、深入闡述」。",
       "sentenceIndex": 15,
@@ -764,12 +702,10 @@ export default {
         "develop"
       ],
       "optionReasons": {
-        "develop-mcq-08": "本句指「把想法、論點或主題進一步展開、深入闡述」。",
-        "develop-mcq-07": "「對菲林／照片進行化學顯影或沖洗」是「develop — photography」的用法，與本句語境不同。",
-        "develop-mcq-09": "「發展；新進展；開發建設」是「development」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。",
-        "develop-mcq-10": "「軟件／產品開發者；地產發展商」是「developer」的用法，與本句語境不同。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。"
+        "develop-mcq-08": "本句的「develop」指「把想法、論點或主題進一步展開、深入闡述」。",
+        "develop-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-08"
     },
@@ -781,11 +717,9 @@ export default {
       "masked": "The second chapter ____ the main idea.",
       "options": [
         "develop-mcq-08",
-        "develop-mcq-07",
-        "develop-mcq-09",
-        "develop-mcq-06",
-        "develop-mcq-10",
-        "develop-mcq-05"
+        "develop-mcq-12",
+        "develop-pdf-001",
+        "develop-mcq-13"
       ],
       "explanation": "本句的「develops」指「把想法、論點或主題進一步展開、深入闡述」。",
       "sentenceIndex": 16,
@@ -794,12 +728,10 @@ export default {
         "develops"
       ],
       "optionReasons": {
-        "develop-mcq-08": "本句指「把想法、論點或主題進一步展開、深入闡述」。",
-        "develop-mcq-07": "「對菲林／照片進行化學顯影或沖洗」是「develop — photography」的用法，與本句語境不同。",
-        "develop-mcq-09": "「發展；新進展；開發建設」是「development」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。",
-        "develop-mcq-10": "「軟件／產品開發者；地產發展商」是「developer」的用法，與本句語境不同。",
-        "develop-mcq-05": "「情況、事件或故事逐步展開或變化」是「develop — situation/story」的用法，與本句語境不同。"
+        "develop-mcq-08": "本句的「develops」指「把想法、論點或主題進一步展開、深入闡述」。",
+        "develop-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-08"
     },
@@ -811,11 +743,9 @@ export default {
       "masked": "The rapid ____ of the city changed the region.",
       "options": [
         "develop-mcq-09",
-        "develop-mcq-08",
-        "develop-mcq-10",
-        "develop-mcq-07",
-        "develop-mcq-11",
-        "develop-mcq-06"
+        "develop-mcq-12",
+        "develop-pdf-001",
+        "develop-mcq-04"
       ],
       "explanation": "本句的「development」指「發展；新進展；開發建設」。",
       "sentenceIndex": 17,
@@ -824,12 +754,10 @@ export default {
         "development"
       ],
       "optionReasons": {
-        "develop-mcq-09": "本句指「發展；新進展；開發建設」。",
-        "develop-mcq-08": "「把想法、論點或主題進一步展開、深入闡述」是「develop — idea/argument」的用法，與本句語境不同。",
-        "develop-mcq-10": "「軟件／產品開發者；地產發展商」是「developer」的用法，與本句語境不同。",
-        "develop-mcq-07": "「對菲林／照片進行化學顯影或沖洗」是「develop — photography」的用法，與本句語境不同。",
-        "develop-mcq-11": "「與成長、發育或發展過程有關的」是「Related form: developmental」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。"
+        "develop-mcq-09": "本句的「development」指「發展；新進展；開發建設」。",
+        "develop-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-09"
     },
@@ -841,11 +769,9 @@ export default {
       "masked": "There has been an important new ____.",
       "options": [
         "develop-mcq-09",
-        "develop-mcq-08",
-        "develop-mcq-10",
-        "develop-mcq-07",
-        "develop-mcq-11",
-        "develop-mcq-06"
+        "develop-pdf-001",
+        "develop-mcq-12",
+        "develop-mcq-04"
       ],
       "explanation": "本句的「development」指「發展；新進展；開發建設」。",
       "sentenceIndex": 18,
@@ -854,12 +780,10 @@ export default {
         "development"
       ],
       "optionReasons": {
-        "develop-mcq-09": "本句指「發展；新進展；開發建設」。",
-        "develop-mcq-08": "「把想法、論點或主題進一步展開、深入闡述」是「develop — idea/argument」的用法，與本句語境不同。",
-        "develop-mcq-10": "「軟件／產品開發者；地產發展商」是「developer」的用法，與本句語境不同。",
-        "develop-mcq-07": "「對菲林／照片進行化學顯影或沖洗」是「develop — photography」的用法，與本句語境不同。",
-        "develop-mcq-11": "「與成長、發育或發展過程有關的」是「Related form: developmental」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。"
+        "develop-mcq-09": "本句的「development」指「發展；新進展；開發建設」。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-09"
     },
@@ -871,11 +795,9 @@ export default {
       "masked": "A new housing ____ is being built nearby.",
       "options": [
         "develop-mcq-09",
-        "develop-mcq-08",
-        "develop-mcq-10",
-        "develop-mcq-07",
-        "develop-mcq-11",
-        "develop-mcq-06"
+        "develop-pdf-001",
+        "develop-mcq-12",
+        "develop-mcq-04"
       ],
       "explanation": "本句的「development」指「發展；新進展；開發建設」。",
       "sentenceIndex": 19,
@@ -884,12 +806,10 @@ export default {
         "development"
       ],
       "optionReasons": {
-        "develop-mcq-09": "本句指「發展；新進展；開發建設」。",
-        "develop-mcq-08": "「把想法、論點或主題進一步展開、深入闡述」是「develop — idea/argument」的用法，與本句語境不同。",
-        "develop-mcq-10": "「軟件／產品開發者；地產發展商」是「developer」的用法，與本句語境不同。",
-        "develop-mcq-07": "「對菲林／照片進行化學顯影或沖洗」是「develop — photography」的用法，與本句語境不同。",
-        "develop-mcq-11": "「與成長、發育或發展過程有關的」是「Related form: developmental」的用法，與本句語境不同。",
-        "develop-mcq-06": "「對土地進行建設、規劃或商業／住宅開發」是「develop — land」的用法，與本句語境不同。"
+        "develop-mcq-09": "本句的「development」指「發展；新進展；開發建設」。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-09"
     },
@@ -901,11 +821,9 @@ export default {
       "masked": "Children pass through different ____ stages.",
       "options": [
         "develop-mcq-11",
-        "develop-mcq-10",
-        "develop-mcq-12",
-        "develop-mcq-09",
-        "develop-mcq-13",
-        "develop-mcq-08"
+        "develop-mcq-04",
+        "develop-mcq-03",
+        "develop-pdf-001"
       ],
       "explanation": "本句的「developmental」指「與成長、發育或發展過程有關的」。",
       "sentenceIndex": 20,
@@ -914,12 +832,10 @@ export default {
         "developmental"
       ],
       "optionReasons": {
-        "develop-mcq-11": "本句指「與成長、發育或發展過程有關的」。",
-        "develop-mcq-10": "「軟件／產品開發者；地產發展商」是「developer」的用法，與本句語境不同。",
-        "develop-mcq-12": "「經過一段時間後逐漸變成另一種更完整／更嚴重的狀態」是「Useful construction: develop into — 發展成；變成」的用法，與本句語境不同。",
-        "develop-mcq-09": "「發展；新進展；開發建設」是「development」的用法，與本句語境不同。",
-        "develop-mcq-13": "「表示由……發展而來」是「Useful construction: develop from — 由……發展而來」的用法，與本句語境不同。",
-        "develop-mcq-08": "「把想法、論點或主題進一步展開、深入闡述」是「develop — idea/argument」的用法，與本句語境不同。"
+        "develop-mcq-11": "本句的「developmental」指「與成長、發育或發展過程有關的」。",
+        "develop-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-11"
     },
@@ -931,11 +847,9 @@ export default {
       "masked": "The village ____ into a large town.",
       "options": [
         "develop-mcq-12",
-        "develop-mcq-11",
-        "develop-mcq-13",
-        "develop-mcq-10",
         "develop-mcq-09",
-        "develop-mcq-08"
+        "develop-pdf-001",
+        "develop-mcq-04"
       ],
       "explanation": "本句的「developed」指「經過一段時間後逐漸變成另一種更完整／更嚴重的狀態」。",
       "sentenceIndex": 21,
@@ -944,12 +858,10 @@ export default {
         "developed"
       ],
       "optionReasons": {
-        "develop-mcq-12": "本句指「經過一段時間後逐漸變成另一種更完整／更嚴重的狀態」。",
-        "develop-mcq-11": "「與成長、發育或發展過程有關的」是「Related form: developmental」的用法，與本句語境不同。",
-        "develop-mcq-13": "「表示由……發展而來」是「Useful construction: develop from — 由……發展而來」的用法，與本句語境不同。",
-        "develop-mcq-10": "「軟件／產品開發者；地產發展商」是「developer」的用法，與本句語境不同。",
-        "develop-mcq-09": "「發展；新進展；開發建設」是「development」的用法，與本句語境不同。",
-        "develop-mcq-08": "「把想法、論點或主題進一步展開、深入闡述」是「develop — idea/argument」的用法，與本句語境不同。"
+        "develop-mcq-12": "本句的「developed」指「經過一段時間後逐漸變成另一種更完整／更嚴重的狀態」。",
+        "develop-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-12"
     },
@@ -961,11 +873,9 @@ export default {
       "masked": "The disagreement ____ into a serious conflict.",
       "options": [
         "develop-mcq-12",
-        "develop-mcq-11",
-        "develop-mcq-13",
-        "develop-mcq-10",
         "develop-mcq-09",
-        "develop-mcq-08"
+        "develop-mcq-04",
+        "develop-pdf-001"
       ],
       "explanation": "本句的「developed」指「經過一段時間後逐漸變成另一種更完整／更嚴重的狀態」。",
       "sentenceIndex": 22,
@@ -974,12 +884,10 @@ export default {
         "developed"
       ],
       "optionReasons": {
-        "develop-mcq-12": "本句指「經過一段時間後逐漸變成另一種更完整／更嚴重的狀態」。",
-        "develop-mcq-11": "「與成長、發育或發展過程有關的」是「Related form: developmental」的用法，與本句語境不同。",
-        "develop-mcq-13": "「表示由……發展而來」是「Useful construction: develop from — 由……發展而來」的用法，與本句語境不同。",
-        "develop-mcq-10": "「軟件／產品開發者；地產發展商」是「developer」的用法，與本句語境不同。",
-        "develop-mcq-09": "「發展；新進展；開發建設」是「development」的用法，與本句語境不同。",
-        "develop-mcq-08": "「把想法、論點或主題進一步展開、深入闡述」是「develop — idea/argument」的用法，與本句語境不同。"
+        "develop-mcq-12": "本句的「developed」指「經過一段時間後逐漸變成另一種更完整／更嚴重的狀態」。",
+        "develop-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "develop-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-12"
     },
@@ -992,10 +900,8 @@ export default {
       "options": [
         "develop-mcq-13",
         "develop-mcq-12",
-        "develop-mcq-11",
-        "develop-mcq-10",
-        "develop-mcq-09",
-        "develop-mcq-08"
+        "develop-mcq-03",
+        "develop-mcq-04"
       ],
       "explanation": "本句的「developed」指「表示由……發展而來」。",
       "sentenceIndex": 23,
@@ -1004,12 +910,10 @@ export default {
         "developed"
       ],
       "optionReasons": {
-        "develop-mcq-13": "本句指「表示由……發展而來」。",
-        "develop-mcq-12": "「經過一段時間後逐漸變成另一種更完整／更嚴重的狀態」是「Useful construction: develop into — 發展成；變成」的用法，與本句語境不同。",
-        "develop-mcq-11": "「與成長、發育或發展過程有關的」是「Related form: developmental」的用法，與本句語境不同。",
-        "develop-mcq-10": "「軟件／產品開發者；地產發展商」是「developer」的用法，與本句語境不同。",
-        "develop-mcq-09": "「發展；新進展；開發建設」是「development」的用法，與本句語境不同。",
-        "develop-mcq-08": "「把想法、論點或主題進一步展開、深入闡述」是「develop — idea/argument」的用法，與本句語境不同。"
+        "develop-mcq-13": "本句的「developed」指「表示由……發展而來」。",
+        "develop-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "develop-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "develop-mcq-13"
     }
@@ -1021,5 +925,7 @@ export default {
     "sha256": "8ea7d57d3f2bcfdea56f043f034008fddb0c79418bdc197a1a645d3a573e01ab",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -350,11 +350,7 @@ export default {
       "masked": "Kevin checked the shared ____ again.",
       "options": [
         "folder-mcq-01",
-        "folder-mcq-02",
-        "folder-mcq-03",
-        "folder-mcq-04",
-        "folder-mcq-05",
-        "folder-mcq-06"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「folder」指「資料夾」。",
       "sentenceIndex": 0,
@@ -363,12 +359,8 @@ export default {
         "folder"
       ],
       "optionReasons": {
-        "folder-mcq-01": "本句指「資料夾」。",
-        "folder-mcq-02": "「共享資料夾」是「shared folder」的用法，與本句語境不同。",
-        "folder-mcq-03": "「打開資料夾」是「open a folder」的用法，與本句語境不同。",
-        "folder-mcq-04": "「建立資料夾」是「create a folder」的用法，與本句語境不同。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。"
+        "folder-mcq-01": "本句的「folder」指「資料夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-01"
     },
@@ -380,11 +372,7 @@ export default {
       "masked": "I saved the file in the wrong ____.",
       "options": [
         "folder-mcq-01",
-        "folder-mcq-02",
-        "folder-mcq-03",
-        "folder-mcq-04",
-        "folder-mcq-05",
-        "folder-mcq-06"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「folder」指「資料夾」。",
       "sentenceIndex": 1,
@@ -393,12 +381,8 @@ export default {
         "folder"
       ],
       "optionReasons": {
-        "folder-mcq-01": "本句指「資料夾」。",
-        "folder-mcq-02": "「共享資料夾」是「shared folder」的用法，與本句語境不同。",
-        "folder-mcq-03": "「打開資料夾」是「open a folder」的用法，與本句語境不同。",
-        "folder-mcq-04": "「建立資料夾」是「create a folder」的用法，與本句語境不同。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。"
+        "folder-mcq-01": "本句的「folder」指「資料夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-01"
     },
@@ -410,11 +394,7 @@ export default {
       "masked": "Create a new ____ for the project.",
       "options": [
         "folder-mcq-01",
-        "folder-mcq-02",
-        "folder-mcq-03",
-        "folder-mcq-04",
-        "folder-mcq-05",
-        "folder-mcq-06"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「folder」指「資料夾」。",
       "sentenceIndex": 2,
@@ -423,12 +403,8 @@ export default {
         "folder"
       ],
       "optionReasons": {
-        "folder-mcq-01": "本句指「資料夾」。",
-        "folder-mcq-02": "「共享資料夾」是「shared folder」的用法，與本句語境不同。",
-        "folder-mcq-03": "「打開資料夾」是「open a folder」的用法，與本句語境不同。",
-        "folder-mcq-04": "「建立資料夾」是「create a folder」的用法，與本句語境不同。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。"
+        "folder-mcq-01": "本句的「folder」指「資料夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-01"
     },
@@ -440,11 +416,7 @@ export default {
       "masked": "Put the slides in the ____.",
       "options": [
         "folder-mcq-02",
-        "folder-mcq-01",
-        "folder-mcq-03",
-        "folder-mcq-04",
-        "folder-mcq-05",
-        "folder-mcq-06"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「shared folder」指「共享資料夾」。",
       "sentenceIndex": 3,
@@ -453,12 +425,8 @@ export default {
         "shared folder"
       ],
       "optionReasons": {
-        "folder-mcq-02": "本句指「共享資料夾」。",
-        "folder-mcq-01": "「資料夾」是「folder (digital)」的用法，與本句語境不同。",
-        "folder-mcq-03": "「打開資料夾」是「open a folder」的用法，與本句語境不同。",
-        "folder-mcq-04": "「建立資料夾」是「create a folder」的用法，與本句語境不同。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。"
+        "folder-mcq-02": "本句的「shared folder」指「共享資料夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-02"
     },
@@ -470,11 +438,7 @@ export default {
       "masked": "Everyone in the team can access the ____.",
       "options": [
         "folder-mcq-02",
-        "folder-mcq-01",
-        "folder-mcq-03",
-        "folder-mcq-04",
-        "folder-mcq-05",
-        "folder-mcq-06"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「shared folder」指「共享資料夾」。",
       "sentenceIndex": 4,
@@ -483,12 +447,8 @@ export default {
         "shared folder"
       ],
       "optionReasons": {
-        "folder-mcq-02": "本句指「共享資料夾」。",
-        "folder-mcq-01": "「資料夾」是「folder (digital)」的用法，與本句語境不同。",
-        "folder-mcq-03": "「打開資料夾」是「open a folder」的用法，與本句語境不同。",
-        "folder-mcq-04": "「建立資料夾」是「create a folder」的用法，與本句語境不同。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。"
+        "folder-mcq-02": "本句的「shared folder」指「共享資料夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-02"
     },
@@ -500,11 +460,7 @@ export default {
       "masked": "____ and check the files.",
       "options": [
         "folder-mcq-03",
-        "folder-mcq-02",
-        "folder-mcq-04",
-        "folder-mcq-01",
-        "folder-mcq-05",
-        "folder-mcq-06"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「Open the folder」指「打開資料夾」。",
       "sentenceIndex": 5,
@@ -513,12 +469,8 @@ export default {
         "Open the folder"
       ],
       "optionReasons": {
-        "folder-mcq-03": "本句指「打開資料夾」。",
-        "folder-mcq-02": "「共享資料夾」是「shared folder」的用法，與本句語境不同。",
-        "folder-mcq-04": "「建立資料夾」是「create a folder」的用法，與本句語境不同。",
-        "folder-mcq-01": "「資料夾」是「folder (digital)」的用法，與本句語境不同。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。"
+        "folder-mcq-03": "本句的「Open the folder」指「打開資料夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-03"
     },
@@ -530,11 +482,7 @@ export default {
       "masked": "I accidentally ____.",
       "options": [
         "folder-mcq-03",
-        "folder-mcq-02",
-        "folder-mcq-04",
-        "folder-mcq-01",
-        "folder-mcq-05",
-        "folder-mcq-06"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「opened the wrong folder」指「打開資料夾」。",
       "sentenceIndex": 6,
@@ -543,12 +491,8 @@ export default {
         "opened the wrong folder"
       ],
       "optionReasons": {
-        "folder-mcq-03": "本句指「打開資料夾」。",
-        "folder-mcq-02": "「共享資料夾」是「shared folder」的用法，與本句語境不同。",
-        "folder-mcq-04": "「建立資料夾」是「create a folder」的用法，與本句語境不同。",
-        "folder-mcq-01": "「資料夾」是「folder (digital)」的用法，與本句語境不同。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。"
+        "folder-mcq-03": "本句的「opened the wrong folder」指「打開資料夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-03"
     },
@@ -560,11 +504,7 @@ export default {
       "masked": "I ____ for each subject.",
       "options": [
         "folder-mcq-04",
-        "folder-mcq-03",
-        "folder-mcq-05",
-        "folder-mcq-02",
-        "folder-mcq-06",
-        "folder-mcq-01"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「created a folder」指「建立資料夾」。",
       "sentenceIndex": 7,
@@ -573,12 +513,8 @@ export default {
         "created a folder"
       ],
       "optionReasons": {
-        "folder-mcq-04": "本句指「建立資料夾」。",
-        "folder-mcq-03": "「打開資料夾」是「open a folder」的用法，與本句語境不同。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。",
-        "folder-mcq-02": "「共享資料夾」是「shared folder」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。",
-        "folder-mcq-01": "「資料夾」是「folder (digital)」的用法，與本句語境不同。"
+        "folder-mcq-04": "本句的「created a folder」指「建立資料夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-04"
     },
@@ -590,11 +526,7 @@ export default {
       "masked": "Please ____ for the photos.",
       "options": [
         "folder-mcq-04",
-        "folder-mcq-03",
-        "folder-mcq-05",
-        "folder-mcq-02",
-        "folder-mcq-06",
-        "folder-mcq-01"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「create a new folder」指「建立資料夾」。",
       "sentenceIndex": 8,
@@ -603,12 +535,8 @@ export default {
         "create a new folder"
       ],
       "optionReasons": {
-        "folder-mcq-04": "本句指「建立資料夾」。",
-        "folder-mcq-03": "「打開資料夾」是「open a folder」的用法，與本句語境不同。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。",
-        "folder-mcq-02": "「共享資料夾」是「shared folder」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。",
-        "folder-mcq-01": "「資料夾」是「folder (digital)」的用法，與本句語境不同。"
+        "folder-mcq-04": "本句的「create a new folder」指「建立資料夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-04"
     },
@@ -620,11 +548,7 @@ export default {
       "masked": "I ____.",
       "options": [
         "folder-mcq-05",
-        "folder-mcq-04",
-        "folder-mcq-06",
-        "folder-mcq-03",
-        "folder-mcq-07",
-        "folder-mcq-02"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「saved the document in the project folder」指「儲存在資料夾中」。",
       "sentenceIndex": 9,
@@ -633,12 +557,8 @@ export default {
         "saved the document in the project folder"
       ],
       "optionReasons": {
-        "folder-mcq-05": "本句指「儲存在資料夾中」。",
-        "folder-mcq-04": "「建立資料夾」是「create a folder」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。",
-        "folder-mcq-03": "「打開資料夾」是「open a folder」的用法，與本句語境不同。",
-        "folder-mcq-07": "「子資料夾」是「subfolder」的用法，與本句語境不同。",
-        "folder-mcq-02": "「共享資料夾」是「shared folder」的用法，與本句語境不同。"
+        "folder-mcq-05": "本句的「saved the document in the project folder」指「儲存在資料夾中」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-05"
     },
@@ -650,11 +570,7 @@ export default {
       "masked": "Make sure all the files are ____.",
       "options": [
         "folder-mcq-05",
-        "folder-mcq-04",
-        "folder-mcq-06",
-        "folder-mcq-03",
-        "folder-mcq-07",
-        "folder-mcq-02"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「saved in the correct folder」指「儲存在資料夾中」。",
       "sentenceIndex": 10,
@@ -663,12 +579,8 @@ export default {
         "saved in the correct folder"
       ],
       "optionReasons": {
-        "folder-mcq-05": "本句指「儲存在資料夾中」。",
-        "folder-mcq-04": "「建立資料夾」是「create a folder」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。",
-        "folder-mcq-03": "「打開資料夾」是「open a folder」的用法，與本句語境不同。",
-        "folder-mcq-07": "「子資料夾」是「subfolder」的用法，與本句語境不同。",
-        "folder-mcq-02": "「共享資料夾」是「shared folder」的用法，與本句語境不同。"
+        "folder-mcq-05": "本句的「saved in the correct folder」指「儲存在資料夾中」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-05"
     },
@@ -680,11 +592,7 @@ export default {
       "masked": "Move the file to the correct ____.",
       "options": [
         "folder-mcq-06",
-        "folder-mcq-05",
-        "folder-mcq-07",
-        "folder-mcq-04",
-        "folder-mcq-08",
-        "folder-mcq-03"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「folder」指「移到資料夾」。",
       "sentenceIndex": 11,
@@ -693,12 +601,8 @@ export default {
         "folder"
       ],
       "optionReasons": {
-        "folder-mcq-06": "本句指「移到資料夾」。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。",
-        "folder-mcq-07": "「子資料夾」是「subfolder」的用法，與本句語境不同。",
-        "folder-mcq-04": "「建立資料夾」是「create a folder」的用法，與本句語境不同。",
-        "folder-mcq-08": "「資料夾結構」是「folder structure」的用法，與本句語境不同。",
-        "folder-mcq-03": "「打開資料夾」是「open a folder」的用法，與本句語境不同。"
+        "folder-mcq-06": "本句的「folder」指「移到資料夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-06"
     },
@@ -710,11 +614,7 @@ export default {
       "masked": "I moved all the images into one ____.",
       "options": [
         "folder-mcq-06",
-        "folder-mcq-05",
-        "folder-mcq-07",
-        "folder-mcq-04",
-        "folder-mcq-08",
-        "folder-mcq-03"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「folder」指「移到資料夾」。",
       "sentenceIndex": 12,
@@ -723,12 +623,8 @@ export default {
         "folder"
       ],
       "optionReasons": {
-        "folder-mcq-06": "本句指「移到資料夾」。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。",
-        "folder-mcq-07": "「子資料夾」是「subfolder」的用法，與本句語境不同。",
-        "folder-mcq-04": "「建立資料夾」是「create a folder」的用法，與本句語境不同。",
-        "folder-mcq-08": "「資料夾結構」是「folder structure」的用法，與本句語境不同。",
-        "folder-mcq-03": "「打開資料夾」是「open a folder」的用法，與本句語境不同。"
+        "folder-mcq-06": "本句的「folder」指「移到資料夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-06"
     },
@@ -740,11 +636,7 @@ export default {
       "masked": "Each class has its own ____.",
       "options": [
         "folder-mcq-07",
-        "folder-mcq-06",
-        "folder-mcq-08",
-        "folder-mcq-05",
-        "folder-mcq-09",
-        "folder-mcq-04"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「subfolder」指「子資料夾」。",
       "sentenceIndex": 13,
@@ -753,12 +645,8 @@ export default {
         "subfolder"
       ],
       "optionReasons": {
-        "folder-mcq-07": "本句指「子資料夾」。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。",
-        "folder-mcq-08": "「資料夾結構」是「folder structure」的用法，與本句語境不同。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。",
-        "folder-mcq-04": "「建立資料夾」是「create a folder」的用法，與本句語境不同。"
+        "folder-mcq-07": "本句的「subfolder」指「子資料夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-07"
     },
@@ -770,11 +658,7 @@ export default {
       "masked": "Put the photos in the image ____.",
       "options": [
         "folder-mcq-07",
-        "folder-mcq-06",
-        "folder-mcq-08",
-        "folder-mcq-05",
-        "folder-mcq-09",
-        "folder-mcq-04"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「subfolder」指「子資料夾」。",
       "sentenceIndex": 14,
@@ -783,12 +667,8 @@ export default {
         "subfolder"
       ],
       "optionReasons": {
-        "folder-mcq-07": "本句指「子資料夾」。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。",
-        "folder-mcq-08": "「資料夾結構」是「folder structure」的用法，與本句語境不同。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。",
-        "folder-mcq-04": "「建立資料夾」是「create a folder」的用法，與本句語境不同。"
+        "folder-mcq-07": "本句的「subfolder」指「子資料夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-07"
     },
@@ -800,11 +680,7 @@ export default {
       "masked": "The project has a clear ____.",
       "options": [
         "folder-mcq-08",
-        "folder-mcq-07",
-        "folder-mcq-09",
-        "folder-mcq-06",
-        "folder-mcq-10",
-        "folder-mcq-05"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「folder structure」指「資料夾結構」。",
       "sentenceIndex": 15,
@@ -813,12 +689,8 @@ export default {
         "folder structure"
       ],
       "optionReasons": {
-        "folder-mcq-08": "本句指「資料夾結構」。",
-        "folder-mcq-07": "「子資料夾」是「subfolder」的用法，與本句語境不同。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。",
-        "folder-mcq-10": "「資料夾圖示」是「folder icon」的用法，與本句語境不同。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。"
+        "folder-mcq-08": "本句的「folder structure」指「資料夾結構」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-08"
     },
@@ -830,11 +702,7 @@ export default {
       "masked": "A good ____ makes files easier to find.",
       "options": [
         "folder-mcq-08",
-        "folder-mcq-07",
-        "folder-mcq-09",
-        "folder-mcq-06",
-        "folder-mcq-10",
-        "folder-mcq-05"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「folder structure」指「資料夾結構」。",
       "sentenceIndex": 16,
@@ -843,12 +711,8 @@ export default {
         "folder structure"
       ],
       "optionReasons": {
-        "folder-mcq-08": "本句指「資料夾結構」。",
-        "folder-mcq-07": "「子資料夾」是「subfolder」的用法，與本句語境不同。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。",
-        "folder-mcq-10": "「資料夾圖示」是「folder icon」的用法，與本句語境不同。",
-        "folder-mcq-05": "「儲存在資料夾中」是「save in a folder」的用法，與本句語境不同。"
+        "folder-mcq-08": "本句的「folder structure」指「資料夾結構」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-08"
     },
@@ -860,11 +724,7 @@ export default {
       "masked": "Copy the ____.",
       "options": [
         "folder-mcq-09",
-        "folder-mcq-08",
-        "folder-mcq-10",
-        "folder-mcq-07",
-        "folder-mcq-11",
-        "folder-mcq-06"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「folder path」指「資料夾路徑」。",
       "sentenceIndex": 17,
@@ -873,12 +733,8 @@ export default {
         "folder path"
       ],
       "optionReasons": {
-        "folder-mcq-09": "本句指「資料夾路徑」。",
-        "folder-mcq-08": "「資料夾結構」是「folder structure」的用法，與本句語境不同。",
-        "folder-mcq-10": "「資料夾圖示」是「folder icon」的用法，與本句語境不同。",
-        "folder-mcq-07": "「子資料夾」是「subfolder」的用法，與本句語境不同。",
-        "folder-mcq-11": "「文件夾；檔案夾」是「folder (physical)」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。"
+        "folder-mcq-09": "本句的「folder path」指「資料夾路徑」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-09"
     },
@@ -890,11 +746,7 @@ export default {
       "masked": "Check whether the ____ is correct.",
       "options": [
         "folder-mcq-09",
-        "folder-mcq-08",
-        "folder-mcq-10",
-        "folder-mcq-07",
-        "folder-mcq-11",
-        "folder-mcq-06"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「folder path」指「資料夾路徑」。",
       "sentenceIndex": 18,
@@ -903,12 +755,8 @@ export default {
         "folder path"
       ],
       "optionReasons": {
-        "folder-mcq-09": "本句指「資料夾路徑」。",
-        "folder-mcq-08": "「資料夾結構」是「folder structure」的用法，與本句語境不同。",
-        "folder-mcq-10": "「資料夾圖示」是「folder icon」的用法，與本句語境不同。",
-        "folder-mcq-07": "「子資料夾」是「subfolder」的用法，與本句語境不同。",
-        "folder-mcq-11": "「文件夾；檔案夾」是「folder (physical)」的用法，與本句語境不同。",
-        "folder-mcq-06": "「移到資料夾」是「move to a folder」的用法，與本句語境不同。"
+        "folder-mcq-09": "本句的「folder path」指「資料夾路徑」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-09"
     },
@@ -920,11 +768,7 @@ export default {
       "masked": "Click the ____.",
       "options": [
         "folder-mcq-10",
-        "folder-mcq-09",
-        "folder-mcq-11",
-        "folder-mcq-08",
-        "folder-mcq-12",
-        "folder-mcq-07"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「folder icon」指「資料夾圖示」。",
       "sentenceIndex": 19,
@@ -933,12 +777,8 @@ export default {
         "folder icon"
       ],
       "optionReasons": {
-        "folder-mcq-10": "本句指「資料夾圖示」。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。",
-        "folder-mcq-11": "「文件夾；檔案夾」是「folder (physical)」的用法，與本句語境不同。",
-        "folder-mcq-08": "「資料夾結構」是「folder structure」的用法，與本句語境不同。",
-        "folder-mcq-12": "「文件夾」是「file folder」的用法，與本句語境不同。",
-        "folder-mcq-07": "「子資料夾」是「subfolder」的用法，與本句語境不同。"
+        "folder-mcq-10": "本句的「folder icon」指「資料夾圖示」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-10"
     },
@@ -950,11 +790,7 @@ export default {
       "masked": "The ____ appears on the desktop.",
       "options": [
         "folder-mcq-10",
-        "folder-mcq-09",
-        "folder-mcq-11",
-        "folder-mcq-08",
-        "folder-mcq-12",
-        "folder-mcq-07"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「folder icon」指「資料夾圖示」。",
       "sentenceIndex": 20,
@@ -963,12 +799,8 @@ export default {
         "folder icon"
       ],
       "optionReasons": {
-        "folder-mcq-10": "本句指「資料夾圖示」。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。",
-        "folder-mcq-11": "「文件夾；檔案夾」是「folder (physical)」的用法，與本句語境不同。",
-        "folder-mcq-08": "「資料夾結構」是「folder structure」的用法，與本句語境不同。",
-        "folder-mcq-12": "「文件夾」是「file folder」的用法，與本句語境不同。",
-        "folder-mcq-07": "「子資料夾」是「subfolder」的用法，與本句語境不同。"
+        "folder-mcq-10": "本句的「folder icon」指「資料夾圖示」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-10"
     },
@@ -980,11 +812,7 @@ export default {
       "masked": "She kept the documents in a blue ____.",
       "options": [
         "folder-mcq-11",
-        "folder-mcq-10",
-        "folder-mcq-12",
-        "folder-mcq-09",
-        "folder-mcq-08",
-        "folder-mcq-14"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「folder」指「文件夾；檔案夾」。",
       "sentenceIndex": 21,
@@ -993,12 +821,8 @@ export default {
         "folder"
       ],
       "optionReasons": {
-        "folder-mcq-11": "本句指「文件夾；檔案夾」。",
-        "folder-mcq-10": "「資料夾圖示」是「folder icon」的用法，與本句語境不同。",
-        "folder-mcq-12": "「文件夾」是「file folder」的用法，與本句語境不同。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。",
-        "folder-mcq-08": "「資料夾結構」是「folder structure」的用法，與本句語境不同。",
-        "folder-mcq-14": "「展示／簡報文件夾」是「presentation folder」的用法，與本句語境不同。"
+        "folder-mcq-11": "本句的「folder」指「文件夾；檔案夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-11"
     },
@@ -1010,11 +834,7 @@ export default {
       "masked": "I bought a ____ for my class notes.",
       "options": [
         "folder-mcq-11",
-        "folder-mcq-10",
-        "folder-mcq-12",
-        "folder-mcq-09",
-        "folder-mcq-08",
-        "folder-mcq-14"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「folder」指「文件夾；檔案夾」。",
       "sentenceIndex": 22,
@@ -1023,12 +843,8 @@ export default {
         "folder"
       ],
       "optionReasons": {
-        "folder-mcq-11": "本句指「文件夾；檔案夾」。",
-        "folder-mcq-10": "「資料夾圖示」是「folder icon」的用法，與本句語境不同。",
-        "folder-mcq-12": "「文件夾」是「file folder」的用法，與本句語境不同。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。",
-        "folder-mcq-08": "「資料夾結構」是「folder structure」的用法，與本句語境不同。",
-        "folder-mcq-14": "「展示／簡報文件夾」是「presentation folder」的用法，與本句語境不同。"
+        "folder-mcq-11": "本句的「folder」指「文件夾；檔案夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-11"
     },
@@ -1040,10 +856,6 @@ export default {
       "masked": "Put the contract in the ____.",
       "options": [
         "folder-mcq-12",
-        "folder-mcq-11",
-        "folder-mcq-10",
-        "folder-mcq-14",
-        "folder-mcq-09",
         "folder-mcq-15"
       ],
       "explanation": "本句的「file folder」指「文件夾」。",
@@ -1053,12 +865,8 @@ export default {
         "file folder"
       ],
       "optionReasons": {
-        "folder-mcq-12": "本句指「文件夾」。",
-        "folder-mcq-11": "「文件夾；檔案夾」是「folder (physical)」的用法，與本句語境不同。",
-        "folder-mcq-10": "「資料夾圖示」是「folder icon」的用法，與本句語境不同。",
-        "folder-mcq-14": "「展示／簡報文件夾」是「presentation folder」的用法，與本句語境不同。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。",
-        "folder-mcq-15": "「摺疊機／摺疊者」是「folder (machine/person)」的用法，與本句語境不同。"
+        "folder-mcq-12": "本句的「file folder」指「文件夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-12"
     },
@@ -1070,10 +878,6 @@ export default {
       "masked": "Each employee has a separate ____.",
       "options": [
         "folder-mcq-12",
-        "folder-mcq-11",
-        "folder-mcq-10",
-        "folder-mcq-14",
-        "folder-mcq-09",
         "folder-mcq-15"
       ],
       "explanation": "本句的「file folder」指「文件夾」。",
@@ -1083,12 +887,8 @@ export default {
         "file folder"
       ],
       "optionReasons": {
-        "folder-mcq-12": "本句指「文件夾」。",
-        "folder-mcq-11": "「文件夾；檔案夾」是「folder (physical)」的用法，與本句語境不同。",
-        "folder-mcq-10": "「資料夾圖示」是「folder icon」的用法，與本句語境不同。",
-        "folder-mcq-14": "「展示／簡報文件夾」是「presentation folder」的用法，與本句語境不同。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。",
-        "folder-mcq-15": "「摺疊機／摺疊者」是「folder (machine/person)」的用法，與本句語境不同。"
+        "folder-mcq-12": "本句的「file folder」指「文件夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-12"
     },
@@ -1100,11 +900,7 @@ export default {
       "masked": "She carried the papers in a ____.",
       "options": [
         "folder-mcq-13",
-        "folder-mcq-14",
-        "folder-mcq-11",
-        "folder-mcq-15",
-        "folder-mcq-10",
-        "folder-mcq-09"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「document folder」指「文件夾」。",
       "sentenceIndex": 25,
@@ -1113,12 +909,8 @@ export default {
         "document folder"
       ],
       "optionReasons": {
-        "folder-mcq-13": "本句指「文件夾」。",
-        "folder-mcq-14": "「展示／簡報文件夾」是「presentation folder」的用法，與本句語境不同。",
-        "folder-mcq-11": "「文件夾；檔案夾」是「folder (physical)」的用法，與本句語境不同。",
-        "folder-mcq-15": "「摺疊機／摺疊者」是「folder (machine/person)」的用法，與本句語境不同。",
-        "folder-mcq-10": "「資料夾圖示」是「folder icon」的用法，與本句語境不同。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。"
+        "folder-mcq-13": "本句的「document folder」指「文件夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-13"
     },
@@ -1130,11 +922,7 @@ export default {
       "masked": "The certificates were kept in a protective ____.",
       "options": [
         "folder-mcq-13",
-        "folder-mcq-14",
-        "folder-mcq-11",
-        "folder-mcq-15",
-        "folder-mcq-10",
-        "folder-mcq-09"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「document folder」指「文件夾」。",
       "sentenceIndex": 26,
@@ -1143,12 +931,8 @@ export default {
         "document folder"
       ],
       "optionReasons": {
-        "folder-mcq-13": "本句指「文件夾」。",
-        "folder-mcq-14": "「展示／簡報文件夾」是「presentation folder」的用法，與本句語境不同。",
-        "folder-mcq-11": "「文件夾；檔案夾」是「folder (physical)」的用法，與本句語境不同。",
-        "folder-mcq-15": "「摺疊機／摺疊者」是「folder (machine/person)」的用法，與本句語境不同。",
-        "folder-mcq-10": "「資料夾圖示」是「folder icon」的用法，與本句語境不同。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。"
+        "folder-mcq-13": "本句的「document folder」指「文件夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-13"
     },
@@ -1160,11 +944,7 @@ export default {
       "masked": "The company gave each client a ____.",
       "options": [
         "folder-mcq-14",
-        "folder-mcq-13",
-        "folder-mcq-15",
-        "folder-mcq-11",
-        "folder-mcq-10",
-        "folder-mcq-09"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「presentation folder」指「展示／簡報文件夾」。",
       "sentenceIndex": 27,
@@ -1173,12 +953,8 @@ export default {
         "presentation folder"
       ],
       "optionReasons": {
-        "folder-mcq-14": "本句指「展示／簡報文件夾」。",
-        "folder-mcq-13": "「文件夾」是「document folder」的用法，與本句語境不同。",
-        "folder-mcq-15": "「摺疊機／摺疊者」是「folder (machine/person)」的用法，與本句語境不同。",
-        "folder-mcq-11": "「文件夾；檔案夾」是「folder (physical)」的用法，與本句語境不同。",
-        "folder-mcq-10": "「資料夾圖示」是「folder icon」的用法，與本句語境不同。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。"
+        "folder-mcq-14": "本句的「presentation folder」指「展示／簡報文件夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-14"
     },
@@ -1190,11 +966,7 @@ export default {
       "masked": "The brochure was placed inside a ____.",
       "options": [
         "folder-mcq-14",
-        "folder-mcq-13",
-        "folder-mcq-15",
-        "folder-mcq-11",
-        "folder-mcq-10",
-        "folder-mcq-09"
+        "folder-mcq-15"
       ],
       "explanation": "本句的「presentation folder」指「展示／簡報文件夾」。",
       "sentenceIndex": 28,
@@ -1203,12 +975,8 @@ export default {
         "presentation folder"
       ],
       "optionReasons": {
-        "folder-mcq-14": "本句指「展示／簡報文件夾」。",
-        "folder-mcq-13": "「文件夾」是「document folder」的用法，與本句語境不同。",
-        "folder-mcq-15": "「摺疊機／摺疊者」是「folder (machine/person)」的用法，與本句語境不同。",
-        "folder-mcq-11": "「文件夾；檔案夾」是「folder (physical)」的用法，與本句語境不同。",
-        "folder-mcq-10": "「資料夾圖示」是「folder icon」的用法，與本句語境不同。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。"
+        "folder-mcq-14": "本句的「presentation folder」指「展示／簡報文件夾」。",
+        "folder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-14"
     },
@@ -1220,11 +988,7 @@ export default {
       "masked": "The machine includes an automatic paper ____.",
       "options": [
         "folder-mcq-15",
-        "folder-mcq-14",
-        "folder-mcq-13",
-        "folder-mcq-11",
-        "folder-mcq-10",
-        "folder-mcq-09"
+        "folder-mcq-08"
       ],
       "explanation": "本句的「folder」指「摺疊機／摺疊者」。",
       "sentenceIndex": 29,
@@ -1233,12 +997,8 @@ export default {
         "folder"
       ],
       "optionReasons": {
-        "folder-mcq-15": "本句指「摺疊機／摺疊者」。",
-        "folder-mcq-14": "「展示／簡報文件夾」是「presentation folder」的用法，與本句語境不同。",
-        "folder-mcq-13": "「文件夾」是「document folder」的用法，與本句語境不同。",
-        "folder-mcq-11": "「文件夾；檔案夾」是「folder (physical)」的用法，與本句語境不同。",
-        "folder-mcq-10": "「資料夾圖示」是「folder icon」的用法，與本句語境不同。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。"
+        "folder-mcq-15": "本句的「folder」指「摺疊機／摺疊者」。",
+        "folder-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-15"
     },
@@ -1250,11 +1010,7 @@ export default {
       "masked": "A letter ____ can prepare large batches of mail.",
       "options": [
         "folder-mcq-15",
-        "folder-mcq-14",
-        "folder-mcq-13",
-        "folder-mcq-11",
-        "folder-mcq-10",
-        "folder-mcq-09"
+        "folder-mcq-10"
       ],
       "explanation": "本句的「folder」指「摺疊機／摺疊者」。",
       "sentenceIndex": 30,
@@ -1263,12 +1019,8 @@ export default {
         "folder"
       ],
       "optionReasons": {
-        "folder-mcq-15": "本句指「摺疊機／摺疊者」。",
-        "folder-mcq-14": "「展示／簡報文件夾」是「presentation folder」的用法，與本句語境不同。",
-        "folder-mcq-13": "「文件夾」是「document folder」的用法，與本句語境不同。",
-        "folder-mcq-11": "「文件夾；檔案夾」是「folder (physical)」的用法，與本句語境不同。",
-        "folder-mcq-10": "「資料夾圖示」是「folder icon」的用法，與本句語境不同。",
-        "folder-mcq-09": "「資料夾路徑」是「folder path」的用法，與本句語境不同。"
+        "folder-mcq-15": "本句的「folder」指「摺疊機／摺疊者」。",
+        "folder-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "folder-mcq-15"
     }
@@ -1280,5 +1032,7 @@ export default {
     "sha256": "6e16e68fccd1196bbfc490dcba75ab79e153fbaa8bde912c2fc1b952e6be2abf",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

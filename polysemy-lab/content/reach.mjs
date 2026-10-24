@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "reach-mcq-02",
-      "title": "表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」",
+      "title": "到達；抵達",
       "form": "reach something — arrive at a place reach + place = arrive at / get to a place 到達；抵達",
       "en": "reach something — arrive at a place reach + place = arrive at / get to a place 到達；抵達",
       "zh": "表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "reach-mcq-05",
-      "title": "表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」",
+      "title": "達成；作出；得出",
       "form": "reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.",
       "en": "reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.",
       "zh": "表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "reach-mcq-06",
-      "title": "表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」",
+      "title": "伸手去拿；伸手去碰",
       "form": "reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰",
       "en": "reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰",
       "zh": "表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "reach-mcq-07",
-      "title": "表示伸出；伸展；例句：「她伸出一隻手扶他起來。」",
+      "title": "伸出；伸展",
       "form": "reach out / reach your hand or arm = stretch or extend a body part toward something 伸出；伸展",
       "en": "reach out / reach your hand or arm = stretch or extend a body part toward something 伸出；伸展",
       "zh": "表示伸出；伸展；例句：「她伸出一隻手扶他起來。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "reach-mcq-08",
-      "title": "表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」",
+      "title": "搆得到；伸手可及",
       "form": "be able to touch or take something because it is close enough = be physically able to get to something with your hand, arm, etc. 搆得到；伸手可及",
       "en": "be able to touch or take something because it is close enough = be physically able to get to something with your hand, arm, etc. 搆得到；伸手可及",
       "zh": "表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "reach-mcq-09",
-      "title": "表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」",
+      "title": "延伸至；一直到",
       "form": "something reaches somewhere = extend as far as a particular place or point 延伸至；一直到 Here, the subject itself extends over a distance.",
       "en": "something reaches somewhere = extend as far as a particular place or point 延伸至；一直到 Here, the subject itself extends over a distance.",
       "zh": "表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "reach-mcq-10",
-      "title": "表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」",
+      "title": "聯絡到；取得聯繫",
       "form": "reach a person by phone, email, etc. = successfully contact or communicate with someone 聯絡到；取得聯繫",
       "en": "reach a person by phone, email, etc. = successfully contact or communicate with someone 聯絡到；取得聯繫",
       "zh": "表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "reach-mcq-11",
-      "title": "表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」",
+      "title": "接觸到；觸及；影響到",
       "form": "reach an audience / people / customers = communicate with, affect, attract, or become accessible to a group of people 接觸到；觸及；影響到",
       "en": "reach an audience / people / customers = communicate with, affect, attract, or become accessible to a group of people 接觸到；觸及；影響到",
       "zh": "表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "reach-mcq-12",
-      "title": "表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」",
+      "title": "傳到；傳入；傳達到",
       "form": "information, news, sound, etc. reaches someone = become known to or perceived by someone 傳到；傳入；傳達到",
       "en": "information, news, sound, etc. reaches someone = become known to or perceived by someone 傳到；傳入；傳達到",
       "zh": "表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "reach-mcq-13",
-      "title": "表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」",
+      "title": "延伸至；深入；遍及",
       "form": "reach into / through / across an area = extend, penetrate, or have an effect into a place, group, or domain 延伸至；深入；遍及",
       "en": "reach into / through / across an area = extend, penetrate, or have an effect into a place, group, or domain 延伸至；深入；遍及",
       "zh": "表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "reach-mcq-17",
-      "title": "表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」",
+      "title": "可接觸的人群；觸及能力",
       "form": "reach — ability to contact or access people = the number or range of people that a person, organization, medium, or message can contact 可接觸的人群；觸及能力",
       "en": "reach — ability to contact or access people = the number or range of people that a person, organization, medium, or message can contact 可接觸的人群；觸及能力",
       "zh": "表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "reach-mcq-18",
-      "title": "表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」",
+      "title": "有效距離；可及範圍；射程",
       "form": "reach — maximum effective distance = the maximum distance over which something can extend, operate, strike, or function 有效距離；可及範圍；射程",
       "en": "reach — maximum effective distance = the maximum distance over which something can extend, operate, strike, or function 有效距離；可及範圍；射程",
       "zh": "表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "reach-mcq-19",
-      "title": "表示河段；例句：「這條河的下游河段人口稠密。」",
+      "title": "河段",
       "form": "reach — a continuous stretch or section of a river = a particular stretch of a river, especially between two points 河段",
       "en": "reach — a continuous stretch or section of a river = a particular stretch of a river, especially between two points 河段",
       "zh": "表示河段；例句：「這條河的下游河段人口稠密。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "reach-mcq-20",
-      "title": "表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」",
+      "title": "邊遠地區；最外圍部分",
       "form": "the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.",
       "en": "the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.",
       "zh": "表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "reach-mcq-21",
-      "title": "表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」",
+      "title": "很容易到達；近在咫尺",
       "form": "within easy reach = close enough to access conveniently 很容易到達；近在咫尺",
       "en": "within easy reach = close enough to access conveniently 很容易到達；近在咫尺",
       "zh": "表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "reach-mcq-22",
-      "title": "表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」",
+      "title": "超出某人搆得到的範圍",
       "form": "beyond someone’s reach",
       "en": "beyond someone’s reach",
       "zh": "表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "reach-mcq-23",
-      "title": "表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」",
+      "title": "胸懷大志；追求遠大目標",
       "form": "reach for the stars = aim for something highly ambitious 胸懷大志；追求遠大目標",
       "en": "reach for the stars = aim for something highly ambitious 胸懷大志；追求遠大目標",
       "zh": "表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "reach-mcq-24",
-      "title": "表示影響深遠的；範圍廣泛的；例句：「這項發明造成了深遠的影響。」",
+      "title": "影響深遠的；範圍廣泛的",
       "form": "far-reaching = having important effects that extend over a wide area, group, or period 影響深遠的；範圍廣泛的",
       "en": "far-reaching = having important effects that extend over a wide area, group, or period 影響深遠的；範圍廣泛的",
       "zh": "表示影響深遠的；範圍廣泛的；例句：「這項發明造成了深遠的影響。」",
@@ -565,11 +565,9 @@ export default {
       "masked": "Her encouragement made improvement feel ____.",
       "options": [
         "reach-mcq-01",
-        "reach-mcq-02",
-        "reach-mcq-03",
-        "reach-mcq-04",
-        "reach-mcq-05",
-        "reach-mcq-06"
+        "reach-mcq-13",
+        "reach-mcq-22",
+        "reach-mcq-23"
       ],
       "explanation": "本句的「within reach」指「觸手可及；可以實現；有望達成」。",
       "sentenceIndex": 0,
@@ -578,12 +576,10 @@ export default {
         "within reach"
       ],
       "optionReasons": {
-        "reach-mcq-01": "本句指「觸手可及；可以實現；有望達成」。",
-        "reach-mcq-02": "「表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」」是「reach something — arrive at a place reach + place = arrive at / get to a place 到達；抵達」的用法，與本句語境不同。",
-        "reach-mcq-03": "「達到；到達（某程度、階段、數字、年齡等）」是「reach a particular point, level, stage, age, number, etc. = attain or come to a particular state, level, amount, stage, age, or point 達到；到達（某程度、階段、數字、年齡等） This extends the physical “arrive at” idea into abstract scales or stages.」的用法，與本句語境不同。",
-        "reach-mcq-04": "「目標、標準等時，表示達成；達到（目標、標準等）」是「reach a goal, target, objective, standard, etc. = succeed in attaining something aimed for 達成；達到（目標、標準等） This is an achievement-focused extension of Sense 3.」的用法，與本句語境不同。",
-        "reach-mcq-05": "「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」是「reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.」的用法，與本句語境不同。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。"
+        "reach-mcq-01": "本句的「within reach」指「觸手可及；可以實現；有望達成」。",
+        "reach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-01"
     },
@@ -595,11 +591,9 @@ export default {
       "masked": "With enough practice, that goal is ____.",
       "options": [
         "reach-mcq-01",
-        "reach-mcq-02",
-        "reach-mcq-03",
-        "reach-mcq-04",
-        "reach-mcq-05",
-        "reach-mcq-06"
+        "reach-mcq-10",
+        "reach-mcq-19",
+        "reach-mcq-09"
       ],
       "explanation": "本句的「within reach」指「觸手可及；可以實現；有望達成」。",
       "sentenceIndex": 1,
@@ -608,12 +602,10 @@ export default {
         "within reach"
       ],
       "optionReasons": {
-        "reach-mcq-01": "本句指「觸手可及；可以實現；有望達成」。",
-        "reach-mcq-02": "「表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」」是「reach something — arrive at a place reach + place = arrive at / get to a place 到達；抵達」的用法，與本句語境不同。",
-        "reach-mcq-03": "「達到；到達（某程度、階段、數字、年齡等）」是「reach a particular point, level, stage, age, number, etc. = attain or come to a particular state, level, amount, stage, age, or point 達到；到達（某程度、階段、數字、年齡等） This extends the physical “arrive at” idea into abstract scales or stages.」的用法，與本句語境不同。",
-        "reach-mcq-04": "「目標、標準等時，表示達成；達到（目標、標準等）」是「reach a goal, target, objective, standard, etc. = succeed in attaining something aimed for 達成；達到（目標、標準等） This is an achievement-focused extension of Sense 3.」的用法，與本句語境不同。",
-        "reach-mcq-05": "「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」是「reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.」的用法，與本句語境不同。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。"
+        "reach-mcq-01": "本句的「within reach」指「觸手可及；可以實現；有望達成」。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-01"
     },
@@ -625,11 +617,9 @@ export default {
       "masked": "We finally ____ after midnight.",
       "options": [
         "reach-mcq-02",
-        "reach-mcq-01",
-        "reach-mcq-03",
-        "reach-mcq-04",
-        "reach-mcq-05",
-        "reach-mcq-06"
+        "reach-mcq-09",
+        "reach-mcq-16",
+        "reach-mcq-23"
       ],
       "explanation": "本句的「reached the hotel」指「表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」」。",
       "sentenceIndex": 2,
@@ -638,12 +628,10 @@ export default {
         "reached the hotel"
       ],
       "optionReasons": {
-        "reach-mcq-02": "本句指「表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」」。",
-        "reach-mcq-01": "「觸手可及；可以實現；有望達成」是「Passage anchor > “Instead of simply pointing out mistakes, she gave constructive feedback and made you feel that improvement was within reach.」的用法，與本句語境不同。",
-        "reach-mcq-03": "「達到；到達（某程度、階段、數字、年齡等）」是「reach a particular point, level, stage, age, number, etc. = attain or come to a particular state, level, amount, stage, age, or point 達到；到達（某程度、階段、數字、年齡等） This extends the physical “arrive at” idea into abstract scales or stages.」的用法，與本句語境不同。",
-        "reach-mcq-04": "「目標、標準等時，表示達成；達到（目標、標準等）」是「reach a goal, target, objective, standard, etc. = succeed in attaining something aimed for 達成；達到（目標、標準等） This is an achievement-focused extension of Sense 3.」的用法，與本句語境不同。",
-        "reach-mcq-05": "「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」是「reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.」的用法，與本句語境不同。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。"
+        "reach-mcq-02": "本句的「reached the hotel」指「表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」」。",
+        "reach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-02"
     },
@@ -655,11 +643,9 @@ export default {
       "masked": "The climbers ____ just before sunset.",
       "options": [
         "reach-mcq-02",
-        "reach-mcq-01",
-        "reach-mcq-03",
-        "reach-mcq-04",
-        "reach-mcq-05",
-        "reach-mcq-06"
+        "reach-mcq-13",
+        "reach-mcq-06",
+        "reach-mcq-19"
       ],
       "explanation": "本句的「reached the summit」指「表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」」。",
       "sentenceIndex": 3,
@@ -668,12 +654,10 @@ export default {
         "reached the summit"
       ],
       "optionReasons": {
-        "reach-mcq-02": "本句指「表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」」。",
-        "reach-mcq-01": "「觸手可及；可以實現；有望達成」是「Passage anchor > “Instead of simply pointing out mistakes, she gave constructive feedback and made you feel that improvement was within reach.」的用法，與本句語境不同。",
-        "reach-mcq-03": "「達到；到達（某程度、階段、數字、年齡等）」是「reach a particular point, level, stage, age, number, etc. = attain or come to a particular state, level, amount, stage, age, or point 達到；到達（某程度、階段、數字、年齡等） This extends the physical “arrive at” idea into abstract scales or stages.」的用法，與本句語境不同。",
-        "reach-mcq-04": "「目標、標準等時，表示達成；達到（目標、標準等）」是「reach a goal, target, objective, standard, etc. = succeed in attaining something aimed for 達成；達到（目標、標準等） This is an achievement-focused extension of Sense 3.」的用法，與本句語境不同。",
-        "reach-mcq-05": "「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」是「reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.」的用法，與本句語境不同。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。"
+        "reach-mcq-02": "本句的「reached the summit」指「表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」」。",
+        "reach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-02"
     },
@@ -685,11 +669,9 @@ export default {
       "masked": "Temperatures may ____ this afternoon.",
       "options": [
         "reach-mcq-03",
-        "reach-mcq-02",
-        "reach-mcq-04",
-        "reach-mcq-01",
-        "reach-mcq-05",
-        "reach-mcq-06"
+        "reach-mcq-07",
+        "reach-mcq-17",
+        "reach-mcq-15"
       ],
       "explanation": "本句的「reach 35°C」指「達到；到達（某程度、階段、數字、年齡等）」。",
       "sentenceIndex": 4,
@@ -698,12 +680,10 @@ export default {
         "reach 35°C"
       ],
       "optionReasons": {
-        "reach-mcq-03": "本句指「達到；到達（某程度、階段、數字、年齡等）」。",
-        "reach-mcq-02": "「表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」」是「reach something — arrive at a place reach + place = arrive at / get to a place 到達；抵達」的用法，與本句語境不同。",
-        "reach-mcq-04": "「目標、標準等時，表示達成；達到（目標、標準等）」是「reach a goal, target, objective, standard, etc. = succeed in attaining something aimed for 達成；達到（目標、標準等） This is an achievement-focused extension of Sense 3.」的用法，與本句語境不同。",
-        "reach-mcq-01": "「觸手可及；可以實現；有望達成」是「Passage anchor > “Instead of simply pointing out mistakes, she gave constructive feedback and made you feel that improvement was within reach.」的用法，與本句語境不同。",
-        "reach-mcq-05": "「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」是「reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.」的用法，與本句語境不同。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。"
+        "reach-mcq-03": "本句的「reach 35°C」指「達到；到達（某程度、階段、數字、年齡等）」。",
+        "reach-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-03"
     },
@@ -715,11 +695,9 @@ export default {
       "masked": "The company has ____ in its development.",
       "options": [
         "reach-mcq-03",
-        "reach-mcq-02",
-        "reach-mcq-04",
-        "reach-mcq-01",
-        "reach-mcq-05",
-        "reach-mcq-06"
+        "reach-mcq-07",
+        "reach-mcq-10",
+        "reach-mcq-23"
       ],
       "explanation": "本句的「reached a critical stage」指「達到；到達（某程度、階段、數字、年齡等）」。",
       "sentenceIndex": 5,
@@ -728,12 +706,10 @@ export default {
         "reached a critical stage"
       ],
       "optionReasons": {
-        "reach-mcq-03": "本句指「達到；到達（某程度、階段、數字、年齡等）」。",
-        "reach-mcq-02": "「表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」」是「reach something — arrive at a place reach + place = arrive at / get to a place 到達；抵達」的用法，與本句語境不同。",
-        "reach-mcq-04": "「目標、標準等時，表示達成；達到（目標、標準等）」是「reach a goal, target, objective, standard, etc. = succeed in attaining something aimed for 達成；達到（目標、標準等） This is an achievement-focused extension of Sense 3.」的用法，與本句語境不同。",
-        "reach-mcq-01": "「觸手可及；可以實現；有望達成」是「Passage anchor > “Instead of simply pointing out mistakes, she gave constructive feedback and made you feel that improvement was within reach.」的用法，與本句語境不同。",
-        "reach-mcq-05": "「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」是「reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.」的用法，與本句語境不同。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。"
+        "reach-mcq-03": "本句的「reached a critical stage」指「達到；到達（某程度、階段、數字、年齡等）」。",
+        "reach-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-03"
     },
@@ -745,11 +721,9 @@ export default {
       "masked": "She worked hard to ____ of becoming a doctor.",
       "options": [
         "reach-mcq-04",
-        "reach-mcq-03",
-        "reach-mcq-05",
-        "reach-mcq-02",
-        "reach-mcq-06",
-        "reach-mcq-01"
+        "reach-mcq-17",
+        "reach-mcq-15",
+        "reach-mcq-19"
       ],
       "explanation": "本句的「reach her goal」指「目標、標準等時，表示達成；達到（目標、標準等）」。",
       "sentenceIndex": 6,
@@ -758,12 +732,10 @@ export default {
         "reach her goal"
       ],
       "optionReasons": {
-        "reach-mcq-04": "本句指「目標、標準等時，表示達成；達到（目標、標準等）」。",
-        "reach-mcq-03": "「達到；到達（某程度、階段、數字、年齡等）」是「reach a particular point, level, stage, age, number, etc. = attain or come to a particular state, level, amount, stage, age, or point 達到；到達（某程度、階段、數字、年齡等） This extends the physical “arrive at” idea into abstract scales or stages.」的用法，與本句語境不同。",
-        "reach-mcq-05": "「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」是「reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.」的用法，與本句語境不同。",
-        "reach-mcq-02": "「表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」」是「reach something — arrive at a place reach + place = arrive at / get to a place 到達；抵達」的用法，與本句語境不同。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。",
-        "reach-mcq-01": "「觸手可及；可以實現；有望達成」是「Passage anchor > “Instead of simply pointing out mistakes, she gave constructive feedback and made you feel that improvement was within reach.」的用法，與本句語境不同。"
+        "reach-mcq-04": "本句的「reach her goal」指「目標、標準等時，表示達成；達到（目標、標準等）」。",
+        "reach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-04"
     },
@@ -775,11 +747,9 @@ export default {
       "masked": "Several students have already ____.",
       "options": [
         "reach-mcq-04",
-        "reach-mcq-03",
-        "reach-mcq-05",
-        "reach-mcq-02",
-        "reach-mcq-06",
-        "reach-mcq-01"
+        "reach-mcq-17",
+        "reach-mcq-10",
+        "reach-mcq-06"
       ],
       "explanation": "本句的「reached the required standard」指「目標、標準等時，表示達成；達到（目標、標準等）」。",
       "sentenceIndex": 7,
@@ -788,12 +758,10 @@ export default {
         "reached the required standard"
       ],
       "optionReasons": {
-        "reach-mcq-04": "本句指「目標、標準等時，表示達成；達到（目標、標準等）」。",
-        "reach-mcq-03": "「達到；到達（某程度、階段、數字、年齡等）」是「reach a particular point, level, stage, age, number, etc. = attain or come to a particular state, level, amount, stage, age, or point 達到；到達（某程度、階段、數字、年齡等） This extends the physical “arrive at” idea into abstract scales or stages.」的用法，與本句語境不同。",
-        "reach-mcq-05": "「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」是「reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.」的用法，與本句語境不同。",
-        "reach-mcq-02": "「表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」」是「reach something — arrive at a place reach + place = arrive at / get to a place 到達；抵達」的用法，與本句語境不同。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。",
-        "reach-mcq-01": "「觸手可及；可以實現；有望達成」是「Passage anchor > “Instead of simply pointing out mistakes, she gave constructive feedback and made you feel that improvement was within reach.」的用法，與本句語境不同。"
+        "reach-mcq-04": "本句的「reached the required standard」指「目標、標準等時，表示達成；達到（目標、標準等）」。",
+        "reach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-04"
     },
@@ -805,11 +773,9 @@ export default {
       "masked": "After two hours of discussion, we finally ____.",
       "options": [
         "reach-mcq-05",
-        "reach-mcq-04",
-        "reach-mcq-06",
-        "reach-mcq-03",
-        "reach-mcq-07",
-        "reach-mcq-02"
+        "reach-mcq-13",
+        "reach-mcq-14",
+        "reach-mcq-17"
       ],
       "explanation": "本句的「reached an agreement」指「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」。",
       "sentenceIndex": 8,
@@ -818,12 +784,10 @@ export default {
         "reached an agreement"
       ],
       "optionReasons": {
-        "reach-mcq-05": "本句指「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」。",
-        "reach-mcq-04": "「目標、標準等時，表示達成；達到（目標、標準等）」是「reach a goal, target, objective, standard, etc. = succeed in attaining something aimed for 達成；達到（目標、標準等） This is an achievement-focused extension of Sense 3.」的用法，與本句語境不同。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。",
-        "reach-mcq-03": "「達到；到達（某程度、階段、數字、年齡等）」是「reach a particular point, level, stage, age, number, etc. = attain or come to a particular state, level, amount, stage, age, or point 達到；到達（某程度、階段、數字、年齡等） This extends the physical “arrive at” idea into abstract scales or stages.」的用法，與本句語境不同。",
-        "reach-mcq-07": "「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」是「reach out / reach your hand or arm = stretch or extend a body part toward something 伸出；伸展」的用法，與本句語境不同。",
-        "reach-mcq-02": "「表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」」是「reach something — arrive at a place reach + place = arrive at / get to a place 到達；抵達」的用法，與本句語境不同。"
+        "reach-mcq-05": "本句的「reached an agreement」指「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」。",
+        "reach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-05"
     },
@@ -835,11 +799,9 @@ export default {
       "masked": "The investigators have not yet ____.",
       "options": [
         "reach-mcq-05",
-        "reach-mcq-04",
-        "reach-mcq-06",
-        "reach-mcq-03",
-        "reach-mcq-07",
-        "reach-mcq-02"
+        "reach-mcq-14",
+        "reach-mcq-19",
+        "reach-mcq-10"
       ],
       "explanation": "本句的「reached a conclusion」指「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」。",
       "sentenceIndex": 9,
@@ -848,12 +810,10 @@ export default {
         "reached a conclusion"
       ],
       "optionReasons": {
-        "reach-mcq-05": "本句指「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」。",
-        "reach-mcq-04": "「目標、標準等時，表示達成；達到（目標、標準等）」是「reach a goal, target, objective, standard, etc. = succeed in attaining something aimed for 達成；達到（目標、標準等） This is an achievement-focused extension of Sense 3.」的用法，與本句語境不同。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。",
-        "reach-mcq-03": "「達到；到達（某程度、階段、數字、年齡等）」是「reach a particular point, level, stage, age, number, etc. = attain or come to a particular state, level, amount, stage, age, or point 達到；到達（某程度、階段、數字、年齡等） This extends the physical “arrive at” idea into abstract scales or stages.」的用法，與本句語境不同。",
-        "reach-mcq-07": "「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」是「reach out / reach your hand or arm = stretch or extend a body part toward something 伸出；伸展」的用法，與本句語境不同。",
-        "reach-mcq-02": "「表示到達；抵達；例句：「我們終於在午夜過後抵達飯店。」」是「reach something — arrive at a place reach + place = arrive at / get to a place 到達；抵達」的用法，與本句語境不同。"
+        "reach-mcq-05": "本句的「reached a conclusion」指「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」。",
+        "reach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-05"
     },
@@ -865,11 +825,9 @@ export default {
       "masked": "He ____ when it started ringing.",
       "options": [
         "reach-mcq-06",
-        "reach-mcq-05",
-        "reach-mcq-07",
-        "reach-mcq-04",
-        "reach-mcq-08",
-        "reach-mcq-03"
+        "reach-mcq-18",
+        "reach-mcq-19",
+        "reach-mcq-04"
       ],
       "explanation": "本句的「reached for his phone」指「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」。",
       "sentenceIndex": 10,
@@ -878,12 +836,10 @@ export default {
         "reached for his phone"
       ],
       "optionReasons": {
-        "reach-mcq-06": "本句指「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」。",
-        "reach-mcq-05": "「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」是「reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.」的用法，與本句語境不同。",
-        "reach-mcq-07": "「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」是「reach out / reach your hand or arm = stretch or extend a body part toward something 伸出；伸展」的用法，與本句語境不同。",
-        "reach-mcq-04": "「目標、標準等時，表示達成；達到（目標、標準等）」是「reach a goal, target, objective, standard, etc. = succeed in attaining something aimed for 達成；達到（目標、標準等） This is an achievement-focused extension of Sense 3.」的用法，與本句語境不同。",
-        "reach-mcq-08": "「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」是「be able to touch or take something because it is close enough = be physically able to get to something with your hand, arm, etc. 搆得到；伸手可及」的用法，與本句語境不同。",
-        "reach-mcq-03": "「達到；到達（某程度、階段、數字、年齡等）」是「reach a particular point, level, stage, age, number, etc. = attain or come to a particular state, level, amount, stage, age, or point 達到；到達（某程度、階段、數字、年齡等） This extends the physical “arrive at” idea into abstract scales or stages.」的用法，與本句語境不同。"
+        "reach-mcq-06": "本句的「reached for his phone」指「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」。",
+        "reach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-06"
     },
@@ -895,11 +851,9 @@ export default {
       "masked": "The child ____ on the shelf.",
       "options": [
         "reach-mcq-06",
-        "reach-mcq-05",
-        "reach-mcq-07",
-        "reach-mcq-04",
-        "reach-mcq-08",
-        "reach-mcq-03"
+        "reach-mcq-25",
+        "reach-mcq-02",
+        "reach-mcq-19"
       ],
       "explanation": "本句的「reached for the toy」指「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」。",
       "sentenceIndex": 11,
@@ -908,12 +862,10 @@ export default {
         "reached for the toy"
       ],
       "optionReasons": {
-        "reach-mcq-06": "本句指「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」。",
-        "reach-mcq-05": "「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」是「reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.」的用法，與本句語境不同。",
-        "reach-mcq-07": "「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」是「reach out / reach your hand or arm = stretch or extend a body part toward something 伸出；伸展」的用法，與本句語境不同。",
-        "reach-mcq-04": "「目標、標準等時，表示達成；達到（目標、標準等）」是「reach a goal, target, objective, standard, etc. = succeed in attaining something aimed for 達成；達到（目標、標準等） This is an achievement-focused extension of Sense 3.」的用法，與本句語境不同。",
-        "reach-mcq-08": "「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」是「be able to touch or take something because it is close enough = be physically able to get to something with your hand, arm, etc. 搆得到；伸手可及」的用法，與本句語境不同。",
-        "reach-mcq-03": "「達到；到達（某程度、階段、數字、年齡等）」是「reach a particular point, level, stage, age, number, etc. = attain or come to a particular state, level, amount, stage, age, or point 達到；到達（某程度、階段、數字、年齡等） This extends the physical “arrive at” idea into abstract scales or stages.」的用法，與本句語境不同。"
+        "reach-mcq-06": "本句的「reached for the toy」指「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」。",
+        "reach-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-06"
     },
@@ -925,11 +877,9 @@ export default {
       "masked": "She ____ to help him up.",
       "options": [
         "reach-mcq-07",
-        "reach-mcq-06",
-        "reach-mcq-08",
-        "reach-mcq-05",
-        "reach-mcq-09",
-        "reach-mcq-04"
+        "reach-mcq-01",
+        "reach-mcq-20",
+        "reach-mcq-03"
       ],
       "explanation": "本句的「reached out a hand」指「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」。",
       "sentenceIndex": 12,
@@ -938,12 +888,10 @@ export default {
         "reached out a hand"
       ],
       "optionReasons": {
-        "reach-mcq-07": "本句指「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。",
-        "reach-mcq-08": "「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」是「be able to touch or take something because it is close enough = be physically able to get to something with your hand, arm, etc. 搆得到；伸手可及」的用法，與本句語境不同。",
-        "reach-mcq-05": "「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」是「reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.」的用法，與本句語境不同。",
-        "reach-mcq-09": "「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」是「something reaches somewhere = extend as far as a particular place or point 延伸至；一直到 Here, the subject itself extends over a distance.」的用法，與本句語境不同。",
-        "reach-mcq-04": "「目標、標準等時，表示達成；達到（目標、標準等）」是「reach a goal, target, objective, standard, etc. = succeed in attaining something aimed for 達成；達到（目標、標準等） This is an achievement-focused extension of Sense 3.」的用法，與本句語境不同。"
+        "reach-mcq-07": "本句的「reached out a hand」指「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」。",
+        "reach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-07"
     },
@@ -955,11 +903,9 @@ export default {
       "masked": "He ____ for the salt.",
       "options": [
         "reach-mcq-07",
-        "reach-mcq-06",
-        "reach-mcq-08",
-        "reach-mcq-05",
-        "reach-mcq-09",
-        "reach-mcq-04"
+        "reach-mcq-11",
+        "reach-mcq-03",
+        "reach-mcq-20"
       ],
       "explanation": "本句的「reached across the table」指「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」。",
       "sentenceIndex": 13,
@@ -968,12 +914,10 @@ export default {
         "reached across the table"
       ],
       "optionReasons": {
-        "reach-mcq-07": "本句指「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。",
-        "reach-mcq-08": "「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」是「be able to touch or take something because it is close enough = be physically able to get to something with your hand, arm, etc. 搆得到；伸手可及」的用法，與本句語境不同。",
-        "reach-mcq-05": "「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」是「reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.」的用法，與本句語境不同。",
-        "reach-mcq-09": "「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」是「something reaches somewhere = extend as far as a particular place or point 延伸至；一直到 Here, the subject itself extends over a distance.」的用法，與本句語境不同。",
-        "reach-mcq-04": "「目標、標準等時，表示達成；達到（目標、標準等）」是「reach a goal, target, objective, standard, etc. = succeed in attaining something aimed for 達成；達到（目標、標準等） This is an achievement-focused extension of Sense 3.」的用法，與本句語境不同。"
+        "reach-mcq-07": "本句的「reached across the table」指「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」。",
+        "reach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-07"
     },
@@ -985,11 +929,9 @@ export default {
       "masked": "I’m too short to ____.",
       "options": [
         "reach-mcq-08",
-        "reach-mcq-07",
-        "reach-mcq-09",
-        "reach-mcq-06",
-        "reach-mcq-10",
-        "reach-mcq-05"
+        "reach-mcq-17",
+        "reach-mcq-04",
+        "reach-mcq-18"
       ],
       "explanation": "本句的「reach the top shelf」指「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」。",
       "sentenceIndex": 14,
@@ -998,12 +940,10 @@ export default {
         "reach the top shelf"
       ],
       "optionReasons": {
-        "reach-mcq-08": "本句指「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」。",
-        "reach-mcq-07": "「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」是「reach out / reach your hand or arm = stretch or extend a body part toward something 伸出；伸展」的用法，與本句語境不同。",
-        "reach-mcq-09": "「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」是「something reaches somewhere = extend as far as a particular place or point 延伸至；一直到 Here, the subject itself extends over a distance.」的用法，與本句語境不同。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。",
-        "reach-mcq-10": "「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」是「reach a person by phone, email, etc. = successfully contact or communicate with someone 聯絡到；取得聯繫」的用法，與本句語境不同。",
-        "reach-mcq-05": "「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」是「reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.」的用法，與本句語境不同。"
+        "reach-mcq-08": "本句的「reach the top shelf」指「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」。",
+        "reach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-08"
     },
@@ -1015,11 +955,9 @@ export default {
       "masked": "Can you ____ from there?",
       "options": [
         "reach-mcq-08",
-        "reach-mcq-07",
-        "reach-mcq-09",
-        "reach-mcq-06",
-        "reach-mcq-10",
-        "reach-mcq-05"
+        "reach-mcq-18",
+        "reach-mcq-11",
+        "reach-mcq-23"
       ],
       "explanation": "本句的「reach the light switch」指「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」。",
       "sentenceIndex": 15,
@@ -1028,12 +966,10 @@ export default {
         "reach the light switch"
       ],
       "optionReasons": {
-        "reach-mcq-08": "本句指「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」。",
-        "reach-mcq-07": "「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」是「reach out / reach your hand or arm = stretch or extend a body part toward something 伸出；伸展」的用法，與本句語境不同。",
-        "reach-mcq-09": "「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」是「something reaches somewhere = extend as far as a particular place or point 延伸至；一直到 Here, the subject itself extends over a distance.」的用法，與本句語境不同。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。",
-        "reach-mcq-10": "「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」是「reach a person by phone, email, etc. = successfully contact or communicate with someone 聯絡到；取得聯繫」的用法，與本句語境不同。",
-        "reach-mcq-05": "「表示達成；作出；得出；例句：「經過兩小時討論後，我們終於達成協議。」」是「reach a decision, agreement, conclusion, verdict, compromise, etc. = arrive at something after discussion, thought, negotiation, or consideration 達成；作出；得出 The object is usually a mental or collective outcome.」的用法，與本句語境不同。"
+        "reach-mcq-08": "本句的「reach the light switch」指「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」。",
+        "reach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-08"
     },
@@ -1045,11 +981,9 @@ export default {
       "masked": "Her hair ____.",
       "options": [
         "reach-mcq-09",
-        "reach-mcq-08",
         "reach-mcq-10",
-        "reach-mcq-07",
-        "reach-mcq-11",
-        "reach-mcq-06"
+        "reach-mcq-21",
+        "reach-mcq-18"
       ],
       "explanation": "本句的「reached her shoulders」指「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」。",
       "sentenceIndex": 16,
@@ -1058,12 +992,10 @@ export default {
         "reached her shoulders"
       ],
       "optionReasons": {
-        "reach-mcq-09": "本句指「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」。",
-        "reach-mcq-08": "「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」是「be able to touch or take something because it is close enough = be physically able to get to something with your hand, arm, etc. 搆得到；伸手可及」的用法，與本句語境不同。",
-        "reach-mcq-10": "「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」是「reach a person by phone, email, etc. = successfully contact or communicate with someone 聯絡到；取得聯繫」的用法，與本句語境不同。",
-        "reach-mcq-07": "「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」是「reach out / reach your hand or arm = stretch or extend a body part toward something 伸出；伸展」的用法，與本句語境不同。",
-        "reach-mcq-11": "「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」是「reach an audience / people / customers = communicate with, affect, attract, or become accessible to a group of people 接觸到；觸及；影響到」的用法，與本句語境不同。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。"
+        "reach-mcq-09": "本句的「reached her shoulders」指「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-09"
     },
@@ -1075,11 +1007,9 @@ export default {
       "masked": "The forest ____.",
       "options": [
         "reach-mcq-09",
-        "reach-mcq-08",
-        "reach-mcq-10",
-        "reach-mcq-07",
-        "reach-mcq-11",
-        "reach-mcq-06"
+        "reach-mcq-15",
+        "reach-mcq-02",
+        "reach-mcq-10"
       ],
       "explanation": "本句的「reaches all the way to the coast」指「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」。",
       "sentenceIndex": 17,
@@ -1088,12 +1018,10 @@ export default {
         "reaches all the way to the coast"
       ],
       "optionReasons": {
-        "reach-mcq-09": "本句指「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」。",
-        "reach-mcq-08": "「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」是「be able to touch or take something because it is close enough = be physically able to get to something with your hand, arm, etc. 搆得到；伸手可及」的用法，與本句語境不同。",
-        "reach-mcq-10": "「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」是「reach a person by phone, email, etc. = successfully contact or communicate with someone 聯絡到；取得聯繫」的用法，與本句語境不同。",
-        "reach-mcq-07": "「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」是「reach out / reach your hand or arm = stretch or extend a body part toward something 伸出；伸展」的用法，與本句語境不同。",
-        "reach-mcq-11": "「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」是「reach an audience / people / customers = communicate with, affect, attract, or become accessible to a group of people 接觸到；觸及；影響到」的用法，與本句語境不同。",
-        "reach-mcq-06": "「表示伸手去拿；伸手去碰；例句：「電話一響，他便伸手去拿手機。」」是「reach for something = stretch out your hand or arm in order to take or touch something 伸手去拿；伸手去碰」的用法，與本句語境不同。"
+        "reach-mcq-09": "本句的「reaches all the way to the coast」指「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」。",
+        "reach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-09"
     },
@@ -1105,11 +1033,9 @@ export default {
       "masked": "I tried calling her, but I couldn’t ____.",
       "options": [
         "reach-mcq-10",
-        "reach-mcq-09",
-        "reach-mcq-11",
-        "reach-mcq-08",
-        "reach-mcq-12",
-        "reach-mcq-07"
+        "reach-mcq-13",
+        "reach-mcq-21",
+        "reach-mcq-16"
       ],
       "explanation": "本句的「reach her」指「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」。",
       "sentenceIndex": 18,
@@ -1118,12 +1044,10 @@ export default {
         "reach her"
       ],
       "optionReasons": {
-        "reach-mcq-10": "本句指「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」。",
-        "reach-mcq-09": "「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」是「something reaches somewhere = extend as far as a particular place or point 延伸至；一直到 Here, the subject itself extends over a distance.」的用法，與本句語境不同。",
-        "reach-mcq-11": "「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」是「reach an audience / people / customers = communicate with, affect, attract, or become accessible to a group of people 接觸到；觸及；影響到」的用法，與本句語境不同。",
-        "reach-mcq-08": "「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」是「be able to touch or take something because it is close enough = be physically able to get to something with your hand, arm, etc. 搆得到；伸手可及」的用法，與本句語境不同。",
-        "reach-mcq-12": "「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」是「information, news, sound, etc. reaches someone = become known to or perceived by someone 傳到；傳入；傳達到」的用法，與本句語境不同。",
-        "reach-mcq-07": "「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」是「reach out / reach your hand or arm = stretch or extend a body part toward something 伸出；伸展」的用法，與本句語境不同。"
+        "reach-mcq-10": "本句的「reach her」指「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」。",
+        "reach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-10"
     },
@@ -1135,11 +1059,9 @@ export default {
       "masked": "You can ____ if you have any questions.",
       "options": [
         "reach-mcq-10",
-        "reach-mcq-09",
-        "reach-mcq-11",
-        "reach-mcq-08",
-        "reach-mcq-12",
-        "reach-mcq-07"
+        "reach-mcq-18",
+        "reach-mcq-05",
+        "reach-mcq-09"
       ],
       "explanation": "本句的「reach me by email」指「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」。",
       "sentenceIndex": 19,
@@ -1148,12 +1070,10 @@ export default {
         "reach me by email"
       ],
       "optionReasons": {
-        "reach-mcq-10": "本句指「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」。",
-        "reach-mcq-09": "「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」是「something reaches somewhere = extend as far as a particular place or point 延伸至；一直到 Here, the subject itself extends over a distance.」的用法，與本句語境不同。",
-        "reach-mcq-11": "「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」是「reach an audience / people / customers = communicate with, affect, attract, or become accessible to a group of people 接觸到；觸及；影響到」的用法，與本句語境不同。",
-        "reach-mcq-08": "「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」是「be able to touch or take something because it is close enough = be physically able to get to something with your hand, arm, etc. 搆得到；伸手可及」的用法，與本句語境不同。",
-        "reach-mcq-12": "「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」是「information, news, sound, etc. reaches someone = become known to or perceived by someone 傳到；傳入；傳達到」的用法，與本句語境不同。",
-        "reach-mcq-07": "「表示伸出；伸展；例句：「她伸出一隻手扶他起來。」」是「reach out / reach your hand or arm = stretch or extend a body part toward something 伸出；伸展」的用法，與本句語境不同。"
+        "reach-mcq-10": "本句的「reach me by email」指「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」。",
+        "reach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-10"
     },
@@ -1165,11 +1085,9 @@ export default {
       "masked": "Social media allows small businesses to ____.",
       "options": [
         "reach-mcq-11",
-        "reach-mcq-10",
-        "reach-mcq-12",
-        "reach-mcq-09",
-        "reach-mcq-13",
-        "reach-mcq-08"
+        "reach-mcq-14",
+        "reach-mcq-04",
+        "reach-mcq-19"
       ],
       "explanation": "本句的「reach more customers」指「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」。",
       "sentenceIndex": 20,
@@ -1178,12 +1096,10 @@ export default {
         "reach more customers"
       ],
       "optionReasons": {
-        "reach-mcq-11": "本句指「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」。",
-        "reach-mcq-10": "「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」是「reach a person by phone, email, etc. = successfully contact or communicate with someone 聯絡到；取得聯繫」的用法，與本句語境不同。",
-        "reach-mcq-12": "「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」是「information, news, sound, etc. reaches someone = become known to or perceived by someone 傳到；傳入；傳達到」的用法，與本句語境不同。",
-        "reach-mcq-09": "「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」是「something reaches somewhere = extend as far as a particular place or point 延伸至；一直到 Here, the subject itself extends over a distance.」的用法，與本句語境不同。",
-        "reach-mcq-13": "「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」是「reach into / through / across an area = extend, penetrate, or have an effect into a place, group, or domain 延伸至；深入；遍及」的用法，與本句語境不同。",
-        "reach-mcq-08": "「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」是「be able to touch or take something because it is close enough = be physically able to get to something with your hand, arm, etc. 搆得到；伸手可及」的用法，與本句語境不同。"
+        "reach-mcq-11": "本句的「reach more customers」指「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」。",
+        "reach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-11"
     },
@@ -1195,11 +1111,9 @@ export default {
       "masked": "The campaign is designed to ____.",
       "options": [
         "reach-mcq-11",
-        "reach-mcq-10",
-        "reach-mcq-12",
-        "reach-mcq-09",
-        "reach-mcq-13",
-        "reach-mcq-08"
+        "reach-mcq-23",
+        "reach-mcq-18",
+        "reach-mcq-10"
       ],
       "explanation": "本句的「reach younger audiences」指「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」。",
       "sentenceIndex": 21,
@@ -1208,12 +1122,10 @@ export default {
         "reach younger audiences"
       ],
       "optionReasons": {
-        "reach-mcq-11": "本句指「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」。",
-        "reach-mcq-10": "「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」是「reach a person by phone, email, etc. = successfully contact or communicate with someone 聯絡到；取得聯繫」的用法，與本句語境不同。",
-        "reach-mcq-12": "「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」是「information, news, sound, etc. reaches someone = become known to or perceived by someone 傳到；傳入；傳達到」的用法，與本句語境不同。",
-        "reach-mcq-09": "「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」是「something reaches somewhere = extend as far as a particular place or point 延伸至；一直到 Here, the subject itself extends over a distance.」的用法，與本句語境不同。",
-        "reach-mcq-13": "「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」是「reach into / through / across an area = extend, penetrate, or have an effect into a place, group, or domain 延伸至；深入；遍及」的用法，與本句語境不同。",
-        "reach-mcq-08": "「表示搆得到；伸手可及；例句：「我太矮了，搆不到最上層的架子。」」是「be able to touch or take something because it is close enough = be physically able to get to something with your hand, arm, etc. 搆得到；伸手可及」的用法，與本句語境不同。"
+        "reach-mcq-11": "本句的「reach younger audiences」指「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」。",
+        "reach-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-11"
     },
@@ -1225,11 +1137,9 @@ export default {
       "masked": "News of the accident soon ____.",
       "options": [
         "reach-mcq-12",
-        "reach-mcq-11",
-        "reach-mcq-13",
-        "reach-mcq-10",
         "reach-mcq-14",
-        "reach-mcq-09"
+        "reach-mcq-17",
+        "reach-mcq-19"
       ],
       "explanation": "本句的「reached his family」指「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」。",
       "sentenceIndex": 22,
@@ -1238,12 +1148,10 @@ export default {
         "reached his family"
       ],
       "optionReasons": {
-        "reach-mcq-12": "本句指「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」。",
-        "reach-mcq-11": "「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」是「reach an audience / people / customers = communicate with, affect, attract, or become accessible to a group of people 接觸到；觸及；影響到」的用法，與本句語境不同。",
-        "reach-mcq-13": "「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」是「reach into / through / across an area = extend, penetrate, or have an effect into a place, group, or domain 延伸至；深入；遍及」的用法，與本句語境不同。",
-        "reach-mcq-10": "「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」是「reach a person by phone, email, etc. = successfully contact or communicate with someone 聯絡到；取得聯繫」的用法，與本句語境不同。",
-        "reach-mcq-14": "「伸手可及的範圍；手臂可及的距離」是「reach — the distance you can stretch your arm = the distance within which you can touch or take something 伸手可及的範圍；手臂可及的距離」的用法，與本句語境不同。",
-        "reach-mcq-09": "「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」是「something reaches somewhere = extend as far as a particular place or point 延伸至；一直到 Here, the subject itself extends over a distance.」的用法，與本句語境不同。"
+        "reach-mcq-12": "本句的「reached his family」指「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」。",
+        "reach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-12"
     },
@@ -1255,11 +1163,9 @@ export default {
       "masked": "The sound of music ____ from across the street.",
       "options": [
         "reach-mcq-12",
-        "reach-mcq-11",
-        "reach-mcq-13",
         "reach-mcq-10",
-        "reach-mcq-14",
-        "reach-mcq-09"
+        "reach-mcq-11",
+        "reach-mcq-19"
       ],
       "explanation": "本句的「reached us」指「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」。",
       "sentenceIndex": 23,
@@ -1268,12 +1174,10 @@ export default {
         "reached us"
       ],
       "optionReasons": {
-        "reach-mcq-12": "本句指「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」。",
-        "reach-mcq-11": "「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」是「reach an audience / people / customers = communicate with, affect, attract, or become accessible to a group of people 接觸到；觸及；影響到」的用法，與本句語境不同。",
-        "reach-mcq-13": "「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」是「reach into / through / across an area = extend, penetrate, or have an effect into a place, group, or domain 延伸至；深入；遍及」的用法，與本句語境不同。",
-        "reach-mcq-10": "「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」是「reach a person by phone, email, etc. = successfully contact or communicate with someone 聯絡到；取得聯繫」的用法，與本句語境不同。",
-        "reach-mcq-14": "「伸手可及的範圍；手臂可及的距離」是「reach — the distance you can stretch your arm = the distance within which you can touch or take something 伸手可及的範圍；手臂可及的距離」的用法，與本句語境不同。",
-        "reach-mcq-09": "「表示延伸至；一直到；例句：「她的頭髮垂到肩膀。」」是「something reaches somewhere = extend as far as a particular place or point 延伸至；一直到 Here, the subject itself extends over a distance.」的用法，與本句語境不同。"
+        "reach-mcq-12": "本句的「reached us」指「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-12"
     },
@@ -1285,11 +1189,9 @@ export default {
       "masked": "The company’s network ____.",
       "options": [
         "reach-mcq-13",
-        "reach-mcq-12",
-        "reach-mcq-14",
-        "reach-mcq-11",
-        "reach-mcq-15",
-        "reach-mcq-10"
+        "reach-mcq-18",
+        "reach-mcq-17",
+        "reach-mcq-21"
       ],
       "explanation": "本句的「reaches into rural areas」指「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」。",
       "sentenceIndex": 24,
@@ -1298,12 +1200,10 @@ export default {
         "reaches into rural areas"
       ],
       "optionReasons": {
-        "reach-mcq-13": "本句指「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」。",
-        "reach-mcq-12": "「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」是「information, news, sound, etc. reaches someone = become known to or perceived by someone 傳到；傳入；傳達到」的用法，與本句語境不同。",
-        "reach-mcq-14": "「伸手可及的範圍；手臂可及的距離」是「reach — the distance you can stretch your arm = the distance within which you can touch or take something 伸手可及的範圍；手臂可及的距離」的用法，與本句語境不同。",
-        "reach-mcq-11": "「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」是「reach an audience / people / customers = communicate with, affect, attract, or become accessible to a group of people 接觸到；觸及；影響到」的用法，與本句語境不同。",
-        "reach-mcq-15": "「可以實現／難以實現；觸手可及／遙不可及」是「within reach / out of reach — figurative possibility = attainable or unattainable 可以實現／難以實現；觸手可及／遙不可及」的用法，與本句語境不同。",
-        "reach-mcq-10": "「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」是「reach a person by phone, email, etc. = successfully contact or communicate with someone 聯絡到；取得聯繫」的用法，與本句語境不同。"
+        "reach-mcq-13": "本句的「reaches into rural areas」指「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」。",
+        "reach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-13"
     },
@@ -1315,11 +1215,9 @@ export default {
       "masked": "The effects of the policy ____.",
       "options": [
         "reach-mcq-13",
-        "reach-mcq-12",
-        "reach-mcq-14",
-        "reach-mcq-11",
-        "reach-mcq-15",
-        "reach-mcq-10"
+        "reach-mcq-03",
+        "reach-mcq-23",
+        "reach-mcq-17"
       ],
       "explanation": "本句的「reach far beyond education」指「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」。",
       "sentenceIndex": 25,
@@ -1328,12 +1226,10 @@ export default {
         "reach far beyond education"
       ],
       "optionReasons": {
-        "reach-mcq-13": "本句指「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」。",
-        "reach-mcq-12": "「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」是「information, news, sound, etc. reaches someone = become known to or perceived by someone 傳到；傳入；傳達到」的用法，與本句語境不同。",
-        "reach-mcq-14": "「伸手可及的範圍；手臂可及的距離」是「reach — the distance you can stretch your arm = the distance within which you can touch or take something 伸手可及的範圍；手臂可及的距離」的用法，與本句語境不同。",
-        "reach-mcq-11": "「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」是「reach an audience / people / customers = communicate with, affect, attract, or become accessible to a group of people 接觸到；觸及；影響到」的用法，與本句語境不同。",
-        "reach-mcq-15": "「可以實現／難以實現；觸手可及／遙不可及」是「within reach / out of reach — figurative possibility = attainable or unattainable 可以實現／難以實現；觸手可及／遙不可及」的用法，與本句語境不同。",
-        "reach-mcq-10": "「表示聯絡到；取得聯繫；例句：「我試著打電話給她，但一直聯絡不上她。」」是「reach a person by phone, email, etc. = successfully contact or communicate with someone 聯絡到；取得聯繫」的用法，與本句語境不同。"
+        "reach-mcq-13": "本句的「reach far beyond education」指「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」。",
+        "reach-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-13"
     },
@@ -1345,11 +1241,9 @@ export default {
       "masked": "Keep the medicine out of children’s ____.",
       "options": [
         "reach-mcq-14",
-        "reach-mcq-13",
-        "reach-mcq-15",
-        "reach-mcq-12",
-        "reach-mcq-16",
-        "reach-mcq-11"
+        "reach-mcq-05",
+        "reach-mcq-11",
+        "reach-mcq-10"
       ],
       "explanation": "本句的「reach」指「伸手可及的範圍；手臂可及的距離」。",
       "sentenceIndex": 26,
@@ -1358,12 +1252,10 @@ export default {
         "reach"
       ],
       "optionReasons": {
-        "reach-mcq-14": "本句指「伸手可及的範圍；手臂可及的距離」。",
-        "reach-mcq-13": "「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」是「reach into / through / across an area = extend, penetrate, or have an effect into a place, group, or domain 延伸至；深入；遍及」的用法，與本句語境不同。",
-        "reach-mcq-15": "「可以實現／難以實現；觸手可及／遙不可及」是「within reach / out of reach — figurative possibility = attainable or unattainable 可以實現／難以實現；觸手可及／遙不可及」的用法，與本句語境不同。",
-        "reach-mcq-12": "「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」是「information, news, sound, etc. reaches someone = become known to or perceived by someone 傳到；傳入；傳達到」的用法，與本句語境不同。",
-        "reach-mcq-16": "「影響範圍；勢力範圍；觸及範圍」是「reach — range or extent of influence, power, communication, or activity = how far someone or something can influence, operate, communicate, or be effective 影響範圍；勢力範圍；觸及範圍」的用法，與本句語境不同。",
-        "reach-mcq-11": "「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」是「reach an audience / people / customers = communicate with, affect, attract, or become accessible to a group of people 接觸到；觸及；影響到」的用法，與本句語境不同。"
+        "reach-mcq-14": "本句的「reach」指「伸手可及的範圍；手臂可及的距離」。",
+        "reach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-14"
     },
@@ -1375,11 +1267,9 @@ export default {
       "masked": "The keys were just beyond my ____.",
       "options": [
         "reach-mcq-14",
-        "reach-mcq-13",
-        "reach-mcq-15",
-        "reach-mcq-12",
-        "reach-mcq-16",
-        "reach-mcq-11"
+        "reach-mcq-05",
+        "reach-mcq-25",
+        "reach-mcq-10"
       ],
       "explanation": "本句的「reach」指「伸手可及的範圍；手臂可及的距離」。",
       "sentenceIndex": 27,
@@ -1388,12 +1278,10 @@ export default {
         "reach"
       ],
       "optionReasons": {
-        "reach-mcq-14": "本句指「伸手可及的範圍；手臂可及的距離」。",
-        "reach-mcq-13": "「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」是「reach into / through / across an area = extend, penetrate, or have an effect into a place, group, or domain 延伸至；深入；遍及」的用法，與本句語境不同。",
-        "reach-mcq-15": "「可以實現／難以實現；觸手可及／遙不可及」是「within reach / out of reach — figurative possibility = attainable or unattainable 可以實現／難以實現；觸手可及／遙不可及」的用法，與本句語境不同。",
-        "reach-mcq-12": "「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」是「information, news, sound, etc. reaches someone = become known to or perceived by someone 傳到；傳入；傳達到」的用法，與本句語境不同。",
-        "reach-mcq-16": "「影響範圍；勢力範圍；觸及範圍」是「reach — range or extent of influence, power, communication, or activity = how far someone or something can influence, operate, communicate, or be effective 影響範圍；勢力範圍；觸及範圍」的用法，與本句語境不同。",
-        "reach-mcq-11": "「表示接觸到；觸及；影響到；例句：「社群媒體讓小型企業能接觸更多顧客。」」是「reach an audience / people / customers = communicate with, affect, attract, or become accessible to a group of people 接觸到；觸及；影響到」的用法，與本句語境不同。"
+        "reach-mcq-14": "本句的「reach」指「伸手可及的範圍；手臂可及的距離」。",
+        "reach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-14"
     },
@@ -1405,11 +1293,9 @@ export default {
       "masked": "Financial independence finally seemed ____.",
       "options": [
         "reach-mcq-15",
-        "reach-mcq-14",
-        "reach-mcq-16",
-        "reach-mcq-13",
-        "reach-mcq-17",
-        "reach-mcq-12"
+        "reach-mcq-10",
+        "reach-mcq-04",
+        "reach-mcq-19"
       ],
       "explanation": "本句的「within reach」指「可以實現／難以實現；觸手可及／遙不可及」。",
       "sentenceIndex": 28,
@@ -1418,12 +1304,10 @@ export default {
         "within reach"
       ],
       "optionReasons": {
-        "reach-mcq-15": "本句指「可以實現／難以實現；觸手可及／遙不可及」。",
-        "reach-mcq-14": "「伸手可及的範圍；手臂可及的距離」是「reach — the distance you can stretch your arm = the distance within which you can touch or take something 伸手可及的範圍；手臂可及的距離」的用法，與本句語境不同。",
-        "reach-mcq-16": "「影響範圍；勢力範圍；觸及範圍」是「reach — range or extent of influence, power, communication, or activity = how far someone or something can influence, operate, communicate, or be effective 影響範圍；勢力範圍；觸及範圍」的用法，與本句語境不同。",
-        "reach-mcq-13": "「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」是「reach into / through / across an area = extend, penetrate, or have an effect into a place, group, or domain 延伸至；深入；遍及」的用法，與本句語境不同。",
-        "reach-mcq-17": "「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」是「reach — ability to contact or access people = the number or range of people that a person, organization, medium, or message can contact 可接觸的人群；觸及能力」的用法，與本句語境不同。",
-        "reach-mcq-12": "「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」是「information, news, sound, etc. reaches someone = become known to or perceived by someone 傳到；傳入；傳達到」的用法，與本句語境不同。"
+        "reach-mcq-15": "本句的「within reach」指「可以實現／難以實現；觸手可及／遙不可及」。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-15"
     },
@@ -1435,11 +1319,9 @@ export default {
       "masked": "For many families, buying a home is increasingly ____.",
       "options": [
         "reach-mcq-15",
-        "reach-mcq-14",
-        "reach-mcq-16",
-        "reach-mcq-13",
-        "reach-mcq-17",
-        "reach-mcq-12"
+        "reach-mcq-10",
+        "reach-mcq-05",
+        "reach-mcq-09"
       ],
       "explanation": "本句的「out of reach」指「可以實現／難以實現；觸手可及／遙不可及」。",
       "sentenceIndex": 29,
@@ -1448,12 +1330,10 @@ export default {
         "out of reach"
       ],
       "optionReasons": {
-        "reach-mcq-15": "本句指「可以實現／難以實現；觸手可及／遙不可及」。",
-        "reach-mcq-14": "「伸手可及的範圍；手臂可及的距離」是「reach — the distance you can stretch your arm = the distance within which you can touch or take something 伸手可及的範圍；手臂可及的距離」的用法，與本句語境不同。",
-        "reach-mcq-16": "「影響範圍；勢力範圍；觸及範圍」是「reach — range or extent of influence, power, communication, or activity = how far someone or something can influence, operate, communicate, or be effective 影響範圍；勢力範圍；觸及範圍」的用法，與本句語境不同。",
-        "reach-mcq-13": "「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」是「reach into / through / across an area = extend, penetrate, or have an effect into a place, group, or domain 延伸至；深入；遍及」的用法，與本句語境不同。",
-        "reach-mcq-17": "「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」是「reach — ability to contact or access people = the number or range of people that a person, organization, medium, or message can contact 可接觸的人群；觸及能力」的用法，與本句語境不同。",
-        "reach-mcq-12": "「表示傳到；傳入；傳達到；例句：「事故的消息很快便傳到他的家人那裡。」」是「information, news, sound, etc. reaches someone = become known to or perceived by someone 傳到；傳入；傳達到」的用法，與本句語境不同。"
+        "reach-mcq-15": "本句的「out of reach」指「可以實現／難以實現；觸手可及／遙不可及」。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-15"
     },
@@ -1465,11 +1345,9 @@ export default {
       "masked": "The internet has greatly expanded the ____ of the organization.",
       "options": [
         "reach-mcq-16",
-        "reach-mcq-15",
-        "reach-mcq-17",
-        "reach-mcq-14",
-        "reach-mcq-18",
-        "reach-mcq-13"
+        "reach-mcq-09",
+        "reach-mcq-02",
+        "reach-mcq-10"
       ],
       "explanation": "本句的「reach」指「影響範圍；勢力範圍；觸及範圍」。",
       "sentenceIndex": 30,
@@ -1478,12 +1356,10 @@ export default {
         "reach"
       ],
       "optionReasons": {
-        "reach-mcq-16": "本句指「影響範圍；勢力範圍；觸及範圍」。",
-        "reach-mcq-15": "「可以實現／難以實現；觸手可及／遙不可及」是「within reach / out of reach — figurative possibility = attainable or unattainable 可以實現／難以實現；觸手可及／遙不可及」的用法，與本句語境不同。",
-        "reach-mcq-17": "「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」是「reach — ability to contact or access people = the number or range of people that a person, organization, medium, or message can contact 可接觸的人群；觸及能力」的用法，與本句語境不同。",
-        "reach-mcq-14": "「伸手可及的範圍；手臂可及的距離」是「reach — the distance you can stretch your arm = the distance within which you can touch or take something 伸手可及的範圍；手臂可及的距離」的用法，與本句語境不同。",
-        "reach-mcq-18": "「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」是「reach — maximum effective distance = the maximum distance over which something can extend, operate, strike, or function 有效距離；可及範圍；射程」的用法，與本句語境不同。",
-        "reach-mcq-13": "「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」是「reach into / through / across an area = extend, penetrate, or have an effect into a place, group, or domain 延伸至；深入；遍及」的用法，與本句語境不同。"
+        "reach-mcq-16": "本句的「reach」指「影響範圍；勢力範圍；觸及範圍」。",
+        "reach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-16"
     },
@@ -1495,11 +1371,9 @@ export default {
       "masked": "The charity hopes to extend its ____ into smaller communities.",
       "options": [
         "reach-mcq-16",
-        "reach-mcq-15",
-        "reach-mcq-17",
-        "reach-mcq-14",
-        "reach-mcq-18",
-        "reach-mcq-13"
+        "reach-mcq-23",
+        "reach-mcq-19",
+        "reach-mcq-21"
       ],
       "explanation": "本句的「reach」指「影響範圍；勢力範圍；觸及範圍」。",
       "sentenceIndex": 31,
@@ -1508,12 +1382,10 @@ export default {
         "reach"
       ],
       "optionReasons": {
-        "reach-mcq-16": "本句指「影響範圍；勢力範圍；觸及範圍」。",
-        "reach-mcq-15": "「可以實現／難以實現；觸手可及／遙不可及」是「within reach / out of reach — figurative possibility = attainable or unattainable 可以實現／難以實現；觸手可及／遙不可及」的用法，與本句語境不同。",
-        "reach-mcq-17": "「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」是「reach — ability to contact or access people = the number or range of people that a person, organization, medium, or message can contact 可接觸的人群；觸及能力」的用法，與本句語境不同。",
-        "reach-mcq-14": "「伸手可及的範圍；手臂可及的距離」是「reach — the distance you can stretch your arm = the distance within which you can touch or take something 伸手可及的範圍；手臂可及的距離」的用法，與本句語境不同。",
-        "reach-mcq-18": "「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」是「reach — maximum effective distance = the maximum distance over which something can extend, operate, strike, or function 有效距離；可及範圍；射程」的用法，與本句語境不同。",
-        "reach-mcq-13": "「表示延伸至；深入；遍及；例句：「該公司的網絡延伸至偏遠地區。」」是「reach into / through / across an area = extend, penetrate, or have an effect into a place, group, or domain 延伸至；深入；遍及」的用法，與本句語境不同。"
+        "reach-mcq-16": "本句的「reach」指「影響範圍；勢力範圍；觸及範圍」。",
+        "reach-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-16"
     },
@@ -1525,11 +1397,9 @@ export default {
       "masked": "The platform gives artists a much wider ____.",
       "options": [
         "reach-mcq-17",
-        "reach-mcq-16",
-        "reach-mcq-18",
-        "reach-mcq-15",
+        "reach-mcq-21",
         "reach-mcq-19",
-        "reach-mcq-14"
+        "reach-mcq-10"
       ],
       "explanation": "本句的「reach」指「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」。",
       "sentenceIndex": 32,
@@ -1538,12 +1408,10 @@ export default {
         "reach"
       ],
       "optionReasons": {
-        "reach-mcq-17": "本句指「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」。",
-        "reach-mcq-16": "「影響範圍；勢力範圍；觸及範圍」是「reach — range or extent of influence, power, communication, or activity = how far someone or something can influence, operate, communicate, or be effective 影響範圍；勢力範圍；觸及範圍」的用法，與本句語境不同。",
-        "reach-mcq-18": "「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」是「reach — maximum effective distance = the maximum distance over which something can extend, operate, strike, or function 有效距離；可及範圍；射程」的用法，與本句語境不同。",
-        "reach-mcq-15": "「可以實現／難以實現；觸手可及／遙不可及」是「within reach / out of reach — figurative possibility = attainable or unattainable 可以實現／難以實現；觸手可及／遙不可及」的用法，與本句語境不同。",
-        "reach-mcq-19": "「表示河段；例句：「這條河的下游河段人口稠密。」」是「reach — a continuous stretch or section of a river = a particular stretch of a river, especially between two points 河段」的用法，與本句語境不同。",
-        "reach-mcq-14": "「伸手可及的範圍；手臂可及的距離」是「reach — the distance you can stretch your arm = the distance within which you can touch or take something 伸手可及的範圍；手臂可及的距離」的用法，與本句語境不同。"
+        "reach-mcq-17": "本句的「reach」指「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」。",
+        "reach-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-17"
     },
@@ -1555,11 +1423,9 @@ export default {
       "masked": "Television still has enormous ____ in some markets.",
       "options": [
         "reach-mcq-17",
-        "reach-mcq-16",
+        "reach-mcq-13",
         "reach-mcq-18",
-        "reach-mcq-15",
-        "reach-mcq-19",
-        "reach-mcq-14"
+        "reach-mcq-06"
       ],
       "explanation": "本句的「reach」指「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」。",
       "sentenceIndex": 33,
@@ -1568,12 +1434,10 @@ export default {
         "reach"
       ],
       "optionReasons": {
-        "reach-mcq-17": "本句指「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」。",
-        "reach-mcq-16": "「影響範圍；勢力範圍；觸及範圍」是「reach — range or extent of influence, power, communication, or activity = how far someone or something can influence, operate, communicate, or be effective 影響範圍；勢力範圍；觸及範圍」的用法，與本句語境不同。",
-        "reach-mcq-18": "「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」是「reach — maximum effective distance = the maximum distance over which something can extend, operate, strike, or function 有效距離；可及範圍；射程」的用法，與本句語境不同。",
-        "reach-mcq-15": "「可以實現／難以實現；觸手可及／遙不可及」是「within reach / out of reach — figurative possibility = attainable or unattainable 可以實現／難以實現；觸手可及／遙不可及」的用法，與本句語境不同。",
-        "reach-mcq-19": "「表示河段；例句：「這條河的下游河段人口稠密。」」是「reach — a continuous stretch or section of a river = a particular stretch of a river, especially between two points 河段」的用法，與本句語境不同。",
-        "reach-mcq-14": "「伸手可及的範圍；手臂可及的距離」是「reach — the distance you can stretch your arm = the distance within which you can touch or take something 伸手可及的範圍；手臂可及的距離」的用法，與本句語境不同。"
+        "reach-mcq-17": "本句的「reach」指「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」。",
+        "reach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-17"
     },
@@ -1585,11 +1449,9 @@ export default {
       "masked": "The crane has a ____ of nearly fifty metres.",
       "options": [
         "reach-mcq-18",
-        "reach-mcq-17",
-        "reach-mcq-19",
-        "reach-mcq-16",
-        "reach-mcq-20",
-        "reach-mcq-15"
+        "reach-mcq-21",
+        "reach-mcq-10",
+        "reach-mcq-01"
       ],
       "explanation": "本句的「reach」指「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」。",
       "sentenceIndex": 34,
@@ -1598,12 +1460,10 @@ export default {
         "reach"
       ],
       "optionReasons": {
-        "reach-mcq-18": "本句指「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」。",
-        "reach-mcq-17": "「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」是「reach — ability to contact or access people = the number or range of people that a person, organization, medium, or message can contact 可接觸的人群；觸及能力」的用法，與本句語境不同。",
-        "reach-mcq-19": "「表示河段；例句：「這條河的下游河段人口稠密。」」是「reach — a continuous stretch or section of a river = a particular stretch of a river, especially between two points 河段」的用法，與本句語境不同。",
-        "reach-mcq-16": "「影響範圍；勢力範圍；觸及範圍」是「reach — range or extent of influence, power, communication, or activity = how far someone or something can influence, operate, communicate, or be effective 影響範圍；勢力範圍；觸及範圍」的用法，與本句語境不同。",
-        "reach-mcq-20": "「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」是「the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.」的用法，與本句語境不同。",
-        "reach-mcq-15": "「可以實現／難以實現；觸手可及／遙不可及」是「within reach / out of reach — figurative possibility = attainable or unattainable 可以實現／難以實現；觸手可及／遙不可及」的用法，與本句語境不同。"
+        "reach-mcq-18": "本句的「reach」指「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」。",
+        "reach-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-18"
     },
@@ -1615,11 +1475,9 @@ export default {
       "masked": "The tool gives you extra ____ when working overhead.",
       "options": [
         "reach-mcq-18",
-        "reach-mcq-17",
-        "reach-mcq-19",
-        "reach-mcq-16",
-        "reach-mcq-20",
-        "reach-mcq-15"
+        "reach-mcq-06",
+        "reach-mcq-21",
+        "reach-mcq-04"
       ],
       "explanation": "本句的「reach」指「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」。",
       "sentenceIndex": 35,
@@ -1628,12 +1486,10 @@ export default {
         "reach"
       ],
       "optionReasons": {
-        "reach-mcq-18": "本句指「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」。",
-        "reach-mcq-17": "「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」是「reach — ability to contact or access people = the number or range of people that a person, organization, medium, or message can contact 可接觸的人群；觸及能力」的用法，與本句語境不同。",
-        "reach-mcq-19": "「表示河段；例句：「這條河的下游河段人口稠密。」」是「reach — a continuous stretch or section of a river = a particular stretch of a river, especially between two points 河段」的用法，與本句語境不同。",
-        "reach-mcq-16": "「影響範圍；勢力範圍；觸及範圍」是「reach — range or extent of influence, power, communication, or activity = how far someone or something can influence, operate, communicate, or be effective 影響範圍；勢力範圍；觸及範圍」的用法，與本句語境不同。",
-        "reach-mcq-20": "「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」是「the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.」的用法，與本句語境不同。",
-        "reach-mcq-15": "「可以實現／難以實現；觸手可及／遙不可及」是「within reach / out of reach — figurative possibility = attainable or unattainable 可以實現／難以實現；觸手可及／遙不可及」的用法，與本句語境不同。"
+        "reach-mcq-18": "本句的「reach」指「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」。",
+        "reach-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-18"
     },
@@ -1645,11 +1501,9 @@ export default {
       "masked": "The lower ____ of the river are heavily populated.",
       "options": [
         "reach-mcq-19",
-        "reach-mcq-18",
-        "reach-mcq-20",
-        "reach-mcq-17",
-        "reach-mcq-21",
-        "reach-mcq-16"
+        "reach-mcq-10",
+        "reach-mcq-07",
+        "reach-mcq-17"
       ],
       "explanation": "本句的「reaches」指「表示河段；例句：「這條河的下游河段人口稠密。」」。",
       "sentenceIndex": 36,
@@ -1658,12 +1512,10 @@ export default {
         "reaches"
       ],
       "optionReasons": {
-        "reach-mcq-19": "本句指「表示河段；例句：「這條河的下游河段人口稠密。」」。",
-        "reach-mcq-18": "「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」是「reach — maximum effective distance = the maximum distance over which something can extend, operate, strike, or function 有效距離；可及範圍；射程」的用法，與本句語境不同。",
-        "reach-mcq-20": "「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」是「the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.」的用法，與本句語境不同。",
-        "reach-mcq-17": "「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」是「reach — ability to contact or access people = the number or range of people that a person, organization, medium, or message can contact 可接觸的人群；觸及能力」的用法，與本句語境不同。",
-        "reach-mcq-21": "「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」是「within easy reach = close enough to access conveniently 很容易到達；近在咫尺」的用法，與本句語境不同。",
-        "reach-mcq-16": "「影響範圍；勢力範圍；觸及範圍」是「reach — range or extent of influence, power, communication, or activity = how far someone or something can influence, operate, communicate, or be effective 影響範圍；勢力範圍；觸及範圍」的用法，與本句語境不同。"
+        "reach-mcq-19": "本句的「reaches」指「表示河段；例句：「這條河的下游河段人口稠密。」」。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-19"
     },
@@ -1675,11 +1527,9 @@ export default {
       "masked": "Flooding affected several ____ of the river.",
       "options": [
         "reach-mcq-19",
-        "reach-mcq-18",
-        "reach-mcq-20",
-        "reach-mcq-17",
-        "reach-mcq-21",
-        "reach-mcq-16"
+        "reach-mcq-22",
+        "reach-mcq-13",
+        "reach-mcq-06"
       ],
       "explanation": "本句的「reaches」指「表示河段；例句：「這條河的下游河段人口稠密。」」。",
       "sentenceIndex": 37,
@@ -1688,12 +1538,10 @@ export default {
         "reaches"
       ],
       "optionReasons": {
-        "reach-mcq-19": "本句指「表示河段；例句：「這條河的下游河段人口稠密。」」。",
-        "reach-mcq-18": "「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」是「reach — maximum effective distance = the maximum distance over which something can extend, operate, strike, or function 有效距離；可及範圍；射程」的用法，與本句語境不同。",
-        "reach-mcq-20": "「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」是「the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.」的用法，與本句語境不同。",
-        "reach-mcq-17": "「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」是「reach — ability to contact or access people = the number or range of people that a person, organization, medium, or message can contact 可接觸的人群；觸及能力」的用法，與本句語境不同。",
-        "reach-mcq-21": "「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」是「within easy reach = close enough to access conveniently 很容易到達；近在咫尺」的用法，與本句語境不同。",
-        "reach-mcq-16": "「影響範圍；勢力範圍；觸及範圍」是「reach — range or extent of influence, power, communication, or activity = how far someone or something can influence, operate, communicate, or be effective 影響範圍；勢力範圍；觸及範圍」的用法，與本句語境不同。"
+        "reach-mcq-19": "本句的「reaches」指「表示河段；例句：「這條河的下游河段人口稠密。」」。",
+        "reach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-19"
     },
@@ -1705,11 +1553,9 @@ export default {
       "masked": "Researchers travelled to the northern ____ of the region.",
       "options": [
         "reach-mcq-20",
-        "reach-mcq-19",
-        "reach-mcq-21",
-        "reach-mcq-18",
-        "reach-mcq-22",
-        "reach-mcq-17"
+        "reach-mcq-11",
+        "reach-mcq-01",
+        "reach-mcq-10"
       ],
       "explanation": "本句的「reaches」指「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」。",
       "sentenceIndex": 38,
@@ -1718,12 +1564,10 @@ export default {
         "reaches"
       ],
       "optionReasons": {
-        "reach-mcq-20": "本句指「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」。",
-        "reach-mcq-19": "「表示河段；例句：「這條河的下游河段人口稠密。」」是「reach — a continuous stretch or section of a river = a particular stretch of a river, especially between two points 河段」的用法，與本句語境不同。",
-        "reach-mcq-21": "「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」是「within easy reach = close enough to access conveniently 很容易到達；近在咫尺」的用法，與本句語境不同。",
-        "reach-mcq-18": "「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」是「reach — maximum effective distance = the maximum distance over which something can extend, operate, strike, or function 有效距離；可及範圍；射程」的用法，與本句語境不同。",
-        "reach-mcq-22": "「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」是「beyond someone’s reach」的用法，與本句語境不同。",
-        "reach-mcq-17": "「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」是「reach — ability to contact or access people = the number or range of people that a person, organization, medium, or message can contact 可接觸的人群；觸及能力」的用法，與本句語境不同。"
+        "reach-mcq-20": "本句的「reaches」指「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」。",
+        "reach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-20"
     },
@@ -1735,11 +1579,9 @@ export default {
       "masked": "The signal can be received in the farthest ____ of the country.",
       "options": [
         "reach-mcq-20",
-        "reach-mcq-19",
-        "reach-mcq-21",
-        "reach-mcq-18",
-        "reach-mcq-22",
-        "reach-mcq-17"
+        "reach-mcq-07",
+        "reach-mcq-15",
+        "reach-mcq-03"
       ],
       "explanation": "本句的「reaches」指「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」。",
       "sentenceIndex": 39,
@@ -1748,12 +1590,10 @@ export default {
         "reaches"
       ],
       "optionReasons": {
-        "reach-mcq-20": "本句指「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」。",
-        "reach-mcq-19": "「表示河段；例句：「這條河的下游河段人口稠密。」」是「reach — a continuous stretch or section of a river = a particular stretch of a river, especially between two points 河段」的用法，與本句語境不同。",
-        "reach-mcq-21": "「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」是「within easy reach = close enough to access conveniently 很容易到達；近在咫尺」的用法，與本句語境不同。",
-        "reach-mcq-18": "「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」是「reach — maximum effective distance = the maximum distance over which something can extend, operate, strike, or function 有效距離；可及範圍；射程」的用法，與本句語境不同。",
-        "reach-mcq-22": "「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」是「beyond someone’s reach」的用法，與本句語境不同。",
-        "reach-mcq-17": "「表示可接觸的人群；觸及能力；例句：「這個平台讓藝術家能接觸更廣泛的受眾。」」是「reach — ability to contact or access people = the number or range of people that a person, organization, medium, or message can contact 可接觸的人群；觸及能力」的用法，與本句語境不同。"
+        "reach-mcq-20": "本句的「reaches」指「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」。",
+        "reach-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-20"
     },
@@ -1765,11 +1605,9 @@ export default {
       "masked": "The hotel is ____.",
       "options": [
         "reach-mcq-21",
-        "reach-mcq-20",
-        "reach-mcq-22",
-        "reach-mcq-19",
-        "reach-mcq-23",
-        "reach-mcq-18"
+        "reach-mcq-25",
+        "reach-mcq-18",
+        "reach-mcq-20"
       ],
       "explanation": "本句的「within easy reach of the airport」指「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」。",
       "sentenceIndex": 40,
@@ -1778,12 +1616,10 @@ export default {
         "within easy reach of the airport"
       ],
       "optionReasons": {
-        "reach-mcq-21": "本句指「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」。",
-        "reach-mcq-20": "「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」是「the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.」的用法，與本句語境不同。",
-        "reach-mcq-22": "「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」是「beyond someone’s reach」的用法，與本句語境不同。",
-        "reach-mcq-19": "「表示河段；例句：「這條河的下游河段人口稠密。」」是「reach — a continuous stretch or section of a river = a particular stretch of a river, especially between two points 河段」的用法，與本句語境不同。",
-        "reach-mcq-23": "「表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」」是「reach for the stars = aim for something highly ambitious 胸懷大志；追求遠大目標」的用法，與本句語境不同。",
-        "reach-mcq-18": "「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」是「reach — maximum effective distance = the maximum distance over which something can extend, operate, strike, or function 有效距離；可及範圍；射程」的用法，與本句語境不同。"
+        "reach-mcq-21": "本句的「within easy reach of the airport」指「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」。",
+        "reach-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-21"
     },
@@ -1795,11 +1631,9 @@ export default {
       "masked": "Keep important documents ____.",
       "options": [
         "reach-mcq-21",
-        "reach-mcq-20",
-        "reach-mcq-22",
-        "reach-mcq-19",
+        "reach-mcq-08",
         "reach-mcq-23",
-        "reach-mcq-18"
+        "reach-mcq-11"
       ],
       "explanation": "本句的「within easy reach」指「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」。",
       "sentenceIndex": 41,
@@ -1808,12 +1642,10 @@ export default {
         "within easy reach"
       ],
       "optionReasons": {
-        "reach-mcq-21": "本句指「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」。",
-        "reach-mcq-20": "「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」是「the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.」的用法，與本句語境不同。",
-        "reach-mcq-22": "「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」是「beyond someone’s reach」的用法，與本句語境不同。",
-        "reach-mcq-19": "「表示河段；例句：「這條河的下游河段人口稠密。」」是「reach — a continuous stretch or section of a river = a particular stretch of a river, especially between two points 河段」的用法，與本句語境不同。",
-        "reach-mcq-23": "「表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」」是「reach for the stars = aim for something highly ambitious 胸懷大志；追求遠大目標」的用法，與本句語境不同。",
-        "reach-mcq-18": "「表示有效距離；可及範圍；射程；例句：「這台起重機的作業伸展距離接近五十公尺。」」是「reach — maximum effective distance = the maximum distance over which something can extend, operate, strike, or function 有效距離；可及範圍；射程」的用法，與本句語境不同。"
+        "reach-mcq-21": "本句的「within easy reach」指「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」。",
+        "reach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-21"
     },
@@ -1825,11 +1657,9 @@ export default {
       "masked": "The branch was just ____.",
       "options": [
         "reach-mcq-22",
-        "reach-mcq-21",
-        "reach-mcq-23",
-        "reach-mcq-20",
-        "reach-mcq-24",
-        "reach-mcq-19"
+        "reach-mcq-01",
+        "reach-mcq-11",
+        "reach-mcq-13"
       ],
       "explanation": "本句的「beyond my reach」指「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」。",
       "sentenceIndex": 42,
@@ -1838,12 +1668,10 @@ export default {
         "beyond my reach"
       ],
       "optionReasons": {
-        "reach-mcq-22": "本句指「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」。",
-        "reach-mcq-21": "「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」是「within easy reach = close enough to access conveniently 很容易到達；近在咫尺」的用法，與本句語境不同。",
-        "reach-mcq-23": "「表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」」是「reach for the stars = aim for something highly ambitious 胸懷大志；追求遠大目標」的用法，與本句語境不同。",
-        "reach-mcq-20": "「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」是「the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.」的用法，與本句語境不同。",
-        "reach-mcq-24": "「表示影響深遠的；範圍廣泛的；例句：「這項發明造成了深遠的影響。」」是「far-reaching = having important effects that extend over a wide area, group, or period 影響深遠的；範圍廣泛的」的用法，與本句語境不同。",
-        "reach-mcq-19": "「表示河段；例句：「這條河的下游河段人口稠密。」」是「reach — a continuous stretch or section of a river = a particular stretch of a river, especially between two points 河段」的用法，與本句語境不同。"
+        "reach-mcq-22": "本句的「beyond my reach」指「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」。",
+        "reach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-22"
     },
@@ -1856,10 +1684,8 @@ export default {
       "options": [
         "reach-mcq-22",
         "reach-mcq-21",
-        "reach-mcq-23",
-        "reach-mcq-20",
-        "reach-mcq-24",
-        "reach-mcq-19"
+        "reach-mcq-15",
+        "reach-mcq-11"
       ],
       "explanation": "本句的「beyond his reach」指「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」。",
       "sentenceIndex": 43,
@@ -1868,12 +1694,10 @@ export default {
         "beyond his reach"
       ],
       "optionReasons": {
-        "reach-mcq-22": "本句指「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」。",
-        "reach-mcq-21": "「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」是「within easy reach = close enough to access conveniently 很容易到達；近在咫尺」的用法，與本句語境不同。",
-        "reach-mcq-23": "「表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」」是「reach for the stars = aim for something highly ambitious 胸懷大志；追求遠大目標」的用法，與本句語境不同。",
-        "reach-mcq-20": "「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」是「the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.」的用法，與本句語境不同。",
-        "reach-mcq-24": "「表示影響深遠的；範圍廣泛的；例句：「這項發明造成了深遠的影響。」」是「far-reaching = having important effects that extend over a wide area, group, or period 影響深遠的；範圍廣泛的」的用法，與本句語境不同。",
-        "reach-mcq-19": "「表示河段；例句：「這條河的下游河段人口稠密。」」是「reach — a continuous stretch or section of a river = a particular stretch of a river, especially between two points 河段」的用法，與本句語境不同。"
+        "reach-mcq-22": "本句的「beyond his reach」指「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」。",
+        "reach-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-22"
     },
@@ -1885,11 +1709,9 @@ export default {
       "masked": "Her parents always encouraged her to ____.",
       "options": [
         "reach-mcq-23",
-        "reach-mcq-22",
-        "reach-mcq-24",
-        "reach-mcq-21",
-        "reach-mcq-25",
-        "reach-mcq-20"
+        "reach-mcq-15",
+        "reach-mcq-02",
+        "reach-mcq-10"
       ],
       "explanation": "本句的「reach for the stars」指「表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」」。",
       "sentenceIndex": 44,
@@ -1898,12 +1720,10 @@ export default {
         "reach for the stars"
       ],
       "optionReasons": {
-        "reach-mcq-23": "本句指「表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」」。",
-        "reach-mcq-22": "「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」是「beyond someone’s reach」的用法，與本句語境不同。",
-        "reach-mcq-24": "「表示影響深遠的；範圍廣泛的；例句：「這項發明造成了深遠的影響。」」是「far-reaching = having important effects that extend over a wide area, group, or period 影響深遠的；範圍廣泛的」的用法，與本句語境不同。",
-        "reach-mcq-21": "「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」是「within easy reach = close enough to access conveniently 很容易到達；近在咫尺」的用法，與本句語境不同。",
-        "reach-mcq-25": "「外展服務；推廣活動；主動接觸社群的工作」是「outreach = organized effort to provide information, help, services, or contact to people who might not otherwise receive them 外展服務；推廣活動；主動接觸社群的工作」的用法，與本句語境不同。",
-        "reach-mcq-20": "「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」是「the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.」的用法，與本句語境不同。"
+        "reach-mcq-23": "本句的「reach for the stars」指「表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」」。",
+        "reach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-23"
     },
@@ -1915,11 +1735,9 @@ export default {
       "masked": "There is nothing wrong with ____ if you remain realistic.",
       "options": [
         "reach-mcq-23",
-        "reach-mcq-22",
-        "reach-mcq-24",
-        "reach-mcq-21",
+        "reach-mcq-09",
         "reach-mcq-25",
-        "reach-mcq-20"
+        "reach-mcq-01"
       ],
       "explanation": "本句的「reaching for the stars」指「表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」」。",
       "sentenceIndex": 45,
@@ -1928,12 +1746,10 @@ export default {
         "reaching for the stars"
       ],
       "optionReasons": {
-        "reach-mcq-23": "本句指「表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」」。",
-        "reach-mcq-22": "「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」是「beyond someone’s reach」的用法，與本句語境不同。",
-        "reach-mcq-24": "「表示影響深遠的；範圍廣泛的；例句：「這項發明造成了深遠的影響。」」是「far-reaching = having important effects that extend over a wide area, group, or period 影響深遠的；範圍廣泛的」的用法，與本句語境不同。",
-        "reach-mcq-21": "「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」是「within easy reach = close enough to access conveniently 很容易到達；近在咫尺」的用法，與本句語境不同。",
-        "reach-mcq-25": "「外展服務；推廣活動；主動接觸社群的工作」是「outreach = organized effort to provide information, help, services, or contact to people who might not otherwise receive them 外展服務；推廣活動；主動接觸社群的工作」的用法，與本句語境不同。",
-        "reach-mcq-20": "「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」是「the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.」的用法，與本句語境不同。"
+        "reach-mcq-23": "本句的「reaching for the stars」指「表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」」。",
+        "reach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-23"
     },
@@ -1945,11 +1761,9 @@ export default {
       "masked": "The invention had ____.",
       "options": [
         "reach-mcq-24",
-        "reach-mcq-23",
-        "reach-mcq-25",
-        "reach-mcq-22",
-        "reach-mcq-21",
-        "reach-mcq-20"
+        "reach-mcq-15",
+        "reach-mcq-02",
+        "reach-mcq-07"
       ],
       "explanation": "本句的「far-reaching consequences」指「表示影響深遠的；範圍廣泛的；例句：「這項發明造成了深遠的影響。」」。",
       "sentenceIndex": 46,
@@ -1958,12 +1772,10 @@ export default {
         "far-reaching consequences"
       ],
       "optionReasons": {
-        "reach-mcq-24": "本句指「表示影響深遠的；範圍廣泛的；例句：「這項發明造成了深遠的影響。」」。",
-        "reach-mcq-23": "「表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」」是「reach for the stars = aim for something highly ambitious 胸懷大志；追求遠大目標」的用法，與本句語境不同。",
-        "reach-mcq-25": "「外展服務；推廣活動；主動接觸社群的工作」是「outreach = organized effort to provide information, help, services, or contact to people who might not otherwise receive them 外展服務；推廣活動；主動接觸社群的工作」的用法，與本句語境不同。",
-        "reach-mcq-22": "「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」是「beyond someone’s reach」的用法，與本句語境不同。",
-        "reach-mcq-21": "「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」是「within easy reach = close enough to access conveniently 很容易到達；近在咫尺」的用法，與本句語境不同。",
-        "reach-mcq-20": "「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」是「the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.」的用法，與本句語境不同。"
+        "reach-mcq-24": "本句的「far-reaching consequences」指「表示影響深遠的；範圍廣泛的；例句：「這項發明造成了深遠的影響。」」。",
+        "reach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-24"
     },
@@ -1975,11 +1787,9 @@ export default {
       "masked": "The reforms could have ____ on education.",
       "options": [
         "reach-mcq-24",
-        "reach-mcq-23",
-        "reach-mcq-25",
-        "reach-mcq-22",
-        "reach-mcq-21",
-        "reach-mcq-20"
+        "reach-mcq-01",
+        "reach-mcq-09",
+        "reach-mcq-10"
       ],
       "explanation": "本句的「far-reaching effects」指「表示影響深遠的；範圍廣泛的；例句：「這項發明造成了深遠的影響。」」。",
       "sentenceIndex": 47,
@@ -1988,12 +1798,10 @@ export default {
         "far-reaching effects"
       ],
       "optionReasons": {
-        "reach-mcq-24": "本句指「表示影響深遠的；範圍廣泛的；例句：「這項發明造成了深遠的影響。」」。",
-        "reach-mcq-23": "「表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」」是「reach for the stars = aim for something highly ambitious 胸懷大志；追求遠大目標」的用法，與本句語境不同。",
-        "reach-mcq-25": "「外展服務；推廣活動；主動接觸社群的工作」是「outreach = organized effort to provide information, help, services, or contact to people who might not otherwise receive them 外展服務；推廣活動；主動接觸社群的工作」的用法，與本句語境不同。",
-        "reach-mcq-22": "「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」是「beyond someone’s reach」的用法，與本句語境不同。",
-        "reach-mcq-21": "「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」是「within easy reach = close enough to access conveniently 很容易到達；近在咫尺」的用法，與本句語境不同。",
-        "reach-mcq-20": "「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」是「the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.」的用法，與本句語境不同。"
+        "reach-mcq-24": "本句的「far-reaching effects」指「表示影響深遠的；範圍廣泛的；例句：「這項發明造成了深遠的影響。」」。",
+        "reach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-24"
     },
@@ -2005,11 +1813,9 @@ export default {
       "masked": "The hospital runs a community ____.",
       "options": [
         "reach-mcq-25",
-        "reach-mcq-24",
-        "reach-mcq-23",
-        "reach-mcq-22",
-        "reach-mcq-21",
-        "reach-mcq-20"
+        "reach-mcq-06",
+        "reach-mcq-02",
+        "reach-mcq-10"
       ],
       "explanation": "本句的「outreach programme」指「外展服務；推廣活動；主動接觸社群的工作」。",
       "sentenceIndex": 48,
@@ -2018,12 +1824,10 @@ export default {
         "outreach programme"
       ],
       "optionReasons": {
-        "reach-mcq-25": "本句指「外展服務；推廣活動；主動接觸社群的工作」。",
-        "reach-mcq-24": "「表示影響深遠的；範圍廣泛的；例句：「這項發明造成了深遠的影響。」」是「far-reaching = having important effects that extend over a wide area, group, or period 影響深遠的；範圍廣泛的」的用法，與本句語境不同。",
-        "reach-mcq-23": "「表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」」是「reach for the stars = aim for something highly ambitious 胸懷大志；追求遠大目標」的用法，與本句語境不同。",
-        "reach-mcq-22": "「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」是「beyond someone’s reach」的用法，與本句語境不同。",
-        "reach-mcq-21": "「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」是「within easy reach = close enough to access conveniently 很容易到達；近在咫尺」的用法，與本句語境不同。",
-        "reach-mcq-20": "「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」是「the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.」的用法，與本句語境不同。"
+        "reach-mcq-25": "本句的「outreach programme」指「外展服務；推廣活動；主動接觸社群的工作」。",
+        "reach-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-25"
     },
@@ -2035,11 +1839,9 @@ export default {
       "masked": "The university wants to improve its ____ to disadvantaged students.",
       "options": [
         "reach-mcq-25",
-        "reach-mcq-24",
-        "reach-mcq-23",
-        "reach-mcq-22",
-        "reach-mcq-21",
-        "reach-mcq-20"
+        "reach-mcq-14",
+        "reach-mcq-13",
+        "reach-mcq-02"
       ],
       "explanation": "本句的「outreach」指「外展服務；推廣活動；主動接觸社群的工作」。",
       "sentenceIndex": 49,
@@ -2048,12 +1850,10 @@ export default {
         "outreach"
       ],
       "optionReasons": {
-        "reach-mcq-25": "本句指「外展服務；推廣活動；主動接觸社群的工作」。",
-        "reach-mcq-24": "「表示影響深遠的；範圍廣泛的；例句：「這項發明造成了深遠的影響。」」是「far-reaching = having important effects that extend over a wide area, group, or period 影響深遠的；範圍廣泛的」的用法，與本句語境不同。",
-        "reach-mcq-23": "「表示胸懷大志；追求遠大目標；例句：「她的父母總是鼓勵她追求遠大的目標。」」是「reach for the stars = aim for something highly ambitious 胸懷大志；追求遠大目標」的用法，與本句語境不同。",
-        "reach-mcq-22": "「表示超出某人搆得到的範圍；例句：「那根樹枝剛好在我搆不到的位置。」」是「beyond someone’s reach」的用法，與本句語境不同。",
-        "reach-mcq-21": "「表示很容易到達；近在咫尺；例句：「這家飯店距離機場很近，交通方便。」」是「within easy reach = close enough to access conveniently 很容易到達；近在咫尺」的用法，與本句語境不同。",
-        "reach-mcq-20": "「表示邊遠地區；最外圍部分；例句：「研究人員前往該地區北部的偏遠地帶。」」是「the reaches of something = distant, outer, or extreme parts of an area 邊遠地區；最外圍部分 Usually plural and often literary/formal.」的用法，與本句語境不同。"
+        "reach-mcq-25": "本句的「outreach」指「外展服務；推廣活動；主動接觸社群的工作」。",
+        "reach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reach-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reach-mcq-25"
     }
@@ -2065,5 +1865,7 @@ export default {
     "sha256": "c16dc99525cca3a9be47b43aa488fea200b55b8237e7c4a245313bf3749f566b",
     "pages": 16
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

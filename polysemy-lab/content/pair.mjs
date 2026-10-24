@@ -654,11 +654,9 @@ export default {
       "masked": "我買了____耳機。",
       "options": [
         "pair-01",
-        "pair-07",
-        "pair-08",
-        "pair-11",
-        "pair-16",
-        "pair-17"
+        "pair-15",
+        "pair-17",
+        "pair-07"
       ],
       "explanation": "留意搭配：a pair of + matching objects （成對物件）。這裡著重「兩件成套使用的物件（一雙／一副）」。",
       "sentenceIndex": 0,
@@ -667,12 +665,10 @@ export default {
         "pair of headphones"
       ],
       "optionReasons": {
-        "pair-01": "本句搭配 a pair of + matching objects （成對物件），應理解為「兩件成套使用的物件（一雙／一副）」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 a pair of + matching objects （成對物件） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 a pair of + matching objects （成對物件） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 a pair of + matching objects （成對物件） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 a pair of + matching objects （成對物件） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 a pair of + matching objects （成對物件） 的用法不同。"
+        "pair-01": "留意搭配：a pair of + matching objects （成對物件）。這裡著重「兩件成套使用的物件（一雙／一副）」。",
+        "pair-15": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。",
+        "pair-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -683,10 +679,8 @@ export default {
       "masked": "她買了____鞋。",
       "options": [
         "pair-01",
-        "pair-07",
         "pair-08",
         "pair-11",
-        "pair-16",
         "pair-17"
       ],
       "explanation": "留意搭配：a pair of + matching objects （成對物件）。這裡著重「兩件成套使用的物件（一雙／一副）」。",
@@ -696,12 +690,10 @@ export default {
         "pair of shoes"
       ],
       "optionReasons": {
-        "pair-01": "本句搭配 a pair of + matching objects （成對物件），應理解為「兩件成套使用的物件（一雙／一副）」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 a pair of + matching objects （成對物件） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 a pair of + matching objects （成對物件） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 a pair of + matching objects （成對物件） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 a pair of + matching objects （成對物件） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 a pair of + matching objects （成對物件） 的用法不同。"
+        "pair-01": "留意搭配：a pair of + matching objects （成對物件）。這裡著重「兩件成套使用的物件（一雙／一副）」。",
+        "pair-08": "請比較這個意思與句子中標示的用法。",
+        "pair-11": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -712,10 +704,8 @@ export default {
       "masked": "他戴著____手套。",
       "options": [
         "pair-01",
-        "pair-07",
-        "pair-08",
         "pair-11",
-        "pair-16",
+        "pair-08",
         "pair-17"
       ],
       "explanation": "留意搭配：a pair of + matching objects （成對物件）。這裡著重「兩件成套使用的物件（一雙／一副）」。",
@@ -725,12 +715,10 @@ export default {
         "pair of gloves"
       ],
       "optionReasons": {
-        "pair-01": "本句搭配 a pair of + matching objects （成對物件），應理解為「兩件成套使用的物件（一雙／一副）」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 a pair of + matching objects （成對物件） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 a pair of + matching objects （成對物件） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 a pair of + matching objects （成對物件） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 a pair of + matching objects （成對物件） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 a pair of + matching objects （成對物件） 的用法不同。"
+        "pair-01": "留意搭配：a pair of + matching objects （成對物件）。這裡著重「兩件成套使用的物件（一雙／一副）」。",
+        "pair-11": "請比較這個意思與句子中標示的用法。",
+        "pair-08": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -741,11 +729,9 @@ export default {
       "masked": "我需要____剪刀。",
       "options": [
         "pair-02",
-        "pair-07",
         "pair-08",
-        "pair-11",
-        "pair-16",
-        "pair-17"
+        "pair-17",
+        "pair-16"
       ],
       "explanation": "留意搭配：a pair of + one object with two joined parts （雙部件物品）。這裡著重「有兩個相連部分的一件物品」。",
       "sentenceIndex": 3,
@@ -754,12 +740,10 @@ export default {
         "pair of scissors"
       ],
       "optionReasons": {
-        "pair-02": "本句搭配 a pair of + one object with two joined parts （雙部件物品），應理解為「有兩個相連部分的一件物品」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 a pair of + one object with two joined parts （雙部件物品） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 a pair of + one object with two joined parts （雙部件物品） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 a pair of + one object with two joined parts （雙部件物品） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 a pair of + one object with two joined parts （雙部件物品） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 a pair of + one object with two joined parts （雙部件物品） 的用法不同。"
+        "pair-02": "留意搭配：a pair of + one object with two joined parts （雙部件物品）。這裡著重「有兩個相連部分的一件物品」。",
+        "pair-08": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。",
+        "pair-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -770,11 +754,9 @@ export default {
       "masked": "他買了____新長褲。",
       "options": [
         "pair-02",
-        "pair-07",
         "pair-08",
-        "pair-11",
-        "pair-16",
-        "pair-17"
+        "pair-17",
+        "pair-16"
       ],
       "explanation": "留意搭配：a pair of + one object with two joined parts （雙部件物品）。這裡著重「有兩個相連部分的一件物品」。",
       "sentenceIndex": 4,
@@ -783,12 +765,10 @@ export default {
         "pair of trousers"
       ],
       "optionReasons": {
-        "pair-02": "本句搭配 a pair of + one object with two joined parts （雙部件物品），應理解為「有兩個相連部分的一件物品」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 a pair of + one object with two joined parts （雙部件物品） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 a pair of + one object with two joined parts （雙部件物品） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 a pair of + one object with two joined parts （雙部件物品） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 a pair of + one object with two joined parts （雙部件物品） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 a pair of + one object with two joined parts （雙部件物品） 的用法不同。"
+        "pair-02": "留意搭配：a pair of + one object with two joined parts （雙部件物品）。這裡著重「有兩個相連部分的一件物品」。",
+        "pair-08": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。",
+        "pair-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -799,11 +779,7 @@ export default {
       "masked": "學生們兩____組工作。",
       "options": [
         "pair-03",
-        "pair-07",
-        "pair-08",
-        "pair-11",
-        "pair-16",
-        "pair-17"
+        "pair-15"
       ],
       "explanation": "留意搭配：pair = two people together （兩個人）。這裡著重「兩個人一起（一組）」。",
       "sentenceIndex": 5,
@@ -812,12 +788,8 @@ export default {
         "pairs"
       ],
       "optionReasons": {
-        "pair-03": "本句搭配 pair = two people together （兩個人），應理解為「兩個人一起（一組）」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair = two people together （兩個人） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair = two people together （兩個人） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair = two people together （兩個人） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair = two people together （兩個人） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair = two people together （兩個人） 的用法不同。"
+        "pair-03": "留意搭配：pair = two people together （兩個人）。這裡著重「兩個人一起（一組）」。",
+        "pair-15": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -828,11 +800,8 @@ export default {
       "masked": "____。",
       "options": [
         "pair-03",
-        "pair-07",
-        "pair-08",
         "pair-11",
-        "pair-16",
-        "pair-17"
+        "pair-08"
       ],
       "explanation": "留意搭配：pair = two people together （兩個人）。這裡著重「兩個人一起（一組）」。",
       "sentenceIndex": 6,
@@ -841,12 +810,9 @@ export default {
         "pair"
       ],
       "optionReasons": {
-        "pair-03": "本句搭配 pair = two people together （兩個人），應理解為「兩個人一起（一組）」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair = two people together （兩個人） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair = two people together （兩個人） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair = two people together （兩個人） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair = two people together （兩個人） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair = two people together （兩個人） 的用法不同。"
+        "pair-03": "留意搭配：pair = two people together （兩個人）。這裡著重「兩個人一起（一組）」。",
+        "pair-11": "請比較這個意思與句子中標示的用法。",
+        "pair-08": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -857,11 +823,9 @@ export default {
       "masked": "他們真是很登對的____。",
       "options": [
         "pair-04",
-        "pair-07",
-        "pair-08",
-        "pair-11",
-        "pair-16",
-        "pair-17"
+        "pair-15",
+        "pair-17",
+        "pair-07"
       ],
       "explanation": "留意搭配：pair = romantic couple （伴侶／情侶）。這裡著重「戀愛伴侶（一對）」。",
       "sentenceIndex": 7,
@@ -870,12 +834,10 @@ export default {
         "pair"
       ],
       "optionReasons": {
-        "pair-04": "本句搭配 pair = romantic couple （伴侶／情侶），應理解為「戀愛伴侶（一對）」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair = romantic couple （伴侶／情侶） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair = romantic couple （伴侶／情侶） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair = romantic couple （伴侶／情侶） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair = romantic couple （伴侶／情侶） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair = romantic couple （伴侶／情侶） 的用法不同。"
+        "pair-04": "留意搭配：pair = romantic couple （伴侶／情侶）。這裡著重「戀愛伴侶（一對）」。",
+        "pair-15": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。",
+        "pair-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -886,10 +848,8 @@ export default {
       "masked": "那對年輕____去年結婚了。",
       "options": [
         "pair-04",
-        "pair-07",
-        "pair-08",
-        "pair-11",
         "pair-16",
+        "pair-07",
         "pair-17"
       ],
       "explanation": "留意搭配：pair = romantic couple （伴侶／情侶）。這裡著重「戀愛伴侶（一對）」。",
@@ -899,12 +859,10 @@ export default {
         "pair"
       ],
       "optionReasons": {
-        "pair-04": "本句搭配 pair = romantic couple （伴侶／情侶），應理解為「戀愛伴侶（一對）」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair = romantic couple （伴侶／情侶） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair = romantic couple （伴侶／情侶） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair = romantic couple （伴侶／情侶） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair = romantic couple （伴侶／情侶） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair = romantic couple （伴侶／情侶） 的用法不同。"
+        "pair-04": "留意搭配：pair = romantic couple （伴侶／情侶）。這裡著重「戀愛伴侶（一對）」。",
+        "pair-16": "請比較這個意思與句子中標示的用法。",
+        "pair-07": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -915,11 +873,8 @@ export default {
       "masked": "____天鵝在湖上游泳。",
       "options": [
         "pair-05",
-        "pair-07",
         "pair-08",
-        "pair-11",
-        "pair-16",
-        "pair-17"
+        "pair-11"
       ],
       "explanation": "留意搭配：pair = two animals together （動物）。這裡著重「兩隻動物（一對）」。",
       "sentenceIndex": 9,
@@ -928,12 +883,9 @@ export default {
         "pair of swans"
       ],
       "optionReasons": {
-        "pair-05": "本句搭配 pair = two animals together （動物），應理解為「兩隻動物（一對）」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair = two animals together （動物） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair = two animals together （動物） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair = two animals together （動物） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair = two animals together （動物） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair = two animals together （動物） 的用法不同。"
+        "pair-05": "留意搭配：pair = two animals together （動物）。這裡著重「兩隻動物（一對）」。",
+        "pair-08": "請比較這個意思與句子中標示的用法。",
+        "pair-11": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -944,11 +896,7 @@ export default {
       "masked": "這些鳥在繁殖季節通常會形成____配偶。",
       "options": [
         "pair-05",
-        "pair-07",
-        "pair-08",
-        "pair-11",
-        "pair-16",
-        "pair-17"
+        "pair-15"
       ],
       "explanation": "留意搭配：pair = two animals together （動物）。這裡著重「兩隻動物（一對）」。",
       "sentenceIndex": 10,
@@ -957,12 +905,8 @@ export default {
         "pair"
       ],
       "optionReasons": {
-        "pair-05": "本句搭配 pair = two animals together （動物），應理解為「兩隻動物（一對）」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair = two animals together （動物） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair = two animals together （動物） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair = two animals together （動物） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair = two animals together （動物） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair = two animals together （動物） 的用法不同。"
+        "pair-05": "留意搭配：pair = two animals together （動物）。這裡著重「兩隻動物（一對）」。",
+        "pair-15": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -973,10 +917,8 @@ export default {
       "masked": "這兩盞燈____。",
       "options": [
         "pair-06",
-        "pair-07",
         "pair-08",
         "pair-11",
-        "pair-16",
         "pair-17"
       ],
       "explanation": "留意搭配：pair = two things that match/complement each other （相配物件）。這裡著重「兩件彼此相襯的物件」。",
@@ -986,12 +928,10 @@ export default {
         "pair"
       ],
       "optionReasons": {
-        "pair-06": "本句搭配 pair = two things that match/complement each other （相配物件），應理解為「兩件彼此相襯的物件」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair = two things that match/complement each other （相配物件） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair = two things that match/complement each other （相配物件） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair = two things that match/complement each other （相配物件） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair = two things that match/complement each other （相配物件） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair = two things that match/complement each other （相配物件） 的用法不同。"
+        "pair-06": "留意搭配：pair = two things that match/complement each other （相配物件）。這裡著重「兩件彼此相襯的物件」。",
+        "pair-08": "請比較這個意思與句子中標示的用法。",
+        "pair-11": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1002,10 +942,8 @@ export default {
       "masked": "這兩隻杯以____形式出售。",
       "options": [
         "pair-06",
-        "pair-07",
         "pair-08",
         "pair-11",
-        "pair-16",
         "pair-17"
       ],
       "explanation": "留意搭配：pair = two things that match/complement each other （相配物件）。這裡著重「兩件彼此相襯的物件」。",
@@ -1015,12 +953,10 @@ export default {
         "pair"
       ],
       "optionReasons": {
-        "pair-06": "本句搭配 pair = two things that match/complement each other （相配物件），應理解為「兩件彼此相襯的物件」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair = two things that match/complement each other （相配物件） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair = two things that match/complement each other （相配物件） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair = two things that match/complement each other （相配物件） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair = two things that match/complement each other （相配物件） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair = two things that match/complement each other （相配物件） 的用法不同。"
+        "pair-06": "留意搭配：pair = two things that match/complement each other （相配物件）。這裡著重「兩件彼此相襯的物件」。",
+        "pair-08": "請比較這個意思與句子中標示的用法。",
+        "pair-11": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1031,11 +967,9 @@ export default {
       "masked": "我手上有____ K。",
       "options": [
         "pair-07",
-        "pair-08",
         "pair-11",
-        "pair-16",
-        "pair-17",
-        "pair-01"
+        "pair-04",
+        "pair-17"
       ],
       "explanation": "留意搭配：pair = two cards of the same rank （撲克牌）。這裡著重「撲克牌中兩張同點數的牌」。",
       "sentenceIndex": 13,
@@ -1044,12 +978,10 @@ export default {
         "pair of kings"
       ],
       "optionReasons": {
-        "pair-07": "本句搭配 pair = two cards of the same rank （撲克牌），應理解為「撲克牌中兩張同點數的牌」。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair = two cards of the same rank （撲克牌） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair = two cards of the same rank （撲克牌） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair = two cards of the same rank （撲克牌） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair = two cards of the same rank （撲克牌） 的用法不同。",
-        "pair-01": "「兩件成套使用的物件（一雙／一副）」適用於 a pair of + matching objects （成對物件）；與本句 pair = two cards of the same rank （撲克牌） 的用法不同。"
+        "pair-07": "留意搭配：pair = two cards of the same rank （撲克牌）。這裡著重「撲克牌中兩張同點數的牌」。",
+        "pair-11": "請比較這個意思與句子中標示的用法。",
+        "pair-04": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1060,11 +992,9 @@ export default {
       "masked": "在____中，一對勝過單張高牌。",
       "options": [
         "pair-07",
-        "pair-08",
-        "pair-11",
-        "pair-16",
-        "pair-17",
-        "pair-01"
+        "pair-04",
+        "pair-15",
+        "pair-17"
       ],
       "explanation": "留意搭配：pair = two cards of the same rank （撲克牌）。這裡著重「撲克牌中兩張同點數的牌」。",
       "sentenceIndex": 14,
@@ -1073,12 +1003,10 @@ export default {
         "pair"
       ],
       "optionReasons": {
-        "pair-07": "本句搭配 pair = two cards of the same rank （撲克牌），應理解為「撲克牌中兩張同點數的牌」。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair = two cards of the same rank （撲克牌） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair = two cards of the same rank （撲克牌） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair = two cards of the same rank （撲克牌） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair = two cards of the same rank （撲克牌） 的用法不同。",
-        "pair-01": "「兩件成套使用的物件（一雙／一副）」適用於 a pair of + matching objects （成對物件）；與本句 pair = two cards of the same rank （撲克牌） 的用法不同。"
+        "pair-07": "留意搭配：pair = two cards of the same rank （撲克牌）。這裡著重「撲克牌中兩張同點數的牌」。",
+        "pair-04": "請比較這個意思與句子中標示的用法。",
+        "pair-15": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1089,11 +1017,9 @@ export default {
       "masked": "這個點可以用有序____ (3, 5) 表示。",
       "options": [
         "pair-08",
-        "pair-07",
         "pair-11",
-        "pair-16",
         "pair-17",
-        "pair-01"
+        "pair-12"
       ],
       "explanation": "留意搭配：pair = ordered pair / mathematical pair （數學）。這裡著重「數學上的數對／有序對」。",
       "sentenceIndex": 15,
@@ -1102,12 +1028,10 @@ export default {
         "pair"
       ],
       "optionReasons": {
-        "pair-08": "本句搭配 pair = ordered pair / mathematical pair （數學），應理解為「數學上的數對／有序對」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair = ordered pair / mathematical pair （數學） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair = ordered pair / mathematical pair （數學） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair = ordered pair / mathematical pair （數學） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair = ordered pair / mathematical pair （數學） 的用法不同。",
-        "pair-01": "「兩件成套使用的物件（一雙／一副）」適用於 a pair of + matching objects （成對物件）；與本句 pair = ordered pair / mathematical pair （數學） 的用法不同。"
+        "pair-08": "留意搭配：pair = ordered pair / mathematical pair （數學）。這裡著重「數學上的數對／有序對」。",
+        "pair-11": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。",
+        "pair-12": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1118,11 +1042,9 @@ export default {
       "masked": "每組____都會被記錄。",
       "options": [
         "pair-08",
-        "pair-07",
         "pair-11",
-        "pair-16",
-        "pair-17",
-        "pair-01"
+        "pair-04",
+        "pair-17"
       ],
       "explanation": "留意搭配：pair = ordered pair / mathematical pair （數學）。這裡著重「數學上的數對／有序對」。",
       "sentenceIndex": 16,
@@ -1131,12 +1053,10 @@ export default {
         "pair"
       ],
       "optionReasons": {
-        "pair-08": "本句搭配 pair = ordered pair / mathematical pair （數學），應理解為「數學上的數對／有序對」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair = ordered pair / mathematical pair （數學） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair = ordered pair / mathematical pair （數學） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair = ordered pair / mathematical pair （數學） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair = ordered pair / mathematical pair （數學） 的用法不同。",
-        "pair-01": "「兩件成套使用的物件（一雙／一副）」適用於 a pair of + matching objects （成對物件）；與本句 pair = ordered pair / mathematical pair （數學） 的用法不同。"
+        "pair-08": "留意搭配：pair = ordered pair / mathematical pair （數學）。這裡著重「數學上的數對／有序對」。",
+        "pair-11": "請比較這個意思與句子中標示的用法。",
+        "pair-04": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1147,10 +1067,8 @@ export default {
       "masked": "老師把學生兩人____進行活動。",
       "options": [
         "pair-09",
-        "pair-07",
         "pair-08",
         "pair-11",
-        "pair-16",
         "pair-17"
       ],
       "explanation": "留意搭配：pair + A and B （動詞）。這裡著重「把兩個對象配成一組」。",
@@ -1160,12 +1078,10 @@ export default {
         "paired"
       ],
       "optionReasons": {
-        "pair-09": "本句搭配 pair + A and B （動詞），應理解為「把兩個對象配成一組」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair + A and B （動詞） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair + A and B （動詞） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair + A and B （動詞） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair + A and B （動詞） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair + A and B （動詞） 的用法不同。"
+        "pair-09": "留意搭配：pair + A and B （動詞）。這裡著重「把兩個對象配成一組」。",
+        "pair-08": "請比較這個意思與句子中標示的用法。",
+        "pair-11": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1176,10 +1092,8 @@ export default {
       "masked": "襪子在包裝前先被____雙。",
       "options": [
         "pair-09",
-        "pair-07",
-        "pair-08",
         "pair-11",
-        "pair-16",
+        "pair-08",
         "pair-17"
       ],
       "explanation": "留意搭配：pair + A and B （動詞）。這裡著重「把兩個對象配成一組」。",
@@ -1189,12 +1103,10 @@ export default {
         "paired"
       ],
       "optionReasons": {
-        "pair-09": "本句搭配 pair + A and B （動詞），應理解為「把兩個對象配成一組」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair + A and B （動詞） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair + A and B （動詞） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair + A and B （動詞） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair + A and B （動詞） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair + A and B （動詞） 的用法不同。"
+        "pair-09": "留意搭配：pair + A and B （動詞）。這裡著重「把兩個對象配成一組」。",
+        "pair-11": "請比較這個意思與句子中標示的用法。",
+        "pair-08": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1206,10 +1118,8 @@ export default {
       "options": [
         "pair-10",
         "pair-07",
-        "pair-08",
-        "pair-11",
-        "pair-16",
-        "pair-17"
+        "pair-17",
+        "pair-16"
       ],
       "explanation": "留意搭配：pair A with B （人／事物）。這裡著重「把 A 與 B 配搭」。",
       "sentenceIndex": 19,
@@ -1218,12 +1128,10 @@ export default {
         "pairs beginners with experienced users"
       ],
       "optionReasons": {
-        "pair-10": "本句搭配 pair A with B （人／事物），應理解為「把 A 與 B 配搭」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair A with B （人／事物） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair A with B （人／事物） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair A with B （人／事物） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair A with B （人／事物） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair A with B （人／事物） 的用法不同。"
+        "pair-10": "留意搭配：pair A with B （人／事物）。這裡著重「把 A 與 B 配搭」。",
+        "pair-07": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。",
+        "pair-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1234,10 +1142,8 @@ export default {
       "masked": "設計師把深色木材與柔軟布料____在一起。",
       "options": [
         "pair-10",
-        "pair-07",
-        "pair-08",
         "pair-11",
-        "pair-16",
+        "pair-08",
         "pair-17"
       ],
       "explanation": "留意搭配：pair A with B （人／事物）。這裡著重「把 A 與 B 配搭」。",
@@ -1248,12 +1154,10 @@ export default {
         "with"
       ],
       "optionReasons": {
-        "pair-10": "本句搭配 pair A with B （人／事物），應理解為「把 A 與 B 配搭」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair A with B （人／事物） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair A with B （人／事物） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair A with B （人／事物） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair A with B （人／事物） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair A with B （人／事物） 的用法不同。"
+        "pair-10": "留意搭配：pair A with B （人／事物）。這裡著重「把 A 與 B 配搭」。",
+        "pair-11": "請比較這個意思與句子中標示的用法。",
+        "pair-08": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1264,11 +1168,8 @@ export default {
       "masked": "你需要把耳機和手機配對____。",
       "options": [
         "pair-11",
-        "pair-07",
-        "pair-08",
-        "pair-16",
-        "pair-17",
-        "pair-01"
+        "pair-05",
+        "pair-08"
       ],
       "explanation": "留意搭配：pair + devices （科技）。這裡著重「為電子裝置建立無線連接」。",
       "sentenceIndex": 21,
@@ -1277,12 +1178,9 @@ export default {
         "pair"
       ],
       "optionReasons": {
-        "pair-11": "本句搭配 pair + devices （科技），應理解為「為電子裝置建立無線連接」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair + devices （科技） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair + devices （科技） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair + devices （科技） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair + devices （科技） 的用法不同。",
-        "pair-01": "「兩件成套使用的物件（一雙／一副）」適用於 a pair of + matching objects （成對物件）；與本句 pair + devices （科技） 的用法不同。"
+        "pair-11": "留意搭配：pair + devices （科技）。這裡著重「為電子裝置建立無線連接」。",
+        "pair-05": "請比較這個意思與句子中標示的用法。",
+        "pair-08": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1293,11 +1191,9 @@ export default {
       "masked": "揚聲器自動與我的手提電腦完成____。",
       "options": [
         "pair-11",
+        "pair-12",
         "pair-07",
-        "pair-08",
-        "pair-16",
-        "pair-17",
-        "pair-01"
+        "pair-17"
       ],
       "explanation": "留意搭配：pair + devices （科技）。這裡著重「為電子裝置建立無線連接」。",
       "sentenceIndex": 22,
@@ -1306,12 +1202,10 @@ export default {
         "paired"
       ],
       "optionReasons": {
-        "pair-11": "本句搭配 pair + devices （科技），應理解為「為電子裝置建立無線連接」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair + devices （科技） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair + devices （科技） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair + devices （科技） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair + devices （科技） 的用法不同。",
-        "pair-01": "「兩件成套使用的物件（一雙／一副）」適用於 a pair of + matching objects （成對物件）；與本句 pair + devices （科技） 的用法不同。"
+        "pair-11": "留意搭配：pair + devices （科技）。這裡著重「為電子裝置建立無線連接」。",
+        "pair-12": "請比較這個意思與句子中標示的用法。",
+        "pair-07": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1322,9 +1216,7 @@ export default {
       "masked": "這種芝士和紅酒____。",
       "options": [
         "pair-12",
-        "pair-07",
         "pair-08",
-        "pair-11",
         "pair-16",
         "pair-17"
       ],
@@ -1335,12 +1227,10 @@ export default {
         "pairs well with"
       ],
       "optionReasons": {
-        "pair-12": "本句搭配 pair + food/drink/flavours （食物／飲品／味道），應理解為「配搭食物與飲品的味道」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair + food/drink/flavours （食物／飲品／味道） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair + food/drink/flavours （食物／飲品／味道） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair + food/drink/flavours （食物／飲品／味道） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair + food/drink/flavours （食物／飲品／味道） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair + food/drink/flavours （食物／飲品／味道） 的用法不同。"
+        "pair-12": "留意搭配：pair + food/drink/flavours （食物／飲品／味道）。這裡著重「配搭食物與飲品的味道」。",
+        "pair-08": "請比較這個意思與句子中標示的用法。",
+        "pair-16": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1351,11 +1241,9 @@ export default {
       "masked": "廚師把魚____。",
       "options": [
         "pair-12",
-        "pair-07",
-        "pair-08",
-        "pair-11",
         "pair-16",
-        "pair-17"
+        "pair-17",
+        "pair-08"
       ],
       "explanation": "留意搭配：pair + food/drink/flavours （食物／飲品／味道）。這裡著重「配搭食物與飲品的味道」。",
       "sentenceIndex": 24,
@@ -1364,12 +1252,10 @@ export default {
         "paired"
       ],
       "optionReasons": {
-        "pair-12": "本句搭配 pair + food/drink/flavours （食物／飲品／味道），應理解為「配搭食物與飲品的味道」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair + food/drink/flavours （食物／飲品／味道） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair + food/drink/flavours （食物／飲品／味道） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair + food/drink/flavours （食物／飲品／味道） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair + food/drink/flavours （食物／飲品／味道） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair + food/drink/flavours （食物／飲品／味道） 的用法不同。"
+        "pair-12": "留意搭配：pair + food/drink/flavours （食物／飲品／味道）。這裡著重「配搭食物與飲品的味道」。",
+        "pair-16": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。",
+        "pair-08": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1380,11 +1266,9 @@ export default {
       "masked": "經理____名設計師搭檔合作這個項目。",
       "options": [
         "pair-13",
-        "pair-07",
-        "pair-08",
-        "pair-11",
-        "pair-16",
-        "pair-17"
+        "pair-15",
+        "pair-17",
+        "pair-07"
       ],
       "explanation": "留意搭配：pair = combine two people for work/activity （合作）。這裡著重「安排兩人搭檔工作」。",
       "sentenceIndex": 25,
@@ -1393,12 +1277,10 @@ export default {
         "paired"
       ],
       "optionReasons": {
-        "pair-13": "本句搭配 pair = combine two people for work/activity （合作），應理解為「安排兩人搭檔工作」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair = combine two people for work/activity （合作） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair = combine two people for work/activity （合作） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair = combine two people for work/activity （合作） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair = combine two people for work/activity （合作） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair = combine two people for work/activity （合作） 的用法不同。"
+        "pair-13": "留意搭配：pair = combine two people for work/activity （合作）。這裡著重「安排兩人搭檔工作」。",
+        "pair-15": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。",
+        "pair-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1409,10 +1291,8 @@ export default {
       "masked": "參與者被____一組進行練習。",
       "options": [
         "pair-13",
+        "pair-15",
         "pair-07",
-        "pair-08",
-        "pair-11",
-        "pair-16",
         "pair-17"
       ],
       "explanation": "留意搭配：pair = combine two people for work/activity （合作）。這裡著重「安排兩人搭檔工作」。",
@@ -1422,12 +1302,10 @@ export default {
         "paired"
       ],
       "optionReasons": {
-        "pair-13": "本句搭配 pair = combine two people for work/activity （合作），應理解為「安排兩人搭檔工作」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair = combine two people for work/activity （合作） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair = combine two people for work/activity （合作） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair = combine two people for work/activity （合作） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pair = combine two people for work/activity （合作） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair = combine two people for work/activity （合作） 的用法不同。"
+        "pair-13": "留意搭配：pair = combine two people for work/activity （合作）。這裡著重「安排兩人搭檔工作」。",
+        "pair-15": "請比較這個意思與句子中標示的用法。",
+        "pair-07": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1438,11 +1316,7 @@ export default {
       "masked": "舒適度和良好音質的____令產品更吸引。",
       "options": [
         "pair-14",
-        "pair-07",
-        "pair-08",
-        "pair-11",
-        "pair-16",
-        "pair-17"
+        "pair-08"
       ],
       "explanation": "留意搭配：pairing = combination of two people/things （名詞）。這裡著重「兩個人或事物的組合」。",
       "sentenceIndex": 27,
@@ -1451,12 +1325,8 @@ export default {
         "pairing"
       ],
       "optionReasons": {
-        "pair-14": "本句搭配 pairing = combination of two people/things （名詞），應理解為「兩個人或事物的組合」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pairing = combination of two people/things （名詞） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pairing = combination of two people/things （名詞） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pairing = combination of two people/things （名詞） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pairing = combination of two people/things （名詞） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pairing = combination of two people/things （名詞） 的用法不同。"
+        "pair-14": "留意搭配：pairing = combination of two people/things （名詞）。這裡著重「兩個人或事物的組合」。",
+        "pair-08": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1467,11 +1337,7 @@ export default {
       "masked": "這個不尋常的食物____出奇地合適。",
       "options": [
         "pair-14",
-        "pair-07",
-        "pair-08",
-        "pair-11",
-        "pair-16",
-        "pair-17"
+        "pair-08"
       ],
       "explanation": "留意搭配：pairing = combination of two people/things （名詞）。這裡著重「兩個人或事物的組合」。",
       "sentenceIndex": 28,
@@ -1480,12 +1346,8 @@ export default {
         "pairing"
       ],
       "optionReasons": {
-        "pair-14": "本句搭配 pairing = combination of two people/things （名詞），應理解為「兩個人或事物的組合」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pairing = combination of two people/things （名詞） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pairing = combination of two people/things （名詞） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pairing = combination of two people/things （名詞） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pairing = combination of two people/things （名詞） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pairing = combination of two people/things （名詞） 的用法不同。"
+        "pair-14": "留意搭配：pairing = combination of two people/things （名詞）。這裡著重「兩個人或事物的組合」。",
+        "pair-08": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1496,11 +1358,9 @@ export default {
       "masked": "藍牙____只花了幾秒鐘。",
       "options": [
         "pair-15",
-        "pair-07",
-        "pair-08",
-        "pair-16",
+        "pair-04",
         "pair-17",
-        "pair-01"
+        "pair-07"
       ],
       "explanation": "留意搭配：pairing = device connection process （科技）。這裡著重「電子裝置的連接配對程序」。",
       "sentenceIndex": 29,
@@ -1509,12 +1369,10 @@ export default {
         "pairing"
       ],
       "optionReasons": {
-        "pair-15": "本句搭配 pairing = device connection process （科技），應理解為「電子裝置的連接配對程序」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pairing = device connection process （科技） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pairing = device connection process （科技） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pairing = device connection process （科技） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pairing = device connection process （科技） 的用法不同。",
-        "pair-01": "「兩件成套使用的物件（一雙／一副）」適用於 a pair of + matching objects （成對物件）；與本句 pairing = device connection process （科技） 的用法不同。"
+        "pair-15": "留意搭配：pairing = device connection process （科技）。這裡著重「電子裝置的連接配對程序」。",
+        "pair-04": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。",
+        "pair-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1525,11 +1383,7 @@ export default {
       "masked": "把耳機切換到____模式。",
       "options": [
         "pair-15",
-        "pair-07",
-        "pair-08",
-        "pair-16",
-        "pair-17",
-        "pair-01"
+        "pair-03"
       ],
       "explanation": "留意搭配：pairing = device connection process （科技）。這裡著重「電子裝置的連接配對程序」。",
       "sentenceIndex": 30,
@@ -1538,12 +1392,8 @@ export default {
         "pairing mode"
       ],
       "optionReasons": {
-        "pair-15": "本句搭配 pairing = device connection process （科技），應理解為「電子裝置的連接配對程序」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pairing = device connection process （科技） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pairing = device connection process （科技） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pairing = device connection process （科技） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pairing = device connection process （科技） 的用法不同。",
-        "pair-01": "「兩件成套使用的物件（一雙／一副）」適用於 a pair of + matching objects （成對物件）；與本句 pairing = device connection process （科技） 的用法不同。"
+        "pair-15": "留意搭配：pairing = device connection process （科技）。這裡著重「電子裝置的連接配對程序」。",
+        "pair-03": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1554,11 +1404,9 @@ export default {
       "masked": "開發人員採用了____。",
       "options": [
         "pair-16",
-        "pair-07",
+        "pair-12",
         "pair-08",
-        "pair-11",
-        "pair-17",
-        "pair-01"
+        "pair-17"
       ],
       "explanation": "留意搭配：pair programming （軟件開發）。這裡著重「兩人合作編寫同一段程式」。",
       "sentenceIndex": 31,
@@ -1567,12 +1415,10 @@ export default {
         "pair programming"
       ],
       "optionReasons": {
-        "pair-16": "本句搭配 pair programming （軟件開發），應理解為「兩人合作編寫同一段程式」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair programming （軟件開發） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair programming （軟件開發） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair programming （軟件開發） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair programming （軟件開發） 的用法不同。",
-        "pair-01": "「兩件成套使用的物件（一雙／一副）」適用於 a pair of + matching objects （成對物件）；與本句 pair programming （軟件開發） 的用法不同。"
+        "pair-16": "留意搭配：pair programming （軟件開發）。這裡著重「兩人合作編寫同一段程式」。",
+        "pair-12": "請比較這個意思與句子中標示的用法。",
+        "pair-08": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1583,22 +1429,18 @@ export default {
       "masked": "結對編程讓兩名開發人員共同處理____份程式碼。",
       "options": [
         "pair-16",
-        "pair-07",
+        "pair-10",
         "pair-08",
-        "pair-11",
-        "pair-17",
-        "pair-01"
+        "pair-17"
       ],
       "explanation": "留意搭配：pair programming （軟件開發）。這裡著重「兩人合作編寫同一段程式」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "optionReasons": {
-        "pair-16": "本句搭配 pair programming （軟件開發），應理解為「兩人合作編寫同一段程式」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pair programming （軟件開發） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pair programming （軟件開發） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pair programming （軟件開發） 的用法不同。",
-        "pair-17": "「逐對／兩兩比較的方式」適用於 pairwise = considered two at a time （數學／電腦／分析）；與本句 pair programming （軟件開發） 的用法不同。",
-        "pair-01": "「兩件成套使用的物件（一雙／一副）」適用於 a pair of + matching objects （成對物件）；與本句 pair programming （軟件開發） 的用法不同。"
+        "pair-16": "留意搭配：pair programming （軟件開發）。這裡著重「兩人合作編寫同一段程式」。",
+        "pair-10": "請比較這個意思與句子中標示的用法。",
+        "pair-08": "請比較這個意思與句子中標示的用法。",
+        "pair-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1609,11 +1451,9 @@ export default {
       "masked": "研究人員對各組進行____。",
       "options": [
         "pair-17",
-        "pair-07",
-        "pair-08",
+        "pair-04",
         "pair-11",
-        "pair-16",
-        "pair-01"
+        "pair-08"
       ],
       "explanation": "留意搭配：pairwise = considered two at a time （數學／電腦／分析）。這裡著重「逐對／兩兩比較的方式」。",
       "sentenceIndex": 33,
@@ -1622,12 +1462,10 @@ export default {
         "pairwise comparisons"
       ],
       "optionReasons": {
-        "pair-17": "本句搭配 pairwise = considered two at a time （數學／電腦／分析），應理解為「逐對／兩兩比較的方式」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pairwise = considered two at a time （數學／電腦／分析） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pairwise = considered two at a time （數學／電腦／分析） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pairwise = considered two at a time （數學／電腦／分析） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pairwise = considered two at a time （數學／電腦／分析） 的用法不同。",
-        "pair-01": "「兩件成套使用的物件（一雙／一副）」適用於 a pair of + matching objects （成對物件）；與本句 pairwise = considered two at a time （數學／電腦／分析） 的用法不同。"
+        "pair-17": "留意搭配：pairwise = considered two at a time （數學／電腦／分析）。這裡著重「逐對／兩兩比較的方式」。",
+        "pair-04": "請比較這個意思與句子中標示的用法。",
+        "pair-11": "請比較這個意思與句子中標示的用法。",
+        "pair-08": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1638,11 +1476,9 @@ export default {
       "masked": "距離以____配對方式計算。",
       "options": [
         "pair-17",
-        "pair-07",
-        "pair-08",
-        "pair-11",
-        "pair-16",
-        "pair-01"
+        "pair-12",
+        "pair-15",
+        "pair-07"
       ],
       "explanation": "留意搭配：pairwise = considered two at a time （數學／電腦／分析）。這裡著重「逐對／兩兩比較的方式」。",
       "sentenceIndex": 34,
@@ -1651,12 +1487,10 @@ export default {
         "pairwise"
       ],
       "optionReasons": {
-        "pair-17": "本句搭配 pairwise = considered two at a time （數學／電腦／分析），應理解為「逐對／兩兩比較的方式」。",
-        "pair-07": "「撲克牌中兩張同點數的牌」適用於 pair = two cards of the same rank （撲克牌）；與本句 pairwise = considered two at a time （數學／電腦／分析） 的用法不同。",
-        "pair-08": "「數學上的數對／有序對」適用於 pair = ordered pair / mathematical pair （數學）；與本句 pairwise = considered two at a time （數學／電腦／分析） 的用法不同。",
-        "pair-11": "「為電子裝置建立無線連接」適用於 pair + devices （科技）；與本句 pairwise = considered two at a time （數學／電腦／分析） 的用法不同。",
-        "pair-16": "「兩人合作編寫同一段程式」適用於 pair programming （軟件開發）；與本句 pairwise = considered two at a time （數學／電腦／分析） 的用法不同。",
-        "pair-01": "「兩件成套使用的物件（一雙／一副）」適用於 a pair of + matching objects （成對物件）；與本句 pairwise = considered two at a time （數學／電腦／分析） 的用法不同。"
+        "pair-17": "留意搭配：pairwise = considered two at a time （數學／電腦／分析）。這裡著重「逐對／兩兩比較的方式」。",
+        "pair-12": "請比較這個意思與句子中標示的用法。",
+        "pair-15": "請比較這個意思與句子中標示的用法。",
+        "pair-07": "請比較這個意思與句子中標示的用法。"
       }
     }
   ],
@@ -1664,5 +1498,7 @@ export default {
     "file": "Polysemy exercise_pair_(7).pdf",
     "sha256": "be00496a48a849d5c38c530b941451079ac8a2e0c820dd4158b945844ea9dd6e",
     "path": "manuals/pair.pdf"
-  }
+  },
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -534,7 +534,7 @@ export default {
     },
     {
       "id": "mix-mcq-26",
-      "title": "表示混合；結合；綜合",
+      "title": "混合；結合；綜合",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示混合；結合；綜合",
@@ -556,7 +556,7 @@ export default {
     },
     {
       "id": "mix-mcq-27",
-      "title": "表示混合在一起",
+      "title": "混合在一起",
       "form": "18. mix together",
       "en": "18. mix together",
       "zh": "表示混合在一起",
@@ -586,11 +586,9 @@ export default {
       "masked": "The novel is a ____.",
       "options": [
         "mix-mcq-26",
-        "mix-mcq-25",
-        "mix-mcq-27",
-        "mix-mcq-24",
-        "mix-mcq-23",
-        "mix-mcq-22"
+        "mix-mcq-18",
+        "mix-mcq-08",
+        "mix-mcq-25"
       ],
       "explanation": "本句的「mix of fantasy and drama」指「表示混合；結合；綜合」。",
       "sentenceIndex": 0,
@@ -599,12 +597,10 @@ export default {
         "mix of fantasy and drama"
       ],
       "optionReasons": {
-        "mix-mcq-26": "本句指「表示混合；結合；綜合」。",
-        "mix-mcq-25": "「仍然參與其中、仍被考慮或仍有機會」是「in the mix」的用法，與本句語境不同。",
-        "mix-mcq-27": "「表示混合在一起」是「18. mix together」的用法，與本句語境不同。",
-        "mix-mcq-24": "「品質、結果等好壞參半／參差不齊」是「a mixed bag」的用法，與本句語境不同。",
-        "mix-mcq-23": "「把不同物品自由搭配／混搭」是「mix and match」的用法，與本句語境不同。",
-        "mix-mcq-22": "「控制和合成多個音訊來源的混音器」是「mixer — audio」的用法，與本句語境不同。"
+        "mix-mcq-26": "本句的「mix of fantasy and drama」指「表示混合；結合；綜合」。",
+        "mix-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-26"
     },
@@ -616,11 +612,9 @@ export default {
       "masked": "The course offers a ____.",
       "options": [
         "mix-mcq-26",
-        "mix-mcq-25",
-        "mix-mcq-27",
-        "mix-mcq-24",
-        "mix-mcq-23",
-        "mix-mcq-22"
+        "mix-mcq-08",
+        "mix-mcq-15",
+        "mix-mcq-25"
       ],
       "explanation": "本句的「mix of theory and practice」指「表示混合；結合；綜合」。",
       "sentenceIndex": 1,
@@ -629,12 +623,10 @@ export default {
         "mix of theory and practice"
       ],
       "optionReasons": {
-        "mix-mcq-26": "本句指「表示混合；結合；綜合」。",
-        "mix-mcq-25": "「仍然參與其中、仍被考慮或仍有機會」是「in the mix」的用法，與本句語境不同。",
-        "mix-mcq-27": "「表示混合在一起」是「18. mix together」的用法，與本句語境不同。",
-        "mix-mcq-24": "「品質、結果等好壞參半／參差不齊」是「a mixed bag」的用法，與本句語境不同。",
-        "mix-mcq-23": "「把不同物品自由搭配／混搭」是「mix and match」的用法，與本句語境不同。",
-        "mix-mcq-22": "「控制和合成多個音訊來源的混音器」是「mixer — audio」的用法，與本句語境不同。"
+        "mix-mcq-26": "本句的「mix of theory and practice」指「表示混合；結合；綜合」。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-26"
     },
@@ -646,11 +638,9 @@ export default {
       "masked": "The city has a fascinating ____.",
       "options": [
         "mix-mcq-01",
-        "mix-mcq-02",
-        "mix-mcq-03",
-        "mix-mcq-04",
-        "mix-mcq-05",
-        "mix-mcq-06"
+        "mix-mcq-08",
+        "mix-mcq-15",
+        "mix-mcq-25"
       ],
       "explanation": "本句的「mix of cultures」指「由不同種類、元素、風格等組成的混合／結合」。",
       "sentenceIndex": 2,
@@ -659,12 +649,10 @@ export default {
         "mix of cultures"
       ],
       "optionReasons": {
-        "mix-mcq-01": "本句指「由不同種類、元素、風格等組成的混合／結合」。",
-        "mix-mcq-02": "「多種元素的組合／融合」是「a mix of...」的用法，與本句語境不同。",
-        "mix-mcq-03": "「多種材料混合形成的混合物／混合料」是「mix — ingredients/substance」的用法，與本句語境不同。",
-        "mix-mcq-04": "「預先混合好的食品／飲品原料」是「cake/drink mix」的用法，與本句語境不同。",
-        "mix-mcq-05": "「把不同物質或東西混合在一起」是「mix — verb combine」的用法，與本句語境不同。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。"
+        "mix-mcq-01": "本句的「mix of cultures」指「由不同種類、元素、風格等組成的混合／結合」。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-01"
     },
@@ -676,11 +664,9 @@ export default {
       "masked": "The design is a ____.",
       "options": [
         "mix-mcq-01",
-        "mix-mcq-02",
-        "mix-mcq-03",
-        "mix-mcq-04",
-        "mix-mcq-05",
-        "mix-mcq-06"
+        "mix-mcq-25",
+        "mix-mcq-15",
+        "mix-mcq-08"
       ],
       "explanation": "本句的「mix of old and new」指「由不同種類、元素、風格等組成的混合／結合」。",
       "sentenceIndex": 3,
@@ -689,12 +675,10 @@ export default {
         "mix of old and new"
       ],
       "optionReasons": {
-        "mix-mcq-01": "本句指「由不同種類、元素、風格等組成的混合／結合」。",
-        "mix-mcq-02": "「多種元素的組合／融合」是「a mix of...」的用法，與本句語境不同。",
-        "mix-mcq-03": "「多種材料混合形成的混合物／混合料」是「mix — ingredients/substance」的用法，與本句語境不同。",
-        "mix-mcq-04": "「預先混合好的食品／飲品原料」是「cake/drink mix」的用法，與本句語境不同。",
-        "mix-mcq-05": "「把不同物質或東西混合在一起」是「mix — verb combine」的用法，與本句語境不同。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。"
+        "mix-mcq-01": "本句的「mix of old and new」指「由不同種類、元素、風格等組成的混合／結合」。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-01"
     },
@@ -706,11 +690,9 @@ export default {
       "masked": "The film is a ____.",
       "options": [
         "mix-mcq-02",
-        "mix-mcq-01",
-        "mix-mcq-03",
-        "mix-mcq-04",
-        "mix-mcq-05",
-        "mix-mcq-06"
+        "mix-mcq-24",
+        "mix-mcq-23",
+        "mix-mcq-25"
       ],
       "explanation": "本句的「mix of comedy and drama」指「多種元素的組合／融合」。",
       "sentenceIndex": 4,
@@ -719,12 +701,10 @@ export default {
         "mix of comedy and drama"
       ],
       "optionReasons": {
-        "mix-mcq-02": "本句指「多種元素的組合／融合」。",
-        "mix-mcq-01": "「由不同種類、元素、風格等組成的混合／結合」是「mix — combination」的用法，與本句語境不同。",
-        "mix-mcq-03": "「多種材料混合形成的混合物／混合料」是「mix — ingredients/substance」的用法，與本句語境不同。",
-        "mix-mcq-04": "「預先混合好的食品／飲品原料」是「cake/drink mix」的用法，與本句語境不同。",
-        "mix-mcq-05": "「把不同物質或東西混合在一起」是「mix — verb combine」的用法，與本句語境不同。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。"
+        "mix-mcq-02": "本句的「mix of comedy and drama」指「多種元素的組合／融合」。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-02"
     },
@@ -736,11 +716,9 @@ export default {
       "masked": "Her style is a ____.",
       "options": [
         "mix-mcq-02",
-        "mix-mcq-01",
-        "mix-mcq-03",
-        "mix-mcq-04",
-        "mix-mcq-05",
-        "mix-mcq-06"
+        "mix-mcq-08",
+        "mix-mcq-18",
+        "mix-mcq-24"
       ],
       "explanation": "本句的「mix of modern and traditional influences」指「多種元素的組合／融合」。",
       "sentenceIndex": 5,
@@ -749,12 +727,10 @@ export default {
         "mix of modern and traditional influences"
       ],
       "optionReasons": {
-        "mix-mcq-02": "本句指「多種元素的組合／融合」。",
-        "mix-mcq-01": "「由不同種類、元素、風格等組成的混合／結合」是「mix — combination」的用法，與本句語境不同。",
-        "mix-mcq-03": "「多種材料混合形成的混合物／混合料」是「mix — ingredients/substance」的用法，與本句語境不同。",
-        "mix-mcq-04": "「預先混合好的食品／飲品原料」是「cake/drink mix」的用法，與本句語境不同。",
-        "mix-mcq-05": "「把不同物質或東西混合在一起」是「mix — verb combine」的用法，與本句語境不同。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。"
+        "mix-mcq-02": "本句的「mix of modern and traditional influences」指「多種元素的組合／融合」。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-02"
     },
@@ -766,11 +742,9 @@ export default {
       "masked": "Add water to the cake ____.",
       "options": [
         "mix-mcq-03",
-        "mix-mcq-02",
-        "mix-mcq-04",
-        "mix-mcq-01",
-        "mix-mcq-05",
-        "mix-mcq-06"
+        "mix-mcq-24",
+        "mix-mcq-08",
+        "mix-mcq-25"
       ],
       "explanation": "本句的「mix」指「多種材料混合形成的混合物／混合料」。",
       "sentenceIndex": 6,
@@ -779,12 +753,10 @@ export default {
         "mix"
       ],
       "optionReasons": {
-        "mix-mcq-03": "本句指「多種材料混合形成的混合物／混合料」。",
-        "mix-mcq-02": "「多種元素的組合／融合」是「a mix of...」的用法，與本句語境不同。",
-        "mix-mcq-04": "「預先混合好的食品／飲品原料」是「cake/drink mix」的用法，與本句語境不同。",
-        "mix-mcq-01": "「由不同種類、元素、風格等組成的混合／結合」是「mix — combination」的用法，與本句語境不同。",
-        "mix-mcq-05": "「把不同物質或東西混合在一起」是「mix — verb combine」的用法，與本句語境不同。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。"
+        "mix-mcq-03": "本句的「mix」指「多種材料混合形成的混合物／混合料」。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-03"
     },
@@ -796,11 +768,9 @@ export default {
       "masked": "The concrete ____ was too wet.",
       "options": [
         "mix-mcq-03",
-        "mix-mcq-02",
-        "mix-mcq-04",
-        "mix-mcq-01",
-        "mix-mcq-05",
-        "mix-mcq-06"
+        "mix-mcq-08",
+        "mix-mcq-18",
+        "mix-mcq-24"
       ],
       "explanation": "本句的「mix」指「多種材料混合形成的混合物／混合料」。",
       "sentenceIndex": 7,
@@ -809,12 +779,10 @@ export default {
         "mix"
       ],
       "optionReasons": {
-        "mix-mcq-03": "本句指「多種材料混合形成的混合物／混合料」。",
-        "mix-mcq-02": "「多種元素的組合／融合」是「a mix of...」的用法，與本句語境不同。",
-        "mix-mcq-04": "「預先混合好的食品／飲品原料」是「cake/drink mix」的用法，與本句語境不同。",
-        "mix-mcq-01": "「由不同種類、元素、風格等組成的混合／結合」是「mix — combination」的用法，與本句語境不同。",
-        "mix-mcq-05": "「把不同物質或東西混合在一起」是「mix — verb combine」的用法，與本句語境不同。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。"
+        "mix-mcq-03": "本句的「mix」指「多種材料混合形成的混合物／混合料」。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-03"
     },
@@ -826,11 +794,9 @@ export default {
       "masked": "She bought a chocolate ____.",
       "options": [
         "mix-mcq-04",
-        "mix-mcq-03",
-        "mix-mcq-05",
-        "mix-mcq-02",
-        "mix-mcq-06",
-        "mix-mcq-01"
+        "mix-mcq-25",
+        "mix-mcq-08",
+        "mix-mcq-18"
       ],
       "explanation": "本句的「cake mix」指「預先混合好的食品／飲品原料」。",
       "sentenceIndex": 8,
@@ -839,12 +805,10 @@ export default {
         "cake mix"
       ],
       "optionReasons": {
-        "mix-mcq-04": "本句指「預先混合好的食品／飲品原料」。",
-        "mix-mcq-03": "「多種材料混合形成的混合物／混合料」是「mix — ingredients/substance」的用法，與本句語境不同。",
-        "mix-mcq-05": "「把不同物質或東西混合在一起」是「mix — verb combine」的用法，與本句語境不同。",
-        "mix-mcq-02": "「多種元素的組合／融合」是「a mix of...」的用法，與本句語境不同。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。",
-        "mix-mcq-01": "「由不同種類、元素、風格等組成的混合／結合」是「mix — combination」的用法，與本句語境不同。"
+        "mix-mcq-04": "本句的「cake mix」指「預先混合好的食品／飲品原料」。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-04"
     },
@@ -856,11 +820,9 @@ export default {
       "masked": "Add the ____ to cold water.",
       "options": [
         "mix-mcq-04",
-        "mix-mcq-03",
-        "mix-mcq-05",
-        "mix-mcq-02",
-        "mix-mcq-06",
-        "mix-mcq-01"
+        "mix-mcq-15",
+        "mix-mcq-25",
+        "mix-mcq-08"
       ],
       "explanation": "本句的「drink mix」指「預先混合好的食品／飲品原料」。",
       "sentenceIndex": 9,
@@ -869,12 +831,10 @@ export default {
         "drink mix"
       ],
       "optionReasons": {
-        "mix-mcq-04": "本句指「預先混合好的食品／飲品原料」。",
-        "mix-mcq-03": "「多種材料混合形成的混合物／混合料」是「mix — ingredients/substance」的用法，與本句語境不同。",
-        "mix-mcq-05": "「把不同物質或東西混合在一起」是「mix — verb combine」的用法，與本句語境不同。",
-        "mix-mcq-02": "「多種元素的組合／融合」是「a mix of...」的用法，與本句語境不同。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。",
-        "mix-mcq-01": "「由不同種類、元素、風格等組成的混合／結合」是「mix — combination」的用法，與本句語境不同。"
+        "mix-mcq-04": "本句的「drink mix」指「預先混合好的食品／飲品原料」。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-04"
     },
@@ -886,11 +846,9 @@ export default {
       "masked": "____ together.",
       "options": [
         "mix-mcq-05",
-        "mix-mcq-04",
-        "mix-mcq-06",
-        "mix-mcq-03",
-        "mix-mcq-07",
-        "mix-mcq-02"
+        "mix-mcq-08",
+        "mix-mcq-15",
+        "mix-mcq-25"
       ],
       "explanation": "本句的「Mix the flour and water」指「把不同物質或東西混合在一起」。",
       "sentenceIndex": 10,
@@ -899,12 +857,10 @@ export default {
         "Mix the flour and water"
       ],
       "optionReasons": {
-        "mix-mcq-05": "本句指「把不同物質或東西混合在一起」。",
-        "mix-mcq-04": "「預先混合好的食品／飲品原料」是「cake/drink mix」的用法，與本句語境不同。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。",
-        "mix-mcq-03": "「多種材料混合形成的混合物／混合料」是「mix — ingredients/substance」的用法，與本句語境不同。",
-        "mix-mcq-07": "「把不同風格、類型、概念融合」是「mix — styles/genres」的用法，與本句語境不同。",
-        "mix-mcq-02": "「多種元素的組合／融合」是「a mix of...」的用法，與本句語境不同。"
+        "mix-mcq-05": "本句的「Mix the flour and water」指「把不同物質或東西混合在一起」。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-05"
     },
@@ -916,11 +872,9 @@ export default {
       "masked": "She ____ carefully.",
       "options": [
         "mix-mcq-05",
-        "mix-mcq-04",
-        "mix-mcq-06",
-        "mix-mcq-03",
-        "mix-mcq-07",
-        "mix-mcq-02"
+        "mix-mcq-15",
+        "mix-mcq-08",
+        "mix-mcq-25"
       ],
       "explanation": "本句的「mixed the ingredients」指「把不同物質或東西混合在一起」。",
       "sentenceIndex": 11,
@@ -929,12 +883,10 @@ export default {
         "mixed the ingredients"
       ],
       "optionReasons": {
-        "mix-mcq-05": "本句指「把不同物質或東西混合在一起」。",
-        "mix-mcq-04": "「預先混合好的食品／飲品原料」是「cake/drink mix」的用法，與本句語境不同。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。",
-        "mix-mcq-03": "「多種材料混合形成的混合物／混合料」是「mix — ingredients/substance」的用法，與本句語境不同。",
-        "mix-mcq-07": "「把不同風格、類型、概念融合」是「mix — styles/genres」的用法，與本句語境不同。",
-        "mix-mcq-02": "「多種元素的組合／融合」是「a mix of...」的用法，與本句語境不同。"
+        "mix-mcq-05": "本句的「mixed the ingredients」指「把不同物質或東西混合在一起」。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-05"
     },
@@ -946,11 +898,9 @@ export default {
       "masked": "____.",
       "options": [
         "mix-mcq-06",
-        "mix-mcq-05",
-        "mix-mcq-07",
-        "mix-mcq-04",
+        "mix-mcq-15",
         "mix-mcq-08",
-        "mix-mcq-03"
+        "mix-mcq-25"
       ],
       "explanation": "本句的「Mix the paint with water」指「把 A 和 B 混合／結合」。",
       "sentenceIndex": 12,
@@ -959,12 +909,10 @@ export default {
         "Mix the paint with water"
       ],
       "optionReasons": {
-        "mix-mcq-06": "本句指「把 A 和 B 混合／結合」。",
-        "mix-mcq-05": "「把不同物質或東西混合在一起」是「mix — verb combine」的用法，與本句語境不同。",
-        "mix-mcq-07": "「把不同風格、類型、概念融合」是「mix — styles/genres」的用法，與本句語境不同。",
-        "mix-mcq-04": "「預先混合好的食品／飲品原料」是「cake/drink mix」的用法，與本句語境不同。",
-        "mix-mcq-08": "「與其他人交際、來往」是「mix — socialize」的用法，與本句語境不同。",
-        "mix-mcq-03": "「多種材料混合形成的混合物／混合料」是「mix — ingredients/substance」的用法，與本句語境不同。"
+        "mix-mcq-06": "本句的「Mix the paint with water」指「把 A 和 B 混合／結合」。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-06"
     },
@@ -976,11 +924,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "mix-mcq-06",
-        "mix-mcq-05",
-        "mix-mcq-07",
-        "mix-mcq-04",
-        "mix-mcq-08",
-        "mix-mcq-03"
+        "mix-mcq-15",
+        "mix-mcq-25",
+        "mix-mcq-08"
       ],
       "explanation": "本句的「mix business with friendship」指「把 A 和 B 混合／結合」。",
       "sentenceIndex": 13,
@@ -989,12 +935,10 @@ export default {
         "mix business with friendship"
       ],
       "optionReasons": {
-        "mix-mcq-06": "本句指「把 A 和 B 混合／結合」。",
-        "mix-mcq-05": "「把不同物質或東西混合在一起」是「mix — verb combine」的用法，與本句語境不同。",
-        "mix-mcq-07": "「把不同風格、類型、概念融合」是「mix — styles/genres」的用法，與本句語境不同。",
-        "mix-mcq-04": "「預先混合好的食品／飲品原料」是「cake/drink mix」的用法，與本句語境不同。",
-        "mix-mcq-08": "「與其他人交際、來往」是「mix — socialize」的用法，與本句語境不同。",
-        "mix-mcq-03": "「多種材料混合形成的混合物／混合料」是「mix — ingredients/substance」的用法，與本句語境不同。"
+        "mix-mcq-06": "本句的「mix business with friendship」指「把 A 和 B 混合／結合」。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-06"
     },
@@ -1006,11 +950,9 @@ export default {
       "masked": "The director ____.",
       "options": [
         "mix-mcq-07",
-        "mix-mcq-06",
-        "mix-mcq-08",
-        "mix-mcq-05",
         "mix-mcq-09",
-        "mix-mcq-04"
+        "mix-mcq-13",
+        "mix-mcq-25"
       ],
       "explanation": "本句的「mixes humor with sadness」指「把不同風格、類型、概念融合」。",
       "sentenceIndex": 14,
@@ -1019,12 +961,10 @@ export default {
         "mixes humor with sadness"
       ],
       "optionReasons": {
-        "mix-mcq-07": "本句指「把不同風格、類型、概念融合」。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。",
-        "mix-mcq-08": "「與其他人交際、來往」是「mix — socialize」的用法，與本句語境不同。",
-        "mix-mcq-05": "「把不同物質或東西混合在一起」是「mix — verb combine」的用法，與本句語境不同。",
-        "mix-mcq-09": "「與某人交往／混在一起」是「mix with someone」的用法，與本句語境不同。",
-        "mix-mcq-04": "「預先混合好的食品／飲品原料」是「cake/drink mix」的用法，與本句語境不同。"
+        "mix-mcq-07": "本句的「mixes humor with sadness」指「把不同風格、類型、概念融合」。",
+        "mix-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-07"
     },
@@ -1036,11 +976,9 @@ export default {
       "masked": "The book ____.",
       "options": [
         "mix-mcq-07",
-        "mix-mcq-06",
-        "mix-mcq-08",
-        "mix-mcq-05",
+        "mix-mcq-13",
         "mix-mcq-09",
-        "mix-mcq-04"
+        "mix-mcq-25"
       ],
       "explanation": "本句的「mixes fantasy and philosophy」指「把不同風格、類型、概念融合」。",
       "sentenceIndex": 15,
@@ -1049,12 +987,10 @@ export default {
         "mixes fantasy and philosophy"
       ],
       "optionReasons": {
-        "mix-mcq-07": "本句指「把不同風格、類型、概念融合」。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。",
-        "mix-mcq-08": "「與其他人交際、來往」是「mix — socialize」的用法，與本句語境不同。",
-        "mix-mcq-05": "「把不同物質或東西混合在一起」是「mix — verb combine」的用法，與本句語境不同。",
-        "mix-mcq-09": "「與某人交往／混在一起」是「mix with someone」的用法，與本句語境不同。",
-        "mix-mcq-04": "「預先混合好的食品／飲品原料」是「cake/drink mix」的用法，與本句語境不同。"
+        "mix-mcq-07": "本句的「mixes fantasy and philosophy」指「把不同風格、類型、概念融合」。",
+        "mix-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-07"
     },
@@ -1066,11 +1002,9 @@ export default {
       "masked": "She enjoys ____.",
       "options": [
         "mix-mcq-08",
-        "mix-mcq-07",
-        "mix-mcq-09",
-        "mix-mcq-06",
-        "mix-mcq-10",
-        "mix-mcq-05"
+        "mix-mcq-27",
+        "mix-mcq-15",
+        "mix-mcq-25"
       ],
       "explanation": "本句的「mixing with new people」指「與其他人交際、來往」。",
       "sentenceIndex": 16,
@@ -1079,12 +1013,10 @@ export default {
         "mixing with new people"
       ],
       "optionReasons": {
-        "mix-mcq-08": "本句指「與其他人交際、來往」。",
-        "mix-mcq-07": "「把不同風格、類型、概念融合」是「mix — styles/genres」的用法，與本句語境不同。",
-        "mix-mcq-09": "「與某人交往／混在一起」是「mix with someone」的用法，與本句語境不同。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。",
-        "mix-mcq-10": "「多條聲音軌道組合後的混音版本」是「mix — audio noun」的用法，與本句語境不同。",
-        "mix-mcq-05": "「把不同物質或東西混合在一起」是「mix — verb combine」的用法，與本句語境不同。"
+        "mix-mcq-08": "本句的「mixing with new people」指「與其他人交際、來往」。",
+        "mix-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-08"
     },
@@ -1096,11 +1028,9 @@ export default {
       "masked": "He does not ____.",
       "options": [
         "mix-mcq-08",
-        "mix-mcq-07",
-        "mix-mcq-09",
-        "mix-mcq-06",
-        "mix-mcq-10",
-        "mix-mcq-05"
+        "mix-mcq-24",
+        "mix-mcq-12",
+        "mix-mcq-07"
       ],
       "explanation": "本句的「mix much socially」指「與其他人交際、來往」。",
       "sentenceIndex": 17,
@@ -1109,12 +1039,10 @@ export default {
         "mix much socially"
       ],
       "optionReasons": {
-        "mix-mcq-08": "本句指「與其他人交際、來往」。",
-        "mix-mcq-07": "「把不同風格、類型、概念融合」是「mix — styles/genres」的用法，與本句語境不同。",
-        "mix-mcq-09": "「與某人交往／混在一起」是「mix with someone」的用法，與本句語境不同。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。",
-        "mix-mcq-10": "「多條聲音軌道組合後的混音版本」是「mix — audio noun」的用法，與本句語境不同。",
-        "mix-mcq-05": "「把不同物質或東西混合在一起」是「mix — verb combine」的用法，與本句語境不同。"
+        "mix-mcq-08": "本句的「mix much socially」指「與其他人交際、來往」。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-08"
     },
@@ -1126,11 +1054,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "mix-mcq-09",
-        "mix-mcq-08",
-        "mix-mcq-10",
-        "mix-mcq-07",
-        "mix-mcq-11",
-        "mix-mcq-06"
+        "mix-mcq-25",
+        "mix-mcq-15",
+        "mix-mcq-07"
       ],
       "explanation": "本句的「mixes with people from many backgrounds」指「與某人交往／混在一起」。",
       "sentenceIndex": 18,
@@ -1139,12 +1065,10 @@ export default {
         "mixes with people from many backgrounds"
       ],
       "optionReasons": {
-        "mix-mcq-09": "本句指「與某人交往／混在一起」。",
-        "mix-mcq-08": "「與其他人交際、來往」是「mix — socialize」的用法，與本句語境不同。",
-        "mix-mcq-10": "「多條聲音軌道組合後的混音版本」是「mix — audio noun」的用法，與本句語境不同。",
-        "mix-mcq-07": "「把不同風格、類型、概念融合」是「mix — styles/genres」的用法，與本句語境不同。",
-        "mix-mcq-11": "「調整並合成不同音軌；混音」是「mix — audio verb」的用法，與本句語境不同。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。"
+        "mix-mcq-09": "本句的「mixes with people from many backgrounds」指「與某人交往／混在一起」。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-09"
     },
@@ -1156,11 +1080,9 @@ export default {
       "masked": "He rarely ____.",
       "options": [
         "mix-mcq-09",
-        "mix-mcq-08",
-        "mix-mcq-10",
-        "mix-mcq-07",
-        "mix-mcq-11",
-        "mix-mcq-06"
+        "mix-mcq-02",
+        "mix-mcq-15",
+        "mix-mcq-24"
       ],
       "explanation": "本句的「mixes with colleagues outside work」指「與某人交往／混在一起」。",
       "sentenceIndex": 19,
@@ -1169,12 +1091,10 @@ export default {
         "mixes with colleagues outside work"
       ],
       "optionReasons": {
-        "mix-mcq-09": "本句指「與某人交往／混在一起」。",
-        "mix-mcq-08": "「與其他人交際、來往」是「mix — socialize」的用法，與本句語境不同。",
-        "mix-mcq-10": "「多條聲音軌道組合後的混音版本」是「mix — audio noun」的用法，與本句語境不同。",
-        "mix-mcq-07": "「把不同風格、類型、概念融合」是「mix — styles/genres」的用法，與本句語境不同。",
-        "mix-mcq-11": "「調整並合成不同音軌；混音」是「mix — audio verb」的用法，與本句語境不同。",
-        "mix-mcq-06": "「把 A 和 B 混合／結合」是「mix A with B」的用法，與本句語境不同。"
+        "mix-mcq-09": "本句的「mixes with colleagues outside work」指「與某人交往／混在一起」。",
+        "mix-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-09"
     },
@@ -1186,11 +1106,9 @@ export default {
       "masked": "The engineer worked on the final ____.",
       "options": [
         "mix-mcq-10",
-        "mix-mcq-09",
-        "mix-mcq-11",
-        "mix-mcq-08",
-        "mix-mcq-12",
-        "mix-mcq-07"
+        "mix-mcq-15",
+        "mix-mcq-24",
+        "mix-mcq-25"
       ],
       "explanation": "本句的「mix」指「多條聲音軌道組合後的混音版本」。",
       "sentenceIndex": 20,
@@ -1199,12 +1117,10 @@ export default {
         "mix"
       ],
       "optionReasons": {
-        "mix-mcq-10": "本句指「多條聲音軌道組合後的混音版本」。",
-        "mix-mcq-09": "「與某人交往／混在一起」是「mix with someone」的用法，與本句語境不同。",
-        "mix-mcq-11": "「調整並合成不同音軌；混音」是「mix — audio verb」的用法，與本句語境不同。",
-        "mix-mcq-08": "「與其他人交際、來往」是「mix — socialize」的用法，與本句語境不同。",
-        "mix-mcq-12": "「重新編排／混合原音軌而製成的新版本」是「remix」的用法，與本句語境不同。",
-        "mix-mcq-07": "「把不同風格、類型、概念融合」是「mix — styles/genres」的用法，與本句語境不同。"
+        "mix-mcq-10": "本句的「mix」指「多條聲音軌道組合後的混音版本」。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-10"
     },
@@ -1216,11 +1132,9 @@ export default {
       "masked": "I prefer the live ____.",
       "options": [
         "mix-mcq-10",
-        "mix-mcq-09",
-        "mix-mcq-11",
-        "mix-mcq-08",
-        "mix-mcq-12",
-        "mix-mcq-07"
+        "mix-mcq-18",
+        "mix-mcq-24",
+        "mix-mcq-15"
       ],
       "explanation": "本句的「mix」指「多條聲音軌道組合後的混音版本」。",
       "sentenceIndex": 21,
@@ -1229,12 +1143,10 @@ export default {
         "mix"
       ],
       "optionReasons": {
-        "mix-mcq-10": "本句指「多條聲音軌道組合後的混音版本」。",
-        "mix-mcq-09": "「與某人交往／混在一起」是「mix with someone」的用法，與本句語境不同。",
-        "mix-mcq-11": "「調整並合成不同音軌；混音」是「mix — audio verb」的用法，與本句語境不同。",
-        "mix-mcq-08": "「與其他人交際、來往」是「mix — socialize」的用法，與本句語境不同。",
-        "mix-mcq-12": "「重新編排／混合原音軌而製成的新版本」是「remix」的用法，與本句語境不同。",
-        "mix-mcq-07": "「把不同風格、類型、概念融合」是「mix — styles/genres」的用法，與本句語境不同。"
+        "mix-mcq-10": "本句的「mix」指「多條聲音軌道組合後的混音版本」。",
+        "mix-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-10"
     },
@@ -1246,10 +1158,8 @@ export default {
       "masked": "She ____ herself.",
       "options": [
         "mix-mcq-11",
-        "mix-mcq-10",
-        "mix-mcq-12",
-        "mix-mcq-09",
-        "mix-mcq-13",
+        "mix-mcq-24",
+        "mix-mcq-15",
         "mix-mcq-08"
       ],
       "explanation": "本句的「mixed the song」指「調整並合成不同音軌；混音」。",
@@ -1259,12 +1169,10 @@ export default {
         "mixed the song"
       ],
       "optionReasons": {
-        "mix-mcq-11": "本句指「調整並合成不同音軌；混音」。",
-        "mix-mcq-10": "「多條聲音軌道組合後的混音版本」是「mix — audio noun」的用法，與本句語境不同。",
-        "mix-mcq-12": "「重新編排／混合原音軌而製成的新版本」是「remix」的用法，與本句語境不同。",
-        "mix-mcq-09": "「與某人交往／混在一起」是「mix with someone」的用法，與本句語境不同。",
-        "mix-mcq-13": "「把兩件或以上的人／事弄混、搞錯」是「mix something up」的用法，與本句語境不同。",
-        "mix-mcq-08": "「與其他人交際、來往」是「mix — socialize」的用法，與本句語境不同。"
+        "mix-mcq-11": "本句的「mixed the song」指「調整並合成不同音軌；混音」。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-11"
     },
@@ -1276,11 +1184,9 @@ export default {
       "masked": "The vocals were ____.",
       "options": [
         "mix-mcq-11",
-        "mix-mcq-10",
-        "mix-mcq-12",
-        "mix-mcq-09",
-        "mix-mcq-13",
-        "mix-mcq-08"
+        "mix-mcq-24",
+        "mix-mcq-08",
+        "mix-mcq-15"
       ],
       "explanation": "本句的「mixed too loudly」指「調整並合成不同音軌；混音」。",
       "sentenceIndex": 23,
@@ -1289,12 +1195,10 @@ export default {
         "mixed too loudly"
       ],
       "optionReasons": {
-        "mix-mcq-11": "本句指「調整並合成不同音軌；混音」。",
-        "mix-mcq-10": "「多條聲音軌道組合後的混音版本」是「mix — audio noun」的用法，與本句語境不同。",
-        "mix-mcq-12": "「重新編排／混合原音軌而製成的新版本」是「remix」的用法，與本句語境不同。",
-        "mix-mcq-09": "「與某人交往／混在一起」是「mix with someone」的用法，與本句語境不同。",
-        "mix-mcq-13": "「把兩件或以上的人／事弄混、搞錯」是「mix something up」的用法，與本句語境不同。",
-        "mix-mcq-08": "「與其他人交際、來往」是「mix — socialize」的用法，與本句語境不同。"
+        "mix-mcq-11": "本句的「mixed too loudly」指「調整並合成不同音軌；混音」。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-11"
     },
@@ -1306,11 +1210,9 @@ export default {
       "masked": "The song was ____ for the club.",
       "options": [
         "mix-mcq-12",
-        "mix-mcq-11",
-        "mix-mcq-13",
-        "mix-mcq-10",
-        "mix-mcq-14",
-        "mix-mcq-09"
+        "mix-mcq-25",
+        "mix-mcq-08",
+        "mix-mcq-15"
       ],
       "explanation": "本句的「remixed」指「重新編排／混合原音軌而製成的新版本」。",
       "sentenceIndex": 24,
@@ -1319,12 +1221,10 @@ export default {
         "remixed"
       ],
       "optionReasons": {
-        "mix-mcq-12": "本句指「重新編排／混合原音軌而製成的新版本」。",
-        "mix-mcq-11": "「調整並合成不同音軌；混音」是「mix — audio verb」的用法，與本句語境不同。",
-        "mix-mcq-13": "「把兩件或以上的人／事弄混、搞錯」是「mix something up」的用法，與本句語境不同。",
-        "mix-mcq-10": "「多條聲音軌道組合後的混音版本」是「mix — audio noun」的用法，與本句語境不同。",
-        "mix-mcq-14": "「事情被弄亂；本人感到混亂」是「be mixed up」的用法，與本句語境不同。",
-        "mix-mcq-09": "「與某人交往／混在一起」是「mix with someone」的用法，與本句語境不同。"
+        "mix-mcq-12": "本句的「remixed」指「重新編排／混合原音軌而製成的新版本」。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-12"
     },
@@ -1336,11 +1236,9 @@ export default {
       "masked": "I like the ____ better than the original.",
       "options": [
         "mix-mcq-12",
-        "mix-mcq-11",
-        "mix-mcq-13",
-        "mix-mcq-10",
-        "mix-mcq-14",
-        "mix-mcq-09"
+        "mix-mcq-25",
+        "mix-mcq-15",
+        "mix-mcq-24"
       ],
       "explanation": "本句的「remix」指「重新編排／混合原音軌而製成的新版本」。",
       "sentenceIndex": 25,
@@ -1349,12 +1247,10 @@ export default {
         "remix"
       ],
       "optionReasons": {
-        "mix-mcq-12": "本句指「重新編排／混合原音軌而製成的新版本」。",
-        "mix-mcq-11": "「調整並合成不同音軌；混音」是「mix — audio verb」的用法，與本句語境不同。",
-        "mix-mcq-13": "「把兩件或以上的人／事弄混、搞錯」是「mix something up」的用法，與本句語境不同。",
-        "mix-mcq-10": "「多條聲音軌道組合後的混音版本」是「mix — audio noun」的用法，與本句語境不同。",
-        "mix-mcq-14": "「事情被弄亂；本人感到混亂」是「be mixed up」的用法，與本句語境不同。",
-        "mix-mcq-09": "「與某人交往／混在一起」是「mix with someone」的用法，與本句語境不同。"
+        "mix-mcq-12": "本句的「remix」指「重新編排／混合原音軌而製成的新版本」。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-12"
     },
@@ -1366,11 +1262,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "mix-mcq-13",
-        "mix-mcq-12",
-        "mix-mcq-14",
-        "mix-mcq-11",
-        "mix-mcq-15",
-        "mix-mcq-10"
+        "mix-mcq-07",
+        "mix-mcq-25",
+        "mix-mcq-08"
       ],
       "explanation": "本句的「mixed up the two names」指「把兩件或以上的人／事弄混、搞錯」。",
       "sentenceIndex": 26,
@@ -1379,12 +1273,10 @@ export default {
         "mixed up the two names"
       ],
       "optionReasons": {
-        "mix-mcq-13": "本句指「把兩件或以上的人／事弄混、搞錯」。",
-        "mix-mcq-12": "「重新編排／混合原音軌而製成的新版本」是「remix」的用法，與本句語境不同。",
-        "mix-mcq-14": "「事情被弄亂；本人感到混亂」是「be mixed up」的用法，與本句語境不同。",
-        "mix-mcq-11": "「調整並合成不同音軌；混音」是「mix — audio verb」的用法，與本句語境不同。",
-        "mix-mcq-15": "「被牽涉／捲入某種情況」是「be mixed up in something」的用法，與本句語境不同。",
-        "mix-mcq-10": "「多條聲音軌道組合後的混音版本」是「mix — audio noun」的用法，與本句語境不同。"
+        "mix-mcq-13": "本句的「mixed up the two names」指「把兩件或以上的人／事弄混、搞錯」。",
+        "mix-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-13"
     },
@@ -1396,11 +1288,9 @@ export default {
       "masked": "Don’t ____ the dates.",
       "options": [
         "mix-mcq-13",
-        "mix-mcq-12",
-        "mix-mcq-14",
-        "mix-mcq-11",
-        "mix-mcq-15",
-        "mix-mcq-10"
+        "mix-mcq-24",
+        "mix-mcq-08",
+        "mix-mcq-07"
       ],
       "explanation": "本句的「mix up」指「把兩件或以上的人／事弄混、搞錯」。",
       "sentenceIndex": 27,
@@ -1409,12 +1299,10 @@ export default {
         "mix up"
       ],
       "optionReasons": {
-        "mix-mcq-13": "本句指「把兩件或以上的人／事弄混、搞錯」。",
-        "mix-mcq-12": "「重新編排／混合原音軌而製成的新版本」是「remix」的用法，與本句語境不同。",
-        "mix-mcq-14": "「事情被弄亂；本人感到混亂」是「be mixed up」的用法，與本句語境不同。",
-        "mix-mcq-11": "「調整並合成不同音軌；混音」是「mix — audio verb」的用法，與本句語境不同。",
-        "mix-mcq-15": "「被牽涉／捲入某種情況」是「be mixed up in something」的用法，與本句語境不同。",
-        "mix-mcq-10": "「多條聲音軌道組合後的混音版本」是「mix — audio noun」的用法，與本句語境不同。"
+        "mix-mcq-13": "本句的「mix up」指「把兩件或以上的人／事弄混、搞錯」。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-13"
     },
@@ -1426,11 +1314,9 @@ export default {
       "masked": "I got ____ about the schedule.",
       "options": [
         "mix-mcq-14",
-        "mix-mcq-13",
         "mix-mcq-15",
-        "mix-mcq-12",
-        "mix-mcq-16",
-        "mix-mcq-11"
+        "mix-mcq-02",
+        "mix-mcq-08"
       ],
       "explanation": "本句的「mixed up」指「事情被弄亂；本人感到混亂」。",
       "sentenceIndex": 28,
@@ -1439,12 +1325,10 @@ export default {
         "mixed up"
       ],
       "optionReasons": {
-        "mix-mcq-14": "本句指「事情被弄亂；本人感到混亂」。",
-        "mix-mcq-13": "「把兩件或以上的人／事弄混、搞錯」是「mix something up」的用法，與本句語境不同。",
-        "mix-mcq-15": "「被牽涉／捲入某種情況」是「be mixed up in something」的用法，與本句語境不同。",
-        "mix-mcq-12": "「重新編排／混合原音軌而製成的新版本」是「remix」的用法，與本句語境不同。",
-        "mix-mcq-16": "「把某材料加入並拌入混合物」是「mix in」的用法，與本句語境不同。",
-        "mix-mcq-11": "「調整並合成不同音軌；混音」是「mix — audio verb」的用法，與本句語境不同。"
+        "mix-mcq-14": "本句的「mixed up」指「事情被弄亂；本人感到混亂」。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-14"
     },
@@ -1456,11 +1340,9 @@ export default {
       "masked": "The files were all ____.",
       "options": [
         "mix-mcq-14",
-        "mix-mcq-13",
-        "mix-mcq-15",
-        "mix-mcq-12",
-        "mix-mcq-16",
-        "mix-mcq-11"
+        "mix-mcq-02",
+        "mix-mcq-24",
+        "mix-mcq-08"
       ],
       "explanation": "本句的「mixed up」指「事情被弄亂；本人感到混亂」。",
       "sentenceIndex": 29,
@@ -1469,12 +1351,10 @@ export default {
         "mixed up"
       ],
       "optionReasons": {
-        "mix-mcq-14": "本句指「事情被弄亂；本人感到混亂」。",
-        "mix-mcq-13": "「把兩件或以上的人／事弄混、搞錯」是「mix something up」的用法，與本句語境不同。",
-        "mix-mcq-15": "「被牽涉／捲入某種情況」是「be mixed up in something」的用法，與本句語境不同。",
-        "mix-mcq-12": "「重新編排／混合原音軌而製成的新版本」是「remix」的用法，與本句語境不同。",
-        "mix-mcq-16": "「把某材料加入並拌入混合物」是「mix in」的用法，與本句語境不同。",
-        "mix-mcq-11": "「調整並合成不同音軌；混音」是「mix — audio verb」的用法，與本句語境不同。"
+        "mix-mcq-14": "本句的「mixed up」指「事情被弄亂；本人感到混亂」。",
+        "mix-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-14"
     },
@@ -1486,11 +1366,9 @@ export default {
       "masked": "He became ____ the dispute.",
       "options": [
         "mix-mcq-15",
-        "mix-mcq-14",
-        "mix-mcq-16",
-        "mix-mcq-13",
         "mix-mcq-17",
-        "mix-mcq-12"
+        "mix-mcq-13",
+        "mix-mcq-25"
       ],
       "explanation": "本句的「mixed up in」指「被牽涉／捲入某種情況」。",
       "sentenceIndex": 30,
@@ -1499,12 +1377,10 @@ export default {
         "mixed up in"
       ],
       "optionReasons": {
-        "mix-mcq-15": "本句指「被牽涉／捲入某種情況」。",
-        "mix-mcq-14": "「事情被弄亂；本人感到混亂」是「be mixed up」的用法，與本句語境不同。",
-        "mix-mcq-16": "「把某材料加入並拌入混合物」是「mix in」的用法，與本句語境不同。",
-        "mix-mcq-13": "「把兩件或以上的人／事弄混、搞錯」是「mix something up」的用法，與本句語境不同。",
-        "mix-mcq-17": "「含有不同類型或性質的；混合的」是「mixed — varied」的用法，與本句語境不同。",
-        "mix-mcq-12": "「重新編排／混合原音軌而製成的新版本」是「remix」的用法，與本句語境不同。"
+        "mix-mcq-15": "本句的「mixed up in」指「被牽涉／捲入某種情況」。",
+        "mix-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-15"
     },
@@ -1516,11 +1392,9 @@ export default {
       "masked": "She did not want to get ____ their problems.",
       "options": [
         "mix-mcq-15",
-        "mix-mcq-14",
-        "mix-mcq-16",
-        "mix-mcq-13",
-        "mix-mcq-17",
-        "mix-mcq-12"
+        "mix-mcq-11",
+        "mix-mcq-04",
+        "mix-mcq-09"
       ],
       "explanation": "本句的「mixed up in」指「被牽涉／捲入某種情況」。",
       "sentenceIndex": 31,
@@ -1529,12 +1403,10 @@ export default {
         "mixed up in"
       ],
       "optionReasons": {
-        "mix-mcq-15": "本句指「被牽涉／捲入某種情況」。",
-        "mix-mcq-14": "「事情被弄亂；本人感到混亂」是「be mixed up」的用法，與本句語境不同。",
-        "mix-mcq-16": "「把某材料加入並拌入混合物」是「mix in」的用法，與本句語境不同。",
-        "mix-mcq-13": "「把兩件或以上的人／事弄混、搞錯」是「mix something up」的用法，與本句語境不同。",
-        "mix-mcq-17": "「含有不同類型或性質的；混合的」是「mixed — varied」的用法，與本句語境不同。",
-        "mix-mcq-12": "「重新編排／混合原音軌而製成的新版本」是「remix」的用法，與本句語境不同。"
+        "mix-mcq-15": "本句的「mixed up in」指「被牽涉／捲入某種情況」。",
+        "mix-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-15"
     },
@@ -1546,11 +1418,9 @@ export default {
       "masked": "____ the sugar slowly.",
       "options": [
         "mix-mcq-16",
-        "mix-mcq-15",
-        "mix-mcq-17",
-        "mix-mcq-14",
-        "mix-mcq-18",
-        "mix-mcq-13"
+        "mix-mcq-25",
+        "mix-mcq-24",
+        "mix-mcq-18"
       ],
       "explanation": "本句的「Mix in」指「把某材料加入並拌入混合物」。",
       "sentenceIndex": 32,
@@ -1559,12 +1429,10 @@ export default {
         "Mix in"
       ],
       "optionReasons": {
-        "mix-mcq-16": "本句指「把某材料加入並拌入混合物」。",
-        "mix-mcq-15": "「被牽涉／捲入某種情況」是「be mixed up in something」的用法，與本句語境不同。",
-        "mix-mcq-17": "「含有不同類型或性質的；混合的」是「mixed — varied」的用法，與本句語境不同。",
-        "mix-mcq-14": "「事情被弄亂；本人感到混亂」是「be mixed up」的用法，與本句語境不同。",
-        "mix-mcq-18": "「同時有不同甚至互相衝突的情緒；百感交集」是「mixed feelings」的用法，與本句語境不同。",
-        "mix-mcq-13": "「把兩件或以上的人／事弄混、搞錯」是「mix something up」的用法，與本句語境不同。"
+        "mix-mcq-16": "本句的「Mix in」指「把某材料加入並拌入混合物」。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-16"
     },
@@ -1576,11 +1444,9 @@ export default {
       "masked": "She ____ at the end.",
       "options": [
         "mix-mcq-16",
-        "mix-mcq-15",
-        "mix-mcq-17",
-        "mix-mcq-14",
+        "mix-mcq-08",
         "mix-mcq-18",
-        "mix-mcq-13"
+        "mix-mcq-24"
       ],
       "explanation": "本句的「mixed the herbs in」指「把某材料加入並拌入混合物」。",
       "sentenceIndex": 33,
@@ -1589,12 +1455,10 @@ export default {
         "mixed the herbs in"
       ],
       "optionReasons": {
-        "mix-mcq-16": "本句指「把某材料加入並拌入混合物」。",
-        "mix-mcq-15": "「被牽涉／捲入某種情況」是「be mixed up in something」的用法，與本句語境不同。",
-        "mix-mcq-17": "「含有不同類型或性質的；混合的」是「mixed — varied」的用法，與本句語境不同。",
-        "mix-mcq-14": "「事情被弄亂；本人感到混亂」是「be mixed up」的用法，與本句語境不同。",
-        "mix-mcq-18": "「同時有不同甚至互相衝突的情緒；百感交集」是「mixed feelings」的用法，與本句語境不同。",
-        "mix-mcq-13": "「把兩件或以上的人／事弄混、搞錯」是「mix something up」的用法，與本句語境不同。"
+        "mix-mcq-16": "本句的「mixed the herbs in」指「把某材料加入並拌入混合物」。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-16"
     },
@@ -1606,11 +1470,9 @@ export default {
       "masked": "____.",
       "options": [
         "mix-mcq-27",
-        "mix-mcq-26",
         "mix-mcq-25",
-        "mix-mcq-24",
-        "mix-mcq-23",
-        "mix-mcq-22"
+        "mix-mcq-15",
+        "mix-mcq-24"
       ],
       "explanation": "本句的「Mix the ingredients together」指「表示混合在一起」。",
       "sentenceIndex": 34,
@@ -1619,12 +1481,10 @@ export default {
         "Mix the ingredients together"
       ],
       "optionReasons": {
-        "mix-mcq-27": "本句指「表示混合在一起」。",
-        "mix-mcq-26": "「表示混合；結合；綜合」是「Passage meaning」的用法，與本句語境不同。",
-        "mix-mcq-25": "「仍然參與其中、仍被考慮或仍有機會」是「in the mix」的用法，與本句語境不同。",
-        "mix-mcq-24": "「品質、結果等好壞參半／參差不齊」是「a mixed bag」的用法，與本句語境不同。",
-        "mix-mcq-23": "「把不同物品自由搭配／混搭」是「mix and match」的用法，與本句語境不同。",
-        "mix-mcq-22": "「控制和合成多個音訊來源的混音器」是「mixer — audio」的用法，與本句語境不同。"
+        "mix-mcq-27": "本句的「Mix the ingredients together」指「表示混合在一起」。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-27"
     },
@@ -1636,11 +1496,9 @@ export default {
       "masked": "The colors ____ beautifully.",
       "options": [
         "mix-mcq-27",
-        "mix-mcq-26",
-        "mix-mcq-25",
         "mix-mcq-24",
-        "mix-mcq-23",
-        "mix-mcq-22"
+        "mix-mcq-08",
+        "mix-mcq-18"
       ],
       "explanation": "本句的「mixed together」指「表示混合在一起」。",
       "sentenceIndex": 35,
@@ -1649,12 +1507,10 @@ export default {
         "mixed together"
       ],
       "optionReasons": {
-        "mix-mcq-27": "本句指「表示混合在一起」。",
-        "mix-mcq-26": "「表示混合；結合；綜合」是「Passage meaning」的用法，與本句語境不同。",
-        "mix-mcq-25": "「仍然參與其中、仍被考慮或仍有機會」是「in the mix」的用法，與本句語境不同。",
-        "mix-mcq-24": "「品質、結果等好壞參半／參差不齊」是「a mixed bag」的用法，與本句語境不同。",
-        "mix-mcq-23": "「把不同物品自由搭配／混搭」是「mix and match」的用法，與本句語境不同。",
-        "mix-mcq-22": "「控制和合成多個音訊來源的混音器」是「mixer — audio」的用法，與本句語境不同。"
+        "mix-mcq-27": "本句的「mixed together」指「表示混合在一起」。",
+        "mix-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-27"
     },
@@ -1666,11 +1522,9 @@ export default {
       "masked": "We had ____.",
       "options": [
         "mix-mcq-17",
-        "mix-mcq-16",
-        "mix-mcq-18",
+        "mix-mcq-08",
         "mix-mcq-15",
-        "mix-mcq-19",
-        "mix-mcq-14"
+        "mix-mcq-25"
       ],
       "explanation": "本句的「mixed results」指「含有不同類型或性質的；混合的」。",
       "sentenceIndex": 36,
@@ -1679,12 +1533,10 @@ export default {
         "mixed results"
       ],
       "optionReasons": {
-        "mix-mcq-17": "本句指「含有不同類型或性質的；混合的」。",
-        "mix-mcq-16": "「把某材料加入並拌入混合物」是「mix in」的用法，與本句語境不同。",
-        "mix-mcq-18": "「同時有不同甚至互相衝突的情緒；百感交集」是「mixed feelings」的用法，與本句語境不同。",
-        "mix-mcq-15": "「被牽涉／捲入某種情況」是「be mixed up in something」的用法，與本句語境不同。",
-        "mix-mcq-19": "「由多種物質或元素組成的混合物／混合」是「mixture」的用法，與本句語境不同。",
-        "mix-mcq-14": "「事情被弄亂；本人感到混亂」是「be mixed up」的用法，與本句語境不同。"
+        "mix-mcq-17": "本句的「mixed results」指「含有不同類型或性質的；混合的」。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-17"
     },
@@ -1696,11 +1548,9 @@ export default {
       "masked": "The group had a ____.",
       "options": [
         "mix-mcq-17",
-        "mix-mcq-16",
-        "mix-mcq-18",
+        "mix-mcq-25",
         "mix-mcq-15",
-        "mix-mcq-19",
-        "mix-mcq-14"
+        "mix-mcq-08"
       ],
       "explanation": "本句的「mixed reaction」指「含有不同類型或性質的；混合的」。",
       "sentenceIndex": 37,
@@ -1709,12 +1559,10 @@ export default {
         "mixed reaction"
       ],
       "optionReasons": {
-        "mix-mcq-17": "本句指「含有不同類型或性質的；混合的」。",
-        "mix-mcq-16": "「把某材料加入並拌入混合物」是「mix in」的用法，與本句語境不同。",
-        "mix-mcq-18": "「同時有不同甚至互相衝突的情緒；百感交集」是「mixed feelings」的用法，與本句語境不同。",
-        "mix-mcq-15": "「被牽涉／捲入某種情況」是「be mixed up in something」的用法，與本句語境不同。",
-        "mix-mcq-19": "「由多種物質或元素組成的混合物／混合」是「mixture」的用法，與本句語境不同。",
-        "mix-mcq-14": "「事情被弄亂；本人感到混亂」是「be mixed up」的用法，與本句語境不同。"
+        "mix-mcq-17": "本句的「mixed reaction」指「含有不同類型或性質的；混合的」。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-17"
     },
@@ -1726,11 +1574,9 @@ export default {
       "masked": "I had ____ about leaving.",
       "options": [
         "mix-mcq-18",
-        "mix-mcq-17",
-        "mix-mcq-19",
-        "mix-mcq-16",
-        "mix-mcq-20",
-        "mix-mcq-15"
+        "mix-mcq-02",
+        "mix-mcq-03",
+        "mix-mcq-25"
       ],
       "explanation": "本句的「mixed feelings」指「同時有不同甚至互相衝突的情緒；百感交集」。",
       "sentenceIndex": 38,
@@ -1739,12 +1585,10 @@ export default {
         "mixed feelings"
       ],
       "optionReasons": {
-        "mix-mcq-18": "本句指「同時有不同甚至互相衝突的情緒；百感交集」。",
-        "mix-mcq-17": "「含有不同類型或性質的；混合的」是「mixed — varied」的用法，與本句語境不同。",
-        "mix-mcq-19": "「由多種物質或元素組成的混合物／混合」是「mixture」的用法，與本句語境不同。",
-        "mix-mcq-16": "「把某材料加入並拌入混合物」是「mix in」的用法，與本句語境不同。",
-        "mix-mcq-20": "「用來混合材料的攪拌器」是「mixer — appliance」的用法，與本句語境不同。",
-        "mix-mcq-15": "「被牽涉／捲入某種情況」是「be mixed up in something」的用法，與本句語境不同。"
+        "mix-mcq-18": "本句的「mixed feelings」指「同時有不同甚至互相衝突的情緒；百感交集」。",
+        "mix-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-18"
     },
@@ -1756,10 +1600,8 @@ export default {
       "masked": "She felt ____ about the change.",
       "options": [
         "mix-mcq-18",
-        "mix-mcq-17",
-        "mix-mcq-19",
-        "mix-mcq-16",
-        "mix-mcq-20",
+        "mix-mcq-04",
+        "mix-mcq-02",
         "mix-mcq-15"
       ],
       "explanation": "本句的「mixed emotions」指「同時有不同甚至互相衝突的情緒；百感交集」。",
@@ -1769,12 +1611,10 @@ export default {
         "mixed emotions"
       ],
       "optionReasons": {
-        "mix-mcq-18": "本句指「同時有不同甚至互相衝突的情緒；百感交集」。",
-        "mix-mcq-17": "「含有不同類型或性質的；混合的」是「mixed — varied」的用法，與本句語境不同。",
-        "mix-mcq-19": "「由多種物質或元素組成的混合物／混合」是「mixture」的用法，與本句語境不同。",
-        "mix-mcq-16": "「把某材料加入並拌入混合物」是「mix in」的用法，與本句語境不同。",
-        "mix-mcq-20": "「用來混合材料的攪拌器」是「mixer — appliance」的用法，與本句語境不同。",
-        "mix-mcq-15": "「被牽涉／捲入某種情況」是「be mixed up in something」的用法，與本句語境不同。"
+        "mix-mcq-18": "本句的「mixed emotions」指「同時有不同甚至互相衝突的情緒；百感交集」。",
+        "mix-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-18"
     },
@@ -1786,11 +1626,9 @@ export default {
       "masked": "The bowl contained a strange ____.",
       "options": [
         "mix-mcq-19",
+        "mix-mcq-15",
         "mix-mcq-18",
-        "mix-mcq-20",
-        "mix-mcq-17",
-        "mix-mcq-21",
-        "mix-mcq-16"
+        "mix-mcq-08"
       ],
       "explanation": "本句的「mixture」指「由多種物質或元素組成的混合物／混合」。",
       "sentenceIndex": 40,
@@ -1799,12 +1637,10 @@ export default {
         "mixture"
       ],
       "optionReasons": {
-        "mix-mcq-19": "本句指「由多種物質或元素組成的混合物／混合」。",
-        "mix-mcq-18": "「同時有不同甚至互相衝突的情緒；百感交集」是「mixed feelings」的用法，與本句語境不同。",
-        "mix-mcq-20": "「用來混合材料的攪拌器」是「mixer — appliance」的用法，與本句語境不同。",
-        "mix-mcq-17": "「含有不同類型或性質的；混合的」是「mixed — varied」的用法，與本句語境不同。",
-        "mix-mcq-21": "「讓人互相認識交流的聯誼活動」是「mixer — social event」的用法，與本句語境不同。",
-        "mix-mcq-16": "「把某材料加入並拌入混合物」是「mix in」的用法，與本句語境不同。"
+        "mix-mcq-19": "本句的「mixture」指「由多種物質或元素組成的混合物／混合」。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-19"
     },
@@ -1816,11 +1652,9 @@ export default {
       "masked": "The novel is a ____.",
       "options": [
         "mix-mcq-19",
-        "mix-mcq-18",
-        "mix-mcq-20",
-        "mix-mcq-17",
-        "mix-mcq-21",
-        "mix-mcq-16"
+        "mix-mcq-25",
+        "mix-mcq-15",
+        "mix-mcq-08"
       ],
       "explanation": "本句的「mixture of humor and sadness」指「由多種物質或元素組成的混合物／混合」。",
       "sentenceIndex": 41,
@@ -1829,12 +1663,10 @@ export default {
         "mixture of humor and sadness"
       ],
       "optionReasons": {
-        "mix-mcq-19": "本句指「由多種物質或元素組成的混合物／混合」。",
-        "mix-mcq-18": "「同時有不同甚至互相衝突的情緒；百感交集」是「mixed feelings」的用法，與本句語境不同。",
-        "mix-mcq-20": "「用來混合材料的攪拌器」是「mixer — appliance」的用法，與本句語境不同。",
-        "mix-mcq-17": "「含有不同類型或性質的；混合的」是「mixed — varied」的用法，與本句語境不同。",
-        "mix-mcq-21": "「讓人互相認識交流的聯誼活動」是「mixer — social event」的用法，與本句語境不同。",
-        "mix-mcq-16": "「把某材料加入並拌入混合物」是「mix in」的用法，與本句語境不同。"
+        "mix-mcq-19": "本句的「mixture of humor and sadness」指「由多種物質或元素組成的混合物／混合」。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-19"
     },
@@ -1846,11 +1678,9 @@ export default {
       "masked": "You can ____ the colors.",
       "options": [
         "mix-mcq-23",
-        "mix-mcq-22",
-        "mix-mcq-24",
-        "mix-mcq-21",
         "mix-mcq-25",
-        "mix-mcq-20"
+        "mix-mcq-02",
+        "mix-mcq-15"
       ],
       "explanation": "本句的「mix and match」指「把不同物品自由搭配／混搭」。",
       "sentenceIndex": 42,
@@ -1859,12 +1689,10 @@ export default {
         "mix and match"
       ],
       "optionReasons": {
-        "mix-mcq-23": "本句指「把不同物品自由搭配／混搭」。",
-        "mix-mcq-22": "「控制和合成多個音訊來源的混音器」是「mixer — audio」的用法，與本句語境不同。",
-        "mix-mcq-24": "「品質、結果等好壞參半／參差不齊」是「a mixed bag」的用法，與本句語境不同。",
-        "mix-mcq-21": "「讓人互相認識交流的聯誼活動」是「mixer — social event」的用法，與本句語境不同。",
-        "mix-mcq-25": "「仍然參與其中、仍被考慮或仍有機會」是「in the mix」的用法，與本句語境不同。",
-        "mix-mcq-20": "「用來混合材料的攪拌器」是「mixer — appliance」的用法，與本句語境不同。"
+        "mix-mcq-23": "本句的「mix and match」指「把不同物品自由搭配／混搭」。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-23"
     },
@@ -1876,11 +1704,9 @@ export default {
       "masked": "The pieces are designed to ____.",
       "options": [
         "mix-mcq-23",
-        "mix-mcq-22",
-        "mix-mcq-24",
-        "mix-mcq-21",
-        "mix-mcq-25",
-        "mix-mcq-20"
+        "mix-mcq-15",
+        "mix-mcq-08",
+        "mix-mcq-25"
       ],
       "explanation": "本句的「mix and match」指「把不同物品自由搭配／混搭」。",
       "sentenceIndex": 43,
@@ -1889,12 +1715,10 @@ export default {
         "mix and match"
       ],
       "optionReasons": {
-        "mix-mcq-23": "本句指「把不同物品自由搭配／混搭」。",
-        "mix-mcq-22": "「控制和合成多個音訊來源的混音器」是「mixer — audio」的用法，與本句語境不同。",
-        "mix-mcq-24": "「品質、結果等好壞參半／參差不齊」是「a mixed bag」的用法，與本句語境不同。",
-        "mix-mcq-21": "「讓人互相認識交流的聯誼活動」是「mixer — social event」的用法，與本句語境不同。",
-        "mix-mcq-25": "「仍然參與其中、仍被考慮或仍有機會」是「in the mix」的用法，與本句語境不同。",
-        "mix-mcq-20": "「用來混合材料的攪拌器」是「mixer — appliance」的用法，與本句語境不同。"
+        "mix-mcq-23": "本句的「mix and match」指「把不同物品自由搭配／混搭」。",
+        "mix-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-23"
     },
@@ -1906,11 +1730,9 @@ export default {
       "masked": "The reviews were ____.",
       "options": [
         "mix-mcq-24",
-        "mix-mcq-23",
-        "mix-mcq-25",
-        "mix-mcq-22",
-        "mix-mcq-26",
-        "mix-mcq-21"
+        "mix-mcq-14",
+        "mix-mcq-09",
+        "mix-mcq-11"
       ],
       "explanation": "本句的「a mixed bag」指「品質、結果等好壞參半／參差不齊」。",
       "sentenceIndex": 44,
@@ -1919,12 +1741,10 @@ export default {
         "a mixed bag"
       ],
       "optionReasons": {
-        "mix-mcq-24": "本句指「品質、結果等好壞參半／參差不齊」。",
-        "mix-mcq-23": "「把不同物品自由搭配／混搭」是「mix and match」的用法，與本句語境不同。",
-        "mix-mcq-25": "「仍然參與其中、仍被考慮或仍有機會」是「in the mix」的用法，與本句語境不同。",
-        "mix-mcq-22": "「控制和合成多個音訊來源的混音器」是「mixer — audio」的用法，與本句語境不同。",
-        "mix-mcq-26": "「表示混合；結合；綜合」是「Passage meaning」的用法，與本句語境不同。",
-        "mix-mcq-21": "「讓人互相認識交流的聯誼活動」是「mixer — social event」的用法，與本句語境不同。"
+        "mix-mcq-24": "本句的「a mixed bag」指「品質、結果等好壞參半／參差不齊」。",
+        "mix-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-24"
     },
@@ -1936,11 +1756,9 @@ export default {
       "masked": "The collection is ____.",
       "options": [
         "mix-mcq-24",
-        "mix-mcq-23",
-        "mix-mcq-25",
-        "mix-mcq-22",
-        "mix-mcq-26",
-        "mix-mcq-21"
+        "mix-mcq-18",
+        "mix-mcq-03",
+        "mix-mcq-14"
       ],
       "explanation": "本句的「a mixed bag」指「品質、結果等好壞參半／參差不齊」。",
       "sentenceIndex": 45,
@@ -1949,12 +1767,10 @@ export default {
         "a mixed bag"
       ],
       "optionReasons": {
-        "mix-mcq-24": "本句指「品質、結果等好壞參半／參差不齊」。",
-        "mix-mcq-23": "「把不同物品自由搭配／混搭」是「mix and match」的用法，與本句語境不同。",
-        "mix-mcq-25": "「仍然參與其中、仍被考慮或仍有機會」是「in the mix」的用法，與本句語境不同。",
-        "mix-mcq-22": "「控制和合成多個音訊來源的混音器」是「mixer — audio」的用法，與本句語境不同。",
-        "mix-mcq-26": "「表示混合；結合；綜合」是「Passage meaning」的用法，與本句語境不同。",
-        "mix-mcq-21": "「讓人互相認識交流的聯誼活動」是「mixer — social event」的用法，與本句語境不同。"
+        "mix-mcq-24": "本句的「a mixed bag」指「品質、結果等好壞參半／參差不齊」。",
+        "mix-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-24"
     },
@@ -1966,11 +1782,9 @@ export default {
       "masked": "Several new companies have ____.",
       "options": [
         "mix-mcq-25",
-        "mix-mcq-24",
         "mix-mcq-26",
         "mix-mcq-23",
-        "mix-mcq-27",
-        "mix-mcq-22"
+        "mix-mcq-08"
       ],
       "explanation": "本句的「entered the mix」指「仍然參與其中、仍被考慮或仍有機會」。",
       "sentenceIndex": 46,
@@ -1979,12 +1793,10 @@ export default {
         "entered the mix"
       ],
       "optionReasons": {
-        "mix-mcq-25": "本句指「仍然參與其中、仍被考慮或仍有機會」。",
-        "mix-mcq-24": "「品質、結果等好壞參半／參差不齊」是「a mixed bag」的用法，與本句語境不同。",
-        "mix-mcq-26": "「表示混合；結合；綜合」是「Passage meaning」的用法，與本句語境不同。",
-        "mix-mcq-23": "「把不同物品自由搭配／混搭」是「mix and match」的用法，與本句語境不同。",
-        "mix-mcq-27": "「表示混合在一起」是「18. mix together」的用法，與本句語境不同。",
-        "mix-mcq-22": "「控制和合成多個音訊來源的混音器」是「mixer — audio」的用法，與本句語境不同。"
+        "mix-mcq-25": "本句的「entered the mix」指「仍然參與其中、仍被考慮或仍有機會」。",
+        "mix-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-25"
     },
@@ -1996,11 +1808,9 @@ export default {
       "masked": "Younger players are getting ____.",
       "options": [
         "mix-mcq-25",
-        "mix-mcq-24",
-        "mix-mcq-26",
-        "mix-mcq-23",
-        "mix-mcq-27",
-        "mix-mcq-22"
+        "mix-mcq-14",
+        "mix-mcq-11",
+        "mix-mcq-08"
       ],
       "explanation": "本句的「into the mix」指「仍然參與其中、仍被考慮或仍有機會」。",
       "sentenceIndex": 47,
@@ -2009,12 +1819,10 @@ export default {
         "into the mix"
       ],
       "optionReasons": {
-        "mix-mcq-25": "本句指「仍然參與其中、仍被考慮或仍有機會」。",
-        "mix-mcq-24": "「品質、結果等好壞參半／參差不齊」是「a mixed bag」的用法，與本句語境不同。",
-        "mix-mcq-26": "「表示混合；結合；綜合」是「Passage meaning」的用法，與本句語境不同。",
-        "mix-mcq-23": "「把不同物品自由搭配／混搭」是「mix and match」的用法，與本句語境不同。",
-        "mix-mcq-27": "「表示混合在一起」是「18. mix together」的用法，與本句語境不同。",
-        "mix-mcq-22": "「控制和合成多個音訊來源的混音器」是「mixer — audio」的用法，與本句語境不同。"
+        "mix-mcq-25": "本句的「into the mix」指「仍然參與其中、仍被考慮或仍有機會」。",
+        "mix-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-25"
     },
@@ -2026,11 +1834,9 @@ export default {
       "masked": "She is still ____ for the role.",
       "options": [
         "mix-mcq-25",
-        "mix-mcq-24",
-        "mix-mcq-26",
-        "mix-mcq-23",
-        "mix-mcq-27",
-        "mix-mcq-22"
+        "mix-mcq-01",
+        "mix-mcq-13",
+        "mix-mcq-08"
       ],
       "explanation": "本句的「in the mix」指「仍然參與其中、仍被考慮或仍有機會」。",
       "sentenceIndex": 48,
@@ -2039,12 +1845,10 @@ export default {
         "in the mix"
       ],
       "optionReasons": {
-        "mix-mcq-25": "本句指「仍然參與其中、仍被考慮或仍有機會」。",
-        "mix-mcq-24": "「品質、結果等好壞參半／參差不齊」是「a mixed bag」的用法，與本句語境不同。",
-        "mix-mcq-26": "「表示混合；結合；綜合」是「Passage meaning」的用法，與本句語境不同。",
-        "mix-mcq-23": "「把不同物品自由搭配／混搭」是「mix and match」的用法，與本句語境不同。",
-        "mix-mcq-27": "「表示混合在一起」是「18. mix together」的用法，與本句語境不同。",
-        "mix-mcq-22": "「控制和合成多個音訊來源的混音器」是「mixer — audio」的用法，與本句語境不同。"
+        "mix-mcq-25": "本句的「in the mix」指「仍然參與其中、仍被考慮或仍有機會」。",
+        "mix-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-25"
     },
@@ -2056,11 +1860,9 @@ export default {
       "masked": "Several options remain ____.",
       "options": [
         "mix-mcq-25",
-        "mix-mcq-24",
-        "mix-mcq-26",
-        "mix-mcq-23",
-        "mix-mcq-27",
-        "mix-mcq-22"
+        "mix-mcq-07",
+        "mix-mcq-13",
+        "mix-mcq-09"
       ],
       "explanation": "本句的「in the mix」指「仍然參與其中、仍被考慮或仍有機會」。",
       "sentenceIndex": 49,
@@ -2069,12 +1871,10 @@ export default {
         "in the mix"
       ],
       "optionReasons": {
-        "mix-mcq-25": "本句指「仍然參與其中、仍被考慮或仍有機會」。",
-        "mix-mcq-24": "「品質、結果等好壞參半／參差不齊」是「a mixed bag」的用法，與本句語境不同。",
-        "mix-mcq-26": "「表示混合；結合；綜合」是「Passage meaning」的用法，與本句語境不同。",
-        "mix-mcq-23": "「把不同物品自由搭配／混搭」是「mix and match」的用法，與本句語境不同。",
-        "mix-mcq-27": "「表示混合在一起」是「18. mix together」的用法，與本句語境不同。",
-        "mix-mcq-22": "「控制和合成多個音訊來源的混音器」是「mixer — audio」的用法，與本句語境不同。"
+        "mix-mcq-25": "本句的「in the mix」指「仍然參與其中、仍被考慮或仍有機會」。",
+        "mix-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mix-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mix-mcq-25"
     }
@@ -2086,5 +1886,7 @@ export default {
     "sha256": "83b80737a8460d5a776e02ae072422e4db0ede19efbafcc3edfd767c05dc29c5",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

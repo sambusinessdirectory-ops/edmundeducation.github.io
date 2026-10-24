@@ -27,16 +27,6 @@ export default {
           "Please write the date at the top of the page.",
           "請在頁面上方寫上日期。",
           "日期"
-        ],
-        [
-          "She added chopped dates to the cake.",
-          "她在蛋糕裏加入了切碎的椰棗。",
-          "日期"
-        ],
-        [
-          "Dates are naturally very sweet.",
-          "椰棗天然非常甜。",
-          "日期"
         ]
       ],
       "options": [],
@@ -954,6 +944,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "date-reviewed-b6b91ad391",
+      "title": "海棗樹所結的甜味果實，通常呈啡色，可鮮食或乾製",
+      "form": "date · source section 36",
+      "en": "海棗樹所結的甜味果實，通常呈啡色，可鮮食或乾製",
+      "zh": "海棗樹所結的甜味果實，通常呈啡色，可鮮食或乾製",
+      "note": "對照原始教材第 36 節及例句核實。",
+      "examples": [
+        [
+          "She added chopped dates to the cake.",
+          "她在蛋糕裏加入了切碎的椰棗。",
+          "海棗樹所結的甜味果實，通常呈啡色，可鮮食或乾製"
+        ],
+        [
+          "Dates are naturally very sweet.",
+          "椰棗天然非常甜。",
+          "海棗樹所結的甜味果實，通常呈啡色，可鮮食或乾製"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -965,11 +977,9 @@ export default {
       "masked": "He never treated history as a dry subject full of names and ____.",
       "options": [
         "date-mcq-01",
-        "date-mcq-02",
-        "date-mcq-03",
-        "date-mcq-04",
-        "date-mcq-05",
-        "date-mcq-06"
+        "date-mcq-44",
+        "date-mcq-36",
+        "date-mcq-12"
       ],
       "explanation": "本句的「dates」指「日期」。",
       "sentenceIndex": 0,
@@ -978,12 +988,10 @@ export default {
         "dates"
       ],
       "optionReasons": {
-        "date-mcq-01": "本句指「日期」。",
-        "date-mcq-02": "「歷史日期／年份」是「historical date」的用法，與本句語境不同。",
-        "date-mcq-03": "「今天日期」是「today's date」的用法，與本句語境不同。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。"
+        "date-mcq-01": "本句的「dates」指「日期」。",
+        "date-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-01"
     },
@@ -995,11 +1003,9 @@ export default {
       "masked": "Do you remember the ____ of the battle?",
       "options": [
         "date-mcq-01",
-        "date-mcq-02",
-        "date-mcq-03",
-        "date-mcq-04",
-        "date-mcq-05",
-        "date-mcq-06"
+        "date-mcq-28",
+        "date-mcq-16",
+        "date-reviewed-b6b91ad391"
       ],
       "explanation": "本句的「date」指「日期」。",
       "sentenceIndex": 1,
@@ -1008,12 +1014,10 @@ export default {
         "date"
       ],
       "optionReasons": {
-        "date-mcq-01": "本句指「日期」。",
-        "date-mcq-02": "「歷史日期／年份」是「historical date」的用法，與本句語境不同。",
-        "date-mcq-03": "「今天日期」是「today's date」的用法，與本句語境不同。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。"
+        "date-mcq-01": "本句的「date」指「日期」。",
+        "date-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "date-reviewed-b6b91ad391": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-01"
     },
@@ -1025,11 +1029,9 @@ export default {
       "masked": "Please write the ____ at the top of the page.",
       "options": [
         "date-mcq-01",
-        "date-mcq-02",
-        "date-mcq-03",
-        "date-mcq-04",
-        "date-mcq-05",
-        "date-mcq-06"
+        "date-mcq-43",
+        "date-mcq-35",
+        "date-mcq-41"
       ],
       "explanation": "本句的「date」指「日期」。",
       "sentenceIndex": 2,
@@ -1038,12 +1040,10 @@ export default {
         "date"
       ],
       "optionReasons": {
-        "date-mcq-01": "本句指「日期」。",
-        "date-mcq-02": "「歷史日期／年份」是「historical date」的用法，與本句語境不同。",
-        "date-mcq-03": "「今天日期」是「today's date」的用法，與本句語境不同。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。"
+        "date-mcq-01": "本句的「date」指「日期」。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-01"
     },
@@ -1055,11 +1055,9 @@ export default {
       "masked": "Students had to memorize important ____.",
       "options": [
         "date-mcq-02",
-        "date-mcq-01",
-        "date-mcq-03",
-        "date-mcq-04",
-        "date-mcq-05",
-        "date-mcq-06"
+        "date-reviewed-b6b91ad391",
+        "date-mcq-22",
+        "date-mcq-31"
       ],
       "explanation": "本句的「historical dates」指「歷史日期／年份」。",
       "sentenceIndex": 3,
@@ -1068,12 +1066,10 @@ export default {
         "historical dates"
       ],
       "optionReasons": {
-        "date-mcq-02": "本句指「歷史日期／年份」。",
-        "date-mcq-01": "「日期」是「date」的用法，與本句語境不同。",
-        "date-mcq-03": "「今天日期」是「today's date」的用法，與本句語境不同。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。"
+        "date-mcq-02": "本句的「historical dates」指「歷史日期／年份」。",
+        "date-reviewed-b6b91ad391": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-02"
     },
@@ -1085,11 +1081,9 @@ export default {
       "masked": "1945 is an important ____ in modern history.",
       "options": [
         "date-mcq-02",
-        "date-mcq-01",
-        "date-mcq-03",
-        "date-mcq-04",
-        "date-mcq-05",
-        "date-mcq-06"
+        "date-mcq-29",
+        "date-mcq-13",
+        "date-reviewed-b6b91ad391"
       ],
       "explanation": "本句的「date」指「歷史日期／年份」。",
       "sentenceIndex": 4,
@@ -1098,12 +1092,10 @@ export default {
         "date"
       ],
       "optionReasons": {
-        "date-mcq-02": "本句指「歷史日期／年份」。",
-        "date-mcq-01": "「日期」是「date」的用法，與本句語境不同。",
-        "date-mcq-03": "「今天日期」是「today's date」的用法，與本句語境不同。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。"
+        "date-mcq-02": "本句的「date」指「歷史日期／年份」。",
+        "date-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "date-reviewed-b6b91ad391": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-02"
     },
@@ -1115,11 +1107,9 @@ export default {
       "masked": "What's ____?",
       "options": [
         "date-mcq-03",
-        "date-mcq-02",
-        "date-mcq-04",
-        "date-mcq-01",
-        "date-mcq-05",
-        "date-mcq-06"
+        "date-mcq-23",
+        "date-mcq-28",
+        "date-mcq-36"
       ],
       "explanation": "本句的「today's date」指「今天日期」。",
       "sentenceIndex": 5,
@@ -1128,12 +1118,10 @@ export default {
         "today's date"
       ],
       "optionReasons": {
-        "date-mcq-03": "本句指「今天日期」。",
-        "date-mcq-02": "「歷史日期／年份」是「historical date」的用法，與本句語境不同。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。",
-        "date-mcq-01": "「日期」是「date」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。"
+        "date-mcq-03": "本句的「today's date」指「今天日期」。",
+        "date-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-03"
     },
@@ -1145,11 +1133,9 @@ export default {
       "masked": "Write ____ on the form.",
       "options": [
         "date-mcq-03",
-        "date-mcq-02",
-        "date-mcq-04",
-        "date-mcq-01",
-        "date-mcq-05",
-        "date-mcq-06"
+        "date-mcq-19",
+        "date-mcq-28",
+        "date-mcq-36"
       ],
       "explanation": "本句的「today's date」指「今天日期」。",
       "sentenceIndex": 6,
@@ -1158,12 +1144,10 @@ export default {
         "today's date"
       ],
       "optionReasons": {
-        "date-mcq-03": "本句指「今天日期」。",
-        "date-mcq-02": "「歷史日期／年份」是「historical date」的用法，與本句語境不同。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。",
-        "date-mcq-01": "「日期」是「date」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。"
+        "date-mcq-03": "本句的「today's date」指「今天日期」。",
+        "date-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-03"
     },
@@ -1175,11 +1159,9 @@ export default {
       "masked": "Please enter your ____.",
       "options": [
         "date-mcq-04",
-        "date-mcq-03",
-        "date-mcq-05",
-        "date-mcq-02",
-        "date-mcq-06",
-        "date-mcq-01"
+        "date-mcq-41",
+        "date-mcq-32",
+        "date-mcq-26"
       ],
       "explanation": "本句的「date of birth」指「出生日期」。",
       "sentenceIndex": 7,
@@ -1188,12 +1170,10 @@ export default {
         "date of birth"
       ],
       "optionReasons": {
-        "date-mcq-04": "本句指「出生日期」。",
-        "date-mcq-03": "「今天日期」是「today's date」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-02": "「歷史日期／年份」是「historical date」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。",
-        "date-mcq-01": "「日期」是「date」的用法，與本句語境不同。"
+        "date-mcq-04": "本句的「date of birth」指「出生日期」。",
+        "date-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-04"
     },
@@ -1205,11 +1185,9 @@ export default {
       "masked": "His ____ is printed on the document.",
       "options": [
         "date-mcq-04",
-        "date-mcq-03",
-        "date-mcq-05",
-        "date-mcq-02",
-        "date-mcq-06",
-        "date-mcq-01"
+        "date-mcq-31",
+        "date-mcq-12",
+        "date-mcq-23"
       ],
       "explanation": "本句的「date of birth」指「出生日期」。",
       "sentenceIndex": 8,
@@ -1218,12 +1196,10 @@ export default {
         "date of birth"
       ],
       "optionReasons": {
-        "date-mcq-04": "本句指「出生日期」。",
-        "date-mcq-03": "「今天日期」是「today's date」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-02": "「歷史日期／年份」是「historical date」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。",
-        "date-mcq-01": "「日期」是「date」的用法，與本句語境不同。"
+        "date-mcq-04": "本句的「date of birth」指「出生日期」。",
+        "date-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-04"
     },
@@ -1235,11 +1211,9 @@ export default {
       "masked": "Check the ____ on your passport.",
       "options": [
         "date-mcq-05",
-        "date-mcq-04",
-        "date-mcq-06",
-        "date-mcq-03",
-        "date-mcq-07",
-        "date-mcq-02"
+        "date-mcq-12",
+        "date-mcq-36",
+        "date-mcq-22"
       ],
       "explanation": "本句的「date of issue」指「簽發日期」。",
       "sentenceIndex": 9,
@@ -1248,12 +1222,10 @@ export default {
         "date of issue"
       ],
       "optionReasons": {
-        "date-mcq-05": "本句指「簽發日期」。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。",
-        "date-mcq-03": "「今天日期」是「today's date」的用法，與本句語境不同。",
-        "date-mcq-07": "「截止日期」是「closing date」的用法，與本句語境不同。",
-        "date-mcq-02": "「歷史日期／年份」是「historical date」的用法，與本句語境不同。"
+        "date-mcq-05": "本句的「date of issue」指「簽發日期」。",
+        "date-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-05"
     },
@@ -1265,11 +1237,9 @@ export default {
       "masked": "The certificate shows the ____.",
       "options": [
         "date-mcq-05",
-        "date-mcq-04",
-        "date-mcq-06",
-        "date-mcq-03",
-        "date-mcq-07",
-        "date-mcq-02"
+        "date-mcq-20",
+        "date-reviewed-b6b91ad391",
+        "date-mcq-21"
       ],
       "explanation": "本句的「date of issue」指「簽發日期」。",
       "sentenceIndex": 10,
@@ -1278,12 +1248,10 @@ export default {
         "date of issue"
       ],
       "optionReasons": {
-        "date-mcq-05": "本句指「簽發日期」。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。",
-        "date-mcq-03": "「今天日期」是「today's date」的用法，與本句語境不同。",
-        "date-mcq-07": "「截止日期」是「closing date」的用法，與本句語境不同。",
-        "date-mcq-02": "「歷史日期／年份」是「historical date」的用法，與本句語境不同。"
+        "date-mcq-05": "本句的「date of issue」指「簽發日期」。",
+        "date-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "date-reviewed-b6b91ad391": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-05"
     },
@@ -1295,11 +1263,9 @@ export default {
       "masked": "The policy's ____ is 1 January.",
       "options": [
         "date-mcq-06",
-        "date-mcq-05",
-        "date-mcq-07",
-        "date-mcq-04",
-        "date-mcq-08",
-        "date-mcq-03"
+        "date-reviewed-b6b91ad391",
+        "date-mcq-13",
+        "date-mcq-21"
       ],
       "explanation": "本句的「effective date」指「生效日期」。",
       "sentenceIndex": 11,
@@ -1308,12 +1274,10 @@ export default {
         "effective date"
       ],
       "optionReasons": {
-        "date-mcq-06": "本句指「生效日期」。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-07": "「截止日期」是「closing date」的用法，與本句語境不同。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。",
-        "date-mcq-08": "「到期日」是「expiry date」的用法，與本句語境不同。",
-        "date-mcq-03": "「今天日期」是「today's date」的用法，與本句語境不同。"
+        "date-mcq-06": "本句的「effective date」指「生效日期」。",
+        "date-reviewed-b6b91ad391": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-06"
     },
@@ -1325,11 +1289,9 @@ export default {
       "masked": "The contract states the ____ clearly.",
       "options": [
         "date-mcq-06",
-        "date-mcq-05",
-        "date-mcq-07",
-        "date-mcq-04",
-        "date-mcq-08",
-        "date-mcq-03"
+        "date-mcq-41",
+        "date-mcq-28",
+        "date-mcq-20"
       ],
       "explanation": "本句的「effective date」指「生效日期」。",
       "sentenceIndex": 12,
@@ -1338,12 +1300,10 @@ export default {
         "effective date"
       ],
       "optionReasons": {
-        "date-mcq-06": "本句指「生效日期」。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-07": "「截止日期」是「closing date」的用法，與本句語境不同。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。",
-        "date-mcq-08": "「到期日」是「expiry date」的用法，與本句語境不同。",
-        "date-mcq-03": "「今天日期」是「today's date」的用法，與本句語境不同。"
+        "date-mcq-06": "本句的「effective date」指「生效日期」。",
+        "date-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-06"
     },
@@ -1355,11 +1315,9 @@ export default {
       "masked": "The ____ for applications is Friday.",
       "options": [
         "date-mcq-07",
-        "date-mcq-06",
-        "date-mcq-08",
-        "date-mcq-05",
-        "date-mcq-09",
-        "date-mcq-04"
+        "date-mcq-38",
+        "date-mcq-41",
+        "date-mcq-23"
       ],
       "explanation": "本句的「closing date」指「截止日期」。",
       "sentenceIndex": 13,
@@ -1368,12 +1326,10 @@ export default {
         "closing date"
       ],
       "optionReasons": {
-        "date-mcq-07": "本句指「截止日期」。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。",
-        "date-mcq-08": "「到期日」是「expiry date」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-09": "「最佳食用日期」是「best-before date」的用法，與本句語境不同。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。"
+        "date-mcq-07": "本句的「closing date」指「截止日期」。",
+        "date-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-07"
     },
@@ -1385,11 +1341,9 @@ export default {
       "masked": "Make sure you submit it before the ____.",
       "options": [
         "date-mcq-07",
-        "date-mcq-06",
-        "date-mcq-08",
-        "date-mcq-05",
-        "date-mcq-09",
-        "date-mcq-04"
+        "date-mcq-43",
+        "date-mcq-33",
+        "date-reviewed-b6b91ad391"
       ],
       "explanation": "本句的「deadline date」指「截止日期」。",
       "sentenceIndex": 14,
@@ -1398,12 +1352,10 @@ export default {
         "deadline date"
       ],
       "optionReasons": {
-        "date-mcq-07": "本句指「截止日期」。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。",
-        "date-mcq-08": "「到期日」是「expiry date」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-09": "「最佳食用日期」是「best-before date」的用法，與本句語境不同。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。"
+        "date-mcq-07": "本句的「deadline date」指「截止日期」。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "date-reviewed-b6b91ad391": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-07"
     },
@@ -1415,11 +1367,9 @@ export default {
       "masked": "Check the ____ before using the medicine.",
       "options": [
         "date-mcq-08",
-        "date-mcq-07",
-        "date-mcq-09",
-        "date-mcq-06",
-        "date-mcq-10",
-        "date-mcq-05"
+        "date-mcq-13",
+        "date-mcq-35",
+        "date-mcq-44"
       ],
       "explanation": "本句的「expiry date」指「到期日」。",
       "sentenceIndex": 15,
@@ -1428,12 +1378,10 @@ export default {
         "expiry date"
       ],
       "optionReasons": {
-        "date-mcq-08": "本句指「到期日」。",
-        "date-mcq-07": "「截止日期」是「closing date」的用法，與本句語境不同。",
-        "date-mcq-09": "「最佳食用日期」是「best-before date」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。",
-        "date-mcq-10": "「定日期」是「set/fix a date」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。"
+        "date-mcq-08": "本句的「expiry date」指「到期日」。",
+        "date-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-08"
     },
@@ -1445,11 +1393,9 @@ export default {
       "masked": "My passport's ____ is next month.",
       "options": [
         "date-mcq-08",
-        "date-mcq-07",
-        "date-mcq-09",
-        "date-mcq-06",
-        "date-mcq-10",
-        "date-mcq-05"
+        "date-mcq-43",
+        "date-mcq-27",
+        "date-mcq-41"
       ],
       "explanation": "本句的「expiry date」指「到期日」。",
       "sentenceIndex": 16,
@@ -1458,12 +1404,10 @@ export default {
         "expiry date"
       ],
       "optionReasons": {
-        "date-mcq-08": "本句指「到期日」。",
-        "date-mcq-07": "「截止日期」是「closing date」的用法，與本句語境不同。",
-        "date-mcq-09": "「最佳食用日期」是「best-before date」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。",
-        "date-mcq-10": "「定日期」是「set/fix a date」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。"
+        "date-mcq-08": "本句的「expiry date」指「到期日」。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-08"
     },
@@ -1475,11 +1419,9 @@ export default {
       "masked": "Check the ____ on the package.",
       "options": [
         "date-mcq-09",
-        "date-mcq-08",
-        "date-mcq-10",
-        "date-mcq-07",
-        "date-mcq-11",
-        "date-mcq-06"
+        "date-mcq-16",
+        "date-mcq-38",
+        "date-mcq-12"
       ],
       "explanation": "本句的「best-before date」指「最佳食用日期」。",
       "sentenceIndex": 17,
@@ -1488,12 +1430,10 @@ export default {
         "best-before date"
       ],
       "optionReasons": {
-        "date-mcq-09": "本句指「最佳食用日期」。",
-        "date-mcq-08": "「到期日」是「expiry date」的用法，與本句語境不同。",
-        "date-mcq-10": "「定日期」是「set/fix a date」的用法，與本句語境不同。",
-        "date-mcq-07": "「截止日期」是「closing date」的用法，與本句語境不同。",
-        "date-mcq-11": "「日後」是「at a later date」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。"
+        "date-mcq-09": "本句的「best-before date」指「最佳食用日期」。",
+        "date-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-09"
     },
@@ -1505,11 +1445,9 @@ export default {
       "masked": "Do not eat it after the ____.",
       "options": [
         "date-mcq-09",
-        "date-mcq-08",
-        "date-mcq-10",
-        "date-mcq-07",
-        "date-mcq-11",
-        "date-mcq-06"
+        "date-mcq-12",
+        "date-mcq-31",
+        "date-mcq-36"
       ],
       "explanation": "本句的「use-by date」指「最佳食用日期」。",
       "sentenceIndex": 18,
@@ -1518,12 +1456,10 @@ export default {
         "use-by date"
       ],
       "optionReasons": {
-        "date-mcq-09": "本句指「最佳食用日期」。",
-        "date-mcq-08": "「到期日」是「expiry date」的用法，與本句語境不同。",
-        "date-mcq-10": "「定日期」是「set/fix a date」的用法，與本句語境不同。",
-        "date-mcq-07": "「截止日期」是「closing date」的用法，與本句語境不同。",
-        "date-mcq-11": "「日後」是「at a later date」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。"
+        "date-mcq-09": "本句的「use-by date」指「最佳食用日期」。",
+        "date-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-09"
     },
@@ -1535,11 +1471,9 @@ export default {
       "masked": "We haven't ____ for the meeting.",
       "options": [
         "date-mcq-10",
-        "date-mcq-09",
-        "date-mcq-11",
-        "date-mcq-08",
-        "date-mcq-12",
-        "date-mcq-07"
+        "date-mcq-26",
+        "date-mcq-35",
+        "date-mcq-43"
       ],
       "explanation": "本句的「set a date」指「定日期」。",
       "sentenceIndex": 19,
@@ -1548,12 +1482,10 @@ export default {
         "set a date"
       ],
       "optionReasons": {
-        "date-mcq-10": "本句指「定日期」。",
-        "date-mcq-09": "「最佳食用日期」是「best-before date」的用法，與本句語境不同。",
-        "date-mcq-11": "「日後」是「at a later date」的用法，與本句語境不同。",
-        "date-mcq-08": "「到期日」是「expiry date」的用法，與本句語境不同。",
-        "date-mcq-12": "「到目前為止」是「to date」的用法，與本句語境不同。",
-        "date-mcq-07": "「截止日期」是「closing date」的用法，與本句語境不同。"
+        "date-mcq-10": "本句的「set a date」指「定日期」。",
+        "date-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-10"
     },
@@ -1565,11 +1497,9 @@ export default {
       "masked": "They finally ____ for the wedding.",
       "options": [
         "date-mcq-10",
-        "date-mcq-09",
-        "date-mcq-11",
-        "date-mcq-08",
-        "date-mcq-12",
-        "date-mcq-07"
+        "date-mcq-31",
+        "date-mcq-38",
+        "date-mcq-16"
       ],
       "explanation": "本句的「fixed a date」指「定日期」。",
       "sentenceIndex": 20,
@@ -1578,12 +1508,10 @@ export default {
         "fixed a date"
       ],
       "optionReasons": {
-        "date-mcq-10": "本句指「定日期」。",
-        "date-mcq-09": "「最佳食用日期」是「best-before date」的用法，與本句語境不同。",
-        "date-mcq-11": "「日後」是「at a later date」的用法，與本句語境不同。",
-        "date-mcq-08": "「到期日」是「expiry date」的用法，與本句語境不同。",
-        "date-mcq-12": "「到目前為止」是「to date」的用法，與本句語境不同。",
-        "date-mcq-07": "「截止日期」是「closing date」的用法，與本句語境不同。"
+        "date-mcq-10": "本句的「fixed a date」指「定日期」。",
+        "date-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-10"
     },
@@ -1595,11 +1523,9 @@ export default {
       "masked": "We can discuss that ____.",
       "options": [
         "date-mcq-11",
-        "date-mcq-10",
-        "date-mcq-12",
-        "date-mcq-09",
-        "date-mcq-13",
-        "date-mcq-08"
+        "date-mcq-43",
+        "date-mcq-21",
+        "date-reviewed-b6b91ad391"
       ],
       "explanation": "本句的「at a later date」指「日後」。",
       "sentenceIndex": 21,
@@ -1608,12 +1534,10 @@ export default {
         "at a later date"
       ],
       "optionReasons": {
-        "date-mcq-11": "本句指「日後」。",
-        "date-mcq-10": "「定日期」是「set/fix a date」的用法，與本句語境不同。",
-        "date-mcq-12": "「到目前為止」是「to date」的用法，與本句語境不同。",
-        "date-mcq-09": "「最佳食用日期」是「best-before date」的用法，與本句語境不同。",
-        "date-mcq-13": "「最新的」是「up to date」的用法，與本句語境不同。",
-        "date-mcq-08": "「到期日」是「expiry date」的用法，與本句語境不同。"
+        "date-mcq-11": "本句的「at a later date」指「日後」。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "date-reviewed-b6b91ad391": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-11"
     },
@@ -1625,11 +1549,9 @@ export default {
       "masked": "More details will be announced ____.",
       "options": [
         "date-mcq-11",
-        "date-mcq-10",
-        "date-mcq-12",
-        "date-mcq-09",
-        "date-mcq-13",
-        "date-mcq-08"
+        "date-mcq-33",
+        "date-mcq-37",
+        "date-mcq-32"
       ],
       "explanation": "本句的「at a later date」指「日後」。",
       "sentenceIndex": 22,
@@ -1638,12 +1560,10 @@ export default {
         "at a later date"
       ],
       "optionReasons": {
-        "date-mcq-11": "本句指「日後」。",
-        "date-mcq-10": "「定日期」是「set/fix a date」的用法，與本句語境不同。",
-        "date-mcq-12": "「到目前為止」是「to date」的用法，與本句語境不同。",
-        "date-mcq-09": "「最佳食用日期」是「best-before date」的用法，與本句語境不同。",
-        "date-mcq-13": "「最新的」是「up to date」的用法，與本句語境不同。",
-        "date-mcq-08": "「到期日」是「expiry date」的用法，與本句語境不同。"
+        "date-mcq-11": "本句的「at a later date」指「日後」。",
+        "date-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-11"
     },
@@ -1655,11 +1575,9 @@ export default {
       "masked": "This is his best performance ____.",
       "options": [
         "date-mcq-12",
-        "date-mcq-11",
-        "date-mcq-13",
-        "date-mcq-10",
-        "date-mcq-14",
-        "date-mcq-09"
+        "date-mcq-41",
+        "date-mcq-29",
+        "date-mcq-25"
       ],
       "explanation": "本句的「to date」指「到目前為止」。",
       "sentenceIndex": 23,
@@ -1668,12 +1586,10 @@ export default {
         "to date"
       ],
       "optionReasons": {
-        "date-mcq-12": "本句指「到目前為止」。",
-        "date-mcq-11": "「日後」是「at a later date」的用法，與本句語境不同。",
-        "date-mcq-13": "「最新的」是「up to date」的用法，與本句語境不同。",
-        "date-mcq-10": "「定日期」是「set/fix a date」的用法，與本句語境不同。",
-        "date-mcq-14": "「過時／過期」是「out of date」的用法，與本句語境不同。",
-        "date-mcq-09": "「最佳食用日期」是「best-before date」的用法，與本句語境不同。"
+        "date-mcq-12": "本句的「to date」指「到目前為止」。",
+        "date-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-12"
     },
@@ -1685,11 +1601,9 @@ export default {
       "masked": "No problems have been reported ____.",
       "options": [
         "date-mcq-12",
-        "date-mcq-11",
-        "date-mcq-13",
-        "date-mcq-10",
-        "date-mcq-14",
-        "date-mcq-09"
+        "date-mcq-40",
+        "date-mcq-36",
+        "date-mcq-08"
       ],
       "explanation": "本句的「to date」指「到目前為止」。",
       "sentenceIndex": 24,
@@ -1698,12 +1612,10 @@ export default {
         "to date"
       ],
       "optionReasons": {
-        "date-mcq-12": "本句指「到目前為止」。",
-        "date-mcq-11": "「日後」是「at a later date」的用法，與本句語境不同。",
-        "date-mcq-13": "「最新的」是「up to date」的用法，與本句語境不同。",
-        "date-mcq-10": "「定日期」是「set/fix a date」的用法，與本句語境不同。",
-        "date-mcq-14": "「過時／過期」是「out of date」的用法，與本句語境不同。",
-        "date-mcq-09": "「最佳食用日期」是「best-before date」的用法，與本句語境不同。"
+        "date-mcq-12": "本句的「to date」指「到目前為止」。",
+        "date-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-12"
     },
@@ -1715,11 +1627,9 @@ export default {
       "masked": "The information is completely ____.",
       "options": [
         "date-mcq-13",
-        "date-mcq-12",
-        "date-mcq-14",
-        "date-mcq-11",
-        "date-mcq-15",
-        "date-mcq-10"
+        "date-mcq-32",
+        "date-mcq-05",
+        "date-mcq-22"
       ],
       "explanation": "本句的「up to date」指「最新的」。",
       "sentenceIndex": 25,
@@ -1728,12 +1638,10 @@ export default {
         "up to date"
       ],
       "optionReasons": {
-        "date-mcq-13": "本句指「最新的」。",
-        "date-mcq-12": "「到目前為止」是「to date」的用法，與本句語境不同。",
-        "date-mcq-14": "「過時／過期」是「out of date」的用法，與本句語境不同。",
-        "date-mcq-11": "「日後」是「at a later date」的用法，與本句語境不同。",
-        "date-mcq-15": "「預留日期」是「save the date」的用法，與本句語境不同。",
-        "date-mcq-10": "「定日期」是「set/fix a date」的用法，與本句語境不同。"
+        "date-mcq-13": "本句的「up to date」指「最新的」。",
+        "date-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-13"
     },
@@ -1745,11 +1653,9 @@ export default {
       "masked": "I try to keep ____ with current research.",
       "options": [
         "date-mcq-13",
-        "date-mcq-12",
-        "date-mcq-14",
-        "date-mcq-11",
-        "date-mcq-15",
-        "date-mcq-10"
+        "date-mcq-19",
+        "date-mcq-04",
+        "date-mcq-38"
       ],
       "explanation": "本句的「up to date」指「最新的」。",
       "sentenceIndex": 26,
@@ -1758,12 +1664,10 @@ export default {
         "up to date"
       ],
       "optionReasons": {
-        "date-mcq-13": "本句指「最新的」。",
-        "date-mcq-12": "「到目前為止」是「to date」的用法，與本句語境不同。",
-        "date-mcq-14": "「過時／過期」是「out of date」的用法，與本句語境不同。",
-        "date-mcq-11": "「日後」是「at a later date」的用法，與本句語境不同。",
-        "date-mcq-15": "「預留日期」是「save the date」的用法，與本句語境不同。",
-        "date-mcq-10": "「定日期」是「set/fix a date」的用法，與本句語境不同。"
+        "date-mcq-13": "本句的「up to date」指「最新的」。",
+        "date-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-13"
     },
@@ -1775,11 +1679,9 @@ export default {
       "masked": "This information is ____.",
       "options": [
         "date-mcq-14",
-        "date-mcq-13",
-        "date-mcq-15",
-        "date-mcq-12",
-        "date-mcq-16",
-        "date-mcq-11"
+        "date-mcq-31",
+        "date-mcq-36",
+        "date-mcq-20"
       ],
       "explanation": "本句的「out of date」指「過時／過期」。",
       "sentenceIndex": 27,
@@ -1788,12 +1690,10 @@ export default {
         "out of date"
       ],
       "optionReasons": {
-        "date-mcq-14": "本句指「過時／過期」。",
-        "date-mcq-13": "「最新的」是「up to date」的用法，與本句語境不同。",
-        "date-mcq-15": "「預留日期」是「save the date」的用法，與本句語境不同。",
-        "date-mcq-12": "「到目前為止」是「to date」的用法，與本句語境不同。",
-        "date-mcq-16": "「年代」是「date (era)」的用法，與本句語境不同。",
-        "date-mcq-11": "「日後」是「at a later date」的用法，與本句語境不同。"
+        "date-mcq-14": "本句的「out of date」指「過時／過期」。",
+        "date-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-14"
     },
@@ -1805,11 +1705,9 @@ export default {
       "masked": "This document is now ____.",
       "options": [
         "date-mcq-14",
-        "date-mcq-13",
-        "date-mcq-15",
-        "date-mcq-12",
-        "date-mcq-16",
-        "date-mcq-11"
+        "date-reviewed-b6b91ad391",
+        "date-mcq-23",
+        "date-mcq-28"
       ],
       "explanation": "本句的「out of date」指「過時／過期」。",
       "sentenceIndex": 28,
@@ -1818,12 +1716,10 @@ export default {
         "out of date"
       ],
       "optionReasons": {
-        "date-mcq-14": "本句指「過時／過期」。",
-        "date-mcq-13": "「最新的」是「up to date」的用法，與本句語境不同。",
-        "date-mcq-15": "「預留日期」是「save the date」的用法，與本句語境不同。",
-        "date-mcq-12": "「到目前為止」是「to date」的用法，與本句語境不同。",
-        "date-mcq-16": "「年代」是「date (era)」的用法，與本句語境不同。",
-        "date-mcq-11": "「日後」是「at a later date」的用法，與本句語境不同。"
+        "date-mcq-14": "本句的「out of date」指「過時／過期」。",
+        "date-reviewed-b6b91ad391": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-14"
     },
@@ -1835,10 +1731,8 @@ export default {
       "masked": "____—the wedding is on 12 June.",
       "options": [
         "date-mcq-15",
-        "date-mcq-14",
-        "date-mcq-16",
-        "date-mcq-13",
-        "date-mcq-17",
+        "date-mcq-33",
+        "date-mcq-20",
         "date-mcq-12"
       ],
       "explanation": "本句的「Save the date」指「預留日期」。",
@@ -1848,12 +1742,10 @@ export default {
         "Save the date"
       ],
       "optionReasons": {
-        "date-mcq-15": "本句指「預留日期」。",
-        "date-mcq-14": "「過時／過期」是「out of date」的用法，與本句語境不同。",
-        "date-mcq-16": "「年代」是「date (era)」的用法，與本句語境不同。",
-        "date-mcq-13": "「最新的」是「up to date」的用法，與本句語境不同。",
-        "date-mcq-17": "「註明日期」是「date a document」的用法，與本句語境不同。",
-        "date-mcq-12": "「到目前為止」是「to date」的用法，與本句語境不同。"
+        "date-mcq-15": "本句的「Save the date」指「預留日期」。",
+        "date-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-15"
     },
@@ -1865,11 +1757,9 @@ export default {
       "masked": "We sent everyone a ____ card.",
       "options": [
         "date-mcq-15",
-        "date-mcq-14",
-        "date-mcq-16",
-        "date-mcq-13",
-        "date-mcq-17",
-        "date-mcq-12"
+        "date-mcq-37",
+        "date-mcq-20",
+        "date-mcq-41"
       ],
       "explanation": "本句的「save-the-date」指「預留日期」。",
       "sentenceIndex": 30,
@@ -1878,12 +1768,10 @@ export default {
         "save-the-date"
       ],
       "optionReasons": {
-        "date-mcq-15": "本句指「預留日期」。",
-        "date-mcq-14": "「過時／過期」是「out of date」的用法，與本句語境不同。",
-        "date-mcq-16": "「年代」是「date (era)」的用法，與本句語境不同。",
-        "date-mcq-13": "「最新的」是「up to date」的用法，與本句語境不同。",
-        "date-mcq-17": "「註明日期」是「date a document」的用法，與本句語境不同。",
-        "date-mcq-12": "「到目前為止」是「to date」的用法，與本句語境不同。"
+        "date-mcq-15": "本句的「save-the-date」指「預留日期」。",
+        "date-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-15"
     },
@@ -1895,11 +1783,9 @@ export default {
       "masked": "The exact ____ of the building is uncertain.",
       "options": [
         "date-mcq-16",
-        "date-mcq-15",
-        "date-mcq-17",
-        "date-mcq-14",
-        "date-mcq-18",
-        "date-mcq-13"
+        "date-mcq-06",
+        "date-mcq-23",
+        "date-mcq-21"
       ],
       "explanation": "本句的「date」指「年代」。",
       "sentenceIndex": 31,
@@ -1908,12 +1794,10 @@ export default {
         "date"
       ],
       "optionReasons": {
-        "date-mcq-16": "本句指「年代」。",
-        "date-mcq-15": "「預留日期」是「save the date」的用法，與本句語境不同。",
-        "date-mcq-17": "「註明日期」是「date a document」的用法，與本句語境不同。",
-        "date-mcq-14": "「過時／過期」是「out of date」的用法，與本句語境不同。",
-        "date-mcq-18": "「確定年代」是「date an object」的用法，與本句語境不同。",
-        "date-mcq-13": "「最新的」是「up to date」的用法，與本句語境不同。"
+        "date-mcq-16": "本句的「date」指「年代」。",
+        "date-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-16"
     },
@@ -1925,11 +1809,9 @@ export default {
       "masked": "The object appears to be of a much earlier ____.",
       "options": [
         "date-mcq-16",
-        "date-mcq-15",
-        "date-mcq-17",
-        "date-mcq-14",
-        "date-mcq-18",
-        "date-mcq-13"
+        "date-mcq-07",
+        "date-reviewed-b6b91ad391",
+        "date-mcq-43"
       ],
       "explanation": "本句的「date」指「年代」。",
       "sentenceIndex": 32,
@@ -1938,12 +1820,10 @@ export default {
         "date"
       ],
       "optionReasons": {
-        "date-mcq-16": "本句指「年代」。",
-        "date-mcq-15": "「預留日期」是「save the date」的用法，與本句語境不同。",
-        "date-mcq-17": "「註明日期」是「date a document」的用法，與本句語境不同。",
-        "date-mcq-14": "「過時／過期」是「out of date」的用法，與本句語境不同。",
-        "date-mcq-18": "「確定年代」是「date an object」的用法，與本句語境不同。",
-        "date-mcq-13": "「最新的」是「up to date」的用法，與本句語境不同。"
+        "date-mcq-16": "本句的「date」指「年代」。",
+        "date-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "date-reviewed-b6b91ad391": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-16"
     },
@@ -1955,11 +1835,9 @@ export default {
       "masked": "Please ____ before sending it.",
       "options": [
         "date-mcq-17",
-        "date-mcq-16",
-        "date-mcq-18",
-        "date-mcq-15",
-        "date-mcq-19",
-        "date-mcq-14"
+        "date-mcq-20",
+        "date-mcq-28",
+        "date-mcq-32"
       ],
       "explanation": "本句的「date the letter」指「註明日期」。",
       "sentenceIndex": 33,
@@ -1968,12 +1846,10 @@ export default {
         "date the letter"
       ],
       "optionReasons": {
-        "date-mcq-17": "本句指「註明日期」。",
-        "date-mcq-16": "「年代」是「date (era)」的用法，與本句語境不同。",
-        "date-mcq-18": "「確定年代」是「date an object」的用法，與本句語境不同。",
-        "date-mcq-15": "「預留日期」是「save the date」的用法，與本句語境不同。",
-        "date-mcq-19": "「年代測定」是「dating」的用法，與本句語境不同。",
-        "date-mcq-14": "「過時／過期」是「out of date」的用法，與本句語境不同。"
+        "date-mcq-17": "本句的「date the letter」指「註明日期」。",
+        "date-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-17"
     },
@@ -1985,11 +1861,9 @@ export default {
       "masked": "The document was ____.",
       "options": [
         "date-mcq-17",
-        "date-mcq-16",
-        "date-mcq-18",
-        "date-mcq-15",
         "date-mcq-19",
-        "date-mcq-14"
+        "date-mcq-13",
+        "date-mcq-43"
       ],
       "explanation": "本句的「dated 15 May」指「註明日期」。",
       "sentenceIndex": 34,
@@ -1998,12 +1872,10 @@ export default {
         "dated 15 May"
       ],
       "optionReasons": {
-        "date-mcq-17": "本句指「註明日期」。",
-        "date-mcq-16": "「年代」是「date (era)」的用法，與本句語境不同。",
-        "date-mcq-18": "「確定年代」是「date an object」的用法，與本句語境不同。",
-        "date-mcq-15": "「預留日期」是「save the date」的用法，與本句語境不同。",
-        "date-mcq-19": "「年代測定」是「dating」的用法，與本句語境不同。",
-        "date-mcq-14": "「過時／過期」是「out of date」的用法，與本句語境不同。"
+        "date-mcq-17": "本句的「dated 15 May」指「註明日期」。",
+        "date-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-17"
     },
@@ -2015,11 +1887,9 @@ export default {
       "masked": "Experts ____ to the seventeenth century.",
       "options": [
         "date-mcq-42",
-        "date-mcq-41",
-        "date-mcq-43",
-        "date-mcq-40",
-        "date-mcq-44",
-        "date-mcq-39"
+        "date-mcq-28",
+        "date-mcq-13",
+        "date-mcq-23"
       ],
       "explanation": "本句的「dated the painting」指「判斷某件物品、遺骸或遺址來自哪個時期」。",
       "sentenceIndex": 35,
@@ -2028,12 +1898,10 @@ export default {
         "dated the painting"
       ],
       "optionReasons": {
-        "date-mcq-42": "本句指「判斷某件物品、遺骸或遺址來自哪個時期」。",
-        "date-mcq-41": "「過時、不再適用」是「outdated」的用法，與本句語境不同。",
-        "date-mcq-43": "「已安排與某人進行浪漫性質的見面」是「28. have a date — 有約會」的用法，與本句語境不同。",
-        "date-mcq-40": "「過時／有年代感」是「dated」的用法，與本句語境不同。",
-        "date-mcq-44": "「與多名陌生人逐一作短時間交談，以尋找潛在約會對象的活動」是「33. speed dating — 快速約會」的用法，與本句語境不同。",
-        "date-mcq-39": "「椰棗蓉」是「date paste」的用法，與本句語境不同。"
+        "date-mcq-42": "本句的「dated the painting」指「判斷某件物品、遺骸或遺址來自哪個時期」。",
+        "date-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-42"
     },
@@ -2045,11 +1913,9 @@ export default {
       "masked": "Scientists are trying to ____.",
       "options": [
         "date-mcq-42",
-        "date-mcq-41",
-        "date-mcq-43",
-        "date-mcq-40",
-        "date-mcq-44",
-        "date-mcq-39"
+        "date-mcq-11",
+        "date-mcq-28",
+        "date-mcq-43"
       ],
       "explanation": "本句的「date the bones」指「判斷某件物品、遺骸或遺址來自哪個時期」。",
       "sentenceIndex": 36,
@@ -2058,12 +1924,10 @@ export default {
         "date the bones"
       ],
       "optionReasons": {
-        "date-mcq-42": "本句指「判斷某件物品、遺骸或遺址來自哪個時期」。",
-        "date-mcq-41": "「過時、不再適用」是「outdated」的用法，與本句語境不同。",
-        "date-mcq-43": "「已安排與某人進行浪漫性質的見面」是「28. have a date — 有約會」的用法，與本句語境不同。",
-        "date-mcq-40": "「過時／有年代感」是「dated」的用法，與本句語境不同。",
-        "date-mcq-44": "「與多名陌生人逐一作短時間交談，以尋找潛在約會對象的活動」是「33. speed dating — 快速約會」的用法，與本句語境不同。",
-        "date-mcq-39": "「椰棗蓉」是「date paste」的用法，與本句語境不同。"
+        "date-mcq-42": "本句的「date the bones」指「判斷某件物品、遺骸或遺址來自哪個時期」。",
+        "date-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-42"
     },
@@ -2075,11 +1939,9 @@ export default {
       "masked": "Scientists used several methods of ____ the site.",
       "options": [
         "date-mcq-19",
-        "date-mcq-18",
-        "date-mcq-20",
-        "date-mcq-17",
-        "date-mcq-21",
-        "date-mcq-16"
+        "date-mcq-04",
+        "date-reviewed-b6b91ad391",
+        "date-mcq-30"
       ],
       "explanation": "本句的「dating」指「年代測定」。",
       "sentenceIndex": 37,
@@ -2088,12 +1950,10 @@ export default {
         "dating"
       ],
       "optionReasons": {
-        "date-mcq-19": "本句指「年代測定」。",
-        "date-mcq-18": "「確定年代」是「date an object」的用法，與本句語境不同。",
-        "date-mcq-20": "「碳年代測定」是「carbon dating」的用法，與本句語境不同。",
-        "date-mcq-17": "「註明日期」是「date a document」的用法，與本句語境不同。",
-        "date-mcq-21": "「始於／追溯至」是「date from/back to」的用法，與本句語境不同。",
-        "date-mcq-16": "「年代」是「date (era)」的用法，與本句語境不同。"
+        "date-mcq-19": "本句的「dating」指「年代測定」。",
+        "date-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "date-reviewed-b6b91ad391": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-19"
     },
@@ -2105,11 +1965,9 @@ export default {
       "masked": "Accurate ____ of the remains is difficult.",
       "options": [
         "date-mcq-19",
-        "date-mcq-18",
-        "date-mcq-20",
-        "date-mcq-17",
-        "date-mcq-21",
-        "date-mcq-16"
+        "date-mcq-29",
+        "date-mcq-03",
+        "date-mcq-21"
       ],
       "explanation": "本句的「dating」指「年代測定」。",
       "sentenceIndex": 38,
@@ -2118,12 +1976,10 @@ export default {
         "dating"
       ],
       "optionReasons": {
-        "date-mcq-19": "本句指「年代測定」。",
-        "date-mcq-18": "「確定年代」是「date an object」的用法，與本句語境不同。",
-        "date-mcq-20": "「碳年代測定」是「carbon dating」的用法，與本句語境不同。",
-        "date-mcq-17": "「註明日期」是「date a document」的用法，與本句語境不同。",
-        "date-mcq-21": "「始於／追溯至」是「date from/back to」的用法，與本句語境不同。",
-        "date-mcq-16": "「年代」是「date (era)」的用法，與本句語境不同。"
+        "date-mcq-19": "本句的「dating」指「年代測定」。",
+        "date-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-19"
     },
@@ -2135,11 +1991,9 @@ export default {
       "masked": "Scientists used ____ to estimate the age of the object.",
       "options": [
         "date-mcq-20",
-        "date-mcq-19",
-        "date-mcq-21",
-        "date-mcq-18",
-        "date-mcq-22",
-        "date-mcq-17"
+        "date-mcq-08",
+        "date-mcq-12",
+        "date-mcq-27"
       ],
       "explanation": "本句的「carbon dating」指「碳年代測定」。",
       "sentenceIndex": 39,
@@ -2148,12 +2002,10 @@ export default {
         "carbon dating"
       ],
       "optionReasons": {
-        "date-mcq-20": "本句指「碳年代測定」。",
-        "date-mcq-19": "「年代測定」是「dating」的用法，與本句語境不同。",
-        "date-mcq-21": "「始於／追溯至」是「date from/back to」的用法，與本句語境不同。",
-        "date-mcq-18": "「確定年代」是「date an object」的用法，與本句語境不同。",
-        "date-mcq-22": "「早於」是「predate」的用法，與本句語境不同。",
-        "date-mcq-17": "「註明日期」是「date a document」的用法，與本句語境不同。"
+        "date-mcq-20": "本句的「carbon dating」指「碳年代測定」。",
+        "date-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-20"
     },
@@ -2165,11 +2017,9 @@ export default {
       "masked": "____ showed that the remains were thousands of years old.",
       "options": [
         "date-mcq-20",
-        "date-mcq-19",
+        "date-mcq-14",
         "date-mcq-21",
-        "date-mcq-18",
-        "date-mcq-22",
-        "date-mcq-17"
+        "date-mcq-11"
       ],
       "explanation": "本句的「Carbon dating」指「碳年代測定」。",
       "sentenceIndex": 40,
@@ -2178,12 +2028,10 @@ export default {
         "Carbon dating"
       ],
       "optionReasons": {
-        "date-mcq-20": "本句指「碳年代測定」。",
-        "date-mcq-19": "「年代測定」是「dating」的用法，與本句語境不同。",
-        "date-mcq-21": "「始於／追溯至」是「date from/back to」的用法，與本句語境不同。",
-        "date-mcq-18": "「確定年代」是「date an object」的用法，與本句語境不同。",
-        "date-mcq-22": "「早於」是「predate」的用法，與本句語境不同。",
-        "date-mcq-17": "「註明日期」是「date a document」的用法，與本句語境不同。"
+        "date-mcq-20": "本句的「Carbon dating」指「碳年代測定」。",
+        "date-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-20"
     },
@@ -2195,11 +2043,9 @@ export default {
       "masked": "The building ____ the nineteenth century.",
       "options": [
         "date-mcq-21",
-        "date-mcq-20",
+        "date-mcq-15",
         "date-mcq-22",
-        "date-mcq-19",
-        "date-mcq-23",
-        "date-mcq-18"
+        "date-mcq-36"
       ],
       "explanation": "本句的「dates from」指「始於／追溯至」。",
       "sentenceIndex": 41,
@@ -2208,12 +2054,10 @@ export default {
         "dates from"
       ],
       "optionReasons": {
-        "date-mcq-21": "本句指「始於／追溯至」。",
-        "date-mcq-20": "「碳年代測定」是「carbon dating」的用法，與本句語境不同。",
-        "date-mcq-22": "「早於」是「predate」的用法，與本句語境不同。",
-        "date-mcq-19": "「年代測定」是「dating」的用法，與本句語境不同。",
-        "date-mcq-23": "「晚於」是「postdate」的用法，與本句語境不同。",
-        "date-mcq-18": "「確定年代」是「date an object」的用法，與本句語境不同。"
+        "date-mcq-21": "本句的「dates from」指「始於／追溯至」。",
+        "date-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-21"
     },
@@ -2225,11 +2069,9 @@ export default {
       "masked": "The tradition ____ ancient times.",
       "options": [
         "date-mcq-21",
-        "date-mcq-20",
-        "date-mcq-22",
-        "date-mcq-19",
-        "date-mcq-23",
-        "date-mcq-18"
+        "date-mcq-25",
+        "date-mcq-28",
+        "date-mcq-16"
       ],
       "explanation": "本句的「dates back to」指「始於／追溯至」。",
       "sentenceIndex": 42,
@@ -2238,12 +2080,10 @@ export default {
         "dates back to"
       ],
       "optionReasons": {
-        "date-mcq-21": "本句指「始於／追溯至」。",
-        "date-mcq-20": "「碳年代測定」是「carbon dating」的用法，與本句語境不同。",
-        "date-mcq-22": "「早於」是「predate」的用法，與本句語境不同。",
-        "date-mcq-19": "「年代測定」是「dating」的用法，與本句語境不同。",
-        "date-mcq-23": "「晚於」是「postdate」的用法，與本句語境不同。",
-        "date-mcq-18": "「確定年代」是「date an object」的用法，與本句語境不同。"
+        "date-mcq-21": "本句的「dates back to」指「始於／追溯至」。",
+        "date-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-21"
     },
@@ -2255,11 +2095,9 @@ export default {
       "masked": "This temple ____ the railway.",
       "options": [
         "date-mcq-22",
-        "date-mcq-21",
-        "date-mcq-23",
-        "date-mcq-20",
-        "date-mcq-24",
-        "date-mcq-19"
+        "date-mcq-37",
+        "date-mcq-06",
+        "date-mcq-26"
       ],
       "explanation": "本句的「predates」指「早於」。",
       "sentenceIndex": 43,
@@ -2268,12 +2106,10 @@ export default {
         "predates"
       ],
       "optionReasons": {
-        "date-mcq-22": "本句指「早於」。",
-        "date-mcq-21": "「始於／追溯至」是「date from/back to」的用法，與本句語境不同。",
-        "date-mcq-23": "「晚於」是「postdate」的用法，與本句語境不同。",
-        "date-mcq-20": "「碳年代測定」是「carbon dating」的用法，與本句語境不同。",
-        "date-mcq-24": "「填未來日期」是「postdate a cheque」的用法，與本句語境不同。",
-        "date-mcq-19": "「年代測定」是「dating」的用法，與本句語境不同。"
+        "date-mcq-22": "本句的「predates」指「早於」。",
+        "date-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-22"
     },
@@ -2285,11 +2121,9 @@ export default {
       "masked": "The tradition ____ modern technology.",
       "options": [
         "date-mcq-22",
-        "date-mcq-21",
-        "date-mcq-23",
-        "date-mcq-20",
-        "date-mcq-24",
-        "date-mcq-19"
+        "date-mcq-29",
+        "date-mcq-08",
+        "date-mcq-35"
       ],
       "explanation": "本句的「predates」指「早於」。",
       "sentenceIndex": 44,
@@ -2298,12 +2132,10 @@ export default {
         "predates"
       ],
       "optionReasons": {
-        "date-mcq-22": "本句指「早於」。",
-        "date-mcq-21": "「始於／追溯至」是「date from/back to」的用法，與本句語境不同。",
-        "date-mcq-23": "「晚於」是「postdate」的用法，與本句語境不同。",
-        "date-mcq-20": "「碳年代測定」是「carbon dating」的用法，與本句語境不同。",
-        "date-mcq-24": "「填未來日期」是「postdate a cheque」的用法，與本句語境不同。",
-        "date-mcq-19": "「年代測定」是「dating」的用法，與本句語境不同。"
+        "date-mcq-22": "本句的「predates」指「早於」。",
+        "date-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-22"
     },
@@ -2315,11 +2147,9 @@ export default {
       "masked": "The document ____ the war.",
       "options": [
         "date-mcq-23",
-        "date-mcq-22",
-        "date-mcq-24",
-        "date-mcq-21",
-        "date-mcq-25",
-        "date-mcq-20"
+        "date-mcq-19",
+        "date-mcq-06",
+        "date-mcq-41"
       ],
       "explanation": "本句的「postdates」指「晚於」。",
       "sentenceIndex": 45,
@@ -2328,12 +2158,10 @@ export default {
         "postdates"
       ],
       "optionReasons": {
-        "date-mcq-23": "本句指「晚於」。",
-        "date-mcq-22": "「早於」是「predate」的用法，與本句語境不同。",
-        "date-mcq-24": "「填未來日期」是「postdate a cheque」的用法，與本句語境不同。",
-        "date-mcq-21": "「始於／追溯至」是「date from/back to」的用法，與本句語境不同。",
-        "date-mcq-25": "「未註日期的」是「undated」的用法，與本句語境不同。",
-        "date-mcq-20": "「碳年代測定」是「carbon dating」的用法，與本句語境不同。"
+        "date-mcq-23": "本句的「postdates」指「晚於」。",
+        "date-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-23"
     },
@@ -2345,11 +2173,9 @@ export default {
       "masked": "The building clearly ____ the surrounding ruins.",
       "options": [
         "date-mcq-23",
-        "date-mcq-22",
-        "date-mcq-24",
-        "date-mcq-21",
-        "date-mcq-25",
-        "date-mcq-20"
+        "date-mcq-28",
+        "date-mcq-13",
+        "date-mcq-32"
       ],
       "explanation": "本句的「postdates」指「晚於」。",
       "sentenceIndex": 46,
@@ -2358,12 +2184,10 @@ export default {
         "postdates"
       ],
       "optionReasons": {
-        "date-mcq-23": "本句指「晚於」。",
-        "date-mcq-22": "「早於」是「predate」的用法，與本句語境不同。",
-        "date-mcq-24": "「填未來日期」是「postdate a cheque」的用法，與本句語境不同。",
-        "date-mcq-21": "「始於／追溯至」是「date from/back to」的用法，與本句語境不同。",
-        "date-mcq-25": "「未註日期的」是「undated」的用法，與本句語境不同。",
-        "date-mcq-20": "「碳年代測定」是「carbon dating」的用法，與本句語境不同。"
+        "date-mcq-23": "本句的「postdates」指「晚於」。",
+        "date-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-23"
     },
@@ -2375,11 +2199,9 @@ export default {
       "masked": "He ____ to next Friday.",
       "options": [
         "date-mcq-24",
-        "date-mcq-23",
-        "date-mcq-25",
         "date-mcq-22",
-        "date-mcq-26",
-        "date-mcq-21"
+        "date-mcq-28",
+        "date-mcq-40"
       ],
       "explanation": "本句的「postdated the cheque」指「填未來日期」。",
       "sentenceIndex": 47,
@@ -2388,12 +2210,10 @@ export default {
         "postdated the cheque"
       ],
       "optionReasons": {
-        "date-mcq-24": "本句指「填未來日期」。",
-        "date-mcq-23": "「晚於」是「postdate」的用法，與本句語境不同。",
-        "date-mcq-25": "「未註日期的」是「undated」的用法，與本句語境不同。",
-        "date-mcq-22": "「早於」是「predate」的用法，與本句語境不同。",
-        "date-mcq-26": "「約會」是「a date」的用法，與本句語境不同。",
-        "date-mcq-21": "「始於／追溯至」是「date from/back to」的用法，與本句語境不同。"
+        "date-mcq-24": "本句的「postdated the cheque」指「填未來日期」。",
+        "date-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-24"
     },
@@ -2405,11 +2225,9 @@ export default {
       "masked": "The payment document was ____.",
       "options": [
         "date-mcq-24",
-        "date-mcq-23",
-        "date-mcq-25",
-        "date-mcq-22",
-        "date-mcq-26",
-        "date-mcq-21"
+        "date-mcq-27",
+        "date-mcq-32",
+        "date-mcq-20"
       ],
       "explanation": "本句的「postdated」指「填未來日期」。",
       "sentenceIndex": 48,
@@ -2418,12 +2236,10 @@ export default {
         "postdated"
       ],
       "optionReasons": {
-        "date-mcq-24": "本句指「填未來日期」。",
-        "date-mcq-23": "「晚於」是「postdate」的用法，與本句語境不同。",
-        "date-mcq-25": "「未註日期的」是「undated」的用法，與本句語境不同。",
-        "date-mcq-22": "「早於」是「predate」的用法，與本句語境不同。",
-        "date-mcq-26": "「約會」是「a date」的用法，與本句語境不同。",
-        "date-mcq-21": "「始於／追溯至」是「date from/back to」的用法，與本句語境不同。"
+        "date-mcq-24": "本句的「postdated」指「填未來日期」。",
+        "date-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-24"
     },
@@ -2435,11 +2251,9 @@ export default {
       "masked": "The letter was ____.",
       "options": [
         "date-mcq-25",
-        "date-mcq-24",
-        "date-mcq-26",
-        "date-mcq-23",
-        "date-mcq-27",
-        "date-mcq-22"
+        "date-mcq-43",
+        "date-mcq-22",
+        "date-mcq-27"
       ],
       "explanation": "本句的「undated」指「未註日期的」。",
       "sentenceIndex": 49,
@@ -2448,12 +2262,10 @@ export default {
         "undated"
       ],
       "optionReasons": {
-        "date-mcq-25": "本句指「未註日期的」。",
-        "date-mcq-24": "「填未來日期」是「postdate a cheque」的用法，與本句語境不同。",
-        "date-mcq-26": "「約會」是「a date」的用法，與本句語境不同。",
-        "date-mcq-23": "「晚於」是「postdate」的用法，與本句語境不同。",
-        "date-mcq-27": "「去約會」是「go on a date」的用法，與本句語境不同。",
-        "date-mcq-22": "「早於」是「predate」的用法，與本句語境不同。"
+        "date-mcq-25": "本句的「undated」指「未註日期的」。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-25"
     },
@@ -2465,11 +2277,9 @@ export default {
       "masked": "Researchers found several ____.",
       "options": [
         "date-mcq-25",
-        "date-mcq-24",
-        "date-mcq-26",
-        "date-mcq-23",
-        "date-mcq-27",
-        "date-mcq-22"
+        "date-mcq-43",
+        "date-mcq-30",
+        "date-mcq-40"
       ],
       "explanation": "本句的「undated documents」指「未註日期的」。",
       "sentenceIndex": 50,
@@ -2478,12 +2288,10 @@ export default {
         "undated documents"
       ],
       "optionReasons": {
-        "date-mcq-25": "本句指「未註日期的」。",
-        "date-mcq-24": "「填未來日期」是「postdate a cheque」的用法，與本句語境不同。",
-        "date-mcq-26": "「約會」是「a date」的用法，與本句語境不同。",
-        "date-mcq-23": "「晚於」是「postdate」的用法，與本句語境不同。",
-        "date-mcq-27": "「去約會」是「go on a date」的用法，與本句語境不同。",
-        "date-mcq-22": "「早於」是「predate」的用法，與本句語境不同。"
+        "date-mcq-25": "本句的「undated documents」指「未註日期的」。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-25"
     },
@@ -2495,11 +2303,9 @@ export default {
       "masked": "They went on a ____ last night.",
       "options": [
         "date-mcq-26",
-        "date-mcq-25",
-        "date-mcq-27",
-        "date-mcq-24",
-        "date-mcq-28",
-        "date-mcq-23"
+        "date-mcq-22",
+        "date-mcq-40",
+        "date-mcq-11"
       ],
       "explanation": "本句的「date」指「約會」。",
       "sentenceIndex": 51,
@@ -2508,12 +2314,10 @@ export default {
         "date"
       ],
       "optionReasons": {
-        "date-mcq-26": "本句指「約會」。",
-        "date-mcq-25": "「未註日期的」是「undated」的用法，與本句語境不同。",
-        "date-mcq-27": "「去約會」是「go on a date」的用法，與本句語境不同。",
-        "date-mcq-24": "「填未來日期」是「postdate a cheque」的用法，與本句語境不同。",
-        "date-mcq-28": "「約會對象」是「your date」的用法，與本句語境不同。",
-        "date-mcq-23": "「晚於」是「postdate」的用法，與本句語境不同。"
+        "date-mcq-26": "本句的「date」指「約會」。",
+        "date-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-26"
     },
@@ -2525,11 +2329,9 @@ export default {
       "masked": "He asked her out on a ____.",
       "options": [
         "date-mcq-26",
-        "date-mcq-25",
-        "date-mcq-27",
-        "date-mcq-24",
-        "date-mcq-28",
-        "date-mcq-23"
+        "date-mcq-08",
+        "date-mcq-38",
+        "date-mcq-43"
       ],
       "explanation": "本句的「date」指「約會」。",
       "sentenceIndex": 52,
@@ -2538,12 +2340,10 @@ export default {
         "date"
       ],
       "optionReasons": {
-        "date-mcq-26": "本句指「約會」。",
-        "date-mcq-25": "「未註日期的」是「undated」的用法，與本句語境不同。",
-        "date-mcq-27": "「去約會」是「go on a date」的用法，與本句語境不同。",
-        "date-mcq-24": "「填未來日期」是「postdate a cheque」的用法，與本句語境不同。",
-        "date-mcq-28": "「約會對象」是「your date」的用法，與本句語境不同。",
-        "date-mcq-23": "「晚於」是「postdate」的用法，與本句語境不同。"
+        "date-mcq-26": "本句的「date」指「約會」。",
+        "date-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-26"
     },
@@ -2555,11 +2355,9 @@ export default {
       "masked": "They ____ after work.",
       "options": [
         "date-mcq-27",
-        "date-mcq-26",
-        "date-mcq-28",
-        "date-mcq-25",
-        "date-mcq-29",
-        "date-mcq-24"
+        "date-mcq-32",
+        "date-mcq-01",
+        "date-mcq-13"
       ],
       "explanation": "本句的「went on a date」指「去約會」。",
       "sentenceIndex": 53,
@@ -2568,12 +2366,10 @@ export default {
         "went on a date"
       ],
       "optionReasons": {
-        "date-mcq-27": "本句指「去約會」。",
-        "date-mcq-26": "「約會」是「a date」的用法，與本句語境不同。",
-        "date-mcq-28": "「約會對象」是「your date」的用法，與本句語境不同。",
-        "date-mcq-25": "「未註日期的」是「undated」的用法，與本句語境不同。",
-        "date-mcq-29": "「相親式約會」是「blind date」的用法，與本句語境不同。",
-        "date-mcq-24": "「填未來日期」是「postdate a cheque」的用法，與本句語境不同。"
+        "date-mcq-27": "本句的「went on a date」指「去約會」。",
+        "date-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-27"
     },
@@ -2585,11 +2381,9 @@ export default {
       "masked": "I've never ____ there.",
       "options": [
         "date-mcq-27",
-        "date-mcq-26",
-        "date-mcq-28",
-        "date-mcq-25",
-        "date-mcq-29",
-        "date-mcq-24"
+        "date-mcq-11",
+        "date-mcq-23",
+        "date-mcq-36"
       ],
       "explanation": "本句的「been on a date」指「去約會」。",
       "sentenceIndex": 54,
@@ -2598,12 +2392,10 @@ export default {
         "been on a date"
       ],
       "optionReasons": {
-        "date-mcq-27": "本句指「去約會」。",
-        "date-mcq-26": "「約會」是「a date」的用法，與本句語境不同。",
-        "date-mcq-28": "「約會對象」是「your date」的用法，與本句語境不同。",
-        "date-mcq-25": "「未註日期的」是「undated」的用法，與本句語境不同。",
-        "date-mcq-29": "「相親式約會」是「blind date」的用法，與本句語境不同。",
-        "date-mcq-24": "「填未來日期」是「postdate a cheque」的用法，與本句語境不同。"
+        "date-mcq-27": "本句的「been on a date」指「去約會」。",
+        "date-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-27"
     },
@@ -2615,11 +2407,9 @@ export default {
       "masked": "I ____ tonight.",
       "options": [
         "date-mcq-43",
-        "date-mcq-42",
-        "date-mcq-44",
+        "date-mcq-36",
         "date-mcq-41",
-        "date-mcq-40",
-        "date-mcq-39"
+        "date-mcq-44"
       ],
       "explanation": "本句的「have a date」指「已安排與某人進行浪漫性質的見面」。",
       "sentenceIndex": 55,
@@ -2628,12 +2418,10 @@ export default {
         "have a date"
       ],
       "optionReasons": {
-        "date-mcq-43": "本句指「已安排與某人進行浪漫性質的見面」。",
-        "date-mcq-42": "「判斷某件物品、遺骸或遺址來自哪個時期」是「18. date something（確定年代） — 判定……的年代」的用法，與本句語境不同。",
-        "date-mcq-44": "「與多名陌生人逐一作短時間交談，以尋找潛在約會對象的活動」是「33. speed dating — 快速約會」的用法，與本句語境不同。",
-        "date-mcq-41": "「過時、不再適用」是「outdated」的用法，與本句語境不同。",
-        "date-mcq-40": "「過時／有年代感」是「dated」的用法，與本句語境不同。",
-        "date-mcq-39": "「椰棗蓉」是「date paste」的用法，與本句語境不同。"
+        "date-mcq-43": "本句的「have a date」指「已安排與某人進行浪漫性質的見面」。",
+        "date-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-43"
     },
@@ -2645,11 +2433,9 @@ export default {
       "masked": "She already ____.",
       "options": [
         "date-mcq-43",
-        "date-mcq-42",
-        "date-mcq-44",
-        "date-mcq-41",
-        "date-mcq-40",
-        "date-mcq-39"
+        "date-mcq-06",
+        "date-mcq-30",
+        "date-mcq-40"
       ],
       "explanation": "本句的「had a date」指「已安排與某人進行浪漫性質的見面」。",
       "sentenceIndex": 56,
@@ -2658,12 +2444,10 @@ export default {
         "had a date"
       ],
       "optionReasons": {
-        "date-mcq-43": "本句指「已安排與某人進行浪漫性質的見面」。",
-        "date-mcq-42": "「判斷某件物品、遺骸或遺址來自哪個時期」是「18. date something（確定年代） — 判定……的年代」的用法，與本句語境不同。",
-        "date-mcq-44": "「與多名陌生人逐一作短時間交談，以尋找潛在約會對象的活動」是「33. speed dating — 快速約會」的用法，與本句語境不同。",
-        "date-mcq-41": "「過時、不再適用」是「outdated」的用法，與本句語境不同。",
-        "date-mcq-40": "「過時／有年代感」是「dated」的用法，與本句語境不同。",
-        "date-mcq-39": "「椰棗蓉」是「date paste」的用法，與本句語境不同。"
+        "date-mcq-43": "本句的「had a date」指「已安排與某人進行浪漫性質的見面」。",
+        "date-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-43"
     },
@@ -2675,11 +2459,9 @@ export default {
       "masked": "Who's your ____ tonight?",
       "options": [
         "date-mcq-28",
-        "date-mcq-27",
-        "date-mcq-29",
-        "date-mcq-26",
-        "date-mcq-30",
-        "date-mcq-25"
+        "date-mcq-10",
+        "date-mcq-13",
+        "date-mcq-35"
       ],
       "explanation": "本句的「date」指「約會對象」。",
       "sentenceIndex": 57,
@@ -2688,12 +2470,10 @@ export default {
         "date"
       ],
       "optionReasons": {
-        "date-mcq-28": "本句指「約會對象」。",
-        "date-mcq-27": "「去約會」是「go on a date」的用法，與本句語境不同。",
-        "date-mcq-29": "「相親式約會」是「blind date」的用法，與本句語境不同。",
-        "date-mcq-26": "「約會」是「a date」的用法，與本句語境不同。",
-        "date-mcq-30": "「兩對一起約會」是「double date」的用法，與本句語境不同。",
-        "date-mcq-25": "「未註日期的」是「undated」的用法，與本句語境不同。"
+        "date-mcq-28": "本句的「date」指「約會對象」。",
+        "date-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-28"
     },
@@ -2705,11 +2485,9 @@ export default {
       "masked": "He arrived at the party with his ____.",
       "options": [
         "date-mcq-28",
-        "date-mcq-27",
-        "date-mcq-29",
-        "date-mcq-26",
-        "date-mcq-30",
-        "date-mcq-25"
+        "date-mcq-16",
+        "date-mcq-21",
+        "date-mcq-07"
       ],
       "explanation": "本句的「date」指「約會對象」。",
       "sentenceIndex": 58,
@@ -2718,12 +2496,10 @@ export default {
         "date"
       ],
       "optionReasons": {
-        "date-mcq-28": "本句指「約會對象」。",
-        "date-mcq-27": "「去約會」是「go on a date」的用法，與本句語境不同。",
-        "date-mcq-29": "「相親式約會」是「blind date」的用法，與本句語境不同。",
-        "date-mcq-26": "「約會」是「a date」的用法，與本句語境不同。",
-        "date-mcq-30": "「兩對一起約會」是「double date」的用法，與本句語境不同。",
-        "date-mcq-25": "「未註日期的」是「undated」的用法，與本句語境不同。"
+        "date-mcq-28": "本句的「date」指「約會對象」。",
+        "date-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-28"
     },
@@ -2735,11 +2511,9 @@ export default {
       "masked": "They met on a ____.",
       "options": [
         "date-mcq-29",
-        "date-mcq-28",
-        "date-mcq-30",
-        "date-mcq-27",
-        "date-mcq-31",
-        "date-mcq-26"
+        "date-mcq-06",
+        "date-mcq-43",
+        "date-mcq-23"
       ],
       "explanation": "本句的「blind date」指「相親式約會」。",
       "sentenceIndex": 59,
@@ -2748,12 +2522,10 @@ export default {
         "blind date"
       ],
       "optionReasons": {
-        "date-mcq-29": "本句指「相親式約會」。",
-        "date-mcq-28": "「約會對象」是「your date」的用法，與本句語境不同。",
-        "date-mcq-30": "「兩對一起約會」是「double date」的用法，與本句語境不同。",
-        "date-mcq-27": "「去約會」是「go on a date」的用法，與本句語境不同。",
-        "date-mcq-31": "「情侶約會之夜」是「date night」的用法，與本句語境不同。",
-        "date-mcq-26": "「約會」是「a date」的用法，與本句語境不同。"
+        "date-mcq-29": "本句的「blind date」指「相親式約會」。",
+        "date-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-29"
     },
@@ -2765,11 +2537,9 @@ export default {
       "masked": "My friend arranged a ____ for me.",
       "options": [
         "date-mcq-29",
-        "date-mcq-28",
-        "date-mcq-30",
-        "date-mcq-27",
-        "date-mcq-31",
-        "date-mcq-26"
+        "date-mcq-13",
+        "date-mcq-40",
+        "date-mcq-01"
       ],
       "explanation": "本句的「blind date」指「相親式約會」。",
       "sentenceIndex": 60,
@@ -2778,12 +2548,10 @@ export default {
         "blind date"
       ],
       "optionReasons": {
-        "date-mcq-29": "本句指「相親式約會」。",
-        "date-mcq-28": "「約會對象」是「your date」的用法，與本句語境不同。",
-        "date-mcq-30": "「兩對一起約會」是「double date」的用法，與本句語境不同。",
-        "date-mcq-27": "「去約會」是「go on a date」的用法，與本句語境不同。",
-        "date-mcq-31": "「情侶約會之夜」是「date night」的用法，與本句語境不同。",
-        "date-mcq-26": "「約會」是「a date」的用法，與本句語境不同。"
+        "date-mcq-29": "本句的「blind date」指「相親式約會」。",
+        "date-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-29"
     },
@@ -2795,11 +2563,9 @@ export default {
       "masked": "We went on a ____.",
       "options": [
         "date-mcq-30",
-        "date-mcq-29",
-        "date-mcq-31",
-        "date-mcq-28",
-        "date-mcq-32",
-        "date-mcq-27"
+        "date-mcq-17",
+        "date-mcq-43",
+        "date-mcq-16"
       ],
       "explanation": "本句的「double date」指「兩對一起約會」。",
       "sentenceIndex": 61,
@@ -2808,12 +2574,10 @@ export default {
         "double date"
       ],
       "optionReasons": {
-        "date-mcq-30": "本句指「兩對一起約會」。",
-        "date-mcq-29": "「相親式約會」是「blind date」的用法，與本句語境不同。",
-        "date-mcq-31": "「情侶約會之夜」是「date night」的用法，與本句語境不同。",
-        "date-mcq-28": "「約會對象」是「your date」的用法，與本句語境不同。",
-        "date-mcq-32": "「與某人交往」是「date someone」的用法，與本句語境不同。",
-        "date-mcq-27": "「去約會」是「go on a date」的用法，與本句語境不同。"
+        "date-mcq-30": "本句的「double date」指「兩對一起約會」。",
+        "date-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-30"
     },
@@ -2825,11 +2589,9 @@ export default {
       "masked": "They invited us on a ____.",
       "options": [
         "date-mcq-30",
-        "date-mcq-29",
-        "date-mcq-31",
-        "date-mcq-28",
-        "date-mcq-32",
-        "date-mcq-27"
+        "date-mcq-43",
+        "date-mcq-01",
+        "date-mcq-12"
       ],
       "explanation": "本句的「double date」指「兩對一起約會」。",
       "sentenceIndex": 62,
@@ -2838,12 +2600,10 @@ export default {
         "double date"
       ],
       "optionReasons": {
-        "date-mcq-30": "本句指「兩對一起約會」。",
-        "date-mcq-29": "「相親式約會」是「blind date」的用法，與本句語境不同。",
-        "date-mcq-31": "「情侶約會之夜」是「date night」的用法，與本句語境不同。",
-        "date-mcq-28": "「約會對象」是「your date」的用法，與本句語境不同。",
-        "date-mcq-32": "「與某人交往」是「date someone」的用法，與本句語境不同。",
-        "date-mcq-27": "「去約會」是「go on a date」的用法，與本句語境不同。"
+        "date-mcq-30": "本句的「double date」指「兩對一起約會」。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-30"
     },
@@ -2855,11 +2615,9 @@ export default {
       "masked": "Friday is our ____.",
       "options": [
         "date-mcq-31",
-        "date-mcq-30",
         "date-mcq-32",
-        "date-mcq-29",
-        "date-mcq-33",
-        "date-mcq-28"
+        "date-mcq-36",
+        "date-mcq-15"
       ],
       "explanation": "本句的「date night」指「情侶約會之夜」。",
       "sentenceIndex": 63,
@@ -2868,12 +2626,10 @@ export default {
         "date night"
       ],
       "optionReasons": {
-        "date-mcq-31": "本句指「情侶約會之夜」。",
-        "date-mcq-30": "「兩對一起約會」是「double date」的用法，與本句語境不同。",
-        "date-mcq-32": "「與某人交往」是「date someone」的用法，與本句語境不同。",
-        "date-mcq-29": "「相親式約會」是「blind date」的用法，與本句語境不同。",
-        "date-mcq-33": "「約會；拍拖」是「dating」的用法，與本句語境不同。",
-        "date-mcq-28": "「約會對象」是「your date」的用法，與本句語境不同。"
+        "date-mcq-31": "本句的「date night」指「情侶約會之夜」。",
+        "date-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-31"
     },
@@ -2885,11 +2641,9 @@ export default {
       "masked": "They try to have a ____ once a month.",
       "options": [
         "date-mcq-31",
-        "date-mcq-30",
-        "date-mcq-32",
-        "date-mcq-29",
-        "date-mcq-33",
-        "date-mcq-28"
+        "date-mcq-17",
+        "date-mcq-43",
+        "date-mcq-40"
       ],
       "explanation": "本句的「date night」指「情侶約會之夜」。",
       "sentenceIndex": 64,
@@ -2898,12 +2652,10 @@ export default {
         "date night"
       ],
       "optionReasons": {
-        "date-mcq-31": "本句指「情侶約會之夜」。",
-        "date-mcq-30": "「兩對一起約會」是「double date」的用法，與本句語境不同。",
-        "date-mcq-32": "「與某人交往」是「date someone」的用法，與本句語境不同。",
-        "date-mcq-29": "「相親式約會」是「blind date」的用法，與本句語境不同。",
-        "date-mcq-33": "「約會；拍拖」是「dating」的用法，與本句語境不同。",
-        "date-mcq-28": "「約會對象」是「your date」的用法，與本句語境不同。"
+        "date-mcq-31": "本句的「date night」指「情侶約會之夜」。",
+        "date-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-31"
     },
@@ -2915,11 +2667,9 @@ export default {
       "masked": "They met at a ____ event.",
       "options": [
         "date-mcq-44",
-        "date-mcq-43",
-        "date-mcq-42",
-        "date-mcq-41",
-        "date-mcq-40",
-        "date-mcq-39"
+        "date-mcq-11",
+        "date-mcq-23",
+        "date-mcq-13"
       ],
       "explanation": "本句的「speed-dating」指「與多名陌生人逐一作短時間交談，以尋找潛在約會對象的活動」。",
       "sentenceIndex": 65,
@@ -2928,12 +2678,10 @@ export default {
         "speed-dating"
       ],
       "optionReasons": {
-        "date-mcq-44": "本句指「與多名陌生人逐一作短時間交談，以尋找潛在約會對象的活動」。",
-        "date-mcq-43": "「已安排與某人進行浪漫性質的見面」是「28. have a date — 有約會」的用法，與本句語境不同。",
-        "date-mcq-42": "「判斷某件物品、遺骸或遺址來自哪個時期」是「18. date something（確定年代） — 判定……的年代」的用法，與本句語境不同。",
-        "date-mcq-41": "「過時、不再適用」是「outdated」的用法，與本句語境不同。",
-        "date-mcq-40": "「過時／有年代感」是「dated」的用法，與本句語境不同。",
-        "date-mcq-39": "「椰棗蓉」是「date paste」的用法，與本句語境不同。"
+        "date-mcq-44": "本句的「speed-dating」指「與多名陌生人逐一作短時間交談，以尋找潛在約會對象的活動」。",
+        "date-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-44"
     },
@@ -2945,11 +2693,9 @@ export default {
       "masked": "____ lets people meet many potential partners quickly.",
       "options": [
         "date-mcq-44",
-        "date-mcq-43",
-        "date-mcq-42",
-        "date-mcq-41",
-        "date-mcq-40",
-        "date-mcq-39"
+        "date-mcq-22",
+        "date-mcq-17",
+        "date-mcq-36"
       ],
       "explanation": "本句的「Speed dating」指「與多名陌生人逐一作短時間交談，以尋找潛在約會對象的活動」。",
       "sentenceIndex": 66,
@@ -2958,12 +2704,10 @@ export default {
         "Speed dating"
       ],
       "optionReasons": {
-        "date-mcq-44": "本句指「與多名陌生人逐一作短時間交談，以尋找潛在約會對象的活動」。",
-        "date-mcq-43": "「已安排與某人進行浪漫性質的見面」是「28. have a date — 有約會」的用法，與本句語境不同。",
-        "date-mcq-42": "「判斷某件物品、遺骸或遺址來自哪個時期」是「18. date something（確定年代） — 判定……的年代」的用法，與本句語境不同。",
-        "date-mcq-41": "「過時、不再適用」是「outdated」的用法，與本句語境不同。",
-        "date-mcq-40": "「過時／有年代感」是「dated」的用法，與本句語境不同。",
-        "date-mcq-39": "「椰棗蓉」是「date paste」的用法，與本句語境不同。"
+        "date-mcq-44": "本句的「Speed dating」指「與多名陌生人逐一作短時間交談，以尋找潛在約會對象的活動」。",
+        "date-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-44"
     },
@@ -2975,11 +2719,9 @@ export default {
       "masked": "They ____ for two years.",
       "options": [
         "date-mcq-32",
-        "date-mcq-31",
-        "date-mcq-33",
-        "date-mcq-30",
-        "date-mcq-34",
-        "date-mcq-29"
+        "date-mcq-24",
+        "date-mcq-20",
+        "date-mcq-23"
       ],
       "explanation": "本句的「dated」指「與某人交往」。",
       "sentenceIndex": 67,
@@ -2988,12 +2730,10 @@ export default {
         "dated"
       ],
       "optionReasons": {
-        "date-mcq-32": "本句指「與某人交往」。",
-        "date-mcq-31": "「情侶約會之夜」是「date night」的用法，與本句語境不同。",
-        "date-mcq-33": "「約會；拍拖」是「dating」的用法，與本句語境不同。",
-        "date-mcq-30": "「兩對一起約會」是「double date」的用法，與本句語境不同。",
-        "date-mcq-34": "「椰棗」是「date (fruit)」的用法，與本句語境不同。",
-        "date-mcq-29": "「相親式約會」是「blind date」的用法，與本句語境不同。"
+        "date-mcq-32": "本句的「dated」指「與某人交往」。",
+        "date-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-32"
     },
@@ -3005,11 +2745,9 @@ export default {
       "masked": "She is ____ from work.",
       "options": [
         "date-mcq-32",
-        "date-mcq-31",
+        "date-mcq-16",
         "date-mcq-33",
-        "date-mcq-30",
-        "date-mcq-34",
-        "date-mcq-29"
+        "date-mcq-04"
       ],
       "explanation": "本句的「dating someone」指「與某人交往」。",
       "sentenceIndex": 68,
@@ -3018,12 +2756,10 @@ export default {
         "dating someone"
       ],
       "optionReasons": {
-        "date-mcq-32": "本句指「與某人交往」。",
-        "date-mcq-31": "「情侶約會之夜」是「date night」的用法，與本句語境不同。",
-        "date-mcq-33": "「約會；拍拖」是「dating」的用法，與本句語境不同。",
-        "date-mcq-30": "「兩對一起約會」是「double date」的用法，與本句語境不同。",
-        "date-mcq-34": "「椰棗」是「date (fruit)」的用法，與本句語境不同。",
-        "date-mcq-29": "「相親式約會」是「blind date」的用法，與本句語境不同。"
+        "date-mcq-32": "本句的「dating someone」指「與某人交往」。",
+        "date-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-32"
     },
@@ -3035,11 +2771,9 @@ export default {
       "masked": "Online ____ has become common.",
       "options": [
         "date-mcq-33",
-        "date-mcq-32",
-        "date-mcq-34",
-        "date-mcq-31",
-        "date-mcq-35",
-        "date-mcq-30"
+        "date-mcq-07",
+        "date-mcq-13",
+        "date-mcq-41"
       ],
       "explanation": "本句的「dating」指「約會；拍拖」。",
       "sentenceIndex": 69,
@@ -3048,12 +2782,10 @@ export default {
         "dating"
       ],
       "optionReasons": {
-        "date-mcq-33": "本句指「約會；拍拖」。",
-        "date-mcq-32": "「與某人交往」是「date someone」的用法，與本句語境不同。",
-        "date-mcq-34": "「椰棗」是「date (fruit)」的用法，與本句語境不同。",
-        "date-mcq-31": "「情侶約會之夜」是「date night」的用法，與本句語境不同。",
-        "date-mcq-35": "「海棗樹」是「date palm」的用法，與本句語境不同。",
-        "date-mcq-30": "「兩對一起約會」是「double date」的用法，與本句語境不同。"
+        "date-mcq-33": "本句的「dating」指「約會；拍拖」。",
+        "date-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-33"
     },
@@ -3065,11 +2797,9 @@ export default {
       "masked": "They started ____ last year.",
       "options": [
         "date-mcq-33",
-        "date-mcq-32",
-        "date-mcq-34",
-        "date-mcq-31",
-        "date-mcq-35",
-        "date-mcq-30"
+        "date-mcq-10",
+        "date-mcq-22",
+        "date-mcq-37"
       ],
       "explanation": "本句的「dating」指「約會；拍拖」。",
       "sentenceIndex": 70,
@@ -3078,74 +2808,68 @@ export default {
         "dating"
       ],
       "optionReasons": {
-        "date-mcq-33": "本句指「約會；拍拖」。",
-        "date-mcq-32": "「與某人交往」是「date someone」的用法，與本句語境不同。",
-        "date-mcq-34": "「椰棗」是「date (fruit)」的用法，與本句語境不同。",
-        "date-mcq-31": "「情侶約會之夜」是「date night」的用法，與本句語境不同。",
-        "date-mcq-35": "「海棗樹」是「date palm」的用法，與本句語境不同。",
-        "date-mcq-30": "「兩對一起約會」是「double date」的用法，與本句語境不同。"
+        "date-mcq-33": "本句的「dating」指「約會；拍拖」。",
+        "date-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-33"
     },
     {
       "id": "date-36-0",
-      "sense": "date-mcq-01",
+      "sense": "date-reviewed-b6b91ad391",
       "en": "She added chopped dates to the cake.",
       "zh": "她在蛋糕裏加入了切碎的椰棗。",
       "masked": "She added chopped ____ to the cake.",
       "options": [
-        "date-mcq-01",
-        "date-mcq-02",
-        "date-mcq-03",
-        "date-mcq-04",
-        "date-mcq-05",
-        "date-mcq-06"
+        "date-reviewed-b6b91ad391",
+        "date-mcq-30",
+        "date-mcq-16",
+        "date-mcq-04"
       ],
-      "explanation": "本句的「dates」指「日期」。",
+      "explanation": "對照完整句子：「她在蛋糕裏加入了切碎的椰棗。」。這裡的「dates」表示「海棗樹所結的甜味果實，通常呈啡色，可鮮食或乾製」。",
       "sentenceIndex": 71,
       "sourcePractice": 1,
       "targets": [
         "dates"
       ],
       "optionReasons": {
-        "date-mcq-01": "本句指「日期」。",
-        "date-mcq-02": "「歷史日期／年份」是「historical date」的用法，與本句語境不同。",
-        "date-mcq-03": "「今天日期」是「today's date」的用法，與本句語境不同。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。"
+        "date-reviewed-b6b91ad391": "對照完整句子：「她在蛋糕裏加入了切碎的椰棗。」。這裡的「dates」表示「海棗樹所結的甜味果實，通常呈啡色，可鮮食或乾製」。",
+        "date-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "date-mcq-01"
+      "correctOption": "date-reviewed-b6b91ad391",
+      "previousCorrectOption": "date-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "date-36-1",
-      "sense": "date-mcq-01",
+      "sense": "date-reviewed-b6b91ad391",
       "en": "Dates are naturally very sweet.",
       "zh": "椰棗天然非常甜。",
       "masked": "____ are naturally very sweet.",
       "options": [
-        "date-mcq-01",
-        "date-mcq-02",
-        "date-mcq-03",
-        "date-mcq-04",
-        "date-mcq-05",
+        "date-reviewed-b6b91ad391",
+        "date-mcq-20",
+        "date-mcq-26",
         "date-mcq-06"
       ],
-      "explanation": "本句的「Dates」指「日期」。",
+      "explanation": "對照完整句子：「椰棗天然非常甜。」。這裡的「Dates」表示「海棗樹所結的甜味果實，通常呈啡色，可鮮食或乾製」。",
       "sentenceIndex": 72,
       "sourcePractice": 2,
       "targets": [
         "Dates"
       ],
       "optionReasons": {
-        "date-mcq-01": "本句指「日期」。",
-        "date-mcq-02": "「歷史日期／年份」是「historical date」的用法，與本句語境不同。",
-        "date-mcq-03": "「今天日期」是「today's date」的用法，與本句語境不同。",
-        "date-mcq-04": "「出生日期」是「date of birth」的用法，與本句語境不同。",
-        "date-mcq-05": "「簽發日期」是「date of issue」的用法，與本句語境不同。",
-        "date-mcq-06": "「生效日期」是「effective date」的用法，與本句語境不同。"
+        "date-reviewed-b6b91ad391": "對照完整句子：「椰棗天然非常甜。」。這裡的「Dates」表示「海棗樹所結的甜味果實，通常呈啡色，可鮮食或乾製」。",
+        "date-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "date-mcq-01"
+      "correctOption": "date-reviewed-b6b91ad391",
+      "previousCorrectOption": "date-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "date-37-0",
@@ -3155,11 +2879,9 @@ export default {
       "masked": "____ grow well in hot, dry regions.",
       "options": [
         "date-mcq-35",
-        "date-mcq-34",
-        "date-mcq-36",
-        "date-mcq-33",
-        "date-mcq-37",
-        "date-mcq-32"
+        "date-mcq-30",
+        "date-mcq-22",
+        "date-mcq-23"
       ],
       "explanation": "本句的「Date palms」指「海棗樹」。",
       "sentenceIndex": 73,
@@ -3168,12 +2890,10 @@ export default {
         "Date palms"
       ],
       "optionReasons": {
-        "date-mcq-35": "本句指「海棗樹」。",
-        "date-mcq-34": "「椰棗」是「date (fruit)」的用法，與本句語境不同。",
-        "date-mcq-36": "「乾椰棗」是「dried dates」的用法，與本句語境不同。",
-        "date-mcq-33": "「約會；拍拖」是「dating」的用法，與本句語境不同。",
-        "date-mcq-37": "「去核椰棗」是「pitted dates」的用法，與本句語境不同。",
-        "date-mcq-32": "「與某人交往」是「date someone」的用法，與本句語境不同。"
+        "date-mcq-35": "本句的「Date palms」指「海棗樹」。",
+        "date-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-35"
     },
@@ -3185,11 +2905,9 @@ export default {
       "masked": "The farm grows hundreds of ____.",
       "options": [
         "date-mcq-35",
-        "date-mcq-34",
-        "date-mcq-36",
-        "date-mcq-33",
-        "date-mcq-37",
-        "date-mcq-32"
+        "date-mcq-12",
+        "date-mcq-13",
+        "date-mcq-11"
       ],
       "explanation": "本句的「date palms」指「海棗樹」。",
       "sentenceIndex": 74,
@@ -3198,12 +2916,10 @@ export default {
         "date palms"
       ],
       "optionReasons": {
-        "date-mcq-35": "本句指「海棗樹」。",
-        "date-mcq-34": "「椰棗」是「date (fruit)」的用法，與本句語境不同。",
-        "date-mcq-36": "「乾椰棗」是「dried dates」的用法，與本句語境不同。",
-        "date-mcq-33": "「約會；拍拖」是「dating」的用法，與本句語境不同。",
-        "date-mcq-37": "「去核椰棗」是「pitted dates」的用法，與本句語境不同。",
-        "date-mcq-32": "「與某人交往」是「date someone」的用法，與本句語境不同。"
+        "date-mcq-35": "本句的「date palms」指「海棗樹」。",
+        "date-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-35"
     },
@@ -3215,10 +2931,8 @@ export default {
       "masked": "We packed some ____ for the trip.",
       "options": [
         "date-mcq-36",
-        "date-mcq-35",
-        "date-mcq-37",
-        "date-mcq-34",
-        "date-mcq-38",
+        "date-mcq-01",
+        "date-mcq-41",
         "date-mcq-33"
       ],
       "explanation": "本句的「dried dates」指「乾椰棗」。",
@@ -3228,12 +2942,10 @@ export default {
         "dried dates"
       ],
       "optionReasons": {
-        "date-mcq-36": "本句指「乾椰棗」。",
-        "date-mcq-35": "「海棗樹」是「date palm」的用法，與本句語境不同。",
-        "date-mcq-37": "「去核椰棗」是「pitted dates」的用法，與本句語境不同。",
-        "date-mcq-34": "「椰棗」是「date (fruit)」的用法，與本句語境不同。",
-        "date-mcq-38": "「椰棗糖漿」是「date syrup」的用法，與本句語境不同。",
-        "date-mcq-33": "「約會；拍拖」是「dating」的用法，與本句語境不同。"
+        "date-mcq-36": "本句的「dried dates」指「乾椰棗」。",
+        "date-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-36"
     },
@@ -3245,11 +2957,9 @@ export default {
       "masked": "____ are often used in desserts.",
       "options": [
         "date-mcq-36",
-        "date-mcq-35",
-        "date-mcq-37",
-        "date-mcq-34",
-        "date-mcq-38",
-        "date-mcq-33"
+        "date-mcq-04",
+        "date-mcq-26",
+        "date-mcq-21"
       ],
       "explanation": "本句的「Dried dates」指「乾椰棗」。",
       "sentenceIndex": 76,
@@ -3258,12 +2968,10 @@ export default {
         "Dried dates"
       ],
       "optionReasons": {
-        "date-mcq-36": "本句指「乾椰棗」。",
-        "date-mcq-35": "「海棗樹」是「date palm」的用法，與本句語境不同。",
-        "date-mcq-37": "「去核椰棗」是「pitted dates」的用法，與本句語境不同。",
-        "date-mcq-34": "「椰棗」是「date (fruit)」的用法，與本句語境不同。",
-        "date-mcq-38": "「椰棗糖漿」是「date syrup」的用法，與本句語境不同。",
-        "date-mcq-33": "「約會；拍拖」是「dating」的用法，與本句語境不同。"
+        "date-mcq-36": "本句的「Dried dates」指「乾椰棗」。",
+        "date-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-36"
     },
@@ -3275,11 +2983,9 @@ export default {
       "masked": "Use ____ for the recipe.",
       "options": [
         "date-mcq-37",
-        "date-mcq-36",
-        "date-mcq-38",
-        "date-mcq-35",
-        "date-mcq-39",
-        "date-mcq-34"
+        "date-mcq-20",
+        "date-mcq-23",
+        "date-mcq-09"
       ],
       "explanation": "本句的「pitted dates」指「去核椰棗」。",
       "sentenceIndex": 77,
@@ -3288,12 +2994,10 @@ export default {
         "pitted dates"
       ],
       "optionReasons": {
-        "date-mcq-37": "本句指「去核椰棗」。",
-        "date-mcq-36": "「乾椰棗」是「dried dates」的用法，與本句語境不同。",
-        "date-mcq-38": "「椰棗糖漿」是「date syrup」的用法，與本句語境不同。",
-        "date-mcq-35": "「海棗樹」是「date palm」的用法，與本句語境不同。",
-        "date-mcq-39": "「椰棗蓉」是「date paste」的用法，與本句語境不同。",
-        "date-mcq-34": "「椰棗」是「date (fruit)」的用法，與本句語境不同。"
+        "date-mcq-37": "本句的「pitted dates」指「去核椰棗」。",
+        "date-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-37"
     },
@@ -3305,11 +3009,9 @@ export default {
       "masked": "She bought a bag of ____.",
       "options": [
         "date-mcq-37",
-        "date-mcq-36",
-        "date-mcq-38",
-        "date-mcq-35",
-        "date-mcq-39",
-        "date-mcq-34"
+        "date-mcq-42",
+        "date-mcq-22",
+        "date-mcq-13"
       ],
       "explanation": "本句的「pitted dates」指「去核椰棗」。",
       "sentenceIndex": 78,
@@ -3318,12 +3020,10 @@ export default {
         "pitted dates"
       ],
       "optionReasons": {
-        "date-mcq-37": "本句指「去核椰棗」。",
-        "date-mcq-36": "「乾椰棗」是「dried dates」的用法，與本句語境不同。",
-        "date-mcq-38": "「椰棗糖漿」是「date syrup」的用法，與本句語境不同。",
-        "date-mcq-35": "「海棗樹」是「date palm」的用法，與本句語境不同。",
-        "date-mcq-39": "「椰棗蓉」是「date paste」的用法，與本句語境不同。",
-        "date-mcq-34": "「椰棗」是「date (fruit)」的用法，與本句語境不同。"
+        "date-mcq-37": "本句的「pitted dates」指「去核椰棗」。",
+        "date-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-37"
     },
@@ -3335,11 +3035,9 @@ export default {
       "masked": "The cake is sweetened with ____.",
       "options": [
         "date-mcq-38",
-        "date-mcq-37",
-        "date-mcq-39",
-        "date-mcq-36",
-        "date-mcq-40",
-        "date-mcq-35"
+        "date-mcq-10",
+        "date-mcq-31",
+        "date-mcq-43"
       ],
       "explanation": "本句的「date syrup」指「椰棗糖漿」。",
       "sentenceIndex": 79,
@@ -3348,12 +3046,10 @@ export default {
         "date syrup"
       ],
       "optionReasons": {
-        "date-mcq-38": "本句指「椰棗糖漿」。",
-        "date-mcq-37": "「去核椰棗」是「pitted dates」的用法，與本句語境不同。",
-        "date-mcq-39": "「椰棗蓉」是「date paste」的用法，與本句語境不同。",
-        "date-mcq-36": "「乾椰棗」是「dried dates」的用法，與本句語境不同。",
-        "date-mcq-40": "「過時／有年代感」是「dated」的用法，與本句語境不同。",
-        "date-mcq-35": "「海棗樹」是「date palm」的用法，與本句語境不同。"
+        "date-mcq-38": "本句的「date syrup」指「椰棗糖漿」。",
+        "date-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-38"
     },
@@ -3365,11 +3061,9 @@ export default {
       "masked": "Mix the nuts with ____.",
       "options": [
         "date-mcq-38",
-        "date-mcq-37",
-        "date-mcq-39",
-        "date-mcq-36",
         "date-mcq-40",
-        "date-mcq-35"
+        "date-mcq-25",
+        "date-mcq-12"
       ],
       "explanation": "本句的「date paste」指「椰棗糖漿」。",
       "sentenceIndex": 80,
@@ -3378,12 +3072,10 @@ export default {
         "date paste"
       ],
       "optionReasons": {
-        "date-mcq-38": "本句指「椰棗糖漿」。",
-        "date-mcq-37": "「去核椰棗」是「pitted dates」的用法，與本句語境不同。",
-        "date-mcq-39": "「椰棗蓉」是「date paste」的用法，與本句語境不同。",
-        "date-mcq-36": "「乾椰棗」是「dried dates」的用法，與本句語境不同。",
-        "date-mcq-40": "「過時／有年代感」是「dated」的用法，與本句語境不同。",
-        "date-mcq-35": "「海棗樹」是「date palm」的用法，與本句語境不同。"
+        "date-mcq-38": "本句的「date paste」指「椰棗糖漿」。",
+        "date-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-38"
     },
@@ -3395,11 +3087,9 @@ export default {
       "masked": "The design looks rather ____ now.",
       "options": [
         "date-mcq-40",
-        "date-mcq-39",
-        "date-mcq-41",
-        "date-mcq-38",
-        "date-mcq-42",
-        "date-mcq-37"
+        "date-mcq-05",
+        "date-mcq-43",
+        "date-mcq-27"
       ],
       "explanation": "本句的「dated」指「過時／有年代感」。",
       "sentenceIndex": 81,
@@ -3408,12 +3098,10 @@ export default {
         "dated"
       ],
       "optionReasons": {
-        "date-mcq-40": "本句指「過時／有年代感」。",
-        "date-mcq-39": "「椰棗蓉」是「date paste」的用法，與本句語境不同。",
-        "date-mcq-41": "「過時、不再適用」是「outdated」的用法，與本句語境不同。",
-        "date-mcq-38": "「椰棗糖漿」是「date syrup」的用法，與本句語境不同。",
-        "date-mcq-42": "「判斷某件物品、遺骸或遺址來自哪個時期」是「18. date something（確定年代） — 判定……的年代」的用法，與本句語境不同。",
-        "date-mcq-37": "「去核椰棗」是「pitted dates」的用法，與本句語境不同。"
+        "date-mcq-40": "本句的「dated」指「過時／有年代感」。",
+        "date-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-40"
     },
@@ -3425,11 +3113,9 @@ export default {
       "masked": "Some of the language in the book feels ____.",
       "options": [
         "date-mcq-40",
-        "date-mcq-39",
-        "date-mcq-41",
-        "date-mcq-38",
-        "date-mcq-42",
-        "date-mcq-37"
+        "date-mcq-23",
+        "date-mcq-21",
+        "date-mcq-31"
       ],
       "explanation": "本句的「dated」指「過時／有年代感」。",
       "sentenceIndex": 82,
@@ -3438,12 +3124,10 @@ export default {
         "dated"
       ],
       "optionReasons": {
-        "date-mcq-40": "本句指「過時／有年代感」。",
-        "date-mcq-39": "「椰棗蓉」是「date paste」的用法，與本句語境不同。",
-        "date-mcq-41": "「過時、不再適用」是「outdated」的用法，與本句語境不同。",
-        "date-mcq-38": "「椰棗糖漿」是「date syrup」的用法，與本句語境不同。",
-        "date-mcq-42": "「判斷某件物品、遺骸或遺址來自哪個時期」是「18. date something（確定年代） — 判定……的年代」的用法，與本句語境不同。",
-        "date-mcq-37": "「去核椰棗」是「pitted dates」的用法，與本句語境不同。"
+        "date-mcq-40": "本句的「dated」指「過時／有年代感」。",
+        "date-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-40"
     },
@@ -3455,11 +3139,9 @@ export default {
       "masked": "The software is ____.",
       "options": [
         "date-mcq-41",
-        "date-mcq-40",
-        "date-mcq-42",
-        "date-mcq-39",
-        "date-mcq-43",
-        "date-mcq-38"
+        "date-mcq-24",
+        "date-mcq-28",
+        "date-mcq-23"
       ],
       "explanation": "本句的「outdated」指「過時、不再適用」。",
       "sentenceIndex": 83,
@@ -3468,12 +3150,10 @@ export default {
         "outdated"
       ],
       "optionReasons": {
-        "date-mcq-41": "本句指「過時、不再適用」。",
-        "date-mcq-40": "「過時／有年代感」是「dated」的用法，與本句語境不同。",
-        "date-mcq-42": "「判斷某件物品、遺骸或遺址來自哪個時期」是「18. date something（確定年代） — 判定……的年代」的用法，與本句語境不同。",
-        "date-mcq-39": "「椰棗蓉」是「date paste」的用法，與本句語境不同。",
-        "date-mcq-43": "「已安排與某人進行浪漫性質的見面」是「28. have a date — 有約會」的用法，與本句語境不同。",
-        "date-mcq-38": "「椰棗糖漿」是「date syrup」的用法，與本句語境不同。"
+        "date-mcq-41": "本句的「outdated」指「過時、不再適用」。",
+        "date-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-41"
     },
@@ -3485,11 +3165,9 @@ export default {
       "masked": "That teaching method is now considered ____.",
       "options": [
         "date-mcq-41",
-        "date-mcq-40",
-        "date-mcq-42",
-        "date-mcq-39",
-        "date-mcq-43",
-        "date-mcq-38"
+        "date-mcq-25",
+        "date-mcq-38",
+        "date-mcq-26"
       ],
       "explanation": "本句的「outdated」指「過時、不再適用」。",
       "sentenceIndex": 84,
@@ -3498,12 +3176,10 @@ export default {
         "outdated"
       ],
       "optionReasons": {
-        "date-mcq-41": "本句指「過時、不再適用」。",
-        "date-mcq-40": "「過時／有年代感」是「dated」的用法，與本句語境不同。",
-        "date-mcq-42": "「判斷某件物品、遺骸或遺址來自哪個時期」是「18. date something（確定年代） — 判定……的年代」的用法，與本句語境不同。",
-        "date-mcq-39": "「椰棗蓉」是「date paste」的用法，與本句語境不同。",
-        "date-mcq-43": "「已安排與某人進行浪漫性質的見面」是「28. have a date — 有約會」的用法，與本句語境不同。",
-        "date-mcq-38": "「椰棗糖漿」是「date syrup」的用法，與本句語境不同。"
+        "date-mcq-41": "本句的「outdated」指「過時、不再適用」。",
+        "date-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "date-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "date-mcq-41"
     }
@@ -3515,5 +3191,7 @@ export default {
     "sha256": "6953452dae6f71d067ae821a830bdfd2e62aed6f7871ca9e1f92f5e9657edbef",
     "pages": 30
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

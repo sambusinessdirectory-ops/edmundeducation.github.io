@@ -187,11 +187,7 @@ export default {
       "masked": "Gardening helps her ____.",
       "options": [
         "unwind-mcq-01",
-        "unwind-mcq-02",
-        "unwind-mcq-03",
-        "unwind-mcq-04",
-        "unwind-mcq-05",
-        "unwind-mcq-06"
+        "unwind-mcq-02"
       ],
       "explanation": "本句的「unwind」指「在忙碌、緊張或受壓之後逐漸放鬆身心」。",
       "sentenceIndex": 0,
@@ -200,12 +196,8 @@ export default {
         "unwind"
       ],
       "optionReasons": {
-        "unwind-mcq-01": "本句指「在忙碌、緊張或受壓之後逐漸放鬆身心」。",
-        "unwind-mcq-02": "「把原本捲起、纏繞或扭在一起的東西逐步解開」與本句語境不同。",
-        "unwind-mcq-03": "「原本捲起／纏繞的東西自行鬆開、散開」與本句語境不同。",
-        "unwind-mcq-04": "「把纏在某人／某物上的帶狀物逐步解開或取下」與本句語境不同。",
-        "unwind-mcq-05": "「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」與本句語境不同。",
-        "unwind-mcq-06": "「透過出售、反向交易等方式逐步平掉原有持倉」與本句語境不同。"
+        "unwind-mcq-01": "本句的「unwind」指「在忙碌、緊張或受壓之後逐漸放鬆身心」。",
+        "unwind-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unwind-mcq-01"
     },
@@ -217,11 +209,8 @@ export default {
       "masked": "I like to listen to music after work to ____.",
       "options": [
         "unwind-mcq-01",
-        "unwind-mcq-02",
-        "unwind-mcq-03",
-        "unwind-mcq-04",
-        "unwind-mcq-05",
-        "unwind-mcq-06"
+        "unwind-mcq-07",
+        "unwind-mcq-03"
       ],
       "explanation": "本句的「unwind」指「在忙碌、緊張或受壓之後逐漸放鬆身心」。",
       "sentenceIndex": 1,
@@ -230,12 +219,9 @@ export default {
         "unwind"
       ],
       "optionReasons": {
-        "unwind-mcq-01": "本句指「在忙碌、緊張或受壓之後逐漸放鬆身心」。",
-        "unwind-mcq-02": "「把原本捲起、纏繞或扭在一起的東西逐步解開」與本句語境不同。",
-        "unwind-mcq-03": "「原本捲起／纏繞的東西自行鬆開、散開」與本句語境不同。",
-        "unwind-mcq-04": "「把纏在某人／某物上的帶狀物逐步解開或取下」與本句語境不同。",
-        "unwind-mcq-05": "「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」與本句語境不同。",
-        "unwind-mcq-06": "「透過出售、反向交易等方式逐步平掉原有持倉」與本句語境不同。"
+        "unwind-mcq-01": "本句的「unwind」指「在忙碌、緊張或受壓之後逐漸放鬆身心」。",
+        "unwind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "unwind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unwind-mcq-01"
     },
@@ -247,11 +233,8 @@ export default {
       "masked": "A short walk helps me ____ before bed.",
       "options": [
         "unwind-mcq-01",
-        "unwind-mcq-02",
-        "unwind-mcq-03",
-        "unwind-mcq-04",
-        "unwind-mcq-05",
-        "unwind-mcq-06"
+        "unwind-pdf-001",
+        "unwind-mcq-03"
       ],
       "explanation": "本句的「unwind」指「在忙碌、緊張或受壓之後逐漸放鬆身心」。",
       "sentenceIndex": 2,
@@ -260,12 +243,9 @@ export default {
         "unwind"
       ],
       "optionReasons": {
-        "unwind-mcq-01": "本句指「在忙碌、緊張或受壓之後逐漸放鬆身心」。",
-        "unwind-mcq-02": "「把原本捲起、纏繞或扭在一起的東西逐步解開」與本句語境不同。",
-        "unwind-mcq-03": "「原本捲起／纏繞的東西自行鬆開、散開」與本句語境不同。",
-        "unwind-mcq-04": "「把纏在某人／某物上的帶狀物逐步解開或取下」與本句語境不同。",
-        "unwind-mcq-05": "「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」與本句語境不同。",
-        "unwind-mcq-06": "「透過出售、反向交易等方式逐步平掉原有持倉」與本句語境不同。"
+        "unwind-mcq-01": "本句的「unwind」指「在忙碌、緊張或受壓之後逐漸放鬆身心」。",
+        "unwind-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "unwind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unwind-mcq-01"
     },
@@ -277,11 +257,7 @@ export default {
       "masked": "She ____ the string from the box.",
       "options": [
         "unwind-mcq-02",
-        "unwind-mcq-01",
-        "unwind-mcq-03",
-        "unwind-mcq-04",
-        "unwind-mcq-05",
-        "unwind-mcq-06"
+        "unwind-mcq-01"
       ],
       "explanation": "本句的「unwound」指「把原本捲起、纏繞或扭在一起的東西逐步解開」。",
       "sentenceIndex": 3,
@@ -290,12 +266,8 @@ export default {
         "unwound"
       ],
       "optionReasons": {
-        "unwind-mcq-02": "本句指「把原本捲起、纏繞或扭在一起的東西逐步解開」。",
-        "unwind-mcq-01": "「在忙碌、緊張或受壓之後逐漸放鬆身心」與本句語境不同。",
-        "unwind-mcq-03": "「原本捲起／纏繞的東西自行鬆開、散開」與本句語境不同。",
-        "unwind-mcq-04": "「把纏在某人／某物上的帶狀物逐步解開或取下」與本句語境不同。",
-        "unwind-mcq-05": "「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」與本句語境不同。",
-        "unwind-mcq-06": "「透過出售、反向交易等方式逐步平掉原有持倉」與本句語境不同。"
+        "unwind-mcq-02": "本句的「unwound」指「把原本捲起、纏繞或扭在一起的東西逐步解開」。",
+        "unwind-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unwind-mcq-02"
     },
@@ -307,11 +279,8 @@ export default {
       "masked": "The rope began to ____.",
       "options": [
         "unwind-mcq-03",
-        "unwind-mcq-02",
-        "unwind-mcq-04",
-        "unwind-mcq-01",
-        "unwind-mcq-05",
-        "unwind-mcq-06"
+        "unwind-mcq-07",
+        "unwind-mcq-01"
       ],
       "explanation": "本句的「unwind」指「原本捲起／纏繞的東西自行鬆開、散開」。",
       "sentenceIndex": 4,
@@ -320,12 +289,9 @@ export default {
         "unwind"
       ],
       "optionReasons": {
-        "unwind-mcq-03": "本句指「原本捲起／纏繞的東西自行鬆開、散開」。",
-        "unwind-mcq-02": "「把原本捲起、纏繞或扭在一起的東西逐步解開」與本句語境不同。",
-        "unwind-mcq-04": "「把纏在某人／某物上的帶狀物逐步解開或取下」與本句語境不同。",
-        "unwind-mcq-01": "「在忙碌、緊張或受壓之後逐漸放鬆身心」與本句語境不同。",
-        "unwind-mcq-05": "「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」與本句語境不同。",
-        "unwind-mcq-06": "「透過出售、反向交易等方式逐步平掉原有持倉」與本句語境不同。"
+        "unwind-mcq-03": "本句的「unwind」指「原本捲起／纏繞的東西自行鬆開、散開」。",
+        "unwind-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "unwind-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unwind-mcq-03"
     },
@@ -337,11 +303,8 @@ export default {
       "masked": "The nurse ____ the bandage.",
       "options": [
         "unwind-mcq-04",
-        "unwind-mcq-03",
-        "unwind-mcq-05",
-        "unwind-mcq-02",
-        "unwind-mcq-06",
-        "unwind-mcq-01"
+        "unwind-mcq-01",
+        "unwind-mcq-03"
       ],
       "explanation": "本句的「unwound」指「把纏在某人／某物上的帶狀物逐步解開或取下」。",
       "sentenceIndex": 5,
@@ -350,12 +313,9 @@ export default {
         "unwound"
       ],
       "optionReasons": {
-        "unwind-mcq-04": "本句指「把纏在某人／某物上的帶狀物逐步解開或取下」。",
-        "unwind-mcq-03": "「原本捲起／纏繞的東西自行鬆開、散開」與本句語境不同。",
-        "unwind-mcq-05": "「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」與本句語境不同。",
-        "unwind-mcq-02": "「把原本捲起、纏繞或扭在一起的東西逐步解開」與本句語境不同。",
-        "unwind-mcq-06": "「透過出售、反向交易等方式逐步平掉原有持倉」與本句語境不同。",
-        "unwind-mcq-01": "「在忙碌、緊張或受壓之後逐漸放鬆身心」與本句語境不同。"
+        "unwind-mcq-04": "本句的「unwound」指「把纏在某人／某物上的帶狀物逐步解開或取下」。",
+        "unwind-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "unwind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unwind-mcq-04"
     },
@@ -367,11 +327,8 @@ export default {
       "masked": "The company is trying to ____ the arrangement.",
       "options": [
         "unwind-mcq-05",
-        "unwind-mcq-04",
-        "unwind-mcq-06",
         "unwind-mcq-03",
-        "unwind-mcq-07",
-        "unwind-mcq-02"
+        "unwind-mcq-01"
       ],
       "explanation": "本句的「unwind」指「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」。",
       "sentenceIndex": 6,
@@ -380,12 +337,9 @@ export default {
         "unwind"
       ],
       "optionReasons": {
-        "unwind-mcq-05": "本句指「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」。",
-        "unwind-mcq-04": "「把纏在某人／某物上的帶狀物逐步解開或取下」與本句語境不同。",
-        "unwind-mcq-06": "「透過出售、反向交易等方式逐步平掉原有持倉」與本句語境不同。",
-        "unwind-mcq-03": "「原本捲起／纏繞的東西自行鬆開、散開」與本句語境不同。",
-        "unwind-mcq-07": "「逐步拆解已建立而彼此相連的商業／金融安排」與本句語境不同。",
-        "unwind-mcq-02": "「把原本捲起、纏繞或扭在一起的東西逐步解開」與本句語境不同。"
+        "unwind-mcq-05": "本句的「unwind」指「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」。",
+        "unwind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "unwind-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unwind-mcq-05"
     },
@@ -397,10 +351,7 @@ export default {
       "masked": "The fund began to ____.",
       "options": [
         "unwind-pdf-001",
-        "unwind-mcq-05",
-        "unwind-mcq-07",
-        "unwind-mcq-04",
-        "unwind-mcq-08",
+        "unwind-mcq-01",
         "unwind-mcq-03"
       ],
       "explanation": "本句的「unwind its position」指「逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀」。",
@@ -410,12 +361,9 @@ export default {
         "unwind its position"
       ],
       "optionReasons": {
-        "unwind-pdf-001": "本句指「逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀」。",
-        "unwind-mcq-05": "「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」與本句語境不同。",
-        "unwind-mcq-07": "「逐步拆解已建立而彼此相連的商業／金融安排」與本句語境不同。",
-        "unwind-mcq-04": "「把纏在某人／某物上的帶狀物逐步解開或取下」與本句語境不同。",
-        "unwind-mcq-08": "「故事或事件逐步展開並揭示細節；較少見」與本句語境不同。",
-        "unwind-mcq-03": "「原本捲起／纏繞的東西自行鬆開、散開」與本句語境不同。"
+        "unwind-pdf-001": "本句的「unwind its position」指「逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀」。",
+        "unwind-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "unwind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unwind-pdf-001"
     },
@@ -427,10 +375,7 @@ export default {
       "masked": "Investors rushed to ____ risky trades.",
       "options": [
         "unwind-pdf-001",
-        "unwind-mcq-05",
-        "unwind-mcq-07",
-        "unwind-mcq-04",
-        "unwind-mcq-08",
+        "unwind-mcq-01",
         "unwind-mcq-03"
       ],
       "explanation": "本句的「unwind」指「逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀」。",
@@ -440,12 +385,9 @@ export default {
         "unwind"
       ],
       "optionReasons": {
-        "unwind-pdf-001": "本句指「逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀」。",
-        "unwind-mcq-05": "「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」與本句語境不同。",
-        "unwind-mcq-07": "「逐步拆解已建立而彼此相連的商業／金融安排」與本句語境不同。",
-        "unwind-mcq-04": "「把纏在某人／某物上的帶狀物逐步解開或取下」與本句語境不同。",
-        "unwind-mcq-08": "「故事或事件逐步展開並揭示細節；較少見」與本句語境不同。",
-        "unwind-mcq-03": "「原本捲起／纏繞的東西自行鬆開、散開」與本句語境不同。"
+        "unwind-pdf-001": "本句的「unwind」指「逐步取消、出售或反向操作原有投資持倉，使交易回到較少或沒有曝險的狀」。",
+        "unwind-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "unwind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unwind-pdf-001"
     },
@@ -457,11 +399,8 @@ export default {
       "masked": "The bank spent months ____ risky investments.",
       "options": [
         "unwind-mcq-07",
-        "unwind-mcq-06",
-        "unwind-mcq-08",
-        "unwind-mcq-05",
-        "unwind-mcq-04",
-        "unwind-mcq-03"
+        "unwind-mcq-03",
+        "unwind-mcq-01"
       ],
       "explanation": "本句的「unwinding」指「逐步拆解已建立而彼此相連的商業／金融安排」。",
       "sentenceIndex": 9,
@@ -470,12 +409,9 @@ export default {
         "unwinding"
       ],
       "optionReasons": {
-        "unwind-mcq-07": "本句指「逐步拆解已建立而彼此相連的商業／金融安排」。",
-        "unwind-mcq-06": "「透過出售、反向交易等方式逐步平掉原有持倉」與本句語境不同。",
-        "unwind-mcq-08": "「故事或事件逐步展開並揭示細節；較少見」與本句語境不同。",
-        "unwind-mcq-05": "「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」與本句語境不同。",
-        "unwind-mcq-04": "「把纏在某人／某物上的帶狀物逐步解開或取下」與本句語境不同。",
-        "unwind-mcq-03": "「原本捲起／纏繞的東西自行鬆開、散開」與本句語境不同。"
+        "unwind-mcq-07": "本句的「unwinding」指「逐步拆解已建立而彼此相連的商業／金融安排」。",
+        "unwind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "unwind-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unwind-mcq-07"
     },
@@ -487,11 +423,8 @@ export default {
       "masked": "The company is ____ parts of the old structure.",
       "options": [
         "unwind-mcq-07",
-        "unwind-mcq-06",
-        "unwind-mcq-08",
-        "unwind-mcq-05",
-        "unwind-mcq-04",
-        "unwind-mcq-03"
+        "unwind-mcq-03",
+        "unwind-mcq-01"
       ],
       "explanation": "本句的「unwinding」指「逐步拆解已建立而彼此相連的商業／金融安排」。",
       "sentenceIndex": 10,
@@ -500,12 +433,9 @@ export default {
         "unwinding"
       ],
       "optionReasons": {
-        "unwind-mcq-07": "本句指「逐步拆解已建立而彼此相連的商業／金融安排」。",
-        "unwind-mcq-06": "「透過出售、反向交易等方式逐步平掉原有持倉」與本句語境不同。",
-        "unwind-mcq-08": "「故事或事件逐步展開並揭示細節；較少見」與本句語境不同。",
-        "unwind-mcq-05": "「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」與本句語境不同。",
-        "unwind-mcq-04": "「把纏在某人／某物上的帶狀物逐步解開或取下」與本句語境不同。",
-        "unwind-mcq-03": "「原本捲起／纏繞的東西自行鬆開、散開」與本句語境不同。"
+        "unwind-mcq-07": "本句的「unwinding」指「逐步拆解已建立而彼此相連的商業／金融安排」。",
+        "unwind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "unwind-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unwind-mcq-07"
     },
@@ -517,11 +447,8 @@ export default {
       "masked": "The mystery slowly ____ over several chapters.",
       "options": [
         "unwind-mcq-08",
-        "unwind-mcq-07",
-        "unwind-mcq-06",
-        "unwind-mcq-05",
-        "unwind-mcq-04",
-        "unwind-mcq-03"
+        "unwind-mcq-03",
+        "unwind-mcq-01"
       ],
       "explanation": "本句的「unwinds」指「故事或事件逐步展開並揭示細節；較少見」。",
       "sentenceIndex": 11,
@@ -530,12 +457,9 @@ export default {
         "unwinds"
       ],
       "optionReasons": {
-        "unwind-mcq-08": "本句指「故事或事件逐步展開並揭示細節；較少見」。",
-        "unwind-mcq-07": "「逐步拆解已建立而彼此相連的商業／金融安排」與本句語境不同。",
-        "unwind-mcq-06": "「透過出售、反向交易等方式逐步平掉原有持倉」與本句語境不同。",
-        "unwind-mcq-05": "「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」與本句語境不同。",
-        "unwind-mcq-04": "「把纏在某人／某物上的帶狀物逐步解開或取下」與本句語境不同。",
-        "unwind-mcq-03": "「原本捲起／纏繞的東西自行鬆開、散開」與本句語境不同。"
+        "unwind-mcq-08": "本句的「unwinds」指「故事或事件逐步展開並揭示細節；較少見」。",
+        "unwind-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "unwind-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unwind-mcq-08"
     },
@@ -547,10 +471,7 @@ export default {
       "masked": "As the story ____, the characters’ motives become clearer.",
       "options": [
         "unwind-mcq-08",
-        "unwind-mcq-07",
-        "unwind-mcq-06",
-        "unwind-mcq-05",
-        "unwind-mcq-04",
+        "unwind-mcq-01",
         "unwind-mcq-03"
       ],
       "explanation": "本句的「unwinds」指「故事或事件逐步展開並揭示細節；較少見」。",
@@ -560,12 +481,9 @@ export default {
         "unwinds"
       ],
       "optionReasons": {
-        "unwind-mcq-08": "本句指「故事或事件逐步展開並揭示細節；較少見」。",
-        "unwind-mcq-07": "「逐步拆解已建立而彼此相連的商業／金融安排」與本句語境不同。",
-        "unwind-mcq-06": "「透過出售、反向交易等方式逐步平掉原有持倉」與本句語境不同。",
-        "unwind-mcq-05": "「把已建立的制度、安排、交易或過程逐步撤銷／逆轉」與本句語境不同。",
-        "unwind-mcq-04": "「把纏在某人／某物上的帶狀物逐步解開或取下」與本句語境不同。",
-        "unwind-mcq-03": "「原本捲起／纏繞的東西自行鬆開、散開」與本句語境不同。"
+        "unwind-mcq-08": "本句的「unwinds」指「故事或事件逐步展開並揭示細節；較少見」。",
+        "unwind-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "unwind-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unwind-mcq-08"
     }
@@ -577,5 +495,7 @@ export default {
     "sha256": "5c0ccbe1e657f4c494f6dbf6682407995956148e47711dddd864d4adf2376117",
     "pages": 11
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -273,11 +273,8 @@ export default {
       "masked": "The album contained tickets and receipts from family ____.",
       "options": [
         "outing-mcq-01",
-        "outing-mcq-02",
-        "outing-mcq-03",
-        "outing-mcq-04",
-        "outing-mcq-05",
-        "outing-mcq-06"
+        "outing-mcq-11",
+        "outing-mcq-03"
       ],
       "explanation": "本句的「outings」指「出遊；郊遊」。",
       "sentenceIndex": 0,
@@ -286,12 +283,9 @@ export default {
         "outings"
       ],
       "optionReasons": {
-        "outing-mcq-01": "本句指「出遊；郊遊」。",
-        "outing-mcq-02": "「家庭出遊」與本句語境不同。",
-        "outing-mcq-03": "「學校旅行／校外活動」與本句語境不同。",
-        "outing-mcq-04": "「公司集體活動」與本句語境不同。",
-        "outing-mcq-05": "「團隊外出活動」與本句語境不同。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。"
+        "outing-mcq-01": "本句的「outings」指「出遊；郊遊」。",
+        "outing-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-01"
     },
@@ -303,11 +297,8 @@ export default {
       "masked": "We went on an ____ to the countryside.",
       "options": [
         "outing-mcq-01",
-        "outing-mcq-02",
-        "outing-mcq-03",
-        "outing-mcq-04",
-        "outing-mcq-05",
-        "outing-mcq-06"
+        "outing-mcq-10",
+        "outing-mcq-03"
       ],
       "explanation": "本句的「outing」指「出遊；郊遊」。",
       "sentenceIndex": 1,
@@ -316,12 +307,9 @@ export default {
         "outing"
       ],
       "optionReasons": {
-        "outing-mcq-01": "本句指「出遊；郊遊」。",
-        "outing-mcq-02": "「家庭出遊」與本句語境不同。",
-        "outing-mcq-03": "「學校旅行／校外活動」與本句語境不同。",
-        "outing-mcq-04": "「公司集體活動」與本句語境不同。",
-        "outing-mcq-05": "「團隊外出活動」與本句語境不同。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。"
+        "outing-mcq-01": "本句的「outing」指「出遊；郊遊」。",
+        "outing-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-01"
     },
@@ -333,11 +321,8 @@ export default {
       "masked": "The children enjoyed their ____ to the museum.",
       "options": [
         "outing-mcq-01",
-        "outing-mcq-02",
-        "outing-mcq-03",
-        "outing-mcq-04",
-        "outing-mcq-05",
-        "outing-mcq-06"
+        "outing-mcq-11",
+        "outing-mcq-03"
       ],
       "explanation": "本句的「outing」指「出遊；郊遊」。",
       "sentenceIndex": 2,
@@ -346,12 +331,9 @@ export default {
         "outing"
       ],
       "optionReasons": {
-        "outing-mcq-01": "本句指「出遊；郊遊」。",
-        "outing-mcq-02": "「家庭出遊」與本句語境不同。",
-        "outing-mcq-03": "「學校旅行／校外活動」與本句語境不同。",
-        "outing-mcq-04": "「公司集體活動」與本句語境不同。",
-        "outing-mcq-05": "「團隊外出活動」與本句語境不同。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。"
+        "outing-mcq-01": "本句的「outing」指「出遊；郊遊」。",
+        "outing-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-01"
     },
@@ -363,11 +345,9 @@ export default {
       "masked": "We used to have a ____ every summer.",
       "options": [
         "outing-mcq-02",
-        "outing-mcq-01",
         "outing-mcq-03",
-        "outing-mcq-04",
-        "outing-mcq-05",
-        "outing-mcq-06"
+        "outing-mcq-11",
+        "outing-mcq-09"
       ],
       "explanation": "本句的「family outing」指「家庭出遊」。",
       "sentenceIndex": 3,
@@ -376,12 +356,10 @@ export default {
         "family outing"
       ],
       "optionReasons": {
-        "outing-mcq-02": "本句指「家庭出遊」。",
-        "outing-mcq-01": "「出遊；郊遊」與本句語境不同。",
-        "outing-mcq-03": "「學校旅行／校外活動」與本句語境不同。",
-        "outing-mcq-04": "「公司集體活動」與本句語境不同。",
-        "outing-mcq-05": "「團隊外出活動」與本句語境不同。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。"
+        "outing-mcq-02": "本句的「family outing」指「家庭出遊」。",
+        "outing-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-02"
     },
@@ -393,11 +371,9 @@ export default {
       "masked": "The photos reminded us of an old ____.",
       "options": [
         "outing-mcq-02",
-        "outing-mcq-01",
+        "outing-mcq-11",
         "outing-mcq-03",
-        "outing-mcq-04",
-        "outing-mcq-05",
-        "outing-mcq-06"
+        "outing-mcq-09"
       ],
       "explanation": "本句的「family outing」指「家庭出遊」。",
       "sentenceIndex": 4,
@@ -406,12 +382,10 @@ export default {
         "family outing"
       ],
       "optionReasons": {
-        "outing-mcq-02": "本句指「家庭出遊」。",
-        "outing-mcq-01": "「出遊；郊遊」與本句語境不同。",
-        "outing-mcq-03": "「學校旅行／校外活動」與本句語境不同。",
-        "outing-mcq-04": "「公司集體活動」與本句語境不同。",
-        "outing-mcq-05": "「團隊外出活動」與本句語境不同。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。"
+        "outing-mcq-02": "本句的「family outing」指「家庭出遊」。",
+        "outing-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-02"
     },
@@ -423,11 +397,9 @@ export default {
       "masked": "The class went on a ____ to the science museum.",
       "options": [
         "outing-mcq-03",
-        "outing-mcq-02",
-        "outing-mcq-04",
-        "outing-mcq-01",
-        "outing-mcq-05",
-        "outing-mcq-06"
+        "outing-mcq-09",
+        "outing-mcq-06",
+        "outing-mcq-12"
       ],
       "explanation": "本句的「school outing」指「學校旅行／校外活動」。",
       "sentenceIndex": 5,
@@ -436,12 +408,10 @@ export default {
         "school outing"
       ],
       "optionReasons": {
-        "outing-mcq-03": "本句指「學校旅行／校外活動」。",
-        "outing-mcq-02": "「家庭出遊」與本句語境不同。",
-        "outing-mcq-04": "「公司集體活動」與本句語境不同。",
-        "outing-mcq-01": "「出遊；郊遊」與本句語境不同。",
-        "outing-mcq-05": "「團隊外出活動」與本句語境不同。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。"
+        "outing-mcq-03": "本句的「school outing」指「學校旅行／校外活動」。",
+        "outing-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-03"
     },
@@ -453,11 +423,8 @@ export default {
       "masked": "Parents were invited to help with the ____.",
       "options": [
         "outing-mcq-03",
-        "outing-mcq-02",
-        "outing-mcq-04",
         "outing-mcq-01",
-        "outing-mcq-05",
-        "outing-mcq-06"
+        "outing-mcq-12"
       ],
       "explanation": "本句的「school outing」指「學校旅行／校外活動」。",
       "sentenceIndex": 6,
@@ -466,12 +433,9 @@ export default {
         "school outing"
       ],
       "optionReasons": {
-        "outing-mcq-03": "本句指「學校旅行／校外活動」。",
-        "outing-mcq-02": "「家庭出遊」與本句語境不同。",
-        "outing-mcq-04": "「公司集體活動」與本句語境不同。",
-        "outing-mcq-01": "「出遊；郊遊」與本句語境不同。",
-        "outing-mcq-05": "「團隊外出活動」與本句語境不同。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。"
+        "outing-mcq-03": "本句的「school outing」指「學校旅行／校外活動」。",
+        "outing-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-03"
     },
@@ -483,11 +447,9 @@ export default {
       "masked": "The staff went hiking on the annual ____.",
       "options": [
         "outing-mcq-04",
-        "outing-mcq-03",
-        "outing-mcq-05",
-        "outing-mcq-02",
         "outing-mcq-06",
-        "outing-mcq-01"
+        "outing-mcq-09",
+        "outing-mcq-12"
       ],
       "explanation": "本句的「company outing」指「公司集體活動」。",
       "sentenceIndex": 7,
@@ -496,12 +458,10 @@ export default {
         "company outing"
       ],
       "optionReasons": {
-        "outing-mcq-04": "本句指「公司集體活動」。",
-        "outing-mcq-03": "「學校旅行／校外活動」與本句語境不同。",
-        "outing-mcq-05": "「團隊外出活動」與本句語境不同。",
-        "outing-mcq-02": "「家庭出遊」與本句語境不同。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。",
-        "outing-mcq-01": "「出遊；郊遊」與本句語境不同。"
+        "outing-mcq-04": "本句的「company outing」指「公司集體活動」。",
+        "outing-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-04"
     },
@@ -513,11 +473,9 @@ export default {
       "masked": "The ____ gave everyone a chance to relax.",
       "options": [
         "outing-mcq-04",
-        "outing-mcq-03",
-        "outing-mcq-05",
-        "outing-mcq-02",
-        "outing-mcq-06",
-        "outing-mcq-01"
+        "outing-mcq-07",
+        "outing-mcq-09",
+        "outing-mcq-12"
       ],
       "explanation": "本句的「company outing」指「公司集體活動」。",
       "sentenceIndex": 8,
@@ -526,12 +484,10 @@ export default {
         "company outing"
       ],
       "optionReasons": {
-        "outing-mcq-04": "本句指「公司集體活動」。",
-        "outing-mcq-03": "「學校旅行／校外活動」與本句語境不同。",
-        "outing-mcq-05": "「團隊外出活動」與本句語境不同。",
-        "outing-mcq-02": "「家庭出遊」與本句語境不同。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。",
-        "outing-mcq-01": "「出遊；郊遊」與本句語境不同。"
+        "outing-mcq-04": "本句的「company outing」指「公司集體活動」。",
+        "outing-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-04"
     },
@@ -543,11 +499,8 @@ export default {
       "masked": "We had a ____ after finishing the project.",
       "options": [
         "outing-mcq-05",
-        "outing-mcq-04",
-        "outing-mcq-06",
-        "outing-mcq-03",
         "outing-mcq-07",
-        "outing-mcq-02"
+        "outing-mcq-10"
       ],
       "explanation": "本句的「team outing」指「團隊外出活動」。",
       "sentenceIndex": 9,
@@ -556,12 +509,9 @@ export default {
         "team outing"
       ],
       "optionReasons": {
-        "outing-mcq-05": "本句指「團隊外出活動」。",
-        "outing-mcq-04": "「公司集體活動」與本句語境不同。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。",
-        "outing-mcq-03": "「學校旅行／校外活動」與本句語境不同。",
-        "outing-mcq-07": "「一日遊」與本句語境不同。",
-        "outing-mcq-02": "「家庭出遊」與本句語境不同。"
+        "outing-mcq-05": "本句的「team outing」指「團隊外出活動」。",
+        "outing-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-05"
     },
@@ -573,11 +523,8 @@ export default {
       "masked": "The manager organised a dinner as a ____.",
       "options": [
         "outing-mcq-05",
-        "outing-mcq-04",
-        "outing-mcq-06",
-        "outing-mcq-03",
         "outing-mcq-07",
-        "outing-mcq-02"
+        "outing-mcq-10"
       ],
       "explanation": "本句的「team outing」指「團隊外出活動」。",
       "sentenceIndex": 10,
@@ -586,12 +533,9 @@ export default {
         "team outing"
       ],
       "optionReasons": {
-        "outing-mcq-05": "本句指「團隊外出活動」。",
-        "outing-mcq-04": "「公司集體活動」與本句語境不同。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。",
-        "outing-mcq-03": "「學校旅行／校外活動」與本句語境不同。",
-        "outing-mcq-07": "「一日遊」與本句語境不同。",
-        "outing-mcq-02": "「家庭出遊」與本句語境不同。"
+        "outing-mcq-05": "本句的「team outing」指「團隊外出活動」。",
+        "outing-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-05"
     },
@@ -603,11 +547,9 @@ export default {
       "masked": "We're ____ this weekend.",
       "options": [
         "outing-mcq-06",
-        "outing-mcq-05",
-        "outing-mcq-07",
         "outing-mcq-04",
-        "outing-mcq-08",
-        "outing-mcq-03"
+        "outing-mcq-12",
+        "outing-mcq-09"
       ],
       "explanation": "本句的「going on an outing」指「去郊遊／出遊」。",
       "sentenceIndex": 11,
@@ -616,12 +558,10 @@ export default {
         "going on an outing"
       ],
       "optionReasons": {
-        "outing-mcq-06": "本句指「去郊遊／出遊」。",
-        "outing-mcq-05": "「團隊外出活動」與本句語境不同。",
-        "outing-mcq-07": "「一日遊」與本句語境不同。",
-        "outing-mcq-04": "「公司集體活動」與本句語境不同。",
-        "outing-mcq-08": "「外出玩一天」與本句語境不同。",
-        "outing-mcq-03": "「學校旅行／校外活動」與本句語境不同。"
+        "outing-mcq-06": "本句的「going on an outing」指「去郊遊／出遊」。",
+        "outing-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-06"
     },
@@ -633,11 +573,8 @@ export default {
       "masked": "The residents ____ to the seaside.",
       "options": [
         "outing-mcq-06",
-        "outing-mcq-05",
-        "outing-mcq-07",
-        "outing-mcq-04",
-        "outing-mcq-08",
-        "outing-mcq-03"
+        "outing-mcq-03",
+        "outing-mcq-10"
       ],
       "explanation": "本句的「went on an outing」指「去郊遊／出遊」。",
       "sentenceIndex": 12,
@@ -646,12 +583,9 @@ export default {
         "went on an outing"
       ],
       "optionReasons": {
-        "outing-mcq-06": "本句指「去郊遊／出遊」。",
-        "outing-mcq-05": "「團隊外出活動」與本句語境不同。",
-        "outing-mcq-07": "「一日遊」與本句語境不同。",
-        "outing-mcq-04": "「公司集體活動」與本句語境不同。",
-        "outing-mcq-08": "「外出玩一天」與本句語境不同。",
-        "outing-mcq-03": "「學校旅行／校外活動」與本句語境不同。"
+        "outing-mcq-06": "本句的「went on an outing」指「去郊遊／出遊」。",
+        "outing-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-06"
     },
@@ -663,11 +597,9 @@ export default {
       "masked": "We planned a ____ to the island.",
       "options": [
         "outing-mcq-07",
-        "outing-mcq-06",
-        "outing-mcq-08",
-        "outing-mcq-05",
+        "outing-mcq-11",
         "outing-mcq-09",
-        "outing-mcq-04"
+        "outing-mcq-03"
       ],
       "explanation": "本句的「day outing」指「一日遊」。",
       "sentenceIndex": 13,
@@ -676,12 +608,10 @@ export default {
         "day outing"
       ],
       "optionReasons": {
-        "outing-mcq-07": "本句指「一日遊」。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。",
-        "outing-mcq-08": "「外出玩一天」與本句語境不同。",
-        "outing-mcq-05": "「團隊外出活動」與本句語境不同。",
-        "outing-mcq-09": "「一次出場／上場表現」與本句語境不同。",
-        "outing-mcq-04": "「公司集體活動」與本句語境不同。"
+        "outing-mcq-07": "本句的「day outing」指「一日遊」。",
+        "outing-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-07"
     },
@@ -693,11 +623,8 @@ export default {
       "masked": "The zoo makes a great ____ for families.",
       "options": [
         "outing-mcq-07",
-        "outing-mcq-06",
-        "outing-mcq-08",
-        "outing-mcq-05",
-        "outing-mcq-09",
-        "outing-mcq-04"
+        "outing-mcq-04",
+        "outing-mcq-10"
       ],
       "explanation": "本句的「day out」指「一日遊」。",
       "sentenceIndex": 14,
@@ -706,12 +633,9 @@ export default {
         "day out"
       ],
       "optionReasons": {
-        "outing-mcq-07": "本句指「一日遊」。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。",
-        "outing-mcq-08": "「外出玩一天」與本句語境不同。",
-        "outing-mcq-05": "「團隊外出活動」與本句語境不同。",
-        "outing-mcq-09": "「一次出場／上場表現」與本句語境不同。",
-        "outing-mcq-04": "「公司集體活動」與本句語境不同。"
+        "outing-mcq-07": "本句的「day out」指「一日遊」。",
+        "outing-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-07"
     },
@@ -723,11 +647,9 @@ export default {
       "masked": "The pitcher had a difficult ____.",
       "options": [
         "outing-mcq-09",
-        "outing-mcq-08",
-        "outing-mcq-10",
-        "outing-mcq-07",
-        "outing-mcq-11",
-        "outing-mcq-06"
+        "outing-mcq-12",
+        "outing-mcq-04",
+        "outing-mcq-07"
       ],
       "explanation": "本句的「outing」指「一次出場／上場表現」。",
       "sentenceIndex": 15,
@@ -736,12 +658,10 @@ export default {
         "outing"
       ],
       "optionReasons": {
-        "outing-mcq-09": "本句指「一次出場／上場表現」。",
-        "outing-mcq-08": "「外出玩一天」與本句語境不同。",
-        "outing-mcq-10": "「公開揭露私人身份」與本句語境不同。",
-        "outing-mcq-07": "「一日遊」與本句語境不同。",
-        "outing-mcq-11": "「公開某人的私人身份」與本句語境不同。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。"
+        "outing-mcq-09": "本句的「outing」指「一次出場／上場表現」。",
+        "outing-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-09"
     },
@@ -753,11 +673,9 @@ export default {
       "masked": "She performed well in her first competitive ____ of the season.",
       "options": [
         "outing-mcq-09",
-        "outing-mcq-08",
-        "outing-mcq-10",
+        "outing-mcq-03",
         "outing-mcq-07",
-        "outing-mcq-11",
-        "outing-mcq-06"
+        "outing-mcq-11"
       ],
       "explanation": "本句的「outing」指「一次出場／上場表現」。",
       "sentenceIndex": 16,
@@ -766,12 +684,10 @@ export default {
         "outing"
       ],
       "optionReasons": {
-        "outing-mcq-09": "本句指「一次出場／上場表現」。",
-        "outing-mcq-08": "「外出玩一天」與本句語境不同。",
-        "outing-mcq-10": "「公開揭露私人身份」與本句語境不同。",
-        "outing-mcq-07": "「一日遊」與本句語境不同。",
-        "outing-mcq-11": "「公開某人的私人身份」與本句語境不同。",
-        "outing-mcq-06": "「去郊遊／出遊」與本句語境不同。"
+        "outing-mcq-09": "本句的「outing」指「一次出場／上場表現」。",
+        "outing-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-09"
     },
@@ -783,11 +699,8 @@ export default {
       "masked": "The article led to the ____ of several anonymous users.",
       "options": [
         "outing-mcq-10",
-        "outing-mcq-09",
-        "outing-mcq-11",
-        "outing-mcq-08",
-        "outing-mcq-12",
-        "outing-mcq-07"
+        "outing-mcq-06",
+        "outing-mcq-05"
       ],
       "explanation": "本句的「outing」指「公開揭露私人身份」。",
       "sentenceIndex": 17,
@@ -796,12 +709,9 @@ export default {
         "outing"
       ],
       "optionReasons": {
-        "outing-mcq-10": "本句指「公開揭露私人身份」。",
-        "outing-mcq-09": "「一次出場／上場表現」與本句語境不同。",
-        "outing-mcq-11": "「公開某人的私人身份」與本句語境不同。",
-        "outing-mcq-08": "「外出玩一天」與本句語境不同。",
-        "outing-mcq-12": "「被公開身份」與本句語境不同。",
-        "outing-mcq-07": "「一日遊」與本句語境不同。"
+        "outing-mcq-10": "本句的「outing」指「公開揭露私人身份」。",
+        "outing-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-10"
     },
@@ -813,11 +723,8 @@ export default {
       "masked": "The ____ of someone's private identity can have serious consequences.",
       "options": [
         "outing-mcq-10",
-        "outing-mcq-09",
-        "outing-mcq-11",
-        "outing-mcq-08",
-        "outing-mcq-12",
-        "outing-mcq-07"
+        "outing-mcq-01",
+        "outing-mcq-03"
       ],
       "explanation": "本句的「outing」指「公開揭露私人身份」。",
       "sentenceIndex": 18,
@@ -826,12 +733,9 @@ export default {
         "outing"
       ],
       "optionReasons": {
-        "outing-mcq-10": "本句指「公開揭露私人身份」。",
-        "outing-mcq-09": "「一次出場／上場表現」與本句語境不同。",
-        "outing-mcq-11": "「公開某人的私人身份」與本句語境不同。",
-        "outing-mcq-08": "「外出玩一天」與本句語境不同。",
-        "outing-mcq-12": "「被公開身份」與本句語境不同。",
-        "outing-mcq-07": "「一日遊」與本句語境不同。"
+        "outing-mcq-10": "本句的「outing」指「公開揭露私人身份」。",
+        "outing-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-10"
     },
@@ -843,11 +747,8 @@ export default {
       "masked": "The report ____.",
       "options": [
         "outing-mcq-11",
-        "outing-mcq-10",
-        "outing-mcq-12",
-        "outing-mcq-09",
-        "outing-mcq-08",
-        "outing-mcq-07"
+        "outing-mcq-01",
+        "outing-mcq-03"
       ],
       "explanation": "本句的「outed him as the anonymous writer」指「公開某人的私人身份」。",
       "sentenceIndex": 19,
@@ -856,12 +757,9 @@ export default {
         "outed him as the anonymous writer"
       ],
       "optionReasons": {
-        "outing-mcq-11": "本句指「公開某人的私人身份」。",
-        "outing-mcq-10": "「公開揭露私人身份」與本句語境不同。",
-        "outing-mcq-12": "「被公開身份」與本句語境不同。",
-        "outing-mcq-09": "「一次出場／上場表現」與本句語境不同。",
-        "outing-mcq-08": "「外出玩一天」與本句語境不同。",
-        "outing-mcq-07": "「一日遊」與本句語境不同。"
+        "outing-mcq-11": "本句的「outed him as the anonymous writer」指「公開某人的私人身份」。",
+        "outing-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-11"
     },
@@ -873,11 +771,9 @@ export default {
       "masked": "She was angry that someone had ____ without permission.",
       "options": [
         "outing-mcq-11",
-        "outing-mcq-10",
-        "outing-mcq-12",
-        "outing-mcq-09",
-        "outing-mcq-08",
-        "outing-mcq-07"
+        "outing-mcq-03",
+        "outing-mcq-02",
+        "outing-mcq-09"
       ],
       "explanation": "本句的「outed her」指「公開某人的私人身份」。",
       "sentenceIndex": 20,
@@ -886,12 +782,10 @@ export default {
         "outed her"
       ],
       "optionReasons": {
-        "outing-mcq-11": "本句指「公開某人的私人身份」。",
-        "outing-mcq-10": "「公開揭露私人身份」與本句語境不同。",
-        "outing-mcq-12": "「被公開身份」與本句語境不同。",
-        "outing-mcq-09": "「一次出場／上場表現」與本句語境不同。",
-        "outing-mcq-08": "「外出玩一天」與本句語境不同。",
-        "outing-mcq-07": "「一日遊」與本句語境不同。"
+        "outing-mcq-11": "本句的「outed her」指「公開某人的私人身份」。",
+        "outing-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-11"
     },
@@ -903,11 +797,9 @@ export default {
       "masked": "He was ____ by the press.",
       "options": [
         "outing-mcq-12",
-        "outing-mcq-11",
-        "outing-mcq-10",
-        "outing-mcq-09",
-        "outing-mcq-08",
-        "outing-mcq-07"
+        "outing-mcq-03",
+        "outing-mcq-02",
+        "outing-mcq-09"
       ],
       "explanation": "本句的「outed」指「被公開身份」。",
       "sentenceIndex": 21,
@@ -916,12 +808,10 @@ export default {
         "outed"
       ],
       "optionReasons": {
-        "outing-mcq-12": "本句指「被公開身份」。",
-        "outing-mcq-11": "「公開某人的私人身份」與本句語境不同。",
-        "outing-mcq-10": "「公開揭露私人身份」與本句語境不同。",
-        "outing-mcq-09": "「一次出場／上場表現」與本句語境不同。",
-        "outing-mcq-08": "「外出玩一天」與本句語境不同。",
-        "outing-mcq-07": "「一日遊」與本句語境不同。"
+        "outing-mcq-12": "本句的「outed」指「被公開身份」。",
+        "outing-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-12"
     },
@@ -933,11 +823,9 @@ export default {
       "masked": "The user was ____.",
       "options": [
         "outing-mcq-12",
-        "outing-mcq-11",
-        "outing-mcq-10",
         "outing-mcq-09",
-        "outing-mcq-08",
-        "outing-mcq-07"
+        "outing-mcq-05",
+        "outing-mcq-06"
       ],
       "explanation": "本句的「outed as the person behind the account」指「被公開身份」。",
       "sentenceIndex": 22,
@@ -946,12 +834,10 @@ export default {
         "outed as the person behind the account"
       ],
       "optionReasons": {
-        "outing-mcq-12": "本句指「被公開身份」。",
-        "outing-mcq-11": "「公開某人的私人身份」與本句語境不同。",
-        "outing-mcq-10": "「公開揭露私人身份」與本句語境不同。",
-        "outing-mcq-09": "「一次出場／上場表現」與本句語境不同。",
-        "outing-mcq-08": "「外出玩一天」與本句語境不同。",
-        "outing-mcq-07": "「一日遊」與本句語境不同。"
+        "outing-mcq-12": "本句的「outed as the person behind the account」指「被公開身份」。",
+        "outing-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "outing-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outing-mcq-12"
     }
@@ -963,5 +849,7 @@ export default {
     "sha256": "2be3494f38834f2ec9092e9968dce49871ef9623a8ed9c8e7f623cbea32c749a",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

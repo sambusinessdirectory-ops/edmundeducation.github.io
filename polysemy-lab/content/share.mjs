@@ -275,7 +275,7 @@ export default {
     },
     {
       "id": "share-mcq-13",
-      "title": "表示平分",
+      "title": "平分",
       "form": "Useful expression: share something equally — 平分",
       "en": "Useful expression: share something equally — 平分",
       "zh": "表示平分",
@@ -327,11 +327,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "share-mcq-01",
-        "share-mcq-02",
-        "share-mcq-03",
-        "share-mcq-04",
-        "share-mcq-05",
-        "share-mcq-06"
+        "share-pdf-001",
+        "share-mcq-13"
       ],
       "explanation": "本句的「shared his notes with me」指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
       "sentenceIndex": 0,
@@ -340,12 +337,9 @@ export default {
         "shared his notes with me"
       ],
       "optionReasons": {
-        "share-mcq-01": "本句指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
-        "share-mcq-02": "「把一個整體分成若干部分，讓多人各自得到一部分」是「share — divide/distribute」的用法，與本句語境不同。",
-        "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。"
+        "share-mcq-01": "本句的「shared his notes with me」指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
+        "share-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "share-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-01"
     },
@@ -357,11 +351,8 @@ export default {
       "masked": "She ____ her lunch with her friend.",
       "options": [
         "share-mcq-01",
-        "share-mcq-02",
-        "share-mcq-03",
-        "share-mcq-04",
         "share-mcq-05",
-        "share-mcq-06"
+        "share-mcq-13"
       ],
       "explanation": "本句的「shared」指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
       "sentenceIndex": 1,
@@ -370,12 +361,9 @@ export default {
         "shared"
       ],
       "optionReasons": {
-        "share-mcq-01": "本句指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
-        "share-mcq-02": "「把一個整體分成若干部分，讓多人各自得到一部分」是「share — divide/distribute」的用法，與本句語境不同。",
-        "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。"
+        "share-mcq-01": "本句的「shared」指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
+        "share-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "share-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-01"
     },
@@ -387,11 +375,8 @@ export default {
       "masked": "Can you ____ the document with me?",
       "options": [
         "share-mcq-01",
-        "share-mcq-02",
-        "share-mcq-03",
-        "share-mcq-04",
-        "share-mcq-05",
-        "share-mcq-06"
+        "share-pdf-001",
+        "share-mcq-13"
       ],
       "explanation": "本句的「share」指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
       "sentenceIndex": 2,
@@ -400,12 +385,9 @@ export default {
         "share"
       ],
       "optionReasons": {
-        "share-mcq-01": "本句指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
-        "share-mcq-02": "「把一個整體分成若干部分，讓多人各自得到一部分」是「share — divide/distribute」的用法，與本句語境不同。",
-        "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。"
+        "share-mcq-01": "本句的「share」指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
+        "share-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "share-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-01"
     },
@@ -417,11 +399,8 @@ export default {
       "masked": "The two children ____ a bedroom.",
       "options": [
         "share-mcq-01",
-        "share-mcq-02",
-        "share-mcq-03",
-        "share-mcq-04",
-        "share-mcq-05",
-        "share-mcq-06"
+        "share-mcq-13",
+        "share-pdf-001"
       ],
       "explanation": "本句的「share」指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
       "sentenceIndex": 3,
@@ -430,12 +409,9 @@ export default {
         "share"
       ],
       "optionReasons": {
-        "share-mcq-01": "本句指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
-        "share-mcq-02": "「把一個整體分成若干部分，讓多人各自得到一部分」是「share — divide/distribute」的用法，與本句語境不同。",
-        "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。"
+        "share-mcq-01": "本句的「share」指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
+        "share-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "share-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-01"
     },
@@ -447,11 +423,8 @@ export default {
       "masked": "We ____ the same office.",
       "options": [
         "share-mcq-01",
-        "share-mcq-02",
-        "share-mcq-03",
-        "share-mcq-04",
-        "share-mcq-05",
-        "share-mcq-06"
+        "share-mcq-13",
+        "share-pdf-001"
       ],
       "explanation": "本句的「share」指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
       "sentenceIndex": 4,
@@ -460,12 +433,9 @@ export default {
         "share"
       ],
       "optionReasons": {
-        "share-mcq-01": "本句指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
-        "share-mcq-02": "「把一個整體分成若干部分，讓多人各自得到一部分」是「share — divide/distribute」的用法，與本句語境不同。",
-        "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。"
+        "share-mcq-01": "本句的「share」指「讓別人一起使用、查看、享用或取得自己擁有的東西」。",
+        "share-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "share-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-01"
     },
@@ -477,11 +447,8 @@ export default {
       "masked": "We ____ the cake between us.",
       "options": [
         "share-mcq-02",
-        "share-mcq-01",
-        "share-mcq-03",
-        "share-mcq-04",
-        "share-mcq-05",
-        "share-mcq-06"
+        "share-mcq-09",
+        "share-pdf-001"
       ],
       "explanation": "本句的「shared」指「把一個整體分成若干部分，讓多人各自得到一部分」。",
       "sentenceIndex": 5,
@@ -490,12 +457,9 @@ export default {
         "shared"
       ],
       "optionReasons": {
-        "share-mcq-02": "本句指「把一個整體分成若干部分，讓多人各自得到一部分」。",
-        "share-mcq-01": "「讓別人一起使用、查看、享用或取得自己擁有的東西」是「share — give access/use jointly」的用法，與本句語境不同。",
-        "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。"
+        "share-mcq-02": "本句的「shared」指「把一個整體分成若干部分，讓多人各自得到一部分」。",
+        "share-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "share-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-02"
     },
@@ -507,11 +471,8 @@ export default {
       "masked": "The prize money was ____ equally among the winners.",
       "options": [
         "share-mcq-02",
-        "share-mcq-01",
-        "share-mcq-03",
-        "share-mcq-04",
         "share-mcq-05",
-        "share-mcq-06"
+        "share-mcq-09"
       ],
       "explanation": "本句的「shared」指「把一個整體分成若干部分，讓多人各自得到一部分」。",
       "sentenceIndex": 6,
@@ -520,12 +481,9 @@ export default {
         "shared"
       ],
       "optionReasons": {
-        "share-mcq-02": "本句指「把一個整體分成若干部分，讓多人各自得到一部分」。",
-        "share-mcq-01": "「讓別人一起使用、查看、享用或取得自己擁有的東西」是「share — give access/use jointly」的用法，與本句語境不同。",
-        "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。"
+        "share-mcq-02": "本句的「shared」指「把一個整體分成若干部分，讓多人各自得到一部分」。",
+        "share-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "share-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-02"
     },
@@ -537,11 +495,7 @@ export default {
       "masked": "She ____ her ideas with the group.",
       "options": [
         "share-mcq-03",
-        "share-mcq-02",
-        "share-mcq-04",
-        "share-mcq-01",
-        "share-mcq-05",
-        "share-mcq-06"
+        "share-mcq-13"
       ],
       "explanation": "本句的「shared」指「把自己知道、想到或感受到的內容告訴別人；與」。",
       "sentenceIndex": 7,
@@ -550,12 +504,8 @@ export default {
         "shared"
       ],
       "optionReasons": {
-        "share-mcq-03": "本句指「把自己知道、想到或感受到的內容告訴別人；與」。",
-        "share-mcq-02": "「把一個整體分成若干部分，讓多人各自得到一部分」是「share — divide/distribute」的用法，與本句語境不同。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-01": "「讓別人一起使用、查看、享用或取得自己擁有的東西」是「share — give access/use jointly」的用法，與本句語境不同。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。"
+        "share-mcq-03": "本句的「shared」指「把自己知道、想到或感受到的內容告訴別人；與」。",
+        "share-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-03"
     },
@@ -567,11 +517,7 @@ export default {
       "masked": "He rarely ____ his feelings.",
       "options": [
         "share-mcq-03",
-        "share-mcq-02",
-        "share-mcq-04",
-        "share-mcq-01",
-        "share-mcq-05",
-        "share-mcq-06"
+        "share-mcq-13"
       ],
       "explanation": "本句的「shares」指「把自己知道、想到或感受到的內容告訴別人；與」。",
       "sentenceIndex": 8,
@@ -580,12 +526,8 @@ export default {
         "shares"
       ],
       "optionReasons": {
-        "share-mcq-03": "本句指「把自己知道、想到或感受到的內容告訴別人；與」。",
-        "share-mcq-02": "「把一個整體分成若干部分，讓多人各自得到一部分」是「share — divide/distribute」的用法，與本句語境不同。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-01": "「讓別人一起使用、查看、享用或取得自己擁有的東西」是「share — give access/use jointly」的用法，與本句語境不同。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。"
+        "share-mcq-03": "本句的「shares」指「把自己知道、想到或感受到的內容告訴別人；與」。",
+        "share-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-03"
     },
@@ -597,11 +539,8 @@ export default {
       "masked": "We ____ the same interests.",
       "options": [
         "share-mcq-05",
-        "share-mcq-04",
-        "share-mcq-06",
-        "share-mcq-03",
-        "share-mcq-07",
-        "share-mcq-02"
+        "share-mcq-02",
+        "share-mcq-09"
       ],
       "explanation": "本句的「share」指「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」。",
       "sentenceIndex": 9,
@@ -610,12 +549,9 @@ export default {
         "share"
       ],
       "optionReasons": {
-        "share-mcq-05": "本句指「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。",
-        "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。",
-        "share-mcq-07": "「公司所有權被劃分出來的一個單位；股份／股票」是「share — company ownership unit」的用法，與本句語境不同。",
-        "share-mcq-02": "「把一個整體分成若干部分，讓多人各自得到一部分」是「share — divide/distribute」的用法，與本句語境不同。"
+        "share-mcq-05": "本句的「share」指「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」。",
+        "share-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "share-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-05"
     },
@@ -627,11 +563,7 @@ export default {
       "masked": "They ____ a strong belief in education.",
       "options": [
         "share-mcq-05",
-        "share-mcq-04",
-        "share-mcq-06",
-        "share-mcq-03",
-        "share-mcq-07",
-        "share-mcq-02"
+        "share-mcq-12"
       ],
       "explanation": "本句的「share」指「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」。",
       "sentenceIndex": 10,
@@ -640,12 +572,8 @@ export default {
         "share"
       ],
       "optionReasons": {
-        "share-mcq-05": "本句指「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。",
-        "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。",
-        "share-mcq-07": "「公司所有權被劃分出來的一個單位；股份／股票」是「share — company ownership unit」的用法，與本句語境不同。",
-        "share-mcq-02": "「把一個整體分成若干部分，讓多人各自得到一部分」是「share — divide/distribute」的用法，與本句語境不同。"
+        "share-mcq-05": "本句的「share」指「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」。",
+        "share-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-05"
     },
@@ -657,11 +585,8 @@ export default {
       "masked": "They ____ many happy memories.",
       "options": [
         "share-pdf-001",
-        "share-mcq-04",
-        "share-mcq-06",
-        "share-mcq-03",
-        "share-mcq-07",
-        "share-mcq-02"
+        "share-mcq-02",
+        "share-mcq-09"
       ],
       "explanation": "本句的「shared」指「多個人共同經歷或感受到同一件事情」。",
       "sentenceIndex": 11,
@@ -670,12 +595,9 @@ export default {
         "shared"
       ],
       "optionReasons": {
-        "share-pdf-001": "本句指「多個人共同經歷或感受到同一件事情」。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。",
-        "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。",
-        "share-mcq-07": "「公司所有權被劃分出來的一個單位；股份／股票」是「share — company ownership unit」的用法，與本句語境不同。",
-        "share-mcq-02": "「把一個整體分成若干部分，讓多人各自得到一部分」是「share — divide/distribute」的用法，與本句語境不同。"
+        "share-pdf-001": "本句的「shared」指「多個人共同經歷或感受到同一件事情」。",
+        "share-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "share-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-pdf-001"
     },
@@ -687,10 +609,7 @@ export default {
       "masked": "The whole team ____ the disappointment.",
       "options": [
         "share-pdf-001",
-        "share-mcq-04",
-        "share-mcq-06",
-        "share-mcq-03",
-        "share-mcq-07",
+        "share-mcq-09",
         "share-mcq-02"
       ],
       "explanation": "本句的「shared」指「多個人共同經歷或感受到同一件事情」。",
@@ -700,12 +619,9 @@ export default {
         "shared"
       ],
       "optionReasons": {
-        "share-pdf-001": "本句指「多個人共同經歷或感受到同一件事情」。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。",
-        "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。",
-        "share-mcq-07": "「公司所有權被劃分出來的一個單位；股份／股票」是「share — company ownership unit」的用法，與本句語境不同。",
-        "share-mcq-02": "「把一個整體分成若干部分，讓多人各自得到一部分」是「share — divide/distribute」的用法，與本句語境不同。"
+        "share-pdf-001": "本句的「shared」指「多個人共同經歷或感受到同一件事情」。",
+        "share-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "share-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-pdf-001"
     },
@@ -717,11 +633,7 @@ export default {
       "masked": "She ____ the video online.",
       "options": [
         "share-mcq-10",
-        "share-mcq-09",
-        "share-mcq-11",
-        "share-mcq-08",
-        "share-mcq-12",
-        "share-mcq-07"
+        "share-pdf-001"
       ],
       "explanation": "本句的「shared」指「透過網絡、應用程式或社交平台把內容提供給其他人查看」。",
       "sentenceIndex": 13,
@@ -730,12 +642,8 @@ export default {
         "shared"
       ],
       "optionReasons": {
-        "share-mcq-10": "本句指「透過網絡、應用程式或社交平台把內容提供給其他人查看」。",
-        "share-mcq-09": "「持有公司股份的人或機構；股東」是「shareholder」的用法，與本句語境不同。",
-        "share-mcq-11": "「與別人共同使用、分配或提供某物的行為」是「Related form: sharing」的用法，與本句語境不同。",
-        "share-mcq-08": "「某個整體中由某人、組別或類別所佔的一部分或比例」是「market/share of total」的用法，與本句語境不同。",
-        "share-mcq-12": "「按公平原則某人應獲得或承擔的一部分」是「Useful expression: fair share — 應有的一份；合理份額」的用法，與本句語境不同。",
-        "share-mcq-07": "「公司所有權被劃分出來的一個單位；股份／股票」是「share — company ownership unit」的用法，與本句語境不同。"
+        "share-mcq-10": "本句的「shared」指「透過網絡、應用程式或社交平台把內容提供給其他人查看」。",
+        "share-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-10"
     },
@@ -747,11 +655,7 @@ export default {
       "masked": "Please don’t ____ the link publicly.",
       "options": [
         "share-mcq-10",
-        "share-mcq-09",
-        "share-mcq-11",
-        "share-mcq-08",
-        "share-mcq-12",
-        "share-mcq-07"
+        "share-pdf-001"
       ],
       "explanation": "本句的「share」指「透過網絡、應用程式或社交平台把內容提供給其他人查看」。",
       "sentenceIndex": 14,
@@ -760,12 +664,8 @@ export default {
         "share"
       ],
       "optionReasons": {
-        "share-mcq-10": "本句指「透過網絡、應用程式或社交平台把內容提供給其他人查看」。",
-        "share-mcq-09": "「持有公司股份的人或機構；股東」是「shareholder」的用法，與本句語境不同。",
-        "share-mcq-11": "「與別人共同使用、分配或提供某物的行為」是「Related form: sharing」的用法，與本句語境不同。",
-        "share-mcq-08": "「某個整體中由某人、組別或類別所佔的一部分或比例」是「market/share of total」的用法，與本句語境不同。",
-        "share-mcq-12": "「按公平原則某人應獲得或承擔的一部分」是「Useful expression: fair share — 應有的一份；合理份額」的用法，與本句語境不同。",
-        "share-mcq-07": "「公司所有權被劃分出來的一個單位；股份／股票」是「share — company ownership unit」的用法，與本句語境不同。"
+        "share-mcq-10": "本句的「share」指「透過網絡、應用程式或社交平台把內容提供給其他人查看」。",
+        "share-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-10"
     },
@@ -777,11 +677,7 @@ export default {
       "masked": "Everyone paid their ____ of the bill.",
       "options": [
         "share-mcq-06",
-        "share-mcq-05",
-        "share-mcq-07",
-        "share-mcq-04",
-        "share-mcq-08",
-        "share-mcq-03"
+        "share-mcq-05"
       ],
       "explanation": "本句的「share」指「某人應得、擁有、承擔或獲分配的一部分／份額」。",
       "sentenceIndex": 15,
@@ -790,12 +686,8 @@ export default {
         "share"
       ],
       "optionReasons": {
-        "share-mcq-06": "本句指「某人應得、擁有、承擔或獲分配的一部分／份額」。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。",
-        "share-mcq-07": "「公司所有權被劃分出來的一個單位；股份／股票」是「share — company ownership unit」的用法，與本句語境不同。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-08": "「某個整體中由某人、組別或類別所佔的一部分或比例」是「market/share of total」的用法，與本句語境不同。",
-        "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。"
+        "share-mcq-06": "本句的「share」指「某人應得、擁有、承擔或獲分配的一部分／份額」。",
+        "share-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-06"
     },
@@ -807,11 +699,7 @@ export default {
       "masked": "She did more than her fair ____ of the work.",
       "options": [
         "share-mcq-06",
-        "share-mcq-05",
-        "share-mcq-07",
-        "share-mcq-04",
-        "share-mcq-08",
-        "share-mcq-03"
+        "share-pdf-001"
       ],
       "explanation": "本句的「share」指「某人應得、擁有、承擔或獲分配的一部分／份額」。",
       "sentenceIndex": 16,
@@ -820,12 +708,8 @@ export default {
         "share"
       ],
       "optionReasons": {
-        "share-mcq-06": "本句指「某人應得、擁有、承擔或獲分配的一部分／份額」。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。",
-        "share-mcq-07": "「公司所有權被劃分出來的一個單位；股份／股票」是「share — company ownership unit」的用法，與本句語境不同。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。",
-        "share-mcq-08": "「某個整體中由某人、組別或類別所佔的一部分或比例」是「market/share of total」的用法，與本句語境不同。",
-        "share-mcq-03": "「把自己知道、想到或感受到的內容告訴別人；與」是「share — communicate information/feelings」的用法，與本句語境不同。"
+        "share-mcq-06": "本句的「share」指「某人應得、擁有、承擔或獲分配的一部分／份額」。",
+        "share-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-06"
     },
@@ -837,11 +721,7 @@ export default {
       "masked": "She owns 500 ____ in the company.",
       "options": [
         "share-mcq-07",
-        "share-mcq-06",
-        "share-mcq-08",
-        "share-mcq-05",
-        "share-mcq-09",
-        "share-mcq-04"
+        "share-pdf-001"
       ],
       "explanation": "本句的「shares」指「公司所有權被劃分出來的一個單位；股份／股票」。",
       "sentenceIndex": 17,
@@ -850,12 +730,8 @@ export default {
         "shares"
       ],
       "optionReasons": {
-        "share-mcq-07": "本句指「公司所有權被劃分出來的一個單位；股份／股票」。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。",
-        "share-mcq-08": "「某個整體中由某人、組別或類別所佔的一部分或比例」是「market/share of total」的用法，與本句語境不同。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。",
-        "share-mcq-09": "「持有公司股份的人或機構；股東」是「shareholder」的用法，與本句語境不同。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。"
+        "share-mcq-07": "本句的「shares」指「公司所有權被劃分出來的一個單位；股份／股票」。",
+        "share-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-07"
     },
@@ -867,11 +743,7 @@ export default {
       "masked": "The company’s ____ rose after the announcement.",
       "options": [
         "share-mcq-07",
-        "share-mcq-06",
-        "share-mcq-08",
-        "share-mcq-05",
-        "share-mcq-09",
-        "share-mcq-04"
+        "share-mcq-05"
       ],
       "explanation": "本句的「shares」指「公司所有權被劃分出來的一個單位；股份／股票」。",
       "sentenceIndex": 18,
@@ -880,12 +752,8 @@ export default {
         "shares"
       ],
       "optionReasons": {
-        "share-mcq-07": "本句指「公司所有權被劃分出來的一個單位；股份／股票」。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。",
-        "share-mcq-08": "「某個整體中由某人、組別或類別所佔的一部分或比例」是「market/share of total」的用法，與本句語境不同。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。",
-        "share-mcq-09": "「持有公司股份的人或機構；股東」是「shareholder」的用法，與本句語境不同。",
-        "share-mcq-04": "「義相關」是「give-access」的用法，與本句語境不同。"
+        "share-mcq-07": "本句的「shares」指「公司所有權被劃分出來的一個單位；股份／股票」。",
+        "share-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-07"
     },
@@ -897,10 +765,6 @@ export default {
       "masked": "The company increased its market ____.",
       "options": [
         "share-mcq-08",
-        "share-mcq-07",
-        "share-mcq-09",
-        "share-mcq-06",
-        "share-mcq-10",
         "share-mcq-05"
       ],
       "explanation": "本句的「share」指「某個整體中由某人、組別或類別所佔的一部分或比例」。",
@@ -910,12 +774,8 @@ export default {
         "share"
       ],
       "optionReasons": {
-        "share-mcq-08": "本句指「某個整體中由某人、組別或類別所佔的一部分或比例」。",
-        "share-mcq-07": "「公司所有權被劃分出來的一個單位；股份／股票」是「share — company ownership unit」的用法，與本句語境不同。",
-        "share-mcq-09": "「持有公司股份的人或機構；股東」是「shareholder」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。",
-        "share-mcq-10": "「透過網絡、應用程式或社交平台把內容提供給其他人查看」是「7. share = post/distribute content digitally（網絡） — 分享；轉發」的用法，與本句語境不同。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。"
+        "share-mcq-08": "本句的「share」指「某個整體中由某人、組別或類別所佔的一部分或比例」。",
+        "share-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-08"
     },
@@ -927,11 +787,7 @@ export default {
       "masked": "Transport accounts for a large ____ of household spending.",
       "options": [
         "share-mcq-08",
-        "share-mcq-07",
-        "share-mcq-09",
-        "share-mcq-06",
-        "share-mcq-10",
-        "share-mcq-05"
+        "share-pdf-001"
       ],
       "explanation": "本句的「share」指「某個整體中由某人、組別或類別所佔的一部分或比例」。",
       "sentenceIndex": 20,
@@ -940,12 +796,8 @@ export default {
         "share"
       ],
       "optionReasons": {
-        "share-mcq-08": "本句指「某個整體中由某人、組別或類別所佔的一部分或比例」。",
-        "share-mcq-07": "「公司所有權被劃分出來的一個單位；股份／股票」是「share — company ownership unit」的用法，與本句語境不同。",
-        "share-mcq-09": "「持有公司股份的人或機構；股東」是「shareholder」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。",
-        "share-mcq-10": "「透過網絡、應用程式或社交平台把內容提供給其他人查看」是「7. share = post/distribute content digitally（網絡） — 分享；轉發」的用法，與本句語境不同。",
-        "share-mcq-05": "「兩個或以上的人共同具有相同的特質、觀點、興趣、感受或經歷」是「share — have in common」的用法，與本句語境不同。"
+        "share-mcq-08": "本句的「share」指「某個整體中由某人、組別或類別所佔的一部分或比例」。",
+        "share-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-08"
     },
@@ -957,11 +809,7 @@ export default {
       "masked": "File ____ is common in collaborative work.",
       "options": [
         "share-mcq-11",
-        "share-mcq-10",
-        "share-mcq-12",
-        "share-mcq-09",
-        "share-mcq-13",
-        "share-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「sharing」指「與別人共同使用、分配或提供某物的行為」。",
       "sentenceIndex": 21,
@@ -970,12 +818,8 @@ export default {
         "sharing"
       ],
       "optionReasons": {
-        "share-mcq-11": "本句指「與別人共同使用、分配或提供某物的行為」。",
-        "share-mcq-10": "「透過網絡、應用程式或社交平台把內容提供給其他人查看」是「7. share = post/distribute content digitally（網絡） — 分享；轉發」的用法，與本句語境不同。",
-        "share-mcq-12": "「按公平原則某人應獲得或承擔的一部分」是「Useful expression: fair share — 應有的一份；合理份額」的用法，與本句語境不同。",
-        "share-mcq-09": "「持有公司股份的人或機構；股東」是「shareholder」的用法，與本句語境不同。",
-        "share-mcq-13": "「表示平分」是「Useful expression: share something equally — 平分」的用法，與本句語境不同。",
-        "share-mcq-08": "「某個整體中由某人、組別或類別所佔的一部分或比例」是「market/share of total」的用法，與本句語境不同。"
+        "share-mcq-11": "本句的「sharing」指「與別人共同使用、分配或提供某物的行為」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-11"
     },
@@ -987,11 +831,7 @@ export default {
       "masked": "The children are learning about ____.",
       "options": [
         "share-mcq-11",
-        "share-mcq-10",
-        "share-mcq-12",
-        "share-mcq-09",
-        "share-mcq-13",
-        "share-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「sharing」指「與別人共同使用、分配或提供某物的行為」。",
       "sentenceIndex": 22,
@@ -1000,12 +840,8 @@ export default {
         "sharing"
       ],
       "optionReasons": {
-        "share-mcq-11": "本句指「與別人共同使用、分配或提供某物的行為」。",
-        "share-mcq-10": "「透過網絡、應用程式或社交平台把內容提供給其他人查看」是「7. share = post/distribute content digitally（網絡） — 分享；轉發」的用法，與本句語境不同。",
-        "share-mcq-12": "「按公平原則某人應獲得或承擔的一部分」是「Useful expression: fair share — 應有的一份；合理份額」的用法，與本句語境不同。",
-        "share-mcq-09": "「持有公司股份的人或機構；股東」是「shareholder」的用法，與本句語境不同。",
-        "share-mcq-13": "「表示平分」是「Useful expression: share something equally — 平分」的用法，與本句語境不同。",
-        "share-mcq-08": "「某個整體中由某人、組別或類別所佔的一部分或比例」是「market/share of total」的用法，與本句語境不同。"
+        "share-mcq-11": "本句的「sharing」指「與別人共同使用、分配或提供某物的行為」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-11"
     },
@@ -1017,11 +853,8 @@ export default {
       "masked": "The company sent the report to all ____.",
       "options": [
         "share-mcq-09",
-        "share-mcq-08",
-        "share-mcq-10",
-        "share-mcq-07",
-        "share-mcq-11",
-        "share-mcq-06"
+        "share-pdf-001",
+        "share-mcq-02"
       ],
       "explanation": "本句的「shareholders」指「持有公司股份的人或機構；股東」。",
       "sentenceIndex": 23,
@@ -1030,12 +863,9 @@ export default {
         "shareholders"
       ],
       "optionReasons": {
-        "share-mcq-09": "本句指「持有公司股份的人或機構；股東」。",
-        "share-mcq-08": "「某個整體中由某人、組別或類別所佔的一部分或比例」是「market/share of total」的用法，與本句語境不同。",
-        "share-mcq-10": "「透過網絡、應用程式或社交平台把內容提供給其他人查看」是「7. share = post/distribute content digitally（網絡） — 分享；轉發」的用法，與本句語境不同。",
-        "share-mcq-07": "「公司所有權被劃分出來的一個單位；股份／股票」是「share — company ownership unit」的用法，與本句語境不同。",
-        "share-mcq-11": "「與別人共同使用、分配或提供某物的行為」是「Related form: sharing」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。"
+        "share-mcq-09": "本句的「shareholders」指「持有公司股份的人或機構；股東」。",
+        "share-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "share-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-09"
     },
@@ -1047,11 +877,8 @@ export default {
       "masked": "Major ____ voted on the proposal.",
       "options": [
         "share-mcq-09",
-        "share-mcq-08",
-        "share-mcq-10",
-        "share-mcq-07",
-        "share-mcq-11",
-        "share-mcq-06"
+        "share-mcq-13",
+        "share-mcq-05"
       ],
       "explanation": "本句的「shareholders」指「持有公司股份的人或機構；股東」。",
       "sentenceIndex": 24,
@@ -1060,12 +887,9 @@ export default {
         "shareholders"
       ],
       "optionReasons": {
-        "share-mcq-09": "本句指「持有公司股份的人或機構；股東」。",
-        "share-mcq-08": "「某個整體中由某人、組別或類別所佔的一部分或比例」是「market/share of total」的用法，與本句語境不同。",
-        "share-mcq-10": "「透過網絡、應用程式或社交平台把內容提供給其他人查看」是「7. share = post/distribute content digitally（網絡） — 分享；轉發」的用法，與本句語境不同。",
-        "share-mcq-07": "「公司所有權被劃分出來的一個單位；股份／股票」是「share — company ownership unit」的用法，與本句語境不同。",
-        "share-mcq-11": "「與別人共同使用、分配或提供某物的行為」是「Related form: sharing」的用法，與本句語境不同。",
-        "share-mcq-06": "「某人應得、擁有、承擔或獲分配的一部分／份額」是「a share — allocated portion」的用法，與本句語境不同。"
+        "share-mcq-09": "本句的「shareholders」指「持有公司股份的人或機構；股東」。",
+        "share-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "share-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-09"
     },
@@ -1077,11 +901,7 @@ export default {
       "masked": "Everyone should do their ____.",
       "options": [
         "share-mcq-12",
-        "share-mcq-11",
-        "share-mcq-13",
-        "share-mcq-10",
-        "share-mcq-09",
-        "share-mcq-08"
+        "share-pdf-001"
       ],
       "explanation": "本句的「fair share」指「按公平原則某人應獲得或承擔的一部分」。",
       "sentenceIndex": 25,
@@ -1090,12 +910,8 @@ export default {
         "fair share"
       ],
       "optionReasons": {
-        "share-mcq-12": "本句指「按公平原則某人應獲得或承擔的一部分」。",
-        "share-mcq-11": "「與別人共同使用、分配或提供某物的行為」是「Related form: sharing」的用法，與本句語境不同。",
-        "share-mcq-13": "「表示平分」是「Useful expression: share something equally — 平分」的用法，與本句語境不同。",
-        "share-mcq-10": "「透過網絡、應用程式或社交平台把內容提供給其他人查看」是「7. share = post/distribute content digitally（網絡） — 分享；轉發」的用法，與本句語境不同。",
-        "share-mcq-09": "「持有公司股份的人或機構；股東」是「shareholder」的用法，與本句語境不同。",
-        "share-mcq-08": "「某個整體中由某人、組別或類別所佔的一部分或比例」是「market/share of total」的用法，與本句語境不同。"
+        "share-mcq-12": "本句的「fair share」指「按公平原則某人應獲得或承擔的一部分」。",
+        "share-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-12"
     },
@@ -1107,11 +923,7 @@ export default {
       "masked": "The region receives its ____ of funding.",
       "options": [
         "share-mcq-12",
-        "share-mcq-11",
-        "share-mcq-13",
-        "share-mcq-10",
-        "share-mcq-09",
-        "share-mcq-08"
+        "share-pdf-001"
       ],
       "explanation": "本句的「fair share」指「按公平原則某人應獲得或承擔的一部分」。",
       "sentenceIndex": 26,
@@ -1120,12 +932,8 @@ export default {
         "fair share"
       ],
       "optionReasons": {
-        "share-mcq-12": "本句指「按公平原則某人應獲得或承擔的一部分」。",
-        "share-mcq-11": "「與別人共同使用、分配或提供某物的行為」是「Related form: sharing」的用法，與本句語境不同。",
-        "share-mcq-13": "「表示平分」是「Useful expression: share something equally — 平分」的用法，與本句語境不同。",
-        "share-mcq-10": "「透過網絡、應用程式或社交平台把內容提供給其他人查看」是「7. share = post/distribute content digitally（網絡） — 分享；轉發」的用法，與本句語境不同。",
-        "share-mcq-09": "「持有公司股份的人或機構；股東」是「shareholder」的用法，與本句語境不同。",
-        "share-mcq-08": "「某個整體中由某人、組別或類別所佔的一部分或比例」是「market/share of total」的用法，與本句語境不同。"
+        "share-mcq-12": "本句的「fair share」指「按公平原則某人應獲得或承擔的一部分」。",
+        "share-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-12"
     },
@@ -1137,11 +945,8 @@ export default {
       "masked": "We ____.",
       "options": [
         "share-mcq-13",
-        "share-mcq-12",
-        "share-mcq-11",
-        "share-mcq-10",
-        "share-mcq-09",
-        "share-mcq-08"
+        "share-mcq-01",
+        "share-mcq-05"
       ],
       "explanation": "本句的「shared the cost equally」指「表示平分」。",
       "sentenceIndex": 27,
@@ -1150,12 +955,9 @@ export default {
         "shared the cost equally"
       ],
       "optionReasons": {
-        "share-mcq-13": "本句指「表示平分」。",
-        "share-mcq-12": "「按公平原則某人應獲得或承擔的一部分」是「Useful expression: fair share — 應有的一份；合理份額」的用法，與本句語境不同。",
-        "share-mcq-11": "「與別人共同使用、分配或提供某物的行為」是「Related form: sharing」的用法，與本句語境不同。",
-        "share-mcq-10": "「透過網絡、應用程式或社交平台把內容提供給其他人查看」是「7. share = post/distribute content digitally（網絡） — 分享；轉發」的用法，與本句語境不同。",
-        "share-mcq-09": "「持有公司股份的人或機構；股東」是「shareholder」的用法，與本句語境不同。",
-        "share-mcq-08": "「某個整體中由某人、組別或類別所佔的一部分或比例」是「market/share of total」的用法，與本句語境不同。"
+        "share-mcq-13": "本句的「shared the cost equally」指「表示平分」。",
+        "share-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "share-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-13"
     },
@@ -1167,11 +969,8 @@ export default {
       "masked": "The children ____.",
       "options": [
         "share-mcq-13",
-        "share-mcq-12",
-        "share-mcq-11",
-        "share-mcq-10",
-        "share-mcq-09",
-        "share-mcq-08"
+        "share-mcq-01",
+        "share-pdf-001"
       ],
       "explanation": "本句的「shared the sweets equally」指「表示平分」。",
       "sentenceIndex": 28,
@@ -1180,12 +979,9 @@ export default {
         "shared the sweets equally"
       ],
       "optionReasons": {
-        "share-mcq-13": "本句指「表示平分」。",
-        "share-mcq-12": "「按公平原則某人應獲得或承擔的一部分」是「Useful expression: fair share — 應有的一份；合理份額」的用法，與本句語境不同。",
-        "share-mcq-11": "「與別人共同使用、分配或提供某物的行為」是「Related form: sharing」的用法，與本句語境不同。",
-        "share-mcq-10": "「透過網絡、應用程式或社交平台把內容提供給其他人查看」是「7. share = post/distribute content digitally（網絡） — 分享；轉發」的用法，與本句語境不同。",
-        "share-mcq-09": "「持有公司股份的人或機構；股東」是「shareholder」的用法，與本句語境不同。",
-        "share-mcq-08": "「某個整體中由某人、組別或類別所佔的一部分或比例」是「market/share of total」的用法，與本句語境不同。"
+        "share-mcq-13": "本句的「shared the sweets equally」指「表示平分」。",
+        "share-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "share-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "share-mcq-13"
     }
@@ -1197,5 +993,12 @@ export default {
     "sha256": "098374cf7ceb05683f5eb42b1f919aadbc697dfc72cc789608c255fe42b5db63",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

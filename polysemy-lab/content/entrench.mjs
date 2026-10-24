@@ -450,11 +450,9 @@ export default {
       "masked": "The soldiers ____ their position.",
       "options": [
         "entrench-mcq-01",
-        "entrench-mcq-02",
-        "entrench-mcq-03",
-        "entrench-mcq-04",
-        "entrench-mcq-05",
-        "entrench-mcq-06"
+        "entrench-mcq-29",
+        "entrench-mcq-14",
+        "entrench-mcq-07"
       ],
       "explanation": "本句的「entrenched」指「挖掘壕溝來鞏固、防守某陣地」。",
       "sentenceIndex": 0,
@@ -463,12 +461,10 @@ export default {
         "entrenched"
       ],
       "optionReasons": {
-        "entrench-mcq-01": "本句指「挖掘壕溝來鞏固、防守某陣地」。",
-        "entrench-mcq-02": "「掘壕固守」與本句語境不同。",
-        "entrench-mcq-03": "「有壕溝／防禦工事保護的堅固陣地」與本句語境不同。",
-        "entrench-mcq-04": "「築壕設防的過程；亦可指壕溝防禦工事」與本句語境不同。",
-        "entrench-mcq-05": "「軍用掘壕鏟／挖掘防禦工事的工具」與本句語境不同。",
-        "entrench-mcq-06": "「使某事變得牢固確立、根深蒂固而難以改變」與本句語境不同。"
+        "entrench-mcq-01": "本句的「entrenched」指「挖掘壕溝來鞏固、防守某陣地」。",
+        "entrench-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entrench-mcq-01"
     },
@@ -480,11 +476,9 @@ export default {
       "masked": "The troops became heavily ____.",
       "options": [
         "entrench-mcq-01",
-        "entrench-mcq-02",
-        "entrench-mcq-03",
-        "entrench-mcq-04",
-        "entrench-mcq-05",
-        "entrench-mcq-06"
+        "entrench-mcq-11",
+        "entrench-mcq-29",
+        "entrench-mcq-07"
       ],
       "explanation": "本句的「entrenched」指「挖掘壕溝來鞏固、防守某陣地」。",
       "sentenceIndex": 1,
@@ -493,12 +487,10 @@ export default {
         "entrenched"
       ],
       "optionReasons": {
-        "entrench-mcq-01": "本句指「挖掘壕溝來鞏固、防守某陣地」。",
-        "entrench-mcq-02": "「掘壕固守」與本句語境不同。",
-        "entrench-mcq-03": "「有壕溝／防禦工事保護的堅固陣地」與本句語境不同。",
-        "entrench-mcq-04": "「築壕設防的過程；亦可指壕溝防禦工事」與本句語境不同。",
-        "entrench-mcq-05": "「軍用掘壕鏟／挖掘防禦工事的工具」與本句語境不同。",
-        "entrench-mcq-06": "「使某事變得牢固確立、根深蒂固而難以改變」與本句語境不同。"
+        "entrench-mcq-01": "本句的「entrenched」指「挖掘壕溝來鞏固、防守某陣地」。",
+        "entrench-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entrench-mcq-01"
     },
@@ -510,11 +502,9 @@ export default {
       "masked": "The troops ____ themselves on the hillside.",
       "options": [
         "entrench-mcq-02",
-        "entrench-mcq-01",
-        "entrench-mcq-03",
-        "entrench-mcq-04",
-        "entrench-mcq-05",
-        "entrench-mcq-06"
+        "entrench-mcq-29",
+        "entrench-mcq-14",
+        "entrench-mcq-07"
       ],
       "explanation": "本句的「entrenched」指「掘壕固守」。",
       "sentenceIndex": 2,
@@ -523,12 +513,10 @@ export default {
         "entrenched"
       ],
       "optionReasons": {
-        "entrench-mcq-02": "本句指「掘壕固守」。",
-        "entrench-mcq-01": "「挖掘壕溝來鞏固、防守某陣地」與本句語境不同。",
-        "entrench-mcq-03": "「有壕溝／防禦工事保護的堅固陣地」與本句語境不同。",
-        "entrench-mcq-04": "「築壕設防的過程；亦可指壕溝防禦工事」與本句語境不同。",
-        "entrench-mcq-05": "「軍用掘壕鏟／挖掘防禦工事的工具」與本句語境不同。",
-        "entrench-mcq-06": "「使某事變得牢固確立、根深蒂固而難以改變」與本句語境不同。"
+        "entrench-mcq-02": "本句的「entrenched」指「掘壕固守」。",
+        "entrench-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entrench-mcq-02"
     },
@@ -540,11 +528,9 @@ export default {
       "masked": "The attackers struggled to dislodge the defenders from their ____ positions.",
       "options": [
         "entrench-mcq-03",
-        "entrench-mcq-02",
-        "entrench-mcq-04",
-        "entrench-mcq-01",
-        "entrench-mcq-05",
-        "entrench-mcq-06"
+        "entrench-mcq-14",
+        "entrench-mcq-29",
+        "entrench-mcq-07"
       ],
       "explanation": "本句的「entrenched」指「有壕溝／防禦工事保護的堅固陣地」。",
       "sentenceIndex": 3,
@@ -553,12 +539,10 @@ export default {
         "entrenched"
       ],
       "optionReasons": {
-        "entrench-mcq-03": "本句指「有壕溝／防禦工事保護的堅固陣地」。",
-        "entrench-mcq-02": "「掘壕固守」與本句語境不同。",
-        "entrench-mcq-04": "「築壕設防的過程；亦可指壕溝防禦工事」與本句語境不同。",
-        "entrench-mcq-01": "「挖掘壕溝來鞏固、防守某陣地」與本句語境不同。",
-        "entrench-mcq-05": "「軍用掘壕鏟／挖掘防禦工事的工具」與本句語境不同。",
-        "entrench-mcq-06": "「使某事變得牢固確立、根深蒂固而難以改變」與本句語境不同。"
+        "entrench-mcq-03": "本句的「entrenched」指「有壕溝／防禦工事保護的堅固陣地」。",
+        "entrench-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entrench-mcq-03"
     },
@@ -570,11 +554,9 @@ export default {
       "masked": "The belief is deeply ____.",
       "options": [
         "entrench-mcq-07",
-        "entrench-mcq-06",
-        "entrench-mcq-08",
-        "entrench-mcq-05",
-        "entrench-mcq-09",
-        "entrench-mcq-04"
+        "entrench-mcq-11",
+        "entrench-mcq-03",
+        "entrench-mcq-29"
       ],
       "explanation": "本句的「entrenched」指「已根深蒂固、非常難改變」。",
       "sentenceIndex": 10,
@@ -583,12 +565,10 @@ export default {
         "entrenched"
       ],
       "optionReasons": {
-        "entrench-mcq-07": "本句指「已根深蒂固、非常難改變」。",
-        "entrench-mcq-06": "「使某事變得牢固確立、根深蒂固而難以改變」與本句語境不同。",
-        "entrench-mcq-08": "「難以改變的根深蒂固信念／態度」與本句語境不同。",
-        "entrench-mcq-05": "「軍用掘壕鏟／挖掘防禦工事的工具」與本句語境不同。",
-        "entrench-mcq-09": "「長期形成並難以改變的習慣／做法」與本句語境不同。",
-        "entrench-mcq-04": "「築壕設防的過程；亦可指壕溝防禦工事」與本句語境不同。"
+        "entrench-mcq-07": "本句的「entrenched」指「已根深蒂固、非常難改變」。",
+        "entrench-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entrench-mcq-07"
     },
@@ -600,11 +580,8 @@ export default {
       "masked": "Evidence alone may not change an ____ belief.",
       "options": [
         "entrench-mcq-08",
-        "entrench-mcq-07",
-        "entrench-mcq-09",
-        "entrench-mcq-06",
-        "entrench-mcq-10",
-        "entrench-mcq-05"
+        "entrench-mcq-03",
+        "entrench-mcq-29"
       ],
       "explanation": "本句的「entrenched」指「難以改變的根深蒂固信念／態度」。",
       "sentenceIndex": 12,
@@ -613,12 +590,9 @@ export default {
         "entrenched"
       ],
       "optionReasons": {
-        "entrench-mcq-08": "本句指「難以改變的根深蒂固信念／態度」。",
-        "entrench-mcq-07": "「已根深蒂固、非常難改變」與本句語境不同。",
-        "entrench-mcq-09": "「長期形成並難以改變的習慣／做法」與本句語境不同。",
-        "entrench-mcq-06": "「使某事變得牢固確立、根深蒂固而難以改變」與本句語境不同。",
-        "entrench-mcq-10": "「因長期建立而難以改革／取代的制度」與本句語境不同。",
-        "entrench-mcq-05": "「軍用掘壕鏟／挖掘防禦工事的工具」與本句語境不同。"
+        "entrench-mcq-08": "本句的「entrenched」指「難以改變的根深蒂固信念／態度」。",
+        "entrench-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entrench-mcq-08"
     },
@@ -630,11 +604,8 @@ export default {
       "masked": "It is difficult to change ____ habits.",
       "options": [
         "entrench-mcq-09",
-        "entrench-mcq-08",
-        "entrench-mcq-10",
-        "entrench-mcq-07",
-        "entrench-mcq-11",
-        "entrench-mcq-06"
+        "entrench-mcq-29",
+        "entrench-mcq-02"
       ],
       "explanation": "本句的「entrenched」指「長期形成並難以改變的習慣／做法」。",
       "sentenceIndex": 14,
@@ -643,12 +614,9 @@ export default {
         "entrenched"
       ],
       "optionReasons": {
-        "entrench-mcq-09": "本句指「長期形成並難以改變的習慣／做法」。",
-        "entrench-mcq-08": "「難以改變的根深蒂固信念／態度」與本句語境不同。",
-        "entrench-mcq-10": "「因長期建立而難以改革／取代的制度」與本句語境不同。",
-        "entrench-mcq-07": "「已根深蒂固、非常難改變」與本句語境不同。",
-        "entrench-mcq-11": "「令問題更長期、結構化、難以解決」與本句語境不同。",
-        "entrench-mcq-06": "「使某事變得牢固確立、根深蒂固而難以改變」與本句語境不同。"
+        "entrench-mcq-09": "本句的「entrenched」指「長期形成並難以改變的習慣／做法」。",
+        "entrench-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entrench-mcq-09"
     },
@@ -660,11 +628,9 @@ export default {
       "masked": "The temporary solution may ____ the underlying problem.",
       "options": [
         "entrench-mcq-11",
-        "entrench-mcq-10",
-        "entrench-mcq-12",
-        "entrench-mcq-09",
-        "entrench-mcq-13",
-        "entrench-mcq-08"
+        "entrench-mcq-02",
+        "entrench-mcq-29",
+        "entrench-mcq-07"
       ],
       "explanation": "本句的「entrench」指「令問題更長期、結構化、難以解決」。",
       "sentenceIndex": 17,
@@ -673,12 +639,10 @@ export default {
         "entrench"
       ],
       "optionReasons": {
-        "entrench-mcq-11": "本句指「令問題更長期、結構化、難以解決」。",
-        "entrench-mcq-10": "「因長期建立而難以改革／取代的制度」與本句語境不同。",
-        "entrench-mcq-12": "「已深深植根於制度／社會安排中的結構性問題」與本句語境不同。",
-        "entrench-mcq-09": "「長期形成並難以改變的習慣／做法」與本句語境不同。",
-        "entrench-mcq-13": "「令不平等／弱勢狀況固化並更難改變」與本句語境不同。",
-        "entrench-mcq-08": "「難以改變的根深蒂固信念／態度」與本句語境不同。"
+        "entrench-mcq-11": "本句的「entrench」指「令問題更長期、結構化、難以解決」。",
+        "entrench-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entrench-mcq-11"
     },
@@ -690,11 +654,9 @@ export default {
       "masked": "The policy may unintentionally ____ poverty.",
       "options": [
         "entrench-mcq-14",
-        "entrench-mcq-13",
-        "entrench-mcq-15",
-        "entrench-mcq-12",
-        "entrench-mcq-16",
-        "entrench-mcq-11"
+        "entrench-mcq-02",
+        "entrench-mcq-29",
+        "entrench-mcq-07"
       ],
       "explanation": "本句的「entrench」指「令貧困狀況長期化、難以脫離」。",
       "sentenceIndex": 20,
@@ -703,12 +665,10 @@ export default {
         "entrench"
       ],
       "optionReasons": {
-        "entrench-mcq-14": "本句指「令貧困狀況長期化、難以脫離」。",
-        "entrench-mcq-13": "「令不平等／弱勢狀況固化並更難改變」與本句語境不同。",
-        "entrench-mcq-15": "「使權力／控制地位更牢固、難以挑戰」與本句語境不同。",
-        "entrench-mcq-12": "「已深深植根於制度／社會安排中的結構性問題」與本句語境不同。",
-        "entrench-mcq-16": "「鞏固自己的權力地位，使自己難以被取代」與本句語境不同。",
-        "entrench-mcq-11": "「令問題更長期、結構化、難以解決」與本句語境不同。"
+        "entrench-mcq-14": "本句的「entrench」指「令貧困狀況長期化、難以脫離」。",
+        "entrench-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entrench-mcq-14"
     },
@@ -720,11 +680,9 @@ export default {
       "masked": "The new structure could ____ the leadership's control.",
       "options": [
         "entrench-mcq-15",
-        "entrench-mcq-14",
-        "entrench-mcq-16",
-        "entrench-mcq-13",
-        "entrench-mcq-17",
-        "entrench-mcq-12"
+        "entrench-mcq-29",
+        "entrench-mcq-01",
+        "entrench-mcq-07"
       ],
       "explanation": "本句的「entrench」指「使權力／控制地位更牢固、難以挑戰」。",
       "sentenceIndex": 21,
@@ -733,12 +691,10 @@ export default {
         "entrench"
       ],
       "optionReasons": {
-        "entrench-mcq-15": "本句指「使權力／控制地位更牢固、難以挑戰」。",
-        "entrench-mcq-14": "「令貧困狀況長期化、難以脫離」與本句語境不同。",
-        "entrench-mcq-16": "「鞏固自己的權力地位，使自己難以被取代」與本句語境不同。",
-        "entrench-mcq-13": "「令不平等／弱勢狀況固化並更難改變」與本句語境不同。",
-        "entrench-mcq-17": "「在市場建立牢固而難以撼動的位置」與本句語境不同。",
-        "entrench-mcq-12": "「已深深植根於制度／社會安排中的結構性問題」與本句語境不同。"
+        "entrench-mcq-15": "本句的「entrench」指「使權力／控制地位更牢固、難以挑戰」。",
+        "entrench-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entrench-mcq-15"
     },
@@ -750,11 +706,9 @@ export default {
       "masked": "The company quickly ____ itself in the market.",
       "options": [
         "entrench-mcq-16",
-        "entrench-mcq-15",
-        "entrench-mcq-17",
-        "entrench-mcq-14",
-        "entrench-mcq-18",
-        "entrench-mcq-13"
+        "entrench-mcq-29",
+        "entrench-mcq-02",
+        "entrench-mcq-07"
       ],
       "explanation": "本句的「entrenched」指「鞏固自己的權力地位，使自己難以被取代」。",
       "sentenceIndex": 22,
@@ -763,12 +717,10 @@ export default {
         "entrenched"
       ],
       "optionReasons": {
-        "entrench-mcq-16": "本句指「鞏固自己的權力地位，使自己難以被取代」。",
-        "entrench-mcq-15": "「使權力／控制地位更牢固、難以挑戰」與本句語境不同。",
-        "entrench-mcq-17": "「在市場建立牢固而難以撼動的位置」與本句語境不同。",
-        "entrench-mcq-14": "「令貧困狀況長期化、難以脫離」與本句語境不同。",
-        "entrench-mcq-18": "「已佔穩位置、難以被新競爭者取代的現任者／既有供應商」與本句語境不同。",
-        "entrench-mcq-13": "「令不平等／弱勢狀況固化並更難改變」與本句語境不同。"
+        "entrench-mcq-16": "本句的「entrenched」指「鞏固自己的權力地位，使自己難以被取代」。",
+        "entrench-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entrench-mcq-16"
     },
@@ -780,11 +732,8 @@ export default {
       "masked": "Both sides remained in ____ positions.",
       "options": [
         "entrench-mcq-20",
-        "entrench-mcq-19",
-        "entrench-mcq-21",
-        "entrench-mcq-18",
-        "entrench-mcq-22",
-        "entrench-mcq-17"
+        "entrench-mcq-29",
+        "entrench-mcq-03"
       ],
       "explanation": "本句的「entrenched」指「固守而難以改變的立場」。",
       "sentenceIndex": 25,
@@ -793,12 +742,9 @@ export default {
         "entrenched"
       ],
       "optionReasons": {
-        "entrench-mcq-20": "本句指「固守而難以改變的立場」。",
-        "entrench-mcq-19": "「根基牢固並有能力抵抗改變的既得利益」與本句語境不同。",
-        "entrench-mcq-21": "「因廣泛既有使用而難以被替換的技術／系統」與本句語境不同。",
-        "entrench-mcq-18": "「已佔穩位置、難以被新競爭者取代的現任者／既有供應商」與本句語境不同。",
-        "entrench-mcq-22": "「給權利／規則更強的制度性保障，使之較難修改」與本句語境不同。",
-        "entrench-mcq-17": "「在市場建立牢固而難以撼動的位置」與本句語境不同。"
+        "entrench-mcq-20": "本句的「entrenched」指「固守而難以改變的立場」。",
+        "entrench-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entrench-mcq-20"
     },
@@ -810,11 +756,8 @@ export default {
       "masked": "The old format remains deeply ____.",
       "options": [
         "entrench-mcq-21",
-        "entrench-mcq-20",
-        "entrench-mcq-22",
-        "entrench-mcq-19",
-        "entrench-mcq-23",
-        "entrench-mcq-18"
+        "entrench-mcq-01",
+        "entrench-mcq-29"
       ],
       "explanation": "本句的「entrenched」指「因廣泛既有使用而難以被替換的技術／系統」。",
       "sentenceIndex": 27,
@@ -823,12 +766,9 @@ export default {
         "entrenched"
       ],
       "optionReasons": {
-        "entrench-mcq-21": "本句指「因廣泛既有使用而難以被替換的技術／系統」。",
-        "entrench-mcq-20": "「固守而難以改變的立場」與本句語境不同。",
-        "entrench-mcq-22": "「給權利／規則更強的制度性保障，使之較難修改」與本句語境不同。",
-        "entrench-mcq-19": "「根基牢固並有能力抵抗改變的既得利益」與本句語境不同。",
-        "entrench-mcq-23": "「令憲制規範比普通法律更難修改的制度安排」與本句語境不同。",
-        "entrench-mcq-18": "「已佔穩位置、難以被新競爭者取代的現任者／既有供應商」與本句語境不同。"
+        "entrench-mcq-21": "本句的「entrenched」指「因廣泛既有使用而難以被替換的技術／系統」。",
+        "entrench-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entrench-mcq-21"
     },
@@ -840,11 +780,8 @@ export default {
       "masked": "The river became deeply ____ below its former floodplain.",
       "options": [
         "entrench-mcq-29",
-        "entrench-mcq-28",
-        "entrench-mcq-30",
-        "entrench-mcq-27",
-        "entrench-mcq-31",
-        "entrench-mcq-26"
+        "entrench-mcq-02",
+        "entrench-mcq-09"
       ],
       "explanation": "本句的「entrenched」指「河流向下侵蝕，使河道深切於原地面／泛濫平原」。",
       "sentenceIndex": 28,
@@ -853,12 +790,9 @@ export default {
         "entrenched"
       ],
       "optionReasons": {
-        "entrench-mcq-29": "本句指「河流向下侵蝕，使河道深切於原地面／泛濫平原」。",
-        "entrench-mcq-28": "「語言形式因反覆使用／接觸而在認知表徵中逐漸固化」與本句語境不同。",
-        "entrench-mcq-30": "「深切進地形中的曲流」與本句語境不同。",
-        "entrench-mcq-27": "「公司治理研究中衡量某些管理層固守因素的專門指標」與本句語境不同。",
-        "entrench-mcq-31": "「侵犯／侵佔某人的權利或領域；罕見舊義」與本句語境不同。",
-        "entrench-mcq-26": "「管理層令自己更難被替換或受到治理機制約束的狀態」與本句語境不同。"
+        "entrench-mcq-29": "本句的「entrenched」指「河流向下侵蝕，使河道深切於原地面／泛濫平原」。",
+        "entrench-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "entrench-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entrench-mcq-29"
     }
@@ -870,5 +804,7 @@ export default {
     "sha256": "bd17a7eb1a53fd0e467993d8c4cb2b4c8993fdd9d4e5f7951205a8e51f79792b",
     "pages": 39
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

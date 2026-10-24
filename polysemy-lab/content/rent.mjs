@@ -337,11 +337,9 @@ export default {
       "masked": "Small businesses face ____.",
       "options": [
         "rent-mcq-01",
-        "rent-mcq-02",
-        "rent-mcq-03",
-        "rent-mcq-04",
         "rent-mcq-05",
-        "rent-mcq-06"
+        "rent-mcq-12",
+        "rent-mcq-10"
       ],
       "explanation": "本句的「rising rent」指「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」。",
       "sentenceIndex": 0,
@@ -350,12 +348,10 @@ export default {
         "rising rent"
       ],
       "optionReasons": {
-        "rent-mcq-01": "本句指「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」。",
-        "rent-mcq-02": "「為暫時使用場地、設備等支付的租用費」與本句語境不同。",
-        "rent-mcq-03": "「付款取得某物一段時間的使用權，而不擁有它」與本句語境不同。",
-        "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。"
+        "rent-mcq-01": "本句的「rising rent」指「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」。",
+        "rent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-01"
     },
@@ -367,11 +363,9 @@ export default {
       "masked": "The monthly ____ is too high.",
       "options": [
         "rent-mcq-01",
-        "rent-mcq-02",
-        "rent-mcq-03",
-        "rent-mcq-04",
         "rent-mcq-05",
-        "rent-mcq-06"
+        "rent-mcq-12",
+        "rent-mcq-10"
       ],
       "explanation": "本句的「rent」指「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」。",
       "sentenceIndex": 1,
@@ -380,12 +374,10 @@ export default {
         "rent"
       ],
       "optionReasons": {
-        "rent-mcq-01": "本句指「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」。",
-        "rent-mcq-02": "「為暫時使用場地、設備等支付的租用費」與本句語境不同。",
-        "rent-mcq-03": "「付款取得某物一段時間的使用權，而不擁有它」與本句語境不同。",
-        "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。"
+        "rent-mcq-01": "本句的「rent」指「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」。",
+        "rent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-01"
     },
@@ -397,11 +389,9 @@ export default {
       "masked": "They spend a large part of their income on ____.",
       "options": [
         "rent-mcq-01",
-        "rent-mcq-02",
-        "rent-mcq-03",
-        "rent-mcq-04",
         "rent-mcq-05",
-        "rent-mcq-06"
+        "rent-mcq-10",
+        "rent-mcq-12"
       ],
       "explanation": "本句的「rent」指「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」。",
       "sentenceIndex": 2,
@@ -410,12 +400,10 @@ export default {
         "rent"
       ],
       "optionReasons": {
-        "rent-mcq-01": "本句指「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」。",
-        "rent-mcq-02": "「為暫時使用場地、設備等支付的租用費」與本句語境不同。",
-        "rent-mcq-03": "「付款取得某物一段時間的使用權，而不擁有它」與本句語境不同。",
-        "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。"
+        "rent-mcq-01": "本句的「rent」指「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」。",
+        "rent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-01"
     },
@@ -427,11 +415,9 @@ export default {
       "masked": "The equipment ____ was included in the budget.",
       "options": [
         "rent-mcq-02",
-        "rent-mcq-01",
-        "rent-mcq-03",
-        "rent-mcq-04",
-        "rent-mcq-05",
-        "rent-mcq-06"
+        "rent-mcq-13",
+        "rent-mcq-12",
+        "rent-mcq-10"
       ],
       "explanation": "本句的「rent」指「為暫時使用場地、設備等支付的租用費」。",
       "sentenceIndex": 3,
@@ -440,12 +426,10 @@ export default {
         "rent"
       ],
       "optionReasons": {
-        "rent-mcq-02": "本句指「為暫時使用場地、設備等支付的租用費」。",
-        "rent-mcq-01": "「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」與本句語境不同。",
-        "rent-mcq-03": "「付款取得某物一段時間的使用權，而不擁有它」與本句語境不同。",
-        "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。"
+        "rent-mcq-02": "本句的「rent」指「為暫時使用場地、設備等支付的租用費」。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-02"
     },
@@ -457,11 +441,9 @@ export default {
       "masked": "The ____ for the hall is charged by the hour.",
       "options": [
         "rent-mcq-02",
-        "rent-mcq-01",
-        "rent-mcq-03",
-        "rent-mcq-04",
-        "rent-mcq-05",
-        "rent-mcq-06"
+        "rent-mcq-13",
+        "rent-mcq-10",
+        "rent-mcq-12"
       ],
       "explanation": "本句的「rent」指「為暫時使用場地、設備等支付的租用費」。",
       "sentenceIndex": 4,
@@ -470,12 +452,10 @@ export default {
         "rent"
       ],
       "optionReasons": {
-        "rent-mcq-02": "本句指「為暫時使用場地、設備等支付的租用費」。",
-        "rent-mcq-01": "「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」與本句語境不同。",
-        "rent-mcq-03": "「付款取得某物一段時間的使用權，而不擁有它」與本句語境不同。",
-        "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。"
+        "rent-mcq-02": "本句的「rent」指「為暫時使用場地、設備等支付的租用費」。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-02"
     },
@@ -487,11 +467,9 @@ export default {
       "masked": "We ____ a car for the weekend.",
       "options": [
         "rent-pdf-001",
-        "rent-mcq-02",
-        "rent-mcq-04",
-        "rent-mcq-01",
+        "rent-mcq-13",
         "rent-mcq-05",
-        "rent-mcq-06"
+        "rent-mcq-10"
       ],
       "explanation": "本句的「rented」指「付費暫時使用車輛、設備、場地等」。",
       "sentenceIndex": 7,
@@ -500,12 +478,10 @@ export default {
         "rented"
       ],
       "optionReasons": {
-        "rent-pdf-001": "本句指「付費暫時使用車輛、設備、場地等」。",
-        "rent-mcq-02": "「為暫時使用場地、設備等支付的租用費」與本句語境不同。",
-        "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。",
-        "rent-mcq-01": "「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。"
+        "rent-pdf-001": "本句的「rented」指「付費暫時使用車輛、設備、場地等」。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-pdf-001"
     },
@@ -517,11 +493,9 @@ export default {
       "masked": "You can ____ equipment at the shop.",
       "options": [
         "rent-pdf-001",
-        "rent-mcq-02",
         "rent-mcq-04",
-        "rent-mcq-01",
-        "rent-mcq-05",
-        "rent-mcq-06"
+        "rent-mcq-12",
+        "rent-mcq-07"
       ],
       "explanation": "本句的「rent」指「付費暫時使用車輛、設備、場地等」。",
       "sentenceIndex": 8,
@@ -530,12 +504,10 @@ export default {
         "rent"
       ],
       "optionReasons": {
-        "rent-pdf-001": "本句指「付費暫時使用車輛、設備、場地等」。",
-        "rent-mcq-02": "「為暫時使用場地、設備等支付的租用費」與本句語境不同。",
-        "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。",
-        "rent-mcq-01": "「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。"
+        "rent-pdf-001": "本句的「rent」指「付費暫時使用車輛、設備、場地等」。",
+        "rent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-pdf-001"
     },
@@ -547,11 +519,9 @@ export default {
       "masked": "The owner ____ a bakery.",
       "options": [
         "rent-mcq-04",
-        "rent-mcq-03",
-        "rent-mcq-05",
-        "rent-mcq-02",
-        "rent-mcq-06",
-        "rent-mcq-01"
+        "rent-mcq-12",
+        "rent-pdf-001",
+        "rent-mcq-07"
       ],
       "explanation": "本句的「rents the shop to」指「把自己擁有的物業／物品交給別人使用並收取租金」。",
       "sentenceIndex": 9,
@@ -560,12 +530,10 @@ export default {
         "rents the shop to"
       ],
       "optionReasons": {
-        "rent-mcq-04": "本句指「把自己擁有的物業／物品交給別人使用並收取租金」。",
-        "rent-mcq-03": "「付款取得某物一段時間的使用權，而不擁有它」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
-        "rent-mcq-02": "「為暫時使用場地、設備等支付的租用費」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。",
-        "rent-mcq-01": "「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」與本句語境不同。"
+        "rent-mcq-04": "本句的「rents the shop to」指「把自己擁有的物業／物品交給別人使用並收取租金」。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-04"
     },
@@ -577,11 +545,9 @@ export default {
       "masked": "They ____ rooms to students.",
       "options": [
         "rent-mcq-04",
-        "rent-mcq-03",
-        "rent-mcq-05",
-        "rent-mcq-02",
-        "rent-mcq-06",
-        "rent-mcq-01"
+        "rent-pdf-001",
+        "rent-mcq-12",
+        "rent-mcq-07"
       ],
       "explanation": "本句的「rent」指「把自己擁有的物業／物品交給別人使用並收取租金」。",
       "sentenceIndex": 10,
@@ -590,12 +556,10 @@ export default {
         "rent"
       ],
       "optionReasons": {
-        "rent-mcq-04": "本句指「把自己擁有的物業／物品交給別人使用並收取租金」。",
-        "rent-mcq-03": "「付款取得某物一段時間的使用權，而不擁有它」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
-        "rent-mcq-02": "「為暫時使用場地、設備等支付的租用費」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。",
-        "rent-mcq-01": "「為使用別人的住宅、店舖、辦公室等而定期支付的金錢」與本句語境不同。"
+        "rent-mcq-04": "本句的「rent」指「把自己擁有的物業／物品交給別人使用並收取租金」。",
+        "rent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-04"
     },
@@ -607,11 +571,9 @@ export default {
       "masked": "There is a shop ____ across the street.",
       "options": [
         "rent-mcq-05",
-        "rent-mcq-04",
-        "rent-mcq-06",
-        "rent-mcq-03",
-        "rent-mcq-07",
-        "rent-mcq-02"
+        "rent-pdf-001",
+        "rent-mcq-01",
+        "rent-mcq-12"
       ],
       "explanation": "本句的「for rent」指「某物業／物品現正可供租用」。",
       "sentenceIndex": 11,
@@ -620,12 +582,10 @@ export default {
         "for rent"
       ],
       "optionReasons": {
-        "rent-mcq-05": "本句指「某物業／物品現正可供租用」。",
-        "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。",
-        "rent-mcq-03": "「付款取得某物一段時間的使用權，而不擁有它」與本句語境不同。",
-        "rent-mcq-07": "「租用某物所支付的費用，或租賃活動本身」與本句語境不同。",
-        "rent-mcq-02": "「為暫時使用場地、設備等支付的租用費」與本句語境不同。"
+        "rent-mcq-05": "本句的「for rent」指「某物業／物品現正可供租用」。",
+        "rent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-05"
     },
@@ -637,11 +597,9 @@ export default {
       "masked": "The apartment is cur____ly for rent.",
       "options": [
         "rent-mcq-05",
-        "rent-mcq-04",
-        "rent-mcq-06",
-        "rent-mcq-03",
-        "rent-mcq-07",
-        "rent-mcq-02"
+        "rent-mcq-13",
+        "rent-pdf-001",
+        "rent-mcq-12"
       ],
       "explanation": "本句的「rent」指「某物業／物品現正可供租用」。",
       "sentenceIndex": 12,
@@ -650,12 +608,10 @@ export default {
         "rent"
       ],
       "optionReasons": {
-        "rent-mcq-05": "本句指「某物業／物品現正可供租用」。",
-        "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。",
-        "rent-mcq-03": "「付款取得某物一段時間的使用權，而不擁有它」與本句語境不同。",
-        "rent-mcq-07": "「租用某物所支付的費用，或租賃活動本身」與本句語境不同。",
-        "rent-mcq-02": "「為暫時使用場地、設備等支付的租用費」與本句語境不同。"
+        "rent-mcq-05": "本句的「rent」指「某物業／物品現正可供租用」。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-05"
     },
@@ -667,11 +623,9 @@ export default {
       "masked": "The owner allowed them to stay ____ for a month.",
       "options": [
         "rent-mcq-06",
-        "rent-mcq-05",
-        "rent-mcq-07",
-        "rent-mcq-04",
-        "rent-mcq-08",
-        "rent-mcq-03"
+        "rent-mcq-12",
+        "rent-mcq-13",
+        "rent-pdf-001"
       ],
       "explanation": "本句的「rent-free」指「不需要支付租金的」。",
       "sentenceIndex": 13,
@@ -680,12 +634,10 @@ export default {
         "rent-free"
       ],
       "optionReasons": {
-        "rent-mcq-06": "本句指「不需要支付租金的」。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
-        "rent-mcq-07": "「租用某物所支付的費用，或租賃活動本身」與本句語境不同。",
-        "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。",
-        "rent-mcq-03": "「付款取得某物一段時間的使用權，而不擁有它」與本句語境不同。"
+        "rent-mcq-06": "本句的「rent-free」指「不需要支付租金的」。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-06"
     },
@@ -697,11 +649,9 @@ export default {
       "masked": "The business received three months ____.",
       "options": [
         "rent-mcq-06",
-        "rent-mcq-05",
-        "rent-mcq-07",
-        "rent-mcq-04",
-        "rent-mcq-08",
-        "rent-mcq-03"
+        "rent-mcq-13",
+        "rent-mcq-12",
+        "rent-mcq-08"
       ],
       "explanation": "本句的「rent-free」指「不需要支付租金的」。",
       "sentenceIndex": 14,
@@ -710,12 +660,10 @@ export default {
         "rent-free"
       ],
       "optionReasons": {
-        "rent-mcq-06": "本句指「不需要支付租金的」。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
-        "rent-mcq-07": "「租用某物所支付的費用，或租賃活動本身」與本句語境不同。",
-        "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。",
-        "rent-mcq-03": "「付款取得某物一段時間的使用權，而不擁有它」與本句語境不同。"
+        "rent-mcq-06": "本句的「rent-free」指「不需要支付租金的」。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-06"
     },
@@ -727,11 +675,9 @@ export default {
       "masked": "The car ____ was expensive.",
       "options": [
         "rent-mcq-07",
-        "rent-mcq-06",
-        "rent-mcq-08",
-        "rent-mcq-05",
-        "rent-mcq-09",
-        "rent-mcq-04"
+        "rent-mcq-12",
+        "rent-mcq-13",
+        "rent-mcq-10"
       ],
       "explanation": "本句的「rental」指「租用某物所支付的費用，或租賃活動本身」。",
       "sentenceIndex": 15,
@@ -740,12 +686,10 @@ export default {
         "rental"
       ],
       "optionReasons": {
-        "rent-mcq-07": "本句指「租用某物所支付的費用，或租賃活動本身」。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。"
+        "rent-mcq-07": "本句的「rental」指「租用某物所支付的費用，或租賃活動本身」。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-07"
     },
@@ -757,11 +701,9 @@ export default {
       "masked": "Equipment ____ is charged separately.",
       "options": [
         "rent-mcq-07",
-        "rent-mcq-06",
-        "rent-mcq-08",
-        "rent-mcq-05",
-        "rent-mcq-09",
-        "rent-mcq-04"
+        "rent-mcq-12",
+        "rent-mcq-13",
+        "rent-mcq-10"
       ],
       "explanation": "本句的「rental」指「租用某物所支付的費用，或租賃活動本身」。",
       "sentenceIndex": 16,
@@ -770,12 +712,10 @@ export default {
         "rental"
       ],
       "optionReasons": {
-        "rent-mcq-07": "本句指「租用某物所支付的費用，或租賃活動本身」。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-04": "「把自己擁有的物業／物品交給別人使用並收取租金」與本句語境不同。"
+        "rent-mcq-07": "本句的「rental」指「租用某物所支付的費用，或租賃活動本身」。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-07"
     },
@@ -787,11 +727,9 @@ export default {
       "masked": "They found a short-term ____ near the bakery.",
       "options": [
         "rent-mcq-08",
-        "rent-mcq-07",
-        "rent-mcq-09",
-        "rent-mcq-06",
-        "rent-mcq-10",
-        "rent-mcq-05"
+        "rent-mcq-12",
+        "rent-mcq-13",
+        "rent-mcq-10"
       ],
       "explanation": "本句的「rental」指「被租出去／可供租用的房屋、車輛或物品」。",
       "sentenceIndex": 17,
@@ -800,12 +738,10 @@ export default {
         "rental"
       ],
       "optionReasons": {
-        "rent-mcq-08": "本句指「被租出去／可供租用的房屋、車輛或物品」。",
-        "rent-mcq-07": "「租用某物所支付的費用，或租賃活動本身」與本句語境不同。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。",
-        "rent-mcq-10": "「政府限制租金水平／加租幅度的制度」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。"
+        "rent-mcq-08": "本句的「rental」指「被租出去／可供租用的房屋、車輛或物品」。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-08"
     },
@@ -817,11 +753,9 @@ export default {
       "masked": "The company manages holiday ____.",
       "options": [
         "rent-mcq-08",
-        "rent-mcq-07",
-        "rent-mcq-09",
-        "rent-mcq-06",
-        "rent-mcq-10",
-        "rent-mcq-05"
+        "rent-mcq-12",
+        "rent-mcq-13",
+        "rent-mcq-10"
       ],
       "explanation": "本句的「rentals」指「被租出去／可供租用的房屋、車輛或物品」。",
       "sentenceIndex": 18,
@@ -830,12 +764,10 @@ export default {
         "rentals"
       ],
       "optionReasons": {
-        "rent-mcq-08": "本句指「被租出去／可供租用的房屋、車輛或物品」。",
-        "rent-mcq-07": "「租用某物所支付的費用，或租賃活動本身」與本句語境不同。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。",
-        "rent-mcq-10": "「政府限制租金水平／加租幅度的制度」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。"
+        "rent-mcq-08": "本句的「rentals」指「被租出去／可供租用的房屋、車輛或物品」。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-08"
     },
@@ -847,11 +779,9 @@ export default {
       "masked": "The ____ is very competitive.",
       "options": [
         "rent-mcq-08",
-        "rent-mcq-07",
-        "rent-mcq-09",
-        "rent-mcq-06",
-        "rent-mcq-10",
-        "rent-mcq-05"
+        "rent-mcq-13",
+        "rent-mcq-12",
+        "rent-mcq-06"
       ],
       "explanation": "本句的「rental market」指「被租出去／可供租用的房屋、車輛或物品」。",
       "sentenceIndex": 19,
@@ -860,12 +790,10 @@ export default {
         "rental market"
       ],
       "optionReasons": {
-        "rent-mcq-08": "本句指「被租出去／可供租用的房屋、車輛或物品」。",
-        "rent-mcq-07": "「租用某物所支付的費用，或租賃活動本身」與本句語境不同。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。",
-        "rent-mcq-10": "「政府限制租金水平／加租幅度的制度」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。"
+        "rent-mcq-08": "本句的「rental market」指「被租出去／可供租用的房屋、車輛或物品」。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-08"
     },
@@ -877,11 +805,9 @@ export default {
       "masked": "They run a car ____ business.",
       "options": [
         "rent-mcq-08",
-        "rent-mcq-07",
-        "rent-mcq-09",
-        "rent-mcq-06",
-        "rent-mcq-10",
-        "rent-mcq-05"
+        "rent-mcq-13",
+        "rent-mcq-12",
+        "rent-mcq-06"
       ],
       "explanation": "本句的「rental」指「被租出去／可供租用的房屋、車輛或物品」。",
       "sentenceIndex": 20,
@@ -890,12 +816,10 @@ export default {
         "rental"
       ],
       "optionReasons": {
-        "rent-mcq-08": "本句指「被租出去／可供租用的房屋、車輛或物品」。",
-        "rent-mcq-07": "「租用某物所支付的費用，或租賃活動本身」與本句語境不同。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。",
-        "rent-mcq-10": "「政府限制租金水平／加租幅度的制度」與本句語境不同。",
-        "rent-mcq-05": "「某物業／物品現正可供租用」與本句語境不同。"
+        "rent-mcq-08": "本句的「rental」指「被租出去／可供租用的房屋、車輛或物品」。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-08"
     },
@@ -907,11 +831,8 @@ export default {
       "masked": "The ____ pays monthly rent.",
       "options": [
         "rent-mcq-09",
-        "rent-mcq-08",
         "rent-mcq-10",
-        "rent-mcq-07",
-        "rent-mcq-11",
-        "rent-mcq-06"
+        "rent-mcq-12"
       ],
       "explanation": "本句的「renter」指「付費使用別人房屋／物品的人」。",
       "sentenceIndex": 21,
@@ -920,12 +841,9 @@ export default {
         "renter"
       ],
       "optionReasons": {
-        "rent-mcq-09": "本句指「付費使用別人房屋／物品的人」。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。",
-        "rent-mcq-10": "「政府限制租金水平／加租幅度的制度」與本句語境不同。",
-        "rent-mcq-07": "「租用某物所支付的費用，或租賃活動本身」與本句語境不同。",
-        "rent-mcq-11": "「已到期但尚未支付的租金」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。"
+        "rent-mcq-09": "本句的「renter」指「付費使用別人房屋／物品的人」。",
+        "rent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-09"
     },
@@ -937,11 +855,8 @@ export default {
       "masked": "Young ____ are especially affected by rising housing costs.",
       "options": [
         "rent-mcq-09",
-        "rent-mcq-08",
         "rent-mcq-10",
-        "rent-mcq-07",
-        "rent-mcq-11",
-        "rent-mcq-06"
+        "rent-mcq-12"
       ],
       "explanation": "本句的「renters」指「付費使用別人房屋／物品的人」。",
       "sentenceIndex": 22,
@@ -950,12 +865,9 @@ export default {
         "renters"
       ],
       "optionReasons": {
-        "rent-mcq-09": "本句指「付費使用別人房屋／物品的人」。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。",
-        "rent-mcq-10": "「政府限制租金水平／加租幅度的制度」與本句語境不同。",
-        "rent-mcq-07": "「租用某物所支付的費用，或租賃活動本身」與本句語境不同。",
-        "rent-mcq-11": "「已到期但尚未支付的租金」與本句語境不同。",
-        "rent-mcq-06": "「不需要支付租金的」與本句語境不同。"
+        "rent-mcq-09": "本句的「renters」指「付費使用別人房屋／物品的人」。",
+        "rent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-09"
     },
@@ -967,11 +879,9 @@ export default {
       "masked": "The city introduced ____.",
       "options": [
         "rent-mcq-10",
-        "rent-mcq-09",
-        "rent-mcq-11",
-        "rent-mcq-08",
+        "rent-pdf-001",
         "rent-mcq-12",
-        "rent-mcq-07"
+        "rent-mcq-13"
       ],
       "explanation": "本句的「rent control」指「政府限制租金水平／加租幅度的制度」。",
       "sentenceIndex": 23,
@@ -980,12 +890,10 @@ export default {
         "rent control"
       ],
       "optionReasons": {
-        "rent-mcq-10": "本句指「政府限制租金水平／加租幅度的制度」。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-11": "「已到期但尚未支付的租金」與本句語境不同。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。",
-        "rent-mcq-12": "「布料、表面等被撕開後形成的裂口」與本句語境不同。",
-        "rent-mcq-07": "「租用某物所支付的費用，或租賃活動本身」與本句語境不同。"
+        "rent-mcq-10": "本句的「rent control」指「政府限制租金水平／加租幅度的制度」。",
+        "rent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-10"
     },
@@ -997,11 +905,9 @@ export default {
       "masked": "____ control limits how much landlords can raise rents.",
       "options": [
         "rent-mcq-10",
-        "rent-mcq-09",
-        "rent-mcq-11",
-        "rent-mcq-08",
+        "rent-mcq-13",
         "rent-mcq-12",
-        "rent-mcq-07"
+        "rent-pdf-001"
       ],
       "explanation": "本句的「Rent」指「政府限制租金水平／加租幅度的制度」。",
       "sentenceIndex": 24,
@@ -1010,12 +916,10 @@ export default {
         "Rent"
       ],
       "optionReasons": {
-        "rent-mcq-10": "本句指「政府限制租金水平／加租幅度的制度」。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-11": "「已到期但尚未支付的租金」與本句語境不同。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。",
-        "rent-mcq-12": "「布料、表面等被撕開後形成的裂口」與本句語境不同。",
-        "rent-mcq-07": "「租用某物所支付的費用，或租賃活動本身」與本句語境不同。"
+        "rent-mcq-10": "本句的「Rent」指「政府限制租金水平／加租幅度的制度」。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-10"
     },
@@ -1027,11 +931,9 @@ export default {
       "masked": "The landlord announced a ____.",
       "options": [
         "rent-mcq-10",
-        "rent-mcq-09",
-        "rent-mcq-11",
-        "rent-mcq-08",
-        "rent-mcq-12",
-        "rent-mcq-07"
+        "rent-mcq-13",
+        "rent-pdf-001",
+        "rent-mcq-12"
       ],
       "explanation": "本句的「rent increase」指「政府限制租金水平／加租幅度的制度」。",
       "sentenceIndex": 25,
@@ -1040,12 +942,10 @@ export default {
         "rent increase"
       ],
       "optionReasons": {
-        "rent-mcq-10": "本句指「政府限制租金水平／加租幅度的制度」。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-11": "「已到期但尚未支付的租金」與本句語境不同。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。",
-        "rent-mcq-12": "「布料、表面等被撕開後形成的裂口」與本句語境不同。",
-        "rent-mcq-07": "「租用某物所支付的費用，或租賃活動本身」與本句語境不同。"
+        "rent-mcq-10": "本句的「rent increase」指「政府限制租金水平／加租幅度的制度」。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-10"
     },
@@ -1058,10 +958,7 @@ export default {
       "options": [
         "rent-mcq-10",
         "rent-mcq-09",
-        "rent-mcq-11",
-        "rent-mcq-08",
-        "rent-mcq-12",
-        "rent-mcq-07"
+        "rent-mcq-12"
       ],
       "explanation": "本句的「rent」指「政府限制租金水平／加租幅度的制度」。",
       "sentenceIndex": 26,
@@ -1070,12 +967,9 @@ export default {
         "rent"
       ],
       "optionReasons": {
-        "rent-mcq-10": "本句指「政府限制租金水平／加租幅度的制度」。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-11": "「已到期但尚未支付的租金」與本句語境不同。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。",
-        "rent-mcq-12": "「布料、表面等被撕開後形成的裂口」與本句語境不同。",
-        "rent-mcq-07": "「租用某物所支付的費用，或租賃活動本身」與本句語境不同。"
+        "rent-mcq-10": "本句的「rent」指「政府限制租金水平／加租幅度的制度」。",
+        "rent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-10"
     },
@@ -1087,10 +981,8 @@ export default {
       "masked": "The tenant fell into ____.",
       "options": [
         "rent-mcq-11",
-        "rent-mcq-10",
-        "rent-mcq-12",
-        "rent-mcq-09",
         "rent-mcq-13",
+        "rent-mcq-12",
         "rent-mcq-08"
       ],
       "explanation": "本句的「rent arrears」指「已到期但尚未支付的租金」。",
@@ -1100,12 +992,10 @@ export default {
         "rent arrears"
       ],
       "optionReasons": {
-        "rent-mcq-11": "本句指「已到期但尚未支付的租金」。",
-        "rent-mcq-10": "「政府限制租金水平／加租幅度的制度」與本句語境不同。",
-        "rent-mcq-12": "「布料、表面等被撕開後形成的裂口」與本句語境不同。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-13": "「團體、關係或社會中的嚴重裂痕／分裂」與本句語境不同。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。"
+        "rent-mcq-11": "本句的「rent arrears」指「已到期但尚未支付的租金」。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-11"
     },
@@ -1117,11 +1007,9 @@ export default {
       "masked": "The landlord contacted him about unpaid ____.",
       "options": [
         "rent-mcq-11",
-        "rent-mcq-10",
         "rent-mcq-12",
-        "rent-mcq-09",
         "rent-mcq-13",
-        "rent-mcq-08"
+        "rent-mcq-05"
       ],
       "explanation": "本句的「rent」指「已到期但尚未支付的租金」。",
       "sentenceIndex": 28,
@@ -1130,12 +1018,10 @@ export default {
         "rent"
       ],
       "optionReasons": {
-        "rent-mcq-11": "本句指「已到期但尚未支付的租金」。",
-        "rent-mcq-10": "「政府限制租金水平／加租幅度的制度」與本句語境不同。",
-        "rent-mcq-12": "「布料、表面等被撕開後形成的裂口」與本句語境不同。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-13": "「團體、關係或社會中的嚴重裂痕／分裂」與本句語境不同。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。"
+        "rent-mcq-11": "本句的「rent」指「已到期但尚未支付的租金」。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-11"
     },
@@ -1147,11 +1033,9 @@ export default {
       "masked": "There was a large ____ in the fabric.",
       "options": [
         "rent-mcq-12",
-        "rent-mcq-11",
-        "rent-mcq-13",
-        "rent-mcq-10",
-        "rent-mcq-09",
-        "rent-mcq-08"
+        "rent-mcq-04",
+        "rent-mcq-07",
+        "rent-pdf-001"
       ],
       "explanation": "本句的「rent」指「布料、表面等被撕開後形成的裂口」。",
       "sentenceIndex": 29,
@@ -1160,12 +1044,10 @@ export default {
         "rent"
       ],
       "optionReasons": {
-        "rent-mcq-12": "本句指「布料、表面等被撕開後形成的裂口」。",
-        "rent-mcq-11": "「已到期但尚未支付的租金」與本句語境不同。",
-        "rent-mcq-13": "「團體、關係或社會中的嚴重裂痕／分裂」與本句語境不同。",
-        "rent-mcq-10": "「政府限制租金水平／加租幅度的制度」與本句語境不同。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。"
+        "rent-mcq-12": "本句的「rent」指「布料、表面等被撕開後形成的裂口」。",
+        "rent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rent-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-12"
     },
@@ -1177,11 +1059,9 @@ export default {
       "masked": "A ____ appeared in the old curtain.",
       "options": [
         "rent-mcq-12",
-        "rent-mcq-11",
-        "rent-mcq-13",
-        "rent-mcq-10",
-        "rent-mcq-09",
-        "rent-mcq-08"
+        "rent-mcq-06",
+        "rent-mcq-08",
+        "rent-mcq-13"
       ],
       "explanation": "本句的「rent」指「布料、表面等被撕開後形成的裂口」。",
       "sentenceIndex": 30,
@@ -1190,12 +1070,10 @@ export default {
         "rent"
       ],
       "optionReasons": {
-        "rent-mcq-12": "本句指「布料、表面等被撕開後形成的裂口」。",
-        "rent-mcq-11": "「已到期但尚未支付的租金」與本句語境不同。",
-        "rent-mcq-13": "「團體、關係或社會中的嚴重裂痕／分裂」與本句語境不同。",
-        "rent-mcq-10": "「政府限制租金水平／加租幅度的制度」與本句語境不同。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。"
+        "rent-mcq-12": "本句的「rent」指「布料、表面等被撕開後形成的裂口」。",
+        "rent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-12"
     },
@@ -1207,11 +1085,9 @@ export default {
       "masked": "The dispute created a deep ____ in the organisation.",
       "options": [
         "rent-mcq-13",
-        "rent-mcq-12",
-        "rent-mcq-11",
+        "rent-mcq-02",
         "rent-mcq-10",
-        "rent-mcq-09",
-        "rent-mcq-08"
+        "rent-mcq-12"
       ],
       "explanation": "本句的「rent」指「團體、關係或社會中的嚴重裂痕／分裂」。",
       "sentenceIndex": 31,
@@ -1220,12 +1096,10 @@ export default {
         "rent"
       ],
       "optionReasons": {
-        "rent-mcq-13": "本句指「團體、關係或社會中的嚴重裂痕／分裂」。",
-        "rent-mcq-12": "「布料、表面等被撕開後形成的裂口」與本句語境不同。",
-        "rent-mcq-11": "「已到期但尚未支付的租金」與本句語境不同。",
-        "rent-mcq-10": "「政府限制租金水平／加租幅度的制度」與本句語境不同。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。"
+        "rent-mcq-13": "本句的「rent」指「團體、關係或社會中的嚴重裂痕／分裂」。",
+        "rent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-13"
     },
@@ -1237,11 +1111,9 @@ export default {
       "masked": "The event caused a ____ in the relationship between the two groups.",
       "options": [
         "rent-mcq-13",
-        "rent-mcq-12",
-        "rent-mcq-11",
+        "rent-mcq-05",
         "rent-mcq-10",
-        "rent-mcq-09",
-        "rent-mcq-08"
+        "rent-pdf-001"
       ],
       "explanation": "本句的「rent」指「團體、關係或社會中的嚴重裂痕／分裂」。",
       "sentenceIndex": 32,
@@ -1250,12 +1122,10 @@ export default {
         "rent"
       ],
       "optionReasons": {
-        "rent-mcq-13": "本句指「團體、關係或社會中的嚴重裂痕／分裂」。",
-        "rent-mcq-12": "「布料、表面等被撕開後形成的裂口」與本句語境不同。",
-        "rent-mcq-11": "「已到期但尚未支付的租金」與本句語境不同。",
-        "rent-mcq-10": "「政府限制租金水平／加租幅度的制度」與本句語境不同。",
-        "rent-mcq-09": "「付費使用別人房屋／物品的人」與本句語境不同。",
-        "rent-mcq-08": "「被租出去／可供租用的房屋、車輛或物品」與本句語境不同。"
+        "rent-mcq-13": "本句的「rent」指「團體、關係或社會中的嚴重裂痕／分裂」。",
+        "rent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rent-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rent-mcq-13"
     }
@@ -1267,5 +1137,7 @@ export default {
     "sha256": "5a7361da99bbae57d18524bc6e82600430108358c8c39af56c90c5c5dcee18c0",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

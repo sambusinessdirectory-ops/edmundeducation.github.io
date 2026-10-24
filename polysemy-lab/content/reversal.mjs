@@ -1739,11 +1739,9 @@ export default {
       "masked": "Role ____ helped the students understand the victim’s feelings.",
       "options": [
         "reversal-mcq-01",
-        "reversal-mcq-02",
-        "reversal-mcq-03",
-        "reversal-mcq-04",
-        "reversal-mcq-05",
-        "reversal-mcq-06"
+        "reversal-mcq-16",
+        "reversal-mcq-20",
+        "reversal-mcq-65"
       ],
       "explanation": "本句的「reversal」指「人物彼此交換角色／立場，以從對方位置體驗情況」。",
       "sentenceIndex": 0,
@@ -1752,12 +1750,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-01": "本句指「人物彼此交換角色／立場，以從對方位置體驗情況」。",
-        "reversal-mcq-02": "「原本的角色或責任被交換／對調」與本句語境不同。",
-        "reversal-mcq-03": "「人際關係中原有角色或責任出現逆轉」與本句語境不同。",
-        "reversal-mcq-04": "「情況、方向、趨勢、立場等轉向其相反狀態；逆轉」與本句語境不同。",
-        "reversal-mcq-05": "「徹底變成原先相反的情況」與本句語境不同。",
-        "reversal-mcq-06": "「突然而快速出現的逆轉」與本句語境不同。"
+        "reversal-mcq-01": "本句的「reversal」指「人物彼此交換角色／立場，以從對方位置體驗情況」。",
+        "reversal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-01"
     },
@@ -1769,11 +1765,9 @@ export default {
       "masked": "The teacher used role ____ to encourage empathy.",
       "options": [
         "reversal-mcq-01",
-        "reversal-mcq-02",
-        "reversal-mcq-03",
-        "reversal-mcq-04",
-        "reversal-mcq-05",
-        "reversal-mcq-06"
+        "reversal-mcq-65",
+        "reversal-mcq-15",
+        "reversal-mcq-13"
       ],
       "explanation": "本句的「reversal」指「人物彼此交換角色／立場，以從對方位置體驗情況」。",
       "sentenceIndex": 1,
@@ -1782,12 +1776,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-01": "本句指「人物彼此交換角色／立場，以從對方位置體驗情況」。",
-        "reversal-mcq-02": "「原本的角色或責任被交換／對調」與本句語境不同。",
-        "reversal-mcq-03": "「人際關係中原有角色或責任出現逆轉」與本句語境不同。",
-        "reversal-mcq-04": "「情況、方向、趨勢、立場等轉向其相反狀態；逆轉」與本句語境不同。",
-        "reversal-mcq-05": "「徹底變成原先相反的情況」與本句語境不同。",
-        "reversal-mcq-06": "「突然而快速出現的逆轉」與本句語境不同。"
+        "reversal-mcq-01": "本句的「reversal」指「人物彼此交換角色／立場，以從對方位置體驗情況」。",
+        "reversal-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-01"
     },
@@ -1799,11 +1791,9 @@ export default {
       "masked": "The activity involved a ____ of roles.",
       "options": [
         "reversal-mcq-02",
-        "reversal-mcq-01",
-        "reversal-mcq-03",
-        "reversal-mcq-04",
-        "reversal-mcq-05",
-        "reversal-mcq-06"
+        "reversal-mcq-16",
+        "reversal-mcq-20",
+        "reversal-mcq-15"
       ],
       "explanation": "本句的「reversal」指「原本的角色或責任被交換／對調」。",
       "sentenceIndex": 2,
@@ -1812,12 +1802,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-02": "本句指「原本的角色或責任被交換／對調」。",
-        "reversal-mcq-01": "「人物彼此交換角色／立場，以從對方位置體驗情況」與本句語境不同。",
-        "reversal-mcq-03": "「人際關係中原有角色或責任出現逆轉」與本句語境不同。",
-        "reversal-mcq-04": "「情況、方向、趨勢、立場等轉向其相反狀態；逆轉」與本句語境不同。",
-        "reversal-mcq-05": "「徹底變成原先相反的情況」與本句語境不同。",
-        "reversal-mcq-06": "「突然而快速出現的逆轉」與本句語境不同。"
+        "reversal-mcq-02": "本句的「reversal」指「原本的角色或責任被交換／對調」。",
+        "reversal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-02"
     },
@@ -1829,11 +1817,9 @@ export default {
       "masked": "The parent became the learner and the child became the teacher—a complete ____ of roles.",
       "options": [
         "reversal-mcq-02",
-        "reversal-mcq-01",
-        "reversal-mcq-03",
-        "reversal-mcq-04",
-        "reversal-mcq-05",
-        "reversal-mcq-06"
+        "reversal-mcq-26",
+        "reversal-mcq-08",
+        "reversal-mcq-31"
       ],
       "explanation": "本句的「reversal」指「原本的角色或責任被交換／對調」。",
       "sentenceIndex": 3,
@@ -1842,12 +1828,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-02": "本句指「原本的角色或責任被交換／對調」。",
-        "reversal-mcq-01": "「人物彼此交換角色／立場，以從對方位置體驗情況」與本句語境不同。",
-        "reversal-mcq-03": "「人際關係中原有角色或責任出現逆轉」與本句語境不同。",
-        "reversal-mcq-04": "「情況、方向、趨勢、立場等轉向其相反狀態；逆轉」與本句語境不同。",
-        "reversal-mcq-05": "「徹底變成原先相反的情況」與本句語境不同。",
-        "reversal-mcq-06": "「突然而快速出現的逆轉」與本句語境不同。"
+        "reversal-mcq-02": "本句的「reversal」指「原本的角色或責任被交換／對調」。",
+        "reversal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-02"
     },
@@ -1859,11 +1843,9 @@ export default {
       "masked": "Caring for an elderly parent can sometimes create a sense of role ____.",
       "options": [
         "reversal-mcq-01",
-        "reversal-mcq-02",
-        "reversal-mcq-03",
-        "reversal-mcq-04",
-        "reversal-mcq-05",
-        "reversal-mcq-06"
+        "reversal-mcq-11",
+        "reversal-mcq-38",
+        "reversal-mcq-62"
       ],
       "explanation": "本句的「reversal」指「人物彼此交換角色／立場，以從對方位置體驗情況」。",
       "sentenceIndex": 4,
@@ -1872,12 +1854,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-01": "本句指「人物彼此交換角色／立場，以從對方位置體驗情況」。",
-        "reversal-mcq-02": "「原本的角色或責任被交換／對調」與本句語境不同。",
-        "reversal-mcq-03": "「人際關係中原有角色或責任出現逆轉」與本句語境不同。",
-        "reversal-mcq-04": "「情況、方向、趨勢、立場等轉向其相反狀態；逆轉」與本句語境不同。",
-        "reversal-mcq-05": "「徹底變成原先相反的情況」與本句語境不同。",
-        "reversal-mcq-06": "「突然而快速出現的逆轉」與本句語境不同。"
+        "reversal-mcq-01": "本句的「reversal」指「人物彼此交換角色／立場，以從對方位置體驗情況」。",
+        "reversal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-01"
     },
@@ -1889,11 +1869,9 @@ export default {
       "masked": "There was a striking role ____ when the junior employee began advising the manager.",
       "options": [
         "reversal-mcq-01",
-        "reversal-mcq-02",
-        "reversal-mcq-03",
-        "reversal-mcq-04",
-        "reversal-mcq-05",
-        "reversal-mcq-06"
+        "reversal-mcq-65",
+        "reversal-mcq-11",
+        "reversal-mcq-15"
       ],
       "explanation": "本句的「reversal」指「人物彼此交換角色／立場，以從對方位置體驗情況」。",
       "sentenceIndex": 5,
@@ -1902,12 +1880,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-01": "本句指「人物彼此交換角色／立場，以從對方位置體驗情況」。",
-        "reversal-mcq-02": "「原本的角色或責任被交換／對調」與本句語境不同。",
-        "reversal-mcq-03": "「人際關係中原有角色或責任出現逆轉」與本句語境不同。",
-        "reversal-mcq-04": "「情況、方向、趨勢、立場等轉向其相反狀態；逆轉」與本句語境不同。",
-        "reversal-mcq-05": "「徹底變成原先相反的情況」與本句語境不同。",
-        "reversal-mcq-06": "「突然而快速出現的逆轉」與本句語境不同。"
+        "reversal-mcq-01": "本句的「reversal」指「人物彼此交換角色／立場，以從對方位置體驗情況」。",
+        "reversal-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-01"
     },
@@ -1919,11 +1895,9 @@ export default {
       "masked": "The change represented a complete ____ of the earlier trend.",
       "options": [
         "reversal-mcq-04",
-        "reversal-mcq-03",
-        "reversal-mcq-05",
         "reversal-mcq-02",
-        "reversal-mcq-06",
-        "reversal-mcq-01"
+        "reversal-mcq-23",
+        "reversal-mcq-31"
       ],
       "explanation": "本句的「reversal」指「情況、方向、趨勢、立場等轉向其相反狀態；逆轉」。",
       "sentenceIndex": 6,
@@ -1932,12 +1906,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-04": "本句指「情況、方向、趨勢、立場等轉向其相反狀態；逆轉」。",
-        "reversal-mcq-03": "「人際關係中原有角色或責任出現逆轉」與本句語境不同。",
-        "reversal-mcq-05": "「徹底變成原先相反的情況」與本句語境不同。",
-        "reversal-mcq-02": "「原本的角色或責任被交換／對調」與本句語境不同。",
-        "reversal-mcq-06": "「突然而快速出現的逆轉」與本句語境不同。",
-        "reversal-mcq-01": "「人物彼此交換角色／立場，以從對方位置體驗情況」與本句語境不同。"
+        "reversal-mcq-04": "本句的「reversal」指「情況、方向、趨勢、立場等轉向其相反狀態；逆轉」。",
+        "reversal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-04"
     },
@@ -1949,11 +1921,9 @@ export default {
       "masked": "We saw a sudden ____ in public attitudes.",
       "options": [
         "reversal-mcq-04",
-        "reversal-mcq-03",
-        "reversal-mcq-05",
+        "reversal-mcq-31",
         "reversal-mcq-02",
-        "reversal-mcq-06",
-        "reversal-mcq-01"
+        "reversal-mcq-23"
       ],
       "explanation": "本句的「reversal」指「情況、方向、趨勢、立場等轉向其相反狀態；逆轉」。",
       "sentenceIndex": 7,
@@ -1962,12 +1932,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-04": "本句指「情況、方向、趨勢、立場等轉向其相反狀態；逆轉」。",
-        "reversal-mcq-03": "「人際關係中原有角色或責任出現逆轉」與本句語境不同。",
-        "reversal-mcq-05": "「徹底變成原先相反的情況」與本句語境不同。",
-        "reversal-mcq-02": "「原本的角色或責任被交換／對調」與本句語境不同。",
-        "reversal-mcq-06": "「突然而快速出現的逆轉」與本句語境不同。",
-        "reversal-mcq-01": "「人物彼此交換角色／立場，以從對方位置體驗情況」與本句語境不同。"
+        "reversal-mcq-04": "本句的「reversal」指「情況、方向、趨勢、立場等轉向其相反狀態；逆轉」。",
+        "reversal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-04"
     },
@@ -1979,11 +1947,9 @@ export default {
       "masked": "The market experienced a sharp ____.",
       "options": [
         "reversal-mcq-08",
-        "reversal-mcq-07",
-        "reversal-mcq-09",
-        "reversal-mcq-06",
-        "reversal-mcq-10",
-        "reversal-mcq-05"
+        "reversal-mcq-32",
+        "reversal-mcq-02",
+        "reversal-mcq-10"
       ],
       "explanation": "本句的「reversal」指「引人注目的重大逆轉」。",
       "sentenceIndex": 9,
@@ -1992,12 +1958,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-08": "本句指「引人注目的重大逆轉」。",
-        "reversal-mcq-07": "「幅度大、速度快的反向變化」與本句語境不同。",
-        "reversal-mcq-09": "「原有立場改為相反／明顯不同的立場」與本句語境不同。",
-        "reversal-mcq-06": "「突然而快速出現的逆轉」與本句語境不同。",
-        "reversal-mcq-10": "「原有政策方向被撤回／改成相反方向」與本句語境不同。",
-        "reversal-mcq-05": "「徹底變成原先相反的情況」與本句語境不同。"
+        "reversal-mcq-08": "本句的「reversal」指「引人注目的重大逆轉」。",
+        "reversal-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-08"
     },
@@ -2009,11 +1973,9 @@ export default {
       "masked": "The second half produced a dramatic ____ in the team’s fortunes.",
       "options": [
         "reversal-mcq-08",
-        "reversal-mcq-07",
+        "reversal-mcq-02",
         "reversal-mcq-09",
-        "reversal-mcq-06",
-        "reversal-mcq-10",
-        "reversal-mcq-05"
+        "reversal-mcq-11"
       ],
       "explanation": "本句的「reversal」指「引人注目的重大逆轉」。",
       "sentenceIndex": 10,
@@ -2022,12 +1984,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-08": "本句指「引人注目的重大逆轉」。",
-        "reversal-mcq-07": "「幅度大、速度快的反向變化」與本句語境不同。",
-        "reversal-mcq-09": "「原有立場改為相反／明顯不同的立場」與本句語境不同。",
-        "reversal-mcq-06": "「突然而快速出現的逆轉」與本句語境不同。",
-        "reversal-mcq-10": "「原有政策方向被撤回／改成相反方向」與本句語境不同。",
-        "reversal-mcq-05": "「徹底變成原先相反的情況」與本句語境不同。"
+        "reversal-mcq-08": "本句的「reversal」指「引人注目的重大逆轉」。",
+        "reversal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-08"
     },
@@ -2039,11 +1999,9 @@ export default {
       "masked": "The announcement marked a ____ of the company’s previous position.",
       "options": [
         "reversal-mcq-09",
-        "reversal-mcq-08",
-        "reversal-mcq-10",
-        "reversal-mcq-07",
-        "reversal-mcq-11",
-        "reversal-mcq-06"
+        "reversal-mcq-19",
+        "reversal-mcq-15",
+        "reversal-mcq-62"
       ],
       "explanation": "本句的「reversal」指「原有立場改為相反／明顯不同的立場」。",
       "sentenceIndex": 11,
@@ -2052,12 +2010,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-09": "本句指「原有立場改為相反／明顯不同的立場」。",
-        "reversal-mcq-08": "「引人注目的重大逆轉」與本句語境不同。",
-        "reversal-mcq-10": "「原有政策方向被撤回／改成相反方向」與本句語境不同。",
-        "reversal-mcq-07": "「幅度大、速度快的反向變化」與本句語境不同。",
-        "reversal-mcq-11": "「原先決定被撤銷／推翻」與本句語境不同。",
-        "reversal-mcq-06": "「突然而快速出現的逆轉」與本句語境不同。"
+        "reversal-mcq-09": "本句的「reversal」指「原有立場改為相反／明顯不同的立場」。",
+        "reversal-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-09"
     },
@@ -2069,11 +2025,9 @@ export default {
       "masked": "The announcement represented a major policy ____.",
       "options": [
         "reversal-mcq-10",
-        "reversal-mcq-09",
-        "reversal-mcq-11",
-        "reversal-mcq-08",
-        "reversal-mcq-12",
-        "reversal-mcq-07"
+        "reversal-mcq-15",
+        "reversal-mcq-01",
+        "reversal-mcq-20"
       ],
       "explanation": "本句的「reversal」指「原有政策方向被撤回／改成相反方向」。",
       "sentenceIndex": 12,
@@ -2082,12 +2036,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-10": "本句指「原有政策方向被撤回／改成相反方向」。",
-        "reversal-mcq-09": "「原有立場改為相反／明顯不同的立場」與本句語境不同。",
-        "reversal-mcq-11": "「原先決定被撤銷／推翻」與本句語境不同。",
-        "reversal-mcq-08": "「引人注目的重大逆轉」與本句語境不同。",
-        "reversal-mcq-12": "「態度出現重大相反轉變」與本句語境不同。",
-        "reversal-mcq-07": "「幅度大、速度快的反向變化」與本句語境不同。"
+        "reversal-mcq-10": "本句的「reversal」指「原有政策方向被撤回／改成相反方向」。",
+        "reversal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-10"
     },
@@ -2099,11 +2051,9 @@ export default {
       "masked": "The committee announced a ____ of its earlier decision.",
       "options": [
         "reversal-mcq-11",
-        "reversal-mcq-10",
-        "reversal-mcq-12",
-        "reversal-mcq-09",
-        "reversal-mcq-13",
-        "reversal-mcq-08"
+        "reversal-mcq-01",
+        "reversal-mcq-15",
+        "reversal-mcq-54"
       ],
       "explanation": "本句的「reversal」指「原先決定被撤銷／推翻」。",
       "sentenceIndex": 13,
@@ -2112,12 +2062,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-11": "本句指「原先決定被撤銷／推翻」。",
-        "reversal-mcq-10": "「原有政策方向被撤回／改成相反方向」與本句語境不同。",
-        "reversal-mcq-12": "「態度出現重大相反轉變」與本句語境不同。",
-        "reversal-mcq-09": "「原有立場改為相反／明顯不同的立場」與本句語境不同。",
-        "reversal-mcq-13": "「移動／行動方向反轉」與本句語境不同。",
-        "reversal-mcq-08": "「引人注目的重大逆轉」與本句語境不同。"
+        "reversal-mcq-11": "本句的「reversal」指「原先決定被撤銷／推翻」。",
+        "reversal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-11"
     },
@@ -2129,11 +2077,9 @@ export default {
       "masked": "Her support represented a surprising ____ of attitude.",
       "options": [
         "reversal-mcq-12",
-        "reversal-mcq-11",
-        "reversal-mcq-13",
-        "reversal-mcq-10",
-        "reversal-mcq-14",
-        "reversal-mcq-09"
+        "reversal-mcq-62",
+        "reversal-mcq-23",
+        "reversal-mcq-31"
       ],
       "explanation": "本句的「reversal」指「態度出現重大相反轉變」。",
       "sentenceIndex": 14,
@@ -2142,12 +2088,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-12": "本句指「態度出現重大相反轉變」。",
-        "reversal-mcq-11": "「原先決定被撤銷／推翻」與本句語境不同。",
-        "reversal-mcq-13": "「移動／行動方向反轉」與本句語境不同。",
-        "reversal-mcq-10": "「原有政策方向被撤回／改成相反方向」與本句語境不同。",
-        "reversal-mcq-14": "「原有上升／下降等趨勢改變方向」與本句語境不同。",
-        "reversal-mcq-09": "「原有立場改為相反／明顯不同的立場」與本句語境不同。"
+        "reversal-mcq-12": "本句的「reversal」指「態度出現重大相反轉變」。",
+        "reversal-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-12"
     },
@@ -2159,11 +2103,9 @@ export default {
       "masked": "The ship made a sudden ____ of course.",
       "options": [
         "reversal-mcq-13",
-        "reversal-mcq-12",
-        "reversal-mcq-14",
-        "reversal-mcq-11",
-        "reversal-mcq-15",
-        "reversal-mcq-10"
+        "reversal-mcq-32",
+        "reversal-mcq-01",
+        "reversal-mcq-23"
       ],
       "explanation": "本句的「reversal」指「移動／行動方向反轉」。",
       "sentenceIndex": 15,
@@ -2172,12 +2114,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-13": "本句指「移動／行動方向反轉」。",
-        "reversal-mcq-12": "「態度出現重大相反轉變」與本句語境不同。",
-        "reversal-mcq-14": "「原有上升／下降等趨勢改變方向」與本句語境不同。",
-        "reversal-mcq-11": "「原先決定被撤銷／推翻」與本句語境不同。",
-        "reversal-mcq-15": "「下跌／衰退趨勢被扭轉」與本句語境不同。",
-        "reversal-mcq-10": "「原有政策方向被撤回／改成相反方向」與本句語境不同。"
+        "reversal-mcq-13": "本句的「reversal」指「移動／行動方向反轉」。",
+        "reversal-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-13"
     },
@@ -2189,11 +2129,9 @@ export default {
       "masked": "Analysts are watching for signs of a trend ____.",
       "options": [
         "reversal-mcq-14",
-        "reversal-mcq-13",
-        "reversal-mcq-15",
-        "reversal-mcq-12",
-        "reversal-mcq-16",
-        "reversal-mcq-11"
+        "reversal-mcq-54",
+        "reversal-mcq-20",
+        "reversal-mcq-31"
       ],
       "explanation": "本句的「reversal」指「原有上升／下降等趨勢改變方向」。",
       "sentenceIndex": 16,
@@ -2202,12 +2140,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-14": "本句指「原有上升／下降等趨勢改變方向」。",
-        "reversal-mcq-13": "「移動／行動方向反轉」與本句語境不同。",
-        "reversal-mcq-15": "「下跌／衰退趨勢被扭轉」與本句語境不同。",
-        "reversal-mcq-12": "「態度出現重大相反轉變」與本句語境不同。",
-        "reversal-mcq-16": "「成敗、順逆或處境發生重大反轉」與本句語境不同。",
-        "reversal-mcq-11": "「原先決定被撤銷／推翻」與本句語境不同。"
+        "reversal-mcq-14": "本句的「reversal」指「原有上升／下降等趨勢改變方向」。",
+        "reversal-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-14"
     },
@@ -2219,11 +2155,9 @@ export default {
       "masked": "The figures suggest a ____ of the decline.",
       "options": [
         "reversal-mcq-15",
-        "reversal-mcq-14",
-        "reversal-mcq-16",
-        "reversal-mcq-13",
-        "reversal-mcq-17",
-        "reversal-mcq-12"
+        "reversal-mcq-62",
+        "reversal-mcq-11",
+        "reversal-mcq-26"
       ],
       "explanation": "本句的「reversal」指「下跌／衰退趨勢被扭轉」。",
       "sentenceIndex": 17,
@@ -2232,12 +2166,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-15": "本句指「下跌／衰退趨勢被扭轉」。",
-        "reversal-mcq-14": "「原有上升／下降等趨勢改變方向」與本句語境不同。",
-        "reversal-mcq-16": "「成敗、順逆或處境發生重大反轉」與本句語境不同。",
-        "reversal-mcq-13": "「移動／行動方向反轉」與本句語境不同。",
-        "reversal-mcq-17": "「角色命運／境遇突然轉變的情節」與本句語境不同。",
-        "reversal-mcq-12": "「態度出現重大相反轉變」與本句語境不同。"
+        "reversal-mcq-15": "本句的「reversal」指「下跌／衰退趨勢被扭轉」。",
+        "reversal-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-15"
     },
@@ -2249,11 +2181,9 @@ export default {
       "masked": "The company suffered a dramatic ____ of fortune.",
       "options": [
         "reversal-mcq-16",
-        "reversal-mcq-15",
-        "reversal-mcq-17",
+        "reversal-mcq-11",
         "reversal-mcq-14",
-        "reversal-mcq-18",
-        "reversal-mcq-13"
+        "reversal-mcq-62"
       ],
       "explanation": "本句的「reversal」指「成敗、順逆或處境發生重大反轉」。",
       "sentenceIndex": 18,
@@ -2262,12 +2192,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-16": "本句指「成敗、順逆或處境發生重大反轉」。",
-        "reversal-mcq-15": "「下跌／衰退趨勢被扭轉」與本句語境不同。",
-        "reversal-mcq-17": "「角色命運／境遇突然轉變的情節」與本句語境不同。",
-        "reversal-mcq-14": "「原有上升／下降等趨勢改變方向」與本句語境不同。",
-        "reversal-mcq-18": "「故事發展方向突然反轉」與本句語境不同。",
-        "reversal-mcq-13": "「移動／行動方向反轉」與本句語境不同。"
+        "reversal-mcq-16": "本句的「reversal」指「成敗、順逆或處境發生重大反轉」。",
+        "reversal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-16"
     },
@@ -2279,11 +2207,9 @@ export default {
       "masked": "The story ends with a surprising ____ of fortunes.",
       "options": [
         "reversal-mcq-16",
-        "reversal-mcq-15",
-        "reversal-mcq-17",
-        "reversal-mcq-14",
-        "reversal-mcq-18",
-        "reversal-mcq-13"
+        "reversal-mcq-26",
+        "reversal-mcq-23",
+        "reversal-mcq-02"
       ],
       "explanation": "本句的「reversal」指「成敗、順逆或處境發生重大反轉」。",
       "sentenceIndex": 19,
@@ -2292,12 +2218,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-16": "本句指「成敗、順逆或處境發生重大反轉」。",
-        "reversal-mcq-15": "「下跌／衰退趨勢被扭轉」與本句語境不同。",
-        "reversal-mcq-17": "「角色命運／境遇突然轉變的情節」與本句語境不同。",
-        "reversal-mcq-14": "「原有上升／下降等趨勢改變方向」與本句語境不同。",
-        "reversal-mcq-18": "「故事發展方向突然反轉」與本句語境不同。",
-        "reversal-mcq-13": "「移動／行動方向反轉」與本句語境不同。"
+        "reversal-mcq-16": "本句的「reversal」指「成敗、順逆或處境發生重大反轉」。",
+        "reversal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-16"
     },
@@ -2309,11 +2233,9 @@ export default {
       "masked": "The film contains several unexpected plot ____.",
       "options": [
         "reversal-mcq-18",
-        "reversal-mcq-17",
-        "reversal-mcq-19",
-        "reversal-mcq-16",
-        "reversal-mcq-20",
-        "reversal-mcq-15"
+        "reversal-mcq-31",
+        "reversal-mcq-02",
+        "reversal-mcq-23"
       ],
       "explanation": "本句的「reversals」指「故事發展方向突然反轉」。",
       "sentenceIndex": 20,
@@ -2322,12 +2244,10 @@ export default {
         "reversals"
       ],
       "optionReasons": {
-        "reversal-mcq-18": "本句指「故事發展方向突然反轉」。",
-        "reversal-mcq-17": "「角色命運／境遇突然轉變的情節」與本句語境不同。",
-        "reversal-mcq-19": "「正式：挫敗、失利或不利轉變」與本句語境不同。",
-        "reversal-mcq-16": "「成敗、順逆或處境發生重大反轉」與本句語境不同。",
-        "reversal-mcq-20": "「軍事上的失利／戰局逆轉」與本句語境不同。",
-        "reversal-mcq-15": "「下跌／衰退趨勢被扭轉」與本句語境不同。"
+        "reversal-mcq-18": "本句的「reversals」指「故事發展方向突然反轉」。",
+        "reversal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-18"
     },
@@ -2339,11 +2259,9 @@ export default {
       "masked": "The organization suffered several ____ before succeeding.",
       "options": [
         "reversal-mcq-19",
-        "reversal-mcq-18",
-        "reversal-mcq-20",
-        "reversal-mcq-17",
-        "reversal-mcq-21",
-        "reversal-mcq-16"
+        "reversal-mcq-62",
+        "reversal-mcq-23",
+        "reversal-mcq-01"
       ],
       "explanation": "本句的「reversals」指「正式：挫敗、失利或不利轉變」。",
       "sentenceIndex": 21,
@@ -2352,12 +2270,10 @@ export default {
         "reversals"
       ],
       "optionReasons": {
-        "reversal-mcq-19": "本句指「正式：挫敗、失利或不利轉變」。",
-        "reversal-mcq-18": "「故事發展方向突然反轉」與本句語境不同。",
-        "reversal-mcq-20": "「軍事上的失利／戰局逆轉」與本句語境不同。",
-        "reversal-mcq-17": "「角色命運／境遇突然轉變的情節」與本句語境不同。",
-        "reversal-mcq-21": "「上級法院推翻／撤銷下級裁決」與本句語境不同。",
-        "reversal-mcq-16": "「成敗、順逆或處境發生重大反轉」與本句語境不同。"
+        "reversal-mcq-19": "本句的「reversals」指「正式：挫敗、失利或不利轉變」。",
+        "reversal-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-19"
     },
@@ -2369,11 +2285,9 @@ export default {
       "masked": "Despite early ____, the project continued.",
       "options": [
         "reversal-mcq-19",
-        "reversal-mcq-18",
-        "reversal-mcq-20",
-        "reversal-mcq-17",
-        "reversal-mcq-21",
-        "reversal-mcq-16"
+        "reversal-mcq-11",
+        "reversal-mcq-01",
+        "reversal-mcq-62"
       ],
       "explanation": "本句的「reversals」指「正式：挫敗、失利或不利轉變」。",
       "sentenceIndex": 22,
@@ -2382,12 +2296,10 @@ export default {
         "reversals"
       ],
       "optionReasons": {
-        "reversal-mcq-19": "本句指「正式：挫敗、失利或不利轉變」。",
-        "reversal-mcq-18": "「故事發展方向突然反轉」與本句語境不同。",
-        "reversal-mcq-20": "「軍事上的失利／戰局逆轉」與本句語境不同。",
-        "reversal-mcq-17": "「角色命運／境遇突然轉變的情節」與本句語境不同。",
-        "reversal-mcq-21": "「上級法院推翻／撤銷下級裁決」與本句語境不同。",
-        "reversal-mcq-16": "「成敗、順逆或處境發生重大反轉」與本句語境不同。"
+        "reversal-mcq-19": "本句的「reversals」指「正式：挫敗、失利或不利轉變」。",
+        "reversal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-19"
     },
@@ -2399,11 +2311,9 @@ export default {
       "masked": "The army suffered a serious ____.",
       "options": [
         "reversal-mcq-20",
-        "reversal-mcq-19",
-        "reversal-mcq-21",
-        "reversal-mcq-18",
-        "reversal-mcq-22",
-        "reversal-mcq-17"
+        "reversal-mcq-01",
+        "reversal-mcq-10",
+        "reversal-mcq-23"
       ],
       "explanation": "本句的「reversal」指「軍事上的失利／戰局逆轉」。",
       "sentenceIndex": 23,
@@ -2412,12 +2322,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-20": "本句指「軍事上的失利／戰局逆轉」。",
-        "reversal-mcq-19": "「正式：挫敗、失利或不利轉變」與本句語境不同。",
-        "reversal-mcq-21": "「上級法院推翻／撤銷下級裁決」與本句語境不同。",
-        "reversal-mcq-18": "「故事發展方向突然反轉」與本句語境不同。",
-        "reversal-mcq-22": "「法院判決被推翻／撤銷」與本句語境不同。",
-        "reversal-mcq-17": "「角色命運／境遇突然轉變的情節」與本句語境不同。"
+        "reversal-mcq-20": "本句的「reversal」指「軍事上的失利／戰局逆轉」。",
+        "reversal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-20"
     },
@@ -2429,10 +2337,8 @@ export default {
       "masked": "The ruling was subject to ____ on appeal.",
       "options": [
         "reversal-mcq-23",
-        "reversal-mcq-22",
-        "reversal-mcq-24",
-        "reversal-mcq-21",
-        "reversal-mcq-25",
+        "reversal-mcq-01",
+        "reversal-mcq-18",
         "reversal-mcq-20"
       ],
       "explanation": "本句的「reversal」指「上訴後原裁決被推翻」。",
@@ -2442,12 +2348,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-23": "本句指「上訴後原裁決被推翻」。",
-        "reversal-mcq-22": "「法院判決被推翻／撤銷」與本句語境不同。",
-        "reversal-mcq-24": "「正式推翻／撤銷法院裁決」與本句語境不同。",
-        "reversal-mcq-21": "「上級法院推翻／撤銷下級裁決」與本句語境不同。",
-        "reversal-mcq-25": "「撤銷原判並把案件發回下級法院再處理」與本句語境不同。",
-        "reversal-mcq-20": "「軍事上的失利／戰局逆轉」與本句語境不同。"
+        "reversal-mcq-23": "本句的「reversal」指「上訴後原裁決被推翻」。",
+        "reversal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-23"
     },
@@ -2459,10 +2363,8 @@ export default {
       "masked": "Traders reacted to the sudden market ____.",
       "options": [
         "reversal-mcq-26",
-        "reversal-mcq-25",
-        "reversal-mcq-27",
-        "reversal-mcq-24",
-        "reversal-mcq-28",
+        "reversal-mcq-46",
+        "reversal-mcq-31",
         "reversal-mcq-23"
       ],
       "explanation": "本句的「reversal」指「金融市場行情改變方向」。",
@@ -2472,12 +2374,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-26": "本句指「金融市場行情改變方向」。",
-        "reversal-mcq-25": "「撤銷原判並把案件發回下級法院再處理」與本句語境不同。",
-        "reversal-mcq-27": "「價格由升轉跌或由跌轉升」與本句語境不同。",
-        "reversal-mcq-24": "「正式推翻／撤銷法院裁決」與本句語境不同。",
-        "reversal-mcq-28": "「市場由弱轉強／向上反轉的走勢」與本句語境不同。",
-        "reversal-mcq-23": "「上訴後原裁決被推翻」與本句語境不同。"
+        "reversal-mcq-26": "本句的「reversal」指「金融市場行情改變方向」。",
+        "reversal-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-26"
     },
@@ -2489,11 +2389,9 @@ export default {
       "masked": "The bank processed a payment ____.",
       "options": [
         "reversal-mcq-31",
-        "reversal-mcq-30",
-        "reversal-mcq-32",
-        "reversal-mcq-29",
-        "reversal-mcq-33",
-        "reversal-mcq-28"
+        "reversal-mcq-62",
+        "reversal-mcq-15",
+        "reversal-mcq-09"
       ],
       "explanation": "本句的「reversal」指「已處理付款被撤銷／沖回」。",
       "sentenceIndex": 28,
@@ -2502,12 +2400,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-31": "本句指「已處理付款被撤銷／沖回」。",
-        "reversal-mcq-30": "「被解讀為趨勢可能改變方向的市場圖表形態」與本句語境不同。",
-        "reversal-mcq-32": "「交易被取消，使原先效果被沖回」與本句語境不同。",
-        "reversal-mcq-29": "「市場由強轉弱／向下反轉的走勢」與本句語境不同。",
-        "reversal-mcq-33": "「付款授權被正式撤回」與本句語境不同。",
-        "reversal-mcq-28": "「市場由弱轉強／向上反轉的走勢」與本句語境不同。"
+        "reversal-mcq-31": "本句的「reversal」指「已處理付款被撤銷／沖回」。",
+        "reversal-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-31"
     },
@@ -2519,11 +2415,9 @@ export default {
       "masked": "A duplicate payment may require a transaction ____.",
       "options": [
         "reversal-mcq-32",
-        "reversal-mcq-31",
-        "reversal-mcq-33",
-        "reversal-mcq-30",
-        "reversal-mcq-34",
-        "reversal-mcq-29"
+        "reversal-mcq-26",
+        "reversal-mcq-08",
+        "reversal-mcq-15"
       ],
       "explanation": "本句的「reversal」指「交易被取消，使原先效果被沖回」。",
       "sentenceIndex": 29,
@@ -2532,12 +2426,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-32": "本句指「交易被取消，使原先效果被沖回」。",
-        "reversal-mcq-31": "「已處理付款被撤銷／沖回」與本句語境不同。",
-        "reversal-mcq-33": "「付款授權被正式撤回」與本句語境不同。",
-        "reversal-mcq-30": "「被解讀為趨勢可能改變方向的市場圖表形態」與本句語境不同。",
-        "reversal-mcq-34": "「某項收費被撤銷／沖回」與本句語境不同。",
-        "reversal-mcq-29": "「市場由強轉弱／向下反轉的走勢」與本句語境不同。"
+        "reversal-mcq-32": "本句的「reversal」指「交易被取消，使原先效果被沖回」。",
+        "reversal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-32"
     },
@@ -2549,11 +2441,9 @@ export default {
       "masked": "A ____ agent was administered.",
       "options": [
         "reversal-mcq-38",
-        "reversal-mcq-37",
-        "reversal-mcq-39",
-        "reversal-mcq-36",
-        "reversal-mcq-40",
-        "reversal-mcq-35"
+        "reversal-mcq-09",
+        "reversal-mcq-26",
+        "reversal-mcq-23"
       ],
       "explanation": "本句的「reversal」指「用來抵消另一藥物作用的逆轉／拮抗劑」。",
       "sentenceIndex": 32,
@@ -2562,12 +2452,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-38": "本句指「用來抵消另一藥物作用的逆轉／拮抗劑」。",
-        "reversal-mcq-37": "「對藥物／生理作用進行逆轉或解除」與本句語境不同。",
-        "reversal-mcq-39": "「解除／逆轉麻醉或相關阻滯作用」與本句語境不同。",
-        "reversal-mcq-36": "「用來沖銷先前會計分錄的轉回分錄」與本句語境不同。",
-        "reversal-mcq-40": "「逆轉危險的阿片類藥物作用」與本句語境不同。",
-        "reversal-mcq-35": "「以相反分錄抵消較早會計分錄」與本句語境不同。"
+        "reversal-mcq-38": "本句的「reversal」指「用來抵消另一藥物作用的逆轉／拮抗劑」。",
+        "reversal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-38"
     },
@@ -2579,11 +2467,9 @@ export default {
       "masked": "Researchers used a ____ task.",
       "options": [
         "reversal-mcq-46",
-        "reversal-mcq-45",
-        "reversal-mcq-47",
-        "reversal-mcq-44",
-        "reversal-mcq-48",
-        "reversal-mcq-43"
+        "reversal-mcq-26",
+        "reversal-mcq-01",
+        "reversal-mcq-31"
       ],
       "explanation": "本句的「reversal-learning」指「學習原有規則後，規則被倒轉而需重新適應的逆轉學習」。",
       "sentenceIndex": 33,
@@ -2592,12 +2478,10 @@ export default {
         "reversal-learning"
       ],
       "optionReasons": {
-        "reversal-mcq-46": "本句指「學習原有規則後，規則被倒轉而需重新適應的逆轉學習」。",
-        "reversal-mcq-45": "「把暫時造口重新接回腸道的還納手術」與本句語境不同。",
-        "reversal-mcq-47": "「磁極／地磁極性方向反轉」與本句語境不同。",
-        "reversal-mcq-44": "「輸卵管結紮復通手術」與本句語境不同。",
-        "reversal-mcq-48": "「正負／南北極性互換」與本句語境不同。",
-        "reversal-mcq-43": "「輸精管結紮復通手術」與本句語境不同。"
+        "reversal-mcq-46": "本句的「reversal-learning」指「學習原有規則後，規則被倒轉而需重新適應的逆轉學習」。",
+        "reversal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-46"
     },
@@ -2609,11 +2493,9 @@ export default {
       "masked": "The photographer used colour ____ film.",
       "options": [
         "reversal-mcq-54",
-        "reversal-mcq-53",
-        "reversal-mcq-55",
-        "reversal-mcq-52",
-        "reversal-mcq-56",
-        "reversal-mcq-51"
+        "reversal-mcq-14",
+        "reversal-mcq-62",
+        "reversal-mcq-01"
       ],
       "explanation": "本句的「reversal」指「經沖洗直接形成正像的反轉片／正片菲林」。",
       "sentenceIndex": 35,
@@ -2622,12 +2504,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-54": "本句指「經沖洗直接形成正像的反轉片／正片菲林」。",
-        "reversal-mcq-53": "「可同時向正、逆方向進行的化學反應」與本句語境不同。",
-        "reversal-mcq-55": "「產生正像的反轉沖洗程序」與本句語境不同。",
-        "reversal-mcq-52": "「無法簡單反向恢復原狀的過程」與本句語境不同。",
-        "reversal-mcq-56": "「影像方向／明暗／其他關係被反轉」與本句語境不同。",
-        "reversal-mcq-51": "「理想上可完全反向進行而恢復原狀的過程」與本句語境不同。"
+        "reversal-mcq-54": "本句的「reversal」指「經沖洗直接形成正像的反轉片／正片菲林」。",
+        "reversal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-54"
     },
@@ -2639,11 +2519,9 @@ export default {
       "masked": "The scene creates a striking ____ of power.",
       "options": [
         "reversal-mcq-62",
-        "reversal-mcq-61",
-        "reversal-mcq-63",
-        "reversal-mcq-60",
-        "reversal-mcq-64",
-        "reversal-mcq-59"
+        "reversal-mcq-12",
+        "reversal-mcq-38",
+        "reversal-mcq-15"
       ],
       "explanation": "本句的「reversal」指「強弱／權力關係對調」。",
       "sentenceIndex": 39,
@@ -2652,12 +2530,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-62": "本句指「強弱／權力關係對調」。",
-        "reversal-mcq-61": "「從原有視角轉到相反／另一方視角」與本句語境不同。",
-        "reversal-mcq-63": "「原先高低地位關係發生逆轉」與本句語境不同。",
-        "reversal-mcq-60": "「結果與讀者／觀眾原來預期相反」與本句語境不同。",
-        "reversal-mcq-64": "「傳統性別角色被交換／對調」與本句語境不同。",
-        "reversal-mcq-59": "「對原本預期的順序、關係或觀點作反轉／倒置」與本句語境不同。"
+        "reversal-mcq-62": "本句的「reversal」指「強弱／權力關係對調」。",
+        "reversal-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-62"
     },
@@ -2669,11 +2545,9 @@ export default {
       "masked": "The experiment involved a ____ of the order.",
       "options": [
         "reversal-mcq-65",
-        "reversal-mcq-64",
-        "reversal-mcq-66",
-        "reversal-mcq-63",
-        "reversal-mcq-67",
-        "reversal-mcq-62"
+        "reversal-mcq-31",
+        "reversal-mcq-01",
+        "reversal-mcq-26"
       ],
       "explanation": "本句的「reversal」指「原本次序倒轉」。",
       "sentenceIndex": 40,
@@ -2682,12 +2556,10 @@ export default {
         "reversal"
       ],
       "optionReasons": {
-        "reversal-mcq-65": "本句指「原本次序倒轉」。",
-        "reversal-mcq-64": "「傳統性別角色被交換／對調」與本句語境不同。",
-        "reversal-mcq-66": "「語句中的正常語序被倒置」與本句語境不同。",
-        "reversal-mcq-63": "「原先高低地位關係發生逆轉」與本句語境不同。",
-        "reversal-mcq-67": "「因與果的關係被倒置」與本句語境不同。",
-        "reversal-mcq-62": "「強弱／權力關係對調」與本句語境不同。"
+        "reversal-mcq-65": "本句的「reversal」指「原本次序倒轉」。",
+        "reversal-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reversal-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reversal-mcq-65"
     }
@@ -2699,5 +2571,7 @@ export default {
     "sha256": "da269f0e8a65df17040ddce15673a8ccc154d32a3bed1c767f78e54323d9d08f",
     "pages": 90
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

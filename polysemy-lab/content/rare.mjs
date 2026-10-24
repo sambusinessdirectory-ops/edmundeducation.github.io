@@ -366,7 +366,7 @@ export default {
     },
     {
       "id": "rare-mcq-16",
-      "title": "表示一種很難得的能力",
+      "title": "一種很難得的能力",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示一種很難得的能力",
@@ -388,7 +388,7 @@ export default {
     },
     {
       "id": "rare-mcq-17",
-      "title": "表示難得的；非凡的",
+      "title": "難得的；非凡的",
       "form": "9. rare — exceptional / unusually good",
       "en": "9. rare — exceptional / unusually good",
       "zh": "表示難得的；非凡的",
@@ -410,7 +410,7 @@ export default {
     },
     {
       "id": "rare-mcq-18",
-      "title": "表示極其罕見的",
+      "title": "極其罕見的",
       "form": "16. extremely / exceptionally rare",
       "en": "16. extremely / exceptionally rare",
       "zh": "表示極其罕見的",
@@ -440,11 +440,9 @@ export default {
       "masked": "She has a ____ to explain complex ideas simply.",
       "options": [
         "rare-mcq-16",
-        "rare-mcq-15",
-        "rare-mcq-17",
-        "rare-mcq-14",
-        "rare-mcq-18",
-        "rare-mcq-13"
+        "rare-mcq-13",
+        "rare-mcq-02",
+        "rare-mcq-10"
       ],
       "explanation": "本句的「rare ability」指「表示一種很難得的能力」。",
       "sentenceIndex": 0,
@@ -453,12 +451,10 @@ export default {
         "rare ability"
       ],
       "optionReasons": {
-        "rare-mcq-16": "本句指「表示一種很難得的能力」。",
-        "rare-mcq-15": "「做某事是很少見／難得的」是「it is rare to...」的用法，與本句語境不同。",
-        "rare-mcq-17": "「表示難得的；非凡的」是「9. rare — exceptional / unusually good」的用法，與本句語境不同。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-18": "「表示極其罕見的」是「16. extremely / exceptionally rare」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。"
+        "rare-mcq-16": "本句的「rare ability」指「表示一種很難得的能力」。",
+        "rare-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-16"
     },
@@ -470,11 +466,9 @@ export default {
       "masked": "Patience combined with sharp judgment is a ____.",
       "options": [
         "rare-mcq-16",
-        "rare-mcq-15",
-        "rare-mcq-17",
-        "rare-mcq-14",
-        "rare-mcq-18",
-        "rare-mcq-13"
+        "rare-mcq-12",
+        "rare-mcq-11",
+        "rare-mcq-18"
       ],
       "explanation": "本句的「rare quality」指「表示一種很難得的能力」。",
       "sentenceIndex": 1,
@@ -483,12 +477,10 @@ export default {
         "rare quality"
       ],
       "optionReasons": {
-        "rare-mcq-16": "本句指「表示一種很難得的能力」。",
-        "rare-mcq-15": "「做某事是很少見／難得的」是「it is rare to...」的用法，與本句語境不同。",
-        "rare-mcq-17": "「表示難得的；非凡的」是「9. rare — exceptional / unusually good」的用法，與本句語境不同。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-18": "「表示極其罕見的」是「16. extremely / exceptionally rare」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。"
+        "rare-mcq-16": "本句的「rare quality」指「表示一種很難得的能力」。",
+        "rare-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-16"
     },
@@ -500,10 +492,8 @@ export default {
       "masked": "Snow is ____ in this area.",
       "options": [
         "rare-mcq-01",
-        "rare-mcq-02",
-        "rare-mcq-03",
-        "rare-mcq-04",
-        "rare-mcq-05",
+        "rare-mcq-11",
+        "rare-mcq-16",
         "rare-mcq-06"
       ],
       "explanation": "本句的「rare」指「很少出現、存在或被發現的；罕見的／少見的」。",
@@ -513,12 +503,10 @@ export default {
         "rare"
       ],
       "optionReasons": {
-        "rare-mcq-01": "本句指「很少出現、存在或被發現的；罕見的／少見的」。",
-        "rare-mcq-02": "「發生頻率非常低的事件／情況」是「rare event/occurrence」的用法，與本句語境不同。",
-        "rare-mcq-03": "「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」是「rare quality/ability/talent」的用法，與本句語境不同。",
-        "rare-mcq-04": "「因具有少見而可貴特質而顯得很難得的人」是「rare person」的用法，與本句語境不同。",
-        "rare-mcq-05": "「數量很少、難以找到的；稀有的」是「rare — scarce object/species」的用法，與本句語境不同。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。"
+        "rare-mcq-01": "本句的「rare」指「很少出現、存在或被發現的；罕見的／少見的」。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-01"
     },
@@ -530,11 +518,9 @@ export default {
       "masked": "It is ____ to find someone with that combination of skills.",
       "options": [
         "rare-mcq-01",
-        "rare-mcq-02",
-        "rare-mcq-03",
-        "rare-mcq-04",
-        "rare-mcq-05",
-        "rare-mcq-06"
+        "rare-mcq-11",
+        "rare-mcq-16",
+        "rare-mcq-02"
       ],
       "explanation": "本句的「rare」指「很少出現、存在或被發現的；罕見的／少見的」。",
       "sentenceIndex": 3,
@@ -543,12 +529,10 @@ export default {
         "rare"
       ],
       "optionReasons": {
-        "rare-mcq-01": "本句指「很少出現、存在或被發現的；罕見的／少見的」。",
-        "rare-mcq-02": "「發生頻率非常低的事件／情況」是「rare event/occurrence」的用法，與本句語境不同。",
-        "rare-mcq-03": "「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」是「rare quality/ability/talent」的用法，與本句語境不同。",
-        "rare-mcq-04": "「因具有少見而可貴特質而顯得很難得的人」是「rare person」的用法，與本句語境不同。",
-        "rare-mcq-05": "「數量很少、難以找到的；稀有的」是「rare — scarce object/species」的用法，與本句語境不同。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。"
+        "rare-mcq-01": "本句的「rare」指「很少出現、存在或被發現的；罕見的／少見的」。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-01"
     },
@@ -560,11 +544,9 @@ export default {
       "masked": "Such accidents are extremely ____.",
       "options": [
         "rare-mcq-02",
-        "rare-mcq-01",
-        "rare-mcq-03",
-        "rare-mcq-04",
         "rare-mcq-05",
-        "rare-mcq-06"
+        "rare-mcq-18",
+        "rare-mcq-11"
       ],
       "explanation": "本句的「rare」指「發生頻率非常低的事件／情況」。",
       "sentenceIndex": 4,
@@ -573,12 +555,10 @@ export default {
         "rare"
       ],
       "optionReasons": {
-        "rare-mcq-02": "本句指「發生頻率非常低的事件／情況」。",
-        "rare-mcq-01": "「很少出現、存在或被發現的；罕見的／少見的」是「rare — uncommon」的用法，與本句語境不同。",
-        "rare-mcq-03": "「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」是「rare quality/ability/talent」的用法，與本句語境不同。",
-        "rare-mcq-04": "「因具有少見而可貴特質而顯得很難得的人」是「rare person」的用法，與本句語境不同。",
-        "rare-mcq-05": "「數量很少、難以找到的；稀有的」是「rare — scarce object/species」的用法，與本句語境不同。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。"
+        "rare-mcq-02": "本句的「rare」指「發生頻率非常低的事件／情況」。",
+        "rare-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-02"
     },
@@ -590,11 +570,9 @@ export default {
       "masked": "A total solar eclipse is a relatively ____ in any one location.",
       "options": [
         "rare-mcq-02",
-        "rare-mcq-01",
-        "rare-mcq-03",
-        "rare-mcq-04",
-        "rare-mcq-05",
-        "rare-mcq-06"
+        "rare-mcq-07",
+        "rare-mcq-09",
+        "rare-mcq-11"
       ],
       "explanation": "本句的「rare event」指「發生頻率非常低的事件／情況」。",
       "sentenceIndex": 5,
@@ -603,12 +581,10 @@ export default {
         "rare event"
       ],
       "optionReasons": {
-        "rare-mcq-02": "本句指「發生頻率非常低的事件／情況」。",
-        "rare-mcq-01": "「很少出現、存在或被發現的；罕見的／少見的」是「rare — uncommon」的用法，與本句語境不同。",
-        "rare-mcq-03": "「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」是「rare quality/ability/talent」的用法，與本句語境不同。",
-        "rare-mcq-04": "「因具有少見而可貴特質而顯得很難得的人」是「rare person」的用法，與本句語境不同。",
-        "rare-mcq-05": "「數量很少、難以找到的；稀有的」是「rare — scarce object/species」的用法，與本句語境不同。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。"
+        "rare-mcq-02": "本句的「rare event」指「發生頻率非常低的事件／情況」。",
+        "rare-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-02"
     },
@@ -620,11 +596,9 @@ export default {
       "masked": "She has a ____ for making people feel comfortable.",
       "options": [
         "rare-mcq-03",
+        "rare-mcq-18",
         "rare-mcq-02",
-        "rare-mcq-04",
-        "rare-mcq-01",
-        "rare-mcq-05",
-        "rare-mcq-06"
+        "rare-mcq-10"
       ],
       "explanation": "本句的「rare talent」指「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」。",
       "sentenceIndex": 6,
@@ -633,12 +607,10 @@ export default {
         "rare talent"
       ],
       "optionReasons": {
-        "rare-mcq-03": "本句指「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」。",
-        "rare-mcq-02": "「發生頻率非常低的事件／情況」是「rare event/occurrence」的用法，與本句語境不同。",
-        "rare-mcq-04": "「因具有少見而可貴特質而顯得很難得的人」是「rare person」的用法，與本句語境不同。",
-        "rare-mcq-01": "「很少出現、存在或被發現的；罕見的／少見的」是「rare — uncommon」的用法，與本句語境不同。",
-        "rare-mcq-05": "「數量很少、難以找到的；稀有的」是「rare — scarce object/species」的用法，與本句語境不同。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。"
+        "rare-mcq-03": "本句的「rare talent」指「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-03"
     },
@@ -650,11 +622,9 @@ export default {
       "masked": "His combination of humility and confidence is ____.",
       "options": [
         "rare-mcq-03",
+        "rare-mcq-18",
         "rare-mcq-02",
-        "rare-mcq-04",
-        "rare-mcq-01",
-        "rare-mcq-05",
-        "rare-mcq-06"
+        "rare-mcq-10"
       ],
       "explanation": "本句的「rare」指「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」。",
       "sentenceIndex": 7,
@@ -663,12 +633,10 @@ export default {
         "rare"
       ],
       "optionReasons": {
-        "rare-mcq-03": "本句指「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」。",
-        "rare-mcq-02": "「發生頻率非常低的事件／情況」是「rare event/occurrence」的用法，與本句語境不同。",
-        "rare-mcq-04": "「因具有少見而可貴特質而顯得很難得的人」是「rare person」的用法，與本句語境不同。",
-        "rare-mcq-01": "「很少出現、存在或被發現的；罕見的／少見的」是「rare — uncommon」的用法，與本句語境不同。",
-        "rare-mcq-05": "「數量很少、難以找到的；稀有的」是「rare — scarce object/species」的用法，與本句語境不同。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。"
+        "rare-mcq-03": "本句的「rare」指「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-03"
     },
@@ -680,11 +648,9 @@ export default {
       "masked": "She is a ____ who can challenge students without making them feel small.",
       "options": [
         "rare-mcq-04",
-        "rare-mcq-03",
-        "rare-mcq-05",
         "rare-mcq-02",
-        "rare-mcq-06",
-        "rare-mcq-01"
+        "rare-mcq-10",
+        "rare-mcq-09"
       ],
       "explanation": "本句的「rare teacher」指「因具有少見而可貴特質而顯得很難得的人」。",
       "sentenceIndex": 8,
@@ -693,12 +659,10 @@ export default {
         "rare teacher"
       ],
       "optionReasons": {
-        "rare-mcq-04": "本句指「因具有少見而可貴特質而顯得很難得的人」。",
-        "rare-mcq-03": "「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」是「rare quality/ability/talent」的用法，與本句語境不同。",
-        "rare-mcq-05": "「數量很少、難以找到的；稀有的」是「rare — scarce object/species」的用法，與本句語境不同。",
-        "rare-mcq-02": "「發生頻率非常低的事件／情況」是「rare event/occurrence」的用法，與本句語境不同。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。",
-        "rare-mcq-01": "「很少出現、存在或被發現的；罕見的／少見的」是「rare — uncommon」的用法，與本句語境不同。"
+        "rare-mcq-04": "本句的「rare teacher」指「因具有少見而可貴特質而顯得很難得的人」。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-04"
     },
@@ -710,11 +674,9 @@ export default {
       "masked": "He is one of those ____ who listens carefully before speaking.",
       "options": [
         "rare-mcq-04",
-        "rare-mcq-03",
-        "rare-mcq-05",
         "rare-mcq-02",
-        "rare-mcq-06",
-        "rare-mcq-01"
+        "rare-mcq-10",
+        "rare-mcq-13"
       ],
       "explanation": "本句的「rare people」指「因具有少見而可貴特質而顯得很難得的人」。",
       "sentenceIndex": 9,
@@ -723,12 +685,10 @@ export default {
         "rare people"
       ],
       "optionReasons": {
-        "rare-mcq-04": "本句指「因具有少見而可貴特質而顯得很難得的人」。",
-        "rare-mcq-03": "「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」是「rare quality/ability/talent」的用法，與本句語境不同。",
-        "rare-mcq-05": "「數量很少、難以找到的；稀有的」是「rare — scarce object/species」的用法，與本句語境不同。",
-        "rare-mcq-02": "「發生頻率非常低的事件／情況」是「rare event/occurrence」的用法，與本句語境不同。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。",
-        "rare-mcq-01": "「很少出現、存在或被發現的；罕見的／少見的」是「rare — uncommon」的用法，與本句語境不同。"
+        "rare-mcq-04": "本句的「rare people」指「因具有少見而可貴特質而顯得很難得的人」。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-04"
     },
@@ -740,11 +700,9 @@ export default {
       "masked": "The museum contains several ____.",
       "options": [
         "rare-mcq-05",
-        "rare-mcq-04",
-        "rare-mcq-06",
-        "rare-mcq-03",
-        "rare-mcq-07",
-        "rare-mcq-02"
+        "rare-mcq-18",
+        "rare-mcq-02",
+        "rare-mcq-10"
       ],
       "explanation": "本句的「rare books」指「數量很少、難以找到的；稀有的」。",
       "sentenceIndex": 10,
@@ -753,12 +711,10 @@ export default {
         "rare books"
       ],
       "optionReasons": {
-        "rare-mcq-05": "本句指「數量很少、難以找到的；稀有的」。",
-        "rare-mcq-04": "「因具有少見而可貴特質而顯得很難得的人」是「rare person」的用法，與本句語境不同。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。",
-        "rare-mcq-03": "「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」是「rare quality/ability/talent」的用法，與本句語境不同。",
-        "rare-mcq-07": "「因數量少、年代、價值等原因而難得一見的珍稀物品」是「rare book/object」的用法，與本句語境不同。",
-        "rare-mcq-02": "「發生頻率非常低的事件／情況」是「rare event/occurrence」的用法，與本句語境不同。"
+        "rare-mcq-05": "本句的「rare books」指「數量很少、難以找到的；稀有的」。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-05"
     },
@@ -770,11 +726,9 @@ export default {
       "masked": "The animal is becoming increasingly ____.",
       "options": [
         "rare-mcq-05",
-        "rare-mcq-04",
-        "rare-mcq-06",
-        "rare-mcq-03",
-        "rare-mcq-07",
-        "rare-mcq-02"
+        "rare-mcq-02",
+        "rare-mcq-18",
+        "rare-mcq-10"
       ],
       "explanation": "本句的「rare」指「數量很少、難以找到的；稀有的」。",
       "sentenceIndex": 11,
@@ -783,12 +737,10 @@ export default {
         "rare"
       ],
       "optionReasons": {
-        "rare-mcq-05": "本句指「數量很少、難以找到的；稀有的」。",
-        "rare-mcq-04": "「因具有少見而可貴特質而顯得很難得的人」是「rare person」的用法，與本句語境不同。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。",
-        "rare-mcq-03": "「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」是「rare quality/ability/talent」的用法，與本句語境不同。",
-        "rare-mcq-07": "「因數量少、年代、價值等原因而難得一見的珍稀物品」是「rare book/object」的用法，與本句語境不同。",
-        "rare-mcq-02": "「發生頻率非常低的事件／情況」是「rare event/occurrence」的用法，與本句語境不同。"
+        "rare-mcq-05": "本句的「rare」指「數量很少、難以找到的；稀有的」。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-05"
     },
@@ -800,11 +752,9 @@ export default {
       "masked": "The island is home to several ____.",
       "options": [
         "rare-mcq-06",
-        "rare-mcq-05",
-        "rare-mcq-07",
-        "rare-mcq-04",
-        "rare-mcq-08",
-        "rare-mcq-03"
+        "rare-mcq-17",
+        "rare-mcq-18",
+        "rare-mcq-09"
       ],
       "explanation": "本句的「rare species」指「數量少或分布有限的稀有物種」。",
       "sentenceIndex": 12,
@@ -813,12 +763,10 @@ export default {
         "rare species"
       ],
       "optionReasons": {
-        "rare-mcq-06": "本句指「數量少或分布有限的稀有物種」。",
-        "rare-mcq-05": "「數量很少、難以找到的；稀有的」是「rare — scarce object/species」的用法，與本句語境不同。",
-        "rare-mcq-07": "「因數量少、年代、價值等原因而難得一見的珍稀物品」是「rare book/object」的用法，與本句語境不同。",
-        "rare-mcq-04": "「因具有少見而可貴特質而顯得很難得的人」是「rare person」的用法，與本句語境不同。",
-        "rare-mcq-08": "「不常出現、值得把握的難得機會」是「rare opportunity」的用法，與本句語境不同。",
-        "rare-mcq-03": "「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」是「rare quality/ability/talent」的用法，與本句語境不同。"
+        "rare-mcq-06": "本句的「rare species」指「數量少或分布有限的稀有物種」。",
+        "rare-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-06"
     },
@@ -830,11 +778,9 @@ export default {
       "masked": "Conservationists are trying to protect a ____.",
       "options": [
         "rare-mcq-06",
-        "rare-mcq-05",
-        "rare-mcq-07",
-        "rare-mcq-04",
-        "rare-mcq-08",
-        "rare-mcq-03"
+        "rare-mcq-18",
+        "rare-mcq-02",
+        "rare-mcq-16"
       ],
       "explanation": "本句的「rare bird species」指「數量少或分布有限的稀有物種」。",
       "sentenceIndex": 13,
@@ -843,12 +789,10 @@ export default {
         "rare bird species"
       ],
       "optionReasons": {
-        "rare-mcq-06": "本句指「數量少或分布有限的稀有物種」。",
-        "rare-mcq-05": "「數量很少、難以找到的；稀有的」是「rare — scarce object/species」的用法，與本句語境不同。",
-        "rare-mcq-07": "「因數量少、年代、價值等原因而難得一見的珍稀物品」是「rare book/object」的用法，與本句語境不同。",
-        "rare-mcq-04": "「因具有少見而可貴特質而顯得很難得的人」是「rare person」的用法，與本句語境不同。",
-        "rare-mcq-08": "「不常出現、值得把握的難得機會」是「rare opportunity」的用法，與本句語境不同。",
-        "rare-mcq-03": "「很少有人具備，因此顯得難得或珍貴的特質／能力／天分」是「rare quality/ability/talent」的用法，與本句語境不同。"
+        "rare-mcq-06": "本句的「rare bird species」指「數量少或分布有限的稀有物種」。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-06"
     },
@@ -860,11 +804,9 @@ export default {
       "masked": "The library has a collection of ____.",
       "options": [
         "rare-mcq-07",
-        "rare-mcq-06",
-        "rare-mcq-08",
-        "rare-mcq-05",
-        "rare-mcq-09",
-        "rare-mcq-04"
+        "rare-mcq-10",
+        "rare-mcq-02",
+        "rare-mcq-09"
       ],
       "explanation": "本句的「rare books」指「因數量少、年代、價值等原因而難得一見的珍稀物品」。",
       "sentenceIndex": 14,
@@ -873,12 +815,10 @@ export default {
         "rare books"
       ],
       "optionReasons": {
-        "rare-mcq-07": "本句指「因數量少、年代、價值等原因而難得一見的珍稀物品」。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。",
-        "rare-mcq-08": "「不常出現、值得把握的難得機會」是「rare opportunity」的用法，與本句語境不同。",
-        "rare-mcq-05": "「數量很少、難以找到的；稀有的」是「rare — scarce object/species」的用法，與本句語境不同。",
-        "rare-mcq-09": "「很少出現的場合或情況」是「rare occasion」的用法，與本句語境不同。",
-        "rare-mcq-04": "「因具有少見而可貴特質而顯得很難得的人」是「rare person」的用法，與本句語境不同。"
+        "rare-mcq-07": "本句的「rare books」指「因數量少、年代、價值等原因而難得一見的珍稀物品」。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-07"
     },
@@ -890,11 +830,9 @@ export default {
       "masked": "Collectors paid a high price for the ____.",
       "options": [
         "rare-mcq-07",
-        "rare-mcq-06",
-        "rare-mcq-08",
-        "rare-mcq-05",
-        "rare-mcq-09",
-        "rare-mcq-04"
+        "rare-mcq-02",
+        "rare-mcq-10",
+        "rare-mcq-09"
       ],
       "explanation": "本句的「rare object」指「因數量少、年代、價值等原因而難得一見的珍稀物品」。",
       "sentenceIndex": 15,
@@ -903,12 +841,10 @@ export default {
         "rare object"
       ],
       "optionReasons": {
-        "rare-mcq-07": "本句指「因數量少、年代、價值等原因而難得一見的珍稀物品」。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。",
-        "rare-mcq-08": "「不常出現、值得把握的難得機會」是「rare opportunity」的用法，與本句語境不同。",
-        "rare-mcq-05": "「數量很少、難以找到的；稀有的」是「rare — scarce object/species」的用法，與本句語境不同。",
-        "rare-mcq-09": "「很少出現的場合或情況」是「rare occasion」的用法，與本句語境不同。",
-        "rare-mcq-04": "「因具有少見而可貴特質而顯得很難得的人」是「rare person」的用法，與本句語境不同。"
+        "rare-mcq-07": "本句的「rare object」指「因數量少、年代、價值等原因而難得一見的珍稀物品」。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-07"
     },
@@ -920,11 +856,9 @@ export default {
       "masked": "She showed ____.",
       "options": [
         "rare-mcq-17",
-        "rare-mcq-16",
-        "rare-mcq-18",
-        "rare-mcq-15",
-        "rare-mcq-14",
-        "rare-mcq-13"
+        "rare-mcq-10",
+        "rare-mcq-06",
+        "rare-mcq-01"
       ],
       "explanation": "本句的「rare courage」指「表示難得的；非凡的」。",
       "sentenceIndex": 16,
@@ -933,12 +867,10 @@ export default {
         "rare courage"
       ],
       "optionReasons": {
-        "rare-mcq-17": "本句指「表示難得的；非凡的」。",
-        "rare-mcq-16": "「表示一種很難得的能力」是「Passage meaning」的用法，與本句語境不同。",
-        "rare-mcq-18": "「表示極其罕見的」是「16. extremely / exceptionally rare」的用法，與本句語境不同。",
-        "rare-mcq-15": "「做某事是很少見／難得的」是「it is rare to...」的用法，與本句語境不同。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。"
+        "rare-mcq-17": "本句的「rare courage」指「表示難得的；非凡的」。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-17"
     },
@@ -950,11 +882,9 @@ export default {
       "masked": "He has a ____.",
       "options": [
         "rare-mcq-17",
-        "rare-mcq-16",
-        "rare-mcq-18",
-        "rare-mcq-15",
-        "rare-mcq-14",
-        "rare-mcq-13"
+        "rare-mcq-12",
+        "rare-mcq-06",
+        "rare-mcq-10"
       ],
       "explanation": "本句的「rare combination of intelligence and humility」指「表示難得的；非凡的」。",
       "sentenceIndex": 17,
@@ -963,12 +893,10 @@ export default {
         "rare combination of intelligence and humility"
       ],
       "optionReasons": {
-        "rare-mcq-17": "本句指「表示難得的；非凡的」。",
-        "rare-mcq-16": "「表示一種很難得的能力」是「Passage meaning」的用法，與本句語境不同。",
-        "rare-mcq-18": "「表示極其罕見的」是「16. extremely / exceptionally rare」的用法，與本句語境不同。",
-        "rare-mcq-15": "「做某事是很少見／難得的」是「it is rare to...」的用法，與本句語境不同。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。"
+        "rare-mcq-17": "本句的「rare combination of intelligence and humility」指「表示難得的；非凡的」。",
+        "rare-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-17"
     },
@@ -980,11 +908,9 @@ export default {
       "masked": "I’d like my steak ____.",
       "options": [
         "rare-mcq-10",
-        "rare-mcq-09",
-        "rare-mcq-11",
-        "rare-mcq-08",
-        "rare-mcq-12",
-        "rare-mcq-07"
+        "rare-mcq-18",
+        "rare-mcq-17",
+        "rare-mcq-09"
       ],
       "explanation": "本句的「rare」指「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」。",
       "sentenceIndex": 18,
@@ -993,12 +919,10 @@ export default {
         "rare"
       ],
       "optionReasons": {
-        "rare-mcq-10": "本句指「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」。",
-        "rare-mcq-09": "「很少出現的場合或情況」是「rare occasion」的用法，與本句語境不同。",
-        "rare-mcq-11": "「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」是「medium-rare」的用法，與本句語境不同。",
-        "rare-mcq-08": "「不常出現、值得把握的難得機會」是「rare opportunity」的用法，與本句語境不同。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。",
-        "rare-mcq-07": "「因數量少、年代、價值等原因而難得一見的珍稀物品」是「rare book/object」的用法，與本句語境不同。"
+        "rare-mcq-10": "本句的「rare」指「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-10"
     },
@@ -1010,11 +934,9 @@ export default {
       "masked": "The meat was too ____ for me.",
       "options": [
         "rare-mcq-10",
-        "rare-mcq-09",
-        "rare-mcq-11",
-        "rare-mcq-08",
-        "rare-mcq-12",
-        "rare-mcq-07"
+        "rare-mcq-05",
+        "rare-mcq-18",
+        "rare-mcq-08"
       ],
       "explanation": "本句的「rare」指「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」。",
       "sentenceIndex": 19,
@@ -1023,12 +945,10 @@ export default {
         "rare"
       ],
       "optionReasons": {
-        "rare-mcq-10": "本句指「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」。",
-        "rare-mcq-09": "「很少出現的場合或情況」是「rare occasion」的用法，與本句語境不同。",
-        "rare-mcq-11": "「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」是「medium-rare」的用法，與本句語境不同。",
-        "rare-mcq-08": "「不常出現、值得把握的難得機會」是「rare opportunity」的用法，與本句語境不同。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。",
-        "rare-mcq-07": "「因數量少、年代、價值等原因而難得一見的珍稀物品」是「rare book/object」的用法，與本句語境不同。"
+        "rare-mcq-10": "本句的「rare」指「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」。",
+        "rare-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-10"
     },
@@ -1040,11 +960,9 @@ export default {
       "masked": "I usually order steak ____.",
       "options": [
         "rare-mcq-11",
-        "rare-mcq-10",
-        "rare-mcq-12",
-        "rare-mcq-09",
-        "rare-mcq-13",
-        "rare-mcq-08"
+        "rare-mcq-18",
+        "rare-mcq-08",
+        "rare-mcq-02"
       ],
       "explanation": "本句的「medium-rare」指「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」。",
       "sentenceIndex": 20,
@@ -1053,12 +971,10 @@ export default {
         "medium-rare"
       ],
       "optionReasons": {
-        "rare-mcq-11": "本句指「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」。",
-        "rare-mcq-10": "「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」是「rare — meat」的用法，與本句語境不同。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。",
-        "rare-mcq-09": "「很少出現的場合或情況」是「rare occasion」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。",
-        "rare-mcq-08": "「不常出現、值得把握的難得機會」是「rare opportunity」的用法，與本句語境不同。"
+        "rare-mcq-11": "本句的「medium-rare」指「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-11"
     },
@@ -1070,11 +986,9 @@ export default {
       "masked": "The chef recommends serving it ____.",
       "options": [
         "rare-mcq-11",
-        "rare-mcq-10",
-        "rare-mcq-12",
+        "rare-mcq-16",
         "rare-mcq-09",
-        "rare-mcq-13",
-        "rare-mcq-08"
+        "rare-mcq-13"
       ],
       "explanation": "本句的「medium-rare」指「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」。",
       "sentenceIndex": 21,
@@ -1083,12 +997,10 @@ export default {
         "medium-rare"
       ],
       "optionReasons": {
-        "rare-mcq-11": "本句指「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」。",
-        "rare-mcq-10": "「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」是「rare — meat」的用法，與本句語境不同。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。",
-        "rare-mcq-09": "「很少出現的場合或情況」是「rare occasion」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。",
-        "rare-mcq-08": "「不常出現、值得把握的難得機會」是「rare opportunity」的用法，與本句語境不同。"
+        "rare-mcq-11": "本句的「medium-rare」指「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」。",
+        "rare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-11"
     },
@@ -1100,11 +1012,9 @@ export default {
       "masked": "Please cook the steak ____.",
       "options": [
         "rare-mcq-11",
-        "rare-mcq-10",
-        "rare-mcq-12",
-        "rare-mcq-09",
-        "rare-mcq-13",
-        "rare-mcq-08"
+        "rare-mcq-15",
+        "rare-mcq-02",
+        "rare-mcq-13"
       ],
       "explanation": "本句的「rare」指「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」。",
       "sentenceIndex": 22,
@@ -1113,12 +1023,10 @@ export default {
         "rare"
       ],
       "optionReasons": {
-        "rare-mcq-11": "本句指「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」。",
-        "rare-mcq-10": "「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」是「rare — meat」的用法，與本句語境不同。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。",
-        "rare-mcq-09": "「很少出現的場合或情況」是「rare occasion」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。",
-        "rare-mcq-08": "「不常出現、值得把握的難得機會」是「rare opportunity」的用法，與本句語境不同。"
+        "rare-mcq-11": "本句的「rare」指「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」。",
+        "rare-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-11"
     },
@@ -1130,11 +1038,9 @@ export default {
       "masked": "This cut is often served ____.",
       "options": [
         "rare-mcq-11",
-        "rare-mcq-10",
-        "rare-mcq-12",
-        "rare-mcq-09",
-        "rare-mcq-13",
-        "rare-mcq-08"
+        "rare-mcq-17",
+        "rare-mcq-01",
+        "rare-mcq-06"
       ],
       "explanation": "本句的「rare」指「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」。",
       "sentenceIndex": 23,
@@ -1143,12 +1049,10 @@ export default {
         "rare"
       ],
       "optionReasons": {
-        "rare-mcq-11": "本句指「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」。",
-        "rare-mcq-10": "「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」是「rare — meat」的用法，與本句語境不同。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。",
-        "rare-mcq-09": "「很少出現的場合或情況」是「rare occasion」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。",
-        "rare-mcq-08": "「不常出現、值得把握的難得機會」是「rare opportunity」的用法，與本句語境不同。"
+        "rare-mcq-11": "本句的「rare」指「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」。",
+        "rare-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-11"
     },
@@ -1160,11 +1064,9 @@ export default {
       "masked": "She ____ gets angry.",
       "options": [
         "rare-mcq-12",
-        "rare-mcq-11",
         "rare-mcq-13",
-        "rare-mcq-10",
-        "rare-mcq-14",
-        "rare-mcq-09"
+        "rare-mcq-16",
+        "rare-mcq-11"
       ],
       "explanation": "本句的「rarely」指「某事發生頻率低；很少／不常」。",
       "sentenceIndex": 24,
@@ -1173,12 +1075,10 @@ export default {
         "rarely"
       ],
       "optionReasons": {
-        "rare-mcq-12": "本句指「某事發生頻率低；很少／不常」。",
-        "rare-mcq-11": "「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」是「medium-rare」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。",
-        "rare-mcq-10": "「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」是「rare — meat」的用法，與本句語境不同。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-09": "「很少出現的場合或情況」是「rare occasion」的用法，與本句語境不同。"
+        "rare-mcq-12": "本句的「rarely」指「某事發生頻率低；很少／不常」。",
+        "rare-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-12"
     },
@@ -1191,10 +1091,8 @@ export default {
       "options": [
         "rare-mcq-12",
         "rare-mcq-11",
-        "rare-mcq-13",
-        "rare-mcq-10",
-        "rare-mcq-14",
-        "rare-mcq-09"
+        "rare-mcq-16",
+        "rare-mcq-18"
       ],
       "explanation": "本句的「rarely」指「某事發生頻率低；很少／不常」。",
       "sentenceIndex": 25,
@@ -1203,12 +1101,10 @@ export default {
         "rarely"
       ],
       "optionReasons": {
-        "rare-mcq-12": "本句指「某事發生頻率低；很少／不常」。",
-        "rare-mcq-11": "「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」是「medium-rare」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。",
-        "rare-mcq-10": "「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」是「rare — meat」的用法，與本句語境不同。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-09": "「很少出現的場合或情況」是「rare occasion」的用法，與本句語境不同。"
+        "rare-mcq-12": "本句的「rarely」指「某事發生頻率低；很少／不常」。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-12"
     },
@@ -1220,11 +1116,9 @@ export default {
       "masked": "Snow is a ____ in this region.",
       "options": [
         "rare-mcq-13",
-        "rare-mcq-12",
-        "rare-mcq-14",
-        "rare-mcq-11",
-        "rare-mcq-15",
-        "rare-mcq-10"
+        "rare-mcq-10",
+        "rare-mcq-16",
+        "rare-mcq-12"
       ],
       "explanation": "本句的「rarity」指「罕見或稀有的狀態；也可指罕見的人／事物」。",
       "sentenceIndex": 26,
@@ -1233,12 +1127,10 @@ export default {
         "rarity"
       ],
       "optionReasons": {
-        "rare-mcq-13": "本句指「罕見或稀有的狀態；也可指罕見的人／事物」。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-11": "「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」是「medium-rare」的用法，與本句語境不同。",
-        "rare-mcq-15": "「做某事是很少見／難得的」是「it is rare to...」的用法，與本句語境不同。",
-        "rare-mcq-10": "「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」是「rare — meat」的用法，與本句語境不同。"
+        "rare-mcq-13": "本句的「rarity」指「罕見或稀有的狀態；也可指罕見的人／事物」。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-13"
     },
@@ -1250,11 +1142,9 @@ export default {
       "masked": "Genuine examples of this kind are a ____.",
       "options": [
         "rare-mcq-13",
-        "rare-mcq-12",
-        "rare-mcq-14",
-        "rare-mcq-11",
-        "rare-mcq-15",
-        "rare-mcq-10"
+        "rare-mcq-03",
+        "rare-mcq-10",
+        "rare-mcq-02"
       ],
       "explanation": "本句的「rarity」指「罕見或稀有的狀態；也可指罕見的人／事物」。",
       "sentenceIndex": 27,
@@ -1263,12 +1153,10 @@ export default {
         "rarity"
       ],
       "optionReasons": {
-        "rare-mcq-13": "本句指「罕見或稀有的狀態；也可指罕見的人／事物」。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-11": "「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」是「medium-rare」的用法，與本句語境不同。",
-        "rare-mcq-15": "「做某事是很少見／難得的」是「it is rare to...」的用法，與本句語境不同。",
-        "rare-mcq-10": "「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」是「rare — meat」的用法，與本句語境不同。"
+        "rare-mcq-13": "本句的「rarity」指「罕見或稀有的狀態；也可指罕見的人／事物」。",
+        "rare-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-13"
     },
@@ -1280,11 +1168,9 @@ export default {
       "masked": "This condition is ____.",
       "options": [
         "rare-mcq-18",
+        "rare-mcq-10",
         "rare-mcq-17",
-        "rare-mcq-16",
-        "rare-mcq-15",
-        "rare-mcq-14",
-        "rare-mcq-13"
+        "rare-mcq-09"
       ],
       "explanation": "本句的「extremely rare」指「表示極其罕見的」。",
       "sentenceIndex": 28,
@@ -1293,12 +1179,10 @@ export default {
         "extremely rare"
       ],
       "optionReasons": {
-        "rare-mcq-18": "本句指「表示極其罕見的」。",
-        "rare-mcq-17": "「表示難得的；非凡的」是「9. rare — exceptional / unusually good」的用法，與本句語境不同。",
-        "rare-mcq-16": "「表示一種很難得的能力」是「Passage meaning」的用法，與本句語境不同。",
-        "rare-mcq-15": "「做某事是很少見／難得的」是「it is rare to...」的用法，與本句語境不同。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。"
+        "rare-mcq-18": "本句的「extremely rare」指「表示極其罕見的」。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-18"
     },
@@ -1310,11 +1194,9 @@ export default {
       "masked": "Such a combination is ____.",
       "options": [
         "rare-mcq-18",
-        "rare-mcq-17",
-        "rare-mcq-16",
-        "rare-mcq-15",
-        "rare-mcq-14",
-        "rare-mcq-13"
+        "rare-mcq-12",
+        "rare-mcq-11",
+        "rare-mcq-17"
       ],
       "explanation": "本句的「exceptionally rare」指「表示極其罕見的」。",
       "sentenceIndex": 29,
@@ -1323,12 +1205,10 @@ export default {
         "exceptionally rare"
       ],
       "optionReasons": {
-        "rare-mcq-18": "本句指「表示極其罕見的」。",
-        "rare-mcq-17": "「表示難得的；非凡的」是「9. rare — exceptional / unusually good」的用法，與本句語境不同。",
-        "rare-mcq-16": "「表示一種很難得的能力」是「Passage meaning」的用法，與本句語境不同。",
-        "rare-mcq-15": "「做某事是很少見／難得的」是「it is rare to...」的用法，與本句語境不同。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。"
+        "rare-mcq-18": "本句的「exceptionally rare」指「表示極其罕見的」。",
+        "rare-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-18"
     },
@@ -1340,11 +1220,9 @@ export default {
       "masked": "This mistake is ____.",
       "options": [
         "rare-mcq-15",
-        "rare-mcq-14",
-        "rare-mcq-16",
-        "rare-mcq-13",
-        "rare-mcq-17",
-        "rare-mcq-12"
+        "rare-mcq-02",
+        "rare-mcq-11",
+        "rare-mcq-13"
       ],
       "explanation": "本句的「relatively rare」指「做某事是很少見／難得的」。",
       "sentenceIndex": 30,
@@ -1353,12 +1231,10 @@ export default {
         "relatively rare"
       ],
       "optionReasons": {
-        "rare-mcq-15": "本句指「做某事是很少見／難得的」。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-16": "「表示一種很難得的能力」是「Passage meaning」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。",
-        "rare-mcq-17": "「表示難得的；非凡的」是「9. rare — exceptional / unusually good」的用法，與本句語境不同。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。"
+        "rare-mcq-15": "本句的「relatively rare」指「做某事是很少見／難得的」。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-15"
     },
@@ -1370,11 +1246,9 @@ export default {
       "masked": "The species is ____ in urban areas.",
       "options": [
         "rare-mcq-15",
-        "rare-mcq-14",
-        "rare-mcq-16",
-        "rare-mcq-13",
-        "rare-mcq-17",
-        "rare-mcq-12"
+        "rare-mcq-02",
+        "rare-mcq-11",
+        "rare-mcq-13"
       ],
       "explanation": "本句的「relatively rare」指「做某事是很少見／難得的」。",
       "sentenceIndex": 31,
@@ -1383,12 +1257,10 @@ export default {
         "relatively rare"
       ],
       "optionReasons": {
-        "rare-mcq-15": "本句指「做某事是很少見／難得的」。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-16": "「表示一種很難得的能力」是「Passage meaning」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。",
-        "rare-mcq-17": "「表示難得的；非凡的」是「9. rare — exceptional / unusually good」的用法，與本句語境不同。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。"
+        "rare-mcq-15": "本句的「relatively rare」指「做某事是很少見／難得的」。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-15"
     },
@@ -1400,11 +1272,9 @@ export default {
       "masked": "Handwritten letters are becoming ____.",
       "options": [
         "rare-mcq-15",
-        "rare-mcq-14",
-        "rare-mcq-16",
-        "rare-mcq-13",
-        "rare-mcq-17",
-        "rare-mcq-12"
+        "rare-mcq-11",
+        "rare-mcq-02",
+        "rare-mcq-13"
       ],
       "explanation": "本句的「increasingly rare」指「做某事是很少見／難得的」。",
       "sentenceIndex": 32,
@@ -1413,12 +1283,10 @@ export default {
         "increasingly rare"
       ],
       "optionReasons": {
-        "rare-mcq-15": "本句指「做某事是很少見／難得的」。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-16": "「表示一種很難得的能力」是「Passage meaning」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。",
-        "rare-mcq-17": "「表示難得的；非凡的」是「9. rare — exceptional / unusually good」的用法，與本句語境不同。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。"
+        "rare-mcq-15": "本句的「increasingly rare」指「做某事是很少見／難得的」。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-15"
     },
@@ -1430,11 +1298,9 @@ export default {
       "masked": "This type of habitat is ____.",
       "options": [
         "rare-mcq-15",
-        "rare-mcq-14",
-        "rare-mcq-16",
-        "rare-mcq-13",
-        "rare-mcq-17",
-        "rare-mcq-12"
+        "rare-mcq-10",
+        "rare-mcq-02",
+        "rare-mcq-06"
       ],
       "explanation": "本句的「increasingly rare」指「做某事是很少見／難得的」。",
       "sentenceIndex": 33,
@@ -1443,12 +1309,10 @@ export default {
         "increasingly rare"
       ],
       "optionReasons": {
-        "rare-mcq-15": "本句指「做某事是很少見／難得的」。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-16": "「表示一種很難得的能力」是「Passage meaning」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。",
-        "rare-mcq-17": "「表示難得的；非凡的」是「9. rare — exceptional / unusually good」的用法，與本句語境不同。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。"
+        "rare-mcq-15": "本句的「increasingly rare」指「做某事是很少見／難得的」。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-15"
     },
@@ -1460,11 +1324,9 @@ export default {
       "masked": "This is a ____ to work with experts in the field.",
       "options": [
         "rare-mcq-08",
-        "rare-mcq-07",
-        "rare-mcq-09",
-        "rare-mcq-06",
-        "rare-mcq-10",
-        "rare-mcq-05"
+        "rare-mcq-18",
+        "rare-mcq-11",
+        "rare-mcq-06"
       ],
       "explanation": "本句的「rare opportunity」指「不常出現、值得把握的難得機會」。",
       "sentenceIndex": 34,
@@ -1473,12 +1335,10 @@ export default {
         "rare opportunity"
       ],
       "optionReasons": {
-        "rare-mcq-08": "本句指「不常出現、值得把握的難得機會」。",
-        "rare-mcq-07": "「因數量少、年代、價值等原因而難得一見的珍稀物品」是「rare book/object」的用法，與本句語境不同。",
-        "rare-mcq-09": "「很少出現的場合或情況」是「rare occasion」的用法，與本句語境不同。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。",
-        "rare-mcq-10": "「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」是「rare — meat」的用法，與本句語境不同。",
-        "rare-mcq-05": "「數量很少、難以找到的；稀有的」是「rare — scarce object/species」的用法，與本句語境不同。"
+        "rare-mcq-08": "本句的「rare opportunity」指「不常出現、值得把握的難得機會」。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-08"
     },
@@ -1490,11 +1350,9 @@ export default {
       "masked": "She was given a ____ to study abroad.",
       "options": [
         "rare-mcq-08",
-        "rare-mcq-07",
-        "rare-mcq-09",
-        "rare-mcq-06",
         "rare-mcq-10",
-        "rare-mcq-05"
+        "rare-mcq-06",
+        "rare-mcq-18"
       ],
       "explanation": "本句的「rare opportunity」指「不常出現、值得把握的難得機會」。",
       "sentenceIndex": 35,
@@ -1503,12 +1361,10 @@ export default {
         "rare opportunity"
       ],
       "optionReasons": {
-        "rare-mcq-08": "本句指「不常出現、值得把握的難得機會」。",
-        "rare-mcq-07": "「因數量少、年代、價值等原因而難得一見的珍稀物品」是「rare book/object」的用法，與本句語境不同。",
-        "rare-mcq-09": "「很少出現的場合或情況」是「rare occasion」的用法，與本句語境不同。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。",
-        "rare-mcq-10": "「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」是「rare — meat」的用法，與本句語境不同。",
-        "rare-mcq-05": "「數量很少、難以找到的；稀有的」是「rare — scarce object/species」的用法，與本句語境不同。"
+        "rare-mcq-08": "本句的「rare opportunity」指「不常出現、值得把握的難得機會」。",
+        "rare-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-08"
     },
@@ -1520,11 +1376,9 @@ export default {
       "masked": "On the ____ that he is late, he always apologizes.",
       "options": [
         "rare-mcq-09",
-        "rare-mcq-08",
-        "rare-mcq-10",
-        "rare-mcq-07",
+        "rare-mcq-13",
         "rare-mcq-11",
-        "rare-mcq-06"
+        "rare-mcq-16"
       ],
       "explanation": "本句的「rare occasion」指「很少出現的場合或情況」。",
       "sentenceIndex": 36,
@@ -1533,12 +1387,10 @@ export default {
         "rare occasion"
       ],
       "optionReasons": {
-        "rare-mcq-09": "本句指「很少出現的場合或情況」。",
-        "rare-mcq-08": "「不常出現、值得把握的難得機會」是「rare opportunity」的用法，與本句語境不同。",
-        "rare-mcq-10": "「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」是「rare — meat」的用法，與本句語境不同。",
-        "rare-mcq-07": "「因數量少、年代、價值等原因而難得一見的珍稀物品」是「rare book/object」的用法，與本句語境不同。",
-        "rare-mcq-11": "「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」是「medium-rare」的用法，與本句語境不同。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。"
+        "rare-mcq-09": "本句的「rare occasion」指「很少出現的場合或情況」。",
+        "rare-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-09"
     },
@@ -1550,11 +1402,9 @@ export default {
       "masked": "It was a ____ when the whole family was together.",
       "options": [
         "rare-mcq-09",
-        "rare-mcq-08",
-        "rare-mcq-10",
-        "rare-mcq-07",
-        "rare-mcq-11",
-        "rare-mcq-06"
+        "rare-mcq-18",
+        "rare-mcq-16",
+        "rare-mcq-11"
       ],
       "explanation": "本句的「rare occasion」指「很少出現的場合或情況」。",
       "sentenceIndex": 37,
@@ -1563,12 +1413,10 @@ export default {
         "rare occasion"
       ],
       "optionReasons": {
-        "rare-mcq-09": "本句指「很少出現的場合或情況」。",
-        "rare-mcq-08": "「不常出現、值得把握的難得機會」是「rare opportunity」的用法，與本句語境不同。",
-        "rare-mcq-10": "「肉只稍微煮熟、中心仍偏紅；三分熟／偏生」是「rare — meat」的用法，與本句語境不同。",
-        "rare-mcq-07": "「因數量少、年代、價值等原因而難得一見的珍稀物品」是「rare book/object」的用法，與本句語境不同。",
-        "rare-mcq-11": "「比 rare 稍熟、中心仍明顯粉紅或偏紅；三至五分熟」是「medium-rare」的用法，與本句語境不同。",
-        "rare-mcq-06": "「數量少或分布有限的稀有物種」是「rare species」的用法，與本句語境不同。"
+        "rare-mcq-09": "本句的「rare occasion」指「很少出現的場合或情況」。",
+        "rare-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-09"
     },
@@ -1580,11 +1428,9 @@ export default {
       "masked": "It is ____.",
       "options": [
         "rare-mcq-15",
-        "rare-mcq-14",
-        "rare-mcq-16",
-        "rare-mcq-13",
-        "rare-mcq-17",
-        "rare-mcq-12"
+        "rare-mcq-02",
+        "rare-mcq-11",
+        "rare-mcq-13"
       ],
       "explanation": "本句的「rare for her to lose patience」指「做某事是很少見／難得的」。",
       "sentenceIndex": 38,
@@ -1593,12 +1439,10 @@ export default {
         "rare for her to lose patience"
       ],
       "optionReasons": {
-        "rare-mcq-15": "本句指「做某事是很少見／難得的」。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-16": "「表示一種很難得的能力」是「Passage meaning」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。",
-        "rare-mcq-17": "「表示難得的；非凡的」是「9. rare — exceptional / unusually good」的用法，與本句語境不同。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。"
+        "rare-mcq-15": "本句的「rare for her to lose patience」指「做某事是很少見／難得的」。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-15"
     },
@@ -1610,11 +1454,9 @@ export default {
       "masked": "It is ____.",
       "options": [
         "rare-mcq-15",
-        "rare-mcq-14",
-        "rare-mcq-16",
-        "rare-mcq-13",
-        "rare-mcq-17",
-        "rare-mcq-12"
+        "rare-mcq-11",
+        "rare-mcq-02",
+        "rare-mcq-06"
       ],
       "explanation": "本句的「rare for the class to be completely silent」指「做某事是很少見／難得的」。",
       "sentenceIndex": 39,
@@ -1623,12 +1465,10 @@ export default {
         "rare for the class to be completely silent"
       ],
       "optionReasons": {
-        "rare-mcq-15": "本句指「做某事是很少見／難得的」。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-16": "「表示一種很難得的能力」是「Passage meaning」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。",
-        "rare-mcq-17": "「表示難得的；非凡的」是「9. rare — exceptional / unusually good」的用法，與本句語境不同。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。"
+        "rare-mcq-15": "本句的「rare for the class to be completely silent」指「做某事是很少見／難得的」。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-15"
     },
@@ -1640,11 +1480,9 @@ export default {
       "masked": "It is ____.",
       "options": [
         "rare-mcq-15",
-        "rare-mcq-14",
-        "rare-mcq-16",
-        "rare-mcq-13",
-        "rare-mcq-17",
-        "rare-mcq-12"
+        "rare-mcq-11",
+        "rare-mcq-02",
+        "rare-mcq-06"
       ],
       "explanation": "本句的「rare to find such a patient teacher」指「做某事是很少見／難得的」。",
       "sentenceIndex": 40,
@@ -1653,12 +1491,10 @@ export default {
         "rare to find such a patient teacher"
       ],
       "optionReasons": {
-        "rare-mcq-15": "本句指「做某事是很少見／難得的」。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-16": "「表示一種很難得的能力」是「Passage meaning」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。",
-        "rare-mcq-17": "「表示難得的；非凡的」是「9. rare — exceptional / unusually good」的用法，與本句語境不同。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。"
+        "rare-mcq-15": "本句的「rare to find such a patient teacher」指「做某事是很少見／難得的」。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-15"
     },
@@ -1670,11 +1506,9 @@ export default {
       "masked": "It is ____.",
       "options": [
         "rare-mcq-15",
-        "rare-mcq-14",
-        "rare-mcq-16",
-        "rare-mcq-13",
-        "rare-mcq-17",
-        "rare-mcq-12"
+        "rare-mcq-02",
+        "rare-mcq-11",
+        "rare-mcq-06"
       ],
       "explanation": "本句的「rare to see this animal in the wild」指「做某事是很少見／難得的」。",
       "sentenceIndex": 41,
@@ -1683,12 +1517,10 @@ export default {
         "rare to see this animal in the wild"
       ],
       "optionReasons": {
-        "rare-mcq-15": "本句指「做某事是很少見／難得的」。",
-        "rare-mcq-14": "「某人做某事的情況很少發生」是「it is rare for...」的用法，與本句語境不同。",
-        "rare-mcq-16": "「表示一種很難得的能力」是「Passage meaning」的用法，與本句語境不同。",
-        "rare-mcq-13": "「罕見或稀有的狀態；也可指罕見的人／事物」是「rarity」的用法，與本句語境不同。",
-        "rare-mcq-17": "「表示難得的；非凡的」是「9. rare — exceptional / unusually good」的用法，與本句語境不同。",
-        "rare-mcq-12": "「某事發生頻率低；很少／不常」是「rarely」的用法，與本句語境不同。"
+        "rare-mcq-15": "本句的「rare to see this animal in the wild」指「做某事是很少見／難得的」。",
+        "rare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rare-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rare-mcq-15"
     }
@@ -1700,5 +1532,7 @@ export default {
     "sha256": "6ae44bee2035c3788d082711701a15c9056be41c425ea896a1f69228d50d6646",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

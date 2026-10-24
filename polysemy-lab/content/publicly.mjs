@@ -612,11 +612,9 @@ export default {
       "masked": "He said it so ____.",
       "options": [
         "publicly-mcq-01",
-        "publicly-mcq-02",
-        "publicly-mcq-03",
-        "publicly-mcq-04",
-        "publicly-mcq-05",
-        "publicly-mcq-06"
+        "publicly-mcq-24",
+        "publicly-mcq-15",
+        "publicly-mcq-14"
       ],
       "explanation": "本句的「publicly」指「公開地；當眾地」。",
       "sentenceIndex": 0,
@@ -625,12 +623,10 @@ export default {
         "publicly"
       ],
       "optionReasons": {
-        "publicly-mcq-01": "本句指「公開地；當眾地」。",
-        "publicly-mcq-02": "「公開說」是「say publicly」的用法，與本句語境不同。",
-        "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。"
+        "publicly-mcq-01": "本句的「publicly」指「公開地；當眾地」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-01"
     },
@@ -642,11 +638,9 @@ export default {
       "masked": "She ____ the decision.",
       "options": [
         "publicly-mcq-01",
-        "publicly-mcq-02",
-        "publicly-mcq-03",
-        "publicly-mcq-04",
-        "publicly-mcq-05",
-        "publicly-mcq-06"
+        "publicly-mcq-24",
+        "publicly-mcq-15",
+        "publicly-mcq-09"
       ],
       "explanation": "本句的「publicly criticised」指「公開地；當眾地」。",
       "sentenceIndex": 1,
@@ -655,12 +649,10 @@ export default {
         "publicly criticised"
       ],
       "optionReasons": {
-        "publicly-mcq-01": "本句指「公開地；當眾地」。",
-        "publicly-mcq-02": "「公開說」是「say publicly」的用法，與本句語境不同。",
-        "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。"
+        "publicly-mcq-01": "本句的「publicly criticised」指「公開地；當眾地」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-01"
     },
@@ -672,11 +664,9 @@ export default {
       "masked": "He ____ that he had made a mistake.",
       "options": [
         "publicly-mcq-01",
-        "publicly-mcq-02",
-        "publicly-mcq-03",
-        "publicly-mcq-04",
-        "publicly-mcq-05",
-        "publicly-mcq-06"
+        "publicly-mcq-24",
+        "publicly-mcq-15",
+        "publicly-mcq-14"
       ],
       "explanation": "本句的「publicly admitted」指「公開地；當眾地」。",
       "sentenceIndex": 2,
@@ -685,12 +675,10 @@ export default {
         "publicly admitted"
       ],
       "optionReasons": {
-        "publicly-mcq-01": "本句指「公開地；當眾地」。",
-        "publicly-mcq-02": "「公開說」是「say publicly」的用法，與本句語境不同。",
-        "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。"
+        "publicly-mcq-01": "本句的「publicly admitted」指「公開地；當眾地」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-01"
     },
@@ -702,11 +690,7 @@ export default {
       "masked": "He should not have said that ____.",
       "options": [
         "publicly-mcq-02",
-        "publicly-mcq-01",
-        "publicly-mcq-03",
-        "publicly-mcq-04",
-        "publicly-mcq-05",
-        "publicly-mcq-06"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「publicly」指「公開說」。",
       "sentenceIndex": 3,
@@ -715,12 +699,8 @@ export default {
         "publicly"
       ],
       "optionReasons": {
-        "publicly-mcq-02": "本句指「公開說」。",
-        "publicly-mcq-01": "「公開地；當眾地」是「publicly」的用法，與本句語境不同。",
-        "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。"
+        "publicly-mcq-02": "本句的「publicly」指「公開說」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-02"
     },
@@ -732,11 +712,7 @@ export default {
       "masked": "She refused to discuss the issue ____.",
       "options": [
         "publicly-mcq-02",
-        "publicly-mcq-01",
-        "publicly-mcq-03",
-        "publicly-mcq-04",
-        "publicly-mcq-05",
-        "publicly-mcq-06"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「publicly」指「公開說」。",
       "sentenceIndex": 4,
@@ -745,12 +721,8 @@ export default {
         "publicly"
       ],
       "optionReasons": {
-        "publicly-mcq-02": "本句指「公開說」。",
-        "publicly-mcq-01": "「公開地；當眾地」是「publicly」的用法，與本句語境不同。",
-        "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。"
+        "publicly-mcq-02": "本句的「publicly」指「公開說」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-02"
     },
@@ -762,11 +734,9 @@ export default {
       "masked": "He ____ in front of the whole team.",
       "options": [
         "publicly-mcq-03",
-        "publicly-mcq-02",
-        "publicly-mcq-04",
-        "publicly-mcq-01",
-        "publicly-mcq-05",
-        "publicly-mcq-06"
+        "publicly-mcq-24",
+        "publicly-mcq-21",
+        "publicly-mcq-09"
       ],
       "explanation": "本句的「criticised me publicly」指「公開批評」。",
       "sentenceIndex": 5,
@@ -775,12 +745,10 @@ export default {
         "criticised me publicly"
       ],
       "optionReasons": {
-        "publicly-mcq-03": "本句指「公開批評」。",
-        "publicly-mcq-02": "「公開說」是「say publicly」的用法，與本句語境不同。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-01": "「公開地；當眾地」是「publicly」的用法，與本句語境不同。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。"
+        "publicly-mcq-03": "本句的「criticised me publicly」指「公開批評」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-03"
     },
@@ -792,11 +760,9 @@ export default {
       "masked": "Managers should think carefully before ____.",
       "options": [
         "publicly-mcq-03",
-        "publicly-mcq-02",
-        "publicly-mcq-04",
-        "publicly-mcq-01",
-        "publicly-mcq-05",
-        "publicly-mcq-06"
+        "publicly-mcq-24",
+        "publicly-pdf-001",
+        "publicly-mcq-14"
       ],
       "explanation": "本句的「criticising staff publicly」指「公開批評」。",
       "sentenceIndex": 6,
@@ -805,12 +771,10 @@ export default {
         "criticising staff publicly"
       ],
       "optionReasons": {
-        "publicly-mcq-03": "本句指「公開批評」。",
-        "publicly-mcq-02": "「公開說」是「say publicly」的用法，與本句語境不同。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-01": "「公開地；當眾地」是「publicly」的用法，與本句語境不同。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。"
+        "publicly-mcq-03": "本句的「criticising staff publicly」指「公開批評」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-03"
     },
@@ -822,11 +786,9 @@ export default {
       "masked": "He later ____.",
       "options": [
         "publicly-mcq-04",
-        "publicly-mcq-03",
-        "publicly-mcq-05",
-        "publicly-mcq-02",
-        "publicly-mcq-06",
-        "publicly-mcq-01"
+        "publicly-mcq-24",
+        "publicly-mcq-18",
+        "publicly-mcq-09"
       ],
       "explanation": "本句的「apologised publicly」指「公開道歉」。",
       "sentenceIndex": 7,
@@ -835,12 +797,10 @@ export default {
         "apologised publicly"
       ],
       "optionReasons": {
-        "publicly-mcq-04": "本句指「公開道歉」。",
-        "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。",
-        "publicly-mcq-02": "「公開說」是「say publicly」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。",
-        "publicly-mcq-01": "「公開地；當眾地」是「publicly」的用法，與本句語境不同。"
+        "publicly-mcq-04": "本句的「apologised publicly」指「公開道歉」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-04"
     },
@@ -852,11 +812,9 @@ export default {
       "masked": "The company ____ for the mistake.",
       "options": [
         "publicly-mcq-04",
-        "publicly-mcq-03",
-        "publicly-mcq-05",
-        "publicly-mcq-02",
-        "publicly-mcq-06",
-        "publicly-mcq-01"
+        "publicly-mcq-24",
+        "publicly-mcq-09",
+        "publicly-mcq-15"
       ],
       "explanation": "本句的「publicly apologised」指「公開道歉」。",
       "sentenceIndex": 8,
@@ -865,12 +823,10 @@ export default {
         "publicly apologised"
       ],
       "optionReasons": {
-        "publicly-mcq-04": "本句指「公開道歉」。",
-        "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。",
-        "publicly-mcq-02": "「公開說」是「say publicly」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。",
-        "publicly-mcq-01": "「公開地；當眾地」是「publicly」的用法，與本句語境不同。"
+        "publicly-mcq-04": "本句的「publicly apologised」指「公開道歉」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-04"
     },
@@ -882,11 +838,9 @@ export default {
       "masked": "She ____ that the plan had failed.",
       "options": [
         "publicly-mcq-05",
-        "publicly-mcq-04",
-        "publicly-mcq-06",
-        "publicly-mcq-03",
-        "publicly-mcq-07",
-        "publicly-mcq-02"
+        "publicly-mcq-24",
+        "publicly-mcq-21",
+        "publicly-mcq-09"
       ],
       "explanation": "本句的「publicly admitted」指「公開承認」。",
       "sentenceIndex": 9,
@@ -895,12 +849,10 @@ export default {
         "publicly admitted"
       ],
       "optionReasons": {
-        "publicly-mcq-05": "本句指「公開承認」。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。",
-        "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-07": "「公眾可查閱／進入的」是「publicly accessible」的用法，與本句語境不同。",
-        "publicly-mcq-02": "「公開說」是「say publicly」的用法，與本句語境不同。"
+        "publicly-mcq-05": "本句的「publicly admitted」指「公開承認」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-05"
     },
@@ -912,11 +864,9 @@ export default {
       "masked": "He was unwilling to ____ that he was wrong.",
       "options": [
         "publicly-mcq-05",
-        "publicly-mcq-04",
-        "publicly-mcq-06",
-        "publicly-mcq-03",
-        "publicly-mcq-07",
-        "publicly-mcq-02"
+        "publicly-mcq-24",
+        "publicly-pdf-001",
+        "publicly-mcq-14"
       ],
       "explanation": "本句的「admit publicly」指「公開承認」。",
       "sentenceIndex": 10,
@@ -925,12 +875,10 @@ export default {
         "admit publicly"
       ],
       "optionReasons": {
-        "publicly-mcq-05": "本句指「公開承認」。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。",
-        "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-07": "「公眾可查閱／進入的」是「publicly accessible」的用法，與本句語境不同。",
-        "publicly-mcq-02": "「公開說」是「say publicly」的用法，與本句語境不同。"
+        "publicly-mcq-05": "本句的「admit publicly」指「公開承認」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-05"
     },
@@ -942,11 +890,9 @@ export default {
       "masked": "The decision was ____ on Monday.",
       "options": [
         "publicly-pdf-001",
-        "publicly-mcq-04",
-        "publicly-mcq-06",
-        "publicly-mcq-03",
-        "publicly-mcq-07",
-        "publicly-mcq-02"
+        "publicly-mcq-24",
+        "publicly-mcq-14",
+        "publicly-mcq-08"
       ],
       "explanation": "本句的「publicly announced」指「向公眾正式公布資訊」。",
       "sentenceIndex": 11,
@@ -955,12 +901,10 @@ export default {
         "publicly announced"
       ],
       "optionReasons": {
-        "publicly-pdf-001": "本句指「向公眾正式公布資訊」。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。",
-        "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-07": "「公眾可查閱／進入的」是「publicly accessible」的用法，與本句語境不同。",
-        "publicly-mcq-02": "「公開說」是「say publicly」的用法，與本句語境不同。"
+        "publicly-pdf-001": "本句的「publicly announced」指「向公眾正式公布資訊」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-pdf-001"
     },
@@ -972,11 +916,9 @@ export default {
       "masked": "They have not ____ yet.",
       "options": [
         "publicly-pdf-001",
-        "publicly-mcq-04",
-        "publicly-mcq-06",
-        "publicly-mcq-03",
-        "publicly-mcq-07",
-        "publicly-mcq-02"
+        "publicly-mcq-24",
+        "publicly-mcq-15",
+        "publicly-mcq-14"
       ],
       "explanation": "本句的「announced the result publicly」指「向公眾正式公布資訊」。",
       "sentenceIndex": 12,
@@ -985,12 +927,10 @@ export default {
         "announced the result publicly"
       ],
       "optionReasons": {
-        "publicly-pdf-001": "本句指「向公眾正式公布資訊」。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。",
-        "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-07": "「公眾可查閱／進入的」是「publicly accessible」的用法，與本句語境不同。",
-        "publicly-mcq-02": "「公開說」是「say publicly」的用法，與本句語境不同。"
+        "publicly-pdf-001": "本句的「announced the result publicly」指「向公眾正式公布資訊」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-pdf-001"
     },
@@ -1002,11 +942,7 @@ export default {
       "masked": "The report is ____ online.",
       "options": [
         "publicly-mcq-06",
-        "publicly-mcq-05",
-        "publicly-mcq-07",
-        "publicly-mcq-04",
-        "publicly-mcq-08",
-        "publicly-mcq-03"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「publicly available」指「公開可取得的」。",
       "sentenceIndex": 13,
@@ -1015,12 +951,8 @@ export default {
         "publicly available"
       ],
       "optionReasons": {
-        "publicly-mcq-06": "本句指「公開可取得的」。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。",
-        "publicly-mcq-07": "「公眾可查閱／進入的」是「publicly accessible」的用法，與本句語境不同。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-08": "「公開已知的」是「publicly known」的用法，與本句語境不同。",
-        "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。"
+        "publicly-mcq-06": "本句的「publicly available」指「公開可取得的」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-06"
     },
@@ -1032,11 +964,7 @@ export default {
       "masked": "The data is not ____.",
       "options": [
         "publicly-mcq-06",
-        "publicly-mcq-05",
-        "publicly-mcq-07",
-        "publicly-mcq-04",
-        "publicly-mcq-08",
-        "publicly-mcq-03"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「publicly available」指「公開可取得的」。",
       "sentenceIndex": 14,
@@ -1045,12 +973,8 @@ export default {
         "publicly available"
       ],
       "optionReasons": {
-        "publicly-mcq-06": "本句指「公開可取得的」。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。",
-        "publicly-mcq-07": "「公眾可查閱／進入的」是「publicly accessible」的用法，與本句語境不同。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。",
-        "publicly-mcq-08": "「公開已知的」是「publicly known」的用法，與本句語境不同。",
-        "publicly-mcq-03": "「公開批評」是「criticise publicly」的用法，與本句語境不同。"
+        "publicly-mcq-06": "本句的「publicly available」指「公開可取得的」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-06"
     },
@@ -1062,11 +986,9 @@ export default {
       "masked": "The archive is ____.",
       "options": [
         "publicly-mcq-07",
-        "publicly-mcq-06",
-        "publicly-mcq-08",
-        "publicly-mcq-05",
-        "publicly-mcq-09",
-        "publicly-mcq-04"
+        "publicly-mcq-24",
+        "publicly-mcq-10",
+        "publicly-mcq-15"
       ],
       "explanation": "本句的「publicly accessible」指「公眾可查閱／進入的」。",
       "sentenceIndex": 15,
@@ -1075,12 +997,10 @@ export default {
         "publicly accessible"
       ],
       "optionReasons": {
-        "publicly-mcq-07": "本句指「公眾可查閱／進入的」。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。",
-        "publicly-mcq-08": "「公開已知的」是「publicly known」的用法，與本句語境不同。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。",
-        "publicly-mcq-09": "「公帑資助的」是「publicly funded」的用法，與本句語境不同。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。"
+        "publicly-mcq-07": "本句的「publicly accessible」指「公眾可查閱／進入的」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-07"
     },
@@ -1092,11 +1012,9 @@ export default {
       "masked": "Some records are not ____.",
       "options": [
         "publicly-mcq-07",
-        "publicly-mcq-06",
+        "publicly-mcq-24",
         "publicly-mcq-08",
-        "publicly-mcq-05",
-        "publicly-mcq-09",
-        "publicly-mcq-04"
+        "publicly-mcq-09"
       ],
       "explanation": "本句的「publicly accessible」指「公眾可查閱／進入的」。",
       "sentenceIndex": 16,
@@ -1105,12 +1023,10 @@ export default {
         "publicly accessible"
       ],
       "optionReasons": {
-        "publicly-mcq-07": "本句指「公眾可查閱／進入的」。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。",
-        "publicly-mcq-08": "「公開已知的」是「publicly known」的用法，與本句語境不同。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。",
-        "publicly-mcq-09": "「公帑資助的」是「publicly funded」的用法，與本句語境不同。",
-        "publicly-mcq-04": "「公開道歉」是「apologise publicly」的用法，與本句語境不同。"
+        "publicly-mcq-07": "本句的「publicly accessible」指「公眾可查閱／進入的」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-07"
     },
@@ -1122,11 +1038,9 @@ export default {
       "masked": "The information was already ____.",
       "options": [
         "publicly-mcq-08",
-        "publicly-mcq-07",
-        "publicly-mcq-09",
-        "publicly-mcq-06",
-        "publicly-mcq-10",
-        "publicly-mcq-05"
+        "publicly-mcq-24",
+        "publicly-pdf-001",
+        "publicly-mcq-15"
       ],
       "explanation": "本句的「publicly known」指「公開已知的」。",
       "sentenceIndex": 17,
@@ -1135,12 +1049,10 @@ export default {
         "publicly known"
       ],
       "optionReasons": {
-        "publicly-mcq-08": "本句指「公開已知的」。",
-        "publicly-mcq-07": "「公眾可查閱／進入的」是「publicly accessible」的用法，與本句語境不同。",
-        "publicly-mcq-09": "「公帑資助的」是「publicly funded」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。",
-        "publicly-mcq-10": "「公開上市交易的」是「publicly traded」的用法，與本句語境不同。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。"
+        "publicly-mcq-08": "本句的「publicly known」指「公開已知的」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-08"
     },
@@ -1152,11 +1064,9 @@ export default {
       "masked": "Very little was ____ about the project.",
       "options": [
         "publicly-mcq-08",
-        "publicly-mcq-07",
+        "publicly-mcq-24",
         "publicly-mcq-09",
-        "publicly-mcq-06",
-        "publicly-mcq-10",
-        "publicly-mcq-05"
+        "publicly-mcq-07"
       ],
       "explanation": "本句的「publicly known」指「公開已知的」。",
       "sentenceIndex": 18,
@@ -1165,12 +1075,10 @@ export default {
         "publicly known"
       ],
       "optionReasons": {
-        "publicly-mcq-08": "本句指「公開已知的」。",
-        "publicly-mcq-07": "「公眾可查閱／進入的」是「publicly accessible」的用法，與本句語境不同。",
-        "publicly-mcq-09": "「公帑資助的」是「publicly funded」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。",
-        "publicly-mcq-10": "「公開上市交易的」是「publicly traded」的用法，與本句語境不同。",
-        "publicly-mcq-05": "「公開承認」是「admit publicly」的用法，與本句語境不同。"
+        "publicly-mcq-08": "本句的「publicly known」指「公開已知的」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-08"
     },
@@ -1182,11 +1090,9 @@ export default {
       "masked": "The programme is ____.",
       "options": [
         "publicly-mcq-09",
-        "publicly-mcq-08",
-        "publicly-mcq-10",
-        "publicly-mcq-07",
-        "publicly-mcq-11",
-        "publicly-mcq-06"
+        "publicly-mcq-24",
+        "publicly-mcq-04",
+        "publicly-mcq-14"
       ],
       "explanation": "本句的「publicly funded」指「公帑資助的」。",
       "sentenceIndex": 19,
@@ -1195,12 +1101,10 @@ export default {
         "publicly funded"
       ],
       "optionReasons": {
-        "publicly-mcq-09": "本句指「公帑資助的」。",
-        "publicly-mcq-08": "「公開已知的」是「publicly known」的用法，與本句語境不同。",
-        "publicly-mcq-10": "「公開上市交易的」是「publicly traded」的用法，與本句語境不同。",
-        "publicly-mcq-07": "「公眾可查閱／進入的」是「publicly accessible」的用法，與本句語境不同。",
-        "publicly-mcq-11": "「公開的」是「public (open)」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。"
+        "publicly-mcq-09": "本句的「publicly funded」指「公帑資助的」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-09"
     },
@@ -1212,11 +1116,9 @@ export default {
       "masked": "The hospital is largely ____.",
       "options": [
         "publicly-mcq-09",
+        "publicly-mcq-24",
         "publicly-mcq-08",
-        "publicly-mcq-10",
-        "publicly-mcq-07",
-        "publicly-mcq-11",
-        "publicly-mcq-06"
+        "publicly-mcq-15"
       ],
       "explanation": "本句的「publicly funded」指「公帑資助的」。",
       "sentenceIndex": 20,
@@ -1225,12 +1127,10 @@ export default {
         "publicly funded"
       ],
       "optionReasons": {
-        "publicly-mcq-09": "本句指「公帑資助的」。",
-        "publicly-mcq-08": "「公開已知的」是「publicly known」的用法，與本句語境不同。",
-        "publicly-mcq-10": "「公開上市交易的」是「publicly traded」的用法，與本句語境不同。",
-        "publicly-mcq-07": "「公眾可查閱／進入的」是「publicly accessible」的用法，與本句語境不同。",
-        "publicly-mcq-11": "「公開的」是「public (open)」的用法，與本句語境不同。",
-        "publicly-mcq-06": "「公開可取得的」是「publicly available」的用法，與本句語境不同。"
+        "publicly-mcq-09": "本句的「publicly funded」指「公帑資助的」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-09"
     },
@@ -1242,11 +1142,9 @@ export default {
       "masked": "The company is ____.",
       "options": [
         "publicly-mcq-10",
-        "publicly-mcq-09",
-        "publicly-mcq-11",
-        "publicly-mcq-08",
-        "publicly-mcq-12",
-        "publicly-mcq-07"
+        "publicly-mcq-24",
+        "publicly-mcq-15",
+        "publicly-mcq-18"
       ],
       "explanation": "本句的「publicly traded」指「公開上市交易的」。",
       "sentenceIndex": 21,
@@ -1255,12 +1153,10 @@ export default {
         "publicly traded"
       ],
       "optionReasons": {
-        "publicly-mcq-10": "本句指「公開上市交易的」。",
-        "publicly-mcq-09": "「公帑資助的」是「publicly funded」的用法，與本句語境不同。",
-        "publicly-mcq-11": "「公開的」是「public (open)」的用法，與本句語境不同。",
-        "publicly-mcq-08": "「公開已知的」是「publicly known」的用法，與本句語境不同。",
-        "publicly-mcq-12": "「公眾的；公共的」是「public (community)」的用法，與本句語境不同。",
-        "publicly-mcq-07": "「公眾可查閱／進入的」是「publicly accessible」的用法，與本句語境不同。"
+        "publicly-mcq-10": "本句的「publicly traded」指「公開上市交易的」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-10"
     },
@@ -1272,11 +1168,9 @@ export default {
       "masked": "Shares in the company are ____.",
       "options": [
         "publicly-mcq-10",
-        "publicly-mcq-09",
-        "publicly-mcq-11",
-        "publicly-mcq-08",
-        "publicly-mcq-12",
-        "publicly-mcq-07"
+        "publicly-mcq-24",
+        "publicly-pdf-001",
+        "publicly-mcq-15"
       ],
       "explanation": "本句的「publicly traded」指「公開上市交易的」。",
       "sentenceIndex": 22,
@@ -1285,12 +1179,10 @@ export default {
         "publicly traded"
       ],
       "optionReasons": {
-        "publicly-mcq-10": "本句指「公開上市交易的」。",
-        "publicly-mcq-09": "「公帑資助的」是「publicly funded」的用法，與本句語境不同。",
-        "publicly-mcq-11": "「公開的」是「public (open)」的用法，與本句語境不同。",
-        "publicly-mcq-08": "「公開已知的」是「publicly known」的用法，與本句語境不同。",
-        "publicly-mcq-12": "「公眾的；公共的」是「public (community)」的用法，與本句語境不同。",
-        "publicly-mcq-07": "「公眾可查閱／進入的」是「publicly accessible」的用法，與本句語境不同。"
+        "publicly-mcq-10": "本句的「publicly traded」指「公開上市交易的」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-10"
     },
@@ -1302,11 +1194,7 @@ export default {
       "masked": "He made a ____.",
       "options": [
         "publicly-mcq-11",
-        "publicly-mcq-10",
-        "publicly-mcq-12",
-        "publicly-mcq-09",
-        "publicly-mcq-13",
-        "publicly-mcq-08"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「public apology」指「公開的」。",
       "sentenceIndex": 23,
@@ -1315,12 +1203,8 @@ export default {
         "public apology"
       ],
       "optionReasons": {
-        "publicly-mcq-11": "本句指「公開的」。",
-        "publicly-mcq-10": "「公開上市交易的」是「publicly traded」的用法，與本句語境不同。",
-        "publicly-mcq-12": "「公眾的；公共的」是「public (community)」的用法，與本句語境不同。",
-        "publicly-mcq-09": "「公帑資助的」是「publicly funded」的用法，與本句語境不同。",
-        "publicly-mcq-13": "「公共場所」是「public place」的用法，與本句語境不同。",
-        "publicly-mcq-08": "「公開已知的」是「publicly known」的用法，與本句語境不同。"
+        "publicly-mcq-11": "本句的「public apology」指「公開的」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-11"
     },
@@ -1332,11 +1216,7 @@ export default {
       "masked": "The issue became a matter of ____.",
       "options": [
         "publicly-mcq-11",
-        "publicly-mcq-10",
-        "publicly-mcq-12",
-        "publicly-mcq-09",
-        "publicly-mcq-13",
-        "publicly-mcq-08"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「public debate」指「公開的」。",
       "sentenceIndex": 24,
@@ -1345,12 +1225,8 @@ export default {
         "public debate"
       ],
       "optionReasons": {
-        "publicly-mcq-11": "本句指「公開的」。",
-        "publicly-mcq-10": "「公開上市交易的」是「publicly traded」的用法，與本句語境不同。",
-        "publicly-mcq-12": "「公眾的；公共的」是「public (community)」的用法，與本句語境不同。",
-        "publicly-mcq-09": "「公帑資助的」是「publicly funded」的用法，與本句語境不同。",
-        "publicly-mcq-13": "「公共場所」是「public place」的用法，與本句語境不同。",
-        "publicly-mcq-08": "「公開已知的」是「publicly known」的用法，與本句語境不同。"
+        "publicly-mcq-11": "本句的「public debate」指「公開的」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-11"
     },
@@ -1362,11 +1238,7 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "publicly-mcq-12",
-        "publicly-mcq-11",
-        "publicly-mcq-13",
-        "publicly-mcq-10",
-        "publicly-mcq-14",
-        "publicly-mcq-09"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「public park」指「公眾的；公共的」。",
       "sentenceIndex": 25,
@@ -1375,12 +1247,8 @@ export default {
         "public park"
       ],
       "optionReasons": {
-        "publicly-mcq-12": "本句指「公眾的；公共的」。",
-        "publicly-mcq-11": "「公開的」是「public (open)」的用法，與本句語境不同。",
-        "publicly-mcq-13": "「公共場所」是「public place」的用法，與本句語境不同。",
-        "publicly-mcq-10": "「公開上市交易的」是「publicly traded」的用法，與本句語境不同。",
-        "publicly-mcq-14": "「公共交通」是「public transport」的用法，與本句語境不同。",
-        "publicly-mcq-09": "「公帑資助的」是「publicly funded」的用法，與本句語境不同。"
+        "publicly-mcq-12": "本句的「public park」指「公眾的；公共的」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-12"
     },
@@ -1392,11 +1260,7 @@ export default {
       "masked": "The government is responsible for ____.",
       "options": [
         "publicly-mcq-12",
-        "publicly-mcq-11",
-        "publicly-mcq-13",
-        "publicly-mcq-10",
-        "publicly-mcq-14",
-        "publicly-mcq-09"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「public safety」指「公眾的；公共的」。",
       "sentenceIndex": 26,
@@ -1405,12 +1269,8 @@ export default {
         "public safety"
       ],
       "optionReasons": {
-        "publicly-mcq-12": "本句指「公眾的；公共的」。",
-        "publicly-mcq-11": "「公開的」是「public (open)」的用法，與本句語境不同。",
-        "publicly-mcq-13": "「公共場所」是「public place」的用法，與本句語境不同。",
-        "publicly-mcq-10": "「公開上市交易的」是「publicly traded」的用法，與本句語境不同。",
-        "publicly-mcq-14": "「公共交通」是「public transport」的用法，與本句語境不同。",
-        "publicly-mcq-09": "「公帑資助的」是「publicly funded」的用法，與本句語境不同。"
+        "publicly-mcq-12": "本句的「public safety」指「公眾的；公共的」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-12"
     },
@@ -1422,11 +1282,7 @@ export default {
       "masked": "Smoking is prohibited in some ____.",
       "options": [
         "publicly-mcq-13",
-        "publicly-mcq-12",
-        "publicly-mcq-14",
-        "publicly-mcq-11",
-        "publicly-mcq-15",
-        "publicly-mcq-10"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「public places」指「公共場所」。",
       "sentenceIndex": 27,
@@ -1435,12 +1291,8 @@ export default {
         "public places"
       ],
       "optionReasons": {
-        "publicly-mcq-13": "本句指「公共場所」。",
-        "publicly-mcq-12": "「公眾的；公共的」是「public (community)」的用法，與本句語境不同。",
-        "publicly-mcq-14": "「公共交通」是「public transport」的用法，與本句語境不同。",
-        "publicly-mcq-11": "「公開的」是「public (open)」的用法，與本句語境不同。",
-        "publicly-mcq-15": "「公營部門」是「public sector」的用法，與本句語境不同。",
-        "publicly-mcq-10": "「公開上市交易的」是「publicly traded」的用法，與本句語境不同。"
+        "publicly-mcq-13": "本句的「public places」指「公共場所」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-13"
     },
@@ -1452,11 +1304,7 @@ export default {
       "masked": "Don't leave valuables unattended in a ____.",
       "options": [
         "publicly-mcq-13",
-        "publicly-mcq-12",
-        "publicly-mcq-14",
-        "publicly-mcq-11",
-        "publicly-mcq-15",
-        "publicly-mcq-10"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「public place」指「公共場所」。",
       "sentenceIndex": 28,
@@ -1465,12 +1313,8 @@ export default {
         "public place"
       ],
       "optionReasons": {
-        "publicly-mcq-13": "本句指「公共場所」。",
-        "publicly-mcq-12": "「公眾的；公共的」是「public (community)」的用法，與本句語境不同。",
-        "publicly-mcq-14": "「公共交通」是「public transport」的用法，與本句語境不同。",
-        "publicly-mcq-11": "「公開的」是「public (open)」的用法，與本句語境不同。",
-        "publicly-mcq-15": "「公營部門」是「public sector」的用法，與本句語境不同。",
-        "publicly-mcq-10": "「公開上市交易的」是「publicly traded」的用法，與本句語境不同。"
+        "publicly-mcq-13": "本句的「public place」指「公共場所」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-13"
     },
@@ -1482,11 +1326,9 @@ export default {
       "masked": "I usually travel by ____.",
       "options": [
         "publicly-mcq-14",
-        "publicly-mcq-13",
-        "publicly-mcq-15",
-        "publicly-mcq-12",
-        "publicly-mcq-16",
-        "publicly-mcq-11"
+        "publicly-mcq-24",
+        "publicly-mcq-21",
+        "publicly-mcq-08"
       ],
       "explanation": "本句的「public transport」指「公共交通」。",
       "sentenceIndex": 29,
@@ -1495,12 +1337,10 @@ export default {
         "public transport"
       ],
       "optionReasons": {
-        "publicly-mcq-14": "本句指「公共交通」。",
-        "publicly-mcq-13": "「公共場所」是「public place」的用法，與本句語境不同。",
-        "publicly-mcq-15": "「公營部門」是「public sector」的用法，與本句語境不同。",
-        "publicly-mcq-12": "「公眾的；公共的」是「public (community)」的用法，與本句語境不同。",
-        "publicly-mcq-16": "「公眾」是「the public」的用法，與本句語境不同。",
-        "publicly-mcq-11": "「公開的」是「public (open)」的用法，與本句語境不同。"
+        "publicly-mcq-14": "本句的「public transport」指「公共交通」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-14"
     },
@@ -1512,11 +1352,9 @@ export default {
       "masked": "The city has an efficient ____.",
       "options": [
         "publicly-mcq-14",
-        "publicly-mcq-13",
-        "publicly-mcq-15",
-        "publicly-mcq-12",
-        "publicly-mcq-16",
-        "publicly-mcq-11"
+        "publicly-mcq-24",
+        "publicly-mcq-01",
+        "publicly-mcq-09"
       ],
       "explanation": "本句的「public transport system」指「公共交通」。",
       "sentenceIndex": 30,
@@ -1525,12 +1363,10 @@ export default {
         "public transport system"
       ],
       "optionReasons": {
-        "publicly-mcq-14": "本句指「公共交通」。",
-        "publicly-mcq-13": "「公共場所」是「public place」的用法，與本句語境不同。",
-        "publicly-mcq-15": "「公營部門」是「public sector」的用法，與本句語境不同。",
-        "publicly-mcq-12": "「公眾的；公共的」是「public (community)」的用法，與本句語境不同。",
-        "publicly-mcq-16": "「公眾」是「the public」的用法，與本句語境不同。",
-        "publicly-mcq-11": "「公開的」是「public (open)」的用法，與本句語境不同。"
+        "publicly-mcq-14": "本句的「public transport system」指「公共交通」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-14"
     },
@@ -1542,11 +1378,9 @@ export default {
       "masked": "She works in the ____.",
       "options": [
         "publicly-mcq-15",
-        "publicly-mcq-14",
-        "publicly-mcq-16",
-        "publicly-mcq-13",
-        "publicly-mcq-17",
-        "publicly-mcq-12"
+        "publicly-mcq-24",
+        "publicly-mcq-05",
+        "publicly-mcq-14"
       ],
       "explanation": "本句的「public sector」指「公營部門」。",
       "sentenceIndex": 31,
@@ -1555,12 +1389,10 @@ export default {
         "public sector"
       ],
       "optionReasons": {
-        "publicly-mcq-15": "本句指「公營部門」。",
-        "publicly-mcq-14": "「公共交通」是「public transport」的用法，與本句語境不同。",
-        "publicly-mcq-16": "「公眾」是「the public」的用法，與本句語境不同。",
-        "publicly-mcq-13": "「公共場所」是「public place」的用法，與本句語境不同。",
-        "publicly-mcq-17": "「一般公眾」是「general public」的用法，與本句語境不同。",
-        "publicly-mcq-12": "「公眾的；公共的」是「public (community)」的用法，與本句語境不同。"
+        "publicly-mcq-15": "本句的「public sector」指「公營部門」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-15"
     },
@@ -1572,11 +1404,9 @@ export default {
       "masked": "The reform affected ____.",
       "options": [
         "publicly-mcq-15",
-        "publicly-mcq-14",
-        "publicly-mcq-16",
-        "publicly-mcq-13",
-        "publicly-mcq-17",
-        "publicly-mcq-12"
+        "publicly-mcq-24",
+        "publicly-mcq-21",
+        "publicly-mcq-09"
       ],
       "explanation": "本句的「public-sector workers」指「公營部門」。",
       "sentenceIndex": 32,
@@ -1585,12 +1415,10 @@ export default {
         "public-sector workers"
       ],
       "optionReasons": {
-        "publicly-mcq-15": "本句指「公營部門」。",
-        "publicly-mcq-14": "「公共交通」是「public transport」的用法，與本句語境不同。",
-        "publicly-mcq-16": "「公眾」是「the public」的用法，與本句語境不同。",
-        "publicly-mcq-13": "「公共場所」是「public place」的用法，與本句語境不同。",
-        "publicly-mcq-17": "「一般公眾」是「general public」的用法，與本句語境不同。",
-        "publicly-mcq-12": "「公眾的；公共的」是「public (community)」的用法，與本句語境不同。"
+        "publicly-mcq-15": "本句的「public-sector workers」指「公營部門」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-15"
     },
@@ -1602,11 +1430,7 @@ export default {
       "masked": "The museum is open to the ____.",
       "options": [
         "publicly-mcq-16",
-        "publicly-mcq-15",
-        "publicly-mcq-17",
-        "publicly-mcq-14",
-        "publicly-mcq-18",
-        "publicly-mcq-13"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「public」指「公眾」。",
       "sentenceIndex": 33,
@@ -1615,12 +1439,8 @@ export default {
         "public"
       ],
       "optionReasons": {
-        "publicly-mcq-16": "本句指「公眾」。",
-        "publicly-mcq-15": "「公營部門」是「public sector」的用法，與本句語境不同。",
-        "publicly-mcq-17": "「一般公眾」是「general public」的用法，與本句語境不同。",
-        "publicly-mcq-14": "「公共交通」是「public transport」的用法，與本句語境不同。",
-        "publicly-mcq-18": "「公眾意見；民意」是「public opinion」的用法，與本句語境不同。",
-        "publicly-mcq-13": "「公共場所」是「public place」的用法，與本句語境不同。"
+        "publicly-mcq-16": "本句的「public」指「公眾」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-16"
     },
@@ -1632,11 +1452,7 @@ export default {
       "masked": "The ____ has a right to know.",
       "options": [
         "publicly-mcq-16",
-        "publicly-mcq-15",
-        "publicly-mcq-17",
-        "publicly-mcq-14",
-        "publicly-mcq-18",
-        "publicly-mcq-13"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「public」指「公眾」。",
       "sentenceIndex": 34,
@@ -1645,12 +1461,8 @@ export default {
         "public"
       ],
       "optionReasons": {
-        "publicly-mcq-16": "本句指「公眾」。",
-        "publicly-mcq-15": "「公營部門」是「public sector」的用法，與本句語境不同。",
-        "publicly-mcq-17": "「一般公眾」是「general public」的用法，與本句語境不同。",
-        "publicly-mcq-14": "「公共交通」是「public transport」的用法，與本句語境不同。",
-        "publicly-mcq-18": "「公眾意見；民意」是「public opinion」的用法，與本句語境不同。",
-        "publicly-mcq-13": "「公共場所」是「public place」的用法，與本句語境不同。"
+        "publicly-mcq-16": "本句的「public」指「公眾」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-16"
     },
@@ -1662,11 +1474,7 @@ export default {
       "masked": "The event is open to the ____.",
       "options": [
         "publicly-mcq-17",
-        "publicly-mcq-16",
-        "publicly-mcq-18",
-        "publicly-mcq-15",
-        "publicly-mcq-19",
-        "publicly-mcq-14"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「general public」指「一般公眾」。",
       "sentenceIndex": 35,
@@ -1675,12 +1483,8 @@ export default {
         "general public"
       ],
       "optionReasons": {
-        "publicly-mcq-17": "本句指「一般公眾」。",
-        "publicly-mcq-16": "「公眾」是「the public」的用法，與本句語境不同。",
-        "publicly-mcq-18": "「公眾意見；民意」是「public opinion」的用法，與本句語境不同。",
-        "publicly-mcq-15": "「公營部門」是「public sector」的用法，與本句語境不同。",
-        "publicly-mcq-19": "「公眾人物」是「public figure」的用法，與本句語境不同。",
-        "publicly-mcq-14": "「公共交通」是「public transport」的用法，與本句語境不同。"
+        "publicly-mcq-17": "本句的「general public」指「一般公眾」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-17"
     },
@@ -1692,11 +1496,7 @@ export default {
       "masked": "The information was not intended for the ____.",
       "options": [
         "publicly-mcq-17",
-        "publicly-mcq-16",
-        "publicly-mcq-18",
-        "publicly-mcq-15",
-        "publicly-mcq-19",
-        "publicly-mcq-14"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「general public」指「一般公眾」。",
       "sentenceIndex": 36,
@@ -1705,12 +1505,8 @@ export default {
         "general public"
       ],
       "optionReasons": {
-        "publicly-mcq-17": "本句指「一般公眾」。",
-        "publicly-mcq-16": "「公眾」是「the public」的用法，與本句語境不同。",
-        "publicly-mcq-18": "「公眾意見；民意」是「public opinion」的用法，與本句語境不同。",
-        "publicly-mcq-15": "「公營部門」是「public sector」的用法，與本句語境不同。",
-        "publicly-mcq-19": "「公眾人物」是「public figure」的用法，與本句語境不同。",
-        "publicly-mcq-14": "「公共交通」是「public transport」的用法，與本句語境不同。"
+        "publicly-mcq-17": "本句的「general public」指「一般公眾」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-17"
     },
@@ -1722,10 +1518,8 @@ export default {
       "masked": "The decision attracted strong ____.",
       "options": [
         "publicly-mcq-18",
-        "publicly-mcq-17",
-        "publicly-mcq-19",
-        "publicly-mcq-16",
-        "publicly-mcq-20",
+        "publicly-mcq-24",
+        "publicly-mcq-05",
         "publicly-mcq-15"
       ],
       "explanation": "本句的「public opinion」指「公眾意見；民意」。",
@@ -1735,12 +1529,10 @@ export default {
         "public opinion"
       ],
       "optionReasons": {
-        "publicly-mcq-18": "本句指「公眾意見；民意」。",
-        "publicly-mcq-17": "「一般公眾」是「general public」的用法，與本句語境不同。",
-        "publicly-mcq-19": "「公眾人物」是「public figure」的用法，與本句語境不同。",
-        "publicly-mcq-16": "「公眾」是「the public」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。",
-        "publicly-mcq-15": "「公營部門」是「public sector」的用法，與本句語境不同。"
+        "publicly-mcq-18": "本句的「public opinion」指「公眾意見；民意」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-18"
     },
@@ -1752,11 +1544,9 @@ export default {
       "masked": "The survey measured ____ on the issue.",
       "options": [
         "publicly-mcq-18",
-        "publicly-mcq-17",
-        "publicly-mcq-19",
-        "publicly-mcq-16",
-        "publicly-mcq-20",
-        "publicly-mcq-15"
+        "publicly-mcq-24",
+        "publicly-mcq-15",
+        "publicly-mcq-05"
       ],
       "explanation": "本句的「public opinion」指「公眾意見；民意」。",
       "sentenceIndex": 38,
@@ -1765,12 +1555,10 @@ export default {
         "public opinion"
       ],
       "optionReasons": {
-        "publicly-mcq-18": "本句指「公眾意見；民意」。",
-        "publicly-mcq-17": "「一般公眾」是「general public」的用法，與本句語境不同。",
-        "publicly-mcq-19": "「公眾人物」是「public figure」的用法，與本句語境不同。",
-        "publicly-mcq-16": "「公眾」是「the public」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。",
-        "publicly-mcq-15": "「公營部門」是「public sector」的用法，與本句語境不同。"
+        "publicly-mcq-18": "本句的「public opinion」指「公眾意見；民意」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-18"
     },
@@ -1782,11 +1570,7 @@ export default {
       "masked": "Celebrities are often treated as ____.",
       "options": [
         "publicly-mcq-19",
-        "publicly-mcq-18",
-        "publicly-mcq-20",
-        "publicly-mcq-17",
-        "publicly-mcq-21",
-        "publicly-mcq-16"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「public figures」指「公眾人物」。",
       "sentenceIndex": 39,
@@ -1795,12 +1579,8 @@ export default {
         "public figures"
       ],
       "optionReasons": {
-        "publicly-mcq-19": "本句指「公眾人物」。",
-        "publicly-mcq-18": "「公眾意見；民意」是「public opinion」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。",
-        "publicly-mcq-17": "「一般公眾」是「general public」的用法，與本句語境不同。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-16": "「公眾」是「the public」的用法，與本句語境不同。"
+        "publicly-mcq-19": "本句的「public figures」指「公眾人物」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-19"
     },
@@ -1812,11 +1592,7 @@ export default {
       "masked": "A ____ usually receives more media attention.",
       "options": [
         "publicly-mcq-19",
-        "publicly-mcq-18",
-        "publicly-mcq-20",
-        "publicly-mcq-17",
-        "publicly-mcq-21",
-        "publicly-mcq-16"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「public figure」指「公眾人物」。",
       "sentenceIndex": 40,
@@ -1825,12 +1601,8 @@ export default {
         "public figure"
       ],
       "optionReasons": {
-        "publicly-mcq-19": "本句指「公眾人物」。",
-        "publicly-mcq-18": "「公眾意見；民意」是「public opinion」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。",
-        "publicly-mcq-17": "「一般公眾」是「general public」的用法，與本句語境不同。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-16": "「公眾」是「the public」的用法，與本句語境不同。"
+        "publicly-mcq-19": "本句的「public figure」指「公眾人物」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-19"
     },
@@ -1842,11 +1614,9 @@ export default {
       "masked": "The organization issued a ____.",
       "options": [
         "publicly-mcq-20",
-        "publicly-mcq-19",
+        "publicly-mcq-24",
         "publicly-mcq-21",
-        "publicly-mcq-18",
-        "publicly-mcq-22",
-        "publicly-mcq-17"
+        "publicly-mcq-14"
       ],
       "explanation": "本句的「public statement」指「公開聲明」。",
       "sentenceIndex": 41,
@@ -1855,12 +1625,10 @@ export default {
         "public statement"
       ],
       "optionReasons": {
-        "publicly-mcq-20": "本句指「公開聲明」。",
-        "publicly-mcq-19": "「公眾人物」是「public figure」的用法，與本句語境不同。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-18": "「公眾意見；民意」是「public opinion」的用法，與本句語境不同。",
-        "publicly-mcq-22": "「公開／上市」是「go public」的用法，與本句語境不同。",
-        "publicly-mcq-17": "「一般公眾」是「general public」的用法，與本句語境不同。"
+        "publicly-mcq-20": "本句的「public statement」指「公開聲明」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-20"
     },
@@ -1872,11 +1640,9 @@ export default {
       "masked": "He declined to make a ____.",
       "options": [
         "publicly-mcq-20",
-        "publicly-mcq-19",
+        "publicly-mcq-24",
         "publicly-mcq-21",
-        "publicly-mcq-18",
-        "publicly-mcq-22",
-        "publicly-mcq-17"
+        "publicly-mcq-09"
       ],
       "explanation": "本句的「public statement」指「公開聲明」。",
       "sentenceIndex": 42,
@@ -1885,12 +1651,10 @@ export default {
         "public statement"
       ],
       "optionReasons": {
-        "publicly-mcq-20": "本句指「公開聲明」。",
-        "publicly-mcq-19": "「公眾人物」是「public figure」的用法，與本句語境不同。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-18": "「公眾意見；民意」是「public opinion」的用法，與本句語境不同。",
-        "publicly-mcq-22": "「公開／上市」是「go public」的用法，與本句語境不同。",
-        "publicly-mcq-17": "「一般公眾」是「general public」的用法，與本句語境不同。"
+        "publicly-mcq-20": "本句的「public statement」指「公開聲明」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-20"
     },
@@ -1902,11 +1666,9 @@ export default {
       "masked": "He criticised me ____.",
       "options": [
         "publicly-mcq-21",
-        "publicly-mcq-20",
-        "publicly-mcq-22",
-        "publicly-mcq-19",
-        "publicly-mcq-23",
-        "publicly-mcq-18"
+        "publicly-mcq-24",
+        "publicly-mcq-09",
+        "publicly-mcq-15"
       ],
       "explanation": "本句的「in public」指「當眾；在公眾場合」。",
       "sentenceIndex": 43,
@@ -1915,12 +1677,10 @@ export default {
         "in public"
       ],
       "optionReasons": {
-        "publicly-mcq-21": "本句指「當眾；在公眾場合」。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。",
-        "publicly-mcq-22": "「公開／上市」是「go public」的用法，與本句語境不同。",
-        "publicly-mcq-19": "「公眾人物」是「public figure」的用法，與本句語境不同。",
-        "publicly-mcq-23": "「公布；公開」是「make public」的用法，與本句語境不同。",
-        "publicly-mcq-18": "「公眾意見；民意」是「public opinion」的用法，與本句語境不同。"
+        "publicly-mcq-21": "本句的「in public」指「當眾；在公眾場合」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-21"
     },
@@ -1932,11 +1692,9 @@ export default {
       "masked": "She doesn't like speaking ____.",
       "options": [
         "publicly-mcq-21",
-        "publicly-mcq-20",
-        "publicly-mcq-22",
-        "publicly-mcq-19",
-        "publicly-mcq-23",
-        "publicly-mcq-18"
+        "publicly-mcq-24",
+        "publicly-mcq-05",
+        "publicly-mcq-15"
       ],
       "explanation": "本句的「in public」指「當眾；在公眾場合」。",
       "sentenceIndex": 44,
@@ -1945,12 +1703,10 @@ export default {
         "in public"
       ],
       "optionReasons": {
-        "publicly-mcq-21": "本句指「當眾；在公眾場合」。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。",
-        "publicly-mcq-22": "「公開／上市」是「go public」的用法，與本句語境不同。",
-        "publicly-mcq-19": "「公眾人物」是「public figure」的用法，與本句語境不同。",
-        "publicly-mcq-23": "「公布；公開」是「make public」的用法，與本句語境不同。",
-        "publicly-mcq-18": "「公眾意見；民意」是「public opinion」的用法，與本句語境不同。"
+        "publicly-mcq-21": "本句的「in public」指「當眾；在公眾場合」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-21"
     },
@@ -1962,11 +1718,7 @@ export default {
       "masked": "She decided to ____ with the story.",
       "options": [
         "publicly-mcq-22",
-        "publicly-mcq-21",
-        "publicly-mcq-23",
-        "publicly-mcq-20",
-        "publicly-mcq-24",
-        "publicly-mcq-19"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「go public」指「公開／上市」。",
       "sentenceIndex": 45,
@@ -1975,12 +1727,8 @@ export default {
         "go public"
       ],
       "optionReasons": {
-        "publicly-mcq-22": "本句指「公開／上市」。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-23": "「公布；公開」是「make public」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。",
-        "publicly-mcq-24": "「宣傳；曝光」是「publicity」的用法，與本句語境不同。",
-        "publicly-mcq-19": "「公眾人物」是「public figure」的用法，與本句語境不同。"
+        "publicly-mcq-22": "本句的「go public」指「公開／上市」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-22"
     },
@@ -1992,11 +1740,7 @@ export default {
       "masked": "The company ____ with its plans.",
       "options": [
         "publicly-mcq-22",
-        "publicly-mcq-21",
-        "publicly-mcq-23",
-        "publicly-mcq-20",
-        "publicly-mcq-24",
-        "publicly-mcq-19"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「went public」指「公開／上市」。",
       "sentenceIndex": 46,
@@ -2005,12 +1749,8 @@ export default {
         "went public"
       ],
       "optionReasons": {
-        "publicly-mcq-22": "本句指「公開／上市」。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-23": "「公布；公開」是「make public」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。",
-        "publicly-mcq-24": "「宣傳；曝光」是「publicity」的用法，與本句語境不同。",
-        "publicly-mcq-19": "「公眾人物」是「public figure」的用法，與本句語境不同。"
+        "publicly-mcq-22": "本句的「went public」指「公開／上市」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-22"
     },
@@ -2022,11 +1762,7 @@ export default {
       "masked": "The company plans to ____ next year.",
       "options": [
         "publicly-mcq-22",
-        "publicly-mcq-21",
-        "publicly-mcq-23",
-        "publicly-mcq-20",
-        "publicly-mcq-24",
-        "publicly-mcq-19"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「go public」指「公開／上市」。",
       "sentenceIndex": 47,
@@ -2035,12 +1771,8 @@ export default {
         "go public"
       ],
       "optionReasons": {
-        "publicly-mcq-22": "本句指「公開／上市」。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-23": "「公布；公開」是「make public」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。",
-        "publicly-mcq-24": "「宣傳；曝光」是「publicity」的用法，與本句語境不同。",
-        "publicly-mcq-19": "「公眾人物」是「public figure」的用法，與本句語境不同。"
+        "publicly-mcq-22": "本句的「go public」指「公開／上市」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-22"
     },
@@ -2052,11 +1784,7 @@ export default {
       "masked": "The business ____ after years of private ownership.",
       "options": [
         "publicly-mcq-22",
-        "publicly-mcq-21",
-        "publicly-mcq-23",
-        "publicly-mcq-20",
-        "publicly-mcq-24",
-        "publicly-mcq-19"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「went public」指「公開／上市」。",
       "sentenceIndex": 48,
@@ -2065,12 +1793,8 @@ export default {
         "went public"
       ],
       "optionReasons": {
-        "publicly-mcq-22": "本句指「公開／上市」。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-23": "「公布；公開」是「make public」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。",
-        "publicly-mcq-24": "「宣傳；曝光」是「publicity」的用法，與本句語境不同。",
-        "publicly-mcq-19": "「公眾人物」是「public figure」的用法，與本句語境不同。"
+        "publicly-mcq-22": "本句的「went public」指「公開／上市」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-22"
     },
@@ -2082,11 +1806,7 @@ export default {
       "masked": "The results were ____ yesterday.",
       "options": [
         "publicly-mcq-23",
-        "publicly-mcq-22",
-        "publicly-mcq-24",
-        "publicly-mcq-21",
-        "publicly-mcq-25",
-        "publicly-mcq-20"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「made public」指「公布；公開」。",
       "sentenceIndex": 49,
@@ -2095,12 +1815,8 @@ export default {
         "made public"
       ],
       "optionReasons": {
-        "publicly-mcq-23": "本句指「公布；公開」。",
-        "publicly-mcq-22": "「公開／上市」是「go public」的用法，與本句語境不同。",
-        "publicly-mcq-24": "「宣傳；曝光」是「publicity」的用法，與本句語境不同。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-25": "「宣傳；公開報道」是「publicise/publicize」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。"
+        "publicly-mcq-23": "本句的「made public」指「公布；公開」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-23"
     },
@@ -2112,11 +1828,7 @@ export default {
       "masked": "They refused to ____.",
       "options": [
         "publicly-mcq-23",
-        "publicly-mcq-22",
-        "publicly-mcq-24",
-        "publicly-mcq-21",
-        "publicly-mcq-25",
-        "publicly-mcq-20"
+        "publicly-mcq-24"
       ],
       "explanation": "本句的「make the report public」指「公布；公開」。",
       "sentenceIndex": 50,
@@ -2125,12 +1837,8 @@ export default {
         "make the report public"
       ],
       "optionReasons": {
-        "publicly-mcq-23": "本句指「公布；公開」。",
-        "publicly-mcq-22": "「公開／上市」是「go public」的用法，與本句語境不同。",
-        "publicly-mcq-24": "「宣傳；曝光」是「publicity」的用法，與本句語境不同。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-25": "「宣傳；公開報道」是「publicise/publicize」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。"
+        "publicly-mcq-23": "本句的「make the report public」指「公布；公開」。",
+        "publicly-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-23"
     },
@@ -2142,11 +1850,9 @@ export default {
       "masked": "The case received a lot of ____.",
       "options": [
         "publicly-mcq-24",
-        "publicly-mcq-23",
-        "publicly-mcq-25",
-        "publicly-mcq-22",
-        "publicly-mcq-21",
-        "publicly-mcq-20"
+        "publicly-mcq-09",
+        "publicly-mcq-10",
+        "publicly-mcq-21"
       ],
       "explanation": "本句的「publicity」指「宣傳；曝光」。",
       "sentenceIndex": 51,
@@ -2155,12 +1861,10 @@ export default {
         "publicity"
       ],
       "optionReasons": {
-        "publicly-mcq-24": "本句指「宣傳；曝光」。",
-        "publicly-mcq-23": "「公布；公開」是「make public」的用法，與本句語境不同。",
-        "publicly-mcq-25": "「宣傳；公開報道」是「publicise/publicize」的用法，與本句語境不同。",
-        "publicly-mcq-22": "「公開／上市」是「go public」的用法，與本句語境不同。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。"
+        "publicly-mcq-24": "本句的「publicity」指「宣傳；曝光」。",
+        "publicly-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-24"
     },
@@ -2172,11 +1876,9 @@ export default {
       "masked": "She dislikes unwanted ____.",
       "options": [
         "publicly-mcq-24",
-        "publicly-mcq-23",
-        "publicly-mcq-25",
-        "publicly-mcq-22",
-        "publicly-mcq-21",
-        "publicly-mcq-20"
+        "publicly-pdf-001",
+        "publicly-mcq-14",
+        "publicly-mcq-08"
       ],
       "explanation": "本句的「publicity」指「宣傳；曝光」。",
       "sentenceIndex": 52,
@@ -2185,12 +1887,10 @@ export default {
         "publicity"
       ],
       "optionReasons": {
-        "publicly-mcq-24": "本句指「宣傳；曝光」。",
-        "publicly-mcq-23": "「公布；公開」是「make public」的用法，與本句語境不同。",
-        "publicly-mcq-25": "「宣傳；公開報道」是「publicise/publicize」的用法，與本句語境不同。",
-        "publicly-mcq-22": "「公開／上市」是「go public」的用法，與本句語境不同。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。"
+        "publicly-mcq-24": "本句的「publicity」指「宣傳；曝光」。",
+        "publicly-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-24"
     },
@@ -2202,11 +1902,9 @@ export default {
       "masked": "The event needs more ____.",
       "options": [
         "publicly-mcq-24",
-        "publicly-mcq-23",
-        "publicly-mcq-25",
-        "publicly-mcq-22",
-        "publicly-mcq-21",
-        "publicly-mcq-20"
+        "publicly-pdf-001",
+        "publicly-mcq-14",
+        "publicly-mcq-04"
       ],
       "explanation": "本句的「publicity」指「宣傳；曝光」。",
       "sentenceIndex": 53,
@@ -2215,12 +1913,10 @@ export default {
         "publicity"
       ],
       "optionReasons": {
-        "publicly-mcq-24": "本句指「宣傳；曝光」。",
-        "publicly-mcq-23": "「公布；公開」是「make public」的用法，與本句語境不同。",
-        "publicly-mcq-25": "「宣傳；公開報道」是「publicise/publicize」的用法，與本句語境不同。",
-        "publicly-mcq-22": "「公開／上市」是「go public」的用法，與本句語境不同。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。"
+        "publicly-mcq-24": "本句的「publicity」指「宣傳；曝光」。",
+        "publicly-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-24"
     },
@@ -2232,11 +1928,7 @@ export default {
       "masked": "The campaign generated free ____.",
       "options": [
         "publicly-mcq-24",
-        "publicly-mcq-23",
-        "publicly-mcq-25",
-        "publicly-mcq-22",
-        "publicly-mcq-21",
-        "publicly-mcq-20"
+        "publicly-mcq-02"
       ],
       "explanation": "本句的「publicity」指「宣傳；曝光」。",
       "sentenceIndex": 54,
@@ -2245,12 +1937,8 @@ export default {
         "publicity"
       ],
       "optionReasons": {
-        "publicly-mcq-24": "本句指「宣傳；曝光」。",
-        "publicly-mcq-23": "「公布；公開」是「make public」的用法，與本句語境不同。",
-        "publicly-mcq-25": "「宣傳；公開報道」是「publicise/publicize」的用法，與本句語境不同。",
-        "publicly-mcq-22": "「公開／上市」是「go public」的用法，與本句語境不同。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。"
+        "publicly-mcq-24": "本句的「publicity」指「宣傳；曝光」。",
+        "publicly-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-24"
     },
@@ -2262,11 +1950,9 @@ export default {
       "masked": "The charity ____ the event online.",
       "options": [
         "publicly-mcq-25",
-        "publicly-mcq-24",
-        "publicly-mcq-23",
-        "publicly-mcq-22",
-        "publicly-mcq-21",
-        "publicly-mcq-20"
+        "publicly-mcq-09",
+        "publicly-mcq-07",
+        "publicly-mcq-15"
       ],
       "explanation": "本句的「publicised」指「宣傳；公開報道」。",
       "sentenceIndex": 55,
@@ -2275,12 +1961,10 @@ export default {
         "publicised"
       ],
       "optionReasons": {
-        "publicly-mcq-25": "本句指「宣傳；公開報道」。",
-        "publicly-mcq-24": "「宣傳；曝光」是「publicity」的用法，與本句語境不同。",
-        "publicly-mcq-23": "「公布；公開」是「make public」的用法，與本句語境不同。",
-        "publicly-mcq-22": "「公開／上市」是「go public」的用法，與本句語境不同。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。"
+        "publicly-mcq-25": "本句的「publicised」指「宣傳；公開報道」。",
+        "publicly-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-25"
     },
@@ -2292,11 +1976,9 @@ export default {
       "masked": "The findings were widely ____.",
       "options": [
         "publicly-mcq-25",
-        "publicly-mcq-24",
-        "publicly-mcq-23",
-        "publicly-mcq-22",
-        "publicly-mcq-21",
-        "publicly-mcq-20"
+        "publicly-mcq-07",
+        "publicly-mcq-14",
+        "publicly-mcq-09"
       ],
       "explanation": "本句的「publicized」指「宣傳；公開報道」。",
       "sentenceIndex": 56,
@@ -2305,12 +1987,10 @@ export default {
         "publicized"
       ],
       "optionReasons": {
-        "publicly-mcq-25": "本句指「宣傳；公開報道」。",
-        "publicly-mcq-24": "「宣傳；曝光」是「publicity」的用法，與本句語境不同。",
-        "publicly-mcq-23": "「公布；公開」是「make public」的用法，與本句語境不同。",
-        "publicly-mcq-22": "「公開／上市」是「go public」的用法，與本句語境不同。",
-        "publicly-mcq-21": "「當眾；在公眾場合」是「in public」的用法，與本句語境不同。",
-        "publicly-mcq-20": "「公開聲明」是「public statement」的用法，與本句語境不同。"
+        "publicly-mcq-25": "本句的「publicized」指「宣傳；公開報道」。",
+        "publicly-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "publicly-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "publicly-mcq-25"
     }
@@ -2322,5 +2002,7 @@ export default {
     "sha256": "83cdee3971879176359ff4d1280cb2542298692a89a5167932f0417caefd5e51",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

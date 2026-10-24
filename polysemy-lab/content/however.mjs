@@ -66,7 +66,7 @@ export default {
     },
     {
       "id": "however-mcq-03",
-      "title": "表示不論某種性質或方式的程度有多高／多低",
+      "title": "不論某種性質或方式的程度有多高／多低",
       "form": "however + adjective/adverb",
       "en": "however + adjective/adverb",
       "zh": "表示不論某種性質或方式的程度有多高／多低",
@@ -260,11 +260,9 @@ export default {
       "masked": "____, once he started teaching, he became much more lively than people expected.",
       "options": [
         "however-mcq-01",
-        "however-mcq-02",
-        "however-mcq-03",
-        "however-mcq-04",
-        "however-mcq-05",
-        "however-mcq-06"
+        "however-pdf-001",
+        "however-mcq-09",
+        "however-mcq-03"
       ],
       "explanation": "本句的「However」指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
       "sentenceIndex": 0,
@@ -273,12 +271,10 @@ export default {
         "However"
       ],
       "optionReasons": {
-        "however-mcq-01": "本句指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
-        "however-mcq-02": "「承認前文情況成立，但指出後面的結果仍不同／仍然發生」是「however — despite that」的用法，與本句語境不同。",
-        "however-mcq-03": "「表示不論某種性質或方式的程度有多高／多低」是「however + adjective/adverb」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。"
+        "however-mcq-01": "本句的「However」指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-01"
     },
@@ -290,10 +286,8 @@ export default {
       "masked": "The teacher looked strict. ____, he was very patient with weaker students.",
       "options": [
         "however-mcq-01",
-        "however-mcq-02",
-        "however-mcq-03",
-        "however-mcq-04",
-        "however-mcq-05",
+        "however-pdf-001",
+        "however-mcq-09",
         "however-mcq-06"
       ],
       "explanation": "本句的「However」指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
@@ -303,12 +297,10 @@ export default {
         "However"
       ],
       "optionReasons": {
-        "however-mcq-01": "本句指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
-        "however-mcq-02": "「承認前文情況成立，但指出後面的結果仍不同／仍然發生」是「however — despite that」的用法，與本句語境不同。",
-        "however-mcq-03": "「表示不論某種性質或方式的程度有多高／多低」是「however + adjective/adverb」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。"
+        "however-mcq-01": "本句的「However」指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-01"
     },
@@ -320,11 +312,9 @@ export default {
       "masked": "The exam was difficult. ____, most students passed.",
       "options": [
         "however-mcq-01",
-        "however-mcq-02",
-        "however-mcq-03",
-        "however-mcq-04",
-        "however-mcq-05",
-        "however-mcq-06"
+        "however-pdf-001",
+        "however-mcq-09",
+        "however-mcq-03"
       ],
       "explanation": "本句的「However」指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
       "sentenceIndex": 2,
@@ -333,12 +323,10 @@ export default {
         "However"
       ],
       "optionReasons": {
-        "however-mcq-01": "本句指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
-        "however-mcq-02": "「承認前文情況成立，但指出後面的結果仍不同／仍然發生」是「however — despite that」的用法，與本句語境不同。",
-        "however-mcq-03": "「表示不論某種性質或方式的程度有多高／多低」是「however + adjective/adverb」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。"
+        "however-mcq-01": "本句的「However」指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-01"
     },
@@ -350,10 +338,8 @@ export default {
       "masked": "He was strict; ____, he was always fair.",
       "options": [
         "however-mcq-01",
-        "however-mcq-02",
-        "however-mcq-03",
-        "however-mcq-04",
-        "however-mcq-05",
+        "however-pdf-001",
+        "however-mcq-09",
         "however-mcq-06"
       ],
       "explanation": "本句的「however」指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
@@ -363,12 +349,10 @@ export default {
         "however"
       ],
       "optionReasons": {
-        "however-mcq-01": "本句指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
-        "however-mcq-02": "「承認前文情況成立，但指出後面的結果仍不同／仍然發生」是「however — despite that」的用法，與本句語境不同。",
-        "however-mcq-03": "「表示不論某種性質或方式的程度有多高／多低」是「however + adjective/adverb」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。"
+        "however-mcq-01": "本句的「however」指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-01"
     },
@@ -380,10 +364,8 @@ export default {
       "masked": "The idea seemed simple. It was, ____, difficult to apply.",
       "options": [
         "however-mcq-01",
-        "however-mcq-02",
-        "however-mcq-03",
-        "however-mcq-04",
-        "however-mcq-05",
+        "however-pdf-001",
+        "however-mcq-09",
         "however-mcq-06"
       ],
       "explanation": "本句的「however」指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
@@ -393,12 +375,10 @@ export default {
         "however"
       ],
       "optionReasons": {
-        "however-mcq-01": "本句指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
-        "however-mcq-02": "「承認前文情況成立，但指出後面的結果仍不同／仍然發生」是「however — despite that」的用法，與本句語境不同。",
-        "however-mcq-03": "「表示不論某種性質或方式的程度有多高／多低」是「however + adjective/adverb」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。"
+        "however-mcq-01": "本句的「however」指「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-01"
     },
@@ -410,11 +390,9 @@ export default {
       "masked": "The class was tiring. ____, I learned a great deal.",
       "options": [
         "however-mcq-02",
-        "however-mcq-01",
-        "however-mcq-03",
-        "however-mcq-04",
-        "however-mcq-05",
-        "however-mcq-06"
+        "however-mcq-06",
+        "however-mcq-09",
+        "however-pdf-001"
       ],
       "explanation": "本句的「However」指「承認前文情況成立，但指出後面的結果仍不同／仍然發生」。",
       "sentenceIndex": 5,
@@ -423,12 +401,10 @@ export default {
         "However"
       ],
       "optionReasons": {
-        "however-mcq-02": "本句指「承認前文情況成立，但指出後面的結果仍不同／仍然發生」。",
-        "however-mcq-01": "「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」是「However, + clause」的用法，與本句語境不同。",
-        "however-mcq-03": "「表示不論某種性質或方式的程度有多高／多低」是「however + adjective/adverb」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。"
+        "however-mcq-02": "本句的「However」指「承認前文情況成立，但指出後面的結果仍不同／仍然發生」。",
+        "however-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-02"
     },
@@ -440,11 +416,9 @@ export default {
       "masked": "He made mistakes. ____, the overall result was excellent.",
       "options": [
         "however-mcq-02",
-        "however-mcq-01",
-        "however-mcq-03",
-        "however-mcq-04",
-        "however-mcq-05",
-        "however-mcq-06"
+        "however-mcq-07",
+        "however-mcq-09",
+        "however-pdf-001"
       ],
       "explanation": "本句的「However」指「承認前文情況成立，但指出後面的結果仍不同／仍然發生」。",
       "sentenceIndex": 6,
@@ -453,12 +427,10 @@ export default {
         "However"
       ],
       "optionReasons": {
-        "however-mcq-02": "本句指「承認前文情況成立，但指出後面的結果仍不同／仍然發生」。",
-        "however-mcq-01": "「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」是「However, + clause」的用法，與本句語境不同。",
-        "however-mcq-03": "「表示不論某種性質或方式的程度有多高／多低」是「however + adjective/adverb」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。"
+        "however-mcq-02": "本句的「However」指「承認前文情況成立，但指出後面的結果仍不同／仍然發生」。",
+        "however-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-02"
     },
@@ -470,11 +442,9 @@ export default {
       "masked": "____ the question is, try to answer it.",
       "options": [
         "however-mcq-03",
+        "however-pdf-001",
         "however-mcq-02",
-        "however-mcq-04",
-        "however-mcq-01",
-        "however-mcq-05",
-        "however-mcq-06"
+        "however-mcq-09"
       ],
       "explanation": "本句的「However difficult」指「表示不論某種性質或方式的程度有多高／多低」。",
       "sentenceIndex": 7,
@@ -483,12 +453,10 @@ export default {
         "However difficult"
       ],
       "optionReasons": {
-        "however-mcq-03": "本句指「表示不論某種性質或方式的程度有多高／多低」。",
-        "however-mcq-02": "「承認前文情況成立，但指出後面的結果仍不同／仍然發生」是「however — despite that」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。",
-        "however-mcq-01": "「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」是「However, + clause」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。"
+        "however-mcq-03": "本句的「However difficult」指「表示不論某種性質或方式的程度有多高／多低」。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-03"
     },
@@ -501,10 +469,8 @@ export default {
       "options": [
         "however-mcq-03",
         "however-mcq-02",
-        "however-mcq-04",
-        "however-mcq-01",
-        "however-mcq-05",
-        "however-mcq-06"
+        "however-pdf-001",
+        "however-mcq-09"
       ],
       "explanation": "本句的「However」指「表示不論某種性質或方式的程度有多高／多低」。",
       "sentenceIndex": 8,
@@ -513,12 +479,10 @@ export default {
         "However"
       ],
       "optionReasons": {
-        "however-mcq-03": "本句指「表示不論某種性質或方式的程度有多高／多低」。",
-        "however-mcq-02": "「承認前文情況成立，但指出後面的結果仍不同／仍然發生」是「however — despite that」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。",
-        "however-mcq-01": "「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」是「However, + clause」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。"
+        "however-mcq-03": "本句的「However」指「表示不論某種性質或方式的程度有多高／多低」。",
+        "however-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-03"
     },
@@ -530,11 +494,9 @@ export default {
       "masked": "____ you spend memorising, understanding is still important.",
       "options": [
         "however-mcq-04",
-        "however-mcq-03",
-        "however-mcq-05",
         "however-mcq-02",
-        "however-mcq-06",
-        "however-mcq-01"
+        "however-mcq-09",
+        "however-pdf-001"
       ],
       "explanation": "本句的「However much time」指「不論某種不可數事物的數量有多少」。",
       "sentenceIndex": 9,
@@ -543,12 +505,10 @@ export default {
         "However much time"
       ],
       "optionReasons": {
-        "however-mcq-04": "本句指「不論某種不可數事物的數量有多少」。",
-        "however-mcq-03": "「表示不論某種性質或方式的程度有多高／多低」是「however + adjective/adverb」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-02": "「承認前文情況成立，但指出後面的結果仍不同／仍然發生」是「however — despite that」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。",
-        "however-mcq-01": "「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」是「However, + clause」的用法，與本句語境不同。"
+        "however-mcq-04": "本句的「However much time」指「不論某種不可數事物的數量有多少」。",
+        "however-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-04"
     },
@@ -560,11 +520,9 @@ export default {
       "masked": "____ much I admire him, I know he was not perfect.",
       "options": [
         "however-mcq-04",
-        "however-mcq-03",
-        "however-mcq-05",
         "however-mcq-02",
-        "however-mcq-06",
-        "however-mcq-01"
+        "however-mcq-09",
+        "however-pdf-001"
       ],
       "explanation": "本句的「However」指「不論某種不可數事物的數量有多少」。",
       "sentenceIndex": 10,
@@ -573,12 +531,10 @@ export default {
         "However"
       ],
       "optionReasons": {
-        "however-mcq-04": "本句指「不論某種不可數事物的數量有多少」。",
-        "however-mcq-03": "「表示不論某種性質或方式的程度有多高／多低」是「however + adjective/adverb」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-02": "「承認前文情況成立，但指出後面的結果仍不同／仍然發生」是「however — despite that」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。",
-        "however-mcq-01": "「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」是「However, + clause」的用法，與本句語境不同。"
+        "however-mcq-04": "本句的「However」指「不論某種不可數事物的數量有多少」。",
+        "however-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-04"
     },
@@ -590,11 +546,9 @@ export default {
       "masked": "____ the students asked, he answered them patiently.",
       "options": [
         "however-mcq-06",
-        "however-mcq-05",
-        "however-mcq-07",
-        "however-mcq-04",
-        "however-mcq-08",
-        "however-mcq-03"
+        "however-pdf-001",
+        "however-mcq-09",
+        "however-mcq-02"
       ],
       "explanation": "本句的「However many questions」指「不論可數人／事物的數量有多少」。",
       "sentenceIndex": 11,
@@ -603,12 +557,10 @@ export default {
         "However many questions"
       ],
       "optionReasons": {
-        "however-mcq-06": "本句指「不論可數人／事物的數量有多少」。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-07": "「不論以甚麼方式、方法或途徑做某事」是「however + subject + verb」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。",
-        "however-mcq-08": "「可按自己選擇的任何方式進行」是「however you like/want」的用法，與本句語境不同。",
-        "however-mcq-03": "「表示不論某種性質或方式的程度有多高／多低」是「however + adjective/adverb」的用法，與本句語境不同。"
+        "however-mcq-06": "本句的「However many questions」指「不論可數人／事物的數量有多少」。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-06"
     },
@@ -620,11 +572,9 @@ export default {
       "masked": "____ many examples you give, some learners will still want more.",
       "options": [
         "however-mcq-06",
-        "however-mcq-05",
-        "however-mcq-07",
-        "however-mcq-04",
-        "however-mcq-08",
-        "however-mcq-03"
+        "however-mcq-02",
+        "however-mcq-09",
+        "however-pdf-001"
       ],
       "explanation": "本句的「However」指「不論可數人／事物的數量有多少」。",
       "sentenceIndex": 12,
@@ -633,12 +583,10 @@ export default {
         "However"
       ],
       "optionReasons": {
-        "however-mcq-06": "本句指「不論可數人／事物的數量有多少」。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-07": "「不論以甚麼方式、方法或途徑做某事」是「however + subject + verb」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。",
-        "however-mcq-08": "「可按自己選擇的任何方式進行」是「however you like/want」的用法，與本句語境不同。",
-        "however-mcq-03": "「表示不論某種性質或方式的程度有多高／多低」是「however + adjective/adverb」的用法，與本句語境不同。"
+        "however-mcq-06": "本句的「However」指「不論可數人／事物的數量有多少」。",
+        "however-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-06"
     },
@@ -650,11 +598,9 @@ export default {
       "masked": "____, make sure the main idea is clear.",
       "options": [
         "however-mcq-07",
-        "however-mcq-06",
-        "however-mcq-08",
-        "however-mcq-05",
-        "however-mcq-09",
-        "however-mcq-04"
+        "however-mcq-02",
+        "however-pdf-001",
+        "however-mcq-09"
       ],
       "explanation": "本句的「However you explain it」指「不論以甚麼方式、方法或途徑做某事」。",
       "sentenceIndex": 13,
@@ -663,12 +609,10 @@ export default {
         "However you explain it"
       ],
       "optionReasons": {
-        "however-mcq-07": "本句指「不論以甚麼方式、方法或途徑做某事」。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。",
-        "however-mcq-08": "「可按自己選擇的任何方式進行」是「however you like/want」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-09": "「加強 how 疑問，表示驚訝或強烈好奇；到底／究竟怎麼……」是「however did/could...?」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。"
+        "however-mcq-07": "本句的「However you explain it」指「不論以甚麼方式、方法或途徑做某事」。",
+        "however-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-07"
     },
@@ -680,11 +624,9 @@ export default {
       "masked": "____ he approached the problem, he reached the same conclusion.",
       "options": [
         "however-mcq-07",
-        "however-mcq-06",
-        "however-mcq-08",
-        "however-mcq-05",
-        "however-mcq-09",
-        "however-mcq-04"
+        "however-pdf-001",
+        "however-mcq-02",
+        "however-mcq-09"
       ],
       "explanation": "本句的「However」指「不論以甚麼方式、方法或途徑做某事」。",
       "sentenceIndex": 14,
@@ -693,12 +635,10 @@ export default {
         "However"
       ],
       "optionReasons": {
-        "however-mcq-07": "本句指「不論以甚麼方式、方法或途徑做某事」。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。",
-        "however-mcq-08": "「可按自己選擇的任何方式進行」是「however you like/want」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-09": "「加強 how 疑問，表示驚訝或強烈好奇；到底／究竟怎麼……」是「however did/could...?」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。"
+        "however-mcq-07": "本句的「However」指「不論以甚麼方式、方法或途徑做某事」。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-07"
     },
@@ -710,11 +650,9 @@ export default {
       "masked": "You may organise the notes ____.",
       "options": [
         "however-pdf-001",
-        "however-mcq-06",
-        "however-mcq-08",
-        "however-mcq-05",
         "however-mcq-09",
-        "however-mcq-04"
+        "however-mcq-04",
+        "however-mcq-01"
       ],
       "explanation": "本句的「however you like」指「以任何你選擇／認為合適的方式」。",
       "sentenceIndex": 15,
@@ -723,12 +661,10 @@ export default {
         "however you like"
       ],
       "optionReasons": {
-        "however-pdf-001": "本句指「以任何你選擇／認為合適的方式」。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。",
-        "however-mcq-08": "「可按自己選擇的任何方式進行」是「however you like/want」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-09": "「加強 how 疑問，表示驚訝或強烈好奇；到底／究竟怎麼……」是「however did/could...?」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。"
+        "however-pdf-001": "本句的「however you like」指「以任何你選擇／認為合適的方式」。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-pdf-001"
     },
@@ -740,11 +676,9 @@ export default {
       "masked": "Arrange the chairs ____ you think is best.",
       "options": [
         "however-pdf-001",
-        "however-mcq-06",
-        "however-mcq-08",
-        "however-mcq-05",
+        "however-mcq-01",
         "however-mcq-09",
-        "however-mcq-04"
+        "however-mcq-07"
       ],
       "explanation": "本句的「however」指「以任何你選擇／認為合適的方式」。",
       "sentenceIndex": 16,
@@ -753,12 +687,10 @@ export default {
         "however"
       ],
       "optionReasons": {
-        "however-pdf-001": "本句指「以任何你選擇／認為合適的方式」。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。",
-        "however-mcq-08": "「可按自己選擇的任何方式進行」是「however you like/want」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-09": "「加強 how 疑問，表示驚訝或強烈好奇；到底／究竟怎麼……」是「however did/could...?」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。"
+        "however-pdf-001": "本句的「however」指「以任何你選擇／認為合適的方式」。",
+        "however-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-pdf-001"
     },
@@ -770,11 +702,9 @@ export default {
       "masked": "____ you are, finish the final paragraph.",
       "options": [
         "however-mcq-03",
+        "however-mcq-09",
         "however-mcq-02",
-        "however-mcq-04",
-        "however-mcq-01",
-        "however-mcq-05",
-        "however-mcq-06"
+        "however-pdf-001"
       ],
       "explanation": "本句的「However tired」指「表示不論某種性質或方式的程度有多高／多低」。",
       "sentenceIndex": 17,
@@ -783,12 +713,10 @@ export default {
         "However tired"
       ],
       "optionReasons": {
-        "however-mcq-03": "本句指「表示不論某種性質或方式的程度有多高／多低」。",
-        "however-mcq-02": "「承認前文情況成立，但指出後面的結果仍不同／仍然發生」是「however — despite that」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。",
-        "however-mcq-01": "「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」是「However, + clause」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。"
+        "however-mcq-03": "本句的「However tired」指「表示不論某種性質或方式的程度有多高／多低」。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-03"
     },
@@ -801,10 +729,8 @@ export default {
       "options": [
         "however-mcq-03",
         "however-mcq-02",
-        "however-mcq-04",
-        "however-mcq-01",
-        "however-mcq-05",
-        "however-mcq-06"
+        "however-mcq-09",
+        "however-pdf-001"
       ],
       "explanation": "本句的「However」指「表示不論某種性質或方式的程度有多高／多低」。",
       "sentenceIndex": 18,
@@ -813,12 +739,10 @@ export default {
         "However"
       ],
       "optionReasons": {
-        "however-mcq-03": "本句指「表示不論某種性質或方式的程度有多高／多低」。",
-        "however-mcq-02": "「承認前文情況成立，但指出後面的結果仍不同／仍然發生」是「however — despite that」的用法，與本句語境不同。",
-        "however-mcq-04": "「不論某種不可數事物的數量有多少」是「however much + noun」的用法，與本句語境不同。",
-        "however-mcq-01": "「引出與前文預期、描述或結論形成轉折／對比的新資訊；然而／不過」是「However, + clause」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。"
+        "however-mcq-03": "本句的「However」指「表示不論某種性質或方式的程度有多高／多低」。",
+        "however-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-03"
     },
@@ -830,11 +754,9 @@ export default {
       "masked": "____ all those dates?",
       "options": [
         "however-mcq-09",
-        "however-mcq-08",
-        "however-mcq-10",
-        "however-mcq-07",
         "however-mcq-06",
-        "however-mcq-05"
+        "however-pdf-001",
+        "however-mcq-02"
       ],
       "explanation": "本句的「However did you remember」指「加強 how 疑問，表示驚訝或強烈好奇；到底／究竟怎麼……」。",
       "sentenceIndex": 19,
@@ -843,12 +765,10 @@ export default {
         "However did you remember"
       ],
       "optionReasons": {
-        "however-mcq-09": "本句指「加強 how 疑問，表示驚訝或強烈好奇；到底／究竟怎麼……」。",
-        "however-mcq-08": "「可按自己選擇的任何方式進行」是「however you like/want」的用法，與本句語境不同。",
-        "however-mcq-10": "「不論實際情況如何，後面的判斷仍然成立」是「however that may be」的用法，與本句語境不同。",
-        "however-mcq-07": "「不論以甚麼方式、方法或途徑做某事」是「however + subject + verb」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。"
+        "however-mcq-09": "本句的「However did you remember」指「加強 how 疑問，表示驚訝或強烈好奇；到底／究竟怎麼……」。",
+        "however-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-09"
     },
@@ -860,11 +780,9 @@ export default {
       "masked": "____ did he manage to make the lesson so interesting?",
       "options": [
         "however-mcq-09",
-        "however-mcq-08",
-        "however-mcq-10",
-        "however-mcq-07",
+        "however-mcq-02",
         "however-mcq-06",
-        "however-mcq-05"
+        "however-pdf-001"
       ],
       "explanation": "本句的「However」指「加強 how 疑問，表示驚訝或強烈好奇；到底／究竟怎麼……」。",
       "sentenceIndex": 20,
@@ -873,12 +791,10 @@ export default {
         "However"
       ],
       "optionReasons": {
-        "however-mcq-09": "本句指「加強 how 疑問，表示驚訝或強烈好奇；到底／究竟怎麼……」。",
-        "however-mcq-08": "「可按自己選擇的任何方式進行」是「however you like/want」的用法，與本句語境不同。",
-        "however-mcq-10": "「不論實際情況如何，後面的判斷仍然成立」是「however that may be」的用法，與本句語境不同。",
-        "however-mcq-07": "「不論以甚麼方式、方法或途徑做某事」是「however + subject + verb」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。"
+        "however-mcq-09": "本句的「However」指「加強 how 疑問，表示驚訝或強烈好奇；到底／究竟怎麼……」。",
+        "however-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "however-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-09"
     },
@@ -891,10 +807,7 @@ export default {
       "options": [
         "however-mcq-10",
         "however-mcq-09",
-        "however-mcq-08",
-        "however-mcq-07",
-        "however-mcq-06",
-        "however-mcq-05"
+        "however-mcq-01"
       ],
       "explanation": "本句的「However that may be」指「不論實際情況如何，後面的判斷仍然成立」。",
       "sentenceIndex": 21,
@@ -903,12 +816,9 @@ export default {
         "However that may be"
       ],
       "optionReasons": {
-        "however-mcq-10": "本句指「不論實際情況如何，後面的判斷仍然成立」。",
-        "however-mcq-09": "「加強 how 疑問，表示驚訝或強烈好奇；到底／究竟怎麼……」是「however did/could...?」的用法，與本句語境不同。",
-        "however-mcq-08": "「可按自己選擇的任何方式進行」是「however you like/want」的用法，與本句語境不同。",
-        "however-mcq-07": "「不論以甚麼方式、方法或途徑做某事」是「however + subject + verb」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。"
+        "however-mcq-10": "本句的「However that may be」指「不論實際情況如何，後面的判斷仍然成立」。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-10"
     },
@@ -921,10 +831,7 @@ export default {
       "options": [
         "however-mcq-10",
         "however-mcq-09",
-        "however-mcq-08",
-        "however-mcq-07",
-        "however-mcq-06",
-        "however-mcq-05"
+        "however-mcq-01"
       ],
       "explanation": "本句的「However」指「不論實際情況如何，後面的判斷仍然成立」。",
       "sentenceIndex": 22,
@@ -933,12 +840,9 @@ export default {
         "However"
       ],
       "optionReasons": {
-        "however-mcq-10": "本句指「不論實際情況如何，後面的判斷仍然成立」。",
-        "however-mcq-09": "「加強 how 疑問，表示驚訝或強烈好奇；到底／究竟怎麼……」是「however did/could...?」的用法，與本句語境不同。",
-        "however-mcq-08": "「可按自己選擇的任何方式進行」是「however you like/want」的用法，與本句語境不同。",
-        "however-mcq-07": "「不論以甚麼方式、方法或途徑做某事」是「however + subject + verb」的用法，與本句語境不同。",
-        "however-mcq-06": "「不論可數人／事物的數量有多少」是「however many + plural noun」的用法，與本句語境不同。",
-        "however-mcq-05": "「不論某種感受、行為或程度有多強」是「however much + clause」的用法，與本句語境不同。"
+        "however-mcq-10": "本句的「However」指「不論實際情況如何，後面的判斷仍然成立」。",
+        "however-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "however-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "however-mcq-10"
     }
@@ -950,5 +854,7 @@ export default {
     "sha256": "78061232a38ff2897fce754f11f76df9ff1f6f24376dd1b9e0368c872d8b9003",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

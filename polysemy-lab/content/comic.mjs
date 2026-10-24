@@ -174,11 +174,7 @@ export default {
       "masked": "We used to trade ____.",
       "options": [
         "comic-mcq-01",
-        "comic-mcq-02",
-        "comic-mcq-03",
-        "comic-mcq-04",
-        "comic-mcq-05",
-        "comic-mcq-06"
+        "comic-mcq-03"
       ],
       "explanation": "本句的「comic books」指「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」。",
       "sentenceIndex": 0,
@@ -187,12 +183,8 @@ export default {
         "comic books"
       ],
       "optionReasons": {
-        "comic-mcq-01": "本句指「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」。",
-        "comic-mcq-02": "「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」與本句語境不同。",
-        "comic-mcq-03": "「與喜劇有關，或具有令觀眾發笑的幽默效果」與本句語境不同。",
-        "comic-mcq-04": "「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」與本句語境不同。",
-        "comic-mcq-05": "「以滑稽、荒謬或令人發笑的方式」與本句語境不同。",
-        "comic-mcq-06": "「主要目的在於引人發笑的戲劇、電影、節目或表演類型」與本句語境不同。"
+        "comic-mcq-01": "本句的「comic books」指「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」。",
+        "comic-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-01"
     },
@@ -204,11 +196,7 @@ export default {
       "masked": "He collected superhero ____ when he was young.",
       "options": [
         "comic-mcq-01",
-        "comic-mcq-02",
-        "comic-mcq-03",
-        "comic-mcq-04",
-        "comic-mcq-05",
-        "comic-mcq-06"
+        "comic-mcq-04"
       ],
       "explanation": "本句的「comics」指「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」。",
       "sentenceIndex": 1,
@@ -217,12 +205,8 @@ export default {
         "comics"
       ],
       "optionReasons": {
-        "comic-mcq-01": "本句指「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」。",
-        "comic-mcq-02": "「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」與本句語境不同。",
-        "comic-mcq-03": "「與喜劇有關，或具有令觀眾發笑的幽默效果」與本句語境不同。",
-        "comic-mcq-04": "「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」與本句語境不同。",
-        "comic-mcq-05": "「以滑稽、荒謬或令人發笑的方式」與本句語境不同。",
-        "comic-mcq-06": "「主要目的在於引人發笑的戲劇、電影、節目或表演類型」與本句語境不同。"
+        "comic-mcq-01": "本句的「comics」指「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」。",
+        "comic-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-01"
     },
@@ -234,11 +218,7 @@ export default {
       "masked": "This ____ tells the story through very little dialogue.",
       "options": [
         "comic-mcq-01",
-        "comic-mcq-02",
-        "comic-mcq-03",
-        "comic-mcq-04",
-        "comic-mcq-05",
-        "comic-mcq-06"
+        "comic-mcq-05"
       ],
       "explanation": "本句的「comic」指「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」。",
       "sentenceIndex": 2,
@@ -247,12 +227,8 @@ export default {
         "comic"
       ],
       "optionReasons": {
-        "comic-mcq-01": "本句指「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」。",
-        "comic-mcq-02": "「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」與本句語境不同。",
-        "comic-mcq-03": "「與喜劇有關，或具有令觀眾發笑的幽默效果」與本句語境不同。",
-        "comic-mcq-04": "「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」與本句語境不同。",
-        "comic-mcq-05": "「以滑稽、荒謬或令人發笑的方式」與本句語境不同。",
-        "comic-mcq-06": "「主要目的在於引人發笑的戲劇、電影、節目或表演類型」與本句語境不同。"
+        "comic-mcq-01": "本句的「comic」指「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」。",
+        "comic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-01"
     },
@@ -264,11 +240,7 @@ export default {
       "masked": "The club invited several well-known ____ to perform.",
       "options": [
         "comic-mcq-02",
-        "comic-mcq-01",
-        "comic-mcq-03",
-        "comic-mcq-04",
-        "comic-mcq-05",
-        "comic-mcq-06"
+        "comic-mcq-01"
       ],
       "explanation": "本句的「comics」指「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」。",
       "sentenceIndex": 3,
@@ -277,12 +249,8 @@ export default {
         "comics"
       ],
       "optionReasons": {
-        "comic-mcq-02": "本句指「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」。",
-        "comic-mcq-01": "「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」與本句語境不同。",
-        "comic-mcq-03": "「與喜劇有關，或具有令觀眾發笑的幽默效果」與本句語境不同。",
-        "comic-mcq-04": "「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」與本句語境不同。",
-        "comic-mcq-05": "「以滑稽、荒謬或令人發笑的方式」與本句語境不同。",
-        "comic-mcq-06": "「主要目的在於引人發笑的戲劇、電影、節目或表演類型」與本句語境不同。"
+        "comic-mcq-02": "本句的「comics」指「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」。",
+        "comic-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-02"
     },
@@ -294,11 +262,7 @@ export default {
       "masked": "She started her career as a stand-up ____.",
       "options": [
         "comic-mcq-02",
-        "comic-mcq-01",
-        "comic-mcq-03",
-        "comic-mcq-04",
-        "comic-mcq-05",
-        "comic-mcq-06"
+        "comic-mcq-01"
       ],
       "explanation": "本句的「comic」指「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」。",
       "sentenceIndex": 4,
@@ -307,12 +271,8 @@ export default {
         "comic"
       ],
       "optionReasons": {
-        "comic-mcq-02": "本句指「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」。",
-        "comic-mcq-01": "「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」與本句語境不同。",
-        "comic-mcq-03": "「與喜劇有關，或具有令觀眾發笑的幽默效果」與本句語境不同。",
-        "comic-mcq-04": "「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」與本句語境不同。",
-        "comic-mcq-05": "「以滑稽、荒謬或令人發笑的方式」與本句語境不同。",
-        "comic-mcq-06": "「主要目的在於引人發笑的戲劇、電影、節目或表演類型」與本句語境不同。"
+        "comic-mcq-02": "本句的「comic」指「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」。",
+        "comic-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-02"
     },
@@ -324,11 +284,7 @@ export default {
       "masked": "The actor has excellent ____.",
       "options": [
         "comic-mcq-03",
-        "comic-mcq-02",
-        "comic-mcq-04",
-        "comic-mcq-01",
-        "comic-mcq-05",
-        "comic-mcq-06"
+        "comic-mcq-01"
       ],
       "explanation": "本句的「comic timing」指「與喜劇有關，或具有令觀眾發笑的幽默效果」。",
       "sentenceIndex": 5,
@@ -337,12 +293,8 @@ export default {
         "comic timing"
       ],
       "optionReasons": {
-        "comic-mcq-03": "本句指「與喜劇有關，或具有令觀眾發笑的幽默效果」。",
-        "comic-mcq-02": "「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」與本句語境不同。",
-        "comic-mcq-04": "「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」與本句語境不同。",
-        "comic-mcq-01": "「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」與本句語境不同。",
-        "comic-mcq-05": "「以滑稽、荒謬或令人發笑的方式」與本句語境不同。",
-        "comic-mcq-06": "「主要目的在於引人發笑的戲劇、電影、節目或表演類型」與本句語境不同。"
+        "comic-mcq-03": "本句的「comic timing」指「與喜劇有關，或具有令觀眾發笑的幽默效果」。",
+        "comic-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-03"
     },
@@ -354,11 +306,7 @@ export default {
       "masked": "The film mixes serious drama with ____ moments.",
       "options": [
         "comic-mcq-03",
-        "comic-mcq-02",
-        "comic-mcq-04",
-        "comic-mcq-01",
-        "comic-mcq-05",
-        "comic-mcq-06"
+        "comic-mcq-01"
       ],
       "explanation": "本句的「comic」指「與喜劇有關，或具有令觀眾發笑的幽默效果」。",
       "sentenceIndex": 6,
@@ -367,12 +315,8 @@ export default {
         "comic"
       ],
       "optionReasons": {
-        "comic-mcq-03": "本句指「與喜劇有關，或具有令觀眾發笑的幽默效果」。",
-        "comic-mcq-02": "「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」與本句語境不同。",
-        "comic-mcq-04": "「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」與本句語境不同。",
-        "comic-mcq-01": "「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」與本句語境不同。",
-        "comic-mcq-05": "「以滑稽、荒謬或令人發笑的方式」與本句語境不同。",
-        "comic-mcq-06": "「主要目的在於引人發笑的戲劇、電影、節目或表演類型」與本句語境不同。"
+        "comic-mcq-03": "本句的「comic」指「與喜劇有關，或具有令觀眾發笑的幽默效果」。",
+        "comic-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-03"
     },
@@ -384,10 +328,6 @@ export default {
       "masked": "He had a ____ expression on his face.",
       "options": [
         "comic-mcq-04",
-        "comic-mcq-03",
-        "comic-mcq-05",
-        "comic-mcq-02",
-        "comic-mcq-06",
         "comic-mcq-01"
       ],
       "explanation": "本句的「comical」指「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」。",
@@ -397,12 +337,8 @@ export default {
         "comical"
       ],
       "optionReasons": {
-        "comic-mcq-04": "本句指「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」。",
-        "comic-mcq-03": "「與喜劇有關，或具有令觀眾發笑的幽默效果」與本句語境不同。",
-        "comic-mcq-05": "「以滑稽、荒謬或令人發笑的方式」與本句語境不同。",
-        "comic-mcq-02": "「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」與本句語境不同。",
-        "comic-mcq-06": "「主要目的在於引人發笑的戲劇、電影、節目或表演類型」與本句語境不同。",
-        "comic-mcq-01": "「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」與本句語境不同。"
+        "comic-mcq-04": "本句的「comical」指「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」。",
+        "comic-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-04"
     },
@@ -414,10 +350,6 @@ export default {
       "masked": "The dog looked rather ____ in the oversized coat.",
       "options": [
         "comic-mcq-04",
-        "comic-mcq-03",
-        "comic-mcq-05",
-        "comic-mcq-02",
-        "comic-mcq-06",
         "comic-mcq-01"
       ],
       "explanation": "本句的「comical」指「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」。",
@@ -427,12 +359,8 @@ export default {
         "comical"
       ],
       "optionReasons": {
-        "comic-mcq-04": "本句指「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」。",
-        "comic-mcq-03": "「與喜劇有關，或具有令觀眾發笑的幽默效果」與本句語境不同。",
-        "comic-mcq-05": "「以滑稽、荒謬或令人發笑的方式」與本句語境不同。",
-        "comic-mcq-02": "「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」與本句語境不同。",
-        "comic-mcq-06": "「主要目的在於引人發笑的戲劇、電影、節目或表演類型」與本句語境不同。",
-        "comic-mcq-01": "「主要利用連續圖畫、分格、對話框和文字來敘述故事的漫畫作品或出版物」與本句語境不同。"
+        "comic-mcq-04": "本句的「comical」指「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」。",
+        "comic-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-04"
     },
@@ -444,11 +372,7 @@ export default {
       "masked": "The hat was ____ large.",
       "options": [
         "comic-mcq-05",
-        "comic-mcq-04",
-        "comic-mcq-06",
-        "comic-mcq-03",
-        "comic-mcq-07",
-        "comic-mcq-02"
+        "comic-mcq-01"
       ],
       "explanation": "本句的「comically」指「以滑稽、荒謬或令人發笑的方式」。",
       "sentenceIndex": 11,
@@ -457,12 +381,8 @@ export default {
         "comically"
       ],
       "optionReasons": {
-        "comic-mcq-05": "本句指「以滑稽、荒謬或令人發笑的方式」。",
-        "comic-mcq-04": "「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」與本句語境不同。",
-        "comic-mcq-06": "「主要目的在於引人發笑的戲劇、電影、節目或表演類型」與本句語境不同。",
-        "comic-mcq-03": "「與喜劇有關，或具有令觀眾發笑的幽默效果」與本句語境不同。",
-        "comic-mcq-07": "「以說笑話、喜劇表演或其他幽默內容令觀眾發笑的表演者」與本句語境不同。",
-        "comic-mcq-02": "「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」與本句語境不同。"
+        "comic-mcq-05": "本句的「comically」指「以滑稽、荒謬或令人發笑的方式」。",
+        "comic-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-05"
     },
@@ -474,11 +394,7 @@ export default {
       "masked": "He reacted ____ to the mistake.",
       "options": [
         "comic-mcq-05",
-        "comic-mcq-04",
-        "comic-mcq-06",
-        "comic-mcq-03",
-        "comic-mcq-07",
-        "comic-mcq-02"
+        "comic-mcq-01"
       ],
       "explanation": "本句的「comically」指「以滑稽、荒謬或令人發笑的方式」。",
       "sentenceIndex": 12,
@@ -487,12 +403,8 @@ export default {
         "comically"
       ],
       "optionReasons": {
-        "comic-mcq-05": "本句指「以滑稽、荒謬或令人發笑的方式」。",
-        "comic-mcq-04": "「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」與本句語境不同。",
-        "comic-mcq-06": "「主要目的在於引人發笑的戲劇、電影、節目或表演類型」與本句語境不同。",
-        "comic-mcq-03": "「與喜劇有關，或具有令觀眾發笑的幽默效果」與本句語境不同。",
-        "comic-mcq-07": "「以說笑話、喜劇表演或其他幽默內容令觀眾發笑的表演者」與本句語境不同。",
-        "comic-mcq-02": "「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」與本句語境不同。"
+        "comic-mcq-05": "本句的「comically」指「以滑稽、荒謬或令人發笑的方式」。",
+        "comic-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-05"
     },
@@ -504,11 +416,7 @@ export default {
       "masked": "She enjoys watching ____.",
       "options": [
         "comic-mcq-06",
-        "comic-mcq-05",
-        "comic-mcq-07",
-        "comic-mcq-04",
-        "comic-mcq-03",
-        "comic-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「comedy」指「主要目的在於引人發笑的戲劇、電影、節目或表演類型」。",
       "sentenceIndex": 13,
@@ -517,12 +425,8 @@ export default {
         "comedy"
       ],
       "optionReasons": {
-        "comic-mcq-06": "本句指「主要目的在於引人發笑的戲劇、電影、節目或表演類型」。",
-        "comic-mcq-05": "「以滑稽、荒謬或令人發笑的方式」與本句語境不同。",
-        "comic-mcq-07": "「以說笑話、喜劇表演或其他幽默內容令觀眾發笑的表演者」與本句語境不同。",
-        "comic-mcq-04": "「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」與本句語境不同。",
-        "comic-mcq-03": "「與喜劇有關，或具有令觀眾發笑的幽默效果」與本句語境不同。",
-        "comic-mcq-02": "「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」與本句語境不同。"
+        "comic-mcq-06": "本句的「comedy」指「主要目的在於引人發笑的戲劇、電影、節目或表演類型」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-06"
     },
@@ -534,11 +438,7 @@ export default {
       "masked": "The film is a romantic ____.",
       "options": [
         "comic-mcq-06",
-        "comic-mcq-05",
-        "comic-mcq-07",
-        "comic-mcq-04",
-        "comic-mcq-03",
-        "comic-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「comedy」指「主要目的在於引人發笑的戲劇、電影、節目或表演類型」。",
       "sentenceIndex": 14,
@@ -547,12 +447,8 @@ export default {
         "comedy"
       ],
       "optionReasons": {
-        "comic-mcq-06": "本句指「主要目的在於引人發笑的戲劇、電影、節目或表演類型」。",
-        "comic-mcq-05": "「以滑稽、荒謬或令人發笑的方式」與本句語境不同。",
-        "comic-mcq-07": "「以說笑話、喜劇表演或其他幽默內容令觀眾發笑的表演者」與本句語境不同。",
-        "comic-mcq-04": "「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」與本句語境不同。",
-        "comic-mcq-03": "「與喜劇有關，或具有令觀眾發笑的幽默效果」與本句語境不同。",
-        "comic-mcq-02": "「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」與本句語境不同。"
+        "comic-mcq-06": "本句的「comedy」指「主要目的在於引人發笑的戲劇、電影、節目或表演類型」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-06"
     },
@@ -564,11 +460,7 @@ export default {
       "masked": "The ____ told stories about everyday life.",
       "options": [
         "comic-mcq-07",
-        "comic-mcq-06",
-        "comic-mcq-05",
-        "comic-mcq-04",
-        "comic-mcq-03",
-        "comic-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「comedian」指「以說笑話、喜劇表演或其他幽默內容令觀眾發笑的表演者」。",
       "sentenceIndex": 15,
@@ -577,12 +469,8 @@ export default {
         "comedian"
       ],
       "optionReasons": {
-        "comic-mcq-07": "本句指「以說笑話、喜劇表演或其他幽默內容令觀眾發笑的表演者」。",
-        "comic-mcq-06": "「主要目的在於引人發笑的戲劇、電影、節目或表演類型」與本句語境不同。",
-        "comic-mcq-05": "「以滑稽、荒謬或令人發笑的方式」與本句語境不同。",
-        "comic-mcq-04": "「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」與本句語境不同。",
-        "comic-mcq-03": "「與喜劇有關，或具有令觀眾發笑的幽默效果」與本句語境不同。",
-        "comic-mcq-02": "「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」與本句語境不同。"
+        "comic-mcq-07": "本句的「comedian」指「以說笑話、喜劇表演或其他幽默內容令觀眾發笑的表演者」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-07"
     },
@@ -594,11 +482,7 @@ export default {
       "masked": "She became one of the country's best-known ____.",
       "options": [
         "comic-mcq-07",
-        "comic-mcq-06",
-        "comic-mcq-05",
-        "comic-mcq-04",
-        "comic-mcq-03",
-        "comic-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「comedians」指「以說笑話、喜劇表演或其他幽默內容令觀眾發笑的表演者」。",
       "sentenceIndex": 16,
@@ -607,12 +491,8 @@ export default {
         "comedians"
       ],
       "optionReasons": {
-        "comic-mcq-07": "本句指「以說笑話、喜劇表演或其他幽默內容令觀眾發笑的表演者」。",
-        "comic-mcq-06": "「主要目的在於引人發笑的戲劇、電影、節目或表演類型」與本句語境不同。",
-        "comic-mcq-05": "「以滑稽、荒謬或令人發笑的方式」與本句語境不同。",
-        "comic-mcq-04": "「因外表、行為或情況顯得荒謬、滑稽而令人發笑的」與本句語境不同。",
-        "comic-mcq-03": "「與喜劇有關，或具有令觀眾發笑的幽默效果」與本句語境不同。",
-        "comic-mcq-02": "「以講笑話或其他幽默表演令觀眾發笑的喜劇演員」與本句語境不同。"
+        "comic-mcq-07": "本句的「comedians」指「以說笑話、喜劇表演或其他幽默內容令觀眾發笑的表演者」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comic-mcq-07"
     }
@@ -624,5 +504,12 @@ export default {
     "sha256": "a10708988761c98fc7f5343b9819fd19ef192ba3e06cd3aa46d2a66f6fef5aba",
     "pages": 11
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

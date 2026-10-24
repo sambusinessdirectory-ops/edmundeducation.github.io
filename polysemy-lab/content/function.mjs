@@ -377,11 +377,9 @@ export default {
       "masked": "The main ____ of this room is relaxation.",
       "options": [
         "function-mcq-01",
-        "function-mcq-02",
-        "function-mcq-03",
-        "function-mcq-04",
-        "function-mcq-05",
-        "function-mcq-06"
+        "function-mcq-10",
+        "function-mcq-12",
+        "function-mcq-05"
       ],
       "explanation": "本句的「function」指「某人／某物被設計或存在來完成的用途、作用或角色」。",
       "sentenceIndex": 0,
@@ -390,12 +388,10 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-01": "本句指「某人／某物被設計或存在來完成的用途、作用或角色」。",
-        "function-mcq-02": "「系統、設備或部件可執行的一項特定工作」是「function — system feature」的用法，與本句語境不同。",
-        "function-mcq-03": "「器官、系統或設備正常工作的能力／狀態」是「function — operation」的用法，與本句語境不同。",
-        "function-mcq-04": "「有組織的正式、社交或公共活動」是「function — event」的用法，與本句語境不同。",
-        "function-mcq-05": "「把輸入值按照規則對應到輸出值的數學關係」是「function — mathematics」的用法，與本句語境不同。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。"
+        "function-mcq-01": "本句的「function」指「某人／某物被設計或存在來完成的用途、作用或角色」。",
+        "function-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-01"
     },
@@ -407,11 +403,8 @@ export default {
       "masked": "The frame has both a decorative and protective ____.",
       "options": [
         "function-mcq-01",
-        "function-mcq-02",
-        "function-mcq-03",
-        "function-mcq-04",
-        "function-mcq-05",
-        "function-mcq-06"
+        "function-mcq-06",
+        "function-mcq-05"
       ],
       "explanation": "本句的「function」指「某人／某物被設計或存在來完成的用途、作用或角色」。",
       "sentenceIndex": 1,
@@ -420,12 +413,9 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-01": "本句指「某人／某物被設計或存在來完成的用途、作用或角色」。",
-        "function-mcq-02": "「系統、設備或部件可執行的一項特定工作」是「function — system feature」的用法，與本句語境不同。",
-        "function-mcq-03": "「器官、系統或設備正常工作的能力／狀態」是「function — operation」的用法，與本句語境不同。",
-        "function-mcq-04": "「有組織的正式、社交或公共活動」是「function — event」的用法，與本句語境不同。",
-        "function-mcq-05": "「把輸入值按照規則對應到輸出值的數學關係」是「function — mathematics」的用法，與本句語境不同。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。"
+        "function-mcq-01": "本句的「function」指「某人／某物被設計或存在來完成的用途、作用或角色」。",
+        "function-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-01"
     },
@@ -437,11 +427,9 @@ export default {
       "masked": "Each button has a different ____.",
       "options": [
         "function-mcq-02",
-        "function-mcq-01",
-        "function-mcq-03",
-        "function-mcq-04",
+        "function-pdf-002",
         "function-mcq-05",
-        "function-mcq-06"
+        "function-mcq-04"
       ],
       "explanation": "本句的「function」指「系統、設備或部件可執行的一項特定工作」。",
       "sentenceIndex": 2,
@@ -450,12 +438,10 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-02": "本句指「系統、設備或部件可執行的一項特定工作」。",
-        "function-mcq-01": "「某人／某物被設計或存在來完成的用途、作用或角色」是「function — purpose」的用法，與本句語境不同。",
-        "function-mcq-03": "「器官、系統或設備正常工作的能力／狀態」是「function — operation」的用法，與本句語境不同。",
-        "function-mcq-04": "「有組織的正式、社交或公共活動」是「function — event」的用法，與本句語境不同。",
-        "function-mcq-05": "「把輸入值按照規則對應到輸出值的數學關係」是「function — mathematics」的用法，與本句語境不同。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。"
+        "function-mcq-02": "本句的「function」指「系統、設備或部件可執行的一項特定工作」。",
+        "function-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-02"
     },
@@ -467,11 +453,9 @@ export default {
       "masked": "One ____ of the software is image editing.",
       "options": [
         "function-mcq-02",
-        "function-mcq-01",
-        "function-mcq-03",
-        "function-mcq-04",
+        "function-pdf-002",
         "function-mcq-05",
-        "function-mcq-06"
+        "function-mcq-04"
       ],
       "explanation": "本句的「function」指「系統、設備或部件可執行的一項特定工作」。",
       "sentenceIndex": 3,
@@ -480,12 +464,10 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-02": "本句指「系統、設備或部件可執行的一項特定工作」。",
-        "function-mcq-01": "「某人／某物被設計或存在來完成的用途、作用或角色」是「function — purpose」的用法，與本句語境不同。",
-        "function-mcq-03": "「器官、系統或設備正常工作的能力／狀態」是「function — operation」的用法，與本句語境不同。",
-        "function-mcq-04": "「有組織的正式、社交或公共活動」是「function — event」的用法，與本句語境不同。",
-        "function-mcq-05": "「把輸入值按照規則對應到輸出值的數學關係」是「function — mathematics」的用法，與本句語境不同。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。"
+        "function-mcq-02": "本句的「function」指「系統、設備或部件可執行的一項特定工作」。",
+        "function-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-02"
     },
@@ -497,11 +479,9 @@ export default {
       "masked": "The machine returned to normal ____.",
       "options": [
         "function-mcq-03",
-        "function-mcq-02",
-        "function-mcq-04",
-        "function-mcq-01",
         "function-mcq-05",
-        "function-mcq-06"
+        "function-pdf-002",
+        "function-mcq-04"
       ],
       "explanation": "本句的「function」指「器官、系統或設備正常工作的能力／狀態」。",
       "sentenceIndex": 4,
@@ -510,12 +490,10 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-03": "本句指「器官、系統或設備正常工作的能力／狀態」。",
-        "function-mcq-02": "「系統、設備或部件可執行的一項特定工作」是「function — system feature」的用法，與本句語境不同。",
-        "function-mcq-04": "「有組織的正式、社交或公共活動」是「function — event」的用法，與本句語境不同。",
-        "function-mcq-01": "「某人／某物被設計或存在來完成的用途、作用或角色」是「function — purpose」的用法，與本句語境不同。",
-        "function-mcq-05": "「把輸入值按照規則對應到輸出值的數學關係」是「function — mathematics」的用法，與本句語境不同。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。"
+        "function-mcq-03": "本句的「function」指「器官、系統或設備正常工作的能力／狀態」。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-03"
     },
@@ -527,11 +505,9 @@ export default {
       "masked": "The injury affected the normal ____ of the hand.",
       "options": [
         "function-mcq-03",
-        "function-mcq-02",
-        "function-mcq-04",
-        "function-mcq-01",
+        "function-mcq-09",
         "function-mcq-05",
-        "function-mcq-06"
+        "function-mcq-04"
       ],
       "explanation": "本句的「function」指「器官、系統或設備正常工作的能力／狀態」。",
       "sentenceIndex": 5,
@@ -540,12 +516,10 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-03": "本句指「器官、系統或設備正常工作的能力／狀態」。",
-        "function-mcq-02": "「系統、設備或部件可執行的一項特定工作」是「function — system feature」的用法，與本句語境不同。",
-        "function-mcq-04": "「有組織的正式、社交或公共活動」是「function — event」的用法，與本句語境不同。",
-        "function-mcq-01": "「某人／某物被設計或存在來完成的用途、作用或角色」是「function — purpose」的用法，與本句語境不同。",
-        "function-mcq-05": "「把輸入值按照規則對應到輸出值的數學關係」是「function — mathematics」的用法，與本句語境不同。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。"
+        "function-mcq-03": "本句的「function」指「器官、系統或設備正常工作的能力／狀態」。",
+        "function-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-03"
     },
@@ -557,11 +531,9 @@ export default {
       "masked": "The museum held a private ____ for donors.",
       "options": [
         "function-mcq-04",
-        "function-mcq-03",
+        "function-mcq-13",
         "function-mcq-05",
-        "function-mcq-02",
-        "function-mcq-06",
-        "function-mcq-01"
+        "function-mcq-09"
       ],
       "explanation": "本句的「function」指「有組織的正式、社交或公共活動」。",
       "sentenceIndex": 6,
@@ -570,12 +542,10 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-04": "本句指「有組織的正式、社交或公共活動」。",
-        "function-mcq-03": "「器官、系統或設備正常工作的能力／狀態」是「function — operation」的用法，與本句語境不同。",
-        "function-mcq-05": "「把輸入值按照規則對應到輸出值的數學關係」是「function — mathematics」的用法，與本句語境不同。",
-        "function-mcq-02": "「系統、設備或部件可執行的一項特定工作」是「function — system feature」的用法，與本句語境不同。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。",
-        "function-mcq-01": "「某人／某物被設計或存在來完成的用途、作用或角色」是「function — purpose」的用法，與本句語境不同。"
+        "function-mcq-04": "本句的「function」指「有組織的正式、社交或公共活動」。",
+        "function-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-04"
     },
@@ -587,11 +557,9 @@ export default {
       "masked": "She attended an official ____ at the gallery.",
       "options": [
         "function-mcq-04",
-        "function-mcq-03",
         "function-mcq-05",
-        "function-mcq-02",
-        "function-mcq-06",
-        "function-mcq-01"
+        "function-mcq-12",
+        "function-pdf-002"
       ],
       "explanation": "本句的「function」指「有組織的正式、社交或公共活動」。",
       "sentenceIndex": 7,
@@ -600,12 +568,10 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-04": "本句指「有組織的正式、社交或公共活動」。",
-        "function-mcq-03": "「器官、系統或設備正常工作的能力／狀態」是「function — operation」的用法，與本句語境不同。",
-        "function-mcq-05": "「把輸入值按照規則對應到輸出值的數學關係」是「function — mathematics」的用法，與本句語境不同。",
-        "function-mcq-02": "「系統、設備或部件可執行的一項特定工作」是「function — system feature」的用法，與本句語境不同。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。",
-        "function-mcq-01": "「某人／某物被設計或存在來完成的用途、作用或角色」是「function — purpose」的用法，與本句語境不同。"
+        "function-mcq-04": "本句的「function」指「有組織的正式、社交或公共活動」。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "function-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-04"
     },
@@ -617,11 +583,9 @@ export default {
       "masked": "This graph represents a mathematical ____.",
       "options": [
         "function-mcq-05",
-        "function-mcq-04",
-        "function-mcq-06",
-        "function-mcq-03",
-        "function-mcq-07",
-        "function-mcq-02"
+        "function-mcq-10",
+        "function-mcq-12",
+        "function-pdf-001"
       ],
       "explanation": "本句的「function」指「把輸入值按照規則對應到輸出值的數學關係」。",
       "sentenceIndex": 8,
@@ -630,12 +594,10 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-05": "本句指「把輸入值按照規則對應到輸出值的數學關係」。",
-        "function-mcq-04": "「有組織的正式、社交或公共活動」是「function — event」的用法，與本句語境不同。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。",
-        "function-mcq-03": "「器官、系統或設備正常工作的能力／狀態」是「function — operation」的用法，與本句語境不同。",
-        "function-mcq-07": "「器官、細胞或生物系統執行的特定作用」是「function — biology」的用法，與本句語境不同。",
-        "function-mcq-02": "「系統、設備或部件可執行的一項特定工作」是「function — system feature」的用法，與本句語境不同。"
+        "function-mcq-05": "本句的「function」指「把輸入值按照規則對應到輸出值的數學關係」。",
+        "function-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "function-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-05"
     },
@@ -647,11 +609,8 @@ export default {
       "masked": "The value of the ____ changes with x.",
       "options": [
         "function-mcq-05",
-        "function-mcq-04",
-        "function-mcq-06",
-        "function-mcq-03",
-        "function-mcq-07",
-        "function-mcq-02"
+        "function-mcq-01",
+        "function-mcq-06"
       ],
       "explanation": "本句的「function」指「把輸入值按照規則對應到輸出值的數學關係」。",
       "sentenceIndex": 9,
@@ -660,12 +619,9 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-05": "本句指「把輸入值按照規則對應到輸出值的數學關係」。",
-        "function-mcq-04": "「有組織的正式、社交或公共活動」是「function — event」的用法，與本句語境不同。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。",
-        "function-mcq-03": "「器官、系統或設備正常工作的能力／狀態」是「function — operation」的用法，與本句語境不同。",
-        "function-mcq-07": "「器官、細胞或生物系統執行的特定作用」是「function — biology」的用法，與本句語境不同。",
-        "function-mcq-02": "「系統、設備或部件可執行的一項特定工作」是「function — system feature」的用法，與本句語境不同。"
+        "function-mcq-05": "本句的「function」指「把輸入值按照規則對應到輸出值的數學關係」。",
+        "function-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-05"
     },
@@ -677,11 +633,9 @@ export default {
       "masked": "The program calls a ____ to process the image.",
       "options": [
         "function-mcq-06",
-        "function-mcq-05",
-        "function-mcq-07",
+        "function-mcq-09",
         "function-mcq-04",
-        "function-mcq-08",
-        "function-mcq-03"
+        "function-mcq-05"
       ],
       "explanation": "本句的「function」指「執行特定任務、可被呼叫的一段程式碼」。",
       "sentenceIndex": 10,
@@ -690,12 +644,10 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-06": "本句指「執行特定任務、可被呼叫的一段程式碼」。",
-        "function-mcq-05": "「把輸入值按照規則對應到輸出值的數學關係」是「function — mathematics」的用法，與本句語境不同。",
-        "function-mcq-07": "「器官、細胞或生物系統執行的特定作用」是「function — biology」的用法，與本句語境不同。",
-        "function-mcq-04": "「有組織的正式、社交或公共活動」是「function — event」的用法，與本句語境不同。",
-        "function-mcq-08": "「正常工作、運轉或執行預定用途」是「function — verb」的用法，與本句語境不同。",
-        "function-mcq-03": "「器官、系統或設備正常工作的能力／狀態」是「function — operation」的用法，與本句語境不同。"
+        "function-mcq-06": "本句的「function」指「執行特定任務、可被呼叫的一段程式碼」。",
+        "function-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-06"
     },
@@ -708,10 +660,8 @@ export default {
       "options": [
         "function-mcq-06",
         "function-mcq-05",
-        "function-mcq-07",
-        "function-mcq-04",
-        "function-mcq-08",
-        "function-mcq-03"
+        "function-mcq-11",
+        "function-mcq-04"
       ],
       "explanation": "本句的「function」指「執行特定任務、可被呼叫的一段程式碼」。",
       "sentenceIndex": 11,
@@ -720,12 +670,10 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-06": "本句指「執行特定任務、可被呼叫的一段程式碼」。",
-        "function-mcq-05": "「把輸入值按照規則對應到輸出值的數學關係」是「function — mathematics」的用法，與本句語境不同。",
-        "function-mcq-07": "「器官、細胞或生物系統執行的特定作用」是「function — biology」的用法，與本句語境不同。",
-        "function-mcq-04": "「有組織的正式、社交或公共活動」是「function — event」的用法，與本句語境不同。",
-        "function-mcq-08": "「正常工作、運轉或執行預定用途」是「function — verb」的用法，與本句語境不同。",
-        "function-mcq-03": "「器官、系統或設備正常工作的能力／狀態」是「function — operation」的用法，與本句語境不同。"
+        "function-mcq-06": "本句的「function」指「執行特定任務、可被呼叫的一段程式碼」。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-06"
     },
@@ -737,11 +685,9 @@ export default {
       "masked": "The lungs perform an essential ____.",
       "options": [
         "function-mcq-07",
-        "function-mcq-06",
-        "function-mcq-08",
-        "function-mcq-05",
-        "function-mcq-09",
-        "function-mcq-04"
+        "function-pdf-002",
+        "function-mcq-04",
+        "function-mcq-05"
       ],
       "explanation": "本句的「function」指「器官、細胞或生物系統執行的特定作用」。",
       "sentenceIndex": 12,
@@ -750,12 +696,10 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-07": "本句指「器官、細胞或生物系統執行的特定作用」。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。",
-        "function-mcq-08": "「正常工作、運轉或執行預定用途」是「function — verb」的用法，與本句語境不同。",
-        "function-mcq-05": "「把輸入值按照規則對應到輸出值的數學關係」是「function — mathematics」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。",
-        "function-mcq-04": "「有組織的正式、社交或公共活動」是「function — event」的用法，與本句語境不同。"
+        "function-mcq-07": "本句的「function」指「器官、細胞或生物系統執行的特定作用」。",
+        "function-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-07"
     },
@@ -767,11 +711,8 @@ export default {
       "masked": "Sleep supports normal brain ____.",
       "options": [
         "function-mcq-07",
-        "function-mcq-06",
-        "function-mcq-08",
-        "function-mcq-05",
-        "function-mcq-09",
-        "function-mcq-04"
+        "function-mcq-01",
+        "function-mcq-05"
       ],
       "explanation": "本句的「function」指「器官、細胞或生物系統執行的特定作用」。",
       "sentenceIndex": 13,
@@ -780,12 +721,9 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-07": "本句指「器官、細胞或生物系統執行的特定作用」。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。",
-        "function-mcq-08": "「正常工作、運轉或執行預定用途」是「function — verb」的用法，與本句語境不同。",
-        "function-mcq-05": "「把輸入值按照規則對應到輸出值的數學關係」是「function — mathematics」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。",
-        "function-mcq-04": "「有組織的正式、社交或公共活動」是「function — event」的用法，與本句語境不同。"
+        "function-mcq-07": "本句的「function」指「器官、細胞或生物系統執行的特定作用」。",
+        "function-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-07"
     },
@@ -797,11 +735,9 @@ export default {
       "masked": "The device is still ____ properly.",
       "options": [
         "function-mcq-08",
-        "function-mcq-07",
-        "function-mcq-09",
-        "function-mcq-06",
-        "function-mcq-10",
-        "function-mcq-05"
+        "function-mcq-13",
+        "function-mcq-05",
+        "function-mcq-04"
       ],
       "explanation": "本句的「functioning」指「正常工作、運轉或執行預定用途」。",
       "sentenceIndex": 14,
@@ -810,12 +746,10 @@ export default {
         "functioning"
       ],
       "optionReasons": {
-        "function-mcq-08": "本句指「正常工作、運轉或執行預定用途」。",
-        "function-mcq-07": "「器官、細胞或生物系統執行的特定作用」是「function — biology」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-05": "「把輸入值按照規則對應到輸出值的數學關係」是「function — mathematics」的用法，與本句語境不同。"
+        "function-mcq-08": "本句的「functioning」指「正常工作、運轉或執行預定用途」。",
+        "function-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-08"
     },
@@ -827,11 +761,9 @@ export default {
       "masked": "The system cannot ____ without electricity.",
       "options": [
         "function-mcq-08",
-        "function-mcq-07",
-        "function-mcq-09",
-        "function-mcq-06",
-        "function-mcq-10",
-        "function-mcq-05"
+        "function-mcq-13",
+        "function-mcq-05",
+        "function-mcq-04"
       ],
       "explanation": "本句的「function」指「正常工作、運轉或執行預定用途」。",
       "sentenceIndex": 15,
@@ -840,12 +772,10 @@ export default {
         "function"
       ],
       "optionReasons": {
-        "function-mcq-08": "本句指「正常工作、運轉或執行預定用途」。",
-        "function-mcq-07": "「器官、細胞或生物系統執行的特定作用」是「function — biology」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-05": "「把輸入值按照規則對應到輸出值的數學關係」是「function — mathematics」的用法，與本句語境不同。"
+        "function-mcq-08": "本句的「function」指「正常工作、運轉或執行預定用途」。",
+        "function-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-08"
     },
@@ -857,11 +787,9 @@ export default {
       "masked": "The room also ____ a study.",
       "options": [
         "function-mcq-09",
-        "function-mcq-08",
-        "function-mcq-10",
-        "function-mcq-07",
-        "function-mcq-11",
-        "function-mcq-06"
+        "function-mcq-12",
+        "function-mcq-04",
+        "function-pdf-001"
       ],
       "explanation": "本句的「functions as」指「充當某角色／發揮某用途」。",
       "sentenceIndex": 16,
@@ -870,12 +798,10 @@ export default {
         "functions as"
       ],
       "optionReasons": {
-        "function-mcq-09": "本句指「充當某角色／發揮某用途」。",
-        "function-mcq-08": "「正常工作、運轉或執行預定用途」是「function — verb」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-07": "「器官、細胞或生物系統執行的特定作用」是「function — biology」的用法，與本句語境不同。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。"
+        "function-mcq-09": "本句的「functions as」指「充當某角色／發揮某用途」。",
+        "function-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "function-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-09"
     },
@@ -887,11 +813,9 @@ export default {
       "masked": "The painting ____ as a focal point in the room.",
       "options": [
         "function-mcq-09",
-        "function-mcq-08",
-        "function-mcq-10",
-        "function-mcq-07",
-        "function-mcq-11",
-        "function-mcq-06"
+        "function-mcq-06",
+        "function-mcq-04",
+        "function-mcq-05"
       ],
       "explanation": "本句的「functions」指「充當某角色／發揮某用途」。",
       "sentenceIndex": 17,
@@ -900,12 +824,10 @@ export default {
         "functions"
       ],
       "optionReasons": {
-        "function-mcq-09": "本句指「充當某角色／發揮某用途」。",
-        "function-mcq-08": "「正常工作、運轉或執行預定用途」是「function — verb」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-07": "「器官、細胞或生物系統執行的特定作用」是「function — biology」的用法，與本句語境不同。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-06": "「執行特定任務、可被呼叫的一段程式碼」是「function — programming」的用法，與本句語境不同。"
+        "function-mcq-09": "本句的「functions」指「充當某角色／發揮某用途」。",
+        "function-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-09"
     },
@@ -917,11 +839,9 @@ export default {
       "masked": "The old camera is still ____.",
       "options": [
         "function-mcq-10",
-        "function-mcq-09",
-        "function-mcq-11",
-        "function-mcq-08",
         "function-mcq-12",
-        "function-mcq-07"
+        "function-mcq-01",
+        "function-mcq-05"
       ],
       "explanation": "本句的「functional」指「能正常執行原本功能的」。",
       "sentenceIndex": 18,
@@ -930,12 +850,10 @@ export default {
         "functional"
       ],
       "optionReasons": {
-        "function-mcq-10": "本句指「能正常執行原本功能的」。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-08": "「正常工作、運轉或執行預定用途」是「function — verb」的用法，與本句語境不同。",
-        "function-mcq-12": "「在系統中負責某項特定作用的」是「functional — technical」的用法，與本句語境不同。",
-        "function-mcq-07": "「器官、細胞或生物系統執行的特定作用」是「function — biology」的用法，與本句語境不同。"
+        "function-mcq-10": "本句的「functional」指「能正常執行原本功能的」。",
+        "function-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-10"
     },
@@ -948,10 +866,8 @@ export default {
       "options": [
         "function-mcq-10",
         "function-mcq-09",
-        "function-mcq-11",
-        "function-mcq-08",
         "function-mcq-12",
-        "function-mcq-07"
+        "function-mcq-05"
       ],
       "explanation": "本句的「functional」指「能正常執行原本功能的」。",
       "sentenceIndex": 19,
@@ -960,12 +876,10 @@ export default {
         "functional"
       ],
       "optionReasons": {
-        "function-mcq-10": "本句指「能正常執行原本功能的」。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-08": "「正常工作、運轉或執行預定用途」是「function — verb」的用法，與本句語境不同。",
-        "function-mcq-12": "「在系統中負責某項特定作用的」是「functional — technical」的用法，與本句語境不同。",
-        "function-mcq-07": "「器官、細胞或生物系統執行的特定作用」是「function — biology」的用法，與本句語境不同。"
+        "function-mcq-10": "本句的「functional」指「能正常執行原本功能的」。",
+        "function-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-10"
     },
@@ -977,11 +891,9 @@ export default {
       "masked": "Home should not only be ____.",
       "options": [
         "function-mcq-11",
-        "function-mcq-10",
-        "function-mcq-12",
-        "function-mcq-09",
-        "function-mcq-13",
-        "function-mcq-08"
+        "function-mcq-05",
+        "function-mcq-02",
+        "function-mcq-04"
       ],
       "explanation": "本句的「functional」指「能有效滿足實際用途與日常需要的」。",
       "sentenceIndex": 20,
@@ -990,12 +902,10 @@ export default {
         "functional"
       ],
       "optionReasons": {
-        "function-mcq-11": "本句指「能有效滿足實際用途與日常需要的」。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-12": "「在系統中負責某項特定作用的」是「functional — technical」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。",
-        "function-mcq-13": "「系統／產品具備的功能及其實際可用程度」是「functionality」的用法，與本句語境不同。",
-        "function-mcq-08": "「正常工作、運轉或執行預定用途」是「function — verb」的用法，與本句語境不同。"
+        "function-mcq-11": "本句的「functional」指「能有效滿足實際用途與日常需要的」。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-11"
     },
@@ -1007,11 +917,9 @@ export default {
       "masked": "The furniture is simple but highly ____.",
       "options": [
         "function-mcq-11",
-        "function-mcq-10",
-        "function-mcq-12",
-        "function-mcq-09",
-        "function-mcq-13",
-        "function-mcq-08"
+        "function-mcq-05",
+        "function-mcq-06",
+        "function-mcq-04"
       ],
       "explanation": "本句的「functional」指「能有效滿足實際用途與日常需要的」。",
       "sentenceIndex": 21,
@@ -1020,12 +928,10 @@ export default {
         "functional"
       ],
       "optionReasons": {
-        "function-mcq-11": "本句指「能有效滿足實際用途與日常需要的」。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-12": "「在系統中負責某項特定作用的」是「functional — technical」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。",
-        "function-mcq-13": "「系統／產品具備的功能及其實際可用程度」是「functionality」的用法，與本句語境不同。",
-        "function-mcq-08": "「正常工作、運轉或執行預定用途」是「function — verb」的用法，與本句語境不同。"
+        "function-mcq-11": "本句的「functional」指「能有效滿足實際用途與日常需要的」。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-11"
     },
@@ -1037,11 +943,9 @@ export default {
       "masked": "The design separates decorative and ____ elements.",
       "options": [
         "function-mcq-12",
-        "function-mcq-11",
-        "function-mcq-13",
-        "function-mcq-10",
-        "function-mcq-14",
-        "function-mcq-09"
+        "function-mcq-09",
+        "function-mcq-05",
+        "function-mcq-10"
       ],
       "explanation": "本句的「functional」指「在系統中負責某項特定作用的」。",
       "sentenceIndex": 22,
@@ -1050,12 +954,10 @@ export default {
         "functional"
       ],
       "optionReasons": {
-        "function-mcq-12": "本句指「在系統中負責某項特定作用的」。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-13": "「系統／產品具備的功能及其實際可用程度」是「functionality」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-14": "「機器、系統或器官未能正常運作；故障」是「malfunction」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
+        "function-mcq-12": "本句的「functional」指「在系統中負責某項特定作用的」。",
+        "function-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-12"
     },
@@ -1067,11 +969,9 @@ export default {
       "masked": "The protein has several ____ regions.",
       "options": [
         "function-mcq-12",
-        "function-mcq-11",
-        "function-mcq-13",
         "function-mcq-10",
-        "function-mcq-14",
-        "function-mcq-09"
+        "function-mcq-11",
+        "function-mcq-04"
       ],
       "explanation": "本句的「functional」指「在系統中負責某項特定作用的」。",
       "sentenceIndex": 23,
@@ -1080,12 +980,10 @@ export default {
         "functional"
       ],
       "optionReasons": {
-        "function-mcq-12": "本句指「在系統中負責某項特定作用的」。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-13": "「系統／產品具備的功能及其實際可用程度」是「functionality」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-14": "「機器、系統或器官未能正常運作；故障」是「malfunction」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
+        "function-mcq-12": "本句的「functional」指「在系統中負責某項特定作用的」。",
+        "function-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-12"
     },
@@ -1097,11 +995,9 @@ export default {
       "masked": "He remained ____ despite being very tired.",
       "options": [
         "function-pdf-001",
-        "function-mcq-11",
-        "function-mcq-13",
-        "function-mcq-10",
-        "function-mcq-14",
-        "function-mcq-09"
+        "function-mcq-12",
+        "function-mcq-09",
+        "function-mcq-05"
       ],
       "explanation": "本句的「functional」指「能完成日常生活、工作或基本任務的」。",
       "sentenceIndex": 24,
@@ -1110,12 +1006,10 @@ export default {
         "functional"
       ],
       "optionReasons": {
-        "function-pdf-001": "本句指「能完成日常生活、工作或基本任務的」。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-13": "「系統／產品具備的功能及其實際可用程度」是「functionality」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-14": "「機器、系統或器官未能正常運作；故障」是「malfunction」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
+        "function-pdf-001": "本句的「functional」指「能完成日常生活、工作或基本任務的」。",
+        "function-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-pdf-001"
     },
@@ -1127,10 +1021,8 @@ export default {
       "masked": "The goal is to help patients stay ____.",
       "options": [
         "function-pdf-001",
-        "function-mcq-11",
         "function-mcq-13",
-        "function-mcq-10",
-        "function-mcq-14",
+        "function-mcq-05",
         "function-mcq-09"
       ],
       "explanation": "本句的「functional」指「能完成日常生活、工作或基本任務的」。",
@@ -1140,12 +1032,10 @@ export default {
         "functional"
       ],
       "optionReasons": {
-        "function-pdf-001": "本句指「能完成日常生活、工作或基本任務的」。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-13": "「系統／產品具備的功能及其實際可用程度」是「functionality」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-14": "「機器、系統或器官未能正常運作；故障」是「malfunction」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
+        "function-pdf-001": "本句的「functional」指「能完成日常生活、工作或基本任務的」。",
+        "function-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-pdf-001"
     },
@@ -1157,11 +1047,9 @@ export default {
       "masked": "The app has useful ____.",
       "options": [
         "function-mcq-13",
-        "function-mcq-12",
-        "function-mcq-14",
-        "function-mcq-11",
-        "function-mcq-10",
-        "function-mcq-09"
+        "function-mcq-04",
+        "function-mcq-05",
+        "function-pdf-001"
       ],
       "explanation": "本句的「functionality」指「系統／產品具備的功能及其實際可用程度」。",
       "sentenceIndex": 26,
@@ -1170,12 +1058,10 @@ export default {
         "functionality"
       ],
       "optionReasons": {
-        "function-mcq-13": "本句指「系統／產品具備的功能及其實際可用程度」。",
-        "function-mcq-12": "「在系統中負責某項特定作用的」是「functional — technical」的用法，與本句語境不同。",
-        "function-mcq-14": "「機器、系統或器官未能正常運作；故障」是「malfunction」的用法，與本句語境不同。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
+        "function-mcq-13": "本句的「functionality」指「系統／產品具備的功能及其實際可用程度」。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-13"
     },
@@ -1187,11 +1073,9 @@ export default {
       "masked": "The update improves the software’s ____.",
       "options": [
         "function-mcq-13",
-        "function-mcq-12",
-        "function-mcq-14",
-        "function-mcq-11",
-        "function-mcq-10",
-        "function-mcq-09"
+        "function-mcq-08",
+        "function-mcq-05",
+        "function-mcq-04"
       ],
       "explanation": "本句的「functionality」指「系統／產品具備的功能及其實際可用程度」。",
       "sentenceIndex": 27,
@@ -1200,12 +1084,10 @@ export default {
         "functionality"
       ],
       "optionReasons": {
-        "function-mcq-13": "本句指「系統／產品具備的功能及其實際可用程度」。",
-        "function-mcq-12": "「在系統中負責某項特定作用的」是「functional — technical」的用法，與本句語境不同。",
-        "function-mcq-14": "「機器、系統或器官未能正常運作；故障」是「malfunction」的用法，與本句語境不同。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
+        "function-mcq-13": "本句的「functionality」指「系統／產品具備的功能及其實際可用程度」。",
+        "function-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-13"
     },
@@ -1217,11 +1099,9 @@ export default {
       "masked": "The designer balanced beauty and ____.",
       "options": [
         "function-mcq-13",
-        "function-mcq-12",
-        "function-mcq-14",
-        "function-mcq-11",
-        "function-mcq-10",
-        "function-mcq-09"
+        "function-mcq-09",
+        "function-mcq-05",
+        "function-mcq-04"
       ],
       "explanation": "本句的「functionality」指「系統／產品具備的功能及其實際可用程度」。",
       "sentenceIndex": 28,
@@ -1230,12 +1110,10 @@ export default {
         "functionality"
       ],
       "optionReasons": {
-        "function-mcq-13": "本句指「系統／產品具備的功能及其實際可用程度」。",
-        "function-mcq-12": "「在系統中負責某項特定作用的」是「functional — technical」的用法，與本句語境不同。",
-        "function-mcq-14": "「機器、系統或器官未能正常運作；故障」是「malfunction」的用法，與本句語境不同。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
+        "function-mcq-13": "本句的「functionality」指「系統／產品具備的功能及其實際可用程度」。",
+        "function-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-13"
     },
@@ -1247,11 +1125,9 @@ export default {
       "masked": "The room has good ____ despite its small size.",
       "options": [
         "function-mcq-13",
-        "function-mcq-12",
-        "function-mcq-14",
-        "function-mcq-11",
-        "function-mcq-10",
-        "function-mcq-09"
+        "function-mcq-04",
+        "function-mcq-09",
+        "function-pdf-001"
       ],
       "explanation": "本句的「functionality」指「系統／產品具備的功能及其實際可用程度」。",
       "sentenceIndex": 29,
@@ -1260,12 +1136,10 @@ export default {
         "functionality"
       ],
       "optionReasons": {
-        "function-mcq-13": "本句指「系統／產品具備的功能及其實際可用程度」。",
-        "function-mcq-12": "「在系統中負責某項特定作用的」是「functional — technical」的用法，與本句語境不同。",
-        "function-mcq-14": "「機器、系統或器官未能正常運作；故障」是「malfunction」的用法，與本句語境不同。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
+        "function-mcq-13": "本句的「functionality」指「系統／產品具備的功能及其實際可用程度」。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "function-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-13"
     },
@@ -1277,11 +1151,9 @@ export default {
       "masked": "The two systems are ____ similar.",
       "options": [
         "function-pdf-002",
-        "function-mcq-12",
+        "function-mcq-04",
         "function-mcq-14",
-        "function-mcq-11",
-        "function-mcq-10",
-        "function-mcq-09"
+        "function-pdf-001"
       ],
       "explanation": "本句的「functionally」指「從實際功能／用途角度而言」。",
       "sentenceIndex": 30,
@@ -1290,12 +1162,10 @@ export default {
         "functionally"
       ],
       "optionReasons": {
-        "function-pdf-002": "本句指「從實際功能／用途角度而言」。",
-        "function-mcq-12": "「在系統中負責某項特定作用的」是「functional — technical」的用法，與本句語境不同。",
-        "function-mcq-14": "「機器、系統或器官未能正常運作；故障」是「malfunction」的用法，與本句語境不同。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
+        "function-pdf-002": "本句的「functionally」指「從實際功能／用途角度而言」。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "function-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-pdf-002"
     },
@@ -1308,10 +1178,8 @@ export default {
       "options": [
         "function-pdf-002",
         "function-mcq-12",
-        "function-mcq-14",
-        "function-mcq-11",
-        "function-mcq-10",
-        "function-mcq-09"
+        "function-pdf-001",
+        "function-mcq-04"
       ],
       "explanation": "本句的「functionally」指「從實際功能／用途角度而言」。",
       "sentenceIndex": 31,
@@ -1320,12 +1188,10 @@ export default {
         "functionally"
       ],
       "optionReasons": {
-        "function-pdf-002": "本句指「從實際功能／用途角度而言」。",
-        "function-mcq-12": "「在系統中負責某項特定作用的」是「functional — technical」的用法，與本句語境不同。",
-        "function-mcq-14": "「機器、系統或器官未能正常運作；故障」是「malfunction」的用法，與本句語境不同。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
+        "function-pdf-002": "本句的「functionally」指「從實際功能／用途角度而言」。",
+        "function-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "function-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-pdf-002"
     },
@@ -1337,11 +1203,9 @@ export default {
       "masked": "The display ____ during the presentation.",
       "options": [
         "function-mcq-14",
-        "function-mcq-13",
-        "function-mcq-12",
-        "function-mcq-11",
-        "function-mcq-10",
-        "function-mcq-09"
+        "function-pdf-002",
+        "function-mcq-05",
+        "function-pdf-001"
       ],
       "explanation": "本句的「malfunctioned」指「機器、系統或器官未能正常運作；故障」。",
       "sentenceIndex": 32,
@@ -1350,12 +1214,10 @@ export default {
         "malfunctioned"
       ],
       "optionReasons": {
-        "function-mcq-14": "本句指「機器、系統或器官未能正常運作；故障」。",
-        "function-mcq-13": "「系統／產品具備的功能及其實際可用程度」是「functionality」的用法，與本句語境不同。",
-        "function-mcq-12": "「在系統中負責某項特定作用的」是「functional — technical」的用法，與本句語境不同。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
+        "function-mcq-14": "本句的「malfunctioned」指「機器、系統或器官未能正常運作；故障」。",
+        "function-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-14"
     },
@@ -1367,11 +1229,9 @@ export default {
       "masked": "A sensor ____ caused the problem.",
       "options": [
         "function-mcq-14",
-        "function-mcq-13",
-        "function-mcq-12",
-        "function-mcq-11",
-        "function-mcq-10",
-        "function-mcq-09"
+        "function-mcq-09",
+        "function-mcq-05",
+        "function-mcq-04"
       ],
       "explanation": "本句的「malfunction」指「機器、系統或器官未能正常運作；故障」。",
       "sentenceIndex": 33,
@@ -1380,12 +1240,10 @@ export default {
         "malfunction"
       ],
       "optionReasons": {
-        "function-mcq-14": "本句指「機器、系統或器官未能正常運作；故障」。",
-        "function-mcq-13": "「系統／產品具備的功能及其實際可用程度」是「functionality」的用法，與本句語境不同。",
-        "function-mcq-12": "「在系統中負責某項特定作用的」是「functional — technical」的用法，與本句語境不同。",
-        "function-mcq-11": "「能有效滿足實際用途與日常需要的」是「functional — practical」的用法，與本句語境不同。",
-        "function-mcq-10": "「能正常執行原本功能的」是「functional — operational」的用法，與本句語境不同。",
-        "function-mcq-09": "「充當某角色／發揮某用途」是「function as」的用法，與本句語境不同。"
+        "function-mcq-14": "本句的「malfunction」指「機器、系統或器官未能正常運作；故障」。",
+        "function-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "function-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "function-mcq-14"
     }
@@ -1397,5 +1255,7 @@ export default {
     "sha256": "a036022d86327a9cd76c78d7e63bb1ae425b8901c97db772dd28290fe6698a1c",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

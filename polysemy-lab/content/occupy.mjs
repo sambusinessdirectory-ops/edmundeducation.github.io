@@ -328,11 +328,9 @@ export default {
       "masked": "Tutorial groups can ____ several tables for hours.",
       "options": [
         "occupy-mcq-01",
-        "occupy-mcq-02",
-        "occupy-mcq-03",
-        "occupy-mcq-04",
-        "occupy-mcq-05",
-        "occupy-mcq-06"
+        "occupy-mcq-09",
+        "occupy-pdf-002",
+        "occupy-mcq-03"
       ],
       "explanation": "本句的「occupy」指「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」。",
       "sentenceIndex": 0,
@@ -341,12 +339,10 @@ export default {
         "occupy"
       ],
       "optionReasons": {
-        "occupy-mcq-01": "本句指「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」。",
-        "occupy-mcq-02": "「實際居住、使用或控制房間、建築物、土地等」與本句語境不同。",
-        "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。",
-        "occupy-mcq-04": "「擔任某職位，或在排名／結構中佔據某位置」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。"
+        "occupy-mcq-01": "本句的「occupy」指「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "occupy-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-01"
     },
@@ -358,11 +354,9 @@ export default {
       "masked": "The sofa ____ most of the room.",
       "options": [
         "occupy-mcq-01",
-        "occupy-mcq-02",
-        "occupy-mcq-03",
-        "occupy-mcq-04",
-        "occupy-mcq-05",
-        "occupy-mcq-06"
+        "occupy-pdf-002",
+        "occupy-mcq-09",
+        "occupy-mcq-03"
       ],
       "explanation": "本句的「occupies」指「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」。",
       "sentenceIndex": 1,
@@ -371,12 +365,10 @@ export default {
         "occupies"
       ],
       "optionReasons": {
-        "occupy-mcq-01": "本句指「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」。",
-        "occupy-mcq-02": "「實際居住、使用或控制房間、建築物、土地等」與本句語境不同。",
-        "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。",
-        "occupy-mcq-04": "「擔任某職位，或在排名／結構中佔據某位置」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。"
+        "occupy-mcq-01": "本句的「occupies」指「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」。",
+        "occupy-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-01"
     },
@@ -388,11 +380,9 @@ export default {
       "masked": "Each machine ____ about two square metres.",
       "options": [
         "occupy-mcq-01",
-        "occupy-mcq-02",
-        "occupy-mcq-03",
-        "occupy-mcq-04",
-        "occupy-mcq-05",
-        "occupy-mcq-06"
+        "occupy-mcq-09",
+        "occupy-pdf-002",
+        "occupy-mcq-03"
       ],
       "explanation": "本句的「occupies」指「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」。",
       "sentenceIndex": 2,
@@ -401,12 +391,10 @@ export default {
         "occupies"
       ],
       "optionReasons": {
-        "occupy-mcq-01": "本句指「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」。",
-        "occupy-mcq-02": "「實際居住、使用或控制房間、建築物、土地等」與本句語境不同。",
-        "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。",
-        "occupy-mcq-04": "「擔任某職位，或在排名／結構中佔據某位置」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。"
+        "occupy-mcq-01": "本句的「occupies」指「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "occupy-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-01"
     },
@@ -418,11 +406,9 @@ export default {
       "masked": "The family ____ the top floor.",
       "options": [
         "occupy-mcq-02",
-        "occupy-mcq-01",
-        "occupy-mcq-03",
-        "occupy-mcq-04",
-        "occupy-mcq-05",
-        "occupy-mcq-06"
+        "occupy-mcq-07",
+        "occupy-mcq-06",
+        "occupy-mcq-03"
       ],
       "explanation": "本句的「occupies」指「實際居住、使用或控制房間、建築物、土地等」。",
       "sentenceIndex": 3,
@@ -431,12 +417,10 @@ export default {
         "occupies"
       ],
       "optionReasons": {
-        "occupy-mcq-02": "本句指「實際居住、使用或控制房間、建築物、土地等」。",
-        "occupy-mcq-01": "「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」與本句語境不同。",
-        "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。",
-        "occupy-mcq-04": "「擔任某職位，或在排名／結構中佔據某位置」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。"
+        "occupy-mcq-02": "本句的「occupies」指「實際居住、使用或控制房間、建築物、土地等」。",
+        "occupy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-02"
     },
@@ -448,11 +432,9 @@ export default {
       "masked": "The office is currently ____ by another company.",
       "options": [
         "occupy-mcq-02",
-        "occupy-mcq-01",
+        "occupy-mcq-06",
         "occupy-mcq-03",
-        "occupy-mcq-04",
-        "occupy-mcq-05",
-        "occupy-mcq-06"
+        "occupy-mcq-07"
       ],
       "explanation": "本句的「occupied」指「實際居住、使用或控制房間、建築物、土地等」。",
       "sentenceIndex": 4,
@@ -461,12 +443,10 @@ export default {
         "occupied"
       ],
       "optionReasons": {
-        "occupy-mcq-02": "本句指「實際居住、使用或控制房間、建築物、土地等」。",
-        "occupy-mcq-01": "「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」與本句語境不同。",
-        "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。",
-        "occupy-mcq-04": "「擔任某職位，或在排名／結構中佔據某位置」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。"
+        "occupy-mcq-02": "本句的「occupied」指「實際居住、使用或控制房間、建築物、土地等」。",
+        "occupy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-02"
     },
@@ -478,11 +458,9 @@ export default {
       "masked": "I’m sorry, this seat is ____.",
       "options": [
         "occupy-mcq-03",
-        "occupy-mcq-02",
-        "occupy-mcq-04",
-        "occupy-mcq-01",
-        "occupy-mcq-05",
-        "occupy-mcq-06"
+        "occupy-pdf-002",
+        "occupy-pdf-001",
+        "occupy-mcq-09"
       ],
       "explanation": "本句的「occupied」指「目前已有人使用／已被佔用的」。",
       "sentenceIndex": 5,
@@ -491,12 +469,10 @@ export default {
         "occupied"
       ],
       "optionReasons": {
-        "occupy-mcq-03": "本句指「目前已有人使用／已被佔用的」。",
-        "occupy-mcq-02": "「實際居住、使用或控制房間、建築物、土地等」與本句語境不同。",
-        "occupy-mcq-04": "「擔任某職位，或在排名／結構中佔據某位置」與本句語境不同。",
-        "occupy-mcq-01": "「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。"
+        "occupy-mcq-03": "本句的「occupied」指「目前已有人使用／已被佔用的」。",
+        "occupy-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "occupy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-03"
     },
@@ -508,11 +484,9 @@ export default {
       "masked": "All the tables were ____.",
       "options": [
         "occupy-mcq-03",
-        "occupy-mcq-02",
-        "occupy-mcq-04",
-        "occupy-mcq-01",
-        "occupy-mcq-05",
-        "occupy-mcq-06"
+        "occupy-pdf-002",
+        "occupy-mcq-09",
+        "occupy-mcq-07"
       ],
       "explanation": "本句的「occupied」指「目前已有人使用／已被佔用的」。",
       "sentenceIndex": 6,
@@ -521,12 +495,10 @@ export default {
         "occupied"
       ],
       "optionReasons": {
-        "occupy-mcq-03": "本句指「目前已有人使用／已被佔用的」。",
-        "occupy-mcq-02": "「實際居住、使用或控制房間、建築物、土地等」與本句語境不同。",
-        "occupy-mcq-04": "「擔任某職位，或在排名／結構中佔據某位置」與本句語境不同。",
-        "occupy-mcq-01": "「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。"
+        "occupy-mcq-03": "本句的「occupied」指「目前已有人使用／已被佔用的」。",
+        "occupy-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-03"
     },
@@ -538,11 +510,9 @@ export default {
       "masked": "She ____ a senior position in the company.",
       "options": [
         "occupy-mcq-04",
-        "occupy-mcq-03",
-        "occupy-mcq-05",
+        "occupy-mcq-07",
         "occupy-mcq-02",
-        "occupy-mcq-06",
-        "occupy-mcq-01"
+        "occupy-mcq-09"
       ],
       "explanation": "本句的「occupies」指「擔任某職位，或在排名／結構中佔據某位置」。",
       "sentenceIndex": 7,
@@ -551,12 +521,10 @@ export default {
         "occupies"
       ],
       "optionReasons": {
-        "occupy-mcq-04": "本句指「擔任某職位，或在排名／結構中佔據某位置」。",
-        "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-02": "「實際居住、使用或控制房間、建築物、土地等」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
-        "occupy-mcq-01": "「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」與本句語境不同。"
+        "occupy-mcq-04": "本句的「occupies」指「擔任某職位，或在排名／結構中佔據某位置」。",
+        "occupy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-04"
     },
@@ -568,11 +536,9 @@ export default {
       "masked": "He ____ the post for five years.",
       "options": [
         "occupy-mcq-04",
-        "occupy-mcq-03",
-        "occupy-mcq-05",
+        "occupy-mcq-07",
         "occupy-mcq-02",
-        "occupy-mcq-06",
-        "occupy-mcq-01"
+        "occupy-mcq-09"
       ],
       "explanation": "本句的「occupied」指「擔任某職位，或在排名／結構中佔據某位置」。",
       "sentenceIndex": 8,
@@ -581,12 +547,10 @@ export default {
         "occupied"
       ],
       "optionReasons": {
-        "occupy-mcq-04": "本句指「擔任某職位，或在排名／結構中佔據某位置」。",
-        "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-02": "「實際居住、使用或控制房間、建築物、土地等」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
-        "occupy-mcq-01": "「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」與本句語境不同。"
+        "occupy-mcq-04": "本句的「occupied」指「擔任某職位，或在排名／結構中佔據某位置」。",
+        "occupy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-04"
     },
@@ -598,11 +562,8 @@ export default {
       "masked": "The company ____ third place in the market.",
       "options": [
         "occupy-pdf-001",
-        "occupy-mcq-03",
-        "occupy-mcq-05",
-        "occupy-mcq-02",
-        "occupy-mcq-06",
-        "occupy-mcq-01"
+        "occupy-mcq-11",
+        "occupy-mcq-06"
       ],
       "explanation": "本句的「occupies」指「在某個順序、結構或抽象空間中處於某個位置」。",
       "sentenceIndex": 9,
@@ -611,12 +572,9 @@ export default {
         "occupies"
       ],
       "optionReasons": {
-        "occupy-pdf-001": "本句指「在某個順序、結構或抽象空間中處於某個位置」。",
-        "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-02": "「實際居住、使用或控制房間、建築物、土地等」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
-        "occupy-mcq-01": "「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」與本句語境不同。"
+        "occupy-pdf-001": "本句的「occupies」指「在某個順序、結構或抽象空間中處於某個位置」。",
+        "occupy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-pdf-001"
     },
@@ -629,10 +587,8 @@ export default {
       "options": [
         "occupy-pdf-001",
         "occupy-mcq-03",
-        "occupy-mcq-05",
-        "occupy-mcq-02",
         "occupy-mcq-06",
-        "occupy-mcq-01"
+        "occupy-mcq-09"
       ],
       "explanation": "本句的「occupies」指「在某個順序、結構或抽象空間中處於某個位置」。",
       "sentenceIndex": 10,
@@ -641,12 +597,10 @@ export default {
         "occupies"
       ],
       "optionReasons": {
-        "occupy-pdf-001": "本句指「在某個順序、結構或抽象空間中處於某個位置」。",
-        "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-02": "「實際居住、使用或控制房間、建築物、土地等」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
-        "occupy-mcq-01": "「使用、填滿或佔去某個位置／空間，使其他人難以同時使用」與本句語境不同。"
+        "occupy-pdf-001": "本句的「occupies」指「在某個順序、結構或抽象空間中處於某個位置」。",
+        "occupy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-pdf-001"
     },
@@ -658,11 +612,9 @@ export default {
       "masked": "The task ____ most of my afternoon.",
       "options": [
         "occupy-mcq-05",
-        "occupy-mcq-04",
-        "occupy-mcq-06",
-        "occupy-mcq-03",
-        "occupy-mcq-07",
-        "occupy-mcq-02"
+        "occupy-pdf-002",
+        "occupy-mcq-09",
+        "occupy-mcq-04"
       ],
       "explanation": "本句的「occupied」指「佔用某人的時間／使某人保持忙碌」。",
       "sentenceIndex": 11,
@@ -671,12 +623,10 @@ export default {
         "occupied"
       ],
       "optionReasons": {
-        "occupy-mcq-05": "本句指「佔用某人的時間／使某人保持忙碌」。",
-        "occupy-mcq-04": "「擔任某職位，或在排名／結構中佔據某位置」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
-        "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。",
-        "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。",
-        "occupy-mcq-02": "「實際居住、使用或控制房間、建築物、土地等」與本句語境不同。"
+        "occupy-mcq-05": "本句的「occupied」指「佔用某人的時間／使某人保持忙碌」。",
+        "occupy-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-05"
     },
@@ -688,11 +638,9 @@ export default {
       "masked": "The children were happily ____ with a puzzle.",
       "options": [
         "occupy-mcq-05",
-        "occupy-mcq-04",
-        "occupy-mcq-06",
-        "occupy-mcq-03",
-        "occupy-mcq-07",
-        "occupy-mcq-02"
+        "occupy-mcq-10",
+        "occupy-mcq-09",
+        "occupy-mcq-07"
       ],
       "explanation": "本句的「occupied」指「佔用某人的時間／使某人保持忙碌」。",
       "sentenceIndex": 12,
@@ -701,12 +649,10 @@ export default {
         "occupied"
       ],
       "optionReasons": {
-        "occupy-mcq-05": "本句指「佔用某人的時間／使某人保持忙碌」。",
-        "occupy-mcq-04": "「擔任某職位，或在排名／結構中佔據某位置」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
-        "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。",
-        "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。",
-        "occupy-mcq-02": "「實際居住、使用或控制房間、建築物、土地等」與本句語境不同。"
+        "occupy-mcq-05": "本句的「occupied」指「佔用某人的時間／使某人保持忙碌」。",
+        "occupy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-05"
     },
@@ -718,11 +664,9 @@ export default {
       "masked": "The problem ____ her thoughts all day.",
       "options": [
         "occupy-mcq-06",
-        "occupy-mcq-05",
-        "occupy-mcq-07",
-        "occupy-mcq-04",
-        "occupy-mcq-08",
-        "occupy-mcq-03"
+        "occupy-pdf-002",
+        "occupy-pdf-001",
+        "occupy-mcq-09"
       ],
       "explanation": "本句的「occupied」指「持續佔據某人的思緒或注意力」。",
       "sentenceIndex": 15,
@@ -731,12 +675,10 @@ export default {
         "occupied"
       ],
       "optionReasons": {
-        "occupy-mcq-06": "本句指「持續佔據某人的思緒或注意力」。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。",
-        "occupy-mcq-04": "「擔任某職位，或在排名／結構中佔據某位置」與本句語境不同。",
-        "occupy-mcq-08": "「進駐並控制某個地區、城市、建築等；佔領／佔據」與本句語境不同。",
-        "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。"
+        "occupy-mcq-06": "本句的「occupied」指「持續佔據某人的思緒或注意力」。",
+        "occupy-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "occupy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-06"
     },
@@ -748,11 +690,9 @@ export default {
       "masked": "The question continued to ____ his mind.",
       "options": [
         "occupy-mcq-06",
-        "occupy-mcq-05",
+        "occupy-mcq-02",
         "occupy-mcq-07",
-        "occupy-mcq-04",
-        "occupy-mcq-08",
-        "occupy-mcq-03"
+        "occupy-mcq-09"
       ],
       "explanation": "本句的「occupy」指「持續佔據某人的思緒或注意力」。",
       "sentenceIndex": 16,
@@ -761,12 +701,10 @@ export default {
         "occupy"
       ],
       "optionReasons": {
-        "occupy-mcq-06": "本句指「持續佔據某人的思緒或注意力」。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。",
-        "occupy-mcq-04": "「擔任某職位，或在排名／結構中佔據某位置」與本句語境不同。",
-        "occupy-mcq-08": "「進駐並控制某個地區、城市、建築等；佔領／佔據」與本句語境不同。",
-        "occupy-mcq-03": "「目前已有人使用／已被佔用的」與本句語境不同。"
+        "occupy-mcq-06": "本句的「occupy」指「持續佔據某人的思緒或注意力」。",
+        "occupy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-06"
     },
@@ -779,10 +717,8 @@ export default {
       "options": [
         "occupy-mcq-07",
         "occupy-mcq-06",
-        "occupy-mcq-08",
-        "occupy-mcq-05",
-        "occupy-mcq-09",
-        "occupy-mcq-04"
+        "occupy-mcq-10",
+        "occupy-mcq-09"
       ],
       "explanation": "本句的「occupied」指「正忙於某項活動、沒有空閒的」。",
       "sentenceIndex": 17,
@@ -791,12 +727,10 @@ export default {
         "occupied"
       ],
       "optionReasons": {
-        "occupy-mcq-07": "本句指「正忙於某項活動、沒有空閒的」。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
-        "occupy-mcq-08": "「進駐並控制某個地區、城市、建築等；佔領／佔據」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-09": "「使用／入住狀態；亦可指入住率、使用率」與本句語境不同。",
-        "occupy-mcq-04": "「擔任某職位，或在排名／結構中佔據某位置」與本句語境不同。"
+        "occupy-mcq-07": "本句的「occupied」指「正忙於某項活動、沒有空閒的」。",
+        "occupy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-07"
     },
@@ -808,11 +742,9 @@ export default {
       "masked": "Keep the children ____ during the journey.",
       "options": [
         "occupy-mcq-07",
-        "occupy-mcq-06",
-        "occupy-mcq-08",
-        "occupy-mcq-05",
-        "occupy-mcq-09",
-        "occupy-mcq-04"
+        "occupy-mcq-03",
+        "occupy-mcq-04",
+        "occupy-pdf-002"
       ],
       "explanation": "本句的「occupied」指「正忙於某項活動、沒有空閒的」。",
       "sentenceIndex": 18,
@@ -821,12 +753,10 @@ export default {
         "occupied"
       ],
       "optionReasons": {
-        "occupy-mcq-07": "本句指「正忙於某項活動、沒有空閒的」。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
-        "occupy-mcq-08": "「進駐並控制某個地區、城市、建築等；佔領／佔據」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。",
-        "occupy-mcq-09": "「使用／入住狀態；亦可指入住率、使用率」與本句語境不同。",
-        "occupy-mcq-04": "「擔任某職位，或在排名／結構中佔據某位置」與本句語境不同。"
+        "occupy-mcq-07": "本句的「occupied」指「正忙於某項活動、沒有空閒的」。",
+        "occupy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "occupy-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-07"
     },
@@ -838,11 +768,9 @@ export default {
       "masked": "The army ____ the city.",
       "options": [
         "occupy-pdf-002",
-        "occupy-mcq-07",
-        "occupy-mcq-09",
         "occupy-mcq-06",
-        "occupy-mcq-10",
-        "occupy-mcq-05"
+        "occupy-pdf-001",
+        "occupy-mcq-03"
       ],
       "explanation": "本句的「occupied」指「進入某地並實際控制該地，通常帶有軍事或強制性」。",
       "sentenceIndex": 19,
@@ -851,12 +779,10 @@ export default {
         "occupied"
       ],
       "optionReasons": {
-        "occupy-pdf-002": "本句指「進入某地並實際控制該地，通常帶有軍事或強制性」。",
-        "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。",
-        "occupy-mcq-09": "「使用／入住狀態；亦可指入住率、使用率」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
-        "occupy-mcq-10": "「實際身處、居住或使用某場所的人」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。"
+        "occupy-pdf-002": "本句的「occupied」指「進入某地並實際控制該地，通常帶有軍事或強制性」。",
+        "occupy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "occupy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-pdf-002"
     },
@@ -868,11 +794,9 @@ export default {
       "masked": "The territory remained ____ for several years.",
       "options": [
         "occupy-pdf-002",
-        "occupy-mcq-07",
-        "occupy-mcq-09",
-        "occupy-mcq-06",
-        "occupy-mcq-10",
-        "occupy-mcq-05"
+        "occupy-mcq-01",
+        "occupy-mcq-03",
+        "occupy-mcq-09"
       ],
       "explanation": "本句的「occupied」指「進入某地並實際控制該地，通常帶有軍事或強制性」。",
       "sentenceIndex": 20,
@@ -881,12 +805,10 @@ export default {
         "occupied"
       ],
       "optionReasons": {
-        "occupy-pdf-002": "本句指「進入某地並實際控制該地，通常帶有軍事或強制性」。",
-        "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。",
-        "occupy-mcq-09": "「使用／入住狀態；亦可指入住率、使用率」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
-        "occupy-mcq-10": "「實際身處、居住或使用某場所的人」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。"
+        "occupy-pdf-002": "本句的「occupied」指「進入某地並實際控制該地，通常帶有軍事或強制性」。",
+        "occupy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-pdf-002"
     },
@@ -898,11 +820,9 @@ export default {
       "masked": "Protesters ____ the building overnight.",
       "options": [
         "occupy-mcq-08",
-        "occupy-mcq-07",
         "occupy-mcq-09",
-        "occupy-mcq-06",
-        "occupy-mcq-10",
-        "occupy-mcq-05"
+        "occupy-mcq-07",
+        "occupy-mcq-03"
       ],
       "explanation": "本句的「occupied」指「進駐並控制某個地區、城市、建築等；佔領／佔據」。",
       "sentenceIndex": 21,
@@ -911,12 +831,10 @@ export default {
         "occupied"
       ],
       "optionReasons": {
-        "occupy-mcq-08": "本句指「進駐並控制某個地區、城市、建築等；佔領／佔據」。",
-        "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。",
-        "occupy-mcq-09": "「使用／入住狀態；亦可指入住率、使用率」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
-        "occupy-mcq-10": "「實際身處、居住或使用某場所的人」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。"
+        "occupy-mcq-08": "本句的「occupied」指「進駐並控制某個地區、城市、建築等；佔領／佔據」。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-08"
     },
@@ -928,10 +846,8 @@ export default {
       "masked": "Students ____ the hall in protest.",
       "options": [
         "occupy-mcq-08",
-        "occupy-mcq-07",
         "occupy-mcq-09",
-        "occupy-mcq-06",
-        "occupy-mcq-10",
+        "occupy-mcq-07",
         "occupy-mcq-05"
       ],
       "explanation": "本句的「occupied」指「進駐並控制某個地區、城市、建築等；佔領／佔據」。",
@@ -941,12 +857,10 @@ export default {
         "occupied"
       ],
       "optionReasons": {
-        "occupy-mcq-08": "本句指「進駐並控制某個地區、城市、建築等；佔領／佔據」。",
-        "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。",
-        "occupy-mcq-09": "「使用／入住狀態；亦可指入住率、使用率」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。",
-        "occupy-mcq-10": "「實際身處、居住或使用某場所的人」與本句語境不同。",
-        "occupy-mcq-05": "「佔用某人的時間／使某人保持忙碌」與本句語境不同。"
+        "occupy-mcq-08": "本句的「occupied」指「進駐並控制某個地區、城市、建築等；佔領／佔據」。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-08"
     },
@@ -958,11 +872,9 @@ export default {
       "masked": "The tenant has the right to ____ the property.",
       "options": [
         "occupy-mcq-10",
-        "occupy-mcq-09",
-        "occupy-mcq-11",
-        "occupy-mcq-08",
-        "occupy-mcq-12",
-        "occupy-mcq-07"
+        "occupy-mcq-05",
+        "occupy-mcq-07",
+        "occupy-mcq-09"
       ],
       "explanation": "本句的「occupy」指「實際身處、居住或使用某場所的人」。",
       "sentenceIndex": 23,
@@ -971,12 +883,10 @@ export default {
         "occupy"
       ],
       "optionReasons": {
-        "occupy-mcq-10": "本句指「實際身處、居住或使用某場所的人」。",
-        "occupy-mcq-09": "「使用／入住狀態；亦可指入住率、使用率」與本句語境不同。",
-        "occupy-mcq-11": "「實際佔用土地／物業者；亦可指佔領者」與本句語境不同。",
-        "occupy-mcq-08": "「進駐並控制某個地區、城市、建築等；佔領／佔據」與本句語境不同。",
-        "occupy-mcq-12": "「職業；活動；佔領；物業佔用等，已形成獨立多義網絡」與本句語境不同。",
-        "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。"
+        "occupy-mcq-10": "本句的「occupy」指「實際身處、居住或使用某場所的人」。",
+        "occupy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-10"
     },
@@ -988,11 +898,9 @@ export default {
       "masked": "The premises are ____ for commercial purposes.",
       "options": [
         "occupy-mcq-10",
-        "occupy-mcq-09",
-        "occupy-mcq-11",
-        "occupy-mcq-08",
-        "occupy-mcq-12",
-        "occupy-mcq-07"
+        "occupy-mcq-05",
+        "occupy-mcq-07",
+        "occupy-mcq-09"
       ],
       "explanation": "本句的「occupied」指「實際身處、居住或使用某場所的人」。",
       "sentenceIndex": 24,
@@ -1001,12 +909,10 @@ export default {
         "occupied"
       ],
       "optionReasons": {
-        "occupy-mcq-10": "本句指「實際身處、居住或使用某場所的人」。",
-        "occupy-mcq-09": "「使用／入住狀態；亦可指入住率、使用率」與本句語境不同。",
-        "occupy-mcq-11": "「實際佔用土地／物業者；亦可指佔領者」與本句語境不同。",
-        "occupy-mcq-08": "「進駐並控制某個地區、城市、建築等；佔領／佔據」與本句語境不同。",
-        "occupy-mcq-12": "「職業；活動；佔領；物業佔用等，已形成獨立多義網絡」與本句語境不同。",
-        "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。"
+        "occupy-mcq-10": "本句的「occupied」指「實際身處、居住或使用某場所的人」。",
+        "occupy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-10"
     },
@@ -1018,11 +924,9 @@ export default {
       "masked": "The building is ready for ____.",
       "options": [
         "occupy-mcq-09",
-        "occupy-mcq-08",
-        "occupy-mcq-10",
-        "occupy-mcq-07",
-        "occupy-mcq-11",
-        "occupy-mcq-06"
+        "occupy-mcq-06",
+        "occupy-pdf-001",
+        "occupy-mcq-03"
       ],
       "explanation": "本句的「occupancy」指「使用／入住狀態；亦可指入住率、使用率」。",
       "sentenceIndex": 25,
@@ -1031,12 +935,10 @@ export default {
         "occupancy"
       ],
       "optionReasons": {
-        "occupy-mcq-09": "本句指「使用／入住狀態；亦可指入住率、使用率」。",
-        "occupy-mcq-08": "「進駐並控制某個地區、城市、建築等；佔領／佔據」與本句語境不同。",
-        "occupy-mcq-10": "「實際身處、居住或使用某場所的人」與本句語境不同。",
-        "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。",
-        "occupy-mcq-11": "「實際佔用土地／物業者；亦可指佔領者」與本句語境不同。",
-        "occupy-mcq-06": "「持續佔據某人的思緒或注意力」與本句語境不同。"
+        "occupy-mcq-09": "本句的「occupancy」指「使用／入住狀態；亦可指入住率、使用率」。",
+        "occupy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "occupy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-09"
     },
@@ -1048,10 +950,8 @@ export default {
       "masked": "All the vehicle’s ____ escaped safely.",
       "options": [
         "occupy-mcq-10",
-        "occupy-mcq-09",
-        "occupy-mcq-11",
-        "occupy-mcq-08",
-        "occupy-mcq-12",
+        "occupy-mcq-03",
+        "occupy-mcq-06",
         "occupy-mcq-07"
       ],
       "explanation": "本句的「occupants」指「實際身處、居住或使用某場所的人」。",
@@ -1061,12 +961,10 @@ export default {
         "occupants"
       ],
       "optionReasons": {
-        "occupy-mcq-10": "本句指「實際身處、居住或使用某場所的人」。",
-        "occupy-mcq-09": "「使用／入住狀態；亦可指入住率、使用率」與本句語境不同。",
-        "occupy-mcq-11": "「實際佔用土地／物業者；亦可指佔領者」與本句語境不同。",
-        "occupy-mcq-08": "「進駐並控制某個地區、城市、建築等；佔領／佔據」與本句語境不同。",
-        "occupy-mcq-12": "「職業；活動；佔領；物業佔用等，已形成獨立多義網絡」與本句語境不同。",
-        "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。"
+        "occupy-mcq-10": "本句的「occupants」指「實際身處、居住或使用某場所的人」。",
+        "occupy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-10"
     },
@@ -1078,11 +976,9 @@ export default {
       "masked": "The previous ____ left last month.",
       "options": [
         "occupy-mcq-10",
-        "occupy-mcq-09",
-        "occupy-mcq-11",
-        "occupy-mcq-08",
-        "occupy-mcq-12",
-        "occupy-mcq-07"
+        "occupy-mcq-03",
+        "occupy-mcq-07",
+        "occupy-mcq-06"
       ],
       "explanation": "本句的「occupant」指「實際身處、居住或使用某場所的人」。",
       "sentenceIndex": 27,
@@ -1091,12 +987,10 @@ export default {
         "occupant"
       ],
       "optionReasons": {
-        "occupy-mcq-10": "本句指「實際身處、居住或使用某場所的人」。",
-        "occupy-mcq-09": "「使用／入住狀態；亦可指入住率、使用率」與本句語境不同。",
-        "occupy-mcq-11": "「實際佔用土地／物業者；亦可指佔領者」與本句語境不同。",
-        "occupy-mcq-08": "「進駐並控制某個地區、城市、建築等；佔領／佔據」與本句語境不同。",
-        "occupy-mcq-12": "「職業；活動；佔領；物業佔用等，已形成獨立多義網絡」與本句語境不同。",
-        "occupy-mcq-07": "「正忙於某項活動、沒有空閒的」與本句語境不同。"
+        "occupy-mcq-10": "本句的「occupant」指「實際身處、居住或使用某場所的人」。",
+        "occupy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-10"
     },
@@ -1108,11 +1002,8 @@ export default {
       "masked": "The ____ is responsible for maintaining the premises.",
       "options": [
         "occupy-mcq-11",
-        "occupy-mcq-10",
-        "occupy-mcq-12",
-        "occupy-mcq-09",
-        "occupy-mcq-13",
-        "occupy-mcq-08"
+        "occupy-mcq-07",
+        "occupy-mcq-04"
       ],
       "explanation": "本句的「occupier」指「實際佔用土地／物業者；亦可指佔領者」。",
       "sentenceIndex": 28,
@@ -1121,12 +1012,9 @@ export default {
         "occupier"
       ],
       "optionReasons": {
-        "occupy-mcq-11": "本句指「實際佔用土地／物業者；亦可指佔領者」。",
-        "occupy-mcq-10": "「實際身處、居住或使用某場所的人」與本句語境不同。",
-        "occupy-mcq-12": "「職業；活動；佔領；物業佔用等，已形成獨立多義網絡」與本句語境不同。",
-        "occupy-mcq-09": "「使用／入住狀態；亦可指入住率、使用率」與本句語境不同。",
-        "occupy-mcq-13": "「與工作／職業有關的」與本句語境不同。",
-        "occupy-mcq-08": "「進駐並控制某個地區、城市、建築等；佔領／佔據」與本句語境不同。"
+        "occupy-mcq-11": "本句的「occupier」指「實際佔用土地／物業者；亦可指佔領者」。",
+        "occupy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "occupy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "occupy-mcq-11"
     }
@@ -1138,5 +1026,7 @@ export default {
     "sha256": "1cf7c9271e51427db993c5fc9c308f6cc4bc8c3f391e388b0527cd05920c35c0",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

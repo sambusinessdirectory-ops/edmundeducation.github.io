@@ -502,11 +502,9 @@ export default {
       "masked": "The car was left in a dangerous ____.",
       "options": [
         "position-mcq-01",
-        "position-mcq-02",
-        "position-mcq-03",
-        "position-mcq-04",
         "position-mcq-05",
-        "position-mcq-06"
+        "position-mcq-13",
+        "position-mcq-08"
       ],
       "explanation": "本句的「position」指「某人／某物在空間中的所在位置」。",
       "sentenceIndex": 0,
@@ -515,12 +513,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-01": "本句指「某人／某物在空間中的所在位置」。",
-        "position-mcq-02": "「身體或身體部位的姿勢／排列方式」與本句語境不同。",
-        "position-mcq-03": "「組織中的正式工作職位」與本句語境不同。",
-        "position-mcq-04": "「在社會／組織／權力階層中的地位」與本句語境不同。",
-        "position-mcq-05": "「對一項議題所持的正式或明確立場」與本句語境不同。",
-        "position-mcq-06": "「某人在特定條件下所處的處境」與本句語境不同。"
+        "position-mcq-01": "本句的「position」指「某人／某物在空間中的所在位置」。",
+        "position-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-01"
     },
@@ -532,11 +528,9 @@ export default {
       "masked": "Please mark the exact ____ of the charger on the map.",
       "options": [
         "position-mcq-01",
-        "position-mcq-02",
-        "position-mcq-03",
-        "position-mcq-04",
-        "position-mcq-05",
-        "position-mcq-06"
+        "position-mcq-13",
+        "position-mcq-08",
+        "position-mcq-05"
       ],
       "explanation": "本句的「position」指「某人／某物在空間中的所在位置」。",
       "sentenceIndex": 1,
@@ -545,12 +539,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-01": "本句指「某人／某物在空間中的所在位置」。",
-        "position-mcq-02": "「身體或身體部位的姿勢／排列方式」與本句語境不同。",
-        "position-mcq-03": "「組織中的正式工作職位」與本句語境不同。",
-        "position-mcq-04": "「在社會／組織／權力階層中的地位」與本句語境不同。",
-        "position-mcq-05": "「對一項議題所持的正式或明確立場」與本句語境不同。",
-        "position-mcq-06": "「某人在特定條件下所處的處境」與本句語境不同。"
+        "position-mcq-01": "本句的「position」指「某人／某物在空間中的所在位置」。",
+        "position-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-01"
     },
@@ -562,11 +554,9 @@ export default {
       "masked": "The building’s ____ near the station makes it convenient.",
       "options": [
         "position-mcq-01",
-        "position-mcq-02",
-        "position-mcq-03",
-        "position-mcq-04",
+        "position-mcq-18",
         "position-mcq-05",
-        "position-mcq-06"
+        "position-mcq-08"
       ],
       "explanation": "本句的「position」指「某人／某物在空間中的所在位置」。",
       "sentenceIndex": 2,
@@ -575,12 +565,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-01": "本句指「某人／某物在空間中的所在位置」。",
-        "position-mcq-02": "「身體或身體部位的姿勢／排列方式」與本句語境不同。",
-        "position-mcq-03": "「組織中的正式工作職位」與本句語境不同。",
-        "position-mcq-04": "「在社會／組織／權力階層中的地位」與本句語境不同。",
-        "position-mcq-05": "「對一項議題所持的正式或明確立場」與本句語境不同。",
-        "position-mcq-06": "「某人在特定條件下所處的處境」與本句語境不同。"
+        "position-mcq-01": "本句的「position」指「某人／某物在空間中的所在位置」。",
+        "position-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-01"
     },
@@ -592,11 +580,9 @@ export default {
       "masked": "The sensor detects the ____ of the wheel.",
       "options": [
         "position-mcq-01",
-        "position-mcq-02",
-        "position-mcq-03",
-        "position-mcq-04",
-        "position-mcq-05",
-        "position-mcq-06"
+        "position-mcq-13",
+        "position-mcq-08",
+        "position-mcq-05"
       ],
       "explanation": "本句的「position」指「某人／某物在空間中的所在位置」。",
       "sentenceIndex": 3,
@@ -605,12 +591,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-01": "本句指「某人／某物在空間中的所在位置」。",
-        "position-mcq-02": "「身體或身體部位的姿勢／排列方式」與本句語境不同。",
-        "position-mcq-03": "「組織中的正式工作職位」與本句語境不同。",
-        "position-mcq-04": "「在社會／組織／權力階層中的地位」與本句語境不同。",
-        "position-mcq-05": "「對一項議題所持的正式或明確立場」與本句語境不同。",
-        "position-mcq-06": "「某人在特定條件下所處的處境」與本句語境不同。"
+        "position-mcq-01": "本句的「position」指「某人／某物在空間中的所在位置」。",
+        "position-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-01"
     },
@@ -622,11 +606,9 @@ export default {
       "masked": "She holds a powerful ____ in the organization.",
       "options": [
         "position-mcq-04",
-        "position-mcq-03",
         "position-mcq-05",
-        "position-mcq-02",
-        "position-mcq-06",
-        "position-mcq-01"
+        "position-mcq-13",
+        "position-mcq-08"
       ],
       "explanation": "本句的「position」指「在社會／組織／權力階層中的地位」。",
       "sentenceIndex": 16,
@@ -635,12 +617,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-04": "本句指「在社會／組織／權力階層中的地位」。",
-        "position-mcq-03": "「組織中的正式工作職位」與本句語境不同。",
-        "position-mcq-05": "「對一項議題所持的正式或明確立場」與本句語境不同。",
-        "position-mcq-02": "「身體或身體部位的姿勢／排列方式」與本句語境不同。",
-        "position-mcq-06": "「某人在特定條件下所處的處境」與本句語境不同。",
-        "position-mcq-01": "「某人／某物在空間中的所在位置」與本句語境不同。"
+        "position-mcq-04": "本句的「position」指「在社會／組織／權力階層中的地位」。",
+        "position-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-04"
     },
@@ -652,11 +632,9 @@ export default {
       "masked": "His social ____ gave him access to influential people.",
       "options": [
         "position-mcq-04",
-        "position-mcq-03",
-        "position-mcq-05",
-        "position-mcq-02",
-        "position-mcq-06",
-        "position-mcq-01"
+        "position-mcq-13",
+        "position-mcq-11",
+        "position-mcq-05"
       ],
       "explanation": "本句的「position」指「在社會／組織／權力階層中的地位」。",
       "sentenceIndex": 17,
@@ -665,12 +643,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-04": "本句指「在社會／組織／權力階層中的地位」。",
-        "position-mcq-03": "「組織中的正式工作職位」與本句語境不同。",
-        "position-mcq-05": "「對一項議題所持的正式或明確立場」與本句語境不同。",
-        "position-mcq-02": "「身體或身體部位的姿勢／排列方式」與本句語境不同。",
-        "position-mcq-06": "「某人在特定條件下所處的處境」與本句語境不同。",
-        "position-mcq-01": "「某人／某物在空間中的所在位置」與本句語境不同。"
+        "position-mcq-04": "本句的「position」指「在社會／組織／權力階層中的地位」。",
+        "position-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-04"
     },
@@ -682,11 +658,9 @@ export default {
       "masked": "The company clarified its ____ on electric vehicles.",
       "options": [
         "position-mcq-05",
-        "position-mcq-04",
-        "position-mcq-06",
-        "position-mcq-03",
         "position-mcq-07",
-        "position-mcq-02"
+        "position-mcq-11",
+        "position-mcq-08"
       ],
       "explanation": "本句的「position」指「對一項議題所持的正式或明確立場」。",
       "sentenceIndex": 20,
@@ -695,12 +669,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-05": "本句指「對一項議題所持的正式或明確立場」。",
-        "position-mcq-04": "「在社會／組織／權力階層中的地位」與本句語境不同。",
-        "position-mcq-06": "「某人在特定條件下所處的處境」與本句語境不同。",
-        "position-mcq-03": "「組織中的正式工作職位」與本句語境不同。",
-        "position-mcq-07": "「某人／公司的整體財務狀況」與本句語境不同。",
-        "position-mcq-02": "「身體或身體部位的姿勢／排列方式」與本句語境不同。"
+        "position-mcq-05": "本句的「position」指「對一項議題所持的正式或明確立場」。",
+        "position-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-05"
     },
@@ -712,11 +684,9 @@ export default {
       "masked": "What is your ____ on the proposal?",
       "options": [
         "position-mcq-05",
-        "position-mcq-04",
-        "position-mcq-06",
-        "position-mcq-03",
-        "position-mcq-07",
-        "position-mcq-02"
+        "position-mcq-11",
+        "position-mcq-02",
+        "position-mcq-07"
       ],
       "explanation": "本句的「position」指「對一項議題所持的正式或明確立場」。",
       "sentenceIndex": 21,
@@ -725,12 +695,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-05": "本句指「對一項議題所持的正式或明確立場」。",
-        "position-mcq-04": "「在社會／組織／權力階層中的地位」與本句語境不同。",
-        "position-mcq-06": "「某人在特定條件下所處的處境」與本句語境不同。",
-        "position-mcq-03": "「組織中的正式工作職位」與本句語境不同。",
-        "position-mcq-07": "「某人／公司的整體財務狀況」與本句語境不同。",
-        "position-mcq-02": "「身體或身體部位的姿勢／排列方式」與本句語境不同。"
+        "position-mcq-05": "本句的「position」指「對一項議題所持的正式或明確立場」。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-05"
     },
@@ -742,11 +710,9 @@ export default {
       "masked": "The company is in a difficult financial ____.",
       "options": [
         "position-mcq-06",
-        "position-mcq-05",
-        "position-mcq-07",
-        "position-mcq-04",
-        "position-mcq-08",
-        "position-mcq-03"
+        "position-mcq-13",
+        "position-mcq-11",
+        "position-mcq-08"
       ],
       "explanation": "本句的「position」指「某人在特定條件下所處的處境」。",
       "sentenceIndex": 28,
@@ -755,12 +721,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-06": "本句指「某人在特定條件下所處的處境」。",
-        "position-mcq-05": "「對一項議題所持的正式或明確立場」與本句語境不同。",
-        "position-mcq-07": "「某人／公司的整體財務狀況」與本句語境不同。",
-        "position-mcq-04": "「在社會／組織／權力階層中的地位」與本句語境不同。",
-        "position-mcq-08": "「在談判中擁有的相對優勢／弱勢」與本句語境不同。",
-        "position-mcq-03": "「組織中的正式工作職位」與本句語境不同。"
+        "position-mcq-06": "本句的「position」指「某人在特定條件下所處的處境」。",
+        "position-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-06"
     },
@@ -772,11 +736,9 @@ export default {
       "masked": "I understand the ____ you are in.",
       "options": [
         "position-mcq-06",
-        "position-mcq-05",
-        "position-mcq-07",
-        "position-mcq-04",
-        "position-mcq-08",
-        "position-mcq-03"
+        "position-mcq-18",
+        "position-mcq-11",
+        "position-mcq-20"
       ],
       "explanation": "本句的「position」指「某人在特定條件下所處的處境」。",
       "sentenceIndex": 29,
@@ -785,12 +747,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-06": "本句指「某人在特定條件下所處的處境」。",
-        "position-mcq-05": "「對一項議題所持的正式或明確立場」與本句語境不同。",
-        "position-mcq-07": "「某人／公司的整體財務狀況」與本句語境不同。",
-        "position-mcq-04": "「在社會／組織／權力階層中的地位」與本句語境不同。",
-        "position-mcq-08": "「在談判中擁有的相對優勢／弱勢」與本句語境不同。",
-        "position-mcq-03": "「組織中的正式工作職位」與本句語境不同。"
+        "position-mcq-06": "本句的「position」指「某人在特定條件下所處的處境」。",
+        "position-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-06"
     },
@@ -802,11 +762,9 @@ export default {
       "masked": "The company’s financial ____ improved.",
       "options": [
         "position-mcq-07",
-        "position-mcq-06",
-        "position-mcq-08",
-        "position-mcq-05",
-        "position-mcq-09",
-        "position-mcq-04"
+        "position-mcq-20",
+        "position-mcq-17",
+        "position-mcq-11"
       ],
       "explanation": "本句的「position」指「某人／公司的整體財務狀況」。",
       "sentenceIndex": 30,
@@ -815,12 +773,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-07": "本句指「某人／公司的整體財務狀況」。",
-        "position-mcq-06": "「某人在特定條件下所處的處境」與本句語境不同。",
-        "position-mcq-08": "「在談判中擁有的相對優勢／弱勢」與本句語境不同。",
-        "position-mcq-05": "「對一項議題所持的正式或明確立場」與本句語境不同。",
-        "position-mcq-09": "「在比賽、名單或順序中的名次」與本句語境不同。",
-        "position-mcq-04": "「在社會／組織／權力階層中的地位」與本句語境不同。"
+        "position-mcq-07": "本句的「position」指「某人／公司的整體財務狀況」。",
+        "position-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-07"
     },
@@ -832,11 +788,9 @@ export default {
       "masked": "The report gives a clear picture of the firm’s financial ____.",
       "options": [
         "position-mcq-07",
-        "position-mcq-06",
         "position-mcq-08",
-        "position-mcq-05",
-        "position-mcq-09",
-        "position-mcq-04"
+        "position-mcq-10",
+        "position-mcq-18"
       ],
       "explanation": "本句的「position」指「某人／公司的整體財務狀況」。",
       "sentenceIndex": 31,
@@ -845,12 +799,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-07": "本句指「某人／公司的整體財務狀況」。",
-        "position-mcq-06": "「某人在特定條件下所處的處境」與本句語境不同。",
-        "position-mcq-08": "「在談判中擁有的相對優勢／弱勢」與本句語境不同。",
-        "position-mcq-05": "「對一項議題所持的正式或明確立場」與本句語境不同。",
-        "position-mcq-09": "「在比賽、名單或順序中的名次」與本句語境不同。",
-        "position-mcq-04": "「在社會／組織／權力階層中的地位」與本句語境不同。"
+        "position-mcq-07": "本句的「position」指「某人／公司的整體財務狀況」。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-07"
     },
@@ -863,8 +815,6 @@ export default {
       "options": [
         "position-mcq-08",
         "position-mcq-07",
-        "position-mcq-09",
-        "position-mcq-06",
         "position-mcq-10",
         "position-mcq-05"
       ],
@@ -875,12 +825,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-08": "本句指「在談判中擁有的相對優勢／弱勢」。",
-        "position-mcq-07": "「某人／公司的整體財務狀況」與本句語境不同。",
-        "position-mcq-09": "「在比賽、名單或順序中的名次」與本句語境不同。",
-        "position-mcq-06": "「某人在特定條件下所處的處境」與本句語境不同。",
-        "position-mcq-10": "「球員在場上的指定角色／位置」與本句語境不同。",
-        "position-mcq-05": "「對一項議題所持的正式或明確立場」與本句語境不同。"
+        "position-mcq-08": "本句的「position」指「在談判中擁有的相對優勢／弱勢」。",
+        "position-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-08"
     },
@@ -892,10 +840,8 @@ export default {
       "masked": "A lack of alternatives weakens your negotiating ____.",
       "options": [
         "position-mcq-08",
-        "position-mcq-07",
-        "position-mcq-09",
+        "position-mcq-21",
         "position-mcq-06",
-        "position-mcq-10",
         "position-mcq-05"
       ],
       "explanation": "本句的「position」指「在談判中擁有的相對優勢／弱勢」。",
@@ -905,12 +851,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-08": "本句指「在談判中擁有的相對優勢／弱勢」。",
-        "position-mcq-07": "「某人／公司的整體財務狀況」與本句語境不同。",
-        "position-mcq-09": "「在比賽、名單或順序中的名次」與本句語境不同。",
-        "position-mcq-06": "「某人在特定條件下所處的處境」與本句語境不同。",
-        "position-mcq-10": "「球員在場上的指定角色／位置」與本句語境不同。",
-        "position-mcq-05": "「對一項議題所持的正式或明確立場」與本句語境不同。"
+        "position-mcq-08": "本句的「position」指「在談判中擁有的相對優勢／弱勢」。",
+        "position-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-08"
     },
@@ -922,11 +866,9 @@ export default {
       "masked": "What ____ do you play?",
       "options": [
         "position-mcq-10",
-        "position-mcq-09",
-        "position-mcq-11",
         "position-mcq-08",
-        "position-mcq-12",
-        "position-mcq-07"
+        "position-mcq-07",
+        "position-mcq-18"
       ],
       "explanation": "本句的「position」指「球員在場上的指定角色／位置」。",
       "sentenceIndex": 44,
@@ -935,12 +877,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-10": "本句指「球員在場上的指定角色／位置」。",
-        "position-mcq-09": "「在比賽、名單或順序中的名次」與本句語境不同。",
-        "position-mcq-11": "「為軍事目的佔據或防守的地點／陣地」與本句語境不同。",
-        "position-mcq-08": "「在談判中擁有的相對優勢／弱勢」與本句語境不同。",
-        "position-mcq-12": "「在某金融資產上的持有／風險暴露」與本句語境不同。",
-        "position-mcq-07": "「某人／公司的整體財務狀況」與本句語境不同。"
+        "position-mcq-10": "本句的「position」指「球員在場上的指定角色／位置」。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-10"
     },
@@ -952,10 +892,8 @@ export default {
       "masked": "She changed ____ during the match.",
       "options": [
         "position-mcq-10",
-        "position-mcq-09",
-        "position-mcq-11",
+        "position-mcq-18",
         "position-mcq-08",
-        "position-mcq-12",
         "position-mcq-07"
       ],
       "explanation": "本句的「position」指「球員在場上的指定角色／位置」。",
@@ -965,12 +903,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-10": "本句指「球員在場上的指定角色／位置」。",
-        "position-mcq-09": "「在比賽、名單或順序中的名次」與本句語境不同。",
-        "position-mcq-11": "「為軍事目的佔據或防守的地點／陣地」與本句語境不同。",
-        "position-mcq-08": "「在談判中擁有的相對優勢／弱勢」與本句語境不同。",
-        "position-mcq-12": "「在某金融資產上的持有／風險暴露」與本句語境不同。",
-        "position-mcq-07": "「某人／公司的整體財務狀況」與本句語境不同。"
+        "position-mcq-10": "本句的「position」指「球員在場上的指定角色／位置」。",
+        "position-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-10"
     },
@@ -982,11 +918,9 @@ export default {
       "masked": "The soldiers defended their ____.",
       "options": [
         "position-mcq-11",
-        "position-mcq-10",
-        "position-mcq-12",
-        "position-mcq-09",
-        "position-mcq-13",
-        "position-mcq-08"
+        "position-mcq-20",
+        "position-mcq-06",
+        "position-mcq-13"
       ],
       "explanation": "本句的「position」指「為軍事目的佔據或防守的地點／陣地」。",
       "sentenceIndex": 50,
@@ -995,12 +929,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-11": "本句指「為軍事目的佔據或防守的地點／陣地」。",
-        "position-mcq-10": "「球員在場上的指定角色／位置」與本句語境不同。",
-        "position-mcq-12": "「在某金融資產上的持有／風險暴露」與本句語境不同。",
-        "position-mcq-09": "「在比賽、名單或順序中的名次」與本句語境不同。",
-        "position-mcq-13": "「預期價格上升而建立的多頭持倉」與本句語境不同。",
-        "position-mcq-08": "「在談判中擁有的相對優勢／弱勢」與本句語境不同。"
+        "position-mcq-11": "本句的「position」指「為軍事目的佔據或防守的地點／陣地」。",
+        "position-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-11"
     },
@@ -1012,11 +944,9 @@ export default {
       "masked": "The unit moved to a new defensive ____.",
       "options": [
         "position-mcq-11",
-        "position-mcq-10",
-        "position-mcq-12",
-        "position-mcq-09",
-        "position-mcq-13",
-        "position-mcq-08"
+        "position-mcq-08",
+        "position-mcq-07",
+        "position-mcq-05"
       ],
       "explanation": "本句的「position」指「為軍事目的佔據或防守的地點／陣地」。",
       "sentenceIndex": 51,
@@ -1025,12 +955,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-11": "本句指「為軍事目的佔據或防守的地點／陣地」。",
-        "position-mcq-10": "「球員在場上的指定角色／位置」與本句語境不同。",
-        "position-mcq-12": "「在某金融資產上的持有／風險暴露」與本句語境不同。",
-        "position-mcq-09": "「在比賽、名單或順序中的名次」與本句語境不同。",
-        "position-mcq-13": "「預期價格上升而建立的多頭持倉」與本句語境不同。",
-        "position-mcq-08": "「在談判中擁有的相對優勢／弱勢」與本句語境不同。"
+        "position-mcq-11": "本句的「position」指「為軍事目的佔據或防守的地點／陣地」。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-11"
     },
@@ -1042,11 +970,9 @@ export default {
       "masked": "She opened a long ____ in the stock.",
       "options": [
         "position-mcq-13",
-        "position-mcq-12",
-        "position-mcq-14",
-        "position-mcq-11",
-        "position-mcq-15",
-        "position-mcq-10"
+        "position-mcq-17",
+        "position-mcq-04",
+        "position-mcq-02"
       ],
       "explanation": "本句的「position」指「預期價格上升而建立的多頭持倉」。",
       "sentenceIndex": 58,
@@ -1055,12 +981,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-13": "本句指「預期價格上升而建立的多頭持倉」。",
-        "position-mcq-12": "「在某金融資產上的持有／風險暴露」與本句語境不同。",
-        "position-mcq-14": "「預期價格下降而建立的空頭持倉」與本句語境不同。",
-        "position-mcq-11": "「為軍事目的佔據或防守的地點／陣地」與本句語境不同。",
-        "position-mcq-15": "「產品／品牌相對競爭對手在顧客心目中的定位」與本句語境不同。",
-        "position-mcq-10": "「球員在場上的指定角色／位置」與本句語境不同。"
+        "position-mcq-13": "本句的「position」指「預期價格上升而建立的多頭持倉」。",
+        "position-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-13"
     },
@@ -1072,11 +996,9 @@ export default {
       "masked": "A long ____ benefits if the asset price rises.",
       "options": [
         "position-mcq-13",
-        "position-mcq-12",
-        "position-mcq-14",
         "position-mcq-11",
-        "position-mcq-15",
-        "position-mcq-10"
+        "position-mcq-08",
+        "position-mcq-17"
       ],
       "explanation": "本句的「position」指「預期價格上升而建立的多頭持倉」。",
       "sentenceIndex": 59,
@@ -1085,12 +1007,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-13": "本句指「預期價格上升而建立的多頭持倉」。",
-        "position-mcq-12": "「在某金融資產上的持有／風險暴露」與本句語境不同。",
-        "position-mcq-14": "「預期價格下降而建立的空頭持倉」與本句語境不同。",
-        "position-mcq-11": "「為軍事目的佔據或防守的地點／陣地」與本句語境不同。",
-        "position-mcq-15": "「產品／品牌相對競爭對手在顧客心目中的定位」與本句語境不同。",
-        "position-mcq-10": "「球員在場上的指定角色／位置」與本句語境不同。"
+        "position-mcq-13": "本句的「position」指「預期價格上升而建立的多頭持倉」。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-13"
     },
@@ -1102,11 +1022,9 @@ export default {
       "masked": "The trader opened a short ____.",
       "options": [
         "position-mcq-14",
-        "position-mcq-13",
-        "position-mcq-15",
-        "position-mcq-12",
-        "position-mcq-16",
-        "position-mcq-11"
+        "position-mcq-17",
+        "position-mcq-11",
+        "position-mcq-04"
       ],
       "explanation": "本句的「position」指「預期價格下降而建立的空頭持倉」。",
       "sentenceIndex": 60,
@@ -1115,12 +1033,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-14": "本句指「預期價格下降而建立的空頭持倉」。",
-        "position-mcq-13": "「預期價格上升而建立的多頭持倉」與本句語境不同。",
-        "position-mcq-15": "「產品／品牌相對競爭對手在顧客心目中的定位」與本句語境不同。",
-        "position-mcq-12": "「在某金融資產上的持有／風險暴露」與本句語境不同。",
-        "position-mcq-16": "「有目的地把某人／某物放在特定位置」與本句語境不同。",
-        "position-mcq-11": "「為軍事目的佔據或防守的地點／陣地」與本句語境不同。"
+        "position-mcq-14": "本句的「position」指「預期價格下降而建立的空頭持倉」。",
+        "position-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-14"
     },
@@ -1132,11 +1048,9 @@ export default {
       "masked": "A short ____ can gain value when prices fall.",
       "options": [
         "position-mcq-14",
-        "position-mcq-13",
-        "position-mcq-15",
-        "position-mcq-12",
-        "position-mcq-16",
-        "position-mcq-11"
+        "position-mcq-17",
+        "position-mcq-21",
+        "position-mcq-04"
       ],
       "explanation": "本句的「position」指「預期價格下降而建立的空頭持倉」。",
       "sentenceIndex": 61,
@@ -1145,12 +1059,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-14": "本句指「預期價格下降而建立的空頭持倉」。",
-        "position-mcq-13": "「預期價格上升而建立的多頭持倉」與本句語境不同。",
-        "position-mcq-15": "「產品／品牌相對競爭對手在顧客心目中的定位」與本句語境不同。",
-        "position-mcq-12": "「在某金融資產上的持有／風險暴露」與本句語境不同。",
-        "position-mcq-16": "「有目的地把某人／某物放在特定位置」與本句語境不同。",
-        "position-mcq-11": "「為軍事目的佔據或防守的地點／陣地」與本句語境不同。"
+        "position-mcq-14": "本句的「position」指「預期價格下降而建立的空頭持倉」。",
+        "position-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-14"
     },
@@ -1162,11 +1074,9 @@ export default {
       "masked": "The brand occupies a premium ____ in the market.",
       "options": [
         "position-mcq-17",
-        "position-mcq-16",
-        "position-mcq-18",
-        "position-mcq-15",
-        "position-mcq-19",
-        "position-mcq-14"
+        "position-mcq-07",
+        "position-mcq-11",
+        "position-mcq-08"
       ],
       "explanation": "本句的「position」指「有策略地塑造品牌／產品的市場定位」。",
       "sentenceIndex": 68,
@@ -1175,12 +1085,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-17": "本句指「有策略地塑造品牌／產品的市場定位」。",
-        "position-mcq-16": "「有目的地把某人／某物放在特定位置」與本句語境不同。",
-        "position-mcq-18": "「有策略地把自己塑造成 X 身份」與本句語境不同。",
-        "position-mcq-15": "「產品／品牌相對競爭對手在顧客心目中的定位」與本句語境不同。",
-        "position-mcq-19": "「因資源、權力、條件等而有能力做某事」與本句語境不同。",
-        "position-mcq-14": "「預期價格下降而建立的空頭持倉」與本句語境不同。"
+        "position-mcq-17": "本句的「position」指「有策略地塑造品牌／產品的市場定位」。",
+        "position-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-17"
     },
@@ -1192,11 +1100,9 @@ export default {
       "masked": "The product’s ____ is between luxury and mass-market brands.",
       "options": [
         "position-mcq-17",
-        "position-mcq-16",
-        "position-mcq-18",
-        "position-mcq-15",
-        "position-mcq-19",
-        "position-mcq-14"
+        "position-mcq-13",
+        "position-mcq-11",
+        "position-mcq-08"
       ],
       "explanation": "本句的「position」指「有策略地塑造品牌／產品的市場定位」。",
       "sentenceIndex": 69,
@@ -1205,12 +1111,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-17": "本句指「有策略地塑造品牌／產品的市場定位」。",
-        "position-mcq-16": "「有目的地把某人／某物放在特定位置」與本句語境不同。",
-        "position-mcq-18": "「有策略地把自己塑造成 X 身份」與本句語境不同。",
-        "position-mcq-15": "「產品／品牌相對競爭對手在顧客心目中的定位」與本句語境不同。",
-        "position-mcq-19": "「因資源、權力、條件等而有能力做某事」與本句語境不同。",
-        "position-mcq-14": "「預期價格下降而建立的空頭持倉」與本句語境不同。"
+        "position-mcq-17": "本句的「position」指「有策略地塑造品牌／產品的市場定位」。",
+        "position-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-17"
     },
@@ -1222,11 +1126,9 @@ export default {
       "masked": "____ yourself behind the line.",
       "options": [
         "position-mcq-18",
-        "position-mcq-17",
-        "position-mcq-19",
-        "position-mcq-16",
-        "position-mcq-20",
-        "position-mcq-15"
+        "position-mcq-07",
+        "position-mcq-08",
+        "position-mcq-10"
       ],
       "explanation": "本句的「Position」指「有策略地把自己塑造成 X 身份」。",
       "sentenceIndex": 78,
@@ -1235,12 +1137,10 @@ export default {
         "Position"
       ],
       "optionReasons": {
-        "position-mcq-18": "本句指「有策略地把自己塑造成 X 身份」。",
-        "position-mcq-17": "「有策略地塑造品牌／產品的市場定位」與本句語境不同。",
-        "position-mcq-19": "「因資源、權力、條件等而有能力做某事」與本句語境不同。",
-        "position-mcq-16": "「有目的地把某人／某物放在特定位置」與本句語境不同。",
-        "position-mcq-20": "「擁有優勢與談判能力的地位」與本句語境不同。",
-        "position-mcq-15": "「產品／品牌相對競爭對手在顧客心目中的定位」與本句語境不同。"
+        "position-mcq-18": "本句的「Position」指「有策略地把自己塑造成 X 身份」。",
+        "position-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-18"
     },
@@ -1252,11 +1152,9 @@ export default {
       "masked": "She ____ herself near the exit.",
       "options": [
         "position-mcq-18",
-        "position-mcq-17",
-        "position-mcq-19",
-        "position-mcq-16",
+        "position-mcq-07",
         "position-mcq-20",
-        "position-mcq-15"
+        "position-mcq-25"
       ],
       "explanation": "本句的「positioned」指「有策略地把自己塑造成 X 身份」。",
       "sentenceIndex": 79,
@@ -1265,12 +1163,10 @@ export default {
         "positioned"
       ],
       "optionReasons": {
-        "position-mcq-18": "本句指「有策略地把自己塑造成 X 身份」。",
-        "position-mcq-17": "「有策略地塑造品牌／產品的市場定位」與本句語境不同。",
-        "position-mcq-19": "「因資源、權力、條件等而有能力做某事」與本句語境不同。",
-        "position-mcq-16": "「有目的地把某人／某物放在特定位置」與本句語境不同。",
-        "position-mcq-20": "「擁有優勢與談判能力的地位」與本句語境不同。",
-        "position-mcq-15": "「產品／品牌相對競爭對手在顧客心目中的定位」與本句語境不同。"
+        "position-mcq-18": "本句的「positioned」指「有策略地把自己塑造成 X 身份」。",
+        "position-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-18"
     },
@@ -1282,11 +1178,9 @@ export default {
       "masked": "____ your hands on the wheel.",
       "options": [
         "position-mcq-02",
-        "position-mcq-01",
-        "position-mcq-03",
-        "position-mcq-04",
-        "position-mcq-05",
-        "position-mcq-06"
+        "position-mcq-11",
+        "position-mcq-13",
+        "position-mcq-24"
       ],
       "explanation": "本句的「Position」指「身體或身體部位的姿勢／排列方式」。",
       "sentenceIndex": 80,
@@ -1295,12 +1189,10 @@ export default {
         "Position"
       ],
       "optionReasons": {
-        "position-mcq-02": "本句指「身體或身體部位的姿勢／排列方式」。",
-        "position-mcq-01": "「某人／某物在空間中的所在位置」與本句語境不同。",
-        "position-mcq-03": "「組織中的正式工作職位」與本句語境不同。",
-        "position-mcq-04": "「在社會／組織／權力階層中的地位」與本句語境不同。",
-        "position-mcq-05": "「對一項議題所持的正式或明確立場」與本句語境不同。",
-        "position-mcq-06": "「某人在特定條件下所處的處境」與本句語境不同。"
+        "position-mcq-02": "本句的「Position」指「身體或身體部位的姿勢／排列方式」。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-02"
     },
@@ -1312,11 +1204,9 @@ export default {
       "masked": "The therapist ____ his leg carefully.",
       "options": [
         "position-mcq-02",
-        "position-mcq-01",
-        "position-mcq-03",
-        "position-mcq-04",
-        "position-mcq-05",
-        "position-mcq-06"
+        "position-mcq-11",
+        "position-mcq-06",
+        "position-mcq-14"
       ],
       "explanation": "本句的「positioned」指「身體或身體部位的姿勢／排列方式」。",
       "sentenceIndex": 81,
@@ -1325,12 +1215,10 @@ export default {
         "positioned"
       ],
       "optionReasons": {
-        "position-mcq-02": "本句指「身體或身體部位的姿勢／排列方式」。",
-        "position-mcq-01": "「某人／某物在空間中的所在位置」與本句語境不同。",
-        "position-mcq-03": "「組織中的正式工作職位」與本句語境不同。",
-        "position-mcq-04": "「在社會／組織／權力階層中的地位」與本句語境不同。",
-        "position-mcq-05": "「對一項議題所持的正式或明確立場」與本句語境不同。",
-        "position-mcq-06": "「某人在特定條件下所處的處境」與本句語境不同。"
+        "position-mcq-02": "本句的「positioned」指「身體或身體部位的姿勢／排列方式」。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-02"
     },
@@ -1342,11 +1230,9 @@ export default {
       "masked": "He ____ himself as an expert.",
       "options": [
         "position-mcq-18",
-        "position-mcq-17",
-        "position-mcq-19",
-        "position-mcq-16",
-        "position-mcq-20",
-        "position-mcq-15"
+        "position-mcq-08",
+        "position-mcq-01",
+        "position-mcq-05"
       ],
       "explanation": "本句的「positioned」指「有策略地把自己塑造成 X 身份」。",
       "sentenceIndex": 86,
@@ -1355,12 +1241,10 @@ export default {
         "positioned"
       ],
       "optionReasons": {
-        "position-mcq-18": "本句指「有策略地把自己塑造成 X 身份」。",
-        "position-mcq-17": "「有策略地塑造品牌／產品的市場定位」與本句語境不同。",
-        "position-mcq-19": "「因資源、權力、條件等而有能力做某事」與本句語境不同。",
-        "position-mcq-16": "「有目的地把某人／某物放在特定位置」與本句語境不同。",
-        "position-mcq-20": "「擁有優勢與談判能力的地位」與本句語境不同。",
-        "position-mcq-15": "「產品／品牌相對競爭對手在顧客心目中的定位」與本句語境不同。"
+        "position-mcq-18": "本句的「positioned」指「有策略地把自己塑造成 X 身份」。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-18"
     },
@@ -1372,11 +1256,9 @@ export default {
       "masked": "The company ____ itself as a green leader.",
       "options": [
         "position-mcq-18",
-        "position-mcq-17",
-        "position-mcq-19",
-        "position-mcq-16",
+        "position-mcq-11",
         "position-mcq-20",
-        "position-mcq-15"
+        "position-mcq-06"
       ],
       "explanation": "本句的「positioned」指「有策略地把自己塑造成 X 身份」。",
       "sentenceIndex": 87,
@@ -1385,12 +1267,10 @@ export default {
         "positioned"
       ],
       "optionReasons": {
-        "position-mcq-18": "本句指「有策略地把自己塑造成 X 身份」。",
-        "position-mcq-17": "「有策略地塑造品牌／產品的市場定位」與本句語境不同。",
-        "position-mcq-19": "「因資源、權力、條件等而有能力做某事」與本句語境不同。",
-        "position-mcq-16": "「有目的地把某人／某物放在特定位置」與本句語境不同。",
-        "position-mcq-20": "「擁有優勢與談判能力的地位」與本句語境不同。",
-        "position-mcq-15": "「產品／品牌相對競爭對手在顧客心目中的定位」與本句語境不同。"
+        "position-mcq-18": "本句的「positioned」指「有策略地把自己塑造成 X 身份」。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-18"
     },
@@ -1402,11 +1282,9 @@ export default {
       "masked": "The patient was placed in the correct surgical ____.",
       "options": [
         "position-mcq-21",
-        "position-mcq-20",
-        "position-mcq-22",
-        "position-mcq-19",
-        "position-mcq-23",
-        "position-mcq-18"
+        "position-mcq-13",
+        "position-mcq-08",
+        "position-mcq-06"
       ],
       "explanation": "本句的「position」指「實體位置安排／擺位」。",
       "sentenceIndex": 110,
@@ -1415,12 +1293,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-21": "本句指「實體位置安排／擺位」。",
-        "position-mcq-20": "「擁有優勢與談判能力的地位」與本句語境不同。",
-        "position-mcq-22": "「品牌／產品在市場與顧客心中的策略定位」與本句語境不同。",
-        "position-mcq-19": "「因資源、權力、條件等而有能力做某事」與本句語境不同。",
-        "position-mcq-23": "「與位置、空間配置或局面有關的」與本句語境不同。",
-        "position-mcq-18": "「有策略地把自己塑造成 X 身份」與本句語境不同。"
+        "position-mcq-21": "本句的「position」指「實體位置安排／擺位」。",
+        "position-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-21"
     },
@@ -1432,11 +1308,9 @@ export default {
       "masked": "Proper ____ reduces pressure injuries.",
       "options": [
         "position-mcq-21",
-        "position-mcq-20",
-        "position-mcq-22",
-        "position-mcq-19",
-        "position-mcq-23",
-        "position-mcq-18"
+        "position-mcq-06",
+        "position-mcq-13",
+        "position-mcq-08"
       ],
       "explanation": "本句的「positioning」指「實體位置安排／擺位」。",
       "sentenceIndex": 111,
@@ -1445,12 +1319,10 @@ export default {
         "positioning"
       ],
       "optionReasons": {
-        "position-mcq-21": "本句指「實體位置安排／擺位」。",
-        "position-mcq-20": "「擁有優勢與談判能力的地位」與本句語境不同。",
-        "position-mcq-22": "「品牌／產品在市場與顧客心中的策略定位」與本句語境不同。",
-        "position-mcq-19": "「因資源、權力、條件等而有能力做某事」與本句語境不同。",
-        "position-mcq-23": "「與位置、空間配置或局面有關的」與本句語境不同。",
-        "position-mcq-18": "「有策略地把自己塑造成 X 身份」與本句語境不同。"
+        "position-mcq-21": "本句的「positioning」指「實體位置安排／擺位」。",
+        "position-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-21"
     },
@@ -1462,11 +1334,9 @@ export default {
       "masked": "The organization published a ____.",
       "options": [
         "position-mcq-24",
-        "position-mcq-23",
-        "position-mcq-25",
-        "position-mcq-22",
-        "position-mcq-21",
-        "position-mcq-20"
+        "position-mcq-18",
+        "position-mcq-11",
+        "position-mcq-08"
       ],
       "explanation": "本句的「position paper」指「正式說明某機構／人士立場的文件」。",
       "sentenceIndex": 120,
@@ -1475,12 +1345,10 @@ export default {
         "position paper"
       ],
       "optionReasons": {
-        "position-mcq-24": "本句指「正式說明某機構／人士立場的文件」。",
-        "position-mcq-23": "「與位置、空間配置或局面有關的」與本句語境不同。",
-        "position-mcq-25": "「透過衛星提供地理位置資訊的全球定位系統」與本句語境不同。",
-        "position-mcq-22": "「品牌／產品在市場與顧客心中的策略定位」與本句語境不同。",
-        "position-mcq-21": "「實體位置安排／擺位」與本句語境不同。",
-        "position-mcq-20": "「擁有優勢與談判能力的地位」與本句語境不同。"
+        "position-mcq-24": "本句的「position paper」指「正式說明某機構／人士立場的文件」。",
+        "position-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-24"
     },
@@ -1492,11 +1360,9 @@ export default {
       "masked": "The ____ paper outlines its recommendations.",
       "options": [
         "position-mcq-24",
-        "position-mcq-23",
-        "position-mcq-25",
-        "position-mcq-22",
-        "position-mcq-21",
-        "position-mcq-20"
+        "position-mcq-11",
+        "position-mcq-18",
+        "position-mcq-08"
       ],
       "explanation": "本句的「position」指「正式說明某機構／人士立場的文件」。",
       "sentenceIndex": 121,
@@ -1505,12 +1371,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-24": "本句指「正式說明某機構／人士立場的文件」。",
-        "position-mcq-23": "「與位置、空間配置或局面有關的」與本句語境不同。",
-        "position-mcq-25": "「透過衛星提供地理位置資訊的全球定位系統」與本句語境不同。",
-        "position-mcq-22": "「品牌／產品在市場與顧客心中的策略定位」與本句語境不同。",
-        "position-mcq-21": "「實體位置安排／擺位」與本句語境不同。",
-        "position-mcq-20": "「擁有優勢與談判能力的地位」與本句語境不同。"
+        "position-mcq-24": "本句的「position」指「正式說明某機構／人士立場的文件」。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-24"
     },
@@ -1522,11 +1386,9 @@ export default {
       "masked": "The company negotiated from a ____ of strength.",
       "options": [
         "position-mcq-20",
-        "position-mcq-19",
-        "position-mcq-21",
-        "position-mcq-18",
-        "position-mcq-22",
-        "position-mcq-17"
+        "position-mcq-07",
+        "position-mcq-05",
+        "position-mcq-11"
       ],
       "explanation": "本句的「position」指「擁有優勢與談判能力的地位」。",
       "sentenceIndex": 133,
@@ -1535,12 +1397,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-20": "本句指「擁有優勢與談判能力的地位」。",
-        "position-mcq-19": "「因資源、權力、條件等而有能力做某事」與本句語境不同。",
-        "position-mcq-21": "「實體位置安排／擺位」與本句語境不同。",
-        "position-mcq-18": "「有策略地把自己塑造成 X 身份」與本句語境不同。",
-        "position-mcq-22": "「品牌／產品在市場與顧客心中的策略定位」與本句語境不同。",
-        "position-mcq-17": "「有策略地塑造品牌／產品的市場定位」與本句語境不同。"
+        "position-mcq-20": "本句的「position」指「擁有優勢與談判能力的地位」。",
+        "position-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-20"
     },
@@ -1552,11 +1412,9 @@ export default {
       "masked": "Strong cash reserves gave it a ____ of strength.",
       "options": [
         "position-mcq-20",
-        "position-mcq-19",
-        "position-mcq-21",
+        "position-mcq-24",
         "position-mcq-18",
-        "position-mcq-22",
-        "position-mcq-17"
+        "position-mcq-11"
       ],
       "explanation": "本句的「position」指「擁有優勢與談判能力的地位」。",
       "sentenceIndex": 134,
@@ -1565,12 +1423,10 @@ export default {
         "position"
       ],
       "optionReasons": {
-        "position-mcq-20": "本句指「擁有優勢與談判能力的地位」。",
-        "position-mcq-19": "「因資源、權力、條件等而有能力做某事」與本句語境不同。",
-        "position-mcq-21": "「實體位置安排／擺位」與本句語境不同。",
-        "position-mcq-18": "「有策略地把自己塑造成 X 身份」與本句語境不同。",
-        "position-mcq-22": "「品牌／產品在市場與顧客心中的策略定位」與本句語境不同。",
-        "position-mcq-17": "「有策略地塑造品牌／產品的市場定位」與本句語境不同。"
+        "position-mcq-20": "本句的「position」指「擁有優勢與談判能力的地位」。",
+        "position-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-20"
     },
@@ -1582,10 +1438,8 @@ export default {
       "masked": "Correct camera ____ is important.",
       "options": [
         "position-mcq-21",
-        "position-mcq-20",
-        "position-mcq-22",
-        "position-mcq-19",
-        "position-mcq-23",
+        "position-mcq-24",
+        "position-mcq-08",
         "position-mcq-18"
       ],
       "explanation": "本句的「positioning」指「實體位置安排／擺位」。",
@@ -1595,12 +1449,10 @@ export default {
         "positioning"
       ],
       "optionReasons": {
-        "position-mcq-21": "本句指「實體位置安排／擺位」。",
-        "position-mcq-20": "「擁有優勢與談判能力的地位」與本句語境不同。",
-        "position-mcq-22": "「品牌／產品在市場與顧客心中的策略定位」與本句語境不同。",
-        "position-mcq-19": "「因資源、權力、條件等而有能力做某事」與本句語境不同。",
-        "position-mcq-23": "「與位置、空間配置或局面有關的」與本句語境不同。",
-        "position-mcq-18": "「有策略地把自己塑造成 X 身份」與本句語境不同。"
+        "position-mcq-21": "本句的「positioning」指「實體位置安排／擺位」。",
+        "position-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-21"
     },
@@ -1612,11 +1464,9 @@ export default {
       "masked": "Vehicle ____ affects sensor accuracy.",
       "options": [
         "position-mcq-21",
-        "position-mcq-20",
-        "position-mcq-22",
-        "position-mcq-19",
-        "position-mcq-23",
-        "position-mcq-18"
+        "position-mcq-24",
+        "position-mcq-14",
+        "position-mcq-08"
       ],
       "explanation": "本句的「positioning」指「實體位置安排／擺位」。",
       "sentenceIndex": 140,
@@ -1625,12 +1475,10 @@ export default {
         "positioning"
       ],
       "optionReasons": {
-        "position-mcq-21": "本句指「實體位置安排／擺位」。",
-        "position-mcq-20": "「擁有優勢與談判能力的地位」與本句語境不同。",
-        "position-mcq-22": "「品牌／產品在市場與顧客心中的策略定位」與本句語境不同。",
-        "position-mcq-19": "「因資源、權力、條件等而有能力做某事」與本句語境不同。",
-        "position-mcq-23": "「與位置、空間配置或局面有關的」與本句語境不同。",
-        "position-mcq-18": "「有策略地把自己塑造成 X 身份」與本句語境不同。"
+        "position-mcq-21": "本句的「positioning」指「實體位置安排／擺位」。",
+        "position-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-21"
     },
@@ -1642,11 +1490,9 @@ export default {
       "masked": "The phone uses the Global ____ System.",
       "options": [
         "position-mcq-25",
-        "position-mcq-24",
-        "position-mcq-23",
-        "position-mcq-22",
-        "position-mcq-21",
-        "position-mcq-20"
+        "position-mcq-13",
+        "position-mcq-05",
+        "position-mcq-08"
       ],
       "explanation": "本句的「Positioning」指「透過衛星提供地理位置資訊的全球定位系統」。",
       "sentenceIndex": 145,
@@ -1655,12 +1501,10 @@ export default {
         "Positioning"
       ],
       "optionReasons": {
-        "position-mcq-25": "本句指「透過衛星提供地理位置資訊的全球定位系統」。",
-        "position-mcq-24": "「正式說明某機構／人士立場的文件」與本句語境不同。",
-        "position-mcq-23": "「與位置、空間配置或局面有關的」與本句語境不同。",
-        "position-mcq-22": "「品牌／產品在市場與顧客心中的策略定位」與本句語境不同。",
-        "position-mcq-21": "「實體位置安排／擺位」與本句語境不同。",
-        "position-mcq-20": "「擁有優勢與談判能力的地位」與本句語境不同。"
+        "position-mcq-25": "本句的「Positioning」指「透過衛星提供地理位置資訊的全球定位系統」。",
+        "position-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "position-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "position-mcq-25"
     }
@@ -1672,5 +1516,7 @@ export default {
     "sha256": "14193aca82e64d7ed9aa978c7797488431aaf985befbe56ad9b2b5afb160afcf",
     "pages": 42
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

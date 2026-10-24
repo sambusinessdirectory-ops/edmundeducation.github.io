@@ -345,11 +345,9 @@ export default {
       "masked": "He pulled a ____ from the box.",
       "options": [
         "tissue-mcq-01",
-        "tissue-mcq-02",
-        "tissue-mcq-03",
-        "tissue-mcq-04",
-        "tissue-mcq-05",
-        "tissue-mcq-06"
+        "tissue-mcq-11",
+        "tissue-mcq-16",
+        "tissue-mcq-04"
       ],
       "explanation": "本句的「tissue」指「用來擦鼻、眼睛、臉等的柔軟即棄紙巾／面紙」。",
       "sentenceIndex": 2,
@@ -358,12 +356,10 @@ export default {
         "tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-01": "本句指「用來擦鼻、眼睛、臉等的柔軟即棄紙巾／面紙」。",
-        "tissue-mcq-02": "「專供擦臉、鼻子等使用的柔軟面紙」與本句語境不同。",
-        "tissue-mcq-03": "「用於包裝、裝飾、手工藝等的極薄紙張」與本句語境不同。",
-        "tissue-mcq-04": "「用於如廁後清潔的衛生紙／廁紙」與本句語境不同。",
-        "tissue-mcq-05": "「由相似細胞組成並共同執行某種功能的組織」與本句語境不同。",
-        "tissue-mcq-06": "「構成人體／動物身體的生物組織」與本句語境不同。"
+        "tissue-mcq-01": "本句的「tissue」指「用來擦鼻、眼睛、臉等的柔軟即棄紙巾／面紙」。",
+        "tissue-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-01"
     },
@@ -375,11 +371,9 @@ export default {
       "masked": "She dabbed her tears with a ____.",
       "options": [
         "tissue-mcq-01",
-        "tissue-mcq-02",
-        "tissue-mcq-03",
-        "tissue-mcq-04",
-        "tissue-mcq-05",
-        "tissue-mcq-06"
+        "tissue-mcq-12",
+        "tissue-mcq-16",
+        "tissue-mcq-04"
       ],
       "explanation": "本句的「tissue」指「用來擦鼻、眼睛、臉等的柔軟即棄紙巾／面紙」。",
       "sentenceIndex": 3,
@@ -388,12 +382,10 @@ export default {
         "tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-01": "本句指「用來擦鼻、眼睛、臉等的柔軟即棄紙巾／面紙」。",
-        "tissue-mcq-02": "「專供擦臉、鼻子等使用的柔軟面紙」與本句語境不同。",
-        "tissue-mcq-03": "「用於包裝、裝飾、手工藝等的極薄紙張」與本句語境不同。",
-        "tissue-mcq-04": "「用於如廁後清潔的衛生紙／廁紙」與本句語境不同。",
-        "tissue-mcq-05": "「由相似細胞組成並共同執行某種功能的組織」與本句語境不同。",
-        "tissue-mcq-06": "「構成人體／動物身體的生物組織」與本句語境不同。"
+        "tissue-mcq-01": "本句的「tissue」指「用來擦鼻、眼睛、臉等的柔軟即棄紙巾／面紙」。",
+        "tissue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-01"
     },
@@ -405,11 +397,9 @@ export default {
       "masked": "There is a box of ____ on the desk.",
       "options": [
         "tissue-mcq-02",
-        "tissue-mcq-01",
-        "tissue-mcq-03",
-        "tissue-mcq-04",
-        "tissue-mcq-05",
-        "tissue-mcq-06"
+        "tissue-mcq-14",
+        "tissue-mcq-16",
+        "tissue-mcq-04"
       ],
       "explanation": "本句的「facial tissues」指「專供擦臉、鼻子等使用的柔軟面紙」。",
       "sentenceIndex": 4,
@@ -418,12 +408,10 @@ export default {
         "facial tissues"
       ],
       "optionReasons": {
-        "tissue-mcq-02": "本句指「專供擦臉、鼻子等使用的柔軟面紙」。",
-        "tissue-mcq-01": "「用來擦鼻、眼睛、臉等的柔軟即棄紙巾／面紙」與本句語境不同。",
-        "tissue-mcq-03": "「用於包裝、裝飾、手工藝等的極薄紙張」與本句語境不同。",
-        "tissue-mcq-04": "「用於如廁後清潔的衛生紙／廁紙」與本句語境不同。",
-        "tissue-mcq-05": "「由相似細胞組成並共同執行某種功能的組織」與本句語境不同。",
-        "tissue-mcq-06": "「構成人體／動物身體的生物組織」與本句語境不同。"
+        "tissue-mcq-02": "本句的「facial tissues」指「專供擦臉、鼻子等使用的柔軟面紙」。",
+        "tissue-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-02"
     },
@@ -435,11 +423,9 @@ export default {
       "masked": "Soft ____ are useful when you have a cold.",
       "options": [
         "tissue-mcq-02",
-        "tissue-mcq-01",
-        "tissue-mcq-03",
-        "tissue-mcq-04",
-        "tissue-mcq-05",
-        "tissue-mcq-06"
+        "tissue-mcq-16",
+        "tissue-mcq-12",
+        "tissue-mcq-04"
       ],
       "explanation": "本句的「facial tissues」指「專供擦臉、鼻子等使用的柔軟面紙」。",
       "sentenceIndex": 5,
@@ -448,12 +434,10 @@ export default {
         "facial tissues"
       ],
       "optionReasons": {
-        "tissue-mcq-02": "本句指「專供擦臉、鼻子等使用的柔軟面紙」。",
-        "tissue-mcq-01": "「用來擦鼻、眼睛、臉等的柔軟即棄紙巾／面紙」與本句語境不同。",
-        "tissue-mcq-03": "「用於包裝、裝飾、手工藝等的極薄紙張」與本句語境不同。",
-        "tissue-mcq-04": "「用於如廁後清潔的衛生紙／廁紙」與本句語境不同。",
-        "tissue-mcq-05": "「由相似細胞組成並共同執行某種功能的組織」與本句語境不同。",
-        "tissue-mcq-06": "「構成人體／動物身體的生物組織」與本句語境不同。"
+        "tissue-mcq-02": "本句的「facial tissues」指「專供擦臉、鼻子等使用的柔軟面紙」。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-02"
     },
@@ -465,11 +449,9 @@ export default {
       "masked": "The gift was wrapped in colored ____.",
       "options": [
         "tissue-mcq-03",
-        "tissue-mcq-02",
-        "tissue-mcq-04",
-        "tissue-mcq-01",
-        "tissue-mcq-05",
-        "tissue-mcq-06"
+        "tissue-mcq-13",
+        "tissue-mcq-16",
+        "tissue-mcq-02"
       ],
       "explanation": "本句的「tissue paper」指「用於包裝、裝飾、手工藝等的極薄紙張」。",
       "sentenceIndex": 6,
@@ -478,12 +460,10 @@ export default {
         "tissue paper"
       ],
       "optionReasons": {
-        "tissue-mcq-03": "本句指「用於包裝、裝飾、手工藝等的極薄紙張」。",
-        "tissue-mcq-02": "「專供擦臉、鼻子等使用的柔軟面紙」與本句語境不同。",
-        "tissue-mcq-04": "「用於如廁後清潔的衛生紙／廁紙」與本句語境不同。",
-        "tissue-mcq-01": "「用來擦鼻、眼睛、臉等的柔軟即棄紙巾／面紙」與本句語境不同。",
-        "tissue-mcq-05": "「由相似細胞組成並共同執行某種功能的組織」與本句語境不同。",
-        "tissue-mcq-06": "「構成人體／動物身體的生物組織」與本句語境不同。"
+        "tissue-mcq-03": "本句的「tissue paper」指「用於包裝、裝飾、手工藝等的極薄紙張」。",
+        "tissue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-03"
     },
@@ -495,11 +475,9 @@ export default {
       "masked": "She placed ____ inside the box.",
       "options": [
         "tissue-mcq-03",
-        "tissue-mcq-02",
-        "tissue-mcq-04",
-        "tissue-mcq-01",
-        "tissue-mcq-05",
-        "tissue-mcq-06"
+        "tissue-mcq-14",
+        "tissue-mcq-16",
+        "tissue-mcq-02"
       ],
       "explanation": "本句的「tissue paper」指「用於包裝、裝飾、手工藝等的極薄紙張」。",
       "sentenceIndex": 7,
@@ -508,12 +486,10 @@ export default {
         "tissue paper"
       ],
       "optionReasons": {
-        "tissue-mcq-03": "本句指「用於包裝、裝飾、手工藝等的極薄紙張」。",
-        "tissue-mcq-02": "「專供擦臉、鼻子等使用的柔軟面紙」與本句語境不同。",
-        "tissue-mcq-04": "「用於如廁後清潔的衛生紙／廁紙」與本句語境不同。",
-        "tissue-mcq-01": "「用來擦鼻、眼睛、臉等的柔軟即棄紙巾／面紙」與本句語境不同。",
-        "tissue-mcq-05": "「由相似細胞組成並共同執行某種功能的組織」與本句語境不同。",
-        "tissue-mcq-06": "「構成人體／動物身體的生物組織」與本句語境不同。"
+        "tissue-mcq-03": "本句的「tissue paper」指「用於包裝、裝飾、手工藝等的極薄紙張」。",
+        "tissue-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-03"
     },
@@ -525,11 +501,9 @@ export default {
       "masked": "We need another roll of ____.",
       "options": [
         "tissue-mcq-04",
-        "tissue-mcq-03",
-        "tissue-mcq-05",
-        "tissue-mcq-02",
-        "tissue-mcq-06",
-        "tissue-mcq-01"
+        "tissue-mcq-14",
+        "tissue-mcq-16",
+        "tissue-mcq-02"
       ],
       "explanation": "本句的「toilet tissue」指「用於如廁後清潔的衛生紙／廁紙」。",
       "sentenceIndex": 8,
@@ -538,12 +512,10 @@ export default {
         "toilet tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-04": "本句指「用於如廁後清潔的衛生紙／廁紙」。",
-        "tissue-mcq-03": "「用於包裝、裝飾、手工藝等的極薄紙張」與本句語境不同。",
-        "tissue-mcq-05": "「由相似細胞組成並共同執行某種功能的組織」與本句語境不同。",
-        "tissue-mcq-02": "「專供擦臉、鼻子等使用的柔軟面紙」與本句語境不同。",
-        "tissue-mcq-06": "「構成人體／動物身體的生物組織」與本句語境不同。",
-        "tissue-mcq-01": "「用來擦鼻、眼睛、臉等的柔軟即棄紙巾／面紙」與本句語境不同。"
+        "tissue-mcq-04": "本句的「toilet tissue」指「用於如廁後清潔的衛生紙／廁紙」。",
+        "tissue-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-04"
     },
@@ -555,11 +527,9 @@ export default {
       "masked": "The restroom ran out of ____.",
       "options": [
         "tissue-mcq-04",
-        "tissue-mcq-03",
-        "tissue-mcq-05",
-        "tissue-mcq-02",
-        "tissue-mcq-06",
-        "tissue-mcq-01"
+        "tissue-mcq-10",
+        "tissue-mcq-16",
+        "tissue-mcq-02"
       ],
       "explanation": "本句的「toilet tissue」指「用於如廁後清潔的衛生紙／廁紙」。",
       "sentenceIndex": 9,
@@ -568,12 +538,10 @@ export default {
         "toilet tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-04": "本句指「用於如廁後清潔的衛生紙／廁紙」。",
-        "tissue-mcq-03": "「用於包裝、裝飾、手工藝等的極薄紙張」與本句語境不同。",
-        "tissue-mcq-05": "「由相似細胞組成並共同執行某種功能的組織」與本句語境不同。",
-        "tissue-mcq-02": "「專供擦臉、鼻子等使用的柔軟面紙」與本句語境不同。",
-        "tissue-mcq-06": "「構成人體／動物身體的生物組織」與本句語境不同。",
-        "tissue-mcq-01": "「用來擦鼻、眼睛、臉等的柔軟即棄紙巾／面紙」與本句語境不同。"
+        "tissue-mcq-04": "本句的「toilet tissue」指「用於如廁後清潔的衛生紙／廁紙」。",
+        "tissue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-04"
     },
@@ -585,11 +553,9 @@ export default {
       "masked": "The injury damaged surrounding ____.",
       "options": [
         "tissue-mcq-06",
-        "tissue-mcq-05",
-        "tissue-mcq-07",
-        "tissue-mcq-04",
-        "tissue-mcq-08",
-        "tissue-mcq-03"
+        "tissue-mcq-03",
+        "tissue-mcq-02",
+        "tissue-mcq-16"
       ],
       "explanation": "本句的「tissue」指「構成人體／動物身體的生物組織」。",
       "sentenceIndex": 12,
@@ -598,12 +564,10 @@ export default {
         "tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-06": "本句指「構成人體／動物身體的生物組織」。",
-        "tissue-mcq-05": "「由相似細胞組成並共同執行某種功能的組織」與本句語境不同。",
-        "tissue-mcq-07": "「由植物細胞組成並執行共同功能的植物組織」與本句語境不同。",
-        "tissue-mcq-04": "「用於如廁後清潔的衛生紙／廁紙」與本句語境不同。",
-        "tissue-mcq-08": "「骨等硬組織以外的肌肉、脂肪、肌腱等軟組織」與本句語境不同。",
-        "tissue-mcq-03": "「用於包裝、裝飾、手工藝等的極薄紙張」與本句語境不同。"
+        "tissue-mcq-06": "本句的「tissue」指「構成人體／動物身體的生物組織」。",
+        "tissue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-06"
     },
@@ -615,11 +579,9 @@ export default {
       "masked": "Healthy ____ can repair itself to some extent.",
       "options": [
         "tissue-mcq-06",
-        "tissue-mcq-05",
-        "tissue-mcq-07",
-        "tissue-mcq-04",
-        "tissue-mcq-08",
-        "tissue-mcq-03"
+        "tissue-mcq-03",
+        "tissue-mcq-02",
+        "tissue-mcq-16"
       ],
       "explanation": "本句的「body tissue」指「構成人體／動物身體的生物組織」。",
       "sentenceIndex": 13,
@@ -628,12 +590,10 @@ export default {
         "body tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-06": "本句指「構成人體／動物身體的生物組織」。",
-        "tissue-mcq-05": "「由相似細胞組成並共同執行某種功能的組織」與本句語境不同。",
-        "tissue-mcq-07": "「由植物細胞組成並執行共同功能的植物組織」與本句語境不同。",
-        "tissue-mcq-04": "「用於如廁後清潔的衛生紙／廁紙」與本句語境不同。",
-        "tissue-mcq-08": "「骨等硬組織以外的肌肉、脂肪、肌腱等軟組織」與本句語境不同。",
-        "tissue-mcq-03": "「用於包裝、裝飾、手工藝等的極薄紙張」與本句語境不同。"
+        "tissue-mcq-06": "本句的「body tissue」指「構成人體／動物身體的生物組織」。",
+        "tissue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-06"
     },
@@ -645,11 +605,9 @@ export default {
       "masked": "The fall caused a ____.",
       "options": [
         "tissue-mcq-08",
-        "tissue-mcq-07",
-        "tissue-mcq-09",
-        "tissue-mcq-06",
-        "tissue-mcq-10",
-        "tissue-mcq-05"
+        "tissue-mcq-04",
+        "tissue-mcq-16",
+        "tissue-mcq-02"
       ],
       "explanation": "本句的「soft-tissue injury」指「骨等硬組織以外的肌肉、脂肪、肌腱等軟組織」。",
       "sentenceIndex": 16,
@@ -658,12 +616,10 @@ export default {
         "soft-tissue injury"
       ],
       "optionReasons": {
-        "tissue-mcq-08": "本句指「骨等硬組織以外的肌肉、脂肪、肌腱等軟組織」。",
-        "tissue-mcq-07": "「由植物細胞組成並執行共同功能的植物組織」與本句語境不同。",
-        "tissue-mcq-09": "「支撐、連接其他組織或結構的結締組織」與本句語境不同。",
-        "tissue-mcq-06": "「構成人體／動物身體的生物組織」與本句語境不同。",
-        "tissue-mcq-10": "「由肌肉細胞構成的肌肉組織」與本句語境不同。",
-        "tissue-mcq-05": "「由相似細胞組成並共同執行某種功能的組織」與本句語境不同。"
+        "tissue-mcq-08": "本句的「soft-tissue injury」指「骨等硬組織以外的肌肉、脂肪、肌腱等軟組織」。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-08"
     },
@@ -675,11 +631,9 @@ export default {
       "masked": "The scan showed damage to the ____.",
       "options": [
         "tissue-mcq-08",
-        "tissue-mcq-07",
-        "tissue-mcq-09",
-        "tissue-mcq-06",
-        "tissue-mcq-10",
-        "tissue-mcq-05"
+        "tissue-mcq-04",
+        "tissue-mcq-16",
+        "tissue-mcq-02"
       ],
       "explanation": "本句的「soft tissue」指「骨等硬組織以外的肌肉、脂肪、肌腱等軟組織」。",
       "sentenceIndex": 17,
@@ -688,12 +642,10 @@ export default {
         "soft tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-08": "本句指「骨等硬組織以外的肌肉、脂肪、肌腱等軟組織」。",
-        "tissue-mcq-07": "「由植物細胞組成並執行共同功能的植物組織」與本句語境不同。",
-        "tissue-mcq-09": "「支撐、連接其他組織或結構的結締組織」與本句語境不同。",
-        "tissue-mcq-06": "「構成人體／動物身體的生物組織」與本句語境不同。",
-        "tissue-mcq-10": "「由肌肉細胞構成的肌肉組織」與本句語境不同。",
-        "tissue-mcq-05": "「由相似細胞組成並共同執行某種功能的組織」與本句語境不同。"
+        "tissue-mcq-08": "本句的「soft tissue」指「骨等硬組織以外的肌肉、脂肪、肌腱等軟組織」。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-08"
     },
@@ -705,11 +657,9 @@ export default {
       "masked": "Tendons contain strong ____.",
       "options": [
         "tissue-mcq-09",
-        "tissue-mcq-08",
-        "tissue-mcq-10",
-        "tissue-mcq-07",
-        "tissue-mcq-11",
-        "tissue-mcq-06"
+        "tissue-mcq-04",
+        "tissue-mcq-02",
+        "tissue-mcq-16"
       ],
       "explanation": "本句的「connective tissue」指「支撐、連接其他組織或結構的結締組織」。",
       "sentenceIndex": 18,
@@ -718,12 +668,10 @@ export default {
         "connective tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-09": "本句指「支撐、連接其他組織或結構的結締組織」。",
-        "tissue-mcq-08": "「骨等硬組織以外的肌肉、脂肪、肌腱等軟組織」與本句語境不同。",
-        "tissue-mcq-10": "「由肌肉細胞構成的肌肉組織」與本句語境不同。",
-        "tissue-mcq-07": "「由植物細胞組成並執行共同功能的植物組織」與本句語境不同。",
-        "tissue-mcq-11": "「負責傳遞神經訊號的神經組織」與本句語境不同。",
-        "tissue-mcq-06": "「構成人體／動物身體的生物組織」與本句語境不同。"
+        "tissue-mcq-09": "本句的「connective tissue」指「支撐、連接其他組織或結構的結締組織」。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-09"
     },
@@ -735,11 +683,9 @@ export default {
       "masked": "The condition affects ____.",
       "options": [
         "tissue-mcq-09",
-        "tissue-mcq-08",
-        "tissue-mcq-10",
-        "tissue-mcq-07",
-        "tissue-mcq-11",
-        "tissue-mcq-06"
+        "tissue-mcq-04",
+        "tissue-mcq-02",
+        "tissue-mcq-16"
       ],
       "explanation": "本句的「connective tissue」指「支撐、連接其他組織或結構的結締組織」。",
       "sentenceIndex": 19,
@@ -748,12 +694,10 @@ export default {
         "connective tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-09": "本句指「支撐、連接其他組織或結構的結締組織」。",
-        "tissue-mcq-08": "「骨等硬組織以外的肌肉、脂肪、肌腱等軟組織」與本句語境不同。",
-        "tissue-mcq-10": "「由肌肉細胞構成的肌肉組織」與本句語境不同。",
-        "tissue-mcq-07": "「由植物細胞組成並執行共同功能的植物組織」與本句語境不同。",
-        "tissue-mcq-11": "「負責傳遞神經訊號的神經組織」與本句語境不同。",
-        "tissue-mcq-06": "「構成人體／動物身體的生物組織」與本句語境不同。"
+        "tissue-mcq-09": "本句的「connective tissue」指「支撐、連接其他組織或結構的結締組織」。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-09"
     },
@@ -765,11 +709,9 @@ export default {
       "masked": "Exercise can strengthen ____.",
       "options": [
         "tissue-mcq-10",
-        "tissue-mcq-09",
-        "tissue-mcq-11",
-        "tissue-mcq-08",
-        "tissue-mcq-12",
-        "tissue-mcq-07"
+        "tissue-mcq-01",
+        "tissue-mcq-04",
+        "tissue-mcq-16"
       ],
       "explanation": "本句的「muscle tissue」指「由肌肉細胞構成的肌肉組織」。",
       "sentenceIndex": 20,
@@ -778,12 +720,10 @@ export default {
         "muscle tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-10": "本句指「由肌肉細胞構成的肌肉組織」。",
-        "tissue-mcq-09": "「支撐、連接其他組織或結構的結締組織」與本句語境不同。",
-        "tissue-mcq-11": "「負責傳遞神經訊號的神經組織」與本句語境不同。",
-        "tissue-mcq-08": "「骨等硬組織以外的肌肉、脂肪、肌腱等軟組織」與本句語境不同。",
-        "tissue-mcq-12": "「傷口癒合後形成的疤痕／瘢痕組織」與本句語境不同。",
-        "tissue-mcq-07": "「由植物細胞組成並執行共同功能的植物組織」與本句語境不同。"
+        "tissue-mcq-10": "本句的「muscle tissue」指「由肌肉細胞構成的肌肉組織」。",
+        "tissue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-10"
     },
@@ -795,11 +735,9 @@ export default {
       "masked": "The injury affected nearby ____.",
       "options": [
         "tissue-mcq-10",
-        "tissue-mcq-09",
-        "tissue-mcq-11",
-        "tissue-mcq-08",
-        "tissue-mcq-12",
-        "tissue-mcq-07"
+        "tissue-mcq-03",
+        "tissue-mcq-02",
+        "tissue-mcq-16"
       ],
       "explanation": "本句的「muscle tissue」指「由肌肉細胞構成的肌肉組織」。",
       "sentenceIndex": 21,
@@ -808,12 +746,10 @@ export default {
         "muscle tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-10": "本句指「由肌肉細胞構成的肌肉組織」。",
-        "tissue-mcq-09": "「支撐、連接其他組織或結構的結締組織」與本句語境不同。",
-        "tissue-mcq-11": "「負責傳遞神經訊號的神經組織」與本句語境不同。",
-        "tissue-mcq-08": "「骨等硬組織以外的肌肉、脂肪、肌腱等軟組織」與本句語境不同。",
-        "tissue-mcq-12": "「傷口癒合後形成的疤痕／瘢痕組織」與本句語境不同。",
-        "tissue-mcq-07": "「由植物細胞組成並執行共同功能的植物組織」與本句語境不同。"
+        "tissue-mcq-10": "本句的「muscle tissue」指「由肌肉細胞構成的肌肉組織」。",
+        "tissue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-10"
     },
@@ -825,11 +761,9 @@ export default {
       "masked": "____ carries electrical signals.",
       "options": [
         "tissue-mcq-11",
-        "tissue-mcq-10",
-        "tissue-mcq-12",
-        "tissue-mcq-09",
-        "tissue-mcq-13",
-        "tissue-mcq-08"
+        "tissue-mcq-01",
+        "tissue-mcq-04",
+        "tissue-mcq-16"
       ],
       "explanation": "本句的「Nervous tissue」指「負責傳遞神經訊號的神經組織」。",
       "sentenceIndex": 22,
@@ -838,12 +772,10 @@ export default {
         "Nervous tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-11": "本句指「負責傳遞神經訊號的神經組織」。",
-        "tissue-mcq-10": "「由肌肉細胞構成的肌肉組織」與本句語境不同。",
-        "tissue-mcq-12": "「傷口癒合後形成的疤痕／瘢痕組織」與本句語境不同。",
-        "tissue-mcq-09": "「支撐、連接其他組織或結構的結締組織」與本句語境不同。",
-        "tissue-mcq-13": "「主要由脂肪細胞構成的脂肪組織」與本句語境不同。",
-        "tissue-mcq-08": "「骨等硬組織以外的肌肉、脂肪、肌腱等軟組織」與本句語境不同。"
+        "tissue-mcq-11": "本句的「Nervous tissue」指「負責傳遞神經訊號的神經組織」。",
+        "tissue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-11"
     },
@@ -855,11 +787,9 @@ export default {
       "masked": "The researchers examined the ____.",
       "options": [
         "tissue-mcq-11",
-        "tissue-mcq-10",
-        "tissue-mcq-12",
-        "tissue-mcq-09",
-        "tissue-mcq-13",
-        "tissue-mcq-08"
+        "tissue-mcq-04",
+        "tissue-mcq-02",
+        "tissue-mcq-16"
       ],
       "explanation": "本句的「nerve tissue」指「負責傳遞神經訊號的神經組織」。",
       "sentenceIndex": 23,
@@ -868,12 +798,10 @@ export default {
         "nerve tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-11": "本句指「負責傳遞神經訊號的神經組織」。",
-        "tissue-mcq-10": "「由肌肉細胞構成的肌肉組織」與本句語境不同。",
-        "tissue-mcq-12": "「傷口癒合後形成的疤痕／瘢痕組織」與本句語境不同。",
-        "tissue-mcq-09": "「支撐、連接其他組織或結構的結締組織」與本句語境不同。",
-        "tissue-mcq-13": "「主要由脂肪細胞構成的脂肪組織」與本句語境不同。",
-        "tissue-mcq-08": "「骨等硬組織以外的肌肉、脂肪、肌腱等軟組織」與本句語境不同。"
+        "tissue-mcq-11": "本句的「nerve tissue」指「負責傳遞神經訊號的神經組織」。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-11"
     },
@@ -885,11 +813,9 @@ export default {
       "masked": "____ formed around the injury.",
       "options": [
         "tissue-mcq-12",
-        "tissue-mcq-11",
-        "tissue-mcq-13",
-        "tissue-mcq-10",
-        "tissue-mcq-14",
-        "tissue-mcq-09"
+        "tissue-mcq-02",
+        "tissue-mcq-03",
+        "tissue-mcq-16"
       ],
       "explanation": "本句的「Scar tissue」指「傷口癒合後形成的疤痕／瘢痕組織」。",
       "sentenceIndex": 24,
@@ -898,12 +824,10 @@ export default {
         "Scar tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-12": "本句指「傷口癒合後形成的疤痕／瘢痕組織」。",
-        "tissue-mcq-11": "「負責傳遞神經訊號的神經組織」與本句語境不同。",
-        "tissue-mcq-13": "「主要由脂肪細胞構成的脂肪組織」與本句語境不同。",
-        "tissue-mcq-10": "「由肌肉細胞構成的肌肉組織」與本句語境不同。",
-        "tissue-mcq-14": "「從身體取出作檢驗的組織樣本」與本句語境不同。",
-        "tissue-mcq-09": "「支撐、連接其他組織或結構的結締組織」與本句語境不同。"
+        "tissue-mcq-12": "本句的「Scar tissue」指「傷口癒合後形成的疤痕／瘢痕組織」。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-12"
     },
@@ -915,11 +839,9 @@ export default {
       "masked": "Surgery may leave some ____.",
       "options": [
         "tissue-mcq-12",
-        "tissue-mcq-11",
-        "tissue-mcq-13",
-        "tissue-mcq-10",
-        "tissue-mcq-14",
-        "tissue-mcq-09"
+        "tissue-mcq-01",
+        "tissue-mcq-16",
+        "tissue-mcq-04"
       ],
       "explanation": "本句的「scar tissue」指「傷口癒合後形成的疤痕／瘢痕組織」。",
       "sentenceIndex": 25,
@@ -928,12 +850,10 @@ export default {
         "scar tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-12": "本句指「傷口癒合後形成的疤痕／瘢痕組織」。",
-        "tissue-mcq-11": "「負責傳遞神經訊號的神經組織」與本句語境不同。",
-        "tissue-mcq-13": "「主要由脂肪細胞構成的脂肪組織」與本句語境不同。",
-        "tissue-mcq-10": "「由肌肉細胞構成的肌肉組織」與本句語境不同。",
-        "tissue-mcq-14": "「從身體取出作檢驗的組織樣本」與本句語境不同。",
-        "tissue-mcq-09": "「支撐、連接其他組織或結構的結締組織」與本句語境不同。"
+        "tissue-mcq-12": "本句的「scar tissue」指「傷口癒合後形成的疤痕／瘢痕組織」。",
+        "tissue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-12"
     },
@@ -945,11 +865,9 @@ export default {
       "masked": "The body stores energy in ____.",
       "options": [
         "tissue-mcq-13",
-        "tissue-mcq-12",
-        "tissue-mcq-14",
-        "tissue-mcq-11",
-        "tissue-mcq-15",
-        "tissue-mcq-10"
+        "tissue-mcq-03",
+        "tissue-mcq-02",
+        "tissue-mcq-16"
       ],
       "explanation": "本句的「fatty tissue」指「主要由脂肪細胞構成的脂肪組織」。",
       "sentenceIndex": 26,
@@ -958,12 +876,10 @@ export default {
         "fatty tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-13": "本句指「主要由脂肪細胞構成的脂肪組織」。",
-        "tissue-mcq-12": "「傷口癒合後形成的疤痕／瘢痕組織」與本句語境不同。",
-        "tissue-mcq-14": "「從身體取出作檢驗的組織樣本」與本句語境不同。",
-        "tissue-mcq-11": "「負責傳遞神經訊號的神經組織」與本句語境不同。",
-        "tissue-mcq-15": "「在實驗室控制環境中培養細胞／組織的組織培養」與本句語境不同。",
-        "tissue-mcq-10": "「由肌肉細胞構成的肌肉組織」與本句語境不同。"
+        "tissue-mcq-13": "本句的「fatty tissue」指「主要由脂肪細胞構成的脂肪組織」。",
+        "tissue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-13"
     },
@@ -975,11 +891,9 @@ export default {
       "masked": "The scan showed a layer of ____.",
       "options": [
         "tissue-mcq-13",
-        "tissue-mcq-12",
-        "tissue-mcq-14",
-        "tissue-mcq-11",
-        "tissue-mcq-15",
-        "tissue-mcq-10"
+        "tissue-mcq-04",
+        "tissue-mcq-02",
+        "tissue-mcq-16"
       ],
       "explanation": "本句的「fatty tissue」指「主要由脂肪細胞構成的脂肪組織」。",
       "sentenceIndex": 27,
@@ -988,12 +902,10 @@ export default {
         "fatty tissue"
       ],
       "optionReasons": {
-        "tissue-mcq-13": "本句指「主要由脂肪細胞構成的脂肪組織」。",
-        "tissue-mcq-12": "「傷口癒合後形成的疤痕／瘢痕組織」與本句語境不同。",
-        "tissue-mcq-14": "「從身體取出作檢驗的組織樣本」與本句語境不同。",
-        "tissue-mcq-11": "「負責傳遞神經訊號的神經組織」與本句語境不同。",
-        "tissue-mcq-15": "「在實驗室控制環境中培養細胞／組織的組織培養」與本句語境不同。",
-        "tissue-mcq-10": "「由肌肉細胞構成的肌肉組織」與本句語境不同。"
+        "tissue-mcq-13": "本句的「fatty tissue」指「主要由脂肪細胞構成的脂肪組織」。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-13"
     },
@@ -1005,11 +917,9 @@ export default {
       "masked": "Doctors took a ____ for testing.",
       "options": [
         "tissue-mcq-14",
-        "tissue-mcq-13",
-        "tissue-mcq-15",
-        "tissue-mcq-12",
-        "tissue-mcq-16",
-        "tissue-mcq-11"
+        "tissue-mcq-04",
+        "tissue-mcq-02",
+        "tissue-mcq-16"
       ],
       "explanation": "本句的「tissue sample」指「從身體取出作檢驗的組織樣本」。",
       "sentenceIndex": 28,
@@ -1018,12 +928,10 @@ export default {
         "tissue sample"
       ],
       "optionReasons": {
-        "tissue-mcq-14": "本句指「從身體取出作檢驗的組織樣本」。",
-        "tissue-mcq-13": "「主要由脂肪細胞構成的脂肪組織」與本句語境不同。",
-        "tissue-mcq-15": "「在實驗室控制環境中培養細胞／組織的組織培養」與本句語境不同。",
-        "tissue-mcq-12": "「傷口癒合後形成的疤痕／瘢痕組織」與本句語境不同。",
-        "tissue-mcq-16": "「正式／文學：一連串互相交織的謊言」與本句語境不同。",
-        "tissue-mcq-11": "「負責傳遞神經訊號的神經組織」與本句語境不同。"
+        "tissue-mcq-14": "本句的「tissue sample」指「從身體取出作檢驗的組織樣本」。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-14"
     },
@@ -1035,11 +943,9 @@ export default {
       "masked": "The ____ was sent to the laboratory.",
       "options": [
         "tissue-mcq-14",
-        "tissue-mcq-13",
-        "tissue-mcq-15",
-        "tissue-mcq-12",
-        "tissue-mcq-16",
-        "tissue-mcq-11"
+        "tissue-mcq-02",
+        "tissue-mcq-03",
+        "tissue-mcq-16"
       ],
       "explanation": "本句的「tissue sample」指「從身體取出作檢驗的組織樣本」。",
       "sentenceIndex": 29,
@@ -1048,12 +954,10 @@ export default {
         "tissue sample"
       ],
       "optionReasons": {
-        "tissue-mcq-14": "本句指「從身體取出作檢驗的組織樣本」。",
-        "tissue-mcq-13": "「主要由脂肪細胞構成的脂肪組織」與本句語境不同。",
-        "tissue-mcq-15": "「在實驗室控制環境中培養細胞／組織的組織培養」與本句語境不同。",
-        "tissue-mcq-12": "「傷口癒合後形成的疤痕／瘢痕組織」與本句語境不同。",
-        "tissue-mcq-16": "「正式／文學：一連串互相交織的謊言」與本句語境不同。",
-        "tissue-mcq-11": "「負責傳遞神經訊號的神經組織」與本句語境不同。"
+        "tissue-mcq-14": "本句的「tissue sample」指「從身體取出作檢驗的組織樣本」。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-14"
     },
@@ -1065,11 +969,8 @@ export default {
       "masked": "The researchers used ____ techniques.",
       "options": [
         "tissue-mcq-15",
-        "tissue-mcq-14",
-        "tissue-mcq-16",
-        "tissue-mcq-13",
-        "tissue-mcq-12",
-        "tissue-mcq-11"
+        "tissue-mcq-01",
+        "tissue-mcq-04"
       ],
       "explanation": "本句的「tissue culture」指「在實驗室控制環境中培養細胞／組織的組織培養」。",
       "sentenceIndex": 30,
@@ -1078,12 +979,9 @@ export default {
         "tissue culture"
       ],
       "optionReasons": {
-        "tissue-mcq-15": "本句指「在實驗室控制環境中培養細胞／組織的組織培養」。",
-        "tissue-mcq-14": "「從身體取出作檢驗的組織樣本」與本句語境不同。",
-        "tissue-mcq-16": "「正式／文學：一連串互相交織的謊言」與本句語境不同。",
-        "tissue-mcq-13": "「主要由脂肪細胞構成的脂肪組織」與本句語境不同。",
-        "tissue-mcq-12": "「傷口癒合後形成的疤痕／瘢痕組織」與本句語境不同。",
-        "tissue-mcq-11": "「負責傳遞神經訊號的神經組織」與本句語境不同。"
+        "tissue-mcq-15": "本句的「tissue culture」指「在實驗室控制環境中培養細胞／組織的組織培養」。",
+        "tissue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-15"
     },
@@ -1095,11 +993,8 @@ export default {
       "masked": "The cells were grown through ____.",
       "options": [
         "tissue-mcq-15",
-        "tissue-mcq-14",
-        "tissue-mcq-16",
-        "tissue-mcq-13",
-        "tissue-mcq-12",
-        "tissue-mcq-11"
+        "tissue-mcq-04",
+        "tissue-mcq-01"
       ],
       "explanation": "本句的「tissue culture」指「在實驗室控制環境中培養細胞／組織的組織培養」。",
       "sentenceIndex": 31,
@@ -1108,12 +1003,9 @@ export default {
         "tissue culture"
       ],
       "optionReasons": {
-        "tissue-mcq-15": "本句指「在實驗室控制環境中培養細胞／組織的組織培養」。",
-        "tissue-mcq-14": "「從身體取出作檢驗的組織樣本」與本句語境不同。",
-        "tissue-mcq-16": "「正式／文學：一連串互相交織的謊言」與本句語境不同。",
-        "tissue-mcq-13": "「主要由脂肪細胞構成的脂肪組織」與本句語境不同。",
-        "tissue-mcq-12": "「傷口癒合後形成的疤痕／瘢痕組織」與本句語境不同。",
-        "tissue-mcq-11": "「負責傳遞神經訊號的神經組織」與本句語境不同。"
+        "tissue-mcq-15": "本句的「tissue culture」指「在實驗室控制環境中培養細胞／組織的組織培養」。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-15"
     },
@@ -1125,11 +1017,9 @@ export default {
       "masked": "He dismissed the story as ____.",
       "options": [
         "tissue-mcq-16",
-        "tissue-mcq-15",
-        "tissue-mcq-14",
-        "tissue-mcq-13",
-        "tissue-mcq-12",
-        "tissue-mcq-11"
+        "tissue-mcq-03",
+        "tissue-mcq-02",
+        "tissue-mcq-10"
       ],
       "explanation": "本句的「a tissue of lies」指「正式／文學：一連串互相交織的謊言」。",
       "sentenceIndex": 32,
@@ -1138,12 +1028,10 @@ export default {
         "a tissue of lies"
       ],
       "optionReasons": {
-        "tissue-mcq-16": "本句指「正式／文學：一連串互相交織的謊言」。",
-        "tissue-mcq-15": "「在實驗室控制環境中培養細胞／組織的組織培養」與本句語境不同。",
-        "tissue-mcq-14": "「從身體取出作檢驗的組織樣本」與本句語境不同。",
-        "tissue-mcq-13": "「主要由脂肪細胞構成的脂肪組織」與本句語境不同。",
-        "tissue-mcq-12": "「傷口癒合後形成的疤痕／瘢痕組織」與本句語境不同。",
-        "tissue-mcq-11": "「負責傳遞神經訊號的神經組織」與本句語境不同。"
+        "tissue-mcq-16": "本句的「a tissue of lies」指「正式／文學：一連串互相交織的謊言」。",
+        "tissue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-16"
     },
@@ -1155,11 +1043,9 @@ export default {
       "masked": "The account turned out to be ____.",
       "options": [
         "tissue-mcq-16",
-        "tissue-mcq-15",
-        "tissue-mcq-14",
-        "tissue-mcq-13",
-        "tissue-mcq-12",
-        "tissue-mcq-11"
+        "tissue-mcq-01",
+        "tissue-mcq-04",
+        "tissue-mcq-14"
       ],
       "explanation": "本句的「a tissue of lies」指「正式／文學：一連串互相交織的謊言」。",
       "sentenceIndex": 33,
@@ -1168,12 +1054,10 @@ export default {
         "a tissue of lies"
       ],
       "optionReasons": {
-        "tissue-mcq-16": "本句指「正式／文學：一連串互相交織的謊言」。",
-        "tissue-mcq-15": "「在實驗室控制環境中培養細胞／組織的組織培養」與本句語境不同。",
-        "tissue-mcq-14": "「從身體取出作檢驗的組織樣本」與本句語境不同。",
-        "tissue-mcq-13": "「主要由脂肪細胞構成的脂肪組織」與本句語境不同。",
-        "tissue-mcq-12": "「傷口癒合後形成的疤痕／瘢痕組織」與本句語境不同。",
-        "tissue-mcq-11": "「負責傳遞神經訊號的神經組織」與本句語境不同。"
+        "tissue-mcq-16": "本句的「a tissue of lies」指「正式／文學：一連串互相交織的謊言」。",
+        "tissue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tissue-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tissue-mcq-16"
     }
@@ -1185,5 +1069,7 @@ export default {
     "sha256": "13b9244b901e5f2c39045e041c01ba38a797c27e372bd78597e7e490fba5eba6",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

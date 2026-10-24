@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "stop-mcq-11",
-      "title": "表示雨／雪停止；例句：「雨終於停了。」",
+      "title": "雨／雪停止",
       "form": "stop raining/snowing etc.",
       "en": "stop raining/snowing etc.",
       "zh": "表示雨／雪停止；例句：「雨終於停了。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "stop-mcq-15",
-      "title": "表示突然停住；例句：「他看到那隻狗時突然停住了。」",
+      "title": "突然停住",
       "form": "stop short",
       "en": "stop short",
       "zh": "表示突然停住；例句：「他看到那隻狗時突然停住了。」",
@@ -601,7 +601,7 @@ export default {
     },
     {
       "id": "stop-mcq-28",
-      "title": "表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」",
+      "title": "無法阻止的；勢不可擋的",
       "form": "unstoppable",
       "en": "unstoppable",
       "zh": "表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」",
@@ -807,11 +807,9 @@ export default {
       "masked": "He ____ when the teacher entered the room.",
       "options": [
         "stop-mcq-01",
-        "stop-mcq-02",
-        "stop-mcq-03",
-        "stop-mcq-04",
-        "stop-mcq-05",
-        "stop-mcq-06"
+        "stop-mcq-29",
+        "stop-mcq-20",
+        "stop-mcq-05"
       ],
       "explanation": "本句的「stopped talking」指「停止原本正在進行或反覆進行的行為」。",
       "sentenceIndex": 0,
@@ -820,12 +818,10 @@ export default {
         "stopped talking"
       ],
       "optionReasons": {
-        "stop-mcq-01": "本句指「停止原本正在進行或反覆進行的行為」。",
-        "stop-mcq-02": "「暫停原本正在做的事情，以便進行另一件事」是「stop to do something」的用法，與本句語境不同。",
-        "stop-mcq-03": "「不再移動，由移動狀態變成靜止」是「stop（停止移動）」的用法，與本句語境不同。",
-        "stop-mcq-04": "「在某個地方停止移動或短暫停留」是「stop somewhere」的用法，與本句語境不同。",
-        "stop-mcq-05": "「使某項活動、過程或事件不再繼續」是「stop something」的用法，與本句語境不同。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。"
+        "stop-mcq-01": "本句的「stopped talking」指「停止原本正在進行或反覆進行的行為」。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-01"
     },
@@ -837,11 +833,9 @@ export default {
       "masked": "I need to ____ so often.",
       "options": [
         "stop-mcq-01",
-        "stop-mcq-02",
-        "stop-mcq-03",
-        "stop-mcq-04",
-        "stop-mcq-05",
-        "stop-mcq-06"
+        "stop-mcq-33",
+        "stop-mcq-26",
+        "stop-mcq-34"
       ],
       "explanation": "本句的「stop checking my phone」指「停止原本正在進行或反覆進行的行為」。",
       "sentenceIndex": 1,
@@ -850,12 +844,10 @@ export default {
         "stop checking my phone"
       ],
       "optionReasons": {
-        "stop-mcq-01": "本句指「停止原本正在進行或反覆進行的行為」。",
-        "stop-mcq-02": "「暫停原本正在做的事情，以便進行另一件事」是「stop to do something」的用法，與本句語境不同。",
-        "stop-mcq-03": "「不再移動，由移動狀態變成靜止」是「stop（停止移動）」的用法，與本句語境不同。",
-        "stop-mcq-04": "「在某個地方停止移動或短暫停留」是「stop somewhere」的用法，與本句語境不同。",
-        "stop-mcq-05": "「使某項活動、過程或事件不再繼續」是「stop something」的用法，與本句語境不同。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。"
+        "stop-mcq-01": "本句的「stop checking my phone」指「停止原本正在進行或反覆進行的行為」。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-01"
     },
@@ -867,11 +859,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "stop-mcq-02",
-        "stop-mcq-01",
+        "stop-mcq-20",
         "stop-mcq-03",
-        "stop-mcq-04",
-        "stop-mcq-05",
-        "stop-mcq-06"
+        "stop-mcq-29"
       ],
       "explanation": "本句的「stopped to have lunch」指「暫停原本正在做的事情，以便進行另一件事」。",
       "sentenceIndex": 2,
@@ -880,12 +870,10 @@ export default {
         "stopped to have lunch"
       ],
       "optionReasons": {
-        "stop-mcq-02": "本句指「暫停原本正在做的事情，以便進行另一件事」。",
-        "stop-mcq-01": "「停止原本正在進行或反覆進行的行為」是「stop doing something」的用法，與本句語境不同。",
-        "stop-mcq-03": "「不再移動，由移動狀態變成靜止」是「stop（停止移動）」的用法，與本句語境不同。",
-        "stop-mcq-04": "「在某個地方停止移動或短暫停留」是「stop somewhere」的用法，與本句語境不同。",
-        "stop-mcq-05": "「使某項活動、過程或事件不再繼續」是「stop something」的用法，與本句語境不同。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。"
+        "stop-mcq-02": "本句的「stopped to have lunch」指「暫停原本正在做的事情，以便進行另一件事」。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-02"
     },
@@ -897,11 +885,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "stop-mcq-02",
-        "stop-mcq-01",
-        "stop-mcq-03",
-        "stop-mcq-04",
-        "stop-mcq-05",
-        "stop-mcq-06"
+        "stop-mcq-29",
+        "stop-mcq-28",
+        "stop-mcq-34"
       ],
       "explanation": "本句的「stopped to answer the phone」指「暫停原本正在做的事情，以便進行另一件事」。",
       "sentenceIndex": 3,
@@ -910,12 +896,10 @@ export default {
         "stopped to answer the phone"
       ],
       "optionReasons": {
-        "stop-mcq-02": "本句指「暫停原本正在做的事情，以便進行另一件事」。",
-        "stop-mcq-01": "「停止原本正在進行或反覆進行的行為」是「stop doing something」的用法，與本句語境不同。",
-        "stop-mcq-03": "「不再移動，由移動狀態變成靜止」是「stop（停止移動）」的用法，與本句語境不同。",
-        "stop-mcq-04": "「在某個地方停止移動或短暫停留」是「stop somewhere」的用法，與本句語境不同。",
-        "stop-mcq-05": "「使某項活動、過程或事件不再繼續」是「stop something」的用法，與本句語境不同。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。"
+        "stop-mcq-02": "本句的「stopped to answer the phone」指「暫停原本正在做的事情，以便進行另一件事」。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-02"
     },
@@ -927,11 +911,9 @@ export default {
       "masked": "The car suddenly ____.",
       "options": [
         "stop-mcq-03",
-        "stop-mcq-02",
-        "stop-mcq-04",
-        "stop-mcq-01",
-        "stop-mcq-05",
-        "stop-mcq-06"
+        "stop-mcq-22",
+        "stop-mcq-35",
+        "stop-mcq-33"
       ],
       "explanation": "本句的「stopped」指「不再移動，由移動狀態變成靜止」。",
       "sentenceIndex": 4,
@@ -940,12 +922,10 @@ export default {
         "stopped"
       ],
       "optionReasons": {
-        "stop-mcq-03": "本句指「不再移動，由移動狀態變成靜止」。",
-        "stop-mcq-02": "「暫停原本正在做的事情，以便進行另一件事」是「stop to do something」的用法，與本句語境不同。",
-        "stop-mcq-04": "「在某個地方停止移動或短暫停留」是「stop somewhere」的用法，與本句語境不同。",
-        "stop-mcq-01": "「停止原本正在進行或反覆進行的行為」是「stop doing something」的用法，與本句語境不同。",
-        "stop-mcq-05": "「使某項活動、過程或事件不再繼續」是「stop something」的用法，與本句語境不同。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。"
+        "stop-mcq-03": "本句的「stopped」指「不再移動，由移動狀態變成靜止」。",
+        "stop-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-03"
     },
@@ -958,10 +938,8 @@ export default {
       "options": [
         "stop-mcq-03",
         "stop-mcq-02",
-        "stop-mcq-04",
-        "stop-mcq-01",
-        "stop-mcq-05",
-        "stop-mcq-06"
+        "stop-mcq-15",
+        "stop-mcq-20"
       ],
       "explanation": "本句的「stopped」指「不再移動，由移動狀態變成靜止」。",
       "sentenceIndex": 5,
@@ -970,12 +948,10 @@ export default {
         "stopped"
       ],
       "optionReasons": {
-        "stop-mcq-03": "本句指「不再移動，由移動狀態變成靜止」。",
-        "stop-mcq-02": "「暫停原本正在做的事情，以便進行另一件事」是「stop to do something」的用法，與本句語境不同。",
-        "stop-mcq-04": "「在某個地方停止移動或短暫停留」是「stop somewhere」的用法，與本句語境不同。",
-        "stop-mcq-01": "「停止原本正在進行或反覆進行的行為」是「stop doing something」的用法，與本句語境不同。",
-        "stop-mcq-05": "「使某項活動、過程或事件不再繼續」是「stop something」的用法，與本句語境不同。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。"
+        "stop-mcq-03": "本句的「stopped」指「不再移動，由移動狀態變成靜止」。",
+        "stop-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-03"
     },
@@ -987,11 +963,9 @@ export default {
       "masked": "The bus ____.",
       "options": [
         "stop-mcq-04",
-        "stop-mcq-03",
-        "stop-mcq-05",
-        "stop-mcq-02",
-        "stop-mcq-06",
-        "stop-mcq-01"
+        "stop-mcq-30",
+        "stop-mcq-29",
+        "stop-mcq-26"
       ],
       "explanation": "本句的「stops outside the station」指「在某個地方停止移動或短暫停留」。",
       "sentenceIndex": 6,
@@ -1000,12 +974,10 @@ export default {
         "stops outside the station"
       ],
       "optionReasons": {
-        "stop-mcq-04": "本句指「在某個地方停止移動或短暫停留」。",
-        "stop-mcq-03": "「不再移動，由移動狀態變成靜止」是「stop（停止移動）」的用法，與本句語境不同。",
-        "stop-mcq-05": "「使某項活動、過程或事件不再繼續」是「stop something」的用法，與本句語境不同。",
-        "stop-mcq-02": "「暫停原本正在做的事情，以便進行另一件事」是「stop to do something」的用法，與本句語境不同。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。",
-        "stop-mcq-01": "「停止原本正在進行或反覆進行的行為」是「stop doing something」的用法，與本句語境不同。"
+        "stop-mcq-04": "本句的「stops outside the station」指「在某個地方停止移動或短暫停留」。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-04"
     },
@@ -1017,11 +989,9 @@ export default {
       "masked": "We ____ on the way home.",
       "options": [
         "stop-mcq-04",
-        "stop-mcq-03",
-        "stop-mcq-05",
-        "stop-mcq-02",
-        "stop-mcq-06",
-        "stop-mcq-01"
+        "stop-mcq-13",
+        "stop-mcq-09",
+        "stop-mcq-30"
       ],
       "explanation": "本句的「stopped at a small café」指「在某個地方停止移動或短暫停留」。",
       "sentenceIndex": 7,
@@ -1030,12 +1000,10 @@ export default {
         "stopped at a small café"
       ],
       "optionReasons": {
-        "stop-mcq-04": "本句指「在某個地方停止移動或短暫停留」。",
-        "stop-mcq-03": "「不再移動，由移動狀態變成靜止」是「stop（停止移動）」的用法，與本句語境不同。",
-        "stop-mcq-05": "「使某項活動、過程或事件不再繼續」是「stop something」的用法，與本句語境不同。",
-        "stop-mcq-02": "「暫停原本正在做的事情，以便進行另一件事」是「stop to do something」的用法，與本句語境不同。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。",
-        "stop-mcq-01": "「停止原本正在進行或反覆進行的行為」是「stop doing something」的用法，與本句語境不同。"
+        "stop-mcq-04": "本句的「stopped at a small café」指「在某個地方停止移動或短暫停留」。",
+        "stop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-04"
     },
@@ -1047,11 +1015,9 @@ export default {
       "masked": "Nothing could ____ from spreading.",
       "options": [
         "stop-mcq-05",
-        "stop-mcq-04",
-        "stop-mcq-06",
-        "stop-mcq-03",
-        "stop-mcq-07",
-        "stop-mcq-02"
+        "stop-mcq-28",
+        "stop-mcq-18",
+        "stop-mcq-21"
       ],
       "explanation": "本句的「stop the fire」指「使某項活動、過程或事件不再繼續」。",
       "sentenceIndex": 8,
@@ -1060,12 +1026,10 @@ export default {
         "stop the fire"
       ],
       "optionReasons": {
-        "stop-mcq-05": "本句指「使某項活動、過程或事件不再繼續」。",
-        "stop-mcq-04": "「在某個地方停止移動或短暫停留」是「stop somewhere」的用法，與本句語境不同。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。",
-        "stop-mcq-03": "「不再移動，由移動狀態變成靜止」是「stop（停止移動）」的用法，與本句語境不同。",
-        "stop-mcq-07": "「使某人不能或不再進行某項行動」是「stop someone from doing something」的用法，與本句語境不同。",
-        "stop-mcq-02": "「暫停原本正在做的事情，以便進行另一件事」是「stop to do something」的用法，與本句語境不同。"
+        "stop-mcq-05": "本句的「stop the fire」指「使某項活動、過程或事件不再繼續」。",
+        "stop-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-05"
     },
@@ -1077,11 +1041,9 @@ export default {
       "masked": "The referee ____.",
       "options": [
         "stop-mcq-05",
-        "stop-mcq-04",
-        "stop-mcq-06",
-        "stop-mcq-03",
-        "stop-mcq-07",
-        "stop-mcq-02"
+        "stop-mcq-28",
+        "stop-mcq-16",
+        "stop-mcq-29"
       ],
       "explanation": "本句的「stopped the game」指「使某項活動、過程或事件不再繼續」。",
       "sentenceIndex": 9,
@@ -1090,12 +1052,10 @@ export default {
         "stopped the game"
       ],
       "optionReasons": {
-        "stop-mcq-05": "本句指「使某項活動、過程或事件不再繼續」。",
-        "stop-mcq-04": "「在某個地方停止移動或短暫停留」是「stop somewhere」的用法，與本句語境不同。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。",
-        "stop-mcq-03": "「不再移動，由移動狀態變成靜止」是「stop（停止移動）」的用法，與本句語境不同。",
-        "stop-mcq-07": "「使某人不能或不再進行某項行動」是「stop someone from doing something」的用法，與本句語境不同。",
-        "stop-mcq-02": "「暫停原本正在做的事情，以便進行另一件事」是「stop to do something」的用法，與本句語境不同。"
+        "stop-mcq-05": "本句的「stopped the game」指「使某項活動、過程或事件不再繼續」。",
+        "stop-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-05"
     },
@@ -1107,11 +1067,9 @@ export default {
       "masked": "A police officer ____ outside the building.",
       "options": [
         "stop-mcq-06",
-        "stop-mcq-05",
-        "stop-mcq-07",
-        "stop-mcq-04",
-        "stop-mcq-08",
-        "stop-mcq-03"
+        "stop-mcq-15",
+        "stop-mcq-10",
+        "stop-mcq-33"
       ],
       "explanation": "本句的「stopped him」指「使某人不能繼續移動、離開或進行某個行動」。",
       "sentenceIndex": 10,
@@ -1120,12 +1078,10 @@ export default {
         "stopped him"
       ],
       "optionReasons": {
-        "stop-mcq-06": "本句指「使某人不能繼續移動、離開或進行某個行動」。",
-        "stop-mcq-05": "「使某項活動、過程或事件不再繼續」是「stop something」的用法，與本句語境不同。",
-        "stop-mcq-07": "「使某人不能或不再進行某項行動」是「stop someone from doing something」的用法，與本句語境不同。",
-        "stop-mcq-04": "「在某個地方停止移動或短暫停留」是「stop somewhere」的用法，與本句語境不同。",
-        "stop-mcq-08": "「阻止某件事情開始或繼續發生」是「stop something from happening」的用法，與本句語境不同。",
-        "stop-mcq-03": "「不再移動，由移動狀態變成靜止」是「stop（停止移動）」的用法，與本句語境不同。"
+        "stop-mcq-06": "本句的「stopped him」指「使某人不能繼續移動、離開或進行某個行動」。",
+        "stop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-06"
     },
@@ -1137,11 +1093,9 @@ export default {
       "masked": "I tried to leave, but she ____.",
       "options": [
         "stop-mcq-06",
-        "stop-mcq-05",
-        "stop-mcq-07",
-        "stop-mcq-04",
-        "stop-mcq-08",
-        "stop-mcq-03"
+        "stop-mcq-33",
+        "stop-mcq-15",
+        "stop-mcq-11"
       ],
       "explanation": "本句的「stopped me」指「使某人不能繼續移動、離開或進行某個行動」。",
       "sentenceIndex": 11,
@@ -1150,12 +1104,10 @@ export default {
         "stopped me"
       ],
       "optionReasons": {
-        "stop-mcq-06": "本句指「使某人不能繼續移動、離開或進行某個行動」。",
-        "stop-mcq-05": "「使某項活動、過程或事件不再繼續」是「stop something」的用法，與本句語境不同。",
-        "stop-mcq-07": "「使某人不能或不再進行某項行動」是「stop someone from doing something」的用法，與本句語境不同。",
-        "stop-mcq-04": "「在某個地方停止移動或短暫停留」是「stop somewhere」的用法，與本句語境不同。",
-        "stop-mcq-08": "「阻止某件事情開始或繼續發生」是「stop something from happening」的用法，與本句語境不同。",
-        "stop-mcq-03": "「不再移動，由移動狀態變成靜止」是「stop（停止移動）」的用法，與本句語境不同。"
+        "stop-mcq-06": "本句的「stopped me」指「使某人不能繼續移動、離開或進行某個行動」。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-06"
     },
@@ -1167,11 +1119,9 @@ export default {
       "masked": "Nothing could ____.",
       "options": [
         "stop-mcq-07",
-        "stop-mcq-06",
-        "stop-mcq-08",
-        "stop-mcq-05",
-        "stop-mcq-09",
-        "stop-mcq-04"
+        "stop-mcq-12",
+        "stop-mcq-15",
+        "stop-mcq-20"
       ],
       "explanation": "本句的「stop him from asking questions」指「使某人不能或不再進行某項行動」。",
       "sentenceIndex": 12,
@@ -1180,12 +1130,10 @@ export default {
         "stop him from asking questions"
       ],
       "optionReasons": {
-        "stop-mcq-07": "本句指「使某人不能或不再進行某項行動」。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。",
-        "stop-mcq-08": "「阻止某件事情開始或繼續發生」是「stop something from happening」的用法，與本句語境不同。",
-        "stop-mcq-05": "「使某項活動、過程或事件不再繼續」是「stop something」的用法，與本句語境不同。",
-        "stop-mcq-09": "「機器、設備或系統不再正常運作」是「stop working（機器）」的用法，與本句語境不同。",
-        "stop-mcq-04": "「在某個地方停止移動或短暫停留」是「stop somewhere」的用法，與本句語境不同。"
+        "stop-mcq-07": "本句的「stop him from asking questions」指「使某人不能或不再進行某項行動」。",
+        "stop-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-07"
     },
@@ -1197,11 +1145,9 @@ export default {
       "masked": "The rain didn't ____.",
       "options": [
         "stop-mcq-07",
-        "stop-mcq-06",
         "stop-mcq-08",
-        "stop-mcq-05",
-        "stop-mcq-09",
-        "stop-mcq-04"
+        "stop-mcq-20",
+        "stop-mcq-29"
       ],
       "explanation": "本句的「stop us from going out」指「使某人不能或不再進行某項行動」。",
       "sentenceIndex": 13,
@@ -1210,12 +1156,10 @@ export default {
         "stop us from going out"
       ],
       "optionReasons": {
-        "stop-mcq-07": "本句指「使某人不能或不再進行某項行動」。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。",
-        "stop-mcq-08": "「阻止某件事情開始或繼續發生」是「stop something from happening」的用法，與本句語境不同。",
-        "stop-mcq-05": "「使某項活動、過程或事件不再繼續」是「stop something」的用法，與本句語境不同。",
-        "stop-mcq-09": "「機器、設備或系統不再正常運作」是「stop working（機器）」的用法，與本句語境不同。",
-        "stop-mcq-04": "「在某個地方停止移動或短暫停留」是「stop somewhere」的用法，與本句語境不同。"
+        "stop-mcq-07": "本句的「stop us from going out」指「使某人不能或不再進行某項行動」。",
+        "stop-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-07"
     },
@@ -1227,11 +1171,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "stop-mcq-08",
-        "stop-mcq-07",
-        "stop-mcq-09",
-        "stop-mcq-06",
-        "stop-mcq-10",
-        "stop-mcq-05"
+        "stop-mcq-34",
+        "stop-mcq-21",
+        "stop-mcq-29"
       ],
       "explanation": "本句的「stop the problem from getting worse」指「阻止某件事情開始或繼續發生」。",
       "sentenceIndex": 14,
@@ -1240,12 +1182,10 @@ export default {
         "stop the problem from getting worse"
       ],
       "optionReasons": {
-        "stop-mcq-08": "本句指「阻止某件事情開始或繼續發生」。",
-        "stop-mcq-07": "「使某人不能或不再進行某項行動」是「stop someone from doing something」的用法，與本句語境不同。",
-        "stop-mcq-09": "「機器、設備或系統不再正常運作」是「stop working（機器）」的用法，與本句語境不同。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。",
-        "stop-mcq-10": "「人時，表示停止工作；不再做事」是「stop working（人）」的用法，與本句語境不同。",
-        "stop-mcq-05": "「使某項活動、過程或事件不再繼續」是「stop something」的用法，與本句語境不同。"
+        "stop-mcq-08": "本句的「stop the problem from getting worse」指「阻止某件事情開始或繼續發生」。",
+        "stop-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-08"
     },
@@ -1258,10 +1198,8 @@ export default {
       "options": [
         "stop-mcq-08",
         "stop-mcq-07",
-        "stop-mcq-09",
-        "stop-mcq-06",
-        "stop-mcq-10",
-        "stop-mcq-05"
+        "stop-mcq-15",
+        "stop-mcq-20"
       ],
       "explanation": "本句的「stop water from entering the building」指「阻止某件事情開始或繼續發生」。",
       "sentenceIndex": 15,
@@ -1270,12 +1208,10 @@ export default {
         "stop water from entering the building"
       ],
       "optionReasons": {
-        "stop-mcq-08": "本句指「阻止某件事情開始或繼續發生」。",
-        "stop-mcq-07": "「使某人不能或不再進行某項行動」是「stop someone from doing something」的用法，與本句語境不同。",
-        "stop-mcq-09": "「機器、設備或系統不再正常運作」是「stop working（機器）」的用法，與本句語境不同。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。",
-        "stop-mcq-10": "「人時，表示停止工作；不再做事」是「stop working（人）」的用法，與本句語境不同。",
-        "stop-mcq-05": "「使某項活動、過程或事件不再繼續」是「stop something」的用法，與本句語境不同。"
+        "stop-mcq-08": "本句的「stop water from entering the building」指「阻止某件事情開始或繼續發生」。",
+        "stop-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-08"
     },
@@ -1287,11 +1223,9 @@ export default {
       "masked": "My computer suddenly ____.",
       "options": [
         "stop-mcq-09",
-        "stop-mcq-08",
-        "stop-mcq-10",
-        "stop-mcq-07",
-        "stop-mcq-11",
-        "stop-mcq-06"
+        "stop-mcq-19",
+        "stop-mcq-28",
+        "stop-mcq-21"
       ],
       "explanation": "本句的「stopped working」指「機器、設備或系統不再正常運作」。",
       "sentenceIndex": 16,
@@ -1300,12 +1234,10 @@ export default {
         "stopped working"
       ],
       "optionReasons": {
-        "stop-mcq-09": "本句指「機器、設備或系統不再正常運作」。",
-        "stop-mcq-08": "「阻止某件事情開始或繼續發生」是「stop something from happening」的用法，與本句語境不同。",
-        "stop-mcq-10": "「人時，表示停止工作；不再做事」是「stop working（人）」的用法，與本句語境不同。",
-        "stop-mcq-07": "「使某人不能或不再進行某項行動」是「stop someone from doing something」的用法，與本句語境不同。",
-        "stop-mcq-11": "「表示雨／雪停止；例句：「雨終於停了。」」是「stop raining/snowing etc.」的用法，與本句語境不同。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。"
+        "stop-mcq-09": "本句的「stopped working」指「機器、設備或系統不再正常運作」。",
+        "stop-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-09"
     },
@@ -1317,11 +1249,9 @@ export default {
       "masked": "The lift ____ yesterday.",
       "options": [
         "stop-mcq-09",
-        "stop-mcq-08",
-        "stop-mcq-10",
-        "stop-mcq-07",
-        "stop-mcq-11",
-        "stop-mcq-06"
+        "stop-mcq-34",
+        "stop-mcq-30",
+        "stop-mcq-36"
       ],
       "explanation": "本句的「stopped working」指「機器、設備或系統不再正常運作」。",
       "sentenceIndex": 17,
@@ -1330,12 +1260,10 @@ export default {
         "stopped working"
       ],
       "optionReasons": {
-        "stop-mcq-09": "本句指「機器、設備或系統不再正常運作」。",
-        "stop-mcq-08": "「阻止某件事情開始或繼續發生」是「stop something from happening」的用法，與本句語境不同。",
-        "stop-mcq-10": "「人時，表示停止工作；不再做事」是「stop working（人）」的用法，與本句語境不同。",
-        "stop-mcq-07": "「使某人不能或不再進行某項行動」是「stop someone from doing something」的用法，與本句語境不同。",
-        "stop-mcq-11": "「表示雨／雪停止；例句：「雨終於停了。」」是「stop raining/snowing etc.」的用法，與本句語境不同。",
-        "stop-mcq-06": "「使某人不能繼續移動、離開或進行某個行動」是「stop someone」的用法，與本句語境不同。"
+        "stop-mcq-09": "本句的「stopped working」指「機器、設備或系統不再正常運作」。",
+        "stop-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-09"
     },
@@ -1347,11 +1275,9 @@ export default {
       "masked": "She ____ at six.",
       "options": [
         "stop-mcq-10",
-        "stop-mcq-09",
-        "stop-mcq-11",
-        "stop-mcq-08",
-        "stop-mcq-12",
-        "stop-mcq-07"
+        "stop-mcq-30",
+        "stop-mcq-13",
+        "stop-mcq-20"
       ],
       "explanation": "本句的「stopped working」指「人時，表示停止工作；不再做事」。",
       "sentenceIndex": 18,
@@ -1360,12 +1286,10 @@ export default {
         "stopped working"
       ],
       "optionReasons": {
-        "stop-mcq-10": "本句指「人時，表示停止工作；不再做事」。",
-        "stop-mcq-09": "「機器、設備或系統不再正常運作」是「stop working（機器）」的用法，與本句語境不同。",
-        "stop-mcq-11": "「表示雨／雪停止；例句：「雨終於停了。」」是「stop raining/snowing etc.」的用法，與本句語境不同。",
-        "stop-mcq-08": "「阻止某件事情開始或繼續發生」是「stop something from happening」的用法，與本句語境不同。",
-        "stop-mcq-12": "「某種身體反應、感覺或狀態停止」是「stop hurting / bleeding / shaking」的用法，與本句語境不同。",
-        "stop-mcq-07": "「使某人不能或不再進行某項行動」是「stop someone from doing something」的用法，與本句語境不同。"
+        "stop-mcq-10": "本句的「stopped working」指「人時，表示停止工作；不再做事」。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-10"
     },
@@ -1377,11 +1301,9 @@ export default {
       "masked": "He ____ when he retired.",
       "options": [
         "stop-mcq-10",
-        "stop-mcq-09",
-        "stop-mcq-11",
-        "stop-mcq-08",
-        "stop-mcq-12",
-        "stop-mcq-07"
+        "stop-mcq-34",
+        "stop-mcq-30",
+        "stop-mcq-35"
       ],
       "explanation": "本句的「stopped working」指「人時，表示停止工作；不再做事」。",
       "sentenceIndex": 19,
@@ -1390,12 +1312,10 @@ export default {
         "stopped working"
       ],
       "optionReasons": {
-        "stop-mcq-10": "本句指「人時，表示停止工作；不再做事」。",
-        "stop-mcq-09": "「機器、設備或系統不再正常運作」是「stop working（機器）」的用法，與本句語境不同。",
-        "stop-mcq-11": "「表示雨／雪停止；例句：「雨終於停了。」」是「stop raining/snowing etc.」的用法，與本句語境不同。",
-        "stop-mcq-08": "「阻止某件事情開始或繼續發生」是「stop something from happening」的用法，與本句語境不同。",
-        "stop-mcq-12": "「某種身體反應、感覺或狀態停止」是「stop hurting / bleeding / shaking」的用法，與本句語境不同。",
-        "stop-mcq-07": "「使某人不能或不再進行某項行動」是「stop someone from doing something」的用法，與本句語境不同。"
+        "stop-mcq-10": "本句的「stopped working」指「人時，表示停止工作；不再做事」。",
+        "stop-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-10"
     },
@@ -1407,11 +1327,9 @@ export default {
       "masked": "It finally ____.",
       "options": [
         "stop-mcq-11",
-        "stop-mcq-10",
-        "stop-mcq-12",
-        "stop-mcq-09",
-        "stop-mcq-13",
-        "stop-mcq-08"
+        "stop-mcq-27",
+        "stop-mcq-34",
+        "stop-mcq-33"
       ],
       "explanation": "本句的「stopped raining」指「表示雨／雪停止；例句：「雨終於停了。」」。",
       "sentenceIndex": 20,
@@ -1420,12 +1338,10 @@ export default {
         "stopped raining"
       ],
       "optionReasons": {
-        "stop-mcq-11": "本句指「表示雨／雪停止；例句：「雨終於停了。」」。",
-        "stop-mcq-10": "「人時，表示停止工作；不再做事」是「stop working（人）」的用法，與本句語境不同。",
-        "stop-mcq-12": "「某種身體反應、感覺或狀態停止」是「stop hurting / bleeding / shaking」的用法，與本句語境不同。",
-        "stop-mcq-09": "「機器、設備或系統不再正常運作」是「stop working（機器）」的用法，與本句語境不同。",
-        "stop-mcq-13": "「控制自己，不讓自己進行某個行為」是「stop yourself (from doing something)」的用法，與本句語境不同。",
-        "stop-mcq-08": "「阻止某件事情開始或繼續發生」是「stop something from happening」的用法，與本句語境不同。"
+        "stop-mcq-11": "本句的「stopped raining」指「表示雨／雪停止；例句：「雨終於停了。」」。",
+        "stop-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-11"
     },
@@ -1437,11 +1353,9 @@ export default {
       "masked": "The snow ____ just before noon.",
       "options": [
         "stop-mcq-11",
-        "stop-mcq-10",
-        "stop-mcq-12",
-        "stop-mcq-09",
-        "stop-mcq-13",
-        "stop-mcq-08"
+        "stop-mcq-33",
+        "stop-mcq-07",
+        "stop-mcq-29"
       ],
       "explanation": "本句的「stopped」指「表示雨／雪停止；例句：「雨終於停了。」」。",
       "sentenceIndex": 21,
@@ -1450,12 +1364,10 @@ export default {
         "stopped"
       ],
       "optionReasons": {
-        "stop-mcq-11": "本句指「表示雨／雪停止；例句：「雨終於停了。」」。",
-        "stop-mcq-10": "「人時，表示停止工作；不再做事」是「stop working（人）」的用法，與本句語境不同。",
-        "stop-mcq-12": "「某種身體反應、感覺或狀態停止」是「stop hurting / bleeding / shaking」的用法，與本句語境不同。",
-        "stop-mcq-09": "「機器、設備或系統不再正常運作」是「stop working（機器）」的用法，與本句語境不同。",
-        "stop-mcq-13": "「控制自己，不讓自己進行某個行為」是「stop yourself (from doing something)」的用法，與本句語境不同。",
-        "stop-mcq-08": "「阻止某件事情開始或繼續發生」是「stop something from happening」的用法，與本句語境不同。"
+        "stop-mcq-11": "本句的「stopped」指「表示雨／雪停止；例句：「雨終於停了。」」。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-11"
     },
@@ -1467,11 +1379,9 @@ export default {
       "masked": "My leg eventually ____.",
       "options": [
         "stop-mcq-12",
-        "stop-mcq-11",
-        "stop-mcq-13",
-        "stop-mcq-10",
-        "stop-mcq-14",
-        "stop-mcq-09"
+        "stop-mcq-30",
+        "stop-mcq-29",
+        "stop-mcq-27"
       ],
       "explanation": "本句的「stopped hurting」指「某種身體反應、感覺或狀態停止」。",
       "sentenceIndex": 22,
@@ -1480,12 +1390,10 @@ export default {
         "stopped hurting"
       ],
       "optionReasons": {
-        "stop-mcq-12": "本句指「某種身體反應、感覺或狀態停止」。",
-        "stop-mcq-11": "「表示雨／雪停止；例句：「雨終於停了。」」是「stop raining/snowing etc.」的用法，與本句語境不同。",
-        "stop-mcq-13": "「控制自己，不讓自己進行某個行為」是「stop yourself (from doing something)」的用法，與本句語境不同。",
-        "stop-mcq-10": "「人時，表示停止工作；不再做事」是「stop working（人）」的用法，與本句語境不同。",
-        "stop-mcq-14": "「無法讓自己停止某種行為或心理活動」是「can't stop doing something」的用法，與本句語境不同。",
-        "stop-mcq-09": "「機器、設備或系統不再正常運作」是「stop working（機器）」的用法，與本句語境不同。"
+        "stop-mcq-12": "本句的「stopped hurting」指「某種身體反應、感覺或狀態停止」。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-12"
     },
@@ -1497,11 +1405,9 @@ export default {
       "masked": "The cut ____ after a few minutes.",
       "options": [
         "stop-mcq-12",
-        "stop-mcq-11",
-        "stop-mcq-13",
-        "stop-mcq-10",
-        "stop-mcq-14",
-        "stop-mcq-09"
+        "stop-mcq-30",
+        "stop-mcq-09",
+        "stop-mcq-06"
       ],
       "explanation": "本句的「stopped bleeding」指「某種身體反應、感覺或狀態停止」。",
       "sentenceIndex": 23,
@@ -1510,12 +1416,10 @@ export default {
         "stopped bleeding"
       ],
       "optionReasons": {
-        "stop-mcq-12": "本句指「某種身體反應、感覺或狀態停止」。",
-        "stop-mcq-11": "「表示雨／雪停止；例句：「雨終於停了。」」是「stop raining/snowing etc.」的用法，與本句語境不同。",
-        "stop-mcq-13": "「控制自己，不讓自己進行某個行為」是「stop yourself (from doing something)」的用法，與本句語境不同。",
-        "stop-mcq-10": "「人時，表示停止工作；不再做事」是「stop working（人）」的用法，與本句語境不同。",
-        "stop-mcq-14": "「無法讓自己停止某種行為或心理活動」是「can't stop doing something」的用法，與本句語境不同。",
-        "stop-mcq-09": "「機器、設備或系統不再正常運作」是「stop working（機器）」的用法，與本句語境不同。"
+        "stop-mcq-12": "本句的「stopped bleeding」指「某種身體反應、感覺或狀態停止」。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-12"
     },
@@ -1527,11 +1431,9 @@ export default {
       "masked": "I couldn't ____.",
       "options": [
         "stop-mcq-13",
-        "stop-mcq-12",
-        "stop-mcq-14",
-        "stop-mcq-11",
-        "stop-mcq-15",
-        "stop-mcq-10"
+        "stop-mcq-10",
+        "stop-mcq-34",
+        "stop-mcq-35"
       ],
       "explanation": "本句的「stop myself from laughing」指「控制自己，不讓自己進行某個行為」。",
       "sentenceIndex": 24,
@@ -1540,12 +1442,10 @@ export default {
         "stop myself from laughing"
       ],
       "optionReasons": {
-        "stop-mcq-13": "本句指「控制自己，不讓自己進行某個行為」。",
-        "stop-mcq-12": "「某種身體反應、感覺或狀態停止」是「stop hurting / bleeding / shaking」的用法，與本句語境不同。",
-        "stop-mcq-14": "「無法讓自己停止某種行為或心理活動」是「can't stop doing something」的用法，與本句語境不同。",
-        "stop-mcq-11": "「表示雨／雪停止；例句：「雨終於停了。」」是「stop raining/snowing etc.」的用法，與本句語境不同。",
-        "stop-mcq-15": "「表示突然停住；例句：「他看到那隻狗時突然停住了。」」是「stop short」的用法，與本句語境不同。",
-        "stop-mcq-10": "「人時，表示停止工作；不再做事」是「stop working（人）」的用法，與本句語境不同。"
+        "stop-mcq-13": "本句的「stop myself from laughing」指「控制自己，不讓自己進行某個行為」。",
+        "stop-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-13"
     },
@@ -1557,11 +1457,9 @@ export default {
       "masked": "She ____ something rude.",
       "options": [
         "stop-mcq-13",
-        "stop-mcq-12",
-        "stop-mcq-14",
-        "stop-mcq-11",
-        "stop-mcq-15",
-        "stop-mcq-10"
+        "stop-mcq-16",
+        "stop-mcq-05",
+        "stop-mcq-35"
       ],
       "explanation": "本句的「stopped herself from saying」指「控制自己，不讓自己進行某個行為」。",
       "sentenceIndex": 25,
@@ -1570,12 +1468,10 @@ export default {
         "stopped herself from saying"
       ],
       "optionReasons": {
-        "stop-mcq-13": "本句指「控制自己，不讓自己進行某個行為」。",
-        "stop-mcq-12": "「某種身體反應、感覺或狀態停止」是「stop hurting / bleeding / shaking」的用法，與本句語境不同。",
-        "stop-mcq-14": "「無法讓自己停止某種行為或心理活動」是「can't stop doing something」的用法，與本句語境不同。",
-        "stop-mcq-11": "「表示雨／雪停止；例句：「雨終於停了。」」是「stop raining/snowing etc.」的用法，與本句語境不同。",
-        "stop-mcq-15": "「表示突然停住；例句：「他看到那隻狗時突然停住了。」」是「stop short」的用法，與本句語境不同。",
-        "stop-mcq-10": "「人時，表示停止工作；不再做事」是「stop working（人）」的用法，與本句語境不同。"
+        "stop-mcq-13": "本句的「stopped herself from saying」指「控制自己，不讓自己進行某個行為」。",
+        "stop-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-13"
     },
@@ -1587,11 +1483,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "stop-mcq-14",
-        "stop-mcq-13",
-        "stop-mcq-15",
-        "stop-mcq-12",
-        "stop-mcq-16",
-        "stop-mcq-11"
+        "stop-mcq-35",
+        "stop-mcq-09",
+        "stop-mcq-30"
       ],
       "explanation": "本句的「can't stop thinking about it」指「無法讓自己停止某種行為或心理活動」。",
       "sentenceIndex": 26,
@@ -1600,12 +1494,10 @@ export default {
         "can't stop thinking about it"
       ],
       "optionReasons": {
-        "stop-mcq-14": "本句指「無法讓自己停止某種行為或心理活動」。",
-        "stop-mcq-13": "「控制自己，不讓自己進行某個行為」是「stop yourself (from doing something)」的用法，與本句語境不同。",
-        "stop-mcq-15": "「表示突然停住；例句：「他看到那隻狗時突然停住了。」」是「stop short」的用法，與本句語境不同。",
-        "stop-mcq-12": "「某種身體反應、感覺或狀態停止」是「stop hurting / bleeding / shaking」的用法，與本句語境不同。",
-        "stop-mcq-16": "「接近做某事，但在真正做到之前停下」是「stop short of doing something」的用法，與本句語境不同。",
-        "stop-mcq-11": "「表示雨／雪停止；例句：「雨終於停了。」」是「stop raining/snowing etc.」的用法，與本句語境不同。"
+        "stop-mcq-14": "本句的「can't stop thinking about it」指「無法讓自己停止某種行為或心理活動」。",
+        "stop-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-14"
     },
@@ -1617,11 +1509,9 @@ export default {
       "masked": "The children ____.",
       "options": [
         "stop-mcq-14",
-        "stop-mcq-13",
-        "stop-mcq-15",
-        "stop-mcq-12",
-        "stop-mcq-16",
-        "stop-mcq-11"
+        "stop-mcq-30",
+        "stop-mcq-29",
+        "stop-mcq-35"
       ],
       "explanation": "本句的「couldn't stop laughing」指「無法讓自己停止某種行為或心理活動」。",
       "sentenceIndex": 27,
@@ -1630,12 +1520,10 @@ export default {
         "couldn't stop laughing"
       ],
       "optionReasons": {
-        "stop-mcq-14": "本句指「無法讓自己停止某種行為或心理活動」。",
-        "stop-mcq-13": "「控制自己，不讓自己進行某個行為」是「stop yourself (from doing something)」的用法，與本句語境不同。",
-        "stop-mcq-15": "「表示突然停住；例句：「他看到那隻狗時突然停住了。」」是「stop short」的用法，與本句語境不同。",
-        "stop-mcq-12": "「某種身體反應、感覺或狀態停止」是「stop hurting / bleeding / shaking」的用法，與本句語境不同。",
-        "stop-mcq-16": "「接近做某事，但在真正做到之前停下」是「stop short of doing something」的用法，與本句語境不同。",
-        "stop-mcq-11": "「表示雨／雪停止；例句：「雨終於停了。」」是「stop raining/snowing etc.」的用法，與本句語境不同。"
+        "stop-mcq-14": "本句的「couldn't stop laughing」指「無法讓自己停止某種行為或心理活動」。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-14"
     },
@@ -1647,11 +1535,9 @@ export default {
       "masked": "He ____ when he saw the dog.",
       "options": [
         "stop-mcq-15",
-        "stop-mcq-14",
-        "stop-mcq-16",
-        "stop-mcq-13",
-        "stop-mcq-17",
-        "stop-mcq-12"
+        "stop-mcq-07",
+        "stop-mcq-08",
+        "stop-mcq-20"
       ],
       "explanation": "本句的「stopped short」指「表示突然停住；例句：「他看到那隻狗時突然停住了。」」。",
       "sentenceIndex": 28,
@@ -1660,12 +1546,10 @@ export default {
         "stopped short"
       ],
       "optionReasons": {
-        "stop-mcq-15": "本句指「表示突然停住；例句：「他看到那隻狗時突然停住了。」」。",
-        "stop-mcq-14": "「無法讓自己停止某種行為或心理活動」是「can't stop doing something」的用法，與本句語境不同。",
-        "stop-mcq-16": "「接近做某事，但在真正做到之前停下」是「stop short of doing something」的用法，與本句語境不同。",
-        "stop-mcq-13": "「控制自己，不讓自己進行某個行為」是「stop yourself (from doing something)」的用法，與本句語境不同。",
-        "stop-mcq-17": "「突然而完全停止移動或行動」是「stop dead」的用法，與本句語境不同。",
-        "stop-mcq-12": "「某種身體反應、感覺或狀態停止」是「stop hurting / bleeding / shaking」的用法，與本句語境不同。"
+        "stop-mcq-15": "本句的「stopped short」指「表示突然停住；例句：「他看到那隻狗時突然停住了。」」。",
+        "stop-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-15"
     },
@@ -1677,11 +1561,9 @@ export default {
       "masked": "She ____ in the doorway.",
       "options": [
         "stop-mcq-15",
-        "stop-mcq-14",
-        "stop-mcq-16",
-        "stop-mcq-13",
-        "stop-mcq-17",
-        "stop-mcq-12"
+        "stop-mcq-03",
+        "stop-mcq-35",
+        "stop-mcq-34"
       ],
       "explanation": "本句的「stopped short」指「表示突然停住；例句：「他看到那隻狗時突然停住了。」」。",
       "sentenceIndex": 29,
@@ -1690,12 +1572,10 @@ export default {
         "stopped short"
       ],
       "optionReasons": {
-        "stop-mcq-15": "本句指「表示突然停住；例句：「他看到那隻狗時突然停住了。」」。",
-        "stop-mcq-14": "「無法讓自己停止某種行為或心理活動」是「can't stop doing something」的用法，與本句語境不同。",
-        "stop-mcq-16": "「接近做某事，但在真正做到之前停下」是「stop short of doing something」的用法，與本句語境不同。",
-        "stop-mcq-13": "「控制自己，不讓自己進行某個行為」是「stop yourself (from doing something)」的用法，與本句語境不同。",
-        "stop-mcq-17": "「突然而完全停止移動或行動」是「stop dead」的用法，與本句語境不同。",
-        "stop-mcq-12": "「某種身體反應、感覺或狀態停止」是「stop hurting / bleeding / shaking」的用法，與本句語境不同。"
+        "stop-mcq-15": "本句的「stopped short」指「表示突然停住；例句：「他看到那隻狗時突然停住了。」」。",
+        "stop-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-15"
     },
@@ -1707,11 +1587,9 @@ export default {
       "masked": "He criticized the plan but ____.",
       "options": [
         "stop-mcq-16",
-        "stop-mcq-15",
-        "stop-mcq-17",
-        "stop-mcq-14",
-        "stop-mcq-18",
-        "stop-mcq-13"
+        "stop-mcq-33",
+        "stop-mcq-05",
+        "stop-mcq-27"
       ],
       "explanation": "本句的「stopped short of rejecting it completely」指「接近做某事，但在真正做到之前停下」。",
       "sentenceIndex": 30,
@@ -1720,12 +1598,10 @@ export default {
         "stopped short of rejecting it completely"
       ],
       "optionReasons": {
-        "stop-mcq-16": "本句指「接近做某事，但在真正做到之前停下」。",
-        "stop-mcq-15": "「表示突然停住；例句：「他看到那隻狗時突然停住了。」」是「stop short」的用法，與本句語境不同。",
-        "stop-mcq-17": "「突然而完全停止移動或行動」是「stop dead」的用法，與本句語境不同。",
-        "stop-mcq-14": "「無法讓自己停止某種行為或心理活動」是「can't stop doing something」的用法，與本句語境不同。",
-        "stop-mcq-18": "「令某人因突然的事情而立即停止原本正在做的事」是「stop someone in their tracks」的用法，與本句語境不同。",
-        "stop-mcq-13": "「控制自己，不讓自己進行某個行為」是「stop yourself (from doing something)」的用法，與本句語境不同。"
+        "stop-mcq-16": "本句的「stopped short of rejecting it completely」指「接近做某事，但在真正做到之前停下」。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-16"
     },
@@ -1737,11 +1613,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "stop-mcq-16",
-        "stop-mcq-15",
-        "stop-mcq-17",
-        "stop-mcq-14",
-        "stop-mcq-18",
-        "stop-mcq-13"
+        "stop-mcq-06",
+        "stop-mcq-29",
+        "stop-mcq-33"
       ],
       "explanation": "本句的「stopped short of accusing him of lying」指「接近做某事，但在真正做到之前停下」。",
       "sentenceIndex": 31,
@@ -1750,12 +1624,10 @@ export default {
         "stopped short of accusing him of lying"
       ],
       "optionReasons": {
-        "stop-mcq-16": "本句指「接近做某事，但在真正做到之前停下」。",
-        "stop-mcq-15": "「表示突然停住；例句：「他看到那隻狗時突然停住了。」」是「stop short」的用法，與本句語境不同。",
-        "stop-mcq-17": "「突然而完全停止移動或行動」是「stop dead」的用法，與本句語境不同。",
-        "stop-mcq-14": "「無法讓自己停止某種行為或心理活動」是「can't stop doing something」的用法，與本句語境不同。",
-        "stop-mcq-18": "「令某人因突然的事情而立即停止原本正在做的事」是「stop someone in their tracks」的用法，與本句語境不同。",
-        "stop-mcq-13": "「控制自己，不讓自己進行某個行為」是「stop yourself (from doing something)」的用法，與本句語境不同。"
+        "stop-mcq-16": "本句的「stopped short of accusing him of lying」指「接近做某事，但在真正做到之前停下」。",
+        "stop-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-16"
     },
@@ -1767,11 +1639,9 @@ export default {
       "masked": "The noise made me ____.",
       "options": [
         "stop-mcq-17",
-        "stop-mcq-16",
-        "stop-mcq-18",
-        "stop-mcq-15",
-        "stop-mcq-19",
-        "stop-mcq-14"
+        "stop-mcq-33",
+        "stop-mcq-20",
+        "stop-mcq-29"
       ],
       "explanation": "本句的「stop dead」指「突然而完全停止移動或行動」。",
       "sentenceIndex": 32,
@@ -1780,12 +1650,10 @@ export default {
         "stop dead"
       ],
       "optionReasons": {
-        "stop-mcq-17": "本句指「突然而完全停止移動或行動」。",
-        "stop-mcq-16": "「接近做某事，但在真正做到之前停下」是「stop short of doing something」的用法，與本句語境不同。",
-        "stop-mcq-18": "「令某人因突然的事情而立即停止原本正在做的事」是「stop someone in their tracks」的用法，與本句語境不同。",
-        "stop-mcq-15": "「表示突然停住；例句：「他看到那隻狗時突然停住了。」」是「stop short」的用法，與本句語境不同。",
-        "stop-mcq-19": "「行程中停止移動或短暫停留的一次」是「a stop（一次停車／停留）」的用法，與本句語境不同。",
-        "stop-mcq-14": "「無法讓自己停止某種行為或心理活動」是「can't stop doing something」的用法，與本句語境不同。"
+        "stop-mcq-17": "本句的「stop dead」指「突然而完全停止移動或行動」。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-17"
     },
@@ -1797,11 +1665,9 @@ export default {
       "masked": "She ____ when she recognized him.",
       "options": [
         "stop-mcq-17",
-        "stop-mcq-16",
-        "stop-mcq-18",
-        "stop-mcq-15",
-        "stop-mcq-19",
-        "stop-mcq-14"
+        "stop-mcq-30",
+        "stop-mcq-26",
+        "stop-mcq-35"
       ],
       "explanation": "本句的「stopped dead in her tracks」指「突然而完全停止移動或行動」。",
       "sentenceIndex": 33,
@@ -1810,12 +1676,10 @@ export default {
         "stopped dead in her tracks"
       ],
       "optionReasons": {
-        "stop-mcq-17": "本句指「突然而完全停止移動或行動」。",
-        "stop-mcq-16": "「接近做某事，但在真正做到之前停下」是「stop short of doing something」的用法，與本句語境不同。",
-        "stop-mcq-18": "「令某人因突然的事情而立即停止原本正在做的事」是「stop someone in their tracks」的用法，與本句語境不同。",
-        "stop-mcq-15": "「表示突然停住；例句：「他看到那隻狗時突然停住了。」」是「stop short」的用法，與本句語境不同。",
-        "stop-mcq-19": "「行程中停止移動或短暫停留的一次」是「a stop（一次停車／停留）」的用法，與本句語境不同。",
-        "stop-mcq-14": "「無法讓自己停止某種行為或心理活動」是「can't stop doing something」的用法，與本句語境不同。"
+        "stop-mcq-17": "本句的「stopped dead in her tracks」指「突然而完全停止移動或行動」。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-17"
     },
@@ -1827,11 +1691,9 @@ export default {
       "masked": "The scream ____.",
       "options": [
         "stop-mcq-18",
-        "stop-mcq-17",
-        "stop-mcq-19",
-        "stop-mcq-16",
+        "stop-mcq-13",
         "stop-mcq-20",
-        "stop-mcq-15"
+        "stop-mcq-33"
       ],
       "explanation": "本句的「stopped everyone in their tracks」指「令某人因突然的事情而立即停止原本正在做的事」。",
       "sentenceIndex": 34,
@@ -1840,12 +1702,10 @@ export default {
         "stopped everyone in their tracks"
       ],
       "optionReasons": {
-        "stop-mcq-18": "本句指「令某人因突然的事情而立即停止原本正在做的事」。",
-        "stop-mcq-17": "「突然而完全停止移動或行動」是「stop dead」的用法，與本句語境不同。",
-        "stop-mcq-19": "「行程中停止移動或短暫停留的一次」是「a stop（一次停車／停留）」的用法，與本句語境不同。",
-        "stop-mcq-16": "「接近做某事，但在真正做到之前停下」是「stop short of doing something」的用法，與本句語境不同。",
-        "stop-mcq-20": "「巴士供乘客上落車的指定地點」是「bus stop」的用法，與本句語境不同。",
-        "stop-mcq-15": "「表示突然停住；例句：「他看到那隻狗時突然停住了。」」是「stop short」的用法，與本句語境不同。"
+        "stop-mcq-18": "本句的「stopped everyone in their tracks」指「令某人因突然的事情而立即停止原本正在做的事」。",
+        "stop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-18"
     },
@@ -1857,11 +1717,9 @@ export default {
       "masked": "The news ____.",
       "options": [
         "stop-mcq-18",
-        "stop-mcq-17",
-        "stop-mcq-19",
-        "stop-mcq-16",
         "stop-mcq-20",
-        "stop-mcq-15"
+        "stop-mcq-33",
+        "stop-mcq-13"
       ],
       "explanation": "本句的「stopped me in my tracks」指「令某人因突然的事情而立即停止原本正在做的事」。",
       "sentenceIndex": 35,
@@ -1870,12 +1728,10 @@ export default {
         "stopped me in my tracks"
       ],
       "optionReasons": {
-        "stop-mcq-18": "本句指「令某人因突然的事情而立即停止原本正在做的事」。",
-        "stop-mcq-17": "「突然而完全停止移動或行動」是「stop dead」的用法，與本句語境不同。",
-        "stop-mcq-19": "「行程中停止移動或短暫停留的一次」是「a stop（一次停車／停留）」的用法，與本句語境不同。",
-        "stop-mcq-16": "「接近做某事，但在真正做到之前停下」是「stop short of doing something」的用法，與本句語境不同。",
-        "stop-mcq-20": "「巴士供乘客上落車的指定地點」是「bus stop」的用法，與本句語境不同。",
-        "stop-mcq-15": "「表示突然停住；例句：「他看到那隻狗時突然停住了。」」是「stop short」的用法，與本句語境不同。"
+        "stop-mcq-18": "本句的「stopped me in my tracks」指「令某人因突然的事情而立即停止原本正在做的事」。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-18"
     },
@@ -1887,11 +1743,9 @@ export default {
       "masked": "The train made several ____ along the way.",
       "options": [
         "stop-mcq-19",
-        "stop-mcq-18",
-        "stop-mcq-20",
-        "stop-mcq-17",
-        "stop-mcq-21",
-        "stop-mcq-16"
+        "stop-mcq-30",
+        "stop-mcq-26",
+        "stop-mcq-20"
       ],
       "explanation": "本句的「stops」指「行程中停止移動或短暫停留的一次」。",
       "sentenceIndex": 36,
@@ -1900,12 +1754,10 @@ export default {
         "stops"
       ],
       "optionReasons": {
-        "stop-mcq-19": "本句指「行程中停止移動或短暫停留的一次」。",
-        "stop-mcq-18": "「令某人因突然的事情而立即停止原本正在做的事」是「stop someone in their tracks」的用法，與本句語境不同。",
-        "stop-mcq-20": "「巴士供乘客上落車的指定地點」是「bus stop」的用法，與本句語境不同。",
-        "stop-mcq-17": "「突然而完全停止移動或行動」是「stop dead」的用法，與本句語境不同。",
-        "stop-mcq-21": "「巴士、火車等公共交通工具停靠供乘客上下車的地點」是「next stop」的用法，與本句語境不同。",
-        "stop-mcq-16": "「接近做某事，但在真正做到之前停下」是「stop short of doing something」的用法，與本句語境不同。"
+        "stop-mcq-19": "本句的「stops」指「行程中停止移動或短暫停留的一次」。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-19"
     },
@@ -1917,11 +1769,9 @@ export default {
       "masked": "We made a short ____ for coffee.",
       "options": [
         "stop-mcq-19",
-        "stop-mcq-18",
-        "stop-mcq-20",
-        "stop-mcq-17",
-        "stop-mcq-21",
-        "stop-mcq-16"
+        "stop-mcq-33",
+        "stop-mcq-09",
+        "stop-mcq-26"
       ],
       "explanation": "本句的「stop」指「行程中停止移動或短暫停留的一次」。",
       "sentenceIndex": 37,
@@ -1930,12 +1780,10 @@ export default {
         "stop"
       ],
       "optionReasons": {
-        "stop-mcq-19": "本句指「行程中停止移動或短暫停留的一次」。",
-        "stop-mcq-18": "「令某人因突然的事情而立即停止原本正在做的事」是「stop someone in their tracks」的用法，與本句語境不同。",
-        "stop-mcq-20": "「巴士供乘客上落車的指定地點」是「bus stop」的用法，與本句語境不同。",
-        "stop-mcq-17": "「突然而完全停止移動或行動」是「stop dead」的用法，與本句語境不同。",
-        "stop-mcq-21": "「巴士、火車等公共交通工具停靠供乘客上下車的地點」是「next stop」的用法，與本句語境不同。",
-        "stop-mcq-16": "「接近做某事，但在真正做到之前停下」是「stop short of doing something」的用法，與本句語境不同。"
+        "stop-mcq-19": "本句的「stop」指「行程中停止移動或短暫停留的一次」。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-19"
     },
@@ -1947,11 +1795,9 @@ export default {
       "masked": "I'll meet you at the ____.",
       "options": [
         "stop-mcq-20",
-        "stop-mcq-19",
-        "stop-mcq-21",
-        "stop-mcq-18",
-        "stop-mcq-22",
-        "stop-mcq-17"
+        "stop-mcq-29",
+        "stop-mcq-26",
+        "stop-mcq-16"
       ],
       "explanation": "本句的「bus stop」指「巴士供乘客上落車的指定地點」。",
       "sentenceIndex": 38,
@@ -1960,12 +1806,10 @@ export default {
         "bus stop"
       ],
       "optionReasons": {
-        "stop-mcq-20": "本句指「巴士供乘客上落車的指定地點」。",
-        "stop-mcq-19": "「行程中停止移動或短暫停留的一次」是「a stop（一次停車／停留）」的用法，與本句語境不同。",
-        "stop-mcq-21": "「巴士、火車等公共交通工具停靠供乘客上下車的地點」是「next stop」的用法，與本句語境不同。",
-        "stop-mcq-18": "「令某人因突然的事情而立即停止原本正在做的事」是「stop someone in their tracks」的用法，與本句語境不同。",
-        "stop-mcq-22": "「沒有中斷、停頓或中途停靠的」是「non-stop / nonstop」的用法，與本句語境不同。",
-        "stop-mcq-17": "「突然而完全停止移動或行動」是「stop dead」的用法，與本句語境不同。"
+        "stop-mcq-20": "本句的「bus stop」指「巴士供乘客上落車的指定地點」。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-20"
     },
@@ -1977,11 +1821,9 @@ export default {
       "masked": "The nearest ____ is across the road.",
       "options": [
         "stop-mcq-20",
-        "stop-mcq-19",
-        "stop-mcq-21",
-        "stop-mcq-18",
-        "stop-mcq-22",
-        "stop-mcq-17"
+        "stop-mcq-34",
+        "stop-mcq-09",
+        "stop-mcq-15"
       ],
       "explanation": "本句的「bus stop」指「巴士供乘客上落車的指定地點」。",
       "sentenceIndex": 39,
@@ -1990,12 +1832,10 @@ export default {
         "bus stop"
       ],
       "optionReasons": {
-        "stop-mcq-20": "本句指「巴士供乘客上落車的指定地點」。",
-        "stop-mcq-19": "「行程中停止移動或短暫停留的一次」是「a stop（一次停車／停留）」的用法，與本句語境不同。",
-        "stop-mcq-21": "「巴士、火車等公共交通工具停靠供乘客上下車的地點」是「next stop」的用法，與本句語境不同。",
-        "stop-mcq-18": "「令某人因突然的事情而立即停止原本正在做的事」是「stop someone in their tracks」的用法，與本句語境不同。",
-        "stop-mcq-22": "「沒有中斷、停頓或中途停靠的」是「non-stop / nonstop」的用法，與本句語境不同。",
-        "stop-mcq-17": "「突然而完全停止移動或行動」是「stop dead」的用法，與本句語境不同。"
+        "stop-mcq-20": "本句的「bus stop」指「巴士供乘客上落車的指定地點」。",
+        "stop-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-20"
     },
@@ -2007,11 +1847,9 @@ export default {
       "masked": "The ____ is Central Station.",
       "options": [
         "stop-mcq-21",
-        "stop-mcq-20",
-        "stop-mcq-22",
-        "stop-mcq-19",
-        "stop-mcq-23",
-        "stop-mcq-18"
+        "stop-mcq-28",
+        "stop-mcq-05",
+        "stop-mcq-30"
       ],
       "explanation": "本句的「next stop」指「巴士、火車等公共交通工具停靠供乘客上下車的地點」。",
       "sentenceIndex": 40,
@@ -2020,12 +1858,10 @@ export default {
         "next stop"
       ],
       "optionReasons": {
-        "stop-mcq-21": "本句指「巴士、火車等公共交通工具停靠供乘客上下車的地點」。",
-        "stop-mcq-20": "「巴士供乘客上落車的指定地點」是「bus stop」的用法，與本句語境不同。",
-        "stop-mcq-22": "「沒有中斷、停頓或中途停靠的」是「non-stop / nonstop」的用法，與本句語境不同。",
-        "stop-mcq-19": "「行程中停止移動或短暫停留的一次」是「a stop（一次停車／停留）」的用法，與本句語境不同。",
-        "stop-mcq-23": "「從移動狀態逐漸或最終變成完全靜止」是「come to a stop」的用法，與本句語境不同。",
-        "stop-mcq-18": "「令某人因突然的事情而立即停止原本正在做的事」是「stop someone in their tracks」的用法，與本句語境不同。"
+        "stop-mcq-21": "本句的「next stop」指「巴士、火車等公共交通工具停靠供乘客上下車的地點」。",
+        "stop-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-21"
     },
@@ -2037,11 +1873,9 @@ export default {
       "masked": "We get off at the ____.",
       "options": [
         "stop-mcq-21",
-        "stop-mcq-20",
-        "stop-mcq-22",
-        "stop-mcq-19",
+        "stop-mcq-09",
         "stop-mcq-23",
-        "stop-mcq-18"
+        "stop-mcq-34"
       ],
       "explanation": "本句的「next stop」指「巴士、火車等公共交通工具停靠供乘客上下車的地點」。",
       "sentenceIndex": 41,
@@ -2050,12 +1884,10 @@ export default {
         "next stop"
       ],
       "optionReasons": {
-        "stop-mcq-21": "本句指「巴士、火車等公共交通工具停靠供乘客上下車的地點」。",
-        "stop-mcq-20": "「巴士供乘客上落車的指定地點」是「bus stop」的用法，與本句語境不同。",
-        "stop-mcq-22": "「沒有中斷、停頓或中途停靠的」是「non-stop / nonstop」的用法，與本句語境不同。",
-        "stop-mcq-19": "「行程中停止移動或短暫停留的一次」是「a stop（一次停車／停留）」的用法，與本句語境不同。",
-        "stop-mcq-23": "「從移動狀態逐漸或最終變成完全靜止」是「come to a stop」的用法，與本句語境不同。",
-        "stop-mcq-18": "「令某人因突然的事情而立即停止原本正在做的事」是「stop someone in their tracks」的用法，與本句語境不同。"
+        "stop-mcq-21": "本句的「next stop」指「巴士、火車等公共交通工具停靠供乘客上下車的地點」。",
+        "stop-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-21"
     },
@@ -2067,11 +1899,9 @@ export default {
       "masked": "The children talked ____ for an hour.",
       "options": [
         "stop-mcq-22",
-        "stop-mcq-21",
-        "stop-mcq-23",
-        "stop-mcq-20",
-        "stop-mcq-24",
-        "stop-mcq-19"
+        "stop-mcq-26",
+        "stop-mcq-30",
+        "stop-mcq-03"
       ],
       "explanation": "本句的「non-stop」指「沒有中斷、停頓或中途停靠的」。",
       "sentenceIndex": 42,
@@ -2080,12 +1910,10 @@ export default {
         "non-stop"
       ],
       "optionReasons": {
-        "stop-mcq-22": "本句指「沒有中斷、停頓或中途停靠的」。",
-        "stop-mcq-21": "「巴士、火車等公共交通工具停靠供乘客上下車的地點」是「next stop」的用法，與本句語境不同。",
-        "stop-mcq-23": "「從移動狀態逐漸或最終變成完全靜止」是「come to a stop」的用法，與本句語境不同。",
-        "stop-mcq-20": "「巴士供乘客上落車的指定地點」是「bus stop」的用法，與本句語境不同。",
-        "stop-mcq-24": "「使某個移動、活動或過程完全停止」是「bring something to a stop」的用法，與本句語境不同。",
-        "stop-mcq-19": "「行程中停止移動或短暫停留的一次」是「a stop（一次停車／停留）」的用法，與本句語境不同。"
+        "stop-mcq-22": "本句的「non-stop」指「沒有中斷、停頓或中途停靠的」。",
+        "stop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-22"
     },
@@ -2097,11 +1925,9 @@ export default {
       "masked": "We took a ____ to Tokyo.",
       "options": [
         "stop-mcq-22",
-        "stop-mcq-21",
-        "stop-mcq-23",
-        "stop-mcq-20",
-        "stop-mcq-24",
-        "stop-mcq-19"
+        "stop-mcq-33",
+        "stop-mcq-26",
+        "stop-mcq-23"
       ],
       "explanation": "本句的「non-stop flight」指「沒有中斷、停頓或中途停靠的」。",
       "sentenceIndex": 43,
@@ -2110,12 +1936,10 @@ export default {
         "non-stop flight"
       ],
       "optionReasons": {
-        "stop-mcq-22": "本句指「沒有中斷、停頓或中途停靠的」。",
-        "stop-mcq-21": "「巴士、火車等公共交通工具停靠供乘客上下車的地點」是「next stop」的用法，與本句語境不同。",
-        "stop-mcq-23": "「從移動狀態逐漸或最終變成完全靜止」是「come to a stop」的用法，與本句語境不同。",
-        "stop-mcq-20": "「巴士供乘客上落車的指定地點」是「bus stop」的用法，與本句語境不同。",
-        "stop-mcq-24": "「使某個移動、活動或過程完全停止」是「bring something to a stop」的用法，與本句語境不同。",
-        "stop-mcq-19": "「行程中停止移動或短暫停留的一次」是「a stop（一次停車／停留）」的用法，與本句語境不同。"
+        "stop-mcq-22": "本句的「non-stop flight」指「沒有中斷、停頓或中途停靠的」。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-22"
     },
@@ -2127,11 +1951,9 @@ export default {
       "masked": "The car slowly ____.",
       "options": [
         "stop-mcq-23",
-        "stop-mcq-22",
-        "stop-mcq-24",
         "stop-mcq-21",
-        "stop-mcq-25",
-        "stop-mcq-20"
+        "stop-mcq-29",
+        "stop-mcq-02"
       ],
       "explanation": "本句的「came to a stop」指「從移動狀態逐漸或最終變成完全靜止」。",
       "sentenceIndex": 44,
@@ -2140,12 +1962,10 @@ export default {
         "came to a stop"
       ],
       "optionReasons": {
-        "stop-mcq-23": "本句指「從移動狀態逐漸或最終變成完全靜止」。",
-        "stop-mcq-22": "「沒有中斷、停頓或中途停靠的」是「non-stop / nonstop」的用法，與本句語境不同。",
-        "stop-mcq-24": "「使某個移動、活動或過程完全停止」是「bring something to a stop」的用法，與本句語境不同。",
-        "stop-mcq-21": "「巴士、火車等公共交通工具停靠供乘客上下車的地點」是「next stop」的用法，與本句語境不同。",
-        "stop-mcq-25": "「採取行動使某件不想要的事情終止」是「put a stop to something」的用法，與本句語境不同。",
-        "stop-mcq-20": "「巴士供乘客上落車的指定地點」是「bus stop」的用法，與本句語境不同。"
+        "stop-mcq-23": "本句的「came to a stop」指「從移動狀態逐漸或最終變成完全靜止」。",
+        "stop-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-23"
     },
@@ -2157,11 +1977,9 @@ export default {
       "masked": "The train ____.",
       "options": [
         "stop-mcq-23",
-        "stop-mcq-22",
-        "stop-mcq-24",
-        "stop-mcq-21",
-        "stop-mcq-25",
-        "stop-mcq-20"
+        "stop-mcq-13",
+        "stop-mcq-15",
+        "stop-mcq-30"
       ],
       "explanation": "本句的「came to a complete stop」指「從移動狀態逐漸或最終變成完全靜止」。",
       "sentenceIndex": 45,
@@ -2170,12 +1988,10 @@ export default {
         "came to a complete stop"
       ],
       "optionReasons": {
-        "stop-mcq-23": "本句指「從移動狀態逐漸或最終變成完全靜止」。",
-        "stop-mcq-22": "「沒有中斷、停頓或中途停靠的」是「non-stop / nonstop」的用法，與本句語境不同。",
-        "stop-mcq-24": "「使某個移動、活動或過程完全停止」是「bring something to a stop」的用法，與本句語境不同。",
-        "stop-mcq-21": "「巴士、火車等公共交通工具停靠供乘客上下車的地點」是「next stop」的用法，與本句語境不同。",
-        "stop-mcq-25": "「採取行動使某件不想要的事情終止」是「put a stop to something」的用法，與本句語境不同。",
-        "stop-mcq-20": "「巴士供乘客上落車的指定地點」是「bus stop」的用法，與本句語境不同。"
+        "stop-mcq-23": "本句的「came to a complete stop」指「從移動狀態逐漸或最終變成完全靜止」。",
+        "stop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-23"
     },
@@ -2187,11 +2003,9 @@ export default {
       "masked": "The driver ____.",
       "options": [
         "stop-mcq-24",
-        "stop-mcq-23",
-        "stop-mcq-25",
-        "stop-mcq-22",
         "stop-mcq-26",
-        "stop-mcq-21"
+        "stop-mcq-09",
+        "stop-mcq-29"
       ],
       "explanation": "本句的「brought the car to a stop」指「使某個移動、活動或過程完全停止」。",
       "sentenceIndex": 46,
@@ -2200,12 +2014,10 @@ export default {
         "brought the car to a stop"
       ],
       "optionReasons": {
-        "stop-mcq-24": "本句指「使某個移動、活動或過程完全停止」。",
-        "stop-mcq-23": "「從移動狀態逐漸或最終變成完全靜止」是「come to a stop」的用法，與本句語境不同。",
-        "stop-mcq-25": "「採取行動使某件不想要的事情終止」是「put a stop to something」的用法，與本句語境不同。",
-        "stop-mcq-22": "「沒有中斷、停頓或中途停靠的」是「non-stop / nonstop」的用法，與本句語境不同。",
-        "stop-mcq-26": "「為達到目的願意做任何事情，不受一般限制阻擋」是「stop at nothing」的用法，與本句語境不同。",
-        "stop-mcq-21": "「巴士、火車等公共交通工具停靠供乘客上下車的地點」是「next stop」的用法，與本句語境不同。"
+        "stop-mcq-24": "本句的「brought the car to a stop」指「使某個移動、活動或過程完全停止」。",
+        "stop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-24"
     },
@@ -2217,11 +2029,9 @@ export default {
       "masked": "Heavy snow ____.",
       "options": [
         "stop-mcq-24",
-        "stop-mcq-23",
-        "stop-mcq-25",
-        "stop-mcq-22",
         "stop-mcq-26",
-        "stop-mcq-21"
+        "stop-mcq-35",
+        "stop-mcq-30"
       ],
       "explanation": "本句的「brought traffic to a stop」指「使某個移動、活動或過程完全停止」。",
       "sentenceIndex": 47,
@@ -2230,12 +2040,10 @@ export default {
         "brought traffic to a stop"
       ],
       "optionReasons": {
-        "stop-mcq-24": "本句指「使某個移動、活動或過程完全停止」。",
-        "stop-mcq-23": "「從移動狀態逐漸或最終變成完全靜止」是「come to a stop」的用法，與本句語境不同。",
-        "stop-mcq-25": "「採取行動使某件不想要的事情終止」是「put a stop to something」的用法，與本句語境不同。",
-        "stop-mcq-22": "「沒有中斷、停頓或中途停靠的」是「non-stop / nonstop」的用法，與本句語境不同。",
-        "stop-mcq-26": "「為達到目的願意做任何事情，不受一般限制阻擋」是「stop at nothing」的用法，與本句語境不同。",
-        "stop-mcq-21": "「巴士、火車等公共交通工具停靠供乘客上下車的地點」是「next stop」的用法，與本句語境不同。"
+        "stop-mcq-24": "本句的「brought traffic to a stop」指「使某個移動、活動或過程完全停止」。",
+        "stop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-24"
     },
@@ -2247,11 +2055,9 @@ export default {
       "masked": "We need to ____ this behaviour.",
       "options": [
         "stop-mcq-25",
-        "stop-mcq-24",
         "stop-mcq-26",
-        "stop-mcq-23",
-        "stop-mcq-27",
-        "stop-mcq-22"
+        "stop-mcq-29",
+        "stop-mcq-15"
       ],
       "explanation": "本句的「put a stop to」指「採取行動使某件不想要的事情終止」。",
       "sentenceIndex": 48,
@@ -2260,12 +2066,10 @@ export default {
         "put a stop to"
       ],
       "optionReasons": {
-        "stop-mcq-25": "本句指「採取行動使某件不想要的事情終止」。",
-        "stop-mcq-24": "「使某個移動、活動或過程完全停止」是「bring something to a stop」的用法，與本句語境不同。",
-        "stop-mcq-26": "「為達到目的願意做任何事情，不受一般限制阻擋」是「stop at nothing」的用法，與本句語境不同。",
-        "stop-mcq-23": "「從移動狀態逐漸或最終變成完全靜止」是「come to a stop」的用法，與本句語境不同。",
-        "stop-mcq-27": "「某人充滿動力或進展極快，幾乎無法阻擋」是「there's no stopping someone」的用法，與本句語境不同。",
-        "stop-mcq-22": "「沒有中斷、停頓或中途停靠的」是「non-stop / nonstop」的用法，與本句語境不同。"
+        "stop-mcq-25": "本句的「put a stop to」指「採取行動使某件不想要的事情終止」。",
+        "stop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-25"
     },
@@ -2277,11 +2081,9 @@ export default {
       "masked": "New rules were introduced to ____ illegal dumping.",
       "options": [
         "stop-mcq-25",
-        "stop-mcq-24",
-        "stop-mcq-26",
-        "stop-mcq-23",
-        "stop-mcq-27",
-        "stop-mcq-22"
+        "stop-mcq-20",
+        "stop-mcq-09",
+        "stop-mcq-30"
       ],
       "explanation": "本句的「put a stop to」指「採取行動使某件不想要的事情終止」。",
       "sentenceIndex": 49,
@@ -2290,12 +2092,10 @@ export default {
         "put a stop to"
       ],
       "optionReasons": {
-        "stop-mcq-25": "本句指「採取行動使某件不想要的事情終止」。",
-        "stop-mcq-24": "「使某個移動、活動或過程完全停止」是「bring something to a stop」的用法，與本句語境不同。",
-        "stop-mcq-26": "「為達到目的願意做任何事情，不受一般限制阻擋」是「stop at nothing」的用法，與本句語境不同。",
-        "stop-mcq-23": "「從移動狀態逐漸或最終變成完全靜止」是「come to a stop」的用法，與本句語境不同。",
-        "stop-mcq-27": "「某人充滿動力或進展極快，幾乎無法阻擋」是「there's no stopping someone」的用法，與本句語境不同。",
-        "stop-mcq-22": "「沒有中斷、停頓或中途停靠的」是「non-stop / nonstop」的用法，與本句語境不同。"
+        "stop-mcq-25": "本句的「put a stop to」指「採取行動使某件不想要的事情終止」。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-25"
     },
@@ -2307,11 +2107,9 @@ export default {
       "masked": "He would ____ to protect his family.",
       "options": [
         "stop-mcq-26",
-        "stop-mcq-25",
-        "stop-mcq-27",
-        "stop-mcq-24",
-        "stop-mcq-28",
-        "stop-mcq-23"
+        "stop-mcq-05",
+        "stop-mcq-29",
+        "stop-mcq-21"
       ],
       "explanation": "本句的「stop at nothing」指「為達到目的願意做任何事情，不受一般限制阻擋」。",
       "sentenceIndex": 50,
@@ -2320,12 +2118,10 @@ export default {
         "stop at nothing"
       ],
       "optionReasons": {
-        "stop-mcq-26": "本句指「為達到目的願意做任何事情，不受一般限制阻擋」。",
-        "stop-mcq-25": "「採取行動使某件不想要的事情終止」是「put a stop to something」的用法，與本句語境不同。",
-        "stop-mcq-27": "「某人充滿動力或進展極快，幾乎無法阻擋」是「there's no stopping someone」的用法，與本句語境不同。",
-        "stop-mcq-24": "「使某個移動、活動或過程完全停止」是「bring something to a stop」的用法，與本句語境不同。",
-        "stop-mcq-28": "「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」是「unstoppable」的用法，與本句語境不同。",
-        "stop-mcq-23": "「從移動狀態逐漸或最終變成完全靜止」是「come to a stop」的用法，與本句語境不同。"
+        "stop-mcq-26": "本句的「stop at nothing」指「為達到目的願意做任何事情，不受一般限制阻擋」。",
+        "stop-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-26"
     },
@@ -2337,11 +2133,9 @@ export default {
       "masked": "Some companies will ____ to defeat their competitors.",
       "options": [
         "stop-mcq-26",
-        "stop-mcq-25",
-        "stop-mcq-27",
-        "stop-mcq-24",
-        "stop-mcq-28",
-        "stop-mcq-23"
+        "stop-mcq-23",
+        "stop-mcq-32",
+        "stop-mcq-07"
       ],
       "explanation": "本句的「stop at nothing」指「為達到目的願意做任何事情，不受一般限制阻擋」。",
       "sentenceIndex": 51,
@@ -2350,12 +2144,10 @@ export default {
         "stop at nothing"
       ],
       "optionReasons": {
-        "stop-mcq-26": "本句指「為達到目的願意做任何事情，不受一般限制阻擋」。",
-        "stop-mcq-25": "「採取行動使某件不想要的事情終止」是「put a stop to something」的用法，與本句語境不同。",
-        "stop-mcq-27": "「某人充滿動力或進展極快，幾乎無法阻擋」是「there's no stopping someone」的用法，與本句語境不同。",
-        "stop-mcq-24": "「使某個移動、活動或過程完全停止」是「bring something to a stop」的用法，與本句語境不同。",
-        "stop-mcq-28": "「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」是「unstoppable」的用法，與本句語境不同。",
-        "stop-mcq-23": "「從移動狀態逐漸或最終變成完全靜止」是「come to a stop」的用法，與本句語境不同。"
+        "stop-mcq-26": "本句的「stop at nothing」指「為達到目的願意做任何事情，不受一般限制阻擋」。",
+        "stop-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-26"
     },
@@ -2367,11 +2159,9 @@ export default {
       "masked": "Once she starts working, there's ____.",
       "options": [
         "stop-mcq-27",
-        "stop-mcq-26",
-        "stop-mcq-28",
-        "stop-mcq-25",
-        "stop-mcq-29",
-        "stop-mcq-24"
+        "stop-mcq-32",
+        "stop-mcq-20",
+        "stop-mcq-33"
       ],
       "explanation": "本句的「no stopping her」指「某人充滿動力或進展極快，幾乎無法阻擋」。",
       "sentenceIndex": 52,
@@ -2380,12 +2170,10 @@ export default {
         "no stopping her"
       ],
       "optionReasons": {
-        "stop-mcq-27": "本句指「某人充滿動力或進展極快，幾乎無法阻擋」。",
-        "stop-mcq-26": "「為達到目的願意做任何事情，不受一般限制阻擋」是「stop at nothing」的用法，與本句語境不同。",
-        "stop-mcq-28": "「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」是「unstoppable」的用法，與本句語境不同。",
-        "stop-mcq-25": "「採取行動使某件不想要的事情終止」是「put a stop to something」的用法，與本句語境不同。",
-        "stop-mcq-29": "「BrE：句號時，表示句號」是「full stop（BrE：句號）」的用法，與本句語境不同。",
-        "stop-mcq-24": "「使某個移動、活動或過程完全停止」是「bring something to a stop」的用法，與本句語境不同。"
+        "stop-mcq-27": "本句的「no stopping her」指「某人充滿動力或進展極快，幾乎無法阻擋」。",
+        "stop-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-27"
     },
@@ -2397,11 +2185,9 @@ export default {
       "masked": "The team is playing so well that there seems to be ____.",
       "options": [
         "stop-mcq-27",
-        "stop-mcq-26",
-        "stop-mcq-28",
-        "stop-mcq-25",
         "stop-mcq-29",
-        "stop-mcq-24"
+        "stop-mcq-15",
+        "stop-mcq-33"
       ],
       "explanation": "本句的「no stopping them」指「某人充滿動力或進展極快，幾乎無法阻擋」。",
       "sentenceIndex": 53,
@@ -2410,12 +2196,10 @@ export default {
         "no stopping them"
       ],
       "optionReasons": {
-        "stop-mcq-27": "本句指「某人充滿動力或進展極快，幾乎無法阻擋」。",
-        "stop-mcq-26": "「為達到目的願意做任何事情，不受一般限制阻擋」是「stop at nothing」的用法，與本句語境不同。",
-        "stop-mcq-28": "「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」是「unstoppable」的用法，與本句語境不同。",
-        "stop-mcq-25": "「採取行動使某件不想要的事情終止」是「put a stop to something」的用法，與本句語境不同。",
-        "stop-mcq-29": "「BrE：句號時，表示句號」是「full stop（BrE：句號）」的用法，與本句語境不同。",
-        "stop-mcq-24": "「使某個移動、活動或過程完全停止」是「bring something to a stop」的用法，與本句語境不同。"
+        "stop-mcq-27": "本句的「no stopping them」指「某人充滿動力或進展極快，幾乎無法阻擋」。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-27"
     },
@@ -2427,11 +2211,9 @@ export default {
       "masked": "Her enthusiasm seemed ____.",
       "options": [
         "stop-mcq-28",
-        "stop-mcq-27",
-        "stop-mcq-29",
-        "stop-mcq-26",
         "stop-mcq-30",
-        "stop-mcq-25"
+        "stop-mcq-05",
+        "stop-mcq-29"
       ],
       "explanation": "本句的「unstoppable」指「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」。",
       "sentenceIndex": 54,
@@ -2440,12 +2222,10 @@ export default {
         "unstoppable"
       ],
       "optionReasons": {
-        "stop-mcq-28": "本句指「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」。",
-        "stop-mcq-27": "「某人充滿動力或進展極快，幾乎無法阻擋」是「there's no stopping someone」的用法，與本句語境不同。",
-        "stop-mcq-29": "「BrE：句號時，表示句號」是「full stop（BrE：句號）」的用法，與本句語境不同。",
-        "stop-mcq-26": "「為達到目的願意做任何事情，不受一般限制阻擋」是「stop at nothing」的用法，與本句語境不同。",
-        "stop-mcq-30": "「用來強調說話者認為事情已經定案，不接受進一步討論」是「full stop（figurative）」的用法，與本句語境不同。",
-        "stop-mcq-25": "「採取行動使某件不想要的事情終止」是「put a stop to something」的用法，與本句語境不同。"
+        "stop-mcq-28": "本句的「unstoppable」指「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-28"
     },
@@ -2457,11 +2237,9 @@ export default {
       "masked": "The team looked ____.",
       "options": [
         "stop-mcq-28",
-        "stop-mcq-27",
-        "stop-mcq-29",
-        "stop-mcq-26",
-        "stop-mcq-30",
-        "stop-mcq-25"
+        "stop-mcq-09",
+        "stop-mcq-35",
+        "stop-mcq-16"
       ],
       "explanation": "本句的「unstoppable」指「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」。",
       "sentenceIndex": 55,
@@ -2470,12 +2248,10 @@ export default {
         "unstoppable"
       ],
       "optionReasons": {
-        "stop-mcq-28": "本句指「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」。",
-        "stop-mcq-27": "「某人充滿動力或進展極快，幾乎無法阻擋」是「there's no stopping someone」的用法，與本句語境不同。",
-        "stop-mcq-29": "「BrE：句號時，表示句號」是「full stop（BrE：句號）」的用法，與本句語境不同。",
-        "stop-mcq-26": "「為達到目的願意做任何事情，不受一般限制阻擋」是「stop at nothing」的用法，與本句語境不同。",
-        "stop-mcq-30": "「用來強調說話者認為事情已經定案，不接受進一步討論」是「full stop（figurative）」的用法，與本句語境不同。",
-        "stop-mcq-25": "「採取行動使某件不想要的事情終止」是「put a stop to something」的用法，與本句語境不同。"
+        "stop-mcq-28": "本句的「unstoppable」指「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」。",
+        "stop-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-28"
     },
@@ -2487,11 +2263,9 @@ export default {
       "masked": "Put a ____ at the end of the sentence.",
       "options": [
         "stop-mcq-29",
-        "stop-mcq-28",
-        "stop-mcq-30",
-        "stop-mcq-27",
-        "stop-mcq-31",
-        "stop-mcq-26"
+        "stop-mcq-09",
+        "stop-mcq-13",
+        "stop-mcq-17"
       ],
       "explanation": "本句的「full stop」指「BrE：句號時，表示句號」。",
       "sentenceIndex": 56,
@@ -2500,12 +2274,10 @@ export default {
         "full stop"
       ],
       "optionReasons": {
-        "stop-mcq-29": "本句指「BrE：句號時，表示句號」。",
-        "stop-mcq-28": "「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」是「unstoppable」的用法，與本句語境不同。",
-        "stop-mcq-30": "「用來強調說話者認為事情已經定案，不接受進一步討論」是「full stop（figurative）」的用法，與本句語境不同。",
-        "stop-mcq-27": "「某人充滿動力或進展極快，幾乎無法阻擋」是「there's no stopping someone」的用法，與本句語境不同。",
-        "stop-mcq-31": "「工作、供應、比賽或其他活動的停止或中斷」是「stoppage」的用法，與本句語境不同。",
-        "stop-mcq-26": "「為達到目的願意做任何事情，不受一般限制阻擋」是「stop at nothing」的用法，與本句語境不同。"
+        "stop-mcq-29": "本句的「full stop」指「BrE：句號時，表示句號」。",
+        "stop-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-29"
     },
@@ -2517,11 +2289,9 @@ export default {
       "masked": "You forgot the ____.",
       "options": [
         "stop-mcq-29",
+        "stop-mcq-23",
         "stop-mcq-28",
-        "stop-mcq-30",
-        "stop-mcq-27",
-        "stop-mcq-31",
-        "stop-mcq-26"
+        "stop-mcq-35"
       ],
       "explanation": "本句的「full stop」指「BrE：句號時，表示句號」。",
       "sentenceIndex": 57,
@@ -2530,12 +2300,10 @@ export default {
         "full stop"
       ],
       "optionReasons": {
-        "stop-mcq-29": "本句指「BrE：句號時，表示句號」。",
-        "stop-mcq-28": "「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」是「unstoppable」的用法，與本句語境不同。",
-        "stop-mcq-30": "「用來強調說話者認為事情已經定案，不接受進一步討論」是「full stop（figurative）」的用法，與本句語境不同。",
-        "stop-mcq-27": "「某人充滿動力或進展極快，幾乎無法阻擋」是「there's no stopping someone」的用法，與本句語境不同。",
-        "stop-mcq-31": "「工作、供應、比賽或其他活動的停止或中斷」是「stoppage」的用法，與本句語境不同。",
-        "stop-mcq-26": "「為達到目的願意做任何事情，不受一般限制阻擋」是「stop at nothing」的用法，與本句語境不同。"
+        "stop-mcq-29": "本句的「full stop」指「BrE：句號時，表示句號」。",
+        "stop-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-29"
     },
@@ -2547,11 +2315,9 @@ export default {
       "masked": "You're not going out tonight, ____.",
       "options": [
         "stop-mcq-30",
-        "stop-mcq-29",
-        "stop-mcq-31",
-        "stop-mcq-28",
-        "stop-mcq-32",
-        "stop-mcq-27"
+        "stop-mcq-18",
+        "stop-mcq-23",
+        "stop-mcq-28"
       ],
       "explanation": "本句的「full stop」指「用來強調說話者認為事情已經定案，不接受進一步討論」。",
       "sentenceIndex": 58,
@@ -2560,12 +2326,10 @@ export default {
         "full stop"
       ],
       "optionReasons": {
-        "stop-mcq-30": "本句指「用來強調說話者認為事情已經定案，不接受進一步討論」。",
-        "stop-mcq-29": "「BrE：句號時，表示句號」是「full stop（BrE：句號）」的用法，與本句語境不同。",
-        "stop-mcq-31": "「工作、供應、比賽或其他活動的停止或中斷」是「stoppage」的用法，與本句語境不同。",
-        "stop-mcq-28": "「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」是「unstoppable」的用法，與本句語境不同。",
-        "stop-mcq-32": "「因比賽期間曾有中斷，而在正常時間結束後補加的時間」是「stoppage time（sport）」的用法，與本句語境不同。",
-        "stop-mcq-27": "「某人充滿動力或進展極快，幾乎無法阻擋」是「there's no stopping someone」的用法，與本句語境不同。"
+        "stop-mcq-30": "本句的「full stop」指「用來強調說話者認為事情已經定案，不接受進一步討論」。",
+        "stop-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-30"
     },
@@ -2577,11 +2341,9 @@ export default {
       "masked": "This behaviour is unacceptable, ____.",
       "options": [
         "stop-mcq-30",
-        "stop-mcq-29",
-        "stop-mcq-31",
-        "stop-mcq-28",
-        "stop-mcq-32",
-        "stop-mcq-27"
+        "stop-mcq-12",
+        "stop-mcq-35",
+        "stop-mcq-28"
       ],
       "explanation": "本句的「full stop」指「用來強調說話者認為事情已經定案，不接受進一步討論」。",
       "sentenceIndex": 59,
@@ -2590,12 +2352,10 @@ export default {
         "full stop"
       ],
       "optionReasons": {
-        "stop-mcq-30": "本句指「用來強調說話者認為事情已經定案，不接受進一步討論」。",
-        "stop-mcq-29": "「BrE：句號時，表示句號」是「full stop（BrE：句號）」的用法，與本句語境不同。",
-        "stop-mcq-31": "「工作、供應、比賽或其他活動的停止或中斷」是「stoppage」的用法，與本句語境不同。",
-        "stop-mcq-28": "「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」是「unstoppable」的用法，與本句語境不同。",
-        "stop-mcq-32": "「因比賽期間曾有中斷，而在正常時間結束後補加的時間」是「stoppage time（sport）」的用法，與本句語境不同。",
-        "stop-mcq-27": "「某人充滿動力或進展極快，幾乎無法阻擋」是「there's no stopping someone」的用法，與本句語境不同。"
+        "stop-mcq-30": "本句的「full stop」指「用來強調說話者認為事情已經定案，不接受進一步討論」。",
+        "stop-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-30"
     },
@@ -2607,11 +2367,9 @@ export default {
       "masked": "The power ____ affected several buildings.",
       "options": [
         "stop-mcq-31",
-        "stop-mcq-30",
-        "stop-mcq-32",
+        "stop-mcq-13",
         "stop-mcq-29",
-        "stop-mcq-33",
-        "stop-mcq-28"
+        "stop-mcq-33"
       ],
       "explanation": "本句的「stoppage」指「工作、供應、比賽或其他活動的停止或中斷」。",
       "sentenceIndex": 60,
@@ -2620,12 +2378,10 @@ export default {
         "stoppage"
       ],
       "optionReasons": {
-        "stop-mcq-31": "本句指「工作、供應、比賽或其他活動的停止或中斷」。",
-        "stop-mcq-30": "「用來強調說話者認為事情已經定案，不接受進一步討論」是「full stop（figurative）」的用法，與本句語境不同。",
-        "stop-mcq-32": "「因比賽期間曾有中斷，而在正常時間結束後補加的時間」是「stoppage time（sport）」的用法，與本句語境不同。",
-        "stop-mcq-29": "「BrE：句號時，表示句號」是「full stop（BrE：句號）」的用法，與本句語境不同。",
-        "stop-mcq-33": "「用來封住瓶口、洞口等的物件」是「stopper」的用法，與本句語境不同。",
-        "stop-mcq-28": "「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」是「unstoppable」的用法，與本句語境不同。"
+        "stop-mcq-31": "本句的「stoppage」指「工作、供應、比賽或其他活動的停止或中斷」。",
+        "stop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-31"
     },
@@ -2637,11 +2393,9 @@ export default {
       "masked": "The strike caused a work ____.",
       "options": [
         "stop-mcq-31",
-        "stop-mcq-30",
-        "stop-mcq-32",
-        "stop-mcq-29",
-        "stop-mcq-33",
-        "stop-mcq-28"
+        "stop-mcq-13",
+        "stop-mcq-09",
+        "stop-mcq-33"
       ],
       "explanation": "本句的「stoppage」指「工作、供應、比賽或其他活動的停止或中斷」。",
       "sentenceIndex": 61,
@@ -2650,12 +2404,10 @@ export default {
         "stoppage"
       ],
       "optionReasons": {
-        "stop-mcq-31": "本句指「工作、供應、比賽或其他活動的停止或中斷」。",
-        "stop-mcq-30": "「用來強調說話者認為事情已經定案，不接受進一步討論」是「full stop（figurative）」的用法，與本句語境不同。",
-        "stop-mcq-32": "「因比賽期間曾有中斷，而在正常時間結束後補加的時間」是「stoppage time（sport）」的用法，與本句語境不同。",
-        "stop-mcq-29": "「BrE：句號時，表示句號」是「full stop（BrE：句號）」的用法，與本句語境不同。",
-        "stop-mcq-33": "「用來封住瓶口、洞口等的物件」是「stopper」的用法，與本句語境不同。",
-        "stop-mcq-28": "「表示無法阻止的；勢不可擋的；例句：「她的熱情似乎無法阻擋。」」是「unstoppable」的用法，與本句語境不同。"
+        "stop-mcq-31": "本句的「stoppage」指「工作、供應、比賽或其他活動的停止或中斷」。",
+        "stop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-31"
     },
@@ -2667,11 +2419,9 @@ export default {
       "masked": "They scored in ____.",
       "options": [
         "stop-mcq-32",
-        "stop-mcq-31",
-        "stop-mcq-33",
-        "stop-mcq-30",
-        "stop-mcq-34",
-        "stop-mcq-29"
+        "stop-mcq-21",
+        "stop-mcq-15",
+        "stop-mcq-27"
       ],
       "explanation": "本句的「stoppage time」指「因比賽期間曾有中斷，而在正常時間結束後補加的時間」。",
       "sentenceIndex": 62,
@@ -2680,12 +2430,10 @@ export default {
         "stoppage time"
       ],
       "optionReasons": {
-        "stop-mcq-32": "本句指「因比賽期間曾有中斷，而在正常時間結束後補加的時間」。",
-        "stop-mcq-31": "「工作、供應、比賽或其他活動的停止或中斷」是「stoppage」的用法，與本句語境不同。",
-        "stop-mcq-33": "「用來封住瓶口、洞口等的物件」是「stopper」的用法，與本句語境不同。",
-        "stop-mcq-30": "「用來強調說話者認為事情已經定案，不接受進一步討論」是「full stop（figurative）」的用法，與本句語境不同。",
-        "stop-mcq-34": "「精彩或搶眼到令觀眾特別注意、甚至轟動全場的人或事物」是「showstopper」的用法，與本句語境不同。",
-        "stop-mcq-29": "「BrE：句號時，表示句號」是「full stop（BrE：句號）」的用法，與本句語境不同。"
+        "stop-mcq-32": "本句的「stoppage time」指「因比賽期間曾有中斷，而在正常時間結束後補加的時間」。",
+        "stop-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-32"
     },
@@ -2697,11 +2445,9 @@ export default {
       "masked": "The referee added five minutes of ____.",
       "options": [
         "stop-mcq-32",
-        "stop-mcq-31",
-        "stop-mcq-33",
-        "stop-mcq-30",
+        "stop-mcq-26",
         "stop-mcq-34",
-        "stop-mcq-29"
+        "stop-mcq-33"
       ],
       "explanation": "本句的「stoppage time」指「因比賽期間曾有中斷，而在正常時間結束後補加的時間」。",
       "sentenceIndex": 63,
@@ -2710,12 +2456,10 @@ export default {
         "stoppage time"
       ],
       "optionReasons": {
-        "stop-mcq-32": "本句指「因比賽期間曾有中斷，而在正常時間結束後補加的時間」。",
-        "stop-mcq-31": "「工作、供應、比賽或其他活動的停止或中斷」是「stoppage」的用法，與本句語境不同。",
-        "stop-mcq-33": "「用來封住瓶口、洞口等的物件」是「stopper」的用法，與本句語境不同。",
-        "stop-mcq-30": "「用來強調說話者認為事情已經定案，不接受進一步討論」是「full stop（figurative）」的用法，與本句語境不同。",
-        "stop-mcq-34": "「精彩或搶眼到令觀眾特別注意、甚至轟動全場的人或事物」是「showstopper」的用法，與本句語境不同。",
-        "stop-mcq-29": "「BrE：句號時，表示句號」是「full stop（BrE：句號）」的用法，與本句語境不同。"
+        "stop-mcq-32": "本句的「stoppage time」指「因比賽期間曾有中斷，而在正常時間結束後補加的時間」。",
+        "stop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-32"
     },
@@ -2727,11 +2471,9 @@ export default {
       "masked": "Put the ____ back in the bottle.",
       "options": [
         "stop-mcq-33",
-        "stop-mcq-32",
-        "stop-mcq-34",
-        "stop-mcq-31",
-        "stop-mcq-35",
-        "stop-mcq-30"
+        "stop-mcq-07",
+        "stop-mcq-36",
+        "stop-mcq-34"
       ],
       "explanation": "本句的「stopper」指「用來封住瓶口、洞口等的物件」。",
       "sentenceIndex": 64,
@@ -2740,12 +2482,10 @@ export default {
         "stopper"
       ],
       "optionReasons": {
-        "stop-mcq-33": "本句指「用來封住瓶口、洞口等的物件」。",
-        "stop-mcq-32": "「因比賽期間曾有中斷，而在正常時間結束後補加的時間」是「stoppage time（sport）」的用法，與本句語境不同。",
-        "stop-mcq-34": "「精彩或搶眼到令觀眾特別注意、甚至轟動全場的人或事物」是「showstopper」的用法，與本句語境不同。",
-        "stop-mcq-31": "「工作、供應、比賽或其他活動的停止或中斷」是「stoppage」的用法，與本句語境不同。",
-        "stop-mcq-35": "「非正式地短暫到訪某人或某個地方」是「stop by」的用法，與本句語境不同。",
-        "stop-mcq-30": "「用來強調說話者認為事情已經定案，不接受進一步討論」是「full stop（figurative）」的用法，與本句語境不同。"
+        "stop-mcq-33": "本句的「stopper」指「用來封住瓶口、洞口等的物件」。",
+        "stop-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-33"
     },
@@ -2757,11 +2497,9 @@ export default {
       "masked": "The glass ____ was difficult to remove.",
       "options": [
         "stop-mcq-33",
-        "stop-mcq-32",
-        "stop-mcq-34",
-        "stop-mcq-31",
-        "stop-mcq-35",
-        "stop-mcq-30"
+        "stop-mcq-26",
+        "stop-mcq-04",
+        "stop-mcq-34"
       ],
       "explanation": "本句的「stopper」指「用來封住瓶口、洞口等的物件」。",
       "sentenceIndex": 65,
@@ -2770,12 +2508,10 @@ export default {
         "stopper"
       ],
       "optionReasons": {
-        "stop-mcq-33": "本句指「用來封住瓶口、洞口等的物件」。",
-        "stop-mcq-32": "「因比賽期間曾有中斷，而在正常時間結束後補加的時間」是「stoppage time（sport）」的用法，與本句語境不同。",
-        "stop-mcq-34": "「精彩或搶眼到令觀眾特別注意、甚至轟動全場的人或事物」是「showstopper」的用法，與本句語境不同。",
-        "stop-mcq-31": "「工作、供應、比賽或其他活動的停止或中斷」是「stoppage」的用法，與本句語境不同。",
-        "stop-mcq-35": "「非正式地短暫到訪某人或某個地方」是「stop by」的用法，與本句語境不同。",
-        "stop-mcq-30": "「用來強調說話者認為事情已經定案，不接受進一步討論」是「full stop（figurative）」的用法，與本句語境不同。"
+        "stop-mcq-33": "本句的「stopper」指「用來封住瓶口、洞口等的物件」。",
+        "stop-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-33"
     },
@@ -2787,11 +2523,9 @@ export default {
       "masked": "Her final song was a real ____.",
       "options": [
         "stop-mcq-34",
-        "stop-mcq-33",
-        "stop-mcq-35",
-        "stop-mcq-32",
-        "stop-mcq-36",
-        "stop-mcq-31"
+        "stop-mcq-15",
+        "stop-mcq-16",
+        "stop-mcq-13"
       ],
       "explanation": "本句的「showstopper」指「精彩或搶眼到令觀眾特別注意、甚至轟動全場的人或事物」。",
       "sentenceIndex": 66,
@@ -2800,12 +2534,10 @@ export default {
         "showstopper"
       ],
       "optionReasons": {
-        "stop-mcq-34": "本句指「精彩或搶眼到令觀眾特別注意、甚至轟動全場的人或事物」。",
-        "stop-mcq-33": "「用來封住瓶口、洞口等的物件」是「stopper」的用法，與本句語境不同。",
-        "stop-mcq-35": "「非正式地短暫到訪某人或某個地方」是「stop by」的用法，與本句語境不同。",
-        "stop-mcq-32": "「因比賽期間曾有中斷，而在正常時間結束後補加的時間」是「stoppage time（sport）」的用法，與本句語境不同。",
-        "stop-mcq-36": "「在前往目的地途中短暫停留」是「stop off」的用法，與本句語境不同。",
-        "stop-mcq-31": "「工作、供應、比賽或其他活動的停止或中斷」是「stoppage」的用法，與本句語境不同。"
+        "stop-mcq-34": "本句的「showstopper」指「精彩或搶眼到令觀眾特別注意、甚至轟動全場的人或事物」。",
+        "stop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-34"
     },
@@ -2817,11 +2549,9 @@ export default {
       "masked": "That dress is an absolute ____.",
       "options": [
         "stop-mcq-34",
-        "stop-mcq-33",
-        "stop-mcq-35",
-        "stop-mcq-32",
-        "stop-mcq-36",
-        "stop-mcq-31"
+        "stop-mcq-11",
+        "stop-mcq-15",
+        "stop-mcq-29"
       ],
       "explanation": "本句的「showstopper」指「精彩或搶眼到令觀眾特別注意、甚至轟動全場的人或事物」。",
       "sentenceIndex": 67,
@@ -2830,12 +2560,10 @@ export default {
         "showstopper"
       ],
       "optionReasons": {
-        "stop-mcq-34": "本句指「精彩或搶眼到令觀眾特別注意、甚至轟動全場的人或事物」。",
-        "stop-mcq-33": "「用來封住瓶口、洞口等的物件」是「stopper」的用法，與本句語境不同。",
-        "stop-mcq-35": "「非正式地短暫到訪某人或某個地方」是「stop by」的用法，與本句語境不同。",
-        "stop-mcq-32": "「因比賽期間曾有中斷，而在正常時間結束後補加的時間」是「stoppage time（sport）」的用法，與本句語境不同。",
-        "stop-mcq-36": "「在前往目的地途中短暫停留」是「stop off」的用法，與本句語境不同。",
-        "stop-mcq-31": "「工作、供應、比賽或其他活動的停止或中斷」是「stoppage」的用法，與本句語境不同。"
+        "stop-mcq-34": "本句的「showstopper」指「精彩或搶眼到令觀眾特別注意、甚至轟動全場的人或事物」。",
+        "stop-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-34"
     },
@@ -2847,11 +2575,9 @@ export default {
       "masked": "I'll ____ your office later.",
       "options": [
         "stop-mcq-35",
+        "stop-mcq-30",
         "stop-mcq-34",
-        "stop-mcq-36",
-        "stop-mcq-33",
-        "stop-mcq-32",
-        "stop-mcq-31"
+        "stop-mcq-29"
       ],
       "explanation": "本句的「stop by」指「非正式地短暫到訪某人或某個地方」。",
       "sentenceIndex": 68,
@@ -2860,12 +2586,10 @@ export default {
         "stop by"
       ],
       "optionReasons": {
-        "stop-mcq-35": "本句指「非正式地短暫到訪某人或某個地方」。",
-        "stop-mcq-34": "「精彩或搶眼到令觀眾特別注意、甚至轟動全場的人或事物」是「showstopper」的用法，與本句語境不同。",
-        "stop-mcq-36": "「在前往目的地途中短暫停留」是「stop off」的用法，與本句語境不同。",
-        "stop-mcq-33": "「用來封住瓶口、洞口等的物件」是「stopper」的用法，與本句語境不同。",
-        "stop-mcq-32": "「因比賽期間曾有中斷，而在正常時間結束後補加的時間」是「stoppage time（sport）」的用法，與本句語境不同。",
-        "stop-mcq-31": "「工作、供應、比賽或其他活動的停止或中斷」是「stoppage」的用法，與本句語境不同。"
+        "stop-mcq-35": "本句的「stop by」指「非正式地短暫到訪某人或某個地方」。",
+        "stop-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-35"
     },
@@ -2877,11 +2601,9 @@ export default {
       "masked": "She ____ for a cup of tea.",
       "options": [
         "stop-mcq-35",
-        "stop-mcq-34",
-        "stop-mcq-36",
-        "stop-mcq-33",
-        "stop-mcq-32",
-        "stop-mcq-31"
+        "stop-mcq-25",
+        "stop-mcq-13",
+        "stop-mcq-33"
       ],
       "explanation": "本句的「stopped by」指「非正式地短暫到訪某人或某個地方」。",
       "sentenceIndex": 69,
@@ -2890,12 +2612,10 @@ export default {
         "stopped by"
       ],
       "optionReasons": {
-        "stop-mcq-35": "本句指「非正式地短暫到訪某人或某個地方」。",
-        "stop-mcq-34": "「精彩或搶眼到令觀眾特別注意、甚至轟動全場的人或事物」是「showstopper」的用法，與本句語境不同。",
-        "stop-mcq-36": "「在前往目的地途中短暫停留」是「stop off」的用法，與本句語境不同。",
-        "stop-mcq-33": "「用來封住瓶口、洞口等的物件」是「stopper」的用法，與本句語境不同。",
-        "stop-mcq-32": "「因比賽期間曾有中斷，而在正常時間結束後補加的時間」是「stoppage time（sport）」的用法，與本句語境不同。",
-        "stop-mcq-31": "「工作、供應、比賽或其他活動的停止或中斷」是「stoppage」的用法，與本句語境不同。"
+        "stop-mcq-35": "本句的「stopped by」指「非正式地短暫到訪某人或某個地方」。",
+        "stop-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-35"
     },
@@ -2907,11 +2627,9 @@ export default {
       "masked": "We ____ in Singapore on our way to Australia.",
       "options": [
         "stop-mcq-36",
-        "stop-mcq-35",
-        "stop-mcq-34",
+        "stop-mcq-29",
         "stop-mcq-33",
-        "stop-mcq-32",
-        "stop-mcq-31"
+        "stop-mcq-20"
       ],
       "explanation": "本句的「stopped off」指「在前往目的地途中短暫停留」。",
       "sentenceIndex": 70,
@@ -2920,12 +2638,10 @@ export default {
         "stopped off"
       ],
       "optionReasons": {
-        "stop-mcq-36": "本句指「在前往目的地途中短暫停留」。",
-        "stop-mcq-35": "「非正式地短暫到訪某人或某個地方」是「stop by」的用法，與本句語境不同。",
-        "stop-mcq-34": "「精彩或搶眼到令觀眾特別注意、甚至轟動全場的人或事物」是「showstopper」的用法，與本句語境不同。",
-        "stop-mcq-33": "「用來封住瓶口、洞口等的物件」是「stopper」的用法，與本句語境不同。",
-        "stop-mcq-32": "「因比賽期間曾有中斷，而在正常時間結束後補加的時間」是「stoppage time（sport）」的用法，與本句語境不同。",
-        "stop-mcq-31": "「工作、供應、比賽或其他活動的停止或中斷」是「stoppage」的用法，與本句語境不同。"
+        "stop-mcq-36": "本句的「stopped off」指「在前往目的地途中短暫停留」。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-36"
     },
@@ -2937,11 +2653,9 @@ export default {
       "masked": "Let's ____ for lunch.",
       "options": [
         "stop-mcq-36",
-        "stop-mcq-35",
-        "stop-mcq-34",
-        "stop-mcq-33",
-        "stop-mcq-32",
-        "stop-mcq-31"
+        "stop-mcq-05",
+        "stop-mcq-29",
+        "stop-mcq-20"
       ],
       "explanation": "本句的「stop off」指「在前往目的地途中短暫停留」。",
       "sentenceIndex": 71,
@@ -2950,12 +2664,10 @@ export default {
         "stop off"
       ],
       "optionReasons": {
-        "stop-mcq-36": "本句指「在前往目的地途中短暫停留」。",
-        "stop-mcq-35": "「非正式地短暫到訪某人或某個地方」是「stop by」的用法，與本句語境不同。",
-        "stop-mcq-34": "「精彩或搶眼到令觀眾特別注意、甚至轟動全場的人或事物」是「showstopper」的用法，與本句語境不同。",
-        "stop-mcq-33": "「用來封住瓶口、洞口等的物件」是「stopper」的用法，與本句語境不同。",
-        "stop-mcq-32": "「因比賽期間曾有中斷，而在正常時間結束後補加的時間」是「stoppage time（sport）」的用法，與本句語境不同。",
-        "stop-mcq-31": "「工作、供應、比賽或其他活動的停止或中斷」是「stoppage」的用法，與本句語境不同。"
+        "stop-mcq-36": "本句的「stop off」指「在前往目的地途中短暫停留」。",
+        "stop-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "stop-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stop-mcq-36"
     }
@@ -2967,5 +2679,7 @@ export default {
     "sha256": "6d5caf559aac6025adf0425074d6673ffad0ba57f7fa24d525d946b42c566f30",
     "pages": 26
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

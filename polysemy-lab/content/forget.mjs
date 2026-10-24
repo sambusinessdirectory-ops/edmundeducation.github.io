@@ -262,10 +262,7 @@ export default {
       "masked": "He was not the kind of person you ____ easily.",
       "options": [
         "forget-mcq-01",
-        "forget-mcq-02",
-        "forget-mcq-03",
-        "forget-mcq-04",
-        "forget-mcq-05",
+        "forget-mcq-07",
         "forget-mcq-06"
       ],
       "explanation": "本句的「forget」指「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」。",
@@ -275,12 +272,9 @@ export default {
         "forget"
       ],
       "optionReasons": {
-        "forget-mcq-01": "本句指「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」。",
-        "forget-mcq-02": "「原本應該或打算做某事，但因沒有記起而沒有完成該行動」是「forget to do」的用法，與本句語境不同。",
-        "forget-mcq-03": "「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」是「forget an object」的用法，與本句語境不同。",
-        "forget-mcq-04": "「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」是「forget something deliberately/figuratively」的用法，與本句語境不同。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。"
+        "forget-mcq-01": "本句的「forget」指「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」。",
+        "forget-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-01"
     },
@@ -292,10 +286,7 @@ export default {
       "masked": "I’ve ____ her name.",
       "options": [
         "forget-mcq-01",
-        "forget-mcq-02",
-        "forget-mcq-03",
-        "forget-mcq-04",
-        "forget-mcq-05",
+        "forget-mcq-07",
         "forget-mcq-06"
       ],
       "explanation": "本句的「forgotten」指「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」。",
@@ -305,12 +296,9 @@ export default {
         "forgotten"
       ],
       "optionReasons": {
-        "forget-mcq-01": "本句指「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」。",
-        "forget-mcq-02": "「原本應該或打算做某事，但因沒有記起而沒有完成該行動」是「forget to do」的用法，與本句語境不同。",
-        "forget-mcq-03": "「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」是「forget an object」的用法，與本句語境不同。",
-        "forget-mcq-04": "「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」是「forget something deliberately/figuratively」的用法，與本句語境不同。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。"
+        "forget-mcq-01": "本句的「forgotten」指「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」。",
+        "forget-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-01"
     },
@@ -322,10 +310,7 @@ export default {
       "masked": "I’ll never ____ the first time I visited Hong Kong.",
       "options": [
         "forget-mcq-01",
-        "forget-mcq-02",
-        "forget-mcq-03",
-        "forget-mcq-04",
-        "forget-mcq-05",
+        "forget-mcq-11",
         "forget-mcq-06"
       ],
       "explanation": "本句的「forget」指「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」。",
@@ -335,12 +320,9 @@ export default {
         "forget"
       ],
       "optionReasons": {
-        "forget-mcq-01": "本句指「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」。",
-        "forget-mcq-02": "「原本應該或打算做某事，但因沒有記起而沒有完成該行動」是「forget to do」的用法，與本句語境不同。",
-        "forget-mcq-03": "「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」是「forget an object」的用法，與本句語境不同。",
-        "forget-mcq-04": "「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」是「forget something deliberately/figuratively」的用法，與本句語境不同。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。"
+        "forget-mcq-01": "本句的「forget」指「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」。",
+        "forget-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-01"
     },
@@ -352,11 +334,9 @@ export default {
       "masked": "I ____ the door.",
       "options": [
         "forget-mcq-02",
-        "forget-mcq-01",
-        "forget-mcq-03",
         "forget-mcq-04",
-        "forget-mcq-05",
-        "forget-mcq-06"
+        "forget-mcq-09",
+        "forget-mcq-07"
       ],
       "explanation": "本句的「forgot to lock」指「原本應該或打算做某事，但因沒有記起而沒有完成該行動」。",
       "sentenceIndex": 3,
@@ -365,12 +345,10 @@ export default {
         "forgot to lock"
       ],
       "optionReasons": {
-        "forget-mcq-02": "本句指「原本應該或打算做某事，但因沒有記起而沒有完成該行動」。",
-        "forget-mcq-01": "「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」是「forget a person/fact/name/event」的用法，與本句語境不同。",
-        "forget-mcq-03": "「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」是「forget an object」的用法，與本句語境不同。",
-        "forget-mcq-04": "「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」是「forget something deliberately/figuratively」的用法，與本句語境不同。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。"
+        "forget-mcq-02": "本句的「forgot to lock」指「原本應該或打算做某事，但因沒有記起而沒有完成該行動」。",
+        "forget-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-02"
     },
@@ -382,11 +360,9 @@ export default {
       "masked": "Don’t ____ me the document.",
       "options": [
         "forget-mcq-02",
-        "forget-mcq-01",
-        "forget-mcq-03",
         "forget-mcq-04",
-        "forget-mcq-05",
-        "forget-mcq-06"
+        "forget-mcq-09",
+        "forget-mcq-07"
       ],
       "explanation": "本句的「forget to send」指「原本應該或打算做某事，但因沒有記起而沒有完成該行動」。",
       "sentenceIndex": 4,
@@ -395,12 +371,10 @@ export default {
         "forget to send"
       ],
       "optionReasons": {
-        "forget-mcq-02": "本句指「原本應該或打算做某事，但因沒有記起而沒有完成該行動」。",
-        "forget-mcq-01": "「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」是「forget a person/fact/name/event」的用法，與本句語境不同。",
-        "forget-mcq-03": "「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」是「forget an object」的用法，與本句語境不同。",
-        "forget-mcq-04": "「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」是「forget something deliberately/figuratively」的用法，與本句語境不同。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。"
+        "forget-mcq-02": "本句的「forget to send」指「原本應該或打算做某事，但因沒有記起而沒有完成該行動」。",
+        "forget-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-02"
     },
@@ -412,11 +386,8 @@ export default {
       "masked": "I ____ at the restaurant.",
       "options": [
         "forget-mcq-03",
-        "forget-mcq-02",
-        "forget-mcq-04",
-        "forget-mcq-01",
-        "forget-mcq-05",
-        "forget-mcq-06"
+        "forget-mcq-06",
+        "forget-mcq-08"
       ],
       "explanation": "本句的「forgot my umbrella」指「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」。",
       "sentenceIndex": 5,
@@ -425,12 +396,9 @@ export default {
         "forgot my umbrella"
       ],
       "optionReasons": {
-        "forget-mcq-03": "本句指「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」。",
-        "forget-mcq-02": "「原本應該或打算做某事，但因沒有記起而沒有完成該行動」是「forget to do」的用法，與本句語境不同。",
-        "forget-mcq-04": "「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」是「forget something deliberately/figuratively」的用法，與本句語境不同。",
-        "forget-mcq-01": "「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」是「forget a person/fact/name/event」的用法，與本句語境不同。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。"
+        "forget-mcq-03": "本句的「forgot my umbrella」指「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」。",
+        "forget-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-03"
     },
@@ -442,11 +410,9 @@ export default {
       "masked": "She ____ when she left the house.",
       "options": [
         "forget-mcq-03",
-        "forget-mcq-02",
-        "forget-mcq-04",
-        "forget-mcq-01",
-        "forget-mcq-05",
-        "forget-mcq-06"
+        "forget-mcq-06",
+        "forget-mcq-09",
+        "forget-mcq-07"
       ],
       "explanation": "本句的「forgot her keys」指「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」。",
       "sentenceIndex": 6,
@@ -455,12 +421,10 @@ export default {
         "forgot her keys"
       ],
       "optionReasons": {
-        "forget-mcq-03": "本句指「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」。",
-        "forget-mcq-02": "「原本應該或打算做某事，但因沒有記起而沒有完成該行動」是「forget to do」的用法，與本句語境不同。",
-        "forget-mcq-04": "「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」是「forget something deliberately/figuratively」的用法，與本句語境不同。",
-        "forget-mcq-01": "「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」是「forget a person/fact/name/event」的用法，與本句語境不同。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。"
+        "forget-mcq-03": "本句的「forgot her keys」指「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」。",
+        "forget-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-03"
     },
@@ -472,11 +436,7 @@ export default {
       "masked": "Let’s ____ what happened yesterday and start again.",
       "options": [
         "forget-mcq-04",
-        "forget-mcq-03",
-        "forget-mcq-05",
-        "forget-mcq-02",
-        "forget-mcq-06",
-        "forget-mcq-01"
+        "forget-mcq-08"
       ],
       "explanation": "本句的「forget」指「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」。",
       "sentenceIndex": 7,
@@ -485,12 +445,8 @@ export default {
         "forget"
       ],
       "optionReasons": {
-        "forget-mcq-04": "本句指「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」。",
-        "forget-mcq-03": "「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」是「forget an object」的用法，與本句語境不同。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。",
-        "forget-mcq-02": "「原本應該或打算做某事，但因沒有記起而沒有完成該行動」是「forget to do」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。",
-        "forget-mcq-01": "「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」是「forget a person/fact/name/event」的用法，與本句語境不同。"
+        "forget-mcq-04": "本句的「forget」指「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」。",
+        "forget-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-04"
     },
@@ -502,11 +458,7 @@ export default {
       "masked": "He wanted to ____ the argument and move on.",
       "options": [
         "forget-mcq-04",
-        "forget-mcq-03",
-        "forget-mcq-05",
-        "forget-mcq-02",
-        "forget-mcq-06",
-        "forget-mcq-01"
+        "forget-mcq-08"
       ],
       "explanation": "本句的「forget」指「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」。",
       "sentenceIndex": 8,
@@ -515,12 +467,8 @@ export default {
         "forget"
       ],
       "optionReasons": {
-        "forget-mcq-04": "本句指「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」。",
-        "forget-mcq-03": "「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」是「forget an object」的用法，與本句語境不同。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。",
-        "forget-mcq-02": "「原本應該或打算做某事，但因沒有記起而沒有完成該行動」是「forget to do」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。",
-        "forget-mcq-01": "「原本曾知道、見過或經歷過某件事，但之後無法再記起或清楚回想」是「forget a person/fact/name/event」的用法，與本句語境不同。"
+        "forget-mcq-04": "本句的「forget」指「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」。",
+        "forget-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-04"
     },
@@ -532,11 +480,9 @@ export default {
       "masked": "I ____ him at the conference.",
       "options": [
         "forget-mcq-05",
-        "forget-mcq-04",
         "forget-mcq-06",
-        "forget-mcq-03",
-        "forget-mcq-07",
-        "forget-mcq-02"
+        "forget-mcq-11",
+        "forget-mcq-09"
       ],
       "explanation": "本句的「forgot meeting」指「某件事其實已經做過，但之後不記得自己曾經做過」。",
       "sentenceIndex": 9,
@@ -545,12 +491,10 @@ export default {
         "forgot meeting"
       ],
       "optionReasons": {
-        "forget-mcq-05": "本句指「某件事其實已經做過，但之後不記得自己曾經做過」。",
-        "forget-mcq-04": "「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」是「forget something deliberately/figuratively」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。",
-        "forget-mcq-03": "「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」是「forget an object」的用法，與本句語境不同。",
-        "forget-mcq-07": "「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」是「forget oneself」的用法，與本句語境不同。",
-        "forget-mcq-02": "「原本應該或打算做某事，但因沒有記起而沒有完成該行動」是「forget to do」的用法，與本句語境不同。"
+        "forget-mcq-05": "本句的「forgot meeting」指「某件事其實已經做過，但之後不記得自己曾經做過」。",
+        "forget-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-05"
     },
@@ -562,11 +506,9 @@ export default {
       "masked": "She had completely ____ me the story before.",
       "options": [
         "forget-mcq-05",
-        "forget-mcq-04",
         "forget-mcq-06",
-        "forget-mcq-03",
-        "forget-mcq-07",
-        "forget-mcq-02"
+        "forget-mcq-11",
+        "forget-mcq-09"
       ],
       "explanation": "本句的「forgotten telling」指「某件事其實已經做過，但之後不記得自己曾經做過」。",
       "sentenceIndex": 10,
@@ -575,12 +517,10 @@ export default {
         "forgotten telling"
       ],
       "optionReasons": {
-        "forget-mcq-05": "本句指「某件事其實已經做過，但之後不記得自己曾經做過」。",
-        "forget-mcq-04": "「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」是「forget something deliberately/figuratively」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。",
-        "forget-mcq-03": "「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」是「forget an object」的用法，與本句語境不同。",
-        "forget-mcq-07": "「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」是「forget oneself」的用法，與本句語境不同。",
-        "forget-mcq-02": "「原本應該或打算做某事，但因沒有記起而沒有完成該行動」是「forget to do」的用法，與本句語境不同。"
+        "forget-mcq-05": "本句的「forgotten telling」指「某件事其實已經做過，但之後不記得自己曾經做過」。",
+        "forget-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-05"
     },
@@ -593,10 +533,8 @@ export default {
       "options": [
         "forget-mcq-06",
         "forget-mcq-05",
-        "forget-mcq-07",
-        "forget-mcq-04",
-        "forget-mcq-08",
-        "forget-mcq-03"
+        "forget-mcq-10",
+        "forget-mcq-07"
       ],
       "explanation": "本句的「forget it」指「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」。",
       "sentenceIndex": 11,
@@ -605,12 +543,10 @@ export default {
         "forget it"
       ],
       "optionReasons": {
-        "forget-mcq-06": "本句指「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。",
-        "forget-mcq-07": "「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」是「forget oneself」的用法，與本句語境不同。",
-        "forget-mcq-04": "「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」是「forget something deliberately/figuratively」的用法，與本句語境不同。",
-        "forget-mcq-08": "「經常容易忘記事情或原本應做的事情；健忘的」是「forgetful」的用法，與本句語境不同。",
-        "forget-mcq-03": "「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」是「forget an object」的用法，與本句語境不同。"
+        "forget-mcq-06": "本句的「forget it」指「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」。",
+        "forget-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-06"
     },
@@ -623,10 +559,8 @@ export default {
       "options": [
         "forget-mcq-06",
         "forget-mcq-05",
-        "forget-mcq-07",
-        "forget-mcq-04",
-        "forget-mcq-08",
-        "forget-mcq-03"
+        "forget-mcq-10",
+        "forget-mcq-07"
       ],
       "explanation": "本句的「forget it」指「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」。",
       "sentenceIndex": 12,
@@ -635,12 +569,10 @@ export default {
         "forget it"
       ],
       "optionReasons": {
-        "forget-mcq-06": "本句指「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。",
-        "forget-mcq-07": "「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」是「forget oneself」的用法，與本句語境不同。",
-        "forget-mcq-04": "「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」是「forget something deliberately/figuratively」的用法，與本句語境不同。",
-        "forget-mcq-08": "「經常容易忘記事情或原本應做的事情；健忘的」是「forgetful」的用法，與本句語境不同。",
-        "forget-mcq-03": "「因沒有記得拿取或帶上某件物品，而把它遺留在某處或沒有帶走」是「forget an object」的用法，與本句語境不同。"
+        "forget-mcq-06": "本句的「forget it」指「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」。",
+        "forget-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-06"
     },
@@ -653,10 +585,8 @@ export default {
       "options": [
         "forget-mcq-07",
         "forget-mcq-06",
-        "forget-mcq-08",
-        "forget-mcq-05",
-        "forget-mcq-09",
-        "forget-mcq-04"
+        "forget-mcq-03",
+        "forget-mcq-09"
       ],
       "explanation": "本句的「forgot himself」指「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」。",
       "sentenceIndex": 13,
@@ -665,12 +595,10 @@ export default {
         "forgot himself"
       ],
       "optionReasons": {
-        "forget-mcq-07": "本句指「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。",
-        "forget-mcq-08": "「經常容易忘記事情或原本應做的事情；健忘的」是「forgetful」的用法，與本句語境不同。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。",
-        "forget-mcq-09": "「容易忘事或經常未能記住資訊的傾向」是「forgetfulness」的用法，與本句語境不同。",
-        "forget-mcq-04": "「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」是「forget something deliberately/figuratively」的用法，與本句語境不同。"
+        "forget-mcq-07": "本句的「forgot himself」指「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」。",
+        "forget-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-07"
     },
@@ -683,10 +611,8 @@ export default {
       "options": [
         "forget-mcq-07",
         "forget-mcq-06",
-        "forget-mcq-08",
-        "forget-mcq-05",
-        "forget-mcq-09",
-        "forget-mcq-04"
+        "forget-mcq-03",
+        "forget-mcq-09"
       ],
       "explanation": "本句的「forget yourself」指「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」。",
       "sentenceIndex": 14,
@@ -695,12 +621,10 @@ export default {
         "forget yourself"
       ],
       "optionReasons": {
-        "forget-mcq-07": "本句指「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。",
-        "forget-mcq-08": "「經常容易忘記事情或原本應做的事情；健忘的」是「forgetful」的用法，與本句語境不同。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。",
-        "forget-mcq-09": "「容易忘事或經常未能記住資訊的傾向」是「forgetfulness」的用法，與本句語境不同。",
-        "forget-mcq-04": "「刻意不再把某件事放在心上或繼續思考，希望把它留在過去」是「forget something deliberately/figuratively」的用法，與本句語境不同。"
+        "forget-mcq-07": "本句的「forget yourself」指「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」。",
+        "forget-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-07"
     },
@@ -712,11 +636,7 @@ export default {
       "masked": "My grandfather has become increasingly ____.",
       "options": [
         "forget-mcq-08",
-        "forget-mcq-07",
-        "forget-mcq-09",
-        "forget-mcq-06",
-        "forget-mcq-10",
-        "forget-mcq-05"
+        "forget-mcq-04"
       ],
       "explanation": "本句的「forgetful」指「經常容易忘記事情或原本應做的事情；健忘的」。",
       "sentenceIndex": 15,
@@ -725,12 +645,8 @@ export default {
         "forgetful"
       ],
       "optionReasons": {
-        "forget-mcq-08": "本句指「經常容易忘記事情或原本應做的事情；健忘的」。",
-        "forget-mcq-07": "「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」是「forget oneself」的用法，與本句語境不同。",
-        "forget-mcq-09": "「容易忘事或經常未能記住資訊的傾向」是「forgetfulness」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。",
-        "forget-mcq-10": "「缺乏特色或深刻印象，因此很容易從記憶中淡去的」是「forgettable」的用法，與本句語境不同。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。"
+        "forget-mcq-08": "本句的「forgetful」指「經常容易忘記事情或原本應做的事情；健忘的」。",
+        "forget-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-08"
     },
@@ -742,11 +658,7 @@ export default {
       "masked": "I’m quite ____ when I’m busy.",
       "options": [
         "forget-mcq-08",
-        "forget-mcq-07",
-        "forget-mcq-09",
-        "forget-mcq-06",
-        "forget-mcq-10",
-        "forget-mcq-05"
+        "forget-mcq-04"
       ],
       "explanation": "本句的「forgetful」指「經常容易忘記事情或原本應做的事情；健忘的」。",
       "sentenceIndex": 16,
@@ -755,12 +667,8 @@ export default {
         "forgetful"
       ],
       "optionReasons": {
-        "forget-mcq-08": "本句指「經常容易忘記事情或原本應做的事情；健忘的」。",
-        "forget-mcq-07": "「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」是「forget oneself」的用法，與本句語境不同。",
-        "forget-mcq-09": "「容易忘事或經常未能記住資訊的傾向」是「forgetfulness」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。",
-        "forget-mcq-10": "「缺乏特色或深刻印象，因此很容易從記憶中淡去的」是「forgettable」的用法，與本句語境不同。",
-        "forget-mcq-05": "「某件事其實已經做過，但之後不記得自己曾經做過」是「forget doing」的用法，與本句語境不同。"
+        "forget-mcq-08": "本句的「forgetful」指「經常容易忘記事情或原本應做的事情；健忘的」。",
+        "forget-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-08"
     },
@@ -772,11 +680,9 @@ export default {
       "masked": "His ____ sometimes causes problems at work.",
       "options": [
         "forget-mcq-09",
-        "forget-mcq-08",
-        "forget-mcq-10",
-        "forget-mcq-07",
-        "forget-mcq-11",
-        "forget-mcq-06"
+        "forget-mcq-06",
+        "forget-mcq-03",
+        "forget-mcq-07"
       ],
       "explanation": "本句的「forgetfulness」指「容易忘事或經常未能記住資訊的傾向」。",
       "sentenceIndex": 17,
@@ -785,12 +691,10 @@ export default {
         "forgetfulness"
       ],
       "optionReasons": {
-        "forget-mcq-09": "本句指「容易忘事或經常未能記住資訊的傾向」。",
-        "forget-mcq-08": "「經常容易忘記事情或原本應做的事情；健忘的」是「forgetful」的用法，與本句語境不同。",
-        "forget-mcq-10": "「缺乏特色或深刻印象，因此很容易從記憶中淡去的」是「forgettable」的用法，與本句語境不同。",
-        "forget-mcq-07": "「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」是「forget oneself」的用法，與本句語境不同。",
-        "forget-mcq-11": "「留下非常深刻印象，因此很難或幾乎不可能忘記的」是「unforgettable」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。"
+        "forget-mcq-09": "本句的「forgetfulness」指「容易忘事或經常未能記住資訊的傾向」。",
+        "forget-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-09"
     },
@@ -802,11 +706,9 @@ export default {
       "masked": "She apologized for her ____.",
       "options": [
         "forget-mcq-09",
-        "forget-mcq-08",
-        "forget-mcq-10",
-        "forget-mcq-07",
-        "forget-mcq-11",
-        "forget-mcq-06"
+        "forget-mcq-04",
+        "forget-mcq-02",
+        "forget-mcq-07"
       ],
       "explanation": "本句的「forgetfulness」指「容易忘事或經常未能記住資訊的傾向」。",
       "sentenceIndex": 18,
@@ -815,12 +717,10 @@ export default {
         "forgetfulness"
       ],
       "optionReasons": {
-        "forget-mcq-09": "本句指「容易忘事或經常未能記住資訊的傾向」。",
-        "forget-mcq-08": "「經常容易忘記事情或原本應做的事情；健忘的」是「forgetful」的用法，與本句語境不同。",
-        "forget-mcq-10": "「缺乏特色或深刻印象，因此很容易從記憶中淡去的」是「forgettable」的用法，與本句語境不同。",
-        "forget-mcq-07": "「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」是「forget oneself」的用法，與本句語境不同。",
-        "forget-mcq-11": "「留下非常深刻印象，因此很難或幾乎不可能忘記的」是「unforgettable」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。"
+        "forget-mcq-09": "本句的「forgetfulness」指「容易忘事或經常未能記住資訊的傾向」。",
+        "forget-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-09"
     },
@@ -832,11 +732,9 @@ export default {
       "masked": "The film was enjoyable but ultimately ____.",
       "options": [
         "forget-mcq-10",
-        "forget-mcq-09",
-        "forget-mcq-11",
-        "forget-mcq-08",
-        "forget-mcq-07",
-        "forget-mcq-06"
+        "forget-mcq-06",
+        "forget-mcq-05",
+        "forget-mcq-07"
       ],
       "explanation": "本句的「forgettable」指「缺乏特色或深刻印象，因此很容易從記憶中淡去的」。",
       "sentenceIndex": 19,
@@ -845,12 +743,10 @@ export default {
         "forgettable"
       ],
       "optionReasons": {
-        "forget-mcq-10": "本句指「缺乏特色或深刻印象，因此很容易從記憶中淡去的」。",
-        "forget-mcq-09": "「容易忘事或經常未能記住資訊的傾向」是「forgetfulness」的用法，與本句語境不同。",
-        "forget-mcq-11": "「留下非常深刻印象，因此很難或幾乎不可能忘記的」是「unforgettable」的用法，與本句語境不同。",
-        "forget-mcq-08": "「經常容易忘記事情或原本應做的事情；健忘的」是「forgetful」的用法，與本句語境不同。",
-        "forget-mcq-07": "「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」是「forget oneself」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。"
+        "forget-mcq-10": "本句的「forgettable」指「缺乏特色或深刻印象，因此很容易從記憶中淡去的」。",
+        "forget-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-10"
     },
@@ -862,11 +758,9 @@ export default {
       "masked": "It was a rather ____ performance.",
       "options": [
         "forget-mcq-10",
-        "forget-mcq-09",
-        "forget-mcq-11",
-        "forget-mcq-08",
-        "forget-mcq-07",
-        "forget-mcq-06"
+        "forget-mcq-06",
+        "forget-mcq-05",
+        "forget-mcq-07"
       ],
       "explanation": "本句的「forgettable」指「缺乏特色或深刻印象，因此很容易從記憶中淡去的」。",
       "sentenceIndex": 20,
@@ -875,12 +769,10 @@ export default {
         "forgettable"
       ],
       "optionReasons": {
-        "forget-mcq-10": "本句指「缺乏特色或深刻印象，因此很容易從記憶中淡去的」。",
-        "forget-mcq-09": "「容易忘事或經常未能記住資訊的傾向」是「forgetfulness」的用法，與本句語境不同。",
-        "forget-mcq-11": "「留下非常深刻印象，因此很難或幾乎不可能忘記的」是「unforgettable」的用法，與本句語境不同。",
-        "forget-mcq-08": "「經常容易忘記事情或原本應做的事情；健忘的」是「forgetful」的用法，與本句語境不同。",
-        "forget-mcq-07": "「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」是「forget oneself」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。"
+        "forget-mcq-10": "本句的「forgettable」指「缺乏特色或深刻印象，因此很容易從記憶中淡去的」。",
+        "forget-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-10"
     },
@@ -892,11 +784,9 @@ export default {
       "masked": "The trip was an ____ experience.",
       "options": [
         "forget-mcq-11",
-        "forget-mcq-10",
-        "forget-mcq-09",
-        "forget-mcq-08",
-        "forget-mcq-07",
-        "forget-mcq-06"
+        "forget-mcq-06",
+        "forget-mcq-05",
+        "forget-mcq-09"
       ],
       "explanation": "本句的「unforgettable」指「留下非常深刻印象，因此很難或幾乎不可能忘記的」。",
       "sentenceIndex": 21,
@@ -905,12 +795,10 @@ export default {
         "unforgettable"
       ],
       "optionReasons": {
-        "forget-mcq-11": "本句指「留下非常深刻印象，因此很難或幾乎不可能忘記的」。",
-        "forget-mcq-10": "「缺乏特色或深刻印象，因此很容易從記憶中淡去的」是「forgettable」的用法，與本句語境不同。",
-        "forget-mcq-09": "「容易忘事或經常未能記住資訊的傾向」是「forgetfulness」的用法，與本句語境不同。",
-        "forget-mcq-08": "「經常容易忘記事情或原本應做的事情；健忘的」是「forgetful」的用法，與本句語境不同。",
-        "forget-mcq-07": "「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」是「forget oneself」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。"
+        "forget-mcq-11": "本句的「unforgettable」指「留下非常深刻印象，因此很難或幾乎不可能忘記的」。",
+        "forget-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-11"
     },
@@ -922,11 +810,8 @@ export default {
       "masked": "She gave an ____ performance.",
       "options": [
         "forget-mcq-11",
-        "forget-mcq-10",
-        "forget-mcq-09",
-        "forget-mcq-08",
-        "forget-mcq-07",
-        "forget-mcq-06"
+        "forget-mcq-06",
+        "forget-mcq-01"
       ],
       "explanation": "本句的「unforgettable」指「留下非常深刻印象，因此很難或幾乎不可能忘記的」。",
       "sentenceIndex": 22,
@@ -935,12 +820,9 @@ export default {
         "unforgettable"
       ],
       "optionReasons": {
-        "forget-mcq-11": "本句指「留下非常深刻印象，因此很難或幾乎不可能忘記的」。",
-        "forget-mcq-10": "「缺乏特色或深刻印象，因此很容易從記憶中淡去的」是「forgettable」的用法，與本句語境不同。",
-        "forget-mcq-09": "「容易忘事或經常未能記住資訊的傾向」是「forgetfulness」的用法，與本句語境不同。",
-        "forget-mcq-08": "「經常容易忘記事情或原本應做的事情；健忘的」是「forgetful」的用法，與本句語境不同。",
-        "forget-mcq-07": "「一時失去自我控制或忘記應有的禮貌、身分和行為分寸」是「forget oneself」的用法，與本句語境不同。",
-        "forget-mcq-06": "「放棄某個想法、要求或計劃，不再考慮；也可表示「算了／別放在心上」」是「forget it」的用法，與本句語境不同。"
+        "forget-mcq-11": "本句的「unforgettable」指「留下非常深刻印象，因此很難或幾乎不可能忘記的」。",
+        "forget-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "forget-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "forget-mcq-11"
     }
@@ -952,5 +834,7 @@ export default {
     "sha256": "7efcd295d0f9631fde0da3c806e549eef7fab2d464754b32d03537fbf2ed92ff",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

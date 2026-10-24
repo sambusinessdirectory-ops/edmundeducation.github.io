@@ -470,11 +470,9 @@ export default {
       "masked": "The chair is in the ____ of the room.",
       "options": [
         "corner-mcq-01",
-        "corner-mcq-02",
-        "corner-mcq-03",
+        "corner-mcq-09",
         "corner-mcq-04",
-        "corner-mcq-05",
-        "corner-mcq-06"
+        "corner-mcq-11"
       ],
       "explanation": "本句的「corner」指「兩條邊、牆面或表面相交形成的角／角落」。",
       "sentenceIndex": 0,
@@ -483,12 +481,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-01": "本句指「兩條邊、牆面或表面相交形成的角／角落」。",
-        "corner-mcq-02": "「道路交會或轉彎形成的街角／轉角」與本句語境不同。",
-        "corner-mcq-03": "「在較大空間中劃出或自然形成的一小片區域」與本句語境不同。",
-        "corner-mcq-04": "「某個較大地區中較小、常偏遠或不起眼的一部分」與本句語境不同。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。"
+        "corner-mcq-01": "本句的「corner」指「兩條邊、牆面或表面相交形成的角／角落」。",
+        "corner-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-01"
     },
@@ -500,11 +496,9 @@ export default {
       "masked": "Dust had collected in the ____.",
       "options": [
         "corner-mcq-01",
-        "corner-mcq-02",
-        "corner-mcq-03",
-        "corner-mcq-04",
-        "corner-mcq-05",
-        "corner-mcq-06"
+        "corner-mcq-08",
+        "corner-mcq-11",
+        "corner-mcq-12"
       ],
       "explanation": "本句的「corner」指「兩條邊、牆面或表面相交形成的角／角落」。",
       "sentenceIndex": 1,
@@ -513,12 +507,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-01": "本句指「兩條邊、牆面或表面相交形成的角／角落」。",
-        "corner-mcq-02": "「道路交會或轉彎形成的街角／轉角」與本句語境不同。",
-        "corner-mcq-03": "「在較大空間中劃出或自然形成的一小片區域」與本句語境不同。",
-        "corner-mcq-04": "「某個較大地區中較小、常偏遠或不起眼的一部分」與本句語境不同。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。"
+        "corner-mcq-01": "本句的「corner」指「兩條邊、牆面或表面相交形成的角／角落」。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-01"
     },
@@ -530,11 +522,9 @@ export default {
       "masked": "There is a café on the ____.",
       "options": [
         "corner-mcq-02",
-        "corner-mcq-01",
-        "corner-mcq-03",
-        "corner-mcq-04",
-        "corner-mcq-05",
-        "corner-mcq-06"
+        "corner-mcq-10",
+        "corner-mcq-12",
+        "corner-mcq-08"
       ],
       "explanation": "本句的「corner」指「道路交會或轉彎形成的街角／轉角」。",
       "sentenceIndex": 2,
@@ -543,12 +533,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-02": "本句指「道路交會或轉彎形成的街角／轉角」。",
-        "corner-mcq-01": "「兩條邊、牆面或表面相交形成的角／角落」與本句語境不同。",
-        "corner-mcq-03": "「在較大空間中劃出或自然形成的一小片區域」與本句語境不同。",
-        "corner-mcq-04": "「某個較大地區中較小、常偏遠或不起眼的一部分」與本句語境不同。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。"
+        "corner-mcq-02": "本句的「corner」指「道路交會或轉彎形成的街角／轉角」。",
+        "corner-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-02"
     },
@@ -560,11 +548,9 @@ export default {
       "masked": "Turn left at the next ____.",
       "options": [
         "corner-mcq-02",
-        "corner-mcq-01",
-        "corner-mcq-03",
-        "corner-mcq-04",
         "corner-mcq-05",
-        "corner-mcq-06"
+        "corner-mcq-12",
+        "corner-mcq-08"
       ],
       "explanation": "本句的「corner」指「道路交會或轉彎形成的街角／轉角」。",
       "sentenceIndex": 3,
@@ -573,12 +559,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-02": "本句指「道路交會或轉彎形成的街角／轉角」。",
-        "corner-mcq-01": "「兩條邊、牆面或表面相交形成的角／角落」與本句語境不同。",
-        "corner-mcq-03": "「在較大空間中劃出或自然形成的一小片區域」與本句語境不同。",
-        "corner-mcq-04": "「某個較大地區中較小、常偏遠或不起眼的一部分」與本句語境不同。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。"
+        "corner-mcq-02": "本句的「corner」指「道路交會或轉彎形成的街角／轉角」。",
+        "corner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-02"
     },
@@ -590,11 +574,9 @@ export default {
       "masked": "She wants to create a little ____ for butterflies and bees.",
       "options": [
         "corner-mcq-03",
-        "corner-mcq-02",
-        "corner-mcq-04",
-        "corner-mcq-01",
-        "corner-mcq-05",
-        "corner-mcq-06"
+        "corner-mcq-13",
+        "corner-mcq-16",
+        "corner-mcq-05"
       ],
       "explanation": "本句的「corner」指「在較大空間中劃出或自然形成的一小片區域」。",
       "sentenceIndex": 4,
@@ -603,12 +585,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-03": "本句指「在較大空間中劃出或自然形成的一小片區域」。",
-        "corner-mcq-02": "「道路交會或轉彎形成的街角／轉角」與本句語境不同。",
-        "corner-mcq-04": "「某個較大地區中較小、常偏遠或不起眼的一部分」與本句語境不同。",
-        "corner-mcq-01": "「兩條邊、牆面或表面相交形成的角／角落」與本句語境不同。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。"
+        "corner-mcq-03": "本句的「corner」指「在較大空間中劃出或自然形成的一小片區域」。",
+        "corner-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-03"
     },
@@ -620,11 +600,9 @@ export default {
       "masked": "They made a quiet reading ____ in the classroom.",
       "options": [
         "corner-mcq-03",
-        "corner-mcq-02",
-        "corner-mcq-04",
-        "corner-mcq-01",
-        "corner-mcq-05",
-        "corner-mcq-06"
+        "corner-mcq-11",
+        "corner-mcq-09",
+        "corner-mcq-07"
       ],
       "explanation": "本句的「corner」指「在較大空間中劃出或自然形成的一小片區域」。",
       "sentenceIndex": 5,
@@ -633,12 +611,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-03": "本句指「在較大空間中劃出或自然形成的一小片區域」。",
-        "corner-mcq-02": "「道路交會或轉彎形成的街角／轉角」與本句語境不同。",
-        "corner-mcq-04": "「某個較大地區中較小、常偏遠或不起眼的一部分」與本句語境不同。",
-        "corner-mcq-01": "「兩條邊、牆面或表面相交形成的角／角落」與本句語境不同。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。"
+        "corner-mcq-03": "本句的「corner」指「在較大空間中劃出或自然形成的一小片區域」。",
+        "corner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-03"
     },
@@ -650,11 +626,9 @@ export default {
       "masked": "There is a sunny ____ of the balcony where herbs grow well.",
       "options": [
         "corner-mcq-03",
-        "corner-mcq-02",
-        "corner-mcq-04",
-        "corner-mcq-01",
-        "corner-mcq-05",
-        "corner-mcq-06"
+        "corner-mcq-15",
+        "corner-mcq-11",
+        "corner-mcq-09"
       ],
       "explanation": "本句的「corner」指「在較大空間中劃出或自然形成的一小片區域」。",
       "sentenceIndex": 6,
@@ -663,12 +637,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-03": "本句指「在較大空間中劃出或自然形成的一小片區域」。",
-        "corner-mcq-02": "「道路交會或轉彎形成的街角／轉角」與本句語境不同。",
-        "corner-mcq-04": "「某個較大地區中較小、常偏遠或不起眼的一部分」與本句語境不同。",
-        "corner-mcq-01": "「兩條邊、牆面或表面相交形成的角／角落」與本句語境不同。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。"
+        "corner-mcq-03": "本句的「corner」指「在較大空間中劃出或自然形成的一小片區域」。",
+        "corner-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-03"
     },
@@ -680,11 +652,9 @@ export default {
       "masked": "News spread to every ____ of the country.",
       "options": [
         "corner-mcq-04",
-        "corner-mcq-03",
         "corner-mcq-05",
-        "corner-mcq-02",
-        "corner-mcq-06",
-        "corner-mcq-01"
+        "corner-mcq-11",
+        "corner-mcq-15"
       ],
       "explanation": "本句的「corner」指「某個較大地區中較小、常偏遠或不起眼的一部分」。",
       "sentenceIndex": 7,
@@ -693,12 +663,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-04": "本句指「某個較大地區中較小、常偏遠或不起眼的一部分」。",
-        "corner-mcq-03": "「在較大空間中劃出或自然形成的一小片區域」與本句語境不同。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。",
-        "corner-mcq-02": "「道路交會或轉彎形成的街角／轉角」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。",
-        "corner-mcq-01": "「兩條邊、牆面或表面相交形成的角／角落」與本句語境不同。"
+        "corner-mcq-04": "本句的「corner」指「某個較大地區中較小、常偏遠或不起眼的一部分」。",
+        "corner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-04"
     },
@@ -710,11 +678,9 @@ export default {
       "masked": "They lived in a quiet ____ of the island.",
       "options": [
         "corner-mcq-04",
-        "corner-mcq-03",
-        "corner-mcq-05",
-        "corner-mcq-02",
-        "corner-mcq-06",
-        "corner-mcq-01"
+        "corner-mcq-20",
+        "corner-mcq-13",
+        "corner-mcq-16"
       ],
       "explanation": "本句的「corner」指「某個較大地區中較小、常偏遠或不起眼的一部分」。",
       "sentenceIndex": 8,
@@ -723,12 +689,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-04": "本句指「某個較大地區中較小、常偏遠或不起眼的一部分」。",
-        "corner-mcq-03": "「在較大空間中劃出或自然形成的一小片區域」與本句語境不同。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。",
-        "corner-mcq-02": "「道路交會或轉彎形成的街角／轉角」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。",
-        "corner-mcq-01": "「兩條邊、牆面或表面相交形成的角／角落」與本句語境不同。"
+        "corner-mcq-04": "本句的「corner」指「某個較大地區中較小、常偏遠或不起眼的一部分」。",
+        "corner-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-04"
     },
@@ -740,11 +704,9 @@ export default {
       "masked": "The company found itself in a ____.",
       "options": [
         "corner-mcq-05",
-        "corner-mcq-04",
-        "corner-mcq-06",
-        "corner-mcq-03",
+        "corner-mcq-01",
         "corner-mcq-07",
-        "corner-mcq-02"
+        "corner-mcq-18"
       ],
       "explanation": "本句的「corner」指「選擇受限、難以逃脫或很難處理的困境」。",
       "sentenceIndex": 9,
@@ -753,12 +715,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-05": "本句指「選擇受限、難以逃脫或很難處理的困境」。",
-        "corner-mcq-04": "「某個較大地區中較小、常偏遠或不起眼的一部分」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。",
-        "corner-mcq-03": "「在較大空間中劃出或自然形成的一小片區域」與本句語境不同。",
-        "corner-mcq-07": "「就在轉角附近」與本句語境不同。",
-        "corner-mcq-02": "「道路交會或轉彎形成的街角／轉角」與本句語境不同。"
+        "corner-mcq-05": "本句的「corner」指「選擇受限、難以逃脫或很難處理的困境」。",
+        "corner-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-05"
     },
@@ -770,11 +730,9 @@ export default {
       "masked": "He felt backed into a ____.",
       "options": [
         "corner-mcq-05",
-        "corner-mcq-04",
-        "corner-mcq-06",
-        "corner-mcq-03",
+        "corner-mcq-20",
         "corner-mcq-07",
-        "corner-mcq-02"
+        "corner-mcq-17"
       ],
       "explanation": "本句的「corner」指「選擇受限、難以逃脫或很難處理的困境」。",
       "sentenceIndex": 10,
@@ -783,12 +741,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-05": "本句指「選擇受限、難以逃脫或很難處理的困境」。",
-        "corner-mcq-04": "「某個較大地區中較小、常偏遠或不起眼的一部分」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。",
-        "corner-mcq-03": "「在較大空間中劃出或自然形成的一小片區域」與本句語境不同。",
-        "corner-mcq-07": "「就在轉角附近」與本句語境不同。",
-        "corner-mcq-02": "「道路交會或轉彎形成的街角／轉角」與本句語境不同。"
+        "corner-mcq-05": "本句的「corner」指「選擇受限、難以逃脫或很難處理的困境」。",
+        "corner-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-05"
     },
@@ -800,11 +756,9 @@ export default {
       "masked": "The questions backed him into a ____.",
       "options": [
         "corner-mcq-06",
-        "corner-mcq-05",
-        "corner-mcq-07",
-        "corner-mcq-04",
-        "corner-mcq-08",
-        "corner-mcq-03"
+        "corner-mcq-17",
+        "corner-mcq-20",
+        "corner-mcq-04"
       ],
       "explanation": "本句的「corner」指「把某人逼到幾乎沒有選擇或退路」。",
       "sentenceIndex": 11,
@@ -813,12 +767,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-06": "本句指「把某人逼到幾乎沒有選擇或退路」。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。",
-        "corner-mcq-07": "「就在轉角附近」與本句語境不同。",
-        "corner-mcq-04": "「某個較大地區中較小、常偏遠或不起眼的一部分」與本句語境不同。",
-        "corner-mcq-08": "「某事件在短時間內即將發生」與本句語境不同。",
-        "corner-mcq-03": "「在較大空間中劃出或自然形成的一小片區域」與本句語境不同。"
+        "corner-mcq-06": "本句的「corner」指「把某人逼到幾乎沒有選擇或退路」。",
+        "corner-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-06"
     },
@@ -830,11 +782,9 @@ export default {
       "masked": "Don’t back the other side into a ____ during negotiations.",
       "options": [
         "corner-mcq-06",
-        "corner-mcq-05",
+        "corner-mcq-13",
         "corner-mcq-07",
-        "corner-mcq-04",
-        "corner-mcq-08",
-        "corner-mcq-03"
+        "corner-mcq-09"
       ],
       "explanation": "本句的「corner」指「把某人逼到幾乎沒有選擇或退路」。",
       "sentenceIndex": 12,
@@ -843,12 +793,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-06": "本句指「把某人逼到幾乎沒有選擇或退路」。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。",
-        "corner-mcq-07": "「就在轉角附近」與本句語境不同。",
-        "corner-mcq-04": "「某個較大地區中較小、常偏遠或不起眼的一部分」與本句語境不同。",
-        "corner-mcq-08": "「某事件在短時間內即將發生」與本句語境不同。",
-        "corner-mcq-03": "「在較大空間中劃出或自然形成的一小片區域」與本句語境不同。"
+        "corner-mcq-06": "本句的「corner」指「把某人逼到幾乎沒有選擇或退路」。",
+        "corner-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-06"
     },
@@ -860,11 +808,9 @@ export default {
       "masked": "The shop is just ____.",
       "options": [
         "corner-mcq-07",
+        "corner-mcq-20",
         "corner-mcq-06",
-        "corner-mcq-08",
-        "corner-mcq-05",
-        "corner-mcq-09",
-        "corner-mcq-04"
+        "corner-mcq-08"
       ],
       "explanation": "本句的「around the corner」指「就在轉角附近」。",
       "sentenceIndex": 13,
@@ -873,12 +819,10 @@ export default {
         "around the corner"
       ],
       "optionReasons": {
-        "corner-mcq-07": "本句指「就在轉角附近」。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。",
-        "corner-mcq-08": "「某事件在短時間內即將發生」與本句語境不同。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。",
-        "corner-mcq-09": "「經過困難階段後情況開始改善」與本句語境不同。",
-        "corner-mcq-04": "「某個較大地區中較小、常偏遠或不起眼的一部分」與本句語境不同。"
+        "corner-mcq-07": "本句的「around the corner」指「就在轉角附近」。",
+        "corner-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-07"
     },
@@ -890,10 +834,8 @@ export default {
       "masked": "There’s a bus stop around the ____.",
       "options": [
         "corner-mcq-07",
-        "corner-mcq-06",
         "corner-mcq-08",
-        "corner-mcq-05",
-        "corner-mcq-09",
+        "corner-mcq-06",
         "corner-mcq-04"
       ],
       "explanation": "本句的「corner」指「就在轉角附近」。",
@@ -903,12 +845,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-07": "本句指「就在轉角附近」。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。",
-        "corner-mcq-08": "「某事件在短時間內即將發生」與本句語境不同。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。",
-        "corner-mcq-09": "「經過困難階段後情況開始改善」與本句語境不同。",
-        "corner-mcq-04": "「某個較大地區中較小、常偏遠或不起眼的一部分」與本句語境不同。"
+        "corner-mcq-07": "本句的「corner」指「就在轉角附近」。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-07"
     },
@@ -920,11 +860,9 @@ export default {
       "masked": "Winter is just ____.",
       "options": [
         "corner-mcq-08",
-        "corner-mcq-07",
-        "corner-mcq-09",
-        "corner-mcq-06",
-        "corner-mcq-10",
-        "corner-mcq-05"
+        "corner-mcq-04",
+        "corner-mcq-13",
+        "corner-mcq-19"
       ],
       "explanation": "本句的「around the corner」指「某事件在短時間內即將發生」。",
       "sentenceIndex": 15,
@@ -933,12 +871,10 @@ export default {
         "around the corner"
       ],
       "optionReasons": {
-        "corner-mcq-08": "本句指「某事件在短時間內即將發生」。",
-        "corner-mcq-07": "「就在轉角附近」與本句語境不同。",
-        "corner-mcq-09": "「經過困難階段後情況開始改善」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。",
-        "corner-mcq-10": "「把某人／動物逼到難以逃走的位置」與本句語境不同。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。"
+        "corner-mcq-08": "本句的「around the corner」指「某事件在短時間內即將發生」。",
+        "corner-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-08"
     },
@@ -950,11 +886,9 @@ export default {
       "masked": "The exam is just around the ____.",
       "options": [
         "corner-mcq-08",
-        "corner-mcq-07",
-        "corner-mcq-09",
-        "corner-mcq-06",
-        "corner-mcq-10",
-        "corner-mcq-05"
+        "corner-mcq-16",
+        "corner-mcq-12",
+        "corner-mcq-13"
       ],
       "explanation": "本句的「corner」指「某事件在短時間內即將發生」。",
       "sentenceIndex": 16,
@@ -963,12 +897,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-08": "本句指「某事件在短時間內即將發生」。",
-        "corner-mcq-07": "「就在轉角附近」與本句語境不同。",
-        "corner-mcq-09": "「經過困難階段後情況開始改善」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。",
-        "corner-mcq-10": "「把某人／動物逼到難以逃走的位置」與本句語境不同。",
-        "corner-mcq-05": "「選擇受限、難以逃脫或很難處理的困境」與本句語境不同。"
+        "corner-mcq-08": "本句的「corner」指「某事件在短時間內即將發生」。",
+        "corner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-08"
     },
@@ -980,11 +912,9 @@ export default {
       "masked": "The business seems to have ____.",
       "options": [
         "corner-mcq-09",
-        "corner-mcq-08",
-        "corner-mcq-10",
-        "corner-mcq-07",
-        "corner-mcq-11",
-        "corner-mcq-06"
+        "corner-mcq-15",
+        "corner-mcq-20",
+        "corner-mcq-17"
       ],
       "explanation": "本句的「turned the corner」指「經過困難階段後情況開始改善」。",
       "sentenceIndex": 17,
@@ -993,12 +923,10 @@ export default {
         "turned the corner"
       ],
       "optionReasons": {
-        "corner-mcq-09": "本句指「經過困難階段後情況開始改善」。",
-        "corner-mcq-08": "「某事件在短時間內即將發生」與本句語境不同。",
-        "corner-mcq-10": "「把某人／動物逼到難以逃走的位置」與本句語境不同。",
-        "corner-mcq-07": "「就在轉角附近」與本句語境不同。",
-        "corner-mcq-11": "「把某人攔住，使其難離開並被迫回應／回答」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。"
+        "corner-mcq-09": "本句的「turned the corner」指「經過困難階段後情況開始改善」。",
+        "corner-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-09"
     },
@@ -1010,11 +938,9 @@ export default {
       "masked": "After weeks of illness, she finally turned the ____.",
       "options": [
         "corner-mcq-09",
-        "corner-mcq-08",
-        "corner-mcq-10",
-        "corner-mcq-07",
-        "corner-mcq-11",
-        "corner-mcq-06"
+        "corner-mcq-06",
+        "corner-mcq-04",
+        "corner-mcq-02"
       ],
       "explanation": "本句的「corner」指「經過困難階段後情況開始改善」。",
       "sentenceIndex": 18,
@@ -1023,12 +949,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-09": "本句指「經過困難階段後情況開始改善」。",
-        "corner-mcq-08": "「某事件在短時間內即將發生」與本句語境不同。",
-        "corner-mcq-10": "「把某人／動物逼到難以逃走的位置」與本句語境不同。",
-        "corner-mcq-07": "「就在轉角附近」與本句語境不同。",
-        "corner-mcq-11": "「把某人攔住，使其難離開並被迫回應／回答」與本句語境不同。",
-        "corner-mcq-06": "「把某人逼到幾乎沒有選擇或退路」與本句語境不同。"
+        "corner-mcq-09": "本句的「corner」指「經過困難階段後情況開始改善」。",
+        "corner-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-09"
     },
@@ -1040,11 +964,9 @@ export default {
       "masked": "The dog ____ the cat.",
       "options": [
         "corner-mcq-10",
-        "corner-mcq-09",
-        "corner-mcq-11",
-        "corner-mcq-08",
-        "corner-mcq-12",
-        "corner-mcq-07"
+        "corner-mcq-07",
+        "corner-mcq-17",
+        "corner-mcq-14"
       ],
       "explanation": "本句的「cornered」指「把某人／動物逼到難以逃走的位置」。",
       "sentenceIndex": 19,
@@ -1053,12 +975,10 @@ export default {
         "cornered"
       ],
       "optionReasons": {
-        "corner-mcq-10": "本句指「把某人／動物逼到難以逃走的位置」。",
-        "corner-mcq-09": "「經過困難階段後情況開始改善」與本句語境不同。",
-        "corner-mcq-11": "「把某人攔住，使其難離開並被迫回應／回答」與本句語境不同。",
-        "corner-mcq-08": "「某事件在短時間內即將發生」與本句語境不同。",
-        "corner-mcq-12": "「控制市場大部分供應而取得近乎壟斷地位」與本句語境不同。",
-        "corner-mcq-07": "「就在轉角附近」與本句語境不同。"
+        "corner-mcq-10": "本句的「cornered」指「把某人／動物逼到難以逃走的位置」。",
+        "corner-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-10"
     },
@@ -1070,10 +990,8 @@ export default {
       "masked": "Police ____ the suspect in a narrow alley.",
       "options": [
         "corner-mcq-10",
-        "corner-mcq-09",
-        "corner-mcq-11",
-        "corner-mcq-08",
-        "corner-mcq-12",
+        "corner-mcq-13",
+        "corner-mcq-01",
         "corner-mcq-07"
       ],
       "explanation": "本句的「cornered」指「把某人／動物逼到難以逃走的位置」。",
@@ -1083,12 +1001,10 @@ export default {
         "cornered"
       ],
       "optionReasons": {
-        "corner-mcq-10": "本句指「把某人／動物逼到難以逃走的位置」。",
-        "corner-mcq-09": "「經過困難階段後情況開始改善」與本句語境不同。",
-        "corner-mcq-11": "「把某人攔住，使其難離開並被迫回應／回答」與本句語境不同。",
-        "corner-mcq-08": "「某事件在短時間內即將發生」與本句語境不同。",
-        "corner-mcq-12": "「控制市場大部分供應而取得近乎壟斷地位」與本句語境不同。",
-        "corner-mcq-07": "「就在轉角附近」與本句語境不同。"
+        "corner-mcq-10": "本句的「cornered」指「把某人／動物逼到難以逃走的位置」。",
+        "corner-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-10"
     },
@@ -1100,10 +1016,8 @@ export default {
       "masked": "Reporters ____ the actor after the event.",
       "options": [
         "corner-mcq-11",
-        "corner-mcq-10",
-        "corner-mcq-12",
-        "corner-mcq-09",
-        "corner-mcq-13",
+        "corner-mcq-15",
+        "corner-mcq-02",
         "corner-mcq-08"
       ],
       "explanation": "本句的「cornered」指「把某人攔住，使其難離開並被迫回應／回答」。",
@@ -1113,12 +1027,10 @@ export default {
         "cornered"
       ],
       "optionReasons": {
-        "corner-mcq-11": "本句指「把某人攔住，使其難離開並被迫回應／回答」。",
-        "corner-mcq-10": "「把某人／動物逼到難以逃走的位置」與本句語境不同。",
-        "corner-mcq-12": "「控制市場大部分供應而取得近乎壟斷地位」與本句語境不同。",
-        "corner-mcq-09": "「經過困難階段後情況開始改善」與本句語境不同。",
-        "corner-mcq-13": "「車輛在彎道上轉向／過彎」與本句語境不同。",
-        "corner-mcq-08": "「某事件在短時間內即將發生」與本句語境不同。"
+        "corner-mcq-11": "本句的「cornered」指「把某人攔住，使其難離開並被迫回應／回答」。",
+        "corner-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-11"
     },
@@ -1130,10 +1042,8 @@ export default {
       "masked": "She ____ me at lunch and asked about the project.",
       "options": [
         "corner-mcq-11",
-        "corner-mcq-10",
-        "corner-mcq-12",
-        "corner-mcq-09",
-        "corner-mcq-13",
+        "corner-mcq-02",
+        "corner-mcq-19",
         "corner-mcq-08"
       ],
       "explanation": "本句的「cornered」指「把某人攔住，使其難離開並被迫回應／回答」。",
@@ -1143,12 +1053,10 @@ export default {
         "cornered"
       ],
       "optionReasons": {
-        "corner-mcq-11": "本句指「把某人攔住，使其難離開並被迫回應／回答」。",
-        "corner-mcq-10": "「把某人／動物逼到難以逃走的位置」與本句語境不同。",
-        "corner-mcq-12": "「控制市場大部分供應而取得近乎壟斷地位」與本句語境不同。",
-        "corner-mcq-09": "「經過困難階段後情況開始改善」與本句語境不同。",
-        "corner-mcq-13": "「車輛在彎道上轉向／過彎」與本句語境不同。",
-        "corner-mcq-08": "「某事件在短時間內即將發生」與本句語境不同。"
+        "corner-mcq-11": "本句的「cornered」指「把某人攔住，使其難離開並被迫回應／回答」。",
+        "corner-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-11"
     },
@@ -1160,11 +1068,9 @@ export default {
       "masked": "The company tried to ____ in rare materials.",
       "options": [
         "corner-mcq-12",
-        "corner-mcq-11",
-        "corner-mcq-13",
-        "corner-mcq-10",
-        "corner-mcq-14",
-        "corner-mcq-09"
+        "corner-mcq-08",
+        "corner-mcq-17",
+        "corner-mcq-01"
       ],
       "explanation": "本句的「corner the market」指「控制市場大部分供應而取得近乎壟斷地位」。",
       "sentenceIndex": 23,
@@ -1173,12 +1079,10 @@ export default {
         "corner the market"
       ],
       "optionReasons": {
-        "corner-mcq-12": "本句指「控制市場大部分供應而取得近乎壟斷地位」。",
-        "corner-mcq-11": "「把某人攔住，使其難離開並被迫回應／回答」與本句語境不同。",
-        "corner-mcq-13": "「車輛在彎道上轉向／過彎」與本句語境不同。",
-        "corner-mcq-10": "「把某人／動物逼到難以逃走的位置」與本句語境不同。",
-        "corner-mcq-14": "「足球中由球場角區重新開出的角球」與本句語境不同。",
-        "corner-mcq-09": "「經過困難階段後情況開始改善」與本句語境不同。"
+        "corner-mcq-12": "本句的「corner the market」指「控制市場大部分供應而取得近乎壟斷地位」。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-12"
     },
@@ -1190,11 +1094,9 @@ export default {
       "masked": "No single firm has ____ the market.",
       "options": [
         "corner-mcq-12",
-        "corner-mcq-11",
-        "corner-mcq-13",
-        "corner-mcq-10",
-        "corner-mcq-14",
-        "corner-mcq-09"
+        "corner-mcq-08",
+        "corner-mcq-09",
+        "corner-mcq-17"
       ],
       "explanation": "本句的「cornered」指「控制市場大部分供應而取得近乎壟斷地位」。",
       "sentenceIndex": 24,
@@ -1203,12 +1105,10 @@ export default {
         "cornered"
       ],
       "optionReasons": {
-        "corner-mcq-12": "本句指「控制市場大部分供應而取得近乎壟斷地位」。",
-        "corner-mcq-11": "「把某人攔住，使其難離開並被迫回應／回答」與本句語境不同。",
-        "corner-mcq-13": "「車輛在彎道上轉向／過彎」與本句語境不同。",
-        "corner-mcq-10": "「把某人／動物逼到難以逃走的位置」與本句語境不同。",
-        "corner-mcq-14": "「足球中由球場角區重新開出的角球」與本句語境不同。",
-        "corner-mcq-09": "「經過困難階段後情況開始改善」與本句語境不同。"
+        "corner-mcq-12": "本句的「cornered」指「控制市場大部分供應而取得近乎壟斷地位」。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-12"
     },
@@ -1220,11 +1120,9 @@ export default {
       "masked": "The car ____ smoothly.",
       "options": [
         "corner-mcq-13",
-        "corner-mcq-12",
-        "corner-mcq-14",
-        "corner-mcq-11",
-        "corner-mcq-15",
-        "corner-mcq-10"
+        "corner-mcq-05",
+        "corner-mcq-20",
+        "corner-mcq-18"
       ],
       "explanation": "本句的「cornered」指「車輛在彎道上轉向／過彎」。",
       "sentenceIndex": 25,
@@ -1233,12 +1131,10 @@ export default {
         "cornered"
       ],
       "optionReasons": {
-        "corner-mcq-13": "本句指「車輛在彎道上轉向／過彎」。",
-        "corner-mcq-12": "「控制市場大部分供應而取得近乎壟斷地位」與本句語境不同。",
-        "corner-mcq-14": "「足球中由球場角區重新開出的角球」與本句語境不同。",
-        "corner-mcq-11": "「把某人攔住，使其難離開並被迫回應／回答」與本句語境不同。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。",
-        "corner-mcq-10": "「把某人／動物逼到難以逃走的位置」與本句語境不同。"
+        "corner-mcq-13": "本句的「cornered」指「車輛在彎道上轉向／過彎」。",
+        "corner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-13"
     },
@@ -1250,11 +1146,9 @@ export default {
       "masked": "This bike ____ well at low speed.",
       "options": [
         "corner-mcq-13",
-        "corner-mcq-12",
-        "corner-mcq-14",
-        "corner-mcq-11",
-        "corner-mcq-15",
-        "corner-mcq-10"
+        "corner-mcq-17",
+        "corner-mcq-03",
+        "corner-mcq-16"
       ],
       "explanation": "本句的「corners」指「車輛在彎道上轉向／過彎」。",
       "sentenceIndex": 26,
@@ -1263,12 +1157,10 @@ export default {
         "corners"
       ],
       "optionReasons": {
-        "corner-mcq-13": "本句指「車輛在彎道上轉向／過彎」。",
-        "corner-mcq-12": "「控制市場大部分供應而取得近乎壟斷地位」與本句語境不同。",
-        "corner-mcq-14": "「足球中由球場角區重新開出的角球」與本句語境不同。",
-        "corner-mcq-11": "「把某人攔住，使其難離開並被迫回應／回答」與本句語境不同。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。",
-        "corner-mcq-10": "「把某人／動物逼到難以逃走的位置」與本句語境不同。"
+        "corner-mcq-13": "本句的「corners」指「車輛在彎道上轉向／過彎」。",
+        "corner-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-13"
     },
@@ -1280,11 +1172,9 @@ export default {
       "masked": "The car has excellent ____.",
       "options": [
         "corner-mcq-13",
-        "corner-mcq-12",
-        "corner-mcq-14",
-        "corner-mcq-11",
-        "corner-mcq-15",
-        "corner-mcq-10"
+        "corner-mcq-05",
+        "corner-mcq-01",
+        "corner-mcq-12"
       ],
       "explanation": "本句的「cornering」指「車輛在彎道上轉向／過彎」。",
       "sentenceIndex": 27,
@@ -1293,12 +1183,10 @@ export default {
         "cornering"
       ],
       "optionReasons": {
-        "corner-mcq-13": "本句指「車輛在彎道上轉向／過彎」。",
-        "corner-mcq-12": "「控制市場大部分供應而取得近乎壟斷地位」與本句語境不同。",
-        "corner-mcq-14": "「足球中由球場角區重新開出的角球」與本句語境不同。",
-        "corner-mcq-11": "「把某人攔住，使其難離開並被迫回應／回答」與本句語境不同。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。",
-        "corner-mcq-10": "「把某人／動物逼到難以逃走的位置」與本句語境不同。"
+        "corner-mcq-13": "本句的「cornering」指「車輛在彎道上轉向／過彎」。",
+        "corner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-13"
     },
@@ -1310,11 +1198,9 @@ export default {
       "masked": "Good tyres improve ____.",
       "options": [
         "corner-mcq-13",
-        "corner-mcq-12",
-        "corner-mcq-14",
-        "corner-mcq-11",
-        "corner-mcq-15",
-        "corner-mcq-10"
+        "corner-mcq-20",
+        "corner-mcq-18",
+        "corner-mcq-12"
       ],
       "explanation": "本句的「cornering」指「車輛在彎道上轉向／過彎」。",
       "sentenceIndex": 28,
@@ -1323,12 +1209,10 @@ export default {
         "cornering"
       ],
       "optionReasons": {
-        "corner-mcq-13": "本句指「車輛在彎道上轉向／過彎」。",
-        "corner-mcq-12": "「控制市場大部分供應而取得近乎壟斷地位」與本句語境不同。",
-        "corner-mcq-14": "「足球中由球場角區重新開出的角球」與本句語境不同。",
-        "corner-mcq-11": "「把某人攔住，使其難離開並被迫回應／回答」與本句語境不同。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。",
-        "corner-mcq-10": "「把某人／動物逼到難以逃走的位置」與本句語境不同。"
+        "corner-mcq-13": "本句的「cornering」指「車輛在彎道上轉向／過彎」。",
+        "corner-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-13"
     },
@@ -1341,10 +1225,8 @@ export default {
       "options": [
         "corner-mcq-14",
         "corner-mcq-13",
-        "corner-mcq-15",
-        "corner-mcq-12",
-        "corner-mcq-16",
-        "corner-mcq-11"
+        "corner-mcq-20",
+        "corner-mcq-10"
       ],
       "explanation": "本句的「corner kick」指「足球中由球場角區重新開出的角球」。",
       "sentenceIndex": 29,
@@ -1353,12 +1235,10 @@ export default {
         "corner kick"
       ],
       "optionReasons": {
-        "corner-mcq-14": "本句指「足球中由球場角區重新開出的角球」。",
-        "corner-mcq-13": "「車輛在彎道上轉向／過彎」與本句語境不同。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。",
-        "corner-mcq-12": "「控制市場大部分供應而取得近乎壟斷地位」與本句語境不同。",
-        "corner-mcq-16": "「在困難或競爭中支持、幫助某人」與本句語境不同。",
-        "corner-mcq-11": "「把某人攔住，使其難離開並被迫回應／回答」與本句語境不同。"
+        "corner-mcq-14": "本句的「corner kick」指「足球中由球場角區重新開出的角球」。",
+        "corner-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-14"
     },
@@ -1371,10 +1251,8 @@ export default {
       "options": [
         "corner-mcq-14",
         "corner-mcq-13",
-        "corner-mcq-15",
-        "corner-mcq-12",
-        "corner-mcq-16",
-        "corner-mcq-11"
+        "corner-mcq-08",
+        "corner-mcq-05"
       ],
       "explanation": "本句的「corner」指「足球中由球場角區重新開出的角球」。",
       "sentenceIndex": 30,
@@ -1383,12 +1261,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-14": "本句指「足球中由球場角區重新開出的角球」。",
-        "corner-mcq-13": "「車輛在彎道上轉向／過彎」與本句語境不同。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。",
-        "corner-mcq-12": "「控制市場大部分供應而取得近乎壟斷地位」與本句語境不同。",
-        "corner-mcq-16": "「在困難或競爭中支持、幫助某人」與本句語境不同。",
-        "corner-mcq-11": "「把某人攔住，使其難離開並被迫回應／回答」與本句語境不同。"
+        "corner-mcq-14": "本句的「corner」指「足球中由球場角區重新開出的角球」。",
+        "corner-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-14"
     },
@@ -1400,11 +1276,9 @@ export default {
       "masked": "The boxer returned to his ____ between rounds.",
       "options": [
         "corner-mcq-15",
-        "corner-mcq-14",
         "corner-mcq-16",
-        "corner-mcq-13",
-        "corner-mcq-17",
-        "corner-mcq-12"
+        "corner-mcq-04",
+        "corner-mcq-08"
       ],
       "explanation": "本句的「corner」指「拳擊／格鬥賽中選手指定的擂台角位」。",
       "sentenceIndex": 31,
@@ -1413,12 +1287,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-15": "本句指「拳擊／格鬥賽中選手指定的擂台角位」。",
-        "corner-mcq-14": "「足球中由球場角區重新開出的角球」與本句語境不同。",
-        "corner-mcq-16": "「在困難或競爭中支持、幫助某人」與本句語境不同。",
-        "corner-mcq-13": "「車輛在彎道上轉向／過彎」與本句語境不同。",
-        "corner-mcq-17": "「社區內的小型街角便利商店」與本句語境不同。",
-        "corner-mcq-12": "「控制市場大部分供應而取得近乎壟斷地位」與本句語境不同。"
+        "corner-mcq-15": "本句的「corner」指「拳擊／格鬥賽中選手指定的擂台角位」。",
+        "corner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-15"
     },
@@ -1430,11 +1302,9 @@ export default {
       "masked": "His coach was waiting in the ____.",
       "options": [
         "corner-mcq-15",
-        "corner-mcq-14",
-        "corner-mcq-16",
-        "corner-mcq-13",
-        "corner-mcq-17",
-        "corner-mcq-12"
+        "corner-mcq-11",
+        "corner-mcq-09",
+        "corner-mcq-03"
       ],
       "explanation": "本句的「corner」指「拳擊／格鬥賽中選手指定的擂台角位」。",
       "sentenceIndex": 32,
@@ -1443,12 +1313,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-15": "本句指「拳擊／格鬥賽中選手指定的擂台角位」。",
-        "corner-mcq-14": "「足球中由球場角區重新開出的角球」與本句語境不同。",
-        "corner-mcq-16": "「在困難或競爭中支持、幫助某人」與本句語境不同。",
-        "corner-mcq-13": "「車輛在彎道上轉向／過彎」與本句語境不同。",
-        "corner-mcq-17": "「社區內的小型街角便利商店」與本句語境不同。",
-        "corner-mcq-12": "「控制市場大部分供應而取得近乎壟斷地位」與本句語境不同。"
+        "corner-mcq-15": "本句的「corner」指「拳擊／格鬥賽中選手指定的擂台角位」。",
+        "corner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-15"
     },
@@ -1460,11 +1328,9 @@ export default {
       "masked": "It helps to know your family is ____.",
       "options": [
         "corner-mcq-16",
-        "corner-mcq-15",
-        "corner-mcq-17",
+        "corner-mcq-03",
         "corner-mcq-14",
-        "corner-mcq-18",
-        "corner-mcq-13"
+        "corner-mcq-19"
       ],
       "explanation": "本句的「in your corner」指「在困難或競爭中支持、幫助某人」。",
       "sentenceIndex": 33,
@@ -1473,12 +1339,10 @@ export default {
         "in your corner"
       ],
       "optionReasons": {
-        "corner-mcq-16": "本句指「在困難或競爭中支持、幫助某人」。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。",
-        "corner-mcq-17": "「社區內的小型街角便利商店」與本句語境不同。",
-        "corner-mcq-14": "「足球中由球場角區重新開出的角球」與本句語境不同。",
-        "corner-mcq-18": "「位於大樓角位的辦公室；亦可象徵高階職位」與本句語境不同。",
-        "corner-mcq-13": "「車輛在彎道上轉向／過彎」與本句語境不同。"
+        "corner-mcq-16": "本句的「in your corner」指「在困難或競爭中支持、幫助某人」。",
+        "corner-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-16"
     },
@@ -1490,11 +1354,9 @@ export default {
       "masked": "She always has someone in her ____.",
       "options": [
         "corner-mcq-16",
-        "corner-mcq-15",
-        "corner-mcq-17",
-        "corner-mcq-14",
-        "corner-mcq-18",
-        "corner-mcq-13"
+        "corner-mcq-07",
+        "corner-mcq-03",
+        "corner-mcq-08"
       ],
       "explanation": "本句的「corner」指「在困難或競爭中支持、幫助某人」。",
       "sentenceIndex": 34,
@@ -1503,12 +1365,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-16": "本句指「在困難或競爭中支持、幫助某人」。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。",
-        "corner-mcq-17": "「社區內的小型街角便利商店」與本句語境不同。",
-        "corner-mcq-14": "「足球中由球場角區重新開出的角球」與本句語境不同。",
-        "corner-mcq-18": "「位於大樓角位的辦公室；亦可象徵高階職位」與本句語境不同。",
-        "corner-mcq-13": "「車輛在彎道上轉向／過彎」與本句語境不同。"
+        "corner-mcq-16": "本句的「corner」指「在困難或競爭中支持、幫助某人」。",
+        "corner-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-16"
     },
@@ -1520,11 +1380,9 @@ export default {
       "masked": "I bought milk from the ____.",
       "options": [
         "corner-mcq-17",
-        "corner-mcq-16",
-        "corner-mcq-18",
-        "corner-mcq-15",
-        "corner-mcq-19",
-        "corner-mcq-14"
+        "corner-mcq-06",
+        "corner-mcq-20",
+        "corner-mcq-13"
       ],
       "explanation": "本句的「corner shop」指「社區內的小型街角便利商店」。",
       "sentenceIndex": 35,
@@ -1533,12 +1391,10 @@ export default {
         "corner shop"
       ],
       "optionReasons": {
-        "corner-mcq-17": "本句指「社區內的小型街角便利商店」。",
-        "corner-mcq-16": "「在困難或競爭中支持、幫助某人」與本句語境不同。",
-        "corner-mcq-18": "「位於大樓角位的辦公室；亦可象徵高階職位」與本句語境不同。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。",
-        "corner-mcq-19": "「建築角位的重要基礎石／奠基石」與本句語境不同。",
-        "corner-mcq-14": "「足球中由球場角區重新開出的角球」與本句語境不同。"
+        "corner-mcq-17": "本句的「corner shop」指「社區內的小型街角便利商店」。",
+        "corner-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-17"
     },
@@ -1550,11 +1406,9 @@ export default {
       "masked": "There’s a ____ store near my house.",
       "options": [
         "corner-mcq-17",
-        "corner-mcq-16",
-        "corner-mcq-18",
-        "corner-mcq-15",
-        "corner-mcq-19",
-        "corner-mcq-14"
+        "corner-mcq-11",
+        "corner-mcq-12",
+        "corner-mcq-20"
       ],
       "explanation": "本句的「corner」指「社區內的小型街角便利商店」。",
       "sentenceIndex": 36,
@@ -1563,12 +1417,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-17": "本句指「社區內的小型街角便利商店」。",
-        "corner-mcq-16": "「在困難或競爭中支持、幫助某人」與本句語境不同。",
-        "corner-mcq-18": "「位於大樓角位的辦公室；亦可象徵高階職位」與本句語境不同。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。",
-        "corner-mcq-19": "「建築角位的重要基礎石／奠基石」與本句語境不同。",
-        "corner-mcq-14": "「足球中由球場角區重新開出的角球」與本句語境不同。"
+        "corner-mcq-17": "本句的「corner」指「社區內的小型街角便利商店」。",
+        "corner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-17"
     },
@@ -1580,11 +1432,9 @@ export default {
       "masked": "She moved into a ____.",
       "options": [
         "corner-mcq-18",
-        "corner-mcq-17",
-        "corner-mcq-19",
-        "corner-mcq-16",
-        "corner-mcq-20",
-        "corner-mcq-15"
+        "corner-mcq-06",
+        "corner-mcq-08",
+        "corner-mcq-13"
       ],
       "explanation": "本句的「corner office」指「位於大樓角位的辦公室；亦可象徵高階職位」。",
       "sentenceIndex": 37,
@@ -1593,12 +1443,10 @@ export default {
         "corner office"
       ],
       "optionReasons": {
-        "corner-mcq-18": "本句指「位於大樓角位的辦公室；亦可象徵高階職位」。",
-        "corner-mcq-17": "「社區內的小型街角便利商店」與本句語境不同。",
-        "corner-mcq-19": "「建築角位的重要基礎石／奠基石」與本句語境不同。",
-        "corner-mcq-16": "「在困難或競爭中支持、幫助某人」與本句語境不同。",
-        "corner-mcq-20": "「某制度、關係或思想賴以建立的核心基礎」與本句語境不同。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。"
+        "corner-mcq-18": "本句的「corner office」指「位於大樓角位的辦公室；亦可象徵高階職位」。",
+        "corner-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-18"
     },
@@ -1610,11 +1458,9 @@ export default {
       "masked": "In business culture, a ____ office can symbolize senior status.",
       "options": [
         "corner-mcq-18",
-        "corner-mcq-17",
-        "corner-mcq-19",
-        "corner-mcq-16",
-        "corner-mcq-20",
-        "corner-mcq-15"
+        "corner-mcq-05",
+        "corner-mcq-11",
+        "corner-mcq-13"
       ],
       "explanation": "本句的「corner」指「位於大樓角位的辦公室；亦可象徵高階職位」。",
       "sentenceIndex": 38,
@@ -1623,12 +1469,10 @@ export default {
         "corner"
       ],
       "optionReasons": {
-        "corner-mcq-18": "本句指「位於大樓角位的辦公室；亦可象徵高階職位」。",
-        "corner-mcq-17": "「社區內的小型街角便利商店」與本句語境不同。",
-        "corner-mcq-19": "「建築角位的重要基礎石／奠基石」與本句語境不同。",
-        "corner-mcq-16": "「在困難或競爭中支持、幫助某人」與本句語境不同。",
-        "corner-mcq-20": "「某制度、關係或思想賴以建立的核心基礎」與本句語境不同。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。"
+        "corner-mcq-18": "本句的「corner」指「位於大樓角位的辦公室；亦可象徵高階職位」。",
+        "corner-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-18"
     },
@@ -1640,11 +1484,9 @@ export default {
       "masked": "The original ____ is still visible.",
       "options": [
         "corner-mcq-19",
-        "corner-mcq-18",
-        "corner-mcq-20",
-        "corner-mcq-17",
-        "corner-mcq-16",
-        "corner-mcq-15"
+        "corner-mcq-08",
+        "corner-mcq-06",
+        "corner-mcq-13"
       ],
       "explanation": "本句的「cornerstone」指「建築角位的重要基礎石／奠基石」。",
       "sentenceIndex": 39,
@@ -1653,12 +1495,10 @@ export default {
         "cornerstone"
       ],
       "optionReasons": {
-        "corner-mcq-19": "本句指「建築角位的重要基礎石／奠基石」。",
-        "corner-mcq-18": "「位於大樓角位的辦公室；亦可象徵高階職位」與本句語境不同。",
-        "corner-mcq-20": "「某制度、關係或思想賴以建立的核心基礎」與本句語境不同。",
-        "corner-mcq-17": "「社區內的小型街角便利商店」與本句語境不同。",
-        "corner-mcq-16": "「在困難或競爭中支持、幫助某人」與本句語境不同。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。"
+        "corner-mcq-19": "本句的「cornerstone」指「建築角位的重要基礎石／奠基石」。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-19"
     },
@@ -1670,11 +1510,9 @@ export default {
       "masked": "The date was carved into the ____.",
       "options": [
         "corner-mcq-19",
-        "corner-mcq-18",
-        "corner-mcq-20",
-        "corner-mcq-17",
+        "corner-mcq-08",
         "corner-mcq-16",
-        "corner-mcq-15"
+        "corner-mcq-13"
       ],
       "explanation": "本句的「cornerstone」指「建築角位的重要基礎石／奠基石」。",
       "sentenceIndex": 40,
@@ -1683,12 +1521,10 @@ export default {
         "cornerstone"
       ],
       "optionReasons": {
-        "corner-mcq-19": "本句指「建築角位的重要基礎石／奠基石」。",
-        "corner-mcq-18": "「位於大樓角位的辦公室；亦可象徵高階職位」與本句語境不同。",
-        "corner-mcq-20": "「某制度、關係或思想賴以建立的核心基礎」與本句語境不同。",
-        "corner-mcq-17": "「社區內的小型街角便利商店」與本句語境不同。",
-        "corner-mcq-16": "「在困難或競爭中支持、幫助某人」與本句語境不同。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。"
+        "corner-mcq-19": "本句的「cornerstone」指「建築角位的重要基礎石／奠基石」。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-19"
     },
@@ -1700,11 +1536,9 @@ export default {
       "masked": "Trust is the ____ of a good relationship.",
       "options": [
         "corner-mcq-20",
-        "corner-mcq-19",
-        "corner-mcq-18",
-        "corner-mcq-17",
-        "corner-mcq-16",
-        "corner-mcq-15"
+        "corner-mcq-15",
+        "corner-mcq-11",
+        "corner-mcq-13"
       ],
       "explanation": "本句的「cornerstone」指「某制度、關係或思想賴以建立的核心基礎」。",
       "sentenceIndex": 41,
@@ -1713,12 +1547,10 @@ export default {
         "cornerstone"
       ],
       "optionReasons": {
-        "corner-mcq-20": "本句指「某制度、關係或思想賴以建立的核心基礎」。",
-        "corner-mcq-19": "「建築角位的重要基礎石／奠基石」與本句語境不同。",
-        "corner-mcq-18": "「位於大樓角位的辦公室；亦可象徵高階職位」與本句語境不同。",
-        "corner-mcq-17": "「社區內的小型街角便利商店」與本句語境不同。",
-        "corner-mcq-16": "「在困難或競爭中支持、幫助某人」與本句語境不同。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。"
+        "corner-mcq-20": "本句的「cornerstone」指「某制度、關係或思想賴以建立的核心基礎」。",
+        "corner-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-20"
     },
@@ -1730,10 +1562,8 @@ export default {
       "masked": "Education is a ____ of development.",
       "options": [
         "corner-mcq-20",
-        "corner-mcq-19",
-        "corner-mcq-18",
         "corner-mcq-17",
-        "corner-mcq-16",
+        "corner-mcq-08",
         "corner-mcq-15"
       ],
       "explanation": "本句的「cornerstone」指「某制度、關係或思想賴以建立的核心基礎」。",
@@ -1743,12 +1573,10 @@ export default {
         "cornerstone"
       ],
       "optionReasons": {
-        "corner-mcq-20": "本句指「某制度、關係或思想賴以建立的核心基礎」。",
-        "corner-mcq-19": "「建築角位的重要基礎石／奠基石」與本句語境不同。",
-        "corner-mcq-18": "「位於大樓角位的辦公室；亦可象徵高階職位」與本句語境不同。",
-        "corner-mcq-17": "「社區內的小型街角便利商店」與本句語境不同。",
-        "corner-mcq-16": "「在困難或競爭中支持、幫助某人」與本句語境不同。",
-        "corner-mcq-15": "「拳擊／格鬥賽中選手指定的擂台角位」與本句語境不同。"
+        "corner-mcq-20": "本句的「cornerstone」指「某制度、關係或思想賴以建立的核心基礎」。",
+        "corner-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "corner-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "corner-mcq-20"
     }
@@ -1760,5 +1588,7 @@ export default {
     "sha256": "cba06c8968c530d727997d5d0d3190483d755304ca7a457855202930ac8d310e",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

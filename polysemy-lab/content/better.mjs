@@ -12,23 +12,7 @@ export default {
       "en": "better bridge",
       "zh": "更好的橋",
       "note": "來源詞義：更好的橋",
-      "examples": [
-        [
-          "We can build a better one.",
-          "我們可以再造一座更好的。",
-          "更好的橋"
-        ],
-        [
-          "This design is better than the previous one.",
-          "這個設計比之前那個更好。",
-          "更好的橋"
-        ],
-        [
-          "We need a better solution to the problem.",
-          "我們需要一個更好的解決方法。",
-          "更好的橋"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -700,98 +684,119 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "better-reviewed-7b062de743",
+      "title": "品質、效果、表現或適合程度比另一個更高的",
+      "form": "better · source section 1",
+      "en": "品質、效果、表現或適合程度比另一個更高的",
+      "zh": "品質、效果、表現或適合程度比另一個更高的",
+      "note": "對照原始教材第 1 節及例句核實。",
+      "examples": [
+        [
+          "We can build a better one.",
+          "我們可以再造一座更好的。",
+          "品質、效果、表現或適合程度比另一個更高的"
+        ],
+        [
+          "This design is better than the previous one.",
+          "這個設計比之前那個更好。",
+          "品質、效果、表現或適合程度比另一個更高的"
+        ],
+        [
+          "We need a better solution to the problem.",
+          "我們需要一個更好的解決方法。",
+          "品質、效果、表現或適合程度比另一個更高的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "better-01-0",
-      "sense": "better-mcq-01",
+      "sense": "better-reviewed-7b062de743",
       "en": "We can build a better one.",
       "zh": "我們可以再造一座更好的。",
       "masked": "We can build a ____ one.",
       "options": [
-        "better-mcq-01",
-        "better-mcq-02",
-        "better-mcq-03",
-        "better-mcq-04",
-        "better-mcq-05",
-        "better-mcq-06"
+        "better-reviewed-7b062de743",
+        "better-mcq-08",
+        "better-mcq-21",
+        "better-mcq-31"
       ],
-      "explanation": "本句的「better」指「更好的橋」。",
+      "explanation": "對照完整句子：「我們可以再造一座更好的。」。這裡的「better」表示「品質、效果、表現或適合程度比另一個更高的」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "better"
       ],
       "optionReasons": {
-        "better-mcq-01": "本句指「更好的橋」。",
-        "better-mcq-02": "「比 X 更好」是「better than X」的用法，與本句語境不同。",
-        "better-mcq-03": "「好得多」是「much better」的用法，與本句語境不同。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。"
+        "better-reviewed-7b062de743": "對照完整句子：「我們可以再造一座更好的。」。這裡的「better」表示「品質、效果、表現或適合程度比另一個更高的」。",
+        "better-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "better-mcq-01"
+      "correctOption": "better-reviewed-7b062de743",
+      "previousCorrectOption": "better-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "better-01-1",
-      "sense": "better-mcq-01",
+      "sense": "better-reviewed-7b062de743",
       "en": "This design is better than the previous one.",
       "zh": "這個設計比之前那個更好。",
       "masked": "This design is ____ than the previous one.",
       "options": [
-        "better-mcq-01",
-        "better-mcq-02",
-        "better-mcq-03",
+        "better-reviewed-7b062de743",
+        "better-mcq-25",
         "better-mcq-04",
-        "better-mcq-05",
-        "better-mcq-06"
+        "better-mcq-24"
       ],
-      "explanation": "本句的「better」指「更好的橋」。",
+      "explanation": "對照完整句子：「這個設計比之前那個更好。」。這裡的「better」表示「品質、效果、表現或適合程度比另一個更高的」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "better"
       ],
       "optionReasons": {
-        "better-mcq-01": "本句指「更好的橋」。",
-        "better-mcq-02": "「比 X 更好」是「better than X」的用法，與本句語境不同。",
-        "better-mcq-03": "「好得多」是「much better」的用法，與本句語境不同。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。"
+        "better-reviewed-7b062de743": "對照完整句子：「這個設計比之前那個更好。」。這裡的「better」表示「品質、效果、表現或適合程度比另一個更高的」。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "better-mcq-01"
+      "correctOption": "better-reviewed-7b062de743",
+      "previousCorrectOption": "better-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "better-01-2",
-      "sense": "better-mcq-01",
+      "sense": "better-reviewed-7b062de743",
       "en": "We need a better solution to the problem.",
       "zh": "我們需要一個更好的解決方法。",
       "masked": "We need a ____ to the problem.",
       "options": [
-        "better-mcq-01",
-        "better-mcq-02",
-        "better-mcq-03",
+        "better-reviewed-7b062de743",
         "better-mcq-04",
-        "better-mcq-05",
-        "better-mcq-06"
+        "better-mcq-25",
+        "better-mcq-20"
       ],
-      "explanation": "本句的「better solution」指「更好的橋」。",
+      "explanation": "對照完整句子：「我們需要一個更好的解決方法。」。這裡的「better solution」表示「品質、效果、表現或適合程度比另一個更高的」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "better solution"
       ],
       "optionReasons": {
-        "better-mcq-01": "本句指「更好的橋」。",
-        "better-mcq-02": "「比 X 更好」是「better than X」的用法，與本句語境不同。",
-        "better-mcq-03": "「好得多」是「much better」的用法，與本句語境不同。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。"
+        "better-reviewed-7b062de743": "對照完整句子：「我們需要一個更好的解決方法。」。這裡的「better solution」表示「品質、效果、表現或適合程度比另一個更高的」。",
+        "better-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "better-mcq-01"
+      "correctOption": "better-reviewed-7b062de743",
+      "previousCorrectOption": "better-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "better-02-0",
@@ -801,11 +806,9 @@ export default {
       "masked": "This restaurant is ____ the one we tried last week.",
       "options": [
         "better-mcq-02",
-        "better-mcq-01",
-        "better-mcq-03",
-        "better-mcq-04",
-        "better-mcq-05",
-        "better-mcq-06"
+        "better-mcq-31",
+        "better-mcq-24",
+        "better-mcq-12"
       ],
       "explanation": "本句的「better than」指「比 X 更好」。",
       "sentenceIndex": 3,
@@ -814,12 +817,10 @@ export default {
         "better than"
       ],
       "optionReasons": {
-        "better-mcq-02": "本句指「比 X 更好」。",
-        "better-mcq-01": "「更好的橋」是「better bridge」的用法，與本句語境不同。",
-        "better-mcq-03": "「好得多」是「much better」的用法，與本句語境不同。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。"
+        "better-mcq-02": "本句的「better than」指「比 X 更好」。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-02"
     },
@@ -831,11 +832,9 @@ export default {
       "masked": "The second version is much ____ the first.",
       "options": [
         "better-mcq-02",
-        "better-mcq-01",
-        "better-mcq-03",
-        "better-mcq-04",
-        "better-mcq-05",
-        "better-mcq-06"
+        "better-mcq-21",
+        "better-mcq-31",
+        "better-mcq-10"
       ],
       "explanation": "本句的「better than」指「比 X 更好」。",
       "sentenceIndex": 4,
@@ -844,12 +843,10 @@ export default {
         "better than"
       ],
       "optionReasons": {
-        "better-mcq-02": "本句指「比 X 更好」。",
-        "better-mcq-01": "「更好的橋」是「better bridge」的用法，與本句語境不同。",
-        "better-mcq-03": "「好得多」是「much better」的用法，與本句語境不同。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。"
+        "better-mcq-02": "本句的「better than」指「比 X 更好」。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-02"
     },
@@ -861,11 +858,9 @@ export default {
       "masked": "This explanation is ____.",
       "options": [
         "better-mcq-03",
-        "better-mcq-02",
-        "better-mcq-04",
-        "better-mcq-01",
-        "better-mcq-05",
-        "better-mcq-06"
+        "better-reviewed-7b062de743",
+        "better-mcq-21",
+        "better-mcq-31"
       ],
       "explanation": "本句的「much better」指「好得多」。",
       "sentenceIndex": 5,
@@ -874,12 +869,10 @@ export default {
         "much better"
       ],
       "optionReasons": {
-        "better-mcq-03": "本句指「好得多」。",
-        "better-mcq-02": "「比 X 更好」是「better than X」的用法，與本句語境不同。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。",
-        "better-mcq-01": "「更好的橋」是「better bridge」的用法，與本句語境不同。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。"
+        "better-mcq-03": "本句的「much better」指「好得多」。",
+        "better-reviewed-7b062de743": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-03"
     },
@@ -891,11 +884,9 @@ export default {
       "masked": "She feels ____ today.",
       "options": [
         "better-mcq-03",
-        "better-mcq-02",
-        "better-mcq-04",
-        "better-mcq-01",
-        "better-mcq-05",
-        "better-mcq-06"
+        "better-mcq-12",
+        "better-mcq-31",
+        "better-mcq-25"
       ],
       "explanation": "本句的「far better」指「好得多」。",
       "sentenceIndex": 6,
@@ -904,12 +895,10 @@ export default {
         "far better"
       ],
       "optionReasons": {
-        "better-mcq-03": "本句指「好得多」。",
-        "better-mcq-02": "「比 X 更好」是「better than X」的用法，與本句語境不同。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。",
-        "better-mcq-01": "「更好的橋」是「better bridge」的用法，與本句語境不同。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。"
+        "better-mcq-03": "本句的「far better」指「好得多」。",
+        "better-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-03"
     },
@@ -921,11 +910,9 @@ export default {
       "masked": "This version is ____.",
       "options": [
         "better-mcq-04",
-        "better-mcq-03",
-        "better-mcq-05",
-        "better-mcq-02",
-        "better-mcq-06",
-        "better-mcq-01"
+        "better-mcq-21",
+        "better-mcq-24",
+        "better-mcq-10"
       ],
       "explanation": "本句的「slightly better」指「好一點」。",
       "sentenceIndex": 7,
@@ -934,12 +921,10 @@ export default {
         "slightly better"
       ],
       "optionReasons": {
-        "better-mcq-04": "本句指「好一點」。",
-        "better-mcq-03": "「好得多」是「much better」的用法，與本句語境不同。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。",
-        "better-mcq-02": "「比 X 更好」是「better than X」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。",
-        "better-mcq-01": "「更好的橋」是「better bridge」的用法，與本句語境不同。"
+        "better-mcq-04": "本句的「slightly better」指「好一點」。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-04"
     },
@@ -951,11 +936,9 @@ export default {
       "masked": "I'm feeling ____ now.",
       "options": [
         "better-mcq-04",
-        "better-mcq-03",
-        "better-mcq-05",
-        "better-mcq-02",
-        "better-mcq-06",
-        "better-mcq-01"
+        "better-mcq-23",
+        "better-mcq-10",
+        "better-mcq-25"
       ],
       "explanation": "本句的「a little better」指「好一點」。",
       "sentenceIndex": 8,
@@ -964,12 +947,10 @@ export default {
         "a little better"
       ],
       "optionReasons": {
-        "better-mcq-04": "本句指「好一點」。",
-        "better-mcq-03": "「好得多」是「much better」的用法，與本句語境不同。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。",
-        "better-mcq-02": "「比 X 更好」是「better than X」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。",
-        "better-mcq-01": "「更好的橋」是「better bridge」的用法，與本句語境不同。"
+        "better-mcq-04": "本句的「a little better」指「好一點」。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-04"
     },
@@ -981,11 +962,9 @@ export default {
       "masked": "The weather should ____ tomorrow.",
       "options": [
         "better-mcq-05",
-        "better-mcq-04",
-        "better-mcq-06",
-        "better-mcq-03",
-        "better-mcq-07",
-        "better-mcq-02"
+        "better-mcq-31",
+        "better-mcq-23",
+        "better-reviewed-7b062de743"
       ],
       "explanation": "本句的「get better」指「變好；康復」。",
       "sentenceIndex": 9,
@@ -994,12 +973,10 @@ export default {
         "get better"
       ],
       "optionReasons": {
-        "better-mcq-05": "本句指「變好；康復」。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。",
-        "better-mcq-03": "「好得多」是「much better」的用法，與本句語境不同。",
-        "better-mcq-07": "「看起來更好」是「look better」的用法，與本句語境不同。",
-        "better-mcq-02": "「比 X 更好」是「better than X」的用法，與本句語境不同。"
+        "better-mcq-05": "本句的「get better」指「變好；康復」。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "better-reviewed-7b062de743": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-05"
     },
@@ -1011,11 +988,9 @@ export default {
       "masked": "Things gradually ____ after the first few weeks.",
       "options": [
         "better-mcq-05",
-        "better-mcq-04",
-        "better-mcq-06",
-        "better-mcq-03",
-        "better-mcq-07",
-        "better-mcq-02"
+        "better-mcq-20",
+        "better-mcq-23",
+        "better-mcq-24"
       ],
       "explanation": "本句的「got better」指「變好；康復」。",
       "sentenceIndex": 10,
@@ -1024,12 +999,10 @@ export default {
         "got better"
       ],
       "optionReasons": {
-        "better-mcq-05": "本句指「變好；康復」。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。",
-        "better-mcq-03": "「好得多」是「much better」的用法，與本句語境不同。",
-        "better-mcq-07": "「看起來更好」是「look better」的用法，與本句語境不同。",
-        "better-mcq-02": "「比 X 更好」是「better than X」的用法，與本句語境不同。"
+        "better-mcq-05": "本句的「got better」指「變好；康復」。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-05"
     },
@@ -1041,11 +1014,9 @@ export default {
       "masked": "I hope you ____ soon.",
       "options": [
         "better-mcq-05",
-        "better-mcq-04",
-        "better-mcq-06",
-        "better-mcq-03",
-        "better-mcq-07",
-        "better-mcq-02"
+        "better-mcq-24",
+        "better-mcq-20",
+        "better-mcq-10"
       ],
       "explanation": "本句的「get better」指「變好；康復」。",
       "sentenceIndex": 11,
@@ -1054,12 +1025,10 @@ export default {
         "get better"
       ],
       "optionReasons": {
-        "better-mcq-05": "本句指「變好；康復」。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。",
-        "better-mcq-03": "「好得多」是「much better」的用法，與本句語境不同。",
-        "better-mcq-07": "「看起來更好」是「look better」的用法，與本句語境不同。",
-        "better-mcq-02": "「比 X 更好」是「better than X」的用法，與本句語境不同。"
+        "better-mcq-05": "本句的「get better」指「變好；康復」。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-05"
     },
@@ -1071,11 +1040,9 @@ export default {
       "masked": "She is slowly ____ after the illness.",
       "options": [
         "better-mcq-05",
-        "better-mcq-04",
-        "better-mcq-06",
-        "better-mcq-03",
-        "better-mcq-07",
-        "better-mcq-02"
+        "better-mcq-25",
+        "better-reviewed-7b062de743",
+        "better-mcq-20"
       ],
       "explanation": "本句的「getting better」指「變好；康復」。",
       "sentenceIndex": 12,
@@ -1084,12 +1051,10 @@ export default {
         "getting better"
       ],
       "optionReasons": {
-        "better-mcq-05": "本句指「變好；康復」。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。",
-        "better-mcq-03": "「好得多」是「much better」的用法，與本句語境不同。",
-        "better-mcq-07": "「看起來更好」是「look better」的用法，與本句語境不同。",
-        "better-mcq-02": "「比 X 更好」是「better than X」的用法，與本句語境不同。"
+        "better-mcq-05": "本句的「getting better」指「變好；康復」。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "better-reviewed-7b062de743": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-05"
     },
@@ -1101,11 +1066,9 @@ export default {
       "masked": "I feel much ____ after resting.",
       "options": [
         "better-mcq-06",
-        "better-mcq-05",
-        "better-mcq-07",
-        "better-mcq-04",
-        "better-mcq-08",
-        "better-mcq-03"
+        "better-mcq-30",
+        "better-mcq-24",
+        "better-mcq-10"
       ],
       "explanation": "本句的「better」指「感覺好多了」。",
       "sentenceIndex": 13,
@@ -1114,12 +1077,10 @@ export default {
         "better"
       ],
       "optionReasons": {
-        "better-mcq-06": "本句指「感覺好多了」。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。",
-        "better-mcq-07": "「看起來更好」是「look better」的用法，與本句語境不同。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。",
-        "better-mcq-08": "「運作得更好」是「work better」的用法，與本句語境不同。",
-        "better-mcq-03": "「好得多」是「much better」的用法，與本句語境不同。"
+        "better-mcq-06": "本句的「better」指「感覺好多了」。",
+        "better-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-06"
     },
@@ -1131,11 +1092,9 @@ export default {
       "masked": "Talking to a friend made her feel ____.",
       "options": [
         "better-mcq-06",
-        "better-mcq-05",
-        "better-mcq-07",
-        "better-mcq-04",
-        "better-mcq-08",
-        "better-mcq-03"
+        "better-mcq-20",
+        "better-reviewed-7b062de743",
+        "better-mcq-10"
       ],
       "explanation": "本句的「better」指「感覺好多了」。",
       "sentenceIndex": 14,
@@ -1144,12 +1103,10 @@ export default {
         "better"
       ],
       "optionReasons": {
-        "better-mcq-06": "本句指「感覺好多了」。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。",
-        "better-mcq-07": "「看起來更好」是「look better」的用法，與本句語境不同。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。",
-        "better-mcq-08": "「運作得更好」是「work better」的用法，與本句語境不同。",
-        "better-mcq-03": "「好得多」是「much better」的用法，與本句語境不同。"
+        "better-mcq-06": "本句的「better」指「感覺好多了」。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "better-reviewed-7b062de743": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-06"
     },
@@ -1161,11 +1118,9 @@ export default {
       "masked": "You look much ____ today.",
       "options": [
         "better-mcq-07",
-        "better-mcq-06",
-        "better-mcq-08",
-        "better-mcq-05",
-        "better-mcq-09",
-        "better-mcq-04"
+        "better-mcq-21",
+        "better-mcq-31",
+        "better-mcq-12"
       ],
       "explanation": "本句的「better」指「看起來更好」。",
       "sentenceIndex": 15,
@@ -1174,12 +1129,10 @@ export default {
         "better"
       ],
       "optionReasons": {
-        "better-mcq-07": "本句指「看起來更好」。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。",
-        "better-mcq-08": "「運作得更好」是「work better」的用法，與本句語境不同。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。",
-        "better-mcq-09": "「表現更好」是「do better」的用法，與本句語境不同。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。"
+        "better-mcq-07": "本句的「better」指「看起來更好」。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-07"
     },
@@ -1191,11 +1144,9 @@ export default {
       "masked": "The room looks ____ with more natural light.",
       "options": [
         "better-mcq-07",
-        "better-mcq-06",
-        "better-mcq-08",
-        "better-mcq-05",
-        "better-mcq-09",
-        "better-mcq-04"
+        "better-reviewed-7b062de743",
+        "better-mcq-24",
+        "better-mcq-20"
       ],
       "explanation": "本句的「better」指「看起來更好」。",
       "sentenceIndex": 16,
@@ -1204,12 +1155,10 @@ export default {
         "better"
       ],
       "optionReasons": {
-        "better-mcq-07": "本句指「看起來更好」。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。",
-        "better-mcq-08": "「運作得更好」是「work better」的用法，與本句語境不同。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。",
-        "better-mcq-09": "「表現更好」是「do better」的用法，與本句語境不同。",
-        "better-mcq-04": "「好一點」是「slightly better」的用法，與本句語境不同。"
+        "better-mcq-07": "本句的「better」指「看起來更好」。",
+        "better-reviewed-7b062de743": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-07"
     },
@@ -1221,11 +1170,9 @@ export default {
       "masked": "The machine works ____ after the repair.",
       "options": [
         "better-mcq-08",
-        "better-mcq-07",
-        "better-mcq-09",
-        "better-mcq-06",
-        "better-mcq-10",
-        "better-mcq-05"
+        "better-reviewed-7b062de743",
+        "better-mcq-31",
+        "better-mcq-21"
       ],
       "explanation": "本句的「better」指「運作得更好」。",
       "sentenceIndex": 17,
@@ -1234,12 +1181,10 @@ export default {
         "better"
       ],
       "optionReasons": {
-        "better-mcq-08": "本句指「運作得更好」。",
-        "better-mcq-07": "「看起來更好」是「look better」的用法，與本句語境不同。",
-        "better-mcq-09": "「表現更好」是「do better」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。",
-        "better-mcq-10": "「更擅長 X」是「better at X」的用法，與本句語境不同。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。"
+        "better-mcq-08": "本句的「better」指「運作得更好」。",
+        "better-reviewed-7b062de743": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-08"
     },
@@ -1251,11 +1196,9 @@ export default {
       "masked": "I work ____ in a quiet environment.",
       "options": [
         "better-mcq-08",
-        "better-mcq-07",
-        "better-mcq-09",
-        "better-mcq-06",
+        "better-mcq-20",
         "better-mcq-10",
-        "better-mcq-05"
+        "better-mcq-25"
       ],
       "explanation": "本句的「better」指「運作得更好」。",
       "sentenceIndex": 18,
@@ -1264,12 +1207,10 @@ export default {
         "better"
       ],
       "optionReasons": {
-        "better-mcq-08": "本句指「運作得更好」。",
-        "better-mcq-07": "「看起來更好」是「look better」的用法，與本句語境不同。",
-        "better-mcq-09": "「表現更好」是「do better」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。",
-        "better-mcq-10": "「更擅長 X」是「better at X」的用法，與本句語境不同。",
-        "better-mcq-05": "「變好；康復」是「get better」的用法，與本句語境不同。"
+        "better-mcq-08": "本句的「better」指「運作得更好」。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-08"
     },
@@ -1281,11 +1222,9 @@ export default {
       "masked": "You can ____ next time.",
       "options": [
         "better-mcq-09",
-        "better-mcq-08",
         "better-mcq-10",
-        "better-mcq-07",
-        "better-mcq-11",
-        "better-mcq-06"
+        "better-mcq-21",
+        "better-mcq-23"
       ],
       "explanation": "本句的「do better」指「表現更好」。",
       "sentenceIndex": 19,
@@ -1294,12 +1233,10 @@ export default {
         "do better"
       ],
       "optionReasons": {
-        "better-mcq-09": "本句指「表現更好」。",
-        "better-mcq-08": "「運作得更好」是「work better」的用法，與本句語境不同。",
-        "better-mcq-10": "「更擅長 X」是「better at X」的用法，與本句語境不同。",
-        "better-mcq-07": "「看起來更好」是「look better」的用法，與本句語境不同。",
-        "better-mcq-11": "「對 X 更好」是「better for X」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。"
+        "better-mcq-09": "本句的「do better」指「表現更好」。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-09"
     },
@@ -1311,11 +1248,9 @@ export default {
       "masked": "The team did ____ in the second half.",
       "options": [
         "better-mcq-09",
-        "better-mcq-08",
-        "better-mcq-10",
-        "better-mcq-07",
-        "better-mcq-11",
-        "better-mcq-06"
+        "better-mcq-31",
+        "better-mcq-23",
+        "better-mcq-12"
       ],
       "explanation": "本句的「better」指「表現更好」。",
       "sentenceIndex": 20,
@@ -1324,12 +1259,10 @@ export default {
         "better"
       ],
       "optionReasons": {
-        "better-mcq-09": "本句指「表現更好」。",
-        "better-mcq-08": "「運作得更好」是「work better」的用法，與本句語境不同。",
-        "better-mcq-10": "「更擅長 X」是「better at X」的用法，與本句語境不同。",
-        "better-mcq-07": "「看起來更好」是「look better」的用法，與本句語境不同。",
-        "better-mcq-11": "「對 X 更好」是「better for X」的用法，與本句語境不同。",
-        "better-mcq-06": "「感覺好多了」是「feel better」的用法，與本句語境不同。"
+        "better-mcq-09": "本句的「better」指「表現更好」。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-09"
     },
@@ -1341,11 +1274,9 @@ export default {
       "masked": "She is ____ than I am.",
       "options": [
         "better-mcq-10",
-        "better-mcq-09",
-        "better-mcq-11",
-        "better-mcq-08",
-        "better-mcq-12",
-        "better-mcq-07"
+        "better-mcq-29",
+        "better-mcq-30",
+        "better-mcq-23"
       ],
       "explanation": "本句的「better at maths」指「更擅長 X」。",
       "sentenceIndex": 21,
@@ -1354,12 +1285,10 @@ export default {
         "better at maths"
       ],
       "optionReasons": {
-        "better-mcq-10": "本句指「更擅長 X」。",
-        "better-mcq-09": "「表現更好」是「do better」的用法，與本句語境不同。",
-        "better-mcq-11": "「對 X 更好」是「better for X」的用法，與本句語境不同。",
-        "better-mcq-08": "「運作得更好」是「work better」的用法，與本句語境不同。",
-        "better-mcq-12": "「更適合 X」是「better suited to X」的用法，與本句語境不同。",
-        "better-mcq-07": "「看起來更好」是「look better」的用法，與本句語境不同。"
+        "better-mcq-10": "本句的「better at maths」指「更擅長 X」。",
+        "better-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-10"
     },
@@ -1371,11 +1300,9 @@ export default {
       "masked": "I'm getting ____.",
       "options": [
         "better-mcq-10",
-        "better-mcq-09",
-        "better-mcq-11",
-        "better-mcq-08",
-        "better-mcq-12",
-        "better-mcq-07"
+        "better-mcq-31",
+        "better-mcq-14",
+        "better-mcq-23"
       ],
       "explanation": "本句的「better at speaking English」指「更擅長 X」。",
       "sentenceIndex": 22,
@@ -1384,12 +1311,10 @@ export default {
         "better at speaking English"
       ],
       "optionReasons": {
-        "better-mcq-10": "本句指「更擅長 X」。",
-        "better-mcq-09": "「表現更好」是「do better」的用法，與本句語境不同。",
-        "better-mcq-11": "「對 X 更好」是「better for X」的用法，與本句語境不同。",
-        "better-mcq-08": "「運作得更好」是「work better」的用法，與本句語境不同。",
-        "better-mcq-12": "「更適合 X」是「better suited to X」的用法，與本句語境不同。",
-        "better-mcq-07": "「看起來更好」是「look better」的用法，與本句語境不同。"
+        "better-mcq-10": "本句的「better at speaking English」指「更擅長 X」。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-10"
     },
@@ -1401,11 +1326,9 @@ export default {
       "masked": "Walking is ____ than sitting all day.",
       "options": [
         "better-mcq-30",
-        "better-mcq-29",
-        "better-mcq-31",
-        "better-mcq-28",
-        "better-mcq-27",
-        "better-mcq-26"
+        "better-mcq-08",
+        "better-mcq-25",
+        "better-mcq-24"
       ],
       "explanation": "本句的「better for your health」指「對某人或某事更有益、更合適或更有利」。",
       "sentenceIndex": 23,
@@ -1414,12 +1337,10 @@ export default {
         "better for your health"
       ],
       "optionReasons": {
-        "better-mcq-30": "本句指「對某人或某事更有益、更合適或更有利」。",
-        "better-mcq-29": "「下次好運」是「better luck next time」的用法，與本句語境不同。",
-        "better-mcq-31": "「有足夠常識或經驗知道做 X 是錯誤或不明智的」是「22. know better than to do something — 知道不應該做某事」的用法，與本句語境不同。",
-        "better-mcq-28": "「遲做總比不做好」是「better late than never」的用法，與本句語境不同。",
-        "better-mcq-27": "「總比沒有好」是「better than nothing」的用法，與本句語境不同。",
-        "better-mcq-26": "「不比……好」是「no better than」的用法，與本句語境不同。"
+        "better-mcq-30": "本句的「better for your health」指「對某人或某事更有益、更合適或更有利」。",
+        "better-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-30"
     },
@@ -1431,11 +1352,9 @@ export default {
       "masked": "This arrangement may be ____.",
       "options": [
         "better-mcq-30",
-        "better-mcq-29",
-        "better-mcq-31",
-        "better-mcq-28",
-        "better-mcq-27",
-        "better-mcq-26"
+        "better-mcq-24",
+        "better-mcq-17",
+        "better-mcq-25"
       ],
       "explanation": "本句的「better for everyone」指「對某人或某事更有益、更合適或更有利」。",
       "sentenceIndex": 24,
@@ -1444,12 +1363,10 @@ export default {
         "better for everyone"
       ],
       "optionReasons": {
-        "better-mcq-30": "本句指「對某人或某事更有益、更合適或更有利」。",
-        "better-mcq-29": "「下次好運」是「better luck next time」的用法，與本句語境不同。",
-        "better-mcq-31": "「有足夠常識或經驗知道做 X 是錯誤或不明智的」是「22. know better than to do something — 知道不應該做某事」的用法，與本句語境不同。",
-        "better-mcq-28": "「遲做總比不做好」是「better late than never」的用法，與本句語境不同。",
-        "better-mcq-27": "「總比沒有好」是「better than nothing」的用法，與本句語境不同。",
-        "better-mcq-26": "「不比……好」是「no better than」的用法，與本句語境不同。"
+        "better-mcq-30": "本句的「better for everyone」指「對某人或某事更有益、更合適或更有利」。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-30"
     },
@@ -1461,11 +1378,9 @@ export default {
       "masked": "This job is ____ someone with experience.",
       "options": [
         "better-mcq-12",
-        "better-mcq-11",
-        "better-mcq-13",
+        "better-mcq-18",
         "better-mcq-10",
-        "better-mcq-14",
-        "better-mcq-09"
+        "better-mcq-24"
       ],
       "explanation": "本句的「better suited to」指「更適合 X」。",
       "sentenceIndex": 25,
@@ -1474,12 +1389,10 @@ export default {
         "better suited to"
       ],
       "optionReasons": {
-        "better-mcq-12": "本句指「更適合 X」。",
-        "better-mcq-11": "「對 X 更好」是「better for X」的用法，與本句語境不同。",
-        "better-mcq-13": "「較好的選擇」是「better option」的用法，與本句語境不同。",
-        "better-mcq-10": "「更擅長 X」是「better at X」的用法，與本句語境不同。",
-        "better-mcq-14": "「兩者中較好的」是「the better of two」的用法，與本句語境不同。",
-        "better-mcq-09": "「表現更好」是「do better」的用法，與本句語境不同。"
+        "better-mcq-12": "本句的「better suited to」指「更適合 X」。",
+        "better-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-12"
     },
@@ -1491,11 +1404,9 @@ export default {
       "masked": "The smaller room is ____ private meetings.",
       "options": [
         "better-mcq-12",
-        "better-mcq-11",
-        "better-mcq-13",
+        "better-mcq-04",
         "better-mcq-10",
-        "better-mcq-14",
-        "better-mcq-09"
+        "better-mcq-25"
       ],
       "explanation": "本句的「better suited for」指「更適合 X」。",
       "sentenceIndex": 26,
@@ -1504,12 +1415,10 @@ export default {
         "better suited for"
       ],
       "optionReasons": {
-        "better-mcq-12": "本句指「更適合 X」。",
-        "better-mcq-11": "「對 X 更好」是「better for X」的用法，與本句語境不同。",
-        "better-mcq-13": "「較好的選擇」是「better option」的用法，與本句語境不同。",
-        "better-mcq-10": "「更擅長 X」是「better at X」的用法，與本句語境不同。",
-        "better-mcq-14": "「兩者中較好的」是「the better of two」的用法，與本句語境不同。",
-        "better-mcq-09": "「表現更好」是「do better」的用法，與本句語境不同。"
+        "better-mcq-12": "本句的「better suited for」指「更適合 X」。",
+        "better-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-12"
     },
@@ -1521,10 +1430,8 @@ export default {
       "masked": "Taking the train may be the ____.",
       "options": [
         "better-mcq-13",
-        "better-mcq-12",
-        "better-mcq-14",
-        "better-mcq-11",
-        "better-mcq-15",
+        "better-reviewed-7b062de743",
+        "better-mcq-20",
         "better-mcq-10"
       ],
       "explanation": "本句的「better option」指「較好的選擇」。",
@@ -1534,12 +1441,10 @@ export default {
         "better option"
       ],
       "optionReasons": {
-        "better-mcq-13": "本句指「較好的選擇」。",
-        "better-mcq-12": "「更適合 X」是「better suited to X」的用法，與本句語境不同。",
-        "better-mcq-14": "「兩者中較好的」是「the better of two」的用法，與本句語境不同。",
-        "better-mcq-11": "「對 X 更好」是「better for X」的用法，與本句語境不同。",
-        "better-mcq-15": "「朝好的方向」是「for the better」的用法，與本句語境不同。",
-        "better-mcq-10": "「更擅長 X」是「better at X」的用法，與本句語境不同。"
+        "better-mcq-13": "本句的「better option」指「較好的選擇」。",
+        "better-reviewed-7b062de743": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-13"
     },
@@ -1551,11 +1456,9 @@ export default {
       "masked": "Of the two designs, this is the ____.",
       "options": [
         "better-mcq-13",
-        "better-mcq-12",
-        "better-mcq-14",
-        "better-mcq-11",
-        "better-mcq-15",
-        "better-mcq-10"
+        "better-reviewed-7b062de743",
+        "better-mcq-23",
+        "better-mcq-25"
       ],
       "explanation": "本句的「better choice」指「較好的選擇」。",
       "sentenceIndex": 28,
@@ -1564,12 +1467,10 @@ export default {
         "better choice"
       ],
       "optionReasons": {
-        "better-mcq-13": "本句指「較好的選擇」。",
-        "better-mcq-12": "「更適合 X」是「better suited to X」的用法，與本句語境不同。",
-        "better-mcq-14": "「兩者中較好的」是「the better of two」的用法，與本句語境不同。",
-        "better-mcq-11": "「對 X 更好」是「better for X」的用法，與本句語境不同。",
-        "better-mcq-15": "「朝好的方向」是「for the better」的用法，與本句語境不同。",
-        "better-mcq-10": "「更擅長 X」是「better at X」的用法，與本句語境不同。"
+        "better-mcq-13": "本句的「better choice」指「較好的選擇」。",
+        "better-reviewed-7b062de743": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-13"
     },
@@ -1581,11 +1482,9 @@ export default {
       "masked": "This is the ____.",
       "options": [
         "better-mcq-14",
-        "better-mcq-13",
-        "better-mcq-15",
-        "better-mcq-12",
-        "better-mcq-16",
-        "better-mcq-11"
+        "better-mcq-30",
+        "better-mcq-20",
+        "better-mcq-21"
       ],
       "explanation": "本句的「better of the two」指「兩者中較好的」。",
       "sentenceIndex": 29,
@@ -1594,12 +1493,10 @@ export default {
         "better of the two"
       ],
       "optionReasons": {
-        "better-mcq-14": "本句指「兩者中較好的」。",
-        "better-mcq-13": "「較好的選擇」是「better option」的用法，與本句語境不同。",
-        "better-mcq-15": "「朝好的方向」是「for the better」的用法，與本句語境不同。",
-        "better-mcq-12": "「更適合 X」是「better suited to X」的用法，與本句語境不同。",
-        "better-mcq-16": "「處境較好」是「better off」的用法，與本句語境不同。",
-        "better-mcq-11": "「對 X 更好」是「better for X」的用法，與本句語境不同。"
+        "better-mcq-14": "本句的「better of the two」指「兩者中較好的」。",
+        "better-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-14"
     },
@@ -1611,11 +1508,9 @@ export default {
       "masked": "Neither plan is perfect, but the second is the ____.",
       "options": [
         "better-mcq-14",
-        "better-mcq-13",
-        "better-mcq-15",
-        "better-mcq-12",
-        "better-mcq-16",
-        "better-mcq-11"
+        "better-mcq-20",
+        "better-mcq-24",
+        "better-mcq-23"
       ],
       "explanation": "本句的「better of the two」指「兩者中較好的」。",
       "sentenceIndex": 30,
@@ -1624,12 +1519,10 @@ export default {
         "better of the two"
       ],
       "optionReasons": {
-        "better-mcq-14": "本句指「兩者中較好的」。",
-        "better-mcq-13": "「較好的選擇」是「better option」的用法，與本句語境不同。",
-        "better-mcq-15": "「朝好的方向」是「for the better」的用法，與本句語境不同。",
-        "better-mcq-12": "「更適合 X」是「better suited to X」的用法，與本句語境不同。",
-        "better-mcq-16": "「處境較好」是「better off」的用法，與本句語境不同。",
-        "better-mcq-11": "「對 X 更好」是「better for X」的用法，與本句語境不同。"
+        "better-mcq-14": "本句的「better of the two」指「兩者中較好的」。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-14"
     },
@@ -1641,11 +1534,9 @@ export default {
       "masked": "The change was definitely ____.",
       "options": [
         "better-mcq-15",
-        "better-mcq-14",
-        "better-mcq-16",
-        "better-mcq-13",
-        "better-mcq-17",
-        "better-mcq-12"
+        "better-mcq-10",
+        "better-mcq-25",
+        "better-mcq-31"
       ],
       "explanation": "本句的「for the better」指「朝好的方向」。",
       "sentenceIndex": 31,
@@ -1654,12 +1545,10 @@ export default {
         "for the better"
       ],
       "optionReasons": {
-        "better-mcq-15": "本句指「朝好的方向」。",
-        "better-mcq-14": "「兩者中較好的」是「the better of two」的用法，與本句語境不同。",
-        "better-mcq-16": "「處境較好」是「better off」的用法，與本句語境不同。",
-        "better-mcq-13": "「較好的選擇」是「better option」的用法，與本句語境不同。",
-        "better-mcq-17": "「做 X 會比較好」是「better off doing X」的用法，與本句語境不同。",
-        "better-mcq-12": "「更適合 X」是「better suited to X」的用法，與本句語境不同。"
+        "better-mcq-15": "本句的「for the better」指「朝好的方向」。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-15"
     },
@@ -1671,11 +1560,9 @@ export default {
       "masked": "His life changed ____ after he moved.",
       "options": [
         "better-mcq-15",
-        "better-mcq-14",
-        "better-mcq-16",
-        "better-mcq-13",
-        "better-mcq-17",
-        "better-mcq-12"
+        "better-mcq-10",
+        "better-mcq-24",
+        "better-mcq-31"
       ],
       "explanation": "本句的「for the better」指「朝好的方向」。",
       "sentenceIndex": 32,
@@ -1684,12 +1571,10 @@ export default {
         "for the better"
       ],
       "optionReasons": {
-        "better-mcq-15": "本句指「朝好的方向」。",
-        "better-mcq-14": "「兩者中較好的」是「the better of two」的用法，與本句語境不同。",
-        "better-mcq-16": "「處境較好」是「better off」的用法，與本句語境不同。",
-        "better-mcq-13": "「較好的選擇」是「better option」的用法，與本句語境不同。",
-        "better-mcq-17": "「做 X 會比較好」是「better off doing X」的用法，與本句語境不同。",
-        "better-mcq-12": "「更適合 X」是「better suited to X」的用法，與本句語境不同。"
+        "better-mcq-15": "本句的「for the better」指「朝好的方向」。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-15"
     },
@@ -1701,11 +1586,9 @@ export default {
       "masked": "We'd be ____ taking the train.",
       "options": [
         "better-mcq-16",
-        "better-mcq-15",
-        "better-mcq-17",
-        "better-mcq-14",
-        "better-mcq-18",
-        "better-mcq-13"
+        "better-mcq-21",
+        "better-mcq-23",
+        "better-mcq-10"
       ],
       "explanation": "本句的「better off」指「處境較好」。",
       "sentenceIndex": 33,
@@ -1714,12 +1597,10 @@ export default {
         "better off"
       ],
       "optionReasons": {
-        "better-mcq-16": "本句指「處境較好」。",
-        "better-mcq-15": "「朝好的方向」是「for the better」的用法，與本句語境不同。",
-        "better-mcq-17": "「做 X 會比較好」是「better off doing X」的用法，與本句語境不同。",
-        "better-mcq-14": "「兩者中較好的」是「the better of two」的用法，與本句語境不同。",
-        "better-mcq-18": "「最好做 X」是「had better do X」的用法，與本句語境不同。",
-        "better-mcq-13": "「較好的選擇」是「better option」的用法，與本句語境不同。"
+        "better-mcq-16": "本句的「better off」指「處境較好」。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-16"
     },
@@ -1731,11 +1612,9 @@ export default {
       "masked": "She is financially ____ than she was five years ago.",
       "options": [
         "better-mcq-16",
-        "better-mcq-15",
-        "better-mcq-17",
-        "better-mcq-14",
-        "better-mcq-18",
-        "better-mcq-13"
+        "better-mcq-12",
+        "better-mcq-20",
+        "better-mcq-25"
       ],
       "explanation": "本句的「better off」指「處境較好」。",
       "sentenceIndex": 34,
@@ -1744,12 +1623,10 @@ export default {
         "better off"
       ],
       "optionReasons": {
-        "better-mcq-16": "本句指「處境較好」。",
-        "better-mcq-15": "「朝好的方向」是「for the better」的用法，與本句語境不同。",
-        "better-mcq-17": "「做 X 會比較好」是「better off doing X」的用法，與本句語境不同。",
-        "better-mcq-14": "「兩者中較好的」是「the better of two」的用法，與本句語境不同。",
-        "better-mcq-18": "「最好做 X」是「had better do X」的用法，與本句語境不同。",
-        "better-mcq-13": "「較好的選擇」是「better option」的用法，與本句語境不同。"
+        "better-mcq-16": "本句的「better off」指「處境較好」。",
+        "better-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-16"
     },
@@ -1761,11 +1638,9 @@ export default {
       "masked": "You're ____ until tomorrow.",
       "options": [
         "better-mcq-17",
-        "better-mcq-16",
-        "better-mcq-18",
-        "better-mcq-15",
-        "better-mcq-19",
-        "better-mcq-14"
+        "better-mcq-12",
+        "better-mcq-10",
+        "better-mcq-25"
       ],
       "explanation": "本句的「better off waiting」指「做 X 會比較好」。",
       "sentenceIndex": 35,
@@ -1774,12 +1649,10 @@ export default {
         "better off waiting"
       ],
       "optionReasons": {
-        "better-mcq-17": "本句指「做 X 會比較好」。",
-        "better-mcq-16": "「處境較好」是「better off」的用法，與本句語境不同。",
-        "better-mcq-18": "「最好做 X」是「had better do X」的用法，與本句語境不同。",
-        "better-mcq-15": "「朝好的方向」是「for the better」的用法，與本句語境不同。",
-        "better-mcq-19": "「最好不要 X」是「had better not X」的用法，與本句語境不同。",
-        "better-mcq-14": "「兩者中較好的」是「the better of two」的用法，與本句語境不同。"
+        "better-mcq-17": "本句的「better off waiting」指「做 X 會比較好」。",
+        "better-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-17"
     },
@@ -1791,11 +1664,9 @@ export default {
       "masked": "We may be ____.",
       "options": [
         "better-mcq-17",
-        "better-mcq-16",
-        "better-mcq-18",
-        "better-mcq-15",
-        "better-mcq-19",
-        "better-mcq-14"
+        "better-mcq-24",
+        "better-mcq-10",
+        "better-mcq-30"
       ],
       "explanation": "本句的「better off leaving early」指「做 X 會比較好」。",
       "sentenceIndex": 36,
@@ -1804,12 +1675,10 @@ export default {
         "better off leaving early"
       ],
       "optionReasons": {
-        "better-mcq-17": "本句指「做 X 會比較好」。",
-        "better-mcq-16": "「處境較好」是「better off」的用法，與本句語境不同。",
-        "better-mcq-18": "「最好做 X」是「had better do X」的用法，與本句語境不同。",
-        "better-mcq-15": "「朝好的方向」是「for the better」的用法，與本句語境不同。",
-        "better-mcq-19": "「最好不要 X」是「had better not X」的用法，與本句語境不同。",
-        "better-mcq-14": "「兩者中較好的」是「the better of two」的用法，與本句語境不同。"
+        "better-mcq-17": "本句的「better off leaving early」指「做 X 會比較好」。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-17"
     },
@@ -1821,11 +1690,9 @@ export default {
       "masked": "You ____ now.",
       "options": [
         "better-mcq-18",
-        "better-mcq-17",
-        "better-mcq-19",
-        "better-mcq-16",
-        "better-mcq-20",
-        "better-mcq-15"
+        "better-mcq-30",
+        "better-mcq-24",
+        "better-mcq-10"
       ],
       "explanation": "本句的「had better leave」指「最好做 X」。",
       "sentenceIndex": 37,
@@ -1834,12 +1701,10 @@ export default {
         "had better leave"
       ],
       "optionReasons": {
-        "better-mcq-18": "本句指「最好做 X」。",
-        "better-mcq-17": "「做 X 會比較好」是「better off doing X」的用法，與本句語境不同。",
-        "better-mcq-19": "「最好不要 X」是「had better not X」的用法，與本句語境不同。",
-        "better-mcq-16": "「處境較好」是「better off」的用法，與本句語境不同。",
-        "better-mcq-20": "「應該懂得不那樣做」是「know better」的用法，與本句語境不同。",
-        "better-mcq-15": "「朝好的方向」是「for the better」的用法，與本句語境不同。"
+        "better-mcq-18": "本句的「had better leave」指「最好做 X」。",
+        "better-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-18"
     },
@@ -1851,11 +1716,9 @@ export default {
       "masked": "We'd ____, or we'll miss the bus.",
       "options": [
         "better-mcq-18",
-        "better-mcq-17",
-        "better-mcq-19",
-        "better-mcq-16",
-        "better-mcq-20",
-        "better-mcq-15"
+        "better-mcq-25",
+        "better-mcq-12",
+        "better-mcq-23"
       ],
       "explanation": "本句的「better hurry」指「最好做 X」。",
       "sentenceIndex": 38,
@@ -1864,12 +1727,10 @@ export default {
         "better hurry"
       ],
       "optionReasons": {
-        "better-mcq-18": "本句指「最好做 X」。",
-        "better-mcq-17": "「做 X 會比較好」是「better off doing X」的用法，與本句語境不同。",
-        "better-mcq-19": "「最好不要 X」是「had better not X」的用法，與本句語境不同。",
-        "better-mcq-16": "「處境較好」是「better off」的用法，與本句語境不同。",
-        "better-mcq-20": "「應該懂得不那樣做」是「know better」的用法，與本句語境不同。",
-        "better-mcq-15": "「朝好的方向」是「for the better」的用法，與本句語境不同。"
+        "better-mcq-18": "本句的「better hurry」指「最好做 X」。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-18"
     },
@@ -1881,11 +1742,9 @@ export default {
       "masked": "You'd ____ that.",
       "options": [
         "better-mcq-19",
-        "better-mcq-18",
-        "better-mcq-20",
-        "better-mcq-17",
-        "better-mcq-21",
-        "better-mcq-16"
+        "better-mcq-23",
+        "better-mcq-31",
+        "better-mcq-21"
       ],
       "explanation": "本句的「better not touch」指「最好不要 X」。",
       "sentenceIndex": 39,
@@ -1894,12 +1753,10 @@ export default {
         "better not touch"
       ],
       "optionReasons": {
-        "better-mcq-19": "本句指「最好不要 X」。",
-        "better-mcq-18": "「最好做 X」是「had better do X」的用法，與本句語境不同。",
-        "better-mcq-20": "「應該懂得不那樣做」是「know better」的用法，與本句語境不同。",
-        "better-mcq-17": "「做 X 會比較好」是「better off doing X」的用法，與本句語境不同。",
-        "better-mcq-21": "「改變主意不做」是「think better of it」的用法，與本句語境不同。",
-        "better-mcq-16": "「處境較好」是「better off」的用法，與本句語境不同。"
+        "better-mcq-19": "本句的「better not touch」指「最好不要 X」。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-19"
     },
@@ -1911,11 +1768,9 @@ export default {
       "masked": "We'd ____.",
       "options": [
         "better-mcq-19",
-        "better-mcq-18",
-        "better-mcq-20",
-        "better-mcq-17",
-        "better-mcq-21",
-        "better-mcq-16"
+        "better-reviewed-7b062de743",
+        "better-mcq-31",
+        "better-mcq-21"
       ],
       "explanation": "本句的「better not be late」指「最好不要 X」。",
       "sentenceIndex": 40,
@@ -1924,12 +1779,10 @@ export default {
         "better not be late"
       ],
       "optionReasons": {
-        "better-mcq-19": "本句指「最好不要 X」。",
-        "better-mcq-18": "「最好做 X」是「had better do X」的用法，與本句語境不同。",
-        "better-mcq-20": "「應該懂得不那樣做」是「know better」的用法，與本句語境不同。",
-        "better-mcq-17": "「做 X 會比較好」是「better off doing X」的用法，與本句語境不同。",
-        "better-mcq-21": "「改變主意不做」是「think better of it」的用法，與本句語境不同。",
-        "better-mcq-16": "「處境較好」是「better off」的用法，與本句語境不同。"
+        "better-mcq-19": "本句的「better not be late」指「最好不要 X」。",
+        "better-reviewed-7b062de743": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-19"
     },
@@ -1941,11 +1794,9 @@ export default {
       "masked": "You should ____ than to lie about something so serious.",
       "options": [
         "better-mcq-20",
-        "better-mcq-19",
-        "better-mcq-21",
-        "better-mcq-18",
-        "better-mcq-22",
-        "better-mcq-17"
+        "better-mcq-24",
+        "better-mcq-05",
+        "better-mcq-07"
       ],
       "explanation": "本句的「know better」指「應該懂得不那樣做」。",
       "sentenceIndex": 41,
@@ -1954,12 +1805,10 @@ export default {
         "know better"
       ],
       "optionReasons": {
-        "better-mcq-20": "本句指「應該懂得不那樣做」。",
-        "better-mcq-19": "「最好不要 X」是「had better not X」的用法，與本句語境不同。",
-        "better-mcq-21": "「改變主意不做」是「think better of it」的用法，與本句語境不同。",
-        "better-mcq-18": "「最好做 X」是「had better do X」的用法，與本句語境不同。",
-        "better-mcq-22": "「那就更好了」是「all the better」的用法，與本句語境不同。",
-        "better-mcq-17": "「做 X 會比較好」是「better off doing X」的用法，與本句語境不同。"
+        "better-mcq-20": "本句的「know better」指「應該懂得不那樣做」。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-20"
     },
@@ -1971,11 +1820,9 @@ export default {
       "masked": "He's old enough to ____.",
       "options": [
         "better-mcq-20",
-        "better-mcq-19",
-        "better-mcq-21",
-        "better-mcq-18",
-        "better-mcq-22",
-        "better-mcq-17"
+        "better-mcq-13",
+        "better-mcq-25",
+        "better-mcq-05"
       ],
       "explanation": "本句的「know better」指「應該懂得不那樣做」。",
       "sentenceIndex": 42,
@@ -1984,12 +1831,10 @@ export default {
         "know better"
       ],
       "optionReasons": {
-        "better-mcq-20": "本句指「應該懂得不那樣做」。",
-        "better-mcq-19": "「最好不要 X」是「had better not X」的用法，與本句語境不同。",
-        "better-mcq-21": "「改變主意不做」是「think better of it」的用法，與本句語境不同。",
-        "better-mcq-18": "「最好做 X」是「had better do X」的用法，與本句語境不同。",
-        "better-mcq-22": "「那就更好了」是「all the better」的用法，與本句語境不同。",
-        "better-mcq-17": "「做 X 會比較好」是「better off doing X」的用法，與本句語境不同。"
+        "better-mcq-20": "本句的「know better」指「應該懂得不那樣做」。",
+        "better-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-20"
     },
@@ -2001,11 +1846,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "better-mcq-31",
+        "better-mcq-03",
         "better-mcq-30",
-        "better-mcq-29",
-        "better-mcq-28",
-        "better-mcq-27",
-        "better-mcq-26"
+        "better-mcq-24"
       ],
       "explanation": "本句的「knows better than to trust a stranger with her password」指「有足夠常識或經驗知道做 X 是錯誤或不明智的」。",
       "sentenceIndex": 43,
@@ -2014,12 +1857,10 @@ export default {
         "knows better than to trust a stranger with her password"
       ],
       "optionReasons": {
-        "better-mcq-31": "本句指「有足夠常識或經驗知道做 X 是錯誤或不明智的」。",
-        "better-mcq-30": "「對某人或某事更有益、更合適或更有利」是「12. better for someone/something — 對……更好；更有利」的用法，與本句語境不同。",
-        "better-mcq-29": "「下次好運」是「better luck next time」的用法，與本句語境不同。",
-        "better-mcq-28": "「遲做總比不做好」是「better late than never」的用法，與本句語境不同。",
-        "better-mcq-27": "「總比沒有好」是「better than nothing」的用法，與本句語境不同。",
-        "better-mcq-26": "「不比……好」是「no better than」的用法，與本句語境不同。"
+        "better-mcq-31": "本句的「knows better than to trust a stranger with her password」指「有足夠常識或經驗知道做 X 是錯誤或不明智的」。",
+        "better-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-31"
     },
@@ -2031,11 +1872,9 @@ export default {
       "masked": "He should ____.",
       "options": [
         "better-mcq-31",
-        "better-mcq-30",
-        "better-mcq-29",
-        "better-mcq-28",
-        "better-mcq-27",
-        "better-mcq-26"
+        "better-mcq-25",
+        "better-mcq-04",
+        "better-mcq-10"
       ],
       "explanation": "本句的「know better than to drive so fast」指「有足夠常識或經驗知道做 X 是錯誤或不明智的」。",
       "sentenceIndex": 44,
@@ -2044,12 +1883,10 @@ export default {
         "know better than to drive so fast"
       ],
       "optionReasons": {
-        "better-mcq-31": "本句指「有足夠常識或經驗知道做 X 是錯誤或不明智的」。",
-        "better-mcq-30": "「對某人或某事更有益、更合適或更有利」是「12. better for someone/something — 對……更好；更有利」的用法，與本句語境不同。",
-        "better-mcq-29": "「下次好運」是「better luck next time」的用法，與本句語境不同。",
-        "better-mcq-28": "「遲做總比不做好」是「better late than never」的用法，與本句語境不同。",
-        "better-mcq-27": "「總比沒有好」是「better than nothing」的用法，與本句語境不同。",
-        "better-mcq-26": "「不比……好」是「no better than」的用法，與本句語境不同。"
+        "better-mcq-31": "本句的「know better than to drive so fast」指「有足夠常識或經驗知道做 X 是錯誤或不明智的」。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-31"
     },
@@ -2061,11 +1898,9 @@ export default {
       "masked": "I was going to complain, but I ____.",
       "options": [
         "better-mcq-21",
-        "better-mcq-20",
-        "better-mcq-22",
-        "better-mcq-19",
-        "better-mcq-23",
-        "better-mcq-18"
+        "better-mcq-24",
+        "better-mcq-13",
+        "better-mcq-27"
       ],
       "explanation": "本句的「thought better of it」指「改變主意不做」。",
       "sentenceIndex": 45,
@@ -2074,12 +1909,10 @@ export default {
         "thought better of it"
       ],
       "optionReasons": {
-        "better-mcq-21": "本句指「改變主意不做」。",
-        "better-mcq-20": "「應該懂得不那樣做」是「know better」的用法，與本句語境不同。",
-        "better-mcq-22": "「那就更好了」是「all the better」的用法，與本句語境不同。",
-        "better-mcq-19": "「最好不要 X」是「had better not X」的用法，與本句語境不同。",
-        "better-mcq-23": "「那更加理想」是「so much the better」的用法，與本句語境不同。",
-        "better-mcq-18": "「最好做 X」是「had better do X」的用法，與本句語境不同。"
+        "better-mcq-21": "本句的「thought better of it」指「改變主意不做」。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-21"
     },
@@ -2091,11 +1924,9 @@ export default {
       "masked": "He nearly sent the angry message but ____.",
       "options": [
         "better-mcq-21",
-        "better-mcq-20",
-        "better-mcq-22",
-        "better-mcq-19",
-        "better-mcq-23",
-        "better-mcq-18"
+        "better-mcq-27",
+        "better-mcq-14",
+        "better-mcq-07"
       ],
       "explanation": "本句的「thought better of it」指「改變主意不做」。",
       "sentenceIndex": 46,
@@ -2104,12 +1935,10 @@ export default {
         "thought better of it"
       ],
       "optionReasons": {
-        "better-mcq-21": "本句指「改變主意不做」。",
-        "better-mcq-20": "「應該懂得不那樣做」是「know better」的用法，與本句語境不同。",
-        "better-mcq-22": "「那就更好了」是「all the better」的用法，與本句語境不同。",
-        "better-mcq-19": "「最好不要 X」是「had better not X」的用法，與本句語境不同。",
-        "better-mcq-23": "「那更加理想」是「so much the better」的用法，與本句語境不同。",
-        "better-mcq-18": "「最好做 X」是「had better do X」的用法，與本句語境不同。"
+        "better-mcq-21": "本句的「thought better of it」指「改變主意不做」。",
+        "better-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-21"
     },
@@ -2122,10 +1951,8 @@ export default {
       "options": [
         "better-mcq-22",
         "better-mcq-21",
-        "better-mcq-23",
-        "better-mcq-20",
-        "better-mcq-24",
-        "better-mcq-19"
+        "better-mcq-10",
+        "better-mcq-31"
       ],
       "explanation": "本句的「the better for」指「那就更好了」。",
       "sentenceIndex": 47,
@@ -2134,12 +1961,10 @@ export default {
         "the better for"
       ],
       "optionReasons": {
-        "better-mcq-22": "本句指「那就更好了」。",
-        "better-mcq-21": "「改變主意不做」是「think better of it」的用法，與本句語境不同。",
-        "better-mcq-23": "「那更加理想」是「so much the better」的用法，與本句語境不同。",
-        "better-mcq-20": "「應該懂得不那樣做」是「know better」的用法，與本句語境不同。",
-        "better-mcq-24": "「提升自己」是「better yourself」的用法，與本句語境不同。",
-        "better-mcq-19": "「最好不要 X」是「had better not X」的用法，與本句語境不同。"
+        "better-mcq-22": "本句的「the better for」指「那就更好了」。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-22"
     },
@@ -2151,11 +1976,9 @@ export default {
       "masked": "The story is ____ being shorter.",
       "options": [
         "better-mcq-22",
-        "better-mcq-21",
-        "better-mcq-23",
         "better-mcq-20",
-        "better-mcq-24",
-        "better-mcq-19"
+        "better-mcq-30",
+        "better-mcq-24"
       ],
       "explanation": "本句的「better for」指「那就更好了」。",
       "sentenceIndex": 48,
@@ -2164,12 +1987,10 @@ export default {
         "better for"
       ],
       "optionReasons": {
-        "better-mcq-22": "本句指「那就更好了」。",
-        "better-mcq-21": "「改變主意不做」是「think better of it」的用法，與本句語境不同。",
-        "better-mcq-23": "「那更加理想」是「so much the better」的用法，與本句語境不同。",
-        "better-mcq-20": "「應該懂得不那樣做」是「know better」的用法，與本句語境不同。",
-        "better-mcq-24": "「提升自己」是「better yourself」的用法，與本句語境不同。",
-        "better-mcq-19": "「最好不要 X」是「had better not X」的用法，與本句語境不同。"
+        "better-mcq-22": "本句的「better for」指「那就更好了」。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-22"
     },
@@ -2181,11 +2002,9 @@ export default {
       "masked": "If you can finish today, ____.",
       "options": [
         "better-mcq-22",
-        "better-mcq-21",
-        "better-mcq-23",
+        "better-mcq-12",
         "better-mcq-20",
-        "better-mcq-24",
-        "better-mcq-19"
+        "better-mcq-23"
       ],
       "explanation": "本句的「all the better」指「那就更好了」。",
       "sentenceIndex": 49,
@@ -2194,12 +2013,10 @@ export default {
         "all the better"
       ],
       "optionReasons": {
-        "better-mcq-22": "本句指「那就更好了」。",
-        "better-mcq-21": "「改變主意不做」是「think better of it」的用法，與本句語境不同。",
-        "better-mcq-23": "「那更加理想」是「so much the better」的用法，與本句語境不同。",
-        "better-mcq-20": "「應該懂得不那樣做」是「know better」的用法，與本句語境不同。",
-        "better-mcq-24": "「提升自己」是「better yourself」的用法，與本句語境不同。",
-        "better-mcq-19": "「最好不要 X」是「had better not X」的用法，與本句語境不同。"
+        "better-mcq-22": "本句的「all the better」指「那就更好了」。",
+        "better-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-22"
     },
@@ -2212,10 +2029,8 @@ export default {
       "options": [
         "better-mcq-22",
         "better-mcq-21",
-        "better-mcq-23",
-        "better-mcq-20",
-        "better-mcq-24",
-        "better-mcq-19"
+        "better-reviewed-7b062de743",
+        "better-mcq-24"
       ],
       "explanation": "本句的「all the better」指「那就更好了」。",
       "sentenceIndex": 50,
@@ -2224,12 +2039,10 @@ export default {
         "all the better"
       ],
       "optionReasons": {
-        "better-mcq-22": "本句指「那就更好了」。",
-        "better-mcq-21": "「改變主意不做」是「think better of it」的用法，與本句語境不同。",
-        "better-mcq-23": "「那更加理想」是「so much the better」的用法，與本句語境不同。",
-        "better-mcq-20": "「應該懂得不那樣做」是「know better」的用法，與本句語境不同。",
-        "better-mcq-24": "「提升自己」是「better yourself」的用法，與本句語境不同。",
-        "better-mcq-19": "「最好不要 X」是「had better not X」的用法，與本句語境不同。"
+        "better-mcq-22": "本句的「all the better」指「那就更好了」。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "better-reviewed-7b062de743": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-22"
     },
@@ -2241,11 +2054,9 @@ export default {
       "masked": "If the problem can be solved today, ____.",
       "options": [
         "better-mcq-23",
-        "better-mcq-22",
-        "better-mcq-24",
-        "better-mcq-21",
+        "better-mcq-19",
         "better-mcq-25",
-        "better-mcq-20"
+        "better-mcq-12"
       ],
       "explanation": "本句的「so much the better」指「那更加理想」。",
       "sentenceIndex": 51,
@@ -2254,12 +2065,10 @@ export default {
         "so much the better"
       ],
       "optionReasons": {
-        "better-mcq-23": "本句指「那更加理想」。",
-        "better-mcq-22": "「那就更好了」是「all the better」的用法，與本句語境不同。",
-        "better-mcq-24": "「提升自己」是「better yourself」的用法，與本句語境不同。",
-        "better-mcq-21": "「改變主意不做」是「think better of it」的用法，與本句語境不同。",
-        "better-mcq-25": "「改善／超越紀錄」是「better a record」的用法，與本句語境不同。",
-        "better-mcq-20": "「應該懂得不那樣做」是「know better」的用法，與本句語境不同。"
+        "better-mcq-23": "本句的「so much the better」指「那更加理想」。",
+        "better-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-23"
     },
@@ -2271,11 +2080,9 @@ export default {
       "masked": "If we can save money as well, ____.",
       "options": [
         "better-mcq-23",
-        "better-mcq-22",
-        "better-mcq-24",
-        "better-mcq-21",
-        "better-mcq-25",
-        "better-mcq-20"
+        "better-mcq-31",
+        "better-mcq-26",
+        "better-mcq-10"
       ],
       "explanation": "本句的「so much the better」指「那更加理想」。",
       "sentenceIndex": 52,
@@ -2284,12 +2091,10 @@ export default {
         "so much the better"
       ],
       "optionReasons": {
-        "better-mcq-23": "本句指「那更加理想」。",
-        "better-mcq-22": "「那就更好了」是「all the better」的用法，與本句語境不同。",
-        "better-mcq-24": "「提升自己」是「better yourself」的用法，與本句語境不同。",
-        "better-mcq-21": "「改變主意不做」是「think better of it」的用法，與本句語境不同。",
-        "better-mcq-25": "「改善／超越紀錄」是「better a record」的用法，與本句語境不同。",
-        "better-mcq-20": "「應該懂得不那樣做」是「know better」的用法，與本句語境不同。"
+        "better-mcq-23": "本句的「so much the better」指「那更加理想」。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-23"
     },
@@ -2301,10 +2106,8 @@ export default {
       "masked": "She took evening classes to ____.",
       "options": [
         "better-mcq-24",
-        "better-mcq-23",
-        "better-mcq-25",
-        "better-mcq-22",
-        "better-mcq-26",
+        "better-mcq-04",
+        "better-reviewed-7b062de743",
         "better-mcq-21"
       ],
       "explanation": "本句的「better herself」指「提升自己」。",
@@ -2314,12 +2117,10 @@ export default {
         "better herself"
       ],
       "optionReasons": {
-        "better-mcq-24": "本句指「提升自己」。",
-        "better-mcq-23": "「那更加理想」是「so much the better」的用法，與本句語境不同。",
-        "better-mcq-25": "「改善／超越紀錄」是「better a record」的用法，與本句語境不同。",
-        "better-mcq-22": "「那就更好了」是「all the better」的用法，與本句語境不同。",
-        "better-mcq-26": "「不比……好」是「no better than」的用法，與本句語境不同。",
-        "better-mcq-21": "「改變主意不做」是「think better of it」的用法，與本句語境不同。"
+        "better-mcq-24": "本句的「better herself」指「提升自己」。",
+        "better-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "better-reviewed-7b062de743": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-24"
     },
@@ -2331,11 +2132,9 @@ export default {
       "masked": "He is always looking for ways to ____.",
       "options": [
         "better-mcq-24",
-        "better-mcq-23",
-        "better-mcq-25",
-        "better-mcq-22",
-        "better-mcq-26",
-        "better-mcq-21"
+        "better-mcq-08",
+        "better-mcq-30",
+        "better-mcq-20"
       ],
       "explanation": "本句的「better himself」指「提升自己」。",
       "sentenceIndex": 54,
@@ -2344,12 +2143,10 @@ export default {
         "better himself"
       ],
       "optionReasons": {
-        "better-mcq-24": "本句指「提升自己」。",
-        "better-mcq-23": "「那更加理想」是「so much the better」的用法，與本句語境不同。",
-        "better-mcq-25": "「改善／超越紀錄」是「better a record」的用法，與本句語境不同。",
-        "better-mcq-22": "「那就更好了」是「all the better」的用法，與本句語境不同。",
-        "better-mcq-26": "「不比……好」是「no better than」的用法，與本句語境不同。",
-        "better-mcq-21": "「改變主意不做」是「think better of it」的用法，與本句語境不同。"
+        "better-mcq-24": "本句的「better himself」指「提升自己」。",
+        "better-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-24"
     },
@@ -2361,11 +2158,9 @@ export default {
       "masked": "She ____ by two seconds.",
       "options": [
         "better-mcq-25",
-        "better-mcq-24",
-        "better-mcq-26",
-        "better-mcq-23",
-        "better-mcq-27",
-        "better-mcq-22"
+        "better-mcq-20",
+        "better-mcq-30",
+        "better-mcq-16"
       ],
       "explanation": "本句的「bettered her previous record」指「改善／超越紀錄」。",
       "sentenceIndex": 55,
@@ -2374,12 +2169,10 @@ export default {
         "bettered her previous record"
       ],
       "optionReasons": {
-        "better-mcq-25": "本句指「改善／超越紀錄」。",
-        "better-mcq-24": "「提升自己」是「better yourself」的用法，與本句語境不同。",
-        "better-mcq-26": "「不比……好」是「no better than」的用法，與本句語境不同。",
-        "better-mcq-23": "「那更加理想」是「so much the better」的用法，與本句語境不同。",
-        "better-mcq-27": "「總比沒有好」是「better than nothing」的用法，與本句語境不同。",
-        "better-mcq-22": "「那就更好了」是「all the better」的用法，與本句語境不同。"
+        "better-mcq-25": "本句的「bettered her previous record」指「改善／超越紀錄」。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-25"
     },
@@ -2391,11 +2184,9 @@ export default {
       "masked": "The company hopes to ____.",
       "options": [
         "better-mcq-25",
-        "better-mcq-24",
-        "better-mcq-26",
-        "better-mcq-23",
-        "better-mcq-27",
-        "better-mcq-22"
+        "better-mcq-17",
+        "better-mcq-30",
+        "better-mcq-05"
       ],
       "explanation": "本句的「better last year's sales figures」指「改善／超越紀錄」。",
       "sentenceIndex": 56,
@@ -2404,12 +2195,10 @@ export default {
         "better last year's sales figures"
       ],
       "optionReasons": {
-        "better-mcq-25": "本句指「改善／超越紀錄」。",
-        "better-mcq-24": "「提升自己」是「better yourself」的用法，與本句語境不同。",
-        "better-mcq-26": "「不比……好」是「no better than」的用法，與本句語境不同。",
-        "better-mcq-23": "「那更加理想」是「so much the better」的用法，與本句語境不同。",
-        "better-mcq-27": "「總比沒有好」是「better than nothing」的用法，與本句語境不同。",
-        "better-mcq-22": "「那就更好了」是「all the better」的用法，與本句語境不同。"
+        "better-mcq-25": "本句的「better last year's sales figures」指「改善／超越紀錄」。",
+        "better-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-25"
     },
@@ -2421,11 +2210,9 @@ export default {
       "masked": "This version is ____ the old one.",
       "options": [
         "better-mcq-26",
-        "better-mcq-25",
-        "better-mcq-27",
-        "better-mcq-24",
-        "better-mcq-28",
-        "better-mcq-23"
+        "better-mcq-23",
+        "better-mcq-21",
+        "better-mcq-24"
       ],
       "explanation": "本句的「no better than」指「不比……好」。",
       "sentenceIndex": 57,
@@ -2434,12 +2221,10 @@ export default {
         "no better than"
       ],
       "optionReasons": {
-        "better-mcq-26": "本句指「不比……好」。",
-        "better-mcq-25": "「改善／超越紀錄」是「better a record」的用法，與本句語境不同。",
-        "better-mcq-27": "「總比沒有好」是「better than nothing」的用法，與本句語境不同。",
-        "better-mcq-24": "「提升自己」是「better yourself」的用法，與本句語境不同。",
-        "better-mcq-28": "「遲做總比不做好」是「better late than never」的用法，與本句語境不同。",
-        "better-mcq-23": "「那更加理想」是「so much the better」的用法，與本句語境不同。"
+        "better-mcq-26": "本句的「no better than」指「不比……好」。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-26"
     },
@@ -2452,10 +2237,8 @@ export default {
       "options": [
         "better-mcq-26",
         "better-mcq-25",
-        "better-mcq-27",
-        "better-mcq-24",
-        "better-mcq-28",
-        "better-mcq-23"
+        "better-mcq-23",
+        "better-mcq-30"
       ],
       "explanation": "本句的「no better than」指「不比……好」。",
       "sentenceIndex": 58,
@@ -2464,12 +2247,10 @@ export default {
         "no better than"
       ],
       "optionReasons": {
-        "better-mcq-26": "本句指「不比……好」。",
-        "better-mcq-25": "「改善／超越紀錄」是「better a record」的用法，與本句語境不同。",
-        "better-mcq-27": "「總比沒有好」是「better than nothing」的用法，與本句語境不同。",
-        "better-mcq-24": "「提升自己」是「better yourself」的用法，與本句語境不同。",
-        "better-mcq-28": "「遲做總比不做好」是「better late than never」的用法，與本句語境不同。",
-        "better-mcq-23": "「那更加理想」是「so much the better」的用法，與本句語境不同。"
+        "better-mcq-26": "本句的「no better than」指「不比……好」。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-26"
     },
@@ -2481,11 +2262,9 @@ export default {
       "masked": "The payment is small, but it's ____.",
       "options": [
         "better-mcq-27",
-        "better-mcq-26",
-        "better-mcq-28",
-        "better-mcq-25",
-        "better-mcq-29",
-        "better-mcq-24"
+        "better-mcq-31",
+        "better-mcq-23",
+        "better-mcq-30"
       ],
       "explanation": "本句的「better than nothing」指「總比沒有好」。",
       "sentenceIndex": 59,
@@ -2494,12 +2273,10 @@ export default {
         "better than nothing"
       ],
       "optionReasons": {
-        "better-mcq-27": "本句指「總比沒有好」。",
-        "better-mcq-26": "「不比……好」是「no better than」的用法，與本句語境不同。",
-        "better-mcq-28": "「遲做總比不做好」是「better late than never」的用法，與本句語境不同。",
-        "better-mcq-25": "「改善／超越紀錄」是「better a record」的用法，與本句語境不同。",
-        "better-mcq-29": "「下次好運」是「better luck next time」的用法，與本句語境不同。",
-        "better-mcq-24": "「提升自己」是「better yourself」的用法，與本句語境不同。"
+        "better-mcq-27": "本句的「better than nothing」指「總比沒有好」。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-27"
     },
@@ -2511,11 +2288,9 @@ export default {
       "masked": "Ten minutes of exercise is ____.",
       "options": [
         "better-mcq-27",
-        "better-mcq-26",
-        "better-mcq-28",
-        "better-mcq-25",
-        "better-mcq-29",
-        "better-mcq-24"
+        "better-mcq-24",
+        "better-mcq-10",
+        "better-mcq-31"
       ],
       "explanation": "本句的「better than nothing」指「總比沒有好」。",
       "sentenceIndex": 60,
@@ -2524,12 +2299,10 @@ export default {
         "better than nothing"
       ],
       "optionReasons": {
-        "better-mcq-27": "本句指「總比沒有好」。",
-        "better-mcq-26": "「不比……好」是「no better than」的用法，與本句語境不同。",
-        "better-mcq-28": "「遲做總比不做好」是「better late than never」的用法，與本句語境不同。",
-        "better-mcq-25": "「改善／超越紀錄」是「better a record」的用法，與本句語境不同。",
-        "better-mcq-29": "「下次好運」是「better luck next time」的用法，與本句語境不同。",
-        "better-mcq-24": "「提升自己」是「better yourself」的用法，與本句語境不同。"
+        "better-mcq-27": "本句的「better than nothing」指「總比沒有好」。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-27"
     },
@@ -2541,10 +2314,8 @@ export default {
       "masked": "You finally apologized—____.",
       "options": [
         "better-mcq-28",
-        "better-mcq-27",
-        "better-mcq-29",
-        "better-mcq-26",
-        "better-mcq-30",
+        "better-mcq-10",
+        "better-mcq-12",
         "better-mcq-25"
       ],
       "explanation": "本句的「better late than never」指「遲做總比不做好」。",
@@ -2554,12 +2325,10 @@ export default {
         "better late than never"
       ],
       "optionReasons": {
-        "better-mcq-28": "本句指「遲做總比不做好」。",
-        "better-mcq-27": "「總比沒有好」是「better than nothing」的用法，與本句語境不同。",
-        "better-mcq-29": "「下次好運」是「better luck next time」的用法，與本句語境不同。",
-        "better-mcq-26": "「不比……好」是「no better than」的用法，與本句語境不同。",
-        "better-mcq-30": "「對某人或某事更有益、更合適或更有利」是「12. better for someone/something — 對……更好；更有利」的用法，與本句語境不同。",
-        "better-mcq-25": "「改善／超越紀錄」是「better a record」的用法，與本句語境不同。"
+        "better-mcq-28": "本句的「better late than never」指「遲做總比不做好」。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-28"
     },
@@ -2571,11 +2340,9 @@ export default {
       "masked": "He started exercising at sixty, but ____.",
       "options": [
         "better-mcq-28",
-        "better-mcq-27",
-        "better-mcq-29",
-        "better-mcq-26",
+        "better-mcq-24",
         "better-mcq-30",
-        "better-mcq-25"
+        "better-mcq-10"
       ],
       "explanation": "本句的「better late than never」指「遲做總比不做好」。",
       "sentenceIndex": 62,
@@ -2584,12 +2351,10 @@ export default {
         "better late than never"
       ],
       "optionReasons": {
-        "better-mcq-28": "本句指「遲做總比不做好」。",
-        "better-mcq-27": "「總比沒有好」是「better than nothing」的用法，與本句語境不同。",
-        "better-mcq-29": "「下次好運」是「better luck next time」的用法，與本句語境不同。",
-        "better-mcq-26": "「不比……好」是「no better than」的用法，與本句語境不同。",
-        "better-mcq-30": "「對某人或某事更有益、更合適或更有利」是「12. better for someone/something — 對……更好；更有利」的用法，與本句語境不同。",
-        "better-mcq-25": "「改善／超越紀錄」是「better a record」的用法，與本句語境不同。"
+        "better-mcq-28": "本句的「better late than never」指「遲做總比不做好」。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-28"
     },
@@ -2601,11 +2366,9 @@ export default {
       "masked": "You didn't win this time—____.",
       "options": [
         "better-mcq-29",
-        "better-mcq-28",
-        "better-mcq-30",
-        "better-mcq-27",
-        "better-mcq-31",
-        "better-mcq-26"
+        "better-mcq-12",
+        "better-mcq-25",
+        "better-mcq-31"
       ],
       "explanation": "本句的「better luck next time」指「下次好運」。",
       "sentenceIndex": 63,
@@ -2614,12 +2377,10 @@ export default {
         "better luck next time"
       ],
       "optionReasons": {
-        "better-mcq-29": "本句指「下次好運」。",
-        "better-mcq-28": "「遲做總比不做好」是「better late than never」的用法，與本句語境不同。",
-        "better-mcq-30": "「對某人或某事更有益、更合適或更有利」是「12. better for someone/something — 對……更好；更有利」的用法，與本句語境不同。",
-        "better-mcq-27": "「總比沒有好」是「better than nothing」的用法，與本句語境不同。",
-        "better-mcq-31": "「有足夠常識或經驗知道做 X 是錯誤或不明智的」是「22. know better than to do something — 知道不應該做某事」的用法，與本句語境不同。",
-        "better-mcq-26": "「不比……好」是「no better than」的用法，與本句語境不同。"
+        "better-mcq-29": "本句的「better luck next time」指「下次好運」。",
+        "better-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-29"
     },
@@ -2631,11 +2392,9 @@ export default {
       "masked": "I failed the test.” > “Never mind. ____",
       "options": [
         "better-mcq-29",
-        "better-mcq-28",
-        "better-mcq-30",
-        "better-mcq-27",
-        "better-mcq-31",
-        "better-mcq-26"
+        "better-mcq-21",
+        "better-mcq-20",
+        "better-mcq-24"
       ],
       "explanation": "本句的「Better luck next time.」指「下次好運」。",
       "sentenceIndex": 64,
@@ -2644,12 +2403,10 @@ export default {
         "Better luck next time."
       ],
       "optionReasons": {
-        "better-mcq-29": "本句指「下次好運」。",
-        "better-mcq-28": "「遲做總比不做好」是「better late than never」的用法，與本句語境不同。",
-        "better-mcq-30": "「對某人或某事更有益、更合適或更有利」是「12. better for someone/something — 對……更好；更有利」的用法，與本句語境不同。",
-        "better-mcq-27": "「總比沒有好」是「better than nothing」的用法，與本句語境不同。",
-        "better-mcq-31": "「有足夠常識或經驗知道做 X 是錯誤或不明智的」是「22. know better than to do something — 知道不應該做某事」的用法，與本句語境不同。",
-        "better-mcq-26": "「不比……好」是「no better than」的用法，與本句語境不同。"
+        "better-mcq-29": "本句的「Better luck next time.」指「下次好運」。",
+        "better-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "better-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "better-mcq-29"
     }
@@ -2661,5 +2418,7 @@ export default {
     "sha256": "6d13d9dec987d73d0dd1295551ca0d5c4d1dbd1aeb9dfc91f03df2d5c6347a5c",
     "pages": 25
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

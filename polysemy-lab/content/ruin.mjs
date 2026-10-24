@@ -613,11 +613,9 @@ export default {
       "masked": "Poor communication can quietly ____.",
       "options": [
         "ruin-mcq-01",
-        "ruin-mcq-02",
-        "ruin-mcq-03",
-        "ruin-mcq-04",
         "ruin-mcq-05",
-        "ruin-mcq-06"
+        "ruin-mcq-22",
+        "ruin-mcq-17"
       ],
       "explanation": "本句的「ruin even a talented team」指「毀掉；嚴重破壞」。",
       "sentenceIndex": 0,
@@ -626,12 +624,10 @@ export default {
         "ruin even a talented team"
       ],
       "optionReasons": {
-        "ruin-mcq-01": "本句指「毀掉；嚴重破壞」。",
-        "ruin-mcq-02": "「毀掉團隊」與本句語境不同。",
-        "ruin-mcq-03": "「毀掉關係」與本句語境不同。",
-        "ruin-mcq-04": "「毀掉名聲」與本句語境不同。",
-        "ruin-mcq-05": "「斷送事業」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。"
+        "ruin-mcq-01": "本句的「ruin even a talented team」指「毀掉；嚴重破壞」。",
+        "ruin-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-01"
     },
@@ -643,11 +639,9 @@ export default {
       "masked": "One serious conflict can ____.",
       "options": [
         "ruin-mcq-01",
-        "ruin-mcq-02",
-        "ruin-mcq-03",
-        "ruin-mcq-04",
-        "ruin-mcq-05",
-        "ruin-mcq-06"
+        "ruin-mcq-25",
+        "ruin-mcq-21",
+        "ruin-mcq-05"
       ],
       "explanation": "本句的「ruin months of teamwork」指「毀掉；嚴重破壞」。",
       "sentenceIndex": 1,
@@ -656,12 +650,10 @@ export default {
         "ruin months of teamwork"
       ],
       "optionReasons": {
-        "ruin-mcq-01": "本句指「毀掉；嚴重破壞」。",
-        "ruin-mcq-02": "「毀掉團隊」與本句語境不同。",
-        "ruin-mcq-03": "「毀掉關係」與本句語境不同。",
-        "ruin-mcq-04": "「毀掉名聲」與本句語境不同。",
-        "ruin-mcq-05": "「斷送事業」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。"
+        "ruin-mcq-01": "本句的「ruin months of teamwork」指「毀掉；嚴重破壞」。",
+        "ruin-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-01"
     },
@@ -673,11 +665,9 @@ export default {
       "masked": "Lack of trust can ____.",
       "options": [
         "ruin-mcq-01",
-        "ruin-mcq-02",
-        "ruin-mcq-03",
-        "ruin-mcq-04",
-        "ruin-mcq-05",
-        "ruin-mcq-06"
+        "ruin-mcq-20",
+        "ruin-mcq-17",
+        "ruin-mcq-13"
       ],
       "explanation": "本句的「ruin a strong working relationship」指「毀掉；嚴重破壞」。",
       "sentenceIndex": 2,
@@ -686,12 +676,10 @@ export default {
         "ruin a strong working relationship"
       ],
       "optionReasons": {
-        "ruin-mcq-01": "本句指「毀掉；嚴重破壞」。",
-        "ruin-mcq-02": "「毀掉團隊」與本句語境不同。",
-        "ruin-mcq-03": "「毀掉關係」與本句語境不同。",
-        "ruin-mcq-04": "「毀掉名聲」與本句語境不同。",
-        "ruin-mcq-05": "「斷送事業」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。"
+        "ruin-mcq-01": "本句的「ruin a strong working relationship」指「毀掉；嚴重破壞」。",
+        "ruin-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-01"
     },
@@ -703,11 +691,9 @@ export default {
       "masked": "Constant dishonesty can ____.",
       "options": [
         "ruin-mcq-03",
-        "ruin-mcq-02",
-        "ruin-mcq-04",
-        "ruin-mcq-01",
-        "ruin-mcq-05",
-        "ruin-mcq-06"
+        "ruin-mcq-18",
+        "ruin-pdf-001",
+        "ruin-mcq-07"
       ],
       "explanation": "本句的「ruin a relationship」指「毀掉關係」。",
       "sentenceIndex": 3,
@@ -716,12 +702,10 @@ export default {
         "ruin a relationship"
       ],
       "optionReasons": {
-        "ruin-mcq-03": "本句指「毀掉關係」。",
-        "ruin-mcq-02": "「毀掉團隊」與本句語境不同。",
-        "ruin-mcq-04": "「毀掉名聲」與本句語境不同。",
-        "ruin-mcq-01": "「毀掉；嚴重破壞」與本句語境不同。",
-        "ruin-mcq-05": "「斷送事業」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。"
+        "ruin-mcq-03": "本句的「ruin a relationship」指「毀掉關係」。",
+        "ruin-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ruin-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-03"
     },
@@ -733,11 +717,9 @@ export default {
       "masked": "Their friendship was nearly ____.",
       "options": [
         "ruin-mcq-03",
-        "ruin-mcq-02",
-        "ruin-mcq-04",
-        "ruin-mcq-01",
-        "ruin-mcq-05",
-        "ruin-mcq-06"
+        "ruin-mcq-19",
+        "ruin-mcq-12",
+        "ruin-mcq-20"
       ],
       "explanation": "本句的「ruined by jealousy」指「毀掉關係」。",
       "sentenceIndex": 4,
@@ -746,12 +728,10 @@ export default {
         "ruined by jealousy"
       ],
       "optionReasons": {
-        "ruin-mcq-03": "本句指「毀掉關係」。",
-        "ruin-mcq-02": "「毀掉團隊」與本句語境不同。",
-        "ruin-mcq-04": "「毀掉名聲」與本句語境不同。",
-        "ruin-mcq-01": "「毀掉；嚴重破壞」與本句語境不同。",
-        "ruin-mcq-05": "「斷送事業」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。"
+        "ruin-mcq-03": "本句的「ruined by jealousy」指「毀掉關係」。",
+        "ruin-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-03"
     },
@@ -763,11 +743,9 @@ export default {
       "masked": "A false accusation can ____.",
       "options": [
         "ruin-mcq-04",
-        "ruin-mcq-03",
-        "ruin-mcq-05",
-        "ruin-mcq-02",
-        "ruin-mcq-06",
-        "ruin-mcq-01"
+        "ruin-mcq-18",
+        "ruin-mcq-12",
+        "ruin-mcq-25"
       ],
       "explanation": "本句的「ruin someone's reputation」指「毀掉名聲」。",
       "sentenceIndex": 5,
@@ -776,12 +754,10 @@ export default {
         "ruin someone's reputation"
       ],
       "optionReasons": {
-        "ruin-mcq-04": "本句指「毀掉名聲」。",
-        "ruin-mcq-03": "「毀掉關係」與本句語境不同。",
-        "ruin-mcq-05": "「斷送事業」與本句語境不同。",
-        "ruin-mcq-02": "「毀掉團隊」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。",
-        "ruin-mcq-01": "「毀掉；嚴重破壞」與本句語境不同。"
+        "ruin-mcq-04": "本句的「ruin someone's reputation」指「毀掉名聲」。",
+        "ruin-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-04"
     },
@@ -793,11 +769,9 @@ export default {
       "masked": "The scandal nearly ____.",
       "options": [
         "ruin-mcq-04",
-        "ruin-mcq-03",
-        "ruin-mcq-05",
-        "ruin-mcq-02",
-        "ruin-mcq-06",
-        "ruin-mcq-01"
+        "ruin-mcq-22",
+        "ruin-mcq-17",
+        "ruin-mcq-18"
       ],
       "explanation": "本句的「ruined his reputation」指「毀掉名聲」。",
       "sentenceIndex": 6,
@@ -806,12 +780,10 @@ export default {
         "ruined his reputation"
       ],
       "optionReasons": {
-        "ruin-mcq-04": "本句指「毀掉名聲」。",
-        "ruin-mcq-03": "「毀掉關係」與本句語境不同。",
-        "ruin-mcq-05": "「斷送事業」與本句語境不同。",
-        "ruin-mcq-02": "「毀掉團隊」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。",
-        "ruin-mcq-01": "「毀掉；嚴重破壞」與本句語境不同。"
+        "ruin-mcq-04": "本句的「ruined his reputation」指「毀掉名聲」。",
+        "ruin-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-04"
     },
@@ -823,11 +795,9 @@ export default {
       "masked": "One dishonest act could ____.",
       "options": [
         "ruin-mcq-05",
-        "ruin-mcq-04",
         "ruin-mcq-06",
-        "ruin-mcq-03",
-        "ruin-mcq-07",
-        "ruin-mcq-02"
+        "ruin-mcq-19",
+        "ruin-mcq-25"
       ],
       "explanation": "本句的「ruin his career」指「斷送事業」。",
       "sentenceIndex": 7,
@@ -836,12 +806,10 @@ export default {
         "ruin his career"
       ],
       "optionReasons": {
-        "ruin-mcq-05": "本句指「斷送事業」。",
-        "ruin-mcq-04": "「毀掉名聲」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。",
-        "ruin-mcq-03": "「毀掉關係」與本句語境不同。",
-        "ruin-mcq-07": "「破壞計劃」與本句語境不同。",
-        "ruin-mcq-02": "「毀掉團隊」與本句語境不同。"
+        "ruin-mcq-05": "本句的「ruin his career」指「斷送事業」。",
+        "ruin-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-05"
     },
@@ -853,11 +821,9 @@ export default {
       "masked": "The controversy almost ____.",
       "options": [
         "ruin-mcq-05",
-        "ruin-mcq-04",
-        "ruin-mcq-06",
-        "ruin-mcq-03",
-        "ruin-mcq-07",
-        "ruin-mcq-02"
+        "ruin-mcq-16",
+        "ruin-mcq-25",
+        "ruin-mcq-17"
       ],
       "explanation": "本句的「ruined her career」指「斷送事業」。",
       "sentenceIndex": 8,
@@ -866,12 +832,10 @@ export default {
         "ruined her career"
       ],
       "optionReasons": {
-        "ruin-mcq-05": "本句指「斷送事業」。",
-        "ruin-mcq-04": "「毀掉名聲」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。",
-        "ruin-mcq-03": "「毀掉關係」與本句語境不同。",
-        "ruin-mcq-07": "「破壞計劃」與本句語境不同。",
-        "ruin-mcq-02": "「毀掉團隊」與本句語境不同。"
+        "ruin-mcq-05": "本句的「ruined her career」指「斷送事業」。",
+        "ruin-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-05"
     },
@@ -883,11 +847,9 @@ export default {
       "masked": "Missing the deadline may ____.",
       "options": [
         "ruin-mcq-06",
-        "ruin-mcq-05",
-        "ruin-mcq-07",
-        "ruin-mcq-04",
-        "ruin-mcq-08",
-        "ruin-mcq-03"
+        "ruin-mcq-20",
+        "ruin-mcq-18",
+        "ruin-mcq-09"
       ],
       "explanation": "本句的「ruin our chances of winning the contract」指「毀掉機會」。",
       "sentenceIndex": 9,
@@ -896,12 +858,10 @@ export default {
         "ruin our chances of winning the contract"
       ],
       "optionReasons": {
-        "ruin-mcq-06": "本句指「毀掉機會」。",
-        "ruin-mcq-05": "「斷送事業」與本句語境不同。",
-        "ruin-mcq-07": "「破壞計劃」與本句語境不同。",
-        "ruin-mcq-04": "「毀掉名聲」與本句語境不同。",
-        "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。",
-        "ruin-mcq-03": "「毀掉關係」與本句語境不同。"
+        "ruin-mcq-06": "本句的「ruin our chances of winning the contract」指「毀掉機會」。",
+        "ruin-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-06"
     },
@@ -913,11 +873,9 @@ export default {
       "masked": "His poor interview ____.",
       "options": [
         "ruin-mcq-06",
-        "ruin-mcq-05",
-        "ruin-mcq-07",
-        "ruin-mcq-04",
-        "ruin-mcq-08",
-        "ruin-mcq-03"
+        "ruin-mcq-13",
+        "ruin-mcq-09",
+        "ruin-mcq-21"
       ],
       "explanation": "本句的「ruined his chances of getting the job」指「毀掉機會」。",
       "sentenceIndex": 10,
@@ -926,12 +884,10 @@ export default {
         "ruined his chances of getting the job"
       ],
       "optionReasons": {
-        "ruin-mcq-06": "本句指「毀掉機會」。",
-        "ruin-mcq-05": "「斷送事業」與本句語境不同。",
-        "ruin-mcq-07": "「破壞計劃」與本句語境不同。",
-        "ruin-mcq-04": "「毀掉名聲」與本句語境不同。",
-        "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。",
-        "ruin-mcq-03": "「毀掉關係」與本句語境不同。"
+        "ruin-mcq-06": "本句的「ruined his chances of getting the job」指「毀掉機會」。",
+        "ruin-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-06"
     },
@@ -943,11 +899,9 @@ export default {
       "masked": "Poor planning can ____.",
       "options": [
         "ruin-mcq-07",
-        "ruin-mcq-06",
-        "ruin-mcq-08",
-        "ruin-mcq-05",
-        "ruin-mcq-09",
-        "ruin-mcq-04"
+        "ruin-mcq-14",
+        "ruin-mcq-13",
+        "ruin-mcq-25"
       ],
       "explanation": "本句的「ruin an otherwise promising project」指「破壞計劃」。",
       "sentenceIndex": 11,
@@ -956,12 +910,10 @@ export default {
         "ruin an otherwise promising project"
       ],
       "optionReasons": {
-        "ruin-mcq-07": "本句指「破壞計劃」。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。",
-        "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。",
-        "ruin-mcq-05": "「斷送事業」與本句語境不同。",
-        "ruin-mcq-09": "「把食物弄壞」與本句語境不同。",
-        "ruin-mcq-04": "「毀掉名聲」與本句語境不同。"
+        "ruin-mcq-07": "本句的「ruin an otherwise promising project」指「破壞計劃」。",
+        "ruin-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-07"
     },
@@ -973,11 +925,9 @@ export default {
       "masked": "The unexpected delay ____.",
       "options": [
         "ruin-mcq-07",
-        "ruin-mcq-06",
-        "ruin-mcq-08",
-        "ruin-mcq-05",
-        "ruin-mcq-09",
-        "ruin-mcq-04"
+        "ruin-mcq-03",
+        "ruin-mcq-17",
+        "ruin-mcq-21"
       ],
       "explanation": "本句的「ruined our original plan」指「破壞計劃」。",
       "sentenceIndex": 12,
@@ -986,12 +936,10 @@ export default {
         "ruined our original plan"
       ],
       "optionReasons": {
-        "ruin-mcq-07": "本句指「破壞計劃」。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。",
-        "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。",
-        "ruin-mcq-05": "「斷送事業」與本句語境不同。",
-        "ruin-mcq-09": "「把食物弄壞」與本句語境不同。",
-        "ruin-mcq-04": "「毀掉名聲」與本句語境不同。"
+        "ruin-mcq-07": "本句的「ruined our original plan」指「破壞計劃」。",
+        "ruin-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-07"
     },
@@ -1003,11 +951,9 @@ export default {
       "masked": "The argument ____.",
       "options": [
         "ruin-mcq-08",
-        "ruin-mcq-07",
-        "ruin-mcq-09",
-        "ruin-mcq-06",
-        "ruin-mcq-10",
-        "ruin-mcq-05"
+        "ruin-mcq-25",
+        "ruin-mcq-13",
+        "ruin-mcq-07"
       ],
       "explanation": "本句的「ruined the evening」指「毀掉一天／假期」。",
       "sentenceIndex": 13,
@@ -1016,12 +962,10 @@ export default {
         "ruined the evening"
       ],
       "optionReasons": {
-        "ruin-mcq-08": "本句指「毀掉一天／假期」。",
-        "ruin-mcq-07": "「破壞計劃」與本句語境不同。",
-        "ruin-mcq-09": "「把食物弄壞」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。",
-        "ruin-mcq-10": "「被……毀掉」與本句語境不同。",
-        "ruin-mcq-05": "「斷送事業」與本句語境不同。"
+        "ruin-mcq-08": "本句的「ruined the evening」指「毀掉一天／假期」。",
+        "ruin-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-08"
     },
@@ -1033,11 +977,9 @@ export default {
       "masked": "Heavy rain ____.",
       "options": [
         "ruin-mcq-08",
-        "ruin-mcq-07",
+        "ruin-mcq-12",
         "ruin-mcq-09",
-        "ruin-mcq-06",
-        "ruin-mcq-10",
-        "ruin-mcq-05"
+        "ruin-mcq-21"
       ],
       "explanation": "本句的「ruined our holiday」指「毀掉一天／假期」。",
       "sentenceIndex": 14,
@@ -1046,12 +988,10 @@ export default {
         "ruined our holiday"
       ],
       "optionReasons": {
-        "ruin-mcq-08": "本句指「毀掉一天／假期」。",
-        "ruin-mcq-07": "「破壞計劃」與本句語境不同。",
-        "ruin-mcq-09": "「把食物弄壞」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。",
-        "ruin-mcq-10": "「被……毀掉」與本句語境不同。",
-        "ruin-mcq-05": "「斷送事業」與本句語境不同。"
+        "ruin-mcq-08": "本句的「ruined our holiday」指「毀掉一天／假期」。",
+        "ruin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-08"
     },
@@ -1063,11 +1003,9 @@ export default {
       "masked": "Too much salt ____.",
       "options": [
         "ruin-mcq-09",
-        "ruin-mcq-08",
-        "ruin-mcq-10",
-        "ruin-mcq-07",
-        "ruin-mcq-11",
-        "ruin-mcq-06"
+        "ruin-mcq-23",
+        "ruin-mcq-14",
+        "ruin-mcq-13"
       ],
       "explanation": "本句的「ruined the soup」指「把食物弄壞」。",
       "sentenceIndex": 15,
@@ -1076,12 +1014,10 @@ export default {
         "ruined the soup"
       ],
       "optionReasons": {
-        "ruin-mcq-09": "本句指「把食物弄壞」。",
-        "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。",
-        "ruin-mcq-10": "「被……毀掉」與本句語境不同。",
-        "ruin-mcq-07": "「破壞計劃」與本句語境不同。",
-        "ruin-mcq-11": "「令某人破產」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。"
+        "ruin-mcq-09": "本句的「ruined the soup」指「把食物弄壞」。",
+        "ruin-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-09"
     },
@@ -1093,11 +1029,9 @@ export default {
       "masked": "Don't overcook the fish or you'll ____.",
       "options": [
         "ruin-mcq-09",
-        "ruin-mcq-08",
-        "ruin-mcq-10",
-        "ruin-mcq-07",
-        "ruin-mcq-11",
-        "ruin-mcq-06"
+        "ruin-mcq-15",
+        "ruin-mcq-20",
+        "ruin-mcq-05"
       ],
       "explanation": "本句的「ruin it」指「把食物弄壞」。",
       "sentenceIndex": 16,
@@ -1106,12 +1040,10 @@ export default {
         "ruin it"
       ],
       "optionReasons": {
-        "ruin-mcq-09": "本句指「把食物弄壞」。",
-        "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。",
-        "ruin-mcq-10": "「被……毀掉」與本句語境不同。",
-        "ruin-mcq-07": "「破壞計劃」與本句語境不同。",
-        "ruin-mcq-11": "「令某人破產」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。"
+        "ruin-mcq-09": "本句的「ruin it」指「把食物弄壞」。",
+        "ruin-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-09"
     },
@@ -1123,11 +1055,9 @@ export default {
       "masked": "The bleach ____.",
       "options": [
         "ruin-pdf-001",
-        "ruin-mcq-08",
-        "ruin-mcq-10",
-        "ruin-mcq-07",
+        "ruin-mcq-22",
         "ruin-mcq-11",
-        "ruin-mcq-06"
+        "ruin-mcq-05"
       ],
       "explanation": "本句的「ruined my shirt」指「把物件損壞到不能正常使用或失去原有價值」。",
       "sentenceIndex": 17,
@@ -1136,12 +1066,10 @@ export default {
         "ruined my shirt"
       ],
       "optionReasons": {
-        "ruin-pdf-001": "本句指「把物件損壞到不能正常使用或失去原有價值」。",
-        "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。",
-        "ruin-mcq-10": "「被……毀掉」與本句語境不同。",
-        "ruin-mcq-07": "「破壞計劃」與本句語境不同。",
-        "ruin-mcq-11": "「令某人破產」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。"
+        "ruin-pdf-001": "本句的「ruined my shirt」指「把物件損壞到不能正常使用或失去原有價值」。",
+        "ruin-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-pdf-001"
     },
@@ -1153,11 +1081,9 @@ export default {
       "masked": "Water can ____.",
       "options": [
         "ruin-pdf-001",
-        "ruin-mcq-08",
-        "ruin-mcq-10",
-        "ruin-mcq-07",
-        "ruin-mcq-11",
-        "ruin-mcq-06"
+        "ruin-mcq-12",
+        "ruin-mcq-17",
+        "ruin-mcq-25"
       ],
       "explanation": "本句的「ruin electronic equipment」指「把物件損壞到不能正常使用或失去原有價值」。",
       "sentenceIndex": 18,
@@ -1166,12 +1092,10 @@ export default {
         "ruin electronic equipment"
       ],
       "optionReasons": {
-        "ruin-pdf-001": "本句指「把物件損壞到不能正常使用或失去原有價值」。",
-        "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。",
-        "ruin-mcq-10": "「被……毀掉」與本句語境不同。",
-        "ruin-mcq-07": "「破壞計劃」與本句語境不同。",
-        "ruin-mcq-11": "「令某人破產」與本句語境不同。",
-        "ruin-mcq-06": "「毀掉機會」與本句語境不同。"
+        "ruin-pdf-001": "本句的「ruin electronic equipment」指「把物件損壞到不能正常使用或失去原有價值」。",
+        "ruin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-pdf-001"
     },
@@ -1184,10 +1108,8 @@ export default {
       "options": [
         "ruin-mcq-10",
         "ruin-mcq-09",
-        "ruin-mcq-11",
-        "ruin-mcq-08",
-        "ruin-mcq-12",
-        "ruin-mcq-07"
+        "ruin-mcq-05",
+        "ruin-mcq-11"
       ],
       "explanation": "本句的「ruined by technical problems」指「被……毀掉」。",
       "sentenceIndex": 19,
@@ -1196,12 +1118,10 @@ export default {
         "ruined by technical problems"
       ],
       "optionReasons": {
-        "ruin-mcq-10": "本句指「被……毀掉」。",
-        "ruin-mcq-09": "「把食物弄壞」與本句語境不同。",
-        "ruin-mcq-11": "「令某人破產」與本句語境不同。",
-        "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。",
-        "ruin-mcq-12": "「搞垮企業」與本句語境不同。",
-        "ruin-mcq-07": "「破壞計劃」與本句語境不同。"
+        "ruin-mcq-10": "本句的「ruined by technical problems」指「被……毀掉」。",
+        "ruin-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-10"
     },
@@ -1213,11 +1133,9 @@ export default {
       "masked": "The relationship was ____.",
       "options": [
         "ruin-mcq-10",
-        "ruin-mcq-09",
-        "ruin-mcq-11",
-        "ruin-mcq-08",
-        "ruin-mcq-12",
-        "ruin-mcq-07"
+        "ruin-mcq-20",
+        "ruin-mcq-25",
+        "ruin-mcq-13"
       ],
       "explanation": "本句的「ruined by a lack of trust」指「被……毀掉」。",
       "sentenceIndex": 20,
@@ -1226,12 +1144,10 @@ export default {
         "ruined by a lack of trust"
       ],
       "optionReasons": {
-        "ruin-mcq-10": "本句指「被……毀掉」。",
-        "ruin-mcq-09": "「把食物弄壞」與本句語境不同。",
-        "ruin-mcq-11": "「令某人破產」與本句語境不同。",
-        "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。",
-        "ruin-mcq-12": "「搞垮企業」與本句語境不同。",
-        "ruin-mcq-07": "「破壞計劃」與本句語境不同。"
+        "ruin-mcq-10": "本句的「ruined by a lack of trust」指「被……毀掉」。",
+        "ruin-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-10"
     },
@@ -1243,11 +1159,9 @@ export default {
       "masked": "They walked past a ____.",
       "options": [
         "ruin-mcq-10",
-        "ruin-mcq-09",
-        "ruin-mcq-11",
-        "ruin-mcq-08",
-        "ruin-mcq-12",
-        "ruin-mcq-07"
+        "ruin-mcq-05",
+        "ruin-mcq-23",
+        "ruin-mcq-17"
       ],
       "explanation": "本句的「ruined building」指「被……毀掉」。",
       "sentenceIndex": 21,
@@ -1256,12 +1170,10 @@ export default {
         "ruined building"
       ],
       "optionReasons": {
-        "ruin-mcq-10": "本句指「被……毀掉」。",
-        "ruin-mcq-09": "「把食物弄壞」與本句語境不同。",
-        "ruin-mcq-11": "「令某人破產」與本句語境不同。",
-        "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。",
-        "ruin-mcq-12": "「搞垮企業」與本句語境不同。",
-        "ruin-mcq-07": "「破壞計劃」與本句語境不同。"
+        "ruin-mcq-10": "本句的「ruined building」指「被……毀掉」。",
+        "ruin-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-10"
     },
@@ -1273,11 +1185,9 @@ export default {
       "masked": "The fire left several houses ____.",
       "options": [
         "ruin-mcq-10",
-        "ruin-mcq-09",
-        "ruin-mcq-11",
-        "ruin-mcq-08",
-        "ruin-mcq-12",
-        "ruin-mcq-07"
+        "ruin-mcq-07",
+        "ruin-mcq-19",
+        "ruin-mcq-20"
       ],
       "explanation": "本句的「ruined」指「被……毀掉」。",
       "sentenceIndex": 22,
@@ -1286,12 +1196,10 @@ export default {
         "ruined"
       ],
       "optionReasons": {
-        "ruin-mcq-10": "本句指「被……毀掉」。",
-        "ruin-mcq-09": "「把食物弄壞」與本句語境不同。",
-        "ruin-mcq-11": "「令某人破產」與本句語境不同。",
-        "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。",
-        "ruin-mcq-12": "「搞垮企業」與本句語境不同。",
-        "ruin-mcq-07": "「破壞計劃」與本句語境不同。"
+        "ruin-mcq-10": "本句的「ruined」指「被……毀掉」。",
+        "ruin-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-10"
     },
@@ -1303,11 +1211,9 @@ export default {
       "masked": "The failed investment nearly ____.",
       "options": [
         "ruin-mcq-11",
-        "ruin-mcq-10",
-        "ruin-mcq-12",
-        "ruin-mcq-09",
-        "ruin-mcq-13",
-        "ruin-mcq-08"
+        "ruin-pdf-001",
+        "ruin-mcq-21",
+        "ruin-mcq-26"
       ],
       "explanation": "本句的「ruined him financially」指「令某人破產」。",
       "sentenceIndex": 23,
@@ -1316,12 +1222,10 @@ export default {
         "ruined him financially"
       ],
       "optionReasons": {
-        "ruin-mcq-11": "本句指「令某人破產」。",
-        "ruin-mcq-10": "「被……毀掉」與本句語境不同。",
-        "ruin-mcq-12": "「搞垮企業」與本句語境不同。",
-        "ruin-mcq-09": "「把食物弄壞」與本句語境不同。",
-        "ruin-mcq-13": "「財務崩潰」與本句語境不同。",
-        "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。"
+        "ruin-mcq-11": "本句的「ruined him financially」指「令某人破產」。",
+        "ruin-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-11"
     },
@@ -1333,11 +1237,9 @@ export default {
       "masked": "Huge legal costs could ____.",
       "options": [
         "ruin-mcq-11",
-        "ruin-mcq-10",
-        "ruin-mcq-12",
         "ruin-mcq-09",
-        "ruin-mcq-13",
-        "ruin-mcq-08"
+        "ruin-mcq-22",
+        "ruin-mcq-15"
       ],
       "explanation": "本句的「ruin a small business owner」指「令某人破產」。",
       "sentenceIndex": 24,
@@ -1346,12 +1248,10 @@ export default {
         "ruin a small business owner"
       ],
       "optionReasons": {
-        "ruin-mcq-11": "本句指「令某人破產」。",
-        "ruin-mcq-10": "「被……毀掉」與本句語境不同。",
-        "ruin-mcq-12": "「搞垮企業」與本句語境不同。",
-        "ruin-mcq-09": "「把食物弄壞」與本句語境不同。",
-        "ruin-mcq-13": "「財務崩潰」與本句語境不同。",
-        "ruin-mcq-08": "「毀掉一天／假期」與本句語境不同。"
+        "ruin-mcq-11": "本句的「ruin a small business owner」指「令某人破產」。",
+        "ruin-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-11"
     },
@@ -1363,11 +1263,9 @@ export default {
       "masked": "Years of poor management ____.",
       "options": [
         "ruin-mcq-12",
-        "ruin-mcq-11",
-        "ruin-mcq-13",
         "ruin-mcq-10",
-        "ruin-mcq-14",
-        "ruin-mcq-09"
+        "ruin-pdf-001",
+        "ruin-mcq-22"
       ],
       "explanation": "本句的「ruined the business」指「搞垮企業」。",
       "sentenceIndex": 25,
@@ -1376,12 +1274,10 @@ export default {
         "ruined the business"
       ],
       "optionReasons": {
-        "ruin-mcq-12": "本句指「搞垮企業」。",
-        "ruin-mcq-11": "「令某人破產」與本句語境不同。",
-        "ruin-mcq-13": "「財務崩潰」與本句語境不同。",
-        "ruin-mcq-10": "「被……毀掉」與本句語境不同。",
-        "ruin-mcq-14": "「令 X 走向毀滅」與本句語境不同。",
-        "ruin-mcq-09": "「把食物弄壞」與本句語境不同。"
+        "ruin-mcq-12": "本句的「ruined the business」指「搞垮企業」。",
+        "ruin-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ruin-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-12"
     },
@@ -1393,11 +1289,9 @@ export default {
       "masked": "One disastrous contract nearly ____.",
       "options": [
         "ruin-mcq-12",
-        "ruin-mcq-11",
-        "ruin-mcq-13",
-        "ruin-mcq-10",
-        "ruin-mcq-14",
-        "ruin-mcq-09"
+        "ruin-mcq-17",
+        "ruin-mcq-21",
+        "ruin-pdf-001"
       ],
       "explanation": "本句的「ruined the company」指「搞垮企業」。",
       "sentenceIndex": 26,
@@ -1406,12 +1300,10 @@ export default {
         "ruined the company"
       ],
       "optionReasons": {
-        "ruin-mcq-12": "本句指「搞垮企業」。",
-        "ruin-mcq-11": "「令某人破產」與本句語境不同。",
-        "ruin-mcq-13": "「財務崩潰」與本句語境不同。",
-        "ruin-mcq-10": "「被……毀掉」與本句語境不同。",
-        "ruin-mcq-14": "「令 X 走向毀滅」與本句語境不同。",
-        "ruin-mcq-09": "「把食物弄壞」與本句語境不同。"
+        "ruin-mcq-12": "本句的「ruined the company」指「搞垮企業」。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ruin-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-12"
     },
@@ -1423,11 +1315,9 @@ export default {
       "masked": "The family faced ____.",
       "options": [
         "ruin-mcq-13",
-        "ruin-mcq-12",
-        "ruin-mcq-14",
-        "ruin-mcq-11",
-        "ruin-mcq-15",
-        "ruin-mcq-10"
+        "ruin-mcq-17",
+        "ruin-mcq-06",
+        "ruin-mcq-25"
       ],
       "explanation": "本句的「financial ruin」指「財務崩潰」。",
       "sentenceIndex": 27,
@@ -1436,12 +1326,10 @@ export default {
         "financial ruin"
       ],
       "optionReasons": {
-        "ruin-mcq-13": "本句指「財務崩潰」。",
-        "ruin-mcq-12": "「搞垮企業」與本句語境不同。",
-        "ruin-mcq-14": "「令 X 走向毀滅」與本句語境不同。",
-        "ruin-mcq-11": "「令某人破產」與本句語境不同。",
-        "ruin-mcq-15": "「毀滅；衰敗」與本句語境不同。",
-        "ruin-mcq-10": "「被……毀掉」與本句語境不同。"
+        "ruin-mcq-13": "本句的「financial ruin」指「財務崩潰」。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-13"
     },
@@ -1453,11 +1341,9 @@ export default {
       "masked": "Heavy debts brought the company close to ____.",
       "options": [
         "ruin-mcq-13",
-        "ruin-mcq-12",
-        "ruin-mcq-14",
-        "ruin-mcq-11",
-        "ruin-mcq-15",
-        "ruin-mcq-10"
+        "ruin-mcq-17",
+        "ruin-mcq-07",
+        "ruin-mcq-15"
       ],
       "explanation": "本句的「financial ruin」指「財務崩潰」。",
       "sentenceIndex": 28,
@@ -1466,12 +1352,10 @@ export default {
         "financial ruin"
       ],
       "optionReasons": {
-        "ruin-mcq-13": "本句指「財務崩潰」。",
-        "ruin-mcq-12": "「搞垮企業」與本句語境不同。",
-        "ruin-mcq-14": "「令 X 走向毀滅」與本句語境不同。",
-        "ruin-mcq-11": "「令某人破產」與本句語境不同。",
-        "ruin-mcq-15": "「毀滅；衰敗」與本句語境不同。",
-        "ruin-mcq-10": "「被……毀掉」與本句語境不同。"
+        "ruin-mcq-13": "本句的「financial ruin」指「財務崩潰」。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-13"
     },
@@ -1483,11 +1367,9 @@ export default {
       "masked": "Reckless borrowing ____.",
       "options": [
         "ruin-mcq-14",
+        "ruin-mcq-17",
         "ruin-mcq-13",
-        "ruin-mcq-15",
-        "ruin-mcq-12",
-        "ruin-mcq-16",
-        "ruin-mcq-11"
+        "ruin-mcq-09"
       ],
       "explanation": "本句的「brought him to ruin」指「令 X 走向毀滅」。",
       "sentenceIndex": 29,
@@ -1496,12 +1378,10 @@ export default {
         "brought him to ruin"
       ],
       "optionReasons": {
-        "ruin-mcq-14": "本句指「令 X 走向毀滅」。",
-        "ruin-mcq-13": "「財務崩潰」與本句語境不同。",
-        "ruin-mcq-15": "「毀滅；衰敗」與本句語境不同。",
-        "ruin-mcq-12": "「搞垮企業」與本句語境不同。",
-        "ruin-mcq-16": "「X 的敗亡／毀滅」與本句語境不同。",
-        "ruin-mcq-11": "「令某人破產」與本句語境不同。"
+        "ruin-mcq-14": "本句的「brought him to ruin」指「令 X 走向毀滅」。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-14"
     },
@@ -1513,11 +1393,9 @@ export default {
       "masked": "Years of corruption eventually ____.",
       "options": [
         "ruin-mcq-14",
-        "ruin-mcq-13",
-        "ruin-mcq-15",
-        "ruin-mcq-12",
-        "ruin-mcq-16",
-        "ruin-mcq-11"
+        "ruin-mcq-05",
+        "ruin-mcq-22",
+        "ruin-mcq-13"
       ],
       "explanation": "本句的「brought the organisation to ruin」指「令 X 走向毀滅」。",
       "sentenceIndex": 30,
@@ -1526,12 +1404,10 @@ export default {
         "brought the organisation to ruin"
       ],
       "optionReasons": {
-        "ruin-mcq-14": "本句指「令 X 走向毀滅」。",
-        "ruin-mcq-13": "「財務崩潰」與本句語境不同。",
-        "ruin-mcq-15": "「毀滅；衰敗」與本句語境不同。",
-        "ruin-mcq-12": "「搞垮企業」與本句語境不同。",
-        "ruin-mcq-16": "「X 的敗亡／毀滅」與本句語境不同。",
-        "ruin-mcq-11": "「令某人破產」與本句語境不同。"
+        "ruin-mcq-14": "本句的「brought the organisation to ruin」指「令 X 走向毀滅」。",
+        "ruin-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-14"
     },
@@ -1543,11 +1419,9 @@ export default {
       "masked": "Poor leadership led to the company's ____.",
       "options": [
         "ruin-mcq-15",
-        "ruin-mcq-14",
-        "ruin-mcq-16",
-        "ruin-mcq-13",
-        "ruin-mcq-17",
-        "ruin-mcq-12"
+        "ruin-mcq-09",
+        "ruin-mcq-11",
+        "ruin-mcq-20"
       ],
       "explanation": "本句的「ruin」指「毀滅；衰敗」。",
       "sentenceIndex": 31,
@@ -1556,12 +1430,10 @@ export default {
         "ruin"
       ],
       "optionReasons": {
-        "ruin-mcq-15": "本句指「毀滅；衰敗」。",
-        "ruin-mcq-14": "「令 X 走向毀滅」與本句語境不同。",
-        "ruin-mcq-16": "「X 的敗亡／毀滅」與本句語境不同。",
-        "ruin-mcq-13": "「財務崩潰」與本句語境不同。",
-        "ruin-mcq-17": "「把某人害慘」與本句語境不同。",
-        "ruin-mcq-12": "「搞垮企業」與本句語境不同。"
+        "ruin-mcq-15": "本句的「ruin」指「毀滅；衰敗」。",
+        "ruin-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-15"
     },
@@ -1573,11 +1445,9 @@ export default {
       "masked": "Greed eventually brought about his ____.",
       "options": [
         "ruin-mcq-15",
-        "ruin-mcq-14",
-        "ruin-mcq-16",
+        "ruin-mcq-09",
         "ruin-mcq-13",
-        "ruin-mcq-17",
-        "ruin-mcq-12"
+        "ruin-mcq-22"
       ],
       "explanation": "本句的「ruin」指「毀滅；衰敗」。",
       "sentenceIndex": 32,
@@ -1586,12 +1456,10 @@ export default {
         "ruin"
       ],
       "optionReasons": {
-        "ruin-mcq-15": "本句指「毀滅；衰敗」。",
-        "ruin-mcq-14": "「令 X 走向毀滅」與本句語境不同。",
-        "ruin-mcq-16": "「X 的敗亡／毀滅」與本句語境不同。",
-        "ruin-mcq-13": "「財務崩潰」與本句語境不同。",
-        "ruin-mcq-17": "「把某人害慘」與本句語境不同。",
-        "ruin-mcq-12": "「搞垮企業」與本句語境不同。"
+        "ruin-mcq-15": "本句的「ruin」指「毀滅；衰敗」。",
+        "ruin-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-15"
     },
@@ -1603,11 +1471,9 @@ export default {
       "masked": "Mismanagement was the ____.",
       "options": [
         "ruin-mcq-16",
-        "ruin-mcq-15",
+        "ruin-mcq-22",
         "ruin-mcq-17",
-        "ruin-mcq-14",
-        "ruin-mcq-18",
-        "ruin-mcq-13"
+        "ruin-mcq-05"
       ],
       "explanation": "本句的「ruin of the company」指「X 的敗亡／毀滅」。",
       "sentenceIndex": 33,
@@ -1616,12 +1482,10 @@ export default {
         "ruin of the company"
       ],
       "optionReasons": {
-        "ruin-mcq-16": "本句指「X 的敗亡／毀滅」。",
-        "ruin-mcq-15": "「毀滅；衰敗」與本句語境不同。",
-        "ruin-mcq-17": "「把某人害慘」與本句語境不同。",
-        "ruin-mcq-14": "「令 X 走向毀滅」與本句語境不同。",
-        "ruin-mcq-18": "「逐漸破敗」與本句語境不同。",
-        "ruin-mcq-13": "「財務崩潰」與本句語境不同。"
+        "ruin-mcq-16": "本句的「ruin of the company」指「X 的敗亡／毀滅」。",
+        "ruin-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-16"
     },
@@ -1633,11 +1497,9 @@ export default {
       "masked": "Years of neglect led to the ____.",
       "options": [
         "ruin-mcq-16",
-        "ruin-mcq-15",
         "ruin-mcq-17",
-        "ruin-mcq-14",
-        "ruin-mcq-18",
-        "ruin-mcq-13"
+        "ruin-mcq-07",
+        "ruin-mcq-12"
       ],
       "explanation": "本句的「ruin of the building」指「X 的敗亡／毀滅」。",
       "sentenceIndex": 34,
@@ -1646,12 +1508,10 @@ export default {
         "ruin of the building"
       ],
       "optionReasons": {
-        "ruin-mcq-16": "本句指「X 的敗亡／毀滅」。",
-        "ruin-mcq-15": "「毀滅；衰敗」與本句語境不同。",
-        "ruin-mcq-17": "「把某人害慘」與本句語境不同。",
-        "ruin-mcq-14": "「令 X 走向毀滅」與本句語境不同。",
-        "ruin-mcq-18": "「逐漸破敗」與本句語境不同。",
-        "ruin-mcq-13": "「財務崩潰」與本句語境不同。"
+        "ruin-mcq-16": "本句的「ruin of the building」指「X 的敗亡／毀滅」。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-16"
     },
@@ -1663,11 +1523,9 @@ export default {
       "masked": "His gambling habits were nearly ____.",
       "options": [
         "ruin-mcq-17",
-        "ruin-mcq-16",
-        "ruin-mcq-18",
-        "ruin-mcq-15",
-        "ruin-mcq-19",
-        "ruin-mcq-14"
+        "ruin-mcq-20",
+        "ruin-mcq-12",
+        "ruin-mcq-06"
       ],
       "explanation": "本句的「the ruin of him」指「把某人害慘」。",
       "sentenceIndex": 35,
@@ -1676,12 +1534,10 @@ export default {
         "the ruin of him"
       ],
       "optionReasons": {
-        "ruin-mcq-17": "本句指「把某人害慘」。",
-        "ruin-mcq-16": "「X 的敗亡／毀滅」與本句語境不同。",
-        "ruin-mcq-18": "「逐漸破敗」與本句語境不同。",
-        "ruin-mcq-15": "「毀滅；衰敗」與本句語境不同。",
-        "ruin-mcq-19": "「陷入破敗」與本句語境不同。",
-        "ruin-mcq-14": "「令 X 走向毀滅」與本句語境不同。"
+        "ruin-mcq-17": "本句的「the ruin of him」指「把某人害慘」。",
+        "ruin-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-17"
     },
@@ -1693,11 +1549,9 @@ export default {
       "masked": "This constant overspending will ____.",
       "options": [
         "ruin-mcq-17",
-        "ruin-mcq-16",
-        "ruin-mcq-18",
-        "ruin-mcq-15",
         "ruin-mcq-19",
-        "ruin-mcq-14"
+        "ruin-mcq-15",
+        "ruin-mcq-21"
       ],
       "explanation": "本句的「be the ruin of you」指「把某人害慘」。",
       "sentenceIndex": 36,
@@ -1706,12 +1560,10 @@ export default {
         "be the ruin of you"
       ],
       "optionReasons": {
-        "ruin-mcq-17": "本句指「把某人害慘」。",
-        "ruin-mcq-16": "「X 的敗亡／毀滅」與本句語境不同。",
-        "ruin-mcq-18": "「逐漸破敗」與本句語境不同。",
-        "ruin-mcq-15": "「毀滅；衰敗」與本句語境不同。",
-        "ruin-mcq-19": "「陷入破敗」與本句語境不同。",
-        "ruin-mcq-14": "「令 X 走向毀滅」與本句語境不同。"
+        "ruin-mcq-17": "本句的「be the ruin of you」指「把某人害慘」。",
+        "ruin-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-17"
     },
@@ -1723,11 +1575,9 @@ export default {
       "masked": "The old house was allowed to ____.",
       "options": [
         "ruin-mcq-18",
-        "ruin-mcq-17",
-        "ruin-mcq-19",
-        "ruin-mcq-16",
-        "ruin-mcq-20",
-        "ruin-mcq-15"
+        "ruin-mcq-25",
+        "ruin-mcq-21",
+        "ruin-pdf-001"
       ],
       "explanation": "本句的「go to ruin」指「逐漸破敗」。",
       "sentenceIndex": 37,
@@ -1736,12 +1586,10 @@ export default {
         "go to ruin"
       ],
       "optionReasons": {
-        "ruin-mcq-18": "本句指「逐漸破敗」。",
-        "ruin-mcq-17": "「把某人害慘」與本句語境不同。",
-        "ruin-mcq-19": "「陷入破敗」與本句語境不同。",
-        "ruin-mcq-16": "「X 的敗亡／毀滅」與本句語境不同。",
-        "ruin-mcq-20": "「成為廢墟」與本句語境不同。",
-        "ruin-mcq-15": "「毀滅；衰敗」與本句語境不同。"
+        "ruin-mcq-18": "本句的「go to ruin」指「逐漸破敗」。",
+        "ruin-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ruin-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-18"
     },
@@ -1753,11 +1601,9 @@ export default {
       "masked": "Without maintenance, the property will ____.",
       "options": [
         "ruin-mcq-18",
-        "ruin-mcq-17",
-        "ruin-mcq-19",
-        "ruin-mcq-16",
-        "ruin-mcq-20",
-        "ruin-mcq-15"
+        "ruin-mcq-03",
+        "ruin-mcq-09",
+        "ruin-mcq-13"
       ],
       "explanation": "本句的「go to ruin」指「逐漸破敗」。",
       "sentenceIndex": 38,
@@ -1766,12 +1612,10 @@ export default {
         "go to ruin"
       ],
       "optionReasons": {
-        "ruin-mcq-18": "本句指「逐漸破敗」。",
-        "ruin-mcq-17": "「把某人害慘」與本句語境不同。",
-        "ruin-mcq-19": "「陷入破敗」與本句語境不同。",
-        "ruin-mcq-16": "「X 的敗亡／毀滅」與本句語境不同。",
-        "ruin-mcq-20": "「成為廢墟」與本句語境不同。",
-        "ruin-mcq-15": "「毀滅；衰敗」與本句語境不同。"
+        "ruin-mcq-18": "本句的「go to ruin」指「逐漸破敗」。",
+        "ruin-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-18"
     },
@@ -1783,11 +1627,9 @@ export default {
       "masked": "The castle ____ after it was abandoned.",
       "options": [
         "ruin-mcq-19",
-        "ruin-mcq-18",
-        "ruin-mcq-20",
-        "ruin-mcq-17",
-        "ruin-mcq-21",
-        "ruin-mcq-16"
+        "ruin-mcq-08",
+        "ruin-mcq-22",
+        "ruin-mcq-20"
       ],
       "explanation": "本句的「fell into ruin」指「陷入破敗」。",
       "sentenceIndex": 39,
@@ -1796,12 +1638,10 @@ export default {
         "fell into ruin"
       ],
       "optionReasons": {
-        "ruin-mcq-19": "本句指「陷入破敗」。",
-        "ruin-mcq-18": "「逐漸破敗」與本句語境不同。",
-        "ruin-mcq-20": "「成為廢墟」與本句語境不同。",
-        "ruin-mcq-17": "「把某人害慘」與本句語境不同。",
-        "ruin-mcq-21": "「廢墟；遺跡」與本句語境不同。",
-        "ruin-mcq-16": "「X 的敗亡／毀滅」與本句語境不同。"
+        "ruin-mcq-19": "本句的「fell into ruin」指「陷入破敗」。",
+        "ruin-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-19"
     },
@@ -1813,11 +1653,9 @@ export default {
       "masked": "Several historic buildings have ____.",
       "options": [
         "ruin-mcq-19",
-        "ruin-mcq-18",
-        "ruin-mcq-20",
-        "ruin-mcq-17",
-        "ruin-mcq-21",
-        "ruin-mcq-16"
+        "ruin-mcq-06",
+        "ruin-mcq-25",
+        "ruin-pdf-001"
       ],
       "explanation": "本句的「fallen into ruin」指「陷入破敗」。",
       "sentenceIndex": 40,
@@ -1826,12 +1664,10 @@ export default {
         "fallen into ruin"
       ],
       "optionReasons": {
-        "ruin-mcq-19": "本句指「陷入破敗」。",
-        "ruin-mcq-18": "「逐漸破敗」與本句語境不同。",
-        "ruin-mcq-20": "「成為廢墟」與本句語境不同。",
-        "ruin-mcq-17": "「把某人害慘」與本句語境不同。",
-        "ruin-mcq-21": "「廢墟；遺跡」與本句語境不同。",
-        "ruin-mcq-16": "「X 的敗亡／毀滅」與本句語境不同。"
+        "ruin-mcq-19": "本句的「fallen into ruin」指「陷入破敗」。",
+        "ruin-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "ruin-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-19"
     },
@@ -1843,11 +1679,9 @@ export default {
       "masked": "The building was left ____ after the fire.",
       "options": [
         "ruin-mcq-20",
-        "ruin-mcq-19",
-        "ruin-mcq-21",
-        "ruin-mcq-18",
-        "ruin-mcq-22",
-        "ruin-mcq-17"
+        "ruin-mcq-05",
+        "ruin-mcq-11",
+        "ruin-mcq-24"
       ],
       "explanation": "本句的「in ruins」指「成為廢墟」。",
       "sentenceIndex": 41,
@@ -1856,12 +1690,10 @@ export default {
         "in ruins"
       ],
       "optionReasons": {
-        "ruin-mcq-20": "本句指「成為廢墟」。",
-        "ruin-mcq-19": "「陷入破敗」與本句語境不同。",
-        "ruin-mcq-21": "「廢墟；遺跡」與本句語境不同。",
-        "ruin-mcq-18": "「逐漸破敗」與本句語境不同。",
-        "ruin-mcq-22": "「古代遺跡」與本句語境不同。",
-        "ruin-mcq-17": "「把某人害慘」與本句語境不同。"
+        "ruin-mcq-20": "本句的「in ruins」指「成為廢墟」。",
+        "ruin-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-20"
     },
@@ -1873,11 +1705,9 @@ export default {
       "masked": "Much of the old town lay ____.",
       "options": [
         "ruin-mcq-20",
-        "ruin-mcq-19",
-        "ruin-mcq-21",
-        "ruin-mcq-18",
-        "ruin-mcq-22",
-        "ruin-mcq-17"
+        "ruin-mcq-13",
+        "ruin-mcq-26",
+        "ruin-mcq-22"
       ],
       "explanation": "本句的「in ruins」指「成為廢墟」。",
       "sentenceIndex": 42,
@@ -1886,12 +1716,10 @@ export default {
         "in ruins"
       ],
       "optionReasons": {
-        "ruin-mcq-20": "本句指「成為廢墟」。",
-        "ruin-mcq-19": "「陷入破敗」與本句語境不同。",
-        "ruin-mcq-21": "「廢墟；遺跡」與本句語境不同。",
-        "ruin-mcq-18": "「逐漸破敗」與本句語境不同。",
-        "ruin-mcq-22": "「古代遺跡」與本句語境不同。",
-        "ruin-mcq-17": "「把某人害慘」與本句語境不同。"
+        "ruin-mcq-20": "本句的「in ruins」指「成為廢墟」。",
+        "ruin-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-20"
     },
@@ -1903,11 +1731,9 @@ export default {
       "masked": "We visited the ____.",
       "options": [
         "ruin-mcq-21",
-        "ruin-mcq-20",
-        "ruin-mcq-22",
-        "ruin-mcq-19",
-        "ruin-mcq-23",
-        "ruin-mcq-18"
+        "ruin-mcq-26",
+        "ruin-mcq-25",
+        "ruin-mcq-17"
       ],
       "explanation": "本句的「ruins of an ancient temple」指「廢墟；遺跡」。",
       "sentenceIndex": 43,
@@ -1916,12 +1742,10 @@ export default {
         "ruins of an ancient temple"
       ],
       "optionReasons": {
-        "ruin-mcq-21": "本句指「廢墟；遺跡」。",
-        "ruin-mcq-20": "「成為廢墟」與本句語境不同。",
-        "ruin-mcq-22": "「古代遺跡」與本句語境不同。",
-        "ruin-mcq-19": "「陷入破敗」與本句語境不同。",
-        "ruin-mcq-23": "「破敗建築」與本句語境不同。",
-        "ruin-mcq-18": "「逐漸破敗」與本句語境不同。"
+        "ruin-mcq-21": "本句的「ruins of an ancient temple」指「廢墟；遺跡」。",
+        "ruin-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-21"
     },
@@ -1933,11 +1757,9 @@ export default {
       "masked": "The city is famous for its Roman ____.",
       "options": [
         "ruin-mcq-21",
-        "ruin-mcq-20",
-        "ruin-mcq-22",
-        "ruin-mcq-19",
-        "ruin-mcq-23",
-        "ruin-mcq-18"
+        "ruin-mcq-09",
+        "ruin-mcq-10",
+        "ruin-mcq-11"
       ],
       "explanation": "本句的「ruins」指「廢墟；遺跡」。",
       "sentenceIndex": 44,
@@ -1946,12 +1768,10 @@ export default {
         "ruins"
       ],
       "optionReasons": {
-        "ruin-mcq-21": "本句指「廢墟；遺跡」。",
-        "ruin-mcq-20": "「成為廢墟」與本句語境不同。",
-        "ruin-mcq-22": "「古代遺跡」與本句語境不同。",
-        "ruin-mcq-19": "「陷入破敗」與本句語境不同。",
-        "ruin-mcq-23": "「破敗建築」與本句語境不同。",
-        "ruin-mcq-18": "「逐漸破敗」與本句語境不同。"
+        "ruin-mcq-21": "本句的「ruins」指「廢墟；遺跡」。",
+        "ruin-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-21"
     },
@@ -1963,11 +1783,9 @@ export default {
       "masked": "Archaeologists explored the ____.",
       "options": [
         "ruin-mcq-22",
-        "ruin-mcq-21",
         "ruin-mcq-23",
-        "ruin-mcq-20",
-        "ruin-mcq-24",
-        "ruin-mcq-19"
+        "ruin-mcq-26",
+        "ruin-mcq-04"
       ],
       "explanation": "本句的「ancient ruins」指「古代遺跡」。",
       "sentenceIndex": 45,
@@ -1976,12 +1794,10 @@ export default {
         "ancient ruins"
       ],
       "optionReasons": {
-        "ruin-mcq-22": "本句指「古代遺跡」。",
-        "ruin-mcq-21": "「廢墟；遺跡」與本句語境不同。",
-        "ruin-mcq-23": "「破敗建築」與本句語境不同。",
-        "ruin-mcq-20": "「成為廢墟」與本句語境不同。",
-        "ruin-mcq-24": "「毀滅性的」與本句語境不同。",
-        "ruin-mcq-19": "「陷入破敗」與本句語境不同。"
+        "ruin-mcq-22": "本句的「ancient ruins」指「古代遺跡」。",
+        "ruin-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-22"
     },
@@ -1993,11 +1809,9 @@ export default {
       "masked": "Tourists come to see the ____.",
       "options": [
         "ruin-mcq-22",
-        "ruin-mcq-21",
-        "ruin-mcq-23",
-        "ruin-mcq-20",
-        "ruin-mcq-24",
-        "ruin-mcq-19"
+        "ruin-mcq-10",
+        "ruin-mcq-05",
+        "ruin-mcq-20"
       ],
       "explanation": "本句的「historic ruins」指「古代遺跡」。",
       "sentenceIndex": 46,
@@ -2006,12 +1820,10 @@ export default {
         "historic ruins"
       ],
       "optionReasons": {
-        "ruin-mcq-22": "本句指「古代遺跡」。",
-        "ruin-mcq-21": "「廢墟；遺跡」與本句語境不同。",
-        "ruin-mcq-23": "「破敗建築」與本句語境不同。",
-        "ruin-mcq-20": "「成為廢墟」與本句語境不同。",
-        "ruin-mcq-24": "「毀滅性的」與本句語境不同。",
-        "ruin-mcq-19": "「陷入破敗」與本句語境不同。"
+        "ruin-mcq-22": "本句的「historic ruins」指「古代遺跡」。",
+        "ruin-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-22"
     },
@@ -2023,11 +1835,9 @@ export default {
       "masked": "A ____ stands on the hill.",
       "options": [
         "ruin-mcq-23",
-        "ruin-mcq-22",
-        "ruin-mcq-24",
-        "ruin-mcq-21",
-        "ruin-mcq-25",
-        "ruin-mcq-20"
+        "ruin-mcq-09",
+        "ruin-mcq-06",
+        "ruin-mcq-22"
       ],
       "explanation": "本句的「ruined castle」指「破敗建築」。",
       "sentenceIndex": 47,
@@ -2036,12 +1846,10 @@ export default {
         "ruined castle"
       ],
       "optionReasons": {
-        "ruin-mcq-23": "本句指「破敗建築」。",
-        "ruin-mcq-22": "「古代遺跡」與本句語境不同。",
-        "ruin-mcq-24": "「毀滅性的」與本句語境不同。",
-        "ruin-mcq-21": "「廢墟；遺跡」與本句語境不同。",
-        "ruin-mcq-25": "「昂貴得難以承受」與本句語境不同。",
-        "ruin-mcq-20": "「成為廢墟」與本句語境不同。"
+        "ruin-mcq-23": "本句的「ruined castle」指「破敗建築」。",
+        "ruin-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-23"
     },
@@ -2053,11 +1861,9 @@ export default {
       "masked": "They restored a ____.",
       "options": [
         "ruin-mcq-23",
-        "ruin-mcq-22",
-        "ruin-mcq-24",
-        "ruin-mcq-21",
-        "ruin-mcq-25",
-        "ruin-mcq-20"
+        "ruin-mcq-12",
+        "ruin-mcq-13",
+        "ruin-mcq-22"
       ],
       "explanation": "本句的「ruined farmhouse」指「破敗建築」。",
       "sentenceIndex": 48,
@@ -2066,12 +1872,10 @@ export default {
         "ruined farmhouse"
       ],
       "optionReasons": {
-        "ruin-mcq-23": "本句指「破敗建築」。",
-        "ruin-mcq-22": "「古代遺跡」與本句語境不同。",
-        "ruin-mcq-24": "「毀滅性的」與本句語境不同。",
-        "ruin-mcq-21": "「廢墟；遺跡」與本句語境不同。",
-        "ruin-mcq-25": "「昂貴得難以承受」與本句語境不同。",
-        "ruin-mcq-20": "「成為廢墟」與本句語境不同。"
+        "ruin-mcq-23": "本句的「ruined farmhouse」指「破敗建築」。",
+        "ruin-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-23"
     },
@@ -2083,10 +1887,8 @@ export default {
       "masked": "The policy had ____ for the small business.",
       "options": [
         "ruin-mcq-24",
-        "ruin-mcq-23",
-        "ruin-mcq-25",
-        "ruin-mcq-22",
-        "ruin-mcq-26",
+        "ruin-mcq-17",
+        "ruin-mcq-18",
         "ruin-mcq-21"
       ],
       "explanation": "本句的「ruinous consequences」指「毀滅性的」。",
@@ -2096,12 +1898,10 @@ export default {
         "ruinous consequences"
       ],
       "optionReasons": {
-        "ruin-mcq-24": "本句指「毀滅性的」。",
-        "ruin-mcq-23": "「破敗建築」與本句語境不同。",
-        "ruin-mcq-25": "「昂貴得難以承受」與本句語境不同。",
-        "ruin-mcq-22": "「古代遺跡」與本句語境不同。",
-        "ruin-mcq-26": "「毀滅；敗壞」與本句語境不同。",
-        "ruin-mcq-21": "「廢墟；遺跡」與本句語境不同。"
+        "ruin-mcq-24": "本句的「ruinous consequences」指「毀滅性的」。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-24"
     },
@@ -2113,11 +1913,9 @@ export default {
       "masked": "The conflict proved ____ for the local economy.",
       "options": [
         "ruin-mcq-24",
-        "ruin-mcq-23",
+        "ruin-mcq-05",
         "ruin-mcq-25",
-        "ruin-mcq-22",
-        "ruin-mcq-26",
-        "ruin-mcq-21"
+        "ruin-mcq-13"
       ],
       "explanation": "本句的「ruinous」指「毀滅性的」。",
       "sentenceIndex": 50,
@@ -2126,12 +1924,10 @@ export default {
         "ruinous"
       ],
       "optionReasons": {
-        "ruin-mcq-24": "本句指「毀滅性的」。",
-        "ruin-mcq-23": "「破敗建築」與本句語境不同。",
-        "ruin-mcq-25": "「昂貴得難以承受」與本句語境不同。",
-        "ruin-mcq-22": "「古代遺跡」與本句語境不同。",
-        "ruin-mcq-26": "「毀滅；敗壞」與本句語境不同。",
-        "ruin-mcq-21": "「廢墟；遺跡」與本句語境不同。"
+        "ruin-mcq-24": "本句的「ruinous」指「毀滅性的」。",
+        "ruin-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-24"
     },
@@ -2143,11 +1939,9 @@ export default {
       "masked": "The legal dispute involved ____.",
       "options": [
         "ruin-mcq-25",
-        "ruin-mcq-24",
         "ruin-mcq-26",
-        "ruin-mcq-23",
-        "ruin-mcq-22",
-        "ruin-mcq-21"
+        "ruin-mcq-11",
+        "ruin-mcq-12"
       ],
       "explanation": "本句的「ruinous costs」指「昂貴得難以承受」。",
       "sentenceIndex": 51,
@@ -2156,12 +1950,10 @@ export default {
         "ruinous costs"
       ],
       "optionReasons": {
-        "ruin-mcq-25": "本句指「昂貴得難以承受」。",
-        "ruin-mcq-24": "「毀滅性的」與本句語境不同。",
-        "ruin-mcq-26": "「毀滅；敗壞」與本句語境不同。",
-        "ruin-mcq-23": "「破敗建築」與本句語境不同。",
-        "ruin-mcq-22": "「古代遺跡」與本句語境不同。",
-        "ruin-mcq-21": "「廢墟；遺跡」與本句語境不同。"
+        "ruin-mcq-25": "本句的「ruinous costs」指「昂貴得難以承受」。",
+        "ruin-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-25"
     },
@@ -2173,11 +1965,9 @@ export default {
       "masked": "Repairs would have been ____.",
       "options": [
         "ruin-mcq-25",
-        "ruin-mcq-24",
-        "ruin-mcq-26",
-        "ruin-mcq-23",
-        "ruin-mcq-22",
-        "ruin-mcq-21"
+        "ruin-mcq-06",
+        "ruin-pdf-001",
+        "ruin-mcq-18"
       ],
       "explanation": "本句的「ruinously expensive」指「昂貴得難以承受」。",
       "sentenceIndex": 52,
@@ -2186,12 +1976,10 @@ export default {
         "ruinously expensive"
       ],
       "optionReasons": {
-        "ruin-mcq-25": "本句指「昂貴得難以承受」。",
-        "ruin-mcq-24": "「毀滅性的」與本句語境不同。",
-        "ruin-mcq-26": "「毀滅；敗壞」與本句語境不同。",
-        "ruin-mcq-23": "「破敗建築」與本句語境不同。",
-        "ruin-mcq-22": "「古代遺跡」與本句語境不同。",
-        "ruin-mcq-21": "「廢墟；遺跡」與本句語境不同。"
+        "ruin-mcq-25": "本句的「ruinously expensive」指「昂貴得難以承受」。",
+        "ruin-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ruin-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-25"
     },
@@ -2203,11 +1991,9 @@ export default {
       "masked": "Years of reckless spending led to his ____.",
       "options": [
         "ruin-mcq-26",
-        "ruin-mcq-25",
-        "ruin-mcq-24",
-        "ruin-mcq-23",
-        "ruin-mcq-22",
-        "ruin-mcq-21"
+        "ruin-mcq-20",
+        "ruin-mcq-11",
+        "ruin-mcq-12"
       ],
       "explanation": "本句的「financial ruination」指「毀滅；敗壞」。",
       "sentenceIndex": 53,
@@ -2216,12 +2002,10 @@ export default {
         "financial ruination"
       ],
       "optionReasons": {
-        "ruin-mcq-26": "本句指「毀滅；敗壞」。",
-        "ruin-mcq-25": "「昂貴得難以承受」與本句語境不同。",
-        "ruin-mcq-24": "「毀滅性的」與本句語境不同。",
-        "ruin-mcq-23": "「破敗建築」與本句語境不同。",
-        "ruin-mcq-22": "「古代遺跡」與本句語境不同。",
-        "ruin-mcq-21": "「廢墟；遺跡」與本句語境不同。"
+        "ruin-mcq-26": "本句的「financial ruination」指「毀滅；敗壞」。",
+        "ruin-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-26"
     },
@@ -2233,11 +2017,9 @@ export default {
       "masked": "The war caused the ____.",
       "options": [
         "ruin-mcq-26",
-        "ruin-mcq-25",
-        "ruin-mcq-24",
-        "ruin-mcq-23",
         "ruin-mcq-22",
-        "ruin-mcq-21"
+        "ruin-mcq-17",
+        "ruin-mcq-13"
       ],
       "explanation": "本句的「ruination of many towns」指「毀滅；敗壞」。",
       "sentenceIndex": 54,
@@ -2246,12 +2028,10 @@ export default {
         "ruination of many towns"
       ],
       "optionReasons": {
-        "ruin-mcq-26": "本句指「毀滅；敗壞」。",
-        "ruin-mcq-25": "「昂貴得難以承受」與本句語境不同。",
-        "ruin-mcq-24": "「毀滅性的」與本句語境不同。",
-        "ruin-mcq-23": "「破敗建築」與本句語境不同。",
-        "ruin-mcq-22": "「古代遺跡」與本句語境不同。",
-        "ruin-mcq-21": "「廢墟；遺跡」與本句語境不同。"
+        "ruin-mcq-26": "本句的「ruination of many towns」指「毀滅；敗壞」。",
+        "ruin-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ruin-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ruin-mcq-26"
     }
@@ -2263,5 +2043,7 @@ export default {
     "sha256": "a907899b0863c290e01206f3b0d851b4acd3bb5cdc8d37bbac160e37f108c6e9",
     "pages": 22
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

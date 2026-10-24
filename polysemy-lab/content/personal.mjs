@@ -641,11 +641,9 @@ export default {
       "masked": "This is my ____.",
       "options": [
         "personal-mcq-01",
-        "personal-mcq-02",
-        "personal-mcq-03",
-        "personal-mcq-04",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-26",
+        "personal-mcq-13",
+        "personal-mcq-04"
       ],
       "explanation": "本句的「personal opinion」指「個人的」。",
       "sentenceIndex": 0,
@@ -654,12 +652,10 @@ export default {
         "personal opinion"
       ],
       "optionReasons": {
-        "personal-mcq-01": "本句指「個人的」。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-01": "本句的「personal opinion」指「個人的」。",
+        "personal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-01"
     },
@@ -671,11 +667,9 @@ export default {
       "masked": "Everyone has different ____.",
       "options": [
         "personal-mcq-01",
-        "personal-mcq-02",
-        "personal-mcq-03",
-        "personal-mcq-04",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-17",
+        "personal-mcq-20",
+        "personal-mcq-15"
       ],
       "explanation": "本句的「personal preferences」指「個人的」。",
       "sentenceIndex": 1,
@@ -684,12 +678,10 @@ export default {
         "personal preferences"
       ],
       "optionReasons": {
-        "personal-mcq-01": "本句指「個人的」。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-01": "本句的「personal preferences」指「個人的」。",
+        "personal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-01"
     },
@@ -701,11 +693,9 @@ export default {
       "masked": "She made the decision for ____.",
       "options": [
         "personal-mcq-01",
+        "personal-mcq-15",
         "personal-mcq-02",
-        "personal-mcq-03",
-        "personal-mcq-04",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-21"
       ],
       "explanation": "本句的「personal reasons」指「個人的」。",
       "sentenceIndex": 2,
@@ -714,12 +704,10 @@ export default {
         "personal reasons"
       ],
       "optionReasons": {
-        "personal-mcq-01": "本句指「個人的」。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-01": "本句的「personal reasons」指「個人的」。",
+        "personal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-01"
     },
@@ -731,11 +719,9 @@ export default {
       "masked": "That's ____.",
       "options": [
         "personal-mcq-01",
-        "personal-mcq-02",
-        "personal-mcq-03",
-        "personal-mcq-04",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-26",
+        "personal-mcq-18",
+        "personal-mcq-25"
       ],
       "explanation": "本句的「personal information」指「個人的」。",
       "sentenceIndex": 3,
@@ -744,12 +730,10 @@ export default {
         "personal information"
       ],
       "optionReasons": {
-        "personal-mcq-01": "本句指「個人的」。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-01": "本句的「personal information」指「個人的」。",
+        "personal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-01"
     },
@@ -761,11 +745,9 @@ export default {
       "masked": "He doesn't like discussing his ____ at work.",
       "options": [
         "personal-mcq-01",
-        "personal-mcq-02",
-        "personal-mcq-03",
-        "personal-mcq-04",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-18",
+        "personal-mcq-08",
+        "personal-mcq-16"
       ],
       "explanation": "本句的「personal life」指「個人的」。",
       "sentenceIndex": 4,
@@ -774,12 +756,10 @@ export default {
         "personal life"
       ],
       "optionReasons": {
-        "personal-mcq-01": "本句指「個人的」。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-01": "本句的「personal life」指「個人的」。",
+        "personal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-01"
     },
@@ -791,11 +771,9 @@ export default {
       "masked": "Never share your ____ with strangers online.",
       "options": [
         "personal-mcq-02",
-        "personal-mcq-01",
+        "personal-mcq-11",
         "personal-mcq-03",
-        "personal-mcq-04",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-17"
       ],
       "explanation": "本句的「personal information」指「個人資料」。",
       "sentenceIndex": 5,
@@ -804,12 +782,10 @@ export default {
         "personal information"
       ],
       "optionReasons": {
-        "personal-mcq-02": "本句指「個人資料」。",
-        "personal-mcq-01": "「個人的」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-02": "本句的「personal information」指「個人資料」。",
+        "personal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-02"
     },
@@ -821,11 +797,9 @@ export default {
       "masked": "Please enter your ____ below.",
       "options": [
         "personal-mcq-02",
-        "personal-mcq-01",
-        "personal-mcq-03",
         "personal-mcq-04",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-03",
+        "personal-mcq-10"
       ],
       "explanation": "本句的「personal details」指「個人資料」。",
       "sentenceIndex": 6,
@@ -834,12 +808,10 @@ export default {
         "personal details"
       ],
       "optionReasons": {
-        "personal-mcq-02": "本句指「個人資料」。",
-        "personal-mcq-01": "「個人的」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-02": "本句的「personal details」指「個人資料」。",
+        "personal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-02"
     },
@@ -851,11 +823,9 @@ export default {
       "masked": "Please take all your ____ with you.",
       "options": [
         "personal-mcq-03",
-        "personal-mcq-02",
-        "personal-mcq-04",
-        "personal-mcq-01",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-08",
+        "personal-mcq-16",
+        "personal-mcq-22"
       ],
       "explanation": "本句的「personal belongings」指「私人物品」。",
       "sentenceIndex": 7,
@@ -864,12 +834,10 @@ export default {
         "personal belongings"
       ],
       "optionReasons": {
-        "personal-mcq-03": "本句指「私人物品」。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-01": "「個人的」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-03": "本句的「personal belongings」指「私人物品」。",
+        "personal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-03"
     },
@@ -881,11 +849,9 @@ export default {
       "masked": "Her ____ were kept in a locker.",
       "options": [
         "personal-mcq-03",
-        "personal-mcq-02",
-        "personal-mcq-04",
-        "personal-mcq-01",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-12",
+        "personal-mcq-11",
+        "personal-mcq-02"
       ],
       "explanation": "本句的「personal belongings」指「私人物品」。",
       "sentenceIndex": 8,
@@ -894,12 +860,10 @@ export default {
         "personal belongings"
       ],
       "optionReasons": {
-        "personal-mcq-03": "本句指「私人物品」。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-01": "「個人的」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-03": "本句的「personal belongings」指「私人物品」。",
+        "personal-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-03"
     },
@@ -911,11 +875,9 @@ export default {
       "masked": "Some people need more ____ than others.",
       "options": [
         "personal-mcq-04",
-        "personal-mcq-03",
-        "personal-mcq-05",
-        "personal-mcq-02",
-        "personal-mcq-06",
-        "personal-mcq-01"
+        "personal-mcq-19",
+        "personal-mcq-13",
+        "personal-mcq-18"
       ],
       "explanation": "本句的「personal space」指「個人空間」。",
       "sentenceIndex": 9,
@@ -924,12 +886,10 @@ export default {
         "personal space"
       ],
       "optionReasons": {
-        "personal-mcq-04": "本句指「個人空間」。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。",
-        "personal-mcq-01": "「個人的」與本句語境不同。"
+        "personal-mcq-04": "本句的「personal space」指「個人空間」。",
+        "personal-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-04"
     },
@@ -941,11 +901,9 @@ export default {
       "masked": "He stood too close and entered my ____.",
       "options": [
         "personal-mcq-04",
-        "personal-mcq-03",
-        "personal-mcq-05",
-        "personal-mcq-02",
-        "personal-mcq-06",
-        "personal-mcq-01"
+        "personal-mcq-01",
+        "personal-mcq-21",
+        "personal-mcq-22"
       ],
       "explanation": "本句的「personal space」指「個人空間」。",
       "sentenceIndex": 10,
@@ -954,12 +912,10 @@ export default {
         "personal space"
       ],
       "optionReasons": {
-        "personal-mcq-04": "本句指「個人空間」。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。",
-        "personal-mcq-01": "「個人的」與本句語境不同。"
+        "personal-mcq-04": "本句的「personal space」指「個人空間」。",
+        "personal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-04"
     },
@@ -971,11 +927,9 @@ export default {
       "masked": "She keeps her ____ private.",
       "options": [
         "personal-mcq-05",
-        "personal-mcq-04",
-        "personal-mcq-06",
-        "personal-mcq-03",
-        "personal-mcq-07",
-        "personal-mcq-02"
+        "personal-mcq-26",
+        "personal-mcq-17",
+        "personal-mcq-15"
       ],
       "explanation": "本句的「personal life」指「私生活」。",
       "sentenceIndex": 11,
@@ -984,12 +938,10 @@ export default {
         "personal life"
       ],
       "optionReasons": {
-        "personal-mcq-05": "本句指「私生活」。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-07": "「私人／貼心訊息」與本句語境不同。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。"
+        "personal-mcq-05": "本句的「personal life」指「私生活」。",
+        "personal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-05"
     },
@@ -1001,11 +953,9 @@ export default {
       "masked": "His work began to affect his ____.",
       "options": [
         "personal-mcq-05",
-        "personal-mcq-04",
-        "personal-mcq-06",
-        "personal-mcq-03",
-        "personal-mcq-07",
-        "personal-mcq-02"
+        "personal-mcq-02",
+        "personal-mcq-25",
+        "personal-mcq-10"
       ],
       "explanation": "本句的「personal life」指「私生活」。",
       "sentenceIndex": 12,
@@ -1014,12 +964,10 @@ export default {
         "personal life"
       ],
       "optionReasons": {
-        "personal-mcq-05": "本句指「私生活」。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-07": "「私人／貼心訊息」與本句語境不同。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。"
+        "personal-mcq-05": "本句的「personal life」指「私生活」。",
+        "personal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-05"
     },
@@ -1031,11 +979,9 @@ export default {
       "masked": "The handmade album felt much more ____ than a shop-bought gift.",
       "options": [
         "personal-mcq-01",
-        "personal-mcq-02",
-        "personal-mcq-03",
-        "personal-mcq-04",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-12",
+        "personal-mcq-17",
+        "personal-mcq-23"
       ],
       "explanation": "本句的「personal」指「個人的」。",
       "sentenceIndex": 13,
@@ -1044,12 +990,10 @@ export default {
         "personal"
       ],
       "optionReasons": {
-        "personal-mcq-01": "本句指「個人的」。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-01": "本句的「personal」指「個人的」。",
+        "personal-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-01"
     },
@@ -1061,11 +1005,9 @@ export default {
       "masked": "She wrote a ____ inside the card.",
       "options": [
         "personal-mcq-01",
-        "personal-mcq-02",
-        "personal-mcq-03",
-        "personal-mcq-04",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-24",
+        "personal-mcq-17",
+        "personal-mcq-05"
       ],
       "explanation": "本句的「personal message」指「個人的」。",
       "sentenceIndex": 14,
@@ -1074,12 +1016,10 @@ export default {
         "personal message"
       ],
       "optionReasons": {
-        "personal-mcq-01": "本句指「個人的」。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-01": "本句的「personal message」指「個人的」。",
+        "personal-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-01"
     },
@@ -1091,11 +1031,9 @@ export default {
       "masked": "He added a ____ to the gift.",
       "options": [
         "personal-mcq-07",
-        "personal-mcq-06",
-        "personal-mcq-08",
-        "personal-mcq-05",
-        "personal-mcq-09",
-        "personal-mcq-04"
+        "personal-mcq-16",
+        "personal-mcq-25",
+        "personal-mcq-01"
       ],
       "explanation": "本句的「personal message」指「私人／貼心訊息」。",
       "sentenceIndex": 15,
@@ -1104,12 +1042,10 @@ export default {
         "personal message"
       ],
       "optionReasons": {
-        "personal-mcq-07": "本句指「私人／貼心訊息」。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。",
-        "personal-mcq-08": "「人情味；個人特色」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-09": "「親身經驗」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。"
+        "personal-mcq-07": "本句的「personal message」指「私人／貼心訊息」。",
+        "personal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-07"
     },
@@ -1121,11 +1057,9 @@ export default {
       "masked": "She sent me a ____.",
       "options": [
         "personal-mcq-07",
-        "personal-mcq-06",
-        "personal-mcq-08",
-        "personal-mcq-05",
-        "personal-mcq-09",
-        "personal-mcq-04"
+        "personal-mcq-17",
+        "personal-mcq-25",
+        "personal-mcq-12"
       ],
       "explanation": "本句的「personal letter」指「私人／貼心訊息」。",
       "sentenceIndex": 16,
@@ -1134,12 +1068,10 @@ export default {
         "personal letter"
       ],
       "optionReasons": {
-        "personal-mcq-07": "本句指「私人／貼心訊息」。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。",
-        "personal-mcq-08": "「人情味；個人特色」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-09": "「親身經驗」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。"
+        "personal-mcq-07": "本句的「personal letter」指「私人／貼心訊息」。",
+        "personal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-07"
     },
@@ -1151,11 +1083,9 @@ export default {
       "masked": "The handwritten note added a ____.",
       "options": [
         "personal-mcq-08",
-        "personal-mcq-07",
+        "personal-mcq-01",
         "personal-mcq-09",
-        "personal-mcq-06",
-        "personal-mcq-10",
-        "personal-mcq-05"
+        "personal-mcq-23"
       ],
       "explanation": "本句的「personal touch」指「人情味；個人特色」。",
       "sentenceIndex": 17,
@@ -1164,12 +1094,10 @@ export default {
         "personal touch"
       ],
       "optionReasons": {
-        "personal-mcq-08": "本句指「人情味；個人特色」。",
-        "personal-mcq-07": "「私人／貼心訊息」與本句語境不同。",
-        "personal-mcq-09": "「親身經驗」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。",
-        "personal-mcq-10": "「個人意見」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。"
+        "personal-mcq-08": "本句的「personal touch」指「人情味；個人特色」。",
+        "personal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-08"
     },
@@ -1182,10 +1110,8 @@ export default {
       "options": [
         "personal-mcq-08",
         "personal-mcq-07",
-        "personal-mcq-09",
-        "personal-mcq-06",
-        "personal-mcq-10",
-        "personal-mcq-05"
+        "personal-mcq-18",
+        "personal-mcq-25"
       ],
       "explanation": "本句的「personal touch」指「人情味；個人特色」。",
       "sentenceIndex": 18,
@@ -1194,12 +1120,10 @@ export default {
         "personal touch"
       ],
       "optionReasons": {
-        "personal-mcq-08": "本句指「人情味；個人特色」。",
-        "personal-mcq-07": "「私人／貼心訊息」與本句語境不同。",
-        "personal-mcq-09": "「親身經驗」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。",
-        "personal-mcq-10": "「個人意見」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。"
+        "personal-mcq-08": "本句的「personal touch」指「人情味；個人特色」。",
+        "personal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-08"
     },
@@ -1211,11 +1135,9 @@ export default {
       "masked": "This is based on my ____.",
       "options": [
         "personal-mcq-01",
-        "personal-mcq-02",
-        "personal-mcq-03",
-        "personal-mcq-04",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-24",
+        "personal-mcq-19",
+        "personal-mcq-15"
       ],
       "explanation": "本句的「personal experience」指「個人的」。",
       "sentenceIndex": 19,
@@ -1224,12 +1146,10 @@ export default {
         "personal experience"
       ],
       "optionReasons": {
-        "personal-mcq-01": "本句指「個人的」。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-01": "本句的「personal experience」指「個人的」。",
+        "personal-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-01"
     },
@@ -1241,11 +1161,9 @@ export default {
       "masked": "She gave me a ____ of what happened.",
       "options": [
         "personal-mcq-01",
-        "personal-mcq-02",
+        "personal-mcq-26",
         "personal-mcq-03",
-        "personal-mcq-04",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-22"
       ],
       "explanation": "本句的「personal account」指「個人的」。",
       "sentenceIndex": 20,
@@ -1254,12 +1172,10 @@ export default {
         "personal account"
       ],
       "optionReasons": {
-        "personal-mcq-01": "本句指「個人的」。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-01": "本句的「personal account」指「個人的」。",
+        "personal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-01"
     },
@@ -1272,10 +1188,8 @@ export default {
       "options": [
         "personal-mcq-09",
         "personal-mcq-08",
-        "personal-mcq-10",
-        "personal-mcq-07",
-        "personal-mcq-11",
-        "personal-mcq-06"
+        "personal-mcq-23",
+        "personal-mcq-02"
       ],
       "explanation": "本句的「personal experience」指「親身經驗」。",
       "sentenceIndex": 21,
@@ -1284,12 +1198,10 @@ export default {
         "personal experience"
       ],
       "optionReasons": {
-        "personal-mcq-09": "本句指「親身經驗」。",
-        "personal-mcq-08": "「人情味；個人特色」與本句語境不同。",
-        "personal-mcq-10": "「個人意見」與本句語境不同。",
-        "personal-mcq-07": "「私人／貼心訊息」與本句語境不同。",
-        "personal-mcq-11": "「個人選擇」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-09": "本句的「personal experience」指「親身經驗」。",
+        "personal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-09"
     },
@@ -1301,11 +1213,9 @@ export default {
       "masked": "Her advice comes from ____.",
       "options": [
         "personal-mcq-09",
-        "personal-mcq-08",
-        "personal-mcq-10",
         "personal-mcq-07",
-        "personal-mcq-11",
-        "personal-mcq-06"
+        "personal-mcq-15",
+        "personal-mcq-17"
       ],
       "explanation": "本句的「personal experience」指「親身經驗」。",
       "sentenceIndex": 22,
@@ -1314,12 +1224,10 @@ export default {
         "personal experience"
       ],
       "optionReasons": {
-        "personal-mcq-09": "本句指「親身經驗」。",
-        "personal-mcq-08": "「人情味；個人特色」與本句語境不同。",
-        "personal-mcq-10": "「個人意見」與本句語境不同。",
-        "personal-mcq-07": "「私人／貼心訊息」與本句語境不同。",
-        "personal-mcq-11": "「個人選擇」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-09": "本句的「personal experience」指「親身經驗」。",
+        "personal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-09"
     },
@@ -1331,11 +1239,9 @@ export default {
       "masked": "In my ____, the simpler design is better.",
       "options": [
         "personal-mcq-10",
-        "personal-mcq-09",
-        "personal-mcq-11",
-        "personal-mcq-08",
-        "personal-mcq-12",
-        "personal-mcq-07"
+        "personal-mcq-20",
+        "personal-mcq-02",
+        "personal-mcq-04"
       ],
       "explanation": "本句的「personal opinion」指「個人意見」。",
       "sentenceIndex": 23,
@@ -1344,12 +1250,10 @@ export default {
         "personal opinion"
       ],
       "optionReasons": {
-        "personal-mcq-10": "本句指「個人意見」。",
-        "personal-mcq-09": "「親身經驗」與本句語境不同。",
-        "personal-mcq-11": "「個人選擇」與本句語境不同。",
-        "personal-mcq-08": "「人情味；個人特色」與本句語境不同。",
-        "personal-mcq-12": "「個人責任」與本句語境不同。",
-        "personal-mcq-07": "「私人／貼心訊息」與本句語境不同。"
+        "personal-mcq-10": "本句的「personal opinion」指「個人意見」。",
+        "personal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-10"
     },
@@ -1361,11 +1265,9 @@ export default {
       "masked": "That's only his ____.",
       "options": [
         "personal-mcq-10",
-        "personal-mcq-09",
-        "personal-mcq-11",
-        "personal-mcq-08",
-        "personal-mcq-12",
-        "personal-mcq-07"
+        "personal-mcq-17",
+        "personal-mcq-13",
+        "personal-mcq-12"
       ],
       "explanation": "本句的「personal view」指「個人意見」。",
       "sentenceIndex": 24,
@@ -1374,12 +1276,10 @@ export default {
         "personal view"
       ],
       "optionReasons": {
-        "personal-mcq-10": "本句指「個人意見」。",
-        "personal-mcq-09": "「親身經驗」與本句語境不同。",
-        "personal-mcq-11": "「個人選擇」與本句語境不同。",
-        "personal-mcq-08": "「人情味；個人特色」與本句語境不同。",
-        "personal-mcq-12": "「個人責任」與本句語境不同。",
-        "personal-mcq-07": "「私人／貼心訊息」與本句語境不同。"
+        "personal-mcq-10": "本句的「personal view」指「個人意見」。",
+        "personal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-10"
     },
@@ -1391,11 +1291,9 @@ export default {
       "masked": "What you wear is a ____.",
       "options": [
         "personal-mcq-11",
-        "personal-mcq-10",
-        "personal-mcq-12",
-        "personal-mcq-09",
-        "personal-mcq-13",
-        "personal-mcq-08"
+        "personal-mcq-08",
+        "personal-mcq-15",
+        "personal-mcq-02"
       ],
       "explanation": "本句的「personal choice」指「個人選擇」。",
       "sentenceIndex": 25,
@@ -1404,12 +1302,10 @@ export default {
         "personal choice"
       ],
       "optionReasons": {
-        "personal-mcq-11": "本句指「個人選擇」。",
-        "personal-mcq-10": "「個人意見」與本句語境不同。",
-        "personal-mcq-12": "「個人責任」與本句語境不同。",
-        "personal-mcq-09": "「親身經驗」與本句語境不同。",
-        "personal-mcq-13": "「人身攻擊」與本句語境不同。",
-        "personal-mcq-08": "「人情味；個人特色」與本句語境不同。"
+        "personal-mcq-11": "本句的「personal choice」指「個人選擇」。",
+        "personal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-11"
     },
@@ -1421,11 +1317,9 @@ export default {
       "masked": "Diet is often a matter of ____.",
       "options": [
         "personal-mcq-11",
-        "personal-mcq-10",
+        "personal-mcq-07",
         "personal-mcq-12",
-        "personal-mcq-09",
-        "personal-mcq-13",
-        "personal-mcq-08"
+        "personal-mcq-24"
       ],
       "explanation": "本句的「personal choice」指「個人選擇」。",
       "sentenceIndex": 26,
@@ -1434,12 +1328,10 @@ export default {
         "personal choice"
       ],
       "optionReasons": {
-        "personal-mcq-11": "本句指「個人選擇」。",
-        "personal-mcq-10": "「個人意見」與本句語境不同。",
-        "personal-mcq-12": "「個人責任」與本句語境不同。",
-        "personal-mcq-09": "「親身經驗」與本句語境不同。",
-        "personal-mcq-13": "「人身攻擊」與本句語境不同。",
-        "personal-mcq-08": "「人情味；個人特色」與本句語境不同。"
+        "personal-mcq-11": "本句的「personal choice」指「個人選擇」。",
+        "personal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-11"
     },
@@ -1451,11 +1343,9 @@ export default {
       "masked": "Everyone has a ____ to follow the rules.",
       "options": [
         "personal-mcq-12",
-        "personal-mcq-11",
-        "personal-mcq-13",
-        "personal-mcq-10",
-        "personal-mcq-14",
-        "personal-mcq-09"
+        "personal-mcq-15",
+        "personal-mcq-24",
+        "personal-mcq-25"
       ],
       "explanation": "本句的「personal responsibility」指「個人責任」。",
       "sentenceIndex": 27,
@@ -1464,12 +1354,10 @@ export default {
         "personal responsibility"
       ],
       "optionReasons": {
-        "personal-mcq-12": "本句指「個人責任」。",
-        "personal-mcq-11": "「個人選擇」與本句語境不同。",
-        "personal-mcq-13": "「人身攻擊」與本句語境不同。",
-        "personal-mcq-10": "「個人意見」與本句語境不同。",
-        "personal-mcq-14": "「私人問題」與本句語境不同。",
-        "personal-mcq-09": "「親身經驗」與本句語境不同。"
+        "personal-mcq-12": "本句的「personal responsibility」指「個人責任」。",
+        "personal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-12"
     },
@@ -1481,11 +1369,9 @@ export default {
       "masked": "He accepted ____ for the mistake.",
       "options": [
         "personal-mcq-12",
-        "personal-mcq-11",
-        "personal-mcq-13",
-        "personal-mcq-10",
-        "personal-mcq-14",
-        "personal-mcq-09"
+        "personal-mcq-05",
+        "personal-mcq-16",
+        "personal-mcq-23"
       ],
       "explanation": "本句的「personal responsibility」指「個人責任」。",
       "sentenceIndex": 28,
@@ -1494,12 +1380,10 @@ export default {
         "personal responsibility"
       ],
       "optionReasons": {
-        "personal-mcq-12": "本句指「個人責任」。",
-        "personal-mcq-11": "「個人選擇」與本句語境不同。",
-        "personal-mcq-13": "「人身攻擊」與本句語境不同。",
-        "personal-mcq-10": "「個人意見」與本句語境不同。",
-        "personal-mcq-14": "「私人問題」與本句語境不同。",
-        "personal-mcq-09": "「親身經驗」與本句語境不同。"
+        "personal-mcq-12": "本句的「personal responsibility」指「個人責任」。",
+        "personal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-12"
     },
@@ -1511,11 +1395,9 @@ export default {
       "masked": "The criticism became ____.",
       "options": [
         "personal-mcq-01",
-        "personal-mcq-02",
-        "personal-mcq-03",
-        "personal-mcq-04",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-14",
+        "personal-mcq-10",
+        "personal-mcq-08"
       ],
       "explanation": "本句的「personal」指「個人的」。",
       "sentenceIndex": 29,
@@ -1524,12 +1406,10 @@ export default {
         "personal"
       ],
       "optionReasons": {
-        "personal-mcq-01": "本句指「個人的」。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-01": "本句的「personal」指「個人的」。",
+        "personal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-01"
     },
@@ -1541,11 +1421,9 @@ export default {
       "masked": "Try not to make the argument ____.",
       "options": [
         "personal-mcq-01",
-        "personal-mcq-02",
-        "personal-mcq-03",
-        "personal-mcq-04",
-        "personal-mcq-05",
-        "personal-mcq-06"
+        "personal-mcq-16",
+        "personal-mcq-23",
+        "personal-mcq-04"
       ],
       "explanation": "本句的「personal」指「個人的」。",
       "sentenceIndex": 30,
@@ -1554,12 +1432,10 @@ export default {
         "personal"
       ],
       "optionReasons": {
-        "personal-mcq-01": "本句指「個人的」。",
-        "personal-mcq-02": "「個人資料」與本句語境不同。",
-        "personal-mcq-03": "「私人物品」與本句語境不同。",
-        "personal-mcq-04": "「個人空間」與本句語境不同。",
-        "personal-mcq-05": "「私生活」與本句語境不同。",
-        "personal-mcq-06": "「有個人心意的禮物」與本句語境不同。"
+        "personal-mcq-01": "本句的「personal」指「個人的」。",
+        "personal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-01"
     },
@@ -1571,11 +1447,9 @@ export default {
       "masked": "The debate turned into a ____.",
       "options": [
         "personal-mcq-13",
-        "personal-mcq-12",
-        "personal-mcq-14",
-        "personal-mcq-11",
-        "personal-mcq-15",
-        "personal-mcq-10"
+        "personal-mcq-22",
+        "personal-mcq-03",
+        "personal-mcq-04"
       ],
       "explanation": "本句的「personal attack」指「人身攻擊」。",
       "sentenceIndex": 31,
@@ -1584,12 +1458,10 @@ export default {
         "personal attack"
       ],
       "optionReasons": {
-        "personal-mcq-13": "本句指「人身攻擊」。",
-        "personal-mcq-12": "「個人責任」與本句語境不同。",
-        "personal-mcq-14": "「私人問題」與本句語境不同。",
-        "personal-mcq-11": "「個人選擇」與本句語境不同。",
-        "personal-mcq-15": "「覺得被針對」與本句語境不同。",
-        "personal-mcq-10": "「個人意見」與本句語境不同。"
+        "personal-mcq-13": "本句的「personal attack」指「人身攻擊」。",
+        "personal-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-13"
     },
@@ -1601,11 +1473,9 @@ export default {
       "masked": "Criticize the idea, not the person; avoid ____.",
       "options": [
         "personal-mcq-13",
-        "personal-mcq-12",
-        "personal-mcq-14",
-        "personal-mcq-11",
-        "personal-mcq-15",
-        "personal-mcq-10"
+        "personal-mcq-21",
+        "personal-mcq-19",
+        "personal-mcq-16"
       ],
       "explanation": "本句的「personal attacks」指「人身攻擊」。",
       "sentenceIndex": 32,
@@ -1614,12 +1484,10 @@ export default {
         "personal attacks"
       ],
       "optionReasons": {
-        "personal-mcq-13": "本句指「人身攻擊」。",
-        "personal-mcq-12": "「個人責任」與本句語境不同。",
-        "personal-mcq-14": "「私人問題」與本句語境不同。",
-        "personal-mcq-11": "「個人選擇」與本句語境不同。",
-        "personal-mcq-15": "「覺得被針對」與本句語境不同。",
-        "personal-mcq-10": "「個人意見」與本句語境不同。"
+        "personal-mcq-13": "本句的「personal attacks」指「人身攻擊」。",
+        "personal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-13"
     },
@@ -1631,11 +1499,9 @@ export default {
       "masked": "Can I ask you a ____?",
       "options": [
         "personal-mcq-14",
-        "personal-mcq-13",
-        "personal-mcq-15",
         "personal-mcq-12",
-        "personal-mcq-16",
-        "personal-mcq-11"
+        "personal-mcq-02",
+        "personal-mcq-10"
       ],
       "explanation": "本句的「personal question」指「私人問題」。",
       "sentenceIndex": 33,
@@ -1644,12 +1510,10 @@ export default {
         "personal question"
       ],
       "optionReasons": {
-        "personal-mcq-14": "本句指「私人問題」。",
-        "personal-mcq-13": "「人身攻擊」與本句語境不同。",
-        "personal-mcq-15": "「覺得被針對」與本句語境不同。",
-        "personal-mcq-12": "「個人責任」與本句語境不同。",
-        "personal-mcq-16": "「不是針對你」與本句語境不同。",
-        "personal-mcq-11": "「個人選擇」與本句語境不同。"
+        "personal-mcq-14": "本句的「personal question」指「私人問題」。",
+        "personal-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-14"
     },
@@ -1661,11 +1525,9 @@ export default {
       "masked": "She felt uncomfortable answering such a ____.",
       "options": [
         "personal-mcq-14",
-        "personal-mcq-13",
-        "personal-mcq-15",
-        "personal-mcq-12",
-        "personal-mcq-16",
-        "personal-mcq-11"
+        "personal-mcq-11",
+        "personal-mcq-18",
+        "personal-mcq-23"
       ],
       "explanation": "本句的「personal question」指「私人問題」。",
       "sentenceIndex": 34,
@@ -1674,12 +1536,10 @@ export default {
         "personal question"
       ],
       "optionReasons": {
-        "personal-mcq-14": "本句指「私人問題」。",
-        "personal-mcq-13": "「人身攻擊」與本句語境不同。",
-        "personal-mcq-15": "「覺得被針對」與本句語境不同。",
-        "personal-mcq-12": "「個人責任」與本句語境不同。",
-        "personal-mcq-16": "「不是針對你」與本句語境不同。",
-        "personal-mcq-11": "「個人選擇」與本句語境不同。"
+        "personal-mcq-14": "本句的「personal question」指「私人問題」。",
+        "personal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-14"
     },
@@ -1691,11 +1551,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "personal-mcq-15",
-        "personal-mcq-14",
-        "personal-mcq-16",
-        "personal-mcq-13",
-        "personal-mcq-17",
-        "personal-mcq-12"
+        "personal-mcq-11",
+        "personal-mcq-04",
+        "personal-mcq-09"
       ],
       "explanation": "本句的「take it personally」指「覺得被針對」。",
       "sentenceIndex": 35,
@@ -1704,12 +1562,10 @@ export default {
         "take it personally"
       ],
       "optionReasons": {
-        "personal-mcq-15": "本句指「覺得被針對」。",
-        "personal-mcq-14": "「私人問題」與本句語境不同。",
-        "personal-mcq-16": "「不是針對你」與本句語境不同。",
-        "personal-mcq-13": "「人身攻擊」與本句語境不同。",
-        "personal-mcq-17": "「就我個人而言」與本句語境不同。",
-        "personal-mcq-12": "「個人責任」與本句語境不同。"
+        "personal-mcq-15": "本句的「take it personally」指「覺得被針對」。",
+        "personal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-15"
     },
@@ -1721,11 +1577,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "personal-mcq-15",
-        "personal-mcq-14",
-        "personal-mcq-16",
-        "personal-mcq-13",
-        "personal-mcq-17",
-        "personal-mcq-12"
+        "personal-mcq-04",
+        "personal-mcq-12",
+        "personal-mcq-23"
       ],
       "explanation": "本句的「took the criticism personally」指「覺得被針對」。",
       "sentenceIndex": 36,
@@ -1734,12 +1588,10 @@ export default {
         "took the criticism personally"
       ],
       "optionReasons": {
-        "personal-mcq-15": "本句指「覺得被針對」。",
-        "personal-mcq-14": "「私人問題」與本句語境不同。",
-        "personal-mcq-16": "「不是針對你」與本句語境不同。",
-        "personal-mcq-13": "「人身攻擊」與本句語境不同。",
-        "personal-mcq-17": "「就我個人而言」與本句語境不同。",
-        "personal-mcq-12": "「個人責任」與本句語境不同。"
+        "personal-mcq-15": "本句的「took the criticism personally」指「覺得被針對」。",
+        "personal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-15"
     },
@@ -1751,11 +1603,9 @@ export default {
       "masked": "It's ____; we just chose another candidate.",
       "options": [
         "personal-mcq-16",
-        "personal-mcq-15",
-        "personal-mcq-17",
-        "personal-mcq-14",
-        "personal-mcq-18",
-        "personal-mcq-13"
+        "personal-mcq-07",
+        "personal-mcq-13",
+        "personal-mcq-01"
       ],
       "explanation": "本句的「nothing personal」指「不是針對你」。",
       "sentenceIndex": 37,
@@ -1764,12 +1614,10 @@ export default {
         "nothing personal"
       ],
       "optionReasons": {
-        "personal-mcq-16": "本句指「不是針對你」。",
-        "personal-mcq-15": "「覺得被針對」與本句語境不同。",
-        "personal-mcq-17": "「就我個人而言」與本句語境不同。",
-        "personal-mcq-14": "「私人問題」與本句語境不同。",
-        "personal-mcq-18": "「親自」與本句語境不同。",
-        "personal-mcq-13": "「人身攻擊」與本句語境不同。"
+        "personal-mcq-16": "本句的「nothing personal」指「不是針對你」。",
+        "personal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-16"
     },
@@ -1781,11 +1629,9 @@ export default {
       "masked": "Don't worry—it's ____.",
       "options": [
         "personal-mcq-16",
-        "personal-mcq-15",
-        "personal-mcq-17",
-        "personal-mcq-14",
-        "personal-mcq-18",
-        "personal-mcq-13"
+        "personal-mcq-05",
+        "personal-mcq-09",
+        "personal-mcq-17"
       ],
       "explanation": "本句的「nothing personal」指「不是針對你」。",
       "sentenceIndex": 38,
@@ -1794,12 +1640,10 @@ export default {
         "nothing personal"
       ],
       "optionReasons": {
-        "personal-mcq-16": "本句指「不是針對你」。",
-        "personal-mcq-15": "「覺得被針對」與本句語境不同。",
-        "personal-mcq-17": "「就我個人而言」與本句語境不同。",
-        "personal-mcq-14": "「私人問題」與本句語境不同。",
-        "personal-mcq-18": "「親自」與本句語境不同。",
-        "personal-mcq-13": "「人身攻擊」與本句語境不同。"
+        "personal-mcq-16": "本句的「nothing personal」指「不是針對你」。",
+        "personal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-16"
     },
@@ -1811,11 +1655,9 @@ export default {
       "masked": "____, I prefer the handmade gift.",
       "options": [
         "personal-mcq-17",
-        "personal-mcq-16",
-        "personal-mcq-18",
-        "personal-mcq-15",
-        "personal-mcq-19",
-        "personal-mcq-14"
+        "personal-mcq-02",
+        "personal-mcq-04",
+        "personal-mcq-08"
       ],
       "explanation": "本句的「Personally」指「就我個人而言」。",
       "sentenceIndex": 39,
@@ -1824,12 +1666,10 @@ export default {
         "Personally"
       ],
       "optionReasons": {
-        "personal-mcq-17": "本句指「就我個人而言」。",
-        "personal-mcq-16": "「不是針對你」與本句語境不同。",
-        "personal-mcq-18": "「親自」與本句語境不同。",
-        "personal-mcq-15": "「覺得被針對」與本句語境不同。",
-        "personal-mcq-19": "「私人助理」與本句語境不同。",
-        "personal-mcq-14": "「私人問題」與本句語境不同。"
+        "personal-mcq-17": "本句的「Personally」指「就我個人而言」。",
+        "personal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-17"
     },
@@ -1841,11 +1681,9 @@ export default {
       "masked": "I ____ think the idea is practical.",
       "options": [
         "personal-mcq-17",
-        "personal-mcq-16",
-        "personal-mcq-18",
-        "personal-mcq-15",
-        "personal-mcq-19",
-        "personal-mcq-14"
+        "personal-mcq-07",
+        "personal-mcq-25",
+        "personal-mcq-12"
       ],
       "explanation": "本句的「personally」指「就我個人而言」。",
       "sentenceIndex": 40,
@@ -1854,12 +1692,10 @@ export default {
         "personally"
       ],
       "optionReasons": {
-        "personal-mcq-17": "本句指「就我個人而言」。",
-        "personal-mcq-16": "「不是針對你」與本句語境不同。",
-        "personal-mcq-18": "「親自」與本句語境不同。",
-        "personal-mcq-15": "「覺得被針對」與本句語境不同。",
-        "personal-mcq-19": "「私人助理」與本句語境不同。",
-        "personal-mcq-14": "「私人問題」與本句語境不同。"
+        "personal-mcq-17": "本句的「personally」指「就我個人而言」。",
+        "personal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-17"
     },
@@ -1871,11 +1707,9 @@ export default {
       "masked": "The manager ____ thanked every employee.",
       "options": [
         "personal-mcq-18",
-        "personal-mcq-17",
-        "personal-mcq-19",
-        "personal-mcq-16",
         "personal-mcq-20",
-        "personal-mcq-15"
+        "personal-mcq-16",
+        "personal-mcq-24"
       ],
       "explanation": "本句的「personally」指「親自」。",
       "sentenceIndex": 41,
@@ -1884,12 +1718,10 @@ export default {
         "personally"
       ],
       "optionReasons": {
-        "personal-mcq-18": "本句指「親自」。",
-        "personal-mcq-17": "「就我個人而言」與本句語境不同。",
-        "personal-mcq-19": "「私人助理」與本句語境不同。",
-        "personal-mcq-16": "「不是針對你」與本句語境不同。",
-        "personal-mcq-20": "「私人健身教練」與本句語境不同。",
-        "personal-mcq-15": "「覺得被針對」與本句語境不同。"
+        "personal-mcq-18": "本句的「personally」指「親自」。",
+        "personal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-18"
     },
@@ -1902,10 +1734,8 @@ export default {
       "options": [
         "personal-mcq-18",
         "personal-mcq-17",
-        "personal-mcq-19",
         "personal-mcq-16",
-        "personal-mcq-20",
-        "personal-mcq-15"
+        "personal-mcq-20"
       ],
       "explanation": "本句的「personally」指「親自」。",
       "sentenceIndex": 42,
@@ -1914,12 +1744,10 @@ export default {
         "personally"
       ],
       "optionReasons": {
-        "personal-mcq-18": "本句指「親自」。",
-        "personal-mcq-17": "「就我個人而言」與本句語境不同。",
-        "personal-mcq-19": "「私人助理」與本句語境不同。",
-        "personal-mcq-16": "「不是針對你」與本句語境不同。",
-        "personal-mcq-20": "「私人健身教練」與本句語境不同。",
-        "personal-mcq-15": "「覺得被針對」與本句語境不同。"
+        "personal-mcq-18": "本句的「personally」指「親自」。",
+        "personal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-18"
     },
@@ -1931,11 +1759,9 @@ export default {
       "masked": "I don't know her ____.",
       "options": [
         "personal-mcq-18",
-        "personal-mcq-17",
-        "personal-mcq-19",
         "personal-mcq-16",
-        "personal-mcq-20",
-        "personal-mcq-15"
+        "personal-mcq-22",
+        "personal-mcq-11"
       ],
       "explanation": "本句的「personally」指「親自」。",
       "sentenceIndex": 43,
@@ -1944,12 +1770,10 @@ export default {
         "personally"
       ],
       "optionReasons": {
-        "personal-mcq-18": "本句指「親自」。",
-        "personal-mcq-17": "「就我個人而言」與本句語境不同。",
-        "personal-mcq-19": "「私人助理」與本句語境不同。",
-        "personal-mcq-16": "「不是針對你」與本句語境不同。",
-        "personal-mcq-20": "「私人健身教練」與本句語境不同。",
-        "personal-mcq-15": "「覺得被針對」與本句語境不同。"
+        "personal-mcq-18": "本句的「personally」指「親自」。",
+        "personal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-18"
     },
@@ -1961,11 +1785,9 @@ export default {
       "masked": "Have you ever met him ____?",
       "options": [
         "personal-mcq-18",
-        "personal-mcq-17",
-        "personal-mcq-19",
-        "personal-mcq-16",
-        "personal-mcq-20",
-        "personal-mcq-15"
+        "personal-mcq-10",
+        "personal-mcq-05",
+        "personal-mcq-12"
       ],
       "explanation": "本句的「personally」指「親自」。",
       "sentenceIndex": 44,
@@ -1974,12 +1796,10 @@ export default {
         "personally"
       ],
       "optionReasons": {
-        "personal-mcq-18": "本句指「親自」。",
-        "personal-mcq-17": "「就我個人而言」與本句語境不同。",
-        "personal-mcq-19": "「私人助理」與本句語境不同。",
-        "personal-mcq-16": "「不是針對你」與本句語境不同。",
-        "personal-mcq-20": "「私人健身教練」與本句語境不同。",
-        "personal-mcq-15": "「覺得被針對」與本句語境不同。"
+        "personal-mcq-18": "本句的「personally」指「親自」。",
+        "personal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-18"
     },
@@ -1992,10 +1812,8 @@ export default {
       "options": [
         "personal-mcq-19",
         "personal-mcq-18",
-        "personal-mcq-20",
-        "personal-mcq-17",
-        "personal-mcq-21",
-        "personal-mcq-16"
+        "personal-mcq-01",
+        "personal-mcq-17"
       ],
       "explanation": "本句的「personal assistant」指「私人助理」。",
       "sentenceIndex": 45,
@@ -2004,12 +1822,10 @@ export default {
         "personal assistant"
       ],
       "optionReasons": {
-        "personal-mcq-19": "本句指「私人助理」。",
-        "personal-mcq-18": "「親自」與本句語境不同。",
-        "personal-mcq-20": "「私人健身教練」與本句語境不同。",
-        "personal-mcq-17": "「就我個人而言」與本句語境不同。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。",
-        "personal-mcq-16": "「不是針對你」與本句語境不同。"
+        "personal-mcq-19": "本句的「personal assistant」指「私人助理」。",
+        "personal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-19"
     },
@@ -2021,11 +1837,9 @@ export default {
       "masked": "His ____ manages his schedule.",
       "options": [
         "personal-mcq-19",
-        "personal-mcq-18",
-        "personal-mcq-20",
-        "personal-mcq-17",
-        "personal-mcq-21",
-        "personal-mcq-16"
+        "personal-mcq-02",
+        "personal-mcq-25",
+        "personal-mcq-13"
       ],
       "explanation": "本句的「personal assistant」指「私人助理」。",
       "sentenceIndex": 46,
@@ -2034,12 +1848,10 @@ export default {
         "personal assistant"
       ],
       "optionReasons": {
-        "personal-mcq-19": "本句指「私人助理」。",
-        "personal-mcq-18": "「親自」與本句語境不同。",
-        "personal-mcq-20": "「私人健身教練」與本句語境不同。",
-        "personal-mcq-17": "「就我個人而言」與本句語境不同。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。",
-        "personal-mcq-16": "「不是針對你」與本句語境不同。"
+        "personal-mcq-19": "本句的「personal assistant」指「私人助理」。",
+        "personal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-19"
     },
@@ -2051,11 +1863,9 @@ export default {
       "masked": "He works with a ____ twice a week.",
       "options": [
         "personal-mcq-20",
-        "personal-mcq-19",
-        "personal-mcq-21",
-        "personal-mcq-18",
-        "personal-mcq-22",
-        "personal-mcq-17"
+        "personal-mcq-08",
+        "personal-mcq-04",
+        "personal-mcq-21"
       ],
       "explanation": "本句的「personal trainer」指「私人健身教練」。",
       "sentenceIndex": 47,
@@ -2064,12 +1874,10 @@ export default {
         "personal trainer"
       ],
       "optionReasons": {
-        "personal-mcq-20": "本句指「私人健身教練」。",
-        "personal-mcq-19": "「私人助理」與本句語境不同。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。",
-        "personal-mcq-18": "「親自」與本句語境不同。",
-        "personal-mcq-22": "「個人化的」與本句語境不同。",
-        "personal-mcq-17": "「就我個人而言」與本句語境不同。"
+        "personal-mcq-20": "本句的「personal trainer」指「私人健身教練」。",
+        "personal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-20"
     },
@@ -2081,11 +1889,9 @@ export default {
       "masked": "A ____ designed a programme for her.",
       "options": [
         "personal-mcq-20",
-        "personal-mcq-19",
+        "personal-mcq-26",
         "personal-mcq-21",
-        "personal-mcq-18",
-        "personal-mcq-22",
-        "personal-mcq-17"
+        "personal-mcq-16"
       ],
       "explanation": "本句的「personal trainer」指「私人健身教練」。",
       "sentenceIndex": 48,
@@ -2094,12 +1900,10 @@ export default {
         "personal trainer"
       ],
       "optionReasons": {
-        "personal-mcq-20": "本句指「私人健身教練」。",
-        "personal-mcq-19": "「私人助理」與本句語境不同。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。",
-        "personal-mcq-18": "「親自」與本句語境不同。",
-        "personal-mcq-22": "「個人化的」與本句語境不同。",
-        "personal-mcq-17": "「就我個人而言」與本句語境不同。"
+        "personal-mcq-20": "本句的「personal trainer」指「私人健身教練」。",
+        "personal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-20"
     },
@@ -2111,11 +1915,9 @@ export default {
       "masked": "She ran a ____ in the 100 metres.",
       "options": [
         "personal-mcq-21",
-        "personal-mcq-20",
-        "personal-mcq-22",
-        "personal-mcq-19",
-        "personal-mcq-23",
-        "personal-mcq-18"
+        "personal-mcq-14",
+        "personal-mcq-01",
+        "personal-mcq-11"
       ],
       "explanation": "本句的「personal best」指「個人最佳成績」。",
       "sentenceIndex": 49,
@@ -2124,12 +1926,10 @@ export default {
         "personal best"
       ],
       "optionReasons": {
-        "personal-mcq-21": "本句指「個人最佳成績」。",
-        "personal-mcq-20": "「私人健身教練」與本句語境不同。",
-        "personal-mcq-22": "「個人化的」與本句語境不同。",
-        "personal-mcq-19": "「私人助理」與本句語境不同。",
-        "personal-mcq-23": "「使個人化」與本句語境不同。",
-        "personal-mcq-18": "「親自」與本句語境不同。"
+        "personal-mcq-21": "本句的「personal best」指「個人最佳成績」。",
+        "personal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-21"
     },
@@ -2141,11 +1941,9 @@ export default {
       "masked": "His time was a new ____.",
       "options": [
         "personal-mcq-21",
-        "personal-mcq-20",
-        "personal-mcq-22",
-        "personal-mcq-19",
-        "personal-mcq-23",
-        "personal-mcq-18"
+        "personal-mcq-12",
+        "personal-mcq-26",
+        "personal-mcq-05"
       ],
       "explanation": "本句的「personal best」指「個人最佳成績」。",
       "sentenceIndex": 50,
@@ -2154,12 +1952,10 @@ export default {
         "personal best"
       ],
       "optionReasons": {
-        "personal-mcq-21": "本句指「個人最佳成績」。",
-        "personal-mcq-20": "「私人健身教練」與本句語境不同。",
-        "personal-mcq-22": "「個人化的」與本句語境不同。",
-        "personal-mcq-19": "「私人助理」與本句語境不同。",
-        "personal-mcq-23": "「使個人化」與本句語境不同。",
-        "personal-mcq-18": "「親自」與本句語境不同。"
+        "personal-mcq-21": "本句的「personal best」指「個人最佳成績」。",
+        "personal-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-21"
     },
@@ -2171,11 +1967,9 @@ export default {
       "masked": "The website offers ____.",
       "options": [
         "personal-mcq-22",
-        "personal-mcq-21",
-        "personal-mcq-23",
-        "personal-mcq-20",
-        "personal-mcq-24",
-        "personal-mcq-19"
+        "personal-mcq-02",
+        "personal-mcq-14",
+        "personal-mcq-12"
       ],
       "explanation": "本句的「personalized recommendations」指「個人化的」。",
       "sentenceIndex": 51,
@@ -2184,12 +1978,10 @@ export default {
         "personalized recommendations"
       ],
       "optionReasons": {
-        "personal-mcq-22": "本句指「個人化的」。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。",
-        "personal-mcq-23": "「使個人化」與本句語境不同。",
-        "personal-mcq-20": "「私人健身教練」與本句語境不同。",
-        "personal-mcq-24": "「性格；個性」與本句語境不同。",
-        "personal-mcq-19": "「私人助理」與本句語境不同。"
+        "personal-mcq-22": "本句的「personalized recommendations」指「個人化的」。",
+        "personal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-22"
     },
@@ -2201,11 +1993,9 @@ export default {
       "masked": "She ordered a ____ with her mother's name on it.",
       "options": [
         "personal-mcq-22",
-        "personal-mcq-21",
-        "personal-mcq-23",
-        "personal-mcq-20",
-        "personal-mcq-24",
-        "personal-mcq-19"
+        "personal-mcq-09",
+        "personal-mcq-07",
+        "personal-mcq-21"
       ],
       "explanation": "本句的「personalized gift」指「個人化的」。",
       "sentenceIndex": 52,
@@ -2214,12 +2004,10 @@ export default {
         "personalized gift"
       ],
       "optionReasons": {
-        "personal-mcq-22": "本句指「個人化的」。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。",
-        "personal-mcq-23": "「使個人化」與本句語境不同。",
-        "personal-mcq-20": "「私人健身教練」與本句語境不同。",
-        "personal-mcq-24": "「性格；個性」與本句語境不同。",
-        "personal-mcq-19": "「私人助理」與本句語境不同。"
+        "personal-mcq-22": "本句的「personalized gift」指「個人化的」。",
+        "personal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-22"
     },
@@ -2231,11 +2019,9 @@ export default {
       "masked": "You can ____ with a message.",
       "options": [
         "personal-mcq-23",
-        "personal-mcq-22",
-        "personal-mcq-24",
-        "personal-mcq-21",
-        "personal-mcq-25",
-        "personal-mcq-20"
+        "personal-mcq-07",
+        "personal-mcq-09",
+        "personal-mcq-10"
       ],
       "explanation": "本句的「personalize the card」指「使個人化」。",
       "sentenceIndex": 53,
@@ -2244,12 +2030,10 @@ export default {
         "personalize the card"
       ],
       "optionReasons": {
-        "personal-mcq-23": "本句指「使個人化」。",
-        "personal-mcq-22": "「個人化的」與本句語境不同。",
-        "personal-mcq-24": "「性格；個性」與本句語境不同。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。",
-        "personal-mcq-25": "「名人」與本句語境不同。",
-        "personal-mcq-20": "「私人健身教練」與本句語境不同。"
+        "personal-mcq-23": "本句的「personalize the card」指「使個人化」。",
+        "personal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-23"
     },
@@ -2261,11 +2045,9 @@ export default {
       "masked": "The app ____ content for each user.",
       "options": [
         "personal-mcq-23",
-        "personal-mcq-22",
-        "personal-mcq-24",
-        "personal-mcq-21",
-        "personal-mcq-25",
-        "personal-mcq-20"
+        "personal-mcq-08",
+        "personal-mcq-10",
+        "personal-mcq-01"
       ],
       "explanation": "本句的「personalizes」指「使個人化」。",
       "sentenceIndex": 54,
@@ -2274,12 +2056,10 @@ export default {
         "personalizes"
       ],
       "optionReasons": {
-        "personal-mcq-23": "本句指「使個人化」。",
-        "personal-mcq-22": "「個人化的」與本句語境不同。",
-        "personal-mcq-24": "「性格；個性」與本句語境不同。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。",
-        "personal-mcq-25": "「名人」與本句語境不同。",
-        "personal-mcq-20": "「私人健身教練」與本句語境不同。"
+        "personal-mcq-23": "本句的「personalizes」指「使個人化」。",
+        "personal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-23"
     },
@@ -2291,11 +2071,9 @@ export default {
       "masked": "She has a warm ____.",
       "options": [
         "personal-mcq-24",
-        "personal-mcq-23",
-        "personal-mcq-25",
-        "personal-mcq-22",
-        "personal-mcq-26",
-        "personal-mcq-21"
+        "personal-mcq-12",
+        "personal-mcq-13",
+        "personal-mcq-23"
       ],
       "explanation": "本句的「personality」指「性格；個性」。",
       "sentenceIndex": 55,
@@ -2304,12 +2082,10 @@ export default {
         "personality"
       ],
       "optionReasons": {
-        "personal-mcq-24": "本句指「性格；個性」。",
-        "personal-mcq-23": "「使個人化」與本句語境不同。",
-        "personal-mcq-25": "「名人」與本句語境不同。",
-        "personal-mcq-22": "「個人化的」與本句語境不同。",
-        "personal-mcq-26": "「欠人情味的；非個人的」與本句語境不同。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。"
+        "personal-mcq-24": "本句的「personality」指「性格；個性」。",
+        "personal-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-24"
     },
@@ -2321,11 +2097,9 @@ export default {
       "masked": "His quiet ____ is very different from his brother's.",
       "options": [
         "personal-mcq-24",
-        "personal-mcq-23",
-        "personal-mcq-25",
-        "personal-mcq-22",
-        "personal-mcq-26",
-        "personal-mcq-21"
+        "personal-mcq-02",
+        "personal-mcq-11",
+        "personal-mcq-13"
       ],
       "explanation": "本句的「personality」指「性格；個性」。",
       "sentenceIndex": 56,
@@ -2334,12 +2108,10 @@ export default {
         "personality"
       ],
       "optionReasons": {
-        "personal-mcq-24": "本句指「性格；個性」。",
-        "personal-mcq-23": "「使個人化」與本句語境不同。",
-        "personal-mcq-25": "「名人」與本句語境不同。",
-        "personal-mcq-22": "「個人化的」與本句語境不同。",
-        "personal-mcq-26": "「欠人情味的；非個人的」與本句語境不同。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。"
+        "personal-mcq-24": "本句的「personality」指「性格；個性」。",
+        "personal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-24"
     },
@@ -2351,11 +2123,9 @@ export default {
       "masked": "She became a well-known television ____.",
       "options": [
         "personal-mcq-25",
-        "personal-mcq-24",
-        "personal-mcq-26",
-        "personal-mcq-23",
-        "personal-mcq-22",
-        "personal-mcq-21"
+        "personal-mcq-10",
+        "personal-mcq-08",
+        "personal-mcq-05"
       ],
       "explanation": "本句的「personality」指「名人」。",
       "sentenceIndex": 57,
@@ -2364,12 +2134,10 @@ export default {
         "personality"
       ],
       "optionReasons": {
-        "personal-mcq-25": "本句指「名人」。",
-        "personal-mcq-24": "「性格；個性」與本句語境不同。",
-        "personal-mcq-26": "「欠人情味的；非個人的」與本句語境不同。",
-        "personal-mcq-23": "「使個人化」與本句語境不同。",
-        "personal-mcq-22": "「個人化的」與本句語境不同。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。"
+        "personal-mcq-25": "本句的「personality」指「名人」。",
+        "personal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-25"
     },
@@ -2381,11 +2149,9 @@ export default {
       "masked": "Several media ____ attended the event.",
       "options": [
         "personal-mcq-25",
-        "personal-mcq-24",
-        "personal-mcq-26",
-        "personal-mcq-23",
-        "personal-mcq-22",
-        "personal-mcq-21"
+        "personal-mcq-11",
+        "personal-mcq-12",
+        "personal-mcq-20"
       ],
       "explanation": "本句的「personalities」指「名人」。",
       "sentenceIndex": 58,
@@ -2394,12 +2160,10 @@ export default {
         "personalities"
       ],
       "optionReasons": {
-        "personal-mcq-25": "本句指「名人」。",
-        "personal-mcq-24": "「性格；個性」與本句語境不同。",
-        "personal-mcq-26": "「欠人情味的；非個人的」與本句語境不同。",
-        "personal-mcq-23": "「使個人化」與本句語境不同。",
-        "personal-mcq-22": "「個人化的」與本句語境不同。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。"
+        "personal-mcq-25": "本句的「personalities」指「名人」。",
+        "personal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-25"
     },
@@ -2411,11 +2175,9 @@ export default {
       "masked": "The email sounded cold and ____.",
       "options": [
         "personal-mcq-26",
-        "personal-mcq-25",
-        "personal-mcq-24",
-        "personal-mcq-23",
-        "personal-mcq-22",
-        "personal-mcq-21"
+        "personal-mcq-15",
+        "personal-mcq-18",
+        "personal-mcq-14"
       ],
       "explanation": "本句的「impersonal」指「欠人情味的；非個人的」。",
       "sentenceIndex": 59,
@@ -2424,12 +2186,10 @@ export default {
         "impersonal"
       ],
       "optionReasons": {
-        "personal-mcq-26": "本句指「欠人情味的；非個人的」。",
-        "personal-mcq-25": "「名人」與本句語境不同。",
-        "personal-mcq-24": "「性格；個性」與本句語境不同。",
-        "personal-mcq-23": "「使個人化」與本句語境不同。",
-        "personal-mcq-22": "「個人化的」與本句語境不同。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。"
+        "personal-mcq-26": "本句的「impersonal」指「欠人情味的；非個人的」。",
+        "personal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-26"
     },
@@ -2441,11 +2201,9 @@ export default {
       "masked": "Large hotels can sometimes feel ____.",
       "options": [
         "personal-mcq-26",
+        "personal-mcq-04",
         "personal-mcq-25",
-        "personal-mcq-24",
-        "personal-mcq-23",
-        "personal-mcq-22",
-        "personal-mcq-21"
+        "personal-mcq-07"
       ],
       "explanation": "本句的「impersonal」指「欠人情味的；非個人的」。",
       "sentenceIndex": 60,
@@ -2454,12 +2212,10 @@ export default {
         "impersonal"
       ],
       "optionReasons": {
-        "personal-mcq-26": "本句指「欠人情味的；非個人的」。",
-        "personal-mcq-25": "「名人」與本句語境不同。",
-        "personal-mcq-24": "「性格；個性」與本句語境不同。",
-        "personal-mcq-23": "「使個人化」與本句語境不同。",
-        "personal-mcq-22": "「個人化的」與本句語境不同。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。"
+        "personal-mcq-26": "本句的「impersonal」指「欠人情味的；非個人的」。",
+        "personal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-26"
     },
@@ -2472,10 +2228,8 @@ export default {
       "options": [
         "personal-mcq-26",
         "personal-mcq-25",
-        "personal-mcq-24",
-        "personal-mcq-23",
-        "personal-mcq-22",
-        "personal-mcq-21"
+        "personal-mcq-18",
+        "personal-mcq-17"
       ],
       "explanation": "本句的「impersonal」指「欠人情味的；非個人的」。",
       "sentenceIndex": 61,
@@ -2484,12 +2238,10 @@ export default {
         "impersonal"
       ],
       "optionReasons": {
-        "personal-mcq-26": "本句指「欠人情味的；非個人的」。",
-        "personal-mcq-25": "「名人」與本句語境不同。",
-        "personal-mcq-24": "「性格；個性」與本句語境不同。",
-        "personal-mcq-23": "「使個人化」與本句語境不同。",
-        "personal-mcq-22": "「個人化的」與本句語境不同。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。"
+        "personal-mcq-26": "本句的「impersonal」指「欠人情味的；非個人的」。",
+        "personal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-26"
     },
@@ -2501,10 +2253,8 @@ export default {
       "masked": "Academic writing often uses an ____.",
       "options": [
         "personal-mcq-26",
-        "personal-mcq-25",
-        "personal-mcq-24",
-        "personal-mcq-23",
-        "personal-mcq-22",
+        "personal-mcq-17",
+        "personal-mcq-18",
         "personal-mcq-21"
       ],
       "explanation": "本句的「impersonal style」指「欠人情味的；非個人的」。",
@@ -2514,12 +2264,10 @@ export default {
         "impersonal style"
       ],
       "optionReasons": {
-        "personal-mcq-26": "本句指「欠人情味的；非個人的」。",
-        "personal-mcq-25": "「名人」與本句語境不同。",
-        "personal-mcq-24": "「性格；個性」與本句語境不同。",
-        "personal-mcq-23": "「使個人化」與本句語境不同。",
-        "personal-mcq-22": "「個人化的」與本句語境不同。",
-        "personal-mcq-21": "「個人最佳成績」與本句語境不同。"
+        "personal-mcq-26": "本句的「impersonal style」指「欠人情味的；非個人的」。",
+        "personal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "personal-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "personal-mcq-26"
     }
@@ -2531,5 +2279,7 @@ export default {
     "sha256": "a57247fc9448f6520df6ed0ff5dbe484057e1472aba09be6fbd98ab6a7edeef8",
     "pages": 23
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

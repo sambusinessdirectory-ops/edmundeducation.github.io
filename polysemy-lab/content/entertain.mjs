@@ -410,11 +410,9 @@ export default {
       "masked": "The book is thoughtful but still very ____.",
       "options": [
         "entertain-mcq-19",
-        "entertain-mcq-18",
-        "entertain-mcq-17",
-        "entertain-mcq-16",
-        "entertain-mcq-15",
-        "entertain-mcq-14"
+        "entertain-mcq-08",
+        "entertain-mcq-05",
+        "entertain-mcq-09"
       ],
       "explanation": "本句的「entertaining」指「有娛樂性的；有趣的；令人享受的」。",
       "sentenceIndex": 0,
@@ -423,12 +421,10 @@ export default {
         "entertaining"
       ],
       "optionReasons": {
-        "entertain-mcq-19": "本句指「有娛樂性的；有趣的；令人享受的」。",
-        "entertain-mcq-18": "「自己找活動消遣；自娛」是「entertain yourself」的用法，與本句語境不同。",
-        "entertain-mcq-17": "「商務上招待客戶等產生的應酬／招待費」是「entertainment expenses」的用法，與本句語境不同。",
-        "entertain-mcq-16": "「以表演來娛樂觀眾的藝人／表演者」是「entertainer」的用法，與本句語境不同。",
-        "entertain-mcq-15": "「電影、音樂、遊戲等娛樂內容／娛樂業」是「entertainment — media/industry」的用法，與本句語境不同。",
-        "entertain-mcq-14": "「供人消遣、享受的娛樂／娛樂活動」是「entertainment — activity」的用法，與本句語境不同。"
+        "entertain-mcq-19": "本句的「entertaining」指「有娛樂性的；有趣的；令人享受的」。",
+        "entertain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-19"
     },
@@ -440,11 +436,9 @@ export default {
       "masked": "The film was surprisingly ____.",
       "options": [
         "entertain-mcq-19",
-        "entertain-mcq-18",
         "entertain-mcq-17",
-        "entertain-mcq-16",
-        "entertain-mcq-15",
-        "entertain-mcq-14"
+        "entertain-mcq-07",
+        "entertain-mcq-18"
       ],
       "explanation": "本句的「entertaining」指「有娛樂性的；有趣的；令人享受的」。",
       "sentenceIndex": 1,
@@ -453,12 +447,10 @@ export default {
         "entertaining"
       ],
       "optionReasons": {
-        "entertain-mcq-19": "本句指「有娛樂性的；有趣的；令人享受的」。",
-        "entertain-mcq-18": "「自己找活動消遣；自娛」是「entertain yourself」的用法，與本句語境不同。",
-        "entertain-mcq-17": "「商務上招待客戶等產生的應酬／招待費」是「entertainment expenses」的用法，與本句語境不同。",
-        "entertain-mcq-16": "「以表演來娛樂觀眾的藝人／表演者」是「entertainer」的用法，與本句語境不同。",
-        "entertain-mcq-15": "「電影、音樂、遊戲等娛樂內容／娛樂業」是「entertainment — media/industry」的用法，與本句語境不同。",
-        "entertain-mcq-14": "「供人消遣、享受的娛樂／娛樂活動」是「entertainment — activity」的用法，與本句語境不同。"
+        "entertain-mcq-19": "本句的「entertaining」指「有娛樂性的；有趣的；令人享受的」。",
+        "entertain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-19"
     },
@@ -470,11 +462,9 @@ export default {
       "masked": "The show ____ the audience for two hours.",
       "options": [
         "entertain-mcq-01",
-        "entertain-mcq-02",
-        "entertain-mcq-03",
         "entertain-mcq-04",
-        "entertain-mcq-05",
-        "entertain-mcq-06"
+        "entertain-mcq-10",
+        "entertain-mcq-09"
       ],
       "explanation": "本句的「entertained」指「讓某人感到愉快、有趣或得到娛樂」。",
       "sentenceIndex": 2,
@@ -483,12 +473,10 @@ export default {
         "entertained"
       ],
       "optionReasons": {
-        "entertain-mcq-01": "本句指「讓某人感到愉快、有趣或得到娛樂」。",
-        "entertain-mcq-02": "「使某人保持興趣、得到娛樂或享受」是「entertain someone」的用法，與本句語境不同。",
-        "entertain-mcq-03": "「透過表演等讓觀眾得到娛樂」是「entertain an audience」的用法，與本句語境不同。",
-        "entertain-mcq-04": "「在家或其他場合款待、招待客人」是「entertain — host guests」的用法，與本句語境不同。",
-        "entertain-mcq-05": "「在自己家中宴客／招待朋友」是「entertain at home」的用法，與本句語境不同。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。"
+        "entertain-mcq-01": "本句的「entertained」指「讓某人感到愉快、有趣或得到娛樂」。",
+        "entertain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-01"
     },
@@ -500,11 +488,9 @@ export default {
       "masked": "The children were ____ by the magician.",
       "options": [
         "entertain-mcq-01",
-        "entertain-mcq-02",
-        "entertain-mcq-03",
-        "entertain-mcq-04",
         "entertain-mcq-05",
-        "entertain-mcq-06"
+        "entertain-mcq-08",
+        "entertain-mcq-09"
       ],
       "explanation": "本句的「entertained」指「讓某人感到愉快、有趣或得到娛樂」。",
       "sentenceIndex": 3,
@@ -513,12 +499,10 @@ export default {
         "entertained"
       ],
       "optionReasons": {
-        "entertain-mcq-01": "本句指「讓某人感到愉快、有趣或得到娛樂」。",
-        "entertain-mcq-02": "「使某人保持興趣、得到娛樂或享受」是「entertain someone」的用法，與本句語境不同。",
-        "entertain-mcq-03": "「透過表演等讓觀眾得到娛樂」是「entertain an audience」的用法，與本句語境不同。",
-        "entertain-mcq-04": "「在家或其他場合款待、招待客人」是「entertain — host guests」的用法，與本句語境不同。",
-        "entertain-mcq-05": "「在自己家中宴客／招待朋友」是「entertain at home」的用法，與本句語境不同。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。"
+        "entertain-mcq-01": "本句的「entertained」指「讓某人感到愉快、有趣或得到娛樂」。",
+        "entertain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-01"
     },
@@ -530,11 +514,9 @@ export default {
       "masked": "We told stories to ____.",
       "options": [
         "entertain-mcq-02",
-        "entertain-mcq-01",
-        "entertain-mcq-03",
-        "entertain-mcq-04",
-        "entertain-mcq-05",
-        "entertain-mcq-06"
+        "entertain-mcq-07",
+        "entertain-mcq-17",
+        "entertain-mcq-18"
       ],
       "explanation": "本句的「entertain the children」指「使某人保持興趣、得到娛樂或享受」。",
       "sentenceIndex": 4,
@@ -543,12 +525,10 @@ export default {
         "entertain the children"
       ],
       "optionReasons": {
-        "entertain-mcq-02": "本句指「使某人保持興趣、得到娛樂或享受」。",
-        "entertain-mcq-01": "「讓某人感到愉快、有趣或得到娛樂」是「entertain — amuse/provide enjoyment」的用法，與本句語境不同。",
-        "entertain-mcq-03": "「透過表演等讓觀眾得到娛樂」是「entertain an audience」的用法，與本句語境不同。",
-        "entertain-mcq-04": "「在家或其他場合款待、招待客人」是「entertain — host guests」的用法，與本句語境不同。",
-        "entertain-mcq-05": "「在自己家中宴客／招待朋友」是「entertain at home」的用法，與本句語境不同。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。"
+        "entertain-mcq-02": "本句的「entertain the children」指「使某人保持興趣、得到娛樂或享受」。",
+        "entertain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-02"
     },
@@ -560,11 +540,9 @@ export default {
       "masked": "The performer knows how to ____.",
       "options": [
         "entertain-mcq-02",
-        "entertain-mcq-01",
-        "entertain-mcq-03",
-        "entertain-mcq-04",
+        "entertain-mcq-09",
         "entertain-mcq-05",
-        "entertain-mcq-06"
+        "entertain-mcq-08"
       ],
       "explanation": "本句的「entertain a crowd」指「使某人保持興趣、得到娛樂或享受」。",
       "sentenceIndex": 5,
@@ -573,12 +551,10 @@ export default {
         "entertain a crowd"
       ],
       "optionReasons": {
-        "entertain-mcq-02": "本句指「使某人保持興趣、得到娛樂或享受」。",
-        "entertain-mcq-01": "「讓某人感到愉快、有趣或得到娛樂」是「entertain — amuse/provide enjoyment」的用法，與本句語境不同。",
-        "entertain-mcq-03": "「透過表演等讓觀眾得到娛樂」是「entertain an audience」的用法，與本句語境不同。",
-        "entertain-mcq-04": "「在家或其他場合款待、招待客人」是「entertain — host guests」的用法，與本句語境不同。",
-        "entertain-mcq-05": "「在自己家中宴客／招待朋友」是「entertain at home」的用法，與本句語境不同。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。"
+        "entertain-mcq-02": "本句的「entertain a crowd」指「使某人保持興趣、得到娛樂或享受」。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-02"
     },
@@ -590,11 +566,9 @@ export default {
       "masked": "They often ____.",
       "options": [
         "entertain-mcq-04",
-        "entertain-mcq-03",
-        "entertain-mcq-05",
-        "entertain-mcq-02",
-        "entertain-mcq-06",
-        "entertain-mcq-01"
+        "entertain-mcq-18",
+        "entertain-mcq-12",
+        "entertain-mcq-08"
       ],
       "explanation": "本句的「entertain friends at home」指「在家或其他場合款待、招待客人」。",
       "sentenceIndex": 6,
@@ -603,12 +577,10 @@ export default {
         "entertain friends at home"
       ],
       "optionReasons": {
-        "entertain-mcq-04": "本句指「在家或其他場合款待、招待客人」。",
-        "entertain-mcq-03": "「透過表演等讓觀眾得到娛樂」是「entertain an audience」的用法，與本句語境不同。",
-        "entertain-mcq-05": "「在自己家中宴客／招待朋友」是「entertain at home」的用法，與本句語境不同。",
-        "entertain-mcq-02": "「使某人保持興趣、得到娛樂或享受」是「entertain someone」的用法，與本句語境不同。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。",
-        "entertain-mcq-01": "「讓某人感到愉快、有趣或得到娛樂」是「entertain — amuse/provide enjoyment」的用法，與本句語境不同。"
+        "entertain-mcq-04": "本句的「entertain friends at home」指「在家或其他場合款待、招待客人」。",
+        "entertain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-04"
     },
@@ -620,11 +592,9 @@ export default {
       "masked": "She loves ____.",
       "options": [
         "entertain-mcq-04",
-        "entertain-mcq-03",
-        "entertain-mcq-05",
-        "entertain-mcq-02",
-        "entertain-mcq-06",
-        "entertain-mcq-01"
+        "entertain-mcq-11",
+        "entertain-mcq-01",
+        "entertain-mcq-09"
       ],
       "explanation": "本句的「entertaining guests」指「在家或其他場合款待、招待客人」。",
       "sentenceIndex": 7,
@@ -633,12 +603,10 @@ export default {
         "entertaining guests"
       ],
       "optionReasons": {
-        "entertain-mcq-04": "本句指「在家或其他場合款待、招待客人」。",
-        "entertain-mcq-03": "「透過表演等讓觀眾得到娛樂」是「entertain an audience」的用法，與本句語境不同。",
-        "entertain-mcq-05": "「在自己家中宴客／招待朋友」是「entertain at home」的用法，與本句語境不同。",
-        "entertain-mcq-02": "「使某人保持興趣、得到娛樂或享受」是「entertain someone」的用法，與本句語境不同。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。",
-        "entertain-mcq-01": "「讓某人感到愉快、有趣或得到娛樂」是「entertain — amuse/provide enjoyment」的用法，與本句語境不同。"
+        "entertain-mcq-04": "本句的「entertaining guests」指「在家或其他場合款待、招待客人」。",
+        "entertain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-04"
     },
@@ -650,11 +618,9 @@ export default {
       "masked": "They prefer to ____ rather than eat out.",
       "options": [
         "entertain-mcq-05",
-        "entertain-mcq-04",
-        "entertain-mcq-06",
-        "entertain-mcq-03",
-        "entertain-mcq-07",
-        "entertain-mcq-02"
+        "entertain-mcq-12",
+        "entertain-mcq-11",
+        "entertain-mcq-09"
       ],
       "explanation": "本句的「entertain at home」指「在自己家中宴客／招待朋友」。",
       "sentenceIndex": 8,
@@ -663,12 +629,10 @@ export default {
         "entertain at home"
       ],
       "optionReasons": {
-        "entertain-mcq-05": "本句指「在自己家中宴客／招待朋友」。",
-        "entertain-mcq-04": "「在家或其他場合款待、招待客人」是「entertain — host guests」的用法，與本句語境不同。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。",
-        "entertain-mcq-03": "「透過表演等讓觀眾得到娛樂」是「entertain an audience」的用法，與本句語境不同。",
-        "entertain-mcq-07": "「把某個想法納入考慮；心存某念頭」是「entertain an idea/thought」的用法，與本句語境不同。",
-        "entertain-mcq-02": "「使某人保持興趣、得到娛樂或享受」是「entertain someone」的用法，與本句語境不同。"
+        "entertain-mcq-05": "本句的「entertain at home」指「在自己家中宴客／招待朋友」。",
+        "entertain-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-05"
     },
@@ -680,11 +644,8 @@ export default {
       "masked": "The kitchen was designed for people who enjoy ____.",
       "options": [
         "entertain-mcq-05",
-        "entertain-mcq-04",
-        "entertain-mcq-06",
-        "entertain-mcq-03",
-        "entertain-mcq-07",
-        "entertain-mcq-02"
+        "entertain-mcq-19",
+        "entertain-mcq-07"
       ],
       "explanation": "本句的「entertaining at home」指「在自己家中宴客／招待朋友」。",
       "sentenceIndex": 9,
@@ -693,12 +654,9 @@ export default {
         "entertaining at home"
       ],
       "optionReasons": {
-        "entertain-mcq-05": "本句指「在自己家中宴客／招待朋友」。",
-        "entertain-mcq-04": "「在家或其他場合款待、招待客人」是「entertain — host guests」的用法，與本句語境不同。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。",
-        "entertain-mcq-03": "「透過表演等讓觀眾得到娛樂」是「entertain an audience」的用法，與本句語境不同。",
-        "entertain-mcq-07": "「把某個想法納入考慮；心存某念頭」是「entertain an idea/thought」的用法，與本句語境不同。",
-        "entertain-mcq-02": "「使某人保持興趣、得到娛樂或享受」是「entertain someone」的用法，與本句語境不同。"
+        "entertain-mcq-05": "本句的「entertaining at home」指「在自己家中宴客／招待朋友」。",
+        "entertain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-05"
     },
@@ -710,11 +668,9 @@ export default {
       "masked": "She briefly ____.",
       "options": [
         "entertain-mcq-07",
-        "entertain-mcq-06",
-        "entertain-mcq-08",
-        "entertain-mcq-05",
-        "entertain-mcq-09",
-        "entertain-mcq-04"
+        "entertain-mcq-04",
+        "entertain-mcq-18",
+        "entertain-mcq-03"
       ],
       "explanation": "本句的「entertained the idea of moving abroad」指「把某個想法納入考慮；心存某念頭」。",
       "sentenceIndex": 10,
@@ -723,12 +679,10 @@ export default {
         "entertained the idea of moving abroad"
       ],
       "optionReasons": {
-        "entertain-mcq-07": "本句指「把某個想法納入考慮；心存某念頭」。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。",
-        "entertain-mcq-08": "「考慮某事可能發生或成立」是「entertain the possibility」的用法，與本句語境不同。",
-        "entertain-mcq-05": "「在自己家中宴客／招待朋友」是「entertain at home」的用法，與本句語境不同。",
-        "entertain-mcq-09": "「心中存有疑慮／希望」是「entertain doubts/hopes」的用法，與本句語境不同。",
-        "entertain-mcq-04": "「在家或其他場合款待、招待客人」是「entertain — host guests」的用法，與本句語境不同。"
+        "entertain-mcq-07": "本句的「entertained the idea of moving abroad」指「把某個想法納入考慮；心存某念頭」。",
+        "entertain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-07"
     },
@@ -740,10 +694,8 @@ export default {
       "masked": "I never seriously ____ of quitting.",
       "options": [
         "entertain-mcq-07",
-        "entertain-mcq-06",
-        "entertain-mcq-08",
-        "entertain-mcq-05",
-        "entertain-mcq-09",
+        "entertain-mcq-02",
+        "entertain-mcq-18",
         "entertain-mcq-04"
       ],
       "explanation": "本句的「entertained the thought」指「把某個想法納入考慮；心存某念頭」。",
@@ -753,12 +705,10 @@ export default {
         "entertained the thought"
       ],
       "optionReasons": {
-        "entertain-mcq-07": "本句指「把某個想法納入考慮；心存某念頭」。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。",
-        "entertain-mcq-08": "「考慮某事可能發生或成立」是「entertain the possibility」的用法，與本句語境不同。",
-        "entertain-mcq-05": "「在自己家中宴客／招待朋友」是「entertain at home」的用法，與本句語境不同。",
-        "entertain-mcq-09": "「心中存有疑慮／希望」是「entertain doubts/hopes」的用法，與本句語境不同。",
-        "entertain-mcq-04": "「在家或其他場合款待、招待客人」是「entertain — host guests」的用法，與本句語境不同。"
+        "entertain-mcq-07": "本句的「entertained the thought」指「把某個想法納入考慮；心存某念頭」。",
+        "entertain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-07"
     },
@@ -770,11 +720,9 @@ export default {
       "masked": "We have to ____ that the plan may fail.",
       "options": [
         "entertain-mcq-08",
-        "entertain-mcq-07",
-        "entertain-mcq-09",
-        "entertain-mcq-06",
-        "entertain-mcq-10",
-        "entertain-mcq-05"
+        "entertain-mcq-01",
+        "entertain-mcq-04",
+        "entertain-mcq-18"
       ],
       "explanation": "本句的「entertain the possibility」指「考慮某事可能發生或成立」。",
       "sentenceIndex": 12,
@@ -783,12 +731,10 @@ export default {
         "entertain the possibility"
       ],
       "optionReasons": {
-        "entertain-mcq-08": "本句指「考慮某事可能發生或成立」。",
-        "entertain-mcq-07": "「把某個想法納入考慮；心存某念頭」是「entertain an idea/thought」的用法，與本句語境不同。",
-        "entertain-mcq-09": "「心中存有疑慮／希望」是「entertain doubts/hopes」的用法，與本句語境不同。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。",
-        "entertain-mcq-10": "「正式考慮或受理提議、要求等」是「entertain a proposal/request」的用法，與本句語境不同。",
-        "entertain-mcq-05": "「在自己家中宴客／招待朋友」是「entertain at home」的用法，與本句語境不同。"
+        "entertain-mcq-08": "本句的「entertain the possibility」指「考慮某事可能發生或成立」。",
+        "entertain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-08"
     },
@@ -800,11 +746,9 @@ export default {
       "masked": "He refused to ____ that he might be wrong.",
       "options": [
         "entertain-mcq-08",
-        "entertain-mcq-07",
-        "entertain-mcq-09",
-        "entertain-mcq-06",
-        "entertain-mcq-10",
-        "entertain-mcq-05"
+        "entertain-mcq-01",
+        "entertain-mcq-05",
+        "entertain-mcq-09"
       ],
       "explanation": "本句的「entertain the possibility」指「考慮某事可能發生或成立」。",
       "sentenceIndex": 13,
@@ -813,12 +757,10 @@ export default {
         "entertain the possibility"
       ],
       "optionReasons": {
-        "entertain-mcq-08": "本句指「考慮某事可能發生或成立」。",
-        "entertain-mcq-07": "「把某個想法納入考慮；心存某念頭」是「entertain an idea/thought」的用法，與本句語境不同。",
-        "entertain-mcq-09": "「心中存有疑慮／希望」是「entertain doubts/hopes」的用法，與本句語境不同。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。",
-        "entertain-mcq-10": "「正式考慮或受理提議、要求等」是「entertain a proposal/request」的用法，與本句語境不同。",
-        "entertain-mcq-05": "「在自己家中宴客／招待朋友」是「entertain at home」的用法，與本句語境不同。"
+        "entertain-mcq-08": "本句的「entertain the possibility」指「考慮某事可能發生或成立」。",
+        "entertain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-08"
     },
@@ -830,11 +772,9 @@ export default {
       "masked": "She began to ____ about the decision.",
       "options": [
         "entertain-mcq-09",
-        "entertain-mcq-08",
-        "entertain-mcq-10",
-        "entertain-mcq-07",
-        "entertain-mcq-11",
-        "entertain-mcq-06"
+        "entertain-mcq-04",
+        "entertain-mcq-18",
+        "entertain-mcq-19"
       ],
       "explanation": "本句的「entertain doubts」指「心中存有疑慮／希望」。",
       "sentenceIndex": 14,
@@ -843,12 +783,10 @@ export default {
         "entertain doubts"
       ],
       "optionReasons": {
-        "entertain-mcq-09": "本句指「心中存有疑慮／希望」。",
-        "entertain-mcq-08": "「考慮某事可能發生或成立」是「entertain the possibility」的用法，與本句語境不同。",
-        "entertain-mcq-10": "「正式考慮或受理提議、要求等」是「entertain a proposal/request」的用法，與本句語境不同。",
-        "entertain-mcq-07": "「把某個想法納入考慮；心存某念頭」是「entertain an idea/thought」的用法，與本句語境不同。",
-        "entertain-mcq-11": "「連考慮／討論某事也拒絕；不予受理」是「refuse to entertain something」的用法，與本句語境不同。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。"
+        "entertain-mcq-09": "本句的「entertain doubts」指「心中存有疑慮／希望」。",
+        "entertain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-09"
     },
@@ -860,11 +798,9 @@ export default {
       "masked": "He still ____ of returning one day.",
       "options": [
         "entertain-mcq-09",
-        "entertain-mcq-08",
-        "entertain-mcq-10",
-        "entertain-mcq-07",
-        "entertain-mcq-11",
-        "entertain-mcq-06"
+        "entertain-mcq-04",
+        "entertain-mcq-16",
+        "entertain-mcq-18"
       ],
       "explanation": "本句的「entertained hopes」指「心中存有疑慮／希望」。",
       "sentenceIndex": 15,
@@ -873,12 +809,10 @@ export default {
         "entertained hopes"
       ],
       "optionReasons": {
-        "entertain-mcq-09": "本句指「心中存有疑慮／希望」。",
-        "entertain-mcq-08": "「考慮某事可能發生或成立」是「entertain the possibility」的用法，與本句語境不同。",
-        "entertain-mcq-10": "「正式考慮或受理提議、要求等」是「entertain a proposal/request」的用法，與本句語境不同。",
-        "entertain-mcq-07": "「把某個想法納入考慮；心存某念頭」是「entertain an idea/thought」的用法，與本句語境不同。",
-        "entertain-mcq-11": "「連考慮／討論某事也拒絕；不予受理」是「refuse to entertain something」的用法，與本句語境不同。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。"
+        "entertain-mcq-09": "本句的「entertained hopes」指「心中存有疑慮／希望」。",
+        "entertain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-09"
     },
@@ -890,11 +824,9 @@ export default {
       "masked": "The committee agreed to ____.",
       "options": [
         "entertain-mcq-10",
-        "entertain-mcq-09",
-        "entertain-mcq-11",
-        "entertain-mcq-08",
-        "entertain-mcq-12",
-        "entertain-mcq-07"
+        "entertain-mcq-16",
+        "entertain-mcq-04",
+        "entertain-mcq-18"
       ],
       "explanation": "本句的「entertain the proposal」指「正式考慮或受理提議、要求等」。",
       "sentenceIndex": 16,
@@ -903,12 +835,10 @@ export default {
         "entertain the proposal"
       ],
       "optionReasons": {
-        "entertain-mcq-10": "本句指「正式考慮或受理提議、要求等」。",
-        "entertain-mcq-09": "「心中存有疑慮／希望」是「entertain doubts/hopes」的用法，與本句語境不同。",
-        "entertain-mcq-11": "「連考慮／討論某事也拒絕；不予受理」是「refuse to entertain something」的用法，與本句語境不同。",
-        "entertain-mcq-08": "「考慮某事可能發生或成立」是「entertain the possibility」的用法，與本句語境不同。",
-        "entertain-mcq-12": "「能帶來享受並保持興趣的；有娛樂性／有趣的」是「entertaining」的用法，與本句語境不同。",
-        "entertain-mcq-07": "「把某個想法納入考慮；心存某念頭」是「entertain an idea/thought」的用法，與本句語境不同。"
+        "entertain-mcq-10": "本句的「entertain the proposal」指「正式考慮或受理提議、要求等」。",
+        "entertain-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-10"
     },
@@ -920,11 +850,9 @@ export default {
       "masked": "The company will not ____ submitted after the deadline.",
       "options": [
         "entertain-mcq-10",
-        "entertain-mcq-09",
-        "entertain-mcq-11",
-        "entertain-mcq-08",
-        "entertain-mcq-12",
-        "entertain-mcq-07"
+        "entertain-mcq-18",
+        "entertain-mcq-16",
+        "entertain-mcq-04"
       ],
       "explanation": "本句的「entertain requests」指「正式考慮或受理提議、要求等」。",
       "sentenceIndex": 17,
@@ -933,12 +861,10 @@ export default {
         "entertain requests"
       ],
       "optionReasons": {
-        "entertain-mcq-10": "本句指「正式考慮或受理提議、要求等」。",
-        "entertain-mcq-09": "「心中存有疑慮／希望」是「entertain doubts/hopes」的用法，與本句語境不同。",
-        "entertain-mcq-11": "「連考慮／討論某事也拒絕；不予受理」是「refuse to entertain something」的用法，與本句語境不同。",
-        "entertain-mcq-08": "「考慮某事可能發生或成立」是「entertain the possibility」的用法，與本句語境不同。",
-        "entertain-mcq-12": "「能帶來享受並保持興趣的；有娛樂性／有趣的」是「entertaining」的用法，與本句語境不同。",
-        "entertain-mcq-07": "「把某個想法納入考慮；心存某念頭」是「entertain an idea/thought」的用法，與本句語境不同。"
+        "entertain-mcq-10": "本句的「entertain requests」指「正式考慮或受理提議、要求等」。",
+        "entertain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-10"
     },
@@ -950,11 +876,9 @@ export default {
       "masked": "She refused to ____.",
       "options": [
         "entertain-mcq-11",
-        "entertain-mcq-10",
-        "entertain-mcq-12",
-        "entertain-mcq-09",
-        "entertain-mcq-13",
-        "entertain-mcq-08"
+        "entertain-mcq-17",
+        "entertain-mcq-03",
+        "entertain-mcq-18"
       ],
       "explanation": "本句的「entertain the suggestion」指「連考慮／討論某事也拒絕；不予受理」。",
       "sentenceIndex": 18,
@@ -963,12 +887,10 @@ export default {
         "entertain the suggestion"
       ],
       "optionReasons": {
-        "entertain-mcq-11": "本句指「連考慮／討論某事也拒絕；不予受理」。",
-        "entertain-mcq-10": "「正式考慮或受理提議、要求等」是「entertain a proposal/request」的用法，與本句語境不同。",
-        "entertain-mcq-12": "「能帶來享受並保持興趣的；有娛樂性／有趣的」是「entertaining」的用法，與本句語境不同。",
-        "entertain-mcq-09": "「心中存有疑慮／希望」是「entertain doubts/hopes」的用法，與本句語境不同。",
-        "entertain-mcq-13": "「因活動、表演等而感到愉快或有興趣的」是「entertained」的用法，與本句語境不同。",
-        "entertain-mcq-08": "「考慮某事可能發生或成立」是「entertain the possibility」的用法，與本句語境不同。"
+        "entertain-mcq-11": "本句的「entertain the suggestion」指「連考慮／討論某事也拒絕；不予受理」。",
+        "entertain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-11"
     },
@@ -980,11 +902,9 @@ export default {
       "masked": "The court declined to ____.",
       "options": [
         "entertain-mcq-11",
-        "entertain-mcq-10",
-        "entertain-mcq-12",
-        "entertain-mcq-09",
-        "entertain-mcq-13",
-        "entertain-mcq-08"
+        "entertain-mcq-16",
+        "entertain-mcq-18",
+        "entertain-mcq-04"
       ],
       "explanation": "本句的「entertain the application」指「連考慮／討論某事也拒絕；不予受理」。",
       "sentenceIndex": 19,
@@ -993,12 +913,10 @@ export default {
         "entertain the application"
       ],
       "optionReasons": {
-        "entertain-mcq-11": "本句指「連考慮／討論某事也拒絕；不予受理」。",
-        "entertain-mcq-10": "「正式考慮或受理提議、要求等」是「entertain a proposal/request」的用法，與本句語境不同。",
-        "entertain-mcq-12": "「能帶來享受並保持興趣的；有娛樂性／有趣的」是「entertaining」的用法，與本句語境不同。",
-        "entertain-mcq-09": "「心中存有疑慮／希望」是「entertain doubts/hopes」的用法，與本句語境不同。",
-        "entertain-mcq-13": "「因活動、表演等而感到愉快或有興趣的」是「entertained」的用法，與本句語境不同。",
-        "entertain-mcq-08": "「考慮某事可能發生或成立」是「entertain the possibility」的用法，與本句語境不同。"
+        "entertain-mcq-11": "本句的「entertain the application」指「連考慮／討論某事也拒絕；不予受理」。",
+        "entertain-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-11"
     },
@@ -1010,11 +928,8 @@ export default {
       "masked": "It was an ____ lecture.",
       "options": [
         "entertain-mcq-12",
-        "entertain-mcq-11",
-        "entertain-mcq-13",
-        "entertain-mcq-10",
-        "entertain-mcq-14",
-        "entertain-mcq-09"
+        "entertain-mcq-05",
+        "entertain-mcq-07"
       ],
       "explanation": "本句的「entertaining」指「能帶來享受並保持興趣的；有娛樂性／有趣的」。",
       "sentenceIndex": 20,
@@ -1023,12 +938,9 @@ export default {
         "entertaining"
       ],
       "optionReasons": {
-        "entertain-mcq-12": "本句指「能帶來享受並保持興趣的；有娛樂性／有趣的」。",
-        "entertain-mcq-11": "「連考慮／討論某事也拒絕；不予受理」是「refuse to entertain something」的用法，與本句語境不同。",
-        "entertain-mcq-13": "「因活動、表演等而感到愉快或有興趣的」是「entertained」的用法，與本句語境不同。",
-        "entertain-mcq-10": "「正式考慮或受理提議、要求等」是「entertain a proposal/request」的用法，與本句語境不同。",
-        "entertain-mcq-14": "「供人消遣、享受的娛樂／娛樂活動」是「entertainment — activity」的用法，與本句語境不同。",
-        "entertain-mcq-09": "「心中存有疑慮／希望」是「entertain doubts/hopes」的用法，與本句語境不同。"
+        "entertain-mcq-12": "本句的「entertaining」指「能帶來享受並保持興趣的；有娛樂性／有趣的」。",
+        "entertain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-12"
     },
@@ -1040,11 +952,9 @@ export default {
       "masked": "The novel is both intelligent and ____.",
       "options": [
         "entertain-mcq-12",
-        "entertain-mcq-11",
-        "entertain-mcq-13",
-        "entertain-mcq-10",
-        "entertain-mcq-14",
-        "entertain-mcq-09"
+        "entertain-mcq-04",
+        "entertain-mcq-07",
+        "entertain-mcq-18"
       ],
       "explanation": "本句的「entertaining」指「能帶來享受並保持興趣的；有娛樂性／有趣的」。",
       "sentenceIndex": 21,
@@ -1053,12 +963,10 @@ export default {
         "entertaining"
       ],
       "optionReasons": {
-        "entertain-mcq-12": "本句指「能帶來享受並保持興趣的；有娛樂性／有趣的」。",
-        "entertain-mcq-11": "「連考慮／討論某事也拒絕；不予受理」是「refuse to entertain something」的用法，與本句語境不同。",
-        "entertain-mcq-13": "「因活動、表演等而感到愉快或有興趣的」是「entertained」的用法，與本句語境不同。",
-        "entertain-mcq-10": "「正式考慮或受理提議、要求等」是「entertain a proposal/request」的用法，與本句語境不同。",
-        "entertain-mcq-14": "「供人消遣、享受的娛樂／娛樂活動」是「entertainment — activity」的用法，與本句語境不同。",
-        "entertain-mcq-09": "「心中存有疑慮／希望」是「entertain doubts/hopes」的用法，與本句語境不同。"
+        "entertain-mcq-12": "本句的「entertaining」指「能帶來享受並保持興趣的；有娛樂性／有趣的」。",
+        "entertain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-12"
     },
@@ -1070,11 +978,9 @@ export default {
       "masked": "He began his career as a street ____.",
       "options": [
         "entertain-mcq-16",
-        "entertain-mcq-15",
-        "entertain-mcq-17",
-        "entertain-mcq-14",
-        "entertain-mcq-18",
-        "entertain-mcq-13"
+        "entertain-mcq-05",
+        "entertain-mcq-08",
+        "entertain-mcq-09"
       ],
       "explanation": "本句的「entertainer」指「以表演來娛樂觀眾的藝人／表演者」。",
       "sentenceIndex": 22,
@@ -1083,12 +989,10 @@ export default {
         "entertainer"
       ],
       "optionReasons": {
-        "entertain-mcq-16": "本句指「以表演來娛樂觀眾的藝人／表演者」。",
-        "entertain-mcq-15": "「電影、音樂、遊戲等娛樂內容／娛樂業」是「entertainment — media/industry」的用法，與本句語境不同。",
-        "entertain-mcq-17": "「商務上招待客戶等產生的應酬／招待費」是「entertainment expenses」的用法，與本句語境不同。",
-        "entertain-mcq-14": "「供人消遣、享受的娛樂／娛樂活動」是「entertainment — activity」的用法，與本句語境不同。",
-        "entertain-mcq-18": "「自己找活動消遣；自娛」是「entertain yourself」的用法，與本句語境不同。",
-        "entertain-mcq-13": "「因活動、表演等而感到愉快或有興趣的」是「entertained」的用法，與本句語境不同。"
+        "entertain-mcq-16": "本句的「entertainer」指「以表演來娛樂觀眾的藝人／表演者」。",
+        "entertain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-16"
     },
@@ -1100,11 +1004,9 @@ export default {
       "masked": "She is a natural ____.",
       "options": [
         "entertain-mcq-16",
-        "entertain-mcq-15",
-        "entertain-mcq-17",
-        "entertain-mcq-14",
-        "entertain-mcq-18",
-        "entertain-mcq-13"
+        "entertain-mcq-09",
+        "entertain-mcq-08",
+        "entertain-mcq-17"
       ],
       "explanation": "本句的「entertainer」指「以表演來娛樂觀眾的藝人／表演者」。",
       "sentenceIndex": 23,
@@ -1113,12 +1015,10 @@ export default {
         "entertainer"
       ],
       "optionReasons": {
-        "entertain-mcq-16": "本句指「以表演來娛樂觀眾的藝人／表演者」。",
-        "entertain-mcq-15": "「電影、音樂、遊戲等娛樂內容／娛樂業」是「entertainment — media/industry」的用法，與本句語境不同。",
-        "entertain-mcq-17": "「商務上招待客戶等產生的應酬／招待費」是「entertainment expenses」的用法，與本句語境不同。",
-        "entertain-mcq-14": "「供人消遣、享受的娛樂／娛樂活動」是「entertainment — activity」的用法，與本句語境不同。",
-        "entertain-mcq-18": "「自己找活動消遣；自娛」是「entertain yourself」的用法，與本句語境不同。",
-        "entertain-mcq-13": "「因活動、表演等而感到愉快或有興趣的」是「entertained」的用法，與本句語境不同。"
+        "entertain-mcq-16": "本句的「entertainer」指「以表演來娛樂觀眾的藝人／表演者」。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-16"
     },
@@ -1130,11 +1030,9 @@ export default {
       "masked": "Streaming has changed the way people consume ____.",
       "options": [
         "entertain-mcq-15",
-        "entertain-mcq-14",
-        "entertain-mcq-16",
-        "entertain-mcq-13",
-        "entertain-mcq-17",
-        "entertain-mcq-12"
+        "entertain-mcq-09",
+        "entertain-mcq-11",
+        "entertain-mcq-05"
       ],
       "explanation": "本句的「entertainment」指「電影、音樂、遊戲等娛樂內容／娛樂業」。",
       "sentenceIndex": 24,
@@ -1143,12 +1041,10 @@ export default {
         "entertainment"
       ],
       "optionReasons": {
-        "entertain-mcq-15": "本句指「電影、音樂、遊戲等娛樂內容／娛樂業」。",
-        "entertain-mcq-14": "「供人消遣、享受的娛樂／娛樂活動」是「entertainment — activity」的用法，與本句語境不同。",
-        "entertain-mcq-16": "「以表演來娛樂觀眾的藝人／表演者」是「entertainer」的用法，與本句語境不同。",
-        "entertain-mcq-13": "「因活動、表演等而感到愉快或有興趣的」是「entertained」的用法，與本句語境不同。",
-        "entertain-mcq-17": "「商務上招待客戶等產生的應酬／招待費」是「entertainment expenses」的用法，與本句語境不同。",
-        "entertain-mcq-12": "「能帶來享受並保持興趣的；有娛樂性／有趣的」是「entertaining」的用法，與本句語境不同。"
+        "entertain-mcq-15": "本句的「entertainment」指「電影、音樂、遊戲等娛樂內容／娛樂業」。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-15"
     },
@@ -1160,11 +1056,9 @@ export default {
       "masked": "Games are a major form of digital ____.",
       "options": [
         "entertain-mcq-15",
-        "entertain-mcq-14",
-        "entertain-mcq-16",
-        "entertain-mcq-13",
-        "entertain-mcq-17",
-        "entertain-mcq-12"
+        "entertain-mcq-05",
+        "entertain-mcq-09",
+        "entertain-mcq-08"
       ],
       "explanation": "本句的「entertainment」指「電影、音樂、遊戲等娛樂內容／娛樂業」。",
       "sentenceIndex": 25,
@@ -1173,12 +1067,10 @@ export default {
         "entertainment"
       ],
       "optionReasons": {
-        "entertain-mcq-15": "本句指「電影、音樂、遊戲等娛樂內容／娛樂業」。",
-        "entertain-mcq-14": "「供人消遣、享受的娛樂／娛樂活動」是「entertainment — activity」的用法，與本句語境不同。",
-        "entertain-mcq-16": "「以表演來娛樂觀眾的藝人／表演者」是「entertainer」的用法，與本句語境不同。",
-        "entertain-mcq-13": "「因活動、表演等而感到愉快或有興趣的」是「entertained」的用法，與本句語境不同。",
-        "entertain-mcq-17": "「商務上招待客戶等產生的應酬／招待費」是「entertainment expenses」的用法，與本句語境不同。",
-        "entertain-mcq-12": "「能帶來享受並保持興趣的；有娛樂性／有趣的」是「entertaining」的用法，與本句語境不同。"
+        "entertain-mcq-15": "本句的「entertainment」指「電影、音樂、遊戲等娛樂內容／娛樂業」。",
+        "entertain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-15"
     },
@@ -1190,11 +1082,9 @@ export default {
       "masked": "Employees must record business ____.",
       "options": [
         "entertain-mcq-17",
-        "entertain-mcq-16",
-        "entertain-mcq-18",
-        "entertain-mcq-15",
-        "entertain-mcq-19",
-        "entertain-mcq-14"
+        "entertain-mcq-09",
+        "entertain-mcq-11",
+        "entertain-mcq-18"
       ],
       "explanation": "本句的「entertainment expenses」指「商務上招待客戶等產生的應酬／招待費」。",
       "sentenceIndex": 26,
@@ -1203,12 +1093,10 @@ export default {
         "entertainment expenses"
       ],
       "optionReasons": {
-        "entertain-mcq-17": "本句指「商務上招待客戶等產生的應酬／招待費」。",
-        "entertain-mcq-16": "「以表演來娛樂觀眾的藝人／表演者」是「entertainer」的用法，與本句語境不同。",
-        "entertain-mcq-18": "「自己找活動消遣；自娛」是「entertain yourself」的用法，與本句語境不同。",
-        "entertain-mcq-15": "「電影、音樂、遊戲等娛樂內容／娛樂業」是「entertainment — media/industry」的用法，與本句語境不同。",
-        "entertain-mcq-19": "「有娛樂性的；有趣的；令人享受的」是「Passage meaning」的用法，與本句語境不同。",
-        "entertain-mcq-14": "「供人消遣、享受的娛樂／娛樂活動」是「entertainment — activity」的用法，與本句語境不同。"
+        "entertain-mcq-17": "本句的「entertainment expenses」指「商務上招待客戶等產生的應酬／招待費」。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-17"
     },
@@ -1220,11 +1108,9 @@ export default {
       "masked": "The policy limits client ____.",
       "options": [
         "entertain-mcq-17",
+        "entertain-mcq-09",
         "entertain-mcq-16",
-        "entertain-mcq-18",
-        "entertain-mcq-15",
-        "entertain-mcq-19",
-        "entertain-mcq-14"
+        "entertain-mcq-11"
       ],
       "explanation": "本句的「entertainment」指「商務上招待客戶等產生的應酬／招待費」。",
       "sentenceIndex": 27,
@@ -1233,12 +1119,10 @@ export default {
         "entertainment"
       ],
       "optionReasons": {
-        "entertain-mcq-17": "本句指「商務上招待客戶等產生的應酬／招待費」。",
-        "entertain-mcq-16": "「以表演來娛樂觀眾的藝人／表演者」是「entertainer」的用法，與本句語境不同。",
-        "entertain-mcq-18": "「自己找活動消遣；自娛」是「entertain yourself」的用法，與本句語境不同。",
-        "entertain-mcq-15": "「電影、音樂、遊戲等娛樂內容／娛樂業」是「entertainment — media/industry」的用法，與本句語境不同。",
-        "entertain-mcq-19": "「有娛樂性的；有趣的；令人享受的」是「Passage meaning」的用法，與本句語境不同。",
-        "entertain-mcq-14": "「供人消遣、享受的娛樂／娛樂活動」是「entertainment — activity」的用法，與本句語境不同。"
+        "entertain-mcq-17": "本句的「entertainment」指「商務上招待客戶等產生的應酬／招待費」。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-17"
     },
@@ -1250,11 +1134,9 @@ export default {
       "masked": "He ____ by reading.",
       "options": [
         "entertain-mcq-18",
-        "entertain-mcq-17",
-        "entertain-mcq-19",
-        "entertain-mcq-16",
-        "entertain-mcq-15",
-        "entertain-mcq-14"
+        "entertain-mcq-08",
+        "entertain-mcq-09",
+        "entertain-mcq-04"
       ],
       "explanation": "本句的「entertained himself」指「自己找活動消遣；自娛」。",
       "sentenceIndex": 28,
@@ -1263,12 +1145,10 @@ export default {
         "entertained himself"
       ],
       "optionReasons": {
-        "entertain-mcq-18": "本句指「自己找活動消遣；自娛」。",
-        "entertain-mcq-17": "「商務上招待客戶等產生的應酬／招待費」是「entertainment expenses」的用法，與本句語境不同。",
-        "entertain-mcq-19": "「有娛樂性的；有趣的；令人享受的」是「Passage meaning」的用法，與本句語境不同。",
-        "entertain-mcq-16": "「以表演來娛樂觀眾的藝人／表演者」是「entertainer」的用法，與本句語境不同。",
-        "entertain-mcq-15": "「電影、音樂、遊戲等娛樂內容／娛樂業」是「entertainment — media/industry」的用法，與本句語境不同。",
-        "entertain-mcq-14": "「供人消遣、享受的娛樂／娛樂活動」是「entertainment — activity」的用法，與本句語境不同。"
+        "entertain-mcq-18": "本句的「entertained himself」指「自己找活動消遣；自娛」。",
+        "entertain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-18"
     },
@@ -1280,11 +1160,9 @@ export default {
       "masked": "The children found ways to ____.",
       "options": [
         "entertain-mcq-18",
-        "entertain-mcq-17",
-        "entertain-mcq-19",
-        "entertain-mcq-16",
-        "entertain-mcq-15",
-        "entertain-mcq-14"
+        "entertain-mcq-10",
+        "entertain-mcq-09",
+        "entertain-mcq-04"
       ],
       "explanation": "本句的「entertain themselves」指「自己找活動消遣；自娛」。",
       "sentenceIndex": 29,
@@ -1293,12 +1171,10 @@ export default {
         "entertain themselves"
       ],
       "optionReasons": {
-        "entertain-mcq-18": "本句指「自己找活動消遣；自娛」。",
-        "entertain-mcq-17": "「商務上招待客戶等產生的應酬／招待費」是「entertainment expenses」的用法，與本句語境不同。",
-        "entertain-mcq-19": "「有娛樂性的；有趣的；令人享受的」是「Passage meaning」的用法，與本句語境不同。",
-        "entertain-mcq-16": "「以表演來娛樂觀眾的藝人／表演者」是「entertainer」的用法，與本句語境不同。",
-        "entertain-mcq-15": "「電影、音樂、遊戲等娛樂內容／娛樂業」是「entertainment — media/industry」的用法，與本句語境不同。",
-        "entertain-mcq-14": "「供人消遣、享受的娛樂／娛樂活動」是「entertainment — activity」的用法，與本句語境不同。"
+        "entertain-mcq-18": "本句的「entertain themselves」指「自己找活動消遣；自娛」。",
+        "entertain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-18"
     },
@@ -1310,11 +1186,9 @@ export default {
       "masked": "The band ____ all evening.",
       "options": [
         "entertain-mcq-03",
-        "entertain-mcq-02",
-        "entertain-mcq-04",
-        "entertain-mcq-01",
         "entertain-mcq-05",
-        "entertain-mcq-06"
+        "entertain-mcq-11",
+        "entertain-mcq-09"
       ],
       "explanation": "本句的「entertained the audience」指「透過表演等讓觀眾得到娛樂」。",
       "sentenceIndex": 30,
@@ -1323,12 +1197,10 @@ export default {
         "entertained the audience"
       ],
       "optionReasons": {
-        "entertain-mcq-03": "本句指「透過表演等讓觀眾得到娛樂」。",
-        "entertain-mcq-02": "「使某人保持興趣、得到娛樂或享受」是「entertain someone」的用法，與本句語境不同。",
-        "entertain-mcq-04": "「在家或其他場合款待、招待客人」是「entertain — host guests」的用法，與本句語境不同。",
-        "entertain-mcq-01": "「讓某人感到愉快、有趣或得到娛樂」是「entertain — amuse/provide enjoyment」的用法，與本句語境不同。",
-        "entertain-mcq-05": "「在自己家中宴客／招待朋友」是「entertain at home」的用法，與本句語境不同。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。"
+        "entertain-mcq-03": "本句的「entertained the audience」指「透過表演等讓觀眾得到娛樂」。",
+        "entertain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-03"
     },
@@ -1340,11 +1212,9 @@ export default {
       "masked": "Her stories easily ____.",
       "options": [
         "entertain-mcq-03",
-        "entertain-mcq-02",
-        "entertain-mcq-04",
-        "entertain-mcq-01",
-        "entertain-mcq-05",
-        "entertain-mcq-06"
+        "entertain-mcq-11",
+        "entertain-mcq-09",
+        "entertain-mcq-05"
       ],
       "explanation": "本句的「entertain an audience」指「透過表演等讓觀眾得到娛樂」。",
       "sentenceIndex": 31,
@@ -1353,12 +1223,10 @@ export default {
         "entertain an audience"
       ],
       "optionReasons": {
-        "entertain-mcq-03": "本句指「透過表演等讓觀眾得到娛樂」。",
-        "entertain-mcq-02": "「使某人保持興趣、得到娛樂或享受」是「entertain someone」的用法，與本句語境不同。",
-        "entertain-mcq-04": "「在家或其他場合款待、招待客人」是「entertain — host guests」的用法，與本句語境不同。",
-        "entertain-mcq-01": "「讓某人感到愉快、有趣或得到娛樂」是「entertain — amuse/provide enjoyment」的用法，與本句語境不同。",
-        "entertain-mcq-05": "「在自己家中宴客／招待朋友」是「entertain at home」的用法，與本句語境不同。",
-        "entertain-mcq-06": "「為客人提供飲食、交流等款待」是「entertain guests」的用法，與本句語境不同。"
+        "entertain-mcq-03": "本句的「entertain an audience」指「透過表演等讓觀眾得到娛樂」。",
+        "entertain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-03"
     },
@@ -1371,10 +1239,8 @@ export default {
       "options": [
         "entertain-mcq-18",
         "entertain-mcq-17",
-        "entertain-mcq-19",
-        "entertain-mcq-16",
-        "entertain-mcq-15",
-        "entertain-mcq-14"
+        "entertain-mcq-09",
+        "entertain-mcq-11"
       ],
       "explanation": "本句的「entertain guests」指「自己找活動消遣；自娛」。",
       "sentenceIndex": 32,
@@ -1383,12 +1249,10 @@ export default {
         "entertain guests"
       ],
       "optionReasons": {
-        "entertain-mcq-18": "本句指「自己找活動消遣；自娛」。",
-        "entertain-mcq-17": "「商務上招待客戶等產生的應酬／招待費」是「entertainment expenses」的用法，與本句語境不同。",
-        "entertain-mcq-19": "「有娛樂性的；有趣的；令人享受的」是「Passage meaning」的用法，與本句語境不同。",
-        "entertain-mcq-16": "「以表演來娛樂觀眾的藝人／表演者」是「entertainer」的用法，與本句語境不同。",
-        "entertain-mcq-15": "「電影、音樂、遊戲等娛樂內容／娛樂業」是「entertainment — media/industry」的用法，與本句語境不同。",
-        "entertain-mcq-14": "「供人消遣、享受的娛樂／娛樂活動」是「entertainment — activity」的用法，與本句語境不同。"
+        "entertain-mcq-18": "本句的「entertain guests」指「自己找活動消遣；自娛」。",
+        "entertain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-18"
     },
@@ -1400,11 +1264,9 @@ export default {
       "masked": "They frequently ____ at weekends.",
       "options": [
         "entertain-mcq-18",
-        "entertain-mcq-17",
-        "entertain-mcq-19",
-        "entertain-mcq-16",
-        "entertain-mcq-15",
-        "entertain-mcq-14"
+        "entertain-mcq-09",
+        "entertain-mcq-04",
+        "entertain-mcq-11"
       ],
       "explanation": "本句的「entertain guests」指「自己找活動消遣；自娛」。",
       "sentenceIndex": 33,
@@ -1413,12 +1275,10 @@ export default {
         "entertain guests"
       ],
       "optionReasons": {
-        "entertain-mcq-18": "本句指「自己找活動消遣；自娛」。",
-        "entertain-mcq-17": "「商務上招待客戶等產生的應酬／招待費」是「entertainment expenses」的用法，與本句語境不同。",
-        "entertain-mcq-19": "「有娛樂性的；有趣的；令人享受的」是「Passage meaning」的用法，與本句語境不同。",
-        "entertain-mcq-16": "「以表演來娛樂觀眾的藝人／表演者」是「entertainer」的用法，與本句語境不同。",
-        "entertain-mcq-15": "「電影、音樂、遊戲等娛樂內容／娛樂業」是「entertainment — media/industry」的用法，與本句語境不同。",
-        "entertain-mcq-14": "「供人消遣、享受的娛樂／娛樂活動」是「entertainment — activity」的用法，與本句語境不同。"
+        "entertain-mcq-18": "本句的「entertain guests」指「自己找活動消遣；自娛」。",
+        "entertain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "entertain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entertain-mcq-18"
     }
@@ -1430,5 +1290,7 @@ export default {
     "sha256": "6dc46509257e0ec82115e0c65fb038be6cc9411c6d7fa0a21d11177914b28097",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

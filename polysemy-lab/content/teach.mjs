@@ -424,7 +424,7 @@ export default {
     },
     {
       "id": "teach-mcq-21",
-      "title": "表示教；教導；教授",
+      "title": "教；教導；教授",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示教；教導；教授",
@@ -507,7 +507,7 @@ export default {
     },
     {
       "id": "teach-mcq-25",
-      "title": "表示教義；教導",
+      "title": "教義；教導",
       "form": "22. teaching — doctrine / principle",
       "en": "22. teaching — doctrine / principle",
       "zh": "表示教義；教導",
@@ -537,11 +537,9 @@ export default {
       "masked": "She ____ for two years.",
       "options": [
         "teach-mcq-21",
-        "teach-mcq-20",
         "teach-mcq-22",
-        "teach-mcq-19",
-        "teach-mcq-23",
-        "teach-mcq-18"
+        "teach-mcq-15",
+        "teach-mcq-24"
       ],
       "explanation": "本句的「taught me English」指「表示教；教導；教授」。",
       "sentenceIndex": 0,
@@ -550,12 +548,10 @@ export default {
         "taught me English"
       ],
       "optionReasons": {
-        "teach-mcq-21": "本句指「表示教；教導；教授」。",
-        "teach-mcq-20": "「自然出現、適合用來引導學習的教育契機」是「teachable moment」的用法，與本句語境不同。",
-        "teach-mcq-22": "「經驗告訴我們；經驗使人明白」是「15. experience teaches...」的用法，與本句語境不同。",
-        "teach-mcq-19": "「願意學習的；能被教授的」是「teachable」的用法，與本句語境不同。",
-        "teach-mcq-23": "「這下得到教訓了吧；看你下次還敢不敢」是「18. that’ll teach you / that’ll teach someone」的用法，與本句語境不同。",
-        "teach-mcq-18": "「某宗教、哲學家或思想體系所傳授的教義／思想」是「teachings」的用法，與本句語境不同。"
+        "teach-mcq-21": "本句的「taught me English」指「表示教；教導；教授」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-21"
     },
@@ -567,11 +563,9 @@ export default {
       "masked": "A good teacher does more than ____; they can also shape how students think.",
       "options": [
         "teach-mcq-21",
-        "teach-mcq-20",
         "teach-mcq-22",
-        "teach-mcq-19",
-        "teach-mcq-23",
-        "teach-mcq-18"
+        "teach-mcq-15",
+        "teach-mcq-24"
       ],
       "explanation": "本句的「teach a subject」指「表示教；教導；教授」。",
       "sentenceIndex": 1,
@@ -580,12 +574,10 @@ export default {
         "teach a subject"
       ],
       "optionReasons": {
-        "teach-mcq-21": "本句指「表示教；教導；教授」。",
-        "teach-mcq-20": "「自然出現、適合用來引導學習的教育契機」是「teachable moment」的用法，與本句語境不同。",
-        "teach-mcq-22": "「經驗告訴我們；經驗使人明白」是「15. experience teaches...」的用法，與本句語境不同。",
-        "teach-mcq-19": "「願意學習的；能被教授的」是「teachable」的用法，與本句語境不同。",
-        "teach-mcq-23": "「這下得到教訓了吧；看你下次還敢不敢」是「18. that’ll teach you / that’ll teach someone」的用法，與本句語境不同。",
-        "teach-mcq-18": "「某宗教、哲學家或思想體系所傳授的教義／思想」是「teachings」的用法，與本句語境不同。"
+        "teach-mcq-21": "本句的「teach a subject」指「表示教；教導；教授」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-21"
     },
@@ -597,11 +589,9 @@ export default {
       "masked": "She ____ at a secondary school.",
       "options": [
         "teach-mcq-01",
-        "teach-mcq-02",
-        "teach-mcq-03",
-        "teach-mcq-04",
-        "teach-mcq-05",
-        "teach-mcq-06"
+        "teach-mcq-14",
+        "teach-mcq-22",
+        "teach-mcq-24"
       ],
       "explanation": "本句的「teaches English」指「幫助某人學會知識、技能或科目；教／教導」。",
       "sentenceIndex": 2,
@@ -610,12 +600,10 @@ export default {
         "teaches English"
       ],
       "optionReasons": {
-        "teach-mcq-01": "本句指「幫助某人學會知識、技能或科目；教／教導」。",
-        "teach-mcq-02": "「把某項知識、內容或技能教給某人」是「teach someone something」的用法，與本句語境不同。",
-        "teach-mcq-03": "「向某人教授某項知識或技能」是「teach something to someone」的用法，與本句語境不同。",
-        "teach-mcq-04": "「教某人學會做某個動作或技能」是「teach someone to do something」的用法，與本句語境不同。",
-        "teach-mcq-05": "「解釋並訓練某人掌握某種做法」是「teach someone how to do something」的用法，與本句語境不同。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。"
+        "teach-mcq-01": "本句的「teaches English」指「幫助某人學會知識、技能或科目；教／教導」。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-01"
     },
@@ -627,11 +615,9 @@ export default {
       "masked": "My father ____.",
       "options": [
         "teach-mcq-01",
-        "teach-mcq-02",
-        "teach-mcq-03",
-        "teach-mcq-04",
-        "teach-mcq-05",
-        "teach-mcq-06"
+        "teach-mcq-14",
+        "teach-mcq-22",
+        "teach-mcq-23"
       ],
       "explanation": "本句的「taught me how to cook」指「幫助某人學會知識、技能或科目；教／教導」。",
       "sentenceIndex": 3,
@@ -640,12 +626,10 @@ export default {
         "taught me how to cook"
       ],
       "optionReasons": {
-        "teach-mcq-01": "本句指「幫助某人學會知識、技能或科目；教／教導」。",
-        "teach-mcq-02": "「把某項知識、內容或技能教給某人」是「teach someone something」的用法，與本句語境不同。",
-        "teach-mcq-03": "「向某人教授某項知識或技能」是「teach something to someone」的用法，與本句語境不同。",
-        "teach-mcq-04": "「教某人學會做某個動作或技能」是「teach someone to do something」的用法，與本句語境不同。",
-        "teach-mcq-05": "「解釋並訓練某人掌握某種做法」是「teach someone how to do something」的用法，與本句語境不同。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。"
+        "teach-mcq-01": "本句的「taught me how to cook」指「幫助某人學會知識、技能或科目；教／教導」。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-01"
     },
@@ -657,11 +641,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "teach-mcq-02",
-        "teach-mcq-01",
-        "teach-mcq-03",
-        "teach-mcq-04",
-        "teach-mcq-05",
-        "teach-mcq-06"
+        "teach-mcq-22",
+        "teach-mcq-14",
+        "teach-mcq-24"
       ],
       "explanation": "本句的「taught us grammar」指「把某項知識、內容或技能教給某人」。",
       "sentenceIndex": 4,
@@ -670,12 +652,10 @@ export default {
         "taught us grammar"
       ],
       "optionReasons": {
-        "teach-mcq-02": "本句指「把某項知識、內容或技能教給某人」。",
-        "teach-mcq-01": "「幫助某人學會知識、技能或科目；教／教導」是「teach — general instruction」的用法，與本句語境不同。",
-        "teach-mcq-03": "「向某人教授某項知識或技能」是「teach something to someone」的用法，與本句語境不同。",
-        "teach-mcq-04": "「教某人學會做某個動作或技能」是「teach someone to do something」的用法，與本句語境不同。",
-        "teach-mcq-05": "「解釋並訓練某人掌握某種做法」是「teach someone how to do something」的用法，與本句語境不同。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。"
+        "teach-mcq-02": "本句的「taught us grammar」指「把某項知識、內容或技能教給某人」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-02"
     },
@@ -687,11 +667,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "teach-mcq-02",
-        "teach-mcq-01",
-        "teach-mcq-03",
-        "teach-mcq-04",
-        "teach-mcq-05",
-        "teach-mcq-06"
+        "teach-mcq-22",
+        "teach-mcq-14",
+        "teach-mcq-24"
       ],
       "explanation": "本句的「taught the children basic safety rules」指「把某項知識、內容或技能教給某人」。",
       "sentenceIndex": 5,
@@ -700,12 +678,10 @@ export default {
         "taught the children basic safety rules"
       ],
       "optionReasons": {
-        "teach-mcq-02": "本句指「把某項知識、內容或技能教給某人」。",
-        "teach-mcq-01": "「幫助某人學會知識、技能或科目；教／教導」是「teach — general instruction」的用法，與本句語境不同。",
-        "teach-mcq-03": "「向某人教授某項知識或技能」是「teach something to someone」的用法，與本句語境不同。",
-        "teach-mcq-04": "「教某人學會做某個動作或技能」是「teach someone to do something」的用法，與本句語境不同。",
-        "teach-mcq-05": "「解釋並訓練某人掌握某種做法」是「teach someone how to do something」的用法，與本句語境不同。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。"
+        "teach-mcq-02": "本句的「taught the children basic safety rules」指「把某項知識、內容或技能教給某人」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-02"
     },
@@ -717,11 +693,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "teach-mcq-03",
-        "teach-mcq-02",
-        "teach-mcq-04",
-        "teach-mcq-01",
-        "teach-mcq-05",
-        "teach-mcq-06"
+        "teach-mcq-24",
+        "teach-mcq-15",
+        "teach-mcq-22"
       ],
       "explanation": "本句的「taught English to adult learners」指「向某人教授某項知識或技能」。",
       "sentenceIndex": 6,
@@ -730,12 +704,10 @@ export default {
         "taught English to adult learners"
       ],
       "optionReasons": {
-        "teach-mcq-03": "本句指「向某人教授某項知識或技能」。",
-        "teach-mcq-02": "「把某項知識、內容或技能教給某人」是「teach someone something」的用法，與本句語境不同。",
-        "teach-mcq-04": "「教某人學會做某個動作或技能」是「teach someone to do something」的用法，與本句語境不同。",
-        "teach-mcq-01": "「幫助某人學會知識、技能或科目；教／教導」是「teach — general instruction」的用法，與本句語境不同。",
-        "teach-mcq-05": "「解釋並訓練某人掌握某種做法」是「teach someone how to do something」的用法，與本句語境不同。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。"
+        "teach-mcq-03": "本句的「taught English to adult learners」指「向某人教授某項知識或技能」。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-03"
     },
@@ -747,11 +719,9 @@ export default {
       "masked": "The course ____.",
       "options": [
         "teach-mcq-03",
-        "teach-mcq-02",
-        "teach-mcq-04",
-        "teach-mcq-01",
-        "teach-mcq-05",
-        "teach-mcq-06"
+        "teach-mcq-15",
+        "teach-mcq-24",
+        "teach-mcq-22"
       ],
       "explanation": "本句的「teaches basic coding to beginners」指「向某人教授某項知識或技能」。",
       "sentenceIndex": 7,
@@ -760,12 +730,10 @@ export default {
         "teaches basic coding to beginners"
       ],
       "optionReasons": {
-        "teach-mcq-03": "本句指「向某人教授某項知識或技能」。",
-        "teach-mcq-02": "「把某項知識、內容或技能教給某人」是「teach someone something」的用法，與本句語境不同。",
-        "teach-mcq-04": "「教某人學會做某個動作或技能」是「teach someone to do something」的用法，與本句語境不同。",
-        "teach-mcq-01": "「幫助某人學會知識、技能或科目；教／教導」是「teach — general instruction」的用法，與本句語境不同。",
-        "teach-mcq-05": "「解釋並訓練某人掌握某種做法」是「teach someone how to do something」的用法，與本句語境不同。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。"
+        "teach-mcq-03": "本句的「teaches basic coding to beginners」指「向某人教授某項知識或技能」。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-03"
     },
@@ -777,11 +745,9 @@ export default {
       "masked": "My mother ____.",
       "options": [
         "teach-mcq-04",
-        "teach-mcq-03",
-        "teach-mcq-05",
-        "teach-mcq-02",
-        "teach-mcq-06",
-        "teach-mcq-01"
+        "teach-mcq-14",
+        "teach-mcq-22",
+        "teach-mcq-23"
       ],
       "explanation": "本句的「taught me to swim」指「教某人學會做某個動作或技能」。",
       "sentenceIndex": 8,
@@ -790,12 +756,10 @@ export default {
         "taught me to swim"
       ],
       "optionReasons": {
-        "teach-mcq-04": "本句指「教某人學會做某個動作或技能」。",
-        "teach-mcq-03": "「向某人教授某項知識或技能」是「teach something to someone」的用法，與本句語境不同。",
-        "teach-mcq-05": "「解釋並訓練某人掌握某種做法」是「teach someone how to do something」的用法，與本句語境不同。",
-        "teach-mcq-02": "「把某項知識、內容或技能教給某人」是「teach someone something」的用法，與本句語境不同。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。",
-        "teach-mcq-01": "「幫助某人學會知識、技能或科目；教／教導」是「teach — general instruction」的用法，與本句語境不同。"
+        "teach-mcq-04": "本句的「taught me to swim」指「教某人學會做某個動作或技能」。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-04"
     },
@@ -807,11 +771,9 @@ export default {
       "masked": "The coach ____.",
       "options": [
         "teach-mcq-04",
-        "teach-mcq-03",
-        "teach-mcq-05",
-        "teach-mcq-02",
-        "teach-mcq-06",
-        "teach-mcq-01"
+        "teach-mcq-22",
+        "teach-mcq-14",
+        "teach-mcq-24"
       ],
       "explanation": "本句的「taught the players to stay calm under pressure」指「教某人學會做某個動作或技能」。",
       "sentenceIndex": 9,
@@ -820,12 +782,10 @@ export default {
         "taught the players to stay calm under pressure"
       ],
       "optionReasons": {
-        "teach-mcq-04": "本句指「教某人學會做某個動作或技能」。",
-        "teach-mcq-03": "「向某人教授某項知識或技能」是「teach something to someone」的用法，與本句語境不同。",
-        "teach-mcq-05": "「解釋並訓練某人掌握某種做法」是「teach someone how to do something」的用法，與本句語境不同。",
-        "teach-mcq-02": "「把某項知識、內容或技能教給某人」是「teach someone something」的用法，與本句語境不同。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。",
-        "teach-mcq-01": "「幫助某人學會知識、技能或科目；教／教導」是「teach — general instruction」的用法，與本句語境不同。"
+        "teach-mcq-04": "本句的「taught the players to stay calm under pressure」指「教某人學會做某個動作或技能」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-04"
     },
@@ -837,11 +797,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "teach-mcq-05",
-        "teach-mcq-04",
-        "teach-mcq-06",
-        "teach-mcq-03",
-        "teach-mcq-07",
-        "teach-mcq-02"
+        "teach-mcq-15",
+        "teach-mcq-14",
+        "teach-mcq-24"
       ],
       "explanation": "本句的「teach me how to use this software」指「解釋並訓練某人掌握某種做法」。",
       "sentenceIndex": 10,
@@ -850,12 +808,10 @@ export default {
         "teach me how to use this software"
       ],
       "optionReasons": {
-        "teach-mcq-05": "本句指「解釋並訓練某人掌握某種做法」。",
-        "teach-mcq-04": "「教某人學會做某個動作或技能」是「teach someone to do something」的用法，與本句語境不同。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。",
-        "teach-mcq-03": "「向某人教授某項知識或技能」是「teach something to someone」的用法，與本句語境不同。",
-        "teach-mcq-07": "「負責某班級或課程的教學」是「teach a class/course」的用法，與本句語境不同。",
-        "teach-mcq-02": "「把某項知識、內容或技能教給某人」是「teach someone something」的用法，與本句語境不同。"
+        "teach-mcq-05": "本句的「teach me how to use this software」指「解釋並訓練某人掌握某種做法」。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-05"
     },
@@ -867,11 +823,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "teach-mcq-05",
-        "teach-mcq-04",
-        "teach-mcq-06",
-        "teach-mcq-03",
-        "teach-mcq-07",
-        "teach-mcq-02"
+        "teach-mcq-24",
+        "teach-mcq-14",
+        "teach-mcq-15"
       ],
       "explanation": "本句的「taught us how to structure an essay」指「解釋並訓練某人掌握某種做法」。",
       "sentenceIndex": 11,
@@ -880,12 +834,10 @@ export default {
         "taught us how to structure an essay"
       ],
       "optionReasons": {
-        "teach-mcq-05": "本句指「解釋並訓練某人掌握某種做法」。",
-        "teach-mcq-04": "「教某人學會做某個動作或技能」是「teach someone to do something」的用法，與本句語境不同。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。",
-        "teach-mcq-03": "「向某人教授某項知識或技能」是「teach something to someone」的用法，與本句語境不同。",
-        "teach-mcq-07": "「負責某班級或課程的教學」是「teach a class/course」的用法，與本句語境不同。",
-        "teach-mcq-02": "「把某項知識、內容或技能教給某人」是「teach someone something」的用法，與本句語境不同。"
+        "teach-mcq-05": "本句的「taught us how to structure an essay」指「解釋並訓練某人掌握某種做法」。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-05"
     },
@@ -897,11 +849,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "teach-mcq-06",
-        "teach-mcq-05",
-        "teach-mcq-07",
-        "teach-mcq-04",
-        "teach-mcq-08",
-        "teach-mcq-03"
+        "teach-mcq-22",
+        "teach-mcq-14",
+        "teach-mcq-23"
       ],
       "explanation": "本句的「teaches mathematics」指「在學校或其他場合教授某一學科」。",
       "sentenceIndex": 12,
@@ -910,12 +860,10 @@ export default {
         "teaches mathematics"
       ],
       "optionReasons": {
-        "teach-mcq-06": "本句指「在學校或其他場合教授某一學科」。",
-        "teach-mcq-05": "「解釋並訓練某人掌握某種做法」是「teach someone how to do something」的用法，與本句語境不同。",
-        "teach-mcq-07": "「負責某班級或課程的教學」是「teach a class/course」的用法，與本句語境不同。",
-        "teach-mcq-04": "「教某人學會做某個動作或技能」是「teach someone to do something」的用法，與本句語境不同。",
-        "teach-mcq-08": "「以教師身分任教／從事教學工作」是「teach — profession」的用法，與本句語境不同。",
-        "teach-mcq-03": "「向某人教授某項知識或技能」是「teach something to someone」的用法，與本句語境不同。"
+        "teach-mcq-06": "本句的「teaches mathematics」指「在學校或其他場合教授某一學科」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-06"
     },
@@ -927,11 +875,9 @@ export default {
       "masked": "She has ____ for ten years.",
       "options": [
         "teach-mcq-06",
-        "teach-mcq-05",
-        "teach-mcq-07",
-        "teach-mcq-04",
-        "teach-mcq-08",
-        "teach-mcq-03"
+        "teach-mcq-22",
+        "teach-mcq-14",
+        "teach-mcq-02"
       ],
       "explanation": "本句的「taught history」指「在學校或其他場合教授某一學科」。",
       "sentenceIndex": 13,
@@ -940,12 +886,10 @@ export default {
         "taught history"
       ],
       "optionReasons": {
-        "teach-mcq-06": "本句指「在學校或其他場合教授某一學科」。",
-        "teach-mcq-05": "「解釋並訓練某人掌握某種做法」是「teach someone how to do something」的用法，與本句語境不同。",
-        "teach-mcq-07": "「負責某班級或課程的教學」是「teach a class/course」的用法，與本句語境不同。",
-        "teach-mcq-04": "「教某人學會做某個動作或技能」是「teach someone to do something」的用法，與本句語境不同。",
-        "teach-mcq-08": "「以教師身分任教／從事教學工作」是「teach — profession」的用法，與本句語境不同。",
-        "teach-mcq-03": "「向某人教授某項知識或技能」是「teach something to someone」的用法，與本句語境不同。"
+        "teach-mcq-06": "本句的「taught history」指「在學校或其他場合教授某一學科」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-06"
     },
@@ -957,11 +901,9 @@ export default {
       "masked": "She ____ every morning.",
       "options": [
         "teach-mcq-07",
-        "teach-mcq-06",
-        "teach-mcq-08",
-        "teach-mcq-05",
-        "teach-mcq-09",
-        "teach-mcq-04"
+        "teach-mcq-14",
+        "teach-mcq-22",
+        "teach-mcq-23"
       ],
       "explanation": "本句的「teaches three classes」指「負責某班級或課程的教學」。",
       "sentenceIndex": 14,
@@ -970,12 +912,10 @@ export default {
         "teaches three classes"
       ],
       "optionReasons": {
-        "teach-mcq-07": "本句指「負責某班級或課程的教學」。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。",
-        "teach-mcq-08": "「以教師身分任教／從事教學工作」是「teach — profession」的用法，與本句語境不同。",
-        "teach-mcq-05": "「解釋並訓練某人掌握某種做法」是「teach someone how to do something」的用法，與本句語境不同。",
-        "teach-mcq-09": "「在某學校、機構或地方任教」是「teach at/in」的用法，與本句語境不同。",
-        "teach-mcq-04": "「教某人學會做某個動作或技能」是「teach someone to do something」的用法，與本句語境不同。"
+        "teach-mcq-07": "本句的「teaches three classes」指「負責某班級或課程的教學」。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-07"
     },
@@ -987,11 +927,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "teach-mcq-07",
-        "teach-mcq-06",
-        "teach-mcq-08",
-        "teach-mcq-05",
-        "teach-mcq-09",
-        "teach-mcq-04"
+        "teach-mcq-22",
+        "teach-mcq-14",
+        "teach-mcq-15"
       ],
       "explanation": "本句的「teaches a course on modern literature」指「負責某班級或課程的教學」。",
       "sentenceIndex": 15,
@@ -1000,12 +938,10 @@ export default {
         "teaches a course on modern literature"
       ],
       "optionReasons": {
-        "teach-mcq-07": "本句指「負責某班級或課程的教學」。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。",
-        "teach-mcq-08": "「以教師身分任教／從事教學工作」是「teach — profession」的用法，與本句語境不同。",
-        "teach-mcq-05": "「解釋並訓練某人掌握某種做法」是「teach someone how to do something」的用法，與本句語境不同。",
-        "teach-mcq-09": "「在某學校、機構或地方任教」是「teach at/in」的用法，與本句語境不同。",
-        "teach-mcq-04": "「教某人學會做某個動作或技能」是「teach someone to do something」的用法，與本句語境不同。"
+        "teach-mcq-07": "本句的「teaches a course on modern literature」指「負責某班級或課程的教學」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-07"
     },
@@ -1017,11 +953,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "teach-mcq-08",
-        "teach-mcq-07",
-        "teach-mcq-09",
-        "teach-mcq-06",
-        "teach-mcq-10",
-        "teach-mcq-05"
+        "teach-mcq-14",
+        "teach-mcq-22",
+        "teach-mcq-23"
       ],
       "explanation": "本句的「teaches at a local school」指「以教師身分任教／從事教學工作」。",
       "sentenceIndex": 16,
@@ -1030,12 +964,10 @@ export default {
         "teaches at a local school"
       ],
       "optionReasons": {
-        "teach-mcq-08": "本句指「以教師身分任教／從事教學工作」。",
-        "teach-mcq-07": "「負責某班級或課程的教學」是「teach a class/course」的用法，與本句語境不同。",
-        "teach-mcq-09": "「在某學校、機構或地方任教」是「teach at/in」的用法，與本句語境不同。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。",
-        "teach-mcq-10": "「某段經歷使人領悟或學會某件事」是「experience teaches someone something」的用法，與本句語境不同。",
-        "teach-mcq-05": "「解釋並訓練某人掌握某種做法」是「teach someone how to do something」的用法，與本句語境不同。"
+        "teach-mcq-08": "本句的「teaches at a local school」指「以教師身分任教／從事教學工作」。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-08"
     },
@@ -1047,11 +979,9 @@ export default {
       "masked": "He ____ before retiring.",
       "options": [
         "teach-mcq-08",
-        "teach-mcq-07",
-        "teach-mcq-09",
-        "teach-mcq-06",
-        "teach-mcq-10",
-        "teach-mcq-05"
+        "teach-mcq-22",
+        "teach-mcq-14",
+        "teach-mcq-24"
       ],
       "explanation": "本句的「taught for twenty years」指「以教師身分任教／從事教學工作」。",
       "sentenceIndex": 17,
@@ -1060,12 +990,10 @@ export default {
         "taught for twenty years"
       ],
       "optionReasons": {
-        "teach-mcq-08": "本句指「以教師身分任教／從事教學工作」。",
-        "teach-mcq-07": "「負責某班級或課程的教學」是「teach a class/course」的用法，與本句語境不同。",
-        "teach-mcq-09": "「在某學校、機構或地方任教」是「teach at/in」的用法，與本句語境不同。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。",
-        "teach-mcq-10": "「某段經歷使人領悟或學會某件事」是「experience teaches someone something」的用法，與本句語境不同。",
-        "teach-mcq-05": "「解釋並訓練某人掌握某種做法」是「teach someone how to do something」的用法，與本句語境不同。"
+        "teach-mcq-08": "本句的「taught for twenty years」指「以教師身分任教／從事教學工作」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-08"
     },
@@ -1077,11 +1005,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "teach-mcq-09",
-        "teach-mcq-08",
-        "teach-mcq-10",
-        "teach-mcq-07",
-        "teach-mcq-11",
-        "teach-mcq-06"
+        "teach-mcq-14",
+        "teach-mcq-22",
+        "teach-mcq-24"
       ],
       "explanation": "本句的「teaches at a university」指「在某學校、機構或地方任教」。",
       "sentenceIndex": 18,
@@ -1090,12 +1016,10 @@ export default {
         "teaches at a university"
       ],
       "optionReasons": {
-        "teach-mcq-09": "本句指「在某學校、機構或地方任教」。",
-        "teach-mcq-08": "「以教師身分任教／從事教學工作」是「teach — profession」的用法，與本句語境不同。",
-        "teach-mcq-10": "「某段經歷使人領悟或學會某件事」是「experience teaches someone something」的用法，與本句語境不同。",
-        "teach-mcq-07": "「負責某班級或課程的教學」是「teach a class/course」的用法，與本句語境不同。",
-        "teach-mcq-11": "「使某人從經驗中得到重要教訓」是「teach someone a lesson — learning」的用法，與本句語境不同。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。"
+        "teach-mcq-09": "本句的「teaches at a university」指「在某學校、機構或地方任教」。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-09"
     },
@@ -1107,11 +1031,9 @@ export default {
       "masked": "He ____ for several years.",
       "options": [
         "teach-mcq-09",
-        "teach-mcq-08",
-        "teach-mcq-10",
-        "teach-mcq-07",
-        "teach-mcq-11",
-        "teach-mcq-06"
+        "teach-mcq-22",
+        "teach-mcq-14",
+        "teach-mcq-23"
       ],
       "explanation": "本句的「taught in Japan」指「在某學校、機構或地方任教」。",
       "sentenceIndex": 19,
@@ -1120,12 +1042,10 @@ export default {
         "taught in Japan"
       ],
       "optionReasons": {
-        "teach-mcq-09": "本句指「在某學校、機構或地方任教」。",
-        "teach-mcq-08": "「以教師身分任教／從事教學工作」是「teach — profession」的用法，與本句語境不同。",
-        "teach-mcq-10": "「某段經歷使人領悟或學會某件事」是「experience teaches someone something」的用法，與本句語境不同。",
-        "teach-mcq-07": "「負責某班級或課程的教學」是「teach a class/course」的用法，與本句語境不同。",
-        "teach-mcq-11": "「使某人從經驗中得到重要教訓」是「teach someone a lesson — learning」的用法，與本句語境不同。",
-        "teach-mcq-06": "「在學校或其他場合教授某一學科」是「teach a subject」的用法，與本句語境不同。"
+        "teach-mcq-09": "本句的「taught in Japan」指「在某學校、機構或地方任教」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-09"
     },
@@ -1137,11 +1057,9 @@ export default {
       "masked": "The experience ____.",
       "options": [
         "teach-mcq-11",
-        "teach-mcq-10",
-        "teach-mcq-12",
-        "teach-mcq-09",
-        "teach-mcq-13",
-        "teach-mcq-08"
+        "teach-mcq-24",
+        "teach-mcq-15",
+        "teach-mcq-14"
       ],
       "explanation": "本句的「taught me patience」指「使某人從經驗中得到重要教訓」。",
       "sentenceIndex": 20,
@@ -1150,12 +1068,10 @@ export default {
         "taught me patience"
       ],
       "optionReasons": {
-        "teach-mcq-11": "本句指「使某人從經驗中得到重要教訓」。",
-        "teach-mcq-10": "「某段經歷使人領悟或學會某件事」是「experience teaches someone something」的用法，與本句語境不同。",
-        "teach-mcq-12": "「透過懲罰讓某人記取教訓」是「teach someone a lesson — punishment」的用法，與本句語境不同。",
-        "teach-mcq-09": "「在某學校、機構或地方任教」是「teach at/in」的用法，與本句語境不同。",
-        "teach-mcq-13": "「教導某人形成某種價值觀、習慣或行為方式」是「teach values/behavior」的用法，與本句語境不同。",
-        "teach-mcq-08": "「以教師身分任教／從事教學工作」是「teach — profession」的用法，與本句語境不同。"
+        "teach-mcq-11": "本句的「taught me patience」指「使某人從經驗中得到重要教訓」。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-11"
     },
@@ -1167,11 +1083,9 @@ export default {
       "masked": "Failure ____.",
       "options": [
         "teach-mcq-11",
-        "teach-mcq-10",
-        "teach-mcq-12",
-        "teach-mcq-09",
-        "teach-mcq-13",
-        "teach-mcq-08"
+        "teach-mcq-24",
+        "teach-mcq-14",
+        "teach-mcq-15"
       ],
       "explanation": "本句的「taught him an important lesson」指「使某人從經驗中得到重要教訓」。",
       "sentenceIndex": 21,
@@ -1180,12 +1094,10 @@ export default {
         "taught him an important lesson"
       ],
       "optionReasons": {
-        "teach-mcq-11": "本句指「使某人從經驗中得到重要教訓」。",
-        "teach-mcq-10": "「某段經歷使人領悟或學會某件事」是「experience teaches someone something」的用法，與本句語境不同。",
-        "teach-mcq-12": "「透過懲罰讓某人記取教訓」是「teach someone a lesson — punishment」的用法，與本句語境不同。",
-        "teach-mcq-09": "「在某學校、機構或地方任教」是「teach at/in」的用法，與本句語境不同。",
-        "teach-mcq-13": "「教導某人形成某種價值觀、習慣或行為方式」是「teach values/behavior」的用法，與本句語境不同。",
-        "teach-mcq-08": "「以教師身分任教／從事教學工作」是「teach — profession」的用法，與本句語境不同。"
+        "teach-mcq-11": "本句的「taught him an important lesson」指「使某人從經驗中得到重要教訓」。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-11"
     },
@@ -1197,11 +1109,9 @@ export default {
       "masked": "Parents ____ through both words and actions.",
       "options": [
         "teach-mcq-13",
-        "teach-mcq-12",
-        "teach-mcq-14",
-        "teach-mcq-11",
+        "teach-mcq-22",
         "teach-mcq-15",
-        "teach-mcq-10"
+        "teach-mcq-23"
       ],
       "explanation": "本句的「teach children respect」指「教導某人形成某種價值觀、習慣或行為方式」。",
       "sentenceIndex": 22,
@@ -1210,12 +1120,10 @@ export default {
         "teach children respect"
       ],
       "optionReasons": {
-        "teach-mcq-13": "本句指「教導某人形成某種價值觀、習慣或行為方式」。",
-        "teach-mcq-12": "「透過懲罰讓某人記取教訓」是「teach someone a lesson — punishment」的用法，與本句語境不同。",
-        "teach-mcq-14": "「傳授或主張某個原則、信念或觀念」是「teach that...」的用法，與本句語境不同。",
-        "teach-mcq-11": "「使某人從經驗中得到重要教訓」是「teach someone a lesson — learning」的用法，與本句語境不同。",
-        "teach-mcq-15": "「不依靠正式老師而自己學會；自學」是「teach yourself」的用法，與本句語境不同。",
-        "teach-mcq-10": "「某段經歷使人領悟或學會某件事」是「experience teaches someone something」的用法，與本句語境不同。"
+        "teach-mcq-13": "本句的「teach children respect」指「教導某人形成某種價值觀、習慣或行為方式」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-13"
     },
@@ -1227,11 +1135,9 @@ export default {
       "masked": "Sport can ____.",
       "options": [
         "teach-mcq-13",
-        "teach-mcq-12",
-        "teach-mcq-14",
-        "teach-mcq-11",
+        "teach-mcq-22",
         "teach-mcq-15",
-        "teach-mcq-10"
+        "teach-mcq-23"
       ],
       "explanation": "本句的「teach young people discipline」指「教導某人形成某種價值觀、習慣或行為方式」。",
       "sentenceIndex": 23,
@@ -1240,12 +1146,10 @@ export default {
         "teach young people discipline"
       ],
       "optionReasons": {
-        "teach-mcq-13": "本句指「教導某人形成某種價值觀、習慣或行為方式」。",
-        "teach-mcq-12": "「透過懲罰讓某人記取教訓」是「teach someone a lesson — punishment」的用法，與本句語境不同。",
-        "teach-mcq-14": "「傳授或主張某個原則、信念或觀念」是「teach that...」的用法，與本句語境不同。",
-        "teach-mcq-11": "「使某人從經驗中得到重要教訓」是「teach someone a lesson — learning」的用法，與本句語境不同。",
-        "teach-mcq-15": "「不依靠正式老師而自己學會；自學」是「teach yourself」的用法，與本句語境不同。",
-        "teach-mcq-10": "「某段經歷使人領悟或學會某件事」是「experience teaches someone something」的用法，與本句語境不同。"
+        "teach-mcq-13": "本句的「teach young people discipline」指「教導某人形成某種價值觀、習慣或行為方式」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-13"
     },
@@ -1257,11 +1161,9 @@ export default {
       "masked": "The course ____.",
       "options": [
         "teach-mcq-14",
-        "teach-mcq-13",
-        "teach-mcq-15",
-        "teach-mcq-12",
-        "teach-mcq-16",
-        "teach-mcq-11"
+        "teach-mcq-08",
+        "teach-mcq-11",
+        "teach-mcq-24"
       ],
       "explanation": "本句的「teaches that communication is a two-way process」指「傳授或主張某個原則、信念或觀念」。",
       "sentenceIndex": 24,
@@ -1270,12 +1172,10 @@ export default {
         "teaches that communication is a two-way process"
       ],
       "optionReasons": {
-        "teach-mcq-14": "本句指「傳授或主張某個原則、信念或觀念」。",
-        "teach-mcq-13": "「教導某人形成某種價值觀、習慣或行為方式」是「teach values/behavior」的用法，與本句語境不同。",
-        "teach-mcq-15": "「不依靠正式老師而自己學會；自學」是「teach yourself」的用法，與本句語境不同。",
-        "teach-mcq-12": "「透過懲罰讓某人記取教訓」是「teach someone a lesson — punishment」的用法，與本句語境不同。",
-        "teach-mcq-16": "「負責教導學生的人；老師／教師」是「teacher」的用法，與本句語境不同。",
-        "teach-mcq-11": "「使某人從經驗中得到重要教訓」是「teach someone a lesson — learning」的用法，與本句語境不同。"
+        "teach-mcq-14": "本句的「teaches that communication is a two-way process」指「傳授或主張某個原則、信念或觀念」。",
+        "teach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-14"
     },
@@ -1287,11 +1187,9 @@ export default {
       "masked": "Many traditions ____.",
       "options": [
         "teach-mcq-14",
-        "teach-mcq-13",
+        "teach-mcq-25",
         "teach-mcq-15",
-        "teach-mcq-12",
-        "teach-mcq-16",
-        "teach-mcq-11"
+        "teach-mcq-24"
       ],
       "explanation": "本句的「teach that patience is a virtue」指「傳授或主張某個原則、信念或觀念」。",
       "sentenceIndex": 25,
@@ -1300,12 +1198,10 @@ export default {
         "teach that patience is a virtue"
       ],
       "optionReasons": {
-        "teach-mcq-14": "本句指「傳授或主張某個原則、信念或觀念」。",
-        "teach-mcq-13": "「教導某人形成某種價值觀、習慣或行為方式」是「teach values/behavior」的用法，與本句語境不同。",
-        "teach-mcq-15": "「不依靠正式老師而自己學會；自學」是「teach yourself」的用法，與本句語境不同。",
-        "teach-mcq-12": "「透過懲罰讓某人記取教訓」是「teach someone a lesson — punishment」的用法，與本句語境不同。",
-        "teach-mcq-16": "「負責教導學生的人；老師／教師」是「teacher」的用法，與本句語境不同。",
-        "teach-mcq-11": "「使某人從經驗中得到重要教訓」是「teach someone a lesson — learning」的用法，與本句語境不同。"
+        "teach-mcq-14": "本句的「teach that patience is a virtue」指「傳授或主張某個原則、信念或觀念」。",
+        "teach-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-14"
     },
@@ -1317,11 +1213,9 @@ export default {
       "masked": "Experience ____.",
       "options": [
         "teach-mcq-22",
-        "teach-mcq-21",
-        "teach-mcq-23",
-        "teach-mcq-20",
+        "teach-mcq-05",
         "teach-mcq-24",
-        "teach-mcq-19"
+        "teach-mcq-23"
       ],
       "explanation": "本句的「teaches us that preparation matters」指「經驗告訴我們；經驗使人明白」。",
       "sentenceIndex": 26,
@@ -1330,12 +1224,10 @@ export default {
         "teaches us that preparation matters"
       ],
       "optionReasons": {
-        "teach-mcq-22": "本句指「經驗告訴我們；經驗使人明白」。",
-        "teach-mcq-21": "「表示教；教導；教授」是「Passage meaning」的用法，與本句語境不同。",
-        "teach-mcq-23": "「這下得到教訓了吧；看你下次還敢不敢」是「18. that’ll teach you / that’ll teach someone」的用法，與本句語境不同。",
-        "teach-mcq-20": "「自然出現、適合用來引導學習的教育契機」是「teachable moment」的用法，與本句語境不同。",
-        "teach-mcq-24": "「老狗學不了新把戲；積習難改」是「19. you can’t teach an old dog new tricks」的用法，與本句語境不同。",
-        "teach-mcq-19": "「願意學習的；能被教授的」是「teachable」的用法，與本句語境不同。"
+        "teach-mcq-22": "本句的「teaches us that preparation matters」指「經驗告訴我們；經驗使人明白」。",
+        "teach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-22"
     },
@@ -1347,11 +1239,9 @@ export default {
       "masked": "History ____.",
       "options": [
         "teach-mcq-22",
-        "teach-mcq-21",
-        "teach-mcq-23",
-        "teach-mcq-20",
-        "teach-mcq-24",
-        "teach-mcq-19"
+        "teach-mcq-17",
+        "teach-mcq-14",
+        "teach-mcq-23"
       ],
       "explanation": "本句的「teaches us that change is rarely simple」指「經驗告訴我們；經驗使人明白」。",
       "sentenceIndex": 27,
@@ -1360,12 +1250,10 @@ export default {
         "teaches us that change is rarely simple"
       ],
       "optionReasons": {
-        "teach-mcq-22": "本句指「經驗告訴我們；經驗使人明白」。",
-        "teach-mcq-21": "「表示教；教導；教授」是「Passage meaning」的用法，與本句語境不同。",
-        "teach-mcq-23": "「這下得到教訓了吧；看你下次還敢不敢」是「18. that’ll teach you / that’ll teach someone」的用法，與本句語境不同。",
-        "teach-mcq-20": "「自然出現、適合用來引導學習的教育契機」是「teachable moment」的用法，與本句語境不同。",
-        "teach-mcq-24": "「老狗學不了新把戲；積習難改」是「19. you can’t teach an old dog new tricks」的用法，與本句語境不同。",
-        "teach-mcq-19": "「願意學習的；能被教授的」是「teachable」的用法，與本句語境不同。"
+        "teach-mcq-22": "本句的「teaches us that change is rarely simple」指「經驗告訴我們；經驗使人明白」。",
+        "teach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-22"
     },
@@ -1378,10 +1266,8 @@ export default {
       "options": [
         "teach-mcq-15",
         "teach-mcq-14",
-        "teach-mcq-16",
-        "teach-mcq-13",
-        "teach-mcq-17",
-        "teach-mcq-12"
+        "teach-mcq-03",
+        "teach-mcq-22"
       ],
       "explanation": "本句的「taught herself Spanish」指「不依靠正式老師而自己學會；自學」。",
       "sentenceIndex": 28,
@@ -1390,12 +1276,10 @@ export default {
         "taught herself Spanish"
       ],
       "optionReasons": {
-        "teach-mcq-15": "本句指「不依靠正式老師而自己學會；自學」。",
-        "teach-mcq-14": "「傳授或主張某個原則、信念或觀念」是「teach that...」的用法，與本句語境不同。",
-        "teach-mcq-16": "「負責教導學生的人；老師／教師」是「teacher」的用法，與本句語境不同。",
-        "teach-mcq-13": "「教導某人形成某種價值觀、習慣或行為方式」是「teach values/behavior」的用法，與本句語境不同。",
-        "teach-mcq-17": "「教授知識或技能的工作／教學」是「teaching — profession/activity」的用法，與本句語境不同。",
-        "teach-mcq-12": "「透過懲罰讓某人記取教訓」是「teach someone a lesson — punishment」的用法，與本句語境不同。"
+        "teach-mcq-15": "本句的「taught herself Spanish」指「不依靠正式老師而自己學會；自學」。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-15"
     },
@@ -1407,11 +1291,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "teach-mcq-15",
+        "teach-mcq-05",
         "teach-mcq-14",
-        "teach-mcq-16",
-        "teach-mcq-13",
-        "teach-mcq-17",
-        "teach-mcq-12"
+        "teach-mcq-23"
       ],
       "explanation": "本句的「taught himself to code」指「不依靠正式老師而自己學會；自學」。",
       "sentenceIndex": 29,
@@ -1420,12 +1302,10 @@ export default {
         "taught himself to code"
       ],
       "optionReasons": {
-        "teach-mcq-15": "本句指「不依靠正式老師而自己學會；自學」。",
-        "teach-mcq-14": "「傳授或主張某個原則、信念或觀念」是「teach that...」的用法，與本句語境不同。",
-        "teach-mcq-16": "「負責教導學生的人；老師／教師」是「teacher」的用法，與本句語境不同。",
-        "teach-mcq-13": "「教導某人形成某種價值觀、習慣或行為方式」是「teach values/behavior」的用法，與本句語境不同。",
-        "teach-mcq-17": "「教授知識或技能的工作／教學」是「teaching — profession/activity」的用法，與本句語境不同。",
-        "teach-mcq-12": "「透過懲罰讓某人記取教訓」是「teach someone a lesson — punishment」的用法，與本句語境不同。"
+        "teach-mcq-15": "本句的「taught himself to code」指「不依靠正式老師而自己學會；自學」。",
+        "teach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-15"
     },
@@ -1437,11 +1317,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "teach-mcq-15",
+        "teach-mcq-23",
         "teach-mcq-14",
-        "teach-mcq-16",
-        "teach-mcq-13",
-        "teach-mcq-17",
-        "teach-mcq-12"
+        "teach-mcq-02"
       ],
       "explanation": "本句的「taught myself to speak more slowly」指「不依靠正式老師而自己學會；自學」。",
       "sentenceIndex": 30,
@@ -1450,12 +1328,10 @@ export default {
         "taught myself to speak more slowly"
       ],
       "optionReasons": {
-        "teach-mcq-15": "本句指「不依靠正式老師而自己學會；自學」。",
-        "teach-mcq-14": "「傳授或主張某個原則、信念或觀念」是「teach that...」的用法，與本句語境不同。",
-        "teach-mcq-16": "「負責教導學生的人；老師／教師」是「teacher」的用法，與本句語境不同。",
-        "teach-mcq-13": "「教導某人形成某種價值觀、習慣或行為方式」是「teach values/behavior」的用法，與本句語境不同。",
-        "teach-mcq-17": "「教授知識或技能的工作／教學」是「teaching — profession/activity」的用法，與本句語境不同。",
-        "teach-mcq-12": "「透過懲罰讓某人記取教訓」是「teach someone a lesson — punishment」的用法，與本句語境不同。"
+        "teach-mcq-15": "本句的「taught myself to speak more slowly」指「不依靠正式老師而自己學會；自學」。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-15"
     },
@@ -1467,11 +1343,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "teach-mcq-15",
-        "teach-mcq-14",
-        "teach-mcq-16",
-        "teach-mcq-13",
-        "teach-mcq-17",
-        "teach-mcq-12"
+        "teach-mcq-21",
+        "teach-mcq-22",
+        "teach-mcq-24"
       ],
       "explanation": "本句的「taught herself to stay calm during interviews」指「不依靠正式老師而自己學會；自學」。",
       "sentenceIndex": 31,
@@ -1480,12 +1354,10 @@ export default {
         "taught herself to stay calm during interviews"
       ],
       "optionReasons": {
-        "teach-mcq-15": "本句指「不依靠正式老師而自己學會；自學」。",
-        "teach-mcq-14": "「傳授或主張某個原則、信念或觀念」是「teach that...」的用法，與本句語境不同。",
-        "teach-mcq-16": "「負責教導學生的人；老師／教師」是「teacher」的用法，與本句語境不同。",
-        "teach-mcq-13": "「教導某人形成某種價值觀、習慣或行為方式」是「teach values/behavior」的用法，與本句語境不同。",
-        "teach-mcq-17": "「教授知識或技能的工作／教學」是「teaching — profession/activity」的用法，與本句語境不同。",
-        "teach-mcq-12": "「透過懲罰讓某人記取教訓」是「teach someone a lesson — punishment」的用法，與本句語境不同。"
+        "teach-mcq-15": "本句的「taught herself to stay calm during interviews」指「不依靠正式老師而自己學會；自學」。",
+        "teach-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-15"
     },
@@ -1497,11 +1369,9 @@ export default {
       "masked": "I forgot my umbrella and got soaked.” “Well, ____.",
       "options": [
         "teach-mcq-23",
-        "teach-mcq-22",
-        "teach-mcq-24",
-        "teach-mcq-21",
-        "teach-mcq-25",
-        "teach-mcq-20"
+        "teach-mcq-15",
+        "teach-mcq-14",
+        "teach-mcq-24"
       ],
       "explanation": "本句的「that’ll teach you」指「這下得到教訓了吧；看你下次還敢不敢」。",
       "sentenceIndex": 32,
@@ -1510,12 +1380,10 @@ export default {
         "that’ll teach you"
       ],
       "optionReasons": {
-        "teach-mcq-23": "本句指「這下得到教訓了吧；看你下次還敢不敢」。",
-        "teach-mcq-22": "「經驗告訴我們；經驗使人明白」是「15. experience teaches...」的用法，與本句語境不同。",
-        "teach-mcq-24": "「老狗學不了新把戲；積習難改」是「19. you can’t teach an old dog new tricks」的用法，與本句語境不同。",
-        "teach-mcq-21": "「表示教；教導；教授」是「Passage meaning」的用法，與本句語境不同。",
-        "teach-mcq-25": "「表示教義；教導」是「22. teaching — doctrine / principle」的用法，與本句語境不同。",
-        "teach-mcq-20": "「自然出現、適合用來引導學習的教育契機」是「teachable moment」的用法，與本句語境不同。"
+        "teach-mcq-23": "本句的「that’ll teach you」指「這下得到教訓了吧；看你下次還敢不敢」。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-23"
     },
@@ -1527,11 +1395,9 @@ export default {
       "masked": "The embarrassing mistake ____.",
       "options": [
         "teach-mcq-23",
-        "teach-mcq-22",
-        "teach-mcq-24",
-        "teach-mcq-21",
-        "teach-mcq-25",
-        "teach-mcq-20"
+        "teach-mcq-14",
+        "teach-mcq-15",
+        "teach-mcq-22"
       ],
       "explanation": "本句的「taught him not to rush」指「這下得到教訓了吧；看你下次還敢不敢」。",
       "sentenceIndex": 33,
@@ -1540,12 +1406,10 @@ export default {
         "taught him not to rush"
       ],
       "optionReasons": {
-        "teach-mcq-23": "本句指「這下得到教訓了吧；看你下次還敢不敢」。",
-        "teach-mcq-22": "「經驗告訴我們；經驗使人明白」是「15. experience teaches...」的用法，與本句語境不同。",
-        "teach-mcq-24": "「老狗學不了新把戲；積習難改」是「19. you can’t teach an old dog new tricks」的用法，與本句語境不同。",
-        "teach-mcq-21": "「表示教；教導；教授」是「Passage meaning」的用法，與本句語境不同。",
-        "teach-mcq-25": "「表示教義；教導」是「22. teaching — doctrine / principle」的用法，與本句語境不同。",
-        "teach-mcq-20": "「自然出現、適合用來引導學習的教育契機」是「teachable moment」的用法，與本句語境不同。"
+        "teach-mcq-23": "本句的「taught him not to rush」指「這下得到教訓了吧；看你下次還敢不敢」。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-23"
     },
@@ -1557,11 +1421,9 @@ export default {
       "masked": "He refuses to use the new system—____, as they say.",
       "options": [
         "teach-mcq-24",
+        "teach-mcq-02",
         "teach-mcq-23",
-        "teach-mcq-25",
-        "teach-mcq-22",
-        "teach-mcq-21",
-        "teach-mcq-20"
+        "teach-mcq-22"
       ],
       "explanation": "本句的「you can’t teach an old dog new tricks」指「老狗學不了新把戲；積習難改」。",
       "sentenceIndex": 34,
@@ -1570,12 +1432,10 @@ export default {
         "you can’t teach an old dog new tricks"
       ],
       "optionReasons": {
-        "teach-mcq-24": "本句指「老狗學不了新把戲；積習難改」。",
-        "teach-mcq-23": "「這下得到教訓了吧；看你下次還敢不敢」是「18. that’ll teach you / that’ll teach someone」的用法，與本句語境不同。",
-        "teach-mcq-25": "「表示教義；教導」是「22. teaching — doctrine / principle」的用法，與本句語境不同。",
-        "teach-mcq-22": "「經驗告訴我們；經驗使人明白」是「15. experience teaches...」的用法，與本句語境不同。",
-        "teach-mcq-21": "「表示教；教導；教授」是「Passage meaning」的用法，與本句語境不同。",
-        "teach-mcq-20": "「自然出現、適合用來引導學習的教育契機」是「teachable moment」的用法，與本句語境不同。"
+        "teach-mcq-24": "本句的「you can’t teach an old dog new tricks」指「老狗學不了新把戲；積習難改」。",
+        "teach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-24"
     },
@@ -1587,11 +1447,9 @@ export default {
       "masked": "She is an English ____.",
       "options": [
         "teach-mcq-16",
-        "teach-mcq-15",
-        "teach-mcq-17",
         "teach-mcq-14",
-        "teach-mcq-18",
-        "teach-mcq-13"
+        "teach-mcq-22",
+        "teach-mcq-02"
       ],
       "explanation": "本句的「teacher」指「負責教導學生的人；老師／教師」。",
       "sentenceIndex": 35,
@@ -1600,12 +1458,10 @@ export default {
         "teacher"
       ],
       "optionReasons": {
-        "teach-mcq-16": "本句指「負責教導學生的人；老師／教師」。",
-        "teach-mcq-15": "「不依靠正式老師而自己學會；自學」是「teach yourself」的用法，與本句語境不同。",
-        "teach-mcq-17": "「教授知識或技能的工作／教學」是「teaching — profession/activity」的用法，與本句語境不同。",
-        "teach-mcq-14": "「傳授或主張某個原則、信念或觀念」是「teach that...」的用法，與本句語境不同。",
-        "teach-mcq-18": "「某宗教、哲學家或思想體系所傳授的教義／思想」是「teachings」的用法，與本句語境不同。",
-        "teach-mcq-13": "「教導某人形成某種價值觀、習慣或行為方式」是「teach values/behavior」的用法，與本句語境不同。"
+        "teach-mcq-16": "本句的「teacher」指「負責教導學生的人；老師／教師」。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-16"
     },
@@ -1617,11 +1473,9 @@ export default {
       "masked": "A good ____ can influence students far beyond the classroom.",
       "options": [
         "teach-mcq-16",
-        "teach-mcq-15",
-        "teach-mcq-17",
+        "teach-mcq-22",
         "teach-mcq-14",
-        "teach-mcq-18",
-        "teach-mcq-13"
+        "teach-mcq-02"
       ],
       "explanation": "本句的「teacher」指「負責教導學生的人；老師／教師」。",
       "sentenceIndex": 36,
@@ -1630,12 +1484,10 @@ export default {
         "teacher"
       ],
       "optionReasons": {
-        "teach-mcq-16": "本句指「負責教導學生的人；老師／教師」。",
-        "teach-mcq-15": "「不依靠正式老師而自己學會；自學」是「teach yourself」的用法，與本句語境不同。",
-        "teach-mcq-17": "「教授知識或技能的工作／教學」是「teaching — profession/activity」的用法，與本句語境不同。",
-        "teach-mcq-14": "「傳授或主張某個原則、信念或觀念」是「teach that...」的用法，與本句語境不同。",
-        "teach-mcq-18": "「某宗教、哲學家或思想體系所傳授的教義／思想」是「teachings」的用法，與本句語境不同。",
-        "teach-mcq-13": "「教導某人形成某種價值觀、習慣或行為方式」是「teach values/behavior」的用法，與本句語境不同。"
+        "teach-mcq-16": "本句的「teacher」指「負責教導學生的人；老師／教師」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-16"
     },
@@ -1647,11 +1499,9 @@ export default {
       "masked": "She has worked in ____ for many years.",
       "options": [
         "teach-mcq-17",
-        "teach-mcq-16",
-        "teach-mcq-18",
-        "teach-mcq-15",
-        "teach-mcq-19",
-        "teach-mcq-14"
+        "teach-mcq-22",
+        "teach-mcq-14",
+        "teach-mcq-23"
       ],
       "explanation": "本句的「teaching」指「教授知識或技能的工作／教學」。",
       "sentenceIndex": 37,
@@ -1660,12 +1510,10 @@ export default {
         "teaching"
       ],
       "optionReasons": {
-        "teach-mcq-17": "本句指「教授知識或技能的工作／教學」。",
-        "teach-mcq-16": "「負責教導學生的人；老師／教師」是「teacher」的用法，與本句語境不同。",
-        "teach-mcq-18": "「某宗教、哲學家或思想體系所傳授的教義／思想」是「teachings」的用法，與本句語境不同。",
-        "teach-mcq-15": "「不依靠正式老師而自己學會；自學」是「teach yourself」的用法，與本句語境不同。",
-        "teach-mcq-19": "「願意學習的；能被教授的」是「teachable」的用法，與本句語境不同。",
-        "teach-mcq-14": "「傳授或主張某個原則、信念或觀念」是「teach that...」的用法，與本句語境不同。"
+        "teach-mcq-17": "本句的「teaching」指「教授知識或技能的工作／教學」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-17"
     },
@@ -1677,11 +1525,9 @@ export default {
       "masked": "Good ____ requires patience and clarity.",
       "options": [
         "teach-mcq-17",
-        "teach-mcq-16",
-        "teach-mcq-18",
+        "teach-mcq-22",
         "teach-mcq-15",
-        "teach-mcq-19",
-        "teach-mcq-14"
+        "teach-mcq-24"
       ],
       "explanation": "本句的「teaching」指「教授知識或技能的工作／教學」。",
       "sentenceIndex": 38,
@@ -1690,12 +1536,10 @@ export default {
         "teaching"
       ],
       "optionReasons": {
-        "teach-mcq-17": "本句指「教授知識或技能的工作／教學」。",
-        "teach-mcq-16": "「負責教導學生的人；老師／教師」是「teacher」的用法，與本句語境不同。",
-        "teach-mcq-18": "「某宗教、哲學家或思想體系所傳授的教義／思想」是「teachings」的用法，與本句語境不同。",
-        "teach-mcq-15": "「不依靠正式老師而自己學會；自學」是「teach yourself」的用法，與本句語境不同。",
-        "teach-mcq-19": "「願意學習的；能被教授的」是「teachable」的用法，與本句語境不同。",
-        "teach-mcq-14": "「傳授或主張某個原則、信念或觀念」是「teach that...」的用法，與本句語境不同。"
+        "teach-mcq-17": "本句的「teaching」指「教授知識或技能的工作／教學」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-17"
     },
@@ -1707,11 +1551,9 @@ export default {
       "masked": "The book discusses Buddhist ____.",
       "options": [
         "teach-mcq-25",
-        "teach-mcq-24",
-        "teach-mcq-23",
+        "teach-mcq-14",
         "teach-mcq-22",
-        "teach-mcq-21",
-        "teach-mcq-20"
+        "teach-mcq-24"
       ],
       "explanation": "本句的「teachings」指「表示教義；教導」。",
       "sentenceIndex": 39,
@@ -1720,12 +1562,10 @@ export default {
         "teachings"
       ],
       "optionReasons": {
-        "teach-mcq-25": "本句指「表示教義；教導」。",
-        "teach-mcq-24": "「老狗學不了新把戲；積習難改」是「19. you can’t teach an old dog new tricks」的用法，與本句語境不同。",
-        "teach-mcq-23": "「這下得到教訓了吧；看你下次還敢不敢」是「18. that’ll teach you / that’ll teach someone」的用法，與本句語境不同。",
-        "teach-mcq-22": "「經驗告訴我們；經驗使人明白」是「15. experience teaches...」的用法，與本句語境不同。",
-        "teach-mcq-21": "「表示教；教導；教授」是「Passage meaning」的用法，與本句語境不同。",
-        "teach-mcq-20": "「自然出現、適合用來引導學習的教育契機」是「teachable moment」的用法，與本句語境不同。"
+        "teach-mcq-25": "本句的「teachings」指「表示教義；教導」。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-25"
     },
@@ -1737,11 +1577,9 @@ export default {
       "masked": "His ____ influenced later thinkers.",
       "options": [
         "teach-mcq-25",
-        "teach-mcq-24",
-        "teach-mcq-23",
-        "teach-mcq-22",
-        "teach-mcq-21",
-        "teach-mcq-20"
+        "teach-mcq-14",
+        "teach-mcq-15",
+        "teach-mcq-24"
       ],
       "explanation": "本句的「teachings」指「表示教義；教導」。",
       "sentenceIndex": 40,
@@ -1750,12 +1588,10 @@ export default {
         "teachings"
       ],
       "optionReasons": {
-        "teach-mcq-25": "本句指「表示教義；教導」。",
-        "teach-mcq-24": "「老狗學不了新把戲；積習難改」是「19. you can’t teach an old dog new tricks」的用法，與本句語境不同。",
-        "teach-mcq-23": "「這下得到教訓了吧；看你下次還敢不敢」是「18. that’ll teach you / that’ll teach someone」的用法，與本句語境不同。",
-        "teach-mcq-22": "「經驗告訴我們；經驗使人明白」是「15. experience teaches...」的用法，與本句語境不同。",
-        "teach-mcq-21": "「表示教；教導；教授」是「Passage meaning」的用法，與本句語境不同。",
-        "teach-mcq-20": "「自然出現、適合用來引導學習的教育契機」是「teachable moment」的用法，與本句語境不同。"
+        "teach-mcq-25": "本句的「teachings」指「表示教義；教導」。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-25"
     },
@@ -1767,11 +1603,9 @@ export default {
       "masked": "Curiosity and openness make someone more ____.",
       "options": [
         "teach-mcq-19",
-        "teach-mcq-18",
-        "teach-mcq-20",
-        "teach-mcq-17",
-        "teach-mcq-21",
-        "teach-mcq-16"
+        "teach-mcq-22",
+        "teach-mcq-14",
+        "teach-mcq-23"
       ],
       "explanation": "本句的「teachable」指「願意學習的；能被教授的」。",
       "sentenceIndex": 41,
@@ -1780,12 +1614,10 @@ export default {
         "teachable"
       ],
       "optionReasons": {
-        "teach-mcq-19": "本句指「願意學習的；能被教授的」。",
-        "teach-mcq-18": "「某宗教、哲學家或思想體系所傳授的教義／思想」是「teachings」的用法，與本句語境不同。",
-        "teach-mcq-20": "「自然出現、適合用來引導學習的教育契機」是「teachable moment」的用法，與本句語境不同。",
-        "teach-mcq-17": "「教授知識或技能的工作／教學」是「teaching — profession/activity」的用法，與本句語境不同。",
-        "teach-mcq-21": "「表示教；教導；教授」是「Passage meaning」的用法，與本句語境不同。",
-        "teach-mcq-16": "「負責教導學生的人；老師／教師」是「teacher」的用法，與本句語境不同。"
+        "teach-mcq-19": "本句的「teachable」指「願意學習的；能被教授的」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-19"
     },
@@ -1797,11 +1629,9 @@ export default {
       "masked": "Some skills are easier to make explicit and ____ than others.",
       "options": [
         "teach-mcq-19",
-        "teach-mcq-18",
-        "teach-mcq-20",
-        "teach-mcq-17",
-        "teach-mcq-21",
-        "teach-mcq-16"
+        "teach-mcq-22",
+        "teach-mcq-14",
+        "teach-mcq-15"
       ],
       "explanation": "本句的「teachable」指「願意學習的；能被教授的」。",
       "sentenceIndex": 42,
@@ -1810,12 +1640,10 @@ export default {
         "teachable"
       ],
       "optionReasons": {
-        "teach-mcq-19": "本句指「願意學習的；能被教授的」。",
-        "teach-mcq-18": "「某宗教、哲學家或思想體系所傳授的教義／思想」是「teachings」的用法，與本句語境不同。",
-        "teach-mcq-20": "「自然出現、適合用來引導學習的教育契機」是「teachable moment」的用法，與本句語境不同。",
-        "teach-mcq-17": "「教授知識或技能的工作／教學」是「teaching — profession/activity」的用法，與本句語境不同。",
-        "teach-mcq-21": "「表示教；教導；教授」是「Passage meaning」的用法，與本句語境不同。",
-        "teach-mcq-16": "「負責教導學生的人；老師／教師」是「teacher」的用法，與本句語境不同。"
+        "teach-mcq-19": "本句的「teachable」指「願意學習的；能被教授的」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-19"
     },
@@ -1827,11 +1655,9 @@ export default {
       "masked": "The mistake became a ____.",
       "options": [
         "teach-mcq-20",
-        "teach-mcq-19",
-        "teach-mcq-21",
-        "teach-mcq-18",
+        "teach-mcq-14",
         "teach-mcq-22",
-        "teach-mcq-17"
+        "teach-mcq-23"
       ],
       "explanation": "本句的「teachable moment」指「自然出現、適合用來引導學習的教育契機」。",
       "sentenceIndex": 43,
@@ -1840,12 +1666,10 @@ export default {
         "teachable moment"
       ],
       "optionReasons": {
-        "teach-mcq-20": "本句指「自然出現、適合用來引導學習的教育契機」。",
-        "teach-mcq-19": "「願意學習的；能被教授的」是「teachable」的用法，與本句語境不同。",
-        "teach-mcq-21": "「表示教；教導；教授」是「Passage meaning」的用法，與本句語境不同。",
-        "teach-mcq-18": "「某宗教、哲學家或思想體系所傳授的教義／思想」是「teachings」的用法，與本句語境不同。",
-        "teach-mcq-22": "「經驗告訴我們；經驗使人明白」是「15. experience teaches...」的用法，與本句語境不同。",
-        "teach-mcq-17": "「教授知識或技能的工作／教學」是「teaching — profession/activity」的用法，與本句語境不同。"
+        "teach-mcq-20": "本句的「teachable moment」指「自然出現、適合用來引導學習的教育契機」。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-20"
     },
@@ -1857,11 +1681,9 @@ export default {
       "masked": "Good teachers recognize ____.",
       "options": [
         "teach-mcq-20",
-        "teach-mcq-19",
-        "teach-mcq-21",
-        "teach-mcq-18",
         "teach-mcq-22",
-        "teach-mcq-17"
+        "teach-mcq-14",
+        "teach-mcq-02"
       ],
       "explanation": "本句的「teachable moments」指「自然出現、適合用來引導學習的教育契機」。",
       "sentenceIndex": 44,
@@ -1870,12 +1692,10 @@ export default {
         "teachable moments"
       ],
       "optionReasons": {
-        "teach-mcq-20": "本句指「自然出現、適合用來引導學習的教育契機」。",
-        "teach-mcq-19": "「願意學習的；能被教授的」是「teachable」的用法，與本句語境不同。",
-        "teach-mcq-21": "「表示教；教導；教授」是「Passage meaning」的用法，與本句語境不同。",
-        "teach-mcq-18": "「某宗教、哲學家或思想體系所傳授的教義／思想」是「teachings」的用法，與本句語境不同。",
-        "teach-mcq-22": "「經驗告訴我們；經驗使人明白」是「15. experience teaches...」的用法，與本句語境不同。",
-        "teach-mcq-17": "「教授知識或技能的工作／教學」是「teaching — profession/activity」的用法，與本句語境不同。"
+        "teach-mcq-20": "本句的「teachable moments」指「自然出現、適合用來引導學習的教育契機」。",
+        "teach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "teach-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "teach-mcq-20"
     }
@@ -1887,5 +1707,7 @@ export default {
     "sha256": "00c3c990dd678d2b2836775f9fae27d596c934af2e019ca47991381e8208a368",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

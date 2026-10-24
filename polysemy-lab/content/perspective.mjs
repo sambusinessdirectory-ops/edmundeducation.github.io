@@ -141,16 +141,6 @@ export default {
           "The camera shifts to a lower perspective.",
           "鏡頭轉到較低的視角。",
           "從某個觀察位置看到的視角／透視關係"
-        ],
-        [
-          "The documentary places the event in historical perspective.",
-          "這部紀錄片把事件放在歷史脈絡／整體視角中理解。",
-          "從某個觀察位置看到的視角／透視關係"
-        ],
-        [
-          "Looking at the data over twenty years gives us better perspective.",
-          "把二十年的數據一起看，能讓我們有更好的整體理解。",
-          "從某個觀察位置看到的視角／透視關係"
         ]
       ],
       "options": [],
@@ -194,6 +184,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "perspective-reviewed-1bf1c363e2",
+      "title": "背景；整體脈絡",
+      "form": "perspective · source section 8",
+      "en": "背景；整體脈絡",
+      "zh": "背景；整體脈絡",
+      "note": "對照原始教材第 8 節及例句核實。",
+      "examples": [
+        [
+          "The documentary places the event in historical perspective.",
+          "這部紀錄片把事件放在歷史脈絡／整體視角中理解。",
+          "背景；整體脈絡"
+        ],
+        [
+          "Looking at the data over twenty years gives us better perspective.",
+          "把二十年的數據一起看，能讓我們有更好的整體理解。",
+          "背景；整體脈絡"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -205,11 +217,8 @@ export default {
       "masked": "Try to see the issue from her ____.",
       "options": [
         "perspective-mcq-01",
-        "perspective-mcq-02",
-        "perspective-mcq-03",
-        "perspective-mcq-04",
-        "perspective-mcq-05",
-        "perspective-mcq-06"
+        "perspective-reviewed-1bf1c363e2",
+        "perspective-mcq-05"
       ],
       "explanation": "本句的「perspective」指「看待、理解或判斷某件事的特定角度／觀點」。",
       "sentenceIndex": 0,
@@ -218,12 +227,9 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-01": "本句指「看待、理解或判斷某件事的特定角度／觀點」。",
-        "perspective-mcq-02": "「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-06": "「從某個觀察位置看到的視角／透視關係」與本句語境不同。"
+        "perspective-mcq-01": "本句的「perspective」指「看待、理解或判斷某件事的特定角度／觀點」。",
+        "perspective-reviewed-1bf1c363e2": "請比較這個意思與句子中標示的用法。",
+        "perspective-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-01"
     },
@@ -235,11 +241,8 @@ export default {
       "masked": "The book offers a different ____ on history.",
       "options": [
         "perspective-mcq-01",
-        "perspective-mcq-02",
-        "perspective-mcq-03",
-        "perspective-mcq-04",
-        "perspective-mcq-05",
-        "perspective-mcq-06"
+        "perspective-reviewed-1bf1c363e2",
+        "perspective-mcq-05"
       ],
       "explanation": "本句的「perspective」指「看待、理解或判斷某件事的特定角度／觀點」。",
       "sentenceIndex": 1,
@@ -248,12 +251,9 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-01": "本句指「看待、理解或判斷某件事的特定角度／觀點」。",
-        "perspective-mcq-02": "「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-06": "「從某個觀察位置看到的視角／透視關係」與本句語境不同。"
+        "perspective-mcq-01": "本句的「perspective」指「看待、理解或判斷某件事的特定角度／觀點」。",
+        "perspective-reviewed-1bf1c363e2": "請比較這個意思與句子中標示的用法。",
+        "perspective-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-01"
     },
@@ -265,11 +265,8 @@ export default {
       "masked": "Living abroad changed my ____ on home.",
       "options": [
         "perspective-mcq-01",
-        "perspective-mcq-02",
-        "perspective-mcq-03",
-        "perspective-mcq-04",
-        "perspective-mcq-05",
-        "perspective-mcq-06"
+        "perspective-reviewed-1bf1c363e2",
+        "perspective-mcq-05"
       ],
       "explanation": "本句的「perspective」指「看待、理解或判斷某件事的特定角度／觀點」。",
       "sentenceIndex": 2,
@@ -278,12 +275,9 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-01": "本句指「看待、理解或判斷某件事的特定角度／觀點」。",
-        "perspective-mcq-02": "「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-06": "「從某個觀察位置看到的視角／透視關係」與本句語境不同。"
+        "perspective-mcq-01": "本句的「perspective」指「看待、理解或判斷某件事的特定角度／觀點」。",
+        "perspective-reviewed-1bf1c363e2": "請比較這個意思與句子中標示的用法。",
+        "perspective-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-01"
     },
@@ -295,10 +289,6 @@ export default {
       "masked": "The library helps me regain a sense of ____.",
       "options": [
         "perspective-mcq-02",
-        "perspective-mcq-01",
-        "perspective-mcq-03",
-        "perspective-mcq-04",
-        "perspective-mcq-05",
         "perspective-mcq-06"
       ],
       "explanation": "本句的「perspective」指「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」。",
@@ -308,12 +298,8 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-02": "本句指「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」。",
-        "perspective-mcq-01": "「看待、理解或判斷某件事的特定角度／觀點」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-06": "「從某個觀察位置看到的視角／透視關係」與本句語境不同。"
+        "perspective-mcq-02": "本句的「perspective」指「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」。",
+        "perspective-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-02"
     },
@@ -325,10 +311,6 @@ export default {
       "masked": "A few days away helped me get some ____.",
       "options": [
         "perspective-mcq-02",
-        "perspective-mcq-01",
-        "perspective-mcq-03",
-        "perspective-mcq-04",
-        "perspective-mcq-05",
         "perspective-mcq-06"
       ],
       "explanation": "本句的「perspective」指「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」。",
@@ -338,12 +320,8 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-02": "本句指「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」。",
-        "perspective-mcq-01": "「看待、理解或判斷某件事的特定角度／觀點」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-06": "「從某個觀察位置看到的視角／透視關係」與本句語境不同。"
+        "perspective-mcq-02": "本句的「perspective」指「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」。",
+        "perspective-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-02"
     },
@@ -355,10 +333,6 @@ export default {
       "masked": "When you are stressed, it is easy to lose ____.",
       "options": [
         "perspective-mcq-02",
-        "perspective-mcq-01",
-        "perspective-mcq-03",
-        "perspective-mcq-04",
-        "perspective-mcq-05",
         "perspective-mcq-06"
       ],
       "explanation": "本句的「perspective」指「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」。",
@@ -368,12 +342,8 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-02": "本句指「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」。",
-        "perspective-mcq-01": "「看待、理解或判斷某件事的特定角度／觀點」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-06": "「從某個觀察位置看到的視角／透視關係」與本句語境不同。"
+        "perspective-mcq-02": "本句的「perspective」指「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」。",
+        "perspective-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-02"
     },
@@ -385,11 +355,8 @@ export default {
       "masked": "He became so angry that he lost ____.",
       "options": [
         "perspective-mcq-04",
-        "perspective-mcq-03",
-        "perspective-mcq-05",
-        "perspective-mcq-02",
-        "perspective-mcq-06",
-        "perspective-mcq-01"
+        "perspective-mcq-07",
+        "perspective-mcq-05"
       ],
       "explanation": "本句的「perspective」指「因情緒或壓力而失去整體、平衡的判斷」。",
       "sentenceIndex": 8,
@@ -398,12 +365,9 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-04": "本句指「因情緒或壓力而失去整體、平衡的判斷」。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-02": "「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」與本句語境不同。",
-        "perspective-mcq-06": "「從某個觀察位置看到的視角／透視關係」與本句語境不同。",
-        "perspective-mcq-01": "「看待、理解或判斷某件事的特定角度／觀點」與本句語境不同。"
+        "perspective-mcq-04": "本句的「perspective」指「因情緒或壓力而失去整體、平衡的判斷」。",
+        "perspective-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "perspective-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-04"
     },
@@ -415,11 +379,8 @@ export default {
       "masked": "Don’t let one bad result make you lose ____.",
       "options": [
         "perspective-mcq-04",
-        "perspective-mcq-03",
-        "perspective-mcq-05",
-        "perspective-mcq-02",
-        "perspective-mcq-06",
-        "perspective-mcq-01"
+        "perspective-mcq-07",
+        "perspective-mcq-05"
       ],
       "explanation": "本句的「perspective」指「因情緒或壓力而失去整體、平衡的判斷」。",
       "sentenceIndex": 9,
@@ -428,12 +389,9 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-04": "本句指「因情緒或壓力而失去整體、平衡的判斷」。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-02": "「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」與本句語境不同。",
-        "perspective-mcq-06": "「從某個觀察位置看到的視角／透視關係」與本句語境不同。",
-        "perspective-mcq-01": "「看待、理解或判斷某件事的特定角度／觀點」與本句語境不同。"
+        "perspective-mcq-04": "本句的「perspective」指「因情緒或壓力而失去整體、平衡的判斷」。",
+        "perspective-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "perspective-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-04"
     },
@@ -445,11 +403,8 @@ export default {
       "masked": "The artist used ____ to create a sense of depth.",
       "options": [
         "perspective-mcq-05",
-        "perspective-mcq-04",
-        "perspective-mcq-06",
-        "perspective-mcq-03",
-        "perspective-mcq-07",
-        "perspective-mcq-02"
+        "perspective-reviewed-1bf1c363e2",
+        "perspective-mcq-01"
       ],
       "explanation": "本句的「perspective」指「在平面上表現遠近、大小及三維深度的透視法」。",
       "sentenceIndex": 10,
@@ -458,12 +413,9 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-05": "本句指「在平面上表現遠近、大小及三維深度的透視法」。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-06": "「從某個觀察位置看到的視角／透視關係」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。",
-        "perspective-mcq-07": "「用來分析、理解問題的理論或學術視角」與本句語境不同。",
-        "perspective-mcq-02": "「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」與本句語境不同。"
+        "perspective-mcq-05": "本句的「perspective」指「在平面上表現遠近、大小及三維深度的透視法」。",
+        "perspective-reviewed-1bf1c363e2": "請比較這個意思與句子中標示的用法。",
+        "perspective-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-05"
     },
@@ -475,11 +427,8 @@ export default {
       "masked": "The buildings are drawn in correct ____.",
       "options": [
         "perspective-mcq-05",
-        "perspective-mcq-04",
-        "perspective-mcq-06",
-        "perspective-mcq-03",
-        "perspective-mcq-07",
-        "perspective-mcq-02"
+        "perspective-reviewed-1bf1c363e2",
+        "perspective-mcq-08"
       ],
       "explanation": "本句的「perspective」指「在平面上表現遠近、大小及三維深度的透視法」。",
       "sentenceIndex": 11,
@@ -488,12 +437,9 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-05": "本句指「在平面上表現遠近、大小及三維深度的透視法」。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-06": "「從某個觀察位置看到的視角／透視關係」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。",
-        "perspective-mcq-07": "「用來分析、理解問題的理論或學術視角」與本句語境不同。",
-        "perspective-mcq-02": "「抽離眼前情緒後，按事情真正的重要程度和整體背景作出的清晰判斷」與本句語境不同。"
+        "perspective-mcq-05": "本句的「perspective」指「在平面上表現遠近、大小及三維深度的透視法」。",
+        "perspective-reviewed-1bf1c363e2": "請比較這個意思與句子中標示的用法。",
+        "perspective-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-05"
     },
@@ -505,11 +451,7 @@ export default {
       "masked": "The photograph creates an unusual sense of ____.",
       "options": [
         "perspective-mcq-06",
-        "perspective-mcq-05",
-        "perspective-mcq-07",
-        "perspective-mcq-04",
-        "perspective-mcq-08",
-        "perspective-mcq-03"
+        "perspective-mcq-04"
       ],
       "explanation": "本句的「perspective」指「從某個觀察位置看到的視角／透視關係」。",
       "sentenceIndex": 12,
@@ -518,12 +460,8 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-06": "本句指「從某個觀察位置看到的視角／透視關係」。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-07": "「用來分析、理解問題的理論或學術視角」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-08": "「與特定視角／觀點有關的；較學術」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。"
+        "perspective-mcq-06": "本句的「perspective」指「從某個觀察位置看到的視角／透視關係」。",
+        "perspective-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-06"
     },
@@ -535,11 +473,7 @@ export default {
       "masked": "The angle distorts the ____.",
       "options": [
         "perspective-mcq-06",
-        "perspective-mcq-05",
-        "perspective-mcq-07",
-        "perspective-mcq-04",
-        "perspective-mcq-08",
-        "perspective-mcq-03"
+        "perspective-mcq-02"
       ],
       "explanation": "本句的「perspective」指「從某個觀察位置看到的視角／透視關係」。",
       "sentenceIndex": 13,
@@ -548,12 +482,8 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-06": "本句指「從某個觀察位置看到的視角／透視關係」。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-07": "「用來分析、理解問題的理論或學術視角」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-08": "「與特定視角／觀點有關的；較學術」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。"
+        "perspective-mcq-06": "本句的「perspective」指「從某個觀察位置看到的視角／透視關係」。",
+        "perspective-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-06"
     },
@@ -565,11 +495,7 @@ export default {
       "masked": "The scene looks different from this ____.",
       "options": [
         "perspective-mcq-06",
-        "perspective-mcq-05",
-        "perspective-mcq-07",
-        "perspective-mcq-04",
-        "perspective-mcq-08",
-        "perspective-mcq-03"
+        "perspective-reviewed-1bf1c363e2"
       ],
       "explanation": "本句的「perspective」指「從某個觀察位置看到的視角／透視關係」。",
       "sentenceIndex": 14,
@@ -578,12 +504,8 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-06": "本句指「從某個觀察位置看到的視角／透視關係」。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-07": "「用來分析、理解問題的理論或學術視角」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-08": "「與特定視角／觀點有關的；較學術」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。"
+        "perspective-mcq-06": "本句的「perspective」指「從某個觀察位置看到的視角／透視關係」。",
+        "perspective-reviewed-1bf1c363e2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-06"
     },
@@ -595,11 +517,7 @@ export default {
       "masked": "The camera shifts to a lower ____.",
       "options": [
         "perspective-mcq-06",
-        "perspective-mcq-05",
-        "perspective-mcq-07",
-        "perspective-mcq-04",
-        "perspective-mcq-08",
-        "perspective-mcq-03"
+        "perspective-reviewed-1bf1c363e2"
       ],
       "explanation": "本句的「perspective」指「從某個觀察位置看到的視角／透視關係」。",
       "sentenceIndex": 15,
@@ -608,74 +526,58 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-06": "本句指「從某個觀察位置看到的視角／透視關係」。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-07": "「用來分析、理解問題的理論或學術視角」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-08": "「與特定視角／觀點有關的；較學術」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。"
+        "perspective-mcq-06": "本句的「perspective」指「從某個觀察位置看到的視角／透視關係」。",
+        "perspective-reviewed-1bf1c363e2": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-06"
     },
     {
       "id": "perspective-08-0",
-      "sense": "perspective-mcq-06",
+      "sense": "perspective-reviewed-1bf1c363e2",
       "en": "The documentary places the event in historical perspective.",
       "zh": "這部紀錄片把事件放在歷史脈絡／整體視角中理解。",
       "masked": "The documentary places the event in historical ____.",
       "options": [
-        "perspective-mcq-06",
-        "perspective-mcq-05",
-        "perspective-mcq-07",
-        "perspective-mcq-04",
-        "perspective-mcq-08",
-        "perspective-mcq-03"
+        "perspective-reviewed-1bf1c363e2",
+        "perspective-mcq-06"
       ],
-      "explanation": "本句的「perspective」指「從某個觀察位置看到的視角／透視關係」。",
+      "explanation": "對照完整句子：「這部紀錄片把事件放在歷史脈絡／整體視角中理解。」。這裡的「perspective」表示「背景；整體脈絡」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "targets": [
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-06": "本句指「從某個觀察位置看到的視角／透視關係」。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-07": "「用來分析、理解問題的理論或學術視角」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-08": "「與特定視角／觀點有關的；較學術」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。"
+        "perspective-reviewed-1bf1c363e2": "對照完整句子：「這部紀錄片把事件放在歷史脈絡／整體視角中理解。」。這裡的「perspective」表示「背景；整體脈絡」。",
+        "perspective-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "perspective-mcq-06"
+      "correctOption": "perspective-reviewed-1bf1c363e2",
+      "previousCorrectOption": "perspective-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "perspective-08-1",
-      "sense": "perspective-mcq-06",
+      "sense": "perspective-reviewed-1bf1c363e2",
       "en": "Looking at the data over twenty years gives us better perspective.",
       "zh": "把二十年的數據一起看，能讓我們有更好的整體理解。",
       "masked": "Looking at the data over twenty years gives us better ____.",
       "options": [
-        "perspective-mcq-06",
-        "perspective-mcq-05",
-        "perspective-mcq-07",
-        "perspective-mcq-04",
-        "perspective-mcq-08",
-        "perspective-mcq-03"
+        "perspective-reviewed-1bf1c363e2",
+        "perspective-mcq-06"
       ],
-      "explanation": "本句的「perspective」指「從某個觀察位置看到的視角／透視關係」。",
+      "explanation": "對照完整句子：「把二十年的數據一起看，能讓我們有更好的整體理解。」。這裡的「perspective」表示「背景；整體脈絡」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-06": "本句指「從某個觀察位置看到的視角／透視關係」。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-07": "「用來分析、理解問題的理論或學術視角」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-08": "「與特定視角／觀點有關的；較學術」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。"
+        "perspective-reviewed-1bf1c363e2": "對照完整句子：「把二十年的數據一起看，能讓我們有更好的整體理解。」。這裡的「perspective」表示「背景；整體脈絡」。",
+        "perspective-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "perspective-mcq-06"
+      "correctOption": "perspective-reviewed-1bf1c363e2",
+      "previousCorrectOption": "perspective-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "perspective-09-0",
@@ -685,11 +587,8 @@ export default {
       "masked": "The issue can be examined from a psychological ____.",
       "options": [
         "perspective-mcq-07",
-        "perspective-mcq-06",
-        "perspective-mcq-08",
-        "perspective-mcq-05",
         "perspective-mcq-04",
-        "perspective-mcq-03"
+        "perspective-mcq-05"
       ],
       "explanation": "本句的「perspective」指「用來分析、理解問題的理論或學術視角」。",
       "sentenceIndex": 18,
@@ -698,12 +597,9 @@ export default {
         "perspective"
       ],
       "optionReasons": {
-        "perspective-mcq-07": "本句指「用來分析、理解問題的理論或學術視角」。",
-        "perspective-mcq-06": "「從某個觀察位置看到的視角／透視關係」與本句語境不同。",
-        "perspective-mcq-08": "「與特定視角／觀點有關的；較學術」與本句語境不同。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。"
+        "perspective-mcq-07": "本句的「perspective」指「用來分析、理解問題的理論或學術視角」。",
+        "perspective-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "perspective-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-07"
     },
@@ -715,11 +611,8 @@ export default {
       "masked": "The paper compares several theoretical ____.",
       "options": [
         "perspective-mcq-07",
-        "perspective-mcq-06",
-        "perspective-mcq-08",
-        "perspective-mcq-05",
-        "perspective-mcq-04",
-        "perspective-mcq-03"
+        "perspective-reviewed-1bf1c363e2",
+        "perspective-mcq-05"
       ],
       "explanation": "本句的「perspectives」指「用來分析、理解問題的理論或學術視角」。",
       "sentenceIndex": 19,
@@ -728,12 +621,9 @@ export default {
         "perspectives"
       ],
       "optionReasons": {
-        "perspective-mcq-07": "本句指「用來分析、理解問題的理論或學術視角」。",
-        "perspective-mcq-06": "「從某個觀察位置看到的視角／透視關係」與本句語境不同。",
-        "perspective-mcq-08": "「與特定視角／觀點有關的；較學術」與本句語境不同。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。"
+        "perspective-mcq-07": "本句的「perspectives」指「用來分析、理解問題的理論或學術視角」。",
+        "perspective-reviewed-1bf1c363e2": "請比較這個意思與句子中標示的用法。",
+        "perspective-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-07"
     },
@@ -745,11 +635,8 @@ export default {
       "masked": "The interpretation is necessarily ____.",
       "options": [
         "perspective-mcq-08",
-        "perspective-mcq-07",
-        "perspective-mcq-06",
-        "perspective-mcq-05",
-        "perspective-mcq-04",
-        "perspective-mcq-03"
+        "perspective-reviewed-1bf1c363e2",
+        "perspective-mcq-05"
       ],
       "explanation": "本句的「perspectival」指「與特定視角／觀點有關的；較學術」。",
       "sentenceIndex": 20,
@@ -758,12 +645,9 @@ export default {
         "perspectival"
       ],
       "optionReasons": {
-        "perspective-mcq-08": "本句指「與特定視角／觀點有關的；較學術」。",
-        "perspective-mcq-07": "「用來分析、理解問題的理論或學術視角」與本句語境不同。",
-        "perspective-mcq-06": "「從某個觀察位置看到的視角／透視關係」與本句語境不同。",
-        "perspective-mcq-05": "「在平面上表現遠近、大小及三維深度的透視法」與本句語境不同。",
-        "perspective-mcq-04": "「因情緒或壓力而失去整體、平衡的判斷」與本句語境不同。",
-        "perspective-mcq-03": "「把事情放回適當背景和比例來理解」與本句語境不同。"
+        "perspective-mcq-08": "本句的「perspectival」指「與特定視角／觀點有關的；較學術」。",
+        "perspective-reviewed-1bf1c363e2": "請比較這個意思與句子中標示的用法。",
+        "perspective-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "perspective-mcq-08"
     }
@@ -775,5 +659,7 @@ export default {
     "sha256": "8815c4a006888f10812181d1fd96f09930a948322df868d6cbdb1db2e64871fd",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

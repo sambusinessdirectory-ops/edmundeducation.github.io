@@ -141,11 +141,7 @@ export default {
       "masked": "He loves talking about unusual people he ____.",
       "options": [
         "interview-mcq-01",
-        "interview-mcq-02",
-        "interview-mcq-03",
-        "interview-mcq-04",
-        "interview-mcq-05",
-        "interview-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「interviewed」指「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」。",
       "sentenceIndex": 0,
@@ -154,12 +150,8 @@ export default {
         "interviewed"
       ],
       "optionReasons": {
-        "interview-mcq-01": "本句指「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」。",
-        "interview-mcq-02": "「記者、主持人或研究者與某人進行的有目的問答／訪談；屬於同一信息收集概念」與本句語境不同。",
-        "interview-mcq-03": "「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」與本句語境不同。",
-        "interview-mcq-04": "「僱主與求職者正式交談和提問，以評估是否聘用的會面」與本句語境不同。",
-        "interview-mcq-05": "「在面試、訪談或研究中負責提出問題的人」與本句語境不同。",
-        "interview-mcq-06": "「在面試、訪問或研究訪談中回答問題的人」與本句語境不同。"
+        "interview-mcq-01": "本句的「interviewed」指「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "interview-mcq-01"
     },
@@ -171,11 +163,7 @@ export default {
       "masked": "The journalist ____ several residents about the changes in the neighbourhood.",
       "options": [
         "interview-mcq-01",
-        "interview-mcq-02",
-        "interview-mcq-03",
-        "interview-mcq-04",
-        "interview-mcq-05",
-        "interview-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「interviewed」指「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」。",
       "sentenceIndex": 1,
@@ -184,12 +172,8 @@ export default {
         "interviewed"
       ],
       "optionReasons": {
-        "interview-mcq-01": "本句指「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」。",
-        "interview-mcq-02": "「記者、主持人或研究者與某人進行的有目的問答／訪談；屬於同一信息收集概念」與本句語境不同。",
-        "interview-mcq-03": "「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」與本句語境不同。",
-        "interview-mcq-04": "「僱主與求職者正式交談和提問，以評估是否聘用的會面」與本句語境不同。",
-        "interview-mcq-05": "「在面試、訪談或研究中負責提出問題的人」與本句語境不同。",
-        "interview-mcq-06": "「在面試、訪問或研究訪談中回答問題的人」與本句語境不同。"
+        "interview-mcq-01": "本句的「interviewed」指「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "interview-mcq-01"
     },
@@ -201,11 +185,7 @@ export default {
       "masked": "She was ____ for a documentary about Hong Kong culture.",
       "options": [
         "interview-mcq-01",
-        "interview-mcq-02",
-        "interview-mcq-03",
-        "interview-mcq-04",
-        "interview-mcq-05",
-        "interview-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「interviewed」指「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」。",
       "sentenceIndex": 2,
@@ -214,12 +194,8 @@ export default {
         "interviewed"
       ],
       "optionReasons": {
-        "interview-mcq-01": "本句指「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」。",
-        "interview-mcq-02": "「記者、主持人或研究者與某人進行的有目的問答／訪談；屬於同一信息收集概念」與本句語境不同。",
-        "interview-mcq-03": "「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」與本句語境不同。",
-        "interview-mcq-04": "「僱主與求職者正式交談和提問，以評估是否聘用的會面」與本句語境不同。",
-        "interview-mcq-05": "「在面試、訪談或研究中負責提出問題的人」與本句語境不同。",
-        "interview-mcq-06": "「在面試、訪問或研究訪談中回答問題的人」與本句語境不同。"
+        "interview-mcq-01": "本句的「interviewed」指「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "interview-mcq-01"
     },
@@ -231,10 +207,6 @@ export default {
       "masked": "The company ____ six candidates for the position.",
       "options": [
         "interview-mcq-03",
-        "interview-mcq-02",
-        "interview-mcq-04",
-        "interview-mcq-01",
-        "interview-mcq-05",
         "interview-mcq-06"
       ],
       "explanation": "本句的「interviewed」指「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」。",
@@ -244,12 +216,8 @@ export default {
         "interviewed"
       ],
       "optionReasons": {
-        "interview-mcq-03": "本句指「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」。",
-        "interview-mcq-02": "「記者、主持人或研究者與某人進行的有目的問答／訪談；屬於同一信息收集概念」與本句語境不同。",
-        "interview-mcq-04": "「僱主與求職者正式交談和提問，以評估是否聘用的會面」與本句語境不同。",
-        "interview-mcq-01": "「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」與本句語境不同。",
-        "interview-mcq-05": "「在面試、訪談或研究中負責提出問題的人」與本句語境不同。",
-        "interview-mcq-06": "「在面試、訪問或研究訪談中回答問題的人」與本句語境不同。"
+        "interview-mcq-03": "本句的「interviewed」指「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」。",
+        "interview-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "interview-mcq-03"
     },
@@ -261,10 +229,6 @@ export default {
       "masked": "She was ____ by two senior managers.",
       "options": [
         "interview-mcq-03",
-        "interview-mcq-02",
-        "interview-mcq-04",
-        "interview-mcq-01",
-        "interview-mcq-05",
         "interview-mcq-06"
       ],
       "explanation": "本句的「interviewed」指「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」。",
@@ -274,12 +238,8 @@ export default {
         "interviewed"
       ],
       "optionReasons": {
-        "interview-mcq-03": "本句指「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」。",
-        "interview-mcq-02": "「記者、主持人或研究者與某人進行的有目的問答／訪談；屬於同一信息收集概念」與本句語境不同。",
-        "interview-mcq-04": "「僱主與求職者正式交談和提問，以評估是否聘用的會面」與本句語境不同。",
-        "interview-mcq-01": "「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」與本句語境不同。",
-        "interview-mcq-05": "「在面試、訪談或研究中負責提出問題的人」與本句語境不同。",
-        "interview-mcq-06": "「在面試、訪問或研究訪談中回答問題的人」與本句語境不同。"
+        "interview-mcq-03": "本句的「interviewed」指「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」。",
+        "interview-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "interview-mcq-03"
     },
@@ -291,11 +251,7 @@ export default {
       "masked": "I have a job ____ tomorrow morning.",
       "options": [
         "interview-mcq-04",
-        "interview-mcq-03",
-        "interview-mcq-05",
-        "interview-mcq-02",
-        "interview-mcq-06",
-        "interview-mcq-01"
+        "interview-mcq-06"
       ],
       "explanation": "本句的「interview」指「僱主與求職者正式交談和提問，以評估是否聘用的會面」。",
       "sentenceIndex": 5,
@@ -304,12 +260,8 @@ export default {
         "interview"
       ],
       "optionReasons": {
-        "interview-mcq-04": "本句指「僱主與求職者正式交談和提問，以評估是否聘用的會面」。",
-        "interview-mcq-03": "「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」與本句語境不同。",
-        "interview-mcq-05": "「在面試、訪談或研究中負責提出問題的人」與本句語境不同。",
-        "interview-mcq-02": "「記者、主持人或研究者與某人進行的有目的問答／訪談；屬於同一信息收集概念」與本句語境不同。",
-        "interview-mcq-06": "「在面試、訪問或研究訪談中回答問題的人」與本句語境不同。",
-        "interview-mcq-01": "「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」與本句語境不同。"
+        "interview-mcq-04": "本句的「interview」指「僱主與求職者正式交談和提問，以評估是否聘用的會面」。",
+        "interview-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "interview-mcq-04"
     },
@@ -321,11 +273,7 @@ export default {
       "masked": "The ____ lasted about forty minutes.",
       "options": [
         "interview-mcq-04",
-        "interview-mcq-03",
-        "interview-mcq-05",
-        "interview-mcq-02",
-        "interview-mcq-06",
-        "interview-mcq-01"
+        "interview-mcq-06"
       ],
       "explanation": "本句的「interview」指「僱主與求職者正式交談和提問，以評估是否聘用的會面」。",
       "sentenceIndex": 6,
@@ -334,12 +282,8 @@ export default {
         "interview"
       ],
       "optionReasons": {
-        "interview-mcq-04": "本句指「僱主與求職者正式交談和提問，以評估是否聘用的會面」。",
-        "interview-mcq-03": "「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」與本句語境不同。",
-        "interview-mcq-05": "「在面試、訪談或研究中負責提出問題的人」與本句語境不同。",
-        "interview-mcq-02": "「記者、主持人或研究者與某人進行的有目的問答／訪談；屬於同一信息收集概念」與本句語境不同。",
-        "interview-mcq-06": "「在面試、訪問或研究訪談中回答問題的人」與本句語境不同。",
-        "interview-mcq-01": "「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」與本句語境不同。"
+        "interview-mcq-04": "本句的「interview」指「僱主與求職者正式交談和提問，以評估是否聘用的會面」。",
+        "interview-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "interview-mcq-04"
     },
@@ -351,11 +295,7 @@ export default {
       "masked": "The ____ asked about her previous experience.",
       "options": [
         "interview-mcq-05",
-        "interview-mcq-04",
-        "interview-mcq-06",
-        "interview-mcq-03",
-        "interview-mcq-02",
-        "interview-mcq-01"
+        "interview-mcq-03"
       ],
       "explanation": "本句的「interviewer」指「在面試、訪談或研究中負責提出問題的人」。",
       "sentenceIndex": 11,
@@ -364,12 +304,8 @@ export default {
         "interviewer"
       ],
       "optionReasons": {
-        "interview-mcq-05": "本句指「在面試、訪談或研究中負責提出問題的人」。",
-        "interview-mcq-04": "「僱主與求職者正式交談和提問，以評估是否聘用的會面」與本句語境不同。",
-        "interview-mcq-06": "「在面試、訪問或研究訪談中回答問題的人」與本句語境不同。",
-        "interview-mcq-03": "「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」與本句語境不同。",
-        "interview-mcq-02": "「記者、主持人或研究者與某人進行的有目的問答／訪談；屬於同一信息收集概念」與本句語境不同。",
-        "interview-mcq-01": "「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」與本句語境不同。"
+        "interview-mcq-05": "本句的「interviewer」指「在面試、訪談或研究中負責提出問題的人」。",
+        "interview-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "interview-mcq-05"
     },
@@ -381,11 +317,7 @@ export default {
       "masked": "A good ____ listens carefully to the answers.",
       "options": [
         "interview-mcq-05",
-        "interview-mcq-04",
-        "interview-mcq-06",
-        "interview-mcq-03",
-        "interview-mcq-02",
-        "interview-mcq-01"
+        "interview-mcq-03"
       ],
       "explanation": "本句的「interviewer」指「在面試、訪談或研究中負責提出問題的人」。",
       "sentenceIndex": 12,
@@ -394,12 +326,8 @@ export default {
         "interviewer"
       ],
       "optionReasons": {
-        "interview-mcq-05": "本句指「在面試、訪談或研究中負責提出問題的人」。",
-        "interview-mcq-04": "「僱主與求職者正式交談和提問，以評估是否聘用的會面」與本句語境不同。",
-        "interview-mcq-06": "「在面試、訪問或研究訪談中回答問題的人」與本句語境不同。",
-        "interview-mcq-03": "「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」與本句語境不同。",
-        "interview-mcq-02": "「記者、主持人或研究者與某人進行的有目的問答／訪談；屬於同一信息收集概念」與本句語境不同。",
-        "interview-mcq-01": "「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」與本句語境不同。"
+        "interview-mcq-05": "本句的「interviewer」指「在面試、訪談或研究中負責提出問題的人」。",
+        "interview-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "interview-mcq-05"
     },
@@ -411,11 +339,7 @@ export default {
       "masked": "The ____ seemed relaxed throughout the conversation.",
       "options": [
         "interview-mcq-06",
-        "interview-mcq-05",
-        "interview-mcq-04",
-        "interview-mcq-03",
-        "interview-mcq-02",
-        "interview-mcq-01"
+        "interview-mcq-03"
       ],
       "explanation": "本句的「interviewee」指「在面試、訪問或研究訪談中回答問題的人」。",
       "sentenceIndex": 13,
@@ -424,12 +348,8 @@ export default {
         "interviewee"
       ],
       "optionReasons": {
-        "interview-mcq-06": "本句指「在面試、訪問或研究訪談中回答問題的人」。",
-        "interview-mcq-05": "「在面試、訪談或研究中負責提出問題的人」與本句語境不同。",
-        "interview-mcq-04": "「僱主與求職者正式交談和提問，以評估是否聘用的會面」與本句語境不同。",
-        "interview-mcq-03": "「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」與本句語境不同。",
-        "interview-mcq-02": "「記者、主持人或研究者與某人進行的有目的問答／訪談；屬於同一信息收集概念」與本句語境不同。",
-        "interview-mcq-01": "「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」與本句語境不同。"
+        "interview-mcq-06": "本句的「interviewee」指「在面試、訪問或研究訪談中回答問題的人」。",
+        "interview-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "interview-mcq-06"
     },
@@ -441,11 +361,7 @@ export default {
       "masked": "Each ____ was asked the same ten questions.",
       "options": [
         "interview-mcq-06",
-        "interview-mcq-05",
-        "interview-mcq-04",
-        "interview-mcq-03",
-        "interview-mcq-02",
-        "interview-mcq-01"
+        "interview-mcq-03"
       ],
       "explanation": "本句的「interviewee」指「在面試、訪問或研究訪談中回答問題的人」。",
       "sentenceIndex": 14,
@@ -454,12 +370,8 @@ export default {
         "interviewee"
       ],
       "optionReasons": {
-        "interview-mcq-06": "本句指「在面試、訪問或研究訪談中回答問題的人」。",
-        "interview-mcq-05": "「在面試、訪談或研究中負責提出問題的人」與本句語境不同。",
-        "interview-mcq-04": "「僱主與求職者正式交談和提問，以評估是否聘用的會面」與本句語境不同。",
-        "interview-mcq-03": "「正式向求職者提問，以評估其經驗、能力及是否適合某個職位」與本句語境不同。",
-        "interview-mcq-02": "「記者、主持人或研究者與某人進行的有目的問答／訪談；屬於同一信息收集概念」與本句語境不同。",
-        "interview-mcq-01": "「透過有目的、有組織的提問，從某人取得資料、觀點、經歷或可供報道／研究的內容」與本句語境不同。"
+        "interview-mcq-06": "本句的「interviewee」指「在面試、訪問或研究訪談中回答問題的人」。",
+        "interview-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "interview-mcq-06"
     }
@@ -471,5 +383,12 @@ export default {
     "sha256": "5b55cf8001a8260fbdb7dbdeef5cd64991e304873841c2fc9780f4acfb9bbae8",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

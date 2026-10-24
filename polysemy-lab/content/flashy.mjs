@@ -108,9 +108,7 @@ export default {
       "masked": "It was not ____, aggressive, or full of empty promises.",
       "options": [
         "flashy-mcq-01",
-        "flashy-mcq-02",
-        "flashy-mcq-03",
-        "flashy-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「flashy」指「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」。",
       "sentenceIndex": 0,
@@ -119,10 +117,8 @@ export default {
         "flashy"
       ],
       "optionReasons": {
-        "flashy-mcq-01": "本句指「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」。",
-        "flashy-mcq-02": "「刻意用昂貴或搶眼的東西展示財富、成功或身分」與本句語境不同。",
-        "flashy-mcq-03": "「技巧或表現華麗搶眼、偏重炫技或令人留下印象」與本句語境不同。",
-        "flashy-mcq-04": "「過度華麗、花巧、搶眼或炫耀的特質」與本句語境不同。"
+        "flashy-mcq-01": "本句的「flashy」指「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flashy-mcq-01"
     },
@@ -134,9 +130,7 @@ export default {
       "masked": "The advertisement avoided ____ colours and complicated graphics.",
       "options": [
         "flashy-mcq-01",
-        "flashy-mcq-02",
-        "flashy-mcq-03",
-        "flashy-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「flashy」指「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」。",
       "sentenceIndex": 1,
@@ -145,10 +139,8 @@ export default {
         "flashy"
       ],
       "optionReasons": {
-        "flashy-mcq-01": "本句指「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」。",
-        "flashy-mcq-02": "「刻意用昂貴或搶眼的東西展示財富、成功或身分」與本句語境不同。",
-        "flashy-mcq-03": "「技巧或表現華麗搶眼、偏重炫技或令人留下印象」與本句語境不同。",
-        "flashy-mcq-04": "「過度華麗、花巧、搶眼或炫耀的特質」與本句語境不同。"
+        "flashy-mcq-01": "本句的「flashy」指「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flashy-mcq-01"
     },
@@ -160,9 +152,7 @@ export default {
       "masked": "He wore a ____ gold jacket to the party.",
       "options": [
         "flashy-mcq-01",
-        "flashy-mcq-02",
-        "flashy-mcq-03",
-        "flashy-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「flashy」指「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」。",
       "sentenceIndex": 2,
@@ -171,10 +161,8 @@ export default {
         "flashy"
       ],
       "optionReasons": {
-        "flashy-mcq-01": "本句指「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」。",
-        "flashy-mcq-02": "「刻意用昂貴或搶眼的東西展示財富、成功或身分」與本句語境不同。",
-        "flashy-mcq-03": "「技巧或表現華麗搶眼、偏重炫技或令人留下印象」與本句語境不同。",
-        "flashy-mcq-04": "「過度華麗、花巧、搶眼或炫耀的特質」與本句語境不同。"
+        "flashy-mcq-01": "本句的「flashy」指「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flashy-mcq-01"
     },
@@ -186,9 +174,7 @@ export default {
       "masked": "He drives a ____ sports car.",
       "options": [
         "flashy-mcq-02",
-        "flashy-mcq-01",
-        "flashy-mcq-03",
-        "flashy-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「flashy」指「刻意用昂貴或搶眼的東西展示財富、成功或身分」。",
       "sentenceIndex": 3,
@@ -197,10 +183,8 @@ export default {
         "flashy"
       ],
       "optionReasons": {
-        "flashy-mcq-02": "本句指「刻意用昂貴或搶眼的東西展示財富、成功或身分」。",
-        "flashy-mcq-01": "「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」與本句語境不同。",
-        "flashy-mcq-03": "「技巧或表現華麗搶眼、偏重炫技或令人留下印象」與本句語境不同。",
-        "flashy-mcq-04": "「過度華麗、花巧、搶眼或炫耀的特質」與本句語境不同。"
+        "flashy-mcq-02": "本句的「flashy」指「刻意用昂貴或搶眼的東西展示財富、成功或身分」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flashy-mcq-02"
     },
@@ -212,9 +196,7 @@ export default {
       "masked": "She isn’t interested in ____ jewellery or designer brands.",
       "options": [
         "flashy-mcq-02",
-        "flashy-mcq-01",
-        "flashy-mcq-03",
-        "flashy-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「flashy」指「刻意用昂貴或搶眼的東西展示財富、成功或身分」。",
       "sentenceIndex": 4,
@@ -223,10 +205,8 @@ export default {
         "flashy"
       ],
       "optionReasons": {
-        "flashy-mcq-02": "本句指「刻意用昂貴或搶眼的東西展示財富、成功或身分」。",
-        "flashy-mcq-01": "「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」與本句語境不同。",
-        "flashy-mcq-03": "「技巧或表現華麗搶眼、偏重炫技或令人留下印象」與本句語境不同。",
-        "flashy-mcq-04": "「過度華麗、花巧、搶眼或炫耀的特質」與本句語境不同。"
+        "flashy-mcq-02": "本句的「flashy」指「刻意用昂貴或搶眼的東西展示財富、成功或身分」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flashy-mcq-02"
     },
@@ -238,9 +218,7 @@ export default {
       "masked": "The player is talented but sometimes too ____.",
       "options": [
         "flashy-mcq-03",
-        "flashy-mcq-02",
-        "flashy-mcq-04",
-        "flashy-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「flashy」指「技巧或表現華麗搶眼、偏重炫技或令人留下印象」。",
       "sentenceIndex": 5,
@@ -249,10 +227,8 @@ export default {
         "flashy"
       ],
       "optionReasons": {
-        "flashy-mcq-03": "本句指「技巧或表現華麗搶眼、偏重炫技或令人留下印象」。",
-        "flashy-mcq-02": "「刻意用昂貴或搶眼的東西展示財富、成功或身分」與本句語境不同。",
-        "flashy-mcq-04": "「過度華麗、花巧、搶眼或炫耀的特質」與本句語境不同。",
-        "flashy-mcq-01": "「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」與本句語境不同。"
+        "flashy-mcq-03": "本句的「flashy」指「技巧或表現華麗搶眼、偏重炫技或令人留下印象」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flashy-mcq-03"
     },
@@ -264,9 +240,7 @@ export default {
       "masked": "The presentation included several ____ effects that added little useful information.",
       "options": [
         "flashy-mcq-03",
-        "flashy-mcq-02",
-        "flashy-mcq-04",
-        "flashy-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「flashy」指「技巧或表現華麗搶眼、偏重炫技或令人留下印象」。",
       "sentenceIndex": 6,
@@ -275,10 +249,8 @@ export default {
         "flashy"
       ],
       "optionReasons": {
-        "flashy-mcq-03": "本句指「技巧或表現華麗搶眼、偏重炫技或令人留下印象」。",
-        "flashy-mcq-02": "「刻意用昂貴或搶眼的東西展示財富、成功或身分」與本句語境不同。",
-        "flashy-mcq-04": "「過度華麗、花巧、搶眼或炫耀的特質」與本句語境不同。",
-        "flashy-mcq-01": "「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」與本句語境不同。"
+        "flashy-mcq-03": "本句的「flashy」指「技巧或表現華麗搶眼、偏重炫技或令人留下印象」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flashy-mcq-03"
     },
@@ -290,9 +262,7 @@ export default {
       "masked": "The brand focuses on simplicity rather than ____.",
       "options": [
         "flashy-mcq-04",
-        "flashy-mcq-03",
-        "flashy-mcq-02",
-        "flashy-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「flashiness」指「過度華麗、花巧、搶眼或炫耀的特質」。",
       "sentenceIndex": 7,
@@ -301,10 +271,8 @@ export default {
         "flashiness"
       ],
       "optionReasons": {
-        "flashy-mcq-04": "本句指「過度華麗、花巧、搶眼或炫耀的特質」。",
-        "flashy-mcq-03": "「技巧或表現華麗搶眼、偏重炫技或令人留下印象」與本句語境不同。",
-        "flashy-mcq-02": "「刻意用昂貴或搶眼的東西展示財富、成功或身分」與本句語境不同。",
-        "flashy-mcq-01": "「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」與本句語境不同。"
+        "flashy-mcq-04": "本句的「flashiness」指「過度華麗、花巧、搶眼或炫耀的特質」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flashy-mcq-04"
     },
@@ -316,9 +284,7 @@ export default {
       "masked": "The car’s ____ appealed to younger buyers.",
       "options": [
         "flashy-mcq-04",
-        "flashy-mcq-03",
-        "flashy-mcq-02",
-        "flashy-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「flashiness」指「過度華麗、花巧、搶眼或炫耀的特質」。",
       "sentenceIndex": 8,
@@ -327,10 +293,8 @@ export default {
         "flashiness"
       ],
       "optionReasons": {
-        "flashy-mcq-04": "本句指「過度華麗、花巧、搶眼或炫耀的特質」。",
-        "flashy-mcq-03": "「技巧或表現華麗搶眼、偏重炫技或令人留下印象」與本句語境不同。",
-        "flashy-mcq-02": "「刻意用昂貴或搶眼的東西展示財富、成功或身分」與本句語境不同。",
-        "flashy-mcq-01": "「外表或設計刻意華麗、鮮艷或誇張，以吸引別人注意」與本句語境不同。"
+        "flashy-mcq-04": "本句的「flashiness」指「過度華麗、花巧、搶眼或炫耀的特質」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flashy-mcq-04"
     }
@@ -342,5 +306,12 @@ export default {
     "sha256": "6a92513a0ee582739ab01f71a976eb2d92c6f736dd2e3f421cd9fd9ae0299369",
     "pages": 5
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

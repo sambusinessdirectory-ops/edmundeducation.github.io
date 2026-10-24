@@ -658,11 +658,9 @@ export default {
       "masked": "The news came as a terrible ____.",
       "options": [
         "shock-mcq-01",
-        "shock-mcq-02",
-        "shock-mcq-03",
-        "shock-mcq-04",
-        "shock-mcq-05",
-        "shock-mcq-06"
+        "shock-mcq-25",
+        "shock-mcq-08",
+        "shock-mcq-11"
       ],
       "explanation": "本句的「shock」指「因突發、意外或令人不安的事情而產生的強烈震驚／衝擊」。",
       "sentenceIndex": 2,
@@ -671,12 +669,10 @@ export default {
         "shock"
       ],
       "optionReasons": {
-        "shock-mcq-01": "本句指「因突發、意外或令人不安的事情而產生的強烈震驚／衝擊」。",
-        "shock-mcq-02": "「因突發可怕事件而震驚得反應遲鈍／驚魂未定」與本句語境不同。",
-        "shock-mcq-03": "「因突發事情而吃一驚／受到驚嚇」與本句語境不同。",
-        "shock-mcq-04": "「某事令人非常震驚或意外」與本句語境不同。",
-        "shock-mcq-05": "「使某人極度震驚、驚愕或不安」與本句語境不同。",
-        "shock-mcq-06": "「以強烈衝擊促使某人採取行動」與本句語境不同。"
+        "shock-mcq-01": "本句的「shock」指「因突發、意外或令人不安的事情而產生的強烈震驚／衝擊」。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-01"
     },
@@ -688,11 +684,9 @@ export default {
       "masked": "It was a ____ to see how much had changed.",
       "options": [
         "shock-mcq-01",
-        "shock-mcq-02",
-        "shock-mcq-03",
-        "shock-mcq-04",
-        "shock-mcq-05",
-        "shock-mcq-06"
+        "shock-mcq-08",
+        "shock-mcq-25",
+        "shock-mcq-11"
       ],
       "explanation": "本句的「shock」指「因突發、意外或令人不安的事情而產生的強烈震驚／衝擊」。",
       "sentenceIndex": 3,
@@ -701,12 +695,10 @@ export default {
         "shock"
       ],
       "optionReasons": {
-        "shock-mcq-01": "本句指「因突發、意外或令人不安的事情而產生的強烈震驚／衝擊」。",
-        "shock-mcq-02": "「因突發可怕事件而震驚得反應遲鈍／驚魂未定」與本句語境不同。",
-        "shock-mcq-03": "「因突發事情而吃一驚／受到驚嚇」與本句語境不同。",
-        "shock-mcq-04": "「某事令人非常震驚或意外」與本句語境不同。",
-        "shock-mcq-05": "「使某人極度震驚、驚愕或不安」與本句語境不同。",
-        "shock-mcq-06": "「以強烈衝擊促使某人採取行動」與本句語境不同。"
+        "shock-mcq-01": "本句的「shock」指「因突發、意外或令人不安的事情而產生的強烈震驚／衝擊」。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-01"
     },
@@ -718,11 +710,9 @@ export default {
       "masked": "The family was still ____ after the incident.",
       "options": [
         "shock-mcq-02",
-        "shock-mcq-01",
-        "shock-mcq-03",
-        "shock-mcq-04",
-        "shock-mcq-05",
-        "shock-mcq-06"
+        "shock-mcq-06",
+        "shock-mcq-08",
+        "shock-mcq-10"
       ],
       "explanation": "本句的「in shock」指「因突發可怕事件而震驚得反應遲鈍／驚魂未定」。",
       "sentenceIndex": 4,
@@ -731,12 +721,10 @@ export default {
         "in shock"
       ],
       "optionReasons": {
-        "shock-mcq-02": "本句指「因突發可怕事件而震驚得反應遲鈍／驚魂未定」。",
-        "shock-mcq-01": "「因突發、意外或令人不安的事情而產生的強烈震驚／衝擊」與本句語境不同。",
-        "shock-mcq-03": "「因突發事情而吃一驚／受到驚嚇」與本句語境不同。",
-        "shock-mcq-04": "「某事令人非常震驚或意外」與本句語境不同。",
-        "shock-mcq-05": "「使某人極度震驚、驚愕或不安」與本句語境不同。",
-        "shock-mcq-06": "「以強烈衝擊促使某人採取行動」與本句語境不同。"
+        "shock-mcq-02": "本句的「in shock」指「因突發可怕事件而震驚得反應遲鈍／驚魂未定」。",
+        "shock-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-02"
     },
@@ -748,11 +736,9 @@ export default {
       "masked": "She looked as though she was ____.",
       "options": [
         "shock-mcq-02",
-        "shock-mcq-01",
-        "shock-mcq-03",
-        "shock-mcq-04",
-        "shock-mcq-05",
-        "shock-mcq-06"
+        "shock-mcq-10",
+        "shock-mcq-28",
+        "shock-mcq-25"
       ],
       "explanation": "本句的「in shock」指「因突發可怕事件而震驚得反應遲鈍／驚魂未定」。",
       "sentenceIndex": 5,
@@ -761,12 +747,10 @@ export default {
         "in shock"
       ],
       "optionReasons": {
-        "shock-mcq-02": "本句指「因突發可怕事件而震驚得反應遲鈍／驚魂未定」。",
-        "shock-mcq-01": "「因突發、意外或令人不安的事情而產生的強烈震驚／衝擊」與本句語境不同。",
-        "shock-mcq-03": "「因突發事情而吃一驚／受到驚嚇」與本句語境不同。",
-        "shock-mcq-04": "「某事令人非常震驚或意外」與本句語境不同。",
-        "shock-mcq-05": "「使某人極度震驚、驚愕或不安」與本句語境不同。",
-        "shock-mcq-06": "「以強烈衝擊促使某人採取行動」與本句語境不同。"
+        "shock-mcq-02": "本句的「in shock」指「因突發可怕事件而震驚得反應遲鈍／驚魂未定」。",
+        "shock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-02"
     },
@@ -778,11 +762,9 @@ export default {
       "masked": "I ____ when I saw the bill.",
       "options": [
         "shock-mcq-03",
-        "shock-mcq-02",
-        "shock-mcq-04",
-        "shock-mcq-01",
-        "shock-mcq-05",
-        "shock-mcq-06"
+        "shock-mcq-09",
+        "shock-mcq-06",
+        "shock-mcq-13"
       ],
       "explanation": "本句的「got a shock」指「因突發事情而吃一驚／受到驚嚇」。",
       "sentenceIndex": 6,
@@ -791,12 +773,10 @@ export default {
         "got a shock"
       ],
       "optionReasons": {
-        "shock-mcq-03": "本句指「因突發事情而吃一驚／受到驚嚇」。",
-        "shock-mcq-02": "「因突發可怕事件而震驚得反應遲鈍／驚魂未定」與本句語境不同。",
-        "shock-mcq-04": "「某事令人非常震驚或意外」與本句語境不同。",
-        "shock-mcq-01": "「因突發、意外或令人不安的事情而產生的強烈震驚／衝擊」與本句語境不同。",
-        "shock-mcq-05": "「使某人極度震驚、驚愕或不安」與本句語境不同。",
-        "shock-mcq-06": "「以強烈衝擊促使某人採取行動」與本句語境不同。"
+        "shock-mcq-03": "本句的「got a shock」指「因突發事情而吃一驚／受到驚嚇」。",
+        "shock-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-03"
     },
@@ -808,11 +788,9 @@ export default {
       "masked": "He ____ when the door suddenly opened.",
       "options": [
         "shock-mcq-03",
-        "shock-mcq-02",
-        "shock-mcq-04",
-        "shock-mcq-01",
-        "shock-mcq-05",
-        "shock-mcq-06"
+        "shock-mcq-15",
+        "shock-mcq-08",
+        "shock-mcq-25"
       ],
       "explanation": "本句的「had quite a shock」指「因突發事情而吃一驚／受到驚嚇」。",
       "sentenceIndex": 7,
@@ -821,12 +799,10 @@ export default {
         "had quite a shock"
       ],
       "optionReasons": {
-        "shock-mcq-03": "本句指「因突發事情而吃一驚／受到驚嚇」。",
-        "shock-mcq-02": "「因突發可怕事件而震驚得反應遲鈍／驚魂未定」與本句語境不同。",
-        "shock-mcq-04": "「某事令人非常震驚或意外」與本句語境不同。",
-        "shock-mcq-01": "「因突發、意外或令人不安的事情而產生的強烈震驚／衝擊」與本句語境不同。",
-        "shock-mcq-05": "「使某人極度震驚、驚愕或不安」與本句語境不同。",
-        "shock-mcq-06": "「以強烈衝擊促使某人採取行動」與本句語境不同。"
+        "shock-mcq-03": "本句的「had quite a shock」指「因突發事情而吃一驚／受到驚嚇」。",
+        "shock-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-03"
     },
@@ -838,11 +814,9 @@ export default {
       "masked": "Her resignation ____.",
       "options": [
         "shock-mcq-04",
-        "shock-mcq-03",
-        "shock-mcq-05",
-        "shock-mcq-02",
-        "shock-mcq-06",
-        "shock-mcq-01"
+        "shock-mcq-08",
+        "shock-mcq-16",
+        "shock-mcq-17"
       ],
       "explanation": "本句的「came as a shock」指「某事令人非常震驚或意外」。",
       "sentenceIndex": 8,
@@ -851,12 +825,10 @@ export default {
         "came as a shock"
       ],
       "optionReasons": {
-        "shock-mcq-04": "本句指「某事令人非常震驚或意外」。",
-        "shock-mcq-03": "「因突發事情而吃一驚／受到驚嚇」與本句語境不同。",
-        "shock-mcq-05": "「使某人極度震驚、驚愕或不安」與本句語境不同。",
-        "shock-mcq-02": "「因突發可怕事件而震驚得反應遲鈍／驚魂未定」與本句語境不同。",
-        "shock-mcq-06": "「以強烈衝擊促使某人採取行動」與本句語境不同。",
-        "shock-mcq-01": "「因突發、意外或令人不安的事情而產生的強烈震驚／衝擊」與本句語境不同。"
+        "shock-mcq-04": "本句的「came as a shock」指「某事令人非常震驚或意外」。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-04"
     },
@@ -868,11 +840,9 @@ export default {
       "masked": "The result ____.",
       "options": [
         "shock-mcq-04",
-        "shock-mcq-03",
-        "shock-mcq-05",
-        "shock-mcq-02",
         "shock-mcq-06",
-        "shock-mcq-01"
+        "shock-mcq-09",
+        "shock-mcq-03"
       ],
       "explanation": "本句的「came as a shock to everyone」指「某事令人非常震驚或意外」。",
       "sentenceIndex": 9,
@@ -881,12 +851,10 @@ export default {
         "came as a shock to everyone"
       ],
       "optionReasons": {
-        "shock-mcq-04": "本句指「某事令人非常震驚或意外」。",
-        "shock-mcq-03": "「因突發事情而吃一驚／受到驚嚇」與本句語境不同。",
-        "shock-mcq-05": "「使某人極度震驚、驚愕或不安」與本句語境不同。",
-        "shock-mcq-02": "「因突發可怕事件而震驚得反應遲鈍／驚魂未定」與本句語境不同。",
-        "shock-mcq-06": "「以強烈衝擊促使某人採取行動」與本句語境不同。",
-        "shock-mcq-01": "「因突發、意外或令人不安的事情而產生的強烈震驚／衝擊」與本句語境不同。"
+        "shock-mcq-04": "本句的「came as a shock to everyone」指「某事令人非常震驚或意外」。",
+        "shock-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-04"
     },
@@ -898,11 +866,9 @@ export default {
       "masked": "The news ____ everyone.",
       "options": [
         "shock-mcq-05",
-        "shock-mcq-04",
-        "shock-mcq-06",
-        "shock-mcq-03",
-        "shock-mcq-07",
-        "shock-mcq-02"
+        "shock-mcq-28",
+        "shock-mcq-14",
+        "shock-mcq-25"
       ],
       "explanation": "本句的「shocked」指「使某人極度震驚、驚愕或不安」。",
       "sentenceIndex": 10,
@@ -911,12 +877,10 @@ export default {
         "shocked"
       ],
       "optionReasons": {
-        "shock-mcq-05": "本句指「使某人極度震驚、驚愕或不安」。",
-        "shock-mcq-04": "「某事令人非常震驚或意外」與本句語境不同。",
-        "shock-mcq-06": "「以強烈衝擊促使某人採取行動」與本句語境不同。",
-        "shock-mcq-03": "「因突發事情而吃一驚／受到驚嚇」與本句語境不同。",
-        "shock-mcq-07": "「身體重要器官因供血／供氧不足而出現的危險休克狀態」與本句語境不同。",
-        "shock-mcq-02": "「因突發可怕事件而震驚得反應遲鈍／驚魂未定」與本句語境不同。"
+        "shock-mcq-05": "本句的「shocked」指「使某人極度震驚、驚愕或不安」。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-05"
     },
@@ -928,11 +892,9 @@ export default {
       "masked": "I was ____ what I saw.",
       "options": [
         "shock-mcq-05",
-        "shock-mcq-04",
-        "shock-mcq-06",
-        "shock-mcq-03",
-        "shock-mcq-07",
-        "shock-mcq-02"
+        "shock-mcq-28",
+        "shock-mcq-18",
+        "shock-mcq-25"
       ],
       "explanation": "本句的「shocked by」指「使某人極度震驚、驚愕或不安」。",
       "sentenceIndex": 11,
@@ -941,12 +903,10 @@ export default {
         "shocked by"
       ],
       "optionReasons": {
-        "shock-mcq-05": "本句指「使某人極度震驚、驚愕或不安」。",
-        "shock-mcq-04": "「某事令人非常震驚或意外」與本句語境不同。",
-        "shock-mcq-06": "「以強烈衝擊促使某人採取行動」與本句語境不同。",
-        "shock-mcq-03": "「因突發事情而吃一驚／受到驚嚇」與本句語境不同。",
-        "shock-mcq-07": "「身體重要器官因供血／供氧不足而出現的危險休克狀態」與本句語境不同。",
-        "shock-mcq-02": "「因突發可怕事件而震驚得反應遲鈍／驚魂未定」與本句語境不同。"
+        "shock-mcq-05": "本句的「shocked by」指「使某人極度震驚、驚愕或不安」。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-05"
     },
@@ -958,10 +918,8 @@ export default {
       "masked": "The incident ____ his behavior.",
       "options": [
         "shock-mcq-06",
-        "shock-mcq-05",
-        "shock-mcq-07",
-        "shock-mcq-04",
-        "shock-mcq-08",
+        "shock-mcq-09",
+        "shock-mcq-23",
         "shock-mcq-03"
       ],
       "explanation": "本句的「shocked him into changing」指「以強烈衝擊促使某人採取行動」。",
@@ -971,12 +929,10 @@ export default {
         "shocked him into changing"
       ],
       "optionReasons": {
-        "shock-mcq-06": "本句指「以強烈衝擊促使某人採取行動」。",
-        "shock-mcq-05": "「使某人極度震驚、驚愕或不安」與本句語境不同。",
-        "shock-mcq-07": "「身體重要器官因供血／供氧不足而出現的危險休克狀態」與本句語境不同。",
-        "shock-mcq-04": "「某事令人非常震驚或意外」與本句語境不同。",
-        "shock-mcq-08": "「陷入醫學上的休克」與本句語境不同。",
-        "shock-mcq-03": "「因突發事情而吃一驚／受到驚嚇」與本句語境不同。"
+        "shock-mcq-06": "本句的「shocked him into changing」指「以強烈衝擊促使某人採取行動」。",
+        "shock-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-06"
     },
@@ -988,11 +944,9 @@ export default {
       "masked": "The report ____.",
       "options": [
         "shock-mcq-06",
-        "shock-mcq-05",
-        "shock-mcq-07",
-        "shock-mcq-04",
-        "shock-mcq-08",
-        "shock-mcq-03"
+        "shock-mcq-09",
+        "shock-mcq-26",
+        "shock-mcq-25"
       ],
       "explanation": "本句的「shocked the government into action」指「以強烈衝擊促使某人採取行動」。",
       "sentenceIndex": 13,
@@ -1001,12 +955,10 @@ export default {
         "shocked the government into action"
       ],
       "optionReasons": {
-        "shock-mcq-06": "本句指「以強烈衝擊促使某人採取行動」。",
-        "shock-mcq-05": "「使某人極度震驚、驚愕或不安」與本句語境不同。",
-        "shock-mcq-07": "「身體重要器官因供血／供氧不足而出現的危險休克狀態」與本句語境不同。",
-        "shock-mcq-04": "「某事令人非常震驚或意外」與本句語境不同。",
-        "shock-mcq-08": "「陷入醫學上的休克」與本句語境不同。",
-        "shock-mcq-03": "「因突發事情而吃一驚／受到驚嚇」與本句語境不同。"
+        "shock-mcq-06": "本句的「shocked the government into action」指「以強烈衝擊促使某人採取行動」。",
+        "shock-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-06"
     },
@@ -1018,11 +970,9 @@ export default {
       "masked": "She ____ after the injury.",
       "options": [
         "shock-mcq-08",
-        "shock-mcq-07",
-        "shock-mcq-09",
-        "shock-mcq-06",
-        "shock-mcq-10",
-        "shock-mcq-05"
+        "shock-mcq-30",
+        "shock-mcq-19",
+        "shock-mcq-26"
       ],
       "explanation": "本句的「went into shock」指「陷入醫學上的休克」。",
       "sentenceIndex": 16,
@@ -1031,12 +981,10 @@ export default {
         "went into shock"
       ],
       "optionReasons": {
-        "shock-mcq-08": "本句指「陷入醫學上的休克」。",
-        "shock-mcq-07": "「身體重要器官因供血／供氧不足而出現的危險休克狀態」與本句語境不同。",
-        "shock-mcq-09": "「嚴重感染引起的敗血性休克」與本句語境不同。",
-        "shock-mcq-06": "「以強烈衝擊促使某人採取行動」與本句語境不同。",
-        "shock-mcq-10": "「電流通過身體造成的電擊／觸電」與本句語境不同。",
-        "shock-mcq-05": "「使某人極度震驚、驚愕或不安」與本句語境不同。"
+        "shock-mcq-08": "本句的「went into shock」指「陷入醫學上的休克」。",
+        "shock-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-08"
     },
@@ -1048,11 +996,9 @@ export default {
       "masked": "Severe blood loss can cause someone to ____.",
       "options": [
         "shock-mcq-08",
-        "shock-mcq-07",
-        "shock-mcq-09",
-        "shock-mcq-06",
-        "shock-mcq-10",
-        "shock-mcq-05"
+        "shock-mcq-29",
+        "shock-mcq-26",
+        "shock-mcq-25"
       ],
       "explanation": "本句的「go into shock」指「陷入醫學上的休克」。",
       "sentenceIndex": 17,
@@ -1061,12 +1007,10 @@ export default {
         "go into shock"
       ],
       "optionReasons": {
-        "shock-mcq-08": "本句指「陷入醫學上的休克」。",
-        "shock-mcq-07": "「身體重要器官因供血／供氧不足而出現的危險休克狀態」與本句語境不同。",
-        "shock-mcq-09": "「嚴重感染引起的敗血性休克」與本句語境不同。",
-        "shock-mcq-06": "「以強烈衝擊促使某人採取行動」與本句語境不同。",
-        "shock-mcq-10": "「電流通過身體造成的電擊／觸電」與本句語境不同。",
-        "shock-mcq-05": "「使某人極度震驚、驚愕或不安」與本句語境不同。"
+        "shock-mcq-08": "本句的「go into shock」指「陷入醫學上的休克」。",
+        "shock-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-08"
     },
@@ -1078,11 +1022,9 @@ export default {
       "masked": "The infection developed into ____.",
       "options": [
         "shock-mcq-09",
-        "shock-mcq-08",
-        "shock-mcq-10",
-        "shock-mcq-07",
-        "shock-mcq-11",
-        "shock-mcq-06"
+        "shock-mcq-17",
+        "shock-mcq-02",
+        "shock-mcq-12"
       ],
       "explanation": "本句的「septic shock」指「嚴重感染引起的敗血性休克」。",
       "sentenceIndex": 18,
@@ -1091,12 +1033,10 @@ export default {
         "septic shock"
       ],
       "optionReasons": {
-        "shock-mcq-09": "本句指「嚴重感染引起的敗血性休克」。",
-        "shock-mcq-08": "「陷入醫學上的休克」與本句語境不同。",
-        "shock-mcq-10": "「電流通過身體造成的電擊／觸電」與本句語境不同。",
-        "shock-mcq-07": "「身體重要器官因供血／供氧不足而出現的危險休克狀態」與本句語境不同。",
-        "shock-mcq-11": "「使某人觸電／受電擊」與本句語境不同。",
-        "shock-mcq-06": "「以強烈衝擊促使某人採取行動」與本句語境不同。"
+        "shock-mcq-09": "本句的「septic shock」指「嚴重感染引起的敗血性休克」。",
+        "shock-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-09"
     },
@@ -1108,11 +1048,9 @@ export default {
       "masked": "____ requires urgent medical treatment.",
       "options": [
         "shock-mcq-09",
-        "shock-mcq-08",
-        "shock-mcq-10",
-        "shock-mcq-07",
-        "shock-mcq-11",
-        "shock-mcq-06"
+        "shock-mcq-06",
+        "shock-mcq-02",
+        "shock-mcq-21"
       ],
       "explanation": "本句的「Septic shock」指「嚴重感染引起的敗血性休克」。",
       "sentenceIndex": 19,
@@ -1121,12 +1059,10 @@ export default {
         "Septic shock"
       ],
       "optionReasons": {
-        "shock-mcq-09": "本句指「嚴重感染引起的敗血性休克」。",
-        "shock-mcq-08": "「陷入醫學上的休克」與本句語境不同。",
-        "shock-mcq-10": "「電流通過身體造成的電擊／觸電」與本句語境不同。",
-        "shock-mcq-07": "「身體重要器官因供血／供氧不足而出現的危險休克狀態」與本句語境不同。",
-        "shock-mcq-11": "「使某人觸電／受電擊」與本句語境不同。",
-        "shock-mcq-06": "「以強烈衝擊促使某人採取行動」與本句語境不同。"
+        "shock-mcq-09": "本句的「Septic shock」指「嚴重感染引起的敗血性休克」。",
+        "shock-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-09"
     },
@@ -1138,11 +1074,9 @@ export default {
       "masked": "He received an ____ from the damaged cable.",
       "options": [
         "shock-mcq-10",
-        "shock-mcq-09",
-        "shock-mcq-11",
-        "shock-mcq-08",
-        "shock-mcq-12",
-        "shock-mcq-07"
+        "shock-mcq-03",
+        "shock-mcq-05",
+        "shock-mcq-17"
       ],
       "explanation": "本句的「electric shock」指「電流通過身體造成的電擊／觸電」。",
       "sentenceIndex": 20,
@@ -1151,12 +1085,10 @@ export default {
         "electric shock"
       ],
       "optionReasons": {
-        "shock-mcq-10": "本句指「電流通過身體造成的電擊／觸電」。",
-        "shock-mcq-09": "「嚴重感染引起的敗血性休克」與本句語境不同。",
-        "shock-mcq-11": "「使某人觸電／受電擊」與本句語境不同。",
-        "shock-mcq-08": "「陷入醫學上的休克」與本句語境不同。",
-        "shock-mcq-12": "「突然傳遞的撞擊力／震動」與本句語境不同。",
-        "shock-mcq-07": "「身體重要器官因供血／供氧不足而出現的危險休克狀態」與本句語境不同。"
+        "shock-mcq-10": "本句的「electric shock」指「電流通過身體造成的電擊／觸電」。",
+        "shock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-10"
     },
@@ -1168,11 +1100,9 @@ export default {
       "masked": "The device is designed to reduce the risk of ____.",
       "options": [
         "shock-mcq-10",
-        "shock-mcq-09",
-        "shock-mcq-11",
-        "shock-mcq-08",
-        "shock-mcq-12",
-        "shock-mcq-07"
+        "shock-mcq-23",
+        "shock-mcq-03",
+        "shock-mcq-28"
       ],
       "explanation": "本句的「electric shock」指「電流通過身體造成的電擊／觸電」。",
       "sentenceIndex": 21,
@@ -1181,12 +1111,10 @@ export default {
         "electric shock"
       ],
       "optionReasons": {
-        "shock-mcq-10": "本句指「電流通過身體造成的電擊／觸電」。",
-        "shock-mcq-09": "「嚴重感染引起的敗血性休克」與本句語境不同。",
-        "shock-mcq-11": "「使某人觸電／受電擊」與本句語境不同。",
-        "shock-mcq-08": "「陷入醫學上的休克」與本句語境不同。",
-        "shock-mcq-12": "「突然傳遞的撞擊力／震動」與本句語境不同。",
-        "shock-mcq-07": "「身體重要器官因供血／供氧不足而出現的危險休克狀態」與本句語境不同。"
+        "shock-mcq-10": "本句的「electric shock」指「電流通過身體造成的電擊／觸電」。",
+        "shock-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-10"
     },
@@ -1198,10 +1126,8 @@ export default {
       "masked": "The exposed wire ____ him.",
       "options": [
         "shock-mcq-11",
-        "shock-mcq-10",
-        "shock-mcq-12",
-        "shock-mcq-09",
-        "shock-mcq-13",
+        "shock-mcq-20",
+        "shock-mcq-22",
         "shock-mcq-08"
       ],
       "explanation": "本句的「shocked」指「使某人觸電／受電擊」。",
@@ -1211,12 +1137,10 @@ export default {
         "shocked"
       ],
       "optionReasons": {
-        "shock-mcq-11": "本句指「使某人觸電／受電擊」。",
-        "shock-mcq-10": "「電流通過身體造成的電擊／觸電」與本句語境不同。",
-        "shock-mcq-12": "「突然傳遞的撞擊力／震動」與本句語境不同。",
-        "shock-mcq-09": "「嚴重感染引起的敗血性休克」與本句語境不同。",
-        "shock-mcq-13": "「減少車輛／機械震動與撞擊的避震器／減震器」與本句語境不同。",
-        "shock-mcq-08": "「陷入醫學上的休克」與本句語境不同。"
+        "shock-mcq-11": "本句的「shocked」指「使某人觸電／受電擊」。",
+        "shock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-11"
     },
@@ -1228,11 +1152,9 @@ export default {
       "masked": "Be careful—the equipment can ____ you.",
       "options": [
         "shock-mcq-11",
-        "shock-mcq-10",
-        "shock-mcq-12",
-        "shock-mcq-09",
-        "shock-mcq-13",
-        "shock-mcq-08"
+        "shock-mcq-20",
+        "shock-mcq-22",
+        "shock-mcq-02"
       ],
       "explanation": "本句的「shock」指「使某人觸電／受電擊」。",
       "sentenceIndex": 23,
@@ -1241,12 +1163,10 @@ export default {
         "shock"
       ],
       "optionReasons": {
-        "shock-mcq-11": "本句指「使某人觸電／受電擊」。",
-        "shock-mcq-10": "「電流通過身體造成的電擊／觸電」與本句語境不同。",
-        "shock-mcq-12": "「突然傳遞的撞擊力／震動」與本句語境不同。",
-        "shock-mcq-09": "「嚴重感染引起的敗血性休克」與本句語境不同。",
-        "shock-mcq-13": "「減少車輛／機械震動與撞擊的避震器／減震器」與本句語境不同。",
-        "shock-mcq-08": "「陷入醫學上的休克」與本句語境不同。"
+        "shock-mcq-11": "本句的「shock」指「使某人觸電／受電擊」。",
+        "shock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-11"
     },
@@ -1258,11 +1178,9 @@ export default {
       "masked": "The structure absorbed the ____ of the impact.",
       "options": [
         "shock-mcq-12",
-        "shock-mcq-11",
-        "shock-mcq-13",
-        "shock-mcq-10",
-        "shock-mcq-14",
-        "shock-mcq-09"
+        "shock-mcq-28",
+        "shock-mcq-22",
+        "shock-mcq-17"
       ],
       "explanation": "本句的「shock」指「突然傳遞的撞擊力／震動」。",
       "sentenceIndex": 24,
@@ -1271,12 +1189,10 @@ export default {
         "shock"
       ],
       "optionReasons": {
-        "shock-mcq-12": "本句指「突然傳遞的撞擊力／震動」。",
-        "shock-mcq-11": "「使某人觸電／受電擊」與本句語境不同。",
-        "shock-mcq-13": "「減少車輛／機械震動與撞擊的避震器／減震器」與本句語境不同。",
-        "shock-mcq-10": "「電流通過身體造成的電擊／觸電」與本句語境不同。",
-        "shock-mcq-14": "「爆炸等形成並向外傳播的強烈壓力波；衝擊波」與本句語境不同。",
-        "shock-mcq-09": "「嚴重感染引起的敗血性休克」與本句語境不同。"
+        "shock-mcq-12": "本句的「shock」指「突然傳遞的撞擊力／震動」。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-12"
     },
@@ -1288,11 +1204,9 @@ export default {
       "masked": "The landing sent a ____ through the vehicle.",
       "options": [
         "shock-mcq-12",
-        "shock-mcq-11",
-        "shock-mcq-13",
-        "shock-mcq-10",
-        "shock-mcq-14",
-        "shock-mcq-09"
+        "shock-mcq-17",
+        "shock-mcq-08",
+        "shock-mcq-22"
       ],
       "explanation": "本句的「shock」指「突然傳遞的撞擊力／震動」。",
       "sentenceIndex": 25,
@@ -1301,12 +1215,10 @@ export default {
         "shock"
       ],
       "optionReasons": {
-        "shock-mcq-12": "本句指「突然傳遞的撞擊力／震動」。",
-        "shock-mcq-11": "「使某人觸電／受電擊」與本句語境不同。",
-        "shock-mcq-13": "「減少車輛／機械震動與撞擊的避震器／減震器」與本句語境不同。",
-        "shock-mcq-10": "「電流通過身體造成的電擊／觸電」與本句語境不同。",
-        "shock-mcq-14": "「爆炸等形成並向外傳播的強烈壓力波；衝擊波」與本句語境不同。",
-        "shock-mcq-09": "「嚴重感染引起的敗血性休克」與本句語境不同。"
+        "shock-mcq-12": "本句的「shock」指「突然傳遞的撞擊力／震動」。",
+        "shock-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-12"
     },
@@ -1318,11 +1230,9 @@ export default {
       "masked": "One of the car’s ____ needs replacing.",
       "options": [
         "shock-mcq-13",
-        "shock-mcq-12",
-        "shock-mcq-14",
-        "shock-mcq-11",
-        "shock-mcq-15",
-        "shock-mcq-10"
+        "shock-mcq-25",
+        "shock-mcq-03",
+        "shock-mcq-09"
       ],
       "explanation": "本句的「shock absorbers」指「減少車輛／機械震動與撞擊的避震器／減震器」。",
       "sentenceIndex": 26,
@@ -1331,12 +1241,10 @@ export default {
         "shock absorbers"
       ],
       "optionReasons": {
-        "shock-mcq-13": "本句指「減少車輛／機械震動與撞擊的避震器／減震器」。",
-        "shock-mcq-12": "「突然傳遞的撞擊力／震動」與本句語境不同。",
-        "shock-mcq-14": "「爆炸等形成並向外傳播的強烈壓力波；衝擊波」與本句語境不同。",
-        "shock-mcq-11": "「使某人觸電／受電擊」與本句語境不同。",
-        "shock-mcq-15": "「重大事件引起的大範圍震撼／連鎖影響」與本句語境不同。",
-        "shock-mcq-10": "「電流通過身體造成的電擊／觸電」與本句語境不同。"
+        "shock-mcq-13": "本句的「shock absorbers」指「減少車輛／機械震動與撞擊的避震器／減震器」。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-13"
     },
@@ -1348,11 +1256,9 @@ export default {
       "masked": "Good ____ make the ride smoother.",
       "options": [
         "shock-mcq-13",
-        "shock-mcq-12",
-        "shock-mcq-14",
-        "shock-mcq-11",
-        "shock-mcq-15",
-        "shock-mcq-10"
+        "shock-mcq-08",
+        "shock-mcq-03",
+        "shock-mcq-17"
       ],
       "explanation": "本句的「shock absorbers」指「減少車輛／機械震動與撞擊的避震器／減震器」。",
       "sentenceIndex": 27,
@@ -1361,12 +1267,10 @@ export default {
         "shock absorbers"
       ],
       "optionReasons": {
-        "shock-mcq-13": "本句指「減少車輛／機械震動與撞擊的避震器／減震器」。",
-        "shock-mcq-12": "「突然傳遞的撞擊力／震動」與本句語境不同。",
-        "shock-mcq-14": "「爆炸等形成並向外傳播的強烈壓力波；衝擊波」與本句語境不同。",
-        "shock-mcq-11": "「使某人觸電／受電擊」與本句語境不同。",
-        "shock-mcq-15": "「重大事件引起的大範圍震撼／連鎖影響」與本句語境不同。",
-        "shock-mcq-10": "「電流通過身體造成的電擊／觸電」與本句語境不同。"
+        "shock-mcq-13": "本句的「shock absorbers」指「減少車輛／機械震動與撞擊的避震器／減震器」。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-13"
     },
@@ -1378,11 +1282,9 @@ export default {
       "masked": "The explosion produced a powerful ____.",
       "options": [
         "shock-mcq-14",
-        "shock-mcq-13",
-        "shock-mcq-15",
-        "shock-mcq-12",
-        "shock-mcq-16",
-        "shock-mcq-11"
+        "shock-mcq-03",
+        "shock-mcq-26",
+        "shock-mcq-25"
       ],
       "explanation": "本句的「shock wave」指「爆炸等形成並向外傳播的強烈壓力波；衝擊波」。",
       "sentenceIndex": 28,
@@ -1391,12 +1293,10 @@ export default {
         "shock wave"
       ],
       "optionReasons": {
-        "shock-mcq-14": "本句指「爆炸等形成並向外傳播的強烈壓力波；衝擊波」。",
-        "shock-mcq-13": "「減少車輛／機械震動與撞擊的避震器／減震器」與本句語境不同。",
-        "shock-mcq-15": "「重大事件引起的大範圍震撼／連鎖影響」與本句語境不同。",
-        "shock-mcq-12": "「突然傳遞的撞擊力／震動」與本句語境不同。",
-        "shock-mcq-16": "「接觸陌生文化時產生的不適應與文化衝擊」與本句語境不同。",
-        "shock-mcq-11": "「使某人觸電／受電擊」與本句語境不同。"
+        "shock-mcq-14": "本句的「shock wave」指「爆炸等形成並向外傳播的強烈壓力波；衝擊波」。",
+        "shock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-14"
     },
@@ -1408,11 +1308,9 @@ export default {
       "masked": "The ____ damaged nearby windows.",
       "options": [
         "shock-mcq-14",
-        "shock-mcq-13",
-        "shock-mcq-15",
-        "shock-mcq-12",
-        "shock-mcq-16",
-        "shock-mcq-11"
+        "shock-mcq-08",
+        "shock-mcq-02",
+        "shock-mcq-25"
       ],
       "explanation": "本句的「shock wave」指「爆炸等形成並向外傳播的強烈壓力波；衝擊波」。",
       "sentenceIndex": 29,
@@ -1421,12 +1319,10 @@ export default {
         "shock wave"
       ],
       "optionReasons": {
-        "shock-mcq-14": "本句指「爆炸等形成並向外傳播的強烈壓力波；衝擊波」。",
-        "shock-mcq-13": "「減少車輛／機械震動與撞擊的避震器／減震器」與本句語境不同。",
-        "shock-mcq-15": "「重大事件引起的大範圍震撼／連鎖影響」與本句語境不同。",
-        "shock-mcq-12": "「突然傳遞的撞擊力／震動」與本句語境不同。",
-        "shock-mcq-16": "「接觸陌生文化時產生的不適應與文化衝擊」與本句語境不同。",
-        "shock-mcq-11": "「使某人觸電／受電擊」與本句語境不同。"
+        "shock-mcq-14": "本句的「shock wave」指「爆炸等形成並向外傳播的強烈壓力波；衝擊波」。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-14"
     },
@@ -1438,11 +1334,9 @@ export default {
       "masked": "The announcement sent ____.",
       "options": [
         "shock-mcq-15",
-        "shock-mcq-14",
-        "shock-mcq-16",
-        "shock-mcq-13",
-        "shock-mcq-17",
-        "shock-mcq-12"
+        "shock-mcq-03",
+        "shock-mcq-08",
+        "shock-mcq-25"
       ],
       "explanation": "本句的「shock waves through the industry」指「重大事件引起的大範圍震撼／連鎖影響」。",
       "sentenceIndex": 30,
@@ -1451,12 +1345,10 @@ export default {
         "shock waves through the industry"
       ],
       "optionReasons": {
-        "shock-mcq-15": "本句指「重大事件引起的大範圍震撼／連鎖影響」。",
-        "shock-mcq-14": "「爆炸等形成並向外傳播的強烈壓力波；衝擊波」與本句語境不同。",
-        "shock-mcq-16": "「接觸陌生文化時產生的不適應與文化衝擊」與本句語境不同。",
-        "shock-mcq-13": "「減少車輛／機械震動與撞擊的避震器／減震器」與本句語境不同。",
-        "shock-mcq-17": "「看到價格遠高於預期時的強烈吃驚」與本句語境不同。",
-        "shock-mcq-12": "「突然傳遞的撞擊力／震動」與本句語境不同。"
+        "shock-mcq-15": "本句的「shock waves through the industry」指「重大事件引起的大範圍震撼／連鎖影響」。",
+        "shock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-15"
     },
@@ -1468,11 +1360,9 @@ export default {
       "masked": "The sudden closure sent ____.",
       "options": [
         "shock-mcq-15",
-        "shock-mcq-14",
-        "shock-mcq-16",
-        "shock-mcq-13",
-        "shock-mcq-17",
-        "shock-mcq-12"
+        "shock-mcq-28",
+        "shock-mcq-11",
+        "shock-mcq-25"
       ],
       "explanation": "本句的「shock waves through the community」指「重大事件引起的大範圍震撼／連鎖影響」。",
       "sentenceIndex": 31,
@@ -1481,12 +1371,10 @@ export default {
         "shock waves through the community"
       ],
       "optionReasons": {
-        "shock-mcq-15": "本句指「重大事件引起的大範圍震撼／連鎖影響」。",
-        "shock-mcq-14": "「爆炸等形成並向外傳播的強烈壓力波；衝擊波」與本句語境不同。",
-        "shock-mcq-16": "「接觸陌生文化時產生的不適應與文化衝擊」與本句語境不同。",
-        "shock-mcq-13": "「減少車輛／機械震動與撞擊的避震器／減震器」與本句語境不同。",
-        "shock-mcq-17": "「看到價格遠高於預期時的強烈吃驚」與本句語境不同。",
-        "shock-mcq-12": "「突然傳遞的撞擊力／震動」與本句語境不同。"
+        "shock-mcq-15": "本句的「shock waves through the community」指「重大事件引起的大範圍震撼／連鎖影響」。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-15"
     },
@@ -1498,11 +1386,9 @@ export default {
       "masked": "She experienced ____ after moving abroad.",
       "options": [
         "shock-mcq-16",
-        "shock-mcq-15",
-        "shock-mcq-17",
-        "shock-mcq-14",
-        "shock-mcq-18",
-        "shock-mcq-13"
+        "shock-mcq-26",
+        "shock-mcq-21",
+        "shock-mcq-08"
       ],
       "explanation": "本句的「culture shock」指「接觸陌生文化時產生的不適應與文化衝擊」。",
       "sentenceIndex": 32,
@@ -1511,12 +1397,10 @@ export default {
         "culture shock"
       ],
       "optionReasons": {
-        "shock-mcq-16": "本句指「接觸陌生文化時產生的不適應與文化衝擊」。",
-        "shock-mcq-15": "「重大事件引起的大範圍震撼／連鎖影響」與本句語境不同。",
-        "shock-mcq-17": "「看到價格遠高於預期時的強烈吃驚」與本句語境不同。",
-        "shock-mcq-14": "「爆炸等形成並向外傳播的強烈壓力波；衝擊波」與本句語境不同。",
-        "shock-mcq-18": "「價格突然大幅變化帶來的經濟衝擊」與本句語境不同。",
-        "shock-mcq-13": "「減少車輛／機械震動與撞擊的避震器／減震器」與本句語境不同。"
+        "shock-mcq-16": "本句的「culture shock」指「接觸陌生文化時產生的不適應與文化衝擊」。",
+        "shock-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-16"
     },
@@ -1528,11 +1412,9 @@ export default {
       "masked": "____ can take time to overcome.",
       "options": [
         "shock-mcq-16",
-        "shock-mcq-15",
-        "shock-mcq-17",
-        "shock-mcq-14",
-        "shock-mcq-18",
-        "shock-mcq-13"
+        "shock-mcq-26",
+        "shock-mcq-21",
+        "shock-mcq-25"
       ],
       "explanation": "本句的「Culture shock」指「接觸陌生文化時產生的不適應與文化衝擊」。",
       "sentenceIndex": 33,
@@ -1541,12 +1423,10 @@ export default {
         "Culture shock"
       ],
       "optionReasons": {
-        "shock-mcq-16": "本句指「接觸陌生文化時產生的不適應與文化衝擊」。",
-        "shock-mcq-15": "「重大事件引起的大範圍震撼／連鎖影響」與本句語境不同。",
-        "shock-mcq-17": "「看到價格遠高於預期時的強烈吃驚」與本句語境不同。",
-        "shock-mcq-14": "「爆炸等形成並向外傳播的強烈壓力波；衝擊波」與本句語境不同。",
-        "shock-mcq-18": "「價格突然大幅變化帶來的經濟衝擊」與本句語境不同。",
-        "shock-mcq-13": "「減少車輛／機械震動與撞擊的避震器／減震器」與本句語境不同。"
+        "shock-mcq-16": "本句的「Culture shock」指「接觸陌生文化時產生的不適應與文化衝擊」。",
+        "shock-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-16"
     },
@@ -1558,11 +1438,9 @@ export default {
       "masked": "Buyers suffered ____ when they saw the new prices.",
       "options": [
         "shock-mcq-17",
-        "shock-mcq-16",
-        "shock-mcq-18",
-        "shock-mcq-15",
-        "shock-mcq-19",
-        "shock-mcq-14"
+        "shock-mcq-25",
+        "shock-mcq-11",
+        "shock-mcq-19"
       ],
       "explanation": "本句的「sticker shock」指「看到價格遠高於預期時的強烈吃驚」。",
       "sentenceIndex": 34,
@@ -1571,12 +1449,10 @@ export default {
         "sticker shock"
       ],
       "optionReasons": {
-        "shock-mcq-17": "本句指「看到價格遠高於預期時的強烈吃驚」。",
-        "shock-mcq-16": "「接觸陌生文化時產生的不適應與文化衝擊」與本句語境不同。",
-        "shock-mcq-18": "「價格突然大幅變化帶來的經濟衝擊」與本句語境不同。",
-        "shock-mcq-15": "「重大事件引起的大範圍震撼／連鎖影響」與本句語境不同。",
-        "shock-mcq-19": "「故意用極端、刺激手段引起注意／反應的震撼策略」與本句語境不同。",
-        "shock-mcq-14": "「爆炸等形成並向外傳播的強烈壓力波；衝擊波」與本句語境不同。"
+        "shock-mcq-17": "本句的「sticker shock」指「看到價格遠高於預期時的強烈吃驚」。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-17"
     },
@@ -1588,11 +1464,9 @@ export default {
       "masked": "The hotel bill gave me serious ____.",
       "options": [
         "shock-mcq-17",
-        "shock-mcq-16",
-        "shock-mcq-18",
-        "shock-mcq-15",
-        "shock-mcq-19",
-        "shock-mcq-14"
+        "shock-mcq-10",
+        "shock-mcq-08",
+        "shock-mcq-13"
       ],
       "explanation": "本句的「sticker shock」指「看到價格遠高於預期時的強烈吃驚」。",
       "sentenceIndex": 35,
@@ -1601,12 +1475,10 @@ export default {
         "sticker shock"
       ],
       "optionReasons": {
-        "shock-mcq-17": "本句指「看到價格遠高於預期時的強烈吃驚」。",
-        "shock-mcq-16": "「接觸陌生文化時產生的不適應與文化衝擊」與本句語境不同。",
-        "shock-mcq-18": "「價格突然大幅變化帶來的經濟衝擊」與本句語境不同。",
-        "shock-mcq-15": "「重大事件引起的大範圍震撼／連鎖影響」與本句語境不同。",
-        "shock-mcq-19": "「故意用極端、刺激手段引起注意／反應的震撼策略」與本句語境不同。",
-        "shock-mcq-14": "「爆炸等形成並向外傳播的強烈壓力波；衝擊波」與本句語境不同。"
+        "shock-mcq-17": "本句的「sticker shock」指「看到價格遠高於預期時的強烈吃驚」。",
+        "shock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-17"
     },
@@ -1618,11 +1490,9 @@ export default {
       "masked": "The economy struggled with an energy ____.",
       "options": [
         "shock-mcq-18",
-        "shock-mcq-17",
-        "shock-mcq-19",
-        "shock-mcq-16",
-        "shock-mcq-20",
-        "shock-mcq-15"
+        "shock-mcq-28",
+        "shock-mcq-25",
+        "shock-mcq-26"
       ],
       "explanation": "本句的「price shock」指「價格突然大幅變化帶來的經濟衝擊」。",
       "sentenceIndex": 36,
@@ -1631,12 +1501,10 @@ export default {
         "price shock"
       ],
       "optionReasons": {
-        "shock-mcq-18": "本句指「價格突然大幅變化帶來的經濟衝擊」。",
-        "shock-mcq-17": "「看到價格遠高於預期時的強烈吃驚」與本句語境不同。",
-        "shock-mcq-19": "「故意用極端、刺激手段引起注意／反應的震撼策略」與本句語境不同。",
-        "shock-mcq-16": "「接觸陌生文化時產生的不適應與文化衝擊」與本句語境不同。",
-        "shock-mcq-20": "「靠令人不安、意外或冒犯來吸引注意的震撼效果」與本句語境不同。",
-        "shock-mcq-15": "「重大事件引起的大範圍震撼／連鎖影響」與本句語境不同。"
+        "shock-mcq-18": "本句的「price shock」指「價格突然大幅變化帶來的經濟衝擊」。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-18"
     },
@@ -1648,11 +1516,9 @@ export default {
       "masked": "A sudden oil ____ affected transport costs.",
       "options": [
         "shock-mcq-18",
-        "shock-mcq-17",
-        "shock-mcq-19",
-        "shock-mcq-16",
-        "shock-mcq-20",
-        "shock-mcq-15"
+        "shock-mcq-04",
+        "shock-mcq-08",
+        "shock-mcq-03"
       ],
       "explanation": "本句的「price shock」指「價格突然大幅變化帶來的經濟衝擊」。",
       "sentenceIndex": 37,
@@ -1661,12 +1527,10 @@ export default {
         "price shock"
       ],
       "optionReasons": {
-        "shock-mcq-18": "本句指「價格突然大幅變化帶來的經濟衝擊」。",
-        "shock-mcq-17": "「看到價格遠高於預期時的強烈吃驚」與本句語境不同。",
-        "shock-mcq-19": "「故意用極端、刺激手段引起注意／反應的震撼策略」與本句語境不同。",
-        "shock-mcq-16": "「接觸陌生文化時產生的不適應與文化衝擊」與本句語境不同。",
-        "shock-mcq-20": "「靠令人不安、意外或冒犯來吸引注意的震撼效果」與本句語境不同。",
-        "shock-mcq-15": "「重大事件引起的大範圍震撼／連鎖影響」與本句語境不同。"
+        "shock-mcq-18": "本句的「price shock」指「價格突然大幅變化帶來的經濟衝擊」。",
+        "shock-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-18"
     },
@@ -1678,11 +1542,9 @@ export default {
       "masked": "The campaign used ____ to attract attention.",
       "options": [
         "shock-mcq-19",
-        "shock-mcq-18",
-        "shock-mcq-20",
-        "shock-mcq-17",
-        "shock-mcq-21",
-        "shock-mcq-16"
+        "shock-mcq-11",
+        "shock-mcq-28",
+        "shock-mcq-03"
       ],
       "explanation": "本句的「shock tactics」指「故意用極端、刺激手段引起注意／反應的震撼策略」。",
       "sentenceIndex": 38,
@@ -1691,12 +1553,10 @@ export default {
         "shock tactics"
       ],
       "optionReasons": {
-        "shock-mcq-19": "本句指「故意用極端、刺激手段引起注意／反應的震撼策略」。",
-        "shock-mcq-18": "「價格突然大幅變化帶來的經濟衝擊」與本句語境不同。",
-        "shock-mcq-20": "「靠令人不安、意外或冒犯來吸引注意的震撼效果」與本句語境不同。",
-        "shock-mcq-17": "「看到價格遠高於預期時的強烈吃驚」與本句語境不同。",
-        "shock-mcq-21": "「以突然、激烈措施促成快速改革的震撼療法式政策」與本句語境不同。",
-        "shock-mcq-16": "「接觸陌生文化時產生的不適應與文化衝擊」與本句語境不同。"
+        "shock-mcq-19": "本句的「shock tactics」指「故意用極端、刺激手段引起注意／反應的震撼策略」。",
+        "shock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-19"
     },
@@ -1708,11 +1568,9 @@ export default {
       "masked": "The advertisement relied heavily on ____.",
       "options": [
         "shock-mcq-19",
-        "shock-mcq-18",
-        "shock-mcq-20",
+        "shock-mcq-25",
         "shock-mcq-17",
-        "shock-mcq-21",
-        "shock-mcq-16"
+        "shock-mcq-28"
       ],
       "explanation": "本句的「shock tactics」指「故意用極端、刺激手段引起注意／反應的震撼策略」。",
       "sentenceIndex": 39,
@@ -1721,12 +1579,10 @@ export default {
         "shock tactics"
       ],
       "optionReasons": {
-        "shock-mcq-19": "本句指「故意用極端、刺激手段引起注意／反應的震撼策略」。",
-        "shock-mcq-18": "「價格突然大幅變化帶來的經濟衝擊」與本句語境不同。",
-        "shock-mcq-20": "「靠令人不安、意外或冒犯來吸引注意的震撼效果」與本句語境不同。",
-        "shock-mcq-17": "「看到價格遠高於預期時的強烈吃驚」與本句語境不同。",
-        "shock-mcq-21": "「以突然、激烈措施促成快速改革的震撼療法式政策」與本句語境不同。",
-        "shock-mcq-16": "「接觸陌生文化時產生的不適應與文化衝擊」與本句語境不同。"
+        "shock-mcq-19": "本句的「shock tactics」指「故意用極端、刺激手段引起注意／反應的震撼策略」。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-19"
     },
@@ -1738,11 +1594,9 @@ export default {
       "masked": "The scene seemed designed mainly for ____.",
       "options": [
         "shock-mcq-20",
-        "shock-mcq-19",
-        "shock-mcq-21",
-        "shock-mcq-18",
-        "shock-mcq-22",
-        "shock-mcq-17"
+        "shock-mcq-16",
+        "shock-mcq-03",
+        "shock-mcq-08"
       ],
       "explanation": "本句的「shock value」指「靠令人不安、意外或冒犯來吸引注意的震撼效果」。",
       "sentenceIndex": 40,
@@ -1751,12 +1605,10 @@ export default {
         "shock value"
       ],
       "optionReasons": {
-        "shock-mcq-20": "本句指「靠令人不安、意外或冒犯來吸引注意的震撼效果」。",
-        "shock-mcq-19": "「故意用極端、刺激手段引起注意／反應的震撼策略」與本句語境不同。",
-        "shock-mcq-21": "「以突然、激烈措施促成快速改革的震撼療法式政策」與本句語境不同。",
-        "shock-mcq-18": "「價格突然大幅變化帶來的經濟衝擊」與本句語境不同。",
-        "shock-mcq-22": "「因科技／社會改變過快而產生的失序、不適應感」與本句語境不同。",
-        "shock-mcq-17": "「看到價格遠高於預期時的強烈吃驚」與本句語境不同。"
+        "shock-mcq-20": "本句的「shock value」指「靠令人不安、意外或冒犯來吸引注意的震撼效果」。",
+        "shock-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-20"
     },
@@ -1768,11 +1620,9 @@ export default {
       "masked": "The artist often uses ____.",
       "options": [
         "shock-mcq-20",
-        "shock-mcq-19",
-        "shock-mcq-21",
-        "shock-mcq-18",
-        "shock-mcq-22",
-        "shock-mcq-17"
+        "shock-mcq-25",
+        "shock-mcq-10",
+        "shock-mcq-03"
       ],
       "explanation": "本句的「shock value」指「靠令人不安、意外或冒犯來吸引注意的震撼效果」。",
       "sentenceIndex": 41,
@@ -1781,12 +1631,10 @@ export default {
         "shock value"
       ],
       "optionReasons": {
-        "shock-mcq-20": "本句指「靠令人不安、意外或冒犯來吸引注意的震撼效果」。",
-        "shock-mcq-19": "「故意用極端、刺激手段引起注意／反應的震撼策略」與本句語境不同。",
-        "shock-mcq-21": "「以突然、激烈措施促成快速改革的震撼療法式政策」與本句語境不同。",
-        "shock-mcq-18": "「價格突然大幅變化帶來的經濟衝擊」與本句語境不同。",
-        "shock-mcq-22": "「因科技／社會改變過快而產生的失序、不適應感」與本句語境不同。",
-        "shock-mcq-17": "「看到價格遠高於預期時的強烈吃驚」與本句語境不同。"
+        "shock-mcq-20": "本句的「shock value」指「靠令人不安、意外或冒犯來吸引注意的震撼效果」。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-20"
     },
@@ -1798,11 +1646,9 @@ export default {
       "masked": "The government introduced economic ____.",
       "options": [
         "shock-mcq-21",
-        "shock-mcq-20",
-        "shock-mcq-22",
-        "shock-mcq-19",
-        "shock-mcq-23",
-        "shock-mcq-18"
+        "shock-mcq-28",
+        "shock-mcq-16",
+        "shock-mcq-25"
       ],
       "explanation": "本句的「shock therapy」指「以突然、激烈措施促成快速改革的震撼療法式政策」。",
       "sentenceIndex": 42,
@@ -1811,12 +1657,10 @@ export default {
         "shock therapy"
       ],
       "optionReasons": {
-        "shock-mcq-21": "本句指「以突然、激烈措施促成快速改革的震撼療法式政策」。",
-        "shock-mcq-20": "「靠令人不安、意外或冒犯來吸引注意的震撼效果」與本句語境不同。",
-        "shock-mcq-22": "「因科技／社會改變過快而產生的失序、不適應感」與本句語境不同。",
-        "shock-mcq-19": "「故意用極端、刺激手段引起注意／反應的震撼策略」與本句語境不同。",
-        "shock-mcq-23": "「感到非常震驚、驚愕或不安的」與本句語境不同。",
-        "shock-mcq-18": "「價格突然大幅變化帶來的經濟衝擊」與本句語境不同。"
+        "shock-mcq-21": "本句的「shock therapy」指「以突然、激烈措施促成快速改革的震撼療法式政策」。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-21"
     },
@@ -1828,11 +1672,9 @@ export default {
       "masked": "The company used a form of ____ to cut costs quickly.",
       "options": [
         "shock-mcq-21",
-        "shock-mcq-20",
-        "shock-mcq-22",
-        "shock-mcq-19",
-        "shock-mcq-23",
-        "shock-mcq-18"
+        "shock-mcq-08",
+        "shock-mcq-25",
+        "shock-mcq-16"
       ],
       "explanation": "本句的「shock therapy」指「以突然、激烈措施促成快速改革的震撼療法式政策」。",
       "sentenceIndex": 43,
@@ -1841,12 +1683,10 @@ export default {
         "shock therapy"
       ],
       "optionReasons": {
-        "shock-mcq-21": "本句指「以突然、激烈措施促成快速改革的震撼療法式政策」。",
-        "shock-mcq-20": "「靠令人不安、意外或冒犯來吸引注意的震撼效果」與本句語境不同。",
-        "shock-mcq-22": "「因科技／社會改變過快而產生的失序、不適應感」與本句語境不同。",
-        "shock-mcq-19": "「故意用極端、刺激手段引起注意／反應的震撼策略」與本句語境不同。",
-        "shock-mcq-23": "「感到非常震驚、驚愕或不安的」與本句語境不同。",
-        "shock-mcq-18": "「價格突然大幅變化帶來的經濟衝擊」與本句語境不同。"
+        "shock-mcq-21": "本句的「shock therapy」指「以突然、激烈措施促成快速改革的震撼療法式政策」。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-21"
     },
@@ -1858,11 +1698,9 @@ export default {
       "masked": "Rapid technological change can create a sense of ____.",
       "options": [
         "shock-mcq-22",
-        "shock-mcq-21",
-        "shock-mcq-23",
-        "shock-mcq-20",
-        "shock-mcq-24",
-        "shock-mcq-19"
+        "shock-mcq-28",
+        "shock-mcq-06",
+        "shock-mcq-04"
       ],
       "explanation": "本句的「future shock」指「因科技／社會改變過快而產生的失序、不適應感」。",
       "sentenceIndex": 44,
@@ -1871,12 +1709,10 @@ export default {
         "future shock"
       ],
       "optionReasons": {
-        "shock-mcq-22": "本句指「因科技／社會改變過快而產生的失序、不適應感」。",
-        "shock-mcq-21": "「以突然、激烈措施促成快速改革的震撼療法式政策」與本句語境不同。",
-        "shock-mcq-23": "「感到非常震驚、驚愕或不安的」與本句語境不同。",
-        "shock-mcq-20": "「靠令人不安、意外或冒犯來吸引注意的震撼效果」與本句語境不同。",
-        "shock-mcq-24": "「令人震驚、駭然或難以接受的」與本句語境不同。",
-        "shock-mcq-19": "「故意用極端、刺激手段引起注意／反應的震撼策略」與本句語境不同。"
+        "shock-mcq-22": "本句的「future shock」指「因科技／社會改變過快而產生的失序、不適應感」。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-22"
     },
@@ -1888,11 +1724,9 @@ export default {
       "masked": "I was ____ by the news.",
       "options": [
         "shock-mcq-23",
-        "shock-mcq-22",
-        "shock-mcq-24",
-        "shock-mcq-21",
-        "shock-mcq-25",
-        "shock-mcq-20"
+        "shock-mcq-18",
+        "shock-mcq-11",
+        "shock-mcq-08"
       ],
       "explanation": "本句的「shocked」指「感到非常震驚、驚愕或不安的」。",
       "sentenceIndex": 45,
@@ -1901,12 +1735,10 @@ export default {
         "shocked"
       ],
       "optionReasons": {
-        "shock-mcq-23": "本句指「感到非常震驚、驚愕或不安的」。",
-        "shock-mcq-22": "「因科技／社會改變過快而產生的失序、不適應感」與本句語境不同。",
-        "shock-mcq-24": "「令人震驚、駭然或難以接受的」與本句語境不同。",
-        "shock-mcq-21": "「以突然、激烈措施促成快速改革的震撼療法式政策」與本句語境不同。",
-        "shock-mcq-25": "「尤其英式非正式：非常差／離譜的」與本句語境不同。",
-        "shock-mcq-20": "「靠令人不安、意外或冒犯來吸引注意的震撼效果」與本句語境不同。"
+        "shock-mcq-23": "本句的「shocked」指「感到非常震驚、驚愕或不安的」。",
+        "shock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-23"
     },
@@ -1918,11 +1750,9 @@ export default {
       "masked": "She looked genuinely ____.",
       "options": [
         "shock-mcq-23",
-        "shock-mcq-22",
-        "shock-mcq-24",
-        "shock-mcq-21",
-        "shock-mcq-25",
-        "shock-mcq-20"
+        "shock-mcq-29",
+        "shock-mcq-28",
+        "shock-mcq-03"
       ],
       "explanation": "本句的「shocked」指「感到非常震驚、驚愕或不安的」。",
       "sentenceIndex": 46,
@@ -1931,12 +1761,10 @@ export default {
         "shocked"
       ],
       "optionReasons": {
-        "shock-mcq-23": "本句指「感到非常震驚、驚愕或不安的」。",
-        "shock-mcq-22": "「因科技／社會改變過快而產生的失序、不適應感」與本句語境不同。",
-        "shock-mcq-24": "「令人震驚、駭然或難以接受的」與本句語境不同。",
-        "shock-mcq-21": "「以突然、激烈措施促成快速改革的震撼療法式政策」與本句語境不同。",
-        "shock-mcq-25": "「尤其英式非正式：非常差／離譜的」與本句語境不同。",
-        "shock-mcq-20": "「靠令人不安、意外或冒犯來吸引注意的震撼效果」與本句語境不同。"
+        "shock-mcq-23": "本句的「shocked」指「感到非常震驚、驚愕或不安的」。",
+        "shock-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-23"
     },
@@ -1948,11 +1776,9 @@ export default {
       "masked": "We were ____.",
       "options": [
         "shock-mcq-23",
-        "shock-mcq-22",
-        "shock-mcq-24",
-        "shock-mcq-21",
-        "shock-mcq-25",
-        "shock-mcq-20"
+        "shock-mcq-29",
+        "shock-mcq-08",
+        "shock-mcq-13"
       ],
       "explanation": "本句的「shocked at the damage」指「感到非常震驚、驚愕或不安的」。",
       "sentenceIndex": 47,
@@ -1961,12 +1787,10 @@ export default {
         "shocked at the damage"
       ],
       "optionReasons": {
-        "shock-mcq-23": "本句指「感到非常震驚、驚愕或不安的」。",
-        "shock-mcq-22": "「因科技／社會改變過快而產生的失序、不適應感」與本句語境不同。",
-        "shock-mcq-24": "「令人震驚、駭然或難以接受的」與本句語境不同。",
-        "shock-mcq-21": "「以突然、激烈措施促成快速改革的震撼療法式政策」與本句語境不同。",
-        "shock-mcq-25": "「尤其英式非正式：非常差／離譜的」與本句語境不同。",
-        "shock-mcq-20": "「靠令人不安、意外或冒犯來吸引注意的震撼效果」與本句語境不同。"
+        "shock-mcq-23": "本句的「shocked at the damage」指「感到非常震驚、驚愕或不安的」。",
+        "shock-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-23"
     },
@@ -1978,11 +1802,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "shock-mcq-23",
-        "shock-mcq-22",
-        "shock-mcq-24",
-        "shock-mcq-21",
-        "shock-mcq-25",
-        "shock-mcq-20"
+        "shock-mcq-14",
+        "shock-mcq-08",
+        "shock-mcq-11"
       ],
       "explanation": "本句的「shocked by her response」指「感到非常震驚、驚愕或不安的」。",
       "sentenceIndex": 48,
@@ -1991,12 +1813,10 @@ export default {
         "shocked by her response"
       ],
       "optionReasons": {
-        "shock-mcq-23": "本句指「感到非常震驚、驚愕或不安的」。",
-        "shock-mcq-22": "「因科技／社會改變過快而產生的失序、不適應感」與本句語境不同。",
-        "shock-mcq-24": "「令人震驚、駭然或難以接受的」與本句語境不同。",
-        "shock-mcq-21": "「以突然、激烈措施促成快速改革的震撼療法式政策」與本句語境不同。",
-        "shock-mcq-25": "「尤其英式非正式：非常差／離譜的」與本句語境不同。",
-        "shock-mcq-20": "「靠令人不安、意外或冒犯來吸引注意的震撼效果」與本句語境不同。"
+        "shock-mcq-23": "本句的「shocked by her response」指「感到非常震驚、驚愕或不安的」。",
+        "shock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-23"
     },
@@ -2008,11 +1828,9 @@ export default {
       "masked": "The report revealed ____.",
       "options": [
         "shock-mcq-24",
-        "shock-mcq-23",
-        "shock-mcq-25",
-        "shock-mcq-22",
-        "shock-mcq-26",
-        "shock-mcq-21"
+        "shock-mcq-08",
+        "shock-mcq-14",
+        "shock-mcq-25"
       ],
       "explanation": "本句的「shocking conditions」指「令人震驚、駭然或難以接受的」。",
       "sentenceIndex": 49,
@@ -2021,12 +1839,10 @@ export default {
         "shocking conditions"
       ],
       "optionReasons": {
-        "shock-mcq-24": "本句指「令人震驚、駭然或難以接受的」。",
-        "shock-mcq-23": "「感到非常震驚、驚愕或不安的」與本句語境不同。",
-        "shock-mcq-25": "「尤其英式非正式：非常差／離譜的」與本句語境不同。",
-        "shock-mcq-22": "「因科技／社會改變過快而產生的失序、不適應感」與本句語境不同。",
-        "shock-mcq-26": "「令人震驚地；出乎意料地／驚人地」與本句語境不同。",
-        "shock-mcq-21": "「以突然、激烈措施促成快速改革的震撼療法式政策」與本句語境不同。"
+        "shock-mcq-24": "本句的「shocking conditions」指「令人震驚、駭然或難以接受的」。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-24"
     },
@@ -2038,11 +1854,9 @@ export default {
       "masked": "The accident caused ____.",
       "options": [
         "shock-mcq-24",
-        "shock-mcq-23",
+        "shock-mcq-06",
         "shock-mcq-25",
-        "shock-mcq-22",
-        "shock-mcq-26",
-        "shock-mcq-21"
+        "shock-mcq-28"
       ],
       "explanation": "本句的「shocking damage」指「令人震驚、駭然或難以接受的」。",
       "sentenceIndex": 50,
@@ -2051,12 +1865,10 @@ export default {
         "shocking damage"
       ],
       "optionReasons": {
-        "shock-mcq-24": "本句指「令人震驚、駭然或難以接受的」。",
-        "shock-mcq-23": "「感到非常震驚、驚愕或不安的」與本句語境不同。",
-        "shock-mcq-25": "「尤其英式非正式：非常差／離譜的」與本句語境不同。",
-        "shock-mcq-22": "「因科技／社會改變過快而產生的失序、不適應感」與本句語境不同。",
-        "shock-mcq-26": "「令人震驚地；出乎意料地／驚人地」與本句語境不同。",
-        "shock-mcq-21": "「以突然、激烈措施促成快速改革的震撼療法式政策」與本句語境不同。"
+        "shock-mcq-24": "本句的「shocking damage」指「令人震驚、駭然或難以接受的」。",
+        "shock-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-24"
     },
@@ -2068,11 +1880,9 @@ export default {
       "masked": "The service was ____.",
       "options": [
         "shock-mcq-25",
-        "shock-mcq-24",
-        "shock-mcq-26",
-        "shock-mcq-23",
-        "shock-mcq-27",
-        "shock-mcq-22"
+        "shock-mcq-20",
+        "shock-mcq-11",
+        "shock-mcq-18"
       ],
       "explanation": "本句的「shocking」指「尤其英式非正式：非常差／離譜的」。",
       "sentenceIndex": 51,
@@ -2081,12 +1891,10 @@ export default {
         "shocking"
       ],
       "optionReasons": {
-        "shock-mcq-25": "本句指「尤其英式非正式：非常差／離譜的」。",
-        "shock-mcq-24": "「令人震驚、駭然或難以接受的」與本句語境不同。",
-        "shock-mcq-26": "「令人震驚地；出乎意料地／驚人地」與本句語境不同。",
-        "shock-mcq-23": "「感到非常震驚、驚愕或不安的」與本句語境不同。",
-        "shock-mcq-27": "「極度震驚、驚魂未定的心理狀態」與本句語境不同。",
-        "shock-mcq-22": "「因科技／社會改變過快而產生的失序、不適應感」與本句語境不同。"
+        "shock-mcq-25": "本句的「shocking」指「尤其英式非正式：非常差／離譜的」。",
+        "shock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-25"
     },
@@ -2098,11 +1906,9 @@ export default {
       "masked": "His behavior was absolutely ____.",
       "options": [
         "shock-mcq-25",
-        "shock-mcq-24",
-        "shock-mcq-26",
-        "shock-mcq-23",
-        "shock-mcq-27",
-        "shock-mcq-22"
+        "shock-mcq-02",
+        "shock-mcq-16",
+        "shock-mcq-28"
       ],
       "explanation": "本句的「shocking」指「尤其英式非正式：非常差／離譜的」。",
       "sentenceIndex": 52,
@@ -2111,12 +1917,10 @@ export default {
         "shocking"
       ],
       "optionReasons": {
-        "shock-mcq-25": "本句指「尤其英式非正式：非常差／離譜的」。",
-        "shock-mcq-24": "「令人震驚、駭然或難以接受的」與本句語境不同。",
-        "shock-mcq-26": "「令人震驚地；出乎意料地／驚人地」與本句語境不同。",
-        "shock-mcq-23": "「感到非常震驚、驚愕或不安的」與本句語境不同。",
-        "shock-mcq-27": "「極度震驚、驚魂未定的心理狀態」與本句語境不同。",
-        "shock-mcq-22": "「因科技／社會改變過快而產生的失序、不適應感」與本句語境不同。"
+        "shock-mcq-25": "本句的「shocking」指「尤其英式非正式：非常差／離譜的」。",
+        "shock-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-25"
     },
@@ -2128,11 +1932,9 @@ export default {
       "masked": "The building was ____.",
       "options": [
         "shock-mcq-26",
-        "shock-mcq-25",
-        "shock-mcq-27",
-        "shock-mcq-24",
-        "shock-mcq-28",
-        "shock-mcq-23"
+        "shock-mcq-29",
+        "shock-mcq-08",
+        "shock-mcq-25"
       ],
       "explanation": "本句的「shockingly damaged」指「令人震驚地；出乎意料地／驚人地」。",
       "sentenceIndex": 53,
@@ -2141,12 +1943,10 @@ export default {
         "shockingly damaged"
       ],
       "optionReasons": {
-        "shock-mcq-26": "本句指「令人震驚地；出乎意料地／驚人地」。",
-        "shock-mcq-25": "「尤其英式非正式：非常差／離譜的」與本句語境不同。",
-        "shock-mcq-27": "「極度震驚、驚魂未定的心理狀態」與本句語境不同。",
-        "shock-mcq-24": "「令人震驚、駭然或難以接受的」與本句語境不同。",
-        "shock-mcq-28": "「醫學上的休克狀態」與本句語境不同。",
-        "shock-mcq-23": "「感到非常震驚、驚愕或不安的」與本句語境不同。"
+        "shock-mcq-26": "本句的「shockingly damaged」指「令人震驚地；出乎意料地／驚人地」。",
+        "shock-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-26"
     },
@@ -2158,11 +1958,9 @@ export default {
       "masked": "The test was ____.",
       "options": [
         "shock-mcq-26",
-        "shock-mcq-25",
-        "shock-mcq-27",
-        "shock-mcq-24",
+        "shock-mcq-18",
         "shock-mcq-28",
-        "shock-mcq-23"
+        "shock-mcq-25"
       ],
       "explanation": "本句的「shockingly easy」指「令人震驚地；出乎意料地／驚人地」。",
       "sentenceIndex": 54,
@@ -2171,12 +1969,10 @@ export default {
         "shockingly easy"
       ],
       "optionReasons": {
-        "shock-mcq-26": "本句指「令人震驚地；出乎意料地／驚人地」。",
-        "shock-mcq-25": "「尤其英式非正式：非常差／離譜的」與本句語境不同。",
-        "shock-mcq-27": "「極度震驚、驚魂未定的心理狀態」與本句語境不同。",
-        "shock-mcq-24": "「令人震驚、駭然或難以接受的」與本句語境不同。",
-        "shock-mcq-28": "「醫學上的休克狀態」與本句語境不同。",
-        "shock-mcq-23": "「感到非常震驚、驚愕或不安的」與本句語境不同。"
+        "shock-mcq-26": "本句的「shockingly easy」指「令人震驚地；出乎意料地／驚人地」。",
+        "shock-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-26"
     },
@@ -2188,11 +1984,9 @@ export default {
       "masked": "She remained in ____ after the accident.",
       "options": [
         "shock-mcq-28",
-        "shock-mcq-27",
-        "shock-mcq-29",
-        "shock-mcq-26",
+        "shock-mcq-10",
         "shock-mcq-30",
-        "shock-mcq-25"
+        "shock-mcq-20"
       ],
       "explanation": "本句的「a state of shock」指「醫學上的休克狀態」。",
       "sentenceIndex": 55,
@@ -2201,12 +1995,10 @@ export default {
         "a state of shock"
       ],
       "optionReasons": {
-        "shock-mcq-28": "本句指「醫學上的休克狀態」。",
-        "shock-mcq-27": "「極度震驚、驚魂未定的心理狀態」與本句語境不同。",
-        "shock-mcq-29": "「對身體、心理或組織造成的突然強烈衝擊」與本句語境不同。",
-        "shock-mcq-26": "「令人震驚地；出乎意料地／驚人地」與本句語境不同。",
-        "shock-mcq-30": "「非正式：受到巨大衝擊後驚魂未定、茫然失措的」與本句語境不同。",
-        "shock-mcq-25": "「尤其英式非正式：非常差／離譜的」與本句語境不同。"
+        "shock-mcq-28": "本句的「a state of shock」指「醫學上的休克狀態」。",
+        "shock-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-28"
     },
@@ -2218,11 +2010,9 @@ export default {
       "masked": "The patient was in ____.",
       "options": [
         "shock-mcq-28",
-        "shock-mcq-27",
-        "shock-mcq-29",
-        "shock-mcq-26",
-        "shock-mcq-30",
-        "shock-mcq-25"
+        "shock-mcq-12",
+        "shock-mcq-05",
+        "shock-mcq-10"
       ],
       "explanation": "本句的「a state of shock」指「醫學上的休克狀態」。",
       "sentenceIndex": 56,
@@ -2231,12 +2021,10 @@ export default {
         "a state of shock"
       ],
       "optionReasons": {
-        "shock-mcq-28": "本句指「醫學上的休克狀態」。",
-        "shock-mcq-27": "「極度震驚、驚魂未定的心理狀態」與本句語境不同。",
-        "shock-mcq-29": "「對身體、心理或組織造成的突然強烈衝擊」與本句語境不同。",
-        "shock-mcq-26": "「令人震驚地；出乎意料地／驚人地」與本句語境不同。",
-        "shock-mcq-30": "「非正式：受到巨大衝擊後驚魂未定、茫然失措的」與本句語境不同。",
-        "shock-mcq-25": "「尤其英式非正式：非常差／離譜的」與本句語境不同。"
+        "shock-mcq-28": "本句的「a state of shock」指「醫學上的休克狀態」。",
+        "shock-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-28"
     },
@@ -2248,11 +2036,9 @@ export default {
       "masked": "Returning to work after the holiday was a ____.",
       "options": [
         "shock-mcq-29",
+        "shock-mcq-04",
         "shock-mcq-28",
-        "shock-mcq-30",
-        "shock-mcq-27",
-        "shock-mcq-26",
-        "shock-mcq-25"
+        "shock-mcq-03"
       ],
       "explanation": "本句的「shock to the system」指「對身體、心理或組織造成的突然強烈衝擊」。",
       "sentenceIndex": 57,
@@ -2261,12 +2047,10 @@ export default {
         "shock to the system"
       ],
       "optionReasons": {
-        "shock-mcq-29": "本句指「對身體、心理或組織造成的突然強烈衝擊」。",
-        "shock-mcq-28": "「醫學上的休克狀態」與本句語境不同。",
-        "shock-mcq-30": "「非正式：受到巨大衝擊後驚魂未定、茫然失措的」與本句語境不同。",
-        "shock-mcq-27": "「極度震驚、驚魂未定的心理狀態」與本句語境不同。",
-        "shock-mcq-26": "「令人震驚地；出乎意料地／驚人地」與本句語境不同。",
-        "shock-mcq-25": "「尤其英式非正式：非常差／離譜的」與本句語境不同。"
+        "shock-mcq-29": "本句的「shock to the system」指「對身體、心理或組織造成的突然強烈衝擊」。",
+        "shock-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-29"
     },
@@ -2279,10 +2063,8 @@ export default {
       "options": [
         "shock-mcq-29",
         "shock-mcq-28",
-        "shock-mcq-30",
-        "shock-mcq-27",
-        "shock-mcq-26",
-        "shock-mcq-25"
+        "shock-mcq-04",
+        "shock-mcq-13"
       ],
       "explanation": "本句的「shock to the system」指「對身體、心理或組織造成的突然強烈衝擊」。",
       "sentenceIndex": 58,
@@ -2291,12 +2073,10 @@ export default {
         "shock to the system"
       ],
       "optionReasons": {
-        "shock-mcq-29": "本句指「對身體、心理或組織造成的突然強烈衝擊」。",
-        "shock-mcq-28": "「醫學上的休克狀態」與本句語境不同。",
-        "shock-mcq-30": "「非正式：受到巨大衝擊後驚魂未定、茫然失措的」與本句語境不同。",
-        "shock-mcq-27": "「極度震驚、驚魂未定的心理狀態」與本句語境不同。",
-        "shock-mcq-26": "「令人震驚地；出乎意料地／驚人地」與本句語境不同。",
-        "shock-mcq-25": "「尤其英式非正式：非常差／離譜的」與本句語境不同。"
+        "shock-mcq-29": "本句的「shock to the system」指「對身體、心理或組織造成的突然強烈衝擊」。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-29"
     },
@@ -2308,11 +2088,9 @@ export default {
       "masked": "He looked ____ after hearing the news.",
       "options": [
         "shock-mcq-30",
-        "shock-mcq-29",
         "shock-mcq-28",
-        "shock-mcq-27",
-        "shock-mcq-26",
-        "shock-mcq-25"
+        "shock-mcq-20",
+        "shock-mcq-13"
       ],
       "explanation": "本句的「shell-shocked」指「非正式：受到巨大衝擊後驚魂未定、茫然失措的」。",
       "sentenceIndex": 59,
@@ -2321,12 +2099,10 @@ export default {
         "shell-shocked"
       ],
       "optionReasons": {
-        "shock-mcq-30": "本句指「非正式：受到巨大衝擊後驚魂未定、茫然失措的」。",
-        "shock-mcq-29": "「對身體、心理或組織造成的突然強烈衝擊」與本句語境不同。",
-        "shock-mcq-28": "「醫學上的休克狀態」與本句語境不同。",
-        "shock-mcq-27": "「極度震驚、驚魂未定的心理狀態」與本句語境不同。",
-        "shock-mcq-26": "「令人震驚地；出乎意料地／驚人地」與本句語境不同。",
-        "shock-mcq-25": "「尤其英式非正式：非常差／離譜的」與本句語境不同。"
+        "shock-mcq-30": "本句的「shell-shocked」指「非正式：受到巨大衝擊後驚魂未定、茫然失措的」。",
+        "shock-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-30"
     },
@@ -2338,11 +2114,9 @@ export default {
       "masked": "The team appeared ____ after conceding three quick goals.",
       "options": [
         "shock-mcq-30",
-        "shock-mcq-29",
-        "shock-mcq-28",
-        "shock-mcq-27",
-        "shock-mcq-26",
-        "shock-mcq-25"
+        "shock-mcq-08",
+        "shock-mcq-19",
+        "shock-mcq-26"
       ],
       "explanation": "本句的「shell-shocked」指「非正式：受到巨大衝擊後驚魂未定、茫然失措的」。",
       "sentenceIndex": 60,
@@ -2351,12 +2125,10 @@ export default {
         "shell-shocked"
       ],
       "optionReasons": {
-        "shock-mcq-30": "本句指「非正式：受到巨大衝擊後驚魂未定、茫然失措的」。",
-        "shock-mcq-29": "「對身體、心理或組織造成的突然強烈衝擊」與本句語境不同。",
-        "shock-mcq-28": "「醫學上的休克狀態」與本句語境不同。",
-        "shock-mcq-27": "「極度震驚、驚魂未定的心理狀態」與本句語境不同。",
-        "shock-mcq-26": "「令人震驚地；出乎意料地／驚人地」與本句語境不同。",
-        "shock-mcq-25": "「尤其英式非正式：非常差／離譜的」與本句語境不同。"
+        "shock-mcq-30": "本句的「shell-shocked」指「非正式：受到巨大衝擊後驚魂未定、茫然失措的」。",
+        "shock-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shock-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shock-mcq-30"
     }
@@ -2368,5 +2140,7 @@ export default {
     "sha256": "247f9b8ae13bf487c72fdc9b4712dfe8a5c68c742d0b32da2dd39754dc308d78",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -360,11 +360,8 @@ export default {
       "masked": "I use the headphones when I am ____.",
       "options": [
         "travel-mcq-01",
-        "travel-mcq-02",
-        "travel-mcq-03",
-        "travel-mcq-04",
-        "travel-mcq-05",
-        "travel-mcq-06"
+        "travel-mcq-11",
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travelling」指「從一個地方前往另一個地方，通常涉及一段較明顯的路程」。",
       "sentenceIndex": 0,
@@ -373,12 +370,9 @@ export default {
         "travelling"
       ],
       "optionReasons": {
-        "travel-mcq-01": "本句指「從一個地方前往另一個地方，通常涉及一段較明顯的路程」。",
-        "travel-mcq-02": "「進行旅行或經常前往不同地方的活動」是「travel — general activity」的用法，與本句語境不同。",
-        "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。"
+        "travel-mcq-01": "本句的「travelling」指「從一個地方前往另一個地方，通常涉及一段較明顯的路程」。",
+        "travel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-01"
     },
@@ -390,11 +384,8 @@ export default {
       "masked": "She ____ to London regularly for work.",
       "options": [
         "travel-mcq-01",
-        "travel-mcq-02",
-        "travel-mcq-03",
-        "travel-mcq-04",
-        "travel-mcq-05",
-        "travel-mcq-06"
+        "travel-mcq-11",
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travels」指「從一個地方前往另一個地方，通常涉及一段較明顯的路程」。",
       "sentenceIndex": 1,
@@ -403,12 +394,9 @@ export default {
         "travels"
       ],
       "optionReasons": {
-        "travel-mcq-01": "本句指「從一個地方前往另一個地方，通常涉及一段較明顯的路程」。",
-        "travel-mcq-02": "「進行旅行或經常前往不同地方的活動」是「travel — general activity」的用法，與本句語境不同。",
-        "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。"
+        "travel-mcq-01": "本句的「travels」指「從一個地方前往另一個地方，通常涉及一段較明顯的路程」。",
+        "travel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-01"
     },
@@ -420,11 +408,8 @@ export default {
       "masked": "We ____ across Japan by train.",
       "options": [
         "travel-mcq-01",
-        "travel-mcq-02",
-        "travel-mcq-03",
-        "travel-mcq-04",
-        "travel-mcq-05",
-        "travel-mcq-06"
+        "travel-mcq-11",
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travelled」指「從一個地方前往另一個地方，通常涉及一段較明顯的路程」。",
       "sentenceIndex": 2,
@@ -433,12 +418,9 @@ export default {
         "travelled"
       ],
       "optionReasons": {
-        "travel-mcq-01": "本句指「從一個地方前往另一個地方，通常涉及一段較明顯的路程」。",
-        "travel-mcq-02": "「進行旅行或經常前往不同地方的活動」是「travel — general activity」的用法，與本句語境不同。",
-        "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。"
+        "travel-mcq-01": "本句的「travelled」指「從一個地方前往另一個地方，通常涉及一段較明顯的路程」。",
+        "travel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-01"
     },
@@ -450,11 +432,8 @@ export default {
       "masked": "I love to ____.",
       "options": [
         "travel-mcq-02",
-        "travel-mcq-01",
-        "travel-mcq-03",
         "travel-mcq-04",
-        "travel-mcq-05",
-        "travel-mcq-06"
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travel」指「進行旅行或經常前往不同地方的活動」。",
       "sentenceIndex": 0,
@@ -463,12 +442,9 @@ export default {
         "travel"
       ],
       "optionReasons": {
-        "travel-mcq-02": "本句指「進行旅行或經常前往不同地方的活動」。",
-        "travel-mcq-01": "「從一個地方前往另一個地方，通常涉及一段較明顯的路程」是「travel — person」的用法，與本句語境不同。",
-        "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。"
+        "travel-mcq-02": "本句的「travel」指「進行旅行或經常前往不同地方的活動」。",
+        "travel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-02"
     },
@@ -480,11 +456,8 @@ export default {
       "masked": "She ____ a lot for her job.",
       "options": [
         "travel-mcq-02",
-        "travel-mcq-01",
-        "travel-mcq-03",
         "travel-mcq-04",
-        "travel-mcq-05",
-        "travel-mcq-06"
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travels」指「進行旅行或經常前往不同地方的活動」。",
       "sentenceIndex": 1,
@@ -493,12 +466,9 @@ export default {
         "travels"
       ],
       "optionReasons": {
-        "travel-mcq-02": "本句指「進行旅行或經常前往不同地方的活動」。",
-        "travel-mcq-01": "「從一個地方前往另一個地方，通常涉及一段較明顯的路程」是「travel — person」的用法，與本句語境不同。",
-        "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。"
+        "travel-mcq-02": "本句的「travels」指「進行旅行或經常前往不同地方的活動」。",
+        "travel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-02"
     },
@@ -510,11 +480,9 @@ export default {
       "masked": "We usually ____.",
       "options": [
         "travel-pdf-001",
-        "travel-mcq-01",
-        "travel-mcq-03",
-        "travel-mcq-04",
         "travel-mcq-05",
-        "travel-mcq-06"
+        "travel-mcq-06",
+        "travel-mcq-13"
       ],
       "explanation": "本句的「travel by train」指「以某種交通工具完成旅程」。",
       "sentenceIndex": 0,
@@ -523,12 +491,10 @@ export default {
         "travel by train"
       ],
       "optionReasons": {
-        "travel-pdf-001": "本句指「以某種交通工具完成旅程」。",
-        "travel-mcq-01": "「從一個地方前往另一個地方，通常涉及一段較明顯的路程」是「travel — person」的用法，與本句語境不同。",
-        "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。"
+        "travel-pdf-001": "本句的「travel by train」指「以某種交通工具完成旅程」。",
+        "travel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-pdf-001"
     },
@@ -540,11 +506,9 @@ export default {
       "masked": "It is often cheaper to ____.",
       "options": [
         "travel-pdf-001",
-        "travel-mcq-01",
-        "travel-mcq-03",
+        "travel-mcq-07",
         "travel-mcq-04",
-        "travel-mcq-05",
-        "travel-mcq-06"
+        "travel-mcq-13"
       ],
       "explanation": "本句的「travel by bus」指「以某種交通工具完成旅程」。",
       "sentenceIndex": 1,
@@ -553,12 +517,10 @@ export default {
         "travel by bus"
       ],
       "optionReasons": {
-        "travel-pdf-001": "本句指「以某種交通工具完成旅程」。",
-        "travel-mcq-01": "「從一個地方前往另一個地方，通常涉及一段較明顯的路程」是「travel — person」的用法，與本句語境不同。",
-        "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。"
+        "travel-pdf-001": "本句的「travel by bus」指「以某種交通工具完成旅程」。",
+        "travel-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-pdf-001"
     },
@@ -570,11 +532,8 @@ export default {
       "masked": "The car ____ several kilometres before stopping.",
       "options": [
         "travel-mcq-03",
-        "travel-mcq-02",
-        "travel-mcq-04",
-        "travel-mcq-01",
-        "travel-mcq-05",
-        "travel-mcq-06"
+        "travel-mcq-11",
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travelled」指「車輛或物件從一個位置向另一位置移動」。",
       "sentenceIndex": 0,
@@ -583,12 +542,9 @@ export default {
         "travelled"
       ],
       "optionReasons": {
-        "travel-mcq-03": "本句指「車輛或物件從一個位置向另一位置移動」。",
-        "travel-mcq-02": "「進行旅行或經常前往不同地方的活動」是「travel — general activity」的用法，與本句語境不同。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
-        "travel-mcq-01": "「從一個地方前往另一個地方，通常涉及一段較明顯的路程」是「travel — person」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。"
+        "travel-mcq-03": "本句的「travelled」指「車輛或物件從一個位置向另一位置移動」。",
+        "travel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-03"
     },
@@ -600,11 +556,8 @@ export default {
       "masked": "The ball ____ across the floor.",
       "options": [
         "travel-mcq-03",
-        "travel-mcq-02",
-        "travel-mcq-04",
-        "travel-mcq-01",
-        "travel-mcq-05",
-        "travel-mcq-06"
+        "travel-mcq-13",
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travelled」指「車輛或物件從一個位置向另一位置移動」。",
       "sentenceIndex": 1,
@@ -613,12 +566,9 @@ export default {
         "travelled"
       ],
       "optionReasons": {
-        "travel-mcq-03": "本句指「車輛或物件從一個位置向另一位置移動」。",
-        "travel-mcq-02": "「進行旅行或經常前往不同地方的活動」是「travel — general activity」的用法，與本句語境不同。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
-        "travel-mcq-01": "「從一個地方前往另一個地方，通常涉及一段較明顯的路程」是「travel — person」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。"
+        "travel-mcq-03": "本句的「travelled」指「車輛或物件從一個位置向另一位置移動」。",
+        "travel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-03"
     },
@@ -630,11 +580,9 @@ export default {
       "masked": "Sound ____ through air.",
       "options": [
         "travel-mcq-04",
-        "travel-mcq-03",
-        "travel-mcq-05",
-        "travel-mcq-02",
+        "travel-mcq-11",
         "travel-mcq-06",
-        "travel-mcq-01"
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travels」指「聲音、光或其他波從一處向另一處傳播」。",
       "sentenceIndex": 0,
@@ -643,12 +591,10 @@ export default {
         "travels"
       ],
       "optionReasons": {
-        "travel-mcq-04": "本句指「聲音、光或其他波從一處向另一處傳播」。",
-        "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-02": "「進行旅行或經常前往不同地方的活動」是「travel — general activity」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。",
-        "travel-mcq-01": "「從一個地方前往另一個地方，通常涉及一段較明顯的路程」是「travel — person」的用法，與本句語境不同。"
+        "travel-mcq-04": "本句的「travels」指「聲音、光或其他波從一處向另一處傳播」。",
+        "travel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-04"
     },
@@ -660,11 +606,9 @@ export default {
       "masked": "Light ____ much faster than sound.",
       "options": [
         "travel-mcq-04",
-        "travel-mcq-03",
-        "travel-mcq-05",
-        "travel-mcq-02",
         "travel-mcq-06",
-        "travel-mcq-01"
+        "travel-mcq-13",
+        "travel-mcq-14"
       ],
       "explanation": "本句的「travels」指「聲音、光或其他波從一處向另一處傳播」。",
       "sentenceIndex": 1,
@@ -673,12 +617,10 @@ export default {
         "travels"
       ],
       "optionReasons": {
-        "travel-mcq-04": "本句指「聲音、光或其他波從一處向另一處傳播」。",
-        "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-02": "「進行旅行或經常前往不同地方的活動」是「travel — general activity」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。",
-        "travel-mcq-01": "「從一個地方前往另一個地方，通常涉及一段較明顯的路程」是「travel — person」的用法，與本句語境不同。"
+        "travel-mcq-04": "本句的「travels」指「聲音、光或其他波從一處向另一處傳播」。",
+        "travel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-04"
     },
@@ -690,11 +632,9 @@ export default {
       "masked": "News ____ fast in a small town.",
       "options": [
         "travel-mcq-05",
-        "travel-mcq-04",
-        "travel-mcq-06",
-        "travel-mcq-03",
-        "travel-mcq-07",
-        "travel-mcq-02"
+        "travel-mcq-11",
+        "travel-pdf-001",
+        "travel-mcq-06"
       ],
       "explanation": "本句的「travels」指「消息或資訊由一個人／地方傳到其他人／地方」。",
       "sentenceIndex": 0,
@@ -703,12 +643,10 @@ export default {
         "travels"
       ],
       "optionReasons": {
-        "travel-mcq-05": "本句指「消息或資訊由一個人／地方傳到其他人／地方」。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。",
-        "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。",
-        "travel-mcq-07": "「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」是「travel well — figurative」的用法，與本句語境不同。",
-        "travel-mcq-02": "「進行旅行或經常前往不同地方的活動」是「travel — general activity」的用法，與本句語境不同。"
+        "travel-mcq-05": "本句的「travels」指「消息或資訊由一個人／地方傳到其他人／地方」。",
+        "travel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-05"
     },
@@ -720,11 +658,9 @@ export default {
       "masked": "The rumour quickly ____ through the office.",
       "options": [
         "travel-mcq-05",
-        "travel-mcq-04",
-        "travel-mcq-06",
-        "travel-mcq-03",
-        "travel-mcq-07",
-        "travel-mcq-02"
+        "travel-mcq-11",
+        "travel-pdf-001",
+        "travel-mcq-06"
       ],
       "explanation": "本句的「travelled」指「消息或資訊由一個人／地方傳到其他人／地方」。",
       "sentenceIndex": 1,
@@ -733,12 +669,10 @@ export default {
         "travelled"
       ],
       "optionReasons": {
-        "travel-mcq-05": "本句指「消息或資訊由一個人／地方傳到其他人／地方」。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。",
-        "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。",
-        "travel-mcq-07": "「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」是「travel well — figurative」的用法，與本句語境不同。",
-        "travel-mcq-02": "「進行旅行或經常前往不同地方的活動」是「travel — general activity」的用法，與本句語境不同。"
+        "travel-mcq-05": "本句的「travelled」指「消息或資訊由一個人／地方傳到其他人／地方」。",
+        "travel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-05"
     },
@@ -750,11 +684,9 @@ export default {
       "masked": "This cake ____.",
       "options": [
         "travel-mcq-06",
-        "travel-mcq-05",
-        "travel-mcq-07",
         "travel-mcq-04",
-        "travel-mcq-08",
-        "travel-mcq-03"
+        "travel-pdf-001",
+        "travel-mcq-11"
       ],
       "explanation": "本句的「travels well」指「經搬運或長途運送後仍能保持良好品質／狀態」。",
       "sentenceIndex": 0,
@@ -763,12 +695,10 @@ export default {
         "travels well"
       ],
       "optionReasons": {
-        "travel-mcq-06": "本句指「經搬運或長途運送後仍能保持良好品質／狀態」。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-07": "「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」是「travel well — figurative」的用法，與本句語境不同。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
-        "travel-mcq-08": "「機械零件從原位置移動到另一位置的距離／行程」是「travel — mechanical」的用法，與本句語境不同。",
-        "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。"
+        "travel-mcq-06": "本句的「travels well」指「經搬運或長途運送後仍能保持良好品質／狀態」。",
+        "travel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-06"
     },
@@ -780,11 +710,9 @@ export default {
       "masked": "Some wines do not ____.",
       "options": [
         "travel-mcq-06",
-        "travel-mcq-05",
-        "travel-mcq-07",
         "travel-mcq-04",
-        "travel-mcq-08",
-        "travel-mcq-03"
+        "travel-pdf-001",
+        "travel-mcq-14"
       ],
       "explanation": "本句的「travel well」指「經搬運或長途運送後仍能保持良好品質／狀態」。",
       "sentenceIndex": 1,
@@ -793,12 +721,10 @@ export default {
         "travel well"
       ],
       "optionReasons": {
-        "travel-mcq-06": "本句指「經搬運或長途運送後仍能保持良好品質／狀態」。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-07": "「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」是「travel well — figurative」的用法，與本句語境不同。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。",
-        "travel-mcq-08": "「機械零件從原位置移動到另一位置的距離／行程」是「travel — mechanical」的用法，與本句語境不同。",
-        "travel-mcq-03": "「車輛或物件從一個位置向另一位置移動」是「travel — vehicle/object」的用法，與本句語境不同。"
+        "travel-mcq-06": "本句的「travel well」指「經搬運或長途運送後仍能保持良好品質／狀態」。",
+        "travel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-06"
     },
@@ -810,10 +736,8 @@ export default {
       "masked": "Good comedy does not always ____ across cultures.",
       "options": [
         "travel-mcq-07",
-        "travel-mcq-06",
-        "travel-mcq-08",
-        "travel-mcq-05",
-        "travel-mcq-09",
+        "travel-mcq-11",
+        "travel-pdf-001",
         "travel-mcq-04"
       ],
       "explanation": "本句的「travel well」指「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」。",
@@ -823,12 +747,10 @@ export default {
         "travel well"
       ],
       "optionReasons": {
-        "travel-mcq-07": "本句指「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。",
-        "travel-mcq-08": "「機械零件從原位置移動到另一位置的距離／行程」是「travel — mechanical」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-09": "「從一個地方前往另一個地方這種活動的總稱」是「travel — noun」的用法，與本句語境不同。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。"
+        "travel-mcq-07": "本句的「travel well」指「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」。",
+        "travel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-07"
     },
@@ -840,10 +762,8 @@ export default {
       "masked": "The design has ____ internationally.",
       "options": [
         "travel-mcq-07",
-        "travel-mcq-06",
-        "travel-mcq-08",
-        "travel-mcq-05",
-        "travel-mcq-09",
+        "travel-mcq-13",
+        "travel-pdf-001",
         "travel-mcq-04"
       ],
       "explanation": "本句的「travelled well」指「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」。",
@@ -853,12 +773,10 @@ export default {
         "travelled well"
       ],
       "optionReasons": {
-        "travel-mcq-07": "本句指「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。",
-        "travel-mcq-08": "「機械零件從原位置移動到另一位置的距離／行程」是「travel — mechanical」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。",
-        "travel-mcq-09": "「從一個地方前往另一個地方這種活動的總稱」是「travel — noun」的用法，與本句語境不同。",
-        "travel-mcq-04": "「聲音、光或其他波從一處向另一處傳播」是「sound/light travels」的用法，與本句語境不同。"
+        "travel-mcq-07": "本句的「travelled well」指「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」。",
+        "travel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-07"
     },
@@ -870,11 +788,8 @@ export default {
       "masked": "The keyboard has very short key ____.",
       "options": [
         "travel-mcq-08",
-        "travel-mcq-07",
-        "travel-mcq-09",
-        "travel-mcq-06",
-        "travel-mcq-10",
-        "travel-mcq-05"
+        "travel-mcq-11",
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travel」指「機械零件從原位置移動到另一位置的距離／行程」。",
       "sentenceIndex": 0,
@@ -883,12 +798,9 @@ export default {
         "travel"
       ],
       "optionReasons": {
-        "travel-mcq-08": "本句指「機械零件從原位置移動到另一位置的距離／行程」。",
-        "travel-mcq-07": "「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」是「travel well — figurative」的用法，與本句語境不同。",
-        "travel-mcq-09": "「從一個地方前往另一個地方這種活動的總稱」是「travel — noun」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。",
-        "travel-mcq-10": "「某人在不同地方的多次旅程和遊歷經歷」是「travels」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。"
+        "travel-mcq-08": "本句的「travel」指「機械零件從原位置移動到另一位置的距離／行程」。",
+        "travel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-08"
     },
@@ -900,11 +812,8 @@ export default {
       "masked": "The suspension offers more ____ on rough terrain.",
       "options": [
         "travel-mcq-08",
-        "travel-mcq-07",
-        "travel-mcq-09",
-        "travel-mcq-06",
-        "travel-mcq-10",
-        "travel-mcq-05"
+        "travel-pdf-001",
+        "travel-mcq-13"
       ],
       "explanation": "本句的「travel」指「機械零件從原位置移動到另一位置的距離／行程」。",
       "sentenceIndex": 1,
@@ -913,12 +822,9 @@ export default {
         "travel"
       ],
       "optionReasons": {
-        "travel-mcq-08": "本句指「機械零件從原位置移動到另一位置的距離／行程」。",
-        "travel-mcq-07": "「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」是「travel well — figurative」的用法，與本句語境不同。",
-        "travel-mcq-09": "「從一個地方前往另一個地方這種活動的總稱」是「travel — noun」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。",
-        "travel-mcq-10": "「某人在不同地方的多次旅程和遊歷經歷」是「travels」的用法，與本句語境不同。",
-        "travel-mcq-05": "「消息或資訊由一個人／地方傳到其他人／地方」是「news/information travels」的用法，與本句語境不同。"
+        "travel-mcq-08": "本句的「travel」指「機械零件從原位置移動到另一位置的距離／行程」。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-08"
     },
@@ -930,11 +836,8 @@ export default {
       "masked": "Air ____ has become more expensive.",
       "options": [
         "travel-mcq-09",
-        "travel-mcq-08",
-        "travel-mcq-10",
-        "travel-mcq-07",
-        "travel-mcq-11",
-        "travel-mcq-06"
+        "travel-mcq-13",
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travel」指「從一個地方前往另一個地方這種活動的總稱」。",
       "sentenceIndex": 0,
@@ -943,12 +846,9 @@ export default {
         "travel"
       ],
       "optionReasons": {
-        "travel-mcq-09": "本句指「從一個地方前往另一個地方這種活動的總稱」。",
-        "travel-mcq-08": "「機械零件從原位置移動到另一位置的距離／行程」是「travel — mechanical」的用法，與本句語境不同。",
-        "travel-mcq-10": "「某人在不同地方的多次旅程和遊歷經歷」是「travels」的用法，與本句語境不同。",
-        "travel-mcq-07": "「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」是「travel well — figurative」的用法，與本句語境不同。",
-        "travel-mcq-11": "「正在旅行或經常旅行的人」是「traveller/traveler」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。"
+        "travel-mcq-09": "本句的「travel」指「從一個地方前往另一個地方這種活動的總稱」。",
+        "travel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-09"
     },
@@ -960,11 +860,8 @@ export default {
       "masked": "Business ____ is part of her job.",
       "options": [
         "travel-mcq-09",
-        "travel-mcq-08",
-        "travel-mcq-10",
-        "travel-mcq-07",
         "travel-mcq-11",
-        "travel-mcq-06"
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travel」指「從一個地方前往另一個地方這種活動的總稱」。",
       "sentenceIndex": 1,
@@ -973,12 +870,9 @@ export default {
         "travel"
       ],
       "optionReasons": {
-        "travel-mcq-09": "本句指「從一個地方前往另一個地方這種活動的總稱」。",
-        "travel-mcq-08": "「機械零件從原位置移動到另一位置的距離／行程」是「travel — mechanical」的用法，與本句語境不同。",
-        "travel-mcq-10": "「某人在不同地方的多次旅程和遊歷經歷」是「travels」的用法，與本句語境不同。",
-        "travel-mcq-07": "「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」是「travel well — figurative」的用法，與本句語境不同。",
-        "travel-mcq-11": "「正在旅行或經常旅行的人」是「traveller/traveler」的用法，與本句語境不同。",
-        "travel-mcq-06": "「經搬運或長途運送後仍能保持良好品質／狀態」是「travel well — physical object」的用法，與本句語境不同。"
+        "travel-mcq-09": "本句的「travel」指「從一個地方前往另一個地方這種活動的總稱」。",
+        "travel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-09"
     },
@@ -990,11 +884,9 @@ export default {
       "masked": "He wrote a book about his ____ in Africa.",
       "options": [
         "travel-mcq-10",
-        "travel-mcq-09",
-        "travel-mcq-11",
-        "travel-mcq-08",
-        "travel-mcq-12",
-        "travel-mcq-07"
+        "travel-mcq-04",
+        "travel-mcq-13",
+        "travel-mcq-06"
       ],
       "explanation": "本句的「travels」指「某人在不同地方的多次旅程和遊歷經歷」。",
       "sentenceIndex": 0,
@@ -1003,12 +895,10 @@ export default {
         "travels"
       ],
       "optionReasons": {
-        "travel-mcq-10": "本句指「某人在不同地方的多次旅程和遊歷經歷」。",
-        "travel-mcq-09": "「從一個地方前往另一個地方這種活動的總稱」是「travel — noun」的用法，與本句語境不同。",
-        "travel-mcq-11": "「正在旅行或經常旅行的人」是「traveller/traveler」的用法，與本句語境不同。",
-        "travel-mcq-08": "「機械零件從原位置移動到另一位置的距離／行程」是「travel — mechanical」的用法，與本句語境不同。",
-        "travel-mcq-12": "「去過很多不同地方、旅行經驗豐富的人」是「well-travelled person」的用法，與本句語境不同。",
-        "travel-mcq-07": "「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」是「travel well — figurative」的用法，與本句語境不同。"
+        "travel-mcq-10": "本句的「travels」指「某人在不同地方的多次旅程和遊歷經歷」。",
+        "travel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-10"
     },
@@ -1020,11 +910,9 @@ export default {
       "masked": "She collected these objects during her ____.",
       "options": [
         "travel-mcq-10",
-        "travel-mcq-09",
-        "travel-mcq-11",
-        "travel-mcq-08",
-        "travel-mcq-12",
-        "travel-mcq-07"
+        "travel-mcq-04",
+        "travel-mcq-13",
+        "travel-mcq-06"
       ],
       "explanation": "本句的「travels」指「某人在不同地方的多次旅程和遊歷經歷」。",
       "sentenceIndex": 1,
@@ -1033,12 +921,10 @@ export default {
         "travels"
       ],
       "optionReasons": {
-        "travel-mcq-10": "本句指「某人在不同地方的多次旅程和遊歷經歷」。",
-        "travel-mcq-09": "「從一個地方前往另一個地方這種活動的總稱」是「travel — noun」的用法，與本句語境不同。",
-        "travel-mcq-11": "「正在旅行或經常旅行的人」是「traveller/traveler」的用法，與本句語境不同。",
-        "travel-mcq-08": "「機械零件從原位置移動到另一位置的距離／行程」是「travel — mechanical」的用法，與本句語境不同。",
-        "travel-mcq-12": "「去過很多不同地方、旅行經驗豐富的人」是「well-travelled person」的用法，與本句語境不同。",
-        "travel-mcq-07": "「構思、作品或風格進入不同地方／文化後仍能被接受或發揮效果」是「travel well — figurative」的用法，與本句語境不同。"
+        "travel-mcq-10": "本句的「travels」指「某人在不同地方的多次旅程和遊歷經歷」。",
+        "travel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-10"
     },
@@ -1050,11 +936,9 @@ export default {
       "masked": "The hotel is popular with business ____.",
       "options": [
         "travel-mcq-11",
-        "travel-mcq-10",
-        "travel-mcq-12",
-        "travel-mcq-09",
-        "travel-mcq-13",
-        "travel-mcq-08"
+        "travel-mcq-05",
+        "travel-mcq-06",
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travellers」指「正在旅行或經常旅行的人」。",
       "sentenceIndex": 0,
@@ -1063,12 +947,10 @@ export default {
         "travellers"
       ],
       "optionReasons": {
-        "travel-mcq-11": "本句指「正在旅行或經常旅行的人」。",
-        "travel-mcq-10": "「某人在不同地方的多次旅程和遊歷經歷」是「travels」的用法，與本句語境不同。",
-        "travel-mcq-12": "「去過很多不同地方、旅行經驗豐富的人」是「well-travelled person」的用法，與本句語境不同。",
-        "travel-mcq-09": "「從一個地方前往另一個地方這種活動的總稱」是「travel — noun」的用法，與本句語境不同。",
-        "travel-mcq-13": "「經常有人通行或使用的道路／路線」是「well-travelled route」的用法，與本句語境不同。",
-        "travel-mcq-08": "「機械零件從原位置移動到另一位置的距離／行程」是「travel — mechanical」的用法，與本句語境不同。"
+        "travel-mcq-11": "本句的「travellers」指「正在旅行或經常旅行的人」。",
+        "travel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-11"
     },
@@ -1080,11 +962,8 @@ export default {
       "masked": "Experienced ____ often pack lightly.",
       "options": [
         "travel-mcq-11",
-        "travel-mcq-10",
-        "travel-mcq-12",
-        "travel-mcq-09",
-        "travel-mcq-13",
-        "travel-mcq-08"
+        "travel-mcq-03",
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travelers」指「正在旅行或經常旅行的人」。",
       "sentenceIndex": 1,
@@ -1093,12 +972,9 @@ export default {
         "travelers"
       ],
       "optionReasons": {
-        "travel-mcq-11": "本句指「正在旅行或經常旅行的人」。",
-        "travel-mcq-10": "「某人在不同地方的多次旅程和遊歷經歷」是「travels」的用法，與本句語境不同。",
-        "travel-mcq-12": "「去過很多不同地方、旅行經驗豐富的人」是「well-travelled person」的用法，與本句語境不同。",
-        "travel-mcq-09": "「從一個地方前往另一個地方這種活動的總稱」是「travel — noun」的用法，與本句語境不同。",
-        "travel-mcq-13": "「經常有人通行或使用的道路／路線」是「well-travelled route」的用法，與本句語境不同。",
-        "travel-mcq-08": "「機械零件從原位置移動到另一位置的距離／行程」是「travel — mechanical」的用法，與本句語境不同。"
+        "travel-mcq-11": "本句的「travelers」指「正在旅行或經常旅行的人」。",
+        "travel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-11"
     },
@@ -1110,11 +986,9 @@ export default {
       "masked": "She is very ____.",
       "options": [
         "travel-mcq-12",
-        "travel-mcq-11",
-        "travel-mcq-13",
-        "travel-mcq-10",
-        "travel-mcq-14",
-        "travel-mcq-09"
+        "travel-mcq-04",
+        "travel-mcq-06",
+        "travel-pdf-001"
       ],
       "explanation": "本句的「well-travelled」指「去過很多不同地方、旅行經驗豐富的人」。",
       "sentenceIndex": 0,
@@ -1123,12 +997,10 @@ export default {
         "well-travelled"
       ],
       "optionReasons": {
-        "travel-mcq-12": "本句指「去過很多不同地方、旅行經驗豐富的人」。",
-        "travel-mcq-11": "「正在旅行或經常旅行的人」是「traveller/traveler」的用法，與本句語境不同。",
-        "travel-mcq-13": "「經常有人通行或使用的道路／路線」是「well-travelled route」的用法，與本句語境不同。",
-        "travel-mcq-10": "「某人在不同地方的多次旅程和遊歷經歷」是「travels」的用法，與本句語境不同。",
-        "travel-mcq-14": "「以旅行經歷和地方見聞為內容的書籍、文章、影片或節目」是「travelogue」的用法，與本句語境不同。",
-        "travel-mcq-09": "「從一個地方前往另一個地方這種活動的總稱」是「travel — noun」的用法，與本句語境不同。"
+        "travel-mcq-12": "本句的「well-travelled」指「去過很多不同地方、旅行經驗豐富的人」。",
+        "travel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-12"
     },
@@ -1140,11 +1012,9 @@ export default {
       "masked": "He is a ____ journalist.",
       "options": [
         "travel-mcq-12",
-        "travel-mcq-11",
-        "travel-mcq-13",
-        "travel-mcq-10",
-        "travel-mcq-14",
-        "travel-mcq-09"
+        "travel-mcq-04",
+        "travel-pdf-001",
+        "travel-mcq-06"
       ],
       "explanation": "本句的「well-traveled」指「去過很多不同地方、旅行經驗豐富的人」。",
       "sentenceIndex": 1,
@@ -1153,12 +1023,10 @@ export default {
         "well-traveled"
       ],
       "optionReasons": {
-        "travel-mcq-12": "本句指「去過很多不同地方、旅行經驗豐富的人」。",
-        "travel-mcq-11": "「正在旅行或經常旅行的人」是「traveller/traveler」的用法，與本句語境不同。",
-        "travel-mcq-13": "「經常有人通行或使用的道路／路線」是「well-travelled route」的用法，與本句語境不同。",
-        "travel-mcq-10": "「某人在不同地方的多次旅程和遊歷經歷」是「travels」的用法，與本句語境不同。",
-        "travel-mcq-14": "「以旅行經歷和地方見聞為內容的書籍、文章、影片或節目」是「travelogue」的用法，與本句語境不同。",
-        "travel-mcq-09": "「從一個地方前往另一個地方這種活動的總稱」是「travel — noun」的用法，與本句語境不同。"
+        "travel-mcq-12": "本句的「well-traveled」指「去過很多不同地方、旅行經驗豐富的人」。",
+        "travel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-12"
     },
@@ -1170,11 +1038,8 @@ export default {
       "masked": "It is a well-____led road.",
       "options": [
         "travel-mcq-13",
-        "travel-mcq-12",
-        "travel-mcq-14",
-        "travel-mcq-11",
-        "travel-mcq-15",
-        "travel-mcq-10"
+        "travel-mcq-03",
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travel」指「經常有人通行或使用的道路／路線」。",
       "sentenceIndex": 0,
@@ -1183,12 +1048,9 @@ export default {
         "travel"
       ],
       "optionReasons": {
-        "travel-mcq-13": "本句指「經常有人通行或使用的道路／路線」。",
-        "travel-mcq-12": "「去過很多不同地方、旅行經驗豐富的人」是「well-travelled person」的用法，與本句語境不同。",
-        "travel-mcq-14": "「以旅行經歷和地方見聞為內容的書籍、文章、影片或節目」是「travelogue」的用法，與本句語境不同。",
-        "travel-mcq-11": "「正在旅行或經常旅行的人」是「traveller/traveler」的用法，與本句語境不同。",
-        "travel-mcq-15": "「旅行時只帶少量必要行李」是「travel light」的用法，與本句語境不同。",
-        "travel-mcq-10": "「某人在不同地方的多次旅程和遊歷經歷」是「travels」的用法，與本句語境不同。"
+        "travel-mcq-13": "本句的「travel」指「經常有人通行或使用的道路／路線」。",
+        "travel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-13"
     },
@@ -1200,11 +1062,9 @@ export default {
       "masked": "They followed a well-____led route through the mountains.",
       "options": [
         "travel-mcq-13",
-        "travel-mcq-12",
-        "travel-mcq-14",
-        "travel-mcq-11",
-        "travel-mcq-15",
-        "travel-mcq-10"
+        "travel-mcq-05",
+        "travel-mcq-06",
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travel」指「經常有人通行或使用的道路／路線」。",
       "sentenceIndex": 1,
@@ -1213,12 +1073,10 @@ export default {
         "travel"
       ],
       "optionReasons": {
-        "travel-mcq-13": "本句指「經常有人通行或使用的道路／路線」。",
-        "travel-mcq-12": "「去過很多不同地方、旅行經驗豐富的人」是「well-travelled person」的用法，與本句語境不同。",
-        "travel-mcq-14": "「以旅行經歷和地方見聞為內容的書籍、文章、影片或節目」是「travelogue」的用法，與本句語境不同。",
-        "travel-mcq-11": "「正在旅行或經常旅行的人」是「traveller/traveler」的用法，與本句語境不同。",
-        "travel-mcq-15": "「旅行時只帶少量必要行李」是「travel light」的用法，與本句語境不同。",
-        "travel-mcq-10": "「某人在不同地方的多次旅程和遊歷經歷」是「travels」的用法，與本句語境不同。"
+        "travel-mcq-13": "本句的「travel」指「經常有人通行或使用的道路／路線」。",
+        "travel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-13"
     },
@@ -1230,11 +1088,9 @@ export default {
       "masked": "She wrote a ____ about her journey through South America.",
       "options": [
         "travel-mcq-14",
-        "travel-mcq-13",
-        "travel-mcq-15",
-        "travel-mcq-12",
-        "travel-mcq-11",
-        "travel-mcq-10"
+        "travel-mcq-04",
+        "travel-mcq-06",
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travelogue」指「以旅行經歷和地方見聞為內容的書籍、文章、影片或節目」。",
       "sentenceIndex": 0,
@@ -1243,12 +1099,10 @@ export default {
         "travelogue"
       ],
       "optionReasons": {
-        "travel-mcq-14": "本句指「以旅行經歷和地方見聞為內容的書籍、文章、影片或節目」。",
-        "travel-mcq-13": "「經常有人通行或使用的道路／路線」是「well-travelled route」的用法，與本句語境不同。",
-        "travel-mcq-15": "「旅行時只帶少量必要行李」是「travel light」的用法，與本句語境不同。",
-        "travel-mcq-12": "「去過很多不同地方、旅行經驗豐富的人」是「well-travelled person」的用法，與本句語境不同。",
-        "travel-mcq-11": "「正在旅行或經常旅行的人」是「traveller/traveler」的用法，與本句語境不同。",
-        "travel-mcq-10": "「某人在不同地方的多次旅程和遊歷經歷」是「travels」的用法，與本句語境不同。"
+        "travel-mcq-14": "本句的「travelogue」指「以旅行經歷和地方見聞為內容的書籍、文章、影片或節目」。",
+        "travel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-14"
     },
@@ -1260,11 +1114,9 @@ export default {
       "masked": "The programme is part documentary and part ____.",
       "options": [
         "travel-mcq-14",
-        "travel-mcq-13",
-        "travel-mcq-15",
-        "travel-mcq-12",
-        "travel-mcq-11",
-        "travel-mcq-10"
+        "travel-mcq-04",
+        "travel-mcq-06",
+        "travel-pdf-001"
       ],
       "explanation": "本句的「travelogue」指「以旅行經歷和地方見聞為內容的書籍、文章、影片或節目」。",
       "sentenceIndex": 1,
@@ -1273,12 +1125,10 @@ export default {
         "travelogue"
       ],
       "optionReasons": {
-        "travel-mcq-14": "本句指「以旅行經歷和地方見聞為內容的書籍、文章、影片或節目」。",
-        "travel-mcq-13": "「經常有人通行或使用的道路／路線」是「well-travelled route」的用法，與本句語境不同。",
-        "travel-mcq-15": "「旅行時只帶少量必要行李」是「travel light」的用法，與本句語境不同。",
-        "travel-mcq-12": "「去過很多不同地方、旅行經驗豐富的人」是「well-travelled person」的用法，與本句語境不同。",
-        "travel-mcq-11": "「正在旅行或經常旅行的人」是「traveller/traveler」的用法，與本句語境不同。",
-        "travel-mcq-10": "「某人在不同地方的多次旅程和遊歷經歷」是「travels」的用法，與本句語境不同。"
+        "travel-mcq-14": "本句的「travelogue」指「以旅行經歷和地方見聞為內容的書籍、文章、影片或節目」。",
+        "travel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "travel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "travel-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "travel-mcq-14"
     }
@@ -1291,5 +1141,7 @@ export default {
     "pages": 15,
     "sha256": "60185bb2660ae0238f22c869cb464a395180d735b3e93ce9f5ca1f97db6ea88f"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -215,16 +215,6 @@ export default {
           "The issue is of particular concern to parents.",
           "這個問題尤其令家長關注／擔憂。",
           "值得關注／令人擔憂的"
-        ],
-        [
-          "Her concern for the students was obvious.",
-          "她對學生的關心十分明顯。",
-          "值得關注／令人擔憂的"
-        ],
-        [
-          "His lack of concern for other customers was obvious.",
-          "他明顯沒有顧及／不關心其他顧客。",
-          "值得關注／令人擔憂的"
         ]
       ],
       "options": [],
@@ -470,13 +460,7 @@ export default {
       "en": "concerned in",
       "zh": "參與／涉及；正式、較低頻",
       "note": "來源詞義：參與／涉及；正式、較低頻",
-      "examples": [
-        [
-          "The agreement must be acceptable to all parties concerned.",
-          "協議必須得到所有有關各方接受。",
-          "參與／涉及；正式、較低頻"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -649,13 +633,7 @@ export default {
       "en": "going concern — accounting",
       "zh": "企業具備持續經營能力／按持續經營基礎編製",
       "note": "來源詞義：企業具備持續經營能力／按持續經營基礎編製",
-      "examples": [
-        [
-          "Staffing remains an area of concern.",
-          "人手問題仍是一個需要關注的領域。",
-          "企業具備持續經營能力／按持續經營基礎編製"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -680,6 +658,74 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "concern-reviewed-9045952fe3",
+      "title": "關懷；關心",
+      "form": "concern · source section 19",
+      "en": "關懷；關心",
+      "zh": "關懷；關心",
+      "note": "對照原始教材第 19 節及例句核實。",
+      "examples": [
+        [
+          "Her concern for the students was obvious.",
+          "她對學生的關心十分明顯。",
+          "關懷；關心"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "concern-reviewed-ee4e6310b4",
+      "title": "漠不關心",
+      "form": "concern · source section 21",
+      "en": "漠不關心",
+      "zh": "漠不關心",
+      "note": "對照原始教材第 21 節及例句核實。",
+      "examples": [
+        [
+          "His lack of concern for other customers was obvious.",
+          "他明顯沒有顧及／不關心其他顧客。",
+          "漠不關心"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "concern-reviewed-efdaffe8a0",
+      "title": "所有有關各方",
+      "form": "concern · source section 49",
+      "en": "所有有關各方",
+      "zh": "所有有關各方",
+      "note": "對照原始教材第 49 節及例句核實。",
+      "examples": [
+        [
+          "The agreement must be acceptable to all parties concerned.",
+          "協議必須得到所有有關各方接受。",
+          "所有有關各方"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "concern-reviewed-1361a71d00",
+      "title": "關注領域",
+      "form": "concern · source section 72",
+      "en": "關注領域",
+      "zh": "關注領域",
+      "note": "對照原始教材第 72 節及例句核實。",
+      "examples": [
+        [
+          "Staffing remains an area of concern.",
+          "人手問題仍是一個需要關注的領域。",
+          "關注領域"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -691,11 +737,9 @@ export default {
       "masked": "There is growing ____ about housing costs.",
       "options": [
         "concern-mcq-01",
-        "concern-mcq-02",
-        "concern-mcq-03",
-        "concern-mcq-04",
-        "concern-mcq-05",
-        "concern-mcq-06"
+        "concern-mcq-31",
+        "concern-mcq-35",
+        "concern-mcq-27"
       ],
       "explanation": "本句的「concern」指「因可能出現問題／傷害而產生的擔心、憂慮」。",
       "sentenceIndex": 0,
@@ -704,12 +748,10 @@ export default {
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-01": "本句指「因可能出現問題／傷害而產生的擔心、憂慮」。",
-        "concern-mcq-02": "「令人擔心或需要認真處理的具體問題／關注事項」與本句語境不同。",
-        "concern-mcq-03": "「對某人的福祉、安危表示關心／擔憂」與本句語境不同。",
-        "concern-mcq-04": "「表現出對某人／某事的關心或擔憂」與本句語境不同。",
-        "concern-mcq-05": "「正式表達自己的憂慮」與本句語境不同。",
-        "concern-mcq-06": "「提出或引起疑慮」與本句語境不同。"
+        "concern-mcq-01": "本句的「concern」指「因可能出現問題／傷害而產生的擔心、憂慮」。",
+        "concern-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-01"
     },
@@ -721,11 +763,9 @@ export default {
       "masked": "She expressed ____ about his health.",
       "options": [
         "concern-mcq-01",
-        "concern-mcq-02",
-        "concern-mcq-03",
-        "concern-mcq-04",
-        "concern-mcq-05",
-        "concern-mcq-06"
+        "concern-mcq-30",
+        "concern-mcq-34",
+        "concern-mcq-27"
       ],
       "explanation": "本句的「concern」指「因可能出現問題／傷害而產生的擔心、憂慮」。",
       "sentenceIndex": 1,
@@ -734,12 +774,10 @@ export default {
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-01": "本句指「因可能出現問題／傷害而產生的擔心、憂慮」。",
-        "concern-mcq-02": "「令人擔心或需要認真處理的具體問題／關注事項」與本句語境不同。",
-        "concern-mcq-03": "「對某人的福祉、安危表示關心／擔憂」與本句語境不同。",
-        "concern-mcq-04": "「表現出對某人／某事的關心或擔憂」與本句語境不同。",
-        "concern-mcq-05": "「正式表達自己的憂慮」與本句語境不同。",
-        "concern-mcq-06": "「提出或引起疑慮」與本句語境不同。"
+        "concern-mcq-01": "本句的「concern」指「因可能出現問題／傷害而產生的擔心、憂慮」。",
+        "concern-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-01"
     },
@@ -751,11 +789,9 @@ export default {
       "masked": "The news caused considerable ____.",
       "options": [
         "concern-mcq-01",
-        "concern-mcq-02",
-        "concern-mcq-03",
-        "concern-mcq-04",
-        "concern-mcq-05",
-        "concern-mcq-06"
+        "concern-mcq-34",
+        "concern-reviewed-1361a71d00",
+        "concern-mcq-13"
       ],
       "explanation": "本句的「concern」指「因可能出現問題／傷害而產生的擔心、憂慮」。",
       "sentenceIndex": 2,
@@ -764,12 +800,10 @@ export default {
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-01": "本句指「因可能出現問題／傷害而產生的擔心、憂慮」。",
-        "concern-mcq-02": "「令人擔心或需要認真處理的具體問題／關注事項」與本句語境不同。",
-        "concern-mcq-03": "「對某人的福祉、安危表示關心／擔憂」與本句語境不同。",
-        "concern-mcq-04": "「表現出對某人／某事的關心或擔憂」與本句語境不同。",
-        "concern-mcq-05": "「正式表達自己的憂慮」與本句語境不同。",
-        "concern-mcq-06": "「提出或引起疑慮」與本句語境不同。"
+        "concern-mcq-01": "本句的「concern」指「因可能出現問題／傷害而產生的擔心、憂慮」。",
+        "concern-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-1361a71d00": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-01"
     },
@@ -781,10 +815,8 @@ export default {
       "masked": "Parents raised concerns ____ safety.",
       "options": [
         "concern-mcq-03",
-        "concern-mcq-02",
-        "concern-mcq-04",
-        "concern-mcq-01",
-        "concern-mcq-05",
+        "concern-mcq-10",
+        "concern-mcq-31",
         "concern-mcq-06"
       ],
       "explanation": "本句的「about」指「對某人的福祉、安危表示關心／擔憂」。",
@@ -794,12 +826,10 @@ export default {
         "about"
       ],
       "optionReasons": {
-        "concern-mcq-03": "本句指「對某人的福祉、安危表示關心／擔憂」。",
-        "concern-mcq-02": "「令人擔心或需要認真處理的具體問題／關注事項」與本句語境不同。",
-        "concern-mcq-04": "「表現出對某人／某事的關心或擔憂」與本句語境不同。",
-        "concern-mcq-01": "「因可能出現問題／傷害而產生的擔心、憂慮」與本句語境不同。",
-        "concern-mcq-05": "「正式表達自己的憂慮」與本句語境不同。",
-        "concern-mcq-06": "「提出或引起疑慮」與本句語境不同。"
+        "concern-mcq-03": "本句的「about」指「對某人的福祉、安危表示關心／擔憂」。",
+        "concern-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-03"
     },
@@ -811,11 +841,9 @@ export default {
       "masked": "There is concern ____ rising costs.",
       "options": [
         "concern-mcq-03",
-        "concern-mcq-02",
-        "concern-mcq-04",
-        "concern-mcq-01",
-        "concern-mcq-05",
-        "concern-mcq-06"
+        "concern-mcq-13",
+        "concern-mcq-27",
+        "concern-mcq-35"
       ],
       "explanation": "本句的「over」指「對某人的福祉、安危表示關心／擔憂」。",
       "sentenceIndex": 4,
@@ -824,12 +852,10 @@ export default {
         "over"
       ],
       "optionReasons": {
-        "concern-mcq-03": "本句指「對某人的福祉、安危表示關心／擔憂」。",
-        "concern-mcq-02": "「令人擔心或需要認真處理的具體問題／關注事項」與本句語境不同。",
-        "concern-mcq-04": "「表現出對某人／某事的關心或擔憂」與本句語境不同。",
-        "concern-mcq-01": "「因可能出現問題／傷害而產生的擔心、憂慮」與本句語境不同。",
-        "concern-mcq-05": "「正式表達自己的憂慮」與本句語境不同。",
-        "concern-mcq-06": "「提出或引起疑慮」與本句語境不同。"
+        "concern-mcq-03": "本句的「over」指「對某人的福祉、安危表示關心／擔憂」。",
+        "concern-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-03"
     },
@@ -841,11 +867,9 @@ export default {
       "masked": "She showed genuine ____ the elderly residents.",
       "options": [
         "concern-mcq-03",
-        "concern-mcq-02",
-        "concern-mcq-04",
-        "concern-mcq-01",
-        "concern-mcq-05",
-        "concern-mcq-06"
+        "concern-mcq-24",
+        "concern-mcq-06",
+        "concern-reviewed-efdaffe8a0"
       ],
       "explanation": "本句的「concern for」指「對某人的福祉、安危表示關心／擔憂」。",
       "sentenceIndex": 5,
@@ -854,12 +878,10 @@ export default {
         "concern for"
       ],
       "optionReasons": {
-        "concern-mcq-03": "本句指「對某人的福祉、安危表示關心／擔憂」。",
-        "concern-mcq-02": "「令人擔心或需要認真處理的具體問題／關注事項」與本句語境不同。",
-        "concern-mcq-04": "「表現出對某人／某事的關心或擔憂」與本句語境不同。",
-        "concern-mcq-01": "「因可能出現問題／傷害而產生的擔心、憂慮」與本句語境不同。",
-        "concern-mcq-05": "「正式表達自己的憂慮」與本句語境不同。",
-        "concern-mcq-06": "「提出或引起疑慮」與本句語境不同。"
+        "concern-mcq-03": "本句的「concern for」指「對某人的福祉、安危表示關心／擔憂」。",
+        "concern-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-efdaffe8a0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-03"
     },
@@ -871,11 +893,9 @@ export default {
       "masked": "His main ____ was for the children.",
       "options": [
         "concern-mcq-03",
-        "concern-mcq-02",
-        "concern-mcq-04",
-        "concern-mcq-01",
-        "concern-mcq-05",
-        "concern-mcq-06"
+        "concern-mcq-06",
+        "concern-mcq-27",
+        "concern-mcq-18"
       ],
       "explanation": "本句的「concern」指「對某人的福祉、安危表示關心／擔憂」。",
       "sentenceIndex": 6,
@@ -884,12 +904,10 @@ export default {
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-03": "本句指「對某人的福祉、安危表示關心／擔憂」。",
-        "concern-mcq-02": "「令人擔心或需要認真處理的具體問題／關注事項」與本句語境不同。",
-        "concern-mcq-04": "「表現出對某人／某事的關心或擔憂」與本句語境不同。",
-        "concern-mcq-01": "「因可能出現問題／傷害而產生的擔心、憂慮」與本句語境不同。",
-        "concern-mcq-05": "「正式表達自己的憂慮」與本句語境不同。",
-        "concern-mcq-06": "「提出或引起疑慮」與本句語境不同。"
+        "concern-mcq-03": "本句的「concern」指「對某人的福祉、安危表示關心／擔憂」。",
+        "concern-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-03"
     },
@@ -901,11 +919,9 @@ export default {
       "masked": "Residents ____ about the lack of study space.",
       "options": [
         "concern-mcq-05",
-        "concern-mcq-04",
-        "concern-mcq-06",
-        "concern-mcq-03",
-        "concern-mcq-07",
-        "concern-mcq-02"
+        "concern-mcq-24",
+        "concern-mcq-10",
+        "concern-mcq-30"
       ],
       "explanation": "本句的「voiced concern」指「正式表達自己的憂慮」。",
       "sentenceIndex": 7,
@@ -914,12 +930,10 @@ export default {
         "voiced concern"
       ],
       "optionReasons": {
-        "concern-mcq-05": "本句指「正式表達自己的憂慮」。",
-        "concern-mcq-04": "「表現出對某人／某事的關心或擔憂」與本句語境不同。",
-        "concern-mcq-06": "「提出或引起疑慮」與本句語境不同。",
-        "concern-mcq-03": "「對某人的福祉、安危表示關心／擔憂」與本句語境不同。",
-        "concern-mcq-07": "「合理地令人擔憂的情況／原因」與本句語境不同。",
-        "concern-mcq-02": "「令人擔心或需要認真處理的具體問題／關注事項」與本句語境不同。"
+        "concern-mcq-05": "本句的「voiced concern」指「正式表達自己的憂慮」。",
+        "concern-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-05"
     },
@@ -931,11 +945,9 @@ export default {
       "masked": "The proposal ____ about privacy.",
       "options": [
         "concern-mcq-06",
-        "concern-mcq-05",
-        "concern-mcq-07",
-        "concern-mcq-04",
-        "concern-mcq-08",
-        "concern-mcq-03"
+        "concern-mcq-13",
+        "concern-mcq-29",
+        "concern-mcq-35"
       ],
       "explanation": "本句的「raises concerns」指「提出或引起疑慮」。",
       "sentenceIndex": 8,
@@ -944,12 +956,10 @@ export default {
         "raises concerns"
       ],
       "optionReasons": {
-        "concern-mcq-06": "本句指「提出或引起疑慮」。",
-        "concern-mcq-05": "「正式表達自己的憂慮」與本句語境不同。",
-        "concern-mcq-07": "「合理地令人擔憂的情況／原因」與本句語境不同。",
-        "concern-mcq-04": "「表現出對某人／某事的關心或擔憂」與本句語境不同。",
-        "concern-mcq-08": "「消除或減輕疑慮」與本句語境不同。",
-        "concern-mcq-03": "「對某人的福祉、安危表示關心／擔憂」與本句語境不同。"
+        "concern-mcq-06": "本句的「raises concerns」指「提出或引起疑慮」。",
+        "concern-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-06"
     },
@@ -962,10 +972,8 @@ export default {
       "options": [
         "concern-mcq-07",
         "concern-mcq-06",
-        "concern-mcq-08",
-        "concern-mcq-05",
-        "concern-mcq-09",
-        "concern-mcq-04"
+        "concern-reviewed-efdaffe8a0",
+        "concern-reviewed-1361a71d00"
       ],
       "explanation": "本句的「cause for concern」指「合理地令人擔憂的情況／原因」。",
       "sentenceIndex": 9,
@@ -974,12 +982,10 @@ export default {
         "cause for concern"
       ],
       "optionReasons": {
-        "concern-mcq-07": "本句指「合理地令人擔憂的情況／原因」。",
-        "concern-mcq-06": "「提出或引起疑慮」與本句語境不同。",
-        "concern-mcq-08": "「消除或減輕疑慮」與本句語境不同。",
-        "concern-mcq-05": "「正式表達自己的憂慮」與本句語境不同。",
-        "concern-mcq-09": "「認真回應／處理令人擔心的問題」與本句語境不同。",
-        "concern-mcq-04": "「表現出對某人／某事的關心或擔憂」與本句語境不同。"
+        "concern-mcq-07": "本句的「cause for concern」指「合理地令人擔憂的情況／原因」。",
+        "concern-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-efdaffe8a0": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-1361a71d00": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-07"
     },
@@ -991,11 +997,9 @@ export default {
       "masked": "The company released more information to ____.",
       "options": [
         "concern-mcq-08",
-        "concern-mcq-07",
-        "concern-mcq-09",
-        "concern-mcq-06",
-        "concern-mcq-10",
-        "concern-mcq-05"
+        "concern-mcq-03",
+        "concern-mcq-35",
+        "concern-mcq-20"
       ],
       "explanation": "本句的「allay concerns」指「消除或減輕疑慮」。",
       "sentenceIndex": 10,
@@ -1004,12 +1008,10 @@ export default {
         "allay concerns"
       ],
       "optionReasons": {
-        "concern-mcq-08": "本句指「消除或減輕疑慮」。",
-        "concern-mcq-07": "「合理地令人擔憂的情況／原因」與本句語境不同。",
-        "concern-mcq-09": "「認真回應／處理令人擔心的問題」與本句語境不同。",
-        "concern-mcq-06": "「提出或引起疑慮」與本句語境不同。",
-        "concern-mcq-10": "「值得注意、調查或處理的問題／領域」與本句語境不同。",
-        "concern-mcq-05": "「正式表達自己的憂慮」與本句語境不同。"
+        "concern-mcq-08": "本句的「allay concerns」指「消除或減輕疑慮」。",
+        "concern-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-08"
     },
@@ -1021,11 +1023,9 @@ export default {
       "masked": "That ____ is real and should not be dismissed.",
       "options": [
         "concern-mcq-09",
-        "concern-mcq-08",
-        "concern-mcq-10",
-        "concern-mcq-07",
-        "concern-mcq-11",
-        "concern-mcq-06"
+        "concern-mcq-30",
+        "concern-mcq-35",
+        "concern-reviewed-1361a71d00"
       ],
       "explanation": "本句的「concern」指「認真回應／處理令人擔心的問題」。",
       "sentenceIndex": 11,
@@ -1034,12 +1034,10 @@ export default {
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-09": "本句指「認真回應／處理令人擔心的問題」。",
-        "concern-mcq-08": "「消除或減輕疑慮」與本句語境不同。",
-        "concern-mcq-10": "「值得注意、調查或處理的問題／領域」與本句語境不同。",
-        "concern-mcq-07": "「合理地令人擔憂的情況／原因」與本句語境不同。",
-        "concern-mcq-11": "「值得關注／令人擔憂的」與本句語境不同。",
-        "concern-mcq-06": "「提出或引起疑慮」與本句語境不同。"
+        "concern-mcq-09": "本句的「concern」指「認真回應／處理令人擔心的問題」。",
+        "concern-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-1361a71d00": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-09"
     },
@@ -1051,10 +1049,8 @@ export default {
       "masked": "Lack of affordable space is a major ____.",
       "options": [
         "concern-mcq-09",
-        "concern-mcq-08",
-        "concern-mcq-10",
-        "concern-mcq-07",
-        "concern-mcq-11",
+        "concern-mcq-27",
+        "concern-mcq-31",
         "concern-mcq-06"
       ],
       "explanation": "本句的「concern」指「認真回應／處理令人擔心的問題」。",
@@ -1064,12 +1060,10 @@ export default {
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-09": "本句指「認真回應／處理令人擔心的問題」。",
-        "concern-mcq-08": "「消除或減輕疑慮」與本句語境不同。",
-        "concern-mcq-10": "「值得注意、調查或處理的問題／領域」與本句語境不同。",
-        "concern-mcq-07": "「合理地令人擔憂的情況／原因」與本句語境不同。",
-        "concern-mcq-11": "「值得關注／令人擔憂的」與本句語境不同。",
-        "concern-mcq-06": "「提出或引起疑慮」與本句語境不同。"
+        "concern-mcq-09": "本句的「concern」指「認真回應／處理令人擔心的問題」。",
+        "concern-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-09"
     },
@@ -1081,11 +1075,9 @@ export default {
       "masked": "Safety remains our biggest ____.",
       "options": [
         "concern-mcq-09",
+        "concern-reviewed-efdaffe8a0",
         "concern-mcq-08",
-        "concern-mcq-10",
-        "concern-mcq-07",
-        "concern-mcq-11",
-        "concern-mcq-06"
+        "concern-mcq-30"
       ],
       "explanation": "本句的「concern」指「認真回應／處理令人擔心的問題」。",
       "sentenceIndex": 13,
@@ -1094,12 +1086,10 @@ export default {
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-09": "本句指「認真回應／處理令人擔心的問題」。",
-        "concern-mcq-08": "「消除或減輕疑慮」與本句語境不同。",
-        "concern-mcq-10": "「值得注意、調查或處理的問題／領域」與本句語境不同。",
-        "concern-mcq-07": "「合理地令人擔憂的情況／原因」與本句語境不同。",
-        "concern-mcq-11": "「值得關注／令人擔憂的」與本句語境不同。",
-        "concern-mcq-06": "「提出或引起疑慮」與本句語境不同。"
+        "concern-mcq-09": "本句的「concern」指「認真回應／處理令人擔心的問題」。",
+        "concern-reviewed-efdaffe8a0": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-09"
     },
@@ -1111,11 +1101,9 @@ export default {
       "masked": "The declining participation rate is a matter of ____.",
       "options": [
         "concern-mcq-10",
-        "concern-mcq-09",
-        "concern-mcq-11",
-        "concern-mcq-08",
-        "concern-mcq-12",
-        "concern-mcq-07"
+        "concern-mcq-30",
+        "concern-mcq-06",
+        "concern-mcq-13"
       ],
       "explanation": "本句的「concern」指「值得注意、調查或處理的問題／領域」。",
       "sentenceIndex": 14,
@@ -1124,12 +1112,10 @@ export default {
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-10": "本句指「值得注意、調查或處理的問題／領域」。",
-        "concern-mcq-09": "「認真回應／處理令人擔心的問題」與本句語境不同。",
-        "concern-mcq-11": "「值得關注／令人擔憂的」與本句語境不同。",
-        "concern-mcq-08": "「消除或減輕疑慮」與本句語境不同。",
-        "concern-mcq-12": "「與某人有關、屬某人的責任／事情」與本句語境不同。",
-        "concern-mcq-07": "「合理地令人擔憂的情況／原因」與本句語境不同。"
+        "concern-mcq-10": "本句的「concern」指「值得注意、調查或處理的問題／領域」。",
+        "concern-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-10"
     },
@@ -1141,11 +1127,9 @@ export default {
       "masked": "This pattern is ____.",
       "options": [
         "concern-mcq-11",
-        "concern-mcq-10",
-        "concern-mcq-12",
-        "concern-mcq-09",
-        "concern-mcq-13",
-        "concern-mcq-08"
+        "concern-mcq-35",
+        "concern-mcq-06",
+        "concern-reviewed-9045952fe3"
       ],
       "explanation": "本句的「of concern」指「值得關注／令人擔憂的」。",
       "sentenceIndex": 15,
@@ -1154,12 +1138,10 @@ export default {
         "of concern"
       ],
       "optionReasons": {
-        "concern-mcq-11": "本句指「值得關注／令人擔憂的」。",
-        "concern-mcq-10": "「值得注意、調查或處理的問題／領域」與本句語境不同。",
-        "concern-mcq-12": "「與某人有關、屬某人的責任／事情」與本句語境不同。",
-        "concern-mcq-09": "「認真回應／處理令人擔心的問題」與本句語境不同。",
-        "concern-mcq-13": "「與你無關；不是你該管的事」與本句語境不同。",
-        "concern-mcq-08": "「消除或減輕疑慮」與本句語境不同。"
+        "concern-mcq-11": "本句的「of concern」指「值得關注／令人擔憂的」。",
+        "concern-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-9045952fe3": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-11"
     },
@@ -1171,11 +1153,9 @@ export default {
       "masked": "The issue is of particular ____ to parents.",
       "options": [
         "concern-mcq-11",
-        "concern-mcq-10",
-        "concern-mcq-12",
-        "concern-mcq-09",
-        "concern-mcq-13",
-        "concern-mcq-08"
+        "concern-mcq-24",
+        "concern-reviewed-efdaffe8a0",
+        "concern-mcq-06"
       ],
       "explanation": "本句的「concern」指「值得關注／令人擔憂的」。",
       "sentenceIndex": 16,
@@ -1184,74 +1164,68 @@ export default {
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-11": "本句指「值得關注／令人擔憂的」。",
-        "concern-mcq-10": "「值得注意、調查或處理的問題／領域」與本句語境不同。",
-        "concern-mcq-12": "「與某人有關、屬某人的責任／事情」與本句語境不同。",
-        "concern-mcq-09": "「認真回應／處理令人擔心的問題」與本句語境不同。",
-        "concern-mcq-13": "「與你無關；不是你該管的事」與本句語境不同。",
-        "concern-mcq-08": "「消除或減輕疑慮」與本句語境不同。"
+        "concern-mcq-11": "本句的「concern」指「值得關注／令人擔憂的」。",
+        "concern-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-efdaffe8a0": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-11"
     },
     {
       "id": "concern-19-0",
-      "sense": "concern-mcq-11",
+      "sense": "concern-reviewed-9045952fe3",
       "en": "Her concern for the students was obvious.",
       "zh": "她對學生的關心十分明顯。",
       "masked": "Her ____ for the students was obvious.",
       "options": [
-        "concern-mcq-11",
-        "concern-mcq-10",
-        "concern-mcq-12",
-        "concern-mcq-09",
-        "concern-mcq-13",
-        "concern-mcq-08"
+        "concern-reviewed-9045952fe3",
+        "concern-mcq-21",
+        "concern-mcq-08",
+        "concern-mcq-10"
       ],
-      "explanation": "本句的「concern」指「值得關注／令人擔憂的」。",
+      "explanation": "對照完整句子：「她對學生的關心十分明顯。」。這裡的「concern」表示「關懷；關心」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "targets": [
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-11": "本句指「值得關注／令人擔憂的」。",
-        "concern-mcq-10": "「值得注意、調查或處理的問題／領域」與本句語境不同。",
-        "concern-mcq-12": "「與某人有關、屬某人的責任／事情」與本句語境不同。",
-        "concern-mcq-09": "「認真回應／處理令人擔心的問題」與本句語境不同。",
-        "concern-mcq-13": "「與你無關；不是你該管的事」與本句語境不同。",
-        "concern-mcq-08": "「消除或減輕疑慮」與本句語境不同。"
+        "concern-reviewed-9045952fe3": "對照完整句子：「她對學生的關心十分明顯。」。這裡的「concern」表示「關懷；關心」。",
+        "concern-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "concern-mcq-11"
+      "correctOption": "concern-reviewed-9045952fe3",
+      "previousCorrectOption": "concern-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "concern-21-0",
-      "sense": "concern-mcq-11",
+      "sense": "concern-reviewed-ee4e6310b4",
       "en": "His lack of concern for other customers was obvious.",
       "zh": "他明顯沒有顧及／不關心其他顧客。",
       "masked": "His lack of ____ for other customers was obvious.",
       "options": [
-        "concern-mcq-11",
-        "concern-mcq-10",
-        "concern-mcq-12",
-        "concern-mcq-09",
+        "concern-reviewed-ee4e6310b4",
         "concern-mcq-13",
-        "concern-mcq-08"
+        "concern-mcq-21",
+        "concern-reviewed-efdaffe8a0"
       ],
-      "explanation": "本句的「concern」指「值得關注／令人擔憂的」。",
+      "explanation": "對照完整句子：「他明顯沒有顧及／不關心其他顧客。」。這裡的「concern」表示「漠不關心」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "targets": [
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-11": "本句指「值得關注／令人擔憂的」。",
-        "concern-mcq-10": "「值得注意、調查或處理的問題／領域」與本句語境不同。",
-        "concern-mcq-12": "「與某人有關、屬某人的責任／事情」與本句語境不同。",
-        "concern-mcq-09": "「認真回應／處理令人擔心的問題」與本句語境不同。",
-        "concern-mcq-13": "「與你無關；不是你該管的事」與本句語境不同。",
-        "concern-mcq-08": "「消除或減輕疑慮」與本句語境不同。"
+        "concern-reviewed-ee4e6310b4": "對照完整句子：「他明顯沒有顧及／不關心其他顧客。」。這裡的「concern」表示「漠不關心」。",
+        "concern-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-efdaffe8a0": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "concern-mcq-11"
+      "correctOption": "concern-reviewed-ee4e6310b4",
+      "previousCorrectOption": "concern-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "concern-23-0",
@@ -1261,11 +1235,9 @@ export default {
       "masked": "What I do outside work is none of your ____.",
       "options": [
         "concern-mcq-13",
-        "concern-mcq-12",
-        "concern-mcq-14",
-        "concern-mcq-11",
-        "concern-mcq-15",
-        "concern-mcq-10"
+        "concern-mcq-20",
+        "concern-mcq-01",
+        "concern-mcq-30"
       ],
       "explanation": "本句的「concern」指「與你無關；不是你該管的事」。",
       "sentenceIndex": 20,
@@ -1274,12 +1246,10 @@ export default {
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-13": "本句指「與你無關；不是你該管的事」。",
-        "concern-mcq-12": "「與某人有關、屬某人的責任／事情」與本句語境不同。",
-        "concern-mcq-14": "「令某人感到擔心」與本句語境不同。",
-        "concern-mcq-11": "「值得關注／令人擔憂的」與本句語境不同。",
-        "concern-mcq-15": "「我擔心……」與本句語境不同。",
-        "concern-mcq-10": "「值得注意、調查或處理的問題／領域」與本句語境不同。"
+        "concern-mcq-13": "本句的「concern」指「與你無關；不是你該管的事」。",
+        "concern-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-13"
     },
@@ -1291,11 +1261,9 @@ export default {
       "masked": "The lack of available seating ____ restaurant owners.",
       "options": [
         "concern-mcq-14",
-        "concern-mcq-13",
-        "concern-mcq-15",
-        "concern-mcq-12",
-        "concern-mcq-16",
-        "concern-mcq-11"
+        "concern-mcq-31",
+        "concern-reviewed-1361a71d00",
+        "concern-mcq-18"
       ],
       "explanation": "本句的「concerns」指「令某人感到擔心」。",
       "sentenceIndex": 21,
@@ -1304,12 +1272,10 @@ export default {
         "concerns"
       ],
       "optionReasons": {
-        "concern-mcq-14": "本句指「令某人感到擔心」。",
-        "concern-mcq-13": "「與你無關；不是你該管的事」與本句語境不同。",
-        "concern-mcq-15": "「我擔心……」與本句語境不同。",
-        "concern-mcq-12": "「與某人有關、屬某人的責任／事情」與本句語境不同。",
-        "concern-mcq-16": "「對某事感到擔憂」與本句語境不同。",
-        "concern-mcq-11": "「值得關注／令人擔憂的」與本句語境不同。"
+        "concern-mcq-14": "本句的「concerns」指「令某人感到擔心」。",
+        "concern-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-1361a71d00": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-14"
     },
@@ -1321,11 +1287,9 @@ export default {
       "masked": "What ____ me most is the long-term effect.",
       "options": [
         "concern-mcq-14",
-        "concern-mcq-13",
-        "concern-mcq-15",
-        "concern-mcq-12",
-        "concern-mcq-16",
-        "concern-mcq-11"
+        "concern-reviewed-efdaffe8a0",
+        "concern-mcq-08",
+        "concern-mcq-31"
       ],
       "explanation": "本句的「concerns」指「令某人感到擔心」。",
       "sentenceIndex": 22,
@@ -1334,12 +1298,10 @@ export default {
         "concerns"
       ],
       "optionReasons": {
-        "concern-mcq-14": "本句指「令某人感到擔心」。",
-        "concern-mcq-13": "「與你無關；不是你該管的事」與本句語境不同。",
-        "concern-mcq-15": "「我擔心……」與本句語境不同。",
-        "concern-mcq-12": "「與某人有關、屬某人的責任／事情」與本句語境不同。",
-        "concern-mcq-16": "「對某事感到擔憂」與本句語境不同。",
-        "concern-mcq-11": "「值得關注／令人擔憂的」與本句語境不同。"
+        "concern-mcq-14": "本句的「concerns」指「令某人感到擔心」。",
+        "concern-reviewed-efdaffe8a0": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-14"
     },
@@ -1351,11 +1313,9 @@ export default {
       "masked": "It ____ students have so few suitable places to study.",
       "options": [
         "concern-mcq-15",
-        "concern-mcq-14",
-        "concern-mcq-16",
-        "concern-mcq-13",
-        "concern-mcq-17",
-        "concern-mcq-12"
+        "concern-mcq-08",
+        "concern-mcq-30",
+        "concern-reviewed-efdaffe8a0"
       ],
       "explanation": "本句的「concerns me that」指「我擔心……」。",
       "sentenceIndex": 23,
@@ -1364,12 +1324,10 @@ export default {
         "concerns me that"
       ],
       "optionReasons": {
-        "concern-mcq-15": "本句指「我擔心……」。",
-        "concern-mcq-14": "「令某人感到擔心」與本句語境不同。",
-        "concern-mcq-16": "「對某事感到擔憂」與本句語境不同。",
-        "concern-mcq-13": "「與你無關；不是你該管的事」與本句語境不同。",
-        "concern-mcq-17": "「擔心／關心某人的安危福祉」與本句語境不同。",
-        "concern-mcq-12": "「與某人有關、屬某人的責任／事情」與本句語境不同。"
+        "concern-mcq-15": "本句的「concerns me that」指「我擔心……」。",
+        "concern-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-efdaffe8a0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-15"
     },
@@ -1381,11 +1339,9 @@ export default {
       "masked": "Parents are ____ the lack of quiet study space.",
       "options": [
         "concern-mcq-16",
-        "concern-mcq-15",
-        "concern-mcq-17",
-        "concern-mcq-14",
-        "concern-mcq-18",
-        "concern-mcq-13"
+        "concern-reviewed-1361a71d00",
+        "concern-mcq-31",
+        "concern-mcq-18"
       ],
       "explanation": "本句的「concerned about」指「對某事感到擔憂」。",
       "sentenceIndex": 24,
@@ -1394,12 +1350,10 @@ export default {
         "concerned about"
       ],
       "optionReasons": {
-        "concern-mcq-16": "本句指「對某事感到擔憂」。",
-        "concern-mcq-15": "「我擔心……」與本句語境不同。",
-        "concern-mcq-17": "「擔心／關心某人的安危福祉」與本句語境不同。",
-        "concern-mcq-14": "「令某人感到擔心」與本句語境不同。",
-        "concern-mcq-18": "「以某主題為內容；關於／涉及」與本句語境不同。",
-        "concern-mcq-13": "「與你無關；不是你該管的事」與本句語境不同。"
+        "concern-mcq-16": "本句的「concerned about」指「對某事感到擔憂」。",
+        "concern-reviewed-1361a71d00": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-16"
     },
@@ -1411,11 +1365,9 @@ export default {
       "masked": "We were deeply ____ his safety.",
       "options": [
         "concern-mcq-17",
-        "concern-mcq-16",
-        "concern-mcq-18",
-        "concern-mcq-15",
-        "concern-mcq-19",
-        "concern-mcq-14"
+        "concern-mcq-35",
+        "concern-mcq-31",
+        "concern-mcq-18"
       ],
       "explanation": "本句的「concerned for」指「擔心／關心某人的安危福祉」。",
       "sentenceIndex": 25,
@@ -1424,12 +1376,10 @@ export default {
         "concerned for"
       ],
       "optionReasons": {
-        "concern-mcq-17": "本句指「擔心／關心某人的安危福祉」。",
-        "concern-mcq-16": "「對某事感到擔憂」與本句語境不同。",
-        "concern-mcq-18": "「以某主題為內容；關於／涉及」與本句語境不同。",
-        "concern-mcq-15": "「我擔心……」與本句語境不同。",
-        "concern-mcq-19": "「與某人／群體有關並影響或涉及他們」與本句語境不同。",
-        "concern-mcq-14": "「令某人感到擔心」與本句語境不同。"
+        "concern-mcq-17": "本句的「concerned for」指「擔心／關心某人的安危福祉」。",
+        "concern-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-17"
     },
@@ -1441,11 +1391,9 @@ export default {
       "masked": "The report ____ the use of public space.",
       "options": [
         "concern-mcq-18",
-        "concern-mcq-17",
-        "concern-mcq-19",
-        "concern-mcq-16",
-        "concern-mcq-20",
-        "concern-mcq-15"
+        "concern-mcq-11",
+        "concern-reviewed-ee4e6310b4",
+        "concern-mcq-27"
       ],
       "explanation": "本句的「concerns」指「以某主題為內容；關於／涉及」。",
       "sentenceIndex": 26,
@@ -1454,12 +1402,10 @@ export default {
         "concerns"
       ],
       "optionReasons": {
-        "concern-mcq-18": "本句指「以某主題為內容；關於／涉及」。",
-        "concern-mcq-17": "「擔心／關心某人的安危福祉」與本句語境不同。",
-        "concern-mcq-19": "「與某人／群體有關並影響或涉及他們」與本句語境不同。",
-        "concern-mcq-16": "「對某事感到擔憂」與本句語境不同。",
-        "concern-mcq-20": "「把注意力／精力放在某事上；處理／操心」與本句語境不同。",
-        "concern-mcq-15": "「我擔心……」與本句語境不同。"
+        "concern-mcq-18": "本句的「concerns」指「以某主題為內容；關於／涉及」。",
+        "concern-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-ee4e6310b4": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-18"
     },
@@ -1471,11 +1417,9 @@ export default {
       "masked": "The discussion mainly ____ education.",
       "options": [
         "concern-mcq-18",
-        "concern-mcq-17",
-        "concern-mcq-19",
-        "concern-mcq-16",
+        "concern-mcq-03",
         "concern-mcq-20",
-        "concern-mcq-15"
+        "concern-mcq-08"
       ],
       "explanation": "本句的「concerned」指「以某主題為內容；關於／涉及」。",
       "sentenceIndex": 27,
@@ -1484,12 +1428,10 @@ export default {
         "concerned"
       ],
       "optionReasons": {
-        "concern-mcq-18": "本句指「以某主題為內容；關於／涉及」。",
-        "concern-mcq-17": "「擔心／關心某人的安危福祉」與本句語境不同。",
-        "concern-mcq-19": "「與某人／群體有關並影響或涉及他們」與本句語境不同。",
-        "concern-mcq-16": "「對某事感到擔憂」與本句語境不同。",
-        "concern-mcq-20": "「把注意力／精力放在某事上；處理／操心」與本句語境不同。",
-        "concern-mcq-15": "「我擔心……」與本句語境不同。"
+        "concern-mcq-18": "本句的「concerned」指「以某主題為內容；關於／涉及」。",
+        "concern-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-18"
     },
@@ -1501,11 +1443,9 @@ export default {
       "masked": "This decision ____ every member of staff.",
       "options": [
         "concern-mcq-19",
-        "concern-mcq-18",
-        "concern-mcq-20",
-        "concern-mcq-17",
-        "concern-mcq-21",
-        "concern-mcq-16"
+        "concern-mcq-08",
+        "concern-reviewed-ee4e6310b4",
+        "concern-mcq-07"
       ],
       "explanation": "本句的「concerns」指「與某人／群體有關並影響或涉及他們」。",
       "sentenceIndex": 29,
@@ -1514,12 +1454,10 @@ export default {
         "concerns"
       ],
       "optionReasons": {
-        "concern-mcq-19": "本句指「與某人／群體有關並影響或涉及他們」。",
-        "concern-mcq-18": "「以某主題為內容；關於／涉及」與本句語境不同。",
-        "concern-mcq-20": "「把注意力／精力放在某事上；處理／操心」與本句語境不同。",
-        "concern-mcq-17": "「擔心／關心某人的安危福祉」與本句語境不同。",
-        "concern-mcq-21": "「感到擔憂的」與本句語境不同。",
-        "concern-mcq-16": "「對某事感到擔憂」與本句語境不同。"
+        "concern-mcq-19": "本句的「concerns」指「與某人／群體有關並影響或涉及他們」。",
+        "concern-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-ee4e6310b4": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-19"
     },
@@ -1531,11 +1469,9 @@ export default {
       "masked": "The changes ____ only new applicants.",
       "options": [
         "concern-mcq-19",
-        "concern-mcq-18",
-        "concern-mcq-20",
-        "concern-mcq-17",
-        "concern-mcq-21",
-        "concern-mcq-16"
+        "concern-mcq-30",
+        "concern-mcq-06",
+        "concern-mcq-10"
       ],
       "explanation": "本句的「concern」指「與某人／群體有關並影響或涉及他們」。",
       "sentenceIndex": 30,
@@ -1544,12 +1480,10 @@ export default {
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-19": "本句指「與某人／群體有關並影響或涉及他們」。",
-        "concern-mcq-18": "「以某主題為內容；關於／涉及」與本句語境不同。",
-        "concern-mcq-20": "「把注意力／精力放在某事上；處理／操心」與本句語境不同。",
-        "concern-mcq-17": "「擔心／關心某人的安危福祉」與本句語境不同。",
-        "concern-mcq-21": "「感到擔憂的」與本句語境不同。",
-        "concern-mcq-16": "「對某事感到擔憂」與本句語境不同。"
+        "concern-mcq-19": "本句的「concern」指「與某人／群體有關並影響或涉及他們」。",
+        "concern-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-19"
     },
@@ -1561,11 +1495,9 @@ export default {
       "masked": "The decision was communicated to all ____.",
       "options": [
         "concern-mcq-19",
-        "concern-mcq-18",
-        "concern-mcq-20",
-        "concern-mcq-17",
-        "concern-mcq-21",
-        "concern-mcq-16"
+        "concern-mcq-06",
+        "concern-reviewed-1361a71d00",
+        "concern-mcq-21"
       ],
       "explanation": "本句的「concerned」指「與某人／群體有關並影響或涉及他們」。",
       "sentenceIndex": 31,
@@ -1574,12 +1506,10 @@ export default {
         "concerned"
       ],
       "optionReasons": {
-        "concern-mcq-19": "本句指「與某人／群體有關並影響或涉及他們」。",
-        "concern-mcq-18": "「以某主題為內容；關於／涉及」與本句語境不同。",
-        "concern-mcq-20": "「把注意力／精力放在某事上；處理／操心」與本句語境不同。",
-        "concern-mcq-17": "「擔心／關心某人的安危福祉」與本句語境不同。",
-        "concern-mcq-21": "「感到擔憂的」與本句語境不同。",
-        "concern-mcq-16": "「對某事感到擔憂」與本句語境不同。"
+        "concern-mcq-19": "本句的「concerned」指「與某人／群體有關並影響或涉及他們」。",
+        "concern-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-1361a71d00": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-19"
     },
@@ -1591,11 +1521,9 @@ export default {
       "masked": "The committee ____ itself mainly with safety issues.",
       "options": [
         "concern-mcq-20",
-        "concern-mcq-19",
-        "concern-mcq-21",
-        "concern-mcq-18",
-        "concern-mcq-22",
-        "concern-mcq-17"
+        "concern-mcq-16",
+        "concern-mcq-27",
+        "concern-mcq-31"
       ],
       "explanation": "本句的「concerns」指「把注意力／精力放在某事上；處理／操心」。",
       "sentenceIndex": 32,
@@ -1604,12 +1532,10 @@ export default {
         "concerns"
       ],
       "optionReasons": {
-        "concern-mcq-20": "本句指「把注意力／精力放在某事上；處理／操心」。",
-        "concern-mcq-19": "「與某人／群體有關並影響或涉及他們」與本句語境不同。",
-        "concern-mcq-21": "「感到擔憂的」與本句語境不同。",
-        "concern-mcq-18": "「以某主題為內容；關於／涉及」與本句語境不同。",
-        "concern-mcq-22": "「與事情相關／受到事情影響的」與本句語境不同。",
-        "concern-mcq-17": "「擔心／關心某人的安危福祉」與本句語境不同。"
+        "concern-mcq-20": "本句的「concerns」指「把注意力／精力放在某事上；處理／操心」。",
+        "concern-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-20"
     },
@@ -1621,11 +1547,9 @@ export default {
       "masked": "Don't ____ the details.” Depending on context:",
       "options": [
         "concern-mcq-20",
-        "concern-mcq-19",
-        "concern-mcq-21",
-        "concern-mcq-18",
-        "concern-mcq-22",
-        "concern-mcq-17"
+        "concern-mcq-31",
+        "concern-mcq-08",
+        "concern-reviewed-efdaffe8a0"
       ],
       "explanation": "本句的「concern yourself with」指「把注意力／精力放在某事上；處理／操心」。",
       "sentenceIndex": 33,
@@ -1634,12 +1558,10 @@ export default {
         "concern yourself with"
       ],
       "optionReasons": {
-        "concern-mcq-20": "本句指「把注意力／精力放在某事上；處理／操心」。",
-        "concern-mcq-19": "「與某人／群體有關並影響或涉及他們」與本句語境不同。",
-        "concern-mcq-21": "「感到擔憂的」與本句語境不同。",
-        "concern-mcq-18": "「以某主題為內容；關於／涉及」與本句語境不同。",
-        "concern-mcq-22": "「與事情相關／受到事情影響的」與本句語境不同。",
-        "concern-mcq-17": "「擔心／關心某人的安危福祉」與本句語境不同。"
+        "concern-mcq-20": "本句的「concern yourself with」指「把注意力／精力放在某事上；處理／操心」。",
+        "concern-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-efdaffe8a0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-20"
     },
@@ -1651,11 +1573,9 @@ export default {
       "masked": "The parents looked ____.",
       "options": [
         "concern-mcq-21",
-        "concern-mcq-20",
-        "concern-mcq-22",
         "concern-mcq-19",
-        "concern-mcq-23",
-        "concern-mcq-18"
+        "concern-reviewed-efdaffe8a0",
+        "concern-mcq-08"
       ],
       "explanation": "本句的「concerned」指「感到擔憂的」。",
       "sentenceIndex": 34,
@@ -1664,12 +1584,10 @@ export default {
         "concerned"
       ],
       "optionReasons": {
-        "concern-mcq-21": "本句指「感到擔憂的」。",
-        "concern-mcq-20": "「把注意力／精力放在某事上；處理／操心」與本句語境不同。",
-        "concern-mcq-22": "「與事情相關／受到事情影響的」與本句語境不同。",
-        "concern-mcq-19": "「與某人／群體有關並影響或涉及他們」與本句語境不同。",
-        "concern-mcq-23": "「有關人士，而不是「擔心的人」」與本句語境不同。",
-        "concern-mcq-18": "「以某主題為內容；關於／涉及」與本句語境不同。"
+        "concern-mcq-21": "本句的「concerned」指「感到擔憂的」。",
+        "concern-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-efdaffe8a0": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-21"
     },
@@ -1681,11 +1599,9 @@ export default {
       "masked": "I'm becoming increasingly ____.",
       "options": [
         "concern-mcq-21",
-        "concern-mcq-20",
-        "concern-mcq-22",
-        "concern-mcq-19",
-        "concern-mcq-23",
-        "concern-mcq-18"
+        "concern-reviewed-1361a71d00",
+        "concern-mcq-27",
+        "concern-mcq-34"
       ],
       "explanation": "本句的「concerned」指「感到擔憂的」。",
       "sentenceIndex": 35,
@@ -1694,12 +1610,10 @@ export default {
         "concerned"
       ],
       "optionReasons": {
-        "concern-mcq-21": "本句指「感到擔憂的」。",
-        "concern-mcq-20": "「把注意力／精力放在某事上；處理／操心」與本句語境不同。",
-        "concern-mcq-22": "「與事情相關／受到事情影響的」與本句語境不同。",
-        "concern-mcq-19": "「與某人／群體有關並影響或涉及他們」與本句語境不同。",
-        "concern-mcq-23": "「有關人士，而不是「擔心的人」」與本句語境不同。",
-        "concern-mcq-18": "「以某主題為內容；關於／涉及」與本句語境不同。"
+        "concern-mcq-21": "本句的「concerned」指「感到擔憂的」。",
+        "concern-reviewed-1361a71d00": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-21"
     },
@@ -1711,11 +1625,9 @@ export default {
       "masked": "The organization is primarily ____ education.",
       "options": [
         "concern-mcq-24",
-        "concern-mcq-23",
-        "concern-mcq-25",
-        "concern-mcq-22",
-        "concern-mcq-26",
-        "concern-mcq-21"
+        "concern-mcq-31",
+        "concern-mcq-21",
+        "concern-mcq-34"
       ],
       "explanation": "本句的「concerned with」指「涉及／探討／從事某個主題」。",
       "sentenceIndex": 37,
@@ -1724,44 +1636,40 @@ export default {
         "concerned with"
       ],
       "optionReasons": {
-        "concern-mcq-24": "本句指「涉及／探討／從事某個主題」。",
-        "concern-mcq-23": "「有關人士，而不是「擔心的人」」與本句語境不同。",
-        "concern-mcq-25": "「參與／涉及；正式、較低頻」與本句語境不同。",
-        "concern-mcq-22": "「與事情相關／受到事情影響的」與本句語境不同。",
-        "concern-mcq-26": "「很希望／着意確保某事；正式」與本句語境不同。",
-        "concern-mcq-21": "「感到擔憂的」與本句語境不同。"
+        "concern-mcq-24": "本句的「concerned with」指「涉及／探討／從事某個主題」。",
+        "concern-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-24"
     },
     {
       "id": "concern-49-0",
-      "sense": "concern-mcq-25",
+      "sense": "concern-reviewed-efdaffe8a0",
       "en": "The agreement must be acceptable to all parties concerned.",
       "zh": "協議必須得到所有有關各方接受。",
       "masked": "The agreement must be acceptable to all parties ____.",
       "options": [
-        "concern-mcq-25",
-        "concern-mcq-24",
-        "concern-mcq-26",
-        "concern-mcq-23",
-        "concern-mcq-27",
-        "concern-mcq-22"
+        "concern-reviewed-efdaffe8a0",
+        "concern-reviewed-ee4e6310b4",
+        "concern-mcq-19",
+        "concern-mcq-07"
       ],
-      "explanation": "本句的「concerned」指「參與／涉及；正式、較低頻」。",
+      "explanation": "對照完整句子：「協議必須得到所有有關各方接受。」。這裡的「concerned」表示「所有有關各方」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "concerned"
       ],
       "optionReasons": {
-        "concern-mcq-25": "本句指「參與／涉及；正式、較低頻」。",
-        "concern-mcq-24": "「涉及／探討／從事某個主題」與本句語境不同。",
-        "concern-mcq-26": "「很希望／着意確保某事；正式」與本句語境不同。",
-        "concern-mcq-23": "「有關人士，而不是「擔心的人」」與本句語境不同。",
-        "concern-mcq-27": "「關於；有關」與本句語境不同。",
-        "concern-mcq-22": "「與事情相關／受到事情影響的」與本句語境不同。"
+        "concern-reviewed-efdaffe8a0": "對照完整句子：「協議必須得到所有有關各方接受。」。這裡的「concerned」表示「所有有關各方」。",
+        "concern-reviewed-ee4e6310b4": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "concern-mcq-25"
+      "correctOption": "concern-reviewed-efdaffe8a0",
+      "previousCorrectOption": "concern-mcq-25",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "concern-53-0",
@@ -1771,11 +1679,9 @@ export default {
       "masked": "We received several questions ____ the new policy.",
       "options": [
         "concern-mcq-27",
-        "concern-mcq-26",
-        "concern-mcq-28",
-        "concern-mcq-25",
-        "concern-mcq-29",
-        "concern-mcq-24"
+        "concern-mcq-10",
+        "concern-mcq-21",
+        "concern-mcq-35"
       ],
       "explanation": "本句的「concerning」指「關於；有關」。",
       "sentenceIndex": 39,
@@ -1784,12 +1690,10 @@ export default {
         "concerning"
       ],
       "optionReasons": {
-        "concern-mcq-27": "本句指「關於；有關」。",
-        "concern-mcq-26": "「很希望／着意確保某事；正式」與本句語境不同。",
-        "concern-mcq-28": "「令人擔憂的」與本句語境不同。",
-        "concern-mcq-25": "「參與／涉及；正式、較低頻」與本句語境不同。",
-        "concern-mcq-29": "「不擔心的；亦可指漠不關心的」與本句語境不同。",
-        "concern-mcq-24": "「涉及／探討／從事某個主題」與本句語境不同。"
+        "concern-mcq-27": "本句的「concerning」指「關於；有關」。",
+        "concern-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-27"
     },
@@ -1801,11 +1705,9 @@ export default {
       "masked": "Information ____ the application is available online.",
       "options": [
         "concern-mcq-27",
-        "concern-mcq-26",
-        "concern-mcq-28",
-        "concern-mcq-25",
-        "concern-mcq-29",
-        "concern-mcq-24"
+        "concern-mcq-35",
+        "concern-mcq-01",
+        "concern-mcq-18"
       ],
       "explanation": "本句的「concerning」指「關於；有關」。",
       "sentenceIndex": 40,
@@ -1814,12 +1716,10 @@ export default {
         "concerning"
       ],
       "optionReasons": {
-        "concern-mcq-27": "本句指「關於；有關」。",
-        "concern-mcq-26": "「很希望／着意確保某事；正式」與本句語境不同。",
-        "concern-mcq-28": "「令人擔憂的」與本句語境不同。",
-        "concern-mcq-25": "「參與／涉及；正式、較低頻」與本句語境不同。",
-        "concern-mcq-29": "「不擔心的；亦可指漠不關心的」與本句語境不同。",
-        "concern-mcq-24": "「涉及／探討／從事某個主題」與本句語境不同。"
+        "concern-mcq-27": "本句的「concerning」指「關於；有關」。",
+        "concern-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-27"
     },
@@ -1831,11 +1731,9 @@ export default {
       "masked": "The decline is ____.",
       "options": [
         "concern-mcq-28",
-        "concern-mcq-27",
-        "concern-mcq-29",
-        "concern-mcq-26",
         "concern-mcq-30",
-        "concern-mcq-25"
+        "concern-mcq-20",
+        "concern-mcq-19"
       ],
       "explanation": "本句的「concerning」指「令人擔憂的」。",
       "sentenceIndex": 41,
@@ -1844,12 +1742,10 @@ export default {
         "concerning"
       ],
       "optionReasons": {
-        "concern-mcq-28": "本句指「令人擔憂的」。",
-        "concern-mcq-27": "「關於；有關」與本句語境不同。",
-        "concern-mcq-29": "「不擔心的；亦可指漠不關心的」與本句語境不同。",
-        "concern-mcq-26": "「很希望／着意確保某事；正式」與本句語境不同。",
-        "concern-mcq-30": "「就 X 而言／在 X 方面」與本句語境不同。",
-        "concern-mcq-25": "「參與／涉及；正式、較低頻」與本句語境不同。"
+        "concern-mcq-28": "本句的「concerning」指「令人擔憂的」。",
+        "concern-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-28"
     },
@@ -1861,11 +1757,9 @@ export default {
       "masked": "That is a ____ trend.",
       "options": [
         "concern-mcq-28",
-        "concern-mcq-27",
-        "concern-mcq-29",
-        "concern-mcq-26",
+        "concern-mcq-24",
         "concern-mcq-30",
-        "concern-mcq-25"
+        "concern-mcq-10"
       ],
       "explanation": "本句的「concerning」指「令人擔憂的」。",
       "sentenceIndex": 42,
@@ -1874,12 +1768,10 @@ export default {
         "concerning"
       ],
       "optionReasons": {
-        "concern-mcq-28": "本句指「令人擔憂的」。",
-        "concern-mcq-27": "「關於；有關」與本句語境不同。",
-        "concern-mcq-29": "「不擔心的；亦可指漠不關心的」與本句語境不同。",
-        "concern-mcq-26": "「很希望／着意確保某事；正式」與本句語境不同。",
-        "concern-mcq-30": "「就 X 而言／在 X 方面」與本句語境不同。",
-        "concern-mcq-25": "「參與／涉及；正式、較低頻」與本句語境不同。"
+        "concern-mcq-28": "本句的「concerning」指「令人擔憂的」。",
+        "concern-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-28"
     },
@@ -1891,11 +1783,9 @@ export default {
       "masked": "She seemed surprisingly ____ about the delay.",
       "options": [
         "concern-mcq-29",
-        "concern-mcq-28",
-        "concern-mcq-30",
-        "concern-mcq-27",
-        "concern-mcq-31",
-        "concern-mcq-26"
+        "concern-reviewed-1361a71d00",
+        "concern-mcq-06",
+        "concern-mcq-18"
       ],
       "explanation": "本句的「unconcerned」指「不擔心的；亦可指漠不關心的」。",
       "sentenceIndex": 43,
@@ -1904,12 +1794,10 @@ export default {
         "unconcerned"
       ],
       "optionReasons": {
-        "concern-mcq-29": "本句指「不擔心的；亦可指漠不關心的」。",
-        "concern-mcq-28": "「令人擔憂的」與本句語境不同。",
-        "concern-mcq-30": "「就 X 而言／在 X 方面」與本句語境不同。",
-        "concern-mcq-27": "「關於；有關」與本句語境不同。",
-        "concern-mcq-31": "「在我看來；或就我這方面而言」與本句語境不同。",
-        "concern-mcq-26": "「很希望／着意確保某事；正式」與本句語境不同。"
+        "concern-mcq-29": "本句的「unconcerned」指「不擔心的；亦可指漠不關心的」。",
+        "concern-reviewed-1361a71d00": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-29"
     },
@@ -1921,11 +1809,9 @@ export default {
       "masked": "As far as cost is ____, the second option is better.",
       "options": [
         "concern-mcq-30",
-        "concern-mcq-29",
-        "concern-mcq-31",
-        "concern-mcq-28",
-        "concern-mcq-32",
-        "concern-mcq-27"
+        "concern-reviewed-1361a71d00",
+        "concern-mcq-16",
+        "concern-mcq-24"
       ],
       "explanation": "本句的「concerned」指「就 X 而言／在 X 方面」。",
       "sentenceIndex": 44,
@@ -1934,12 +1820,10 @@ export default {
         "concerned"
       ],
       "optionReasons": {
-        "concern-mcq-30": "本句指「就 X 而言／在 X 方面」。",
-        "concern-mcq-29": "「不擔心的；亦可指漠不關心的」與本句語境不同。",
-        "concern-mcq-31": "「在我看來；或就我這方面而言」與本句語境不同。",
-        "concern-mcq-28": "「令人擔憂的」與本句語境不同。",
-        "concern-mcq-32": "「在涉及 X 的事情上／就 X 而言」與本句語境不同。",
-        "concern-mcq-27": "「關於；有關」與本句語境不同。"
+        "concern-mcq-30": "本句的「concerned」指「就 X 而言／在 X 方面」。",
+        "concern-reviewed-1361a71d00": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-30"
     },
@@ -1951,11 +1835,9 @@ export default {
       "masked": "As far as I'm ____, the matter is finished.",
       "options": [
         "concern-mcq-31",
-        "concern-mcq-30",
-        "concern-mcq-32",
-        "concern-mcq-29",
-        "concern-mcq-33",
-        "concern-mcq-28"
+        "concern-mcq-06",
+        "concern-mcq-10",
+        "concern-mcq-03"
       ],
       "explanation": "本句的「concerned」指「在我看來；或就我這方面而言」。",
       "sentenceIndex": 45,
@@ -1964,12 +1846,10 @@ export default {
         "concerned"
       ],
       "optionReasons": {
-        "concern-mcq-31": "本句指「在我看來；或就我這方面而言」。",
-        "concern-mcq-30": "「就 X 而言／在 X 方面」與本句語境不同。",
-        "concern-mcq-32": "「在涉及 X 的事情上／就 X 而言」與本句語境不同。",
-        "concern-mcq-29": "「不擔心的；亦可指漠不關心的」與本句語境不同。",
-        "concern-mcq-33": "「敬啟者／致有關人士」與本句語境不同。",
-        "concern-mcq-28": "「令人擔憂的」與本句語境不同。"
+        "concern-mcq-31": "本句的「concerned」指「在我看來；或就我這方面而言」。",
+        "concern-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-31"
     },
@@ -1981,11 +1861,9 @@ export default {
       "masked": "The family owns a small manufacturing ____.",
       "options": [
         "concern-mcq-34",
-        "concern-mcq-33",
-        "concern-mcq-35",
-        "concern-mcq-32",
-        "concern-mcq-36",
-        "concern-mcq-31"
+        "concern-mcq-28",
+        "concern-reviewed-1361a71d00",
+        "concern-mcq-27"
       ],
       "explanation": "本句的「concern」指「公司、企業、商業機構；較正式」。",
       "sentenceIndex": 46,
@@ -1994,12 +1872,10 @@ export default {
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-34": "本句指「公司、企業、商業機構；較正式」。",
-        "concern-mcq-33": "「敬啟者／致有關人士」與本句語境不同。",
-        "concern-mcq-35": "「正在正常營運、可繼續經營的企業」與本句語境不同。",
-        "concern-mcq-32": "「在涉及 X 的事情上／就 X 而言」與本句語境不同。",
-        "concern-mcq-36": "「企業具備持續經營能力／按持續經營基礎編製」與本句語境不同。",
-        "concern-mcq-31": "「在我看來；或就我這方面而言」與本句語境不同。"
+        "concern-mcq-34": "本句的「concern」指「公司、企業、商業機構；較正式」。",
+        "concern-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "concern-reviewed-1361a71d00": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-34"
     },
@@ -2011,11 +1887,9 @@ export default {
       "masked": "The restaurant was sold as a ____.",
       "options": [
         "concern-mcq-35",
-        "concern-mcq-34",
-        "concern-mcq-36",
-        "concern-mcq-33",
-        "concern-mcq-37",
-        "concern-mcq-32"
+        "concern-mcq-19",
+        "concern-mcq-27",
+        "concern-mcq-06"
       ],
       "explanation": "本句的「going concern」指「正在正常營運、可繼續經營的企業」。",
       "sentenceIndex": 47,
@@ -2024,44 +1898,40 @@ export default {
         "going concern"
       ],
       "optionReasons": {
-        "concern-mcq-35": "本句指「正在正常營運、可繼續經營的企業」。",
-        "concern-mcq-34": "「公司、企業、商業機構；較正式」與本句語境不同。",
-        "concern-mcq-36": "「企業具備持續經營能力／按持續經營基礎編製」與本句語境不同。",
-        "concern-mcq-33": "「敬啟者／致有關人士」與本句語境不同。",
-        "concern-mcq-37": "「當事人求助時提出的主要問題／困擾」與本句語境不同。",
-        "concern-mcq-32": "「在涉及 X 的事情上／就 X 而言」與本句語境不同。"
+        "concern-mcq-35": "本句的「going concern」指「正在正常營運、可繼續經營的企業」。",
+        "concern-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "concern-mcq-35"
     },
     {
       "id": "concern-72-0",
-      "sense": "concern-mcq-36",
+      "sense": "concern-reviewed-1361a71d00",
       "en": "Staffing remains an area of concern.",
       "zh": "人手問題仍是一個需要關注的領域。",
       "masked": "Staffing remains an area of ____.",
       "options": [
-        "concern-mcq-36",
-        "concern-mcq-35",
-        "concern-mcq-37",
-        "concern-mcq-34",
-        "concern-mcq-38",
-        "concern-mcq-33"
+        "concern-reviewed-1361a71d00",
+        "concern-mcq-16",
+        "concern-mcq-19",
+        "concern-mcq-27"
       ],
-      "explanation": "本句的「concern」指「企業具備持續經營能力／按持續經營基礎編製」。",
+      "explanation": "對照完整句子：「人手問題仍是一個需要關注的領域。」。這裡的「concern」表示「關注領域」。",
       "sentenceIndex": 48,
       "sourcePractice": 50,
       "targets": [
         "concern"
       ],
       "optionReasons": {
-        "concern-mcq-36": "本句指「企業具備持續經營能力／按持續經營基礎編製」。",
-        "concern-mcq-35": "「正在正常營運、可繼續經營的企業」與本句語境不同。",
-        "concern-mcq-37": "「當事人求助時提出的主要問題／困擾」與本句語境不同。",
-        "concern-mcq-34": "「公司、企業、商業機構；較正式」與本句語境不同。",
-        "concern-mcq-38": "「因潛在問題／風險而受到機構關注的人；具體定義依情境」與本句語境不同。",
-        "concern-mcq-33": "「敬啟者／致有關人士」與本句語境不同。"
+        "concern-reviewed-1361a71d00": "對照完整句子：「人手問題仍是一個需要關注的領域。」。這裡的「concern」表示「關注領域」。",
+        "concern-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "concern-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "concern-mcq-36"
+      "correctOption": "concern-reviewed-1361a71d00",
+      "previousCorrectOption": "concern-mcq-36",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -2071,5 +1941,7 @@ export default {
     "sha256": "ea70cb06a6ab2aa03a86c4f4293f54a2c1f17e20413cc0cf18f1344dbd0f7360",
     "pages": 43
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

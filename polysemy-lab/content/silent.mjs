@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "silent-mcq-01",
-      "title": "表示沉默的；不說話的；例句：「她因為怕答錯，所以一直保持沉默。」",
+      "title": "沉默的；不說話的",
       "form": "Passage anchor > “I was always afraid of saying the wrong thing, so I often stayed silent even when I had an idea.",
       "en": "Passage anchor > “I was always afraid of saying the wrong thing, so I often stayed silent even when I had an idea.",
       "zh": "表示沉默的；不說話的；例句：「她因為怕答錯，所以一直保持沉默。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "silent-mcq-02",
-      "title": "表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」",
+      "title": "沉默的；不說話的",
       "form": "silent — not speaking = not saying anything 沉默的；不說話的",
       "en": "silent — not speaking = not saying anything 沉默的；不說話的",
       "zh": "表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "silent-mcq-03",
-      "title": "表示保持沉默；繼續不說話；例句：「她決定保持沉默。」",
+      "title": "保持沉默；繼續不說話",
       "form": "stay / remain silent = continue without speaking 保持沉默；繼續不說話",
       "en": "stay / remain silent = continue without speaking 保持沉默；繼續不說話",
       "zh": "表示保持沉默；繼續不說話；例句：「她決定保持沉默。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "silent-mcq-04",
-      "title": "表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」",
+      "title": "突然沉默下來；停止說話",
       "form": "fall silent = stop speaking and become silent 突然沉默下來；停止說話",
       "en": "fall silent = stop speaking and become silent 突然沉默下來；停止說話",
       "zh": "表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "silent-mcq-05",
-      "title": "表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」",
+      "title": "突然沉默；不再說話",
       "form": "go silent = suddenly stop speaking or communicating 突然沉默；不再說話",
       "en": "go silent = suddenly stop speaking or communicating 突然沉默；不再說話",
       "zh": "表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "silent-mcq-06",
-      "title": "表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」",
+      "title": "無聲的；沒有聲音的",
       "form": "silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的",
       "en": "silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的",
       "zh": "表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "silent-mcq-07",
-      "title": "表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」",
+      "title": "無聲的；悄無聲息的",
       "form": "silent movement / footsteps = producing little or no sound 無聲的；悄無聲息的",
       "en": "silent movement / footsteps = producing little or no sound 無聲的；悄無聲息的",
       "zh": "表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "silent-mcq-09",
-      "title": "表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」",
+      "title": "無言的；不透過言語表達的",
       "form": "silent — expressed without speech = communicated through actions, expressions, gestures, or looks rather than words 無言的；不透過言語表達的",
       "en": "silent — expressed without speech = communicated through actions, expressions, gestures, or looks rather than words 無言的；不透過言語表達的",
       "zh": "表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "silent-mcq-10",
-      "title": "表示默認；無言的同意；例句：「他沒有反對，被視為默認。」",
+      "title": "默認；無言的同意",
       "form": "silent agreement / approval / consent = agreement or approval shown without being stated explicitly 默認；無言的同意",
       "en": "silent agreement / approval / consent = agreement or approval shown without being stated explicitly 默認；無言的同意",
       "zh": "表示默認；無言的同意；例句：「他沒有反對，被視為默認。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "silent-mcq-12",
-      "title": "表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」",
+      "title": "保持沉默的；不作回應的",
       "form": "silent — not giving information or comment = refusing or choosing not to speak publicly about something 保持沉默的；不作回應的",
       "en": "silent — not giving information or comment = refusing or choosing not to speak publicly about something 保持沉默的；不作回應的",
       "zh": "表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "silent-mcq-13",
-      "title": "表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」",
+      "title": "對……守口如瓶；不透露……",
       "form": "keep silent about something = deliberately not tell other people about something 對……守口如瓶；不透露……",
       "en": "keep silent about something = deliberately not tell other people about something 對……守口如瓶；不透露……",
       "zh": "表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "silent-mcq-15",
-      "title": "表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」",
+      "title": "停止回應；突然不再聯絡",
       "form": "someone goes silent online = stop posting, replying, or communicating for a period 停止回應；突然不再聯絡",
       "en": "someone goes silent online = stop posting, replying, or communicating for a period 停止回應；突然不再聯絡",
       "zh": "表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "silent-mcq-16",
-      "title": "表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」",
+      "title": "不發音的字母；不發音字母",
       "form": "silent letter = a written letter that is not pronounced 不發音的字母；不發音字母",
       "en": "silent letter = a written letter that is not pronounced 不發音的字母；不發音字母",
       "zh": "表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "silent-mcq-17",
-      "title": "表示默片；無聲電影；例句：「卓別林在默片時代成名。」",
+      "title": "默片；無聲電影",
       "form": "silent film / silent movie = a film from the era before synchronized spoken dialogue became standard 默片；無聲電影",
       "en": "silent film / silent movie = a film from the era before synchronized spoken dialogue became standard 默片；無聲電影",
       "zh": "表示默片；無聲電影；例句：「卓別林在默片時代成名。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "silent-mcq-18",
-      "title": "表示靜音模式；例句：「開會時請把手機調成靜音模式。」",
+      "title": "靜音模式",
       "form": "silent mode = a device setting that prevents ordinary notification sounds 靜音模式",
       "en": "silent mode = a device setting that prevents ordinary notification sounds 靜音模式",
       "zh": "表示靜音模式；例句：「開會時請把手機調成靜音模式。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "silent-mcq-19",
-      "title": "表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」",
+      "title": "靜音通知；無聲提醒",
       "form": "silent notification / alert = notification delivered without an audible sound 靜音通知；無聲提醒",
       "en": "silent notification / alert = notification delivered without an audible sound 靜音通知；無聲提醒",
       "zh": "表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "silent-mcq-22",
-      "title": "表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」",
+      "title": "沉默的大多數",
       "form": "silent majority = a large group of people whose views are not publicly expressed 沉默的大多數",
       "en": "silent majority = a large group of people whose views are not publicly expressed 沉默的大多數",
       "zh": "表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "silent-mcq-23",
-      "title": "表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」",
+      "title": "寂靜；安靜；無聲",
       "form": "silence — noun: absence of sound = a state in which little or no sound can be heard 寂靜；安靜；無聲",
       "en": "silence — noun: absence of sound = a state in which little or no sound can be heard 寂靜；安靜；無聲",
       "zh": "表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "silent-mcq-24",
-      "title": "表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」",
+      "title": "沉默；不回應",
       "form": "silence — noun: absence of speech or response = failure or choice not to speak, answer, or communicate 沉默；不回應",
       "en": "silence — noun: absence of speech or response = failure or choice not to speak, answer, or communicate 沉默；不回應",
       "zh": "表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "silent-mcq-25",
-      "title": "表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」",
+      "title": "使安靜；使停止發聲",
       "form": "silence — verb: make someone or something stop speaking or producing sound = cause to become silent 使安靜；使停止發聲",
       "en": "silence — verb: make someone or something stop speaking or producing sound = cause to become silent 使安靜；使停止發聲",
       "zh": "表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」",
@@ -557,7 +557,7 @@ export default {
     },
     {
       "id": "silent-mcq-26",
-      "title": "表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」",
+      "title": "使噤聲；壓制發言",
       "form": "silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言",
       "en": "silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言",
       "zh": "表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」",
@@ -579,7 +579,7 @@ export default {
     },
     {
       "id": "silent-mcq-27",
-      "title": "表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」",
+      "title": "默默地；無聲地；靜靜地",
       "form": "silently = without speaking or making sound 默默地；無聲地；靜靜地",
       "en": "silently = without speaking or making sound 默默地；無聲地；靜靜地",
       "zh": "表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」",
@@ -601,7 +601,7 @@ export default {
     },
     {
       "id": "silent-mcq-28",
-      "title": "表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」",
+      "title": "冷戰；故意不理人",
       "form": "the silent treatment = deliberately refusing to speak to someone to show anger or displeasure 冷戰；故意不理人",
       "en": "the silent treatment = deliberately refusing to speak to someone to show anger or displeasure 冷戰；故意不理人",
       "zh": "表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」",
@@ -623,7 +623,7 @@ export default {
     },
     {
       "id": "silent-mcq-29",
-      "title": "表示默默承受；有苦不說；例句：「你不必一個人默默承受。」",
+      "title": "默默承受；有苦不說",
       "form": "suffer in silence = experience pain, difficulty, or unhappiness without telling others 默默承受；有苦不說",
       "en": "suffer in silence = experience pain, difficulty, or unhappiness without telling others 默默承受；有苦不說",
       "zh": "表示默默承受；有苦不說；例句：「你不必一個人默默承受。」",
@@ -645,7 +645,7 @@ export default {
     },
     {
       "id": "silent-mcq-30",
-      "title": "表示寂靜無聲；死一般安靜；例句：「那棟建築裡死一般寂靜。」",
+      "title": "寂靜無聲；死一般安靜",
       "form": "silent as the grave = completely silent 寂靜無聲；死一般安靜",
       "en": "silent as the grave = completely silent 寂靜無聲；死一般安靜",
       "zh": "表示寂靜無聲；死一般安靜；例句：「那棟建築裡死一般寂靜。」",
@@ -667,7 +667,7 @@ export default {
     },
     {
       "id": "silent-mcq-31",
-      "title": "表示默哀；默哀片刻；例句：「儀式以默哀一分鐘／片刻默哀開始。」",
+      "title": "默哀；默哀片刻",
       "form": "a moment of silence = a short period during which people remain silent, usually to show respect for someone who has died or for a tragic event 默哀；默哀片刻",
       "en": "a moment of silence = a short period during which people remain silent, usually to show respect for someone who has died or for a tragic event 默哀；默哀片刻",
       "zh": "表示默哀；默哀片刻；例句：「儀式以默哀一分鐘／片刻默哀開始。」",
@@ -697,11 +697,9 @@ export default {
       "masked": "She ____ because she was afraid of giving the wrong answer.",
       "options": [
         "silent-mcq-01",
-        "silent-mcq-02",
-        "silent-mcq-03",
-        "silent-mcq-04",
-        "silent-mcq-05",
-        "silent-mcq-06"
+        "silent-mcq-25",
+        "silent-mcq-21",
+        "silent-mcq-07"
       ],
       "explanation": "本句的「stayed silent」指「表示沉默的；不說話的；例句：「她因為怕答錯，所以一直保持沉默。」」。",
       "sentenceIndex": 0,
@@ -710,12 +708,10 @@ export default {
         "stayed silent"
       ],
       "optionReasons": {
-        "silent-mcq-01": "本句指「表示沉默的；不說話的；例句：「她因為怕答錯，所以一直保持沉默。」」。",
-        "silent-mcq-02": "「表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」」是「silent — not speaking = not saying anything 沉默的；不說話的」的用法，與本句語境不同。",
-        "silent-mcq-03": "「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」是「stay / remain silent = continue without speaking 保持沉默；繼續不說話」的用法，與本句語境不同。",
-        "silent-mcq-04": "「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」是「fall silent = stop speaking and become silent 突然沉默下來；停止說話」的用法，與本句語境不同。",
-        "silent-mcq-05": "「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」是「go silent = suddenly stop speaking or communicating 突然沉默；不再說話」的用法，與本句語境不同。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。"
+        "silent-mcq-01": "本句的「stayed silent」指「表示沉默的；不說話的；例句：「她因為怕答錯，所以一直保持沉默。」」。",
+        "silent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-01"
     },
@@ -727,11 +723,9 @@ export default {
       "masked": "He had an opinion, but he chose to ____ during the discussion.",
       "options": [
         "silent-mcq-01",
-        "silent-mcq-02",
-        "silent-mcq-03",
-        "silent-mcq-04",
-        "silent-mcq-05",
-        "silent-mcq-06"
+        "silent-mcq-07",
+        "silent-mcq-21",
+        "silent-mcq-25"
       ],
       "explanation": "本句的「remain silent」指「表示沉默的；不說話的；例句：「她因為怕答錯，所以一直保持沉默。」」。",
       "sentenceIndex": 1,
@@ -740,12 +734,10 @@ export default {
         "remain silent"
       ],
       "optionReasons": {
-        "silent-mcq-01": "本句指「表示沉默的；不說話的；例句：「她因為怕答錯，所以一直保持沉默。」」。",
-        "silent-mcq-02": "「表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」」是「silent — not speaking = not saying anything 沉默的；不說話的」的用法，與本句語境不同。",
-        "silent-mcq-03": "「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」是「stay / remain silent = continue without speaking 保持沉默；繼續不說話」的用法，與本句語境不同。",
-        "silent-mcq-04": "「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」是「fall silent = stop speaking and become silent 突然沉默下來；停止說話」的用法，與本句語境不同。",
-        "silent-mcq-05": "「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」是「go silent = suddenly stop speaking or communicating 突然沉默；不再說話」的用法，與本句語境不同。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。"
+        "silent-mcq-01": "本句的「remain silent」指「表示沉默的；不說話的；例句：「她因為怕答錯，所以一直保持沉默。」」。",
+        "silent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-01"
     },
@@ -757,11 +749,9 @@ export default {
       "masked": "Everyone became ____ when the teacher entered the room.",
       "options": [
         "silent-mcq-02",
-        "silent-mcq-01",
-        "silent-mcq-03",
-        "silent-mcq-04",
-        "silent-mcq-05",
-        "silent-mcq-06"
+        "silent-mcq-13",
+        "silent-mcq-25",
+        "silent-mcq-16"
       ],
       "explanation": "本句的「silent」指「表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」」。",
       "sentenceIndex": 2,
@@ -770,12 +760,10 @@ export default {
         "silent"
       ],
       "optionReasons": {
-        "silent-mcq-02": "本句指「表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」」。",
-        "silent-mcq-01": "「表示沉默的；不說話的；例句：「她因為怕答錯，所以一直保持沉默。」」是「Passage anchor > “I was always afraid of saying the wrong thing, so I often stayed silent even when I had an idea.」的用法，與本句語境不同。",
-        "silent-mcq-03": "「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」是「stay / remain silent = continue without speaking 保持沉默；繼續不說話」的用法，與本句語境不同。",
-        "silent-mcq-04": "「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」是「fall silent = stop speaking and become silent 突然沉默下來；停止說話」的用法，與本句語境不同。",
-        "silent-mcq-05": "「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」是「go silent = suddenly stop speaking or communicating 突然沉默；不再說話」的用法，與本句語境不同。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。"
+        "silent-mcq-02": "本句的「silent」指「表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」」。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-02"
     },
@@ -787,11 +775,9 @@ export default {
       "masked": "He sat ____ throughout the meeting.",
       "options": [
         "silent-mcq-02",
-        "silent-mcq-01",
-        "silent-mcq-03",
-        "silent-mcq-04",
-        "silent-mcq-05",
-        "silent-mcq-06"
+        "silent-mcq-13",
+        "silent-mcq-06",
+        "silent-mcq-28"
       ],
       "explanation": "本句的「silent」指「表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」」。",
       "sentenceIndex": 3,
@@ -800,12 +786,10 @@ export default {
         "silent"
       ],
       "optionReasons": {
-        "silent-mcq-02": "本句指「表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」」。",
-        "silent-mcq-01": "「表示沉默的；不說話的；例句：「她因為怕答錯，所以一直保持沉默。」」是「Passage anchor > “I was always afraid of saying the wrong thing, so I often stayed silent even when I had an idea.」的用法，與本句語境不同。",
-        "silent-mcq-03": "「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」是「stay / remain silent = continue without speaking 保持沉默；繼續不說話」的用法，與本句語境不同。",
-        "silent-mcq-04": "「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」是「fall silent = stop speaking and become silent 突然沉默下來；停止說話」的用法，與本句語境不同。",
-        "silent-mcq-05": "「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」是「go silent = suddenly stop speaking or communicating 突然沉默；不再說話」的用法，與本句語境不同。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。"
+        "silent-mcq-02": "本句的「silent」指「表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」」。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-02"
     },
@@ -817,11 +801,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "silent-mcq-03",
-        "silent-mcq-02",
-        "silent-mcq-04",
-        "silent-mcq-01",
-        "silent-mcq-05",
-        "silent-mcq-06"
+        "silent-mcq-25",
+        "silent-mcq-21",
+        "silent-mcq-07"
       ],
       "explanation": "本句的「remain silent」指「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」。",
       "sentenceIndex": 4,
@@ -830,12 +812,10 @@ export default {
         "remain silent"
       ],
       "optionReasons": {
-        "silent-mcq-03": "本句指「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」。",
-        "silent-mcq-02": "「表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」」是「silent — not speaking = not saying anything 沉默的；不說話的」的用法，與本句語境不同。",
-        "silent-mcq-04": "「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」是「fall silent = stop speaking and become silent 突然沉默下來；停止說話」的用法，與本句語境不同。",
-        "silent-mcq-01": "「表示沉默的；不說話的；例句：「她因為怕答錯，所以一直保持沉默。」」是「Passage anchor > “I was always afraid of saying the wrong thing, so I often stayed silent even when I had an idea.」的用法，與本句語境不同。",
-        "silent-mcq-05": "「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」是「go silent = suddenly stop speaking or communicating 突然沉默；不再說話」的用法，與本句語境不同。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。"
+        "silent-mcq-03": "本句的「remain silent」指「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」。",
+        "silent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-03"
     },
@@ -847,11 +827,9 @@ export default {
       "masked": "He ____ when they asked for his opinion.",
       "options": [
         "silent-mcq-03",
-        "silent-mcq-02",
-        "silent-mcq-04",
-        "silent-mcq-01",
-        "silent-mcq-05",
-        "silent-mcq-06"
+        "silent-mcq-28",
+        "silent-mcq-16",
+        "silent-mcq-23"
       ],
       "explanation": "本句的「stayed silent」指「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」。",
       "sentenceIndex": 5,
@@ -860,12 +838,10 @@ export default {
         "stayed silent"
       ],
       "optionReasons": {
-        "silent-mcq-03": "本句指「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」。",
-        "silent-mcq-02": "「表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」」是「silent — not speaking = not saying anything 沉默的；不說話的」的用法，與本句語境不同。",
-        "silent-mcq-04": "「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」是「fall silent = stop speaking and become silent 突然沉默下來；停止說話」的用法，與本句語境不同。",
-        "silent-mcq-01": "「表示沉默的；不說話的；例句：「她因為怕答錯，所以一直保持沉默。」」是「Passage anchor > “I was always afraid of saying the wrong thing, so I often stayed silent even when I had an idea.」的用法，與本句語境不同。",
-        "silent-mcq-05": "「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」是「go silent = suddenly stop speaking or communicating 突然沉默；不再說話」的用法，與本句語境不同。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。"
+        "silent-mcq-03": "本句的「stayed silent」指「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-03"
     },
@@ -877,11 +853,9 @@ export default {
       "masked": "The room ____ when the announcement began.",
       "options": [
         "silent-mcq-04",
-        "silent-mcq-03",
-        "silent-mcq-05",
-        "silent-mcq-02",
-        "silent-mcq-06",
-        "silent-mcq-01"
+        "silent-mcq-30",
+        "silent-mcq-21",
+        "silent-mcq-16"
       ],
       "explanation": "本句的「fell silent」指「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」。",
       "sentenceIndex": 6,
@@ -890,12 +864,10 @@ export default {
         "fell silent"
       ],
       "optionReasons": {
-        "silent-mcq-04": "本句指「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」。",
-        "silent-mcq-03": "「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」是「stay / remain silent = continue without speaking 保持沉默；繼續不說話」的用法，與本句語境不同。",
-        "silent-mcq-05": "「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」是「go silent = suddenly stop speaking or communicating 突然沉默；不再說話」的用法，與本句語境不同。",
-        "silent-mcq-02": "「表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」」是「silent — not speaking = not saying anything 沉默的；不說話的」的用法，與本句語境不同。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。",
-        "silent-mcq-01": "「表示沉默的；不說話的；例句：「她因為怕答錯，所以一直保持沉默。」」是「Passage anchor > “I was always afraid of saying the wrong thing, so I often stayed silent even when I had an idea.」的用法，與本句語境不同。"
+        "silent-mcq-04": "本句的「fell silent」指「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」。",
+        "silent-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-04"
     },
@@ -907,11 +879,9 @@ export default {
       "masked": "She ____ when his name was mentioned.",
       "options": [
         "silent-mcq-04",
-        "silent-mcq-03",
-        "silent-mcq-05",
-        "silent-mcq-02",
-        "silent-mcq-06",
-        "silent-mcq-01"
+        "silent-mcq-30",
+        "silent-mcq-28",
+        "silent-mcq-13"
       ],
       "explanation": "本句的「fell silent」指「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」。",
       "sentenceIndex": 7,
@@ -920,12 +890,10 @@ export default {
         "fell silent"
       ],
       "optionReasons": {
-        "silent-mcq-04": "本句指「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」。",
-        "silent-mcq-03": "「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」是「stay / remain silent = continue without speaking 保持沉默；繼續不說話」的用法，與本句語境不同。",
-        "silent-mcq-05": "「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」是「go silent = suddenly stop speaking or communicating 突然沉默；不再說話」的用法，與本句語境不同。",
-        "silent-mcq-02": "「表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」」是「silent — not speaking = not saying anything 沉默的；不說話的」的用法，與本句語境不同。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。",
-        "silent-mcq-01": "「表示沉默的；不說話的；例句：「她因為怕答錯，所以一直保持沉默。」」是「Passage anchor > “I was always afraid of saying the wrong thing, so I often stayed silent even when I had an idea.」的用法，與本句語境不同。"
+        "silent-mcq-04": "本句的「fell silent」指「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」。",
+        "silent-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-04"
     },
@@ -937,11 +905,9 @@ export default {
       "masked": "He suddenly ____ during the conversation.",
       "options": [
         "silent-mcq-05",
-        "silent-mcq-04",
+        "silent-mcq-21",
         "silent-mcq-06",
-        "silent-mcq-03",
-        "silent-mcq-07",
-        "silent-mcq-02"
+        "silent-mcq-13"
       ],
       "explanation": "本句的「went silent」指「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」。",
       "sentenceIndex": 8,
@@ -950,12 +916,10 @@ export default {
         "went silent"
       ],
       "optionReasons": {
-        "silent-mcq-05": "本句指「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」。",
-        "silent-mcq-04": "「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」是「fall silent = stop speaking and become silent 突然沉默下來；停止說話」的用法，與本句語境不同。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。",
-        "silent-mcq-03": "「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」是「stay / remain silent = continue without speaking 保持沉默；繼續不說話」的用法，與本句語境不同。",
-        "silent-mcq-07": "「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」是「silent movement / footsteps = producing little or no sound 無聲的；悄無聲息的」的用法，與本句語境不同。",
-        "silent-mcq-02": "「表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」」是「silent — not speaking = not saying anything 沉默的；不說話的」的用法，與本句語境不同。"
+        "silent-mcq-05": "本句的「went silent」指「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-05"
     },
@@ -967,11 +931,9 @@ export default {
       "masked": "She ____ after hearing the news.",
       "options": [
         "silent-mcq-05",
-        "silent-mcq-04",
-        "silent-mcq-06",
-        "silent-mcq-03",
-        "silent-mcq-07",
-        "silent-mcq-02"
+        "silent-mcq-23",
+        "silent-mcq-13",
+        "silent-mcq-16"
       ],
       "explanation": "本句的「went silent」指「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」。",
       "sentenceIndex": 9,
@@ -980,12 +942,10 @@ export default {
         "went silent"
       ],
       "optionReasons": {
-        "silent-mcq-05": "本句指「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」。",
-        "silent-mcq-04": "「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」是「fall silent = stop speaking and become silent 突然沉默下來；停止說話」的用法，與本句語境不同。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。",
-        "silent-mcq-03": "「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」是「stay / remain silent = continue without speaking 保持沉默；繼續不說話」的用法，與本句語境不同。",
-        "silent-mcq-07": "「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」是「silent movement / footsteps = producing little or no sound 無聲的；悄無聲息的」的用法，與本句語境不同。",
-        "silent-mcq-02": "「表示沉默的；不說話的；例句：「老師走進教室時，大家都安靜下來，不再說話。」」是「silent — not speaking = not saying anything 沉默的；不說話的」的用法，與本句語境不同。"
+        "silent-mcq-05": "本句的「went silent」指「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」。",
+        "silent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-05"
     },
@@ -997,11 +957,9 @@ export default {
       "masked": "The room was completely ____.",
       "options": [
         "silent-mcq-06",
-        "silent-mcq-05",
-        "silent-mcq-07",
-        "silent-mcq-04",
-        "silent-mcq-08",
-        "silent-mcq-03"
+        "silent-mcq-15",
+        "silent-mcq-31",
+        "silent-mcq-21"
       ],
       "explanation": "本句的「silent」指「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」。",
       "sentenceIndex": 10,
@@ -1010,12 +968,10 @@ export default {
         "silent"
       ],
       "optionReasons": {
-        "silent-mcq-06": "本句指「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」。",
-        "silent-mcq-05": "「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」是「go silent = suddenly stop speaking or communicating 突然沉默；不再說話」的用法，與本句語境不同。",
-        "silent-mcq-07": "「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」是「silent movement / footsteps = producing little or no sound 無聲的；悄無聲息的」的用法，與本句語境不同。",
-        "silent-mcq-04": "「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」是「fall silent = stop speaking and become silent 突然沉默下來；停止說話」的用法，與本句語境不同。",
-        "silent-mcq-08": "「靜音的；低噪音的；無聲運作的」是「silent machine / device / operation = operating with little or no audible noise 靜音的；低噪音的；無聲運作的」的用法，與本句語境不同。",
-        "silent-mcq-03": "「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」是「stay / remain silent = continue without speaking 保持沉默；繼續不說話」的用法，與本句語境不同。"
+        "silent-mcq-06": "本句的「silent」指「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」。",
+        "silent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-06"
     },
@@ -1027,11 +983,9 @@ export default {
       "masked": "The streets were strangely ____ at night.",
       "options": [
         "silent-mcq-06",
+        "silent-mcq-31",
         "silent-mcq-05",
-        "silent-mcq-07",
-        "silent-mcq-04",
-        "silent-mcq-08",
-        "silent-mcq-03"
+        "silent-mcq-28"
       ],
       "explanation": "本句的「silent」指「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」。",
       "sentenceIndex": 11,
@@ -1040,12 +994,10 @@ export default {
         "silent"
       ],
       "optionReasons": {
-        "silent-mcq-06": "本句指「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」。",
-        "silent-mcq-05": "「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」是「go silent = suddenly stop speaking or communicating 突然沉默；不再說話」的用法，與本句語境不同。",
-        "silent-mcq-07": "「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」是「silent movement / footsteps = producing little or no sound 無聲的；悄無聲息的」的用法，與本句語境不同。",
-        "silent-mcq-04": "「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」是「fall silent = stop speaking and become silent 突然沉默下來；停止說話」的用法，與本句語境不同。",
-        "silent-mcq-08": "「靜音的；低噪音的；無聲運作的」是「silent machine / device / operation = operating with little or no audible noise 靜音的；低噪音的；無聲運作的」的用法，與本句語境不同。",
-        "silent-mcq-03": "「表示保持沉默；繼續不說話；例句：「她決定保持沉默。」」是「stay / remain silent = continue without speaking 保持沉默；繼續不說話」的用法，與本句語境不同。"
+        "silent-mcq-06": "本句的「silent」指「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」。",
+        "silent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-06"
     },
@@ -1057,11 +1009,9 @@ export default {
       "masked": "The cat moved with ____.",
       "options": [
         "silent-mcq-07",
-        "silent-mcq-06",
-        "silent-mcq-08",
+        "silent-mcq-16",
         "silent-mcq-05",
-        "silent-mcq-09",
-        "silent-mcq-04"
+        "silent-mcq-14"
       ],
       "explanation": "本句的「silent steps」指「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」。",
       "sentenceIndex": 12,
@@ -1070,12 +1020,10 @@ export default {
         "silent steps"
       ],
       "optionReasons": {
-        "silent-mcq-07": "本句指「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。",
-        "silent-mcq-08": "「靜音的；低噪音的；無聲運作的」是「silent machine / device / operation = operating with little or no audible noise 靜音的；低噪音的；無聲運作的」的用法，與本句語境不同。",
-        "silent-mcq-05": "「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」是「go silent = suddenly stop speaking or communicating 突然沉默；不再說話」的用法，與本句語境不同。",
-        "silent-mcq-09": "「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」是「silent — expressed without speech = communicated through actions, expressions, gestures, or looks rather than words 無言的；不透過言語表達的」的用法，與本句語境不同。",
-        "silent-mcq-04": "「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」是「fall silent = stop speaking and become silent 突然沉默下來；停止說話」的用法，與本句語境不同。"
+        "silent-mcq-07": "本句的「silent steps」指「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」。",
+        "silent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-07"
     },
@@ -1087,11 +1035,9 @@ export default {
       "masked": "She made a ____ into the room.",
       "options": [
         "silent-mcq-07",
-        "silent-mcq-06",
-        "silent-mcq-08",
-        "silent-mcq-05",
-        "silent-mcq-09",
-        "silent-mcq-04"
+        "silent-mcq-31",
+        "silent-mcq-01",
+        "silent-mcq-14"
       ],
       "explanation": "本句的「silent entrance」指「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」。",
       "sentenceIndex": 13,
@@ -1100,12 +1046,10 @@ export default {
         "silent entrance"
       ],
       "optionReasons": {
-        "silent-mcq-07": "本句指「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。",
-        "silent-mcq-08": "「靜音的；低噪音的；無聲運作的」是「silent machine / device / operation = operating with little or no audible noise 靜音的；低噪音的；無聲運作的」的用法，與本句語境不同。",
-        "silent-mcq-05": "「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」是「go silent = suddenly stop speaking or communicating 突然沉默；不再說話」的用法，與本句語境不同。",
-        "silent-mcq-09": "「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」是「silent — expressed without speech = communicated through actions, expressions, gestures, or looks rather than words 無言的；不透過言語表達的」的用法，與本句語境不同。",
-        "silent-mcq-04": "「表示突然沉默下來；停止說話；例句：「公告開始時，整個房間突然安靜下來。」」是「fall silent = stop speaking and become silent 突然沉默下來；停止說話」的用法，與本句語境不同。"
+        "silent-mcq-07": "本句的「silent entrance」指「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」。",
+        "silent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-07"
     },
@@ -1117,11 +1061,9 @@ export default {
       "masked": "The new fan is almost completely ____.",
       "options": [
         "silent-mcq-08",
-        "silent-mcq-07",
-        "silent-mcq-09",
-        "silent-mcq-06",
-        "silent-mcq-10",
-        "silent-mcq-05"
+        "silent-mcq-21",
+        "silent-mcq-12",
+        "silent-mcq-28"
       ],
       "explanation": "本句的「silent」指「靜音的；低噪音的；無聲運作的」。",
       "sentenceIndex": 14,
@@ -1130,12 +1072,10 @@ export default {
         "silent"
       ],
       "optionReasons": {
-        "silent-mcq-08": "本句指「靜音的；低噪音的；無聲運作的」。",
-        "silent-mcq-07": "「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」是「silent movement / footsteps = producing little or no sound 無聲的；悄無聲息的」的用法，與本句語境不同。",
-        "silent-mcq-09": "「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」是「silent — expressed without speech = communicated through actions, expressions, gestures, or looks rather than words 無言的；不透過言語表達的」的用法，與本句語境不同。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。",
-        "silent-mcq-10": "「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」是「silent agreement / approval / consent = agreement or approval shown without being stated explicitly 默認；無言的同意」的用法，與本句語境不同。",
-        "silent-mcq-05": "「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」是「go silent = suddenly stop speaking or communicating 突然沉默；不再說話」的用法，與本句語境不同。"
+        "silent-mcq-08": "本句的「silent」指「靜音的；低噪音的；無聲運作的」。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-08"
     },
@@ -1147,11 +1087,9 @@ export default {
       "masked": "The motor runs ____ at low speed.",
       "options": [
         "silent-mcq-08",
-        "silent-mcq-07",
-        "silent-mcq-09",
-        "silent-mcq-06",
-        "silent-mcq-10",
-        "silent-mcq-05"
+        "silent-mcq-13",
+        "silent-mcq-01",
+        "silent-mcq-28"
       ],
       "explanation": "本句的「silent」指「靜音的；低噪音的；無聲運作的」。",
       "sentenceIndex": 15,
@@ -1160,12 +1098,10 @@ export default {
         "silent"
       ],
       "optionReasons": {
-        "silent-mcq-08": "本句指「靜音的；低噪音的；無聲運作的」。",
-        "silent-mcq-07": "「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」是「silent movement / footsteps = producing little or no sound 無聲的；悄無聲息的」的用法，與本句語境不同。",
-        "silent-mcq-09": "「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」是「silent — expressed without speech = communicated through actions, expressions, gestures, or looks rather than words 無言的；不透過言語表達的」的用法，與本句語境不同。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。",
-        "silent-mcq-10": "「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」是「silent agreement / approval / consent = agreement or approval shown without being stated explicitly 默認；無言的同意」的用法，與本句語境不同。",
-        "silent-mcq-05": "「表示突然沉默；不再說話；例句：「他在談話途中突然沉默了。」」是「go silent = suddenly stop speaking or communicating 突然沉默；不再說話」的用法，與本句語境不同。"
+        "silent-mcq-08": "本句的「silent」指「靜音的；低噪音的；無聲運作的」。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-08"
     },
@@ -1177,11 +1113,9 @@ export default {
       "masked": "They exchanged a ____.",
       "options": [
         "silent-mcq-09",
-        "silent-mcq-08",
-        "silent-mcq-10",
-        "silent-mcq-07",
-        "silent-mcq-11",
-        "silent-mcq-06"
+        "silent-mcq-24",
+        "silent-mcq-16",
+        "silent-mcq-25"
       ],
       "explanation": "本句的「silent glance」指「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」。",
       "sentenceIndex": 16,
@@ -1190,12 +1124,10 @@ export default {
         "silent glance"
       ],
       "optionReasons": {
-        "silent-mcq-09": "本句指「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」。",
-        "silent-mcq-08": "「靜音的；低噪音的；無聲運作的」是「silent machine / device / operation = operating with little or no audible noise 靜音的；低噪音的；無聲運作的」的用法，與本句語境不同。",
-        "silent-mcq-10": "「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」是「silent agreement / approval / consent = agreement or approval shown without being stated explicitly 默認；無言的同意」的用法，與本句語境不同。",
-        "silent-mcq-07": "「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」是「silent movement / footsteps = producing little or no sound 無聲的；悄無聲息的」的用法，與本句語境不同。",
-        "silent-mcq-11": "「無言的默契；心照不宣的理解」是「silent understanding = understanding shared without needing to be spoken 無言的默契；心照不宣的理解」的用法，與本句語境不同。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。"
+        "silent-mcq-09": "本句的「silent glance」指「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」。",
+        "silent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-09"
     },
@@ -1207,11 +1139,9 @@ export default {
       "masked": "She gave him a ____ with her eyes.",
       "options": [
         "silent-mcq-09",
-        "silent-mcq-08",
-        "silent-mcq-10",
-        "silent-mcq-07",
-        "silent-mcq-11",
-        "silent-mcq-06"
+        "silent-mcq-21",
+        "silent-mcq-31",
+        "silent-mcq-15"
       ],
       "explanation": "本句的「silent warning」指「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」。",
       "sentenceIndex": 17,
@@ -1220,12 +1150,10 @@ export default {
         "silent warning"
       ],
       "optionReasons": {
-        "silent-mcq-09": "本句指「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」。",
-        "silent-mcq-08": "「靜音的；低噪音的；無聲運作的」是「silent machine / device / operation = operating with little or no audible noise 靜音的；低噪音的；無聲運作的」的用法，與本句語境不同。",
-        "silent-mcq-10": "「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」是「silent agreement / approval / consent = agreement or approval shown without being stated explicitly 默認；無言的同意」的用法，與本句語境不同。",
-        "silent-mcq-07": "「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」是「silent movement / footsteps = producing little or no sound 無聲的；悄無聲息的」的用法，與本句語境不同。",
-        "silent-mcq-11": "「無言的默契；心照不宣的理解」是「silent understanding = understanding shared without needing to be spoken 無言的默契；心照不宣的理解」的用法，與本句語境不同。",
-        "silent-mcq-06": "「表示無聲的；沒有聲音的；例句：「房間裡完全沒有聲音。」」是「silent — making no sound = completely or nearly without sound 無聲的；沒有聲音的」的用法，與本句語境不同。"
+        "silent-mcq-09": "本句的「silent warning」指「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-09"
     },
@@ -1237,11 +1165,9 @@ export default {
       "masked": "His lack of objection was taken as ____.",
       "options": [
         "silent-mcq-10",
-        "silent-mcq-09",
-        "silent-mcq-11",
-        "silent-mcq-08",
-        "silent-mcq-12",
-        "silent-mcq-07"
+        "silent-mcq-15",
+        "silent-mcq-21",
+        "silent-mcq-13"
       ],
       "explanation": "本句的「silent agreement」指「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」。",
       "sentenceIndex": 18,
@@ -1250,12 +1176,10 @@ export default {
         "silent agreement"
       ],
       "optionReasons": {
-        "silent-mcq-10": "本句指「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」。",
-        "silent-mcq-09": "「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」是「silent — expressed without speech = communicated through actions, expressions, gestures, or looks rather than words 無言的；不透過言語表達的」的用法，與本句語境不同。",
-        "silent-mcq-11": "「無言的默契；心照不宣的理解」是「silent understanding = understanding shared without needing to be spoken 無言的默契；心照不宣的理解」的用法，與本句語境不同。",
-        "silent-mcq-08": "「靜音的；低噪音的；無聲運作的」是「silent machine / device / operation = operating with little or no audible noise 靜音的；低噪音的；無聲運作的」的用法，與本句語境不同。",
-        "silent-mcq-12": "「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」是「silent — not giving information or comment = refusing or choosing not to speak publicly about something 保持沉默的；不作回應的」的用法，與本句語境不同。",
-        "silent-mcq-07": "「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」是「silent movement / footsteps = producing little or no sound 無聲的；悄無聲息的」的用法，與本句語境不同。"
+        "silent-mcq-10": "本句的「silent agreement」指「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」。",
+        "silent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-10"
     },
@@ -1267,11 +1191,9 @@ export default {
       "masked": "Everyone seemed to give their ____.",
       "options": [
         "silent-mcq-10",
-        "silent-mcq-09",
-        "silent-mcq-11",
-        "silent-mcq-08",
-        "silent-mcq-12",
-        "silent-mcq-07"
+        "silent-mcq-14",
+        "silent-mcq-21",
+        "silent-mcq-16"
       ],
       "explanation": "本句的「silent approval」指「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」。",
       "sentenceIndex": 19,
@@ -1280,12 +1202,10 @@ export default {
         "silent approval"
       ],
       "optionReasons": {
-        "silent-mcq-10": "本句指「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」。",
-        "silent-mcq-09": "「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」是「silent — expressed without speech = communicated through actions, expressions, gestures, or looks rather than words 無言的；不透過言語表達的」的用法，與本句語境不同。",
-        "silent-mcq-11": "「無言的默契；心照不宣的理解」是「silent understanding = understanding shared without needing to be spoken 無言的默契；心照不宣的理解」的用法，與本句語境不同。",
-        "silent-mcq-08": "「靜音的；低噪音的；無聲運作的」是「silent machine / device / operation = operating with little or no audible noise 靜音的；低噪音的；無聲運作的」的用法，與本句語境不同。",
-        "silent-mcq-12": "「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」是「silent — not giving information or comment = refusing or choosing not to speak publicly about something 保持沉默的；不作回應的」的用法，與本句語境不同。",
-        "silent-mcq-07": "「表示無聲的；悄無聲息的；例句：「那隻貓悄無聲息地移動。」」是「silent movement / footsteps = producing little or no sound 無聲的；悄無聲息的」的用法，與本句語境不同。"
+        "silent-mcq-10": "本句的「silent approval」指「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」。",
+        "silent-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-10"
     },
@@ -1297,11 +1217,9 @@ export default {
       "masked": "There was a ____ between them.",
       "options": [
         "silent-mcq-11",
-        "silent-mcq-10",
-        "silent-mcq-12",
-        "silent-mcq-09",
         "silent-mcq-13",
-        "silent-mcq-08"
+        "silent-mcq-18",
+        "silent-mcq-15"
       ],
       "explanation": "本句的「silent understanding」指「無言的默契；心照不宣的理解」。",
       "sentenceIndex": 20,
@@ -1310,12 +1228,10 @@ export default {
         "silent understanding"
       ],
       "optionReasons": {
-        "silent-mcq-11": "本句指「無言的默契；心照不宣的理解」。",
-        "silent-mcq-10": "「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」是「silent agreement / approval / consent = agreement or approval shown without being stated explicitly 默認；無言的同意」的用法，與本句語境不同。",
-        "silent-mcq-12": "「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」是「silent — not giving information or comment = refusing or choosing not to speak publicly about something 保持沉默的；不作回應的」的用法，與本句語境不同。",
-        "silent-mcq-09": "「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」是「silent — expressed without speech = communicated through actions, expressions, gestures, or looks rather than words 無言的；不透過言語表達的」的用法，與本句語境不同。",
-        "silent-mcq-13": "「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」是「keep silent about something = deliberately not tell other people about something 對……守口如瓶；不透露……」的用法，與本句語境不同。",
-        "silent-mcq-08": "「靜音的；低噪音的；無聲運作的」是「silent machine / device / operation = operating with little or no audible noise 靜音的；低噪音的；無聲運作的」的用法，與本句語境不同。"
+        "silent-mcq-11": "本句的「silent understanding」指「無言的默契；心照不宣的理解」。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-11"
     },
@@ -1327,11 +1243,9 @@ export default {
       "masked": "The two friends reached a ____ and changed the subject.",
       "options": [
         "silent-mcq-11",
-        "silent-mcq-10",
-        "silent-mcq-12",
-        "silent-mcq-09",
         "silent-mcq-13",
-        "silent-mcq-08"
+        "silent-mcq-14",
+        "silent-mcq-21"
       ],
       "explanation": "本句的「silent understanding」指「無言的默契；心照不宣的理解」。",
       "sentenceIndex": 21,
@@ -1340,12 +1254,10 @@ export default {
         "silent understanding"
       ],
       "optionReasons": {
-        "silent-mcq-11": "本句指「無言的默契；心照不宣的理解」。",
-        "silent-mcq-10": "「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」是「silent agreement / approval / consent = agreement or approval shown without being stated explicitly 默認；無言的同意」的用法，與本句語境不同。",
-        "silent-mcq-12": "「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」是「silent — not giving information or comment = refusing or choosing not to speak publicly about something 保持沉默的；不作回應的」的用法，與本句語境不同。",
-        "silent-mcq-09": "「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」是「silent — expressed without speech = communicated through actions, expressions, gestures, or looks rather than words 無言的；不透過言語表達的」的用法，與本句語境不同。",
-        "silent-mcq-13": "「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」是「keep silent about something = deliberately not tell other people about something 對……守口如瓶；不透露……」的用法，與本句語境不同。",
-        "silent-mcq-08": "「靜音的；低噪音的；無聲運作的」是「silent machine / device / operation = operating with little or no audible noise 靜音的；低噪音的；無聲運作的」的用法，與本句語境不同。"
+        "silent-mcq-11": "本句的「silent understanding」指「無言的默契；心照不宣的理解」。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-11"
     },
@@ -1357,11 +1269,9 @@ export default {
       "masked": "The company has remained ____.",
       "options": [
         "silent-mcq-12",
-        "silent-mcq-11",
-        "silent-mcq-13",
-        "silent-mcq-10",
-        "silent-mcq-14",
-        "silent-mcq-09"
+        "silent-mcq-30",
+        "silent-mcq-09",
+        "silent-mcq-21"
       ],
       "explanation": "本句的「silent on the issue」指「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」。",
       "sentenceIndex": 22,
@@ -1370,12 +1280,10 @@ export default {
         "silent on the issue"
       ],
       "optionReasons": {
-        "silent-mcq-12": "本句指「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」。",
-        "silent-mcq-11": "「無言的默契；心照不宣的理解」是「silent understanding = understanding shared without needing to be spoken 無言的默契；心照不宣的理解」的用法，與本句語境不同。",
-        "silent-mcq-13": "「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」是「keep silent about something = deliberately not tell other people about something 對……守口如瓶；不透露……」的用法，與本句語境不同。",
-        "silent-mcq-10": "「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」是「silent agreement / approval / consent = agreement or approval shown without being stated explicitly 默認；無言的同意」的用法，與本句語境不同。",
-        "silent-mcq-14": "「失去聯絡；沒有回應；停止傳訊」是「phone / radio / communication goes silent = stop producing messages, signals, or communication 失去聯絡；沒有回應；停止傳訊」的用法，與本句語境不同。",
-        "silent-mcq-09": "「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」是「silent — expressed without speech = communicated through actions, expressions, gestures, or looks rather than words 無言的；不透過言語表達的」的用法，與本句語境不同。"
+        "silent-mcq-12": "本句的「silent on the issue」指「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」。",
+        "silent-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-12"
     },
@@ -1387,10 +1295,8 @@ export default {
       "masked": "Officials were ____ for the change.",
       "options": [
         "silent-mcq-12",
-        "silent-mcq-11",
-        "silent-mcq-13",
-        "silent-mcq-10",
-        "silent-mcq-14",
+        "silent-mcq-23",
+        "silent-mcq-21",
         "silent-mcq-09"
       ],
       "explanation": "本句的「silent about the reason」指「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」。",
@@ -1400,12 +1306,10 @@ export default {
         "silent about the reason"
       ],
       "optionReasons": {
-        "silent-mcq-12": "本句指「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」。",
-        "silent-mcq-11": "「無言的默契；心照不宣的理解」是「silent understanding = understanding shared without needing to be spoken 無言的默契；心照不宣的理解」的用法，與本句語境不同。",
-        "silent-mcq-13": "「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」是「keep silent about something = deliberately not tell other people about something 對……守口如瓶；不透露……」的用法，與本句語境不同。",
-        "silent-mcq-10": "「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」是「silent agreement / approval / consent = agreement or approval shown without being stated explicitly 默認；無言的同意」的用法，與本句語境不同。",
-        "silent-mcq-14": "「失去聯絡；沒有回應；停止傳訊」是「phone / radio / communication goes silent = stop producing messages, signals, or communication 失去聯絡；沒有回應；停止傳訊」的用法，與本句語境不同。",
-        "silent-mcq-09": "「表示無言的；不透過言語表達的；例句：「他們彼此交換了一個無言的眼神。」」是「silent — expressed without speech = communicated through actions, expressions, gestures, or looks rather than words 無言的；不透過言語表達的」的用法，與本句語境不同。"
+        "silent-mcq-12": "本句的「silent about the reason」指「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」。",
+        "silent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-12"
     },
@@ -1417,11 +1321,9 @@ export default {
       "masked": "He promised to ____.",
       "options": [
         "silent-mcq-13",
-        "silent-mcq-12",
-        "silent-mcq-14",
+        "silent-mcq-19",
         "silent-mcq-11",
-        "silent-mcq-15",
-        "silent-mcq-10"
+        "silent-mcq-20"
       ],
       "explanation": "本句的「keep silent about the plan」指「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」。",
       "sentenceIndex": 24,
@@ -1430,12 +1332,10 @@ export default {
         "keep silent about the plan"
       ],
       "optionReasons": {
-        "silent-mcq-13": "本句指「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」。",
-        "silent-mcq-12": "「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」是「silent — not giving information or comment = refusing or choosing not to speak publicly about something 保持沉默的；不作回應的」的用法，與本句語境不同。",
-        "silent-mcq-14": "「失去聯絡；沒有回應；停止傳訊」是「phone / radio / communication goes silent = stop producing messages, signals, or communication 失去聯絡；沒有回應；停止傳訊」的用法，與本句語境不同。",
-        "silent-mcq-11": "「無言的默契；心照不宣的理解」是「silent understanding = understanding shared without needing to be spoken 無言的默契；心照不宣的理解」的用法，與本句語境不同。",
-        "silent-mcq-15": "「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」是「someone goes silent online = stop posting, replying, or communicating for a period 停止回應；突然不再聯絡」的用法，與本句語境不同。",
-        "silent-mcq-10": "「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」是「silent agreement / approval / consent = agreement or approval shown without being stated explicitly 默認；無言的同意」的用法，與本句語境不同。"
+        "silent-mcq-13": "本句的「keep silent about the plan」指「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」。",
+        "silent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-13"
     },
@@ -1447,11 +1347,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "silent-mcq-13",
-        "silent-mcq-12",
-        "silent-mcq-14",
-        "silent-mcq-11",
-        "silent-mcq-15",
-        "silent-mcq-10"
+        "silent-mcq-16",
+        "silent-mcq-29",
+        "silent-mcq-15"
       ],
       "explanation": "本句的「kept silent about what she had seen」指「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」。",
       "sentenceIndex": 25,
@@ -1460,12 +1358,10 @@ export default {
         "kept silent about what she had seen"
       ],
       "optionReasons": {
-        "silent-mcq-13": "本句指「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」。",
-        "silent-mcq-12": "「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」是「silent — not giving information or comment = refusing or choosing not to speak publicly about something 保持沉默的；不作回應的」的用法，與本句語境不同。",
-        "silent-mcq-14": "「失去聯絡；沒有回應；停止傳訊」是「phone / radio / communication goes silent = stop producing messages, signals, or communication 失去聯絡；沒有回應；停止傳訊」的用法，與本句語境不同。",
-        "silent-mcq-11": "「無言的默契；心照不宣的理解」是「silent understanding = understanding shared without needing to be spoken 無言的默契；心照不宣的理解」的用法，與本句語境不同。",
-        "silent-mcq-15": "「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」是「someone goes silent online = stop posting, replying, or communicating for a period 停止回應；突然不再聯絡」的用法，與本句語境不同。",
-        "silent-mcq-10": "「表示默認；無言的同意；例句：「他沒有反對，被視為默認。」」是「silent agreement / approval / consent = agreement or approval shown without being stated explicitly 默認；無言的同意」的用法，與本句語境不同。"
+        "silent-mcq-13": "本句的「kept silent about what she had seen」指「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」。",
+        "silent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-13"
     },
@@ -1477,11 +1373,9 @@ export default {
       "masked": "His phone suddenly ____.",
       "options": [
         "silent-mcq-14",
-        "silent-mcq-13",
-        "silent-mcq-15",
-        "silent-mcq-12",
-        "silent-mcq-16",
-        "silent-mcq-11"
+        "silent-mcq-27",
+        "silent-mcq-09",
+        "silent-mcq-21"
       ],
       "explanation": "本句的「went silent」指「失去聯絡；沒有回應；停止傳訊」。",
       "sentenceIndex": 26,
@@ -1490,12 +1384,10 @@ export default {
         "went silent"
       ],
       "optionReasons": {
-        "silent-mcq-14": "本句指「失去聯絡；沒有回應；停止傳訊」。",
-        "silent-mcq-13": "「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」是「keep silent about something = deliberately not tell other people about something 對……守口如瓶；不透露……」的用法，與本句語境不同。",
-        "silent-mcq-15": "「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」是「someone goes silent online = stop posting, replying, or communicating for a period 停止回應；突然不再聯絡」的用法，與本句語境不同。",
-        "silent-mcq-12": "「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」是「silent — not giving information or comment = refusing or choosing not to speak publicly about something 保持沉默的；不作回應的」的用法，與本句語境不同。",
-        "silent-mcq-16": "「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」是「silent letter = a written letter that is not pronounced 不發音的字母；不發音字母」的用法，與本句語境不同。",
-        "silent-mcq-11": "「無言的默契；心照不宣的理解」是「silent understanding = understanding shared without needing to be spoken 無言的默契；心照不宣的理解」的用法，與本句語境不同。"
+        "silent-mcq-14": "本句的「went silent」指「失去聯絡；沒有回應；停止傳訊」。",
+        "silent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-14"
     },
@@ -1507,11 +1399,9 @@ export default {
       "masked": "The radio station ____ shortly after midnight.",
       "options": [
         "silent-mcq-14",
-        "silent-mcq-13",
-        "silent-mcq-15",
-        "silent-mcq-12",
-        "silent-mcq-16",
-        "silent-mcq-11"
+        "silent-mcq-28",
+        "silent-mcq-23",
+        "silent-mcq-02"
       ],
       "explanation": "本句的「fell silent」指「失去聯絡；沒有回應；停止傳訊」。",
       "sentenceIndex": 27,
@@ -1520,12 +1410,10 @@ export default {
         "fell silent"
       ],
       "optionReasons": {
-        "silent-mcq-14": "本句指「失去聯絡；沒有回應；停止傳訊」。",
-        "silent-mcq-13": "「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」是「keep silent about something = deliberately not tell other people about something 對……守口如瓶；不透露……」的用法，與本句語境不同。",
-        "silent-mcq-15": "「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」是「someone goes silent online = stop posting, replying, or communicating for a period 停止回應；突然不再聯絡」的用法，與本句語境不同。",
-        "silent-mcq-12": "「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」是「silent — not giving information or comment = refusing or choosing not to speak publicly about something 保持沉默的；不作回應的」的用法，與本句語境不同。",
-        "silent-mcq-16": "「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」是「silent letter = a written letter that is not pronounced 不發音的字母；不發音字母」的用法，與本句語境不同。",
-        "silent-mcq-11": "「無言的默契；心照不宣的理解」是「silent understanding = understanding shared without needing to be spoken 無言的默契；心照不宣的理解」的用法，與本句語境不同。"
+        "silent-mcq-14": "本句的「fell silent」指「失去聯絡；沒有回應；停止傳訊」。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-14"
     },
@@ -1537,11 +1425,9 @@ export default {
       "masked": "She ____ on social media for several weeks.",
       "options": [
         "silent-mcq-15",
-        "silent-mcq-14",
-        "silent-mcq-16",
-        "silent-mcq-13",
-        "silent-mcq-17",
-        "silent-mcq-12"
+        "silent-mcq-29",
+        "silent-mcq-09",
+        "silent-mcq-20"
       ],
       "explanation": "本句的「went silent」指「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」。",
       "sentenceIndex": 28,
@@ -1550,12 +1436,10 @@ export default {
         "went silent"
       ],
       "optionReasons": {
-        "silent-mcq-15": "本句指「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」。",
-        "silent-mcq-14": "「失去聯絡；沒有回應；停止傳訊」是「phone / radio / communication goes silent = stop producing messages, signals, or communication 失去聯絡；沒有回應；停止傳訊」的用法，與本句語境不同。",
-        "silent-mcq-16": "「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」是「silent letter = a written letter that is not pronounced 不發音的字母；不發音字母」的用法，與本句語境不同。",
-        "silent-mcq-13": "「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」是「keep silent about something = deliberately not tell other people about something 對……守口如瓶；不透露……」的用法，與本句語境不同。",
-        "silent-mcq-17": "「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」是「silent film / silent movie = a film from the era before synchronized spoken dialogue became standard 默片；無聲電影」的用法，與本句語境不同。",
-        "silent-mcq-12": "「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」是「silent — not giving information or comment = refusing or choosing not to speak publicly about something 保持沉默的；不作回應的」的用法，與本句語境不同。"
+        "silent-mcq-15": "本句的「went silent」指「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」。",
+        "silent-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-15"
     },
@@ -1567,11 +1451,9 @@ export default {
       "masked": "After our last conversation, he suddenly ____.",
       "options": [
         "silent-mcq-15",
-        "silent-mcq-14",
-        "silent-mcq-16",
-        "silent-mcq-13",
-        "silent-mcq-17",
-        "silent-mcq-12"
+        "silent-mcq-21",
+        "silent-mcq-19",
+        "silent-mcq-28"
       ],
       "explanation": "本句的「went silent」指「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」。",
       "sentenceIndex": 29,
@@ -1580,12 +1462,10 @@ export default {
         "went silent"
       ],
       "optionReasons": {
-        "silent-mcq-15": "本句指「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」。",
-        "silent-mcq-14": "「失去聯絡；沒有回應；停止傳訊」是「phone / radio / communication goes silent = stop producing messages, signals, or communication 失去聯絡；沒有回應；停止傳訊」的用法，與本句語境不同。",
-        "silent-mcq-16": "「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」是「silent letter = a written letter that is not pronounced 不發音的字母；不發音字母」的用法，與本句語境不同。",
-        "silent-mcq-13": "「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」是「keep silent about something = deliberately not tell other people about something 對……守口如瓶；不透露……」的用法，與本句語境不同。",
-        "silent-mcq-17": "「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」是「silent film / silent movie = a film from the era before synchronized spoken dialogue became standard 默片；無聲電影」的用法，與本句語境不同。",
-        "silent-mcq-12": "「表示保持沉默的；不作回應的；例句：「公司對這個問題一直保持沉默。」」是「silent — not giving information or comment = refusing or choosing not to speak publicly about something 保持沉默的；不作回應的」的用法，與本句語境不同。"
+        "silent-mcq-15": "本句的「went silent」指「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-15"
     },
@@ -1597,11 +1477,9 @@ export default {
       "masked": "The ____ in *knife* is a silent letter.",
       "options": [
         "silent-mcq-16",
-        "silent-mcq-15",
-        "silent-mcq-17",
-        "silent-mcq-14",
-        "silent-mcq-18",
-        "silent-mcq-13"
+        "silent-mcq-13",
+        "silent-mcq-11",
+        "silent-mcq-22"
       ],
       "explanation": "本句的「k」指「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」。",
       "sentenceIndex": 30,
@@ -1610,12 +1488,10 @@ export default {
         "k"
       ],
       "optionReasons": {
-        "silent-mcq-16": "本句指「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」。",
-        "silent-mcq-15": "「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」是「someone goes silent online = stop posting, replying, or communicating for a period 停止回應；突然不再聯絡」的用法，與本句語境不同。",
-        "silent-mcq-17": "「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」是「silent film / silent movie = a film from the era before synchronized spoken dialogue became standard 默片；無聲電影」的用法，與本句語境不同。",
-        "silent-mcq-14": "「失去聯絡；沒有回應；停止傳訊」是「phone / radio / communication goes silent = stop producing messages, signals, or communication 失去聯絡；沒有回應；停止傳訊」的用法，與本句語境不同。",
-        "silent-mcq-18": "「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」是「silent mode = a device setting that prevents ordinary notification sounds 靜音模式」的用法，與本句語境不同。",
-        "silent-mcq-13": "「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」是「keep silent about something = deliberately not tell other people about something 對……守口如瓶；不透露……」的用法，與本句語境不同。"
+        "silent-mcq-16": "本句的「k」指「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-16"
     },
@@ -1627,11 +1503,9 @@ export default {
       "masked": "English contains many words with ____.",
       "options": [
         "silent-mcq-16",
-        "silent-mcq-15",
-        "silent-mcq-17",
-        "silent-mcq-14",
-        "silent-mcq-18",
-        "silent-mcq-13"
+        "silent-mcq-27",
+        "silent-mcq-05",
+        "silent-mcq-28"
       ],
       "explanation": "本句的「silent letters」指「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」。",
       "sentenceIndex": 31,
@@ -1640,12 +1514,10 @@ export default {
         "silent letters"
       ],
       "optionReasons": {
-        "silent-mcq-16": "本句指「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」。",
-        "silent-mcq-15": "「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」是「someone goes silent online = stop posting, replying, or communicating for a period 停止回應；突然不再聯絡」的用法，與本句語境不同。",
-        "silent-mcq-17": "「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」是「silent film / silent movie = a film from the era before synchronized spoken dialogue became standard 默片；無聲電影」的用法，與本句語境不同。",
-        "silent-mcq-14": "「失去聯絡；沒有回應；停止傳訊」是「phone / radio / communication goes silent = stop producing messages, signals, or communication 失去聯絡；沒有回應；停止傳訊」的用法，與本句語境不同。",
-        "silent-mcq-18": "「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」是「silent mode = a device setting that prevents ordinary notification sounds 靜音模式」的用法，與本句語境不同。",
-        "silent-mcq-13": "「表示對……守口如瓶；不透露……；例句：「他答應對這項計畫保密不說。」」是「keep silent about something = deliberately not tell other people about something 對……守口如瓶；不透露……」的用法，與本句語境不同。"
+        "silent-mcq-16": "本句的「silent letters」指「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」。",
+        "silent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-16"
     },
@@ -1657,11 +1529,9 @@ export default {
       "masked": "Charlie Chaplin became famous during the ____.",
       "options": [
         "silent-mcq-17",
-        "silent-mcq-16",
-        "silent-mcq-18",
         "silent-mcq-15",
-        "silent-mcq-19",
-        "silent-mcq-14"
+        "silent-mcq-16",
+        "silent-mcq-28"
       ],
       "explanation": "本句的「silent-film era」指「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」。",
       "sentenceIndex": 32,
@@ -1670,12 +1540,10 @@ export default {
         "silent-film era"
       ],
       "optionReasons": {
-        "silent-mcq-17": "本句指「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」。",
-        "silent-mcq-16": "「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」是「silent letter = a written letter that is not pronounced 不發音的字母；不發音字母」的用法，與本句語境不同。",
-        "silent-mcq-18": "「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」是「silent mode = a device setting that prevents ordinary notification sounds 靜音模式」的用法，與本句語境不同。",
-        "silent-mcq-15": "「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」是「someone goes silent online = stop posting, replying, or communicating for a period 停止回應；突然不再聯絡」的用法，與本句語境不同。",
-        "silent-mcq-19": "「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」是「silent notification / alert = notification delivered without an audible sound 靜音通知；無聲提醒」的用法，與本句語境不同。",
-        "silent-mcq-14": "「失去聯絡；沒有回應；停止傳訊」是「phone / radio / communication goes silent = stop producing messages, signals, or communication 失去聯絡；沒有回應；停止傳訊」的用法，與本句語境不同。"
+        "silent-mcq-17": "本句的「silent-film era」指「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」。",
+        "silent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-17"
     },
@@ -1687,11 +1555,9 @@ export default {
       "masked": "We watched an old ____ in class.",
       "options": [
         "silent-mcq-17",
-        "silent-mcq-16",
-        "silent-mcq-18",
-        "silent-mcq-15",
-        "silent-mcq-19",
-        "silent-mcq-14"
+        "silent-mcq-28",
+        "silent-mcq-14",
+        "silent-mcq-13"
       ],
       "explanation": "本句的「silent movie」指「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」。",
       "sentenceIndex": 33,
@@ -1700,12 +1566,10 @@ export default {
         "silent movie"
       ],
       "optionReasons": {
-        "silent-mcq-17": "本句指「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」。",
-        "silent-mcq-16": "「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」是「silent letter = a written letter that is not pronounced 不發音的字母；不發音字母」的用法，與本句語境不同。",
-        "silent-mcq-18": "「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」是「silent mode = a device setting that prevents ordinary notification sounds 靜音模式」的用法，與本句語境不同。",
-        "silent-mcq-15": "「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」是「someone goes silent online = stop posting, replying, or communicating for a period 停止回應；突然不再聯絡」的用法，與本句語境不同。",
-        "silent-mcq-19": "「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」是「silent notification / alert = notification delivered without an audible sound 靜音通知；無聲提醒」的用法，與本句語境不同。",
-        "silent-mcq-14": "「失去聯絡；沒有回應；停止傳訊」是「phone / radio / communication goes silent = stop producing messages, signals, or communication 失去聯絡；沒有回應；停止傳訊」的用法，與本句語境不同。"
+        "silent-mcq-17": "本句的「silent movie」指「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-17"
     },
@@ -1717,11 +1581,9 @@ export default {
       "masked": "Put your phone on ____ during the meeting.",
       "options": [
         "silent-mcq-18",
-        "silent-mcq-17",
-        "silent-mcq-19",
-        "silent-mcq-16",
-        "silent-mcq-20",
-        "silent-mcq-15"
+        "silent-mcq-24",
+        "silent-mcq-31",
+        "silent-mcq-10"
       ],
       "explanation": "本句的「silent mode」指「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」。",
       "sentenceIndex": 34,
@@ -1730,12 +1592,10 @@ export default {
         "silent mode"
       ],
       "optionReasons": {
-        "silent-mcq-18": "本句指「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」。",
-        "silent-mcq-17": "「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」是「silent film / silent movie = a film from the era before synchronized spoken dialogue became standard 默片；無聲電影」的用法，與本句語境不同。",
-        "silent-mcq-19": "「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」是「silent notification / alert = notification delivered without an audible sound 靜音通知；無聲提醒」的用法，與本句語境不同。",
-        "silent-mcq-16": "「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」是「silent letter = a written letter that is not pronounced 不發音的字母；不發音字母」的用法，與本句語境不同。",
-        "silent-mcq-20": "「無需使用者操作的；靜默執行的」是「silent installation / silent update In computing, silent can mean operating without requiring visible user interaction or prompts. 無需使用者操作的；靜默執行的」的用法，與本句語境不同。",
-        "silent-mcq-15": "「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」是「someone goes silent online = stop posting, replying, or communicating for a period 停止回應；突然不再聯絡」的用法，與本句語境不同。"
+        "silent-mcq-18": "本句的「silent mode」指「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」。",
+        "silent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-18"
     },
@@ -1747,11 +1607,9 @@ export default {
       "masked": "My phone was on ____, so I missed your call.",
       "options": [
         "silent-mcq-18",
-        "silent-mcq-17",
-        "silent-mcq-19",
-        "silent-mcq-16",
-        "silent-mcq-20",
-        "silent-mcq-15"
+        "silent-mcq-26",
+        "silent-mcq-21",
+        "silent-mcq-07"
       ],
       "explanation": "本句的「silent」指「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」。",
       "sentenceIndex": 35,
@@ -1760,12 +1618,10 @@ export default {
         "silent"
       ],
       "optionReasons": {
-        "silent-mcq-18": "本句指「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」。",
-        "silent-mcq-17": "「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」是「silent film / silent movie = a film from the era before synchronized spoken dialogue became standard 默片；無聲電影」的用法，與本句語境不同。",
-        "silent-mcq-19": "「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」是「silent notification / alert = notification delivered without an audible sound 靜音通知；無聲提醒」的用法，與本句語境不同。",
-        "silent-mcq-16": "「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」是「silent letter = a written letter that is not pronounced 不發音的字母；不發音字母」的用法，與本句語境不同。",
-        "silent-mcq-20": "「無需使用者操作的；靜默執行的」是「silent installation / silent update In computing, silent can mean operating without requiring visible user interaction or prompts. 無需使用者操作的；靜默執行的」的用法，與本句語境不同。",
-        "silent-mcq-15": "「表示停止回應；突然不再聯絡；例句：「她有好幾週在社群媒體上完全沒有動靜。」」是「someone goes silent online = stop posting, replying, or communicating for a period 停止回應；突然不再聯絡」的用法，與本句語境不同。"
+        "silent-mcq-18": "本句的「silent」指「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」。",
+        "silent-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-18"
     },
@@ -1777,11 +1633,9 @@ export default {
       "masked": "The app sends ____ in the background.",
       "options": [
         "silent-mcq-19",
-        "silent-mcq-18",
-        "silent-mcq-20",
-        "silent-mcq-17",
-        "silent-mcq-21",
-        "silent-mcq-16"
+        "silent-mcq-13",
+        "silent-mcq-31",
+        "silent-mcq-14"
       ],
       "explanation": "本句的「silent notifications」指「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」。",
       "sentenceIndex": 36,
@@ -1790,12 +1644,10 @@ export default {
         "silent notifications"
       ],
       "optionReasons": {
-        "silent-mcq-19": "本句指「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」。",
-        "silent-mcq-18": "「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」是「silent mode = a device setting that prevents ordinary notification sounds 靜音模式」的用法，與本句語境不同。",
-        "silent-mcq-20": "「無需使用者操作的；靜默執行的」是「silent installation / silent update In computing, silent can mean operating without requiring visible user interaction or prompts. 無需使用者操作的；靜默執行的」的用法，與本句語境不同。",
-        "silent-mcq-17": "「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」是「silent film / silent movie = a film from the era before synchronized spoken dialogue became standard 默片；無聲電影」的用法，與本句語境不同。",
-        "silent-mcq-21": "「隱名合夥人；不參與日常經營的合夥人」是「silent partner = a business investor who contributes money but does not take an active role in management 隱名合夥人；不參與日常經營的合夥人」的用法，與本句語境不同。",
-        "silent-mcq-16": "「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」是「silent letter = a written letter that is not pronounced 不發音的字母；不發音字母」的用法，與本句語境不同。"
+        "silent-mcq-19": "本句的「silent notifications」指「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-19"
     },
@@ -1807,11 +1659,9 @@ export default {
       "masked": "I received a ____ on my watch.",
       "options": [
         "silent-mcq-19",
-        "silent-mcq-18",
-        "silent-mcq-20",
-        "silent-mcq-17",
-        "silent-mcq-21",
-        "silent-mcq-16"
+        "silent-mcq-29",
+        "silent-mcq-13",
+        "silent-mcq-12"
       ],
       "explanation": "本句的「silent alert」指「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」。",
       "sentenceIndex": 37,
@@ -1820,12 +1670,10 @@ export default {
         "silent alert"
       ],
       "optionReasons": {
-        "silent-mcq-19": "本句指「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」。",
-        "silent-mcq-18": "「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」是「silent mode = a device setting that prevents ordinary notification sounds 靜音模式」的用法，與本句語境不同。",
-        "silent-mcq-20": "「無需使用者操作的；靜默執行的」是「silent installation / silent update In computing, silent can mean operating without requiring visible user interaction or prompts. 無需使用者操作的；靜默執行的」的用法，與本句語境不同。",
-        "silent-mcq-17": "「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」是「silent film / silent movie = a film from the era before synchronized spoken dialogue became standard 默片；無聲電影」的用法，與本句語境不同。",
-        "silent-mcq-21": "「隱名合夥人；不參與日常經營的合夥人」是「silent partner = a business investor who contributes money but does not take an active role in management 隱名合夥人；不參與日常經營的合夥人」的用法，與本句語境不同。",
-        "silent-mcq-16": "「表示不發音的字母；不發音字母；例句：「*knife* 裡的 k 是不發音字母。」」是「silent letter = a written letter that is not pronounced 不發音的字母；不發音字母」的用法，與本句語境不同。"
+        "silent-mcq-19": "本句的「silent alert」指「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」。",
+        "silent-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-19"
     },
@@ -1837,11 +1685,9 @@ export default {
       "masked": "The software supports ____.",
       "options": [
         "silent-mcq-20",
-        "silent-mcq-19",
-        "silent-mcq-21",
-        "silent-mcq-18",
-        "silent-mcq-22",
-        "silent-mcq-17"
+        "silent-mcq-28",
+        "silent-mcq-15",
+        "silent-mcq-16"
       ],
       "explanation": "本句的「silent installation」指「無需使用者操作的；靜默執行的」。",
       "sentenceIndex": 38,
@@ -1850,12 +1696,10 @@ export default {
         "silent installation"
       ],
       "optionReasons": {
-        "silent-mcq-20": "本句指「無需使用者操作的；靜默執行的」。",
-        "silent-mcq-19": "「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」是「silent notification / alert = notification delivered without an audible sound 靜音通知；無聲提醒」的用法，與本句語境不同。",
-        "silent-mcq-21": "「隱名合夥人；不參與日常經營的合夥人」是「silent partner = a business investor who contributes money but does not take an active role in management 隱名合夥人；不參與日常經營的合夥人」的用法，與本句語境不同。",
-        "silent-mcq-18": "「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」是「silent mode = a device setting that prevents ordinary notification sounds 靜音模式」的用法，與本句語境不同。",
-        "silent-mcq-22": "「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」是「silent majority = a large group of people whose views are not publicly expressed 沉默的大多數」的用法，與本句語境不同。",
-        "silent-mcq-17": "「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」是「silent film / silent movie = a film from the era before synchronized spoken dialogue became standard 默片；無聲電影」的用法，與本句語境不同。"
+        "silent-mcq-20": "本句的「silent installation」指「無需使用者操作的；靜默執行的」。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-20"
     },
@@ -1867,11 +1711,9 @@ export default {
       "masked": "The update was installed ____ in the background.",
       "options": [
         "silent-mcq-20",
-        "silent-mcq-19",
-        "silent-mcq-21",
-        "silent-mcq-18",
-        "silent-mcq-22",
-        "silent-mcq-17"
+        "silent-mcq-13",
+        "silent-mcq-16",
+        "silent-mcq-21"
       ],
       "explanation": "本句的「silently」指「無需使用者操作的；靜默執行的」。",
       "sentenceIndex": 39,
@@ -1880,12 +1722,10 @@ export default {
         "silently"
       ],
       "optionReasons": {
-        "silent-mcq-20": "本句指「無需使用者操作的；靜默執行的」。",
-        "silent-mcq-19": "「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」是「silent notification / alert = notification delivered without an audible sound 靜音通知；無聲提醒」的用法，與本句語境不同。",
-        "silent-mcq-21": "「隱名合夥人；不參與日常經營的合夥人」是「silent partner = a business investor who contributes money but does not take an active role in management 隱名合夥人；不參與日常經營的合夥人」的用法，與本句語境不同。",
-        "silent-mcq-18": "「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」是「silent mode = a device setting that prevents ordinary notification sounds 靜音模式」的用法，與本句語境不同。",
-        "silent-mcq-22": "「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」是「silent majority = a large group of people whose views are not publicly expressed 沉默的大多數」的用法，與本句語境不同。",
-        "silent-mcq-17": "「表示默片；無聲電影；例句：「卓別林在默片時代成名。」」是「silent film / silent movie = a film from the era before synchronized spoken dialogue became standard 默片；無聲電影」的用法，與本句語境不同。"
+        "silent-mcq-20": "本句的「silently」指「無需使用者操作的；靜默執行的」。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-20"
     },
@@ -1897,11 +1737,9 @@ export default {
       "masked": "He joined the business as a ____.",
       "options": [
         "silent-mcq-21",
-        "silent-mcq-20",
-        "silent-mcq-22",
-        "silent-mcq-19",
-        "silent-mcq-23",
-        "silent-mcq-18"
+        "silent-mcq-04",
+        "silent-mcq-28",
+        "silent-mcq-13"
       ],
       "explanation": "本句的「silent partner」指「隱名合夥人；不參與日常經營的合夥人」。",
       "sentenceIndex": 40,
@@ -1910,12 +1748,10 @@ export default {
         "silent partner"
       ],
       "optionReasons": {
-        "silent-mcq-21": "本句指「隱名合夥人；不參與日常經營的合夥人」。",
-        "silent-mcq-20": "「無需使用者操作的；靜默執行的」是「silent installation / silent update In computing, silent can mean operating without requiring visible user interaction or prompts. 無需使用者操作的；靜默執行的」的用法，與本句語境不同。",
-        "silent-mcq-22": "「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」是「silent majority = a large group of people whose views are not publicly expressed 沉默的大多數」的用法，與本句語境不同。",
-        "silent-mcq-19": "「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」是「silent notification / alert = notification delivered without an audible sound 靜音通知；無聲提醒」的用法，與本句語境不同。",
-        "silent-mcq-23": "「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」是「silence — noun: absence of sound = a state in which little or no sound can be heard 寂靜；安靜；無聲」的用法，與本句語境不同。",
-        "silent-mcq-18": "「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」是「silent mode = a device setting that prevents ordinary notification sounds 靜音模式」的用法，與本句語境不同。"
+        "silent-mcq-21": "本句的「silent partner」指「隱名合夥人；不參與日常經營的合夥人」。",
+        "silent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-21"
     },
@@ -1927,11 +1763,9 @@ export default {
       "masked": "The restaurant was partly funded by a ____.",
       "options": [
         "silent-mcq-21",
-        "silent-mcq-20",
-        "silent-mcq-22",
-        "silent-mcq-19",
-        "silent-mcq-23",
-        "silent-mcq-18"
+        "silent-mcq-06",
+        "silent-mcq-31",
+        "silent-mcq-10"
       ],
       "explanation": "本句的「silent partner」指「隱名合夥人；不參與日常經營的合夥人」。",
       "sentenceIndex": 41,
@@ -1940,12 +1774,10 @@ export default {
         "silent partner"
       ],
       "optionReasons": {
-        "silent-mcq-21": "本句指「隱名合夥人；不參與日常經營的合夥人」。",
-        "silent-mcq-20": "「無需使用者操作的；靜默執行的」是「silent installation / silent update In computing, silent can mean operating without requiring visible user interaction or prompts. 無需使用者操作的；靜默執行的」的用法，與本句語境不同。",
-        "silent-mcq-22": "「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」是「silent majority = a large group of people whose views are not publicly expressed 沉默的大多數」的用法，與本句語境不同。",
-        "silent-mcq-19": "「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」是「silent notification / alert = notification delivered without an audible sound 靜音通知；無聲提醒」的用法，與本句語境不同。",
-        "silent-mcq-23": "「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」是「silence — noun: absence of sound = a state in which little or no sound can be heard 寂靜；安靜；無聲」的用法，與本句語境不同。",
-        "silent-mcq-18": "「表示靜音模式；例句：「開會時請把手機調成靜音模式。」」是「silent mode = a device setting that prevents ordinary notification sounds 靜音模式」的用法，與本句語境不同。"
+        "silent-mcq-21": "本句的「silent partner」指「隱名合夥人；不參與日常經營的合夥人」。",
+        "silent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-21"
     },
@@ -1957,11 +1789,9 @@ export default {
       "masked": "The campaign claimed to represent the ____.",
       "options": [
         "silent-mcq-22",
-        "silent-mcq-21",
         "silent-mcq-23",
-        "silent-mcq-20",
-        "silent-mcq-24",
-        "silent-mcq-19"
+        "silent-mcq-14",
+        "silent-mcq-13"
       ],
       "explanation": "本句的「silent majority」指「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」。",
       "sentenceIndex": 42,
@@ -1970,12 +1800,10 @@ export default {
         "silent majority"
       ],
       "optionReasons": {
-        "silent-mcq-22": "本句指「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」。",
-        "silent-mcq-21": "「隱名合夥人；不參與日常經營的合夥人」是「silent partner = a business investor who contributes money but does not take an active role in management 隱名合夥人；不參與日常經營的合夥人」的用法，與本句語境不同。",
-        "silent-mcq-23": "「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」是「silence — noun: absence of sound = a state in which little or no sound can be heard 寂靜；安靜；無聲」的用法，與本句語境不同。",
-        "silent-mcq-20": "「無需使用者操作的；靜默執行的」是「silent installation / silent update In computing, silent can mean operating without requiring visible user interaction or prompts. 無需使用者操作的；靜默執行的」的用法，與本句語境不同。",
-        "silent-mcq-24": "「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」是「silence — noun: absence of speech or response = failure or choice not to speak, answer, or communicate 沉默；不回應」的用法，與本句語境不同。",
-        "silent-mcq-19": "「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」是「silent notification / alert = notification delivered without an audible sound 靜音通知；無聲提醒」的用法，與本句語境不同。"
+        "silent-mcq-22": "本句的「silent majority」指「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」。",
+        "silent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-22"
     },
@@ -1987,11 +1815,9 @@ export default {
       "masked": "It is difficult to know what the ____ actually thinks.",
       "options": [
         "silent-mcq-22",
+        "silent-mcq-18",
         "silent-mcq-21",
-        "silent-mcq-23",
-        "silent-mcq-20",
-        "silent-mcq-24",
-        "silent-mcq-19"
+        "silent-mcq-09"
       ],
       "explanation": "本句的「silent majority」指「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」。",
       "sentenceIndex": 43,
@@ -2000,12 +1826,10 @@ export default {
         "silent majority"
       ],
       "optionReasons": {
-        "silent-mcq-22": "本句指「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」。",
-        "silent-mcq-21": "「隱名合夥人；不參與日常經營的合夥人」是「silent partner = a business investor who contributes money but does not take an active role in management 隱名合夥人；不參與日常經營的合夥人」的用法，與本句語境不同。",
-        "silent-mcq-23": "「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」是「silence — noun: absence of sound = a state in which little or no sound can be heard 寂靜；安靜；無聲」的用法，與本句語境不同。",
-        "silent-mcq-20": "「無需使用者操作的；靜默執行的」是「silent installation / silent update In computing, silent can mean operating without requiring visible user interaction or prompts. 無需使用者操作的；靜默執行的」的用法，與本句語境不同。",
-        "silent-mcq-24": "「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」是「silence — noun: absence of speech or response = failure or choice not to speak, answer, or communicate 沉默；不回應」的用法，與本句語境不同。",
-        "silent-mcq-19": "「表示靜音通知；無聲提醒；例句：「這個應用程式會在背景傳送靜音通知。」」是「silent notification / alert = notification delivered without an audible sound 靜音通知；無聲提醒」的用法，與本句語境不同。"
+        "silent-mcq-22": "本句的「silent majority」指「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」。",
+        "silent-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-22"
     },
@@ -2017,11 +1841,9 @@ export default {
       "masked": "The room fell into ____.",
       "options": [
         "silent-mcq-23",
-        "silent-mcq-22",
-        "silent-mcq-24",
-        "silent-mcq-21",
-        "silent-mcq-25",
-        "silent-mcq-20"
+        "silent-mcq-04",
+        "silent-mcq-28",
+        "silent-mcq-13"
       ],
       "explanation": "本句的「silence」指「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」。",
       "sentenceIndex": 44,
@@ -2030,12 +1852,10 @@ export default {
         "silence"
       ],
       "optionReasons": {
-        "silent-mcq-23": "本句指「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」。",
-        "silent-mcq-22": "「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」是「silent majority = a large group of people whose views are not publicly expressed 沉默的大多數」的用法，與本句語境不同。",
-        "silent-mcq-24": "「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」是「silence — noun: absence of speech or response = failure or choice not to speak, answer, or communicate 沉默；不回應」的用法，與本句語境不同。",
-        "silent-mcq-21": "「隱名合夥人；不參與日常經營的合夥人」是「silent partner = a business investor who contributes money but does not take an active role in management 隱名合夥人；不參與日常經營的合夥人」的用法，與本句語境不同。",
-        "silent-mcq-25": "「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」是「silence — verb: make someone or something stop speaking or producing sound = cause to become silent 使安靜；使停止發聲」的用法，與本句語境不同。",
-        "silent-mcq-20": "「無需使用者操作的；靜默執行的」是「silent installation / silent update In computing, silent can mean operating without requiring visible user interaction or prompts. 無需使用者操作的；靜默執行的」的用法，與本句語境不同。"
+        "silent-mcq-23": "本句的「silence」指「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」。",
+        "silent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-23"
     },
@@ -2047,11 +1867,9 @@ export default {
       "masked": "We sat together in complete ____.",
       "options": [
         "silent-mcq-23",
-        "silent-mcq-22",
-        "silent-mcq-24",
-        "silent-mcq-21",
-        "silent-mcq-25",
-        "silent-mcq-20"
+        "silent-mcq-29",
+        "silent-mcq-13",
+        "silent-mcq-21"
       ],
       "explanation": "本句的「silence」指「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」。",
       "sentenceIndex": 45,
@@ -2060,12 +1878,10 @@ export default {
         "silence"
       ],
       "optionReasons": {
-        "silent-mcq-23": "本句指「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」。",
-        "silent-mcq-22": "「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」是「silent majority = a large group of people whose views are not publicly expressed 沉默的大多數」的用法，與本句語境不同。",
-        "silent-mcq-24": "「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」是「silence — noun: absence of speech or response = failure or choice not to speak, answer, or communicate 沉默；不回應」的用法，與本句語境不同。",
-        "silent-mcq-21": "「隱名合夥人；不參與日常經營的合夥人」是「silent partner = a business investor who contributes money but does not take an active role in management 隱名合夥人；不參與日常經營的合夥人」的用法，與本句語境不同。",
-        "silent-mcq-25": "「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」是「silence — verb: make someone or something stop speaking or producing sound = cause to become silent 使安靜；使停止發聲」的用法，與本句語境不同。",
-        "silent-mcq-20": "「無需使用者操作的；靜默執行的」是「silent installation / silent update In computing, silent can mean operating without requiring visible user interaction or prompts. 無需使用者操作的；靜默執行的」的用法，與本句語境不同。"
+        "silent-mcq-23": "本句的「silence」指「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」。",
+        "silent-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-23"
     },
@@ -2077,11 +1893,9 @@ export default {
       "masked": "Her ____ made everyone uncomfortable.",
       "options": [
         "silent-mcq-24",
-        "silent-mcq-23",
-        "silent-mcq-25",
-        "silent-mcq-22",
-        "silent-mcq-26",
-        "silent-mcq-21"
+        "silent-mcq-30",
+        "silent-mcq-21",
+        "silent-mcq-28"
       ],
       "explanation": "本句的「silence」指「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」。",
       "sentenceIndex": 46,
@@ -2090,12 +1904,10 @@ export default {
         "silence"
       ],
       "optionReasons": {
-        "silent-mcq-24": "本句指「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」。",
-        "silent-mcq-23": "「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」是「silence — noun: absence of sound = a state in which little or no sound can be heard 寂靜；安靜；無聲」的用法，與本句語境不同。",
-        "silent-mcq-25": "「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」是「silence — verb: make someone or something stop speaking or producing sound = cause to become silent 使安靜；使停止發聲」的用法，與本句語境不同。",
-        "silent-mcq-22": "「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」是「silent majority = a large group of people whose views are not publicly expressed 沉默的大多數」的用法，與本句語境不同。",
-        "silent-mcq-26": "「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」是「silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言」的用法，與本句語境不同。",
-        "silent-mcq-21": "「隱名合夥人；不參與日常經營的合夥人」是「silent partner = a business investor who contributes money but does not take an active role in management 隱名合夥人；不參與日常經營的合夥人」的用法，與本句語境不同。"
+        "silent-mcq-24": "本句的「silence」指「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」。",
+        "silent-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-24"
     },
@@ -2107,11 +1919,9 @@ export default {
       "masked": "After several days of ____, he finally replied.",
       "options": [
         "silent-mcq-24",
-        "silent-mcq-23",
-        "silent-mcq-25",
-        "silent-mcq-22",
-        "silent-mcq-26",
-        "silent-mcq-21"
+        "silent-mcq-19",
+        "silent-mcq-16",
+        "silent-mcq-28"
       ],
       "explanation": "本句的「silence」指「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」。",
       "sentenceIndex": 47,
@@ -2120,12 +1930,10 @@ export default {
         "silence"
       ],
       "optionReasons": {
-        "silent-mcq-24": "本句指「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」。",
-        "silent-mcq-23": "「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」是「silence — noun: absence of sound = a state in which little or no sound can be heard 寂靜；安靜；無聲」的用法，與本句語境不同。",
-        "silent-mcq-25": "「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」是「silence — verb: make someone or something stop speaking or producing sound = cause to become silent 使安靜；使停止發聲」的用法，與本句語境不同。",
-        "silent-mcq-22": "「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」是「silent majority = a large group of people whose views are not publicly expressed 沉默的大多數」的用法，與本句語境不同。",
-        "silent-mcq-26": "「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」是「silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言」的用法，與本句語境不同。",
-        "silent-mcq-21": "「隱名合夥人；不參與日常經營的合夥人」是「silent partner = a business investor who contributes money but does not take an active role in management 隱名合夥人；不參與日常經營的合夥人」的用法，與本句語境不同。"
+        "silent-mcq-24": "本句的「silence」指「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」。",
+        "silent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-24"
     },
@@ -2137,11 +1945,9 @@ export default {
       "masked": "The teacher raised her hand to ____.",
       "options": [
         "silent-mcq-25",
-        "silent-mcq-24",
-        "silent-mcq-26",
-        "silent-mcq-23",
-        "silent-mcq-27",
-        "silent-mcq-22"
+        "silent-mcq-22",
+        "silent-mcq-29",
+        "silent-mcq-09"
       ],
       "explanation": "本句的「silence the class」指「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」。",
       "sentenceIndex": 48,
@@ -2150,12 +1956,10 @@ export default {
         "silence the class"
       ],
       "optionReasons": {
-        "silent-mcq-25": "本句指「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」。",
-        "silent-mcq-24": "「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」是「silence — noun: absence of speech or response = failure or choice not to speak, answer, or communicate 沉默；不回應」的用法，與本句語境不同。",
-        "silent-mcq-26": "「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」是「silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言」的用法，與本句語境不同。",
-        "silent-mcq-23": "「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」是「silence — noun: absence of sound = a state in which little or no sound can be heard 寂靜；安靜；無聲」的用法，與本句語境不同。",
-        "silent-mcq-27": "「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」是「silently = without speaking or making sound 默默地；無聲地；靜靜地」的用法，與本句語境不同。",
-        "silent-mcq-22": "「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」是「silent majority = a large group of people whose views are not publicly expressed 沉默的大多數」的用法，與本句語境不同。"
+        "silent-mcq-25": "本句的「silence the class」指「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」。",
+        "silent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-25"
     },
@@ -2168,10 +1972,8 @@ export default {
       "options": [
         "silent-mcq-25",
         "silent-mcq-24",
-        "silent-mcq-26",
-        "silent-mcq-23",
-        "silent-mcq-27",
-        "silent-mcq-22"
+        "silent-mcq-09",
+        "silent-mcq-21"
       ],
       "explanation": "本句的「silence the alarm」指「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」。",
       "sentenceIndex": 49,
@@ -2180,12 +1982,10 @@ export default {
         "silence the alarm"
       ],
       "optionReasons": {
-        "silent-mcq-25": "本句指「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」。",
-        "silent-mcq-24": "「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」是「silence — noun: absence of speech or response = failure or choice not to speak, answer, or communicate 沉默；不回應」的用法，與本句語境不同。",
-        "silent-mcq-26": "「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」是「silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言」的用法，與本句語境不同。",
-        "silent-mcq-23": "「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」是「silence — noun: absence of sound = a state in which little or no sound can be heard 寂靜；安靜；無聲」的用法，與本句語境不同。",
-        "silent-mcq-27": "「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」是「silently = without speaking or making sound 默默地；無聲地；靜靜地」的用法，與本句語境不同。",
-        "silent-mcq-22": "「表示沉默的大多數；例句：「該活動聲稱代表沉默的大多數。」」是「silent majority = a large group of people whose views are not publicly expressed 沉默的大多數」的用法，與本句語境不同。"
+        "silent-mcq-25": "本句的「silence the alarm」指「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」。",
+        "silent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-25"
     },
@@ -2197,11 +1997,9 @@ export default {
       "masked": "Threats were used to ____.",
       "options": [
         "silent-mcq-26",
-        "silent-mcq-25",
-        "silent-mcq-27",
-        "silent-mcq-24",
-        "silent-mcq-28",
-        "silent-mcq-23"
+        "silent-mcq-31",
+        "silent-mcq-13",
+        "silent-mcq-20"
       ],
       "explanation": "本句的「silence critics」指「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」。",
       "sentenceIndex": 50,
@@ -2210,12 +2008,10 @@ export default {
         "silence critics"
       ],
       "optionReasons": {
-        "silent-mcq-26": "本句指「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」。",
-        "silent-mcq-25": "「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」是「silence — verb: make someone or something stop speaking or producing sound = cause to become silent 使安靜；使停止發聲」的用法，與本句語境不同。",
-        "silent-mcq-27": "「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」是「silently = without speaking or making sound 默默地；無聲地；靜靜地」的用法，與本句語境不同。",
-        "silent-mcq-24": "「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」是「silence — noun: absence of speech or response = failure or choice not to speak, answer, or communicate 沉默；不回應」的用法，與本句語境不同。",
-        "silent-mcq-28": "「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」是「the silent treatment = deliberately refusing to speak to someone to show anger or displeasure 冷戰；故意不理人」的用法，與本句語境不同。",
-        "silent-mcq-23": "「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」是「silence — noun: absence of sound = a state in which little or no sound can be heard 寂靜；安靜；無聲」的用法，與本句語境不同。"
+        "silent-mcq-26": "本句的「silence critics」指「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」。",
+        "silent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-26"
     },
@@ -2227,11 +2023,9 @@ export default {
       "masked": "She refused to be ____.",
       "options": [
         "silent-mcq-26",
-        "silent-mcq-25",
-        "silent-mcq-27",
         "silent-mcq-24",
-        "silent-mcq-28",
-        "silent-mcq-23"
+        "silent-mcq-21",
+        "silent-mcq-18"
       ],
       "explanation": "本句的「silenced」指「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」。",
       "sentenceIndex": 51,
@@ -2240,12 +2034,10 @@ export default {
         "silenced"
       ],
       "optionReasons": {
-        "silent-mcq-26": "本句指「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」。",
-        "silent-mcq-25": "「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」是「silence — verb: make someone or something stop speaking or producing sound = cause to become silent 使安靜；使停止發聲」的用法，與本句語境不同。",
-        "silent-mcq-27": "「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」是「silently = without speaking or making sound 默默地；無聲地；靜靜地」的用法，與本句語境不同。",
-        "silent-mcq-24": "「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」是「silence — noun: absence of speech or response = failure or choice not to speak, answer, or communicate 沉默；不回應」的用法，與本句語境不同。",
-        "silent-mcq-28": "「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」是「the silent treatment = deliberately refusing to speak to someone to show anger or displeasure 冷戰；故意不理人」的用法，與本句語境不同。",
-        "silent-mcq-23": "「表示寂靜；安靜；無聲；例句：「房間陷入了寂靜。」」是「silence — noun: absence of sound = a state in which little or no sound can be heard 寂靜；安靜；無聲」的用法，與本句語境不同。"
+        "silent-mcq-26": "本句的「silenced」指「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」。",
+        "silent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-26"
     },
@@ -2257,11 +2049,9 @@ export default {
       "masked": "She ____ walked out of the room.",
       "options": [
         "silent-mcq-27",
-        "silent-mcq-26",
         "silent-mcq-28",
-        "silent-mcq-25",
-        "silent-mcq-29",
-        "silent-mcq-24"
+        "silent-mcq-21",
+        "silent-mcq-14"
       ],
       "explanation": "本句的「silently」指「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」。",
       "sentenceIndex": 52,
@@ -2270,12 +2060,10 @@ export default {
         "silently"
       ],
       "optionReasons": {
-        "silent-mcq-27": "本句指「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」。",
-        "silent-mcq-26": "「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」是「silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言」的用法，與本句語境不同。",
-        "silent-mcq-28": "「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」是「the silent treatment = deliberately refusing to speak to someone to show anger or displeasure 冷戰；故意不理人」的用法，與本句語境不同。",
-        "silent-mcq-25": "「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」是「silence — verb: make someone or something stop speaking or producing sound = cause to become silent 使安靜；使停止發聲」的用法，與本句語境不同。",
-        "silent-mcq-29": "「表示默默承受；有苦不說；例句：「你不必一個人默默承受。」」是「suffer in silence = experience pain, difficulty, or unhappiness without telling others 默默承受；有苦不說」的用法，與本句語境不同。",
-        "silent-mcq-24": "「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」是「silence — noun: absence of speech or response = failure or choice not to speak, answer, or communicate 沉默；不回應」的用法，與本句語境不同。"
+        "silent-mcq-27": "本句的「silently」指「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-27"
     },
@@ -2287,11 +2075,9 @@ export default {
       "masked": "He nodded ____.",
       "options": [
         "silent-mcq-27",
-        "silent-mcq-26",
         "silent-mcq-28",
-        "silent-mcq-25",
-        "silent-mcq-29",
-        "silent-mcq-24"
+        "silent-mcq-15",
+        "silent-mcq-21"
       ],
       "explanation": "本句的「silently」指「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」。",
       "sentenceIndex": 53,
@@ -2300,12 +2086,10 @@ export default {
         "silently"
       ],
       "optionReasons": {
-        "silent-mcq-27": "本句指「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」。",
-        "silent-mcq-26": "「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」是「silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言」的用法，與本句語境不同。",
-        "silent-mcq-28": "「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」是「the silent treatment = deliberately refusing to speak to someone to show anger or displeasure 冷戰；故意不理人」的用法，與本句語境不同。",
-        "silent-mcq-25": "「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」是「silence — verb: make someone or something stop speaking or producing sound = cause to become silent 使安靜；使停止發聲」的用法，與本句語境不同。",
-        "silent-mcq-29": "「表示默默承受；有苦不說；例句：「你不必一個人默默承受。」」是「suffer in silence = experience pain, difficulty, or unhappiness without telling others 默默承受；有苦不說」的用法，與本句語境不同。",
-        "silent-mcq-24": "「表示沉默；不回應；例句：「她的沉默讓大家感到不自在。」」是「silence — noun: absence of speech or response = failure or choice not to speak, answer, or communicate 沉默；不回應」的用法，與本句語境不同。"
+        "silent-mcq-27": "本句的「silently」指「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-27"
     },
@@ -2317,11 +2101,9 @@ export default {
       "masked": "She gave him ____ all evening.",
       "options": [
         "silent-mcq-28",
-        "silent-mcq-27",
-        "silent-mcq-29",
-        "silent-mcq-26",
         "silent-mcq-30",
-        "silent-mcq-25"
+        "silent-mcq-24",
+        "silent-mcq-09"
       ],
       "explanation": "本句的「the silent treatment」指「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」。",
       "sentenceIndex": 54,
@@ -2330,12 +2112,10 @@ export default {
         "the silent treatment"
       ],
       "optionReasons": {
-        "silent-mcq-28": "本句指「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」。",
-        "silent-mcq-27": "「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」是「silently = without speaking or making sound 默默地；無聲地；靜靜地」的用法，與本句語境不同。",
-        "silent-mcq-29": "「表示默默承受；有苦不說；例句：「你不必一個人默默承受。」」是「suffer in silence = experience pain, difficulty, or unhappiness without telling others 默默承受；有苦不說」的用法，與本句語境不同。",
-        "silent-mcq-26": "「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」是「silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言」的用法，與本句語境不同。",
-        "silent-mcq-30": "「表示寂靜無聲；死一般安靜；例句：「那棟建築裡死一般寂靜。」」是「silent as the grave = completely silent 寂靜無聲；死一般安靜」的用法，與本句語境不同。",
-        "silent-mcq-25": "「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」是「silence — verb: make someone or something stop speaking or producing sound = cause to become silent 使安靜；使停止發聲」的用法，與本句語境不同。"
+        "silent-mcq-28": "本句的「the silent treatment」指「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」。",
+        "silent-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-28"
     },
@@ -2347,11 +2127,9 @@ export default {
       "masked": "The ____ rarely solves an argument.",
       "options": [
         "silent-mcq-28",
-        "silent-mcq-27",
-        "silent-mcq-29",
-        "silent-mcq-26",
-        "silent-mcq-30",
-        "silent-mcq-25"
+        "silent-mcq-08",
+        "silent-mcq-22",
+        "silent-mcq-26"
       ],
       "explanation": "本句的「silent treatment」指「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」。",
       "sentenceIndex": 55,
@@ -2360,12 +2138,10 @@ export default {
         "silent treatment"
       ],
       "optionReasons": {
-        "silent-mcq-28": "本句指「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」。",
-        "silent-mcq-27": "「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」是「silently = without speaking or making sound 默默地；無聲地；靜靜地」的用法，與本句語境不同。",
-        "silent-mcq-29": "「表示默默承受；有苦不說；例句：「你不必一個人默默承受。」」是「suffer in silence = experience pain, difficulty, or unhappiness without telling others 默默承受；有苦不說」的用法，與本句語境不同。",
-        "silent-mcq-26": "「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」是「silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言」的用法，與本句語境不同。",
-        "silent-mcq-30": "「表示寂靜無聲；死一般安靜；例句：「那棟建築裡死一般寂靜。」」是「silent as the grave = completely silent 寂靜無聲；死一般安靜」的用法，與本句語境不同。",
-        "silent-mcq-25": "「表示使安靜；使停止發聲；例句：「老師舉手示意，讓全班安靜下來。」」是「silence — verb: make someone or something stop speaking or producing sound = cause to become silent 使安靜；使停止發聲」的用法，與本句語境不同。"
+        "silent-mcq-28": "本句的「silent treatment」指「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」。",
+        "silent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-28"
     },
@@ -2377,11 +2153,9 @@ export default {
       "masked": "You don’t need to ____.",
       "options": [
         "silent-mcq-29",
-        "silent-mcq-28",
-        "silent-mcq-30",
-        "silent-mcq-27",
-        "silent-mcq-31",
-        "silent-mcq-26"
+        "silent-mcq-26",
+        "silent-mcq-13",
+        "silent-mcq-16"
       ],
       "explanation": "本句的「suffer in silence」指「表示默默承受；有苦不說；例句：「你不必一個人默默承受。」」。",
       "sentenceIndex": 56,
@@ -2390,12 +2164,10 @@ export default {
         "suffer in silence"
       ],
       "optionReasons": {
-        "silent-mcq-29": "本句指「表示默默承受；有苦不說；例句：「你不必一個人默默承受。」」。",
-        "silent-mcq-28": "「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」是「the silent treatment = deliberately refusing to speak to someone to show anger or displeasure 冷戰；故意不理人」的用法，與本句語境不同。",
-        "silent-mcq-30": "「表示寂靜無聲；死一般安靜；例句：「那棟建築裡死一般寂靜。」」是「silent as the grave = completely silent 寂靜無聲；死一般安靜」的用法，與本句語境不同。",
-        "silent-mcq-27": "「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」是「silently = without speaking or making sound 默默地；無聲地；靜靜地」的用法，與本句語境不同。",
-        "silent-mcq-31": "「表示默哀；默哀片刻；例句：「儀式以默哀一分鐘／片刻默哀開始。」」是「a moment of silence = a short period during which people remain silent, usually to show respect for someone who has died or for a tragic event 默哀；默哀片刻」的用法，與本句語境不同。",
-        "silent-mcq-26": "「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」是「silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言」的用法，與本句語境不同。"
+        "silent-mcq-29": "本句的「suffer in silence」指「表示默默承受；有苦不說；例句：「你不必一個人默默承受。」」。",
+        "silent-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-29"
     },
@@ -2407,10 +2179,8 @@ export default {
       "masked": "For years, he ____.",
       "options": [
         "silent-mcq-29",
-        "silent-mcq-28",
-        "silent-mcq-30",
-        "silent-mcq-27",
-        "silent-mcq-31",
+        "silent-mcq-08",
+        "silent-mcq-14",
         "silent-mcq-26"
       ],
       "explanation": "本句的「suffered in silence」指「表示默默承受；有苦不說；例句：「你不必一個人默默承受。」」。",
@@ -2420,12 +2190,10 @@ export default {
         "suffered in silence"
       ],
       "optionReasons": {
-        "silent-mcq-29": "本句指「表示默默承受；有苦不說；例句：「你不必一個人默默承受。」」。",
-        "silent-mcq-28": "「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」是「the silent treatment = deliberately refusing to speak to someone to show anger or displeasure 冷戰；故意不理人」的用法，與本句語境不同。",
-        "silent-mcq-30": "「表示寂靜無聲；死一般安靜；例句：「那棟建築裡死一般寂靜。」」是「silent as the grave = completely silent 寂靜無聲；死一般安靜」的用法，與本句語境不同。",
-        "silent-mcq-27": "「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」是「silently = without speaking or making sound 默默地；無聲地；靜靜地」的用法，與本句語境不同。",
-        "silent-mcq-31": "「表示默哀；默哀片刻；例句：「儀式以默哀一分鐘／片刻默哀開始。」」是「a moment of silence = a short period during which people remain silent, usually to show respect for someone who has died or for a tragic event 默哀；默哀片刻」的用法，與本句語境不同。",
-        "silent-mcq-26": "「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」是「silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言」的用法，與本句語境不同。"
+        "silent-mcq-29": "本句的「suffered in silence」指「表示默默承受；有苦不說；例句：「你不必一個人默默承受。」」。",
+        "silent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-29"
     },
@@ -2437,11 +2205,9 @@ export default {
       "masked": "The building was ____.",
       "options": [
         "silent-mcq-30",
-        "silent-mcq-29",
-        "silent-mcq-31",
-        "silent-mcq-28",
-        "silent-mcq-27",
-        "silent-mcq-26"
+        "silent-mcq-24",
+        "silent-mcq-16",
+        "silent-mcq-21"
       ],
       "explanation": "本句的「silent as the grave」指「表示寂靜無聲；死一般安靜；例句：「那棟建築裡死一般寂靜。」」。",
       "sentenceIndex": 58,
@@ -2450,12 +2216,10 @@ export default {
         "silent as the grave"
       ],
       "optionReasons": {
-        "silent-mcq-30": "本句指「表示寂靜無聲；死一般安靜；例句：「那棟建築裡死一般寂靜。」」。",
-        "silent-mcq-29": "「表示默默承受；有苦不說；例句：「你不必一個人默默承受。」」是「suffer in silence = experience pain, difficulty, or unhappiness without telling others 默默承受；有苦不說」的用法，與本句語境不同。",
-        "silent-mcq-31": "「表示默哀；默哀片刻；例句：「儀式以默哀一分鐘／片刻默哀開始。」」是「a moment of silence = a short period during which people remain silent, usually to show respect for someone who has died or for a tragic event 默哀；默哀片刻」的用法，與本句語境不同。",
-        "silent-mcq-28": "「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」是「the silent treatment = deliberately refusing to speak to someone to show anger or displeasure 冷戰；故意不理人」的用法，與本句語境不同。",
-        "silent-mcq-27": "「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」是「silently = without speaking or making sound 默默地；無聲地；靜靜地」的用法，與本句語境不同。",
-        "silent-mcq-26": "「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」是「silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言」的用法，與本句語境不同。"
+        "silent-mcq-30": "本句的「silent as the grave」指「表示寂靜無聲；死一般安靜；例句：「那棟建築裡死一般寂靜。」」。",
+        "silent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-30"
     },
@@ -2467,11 +2231,9 @@ export default {
       "masked": "After the announcement, the room was ____.",
       "options": [
         "silent-mcq-30",
-        "silent-mcq-29",
-        "silent-mcq-31",
+        "silent-mcq-21",
         "silent-mcq-28",
-        "silent-mcq-27",
-        "silent-mcq-26"
+        "silent-mcq-01"
       ],
       "explanation": "本句的「as silent as the grave」指「表示寂靜無聲；死一般安靜；例句：「那棟建築裡死一般寂靜。」」。",
       "sentenceIndex": 59,
@@ -2480,12 +2242,10 @@ export default {
         "as silent as the grave"
       ],
       "optionReasons": {
-        "silent-mcq-30": "本句指「表示寂靜無聲；死一般安靜；例句：「那棟建築裡死一般寂靜。」」。",
-        "silent-mcq-29": "「表示默默承受；有苦不說；例句：「你不必一個人默默承受。」」是「suffer in silence = experience pain, difficulty, or unhappiness without telling others 默默承受；有苦不說」的用法，與本句語境不同。",
-        "silent-mcq-31": "「表示默哀；默哀片刻；例句：「儀式以默哀一分鐘／片刻默哀開始。」」是「a moment of silence = a short period during which people remain silent, usually to show respect for someone who has died or for a tragic event 默哀；默哀片刻」的用法，與本句語境不同。",
-        "silent-mcq-28": "「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」是「the silent treatment = deliberately refusing to speak to someone to show anger or displeasure 冷戰；故意不理人」的用法，與本句語境不同。",
-        "silent-mcq-27": "「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」是「silently = without speaking or making sound 默默地；無聲地；靜靜地」的用法，與本句語境不同。",
-        "silent-mcq-26": "「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」是「silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言」的用法，與本句語境不同。"
+        "silent-mcq-30": "本句的「as silent as the grave」指「表示寂靜無聲；死一般安靜；例句：「那棟建築裡死一般寂靜。」」。",
+        "silent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-30"
     },
@@ -2497,11 +2257,9 @@ export default {
       "masked": "The ceremony began with ____.",
       "options": [
         "silent-mcq-31",
-        "silent-mcq-30",
-        "silent-mcq-29",
-        "silent-mcq-28",
-        "silent-mcq-27",
-        "silent-mcq-26"
+        "silent-mcq-15",
+        "silent-mcq-18",
+        "silent-mcq-07"
       ],
       "explanation": "本句的「a moment of silence」指「表示默哀；默哀片刻；例句：「儀式以默哀一分鐘／片刻默哀開始。」」。",
       "sentenceIndex": 60,
@@ -2510,12 +2268,10 @@ export default {
         "a moment of silence"
       ],
       "optionReasons": {
-        "silent-mcq-31": "本句指「表示默哀；默哀片刻；例句：「儀式以默哀一分鐘／片刻默哀開始。」」。",
-        "silent-mcq-30": "「表示寂靜無聲；死一般安靜；例句：「那棟建築裡死一般寂靜。」」是「silent as the grave = completely silent 寂靜無聲；死一般安靜」的用法，與本句語境不同。",
-        "silent-mcq-29": "「表示默默承受；有苦不說；例句：「你不必一個人默默承受。」」是「suffer in silence = experience pain, difficulty, or unhappiness without telling others 默默承受；有苦不說」的用法，與本句語境不同。",
-        "silent-mcq-28": "「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」是「the silent treatment = deliberately refusing to speak to someone to show anger or displeasure 冷戰；故意不理人」的用法，與本句語境不同。",
-        "silent-mcq-27": "「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」是「silently = without speaking or making sound 默默地；無聲地；靜靜地」的用法，與本句語境不同。",
-        "silent-mcq-26": "「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」是「silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言」的用法，與本句語境不同。"
+        "silent-mcq-31": "本句的「a moment of silence」指「表示默哀；默哀片刻；例句：「儀式以默哀一分鐘／片刻默哀開始。」」。",
+        "silent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-31"
     },
@@ -2527,11 +2283,9 @@ export default {
       "masked": "Everyone observed ____ for the victims.",
       "options": [
         "silent-mcq-31",
-        "silent-mcq-30",
-        "silent-mcq-29",
-        "silent-mcq-28",
-        "silent-mcq-27",
-        "silent-mcq-26"
+        "silent-mcq-15",
+        "silent-mcq-13",
+        "silent-mcq-19"
       ],
       "explanation": "本句的「a moment of silence」指「表示默哀；默哀片刻；例句：「儀式以默哀一分鐘／片刻默哀開始。」」。",
       "sentenceIndex": 61,
@@ -2540,12 +2294,10 @@ export default {
         "a moment of silence"
       ],
       "optionReasons": {
-        "silent-mcq-31": "本句指「表示默哀；默哀片刻；例句：「儀式以默哀一分鐘／片刻默哀開始。」」。",
-        "silent-mcq-30": "「表示寂靜無聲；死一般安靜；例句：「那棟建築裡死一般寂靜。」」是「silent as the grave = completely silent 寂靜無聲；死一般安靜」的用法，與本句語境不同。",
-        "silent-mcq-29": "「表示默默承受；有苦不說；例句：「你不必一個人默默承受。」」是「suffer in silence = experience pain, difficulty, or unhappiness without telling others 默默承受；有苦不說」的用法，與本句語境不同。",
-        "silent-mcq-28": "「表示冷戰；故意不理人；例句：「她整個晚上都對他不理不睬。」」是「the silent treatment = deliberately refusing to speak to someone to show anger or displeasure 冷戰；故意不理人」的用法，與本句語境不同。",
-        "silent-mcq-27": "「表示默默地；無聲地；靜靜地；例句：「她默默地走出房間。」」是「silently = without speaking or making sound 默默地；無聲地；靜靜地」的用法，與本句語境不同。",
-        "silent-mcq-26": "「表示使噤聲；壓制發言；例句：「有人用威脅手段讓批評者噤聲。」」是「silence — verb: prevent someone from expressing views = stop or suppress someone from speaking publicly 使噤聲；壓制發言」的用法，與本句語境不同。"
+        "silent-mcq-31": "本句的「a moment of silence」指「表示默哀；默哀片刻；例句：「儀式以默哀一分鐘／片刻默哀開始。」」。",
+        "silent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "silent-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "silent-mcq-31"
     }
@@ -2557,5 +2309,7 @@ export default {
     "sha256": "fa851e44b89d451b9aec085776ccbaa04be7207509bf1dcafd0c36f374764337",
     "pages": 16
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

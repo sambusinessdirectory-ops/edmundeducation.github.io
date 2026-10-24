@@ -1518,11 +1518,9 @@ export default {
       "masked": "Strong leadership can unite different personalities around a ____ purpose.",
       "options": [
         "common-mcq-01",
-        "common-mcq-02",
-        "common-mcq-03",
-        "common-mcq-04",
-        "common-mcq-05",
-        "common-mcq-06"
+        "common-mcq-67",
+        "common-mcq-46",
+        "common-mcq-27"
       ],
       "explanation": "本句的「common」指「共同的；共有的 passage sense」。",
       "sentenceIndex": 0,
@@ -1531,12 +1529,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-01": "本句指「共同的；共有的 passage sense」。",
-        "common-mcq-02": "「共同目的 team unity」與本句語境不同。",
-        "common-mcq-03": "「共同目標 shared aim」與本句語境不同。",
-        "common-mcq-04": "「共同目標 shared target」與本句語境不同。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。"
+        "common-mcq-01": "本句的「common」指「共同的；共有的 passage sense」。",
+        "common-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-01"
     },
@@ -1548,11 +1544,9 @@ export default {
       "masked": "The departments are working towards a ____ goal.",
       "options": [
         "common-mcq-01",
-        "common-mcq-02",
-        "common-mcq-03",
-        "common-mcq-04",
-        "common-mcq-05",
-        "common-mcq-06"
+        "common-mcq-61",
+        "common-mcq-36",
+        "common-mcq-24"
       ],
       "explanation": "本句的「common」指「共同的；共有的 passage sense」。",
       "sentenceIndex": 1,
@@ -1561,12 +1555,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-01": "本句指「共同的；共有的 passage sense」。",
-        "common-mcq-02": "「共同目的 team unity」與本句語境不同。",
-        "common-mcq-03": "「共同目標 shared aim」與本句語境不同。",
-        "common-mcq-04": "「共同目標 shared target」與本句語境不同。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。"
+        "common-mcq-01": "本句的「common」指「共同的；共有的 passage sense」。",
+        "common-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-01"
     },
@@ -1578,11 +1570,9 @@ export default {
       "masked": "Successful teams usually share some ____ values.",
       "options": [
         "common-mcq-01",
-        "common-mcq-02",
-        "common-mcq-03",
-        "common-mcq-04",
-        "common-mcq-05",
-        "common-mcq-06"
+        "common-mcq-60",
+        "common-mcq-40",
+        "common-mcq-68"
       ],
       "explanation": "本句的「common」指「共同的；共有的 passage sense」。",
       "sentenceIndex": 2,
@@ -1591,12 +1581,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-01": "本句指「共同的；共有的 passage sense」。",
-        "common-mcq-02": "「共同目的 team unity」與本句語境不同。",
-        "common-mcq-03": "「共同目標 shared aim」與本句語境不同。",
-        "common-mcq-04": "「共同目標 shared target」與本句語境不同。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。"
+        "common-mcq-01": "本句的「common」指「共同的；共有的 passage sense」。",
+        "common-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-01"
     },
@@ -1608,11 +1596,9 @@ export default {
       "masked": "A ____ purpose can unite people with very different personalities.",
       "options": [
         "common-mcq-02",
-        "common-mcq-01",
-        "common-mcq-03",
-        "common-mcq-04",
-        "common-mcq-05",
-        "common-mcq-06"
+        "common-mcq-24",
+        "common-mcq-65",
+        "common-mcq-67"
       ],
       "explanation": "本句的「common」指「共同目的 team unity」。",
       "sentenceIndex": 3,
@@ -1621,12 +1607,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-02": "本句指「共同目的 team unity」。",
-        "common-mcq-01": "「共同的；共有的 passage sense」與本句語境不同。",
-        "common-mcq-03": "「共同目標 shared aim」與本句語境不同。",
-        "common-mcq-04": "「共同目標 shared target」與本句語境不同。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。"
+        "common-mcq-02": "本句的「common」指「共同目的 team unity」。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-02"
     },
@@ -1638,11 +1622,9 @@ export default {
       "masked": "Without a ____ purpose, teamwork can lose direction.",
       "options": [
         "common-mcq-02",
-        "common-mcq-01",
-        "common-mcq-03",
-        "common-mcq-04",
-        "common-mcq-05",
-        "common-mcq-06"
+        "common-mcq-60",
+        "common-mcq-46",
+        "common-mcq-39"
       ],
       "explanation": "本句的「common」指「共同目的 team unity」。",
       "sentenceIndex": 4,
@@ -1651,12 +1633,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-02": "本句指「共同目的 team unity」。",
-        "common-mcq-01": "「共同的；共有的 passage sense」與本句語境不同。",
-        "common-mcq-03": "「共同目標 shared aim」與本句語境不同。",
-        "common-mcq-04": "「共同目標 shared target」與本句語境不同。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。"
+        "common-mcq-02": "本句的「common」指「共同目的 team unity」。",
+        "common-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-02"
     },
@@ -1668,11 +1648,9 @@ export default {
       "masked": "Everyone must work towards a ____ goal.",
       "options": [
         "common-mcq-03",
-        "common-mcq-02",
-        "common-mcq-04",
-        "common-mcq-01",
-        "common-mcq-05",
-        "common-mcq-06"
+        "common-mcq-34",
+        "common-mcq-61",
+        "common-mcq-67"
       ],
       "explanation": "本句的「common」指「共同目標 shared aim」。",
       "sentenceIndex": 5,
@@ -1681,12 +1659,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-03": "本句指「共同目標 shared aim」。",
-        "common-mcq-02": "「共同目的 team unity」與本句語境不同。",
-        "common-mcq-04": "「共同目標 shared target」與本句語境不同。",
-        "common-mcq-01": "「共同的；共有的 passage sense」與本句語境不同。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。"
+        "common-mcq-03": "本句的「common」指「共同目標 shared aim」。",
+        "common-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-03"
     },
@@ -1698,11 +1674,9 @@ export default {
       "masked": "A ____ goal helps reduce internal competition.",
       "options": [
         "common-mcq-03",
-        "common-mcq-02",
-        "common-mcq-04",
-        "common-mcq-01",
-        "common-mcq-05",
-        "common-mcq-06"
+        "common-mcq-40",
+        "common-mcq-34",
+        "common-mcq-41"
       ],
       "explanation": "本句的「common」指「共同目標 shared aim」。",
       "sentenceIndex": 6,
@@ -1711,12 +1685,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-03": "本句指「共同目標 shared aim」。",
-        "common-mcq-02": "「共同目的 team unity」與本句語境不同。",
-        "common-mcq-04": "「共同目標 shared target」與本句語境不同。",
-        "common-mcq-01": "「共同的；共有的 passage sense」與本句語境不同。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。"
+        "common-mcq-03": "本句的「common」指「共同目標 shared aim」。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-03"
     },
@@ -1728,11 +1700,9 @@ export default {
       "masked": "The two departments agreed on a ____ objective.",
       "options": [
         "common-mcq-04",
-        "common-mcq-03",
-        "common-mcq-05",
-        "common-mcq-02",
-        "common-mcq-06",
-        "common-mcq-01"
+        "common-mcq-61",
+        "common-mcq-74",
+        "common-mcq-27"
       ],
       "explanation": "本句的「common」指「共同目標 shared target」。",
       "sentenceIndex": 7,
@@ -1741,12 +1711,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-04": "本句指「共同目標 shared target」。",
-        "common-mcq-03": "「共同目標 shared aim」與本句語境不同。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。",
-        "common-mcq-02": "「共同目的 team unity」與本句語境不同。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。",
-        "common-mcq-01": "「共同的；共有的 passage sense」與本句語境不同。"
+        "common-mcq-04": "本句的「common」指「共同目標 shared target」。",
+        "common-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-04"
     },
@@ -1758,11 +1726,9 @@ export default {
       "masked": "Different priorities can still support one ____ objective.",
       "options": [
         "common-mcq-04",
-        "common-mcq-03",
-        "common-mcq-05",
-        "common-mcq-02",
-        "common-mcq-06",
-        "common-mcq-01"
+        "common-mcq-43",
+        "common-mcq-36",
+        "common-mcq-27"
       ],
       "explanation": "本句的「common」指「共同目標 shared target」。",
       "sentenceIndex": 8,
@@ -1771,12 +1737,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-04": "本句指「共同目標 shared target」。",
-        "common-mcq-03": "「共同目標 shared aim」與本句語境不同。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。",
-        "common-mcq-02": "「共同目的 team unity」與本句語境不同。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。",
-        "common-mcq-01": "「共同的；共有的 passage sense」與本句語境不同。"
+        "common-mcq-04": "本句的「common」指「共同目標 shared target」。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-04"
     },
@@ -1788,11 +1752,9 @@ export default {
       "masked": "Staff safety is a ____ concern.",
       "options": [
         "common-mcq-06",
-        "common-mcq-05",
-        "common-mcq-07",
-        "common-mcq-04",
-        "common-mcq-08",
-        "common-mcq-03"
+        "common-mcq-46",
+        "common-mcq-29",
+        "common-mcq-41"
       ],
       "explanation": "本句的「common」指「共同關注 shared concern」。",
       "sentenceIndex": 9,
@@ -1801,12 +1763,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-06": "本句指「共同關注 shared concern」。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。",
-        "common-mcq-07": "「共同敵人 shared opposition」與本句語境不同。",
-        "common-mcq-04": "「共同目標 shared target」與本句語境不同。",
-        "common-mcq-08": "「共同事業 shared cause」與本句語境不同。",
-        "common-mcq-03": "「共同目標 shared aim」與本句語境不同。"
+        "common-mcq-06": "本句的「common」指「共同關注 shared concern」。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-06"
     },
@@ -1818,11 +1778,9 @@ export default {
       "masked": "The meeting focused on areas of ____ concern.",
       "options": [
         "common-mcq-06",
-        "common-mcq-05",
-        "common-mcq-07",
-        "common-mcq-04",
-        "common-mcq-08",
-        "common-mcq-03"
+        "common-mcq-25",
+        "common-mcq-36",
+        "common-mcq-65"
       ],
       "explanation": "本句的「common」指「共同關注 shared concern」。",
       "sentenceIndex": 10,
@@ -1831,12 +1789,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-06": "本句指「共同關注 shared concern」。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。",
-        "common-mcq-07": "「共同敵人 shared opposition」與本句語境不同。",
-        "common-mcq-04": "「共同目標 shared target」與本句語境不同。",
-        "common-mcq-08": "「共同事業 shared cause」與本句語境不同。",
-        "common-mcq-03": "「共同目標 shared aim」與本句語境不同。"
+        "common-mcq-06": "本句的「common」指「共同關注 shared concern」。",
+        "common-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-06"
     },
@@ -1848,11 +1804,9 @@ export default {
       "masked": "Rival groups sometimes cooperate against a ____ enemy.",
       "options": [
         "common-mcq-07",
-        "common-mcq-06",
-        "common-mcq-08",
-        "common-mcq-05",
-        "common-mcq-09",
-        "common-mcq-04"
+        "common-mcq-68",
+        "common-mcq-66",
+        "common-mcq-43"
       ],
       "explanation": "本句的「common」指「共同敵人 shared opposition」。",
       "sentenceIndex": 11,
@@ -1861,12 +1815,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-07": "本句指「共同敵人 shared opposition」。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。",
-        "common-mcq-08": "「共同事業 shared cause」與本句語境不同。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。",
-        "common-mcq-09": "「共同點；共識 agreement」與本句語境不同。",
-        "common-mcq-04": "「共同目標 shared target」與本句語境不同。"
+        "common-mcq-07": "本句的「common」指「共同敵人 shared opposition」。",
+        "common-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-07"
     },
@@ -1878,11 +1830,9 @@ export default {
       "masked": "A ____ enemy can temporarily unite divided groups.",
       "options": [
         "common-mcq-07",
-        "common-mcq-06",
-        "common-mcq-08",
-        "common-mcq-05",
-        "common-mcq-09",
-        "common-mcq-04"
+        "common-mcq-65",
+        "common-mcq-40",
+        "common-mcq-67"
       ],
       "explanation": "本句的「common」指「共同敵人 shared opposition」。",
       "sentenceIndex": 12,
@@ -1891,12 +1841,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-07": "本句指「共同敵人 shared opposition」。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。",
-        "common-mcq-08": "「共同事業 shared cause」與本句語境不同。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。",
-        "common-mcq-09": "「共同點；共識 agreement」與本句語境不同。",
-        "common-mcq-04": "「共同目標 shared target」與本句語境不同。"
+        "common-mcq-07": "本句的「common」指「共同敵人 shared opposition」。",
+        "common-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-07"
     },
@@ -1908,11 +1856,9 @@ export default {
       "masked": "The organisations joined together in a ____ cause.",
       "options": [
         "common-mcq-08",
-        "common-mcq-07",
-        "common-mcq-09",
-        "common-mcq-06",
-        "common-mcq-10",
-        "common-mcq-05"
+        "common-mcq-61",
+        "common-mcq-26",
+        "common-mcq-39"
       ],
       "explanation": "本句的「common」指「共同事業 shared cause」。",
       "sentenceIndex": 13,
@@ -1921,12 +1867,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-08": "本句指「共同事業 shared cause」。",
-        "common-mcq-07": "「共同敵人 shared opposition」與本句語境不同。",
-        "common-mcq-09": "「共同點；共識 agreement」與本句語境不同。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。",
-        "common-mcq-10": "「尋找共識 reconciliation」與本句語境不同。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。"
+        "common-mcq-08": "本句的「common」指「共同事業 shared cause」。",
+        "common-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-08"
     },
@@ -1938,11 +1882,9 @@ export default {
       "masked": "Shared difficulties gave the workers a sense of ____ cause.",
       "options": [
         "common-mcq-08",
-        "common-mcq-07",
-        "common-mcq-09",
-        "common-mcq-06",
-        "common-mcq-10",
-        "common-mcq-05"
+        "common-mcq-55",
+        "common-mcq-36",
+        "common-mcq-73"
       ],
       "explanation": "本句的「common」指「共同事業 shared cause」。",
       "sentenceIndex": 14,
@@ -1951,12 +1893,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-08": "本句指「共同事業 shared cause」。",
-        "common-mcq-07": "「共同敵人 shared opposition」與本句語境不同。",
-        "common-mcq-09": "「共同點；共識 agreement」與本句語境不同。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。",
-        "common-mcq-10": "「尋找共識 reconciliation」與本句語境不同。",
-        "common-mcq-05": "「共同興趣／利益 shared interest」與本句語境不同。"
+        "common-mcq-08": "本句的「common」指「共同事業 shared cause」。",
+        "common-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-08"
     },
@@ -1968,11 +1908,9 @@ export default {
       "masked": "The two sides need to find ____ ground.",
       "options": [
         "common-mcq-09",
-        "common-mcq-08",
-        "common-mcq-10",
-        "common-mcq-07",
-        "common-mcq-11",
-        "common-mcq-06"
+        "common-mcq-45",
+        "common-mcq-55",
+        "common-mcq-40"
       ],
       "explanation": "本句的「common」指「共同點；共識 agreement」。",
       "sentenceIndex": 15,
@@ -1981,12 +1919,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-09": "本句指「共同點；共識 agreement」。",
-        "common-mcq-08": "「共同事業 shared cause」與本句語境不同。",
-        "common-mcq-10": "「尋找共識 reconciliation」與本句語境不同。",
-        "common-mcq-07": "「共同敵人 shared opposition」與本句語境不同。",
-        "common-mcq-11": "「共同紐帶 relationship」與本句語境不同。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。"
+        "common-mcq-09": "本句的「common」指「共同點；共識 agreement」。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-09"
     },
@@ -1998,11 +1934,9 @@ export default {
       "masked": "Despite their differences, they found some ____ ground.",
       "options": [
         "common-mcq-09",
-        "common-mcq-08",
-        "common-mcq-10",
-        "common-mcq-07",
-        "common-mcq-11",
-        "common-mcq-06"
+        "common-mcq-51",
+        "common-mcq-45",
+        "common-mcq-35"
       ],
       "explanation": "本句的「common」指「共同點；共識 agreement」。",
       "sentenceIndex": 16,
@@ -2011,12 +1945,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-09": "本句指「共同點；共識 agreement」。",
-        "common-mcq-08": "「共同事業 shared cause」與本句語境不同。",
-        "common-mcq-10": "「尋找共識 reconciliation」與本句語境不同。",
-        "common-mcq-07": "「共同敵人 shared opposition」與本句語境不同。",
-        "common-mcq-11": "「共同紐帶 relationship」與本句語境不同。",
-        "common-mcq-06": "「共同關注 shared concern」與本句語境不同。"
+        "common-mcq-09": "本句的「common」指「共同點；共識 agreement」。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-09"
     },
@@ -2028,11 +1960,9 @@ export default {
       "masked": "Conflict resolution often begins by finding ____ ground.",
       "options": [
         "common-mcq-10",
-        "common-mcq-09",
-        "common-mcq-11",
-        "common-mcq-08",
-        "common-mcq-12",
-        "common-mcq-07"
+        "common-mcq-41",
+        "common-mcq-24",
+        "common-mcq-40"
       ],
       "explanation": "本句的「common」指「尋找共識 reconciliation」。",
       "sentenceIndex": 17,
@@ -2041,12 +1971,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-10": "本句指「尋找共識 reconciliation」。",
-        "common-mcq-09": "「共同點；共識 agreement」與本句語境不同。",
-        "common-mcq-11": "「共同紐帶 relationship」與本句語境不同。",
-        "common-mcq-08": "「共同事業 shared cause」與本句語境不同。",
-        "common-mcq-12": "「共同身份認同 identity」與本句語境不同。",
-        "common-mcq-07": "「共同敵人 shared opposition」與本句語境不同。"
+        "common-mcq-10": "本句的「common」指「尋找共識 reconciliation」。",
+        "common-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-10"
     },
@@ -2058,11 +1986,9 @@ export default {
       "masked": "The managers found ____ ground on safety.",
       "options": [
         "common-mcq-10",
-        "common-mcq-09",
-        "common-mcq-11",
-        "common-mcq-08",
-        "common-mcq-12",
-        "common-mcq-07"
+        "common-mcq-70",
+        "common-mcq-60",
+        "common-mcq-34"
       ],
       "explanation": "本句的「common」指「尋找共識 reconciliation」。",
       "sentenceIndex": 18,
@@ -2071,12 +1997,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-10": "本句指「尋找共識 reconciliation」。",
-        "common-mcq-09": "「共同點；共識 agreement」與本句語境不同。",
-        "common-mcq-11": "「共同紐帶 relationship」與本句語境不同。",
-        "common-mcq-08": "「共同事業 shared cause」與本句語境不同。",
-        "common-mcq-12": "「共同身份認同 identity」與本句語境不同。",
-        "common-mcq-07": "「共同敵人 shared opposition」與本句語境不同。"
+        "common-mcq-10": "本句的「common」指「尋找共識 reconciliation」。",
+        "common-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-10"
     },
@@ -2088,11 +2012,9 @@ export default {
       "masked": "Shared experience created a ____ bond.",
       "options": [
         "common-mcq-11",
-        "common-mcq-10",
-        "common-mcq-12",
-        "common-mcq-09",
-        "common-mcq-13",
-        "common-mcq-08"
+        "common-mcq-39",
+        "common-mcq-46",
+        "common-mcq-55"
       ],
       "explanation": "本句的「common」指「共同紐帶 relationship」。",
       "sentenceIndex": 21,
@@ -2101,12 +2023,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-11": "本句指「共同紐帶 relationship」。",
-        "common-mcq-10": "「尋找共識 reconciliation」與本句語境不同。",
-        "common-mcq-12": "「共同身份認同 identity」與本句語境不同。",
-        "common-mcq-09": "「共同點；共識 agreement」與本句語境不同。",
-        "common-mcq-13": "「共同經歷 shared experience」與本句語境不同。",
-        "common-mcq-08": "「共同事業 shared cause」與本句語境不同。"
+        "common-mcq-11": "本句的「common」指「共同紐帶 relationship」。",
+        "common-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-11"
     },
@@ -2118,11 +2038,9 @@ export default {
       "masked": "Team members developed a ____ bond through the project.",
       "options": [
         "common-mcq-11",
-        "common-mcq-10",
-        "common-mcq-12",
-        "common-mcq-09",
-        "common-mcq-13",
-        "common-mcq-08"
+        "common-mcq-65",
+        "common-mcq-41",
+        "common-mcq-43"
       ],
       "explanation": "本句的「common」指「共同紐帶 relationship」。",
       "sentenceIndex": 22,
@@ -2131,12 +2049,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-11": "本句指「共同紐帶 relationship」。",
-        "common-mcq-10": "「尋找共識 reconciliation」與本句語境不同。",
-        "common-mcq-12": "「共同身份認同 identity」與本句語境不同。",
-        "common-mcq-09": "「共同點；共識 agreement」與本句語境不同。",
-        "common-mcq-13": "「共同經歷 shared experience」與本句語境不同。",
-        "common-mcq-08": "「共同事業 shared cause」與本句語境不同。"
+        "common-mcq-11": "本句的「common」指「共同紐帶 relationship」。",
+        "common-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-11"
     },
@@ -2148,11 +2064,9 @@ export default {
       "masked": "Strong teams often develop a ____ identity.",
       "options": [
         "common-mcq-12",
-        "common-mcq-11",
-        "common-mcq-13",
-        "common-mcq-10",
-        "common-mcq-14",
-        "common-mcq-09"
+        "common-mcq-51",
+        "common-mcq-34",
+        "common-mcq-43"
       ],
       "explanation": "本句的「common」指「共同身份認同 identity」。",
       "sentenceIndex": 23,
@@ -2161,12 +2075,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-12": "本句指「共同身份認同 identity」。",
-        "common-mcq-11": "「共同紐帶 relationship」與本句語境不同。",
-        "common-mcq-13": "「共同經歷 shared experience」與本句語境不同。",
-        "common-mcq-10": "「尋找共識 reconciliation」與本句語境不同。",
-        "common-mcq-14": "「共同歷史 history」與本句語境不同。",
-        "common-mcq-09": "「共同點；共識 agreement」與本句語境不同。"
+        "common-mcq-12": "本句的「common」指「共同身份認同 identity」。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-12"
     },
@@ -2178,11 +2090,9 @@ export default {
       "masked": "A ____ identity can coexist with individual differences.",
       "options": [
         "common-mcq-12",
-        "common-mcq-11",
-        "common-mcq-13",
-        "common-mcq-10",
-        "common-mcq-14",
-        "common-mcq-09"
+        "common-mcq-34",
+        "common-mcq-51",
+        "common-mcq-67"
       ],
       "explanation": "本句的「common」指「共同身份認同 identity」。",
       "sentenceIndex": 24,
@@ -2191,12 +2101,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-12": "本句指「共同身份認同 identity」。",
-        "common-mcq-11": "「共同紐帶 relationship」與本句語境不同。",
-        "common-mcq-13": "「共同經歷 shared experience」與本句語境不同。",
-        "common-mcq-10": "「尋找共識 reconciliation」與本句語境不同。",
-        "common-mcq-14": "「共同歷史 history」與本句語境不同。",
-        "common-mcq-09": "「共同點；共識 agreement」與本句語境不同。"
+        "common-mcq-12": "本句的「common」指「共同身份認同 identity」。",
+        "common-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-12"
     },
@@ -2208,11 +2116,9 @@ export default {
       "masked": "The crisis became a ____ experience for the whole organisation.",
       "options": [
         "common-mcq-13",
-        "common-mcq-12",
-        "common-mcq-14",
-        "common-mcq-11",
-        "common-mcq-15",
-        "common-mcq-10"
+        "common-mcq-64",
+        "common-mcq-55",
+        "common-mcq-45"
       ],
       "explanation": "本句的「common」指「共同經歷 shared experience」。",
       "sentenceIndex": 25,
@@ -2221,12 +2127,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-13": "本句指「共同經歷 shared experience」。",
-        "common-mcq-12": "「共同身份認同 identity」與本句語境不同。",
-        "common-mcq-14": "「共同歷史 history」與本句語境不同。",
-        "common-mcq-11": "「共同紐帶 relationship」與本句語境不同。",
-        "common-mcq-15": "「共同文化遺產 heritage」與本句語境不同。",
-        "common-mcq-10": "「尋找共識 reconciliation」與本句語境不同。"
+        "common-mcq-13": "本句的「common」指「共同經歷 shared experience」。",
+        "common-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-13"
     },
@@ -2238,11 +2142,9 @@ export default {
       "masked": "____ experiences can strengthen relationships.",
       "options": [
         "common-mcq-13",
-        "common-mcq-12",
-        "common-mcq-14",
-        "common-mcq-11",
-        "common-mcq-15",
-        "common-mcq-10"
+        "common-mcq-29",
+        "common-mcq-43",
+        "common-mcq-59"
       ],
       "explanation": "本句的「Common」指「共同經歷 shared experience」。",
       "sentenceIndex": 26,
@@ -2251,12 +2153,10 @@ export default {
         "Common"
       ],
       "optionReasons": {
-        "common-mcq-13": "本句指「共同經歷 shared experience」。",
-        "common-mcq-12": "「共同身份認同 identity」與本句語境不同。",
-        "common-mcq-14": "「共同歷史 history」與本句語境不同。",
-        "common-mcq-11": "「共同紐帶 relationship」與本句語境不同。",
-        "common-mcq-15": "「共同文化遺產 heritage」與本句語境不同。",
-        "common-mcq-10": "「尋找共識 reconciliation」與本句語境不同。"
+        "common-mcq-13": "本句的「Common」指「共同經歷 shared experience」。",
+        "common-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-13"
     },
@@ -2268,11 +2168,9 @@ export default {
       "masked": "The two communities share a ____ history.",
       "options": [
         "common-mcq-14",
-        "common-mcq-13",
-        "common-mcq-15",
-        "common-mcq-12",
-        "common-mcq-16",
-        "common-mcq-11"
+        "common-mcq-60",
+        "common-mcq-41",
+        "common-mcq-24"
       ],
       "explanation": "本句的「common」指「共同歷史 history」。",
       "sentenceIndex": 29,
@@ -2281,12 +2179,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-14": "本句指「共同歷史 history」。",
-        "common-mcq-13": "「共同經歷 shared experience」與本句語境不同。",
-        "common-mcq-15": "「共同文化遺產 heritage」與本句語境不同。",
-        "common-mcq-12": "「共同身份認同 identity」與本句語境不同。",
-        "common-mcq-16": "「共同／共通語言 communication」與本句語境不同。",
-        "common-mcq-11": "「共同紐帶 relationship」與本句語境不同。"
+        "common-mcq-14": "本句的「common」指「共同歷史 history」。",
+        "common-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-14"
     },
@@ -2298,11 +2194,9 @@ export default {
       "masked": "____ history can shape group identity.",
       "options": [
         "common-mcq-14",
-        "common-mcq-13",
-        "common-mcq-15",
-        "common-mcq-12",
-        "common-mcq-16",
-        "common-mcq-11"
+        "common-mcq-26",
+        "common-mcq-36",
+        "common-mcq-60"
       ],
       "explanation": "本句的「Common」指「共同歷史 history」。",
       "sentenceIndex": 30,
@@ -2311,12 +2205,10 @@ export default {
         "Common"
       ],
       "optionReasons": {
-        "common-mcq-14": "本句指「共同歷史 history」。",
-        "common-mcq-13": "「共同經歷 shared experience」與本句語境不同。",
-        "common-mcq-15": "「共同文化遺產 heritage」與本句語境不同。",
-        "common-mcq-12": "「共同身份認同 identity」與本句語境不同。",
-        "common-mcq-16": "「共同／共通語言 communication」與本句語境不同。",
-        "common-mcq-11": "「共同紐帶 relationship」與本句語境不同。"
+        "common-mcq-14": "本句的「Common」指「共同歷史 history」。",
+        "common-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-14"
     },
@@ -2328,11 +2220,9 @@ export default {
       "masked": "The project celebrates the region's ____ heritage.",
       "options": [
         "common-mcq-15",
-        "common-mcq-14",
-        "common-mcq-16",
-        "common-mcq-13",
-        "common-mcq-17",
-        "common-mcq-12"
+        "common-mcq-46",
+        "common-mcq-66",
+        "common-mcq-70"
       ],
       "explanation": "本句的「common」指「共同文化遺產 heritage」。",
       "sentenceIndex": 31,
@@ -2341,12 +2231,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-15": "本句指「共同文化遺產 heritage」。",
-        "common-mcq-14": "「共同歷史 history」與本句語境不同。",
-        "common-mcq-16": "「共同／共通語言 communication」與本句語境不同。",
-        "common-mcq-13": "「共同經歷 shared experience」與本句語境不同。",
-        "common-mcq-17": "「有共同之處 similarity」與本句語境不同。",
-        "common-mcq-12": "「共同身份認同 identity」與本句語境不同。"
+        "common-mcq-15": "本句的「common」指「共同文化遺產 heritage」。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-15"
     },
@@ -2358,11 +2246,9 @@ export default {
       "masked": "Different groups may still share a ____ heritage.",
       "options": [
         "common-mcq-15",
-        "common-mcq-14",
-        "common-mcq-16",
-        "common-mcq-13",
-        "common-mcq-17",
-        "common-mcq-12"
+        "common-mcq-73",
+        "common-mcq-51",
+        "common-mcq-46"
       ],
       "explanation": "本句的「common」指「共同文化遺產 heritage」。",
       "sentenceIndex": 32,
@@ -2371,12 +2257,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-15": "本句指「共同文化遺產 heritage」。",
-        "common-mcq-14": "「共同歷史 history」與本句語境不同。",
-        "common-mcq-16": "「共同／共通語言 communication」與本句語境不同。",
-        "common-mcq-13": "「共同經歷 shared experience」與本句語境不同。",
-        "common-mcq-17": "「有共同之處 similarity」與本句語境不同。",
-        "common-mcq-12": "「共同身份認同 identity」與本句語境不同。"
+        "common-mcq-15": "本句的「common」指「共同文化遺產 heritage」。",
+        "common-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-15"
     },
@@ -2388,11 +2272,9 @@ export default {
       "masked": "The teams need a ____ language for discussing risk.",
       "options": [
         "common-mcq-16",
-        "common-mcq-15",
-        "common-mcq-17",
-        "common-mcq-14",
-        "common-mcq-18",
-        "common-mcq-13"
+        "common-mcq-51",
+        "common-mcq-24",
+        "common-mcq-43"
       ],
       "explanation": "本句的「common」指「共同／共通語言 communication」。",
       "sentenceIndex": 33,
@@ -2401,12 +2283,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-16": "本句指「共同／共通語言 communication」。",
-        "common-mcq-15": "「共同文化遺產 heritage」與本句語境不同。",
-        "common-mcq-17": "「有共同之處 similarity」與本句語境不同。",
-        "common-mcq-14": "「共同歷史 history」與本句語境不同。",
-        "common-mcq-18": "「有很多共同點 similarity」與本句語境不同。",
-        "common-mcq-13": "「共同經歷 shared experience」與本句語境不同。"
+        "common-mcq-16": "本句的「common」指「共同／共通語言 communication」。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-16"
     },
@@ -2418,11 +2298,9 @@ export default {
       "masked": "English served as a ____ language.",
       "options": [
         "common-mcq-16",
-        "common-mcq-15",
-        "common-mcq-17",
-        "common-mcq-14",
-        "common-mcq-18",
-        "common-mcq-13"
+        "common-mcq-60",
+        "common-mcq-73",
+        "common-mcq-43"
       ],
       "explanation": "本句的「common」指「共同／共通語言 communication」。",
       "sentenceIndex": 34,
@@ -2431,12 +2309,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-16": "本句指「共同／共通語言 communication」。",
-        "common-mcq-15": "「共同文化遺產 heritage」與本句語境不同。",
-        "common-mcq-17": "「有共同之處 similarity」與本句語境不同。",
-        "common-mcq-14": "「共同歷史 history」與本句語境不同。",
-        "common-mcq-18": "「有很多共同點 similarity」與本句語境不同。",
-        "common-mcq-13": "「共同經歷 shared experience」與本句語境不同。"
+        "common-mcq-16": "本句的「common」指「共同／共通語言 communication」。",
+        "common-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-16"
     },
@@ -2448,11 +2324,9 @@ export default {
       "masked": "The departments developed a ____ language for performance measurement.",
       "options": [
         "common-mcq-16",
-        "common-mcq-15",
-        "common-mcq-17",
-        "common-mcq-14",
-        "common-mcq-18",
-        "common-mcq-13"
+        "common-mcq-51",
+        "common-mcq-24",
+        "common-mcq-43"
       ],
       "explanation": "本句的「common」指「共同／共通語言 communication」。",
       "sentenceIndex": 35,
@@ -2461,12 +2335,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-16": "本句指「共同／共通語言 communication」。",
-        "common-mcq-15": "「共同文化遺產 heritage」與本句語境不同。",
-        "common-mcq-17": "「有共同之處 similarity」與本句語境不同。",
-        "common-mcq-14": "「共同歷史 history」與本句語境不同。",
-        "common-mcq-18": "「有很多共同點 similarity」與本句語境不同。",
-        "common-mcq-13": "「共同經歷 shared experience」與本句語境不同。"
+        "common-mcq-16": "本句的「common」指「共同／共通語言 communication」。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-16"
     },
@@ -2478,11 +2350,9 @@ export default {
       "masked": "A ____ language reduces misunderstanding between specialists.",
       "options": [
         "common-mcq-16",
-        "common-mcq-15",
-        "common-mcq-17",
-        "common-mcq-14",
-        "common-mcq-18",
-        "common-mcq-13"
+        "common-mcq-45",
+        "common-mcq-27",
+        "common-mcq-40"
       ],
       "explanation": "本句的「common」指「共同／共通語言 communication」。",
       "sentenceIndex": 36,
@@ -2491,12 +2361,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-16": "本句指「共同／共通語言 communication」。",
-        "common-mcq-15": "「共同文化遺產 heritage」與本句語境不同。",
-        "common-mcq-17": "「有共同之處 similarity」與本句語境不同。",
-        "common-mcq-14": "「共同歷史 history」與本句語境不同。",
-        "common-mcq-18": "「有很多共同點 similarity」與本句語境不同。",
-        "common-mcq-13": "「共同經歷 shared experience」與本句語境不同。"
+        "common-mcq-16": "本句的「common」指「共同／共通語言 communication」。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-16"
     },
@@ -2508,11 +2376,9 @@ export default {
       "masked": "The two teams have a lot in ____.",
       "options": [
         "common-mcq-17",
-        "common-mcq-16",
-        "common-mcq-18",
-        "common-mcq-15",
-        "common-mcq-19",
-        "common-mcq-14"
+        "common-mcq-41",
+        "common-mcq-29",
+        "common-mcq-65"
       ],
       "explanation": "本句的「common」指「有共同之處 similarity」。",
       "sentenceIndex": 37,
@@ -2521,12 +2387,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-17": "本句指「有共同之處 similarity」。",
-        "common-mcq-16": "「共同／共通語言 communication」與本句語境不同。",
-        "common-mcq-18": "「有很多共同點 similarity」與本句語境不同。",
-        "common-mcq-15": "「共同文化遺產 heritage」與本句語境不同。",
-        "common-mcq-19": "「共同點很少 difference」與本句語境不同。",
-        "common-mcq-14": "「共同歷史 history」與本句語境不同。"
+        "common-mcq-17": "本句的「common」指「有共同之處 similarity」。",
+        "common-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-17"
     },
@@ -2538,11 +2402,9 @@ export default {
       "masked": "What do these examples have in ____?",
       "options": [
         "common-mcq-17",
-        "common-mcq-16",
-        "common-mcq-18",
-        "common-mcq-15",
-        "common-mcq-19",
-        "common-mcq-14"
+        "common-mcq-74",
+        "common-mcq-66",
+        "common-mcq-51"
       ],
       "explanation": "本句的「common」指「有共同之處 similarity」。",
       "sentenceIndex": 38,
@@ -2551,12 +2413,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-17": "本句指「有共同之處 similarity」。",
-        "common-mcq-16": "「共同／共通語言 communication」與本句語境不同。",
-        "common-mcq-18": "「有很多共同點 similarity」與本句語境不同。",
-        "common-mcq-15": "「共同文化遺產 heritage」與本句語境不同。",
-        "common-mcq-19": "「共同點很少 difference」與本句語境不同。",
-        "common-mcq-14": "「共同歷史 history」與本句語境不同。"
+        "common-mcq-17": "本句的「common」指「有共同之處 similarity」。",
+        "common-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-17"
     },
@@ -2568,11 +2428,9 @@ export default {
       "masked": "They seem different, but they have a lot in ____.",
       "options": [
         "common-mcq-18",
-        "common-mcq-17",
-        "common-mcq-19",
-        "common-mcq-16",
-        "common-mcq-20",
-        "common-mcq-15"
+        "common-mcq-36",
+        "common-mcq-45",
+        "common-mcq-51"
       ],
       "explanation": "本句的「common」指「有很多共同點 similarity」。",
       "sentenceIndex": 39,
@@ -2581,12 +2439,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-18": "本句指「有很多共同點 similarity」。",
-        "common-mcq-17": "「有共同之處 similarity」與本句語境不同。",
-        "common-mcq-19": "「共同點很少 difference」與本句語境不同。",
-        "common-mcq-16": "「共同／共通語言 communication」與本句語境不同。",
-        "common-mcq-20": "「毫無共同點 difference」與本句語境不同。",
-        "common-mcq-15": "「共同文化遺產 heritage」與本句語境不同。"
+        "common-mcq-18": "本句的「common」指「有很多共同點 similarity」。",
+        "common-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-18"
     },
@@ -2598,11 +2454,9 @@ export default {
       "masked": "Effective leaders often have certain qualities in ____.",
       "options": [
         "common-mcq-18",
-        "common-mcq-17",
-        "common-mcq-19",
-        "common-mcq-16",
-        "common-mcq-20",
-        "common-mcq-15"
+        "common-mcq-65",
+        "common-mcq-67",
+        "common-mcq-43"
       ],
       "explanation": "本句的「common」指「有很多共同點 similarity」。",
       "sentenceIndex": 40,
@@ -2611,12 +2465,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-18": "本句指「有很多共同點 similarity」。",
-        "common-mcq-17": "「有共同之處 similarity」與本句語境不同。",
-        "common-mcq-19": "「共同點很少 difference」與本句語境不同。",
-        "common-mcq-16": "「共同／共通語言 communication」與本句語境不同。",
-        "common-mcq-20": "「毫無共同點 difference」與本句語境不同。",
-        "common-mcq-15": "「共同文化遺產 heritage」與本句語境不同。"
+        "common-mcq-18": "本句的「common」指「有很多共同點 similarity」。",
+        "common-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-18"
     },
@@ -2628,11 +2480,9 @@ export default {
       "masked": "The two colleagues have little in ____ outside work.",
       "options": [
         "common-mcq-19",
-        "common-mcq-18",
-        "common-mcq-20",
-        "common-mcq-17",
-        "common-mcq-21",
-        "common-mcq-16"
+        "common-mcq-46",
+        "common-mcq-66",
+        "common-mcq-57"
       ],
       "explanation": "本句的「common」指「共同點很少 difference」。",
       "sentenceIndex": 41,
@@ -2641,12 +2491,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-19": "本句指「共同點很少 difference」。",
-        "common-mcq-18": "「有很多共同點 similarity」與本句語境不同。",
-        "common-mcq-20": "「毫無共同點 difference」與本句語境不同。",
-        "common-mcq-17": "「有共同之處 similarity」與本句語境不同。",
-        "common-mcq-21": "「與……一樣／共有 shared trait」與本句語境不同。",
-        "common-mcq-16": "「共同／共通語言 communication」與本句語境不同。"
+        "common-mcq-19": "本句的「common」指「共同點很少 difference」。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-19"
     },
@@ -2658,11 +2506,9 @@ export default {
       "masked": "Their approaches have little in ____.",
       "options": [
         "common-mcq-19",
-        "common-mcq-18",
-        "common-mcq-20",
-        "common-mcq-17",
-        "common-mcq-21",
-        "common-mcq-16"
+        "common-mcq-66",
+        "common-mcq-57",
+        "common-mcq-43"
       ],
       "explanation": "本句的「common」指「共同點很少 difference」。",
       "sentenceIndex": 42,
@@ -2671,12 +2517,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-19": "本句指「共同點很少 difference」。",
-        "common-mcq-18": "「有很多共同點 similarity」與本句語境不同。",
-        "common-mcq-20": "「毫無共同點 difference」與本句語境不同。",
-        "common-mcq-17": "「有共同之處 similarity」與本句語境不同。",
-        "common-mcq-21": "「與……一樣／共有 shared trait」與本句語境不同。",
-        "common-mcq-16": "「共同／共通語言 communication」與本句語境不同。"
+        "common-mcq-19": "本句的「common」指「共同點很少 difference」。",
+        "common-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-19"
     },
@@ -2688,11 +2532,9 @@ export default {
       "masked": "They thought they had nothing in ____.",
       "options": [
         "common-mcq-19",
-        "common-mcq-18",
-        "common-mcq-20",
-        "common-mcq-17",
-        "common-mcq-21",
-        "common-mcq-16"
+        "common-mcq-65",
+        "common-mcq-26",
+        "common-mcq-45"
       ],
       "explanation": "本句的「common」指「共同點很少 difference」。",
       "sentenceIndex": 43,
@@ -2701,12 +2543,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-19": "本句指「共同點很少 difference」。",
-        "common-mcq-18": "「有很多共同點 similarity」與本句語境不同。",
-        "common-mcq-20": "「毫無共同點 difference」與本句語境不同。",
-        "common-mcq-17": "「有共同之處 similarity」與本句語境不同。",
-        "common-mcq-21": "「與……一樣／共有 shared trait」與本句語境不同。",
-        "common-mcq-16": "「共同／共通語言 communication」與本句語境不同。"
+        "common-mcq-19": "本句的「common」指「共同點很少 difference」。",
+        "common-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-19"
     },
@@ -2718,11 +2558,9 @@ export default {
       "masked": "The two methods have almost nothing in ____.",
       "options": [
         "common-mcq-19",
-        "common-mcq-18",
-        "common-mcq-20",
-        "common-mcq-17",
-        "common-mcq-21",
-        "common-mcq-16"
+        "common-mcq-43",
+        "common-mcq-61",
+        "common-mcq-74"
       ],
       "explanation": "本句的「common」指「共同點很少 difference」。",
       "sentenceIndex": 44,
@@ -2731,12 +2569,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-19": "本句指「共同點很少 difference」。",
-        "common-mcq-18": "「有很多共同點 similarity」與本句語境不同。",
-        "common-mcq-20": "「毫無共同點 difference」與本句語境不同。",
-        "common-mcq-17": "「有共同之處 similarity」與本句語境不同。",
-        "common-mcq-21": "「與……一樣／共有 shared trait」與本句語境不同。",
-        "common-mcq-16": "「共同／共通語言 communication」與本句語境不同。"
+        "common-mcq-19": "本句的「common」指「共同點很少 difference」。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-19"
     },
@@ -2748,11 +2584,9 @@ export default {
       "masked": "Free-riding is a ____ problem in poorly structured group work.",
       "options": [
         "common-mcq-24",
-        "common-mcq-23",
-        "common-mcq-25",
-        "common-mcq-22",
-        "common-mcq-26",
-        "common-mcq-21"
+        "common-mcq-74",
+        "common-mcq-62",
+        "common-mcq-61"
       ],
       "explanation": "本句的「common」指「常見問題 frequency」。",
       "sentenceIndex": 54,
@@ -2761,12 +2595,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-24": "本句指「常見問題 frequency」。",
-        "common-mcq-23": "「常見的；普遍的 frequency」與本句語境不同。",
-        "common-mcq-25": "「常見錯誤 frequency」與本句語境不同。",
-        "common-mcq-22": "「共同點；共通性 shared features」與本句語境不同。",
-        "common-mcq-26": "「常見現象 frequency」與本句語境不同。",
-        "common-mcq-21": "「與……一樣／共有 shared trait」與本句語境不同。"
+        "common-mcq-24": "本句的「common」指「常見問題 frequency」。",
+        "common-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-24"
     },
@@ -2778,11 +2610,9 @@ export default {
       "masked": "Delayed communication is a ____ problem.",
       "options": [
         "common-mcq-24",
-        "common-mcq-23",
-        "common-mcq-25",
-        "common-mcq-22",
-        "common-mcq-26",
-        "common-mcq-21"
+        "common-mcq-48",
+        "common-mcq-43",
+        "common-mcq-41"
       ],
       "explanation": "本句的「common」指「常見問題 frequency」。",
       "sentenceIndex": 55,
@@ -2791,12 +2621,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-24": "本句指「常見問題 frequency」。",
-        "common-mcq-23": "「常見的；普遍的 frequency」與本句語境不同。",
-        "common-mcq-25": "「常見錯誤 frequency」與本句語境不同。",
-        "common-mcq-22": "「共同點；共通性 shared features」與本句語境不同。",
-        "common-mcq-26": "「常見現象 frequency」與本句語境不同。",
-        "common-mcq-21": "「與……一樣／共有 shared trait」與本句語境不同。"
+        "common-mcq-24": "本句的「common」指「常見問題 frequency」。",
+        "common-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-24"
     },
@@ -2808,11 +2636,9 @@ export default {
       "masked": "This is a ____ mistake.",
       "options": [
         "common-mcq-25",
-        "common-mcq-24",
-        "common-mcq-26",
-        "common-mcq-23",
-        "common-mcq-27",
-        "common-mcq-22"
+        "common-mcq-70",
+        "common-mcq-45",
+        "common-mcq-18"
       ],
       "explanation": "本句的「common」指「常見錯誤 frequency」。",
       "sentenceIndex": 56,
@@ -2821,12 +2647,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-25": "本句指「常見錯誤 frequency」。",
-        "common-mcq-24": "「常見問題 frequency」與本句語境不同。",
-        "common-mcq-26": "「常見現象 frequency」與本句語境不同。",
-        "common-mcq-23": "「常見的；普遍的 frequency」與本句語境不同。",
-        "common-mcq-27": "「常見／慣常做法 frequency」與本句語境不同。",
-        "common-mcq-22": "「共同點；共通性 shared features」與本句語境不同。"
+        "common-mcq-25": "本句的「common」指「常見錯誤 frequency」。",
+        "common-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-25"
     },
@@ -2838,11 +2662,9 @@ export default {
       "masked": "A ____ mistake is to confuse “common” with “ordinary” in every context.",
       "options": [
         "common-mcq-25",
-        "common-mcq-24",
-        "common-mcq-26",
-        "common-mcq-23",
-        "common-mcq-27",
-        "common-mcq-22"
+        "common-mcq-59",
+        "common-mcq-53",
+        "common-mcq-36"
       ],
       "explanation": "本句的「common」指「常見錯誤 frequency」。",
       "sentenceIndex": 57,
@@ -2851,12 +2673,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-25": "本句指「常見錯誤 frequency」。",
-        "common-mcq-24": "「常見問題 frequency」與本句語境不同。",
-        "common-mcq-26": "「常見現象 frequency」與本句語境不同。",
-        "common-mcq-23": "「常見的；普遍的 frequency」與本句語境不同。",
-        "common-mcq-27": "「常見／慣常做法 frequency」與本句語境不同。",
-        "common-mcq-22": "「共同點；共通性 shared features」與本句語境不同。"
+        "common-mcq-25": "本句的「common」指「常見錯誤 frequency」。",
+        "common-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-25"
     },
@@ -2868,11 +2688,9 @@ export default {
       "masked": "Delays became a ____ occurrence.",
       "options": [
         "common-mcq-26",
-        "common-mcq-25",
-        "common-mcq-27",
-        "common-mcq-24",
-        "common-mcq-28",
-        "common-mcq-23"
+        "common-mcq-02",
+        "common-mcq-55",
+        "common-mcq-40"
       ],
       "explanation": "本句的「common」指「常見現象 frequency」。",
       "sentenceIndex": 58,
@@ -2881,12 +2699,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-26": "本句指「常見現象 frequency」。",
-        "common-mcq-25": "「常見錯誤 frequency」與本句語境不同。",
-        "common-mcq-27": "「常見／慣常做法 frequency」與本句語境不同。",
-        "common-mcq-24": "「常見問題 frequency」與本句語境不同。",
-        "common-mcq-28": "「常見／共同特點 context-dependent」與本句語境不同。",
-        "common-mcq-23": "「常見的；普遍的 frequency」與本句語境不同。"
+        "common-mcq-26": "本句的「common」指「常見現象 frequency」。",
+        "common-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-26"
     },
@@ -2898,11 +2714,9 @@ export default {
       "masked": "Remote meetings are now a ____ occurrence in many workplaces.",
       "options": [
         "common-mcq-26",
-        "common-mcq-25",
-        "common-mcq-27",
-        "common-mcq-24",
-        "common-mcq-28",
-        "common-mcq-23"
+        "common-mcq-12",
+        "common-mcq-60",
+        "common-mcq-70"
       ],
       "explanation": "本句的「common」指「常見現象 frequency」。",
       "sentenceIndex": 59,
@@ -2911,12 +2725,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-26": "本句指「常見現象 frequency」。",
-        "common-mcq-25": "「常見錯誤 frequency」與本句語境不同。",
-        "common-mcq-27": "「常見／慣常做法 frequency」與本句語境不同。",
-        "common-mcq-24": "「常見問題 frequency」與本句語境不同。",
-        "common-mcq-28": "「常見／共同特點 context-dependent」與本句語境不同。",
-        "common-mcq-23": "「常見的；普遍的 frequency」與本句語境不同。"
+        "common-mcq-26": "本句的「common」指「常見現象 frequency」。",
+        "common-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-26"
     },
@@ -2928,11 +2740,9 @@ export default {
       "masked": "It is ____ practice to send a written summary after the meeting.",
       "options": [
         "common-mcq-27",
-        "common-mcq-26",
-        "common-mcq-28",
-        "common-mcq-25",
-        "common-mcq-29",
-        "common-mcq-24"
+        "common-mcq-40",
+        "common-mcq-14",
+        "common-mcq-36"
       ],
       "explanation": "本句的「common」指「常見／慣常做法 frequency」。",
       "sentenceIndex": 60,
@@ -2941,12 +2751,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-27": "本句指「常見／慣常做法 frequency」。",
-        "common-mcq-26": "「常見現象 frequency」與本句語境不同。",
-        "common-mcq-28": "「常見／共同特點 context-dependent」與本句語境不同。",
-        "common-mcq-25": "「常見錯誤 frequency」與本句語境不同。",
-        "common-mcq-29": "「常見症狀 frequency」與本句語境不同。",
-        "common-mcq-24": "「常見問題 frequency」與本句語境不同。"
+        "common-mcq-27": "本句的「common」指「常見／慣常做法 frequency」。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-27"
     },
@@ -2958,11 +2766,9 @@ export default {
       "masked": "Regular progress checks are ____ practice in many projects.",
       "options": [
         "common-mcq-27",
-        "common-mcq-26",
-        "common-mcq-28",
-        "common-mcq-25",
-        "common-mcq-29",
-        "common-mcq-24"
+        "common-mcq-57",
+        "common-mcq-13",
+        "common-mcq-45"
       ],
       "explanation": "本句的「common」指「常見／慣常做法 frequency」。",
       "sentenceIndex": 61,
@@ -2971,12 +2777,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-27": "本句指「常見／慣常做法 frequency」。",
-        "common-mcq-26": "「常見現象 frequency」與本句語境不同。",
-        "common-mcq-28": "「常見／共同特點 context-dependent」與本句語境不同。",
-        "common-mcq-25": "「常見錯誤 frequency」與本句語境不同。",
-        "common-mcq-29": "「常見症狀 frequency」與本句語境不同。",
-        "common-mcq-24": "「常見問題 frequency」與本句語境不同。"
+        "common-mcq-27": "本句的「common」指「常見／慣常做法 frequency」。",
+        "common-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-27"
     },
@@ -2988,11 +2792,9 @@ export default {
       "masked": "Shared calendars are a ____ feature of project-management systems.",
       "options": [
         "common-mcq-28",
-        "common-mcq-27",
-        "common-mcq-29",
-        "common-mcq-26",
-        "common-mcq-30",
-        "common-mcq-25"
+        "common-mcq-45",
+        "common-mcq-55",
+        "common-mcq-41"
       ],
       "explanation": "本句的「common」指「常見／共同特點 context-dependent」。",
       "sentenceIndex": 62,
@@ -3001,12 +2803,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-28": "本句指「常見／共同特點 context-dependent」。",
-        "common-mcq-27": "「常見／慣常做法 frequency」與本句語境不同。",
-        "common-mcq-29": "「常見症狀 frequency」與本句語境不同。",
-        "common-mcq-26": "「常見現象 frequency」與本句語境不同。",
-        "common-mcq-30": "「在 X 中常見 frequency」與本句語境不同。",
-        "common-mcq-25": "「常見錯誤 frequency」與本句語境不同。"
+        "common-mcq-28": "本句的「common」指「常見／共同特點 context-dependent」。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-28"
     },
@@ -3018,11 +2818,9 @@ export default {
       "masked": "Unequal participation is a ____ feature of badly managed group work.",
       "options": [
         "common-mcq-28",
-        "common-mcq-27",
-        "common-mcq-29",
-        "common-mcq-26",
-        "common-mcq-30",
-        "common-mcq-25"
+        "common-mcq-61",
+        "common-mcq-39",
+        "common-mcq-46"
       ],
       "explanation": "本句的「common」指「常見／共同特點 context-dependent」。",
       "sentenceIndex": 63,
@@ -3031,12 +2829,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-28": "本句指「常見／共同特點 context-dependent」。",
-        "common-mcq-27": "「常見／慣常做法 frequency」與本句語境不同。",
-        "common-mcq-29": "「常見症狀 frequency」與本句語境不同。",
-        "common-mcq-26": "「常見現象 frequency」與本句語境不同。",
-        "common-mcq-30": "「在 X 中常見 frequency」與本句語境不同。",
-        "common-mcq-25": "「常見錯誤 frequency」與本句語境不同。"
+        "common-mcq-28": "本句的「common」指「常見／共同特點 context-dependent」。",
+        "common-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-28"
     },
@@ -3048,11 +2844,9 @@ export default {
       "masked": "Fatigue is a ____ symptom.",
       "options": [
         "common-mcq-29",
-        "common-mcq-28",
-        "common-mcq-30",
-        "common-mcq-27",
-        "common-mcq-26",
-        "common-mcq-32"
+        "common-mcq-02",
+        "common-mcq-68",
+        "common-mcq-45"
       ],
       "explanation": "本句的「common」指「常見症狀 frequency」。",
       "sentenceIndex": 64,
@@ -3061,12 +2855,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-29": "本句指「常見症狀 frequency」。",
-        "common-mcq-28": "「常見／共同特點 context-dependent」與本句語境不同。",
-        "common-mcq-30": "「在 X 中常見 frequency」與本句語境不同。",
-        "common-mcq-27": "「常見／慣常做法 frequency」與本句語境不同。",
-        "common-mcq-26": "「常見現象 frequency」與本句語境不同。",
-        "common-mcq-32": "「共同具有 shared」與本句語境不同。"
+        "common-mcq-29": "本句的「common」指「常見症狀 frequency」。",
+        "common-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-29"
     },
@@ -3078,11 +2870,9 @@ export default {
       "masked": "Different conditions can share ____ symptoms.",
       "options": [
         "common-mcq-29",
-        "common-mcq-28",
-        "common-mcq-30",
-        "common-mcq-27",
-        "common-mcq-26",
-        "common-mcq-32"
+        "common-mcq-64",
+        "common-mcq-62",
+        "common-mcq-45"
       ],
       "explanation": "本句的「common」指「常見症狀 frequency」。",
       "sentenceIndex": 65,
@@ -3091,12 +2881,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-29": "本句指「常見症狀 frequency」。",
-        "common-mcq-28": "「常見／共同特點 context-dependent」與本句語境不同。",
-        "common-mcq-30": "「在 X 中常見 frequency」與本句語境不同。",
-        "common-mcq-27": "「常見／慣常做法 frequency」與本句語境不同。",
-        "common-mcq-26": "「常見現象 frequency」與本句語境不同。",
-        "common-mcq-32": "「共同具有 shared」與本句語境不同。"
+        "common-mcq-29": "本句的「common」指「常見症狀 frequency」。",
+        "common-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-29"
     },
@@ -3108,11 +2896,9 @@ export default {
       "masked": "Email is still a ____ used communication channel.",
       "options": [
         "common-mcq-34",
-        "common-mcq-33",
-        "common-mcq-35",
-        "common-mcq-32",
-        "common-mcq-36",
-        "common-mcq-31"
+        "common-mcq-62",
+        "common-mcq-74",
+        "common-mcq-49"
       ],
       "explanation": "本句的「commonly」指「常用的 frequency」。",
       "sentenceIndex": 74,
@@ -3121,12 +2907,10 @@ export default {
         "commonly"
       ],
       "optionReasons": {
-        "common-mcq-34": "本句指「常用的 frequency」。",
-        "common-mcq-33": "「通常；普遍地 adverb」與本句語境不同。",
-        "common-mcq-35": "「通常稱為 naming」與本句語境不同。",
-        "common-mcq-32": "「共同具有 shared」與本句語境不同。",
-        "common-mcq-36": "「普通的；平凡的 not special」與本句語境不同。",
-        "common-mcq-31": "「在 X 中常見 frequency」與本句語境不同。"
+        "common-mcq-34": "本句的「commonly」指「常用的 frequency」。",
+        "common-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-34"
     },
@@ -3138,11 +2922,9 @@ export default {
       "masked": "These expressions are ____ used in formal writing.",
       "options": [
         "common-mcq-34",
-        "common-mcq-33",
-        "common-mcq-35",
-        "common-mcq-32",
-        "common-mcq-36",
-        "common-mcq-31"
+        "common-mcq-57",
+        "common-mcq-52",
+        "common-mcq-46"
       ],
       "explanation": "本句的「commonly」指「常用的 frequency」。",
       "sentenceIndex": 75,
@@ -3151,12 +2933,10 @@ export default {
         "commonly"
       ],
       "optionReasons": {
-        "common-mcq-34": "本句指「常用的 frequency」。",
-        "common-mcq-33": "「通常；普遍地 adverb」與本句語境不同。",
-        "common-mcq-35": "「通常稱為 naming」與本句語境不同。",
-        "common-mcq-32": "「共同具有 shared」與本句語境不同。",
-        "common-mcq-36": "「普通的；平凡的 not special」與本句語境不同。",
-        "common-mcq-31": "「在 X 中常見 frequency」與本句語境不同。"
+        "common-mcq-34": "本句的「commonly」指「常用的 frequency」。",
+        "common-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-34"
     },
@@ -3168,11 +2948,9 @@ export default {
       "masked": "The condition is ____ known as the common cold.",
       "options": [
         "common-mcq-35",
-        "common-mcq-34",
-        "common-mcq-36",
-        "common-mcq-33",
-        "common-mcq-37",
-        "common-mcq-32"
+        "common-mcq-59",
+        "common-mcq-04",
+        "common-mcq-49"
       ],
       "explanation": "本句的「commonly」指「通常稱為 naming」。",
       "sentenceIndex": 76,
@@ -3181,12 +2959,10 @@ export default {
         "commonly"
       ],
       "optionReasons": {
-        "common-mcq-35": "本句指「通常稱為 naming」。",
-        "common-mcq-34": "「常用的 frequency」與本句語境不同。",
-        "common-mcq-36": "「普通的；平凡的 not special」與本句語境不同。",
-        "common-mcq-33": "「通常；普遍地 adverb」與本句語境不同。",
-        "common-mcq-37": "「平常的；司空見慣 very ordinary」與本句語境不同。",
-        "common-mcq-32": "「共同具有 shared」與本句語境不同。"
+        "common-mcq-35": "本句的「commonly」指「通常稱為 naming」。",
+        "common-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-35"
     },
@@ -3198,11 +2974,9 @@ export default {
       "masked": "The organisation is ____ known by its abbreviation.",
       "options": [
         "common-mcq-35",
-        "common-mcq-34",
-        "common-mcq-36",
-        "common-mcq-33",
-        "common-mcq-37",
-        "common-mcq-32"
+        "common-mcq-07",
+        "common-mcq-45",
+        "common-mcq-40"
       ],
       "explanation": "本句的「commonly」指「通常稱為 naming」。",
       "sentenceIndex": 77,
@@ -3211,12 +2985,10 @@ export default {
         "commonly"
       ],
       "optionReasons": {
-        "common-mcq-35": "本句指「通常稱為 naming」。",
-        "common-mcq-34": "「常用的 frequency」與本句語境不同。",
-        "common-mcq-36": "「普通的；平凡的 not special」與本句語境不同。",
-        "common-mcq-33": "「通常；普遍地 adverb」與本句語境不同。",
-        "common-mcq-37": "「平常的；司空見慣 very ordinary」與本句語境不同。",
-        "common-mcq-32": "「共同具有 shared」與本句語境不同。"
+        "common-mcq-35": "本句的「commonly」指「通常稱為 naming」。",
+        "common-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-35"
     },
@@ -3228,11 +3000,9 @@ export default {
       "masked": "The material was once expensive but is now quite ____.",
       "options": [
         "common-mcq-36",
-        "common-mcq-35",
-        "common-mcq-37",
-        "common-mcq-34",
-        "common-mcq-38",
-        "common-mcq-33"
+        "common-mcq-49",
+        "common-mcq-59",
+        "common-mcq-25"
       ],
       "explanation": "本句的「common」指「普通的；平凡的 not special」。",
       "sentenceIndex": 80,
@@ -3241,12 +3011,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-36": "本句指「普通的；平凡的 not special」。",
-        "common-mcq-35": "「通常稱為 naming」與本句語境不同。",
-        "common-mcq-37": "「平常的；司空見慣 very ordinary」與本句語境不同。",
-        "common-mcq-34": "「常用的 frequency」與本句語境不同。",
-        "common-mcq-38": "「平常事；老生常談 noun」與本句語境不同。",
-        "common-mcq-33": "「通常；普遍地 adverb」與本句語境不同。"
+        "common-mcq-36": "本句的「common」指「普通的；平凡的 not special」。",
+        "common-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-36"
     },
@@ -3258,11 +3026,9 @@ export default {
       "masked": "It was an ordinary, ____ household object.",
       "options": [
         "common-mcq-36",
-        "common-mcq-35",
-        "common-mcq-37",
-        "common-mcq-34",
-        "common-mcq-38",
-        "common-mcq-33"
+        "common-mcq-61",
+        "common-mcq-15",
+        "common-mcq-25"
       ],
       "explanation": "本句的「common」指「普通的；平凡的 not special」。",
       "sentenceIndex": 81,
@@ -3271,12 +3037,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-36": "本句指「普通的；平凡的 not special」。",
-        "common-mcq-35": "「通常稱為 naming」與本句語境不同。",
-        "common-mcq-37": "「平常的；司空見慣 very ordinary」與本句語境不同。",
-        "common-mcq-34": "「常用的 frequency」與本句語境不同。",
-        "common-mcq-38": "「平常事；老生常談 noun」與本句語境不同。",
-        "common-mcq-33": "「通常；普遍地 adverb」與本句語境不同。"
+        "common-mcq-36": "本句的「common」指「普通的；平凡的 not special」。",
+        "common-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-36"
     },
@@ -3288,11 +3052,9 @@ export default {
       "masked": "It's just a ____ office chair.",
       "options": [
         "common-mcq-39",
-        "common-mcq-38",
-        "common-mcq-40",
-        "common-mcq-37",
-        "common-mcq-41",
-        "common-mcq-36"
+        "common-mcq-29",
+        "common-mcq-51",
+        "common-mcq-43"
       ],
       "explanation": "本句的「common-or-garden」指「極普通的 BrE informal」。",
       "sentenceIndex": 92,
@@ -3301,12 +3063,10 @@ export default {
         "common-or-garden"
       ],
       "optionReasons": {
-        "common-mcq-39": "本句指「極普通的 BrE informal」。",
-        "common-mcq-38": "「平常事；老生常談 noun」與本句語境不同。",
-        "common-mcq-40": "「粗俗／沒教養的 disapproving」與本句語境不同。",
-        "common-mcq-37": "「平常的；司空見慣 very ordinary」與本句語境不同。",
-        "common-mcq-41": "「普通人；平民 social class」與本句語境不同。",
-        "common-mcq-36": "「普通的；平凡的 not special」與本句語境不同。"
+        "common-mcq-39": "本句的「common-or-garden」指「極普通的 BrE informal」。",
+        "common-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-39"
     },
@@ -3318,11 +3078,9 @@ export default {
       "masked": "The device uses ____ components.",
       "options": [
         "common-mcq-39",
-        "common-mcq-38",
-        "common-mcq-40",
-        "common-mcq-37",
-        "common-mcq-41",
-        "common-mcq-36"
+        "common-mcq-01",
+        "common-mcq-60",
+        "common-mcq-40"
       ],
       "explanation": "本句的「common-or-garden」指「極普通的 BrE informal」。",
       "sentenceIndex": 93,
@@ -3331,12 +3089,10 @@ export default {
         "common-or-garden"
       ],
       "optionReasons": {
-        "common-mcq-39": "本句指「極普通的 BrE informal」。",
-        "common-mcq-38": "「平常事；老生常談 noun」與本句語境不同。",
-        "common-mcq-40": "「粗俗／沒教養的 disapproving」與本句語境不同。",
-        "common-mcq-37": "「平常的；司空見慣 very ordinary」與本句語境不同。",
-        "common-mcq-41": "「普通人；平民 social class」與本句語境不同。",
-        "common-mcq-36": "「普通的；平凡的 not special」與本句語境不同。"
+        "common-mcq-39": "本句的「common-or-garden」指「極普通的 BrE informal」。",
+        "common-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-39"
     },
@@ -3348,11 +3104,9 @@ export default {
       "masked": "Calling someone's accent “____” can sound classist and insulting.",
       "options": [
         "common-mcq-40",
-        "common-mcq-39",
-        "common-mcq-41",
-        "common-mcq-38",
-        "common-mcq-42",
-        "common-mcq-37"
+        "common-mcq-09",
+        "common-mcq-49",
+        "common-mcq-24"
       ],
       "explanation": "本句的「common」指「粗俗／沒教養的 disapproving」。",
       "sentenceIndex": 94,
@@ -3361,12 +3115,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-40": "本句指「粗俗／沒教養的 disapproving」。",
-        "common-mcq-39": "「極普通的 BrE informal」與本句語境不同。",
-        "common-mcq-41": "「普通人；平民 social class」與本句語境不同。",
-        "common-mcq-38": "「平常事；老生常談 noun」與本句語境不同。",
-        "common-mcq-42": "「平民；非貴族 social class」與本句語境不同。",
-        "common-mcq-37": "「平常的；司空見慣 very ordinary」與本句語境不同。"
+        "common-mcq-40": "本句的「common」指「粗俗／沒教養的 disapproving」。",
+        "common-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-40"
     },
@@ -3378,11 +3130,9 @@ export default {
       "masked": "The character is portrayed as loud and ____.",
       "options": [
         "common-mcq-40",
-        "common-mcq-39",
-        "common-mcq-41",
-        "common-mcq-38",
-        "common-mcq-42",
-        "common-mcq-37"
+        "common-mcq-46",
+        "common-mcq-48",
+        "common-mcq-24"
       ],
       "explanation": "本句的「common」指「粗俗／沒教養的 disapproving」。",
       "sentenceIndex": 95,
@@ -3391,12 +3141,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-40": "本句指「粗俗／沒教養的 disapproving」。",
-        "common-mcq-39": "「極普通的 BrE informal」與本句語境不同。",
-        "common-mcq-41": "「普通人；平民 social class」與本句語境不同。",
-        "common-mcq-38": "「平常事；老生常談 noun」與本句語境不同。",
-        "common-mcq-42": "「平民；非貴族 social class」與本句語境不同。",
-        "common-mcq-37": "「平常的；司空見慣 very ordinary」與本句語境不同。"
+        "common-mcq-40": "本句的「common」指「粗俗／沒教養的 disapproving」。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-40"
     },
@@ -3408,11 +3156,9 @@ export default {
       "masked": "The phrase ____ people traditionally means ordinary people rather than elites.",
       "options": [
         "common-mcq-41",
-        "common-mcq-40",
-        "common-mcq-42",
-        "common-mcq-39",
-        "common-mcq-43",
-        "common-mcq-38"
+        "common-mcq-17",
+        "common-mcq-60",
+        "common-mcq-40"
       ],
       "explanation": "本句的「common」指「普通人；平民 social class」。",
       "sentenceIndex": 98,
@@ -3421,12 +3167,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-41": "本句指「普通人；平民 social class」。",
-        "common-mcq-40": "「粗俗／沒教養的 disapproving」與本句語境不同。",
-        "common-mcq-42": "「平民；非貴族 social class」與本句語境不同。",
-        "common-mcq-39": "「極普通的 BrE informal」與本句語境不同。",
-        "common-mcq-43": "「眾所周知 widely known」與本句語境不同。",
-        "common-mcq-38": "「平常事；老生常談 noun」與本句語境不同。"
+        "common-mcq-41": "本句的「common」指「普通人；平民 social class」。",
+        "common-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-41"
     },
@@ -3438,11 +3182,9 @@ export default {
       "masked": "It is ____ knowledge that the team is understaffed.",
       "options": [
         "common-mcq-43",
-        "common-mcq-42",
-        "common-mcq-44",
-        "common-mcq-41",
-        "common-mcq-45",
-        "common-mcq-40"
+        "common-mcq-14",
+        "common-mcq-29",
+        "common-mcq-10"
       ],
       "explanation": "本句的「common」指「眾所周知 widely known」。",
       "sentenceIndex": 100,
@@ -3451,12 +3193,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-43": "本句指「眾所周知 widely known」。",
-        "common-mcq-42": "「平民；非貴族 social class」與本句語境不同。",
-        "common-mcq-44": "「常識；基本判斷力 practical judgment」與本句語境不同。",
-        "common-mcq-41": "「普通人；平民 social class」與本句語境不同。",
-        "common-mcq-45": "「基本禮貌 social norm」與本句語境不同。",
-        "common-mcq-40": "「粗俗／沒教養的 disapproving」與本句語境不同。"
+        "common-mcq-43": "本句的「common」指「眾所周知 widely known」。",
+        "common-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-43"
     },
@@ -3468,11 +3208,9 @@ export default {
       "masked": "The information was already ____ knowledge.",
       "options": [
         "common-mcq-43",
-        "common-mcq-42",
-        "common-mcq-44",
-        "common-mcq-41",
-        "common-mcq-45",
-        "common-mcq-40"
+        "common-mcq-29",
+        "common-mcq-50",
+        "common-mcq-45"
       ],
       "explanation": "本句的「common」指「眾所周知 widely known」。",
       "sentenceIndex": 101,
@@ -3481,12 +3219,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-43": "本句指「眾所周知 widely known」。",
-        "common-mcq-42": "「平民；非貴族 social class」與本句語境不同。",
-        "common-mcq-44": "「常識；基本判斷力 practical judgment」與本句語境不同。",
-        "common-mcq-41": "「普通人；平民 social class」與本句語境不同。",
-        "common-mcq-45": "「基本禮貌 social norm」與本句語境不同。",
-        "common-mcq-40": "「粗俗／沒教養的 disapproving」與本句語境不同。"
+        "common-mcq-43": "本句的「common」指「眾所周知 widely known」。",
+        "common-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-43"
     },
@@ -3498,11 +3234,9 @@ export default {
       "masked": "Replying to the message is ____ courtesy.",
       "options": [
         "common-mcq-45",
-        "common-mcq-44",
-        "common-mcq-46",
-        "common-mcq-43",
-        "common-mcq-47",
-        "common-mcq-42"
+        "common-mcq-53",
+        "common-mcq-73",
+        "common-mcq-36"
       ],
       "explanation": "本句的「common」指「基本禮貌 social norm」。",
       "sentenceIndex": 110,
@@ -3511,12 +3245,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-45": "本句指「基本禮貌 social norm」。",
-        "common-mcq-44": "「常識；基本判斷力 practical judgment」與本句語境不同。",
-        "common-mcq-46": "「基本道德／良知 social norm」與本句語境不同。",
-        "common-mcq-43": "「眾所周知 widely known」與本句語境不同。",
-        "common-mcq-47": "「公共利益；共同福祉 group welfare」與本句語境不同。",
-        "common-mcq-42": "「平民；非貴族 social class」與本句語境不同。"
+        "common-mcq-45": "本句的「common」指「基本禮貌 social norm」。",
+        "common-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-45"
     },
@@ -3528,11 +3260,9 @@ export default {
       "masked": "It is ____ courtesy to let people know if you will be late.",
       "options": [
         "common-mcq-45",
-        "common-mcq-44",
-        "common-mcq-46",
-        "common-mcq-43",
-        "common-mcq-47",
-        "common-mcq-42"
+        "common-mcq-34",
+        "common-mcq-06",
+        "common-mcq-51"
       ],
       "explanation": "本句的「common」指「基本禮貌 social norm」。",
       "sentenceIndex": 111,
@@ -3541,12 +3271,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-45": "本句指「基本禮貌 social norm」。",
-        "common-mcq-44": "「常識；基本判斷力 practical judgment」與本句語境不同。",
-        "common-mcq-46": "「基本道德／良知 social norm」與本句語境不同。",
-        "common-mcq-43": "「眾所周知 widely known」與本句語境不同。",
-        "common-mcq-47": "「公共利益；共同福祉 group welfare」與本句語境不同。",
-        "common-mcq-42": "「平民；非貴族 social class」與本句語境不同。"
+        "common-mcq-45": "本句的「common」指「基本禮貌 social norm」。",
+        "common-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-45"
     },
@@ -3558,11 +3286,9 @@ export default {
       "masked": "____ decency requires treating colleagues with respect.",
       "options": [
         "common-mcq-46",
-        "common-mcq-45",
-        "common-mcq-47",
-        "common-mcq-44",
-        "common-mcq-48",
-        "common-mcq-43"
+        "common-mcq-02",
+        "common-mcq-25",
+        "common-mcq-41"
       ],
       "explanation": "本句的「Common」指「基本道德／良知 social norm」。",
       "sentenceIndex": 112,
@@ -3571,12 +3297,10 @@ export default {
         "Common"
       ],
       "optionReasons": {
-        "common-mcq-46": "本句指「基本道德／良知 social norm」。",
-        "common-mcq-45": "「基本禮貌 social norm」與本句語境不同。",
-        "common-mcq-47": "「公共利益；共同福祉 group welfare」與本句語境不同。",
-        "common-mcq-44": "「常識；基本判斷力 practical judgment」與本句語境不同。",
-        "common-mcq-48": "「共同所有權 ownership」與本句語境不同。",
-        "common-mcq-43": "「眾所周知 widely known」與本句語境不同。"
+        "common-mcq-46": "本句的「Common」指「基本道德／良知 social norm」。",
+        "common-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-46"
     },
@@ -3588,11 +3312,9 @@ export default {
       "masked": "He appealed to their sense of ____ decency.",
       "options": [
         "common-mcq-46",
-        "common-mcq-45",
-        "common-mcq-47",
-        "common-mcq-44",
-        "common-mcq-48",
-        "common-mcq-43"
+        "common-mcq-55",
+        "common-mcq-27",
+        "common-mcq-01"
       ],
       "explanation": "本句的「common」指「基本道德／良知 social norm」。",
       "sentenceIndex": 113,
@@ -3601,12 +3323,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-46": "本句指「基本道德／良知 social norm」。",
-        "common-mcq-45": "「基本禮貌 social norm」與本句語境不同。",
-        "common-mcq-47": "「公共利益；共同福祉 group welfare」與本句語境不同。",
-        "common-mcq-44": "「常識；基本判斷力 practical judgment」與本句語境不同。",
-        "common-mcq-48": "「共同所有權 ownership」與本句語境不同。",
-        "common-mcq-43": "「眾所周知 widely known」與本句語境不同。"
+        "common-mcq-46": "本句的「common」指「基本道德／良知 social norm」。",
+        "common-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-46"
     },
@@ -3618,11 +3338,9 @@ export default {
       "masked": "The land is under ____ ownership.",
       "options": [
         "common-mcq-48",
-        "common-mcq-47",
-        "common-mcq-49",
-        "common-mcq-46",
-        "common-mcq-50",
-        "common-mcq-45"
+        "common-mcq-70",
+        "common-mcq-66",
+        "common-mcq-51"
       ],
       "explanation": "本句的「common」指「共同所有權 ownership」。",
       "sentenceIndex": 118,
@@ -3631,12 +3349,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-48": "本句指「共同所有權 ownership」。",
-        "common-mcq-47": "「公共利益；共同福祉 group welfare」與本句語境不同。",
-        "common-mcq-49": "「共有財產／資源 ownership」與本句語境不同。",
-        "common-mcq-46": "「基本道德／良知 social norm」與本句語境不同。",
-        "common-mcq-50": "「共同資源 shared resources」與本句語境不同。",
-        "common-mcq-45": "「基本禮貌 social norm」與本句語境不同。"
+        "common-mcq-48": "本句的「common」指「共同所有權 ownership」。",
+        "common-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-48"
     },
@@ -3648,11 +3364,9 @@ export default {
       "masked": "____ ownership means more than one party shares ownership rights.",
       "options": [
         "common-mcq-48",
-        "common-mcq-47",
-        "common-mcq-49",
-        "common-mcq-46",
-        "common-mcq-50",
-        "common-mcq-45"
+        "common-mcq-60",
+        "common-mcq-43",
+        "common-mcq-34"
       ],
       "explanation": "本句的「Common」指「共同所有權 ownership」。",
       "sentenceIndex": 119,
@@ -3661,12 +3375,10 @@ export default {
         "Common"
       ],
       "optionReasons": {
-        "common-mcq-48": "本句指「共同所有權 ownership」。",
-        "common-mcq-47": "「公共利益；共同福祉 group welfare」與本句語境不同。",
-        "common-mcq-49": "「共有財產／資源 ownership」與本句語境不同。",
-        "common-mcq-46": "「基本道德／良知 social norm」與本句語境不同。",
-        "common-mcq-50": "「共同資源 shared resources」與本句語境不同。",
-        "common-mcq-45": "「基本禮貌 social norm」與本句語境不同。"
+        "common-mcq-48": "本句的「Common」指「共同所有權 ownership」。",
+        "common-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-48"
     },
@@ -3678,11 +3390,9 @@ export default {
       "masked": "The courtyard is ____ property shared by residents.",
       "options": [
         "common-mcq-49",
-        "common-mcq-48",
-        "common-mcq-50",
-        "common-mcq-47",
-        "common-mcq-51",
-        "common-mcq-46"
+        "common-mcq-61",
+        "common-mcq-39",
+        "common-mcq-29"
       ],
       "explanation": "本句的「common」指「共有財產／資源 ownership」。",
       "sentenceIndex": 120,
@@ -3691,12 +3401,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-49": "本句指「共有財產／資源 ownership」。",
-        "common-mcq-48": "「共同所有權 ownership」與本句語境不同。",
-        "common-mcq-50": "「共同資源 shared resources」與本句語境不同。",
-        "common-mcq-47": "「公共利益；共同福祉 group welfare」與本句語境不同。",
-        "common-mcq-51": "「公用區域 shared space」與本句語境不同。",
-        "common-mcq-46": "「基本道德／良知 social norm」與本句語境不同。"
+        "common-mcq-49": "本句的「common」指「共有財產／資源 ownership」。",
+        "common-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-49"
     },
@@ -3708,11 +3416,9 @@ export default {
       "masked": "Certain resources may be treated as ____ property.",
       "options": [
         "common-mcq-49",
-        "common-mcq-48",
-        "common-mcq-50",
-        "common-mcq-47",
-        "common-mcq-51",
-        "common-mcq-46"
+        "common-mcq-25",
+        "common-mcq-39",
+        "common-mcq-59"
       ],
       "explanation": "本句的「common」指「共有財產／資源 ownership」。",
       "sentenceIndex": 121,
@@ -3721,12 +3427,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-49": "本句指「共有財產／資源 ownership」。",
-        "common-mcq-48": "「共同所有權 ownership」與本句語境不同。",
-        "common-mcq-50": "「共同資源 shared resources」與本句語境不同。",
-        "common-mcq-47": "「公共利益；共同福祉 group welfare」與本句語境不同。",
-        "common-mcq-51": "「公用區域 shared space」與本句語境不同。",
-        "common-mcq-46": "「基本道德／良知 social norm」與本句語境不同。"
+        "common-mcq-49": "本句的「common」指「共有財產／資源 ownership」。",
+        "common-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-49"
     },
@@ -3738,11 +3442,9 @@ export default {
       "masked": "Teams need rules for using ____ resources.",
       "options": [
         "common-mcq-50",
-        "common-mcq-49",
-        "common-mcq-51",
-        "common-mcq-48",
-        "common-mcq-52",
-        "common-mcq-47"
+        "common-mcq-55",
+        "common-mcq-27",
+        "common-mcq-45"
       ],
       "explanation": "本句的「common」指「共同資源 shared resources」。",
       "sentenceIndex": 122,
@@ -3751,12 +3453,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-50": "本句指「共同資源 shared resources」。",
-        "common-mcq-49": "「共有財產／資源 ownership」與本句語境不同。",
-        "common-mcq-51": "「公用區域 shared space」與本句語境不同。",
-        "common-mcq-48": "「共同所有權 ownership」與本句語境不同。",
-        "common-mcq-52": "「公共休息室 shared space」與本句語境不同。",
-        "common-mcq-47": "「公共利益；共同福祉 group welfare」與本句語境不同。"
+        "common-mcq-50": "本句的「common」指「共同資源 shared resources」。",
+        "common-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-50"
     },
@@ -3768,11 +3468,9 @@ export default {
       "masked": "Shared facilities are ____ resources.",
       "options": [
         "common-mcq-50",
-        "common-mcq-49",
-        "common-mcq-51",
-        "common-mcq-48",
-        "common-mcq-52",
-        "common-mcq-47"
+        "common-mcq-59",
+        "common-mcq-27",
+        "common-mcq-36"
       ],
       "explanation": "本句的「common」指「共同資源 shared resources」。",
       "sentenceIndex": 123,
@@ -3781,12 +3479,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-50": "本句指「共同資源 shared resources」。",
-        "common-mcq-49": "「共有財產／資源 ownership」與本句語境不同。",
-        "common-mcq-51": "「公用區域 shared space」與本句語境不同。",
-        "common-mcq-48": "「共同所有權 ownership」與本句語境不同。",
-        "common-mcq-52": "「公共休息室 shared space」與本句語境不同。",
-        "common-mcq-47": "「公共利益；共同福祉 group welfare」與本句語境不同。"
+        "common-mcq-50": "本句的「common」指「共同資源 shared resources」。",
+        "common-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-50"
     },
@@ -3798,11 +3494,9 @@ export default {
       "masked": "Employees can eat in the ____ area.",
       "options": [
         "common-mcq-51",
-        "common-mcq-50",
-        "common-mcq-52",
-        "common-mcq-49",
-        "common-mcq-53",
-        "common-mcq-48"
+        "common-mcq-11",
+        "common-mcq-45",
+        "common-mcq-29"
       ],
       "explanation": "本句的「common」指「公用區域 shared space」。",
       "sentenceIndex": 124,
@@ -3811,12 +3505,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-51": "本句指「公用區域 shared space」。",
-        "common-mcq-50": "「共同資源 shared resources」與本句語境不同。",
-        "common-mcq-52": "「公共休息室 shared space」與本句語境不同。",
-        "common-mcq-49": "「共有財產／資源 ownership」與本句語境不同。",
-        "common-mcq-53": "「共有土地 land」與本句語境不同。",
-        "common-mcq-48": "「共同所有權 ownership」與本句語境不同。"
+        "common-mcq-51": "本句的「common」指「公用區域 shared space」。",
+        "common-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-51"
     },
@@ -3828,11 +3520,9 @@ export default {
       "masked": "Residents share several ____ areas.",
       "options": [
         "common-mcq-51",
-        "common-mcq-50",
-        "common-mcq-52",
-        "common-mcq-49",
-        "common-mcq-53",
-        "common-mcq-48"
+        "common-mcq-24",
+        "common-mcq-36",
+        "common-mcq-11"
       ],
       "explanation": "本句的「common」指「公用區域 shared space」。",
       "sentenceIndex": 125,
@@ -3841,12 +3531,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-51": "本句指「公用區域 shared space」。",
-        "common-mcq-50": "「共同資源 shared resources」與本句語境不同。",
-        "common-mcq-52": "「公共休息室 shared space」與本句語境不同。",
-        "common-mcq-49": "「共有財產／資源 ownership」與本句語境不同。",
-        "common-mcq-53": "「共有土地 land」與本句語境不同。",
-        "common-mcq-48": "「共同所有權 ownership」與本句語境不同。"
+        "common-mcq-51": "本句的「common」指「公用區域 shared space」。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-51"
     },
@@ -3858,11 +3546,9 @@ export default {
       "masked": "Staff were meeting in the ____ room.",
       "options": [
         "common-mcq-52",
-        "common-mcq-51",
-        "common-mcq-53",
-        "common-mcq-50",
-        "common-mcq-54",
-        "common-mcq-49"
+        "common-mcq-46",
+        "common-mcq-70",
+        "common-mcq-24"
       ],
       "explanation": "本句的「common」指「公共休息室 shared space」。",
       "sentenceIndex": 126,
@@ -3871,12 +3557,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-52": "本句指「公共休息室 shared space」。",
-        "common-mcq-51": "「公用區域 shared space」與本句語境不同。",
-        "common-mcq-53": "「共有土地 land」與本句語境不同。",
-        "common-mcq-50": "「共同資源 shared resources」與本句語境不同。",
-        "common-mcq-54": "「公共共有資源 economics/environment」與本句語境不同。",
-        "common-mcq-49": "「共有財產／資源 ownership」與本句語境不同。"
+        "common-mcq-52": "本句的「common」指「公共休息室 shared space」。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-52"
     },
@@ -3888,11 +3572,9 @@ export default {
       "masked": "Students can relax in the ____ room.",
       "options": [
         "common-mcq-52",
-        "common-mcq-51",
-        "common-mcq-53",
-        "common-mcq-50",
-        "common-mcq-54",
-        "common-mcq-49"
+        "common-mcq-29",
+        "common-mcq-74",
+        "common-mcq-40"
       ],
       "explanation": "本句的「common」指「公共休息室 shared space」。",
       "sentenceIndex": 127,
@@ -3901,12 +3583,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-52": "本句指「公共休息室 shared space」。",
-        "common-mcq-51": "「公用區域 shared space」與本句語境不同。",
-        "common-mcq-53": "「共有土地 land」與本句語境不同。",
-        "common-mcq-50": "「共同資源 shared resources」與本句語境不同。",
-        "common-mcq-54": "「公共共有資源 economics/environment」與本句語境不同。",
-        "common-mcq-49": "「共有財產／資源 ownership」與本句語境不同。"
+        "common-mcq-52": "本句的「common」指「公共休息室 shared space」。",
+        "common-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-52"
     },
@@ -3918,11 +3598,9 @@ export default {
       "masked": "Local people traditionally had certain rights over the ____ land.",
       "options": [
         "common-mcq-53",
-        "common-mcq-52",
-        "common-mcq-54",
-        "common-mcq-51",
+        "common-mcq-29",
         "common-mcq-55",
-        "common-mcq-50"
+        "common-mcq-64"
       ],
       "explanation": "本句的「common」指「共有土地 land」。",
       "sentenceIndex": 128,
@@ -3931,12 +3609,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-53": "本句指「共有土地 land」。",
-        "common-mcq-52": "「公共休息室 shared space」與本句語境不同。",
-        "common-mcq-54": "「公共共有資源 economics/environment」與本句語境不同。",
-        "common-mcq-51": "「公用區域 shared space」與本句語境不同。",
-        "common-mcq-55": "「公地悲劇 shared-resource」與本句語境不同。",
-        "common-mcq-50": "「共同資源 shared resources」與本句語境不同。"
+        "common-mcq-53": "本句的「common」指「共有土地 land」。",
+        "common-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-53"
     },
@@ -3948,11 +3624,9 @@ export default {
       "masked": "The path crosses an area of ____ land.",
       "options": [
         "common-mcq-53",
-        "common-mcq-52",
-        "common-mcq-54",
-        "common-mcq-51",
-        "common-mcq-55",
-        "common-mcq-50"
+        "common-mcq-57",
+        "common-mcq-65",
+        "common-mcq-46"
       ],
       "explanation": "本句的「common」指「共有土地 land」。",
       "sentenceIndex": 129,
@@ -3961,12 +3635,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-53": "本句指「共有土地 land」。",
-        "common-mcq-52": "「公共休息室 shared space」與本句語境不同。",
-        "common-mcq-54": "「公共共有資源 economics/environment」與本句語境不同。",
-        "common-mcq-51": "「公用區域 shared space」與本句語境不同。",
-        "common-mcq-55": "「公地悲劇 shared-resource」與本句語境不同。",
-        "common-mcq-50": "「共同資源 shared resources」與本句語境不同。"
+        "common-mcq-53": "本句的「common」指「共有土地 land」。",
+        "common-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-53"
     },
@@ -3978,11 +3650,9 @@ export default {
       "masked": "Overuse of a shared resource can illustrate the tragedy of the ____.",
       "options": [
         "common-mcq-55",
-        "common-mcq-54",
-        "common-mcq-56",
-        "common-mcq-53",
-        "common-mcq-57",
-        "common-mcq-52"
+        "common-mcq-43",
+        "common-mcq-35",
+        "common-mcq-11"
       ],
       "explanation": "本句的「commons」指「公地悲劇 shared-resource」。",
       "sentenceIndex": 132,
@@ -3991,12 +3661,10 @@ export default {
         "commons"
       ],
       "optionReasons": {
-        "common-mcq-55": "本句指「公地悲劇 shared-resource」。",
-        "common-mcq-54": "「公共共有資源 economics/environment」與本句語境不同。",
-        "common-mcq-56": "「普通名詞 grammar」與本句語境不同。",
-        "common-mcq-53": "「共有土地 land」與本句語境不同。",
-        "common-mcq-57": "「通性 grammar」與本句語境不同。",
-        "common-mcq-52": "「公共休息室 shared space」與本句語境不同。"
+        "common-mcq-55": "本句的「commons」指「公地悲劇 shared-resource」。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-55"
     },
@@ -4008,11 +3676,9 @@ export default {
       "masked": "The tragedy of the ____ describes a situation in which individually rational use can collectively exhaust a shared resource.",
       "options": [
         "common-mcq-55",
-        "common-mcq-54",
-        "common-mcq-56",
-        "common-mcq-53",
-        "common-mcq-57",
-        "common-mcq-52"
+        "common-mcq-10",
+        "common-mcq-35",
+        "common-mcq-43"
       ],
       "explanation": "本句的「commons」指「公地悲劇 shared-resource」。",
       "sentenceIndex": 133,
@@ -4021,12 +3687,10 @@ export default {
         "commons"
       ],
       "optionReasons": {
-        "common-mcq-55": "本句指「公地悲劇 shared-resource」。",
-        "common-mcq-54": "「公共共有資源 economics/environment」與本句語境不同。",
-        "common-mcq-56": "「普通名詞 grammar」與本句語境不同。",
-        "common-mcq-53": "「共有土地 land」與本句語境不同。",
-        "common-mcq-57": "「通性 grammar」與本句語境不同。",
-        "common-mcq-52": "「公共休息室 shared space」與本句語境不同。"
+        "common-mcq-55": "本句的「commons」指「公地悲劇 shared-resource」。",
+        "common-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-55"
     },
@@ -4038,11 +3702,9 @@ export default {
       "masked": "Some grammar descriptions use the term ____ gender.",
       "options": [
         "common-mcq-57",
-        "common-mcq-56",
-        "common-mcq-58",
-        "common-mcq-55",
-        "common-mcq-59",
-        "common-mcq-54"
+        "common-mcq-26",
+        "common-mcq-11",
+        "common-mcq-45"
       ],
       "explanation": "本句的「common」指「通性 grammar」。",
       "sentenceIndex": 136,
@@ -4051,12 +3713,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-57": "本句指「通性 grammar」。",
-        "common-mcq-56": "「普通名詞 grammar」與本句語境不同。",
-        "common-mcq-58": "「公因數／共同因素 math/general」與本句語境不同。",
-        "common-mcq-55": "「公地悲劇 shared-resource」與本句語境不同。",
-        "common-mcq-59": "「最大公因數 mathematics」與本句語境不同。",
-        "common-mcq-54": "「公共共有資源 economics/environment」與本句語境不同。"
+        "common-mcq-57": "本句的「common」指「通性 grammar」。",
+        "common-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-57"
     },
@@ -4068,11 +3728,9 @@ export default {
       "masked": "3 is a ____ factor of 6 and 9.",
       "options": [
         "common-mcq-58",
-        "common-mcq-57",
-        "common-mcq-59",
-        "common-mcq-56",
-        "common-mcq-60",
-        "common-mcq-55"
+        "common-mcq-46",
+        "common-mcq-68",
+        "common-mcq-73"
       ],
       "explanation": "本句的「common」指「公因數／共同因素 math/general」。",
       "sentenceIndex": 137,
@@ -4081,12 +3739,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-58": "本句指「公因數／共同因素 math/general」。",
-        "common-mcq-57": "「通性 grammar」與本句語境不同。",
-        "common-mcq-59": "「最大公因數 mathematics」與本句語境不同。",
-        "common-mcq-56": "「普通名詞 grammar」與本句語境不同。",
-        "common-mcq-60": "「公倍數 mathematics」與本句語境不同。",
-        "common-mcq-55": "「公地悲劇 shared-resource」與本句語境不同。"
+        "common-mcq-58": "本句的「common」指「公因數／共同因素 math/general」。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-58"
     },
@@ -4098,11 +3754,9 @@ export default {
       "masked": "Find the ____ factors of the two numbers.",
       "options": [
         "common-mcq-58",
-        "common-mcq-57",
-        "common-mcq-59",
-        "common-mcq-56",
-        "common-mcq-60",
-        "common-mcq-55"
+        "common-mcq-27",
+        "common-mcq-67",
+        "common-mcq-46"
       ],
       "explanation": "本句的「common」指「公因數／共同因素 math/general」。",
       "sentenceIndex": 138,
@@ -4111,12 +3765,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-58": "本句指「公因數／共同因素 math/general」。",
-        "common-mcq-57": "「通性 grammar」與本句語境不同。",
-        "common-mcq-59": "「最大公因數 mathematics」與本句語境不同。",
-        "common-mcq-56": "「普通名詞 grammar」與本句語境不同。",
-        "common-mcq-60": "「公倍數 mathematics」與本句語境不同。",
-        "common-mcq-55": "「公地悲劇 shared-resource」與本句語境不同。"
+        "common-mcq-58": "本句的「common」指「公因數／共同因素 math/general」。",
+        "common-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-58"
     },
@@ -4128,11 +3780,9 @@ export default {
       "masked": "The greatest ____ factor of 12 and 18 is 6.",
       "options": [
         "common-mcq-59",
-        "common-mcq-58",
-        "common-mcq-60",
-        "common-mcq-57",
-        "common-mcq-61",
-        "common-mcq-56"
+        "common-mcq-49",
+        "common-mcq-09",
+        "common-mcq-40"
       ],
       "explanation": "本句的「common」指「最大公因數 mathematics」。",
       "sentenceIndex": 139,
@@ -4141,12 +3791,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-59": "本句指「最大公因數 mathematics」。",
-        "common-mcq-58": "「公因數／共同因素 math/general」與本句語境不同。",
-        "common-mcq-60": "「公倍數 mathematics」與本句語境不同。",
-        "common-mcq-57": "「通性 grammar」與本句語境不同。",
-        "common-mcq-61": "「最小公倍數 mathematics」與本句語境不同。",
-        "common-mcq-56": "「普通名詞 grammar」與本句語境不同。"
+        "common-mcq-59": "本句的「common」指「最大公因數 mathematics」。",
+        "common-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-59"
     },
@@ -4158,11 +3806,9 @@ export default {
       "masked": "Greatest ____ divisor” is another common term.",
       "options": [
         "common-mcq-59",
-        "common-mcq-58",
-        "common-mcq-60",
-        "common-mcq-57",
-        "common-mcq-61",
-        "common-mcq-56"
+        "common-mcq-16",
+        "common-mcq-74",
+        "common-mcq-26"
       ],
       "explanation": "本句的「common」指「最大公因數 mathematics」。",
       "sentenceIndex": 140,
@@ -4171,12 +3817,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-59": "本句指「最大公因數 mathematics」。",
-        "common-mcq-58": "「公因數／共同因素 math/general」與本句語境不同。",
-        "common-mcq-60": "「公倍數 mathematics」與本句語境不同。",
-        "common-mcq-57": "「通性 grammar」與本句語境不同。",
-        "common-mcq-61": "「最小公倍數 mathematics」與本句語境不同。",
-        "common-mcq-56": "「普通名詞 grammar」與本句語境不同。"
+        "common-mcq-59": "本句的「common」指「最大公因數 mathematics」。",
+        "common-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-59"
     },
@@ -4188,11 +3832,9 @@ export default {
       "masked": "12 is a ____ multiple of 3 and 4.",
       "options": [
         "common-mcq-60",
-        "common-mcq-59",
-        "common-mcq-61",
-        "common-mcq-58",
-        "common-mcq-62",
-        "common-mcq-57"
+        "common-mcq-34",
+        "common-mcq-68",
+        "common-mcq-48"
       ],
       "explanation": "本句的「common」指「公倍數 mathematics」。",
       "sentenceIndex": 141,
@@ -4201,12 +3843,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-60": "本句指「公倍數 mathematics」。",
-        "common-mcq-59": "「最大公因數 mathematics」與本句語境不同。",
-        "common-mcq-61": "「最小公倍數 mathematics」與本句語境不同。",
-        "common-mcq-58": "「公因數／共同因素 math/general」與本句語境不同。",
-        "common-mcq-62": "「公分母／共同因素 math/figurative」與本句語境不同。",
-        "common-mcq-57": "「通性 grammar」與本句語境不同。"
+        "common-mcq-60": "本句的「common」指「公倍數 mathematics」。",
+        "common-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-60"
     },
@@ -4218,11 +3858,9 @@ export default {
       "masked": "Find a ____ multiple of 6 and 8.",
       "options": [
         "common-mcq-60",
-        "common-mcq-59",
-        "common-mcq-61",
-        "common-mcq-58",
-        "common-mcq-62",
-        "common-mcq-57"
+        "common-mcq-18",
+        "common-mcq-34",
+        "common-mcq-45"
       ],
       "explanation": "本句的「common」指「公倍數 mathematics」。",
       "sentenceIndex": 142,
@@ -4231,12 +3869,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-60": "本句指「公倍數 mathematics」。",
-        "common-mcq-59": "「最大公因數 mathematics」與本句語境不同。",
-        "common-mcq-61": "「最小公倍數 mathematics」與本句語境不同。",
-        "common-mcq-58": "「公因數／共同因素 math/general」與本句語境不同。",
-        "common-mcq-62": "「公分母／共同因素 math/figurative」與本句語境不同。",
-        "common-mcq-57": "「通性 grammar」與本句語境不同。"
+        "common-mcq-60": "本句的「common」指「公倍數 mathematics」。",
+        "common-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-60"
     },
@@ -4248,11 +3884,9 @@ export default {
       "masked": "The least ____ multiple of 4 and 6 is 12.",
       "options": [
         "common-mcq-61",
-        "common-mcq-60",
-        "common-mcq-62",
-        "common-mcq-59",
-        "common-mcq-63",
-        "common-mcq-58"
+        "common-mcq-28",
+        "common-mcq-67",
+        "common-mcq-49"
       ],
       "explanation": "本句的「common」指「最小公倍數 mathematics」。",
       "sentenceIndex": 143,
@@ -4261,12 +3895,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-61": "本句指「最小公倍數 mathematics」。",
-        "common-mcq-60": "「公倍數 mathematics」與本句語境不同。",
-        "common-mcq-62": "「公分母／共同因素 math/figurative」與本句語境不同。",
-        "common-mcq-59": "「最大公因數 mathematics」與本句語境不同。",
-        "common-mcq-63": "「最低公分母／最低共同標準 math/figurative」與本句語境不同。",
-        "common-mcq-58": "「公因數／共同因素 math/general」與本句語境不同。"
+        "common-mcq-61": "本句的「common」指「最小公倍數 mathematics」。",
+        "common-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-61"
     },
@@ -4278,11 +3910,9 @@ export default {
       "masked": "LCM stands for least ____ multiple.",
       "options": [
         "common-mcq-61",
-        "common-mcq-60",
-        "common-mcq-62",
-        "common-mcq-59",
-        "common-mcq-63",
-        "common-mcq-58"
+        "common-mcq-13",
+        "common-mcq-73",
+        "common-mcq-68"
       ],
       "explanation": "本句的「common」指「最小公倍數 mathematics」。",
       "sentenceIndex": 144,
@@ -4291,12 +3921,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-61": "本句指「最小公倍數 mathematics」。",
-        "common-mcq-60": "「公倍數 mathematics」與本句語境不同。",
-        "common-mcq-62": "「公分母／共同因素 math/figurative」與本句語境不同。",
-        "common-mcq-59": "「最大公因數 mathematics」與本句語境不同。",
-        "common-mcq-63": "「最低公分母／最低共同標準 math/figurative」與本句語境不同。",
-        "common-mcq-58": "「公因數／共同因素 math/general」與本句語境不同。"
+        "common-mcq-61": "本句的「common」指「最小公倍數 mathematics」。",
+        "common-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-61"
     },
@@ -4308,11 +3936,9 @@ export default {
       "masked": "Rewrite the fractions with a ____ denominator.",
       "options": [
         "common-mcq-62",
-        "common-mcq-61",
-        "common-mcq-63",
-        "common-mcq-60",
-        "common-mcq-64",
-        "common-mcq-59"
+        "common-mcq-67",
+        "common-mcq-46",
+        "common-mcq-24"
       ],
       "explanation": "本句的「common」指「公分母／共同因素 math/figurative」。",
       "sentenceIndex": 145,
@@ -4321,12 +3947,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-62": "本句指「公分母／共同因素 math/figurative」。",
-        "common-mcq-61": "「最小公倍數 mathematics」與本句語境不同。",
-        "common-mcq-63": "「最低公分母／最低共同標準 math/figurative」與本句語境不同。",
-        "common-mcq-60": "「公倍數 mathematics」與本句語境不同。",
-        "common-mcq-64": "「普通分數 mathematics」與本句語境不同。",
-        "common-mcq-59": "「最大公因數 mathematics」與本句語境不同。"
+        "common-mcq-62": "本句的「common」指「公分母／共同因素 math/figurative」。",
+        "common-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-62"
     },
@@ -4338,11 +3962,9 @@ export default {
       "masked": "Six can be used as a ____ denominator for these fractions.",
       "options": [
         "common-mcq-62",
-        "common-mcq-61",
-        "common-mcq-63",
-        "common-mcq-60",
-        "common-mcq-64",
-        "common-mcq-59"
+        "common-mcq-36",
+        "common-mcq-66",
+        "common-mcq-40"
       ],
       "explanation": "本句的「common」指「公分母／共同因素 math/figurative」。",
       "sentenceIndex": 146,
@@ -4351,12 +3973,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-62": "本句指「公分母／共同因素 math/figurative」。",
-        "common-mcq-61": "「最小公倍數 mathematics」與本句語境不同。",
-        "common-mcq-63": "「最低公分母／最低共同標準 math/figurative」與本句語境不同。",
-        "common-mcq-60": "「公倍數 mathematics」與本句語境不同。",
-        "common-mcq-64": "「普通分數 mathematics」與本句語境不同。",
-        "common-mcq-59": "「最大公因數 mathematics」與本句語境不同。"
+        "common-mcq-62": "本句的「common」指「公分母／共同因素 math/figurative」。",
+        "common-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-62"
     },
@@ -4368,11 +3988,9 @@ export default {
       "masked": "Poor communication was the ____ denominator in all three failures.",
       "options": [
         "common-mcq-62",
-        "common-mcq-61",
-        "common-mcq-63",
-        "common-mcq-60",
-        "common-mcq-64",
-        "common-mcq-59"
+        "common-mcq-73",
+        "common-mcq-46",
+        "common-mcq-68"
       ],
       "explanation": "本句的「common」指「公分母／共同因素 math/figurative」。",
       "sentenceIndex": 147,
@@ -4381,12 +3999,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-62": "本句指「公分母／共同因素 math/figurative」。",
-        "common-mcq-61": "「最小公倍數 mathematics」與本句語境不同。",
-        "common-mcq-63": "「最低公分母／最低共同標準 math/figurative」與本句語境不同。",
-        "common-mcq-60": "「公倍數 mathematics」與本句語境不同。",
-        "common-mcq-64": "「普通分數 mathematics」與本句語境不同。",
-        "common-mcq-59": "「最大公因數 mathematics」與本句語境不同。"
+        "common-mcq-62": "本句的「common」指「公分母／共同因素 math/figurative」。",
+        "common-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-62"
     },
@@ -4398,11 +4014,9 @@ export default {
       "masked": "Trust is a ____ denominator among successful teams.",
       "options": [
         "common-mcq-62",
-        "common-mcq-61",
-        "common-mcq-63",
-        "common-mcq-60",
-        "common-mcq-64",
-        "common-mcq-59"
+        "common-mcq-74",
+        "common-mcq-26",
+        "common-mcq-40"
       ],
       "explanation": "本句的「common」指「公分母／共同因素 math/figurative」。",
       "sentenceIndex": 148,
@@ -4411,12 +4025,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-62": "本句指「公分母／共同因素 math/figurative」。",
-        "common-mcq-61": "「最小公倍數 mathematics」與本句語境不同。",
-        "common-mcq-63": "「最低公分母／最低共同標準 math/figurative」與本句語境不同。",
-        "common-mcq-60": "「公倍數 mathematics」與本句語境不同。",
-        "common-mcq-64": "「普通分數 mathematics」與本句語境不同。",
-        "common-mcq-59": "「最大公因數 mathematics」與本句語境不同。"
+        "common-mcq-62": "本句的「common」指「公分母／共同因素 math/figurative」。",
+        "common-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-62"
     },
@@ -4428,11 +4040,9 @@ export default {
       "masked": "3/4 is a ____ fraction.",
       "options": [
         "common-mcq-64",
-        "common-mcq-63",
-        "common-mcq-65",
-        "common-mcq-62",
-        "common-mcq-66",
-        "common-mcq-61"
+        "common-mcq-01",
+        "common-mcq-34",
+        "common-mcq-40"
       ],
       "explanation": "本句的「common」指「普通分數 mathematics」。",
       "sentenceIndex": 149,
@@ -4441,12 +4051,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-64": "本句指「普通分數 mathematics」。",
-        "common-mcq-63": "「最低公分母／最低共同標準 math/figurative」與本句語境不同。",
-        "common-mcq-65": "「公比 mathematics」與本句語境不同。",
-        "common-mcq-62": "「公分母／共同因素 math/figurative」與本句語境不同。",
-        "common-mcq-66": "「常用對數 mathematics」與本句語境不同。",
-        "common-mcq-61": "「最小公倍數 mathematics」與本句語境不同。"
+        "common-mcq-64": "本句的「common」指「普通分數 mathematics」。",
+        "common-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-64"
     },
@@ -4458,11 +4066,9 @@ export default {
       "masked": "____ fractions can be written as one integer over another.",
       "options": [
         "common-mcq-64",
-        "common-mcq-63",
-        "common-mcq-65",
-        "common-mcq-62",
-        "common-mcq-66",
-        "common-mcq-61"
+        "common-mcq-10",
+        "common-mcq-19",
+        "common-mcq-24"
       ],
       "explanation": "本句的「Common」指「普通分數 mathematics」。",
       "sentenceIndex": 150,
@@ -4471,12 +4077,10 @@ export default {
         "Common"
       ],
       "optionReasons": {
-        "common-mcq-64": "本句指「普通分數 mathematics」。",
-        "common-mcq-63": "「最低公分母／最低共同標準 math/figurative」與本句語境不同。",
-        "common-mcq-65": "「公比 mathematics」與本句語境不同。",
-        "common-mcq-62": "「公分母／共同因素 math/figurative」與本句語境不同。",
-        "common-mcq-66": "「常用對數 mathematics」與本句語境不同。",
-        "common-mcq-61": "「最小公倍數 mathematics」與本句語境不同。"
+        "common-mcq-64": "本句的「Common」指「普通分數 mathematics」。",
+        "common-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-64"
     },
@@ -4488,11 +4092,9 @@ export default {
       "masked": "The sequence has a ____ ratio of 2.",
       "options": [
         "common-mcq-65",
-        "common-mcq-64",
-        "common-mcq-66",
-        "common-mcq-63",
-        "common-mcq-67",
-        "common-mcq-62"
+        "common-mcq-16",
+        "common-mcq-49",
+        "common-mcq-66"
       ],
       "explanation": "本句的「common」指「公比 mathematics」。",
       "sentenceIndex": 151,
@@ -4501,12 +4103,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-65": "本句指「公比 mathematics」。",
-        "common-mcq-64": "「普通分數 mathematics」與本句語境不同。",
-        "common-mcq-66": "「常用對數 mathematics」與本句語境不同。",
-        "common-mcq-63": "「最低公分母／最低共同標準 math/figurative」與本句語境不同。",
-        "common-mcq-67": "「普通股 finance」與本句語境不同。",
-        "common-mcq-62": "「公分母／共同因素 math/figurative」與本句語境不同。"
+        "common-mcq-65": "本句的「common」指「公比 mathematics」。",
+        "common-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-65"
     },
@@ -4518,11 +4118,9 @@ export default {
       "masked": "In a geometric sequence, consecutive terms have a constant ____ ratio.",
       "options": [
         "common-mcq-65",
-        "common-mcq-64",
-        "common-mcq-66",
-        "common-mcq-63",
-        "common-mcq-67",
-        "common-mcq-62"
+        "common-mcq-24",
+        "common-mcq-19",
+        "common-mcq-43"
       ],
       "explanation": "本句的「common」指「公比 mathematics」。",
       "sentenceIndex": 152,
@@ -4531,12 +4129,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-65": "本句指「公比 mathematics」。",
-        "common-mcq-64": "「普通分數 mathematics」與本句語境不同。",
-        "common-mcq-66": "「常用對數 mathematics」與本句語境不同。",
-        "common-mcq-63": "「最低公分母／最低共同標準 math/figurative」與本句語境不同。",
-        "common-mcq-67": "「普通股 finance」與本句語境不同。",
-        "common-mcq-62": "「公分母／共同因素 math/figurative」與本句語境不同。"
+        "common-mcq-65": "本句的「common」指「公比 mathematics」。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-65"
     },
@@ -4548,11 +4144,9 @@ export default {
       "masked": "A ____ logarithm usually means a logarithm to base 10.",
       "options": [
         "common-mcq-66",
-        "common-mcq-65",
-        "common-mcq-67",
-        "common-mcq-64",
-        "common-mcq-63",
-        "common-mcq-69"
+        "common-mcq-57",
+        "common-mcq-69",
+        "common-mcq-45"
       ],
       "explanation": "本句的「common」指「常用對數 mathematics」。",
       "sentenceIndex": 153,
@@ -4561,12 +4155,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-66": "本句指「常用對數 mathematics」。",
-        "common-mcq-65": "「公比 mathematics」與本句語境不同。",
-        "common-mcq-67": "「普通股 finance」與本句語境不同。",
-        "common-mcq-64": "「普通分數 mathematics」與本句語境不同。",
-        "common-mcq-63": "「最低公分母／最低共同標準 math/figurative」與本句語境不同。",
-        "common-mcq-69": "「共同市場 economics」與本句語境不同。"
+        "common-mcq-66": "本句的「common」指「常用對數 mathematics」。",
+        "common-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-66"
     },
@@ -4578,11 +4170,9 @@ export default {
       "masked": "____ logarithms were historically useful in manual calculation.",
       "options": [
         "common-mcq-66",
-        "common-mcq-65",
-        "common-mcq-67",
-        "common-mcq-64",
-        "common-mcq-63",
-        "common-mcq-69"
+        "common-mcq-15",
+        "common-mcq-52",
+        "common-mcq-74"
       ],
       "explanation": "本句的「Common」指「常用對數 mathematics」。",
       "sentenceIndex": 154,
@@ -4591,12 +4181,10 @@ export default {
         "Common"
       ],
       "optionReasons": {
-        "common-mcq-66": "本句指「常用對數 mathematics」。",
-        "common-mcq-65": "「公比 mathematics」與本句語境不同。",
-        "common-mcq-67": "「普通股 finance」與本句語境不同。",
-        "common-mcq-64": "「普通分數 mathematics」與本句語境不同。",
-        "common-mcq-63": "「最低公分母／最低共同標準 math/figurative」與本句語境不同。",
-        "common-mcq-69": "「共同市場 economics」與本句語境不同。"
+        "common-mcq-66": "本句的「Common」指「常用對數 mathematics」。",
+        "common-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-66"
     },
@@ -4608,11 +4196,9 @@ export default {
       "masked": "The company issued ____ stock.",
       "options": [
         "common-mcq-67",
-        "common-mcq-66",
-        "common-mcq-65",
-        "common-mcq-69",
-        "common-mcq-64",
-        "common-mcq-70"
+        "common-mcq-12",
+        "common-mcq-51",
+        "common-mcq-24"
       ],
       "explanation": "本句的「common」指「普通股 finance」。",
       "sentenceIndex": 155,
@@ -4621,12 +4207,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-67": "本句指「普通股 finance」。",
-        "common-mcq-66": "「常用對數 mathematics」與本句語境不同。",
-        "common-mcq-65": "「公比 mathematics」與本句語境不同。",
-        "common-mcq-69": "「共同市場 economics」與本句語境不同。",
-        "common-mcq-64": "「普通分數 mathematics」與本句語境不同。",
-        "common-mcq-70": "「普通法 law」與本句語境不同。"
+        "common-mcq-67": "本句的「common」指「普通股 finance」。",
+        "common-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-67"
     },
@@ -4638,11 +4222,9 @@ export default {
       "masked": "____ stock represents an ownership interest in a company.",
       "options": [
         "common-mcq-67",
-        "common-mcq-66",
-        "common-mcq-65",
-        "common-mcq-69",
-        "common-mcq-64",
-        "common-mcq-70"
+        "common-mcq-04",
+        "common-mcq-51",
+        "common-mcq-26"
       ],
       "explanation": "本句的「Common」指「普通股 finance」。",
       "sentenceIndex": 156,
@@ -4651,12 +4233,10 @@ export default {
         "Common"
       ],
       "optionReasons": {
-        "common-mcq-67": "本句指「普通股 finance」。",
-        "common-mcq-66": "「常用對數 mathematics」與本句語境不同。",
-        "common-mcq-65": "「公比 mathematics」與本句語境不同。",
-        "common-mcq-69": "「共同市場 economics」與本句語境不同。",
-        "common-mcq-64": "「普通分數 mathematics」與本句語境不同。",
-        "common-mcq-70": "「普通法 law」與本句語境不同。"
+        "common-mcq-67": "本句的「Common」指「普通股 finance」。",
+        "common-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-67"
     },
@@ -4668,11 +4248,9 @@ export default {
       "masked": "Investors purchased ____ shares.",
       "options": [
         "common-mcq-68",
-        "common-mcq-69",
-        "common-mcq-66",
-        "common-mcq-70",
-        "common-mcq-65",
-        "common-mcq-71"
+        "common-mcq-08",
+        "common-mcq-25",
+        "common-mcq-65"
       ],
       "explanation": "本句的「common」指「普通股 finance」。",
       "sentenceIndex": 157,
@@ -4681,12 +4259,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-68": "本句指「普通股 finance」。",
-        "common-mcq-69": "「共同市場 economics」與本句語境不同。",
-        "common-mcq-66": "「常用對數 mathematics」與本句語境不同。",
-        "common-mcq-70": "「普通法 law」與本句語境不同。",
-        "common-mcq-65": "「公比 mathematics」與本句語境不同。",
-        "common-mcq-71": "「普通法的／特定伴侶法律用語 law」與本句語境不同。"
+        "common-mcq-68": "本句的「common」指「普通股 finance」。",
+        "common-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-68"
     },
@@ -4698,11 +4274,9 @@ export default {
       "masked": "____ shareholders may receive dividends if declared.",
       "options": [
         "common-mcq-68",
-        "common-mcq-69",
-        "common-mcq-66",
-        "common-mcq-70",
-        "common-mcq-65",
-        "common-mcq-71"
+        "common-mcq-73",
+        "common-mcq-48",
+        "common-mcq-59"
       ],
       "explanation": "本句的「Common」指「普通股 finance」。",
       "sentenceIndex": 158,
@@ -4711,12 +4285,10 @@ export default {
         "Common"
       ],
       "optionReasons": {
-        "common-mcq-68": "本句指「普通股 finance」。",
-        "common-mcq-69": "「共同市場 economics」與本句語境不同。",
-        "common-mcq-66": "「常用對數 mathematics」與本句語境不同。",
-        "common-mcq-70": "「普通法 law」與本句語境不同。",
-        "common-mcq-65": "「公比 mathematics」與本句語境不同。",
-        "common-mcq-71": "「普通法的／特定伴侶法律用語 law」與本句語境不同。"
+        "common-mcq-68": "本句的「Common」指「普通股 finance」。",
+        "common-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-68"
     },
@@ -4728,11 +4300,9 @@ export default {
       "masked": "A ____ market allows closer economic integration among participating economies.",
       "options": [
         "common-mcq-69",
-        "common-mcq-68",
-        "common-mcq-70",
-        "common-mcq-71",
-        "common-mcq-66",
-        "common-mcq-72"
+        "common-mcq-24",
+        "common-mcq-36",
+        "common-mcq-59"
       ],
       "explanation": "本句的「common」指「共同市場 economics」。",
       "sentenceIndex": 160,
@@ -4741,12 +4311,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-69": "本句指「共同市場 economics」。",
-        "common-mcq-68": "「普通股 finance」與本句語境不同。",
-        "common-mcq-70": "「普通法 law」與本句語境不同。",
-        "common-mcq-71": "「普通法的／特定伴侶法律用語 law」與本句語境不同。",
-        "common-mcq-66": "「常用對數 mathematics」與本句語境不同。",
-        "common-mcq-72": "「制度專名中的 Commons institutional」與本句語境不同。"
+        "common-mcq-69": "本句的「common」指「共同市場 economics」。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-69"
     },
@@ -4758,11 +4326,9 @@ export default {
       "masked": "The case concerns a principle of ____ law.",
       "options": [
         "common-mcq-70",
-        "common-mcq-69",
-        "common-mcq-71",
-        "common-mcq-68",
-        "common-mcq-72",
-        "common-mcq-73"
+        "common-mcq-10",
+        "common-mcq-59",
+        "common-mcq-12"
       ],
       "explanation": "本句的「common」指「普通法 law」。",
       "sentenceIndex": 161,
@@ -4771,12 +4337,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-70": "本句指「普通法 law」。",
-        "common-mcq-69": "「共同市場 economics」與本句語境不同。",
-        "common-mcq-71": "「普通法的／特定伴侶法律用語 law」與本句語境不同。",
-        "common-mcq-68": "「普通股 finance」與本句語境不同。",
-        "common-mcq-72": "「制度專名中的 Commons institutional」與本句語境不同。",
-        "common-mcq-73": "「俗名／常見名字 biology/general」與本句語境不同。"
+        "common-mcq-70": "本句的「common」指「普通法 law」。",
+        "common-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-70"
     },
@@ -4788,11 +4352,9 @@ export default {
       "masked": "The course compares ____ and civil-law traditions.",
       "options": [
         "common-mcq-70",
-        "common-mcq-69",
-        "common-mcq-71",
-        "common-mcq-68",
-        "common-mcq-72",
-        "common-mcq-73"
+        "common-mcq-52",
+        "common-mcq-10",
+        "common-mcq-24"
       ],
       "explanation": "本句的「common-law」指「普通法 law」。",
       "sentenceIndex": 162,
@@ -4801,12 +4363,10 @@ export default {
         "common-law"
       ],
       "optionReasons": {
-        "common-mcq-70": "本句指「普通法 law」。",
-        "common-mcq-69": "「共同市場 economics」與本句語境不同。",
-        "common-mcq-71": "「普通法的／特定伴侶法律用語 law」與本句語境不同。",
-        "common-mcq-68": "「普通股 finance」與本句語境不同。",
-        "common-mcq-72": "「制度專名中的 Commons institutional」與本句語境不同。",
-        "common-mcq-73": "「俗名／常見名字 biology/general」與本句語境不同。"
+        "common-mcq-70": "本句的「common-law」指「普通法 law」。",
+        "common-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-70"
     },
@@ -4818,11 +4378,9 @@ export default {
       "masked": "The phrase ____ partner is used differently in different legal systems.",
       "options": [
         "common-mcq-70",
-        "common-mcq-69",
-        "common-mcq-71",
-        "common-mcq-68",
-        "common-mcq-72",
-        "common-mcq-73"
+        "common-mcq-17",
+        "common-mcq-40",
+        "common-mcq-29"
       ],
       "explanation": "本句的「common-law」指「普通法 law」。",
       "sentenceIndex": 163,
@@ -4831,12 +4389,10 @@ export default {
         "common-law"
       ],
       "optionReasons": {
-        "common-mcq-70": "本句指「普通法 law」。",
-        "common-mcq-69": "「共同市場 economics」與本句語境不同。",
-        "common-mcq-71": "「普通法的／特定伴侶法律用語 law」與本句語境不同。",
-        "common-mcq-68": "「普通股 finance」與本句語境不同。",
-        "common-mcq-72": "「制度專名中的 Commons institutional」與本句語境不同。",
-        "common-mcq-73": "「俗名／常見名字 biology/general」與本句語境不同。"
+        "common-mcq-70": "本句的「common-law」指「普通法 law」。",
+        "common-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-70"
     },
@@ -4848,11 +4404,9 @@ export default {
       "masked": "Do not assume “____ marriage” has the same legal effect everywhere.",
       "options": [
         "common-mcq-70",
-        "common-mcq-69",
-        "common-mcq-71",
-        "common-mcq-68",
-        "common-mcq-72",
-        "common-mcq-73"
+        "common-mcq-13",
+        "common-mcq-26",
+        "common-mcq-52"
       ],
       "explanation": "本句的「common-law」指「普通法 law」。",
       "sentenceIndex": 164,
@@ -4861,12 +4415,10 @@ export default {
         "common-law"
       ],
       "optionReasons": {
-        "common-mcq-70": "本句指「普通法 law」。",
-        "common-mcq-69": "「共同市場 economics」與本句語境不同。",
-        "common-mcq-71": "「普通法的／特定伴侶法律用語 law」與本句語境不同。",
-        "common-mcq-68": "「普通股 finance」與本句語境不同。",
-        "common-mcq-72": "「制度專名中的 Commons institutional」與本句語境不同。",
-        "common-mcq-73": "「俗名／常見名字 biology/general」與本句語境不同。"
+        "common-mcq-70": "本句的「common-law」指「普通法 law」。",
+        "common-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-70"
     },
@@ -4878,11 +4430,9 @@ export default {
       "masked": "A species may have both a scientific name and a ____ name.",
       "options": [
         "common-mcq-73",
-        "common-mcq-72",
-        "common-mcq-74",
-        "common-mcq-71",
-        "common-mcq-75",
-        "common-mcq-70"
+        "common-mcq-53",
+        "common-mcq-65",
+        "common-mcq-68"
       ],
       "explanation": "本句的「common」指「俗名／常見名字 biology/general」。",
       "sentenceIndex": 167,
@@ -4891,12 +4441,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-73": "本句指「俗名／常見名字 biology/general」。",
-        "common-mcq-72": "「制度專名中的 Commons institutional」與本句語境不同。",
-        "common-mcq-74": "「與普通人打成一片的能力 social skill」與本句語境不同。",
-        "common-mcq-71": "「普通法的／特定伴侶法律用語 law」與本句語境不同。",
-        "common-mcq-75": "「不常見的；非凡的 opposite」與本句語境不同。",
-        "common-mcq-70": "「普通法 law」與本句語境不同。"
+        "common-mcq-73": "本句的「common」指「俗名／常見名字 biology/general」。",
+        "common-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-73"
     },
@@ -4908,11 +4456,9 @@ export default {
       "masked": "____ names can vary between regions.",
       "options": [
         "common-mcq-73",
-        "common-mcq-72",
-        "common-mcq-74",
-        "common-mcq-71",
-        "common-mcq-75",
-        "common-mcq-70"
+        "common-mcq-19",
+        "common-mcq-51",
+        "common-mcq-67"
       ],
       "explanation": "本句的「Common」指「俗名／常見名字 biology/general」。",
       "sentenceIndex": 168,
@@ -4921,12 +4467,10 @@ export default {
         "Common"
       ],
       "optionReasons": {
-        "common-mcq-73": "本句指「俗名／常見名字 biology/general」。",
-        "common-mcq-72": "「制度專名中的 Commons institutional」與本句語境不同。",
-        "common-mcq-74": "「與普通人打成一片的能力 social skill」與本句語境不同。",
-        "common-mcq-71": "「普通法的／特定伴侶法律用語 law」與本句語境不同。",
-        "common-mcq-75": "「不常見的；非凡的 opposite」與本句語境不同。",
-        "common-mcq-70": "「普通法 law」與本句語境不同。"
+        "common-mcq-73": "本句的「Common」指「俗名／常見名字 biology/general」。",
+        "common-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-73"
     },
@@ -4938,11 +4482,9 @@ export default {
       "masked": "Chan is a very ____ surname in some Chinese communities.",
       "options": [
         "common-mcq-73",
-        "common-mcq-72",
-        "common-mcq-74",
-        "common-mcq-71",
-        "common-mcq-75",
-        "common-mcq-70"
+        "common-mcq-16",
+        "common-mcq-55",
+        "common-mcq-36"
       ],
       "explanation": "本句的「common」指「俗名／常見名字 biology/general」。",
       "sentenceIndex": 169,
@@ -4951,12 +4493,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-73": "本句指「俗名／常見名字 biology/general」。",
-        "common-mcq-72": "「制度專名中的 Commons institutional」與本句語境不同。",
-        "common-mcq-74": "「與普通人打成一片的能力 social skill」與本句語境不同。",
-        "common-mcq-71": "「普通法的／特定伴侶法律用語 law」與本句語境不同。",
-        "common-mcq-75": "「不常見的；非凡的 opposite」與本句語境不同。",
-        "common-mcq-70": "「普通法 law」與本句語境不同。"
+        "common-mcq-73": "本句的「common」指「俗名／常見名字 biology/general」。",
+        "common-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-73"
     },
@@ -4968,11 +4508,9 @@ export default {
       "masked": "It is a ____ first name.",
       "options": [
         "common-mcq-73",
-        "common-mcq-72",
-        "common-mcq-74",
-        "common-mcq-71",
-        "common-mcq-75",
-        "common-mcq-70"
+        "common-mcq-51",
+        "common-mcq-41",
+        "common-mcq-53"
       ],
       "explanation": "本句的「common」指「俗名／常見名字 biology/general」。",
       "sentenceIndex": 170,
@@ -4981,12 +4519,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-73": "本句指「俗名／常見名字 biology/general」。",
-        "common-mcq-72": "「制度專名中的 Commons institutional」與本句語境不同。",
-        "common-mcq-74": "「與普通人打成一片的能力 social skill」與本句語境不同。",
-        "common-mcq-71": "「普通法的／特定伴侶法律用語 law」與本句語境不同。",
-        "common-mcq-75": "「不常見的；非凡的 opposite」與本句語境不同。",
-        "common-mcq-70": "「普通法 law」與本句語境不同。"
+        "common-mcq-73": "本句的「common」指「俗名／常見名字 biology/general」。",
+        "common-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-73"
     },
@@ -4998,11 +4534,9 @@ export default {
       "masked": "Despite his senior position, he has the ____ touch.",
       "options": [
         "common-mcq-74",
-        "common-mcq-73",
-        "common-mcq-75",
-        "common-mcq-72",
-        "common-mcq-76",
-        "common-mcq-71"
+        "common-mcq-50",
+        "common-mcq-10",
+        "common-mcq-55"
       ],
       "explanation": "本句的「common」指「與普通人打成一片的能力 social skill」。",
       "sentenceIndex": 171,
@@ -5011,12 +4545,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-74": "本句指「與普通人打成一片的能力 social skill」。",
-        "common-mcq-73": "「俗名／常見名字 biology/general」與本句語境不同。",
-        "common-mcq-75": "「不常見的；非凡的 opposite」與本句語境不同。",
-        "common-mcq-72": "「制度專名中的 Commons institutional」與本句語境不同。",
-        "common-mcq-76": "「並不少見 understated frequency」與本句語境不同。",
-        "common-mcq-71": "「普通法的／特定伴侶法律用語 law」與本句語境不同。"
+        "common-mcq-74": "本句的「common」指「與普通人打成一片的能力 social skill」。",
+        "common-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-74"
     },
@@ -5028,11 +4560,9 @@ export default {
       "masked": "A leader with the ____ touch can communicate naturally with many kinds of people.",
       "options": [
         "common-mcq-74",
-        "common-mcq-73",
-        "common-mcq-75",
-        "common-mcq-72",
-        "common-mcq-76",
-        "common-mcq-71"
+        "common-mcq-29",
+        "common-mcq-02",
+        "common-mcq-40"
       ],
       "explanation": "本句的「common」指「與普通人打成一片的能力 social skill」。",
       "sentenceIndex": 172,
@@ -5041,12 +4571,10 @@ export default {
         "common"
       ],
       "optionReasons": {
-        "common-mcq-74": "本句指「與普通人打成一片的能力 social skill」。",
-        "common-mcq-73": "「俗名／常見名字 biology/general」與本句語境不同。",
-        "common-mcq-75": "「不常見的；非凡的 opposite」與本句語境不同。",
-        "common-mcq-72": "「制度專名中的 Commons institutional」與本句語境不同。",
-        "common-mcq-76": "「並不少見 understated frequency」與本句語境不同。",
-        "common-mcq-71": "「普通法的／特定伴侶法律用語 law」與本句語境不同。"
+        "common-mcq-74": "本句的「common」指「與普通人打成一片的能力 social skill」。",
+        "common-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "common-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "common-mcq-74"
     }
@@ -5058,5 +4586,7 @@ export default {
     "sha256": "bfb9d92a49a5c2a4bae74526ca06d5d428ab8df800415214c1339e296925214d",
     "pages": 77
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

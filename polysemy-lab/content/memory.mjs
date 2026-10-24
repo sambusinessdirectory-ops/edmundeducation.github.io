@@ -590,11 +590,9 @@ export default {
       "masked": "One day these visits will become ____.",
       "options": [
         "memory-mcq-01",
-        "memory-mcq-02",
-        "memory-mcq-03",
-        "memory-mcq-04",
-        "memory-mcq-05",
-        "memory-mcq-06"
+        "memory-mcq-20",
+        "memory-mcq-07",
+        "memory-mcq-16"
       ],
       "explanation": "本句的「memories」指「對過去某個人、事件、地方或經歷所保留下來的回憶」。",
       "sentenceIndex": 0,
@@ -603,12 +601,10 @@ export default {
         "memories"
       ],
       "optionReasons": {
-        "memory-mcq-01": "本句指「對過去某個人、事件、地方或經歷所保留下來的回憶」。",
-        "memory-mcq-02": "「對某人／某事／某地方的過往記憶」是「memory of X」的用法，與本句語境不同。",
-        "memory-mcq-03": "「帶有特定情感的某段過往回憶」是「happy/fond/painful memory」的用法，與本句語境不同。",
-        "memory-mcq-04": "「大腦儲存、保留並重新提取資訊或經驗的能力」是「memory — ability」的用法，與本句語境不同。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。"
+        "memory-mcq-01": "本句的「memories」指「對過去某個人、事件、地方或經歷所保留下來的回憶」。",
+        "memory-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-01"
     },
@@ -620,11 +616,9 @@ export default {
       "masked": "I have many happy ____ of my childhood.",
       "options": [
         "memory-mcq-01",
-        "memory-mcq-02",
-        "memory-mcq-03",
-        "memory-mcq-04",
-        "memory-mcq-05",
-        "memory-mcq-06"
+        "memory-mcq-21",
+        "memory-mcq-10",
+        "memory-mcq-22"
       ],
       "explanation": "本句的「memories」指「對過去某個人、事件、地方或經歷所保留下來的回憶」。",
       "sentenceIndex": 1,
@@ -633,12 +627,10 @@ export default {
         "memories"
       ],
       "optionReasons": {
-        "memory-mcq-01": "本句指「對過去某個人、事件、地方或經歷所保留下來的回憶」。",
-        "memory-mcq-02": "「對某人／某事／某地方的過往記憶」是「memory of X」的用法，與本句語境不同。",
-        "memory-mcq-03": "「帶有特定情感的某段過往回憶」是「happy/fond/painful memory」的用法，與本句語境不同。",
-        "memory-mcq-04": "「大腦儲存、保留並重新提取資訊或經驗的能力」是「memory — ability」的用法，與本句語境不同。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。"
+        "memory-mcq-01": "本句的「memories」指「對過去某個人、事件、地方或經歷所保留下來的回憶」。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-01"
     },
@@ -650,11 +642,9 @@ export default {
       "masked": "That song brings back old ____.",
       "options": [
         "memory-mcq-01",
-        "memory-mcq-02",
-        "memory-mcq-03",
-        "memory-mcq-04",
-        "memory-mcq-05",
-        "memory-mcq-06"
+        "memory-mcq-22",
+        "memory-mcq-16",
+        "memory-mcq-21"
       ],
       "explanation": "本句的「memories」指「對過去某個人、事件、地方或經歷所保留下來的回憶」。",
       "sentenceIndex": 2,
@@ -663,12 +653,10 @@ export default {
         "memories"
       ],
       "optionReasons": {
-        "memory-mcq-01": "本句指「對過去某個人、事件、地方或經歷所保留下來的回憶」。",
-        "memory-mcq-02": "「對某人／某事／某地方的過往記憶」是「memory of X」的用法，與本句語境不同。",
-        "memory-mcq-03": "「帶有特定情感的某段過往回憶」是「happy/fond/painful memory」的用法，與本句語境不同。",
-        "memory-mcq-04": "「大腦儲存、保留並重新提取資訊或經驗的能力」是「memory — ability」的用法，與本句語境不同。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。"
+        "memory-mcq-01": "本句的「memories」指「對過去某個人、事件、地方或經歷所保留下來的回憶」。",
+        "memory-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-01"
     },
@@ -680,11 +668,8 @@ export default {
       "masked": "My earliest ____ my grandmother is sitting in her kitchen.",
       "options": [
         "memory-mcq-02",
-        "memory-mcq-01",
-        "memory-mcq-03",
-        "memory-mcq-04",
-        "memory-mcq-05",
-        "memory-mcq-06"
+        "memory-mcq-06",
+        "memory-mcq-20"
       ],
       "explanation": "本句的「memory of」指「對某人／某事／某地方的過往記憶」。",
       "sentenceIndex": 3,
@@ -693,12 +678,9 @@ export default {
         "memory of"
       ],
       "optionReasons": {
-        "memory-mcq-02": "本句指「對某人／某事／某地方的過往記憶」。",
-        "memory-mcq-01": "「對過去某個人、事件、地方或經歷所保留下來的回憶」是「memory — recollection」的用法，與本句語境不同。",
-        "memory-mcq-03": "「帶有特定情感的某段過往回憶」是「happy/fond/painful memory」的用法，與本句語境不同。",
-        "memory-mcq-04": "「大腦儲存、保留並重新提取資訊或經驗的能力」是「memory — ability」的用法，與本句語境不同。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。"
+        "memory-mcq-02": "本句的「memory of」指「對某人／某事／某地方的過往記憶」。",
+        "memory-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-02"
     },
@@ -710,11 +692,8 @@ export default {
       "masked": "She has warm ____ her school days.",
       "options": [
         "memory-mcq-02",
-        "memory-mcq-01",
-        "memory-mcq-03",
-        "memory-mcq-04",
-        "memory-mcq-05",
-        "memory-mcq-06"
+        "memory-mcq-06",
+        "memory-mcq-20"
       ],
       "explanation": "本句的「memories of」指「對某人／某事／某地方的過往記憶」。",
       "sentenceIndex": 4,
@@ -723,12 +702,9 @@ export default {
         "memories of"
       ],
       "optionReasons": {
-        "memory-mcq-02": "本句指「對某人／某事／某地方的過往記憶」。",
-        "memory-mcq-01": "「對過去某個人、事件、地方或經歷所保留下來的回憶」是「memory — recollection」的用法，與本句語境不同。",
-        "memory-mcq-03": "「帶有特定情感的某段過往回憶」是「happy/fond/painful memory」的用法，與本句語境不同。",
-        "memory-mcq-04": "「大腦儲存、保留並重新提取資訊或經驗的能力」是「memory — ability」的用法，與本句語境不同。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。"
+        "memory-mcq-02": "本句的「memories of」指「對某人／某事／某地方的過往記憶」。",
+        "memory-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-02"
     },
@@ -740,11 +716,9 @@ export default {
       "masked": "That holiday is one of my happiest ____.",
       "options": [
         "memory-mcq-03",
-        "memory-mcq-02",
-        "memory-mcq-04",
-        "memory-mcq-01",
-        "memory-mcq-05",
-        "memory-mcq-06"
+        "memory-mcq-06",
+        "memory-mcq-24",
+        "memory-mcq-15"
       ],
       "explanation": "本句的「memories」指「帶有特定情感的某段過往回憶」。",
       "sentenceIndex": 5,
@@ -753,12 +727,10 @@ export default {
         "memories"
       ],
       "optionReasons": {
-        "memory-mcq-03": "本句指「帶有特定情感的某段過往回憶」。",
-        "memory-mcq-02": "「對某人／某事／某地方的過往記憶」是「memory of X」的用法，與本句語境不同。",
-        "memory-mcq-04": "「大腦儲存、保留並重新提取資訊或經驗的能力」是「memory — ability」的用法，與本句語境不同。",
-        "memory-mcq-01": "「對過去某個人、事件、地方或經歷所保留下來的回憶」是「memory — recollection」的用法，與本句語境不同。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。"
+        "memory-mcq-03": "本句的「memories」指「帶有特定情感的某段過往回憶」。",
+        "memory-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-03"
     },
@@ -770,11 +742,9 @@ export default {
       "masked": "She still has painful ____ of the accident.",
       "options": [
         "memory-mcq-03",
-        "memory-mcq-02",
-        "memory-mcq-04",
-        "memory-mcq-01",
-        "memory-mcq-05",
-        "memory-mcq-06"
+        "memory-mcq-07",
+        "memory-mcq-21",
+        "memory-mcq-16"
       ],
       "explanation": "本句的「memories」指「帶有特定情感的某段過往回憶」。",
       "sentenceIndex": 6,
@@ -783,12 +753,10 @@ export default {
         "memories"
       ],
       "optionReasons": {
-        "memory-mcq-03": "本句指「帶有特定情感的某段過往回憶」。",
-        "memory-mcq-02": "「對某人／某事／某地方的過往記憶」是「memory of X」的用法，與本句語境不同。",
-        "memory-mcq-04": "「大腦儲存、保留並重新提取資訊或經驗的能力」是「memory — ability」的用法，與本句語境不同。",
-        "memory-mcq-01": "「對過去某個人、事件、地方或經歷所保留下來的回憶」是「memory — recollection」的用法，與本句語境不同。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。"
+        "memory-mcq-03": "本句的「memories」指「帶有特定情感的某段過往回憶」。",
+        "memory-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-03"
     },
@@ -800,11 +768,9 @@ export default {
       "masked": "She has an excellent ____.",
       "options": [
         "memory-mcq-04",
-        "memory-mcq-03",
-        "memory-mcq-05",
-        "memory-mcq-02",
-        "memory-mcq-06",
-        "memory-mcq-01"
+        "memory-mcq-25",
+        "memory-mcq-21",
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memory」指「大腦儲存、保留並重新提取資訊或經驗的能力」。",
       "sentenceIndex": 7,
@@ -813,12 +779,10 @@ export default {
         "memory"
       ],
       "optionReasons": {
-        "memory-mcq-04": "本句指「大腦儲存、保留並重新提取資訊或經驗的能力」。",
-        "memory-mcq-03": "「帶有特定情感的某段過往回憶」是「happy/fond/painful memory」的用法，與本句語境不同。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。",
-        "memory-mcq-02": "「對某人／某事／某地方的過往記憶」是「memory of X」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。",
-        "memory-mcq-01": "「對過去某個人、事件、地方或經歷所保留下來的回憶」是「memory — recollection」的用法，與本句語境不同。"
+        "memory-mcq-04": "本句的「memory」指「大腦儲存、保留並重新提取資訊或經驗的能力」。",
+        "memory-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-04"
     },
@@ -830,11 +794,9 @@ export default {
       "masked": "My ____ is not as good as it used to be.",
       "options": [
         "memory-mcq-04",
-        "memory-mcq-03",
-        "memory-mcq-05",
-        "memory-mcq-02",
-        "memory-mcq-06",
-        "memory-mcq-01"
+        "memory-mcq-15",
+        "memory-mcq-21",
+        "memory-mcq-16"
       ],
       "explanation": "本句的「memory」指「大腦儲存、保留並重新提取資訊或經驗的能力」。",
       "sentenceIndex": 8,
@@ -843,12 +805,10 @@ export default {
         "memory"
       ],
       "optionReasons": {
-        "memory-mcq-04": "本句指「大腦儲存、保留並重新提取資訊或經驗的能力」。",
-        "memory-mcq-03": "「帶有特定情感的某段過往回憶」是「happy/fond/painful memory」的用法，與本句語境不同。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。",
-        "memory-mcq-02": "「對某人／某事／某地方的過往記憶」是「memory of X」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。",
-        "memory-mcq-01": "「對過去某個人、事件、地方或經歷所保留下來的回憶」是「memory — recollection」的用法，與本句語境不同。"
+        "memory-mcq-04": "本句的「memory」指「大腦儲存、保留並重新提取資訊或經驗的能力」。",
+        "memory-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-04"
     },
@@ -860,11 +820,8 @@ export default {
       "masked": "He has a very good ____ for names.",
       "options": [
         "memory-mcq-05",
-        "memory-mcq-04",
-        "memory-mcq-06",
-        "memory-mcq-03",
-        "memory-mcq-07",
-        "memory-mcq-02"
+        "memory-mcq-16",
+        "memory-mcq-01"
       ],
       "explanation": "本句的「memory」指「容易／不容易記住資訊的能力」。",
       "sentenceIndex": 9,
@@ -873,12 +830,9 @@ export default {
         "memory"
       ],
       "optionReasons": {
-        "memory-mcq-05": "本句指「容易／不容易記住資訊的能力」。",
-        "memory-mcq-04": "「大腦儲存、保留並重新提取資訊或經驗的能力」是「memory — ability」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。",
-        "memory-mcq-03": "「帶有特定情感的某段過往回憶」是「happy/fond/painful memory」的用法，與本句語境不同。",
-        "memory-mcq-07": "「不查看資料，只依靠自己記得的內容」是「from memory」的用法，與本句語境不同。",
-        "memory-mcq-02": "「對某人／某事／某地方的過往記憶」是「memory of X」的用法，與本句語境不同。"
+        "memory-mcq-05": "本句的「memory」指「容易／不容易記住資訊的能力」。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-05"
     },
@@ -890,11 +844,8 @@ export default {
       "masked": "I have a terrible ____ for dates.",
       "options": [
         "memory-mcq-05",
-        "memory-mcq-04",
-        "memory-mcq-06",
-        "memory-mcq-03",
-        "memory-mcq-07",
-        "memory-mcq-02"
+        "memory-mcq-25",
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memory」指「容易／不容易記住資訊的能力」。",
       "sentenceIndex": 10,
@@ -903,12 +854,9 @@ export default {
         "memory"
       ],
       "optionReasons": {
-        "memory-mcq-05": "本句指「容易／不容易記住資訊的能力」。",
-        "memory-mcq-04": "「大腦儲存、保留並重新提取資訊或經驗的能力」是「memory — ability」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。",
-        "memory-mcq-03": "「帶有特定情感的某段過往回憶」是「happy/fond/painful memory」的用法，與本句語境不同。",
-        "memory-mcq-07": "「不查看資料，只依靠自己記得的內容」是「from memory」的用法，與本句語境不同。",
-        "memory-mcq-02": "「對某人／某事／某地方的過往記憶」是「memory of X」的用法，與本句語境不同。"
+        "memory-mcq-05": "本句的「memory」指「容易／不容易記住資訊的能力」。",
+        "memory-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-05"
     },
@@ -920,11 +868,8 @@ export default {
       "masked": "The details faded from her ____.",
       "options": [
         "memory-mcq-06",
-        "memory-mcq-05",
-        "memory-mcq-07",
-        "memory-mcq-04",
-        "memory-mcq-08",
-        "memory-mcq-03"
+        "memory-mcq-02",
+        "memory-mcq-20"
       ],
       "explanation": "本句的「memory」指「已保存在腦中並可以重新想起的資訊或印象」。",
       "sentenceIndex": 11,
@@ -933,12 +878,9 @@ export default {
         "memory"
       ],
       "optionReasons": {
-        "memory-mcq-06": "本句指「已保存在腦中並可以重新想起的資訊或印象」。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。",
-        "memory-mcq-07": "「不查看資料，只依靠自己記得的內容」是「from memory」的用法，與本句語境不同。",
-        "memory-mcq-04": "「大腦儲存、保留並重新提取資訊或經驗的能力」是「memory — ability」的用法，與本句語境不同。",
-        "memory-mcq-08": "「刻意把資訊牢牢記住，以便日後準確回想」是「commit to memory」的用法，與本句語境不同。",
-        "memory-mcq-03": "「帶有特定情感的某段過往回憶」是「happy/fond/painful memory」的用法，與本句語境不同。"
+        "memory-mcq-06": "本句的「memory」指「已保存在腦中並可以重新想起的資訊或印象」。",
+        "memory-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-06"
     },
@@ -950,11 +892,9 @@ export default {
       "masked": "The image remained in his ____ for years.",
       "options": [
         "memory-mcq-06",
-        "memory-mcq-05",
-        "memory-mcq-07",
-        "memory-mcq-04",
-        "memory-mcq-08",
-        "memory-mcq-03"
+        "memory-mcq-15",
+        "memory-mcq-03",
+        "memory-mcq-20"
       ],
       "explanation": "本句的「memory」指「已保存在腦中並可以重新想起的資訊或印象」。",
       "sentenceIndex": 12,
@@ -963,12 +903,10 @@ export default {
         "memory"
       ],
       "optionReasons": {
-        "memory-mcq-06": "本句指「已保存在腦中並可以重新想起的資訊或印象」。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。",
-        "memory-mcq-07": "「不查看資料，只依靠自己記得的內容」是「from memory」的用法，與本句語境不同。",
-        "memory-mcq-04": "「大腦儲存、保留並重新提取資訊或經驗的能力」是「memory — ability」的用法，與本句語境不同。",
-        "memory-mcq-08": "「刻意把資訊牢牢記住，以便日後準確回想」是「commit to memory」的用法，與本句語境不同。",
-        "memory-mcq-03": "「帶有特定情感的某段過往回憶」是「happy/fond/painful memory」的用法，與本句語境不同。"
+        "memory-mcq-06": "本句的「memory」指「已保存在腦中並可以重新想起的資訊或印象」。",
+        "memory-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-06"
     },
@@ -980,11 +918,9 @@ export default {
       "masked": "She recited the poem ____.",
       "options": [
         "memory-mcq-07",
-        "memory-mcq-06",
-        "memory-mcq-08",
-        "memory-mcq-05",
-        "memory-mcq-09",
-        "memory-mcq-04"
+        "memory-mcq-03",
+        "memory-mcq-16",
+        "memory-mcq-09"
       ],
       "explanation": "本句的「from memory」指「不查看資料，只依靠自己記得的內容」。",
       "sentenceIndex": 13,
@@ -993,12 +929,10 @@ export default {
         "from memory"
       ],
       "optionReasons": {
-        "memory-mcq-07": "本句指「不查看資料，只依靠自己記得的內容」。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。",
-        "memory-mcq-08": "「刻意把資訊牢牢記住，以便日後準確回想」是「commit to memory」的用法，與本句語境不同。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。",
-        "memory-mcq-09": "「令過去的經歷或片段重新浮現在腦海」是「bring back memories」的用法，與本句語境不同。",
-        "memory-mcq-04": "「大腦儲存、保留並重新提取資訊或經驗的能力」是「memory — ability」的用法，與本句語境不同。"
+        "memory-mcq-07": "本句的「from memory」指「不查看資料，只依靠自己記得的內容」。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-07"
     },
@@ -1010,11 +944,9 @@ export default {
       "masked": "I drew the map ____.",
       "options": [
         "memory-mcq-07",
-        "memory-mcq-06",
-        "memory-mcq-08",
-        "memory-mcq-05",
-        "memory-mcq-09",
-        "memory-mcq-04"
+        "memory-mcq-01",
+        "memory-mcq-16",
+        "memory-mcq-20"
       ],
       "explanation": "本句的「from memory」指「不查看資料，只依靠自己記得的內容」。",
       "sentenceIndex": 14,
@@ -1023,12 +955,10 @@ export default {
         "from memory"
       ],
       "optionReasons": {
-        "memory-mcq-07": "本句指「不查看資料，只依靠自己記得的內容」。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。",
-        "memory-mcq-08": "「刻意把資訊牢牢記住，以便日後準確回想」是「commit to memory」的用法，與本句語境不同。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。",
-        "memory-mcq-09": "「令過去的經歷或片段重新浮現在腦海」是「bring back memories」的用法，與本句語境不同。",
-        "memory-mcq-04": "「大腦儲存、保留並重新提取資訊或經驗的能力」是「memory — ability」的用法，與本句語境不同。"
+        "memory-mcq-07": "本句的「from memory」指「不查看資料，只依靠自己記得的內容」。",
+        "memory-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-07"
     },
@@ -1040,11 +970,9 @@ export default {
       "masked": "Students were asked to ____.",
       "options": [
         "memory-mcq-08",
-        "memory-mcq-07",
-        "memory-mcq-09",
-        "memory-mcq-06",
-        "memory-mcq-10",
-        "memory-mcq-05"
+        "memory-mcq-16",
+        "memory-mcq-14",
+        "memory-mcq-03"
       ],
       "explanation": "本句的「commit the poem to memory」指「刻意把資訊牢牢記住，以便日後準確回想」。",
       "sentenceIndex": 15,
@@ -1053,12 +981,10 @@ export default {
         "commit the poem to memory"
       ],
       "optionReasons": {
-        "memory-mcq-08": "本句指「刻意把資訊牢牢記住，以便日後準確回想」。",
-        "memory-mcq-07": "「不查看資料，只依靠自己記得的內容」是「from memory」的用法，與本句語境不同。",
-        "memory-mcq-09": "「令過去的經歷或片段重新浮現在腦海」是「bring back memories」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。",
-        "memory-mcq-10": "「用提示令某人重新想起一時忘記的事情」是「jog someone’s memory」的用法，與本句語境不同。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。"
+        "memory-mcq-08": "本句的「commit the poem to memory」指「刻意把資訊牢牢記住，以便日後準確回想」。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-08"
     },
@@ -1070,11 +996,9 @@ export default {
       "masked": "She learned the speech ____.",
       "options": [
         "memory-mcq-08",
-        "memory-mcq-07",
+        "memory-mcq-24",
         "memory-mcq-09",
-        "memory-mcq-06",
-        "memory-mcq-10",
-        "memory-mcq-05"
+        "memory-mcq-03"
       ],
       "explanation": "本句的「by heart / committed it to memory」指「刻意把資訊牢牢記住，以便日後準確回想」。",
       "sentenceIndex": 16,
@@ -1083,12 +1007,10 @@ export default {
         "by heart / committed it to memory"
       ],
       "optionReasons": {
-        "memory-mcq-08": "本句指「刻意把資訊牢牢記住，以便日後準確回想」。",
-        "memory-mcq-07": "「不查看資料，只依靠自己記得的內容」是「from memory」的用法，與本句語境不同。",
-        "memory-mcq-09": "「令過去的經歷或片段重新浮現在腦海」是「bring back memories」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。",
-        "memory-mcq-10": "「用提示令某人重新想起一時忘記的事情」是「jog someone’s memory」的用法，與本句語境不同。",
-        "memory-mcq-05": "「容易／不容易記住資訊的能力」是「good/bad memory」的用法，與本句語境不同。"
+        "memory-mcq-08": "本句的「by heart / committed it to memory」指「刻意把資訊牢牢記住，以便日後準確回想」。",
+        "memory-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-08"
     },
@@ -1100,11 +1022,9 @@ export default {
       "masked": "This photograph ____.",
       "options": [
         "memory-mcq-09",
-        "memory-mcq-08",
-        "memory-mcq-10",
-        "memory-mcq-07",
-        "memory-mcq-11",
-        "memory-mcq-06"
+        "memory-mcq-12",
+        "memory-mcq-16",
+        "memory-mcq-21"
       ],
       "explanation": "本句的「brings back memories」指「令過去的經歷或片段重新浮現在腦海」。",
       "sentenceIndex": 17,
@@ -1113,12 +1033,10 @@ export default {
         "brings back memories"
       ],
       "optionReasons": {
-        "memory-mcq-09": "本句指「令過去的經歷或片段重新浮現在腦海」。",
-        "memory-mcq-08": "「刻意把資訊牢牢記住，以便日後準確回想」是「commit to memory」的用法，與本句語境不同。",
-        "memory-mcq-10": "「用提示令某人重新想起一時忘記的事情」是「jog someone’s memory」的用法，與本句語境不同。",
-        "memory-mcq-07": "「不查看資料，只依靠自己記得的內容」是「from memory」的用法，與本句語境不同。",
-        "memory-mcq-11": "「部分或全部失去記住／回想資訊的能力」是「memory loss」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。"
+        "memory-mcq-09": "本句的「brings back memories」指「令過去的經歷或片段重新浮現在腦海」。",
+        "memory-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-09"
     },
@@ -1130,11 +1048,9 @@ export default {
       "masked": "The smell of tea ____ of her grandmother’s home.",
       "options": [
         "memory-mcq-09",
-        "memory-mcq-08",
-        "memory-mcq-10",
         "memory-mcq-07",
-        "memory-mcq-11",
-        "memory-mcq-06"
+        "memory-mcq-16",
+        "memory-mcq-20"
       ],
       "explanation": "本句的「brought back memories」指「令過去的經歷或片段重新浮現在腦海」。",
       "sentenceIndex": 18,
@@ -1143,12 +1059,10 @@ export default {
         "brought back memories"
       ],
       "optionReasons": {
-        "memory-mcq-09": "本句指「令過去的經歷或片段重新浮現在腦海」。",
-        "memory-mcq-08": "「刻意把資訊牢牢記住，以便日後準確回想」是「commit to memory」的用法，與本句語境不同。",
-        "memory-mcq-10": "「用提示令某人重新想起一時忘記的事情」是「jog someone’s memory」的用法，與本句語境不同。",
-        "memory-mcq-07": "「不查看資料，只依靠自己記得的內容」是「from memory」的用法，與本句語境不同。",
-        "memory-mcq-11": "「部分或全部失去記住／回想資訊的能力」是「memory loss」的用法，與本句語境不同。",
-        "memory-mcq-06": "「已保存在腦中並可以重新想起的資訊或印象」是「memory — stored mental content」的用法，與本句語境不同。"
+        "memory-mcq-09": "本句的「brought back memories」指「令過去的經歷或片段重新浮現在腦海」。",
+        "memory-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-09"
     },
@@ -1160,11 +1074,9 @@ export default {
       "masked": "Maybe this photo will ____.",
       "options": [
         "memory-mcq-10",
-        "memory-mcq-09",
-        "memory-mcq-11",
-        "memory-mcq-08",
-        "memory-mcq-12",
-        "memory-mcq-07"
+        "memory-mcq-14",
+        "memory-mcq-18",
+        "memory-mcq-03"
       ],
       "explanation": "本句的「jog your memory」指「用提示令某人重新想起一時忘記的事情」。",
       "sentenceIndex": 19,
@@ -1173,12 +1085,10 @@ export default {
         "jog your memory"
       ],
       "optionReasons": {
-        "memory-mcq-10": "本句指「用提示令某人重新想起一時忘記的事情」。",
-        "memory-mcq-09": "「令過去的經歷或片段重新浮現在腦海」是「bring back memories」的用法，與本句語境不同。",
-        "memory-mcq-11": "「部分或全部失去記住／回想資訊的能力」是「memory loss」的用法，與本句語境不同。",
-        "memory-mcq-08": "「刻意把資訊牢牢記住，以便日後準確回想」是「commit to memory」的用法，與本句語境不同。",
-        "memory-mcq-12": "「在較短時間內暫時保存資訊的記憶系統」是「short-term memory」的用法，與本句語境不同。",
-        "memory-mcq-07": "「不查看資料，只依靠自己記得的內容」是「from memory」的用法，與本句語境不同。"
+        "memory-mcq-10": "本句的「jog your memory」指「用提示令某人重新想起一時忘記的事情」。",
+        "memory-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-10"
     },
@@ -1190,11 +1100,9 @@ export default {
       "masked": "His name ____.",
       "options": [
         "memory-mcq-10",
-        "memory-mcq-09",
-        "memory-mcq-11",
-        "memory-mcq-08",
-        "memory-mcq-12",
-        "memory-mcq-07"
+        "memory-mcq-18",
+        "memory-mcq-03",
+        "memory-mcq-14"
       ],
       "explanation": "本句的「jogged my memory」指「用提示令某人重新想起一時忘記的事情」。",
       "sentenceIndex": 20,
@@ -1203,12 +1111,10 @@ export default {
         "jogged my memory"
       ],
       "optionReasons": {
-        "memory-mcq-10": "本句指「用提示令某人重新想起一時忘記的事情」。",
-        "memory-mcq-09": "「令過去的經歷或片段重新浮現在腦海」是「bring back memories」的用法，與本句語境不同。",
-        "memory-mcq-11": "「部分或全部失去記住／回想資訊的能力」是「memory loss」的用法，與本句語境不同。",
-        "memory-mcq-08": "「刻意把資訊牢牢記住，以便日後準確回想」是「commit to memory」的用法，與本句語境不同。",
-        "memory-mcq-12": "「在較短時間內暫時保存資訊的記憶系統」是「short-term memory」的用法，與本句語境不同。",
-        "memory-mcq-07": "「不查看資料，只依靠自己記得的內容」是「from memory」的用法，與本句語境不同。"
+        "memory-mcq-10": "本句的「jogged my memory」指「用提示令某人重新想起一時忘記的事情」。",
+        "memory-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-10"
     },
@@ -1220,11 +1126,9 @@ export default {
       "masked": "The injury caused temporary ____.",
       "options": [
         "memory-mcq-11",
-        "memory-mcq-10",
-        "memory-mcq-12",
+        "memory-mcq-24",
         "memory-mcq-09",
-        "memory-mcq-13",
-        "memory-mcq-08"
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memory loss」指「部分或全部失去記住／回想資訊的能力」。",
       "sentenceIndex": 21,
@@ -1233,12 +1137,10 @@ export default {
         "memory loss"
       ],
       "optionReasons": {
-        "memory-mcq-11": "本句指「部分或全部失去記住／回想資訊的能力」。",
-        "memory-mcq-10": "「用提示令某人重新想起一時忘記的事情」是「jog someone’s memory」的用法，與本句語境不同。",
-        "memory-mcq-12": "「在較短時間內暫時保存資訊的記憶系統」是「short-term memory」的用法，與本句語境不同。",
-        "memory-mcq-09": "「令過去的經歷或片段重新浮現在腦海」是「bring back memories」的用法，與本句語境不同。",
-        "memory-mcq-13": "「能較長時間保存知識、經驗和資訊的記憶系統」是「long-term memory」的用法，與本句語境不同。",
-        "memory-mcq-08": "「刻意把資訊牢牢記住，以便日後準確回想」是「commit to memory」的用法，與本句語境不同。"
+        "memory-mcq-11": "本句的「memory loss」指「部分或全部失去記住／回想資訊的能力」。",
+        "memory-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-11"
     },
@@ -1250,11 +1152,9 @@ export default {
       "masked": "Severe ____ can affect daily life.",
       "options": [
         "memory-mcq-11",
-        "memory-mcq-10",
-        "memory-mcq-12",
+        "memory-mcq-16",
         "memory-mcq-09",
-        "memory-mcq-13",
-        "memory-mcq-08"
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memory loss」指「部分或全部失去記住／回想資訊的能力」。",
       "sentenceIndex": 22,
@@ -1263,12 +1163,10 @@ export default {
         "memory loss"
       ],
       "optionReasons": {
-        "memory-mcq-11": "本句指「部分或全部失去記住／回想資訊的能力」。",
-        "memory-mcq-10": "「用提示令某人重新想起一時忘記的事情」是「jog someone’s memory」的用法，與本句語境不同。",
-        "memory-mcq-12": "「在較短時間內暫時保存資訊的記憶系統」是「short-term memory」的用法，與本句語境不同。",
-        "memory-mcq-09": "「令過去的經歷或片段重新浮現在腦海」是「bring back memories」的用法，與本句語境不同。",
-        "memory-mcq-13": "「能較長時間保存知識、經驗和資訊的記憶系統」是「long-term memory」的用法，與本句語境不同。",
-        "memory-mcq-08": "「刻意把資訊牢牢記住，以便日後準確回想」是「commit to memory」的用法，與本句語境不同。"
+        "memory-mcq-11": "本句的「memory loss」指「部分或全部失去記住／回想資訊的能力」。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-11"
     },
@@ -1280,11 +1178,9 @@ export default {
       "masked": "The task tests ____.",
       "options": [
         "memory-mcq-12",
-        "memory-mcq-11",
-        "memory-mcq-13",
-        "memory-mcq-10",
-        "memory-mcq-14",
-        "memory-mcq-09"
+        "memory-mcq-24",
+        "memory-mcq-09",
+        "memory-mcq-21"
       ],
       "explanation": "本句的「short-term memory」指「在較短時間內暫時保存資訊的記憶系統」。",
       "sentenceIndex": 23,
@@ -1293,12 +1189,10 @@ export default {
         "short-term memory"
       ],
       "optionReasons": {
-        "memory-mcq-12": "本句指「在較短時間內暫時保存資訊的記憶系統」。",
-        "memory-mcq-11": "「部分或全部失去記住／回想資訊的能力」是「memory loss」的用法，與本句語境不同。",
-        "memory-mcq-13": "「能較長時間保存知識、經驗和資訊的記憶系統」是「long-term memory」的用法，與本句語境不同。",
-        "memory-mcq-10": "「用提示令某人重新想起一時忘記的事情」是「jog someone’s memory」的用法，與本句語境不同。",
-        "memory-mcq-14": "「一個社群／文化共同保存和理解過去事件的方式」是「collective memory」的用法，與本句語境不同。",
-        "memory-mcq-09": "「令過去的經歷或片段重新浮現在腦海」是「bring back memories」的用法，與本句語境不同。"
+        "memory-mcq-12": "本句的「short-term memory」指「在較短時間內暫時保存資訊的記憶系統」。",
+        "memory-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-12"
     },
@@ -1310,11 +1204,9 @@ export default {
       "masked": "She could hold only a few items in ____.",
       "options": [
         "memory-mcq-12",
-        "memory-mcq-11",
-        "memory-mcq-13",
-        "memory-mcq-10",
-        "memory-mcq-14",
-        "memory-mcq-09"
+        "memory-mcq-24",
+        "memory-mcq-09",
+        "memory-mcq-21"
       ],
       "explanation": "本句的「short-term memory」指「在較短時間內暫時保存資訊的記憶系統」。",
       "sentenceIndex": 24,
@@ -1323,12 +1215,10 @@ export default {
         "short-term memory"
       ],
       "optionReasons": {
-        "memory-mcq-12": "本句指「在較短時間內暫時保存資訊的記憶系統」。",
-        "memory-mcq-11": "「部分或全部失去記住／回想資訊的能力」是「memory loss」的用法，與本句語境不同。",
-        "memory-mcq-13": "「能較長時間保存知識、經驗和資訊的記憶系統」是「long-term memory」的用法，與本句語境不同。",
-        "memory-mcq-10": "「用提示令某人重新想起一時忘記的事情」是「jog someone’s memory」的用法，與本句語境不同。",
-        "memory-mcq-14": "「一個社群／文化共同保存和理解過去事件的方式」是「collective memory」的用法，與本句語境不同。",
-        "memory-mcq-09": "「令過去的經歷或片段重新浮現在腦海」是「bring back memories」的用法，與本句語境不同。"
+        "memory-mcq-12": "本句的「short-term memory」指「在較短時間內暫時保存資訊的記憶系統」。",
+        "memory-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-12"
     },
@@ -1340,11 +1230,9 @@ export default {
       "masked": "Some childhood experiences remain in ____.",
       "options": [
         "memory-mcq-13",
-        "memory-mcq-12",
-        "memory-mcq-14",
-        "memory-mcq-11",
-        "memory-mcq-15",
-        "memory-mcq-10"
+        "memory-mcq-24",
+        "memory-mcq-09",
+        "memory-mcq-03"
       ],
       "explanation": "本句的「long-term memory」指「能較長時間保存知識、經驗和資訊的記憶系統」。",
       "sentenceIndex": 25,
@@ -1353,12 +1241,10 @@ export default {
         "long-term memory"
       ],
       "optionReasons": {
-        "memory-mcq-13": "本句指「能較長時間保存知識、經驗和資訊的記憶系統」。",
-        "memory-mcq-12": "「在較短時間內暫時保存資訊的記憶系統」是「short-term memory」的用法，與本句語境不同。",
-        "memory-mcq-14": "「一個社群／文化共同保存和理解過去事件的方式」是「collective memory」的用法，與本句語境不同。",
-        "memory-mcq-11": "「部分或全部失去記住／回想資訊的能力」是「memory loss」的用法，與本句語境不同。",
-        "memory-mcq-15": "「現今仍有人能親身記得的過去時期」是「living memory」的用法，與本句語境不同。",
-        "memory-mcq-10": "「用提示令某人重新想起一時忘記的事情」是「jog someone’s memory」的用法，與本句語境不同。"
+        "memory-mcq-13": "本句的「long-term memory」指「能較長時間保存知識、經驗和資訊的記憶系統」。",
+        "memory-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-13"
     },
@@ -1370,11 +1256,9 @@ export default {
       "masked": "Practice helps move information into ____.",
       "options": [
         "memory-mcq-13",
-        "memory-mcq-12",
-        "memory-mcq-14",
-        "memory-mcq-11",
-        "memory-mcq-15",
-        "memory-mcq-10"
+        "memory-mcq-16",
+        "memory-mcq-21",
+        "memory-mcq-09"
       ],
       "explanation": "本句的「long-term memory」指「能較長時間保存知識、經驗和資訊的記憶系統」。",
       "sentenceIndex": 26,
@@ -1383,12 +1267,10 @@ export default {
         "long-term memory"
       ],
       "optionReasons": {
-        "memory-mcq-13": "本句指「能較長時間保存知識、經驗和資訊的記憶系統」。",
-        "memory-mcq-12": "「在較短時間內暫時保存資訊的記憶系統」是「short-term memory」的用法，與本句語境不同。",
-        "memory-mcq-14": "「一個社群／文化共同保存和理解過去事件的方式」是「collective memory」的用法，與本句語境不同。",
-        "memory-mcq-11": "「部分或全部失去記住／回想資訊的能力」是「memory loss」的用法，與本句語境不同。",
-        "memory-mcq-15": "「現今仍有人能親身記得的過去時期」是「living memory」的用法，與本句語境不同。",
-        "memory-mcq-10": "「用提示令某人重新想起一時忘記的事情」是「jog someone’s memory」的用法，與本句語境不同。"
+        "memory-mcq-13": "本句的「long-term memory」指「能較長時間保存知識、經驗和資訊的記憶系統」。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-13"
     },
@@ -1400,11 +1282,9 @@ export default {
       "masked": "The event remains part of the nation’s collective ____.",
       "options": [
         "memory-mcq-14",
-        "memory-mcq-13",
-        "memory-mcq-15",
-        "memory-mcq-12",
-        "memory-mcq-16",
-        "memory-mcq-11"
+        "memory-mcq-05",
+        "memory-mcq-10",
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memory」指「一個社群／文化共同保存和理解過去事件的方式」。",
       "sentenceIndex": 27,
@@ -1413,12 +1293,10 @@ export default {
         "memory"
       ],
       "optionReasons": {
-        "memory-mcq-14": "本句指「一個社群／文化共同保存和理解過去事件的方式」。",
-        "memory-mcq-13": "「能較長時間保存知識、經驗和資訊的記憶系統」是「long-term memory」的用法，與本句語境不同。",
-        "memory-mcq-15": "「現今仍有人能親身記得的過去時期」是「living memory」的用法，與本句語境不同。",
-        "memory-mcq-12": "「在較短時間內暫時保存資訊的記憶系統」是「short-term memory」的用法，與本句語境不同。",
-        "memory-mcq-16": "「為了紀念、追思某人，通常指已離世者」是「in memory of」的用法，與本句語境不同。",
-        "memory-mcq-11": "「部分或全部失去記住／回想資訊的能力」是「memory loss」的用法，與本句語境不同。"
+        "memory-mcq-14": "本句的「memory」指「一個社群／文化共同保存和理解過去事件的方式」。",
+        "memory-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-14"
     },
@@ -1430,11 +1308,9 @@ export default {
       "masked": "The story has survived in public ____.",
       "options": [
         "memory-mcq-14",
-        "memory-mcq-13",
-        "memory-mcq-15",
-        "memory-mcq-12",
-        "memory-mcq-16",
-        "memory-mcq-11"
+        "memory-mcq-20",
+        "memory-mcq-22",
+        "memory-mcq-10"
       ],
       "explanation": "本句的「memory」指「一個社群／文化共同保存和理解過去事件的方式」。",
       "sentenceIndex": 28,
@@ -1443,12 +1319,10 @@ export default {
         "memory"
       ],
       "optionReasons": {
-        "memory-mcq-14": "本句指「一個社群／文化共同保存和理解過去事件的方式」。",
-        "memory-mcq-13": "「能較長時間保存知識、經驗和資訊的記憶系統」是「long-term memory」的用法，與本句語境不同。",
-        "memory-mcq-15": "「現今仍有人能親身記得的過去時期」是「living memory」的用法，與本句語境不同。",
-        "memory-mcq-12": "「在較短時間內暫時保存資訊的記憶系統」是「short-term memory」的用法，與本句語境不同。",
-        "memory-mcq-16": "「為了紀念、追思某人，通常指已離世者」是「in memory of」的用法，與本句語境不同。",
-        "memory-mcq-11": "「部分或全部失去記住／回想資訊的能力」是「memory loss」的用法，與本句語境不同。"
+        "memory-mcq-14": "本句的「memory」指「一個社群／文化共同保存和理解過去事件的方式」。",
+        "memory-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-14"
     },
@@ -1460,11 +1334,9 @@ export default {
       "masked": "It was the worst storm within living ____.",
       "options": [
         "memory-mcq-15",
-        "memory-mcq-14",
+        "memory-mcq-06",
         "memory-mcq-16",
-        "memory-mcq-13",
-        "memory-mcq-17",
-        "memory-mcq-12"
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memory」指「現今仍有人能親身記得的過去時期」。",
       "sentenceIndex": 29,
@@ -1473,12 +1345,10 @@ export default {
         "memory"
       ],
       "optionReasons": {
-        "memory-mcq-15": "本句指「現今仍有人能親身記得的過去時期」。",
-        "memory-mcq-14": "「一個社群／文化共同保存和理解過去事件的方式」是「collective memory」的用法，與本句語境不同。",
-        "memory-mcq-16": "「為了紀念、追思某人，通常指已離世者」是「in memory of」的用法，與本句語境不同。",
-        "memory-mcq-13": "「能較長時間保存知識、經驗和資訊的記憶系統」是「long-term memory」的用法，與本句語境不同。",
-        "memory-mcq-17": "「電腦／電子設備保存資料供系統使用的記憶資源」是「memory — computing」的用法，與本句語境不同。",
-        "memory-mcq-12": "「在較短時間內暫時保存資訊的記憶系統」是「short-term memory」的用法，與本句語境不同。"
+        "memory-mcq-15": "本句的「memory」指「現今仍有人能親身記得的過去時期」。",
+        "memory-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-15"
     },
@@ -1490,11 +1360,9 @@ export default {
       "masked": "The town has changed more than at any time in living ____.",
       "options": [
         "memory-mcq-15",
-        "memory-mcq-14",
+        "memory-mcq-18",
         "memory-mcq-16",
-        "memory-mcq-13",
-        "memory-mcq-17",
-        "memory-mcq-12"
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memory」指「現今仍有人能親身記得的過去時期」。",
       "sentenceIndex": 30,
@@ -1503,12 +1371,10 @@ export default {
         "memory"
       ],
       "optionReasons": {
-        "memory-mcq-15": "本句指「現今仍有人能親身記得的過去時期」。",
-        "memory-mcq-14": "「一個社群／文化共同保存和理解過去事件的方式」是「collective memory」的用法，與本句語境不同。",
-        "memory-mcq-16": "「為了紀念、追思某人，通常指已離世者」是「in memory of」的用法，與本句語境不同。",
-        "memory-mcq-13": "「能較長時間保存知識、經驗和資訊的記憶系統」是「long-term memory」的用法，與本句語境不同。",
-        "memory-mcq-17": "「電腦／電子設備保存資料供系統使用的記憶資源」是「memory — computing」的用法，與本句語境不同。",
-        "memory-mcq-12": "「在較短時間內暫時保存資訊的記憶系統」是「short-term memory」的用法，與本句語境不同。"
+        "memory-mcq-15": "本句的「memory」指「現今仍有人能親身記得的過去時期」。",
+        "memory-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-15"
     },
@@ -1520,11 +1386,9 @@ export default {
       "masked": "The tree was planted ____ her grandmother.",
       "options": [
         "memory-mcq-16",
-        "memory-mcq-15",
-        "memory-mcq-17",
-        "memory-mcq-14",
+        "memory-mcq-21",
         "memory-mcq-18",
-        "memory-mcq-13"
+        "memory-mcq-09"
       ],
       "explanation": "本句的「in memory of」指「為了紀念、追思某人，通常指已離世者」。",
       "sentenceIndex": 31,
@@ -1533,12 +1397,10 @@ export default {
         "in memory of"
       ],
       "optionReasons": {
-        "memory-mcq-16": "本句指「為了紀念、追思某人，通常指已離世者」。",
-        "memory-mcq-15": "「現今仍有人能親身記得的過去時期」是「living memory」的用法，與本句語境不同。",
-        "memory-mcq-17": "「電腦／電子設備保存資料供系統使用的記憶資源」是「memory — computing」的用法，與本句語境不同。",
-        "memory-mcq-14": "「一個社群／文化共同保存和理解過去事件的方式」是「collective memory」的用法，與本句語境不同。",
-        "memory-mcq-18": "「用來儲存數碼資料的可攜式儲存裝置」是「memory card」的用法，與本句語境不同。",
-        "memory-mcq-13": "「能較長時間保存知識、經驗和資訊的記憶系統」是「long-term memory」的用法，與本句語境不同。"
+        "memory-mcq-16": "本句的「in memory of」指「為了紀念、追思某人，通常指已離世者」。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-16"
     },
@@ -1550,11 +1412,9 @@ export default {
       "masked": "They held a concert ____ their friend.",
       "options": [
         "memory-mcq-16",
-        "memory-mcq-15",
-        "memory-mcq-17",
-        "memory-mcq-14",
-        "memory-mcq-18",
-        "memory-mcq-13"
+        "memory-mcq-13",
+        "memory-mcq-20",
+        "memory-mcq-03"
       ],
       "explanation": "本句的「in memory of」指「為了紀念、追思某人，通常指已離世者」。",
       "sentenceIndex": 32,
@@ -1563,12 +1423,10 @@ export default {
         "in memory of"
       ],
       "optionReasons": {
-        "memory-mcq-16": "本句指「為了紀念、追思某人，通常指已離世者」。",
-        "memory-mcq-15": "「現今仍有人能親身記得的過去時期」是「living memory」的用法，與本句語境不同。",
-        "memory-mcq-17": "「電腦／電子設備保存資料供系統使用的記憶資源」是「memory — computing」的用法，與本句語境不同。",
-        "memory-mcq-14": "「一個社群／文化共同保存和理解過去事件的方式」是「collective memory」的用法，與本句語境不同。",
-        "memory-mcq-18": "「用來儲存數碼資料的可攜式儲存裝置」是「memory card」的用法，與本句語境不同。",
-        "memory-mcq-13": "「能較長時間保存知識、經驗和資訊的記憶系統」是「long-term memory」的用法，與本句語境不同。"
+        "memory-mcq-16": "本句的「in memory of」指「為了紀念、追思某人，通常指已離世者」。",
+        "memory-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-16"
     },
@@ -1580,11 +1438,9 @@ export default {
       "masked": "The book is dedicated ____ his parents.",
       "options": [
         "memory-mcq-16",
-        "memory-mcq-15",
-        "memory-mcq-17",
-        "memory-mcq-14",
-        "memory-mcq-18",
-        "memory-mcq-13"
+        "memory-mcq-12",
+        "memory-mcq-01",
+        "memory-mcq-21"
       ],
       "explanation": "本句的「to the memory of」指「為了紀念、追思某人，通常指已離世者」。",
       "sentenceIndex": 33,
@@ -1593,12 +1449,10 @@ export default {
         "to the memory of"
       ],
       "optionReasons": {
-        "memory-mcq-16": "本句指「為了紀念、追思某人，通常指已離世者」。",
-        "memory-mcq-15": "「現今仍有人能親身記得的過去時期」是「living memory」的用法，與本句語境不同。",
-        "memory-mcq-17": "「電腦／電子設備保存資料供系統使用的記憶資源」是「memory — computing」的用法，與本句語境不同。",
-        "memory-mcq-14": "「一個社群／文化共同保存和理解過去事件的方式」是「collective memory」的用法，與本句語境不同。",
-        "memory-mcq-18": "「用來儲存數碼資料的可攜式儲存裝置」是「memory card」的用法，與本句語境不同。",
-        "memory-mcq-13": "「能較長時間保存知識、經驗和資訊的記憶系統」是「long-term memory」的用法，與本句語境不同。"
+        "memory-mcq-16": "本句的「to the memory of」指「為了紀念、追思某人，通常指已離世者」。",
+        "memory-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-16"
     },
@@ -1610,11 +1464,8 @@ export default {
       "masked": "A plaque was placed there ____ the victims.",
       "options": [
         "memory-mcq-16",
-        "memory-mcq-15",
-        "memory-mcq-17",
-        "memory-mcq-14",
-        "memory-mcq-18",
-        "memory-mcq-13"
+        "memory-mcq-05",
+        "memory-mcq-01"
       ],
       "explanation": "本句的「to the memory of」指「為了紀念、追思某人，通常指已離世者」。",
       "sentenceIndex": 34,
@@ -1623,12 +1474,9 @@ export default {
         "to the memory of"
       ],
       "optionReasons": {
-        "memory-mcq-16": "本句指「為了紀念、追思某人，通常指已離世者」。",
-        "memory-mcq-15": "「現今仍有人能親身記得的過去時期」是「living memory」的用法，與本句語境不同。",
-        "memory-mcq-17": "「電腦／電子設備保存資料供系統使用的記憶資源」是「memory — computing」的用法，與本句語境不同。",
-        "memory-mcq-14": "「一個社群／文化共同保存和理解過去事件的方式」是「collective memory」的用法，與本句語境不同。",
-        "memory-mcq-18": "「用來儲存數碼資料的可攜式儲存裝置」是「memory card」的用法，與本句語境不同。",
-        "memory-mcq-13": "「能較長時間保存知識、經驗和資訊的記憶系統」是「long-term memory」的用法，與本句語境不同。"
+        "memory-mcq-16": "本句的「to the memory of」指「為了紀念、追思某人，通常指已離世者」。",
+        "memory-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-16"
     },
@@ -1641,10 +1489,8 @@ export default {
       "options": [
         "memory-mcq-17",
         "memory-mcq-16",
-        "memory-mcq-18",
         "memory-mcq-15",
-        "memory-mcq-19",
-        "memory-mcq-14"
+        "memory-mcq-21"
       ],
       "explanation": "本句的「memory」指「電腦／電子設備保存資料供系統使用的記憶資源」。",
       "sentenceIndex": 35,
@@ -1653,12 +1499,10 @@ export default {
         "memory"
       ],
       "optionReasons": {
-        "memory-mcq-17": "本句指「電腦／電子設備保存資料供系統使用的記憶資源」。",
-        "memory-mcq-16": "「為了紀念、追思某人，通常指已離世者」是「in memory of」的用法，與本句語境不同。",
-        "memory-mcq-18": "「用來儲存數碼資料的可攜式儲存裝置」是「memory card」的用法，與本句語境不同。",
-        "memory-mcq-15": "「現今仍有人能親身記得的過去時期」是「living memory」的用法，與本句語境不同。",
-        "memory-mcq-19": "「記憶／儲存系統能容納資料的能力」是「memory capacity」的用法，與本句語境不同。",
-        "memory-mcq-14": "「一個社群／文化共同保存和理解過去事件的方式」是「collective memory」的用法，與本句語境不同。"
+        "memory-mcq-17": "本句的「memory」指「電腦／電子設備保存資料供系統使用的記憶資源」。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-17"
     },
@@ -1671,10 +1515,8 @@ export default {
       "options": [
         "memory-mcq-17",
         "memory-mcq-16",
-        "memory-mcq-18",
-        "memory-mcq-15",
-        "memory-mcq-19",
-        "memory-mcq-14"
+        "memory-mcq-20",
+        "memory-mcq-09"
       ],
       "explanation": "本句的「memory」指「電腦／電子設備保存資料供系統使用的記憶資源」。",
       "sentenceIndex": 36,
@@ -1683,12 +1525,10 @@ export default {
         "memory"
       ],
       "optionReasons": {
-        "memory-mcq-17": "本句指「電腦／電子設備保存資料供系統使用的記憶資源」。",
-        "memory-mcq-16": "「為了紀念、追思某人，通常指已離世者」是「in memory of」的用法，與本句語境不同。",
-        "memory-mcq-18": "「用來儲存數碼資料的可攜式儲存裝置」是「memory card」的用法，與本句語境不同。",
-        "memory-mcq-15": "「現今仍有人能親身記得的過去時期」是「living memory」的用法，與本句語境不同。",
-        "memory-mcq-19": "「記憶／儲存系統能容納資料的能力」是「memory capacity」的用法，與本句語境不同。",
-        "memory-mcq-14": "「一個社群／文化共同保存和理解過去事件的方式」是「collective memory」的用法，與本句語境不同。"
+        "memory-mcq-17": "本句的「memory」指「電腦／電子設備保存資料供系統使用的記憶資源」。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-17"
     },
@@ -1700,11 +1540,9 @@ export default {
       "masked": "The camera needs a ____.",
       "options": [
         "memory-mcq-18",
-        "memory-mcq-17",
-        "memory-mcq-19",
         "memory-mcq-16",
-        "memory-mcq-20",
-        "memory-mcq-15"
+        "memory-mcq-15",
+        "memory-mcq-21"
       ],
       "explanation": "本句的「memory card」指「用來儲存數碼資料的可攜式儲存裝置」。",
       "sentenceIndex": 37,
@@ -1713,12 +1551,10 @@ export default {
         "memory card"
       ],
       "optionReasons": {
-        "memory-mcq-18": "本句指「用來儲存數碼資料的可攜式儲存裝置」。",
-        "memory-mcq-17": "「電腦／電子設備保存資料供系統使用的記憶資源」是「memory — computing」的用法，與本句語境不同。",
-        "memory-mcq-19": "「記憶／儲存系統能容納資料的能力」是「memory capacity」的用法，與本句語境不同。",
-        "memory-mcq-16": "「為了紀念、追思某人，通常指已離世者」是「in memory of」的用法，與本句語境不同。",
-        "memory-mcq-20": "「因特別、有意義或強烈而令人容易長久記住的」是「memorable」的用法，與本句語境不同。",
-        "memory-mcq-15": "「現今仍有人能親身記得的過去時期」是「living memory」的用法，與本句語境不同。"
+        "memory-mcq-18": "本句的「memory card」指「用來儲存數碼資料的可攜式儲存裝置」。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-18"
     },
@@ -1730,11 +1566,9 @@ export default {
       "masked": "The photos are stored on the ____.",
       "options": [
         "memory-mcq-18",
-        "memory-mcq-17",
-        "memory-mcq-19",
-        "memory-mcq-16",
-        "memory-mcq-20",
-        "memory-mcq-15"
+        "memory-mcq-25",
+        "memory-mcq-03",
+        "memory-mcq-20"
       ],
       "explanation": "本句的「memory card」指「用來儲存數碼資料的可攜式儲存裝置」。",
       "sentenceIndex": 38,
@@ -1743,12 +1577,10 @@ export default {
         "memory card"
       ],
       "optionReasons": {
-        "memory-mcq-18": "本句指「用來儲存數碼資料的可攜式儲存裝置」。",
-        "memory-mcq-17": "「電腦／電子設備保存資料供系統使用的記憶資源」是「memory — computing」的用法，與本句語境不同。",
-        "memory-mcq-19": "「記憶／儲存系統能容納資料的能力」是「memory capacity」的用法，與本句語境不同。",
-        "memory-mcq-16": "「為了紀念、追思某人，通常指已離世者」是「in memory of」的用法，與本句語境不同。",
-        "memory-mcq-20": "「因特別、有意義或強烈而令人容易長久記住的」是「memorable」的用法，與本句語境不同。",
-        "memory-mcq-15": "「現今仍有人能親身記得的過去時期」是「living memory」的用法，與本句語境不同。"
+        "memory-mcq-18": "本句的「memory card」指「用來儲存數碼資料的可攜式儲存裝置」。",
+        "memory-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-18"
     },
@@ -1760,11 +1592,9 @@ export default {
       "masked": "The new model has greater ____.",
       "options": [
         "memory-mcq-19",
-        "memory-mcq-18",
-        "memory-mcq-20",
-        "memory-mcq-17",
-        "memory-mcq-21",
-        "memory-mcq-16"
+        "memory-mcq-09",
+        "memory-mcq-24",
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memory capacity」指「記憶／儲存系統能容納資料的能力」。",
       "sentenceIndex": 39,
@@ -1773,12 +1603,10 @@ export default {
         "memory capacity"
       ],
       "optionReasons": {
-        "memory-mcq-19": "本句指「記憶／儲存系統能容納資料的能力」。",
-        "memory-mcq-18": "「用來儲存數碼資料的可攜式儲存裝置」是「memory card」的用法，與本句語境不同。",
-        "memory-mcq-20": "「因特別、有意義或強烈而令人容易長久記住的」是「memorable」的用法，與本句語境不同。",
-        "memory-mcq-17": "「電腦／電子設備保存資料供系統使用的記憶資源」是「memory — computing」的用法，與本句語境不同。",
-        "memory-mcq-21": "「以令人印象深刻、容易被記住的方式」是「memorably」的用法，與本句語境不同。",
-        "memory-mcq-16": "「為了紀念、追思某人，通常指已離世者」是「in memory of」的用法，與本句語境不同。"
+        "memory-mcq-19": "本句的「memory capacity」指「記憶／儲存系統能容納資料的能力」。",
+        "memory-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-19"
     },
@@ -1790,11 +1618,9 @@ export default {
       "masked": "Limited ____ can slow the system down.",
       "options": [
         "memory-mcq-19",
-        "memory-mcq-18",
-        "memory-mcq-20",
-        "memory-mcq-17",
-        "memory-mcq-21",
-        "memory-mcq-16"
+        "memory-mcq-25",
+        "memory-mcq-03",
+        "memory-mcq-21"
       ],
       "explanation": "本句的「memory capacity」指「記憶／儲存系統能容納資料的能力」。",
       "sentenceIndex": 40,
@@ -1803,12 +1629,10 @@ export default {
         "memory capacity"
       ],
       "optionReasons": {
-        "memory-mcq-19": "本句指「記憶／儲存系統能容納資料的能力」。",
-        "memory-mcq-18": "「用來儲存數碼資料的可攜式儲存裝置」是「memory card」的用法，與本句語境不同。",
-        "memory-mcq-20": "「因特別、有意義或強烈而令人容易長久記住的」是「memorable」的用法，與本句語境不同。",
-        "memory-mcq-17": "「電腦／電子設備保存資料供系統使用的記憶資源」是「memory — computing」的用法，與本句語境不同。",
-        "memory-mcq-21": "「以令人印象深刻、容易被記住的方式」是「memorably」的用法，與本句語境不同。",
-        "memory-mcq-16": "「為了紀念、追思某人，通常指已離世者」是「in memory of」的用法，與本句語境不同。"
+        "memory-mcq-19": "本句的「memory capacity」指「記憶／儲存系統能容納資料的能力」。",
+        "memory-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-19"
     },
@@ -1820,11 +1644,9 @@ export default {
       "masked": "We had a ____ afternoon together.",
       "options": [
         "memory-mcq-20",
-        "memory-mcq-19",
-        "memory-mcq-21",
-        "memory-mcq-18",
-        "memory-mcq-22",
-        "memory-mcq-17"
+        "memory-mcq-06",
+        "memory-mcq-25",
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memorable」指「因特別、有意義或強烈而令人容易長久記住的」。",
       "sentenceIndex": 41,
@@ -1833,12 +1655,10 @@ export default {
         "memorable"
       ],
       "optionReasons": {
-        "memory-mcq-20": "本句指「因特別、有意義或強烈而令人容易長久記住的」。",
-        "memory-mcq-19": "「記憶／儲存系統能容納資料的能力」是「memory capacity」的用法，與本句語境不同。",
-        "memory-mcq-21": "「以令人印象深刻、容易被記住的方式」是「memorably」的用法，與本句語境不同。",
-        "memory-mcq-18": "「用來儲存數碼資料的可攜式儲存裝置」是「memory card」的用法，與本句語境不同。",
-        "memory-mcq-22": "「刻意把資訊記熟，使日後能準確重現」是「memorize / memorise」的用法，與本句語境不同。",
-        "memory-mcq-17": "「電腦／電子設備保存資料供系統使用的記憶資源」是「memory — computing」的用法，與本句語境不同。"
+        "memory-mcq-20": "本句的「memorable」指「因特別、有意義或強烈而令人容易長久記住的」。",
+        "memory-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-20"
     },
@@ -1850,11 +1670,9 @@ export default {
       "masked": "It was one of the most ____ moments of my childhood.",
       "options": [
         "memory-mcq-20",
-        "memory-mcq-19",
-        "memory-mcq-21",
+        "memory-mcq-25",
         "memory-mcq-18",
-        "memory-mcq-22",
-        "memory-mcq-17"
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memorable」指「因特別、有意義或強烈而令人容易長久記住的」。",
       "sentenceIndex": 42,
@@ -1863,12 +1681,10 @@ export default {
         "memorable"
       ],
       "optionReasons": {
-        "memory-mcq-20": "本句指「因特別、有意義或強烈而令人容易長久記住的」。",
-        "memory-mcq-19": "「記憶／儲存系統能容納資料的能力」是「memory capacity」的用法，與本句語境不同。",
-        "memory-mcq-21": "「以令人印象深刻、容易被記住的方式」是「memorably」的用法，與本句語境不同。",
-        "memory-mcq-18": "「用來儲存數碼資料的可攜式儲存裝置」是「memory card」的用法，與本句語境不同。",
-        "memory-mcq-22": "「刻意把資訊記熟，使日後能準確重現」是「memorize / memorise」的用法，與本句語境不同。",
-        "memory-mcq-17": "「電腦／電子設備保存資料供系統使用的記憶資源」是「memory — computing」的用法，與本句語境不同。"
+        "memory-mcq-20": "本句的「memorable」指「因特別、有意義或強烈而令人容易長久記住的」。",
+        "memory-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-20"
     },
@@ -1880,11 +1696,9 @@ export default {
       "masked": "She gave a ____ performance.",
       "options": [
         "memory-mcq-20",
-        "memory-mcq-19",
-        "memory-mcq-21",
-        "memory-mcq-18",
-        "memory-mcq-22",
-        "memory-mcq-17"
+        "memory-mcq-25",
+        "memory-mcq-06",
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memorable」指「因特別、有意義或強烈而令人容易長久記住的」。",
       "sentenceIndex": 43,
@@ -1893,12 +1707,10 @@ export default {
         "memorable"
       ],
       "optionReasons": {
-        "memory-mcq-20": "本句指「因特別、有意義或強烈而令人容易長久記住的」。",
-        "memory-mcq-19": "「記憶／儲存系統能容納資料的能力」是「memory capacity」的用法，與本句語境不同。",
-        "memory-mcq-21": "「以令人印象深刻、容易被記住的方式」是「memorably」的用法，與本句語境不同。",
-        "memory-mcq-18": "「用來儲存數碼資料的可攜式儲存裝置」是「memory card」的用法，與本句語境不同。",
-        "memory-mcq-22": "「刻意把資訊記熟，使日後能準確重現」是「memorize / memorise」的用法，與本句語境不同。",
-        "memory-mcq-17": "「電腦／電子設備保存資料供系統使用的記憶資源」是「memory — computing」的用法，與本句語境不同。"
+        "memory-mcq-20": "本句的「memorable」指「因特別、有意義或強烈而令人容易長久記住的」。",
+        "memory-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-20"
     },
@@ -1910,11 +1722,9 @@ export default {
       "masked": "The speech contained several ____ lines.",
       "options": [
         "memory-mcq-20",
-        "memory-mcq-19",
-        "memory-mcq-21",
-        "memory-mcq-18",
-        "memory-mcq-22",
-        "memory-mcq-17"
+        "memory-mcq-24",
+        "memory-mcq-06",
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memorable」指「因特別、有意義或強烈而令人容易長久記住的」。",
       "sentenceIndex": 44,
@@ -1923,12 +1733,10 @@ export default {
         "memorable"
       ],
       "optionReasons": {
-        "memory-mcq-20": "本句指「因特別、有意義或強烈而令人容易長久記住的」。",
-        "memory-mcq-19": "「記憶／儲存系統能容納資料的能力」是「memory capacity」的用法，與本句語境不同。",
-        "memory-mcq-21": "「以令人印象深刻、容易被記住的方式」是「memorably」的用法，與本句語境不同。",
-        "memory-mcq-18": "「用來儲存數碼資料的可攜式儲存裝置」是「memory card」的用法，與本句語境不同。",
-        "memory-mcq-22": "「刻意把資訊記熟，使日後能準確重現」是「memorize / memorise」的用法，與本句語境不同。",
-        "memory-mcq-17": "「電腦／電子設備保存資料供系統使用的記憶資源」是「memory — computing」的用法，與本句語境不同。"
+        "memory-mcq-20": "本句的「memorable」指「因特別、有意義或強烈而令人容易長久記住的」。",
+        "memory-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-20"
     },
@@ -1940,11 +1748,9 @@ export default {
       "masked": "She described the experience ____.",
       "options": [
         "memory-mcq-21",
-        "memory-mcq-20",
-        "memory-mcq-22",
-        "memory-mcq-19",
-        "memory-mcq-23",
-        "memory-mcq-18"
+        "memory-mcq-04",
+        "memory-mcq-14",
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memorably」指「以令人印象深刻、容易被記住的方式」。",
       "sentenceIndex": 45,
@@ -1953,12 +1759,10 @@ export default {
         "memorably"
       ],
       "optionReasons": {
-        "memory-mcq-21": "本句指「以令人印象深刻、容易被記住的方式」。",
-        "memory-mcq-20": "「因特別、有意義或強烈而令人容易長久記住的」是「memorable」的用法，與本句語境不同。",
-        "memory-mcq-22": "「刻意把資訊記熟，使日後能準確重現」是「memorize / memorise」的用法，與本句語境不同。",
-        "memory-mcq-19": "「記憶／儲存系統能容納資料的能力」是「memory capacity」的用法，與本句語境不同。",
-        "memory-mcq-23": "「有意識地把資訊背熟／記住的過程」是「memorization / memorisation」的用法，與本句語境不同。",
-        "memory-mcq-18": "「用來儲存數碼資料的可攜式儲存裝置」是「memory card」的用法，與本句語境不同。"
+        "memory-mcq-21": "本句的「memorably」指「以令人印象深刻、容易被記住的方式」。",
+        "memory-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-21"
     },
@@ -1970,11 +1774,9 @@ export default {
       "masked": "The actor ____ played the role.",
       "options": [
         "memory-mcq-21",
-        "memory-mcq-20",
-        "memory-mcq-22",
-        "memory-mcq-19",
-        "memory-mcq-23",
-        "memory-mcq-18"
+        "memory-mcq-18",
+        "memory-mcq-01",
+        "memory-mcq-16"
       ],
       "explanation": "本句的「memorably」指「以令人印象深刻、容易被記住的方式」。",
       "sentenceIndex": 46,
@@ -1983,12 +1785,10 @@ export default {
         "memorably"
       ],
       "optionReasons": {
-        "memory-mcq-21": "本句指「以令人印象深刻、容易被記住的方式」。",
-        "memory-mcq-20": "「因特別、有意義或強烈而令人容易長久記住的」是「memorable」的用法，與本句語境不同。",
-        "memory-mcq-22": "「刻意把資訊記熟，使日後能準確重現」是「memorize / memorise」的用法，與本句語境不同。",
-        "memory-mcq-19": "「記憶／儲存系統能容納資料的能力」是「memory capacity」的用法，與本句語境不同。",
-        "memory-mcq-23": "「有意識地把資訊背熟／記住的過程」是「memorization / memorisation」的用法，與本句語境不同。",
-        "memory-mcq-18": "「用來儲存數碼資料的可攜式儲存裝置」是「memory card」的用法，與本句語境不同。"
+        "memory-mcq-21": "本句的「memorably」指「以令人印象深刻、容易被記住的方式」。",
+        "memory-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-21"
     },
@@ -2000,11 +1800,9 @@ export default {
       "masked": "Students had to ____ the vocabulary.",
       "options": [
         "memory-mcq-22",
-        "memory-mcq-21",
-        "memory-mcq-23",
-        "memory-mcq-20",
-        "memory-mcq-24",
-        "memory-mcq-19"
+        "memory-mcq-16",
+        "memory-mcq-03",
+        "memory-mcq-14"
       ],
       "explanation": "本句的「memorize」指「刻意把資訊記熟，使日後能準確重現」。",
       "sentenceIndex": 47,
@@ -2013,12 +1811,10 @@ export default {
         "memorize"
       ],
       "optionReasons": {
-        "memory-mcq-22": "本句指「刻意把資訊記熟，使日後能準確重現」。",
-        "memory-mcq-21": "「以令人印象深刻、容易被記住的方式」是「memorably」的用法，與本句語境不同。",
-        "memory-mcq-23": "「有意識地把資訊背熟／記住的過程」是「memorization / memorisation」的用法，與本句語境不同。",
-        "memory-mcq-20": "「因特別、有意義或強烈而令人容易長久記住的」是「memorable」的用法，與本句語境不同。",
-        "memory-mcq-24": "「為紀念已故人物或重要事件而設立的紀念物／活動」是「memorial — noun」的用法，與本句語境不同。",
-        "memory-mcq-19": "「記憶／儲存系統能容納資料的能力」是「memory capacity」的用法，與本句語境不同。"
+        "memory-mcq-22": "本句的「memorize」指「刻意把資訊記熟，使日後能準確重現」。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-22"
     },
@@ -2030,11 +1826,9 @@ export default {
       "masked": "She ____ the poem for the competition.",
       "options": [
         "memory-mcq-22",
-        "memory-mcq-21",
-        "memory-mcq-23",
-        "memory-mcq-20",
-        "memory-mcq-24",
-        "memory-mcq-19"
+        "memory-mcq-16",
+        "memory-mcq-14",
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memorised」指「刻意把資訊記熟，使日後能準確重現」。",
       "sentenceIndex": 48,
@@ -2043,12 +1837,10 @@ export default {
         "memorised"
       ],
       "optionReasons": {
-        "memory-mcq-22": "本句指「刻意把資訊記熟，使日後能準確重現」。",
-        "memory-mcq-21": "「以令人印象深刻、容易被記住的方式」是「memorably」的用法，與本句語境不同。",
-        "memory-mcq-23": "「有意識地把資訊背熟／記住的過程」是「memorization / memorisation」的用法，與本句語境不同。",
-        "memory-mcq-20": "「因特別、有意義或強烈而令人容易長久記住的」是「memorable」的用法，與本句語境不同。",
-        "memory-mcq-24": "「為紀念已故人物或重要事件而設立的紀念物／活動」是「memorial — noun」的用法，與本句語境不同。",
-        "memory-mcq-19": "「記憶／儲存系統能容納資料的能力」是「memory capacity」的用法，與本句語境不同。"
+        "memory-mcq-22": "本句的「memorised」指「刻意把資訊記熟，使日後能準確重現」。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-22"
     },
@@ -2060,11 +1852,8 @@ export default {
       "masked": "Vocabulary learning should involve more than ____.",
       "options": [
         "memory-mcq-23",
-        "memory-mcq-22",
-        "memory-mcq-24",
-        "memory-mcq-21",
-        "memory-mcq-25",
-        "memory-mcq-20"
+        "memory-mcq-16",
+        "memory-mcq-01"
       ],
       "explanation": "本句的「memorization」指「有意識地把資訊背熟／記住的過程」。",
       "sentenceIndex": 49,
@@ -2073,12 +1862,9 @@ export default {
         "memorization"
       ],
       "optionReasons": {
-        "memory-mcq-23": "本句指「有意識地把資訊背熟／記住的過程」。",
-        "memory-mcq-22": "「刻意把資訊記熟，使日後能準確重現」是「memorize / memorise」的用法，與本句語境不同。",
-        "memory-mcq-24": "「為紀念已故人物或重要事件而設立的紀念物／活動」是「memorial — noun」的用法，與本句語境不同。",
-        "memory-mcq-21": "「以令人印象深刻、容易被記住的方式」是「memorably」的用法，與本句語境不同。",
-        "memory-mcq-25": "「為紀念已故人物或過去事件而設立／舉辦的」是「memorial — adjective」的用法，與本句語境不同。",
-        "memory-mcq-20": "「因特別、有意義或強烈而令人容易長久記住的」是「memorable」的用法，與本句語境不同。"
+        "memory-mcq-23": "本句的「memorization」指「有意識地把資訊背熟／記住的過程」。",
+        "memory-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-23"
     },
@@ -2090,11 +1876,9 @@ export default {
       "masked": "Repeated practice helps with ____.",
       "options": [
         "memory-mcq-23",
-        "memory-mcq-22",
         "memory-mcq-24",
-        "memory-mcq-21",
-        "memory-mcq-25",
-        "memory-mcq-20"
+        "memory-mcq-09",
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memorisation」指「有意識地把資訊背熟／記住的過程」。",
       "sentenceIndex": 50,
@@ -2103,12 +1887,10 @@ export default {
         "memorisation"
       ],
       "optionReasons": {
-        "memory-mcq-23": "本句指「有意識地把資訊背熟／記住的過程」。",
-        "memory-mcq-22": "「刻意把資訊記熟，使日後能準確重現」是「memorize / memorise」的用法，與本句語境不同。",
-        "memory-mcq-24": "「為紀念已故人物或重要事件而設立的紀念物／活動」是「memorial — noun」的用法，與本句語境不同。",
-        "memory-mcq-21": "「以令人印象深刻、容易被記住的方式」是「memorably」的用法，與本句語境不同。",
-        "memory-mcq-25": "「為紀念已故人物或過去事件而設立／舉辦的」是「memorial — adjective」的用法，與本句語境不同。",
-        "memory-mcq-20": "「因特別、有意義或強烈而令人容易長久記住的」是「memorable」的用法，與本句語境不同。"
+        "memory-mcq-23": "本句的「memorisation」指「有意識地把資訊背熟／記住的過程」。",
+        "memory-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-23"
     },
@@ -2120,11 +1902,9 @@ export default {
       "masked": "A ____ was built for the victims.",
       "options": [
         "memory-mcq-24",
-        "memory-mcq-23",
-        "memory-mcq-25",
-        "memory-mcq-22",
-        "memory-mcq-21",
-        "memory-mcq-20"
+        "memory-mcq-18",
+        "memory-mcq-03",
+        "memory-mcq-15"
       ],
       "explanation": "本句的「memorial」指「為紀念已故人物或重要事件而設立的紀念物／活動」。",
       "sentenceIndex": 51,
@@ -2133,12 +1913,10 @@ export default {
         "memorial"
       ],
       "optionReasons": {
-        "memory-mcq-24": "本句指「為紀念已故人物或重要事件而設立的紀念物／活動」。",
-        "memory-mcq-23": "「有意識地把資訊背熟／記住的過程」是「memorization / memorisation」的用法，與本句語境不同。",
-        "memory-mcq-25": "「為紀念已故人物或過去事件而設立／舉辦的」是「memorial — adjective」的用法，與本句語境不同。",
-        "memory-mcq-22": "「刻意把資訊記熟，使日後能準確重現」是「memorize / memorise」的用法，與本句語境不同。",
-        "memory-mcq-21": "「以令人印象深刻、容易被記住的方式」是「memorably」的用法，與本句語境不同。",
-        "memory-mcq-20": "「因特別、有意義或強烈而令人容易長久記住的」是「memorable」的用法，與本句語境不同。"
+        "memory-mcq-24": "本句的「memorial」指「為紀念已故人物或重要事件而設立的紀念物／活動」。",
+        "memory-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-24"
     },
@@ -2150,11 +1928,9 @@ export default {
       "masked": "People gathered at the ____.",
       "options": [
         "memory-mcq-24",
-        "memory-mcq-23",
-        "memory-mcq-25",
-        "memory-mcq-22",
-        "memory-mcq-21",
-        "memory-mcq-20"
+        "memory-mcq-11",
+        "memory-mcq-03",
+        "memory-mcq-15"
       ],
       "explanation": "本句的「memorial」指「為紀念已故人物或重要事件而設立的紀念物／活動」。",
       "sentenceIndex": 52,
@@ -2163,12 +1939,10 @@ export default {
         "memorial"
       ],
       "optionReasons": {
-        "memory-mcq-24": "本句指「為紀念已故人物或重要事件而設立的紀念物／活動」。",
-        "memory-mcq-23": "「有意識地把資訊背熟／記住的過程」是「memorization / memorisation」的用法，與本句語境不同。",
-        "memory-mcq-25": "「為紀念已故人物或過去事件而設立／舉辦的」是「memorial — adjective」的用法，與本句語境不同。",
-        "memory-mcq-22": "「刻意把資訊記熟，使日後能準確重現」是「memorize / memorise」的用法，與本句語境不同。",
-        "memory-mcq-21": "「以令人印象深刻、容易被記住的方式」是「memorably」的用法，與本句語境不同。",
-        "memory-mcq-20": "「因特別、有意義或強烈而令人容易長久記住的」是「memorable」的用法，與本句語境不同。"
+        "memory-mcq-24": "本句的「memorial」指「為紀念已故人物或重要事件而設立的紀念物／活動」。",
+        "memory-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-24"
     },
@@ -2180,11 +1954,9 @@ export default {
       "masked": "They held a ____.",
       "options": [
         "memory-mcq-25",
-        "memory-mcq-24",
-        "memory-mcq-23",
-        "memory-mcq-22",
+        "memory-mcq-04",
         "memory-mcq-21",
-        "memory-mcq-20"
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memorial service」指「為紀念已故人物或過去事件而設立／舉辦的」。",
       "sentenceIndex": 53,
@@ -2193,12 +1965,10 @@ export default {
         "memorial service"
       ],
       "optionReasons": {
-        "memory-mcq-25": "本句指「為紀念已故人物或過去事件而設立／舉辦的」。",
-        "memory-mcq-24": "「為紀念已故人物或重要事件而設立的紀念物／活動」是「memorial — noun」的用法，與本句語境不同。",
-        "memory-mcq-23": "「有意識地把資訊背熟／記住的過程」是「memorization / memorisation」的用法，與本句語境不同。",
-        "memory-mcq-22": "「刻意把資訊記熟，使日後能準確重現」是「memorize / memorise」的用法，與本句語境不同。",
-        "memory-mcq-21": "「以令人印象深刻、容易被記住的方式」是「memorably」的用法，與本句語境不同。",
-        "memory-mcq-20": "「因特別、有意義或強烈而令人容易長久記住的」是「memorable」的用法，與本句語境不同。"
+        "memory-mcq-25": "本句的「memorial service」指「為紀念已故人物或過去事件而設立／舉辦的」。",
+        "memory-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-25"
     },
@@ -2210,11 +1980,9 @@ export default {
       "masked": "A ____ was created in her honour.",
       "options": [
         "memory-mcq-25",
-        "memory-mcq-24",
-        "memory-mcq-23",
         "memory-mcq-22",
         "memory-mcq-21",
-        "memory-mcq-20"
+        "memory-mcq-03"
       ],
       "explanation": "本句的「memorial garden」指「為紀念已故人物或過去事件而設立／舉辦的」。",
       "sentenceIndex": 54,
@@ -2223,12 +1991,10 @@ export default {
         "memorial garden"
       ],
       "optionReasons": {
-        "memory-mcq-25": "本句指「為紀念已故人物或過去事件而設立／舉辦的」。",
-        "memory-mcq-24": "「為紀念已故人物或重要事件而設立的紀念物／活動」是「memorial — noun」的用法，與本句語境不同。",
-        "memory-mcq-23": "「有意識地把資訊背熟／記住的過程」是「memorization / memorisation」的用法，與本句語境不同。",
-        "memory-mcq-22": "「刻意把資訊記熟，使日後能準確重現」是「memorize / memorise」的用法，與本句語境不同。",
-        "memory-mcq-21": "「以令人印象深刻、容易被記住的方式」是「memorably」的用法，與本句語境不同。",
-        "memory-mcq-20": "「因特別、有意義或強烈而令人容易長久記住的」是「memorable」的用法，與本句語境不同。"
+        "memory-mcq-25": "本句的「memorial garden」指「為紀念已故人物或過去事件而設立／舉辦的」。",
+        "memory-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "memory-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "memory-mcq-25"
     }
@@ -2240,5 +2006,7 @@ export default {
     "sha256": "02e451c7633c8c457cdd7de554ce43927ceea34233672f67fa885be88c62e232",
     "pages": 22
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -115,16 +115,6 @@ export default {
           "Can you afford an hour to look through the collection?",
           "你能不能抽出一小時看看這批館藏？",
           "有足夠可用時間去做某事"
-        ],
-        [
-          "We can afford to wait until next month.",
-          "我們等到下個月也沒問題／有條件等。",
-          "有足夠可用時間去做某事"
-        ],
-        [
-          "Small businesses often cannot afford to wait for payment.",
-          "小企業往往承受不起長時間等待付款。",
-          "有足夠可用時間去做某事"
         ]
       ],
       "options": [],
@@ -271,6 +261,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "afford-reviewed-b2e7f3bd89",
+      "title": "有條件等；承受得起等待",
+      "form": "afford · source section 6",
+      "en": "有條件等；承受得起等待",
+      "zh": "有條件等；承受得起等待",
+      "note": "對照原始教材第 6 節及例句核實。",
+      "examples": [
+        [
+          "We can afford to wait until next month.",
+          "我們等到下個月也沒問題／有條件等。",
+          "有條件等；承受得起等待"
+        ],
+        [
+          "Small businesses often cannot afford to wait for payment.",
+          "小企業往往承受不起長時間等待付款。",
+          "有條件等；承受得起等待"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -282,11 +294,7 @@ export default {
       "masked": "It was far beyond anything I could ever ____.",
       "options": [
         "afford-mcq-01",
-        "afford-mcq-02",
-        "afford-mcq-03",
-        "afford-mcq-04",
-        "afford-mcq-05",
-        "afford-mcq-06"
+        "afford-pdf-001"
       ],
       "explanation": "本句的「afford」指「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」。",
       "sentenceIndex": 0,
@@ -295,12 +303,8 @@ export default {
         "afford"
       ],
       "optionReasons": {
-        "afford-mcq-01": "本句指「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」。",
-        "afford-mcq-02": "「有足夠金錢、時間或其他資源去做某事」是「afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。"
+        "afford-mcq-01": "本句的「afford」指「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」。",
+        "afford-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-01"
     },
@@ -312,11 +316,7 @@ export default {
       "masked": "I can’t ____ that painting.",
       "options": [
         "afford-mcq-01",
-        "afford-mcq-02",
-        "afford-mcq-03",
-        "afford-mcq-04",
-        "afford-mcq-05",
-        "afford-mcq-06"
+        "afford-pdf-001"
       ],
       "explanation": "本句的「afford」指「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」。",
       "sentenceIndex": 1,
@@ -325,12 +325,8 @@ export default {
         "afford"
       ],
       "optionReasons": {
-        "afford-mcq-01": "本句指「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」。",
-        "afford-mcq-02": "「有足夠金錢、時間或其他資源去做某事」是「afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。"
+        "afford-mcq-01": "本句的「afford」指「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」。",
+        "afford-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-01"
     },
@@ -342,11 +338,7 @@ export default {
       "masked": "They can ____ a larger apartment now.",
       "options": [
         "afford-mcq-01",
-        "afford-mcq-02",
-        "afford-mcq-03",
-        "afford-mcq-04",
-        "afford-mcq-05",
-        "afford-mcq-06"
+        "afford-pdf-001"
       ],
       "explanation": "本句的「afford」指「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」。",
       "sentenceIndex": 2,
@@ -355,12 +347,8 @@ export default {
         "afford"
       ],
       "optionReasons": {
-        "afford-mcq-01": "本句指「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」。",
-        "afford-mcq-02": "「有足夠金錢、時間或其他資源去做某事」是「afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。"
+        "afford-mcq-01": "本句的「afford」指「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」。",
+        "afford-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-01"
     },
@@ -372,11 +360,8 @@ export default {
       "masked": "We can’t ____ the original.",
       "options": [
         "afford-mcq-02",
-        "afford-mcq-01",
-        "afford-mcq-03",
-        "afford-mcq-04",
-        "afford-mcq-05",
-        "afford-mcq-06"
+        "afford-reviewed-b2e7f3bd89",
+        "afford-pdf-001"
       ],
       "explanation": "本句的「afford to buy」指「有足夠金錢、時間或其他資源去做某事」。",
       "sentenceIndex": 3,
@@ -385,12 +370,9 @@ export default {
         "afford to buy"
       ],
       "optionReasons": {
-        "afford-mcq-02": "本句指「有足夠金錢、時間或其他資源去做某事」。",
-        "afford-mcq-01": "「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」是「afford — financial」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。"
+        "afford-mcq-02": "本句的「afford to buy」指「有足夠金錢、時間或其他資源去做某事」。",
+        "afford-reviewed-b2e7f3bd89": "請比較這個意思與句子中標示的用法。",
+        "afford-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-02"
     },
@@ -402,11 +384,8 @@ export default {
       "masked": "She can ____ to travel twice a year.",
       "options": [
         "afford-mcq-02",
-        "afford-mcq-01",
-        "afford-mcq-03",
         "afford-mcq-04",
-        "afford-mcq-05",
-        "afford-mcq-06"
+        "afford-pdf-001"
       ],
       "explanation": "本句的「afford」指「有足夠金錢、時間或其他資源去做某事」。",
       "sentenceIndex": 4,
@@ -415,12 +394,9 @@ export default {
         "afford"
       ],
       "optionReasons": {
-        "afford-mcq-02": "本句指「有足夠金錢、時間或其他資源去做某事」。",
-        "afford-mcq-01": "「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」是「afford — financial」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。"
+        "afford-mcq-02": "本句的「afford」指「有足夠金錢、時間或其他資源去做某事」。",
+        "afford-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "afford-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-02"
     },
@@ -432,11 +408,8 @@ export default {
       "masked": "We can’t ____ another mistake.",
       "options": [
         "afford-mcq-03",
-        "afford-mcq-02",
-        "afford-mcq-04",
-        "afford-mcq-01",
-        "afford-mcq-05",
-        "afford-mcq-06"
+        "afford-pdf-001",
+        "afford-mcq-10"
       ],
       "explanation": "本句的「afford to make」指「某行動可能帶來過大損失／風險，因此不能承受去做」。",
       "sentenceIndex": 5,
@@ -445,12 +418,9 @@ export default {
         "afford to make"
       ],
       "optionReasons": {
-        "afford-mcq-03": "本句指「某行動可能帶來過大損失／風險，因此不能承受去做」。",
-        "afford-mcq-02": "「有足夠金錢、時間或其他資源去做某事」是「afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-01": "「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」是「afford — financial」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。"
+        "afford-mcq-03": "本句的「afford to make」指「某行動可能帶來過大損失／風險，因此不能承受去做」。",
+        "afford-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-03"
     },
@@ -462,11 +432,8 @@ export default {
       "masked": "The museum cannot ____ to damage the painting.",
       "options": [
         "afford-mcq-03",
-        "afford-mcq-02",
-        "afford-mcq-04",
-        "afford-mcq-01",
-        "afford-mcq-05",
-        "afford-mcq-06"
+        "afford-mcq-10",
+        "afford-pdf-001"
       ],
       "explanation": "本句的「afford」指「某行動可能帶來過大損失／風險，因此不能承受去做」。",
       "sentenceIndex": 6,
@@ -475,12 +442,9 @@ export default {
         "afford"
       ],
       "optionReasons": {
-        "afford-mcq-03": "本句指「某行動可能帶來過大損失／風險，因此不能承受去做」。",
-        "afford-mcq-02": "「有足夠金錢、時間或其他資源去做某事」是「afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-01": "「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」是「afford — financial」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。"
+        "afford-mcq-03": "本句的「afford」指「某行動可能帶來過大損失／風險，因此不能承受去做」。",
+        "afford-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "afford-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-03"
     },
@@ -492,11 +456,8 @@ export default {
       "masked": "The company can’t ____.",
       "options": [
         "afford-mcq-04",
-        "afford-mcq-03",
-        "afford-mcq-05",
         "afford-mcq-02",
-        "afford-mcq-06",
-        "afford-mcq-01"
+        "afford-pdf-001"
       ],
       "explanation": "本句的「afford another delay」指「沒有能力承受某個損失、延誤、錯誤或風險」。",
       "sentenceIndex": 7,
@@ -505,12 +466,9 @@ export default {
         "afford another delay"
       ],
       "optionReasons": {
-        "afford-mcq-04": "本句指「沒有能力承受某個損失、延誤、錯誤或風險」。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-02": "「有足夠金錢、時間或其他資源去做某事」是「afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。",
-        "afford-mcq-01": "「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」是「afford — financial」的用法，與本句語境不同。"
+        "afford-mcq-04": "本句的「afford another delay」指「沒有能力承受某個損失、延誤、錯誤或風險」。",
+        "afford-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "afford-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-04"
     },
@@ -522,11 +480,8 @@ export default {
       "masked": "We cannot ____ any more mistakes.",
       "options": [
         "afford-mcq-04",
-        "afford-mcq-03",
-        "afford-mcq-05",
-        "afford-mcq-02",
-        "afford-mcq-06",
-        "afford-mcq-01"
+        "afford-pdf-001",
+        "afford-mcq-05"
       ],
       "explanation": "本句的「afford」指「沒有能力承受某個損失、延誤、錯誤或風險」。",
       "sentenceIndex": 8,
@@ -535,12 +490,9 @@ export default {
         "afford"
       ],
       "optionReasons": {
-        "afford-mcq-04": "本句指「沒有能力承受某個損失、延誤、錯誤或風險」。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-02": "「有足夠金錢、時間或其他資源去做某事」是「afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。",
-        "afford-mcq-01": "「有足夠金錢支付某物／服務，而不造成難以承受的經濟壓力」是「afford — financial」的用法，與本句語境不同。"
+        "afford-mcq-04": "本句的「afford」指「沒有能力承受某個損失、延誤、錯誤或風險」。",
+        "afford-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-04"
     },
@@ -552,11 +504,9 @@ export default {
       "masked": "I can’t ____ to visit today.",
       "options": [
         "afford-mcq-05",
-        "afford-mcq-04",
-        "afford-mcq-06",
-        "afford-mcq-03",
-        "afford-mcq-07",
-        "afford-mcq-02"
+        "afford-reviewed-b2e7f3bd89",
+        "afford-pdf-001",
+        "afford-mcq-10"
       ],
       "explanation": "本句的「afford the time」指「有足夠可用時間去做某事」。",
       "sentenceIndex": 9,
@@ -565,12 +515,10 @@ export default {
         "afford the time"
       ],
       "optionReasons": {
-        "afford-mcq-05": "本句指「有足夠可用時間去做某事」。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-02": "「有足夠金錢、時間或其他資源去做某事」是「afford to + verb」的用法，與本句語境不同。"
+        "afford-mcq-05": "本句的「afford the time」指「有足夠可用時間去做某事」。",
+        "afford-reviewed-b2e7f3bd89": "請比較這個意思與句子中標示的用法。",
+        "afford-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-05"
     },
@@ -582,11 +530,7 @@ export default {
       "masked": "Can you ____ an hour to look through the collection?",
       "options": [
         "afford-mcq-05",
-        "afford-mcq-04",
-        "afford-mcq-06",
-        "afford-mcq-03",
-        "afford-mcq-07",
-        "afford-mcq-02"
+        "afford-mcq-08"
       ],
       "explanation": "本句的「afford」指「有足夠可用時間去做某事」。",
       "sentenceIndex": 10,
@@ -595,74 +539,66 @@ export default {
         "afford"
       ],
       "optionReasons": {
-        "afford-mcq-05": "本句指「有足夠可用時間去做某事」。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-02": "「有足夠金錢、時間或其他資源去做某事」是「afford to + verb」的用法，與本句語境不同。"
+        "afford-mcq-05": "本句的「afford」指「有足夠可用時間去做某事」。",
+        "afford-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-05"
     },
     {
       "id": "afford-06-0",
-      "sense": "afford-mcq-05",
+      "sense": "afford-reviewed-b2e7f3bd89",
       "en": "We can afford to wait until next month.",
       "zh": "我們等到下個月也沒問題／有條件等。",
       "masked": "We can ____ until next month.",
       "options": [
-        "afford-mcq-05",
-        "afford-mcq-04",
+        "afford-reviewed-b2e7f3bd89",
         "afford-mcq-06",
-        "afford-mcq-03",
-        "afford-mcq-07",
-        "afford-mcq-02"
+        "afford-mcq-05",
+        "afford-mcq-10"
       ],
-      "explanation": "本句的「afford to wait」指「有足夠可用時間去做某事」。",
+      "explanation": "對照完整句子：「我們等到下個月也沒問題／有條件等。」。這裡的「afford to wait」表示「有條件等；承受得起等待」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "targets": [
         "afford to wait"
       ],
       "optionReasons": {
-        "afford-mcq-05": "本句指「有足夠可用時間去做某事」。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-02": "「有足夠金錢、時間或其他資源去做某事」是「afford to + verb」的用法，與本句語境不同。"
+        "afford-reviewed-b2e7f3bd89": "對照完整句子：「我們等到下個月也沒問題／有條件等。」。這裡的「afford to wait」表示「有條件等；承受得起等待」。",
+        "afford-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "afford-mcq-05"
+      "correctOption": "afford-reviewed-b2e7f3bd89",
+      "previousCorrectOption": "afford-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "afford-06-1",
-      "sense": "afford-mcq-05",
+      "sense": "afford-reviewed-b2e7f3bd89",
       "en": "Small businesses often cannot afford to wait for payment.",
       "zh": "小企業往往承受不起長時間等待付款。",
       "masked": "Small businesses often cannot ____ to wait for payment.",
       "options": [
-        "afford-mcq-05",
-        "afford-mcq-04",
+        "afford-reviewed-b2e7f3bd89",
         "afford-mcq-06",
-        "afford-mcq-03",
-        "afford-mcq-07",
-        "afford-mcq-02"
+        "afford-mcq-05",
+        "afford-mcq-10"
       ],
-      "explanation": "本句的「afford」指「有足夠可用時間去做某事」。",
+      "explanation": "對照完整句子：「小企業往往承受不起長時間等待付款。」。這裡的「afford」表示「有條件等；承受得起等待」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "targets": [
         "afford"
       ],
       "optionReasons": {
-        "afford-mcq-05": "本句指「有足夠可用時間去做某事」。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-02": "「有足夠金錢、時間或其他資源去做某事」是「afford to + verb」的用法，與本句語境不同。"
+        "afford-reviewed-b2e7f3bd89": "對照完整句子：「小企業往往承受不起長時間等待付款。」。這裡的「afford」表示「有條件等；承受得起等待」。",
+        "afford-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "afford-mcq-05"
+      "correctOption": "afford-reviewed-b2e7f3bd89",
+      "previousCorrectOption": "afford-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "afford-07-0",
@@ -673,10 +609,8 @@ export default {
       "options": [
         "afford-mcq-06",
         "afford-mcq-05",
-        "afford-mcq-07",
-        "afford-mcq-04",
-        "afford-mcq-08",
-        "afford-mcq-03"
+        "afford-reviewed-b2e7f3bd89",
+        "afford-mcq-10"
       ],
       "explanation": "本句的「affords visitors a beautiful view」指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
       "sentenceIndex": 13,
@@ -685,12 +619,10 @@ export default {
         "affords visitors a beautiful view"
       ],
       "optionReasons": {
-        "afford-mcq-06": "本句指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-08": "「價格或租金對目標收入群體而言可合理負擔的住房」是「affordable housing」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。"
+        "afford-mcq-06": "本句的「affords visitors a beautiful view」指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "afford-reviewed-b2e7f3bd89": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-06"
     },
@@ -702,11 +634,9 @@ export default {
       "masked": "The job ____ her valuable experience.",
       "options": [
         "afford-mcq-06",
+        "afford-mcq-10",
         "afford-mcq-05",
-        "afford-mcq-07",
-        "afford-mcq-04",
-        "afford-mcq-08",
-        "afford-mcq-03"
+        "afford-reviewed-b2e7f3bd89"
       ],
       "explanation": "本句的「afforded」指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
       "sentenceIndex": 14,
@@ -715,12 +645,10 @@ export default {
         "afforded"
       ],
       "optionReasons": {
-        "afford-mcq-06": "本句指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-08": "「價格或租金對目標收入群體而言可合理負擔的住房」是「affordable housing」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。"
+        "afford-mcq-06": "本句的「afforded」指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
+        "afford-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "afford-reviewed-b2e7f3bd89": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-06"
     },
@@ -732,11 +660,8 @@ export default {
       "masked": "The exhibition ____ students an opportunity to study the original works.",
       "options": [
         "afford-mcq-06",
-        "afford-mcq-05",
-        "afford-mcq-07",
-        "afford-mcq-04",
-        "afford-mcq-08",
-        "afford-mcq-03"
+        "afford-mcq-02",
+        "afford-reviewed-b2e7f3bd89"
       ],
       "explanation": "本句的「affords」指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
       "sentenceIndex": 15,
@@ -745,12 +670,9 @@ export default {
         "affords"
       ],
       "optionReasons": {
-        "afford-mcq-06": "本句指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-08": "「價格或租金對目標收入群體而言可合理負擔的住房」是「affordable housing」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。"
+        "afford-mcq-06": "本句的「affords」指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
+        "afford-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "afford-reviewed-b2e7f3bd89": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-06"
     },
@@ -762,11 +684,8 @@ export default {
       "masked": "The course ____ me the chance to work with artists.",
       "options": [
         "afford-mcq-06",
-        "afford-mcq-05",
         "afford-mcq-07",
-        "afford-mcq-04",
-        "afford-mcq-08",
-        "afford-mcq-03"
+        "afford-mcq-05"
       ],
       "explanation": "本句的「afforded」指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
       "sentenceIndex": 16,
@@ -775,12 +694,9 @@ export default {
         "afforded"
       ],
       "optionReasons": {
-        "afford-mcq-06": "本句指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-08": "「價格或租金對目標收入群體而言可合理負擔的住房」是「affordable housing」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。"
+        "afford-mcq-06": "本句的「afforded」指「正式用法：提供／給予某人某種機會、好處、經驗或視野」。",
+        "afford-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-06"
     },
@@ -792,11 +708,8 @@ export default {
       "masked": "The balcony ____ a clear view of the river.",
       "options": [
         "afford-pdf-001",
-        "afford-mcq-05",
-        "afford-mcq-07",
         "afford-mcq-04",
-        "afford-mcq-08",
-        "afford-mcq-03"
+        "afford-mcq-05"
       ],
       "explanation": "本句的「affords」指「使某人能獲得某種視野、保護、便利或好處」。",
       "sentenceIndex": 17,
@@ -805,12 +718,9 @@ export default {
         "affords"
       ],
       "optionReasons": {
-        "afford-pdf-001": "本句指「使某人能獲得某種視野、保護、便利或好處」。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-08": "「價格或租金對目標收入群體而言可合理負擔的住房」是「affordable housing」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。"
+        "afford-pdf-001": "本句的「affords」指「使某人能獲得某種視野、保護、便利或好處」。",
+        "afford-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-pdf-001"
     },
@@ -823,10 +733,7 @@ export default {
       "options": [
         "afford-pdf-001",
         "afford-mcq-05",
-        "afford-mcq-07",
-        "afford-mcq-04",
-        "afford-mcq-08",
-        "afford-mcq-03"
+        "afford-mcq-09"
       ],
       "explanation": "本句的「affords」指「使某人能獲得某種視野、保護、便利或好處」。",
       "sentenceIndex": 18,
@@ -835,12 +742,9 @@ export default {
         "affords"
       ],
       "optionReasons": {
-        "afford-pdf-001": "本句指「使某人能獲得某種視野、保護、便利或好處」。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。",
-        "afford-mcq-08": "「價格或租金對目標收入群體而言可合理負擔的住房」是「affordable housing」的用法，與本句語境不同。",
-        "afford-mcq-03": "「某行動可能帶來過大損失／風險，因此不能承受去做」是「can’t afford to + verb」的用法，與本句語境不同。"
+        "afford-pdf-001": "本句的「affords」指「使某人能獲得某種視野、保護、便利或好處」。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-pdf-001"
     },
@@ -853,10 +757,7 @@ export default {
       "options": [
         "afford-mcq-07",
         "afford-mcq-06",
-        "afford-mcq-08",
-        "afford-mcq-05",
-        "afford-mcq-09",
-        "afford-mcq-04"
+        "afford-mcq-05"
       ],
       "explanation": "本句的「affordable」指「價格在目標使用者／買家的合理負擔能力範圍內」。",
       "sentenceIndex": 19,
@@ -865,12 +766,9 @@ export default {
         "affordable"
       ],
       "optionReasons": {
-        "afford-mcq-07": "本句指「價格在目標使用者／買家的合理負擔能力範圍內」。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。",
-        "afford-mcq-08": "「價格或租金對目標收入群體而言可合理負擔的住房」是「affordable housing」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-09": "「商品、服務、住房等相對收入而言是否容易負擔的程度」是「affordability」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。"
+        "afford-mcq-07": "本句的「affordable」指「價格在目標使用者／買家的合理負擔能力範圍內」。",
+        "afford-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-07"
     },
@@ -882,11 +780,8 @@ export default {
       "masked": "The museum offers ____ tickets for students.",
       "options": [
         "afford-mcq-07",
-        "afford-mcq-06",
-        "afford-mcq-08",
         "afford-mcq-05",
-        "afford-mcq-09",
-        "afford-mcq-04"
+        "afford-mcq-06"
       ],
       "explanation": "本句的「affordable」指「價格在目標使用者／買家的合理負擔能力範圍內」。",
       "sentenceIndex": 20,
@@ -895,12 +790,9 @@ export default {
         "affordable"
       ],
       "optionReasons": {
-        "afford-mcq-07": "本句指「價格在目標使用者／買家的合理負擔能力範圍內」。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。",
-        "afford-mcq-08": "「價格或租金對目標收入群體而言可合理負擔的住房」是「affordable housing」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。",
-        "afford-mcq-09": "「商品、服務、住房等相對收入而言是否容易負擔的程度」是「affordability」的用法，與本句語境不同。",
-        "afford-mcq-04": "「沒有能力承受某個損失、延誤、錯誤或風險」是「can’t afford + noun」的用法，與本句語境不同。"
+        "afford-mcq-07": "本句的「affordable」指「價格在目標使用者／買家的合理負擔能力範圍內」。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-07"
     },
@@ -912,10 +804,6 @@ export default {
       "masked": "The city needs more ____.",
       "options": [
         "afford-mcq-08",
-        "afford-mcq-07",
-        "afford-mcq-09",
-        "afford-mcq-06",
-        "afford-mcq-10",
         "afford-mcq-05"
       ],
       "explanation": "本句的「affordable housing」指「價格或租金對目標收入群體而言可合理負擔的住房」。",
@@ -925,12 +813,8 @@ export default {
         "affordable housing"
       ],
       "optionReasons": {
-        "afford-mcq-08": "本句指「價格或租金對目標收入群體而言可合理負擔的住房」。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-09": "「商品、服務、住房等相對收入而言是否容易負擔的程度」是「affordability」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。",
-        "afford-mcq-10": "「降低實際／相對成本，使更多人有能力支付」是「13. make something more affordable = 令……更容易負擔」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。"
+        "afford-mcq-08": "本句的「affordable housing」指「價格或租金對目標收入群體而言可合理負擔的住房」。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-08"
     },
@@ -942,10 +826,6 @@ export default {
       "masked": "____ housing remains a major issue.",
       "options": [
         "afford-mcq-08",
-        "afford-mcq-07",
-        "afford-mcq-09",
-        "afford-mcq-06",
-        "afford-mcq-10",
         "afford-mcq-05"
       ],
       "explanation": "本句的「Affordable」指「價格或租金對目標收入群體而言可合理負擔的住房」。",
@@ -955,12 +835,8 @@ export default {
         "Affordable"
       ],
       "optionReasons": {
-        "afford-mcq-08": "本句指「價格或租金對目標收入群體而言可合理負擔的住房」。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-09": "「商品、服務、住房等相對收入而言是否容易負擔的程度」是「affordability」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。",
-        "afford-mcq-10": "「降低實際／相對成本，使更多人有能力支付」是「13. make something more affordable = 令……更容易負擔」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。"
+        "afford-mcq-08": "本句的「Affordable」指「價格或租金對目標收入群體而言可合理負擔的住房」。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-08"
     },
@@ -972,11 +848,8 @@ export default {
       "masked": "Housing ____ has become a serious concern.",
       "options": [
         "afford-mcq-09",
-        "afford-mcq-08",
-        "afford-mcq-10",
-        "afford-mcq-07",
-        "afford-mcq-06",
-        "afford-mcq-05"
+        "afford-mcq-05",
+        "afford-mcq-06"
       ],
       "explanation": "本句的「affordability」指「商品、服務、住房等相對收入而言是否容易負擔的程度」。",
       "sentenceIndex": 23,
@@ -985,12 +858,9 @@ export default {
         "affordability"
       ],
       "optionReasons": {
-        "afford-mcq-09": "本句指「商品、服務、住房等相對收入而言是否容易負擔的程度」。",
-        "afford-mcq-08": "「價格或租金對目標收入群體而言可合理負擔的住房」是「affordable housing」的用法，與本句語境不同。",
-        "afford-mcq-10": "「降低實際／相對成本，使更多人有能力支付」是「13. make something more affordable = 令……更容易負擔」的用法，與本句語境不同。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。"
+        "afford-mcq-09": "本句的「affordability」指「商品、服務、住房等相對收入而言是否容易負擔的程度」。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-09"
     },
@@ -1002,11 +872,8 @@ export default {
       "masked": "The study compares the ____ of different cities.",
       "options": [
         "afford-mcq-09",
-        "afford-mcq-08",
-        "afford-mcq-10",
-        "afford-mcq-07",
-        "afford-mcq-06",
-        "afford-mcq-05"
+        "afford-mcq-05",
+        "afford-pdf-001"
       ],
       "explanation": "本句的「affordability」指「商品、服務、住房等相對收入而言是否容易負擔的程度」。",
       "sentenceIndex": 24,
@@ -1015,12 +882,9 @@ export default {
         "affordability"
       ],
       "optionReasons": {
-        "afford-mcq-09": "本句指「商品、服務、住房等相對收入而言是否容易負擔的程度」。",
-        "afford-mcq-08": "「價格或租金對目標收入群體而言可合理負擔的住房」是「affordable housing」的用法，與本句語境不同。",
-        "afford-mcq-10": "「降低實際／相對成本，使更多人有能力支付」是「13. make something more affordable = 令……更容易負擔」的用法，與本句語境不同。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。"
+        "afford-mcq-09": "本句的「affordability」指「商品、服務、住房等相對收入而言是否容易負擔的程度」。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "afford-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-09"
     },
@@ -1032,11 +896,9 @@ export default {
       "masked": "Digital reproductions make art more ____.",
       "options": [
         "afford-mcq-10",
-        "afford-mcq-09",
-        "afford-mcq-08",
-        "afford-mcq-07",
-        "afford-mcq-06",
-        "afford-mcq-05"
+        "afford-reviewed-b2e7f3bd89",
+        "afford-mcq-05",
+        "afford-pdf-001"
       ],
       "explanation": "本句的「affordable」指「降低實際／相對成本，使更多人有能力支付」。",
       "sentenceIndex": 25,
@@ -1045,12 +907,10 @@ export default {
         "affordable"
       ],
       "optionReasons": {
-        "afford-mcq-10": "本句指「降低實際／相對成本，使更多人有能力支付」。",
-        "afford-mcq-09": "「商品、服務、住房等相對收入而言是否容易負擔的程度」是「affordability」的用法，與本句語境不同。",
-        "afford-mcq-08": "「價格或租金對目標收入群體而言可合理負擔的住房」是「affordable housing」的用法，與本句語境不同。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。"
+        "afford-mcq-10": "本句的「affordable」指「降低實際／相對成本，使更多人有能力支付」。",
+        "afford-reviewed-b2e7f3bd89": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "afford-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-10"
     },
@@ -1062,10 +922,8 @@ export default {
       "masked": "The discount makes the course more ____.",
       "options": [
         "afford-mcq-10",
-        "afford-mcq-09",
-        "afford-mcq-08",
-        "afford-mcq-07",
         "afford-mcq-06",
+        "afford-reviewed-b2e7f3bd89",
         "afford-mcq-05"
       ],
       "explanation": "本句的「affordable」指「降低實際／相對成本，使更多人有能力支付」。",
@@ -1075,12 +933,10 @@ export default {
         "affordable"
       ],
       "optionReasons": {
-        "afford-mcq-10": "本句指「降低實際／相對成本，使更多人有能力支付」。",
-        "afford-mcq-09": "「商品、服務、住房等相對收入而言是否容易負擔的程度」是「affordability」的用法，與本句語境不同。",
-        "afford-mcq-08": "「價格或租金對目標收入群體而言可合理負擔的住房」是「affordable housing」的用法，與本句語境不同。",
-        "afford-mcq-07": "「價格在目標使用者／買家的合理負擔能力範圍內」是「affordable」的用法，與本句語境不同。",
-        "afford-mcq-06": "「正式用法：提供／給予某人某種機會、好處、經驗或視野」是「afford someone something」的用法，與本句語境不同。",
-        "afford-mcq-05": "「有足夠可用時間去做某事」是「afford time」的用法，與本句語境不同。"
+        "afford-mcq-10": "本句的「affordable」指「降低實際／相對成本，使更多人有能力支付」。",
+        "afford-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "afford-reviewed-b2e7f3bd89": "請比較這個意思與句子中標示的用法。",
+        "afford-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "afford-mcq-10"
     }
@@ -1092,5 +948,7 @@ export default {
     "sha256": "9aba5dc5266776d9817abe0ef4f99a03797711fe7e94ee0f610ea779ce0f3f43",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

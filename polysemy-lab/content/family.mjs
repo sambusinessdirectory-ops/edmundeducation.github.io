@@ -603,11 +603,9 @@ export default {
       "masked": "She is widely respected in my ____.",
       "options": [
         "family-mcq-01",
-        "family-mcq-02",
-        "family-mcq-03",
-        "family-mcq-04",
-        "family-mcq-05",
-        "family-mcq-06"
+        "family-mcq-08",
+        "family-mcq-11",
+        "family-mcq-16"
       ],
       "explanation": "本句的「family」指「與某人有血緣、婚姻或親屬關係的一群人」。",
       "sentenceIndex": 0,
@@ -616,12 +614,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-01": "本句指「與某人有血緣、婚姻或親屬關係的一群人」。",
-        "family-mcq-02": "「由父母、子女及親近家屬組成的家庭單位」是「family — household/immediate unit」的用法，與本句語境不同。",
-        "family-mcq-03": "「某人的子女，尤其在談生育或建立家庭時」是「family — children」的用法，與本句語境不同。",
-        "family-mcq-04": "「從祖先延續至後代的家族世系或血統」是「family — lineage」的用法，與本句語境不同。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。"
+        "family-mcq-01": "本句的「family」指「與某人有血緣、婚姻或親屬關係的一群人」。",
+        "family-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-01"
     },
@@ -633,11 +629,9 @@ export default {
       "masked": "Most of my ____ lives nearby.",
       "options": [
         "family-mcq-01",
-        "family-mcq-02",
-        "family-mcq-03",
-        "family-mcq-04",
-        "family-mcq-05",
-        "family-mcq-06"
+        "family-mcq-11",
+        "family-mcq-06",
+        "family-mcq-16"
       ],
       "explanation": "本句的「family」指「與某人有血緣、婚姻或親屬關係的一群人」。",
       "sentenceIndex": 1,
@@ -646,12 +640,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-01": "本句指「與某人有血緣、婚姻或親屬關係的一群人」。",
-        "family-mcq-02": "「由父母、子女及親近家屬組成的家庭單位」是「family — household/immediate unit」的用法，與本句語境不同。",
-        "family-mcq-03": "「某人的子女，尤其在談生育或建立家庭時」是「family — children」的用法，與本句語境不同。",
-        "family-mcq-04": "「從祖先延續至後代的家族世系或血統」是「family — lineage」的用法，與本句語境不同。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。"
+        "family-mcq-01": "本句的「family」指「與某人有血緣、婚姻或親屬關係的一群人」。",
+        "family-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-01"
     },
@@ -663,11 +655,9 @@ export default {
       "masked": "Her ____ supported her during the difficult period.",
       "options": [
         "family-mcq-01",
-        "family-mcq-02",
-        "family-mcq-03",
-        "family-mcq-04",
-        "family-mcq-05",
-        "family-mcq-06"
+        "family-mcq-22",
+        "family-mcq-06",
+        "family-mcq-16"
       ],
       "explanation": "本句的「family」指「與某人有血緣、婚姻或親屬關係的一群人」。",
       "sentenceIndex": 2,
@@ -676,12 +666,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-01": "本句指「與某人有血緣、婚姻或親屬關係的一群人」。",
-        "family-mcq-02": "「由父母、子女及親近家屬組成的家庭單位」是「family — household/immediate unit」的用法，與本句語境不同。",
-        "family-mcq-03": "「某人的子女，尤其在談生育或建立家庭時」是「family — children」的用法，與本句語境不同。",
-        "family-mcq-04": "「從祖先延續至後代的家族世系或血統」是「family — lineage」的用法，與本句語境不同。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。"
+        "family-mcq-01": "本句的「family」指「與某人有血緣、婚姻或親屬關係的一群人」。",
+        "family-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-01"
     },
@@ -693,11 +681,9 @@ export default {
       "masked": "They are a ____ of five.",
       "options": [
         "family-mcq-02",
-        "family-mcq-01",
-        "family-mcq-03",
-        "family-mcq-04",
-        "family-mcq-05",
-        "family-mcq-06"
+        "family-mcq-20",
+        "family-mcq-07",
+        "family-mcq-25"
       ],
       "explanation": "本句的「family」指「由父母、子女及親近家屬組成的家庭單位」。",
       "sentenceIndex": 3,
@@ -706,12 +692,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-02": "本句指「由父母、子女及親近家屬組成的家庭單位」。",
-        "family-mcq-01": "「與某人有血緣、婚姻或親屬關係的一群人」是「family — relatives」的用法，與本句語境不同。",
-        "family-mcq-03": "「某人的子女，尤其在談生育或建立家庭時」是「family — children」的用法，與本句語境不同。",
-        "family-mcq-04": "「從祖先延續至後代的家族世系或血統」是「family — lineage」的用法，與本句語境不同。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。"
+        "family-mcq-02": "本句的「family」指「由父母、子女及親近家屬組成的家庭單位」。",
+        "family-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-02"
     },
@@ -723,11 +707,9 @@ export default {
       "masked": "She grew up in a large ____.",
       "options": [
         "family-mcq-02",
-        "family-mcq-01",
-        "family-mcq-03",
-        "family-mcq-04",
-        "family-mcq-05",
-        "family-mcq-06"
+        "family-mcq-07",
+        "family-mcq-20",
+        "family-mcq-25"
       ],
       "explanation": "本句的「family」指「由父母、子女及親近家屬組成的家庭單位」。",
       "sentenceIndex": 4,
@@ -736,12 +718,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-02": "本句指「由父母、子女及親近家屬組成的家庭單位」。",
-        "family-mcq-01": "「與某人有血緣、婚姻或親屬關係的一群人」是「family — relatives」的用法，與本句語境不同。",
-        "family-mcq-03": "「某人的子女，尤其在談生育或建立家庭時」是「family — children」的用法，與本句語境不同。",
-        "family-mcq-04": "「從祖先延續至後代的家族世系或血統」是「family — lineage」的用法，與本句語境不同。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。"
+        "family-mcq-02": "本句的「family」指「由父母、子女及親近家屬組成的家庭單位」。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-02"
     },
@@ -753,11 +733,9 @@ export default {
       "masked": "They want to start a ____.",
       "options": [
         "family-mcq-03",
-        "family-mcq-02",
-        "family-mcq-04",
-        "family-mcq-01",
-        "family-mcq-05",
-        "family-mcq-06"
+        "family-mcq-06",
+        "family-mcq-25",
+        "family-mcq-07"
       ],
       "explanation": "本句的「family」指「某人的子女，尤其在談生育或建立家庭時」。",
       "sentenceIndex": 5,
@@ -766,12 +744,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-03": "本句指「某人的子女，尤其在談生育或建立家庭時」。",
-        "family-mcq-02": "「由父母、子女及親近家屬組成的家庭單位」是「family — household/immediate unit」的用法，與本句語境不同。",
-        "family-mcq-04": "「從祖先延續至後代的家族世系或血統」是「family — lineage」的用法，與本句語境不同。",
-        "family-mcq-01": "「與某人有血緣、婚姻或親屬關係的一群人」是「family — relatives」的用法，與本句語境不同。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。"
+        "family-mcq-03": "本句的「family」指「某人的子女，尤其在談生育或建立家庭時」。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-03"
     },
@@ -783,11 +759,9 @@ export default {
       "masked": "She decided to wait before having a ____.",
       "options": [
         "family-mcq-03",
-        "family-mcq-02",
-        "family-mcq-04",
-        "family-mcq-01",
-        "family-mcq-05",
-        "family-mcq-06"
+        "family-mcq-19",
+        "family-mcq-25",
+        "family-mcq-16"
       ],
       "explanation": "本句的「family」指「某人的子女，尤其在談生育或建立家庭時」。",
       "sentenceIndex": 6,
@@ -796,12 +770,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-03": "本句指「某人的子女，尤其在談生育或建立家庭時」。",
-        "family-mcq-02": "「由父母、子女及親近家屬組成的家庭單位」是「family — household/immediate unit」的用法，與本句語境不同。",
-        "family-mcq-04": "「從祖先延續至後代的家族世系或血統」是「family — lineage」的用法，與本句語境不同。",
-        "family-mcq-01": "「與某人有血緣、婚姻或親屬關係的一群人」是「family — relatives」的用法，與本句語境不同。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。"
+        "family-mcq-03": "本句的「family」指「某人的子女，尤其在談生育或建立家庭時」。",
+        "family-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-03"
     },
@@ -813,11 +785,9 @@ export default {
       "masked": "The house has been in the ____ for generations.",
       "options": [
         "family-mcq-04",
-        "family-mcq-03",
-        "family-mcq-05",
-        "family-mcq-02",
         "family-mcq-06",
-        "family-mcq-01"
+        "family-mcq-07",
+        "family-mcq-26"
       ],
       "explanation": "本句的「family」指「從祖先延續至後代的家族世系或血統」。",
       "sentenceIndex": 7,
@@ -826,12 +796,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-04": "本句指「從祖先延續至後代的家族世系或血統」。",
-        "family-mcq-03": "「某人的子女，尤其在談生育或建立家庭時」是「family — children」的用法，與本句語境不同。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。",
-        "family-mcq-02": "「由父母、子女及親近家屬組成的家庭單位」是「family — household/immediate unit」的用法，與本句語境不同。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。",
-        "family-mcq-01": "「與某人有血緣、婚姻或親屬關係的一群人」是「family — relatives」的用法，與本句語境不同。"
+        "family-mcq-04": "本句的「family」指「從祖先延續至後代的家族世系或血統」。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-04"
     },
@@ -843,11 +811,9 @@ export default {
       "masked": "There is a history of the condition in her ____.",
       "options": [
         "family-mcq-04",
-        "family-mcq-03",
-        "family-mcq-05",
-        "family-mcq-02",
-        "family-mcq-06",
-        "family-mcq-01"
+        "family-mcq-07",
+        "family-mcq-26",
+        "family-mcq-06"
       ],
       "explanation": "本句的「family」指「從祖先延續至後代的家族世系或血統」。",
       "sentenceIndex": 8,
@@ -856,12 +822,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-04": "本句指「從祖先延續至後代的家族世系或血統」。",
-        "family-mcq-03": "「某人的子女，尤其在談生育或建立家庭時」是「family — children」的用法，與本句語境不同。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。",
-        "family-mcq-02": "「由父母、子女及親近家屬組成的家庭單位」是「family — household/immediate unit」的用法，與本句語境不同。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。",
-        "family-mcq-01": "「與某人有血緣、婚姻或親屬關係的一群人」是「family — relatives」的用法，與本句語境不同。"
+        "family-mcq-04": "本句的「family」指「從祖先延續至後代的家族世系或血統」。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-04"
     },
@@ -873,11 +837,8 @@ export default {
       "masked": "The whole ____ gathered for the celebration.",
       "options": [
         "family-mcq-05",
-        "family-mcq-04",
-        "family-mcq-06",
-        "family-mcq-03",
         "family-mcq-07",
-        "family-mcq-02"
+        "family-mcq-17"
       ],
       "explanation": "本句的「family」指「包括不同世代親屬在內的較大家族群體」。",
       "sentenceIndex": 9,
@@ -886,12 +847,9 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-05": "本句指「包括不同世代親屬在內的較大家族群體」。",
-        "family-mcq-04": "「從祖先延續至後代的家族世系或血統」是「family — lineage」的用法，與本句語境不同。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。",
-        "family-mcq-03": "「某人的子女，尤其在談生育或建立家庭時」是「family — children」的用法，與本句語境不同。",
-        "family-mcq-07": "「生物分類中位於 order 與 genus 之間的「科」」是「family — biology」的用法，與本句語境不同。",
-        "family-mcq-02": "「由父母、子女及親近家屬組成的家庭單位」是「family — household/immediate unit」的用法，與本句語境不同。"
+        "family-mcq-05": "本句的「family」指「包括不同世代親屬在內的較大家族群體」。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-05"
     },
@@ -903,11 +861,8 @@ export default {
       "masked": "She is the oldest member of the ____.",
       "options": [
         "family-mcq-05",
-        "family-mcq-04",
-        "family-mcq-06",
-        "family-mcq-03",
         "family-mcq-07",
-        "family-mcq-02"
+        "family-mcq-17"
       ],
       "explanation": "本句的「family」指「包括不同世代親屬在內的較大家族群體」。",
       "sentenceIndex": 10,
@@ -916,12 +871,9 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-05": "本句指「包括不同世代親屬在內的較大家族群體」。",
-        "family-mcq-04": "「從祖先延續至後代的家族世系或血統」是「family — lineage」的用法，與本句語境不同。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。",
-        "family-mcq-03": "「某人的子女，尤其在談生育或建立家庭時」是「family — children」的用法，與本句語境不同。",
-        "family-mcq-07": "「生物分類中位於 order 與 genus 之間的「科」」是「family — biology」的用法，與本句語境不同。",
-        "family-mcq-02": "「由父母、子女及親近家屬組成的家庭單位」是「family — household/immediate unit」的用法，與本句語境不同。"
+        "family-mcq-05": "本句的「family」指「包括不同世代親屬在內的較大家族群體」。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-05"
     },
@@ -933,11 +885,9 @@ export default {
       "masked": "These languages belong to the same language ____.",
       "options": [
         "family-mcq-06",
-        "family-mcq-05",
         "family-mcq-07",
-        "family-mcq-04",
-        "family-mcq-08",
-        "family-mcq-03"
+        "family-mcq-10",
+        "family-mcq-25"
       ],
       "explanation": "本句的「family」指「因來源、結構、功能或特徵相近而歸為一組的事物」。",
       "sentenceIndex": 11,
@@ -946,12 +896,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-06": "本句指「因來源、結構、功能或特徵相近而歸為一組的事物」。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。",
-        "family-mcq-07": "「生物分類中位於 order 與 genus 之間的「科」」是「family — biology」的用法，與本句語境不同。",
-        "family-mcq-04": "「從祖先延續至後代的家族世系或血統」是「family — lineage」的用法，與本句語境不同。",
-        "family-mcq-08": "「因設計、品牌、功能或平台相近而組成的產品系列」是「family — product group」的用法，與本句語境不同。",
-        "family-mcq-03": "「某人的子女，尤其在談生育或建立家庭時」是「family — children」的用法，與本句語境不同。"
+        "family-mcq-06": "本句的「family」指「因來源、結構、功能或特徵相近而歸為一組的事物」。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-06"
     },
@@ -963,11 +911,9 @@ export default {
       "masked": "This drug belongs to a ____ of related medicines.",
       "options": [
         "family-mcq-06",
-        "family-mcq-05",
-        "family-mcq-07",
+        "family-mcq-03",
         "family-mcq-04",
-        "family-mcq-08",
-        "family-mcq-03"
+        "family-mcq-07"
       ],
       "explanation": "本句的「family」指「因來源、結構、功能或特徵相近而歸為一組的事物」。",
       "sentenceIndex": 12,
@@ -976,12 +922,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-06": "本句指「因來源、結構、功能或特徵相近而歸為一組的事物」。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。",
-        "family-mcq-07": "「生物分類中位於 order 與 genus 之間的「科」」是「family — biology」的用法，與本句語境不同。",
-        "family-mcq-04": "「從祖先延續至後代的家族世系或血統」是「family — lineage」的用法，與本句語境不同。",
-        "family-mcq-08": "「因設計、品牌、功能或平台相近而組成的產品系列」是「family — product group」的用法，與本句語境不同。",
-        "family-mcq-03": "「某人的子女，尤其在談生育或建立家庭時」是「family — children」的用法，與本句語境不同。"
+        "family-mcq-06": "本句的「family」指「因來源、結構、功能或特徵相近而歸為一組的事物」。",
+        "family-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-06"
     },
@@ -993,11 +937,8 @@ export default {
       "masked": "Cats belong to the ____ Felidae.",
       "options": [
         "family-mcq-07",
-        "family-mcq-06",
-        "family-mcq-08",
         "family-mcq-05",
-        "family-mcq-09",
-        "family-mcq-04"
+        "family-mcq-15"
       ],
       "explanation": "本句的「family」指「生物分類中位於 order 與 genus 之間的「科」」。",
       "sentenceIndex": 13,
@@ -1006,12 +947,9 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-07": "本句指「生物分類中位於 order 與 genus 之間的「科」」。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。",
-        "family-mcq-08": "「因設計、品牌、功能或平台相近而組成的產品系列」是「family — product group」的用法，與本句語境不同。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。",
-        "family-mcq-09": "「沒有血緣但彼此非常親密、互相支持的一群人」是「family — figurative group」的用法，與本句語境不同。",
-        "family-mcq-04": "「從祖先延續至後代的家族世系或血統」是「family — lineage」的用法，與本句語境不同。"
+        "family-mcq-07": "本句的「family」指「生物分類中位於 order 與 genus 之間的「科」」。",
+        "family-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-07"
     },
@@ -1023,11 +961,8 @@ export default {
       "masked": "The plant belongs to the rose ____.",
       "options": [
         "family-mcq-07",
-        "family-mcq-06",
-        "family-mcq-08",
         "family-mcq-05",
-        "family-mcq-09",
-        "family-mcq-04"
+        "family-mcq-17"
       ],
       "explanation": "本句的「family」指「生物分類中位於 order 與 genus 之間的「科」」。",
       "sentenceIndex": 14,
@@ -1036,12 +971,9 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-07": "本句指「生物分類中位於 order 與 genus 之間的「科」」。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。",
-        "family-mcq-08": "「因設計、品牌、功能或平台相近而組成的產品系列」是「family — product group」的用法，與本句語境不同。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。",
-        "family-mcq-09": "「沒有血緣但彼此非常親密、互相支持的一群人」是「family — figurative group」的用法，與本句語境不同。",
-        "family-mcq-04": "「從祖先延續至後代的家族世系或血統」是「family — lineage」的用法，與本句語境不同。"
+        "family-mcq-07": "本句的「family」指「生物分類中位於 order 與 genus 之間的「科」」。",
+        "family-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-07"
     },
@@ -1053,11 +985,9 @@ export default {
       "masked": "The company launched a new ____ of products.",
       "options": [
         "family-mcq-08",
-        "family-mcq-07",
-        "family-mcq-09",
-        "family-mcq-06",
-        "family-mcq-10",
-        "family-mcq-05"
+        "family-mcq-17",
+        "family-mcq-25",
+        "family-mcq-20"
       ],
       "explanation": "本句的「family」指「因設計、品牌、功能或平台相近而組成的產品系列」。",
       "sentenceIndex": 15,
@@ -1066,12 +996,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-08": "本句指「因設計、品牌、功能或平台相近而組成的產品系列」。",
-        "family-mcq-07": "「生物分類中位於 order 與 genus 之間的「科」」是「family — biology」的用法，與本句語境不同。",
-        "family-mcq-09": "「沒有血緣但彼此非常親密、互相支持的一群人」是「family — figurative group」的用法，與本句語境不同。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。",
-        "family-mcq-10": "「某個家庭／家族中的其中一名親屬」是「family member」的用法，與本句語境不同。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。"
+        "family-mcq-08": "本句的「family」指「因設計、品牌、功能或平台相近而組成的產品系列」。",
+        "family-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-08"
     },
@@ -1083,11 +1011,9 @@ export default {
       "masked": "These devices belong to the same product ____.",
       "options": [
         "family-mcq-08",
-        "family-mcq-07",
-        "family-mcq-09",
-        "family-mcq-06",
         "family-mcq-10",
-        "family-mcq-05"
+        "family-mcq-25",
+        "family-mcq-07"
       ],
       "explanation": "本句的「family」指「因設計、品牌、功能或平台相近而組成的產品系列」。",
       "sentenceIndex": 16,
@@ -1096,12 +1022,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-08": "本句指「因設計、品牌、功能或平台相近而組成的產品系列」。",
-        "family-mcq-07": "「生物分類中位於 order 與 genus 之間的「科」」是「family — biology」的用法，與本句語境不同。",
-        "family-mcq-09": "「沒有血緣但彼此非常親密、互相支持的一群人」是「family — figurative group」的用法，與本句語境不同。",
-        "family-mcq-06": "「因來源、結構、功能或特徵相近而歸為一組的事物」是「family — related category」的用法，與本句語境不同。",
-        "family-mcq-10": "「某個家庭／家族中的其中一名親屬」是「family member」的用法，與本句語境不同。",
-        "family-mcq-05": "「包括不同世代親屬在內的較大家族群體」是「family — extended kin group」的用法，與本句語境不同。"
+        "family-mcq-08": "本句的「family」指「因設計、品牌、功能或平台相近而組成的產品系列」。",
+        "family-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-08"
     },
@@ -1113,11 +1037,9 @@ export default {
       "masked": "The team feels like a ____.",
       "options": [
         "family-mcq-25",
-        "family-mcq-24",
-        "family-mcq-26",
-        "family-mcq-23",
-        "family-mcq-27",
-        "family-mcq-22"
+        "family-mcq-16",
+        "family-mcq-17",
+        "family-mcq-08"
       ],
       "explanation": "本句的「family」指「雖然沒有血緣關係，但彼此關係非常親密、互相支持的一群人」。",
       "sentenceIndex": 17,
@@ -1126,12 +1048,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-25": "本句指「雖然沒有血緣關係，但彼此關係非常親密、互相支持的一群人」。",
-        "family-mcq-24": "「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」是「familial — medical/scientific」的用法，與本句語境不同。",
-        "family-mcq-26": "「以親屬或緊密組織關係構成的犯罪集團」是「10. family = organized criminal group（犯罪家族） — 家族；幫派家族」的用法，與本句語境不同。",
-        "family-mcq-23": "「與家人、親屬關係或家庭生活有關的」是「familial — general」的用法，與本句語境不同。",
-        "family-mcq-27": "「把家人和家庭生活放在很重要位置的男性」是「24. family man / family woman（重視家庭的人） — 顧家的人」的用法，與本句語境不同。",
-        "family-mcq-22": "「撫養子女並照顧家庭成長」是「raise a family」的用法，與本句語境不同。"
+        "family-mcq-25": "本句的「family」指「雖然沒有血緣關係，但彼此關係非常親密、互相支持的一群人」。",
+        "family-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-25"
     },
@@ -1143,11 +1063,9 @@ export default {
       "masked": "After many years together, the staff became a ____.",
       "options": [
         "family-mcq-25",
-        "family-mcq-24",
-        "family-mcq-26",
-        "family-mcq-23",
+        "family-mcq-13",
         "family-mcq-27",
-        "family-mcq-22"
+        "family-mcq-06"
       ],
       "explanation": "本句的「family」指「雖然沒有血緣關係，但彼此關係非常親密、互相支持的一群人」。",
       "sentenceIndex": 18,
@@ -1156,12 +1074,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-25": "本句指「雖然沒有血緣關係，但彼此關係非常親密、互相支持的一群人」。",
-        "family-mcq-24": "「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」是「familial — medical/scientific」的用法，與本句語境不同。",
-        "family-mcq-26": "「以親屬或緊密組織關係構成的犯罪集團」是「10. family = organized criminal group（犯罪家族） — 家族；幫派家族」的用法，與本句語境不同。",
-        "family-mcq-23": "「與家人、親屬關係或家庭生活有關的」是「familial — general」的用法，與本句語境不同。",
-        "family-mcq-27": "「把家人和家庭生活放在很重要位置的男性」是「24. family man / family woman（重視家庭的人） — 顧家的人」的用法，與本句語境不同。",
-        "family-mcq-22": "「撫養子女並照顧家庭成長」是「raise a family」的用法，與本句語境不同。"
+        "family-mcq-25": "本句的「family」指「雖然沒有血緣關係，但彼此關係非常親密、互相支持的一群人」。",
+        "family-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-25"
     },
@@ -1173,11 +1089,9 @@ export default {
       "masked": "The novel is about a powerful crime ____.",
       "options": [
         "family-mcq-26",
-        "family-mcq-25",
-        "family-mcq-27",
-        "family-mcq-24",
-        "family-mcq-23",
-        "family-mcq-22"
+        "family-mcq-20",
+        "family-mcq-21",
+        "family-mcq-07"
       ],
       "explanation": "本句的「family」指「以親屬或緊密組織關係構成的犯罪集團」。",
       "sentenceIndex": 19,
@@ -1186,12 +1100,10 @@ export default {
         "family"
       ],
       "optionReasons": {
-        "family-mcq-26": "本句指「以親屬或緊密組織關係構成的犯罪集團」。",
-        "family-mcq-25": "「雖然沒有血緣關係，但彼此關係非常親密、互相支持的一群人」是「9. family = close-knit group treated like relatives（如家人般的群體） — 像家人一樣的團體」的用法，與本句語境不同。",
-        "family-mcq-27": "「把家人和家庭生活放在很重要位置的男性」是「24. family man / family woman（重視家庭的人） — 顧家的人」的用法，與本句語境不同。",
-        "family-mcq-24": "「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」是「familial — medical/scientific」的用法，與本句語境不同。",
-        "family-mcq-23": "「與家人、親屬關係或家庭生活有關的」是「familial — general」的用法，與本句語境不同。",
-        "family-mcq-22": "「撫養子女並照顧家庭成長」是「raise a family」的用法，與本句語境不同。"
+        "family-mcq-26": "本句的「family」指「以親屬或緊密組織關係構成的犯罪集團」。",
+        "family-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-26"
     },
@@ -1203,11 +1115,9 @@ export default {
       "masked": "Several rival ____ controlled the area.",
       "options": [
         "family-mcq-26",
-        "family-mcq-25",
-        "family-mcq-27",
-        "family-mcq-24",
-        "family-mcq-23",
-        "family-mcq-22"
+        "family-mcq-07",
+        "family-mcq-16",
+        "family-mcq-15"
       ],
       "explanation": "本句的「families」指「以親屬或緊密組織關係構成的犯罪集團」。",
       "sentenceIndex": 20,
@@ -1216,12 +1126,10 @@ export default {
         "families"
       ],
       "optionReasons": {
-        "family-mcq-26": "本句指「以親屬或緊密組織關係構成的犯罪集團」。",
-        "family-mcq-25": "「雖然沒有血緣關係，但彼此關係非常親密、互相支持的一群人」是「9. family = close-knit group treated like relatives（如家人般的群體） — 像家人一樣的團體」的用法，與本句語境不同。",
-        "family-mcq-27": "「把家人和家庭生活放在很重要位置的男性」是「24. family man / family woman（重視家庭的人） — 顧家的人」的用法，與本句語境不同。",
-        "family-mcq-24": "「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」是「familial — medical/scientific」的用法，與本句語境不同。",
-        "family-mcq-23": "「與家人、親屬關係或家庭生活有關的」是「familial — general」的用法，與本句語境不同。",
-        "family-mcq-22": "「撫養子女並照顧家庭成長」是「raise a family」的用法，與本句語境不同。"
+        "family-mcq-26": "本句的「families」指「以親屬或緊密組織關係構成的犯罪集團」。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-26"
     },
@@ -1233,11 +1141,9 @@ export default {
       "masked": "Every ____ was invited.",
       "options": [
         "family-mcq-10",
-        "family-mcq-09",
-        "family-mcq-11",
-        "family-mcq-08",
-        "family-mcq-12",
-        "family-mcq-07"
+        "family-mcq-06",
+        "family-mcq-07",
+        "family-mcq-25"
       ],
       "explanation": "本句的「family member」指「某個家庭／家族中的其中一名親屬」。",
       "sentenceIndex": 21,
@@ -1246,12 +1152,10 @@ export default {
         "family member"
       ],
       "optionReasons": {
-        "family-mcq-10": "本句指「某個家庭／家族中的其中一名親屬」。",
-        "family-mcq-09": "「沒有血緣但彼此非常親密、互相支持的一群人」是「family — figurative group」的用法，與本句語境不同。",
-        "family-mcq-11": "「與家人共同生活、相處及承擔家庭角色的生活部分」是「family life」的用法，與本句語境不同。",
-        "family-mcq-08": "「因設計、品牌、功能或平台相近而組成的產品系列」是「family — product group」的用法，與本句語境不同。",
-        "family-mcq-12": "「顯示家族成員血緣／婚姻關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "family-mcq-07": "「生物分類中位於 order 與 genus 之間的「科」」是「family — biology」的用法，與本句語境不同。"
+        "family-mcq-10": "本句的「family member」指「某個家庭／家族中的其中一名親屬」。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-10"
     },
@@ -1263,11 +1167,9 @@ export default {
       "masked": "She is the oldest ____.",
       "options": [
         "family-mcq-10",
-        "family-mcq-09",
-        "family-mcq-11",
         "family-mcq-08",
-        "family-mcq-12",
-        "family-mcq-07"
+        "family-mcq-07",
+        "family-mcq-25"
       ],
       "explanation": "本句的「family member」指「某個家庭／家族中的其中一名親屬」。",
       "sentenceIndex": 22,
@@ -1276,12 +1178,10 @@ export default {
         "family member"
       ],
       "optionReasons": {
-        "family-mcq-10": "本句指「某個家庭／家族中的其中一名親屬」。",
-        "family-mcq-09": "「沒有血緣但彼此非常親密、互相支持的一群人」是「family — figurative group」的用法，與本句語境不同。",
-        "family-mcq-11": "「與家人共同生活、相處及承擔家庭角色的生活部分」是「family life」的用法，與本句語境不同。",
-        "family-mcq-08": "「因設計、品牌、功能或平台相近而組成的產品系列」是「family — product group」的用法，與本句語境不同。",
-        "family-mcq-12": "「顯示家族成員血緣／婚姻關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "family-mcq-07": "「生物分類中位於 order 與 genus 之間的「科」」是「family — biology」的用法，與本句語境不同。"
+        "family-mcq-10": "本句的「family member」指「某個家庭／家族中的其中一名親屬」。",
+        "family-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-10"
     },
@@ -1293,11 +1193,9 @@ export default {
       "masked": "She values her ____.",
       "options": [
         "family-mcq-11",
-        "family-mcq-10",
-        "family-mcq-12",
-        "family-mcq-09",
-        "family-mcq-13",
-        "family-mcq-08"
+        "family-mcq-06",
+        "family-mcq-25",
+        "family-mcq-04"
       ],
       "explanation": "本句的「family life」指「與家人共同生活、相處及承擔家庭角色的生活部分」。",
       "sentenceIndex": 23,
@@ -1306,12 +1204,10 @@ export default {
         "family life"
       ],
       "optionReasons": {
-        "family-mcq-11": "本句指「與家人共同生活、相處及承擔家庭角色的生活部分」。",
-        "family-mcq-10": "「某個家庭／家族中的其中一名親屬」是「family member」的用法，與本句語境不同。",
-        "family-mcq-12": "「顯示家族成員血緣／婚姻關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "family-mcq-09": "「沒有血緣但彼此非常親密、互相支持的一群人」是「family — figurative group」的用法，與本句語境不同。",
-        "family-mcq-13": "「由家族成員共同使用並傳承的姓氏」是「family name」的用法，與本句語境不同。",
-        "family-mcq-08": "「因設計、品牌、功能或平台相近而組成的產品系列」是「family — product group」的用法，與本句語境不同。"
+        "family-mcq-11": "本句的「family life」指「與家人共同生活、相處及承擔家庭角色的生活部分」。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-11"
     },
@@ -1323,11 +1219,9 @@ export default {
       "masked": "The job made it difficult to balance work and ____.",
       "options": [
         "family-mcq-11",
-        "family-mcq-10",
-        "family-mcq-12",
-        "family-mcq-09",
-        "family-mcq-13",
-        "family-mcq-08"
+        "family-mcq-25",
+        "family-mcq-08",
+        "family-mcq-04"
       ],
       "explanation": "本句的「family life」指「與家人共同生活、相處及承擔家庭角色的生活部分」。",
       "sentenceIndex": 24,
@@ -1336,12 +1230,10 @@ export default {
         "family life"
       ],
       "optionReasons": {
-        "family-mcq-11": "本句指「與家人共同生活、相處及承擔家庭角色的生活部分」。",
-        "family-mcq-10": "「某個家庭／家族中的其中一名親屬」是「family member」的用法，與本句語境不同。",
-        "family-mcq-12": "「顯示家族成員血緣／婚姻關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "family-mcq-09": "「沒有血緣但彼此非常親密、互相支持的一群人」是「family — figurative group」的用法，與本句語境不同。",
-        "family-mcq-13": "「由家族成員共同使用並傳承的姓氏」是「family name」的用法，與本句語境不同。",
-        "family-mcq-08": "「因設計、品牌、功能或平台相近而組成的產品系列」是「family — product group」的用法，與本句語境不同。"
+        "family-mcq-11": "本句的「family life」指「與家人共同生活、相處及承擔家庭角色的生活部分」。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-11"
     },
@@ -1353,11 +1245,8 @@ export default {
       "masked": "She drew a ____ for the school project.",
       "options": [
         "family-mcq-12",
-        "family-mcq-11",
-        "family-mcq-13",
-        "family-mcq-10",
-        "family-mcq-14",
-        "family-mcq-09"
+        "family-mcq-19",
+        "family-mcq-15"
       ],
       "explanation": "本句的「family tree」指「顯示家族成員血緣／婚姻關係的圖表」。",
       "sentenceIndex": 25,
@@ -1366,12 +1255,9 @@ export default {
         "family tree"
       ],
       "optionReasons": {
-        "family-mcq-12": "本句指「顯示家族成員血緣／婚姻關係的圖表」。",
-        "family-mcq-11": "「與家人共同生活、相處及承擔家庭角色的生活部分」是「family life」的用法，與本句語境不同。",
-        "family-mcq-13": "「由家族成員共同使用並傳承的姓氏」是「family name」的用法，與本句語境不同。",
-        "family-mcq-10": "「某個家庭／家族中的其中一名親屬」是「family member」的用法，與本句語境不同。",
-        "family-mcq-14": "「一個人的家庭環境、成長經歷及家族情況」是「family background」的用法，與本句語境不同。",
-        "family-mcq-09": "「沒有血緣但彼此非常親密、互相支持的一群人」是「family — figurative group」的用法，與本句語境不同。"
+        "family-mcq-12": "本句的「family tree」指「顯示家族成員血緣／婚姻關係的圖表」。",
+        "family-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-12"
     },
@@ -1383,11 +1269,9 @@ export default {
       "masked": "The website helped him build his ____.",
       "options": [
         "family-mcq-12",
-        "family-mcq-11",
-        "family-mcq-13",
-        "family-mcq-10",
-        "family-mcq-14",
-        "family-mcq-09"
+        "family-mcq-07",
+        "family-mcq-06",
+        "family-mcq-15"
       ],
       "explanation": "本句的「family tree」指「顯示家族成員血緣／婚姻關係的圖表」。",
       "sentenceIndex": 26,
@@ -1396,12 +1280,10 @@ export default {
         "family tree"
       ],
       "optionReasons": {
-        "family-mcq-12": "本句指「顯示家族成員血緣／婚姻關係的圖表」。",
-        "family-mcq-11": "「與家人共同生活、相處及承擔家庭角色的生活部分」是「family life」的用法，與本句語境不同。",
-        "family-mcq-13": "「由家族成員共同使用並傳承的姓氏」是「family name」的用法，與本句語境不同。",
-        "family-mcq-10": "「某個家庭／家族中的其中一名親屬」是「family member」的用法，與本句語境不同。",
-        "family-mcq-14": "「一個人的家庭環境、成長經歷及家族情況」是「family background」的用法，與本句語境不同。",
-        "family-mcq-09": "「沒有血緣但彼此非常親密、互相支持的一群人」是「family — figurative group」的用法，與本句語境不同。"
+        "family-mcq-12": "本句的「family tree」指「顯示家族成員血緣／婚姻關係的圖表」。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-12"
     },
@@ -1413,11 +1295,9 @@ export default {
       "masked": "The business still carries the ____.",
       "options": [
         "family-mcq-13",
-        "family-mcq-12",
-        "family-mcq-14",
-        "family-mcq-11",
-        "family-mcq-15",
-        "family-mcq-10"
+        "family-mcq-07",
+        "family-mcq-25",
+        "family-mcq-06"
       ],
       "explanation": "本句的「family name」指「由家族成員共同使用並傳承的姓氏」。",
       "sentenceIndex": 27,
@@ -1426,12 +1306,10 @@ export default {
         "family name"
       ],
       "optionReasons": {
-        "family-mcq-13": "本句指「由家族成員共同使用並傳承的姓氏」。",
-        "family-mcq-12": "「顯示家族成員血緣／婚姻關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "family-mcq-14": "「一個人的家庭環境、成長經歷及家族情況」是「family background」的用法，與本句語境不同。",
-        "family-mcq-11": "「與家人共同生活、相處及承擔家庭角色的生活部分」是「family life」的用法，與本句語境不同。",
-        "family-mcq-15": "「一個家庭長期共同居住或代代相傳的住所」是「family home」的用法，與本句語境不同。",
-        "family-mcq-10": "「某個家庭／家族中的其中一名親屬」是「family member」的用法，與本句語境不同。"
+        "family-mcq-13": "本句的「family name」指「由家族成員共同使用並傳承的姓氏」。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-13"
     },
@@ -1443,11 +1321,9 @@ export default {
       "masked": "Her ____ is Chan.",
       "options": [
         "family-mcq-13",
-        "family-mcq-12",
-        "family-mcq-14",
-        "family-mcq-11",
-        "family-mcq-15",
-        "family-mcq-10"
+        "family-mcq-19",
+        "family-mcq-25",
+        "family-mcq-27"
       ],
       "explanation": "本句的「family name」指「由家族成員共同使用並傳承的姓氏」。",
       "sentenceIndex": 28,
@@ -1456,12 +1332,10 @@ export default {
         "family name"
       ],
       "optionReasons": {
-        "family-mcq-13": "本句指「由家族成員共同使用並傳承的姓氏」。",
-        "family-mcq-12": "「顯示家族成員血緣／婚姻關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "family-mcq-14": "「一個人的家庭環境、成長經歷及家族情況」是「family background」的用法，與本句語境不同。",
-        "family-mcq-11": "「與家人共同生活、相處及承擔家庭角色的生活部分」是「family life」的用法，與本句語境不同。",
-        "family-mcq-15": "「一個家庭長期共同居住或代代相傳的住所」是「family home」的用法，與本句語境不同。",
-        "family-mcq-10": "「某個家庭／家族中的其中一名親屬」是「family member」的用法，與本句語境不同。"
+        "family-mcq-13": "本句的「family name」指「由家族成員共同使用並傳承的姓氏」。",
+        "family-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-13"
     },
@@ -1473,11 +1347,8 @@ export default {
       "masked": "People come from different ____.",
       "options": [
         "family-mcq-14",
-        "family-mcq-13",
-        "family-mcq-15",
-        "family-mcq-12",
-        "family-mcq-16",
-        "family-mcq-11"
+        "family-mcq-19",
+        "family-mcq-25"
       ],
       "explanation": "本句的「family backgrounds」指「一個人的家庭環境、成長經歷及家族情況」。",
       "sentenceIndex": 29,
@@ -1486,12 +1357,9 @@ export default {
         "family backgrounds"
       ],
       "optionReasons": {
-        "family-mcq-14": "本句指「一個人的家庭環境、成長經歷及家族情況」。",
-        "family-mcq-13": "「由家族成員共同使用並傳承的姓氏」是「family name」的用法，與本句語境不同。",
-        "family-mcq-15": "「一個家庭長期共同居住或代代相傳的住所」是「family home」的用法，與本句語境不同。",
-        "family-mcq-12": "「顯示家族成員血緣／婚姻關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "family-mcq-16": "「主要由同一家族擁有、管理或經營的企業」是「family business」的用法，與本句語境不同。",
-        "family-mcq-11": "「與家人共同生活、相處及承擔家庭角色的生活部分」是「family life」的用法，與本句語境不同。"
+        "family-mcq-14": "本句的「family backgrounds」指「一個人的家庭環境、成長經歷及家族情況」。",
+        "family-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-14"
     },
@@ -1503,11 +1371,8 @@ export default {
       "masked": "Her ____ influenced her values.",
       "options": [
         "family-mcq-14",
-        "family-mcq-13",
-        "family-mcq-15",
-        "family-mcq-12",
-        "family-mcq-16",
-        "family-mcq-11"
+        "family-mcq-19",
+        "family-mcq-25"
       ],
       "explanation": "本句的「family background」指「一個人的家庭環境、成長經歷及家族情況」。",
       "sentenceIndex": 30,
@@ -1516,12 +1381,9 @@ export default {
         "family background"
       ],
       "optionReasons": {
-        "family-mcq-14": "本句指「一個人的家庭環境、成長經歷及家族情況」。",
-        "family-mcq-13": "「由家族成員共同使用並傳承的姓氏」是「family name」的用法，與本句語境不同。",
-        "family-mcq-15": "「一個家庭長期共同居住或代代相傳的住所」是「family home」的用法，與本句語境不同。",
-        "family-mcq-12": "「顯示家族成員血緣／婚姻關係的圖表」是「family tree」的用法，與本句語境不同。",
-        "family-mcq-16": "「主要由同一家族擁有、管理或經營的企業」是「family business」的用法，與本句語境不同。",
-        "family-mcq-11": "「與家人共同生活、相處及承擔家庭角色的生活部分」是「family life」的用法，與本句語境不同。"
+        "family-mcq-14": "本句的「family background」指「一個人的家庭環境、成長經歷及家族情況」。",
+        "family-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-14"
     },
@@ -1533,11 +1395,9 @@ export default {
       "masked": "She returned to the ____ for the holiday.",
       "options": [
         "family-mcq-15",
-        "family-mcq-14",
-        "family-mcq-16",
-        "family-mcq-13",
-        "family-mcq-17",
-        "family-mcq-12"
+        "family-mcq-08",
+        "family-mcq-07",
+        "family-mcq-01"
       ],
       "explanation": "本句的「family home」指「一個家庭長期共同居住或代代相傳的住所」。",
       "sentenceIndex": 31,
@@ -1546,12 +1406,10 @@ export default {
         "family home"
       ],
       "optionReasons": {
-        "family-mcq-15": "本句指「一個家庭長期共同居住或代代相傳的住所」。",
-        "family-mcq-14": "「一個人的家庭環境、成長經歷及家族情況」是「family background」的用法，與本句語境不同。",
-        "family-mcq-16": "「主要由同一家族擁有、管理或經營的企業」是「family business」的用法，與本句語境不同。",
-        "family-mcq-13": "「由家族成員共同使用並傳承的姓氏」是「family name」的用法，與本句語境不同。",
-        "family-mcq-17": "「適合家庭、父母和兒童使用或參與的」是「family-friendly」的用法，與本句語境不同。",
-        "family-mcq-12": "「顯示家族成員血緣／婚姻關係的圖表」是「family tree」的用法，與本句語境不同。"
+        "family-mcq-15": "本句的「family home」指「一個家庭長期共同居住或代代相傳的住所」。",
+        "family-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-15"
     },
@@ -1563,11 +1421,9 @@ export default {
       "masked": "The ____ had been passed down for generations.",
       "options": [
         "family-mcq-15",
-        "family-mcq-14",
-        "family-mcq-16",
-        "family-mcq-13",
-        "family-mcq-17",
-        "family-mcq-12"
+        "family-mcq-06",
+        "family-mcq-01",
+        "family-mcq-07"
       ],
       "explanation": "本句的「family home」指「一個家庭長期共同居住或代代相傳的住所」。",
       "sentenceIndex": 32,
@@ -1576,12 +1432,10 @@ export default {
         "family home"
       ],
       "optionReasons": {
-        "family-mcq-15": "本句指「一個家庭長期共同居住或代代相傳的住所」。",
-        "family-mcq-14": "「一個人的家庭環境、成長經歷及家族情況」是「family background」的用法，與本句語境不同。",
-        "family-mcq-16": "「主要由同一家族擁有、管理或經營的企業」是「family business」的用法，與本句語境不同。",
-        "family-mcq-13": "「由家族成員共同使用並傳承的姓氏」是「family name」的用法，與本句語境不同。",
-        "family-mcq-17": "「適合家庭、父母和兒童使用或參與的」是「family-friendly」的用法，與本句語境不同。",
-        "family-mcq-12": "「顯示家族成員血緣／婚姻關係的圖表」是「family tree」的用法，與本句語境不同。"
+        "family-mcq-15": "本句的「family home」指「一個家庭長期共同居住或代代相傳的住所」。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-15"
     },
@@ -1593,11 +1447,9 @@ export default {
       "masked": "She joined the ____ after university.",
       "options": [
         "family-mcq-16",
-        "family-mcq-15",
-        "family-mcq-17",
-        "family-mcq-14",
-        "family-mcq-18",
-        "family-mcq-13"
+        "family-mcq-01",
+        "family-mcq-06",
+        "family-mcq-07"
       ],
       "explanation": "本句的「family business」指「主要由同一家族擁有、管理或經營的企業」。",
       "sentenceIndex": 33,
@@ -1606,12 +1458,10 @@ export default {
         "family business"
       ],
       "optionReasons": {
-        "family-mcq-16": "本句指「主要由同一家族擁有、管理或經營的企業」。",
-        "family-mcq-15": "「一個家庭長期共同居住或代代相傳的住所」是「family home」的用法，與本句語境不同。",
-        "family-mcq-17": "「適合家庭、父母和兒童使用或參與的」是「family-friendly」的用法，與本句語境不同。",
-        "family-mcq-14": "「一個人的家庭環境、成長經歷及家族情況」是「family background」的用法，與本句語境不同。",
-        "family-mcq-18": "「把家庭關係與家庭生活放在重要位置的」是「family-oriented」的用法，與本句語境不同。",
-        "family-mcq-13": "「由家族成員共同使用並傳承的姓氏」是「family name」的用法，與本句語境不同。"
+        "family-mcq-16": "本句的「family business」指「主要由同一家族擁有、管理或經營的企業」。",
+        "family-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-16"
     },
@@ -1623,11 +1473,9 @@ export default {
       "masked": "The restaurant is a small ____.",
       "options": [
         "family-mcq-16",
-        "family-mcq-15",
-        "family-mcq-17",
-        "family-mcq-14",
-        "family-mcq-18",
-        "family-mcq-13"
+        "family-mcq-08",
+        "family-mcq-07",
+        "family-mcq-25"
       ],
       "explanation": "本句的「family business」指「主要由同一家族擁有、管理或經營的企業」。",
       "sentenceIndex": 34,
@@ -1636,12 +1484,10 @@ export default {
         "family business"
       ],
       "optionReasons": {
-        "family-mcq-16": "本句指「主要由同一家族擁有、管理或經營的企業」。",
-        "family-mcq-15": "「一個家庭長期共同居住或代代相傳的住所」是「family home」的用法，與本句語境不同。",
-        "family-mcq-17": "「適合家庭、父母和兒童使用或參與的」是「family-friendly」的用法，與本句語境不同。",
-        "family-mcq-14": "「一個人的家庭環境、成長經歷及家族情況」是「family background」的用法，與本句語境不同。",
-        "family-mcq-18": "「把家庭關係與家庭生活放在重要位置的」是「family-oriented」的用法，與本句語境不同。",
-        "family-mcq-13": "「由家族成員共同使用並傳承的姓氏」是「family name」的用法，與本句語境不同。"
+        "family-mcq-16": "本句的「family business」指「主要由同一家族擁有、管理或經營的企業」。",
+        "family-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-16"
     },
@@ -1653,11 +1499,9 @@ export default {
       "masked": "The hotel is very ____.",
       "options": [
         "family-mcq-17",
-        "family-mcq-16",
-        "family-mcq-18",
-        "family-mcq-15",
-        "family-mcq-19",
-        "family-mcq-14"
+        "family-mcq-26",
+        "family-mcq-07",
+        "family-mcq-06"
       ],
       "explanation": "本句的「family-friendly」指「適合家庭、父母和兒童使用或參與的」。",
       "sentenceIndex": 35,
@@ -1666,12 +1510,10 @@ export default {
         "family-friendly"
       ],
       "optionReasons": {
-        "family-mcq-17": "本句指「適合家庭、父母和兒童使用或參與的」。",
-        "family-mcq-16": "「主要由同一家族擁有、管理或經營的企業」是「family business」的用法，與本句語境不同。",
-        "family-mcq-18": "「把家庭關係與家庭生活放在重要位置的」是「family-oriented」的用法，與本句語境不同。",
-        "family-mcq-15": "「一個家庭長期共同居住或代代相傳的住所」是「family home」的用法，與本句語境不同。",
-        "family-mcq-19": "「親屬之間在外貌、聲音或其他特徵上的相似」是「family resemblance」的用法，與本句語境不同。",
-        "family-mcq-14": "「一個人的家庭環境、成長經歷及家族情況」是「family background」的用法，與本句語境不同。"
+        "family-mcq-17": "本句的「family-friendly」指「適合家庭、父母和兒童使用或參與的」。",
+        "family-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-17"
     },
@@ -1683,11 +1525,9 @@ export default {
       "masked": "They organized a ____ event.",
       "options": [
         "family-mcq-17",
-        "family-mcq-16",
-        "family-mcq-18",
-        "family-mcq-15",
-        "family-mcq-19",
-        "family-mcq-14"
+        "family-mcq-06",
+        "family-mcq-07",
+        "family-mcq-01"
       ],
       "explanation": "本句的「family-friendly」指「適合家庭、父母和兒童使用或參與的」。",
       "sentenceIndex": 36,
@@ -1696,12 +1536,10 @@ export default {
         "family-friendly"
       ],
       "optionReasons": {
-        "family-mcq-17": "本句指「適合家庭、父母和兒童使用或參與的」。",
-        "family-mcq-16": "「主要由同一家族擁有、管理或經營的企業」是「family business」的用法，與本句語境不同。",
-        "family-mcq-18": "「把家庭關係與家庭生活放在重要位置的」是「family-oriented」的用法，與本句語境不同。",
-        "family-mcq-15": "「一個家庭長期共同居住或代代相傳的住所」是「family home」的用法，與本句語境不同。",
-        "family-mcq-19": "「親屬之間在外貌、聲音或其他特徵上的相似」是「family resemblance」的用法，與本句語境不同。",
-        "family-mcq-14": "「一個人的家庭環境、成長經歷及家族情況」是「family background」的用法，與本句語境不同。"
+        "family-mcq-17": "本句的「family-friendly」指「適合家庭、父母和兒童使用或參與的」。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-17"
     },
@@ -1713,11 +1551,8 @@ export default {
       "masked": "She is very ____.",
       "options": [
         "family-mcq-18",
-        "family-mcq-17",
-        "family-mcq-19",
-        "family-mcq-16",
-        "family-mcq-20",
-        "family-mcq-15"
+        "family-mcq-06",
+        "family-mcq-13"
       ],
       "explanation": "本句的「family-oriented」指「把家庭關係與家庭生活放在重要位置的」。",
       "sentenceIndex": 37,
@@ -1726,12 +1561,9 @@ export default {
         "family-oriented"
       ],
       "optionReasons": {
-        "family-mcq-18": "本句指「把家庭關係與家庭生活放在重要位置的」。",
-        "family-mcq-17": "「適合家庭、父母和兒童使用或參與的」是「family-friendly」的用法，與本句語境不同。",
-        "family-mcq-19": "「親屬之間在外貌、聲音或其他特徵上的相似」是「family resemblance」的用法，與本句語境不同。",
-        "family-mcq-16": "「主要由同一家族擁有、管理或經營的企業」是「family business」的用法，與本句語境不同。",
-        "family-mcq-20": "「某種特徵、能力或健康情況在同一家族多人中反覆出現」是「run in the family」的用法，與本句語境不同。",
-        "family-mcq-15": "「一個家庭長期共同居住或代代相傳的住所」是「family home」的用法，與本句語境不同。"
+        "family-mcq-18": "本句的「family-oriented」指「把家庭關係與家庭生活放在重要位置的」。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-18"
     },
@@ -1743,11 +1575,8 @@ export default {
       "masked": "The company promotes a ____ culture.",
       "options": [
         "family-mcq-18",
-        "family-mcq-17",
         "family-mcq-19",
-        "family-mcq-16",
-        "family-mcq-20",
-        "family-mcq-15"
+        "family-mcq-04"
       ],
       "explanation": "本句的「family-oriented」指「把家庭關係與家庭生活放在重要位置的」。",
       "sentenceIndex": 38,
@@ -1756,12 +1585,9 @@ export default {
         "family-oriented"
       ],
       "optionReasons": {
-        "family-mcq-18": "本句指「把家庭關係與家庭生活放在重要位置的」。",
-        "family-mcq-17": "「適合家庭、父母和兒童使用或參與的」是「family-friendly」的用法，與本句語境不同。",
-        "family-mcq-19": "「親屬之間在外貌、聲音或其他特徵上的相似」是「family resemblance」的用法，與本句語境不同。",
-        "family-mcq-16": "「主要由同一家族擁有、管理或經營的企業」是「family business」的用法，與本句語境不同。",
-        "family-mcq-20": "「某種特徵、能力或健康情況在同一家族多人中反覆出現」是「run in the family」的用法，與本句語境不同。",
-        "family-mcq-15": "「一個家庭長期共同居住或代代相傳的住所」是「family home」的用法，與本句語境不同。"
+        "family-mcq-18": "本句的「family-oriented」指「把家庭關係與家庭生活放在重要位置的」。",
+        "family-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-18"
     },
@@ -1773,11 +1599,9 @@ export default {
       "masked": "You can see the ____.",
       "options": [
         "family-mcq-19",
-        "family-mcq-18",
-        "family-mcq-20",
-        "family-mcq-17",
-        "family-mcq-21",
-        "family-mcq-16"
+        "family-mcq-13",
+        "family-mcq-22",
+        "family-mcq-25"
       ],
       "explanation": "本句的「family resemblance」指「親屬之間在外貌、聲音或其他特徵上的相似」。",
       "sentenceIndex": 39,
@@ -1786,12 +1610,10 @@ export default {
         "family resemblance"
       ],
       "optionReasons": {
-        "family-mcq-19": "本句指「親屬之間在外貌、聲音或其他特徵上的相似」。",
-        "family-mcq-18": "「把家庭關係與家庭生活放在重要位置的」是「family-oriented」的用法，與本句語境不同。",
-        "family-mcq-20": "「某種特徵、能力或健康情況在同一家族多人中反覆出現」是「run in the family」的用法，與本句語境不同。",
-        "family-mcq-17": "「適合家庭、父母和兒童使用或參與的」是「family-friendly」的用法，與本句語境不同。",
-        "family-mcq-21": "「開始生育子女並建立有孩子的家庭生活」是「start a family」的用法，與本句語境不同。",
-        "family-mcq-16": "「主要由同一家族擁有、管理或經營的企業」是「family business」的用法，與本句語境不同。"
+        "family-mcq-19": "本句的「family resemblance」指「親屬之間在外貌、聲音或其他特徵上的相似」。",
+        "family-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-19"
     },
@@ -1803,11 +1625,9 @@ export default {
       "masked": "There is a strong ____ between the sisters.",
       "options": [
         "family-mcq-19",
-        "family-mcq-18",
-        "family-mcq-20",
-        "family-mcq-17",
-        "family-mcq-21",
-        "family-mcq-16"
+        "family-mcq-22",
+        "family-mcq-04",
+        "family-mcq-25"
       ],
       "explanation": "本句的「family resemblance」指「親屬之間在外貌、聲音或其他特徵上的相似」。",
       "sentenceIndex": 40,
@@ -1816,12 +1636,10 @@ export default {
         "family resemblance"
       ],
       "optionReasons": {
-        "family-mcq-19": "本句指「親屬之間在外貌、聲音或其他特徵上的相似」。",
-        "family-mcq-18": "「把家庭關係與家庭生活放在重要位置的」是「family-oriented」的用法，與本句語境不同。",
-        "family-mcq-20": "「某種特徵、能力或健康情況在同一家族多人中反覆出現」是「run in the family」的用法，與本句語境不同。",
-        "family-mcq-17": "「適合家庭、父母和兒童使用或參與的」是「family-friendly」的用法，與本句語境不同。",
-        "family-mcq-21": "「開始生育子女並建立有孩子的家庭生活」是「start a family」的用法，與本句語境不同。",
-        "family-mcq-16": "「主要由同一家族擁有、管理或經營的企業」是「family business」的用法，與本句語境不同。"
+        "family-mcq-19": "本句的「family resemblance」指「親屬之間在外貌、聲音或其他特徵上的相似」。",
+        "family-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-19"
     },
@@ -1833,11 +1651,9 @@ export default {
       "masked": "Musical ability ____.",
       "options": [
         "family-mcq-20",
-        "family-mcq-19",
-        "family-mcq-21",
-        "family-mcq-18",
-        "family-mcq-22",
-        "family-mcq-17"
+        "family-mcq-25",
+        "family-mcq-07",
+        "family-mcq-08"
       ],
       "explanation": "本句的「runs in the family」指「某種特徵、能力或健康情況在同一家族多人中反覆出現」。",
       "sentenceIndex": 41,
@@ -1846,12 +1662,10 @@ export default {
         "runs in the family"
       ],
       "optionReasons": {
-        "family-mcq-20": "本句指「某種特徵、能力或健康情況在同一家族多人中反覆出現」。",
-        "family-mcq-19": "「親屬之間在外貌、聲音或其他特徵上的相似」是「family resemblance」的用法，與本句語境不同。",
-        "family-mcq-21": "「開始生育子女並建立有孩子的家庭生活」是「start a family」的用法，與本句語境不同。",
-        "family-mcq-18": "「把家庭關係與家庭生活放在重要位置的」是「family-oriented」的用法，與本句語境不同。",
-        "family-mcq-22": "「撫養子女並照顧家庭成長」是「raise a family」的用法，與本句語境不同。",
-        "family-mcq-17": "「適合家庭、父母和兒童使用或參與的」是「family-friendly」的用法，與本句語境不同。"
+        "family-mcq-20": "本句的「runs in the family」指「某種特徵、能力或健康情況在同一家族多人中反覆出現」。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-20"
     },
@@ -1863,11 +1677,9 @@ export default {
       "masked": "High blood pressure ____.",
       "options": [
         "family-mcq-20",
-        "family-mcq-19",
-        "family-mcq-21",
-        "family-mcq-18",
-        "family-mcq-22",
-        "family-mcq-17"
+        "family-mcq-07",
+        "family-mcq-08",
+        "family-mcq-01"
       ],
       "explanation": "本句的「runs in her family」指「某種特徵、能力或健康情況在同一家族多人中反覆出現」。",
       "sentenceIndex": 42,
@@ -1876,12 +1688,10 @@ export default {
         "runs in her family"
       ],
       "optionReasons": {
-        "family-mcq-20": "本句指「某種特徵、能力或健康情況在同一家族多人中反覆出現」。",
-        "family-mcq-19": "「親屬之間在外貌、聲音或其他特徵上的相似」是「family resemblance」的用法，與本句語境不同。",
-        "family-mcq-21": "「開始生育子女並建立有孩子的家庭生活」是「start a family」的用法，與本句語境不同。",
-        "family-mcq-18": "「把家庭關係與家庭生活放在重要位置的」是「family-oriented」的用法，與本句語境不同。",
-        "family-mcq-22": "「撫養子女並照顧家庭成長」是「raise a family」的用法，與本句語境不同。",
-        "family-mcq-17": "「適合家庭、父母和兒童使用或參與的」是「family-friendly」的用法，與本句語境不同。"
+        "family-mcq-20": "本句的「runs in her family」指「某種特徵、能力或健康情況在同一家族多人中反覆出現」。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-20"
     },
@@ -1893,11 +1703,9 @@ export default {
       "masked": "They hope to ____ soon.",
       "options": [
         "family-mcq-21",
-        "family-mcq-20",
-        "family-mcq-22",
-        "family-mcq-19",
-        "family-mcq-23",
-        "family-mcq-18"
+        "family-mcq-06",
+        "family-mcq-01",
+        "family-mcq-07"
       ],
       "explanation": "本句的「start a family」指「開始生育子女並建立有孩子的家庭生活」。",
       "sentenceIndex": 43,
@@ -1906,12 +1714,10 @@ export default {
         "start a family"
       ],
       "optionReasons": {
-        "family-mcq-21": "本句指「開始生育子女並建立有孩子的家庭生活」。",
-        "family-mcq-20": "「某種特徵、能力或健康情況在同一家族多人中反覆出現」是「run in the family」的用法，與本句語境不同。",
-        "family-mcq-22": "「撫養子女並照顧家庭成長」是「raise a family」的用法，與本句語境不同。",
-        "family-mcq-19": "「親屬之間在外貌、聲音或其他特徵上的相似」是「family resemblance」的用法，與本句語境不同。",
-        "family-mcq-23": "「與家人、親屬關係或家庭生活有關的」是「familial — general」的用法，與本句語境不同。",
-        "family-mcq-18": "「把家庭關係與家庭生活放在重要位置的」是「family-oriented」的用法，與本句語境不同。"
+        "family-mcq-21": "本句的「start a family」指「開始生育子女並建立有孩子的家庭生活」。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-21"
     },
@@ -1923,11 +1729,9 @@ export default {
       "masked": "She wants to travel before ____.",
       "options": [
         "family-mcq-21",
-        "family-mcq-20",
-        "family-mcq-22",
-        "family-mcq-19",
-        "family-mcq-23",
-        "family-mcq-18"
+        "family-mcq-06",
+        "family-mcq-25",
+        "family-mcq-07"
       ],
       "explanation": "本句的「starting a family」指「開始生育子女並建立有孩子的家庭生活」。",
       "sentenceIndex": 44,
@@ -1936,12 +1740,10 @@ export default {
         "starting a family"
       ],
       "optionReasons": {
-        "family-mcq-21": "本句指「開始生育子女並建立有孩子的家庭生活」。",
-        "family-mcq-20": "「某種特徵、能力或健康情況在同一家族多人中反覆出現」是「run in the family」的用法，與本句語境不同。",
-        "family-mcq-22": "「撫養子女並照顧家庭成長」是「raise a family」的用法，與本句語境不同。",
-        "family-mcq-19": "「親屬之間在外貌、聲音或其他特徵上的相似」是「family resemblance」的用法，與本句語境不同。",
-        "family-mcq-23": "「與家人、親屬關係或家庭生活有關的」是「familial — general」的用法，與本句語境不同。",
-        "family-mcq-18": "「把家庭關係與家庭生活放在重要位置的」是「family-oriented」的用法，與本句語境不同。"
+        "family-mcq-21": "本句的「starting a family」指「開始生育子女並建立有孩子的家庭生活」。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-21"
     },
@@ -1953,11 +1755,9 @@ export default {
       "masked": "They ____ in a small town.",
       "options": [
         "family-mcq-22",
-        "family-mcq-21",
-        "family-mcq-23",
-        "family-mcq-20",
-        "family-mcq-24",
-        "family-mcq-19"
+        "family-mcq-01",
+        "family-mcq-06",
+        "family-mcq-16"
       ],
       "explanation": "本句的「raised a family」指「撫養子女並照顧家庭成長」。",
       "sentenceIndex": 45,
@@ -1966,12 +1766,10 @@ export default {
         "raised a family"
       ],
       "optionReasons": {
-        "family-mcq-22": "本句指「撫養子女並照顧家庭成長」。",
-        "family-mcq-21": "「開始生育子女並建立有孩子的家庭生活」是「start a family」的用法，與本句語境不同。",
-        "family-mcq-23": "「與家人、親屬關係或家庭生活有關的」是「familial — general」的用法，與本句語境不同。",
-        "family-mcq-20": "「某種特徵、能力或健康情況在同一家族多人中反覆出現」是「run in the family」的用法，與本句語境不同。",
-        "family-mcq-24": "「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」是「familial — medical/scientific」的用法，與本句語境不同。",
-        "family-mcq-19": "「親屬之間在外貌、聲音或其他特徵上的相似」是「family resemblance」的用法，與本句語境不同。"
+        "family-mcq-22": "本句的「raised a family」指「撫養子女並照顧家庭成長」。",
+        "family-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-22"
     },
@@ -1983,11 +1781,9 @@ export default {
       "masked": "It can be expensive to ____ in a large city.",
       "options": [
         "family-mcq-22",
-        "family-mcq-21",
-        "family-mcq-23",
-        "family-mcq-20",
-        "family-mcq-24",
-        "family-mcq-19"
+        "family-mcq-01",
+        "family-mcq-06",
+        "family-mcq-04"
       ],
       "explanation": "本句的「raise a family」指「撫養子女並照顧家庭成長」。",
       "sentenceIndex": 46,
@@ -1996,12 +1792,10 @@ export default {
         "raise a family"
       ],
       "optionReasons": {
-        "family-mcq-22": "本句指「撫養子女並照顧家庭成長」。",
-        "family-mcq-21": "「開始生育子女並建立有孩子的家庭生活」是「start a family」的用法，與本句語境不同。",
-        "family-mcq-23": "「與家人、親屬關係或家庭生活有關的」是「familial — general」的用法，與本句語境不同。",
-        "family-mcq-20": "「某種特徵、能力或健康情況在同一家族多人中反覆出現」是「run in the family」的用法，與本句語境不同。",
-        "family-mcq-24": "「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」是「familial — medical/scientific」的用法，與本句語境不同。",
-        "family-mcq-19": "「親屬之間在外貌、聲音或其他特徵上的相似」是「family resemblance」的用法，與本句語境不同。"
+        "family-mcq-22": "本句的「raise a family」指「撫養子女並照顧家庭成長」。",
+        "family-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-22"
     },
@@ -2013,11 +1807,9 @@ export default {
       "masked": "He is very much a ____.",
       "options": [
         "family-mcq-27",
-        "family-mcq-26",
-        "family-mcq-25",
-        "family-mcq-24",
-        "family-mcq-23",
-        "family-mcq-22"
+        "family-mcq-01",
+        "family-mcq-06",
+        "family-mcq-04"
       ],
       "explanation": "本句的「family man」指「把家人和家庭生活放在很重要位置的男性」。",
       "sentenceIndex": 47,
@@ -2026,12 +1818,10 @@ export default {
         "family man"
       ],
       "optionReasons": {
-        "family-mcq-27": "本句指「把家人和家庭生活放在很重要位置的男性」。",
-        "family-mcq-26": "「以親屬或緊密組織關係構成的犯罪集團」是「10. family = organized criminal group（犯罪家族） — 家族；幫派家族」的用法，與本句語境不同。",
-        "family-mcq-25": "「雖然沒有血緣關係，但彼此關係非常親密、互相支持的一群人」是「9. family = close-knit group treated like relatives（如家人般的群體） — 像家人一樣的團體」的用法，與本句語境不同。",
-        "family-mcq-24": "「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」是「familial — medical/scientific」的用法，與本句語境不同。",
-        "family-mcq-23": "「與家人、親屬關係或家庭生活有關的」是「familial — general」的用法，與本句語境不同。",
-        "family-mcq-22": "「撫養子女並照顧家庭成長」是「raise a family」的用法，與本句語境不同。"
+        "family-mcq-27": "本句的「family man」指「把家人和家庭生活放在很重要位置的男性」。",
+        "family-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-27"
     },
@@ -2043,11 +1833,9 @@ export default {
       "masked": "She is deeply ____ and spends most weekends with relatives.",
       "options": [
         "family-mcq-27",
-        "family-mcq-26",
+        "family-mcq-19",
         "family-mcq-25",
-        "family-mcq-24",
-        "family-mcq-23",
-        "family-mcq-22"
+        "family-mcq-04"
       ],
       "explanation": "本句的「family-oriented」指「把家人和家庭生活放在很重要位置的男性」。",
       "sentenceIndex": 48,
@@ -2056,12 +1844,10 @@ export default {
         "family-oriented"
       ],
       "optionReasons": {
-        "family-mcq-27": "本句指「把家人和家庭生活放在很重要位置的男性」。",
-        "family-mcq-26": "「以親屬或緊密組織關係構成的犯罪集團」是「10. family = organized criminal group（犯罪家族） — 家族；幫派家族」的用法，與本句語境不同。",
-        "family-mcq-25": "「雖然沒有血緣關係，但彼此關係非常親密、互相支持的一群人」是「9. family = close-knit group treated like relatives（如家人般的群體） — 像家人一樣的團體」的用法，與本句語境不同。",
-        "family-mcq-24": "「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」是「familial — medical/scientific」的用法，與本句語境不同。",
-        "family-mcq-23": "「與家人、親屬關係或家庭生活有關的」是「familial — general」的用法，與本句語境不同。",
-        "family-mcq-22": "「撫養子女並照顧家庭成長」是「raise a family」的用法，與本句語境不同。"
+        "family-mcq-27": "本句的「family-oriented」指「把家人和家庭生活放在很重要位置的男性」。",
+        "family-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-27"
     },
@@ -2073,11 +1859,9 @@ export default {
       "masked": "They have strong ____ ties.",
       "options": [
         "family-mcq-23",
-        "family-mcq-22",
-        "family-mcq-24",
-        "family-mcq-21",
-        "family-mcq-25",
-        "family-mcq-20"
+        "family-mcq-08",
+        "family-mcq-13",
+        "family-mcq-07"
       ],
       "explanation": "本句的「familial」指「與家人、親屬關係或家庭生活有關的」。",
       "sentenceIndex": 49,
@@ -2086,12 +1870,10 @@ export default {
         "familial"
       ],
       "optionReasons": {
-        "family-mcq-23": "本句指「與家人、親屬關係或家庭生活有關的」。",
-        "family-mcq-22": "「撫養子女並照顧家庭成長」是「raise a family」的用法，與本句語境不同。",
-        "family-mcq-24": "「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」是「familial — medical/scientific」的用法，與本句語境不同。",
-        "family-mcq-21": "「開始生育子女並建立有孩子的家庭生活」是「start a family」的用法，與本句語境不同。",
-        "family-mcq-25": "「雖然沒有血緣關係，但彼此關係非常親密、互相支持的一群人」是「9. family = close-knit group treated like relatives（如家人般的群體） — 像家人一樣的團體」的用法，與本句語境不同。",
-        "family-mcq-20": "「某種特徵、能力或健康情況在同一家族多人中反覆出現」是「run in the family」的用法，與本句語境不同。"
+        "family-mcq-23": "本句的「familial」指「與家人、親屬關係或家庭生活有關的」。",
+        "family-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-23"
     },
@@ -2103,11 +1885,9 @@ export default {
       "masked": "The condition may show ____ patterns.",
       "options": [
         "family-mcq-23",
-        "family-mcq-22",
-        "family-mcq-24",
-        "family-mcq-21",
-        "family-mcq-25",
-        "family-mcq-20"
+        "family-mcq-06",
+        "family-mcq-13",
+        "family-mcq-07"
       ],
       "explanation": "本句的「familial」指「與家人、親屬關係或家庭生活有關的」。",
       "sentenceIndex": 50,
@@ -2116,12 +1896,10 @@ export default {
         "familial"
       ],
       "optionReasons": {
-        "family-mcq-23": "本句指「與家人、親屬關係或家庭生活有關的」。",
-        "family-mcq-22": "「撫養子女並照顧家庭成長」是「raise a family」的用法，與本句語境不同。",
-        "family-mcq-24": "「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」是「familial — medical/scientific」的用法，與本句語境不同。",
-        "family-mcq-21": "「開始生育子女並建立有孩子的家庭生活」是「start a family」的用法，與本句語境不同。",
-        "family-mcq-25": "「雖然沒有血緣關係，但彼此關係非常親密、互相支持的一群人」是「9. family = close-knit group treated like relatives（如家人般的群體） — 像家人一樣的團體」的用法，與本句語境不同。",
-        "family-mcq-20": "「某種特徵、能力或健康情況在同一家族多人中反覆出現」是「run in the family」的用法，與本句語境不同。"
+        "family-mcq-23": "本句的「familial」指「與家人、親屬關係或家庭生活有關的」。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-23"
     },
@@ -2133,11 +1911,9 @@ export default {
       "masked": "Researchers found a ____ pattern of the disease.",
       "options": [
         "family-mcq-24",
-        "family-mcq-23",
-        "family-mcq-25",
-        "family-mcq-22",
-        "family-mcq-26",
-        "family-mcq-21"
+        "family-mcq-07",
+        "family-mcq-06",
+        "family-mcq-25"
       ],
       "explanation": "本句的「familial」指「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」。",
       "sentenceIndex": 51,
@@ -2146,12 +1922,10 @@ export default {
         "familial"
       ],
       "optionReasons": {
-        "family-mcq-24": "本句指「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」。",
-        "family-mcq-23": "「與家人、親屬關係或家庭生活有關的」是「familial — general」的用法，與本句語境不同。",
-        "family-mcq-25": "「雖然沒有血緣關係，但彼此關係非常親密、互相支持的一群人」是「9. family = close-knit group treated like relatives（如家人般的群體） — 像家人一樣的團體」的用法，與本句語境不同。",
-        "family-mcq-22": "「撫養子女並照顧家庭成長」是「raise a family」的用法，與本句語境不同。",
-        "family-mcq-26": "「以親屬或緊密組織關係構成的犯罪集團」是「10. family = organized criminal group（犯罪家族） — 家族；幫派家族」的用法，與本句語境不同。",
-        "family-mcq-21": "「開始生育子女並建立有孩子的家庭生活」是「start a family」的用法，與本句語境不同。"
+        "family-mcq-24": "本句的「familial」指「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」。",
+        "family-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-24"
     },
@@ -2163,11 +1937,8 @@ export default {
       "masked": "There may be a ____ tendency toward the condition.",
       "options": [
         "family-mcq-24",
-        "family-mcq-23",
-        "family-mcq-25",
-        "family-mcq-22",
-        "family-mcq-26",
-        "family-mcq-21"
+        "family-mcq-19",
+        "family-mcq-25"
       ],
       "explanation": "本句的「familial」指「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」。",
       "sentenceIndex": 52,
@@ -2176,12 +1947,9 @@ export default {
         "familial"
       ],
       "optionReasons": {
-        "family-mcq-24": "本句指「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」。",
-        "family-mcq-23": "「與家人、親屬關係或家庭生活有關的」是「familial — general」的用法，與本句語境不同。",
-        "family-mcq-25": "「雖然沒有血緣關係，但彼此關係非常親密、互相支持的一群人」是「9. family = close-knit group treated like relatives（如家人般的群體） — 像家人一樣的團體」的用法，與本句語境不同。",
-        "family-mcq-22": "「撫養子女並照顧家庭成長」是「raise a family」的用法，與本句語境不同。",
-        "family-mcq-26": "「以親屬或緊密組織關係構成的犯罪集團」是「10. family = organized criminal group（犯罪家族） — 家族；幫派家族」的用法，與本句語境不同。",
-        "family-mcq-21": "「開始生育子女並建立有孩子的家庭生活」是「start a family」的用法，與本句語境不同。"
+        "family-mcq-24": "本句的「familial」指「在同一家族成員中較常出現，可能與遺傳或共同家庭因素有關的」。",
+        "family-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "family-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "family-mcq-24"
     }
@@ -2193,5 +1961,7 @@ export default {
     "sha256": "15bf1644ab9cc85288c8fac140ab5dad5f761b7fd9d4fa2897c76c4863bc9557",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

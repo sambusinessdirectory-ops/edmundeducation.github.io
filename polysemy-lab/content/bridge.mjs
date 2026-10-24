@@ -592,11 +592,9 @@ export default {
       "masked": "A younger child accidentally broke a cardboard ____.",
       "options": [
         "bridge-mcq-23",
-        "bridge-mcq-22",
         "bridge-mcq-24",
-        "bridge-mcq-21",
-        "bridge-mcq-25",
-        "bridge-mcq-20"
+        "bridge-mcq-17",
+        "bridge-mcq-27"
       ],
       "explanation": "本句的「bridge」指「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」。",
       "sentenceIndex": 0,
@@ -605,12 +603,10 @@ export default {
         "bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-23": "本句指「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。",
-        "bridge-mcq-24": "「把兩個原本分開的人、群體、文化或概念連接起來的事物」是「5. bridge（連接兩者的東西） — 橋樑；連繫」的用法，與本句語境不同。",
-        "bridge-mcq-21": "「過橋貸款」是「bridge/bridging loan」的用法，與本句語境不同。",
-        "bridge-mcq-25": "「把兩個原本分開或不同的領域、概念或活動連接起來」是「10. bridge two things — 連接兩者；把兩方面結合」的用法，與本句語境不同。",
-        "bridge-mcq-20": "「橋牌」是「bridge (card game)」的用法，與本句語境不同。"
+        "bridge-mcq-23": "本句的「bridge」指「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」。",
+        "bridge-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-23"
     },
@@ -622,11 +618,9 @@ export default {
       "masked": "We crossed the river by ____.",
       "options": [
         "bridge-mcq-23",
-        "bridge-mcq-22",
-        "bridge-mcq-24",
-        "bridge-mcq-21",
-        "bridge-mcq-25",
-        "bridge-mcq-20"
+        "bridge-mcq-04",
+        "bridge-mcq-10",
+        "bridge-mcq-15"
       ],
       "explanation": "本句的「bridge」指「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」。",
       "sentenceIndex": 1,
@@ -635,12 +629,10 @@ export default {
         "bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-23": "本句指「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。",
-        "bridge-mcq-24": "「把兩個原本分開的人、群體、文化或概念連接起來的事物」是「5. bridge（連接兩者的東西） — 橋樑；連繫」的用法，與本句語境不同。",
-        "bridge-mcq-21": "「過橋貸款」是「bridge/bridging loan」的用法，與本句語境不同。",
-        "bridge-mcq-25": "「把兩個原本分開或不同的領域、概念或活動連接起來」是「10. bridge two things — 連接兩者；把兩方面結合」的用法，與本句語境不同。",
-        "bridge-mcq-20": "「橋牌」是「bridge (card game)」的用法，與本句語境不同。"
+        "bridge-mcq-23": "本句的「bridge」指「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」。",
+        "bridge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-23"
     },
@@ -652,11 +644,9 @@ export default {
       "masked": "The old stone ____ has stood there for hundreds of years.",
       "options": [
         "bridge-mcq-23",
-        "bridge-mcq-22",
-        "bridge-mcq-24",
-        "bridge-mcq-21",
-        "bridge-mcq-25",
-        "bridge-mcq-20"
+        "bridge-mcq-11",
+        "bridge-mcq-04",
+        "bridge-mcq-06"
       ],
       "explanation": "本句的「bridge」指「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」。",
       "sentenceIndex": 2,
@@ -665,12 +655,10 @@ export default {
         "bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-23": "本句指「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。",
-        "bridge-mcq-24": "「把兩個原本分開的人、群體、文化或概念連接起來的事物」是「5. bridge（連接兩者的東西） — 橋樑；連繫」的用法，與本句語境不同。",
-        "bridge-mcq-21": "「過橋貸款」是「bridge/bridging loan」的用法，與本句語境不同。",
-        "bridge-mcq-25": "「把兩個原本分開或不同的領域、概念或活動連接起來」是「10. bridge two things — 連接兩者；把兩方面結合」的用法，與本句語境不同。",
-        "bridge-mcq-20": "「橋牌」是「bridge (card game)」的用法，與本句語境不同。"
+        "bridge-mcq-23": "本句的「bridge」指「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」。",
+        "bridge-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-23"
     },
@@ -682,11 +670,9 @@ export default {
       "masked": "They built a new ____.",
       "options": [
         "bridge-mcq-02",
-        "bridge-mcq-01",
-        "bridge-mcq-03",
-        "bridge-mcq-04",
-        "bridge-mcq-05",
-        "bridge-mcq-06"
+        "bridge-mcq-27",
+        "bridge-mcq-06",
+        "bridge-mcq-25"
       ],
       "explanation": "本句的「bridge across the river」指「橫跨 X 的橋」。",
       "sentenceIndex": 3,
@@ -695,12 +681,10 @@ export default {
         "bridge across the river"
       ],
       "optionReasons": {
-        "bridge-mcq-02": "本句指「橫跨 X 的橋」。",
-        "bridge-mcq-01": "「橋；橋樑」是「bridge (structure)」的用法，與本句語境不同。",
-        "bridge-mcq-03": "「行人橋」是「footbridge」的用法，與本句語境不同。",
-        "bridge-mcq-04": "「吊橋／懸索橋」是「suspension bridge」的用法，與本句語境不同。",
-        "bridge-mcq-05": "「A 與 B 之間的橋樑」是「a bridge between A and B」的用法，與本句語境不同。",
-        "bridge-mcq-06": "「縮小／彌合差距」是「bridge the gap」的用法，與本句語境不同。"
+        "bridge-mcq-02": "本句的「bridge across the river」指「橫跨 X 的橋」。",
+        "bridge-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-02"
     },
@@ -712,11 +696,9 @@ export default {
       "masked": "A narrow ____.",
       "options": [
         "bridge-mcq-02",
-        "bridge-mcq-01",
-        "bridge-mcq-03",
-        "bridge-mcq-04",
-        "bridge-mcq-05",
-        "bridge-mcq-06"
+        "bridge-mcq-06",
+        "bridge-mcq-22",
+        "bridge-mcq-15"
       ],
       "explanation": "本句的「bridge crosses the railway line」指「橫跨 X 的橋」。",
       "sentenceIndex": 4,
@@ -725,12 +707,10 @@ export default {
         "bridge crosses the railway line"
       ],
       "optionReasons": {
-        "bridge-mcq-02": "本句指「橫跨 X 的橋」。",
-        "bridge-mcq-01": "「橋；橋樑」是「bridge (structure)」的用法，與本句語境不同。",
-        "bridge-mcq-03": "「行人橋」是「footbridge」的用法，與本句語境不同。",
-        "bridge-mcq-04": "「吊橋／懸索橋」是「suspension bridge」的用法，與本句語境不同。",
-        "bridge-mcq-05": "「A 與 B 之間的橋樑」是「a bridge between A and B」的用法，與本句語境不同。",
-        "bridge-mcq-06": "「縮小／彌合差距」是「bridge the gap」的用法，與本句語境不同。"
+        "bridge-mcq-02": "本句的「bridge crosses the railway line」指「橫跨 X 的橋」。",
+        "bridge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-02"
     },
@@ -742,11 +722,9 @@ export default {
       "masked": "We crossed the road using the ____.",
       "options": [
         "bridge-mcq-03",
-        "bridge-mcq-02",
-        "bridge-mcq-04",
-        "bridge-mcq-01",
-        "bridge-mcq-05",
-        "bridge-mcq-06"
+        "bridge-mcq-26",
+        "bridge-mcq-15",
+        "bridge-mcq-22"
       ],
       "explanation": "本句的「footbridge」指「行人橋」。",
       "sentenceIndex": 5,
@@ -755,12 +733,10 @@ export default {
         "footbridge"
       ],
       "optionReasons": {
-        "bridge-mcq-03": "本句指「行人橋」。",
-        "bridge-mcq-02": "「橫跨 X 的橋」是「bridge across/over X」的用法，與本句語境不同。",
-        "bridge-mcq-04": "「吊橋／懸索橋」是「suspension bridge」的用法，與本句語境不同。",
-        "bridge-mcq-01": "「橋；橋樑」是「bridge (structure)」的用法，與本句語境不同。",
-        "bridge-mcq-05": "「A 與 B 之間的橋樑」是「a bridge between A and B」的用法，與本句語境不同。",
-        "bridge-mcq-06": "「縮小／彌合差距」是「bridge the gap」的用法，與本句語境不同。"
+        "bridge-mcq-03": "本句的「footbridge」指「行人橋」。",
+        "bridge-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-03"
     },
@@ -772,11 +748,9 @@ export default {
       "masked": "A wooden ____ connects the two sides of the park.",
       "options": [
         "bridge-mcq-03",
-        "bridge-mcq-02",
-        "bridge-mcq-04",
-        "bridge-mcq-01",
-        "bridge-mcq-05",
-        "bridge-mcq-06"
+        "bridge-mcq-07",
+        "bridge-mcq-11",
+        "bridge-mcq-15"
       ],
       "explanation": "本句的「footbridge」指「行人橋」。",
       "sentenceIndex": 6,
@@ -785,12 +759,10 @@ export default {
         "footbridge"
       ],
       "optionReasons": {
-        "bridge-mcq-03": "本句指「行人橋」。",
-        "bridge-mcq-02": "「橫跨 X 的橋」是「bridge across/over X」的用法，與本句語境不同。",
-        "bridge-mcq-04": "「吊橋／懸索橋」是「suspension bridge」的用法，與本句語境不同。",
-        "bridge-mcq-01": "「橋；橋樑」是「bridge (structure)」的用法，與本句語境不同。",
-        "bridge-mcq-05": "「A 與 B 之間的橋樑」是「a bridge between A and B」的用法，與本句語境不同。",
-        "bridge-mcq-06": "「縮小／彌合差距」是「bridge the gap」的用法，與本句語境不同。"
+        "bridge-mcq-03": "本句的「footbridge」指「行人橋」。",
+        "bridge-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-03"
     },
@@ -802,11 +774,9 @@ export default {
       "masked": "The city is famous for its enormous ____.",
       "options": [
         "bridge-mcq-04",
-        "bridge-mcq-03",
-        "bridge-mcq-05",
-        "bridge-mcq-02",
-        "bridge-mcq-06",
-        "bridge-mcq-01"
+        "bridge-mcq-07",
+        "bridge-mcq-11",
+        "bridge-mcq-13"
       ],
       "explanation": "本句的「suspension bridge」指「吊橋／懸索橋」。",
       "sentenceIndex": 7,
@@ -815,12 +785,10 @@ export default {
         "suspension bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-04": "本句指「吊橋／懸索橋」。",
-        "bridge-mcq-03": "「行人橋」是「footbridge」的用法，與本句語境不同。",
-        "bridge-mcq-05": "「A 與 B 之間的橋樑」是「a bridge between A and B」的用法，與本句語境不同。",
-        "bridge-mcq-02": "「橫跨 X 的橋」是「bridge across/over X」的用法，與本句語境不同。",
-        "bridge-mcq-06": "「縮小／彌合差距」是「bridge the gap」的用法，與本句語境不同。",
-        "bridge-mcq-01": "「橋；橋樑」是「bridge (structure)」的用法，與本句語境不同。"
+        "bridge-mcq-04": "本句的「suspension bridge」指「吊橋／懸索橋」。",
+        "bridge-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-04"
     },
@@ -832,11 +800,9 @@ export default {
       "masked": "The hikers crossed a narrow ____.",
       "options": [
         "bridge-mcq-04",
-        "bridge-mcq-03",
-        "bridge-mcq-05",
-        "bridge-mcq-02",
-        "bridge-mcq-06",
-        "bridge-mcq-01"
+        "bridge-mcq-12",
+        "bridge-mcq-25",
+        "bridge-mcq-22"
       ],
       "explanation": "本句的「suspension bridge」指「吊橋／懸索橋」。",
       "sentenceIndex": 8,
@@ -845,12 +811,10 @@ export default {
         "suspension bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-04": "本句指「吊橋／懸索橋」。",
-        "bridge-mcq-03": "「行人橋」是「footbridge」的用法，與本句語境不同。",
-        "bridge-mcq-05": "「A 與 B 之間的橋樑」是「a bridge between A and B」的用法，與本句語境不同。",
-        "bridge-mcq-02": "「橫跨 X 的橋」是「bridge across/over X」的用法，與本句語境不同。",
-        "bridge-mcq-06": "「縮小／彌合差距」是「bridge the gap」的用法，與本句語境不同。",
-        "bridge-mcq-01": "「橋；橋樑」是「bridge (structure)」的用法，與本句語境不同。"
+        "bridge-mcq-04": "本句的「suspension bridge」指「吊橋／懸索橋」。",
+        "bridge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-04"
     },
@@ -862,11 +826,9 @@ export default {
       "masked": "Music can be a ____.",
       "options": [
         "bridge-mcq-24",
-        "bridge-mcq-23",
-        "bridge-mcq-25",
-        "bridge-mcq-22",
-        "bridge-mcq-26",
-        "bridge-mcq-21"
+        "bridge-mcq-02",
+        "bridge-mcq-13",
+        "bridge-mcq-12"
       ],
       "explanation": "本句的「bridge between cultures」指「把兩個原本分開的人、群體、文化或概念連接起來的事物」。",
       "sentenceIndex": 9,
@@ -875,12 +837,10 @@ export default {
         "bridge between cultures"
       ],
       "optionReasons": {
-        "bridge-mcq-24": "本句指「把兩個原本分開的人、群體、文化或概念連接起來的事物」。",
-        "bridge-mcq-23": "「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」是「1. bridge（橋；橋樑） — 橋；橋樑」的用法，與本句語境不同。",
-        "bridge-mcq-25": "「把兩個原本分開或不同的領域、概念或活動連接起來」是「10. bridge two things — 連接兩者；把兩方面結合」的用法，與本句語境不同。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。",
-        "bridge-mcq-26": "「暫時填補兩個階段之間的空缺，使過渡順利」是「11. bridge a period / transition — 銜接一段時期；填補過渡期」的用法，與本句語境不同。",
-        "bridge-mcq-21": "「過橋貸款」是「bridge/bridging loan」的用法，與本句語境不同。"
+        "bridge-mcq-24": "本句的「bridge between cultures」指「把兩個原本分開的人、群體、文化或概念連接起來的事物」。",
+        "bridge-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-24"
     },
@@ -892,11 +852,9 @@ export default {
       "masked": "She acted as a ____.",
       "options": [
         "bridge-mcq-24",
-        "bridge-mcq-23",
-        "bridge-mcq-25",
-        "bridge-mcq-22",
-        "bridge-mcq-26",
-        "bridge-mcq-21"
+        "bridge-mcq-15",
+        "bridge-mcq-03",
+        "bridge-mcq-27"
       ],
       "explanation": "本句的「bridge between the two departments」指「把兩個原本分開的人、群體、文化或概念連接起來的事物」。",
       "sentenceIndex": 10,
@@ -905,12 +863,10 @@ export default {
         "bridge between the two departments"
       ],
       "optionReasons": {
-        "bridge-mcq-24": "本句指「把兩個原本分開的人、群體、文化或概念連接起來的事物」。",
-        "bridge-mcq-23": "「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」是「1. bridge（橋；橋樑） — 橋；橋樑」的用法，與本句語境不同。",
-        "bridge-mcq-25": "「把兩個原本分開或不同的領域、概念或活動連接起來」是「10. bridge two things — 連接兩者；把兩方面結合」的用法，與本句語境不同。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。",
-        "bridge-mcq-26": "「暫時填補兩個階段之間的空缺，使過渡順利」是「11. bridge a period / transition — 銜接一段時期；填補過渡期」的用法，與本句語境不同。",
-        "bridge-mcq-21": "「過橋貸款」是「bridge/bridging loan」的用法，與本句語境不同。"
+        "bridge-mcq-24": "本句的「bridge between the two departments」指「把兩個原本分開的人、群體、文化或概念連接起來的事物」。",
+        "bridge-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-24"
     },
@@ -922,11 +878,9 @@ export default {
       "masked": "Education can provide a ____.",
       "options": [
         "bridge-mcq-05",
-        "bridge-mcq-04",
         "bridge-mcq-06",
-        "bridge-mcq-03",
-        "bridge-mcq-07",
-        "bridge-mcq-02"
+        "bridge-mcq-11",
+        "bridge-mcq-14"
       ],
       "explanation": "本句的「bridge between generations」指「A 與 B 之間的橋樑」。",
       "sentenceIndex": 11,
@@ -935,12 +889,10 @@ export default {
         "bridge between generations"
       ],
       "optionReasons": {
-        "bridge-mcq-05": "本句指「A 與 B 之間的橋樑」。",
-        "bridge-mcq-04": "「吊橋／懸索橋」是「suspension bridge」的用法，與本句語境不同。",
-        "bridge-mcq-06": "「縮小／彌合差距」是「bridge the gap」的用法，與本句語境不同。",
-        "bridge-mcq-03": "「行人橋」是「footbridge」的用法，與本句語境不同。",
-        "bridge-mcq-07": "「彌合分歧」是「bridge a divide」的用法，與本句語境不同。",
-        "bridge-mcq-02": "「橫跨 X 的橋」是「bridge across/over X」的用法，與本句語境不同。"
+        "bridge-mcq-05": "本句的「bridge between generations」指「A 與 B 之間的橋樑」。",
+        "bridge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-05"
     },
@@ -952,11 +904,9 @@ export default {
       "masked": "The project created a ____.",
       "options": [
         "bridge-mcq-05",
-        "bridge-mcq-04",
         "bridge-mcq-06",
-        "bridge-mcq-03",
-        "bridge-mcq-07",
-        "bridge-mcq-02"
+        "bridge-mcq-24",
+        "bridge-mcq-14"
       ],
       "explanation": "本句的「bridge between research and industry」指「A 與 B 之間的橋樑」。",
       "sentenceIndex": 12,
@@ -965,12 +915,10 @@ export default {
         "bridge between research and industry"
       ],
       "optionReasons": {
-        "bridge-mcq-05": "本句指「A 與 B 之間的橋樑」。",
-        "bridge-mcq-04": "「吊橋／懸索橋」是「suspension bridge」的用法，與本句語境不同。",
-        "bridge-mcq-06": "「縮小／彌合差距」是「bridge the gap」的用法，與本句語境不同。",
-        "bridge-mcq-03": "「行人橋」是「footbridge」的用法，與本句語境不同。",
-        "bridge-mcq-07": "「彌合分歧」是「bridge a divide」的用法，與本句語境不同。",
-        "bridge-mcq-02": "「橫跨 X 的橋」是「bridge across/over X」的用法，與本句語境不同。"
+        "bridge-mcq-05": "本句的「bridge between research and industry」指「A 與 B 之間的橋樑」。",
+        "bridge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-05"
     },
@@ -982,11 +930,9 @@ export default {
       "masked": "The programme aims to ____.",
       "options": [
         "bridge-mcq-06",
-        "bridge-mcq-05",
-        "bridge-mcq-07",
-        "bridge-mcq-04",
-        "bridge-mcq-08",
-        "bridge-mcq-03"
+        "bridge-mcq-27",
+        "bridge-mcq-15",
+        "bridge-mcq-22"
       ],
       "explanation": "本句的「bridge the gap between rich and poor students」指「縮小／彌合差距」。",
       "sentenceIndex": 13,
@@ -995,12 +941,10 @@ export default {
         "bridge the gap between rich and poor students"
       ],
       "optionReasons": {
-        "bridge-mcq-06": "本句指「縮小／彌合差距」。",
-        "bridge-mcq-05": "「A 與 B 之間的橋樑」是「a bridge between A and B」的用法，與本句語境不同。",
-        "bridge-mcq-07": "「彌合分歧」是「bridge a divide」的用法，與本句語境不同。",
-        "bridge-mcq-04": "「吊橋／懸索橋」是「suspension bridge」的用法，與本句語境不同。",
-        "bridge-mcq-08": "「縮窄差異」是「bridge differences」的用法，與本句語境不同。",
-        "bridge-mcq-03": "「行人橋」是「footbridge」的用法，與本句語境不同。"
+        "bridge-mcq-06": "本句的「bridge the gap between rich and poor students」指「縮小／彌合差距」。",
+        "bridge-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-06"
     },
@@ -1012,11 +956,9 @@ export default {
       "masked": "Technology can help ____.",
       "options": [
         "bridge-mcq-06",
-        "bridge-mcq-05",
-        "bridge-mcq-07",
-        "bridge-mcq-04",
-        "bridge-mcq-08",
-        "bridge-mcq-03"
+        "bridge-mcq-12",
+        "bridge-mcq-14",
+        "bridge-mcq-02"
       ],
       "explanation": "本句的「bridge the gap between distance and communication」指「縮小／彌合差距」。",
       "sentenceIndex": 14,
@@ -1025,12 +967,10 @@ export default {
         "bridge the gap between distance and communication"
       ],
       "optionReasons": {
-        "bridge-mcq-06": "本句指「縮小／彌合差距」。",
-        "bridge-mcq-05": "「A 與 B 之間的橋樑」是「a bridge between A and B」的用法，與本句語境不同。",
-        "bridge-mcq-07": "「彌合分歧」是「bridge a divide」的用法，與本句語境不同。",
-        "bridge-mcq-04": "「吊橋／懸索橋」是「suspension bridge」的用法，與本句語境不同。",
-        "bridge-mcq-08": "「縮窄差異」是「bridge differences」的用法，與本句語境不同。",
-        "bridge-mcq-03": "「行人橋」是「footbridge」的用法，與本句語境不同。"
+        "bridge-mcq-06": "本句的「bridge the gap between distance and communication」指「縮小／彌合差距」。",
+        "bridge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-06"
     },
@@ -1042,11 +982,9 @@ export default {
       "masked": "The talks were intended to ____.",
       "options": [
         "bridge-mcq-07",
-        "bridge-mcq-06",
-        "bridge-mcq-08",
-        "bridge-mcq-05",
-        "bridge-mcq-09",
-        "bridge-mcq-04"
+        "bridge-mcq-21",
+        "bridge-mcq-26",
+        "bridge-mcq-23"
       ],
       "explanation": "本句的「bridge the political divide」指「彌合分歧」。",
       "sentenceIndex": 15,
@@ -1055,12 +993,10 @@ export default {
         "bridge the political divide"
       ],
       "optionReasons": {
-        "bridge-mcq-07": "本句指「彌合分歧」。",
-        "bridge-mcq-06": "「縮小／彌合差距」是「bridge the gap」的用法，與本句語境不同。",
-        "bridge-mcq-08": "「縮窄差異」是「bridge differences」的用法，與本句語境不同。",
-        "bridge-mcq-05": "「A 與 B 之間的橋樑」是「a bridge between A and B」的用法，與本句語境不同。",
-        "bridge-mcq-09": "「連接理論與實踐」是「bridge theory and practice」的用法，與本句語境不同。",
-        "bridge-mcq-04": "「吊橋／懸索橋」是「suspension bridge」的用法，與本句語境不同。"
+        "bridge-mcq-07": "本句的「bridge the political divide」指「彌合分歧」。",
+        "bridge-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-07"
     },
@@ -1072,11 +1008,9 @@ export default {
       "masked": "Sport can sometimes ____.",
       "options": [
         "bridge-mcq-07",
-        "bridge-mcq-06",
-        "bridge-mcq-08",
         "bridge-mcq-05",
-        "bridge-mcq-09",
-        "bridge-mcq-04"
+        "bridge-mcq-10",
+        "bridge-mcq-27"
       ],
       "explanation": "本句的「bridge social divides」指「彌合分歧」。",
       "sentenceIndex": 16,
@@ -1085,12 +1019,10 @@ export default {
         "bridge social divides"
       ],
       "optionReasons": {
-        "bridge-mcq-07": "本句指「彌合分歧」。",
-        "bridge-mcq-06": "「縮小／彌合差距」是「bridge the gap」的用法，與本句語境不同。",
-        "bridge-mcq-08": "「縮窄差異」是「bridge differences」的用法，與本句語境不同。",
-        "bridge-mcq-05": "「A 與 B 之間的橋樑」是「a bridge between A and B」的用法，與本句語境不同。",
-        "bridge-mcq-09": "「連接理論與實踐」是「bridge theory and practice」的用法，與本句語境不同。",
-        "bridge-mcq-04": "「吊橋／懸索橋」是「suspension bridge」的用法，與本句語境不同。"
+        "bridge-mcq-07": "本句的「bridge social divides」指「彌合分歧」。",
+        "bridge-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-07"
     },
@@ -1102,11 +1034,9 @@ export default {
       "masked": "Video calls help ____.",
       "options": [
         "bridge-pdf-001",
-        "bridge-mcq-07",
-        "bridge-mcq-09",
-        "bridge-mcq-06",
-        "bridge-mcq-10",
-        "bridge-mcq-05"
+        "bridge-mcq-15",
+        "bridge-mcq-18",
+        "bridge-mcq-17"
       ],
       "explanation": "本句的「bridge long distances」指「克服兩者之間的距離、差異或障礙」。",
       "sentenceIndex": 17,
@@ -1115,12 +1045,10 @@ export default {
         "bridge long distances"
       ],
       "optionReasons": {
-        "bridge-pdf-001": "本句指「克服兩者之間的距離、差異或障礙」。",
-        "bridge-mcq-07": "「彌合分歧」是「bridge a divide」的用法，與本句語境不同。",
-        "bridge-mcq-09": "「連接理論與實踐」是「bridge theory and practice」的用法，與本句語境不同。",
-        "bridge-mcq-06": "「縮小／彌合差距」是「bridge the gap」的用法，與本句語境不同。",
-        "bridge-mcq-10": "「建立關係」是「build bridges」的用法，與本句語境不同。",
-        "bridge-mcq-05": "「A 與 B 之間的橋樑」是「a bridge between A and B」的用法，與本句語境不同。"
+        "bridge-pdf-001": "本句的「bridge long distances」指「克服兩者之間的距離、差異或障礙」。",
+        "bridge-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-pdf-001"
     },
@@ -1133,10 +1061,8 @@ export default {
       "options": [
         "bridge-pdf-001",
         "bridge-mcq-07",
-        "bridge-mcq-09",
-        "bridge-mcq-06",
-        "bridge-mcq-10",
-        "bridge-mcq-05"
+        "bridge-mcq-27",
+        "bridge-mcq-12"
       ],
       "explanation": "本句的「bridge differences in background」指「克服兩者之間的距離、差異或障礙」。",
       "sentenceIndex": 18,
@@ -1145,12 +1071,10 @@ export default {
         "bridge differences in background"
       ],
       "optionReasons": {
-        "bridge-pdf-001": "本句指「克服兩者之間的距離、差異或障礙」。",
-        "bridge-mcq-07": "「彌合分歧」是「bridge a divide」的用法，與本句語境不同。",
-        "bridge-mcq-09": "「連接理論與實踐」是「bridge theory and practice」的用法，與本句語境不同。",
-        "bridge-mcq-06": "「縮小／彌合差距」是「bridge the gap」的用法，與本句語境不同。",
-        "bridge-mcq-10": "「建立關係」是「build bridges」的用法，與本句語境不同。",
-        "bridge-mcq-05": "「A 與 B 之間的橋樑」是「a bridge between A and B」的用法，與本句語境不同。"
+        "bridge-pdf-001": "本句的「bridge differences in background」指「克服兩者之間的距離、差異或障礙」。",
+        "bridge-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-pdf-001"
     },
@@ -1162,11 +1086,9 @@ export default {
       "masked": "The course ____.",
       "options": [
         "bridge-mcq-25",
-        "bridge-mcq-24",
-        "bridge-mcq-26",
         "bridge-mcq-23",
-        "bridge-mcq-27",
-        "bridge-mcq-22"
+        "bridge-mcq-03",
+        "bridge-mcq-06"
       ],
       "explanation": "本句的「bridges theory and practice」指「把兩個原本分開或不同的領域、概念或活動連接起來」。",
       "sentenceIndex": 19,
@@ -1175,12 +1097,10 @@ export default {
         "bridges theory and practice"
       ],
       "optionReasons": {
-        "bridge-mcq-25": "本句指「把兩個原本分開或不同的領域、概念或活動連接起來」。",
-        "bridge-mcq-24": "「把兩個原本分開的人、群體、文化或概念連接起來的事物」是「5. bridge（連接兩者的東西） — 橋樑；連繫」的用法，與本句語境不同。",
-        "bridge-mcq-26": "「暫時填補兩個階段之間的空缺，使過渡順利」是「11. bridge a period / transition — 銜接一段時期；填補過渡期」的用法，與本句語境不同。",
-        "bridge-mcq-23": "「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」是「1. bridge（橋；橋樑） — 橋；橋樑」的用法，與本句語境不同。",
-        "bridge-mcq-27": "「弦樂器上支撐琴弦、並把震動傳到琴身的部件」是「21. bridge（樂器） — 琴橋；琴碼」的用法，與本句語境不同。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。"
+        "bridge-mcq-25": "本句的「bridges theory and practice」指「把兩個原本分開或不同的領域、概念或活動連接起來」。",
+        "bridge-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-25"
     },
@@ -1192,11 +1112,9 @@ export default {
       "masked": "Her work ____.",
       "options": [
         "bridge-mcq-25",
-        "bridge-mcq-24",
-        "bridge-mcq-26",
-        "bridge-mcq-23",
-        "bridge-mcq-27",
-        "bridge-mcq-22"
+        "bridge-mcq-14",
+        "bridge-mcq-12",
+        "bridge-mcq-02"
       ],
       "explanation": "本句的「bridges art and technology」指「把兩個原本分開或不同的領域、概念或活動連接起來」。",
       "sentenceIndex": 20,
@@ -1205,12 +1123,10 @@ export default {
         "bridges art and technology"
       ],
       "optionReasons": {
-        "bridge-mcq-25": "本句指「把兩個原本分開或不同的領域、概念或活動連接起來」。",
-        "bridge-mcq-24": "「把兩個原本分開的人、群體、文化或概念連接起來的事物」是「5. bridge（連接兩者的東西） — 橋樑；連繫」的用法，與本句語境不同。",
-        "bridge-mcq-26": "「暫時填補兩個階段之間的空缺，使過渡順利」是「11. bridge a period / transition — 銜接一段時期；填補過渡期」的用法，與本句語境不同。",
-        "bridge-mcq-23": "「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」是「1. bridge（橋；橋樑） — 橋；橋樑」的用法，與本句語境不同。",
-        "bridge-mcq-27": "「弦樂器上支撐琴弦、並把震動傳到琴身的部件」是「21. bridge（樂器） — 琴橋；琴碼」的用法，與本句語境不同。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。"
+        "bridge-mcq-25": "本句的「bridges art and technology」指「把兩個原本分開或不同的領域、概念或活動連接起來」。",
+        "bridge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-25"
     },
@@ -1222,11 +1138,9 @@ export default {
       "masked": "The temporary job helped ____.",
       "options": [
         "bridge-mcq-26",
-        "bridge-mcq-25",
         "bridge-mcq-27",
-        "bridge-mcq-24",
-        "bridge-mcq-23",
-        "bridge-mcq-22"
+        "bridge-mcq-06",
+        "bridge-mcq-03"
       ],
       "explanation": "本句的「bridge the period between graduation and full-time employment」指「暫時填補兩個階段之間的空缺，使過渡順利」。",
       "sentenceIndex": 21,
@@ -1235,12 +1149,10 @@ export default {
         "bridge the period between graduation and full-time employment"
       ],
       "optionReasons": {
-        "bridge-mcq-26": "本句指「暫時填補兩個階段之間的空缺，使過渡順利」。",
-        "bridge-mcq-25": "「把兩個原本分開或不同的領域、概念或活動連接起來」是「10. bridge two things — 連接兩者；把兩方面結合」的用法，與本句語境不同。",
-        "bridge-mcq-27": "「弦樂器上支撐琴弦、並把震動傳到琴身的部件」是「21. bridge（樂器） — 琴橋；琴碼」的用法，與本句語境不同。",
-        "bridge-mcq-24": "「把兩個原本分開的人、群體、文化或概念連接起來的事物」是「5. bridge（連接兩者的東西） — 橋樑；連繫」的用法，與本句語境不同。",
-        "bridge-mcq-23": "「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」是「1. bridge（橋；橋樑） — 橋；橋樑」的用法，與本句語境不同。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。"
+        "bridge-mcq-26": "本句的「bridge the period between graduation and full-time employment」指「暫時填補兩個階段之間的空缺，使過渡順利」。",
+        "bridge-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-26"
     },
@@ -1252,11 +1164,9 @@ export default {
       "masked": "The loan was intended to ____.",
       "options": [
         "bridge-mcq-26",
-        "bridge-mcq-25",
-        "bridge-mcq-27",
-        "bridge-mcq-24",
-        "bridge-mcq-23",
-        "bridge-mcq-22"
+        "bridge-mcq-22",
+        "bridge-mcq-17",
+        "bridge-mcq-12"
       ],
       "explanation": "本句的「bridge a short-term funding gap」指「暫時填補兩個階段之間的空缺，使過渡順利」。",
       "sentenceIndex": 22,
@@ -1265,12 +1175,10 @@ export default {
         "bridge a short-term funding gap"
       ],
       "optionReasons": {
-        "bridge-mcq-26": "本句指「暫時填補兩個階段之間的空缺，使過渡順利」。",
-        "bridge-mcq-25": "「把兩個原本分開或不同的領域、概念或活動連接起來」是「10. bridge two things — 連接兩者；把兩方面結合」的用法，與本句語境不同。",
-        "bridge-mcq-27": "「弦樂器上支撐琴弦、並把震動傳到琴身的部件」是「21. bridge（樂器） — 琴橋；琴碼」的用法，與本句語境不同。",
-        "bridge-mcq-24": "「把兩個原本分開的人、群體、文化或概念連接起來的事物」是「5. bridge（連接兩者的東西） — 橋樑；連繫」的用法，與本句語境不同。",
-        "bridge-mcq-23": "「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」是「1. bridge（橋；橋樑） — 橋；橋樑」的用法，與本句語境不同。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。"
+        "bridge-mcq-26": "本句的「bridge a short-term funding gap」指「暫時填補兩個階段之間的空缺，使過渡順利」。",
+        "bridge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-26"
     },
@@ -1282,11 +1190,9 @@ export default {
       "masked": "The meeting focused on ____ between the two groups.",
       "options": [
         "bridge-mcq-11",
-        "bridge-mcq-10",
-        "bridge-mcq-12",
-        "bridge-mcq-09",
-        "bridge-mcq-13",
-        "bridge-mcq-08"
+        "bridge-mcq-14",
+        "bridge-mcq-15",
+        "bridge-mcq-21"
       ],
       "explanation": "本句的「bridge-building」指「建立關係／合作」。",
       "sentenceIndex": 23,
@@ -1295,12 +1201,10 @@ export default {
         "bridge-building"
       ],
       "optionReasons": {
-        "bridge-mcq-11": "本句指「建立關係／合作」。",
-        "bridge-mcq-10": "「建立關係」是「build bridges」的用法，與本句語境不同。",
-        "bridge-mcq-12": "「斷絕後路」是「burn your bridges」的用法，與本句語境不同。",
-        "bridge-mcq-09": "「連接理論與實踐」是「bridge theory and practice」的用法，與本句語境不同。",
-        "bridge-mcq-13": "「到時再處理」是「cross that bridge when we come to it」的用法，與本句語境不同。",
-        "bridge-mcq-08": "「縮窄差異」是「bridge differences」的用法，與本句語境不同。"
+        "bridge-mcq-11": "本句的「bridge-building」指「建立關係／合作」。",
+        "bridge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-11"
     },
@@ -1312,11 +1216,9 @@ export default {
       "masked": "She is known for her ____.",
       "options": [
         "bridge-mcq-11",
-        "bridge-mcq-10",
-        "bridge-mcq-12",
-        "bridge-mcq-09",
-        "bridge-mcq-13",
-        "bridge-mcq-08"
+        "bridge-pdf-001",
+        "bridge-mcq-03",
+        "bridge-mcq-13"
       ],
       "explanation": "本句的「bridge-building efforts」指「建立關係／合作」。",
       "sentenceIndex": 24,
@@ -1325,12 +1227,10 @@ export default {
         "bridge-building efforts"
       ],
       "optionReasons": {
-        "bridge-mcq-11": "本句指「建立關係／合作」。",
-        "bridge-mcq-10": "「建立關係」是「build bridges」的用法，與本句語境不同。",
-        "bridge-mcq-12": "「斷絕後路」是「burn your bridges」的用法，與本句語境不同。",
-        "bridge-mcq-09": "「連接理論與實踐」是「bridge theory and practice」的用法，與本句語境不同。",
-        "bridge-mcq-13": "「到時再處理」是「cross that bridge when we come to it」的用法，與本句語境不同。",
-        "bridge-mcq-08": "「縮窄差異」是「bridge differences」的用法，與本句語境不同。"
+        "bridge-mcq-11": "本句的「bridge-building efforts」指「建立關係／合作」。",
+        "bridge-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-11"
     },
@@ -1342,11 +1242,9 @@ export default {
       "masked": "The event was designed to ____.",
       "options": [
         "bridge-mcq-10",
-        "bridge-mcq-09",
-        "bridge-mcq-11",
-        "bridge-mcq-08",
-        "bridge-mcq-12",
-        "bridge-mcq-07"
+        "bridge-mcq-13",
+        "bridge-mcq-26",
+        "bridge-mcq-12"
       ],
       "explanation": "本句的「build bridges between local communities」指「建立關係」。",
       "sentenceIndex": 25,
@@ -1355,12 +1253,10 @@ export default {
         "build bridges between local communities"
       ],
       "optionReasons": {
-        "bridge-mcq-10": "本句指「建立關係」。",
-        "bridge-mcq-09": "「連接理論與實踐」是「bridge theory and practice」的用法，與本句語境不同。",
-        "bridge-mcq-11": "「建立關係／合作」是「bridge-building」的用法，與本句語境不同。",
-        "bridge-mcq-08": "「縮窄差異」是「bridge differences」的用法，與本句語境不同。",
-        "bridge-mcq-12": "「斷絕後路」是「burn your bridges」的用法，與本句語境不同。",
-        "bridge-mcq-07": "「彌合分歧」是「bridge a divide」的用法，與本句語境不同。"
+        "bridge-mcq-10": "本句的「build bridges between local communities」指「建立關係」。",
+        "bridge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-10"
     },
@@ -1372,11 +1268,9 @@ export default {
       "masked": "Good communication can ____ between people with different views.",
       "options": [
         "bridge-mcq-10",
-        "bridge-mcq-09",
-        "bridge-mcq-11",
-        "bridge-mcq-08",
-        "bridge-mcq-12",
-        "bridge-mcq-07"
+        "bridge-mcq-22",
+        "bridge-pdf-001",
+        "bridge-mcq-04"
       ],
       "explanation": "本句的「build bridges」指「建立關係」。",
       "sentenceIndex": 26,
@@ -1385,12 +1279,10 @@ export default {
         "build bridges"
       ],
       "optionReasons": {
-        "bridge-mcq-10": "本句指「建立關係」。",
-        "bridge-mcq-09": "「連接理論與實踐」是「bridge theory and practice」的用法，與本句語境不同。",
-        "bridge-mcq-11": "「建立關係／合作」是「bridge-building」的用法，與本句語境不同。",
-        "bridge-mcq-08": "「縮窄差異」是「bridge differences」的用法，與本句語境不同。",
-        "bridge-mcq-12": "「斷絕後路」是「burn your bridges」的用法，與本句語境不同。",
-        "bridge-mcq-07": "「彌合分歧」是「bridge a divide」的用法，與本句語境不同。"
+        "bridge-mcq-10": "本句的「build bridges」指「建立關係」。",
+        "bridge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bridge-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-10"
     },
@@ -1402,11 +1294,9 @@ export default {
       "masked": "Don't ____ when you leave your job.",
       "options": [
         "bridge-mcq-12",
-        "bridge-mcq-11",
-        "bridge-mcq-13",
-        "bridge-mcq-10",
-        "bridge-mcq-14",
-        "bridge-mcq-09"
+        "bridge-mcq-03",
+        "bridge-mcq-22",
+        "bridge-mcq-07"
       ],
       "explanation": "本句的「burn your bridges」指「斷絕後路」。",
       "sentenceIndex": 27,
@@ -1415,12 +1305,10 @@ export default {
         "burn your bridges"
       ],
       "optionReasons": {
-        "bridge-mcq-12": "本句指「斷絕後路」。",
-        "bridge-mcq-11": "「建立關係／合作」是「bridge-building」的用法，與本句語境不同。",
-        "bridge-mcq-13": "「到時再處理」是「cross that bridge when we come to it」的用法，與本句語境不同。",
-        "bridge-mcq-10": "「建立關係」是「build bridges」的用法，與本句語境不同。",
-        "bridge-mcq-14": "「已成過去的事」是「water under the bridge」的用法，與本句語境不同。",
-        "bridge-mcq-09": "「連接理論與實踐」是「bridge theory and practice」的用法，與本句語境不同。"
+        "bridge-mcq-12": "本句的「burn your bridges」指「斷絕後路」。",
+        "bridge-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-12"
     },
@@ -1432,11 +1320,9 @@ export default {
       "masked": "He criticized everyone publicly and ____ with the team.",
       "options": [
         "bridge-mcq-12",
-        "bridge-mcq-11",
-        "bridge-mcq-13",
-        "bridge-mcq-10",
-        "bridge-mcq-14",
-        "bridge-mcq-09"
+        "bridge-mcq-15",
+        "bridge-mcq-04",
+        "bridge-mcq-26"
       ],
       "explanation": "本句的「burned his bridges」指「斷絕後路」。",
       "sentenceIndex": 28,
@@ -1445,12 +1331,10 @@ export default {
         "burned his bridges"
       ],
       "optionReasons": {
-        "bridge-mcq-12": "本句指「斷絕後路」。",
-        "bridge-mcq-11": "「建立關係／合作」是「bridge-building」的用法，與本句語境不同。",
-        "bridge-mcq-13": "「到時再處理」是「cross that bridge when we come to it」的用法，與本句語境不同。",
-        "bridge-mcq-10": "「建立關係」是「build bridges」的用法，與本句語境不同。",
-        "bridge-mcq-14": "「已成過去的事」是「water under the bridge」的用法，與本句語境不同。",
-        "bridge-mcq-09": "「連接理論與實踐」是「bridge theory and practice」的用法，與本句語境不同。"
+        "bridge-mcq-12": "本句的「burned his bridges」指「斷絕後路」。",
+        "bridge-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-12"
     },
@@ -1462,11 +1346,9 @@ export default {
       "masked": "We may have problems later, but we'll ____.",
       "options": [
         "bridge-mcq-13",
-        "bridge-mcq-12",
-        "bridge-mcq-14",
-        "bridge-mcq-11",
-        "bridge-mcq-15",
-        "bridge-mcq-10"
+        "bridge-mcq-17",
+        "bridge-mcq-22",
+        "bridge-pdf-001"
       ],
       "explanation": "本句的「cross that bridge when we come to it」指「到時再處理」。",
       "sentenceIndex": 29,
@@ -1475,12 +1357,10 @@ export default {
         "cross that bridge when we come to it"
       ],
       "optionReasons": {
-        "bridge-mcq-13": "本句指「到時再處理」。",
-        "bridge-mcq-12": "「斷絕後路」是「burn your bridges」的用法，與本句語境不同。",
-        "bridge-mcq-14": "「已成過去的事」是「water under the bridge」的用法，與本句語境不同。",
-        "bridge-mcq-11": "「建立關係／合作」是「bridge-building」的用法，與本句語境不同。",
-        "bridge-mcq-15": "「鼻樑」是「bridge of the nose」的用法，與本句語境不同。",
-        "bridge-mcq-10": "「建立關係」是「build bridges」的用法，與本句語境不同。"
+        "bridge-mcq-13": "本句的「cross that bridge when we come to it」指「到時再處理」。",
+        "bridge-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bridge-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-13"
     },
@@ -1492,11 +1372,9 @@ export default {
       "masked": "Don't worry about next year's costs yet—we'll ____.",
       "options": [
         "bridge-mcq-13",
+        "bridge-mcq-04",
         "bridge-mcq-12",
-        "bridge-mcq-14",
-        "bridge-mcq-11",
-        "bridge-mcq-15",
-        "bridge-mcq-10"
+        "bridge-mcq-21"
       ],
       "explanation": "本句的「cross that bridge when we come to it」指「到時再處理」。",
       "sentenceIndex": 30,
@@ -1505,12 +1383,10 @@ export default {
         "cross that bridge when we come to it"
       ],
       "optionReasons": {
-        "bridge-mcq-13": "本句指「到時再處理」。",
-        "bridge-mcq-12": "「斷絕後路」是「burn your bridges」的用法，與本句語境不同。",
-        "bridge-mcq-14": "「已成過去的事」是「water under the bridge」的用法，與本句語境不同。",
-        "bridge-mcq-11": "「建立關係／合作」是「bridge-building」的用法，與本句語境不同。",
-        "bridge-mcq-15": "「鼻樑」是「bridge of the nose」的用法，與本句語境不同。",
-        "bridge-mcq-10": "「建立關係」是「build bridges」的用法，與本句語境不同。"
+        "bridge-mcq-13": "本句的「cross that bridge when we come to it」指「到時再處理」。",
+        "bridge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-13"
     },
@@ -1522,11 +1398,9 @@ export default {
       "masked": "We argued years ago, but that's all ____ now.",
       "options": [
         "bridge-mcq-14",
-        "bridge-mcq-13",
+        "bridge-mcq-17",
         "bridge-mcq-15",
-        "bridge-mcq-12",
-        "bridge-mcq-16",
-        "bridge-mcq-11"
+        "bridge-mcq-06"
       ],
       "explanation": "本句的「water under the bridge」指「已成過去的事」。",
       "sentenceIndex": 31,
@@ -1535,12 +1409,10 @@ export default {
         "water under the bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-14": "本句指「已成過去的事」。",
-        "bridge-mcq-13": "「到時再處理」是「cross that bridge when we come to it」的用法，與本句語境不同。",
-        "bridge-mcq-15": "「鼻樑」是「bridge of the nose」的用法，與本句語境不同。",
-        "bridge-mcq-12": "「斷絕後路」是「burn your bridges」的用法，與本句語境不同。",
-        "bridge-mcq-16": "「牙橋」是「dental bridge」的用法，與本句語境不同。",
-        "bridge-mcq-11": "「建立關係／合作」是「bridge-building」的用法，與本句語境不同。"
+        "bridge-mcq-14": "本句的「water under the bridge」指「已成過去的事」。",
+        "bridge-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-14"
     },
@@ -1552,11 +1424,9 @@ export default {
       "masked": "Let's forget what happened; it's ____.",
       "options": [
         "bridge-mcq-14",
-        "bridge-mcq-13",
-        "bridge-mcq-15",
-        "bridge-mcq-12",
-        "bridge-mcq-16",
-        "bridge-mcq-11"
+        "bridge-mcq-06",
+        "bridge-mcq-25",
+        "bridge-mcq-04"
       ],
       "explanation": "本句的「water under the bridge」指「已成過去的事」。",
       "sentenceIndex": 32,
@@ -1565,12 +1435,10 @@ export default {
         "water under the bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-14": "本句指「已成過去的事」。",
-        "bridge-mcq-13": "「到時再處理」是「cross that bridge when we come to it」的用法，與本句語境不同。",
-        "bridge-mcq-15": "「鼻樑」是「bridge of the nose」的用法，與本句語境不同。",
-        "bridge-mcq-12": "「斷絕後路」是「burn your bridges」的用法，與本句語境不同。",
-        "bridge-mcq-16": "「牙橋」是「dental bridge」的用法，與本句語境不同。",
-        "bridge-mcq-11": "「建立關係／合作」是「bridge-building」的用法，與本句語境不同。"
+        "bridge-mcq-14": "本句的「water under the bridge」指「已成過去的事」。",
+        "bridge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-14"
     },
@@ -1582,11 +1450,9 @@ export default {
       "masked": "The glasses were resting on the ____.",
       "options": [
         "bridge-mcq-15",
-        "bridge-mcq-14",
-        "bridge-mcq-16",
-        "bridge-mcq-13",
-        "bridge-mcq-17",
-        "bridge-mcq-12"
+        "bridge-mcq-20",
+        "bridge-mcq-23",
+        "bridge-mcq-25"
       ],
       "explanation": "本句的「bridge of his nose」指「鼻樑」。",
       "sentenceIndex": 33,
@@ -1595,12 +1461,10 @@ export default {
         "bridge of his nose"
       ],
       "optionReasons": {
-        "bridge-mcq-15": "本句指「鼻樑」。",
-        "bridge-mcq-14": "「已成過去的事」是「water under the bridge」的用法，與本句語境不同。",
-        "bridge-mcq-16": "「牙橋」是「dental bridge」的用法，與本句語境不同。",
-        "bridge-mcq-13": "「到時再處理」是「cross that bridge when we come to it」的用法，與本句語境不同。",
-        "bridge-mcq-17": "「船橋；駕駛台」是「ship's bridge」的用法，與本句語境不同。",
-        "bridge-mcq-12": "「斷絕後路」是「burn your bridges」的用法，與本句語境不同。"
+        "bridge-mcq-15": "本句的「bridge of his nose」指「鼻樑」。",
+        "bridge-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-15"
     },
@@ -1612,11 +1476,9 @@ export default {
       "masked": "She had a small cut on the ____.",
       "options": [
         "bridge-mcq-15",
-        "bridge-mcq-14",
-        "bridge-mcq-16",
-        "bridge-mcq-13",
-        "bridge-mcq-17",
-        "bridge-mcq-12"
+        "bridge-mcq-07",
+        "bridge-mcq-23",
+        "bridge-mcq-18"
       ],
       "explanation": "本句的「bridge of her nose」指「鼻樑」。",
       "sentenceIndex": 34,
@@ -1625,12 +1487,10 @@ export default {
         "bridge of her nose"
       ],
       "optionReasons": {
-        "bridge-mcq-15": "本句指「鼻樑」。",
-        "bridge-mcq-14": "「已成過去的事」是「water under the bridge」的用法，與本句語境不同。",
-        "bridge-mcq-16": "「牙橋」是「dental bridge」的用法，與本句語境不同。",
-        "bridge-mcq-13": "「到時再處理」是「cross that bridge when we come to it」的用法，與本句語境不同。",
-        "bridge-mcq-17": "「船橋；駕駛台」是「ship's bridge」的用法，與本句語境不同。",
-        "bridge-mcq-12": "「斷絕後路」是「burn your bridges」的用法，與本句語境不同。"
+        "bridge-mcq-15": "本句的「bridge of her nose」指「鼻樑」。",
+        "bridge-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-15"
     },
@@ -1643,10 +1503,8 @@ export default {
       "options": [
         "bridge-mcq-16",
         "bridge-mcq-15",
-        "bridge-mcq-17",
-        "bridge-mcq-14",
-        "bridge-mcq-18",
-        "bridge-mcq-13"
+        "bridge-mcq-12",
+        "bridge-pdf-001"
       ],
       "explanation": "本句的「dental bridge」指「牙橋」。",
       "sentenceIndex": 35,
@@ -1655,12 +1513,10 @@ export default {
         "dental bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-16": "本句指「牙橋」。",
-        "bridge-mcq-15": "「鼻樑」是「bridge of the nose」的用法，與本句語境不同。",
-        "bridge-mcq-17": "「船橋；駕駛台」是「ship's bridge」的用法，與本句語境不同。",
-        "bridge-mcq-14": "「已成過去的事」是「water under the bridge」的用法，與本句語境不同。",
-        "bridge-mcq-18": "「橋段；過渡段」是「bridge (music)」的用法，與本句語境不同。",
-        "bridge-mcq-13": "「到時再處理」是「cross that bridge when we come to it」的用法，與本句語境不同。"
+        "bridge-mcq-16": "本句的「dental bridge」指「牙橋」。",
+        "bridge-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bridge-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-16"
     },
@@ -1672,11 +1528,9 @@ export default {
       "masked": "Her ____ needs to be replaced.",
       "options": [
         "bridge-mcq-16",
-        "bridge-mcq-15",
-        "bridge-mcq-17",
-        "bridge-mcq-14",
-        "bridge-mcq-18",
-        "bridge-mcq-13"
+        "bridge-mcq-12",
+        "bridge-mcq-07",
+        "bridge-mcq-26"
       ],
       "explanation": "本句的「bridge」指「牙橋」。",
       "sentenceIndex": 36,
@@ -1685,12 +1539,10 @@ export default {
         "bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-16": "本句指「牙橋」。",
-        "bridge-mcq-15": "「鼻樑」是「bridge of the nose」的用法，與本句語境不同。",
-        "bridge-mcq-17": "「船橋；駕駛台」是「ship's bridge」的用法，與本句語境不同。",
-        "bridge-mcq-14": "「已成過去的事」是「water under the bridge」的用法，與本句語境不同。",
-        "bridge-mcq-18": "「橋段；過渡段」是「bridge (music)」的用法，與本句語境不同。",
-        "bridge-mcq-13": "「到時再處理」是「cross that bridge when we come to it」的用法，與本句語境不同。"
+        "bridge-mcq-16": "本句的「bridge」指「牙橋」。",
+        "bridge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-16"
     },
@@ -1702,11 +1554,9 @@ export default {
       "masked": "The captain returned to the ____.",
       "options": [
         "bridge-mcq-17",
-        "bridge-mcq-16",
-        "bridge-mcq-18",
-        "bridge-mcq-15",
-        "bridge-mcq-19",
-        "bridge-mcq-14"
+        "bridge-mcq-07",
+        "bridge-mcq-24",
+        "bridge-mcq-13"
       ],
       "explanation": "本句的「bridge」指「船橋；駕駛台」。",
       "sentenceIndex": 37,
@@ -1715,12 +1565,10 @@ export default {
         "bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-17": "本句指「船橋；駕駛台」。",
-        "bridge-mcq-16": "「牙橋」是「dental bridge」的用法，與本句語境不同。",
-        "bridge-mcq-18": "「橋段；過渡段」是「bridge (music)」的用法，與本句語境不同。",
-        "bridge-mcq-15": "「鼻樑」是「bridge of the nose」的用法，與本句語境不同。",
-        "bridge-mcq-19": "「琴橋」是「bridge (instrument)」的用法，與本句語境不同。",
-        "bridge-mcq-14": "「已成過去的事」是「water under the bridge」的用法，與本句語境不同。"
+        "bridge-mcq-17": "本句的「bridge」指「船橋；駕駛台」。",
+        "bridge-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-17"
     },
@@ -1732,11 +1580,9 @@ export default {
       "masked": "Officers on the ____ were monitoring the weather.",
       "options": [
         "bridge-mcq-17",
-        "bridge-mcq-16",
-        "bridge-mcq-18",
         "bridge-mcq-15",
-        "bridge-mcq-19",
-        "bridge-mcq-14"
+        "bridge-pdf-001",
+        "bridge-mcq-11"
       ],
       "explanation": "本句的「bridge」指「船橋；駕駛台」。",
       "sentenceIndex": 38,
@@ -1745,12 +1591,10 @@ export default {
         "bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-17": "本句指「船橋；駕駛台」。",
-        "bridge-mcq-16": "「牙橋」是「dental bridge」的用法，與本句語境不同。",
-        "bridge-mcq-18": "「橋段；過渡段」是「bridge (music)」的用法，與本句語境不同。",
-        "bridge-mcq-15": "「鼻樑」是「bridge of the nose」的用法，與本句語境不同。",
-        "bridge-mcq-19": "「琴橋」是「bridge (instrument)」的用法，與本句語境不同。",
-        "bridge-mcq-14": "「已成過去的事」是「water under the bridge」的用法，與本句語境不同。"
+        "bridge-mcq-17": "本句的「bridge」指「船橋；駕駛台」。",
+        "bridge-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bridge-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-17"
     },
@@ -1762,11 +1606,9 @@ export default {
       "masked": "The song has a beautiful ____ before the final chorus.",
       "options": [
         "bridge-mcq-18",
-        "bridge-mcq-17",
-        "bridge-mcq-19",
-        "bridge-mcq-16",
-        "bridge-mcq-20",
-        "bridge-mcq-15"
+        "bridge-mcq-10",
+        "bridge-mcq-22",
+        "bridge-mcq-13"
       ],
       "explanation": "本句的「bridge」指「橋段；過渡段」。",
       "sentenceIndex": 39,
@@ -1775,12 +1617,10 @@ export default {
         "bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-18": "本句指「橋段；過渡段」。",
-        "bridge-mcq-17": "「船橋；駕駛台」是「ship's bridge」的用法，與本句語境不同。",
-        "bridge-mcq-19": "「琴橋」是「bridge (instrument)」的用法，與本句語境不同。",
-        "bridge-mcq-16": "「牙橋」是「dental bridge」的用法，與本句語境不同。",
-        "bridge-mcq-20": "「橋牌」是「bridge (card game)」的用法，與本句語境不同。",
-        "bridge-mcq-15": "「鼻樑」是「bridge of the nose」的用法，與本句語境不同。"
+        "bridge-mcq-18": "本句的「bridge」指「橋段；過渡段」。",
+        "bridge-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-18"
     },
@@ -1792,10 +1632,8 @@ export default {
       "masked": "The ____ changes the mood of the song.",
       "options": [
         "bridge-mcq-18",
-        "bridge-mcq-17",
-        "bridge-mcq-19",
-        "bridge-mcq-16",
-        "bridge-mcq-20",
+        "bridge-mcq-11",
+        "bridge-mcq-27",
         "bridge-mcq-15"
       ],
       "explanation": "本句的「bridge」指「橋段；過渡段」。",
@@ -1805,12 +1643,10 @@ export default {
         "bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-18": "本句指「橋段；過渡段」。",
-        "bridge-mcq-17": "「船橋；駕駛台」是「ship's bridge」的用法，與本句語境不同。",
-        "bridge-mcq-19": "「琴橋」是「bridge (instrument)」的用法，與本句語境不同。",
-        "bridge-mcq-16": "「牙橋」是「dental bridge」的用法，與本句語境不同。",
-        "bridge-mcq-20": "「橋牌」是「bridge (card game)」的用法，與本句語境不同。",
-        "bridge-mcq-15": "「鼻樑」是「bridge of the nose」的用法，與本句語境不同。"
+        "bridge-mcq-18": "本句的「bridge」指「橋段；過渡段」。",
+        "bridge-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-18"
     },
@@ -1822,10 +1658,8 @@ export default {
       "masked": "The guitar's ____ needs repairing.",
       "options": [
         "bridge-mcq-27",
-        "bridge-mcq-26",
-        "bridge-mcq-25",
+        "bridge-mcq-17",
         "bridge-mcq-24",
-        "bridge-mcq-23",
         "bridge-mcq-22"
       ],
       "explanation": "本句的「bridge」指「弦樂器上支撐琴弦、並把震動傳到琴身的部件」。",
@@ -1835,12 +1669,10 @@ export default {
         "bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-27": "本句指「弦樂器上支撐琴弦、並把震動傳到琴身的部件」。",
-        "bridge-mcq-26": "「暫時填補兩個階段之間的空缺，使過渡順利」是「11. bridge a period / transition — 銜接一段時期；填補過渡期」的用法，與本句語境不同。",
-        "bridge-mcq-25": "「把兩個原本分開或不同的領域、概念或活動連接起來」是「10. bridge two things — 連接兩者；把兩方面結合」的用法，與本句語境不同。",
-        "bridge-mcq-24": "「把兩個原本分開的人、群體、文化或概念連接起來的事物」是「5. bridge（連接兩者的東西） — 橋樑；連繫」的用法，與本句語境不同。",
-        "bridge-mcq-23": "「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」是「1. bridge（橋；橋樑） — 橋；橋樑」的用法，與本句語境不同。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。"
+        "bridge-mcq-27": "本句的「bridge」指「弦樂器上支撐琴弦、並把震動傳到琴身的部件」。",
+        "bridge-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-27"
     },
@@ -1852,11 +1684,9 @@ export default {
       "masked": "The violin strings rest on the ____.",
       "options": [
         "bridge-mcq-27",
-        "bridge-mcq-26",
-        "bridge-mcq-25",
-        "bridge-mcq-24",
-        "bridge-mcq-23",
-        "bridge-mcq-22"
+        "bridge-mcq-10",
+        "bridge-mcq-03",
+        "bridge-pdf-001"
       ],
       "explanation": "本句的「bridge」指「弦樂器上支撐琴弦、並把震動傳到琴身的部件」。",
       "sentenceIndex": 42,
@@ -1865,12 +1695,10 @@ export default {
         "bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-27": "本句指「弦樂器上支撐琴弦、並把震動傳到琴身的部件」。",
-        "bridge-mcq-26": "「暫時填補兩個階段之間的空缺，使過渡順利」是「11. bridge a period / transition — 銜接一段時期；填補過渡期」的用法，與本句語境不同。",
-        "bridge-mcq-25": "「把兩個原本分開或不同的領域、概念或活動連接起來」是「10. bridge two things — 連接兩者；把兩方面結合」的用法，與本句語境不同。",
-        "bridge-mcq-24": "「把兩個原本分開的人、群體、文化或概念連接起來的事物」是「5. bridge（連接兩者的東西） — 橋樑；連繫」的用法，與本句語境不同。",
-        "bridge-mcq-23": "「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」是「1. bridge（橋；橋樑） — 橋；橋樑」的用法，與本句語境不同。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。"
+        "bridge-mcq-27": "本句的「bridge」指「弦樂器上支撐琴弦、並把震動傳到琴身的部件」。",
+        "bridge-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bridge-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-27"
     },
@@ -1882,11 +1710,9 @@ export default {
       "masked": "My grandparents play ____ every Friday.",
       "options": [
         "bridge-mcq-20",
-        "bridge-mcq-19",
-        "bridge-mcq-21",
-        "bridge-mcq-18",
-        "bridge-mcq-22",
-        "bridge-mcq-17"
+        "bridge-pdf-001",
+        "bridge-mcq-27",
+        "bridge-mcq-13"
       ],
       "explanation": "本句的「bridge」指「橋牌」。",
       "sentenceIndex": 43,
@@ -1895,12 +1721,10 @@ export default {
         "bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-20": "本句指「橋牌」。",
-        "bridge-mcq-19": "「琴橋」是「bridge (instrument)」的用法，與本句語境不同。",
-        "bridge-mcq-21": "「過橋貸款」是「bridge/bridging loan」的用法，與本句語境不同。",
-        "bridge-mcq-18": "「橋段；過渡段」是「bridge (music)」的用法，與本句語境不同。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。",
-        "bridge-mcq-17": "「船橋；駕駛台」是「ship's bridge」的用法，與本句語境不同。"
+        "bridge-mcq-20": "本句的「bridge」指「橋牌」。",
+        "bridge-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-20"
     },
@@ -1912,11 +1736,9 @@ export default {
       "masked": "She learned to play ____ at university.",
       "options": [
         "bridge-mcq-20",
-        "bridge-mcq-19",
-        "bridge-mcq-21",
-        "bridge-mcq-18",
-        "bridge-mcq-22",
-        "bridge-mcq-17"
+        "bridge-mcq-11",
+        "bridge-mcq-07",
+        "bridge-mcq-23"
       ],
       "explanation": "本句的「bridge」指「橋牌」。",
       "sentenceIndex": 44,
@@ -1925,12 +1747,10 @@ export default {
         "bridge"
       ],
       "optionReasons": {
-        "bridge-mcq-20": "本句指「橋牌」。",
-        "bridge-mcq-19": "「琴橋」是「bridge (instrument)」的用法，與本句語境不同。",
-        "bridge-mcq-21": "「過橋貸款」是「bridge/bridging loan」的用法，與本句語境不同。",
-        "bridge-mcq-18": "「橋段；過渡段」是「bridge (music)」的用法，與本句語境不同。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。",
-        "bridge-mcq-17": "「船橋；駕駛台」是「ship's bridge」的用法，與本句語境不同。"
+        "bridge-mcq-20": "本句的「bridge」指「橋牌」。",
+        "bridge-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-20"
     },
@@ -1942,11 +1762,9 @@ export default {
       "masked": "They used a ____ while waiting for their old house to be sold.",
       "options": [
         "bridge-mcq-21",
-        "bridge-mcq-20",
         "bridge-mcq-22",
-        "bridge-mcq-19",
-        "bridge-mcq-23",
-        "bridge-mcq-18"
+        "bridge-mcq-07",
+        "bridge-mcq-24"
       ],
       "explanation": "本句的「bridging loan」指「過橋貸款」。",
       "sentenceIndex": 45,
@@ -1955,12 +1773,10 @@ export default {
         "bridging loan"
       ],
       "optionReasons": {
-        "bridge-mcq-21": "本句指「過橋貸款」。",
-        "bridge-mcq-20": "「橋牌」是「bridge (card game)」的用法，與本句語境不同。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。",
-        "bridge-mcq-19": "「琴橋」是「bridge (instrument)」的用法，與本句語境不同。",
-        "bridge-mcq-23": "「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」是「1. bridge（橋；橋樑） — 橋；橋樑」的用法，與本句語境不同。",
-        "bridge-mcq-18": "「橋段；過渡段」是「bridge (music)」的用法，與本句語境不同。"
+        "bridge-mcq-21": "本句的「bridging loan」指「過橋貸款」。",
+        "bridge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-21"
     },
@@ -1972,11 +1788,9 @@ export default {
       "masked": "A ____ can provide short-term financing.",
       "options": [
         "bridge-mcq-21",
-        "bridge-mcq-20",
+        "bridge-mcq-25",
         "bridge-mcq-22",
-        "bridge-mcq-19",
-        "bridge-mcq-23",
-        "bridge-mcq-18"
+        "bridge-mcq-13"
       ],
       "explanation": "本句的「bridge loan」指「過橋貸款」。",
       "sentenceIndex": 46,
@@ -1985,12 +1799,10 @@ export default {
         "bridge loan"
       ],
       "optionReasons": {
-        "bridge-mcq-21": "本句指「過橋貸款」。",
-        "bridge-mcq-20": "「橋牌」是「bridge (card game)」的用法，與本句語境不同。",
-        "bridge-mcq-22": "「銜接課程」是「bridging course」的用法，與本句語境不同。",
-        "bridge-mcq-19": "「琴橋」是「bridge (instrument)」的用法，與本句語境不同。",
-        "bridge-mcq-23": "「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」是「1. bridge（橋；橋樑） — 橋；橋樑」的用法，與本句語境不同。",
-        "bridge-mcq-18": "「橋段；過渡段」是「bridge (music)」的用法，與本句語境不同。"
+        "bridge-mcq-21": "本句的「bridge loan」指「過橋貸款」。",
+        "bridge-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-21"
     },
@@ -2002,11 +1814,9 @@ export default {
       "masked": "She took a ____ before starting university.",
       "options": [
         "bridge-mcq-22",
-        "bridge-mcq-21",
-        "bridge-mcq-23",
-        "bridge-mcq-20",
-        "bridge-mcq-24",
-        "bridge-mcq-19"
+        "bridge-mcq-16",
+        "bridge-mcq-26",
+        "bridge-mcq-07"
       ],
       "explanation": "本句的「bridging course」指「銜接課程」。",
       "sentenceIndex": 47,
@@ -2015,12 +1825,10 @@ export default {
         "bridging course"
       ],
       "optionReasons": {
-        "bridge-mcq-22": "本句指「銜接課程」。",
-        "bridge-mcq-21": "「過橋貸款」是「bridge/bridging loan」的用法，與本句語境不同。",
-        "bridge-mcq-23": "「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」是「1. bridge（橋；橋樑） — 橋；橋樑」的用法，與本句語境不同。",
-        "bridge-mcq-20": "「橋牌」是「bridge (card game)」的用法，與本句語境不同。",
-        "bridge-mcq-24": "「把兩個原本分開的人、群體、文化或概念連接起來的事物」是「5. bridge（連接兩者的東西） — 橋樑；連繫」的用法，與本句語境不同。",
-        "bridge-mcq-19": "「琴橋」是「bridge (instrument)」的用法，與本句語境不同。"
+        "bridge-mcq-22": "本句的「bridging course」指「銜接課程」。",
+        "bridge-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-22"
     },
@@ -2032,11 +1840,9 @@ export default {
       "masked": "The programme helps students ____ between school and university.",
       "options": [
         "bridge-mcq-22",
-        "bridge-mcq-21",
-        "bridge-mcq-23",
-        "bridge-mcq-20",
-        "bridge-mcq-24",
-        "bridge-mcq-19"
+        "bridge-mcq-17",
+        "bridge-mcq-12",
+        "bridge-mcq-14"
       ],
       "explanation": "本句的「bridge the gap」指「銜接課程」。",
       "sentenceIndex": 48,
@@ -2045,12 +1851,10 @@ export default {
         "bridge the gap"
       ],
       "optionReasons": {
-        "bridge-mcq-22": "本句指「銜接課程」。",
-        "bridge-mcq-21": "「過橋貸款」是「bridge/bridging loan」的用法，與本句語境不同。",
-        "bridge-mcq-23": "「橫跨河流、道路、山谷或其他障礙，讓人或車輛通過的結構」是「1. bridge（橋；橋樑） — 橋；橋樑」的用法，與本句語境不同。",
-        "bridge-mcq-20": "「橋牌」是「bridge (card game)」的用法，與本句語境不同。",
-        "bridge-mcq-24": "「把兩個原本分開的人、群體、文化或概念連接起來的事物」是「5. bridge（連接兩者的東西） — 橋樑；連繫」的用法，與本句語境不同。",
-        "bridge-mcq-19": "「琴橋」是「bridge (instrument)」的用法，與本句語境不同。"
+        "bridge-mcq-22": "本句的「bridge the gap」指「銜接課程」。",
+        "bridge-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bridge-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bridge-mcq-22"
     }
@@ -2062,5 +1866,7 @@ export default {
     "sha256": "3deaf4824d919716d24fbe4595c0bd6886a2809983062444c22da1eac6896f92",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

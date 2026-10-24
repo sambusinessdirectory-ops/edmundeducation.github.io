@@ -572,16 +572,6 @@ export default {
           "延誤／搶劫"
         ],
         [
-          "The old bridge has held up well.",
-          "這座舊橋一直保持得很好。",
-          "延誤／搶劫"
-        ],
-        [
-          "His argument doesn't hold up under close examination.",
-          "他的論點經不起仔細檢視，站不住腳。",
-          "延誤／搶劫"
-        ],
-        [
           "Two men held up the store.",
           "兩名男子搶劫了店舖。",
           "延誤／搶劫"
@@ -1019,6 +1009,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "hold-reviewed-eaa1f328b0",
+      "title": "在時間、壓力或檢驗下仍保持有效、完整或可信",
+      "form": "hold · source section 36",
+      "en": "在時間、壓力或檢驗下仍保持有效、完整或可信",
+      "zh": "在時間、壓力或檢驗下仍保持有效、完整或可信",
+      "note": "對照原始教材第 36 節及例句核實。",
+      "examples": [
+        [
+          "The old bridge has held up well.",
+          "這座舊橋一直保持得很好。",
+          "在時間、壓力或檢驗下仍保持有效、完整或可信"
+        ],
+        [
+          "His argument doesn't hold up under close examination.",
+          "他的論點經不起仔細檢視，站不住腳。",
+          "在時間、壓力或檢驗下仍保持有效、完整或可信"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1030,10 +1042,8 @@ export default {
       "masked": "She was ____ in her hand.",
       "options": [
         "hold-mcq-33",
-        "hold-mcq-32",
-        "hold-mcq-34",
-        "hold-mcq-31",
-        "hold-mcq-30",
+        "hold-mcq-21",
+        "hold-mcq-06",
         "hold-mcq-29"
       ],
       "explanation": "本句的「holding a cup」指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
@@ -1043,12 +1053,10 @@ export default {
         "holding a cup"
       ],
       "optionReasons": {
-        "hold-mcq-33": "本句指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-34": "「用手使門保持開着或處於某個位置」是「3. hold the door — 扶着門；替人開門」的用法，與本句語境不同。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。"
+        "hold-mcq-33": "本句的「holding a cup」指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
+        "hold-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-33"
     },
@@ -1060,11 +1068,9 @@ export default {
       "masked": "Please ____ for me.",
       "options": [
         "hold-mcq-33",
-        "hold-mcq-32",
-        "hold-mcq-34",
-        "hold-mcq-31",
         "hold-mcq-30",
-        "hold-mcq-29"
+        "hold-pdf-001",
+        "hold-mcq-16"
       ],
       "explanation": "本句的「hold this bag」指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
       "sentenceIndex": 1,
@@ -1073,12 +1079,10 @@ export default {
         "hold this bag"
       ],
       "optionReasons": {
-        "hold-mcq-33": "本句指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-34": "「用手使門保持開着或處於某個位置」是「3. hold the door — 扶着門；替人開門」的用法，與本句語境不同。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。"
+        "hold-mcq-33": "本句的「hold this bag」指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-33"
     },
@@ -1090,11 +1094,9 @@ export default {
       "masked": "He ____ tightly.",
       "options": [
         "hold-mcq-33",
-        "hold-mcq-32",
-        "hold-mcq-34",
-        "hold-mcq-31",
-        "hold-mcq-30",
-        "hold-mcq-29"
+        "hold-mcq-23",
+        "hold-mcq-21",
+        "hold-mcq-06"
       ],
       "explanation": "本句的「held the rope」指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
       "sentenceIndex": 2,
@@ -1103,12 +1105,10 @@ export default {
         "held the rope"
       ],
       "optionReasons": {
-        "hold-mcq-33": "本句指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-34": "「用手使門保持開着或處於某個位置」是「3. hold the door — 扶着門；替人開門」的用法，與本句語境不同。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。"
+        "hold-mcq-33": "本句的「held the rope」指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-33"
     },
@@ -1120,11 +1120,9 @@ export default {
       "masked": "The child ____.",
       "options": [
         "hold-mcq-02",
-        "hold-mcq-01",
-        "hold-mcq-03",
-        "hold-mcq-04",
-        "hold-mcq-05",
-        "hold-mcq-06"
+        "hold-mcq-23",
+        "hold-reviewed-eaa1f328b0",
+        "hold-mcq-20"
       ],
       "explanation": "本句的「held his mother's hand」指「握住某人的手」。",
       "sentenceIndex": 3,
@@ -1133,12 +1131,10 @@ export default {
         "held his mother's hand"
       ],
       "optionReasons": {
-        "hold-mcq-02": "本句指「握住某人的手」。",
-        "hold-mcq-01": "「拿住；握住」是「hold (physical)」的用法，與本句語境不同。",
-        "hold-mcq-03": "「固定」是「hold in place」的用法，與本句語境不同。",
-        "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。"
+        "hold-mcq-02": "本句的「held his mother's hand」指「握住某人的手」。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hold-reviewed-eaa1f328b0": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-02"
     },
@@ -1150,11 +1146,9 @@ export default {
       "masked": "She ____ while we waited.",
       "options": [
         "hold-mcq-02",
-        "hold-mcq-01",
-        "hold-mcq-03",
-        "hold-mcq-04",
-        "hold-mcq-05",
-        "hold-mcq-06"
+        "hold-mcq-22",
+        "hold-mcq-07",
+        "hold-mcq-11"
       ],
       "explanation": "本句的「held my hand」指「握住某人的手」。",
       "sentenceIndex": 4,
@@ -1163,12 +1157,10 @@ export default {
         "held my hand"
       ],
       "optionReasons": {
-        "hold-mcq-02": "本句指「握住某人的手」。",
-        "hold-mcq-01": "「拿住；握住」是「hold (physical)」的用法，與本句語境不同。",
-        "hold-mcq-03": "「固定」是「hold in place」的用法，與本句語境不同。",
-        "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。"
+        "hold-mcq-02": "本句的「held my hand」指「握住某人的手」。",
+        "hold-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-02"
     },
@@ -1180,11 +1172,9 @@ export default {
       "masked": "Could you ____ for me?",
       "options": [
         "hold-mcq-34",
-        "hold-mcq-33",
-        "hold-mcq-32",
-        "hold-mcq-31",
-        "hold-mcq-30",
-        "hold-mcq-29"
+        "hold-mcq-14",
+        "hold-mcq-19",
+        "hold-mcq-06"
       ],
       "explanation": "本句的「hold the door」指「用手使門保持開着或處於某個位置」。",
       "sentenceIndex": 5,
@@ -1193,12 +1183,10 @@ export default {
         "hold the door"
       ],
       "optionReasons": {
-        "hold-mcq-34": "本句指「用手使門保持開着或處於某個位置」。",
-        "hold-mcq-33": "「用手、手臂或其他方式把某物拿住或保持不掉下來」是「1. hold（拿住；握住） — 拿着；握住」的用法，與本句語境不同。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。"
+        "hold-mcq-34": "本句的「hold the door」指「用手使門保持開着或處於某個位置」。",
+        "hold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-34"
     },
@@ -1210,11 +1198,9 @@ export default {
       "masked": "He ____ for the woman behind him.",
       "options": [
         "hold-mcq-34",
-        "hold-mcq-33",
-        "hold-mcq-32",
-        "hold-mcq-31",
         "hold-mcq-30",
-        "hold-mcq-29"
+        "hold-mcq-16",
+        "hold-mcq-23"
       ],
       "explanation": "本句的「held the door open」指「用手使門保持開着或處於某個位置」。",
       "sentenceIndex": 6,
@@ -1223,12 +1209,10 @@ export default {
         "held the door open"
       ],
       "optionReasons": {
-        "hold-mcq-34": "本句指「用手使門保持開着或處於某個位置」。",
-        "hold-mcq-33": "「用手、手臂或其他方式把某物拿住或保持不掉下來」是「1. hold（拿住；握住） — 拿着；握住」的用法，與本句語境不同。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。"
+        "hold-mcq-34": "本句的「held the door open」指「用手使門保持開着或處於某個位置」。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-34"
     },
@@ -1240,11 +1224,9 @@ export default {
       "masked": "The screws ____.",
       "options": [
         "hold-mcq-03",
-        "hold-mcq-02",
-        "hold-mcq-04",
-        "hold-mcq-01",
-        "hold-mcq-05",
-        "hold-mcq-06"
+        "hold-mcq-23",
+        "hold-mcq-32",
+        "hold-mcq-14"
       ],
       "explanation": "本句的「hold the shelf in place」指「固定」。",
       "sentenceIndex": 7,
@@ -1253,12 +1235,10 @@ export default {
         "hold the shelf in place"
       ],
       "optionReasons": {
-        "hold-mcq-03": "本句指「固定」。",
-        "hold-mcq-02": "「握住某人的手」是「hold someone's hand」的用法，與本句語境不同。",
-        "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。",
-        "hold-mcq-01": "「拿住；握住」是「hold (physical)」的用法，與本句語境不同。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。"
+        "hold-mcq-03": "本句的「hold the shelf in place」指「固定」。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-03"
     },
@@ -1270,11 +1250,9 @@ export default {
       "masked": "Use tape to ____.",
       "options": [
         "hold-mcq-03",
-        "hold-mcq-02",
-        "hold-mcq-04",
-        "hold-mcq-01",
-        "hold-mcq-05",
-        "hold-mcq-06"
+        "hold-mcq-17",
+        "hold-mcq-23",
+        "hold-mcq-30"
       ],
       "explanation": "本句的「hold the paper in place」指「固定」。",
       "sentenceIndex": 8,
@@ -1283,12 +1261,10 @@ export default {
         "hold the paper in place"
       ],
       "optionReasons": {
-        "hold-mcq-03": "本句指「固定」。",
-        "hold-mcq-02": "「握住某人的手」是「hold someone's hand」的用法，與本句語境不同。",
-        "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。",
-        "hold-mcq-01": "「拿住；握住」是「hold (physical)」的用法，與本句語境不同。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。"
+        "hold-mcq-03": "本句的「hold the paper in place」指「固定」。",
+        "hold-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-03"
     },
@@ -1300,11 +1276,9 @@ export default {
       "masked": "____ for a moment.",
       "options": [
         "hold-mcq-33",
-        "hold-mcq-32",
-        "hold-mcq-34",
-        "hold-mcq-31",
         "hold-mcq-30",
-        "hold-mcq-29"
+        "hold-mcq-19",
+        "hold-mcq-14"
       ],
       "explanation": "本句的「Hold still」指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
       "sentenceIndex": 9,
@@ -1313,12 +1287,10 @@ export default {
         "Hold still"
       ],
       "optionReasons": {
-        "hold-mcq-33": "本句指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-34": "「用手使門保持開着或處於某個位置」是「3. hold the door — 扶着門；替人開門」的用法，與本句語境不同。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。"
+        "hold-mcq-33": "本句的「Hold still」指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-33"
     },
@@ -1330,11 +1302,9 @@ export default {
       "masked": "The temperature ____ overnight.",
       "options": [
         "hold-mcq-33",
-        "hold-mcq-32",
-        "hold-mcq-34",
-        "hold-mcq-31",
-        "hold-mcq-30",
-        "hold-mcq-29"
+        "hold-mcq-23",
+        "hold-pdf-001",
+        "hold-mcq-24"
       ],
       "explanation": "本句的「held steady」指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
       "sentenceIndex": 10,
@@ -1343,12 +1313,10 @@ export default {
         "held steady"
       ],
       "optionReasons": {
-        "hold-mcq-33": "本句指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-34": "「用手使門保持開着或處於某個位置」是「3. hold the door — 扶着門；替人開門」的用法，與本句語境不同。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。"
+        "hold-mcq-33": "本句的「held steady」指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-33"
     },
@@ -1360,11 +1328,9 @@ export default {
       "masked": "Prices ____ this month.",
       "options": [
         "hold-mcq-04",
-        "hold-mcq-03",
-        "hold-mcq-05",
-        "hold-mcq-02",
-        "hold-mcq-06",
-        "hold-mcq-01"
+        "hold-mcq-24",
+        "hold-mcq-29",
+        "hold-mcq-16"
       ],
       "explanation": "本句的「held steady」指「保持穩定」。",
       "sentenceIndex": 11,
@@ -1373,12 +1339,10 @@ export default {
         "held steady"
       ],
       "optionReasons": {
-        "hold-mcq-04": "本句指「保持穩定」。",
-        "hold-mcq-03": "「固定」是「hold in place」的用法，與本句語境不同。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。",
-        "hold-mcq-02": "「握住某人的手」是「hold someone's hand」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
-        "hold-mcq-01": "「拿住；握住」是「hold (physical)」的用法，與本句語境不同。"
+        "hold-mcq-04": "本句的「held steady」指「保持穩定」。",
+        "hold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-04"
     },
@@ -1390,11 +1354,9 @@ export default {
       "masked": "____.",
       "options": [
         "hold-mcq-04",
-        "hold-mcq-03",
-        "hold-mcq-05",
         "hold-mcq-02",
-        "hold-mcq-06",
-        "hold-mcq-01"
+        "hold-mcq-23",
+        "hold-pdf-001"
       ],
       "explanation": "本句的「Hold the camera steady」指「保持穩定」。",
       "sentenceIndex": 12,
@@ -1403,12 +1365,10 @@ export default {
         "Hold the camera steady"
       ],
       "optionReasons": {
-        "hold-mcq-04": "本句指「保持穩定」。",
-        "hold-mcq-03": "「固定」是「hold in place」的用法，與本句語境不同。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。",
-        "hold-mcq-02": "「握住某人的手」是「hold someone's hand」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
-        "hold-mcq-01": "「拿住；握住」是「hold (physical)」的用法，與本句語境不同。"
+        "hold-mcq-04": "本句的「Hold the camera steady」指「保持穩定」。",
+        "hold-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-04"
     },
@@ -1420,11 +1380,9 @@ export default {
       "masked": "The hall can ____.",
       "options": [
         "hold-mcq-05",
-        "hold-mcq-04",
-        "hold-mcq-06",
-        "hold-mcq-03",
-        "hold-mcq-07",
-        "hold-mcq-02"
+        "hold-mcq-24",
+        "hold-mcq-19",
+        "hold-mcq-10"
       ],
       "explanation": "本句的「hold 500 people」指「容納 500 人」。",
       "sentenceIndex": 13,
@@ -1433,12 +1391,10 @@ export default {
         "hold 500 people"
       ],
       "optionReasons": {
-        "hold-mcq-05": "本句指「容納 500 人」。",
-        "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
-        "hold-mcq-03": "「固定」是「hold in place」的用法，與本句語境不同。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
-        "hold-mcq-02": "「握住某人的手」是「hold someone's hand」的用法，與本句語境不同。"
+        "hold-mcq-05": "本句的「hold 500 people」指「容納 500 人」。",
+        "hold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-05"
     },
@@ -1450,11 +1406,9 @@ export default {
       "masked": "This bottle ____.",
       "options": [
         "hold-mcq-05",
-        "hold-mcq-04",
-        "hold-mcq-06",
-        "hold-mcq-03",
+        "hold-mcq-28",
         "hold-mcq-07",
-        "hold-mcq-02"
+        "hold-mcq-11"
       ],
       "explanation": "本句的「holds two litres」指「容納 500 人」。",
       "sentenceIndex": 14,
@@ -1463,12 +1417,10 @@ export default {
         "holds two litres"
       ],
       "optionReasons": {
-        "hold-mcq-05": "本句指「容納 500 人」。",
-        "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
-        "hold-mcq-03": "「固定」是「hold in place」的用法，與本句語境不同。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
-        "hold-mcq-02": "「握住某人的手」是「hold someone's hand」的用法，與本句語境不同。"
+        "hold-mcq-05": "本句的「holds two litres」指「容納 500 人」。",
+        "hold-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-05"
     },
@@ -1481,10 +1433,8 @@ export default {
       "options": [
         "hold-pdf-001",
         "hold-mcq-04",
-        "hold-mcq-06",
-        "hold-mcq-03",
-        "hold-mcq-07",
-        "hold-mcq-02"
+        "hold-mcq-32",
+        "hold-mcq-07"
       ],
       "explanation": "本句的「hold five litres of water」指「能夠盛載液體而不漏出」。",
       "sentenceIndex": 15,
@@ -1493,12 +1443,10 @@ export default {
         "hold five litres of water"
       ],
       "optionReasons": {
-        "hold-pdf-001": "本句指「能夠盛載液體而不漏出」。",
-        "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
-        "hold-mcq-03": "「固定」是「hold in place」的用法，與本句語境不同。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
-        "hold-mcq-02": "「握住某人的手」是「hold someone's hand」的用法，與本句語境不同。"
+        "hold-pdf-001": "本句的「hold five litres of water」指「能夠盛載液體而不漏出」。",
+        "hold-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-pdf-001"
     },
@@ -1510,11 +1458,9 @@ export default {
       "masked": "The cup won't ____ because it is cracked.",
       "options": [
         "hold-pdf-001",
-        "hold-mcq-04",
-        "hold-mcq-06",
-        "hold-mcq-03",
         "hold-mcq-07",
-        "hold-mcq-02"
+        "hold-mcq-14",
+        "hold-mcq-15"
       ],
       "explanation": "本句的「hold water」指「能夠盛載液體而不漏出」。",
       "sentenceIndex": 16,
@@ -1523,12 +1469,10 @@ export default {
         "hold water"
       ],
       "optionReasons": {
-        "hold-pdf-001": "本句指「能夠盛載液體而不漏出」。",
-        "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
-        "hold-mcq-03": "「固定」是「hold in place」的用法，與本句語境不同。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
-        "hold-mcq-02": "「握住某人的手」是「hold someone's hand」的用法，與本句語境不同。"
+        "hold-pdf-001": "本句的「hold water」指「能夠盛載液體而不漏出」。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-pdf-001"
     },
@@ -1540,11 +1484,9 @@ export default {
       "masked": "We ____ yesterday.",
       "options": [
         "hold-mcq-06",
-        "hold-mcq-05",
-        "hold-mcq-07",
-        "hold-mcq-04",
-        "hold-mcq-08",
-        "hold-mcq-03"
+        "hold-mcq-09",
+        "hold-mcq-29",
+        "hold-mcq-05"
       ],
       "explanation": "本句的「held a meeting」指「舉行會議」。",
       "sentenceIndex": 17,
@@ -1553,12 +1495,10 @@ export default {
         "held a meeting"
       ],
       "optionReasons": {
-        "hold-mcq-06": "本句指「舉行會議」。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
-        "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。",
-        "hold-mcq-08": "「持有護照」是「hold a passport」的用法，與本句語境不同。",
-        "hold-mcq-03": "「固定」是「hold in place」的用法，與本句語境不同。"
+        "hold-mcq-06": "本句的「held a meeting」指「舉行會議」。",
+        "hold-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-06"
     },
@@ -1570,11 +1510,9 @@ export default {
       "masked": "The university will ____ next week.",
       "options": [
         "hold-mcq-06",
-        "hold-mcq-05",
-        "hold-mcq-07",
-        "hold-mcq-04",
-        "hold-mcq-08",
-        "hold-mcq-03"
+        "hold-mcq-20",
+        "hold-mcq-32",
+        "hold-mcq-14"
       ],
       "explanation": "本句的「hold a ceremony」指「舉行會議」。",
       "sentenceIndex": 18,
@@ -1583,12 +1521,10 @@ export default {
         "hold a ceremony"
       ],
       "optionReasons": {
-        "hold-mcq-06": "本句指「舉行會議」。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
-        "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。",
-        "hold-mcq-08": "「持有護照」是「hold a passport」的用法，與本句語境不同。",
-        "hold-mcq-03": "「固定」是「hold in place」的用法，與本句語境不同。"
+        "hold-mcq-06": "本句的「hold a ceremony」指「舉行會議」。",
+        "hold-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-06"
     },
@@ -1600,11 +1536,9 @@ export default {
       "masked": "The team ____ to discuss the problem.",
       "options": [
         "hold-mcq-06",
-        "hold-mcq-05",
-        "hold-mcq-07",
-        "hold-mcq-04",
-        "hold-mcq-08",
-        "hold-mcq-03"
+        "hold-mcq-27",
+        "hold-pdf-002",
+        "hold-mcq-23"
       ],
       "explanation": "本句的「held a meeting」指「舉行會議」。",
       "sentenceIndex": 19,
@@ -1613,12 +1547,10 @@ export default {
         "held a meeting"
       ],
       "optionReasons": {
-        "hold-mcq-06": "本句指「舉行會議」。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
-        "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。",
-        "hold-mcq-08": "「持有護照」是「hold a passport」的用法，與本句語境不同。",
-        "hold-mcq-03": "「固定」是「hold in place」的用法，與本句語境不同。"
+        "hold-mcq-06": "本句的「held a meeting」指「舉行會議」。",
+        "hold-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-06"
     },
@@ -1630,11 +1562,9 @@ export default {
       "masked": "The organization ____ in June.",
       "options": [
         "hold-mcq-06",
-        "hold-mcq-05",
-        "hold-mcq-07",
-        "hold-mcq-04",
-        "hold-mcq-08",
-        "hold-mcq-03"
+        "hold-mcq-34",
+        "hold-mcq-28",
+        "hold-mcq-15"
       ],
       "explanation": "本句的「held a conference」指「舉行會議」。",
       "sentenceIndex": 20,
@@ -1643,12 +1573,10 @@ export default {
         "held a conference"
       ],
       "optionReasons": {
-        "hold-mcq-06": "本句指「舉行會議」。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
-        "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。",
-        "hold-mcq-08": "「持有護照」是「hold a passport」的用法，與本句語境不同。",
-        "hold-mcq-03": "「固定」是「hold in place」的用法，與本句語境不同。"
+        "hold-mcq-06": "本句的「held a conference」指「舉行會議」。",
+        "hold-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-06"
     },
@@ -1660,11 +1588,9 @@ export default {
       "masked": "The school ____.",
       "options": [
         "hold-mcq-07",
-        "hold-mcq-06",
-        "hold-mcq-08",
-        "hold-mcq-05",
-        "hold-mcq-09",
-        "hold-mcq-04"
+        "hold-mcq-31",
+        "hold-pdf-001",
+        "hold-mcq-03"
       ],
       "explanation": "本句的「held a sports day」指「舉辦活動」。",
       "sentenceIndex": 21,
@@ -1673,12 +1599,10 @@ export default {
         "held a sports day"
       ],
       "optionReasons": {
-        "hold-mcq-07": "本句指「舉辦活動」。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
-        "hold-mcq-08": "「持有護照」是「hold a passport」的用法，與本句語境不同。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。",
-        "hold-mcq-09": "「持股」是「hold shares」的用法，與本句語境不同。",
-        "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。"
+        "hold-mcq-07": "本句的「held a sports day」指「舉辦活動」。",
+        "hold-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-07"
     },
@@ -1690,11 +1614,9 @@ export default {
       "masked": "The competition will be ____ in London.",
       "options": [
         "hold-mcq-07",
-        "hold-mcq-06",
-        "hold-mcq-08",
-        "hold-mcq-05",
-        "hold-mcq-09",
-        "hold-mcq-04"
+        "hold-mcq-17",
+        "hold-mcq-27",
+        "hold-mcq-32"
       ],
       "explanation": "本句的「held」指「舉辦活動」。",
       "sentenceIndex": 22,
@@ -1703,12 +1625,10 @@ export default {
         "held"
       ],
       "optionReasons": {
-        "hold-mcq-07": "本句指「舉辦活動」。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
-        "hold-mcq-08": "「持有護照」是「hold a passport」的用法，與本句語境不同。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。",
-        "hold-mcq-09": "「持股」是「hold shares」的用法，與本句語境不同。",
-        "hold-mcq-04": "「保持穩定」是「hold steady」的用法，與本句語境不同。"
+        "hold-mcq-07": "本句的「held」指「舉辦活動」。",
+        "hold-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-07"
     },
@@ -1720,11 +1640,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "hold-pdf-002",
-        "hold-mcq-07",
-        "hold-mcq-09",
-        "hold-mcq-06",
-        "hold-mcq-10",
-        "hold-mcq-05"
+        "hold-mcq-29",
+        "hold-mcq-19",
+        "hold-mcq-30"
       ],
       "explanation": "本句的「holds a valid passport」指「正式擁有或持有某項權利、文件、資產或資格」。",
       "sentenceIndex": 23,
@@ -1733,12 +1651,10 @@ export default {
         "holds a valid passport"
       ],
       "optionReasons": {
-        "hold-pdf-002": "本句指「正式擁有或持有某項權利、文件、資產或資格」。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
-        "hold-mcq-09": "「持股」是「hold shares」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
-        "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。"
+        "hold-pdf-002": "本句的「holds a valid passport」指「正式擁有或持有某項權利、文件、資產或資格」。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-pdf-002"
     },
@@ -1750,11 +1666,9 @@ export default {
       "masked": "He ____ in the company.",
       "options": [
         "hold-pdf-002",
-        "hold-mcq-07",
-        "hold-mcq-09",
-        "hold-mcq-06",
-        "hold-mcq-10",
-        "hold-mcq-05"
+        "hold-mcq-21",
+        "hold-mcq-27",
+        "hold-mcq-06"
       ],
       "explanation": "本句的「holds shares」指「正式擁有或持有某項權利、文件、資產或資格」。",
       "sentenceIndex": 24,
@@ -1763,12 +1677,10 @@ export default {
         "holds shares"
       ],
       "optionReasons": {
-        "hold-pdf-002": "本句指「正式擁有或持有某項權利、文件、資產或資格」。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
-        "hold-mcq-09": "「持股」是「hold shares」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
-        "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。"
+        "hold-pdf-002": "本句的「holds shares」指「正式擁有或持有某項權利、文件、資產或資格」。",
+        "hold-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-pdf-002"
     },
@@ -1780,10 +1692,8 @@ export default {
       "masked": "Applicants must ____.",
       "options": [
         "hold-mcq-08",
-        "hold-mcq-07",
-        "hold-mcq-09",
-        "hold-mcq-06",
-        "hold-mcq-10",
+        "hold-mcq-24",
+        "hold-mcq-28",
         "hold-mcq-05"
       ],
       "explanation": "本句的「hold a valid licence」指「持有護照」。",
@@ -1793,12 +1703,10 @@ export default {
         "hold a valid licence"
       ],
       "optionReasons": {
-        "hold-mcq-08": "本句指「持有護照」。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
-        "hold-mcq-09": "「持股」是「hold shares」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
-        "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。"
+        "hold-mcq-08": "本句的「hold a valid licence」指「持有護照」。",
+        "hold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-08"
     },
@@ -1810,11 +1718,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "hold-mcq-08",
-        "hold-mcq-07",
-        "hold-mcq-09",
-        "hold-mcq-06",
-        "hold-mcq-10",
-        "hold-mcq-05"
+        "hold-mcq-22",
+        "hold-mcq-14",
+        "hold-mcq-18"
       ],
       "explanation": "本句的「holds several professional certificates」指「持有護照」。",
       "sentenceIndex": 26,
@@ -1823,12 +1729,10 @@ export default {
         "holds several professional certificates"
       ],
       "optionReasons": {
-        "hold-mcq-08": "本句指「持有護照」。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
-        "hold-mcq-09": "「持股」是「hold shares」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。",
-        "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。",
-        "hold-mcq-05": "「容納 500 人」是「hold 500 people」的用法，與本句語境不同。"
+        "hold-mcq-08": "本句的「holds several professional certificates」指「持有護照」。",
+        "hold-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-08"
     },
@@ -1840,11 +1744,9 @@ export default {
       "masked": "The fund ____ in several companies.",
       "options": [
         "hold-mcq-09",
-        "hold-mcq-08",
         "hold-mcq-10",
-        "hold-mcq-07",
-        "hold-mcq-11",
-        "hold-mcq-06"
+        "hold-mcq-26",
+        "hold-mcq-14"
       ],
       "explanation": "本句的「holds shares」指「持股」。",
       "sentenceIndex": 27,
@@ -1853,12 +1755,10 @@ export default {
         "holds shares"
       ],
       "optionReasons": {
-        "hold-mcq-09": "本句指「持股」。",
-        "hold-mcq-08": "「持有護照」是「hold a passport」的用法，與本句語境不同。",
-        "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。"
+        "hold-mcq-09": "本句的「holds shares」指「持股」。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-09"
     },
@@ -1870,10 +1770,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "hold-mcq-09",
-        "hold-mcq-08",
-        "hold-mcq-10",
-        "hold-mcq-07",
-        "hold-mcq-11",
+        "hold-mcq-22",
+        "hold-mcq-28",
         "hold-mcq-06"
       ],
       "explanation": "本句的「holds 20% of the stock」指「持股」。",
@@ -1883,12 +1781,10 @@ export default {
         "holds 20% of the stock"
       ],
       "optionReasons": {
-        "hold-mcq-09": "本句指「持股」。",
-        "hold-mcq-08": "「持有護照」是「hold a passport」的用法，與本句語境不同。",
-        "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。",
-        "hold-mcq-06": "「舉行會議」是「hold a meeting」的用法，與本句語境不同。"
+        "hold-mcq-09": "本句的「holds 20% of the stock」指「持股」。",
+        "hold-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-09"
     },
@@ -1900,10 +1796,8 @@ export default {
       "masked": "She ____ in the company.",
       "options": [
         "hold-mcq-10",
-        "hold-mcq-09",
-        "hold-mcq-11",
-        "hold-mcq-08",
-        "hold-mcq-12",
+        "hold-mcq-32",
+        "hold-mcq-03",
         "hold-mcq-07"
       ],
       "explanation": "本句的「holds a senior position」指「擔任職位」。",
@@ -1913,12 +1807,10 @@ export default {
         "holds a senior position"
       ],
       "optionReasons": {
-        "hold-mcq-10": "本句指「擔任職位」。",
-        "hold-mcq-09": "「持股」是「hold shares」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。",
-        "hold-mcq-08": "「持有護照」是「hold a passport」的用法，與本句語境不同。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。"
+        "hold-mcq-10": "本句的「holds a senior position」指「擔任職位」。",
+        "hold-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-10"
     },
@@ -1930,11 +1822,9 @@ export default {
       "masked": "He ____ for four years.",
       "options": [
         "hold-mcq-10",
-        "hold-mcq-09",
-        "hold-mcq-11",
-        "hold-mcq-08",
-        "hold-mcq-12",
-        "hold-mcq-07"
+        "hold-pdf-004",
+        "hold-mcq-03",
+        "hold-pdf-003"
       ],
       "explanation": "本句的「held office」指「擔任職位」。",
       "sentenceIndex": 30,
@@ -1943,12 +1833,10 @@ export default {
         "held office"
       ],
       "optionReasons": {
-        "hold-mcq-10": "本句指「擔任職位」。",
-        "hold-mcq-09": "「持股」是「hold shares」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。",
-        "hold-mcq-08": "「持有護照」是「hold a passport」的用法，與本句語境不同。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-07": "「舉辦活動」是「hold an event」的用法，與本句語境不同。"
+        "hold-mcq-10": "本句的「held office」指「擔任職位」。",
+        "hold-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-10"
     },
@@ -1960,11 +1848,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "hold-mcq-11",
+        "hold-mcq-23",
         "hold-mcq-10",
-        "hold-mcq-12",
-        "hold-mcq-09",
-        "hold-mcq-13",
-        "hold-mcq-08"
+        "hold-mcq-14"
       ],
       "explanation": "本句的「holds the world record」指「保持紀錄」。",
       "sentenceIndex": 31,
@@ -1973,12 +1859,10 @@ export default {
         "holds the world record"
       ],
       "optionReasons": {
-        "hold-mcq-11": "本句指「保持紀錄」。",
-        "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-09": "「持股」是「hold shares」的用法，與本句語境不同。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。",
-        "hold-mcq-08": "「持有護照」是「hold a passport」的用法，與本句語境不同。"
+        "hold-mcq-11": "本句的「holds the world record」指「保持紀錄」。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-11"
     },
@@ -1990,11 +1874,9 @@ export default {
       "masked": "The stadium ____.",
       "options": [
         "hold-mcq-11",
-        "hold-mcq-10",
-        "hold-mcq-12",
-        "hold-mcq-09",
-        "hold-mcq-13",
-        "hold-mcq-08"
+        "hold-mcq-16",
+        "hold-mcq-07",
+        "hold-mcq-30"
       ],
       "explanation": "本句的「holds the attendance record」指「保持紀錄」。",
       "sentenceIndex": 32,
@@ -2003,12 +1885,10 @@ export default {
         "holds the attendance record"
       ],
       "optionReasons": {
-        "hold-mcq-11": "本句指「保持紀錄」。",
-        "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-09": "「持股」是「hold shares」的用法，與本句語境不同。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。",
-        "hold-mcq-08": "「持有護照」是「hold a passport」的用法，與本句語境不同。"
+        "hold-mcq-11": "本句的「holds the attendance record」指「保持紀錄」。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-11"
     },
@@ -2020,11 +1900,9 @@ export default {
       "masked": "He ____ on education.",
       "options": [
         "hold-mcq-12",
-        "hold-mcq-11",
-        "hold-mcq-13",
-        "hold-mcq-10",
-        "hold-mcq-14",
-        "hold-mcq-09"
+        "hold-mcq-29",
+        "hold-pdf-001",
+        "hold-mcq-07"
       ],
       "explanation": "本句的「holds strong views」指「持有信念」。",
       "sentenceIndex": 33,
@@ -2033,12 +1911,10 @@ export default {
         "holds strong views"
       ],
       "optionReasons": {
-        "hold-mcq-12": "本句指「持有信念」。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。",
-        "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。",
-        "hold-mcq-09": "「持股」是「hold shares」的用法，與本句語境不同。"
+        "hold-mcq-12": "本句的「holds strong views」指「持有信念」。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-12"
     },
@@ -2050,11 +1926,9 @@ export default {
       "masked": "Many people ____ that practice matters.",
       "options": [
         "hold-mcq-12",
-        "hold-mcq-11",
-        "hold-mcq-13",
-        "hold-mcq-10",
-        "hold-mcq-14",
-        "hold-mcq-09"
+        "hold-mcq-26",
+        "hold-mcq-25",
+        "hold-pdf-004"
       ],
       "explanation": "本句的「hold the belief」指「持有信念」。",
       "sentenceIndex": 34,
@@ -2063,12 +1937,10 @@ export default {
         "hold the belief"
       ],
       "optionReasons": {
-        "hold-mcq-12": "本句指「持有信念」。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。",
-        "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。",
-        "hold-mcq-09": "「持股」是「hold shares」的用法，與本句語境不同。"
+        "hold-mcq-12": "本句的「hold the belief」指「持有信念」。",
+        "hold-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-12"
     },
@@ -2080,10 +1952,8 @@ export default {
       "masked": "The story ____ from beginning to end.",
       "options": [
         "hold-mcq-13",
-        "hold-mcq-12",
-        "hold-mcq-14",
-        "hold-mcq-11",
-        "hold-mcq-15",
+        "hold-mcq-24",
+        "hold-mcq-16",
         "hold-mcq-10"
       ],
       "explanation": "本句的「held my attention」指「維持注意力」。",
@@ -2093,12 +1963,10 @@ export default {
         "held my attention"
       ],
       "optionReasons": {
-        "hold-mcq-13": "本句指「維持注意力」。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。"
+        "hold-mcq-13": "本句的「held my attention」指「維持注意力」。",
+        "hold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-13"
     },
@@ -2110,11 +1978,9 @@ export default {
       "masked": "Good speakers know how to ____.",
       "options": [
         "hold-mcq-13",
-        "hold-mcq-12",
-        "hold-mcq-14",
-        "hold-mcq-11",
-        "hold-mcq-15",
-        "hold-mcq-10"
+        "hold-mcq-26",
+        "hold-mcq-29",
+        "hold-mcq-25"
       ],
       "explanation": "本句的「hold an audience's attention」指「維持注意力」。",
       "sentenceIndex": 36,
@@ -2123,12 +1989,10 @@ export default {
         "hold an audience's attention"
       ],
       "optionReasons": {
-        "hold-mcq-13": "本句指「維持注意力」。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。"
+        "hold-mcq-13": "本句的「hold an audience's attention」指「維持注意力」。",
+        "hold-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-13"
     },
@@ -2140,11 +2004,9 @@ export default {
       "masked": "The film failed to ____.",
       "options": [
         "hold-pdf-003",
-        "hold-mcq-12",
-        "hold-mcq-14",
-        "hold-mcq-11",
-        "hold-mcq-15",
-        "hold-mcq-10"
+        "hold-mcq-19",
+        "hold-mcq-07",
+        "hold-mcq-16"
       ],
       "explanation": "本句的「hold my interest」指「持續令某人保持有興趣」。",
       "sentenceIndex": 37,
@@ -2153,12 +2015,10 @@ export default {
         "hold my interest"
       ],
       "optionReasons": {
-        "hold-pdf-003": "本句指「持續令某人保持有興趣」。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。"
+        "hold-pdf-003": "本句的「hold my interest」指「持續令某人保持有興趣」。",
+        "hold-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-pdf-003"
     },
@@ -2170,11 +2030,9 @@ export default {
       "masked": "The lesson ____.",
       "options": [
         "hold-pdf-003",
-        "hold-mcq-12",
-        "hold-mcq-14",
-        "hold-mcq-11",
-        "hold-mcq-15",
-        "hold-mcq-10"
+        "hold-pdf-004",
+        "hold-mcq-29",
+        "hold-mcq-07"
       ],
       "explanation": "本句的「held the students' interest」指「持續令某人保持有興趣」。",
       "sentenceIndex": 38,
@@ -2183,12 +2041,10 @@ export default {
         "held the students' interest"
       ],
       "optionReasons": {
-        "hold-pdf-003": "本句指「持續令某人保持有興趣」。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-10": "「擔任職位」是「hold a position」的用法，與本句語境不同。"
+        "hold-pdf-003": "本句的「held the students' interest」指「持續令某人保持有興趣」。",
+        "hold-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-pdf-003"
     },
@@ -2200,11 +2056,9 @@ export default {
       "masked": "He said I was ____.",
       "options": [
         "hold-mcq-14",
-        "hold-mcq-13",
-        "hold-mcq-15",
-        "hold-mcq-12",
-        "hold-mcq-16",
-        "hold-mcq-11"
+        "hold-mcq-26",
+        "hold-reviewed-eaa1f328b0",
+        "hold-mcq-32"
       ],
       "explanation": "本句的「holding everyone back」指「阻礙；拖慢」。",
       "sentenceIndex": 39,
@@ -2213,12 +2067,10 @@ export default {
         "holding everyone back"
       ],
       "optionReasons": {
-        "hold-mcq-14": "本句指「阻礙；拖慢」。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。"
+        "hold-mcq-14": "本句的「holding everyone back」指「阻礙；拖慢」。",
+        "hold-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hold-reviewed-eaa1f328b0": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-14"
     },
@@ -2230,10 +2082,8 @@ export default {
       "masked": "One technical problem ____.",
       "options": [
         "hold-mcq-14",
-        "hold-mcq-13",
-        "hold-mcq-15",
-        "hold-mcq-12",
-        "hold-mcq-16",
+        "hold-mcq-23",
+        "hold-mcq-06",
         "hold-mcq-11"
       ],
       "explanation": "本句的「held the whole team back」指「阻礙；拖慢」。",
@@ -2243,12 +2093,10 @@ export default {
         "held the whole team back"
       ],
       "optionReasons": {
-        "hold-mcq-14": "本句指「阻礙；拖慢」。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。"
+        "hold-mcq-14": "本句的「held the whole team back」指「阻礙；拖慢」。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-14"
     },
@@ -2260,11 +2108,9 @@ export default {
       "masked": "Lack of funding can ____.",
       "options": [
         "hold-mcq-14",
-        "hold-mcq-13",
-        "hold-mcq-15",
-        "hold-mcq-12",
-        "hold-mcq-16",
-        "hold-mcq-11"
+        "hold-mcq-04",
+        "hold-pdf-002",
+        "hold-mcq-10"
       ],
       "explanation": "本句的「hold a project back」指「阻礙；拖慢」。",
       "sentenceIndex": 41,
@@ -2273,12 +2119,10 @@ export default {
         "hold a project back"
       ],
       "optionReasons": {
-        "hold-mcq-14": "本句指「阻礙；拖慢」。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。"
+        "hold-mcq-14": "本句的「hold a project back」指「阻礙；拖慢」。",
+        "hold-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-14"
     },
@@ -2290,10 +2134,8 @@ export default {
       "masked": "Poor communication is ____.",
       "options": [
         "hold-mcq-14",
-        "hold-mcq-13",
-        "hold-mcq-15",
-        "hold-mcq-12",
-        "hold-mcq-16",
+        "hold-mcq-10",
+        "hold-mcq-20",
         "hold-mcq-11"
       ],
       "explanation": "本句的「holding progress back」指「阻礙；拖慢」。",
@@ -2303,12 +2145,10 @@ export default {
         "holding progress back"
       ],
       "optionReasons": {
-        "hold-mcq-14": "本句指「阻礙；拖慢」。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。"
+        "hold-mcq-14": "本句的「holding progress back」指「阻礙；拖慢」。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-14"
     },
@@ -2320,11 +2160,9 @@ export default {
       "masked": "Old equipment can ____.",
       "options": [
         "hold-mcq-14",
-        "hold-mcq-13",
-        "hold-mcq-15",
-        "hold-mcq-12",
-        "hold-mcq-16",
-        "hold-mcq-11"
+        "hold-pdf-004",
+        "hold-mcq-25",
+        "hold-mcq-32"
       ],
       "explanation": "本句的「hold productivity back」指「阻礙；拖慢」。",
       "sentenceIndex": 43,
@@ -2333,12 +2171,10 @@ export default {
         "hold productivity back"
       ],
       "optionReasons": {
-        "hold-mcq-14": "本句指「阻礙；拖慢」。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。"
+        "hold-mcq-14": "本句的「hold productivity back」指「阻礙；拖慢」。",
+        "hold-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-14"
     },
@@ -2350,11 +2186,9 @@ export default {
       "masked": "Two people had to ____.",
       "options": [
         "hold-mcq-14",
-        "hold-mcq-13",
-        "hold-mcq-15",
-        "hold-mcq-12",
-        "hold-mcq-16",
-        "hold-mcq-11"
+        "hold-pdf-002",
+        "hold-mcq-33",
+        "hold-pdf-001"
       ],
       "explanation": "本句的「hold him back」指「阻礙；拖慢」。",
       "sentenceIndex": 44,
@@ -2363,12 +2197,10 @@ export default {
         "hold him back"
       ],
       "optionReasons": {
-        "hold-mcq-14": "本句指「阻礙；拖慢」。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。"
+        "hold-mcq-14": "本句的「hold him back」指「阻礙；拖慢」。",
+        "hold-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-14"
     },
@@ -2380,11 +2212,9 @@ export default {
       "masked": "She ____ by its lead.",
       "options": [
         "hold-mcq-14",
-        "hold-mcq-13",
-        "hold-mcq-15",
-        "hold-mcq-12",
-        "hold-mcq-16",
-        "hold-mcq-11"
+        "hold-mcq-11",
+        "hold-mcq-23",
+        "hold-mcq-05"
       ],
       "explanation": "本句的「held the dog back」指「阻礙；拖慢」。",
       "sentenceIndex": 45,
@@ -2393,12 +2223,10 @@ export default {
         "held the dog back"
       ],
       "optionReasons": {
-        "hold-mcq-14": "本句指「阻礙；拖慢」。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-11": "「保持紀錄」是「hold a record」的用法，與本句語境不同。"
+        "hold-mcq-14": "本句的「held the dog back」指「阻礙；拖慢」。",
+        "hold-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-14"
     },
@@ -2410,11 +2238,9 @@ export default {
       "masked": "She struggled to ____.",
       "options": [
         "hold-mcq-15",
-        "hold-mcq-14",
         "hold-mcq-16",
-        "hold-mcq-13",
-        "hold-mcq-17",
-        "hold-mcq-12"
+        "hold-mcq-30",
+        "hold-mcq-19"
       ],
       "explanation": "本句的「hold back her tears」指「忍住眼淚」。",
       "sentenceIndex": 46,
@@ -2423,12 +2249,10 @@ export default {
         "hold back her tears"
       ],
       "optionReasons": {
-        "hold-mcq-15": "本句指「忍住眼淚」。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。",
-        "hold-mcq-17": "「等一下／抓緊／堅持」是「hold on」的用法，與本句語境不同。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。"
+        "hold-mcq-15": "本句的「hold back her tears」指「忍住眼淚」。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-15"
     },
@@ -2440,11 +2264,9 @@ export default {
       "masked": "He couldn't ____.",
       "options": [
         "hold-mcq-15",
-        "hold-mcq-14",
-        "hold-mcq-16",
-        "hold-mcq-13",
-        "hold-mcq-17",
-        "hold-mcq-12"
+        "hold-mcq-24",
+        "hold-mcq-31",
+        "hold-mcq-03"
       ],
       "explanation": "本句的「hold back his anger」指「忍住眼淚」。",
       "sentenceIndex": 47,
@@ -2453,12 +2275,10 @@ export default {
         "hold back his anger"
       ],
       "optionReasons": {
-        "hold-mcq-15": "本句指「忍住眼淚」。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。",
-        "hold-mcq-17": "「等一下／抓緊／堅持」是「hold on」的用法，與本句語境不同。",
-        "hold-mcq-12": "「持有信念」是「hold a belief」的用法，與本句語境不同。"
+        "hold-mcq-15": "本句的「hold back his anger」指「忍住眼淚」。",
+        "hold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-15"
     },
@@ -2470,11 +2290,9 @@ export default {
       "masked": "He was accused of ____.",
       "options": [
         "hold-mcq-16",
-        "hold-mcq-15",
         "hold-mcq-17",
-        "hold-mcq-14",
-        "hold-mcq-18",
-        "hold-mcq-13"
+        "hold-mcq-23",
+        "hold-mcq-33"
       ],
       "explanation": "本句的「holding back information」指「隱瞞資料」。",
       "sentenceIndex": 48,
@@ -2483,12 +2301,10 @@ export default {
         "holding back information"
       ],
       "optionReasons": {
-        "hold-mcq-16": "本句指「隱瞞資料」。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-17": "「等一下／抓緊／堅持」是「hold on」的用法，與本句語境不同。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。"
+        "hold-mcq-16": "本句的「holding back information」指「隱瞞資料」。",
+        "hold-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-16"
     },
@@ -2500,11 +2316,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "hold-mcq-16",
-        "hold-mcq-15",
-        "hold-mcq-17",
-        "hold-mcq-14",
-        "hold-mcq-18",
-        "hold-mcq-13"
+        "hold-reviewed-eaa1f328b0",
+        "hold-mcq-27",
+        "hold-mcq-19"
       ],
       "explanation": "本句的「hold anything back」指「隱瞞資料」。",
       "sentenceIndex": 49,
@@ -2513,12 +2327,10 @@ export default {
         "hold anything back"
       ],
       "optionReasons": {
-        "hold-mcq-16": "本句指「隱瞞資料」。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-17": "「等一下／抓緊／堅持」是「hold on」的用法，與本句語境不同。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-13": "「維持注意力」是「hold attention」的用法，與本句語境不同。"
+        "hold-mcq-16": "本句的「hold anything back」指「隱瞞資料」。",
+        "hold-reviewed-eaa1f328b0": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-16"
     },
@@ -2531,10 +2343,8 @@ export default {
       "options": [
         "hold-mcq-17",
         "hold-mcq-16",
-        "hold-mcq-18",
-        "hold-mcq-15",
-        "hold-mcq-19",
-        "hold-mcq-14"
+        "hold-mcq-28",
+        "hold-mcq-25"
       ],
       "explanation": "本句的「Hold on」指「等一下／抓緊／堅持」。",
       "sentenceIndex": 50,
@@ -2543,12 +2353,10 @@ export default {
         "Hold on"
       ],
       "optionReasons": {
-        "hold-mcq-17": "本句指「等一下／抓緊／堅持」。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。"
+        "hold-mcq-17": "本句的「Hold on」指「等一下／抓緊／堅持」。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-17"
     },
@@ -2560,11 +2368,9 @@ export default {
       "masked": "____, I haven't finished yet.",
       "options": [
         "hold-mcq-17",
-        "hold-mcq-16",
-        "hold-mcq-18",
-        "hold-mcq-15",
-        "hold-mcq-19",
-        "hold-mcq-14"
+        "hold-mcq-26",
+        "hold-mcq-21",
+        "hold-mcq-10"
       ],
       "explanation": "本句的「Hold on」指「等一下／抓緊／堅持」。",
       "sentenceIndex": 51,
@@ -2573,12 +2379,10 @@ export default {
         "Hold on"
       ],
       "optionReasons": {
-        "hold-mcq-17": "本句指「等一下／抓緊／堅持」。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。"
+        "hold-mcq-17": "本句的「Hold on」指「等一下／抓緊／堅持」。",
+        "hold-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-17"
     },
@@ -2590,11 +2394,9 @@ export default {
       "masked": "____ to the rail.",
       "options": [
         "hold-mcq-17",
-        "hold-mcq-16",
-        "hold-mcq-18",
-        "hold-mcq-15",
-        "hold-mcq-19",
-        "hold-mcq-14"
+        "hold-mcq-05",
+        "hold-mcq-28",
+        "hold-mcq-15"
       ],
       "explanation": "本句的「Hold on」指「等一下／抓緊／堅持」。",
       "sentenceIndex": 52,
@@ -2603,12 +2405,10 @@ export default {
         "Hold on"
       ],
       "optionReasons": {
-        "hold-mcq-17": "本句指「等一下／抓緊／堅持」。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。"
+        "hold-mcq-17": "本句的「Hold on」指「等一下／抓緊／堅持」。",
+        "hold-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-17"
     },
@@ -2620,11 +2420,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "hold-mcq-17",
-        "hold-mcq-16",
-        "hold-mcq-18",
-        "hold-mcq-15",
-        "hold-mcq-19",
-        "hold-mcq-14"
+        "hold-mcq-28",
+        "hold-mcq-30",
+        "hold-mcq-25"
       ],
       "explanation": "本句的「held on tightly」指「等一下／抓緊／堅持」。",
       "sentenceIndex": 53,
@@ -2633,12 +2431,10 @@ export default {
         "held on tightly"
       ],
       "optionReasons": {
-        "hold-mcq-17": "本句指「等一下／抓緊／堅持」。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。"
+        "hold-mcq-17": "本句的「held on tightly」指「等一下／抓緊／堅持」。",
+        "hold-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-17"
     },
@@ -2650,11 +2446,9 @@ export default {
       "masked": "I decided to ____.",
       "options": [
         "hold-mcq-18",
-        "hold-mcq-17",
-        "hold-mcq-19",
-        "hold-mcq-16",
-        "hold-mcq-20",
-        "hold-mcq-15"
+        "hold-mcq-29",
+        "hold-mcq-07",
+        "hold-mcq-24"
       ],
       "explanation": "本句的「hold on to the old photos」指「保留；不放手」。",
       "sentenceIndex": 54,
@@ -2663,12 +2457,10 @@ export default {
         "hold on to the old photos"
       ],
       "optionReasons": {
-        "hold-mcq-18": "本句指「保留；不放手」。",
-        "hold-mcq-17": "「等一下／抓緊／堅持」是「hold on」的用法，與本句語境不同。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。"
+        "hold-mcq-18": "本句的「hold on to the old photos」指「保留；不放手」。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-18"
     },
@@ -2680,11 +2472,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "hold-mcq-18",
-        "hold-mcq-17",
-        "hold-mcq-19",
-        "hold-mcq-16",
-        "hold-mcq-20",
-        "hold-mcq-15"
+        "hold-mcq-09",
+        "hold-mcq-28",
+        "hold-mcq-23"
       ],
       "explanation": "本句的「held on to the receipt」指「保留；不放手」。",
       "sentenceIndex": 55,
@@ -2693,12 +2483,10 @@ export default {
         "held on to the receipt"
       ],
       "optionReasons": {
-        "hold-mcq-18": "本句指「保留；不放手」。",
-        "hold-mcq-17": "「等一下／抓緊／堅持」是「hold on」的用法，與本句語境不同。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。"
+        "hold-mcq-18": "本句的「held on to the receipt」指「保留；不放手」。",
+        "hold-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-18"
     },
@@ -2710,11 +2498,9 @@ export default {
       "masked": "____—help is coming.",
       "options": [
         "hold-mcq-17",
-        "hold-mcq-16",
-        "hold-mcq-18",
-        "hold-mcq-15",
-        "hold-mcq-19",
-        "hold-mcq-14"
+        "hold-mcq-23",
+        "hold-mcq-25",
+        "hold-mcq-30"
       ],
       "explanation": "本句的「Hold on」指「等一下／抓緊／堅持」。",
       "sentenceIndex": 56,
@@ -2723,12 +2509,10 @@ export default {
         "Hold on"
       ],
       "optionReasons": {
-        "hold-mcq-17": "本句指「等一下／抓緊／堅持」。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。"
+        "hold-mcq-17": "本句的「Hold on」指「等一下／抓緊／堅持」。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-17"
     },
@@ -2740,11 +2524,9 @@ export default {
       "masked": "The team managed to ____ until the end.",
       "options": [
         "hold-mcq-17",
-        "hold-mcq-16",
+        "hold-mcq-21",
         "hold-mcq-18",
-        "hold-mcq-15",
-        "hold-mcq-19",
-        "hold-mcq-14"
+        "hold-mcq-19"
       ],
       "explanation": "本句的「hold on」指「等一下／抓緊／堅持」。",
       "sentenceIndex": 57,
@@ -2753,12 +2535,10 @@ export default {
         "hold on"
       ],
       "optionReasons": {
-        "hold-mcq-17": "本句指「等一下／抓緊／堅持」。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-15": "「忍住眼淚」是「hold back tears」的用法，與本句語境不同。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。",
-        "hold-mcq-14": "「阻礙；拖慢」是「hold back」的用法，與本句語境不同。"
+        "hold-mcq-17": "本句的「hold on」指「等一下／抓緊／堅持」。",
+        "hold-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-17"
     },
@@ -2770,11 +2550,9 @@ export default {
       "masked": "Let's ____ making a decision.",
       "options": [
         "hold-mcq-19",
-        "hold-mcq-18",
-        "hold-mcq-20",
-        "hold-mcq-17",
-        "hold-mcq-21",
-        "hold-mcq-16"
+        "hold-mcq-07",
+        "hold-mcq-28",
+        "hold-mcq-22"
       ],
       "explanation": "本句的「hold off」指「暫緩／抵擋」。",
       "sentenceIndex": 58,
@@ -2783,12 +2561,10 @@ export default {
         "hold off"
       ],
       "optionReasons": {
-        "hold-mcq-19": "本句指「暫緩／抵擋」。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。",
-        "hold-mcq-17": "「等一下／抓緊／堅持」是「hold on」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。"
+        "hold-mcq-19": "本句的「hold off」指「暫緩／抵擋」。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-19"
     },
@@ -2800,11 +2576,9 @@ export default {
       "masked": "They ____ for a week.",
       "options": [
         "hold-mcq-19",
-        "hold-mcq-18",
-        "hold-mcq-20",
-        "hold-mcq-17",
-        "hold-mcq-21",
-        "hold-mcq-16"
+        "hold-pdf-001",
+        "hold-mcq-15",
+        "hold-reviewed-eaa1f328b0"
       ],
       "explanation": "本句的「held off the launch」指「暫緩／抵擋」。",
       "sentenceIndex": 59,
@@ -2813,12 +2587,10 @@ export default {
         "held off the launch"
       ],
       "optionReasons": {
-        "hold-mcq-19": "本句指「暫緩／抵擋」。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。",
-        "hold-mcq-17": "「等一下／抓緊／堅持」是「hold on」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。"
+        "hold-mcq-19": "本句的「held off the launch」指「暫緩／抵擋」。",
+        "hold-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hold-reviewed-eaa1f328b0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-19"
     },
@@ -2830,11 +2602,9 @@ export default {
       "masked": "The defence managed to ____.",
       "options": [
         "hold-mcq-19",
-        "hold-mcq-18",
-        "hold-mcq-20",
-        "hold-mcq-17",
-        "hold-mcq-21",
-        "hold-mcq-16"
+        "hold-mcq-14",
+        "hold-mcq-26",
+        "hold-pdf-004"
       ],
       "explanation": "本句的「hold off the attack」指「暫緩／抵擋」。",
       "sentenceIndex": 60,
@@ -2843,12 +2613,10 @@ export default {
         "hold off the attack"
       ],
       "optionReasons": {
-        "hold-mcq-19": "本句指「暫緩／抵擋」。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。",
-        "hold-mcq-17": "「等一下／抓緊／堅持」是「hold on」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。"
+        "hold-mcq-19": "本句的「hold off the attack」指「暫緩／抵擋」。",
+        "hold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-19"
     },
@@ -2860,11 +2628,9 @@ export default {
       "masked": "They ____ until help arrived.",
       "options": [
         "hold-mcq-19",
-        "hold-mcq-18",
-        "hold-mcq-20",
-        "hold-mcq-17",
-        "hold-mcq-21",
-        "hold-mcq-16"
+        "hold-mcq-16",
+        "hold-pdf-004",
+        "hold-mcq-31"
       ],
       "explanation": "本句的「held the crowd off」指「暫緩／抵擋」。",
       "sentenceIndex": 61,
@@ -2873,12 +2639,10 @@ export default {
         "held the crowd off"
       ],
       "optionReasons": {
-        "hold-mcq-19": "本句指「暫緩／抵擋」。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。",
-        "hold-mcq-17": "「等一下／抓緊／堅持」是「hold on」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-16": "「隱瞞資料」是「hold back information」的用法，與本句語境不同。"
+        "hold-mcq-19": "本句的「held the crowd off」指「暫緩／抵擋」。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-19"
     },
@@ -2890,11 +2654,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "hold-mcq-20",
-        "hold-mcq-19",
-        "hold-mcq-21",
-        "hold-mcq-18",
-        "hold-mcq-22",
-        "hold-mcq-17"
+        "hold-mcq-27",
+        "hold-mcq-16",
+        "hold-mcq-29"
       ],
       "explanation": "本句的「held out her hand」指「伸出／堅持」。",
       "sentenceIndex": 62,
@@ -2903,12 +2665,10 @@ export default {
         "held out her hand"
       ],
       "optionReasons": {
-        "hold-mcq-20": "本句指「伸出／堅持」。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-17": "「等一下／抓緊／堅持」是「hold on」的用法，與本句語境不同。"
+        "hold-mcq-20": "本句的「held out her hand」指「伸出／堅持」。",
+        "hold-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-20"
     },
@@ -2920,11 +2680,9 @@ export default {
       "masked": "He ____ for me to see.",
       "options": [
         "hold-mcq-20",
-        "hold-mcq-19",
-        "hold-mcq-21",
-        "hold-mcq-18",
-        "hold-mcq-22",
-        "hold-mcq-17"
+        "hold-mcq-15",
+        "hold-mcq-26",
+        "hold-mcq-30"
       ],
       "explanation": "本句的「held the ticket out」指「伸出／堅持」。",
       "sentenceIndex": 63,
@@ -2933,12 +2691,10 @@ export default {
         "held the ticket out"
       ],
       "optionReasons": {
-        "hold-mcq-20": "本句指「伸出／堅持」。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-17": "「等一下／抓緊／堅持」是「hold on」的用法，與本句語境不同。"
+        "hold-mcq-20": "本句的「held the ticket out」指「伸出／堅持」。",
+        "hold-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-20"
     },
@@ -2950,11 +2706,9 @@ export default {
       "masked": "The team ____ until the final minute.",
       "options": [
         "hold-mcq-20",
-        "hold-mcq-19",
-        "hold-mcq-21",
-        "hold-mcq-18",
-        "hold-mcq-22",
-        "hold-mcq-17"
+        "hold-mcq-10",
+        "hold-mcq-24",
+        "hold-mcq-25"
       ],
       "explanation": "本句的「held out」指「伸出／堅持」。",
       "sentenceIndex": 64,
@@ -2963,12 +2717,10 @@ export default {
         "held out"
       ],
       "optionReasons": {
-        "hold-mcq-20": "本句指「伸出／堅持」。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-17": "「等一下／抓緊／堅持」是「hold on」的用法，與本句語境不同。"
+        "hold-mcq-20": "本句的「held out」指「伸出／堅持」。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-20"
     },
@@ -2980,11 +2732,9 @@ export default {
       "masked": "They couldn't ____ much longer.",
       "options": [
         "hold-mcq-20",
-        "hold-mcq-19",
-        "hold-mcq-21",
-        "hold-mcq-18",
-        "hold-mcq-22",
-        "hold-mcq-17"
+        "hold-mcq-24",
+        "hold-mcq-25",
+        "hold-mcq-21"
       ],
       "explanation": "本句的「hold out」指「伸出／堅持」。",
       "sentenceIndex": 65,
@@ -2993,12 +2743,10 @@ export default {
         "hold out"
       ],
       "optionReasons": {
-        "hold-mcq-20": "本句指「伸出／堅持」。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-17": "「等一下／抓緊／堅持」是「hold on」的用法，與本句語境不同。"
+        "hold-mcq-20": "本句的「hold out」指「伸出／堅持」。",
+        "hold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-20"
     },
@@ -3010,11 +2758,9 @@ export default {
       "masked": "We still ____ that the situation will improve.",
       "options": [
         "hold-mcq-21",
-        "hold-mcq-20",
-        "hold-mcq-22",
-        "hold-mcq-19",
-        "hold-mcq-23",
-        "hold-mcq-18"
+        "hold-mcq-14",
+        "hold-pdf-002",
+        "hold-pdf-001"
       ],
       "explanation": "本句的「hold out hope」指「抱有希望」。",
       "sentenceIndex": 66,
@@ -3023,12 +2769,10 @@ export default {
         "hold out hope"
       ],
       "optionReasons": {
-        "hold-mcq-21": "本句指「抱有希望」。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。"
+        "hold-mcq-21": "本句的「hold out hope」指「抱有希望」。",
+        "hold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-21"
     },
@@ -3040,11 +2784,9 @@ export default {
       "masked": "Doctors ____ of recovery.",
       "options": [
         "hold-mcq-21",
-        "hold-mcq-20",
-        "hold-mcq-22",
+        "hold-mcq-29",
         "hold-mcq-19",
-        "hold-mcq-23",
-        "hold-mcq-18"
+        "hold-mcq-33"
       ],
       "explanation": "本句的「held out little hope」指「抱有希望」。",
       "sentenceIndex": 67,
@@ -3053,12 +2795,10 @@ export default {
         "held out little hope"
       ],
       "optionReasons": {
-        "hold-mcq-21": "本句指「抱有希望」。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。",
-        "hold-mcq-18": "「保留；不放手」是「hold on to」的用法，與本句語境不同。"
+        "hold-mcq-21": "本句的「held out little hope」指「抱有希望」。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-21"
     },
@@ -3070,11 +2810,9 @@ export default {
       "masked": "These columns ____.",
       "options": [
         "hold-mcq-22",
-        "hold-mcq-21",
-        "hold-mcq-23",
-        "hold-mcq-20",
-        "hold-mcq-24",
-        "hold-mcq-19"
+        "hold-mcq-04",
+        "hold-mcq-26",
+        "hold-mcq-05"
       ],
       "explanation": "本句的「hold up the roof」指「支撐／延誤／搶劫」。",
       "sentenceIndex": 68,
@@ -3083,12 +2821,10 @@ export default {
         "hold up the roof"
       ],
       "optionReasons": {
-        "hold-mcq-22": "本句指「支撐／延誤／搶劫」。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。"
+        "hold-mcq-22": "本句的「hold up the roof」指「支撐／延誤／搶劫」。",
+        "hold-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-22"
     },
@@ -3100,10 +2836,8 @@ export default {
       "masked": "The shelf is ____ by brackets.",
       "options": [
         "hold-mcq-22",
-        "hold-mcq-21",
-        "hold-mcq-23",
-        "hold-mcq-20",
-        "hold-mcq-24",
+        "hold-mcq-03",
+        "hold-mcq-12",
         "hold-mcq-19"
       ],
       "explanation": "本句的「held up」指「支撐／延誤／搶劫」。",
@@ -3113,12 +2847,10 @@ export default {
         "held up"
       ],
       "optionReasons": {
-        "hold-mcq-22": "本句指「支撐／延誤／搶劫」。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-19": "「暫緩／抵擋」是「hold off」的用法，與本句語境不同。"
+        "hold-mcq-22": "本句的「held up」指「支撐／延誤／搶劫」。",
+        "hold-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-22"
     },
@@ -3130,11 +2862,9 @@ export default {
       "masked": "Traffic ____ for an hour.",
       "options": [
         "hold-mcq-23",
-        "hold-mcq-22",
-        "hold-mcq-24",
-        "hold-mcq-21",
-        "hold-mcq-25",
-        "hold-mcq-20"
+        "hold-mcq-02",
+        "hold-mcq-13",
+        "hold-mcq-16"
       ],
       "explanation": "本句的「held us up」指「延誤／搶劫」。",
       "sentenceIndex": 70,
@@ -3143,12 +2873,10 @@ export default {
         "held us up"
       ],
       "optionReasons": {
-        "hold-mcq-23": "本句指「延誤／搶劫」。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。"
+        "hold-mcq-23": "本句的「held us up」指「延誤／搶劫」。",
+        "hold-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-23"
     },
@@ -3160,11 +2888,9 @@ export default {
       "masked": "What's ____?",
       "options": [
         "hold-mcq-23",
-        "hold-mcq-22",
-        "hold-mcq-24",
-        "hold-mcq-21",
-        "hold-mcq-25",
-        "hold-mcq-20"
+        "hold-mcq-29",
+        "hold-mcq-34",
+        "hold-mcq-21"
       ],
       "explanation": "本句的「holding things up」指「延誤／搶劫」。",
       "sentenceIndex": 71,
@@ -3173,74 +2899,68 @@ export default {
         "holding things up"
       ],
       "optionReasons": {
-        "hold-mcq-23": "本句指「延誤／搶劫」。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。"
+        "hold-mcq-23": "本句的「holding things up」指「延誤／搶劫」。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-23"
     },
     {
       "id": "hold-36-0",
-      "sense": "hold-mcq-23",
+      "sense": "hold-reviewed-eaa1f328b0",
       "en": "The old bridge has held up well.",
       "zh": "這座舊橋一直保持得很好。",
       "masked": "The old bridge has ____.",
       "options": [
-        "hold-mcq-23",
-        "hold-mcq-22",
-        "hold-mcq-24",
-        "hold-mcq-21",
-        "hold-mcq-25",
-        "hold-mcq-20"
+        "hold-reviewed-eaa1f328b0",
+        "hold-mcq-05",
+        "hold-mcq-16",
+        "hold-mcq-24"
       ],
-      "explanation": "本句的「held up well」指「延誤／搶劫」。",
+      "explanation": "對照完整句子：「這座舊橋一直保持得很好。」。這裡的「held up well」表示「在時間、壓力或檢驗下仍保持有效、完整或可信」。",
       "sentenceIndex": 72,
       "sourcePractice": 1,
       "targets": [
         "held up well"
       ],
       "optionReasons": {
-        "hold-mcq-23": "本句指「延誤／搶劫」。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。"
+        "hold-reviewed-eaa1f328b0": "對照完整句子：「這座舊橋一直保持得很好。」。這裡的「held up well」表示「在時間、壓力或檢驗下仍保持有效、完整或可信」。",
+        "hold-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "hold-mcq-23"
+      "correctOption": "hold-reviewed-eaa1f328b0",
+      "previousCorrectOption": "hold-mcq-23",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "hold-36-1",
-      "sense": "hold-mcq-23",
+      "sense": "hold-reviewed-eaa1f328b0",
       "en": "His argument doesn't hold up under close examination.",
       "zh": "他的論點經不起仔細檢視，站不住腳。",
       "masked": "His argument doesn't ____ under close examination.",
       "options": [
-        "hold-mcq-23",
-        "hold-mcq-22",
-        "hold-mcq-24",
-        "hold-mcq-21",
-        "hold-mcq-25",
-        "hold-mcq-20"
+        "hold-reviewed-eaa1f328b0",
+        "hold-mcq-27",
+        "hold-mcq-30",
+        "hold-mcq-16"
       ],
-      "explanation": "本句的「hold up」指「延誤／搶劫」。",
+      "explanation": "對照完整句子：「他的論點經不起仔細檢視，站不住腳。」。這裡的「hold up」表示「在時間、壓力或檢驗下仍保持有效、完整或可信」。",
       "sentenceIndex": 73,
       "sourcePractice": 2,
       "targets": [
         "hold up"
       ],
       "optionReasons": {
-        "hold-mcq-23": "本句指「延誤／搶劫」。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。"
+        "hold-reviewed-eaa1f328b0": "對照完整句子：「他的論點經不起仔細檢視，站不住腳。」。這裡的「hold up」表示「在時間、壓力或檢驗下仍保持有效、完整或可信」。",
+        "hold-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "hold-mcq-23"
+      "correctOption": "hold-reviewed-eaa1f328b0",
+      "previousCorrectOption": "hold-mcq-23",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "hold-37-0",
@@ -3250,11 +2970,9 @@ export default {
       "masked": "Two men ____.",
       "options": [
         "hold-mcq-23",
-        "hold-mcq-22",
-        "hold-mcq-24",
-        "hold-mcq-21",
-        "hold-mcq-25",
-        "hold-mcq-20"
+        "hold-mcq-29",
+        "hold-mcq-15",
+        "hold-mcq-10"
       ],
       "explanation": "本句的「held up the store」指「延誤／搶劫」。",
       "sentenceIndex": 74,
@@ -3263,12 +2981,10 @@ export default {
         "held up the store"
       ],
       "optionReasons": {
-        "hold-mcq-23": "本句指「延誤／搶劫」。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。"
+        "hold-mcq-23": "本句的「held up the store」指「延誤／搶劫」。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-23"
     },
@@ -3280,11 +2996,9 @@ export default {
       "masked": "The bank was ____ yesterday.",
       "options": [
         "hold-mcq-23",
-        "hold-mcq-22",
-        "hold-mcq-24",
-        "hold-mcq-21",
-        "hold-mcq-25",
-        "hold-mcq-20"
+        "hold-mcq-12",
+        "hold-mcq-15",
+        "hold-mcq-03"
       ],
       "explanation": "本句的「held up」指「延誤／搶劫」。",
       "sentenceIndex": 75,
@@ -3293,12 +3007,10 @@ export default {
         "held up"
       ],
       "optionReasons": {
-        "hold-mcq-23": "本句指「延誤／搶劫」。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。"
+        "hold-mcq-23": "本句的「held up」指「延誤／搶劫」。",
+        "hold-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-23"
     },
@@ -3310,11 +3022,9 @@ export default {
       "masked": "There was a ____ in production.",
       "options": [
         "hold-mcq-23",
-        "hold-mcq-22",
-        "hold-mcq-24",
-        "hold-mcq-21",
-        "hold-mcq-25",
-        "hold-mcq-20"
+        "hold-mcq-02",
+        "hold-mcq-10",
+        "hold-pdf-001"
       ],
       "explanation": "本句的「hold-up」指「延誤／搶劫」。",
       "sentenceIndex": 76,
@@ -3323,12 +3033,10 @@ export default {
         "hold-up"
       ],
       "optionReasons": {
-        "hold-mcq-23": "本句指「延誤／搶劫」。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。"
+        "hold-mcq-23": "本句的「hold-up」指「延誤／搶劫」。",
+        "hold-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-23"
     },
@@ -3340,11 +3048,9 @@ export default {
       "masked": "Sorry for the ____.",
       "options": [
         "hold-mcq-23",
-        "hold-mcq-22",
-        "hold-mcq-24",
-        "hold-mcq-21",
-        "hold-mcq-25",
-        "hold-mcq-20"
+        "hold-mcq-17",
+        "hold-mcq-32",
+        "hold-mcq-03"
       ],
       "explanation": "本句的「holdup」指「延誤／搶劫」。",
       "sentenceIndex": 77,
@@ -3353,12 +3059,10 @@ export default {
         "holdup"
       ],
       "optionReasons": {
-        "hold-mcq-23": "本句指「延誤／搶劫」。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。"
+        "hold-mcq-23": "本句的「holdup」指「延誤／搶劫」。",
+        "hold-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-23"
     },
@@ -3370,11 +3074,9 @@ export default {
       "masked": "Police are investigating an armed ____.",
       "options": [
         "hold-mcq-23",
-        "hold-mcq-22",
-        "hold-mcq-24",
-        "hold-mcq-21",
-        "hold-mcq-25",
-        "hold-mcq-20"
+        "hold-mcq-06",
+        "hold-mcq-32",
+        "hold-mcq-29"
       ],
       "explanation": "本句的「holdup」指「延誤／搶劫」。",
       "sentenceIndex": 78,
@@ -3383,12 +3085,10 @@ export default {
         "holdup"
       ],
       "optionReasons": {
-        "hold-mcq-23": "本句指「延誤／搶劫」。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。"
+        "hold-mcq-23": "本句的「holdup」指「延誤／搶劫」。",
+        "hold-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-23"
     },
@@ -3400,11 +3100,9 @@ export default {
       "masked": "The shop was closed after the ____.",
       "options": [
         "hold-mcq-23",
-        "hold-mcq-22",
-        "hold-mcq-24",
-        "hold-mcq-21",
-        "hold-mcq-25",
-        "hold-mcq-20"
+        "hold-mcq-09",
+        "hold-mcq-27",
+        "hold-mcq-06"
       ],
       "explanation": "本句的「hold-up」指「延誤／搶劫」。",
       "sentenceIndex": 79,
@@ -3413,12 +3111,10 @@ export default {
         "hold-up"
       ],
       "optionReasons": {
-        "hold-mcq-23": "本句指「延誤／搶劫」。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-20": "「伸出／堅持」是「hold out」的用法，與本句語境不同。"
+        "hold-mcq-23": "本句的「hold-up」指「延誤／搶劫」。",
+        "hold-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-23"
     },
@@ -3430,11 +3126,9 @@ export default {
       "masked": "I was ____ for twenty minutes.",
       "options": [
         "hold-mcq-24",
-        "hold-mcq-23",
-        "hold-mcq-25",
-        "hold-mcq-22",
+        "hold-mcq-14",
         "hold-mcq-26",
-        "hold-mcq-21"
+        "hold-mcq-03"
       ],
       "explanation": "本句的「on hold」指「電話等待／暫停」。",
       "sentenceIndex": 80,
@@ -3443,12 +3137,10 @@ export default {
         "on hold"
       ],
       "optionReasons": {
-        "hold-mcq-24": "本句指「電話等待／暫停」。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-26": "「弄到某物」是「get hold of something」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。"
+        "hold-mcq-24": "本句的「on hold」指「電話等待／暫停」。",
+        "hold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-24"
     },
@@ -3460,11 +3152,9 @@ export default {
       "masked": "Please stay ____.",
       "options": [
         "hold-mcq-24",
-        "hold-mcq-23",
-        "hold-mcq-25",
-        "hold-mcq-22",
-        "hold-mcq-26",
-        "hold-mcq-21"
+        "hold-mcq-31",
+        "hold-pdf-001",
+        "hold-mcq-25"
       ],
       "explanation": "本句的「on hold」指「電話等待／暫停」。",
       "sentenceIndex": 81,
@@ -3473,12 +3163,10 @@ export default {
         "on hold"
       ],
       "optionReasons": {
-        "hold-mcq-24": "本句指「電話等待／暫停」。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-26": "「弄到某物」是「get hold of something」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。"
+        "hold-mcq-24": "本句的「on hold」指「電話等待／暫停」。",
+        "hold-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-24"
     },
@@ -3490,11 +3178,9 @@ export default {
       "masked": "The project has been ____.",
       "options": [
         "hold-mcq-24",
-        "hold-mcq-23",
-        "hold-mcq-25",
+        "hold-pdf-002",
         "hold-mcq-22",
-        "hold-mcq-26",
-        "hold-mcq-21"
+        "hold-mcq-29"
       ],
       "explanation": "本句的「put on hold」指「電話等待／暫停」。",
       "sentenceIndex": 82,
@@ -3503,12 +3189,10 @@ export default {
         "put on hold"
       ],
       "optionReasons": {
-        "hold-mcq-24": "本句指「電話等待／暫停」。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-26": "「弄到某物」是「get hold of something」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。"
+        "hold-mcq-24": "本句的「put on hold」指「電話等待／暫停」。",
+        "hold-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-24"
     },
@@ -3520,11 +3204,9 @@ export default {
       "masked": "Our plans are ____ for now.",
       "options": [
         "hold-mcq-24",
-        "hold-mcq-23",
-        "hold-mcq-25",
-        "hold-mcq-22",
-        "hold-mcq-26",
-        "hold-mcq-21"
+        "hold-mcq-10",
+        "hold-mcq-14",
+        "hold-mcq-34"
       ],
       "explanation": "本句的「on hold」指「電話等待／暫停」。",
       "sentenceIndex": 83,
@@ -3533,12 +3215,10 @@ export default {
         "on hold"
       ],
       "optionReasons": {
-        "hold-mcq-24": "本句指「電話等待／暫停」。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-26": "「弄到某物」是「get hold of something」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。"
+        "hold-mcq-24": "本句的「on hold」指「電話等待／暫停」。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-24"
     },
@@ -3550,11 +3230,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "hold-mcq-24",
-        "hold-mcq-23",
-        "hold-mcq-25",
-        "hold-mcq-22",
-        "hold-mcq-26",
-        "hold-mcq-21"
+        "hold-mcq-05",
+        "hold-mcq-08",
+        "hold-mcq-18"
       ],
       "explanation": "本句的「put the expansion plan on hold」指「電話等待／暫停」。",
       "sentenceIndex": 84,
@@ -3563,12 +3241,10 @@ export default {
         "put the expansion plan on hold"
       ],
       "optionReasons": {
-        "hold-mcq-24": "本句指「電話等待／暫停」。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-26": "「弄到某物」是「get hold of something」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。"
+        "hold-mcq-24": "本句的「put the expansion plan on hold」指「電話等待／暫停」。",
+        "hold-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-24"
     },
@@ -3580,11 +3256,9 @@ export default {
       "masked": "We had to ____.",
       "options": [
         "hold-mcq-24",
-        "hold-mcq-23",
-        "hold-mcq-25",
-        "hold-mcq-22",
-        "hold-mcq-26",
-        "hold-mcq-21"
+        "hold-mcq-20",
+        "hold-mcq-13",
+        "hold-mcq-29"
       ],
       "explanation": "本句的「put the discussion on hold」指「電話等待／暫停」。",
       "sentenceIndex": 85,
@@ -3593,12 +3267,10 @@ export default {
         "put the discussion on hold"
       ],
       "optionReasons": {
-        "hold-mcq-24": "本句指「電話等待／暫停」。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。",
-        "hold-mcq-26": "「弄到某物」是「get hold of something」的用法，與本句語境不同。",
-        "hold-mcq-21": "「抱有希望」是「hold out hope」的用法，與本句語境不同。"
+        "hold-mcq-24": "本句的「put the discussion on hold」指「電話等待／暫停」。",
+        "hold-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-24"
     },
@@ -3610,11 +3282,9 @@ export default {
       "masked": "I couldn't ____.",
       "options": [
         "hold-mcq-25",
-        "hold-mcq-24",
-        "hold-mcq-26",
-        "hold-mcq-23",
-        "hold-mcq-27",
-        "hold-mcq-22"
+        "hold-mcq-16",
+        "hold-mcq-18",
+        "hold-mcq-10"
       ],
       "explanation": "本句的「get hold of Kevin」指「聯絡到某人」。",
       "sentenceIndex": 86,
@@ -3623,12 +3293,10 @@ export default {
         "get hold of Kevin"
       ],
       "optionReasons": {
-        "hold-mcq-25": "本句指「聯絡到某人」。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-26": "「弄到某物」是「get hold of something」的用法，與本句語境不同。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。",
-        "hold-mcq-27": "「抓住／開始佔據」是「take hold」的用法，與本句語境不同。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。"
+        "hold-mcq-25": "本句的「get hold of Kevin」指「聯絡到某人」。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-25"
     },
@@ -3640,11 +3308,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "hold-mcq-25",
-        "hold-mcq-24",
-        "hold-mcq-26",
-        "hold-mcq-23",
-        "hold-mcq-27",
-        "hold-mcq-22"
+        "hold-mcq-06",
+        "hold-mcq-04",
+        "hold-mcq-19"
       ],
       "explanation": "本句的「get hold of the manager」指「聯絡到某人」。",
       "sentenceIndex": 87,
@@ -3653,12 +3319,10 @@ export default {
         "get hold of the manager"
       ],
       "optionReasons": {
-        "hold-mcq-25": "本句指「聯絡到某人」。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-26": "「弄到某物」是「get hold of something」的用法，與本句語境不同。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。",
-        "hold-mcq-27": "「抓住／開始佔據」是「take hold」的用法，與本句語境不同。",
-        "hold-mcq-22": "「支撐／延誤／搶劫」是「hold up」的用法，與本句語境不同。"
+        "hold-mcq-25": "本句的「get hold of the manager」指「聯絡到某人」。",
+        "hold-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-25"
     },
@@ -3670,11 +3334,9 @@ export default {
       "masked": "Where did you ____?",
       "options": [
         "hold-mcq-26",
-        "hold-mcq-25",
-        "hold-mcq-27",
-        "hold-mcq-24",
-        "hold-mcq-28",
-        "hold-mcq-23"
+        "hold-mcq-07",
+        "hold-mcq-33",
+        "hold-mcq-27"
       ],
       "explanation": "本句的「get hold of this book」指「弄到某物」。",
       "sentenceIndex": 88,
@@ -3683,12 +3345,10 @@ export default {
         "get hold of this book"
       ],
       "optionReasons": {
-        "hold-mcq-26": "本句指「弄到某物」。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-27": "「抓住／開始佔據」是「take hold」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。"
+        "hold-mcq-26": "本句的「get hold of this book」指「弄到某物」。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-26"
     },
@@ -3700,11 +3360,9 @@ export default {
       "masked": "It's difficult to ____.",
       "options": [
         "hold-mcq-26",
-        "hold-mcq-25",
-        "hold-mcq-27",
-        "hold-mcq-24",
-        "hold-mcq-28",
-        "hold-mcq-23"
+        "hold-mcq-07",
+        "hold-mcq-12",
+        "hold-mcq-29"
       ],
       "explanation": "本句的「get hold of tickets」指「弄到某物」。",
       "sentenceIndex": 89,
@@ -3713,12 +3371,10 @@ export default {
         "get hold of tickets"
       ],
       "optionReasons": {
-        "hold-mcq-26": "本句指「弄到某物」。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-27": "「抓住／開始佔據」是「take hold」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。"
+        "hold-mcq-26": "本句的「get hold of tickets」指「弄到某物」。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-26"
     },
@@ -3730,11 +3386,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "hold-pdf-004",
-        "hold-mcq-25",
-        "hold-mcq-27",
-        "hold-mcq-24",
-        "hold-mcq-28",
-        "hold-mcq-23"
+        "hold-mcq-22",
+        "hold-mcq-11",
+        "hold-mcq-30"
       ],
       "explanation": "本句的「took hold of the rope」指「開始用手牢牢抓住 X」。",
       "sentenceIndex": 90,
@@ -3743,12 +3397,10 @@ export default {
         "took hold of the rope"
       ],
       "optionReasons": {
-        "hold-pdf-004": "本句指「開始用手牢牢抓住 X」。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-27": "「抓住／開始佔據」是「take hold」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。"
+        "hold-pdf-004": "本句的「took hold of the rope」指「開始用手牢牢抓住 X」。",
+        "hold-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-pdf-004"
     },
@@ -3760,11 +3412,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "hold-pdf-004",
-        "hold-mcq-25",
-        "hold-mcq-27",
-        "hold-mcq-24",
-        "hold-mcq-28",
-        "hold-mcq-23"
+        "hold-pdf-001",
+        "hold-mcq-20",
+        "hold-mcq-06"
       ],
       "explanation": "本句的「took hold of my arm」指「開始用手牢牢抓住 X」。",
       "sentenceIndex": 91,
@@ -3773,12 +3423,10 @@ export default {
         "took hold of my arm"
       ],
       "optionReasons": {
-        "hold-pdf-004": "本句指「開始用手牢牢抓住 X」。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-27": "「抓住／開始佔據」是「take hold」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。",
-        "hold-mcq-23": "「延誤／搶劫」是「hold-up」的用法，與本句語境不同。"
+        "hold-pdf-004": "本句的「took hold of my arm」指「開始用手牢牢抓住 X」。",
+        "hold-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-pdf-004"
     },
@@ -3790,11 +3438,9 @@ export default {
       "masked": "Panic began to ____.",
       "options": [
         "hold-mcq-27",
-        "hold-mcq-26",
-        "hold-mcq-28",
-        "hold-mcq-25",
-        "hold-mcq-29",
-        "hold-mcq-24"
+        "hold-mcq-16",
+        "hold-mcq-23",
+        "hold-mcq-30"
       ],
       "explanation": "本句的「take hold」指「抓住／開始佔據」。",
       "sentenceIndex": 92,
@@ -3803,12 +3449,10 @@ export default {
         "take hold"
       ],
       "optionReasons": {
-        "hold-mcq-27": "本句指「抓住／開始佔據」。",
-        "hold-mcq-26": "「弄到某物」是「get hold of something」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。"
+        "hold-mcq-27": "本句的「take hold」指「抓住／開始佔據」。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-27"
     },
@@ -3820,11 +3464,9 @@ export default {
       "masked": "The idea quickly ____.",
       "options": [
         "hold-mcq-27",
-        "hold-mcq-26",
-        "hold-mcq-28",
-        "hold-mcq-25",
-        "hold-mcq-29",
-        "hold-mcq-24"
+        "hold-mcq-07",
+        "hold-mcq-12",
+        "hold-mcq-03"
       ],
       "explanation": "本句的「took hold」指「抓住／開始佔據」。",
       "sentenceIndex": 93,
@@ -3833,12 +3475,10 @@ export default {
         "took hold"
       ],
       "optionReasons": {
-        "hold-mcq-27": "本句指「抓住／開始佔據」。",
-        "hold-mcq-26": "「弄到某物」是「get hold of something」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。",
-        "hold-mcq-24": "「電話等待／暫停」是「on hold」的用法，與本句語境不同。"
+        "hold-mcq-27": "本句的「took hold」指「抓住／開始佔據」。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-27"
     },
@@ -3850,11 +3490,9 @@ export default {
       "masked": "Fear had a powerful ____.",
       "options": [
         "hold-mcq-28",
+        "hold-mcq-15",
         "hold-mcq-27",
-        "hold-mcq-29",
-        "hold-mcq-26",
-        "hold-mcq-30",
-        "hold-mcq-25"
+        "hold-mcq-20"
       ],
       "explanation": "本句的「hold over him」指「對……有控制力」。",
       "sentenceIndex": 94,
@@ -3863,12 +3501,10 @@ export default {
         "hold over him"
       ],
       "optionReasons": {
-        "hold-mcq-28": "本句指「對……有控制力」。",
-        "hold-mcq-27": "「抓住／開始佔據」是「take hold」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。",
-        "hold-mcq-26": "「弄到某物」是「get hold of something」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。"
+        "hold-mcq-28": "本句的「hold over him」指「對……有控制力」。",
+        "hold-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-28"
     },
@@ -3880,11 +3516,9 @@ export default {
       "masked": "She refused to let the past keep its ____.",
       "options": [
         "hold-mcq-28",
-        "hold-mcq-27",
-        "hold-mcq-29",
+        "hold-mcq-02",
         "hold-mcq-26",
-        "hold-mcq-30",
-        "hold-mcq-25"
+        "hold-mcq-16"
       ],
       "explanation": "本句的「hold over her」指「對……有控制力」。",
       "sentenceIndex": 95,
@@ -3893,12 +3527,10 @@ export default {
         "hold over her"
       ],
       "optionReasons": {
-        "hold-mcq-28": "本句指「對……有控制力」。",
-        "hold-mcq-27": "「抓住／開始佔據」是「take hold」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。",
-        "hold-mcq-26": "「弄到某物」是「get hold of something」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-25": "「聯絡到某人」是「get hold of someone」的用法，與本句語境不同。"
+        "hold-mcq-28": "本句的「hold over her」指「對……有控制力」。",
+        "hold-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-28"
     },
@@ -3910,11 +3542,9 @@ export default {
       "masked": "He tightened his ____ on the rope.",
       "options": [
         "hold-mcq-33",
-        "hold-mcq-32",
-        "hold-mcq-34",
-        "hold-mcq-31",
-        "hold-mcq-30",
-        "hold-mcq-29"
+        "hold-mcq-24",
+        "hold-mcq-28",
+        "hold-mcq-06"
       ],
       "explanation": "本句的「hold」指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
       "sentenceIndex": 96,
@@ -3923,12 +3553,10 @@ export default {
         "hold"
       ],
       "optionReasons": {
-        "hold-mcq-33": "本句指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-34": "「用手使門保持開着或處於某個位置」是「3. hold the door — 扶着門；替人開門」的用法，與本句語境不同。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。"
+        "hold-mcq-33": "本句的「hold」指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
+        "hold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-33"
     },
@@ -3940,11 +3568,9 @@ export default {
       "masked": "She loosened her ____.",
       "options": [
         "hold-mcq-33",
-        "hold-mcq-32",
-        "hold-mcq-34",
-        "hold-mcq-31",
-        "hold-mcq-30",
-        "hold-mcq-29"
+        "hold-mcq-10",
+        "hold-mcq-28",
+        "hold-mcq-03"
       ],
       "explanation": "本句的「hold」指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
       "sentenceIndex": 97,
@@ -3953,12 +3579,10 @@ export default {
         "hold"
       ],
       "optionReasons": {
-        "hold-mcq-33": "本句指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-34": "「用手使門保持開着或處於某個位置」是「3. hold the door — 扶着門；替人開門」的用法，與本句語境不同。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。"
+        "hold-mcq-33": "本句的「hold」指「用手、手臂或其他方式把某物拿住或保持不掉下來」。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-33"
     },
@@ -3970,11 +3594,9 @@ export default {
       "masked": "The organization strengthened its ____.",
       "options": [
         "hold-mcq-29",
-        "hold-mcq-28",
-        "hold-mcq-30",
-        "hold-mcq-27",
-        "hold-mcq-31",
-        "hold-mcq-26"
+        "hold-mcq-18",
+        "hold-mcq-20",
+        "hold-mcq-22"
       ],
       "explanation": "本句的「hold on the market」指「抓握／控制」。",
       "sentenceIndex": 98,
@@ -3983,12 +3605,10 @@ export default {
         "hold on the market"
       ],
       "optionReasons": {
-        "hold-mcq-29": "本句指「抓握／控制」。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-27": "「抓住／開始佔據」是「take hold」的用法，與本句語境不同。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-26": "「弄到某物」是「get hold of something」的用法，與本句語境不同。"
+        "hold-mcq-29": "本句的「hold on the market」指「抓握／控制」。",
+        "hold-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-29"
     },
@@ -4000,11 +3620,9 @@ export default {
       "masked": "Fear had a strong ____.",
       "options": [
         "hold-mcq-29",
-        "hold-mcq-28",
+        "hold-mcq-21",
         "hold-mcq-30",
-        "hold-mcq-27",
-        "hold-mcq-31",
-        "hold-mcq-26"
+        "hold-mcq-22"
       ],
       "explanation": "本句的「hold on him」指「抓握／控制」。",
       "sentenceIndex": 99,
@@ -4013,12 +3631,10 @@ export default {
         "hold on him"
       ],
       "optionReasons": {
-        "hold-mcq-29": "本句指「抓握／控制」。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-27": "「抓住／開始佔據」是「take hold」的用法，與本句語境不同。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-26": "「弄到某物」是「get hold of something」的用法，與本句語境不同。"
+        "hold-mcq-29": "本句的「hold on him」指「抓握／控制」。",
+        "hold-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-29"
     },
@@ -4030,11 +3646,9 @@ export default {
       "masked": "The luggage was placed in the aircraft's ____.",
       "options": [
         "hold-mcq-30",
-        "hold-mcq-29",
-        "hold-mcq-31",
+        "hold-pdf-002",
         "hold-mcq-28",
-        "hold-mcq-32",
-        "hold-mcq-27"
+        "hold-mcq-23"
       ],
       "explanation": "本句的「cargo hold」指「貨艙」。",
       "sentenceIndex": 100,
@@ -4043,12 +3657,10 @@ export default {
         "cargo hold"
       ],
       "optionReasons": {
-        "hold-mcq-30": "本句指「貨艙」。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-27": "「抓住／開始佔據」是「take hold」的用法，與本句語境不同。"
+        "hold-mcq-30": "本句的「cargo hold」指「貨艙」。",
+        "hold-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-30"
     },
@@ -4060,11 +3672,9 @@ export default {
       "masked": "The ship's ____ was full of goods.",
       "options": [
         "hold-mcq-30",
-        "hold-mcq-29",
-        "hold-mcq-31",
-        "hold-mcq-28",
-        "hold-mcq-32",
-        "hold-mcq-27"
+        "hold-mcq-10",
+        "hold-mcq-34",
+        "hold-mcq-03"
       ],
       "explanation": "本句的「hold」指「貨艙」。",
       "sentenceIndex": 101,
@@ -4073,12 +3683,10 @@ export default {
         "hold"
       ],
       "optionReasons": {
-        "hold-mcq-30": "本句指「貨艙」。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-27": "「抓住／開始佔據」是「take hold」的用法，與本句語境不同。"
+        "hold-mcq-30": "本句的「hold」指「貨艙」。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-30"
     },
@@ -4090,11 +3698,9 @@ export default {
       "masked": "The ticket ____ must show identification.",
       "options": [
         "hold-mcq-31",
-        "hold-mcq-30",
-        "hold-mcq-32",
-        "hold-mcq-29",
-        "hold-mcq-33",
-        "hold-mcq-28"
+        "hold-mcq-24",
+        "hold-mcq-07",
+        "hold-mcq-29"
       ],
       "explanation": "本句的「holder」指「持有人／支架」。",
       "sentenceIndex": 102,
@@ -4103,12 +3709,10 @@ export default {
         "holder"
       ],
       "optionReasons": {
-        "hold-mcq-31": "本句指「持有人／支架」。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。",
-        "hold-mcq-33": "「用手、手臂或其他方式把某物拿住或保持不掉下來」是「1. hold（拿住；握住） — 拿着；握住」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。"
+        "hold-mcq-31": "本句的「holder」指「持有人／支架」。",
+        "hold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-31"
     },
@@ -4120,11 +3724,9 @@ export default {
       "masked": "She is the current record ____.",
       "options": [
         "hold-mcq-31",
-        "hold-mcq-30",
-        "hold-mcq-32",
-        "hold-mcq-29",
-        "hold-mcq-33",
-        "hold-mcq-28"
+        "hold-mcq-14",
+        "hold-mcq-18",
+        "hold-mcq-06"
       ],
       "explanation": "本句的「holder」指「持有人／支架」。",
       "sentenceIndex": 103,
@@ -4133,12 +3735,10 @@ export default {
         "holder"
       ],
       "optionReasons": {
-        "hold-mcq-31": "本句指「持有人／支架」。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。",
-        "hold-mcq-33": "「用手、手臂或其他方式把某物拿住或保持不掉下來」是「1. hold（拿住；握住） — 拿着；握住」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。"
+        "hold-mcq-31": "本句的「holder」指「持有人／支架」。",
+        "hold-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-31"
     },
@@ -4150,11 +3750,9 @@ export default {
       "masked": "Only the ____ can make this change.",
       "options": [
         "hold-mcq-31",
-        "hold-mcq-30",
-        "hold-mcq-32",
-        "hold-mcq-29",
-        "hold-mcq-33",
-        "hold-mcq-28"
+        "hold-mcq-19",
+        "hold-pdf-001",
+        "hold-mcq-21"
       ],
       "explanation": "本句的「account holder」指「持有人／支架」。",
       "sentenceIndex": 104,
@@ -4163,12 +3761,10 @@ export default {
         "account holder"
       ],
       "optionReasons": {
-        "hold-mcq-31": "本句指「持有人／支架」。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。",
-        "hold-mcq-33": "「用手、手臂或其他方式把某物拿住或保持不掉下來」是「1. hold（拿住；握住） — 拿着；握住」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。"
+        "hold-mcq-31": "本句的「account holder」指「持有人／支架」。",
+        "hold-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-31"
     },
@@ -4180,11 +3776,9 @@ export default {
       "masked": "The bank contacted the ____.",
       "options": [
         "hold-mcq-31",
-        "hold-mcq-30",
-        "hold-mcq-32",
-        "hold-mcq-29",
-        "hold-mcq-33",
-        "hold-mcq-28"
+        "hold-mcq-18",
+        "hold-mcq-25",
+        "hold-pdf-001"
       ],
       "explanation": "本句的「account holder」指「持有人／支架」。",
       "sentenceIndex": 105,
@@ -4193,12 +3787,10 @@ export default {
         "account holder"
       ],
       "optionReasons": {
-        "hold-mcq-31": "本句指「持有人／支架」。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。",
-        "hold-mcq-33": "「用手、手臂或其他方式把某物拿住或保持不掉下來」是「1. hold（拿住；握住） — 拿着；握住」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。"
+        "hold-mcq-31": "本句的「account holder」指「持有人／支架」。",
+        "hold-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hold-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-31"
     },
@@ -4210,11 +3802,9 @@ export default {
       "masked": "She became the new world ____.",
       "options": [
         "hold-mcq-31",
-        "hold-mcq-30",
-        "hold-mcq-32",
-        "hold-mcq-29",
-        "hold-mcq-33",
-        "hold-mcq-28"
+        "hold-mcq-07",
+        "hold-mcq-25",
+        "hold-mcq-10"
       ],
       "explanation": "本句的「record holder」指「持有人／支架」。",
       "sentenceIndex": 106,
@@ -4223,12 +3813,10 @@ export default {
         "record holder"
       ],
       "optionReasons": {
-        "hold-mcq-31": "本句指「持有人／支架」。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。",
-        "hold-mcq-33": "「用手、手臂或其他方式把某物拿住或保持不掉下來」是「1. hold（拿住；握住） — 拿着；握住」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。"
+        "hold-mcq-31": "本句的「record holder」指「持有人／支架」。",
+        "hold-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-31"
     },
@@ -4241,10 +3829,8 @@ export default {
       "options": [
         "hold-mcq-31",
         "hold-mcq-30",
-        "hold-mcq-32",
-        "hold-mcq-29",
-        "hold-mcq-33",
-        "hold-mcq-28"
+        "hold-mcq-16",
+        "hold-mcq-15"
       ],
       "explanation": "本句的「record holder」指「持有人／支架」。",
       "sentenceIndex": 107,
@@ -4253,12 +3839,10 @@ export default {
         "record holder"
       ],
       "optionReasons": {
-        "hold-mcq-31": "本句指「持有人／支架」。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。",
-        "hold-mcq-33": "「用手、手臂或其他方式把某物拿住或保持不掉下來」是「1. hold（拿住；握住） — 拿着；握住」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。"
+        "hold-mcq-31": "本句的「record holder」指「持有人／支架」。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-31"
     },
@@ -4270,11 +3854,9 @@ export default {
       "masked": "Put the phone in the ____.",
       "options": [
         "hold-mcq-31",
-        "hold-mcq-30",
-        "hold-mcq-32",
-        "hold-mcq-29",
-        "hold-mcq-33",
-        "hold-mcq-28"
+        "hold-pdf-001",
+        "hold-mcq-05",
+        "hold-mcq-29"
       ],
       "explanation": "本句的「holder」指「持有人／支架」。",
       "sentenceIndex": 108,
@@ -4283,12 +3865,10 @@ export default {
         "holder"
       ],
       "optionReasons": {
-        "hold-mcq-31": "本句指「持有人／支架」。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。",
-        "hold-mcq-33": "「用手、手臂或其他方式把某物拿住或保持不掉下來」是「1. hold（拿住；握住） — 拿着；握住」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。"
+        "hold-mcq-31": "本句的「holder」指「持有人／支架」。",
+        "hold-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-31"
     },
@@ -4300,11 +3880,9 @@ export default {
       "masked": "She bought a toothbrush ____.",
       "options": [
         "hold-mcq-31",
-        "hold-mcq-30",
-        "hold-mcq-32",
         "hold-mcq-29",
-        "hold-mcq-33",
-        "hold-mcq-28"
+        "hold-mcq-30",
+        "hold-mcq-15"
       ],
       "explanation": "本句的「holder」指「持有人／支架」。",
       "sentenceIndex": 109,
@@ -4313,12 +3891,10 @@ export default {
         "holder"
       ],
       "optionReasons": {
-        "hold-mcq-31": "本句指「持有人／支架」。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-32": "「持股／資產」是「holding(s)」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。",
-        "hold-mcq-33": "「用手、手臂或其他方式把某物拿住或保持不掉下來」是「1. hold（拿住；握住） — 拿着；握住」的用法，與本句語境不同。",
-        "hold-mcq-28": "「對……有控制力」是「have a hold over」的用法，與本句語境不同。"
+        "hold-mcq-31": "本句的「holder」指「持有人／支架」。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-31"
     },
@@ -4330,10 +3906,8 @@ export default {
       "masked": "The fund increased its ____ in technology companies.",
       "options": [
         "hold-mcq-32",
-        "hold-mcq-31",
-        "hold-mcq-33",
-        "hold-mcq-30",
-        "hold-mcq-34",
+        "hold-mcq-21",
+        "hold-mcq-24",
         "hold-mcq-29"
       ],
       "explanation": "本句的「holdings」指「持股／資產」。",
@@ -4343,12 +3917,10 @@ export default {
         "holdings"
       ],
       "optionReasons": {
-        "hold-mcq-32": "本句指「持股／資產」。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-33": "「用手、手臂或其他方式把某物拿住或保持不掉下來」是「1. hold（拿住；握住） — 拿着；握住」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-34": "「用手使門保持開着或處於某個位置」是「3. hold the door — 扶着門；替人開門」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。"
+        "hold-mcq-32": "本句的「holdings」指「持股／資產」。",
+        "hold-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-32"
     },
@@ -4360,11 +3932,9 @@ export default {
       "masked": "The museum has extensive art ____.",
       "options": [
         "hold-mcq-32",
-        "hold-mcq-31",
-        "hold-mcq-33",
-        "hold-mcq-30",
-        "hold-mcq-34",
-        "hold-mcq-29"
+        "hold-mcq-21",
+        "hold-mcq-19",
+        "hold-mcq-03"
       ],
       "explanation": "本句的「holdings」指「持股／資產」。",
       "sentenceIndex": 111,
@@ -4373,12 +3943,10 @@ export default {
         "holdings"
       ],
       "optionReasons": {
-        "hold-mcq-32": "本句指「持股／資產」。",
-        "hold-mcq-31": "「持有人／支架」是「holder」的用法，與本句語境不同。",
-        "hold-mcq-33": "「用手、手臂或其他方式把某物拿住或保持不掉下來」是「1. hold（拿住；握住） — 拿着；握住」的用法，與本句語境不同。",
-        "hold-mcq-30": "「貨艙」是「cargo hold」的用法，與本句語境不同。",
-        "hold-mcq-34": "「用手使門保持開着或處於某個位置」是「3. hold the door — 扶着門；替人開門」的用法，與本句語境不同。",
-        "hold-mcq-29": "「抓握／控制」是「hold (noun)」的用法，與本句語境不同。"
+        "hold-mcq-32": "本句的「holdings」指「持股／資產」。",
+        "hold-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hold-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hold-mcq-32"
     }
@@ -4390,5 +3958,7 @@ export default {
     "sha256": "9a5666c81a7719e1d8089128076fd7ac424a4d61c40f0087a7328320755333de",
     "pages": 36
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

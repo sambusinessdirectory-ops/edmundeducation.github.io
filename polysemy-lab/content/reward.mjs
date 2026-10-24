@@ -279,11 +279,7 @@ export default {
       "masked": "The children received a small ____ for finishing the task.",
       "options": [
         "reward-mcq-01",
-        "reward-mcq-02",
-        "reward-mcq-03",
-        "reward-mcq-04",
-        "reward-mcq-05",
-        "reward-mcq-06"
+        "reward-mcq-08"
       ],
       "explanation": "本句的「reward」指「因某人的行為、努力或成果而給予的好處、獎品或利益」。",
       "sentenceIndex": 0,
@@ -292,12 +288,8 @@ export default {
         "reward"
       ],
       "optionReasons": {
-        "reward-mcq-01": "本句指「因某人的行為、努力或成果而給予的好處、獎品或利益」。",
-        "reward-mcq-02": "「付出努力、時間或耐性後得到的正面成果、好處或滿足」與本句語境不同。",
-        "reward-mcq-03": "「為取得資料、找回失物或得到協助而預先承諾給予的賞金」與本句語境不同。",
-        "reward-mcq-04": "「用來增加某種行為再次出現可能性的正面結果或刺激」與本句語境不同。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。"
+        "reward-mcq-01": "本句的「reward」指「因某人的行為、努力或成果而給予的好處、獎品或利益」。",
+        "reward-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-01"
     },
@@ -309,11 +301,7 @@ export default {
       "masked": "Hard work does not always bring an immediate ____.",
       "options": [
         "reward-mcq-01",
-        "reward-mcq-02",
-        "reward-mcq-03",
-        "reward-mcq-04",
-        "reward-mcq-05",
-        "reward-mcq-06"
+        "reward-mcq-08"
       ],
       "explanation": "本句的「reward」指「因某人的行為、努力或成果而給予的好處、獎品或利益」。",
       "sentenceIndex": 1,
@@ -322,12 +310,8 @@ export default {
         "reward"
       ],
       "optionReasons": {
-        "reward-mcq-01": "本句指「因某人的行為、努力或成果而給予的好處、獎品或利益」。",
-        "reward-mcq-02": "「付出努力、時間或耐性後得到的正面成果、好處或滿足」與本句語境不同。",
-        "reward-mcq-03": "「為取得資料、找回失物或得到協助而預先承諾給予的賞金」與本句語境不同。",
-        "reward-mcq-04": "「用來增加某種行為再次出現可能性的正面結果或刺激」與本句語境不同。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。"
+        "reward-mcq-01": "本句的「reward」指「因某人的行為、努力或成果而給予的好處、獎品或利益」。",
+        "reward-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-01"
     },
@@ -339,10 +323,7 @@ export default {
       "masked": "She loves the ____ that comes with gardening.",
       "options": [
         "reward-mcq-02",
-        "reward-mcq-01",
-        "reward-mcq-03",
-        "reward-mcq-04",
-        "reward-mcq-05",
+        "reward-mcq-12",
         "reward-mcq-06"
       ],
       "explanation": "本句的「sense of reward」指「付出努力、時間或耐性後得到的正面成果、好處或滿足」。",
@@ -352,12 +333,9 @@ export default {
         "sense of reward"
       ],
       "optionReasons": {
-        "reward-mcq-02": "本句指「付出努力、時間或耐性後得到的正面成果、好處或滿足」。",
-        "reward-mcq-01": "「因某人的行為、努力或成果而給予的好處、獎品或利益」與本句語境不同。",
-        "reward-mcq-03": "「為取得資料、找回失物或得到協助而預先承諾給予的賞金」與本句語境不同。",
-        "reward-mcq-04": "「用來增加某種行為再次出現可能性的正面結果或刺激」與本句語境不同。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。"
+        "reward-mcq-02": "本句的「sense of reward」指「付出努力、時間或耐性後得到的正面成果、好處或滿足」。",
+        "reward-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "reward-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-02"
     },
@@ -369,10 +347,7 @@ export default {
       "masked": "Seeing the plants grow is the greatest ____.",
       "options": [
         "reward-mcq-02",
-        "reward-mcq-01",
-        "reward-mcq-03",
-        "reward-mcq-04",
-        "reward-mcq-05",
+        "reward-mcq-12",
         "reward-mcq-06"
       ],
       "explanation": "本句的「reward」指「付出努力、時間或耐性後得到的正面成果、好處或滿足」。",
@@ -382,12 +357,9 @@ export default {
         "reward"
       ],
       "optionReasons": {
-        "reward-mcq-02": "本句指「付出努力、時間或耐性後得到的正面成果、好處或滿足」。",
-        "reward-mcq-01": "「因某人的行為、努力或成果而給予的好處、獎品或利益」與本句語境不同。",
-        "reward-mcq-03": "「為取得資料、找回失物或得到協助而預先承諾給予的賞金」與本句語境不同。",
-        "reward-mcq-04": "「用來增加某種行為再次出現可能性的正面結果或刺激」與本句語境不同。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。"
+        "reward-mcq-02": "本句的「reward」指「付出努力、時間或耐性後得到的正面成果、好處或滿足」。",
+        "reward-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "reward-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-02"
     },
@@ -399,11 +371,8 @@ export default {
       "masked": "The ____ of learning a language can last a lifetime.",
       "options": [
         "reward-mcq-02",
-        "reward-mcq-01",
-        "reward-mcq-03",
-        "reward-mcq-04",
-        "reward-mcq-05",
-        "reward-mcq-06"
+        "reward-mcq-11",
+        "reward-mcq-08"
       ],
       "explanation": "本句的「rewards」指「付出努力、時間或耐性後得到的正面成果、好處或滿足」。",
       "sentenceIndex": 4,
@@ -412,12 +381,9 @@ export default {
         "rewards"
       ],
       "optionReasons": {
-        "reward-mcq-02": "本句指「付出努力、時間或耐性後得到的正面成果、好處或滿足」。",
-        "reward-mcq-01": "「因某人的行為、努力或成果而給予的好處、獎品或利益」與本句語境不同。",
-        "reward-mcq-03": "「為取得資料、找回失物或得到協助而預先承諾給予的賞金」與本句語境不同。",
-        "reward-mcq-04": "「用來增加某種行為再次出現可能性的正面結果或刺激」與本句語境不同。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。"
+        "reward-mcq-02": "本句的「rewards」指「付出努力、時間或耐性後得到的正面成果、好處或滿足」。",
+        "reward-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reward-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-02"
     },
@@ -429,11 +395,8 @@ export default {
       "masked": "The police offered a ____ for information.",
       "options": [
         "reward-mcq-03",
-        "reward-mcq-02",
-        "reward-mcq-04",
-        "reward-mcq-01",
-        "reward-mcq-05",
-        "reward-mcq-06"
+        "reward-mcq-06",
+        "reward-mcq-12"
       ],
       "explanation": "本句的「reward」指「為取得資料、找回失物或得到協助而預先承諾給予的賞金」。",
       "sentenceIndex": 5,
@@ -442,12 +405,9 @@ export default {
         "reward"
       ],
       "optionReasons": {
-        "reward-mcq-03": "本句指「為取得資料、找回失物或得到協助而預先承諾給予的賞金」。",
-        "reward-mcq-02": "「付出努力、時間或耐性後得到的正面成果、好處或滿足」與本句語境不同。",
-        "reward-mcq-04": "「用來增加某種行為再次出現可能性的正面結果或刺激」與本句語境不同。",
-        "reward-mcq-01": "「因某人的行為、努力或成果而給予的好處、獎品或利益」與本句語境不同。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。"
+        "reward-mcq-03": "本句的「reward」指「為取得資料、找回失物或得到協助而預先承諾給予的賞金」。",
+        "reward-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reward-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-03"
     },
@@ -459,11 +419,8 @@ export default {
       "masked": "A cash ____ was offered for the return of the missing dog.",
       "options": [
         "reward-mcq-03",
-        "reward-mcq-02",
-        "reward-mcq-04",
-        "reward-mcq-01",
-        "reward-mcq-05",
-        "reward-mcq-06"
+        "reward-mcq-11",
+        "reward-mcq-08"
       ],
       "explanation": "本句的「reward」指「為取得資料、找回失物或得到協助而預先承諾給予的賞金」。",
       "sentenceIndex": 6,
@@ -472,12 +429,9 @@ export default {
         "reward"
       ],
       "optionReasons": {
-        "reward-mcq-03": "本句指「為取得資料、找回失物或得到協助而預先承諾給予的賞金」。",
-        "reward-mcq-02": "「付出努力、時間或耐性後得到的正面成果、好處或滿足」與本句語境不同。",
-        "reward-mcq-04": "「用來增加某種行為再次出現可能性的正面結果或刺激」與本句語境不同。",
-        "reward-mcq-01": "「因某人的行為、努力或成果而給予的好處、獎品或利益」與本句語境不同。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。"
+        "reward-mcq-03": "本句的「reward」指「為取得資料、找回失物或得到協助而預先承諾給予的賞金」。",
+        "reward-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reward-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-03"
     },
@@ -490,10 +444,7 @@ export default {
       "options": [
         "reward-mcq-04",
         "reward-mcq-03",
-        "reward-mcq-05",
-        "reward-mcq-02",
-        "reward-mcq-06",
-        "reward-mcq-01"
+        "reward-mcq-12"
       ],
       "explanation": "本句的「reward」指「用來增加某種行為再次出現可能性的正面結果或刺激」。",
       "sentenceIndex": 7,
@@ -502,12 +453,9 @@ export default {
         "reward"
       ],
       "optionReasons": {
-        "reward-mcq-04": "本句指「用來增加某種行為再次出現可能性的正面結果或刺激」。",
-        "reward-mcq-03": "「為取得資料、找回失物或得到協助而預先承諾給予的賞金」與本句語境不同。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。",
-        "reward-mcq-02": "「付出努力、時間或耐性後得到的正面成果、好處或滿足」與本句語境不同。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。",
-        "reward-mcq-01": "「因某人的行為、努力或成果而給予的好處、獎品或利益」與本句語境不同。"
+        "reward-mcq-04": "本句的「reward」指「用來增加某種行為再次出現可能性的正面結果或刺激」。",
+        "reward-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "reward-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-04"
     },
@@ -520,10 +468,7 @@ export default {
       "options": [
         "reward-mcq-04",
         "reward-mcq-03",
-        "reward-mcq-05",
-        "reward-mcq-02",
-        "reward-mcq-06",
-        "reward-mcq-01"
+        "reward-mcq-12"
       ],
       "explanation": "本句的「reward」指「用來增加某種行為再次出現可能性的正面結果或刺激」。",
       "sentenceIndex": 8,
@@ -532,12 +477,9 @@ export default {
         "reward"
       ],
       "optionReasons": {
-        "reward-mcq-04": "本句指「用來增加某種行為再次出現可能性的正面結果或刺激」。",
-        "reward-mcq-03": "「為取得資料、找回失物或得到協助而預先承諾給予的賞金」與本句語境不同。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。",
-        "reward-mcq-02": "「付出努力、時間或耐性後得到的正面成果、好處或滿足」與本句語境不同。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。",
-        "reward-mcq-01": "「因某人的行為、努力或成果而給予的好處、獎品或利益」與本句語境不同。"
+        "reward-mcq-04": "本句的「reward」指「用來增加某種行為再次出現可能性的正面結果或刺激」。",
+        "reward-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "reward-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-04"
     },
@@ -549,11 +491,7 @@ export default {
       "masked": "The company ____ employees for their hard work.",
       "options": [
         "reward-mcq-05",
-        "reward-mcq-04",
-        "reward-mcq-06",
-        "reward-mcq-03",
-        "reward-mcq-07",
-        "reward-mcq-02"
+        "reward-mcq-08"
       ],
       "explanation": "本句的「rewarded」指「因某人的努力、行為或成果而給予獎勵、利益或肯定」。",
       "sentenceIndex": 9,
@@ -562,12 +500,8 @@ export default {
         "rewarded"
       ],
       "optionReasons": {
-        "reward-mcq-05": "本句指「因某人的努力、行為或成果而給予獎勵、利益或肯定」。",
-        "reward-mcq-04": "「用來增加某種行為再次出現可能性的正面結果或刺激」與本句語境不同。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。",
-        "reward-mcq-03": "「為取得資料、找回失物或得到協助而預先承諾給予的賞金」與本句語境不同。",
-        "reward-mcq-07": "「因付出後得到有價值成果而令人產生成就感／滿足感的」與本句語境不同。",
-        "reward-mcq-02": "「付出努力、時間或耐性後得到的正面成果、好處或滿足」與本句語境不同。"
+        "reward-mcq-05": "本句的「rewarded」指「因某人的努力、行為或成果而給予獎勵、利益或肯定」。",
+        "reward-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-05"
     },
@@ -579,11 +513,7 @@ export default {
       "masked": "She ____ herself with a quiet afternoon.",
       "options": [
         "reward-mcq-05",
-        "reward-mcq-04",
-        "reward-mcq-06",
-        "reward-mcq-03",
-        "reward-mcq-07",
-        "reward-mcq-02"
+        "reward-mcq-08"
       ],
       "explanation": "本句的「rewarded」指「因某人的努力、行為或成果而給予獎勵、利益或肯定」。",
       "sentenceIndex": 10,
@@ -592,12 +522,8 @@ export default {
         "rewarded"
       ],
       "optionReasons": {
-        "reward-mcq-05": "本句指「因某人的努力、行為或成果而給予獎勵、利益或肯定」。",
-        "reward-mcq-04": "「用來增加某種行為再次出現可能性的正面結果或刺激」與本句語境不同。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。",
-        "reward-mcq-03": "「為取得資料、找回失物或得到協助而預先承諾給予的賞金」與本句語境不同。",
-        "reward-mcq-07": "「因付出後得到有價值成果而令人產生成就感／滿足感的」與本句語境不同。",
-        "reward-mcq-02": "「付出努力、時間或耐性後得到的正面成果、好處或滿足」與本句語境不同。"
+        "reward-mcq-05": "本句的「rewarded」指「因某人的努力、行為或成果而給予獎勵、利益或肯定」。",
+        "reward-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-05"
     },
@@ -609,11 +535,7 @@ export default {
       "masked": "The system ____ patience.",
       "options": [
         "reward-mcq-06",
-        "reward-mcq-05",
-        "reward-mcq-07",
-        "reward-mcq-04",
-        "reward-mcq-08",
-        "reward-mcq-03"
+        "reward-mcq-10"
       ],
       "explanation": "本句的「rewards」指「某種制度／情況令特定行為或品質帶來較好的結果」。",
       "sentenceIndex": 11,
@@ -622,12 +544,8 @@ export default {
         "rewards"
       ],
       "optionReasons": {
-        "reward-mcq-06": "本句指「某種制度／情況令特定行為或品質帶來較好的結果」。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。",
-        "reward-mcq-07": "「因付出後得到有價值成果而令人產生成就感／滿足感的」與本句語境不同。",
-        "reward-mcq-04": "「用來增加某種行為再次出現可能性的正面結果或刺激」與本句語境不同。",
-        "reward-mcq-08": "「能帶來金錢、知識、情感等實際或抽象收穫的」與本句語境不同。",
-        "reward-mcq-03": "「為取得資料、找回失物或得到協助而預先承諾給予的賞金」與本句語境不同。"
+        "reward-mcq-06": "本句的「rewards」指「某種制度／情況令特定行為或品質帶來較好的結果」。",
+        "reward-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-06"
     },
@@ -639,11 +557,8 @@ export default {
       "masked": "Gardening often ____ careful attention.",
       "options": [
         "reward-mcq-06",
-        "reward-mcq-05",
-        "reward-mcq-07",
-        "reward-mcq-04",
-        "reward-mcq-08",
-        "reward-mcq-03"
+        "reward-mcq-03",
+        "reward-mcq-12"
       ],
       "explanation": "本句的「rewards」指「某種制度／情況令特定行為或品質帶來較好的結果」。",
       "sentenceIndex": 12,
@@ -652,12 +567,9 @@ export default {
         "rewards"
       ],
       "optionReasons": {
-        "reward-mcq-06": "本句指「某種制度／情況令特定行為或品質帶來較好的結果」。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。",
-        "reward-mcq-07": "「因付出後得到有價值成果而令人產生成就感／滿足感的」與本句語境不同。",
-        "reward-mcq-04": "「用來增加某種行為再次出現可能性的正面結果或刺激」與本句語境不同。",
-        "reward-mcq-08": "「能帶來金錢、知識、情感等實際或抽象收穫的」與本句語境不同。",
-        "reward-mcq-03": "「為取得資料、找回失物或得到協助而預先承諾給予的賞金」與本句語境不同。"
+        "reward-mcq-06": "本句的「rewards」指「某種制度／情況令特定行為或品質帶來較好的結果」。",
+        "reward-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "reward-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-06"
     },
@@ -669,11 +581,7 @@ export default {
       "masked": "Gardening can be very ____.",
       "options": [
         "reward-mcq-07",
-        "reward-mcq-06",
-        "reward-mcq-08",
-        "reward-mcq-05",
-        "reward-mcq-09",
-        "reward-mcq-04"
+        "reward-mcq-11"
       ],
       "explanation": "本句的「rewarding」指「因付出後得到有價值成果而令人產生成就感／滿足感的」。",
       "sentenceIndex": 13,
@@ -682,12 +590,8 @@ export default {
         "rewarding"
       ],
       "optionReasons": {
-        "reward-mcq-07": "本句指「因付出後得到有價值成果而令人產生成就感／滿足感的」。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。",
-        "reward-mcq-08": "「能帶來金錢、知識、情感等實際或抽象收穫的」與本句語境不同。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。",
-        "reward-mcq-09": "「付出後很少得到滿足、成就或實際利益的」與本句語境不同。",
-        "reward-mcq-04": "「用來增加某種行為再次出現可能性的正面結果或刺激」與本句語境不同。"
+        "reward-mcq-07": "本句的「rewarding」指「因付出後得到有價值成果而令人產生成就感／滿足感的」。",
+        "reward-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-07"
     },
@@ -699,11 +603,7 @@ export default {
       "masked": "Teaching is difficult but ____.",
       "options": [
         "reward-mcq-07",
-        "reward-mcq-06",
-        "reward-mcq-08",
-        "reward-mcq-05",
-        "reward-mcq-09",
-        "reward-mcq-04"
+        "reward-mcq-11"
       ],
       "explanation": "本句的「rewarding」指「因付出後得到有價值成果而令人產生成就感／滿足感的」。",
       "sentenceIndex": 14,
@@ -712,12 +612,8 @@ export default {
         "rewarding"
       ],
       "optionReasons": {
-        "reward-mcq-07": "本句指「因付出後得到有價值成果而令人產生成就感／滿足感的」。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。",
-        "reward-mcq-08": "「能帶來金錢、知識、情感等實際或抽象收穫的」與本句語境不同。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。",
-        "reward-mcq-09": "「付出後很少得到滿足、成就或實際利益的」與本句語境不同。",
-        "reward-mcq-04": "「用來增加某種行為再次出現可能性的正面結果或刺激」與本句語境不同。"
+        "reward-mcq-07": "本句的「rewarding」指「因付出後得到有價值成果而令人產生成就感／滿足感的」。",
+        "reward-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-07"
     },
@@ -729,11 +625,7 @@ export default {
       "masked": "It was a financially ____ investment.",
       "options": [
         "reward-mcq-08",
-        "reward-mcq-07",
-        "reward-mcq-09",
-        "reward-mcq-06",
-        "reward-mcq-10",
-        "reward-mcq-05"
+        "reward-mcq-01"
       ],
       "explanation": "本句的「rewarding」指「能帶來金錢、知識、情感等實際或抽象收穫的」。",
       "sentenceIndex": 15,
@@ -742,12 +634,8 @@ export default {
         "rewarding"
       ],
       "optionReasons": {
-        "reward-mcq-08": "本句指「能帶來金錢、知識、情感等實際或抽象收穫的」。",
-        "reward-mcq-07": "「因付出後得到有價值成果而令人產生成就感／滿足感的」與本句語境不同。",
-        "reward-mcq-09": "「付出後很少得到滿足、成就或實際利益的」與本句語境不同。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。",
-        "reward-mcq-10": "「因工作、投資或表現而得到的金錢利益」與本句語境不同。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。"
+        "reward-mcq-08": "本句的「rewarding」指「能帶來金錢、知識、情感等實際或抽象收穫的」。",
+        "reward-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-08"
     },
@@ -759,10 +647,6 @@ export default {
       "masked": "The experience was intellectually ____.",
       "options": [
         "reward-mcq-08",
-        "reward-mcq-07",
-        "reward-mcq-09",
-        "reward-mcq-06",
-        "reward-mcq-10",
         "reward-mcq-05"
       ],
       "explanation": "本句的「rewarding」指「能帶來金錢、知識、情感等實際或抽象收穫的」。",
@@ -772,12 +656,8 @@ export default {
         "rewarding"
       ],
       "optionReasons": {
-        "reward-mcq-08": "本句指「能帶來金錢、知識、情感等實際或抽象收穫的」。",
-        "reward-mcq-07": "「因付出後得到有價值成果而令人產生成就感／滿足感的」與本句語境不同。",
-        "reward-mcq-09": "「付出後很少得到滿足、成就或實際利益的」與本句語境不同。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。",
-        "reward-mcq-10": "「因工作、投資或表現而得到的金錢利益」與本句語境不同。",
-        "reward-mcq-05": "「因某人的努力、行為或成果而給予獎勵、利益或肯定」與本句語境不同。"
+        "reward-mcq-08": "本句的「rewarding」指「能帶來金錢、知識、情感等實際或抽象收穫的」。",
+        "reward-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-08"
     },
@@ -789,11 +669,7 @@ export default {
       "masked": "The work was repetitive and ____.",
       "options": [
         "reward-mcq-09",
-        "reward-mcq-08",
-        "reward-mcq-10",
-        "reward-mcq-07",
-        "reward-mcq-11",
-        "reward-mcq-06"
+        "reward-mcq-11"
       ],
       "explanation": "本句的「unrewarding」指「付出後很少得到滿足、成就或實際利益的」。",
       "sentenceIndex": 17,
@@ -802,12 +678,8 @@ export default {
         "unrewarding"
       ],
       "optionReasons": {
-        "reward-mcq-09": "本句指「付出後很少得到滿足、成就或實際利益的」。",
-        "reward-mcq-08": "「能帶來金錢、知識、情感等實際或抽象收穫的」與本句語境不同。",
-        "reward-mcq-10": "「因工作、投資或表現而得到的金錢利益」與本句語境不同。",
-        "reward-mcq-07": "「因付出後得到有價值成果而令人產生成就感／滿足感的」與本句語境不同。",
-        "reward-mcq-11": "「透過獎品、待遇、積分等鼓勵某種行為的制度」與本句語境不同。",
-        "reward-mcq-06": "「某種制度／情況令特定行為或品質帶來較好的結果」與本句語境不同。"
+        "reward-mcq-09": "本句的「unrewarding」指「付出後很少得到滿足、成就或實際利益的」。",
+        "reward-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-09"
     },
@@ -819,11 +691,7 @@ export default {
       "masked": "Some people value meaning more than ____.",
       "options": [
         "reward-mcq-10",
-        "reward-mcq-09",
-        "reward-mcq-11",
-        "reward-mcq-08",
-        "reward-mcq-12",
-        "reward-mcq-07"
+        "reward-mcq-11"
       ],
       "explanation": "本句的「financial reward」指「因工作、投資或表現而得到的金錢利益」。",
       "sentenceIndex": 18,
@@ -832,12 +700,8 @@ export default {
         "financial reward"
       ],
       "optionReasons": {
-        "reward-mcq-10": "本句指「因工作、投資或表現而得到的金錢利益」。",
-        "reward-mcq-09": "「付出後很少得到滿足、成就或實際利益的」與本句語境不同。",
-        "reward-mcq-11": "「透過獎品、待遇、積分等鼓勵某種行為的制度」與本句語境不同。",
-        "reward-mcq-08": "「能帶來金錢、知識、情感等實際或抽象收穫的」與本句語境不同。",
-        "reward-mcq-12": "「消費／會員計劃中累積並可兌換優惠的獎賞積分」與本句語境不同。",
-        "reward-mcq-07": "「因付出後得到有價值成果而令人產生成就感／滿足感的」與本句語境不同。"
+        "reward-mcq-10": "本句的「financial reward」指「因工作、投資或表現而得到的金錢利益」。",
+        "reward-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-10"
     },
@@ -849,11 +713,7 @@ export default {
       "masked": "The job offers significant financial ____.",
       "options": [
         "reward-mcq-10",
-        "reward-mcq-09",
-        "reward-mcq-11",
-        "reward-mcq-08",
-        "reward-mcq-12",
-        "reward-mcq-07"
+        "reward-mcq-11"
       ],
       "explanation": "本句的「rewards」指「因工作、投資或表現而得到的金錢利益」。",
       "sentenceIndex": 19,
@@ -862,12 +722,8 @@ export default {
         "rewards"
       ],
       "optionReasons": {
-        "reward-mcq-10": "本句指「因工作、投資或表現而得到的金錢利益」。",
-        "reward-mcq-09": "「付出後很少得到滿足、成就或實際利益的」與本句語境不同。",
-        "reward-mcq-11": "「透過獎品、待遇、積分等鼓勵某種行為的制度」與本句語境不同。",
-        "reward-mcq-08": "「能帶來金錢、知識、情感等實際或抽象收穫的」與本句語境不同。",
-        "reward-mcq-12": "「消費／會員計劃中累積並可兌換優惠的獎賞積分」與本句語境不同。",
-        "reward-mcq-07": "「因付出後得到有價值成果而令人產生成就感／滿足感的」與本句語境不同。"
+        "reward-mcq-10": "本句的「rewards」指「因工作、投資或表現而得到的金錢利益」。",
+        "reward-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-10"
     },
@@ -879,11 +735,8 @@ export default {
       "masked": "The school introduced a new ____.",
       "options": [
         "reward-mcq-11",
-        "reward-mcq-10",
-        "reward-mcq-12",
-        "reward-mcq-09",
-        "reward-mcq-08",
-        "reward-mcq-07"
+        "reward-mcq-03",
+        "reward-mcq-08"
       ],
       "explanation": "本句的「reward system」指「透過獎品、待遇、積分等鼓勵某種行為的制度」。",
       "sentenceIndex": 20,
@@ -892,12 +745,9 @@ export default {
         "reward system"
       ],
       "optionReasons": {
-        "reward-mcq-11": "本句指「透過獎品、待遇、積分等鼓勵某種行為的制度」。",
-        "reward-mcq-10": "「因工作、投資或表現而得到的金錢利益」與本句語境不同。",
-        "reward-mcq-12": "「消費／會員計劃中累積並可兌換優惠的獎賞積分」與本句語境不同。",
-        "reward-mcq-09": "「付出後很少得到滿足、成就或實際利益的」與本句語境不同。",
-        "reward-mcq-08": "「能帶來金錢、知識、情感等實際或抽象收穫的」與本句語境不同。",
-        "reward-mcq-07": "「因付出後得到有價值成果而令人產生成就感／滿足感的」與本句語境不同。"
+        "reward-mcq-11": "本句的「reward system」指「透過獎品、待遇、積分等鼓勵某種行為的制度」。",
+        "reward-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "reward-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-11"
     },
@@ -909,10 +759,6 @@ export default {
       "masked": "A good ____ system should encourage positive behaviour.",
       "options": [
         "reward-mcq-11",
-        "reward-mcq-10",
-        "reward-mcq-12",
-        "reward-mcq-09",
-        "reward-mcq-08",
         "reward-mcq-07"
       ],
       "explanation": "本句的「reward」指「透過獎品、待遇、積分等鼓勵某種行為的制度」。",
@@ -922,12 +768,8 @@ export default {
         "reward"
       ],
       "optionReasons": {
-        "reward-mcq-11": "本句指「透過獎品、待遇、積分等鼓勵某種行為的制度」。",
-        "reward-mcq-10": "「因工作、投資或表現而得到的金錢利益」與本句語境不同。",
-        "reward-mcq-12": "「消費／會員計劃中累積並可兌換優惠的獎賞積分」與本句語境不同。",
-        "reward-mcq-09": "「付出後很少得到滿足、成就或實際利益的」與本句語境不同。",
-        "reward-mcq-08": "「能帶來金錢、知識、情感等實際或抽象收穫的」與本句語境不同。",
-        "reward-mcq-07": "「因付出後得到有價值成果而令人產生成就感／滿足感的」與本句語境不同。"
+        "reward-mcq-11": "本句的「reward」指「透過獎品、待遇、積分等鼓勵某種行為的制度」。",
+        "reward-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-11"
     },
@@ -939,11 +781,8 @@ export default {
       "masked": "You earn ____ every time you shop.",
       "options": [
         "reward-mcq-12",
-        "reward-mcq-11",
-        "reward-mcq-10",
         "reward-mcq-09",
-        "reward-mcq-08",
-        "reward-mcq-07"
+        "reward-mcq-04"
       ],
       "explanation": "本句的「reward points」指「消費／會員計劃中累積並可兌換優惠的獎賞積分」。",
       "sentenceIndex": 22,
@@ -952,12 +791,9 @@ export default {
         "reward points"
       ],
       "optionReasons": {
-        "reward-mcq-12": "本句指「消費／會員計劃中累積並可兌換優惠的獎賞積分」。",
-        "reward-mcq-11": "「透過獎品、待遇、積分等鼓勵某種行為的制度」與本句語境不同。",
-        "reward-mcq-10": "「因工作、投資或表現而得到的金錢利益」與本句語境不同。",
-        "reward-mcq-09": "「付出後很少得到滿足、成就或實際利益的」與本句語境不同。",
-        "reward-mcq-08": "「能帶來金錢、知識、情感等實際或抽象收穫的」與本句語境不同。",
-        "reward-mcq-07": "「因付出後得到有價值成果而令人產生成就感／滿足感的」與本句語境不同。"
+        "reward-mcq-12": "本句的「reward points」指「消費／會員計劃中累積並可兌換優惠的獎賞積分」。",
+        "reward-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "reward-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-12"
     },
@@ -969,11 +805,8 @@ export default {
       "masked": "Customers can exchange ____ points for discounts.",
       "options": [
         "reward-mcq-12",
-        "reward-mcq-11",
-        "reward-mcq-10",
-        "reward-mcq-09",
-        "reward-mcq-08",
-        "reward-mcq-07"
+        "reward-mcq-04",
+        "reward-mcq-09"
       ],
       "explanation": "本句的「reward」指「消費／會員計劃中累積並可兌換優惠的獎賞積分」。",
       "sentenceIndex": 23,
@@ -982,12 +815,9 @@ export default {
         "reward"
       ],
       "optionReasons": {
-        "reward-mcq-12": "本句指「消費／會員計劃中累積並可兌換優惠的獎賞積分」。",
-        "reward-mcq-11": "「透過獎品、待遇、積分等鼓勵某種行為的制度」與本句語境不同。",
-        "reward-mcq-10": "「因工作、投資或表現而得到的金錢利益」與本句語境不同。",
-        "reward-mcq-09": "「付出後很少得到滿足、成就或實際利益的」與本句語境不同。",
-        "reward-mcq-08": "「能帶來金錢、知識、情感等實際或抽象收穫的」與本句語境不同。",
-        "reward-mcq-07": "「因付出後得到有價值成果而令人產生成就感／滿足感的」與本句語境不同。"
+        "reward-mcq-12": "本句的「reward」指「消費／會員計劃中累積並可兌換優惠的獎賞積分」。",
+        "reward-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reward-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reward-mcq-12"
     }
@@ -999,5 +829,7 @@ export default {
     "sha256": "7eef8fdfc60528115dc0b9c70e184bde699247a2a7cc69a24f5cf89966d89d95",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

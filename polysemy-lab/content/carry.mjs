@@ -781,11 +781,9 @@ export default {
       "masked": "She ____ upstairs.",
       "options": [
         "carry-mcq-01",
-        "carry-mcq-02",
-        "carry-mcq-03",
-        "carry-mcq-04",
-        "carry-mcq-05",
-        "carry-mcq-06"
+        "carry-mcq-14",
+        "carry-mcq-31",
+        "carry-mcq-28"
       ],
       "explanation": "本句的「carried the box」指「拿著、支撐某物並把它移到另一處；搬／攜帶」。",
       "sentenceIndex": 2,
@@ -794,12 +792,10 @@ export default {
         "carried the box"
       ],
       "optionReasons": {
-        "carry-mcq-01": "本句指「拿著、支撐某物並把它移到另一處；搬／攜帶」。",
-        "carry-mcq-02": "「把某物隨身帶著」與本句語境不同。",
-        "carry-mcq-03": "「運送乘客、貨物等」與本句語境不同。",
-        "carry-mcq-04": "「承受、支撐重量」與本句語境不同。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。"
+        "carry-mcq-01": "本句的「carried the box」指「拿著、支撐某物並把它移到另一處；搬／攜帶」。",
+        "carry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-01"
     },
@@ -811,11 +807,9 @@ export default {
       "masked": "He ____ in each hand.",
       "options": [
         "carry-mcq-01",
-        "carry-mcq-02",
-        "carry-mcq-03",
-        "carry-mcq-04",
-        "carry-mcq-05",
-        "carry-mcq-06"
+        "carry-mcq-25",
+        "carry-mcq-12",
+        "carry-mcq-03"
       ],
       "explanation": "本句的「carried a bag」指「拿著、支撐某物並把它移到另一處；搬／攜帶」。",
       "sentenceIndex": 3,
@@ -824,12 +818,10 @@ export default {
         "carried a bag"
       ],
       "optionReasons": {
-        "carry-mcq-01": "本句指「拿著、支撐某物並把它移到另一處；搬／攜帶」。",
-        "carry-mcq-02": "「把某物隨身帶著」與本句語境不同。",
-        "carry-mcq-03": "「運送乘客、貨物等」與本句語境不同。",
-        "carry-mcq-04": "「承受、支撐重量」與本句語境不同。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。"
+        "carry-mcq-01": "本句的「carried a bag」指「拿著、支撐某物並把它移到另一處；搬／攜帶」。",
+        "carry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-01"
     },
@@ -841,11 +833,9 @@ export default {
       "masked": "I always ____.",
       "options": [
         "carry-mcq-02",
-        "carry-mcq-01",
-        "carry-mcq-03",
-        "carry-mcq-04",
-        "carry-mcq-05",
-        "carry-mcq-06"
+        "carry-mcq-25",
+        "carry-mcq-06",
+        "carry-mcq-13"
       ],
       "explanation": "本句的「carry a pen with me」指「把某物隨身帶著」。",
       "sentenceIndex": 4,
@@ -854,12 +844,10 @@ export default {
         "carry a pen with me"
       ],
       "optionReasons": {
-        "carry-mcq-02": "本句指「把某物隨身帶著」。",
-        "carry-mcq-01": "「拿著、支撐某物並把它移到另一處；搬／攜帶」與本句語境不同。",
-        "carry-mcq-03": "「運送乘客、貨物等」與本句語境不同。",
-        "carry-mcq-04": "「承受、支撐重量」與本句語境不同。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。"
+        "carry-mcq-02": "本句的「carry a pen with me」指「把某物隨身帶著」。",
+        "carry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-02"
     },
@@ -871,11 +859,9 @@ export default {
       "masked": "She ____ everywhere.",
       "options": [
         "carry-mcq-02",
-        "carry-mcq-01",
-        "carry-mcq-03",
-        "carry-mcq-04",
-        "carry-mcq-05",
-        "carry-mcq-06"
+        "carry-mcq-32",
+        "carry-mcq-26",
+        "carry-mcq-21"
       ],
       "explanation": "本句的「carries her phone」指「把某物隨身帶著」。",
       "sentenceIndex": 5,
@@ -884,12 +870,10 @@ export default {
         "carries her phone"
       ],
       "optionReasons": {
-        "carry-mcq-02": "本句指「把某物隨身帶著」。",
-        "carry-mcq-01": "「拿著、支撐某物並把它移到另一處；搬／攜帶」與本句語境不同。",
-        "carry-mcq-03": "「運送乘客、貨物等」與本句語境不同。",
-        "carry-mcq-04": "「承受、支撐重量」與本句語境不同。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。"
+        "carry-mcq-02": "本句的「carries her phone」指「把某物隨身帶著」。",
+        "carry-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-02"
     },
@@ -901,11 +885,9 @@ export default {
       "masked": "The bus can ____.",
       "options": [
         "carry-mcq-03",
-        "carry-mcq-02",
-        "carry-mcq-04",
-        "carry-mcq-01",
-        "carry-mcq-05",
-        "carry-mcq-06"
+        "carry-mcq-22",
+        "carry-mcq-21",
+        "carry-mcq-32"
       ],
       "explanation": "本句的「carry fifty passengers」指「運送乘客、貨物等」。",
       "sentenceIndex": 6,
@@ -914,12 +896,10 @@ export default {
         "carry fifty passengers"
       ],
       "optionReasons": {
-        "carry-mcq-03": "本句指「運送乘客、貨物等」。",
-        "carry-mcq-02": "「把某物隨身帶著」與本句語境不同。",
-        "carry-mcq-04": "「承受、支撐重量」與本句語境不同。",
-        "carry-mcq-01": "「拿著、支撐某物並把它移到另一處；搬／攜帶」與本句語境不同。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。"
+        "carry-mcq-03": "本句的「carry fifty passengers」指「運送乘客、貨物等」。",
+        "carry-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-03"
     },
@@ -931,11 +911,9 @@ export default {
       "masked": "The ship ____ across the ocean.",
       "options": [
         "carry-mcq-03",
-        "carry-mcq-02",
-        "carry-mcq-04",
-        "carry-mcq-01",
-        "carry-mcq-05",
-        "carry-mcq-06"
+        "carry-mcq-11",
+        "carry-mcq-21",
+        "carry-mcq-25"
       ],
       "explanation": "本句的「carries cargo」指「運送乘客、貨物等」。",
       "sentenceIndex": 7,
@@ -944,12 +922,10 @@ export default {
         "carries cargo"
       ],
       "optionReasons": {
-        "carry-mcq-03": "本句指「運送乘客、貨物等」。",
-        "carry-mcq-02": "「把某物隨身帶著」與本句語境不同。",
-        "carry-mcq-04": "「承受、支撐重量」與本句語境不同。",
-        "carry-mcq-01": "「拿著、支撐某物並把它移到另一處；搬／攜帶」與本句語境不同。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。"
+        "carry-mcq-03": "本句的「carries cargo」指「運送乘客、貨物等」。",
+        "carry-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-03"
     },
@@ -961,11 +937,9 @@ export default {
       "masked": "The train ____ every day.",
       "options": [
         "carry-mcq-03",
-        "carry-mcq-02",
-        "carry-mcq-04",
-        "carry-mcq-01",
-        "carry-mcq-05",
-        "carry-mcq-06"
+        "carry-mcq-15",
+        "carry-mcq-14",
+        "carry-mcq-12"
       ],
       "explanation": "本句的「carries thousands of passengers」指「運送乘客、貨物等」。",
       "sentenceIndex": 8,
@@ -974,12 +948,10 @@ export default {
         "carries thousands of passengers"
       ],
       "optionReasons": {
-        "carry-mcq-03": "本句指「運送乘客、貨物等」。",
-        "carry-mcq-02": "「把某物隨身帶著」與本句語境不同。",
-        "carry-mcq-04": "「承受、支撐重量」與本句語境不同。",
-        "carry-mcq-01": "「拿著、支撐某物並把它移到另一處；搬／攜帶」與本句語境不同。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。"
+        "carry-mcq-03": "本句的「carries thousands of passengers」指「運送乘客、貨物等」。",
+        "carry-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-03"
     },
@@ -991,11 +963,9 @@ export default {
       "masked": "This aircraft can ____.",
       "options": [
         "carry-mcq-03",
-        "carry-mcq-02",
-        "carry-mcq-04",
-        "carry-mcq-01",
-        "carry-mcq-05",
-        "carry-mcq-06"
+        "carry-mcq-07",
+        "carry-mcq-14",
+        "carry-mcq-09"
       ],
       "explanation": "本句的「carry heavy cargo」指「運送乘客、貨物等」。",
       "sentenceIndex": 9,
@@ -1004,12 +974,10 @@ export default {
         "carry heavy cargo"
       ],
       "optionReasons": {
-        "carry-mcq-03": "本句指「運送乘客、貨物等」。",
-        "carry-mcq-02": "「把某物隨身帶著」與本句語境不同。",
-        "carry-mcq-04": "「承受、支撐重量」與本句語境不同。",
-        "carry-mcq-01": "「拿著、支撐某物並把它移到另一處；搬／攜帶」與本句語境不同。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。"
+        "carry-mcq-03": "本句的「carry heavy cargo」指「運送乘客、貨物等」。",
+        "carry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-03"
     },
@@ -1021,11 +989,9 @@ export default {
       "masked": "These beams ____.",
       "options": [
         "carry-mcq-04",
-        "carry-mcq-03",
-        "carry-mcq-05",
-        "carry-mcq-02",
-        "carry-mcq-06",
-        "carry-mcq-01"
+        "carry-mcq-28",
+        "carry-mcq-26",
+        "carry-mcq-02"
       ],
       "explanation": "本句的「carry the weight of the roof」指「承受、支撐重量」。",
       "sentenceIndex": 10,
@@ -1034,12 +1000,10 @@ export default {
         "carry the weight of the roof"
       ],
       "optionReasons": {
-        "carry-mcq-04": "本句指「承受、支撐重量」。",
-        "carry-mcq-03": "「運送乘客、貨物等」與本句語境不同。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。",
-        "carry-mcq-02": "「把某物隨身帶著」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。",
-        "carry-mcq-01": "「拿著、支撐某物並把它移到另一處；搬／攜帶」與本句語境不同。"
+        "carry-mcq-04": "本句的「carry the weight of the roof」指「承受、支撐重量」。",
+        "carry-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-04"
     },
@@ -1051,11 +1015,9 @@ export default {
       "masked": "The bridge can ____.",
       "options": [
         "carry-mcq-04",
-        "carry-mcq-03",
-        "carry-mcq-05",
-        "carry-mcq-02",
-        "carry-mcq-06",
-        "carry-mcq-01"
+        "carry-mcq-25",
+        "carry-mcq-30",
+        "carry-mcq-27"
       ],
       "explanation": "本句的「carry heavy loads」指「承受、支撐重量」。",
       "sentenceIndex": 11,
@@ -1064,12 +1026,10 @@ export default {
         "carry heavy loads"
       ],
       "optionReasons": {
-        "carry-mcq-04": "本句指「承受、支撐重量」。",
-        "carry-mcq-03": "「運送乘客、貨物等」與本句語境不同。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。",
-        "carry-mcq-02": "「把某物隨身帶著」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。",
-        "carry-mcq-01": "「拿著、支撐某物並把它移到另一處；搬／攜帶」與本句語境不同。"
+        "carry-mcq-04": "本句的「carry heavy loads」指「承受、支撐重量」。",
+        "carry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-04"
     },
@@ -1081,11 +1041,9 @@ export default {
       "masked": "The blood ____ around the body.",
       "options": [
         "carry-mcq-05",
-        "carry-mcq-04",
-        "carry-mcq-06",
-        "carry-mcq-03",
-        "carry-mcq-07",
-        "carry-mcq-02"
+        "carry-mcq-15",
+        "carry-mcq-08",
+        "carry-mcq-21"
       ],
       "explanation": "本句的「carries oxygen」指「帶有、包含某物」。",
       "sentenceIndex": 12,
@@ -1094,12 +1052,10 @@ export default {
         "carries oxygen"
       ],
       "optionReasons": {
-        "carry-mcq-05": "本句指「帶有、包含某物」。",
-        "carry-mcq-04": "「承受、支撐重量」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。",
-        "carry-mcq-03": "「運送乘客、貨物等」與本句語境不同。",
-        "carry-mcq-07": "「承載、傳遞某種意義、情感或訊息」與本句語境不同。",
-        "carry-mcq-02": "「把某物隨身帶著」與本句語境不同。"
+        "carry-mcq-05": "本句的「carries oxygen」指「帶有、包含某物」。",
+        "carry-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-05"
     },
@@ -1111,11 +1067,9 @@ export default {
       "masked": "The label ____.",
       "options": [
         "carry-mcq-05",
-        "carry-mcq-04",
+        "carry-mcq-30",
         "carry-mcq-06",
-        "carry-mcq-03",
-        "carry-mcq-07",
-        "carry-mcq-02"
+        "carry-mcq-04"
       ],
       "explanation": "本句的「carries a warning」指「帶有、包含某物」。",
       "sentenceIndex": 13,
@@ -1124,12 +1078,10 @@ export default {
         "carries a warning"
       ],
       "optionReasons": {
-        "carry-mcq-05": "本句指「帶有、包含某物」。",
-        "carry-mcq-04": "「承受、支撐重量」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。",
-        "carry-mcq-03": "「運送乘客、貨物等」與本句語境不同。",
-        "carry-mcq-07": "「承載、傳遞某種意義、情感或訊息」與本句語境不同。",
-        "carry-mcq-02": "「把某物隨身帶著」與本句語境不同。"
+        "carry-mcq-05": "本句的「carries a warning」指「帶有、包含某物」。",
+        "carry-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-05"
     },
@@ -1141,11 +1093,9 @@ export default {
       "masked": "The cable ____.",
       "options": [
         "carry-mcq-06",
-        "carry-mcq-05",
-        "carry-mcq-07",
-        "carry-mcq-04",
-        "carry-mcq-08",
-        "carry-mcq-03"
+        "carry-mcq-28",
+        "carry-mcq-31",
+        "carry-mcq-30"
       ],
       "explanation": "本句的「carries data」指「承載或傳送資訊／資料」。",
       "sentenceIndex": 14,
@@ -1154,12 +1104,10 @@ export default {
         "carries data"
       ],
       "optionReasons": {
-        "carry-mcq-06": "本句指「承載或傳送資訊／資料」。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。",
-        "carry-mcq-07": "「承載、傳遞某種意義、情感或訊息」與本句語境不同。",
-        "carry-mcq-04": "「承受、支撐重量」與本句語境不同。",
-        "carry-mcq-08": "「傳達某個訊息或寓意」與本句語境不同。",
-        "carry-mcq-03": "「運送乘客、貨物等」與本句語境不同。"
+        "carry-mcq-06": "本句的「carries data」指「承載或傳送資訊／資料」。",
+        "carry-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-06"
     },
@@ -1171,11 +1119,9 @@ export default {
       "masked": "Radio waves can ____ over long distances.",
       "options": [
         "carry-mcq-06",
-        "carry-mcq-05",
-        "carry-mcq-07",
-        "carry-mcq-04",
-        "carry-mcq-08",
-        "carry-mcq-03"
+        "carry-mcq-31",
+        "carry-mcq-20",
+        "carry-mcq-25"
       ],
       "explanation": "本句的「carry information」指「承載或傳送資訊／資料」。",
       "sentenceIndex": 15,
@@ -1184,12 +1130,10 @@ export default {
         "carry information"
       ],
       "optionReasons": {
-        "carry-mcq-06": "本句指「承載或傳送資訊／資料」。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。",
-        "carry-mcq-07": "「承載、傳遞某種意義、情感或訊息」與本句語境不同。",
-        "carry-mcq-04": "「承受、支撐重量」與本句語境不同。",
-        "carry-mcq-08": "「傳達某個訊息或寓意」與本句語境不同。",
-        "carry-mcq-03": "「運送乘客、貨物等」與本句語境不同。"
+        "carry-mcq-06": "本句的「carry information」指「承載或傳送資訊／資料」。",
+        "carry-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-06"
     },
@@ -1201,11 +1145,9 @@ export default {
       "masked": "Her voice ____.",
       "options": [
         "carry-mcq-07",
-        "carry-mcq-06",
-        "carry-mcq-08",
-        "carry-mcq-05",
-        "carry-mcq-09",
-        "carry-mcq-04"
+        "carry-mcq-01",
+        "carry-mcq-12",
+        "carry-mcq-27"
       ],
       "explanation": "本句的「carried a note of sadness」指「承載、傳遞某種意義、情感或訊息」。",
       "sentenceIndex": 16,
@@ -1214,12 +1156,10 @@ export default {
         "carried a note of sadness"
       ],
       "optionReasons": {
-        "carry-mcq-07": "本句指「承載、傳遞某種意義、情感或訊息」。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。",
-        "carry-mcq-08": "「傳達某個訊息或寓意」與本句語境不同。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。",
-        "carry-mcq-09": "「聲音能傳到遠處」與本句語境不同。",
-        "carry-mcq-04": "「承受、支撐重量」與本句語境不同。"
+        "carry-mcq-07": "本句的「carried a note of sadness」指「承載、傳遞某種意義、情感或訊息」。",
+        "carry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-07"
     },
@@ -1231,11 +1171,9 @@ export default {
       "masked": "The symbol ____.",
       "options": [
         "carry-mcq-07",
-        "carry-mcq-06",
-        "carry-mcq-08",
-        "carry-mcq-05",
-        "carry-mcq-09",
-        "carry-mcq-04"
+        "carry-mcq-20",
+        "carry-mcq-03",
+        "carry-mcq-31"
       ],
       "explanation": "本句的「carries deep meaning」指「承載、傳遞某種意義、情感或訊息」。",
       "sentenceIndex": 17,
@@ -1244,12 +1182,10 @@ export default {
         "carries deep meaning"
       ],
       "optionReasons": {
-        "carry-mcq-07": "本句指「承載、傳遞某種意義、情感或訊息」。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。",
-        "carry-mcq-08": "「傳達某個訊息或寓意」與本句語境不同。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。",
-        "carry-mcq-09": "「聲音能傳到遠處」與本句語境不同。",
-        "carry-mcq-04": "「承受、支撐重量」與本句語境不同。"
+        "carry-mcq-07": "本句的「carries deep meaning」指「承載、傳遞某種意義、情感或訊息」。",
+        "carry-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-07"
     },
@@ -1261,11 +1197,9 @@ export default {
       "masked": "The story ____ about friendship.",
       "options": [
         "carry-mcq-08",
-        "carry-mcq-07",
-        "carry-mcq-09",
-        "carry-mcq-06",
-        "carry-mcq-10",
-        "carry-mcq-05"
+        "carry-mcq-20",
+        "carry-mcq-27",
+        "carry-mcq-03"
       ],
       "explanation": "本句的「carries a strong message」指「傳達某個訊息或寓意」。",
       "sentenceIndex": 18,
@@ -1274,12 +1208,10 @@ export default {
         "carries a strong message"
       ],
       "optionReasons": {
-        "carry-mcq-08": "本句指「傳達某個訊息或寓意」。",
-        "carry-mcq-07": "「承載、傳遞某種意義、情感或訊息」與本句語境不同。",
-        "carry-mcq-09": "「聲音能傳到遠處」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。",
-        "carry-mcq-10": "「攜帶並可能傳播病原體」與本句語境不同。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。"
+        "carry-mcq-08": "本句的「carries a strong message」指「傳達某個訊息或寓意」。",
+        "carry-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-08"
     },
@@ -1291,11 +1223,9 @@ export default {
       "masked": "The gift ____.",
       "options": [
         "carry-mcq-08",
-        "carry-mcq-07",
-        "carry-mcq-09",
-        "carry-mcq-06",
-        "carry-mcq-10",
-        "carry-mcq-05"
+        "carry-mcq-20",
+        "carry-mcq-15",
+        "carry-mcq-33"
       ],
       "explanation": "本句的「carried a message of confidence」指「傳達某個訊息或寓意」。",
       "sentenceIndex": 19,
@@ -1304,12 +1234,10 @@ export default {
         "carried a message of confidence"
       ],
       "optionReasons": {
-        "carry-mcq-08": "本句指「傳達某個訊息或寓意」。",
-        "carry-mcq-07": "「承載、傳遞某種意義、情感或訊息」與本句語境不同。",
-        "carry-mcq-09": "「聲音能傳到遠處」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。",
-        "carry-mcq-10": "「攜帶並可能傳播病原體」與本句語境不同。",
-        "carry-mcq-05": "「帶有、包含某物」與本句語境不同。"
+        "carry-mcq-08": "本句的「carried a message of confidence」指「傳達某個訊息或寓意」。",
+        "carry-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-08"
     },
@@ -1321,11 +1249,9 @@ export default {
       "masked": "Her voice ____ across the room.",
       "options": [
         "carry-mcq-09",
-        "carry-mcq-08",
-        "carry-mcq-10",
-        "carry-mcq-07",
-        "carry-mcq-11",
-        "carry-mcq-06"
+        "carry-mcq-14",
+        "carry-mcq-02",
+        "carry-mcq-16"
       ],
       "explanation": "本句的「carries well」指「聲音能傳到遠處」。",
       "sentenceIndex": 20,
@@ -1334,12 +1260,10 @@ export default {
         "carries well"
       ],
       "optionReasons": {
-        "carry-mcq-09": "本句指「聲音能傳到遠處」。",
-        "carry-mcq-08": "「傳達某個訊息或寓意」與本句語境不同。",
-        "carry-mcq-10": "「攜帶並可能傳播病原體」與本句語境不同。",
-        "carry-mcq-07": "「承載、傳遞某種意義、情感或訊息」與本句語境不同。",
-        "carry-mcq-11": "「攜帶某種可遺傳的基因／基因變異」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。"
+        "carry-mcq-09": "本句的「carries well」指「聲音能傳到遠處」。",
+        "carry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-09"
     },
@@ -1351,11 +1275,9 @@ export default {
       "masked": "Sound ____ differently over water.",
       "options": [
         "carry-mcq-09",
-        "carry-mcq-08",
-        "carry-mcq-10",
-        "carry-mcq-07",
-        "carry-mcq-11",
-        "carry-mcq-06"
+        "carry-mcq-20",
+        "carry-mcq-21",
+        "carry-mcq-27"
       ],
       "explanation": "本句的「carries」指「聲音能傳到遠處」。",
       "sentenceIndex": 21,
@@ -1364,12 +1286,10 @@ export default {
         "carries"
       ],
       "optionReasons": {
-        "carry-mcq-09": "本句指「聲音能傳到遠處」。",
-        "carry-mcq-08": "「傳達某個訊息或寓意」與本句語境不同。",
-        "carry-mcq-10": "「攜帶並可能傳播病原體」與本句語境不同。",
-        "carry-mcq-07": "「承載、傳遞某種意義、情感或訊息」與本句語境不同。",
-        "carry-mcq-11": "「攜帶某種可遺傳的基因／基因變異」與本句語境不同。",
-        "carry-mcq-06": "「承載或傳送資訊／資料」與本句語境不同。"
+        "carry-mcq-09": "本句的「carries」指「聲音能傳到遠處」。",
+        "carry-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-09"
     },
@@ -1381,11 +1301,9 @@ export default {
       "masked": "Some animals can ____ without symptoms.",
       "options": [
         "carry-mcq-10",
-        "carry-mcq-09",
-        "carry-mcq-11",
-        "carry-mcq-08",
-        "carry-mcq-12",
-        "carry-mcq-07"
+        "carry-mcq-28",
+        "carry-mcq-18",
+        "carry-mcq-04"
       ],
       "explanation": "本句的「carry the virus」指「攜帶並可能傳播病原體」。",
       "sentenceIndex": 22,
@@ -1394,12 +1312,10 @@ export default {
         "carry the virus"
       ],
       "optionReasons": {
-        "carry-mcq-10": "本句指「攜帶並可能傳播病原體」。",
-        "carry-mcq-09": "「聲音能傳到遠處」與本句語境不同。",
-        "carry-mcq-11": "「攜帶某種可遺傳的基因／基因變異」與本句語境不同。",
-        "carry-mcq-08": "「傳達某個訊息或寓意」與本句語境不同。",
-        "carry-mcq-12": "「商店備有、販售或經銷某產品」與本句語境不同。",
-        "carry-mcq-07": "「承載、傳遞某種意義、情感或訊息」與本句語境不同。"
+        "carry-mcq-10": "本句的「carry the virus」指「攜帶並可能傳播病原體」。",
+        "carry-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-10"
     },
@@ -1411,11 +1327,9 @@ export default {
       "masked": "Mosquitoes can ____.",
       "options": [
         "carry-mcq-10",
-        "carry-mcq-09",
-        "carry-mcq-11",
-        "carry-mcq-08",
-        "carry-mcq-12",
-        "carry-mcq-07"
+        "carry-mcq-22",
+        "carry-mcq-03",
+        "carry-mcq-33"
       ],
       "explanation": "本句的「carry disease」指「攜帶並可能傳播病原體」。",
       "sentenceIndex": 23,
@@ -1424,12 +1338,10 @@ export default {
         "carry disease"
       ],
       "optionReasons": {
-        "carry-mcq-10": "本句指「攜帶並可能傳播病原體」。",
-        "carry-mcq-09": "「聲音能傳到遠處」與本句語境不同。",
-        "carry-mcq-11": "「攜帶某種可遺傳的基因／基因變異」與本句語境不同。",
-        "carry-mcq-08": "「傳達某個訊息或寓意」與本句語境不同。",
-        "carry-mcq-12": "「商店備有、販售或經銷某產品」與本句語境不同。",
-        "carry-mcq-07": "「承載、傳遞某種意義、情感或訊息」與本句語境不同。"
+        "carry-mcq-10": "本句的「carry disease」指「攜帶並可能傳播病原體」。",
+        "carry-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-10"
     },
@@ -1441,11 +1353,9 @@ export default {
       "masked": "A person may ____ without showing symptoms.",
       "options": [
         "carry-mcq-11",
-        "carry-mcq-10",
-        "carry-mcq-12",
-        "carry-mcq-09",
         "carry-mcq-13",
-        "carry-mcq-08"
+        "carry-mcq-27",
+        "carry-mcq-22"
       ],
       "explanation": "本句的「carry the gene」指「攜帶某種可遺傳的基因／基因變異」。",
       "sentenceIndex": 24,
@@ -1454,12 +1364,10 @@ export default {
         "carry the gene"
       ],
       "optionReasons": {
-        "carry-mcq-11": "本句指「攜帶某種可遺傳的基因／基因變異」。",
-        "carry-mcq-10": "「攜帶並可能傳播病原體」與本句語境不同。",
-        "carry-mcq-12": "「商店備有、販售或經銷某產品」與本句語境不同。",
-        "carry-mcq-09": "「聲音能傳到遠處」與本句語境不同。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。",
-        "carry-mcq-08": "「傳達某個訊息或寓意」與本句語境不同。"
+        "carry-mcq-11": "本句的「carry the gene」指「攜帶某種可遺傳的基因／基因變異」。",
+        "carry-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-11"
     },
@@ -1471,11 +1379,9 @@ export default {
       "masked": "Both parents ____.",
       "options": [
         "carry-mcq-11",
-        "carry-mcq-10",
-        "carry-mcq-12",
-        "carry-mcq-09",
-        "carry-mcq-13",
-        "carry-mcq-08"
+        "carry-mcq-22",
+        "carry-mcq-27",
+        "carry-mcq-13"
       ],
       "explanation": "本句的「carry the genetic variant」指「攜帶某種可遺傳的基因／基因變異」。",
       "sentenceIndex": 25,
@@ -1484,12 +1390,10 @@ export default {
         "carry the genetic variant"
       ],
       "optionReasons": {
-        "carry-mcq-11": "本句指「攜帶某種可遺傳的基因／基因變異」。",
-        "carry-mcq-10": "「攜帶並可能傳播病原體」與本句語境不同。",
-        "carry-mcq-12": "「商店備有、販售或經銷某產品」與本句語境不同。",
-        "carry-mcq-09": "「聲音能傳到遠處」與本句語境不同。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。",
-        "carry-mcq-08": "「傳達某個訊息或寓意」與本句語境不同。"
+        "carry-mcq-11": "本句的「carry the genetic variant」指「攜帶某種可遺傳的基因／基因變異」。",
+        "carry-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-11"
     },
@@ -1501,11 +1405,9 @@ export default {
       "masked": "Does this shop ____?",
       "options": [
         "carry-mcq-12",
-        "carry-mcq-11",
-        "carry-mcq-13",
-        "carry-mcq-10",
-        "carry-mcq-14",
-        "carry-mcq-09"
+        "carry-mcq-30",
+        "carry-mcq-01",
+        "carry-mcq-21"
       ],
       "explanation": "本句的「carry fountain pens」指「商店備有、販售或經銷某產品」。",
       "sentenceIndex": 26,
@@ -1514,12 +1416,10 @@ export default {
         "carry fountain pens"
       ],
       "optionReasons": {
-        "carry-mcq-12": "本句指「商店備有、販售或經銷某產品」。",
-        "carry-mcq-11": "「攜帶某種可遺傳的基因／基因變異」與本句語境不同。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。",
-        "carry-mcq-10": "「攜帶並可能傳播病原體」與本句語境不同。",
-        "carry-mcq-14": "「背負實際或情緒上的重擔」與本句語境不同。",
-        "carry-mcq-09": "「聲音能傳到遠處」與本句語境不同。"
+        "carry-mcq-12": "本句的「carry fountain pens」指「商店備有、販售或經銷某產品」。",
+        "carry-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-12"
     },
@@ -1531,11 +1431,9 @@ export default {
       "masked": "The store ____.",
       "options": [
         "carry-mcq-12",
-        "carry-mcq-11",
-        "carry-mcq-13",
-        "carry-mcq-10",
-        "carry-mcq-14",
-        "carry-mcq-09"
+        "carry-mcq-25",
+        "carry-mcq-07",
+        "carry-mcq-33"
       ],
       "explanation": "本句的「carries several brands」指「商店備有、販售或經銷某產品」。",
       "sentenceIndex": 27,
@@ -1544,12 +1442,10 @@ export default {
         "carries several brands"
       ],
       "optionReasons": {
-        "carry-mcq-12": "本句指「商店備有、販售或經銷某產品」。",
-        "carry-mcq-11": "「攜帶某種可遺傳的基因／基因變異」與本句語境不同。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。",
-        "carry-mcq-10": "「攜帶並可能傳播病原體」與本句語境不同。",
-        "carry-mcq-14": "「背負實際或情緒上的重擔」與本句語境不同。",
-        "carry-mcq-09": "「聲音能傳到遠處」與本句語境不同。"
+        "carry-mcq-12": "本句的「carries several brands」指「商店備有、販售或經銷某產品」。",
+        "carry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-12"
     },
@@ -1562,10 +1458,8 @@ export default {
       "options": [
         "carry-mcq-13",
         "carry-mcq-12",
-        "carry-mcq-14",
-        "carry-mcq-11",
-        "carry-mcq-15",
-        "carry-mcq-10"
+        "carry-mcq-02",
+        "carry-mcq-03"
       ],
       "explanation": "本句的「carry a lot of responsibility」指「承擔責任」。",
       "sentenceIndex": 28,
@@ -1574,12 +1468,10 @@ export default {
         "carry a lot of responsibility"
       ],
       "optionReasons": {
-        "carry-mcq-13": "本句指「承擔責任」。",
-        "carry-mcq-12": "「商店備有、販售或經銷某產品」與本句語境不同。",
-        "carry-mcq-14": "「背負實際或情緒上的重擔」與本句語境不同。",
-        "carry-mcq-11": "「攜帶某種可遺傳的基因／基因變異」與本句語境不同。",
-        "carry-mcq-15": "「某行為伴隨某項處罰或風險」與本句語境不同。",
-        "carry-mcq-10": "「攜帶並可能傳播病原體」與本句語境不同。"
+        "carry-mcq-13": "本句的「carry a lot of responsibility」指「承擔責任」。",
+        "carry-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-13"
     },
@@ -1591,11 +1483,9 @@ export default {
       "masked": "She ____ for the final decision.",
       "options": [
         "carry-mcq-13",
-        "carry-mcq-12",
-        "carry-mcq-14",
-        "carry-mcq-11",
-        "carry-mcq-15",
-        "carry-mcq-10"
+        "carry-mcq-18",
+        "carry-mcq-33",
+        "carry-mcq-03"
       ],
       "explanation": "本句的「carries responsibility」指「承擔責任」。",
       "sentenceIndex": 29,
@@ -1604,12 +1494,10 @@ export default {
         "carries responsibility"
       ],
       "optionReasons": {
-        "carry-mcq-13": "本句指「承擔責任」。",
-        "carry-mcq-12": "「商店備有、販售或經銷某產品」與本句語境不同。",
-        "carry-mcq-14": "「背負實際或情緒上的重擔」與本句語境不同。",
-        "carry-mcq-11": "「攜帶某種可遺傳的基因／基因變異」與本句語境不同。",
-        "carry-mcq-15": "「某行為伴隨某項處罰或風險」與本句語境不同。",
-        "carry-mcq-10": "「攜帶並可能傳播病原體」與本句語境不同。"
+        "carry-mcq-13": "本句的「carries responsibility」指「承擔責任」。",
+        "carry-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-13"
     },
@@ -1621,11 +1509,9 @@ export default {
       "masked": "He had ____ alone for years.",
       "options": [
         "carry-mcq-14",
-        "carry-mcq-13",
-        "carry-mcq-15",
-        "carry-mcq-12",
-        "carry-mcq-16",
-        "carry-mcq-11"
+        "carry-mcq-06",
+        "carry-mcq-31",
+        "carry-mcq-16"
       ],
       "explanation": "本句的「carried the burden」指「背負實際或情緒上的重擔」。",
       "sentenceIndex": 30,
@@ -1634,12 +1520,10 @@ export default {
         "carried the burden"
       ],
       "optionReasons": {
-        "carry-mcq-14": "本句指「背負實際或情緒上的重擔」。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。",
-        "carry-mcq-15": "「某行為伴隨某項處罰或風險」與本句語境不同。",
-        "carry-mcq-12": "「商店備有、販售或經銷某產品」與本句語境不同。",
-        "carry-mcq-16": "「動議、提案等經表決獲得通過」與本句語境不同。",
-        "carry-mcq-11": "「攜帶某種可遺傳的基因／基因變異」與本句語境不同。"
+        "carry-mcq-14": "本句的「carried the burden」指「背負實際或情緒上的重擔」。",
+        "carry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-14"
     },
@@ -1651,11 +1535,9 @@ export default {
       "masked": "She no longer wanted to ____.",
       "options": [
         "carry-mcq-14",
-        "carry-mcq-13",
-        "carry-mcq-15",
-        "carry-mcq-12",
-        "carry-mcq-16",
-        "carry-mcq-11"
+        "carry-mcq-28",
+        "carry-mcq-30",
+        "carry-mcq-02"
       ],
       "explanation": "本句的「carry that emotional burden」指「背負實際或情緒上的重擔」。",
       "sentenceIndex": 31,
@@ -1664,12 +1546,10 @@ export default {
         "carry that emotional burden"
       ],
       "optionReasons": {
-        "carry-mcq-14": "本句指「背負實際或情緒上的重擔」。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。",
-        "carry-mcq-15": "「某行為伴隨某項處罰或風險」與本句語境不同。",
-        "carry-mcq-12": "「商店備有、販售或經銷某產品」與本句語境不同。",
-        "carry-mcq-16": "「動議、提案等經表決獲得通過」與本句語境不同。",
-        "carry-mcq-11": "「攜帶某種可遺傳的基因／基因變異」與本句語境不同。"
+        "carry-mcq-14": "本句的「carry that emotional burden」指「背負實際或情緒上的重擔」。",
+        "carry-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-14"
     },
@@ -1681,11 +1561,9 @@ export default {
       "masked": "The job ____.",
       "options": [
         "carry-mcq-15",
-        "carry-mcq-14",
-        "carry-mcq-16",
-        "carry-mcq-13",
-        "carry-mcq-17",
-        "carry-mcq-12"
+        "carry-mcq-32",
+        "carry-mcq-07",
+        "carry-mcq-13"
       ],
       "explanation": "本句的「carries a high level of responsibility」指「某行為伴隨某項處罰或風險」。",
       "sentenceIndex": 32,
@@ -1694,12 +1572,10 @@ export default {
         "carries a high level of responsibility"
       ],
       "optionReasons": {
-        "carry-mcq-15": "本句指「某行為伴隨某項處罰或風險」。",
-        "carry-mcq-14": "「背負實際或情緒上的重擔」與本句語境不同。",
-        "carry-mcq-16": "「動議、提案等經表決獲得通過」與本句語境不同。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。",
-        "carry-mcq-17": "「意見、證據等很有分量／影響力」與本句語境不同。",
-        "carry-mcq-12": "「商店備有、販售或經銷某產品」與本句語境不同。"
+        "carry-mcq-15": "本句的「carries a high level of responsibility」指「某行為伴隨某項處罰或風險」。",
+        "carry-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-15"
     },
@@ -1711,11 +1587,9 @@ export default {
       "masked": "The offence ____.",
       "options": [
         "carry-mcq-15",
-        "carry-mcq-14",
-        "carry-mcq-16",
-        "carry-mcq-13",
-        "carry-mcq-17",
-        "carry-mcq-12"
+        "carry-mcq-06",
+        "carry-mcq-28",
+        "carry-mcq-13"
       ],
       "explanation": "本句的「carries a heavy penalty」指「某行為伴隨某項處罰或風險」。",
       "sentenceIndex": 33,
@@ -1724,12 +1598,10 @@ export default {
         "carries a heavy penalty"
       ],
       "optionReasons": {
-        "carry-mcq-15": "本句指「某行為伴隨某項處罰或風險」。",
-        "carry-mcq-14": "「背負實際或情緒上的重擔」與本句語境不同。",
-        "carry-mcq-16": "「動議、提案等經表決獲得通過」與本句語境不同。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。",
-        "carry-mcq-17": "「意見、證據等很有分量／影響力」與本句語境不同。",
-        "carry-mcq-12": "「商店備有、販售或經銷某產品」與本句語境不同。"
+        "carry-mcq-15": "本句的「carries a heavy penalty」指「某行為伴隨某項處罰或風險」。",
+        "carry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-15"
     },
@@ -1741,11 +1613,9 @@ export default {
       "masked": "Late payment ____.",
       "options": [
         "carry-mcq-15",
-        "carry-mcq-14",
-        "carry-mcq-16",
-        "carry-mcq-13",
-        "carry-mcq-17",
-        "carry-mcq-12"
+        "carry-mcq-33",
+        "carry-mcq-04",
+        "carry-mcq-11"
       ],
       "explanation": "本句的「carries a penalty」指「某行為伴隨某項處罰或風險」。",
       "sentenceIndex": 34,
@@ -1754,12 +1624,10 @@ export default {
         "carries a penalty"
       ],
       "optionReasons": {
-        "carry-mcq-15": "本句指「某行為伴隨某項處罰或風險」。",
-        "carry-mcq-14": "「背負實際或情緒上的重擔」與本句語境不同。",
-        "carry-mcq-16": "「動議、提案等經表決獲得通過」與本句語境不同。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。",
-        "carry-mcq-17": "「意見、證據等很有分量／影響力」與本句語境不同。",
-        "carry-mcq-12": "「商店備有、販售或經銷某產品」與本句語境不同。"
+        "carry-mcq-15": "本句的「carries a penalty」指「某行為伴隨某項處罰或風險」。",
+        "carry-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-15"
     },
@@ -1771,11 +1639,9 @@ export default {
       "masked": "The procedure ____.",
       "options": [
         "carry-mcq-15",
-        "carry-mcq-14",
-        "carry-mcq-16",
         "carry-mcq-13",
-        "carry-mcq-17",
-        "carry-mcq-12"
+        "carry-mcq-08",
+        "carry-mcq-30"
       ],
       "explanation": "本句的「carries some risk」指「某行為伴隨某項處罰或風險」。",
       "sentenceIndex": 35,
@@ -1784,12 +1650,10 @@ export default {
         "carries some risk"
       ],
       "optionReasons": {
-        "carry-mcq-15": "本句指「某行為伴隨某項處罰或風險」。",
-        "carry-mcq-14": "「背負實際或情緒上的重擔」與本句語境不同。",
-        "carry-mcq-16": "「動議、提案等經表決獲得通過」與本句語境不同。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。",
-        "carry-mcq-17": "「意見、證據等很有分量／影響力」與本句語境不同。",
-        "carry-mcq-12": "「商店備有、販售或經銷某產品」與本句語境不同。"
+        "carry-mcq-15": "本句的「carries some risk」指「某行為伴隨某項處罰或風險」。",
+        "carry-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-15"
     },
@@ -1801,11 +1665,9 @@ export default {
       "masked": "The motion ____ by a narrow margin.",
       "options": [
         "carry-mcq-16",
-        "carry-mcq-15",
-        "carry-mcq-17",
-        "carry-mcq-14",
-        "carry-mcq-18",
-        "carry-mcq-13"
+        "carry-mcq-02",
+        "carry-mcq-04",
+        "carry-mcq-09"
       ],
       "explanation": "本句的「carried」指「動議、提案等經表決獲得通過」。",
       "sentenceIndex": 36,
@@ -1814,12 +1676,10 @@ export default {
         "carried"
       ],
       "optionReasons": {
-        "carry-mcq-16": "本句指「動議、提案等經表決獲得通過」。",
-        "carry-mcq-15": "「某行為伴隨某項處罰或風險」與本句語境不同。",
-        "carry-mcq-17": "「意見、證據等很有分量／影響力」與本句語境不同。",
-        "carry-mcq-14": "「背負實際或情緒上的重擔」與本句語境不同。",
-        "carry-mcq-18": "「把某事延續或推進到下一階段」與本句語境不同。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。"
+        "carry-mcq-16": "本句的「carried」指「動議、提案等經表決獲得通過」。",
+        "carry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-16"
     },
@@ -1831,11 +1691,9 @@ export default {
       "masked": "The proposal ____.",
       "options": [
         "carry-mcq-16",
-        "carry-mcq-15",
-        "carry-mcq-17",
-        "carry-mcq-14",
-        "carry-mcq-18",
-        "carry-mcq-13"
+        "carry-mcq-20",
+        "carry-mcq-05",
+        "carry-mcq-25"
       ],
       "explanation": "本句的「carried unanimously」指「動議、提案等經表決獲得通過」。",
       "sentenceIndex": 37,
@@ -1844,12 +1702,10 @@ export default {
         "carried unanimously"
       ],
       "optionReasons": {
-        "carry-mcq-16": "本句指「動議、提案等經表決獲得通過」。",
-        "carry-mcq-15": "「某行為伴隨某項處罰或風險」與本句語境不同。",
-        "carry-mcq-17": "「意見、證據等很有分量／影響力」與本句語境不同。",
-        "carry-mcq-14": "「背負實際或情緒上的重擔」與本句語境不同。",
-        "carry-mcq-18": "「把某事延續或推進到下一階段」與本句語境不同。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。"
+        "carry-mcq-16": "本句的「carried unanimously」指「動議、提案等經表決獲得通過」。",
+        "carry-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-16"
     },
@@ -1861,11 +1717,9 @@ export default {
       "masked": "The chair ____.",
       "options": [
         "carry-mcq-16",
-        "carry-mcq-15",
-        "carry-mcq-17",
-        "carry-mcq-14",
-        "carry-mcq-18",
-        "carry-mcq-13"
+        "carry-mcq-02",
+        "carry-mcq-13",
+        "carry-mcq-22"
       ],
       "explanation": "本句的「carried the motion」指「動議、提案等經表決獲得通過」。",
       "sentenceIndex": 38,
@@ -1874,12 +1728,10 @@ export default {
         "carried the motion"
       ],
       "optionReasons": {
-        "carry-mcq-16": "本句指「動議、提案等經表決獲得通過」。",
-        "carry-mcq-15": "「某行為伴隨某項處罰或風險」與本句語境不同。",
-        "carry-mcq-17": "「意見、證據等很有分量／影響力」與本句語境不同。",
-        "carry-mcq-14": "「背負實際或情緒上的重擔」與本句語境不同。",
-        "carry-mcq-18": "「把某事延續或推進到下一階段」與本句語境不同。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。"
+        "carry-mcq-16": "本句的「carried the motion」指「動議、提案等經表決獲得通過」。",
+        "carry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-16"
     },
@@ -1891,11 +1743,9 @@ export default {
       "masked": "The proposal was ____ by twenty votes to ten.",
       "options": [
         "carry-mcq-16",
-        "carry-mcq-15",
-        "carry-mcq-17",
-        "carry-mcq-14",
-        "carry-mcq-18",
-        "carry-mcq-13"
+        "carry-mcq-30",
+        "carry-mcq-07",
+        "carry-mcq-11"
       ],
       "explanation": "本句的「carried」指「動議、提案等經表決獲得通過」。",
       "sentenceIndex": 39,
@@ -1904,12 +1754,10 @@ export default {
         "carried"
       ],
       "optionReasons": {
-        "carry-mcq-16": "本句指「動議、提案等經表決獲得通過」。",
-        "carry-mcq-15": "「某行為伴隨某項處罰或風險」與本句語境不同。",
-        "carry-mcq-17": "「意見、證據等很有分量／影響力」與本句語境不同。",
-        "carry-mcq-14": "「背負實際或情緒上的重擔」與本句語境不同。",
-        "carry-mcq-18": "「把某事延續或推進到下一階段」與本句語境不同。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。"
+        "carry-mcq-16": "本句的「carried」指「動議、提案等經表決獲得通過」。",
+        "carry-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-16"
     },
@@ -1921,11 +1769,9 @@ export default {
       "masked": "Her opinion ____.",
       "options": [
         "carry-mcq-17",
-        "carry-mcq-16",
-        "carry-mcq-18",
-        "carry-mcq-15",
-        "carry-mcq-19",
-        "carry-mcq-14"
+        "carry-mcq-05",
+        "carry-mcq-33",
+        "carry-mcq-32"
       ],
       "explanation": "本句的「carries a lot of weight」指「意見、證據等很有分量／影響力」。",
       "sentenceIndex": 40,
@@ -1934,12 +1780,10 @@ export default {
         "carries a lot of weight"
       ],
       "optionReasons": {
-        "carry-mcq-17": "本句指「意見、證據等很有分量／影響力」。",
-        "carry-mcq-16": "「動議、提案等經表決獲得通過」與本句語境不同。",
-        "carry-mcq-18": "「把某事延續或推進到下一階段」與本句語境不同。",
-        "carry-mcq-15": "「某行為伴隨某項處罰或風險」與本句語境不同。",
-        "carry-mcq-19": "「從一個時期延續／結轉到下一時期」與本句語境不同。",
-        "carry-mcq-14": "「背負實際或情緒上的重擔」與本句語境不同。"
+        "carry-mcq-17": "本句的「carries a lot of weight」指「意見、證據等很有分量／影響力」。",
+        "carry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-17"
     },
@@ -1951,11 +1795,9 @@ export default {
       "masked": "His recommendation ____.",
       "options": [
         "carry-mcq-17",
-        "carry-mcq-16",
-        "carry-mcq-18",
-        "carry-mcq-15",
-        "carry-mcq-19",
-        "carry-mcq-14"
+        "carry-mcq-22",
+        "carry-mcq-12",
+        "carry-mcq-01"
       ],
       "explanation": "本句的「carried considerable weight」指「意見、證據等很有分量／影響力」。",
       "sentenceIndex": 41,
@@ -1964,12 +1806,10 @@ export default {
         "carried considerable weight"
       ],
       "optionReasons": {
-        "carry-mcq-17": "本句指「意見、證據等很有分量／影響力」。",
-        "carry-mcq-16": "「動議、提案等經表決獲得通過」與本句語境不同。",
-        "carry-mcq-18": "「把某事延續或推進到下一階段」與本句語境不同。",
-        "carry-mcq-15": "「某行為伴隨某項處罰或風險」與本句語境不同。",
-        "carry-mcq-19": "「從一個時期延續／結轉到下一時期」與本句語境不同。",
-        "carry-mcq-14": "「背負實際或情緒上的重擔」與本句語境不同。"
+        "carry-mcq-17": "本句的「carried considerable weight」指「意見、證據等很有分量／影響力」。",
+        "carry-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-17"
     },
@@ -1981,11 +1821,9 @@ export default {
       "masked": "We should ____.",
       "options": [
         "carry-mcq-18",
-        "carry-mcq-17",
-        "carry-mcq-19",
-        "carry-mcq-16",
-        "carry-mcq-20",
-        "carry-mcq-15"
+        "carry-mcq-04",
+        "carry-mcq-11",
+        "carry-mcq-02"
       ],
       "explanation": "本句的「carry the idea forward」指「把某事延續或推進到下一階段」。",
       "sentenceIndex": 42,
@@ -1994,12 +1832,10 @@ export default {
         "carry the idea forward"
       ],
       "optionReasons": {
-        "carry-mcq-18": "本句指「把某事延續或推進到下一階段」。",
-        "carry-mcq-17": "「意見、證據等很有分量／影響力」與本句語境不同。",
-        "carry-mcq-19": "「從一個時期延續／結轉到下一時期」與本句語境不同。",
-        "carry-mcq-16": "「動議、提案等經表決獲得通過」與本句語境不同。",
-        "carry-mcq-20": "「繼續進行某事」與本句語境不同。",
-        "carry-mcq-15": "「某行為伴隨某項處罰或風險」與本句語境不同。"
+        "carry-mcq-18": "本句的「carry the idea forward」指「把某事延續或推進到下一階段」。",
+        "carry-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-18"
     },
@@ -2011,11 +1847,9 @@ export default {
       "masked": "The balance was ____ to the next page.",
       "options": [
         "carry-mcq-18",
-        "carry-mcq-17",
-        "carry-mcq-19",
-        "carry-mcq-16",
-        "carry-mcq-20",
-        "carry-mcq-15"
+        "carry-mcq-30",
+        "carry-mcq-29",
+        "carry-mcq-01"
       ],
       "explanation": "本句的「carried forward」指「把某事延續或推進到下一階段」。",
       "sentenceIndex": 43,
@@ -2024,12 +1858,10 @@ export default {
         "carried forward"
       ],
       "optionReasons": {
-        "carry-mcq-18": "本句指「把某事延續或推進到下一階段」。",
-        "carry-mcq-17": "「意見、證據等很有分量／影響力」與本句語境不同。",
-        "carry-mcq-19": "「從一個時期延續／結轉到下一時期」與本句語境不同。",
-        "carry-mcq-16": "「動議、提案等經表決獲得通過」與本句語境不同。",
-        "carry-mcq-20": "「繼續進行某事」與本句語境不同。",
-        "carry-mcq-15": "「某行為伴隨某項處罰或風險」與本句語境不同。"
+        "carry-mcq-18": "本句的「carried forward」指「把某事延續或推進到下一階段」。",
+        "carry-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-18"
     },
@@ -2041,11 +1873,9 @@ export default {
       "masked": "Please ____ with your work.",
       "options": [
         "carry-mcq-20",
-        "carry-mcq-19",
-        "carry-mcq-21",
-        "carry-mcq-18",
-        "carry-mcq-22",
-        "carry-mcq-17"
+        "carry-mcq-09",
+        "carry-mcq-25",
+        "carry-mcq-28"
       ],
       "explanation": "本句的「carry on」指「繼續進行某事」。",
       "sentenceIndex": 44,
@@ -2054,12 +1884,10 @@ export default {
         "carry on"
       ],
       "optionReasons": {
-        "carry-mcq-20": "本句指「繼續進行某事」。",
-        "carry-mcq-19": "「從一個時期延續／結轉到下一時期」與本句語境不同。",
-        "carry-mcq-21": "「非正式：大吵大鬧、反應過度」與本句語境不同。",
-        "carry-mcq-18": "「把某事延續或推進到下一階段」與本句語境不同。",
-        "carry-mcq-22": "「執行、進行、完成計畫／任務／實驗」與本句語境不同。",
-        "carry-mcq-17": "「意見、證據等很有分量／影響力」與本句語境不同。"
+        "carry-mcq-20": "本句的「carry on」指「繼續進行某事」。",
+        "carry-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-20"
     },
@@ -2071,11 +1899,9 @@ export default {
       "masked": "She ____ despite the interruption.",
       "options": [
         "carry-mcq-20",
-        "carry-mcq-19",
+        "carry-mcq-26",
         "carry-mcq-21",
-        "carry-mcq-18",
-        "carry-mcq-22",
-        "carry-mcq-17"
+        "carry-mcq-14"
       ],
       "explanation": "本句的「carried on speaking」指「繼續進行某事」。",
       "sentenceIndex": 45,
@@ -2084,12 +1910,10 @@ export default {
         "carried on speaking"
       ],
       "optionReasons": {
-        "carry-mcq-20": "本句指「繼續進行某事」。",
-        "carry-mcq-19": "「從一個時期延續／結轉到下一時期」與本句語境不同。",
-        "carry-mcq-21": "「非正式：大吵大鬧、反應過度」與本句語境不同。",
-        "carry-mcq-18": "「把某事延續或推進到下一階段」與本句語境不同。",
-        "carry-mcq-22": "「執行、進行、完成計畫／任務／實驗」與本句語境不同。",
-        "carry-mcq-17": "「意見、證據等很有分量／影響力」與本句語境不同。"
+        "carry-mcq-20": "本句的「carried on speaking」指「繼續進行某事」。",
+        "carry-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-20"
     },
@@ -2101,11 +1925,9 @@ export default {
       "masked": "Stop ____ and calm down.",
       "options": [
         "carry-mcq-21",
-        "carry-mcq-20",
-        "carry-mcq-22",
-        "carry-mcq-19",
-        "carry-mcq-23",
-        "carry-mcq-18"
+        "carry-mcq-14",
+        "carry-mcq-32",
+        "carry-mcq-09"
       ],
       "explanation": "本句的「carrying on」指「非正式：大吵大鬧、反應過度」。",
       "sentenceIndex": 46,
@@ -2114,12 +1936,10 @@ export default {
         "carrying on"
       ],
       "optionReasons": {
-        "carry-mcq-21": "本句指「非正式：大吵大鬧、反應過度」。",
-        "carry-mcq-20": "「繼續進行某事」與本句語境不同。",
-        "carry-mcq-22": "「執行、進行、完成計畫／任務／實驗」與本句語境不同。",
-        "carry-mcq-19": "「從一個時期延續／結轉到下一時期」與本句語境不同。",
-        "carry-mcq-23": "「克服困難把事情完成到底」與本句語境不同。",
-        "carry-mcq-18": "「把某事延續或推進到下一階段」與本句語境不同。"
+        "carry-mcq-21": "本句的「carrying on」指「非正式：大吵大鬧、反應過度」。",
+        "carry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-21"
     },
@@ -2131,11 +1951,9 @@ export default {
       "masked": "He ____ as if the problem were enormous.",
       "options": [
         "carry-mcq-21",
-        "carry-mcq-20",
-        "carry-mcq-22",
-        "carry-mcq-19",
-        "carry-mcq-23",
-        "carry-mcq-18"
+        "carry-mcq-01",
+        "carry-mcq-12",
+        "carry-mcq-03"
       ],
       "explanation": "本句的「carried on」指「非正式：大吵大鬧、反應過度」。",
       "sentenceIndex": 47,
@@ -2144,12 +1962,10 @@ export default {
         "carried on"
       ],
       "optionReasons": {
-        "carry-mcq-21": "本句指「非正式：大吵大鬧、反應過度」。",
-        "carry-mcq-20": "「繼續進行某事」與本句語境不同。",
-        "carry-mcq-22": "「執行、進行、完成計畫／任務／實驗」與本句語境不同。",
-        "carry-mcq-19": "「從一個時期延續／結轉到下一時期」與本句語境不同。",
-        "carry-mcq-23": "「克服困難把事情完成到底」與本句語境不同。",
-        "carry-mcq-18": "「把某事延續或推進到下一階段」與本句語境不同。"
+        "carry-mcq-21": "本句的「carried on」指「非正式：大吵大鬧、反應過度」。",
+        "carry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-21"
     },
@@ -2161,11 +1977,9 @@ export default {
       "masked": "Researchers ____.",
       "options": [
         "carry-mcq-22",
-        "carry-mcq-21",
-        "carry-mcq-23",
-        "carry-mcq-20",
-        "carry-mcq-24",
-        "carry-mcq-19"
+        "carry-mcq-27",
+        "carry-mcq-10",
+        "carry-mcq-07"
       ],
       "explanation": "本句的「carried out an experiment」指「執行、進行、完成計畫／任務／實驗」。",
       "sentenceIndex": 48,
@@ -2174,12 +1988,10 @@ export default {
         "carried out an experiment"
       ],
       "optionReasons": {
-        "carry-mcq-22": "本句指「執行、進行、完成計畫／任務／實驗」。",
-        "carry-mcq-21": "「非正式：大吵大鬧、反應過度」與本句語境不同。",
-        "carry-mcq-23": "「克服困難把事情完成到底」與本句語境不同。",
-        "carry-mcq-20": "「繼續進行某事」與本句語境不同。",
-        "carry-mcq-24": "「支撐某人度過困難」與本句語境不同。",
-        "carry-mcq-19": "「從一個時期延續／結轉到下一時期」與本句語境不同。"
+        "carry-mcq-22": "本句的「carried out an experiment」指「執行、進行、完成計畫／任務／實驗」。",
+        "carry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-22"
     },
@@ -2191,11 +2003,9 @@ export default {
       "masked": "The plan was ____.",
       "options": [
         "carry-mcq-22",
-        "carry-mcq-21",
-        "carry-mcq-23",
-        "carry-mcq-20",
-        "carry-mcq-24",
-        "carry-mcq-19"
+        "carry-mcq-16",
+        "carry-mcq-07",
+        "carry-mcq-05"
       ],
       "explanation": "本句的「carried out successfully」指「執行、進行、完成計畫／任務／實驗」。",
       "sentenceIndex": 49,
@@ -2204,12 +2014,10 @@ export default {
         "carried out successfully"
       ],
       "optionReasons": {
-        "carry-mcq-22": "本句指「執行、進行、完成計畫／任務／實驗」。",
-        "carry-mcq-21": "「非正式：大吵大鬧、反應過度」與本句語境不同。",
-        "carry-mcq-23": "「克服困難把事情完成到底」與本句語境不同。",
-        "carry-mcq-20": "「繼續進行某事」與本句語境不同。",
-        "carry-mcq-24": "「支撐某人度過困難」與本句語境不同。",
-        "carry-mcq-19": "「從一個時期延續／結轉到下一時期」與本句語境不同。"
+        "carry-mcq-22": "本句的「carried out successfully」指「執行、進行、完成計畫／任務／實驗」。",
+        "carry-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-22"
     },
@@ -2221,11 +2029,9 @@ export default {
       "masked": "She ____ brilliantly.",
       "options": [
         "carry-mcq-25",
-        "carry-mcq-24",
+        "carry-mcq-04",
         "carry-mcq-26",
-        "carry-mcq-23",
-        "carry-mcq-27",
-        "carry-mcq-22"
+        "carry-mcq-28"
       ],
       "explanation": "本句的「carried off the difficult role」指「成功完成、駕馭某件困難的事」。",
       "sentenceIndex": 50,
@@ -2234,12 +2040,10 @@ export default {
         "carried off the difficult role"
       ],
       "optionReasons": {
-        "carry-mcq-25": "本句指「成功完成、駕馭某件困難的事」。",
-        "carry-mcq-24": "「支撐某人度過困難」與本句語境不同。",
-        "carry-mcq-26": "「因太興奮或投入而失去分寸」與本句語境不同。",
-        "carry-mcq-23": "「克服困難把事情完成到底」與本句語境不同。",
-        "carry-mcq-27": "「使某人回想起過去」與本句語境不同。",
-        "carry-mcq-22": "「執行、進行、完成計畫／任務／實驗」與本句語境不同。"
+        "carry-mcq-25": "本句的「carried off the difficult role」指「成功完成、駕馭某件困難的事」。",
+        "carry-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-25"
     },
@@ -2251,11 +2055,9 @@ export default {
       "masked": "Few people could ____.",
       "options": [
         "carry-mcq-25",
-        "carry-mcq-24",
-        "carry-mcq-26",
-        "carry-mcq-23",
         "carry-mcq-27",
-        "carry-mcq-22"
+        "carry-mcq-11",
+        "carry-mcq-31"
       ],
       "explanation": "本句的「carry off that style」指「成功完成、駕馭某件困難的事」。",
       "sentenceIndex": 51,
@@ -2264,12 +2066,10 @@ export default {
         "carry off that style"
       ],
       "optionReasons": {
-        "carry-mcq-25": "本句指「成功完成、駕馭某件困難的事」。",
-        "carry-mcq-24": "「支撐某人度過困難」與本句語境不同。",
-        "carry-mcq-26": "「因太興奮或投入而失去分寸」與本句語境不同。",
-        "carry-mcq-23": "「克服困難把事情完成到底」與本句語境不同。",
-        "carry-mcq-27": "「使某人回想起過去」與本句語境不同。",
-        "carry-mcq-22": "「執行、進行、完成計畫／任務／實驗」與本句語境不同。"
+        "carry-mcq-25": "本句的「carry off that style」指「成功完成、駕馭某件困難的事」。",
+        "carry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-25"
     },
@@ -2281,11 +2081,9 @@ export default {
       "masked": "I got ____ and spent too much.",
       "options": [
         "carry-mcq-26",
-        "carry-mcq-25",
-        "carry-mcq-27",
-        "carry-mcq-24",
-        "carry-mcq-28",
-        "carry-mcq-23"
+        "carry-mcq-01",
+        "carry-mcq-32",
+        "carry-mcq-03"
       ],
       "explanation": "本句的「carried away」指「因太興奮或投入而失去分寸」。",
       "sentenceIndex": 52,
@@ -2294,12 +2092,10 @@ export default {
         "carried away"
       ],
       "optionReasons": {
-        "carry-mcq-26": "本句指「因太興奮或投入而失去分寸」。",
-        "carry-mcq-25": "「成功完成、駕馭某件困難的事」與本句語境不同。",
-        "carry-mcq-27": "「使某人回想起過去」與本句語境不同。",
-        "carry-mcq-24": "「支撐某人度過困難」與本句語境不同。",
-        "carry-mcq-28": "「能把旋律唱準、不走調」與本句語境不同。",
-        "carry-mcq-23": "「克服困難把事情完成到底」與本句語境不同。"
+        "carry-mcq-26": "本句的「carried away」指「因太興奮或投入而失去分寸」。",
+        "carry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-26"
     },
@@ -2311,11 +2107,9 @@ export default {
       "masked": "Don’t get ____ by the excitement.",
       "options": [
         "carry-mcq-26",
+        "carry-mcq-16",
         "carry-mcq-25",
-        "carry-mcq-27",
-        "carry-mcq-24",
-        "carry-mcq-28",
-        "carry-mcq-23"
+        "carry-mcq-29"
       ],
       "explanation": "本句的「carried away」指「因太興奮或投入而失去分寸」。",
       "sentenceIndex": 53,
@@ -2324,12 +2118,10 @@ export default {
         "carried away"
       ],
       "optionReasons": {
-        "carry-mcq-26": "本句指「因太興奮或投入而失去分寸」。",
-        "carry-mcq-25": "「成功完成、駕馭某件困難的事」與本句語境不同。",
-        "carry-mcq-27": "「使某人回想起過去」與本句語境不同。",
-        "carry-mcq-24": "「支撐某人度過困難」與本句語境不同。",
-        "carry-mcq-28": "「能把旋律唱準、不走調」與本句語境不同。",
-        "carry-mcq-23": "「克服困難把事情完成到底」與本句語境不同。"
+        "carry-mcq-26": "本句的「carried away」指「因太興奮或投入而失去分寸」。",
+        "carry-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-26"
     },
@@ -2341,11 +2133,9 @@ export default {
       "masked": "The smell ____ to childhood.",
       "options": [
         "carry-mcq-27",
-        "carry-mcq-26",
-        "carry-mcq-28",
-        "carry-mcq-25",
-        "carry-mcq-29",
-        "carry-mcq-24"
+        "carry-mcq-01",
+        "carry-mcq-20",
+        "carry-mcq-15"
       ],
       "explanation": "本句的「carried me back」指「使某人回想起過去」。",
       "sentenceIndex": 54,
@@ -2354,12 +2144,10 @@ export default {
         "carried me back"
       ],
       "optionReasons": {
-        "carry-mcq-27": "本句指「使某人回想起過去」。",
-        "carry-mcq-26": "「因太興奮或投入而失去分寸」與本句語境不同。",
-        "carry-mcq-28": "「能把旋律唱準、不走調」與本句語境不同。",
-        "carry-mcq-25": "「成功完成、駕馭某件困難的事」與本句語境不同。",
-        "carry-mcq-29": "「懷孕、孕育胎兒」與本句語境不同。",
-        "carry-mcq-24": "「支撐某人度過困難」與本句語境不同。"
+        "carry-mcq-27": "本句的「carried me back」指「使某人回想起過去」。",
+        "carry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-27"
     },
@@ -2371,11 +2159,9 @@ export default {
       "masked": "The song ____ to her school days.",
       "options": [
         "carry-mcq-27",
-        "carry-mcq-26",
-        "carry-mcq-28",
-        "carry-mcq-25",
-        "carry-mcq-29",
-        "carry-mcq-24"
+        "carry-mcq-03",
+        "carry-mcq-12",
+        "carry-mcq-29"
       ],
       "explanation": "本句的「carried her back」指「使某人回想起過去」。",
       "sentenceIndex": 55,
@@ -2384,12 +2170,10 @@ export default {
         "carried her back"
       ],
       "optionReasons": {
-        "carry-mcq-27": "本句指「使某人回想起過去」。",
-        "carry-mcq-26": "「因太興奮或投入而失去分寸」與本句語境不同。",
-        "carry-mcq-28": "「能把旋律唱準、不走調」與本句語境不同。",
-        "carry-mcq-25": "「成功完成、駕馭某件困難的事」與本句語境不同。",
-        "carry-mcq-29": "「懷孕、孕育胎兒」與本句語境不同。",
-        "carry-mcq-24": "「支撐某人度過困難」與本句語境不同。"
+        "carry-mcq-27": "本句的「carried her back」指「使某人回想起過去」。",
+        "carry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-27"
     },
@@ -2402,10 +2186,8 @@ export default {
       "options": [
         "carry-mcq-28",
         "carry-mcq-27",
-        "carry-mcq-29",
-        "carry-mcq-26",
-        "carry-mcq-30",
-        "carry-mcq-25"
+        "carry-mcq-18",
+        "carry-mcq-15"
       ],
       "explanation": "本句的「carry a tune」指「能把旋律唱準、不走調」。",
       "sentenceIndex": 58,
@@ -2414,12 +2196,10 @@ export default {
         "carry a tune"
       ],
       "optionReasons": {
-        "carry-mcq-28": "本句指「能把旋律唱準、不走調」。",
-        "carry-mcq-27": "「使某人回想起過去」與本句語境不同。",
-        "carry-mcq-29": "「懷孕、孕育胎兒」與本句語境不同。",
-        "carry-mcq-26": "「因太興奮或投入而失去分寸」與本句語境不同。",
-        "carry-mcq-30": "「以某種姿態、舉止表現自己」與本句語境不同。",
-        "carry-mcq-25": "「成功完成、駕馭某件困難的事」與本句語境不同。"
+        "carry-mcq-28": "本句的「carry a tune」指「能把旋律唱準、不走調」。",
+        "carry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-28"
     },
@@ -2431,10 +2211,8 @@ export default {
       "masked": "She can ____ quite well.",
       "options": [
         "carry-mcq-28",
-        "carry-mcq-27",
-        "carry-mcq-29",
-        "carry-mcq-26",
-        "carry-mcq-30",
+        "carry-mcq-05",
+        "carry-mcq-06",
         "carry-mcq-25"
       ],
       "explanation": "本句的「carry a tune」指「能把旋律唱準、不走調」。",
@@ -2444,12 +2222,10 @@ export default {
         "carry a tune"
       ],
       "optionReasons": {
-        "carry-mcq-28": "本句指「能把旋律唱準、不走調」。",
-        "carry-mcq-27": "「使某人回想起過去」與本句語境不同。",
-        "carry-mcq-29": "「懷孕、孕育胎兒」與本句語境不同。",
-        "carry-mcq-26": "「因太興奮或投入而失去分寸」與本句語境不同。",
-        "carry-mcq-30": "「以某種姿態、舉止表現自己」與本句語境不同。",
-        "carry-mcq-25": "「成功完成、駕馭某件困難的事」與本句語境不同。"
+        "carry-mcq-28": "本句的「carry a tune」指「能把旋律唱準、不走調」。",
+        "carry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-28"
     },
@@ -2461,11 +2237,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "carry-mcq-29",
-        "carry-mcq-28",
-        "carry-mcq-30",
-        "carry-mcq-27",
-        "carry-mcq-31",
-        "carry-mcq-26"
+        "carry-mcq-05",
+        "carry-mcq-25",
+        "carry-mcq-30"
       ],
       "explanation": "本句的「carrying twins」指「懷孕、孕育胎兒」。",
       "sentenceIndex": 60,
@@ -2474,12 +2248,10 @@ export default {
         "carrying twins"
       ],
       "optionReasons": {
-        "carry-mcq-29": "本句指「懷孕、孕育胎兒」。",
-        "carry-mcq-28": "「能把旋律唱準、不走調」與本句語境不同。",
-        "carry-mcq-30": "「以某種姿態、舉止表現自己」與本句語境不同。",
-        "carry-mcq-27": "「使某人回想起過去」與本句語境不同。",
-        "carry-mcq-31": "「在競爭、爭論等中最終獲勝／佔上風」與本句語境不同。",
-        "carry-mcq-26": "「因太興奮或投入而失去分寸」與本句語境不同。"
+        "carry-mcq-29": "本句的「carrying twins」指「懷孕、孕育胎兒」。",
+        "carry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-29"
     },
@@ -2491,11 +2263,9 @@ export default {
       "masked": "The pregnancy was ____.",
       "options": [
         "carry-mcq-29",
-        "carry-mcq-28",
-        "carry-mcq-30",
-        "carry-mcq-27",
-        "carry-mcq-31",
-        "carry-mcq-26"
+        "carry-mcq-32",
+        "carry-mcq-09",
+        "carry-mcq-13"
       ],
       "explanation": "本句的「carried to term」指「懷孕、孕育胎兒」。",
       "sentenceIndex": 61,
@@ -2504,12 +2274,10 @@ export default {
         "carried to term"
       ],
       "optionReasons": {
-        "carry-mcq-29": "本句指「懷孕、孕育胎兒」。",
-        "carry-mcq-28": "「能把旋律唱準、不走調」與本句語境不同。",
-        "carry-mcq-30": "「以某種姿態、舉止表現自己」與本句語境不同。",
-        "carry-mcq-27": "「使某人回想起過去」與本句語境不同。",
-        "carry-mcq-31": "「在競爭、爭論等中最終獲勝／佔上風」與本句語境不同。",
-        "carry-mcq-26": "「因太興奮或投入而失去分寸」與本句語境不同。"
+        "carry-mcq-29": "本句的「carried to term」指「懷孕、孕育胎兒」。",
+        "carry-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-29"
     },
@@ -2521,11 +2289,9 @@ export default {
       "masked": "Security staff are not permitted to ____.",
       "options": [
         "carry-mcq-11",
-        "carry-mcq-10",
-        "carry-mcq-12",
-        "carry-mcq-09",
-        "carry-mcq-13",
-        "carry-mcq-08"
+        "carry-mcq-14",
+        "carry-mcq-17",
+        "carry-mcq-12"
       ],
       "explanation": "本句的「carry weapons」指「攜帶某種可遺傳的基因／基因變異」。",
       "sentenceIndex": 62,
@@ -2534,12 +2300,10 @@ export default {
         "carry weapons"
       ],
       "optionReasons": {
-        "carry-mcq-11": "本句指「攜帶某種可遺傳的基因／基因變異」。",
-        "carry-mcq-10": "「攜帶並可能傳播病原體」與本句語境不同。",
-        "carry-mcq-12": "「商店備有、販售或經銷某產品」與本句語境不同。",
-        "carry-mcq-09": "「聲音能傳到遠處」與本句語境不同。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。",
-        "carry-mcq-08": "「傳達某個訊息或寓意」與本句語境不同。"
+        "carry-mcq-11": "本句的「carry weapons」指「攜帶某種可遺傳的基因／基因變異」。",
+        "carry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-11"
     },
@@ -2551,11 +2315,9 @@ export default {
       "masked": "He was found ____.",
       "options": [
         "carry-mcq-11",
-        "carry-mcq-10",
-        "carry-mcq-12",
-        "carry-mcq-09",
-        "carry-mcq-13",
-        "carry-mcq-08"
+        "carry-mcq-30",
+        "carry-mcq-33",
+        "carry-mcq-16"
       ],
       "explanation": "本句的「carrying a knife」指「攜帶某種可遺傳的基因／基因變異」。",
       "sentenceIndex": 63,
@@ -2564,12 +2326,10 @@ export default {
         "carrying a knife"
       ],
       "optionReasons": {
-        "carry-mcq-11": "本句指「攜帶某種可遺傳的基因／基因變異」。",
-        "carry-mcq-10": "「攜帶並可能傳播病原體」與本句語境不同。",
-        "carry-mcq-12": "「商店備有、販售或經銷某產品」與本句語境不同。",
-        "carry-mcq-09": "「聲音能傳到遠處」與本句語境不同。",
-        "carry-mcq-13": "「承擔責任」與本句語境不同。",
-        "carry-mcq-08": "「傳達某個訊息或寓意」與本句語境不同。"
+        "carry-mcq-11": "本句的「carrying a knife」指「攜帶某種可遺傳的基因／基因變異」。",
+        "carry-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-11"
     },
@@ -2582,10 +2342,8 @@ export default {
       "options": [
         "carry-mcq-30",
         "carry-mcq-29",
-        "carry-mcq-31",
-        "carry-mcq-28",
-        "carry-mcq-32",
-        "carry-mcq-27"
+        "carry-mcq-12",
+        "carry-mcq-07"
       ],
       "explanation": "本句的「carries herself with confidence」指「以某種姿態、舉止表現自己」。",
       "sentenceIndex": 64,
@@ -2594,12 +2352,10 @@ export default {
         "carries herself with confidence"
       ],
       "optionReasons": {
-        "carry-mcq-30": "本句指「以某種姿態、舉止表現自己」。",
-        "carry-mcq-29": "「懷孕、孕育胎兒」與本句語境不同。",
-        "carry-mcq-31": "「在競爭、爭論等中最終獲勝／佔上風」與本句語境不同。",
-        "carry-mcq-28": "「能把旋律唱準、不走調」與本句語境不同。",
-        "carry-mcq-32": "「繼續傳承或推動某理念、傳統」與本句語境不同。",
-        "carry-mcq-27": "「使某人回想起過去」與本句語境不同。"
+        "carry-mcq-30": "本句的「carries herself with confidence」指「以某種姿態、舉止表現自己」。",
+        "carry-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-30"
     },
@@ -2611,11 +2367,9 @@ export default {
       "masked": "He ____ calmly throughout the interview.",
       "options": [
         "carry-mcq-30",
+        "carry-mcq-25",
         "carry-mcq-29",
-        "carry-mcq-31",
-        "carry-mcq-28",
-        "carry-mcq-32",
-        "carry-mcq-27"
+        "carry-mcq-14"
       ],
       "explanation": "本句的「carried himself」指「以某種姿態、舉止表現自己」。",
       "sentenceIndex": 65,
@@ -2624,12 +2378,10 @@ export default {
         "carried himself"
       ],
       "optionReasons": {
-        "carry-mcq-30": "本句指「以某種姿態、舉止表現自己」。",
-        "carry-mcq-29": "「懷孕、孕育胎兒」與本句語境不同。",
-        "carry-mcq-31": "「在競爭、爭論等中最終獲勝／佔上風」與本句語境不同。",
-        "carry-mcq-28": "「能把旋律唱準、不走調」與本句語境不同。",
-        "carry-mcq-32": "「繼續傳承或推動某理念、傳統」與本句語境不同。",
-        "carry-mcq-27": "「使某人回想起過去」與本句語境不同。"
+        "carry-mcq-30": "本句的「carried himself」指「以某種姿態、舉止表現自己」。",
+        "carry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-30"
     },
@@ -2641,11 +2393,9 @@ export default {
       "masked": "In the end, the stronger argument ____.",
       "options": [
         "carry-mcq-31",
-        "carry-mcq-30",
-        "carry-mcq-32",
         "carry-mcq-29",
-        "carry-mcq-33",
-        "carry-mcq-28"
+        "carry-mcq-08",
+        "carry-mcq-21"
       ],
       "explanation": "本句的「carried the day」指「在競爭、爭論等中最終獲勝／佔上風」。",
       "sentenceIndex": 66,
@@ -2654,12 +2404,10 @@ export default {
         "carried the day"
       ],
       "optionReasons": {
-        "carry-mcq-31": "本句指「在競爭、爭論等中最終獲勝／佔上風」。",
-        "carry-mcq-30": "「以某種姿態、舉止表現自己」與本句語境不同。",
-        "carry-mcq-32": "「繼續傳承或推動某理念、傳統」與本句語境不同。",
-        "carry-mcq-29": "「懷孕、孕育胎兒」與本句語境不同。",
-        "carry-mcq-33": "「長期暗戀／仍對某人有感情」與本句語境不同。",
-        "carry-mcq-28": "「能把旋律唱準、不走調」與本句語境不同。"
+        "carry-mcq-31": "本句的「carried the day」指「在競爭、爭論等中最終獲勝／佔上風」。",
+        "carry-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-31"
     },
@@ -2671,11 +2419,9 @@ export default {
       "masked": "Experience ____.",
       "options": [
         "carry-mcq-31",
-        "carry-mcq-30",
         "carry-mcq-32",
-        "carry-mcq-29",
-        "carry-mcq-33",
-        "carry-mcq-28"
+        "carry-mcq-12",
+        "carry-mcq-09"
       ],
       "explanation": "本句的「carried the day」指「在競爭、爭論等中最終獲勝／佔上風」。",
       "sentenceIndex": 67,
@@ -2684,12 +2430,10 @@ export default {
         "carried the day"
       ],
       "optionReasons": {
-        "carry-mcq-31": "本句指「在競爭、爭論等中最終獲勝／佔上風」。",
-        "carry-mcq-30": "「以某種姿態、舉止表現自己」與本句語境不同。",
-        "carry-mcq-32": "「繼續傳承或推動某理念、傳統」與本句語境不同。",
-        "carry-mcq-29": "「懷孕、孕育胎兒」與本句語境不同。",
-        "carry-mcq-33": "「長期暗戀／仍對某人有感情」與本句語境不同。",
-        "carry-mcq-28": "「能把旋律唱準、不走調」與本句語境不同。"
+        "carry-mcq-31": "本句的「carried the day」指「在競爭、爭論等中最終獲勝／佔上風」。",
+        "carry-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-31"
     },
@@ -2701,11 +2445,9 @@ export default {
       "masked": "Younger members will ____.",
       "options": [
         "carry-mcq-32",
-        "carry-mcq-31",
-        "carry-mcq-33",
-        "carry-mcq-30",
-        "carry-mcq-34",
-        "carry-mcq-29"
+        "carry-mcq-03",
+        "carry-mcq-01",
+        "carry-mcq-28"
       ],
       "explanation": "本句的「carry the torch」指「繼續傳承或推動某理念、傳統」。",
       "sentenceIndex": 68,
@@ -2714,12 +2456,10 @@ export default {
         "carry the torch"
       ],
       "optionReasons": {
-        "carry-mcq-32": "本句指「繼續傳承或推動某理念、傳統」。",
-        "carry-mcq-31": "「在競爭、爭論等中最終獲勝／佔上風」與本句語境不同。",
-        "carry-mcq-33": "「長期暗戀／仍對某人有感情」與本句語境不同。",
-        "carry-mcq-30": "「以某種姿態、舉止表現自己」與本句語境不同。",
-        "carry-mcq-34": "「承運商、運輸工具／運送者」與本句語境不同。",
-        "carry-mcq-29": "「懷孕、孕育胎兒」與本句語境不同。"
+        "carry-mcq-32": "本句的「carry the torch」指「繼續傳承或推動某理念、傳統」。",
+        "carry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-32"
     },
@@ -2731,11 +2471,9 @@ export default {
       "masked": "She ____ for the organization’s founding values.",
       "options": [
         "carry-mcq-32",
-        "carry-mcq-31",
-        "carry-mcq-33",
-        "carry-mcq-30",
-        "carry-mcq-34",
-        "carry-mcq-29"
+        "carry-mcq-14",
+        "carry-mcq-15",
+        "carry-mcq-30"
       ],
       "explanation": "本句的「carried the torch」指「繼續傳承或推動某理念、傳統」。",
       "sentenceIndex": 69,
@@ -2744,12 +2482,10 @@ export default {
         "carried the torch"
       ],
       "optionReasons": {
-        "carry-mcq-32": "本句指「繼續傳承或推動某理念、傳統」。",
-        "carry-mcq-31": "「在競爭、爭論等中最終獲勝／佔上風」與本句語境不同。",
-        "carry-mcq-33": "「長期暗戀／仍對某人有感情」與本句語境不同。",
-        "carry-mcq-30": "「以某種姿態、舉止表現自己」與本句語境不同。",
-        "carry-mcq-34": "「承運商、運輸工具／運送者」與本句語境不同。",
-        "carry-mcq-29": "「懷孕、孕育胎兒」與本句語境不同。"
+        "carry-mcq-32": "本句的「carried the torch」指「繼續傳承或推動某理念、傳統」。",
+        "carry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-32"
     },
@@ -2761,11 +2497,9 @@ export default {
       "masked": "He still ____.",
       "options": [
         "carry-mcq-33",
-        "carry-mcq-32",
-        "carry-mcq-34",
-        "carry-mcq-31",
-        "carry-mcq-35",
-        "carry-mcq-30"
+        "carry-mcq-26",
+        "carry-mcq-11",
+        "carry-mcq-16"
       ],
       "explanation": "本句的「carries a torch for her」指「長期暗戀／仍對某人有感情」。",
       "sentenceIndex": 70,
@@ -2774,12 +2508,10 @@ export default {
         "carries a torch for her"
       ],
       "optionReasons": {
-        "carry-mcq-33": "本句指「長期暗戀／仍對某人有感情」。",
-        "carry-mcq-32": "「繼續傳承或推動某理念、傳統」與本句語境不同。",
-        "carry-mcq-34": "「承運商、運輸工具／運送者」與本句語境不同。",
-        "carry-mcq-31": "「在競爭、爭論等中最終獲勝／佔上風」與本句語境不同。",
-        "carry-mcq-35": "「帶原者／帶菌者」與本句語境不同。",
-        "carry-mcq-30": "「以某種姿態、舉止表現自己」與本句語境不同。"
+        "carry-mcq-33": "本句的「carries a torch for her」指「長期暗戀／仍對某人有感情」。",
+        "carry-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-33"
     },
@@ -2791,11 +2523,9 @@ export default {
       "masked": "She had ____ for years.",
       "options": [
         "carry-mcq-33",
-        "carry-mcq-32",
-        "carry-mcq-34",
-        "carry-mcq-31",
-        "carry-mcq-35",
-        "carry-mcq-30"
+        "carry-mcq-04",
+        "carry-mcq-12",
+        "carry-mcq-15"
       ],
       "explanation": "本句的「carried a torch for him」指「長期暗戀／仍對某人有感情」。",
       "sentenceIndex": 71,
@@ -2804,12 +2534,10 @@ export default {
         "carried a torch for him"
       ],
       "optionReasons": {
-        "carry-mcq-33": "本句指「長期暗戀／仍對某人有感情」。",
-        "carry-mcq-32": "「繼續傳承或推動某理念、傳統」與本句語境不同。",
-        "carry-mcq-34": "「承運商、運輸工具／運送者」與本句語境不同。",
-        "carry-mcq-31": "「在競爭、爭論等中最終獲勝／佔上風」與本句語境不同。",
-        "carry-mcq-35": "「帶原者／帶菌者」與本句語境不同。",
-        "carry-mcq-30": "「以某種姿態、舉止表現自己」與本句語境不同。"
+        "carry-mcq-33": "本句的「carried a torch for him」指「長期暗戀／仍對某人有感情」。",
+        "carry-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "carry-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carry-mcq-33"
     }
@@ -2821,5 +2549,7 @@ export default {
     "sha256": "a6f4416f81bd7cf330df6dc3c0927e421830306640f3b71fbe10f063626e3ec9",
     "pages": 21
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -218,11 +218,7 @@ export default {
       "masked": "He loves talking about books, ____, and the tiny details that most of us walk straight past.",
       "options": [
         "film-mcq-01",
-        "film-mcq-02",
-        "film-mcq-03",
-        "film-mcq-04",
-        "film-mcq-05",
-        "film-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「films」指「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」。",
       "sentenceIndex": 0,
@@ -231,12 +227,8 @@ export default {
         "films"
       ],
       "optionReasons": {
-        "film-mcq-01": "本句指「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」。",
-        "film-mcq-02": "「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」是「film — photographic material」的用法，與本句語境不同。",
-        "film-mcq-03": "「覆蓋在物體表面的一層非常薄的物質」是「film — thin layer」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。"
+        "film-mcq-01": "本句的「films」指「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-01"
     },
@@ -248,11 +240,7 @@ export default {
       "masked": "We watched a French ____ last night.",
       "options": [
         "film-mcq-01",
-        "film-mcq-02",
-        "film-mcq-03",
-        "film-mcq-04",
-        "film-mcq-05",
-        "film-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「film」指「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」。",
       "sentenceIndex": 1,
@@ -261,12 +249,8 @@ export default {
         "film"
       ],
       "optionReasons": {
-        "film-mcq-01": "本句指「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」。",
-        "film-mcq-02": "「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」是「film — photographic material」的用法，與本句語境不同。",
-        "film-mcq-03": "「覆蓋在物體表面的一層非常薄的物質」是「film — thin layer」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。"
+        "film-mcq-01": "本句的「film」指「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-01"
     },
@@ -278,11 +262,7 @@ export default {
       "masked": "The ____ tells the story of a family living in Hong Kong.",
       "options": [
         "film-mcq-01",
-        "film-mcq-02",
-        "film-mcq-03",
-        "film-mcq-04",
-        "film-mcq-05",
-        "film-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「film」指「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」。",
       "sentenceIndex": 2,
@@ -291,12 +271,8 @@ export default {
         "film"
       ],
       "optionReasons": {
-        "film-mcq-01": "本句指「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」。",
-        "film-mcq-02": "「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」是「film — photographic material」的用法，與本句語境不同。",
-        "film-mcq-03": "「覆蓋在物體表面的一層非常薄的物質」是「film — thin layer」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。"
+        "film-mcq-01": "本句的「film」指「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-01"
     },
@@ -308,11 +284,8 @@ export default {
       "masked": "I still have several rolls of old camera ____.",
       "options": [
         "film-mcq-02",
-        "film-mcq-01",
         "film-mcq-03",
-        "film-mcq-04",
-        "film-mcq-05",
-        "film-mcq-06"
+        "film-mcq-08"
       ],
       "explanation": "本句的「film」指「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」。",
       "sentenceIndex": 3,
@@ -321,12 +294,9 @@ export default {
         "film"
       ],
       "optionReasons": {
-        "film-mcq-02": "本句指「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」。",
-        "film-mcq-01": "「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」是「film — movie」的用法，與本句語境不同。",
-        "film-mcq-03": "「覆蓋在物體表面的一層非常薄的物質」是「film — thin layer」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。"
+        "film-mcq-02": "本句的「film」指「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」。",
+        "film-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "film-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-02"
     },
@@ -338,11 +308,8 @@ export default {
       "masked": "This camera uses 35mm ____.",
       "options": [
         "film-mcq-02",
-        "film-mcq-01",
-        "film-mcq-03",
-        "film-mcq-04",
         "film-mcq-05",
-        "film-mcq-06"
+        "film-mcq-07"
       ],
       "explanation": "本句的「film」指「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」。",
       "sentenceIndex": 4,
@@ -351,12 +318,9 @@ export default {
         "film"
       ],
       "optionReasons": {
-        "film-mcq-02": "本句指「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」。",
-        "film-mcq-01": "「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」是「film — movie」的用法，與本句語境不同。",
-        "film-mcq-03": "「覆蓋在物體表面的一層非常薄的物質」是「film — thin layer」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。"
+        "film-mcq-02": "本句的「film」指「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」。",
+        "film-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "film-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-02"
     },
@@ -369,10 +333,7 @@ export default {
       "options": [
         "film-mcq-03",
         "film-mcq-02",
-        "film-mcq-04",
-        "film-mcq-01",
-        "film-mcq-05",
-        "film-mcq-06"
+        "film-mcq-07"
       ],
       "explanation": "本句的「film」指「覆蓋在物體表面的一層非常薄的物質」。",
       "sentenceIndex": 5,
@@ -381,12 +342,9 @@ export default {
         "film"
       ],
       "optionReasons": {
-        "film-mcq-03": "本句指「覆蓋在物體表面的一層非常薄的物質」。",
-        "film-mcq-02": "「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」是「film — photographic material」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。",
-        "film-mcq-01": "「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」是「film — movie」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。"
+        "film-mcq-03": "本句的「film」指「覆蓋在物體表面的一層非常薄的物質」。",
+        "film-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "film-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-03"
     },
@@ -398,11 +356,8 @@ export default {
       "masked": "There was a greasy ____ on the surface of the water.",
       "options": [
         "film-mcq-03",
-        "film-mcq-02",
         "film-mcq-04",
-        "film-mcq-01",
-        "film-mcq-05",
-        "film-mcq-06"
+        "film-mcq-07"
       ],
       "explanation": "本句的「film」指「覆蓋在物體表面的一層非常薄的物質」。",
       "sentenceIndex": 6,
@@ -411,12 +366,9 @@ export default {
         "film"
       ],
       "optionReasons": {
-        "film-mcq-03": "本句指「覆蓋在物體表面的一層非常薄的物質」。",
-        "film-mcq-02": "「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」是「film — photographic material」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。",
-        "film-mcq-01": "「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」是「film — movie」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。"
+        "film-mcq-03": "本句的「film」指「覆蓋在物體表面的一層非常薄的物質」。",
+        "film-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "film-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-03"
     },
@@ -428,11 +380,8 @@ export default {
       "masked": "They ____ the interview in his apartment.",
       "options": [
         "film-mcq-04",
-        "film-mcq-03",
         "film-mcq-05",
-        "film-mcq-02",
-        "film-mcq-06",
-        "film-mcq-01"
+        "film-mcq-08"
       ],
       "explanation": "本句的「filmed」指「使用攝影機、手機或其他設備記錄活動影像」。",
       "sentenceIndex": 7,
@@ -441,12 +390,9 @@ export default {
         "filmed"
       ],
       "optionReasons": {
-        "film-mcq-04": "本句指「使用攝影機、手機或其他設備記錄活動影像」。",
-        "film-mcq-03": "「覆蓋在物體表面的一層非常薄的物質」是「film — thin layer」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-02": "「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」是「film — photographic material」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。",
-        "film-mcq-01": "「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」是「film — movie」的用法，與本句語境不同。"
+        "film-mcq-04": "本句的「filmed」指「使用攝影機、手機或其他設備記錄活動影像」。",
+        "film-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "film-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-04"
     },
@@ -459,10 +405,7 @@ export default {
       "options": [
         "film-mcq-04",
         "film-mcq-03",
-        "film-mcq-05",
-        "film-mcq-02",
-        "film-mcq-06",
-        "film-mcq-01"
+        "film-mcq-08"
       ],
       "explanation": "本句的「filming」指「使用攝影機、手機或其他設備記錄活動影像」。",
       "sentenceIndex": 8,
@@ -471,12 +414,9 @@ export default {
         "filming"
       ],
       "optionReasons": {
-        "film-mcq-04": "本句指「使用攝影機、手機或其他設備記錄活動影像」。",
-        "film-mcq-03": "「覆蓋在物體表面的一層非常薄的物質」是「film — thin layer」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-02": "「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」是「film — photographic material」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。",
-        "film-mcq-01": "「由連續活動影像構成、通常配有聲音並作為完整作品供觀眾觀看的電影」是「film — movie」的用法，與本句語境不同。"
+        "film-mcq-04": "本句的「filming」指「使用攝影機、手機或其他設備記錄活動影像」。",
+        "film-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "film-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-04"
     },
@@ -488,11 +428,7 @@ export default {
       "masked": "The director ____ several scenes in Hong Kong.",
       "options": [
         "film-mcq-09",
-        "film-mcq-08",
-        "film-mcq-07",
-        "film-mcq-06",
-        "film-mcq-05",
-        "film-mcq-04"
+        "film-mcq-03"
       ],
       "explanation": "本句的「filmed」指「為電影、節目或其他影像作品拍攝活動影像」。",
       "sentenceIndex": 9,
@@ -501,12 +437,8 @@ export default {
         "filmed"
       ],
       "optionReasons": {
-        "film-mcq-09": "本句指「為電影、節目或其他影像作品拍攝活動影像」。",
-        "film-mcq-08": "「創作和製作電影的整體過程或藝術」是「filmmaking」的用法，與本句語境不同。",
-        "film-mcq-07": "「參與策劃、導演或製作電影作品的人」是「filmmaker」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。"
+        "film-mcq-09": "本句的「filmed」指「為電影、節目或其他影像作品拍攝活動影像」。",
+        "film-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-09"
     },
@@ -518,11 +450,7 @@ export default {
       "masked": "The series was ____ entirely on location.",
       "options": [
         "film-mcq-09",
-        "film-mcq-08",
-        "film-mcq-07",
-        "film-mcq-06",
-        "film-mcq-05",
-        "film-mcq-04"
+        "film-mcq-05"
       ],
       "explanation": "本句的「filmed」指「為電影、節目或其他影像作品拍攝活動影像」。",
       "sentenceIndex": 10,
@@ -531,12 +459,8 @@ export default {
         "filmed"
       ],
       "optionReasons": {
-        "film-mcq-09": "本句指「為電影、節目或其他影像作品拍攝活動影像」。",
-        "film-mcq-08": "「創作和製作電影的整體過程或藝術」是「filmmaking」的用法，與本句語境不同。",
-        "film-mcq-07": "「參與策劃、導演或製作電影作品的人」是「filmmaker」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。"
+        "film-mcq-09": "本句的「filmed」指「為電影、節目或其他影像作品拍攝活動影像」。",
+        "film-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-09"
     },
@@ -548,11 +472,7 @@ export default {
       "masked": "Steam ____ the mirror.",
       "options": [
         "film-mcq-05",
-        "film-mcq-04",
-        "film-mcq-06",
-        "film-mcq-03",
-        "film-mcq-07",
-        "film-mcq-02"
+        "film-mcq-09"
       ],
       "explanation": "本句的「filmed」指「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」。",
       "sentenceIndex": 11,
@@ -561,12 +481,8 @@ export default {
         "filmed"
       ],
       "optionReasons": {
-        "film-mcq-05": "本句指「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。",
-        "film-mcq-03": "「覆蓋在物體表面的一層非常薄的物質」是「film — thin layer」的用法，與本句語境不同。",
-        "film-mcq-07": "「參與策劃、導演或製作電影作品的人」是「filmmaker」的用法，與本句語境不同。",
-        "film-mcq-02": "「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」是「film — photographic material」的用法，與本句語境不同。"
+        "film-mcq-05": "本句的「filmed」指「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」。",
+        "film-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-05"
     },
@@ -578,11 +494,7 @@ export default {
       "masked": "His eyes ____ with tears.",
       "options": [
         "film-mcq-05",
-        "film-mcq-04",
-        "film-mcq-06",
-        "film-mcq-03",
-        "film-mcq-07",
-        "film-mcq-02"
+        "film-mcq-09"
       ],
       "explanation": "本句的「filmed over」指「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」。",
       "sentenceIndex": 12,
@@ -591,12 +503,8 @@ export default {
         "filmed over"
       ],
       "optionReasons": {
-        "film-mcq-05": "本句指「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。",
-        "film-mcq-03": "「覆蓋在物體表面的一層非常薄的物質」是「film — thin layer」的用法，與本句語境不同。",
-        "film-mcq-07": "「參與策劃、導演或製作電影作品的人」是「filmmaker」的用法，與本句語境不同。",
-        "film-mcq-02": "「傳統攝影中用來感光並記錄影像的膠卷或菲林材料」是「film — photographic material」的用法，與本句語境不同。"
+        "film-mcq-05": "本句的「filmed over」指「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」。",
+        "film-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-05"
     },
@@ -608,10 +516,6 @@ export default {
       "masked": "____ will begin next month.",
       "options": [
         "film-mcq-06",
-        "film-mcq-05",
-        "film-mcq-07",
-        "film-mcq-04",
-        "film-mcq-08",
         "film-mcq-03"
       ],
       "explanation": "本句的「Filming」指「拍攝電影、節目或其他活動影像的過程」。",
@@ -621,12 +525,8 @@ export default {
         "Filming"
       ],
       "optionReasons": {
-        "film-mcq-06": "本句指「拍攝電影、節目或其他活動影像的過程」。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-07": "「參與策劃、導演或製作電影作品的人」是「filmmaker」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。",
-        "film-mcq-08": "「創作和製作電影的整體過程或藝術」是「filmmaking」的用法，與本句語境不同。",
-        "film-mcq-03": "「覆蓋在物體表面的一層非常薄的物質」是「film — thin layer」的用法，與本句語境不同。"
+        "film-mcq-06": "本句的「Filming」指「拍攝電影、節目或其他活動影像的過程」。",
+        "film-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-06"
     },
@@ -638,10 +538,6 @@ export default {
       "masked": "The street was closed during ____.",
       "options": [
         "film-mcq-06",
-        "film-mcq-05",
-        "film-mcq-07",
-        "film-mcq-04",
-        "film-mcq-08",
         "film-mcq-03"
       ],
       "explanation": "本句的「filming」指「拍攝電影、節目或其他活動影像的過程」。",
@@ -651,12 +547,8 @@ export default {
         "filming"
       ],
       "optionReasons": {
-        "film-mcq-06": "本句指「拍攝電影、節目或其他活動影像的過程」。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-07": "「參與策劃、導演或製作電影作品的人」是「filmmaker」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。",
-        "film-mcq-08": "「創作和製作電影的整體過程或藝術」是「filmmaking」的用法，與本句語境不同。",
-        "film-mcq-03": "「覆蓋在物體表面的一層非常薄的物質」是「film — thin layer」的用法，與本句語境不同。"
+        "film-mcq-06": "本句的「filming」指「拍攝電影、節目或其他活動影像的過程」。",
+        "film-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-06"
     },
@@ -668,10 +560,7 @@ export default {
       "masked": "She is an independent ____.",
       "options": [
         "film-mcq-07",
-        "film-mcq-06",
-        "film-mcq-08",
-        "film-mcq-05",
-        "film-mcq-09",
+        "film-mcq-03",
         "film-mcq-04"
       ],
       "explanation": "本句的「filmmaker」指「參與策劃、導演或製作電影作品的人」。",
@@ -681,12 +570,9 @@ export default {
         "filmmaker"
       ],
       "optionReasons": {
-        "film-mcq-07": "本句指「參與策劃、導演或製作電影作品的人」。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。",
-        "film-mcq-08": "「創作和製作電影的整體過程或藝術」是「filmmaking」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-09": "「為電影、節目或其他影像作品拍攝活動影像」是「5. film = make a movie / produce scenes for a movie（製作電影） — 拍電影；拍攝影片」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。"
+        "film-mcq-07": "本句的「filmmaker」指「參與策劃、導演或製作電影作品的人」。",
+        "film-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "film-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-07"
     },
@@ -698,10 +584,7 @@ export default {
       "masked": "The young ____ won an international award.",
       "options": [
         "film-mcq-07",
-        "film-mcq-06",
-        "film-mcq-08",
-        "film-mcq-05",
-        "film-mcq-09",
+        "film-mcq-03",
         "film-mcq-04"
       ],
       "explanation": "本句的「filmmaker」指「參與策劃、導演或製作電影作品的人」。",
@@ -711,12 +594,9 @@ export default {
         "filmmaker"
       ],
       "optionReasons": {
-        "film-mcq-07": "本句指「參與策劃、導演或製作電影作品的人」。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。",
-        "film-mcq-08": "「創作和製作電影的整體過程或藝術」是「filmmaking」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-09": "「為電影、節目或其他影像作品拍攝活動影像」是「5. film = make a movie / produce scenes for a movie（製作電影） — 拍電影；拍攝影片」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。"
+        "film-mcq-07": "本句的「filmmaker」指「參與策劃、導演或製作電影作品的人」。",
+        "film-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "film-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-07"
     },
@@ -728,11 +608,8 @@ export default {
       "masked": "He studied ____ at university.",
       "options": [
         "film-mcq-08",
-        "film-mcq-07",
-        "film-mcq-09",
-        "film-mcq-06",
         "film-mcq-05",
-        "film-mcq-04"
+        "film-mcq-02"
       ],
       "explanation": "本句的「filmmaking」指「創作和製作電影的整體過程或藝術」。",
       "sentenceIndex": 17,
@@ -741,12 +618,9 @@ export default {
         "filmmaking"
       ],
       "optionReasons": {
-        "film-mcq-08": "本句指「創作和製作電影的整體過程或藝術」。",
-        "film-mcq-07": "「參與策劃、導演或製作電影作品的人」是「filmmaker」的用法，與本句語境不同。",
-        "film-mcq-09": "「為電影、節目或其他影像作品拍攝活動影像」是「5. film = make a movie / produce scenes for a movie（製作電影） — 拍電影；拍攝影片」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。"
+        "film-mcq-08": "本句的「filmmaking」指「創作和製作電影的整體過程或藝術」。",
+        "film-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "film-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-08"
     },
@@ -758,11 +632,8 @@ export default {
       "masked": "Digital technology has changed modern ____.",
       "options": [
         "film-mcq-08",
-        "film-mcq-07",
-        "film-mcq-09",
-        "film-mcq-06",
         "film-mcq-05",
-        "film-mcq-04"
+        "film-mcq-02"
       ],
       "explanation": "本句的「filmmaking」指「創作和製作電影的整體過程或藝術」。",
       "sentenceIndex": 18,
@@ -771,12 +642,9 @@ export default {
         "filmmaking"
       ],
       "optionReasons": {
-        "film-mcq-08": "本句指「創作和製作電影的整體過程或藝術」。",
-        "film-mcq-07": "「參與策劃、導演或製作電影作品的人」是「filmmaker」的用法，與本句語境不同。",
-        "film-mcq-09": "「為電影、節目或其他影像作品拍攝活動影像」是「5. film = make a movie / produce scenes for a movie（製作電影） — 拍電影；拍攝影片」的用法，與本句語境不同。",
-        "film-mcq-06": "「拍攝電影、節目或其他活動影像的過程」是「filming」的用法，與本句語境不同。",
-        "film-mcq-05": "「某個表面覆上一層極薄物質而變得朦朧或被遮蓋；屬於「薄層」義的延伸」是「film over / surface becomes filmed」的用法，與本句語境不同。",
-        "film-mcq-04": "「使用攝影機、手機或其他設備記錄活動影像」是「film — verb」的用法，與本句語境不同。"
+        "film-mcq-08": "本句的「filmmaking」指「創作和製作電影的整體過程或藝術」。",
+        "film-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "film-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "film-mcq-08"
     }
@@ -788,5 +656,12 @@ export default {
     "sha256": "1f55badbaf5cef3c9b13cb1b61d99dc334da89e8e6eb563a5eb79af280f2f63e",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

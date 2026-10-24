@@ -675,16 +675,6 @@ export default {
           "He gave an incorrect answer.",
           "他給了一個錯誤答案。",
           "不正確的"
-        ],
-        [
-          "The figures were incorrectly recorded.",
-          "數字被錯誤地記錄。",
-          "不正確的"
-        ],
-        [
-          "She was incorrectly identified as the person responsible.",
-          "她被錯誤地認定為負責的人。",
-          "不正確的"
         ]
       ],
       "options": [],
@@ -843,6 +833,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "correct-reviewed-3058226adc",
+      "title": "錯誤地",
+      "form": "correct · source section 35",
+      "en": "錯誤地",
+      "zh": "錯誤地",
+      "note": "對照原始教材第 35 節及例句核實。",
+      "examples": [
+        [
+          "The figures were incorrectly recorded.",
+          "數字被錯誤地記錄。",
+          "錯誤地"
+        ],
+        [
+          "She was incorrectly identified as the person responsible.",
+          "她被錯誤地認定為負責的人。",
+          "錯誤地"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -854,11 +866,9 @@ export default {
       "masked": "Time is wasted ____.",
       "options": [
         "correct-mcq-01",
-        "correct-mcq-02",
-        "correct-mcq-03",
-        "correct-mcq-04",
-        "correct-mcq-05",
-        "correct-mcq-06"
+        "correct-mcq-33",
+        "correct-mcq-34",
+        "correct-mcq-04"
       ],
       "explanation": "本句的「correcting mistakes」指「改正錯誤」。",
       "sentenceIndex": 0,
@@ -867,12 +877,10 @@ export default {
         "correcting mistakes"
       ],
       "optionReasons": {
-        "correct-mcq-01": "本句指「改正錯誤」。",
-        "correct-mcq-02": "「更正資料」與本句語境不同。",
-        "correct-mcq-03": "「改正串字」與本句語境不同。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。"
+        "correct-mcq-01": "本句的「correcting mistakes」指「改正錯誤」。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-01"
     },
@@ -884,11 +892,9 @@ export default {
       "masked": "The team had to ____ in the final report.",
       "options": [
         "correct-mcq-01",
-        "correct-mcq-02",
-        "correct-mcq-03",
-        "correct-mcq-04",
-        "correct-mcq-05",
-        "correct-mcq-06"
+        "correct-pdf-003",
+        "correct-mcq-33",
+        "correct-pdf-001"
       ],
       "explanation": "本句的「correct several errors」指「改正錯誤」。",
       "sentenceIndex": 1,
@@ -897,12 +903,10 @@ export default {
         "correct several errors"
       ],
       "optionReasons": {
-        "correct-mcq-01": "本句指「改正錯誤」。",
-        "correct-mcq-02": "「更正資料」與本句語境不同。",
-        "correct-mcq-03": "「改正串字」與本句語境不同。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。"
+        "correct-mcq-01": "本句的「correct several errors」指「改正錯誤」。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-01"
     },
@@ -914,11 +918,9 @@ export default {
       "masked": "It is cheaper to prevent mistakes than to ____.",
       "options": [
         "correct-mcq-01",
-        "correct-mcq-02",
-        "correct-mcq-03",
-        "correct-mcq-04",
-        "correct-mcq-05",
-        "correct-mcq-06"
+        "correct-mcq-34",
+        "correct-mcq-33",
+        "correct-mcq-26"
       ],
       "explanation": "本句的「correct them later」指「改正錯誤」。",
       "sentenceIndex": 2,
@@ -927,12 +929,10 @@ export default {
         "correct them later"
       ],
       "optionReasons": {
-        "correct-mcq-01": "本句指「改正錯誤」。",
-        "correct-mcq-02": "「更正資料」與本句語境不同。",
-        "correct-mcq-03": "「改正串字」與本句語境不同。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。"
+        "correct-mcq-01": "本句的「correct them later」指「改正錯誤」。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-01"
     },
@@ -944,11 +944,9 @@ export default {
       "masked": "The company quickly ____.",
       "options": [
         "correct-mcq-02",
-        "correct-mcq-01",
-        "correct-mcq-03",
-        "correct-mcq-04",
-        "correct-mcq-05",
-        "correct-mcq-06"
+        "correct-mcq-25",
+        "correct-mcq-34",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「corrected the inaccurate information」指「更正資料」。",
       "sentenceIndex": 3,
@@ -957,12 +955,10 @@ export default {
         "corrected the inaccurate information"
       ],
       "optionReasons": {
-        "correct-mcq-02": "本句指「更正資料」。",
-        "correct-mcq-01": "「改正錯誤」與本句語境不同。",
-        "correct-mcq-03": "「改正串字」與本句語境不同。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。"
+        "correct-mcq-02": "本句的「corrected the inaccurate information」指「更正資料」。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-02"
     },
@@ -974,11 +970,9 @@ export default {
       "masked": "Please ____ before sending the report.",
       "options": [
         "correct-mcq-02",
-        "correct-mcq-01",
-        "correct-mcq-03",
-        "correct-mcq-04",
-        "correct-mcq-05",
-        "correct-mcq-06"
+        "correct-mcq-34",
+        "correct-mcq-32",
+        "correct-mcq-05"
       ],
       "explanation": "本句的「correct the figures」指「更正資料」。",
       "sentenceIndex": 4,
@@ -987,12 +981,10 @@ export default {
         "correct the figures"
       ],
       "optionReasons": {
-        "correct-mcq-02": "本句指「更正資料」。",
-        "correct-mcq-01": "「改正錯誤」與本句語境不同。",
-        "correct-mcq-03": "「改正串字」與本句語境不同。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。"
+        "correct-mcq-02": "本句的「correct the figures」指「更正資料」。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-02"
     },
@@ -1004,11 +996,9 @@ export default {
       "masked": "The teacher ____.",
       "options": [
         "correct-mcq-03",
-        "correct-mcq-02",
-        "correct-mcq-04",
-        "correct-mcq-01",
-        "correct-mcq-05",
-        "correct-mcq-06"
+        "correct-mcq-33",
+        "correct-pdf-003",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「corrected several spelling mistakes」指「改正串字」。",
       "sentenceIndex": 5,
@@ -1017,12 +1007,10 @@ export default {
         "corrected several spelling mistakes"
       ],
       "optionReasons": {
-        "correct-mcq-03": "本句指「改正串字」。",
-        "correct-mcq-02": "「更正資料」與本句語境不同。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。",
-        "correct-mcq-01": "「改正錯誤」與本句語境不同。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。"
+        "correct-mcq-03": "本句的「corrected several spelling mistakes」指「改正串字」。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-03"
     },
@@ -1034,11 +1022,9 @@ export default {
       "masked": "This software automatically ____.",
       "options": [
         "correct-mcq-03",
-        "correct-mcq-02",
-        "correct-mcq-04",
-        "correct-mcq-01",
-        "correct-mcq-05",
-        "correct-mcq-06"
+        "correct-mcq-32",
+        "correct-mcq-33",
+        "correct-pdf-003"
       ],
       "explanation": "本句的「corrects grammatical errors」指「改正串字」。",
       "sentenceIndex": 6,
@@ -1047,12 +1033,10 @@ export default {
         "corrects grammatical errors"
       ],
       "optionReasons": {
-        "correct-mcq-03": "本句指「改正串字」。",
-        "correct-mcq-02": "「更正資料」與本句語境不同。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。",
-        "correct-mcq-01": "「改正錯誤」與本句語境不同。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。"
+        "correct-mcq-03": "本句的「corrects grammatical errors」指「改正串字」。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-03"
     },
@@ -1064,11 +1048,9 @@ export default {
       "masked": "Please ____ if necessary.",
       "options": [
         "correct-mcq-04",
-        "correct-mcq-03",
-        "correct-mcq-05",
-        "correct-mcq-02",
-        "correct-mcq-06",
-        "correct-mcq-01"
+        "correct-mcq-27",
+        "correct-reviewed-3058226adc",
+        "correct-mcq-34"
       ],
       "explanation": "本句的「correct my pronunciation」指「糾正發音」。",
       "sentenceIndex": 7,
@@ -1077,12 +1059,10 @@ export default {
         "correct my pronunciation"
       ],
       "optionReasons": {
-        "correct-mcq-04": "本句指「糾正發音」。",
-        "correct-mcq-03": "「改正串字」與本句語境不同。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-02": "「更正資料」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。",
-        "correct-mcq-01": "「改正錯誤」與本句語境不同。"
+        "correct-mcq-04": "本句的「correct my pronunciation」指「糾正發音」。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "correct-reviewed-3058226adc": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-04"
     },
@@ -1094,11 +1074,9 @@ export default {
       "masked": "The teacher gently ____.",
       "options": [
         "correct-mcq-04",
-        "correct-mcq-03",
+        "correct-pdf-001",
         "correct-mcq-05",
-        "correct-mcq-02",
-        "correct-mcq-06",
-        "correct-mcq-01"
+        "correct-mcq-32"
       ],
       "explanation": "本句的「corrected the student's pronunciation」指「糾正發音」。",
       "sentenceIndex": 8,
@@ -1107,12 +1085,10 @@ export default {
         "corrected the student's pronunciation"
       ],
       "optionReasons": {
-        "correct-mcq-04": "本句指「糾正發音」。",
-        "correct-mcq-03": "「改正串字」與本句語境不同。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-02": "「更正資料」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。",
-        "correct-mcq-01": "「改正錯誤」與本句語境不同。"
+        "correct-mcq-04": "本句的「corrected the student's pronunciation」指「糾正發音」。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-04"
     },
@@ -1124,11 +1100,9 @@ export default {
       "masked": "The teacher spent the evening ____.",
       "options": [
         "correct-mcq-05",
-        "correct-mcq-04",
-        "correct-mcq-06",
-        "correct-mcq-03",
-        "correct-mcq-07",
-        "correct-mcq-02"
+        "correct-mcq-14",
+        "correct-mcq-11",
+        "correct-pdf-001"
       ],
       "explanation": "本句的「correcting essays」指「批改作業」。",
       "sentenceIndex": 9,
@@ -1137,12 +1111,10 @@ export default {
         "correcting essays"
       ],
       "optionReasons": {
-        "correct-mcq-05": "本句指「批改作業」。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。",
-        "correct-mcq-03": "「改正串字」與本句語境不同。",
-        "correct-mcq-07": "「糾正行為」與本句語境不同。",
-        "correct-mcq-02": "「更正資料」與本句語境不同。"
+        "correct-mcq-05": "本句的「correcting essays」指「批改作業」。",
+        "correct-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-05"
     },
@@ -1154,11 +1126,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "correct-mcq-05",
-        "correct-mcq-04",
-        "correct-mcq-06",
-        "correct-mcq-03",
-        "correct-mcq-07",
-        "correct-mcq-02"
+        "correct-mcq-22",
+        "correct-pdf-001",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「corrected the students' homework」指「批改作業」。",
       "sentenceIndex": 10,
@@ -1167,12 +1137,10 @@ export default {
         "corrected the students' homework"
       ],
       "optionReasons": {
-        "correct-mcq-05": "本句指「批改作業」。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。",
-        "correct-mcq-03": "「改正串字」與本句語境不同。",
-        "correct-mcq-07": "「糾正行為」與本句語境不同。",
-        "correct-mcq-02": "「更正資料」與本句語境不同。"
+        "correct-mcq-05": "本句的「corrected the students' homework」指「批改作業」。",
+        "correct-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-05"
     },
@@ -1184,11 +1152,9 @@ export default {
       "masked": "He said the meeting was on Friday, but I ____.",
       "options": [
         "correct-mcq-06",
-        "correct-mcq-05",
-        "correct-mcq-07",
-        "correct-mcq-04",
-        "correct-mcq-08",
-        "correct-mcq-03"
+        "correct-pdf-001",
+        "correct-mcq-33",
+        "correct-reviewed-3058226adc"
       ],
       "explanation": "本句的「corrected him」指「糾正某人」。",
       "sentenceIndex": 11,
@@ -1197,12 +1163,10 @@ export default {
         "corrected him"
       ],
       "optionReasons": {
-        "correct-mcq-06": "本句指「糾正某人」。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-07": "「糾正行為」與本句語境不同。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。",
-        "correct-mcq-08": "「修正缺陷」與本句語境不同。",
-        "correct-mcq-03": "「改正串字」與本句語境不同。"
+        "correct-mcq-06": "本句的「corrected him」指「糾正某人」。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-reviewed-3058226adc": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-06"
     },
@@ -1214,11 +1178,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "correct-mcq-06",
-        "correct-mcq-05",
-        "correct-mcq-07",
-        "correct-mcq-04",
-        "correct-mcq-08",
-        "correct-mcq-03"
+        "correct-reviewed-3058226adc",
+        "correct-mcq-27",
+        "correct-pdf-001"
       ],
       "explanation": "本句的「correct me if I'm wrong」指「糾正某人」。",
       "sentenceIndex": 12,
@@ -1227,12 +1189,10 @@ export default {
         "correct me if I'm wrong"
       ],
       "optionReasons": {
-        "correct-mcq-06": "本句指「糾正某人」。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-07": "「糾正行為」與本句語境不同。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。",
-        "correct-mcq-08": "「修正缺陷」與本句語境不同。",
-        "correct-mcq-03": "「改正串字」與本句語境不同。"
+        "correct-mcq-06": "本句的「correct me if I'm wrong」指「糾正某人」。",
+        "correct-reviewed-3058226adc": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-06"
     },
@@ -1244,11 +1204,9 @@ export default {
       "masked": "She ____ without embarrassing him.",
       "options": [
         "correct-mcq-06",
-        "correct-mcq-05",
-        "correct-mcq-07",
-        "correct-mcq-04",
-        "correct-mcq-08",
-        "correct-mcq-03"
+        "correct-mcq-25",
+        "correct-mcq-32",
+        "correct-pdf-001"
       ],
       "explanation": "本句的「corrected him politely」指「糾正某人」。",
       "sentenceIndex": 13,
@@ -1257,12 +1215,10 @@ export default {
         "corrected him politely"
       ],
       "optionReasons": {
-        "correct-mcq-06": "本句指「糾正某人」。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-07": "「糾正行為」與本句語境不同。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。",
-        "correct-mcq-08": "「修正缺陷」與本句語境不同。",
-        "correct-mcq-03": "「改正串字」與本句語境不同。"
+        "correct-mcq-06": "本句的「corrected him politely」指「糾正某人」。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-06"
     },
@@ -1275,10 +1231,8 @@ export default {
       "options": [
         "correct-mcq-06",
         "correct-mcq-05",
-        "correct-mcq-07",
-        "correct-mcq-04",
-        "correct-mcq-08",
-        "correct-mcq-03"
+        "correct-pdf-003",
+        "correct-pdf-001"
       ],
       "explanation": "本句的「correct employees constructively」指「糾正某人」。",
       "sentenceIndex": 14,
@@ -1287,12 +1241,10 @@ export default {
         "correct employees constructively"
       ],
       "optionReasons": {
-        "correct-mcq-06": "本句指「糾正某人」。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-07": "「糾正行為」與本句語境不同。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。",
-        "correct-mcq-08": "「修正缺陷」與本句語境不同。",
-        "correct-mcq-03": "「改正串字」與本句語境不同。"
+        "correct-mcq-06": "本句的「correct employees constructively」指「糾正某人」。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-06"
     },
@@ -1304,11 +1256,9 @@ export default {
       "masked": "The training was intended to ____.",
       "options": [
         "correct-mcq-07",
-        "correct-mcq-06",
-        "correct-mcq-08",
+        "correct-pdf-003",
         "correct-mcq-05",
-        "correct-mcq-09",
-        "correct-mcq-04"
+        "correct-mcq-32"
       ],
       "explanation": "本句的「correct unsafe behaviour」指「糾正行為」。",
       "sentenceIndex": 15,
@@ -1317,12 +1267,10 @@ export default {
         "correct unsafe behaviour"
       ],
       "optionReasons": {
-        "correct-mcq-07": "本句指「糾正行為」。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。",
-        "correct-mcq-08": "「修正缺陷」與本句語境不同。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-09": "「糾正失衡」與本句語境不同。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。"
+        "correct-mcq-07": "本句的「correct unsafe behaviour」指「糾正行為」。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-07"
     },
@@ -1334,11 +1282,9 @@ export default {
       "masked": "The manager tried to ____.",
       "options": [
         "correct-mcq-07",
-        "correct-mcq-06",
-        "correct-mcq-08",
-        "correct-mcq-05",
-        "correct-mcq-09",
-        "correct-mcq-04"
+        "correct-mcq-25",
+        "correct-mcq-32",
+        "correct-pdf-001"
       ],
       "explanation": "本句的「correct the employee's repeated lateness」指「糾正行為」。",
       "sentenceIndex": 16,
@@ -1347,12 +1293,10 @@ export default {
         "correct the employee's repeated lateness"
       ],
       "optionReasons": {
-        "correct-mcq-07": "本句指「糾正行為」。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。",
-        "correct-mcq-08": "「修正缺陷」與本句語境不同。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。",
-        "correct-mcq-09": "「糾正失衡」與本句語境不同。",
-        "correct-mcq-04": "「糾正發音」與本句語境不同。"
+        "correct-mcq-07": "本句的「correct the employee's repeated lateness」指「糾正行為」。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-07"
     },
@@ -1364,11 +1308,9 @@ export default {
       "masked": "Engineers worked to ____.",
       "options": [
         "correct-mcq-08",
-        "correct-mcq-07",
-        "correct-mcq-09",
-        "correct-mcq-06",
-        "correct-mcq-10",
-        "correct-mcq-05"
+        "correct-reviewed-3058226adc",
+        "correct-mcq-33",
+        "correct-pdf-001"
       ],
       "explanation": "本句的「correct the design problem」指「修正缺陷」。",
       "sentenceIndex": 17,
@@ -1377,12 +1319,10 @@ export default {
         "correct the design problem"
       ],
       "optionReasons": {
-        "correct-mcq-08": "本句指「修正缺陷」。",
-        "correct-mcq-07": "「糾正行為」與本句語境不同。",
-        "correct-mcq-09": "「糾正失衡」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。",
-        "correct-mcq-10": "「矯正姿勢」與本句語境不同。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。"
+        "correct-mcq-08": "本句的「correct the design problem」指「修正缺陷」。",
+        "correct-reviewed-3058226adc": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-08"
     },
@@ -1394,11 +1334,9 @@ export default {
       "masked": "The update should ____.",
       "options": [
         "correct-mcq-08",
-        "correct-mcq-07",
-        "correct-mcq-09",
-        "correct-mcq-06",
-        "correct-mcq-10",
-        "correct-mcq-05"
+        "correct-mcq-32",
+        "correct-mcq-27",
+        "correct-pdf-003"
       ],
       "explanation": "本句的「correct the defect」指「修正缺陷」。",
       "sentenceIndex": 18,
@@ -1407,12 +1345,10 @@ export default {
         "correct the defect"
       ],
       "optionReasons": {
-        "correct-mcq-08": "本句指「修正缺陷」。",
-        "correct-mcq-07": "「糾正行為」與本句語境不同。",
-        "correct-mcq-09": "「糾正失衡」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。",
-        "correct-mcq-10": "「矯正姿勢」與本句語境不同。",
-        "correct-mcq-05": "「批改作業」與本句語境不同。"
+        "correct-mcq-08": "本句的「correct the defect」指「修正缺陷」。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-08"
     },
@@ -1424,11 +1360,9 @@ export default {
       "masked": "The manager redistributed tasks to ____.",
       "options": [
         "correct-mcq-09",
-        "correct-mcq-08",
-        "correct-mcq-10",
-        "correct-mcq-07",
-        "correct-mcq-11",
-        "correct-mcq-06"
+        "correct-mcq-34",
+        "correct-mcq-32",
+        "correct-mcq-33"
       ],
       "explanation": "本句的「correct the imbalance in workload」指「糾正失衡」。",
       "sentenceIndex": 19,
@@ -1437,12 +1371,10 @@ export default {
         "correct the imbalance in workload"
       ],
       "optionReasons": {
-        "correct-mcq-09": "本句指「糾正失衡」。",
-        "correct-mcq-08": "「修正缺陷」與本句語境不同。",
-        "correct-mcq-10": "「矯正姿勢」與本句語境不同。",
-        "correct-mcq-07": "「糾正行為」與本句語境不同。",
-        "correct-mcq-11": "「矯正視力」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。"
+        "correct-mcq-09": "本句的「correct the imbalance in workload」指「糾正失衡」。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-09"
     },
@@ -1454,11 +1386,9 @@ export default {
       "masked": "New measures were introduced to ____.",
       "options": [
         "correct-mcq-09",
-        "correct-mcq-08",
-        "correct-mcq-10",
-        "correct-mcq-07",
-        "correct-mcq-11",
-        "correct-mcq-06"
+        "correct-mcq-27",
+        "correct-pdf-003",
+        "correct-mcq-25"
       ],
       "explanation": "本句的「correct regional inequalities」指「糾正失衡」。",
       "sentenceIndex": 20,
@@ -1467,12 +1397,10 @@ export default {
         "correct regional inequalities"
       ],
       "optionReasons": {
-        "correct-mcq-09": "本句指「糾正失衡」。",
-        "correct-mcq-08": "「修正缺陷」與本句語境不同。",
-        "correct-mcq-10": "「矯正姿勢」與本句語境不同。",
-        "correct-mcq-07": "「糾正行為」與本句語境不同。",
-        "correct-mcq-11": "「矯正視力」與本句語境不同。",
-        "correct-mcq-06": "「糾正某人」與本句語境不同。"
+        "correct-mcq-09": "本句的「correct regional inequalities」指「糾正失衡」。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-09"
     },
@@ -1484,11 +1412,9 @@ export default {
       "masked": "The exercises can help ____.",
       "options": [
         "correct-mcq-10",
-        "correct-mcq-09",
-        "correct-mcq-11",
-        "correct-mcq-08",
-        "correct-mcq-12",
-        "correct-mcq-07"
+        "correct-mcq-34",
+        "correct-mcq-25",
+        "correct-mcq-27"
       ],
       "explanation": "本句的「correct poor posture」指「矯正姿勢」。",
       "sentenceIndex": 21,
@@ -1497,12 +1423,10 @@ export default {
         "correct poor posture"
       ],
       "optionReasons": {
-        "correct-mcq-10": "本句指「矯正姿勢」。",
-        "correct-mcq-09": "「糾正失衡」與本句語境不同。",
-        "correct-mcq-11": "「矯正視力」與本句語境不同。",
-        "correct-mcq-08": "「修正缺陷」與本句語境不同。",
-        "correct-mcq-12": "「就 X 作校正」與本句語境不同。",
-        "correct-mcq-07": "「糾正行為」與本句語境不同。"
+        "correct-mcq-10": "本句的「correct poor posture」指「矯正姿勢」。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-10"
     },
@@ -1514,11 +1438,9 @@ export default {
       "masked": "The device is designed to ____.",
       "options": [
         "correct-mcq-10",
-        "correct-mcq-09",
-        "correct-mcq-11",
-        "correct-mcq-08",
-        "correct-mcq-12",
-        "correct-mcq-07"
+        "correct-mcq-32",
+        "correct-mcq-25",
+        "correct-pdf-001"
       ],
       "explanation": "本句的「correct spinal alignment」指「矯正姿勢」。",
       "sentenceIndex": 22,
@@ -1527,12 +1449,10 @@ export default {
         "correct spinal alignment"
       ],
       "optionReasons": {
-        "correct-mcq-10": "本句指「矯正姿勢」。",
-        "correct-mcq-09": "「糾正失衡」與本句語境不同。",
-        "correct-mcq-11": "「矯正視力」與本句語境不同。",
-        "correct-mcq-08": "「修正缺陷」與本句語境不同。",
-        "correct-mcq-12": "「就 X 作校正」與本句語境不同。",
-        "correct-mcq-07": "「糾正行為」與本句語境不同。"
+        "correct-mcq-10": "本句的「correct spinal alignment」指「矯正姿勢」。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-10"
     },
@@ -1544,11 +1464,9 @@ export default {
       "masked": "Glasses can ____.",
       "options": [
         "correct-mcq-11",
-        "correct-mcq-10",
-        "correct-mcq-12",
-        "correct-mcq-09",
-        "correct-mcq-13",
-        "correct-mcq-08"
+        "correct-mcq-34",
+        "correct-mcq-27",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「correct certain vision problems」指「矯正視力」。",
       "sentenceIndex": 23,
@@ -1557,12 +1475,10 @@ export default {
         "correct certain vision problems"
       ],
       "optionReasons": {
-        "correct-mcq-11": "本句指「矯正視力」。",
-        "correct-mcq-10": "「矯正姿勢」與本句語境不同。",
-        "correct-mcq-12": "「就 X 作校正」與本句語境不同。",
-        "correct-mcq-09": "「糾正失衡」與本句語境不同。",
-        "correct-mcq-13": "「正確的」與本句語境不同。",
-        "correct-mcq-08": "「修正缺陷」與本句語境不同。"
+        "correct-mcq-11": "本句的「correct certain vision problems」指「矯正視力」。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-11"
     },
@@ -1574,11 +1490,9 @@ export default {
       "masked": "The surgery was intended to ____.",
       "options": [
         "correct-mcq-11",
-        "correct-mcq-10",
-        "correct-mcq-12",
-        "correct-mcq-09",
-        "correct-mcq-13",
-        "correct-mcq-08"
+        "correct-mcq-34",
+        "correct-mcq-32",
+        "correct-mcq-33"
       ],
       "explanation": "本句的「correct her eyesight」指「矯正視力」。",
       "sentenceIndex": 24,
@@ -1587,12 +1501,10 @@ export default {
         "correct her eyesight"
       ],
       "optionReasons": {
-        "correct-mcq-11": "本句指「矯正視力」。",
-        "correct-mcq-10": "「矯正姿勢」與本句語境不同。",
-        "correct-mcq-12": "「就 X 作校正」與本句語境不同。",
-        "correct-mcq-09": "「糾正失衡」與本句語境不同。",
-        "correct-mcq-13": "「正確的」與本句語境不同。",
-        "correct-mcq-08": "「修正缺陷」與本句語境不同。"
+        "correct-mcq-11": "本句的「correct her eyesight」指「矯正視力」。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-11"
     },
@@ -1604,11 +1516,9 @@ export default {
       "masked": "The researchers ____.",
       "options": [
         "correct-mcq-12",
-        "correct-mcq-11",
-        "correct-mcq-13",
-        "correct-mcq-10",
-        "correct-mcq-14",
-        "correct-mcq-09"
+        "correct-mcq-32",
+        "correct-mcq-25",
+        "correct-pdf-001"
       ],
       "explanation": "本句的「corrected for differences in age」指「就 X 作校正」。",
       "sentenceIndex": 25,
@@ -1617,12 +1527,10 @@ export default {
         "corrected for differences in age"
       ],
       "optionReasons": {
-        "correct-mcq-12": "本句指「就 X 作校正」。",
-        "correct-mcq-11": "「矯正視力」與本句語境不同。",
-        "correct-mcq-13": "「正確的」與本句語境不同。",
-        "correct-mcq-10": "「矯正姿勢」與本句語境不同。",
-        "correct-mcq-14": "「正確答案」與本句語境不同。",
-        "correct-mcq-09": "「糾正失衡」與本句語境不同。"
+        "correct-mcq-12": "本句的「corrected for differences in age」指「就 X 作校正」。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-12"
     },
@@ -1634,11 +1542,9 @@ export default {
       "masked": "The measurements were ____.",
       "options": [
         "correct-mcq-12",
-        "correct-mcq-11",
-        "correct-mcq-13",
-        "correct-mcq-10",
-        "correct-mcq-14",
-        "correct-mcq-09"
+        "correct-mcq-33",
+        "correct-pdf-003",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「corrected for temperature changes」指「就 X 作校正」。",
       "sentenceIndex": 26,
@@ -1647,12 +1553,10 @@ export default {
         "corrected for temperature changes"
       ],
       "optionReasons": {
-        "correct-mcq-12": "本句指「就 X 作校正」。",
-        "correct-mcq-11": "「矯正視力」與本句語境不同。",
-        "correct-mcq-13": "「正確的」與本句語境不同。",
-        "correct-mcq-10": "「矯正姿勢」與本句語境不同。",
-        "correct-mcq-14": "「正確答案」與本句語境不同。",
-        "correct-mcq-09": "「糾正失衡」與本句語境不同。"
+        "correct-mcq-12": "本句的「corrected for temperature changes」指「就 X 作校正」。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-12"
     },
@@ -1664,11 +1568,9 @@ export default {
       "masked": "Your answer is ____.",
       "options": [
         "correct-mcq-13",
-        "correct-mcq-12",
-        "correct-mcq-14",
-        "correct-mcq-11",
-        "correct-mcq-15",
-        "correct-mcq-10"
+        "correct-mcq-32",
+        "correct-pdf-001",
+        "correct-mcq-05"
       ],
       "explanation": "本句的「correct」指「正確的」。",
       "sentenceIndex": 27,
@@ -1677,12 +1579,10 @@ export default {
         "correct"
       ],
       "optionReasons": {
-        "correct-mcq-13": "本句指「正確的」。",
-        "correct-mcq-12": "「就 X 作校正」與本句語境不同。",
-        "correct-mcq-14": "「正確答案」與本句語境不同。",
-        "correct-mcq-11": "「矯正視力」與本句語境不同。",
-        "correct-mcq-15": "「正確資料」與本句語境不同。",
-        "correct-mcq-10": "「矯正姿勢」與本句語境不同。"
+        "correct-mcq-13": "本句的「correct」指「正確的」。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-13"
     },
@@ -1694,11 +1594,9 @@ export default {
       "masked": "Make sure the information is ____ before publishing it.",
       "options": [
         "correct-mcq-13",
-        "correct-mcq-12",
-        "correct-mcq-14",
-        "correct-mcq-11",
-        "correct-mcq-15",
-        "correct-mcq-10"
+        "correct-mcq-27",
+        "correct-pdf-003",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「correct」指「正確的」。",
       "sentenceIndex": 28,
@@ -1707,12 +1605,10 @@ export default {
         "correct"
       ],
       "optionReasons": {
-        "correct-mcq-13": "本句指「正確的」。",
-        "correct-mcq-12": "「就 X 作校正」與本句語境不同。",
-        "correct-mcq-14": "「正確答案」與本句語境不同。",
-        "correct-mcq-11": "「矯正視力」與本句語境不同。",
-        "correct-mcq-15": "「正確資料」與本句語境不同。",
-        "correct-mcq-10": "「矯正姿勢」與本句語境不同。"
+        "correct-mcq-13": "本句的「correct」指「正確的」。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-13"
     },
@@ -1724,11 +1620,9 @@ export default {
       "masked": "Only one answer is ____.",
       "options": [
         "correct-mcq-14",
-        "correct-mcq-13",
-        "correct-mcq-15",
-        "correct-mcq-12",
-        "correct-mcq-16",
-        "correct-mcq-11"
+        "correct-mcq-33",
+        "correct-mcq-05",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「correct」指「正確答案」。",
       "sentenceIndex": 29,
@@ -1737,12 +1631,10 @@ export default {
         "correct"
       ],
       "optionReasons": {
-        "correct-mcq-14": "本句指「正確答案」。",
-        "correct-mcq-13": "「正確的」與本句語境不同。",
-        "correct-mcq-15": "「正確資料」與本句語境不同。",
-        "correct-mcq-12": "「就 X 作校正」與本句語境不同。",
-        "correct-mcq-16": "「正確串法」與本句語境不同。",
-        "correct-mcq-11": "「矯正視力」與本句語境不同。"
+        "correct-mcq-14": "本句的「correct」指「正確答案」。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-14"
     },
@@ -1754,11 +1646,9 @@ export default {
       "masked": "She chose the ____.",
       "options": [
         "correct-mcq-14",
-        "correct-mcq-13",
-        "correct-mcq-15",
-        "correct-mcq-12",
-        "correct-mcq-16",
-        "correct-mcq-11"
+        "correct-mcq-27",
+        "correct-mcq-25",
+        "correct-pdf-003"
       ],
       "explanation": "本句的「correct answer」指「正確答案」。",
       "sentenceIndex": 30,
@@ -1767,12 +1657,10 @@ export default {
         "correct answer"
       ],
       "optionReasons": {
-        "correct-mcq-14": "本句指「正確答案」。",
-        "correct-mcq-13": "「正確的」與本句語境不同。",
-        "correct-mcq-15": "「正確資料」與本句語境不同。",
-        "correct-mcq-12": "「就 X 作校正」與本句語境不同。",
-        "correct-mcq-16": "「正確串法」與本句語境不同。",
-        "correct-mcq-11": "「矯正視力」與本句語境不同。"
+        "correct-mcq-14": "本句的「correct answer」指「正確答案」。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-14"
     },
@@ -1784,11 +1672,9 @@ export default {
       "masked": "We need the ____ before making a decision.",
       "options": [
         "correct-mcq-15",
-        "correct-mcq-14",
-        "correct-mcq-16",
-        "correct-mcq-13",
-        "correct-mcq-17",
-        "correct-mcq-12"
+        "correct-mcq-25",
+        "correct-mcq-34",
+        "correct-mcq-33"
       ],
       "explanation": "本句的「correct information」指「正確資料」。",
       "sentenceIndex": 31,
@@ -1797,12 +1683,10 @@ export default {
         "correct information"
       ],
       "optionReasons": {
-        "correct-mcq-15": "本句指「正確資料」。",
-        "correct-mcq-14": "「正確答案」與本句語境不同。",
-        "correct-mcq-16": "「正確串法」與本句語境不同。",
-        "correct-mcq-13": "「正確的」與本句語境不同。",
-        "correct-mcq-17": "「文法正確」與本句語境不同。",
-        "correct-mcq-12": "「就 X 作校正」與本句語境不同。"
+        "correct-mcq-15": "本句的「correct information」指「正確資料」。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-15"
     },
@@ -1814,11 +1698,9 @@ export default {
       "masked": "Is this address ____?",
       "options": [
         "correct-mcq-15",
-        "correct-mcq-14",
-        "correct-mcq-16",
-        "correct-mcq-13",
-        "correct-mcq-17",
-        "correct-mcq-12"
+        "correct-mcq-32",
+        "correct-mcq-25",
+        "correct-mcq-27"
       ],
       "explanation": "本句的「correct」指「正確資料」。",
       "sentenceIndex": 32,
@@ -1827,12 +1709,10 @@ export default {
         "correct"
       ],
       "optionReasons": {
-        "correct-mcq-15": "本句指「正確資料」。",
-        "correct-mcq-14": "「正確答案」與本句語境不同。",
-        "correct-mcq-16": "「正確串法」與本句語境不同。",
-        "correct-mcq-13": "「正確的」與本句語境不同。",
-        "correct-mcq-17": "「文法正確」與本句語境不同。",
-        "correct-mcq-12": "「就 X 作校正」與本句語境不同。"
+        "correct-mcq-15": "本句的「correct」指「正確資料」。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-15"
     },
@@ -1844,11 +1724,9 @@ export default {
       "masked": "What is the ____ of the word?",
       "options": [
         "correct-mcq-16",
-        "correct-mcq-15",
-        "correct-mcq-17",
-        "correct-mcq-14",
-        "correct-mcq-18",
-        "correct-mcq-13"
+        "correct-mcq-25",
+        "correct-mcq-27",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「correct spelling」指「正確串法」。",
       "sentenceIndex": 33,
@@ -1857,12 +1735,10 @@ export default {
         "correct spelling"
       ],
       "optionReasons": {
-        "correct-mcq-16": "本句指「正確串法」。",
-        "correct-mcq-15": "「正確資料」與本句語境不同。",
-        "correct-mcq-17": "「文法正確」與本句語境不同。",
-        "correct-mcq-14": "「正確答案」與本句語境不同。",
-        "correct-mcq-18": "「正確程序」與本句語境不同。",
-        "correct-mcq-13": "「正確的」與本句語境不同。"
+        "correct-mcq-16": "本句的「correct spelling」指「正確串法」。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-16"
     },
@@ -1874,11 +1750,9 @@ export default {
       "masked": "Listen carefully to the ____.",
       "options": [
         "correct-mcq-16",
-        "correct-mcq-15",
-        "correct-mcq-17",
-        "correct-mcq-14",
-        "correct-mcq-18",
-        "correct-mcq-13"
+        "correct-mcq-05",
+        "correct-mcq-34",
+        "correct-mcq-33"
       ],
       "explanation": "本句的「correct pronunciation」指「正確串法」。",
       "sentenceIndex": 34,
@@ -1887,12 +1761,10 @@ export default {
         "correct pronunciation"
       ],
       "optionReasons": {
-        "correct-mcq-16": "本句指「正確串法」。",
-        "correct-mcq-15": "「正確資料」與本句語境不同。",
-        "correct-mcq-17": "「文法正確」與本句語境不同。",
-        "correct-mcq-14": "「正確答案」與本句語境不同。",
-        "correct-mcq-18": "「正確程序」與本句語境不同。",
-        "correct-mcq-13": "「正確的」與本句語境不同。"
+        "correct-mcq-16": "本句的「correct pronunciation」指「正確串法」。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-16"
     },
@@ -1904,11 +1776,9 @@ export default {
       "masked": "The sentence is ____.",
       "options": [
         "correct-mcq-17",
-        "correct-mcq-16",
-        "correct-mcq-18",
-        "correct-mcq-15",
-        "correct-mcq-19",
-        "correct-mcq-14"
+        "correct-mcq-34",
+        "correct-mcq-33",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「grammatically correct」指「文法正確」。",
       "sentenceIndex": 35,
@@ -1917,12 +1787,10 @@ export default {
         "grammatically correct"
       ],
       "optionReasons": {
-        "correct-mcq-17": "本句指「文法正確」。",
-        "correct-mcq-16": "「正確串法」與本句語境不同。",
-        "correct-mcq-18": "「正確程序」與本句語境不同。",
-        "correct-mcq-15": "「正確資料」與本句語境不同。",
-        "correct-mcq-19": "「合適／正確份量」與本句語境不同。",
-        "correct-mcq-14": "「正確答案」與本句語境不同。"
+        "correct-mcq-17": "本句的「grammatically correct」指「文法正確」。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-17"
     },
@@ -1934,11 +1802,9 @@ export default {
       "masked": "A sentence can be grammatically ____ but still sound unnatural.",
       "options": [
         "correct-mcq-17",
-        "correct-mcq-16",
-        "correct-mcq-18",
-        "correct-mcq-15",
-        "correct-mcq-19",
-        "correct-mcq-14"
+        "correct-mcq-32",
+        "correct-mcq-33",
+        "correct-pdf-003"
       ],
       "explanation": "本句的「correct」指「文法正確」。",
       "sentenceIndex": 36,
@@ -1947,12 +1813,10 @@ export default {
         "correct"
       ],
       "optionReasons": {
-        "correct-mcq-17": "本句指「文法正確」。",
-        "correct-mcq-16": "「正確串法」與本句語境不同。",
-        "correct-mcq-18": "「正確程序」與本句語境不同。",
-        "correct-mcq-15": "「正確資料」與本句語境不同。",
-        "correct-mcq-19": "「合適／正確份量」與本句語境不同。",
-        "correct-mcq-14": "「正確答案」與本句語境不同。"
+        "correct-mcq-17": "本句的「correct」指「文法正確」。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-17"
     },
@@ -1964,11 +1828,9 @@ export default {
       "masked": "There is a ____ to operate the machine safely.",
       "options": [
         "correct-pdf-001",
-        "correct-mcq-17",
-        "correct-mcq-19",
-        "correct-mcq-16",
-        "correct-mcq-20",
-        "correct-mcq-15"
+        "correct-mcq-11",
+        "correct-pdf-003",
+        "correct-mcq-33"
       ],
       "explanation": "本句的「correct way」指「符合規則、程序或公認標準的方法」。",
       "sentenceIndex": 39,
@@ -1977,12 +1839,10 @@ export default {
         "correct way"
       ],
       "optionReasons": {
-        "correct-pdf-001": "本句指「符合規則、程序或公認標準的方法」。",
-        "correct-mcq-17": "「文法正確」與本句語境不同。",
-        "correct-mcq-19": "「合適／正確份量」與本句語境不同。",
-        "correct-mcq-16": "「正確串法」與本句語境不同。",
-        "correct-mcq-20": "「嚴格來說正確」與本句語境不同。",
-        "correct-mcq-15": "「正確資料」與本句語境不同。"
+        "correct-pdf-001": "本句的「correct way」指「符合規則、程序或公認標準的方法」。",
+        "correct-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-pdf-001"
     },
@@ -1994,11 +1854,9 @@ export default {
       "masked": "The instructor showed us the ____.",
       "options": [
         "correct-pdf-001",
-        "correct-mcq-17",
-        "correct-mcq-19",
-        "correct-mcq-16",
-        "correct-mcq-20",
-        "correct-mcq-15"
+        "correct-mcq-26",
+        "correct-mcq-05",
+        "correct-mcq-29"
       ],
       "explanation": "本句的「correct technique」指「符合規則、程序或公認標準的方法」。",
       "sentenceIndex": 40,
@@ -2007,12 +1865,10 @@ export default {
         "correct technique"
       ],
       "optionReasons": {
-        "correct-pdf-001": "本句指「符合規則、程序或公認標準的方法」。",
-        "correct-mcq-17": "「文法正確」與本句語境不同。",
-        "correct-mcq-19": "「合適／正確份量」與本句語境不同。",
-        "correct-mcq-16": "「正確串法」與本句語境不同。",
-        "correct-mcq-20": "「嚴格來說正確」與本句語境不同。",
-        "correct-mcq-15": "「正確資料」與本句語境不同。"
+        "correct-pdf-001": "本句的「correct technique」指「符合規則、程序或公認標準的方法」。",
+        "correct-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-pdf-001"
     },
@@ -2024,11 +1880,9 @@ export default {
       "masked": "Employees must follow the ____.",
       "options": [
         "correct-mcq-18",
-        "correct-mcq-17",
-        "correct-mcq-19",
-        "correct-mcq-16",
-        "correct-mcq-20",
-        "correct-mcq-15"
+        "correct-mcq-33",
+        "correct-mcq-05",
+        "correct-mcq-34"
       ],
       "explanation": "本句的「correct procedure」指「正確程序」。",
       "sentenceIndex": 41,
@@ -2037,12 +1891,10 @@ export default {
         "correct procedure"
       ],
       "optionReasons": {
-        "correct-mcq-18": "本句指「正確程序」。",
-        "correct-mcq-17": "「文法正確」與本句語境不同。",
-        "correct-mcq-19": "「合適／正確份量」與本句語境不同。",
-        "correct-mcq-16": "「正確串法」與本句語境不同。",
-        "correct-mcq-20": "「嚴格來說正確」與本句語境不同。",
-        "correct-mcq-15": "「正確資料」與本句語境不同。"
+        "correct-mcq-18": "本句的「correct procedure」指「正確程序」。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-18"
     },
@@ -2054,11 +1906,9 @@ export default {
       "masked": "She was unsure about the ____.",
       "options": [
         "correct-mcq-18",
-        "correct-mcq-17",
-        "correct-mcq-19",
-        "correct-mcq-16",
-        "correct-mcq-20",
-        "correct-mcq-15"
+        "correct-mcq-05",
+        "correct-mcq-33",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「correct procedure for reporting the problem」指「正確程序」。",
       "sentenceIndex": 42,
@@ -2067,12 +1917,10 @@ export default {
         "correct procedure for reporting the problem"
       ],
       "optionReasons": {
-        "correct-mcq-18": "本句指「正確程序」。",
-        "correct-mcq-17": "「文法正確」與本句語境不同。",
-        "correct-mcq-19": "「合適／正確份量」與本句語境不同。",
-        "correct-mcq-16": "「正確串法」與本句語境不同。",
-        "correct-mcq-20": "「嚴格來說正確」與本句語境不同。",
-        "correct-mcq-15": "「正確資料」與本句語境不同。"
+        "correct-mcq-18": "本句的「correct procedure for reporting the problem」指「正確程序」。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-18"
     },
@@ -2084,11 +1932,9 @@ export default {
       "masked": "Add the ____.",
       "options": [
         "correct-mcq-19",
-        "correct-mcq-18",
-        "correct-mcq-20",
-        "correct-mcq-17",
-        "correct-mcq-21",
-        "correct-mcq-16"
+        "correct-mcq-33",
+        "correct-mcq-34",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「correct amount of water」指「合適／正確份量」。",
       "sentenceIndex": 43,
@@ -2097,12 +1943,10 @@ export default {
         "correct amount of water"
       ],
       "optionReasons": {
-        "correct-mcq-19": "本句指「合適／正確份量」。",
-        "correct-mcq-18": "「正確程序」與本句語境不同。",
-        "correct-mcq-20": "「嚴格來說正確」與本句語境不同。",
-        "correct-mcq-17": "「文法正確」與本句語境不同。",
-        "correct-mcq-21": "「政治正確的」與本句語境不同。",
-        "correct-mcq-16": "「正確串法」與本句語境不同。"
+        "correct-mcq-19": "本句的「correct amount of water」指「合適／正確份量」。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-19"
     },
@@ -2114,11 +1958,9 @@ export default {
       "masked": "Make sure the chair is at the ____.",
       "options": [
         "correct-mcq-19",
-        "correct-mcq-18",
-        "correct-mcq-20",
-        "correct-mcq-17",
-        "correct-mcq-21",
-        "correct-mcq-16"
+        "correct-mcq-25",
+        "correct-mcq-34",
+        "correct-mcq-27"
       ],
       "explanation": "本句的「correct height」指「合適／正確份量」。",
       "sentenceIndex": 44,
@@ -2127,12 +1969,10 @@ export default {
         "correct height"
       ],
       "optionReasons": {
-        "correct-mcq-19": "本句指「合適／正確份量」。",
-        "correct-mcq-18": "「正確程序」與本句語境不同。",
-        "correct-mcq-20": "「嚴格來說正確」與本句語境不同。",
-        "correct-mcq-17": "「文法正確」與本句語境不同。",
-        "correct-mcq-21": "「政治正確的」與本句語境不同。",
-        "correct-mcq-16": "「正確串法」與本句語境不同。"
+        "correct-mcq-19": "本句的「correct height」指「合適／正確份量」。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-19"
     },
@@ -2144,11 +1984,9 @@ export default {
       "masked": "His statement was ____, but it was misleading.",
       "options": [
         "correct-mcq-20",
-        "correct-mcq-19",
-        "correct-mcq-21",
-        "correct-mcq-18",
-        "correct-mcq-22",
-        "correct-mcq-17"
+        "correct-mcq-32",
+        "correct-mcq-27",
+        "correct-mcq-25"
       ],
       "explanation": "本句的「technically correct」指「嚴格來說正確」。",
       "sentenceIndex": 45,
@@ -2157,12 +1995,10 @@ export default {
         "technically correct"
       ],
       "optionReasons": {
-        "correct-mcq-20": "本句指「嚴格來說正確」。",
-        "correct-mcq-19": "「合適／正確份量」與本句語境不同。",
-        "correct-mcq-21": "「政治正確的」與本句語境不同。",
-        "correct-mcq-18": "「正確程序」與本句語境不同。",
-        "correct-mcq-22": "「正確地」與本句語境不同。",
-        "correct-mcq-17": "「文法正確」與本句語境不同。"
+        "correct-mcq-20": "本句的「technically correct」指「嚴格來說正確」。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-20"
     },
@@ -2174,11 +2010,9 @@ export default {
       "masked": "The answer is ____, although it does not explain the whole issue.",
       "options": [
         "correct-mcq-20",
-        "correct-mcq-19",
-        "correct-mcq-21",
-        "correct-mcq-18",
-        "correct-mcq-22",
-        "correct-mcq-17"
+        "correct-mcq-25",
+        "correct-pdf-001",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「technically correct」指「嚴格來說正確」。",
       "sentenceIndex": 46,
@@ -2187,12 +2021,10 @@ export default {
         "technically correct"
       ],
       "optionReasons": {
-        "correct-mcq-20": "本句指「嚴格來說正確」。",
-        "correct-mcq-19": "「合適／正確份量」與本句語境不同。",
-        "correct-mcq-21": "「政治正確的」與本句語境不同。",
-        "correct-mcq-18": "「正確程序」與本句語境不同。",
-        "correct-mcq-22": "「正確地」與本句語境不同。",
-        "correct-mcq-17": "「文法正確」與本句語境不同。"
+        "correct-mcq-20": "本句的「technically correct」指「嚴格來說正確」。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-20"
     },
@@ -2204,11 +2036,9 @@ export default {
       "masked": "The organisation reviewed its language to make it more ____.",
       "options": [
         "correct-mcq-21",
-        "correct-mcq-20",
-        "correct-mcq-22",
-        "correct-mcq-19",
-        "correct-mcq-23",
-        "correct-mcq-18"
+        "correct-mcq-27",
+        "correct-mcq-34",
+        "correct-mcq-25"
       ],
       "explanation": "本句的「politically correct」指「政治正確的」。",
       "sentenceIndex": 47,
@@ -2217,12 +2047,10 @@ export default {
         "politically correct"
       ],
       "optionReasons": {
-        "correct-mcq-21": "本句指「政治正確的」。",
-        "correct-mcq-20": "「嚴格來說正確」與本句語境不同。",
-        "correct-mcq-22": "「正確地」與本句語境不同。",
-        "correct-mcq-19": "「合適／正確份量」與本句語境不同。",
-        "correct-mcq-23": "「更正；修正」與本句語境不同。",
-        "correct-mcq-18": "「正確程序」與本句語境不同。"
+        "correct-mcq-21": "本句的「politically correct」指「政治正確的」。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-21"
     },
@@ -2234,11 +2062,9 @@ export default {
       "masked": "People disagree about what counts as ____.",
       "options": [
         "correct-mcq-21",
-        "correct-mcq-20",
-        "correct-mcq-22",
-        "correct-mcq-19",
-        "correct-mcq-23",
-        "correct-mcq-18"
+        "correct-pdf-003",
+        "correct-mcq-25",
+        "correct-pdf-001"
       ],
       "explanation": "本句的「politically correct language」指「政治正確的」。",
       "sentenceIndex": 48,
@@ -2247,12 +2073,10 @@ export default {
         "politically correct language"
       ],
       "optionReasons": {
-        "correct-mcq-21": "本句指「政治正確的」。",
-        "correct-mcq-20": "「嚴格來說正確」與本句語境不同。",
-        "correct-mcq-22": "「正確地」與本句語境不同。",
-        "correct-mcq-19": "「合適／正確份量」與本句語境不同。",
-        "correct-mcq-23": "「更正；修正」與本句語境不同。",
-        "correct-mcq-18": "「正確程序」與本句語境不同。"
+        "correct-mcq-21": "本句的「politically correct language」指「政治正確的」。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-21"
     },
@@ -2264,11 +2088,9 @@ export default {
       "masked": "She answered the question ____.",
       "options": [
         "correct-mcq-22",
-        "correct-mcq-21",
-        "correct-mcq-23",
-        "correct-mcq-20",
-        "correct-mcq-24",
-        "correct-mcq-19"
+        "correct-mcq-25",
+        "correct-pdf-001",
+        "correct-mcq-27"
       ],
       "explanation": "本句的「correctly」指「正確地」。",
       "sentenceIndex": 49,
@@ -2277,12 +2099,10 @@ export default {
         "correctly"
       ],
       "optionReasons": {
-        "correct-mcq-22": "本句指「正確地」。",
-        "correct-mcq-21": "「政治正確的」與本句語境不同。",
-        "correct-mcq-23": "「更正；修正」與本句語境不同。",
-        "correct-mcq-20": "「嚴格來說正確」與本句語境不同。",
-        "correct-mcq-24": "「作出更正」與本句語境不同。",
-        "correct-mcq-19": "「合適／正確份量」與本句語境不同。"
+        "correct-mcq-22": "本句的「correctly」指「正確地」。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-22"
     },
@@ -2294,11 +2114,9 @@ export default {
       "masked": "Make sure the equipment is installed ____.",
       "options": [
         "correct-mcq-22",
-        "correct-mcq-21",
-        "correct-mcq-23",
-        "correct-mcq-20",
-        "correct-mcq-24",
-        "correct-mcq-19"
+        "correct-pdf-003",
+        "correct-mcq-33",
+        "correct-mcq-05"
       ],
       "explanation": "本句的「correctly」指「正確地」。",
       "sentenceIndex": 50,
@@ -2307,12 +2125,10 @@ export default {
         "correctly"
       ],
       "optionReasons": {
-        "correct-mcq-22": "本句指「正確地」。",
-        "correct-mcq-21": "「政治正確的」與本句語境不同。",
-        "correct-mcq-23": "「更正；修正」與本句語境不同。",
-        "correct-mcq-20": "「嚴格來說正確」與本句語境不同。",
-        "correct-mcq-24": "「作出更正」與本句語境不同。",
-        "correct-mcq-19": "「合適／正確份量」與本句語境不同。"
+        "correct-mcq-22": "本句的「correctly」指「正確地」。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-22"
     },
@@ -2324,11 +2140,9 @@ export default {
       "masked": "The report needs several ____.",
       "options": [
         "correct-mcq-23",
-        "correct-mcq-22",
-        "correct-mcq-24",
-        "correct-mcq-21",
-        "correct-mcq-25",
-        "correct-mcq-20"
+        "correct-pdf-003",
+        "correct-reviewed-3058226adc",
+        "correct-mcq-33"
       ],
       "explanation": "本句的「corrections」指「更正；修正」。",
       "sentenceIndex": 53,
@@ -2337,12 +2151,10 @@ export default {
         "corrections"
       ],
       "optionReasons": {
-        "correct-mcq-23": "本句指「更正；修正」。",
-        "correct-mcq-22": "「正確地」與本句語境不同。",
-        "correct-mcq-24": "「作出更正」與本句語境不同。",
-        "correct-mcq-21": "「政治正確的」與本句語境不同。",
-        "correct-mcq-25": "「改錯帶／塗改液」與本句語境不同。",
-        "correct-mcq-20": "「嚴格來說正確」與本句語境不同。"
+        "correct-mcq-23": "本句的「corrections」指「更正；修正」。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-reviewed-3058226adc": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-23"
     },
@@ -2354,11 +2166,9 @@ export default {
       "masked": "Thank you for the ____.",
       "options": [
         "correct-mcq-23",
-        "correct-mcq-22",
-        "correct-mcq-24",
-        "correct-mcq-21",
-        "correct-mcq-25",
-        "correct-mcq-20"
+        "correct-pdf-003",
+        "correct-reviewed-3058226adc",
+        "correct-mcq-05"
       ],
       "explanation": "本句的「correction」指「更正；修正」。",
       "sentenceIndex": 54,
@@ -2367,12 +2177,10 @@ export default {
         "correction"
       ],
       "optionReasons": {
-        "correct-mcq-23": "本句指「更正；修正」。",
-        "correct-mcq-22": "「正確地」與本句語境不同。",
-        "correct-mcq-24": "「作出更正」與本句語境不同。",
-        "correct-mcq-21": "「政治正確的」與本句語境不同。",
-        "correct-mcq-25": "「改錯帶／塗改液」與本句語境不同。",
-        "correct-mcq-20": "「嚴格來說正確」與本句語境不同。"
+        "correct-mcq-23": "本句的「correction」指「更正；修正」。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-reviewed-3058226adc": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-23"
     },
@@ -2384,11 +2192,9 @@ export default {
       "masked": "I need to ____ to the report.",
       "options": [
         "correct-mcq-24",
-        "correct-mcq-23",
-        "correct-mcq-25",
-        "correct-mcq-22",
-        "correct-mcq-26",
-        "correct-mcq-21"
+        "correct-reviewed-3058226adc",
+        "correct-pdf-001",
+        "correct-mcq-05"
       ],
       "explanation": "本句的「make a correction」指「作出更正」。",
       "sentenceIndex": 55,
@@ -2397,12 +2203,10 @@ export default {
         "make a correction"
       ],
       "optionReasons": {
-        "correct-mcq-24": "本句指「作出更正」。",
-        "correct-mcq-23": "「更正；修正」與本句語境不同。",
-        "correct-mcq-25": "「改錯帶／塗改液」與本句語境不同。",
-        "correct-mcq-22": "「正確地」與本句語境不同。",
-        "correct-mcq-26": "「糾正措施」與本句語境不同。",
-        "correct-mcq-21": "「政治正確的」與本句語境不同。"
+        "correct-mcq-24": "本句的「make a correction」指「作出更正」。",
+        "correct-reviewed-3058226adc": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-24"
     },
@@ -2414,11 +2218,9 @@ export default {
       "masked": "The editor made several ____.",
       "options": [
         "correct-mcq-24",
-        "correct-mcq-23",
-        "correct-mcq-25",
-        "correct-mcq-22",
-        "correct-mcq-26",
-        "correct-mcq-21"
+        "correct-mcq-34",
+        "correct-mcq-33",
+        "correct-reviewed-3058226adc"
       ],
       "explanation": "本句的「corrections」指「作出更正」。",
       "sentenceIndex": 56,
@@ -2427,12 +2229,10 @@ export default {
         "corrections"
       ],
       "optionReasons": {
-        "correct-mcq-24": "本句指「作出更正」。",
-        "correct-mcq-23": "「更正；修正」與本句語境不同。",
-        "correct-mcq-25": "「改錯帶／塗改液」與本句語境不同。",
-        "correct-mcq-22": "「正確地」與本句語境不同。",
-        "correct-mcq-26": "「糾正措施」與本句語境不同。",
-        "correct-mcq-21": "「政治正確的」與本句語境不同。"
+        "correct-mcq-24": "本句的「corrections」指「作出更正」。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-reviewed-3058226adc": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-24"
     },
@@ -2444,11 +2244,9 @@ export default {
       "masked": "She used ____ to cover the mistake.",
       "options": [
         "correct-mcq-25",
-        "correct-mcq-24",
-        "correct-mcq-26",
-        "correct-mcq-23",
-        "correct-mcq-27",
-        "correct-mcq-22"
+        "correct-mcq-12",
+        "correct-mcq-34",
+        "correct-mcq-33"
       ],
       "explanation": "本句的「correction tape」指「改錯帶／塗改液」。",
       "sentenceIndex": 57,
@@ -2457,12 +2255,10 @@ export default {
         "correction tape"
       ],
       "optionReasons": {
-        "correct-mcq-25": "本句指「改錯帶／塗改液」。",
-        "correct-mcq-24": "「作出更正」與本句語境不同。",
-        "correct-mcq-26": "「糾正措施」與本句語境不同。",
-        "correct-mcq-23": "「更正；修正」與本句語境不同。",
-        "correct-mcq-27": "「改善措施」與本句語境不同。",
-        "correct-mcq-22": "「正確地」與本句語境不同。"
+        "correct-mcq-25": "本句的「correction tape」指「改錯帶／塗改液」。",
+        "correct-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-25"
     },
@@ -2474,11 +2270,9 @@ export default {
       "masked": "____ is less common in digital offices.",
       "options": [
         "correct-mcq-25",
-        "correct-mcq-24",
         "correct-mcq-26",
-        "correct-mcq-23",
-        "correct-mcq-27",
-        "correct-mcq-22"
+        "correct-mcq-28",
+        "correct-mcq-16"
       ],
       "explanation": "本句的「Correction fluid」指「改錯帶／塗改液」。",
       "sentenceIndex": 58,
@@ -2487,12 +2281,10 @@ export default {
         "Correction fluid"
       ],
       "optionReasons": {
-        "correct-mcq-25": "本句指「改錯帶／塗改液」。",
-        "correct-mcq-24": "「作出更正」與本句語境不同。",
-        "correct-mcq-26": "「糾正措施」與本句語境不同。",
-        "correct-mcq-23": "「更正；修正」與本句語境不同。",
-        "correct-mcq-27": "「改善措施」與本句語境不同。",
-        "correct-mcq-22": "「正確地」與本句語境不同。"
+        "correct-mcq-25": "本句的「Correction fluid」指「改錯帶／塗改液」。",
+        "correct-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-25"
     },
@@ -2504,11 +2296,9 @@ export default {
       "masked": "Management took immediate ____.",
       "options": [
         "correct-mcq-26",
+        "correct-mcq-34",
         "correct-mcq-25",
-        "correct-mcq-27",
-        "correct-mcq-24",
-        "correct-mcq-28",
-        "correct-mcq-23"
+        "correct-mcq-32"
       ],
       "explanation": "本句的「corrective action」指「糾正措施」。",
       "sentenceIndex": 59,
@@ -2517,12 +2307,10 @@ export default {
         "corrective action"
       ],
       "optionReasons": {
-        "correct-mcq-26": "本句指「糾正措施」。",
-        "correct-mcq-25": "「改錯帶／塗改液」與本句語境不同。",
-        "correct-mcq-27": "「改善措施」與本句語境不同。",
-        "correct-mcq-24": "「作出更正」與本句語境不同。",
-        "correct-mcq-28": "「矯正鏡片」與本句語境不同。",
-        "correct-mcq-23": "「更正；修正」與本句語境不同。"
+        "correct-mcq-26": "本句的「corrective action」指「糾正措施」。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-26"
     },
@@ -2534,11 +2322,9 @@ export default {
       "masked": "The audit identified problems that required ____.",
       "options": [
         "correct-mcq-26",
-        "correct-mcq-25",
-        "correct-mcq-27",
-        "correct-mcq-24",
-        "correct-mcq-28",
-        "correct-mcq-23"
+        "correct-mcq-05",
+        "correct-mcq-34",
+        "correct-mcq-33"
       ],
       "explanation": "本句的「corrective action」指「糾正措施」。",
       "sentenceIndex": 60,
@@ -2547,12 +2333,10 @@ export default {
         "corrective action"
       ],
       "optionReasons": {
-        "correct-mcq-26": "本句指「糾正措施」。",
-        "correct-mcq-25": "「改錯帶／塗改液」與本句語境不同。",
-        "correct-mcq-27": "「改善措施」與本句語境不同。",
-        "correct-mcq-24": "「作出更正」與本句語境不同。",
-        "correct-mcq-28": "「矯正鏡片」與本句語境不同。",
-        "correct-mcq-23": "「更正；修正」與本句語境不同。"
+        "correct-mcq-26": "本句的「corrective action」指「糾正措施」。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-26"
     },
@@ -2564,11 +2348,9 @@ export default {
       "masked": "The company introduced ____ after the investigation.",
       "options": [
         "correct-mcq-27",
-        "correct-mcq-26",
-        "correct-mcq-28",
-        "correct-mcq-25",
-        "correct-mcq-29",
-        "correct-mcq-24"
+        "correct-mcq-34",
+        "correct-mcq-30",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「corrective measures」指「改善措施」。",
       "sentenceIndex": 61,
@@ -2577,12 +2359,10 @@ export default {
         "corrective measures"
       ],
       "optionReasons": {
-        "correct-mcq-27": "本句指「改善措施」。",
-        "correct-mcq-26": "「糾正措施」與本句語境不同。",
-        "correct-mcq-28": "「矯正鏡片」與本句語境不同。",
-        "correct-mcq-25": "「改錯帶／塗改液」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。",
-        "correct-mcq-24": "「作出更正」與本句語境不同。"
+        "correct-mcq-27": "本句的「corrective measures」指「改善措施」。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-27"
     },
@@ -2594,11 +2374,9 @@ export default {
       "masked": "____ measures should address the root cause of the problem.",
       "options": [
         "correct-mcq-27",
-        "correct-mcq-26",
+        "correct-mcq-14",
         "correct-mcq-28",
-        "correct-mcq-25",
-        "correct-mcq-29",
-        "correct-mcq-24"
+        "correct-mcq-34"
       ],
       "explanation": "本句的「Corrective」指「改善措施」。",
       "sentenceIndex": 62,
@@ -2607,12 +2385,10 @@ export default {
         "Corrective"
       ],
       "optionReasons": {
-        "correct-mcq-27": "本句指「改善措施」。",
-        "correct-mcq-26": "「糾正措施」與本句語境不同。",
-        "correct-mcq-28": "「矯正鏡片」與本句語境不同。",
-        "correct-mcq-25": "「改錯帶／塗改液」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。",
-        "correct-mcq-24": "「作出更正」與本句語境不同。"
+        "correct-mcq-27": "本句的「Corrective」指「改善措施」。",
+        "correct-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-27"
     },
@@ -2624,11 +2400,9 @@ export default {
       "masked": "She wears ____.",
       "options": [
         "correct-mcq-28",
-        "correct-mcq-27",
-        "correct-mcq-29",
-        "correct-mcq-26",
-        "correct-mcq-30",
-        "correct-mcq-25"
+        "correct-mcq-34",
+        "correct-mcq-25",
+        "correct-mcq-27"
       ],
       "explanation": "本句的「corrective lenses」指「矯正鏡片」。",
       "sentenceIndex": 63,
@@ -2637,12 +2411,10 @@ export default {
         "corrective lenses"
       ],
       "optionReasons": {
-        "correct-mcq-28": "本句指「矯正鏡片」。",
-        "correct-mcq-27": "「改善措施」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。",
-        "correct-mcq-26": "「糾正措施」與本句語境不同。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-25": "「改錯帶／塗改液」與本句語境不同。"
+        "correct-mcq-28": "本句的「corrective lenses」指「矯正鏡片」。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-28"
     },
@@ -2654,11 +2426,9 @@ export default {
       "masked": "____ lenses can improve blurred vision.",
       "options": [
         "correct-mcq-28",
-        "correct-mcq-27",
-        "correct-mcq-29",
-        "correct-mcq-26",
-        "correct-mcq-30",
-        "correct-mcq-25"
+        "correct-mcq-32",
+        "correct-mcq-05",
+        "correct-mcq-33"
       ],
       "explanation": "本句的「Corrective」指「矯正鏡片」。",
       "sentenceIndex": 64,
@@ -2667,12 +2437,10 @@ export default {
         "Corrective"
       ],
       "optionReasons": {
-        "correct-mcq-28": "本句指「矯正鏡片」。",
-        "correct-mcq-27": "「改善措施」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。",
-        "correct-mcq-26": "「糾正措施」與本句語境不同。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-25": "「改錯帶／塗改液」與本句語境不同。"
+        "correct-mcq-28": "本句的「Corrective」指「矯正鏡片」。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-28"
     },
@@ -2684,11 +2452,9 @@ export default {
       "masked": "He underwent ____.",
       "options": [
         "correct-mcq-29",
-        "correct-mcq-28",
-        "correct-mcq-30",
-        "correct-mcq-27",
-        "correct-mcq-31",
-        "correct-mcq-26"
+        "correct-reviewed-3058226adc",
+        "correct-mcq-34",
+        "correct-mcq-27"
       ],
       "explanation": "本句的「corrective surgery」指「矯正手術」。",
       "sentenceIndex": 65,
@@ -2697,12 +2463,10 @@ export default {
         "corrective surgery"
       ],
       "optionReasons": {
-        "correct-mcq-29": "本句指「矯正手術」。",
-        "correct-mcq-28": "「矯正鏡片」與本句語境不同。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-27": "「改善措施」與本句語境不同。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-26": "「糾正措施」與本句語境不同。"
+        "correct-mcq-29": "本句的「corrective surgery」指「矯正手術」。",
+        "correct-reviewed-3058226adc": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-29"
     },
@@ -2714,11 +2478,9 @@ export default {
       "masked": "____ surgery may restore normal function.",
       "options": [
         "correct-mcq-29",
-        "correct-mcq-28",
-        "correct-mcq-30",
-        "correct-mcq-27",
-        "correct-mcq-31",
-        "correct-mcq-26"
+        "correct-mcq-33",
+        "correct-mcq-34",
+        "correct-mcq-05"
       ],
       "explanation": "本句的「Corrective」指「矯正手術」。",
       "sentenceIndex": 66,
@@ -2727,12 +2489,10 @@ export default {
         "Corrective"
       ],
       "optionReasons": {
-        "correct-mcq-29": "本句指「矯正手術」。",
-        "correct-mcq-28": "「矯正鏡片」與本句語境不同。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-27": "「改善措施」與本句語境不同。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-26": "「糾正措施」與本句語境不同。"
+        "correct-mcq-29": "本句的「Corrective」指「矯正手術」。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-29"
     },
@@ -2744,11 +2504,9 @@ export default {
       "masked": "The information was ____.",
       "options": [
         "correct-mcq-30",
-        "correct-mcq-29",
-        "correct-mcq-31",
-        "correct-mcq-28",
-        "correct-mcq-32",
-        "correct-mcq-27"
+        "correct-pdf-003",
+        "correct-mcq-27",
+        "correct-pdf-001"
       ],
       "explanation": "本句的「incorrect」指「不正確的」。",
       "sentenceIndex": 67,
@@ -2757,12 +2515,10 @@ export default {
         "incorrect"
       ],
       "optionReasons": {
-        "correct-mcq-30": "本句指「不正確的」。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-28": "「矯正鏡片」與本句語境不同。",
-        "correct-mcq-32": "「承認自己錯了」與本句語境不同。",
-        "correct-mcq-27": "「改善措施」與本句語境不同。"
+        "correct-mcq-30": "本句的「incorrect」指「不正確的」。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-30"
     },
@@ -2774,11 +2530,9 @@ export default {
       "masked": "He gave an ____.",
       "options": [
         "correct-mcq-30",
-        "correct-mcq-29",
-        "correct-mcq-31",
-        "correct-mcq-28",
         "correct-mcq-32",
-        "correct-mcq-27"
+        "correct-mcq-25",
+        "correct-mcq-33"
       ],
       "explanation": "本句的「incorrect answer」指「不正確的」。",
       "sentenceIndex": 68,
@@ -2787,74 +2541,68 @@ export default {
         "incorrect answer"
       ],
       "optionReasons": {
-        "correct-mcq-30": "本句指「不正確的」。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-28": "「矯正鏡片」與本句語境不同。",
-        "correct-mcq-32": "「承認自己錯了」與本句語境不同。",
-        "correct-mcq-27": "「改善措施」與本句語境不同。"
+        "correct-mcq-30": "本句的「incorrect answer」指「不正確的」。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-30"
     },
     {
       "id": "correct-35-0",
-      "sense": "correct-mcq-30",
+      "sense": "correct-reviewed-3058226adc",
       "en": "The figures were incorrectly recorded.",
       "zh": "數字被錯誤地記錄。",
       "masked": "The figures were ____.",
       "options": [
-        "correct-mcq-30",
-        "correct-mcq-29",
-        "correct-mcq-31",
-        "correct-mcq-28",
-        "correct-mcq-32",
-        "correct-mcq-27"
+        "correct-reviewed-3058226adc",
+        "correct-mcq-24",
+        "correct-mcq-05",
+        "correct-mcq-34"
       ],
-      "explanation": "本句的「incorrectly recorded」指「不正確的」。",
+      "explanation": "對照完整句子：「數字被錯誤地記錄。」。這裡的「incorrectly recorded」表示「錯誤地」。",
       "sentenceIndex": 69,
       "sourcePractice": 1,
       "targets": [
         "incorrectly recorded"
       ],
       "optionReasons": {
-        "correct-mcq-30": "本句指「不正確的」。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-28": "「矯正鏡片」與本句語境不同。",
-        "correct-mcq-32": "「承認自己錯了」與本句語境不同。",
-        "correct-mcq-27": "「改善措施」與本句語境不同。"
+        "correct-reviewed-3058226adc": "對照完整句子：「數字被錯誤地記錄。」。這裡的「incorrectly recorded」表示「錯誤地」。",
+        "correct-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "correct-mcq-30"
+      "correctOption": "correct-reviewed-3058226adc",
+      "previousCorrectOption": "correct-mcq-30",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "correct-35-1",
-      "sense": "correct-mcq-30",
+      "sense": "correct-reviewed-3058226adc",
       "en": "She was incorrectly identified as the person responsible.",
       "zh": "她被錯誤地認定為負責的人。",
       "masked": "She was ____ as the person responsible.",
       "options": [
-        "correct-mcq-30",
-        "correct-mcq-29",
-        "correct-mcq-31",
-        "correct-mcq-28",
-        "correct-mcq-32",
-        "correct-mcq-27"
+        "correct-reviewed-3058226adc",
+        "correct-pdf-003",
+        "correct-mcq-04",
+        "correct-mcq-33"
       ],
-      "explanation": "本句的「incorrectly identified」指「不正確的」。",
+      "explanation": "對照完整句子：「她被錯誤地認定為負責的人。」。這裡的「incorrectly identified」表示「錯誤地」。",
       "sentenceIndex": 70,
       "sourcePractice": 2,
       "targets": [
         "incorrectly identified"
       ],
       "optionReasons": {
-        "correct-mcq-30": "本句指「不正確的」。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-28": "「矯正鏡片」與本句語境不同。",
-        "correct-mcq-32": "「承認自己錯了」與本句語境不同。",
-        "correct-mcq-27": "「改善措施」與本句語境不同。"
+        "correct-reviewed-3058226adc": "對照完整句子：「她被錯誤地認定為負責的人。」。這裡的「incorrectly identified」表示「錯誤地」。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "correct-mcq-30"
+      "correctOption": "correct-reviewed-3058226adc",
+      "previousCorrectOption": "correct-mcq-30",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "correct-36-0",
@@ -2864,11 +2612,9 @@ export default {
       "masked": "We checked the ____.",
       "options": [
         "correct-mcq-31",
-        "correct-mcq-30",
-        "correct-mcq-32",
-        "correct-mcq-29",
-        "correct-mcq-33",
-        "correct-mcq-28"
+        "correct-pdf-001",
+        "correct-mcq-25",
+        "correct-mcq-27"
       ],
       "explanation": "本句的「correctness of the calculation」指「正確性」。",
       "sentenceIndex": 71,
@@ -2877,12 +2623,10 @@ export default {
         "correctness of the calculation"
       ],
       "optionReasons": {
-        "correct-mcq-31": "本句指「正確性」。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-32": "「承認自己錯了」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。",
-        "correct-mcq-33": "「市場調整」與本句語境不同。",
-        "correct-mcq-28": "「矯正鏡片」與本句語境不同。"
+        "correct-mcq-31": "本句的「correctness of the calculation」指「正確性」。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-31"
     },
@@ -2894,11 +2638,9 @@ export default {
       "masked": "Grammatical ____ is only one part of good writing.",
       "options": [
         "correct-mcq-31",
-        "correct-mcq-30",
-        "correct-mcq-32",
-        "correct-mcq-29",
         "correct-mcq-33",
-        "correct-mcq-28"
+        "correct-mcq-34",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「correctness」指「正確性」。",
       "sentenceIndex": 72,
@@ -2907,12 +2649,10 @@ export default {
         "correctness"
       ],
       "optionReasons": {
-        "correct-mcq-31": "本句指「正確性」。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-32": "「承認自己錯了」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。",
-        "correct-mcq-33": "「市場調整」與本句語境不同。",
-        "correct-mcq-28": "「矯正鏡片」與本句語境不同。"
+        "correct-mcq-31": "本句的「correctness」指「正確性」。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-31"
     },
@@ -2924,11 +2664,9 @@ export default {
       "masked": "I thought the deadline was Friday, but I ____.",
       "options": [
         "correct-mcq-32",
-        "correct-mcq-31",
-        "correct-mcq-33",
-        "correct-mcq-30",
-        "correct-mcq-34",
-        "correct-mcq-29"
+        "correct-mcq-19",
+        "correct-mcq-28",
+        "correct-mcq-05"
       ],
       "explanation": "本句的「stand corrected」指「承認自己錯了」。",
       "sentenceIndex": 73,
@@ -2937,12 +2675,10 @@ export default {
         "stand corrected"
       ],
       "optionReasons": {
-        "correct-mcq-32": "本句指「承認自己錯了」。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-33": "「市場調整」與本句語境不同。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-34": "「懲教制度」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。"
+        "correct-mcq-32": "本句的「stand corrected」指「承認自己錯了」。",
+        "correct-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-32"
     },
@@ -2954,11 +2690,9 @@ export default {
       "masked": "If the figures are accurate, I ____.",
       "options": [
         "correct-mcq-32",
-        "correct-mcq-31",
-        "correct-mcq-33",
-        "correct-mcq-30",
-        "correct-mcq-34",
-        "correct-mcq-29"
+        "correct-mcq-05",
+        "correct-mcq-02",
+        "correct-pdf-003"
       ],
       "explanation": "本句的「stand corrected」指「承認自己錯了」。",
       "sentenceIndex": 74,
@@ -2967,12 +2701,10 @@ export default {
         "stand corrected"
       ],
       "optionReasons": {
-        "correct-mcq-32": "本句指「承認自己錯了」。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-33": "「市場調整」與本句語境不同。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-34": "「懲教制度」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。"
+        "correct-mcq-32": "本句的「stand corrected」指「承認自己錯了」。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-32"
     },
@@ -2984,11 +2716,9 @@ export default {
       "masked": "____, but wasn't the meeting moved to Thursday?",
       "options": [
         "correct-pdf-002",
-        "correct-mcq-31",
+        "correct-pdf-003",
         "correct-mcq-33",
-        "correct-mcq-30",
-        "correct-mcq-34",
-        "correct-mcq-29"
+        "correct-mcq-05"
       ],
       "explanation": "本句的「Correct me if I'm wrong」指「用來表示自己的說法可能有錯，邀請別人更正」。",
       "sentenceIndex": 75,
@@ -2997,12 +2727,10 @@ export default {
         "Correct me if I'm wrong"
       ],
       "optionReasons": {
-        "correct-pdf-002": "本句指「用來表示自己的說法可能有錯，邀請別人更正」。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-33": "「市場調整」與本句語境不同。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-34": "「懲教制度」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。"
+        "correct-pdf-002": "本句的「Correct me if I'm wrong」指「用來表示自己的說法可能有錯，邀請別人更正」。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-pdf-002"
     },
@@ -3014,11 +2742,9 @@ export default {
       "masked": "____ me if I'm wrong, but I thought everyone had agreed.",
       "options": [
         "correct-pdf-002",
-        "correct-mcq-31",
-        "correct-mcq-33",
-        "correct-mcq-30",
-        "correct-mcq-34",
-        "correct-mcq-29"
+        "correct-pdf-003",
+        "correct-mcq-05",
+        "correct-mcq-33"
       ],
       "explanation": "本句的「Correct」指「用來表示自己的說法可能有錯，邀請別人更正」。",
       "sentenceIndex": 76,
@@ -3027,12 +2753,10 @@ export default {
         "Correct"
       ],
       "optionReasons": {
-        "correct-pdf-002": "本句指「用來表示自己的說法可能有錯，邀請別人更正」。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-33": "「市場調整」與本句語境不同。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-34": "「懲教制度」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。"
+        "correct-pdf-002": "本句的「Correct」指「用來表示自己的說法可能有錯，邀請別人更正」。",
+        "correct-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-pdf-002"
     },
@@ -3044,11 +2768,9 @@ export default {
       "masked": "The market experienced a sharp ____ after months of gains.",
       "options": [
         "correct-mcq-33",
-        "correct-mcq-32",
-        "correct-mcq-34",
-        "correct-mcq-31",
-        "correct-mcq-30",
-        "correct-mcq-29"
+        "correct-mcq-26",
+        "correct-mcq-05",
+        "correct-pdf-001"
       ],
       "explanation": "本句的「correction」指「市場調整」。",
       "sentenceIndex": 77,
@@ -3057,12 +2779,10 @@ export default {
         "correction"
       ],
       "optionReasons": {
-        "correct-mcq-33": "本句指「市場調整」。",
-        "correct-mcq-32": "「承認自己錯了」與本句語境不同。",
-        "correct-mcq-34": "「懲教制度」與本句語境不同。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。"
+        "correct-mcq-33": "本句的「correction」指「市場調整」。",
+        "correct-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-33"
     },
@@ -3074,11 +2794,9 @@ export default {
       "masked": "Investors debated whether the fall was temporary or the beginning of a broader ____.",
       "options": [
         "correct-mcq-33",
-        "correct-mcq-32",
-        "correct-mcq-34",
-        "correct-mcq-31",
         "correct-mcq-30",
-        "correct-mcq-29"
+        "correct-mcq-34",
+        "correct-mcq-32"
       ],
       "explanation": "本句的「correction」指「市場調整」。",
       "sentenceIndex": 78,
@@ -3087,12 +2805,10 @@ export default {
         "correction"
       ],
       "optionReasons": {
-        "correct-mcq-33": "本句指「市場調整」。",
-        "correct-mcq-32": "「承認自己錯了」與本句語境不同。",
-        "correct-mcq-34": "「懲教制度」與本句語境不同。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。"
+        "correct-mcq-33": "本句的「correction」指「市場調整」。",
+        "correct-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-33"
     },
@@ -3104,11 +2820,9 @@ export default {
       "masked": "He works in the ____.",
       "options": [
         "correct-mcq-34",
-        "correct-mcq-33",
-        "correct-mcq-32",
-        "correct-mcq-31",
-        "correct-mcq-30",
-        "correct-mcq-29"
+        "correct-mcq-19",
+        "correct-mcq-09",
+        "correct-mcq-25"
       ],
       "explanation": "本句的「corrections system」指「懲教制度」。",
       "sentenceIndex": 79,
@@ -3117,12 +2831,10 @@ export default {
         "corrections system"
       ],
       "optionReasons": {
-        "correct-mcq-34": "本句指「懲教制度」。",
-        "correct-mcq-33": "「市場調整」與本句語境不同。",
-        "correct-mcq-32": "「承認自己錯了」與本句語境不同。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。"
+        "correct-mcq-34": "本句的「corrections system」指「懲教制度」。",
+        "correct-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-34"
     },
@@ -3134,11 +2846,9 @@ export default {
       "masked": "The department is responsible for prisons and ____.",
       "options": [
         "correct-mcq-34",
-        "correct-mcq-33",
-        "correct-mcq-32",
-        "correct-mcq-31",
-        "correct-mcq-30",
-        "correct-mcq-29"
+        "correct-mcq-11",
+        "correct-reviewed-3058226adc",
+        "correct-mcq-27"
       ],
       "explanation": "本句的「corrections」指「懲教制度」。",
       "sentenceIndex": 80,
@@ -3147,12 +2857,10 @@ export default {
         "corrections"
       ],
       "optionReasons": {
-        "correct-mcq-34": "本句指「懲教制度」。",
-        "correct-mcq-33": "「市場調整」與本句語境不同。",
-        "correct-mcq-32": "「承認自己錯了」與本句語境不同。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。"
+        "correct-mcq-34": "本句的「corrections」指「懲教制度」。",
+        "correct-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "correct-reviewed-3058226adc": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-mcq-34"
     },
@@ -3164,11 +2872,9 @@ export default {
       "masked": "He works at a ____.",
       "options": [
         "correct-pdf-003",
-        "correct-mcq-33",
-        "correct-mcq-32",
-        "correct-mcq-31",
-        "correct-mcq-30",
-        "correct-mcq-29"
+        "correct-mcq-05",
+        "correct-mcq-21",
+        "correct-pdf-001"
       ],
       "explanation": "本句的「correctional facility」指「與監獄、懲教和罪犯管理有關的」。",
       "sentenceIndex": 81,
@@ -3177,12 +2883,10 @@ export default {
         "correctional facility"
       ],
       "optionReasons": {
-        "correct-pdf-003": "本句指「與監獄、懲教和罪犯管理有關的」。",
-        "correct-mcq-33": "「市場調整」與本句語境不同。",
-        "correct-mcq-32": "「承認自己錯了」與本句語境不同。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。"
+        "correct-pdf-003": "本句的「correctional facility」指「與監獄、懲教和罪犯管理有關的」。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "correct-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-pdf-003"
     },
@@ -3194,11 +2898,9 @@ export default {
       "masked": "____ supervise people in custody.",
       "options": [
         "correct-pdf-003",
-        "correct-mcq-33",
-        "correct-mcq-32",
-        "correct-mcq-31",
-        "correct-mcq-30",
-        "correct-mcq-29"
+        "correct-mcq-11",
+        "correct-mcq-08",
+        "correct-mcq-05"
       ],
       "explanation": "本句的「Correctional officers」指「與監獄、懲教和罪犯管理有關的」。",
       "sentenceIndex": 82,
@@ -3207,12 +2909,10 @@ export default {
         "Correctional officers"
       ],
       "optionReasons": {
-        "correct-pdf-003": "本句指「與監獄、懲教和罪犯管理有關的」。",
-        "correct-mcq-33": "「市場調整」與本句語境不同。",
-        "correct-mcq-32": "「承認自己錯了」與本句語境不同。",
-        "correct-mcq-31": "「正確性」與本句語境不同。",
-        "correct-mcq-30": "「不正確的」與本句語境不同。",
-        "correct-mcq-29": "「矯正手術」與本句語境不同。"
+        "correct-pdf-003": "本句的「Correctional officers」指「與監獄、懲教和罪犯管理有關的」。",
+        "correct-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "correct-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "correct-pdf-003"
     }
@@ -3224,5 +2924,7 @@ export default {
     "sha256": "11376db244667739d783f9c3c239f5deddc1349a195f16cb7f790a9584a26c3e",
     "pages": 31
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

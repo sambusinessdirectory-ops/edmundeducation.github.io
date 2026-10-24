@@ -208,11 +208,9 @@ export default {
       "masked": "____ is one of her favourite colours.",
       "options": [
         "purple-mcq-01",
-        "purple-mcq-02",
-        "purple-mcq-03",
-        "purple-mcq-04",
-        "purple-mcq-05",
-        "purple-mcq-06"
+        "purple-mcq-08",
+        "purple-mcq-06",
+        "purple-mcq-04"
       ],
       "explanation": "本句的「Purple」指「介乎紅色與藍色之間的一系列紫色色調」。",
       "sentenceIndex": 0,
@@ -221,12 +219,10 @@ export default {
         "Purple"
       ],
       "optionReasons": {
-        "purple-mcq-01": "本句指「介乎紅色與藍色之間的一系列紫色色調」。",
-        "purple-mcq-02": "「呈現紫色色調的」是「purple — adjective」的用法，與本句語境不同。",
-        "purple-mcq-03": "「因瘀傷、血液積聚等而呈紫黑色的」是「purple — bruised」的用法，與本句語境不同。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。"
+        "purple-mcq-01": "本句的「Purple」指「介乎紅色與藍色之間的一系列紫色色調」。",
+        "purple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-01"
     },
@@ -238,11 +234,9 @@ export default {
       "masked": "The painting contains several shades of ____.",
       "options": [
         "purple-mcq-01",
-        "purple-mcq-02",
-        "purple-mcq-03",
-        "purple-mcq-04",
+        "purple-mcq-06",
         "purple-mcq-05",
-        "purple-mcq-06"
+        "purple-mcq-08"
       ],
       "explanation": "本句的「purple」指「介乎紅色與藍色之間的一系列紫色色調」。",
       "sentenceIndex": 1,
@@ -251,12 +245,10 @@ export default {
         "purple"
       ],
       "optionReasons": {
-        "purple-mcq-01": "本句指「介乎紅色與藍色之間的一系列紫色色調」。",
-        "purple-mcq-02": "「呈現紫色色調的」是「purple — adjective」的用法，與本句語境不同。",
-        "purple-mcq-03": "「因瘀傷、血液積聚等而呈紫黑色的」是「purple — bruised」的用法，與本句語境不同。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。"
+        "purple-mcq-01": "本句的「purple」指「介乎紅色與藍色之間的一系列紫色色調」。",
+        "purple-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-01"
     },
@@ -268,11 +260,9 @@ export default {
       "masked": "She wore a ____ dress.",
       "options": [
         "purple-mcq-02",
-        "purple-mcq-01",
-        "purple-mcq-03",
+        "purple-mcq-08",
         "purple-mcq-04",
-        "purple-mcq-05",
-        "purple-mcq-06"
+        "purple-mcq-07"
       ],
       "explanation": "本句的「purple」指「呈現紫色色調的」。",
       "sentenceIndex": 2,
@@ -281,12 +271,10 @@ export default {
         "purple"
       ],
       "optionReasons": {
-        "purple-mcq-02": "本句指「呈現紫色色調的」。",
-        "purple-mcq-01": "「介乎紅色與藍色之間的一系列紫色色調」是「purple — noun」的用法，與本句語境不同。",
-        "purple-mcq-03": "「因瘀傷、血液積聚等而呈紫黑色的」是「purple — bruised」的用法，與本句語境不同。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。"
+        "purple-mcq-02": "本句的「purple」指「呈現紫色色調的」。",
+        "purple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-02"
     },
@@ -298,11 +286,9 @@ export default {
       "masked": "The sky turned ____ at sunset.",
       "options": [
         "purple-mcq-02",
-        "purple-mcq-01",
-        "purple-mcq-03",
+        "purple-mcq-08",
         "purple-mcq-04",
-        "purple-mcq-05",
-        "purple-mcq-06"
+        "purple-mcq-07"
       ],
       "explanation": "本句的「purple」指「呈現紫色色調的」。",
       "sentenceIndex": 3,
@@ -311,12 +297,10 @@ export default {
         "purple"
       ],
       "optionReasons": {
-        "purple-mcq-02": "本句指「呈現紫色色調的」。",
-        "purple-mcq-01": "「介乎紅色與藍色之間的一系列紫色色調」是「purple — noun」的用法，與本句語境不同。",
-        "purple-mcq-03": "「因瘀傷、血液積聚等而呈紫黑色的」是「purple — bruised」的用法，與本句語境不同。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。"
+        "purple-mcq-02": "本句的「purple」指「呈現紫色色調的」。",
+        "purple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-02"
     },
@@ -328,11 +312,9 @@ export default {
       "masked": "His arm turned ____ after the injury.",
       "options": [
         "purple-mcq-03",
-        "purple-mcq-02",
         "purple-mcq-04",
-        "purple-mcq-01",
-        "purple-mcq-05",
-        "purple-mcq-06"
+        "purple-mcq-07",
+        "purple-mcq-08"
       ],
       "explanation": "本句的「purple」指「因瘀傷、血液積聚等而呈紫黑色的」。",
       "sentenceIndex": 4,
@@ -341,12 +323,10 @@ export default {
         "purple"
       ],
       "optionReasons": {
-        "purple-mcq-03": "本句指「因瘀傷、血液積聚等而呈紫黑色的」。",
-        "purple-mcq-02": "「呈現紫色色調的」是「purple — adjective」的用法，與本句語境不同。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。",
-        "purple-mcq-01": "「介乎紅色與藍色之間的一系列紫色色調」是「purple — noun」的用法，與本句語境不同。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。"
+        "purple-mcq-03": "本句的「purple」指「因瘀傷、血液積聚等而呈紫黑色的」。",
+        "purple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-03"
     },
@@ -358,10 +338,8 @@ export default {
       "masked": "She had a ____ bruise on her leg.",
       "options": [
         "purple-mcq-03",
-        "purple-mcq-02",
-        "purple-mcq-04",
-        "purple-mcq-01",
         "purple-mcq-05",
+        "purple-mcq-08",
         "purple-mcq-06"
       ],
       "explanation": "本句的「purple」指「因瘀傷、血液積聚等而呈紫黑色的」。",
@@ -371,12 +349,10 @@ export default {
         "purple"
       ],
       "optionReasons": {
-        "purple-mcq-03": "本句指「因瘀傷、血液積聚等而呈紫黑色的」。",
-        "purple-mcq-02": "「呈現紫色色調的」是「purple — adjective」的用法，與本句語境不同。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。",
-        "purple-mcq-01": "「介乎紅色與藍色之間的一系列紫色色調」是「purple — noun」的用法，與本句語境不同。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。"
+        "purple-mcq-03": "本句的「purple」指「因瘀傷、血液積聚等而呈紫黑色的」。",
+        "purple-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-03"
     },
@@ -389,9 +365,7 @@ export default {
       "options": [
         "purple-mcq-04",
         "purple-mcq-03",
-        "purple-mcq-05",
-        "purple-mcq-02",
-        "purple-mcq-06",
+        "purple-mcq-07",
         "purple-mcq-01"
       ],
       "explanation": "本句的「royalty」指「與皇室、權力、尊貴地位相關的象徵」。",
@@ -401,12 +375,10 @@ export default {
         "royalty"
       ],
       "optionReasons": {
-        "purple-mcq-04": "本句指「與皇室、權力、尊貴地位相關的象徵」。",
-        "purple-mcq-03": "「因瘀傷、血液積聚等而呈紫黑色的」是「purple — bruised」的用法，與本句語境不同。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-02": "「呈現紫色色調的」是「purple — adjective」的用法，與本句語境不同。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。",
-        "purple-mcq-01": "「介乎紅色與藍色之間的一系列紫色色調」是「purple — noun」的用法，與本句語境不同。"
+        "purple-mcq-04": "本句的「royalty」指「與皇室、權力、尊貴地位相關的象徵」。",
+        "purple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-04"
     },
@@ -418,11 +390,9 @@ export default {
       "masked": "The ruler wore ____ robes as a sign of status.",
       "options": [
         "purple-mcq-04",
-        "purple-mcq-03",
-        "purple-mcq-05",
-        "purple-mcq-02",
+        "purple-mcq-09",
         "purple-mcq-06",
-        "purple-mcq-01"
+        "purple-mcq-08"
       ],
       "explanation": "本句的「purple」指「與皇室、權力、尊貴地位相關的象徵」。",
       "sentenceIndex": 7,
@@ -431,12 +401,10 @@ export default {
         "purple"
       ],
       "optionReasons": {
-        "purple-mcq-04": "本句指「與皇室、權力、尊貴地位相關的象徵」。",
-        "purple-mcq-03": "「因瘀傷、血液積聚等而呈紫黑色的」是「purple — bruised」的用法，與本句語境不同。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-02": "「呈現紫色色調的」是「purple — adjective」的用法，與本句語境不同。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。",
-        "purple-mcq-01": "「介乎紅色與藍色之間的一系列紫色色調」是「purple — noun」的用法，與本句語境不同。"
+        "purple-mcq-04": "本句的「purple」指「與皇室、權力、尊貴地位相關的象徵」。",
+        "purple-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-04"
     },
@@ -448,11 +416,8 @@ export default {
       "masked": "He was born to the ____.",
       "options": [
         "purple-mcq-05",
-        "purple-mcq-04",
-        "purple-mcq-06",
-        "purple-mcq-03",
-        "purple-mcq-07",
-        "purple-mcq-02"
+        "purple-mcq-02",
+        "purple-mcq-08"
       ],
       "explanation": "本句的「purple」指「皇室／帝王地位或皇權，歷史／文學用法」。",
       "sentenceIndex": 8,
@@ -461,12 +426,9 @@ export default {
         "purple"
       ],
       "optionReasons": {
-        "purple-mcq-05": "本句指「皇室／帝王地位或皇權，歷史／文學用法」。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。",
-        "purple-mcq-03": "「因瘀傷、血液積聚等而呈紫黑色的」是「purple — bruised」的用法，與本句語境不同。",
-        "purple-mcq-07": "「特別華麗甚至過度鋪張的文字段落」是「purple passage」的用法，與本句語境不同。",
-        "purple-mcq-02": "「呈現紫色色調的」是「purple — adjective」的用法，與本句語境不同。"
+        "purple-mcq-05": "本句的「purple」指「皇室／帝王地位或皇權，歷史／文學用法」。",
+        "purple-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-05"
     },
@@ -478,10 +440,8 @@ export default {
       "masked": "The novel is full of ____.",
       "options": [
         "purple-mcq-06",
-        "purple-mcq-05",
-        "purple-mcq-07",
+        "purple-mcq-01",
         "purple-mcq-04",
-        "purple-mcq-08",
         "purple-mcq-03"
       ],
       "explanation": "本句的「purple prose」指「辭藻堆砌、過度華麗而顯得做作的文筆」。",
@@ -491,12 +451,10 @@ export default {
         "purple prose"
       ],
       "optionReasons": {
-        "purple-mcq-06": "本句指「辭藻堆砌、過度華麗而顯得做作的文筆」。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-07": "「特別華麗甚至過度鋪張的文字段落」是「purple passage」的用法，與本句語境不同。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。",
-        "purple-mcq-08": "「特定政治語境中兩大陣營支持度較均衡／混合的」是「purple — political」的用法，與本句語境不同。",
-        "purple-mcq-03": "「因瘀傷、血液積聚等而呈紫黑色的」是「purple — bruised」的用法，與本句語境不同。"
+        "purple-mcq-06": "本句的「purple prose」指「辭藻堆砌、過度華麗而顯得做作的文筆」。",
+        "purple-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-06"
     },
@@ -508,10 +466,8 @@ export default {
       "masked": "The description becomes ____ prose when every sentence is overloaded with adjectives.",
       "options": [
         "purple-mcq-06",
-        "purple-mcq-05",
-        "purple-mcq-07",
+        "purple-mcq-01",
         "purple-mcq-04",
-        "purple-mcq-08",
         "purple-mcq-03"
       ],
       "explanation": "本句的「purple」指「辭藻堆砌、過度華麗而顯得做作的文筆」。",
@@ -521,12 +477,10 @@ export default {
         "purple"
       ],
       "optionReasons": {
-        "purple-mcq-06": "本句指「辭藻堆砌、過度華麗而顯得做作的文筆」。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-07": "「特別華麗甚至過度鋪張的文字段落」是「purple passage」的用法，與本句語境不同。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。",
-        "purple-mcq-08": "「特定政治語境中兩大陣營支持度較均衡／混合的」是「purple — political」的用法，與本句語境不同。",
-        "purple-mcq-03": "「因瘀傷、血液積聚等而呈紫黑色的」是「purple — bruised」的用法，與本句語境不同。"
+        "purple-mcq-06": "本句的「purple」指「辭藻堆砌、過度華麗而顯得做作的文筆」。",
+        "purple-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-06"
     },
@@ -538,11 +492,9 @@ export default {
       "masked": "The essay contains a few ____.",
       "options": [
         "purple-mcq-07",
-        "purple-mcq-06",
-        "purple-mcq-08",
-        "purple-mcq-05",
-        "purple-mcq-09",
-        "purple-mcq-04"
+        "purple-mcq-02",
+        "purple-mcq-04",
+        "purple-mcq-08"
       ],
       "explanation": "本句的「purple passages」指「特別華麗甚至過度鋪張的文字段落」。",
       "sentenceIndex": 11,
@@ -551,12 +503,10 @@ export default {
         "purple passages"
       ],
       "optionReasons": {
-        "purple-mcq-07": "本句指「特別華麗甚至過度鋪張的文字段落」。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。",
-        "purple-mcq-08": "「特定政治語境中兩大陣營支持度較均衡／混合的」是「purple — political」的用法，與本句語境不同。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-09": "「帶有一些紫色、但不是明顯純紫色的」是「purplish」的用法，與本句語境不同。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。"
+        "purple-mcq-07": "本句的「purple passages」指「特別華麗甚至過度鋪張的文字段落」。",
+        "purple-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-07"
     },
@@ -568,10 +518,8 @@ export default {
       "masked": "Critics felt the ____ passages distracted from the story.",
       "options": [
         "purple-mcq-07",
-        "purple-mcq-06",
-        "purple-mcq-08",
-        "purple-mcq-05",
-        "purple-mcq-09",
+        "purple-mcq-03",
+        "purple-mcq-01",
         "purple-mcq-04"
       ],
       "explanation": "本句的「purple」指「特別華麗甚至過度鋪張的文字段落」。",
@@ -581,12 +529,10 @@ export default {
         "purple"
       ],
       "optionReasons": {
-        "purple-mcq-07": "本句指「特別華麗甚至過度鋪張的文字段落」。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。",
-        "purple-mcq-08": "「特定政治語境中兩大陣營支持度較均衡／混合的」是「purple — political」的用法，與本句語境不同。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-09": "「帶有一些紫色、但不是明顯純紫色的」是「purplish」的用法，與本句語境不同。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。"
+        "purple-mcq-07": "本句的「purple」指「特別華麗甚至過度鋪張的文字段落」。",
+        "purple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-07"
     },
@@ -598,11 +544,9 @@ export default {
       "masked": "The state is often described as ____.",
       "options": [
         "purple-mcq-08",
-        "purple-mcq-07",
         "purple-mcq-09",
-        "purple-mcq-06",
         "purple-mcq-05",
-        "purple-mcq-04"
+        "purple-mcq-06"
       ],
       "explanation": "本句的「purple」指「特定政治語境中兩大陣營支持度較均衡／混合的」。",
       "sentenceIndex": 13,
@@ -611,12 +555,10 @@ export default {
         "purple"
       ],
       "optionReasons": {
-        "purple-mcq-08": "本句指「特定政治語境中兩大陣營支持度較均衡／混合的」。",
-        "purple-mcq-07": "「特別華麗甚至過度鋪張的文字段落」是「purple passage」的用法，與本句語境不同。",
-        "purple-mcq-09": "「帶有一些紫色、但不是明顯純紫色的」是「purplish」的用法，與本句語境不同。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。"
+        "purple-mcq-08": "本句的「purple」指「特定政治語境中兩大陣營支持度較均衡／混合的」。",
+        "purple-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-08"
     },
@@ -628,11 +570,9 @@ export default {
       "masked": "The district has become more ____ over time.",
       "options": [
         "purple-mcq-08",
-        "purple-mcq-07",
-        "purple-mcq-09",
-        "purple-mcq-06",
+        "purple-mcq-03",
         "purple-mcq-05",
-        "purple-mcq-04"
+        "purple-mcq-01"
       ],
       "explanation": "本句的「purple」指「特定政治語境中兩大陣營支持度較均衡／混合的」。",
       "sentenceIndex": 14,
@@ -641,12 +581,10 @@ export default {
         "purple"
       ],
       "optionReasons": {
-        "purple-mcq-08": "本句指「特定政治語境中兩大陣營支持度較均衡／混合的」。",
-        "purple-mcq-07": "「特別華麗甚至過度鋪張的文字段落」是「purple passage」的用法，與本句語境不同。",
-        "purple-mcq-09": "「帶有一些紫色、但不是明顯純紫色的」是「purplish」的用法，與本句語境不同。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。"
+        "purple-mcq-08": "本句的「purple」指「特定政治語境中兩大陣營支持度較均衡／混合的」。",
+        "purple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-08"
     },
@@ -658,11 +596,9 @@ export default {
       "masked": "The clouds had a ____ colour.",
       "options": [
         "purple-mcq-09",
-        "purple-mcq-08",
+        "purple-mcq-04",
         "purple-mcq-07",
-        "purple-mcq-06",
-        "purple-mcq-05",
-        "purple-mcq-04"
+        "purple-mcq-08"
       ],
       "explanation": "本句的「purplish」指「帶有一些紫色、但不是明顯純紫色的」。",
       "sentenceIndex": 15,
@@ -671,12 +607,10 @@ export default {
         "purplish"
       ],
       "optionReasons": {
-        "purple-mcq-09": "本句指「帶有一些紫色、但不是明顯純紫色的」。",
-        "purple-mcq-08": "「特定政治語境中兩大陣營支持度較均衡／混合的」是「purple — political」的用法，與本句語境不同。",
-        "purple-mcq-07": "「特別華麗甚至過度鋪張的文字段落」是「purple passage」的用法，與本句語境不同。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。"
+        "purple-mcq-09": "本句的「purplish」指「帶有一些紫色、但不是明顯純紫色的」。",
+        "purple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-09"
     },
@@ -688,11 +622,9 @@ export default {
       "masked": "The flower is pink with ____ edges.",
       "options": [
         "purple-mcq-09",
-        "purple-mcq-08",
+        "purple-mcq-04",
         "purple-mcq-07",
-        "purple-mcq-06",
-        "purple-mcq-05",
-        "purple-mcq-04"
+        "purple-mcq-08"
       ],
       "explanation": "本句的「purplish」指「帶有一些紫色、但不是明顯純紫色的」。",
       "sentenceIndex": 16,
@@ -701,12 +633,10 @@ export default {
         "purplish"
       ],
       "optionReasons": {
-        "purple-mcq-09": "本句指「帶有一些紫色、但不是明顯純紫色的」。",
-        "purple-mcq-08": "「特定政治語境中兩大陣營支持度較均衡／混合的」是「purple — political」的用法，與本句語境不同。",
-        "purple-mcq-07": "「特別華麗甚至過度鋪張的文字段落」是「purple passage」的用法，與本句語境不同。",
-        "purple-mcq-06": "「辭藻堆砌、過度華麗而顯得做作的文筆」是「purple prose」的用法，與本句語境不同。",
-        "purple-mcq-05": "「皇室／帝王地位或皇權，歷史／文學用法」是「the purple」的用法，與本句語境不同。",
-        "purple-mcq-04": "「與皇室、權力、尊貴地位相關的象徵」是「purple — symbolic」的用法，與本句語境不同。"
+        "purple-mcq-09": "本句的「purplish」指「帶有一些紫色、但不是明顯純紫色的」。",
+        "purple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "purple-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "purple-mcq-09"
     }
@@ -718,5 +648,7 @@ export default {
     "sha256": "5e75bb1d5ea434b9c6d2810550a0ff45271fe25dfb45e2052c2da3824824caab",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

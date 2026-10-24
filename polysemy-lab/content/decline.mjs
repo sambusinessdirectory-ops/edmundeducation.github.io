@@ -269,16 +269,6 @@ export default {
       "note": "來源詞義：經濟衰退",
       "examples": [
         [
-          "The organisation's influence began to decline.",
-          "這個組織的影響力開始衰退。",
-          "經濟衰退"
-        ],
-        [
-          "The empire declined over several centuries.",
-          "這個帝國在數個世紀間逐漸衰落。",
-          "經濟衰退"
-        ],
-        [
           "The region experienced prolonged economic decline.",
           "該地區經歷了長期的經濟衰退。",
           "經濟衰退"
@@ -583,6 +573,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "decline-reviewed-c064e19545",
+      "title": "權力、影響力、重要性或地位逐漸減弱",
+      "form": "decline · source section 14",
+      "en": "權力、影響力、重要性或地位逐漸減弱",
+      "zh": "權力、影響力、重要性或地位逐漸減弱",
+      "note": "對照原始教材第 14 節及例句核實。",
+      "examples": [
+        [
+          "The organisation's influence began to decline.",
+          "這個組織的影響力開始衰退。",
+          "權力、影響力、重要性或地位逐漸減弱"
+        ],
+        [
+          "The empire declined over several centuries.",
+          "這個帝國在數個世紀間逐漸衰落。",
+          "權力、影響力、重要性或地位逐漸減弱"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -594,11 +606,9 @@ export default {
       "masked": "Motivation begins to ____.",
       "options": [
         "decline-mcq-01",
-        "decline-mcq-02",
-        "decline-mcq-03",
-        "decline-mcq-04",
-        "decline-mcq-05",
-        "decline-mcq-06"
+        "decline-mcq-18",
+        "decline-mcq-17",
+        "decline-mcq-25"
       ],
       "explanation": "本句的「decline」指「下降；減少」。",
       "sentenceIndex": 0,
@@ -607,12 +617,10 @@ export default {
         "decline"
       ],
       "optionReasons": {
-        "decline-mcq-01": "本句指「下降；減少」。",
-        "decline-mcq-02": "「動力下降」與本句語境不同。",
-        "decline-mcq-03": "「逐漸下降」與本句語境不同。",
-        "decline-mcq-04": "「急劇下降」與本句語境不同。",
-        "decline-mcq-05": "「下降 X」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。"
+        "decline-mcq-01": "本句的「decline」指「下降；減少」。",
+        "decline-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-01"
     },
@@ -624,11 +632,9 @@ export default {
       "masked": "Productivity ____ after several weeks of poor communication.",
       "options": [
         "decline-mcq-01",
-        "decline-mcq-02",
-        "decline-mcq-03",
-        "decline-mcq-04",
-        "decline-mcq-05",
-        "decline-mcq-06"
+        "decline-mcq-24",
+        "decline-mcq-21",
+        "decline-mcq-19"
       ],
       "explanation": "本句的「declined」指「下降；減少」。",
       "sentenceIndex": 1,
@@ -637,12 +643,10 @@ export default {
         "declined"
       ],
       "optionReasons": {
-        "decline-mcq-01": "本句指「下降；減少」。",
-        "decline-mcq-02": "「動力下降」與本句語境不同。",
-        "decline-mcq-03": "「逐漸下降」與本句語境不同。",
-        "decline-mcq-04": "「急劇下降」與本句語境不同。",
-        "decline-mcq-05": "「下降 X」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。"
+        "decline-mcq-01": "本句的「declined」指「下降；減少」。",
+        "decline-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-01"
     },
@@ -654,11 +658,9 @@ export default {
       "masked": "Employee satisfaction has ____.",
       "options": [
         "decline-mcq-01",
-        "decline-mcq-02",
-        "decline-mcq-03",
-        "decline-mcq-04",
-        "decline-mcq-05",
-        "decline-mcq-06"
+        "decline-mcq-10",
+        "decline-mcq-23",
+        "decline-mcq-21"
       ],
       "explanation": "本句的「declined」指「下降；減少」。",
       "sentenceIndex": 2,
@@ -667,12 +669,10 @@ export default {
         "declined"
       ],
       "optionReasons": {
-        "decline-mcq-01": "本句指「下降；減少」。",
-        "decline-mcq-02": "「動力下降」與本句語境不同。",
-        "decline-mcq-03": "「逐漸下降」與本句語境不同。",
-        "decline-mcq-04": "「急劇下降」與本句語境不同。",
-        "decline-mcq-05": "「下降 X」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。"
+        "decline-mcq-01": "本句的「declined」指「下降；減少」。",
+        "decline-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-01"
     },
@@ -684,11 +684,9 @@ export default {
       "masked": "Motivation ____ over the course of the project.",
       "options": [
         "decline-mcq-03",
-        "decline-mcq-02",
-        "decline-mcq-04",
-        "decline-mcq-01",
-        "decline-mcq-05",
-        "decline-mcq-06"
+        "decline-mcq-18",
+        "decline-mcq-10",
+        "decline-mcq-17"
       ],
       "explanation": "本句的「declined gradually」指「逐漸下降」。",
       "sentenceIndex": 3,
@@ -697,12 +695,10 @@ export default {
         "declined gradually"
       ],
       "optionReasons": {
-        "decline-mcq-03": "本句指「逐漸下降」。",
-        "decline-mcq-02": "「動力下降」與本句語境不同。",
-        "decline-mcq-04": "「急劇下降」與本句語境不同。",
-        "decline-mcq-01": "「下降；減少」與本句語境不同。",
-        "decline-mcq-05": "「下降 X」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。"
+        "decline-mcq-03": "本句的「declined gradually」指「逐漸下降」。",
+        "decline-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-03"
     },
@@ -714,11 +710,9 @@ export default {
       "masked": "Sales have ____ over several years.",
       "options": [
         "decline-mcq-03",
-        "decline-mcq-02",
-        "decline-mcq-04",
-        "decline-mcq-01",
-        "decline-mcq-05",
-        "decline-mcq-06"
+        "decline-mcq-20",
+        "decline-mcq-12",
+        "decline-mcq-21"
       ],
       "explanation": "本句的「declined gradually」指「逐漸下降」。",
       "sentenceIndex": 4,
@@ -727,12 +721,10 @@ export default {
         "declined gradually"
       ],
       "optionReasons": {
-        "decline-mcq-03": "本句指「逐漸下降」。",
-        "decline-mcq-02": "「動力下降」與本句語境不同。",
-        "decline-mcq-04": "「急劇下降」與本句語境不同。",
-        "decline-mcq-01": "「下降；減少」與本句語境不同。",
-        "decline-mcq-05": "「下降 X」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。"
+        "decline-mcq-03": "本句的「declined gradually」指「逐漸下降」。",
+        "decline-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-03"
     },
@@ -744,11 +736,9 @@ export default {
       "masked": "Morale ____ after the announcement.",
       "options": [
         "decline-mcq-04",
-        "decline-mcq-03",
-        "decline-mcq-05",
-        "decline-mcq-02",
-        "decline-mcq-06",
-        "decline-mcq-01"
+        "decline-mcq-15",
+        "decline-mcq-20",
+        "decline-mcq-17"
       ],
       "explanation": "本句的「declined sharply」指「急劇下降」。",
       "sentenceIndex": 5,
@@ -757,12 +747,10 @@ export default {
         "declined sharply"
       ],
       "optionReasons": {
-        "decline-mcq-04": "本句指「急劇下降」。",
-        "decline-mcq-03": "「逐漸下降」與本句語境不同。",
-        "decline-mcq-05": "「下降 X」與本句語境不同。",
-        "decline-mcq-02": "「動力下降」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。",
-        "decline-mcq-01": "「下降；減少」與本句語境不同。"
+        "decline-mcq-04": "本句的「declined sharply」指「急劇下降」。",
+        "decline-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-04"
     },
@@ -774,11 +762,9 @@ export default {
       "masked": "Demand ____.",
       "options": [
         "decline-mcq-04",
-        "decline-mcq-03",
-        "decline-mcq-05",
-        "decline-mcq-02",
-        "decline-mcq-06",
-        "decline-mcq-01"
+        "decline-pdf-001",
+        "decline-mcq-14",
+        "decline-mcq-17"
       ],
       "explanation": "本句的「declined rapidly」指「急劇下降」。",
       "sentenceIndex": 6,
@@ -787,12 +773,10 @@ export default {
         "declined rapidly"
       ],
       "optionReasons": {
-        "decline-mcq-04": "本句指「急劇下降」。",
-        "decline-mcq-03": "「逐漸下降」與本句語境不同。",
-        "decline-mcq-05": "「下降 X」與本句語境不同。",
-        "decline-mcq-02": "「動力下降」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。",
-        "decline-mcq-01": "「下降；減少」與本句語境不同。"
+        "decline-mcq-04": "本句的「declined rapidly」指「急劇下降」。",
+        "decline-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-04"
     },
@@ -804,11 +788,9 @@ export default {
       "masked": "There was a ____.",
       "options": [
         "decline-mcq-05",
-        "decline-mcq-04",
-        "decline-mcq-06",
-        "decline-mcq-03",
-        "decline-mcq-07",
-        "decline-mcq-02"
+        "decline-mcq-14",
+        "decline-mcq-17",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「decline in motivation」指「下降 X」。",
       "sentenceIndex": 7,
@@ -817,12 +799,10 @@ export default {
         "decline in motivation"
       ],
       "optionReasons": {
-        "decline-mcq-05": "本句指「下降 X」。",
-        "decline-mcq-04": "「急劇下降」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。",
-        "decline-mcq-03": "「逐漸下降」與本句語境不同。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。",
-        "decline-mcq-02": "「動力下降」與本句語境不同。"
+        "decline-mcq-05": "本句的「decline in motivation」指「下降 X」。",
+        "decline-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-05"
     },
@@ -834,11 +814,9 @@ export default {
       "masked": "The company reported a ____.",
       "options": [
         "decline-mcq-05",
-        "decline-mcq-04",
-        "decline-mcq-06",
-        "decline-mcq-03",
-        "decline-mcq-07",
-        "decline-mcq-02"
+        "decline-mcq-17",
+        "decline-mcq-14",
+        "decline-pdf-001"
       ],
       "explanation": "本句的「decline in sales」指「下降 X」。",
       "sentenceIndex": 8,
@@ -847,12 +825,10 @@ export default {
         "decline in sales"
       ],
       "optionReasons": {
-        "decline-mcq-05": "本句指「下降 X」。",
-        "decline-mcq-04": "「急劇下降」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。",
-        "decline-mcq-03": "「逐漸下降」與本句語境不同。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。",
-        "decline-mcq-02": "「動力下降」與本句語境不同。"
+        "decline-mcq-05": "本句的「decline in sales」指「下降 X」。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "decline-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-05"
     },
@@ -864,11 +840,9 @@ export default {
       "masked": "Sales ____.",
       "options": [
         "decline-mcq-05",
-        "decline-mcq-04",
-        "decline-mcq-06",
-        "decline-mcq-03",
-        "decline-mcq-07",
-        "decline-mcq-02"
+        "decline-mcq-10",
+        "decline-mcq-19",
+        "decline-mcq-21"
       ],
       "explanation": "本句的「declined by ten percent」指「下降 X」。",
       "sentenceIndex": 9,
@@ -877,12 +851,10 @@ export default {
         "declined by ten percent"
       ],
       "optionReasons": {
-        "decline-mcq-05": "本句指「下降 X」。",
-        "decline-mcq-04": "「急劇下降」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。",
-        "decline-mcq-03": "「逐漸下降」與本句語境不同。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。",
-        "decline-mcq-02": "「動力下降」與本句語境不同。"
+        "decline-mcq-05": "本句的「declined by ten percent」指「下降 X」。",
+        "decline-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-05"
     },
@@ -894,11 +866,9 @@ export default {
       "masked": "Attendance ____.",
       "options": [
         "decline-mcq-05",
-        "decline-mcq-04",
-        "decline-mcq-06",
-        "decline-mcq-03",
-        "decline-mcq-07",
-        "decline-mcq-02"
+        "decline-mcq-14",
+        "decline-mcq-17",
+        "decline-mcq-20"
       ],
       "explanation": "本句的「declined by several hundred people」指「下降 X」。",
       "sentenceIndex": 10,
@@ -907,12 +877,10 @@ export default {
         "declined by several hundred people"
       ],
       "optionReasons": {
-        "decline-mcq-05": "本句指「下降 X」。",
-        "decline-mcq-04": "「急劇下降」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。",
-        "decline-mcq-03": "「逐漸下降」與本句語境不同。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。",
-        "decline-mcq-02": "「動力下降」與本句語境不同。"
+        "decline-mcq-05": "本句的「declined by several hundred people」指「下降 X」。",
+        "decline-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-05"
     },
@@ -924,11 +892,9 @@ export default {
       "masked": "Attendance ____.",
       "options": [
         "decline-mcq-06",
-        "decline-mcq-05",
-        "decline-mcq-07",
-        "decline-mcq-04",
-        "decline-mcq-08",
-        "decline-mcq-03"
+        "decline-mcq-23",
+        "decline-mcq-19",
+        "decline-mcq-12"
       ],
       "explanation": "本句的「declined from 500 to 350」指「從 A 降至 B」。",
       "sentenceIndex": 11,
@@ -937,12 +903,10 @@ export default {
         "declined from 500 to 350"
       ],
       "optionReasons": {
-        "decline-mcq-06": "本句指「從 A 降至 B」。",
-        "decline-mcq-05": "「下降 X」與本句語境不同。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。",
-        "decline-mcq-04": "「急劇下降」與本句語境不同。",
-        "decline-mcq-08": "「人口下降」與本句語境不同。",
-        "decline-mcq-03": "「逐漸下降」與本句語境不同。"
+        "decline-mcq-06": "本句的「declined from 500 to 350」指「從 A 降至 B」。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-06"
     },
@@ -954,11 +918,9 @@ export default {
       "masked": "Satisfaction ____.",
       "options": [
         "decline-mcq-06",
-        "decline-mcq-05",
-        "decline-mcq-07",
-        "decline-mcq-04",
-        "decline-mcq-08",
-        "decline-mcq-03"
+        "decline-mcq-15",
+        "decline-mcq-23",
+        "decline-mcq-17"
       ],
       "explanation": "本句的「declined from 80% to 65%」指「從 A 降至 B」。",
       "sentenceIndex": 12,
@@ -967,12 +929,10 @@ export default {
         "declined from 80% to 65%"
       ],
       "optionReasons": {
-        "decline-mcq-06": "本句指「從 A 降至 B」。",
-        "decline-mcq-05": "「下降 X」與本句語境不同。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。",
-        "decline-mcq-04": "「急劇下降」與本句語境不同。",
-        "decline-mcq-08": "「人口下降」與本句語境不同。",
-        "decline-mcq-03": "「逐漸下降」與本句語境不同。"
+        "decline-mcq-06": "本句的「declined from 80% to 65%」指「從 A 降至 B」。",
+        "decline-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-06"
     },
@@ -984,11 +944,9 @@ export default {
       "masked": "The company is worried about ____.",
       "options": [
         "decline-mcq-07",
-        "decline-mcq-06",
-        "decline-mcq-08",
-        "decline-mcq-05",
-        "decline-mcq-09",
-        "decline-mcq-04"
+        "decline-pdf-001",
+        "decline-mcq-12",
+        "decline-mcq-17"
       ],
       "explanation": "本句的「declining sales」指「銷售下降」。",
       "sentenceIndex": 13,
@@ -997,12 +955,10 @@ export default {
         "declining sales"
       ],
       "optionReasons": {
-        "decline-mcq-07": "本句指「銷售下降」。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。",
-        "decline-mcq-08": "「人口下降」與本句語境不同。",
-        "decline-mcq-05": "「下降 X」與本句語境不同。",
-        "decline-mcq-09": "「質素下降」與本句語境不同。",
-        "decline-mcq-04": "「急劇下降」與本句語境不同。"
+        "decline-mcq-07": "本句的「declining sales」指「銷售下降」。",
+        "decline-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-07"
     },
@@ -1014,11 +970,9 @@ export default {
       "masked": "____ forced the factory to reduce production.",
       "options": [
         "decline-mcq-07",
-        "decline-mcq-06",
-        "decline-mcq-08",
-        "decline-mcq-05",
-        "decline-mcq-09",
-        "decline-mcq-04"
+        "decline-mcq-25",
+        "decline-mcq-20",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「Declining demand」指「銷售下降」。",
       "sentenceIndex": 14,
@@ -1027,12 +981,10 @@ export default {
         "Declining demand"
       ],
       "optionReasons": {
-        "decline-mcq-07": "本句指「銷售下降」。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。",
-        "decline-mcq-08": "「人口下降」與本句語境不同。",
-        "decline-mcq-05": "「下降 X」與本句語境不同。",
-        "decline-mcq-09": "「質素下降」與本句語境不同。",
-        "decline-mcq-04": "「急劇下降」與本句語境不同。"
+        "decline-mcq-07": "本句的「Declining demand」指「銷售下降」。",
+        "decline-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-07"
     },
@@ -1044,11 +996,9 @@ export default {
       "masked": "The town has a ____.",
       "options": [
         "decline-mcq-08",
-        "decline-mcq-07",
-        "decline-mcq-09",
-        "decline-mcq-06",
-        "decline-mcq-10",
-        "decline-mcq-05"
+        "decline-mcq-14",
+        "decline-mcq-23",
+        "decline-mcq-21"
       ],
       "explanation": "本句的「declining population」指「人口下降」。",
       "sentenceIndex": 17,
@@ -1057,12 +1007,10 @@ export default {
         "declining population"
       ],
       "optionReasons": {
-        "decline-mcq-08": "本句指「人口下降」。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。",
-        "decline-mcq-09": "「質素下降」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。",
-        "decline-mcq-10": "「健康衰退」與本句語境不同。",
-        "decline-mcq-05": "「下降 X」與本句語境不同。"
+        "decline-mcq-08": "本句的「declining population」指「人口下降」。",
+        "decline-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-08"
     },
@@ -1074,11 +1022,9 @@ export default {
       "masked": "A ____ can affect local services.",
       "options": [
         "decline-mcq-08",
-        "decline-mcq-07",
-        "decline-mcq-09",
-        "decline-mcq-06",
-        "decline-mcq-10",
-        "decline-mcq-05"
+        "decline-mcq-15",
+        "decline-mcq-18",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「declining population」指「人口下降」。",
       "sentenceIndex": 18,
@@ -1087,12 +1033,10 @@ export default {
         "declining population"
       ],
       "optionReasons": {
-        "decline-mcq-08": "本句指「人口下降」。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。",
-        "decline-mcq-09": "「質素下降」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。",
-        "decline-mcq-10": "「健康衰退」與本句語境不同。",
-        "decline-mcq-05": "「下降 X」與本句語境不同。"
+        "decline-mcq-08": "本句的「declining population」指「人口下降」。",
+        "decline-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-08"
     },
@@ -1104,11 +1048,9 @@ export default {
       "masked": "The quality of the work began to ____.",
       "options": [
         "decline-mcq-09",
-        "decline-mcq-08",
-        "decline-mcq-10",
-        "decline-mcq-07",
-        "decline-mcq-11",
-        "decline-mcq-06"
+        "decline-mcq-14",
+        "decline-mcq-23",
+        "decline-mcq-19"
       ],
       "explanation": "本句的「decline」指「質素下降」。",
       "sentenceIndex": 19,
@@ -1117,12 +1059,10 @@ export default {
         "decline"
       ],
       "optionReasons": {
-        "decline-mcq-09": "本句指「質素下降」。",
-        "decline-mcq-08": "「人口下降」與本句語境不同。",
-        "decline-mcq-10": "「健康衰退」與本句語境不同。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。",
-        "decline-mcq-11": "「影響力衰退」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。"
+        "decline-mcq-09": "本句的「decline」指「質素下降」。",
+        "decline-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-09"
     },
@@ -1134,11 +1074,9 @@ export default {
       "masked": "Standards have ____ in recent years.",
       "options": [
         "decline-mcq-09",
-        "decline-mcq-08",
-        "decline-mcq-10",
-        "decline-mcq-07",
-        "decline-mcq-11",
-        "decline-mcq-06"
+        "decline-mcq-12",
+        "decline-mcq-23",
+        "decline-mcq-17"
       ],
       "explanation": "本句的「declined」指「質素下降」。",
       "sentenceIndex": 20,
@@ -1147,12 +1085,10 @@ export default {
         "declined"
       ],
       "optionReasons": {
-        "decline-mcq-09": "本句指「質素下降」。",
-        "decline-mcq-08": "「人口下降」與本句語境不同。",
-        "decline-mcq-10": "「健康衰退」與本句語境不同。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。",
-        "decline-mcq-11": "「影響力衰退」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。"
+        "decline-mcq-09": "本句的「declined」指「質素下降」。",
+        "decline-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-09"
     },
@@ -1164,11 +1100,9 @@ export default {
       "masked": "Customers noticed a ____.",
       "options": [
         "decline-mcq-09",
-        "decline-mcq-08",
-        "decline-mcq-10",
-        "decline-mcq-07",
-        "decline-mcq-11",
-        "decline-mcq-06"
+        "decline-mcq-21",
+        "decline-mcq-14",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「decline in service quality」指「質素下降」。",
       "sentenceIndex": 21,
@@ -1177,12 +1111,10 @@ export default {
         "decline in service quality"
       ],
       "optionReasons": {
-        "decline-mcq-09": "本句指「質素下降」。",
-        "decline-mcq-08": "「人口下降」與本句語境不同。",
-        "decline-mcq-10": "「健康衰退」與本句語境不同。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。",
-        "decline-mcq-11": "「影響力衰退」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。"
+        "decline-mcq-09": "本句的「decline in service quality」指「質素下降」。",
+        "decline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-09"
     },
@@ -1194,11 +1126,9 @@ export default {
       "masked": "There has been a gradual ____.",
       "options": [
         "decline-mcq-09",
-        "decline-mcq-08",
-        "decline-mcq-10",
-        "decline-mcq-07",
-        "decline-mcq-11",
-        "decline-mcq-06"
+        "decline-mcq-25",
+        "decline-mcq-18",
+        "decline-mcq-17"
       ],
       "explanation": "本句的「decline in standards」指「質素下降」。",
       "sentenceIndex": 22,
@@ -1207,12 +1137,10 @@ export default {
         "decline in standards"
       ],
       "optionReasons": {
-        "decline-mcq-09": "本句指「質素下降」。",
-        "decline-mcq-08": "「人口下降」與本句語境不同。",
-        "decline-mcq-10": "「健康衰退」與本句語境不同。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。",
-        "decline-mcq-11": "「影響力衰退」與本句語境不同。",
-        "decline-mcq-06": "「從 A 降至 B」與本句語境不同。"
+        "decline-mcq-09": "本句的「decline in standards」指「質素下降」。",
+        "decline-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-09"
     },
@@ -1224,11 +1152,9 @@ export default {
       "masked": "His health began to ____.",
       "options": [
         "decline-mcq-10",
-        "decline-mcq-09",
-        "decline-mcq-11",
-        "decline-mcq-08",
-        "decline-mcq-12",
-        "decline-mcq-07"
+        "decline-mcq-07",
+        "decline-mcq-19",
+        "decline-mcq-17"
       ],
       "explanation": "本句的「decline」指「健康衰退」。",
       "sentenceIndex": 23,
@@ -1237,12 +1163,10 @@ export default {
         "decline"
       ],
       "optionReasons": {
-        "decline-mcq-10": "本句指「健康衰退」。",
-        "decline-mcq-09": "「質素下降」與本句語境不同。",
-        "decline-mcq-11": "「影響力衰退」與本句語境不同。",
-        "decline-mcq-08": "「人口下降」與本句語境不同。",
-        "decline-mcq-12": "「經濟衰退」與本句語境不同。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。"
+        "decline-mcq-10": "本句的「decline」指「健康衰退」。",
+        "decline-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-10"
     },
@@ -1254,11 +1178,9 @@ export default {
       "masked": "Physical strength may ____ with age.",
       "options": [
         "decline-mcq-10",
-        "decline-mcq-09",
-        "decline-mcq-11",
-        "decline-mcq-08",
-        "decline-mcq-12",
-        "decline-mcq-07"
+        "decline-mcq-20",
+        "decline-mcq-17",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「decline」指「健康衰退」。",
       "sentenceIndex": 24,
@@ -1267,12 +1189,10 @@ export default {
         "decline"
       ],
       "optionReasons": {
-        "decline-mcq-10": "本句指「健康衰退」。",
-        "decline-mcq-09": "「質素下降」與本句語境不同。",
-        "decline-mcq-11": "「影響力衰退」與本句語境不同。",
-        "decline-mcq-08": "「人口下降」與本句語境不同。",
-        "decline-mcq-12": "「經濟衰退」與本句語境不同。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。"
+        "decline-mcq-10": "本句的「decline」指「健康衰退」。",
+        "decline-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-10"
     },
@@ -1284,11 +1204,9 @@ export default {
       "masked": "She reduced her workload because of ____.",
       "options": [
         "decline-mcq-10",
-        "decline-mcq-09",
-        "decline-mcq-11",
-        "decline-mcq-08",
-        "decline-mcq-12",
-        "decline-mcq-07"
+        "decline-mcq-22",
+        "decline-mcq-19",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「declining health」指「健康衰退」。",
       "sentenceIndex": 25,
@@ -1297,12 +1215,10 @@ export default {
         "declining health"
       ],
       "optionReasons": {
-        "decline-mcq-10": "本句指「健康衰退」。",
-        "decline-mcq-09": "「質素下降」與本句語境不同。",
-        "decline-mcq-11": "「影響力衰退」與本句語境不同。",
-        "decline-mcq-08": "「人口下降」與本句語境不同。",
-        "decline-mcq-12": "「經濟衰退」與本句語境不同。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。"
+        "decline-mcq-10": "本句的「declining health」指「健康衰退」。",
+        "decline-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-10"
     },
@@ -1314,11 +1230,9 @@ export default {
       "masked": "His ____ became a serious concern.",
       "options": [
         "decline-mcq-10",
-        "decline-mcq-09",
-        "decline-mcq-11",
-        "decline-mcq-08",
-        "decline-mcq-12",
-        "decline-mcq-07"
+        "decline-mcq-16",
+        "decline-mcq-21",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「declining health」指「健康衰退」。",
       "sentenceIndex": 26,
@@ -1327,74 +1241,68 @@ export default {
         "declining health"
       ],
       "optionReasons": {
-        "decline-mcq-10": "本句指「健康衰退」。",
-        "decline-mcq-09": "「質素下降」與本句語境不同。",
-        "decline-mcq-11": "「影響力衰退」與本句語境不同。",
-        "decline-mcq-08": "「人口下降」與本句語境不同。",
-        "decline-mcq-12": "「經濟衰退」與本句語境不同。",
-        "decline-mcq-07": "「銷售下降」與本句語境不同。"
+        "decline-mcq-10": "本句的「declining health」指「健康衰退」。",
+        "decline-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-10"
     },
     {
       "id": "decline-14-0",
-      "sense": "decline-mcq-12",
+      "sense": "decline-reviewed-c064e19545",
       "en": "The organisation's influence began to decline.",
       "zh": "這個組織的影響力開始衰退。",
       "masked": "The organisation's influence began to ____.",
       "options": [
-        "decline-mcq-12",
-        "decline-mcq-11",
-        "decline-mcq-13",
-        "decline-mcq-10",
-        "decline-mcq-14",
-        "decline-mcq-09"
+        "decline-reviewed-c064e19545",
+        "decline-mcq-15",
+        "decline-mcq-17",
+        "decline-mcq-18"
       ],
-      "explanation": "本句的「decline」指「經濟衰退」。",
+      "explanation": "對照完整句子：「這個組織的影響力開始衰退。」。這裡的「decline」表示「權力、影響力、重要性或地位逐漸減弱」。",
       "sentenceIndex": 27,
       "sourcePractice": 1,
       "targets": [
         "decline"
       ],
       "optionReasons": {
-        "decline-mcq-12": "本句指「經濟衰退」。",
-        "decline-mcq-11": "「影響力衰退」與本句語境不同。",
-        "decline-mcq-13": "「X 的衰落」與本句語境不同。",
-        "decline-mcq-10": "「健康衰退」與本句語境不同。",
-        "decline-mcq-14": "「開始衰退」與本句語境不同。",
-        "decline-mcq-09": "「質素下降」與本句語境不同。"
+        "decline-reviewed-c064e19545": "對照完整句子：「這個組織的影響力開始衰退。」。這裡的「decline」表示「權力、影響力、重要性或地位逐漸減弱」。",
+        "decline-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "decline-mcq-12"
+      "correctOption": "decline-reviewed-c064e19545",
+      "previousCorrectOption": "decline-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "decline-14-1",
-      "sense": "decline-mcq-12",
+      "sense": "decline-reviewed-c064e19545",
       "en": "The empire declined over several centuries.",
       "zh": "這個帝國在數個世紀間逐漸衰落。",
       "masked": "The empire ____ over several centuries.",
       "options": [
-        "decline-mcq-12",
-        "decline-mcq-11",
-        "decline-mcq-13",
-        "decline-mcq-10",
-        "decline-mcq-14",
-        "decline-mcq-09"
+        "decline-reviewed-c064e19545",
+        "decline-mcq-18",
+        "decline-mcq-25",
+        "decline-mcq-23"
       ],
-      "explanation": "本句的「declined」指「經濟衰退」。",
+      "explanation": "對照完整句子：「這個帝國在數個世紀間逐漸衰落。」。這裡的「declined」表示「權力、影響力、重要性或地位逐漸減弱」。",
       "sentenceIndex": 28,
       "sourcePractice": 2,
       "targets": [
         "declined"
       ],
       "optionReasons": {
-        "decline-mcq-12": "本句指「經濟衰退」。",
-        "decline-mcq-11": "「影響力衰退」與本句語境不同。",
-        "decline-mcq-13": "「X 的衰落」與本句語境不同。",
-        "decline-mcq-10": "「健康衰退」與本句語境不同。",
-        "decline-mcq-14": "「開始衰退」與本句語境不同。",
-        "decline-mcq-09": "「質素下降」與本句語境不同。"
+        "decline-reviewed-c064e19545": "對照完整句子：「這個帝國在數個世紀間逐漸衰落。」。這裡的「declined」表示「權力、影響力、重要性或地位逐漸減弱」。",
+        "decline-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "decline-mcq-12"
+      "correctOption": "decline-reviewed-c064e19545",
+      "previousCorrectOption": "decline-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "decline-15-0",
@@ -1404,11 +1312,9 @@ export default {
       "masked": "The region experienced prolonged ____.",
       "options": [
         "decline-mcq-12",
-        "decline-mcq-11",
-        "decline-mcq-13",
-        "decline-mcq-10",
-        "decline-mcq-14",
-        "decline-mcq-09"
+        "decline-reviewed-c064e19545",
+        "decline-mcq-21",
+        "decline-mcq-18"
       ],
       "explanation": "本句的「economic decline」指「經濟衰退」。",
       "sentenceIndex": 29,
@@ -1417,12 +1323,10 @@ export default {
         "economic decline"
       ],
       "optionReasons": {
-        "decline-mcq-12": "本句指「經濟衰退」。",
-        "decline-mcq-11": "「影響力衰退」與本句語境不同。",
-        "decline-mcq-13": "「X 的衰落」與本句語境不同。",
-        "decline-mcq-10": "「健康衰退」與本句語境不同。",
-        "decline-mcq-14": "「開始衰退」與本句語境不同。",
-        "decline-mcq-09": "「質素下降」與本句語境不同。"
+        "decline-mcq-12": "本句的「economic decline」指「經濟衰退」。",
+        "decline-reviewed-c064e19545": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-12"
     },
@@ -1434,11 +1338,9 @@ export default {
       "masked": "Factory closures accelerated the town's ____.",
       "options": [
         "decline-mcq-12",
-        "decline-mcq-11",
-        "decline-mcq-13",
-        "decline-mcq-10",
-        "decline-mcq-14",
-        "decline-mcq-09"
+        "decline-mcq-20",
+        "decline-mcq-17",
+        "decline-mcq-04"
       ],
       "explanation": "本句的「economic decline」指「經濟衰退」。",
       "sentenceIndex": 30,
@@ -1447,12 +1349,10 @@ export default {
         "economic decline"
       ],
       "optionReasons": {
-        "decline-mcq-12": "本句指「經濟衰退」。",
-        "decline-mcq-11": "「影響力衰退」與本句語境不同。",
-        "decline-mcq-13": "「X 的衰落」與本句語境不同。",
-        "decline-mcq-10": "「健康衰退」與本句語境不同。",
-        "decline-mcq-14": "「開始衰退」與本句語境不同。",
-        "decline-mcq-09": "「質素下降」與本句語境不同。"
+        "decline-mcq-12": "本句的「economic decline」指「經濟衰退」。",
+        "decline-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-12"
     },
@@ -1464,11 +1364,9 @@ export default {
       "masked": "The area ____ after the factory closed.",
       "options": [
         "decline-mcq-14",
-        "decline-mcq-13",
-        "decline-mcq-15",
-        "decline-mcq-12",
-        "decline-mcq-16",
-        "decline-mcq-11"
+        "decline-mcq-21",
+        "decline-mcq-23",
+        "decline-reviewed-c064e19545"
       ],
       "explanation": "本句的「went into decline」指「開始衰退」。",
       "sentenceIndex": 33,
@@ -1477,12 +1375,10 @@ export default {
         "went into decline"
       ],
       "optionReasons": {
-        "decline-mcq-14": "本句指「開始衰退」。",
-        "decline-mcq-13": "「X 的衰落」與本句語境不同。",
-        "decline-mcq-15": "「陷入衰退／破敗」與本句語境不同。",
-        "decline-mcq-12": "「經濟衰退」與本句語境不同。",
-        "decline-mcq-16": "「扭轉下降」與本句語境不同。",
-        "decline-mcq-11": "「影響力衰退」與本句語境不同。"
+        "decline-mcq-14": "本句的「went into decline」指「開始衰退」。",
+        "decline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decline-reviewed-c064e19545": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-14"
     },
@@ -1494,11 +1390,9 @@ export default {
       "masked": "Without investment, the business may ____.",
       "options": [
         "decline-mcq-14",
-        "decline-mcq-13",
-        "decline-mcq-15",
-        "decline-mcq-12",
         "decline-mcq-16",
-        "decline-mcq-11"
+        "decline-mcq-19",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「go into decline」指「開始衰退」。",
       "sentenceIndex": 34,
@@ -1507,12 +1401,10 @@ export default {
         "go into decline"
       ],
       "optionReasons": {
-        "decline-mcq-14": "本句指「開始衰退」。",
-        "decline-mcq-13": "「X 的衰落」與本句語境不同。",
-        "decline-mcq-15": "「陷入衰退／破敗」與本句語境不同。",
-        "decline-mcq-12": "「經濟衰退」與本句語境不同。",
-        "decline-mcq-16": "「扭轉下降」與本句語境不同。",
-        "decline-mcq-11": "「影響力衰退」與本句語境不同。"
+        "decline-mcq-14": "本句的「go into decline」指「開始衰退」。",
+        "decline-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-14"
     },
@@ -1524,11 +1416,9 @@ export default {
       "masked": "The building ____ after years of neglect.",
       "options": [
         "decline-mcq-15",
-        "decline-mcq-14",
-        "decline-mcq-16",
-        "decline-mcq-13",
-        "decline-mcq-17",
-        "decline-mcq-12"
+        "decline-mcq-04",
+        "decline-mcq-19",
+        "decline-mcq-17"
       ],
       "explanation": "本句的「fell into decline」指「陷入衰退／破敗」。",
       "sentenceIndex": 35,
@@ -1537,12 +1427,10 @@ export default {
         "fell into decline"
       ],
       "optionReasons": {
-        "decline-mcq-15": "本句指「陷入衰退／破敗」。",
-        "decline-mcq-14": "「開始衰退」與本句語境不同。",
-        "decline-mcq-16": "「扭轉下降」與本句語境不同。",
-        "decline-mcq-13": "「X 的衰落」與本句語境不同。",
-        "decline-mcq-17": "「婉拒邀請」與本句語境不同。",
-        "decline-mcq-12": "「經濟衰退」與本句語境不同。"
+        "decline-mcq-15": "本句的「fell into decline」指「陷入衰退／破敗」。",
+        "decline-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-15"
     },
@@ -1554,11 +1442,9 @@ export default {
       "masked": "The town ____ after losing its main industry.",
       "options": [
         "decline-mcq-15",
-        "decline-mcq-14",
-        "decline-mcq-16",
-        "decline-mcq-13",
-        "decline-mcq-17",
-        "decline-mcq-12"
+        "decline-mcq-06",
+        "decline-reviewed-c064e19545",
+        "decline-mcq-18"
       ],
       "explanation": "本句的「fell into decline」指「陷入衰退／破敗」。",
       "sentenceIndex": 36,
@@ -1567,12 +1453,10 @@ export default {
         "fell into decline"
       ],
       "optionReasons": {
-        "decline-mcq-15": "本句指「陷入衰退／破敗」。",
-        "decline-mcq-14": "「開始衰退」與本句語境不同。",
-        "decline-mcq-16": "「扭轉下降」與本句語境不同。",
-        "decline-mcq-13": "「X 的衰落」與本句語境不同。",
-        "decline-mcq-17": "「婉拒邀請」與本句語境不同。",
-        "decline-mcq-12": "「經濟衰退」與本句語境不同。"
+        "decline-mcq-15": "本句的「fell into decline」指「陷入衰退／破敗」。",
+        "decline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "decline-reviewed-c064e19545": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-15"
     },
@@ -1584,11 +1468,9 @@ export default {
       "masked": "The company introduced changes to ____.",
       "options": [
         "decline-mcq-16",
-        "decline-mcq-15",
-        "decline-mcq-17",
-        "decline-mcq-14",
-        "decline-mcq-18",
-        "decline-mcq-13"
+        "decline-mcq-24",
+        "decline-pdf-001",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「reverse the decline in sales」指「扭轉下降」。",
       "sentenceIndex": 37,
@@ -1597,12 +1479,10 @@ export default {
         "reverse the decline in sales"
       ],
       "optionReasons": {
-        "decline-mcq-16": "本句指「扭轉下降」。",
-        "decline-mcq-15": "「陷入衰退／破敗」與本句語境不同。",
-        "decline-mcq-17": "「婉拒邀請」與本句語境不同。",
-        "decline-mcq-14": "「開始衰退」與本句語境不同。",
-        "decline-mcq-18": "「拒絕提議」與本句語境不同。",
-        "decline-mcq-13": "「X 的衰落」與本句語境不同。"
+        "decline-mcq-16": "本句的「reverse the decline in sales」指「扭轉下降」。",
+        "decline-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "decline-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-16"
     },
@@ -1615,10 +1495,8 @@ export default {
       "options": [
         "decline-mcq-16",
         "decline-mcq-15",
-        "decline-mcq-17",
-        "decline-mcq-14",
-        "decline-mcq-18",
-        "decline-mcq-13"
+        "decline-mcq-20",
+        "decline-mcq-21"
       ],
       "explanation": "本句的「halt the decline in morale」指「扭轉下降」。",
       "sentenceIndex": 38,
@@ -1627,12 +1505,10 @@ export default {
         "halt the decline in morale"
       ],
       "optionReasons": {
-        "decline-mcq-16": "本句指「扭轉下降」。",
-        "decline-mcq-15": "「陷入衰退／破敗」與本句語境不同。",
-        "decline-mcq-17": "「婉拒邀請」與本句語境不同。",
-        "decline-mcq-14": "「開始衰退」與本句語境不同。",
-        "decline-mcq-18": "「拒絕提議」與本句語境不同。",
-        "decline-mcq-13": "「X 的衰落」與本句語境不同。"
+        "decline-mcq-16": "本句的「halt the decline in morale」指「扭轉下降」。",
+        "decline-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-16"
     },
@@ -1644,11 +1520,9 @@ export default {
       "masked": "I had to ____ because of a prior commitment.",
       "options": [
         "decline-mcq-17",
-        "decline-mcq-16",
-        "decline-mcq-18",
-        "decline-mcq-15",
-        "decline-mcq-19",
-        "decline-mcq-14"
+        "decline-mcq-12",
+        "decline-mcq-05",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「decline the invitation」指「婉拒邀請」。",
       "sentenceIndex": 41,
@@ -1657,12 +1531,10 @@ export default {
         "decline the invitation"
       ],
       "optionReasons": {
-        "decline-mcq-17": "本句指「婉拒邀請」。",
-        "decline-mcq-16": "「扭轉下降」與本句語境不同。",
-        "decline-mcq-18": "「拒絕提議」與本句語境不同。",
-        "decline-mcq-15": "「陷入衰退／破敗」與本句語境不同。",
-        "decline-mcq-19": "「拒絕要求」與本句語境不同。",
-        "decline-mcq-14": "「開始衰退」與本句語境不同。"
+        "decline-mcq-17": "本句的「decline the invitation」指「婉拒邀請」。",
+        "decline-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-17"
     },
@@ -1675,10 +1547,8 @@ export default {
       "options": [
         "decline-mcq-17",
         "decline-mcq-16",
-        "decline-mcq-18",
-        "decline-mcq-15",
-        "decline-mcq-19",
-        "decline-mcq-14"
+        "decline-mcq-25",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「declined the invitation」指「婉拒邀請」。",
       "sentenceIndex": 42,
@@ -1687,12 +1557,10 @@ export default {
         "declined the invitation"
       ],
       "optionReasons": {
-        "decline-mcq-17": "本句指「婉拒邀請」。",
-        "decline-mcq-16": "「扭轉下降」與本句語境不同。",
-        "decline-mcq-18": "「拒絕提議」與本句語境不同。",
-        "decline-mcq-15": "「陷入衰退／破敗」與本句語境不同。",
-        "decline-mcq-19": "「拒絕要求」與本句語境不同。",
-        "decline-mcq-14": "「開始衰退」與本句語境不同。"
+        "decline-mcq-17": "本句的「declined the invitation」指「婉拒邀請」。",
+        "decline-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-17"
     },
@@ -1704,11 +1572,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "decline-mcq-18",
-        "decline-mcq-17",
-        "decline-mcq-19",
-        "decline-mcq-16",
-        "decline-mcq-20",
-        "decline-mcq-15"
+        "decline-mcq-01",
+        "decline-mcq-23",
+        "decline-mcq-12"
       ],
       "explanation": "本句的「declined the job offer」指「拒絕提議」。",
       "sentenceIndex": 43,
@@ -1717,12 +1583,10 @@ export default {
         "declined the job offer"
       ],
       "optionReasons": {
-        "decline-mcq-18": "本句指「拒絕提議」。",
-        "decline-mcq-17": "「婉拒邀請」與本句語境不同。",
-        "decline-mcq-19": "「拒絕要求」與本句語境不同。",
-        "decline-mcq-16": "「扭轉下降」與本句語境不同。",
-        "decline-mcq-20": "「拒絕置評」與本句語境不同。",
-        "decline-mcq-15": "「陷入衰退／破敗」與本句語境不同。"
+        "decline-mcq-18": "本句的「declined the job offer」指「拒絕提議」。",
+        "decline-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-18"
     },
@@ -1734,11 +1598,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "decline-mcq-18",
-        "decline-mcq-17",
-        "decline-mcq-19",
-        "decline-mcq-16",
-        "decline-mcq-20",
-        "decline-mcq-15"
+        "decline-mcq-09",
+        "decline-mcq-10",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「decline their offer」指「拒絕提議」。",
       "sentenceIndex": 44,
@@ -1747,12 +1609,10 @@ export default {
         "decline their offer"
       ],
       "optionReasons": {
-        "decline-mcq-18": "本句指「拒絕提議」。",
-        "decline-mcq-17": "「婉拒邀請」與本句語境不同。",
-        "decline-mcq-19": "「拒絕要求」與本句語境不同。",
-        "decline-mcq-16": "「扭轉下降」與本句語境不同。",
-        "decline-mcq-20": "「拒絕置評」與本句語境不同。",
-        "decline-mcq-15": "「陷入衰退／破敗」與本句語境不同。"
+        "decline-mcq-18": "本句的「decline their offer」指「拒絕提議」。",
+        "decline-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-18"
     },
@@ -1764,11 +1624,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "decline-mcq-19",
-        "decline-mcq-18",
-        "decline-mcq-20",
-        "decline-mcq-17",
-        "decline-mcq-21",
-        "decline-mcq-16"
+        "decline-mcq-03",
+        "decline-mcq-10",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「declined the request」指「拒絕要求」。",
       "sentenceIndex": 45,
@@ -1777,12 +1635,10 @@ export default {
         "declined the request"
       ],
       "optionReasons": {
-        "decline-mcq-19": "本句指「拒絕要求」。",
-        "decline-mcq-18": "「拒絕提議」與本句語境不同。",
-        "decline-mcq-20": "「拒絕置評」與本句語境不同。",
-        "decline-mcq-17": "「婉拒邀請」與本句語境不同。",
-        "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
-        "decline-mcq-16": "「扭轉下降」與本句語境不同。"
+        "decline-mcq-19": "本句的「declined the request」指「拒絕要求」。",
+        "decline-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-19"
     },
@@ -1794,11 +1650,9 @@ export default {
       "masked": "The application may be ____ if information is missing.",
       "options": [
         "decline-mcq-19",
-        "decline-mcq-18",
-        "decline-mcq-20",
-        "decline-mcq-17",
-        "decline-mcq-21",
-        "decline-mcq-16"
+        "decline-mcq-24",
+        "decline-mcq-06",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「declined」指「拒絕要求」。",
       "sentenceIndex": 46,
@@ -1807,12 +1661,10 @@ export default {
         "declined"
       ],
       "optionReasons": {
-        "decline-mcq-19": "本句指「拒絕要求」。",
-        "decline-mcq-18": "「拒絕提議」與本句語境不同。",
-        "decline-mcq-20": "「拒絕置評」與本句語境不同。",
-        "decline-mcq-17": "「婉拒邀請」與本句語境不同。",
-        "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
-        "decline-mcq-16": "「扭轉下降」與本句語境不同。"
+        "decline-mcq-19": "本句的「declined」指「拒絕要求」。",
+        "decline-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-19"
     },
@@ -1824,11 +1676,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "decline-pdf-001",
-        "decline-mcq-19",
-        "decline-mcq-21",
-        "decline-mcq-18",
-        "decline-mcq-22",
-        "decline-mcq-17"
+        "decline-mcq-01",
+        "decline-mcq-15",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「declined to comment」指「禮貌、正式或刻意地拒絕做 X」。",
       "sentenceIndex": 47,
@@ -1837,12 +1687,10 @@ export default {
         "declined to comment"
       ],
       "optionReasons": {
-        "decline-pdf-001": "本句指「禮貌、正式或刻意地拒絕做 X」。",
-        "decline-mcq-19": "「拒絕要求」與本句語境不同。",
-        "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
-        "decline-mcq-18": "「拒絕提議」與本句語境不同。",
-        "decline-mcq-22": "「X 的下降」與本句語境不同。",
-        "decline-mcq-17": "「婉拒邀請」與本句語境不同。"
+        "decline-pdf-001": "本句的「declined to comment」指「禮貌、正式或刻意地拒絕做 X」。",
+        "decline-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-pdf-001"
     },
@@ -1854,11 +1702,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "decline-pdf-001",
-        "decline-mcq-19",
-        "decline-mcq-21",
-        "decline-mcq-18",
-        "decline-mcq-22",
-        "decline-mcq-17"
+        "decline-mcq-16",
+        "decline-mcq-24",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「declined to answer the question」指「禮貌、正式或刻意地拒絕做 X」。",
       "sentenceIndex": 48,
@@ -1867,12 +1713,10 @@ export default {
         "declined to answer the question"
       ],
       "optionReasons": {
-        "decline-pdf-001": "本句指「禮貌、正式或刻意地拒絕做 X」。",
-        "decline-mcq-19": "「拒絕要求」與本句語境不同。",
-        "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
-        "decline-mcq-18": "「拒絕提議」與本句語境不同。",
-        "decline-mcq-22": "「X 的下降」與本句語境不同。",
-        "decline-mcq-17": "「婉拒邀請」與本句語境不同。"
+        "decline-pdf-001": "本句的「declined to answer the question」指「禮貌、正式或刻意地拒絕做 X」。",
+        "decline-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-pdf-001"
     },
@@ -1884,11 +1728,9 @@ export default {
       "masked": "The company ____ on the report.",
       "options": [
         "decline-mcq-20",
-        "decline-mcq-19",
-        "decline-mcq-21",
-        "decline-mcq-18",
-        "decline-mcq-22",
-        "decline-mcq-17"
+        "decline-mcq-23",
+        "decline-mcq-07",
+        "decline-mcq-24"
       ],
       "explanation": "本句的「declined to comment」指「拒絕置評」。",
       "sentenceIndex": 49,
@@ -1897,12 +1739,10 @@ export default {
         "declined to comment"
       ],
       "optionReasons": {
-        "decline-mcq-20": "本句指「拒絕置評」。",
-        "decline-mcq-19": "「拒絕要求」與本句語境不同。",
-        "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
-        "decline-mcq-18": "「拒絕提議」與本句語境不同。",
-        "decline-mcq-22": "「X 的下降」與本句語境不同。",
-        "decline-mcq-17": "「婉拒邀請」與本句語境不同。"
+        "decline-mcq-20": "本句的「declined to comment」指「拒絕置評」。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-20"
     },
@@ -1914,11 +1754,9 @@ export default {
       "masked": "He was asked about the incident but ____.",
       "options": [
         "decline-mcq-20",
-        "decline-mcq-19",
-        "decline-mcq-21",
-        "decline-mcq-18",
-        "decline-mcq-22",
-        "decline-mcq-17"
+        "decline-mcq-12",
+        "decline-mcq-04",
+        "decline-mcq-21"
       ],
       "explanation": "本句的「declined to comment」指「拒絕置評」。",
       "sentenceIndex": 50,
@@ -1927,12 +1765,10 @@ export default {
         "declined to comment"
       ],
       "optionReasons": {
-        "decline-mcq-20": "本句指「拒絕置評」。",
-        "decline-mcq-19": "「拒絕要求」與本句語境不同。",
-        "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
-        "decline-mcq-18": "「拒絕提議」與本句語境不同。",
-        "decline-mcq-22": "「X 的下降」與本句語境不同。",
-        "decline-mcq-17": "「婉拒邀請」與本句語境不同。"
+        "decline-mcq-20": "本句的「declined to comment」指「拒絕置評」。",
+        "decline-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-20"
     },
@@ -1944,11 +1780,9 @@ export default {
       "masked": "I must ____.",
       "options": [
         "decline-mcq-21",
-        "decline-mcq-20",
-        "decline-mcq-22",
-        "decline-mcq-19",
-        "decline-mcq-23",
-        "decline-mcq-18"
+        "decline-mcq-16",
+        "decline-mcq-25",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「respectfully decline」指「禮貌婉拒」。",
       "sentenceIndex": 51,
@@ -1957,12 +1791,10 @@ export default {
         "respectfully decline"
       ],
       "optionReasons": {
-        "decline-mcq-21": "本句指「禮貌婉拒」。",
-        "decline-mcq-20": "「拒絕置評」與本句語境不同。",
-        "decline-mcq-22": "「X 的下降」與本句語境不同。",
-        "decline-mcq-19": "「拒絕要求」與本句語境不同。",
-        "decline-mcq-23": "「急跌」與本句語境不同。",
-        "decline-mcq-18": "「拒絕提議」與本句語境不同。"
+        "decline-mcq-21": "本句的「respectfully decline」指「禮貌婉拒」。",
+        "decline-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-21"
     },
@@ -1974,11 +1806,9 @@ export default {
       "masked": "There has been a ____.",
       "options": [
         "decline-mcq-22",
-        "decline-mcq-21",
-        "decline-mcq-23",
         "decline-mcq-20",
-        "decline-mcq-24",
-        "decline-mcq-19"
+        "decline-mcq-14",
+        "decline-mcq-23"
       ],
       "explanation": "本句的「decline in motivation」指「X 的下降」。",
       "sentenceIndex": 52,
@@ -1987,12 +1817,10 @@ export default {
         "decline in motivation"
       ],
       "optionReasons": {
-        "decline-mcq-22": "本句指「X 的下降」。",
-        "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
-        "decline-mcq-23": "「急跌」與本句語境不同。",
-        "decline-mcq-20": "「拒絕置評」與本句語境不同。",
-        "decline-mcq-24": "「衰退；衰落」與本句語境不同。",
-        "decline-mcq-19": "「拒絕要求」與本句語境不同。"
+        "decline-mcq-22": "本句的「decline in motivation」指「X 的下降」。",
+        "decline-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-22"
     },
@@ -2004,11 +1832,9 @@ export default {
       "masked": "The company reported a ____.",
       "options": [
         "decline-mcq-22",
-        "decline-mcq-21",
-        "decline-mcq-23",
         "decline-mcq-20",
-        "decline-mcq-24",
-        "decline-mcq-19"
+        "decline-mcq-23",
+        "decline-mcq-14"
       ],
       "explanation": "本句的「sharp decline in profits」指「X 的下降」。",
       "sentenceIndex": 53,
@@ -2017,12 +1843,10 @@ export default {
         "sharp decline in profits"
       ],
       "optionReasons": {
-        "decline-mcq-22": "本句指「X 的下降」。",
-        "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
-        "decline-mcq-23": "「急跌」與本句語境不同。",
-        "decline-mcq-20": "「拒絕置評」與本句語境不同。",
-        "decline-mcq-24": "「衰退；衰落」與本句語境不同。",
-        "decline-mcq-19": "「拒絕要求」與本句語境不同。"
+        "decline-mcq-22": "本句的「sharp decline in profits」指「X 的下降」。",
+        "decline-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-22"
     },
@@ -2034,11 +1858,9 @@ export default {
       "masked": "Sales showed a ____.",
       "options": [
         "decline-mcq-23",
-        "decline-mcq-22",
-        "decline-mcq-24",
-        "decline-mcq-21",
-        "decline-mcq-25",
-        "decline-mcq-20"
+        "decline-pdf-001",
+        "decline-mcq-08",
+        "decline-mcq-15"
       ],
       "explanation": "本句的「sharp decline」指「急跌」。",
       "sentenceIndex": 54,
@@ -2047,12 +1869,10 @@ export default {
         "sharp decline"
       ],
       "optionReasons": {
-        "decline-mcq-23": "本句指「急跌」。",
-        "decline-mcq-22": "「X 的下降」與本句語境不同。",
-        "decline-mcq-24": "「衰退；衰落」與本句語境不同。",
-        "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
-        "decline-mcq-25": "「正在衰退」與本句語境不同。",
-        "decline-mcq-20": "「拒絕置評」與本句語境不同。"
+        "decline-mcq-23": "本句的「sharp decline」指「急跌」。",
+        "decline-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-23"
     },
@@ -2064,11 +1884,9 @@ export default {
       "masked": "There has been a ____.",
       "options": [
         "decline-mcq-23",
-        "decline-mcq-22",
-        "decline-mcq-24",
-        "decline-mcq-21",
-        "decline-mcq-25",
-        "decline-mcq-20"
+        "decline-mcq-17",
+        "decline-mcq-15",
+        "decline-mcq-09"
       ],
       "explanation": "本句的「steady decline in attendance」指「急跌」。",
       "sentenceIndex": 55,
@@ -2077,12 +1895,10 @@ export default {
         "steady decline in attendance"
       ],
       "optionReasons": {
-        "decline-mcq-23": "本句指「急跌」。",
-        "decline-mcq-22": "「X 的下降」與本句語境不同。",
-        "decline-mcq-24": "「衰退；衰落」與本句語境不同。",
-        "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
-        "decline-mcq-25": "「正在衰退」與本句語境不同。",
-        "decline-mcq-20": "「拒絕置評」與本句語境不同。"
+        "decline-mcq-23": "本句的「steady decline in attendance」指「急跌」。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-23"
     },
@@ -2094,11 +1910,9 @@ export default {
       "masked": "The industry has been in ____ for years.",
       "options": [
         "decline-mcq-24",
-        "decline-mcq-23",
-        "decline-mcq-25",
-        "decline-mcq-22",
-        "decline-mcq-21",
-        "decline-mcq-20"
+        "decline-mcq-06",
+        "decline-mcq-19",
+        "decline-mcq-17"
       ],
       "explanation": "本句的「decline」指「衰退；衰落」。",
       "sentenceIndex": 56,
@@ -2107,12 +1921,10 @@ export default {
         "decline"
       ],
       "optionReasons": {
-        "decline-mcq-24": "本句指「衰退；衰落」。",
-        "decline-mcq-23": "「急跌」與本句語境不同。",
-        "decline-mcq-25": "「正在衰退」與本句語境不同。",
-        "decline-mcq-22": "「X 的下降」與本句語境不同。",
-        "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
-        "decline-mcq-20": "「拒絕置評」與本句語境不同。"
+        "decline-mcq-24": "本句的「decline」指「衰退；衰落」。",
+        "decline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-24"
     },
@@ -2124,11 +1936,9 @@ export default {
       "masked": "The town's ____ began after the mine closed.",
       "options": [
         "decline-mcq-24",
-        "decline-mcq-23",
-        "decline-mcq-25",
-        "decline-mcq-22",
+        "decline-mcq-03",
         "decline-mcq-21",
-        "decline-mcq-20"
+        "decline-mcq-18"
       ],
       "explanation": "本句的「decline」指「衰退；衰落」。",
       "sentenceIndex": 57,
@@ -2137,12 +1947,10 @@ export default {
         "decline"
       ],
       "optionReasons": {
-        "decline-mcq-24": "本句指「衰退；衰落」。",
-        "decline-mcq-23": "「急跌」與本句語境不同。",
-        "decline-mcq-25": "「正在衰退」與本句語境不同。",
-        "decline-mcq-22": "「X 的下降」與本句語境不同。",
-        "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
-        "decline-mcq-20": "「拒絕置評」與本句語境不同。"
+        "decline-mcq-24": "本句的「decline」指「衰退；衰落」。",
+        "decline-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-24"
     },
@@ -2154,11 +1962,9 @@ export default {
       "masked": "The industry is ____.",
       "options": [
         "decline-mcq-25",
-        "decline-mcq-24",
-        "decline-mcq-23",
-        "decline-mcq-22",
-        "decline-mcq-21",
-        "decline-mcq-20"
+        "decline-mcq-09",
+        "decline-mcq-19",
+        "decline-mcq-17"
       ],
       "explanation": "本句的「in decline」指「正在衰退」。",
       "sentenceIndex": 58,
@@ -2167,12 +1973,10 @@ export default {
         "in decline"
       ],
       "optionReasons": {
-        "decline-mcq-25": "本句指「正在衰退」。",
-        "decline-mcq-24": "「衰退；衰落」與本句語境不同。",
-        "decline-mcq-23": "「急跌」與本句語境不同。",
-        "decline-mcq-22": "「X 的下降」與本句語境不同。",
-        "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
-        "decline-mcq-20": "「拒絕置評」與本句語境不同。"
+        "decline-mcq-25": "本句的「in decline」指「正在衰退」。",
+        "decline-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-25"
     },
@@ -2184,11 +1988,9 @@ export default {
       "masked": "Membership has been ____ for several years.",
       "options": [
         "decline-mcq-25",
-        "decline-mcq-24",
-        "decline-mcq-23",
-        "decline-mcq-22",
         "decline-mcq-21",
-        "decline-mcq-20"
+        "decline-mcq-07",
+        "decline-mcq-18"
       ],
       "explanation": "本句的「in decline」指「正在衰退」。",
       "sentenceIndex": 59,
@@ -2197,12 +1999,10 @@ export default {
         "in decline"
       ],
       "optionReasons": {
-        "decline-mcq-25": "本句指「正在衰退」。",
-        "decline-mcq-24": "「衰退；衰落」與本句語境不同。",
-        "decline-mcq-23": "「急跌」與本句語境不同。",
-        "decline-mcq-22": "「X 的下降」與本句語境不同。",
-        "decline-mcq-21": "「禮貌婉拒」與本句語境不同。",
-        "decline-mcq-20": "「拒絕置評」與本句語境不同。"
+        "decline-mcq-25": "本句的「in decline」指「正在衰退」。",
+        "decline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "decline-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "decline-mcq-25"
     }
@@ -2214,5 +2014,7 @@ export default {
     "sha256": "e9bd04745e00365e99903c029322c801915858e0a94945fa8f4194c83e21ad27",
     "pages": 23
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

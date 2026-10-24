@@ -504,11 +504,9 @@ export default {
       "masked": "The film has several ____.",
       "options": [
         "dramatic-mcq-01",
-        "dramatic-mcq-02",
-        "dramatic-mcq-03",
-        "dramatic-mcq-04",
-        "dramatic-mcq-05",
-        "dramatic-mcq-06"
+        "dramatic-mcq-09",
+        "dramatic-mcq-06",
+        "dramatic-mcq-07"
       ],
       "explanation": "本句的「dramatic scenes」指「戲劇性的」。",
       "sentenceIndex": 0,
@@ -517,12 +515,10 @@ export default {
         "dramatic scenes"
       ],
       "optionReasons": {
-        "dramatic-mcq-01": "本句指「戲劇性的」。",
-        "dramatic-mcq-02": "「戲劇性場面」與本句語境不同。",
-        "dramatic-mcq-03": "「巨大／劇烈變化」與本句語境不同。",
-        "dramatic-mcq-04": "「大幅增加」與本句語境不同。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。"
+        "dramatic-mcq-01": "本句的「dramatic scenes」指「戲劇性的」。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-01"
     },
@@ -534,10 +530,8 @@ export default {
       "masked": "The story reaches a ____.",
       "options": [
         "dramatic-mcq-01",
-        "dramatic-mcq-02",
-        "dramatic-mcq-03",
         "dramatic-mcq-04",
-        "dramatic-mcq-05",
+        "dramatic-mcq-07",
         "dramatic-mcq-06"
       ],
       "explanation": "本句的「dramatic climax」指「戲劇性的」。",
@@ -547,12 +541,10 @@ export default {
         "dramatic climax"
       ],
       "optionReasons": {
-        "dramatic-mcq-01": "本句指「戲劇性的」。",
-        "dramatic-mcq-02": "「戲劇性場面」與本句語境不同。",
-        "dramatic-mcq-03": "「巨大／劇烈變化」與本句語境不同。",
-        "dramatic-mcq-04": "「大幅增加」與本句語境不同。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。"
+        "dramatic-mcq-01": "本句的「dramatic climax」指「戲劇性的」。",
+        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-01"
     },
@@ -564,11 +556,9 @@ export default {
       "masked": "Her entrance was deliberately ____.",
       "options": [
         "dramatic-mcq-01",
-        "dramatic-mcq-02",
-        "dramatic-mcq-03",
         "dramatic-mcq-04",
-        "dramatic-mcq-05",
-        "dramatic-mcq-06"
+        "dramatic-mcq-07",
+        "dramatic-mcq-09"
       ],
       "explanation": "本句的「dramatic」指「戲劇性的」。",
       "sentenceIndex": 2,
@@ -577,12 +567,10 @@ export default {
         "dramatic"
       ],
       "optionReasons": {
-        "dramatic-mcq-01": "本句指「戲劇性的」。",
-        "dramatic-mcq-02": "「戲劇性場面」與本句語境不同。",
-        "dramatic-mcq-03": "「巨大／劇烈變化」與本句語境不同。",
-        "dramatic-mcq-04": "「大幅增加」與本句語境不同。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。"
+        "dramatic-mcq-01": "本句的「dramatic」指「戲劇性的」。",
+        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-01"
     },
@@ -594,10 +582,8 @@ export default {
       "masked": "There was a ____ in prices.",
       "options": [
         "dramatic-mcq-02",
-        "dramatic-mcq-01",
-        "dramatic-mcq-03",
         "dramatic-mcq-04",
-        "dramatic-mcq-05",
+        "dramatic-mcq-10",
         "dramatic-mcq-06"
       ],
       "explanation": "本句的「dramatic increase」指「戲劇性場面」。",
@@ -607,12 +593,10 @@ export default {
         "dramatic increase"
       ],
       "optionReasons": {
-        "dramatic-mcq-02": "本句指「戲劇性場面」。",
-        "dramatic-mcq-01": "「戲劇性的」與本句語境不同。",
-        "dramatic-mcq-03": "「巨大／劇烈變化」與本句語境不同。",
-        "dramatic-mcq-04": "「大幅增加」與本句語境不同。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。"
+        "dramatic-mcq-02": "本句的「dramatic increase」指「戲劇性場面」。",
+        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-02"
     },
@@ -624,11 +608,9 @@ export default {
       "masked": "The treatment led to a ____.",
       "options": [
         "dramatic-mcq-02",
-        "dramatic-mcq-01",
-        "dramatic-mcq-03",
         "dramatic-mcq-04",
-        "dramatic-mcq-05",
-        "dramatic-mcq-06"
+        "dramatic-mcq-06",
+        "dramatic-mcq-07"
       ],
       "explanation": "本句的「dramatic improvement」指「戲劇性場面」。",
       "sentenceIndex": 4,
@@ -637,12 +619,10 @@ export default {
         "dramatic improvement"
       ],
       "optionReasons": {
-        "dramatic-mcq-02": "本句指「戲劇性場面」。",
-        "dramatic-mcq-01": "「戲劇性的」與本句語境不同。",
-        "dramatic-mcq-03": "「巨大／劇烈變化」與本句語境不同。",
-        "dramatic-mcq-04": "「大幅增加」與本句語境不同。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。"
+        "dramatic-mcq-02": "本句的「dramatic improvement」指「戲劇性場面」。",
+        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-02"
     },
@@ -654,11 +634,9 @@ export default {
       "masked": "The area has undergone a ____.",
       "options": [
         "dramatic-mcq-03",
+        "dramatic-mcq-09",
         "dramatic-mcq-02",
-        "dramatic-mcq-04",
-        "dramatic-mcq-01",
-        "dramatic-mcq-05",
-        "dramatic-mcq-06"
+        "dramatic-mcq-14"
       ],
       "explanation": "本句的「dramatic change」指「巨大／劇烈變化」。",
       "sentenceIndex": 5,
@@ -667,12 +645,10 @@ export default {
         "dramatic change"
       ],
       "optionReasons": {
-        "dramatic-mcq-03": "本句指「巨大／劇烈變化」。",
-        "dramatic-mcq-02": "「戲劇性場面」與本句語境不同。",
-        "dramatic-mcq-04": "「大幅增加」與本句語境不同。",
-        "dramatic-mcq-01": "「戲劇性的」與本句語境不同。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。"
+        "dramatic-mcq-03": "本句的「dramatic change」指「巨大／劇烈變化」。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-03"
     },
@@ -684,11 +660,9 @@ export default {
       "masked": "There was a ____ in his attitude.",
       "options": [
         "dramatic-mcq-03",
+        "dramatic-mcq-09",
         "dramatic-mcq-02",
-        "dramatic-mcq-04",
-        "dramatic-mcq-01",
-        "dramatic-mcq-05",
-        "dramatic-mcq-06"
+        "dramatic-mcq-14"
       ],
       "explanation": "本句的「dramatic change」指「巨大／劇烈變化」。",
       "sentenceIndex": 6,
@@ -697,12 +671,10 @@ export default {
         "dramatic change"
       ],
       "optionReasons": {
-        "dramatic-mcq-03": "本句指「巨大／劇烈變化」。",
-        "dramatic-mcq-02": "「戲劇性場面」與本句語境不同。",
-        "dramatic-mcq-04": "「大幅增加」與本句語境不同。",
-        "dramatic-mcq-01": "「戲劇性的」與本句語境不同。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。"
+        "dramatic-mcq-03": "本句的「dramatic change」指「巨大／劇烈變化」。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-03"
     },
@@ -714,11 +686,9 @@ export default {
       "masked": "Sales showed a ____.",
       "options": [
         "dramatic-mcq-04",
-        "dramatic-mcq-03",
-        "dramatic-mcq-05",
-        "dramatic-mcq-02",
+        "dramatic-mcq-01",
         "dramatic-mcq-06",
-        "dramatic-mcq-01"
+        "dramatic-mcq-09"
       ],
       "explanation": "本句的「dramatic increase」指「大幅增加」。",
       "sentenceIndex": 7,
@@ -727,12 +697,10 @@ export default {
         "dramatic increase"
       ],
       "optionReasons": {
-        "dramatic-mcq-04": "本句指「大幅增加」。",
-        "dramatic-mcq-03": "「巨大／劇烈變化」與本句語境不同。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。",
-        "dramatic-mcq-02": "「戲劇性場面」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。",
-        "dramatic-mcq-01": "「戲劇性的」與本句語境不同。"
+        "dramatic-mcq-04": "本句的「dramatic increase」指「大幅增加」。",
+        "dramatic-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-04"
     },
@@ -744,11 +712,9 @@ export default {
       "masked": "There was a ____ in demand.",
       "options": [
         "dramatic-mcq-04",
-        "dramatic-mcq-03",
-        "dramatic-mcq-05",
-        "dramatic-mcq-02",
-        "dramatic-mcq-06",
-        "dramatic-mcq-01"
+        "dramatic-mcq-16",
+        "dramatic-mcq-07",
+        "dramatic-mcq-06"
       ],
       "explanation": "本句的「dramatic rise」指「大幅增加」。",
       "sentenceIndex": 8,
@@ -757,12 +723,10 @@ export default {
         "dramatic rise"
       ],
       "optionReasons": {
-        "dramatic-mcq-04": "本句指「大幅增加」。",
-        "dramatic-mcq-03": "「巨大／劇烈變化」與本句語境不同。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。",
-        "dramatic-mcq-02": "「戲劇性場面」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。",
-        "dramatic-mcq-01": "「戲劇性的」與本句語境不同。"
+        "dramatic-mcq-04": "本句的「dramatic rise」指「大幅增加」。",
+        "dramatic-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-04"
     },
@@ -774,11 +738,9 @@ export default {
       "masked": "The company saw a ____ in costs.",
       "options": [
         "dramatic-mcq-05",
-        "dramatic-mcq-04",
-        "dramatic-mcq-06",
-        "dramatic-mcq-03",
+        "dramatic-mcq-13",
         "dramatic-mcq-07",
-        "dramatic-mcq-02"
+        "dramatic-mcq-06"
       ],
       "explanation": "本句的「dramatic drop」指「大幅下降」。",
       "sentenceIndex": 9,
@@ -787,12 +749,10 @@ export default {
         "dramatic drop"
       ],
       "optionReasons": {
-        "dramatic-mcq-05": "本句指「大幅下降」。",
-        "dramatic-mcq-04": "「大幅增加」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。",
-        "dramatic-mcq-03": "「巨大／劇烈變化」與本句語境不同。",
-        "dramatic-mcq-07": "「強烈效果」與本句語境不同。",
-        "dramatic-mcq-02": "「戲劇性場面」與本句語境不同。"
+        "dramatic-mcq-05": "本句的「dramatic drop」指「大幅下降」。",
+        "dramatic-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-05"
     },
@@ -804,11 +764,9 @@ export default {
       "masked": "Pollution levels fell ____.",
       "options": [
         "dramatic-mcq-05",
-        "dramatic-mcq-04",
-        "dramatic-mcq-06",
-        "dramatic-mcq-03",
+        "dramatic-mcq-08",
         "dramatic-mcq-07",
-        "dramatic-mcq-02"
+        "dramatic-mcq-06"
       ],
       "explanation": "本句的「dramatically」指「大幅下降」。",
       "sentenceIndex": 10,
@@ -817,12 +775,10 @@ export default {
         "dramatically"
       ],
       "optionReasons": {
-        "dramatic-mcq-05": "本句指「大幅下降」。",
-        "dramatic-mcq-04": "「大幅增加」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。",
-        "dramatic-mcq-03": "「巨大／劇烈變化」與本句語境不同。",
-        "dramatic-mcq-07": "「強烈效果」與本句語境不同。",
-        "dramatic-mcq-02": "「戲劇性場面」與本句語境不同。"
+        "dramatic-mcq-05": "本句的「dramatically」指「大幅下降」。",
+        "dramatic-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-05"
     },
@@ -834,11 +790,9 @@ export default {
       "masked": "Her English showed a ____.",
       "options": [
         "dramatic-mcq-06",
+        "dramatic-mcq-16",
         "dramatic-mcq-05",
-        "dramatic-mcq-07",
-        "dramatic-mcq-04",
-        "dramatic-mcq-08",
-        "dramatic-mcq-03"
+        "dramatic-mcq-09"
       ],
       "explanation": "本句的「dramatic improvement」指「顯著改善」。",
       "sentenceIndex": 11,
@@ -847,12 +801,10 @@ export default {
         "dramatic improvement"
       ],
       "optionReasons": {
-        "dramatic-mcq-06": "本句指「顯著改善」。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。",
-        "dramatic-mcq-07": "「強烈效果」與本句語境不同。",
-        "dramatic-mcq-04": "「大幅增加」與本句語境不同。",
-        "dramatic-mcq-08": "「誇張的；戲劇化的」與本句語境不同。",
-        "dramatic-mcq-03": "「巨大／劇烈變化」與本句語境不同。"
+        "dramatic-mcq-06": "本句的「dramatic improvement」指「顯著改善」。",
+        "dramatic-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-06"
     },
@@ -865,10 +817,8 @@ export default {
       "options": [
         "dramatic-mcq-06",
         "dramatic-mcq-05",
-        "dramatic-mcq-07",
-        "dramatic-mcq-04",
         "dramatic-mcq-08",
-        "dramatic-mcq-03"
+        "dramatic-mcq-07"
       ],
       "explanation": "本句的「dramatic improvements」指「顯著改善」。",
       "sentenceIndex": 12,
@@ -877,12 +827,10 @@ export default {
         "dramatic improvements"
       ],
       "optionReasons": {
-        "dramatic-mcq-06": "本句指「顯著改善」。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。",
-        "dramatic-mcq-07": "「強烈效果」與本句語境不同。",
-        "dramatic-mcq-04": "「大幅增加」與本句語境不同。",
-        "dramatic-mcq-08": "「誇張的；戲劇化的」與本句語境不同。",
-        "dramatic-mcq-03": "「巨大／劇烈變化」與本句語境不同。"
+        "dramatic-mcq-06": "本句的「dramatic improvements」指「顯著改善」。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-06"
     },
@@ -894,11 +842,9 @@ export default {
       "masked": "The new lighting had a ____ on the room.",
       "options": [
         "dramatic-mcq-07",
-        "dramatic-mcq-06",
-        "dramatic-mcq-08",
-        "dramatic-mcq-05",
-        "dramatic-mcq-09",
-        "dramatic-mcq-04"
+        "dramatic-mcq-02",
+        "dramatic-mcq-04",
+        "dramatic-mcq-09"
       ],
       "explanation": "本句的「dramatic effect」指「強烈效果」。",
       "sentenceIndex": 13,
@@ -907,12 +853,10 @@ export default {
         "dramatic effect"
       ],
       "optionReasons": {
-        "dramatic-mcq-07": "本句指「強烈效果」。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。",
-        "dramatic-mcq-08": "「誇張的；戲劇化的」與本句語境不同。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。",
-        "dramatic-mcq-09": "「太煽情；太誇張」與本句語境不同。",
-        "dramatic-mcq-04": "「大幅增加」與本句語境不同。"
+        "dramatic-mcq-07": "本句的「dramatic effect」指「強烈效果」。",
+        "dramatic-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-07"
     },
@@ -925,10 +869,8 @@ export default {
       "options": [
         "dramatic-mcq-07",
         "dramatic-mcq-06",
-        "dramatic-mcq-08",
-        "dramatic-mcq-05",
-        "dramatic-mcq-09",
-        "dramatic-mcq-04"
+        "dramatic-mcq-19",
+        "dramatic-mcq-09"
       ],
       "explanation": "本句的「dramatic impact」指「強烈效果」。",
       "sentenceIndex": 14,
@@ -937,12 +879,10 @@ export default {
         "dramatic impact"
       ],
       "optionReasons": {
-        "dramatic-mcq-07": "本句指「強烈效果」。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。",
-        "dramatic-mcq-08": "「誇張的；戲劇化的」與本句語境不同。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。",
-        "dramatic-mcq-09": "「太煽情；太誇張」與本句語境不同。",
-        "dramatic-mcq-04": "「大幅增加」與本句語境不同。"
+        "dramatic-mcq-07": "本句的「dramatic impact」指「強烈效果」。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-07"
     },
@@ -955,10 +895,8 @@ export default {
       "options": [
         "dramatic-mcq-08",
         "dramatic-mcq-07",
-        "dramatic-mcq-09",
-        "dramatic-mcq-06",
-        "dramatic-mcq-10",
-        "dramatic-mcq-05"
+        "dramatic-mcq-04",
+        "dramatic-mcq-06"
       ],
       "explanation": "本句的「dramatic」指「誇張的；戲劇化的」。",
       "sentenceIndex": 15,
@@ -967,12 +905,10 @@ export default {
         "dramatic"
       ],
       "optionReasons": {
-        "dramatic-mcq-08": "本句指「誇張的；戲劇化的」。",
-        "dramatic-mcq-07": "「強烈效果」與本句語境不同。",
-        "dramatic-mcq-09": "「太煽情；太誇張」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。"
+        "dramatic-mcq-08": "本句的「dramatic」指「誇張的；戲劇化的」。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-08"
     },
@@ -984,10 +920,8 @@ export default {
       "masked": "Don't be so ____—it's only a small problem.",
       "options": [
         "dramatic-mcq-08",
-        "dramatic-mcq-07",
-        "dramatic-mcq-09",
         "dramatic-mcq-06",
-        "dramatic-mcq-10",
+        "dramatic-mcq-07",
         "dramatic-mcq-05"
       ],
       "explanation": "本句的「dramatic」指「誇張的；戲劇化的」。",
@@ -997,12 +931,10 @@ export default {
         "dramatic"
       ],
       "optionReasons": {
-        "dramatic-mcq-08": "本句指「誇張的；戲劇化的」。",
-        "dramatic-mcq-07": "「強烈效果」與本句語境不同。",
-        "dramatic-mcq-09": "「太煽情；太誇張」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。"
+        "dramatic-mcq-08": "本句的「dramatic」指「誇張的；戲劇化的」。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-08"
     },
@@ -1014,11 +946,9 @@ export default {
       "masked": "His reaction was far too ____.",
       "options": [
         "dramatic-mcq-08",
+        "dramatic-mcq-05",
         "dramatic-mcq-07",
-        "dramatic-mcq-09",
-        "dramatic-mcq-06",
-        "dramatic-mcq-10",
-        "dramatic-mcq-05"
+        "dramatic-mcq-06"
       ],
       "explanation": "本句的「dramatic」指「誇張的；戲劇化的」。",
       "sentenceIndex": 17,
@@ -1027,12 +957,10 @@ export default {
         "dramatic"
       ],
       "optionReasons": {
-        "dramatic-mcq-08": "本句指「誇張的；戲劇化的」。",
-        "dramatic-mcq-07": "「強烈效果」與本句語境不同。",
-        "dramatic-mcq-09": "「太煽情；太誇張」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。",
-        "dramatic-mcq-05": "「大幅下降」與本句語境不同。"
+        "dramatic-mcq-08": "本句的「dramatic」指「誇張的；戲劇化的」。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-08"
     },
@@ -1044,11 +972,9 @@ export default {
       "masked": "You're ____.",
       "options": [
         "dramatic-mcq-09",
-        "dramatic-mcq-08",
-        "dramatic-mcq-10",
-        "dramatic-mcq-07",
-        "dramatic-mcq-11",
-        "dramatic-mcq-06"
+        "dramatic-mcq-03",
+        "dramatic-mcq-14",
+        "dramatic-mcq-02"
       ],
       "explanation": "本句的「being dramatic」指「太煽情；太誇張」。",
       "sentenceIndex": 18,
@@ -1057,12 +983,10 @@ export default {
         "being dramatic"
       ],
       "optionReasons": {
-        "dramatic-mcq-09": "本句指「太煽情；太誇張」。",
-        "dramatic-mcq-08": "「誇張的；戲劇化的」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。",
-        "dramatic-mcq-07": "「強烈效果」與本句語境不同。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。"
+        "dramatic-mcq-09": "本句的「being dramatic」指「太煽情；太誇張」。",
+        "dramatic-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-09"
     },
@@ -1074,11 +998,9 @@ export default {
       "masked": "She tends to ____ when she's upset.",
       "options": [
         "dramatic-mcq-09",
-        "dramatic-mcq-08",
-        "dramatic-mcq-10",
-        "dramatic-mcq-07",
-        "dramatic-mcq-11",
-        "dramatic-mcq-06"
+        "dramatic-mcq-02",
+        "dramatic-mcq-06",
+        "dramatic-mcq-05"
       ],
       "explanation": "本句的「be dramatic」指「太煽情；太誇張」。",
       "sentenceIndex": 19,
@@ -1087,12 +1009,10 @@ export default {
         "be dramatic"
       ],
       "optionReasons": {
-        "dramatic-mcq-09": "本句指「太煽情；太誇張」。",
-        "dramatic-mcq-08": "「誇張的；戲劇化的」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。",
-        "dramatic-mcq-07": "「強烈效果」與本句語境不同。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。"
+        "dramatic-mcq-09": "本句的「be dramatic」指「太煽情；太誇張」。",
+        "dramatic-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-09"
     },
@@ -1104,11 +1024,9 @@ export default {
       "masked": "The speech felt ____.",
       "options": [
         "dramatic-mcq-09",
-        "dramatic-mcq-08",
-        "dramatic-mcq-10",
-        "dramatic-mcq-07",
-        "dramatic-mcq-11",
-        "dramatic-mcq-06"
+        "dramatic-mcq-02",
+        "dramatic-mcq-04",
+        "dramatic-mcq-03"
       ],
       "explanation": "本句的「overly dramatic」指「太煽情；太誇張」。",
       "sentenceIndex": 20,
@@ -1117,12 +1035,10 @@ export default {
         "overly dramatic"
       ],
       "optionReasons": {
-        "dramatic-mcq-09": "本句指「太煽情；太誇張」。",
-        "dramatic-mcq-08": "「誇張的；戲劇化的」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。",
-        "dramatic-mcq-07": "「強烈效果」與本句語境不同。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。"
+        "dramatic-mcq-09": "本句的「overly dramatic」指「太煽情；太誇張」。",
+        "dramatic-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-09"
     },
@@ -1134,11 +1050,9 @@ export default {
       "masked": "Keep the message warm without becoming ____.",
       "options": [
         "dramatic-mcq-09",
-        "dramatic-mcq-08",
-        "dramatic-mcq-10",
-        "dramatic-mcq-07",
+        "dramatic-mcq-14",
         "dramatic-mcq-11",
-        "dramatic-mcq-06"
+        "dramatic-mcq-03"
       ],
       "explanation": "本句的「overly dramatic」指「太煽情；太誇張」。",
       "sentenceIndex": 21,
@@ -1147,12 +1061,10 @@ export default {
         "overly dramatic"
       ],
       "optionReasons": {
-        "dramatic-mcq-09": "本句指「太煽情；太誇張」。",
-        "dramatic-mcq-08": "「誇張的；戲劇化的」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。",
-        "dramatic-mcq-07": "「強烈效果」與本句語境不同。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。",
-        "dramatic-mcq-06": "「顯著改善」與本句語境不同。"
+        "dramatic-mcq-09": "本句的「overly dramatic」指「太煽情；太誇張」。",
+        "dramatic-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-09"
     },
@@ -1164,11 +1076,9 @@ export default {
       "masked": "She had a ____ to the news.",
       "options": [
         "dramatic-mcq-10",
-        "dramatic-mcq-09",
-        "dramatic-mcq-11",
-        "dramatic-mcq-08",
         "dramatic-mcq-12",
-        "dramatic-mcq-07"
+        "dramatic-mcq-04",
+        "dramatic-mcq-06"
       ],
       "explanation": "本句的「dramatic reaction」指「強烈／誇張反應」。",
       "sentenceIndex": 22,
@@ -1177,12 +1087,10 @@ export default {
         "dramatic reaction"
       ],
       "optionReasons": {
-        "dramatic-mcq-10": "本句指「強烈／誇張反應」。",
-        "dramatic-mcq-09": "「太煽情；太誇張」與本句語境不同。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。",
-        "dramatic-mcq-08": "「誇張的；戲劇化的」與本句語境不同。",
-        "dramatic-mcq-12": "「戲劇化語氣」與本句語境不同。",
-        "dramatic-mcq-07": "「強烈效果」與本句語境不同。"
+        "dramatic-mcq-10": "本句的「dramatic reaction」指「強烈／誇張反應」。",
+        "dramatic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-10"
     },
@@ -1194,11 +1102,9 @@ export default {
       "masked": "His ____ made everyone stare.",
       "options": [
         "dramatic-mcq-10",
-        "dramatic-mcq-09",
-        "dramatic-mcq-11",
-        "dramatic-mcq-08",
-        "dramatic-mcq-12",
-        "dramatic-mcq-07"
+        "dramatic-mcq-20",
+        "dramatic-mcq-05",
+        "dramatic-mcq-06"
       ],
       "explanation": "本句的「dramatic reaction」指「強烈／誇張反應」。",
       "sentenceIndex": 23,
@@ -1207,12 +1113,10 @@ export default {
         "dramatic reaction"
       ],
       "optionReasons": {
-        "dramatic-mcq-10": "本句指「強烈／誇張反應」。",
-        "dramatic-mcq-09": "「太煽情；太誇張」與本句語境不同。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。",
-        "dramatic-mcq-08": "「誇張的；戲劇化的」與本句語境不同。",
-        "dramatic-mcq-12": "「戲劇化語氣」與本句語境不同。",
-        "dramatic-mcq-07": "「強烈效果」與本句語境不同。"
+        "dramatic-mcq-10": "本句的「dramatic reaction」指「強烈／誇張反應」。",
+        "dramatic-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-10"
     },
@@ -1224,11 +1128,9 @@ export default {
       "masked": "He took a ____ before announcing the result.",
       "options": [
         "dramatic-mcq-11",
-        "dramatic-mcq-10",
-        "dramatic-mcq-12",
-        "dramatic-mcq-09",
-        "dramatic-mcq-13",
-        "dramatic-mcq-08"
+        "dramatic-mcq-14",
+        "dramatic-mcq-07",
+        "dramatic-mcq-09"
       ],
       "explanation": "本句的「dramatic pause」指「戲劇性停頓」。",
       "sentenceIndex": 24,
@@ -1237,12 +1139,10 @@ export default {
         "dramatic pause"
       ],
       "optionReasons": {
-        "dramatic-mcq-11": "本句指「戲劇性停頓」。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。",
-        "dramatic-mcq-12": "「戲劇化語氣」與本句語境不同。",
-        "dramatic-mcq-09": "「太煽情；太誇張」與本句語境不同。",
-        "dramatic-mcq-13": "「戲劇性登場」與本句語境不同。",
-        "dramatic-mcq-08": "「誇張的；戲劇化的」與本句語境不同。"
+        "dramatic-mcq-11": "本句的「dramatic pause」指「戲劇性停頓」。",
+        "dramatic-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-11"
     },
@@ -1254,11 +1154,9 @@ export default {
       "masked": "She paused ____ before answering.",
       "options": [
         "dramatic-mcq-11",
-        "dramatic-mcq-10",
-        "dramatic-mcq-12",
+        "dramatic-mcq-14",
         "dramatic-mcq-09",
-        "dramatic-mcq-13",
-        "dramatic-mcq-08"
+        "dramatic-mcq-07"
       ],
       "explanation": "本句的「dramatically」指「戲劇性停頓」。",
       "sentenceIndex": 25,
@@ -1267,12 +1165,10 @@ export default {
         "dramatically"
       ],
       "optionReasons": {
-        "dramatic-mcq-11": "本句指「戲劇性停頓」。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。",
-        "dramatic-mcq-12": "「戲劇化語氣」與本句語境不同。",
-        "dramatic-mcq-09": "「太煽情；太誇張」與本句語境不同。",
-        "dramatic-mcq-13": "「戲劇性登場」與本句語境不同。",
-        "dramatic-mcq-08": "「誇張的；戲劇化的」與本句語境不同。"
+        "dramatic-mcq-11": "本句的「dramatically」指「戲劇性停頓」。",
+        "dramatic-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-11"
     },
@@ -1284,11 +1180,9 @@ export default {
       "masked": "He read the letter in a ____.",
       "options": [
         "dramatic-mcq-12",
-        "dramatic-mcq-11",
-        "dramatic-mcq-13",
-        "dramatic-mcq-10",
-        "dramatic-mcq-14",
-        "dramatic-mcq-09"
+        "dramatic-mcq-07",
+        "dramatic-mcq-09",
+        "dramatic-mcq-05"
       ],
       "explanation": "本句的「dramatic voice」指「戲劇化語氣」。",
       "sentenceIndex": 26,
@@ -1297,12 +1191,10 @@ export default {
         "dramatic voice"
       ],
       "optionReasons": {
-        "dramatic-mcq-12": "本句指「戲劇化語氣」。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。",
-        "dramatic-mcq-13": "「戲劇性登場」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-09": "「太煽情；太誇張」與本句語境不同。"
+        "dramatic-mcq-12": "本句的「dramatic voice」指「戲劇化語氣」。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-12"
     },
@@ -1314,11 +1206,9 @@ export default {
       "masked": "She used a ____ to make the story sound exciting.",
       "options": [
         "dramatic-mcq-12",
-        "dramatic-mcq-11",
-        "dramatic-mcq-13",
         "dramatic-mcq-10",
-        "dramatic-mcq-14",
-        "dramatic-mcq-09"
+        "dramatic-mcq-04",
+        "dramatic-mcq-06"
       ],
       "explanation": "本句的「dramatic tone」指「戲劇化語氣」。",
       "sentenceIndex": 27,
@@ -1327,12 +1217,10 @@ export default {
         "dramatic tone"
       ],
       "optionReasons": {
-        "dramatic-mcq-12": "本句指「戲劇化語氣」。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。",
-        "dramatic-mcq-13": "「戲劇性登場」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-09": "「太煽情；太誇張」與本句語境不同。"
+        "dramatic-mcq-12": "本句的「dramatic tone」指「戲劇化語氣」。",
+        "dramatic-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-12"
     },
@@ -1344,11 +1232,9 @@ export default {
       "masked": "He made a ____.",
       "options": [
         "dramatic-mcq-13",
-        "dramatic-mcq-12",
-        "dramatic-mcq-14",
-        "dramatic-mcq-11",
-        "dramatic-mcq-15",
-        "dramatic-mcq-10"
+        "dramatic-mcq-09",
+        "dramatic-mcq-04",
+        "dramatic-mcq-07"
       ],
       "explanation": "本句的「dramatic entrance」指「戲劇性登場」。",
       "sentenceIndex": 28,
@@ -1357,12 +1243,10 @@ export default {
         "dramatic entrance"
       ],
       "optionReasons": {
-        "dramatic-mcq-13": "本句指「戲劇性登場」。",
-        "dramatic-mcq-12": "「戲劇化語氣」與本句語境不同。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。"
+        "dramatic-mcq-13": "本句的「dramatic entrance」指「戲劇性登場」。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-13"
     },
@@ -1374,11 +1258,9 @@ export default {
       "masked": "She arrived late and made a ____.",
       "options": [
         "dramatic-mcq-13",
-        "dramatic-mcq-12",
+        "dramatic-mcq-10",
         "dramatic-mcq-14",
-        "dramatic-mcq-11",
-        "dramatic-mcq-15",
-        "dramatic-mcq-10"
+        "dramatic-mcq-03"
       ],
       "explanation": "本句的「dramatic entrance」指「戲劇性登場」。",
       "sentenceIndex": 29,
@@ -1387,12 +1269,10 @@ export default {
         "dramatic entrance"
       ],
       "optionReasons": {
-        "dramatic-mcq-13": "本句指「戲劇性登場」。",
-        "dramatic-mcq-12": "「戲劇化語氣」與本句語境不同。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。"
+        "dramatic-mcq-13": "本句的「dramatic entrance」指「戲劇性登場」。",
+        "dramatic-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-13"
     },
@@ -1404,11 +1284,9 @@ export default {
       "masked": "She studied ____ at university.",
       "options": [
         "dramatic-mcq-13",
-        "dramatic-mcq-12",
         "dramatic-mcq-14",
-        "dramatic-mcq-11",
-        "dramatic-mcq-15",
-        "dramatic-mcq-10"
+        "dramatic-mcq-09",
+        "dramatic-mcq-07"
       ],
       "explanation": "本句的「dramatic arts」指「戲劇性登場」。",
       "sentenceIndex": 30,
@@ -1417,12 +1295,10 @@ export default {
         "dramatic arts"
       ],
       "optionReasons": {
-        "dramatic-mcq-13": "本句指「戲劇性登場」。",
-        "dramatic-mcq-12": "「戲劇化語氣」與本句語境不同。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。"
+        "dramatic-mcq-13": "本句的「dramatic arts」指「戲劇性登場」。",
+        "dramatic-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-13"
     },
@@ -1434,11 +1310,9 @@ export default {
       "masked": "The school has a strong ____ programme.",
       "options": [
         "dramatic-mcq-13",
-        "dramatic-mcq-12",
-        "dramatic-mcq-14",
-        "dramatic-mcq-11",
-        "dramatic-mcq-15",
-        "dramatic-mcq-10"
+        "dramatic-mcq-05",
+        "dramatic-mcq-06",
+        "dramatic-mcq-07"
       ],
       "explanation": "本句的「dramatic arts」指「戲劇性登場」。",
       "sentenceIndex": 31,
@@ -1447,12 +1321,10 @@ export default {
         "dramatic arts"
       ],
       "optionReasons": {
-        "dramatic-mcq-13": "本句指「戲劇性登場」。",
-        "dramatic-mcq-12": "「戲劇化語氣」與本句語境不同。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。"
+        "dramatic-mcq-13": "本句的「dramatic arts」指「戲劇性登場」。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-13"
     },
@@ -1464,11 +1336,9 @@ export default {
       "masked": "The actor gave a powerful ____.",
       "options": [
         "dramatic-mcq-13",
-        "dramatic-mcq-12",
         "dramatic-mcq-14",
-        "dramatic-mcq-11",
-        "dramatic-mcq-15",
-        "dramatic-mcq-10"
+        "dramatic-mcq-07",
+        "dramatic-mcq-09"
       ],
       "explanation": "本句的「dramatic performance」指「戲劇性登場」。",
       "sentenceIndex": 32,
@@ -1477,12 +1347,10 @@ export default {
         "dramatic performance"
       ],
       "optionReasons": {
-        "dramatic-mcq-13": "本句指「戲劇性登場」。",
-        "dramatic-mcq-12": "「戲劇化語氣」與本句語境不同。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。"
+        "dramatic-mcq-13": "本句的「dramatic performance」指「戲劇性登場」。",
+        "dramatic-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-13"
     },
@@ -1494,11 +1362,9 @@ export default {
       "masked": "Students prepared a short ____.",
       "options": [
         "dramatic-mcq-13",
-        "dramatic-mcq-12",
-        "dramatic-mcq-14",
-        "dramatic-mcq-11",
-        "dramatic-mcq-15",
-        "dramatic-mcq-10"
+        "dramatic-mcq-04",
+        "dramatic-mcq-06",
+        "dramatic-mcq-07"
       ],
       "explanation": "本句的「dramatic performance」指「戲劇性登場」。",
       "sentenceIndex": 33,
@@ -1507,12 +1373,10 @@ export default {
         "dramatic performance"
       ],
       "optionReasons": {
-        "dramatic-mcq-13": "本句指「戲劇性登場」。",
-        "dramatic-mcq-12": "「戲劇化語氣」與本句語境不同。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。",
-        "dramatic-mcq-10": "「強烈／誇張反應」與本句語境不同。"
+        "dramatic-mcq-13": "本句的「dramatic performance」指「戲劇性登場」。",
+        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-13"
     },
@@ -1524,11 +1388,9 @@ export default {
       "masked": "Prices rose ____.",
       "options": [
         "dramatic-mcq-14",
-        "dramatic-mcq-13",
-        "dramatic-mcq-15",
-        "dramatic-mcq-12",
-        "dramatic-mcq-16",
-        "dramatic-mcq-11"
+        "dramatic-mcq-18",
+        "dramatic-mcq-09",
+        "dramatic-mcq-07"
       ],
       "explanation": "本句的「dramatically」指「大幅地；顯著地」。",
       "sentenceIndex": 34,
@@ -1537,12 +1399,10 @@ export default {
         "dramatically"
       ],
       "optionReasons": {
-        "dramatic-mcq-14": "本句指「大幅地；顯著地」。",
-        "dramatic-mcq-13": "「戲劇性登場」與本句語境不同。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。",
-        "dramatic-mcq-12": "「戲劇化語氣」與本句語境不同。",
-        "dramatic-mcq-16": "「戲劇；劇集」與本句語境不同。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。"
+        "dramatic-mcq-14": "本句的「dramatically」指「大幅地；顯著地」。",
+        "dramatic-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-14"
     },
@@ -1554,11 +1414,9 @@ export default {
       "masked": "The situation improved ____.",
       "options": [
         "dramatic-mcq-14",
-        "dramatic-mcq-13",
-        "dramatic-mcq-15",
-        "dramatic-mcq-12",
-        "dramatic-mcq-16",
-        "dramatic-mcq-11"
+        "dramatic-mcq-02",
+        "dramatic-mcq-09",
+        "dramatic-mcq-07"
       ],
       "explanation": "本句的「dramatically」指「大幅地；顯著地」。",
       "sentenceIndex": 35,
@@ -1567,12 +1425,10 @@ export default {
         "dramatically"
       ],
       "optionReasons": {
-        "dramatic-mcq-14": "本句指「大幅地；顯著地」。",
-        "dramatic-mcq-13": "「戲劇性登場」與本句語境不同。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。",
-        "dramatic-mcq-12": "「戲劇化語氣」與本句語境不同。",
-        "dramatic-mcq-16": "「戲劇；劇集」與本句語境不同。",
-        "dramatic-mcq-11": "「戲劇性停頓」與本句語境不同。"
+        "dramatic-mcq-14": "本句的「dramatically」指「大幅地；顯著地」。",
+        "dramatic-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-14"
     },
@@ -1584,11 +1440,9 @@ export default {
       "masked": "She sighed ____.",
       "options": [
         "dramatic-mcq-15",
-        "dramatic-mcq-14",
-        "dramatic-mcq-16",
-        "dramatic-mcq-13",
-        "dramatic-mcq-17",
-        "dramatic-mcq-12"
+        "dramatic-mcq-06",
+        "dramatic-mcq-05",
+        "dramatic-mcq-07"
       ],
       "explanation": "本句的「dramatically」指「誇張地；戲劇性地」。",
       "sentenceIndex": 36,
@@ -1597,12 +1451,10 @@ export default {
         "dramatically"
       ],
       "optionReasons": {
-        "dramatic-mcq-15": "本句指「誇張地；戲劇性地」。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-16": "「戲劇；劇集」與本句語境不同。",
-        "dramatic-mcq-13": "「戲劇性登場」與本句語境不同。",
-        "dramatic-mcq-17": "「風波；是非」與本句語境不同。",
-        "dramatic-mcq-12": "「戲劇化語氣」與本句語境不同。"
+        "dramatic-mcq-15": "本句的「dramatically」指「誇張地；戲劇性地」。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-15"
     },
@@ -1614,11 +1466,9 @@ export default {
       "masked": "He threw his hands up ____.",
       "options": [
         "dramatic-mcq-15",
-        "dramatic-mcq-14",
-        "dramatic-mcq-16",
-        "dramatic-mcq-13",
-        "dramatic-mcq-17",
-        "dramatic-mcq-12"
+        "dramatic-mcq-07",
+        "dramatic-mcq-06",
+        "dramatic-mcq-05"
       ],
       "explanation": "本句的「dramatically」指「誇張地；戲劇性地」。",
       "sentenceIndex": 37,
@@ -1627,12 +1477,10 @@ export default {
         "dramatically"
       ],
       "optionReasons": {
-        "dramatic-mcq-15": "本句指「誇張地；戲劇性地」。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-16": "「戲劇；劇集」與本句語境不同。",
-        "dramatic-mcq-13": "「戲劇性登場」與本句語境不同。",
-        "dramatic-mcq-17": "「風波；是非」與本句語境不同。",
-        "dramatic-mcq-12": "「戲劇化語氣」與本句語境不同。"
+        "dramatic-mcq-15": "本句的「dramatically」指「誇張地；戲劇性地」。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-15"
     },
@@ -1644,11 +1492,9 @@ export default {
       "masked": "She studied ____ at school.",
       "options": [
         "dramatic-mcq-16",
-        "dramatic-mcq-15",
-        "dramatic-mcq-17",
         "dramatic-mcq-14",
-        "dramatic-mcq-18",
-        "dramatic-mcq-13"
+        "dramatic-mcq-07",
+        "dramatic-mcq-09"
       ],
       "explanation": "本句的「drama」指「戲劇；劇集」。",
       "sentenceIndex": 38,
@@ -1657,12 +1503,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "dramatic-mcq-16": "本句指「戲劇；劇集」。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。",
-        "dramatic-mcq-17": "「風波；是非」與本句語境不同。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-18": "「改編成戲劇」與本句語境不同。",
-        "dramatic-mcq-13": "「戲劇性登場」與本句語境不同。"
+        "dramatic-mcq-16": "本句的「drama」指「戲劇；劇集」。",
+        "dramatic-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-16"
     },
@@ -1674,11 +1518,9 @@ export default {
       "masked": "We watched a historical ____.",
       "options": [
         "dramatic-mcq-16",
-        "dramatic-mcq-15",
-        "dramatic-mcq-17",
-        "dramatic-mcq-14",
-        "dramatic-mcq-18",
-        "dramatic-mcq-13"
+        "dramatic-mcq-05",
+        "dramatic-mcq-09",
+        "dramatic-mcq-06"
       ],
       "explanation": "本句的「drama」指「戲劇；劇集」。",
       "sentenceIndex": 39,
@@ -1687,12 +1529,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "dramatic-mcq-16": "本句指「戲劇；劇集」。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。",
-        "dramatic-mcq-17": "「風波；是非」與本句語境不同。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-18": "「改編成戲劇」與本句語境不同。",
-        "dramatic-mcq-13": "「戲劇性登場」與本句語境不同。"
+        "dramatic-mcq-16": "本句的「drama」指「戲劇；劇集」。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-16"
     },
@@ -1704,11 +1544,9 @@ export default {
       "masked": "I don't want any ____.",
       "options": [
         "dramatic-mcq-16",
-        "dramatic-mcq-15",
-        "dramatic-mcq-17",
-        "dramatic-mcq-14",
-        "dramatic-mcq-18",
-        "dramatic-mcq-13"
+        "dramatic-mcq-07",
+        "dramatic-mcq-05",
+        "dramatic-mcq-09"
       ],
       "explanation": "本句的「drama」指「戲劇；劇集」。",
       "sentenceIndex": 40,
@@ -1717,12 +1555,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "dramatic-mcq-16": "本句指「戲劇；劇集」。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。",
-        "dramatic-mcq-17": "「風波；是非」與本句語境不同。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-18": "「改編成戲劇」與本句語境不同。",
-        "dramatic-mcq-13": "「戲劇性登場」與本句語境不同。"
+        "dramatic-mcq-16": "本句的「drama」指「戲劇；劇集」。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-16"
     },
@@ -1734,11 +1570,9 @@ export default {
       "masked": "There was a lot of ____ in the group last week.",
       "options": [
         "dramatic-mcq-16",
-        "dramatic-mcq-15",
-        "dramatic-mcq-17",
-        "dramatic-mcq-14",
-        "dramatic-mcq-18",
-        "dramatic-mcq-13"
+        "dramatic-mcq-09",
+        "dramatic-mcq-06",
+        "dramatic-mcq-07"
       ],
       "explanation": "本句的「drama」指「戲劇；劇集」。",
       "sentenceIndex": 41,
@@ -1747,12 +1581,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "dramatic-mcq-16": "本句指「戲劇；劇集」。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。",
-        "dramatic-mcq-17": "「風波；是非」與本句語境不同。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-18": "「改編成戲劇」與本句語境不同。",
-        "dramatic-mcq-13": "「戲劇性登場」與本句語境不同。"
+        "dramatic-mcq-16": "本句的「drama」指「戲劇；劇集」。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-16"
     },
@@ -1764,11 +1596,9 @@ export default {
       "masked": "Thanks for helping.” “____.",
       "options": [
         "dramatic-mcq-16",
-        "dramatic-mcq-15",
-        "dramatic-mcq-17",
-        "dramatic-mcq-14",
-        "dramatic-mcq-18",
-        "dramatic-mcq-13"
+        "dramatic-mcq-05",
+        "dramatic-mcq-09",
+        "dramatic-mcq-07"
       ],
       "explanation": "本句的「No drama」指「戲劇；劇集」。",
       "sentenceIndex": 42,
@@ -1777,12 +1607,10 @@ export default {
         "No drama"
       ],
       "optionReasons": {
-        "dramatic-mcq-16": "本句指「戲劇；劇集」。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。",
-        "dramatic-mcq-17": "「風波；是非」與本句語境不同。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-18": "「改編成戲劇」與本句語境不同。",
-        "dramatic-mcq-13": "「戲劇性登場」與本句語境不同。"
+        "dramatic-mcq-16": "本句的「No drama」指「戲劇；劇集」。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-16"
     },
@@ -1794,11 +1622,8 @@ export default {
       "masked": "It's ____ if you're a few minutes late.",
       "options": [
         "dramatic-mcq-16",
-        "dramatic-mcq-15",
-        "dramatic-mcq-17",
-        "dramatic-mcq-14",
-        "dramatic-mcq-18",
-        "dramatic-mcq-13"
+        "dramatic-mcq-10",
+        "dramatic-mcq-14"
       ],
       "explanation": "本句的「no drama」指「戲劇；劇集」。",
       "sentenceIndex": 43,
@@ -1807,12 +1632,9 @@ export default {
         "no drama"
       ],
       "optionReasons": {
-        "dramatic-mcq-16": "本句指「戲劇；劇集」。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。",
-        "dramatic-mcq-17": "「風波；是非」與本句語境不同。",
-        "dramatic-mcq-14": "「大幅地；顯著地」與本句語境不同。",
-        "dramatic-mcq-18": "「改編成戲劇」與本句語境不同。",
-        "dramatic-mcq-13": "「戲劇性登場」與本句語境不同。"
+        "dramatic-mcq-16": "本句的「no drama」指「戲劇；劇集」。",
+        "dramatic-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-16"
     },
@@ -1824,11 +1646,9 @@ export default {
       "masked": "The novel was ____ for television.",
       "options": [
         "dramatic-mcq-18",
-        "dramatic-mcq-17",
-        "dramatic-mcq-19",
-        "dramatic-mcq-16",
-        "dramatic-mcq-20",
-        "dramatic-mcq-15"
+        "dramatic-mcq-04",
+        "dramatic-mcq-10",
+        "dramatic-mcq-06"
       ],
       "explanation": "本句的「dramatized」指「改編成戲劇」。",
       "sentenceIndex": 44,
@@ -1837,12 +1657,10 @@ export default {
         "dramatized"
       ],
       "optionReasons": {
-        "dramatic-mcq-18": "本句指「改編成戲劇」。",
-        "dramatic-mcq-17": "「風波；是非」與本句語境不同。",
-        "dramatic-mcq-19": "「誇大；戲劇化」與本句語境不同。",
-        "dramatic-mcq-16": "「戲劇；劇集」與本句語境不同。",
-        "dramatic-mcq-20": "「戲劇化改編」與本句語境不同。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。"
+        "dramatic-mcq-18": "本句的「dramatized」指「改編成戲劇」。",
+        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-18"
     },
@@ -1854,11 +1672,9 @@ export default {
       "masked": "The documentary ____ several historical events.",
       "options": [
         "dramatic-mcq-18",
-        "dramatic-mcq-17",
-        "dramatic-mcq-19",
-        "dramatic-mcq-16",
-        "dramatic-mcq-20",
-        "dramatic-mcq-15"
+        "dramatic-mcq-09",
+        "dramatic-mcq-05",
+        "dramatic-mcq-07"
       ],
       "explanation": "本句的「dramatizes」指「改編成戲劇」。",
       "sentenceIndex": 45,
@@ -1867,12 +1683,10 @@ export default {
         "dramatizes"
       ],
       "optionReasons": {
-        "dramatic-mcq-18": "本句指「改編成戲劇」。",
-        "dramatic-mcq-17": "「風波；是非」與本句語境不同。",
-        "dramatic-mcq-19": "「誇大；戲劇化」與本句語境不同。",
-        "dramatic-mcq-16": "「戲劇；劇集」與本句語境不同。",
-        "dramatic-mcq-20": "「戲劇化改編」與本句語境不同。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。"
+        "dramatic-mcq-18": "本句的「dramatizes」指「改編成戲劇」。",
+        "dramatic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-18"
     },
@@ -1884,11 +1698,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "dramatic-mcq-19",
-        "dramatic-mcq-18",
-        "dramatic-mcq-20",
-        "dramatic-mcq-17",
-        "dramatic-mcq-16",
-        "dramatic-mcq-15"
+        "dramatic-mcq-06",
+        "dramatic-mcq-07",
+        "dramatic-mcq-04"
       ],
       "explanation": "本句的「dramatize the situation」指「誇大；戲劇化」。",
       "sentenceIndex": 46,
@@ -1897,12 +1709,10 @@ export default {
         "dramatize the situation"
       ],
       "optionReasons": {
-        "dramatic-mcq-19": "本句指「誇大；戲劇化」。",
-        "dramatic-mcq-18": "「改編成戲劇」與本句語境不同。",
-        "dramatic-mcq-20": "「戲劇化改編」與本句語境不同。",
-        "dramatic-mcq-17": "「風波；是非」與本句語境不同。",
-        "dramatic-mcq-16": "「戲劇；劇集」與本句語境不同。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。"
+        "dramatic-mcq-19": "本句的「dramatize the situation」指「誇大；戲劇化」。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-19"
     },
@@ -1914,11 +1724,9 @@ export default {
       "masked": "He tends to ____.",
       "options": [
         "dramatic-mcq-19",
-        "dramatic-mcq-18",
-        "dramatic-mcq-20",
-        "dramatic-mcq-17",
-        "dramatic-mcq-16",
-        "dramatic-mcq-15"
+        "dramatic-mcq-06",
+        "dramatic-mcq-07",
+        "dramatic-mcq-04"
       ],
       "explanation": "本句的「dramatize small problems」指「誇大；戲劇化」。",
       "sentenceIndex": 47,
@@ -1927,12 +1735,10 @@ export default {
         "dramatize small problems"
       ],
       "optionReasons": {
-        "dramatic-mcq-19": "本句指「誇大；戲劇化」。",
-        "dramatic-mcq-18": "「改編成戲劇」與本句語境不同。",
-        "dramatic-mcq-20": "「戲劇化改編」與本句語境不同。",
-        "dramatic-mcq-17": "「風波；是非」與本句語境不同。",
-        "dramatic-mcq-16": "「戲劇；劇集」與本句語境不同。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。"
+        "dramatic-mcq-19": "本句的「dramatize small problems」指「誇大；戲劇化」。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-19"
     },
@@ -1944,11 +1750,9 @@ export default {
       "masked": "The film is a ____ of real events.",
       "options": [
         "dramatic-mcq-20",
-        "dramatic-mcq-19",
-        "dramatic-mcq-18",
-        "dramatic-mcq-17",
-        "dramatic-mcq-16",
-        "dramatic-mcq-15"
+        "dramatic-mcq-05",
+        "dramatic-mcq-10",
+        "dramatic-mcq-06"
       ],
       "explanation": "本句的「dramatization」指「戲劇化改編」。",
       "sentenceIndex": 48,
@@ -1957,12 +1761,10 @@ export default {
         "dramatization"
       ],
       "optionReasons": {
-        "dramatic-mcq-20": "本句指「戲劇化改編」。",
-        "dramatic-mcq-19": "「誇大；戲劇化」與本句語境不同。",
-        "dramatic-mcq-18": "「改編成戲劇」與本句語境不同。",
-        "dramatic-mcq-17": "「風波；是非」與本句語境不同。",
-        "dramatic-mcq-16": "「戲劇；劇集」與本句語境不同。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。"
+        "dramatic-mcq-20": "本句的「dramatization」指「戲劇化改編」。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-20"
     },
@@ -1974,11 +1776,9 @@ export default {
       "masked": "Some scenes were added for ____.",
       "options": [
         "dramatic-mcq-20",
-        "dramatic-mcq-19",
-        "dramatic-mcq-18",
-        "dramatic-mcq-17",
-        "dramatic-mcq-16",
-        "dramatic-mcq-15"
+        "dramatic-mcq-05",
+        "dramatic-mcq-10",
+        "dramatic-mcq-06"
       ],
       "explanation": "本句的「dramatisation」指「戲劇化改編」。",
       "sentenceIndex": 49,
@@ -1987,12 +1787,10 @@ export default {
         "dramatisation"
       ],
       "optionReasons": {
-        "dramatic-mcq-20": "本句指「戲劇化改編」。",
-        "dramatic-mcq-19": "「誇大；戲劇化」與本句語境不同。",
-        "dramatic-mcq-18": "「改編成戲劇」與本句語境不同。",
-        "dramatic-mcq-17": "「風波；是非」與本句語境不同。",
-        "dramatic-mcq-16": "「戲劇；劇集」與本句語境不同。",
-        "dramatic-mcq-15": "「誇張地；戲劇性地」與本句語境不同。"
+        "dramatic-mcq-20": "本句的「dramatisation」指「戲劇化改編」。",
+        "dramatic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dramatic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dramatic-mcq-20"
     }
@@ -2004,5 +1802,7 @@ export default {
     "sha256": "19b1ade68562693dba4ec8eebb5f70a25986e7dda6ce838550f5ea4f4f74f903",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

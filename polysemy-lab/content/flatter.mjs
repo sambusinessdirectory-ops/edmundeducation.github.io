@@ -107,16 +107,6 @@ export default {
           "She was flattered to hear that people admired her work.",
           "聽到大家欣賞她的作品，她感到很受肯定。",
           "因別人的讚賞、重視、邀請或關注而感到受寵若驚"
-        ],
-        [
-          "He was flattered into agreeing.",
-          "他因受到奉承而被哄得同意了。",
-          "因別人的讚賞、重視、邀請或關注而感到受寵若驚"
-        ],
-        [
-          "She was flattered into taking on more work.",
-          "她因別人的恭維而被哄得接下更多工作。",
-          "因別人的讚賞、重視、邀請或關注而感到受寵若驚"
         ]
       ],
       "options": [],
@@ -402,6 +392,28 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "flatter-reviewed-d124a77c57",
+      "title": "因受奉承而被哄去做某事",
+      "form": "flatter · source section 38",
+      "en": "因受奉承而被哄去做某事",
+      "zh": "因受奉承而被哄去做某事",
+      "note": "對照原始教材第 38 節及例句核實。",
+      "examples": [
+        [
+          "He was flattered into agreeing.",
+          "他因受到奉承而被哄得同意了。",
+          "因受奉承而被哄去做某事"
+        ],
+        [
+          "She was flattered into taking on more work.",
+          "她因別人的恭維而被哄得接下更多工作。",
+          "因受奉承而被哄去做某事"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -413,11 +425,8 @@ export default {
       "masked": "He ____ her by praising her presentation.",
       "options": [
         "flatter-mcq-01",
-        "flatter-mcq-02",
-        "flatter-mcq-03",
-        "flatter-mcq-04",
-        "flatter-mcq-05",
-        "flatter-mcq-06"
+        "flatter-reviewed-d124a77c57",
+        "flatter-mcq-16"
       ],
       "explanation": "本句的「flattered」指「用讚美／恭維令某人感到高興或受到重視」。",
       "sentenceIndex": 0,
@@ -426,12 +435,9 @@ export default {
         "flattered"
       ],
       "optionReasons": {
-        "flatter-mcq-01": "本句指「用讚美／恭維令某人感到高興或受到重視」。",
-        "flatter-mcq-02": "「為討好或獲取好處而給某人過度／不真誠的讚美」與本句語境不同。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。",
-        "flatter-mcq-04": "「因別人的讚賞、重視、邀請或關注而感到受寵若驚」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。"
+        "flatter-mcq-01": "本句的「flattered」指「用讚美／恭維令某人感到高興或受到重視」。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-01"
     },
@@ -443,11 +449,8 @@ export default {
       "masked": "She knew he was trying to ____ her.",
       "options": [
         "flatter-mcq-01",
-        "flatter-mcq-02",
-        "flatter-mcq-03",
-        "flatter-mcq-04",
-        "flatter-mcq-05",
-        "flatter-mcq-06"
+        "flatter-mcq-15",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flatter」指「用讚美／恭維令某人感到高興或受到重視」。",
       "sentenceIndex": 1,
@@ -456,12 +459,9 @@ export default {
         "flatter"
       ],
       "optionReasons": {
-        "flatter-mcq-01": "本句指「用讚美／恭維令某人感到高興或受到重視」。",
-        "flatter-mcq-02": "「為討好或獲取好處而給某人過度／不真誠的讚美」與本句語境不同。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。",
-        "flatter-mcq-04": "「因別人的讚賞、重視、邀請或關注而感到受寵若驚」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。"
+        "flatter-mcq-01": "本句的「flatter」指「用讚美／恭維令某人感到高興或受到重視」。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-01"
     },
@@ -473,10 +473,8 @@ export default {
       "masked": "He ____ the manager to get what he wanted.",
       "options": [
         "flatter-mcq-02",
-        "flatter-mcq-01",
-        "flatter-mcq-03",
-        "flatter-mcq-04",
-        "flatter-mcq-05",
+        "flatter-mcq-15",
+        "flatter-reviewed-d124a77c57",
         "flatter-mcq-06"
       ],
       "explanation": "本句的「flattered」指「為討好或獲取好處而給某人過度／不真誠的讚美」。",
@@ -486,12 +484,10 @@ export default {
         "flattered"
       ],
       "optionReasons": {
-        "flatter-mcq-02": "本句指「為討好或獲取好處而給某人過度／不真誠的讚美」。",
-        "flatter-mcq-01": "「用讚美／恭維令某人感到高興或受到重視」與本句語境不同。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。",
-        "flatter-mcq-04": "「因別人的讚賞、重視、邀請或關注而感到受寵若驚」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。"
+        "flatter-mcq-02": "本句的「flattered」指「為討好或獲取好處而給某人過度／不真誠的讚美」。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-02"
     },
@@ -503,10 +499,8 @@ export default {
       "masked": "Don’t ____ me just because you need a favour.",
       "options": [
         "flatter-mcq-02",
-        "flatter-mcq-01",
-        "flatter-mcq-03",
-        "flatter-mcq-04",
-        "flatter-mcq-05",
+        "flatter-mcq-15",
+        "flatter-reviewed-d124a77c57",
         "flatter-mcq-06"
       ],
       "explanation": "本句的「flatter」指「為討好或獲取好處而給某人過度／不真誠的讚美」。",
@@ -516,12 +510,10 @@ export default {
         "flatter"
       ],
       "optionReasons": {
-        "flatter-mcq-02": "本句指「為討好或獲取好處而給某人過度／不真誠的讚美」。",
-        "flatter-mcq-01": "「用讚美／恭維令某人感到高興或受到重視」與本句語境不同。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。",
-        "flatter-mcq-04": "「因別人的讚賞、重視、邀請或關注而感到受寵若驚」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。"
+        "flatter-mcq-02": "本句的「flatter」指「為討好或獲取好處而給某人過度／不真誠的讚美」。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-02"
     },
@@ -533,11 +525,9 @@ export default {
       "masked": "I was ____ by the compliment.",
       "options": [
         "flatter-mcq-04",
-        "flatter-mcq-03",
-        "flatter-mcq-05",
-        "flatter-mcq-02",
-        "flatter-mcq-06",
-        "flatter-mcq-01"
+        "flatter-mcq-15",
+        "flatter-mcq-07",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flattered」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
       "sentenceIndex": 8,
@@ -546,12 +536,10 @@ export default {
         "flattered"
       ],
       "optionReasons": {
-        "flatter-mcq-04": "本句指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-02": "「為討好或獲取好處而給某人過度／不真誠的讚美」與本句語境不同。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。",
-        "flatter-mcq-01": "「用讚美／恭維令某人感到高興或受到重視」與本句語境不同。"
+        "flatter-mcq-04": "本句的「flattered」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-04"
     },
@@ -563,11 +551,9 @@ export default {
       "masked": "She was ____ that they had asked for her advice.",
       "options": [
         "flatter-mcq-04",
-        "flatter-mcq-03",
-        "flatter-mcq-05",
-        "flatter-mcq-02",
-        "flatter-mcq-06",
-        "flatter-mcq-01"
+        "flatter-mcq-15",
+        "flatter-mcq-07",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flattered」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
       "sentenceIndex": 9,
@@ -576,12 +562,10 @@ export default {
         "flattered"
       ],
       "optionReasons": {
-        "flatter-mcq-04": "本句指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-02": "「為討好或獲取好處而給某人過度／不真誠的讚美」與本句語境不同。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。",
-        "flatter-mcq-01": "「用讚美／恭維令某人感到高興或受到重視」與本句語境不同。"
+        "flatter-mcq-04": "本句的「flattered」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-04"
     },
@@ -593,11 +577,9 @@ export default {
       "masked": "He was ____ the attention.",
       "options": [
         "flatter-mcq-04",
-        "flatter-mcq-03",
-        "flatter-mcq-05",
-        "flatter-mcq-02",
-        "flatter-mcq-06",
-        "flatter-mcq-01"
+        "flatter-mcq-15",
+        "flatter-mcq-07",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flattered by」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
       "sentenceIndex": 10,
@@ -606,12 +588,10 @@ export default {
         "flattered by"
       ],
       "optionReasons": {
-        "flatter-mcq-04": "本句指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-02": "「為討好或獲取好處而給某人過度／不真誠的讚美」與本句語境不同。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。",
-        "flatter-mcq-01": "「用讚美／恭維令某人感到高興或受到重視」與本句語境不同。"
+        "flatter-mcq-04": "本句的「flattered by」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-04"
     },
@@ -623,11 +603,9 @@ export default {
       "masked": "She was ____ by their praise.",
       "options": [
         "flatter-mcq-04",
-        "flatter-mcq-03",
-        "flatter-mcq-05",
-        "flatter-mcq-02",
-        "flatter-mcq-06",
-        "flatter-mcq-01"
+        "flatter-mcq-15",
+        "flatter-mcq-07",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flattered」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
       "sentenceIndex": 11,
@@ -636,12 +614,10 @@ export default {
         "flattered"
       ],
       "optionReasons": {
-        "flatter-mcq-04": "本句指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-02": "「為討好或獲取好處而給某人過度／不真誠的讚美」與本句語境不同。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。",
-        "flatter-mcq-01": "「用讚美／恭維令某人感到高興或受到重視」與本句語境不同。"
+        "flatter-mcq-04": "本句的「flattered」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-04"
     },
@@ -653,11 +629,9 @@ export default {
       "masked": "I’m ____ you remembered my work.",
       "options": [
         "flatter-mcq-04",
-        "flatter-mcq-03",
-        "flatter-mcq-05",
-        "flatter-mcq-02",
-        "flatter-mcq-06",
-        "flatter-mcq-01"
+        "flatter-mcq-15",
+        "flatter-mcq-07",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flattered that」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
       "sentenceIndex": 12,
@@ -666,12 +640,10 @@ export default {
         "flattered that"
       ],
       "optionReasons": {
-        "flatter-mcq-04": "本句指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-02": "「為討好或獲取好處而給某人過度／不真誠的讚美」與本句語境不同。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。",
-        "flatter-mcq-01": "「用讚美／恭維令某人感到高興或受到重視」與本句語境不同。"
+        "flatter-mcq-04": "本句的「flattered that」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-04"
     },
@@ -683,11 +655,9 @@ export default {
       "masked": "She was ____ that so many people shared the video.",
       "options": [
         "flatter-mcq-04",
-        "flatter-mcq-03",
-        "flatter-mcq-05",
-        "flatter-mcq-02",
-        "flatter-mcq-06",
-        "flatter-mcq-01"
+        "flatter-mcq-15",
+        "flatter-mcq-07",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flattered」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
       "sentenceIndex": 13,
@@ -696,12 +666,10 @@ export default {
         "flattered"
       ],
       "optionReasons": {
-        "flatter-mcq-04": "本句指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-02": "「為討好或獲取好處而給某人過度／不真誠的讚美」與本句語境不同。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。",
-        "flatter-mcq-01": "「用讚美／恭維令某人感到高興或受到重視」與本句語境不同。"
+        "flatter-mcq-04": "本句的「flattered」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-04"
     },
@@ -713,11 +681,9 @@ export default {
       "masked": "I’m ____.",
       "options": [
         "flatter-mcq-04",
-        "flatter-mcq-03",
-        "flatter-mcq-05",
-        "flatter-mcq-02",
-        "flatter-mcq-06",
-        "flatter-mcq-01"
+        "flatter-mcq-15",
+        "flatter-mcq-07",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flattered to be invited」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
       "sentenceIndex": 14,
@@ -726,12 +692,10 @@ export default {
         "flattered to be invited"
       ],
       "optionReasons": {
-        "flatter-mcq-04": "本句指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-02": "「為討好或獲取好處而給某人過度／不真誠的讚美」與本句語境不同。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。",
-        "flatter-mcq-01": "「用讚美／恭維令某人感到高興或受到重視」與本句語境不同。"
+        "flatter-mcq-04": "本句的「flattered to be invited」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-04"
     },
@@ -743,11 +707,9 @@ export default {
       "masked": "She was ____ to hear that people admired her work.",
       "options": [
         "flatter-mcq-04",
-        "flatter-mcq-03",
-        "flatter-mcq-05",
-        "flatter-mcq-02",
-        "flatter-mcq-06",
-        "flatter-mcq-01"
+        "flatter-mcq-15",
+        "flatter-mcq-07",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flattered」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
       "sentenceIndex": 15,
@@ -756,12 +718,10 @@ export default {
         "flattered"
       ],
       "optionReasons": {
-        "flatter-mcq-04": "本句指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-02": "「為討好或獲取好處而給某人過度／不真誠的讚美」與本句語境不同。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。",
-        "flatter-mcq-01": "「用讚美／恭維令某人感到高興或受到重視」與本句語境不同。"
+        "flatter-mcq-04": "本句的「flattered」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-04"
     },
@@ -773,11 +733,9 @@ export default {
       "masked": "I’m ____, but I can’t accept the offer.",
       "options": [
         "flatter-mcq-06",
-        "flatter-mcq-05",
+        "flatter-mcq-12",
         "flatter-mcq-07",
-        "flatter-mcq-04",
-        "flatter-mcq-08",
-        "flatter-mcq-03"
+        "flatter-mcq-15"
       ],
       "explanation": "本句的「flattered」指「先表示受到重視／讚賞，再禮貌拒絕」。",
       "sentenceIndex": 22,
@@ -786,12 +744,10 @@ export default {
         "flattered"
       ],
       "optionReasons": {
-        "flatter-mcq-06": "本句指「先表示受到重視／讚賞，再禮貌拒絕」。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-07": "「對自己的重要性、吸引力或能力有過高估計」與本句語境不同。",
-        "flatter-mcq-04": "「因別人的讚賞、重視、邀請或關注而感到受寵若驚」與本句語境不同。",
-        "flatter-mcq-08": "「令某人的外貌、膚色或身形看起來更理想」與本句語境不同。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。"
+        "flatter-mcq-06": "本句的「flattered」指「先表示受到重視／讚賞，再禮貌拒絕」。",
+        "flatter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-06"
     },
@@ -803,11 +759,9 @@ export default {
       "masked": "I’m ____, but I’m not interested in dating.",
       "options": [
         "flatter-mcq-06",
-        "flatter-mcq-05",
-        "flatter-mcq-07",
-        "flatter-mcq-04",
-        "flatter-mcq-08",
-        "flatter-mcq-03"
+        "flatter-mcq-12",
+        "flatter-mcq-15",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flattered」指「先表示受到重視／讚賞，再禮貌拒絕」。",
       "sentenceIndex": 23,
@@ -816,12 +770,10 @@ export default {
         "flattered"
       ],
       "optionReasons": {
-        "flatter-mcq-06": "本句指「先表示受到重視／讚賞，再禮貌拒絕」。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-07": "「對自己的重要性、吸引力或能力有過高估計」與本句語境不同。",
-        "flatter-mcq-04": "「因別人的讚賞、重視、邀請或關注而感到受寵若驚」與本句語境不同。",
-        "flatter-mcq-08": "「令某人的外貌、膚色或身形看起來更理想」與本句語境不同。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。"
+        "flatter-mcq-06": "本句的「flattered」指「先表示受到重視／讚賞，再禮貌拒絕」。",
+        "flatter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-06"
     },
@@ -833,11 +785,9 @@ export default {
       "masked": "Don’t ____ — I wasn’t talking about you.",
       "options": [
         "flatter-mcq-07",
-        "flatter-mcq-06",
-        "flatter-mcq-08",
-        "flatter-mcq-05",
-        "flatter-mcq-09",
-        "flatter-mcq-04"
+        "flatter-reviewed-d124a77c57",
+        "flatter-mcq-15",
+        "flatter-mcq-12"
       ],
       "explanation": "本句的「flatter yourself」指「對自己的重要性、吸引力或能力有過高估計」。",
       "sentenceIndex": 24,
@@ -846,12 +796,10 @@ export default {
         "flatter yourself"
       ],
       "optionReasons": {
-        "flatter-mcq-07": "本句指「對自己的重要性、吸引力或能力有過高估計」。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。",
-        "flatter-mcq-08": "「令某人的外貌、膚色或身形看起來更理想」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-09": "「穿起來能改善／修飾外觀或身形的衣服」與本句語境不同。",
-        "flatter-mcq-04": "「因別人的讚賞、重視、邀請或關注而感到受寵若驚」與本句語境不同。"
+        "flatter-mcq-07": "本句的「flatter yourself」指「對自己的重要性、吸引力或能力有過高估計」。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-07"
     },
@@ -863,11 +811,9 @@ export default {
       "masked": "He ____ himself that everyone admires him.",
       "options": [
         "flatter-mcq-07",
-        "flatter-mcq-06",
-        "flatter-mcq-08",
-        "flatter-mcq-05",
-        "flatter-mcq-09",
-        "flatter-mcq-04"
+        "flatter-mcq-18",
+        "flatter-mcq-10",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flatters」指「對自己的重要性、吸引力或能力有過高估計」。",
       "sentenceIndex": 25,
@@ -876,12 +822,10 @@ export default {
         "flatters"
       ],
       "optionReasons": {
-        "flatter-mcq-07": "本句指「對自己的重要性、吸引力或能力有過高估計」。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。",
-        "flatter-mcq-08": "「令某人的外貌、膚色或身形看起來更理想」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-09": "「穿起來能改善／修飾外觀或身形的衣服」與本句語境不同。",
-        "flatter-mcq-04": "「因別人的讚賞、重視、邀請或關注而感到受寵若驚」與本句語境不同。"
+        "flatter-mcq-07": "本句的「flatters」指「對自己的重要性、吸引力或能力有過高估計」。",
+        "flatter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-07"
     },
@@ -893,11 +837,9 @@ export default {
       "masked": "Blue is a very ____ on you.",
       "options": [
         "flatter-mcq-10",
-        "flatter-mcq-09",
-        "flatter-mcq-11",
-        "flatter-mcq-08",
-        "flatter-mcq-12",
-        "flatter-mcq-07"
+        "flatter-mcq-07",
+        "flatter-mcq-18",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flattering colour」指「能襯托某人膚色／外貌的顏色」。",
       "sentenceIndex": 38,
@@ -906,12 +848,10 @@ export default {
         "flattering colour"
       ],
       "optionReasons": {
-        "flatter-mcq-10": "本句指「能襯托某人膚色／外貌的顏色」。",
-        "flatter-mcq-09": "「穿起來能改善／修飾外觀或身形的衣服」與本句語境不同。",
-        "flatter-mcq-11": "「把人物拍得比平常更好看的照片」與本句語境不同。",
-        "flatter-mcq-08": "「令某人的外貌、膚色或身形看起來更理想」與本句語境不同。",
-        "flatter-mcq-12": "「能令人物在照片／影片中看起來更理想的角度」與本句語境不同。",
-        "flatter-mcq-07": "「對自己的重要性、吸引力或能力有過高估計」與本句語境不同。"
+        "flatter-mcq-10": "本句的「flattering colour」指「能襯托某人膚色／外貌的顏色」。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-10"
     },
@@ -923,11 +863,9 @@ export default {
       "masked": "The stylist chose colours that ____ her complexion.",
       "options": [
         "flatter-mcq-10",
-        "flatter-mcq-09",
-        "flatter-mcq-11",
-        "flatter-mcq-08",
-        "flatter-mcq-12",
-        "flatter-mcq-07"
+        "flatter-reviewed-d124a77c57",
+        "flatter-mcq-07",
+        "flatter-mcq-18"
       ],
       "explanation": "本句的「flatter」指「能襯托某人膚色／外貌的顏色」。",
       "sentenceIndex": 39,
@@ -936,12 +874,10 @@ export default {
         "flatter"
       ],
       "optionReasons": {
-        "flatter-mcq-10": "本句指「能襯托某人膚色／外貌的顏色」。",
-        "flatter-mcq-09": "「穿起來能改善／修飾外觀或身形的衣服」與本句語境不同。",
-        "flatter-mcq-11": "「把人物拍得比平常更好看的照片」與本句語境不同。",
-        "flatter-mcq-08": "「令某人的外貌、膚色或身形看起來更理想」與本句語境不同。",
-        "flatter-mcq-12": "「能令人物在照片／影片中看起來更理想的角度」與本句語境不同。",
-        "flatter-mcq-07": "「對自己的重要性、吸引力或能力有過高估計」與本句語境不同。"
+        "flatter-mcq-10": "本句的「flatter」指「能襯托某人膚色／外貌的顏色」。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-10"
     },
@@ -953,11 +889,9 @@ export default {
       "masked": "The photographer found a more ____.",
       "options": [
         "flatter-mcq-12",
-        "flatter-mcq-11",
-        "flatter-mcq-13",
-        "flatter-mcq-10",
-        "flatter-mcq-14",
-        "flatter-mcq-09"
+        "flatter-reviewed-d124a77c57",
+        "flatter-mcq-06",
+        "flatter-mcq-07"
       ],
       "explanation": "本句的「flattering angle」指「能令人物在照片／影片中看起來更理想的角度」。",
       "sentenceIndex": 46,
@@ -966,12 +900,10 @@ export default {
         "flattering angle"
       ],
       "optionReasons": {
-        "flatter-mcq-12": "本句指「能令人物在照片／影片中看起來更理想的角度」。",
-        "flatter-mcq-11": "「把人物拍得比平常更好看的照片」與本句語境不同。",
-        "flatter-mcq-13": "「能改善人物視覺效果、減少瑕疵感的光線」與本句語境不同。",
-        "flatter-mcq-10": "「能襯托某人膚色／外貌的顏色」與本句語境不同。",
-        "flatter-mcq-14": "「將某人／某事呈現得特別正面或比實際更好的描述」與本句語境不同。",
-        "flatter-mcq-09": "「穿起來能改善／修飾外觀或身形的衣服」與本句語境不同。"
+        "flatter-mcq-12": "本句的「flattering angle」指「能令人物在照片／影片中看起來更理想的角度」。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-12"
     },
@@ -983,11 +915,9 @@ export default {
       "masked": "That angle is not very ____.",
       "options": [
         "flatter-mcq-12",
-        "flatter-mcq-11",
-        "flatter-mcq-13",
-        "flatter-mcq-10",
-        "flatter-mcq-14",
-        "flatter-mcq-09"
+        "flatter-mcq-07",
+        "flatter-mcq-06",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flattering」指「能令人物在照片／影片中看起來更理想的角度」。",
       "sentenceIndex": 47,
@@ -996,12 +926,10 @@ export default {
         "flattering"
       ],
       "optionReasons": {
-        "flatter-mcq-12": "本句指「能令人物在照片／影片中看起來更理想的角度」。",
-        "flatter-mcq-11": "「把人物拍得比平常更好看的照片」與本句語境不同。",
-        "flatter-mcq-13": "「能改善人物視覺效果、減少瑕疵感的光線」與本句語境不同。",
-        "flatter-mcq-10": "「能襯托某人膚色／外貌的顏色」與本句語境不同。",
-        "flatter-mcq-14": "「將某人／某事呈現得特別正面或比實際更好的描述」與本句語境不同。",
-        "flatter-mcq-09": "「穿起來能改善／修飾外觀或身形的衣服」與本句語境不同。"
+        "flatter-mcq-12": "本句的「flattering」指「能令人物在照片／影片中看起來更理想的角度」。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-12"
     },
@@ -1013,11 +941,9 @@ export default {
       "masked": "The photo is rather ____.",
       "options": [
         "flatter-mcq-15",
-        "flatter-mcq-14",
-        "flatter-mcq-16",
-        "flatter-mcq-13",
-        "flatter-mcq-17",
-        "flatter-mcq-12"
+        "flatter-mcq-07",
+        "flatter-mcq-02",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「unflattering」指「令外貌／形象／評價顯得較差或不利的」。",
       "sentenceIndex": 54,
@@ -1026,12 +952,10 @@ export default {
         "unflattering"
       ],
       "optionReasons": {
-        "flatter-mcq-15": "本句指「令外貌／形象／評價顯得較差或不利的」。",
-        "flatter-mcq-14": "「將某人／某事呈現得特別正面或比實際更好的描述」與本句語境不同。",
-        "flatter-mcq-16": "「因特殊因素令數據表面看起來比實際基本表現更好」與本句語境不同。",
-        "flatter-mcq-13": "「能改善人物視覺效果、減少瑕疵感的光線」與本句語境不同。",
-        "flatter-mcq-17": "「表面看起來很出色，但深入看實際未如理想」與本句語境不同。",
-        "flatter-mcq-12": "「能令人物在照片／影片中看起來更理想的角度」與本句語境不同。"
+        "flatter-mcq-15": "本句的「unflattering」指「令外貌／形象／評價顯得較差或不利的」。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-15"
     },
@@ -1043,11 +967,9 @@ export default {
       "masked": "Temporary sales may have ____.",
       "options": [
         "flatter-mcq-16",
-        "flatter-mcq-15",
-        "flatter-mcq-17",
-        "flatter-mcq-14",
-        "flatter-mcq-18",
-        "flatter-mcq-13"
+        "flatter-mcq-06",
+        "flatter-mcq-19",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flattered the figures」指「因特殊因素令數據表面看起來比實際基本表現更好」。",
       "sentenceIndex": 56,
@@ -1056,12 +978,10 @@ export default {
         "flattered the figures"
       ],
       "optionReasons": {
-        "flatter-mcq-16": "本句指「因特殊因素令數據表面看起來比實際基本表現更好」。",
-        "flatter-mcq-15": "「令外貌／形象／評價顯得較差或不利的」與本句語境不同。",
-        "flatter-mcq-17": "「表面看起來很出色，但深入看實際未如理想」與本句語境不同。",
-        "flatter-mcq-14": "「將某人／某事呈現得特別正面或比實際更好的描述」與本句語境不同。",
-        "flatter-mcq-18": "「比數令某隊的實際表現看起來比場面上更好」與本句語境不同。",
-        "flatter-mcq-13": "「能改善人物視覺效果、減少瑕疵感的光線」與本句語境不同。"
+        "flatter-mcq-16": "本句的「flattered the figures」指「因特殊因素令數據表面看起來比實際基本表現更好」。",
+        "flatter-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-16"
     },
@@ -1073,11 +993,8 @@ export default {
       "masked": "One large order ____ the quarterly results.",
       "options": [
         "flatter-mcq-16",
-        "flatter-mcq-15",
-        "flatter-mcq-17",
-        "flatter-mcq-14",
-        "flatter-mcq-18",
-        "flatter-mcq-13"
+        "flatter-mcq-20",
+        "flatter-mcq-06"
       ],
       "explanation": "本句的「flattered」指「因特殊因素令數據表面看起來比實際基本表現更好」。",
       "sentenceIndex": 57,
@@ -1086,12 +1003,9 @@ export default {
         "flattered"
       ],
       "optionReasons": {
-        "flatter-mcq-16": "本句指「因特殊因素令數據表面看起來比實際基本表現更好」。",
-        "flatter-mcq-15": "「令外貌／形象／評價顯得較差或不利的」與本句語境不同。",
-        "flatter-mcq-17": "「表面看起來很出色，但深入看實際未如理想」與本句語境不同。",
-        "flatter-mcq-14": "「將某人／某事呈現得特別正面或比實際更好的描述」與本句語境不同。",
-        "flatter-mcq-18": "「比數令某隊的實際表現看起來比場面上更好」與本句語境不同。",
-        "flatter-mcq-13": "「能改善人物視覺效果、減少瑕疵感的光線」與本句語境不同。"
+        "flatter-mcq-16": "本句的「flattered」指「因特殊因素令數據表面看起來比實際基本表現更好」。",
+        "flatter-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-16"
     },
@@ -1103,11 +1017,9 @@ export default {
       "masked": "The 3–0 scoreline ____ the winners.",
       "options": [
         "flatter-mcq-18",
-        "flatter-mcq-17",
-        "flatter-mcq-19",
-        "flatter-mcq-16",
-        "flatter-mcq-20",
-        "flatter-mcq-15"
+        "flatter-mcq-07",
+        "flatter-mcq-06",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flattered」指「比數令某隊的實際表現看起來比場面上更好」。",
       "sentenceIndex": 62,
@@ -1116,12 +1028,10 @@ export default {
         "flattered"
       ],
       "optionReasons": {
-        "flatter-mcq-18": "本句指「比數令某隊的實際表現看起來比場面上更好」。",
-        "flatter-mcq-17": "「表面看起來很出色，但深入看實際未如理想」與本句語境不同。",
-        "flatter-mcq-19": "「透過讚美或關注滿足某人的自尊／虛榮心」與本句語境不同。",
-        "flatter-mcq-16": "「因特殊因素令數據表面看起來比實際基本表現更好」與本句語境不同。",
-        "flatter-mcq-20": "「利用讚美或奉承影響某人，使其答應做某事」與本句語境不同。",
-        "flatter-mcq-15": "「令外貌／形象／評價顯得較差或不利的」與本句語境不同。"
+        "flatter-mcq-18": "本句的「flattered」指「比數令某隊的實際表現看起來比場面上更好」。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-18"
     },
@@ -1133,11 +1043,9 @@ export default {
       "masked": "The final score ____ the home side.",
       "options": [
         "flatter-mcq-18",
-        "flatter-mcq-17",
-        "flatter-mcq-19",
-        "flatter-mcq-16",
-        "flatter-mcq-20",
-        "flatter-mcq-15"
+        "flatter-mcq-04",
+        "flatter-mcq-07",
+        "flatter-reviewed-d124a77c57"
       ],
       "explanation": "本句的「flattered」指「比數令某隊的實際表現看起來比場面上更好」。",
       "sentenceIndex": 63,
@@ -1146,12 +1054,10 @@ export default {
         "flattered"
       ],
       "optionReasons": {
-        "flatter-mcq-18": "本句指「比數令某隊的實際表現看起來比場面上更好」。",
-        "flatter-mcq-17": "「表面看起來很出色，但深入看實際未如理想」與本句語境不同。",
-        "flatter-mcq-19": "「透過讚美或關注滿足某人的自尊／虛榮心」與本句語境不同。",
-        "flatter-mcq-16": "「因特殊因素令數據表面看起來比實際基本表現更好」與本句語境不同。",
-        "flatter-mcq-20": "「利用讚美或奉承影響某人，使其答應做某事」與本句語境不同。",
-        "flatter-mcq-15": "「令外貌／形象／評價顯得較差或不利的」與本句語境不同。"
+        "flatter-mcq-18": "本句的「flattered」指「比數令某隊的實際表現看起來比場面上更好」。",
+        "flatter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-18"
     },
@@ -1163,11 +1069,9 @@ export default {
       "masked": "The attention ____.",
       "options": [
         "flatter-mcq-19",
+        "flatter-reviewed-d124a77c57",
         "flatter-mcq-18",
-        "flatter-mcq-20",
-        "flatter-mcq-17",
-        "flatter-mcq-21",
-        "flatter-mcq-16"
+        "flatter-mcq-06"
       ],
       "explanation": "本句的「flattered his ego」指「透過讚美或關注滿足某人的自尊／虛榮心」。",
       "sentenceIndex": 66,
@@ -1176,12 +1080,10 @@ export default {
         "flattered his ego"
       ],
       "optionReasons": {
-        "flatter-mcq-19": "本句指「透過讚美或關注滿足某人的自尊／虛榮心」。",
-        "flatter-mcq-18": "「比數令某隊的實際表現看起來比場面上更好」與本句語境不同。",
-        "flatter-mcq-20": "「利用讚美或奉承影響某人，使其答應做某事」與本句語境不同。",
-        "flatter-mcq-17": "「表面看起來很出色，但深入看實際未如理想」與本句語境不同。",
-        "flatter-mcq-21": "「以令某人／某事看起來更有利、更吸引的方式」與本句語境不同。",
-        "flatter-mcq-16": "「因特殊因素令數據表面看起來比實際基本表現更好」與本句語境不同。"
+        "flatter-mcq-19": "本句的「flattered his ego」指「透過讚美或關注滿足某人的自尊／虛榮心」。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-19"
     },
@@ -1194,10 +1096,8 @@ export default {
       "options": [
         "flatter-mcq-19",
         "flatter-mcq-18",
-        "flatter-mcq-20",
-        "flatter-mcq-17",
-        "flatter-mcq-21",
-        "flatter-mcq-16"
+        "flatter-reviewed-d124a77c57",
+        "flatter-mcq-06"
       ],
       "explanation": "本句的「flatter」指「透過讚美或關注滿足某人的自尊／虛榮心」。",
       "sentenceIndex": 67,
@@ -1206,12 +1106,10 @@ export default {
         "flatter"
       ],
       "optionReasons": {
-        "flatter-mcq-19": "本句指「透過讚美或關注滿足某人的自尊／虛榮心」。",
-        "flatter-mcq-18": "「比數令某隊的實際表現看起來比場面上更好」與本句語境不同。",
-        "flatter-mcq-20": "「利用讚美或奉承影響某人，使其答應做某事」與本句語境不同。",
-        "flatter-mcq-17": "「表面看起來很出色，但深入看實際未如理想」與本句語境不同。",
-        "flatter-mcq-21": "「以令某人／某事看起來更有利、更吸引的方式」與本句語境不同。",
-        "flatter-mcq-16": "「因特殊因素令數據表面看起來比實際基本表現更好」與本句語境不同。"
+        "flatter-mcq-19": "本句的「flatter」指「透過讚美或關注滿足某人的自尊／虛榮心」。",
+        "flatter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "flatter-reviewed-d124a77c57": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-19"
     },
@@ -1223,11 +1121,8 @@ export default {
       "masked": "They ____ the role.",
       "options": [
         "flatter-mcq-20",
-        "flatter-mcq-19",
-        "flatter-mcq-21",
         "flatter-mcq-18",
-        "flatter-mcq-17",
-        "flatter-mcq-16"
+        "flatter-mcq-06"
       ],
       "explanation": "本句的「flattered him into accepting」指「利用讚美或奉承影響某人，使其答應做某事」。",
       "sentenceIndex": 68,
@@ -1236,12 +1131,9 @@ export default {
         "flattered him into accepting"
       ],
       "optionReasons": {
-        "flatter-mcq-20": "本句指「利用讚美或奉承影響某人，使其答應做某事」。",
-        "flatter-mcq-19": "「透過讚美或關注滿足某人的自尊／虛榮心」與本句語境不同。",
-        "flatter-mcq-21": "「以令某人／某事看起來更有利、更吸引的方式」與本句語境不同。",
-        "flatter-mcq-18": "「比數令某隊的實際表現看起來比場面上更好」與本句語境不同。",
-        "flatter-mcq-17": "「表面看起來很出色，但深入看實際未如理想」與本句語境不同。",
-        "flatter-mcq-16": "「因特殊因素令數據表面看起來比實際基本表現更好」與本句語境不同。"
+        "flatter-mcq-20": "本句的「flattered him into accepting」指「利用讚美或奉承影響某人，使其答應做某事」。",
+        "flatter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-20"
     },
@@ -1253,11 +1145,8 @@ export default {
       "masked": "She ____ him into paying for dinner.",
       "options": [
         "flatter-mcq-20",
-        "flatter-mcq-19",
-        "flatter-mcq-21",
-        "flatter-mcq-18",
-        "flatter-mcq-17",
-        "flatter-mcq-16"
+        "flatter-mcq-16",
+        "flatter-mcq-06"
       ],
       "explanation": "本句的「flattered」指「利用讚美或奉承影響某人，使其答應做某事」。",
       "sentenceIndex": 69,
@@ -1266,74 +1155,67 @@ export default {
         "flattered"
       ],
       "optionReasons": {
-        "flatter-mcq-20": "本句指「利用讚美或奉承影響某人，使其答應做某事」。",
-        "flatter-mcq-19": "「透過讚美或關注滿足某人的自尊／虛榮心」與本句語境不同。",
-        "flatter-mcq-21": "「以令某人／某事看起來更有利、更吸引的方式」與本句語境不同。",
-        "flatter-mcq-18": "「比數令某隊的實際表現看起來比場面上更好」與本句語境不同。",
-        "flatter-mcq-17": "「表面看起來很出色，但深入看實際未如理想」與本句語境不同。",
-        "flatter-mcq-16": "「因特殊因素令數據表面看起來比實際基本表現更好」與本句語境不同。"
+        "flatter-mcq-20": "本句的「flattered」指「利用讚美或奉承影響某人，使其答應做某事」。",
+        "flatter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flatter-mcq-20"
     },
     {
       "id": "flatter-38-0",
-      "sense": "flatter-mcq-04",
+      "sense": "flatter-reviewed-d124a77c57",
       "en": "He was flattered into agreeing.",
       "zh": "他因受到奉承而被哄得同意了。",
       "masked": "He was ____.",
       "options": [
-        "flatter-mcq-04",
-        "flatter-mcq-03",
-        "flatter-mcq-05",
-        "flatter-mcq-02",
-        "flatter-mcq-06",
-        "flatter-mcq-01"
+        "flatter-reviewed-d124a77c57",
+        "flatter-mcq-07",
+        "flatter-mcq-19",
+        "flatter-mcq-15"
       ],
-      "explanation": "本句的「flattered into agreeing」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
+      "explanation": "對照完整句子：「他因受到奉承而被哄得同意了。」。這裡的「flattered into agreeing」表示「因受奉承而被哄去做某事」。",
       "sentenceIndex": 72,
       "sourcePractice": 38,
       "targets": [
         "flattered into agreeing"
       ],
       "optionReasons": {
-        "flatter-mcq-04": "本句指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-02": "「為討好或獲取好處而給某人過度／不真誠的讚美」與本句語境不同。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。",
-        "flatter-mcq-01": "「用讚美／恭維令某人感到高興或受到重視」與本句語境不同。"
+        "flatter-reviewed-d124a77c57": "對照完整句子：「他因受到奉承而被哄得同意了。」。這裡的「flattered into agreeing」表示「因受奉承而被哄去做某事」。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "flatter-mcq-04"
+      "correctOption": "flatter-reviewed-d124a77c57",
+      "previousCorrectOption": "flatter-mcq-04",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "flatter-38-1",
-      "sense": "flatter-mcq-04",
+      "sense": "flatter-reviewed-d124a77c57",
       "en": "She was flattered into taking on more work.",
       "zh": "她因別人的恭維而被哄得接下更多工作。",
       "masked": "She was ____ into taking on more work.",
       "options": [
-        "flatter-mcq-04",
-        "flatter-mcq-03",
-        "flatter-mcq-05",
-        "flatter-mcq-02",
-        "flatter-mcq-06",
-        "flatter-mcq-01"
+        "flatter-reviewed-d124a77c57",
+        "flatter-mcq-15",
+        "flatter-mcq-19",
+        "flatter-mcq-07"
       ],
-      "explanation": "本句的「flattered」指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
+      "explanation": "對照完整句子：「她因別人的恭維而被哄得接下更多工作。」。這裡的「flattered」表示「因受奉承而被哄去做某事」。",
       "sentenceIndex": 73,
       "sourcePractice": 38,
       "targets": [
         "flattered"
       ],
       "optionReasons": {
-        "flatter-mcq-04": "本句指「因別人的讚賞、重視、邀請或關注而感到受寵若驚」。",
-        "flatter-mcq-03": "「通常帶討好或誇張成分的讚美／奉承」與本句語境不同。",
-        "flatter-mcq-05": "「顯示別人欣賞／重視自己，因而令人感到受肯定的」與本句語境不同。",
-        "flatter-mcq-02": "「為討好或獲取好處而給某人過度／不真誠的讚美」與本句語境不同。",
-        "flatter-mcq-06": "「先表示受到重視／讚賞，再禮貌拒絕」與本句語境不同。",
-        "flatter-mcq-01": "「用讚美／恭維令某人感到高興或受到重視」與本句語境不同。"
+        "flatter-reviewed-d124a77c57": "對照完整句子：「她因別人的恭維而被哄得接下更多工作。」。這裡的「flattered」表示「因受奉承而被哄去做某事」。",
+        "flatter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "flatter-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "flatter-mcq-04"
+      "correctOption": "flatter-reviewed-d124a77c57",
+      "previousCorrectOption": "flatter-mcq-04",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -1343,5 +1225,7 @@ export default {
     "sha256": "bd50b7625999aaaac40634f035ee2e1dc7d83f7d76704dfcdfee405511d15dbe",
     "pages": 40
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

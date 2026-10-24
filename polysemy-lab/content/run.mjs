@@ -317,11 +317,9 @@ export default {
       "masked": "She ____ to the station because she was late.",
       "options": [
         "run-mcq-01",
-        "run-mcq-02",
-        "run-mcq-03",
-        "run-mcq-04",
-        "run-mcq-05",
-        "run-mcq-06"
+        "run-mcq-08",
+        "run-mcq-10",
+        "run-mcq-11"
       ],
       "explanation": "本句的「ran」指「用雙腳快速移動，速度通常比走路快」。",
       "sentenceIndex": 0,
@@ -330,12 +328,10 @@ export default {
         "ran"
       ],
       "optionReasons": {
-        "run-mcq-01": "本句指「用雙腳快速移動，速度通常比走路快」。",
-        "run-mcq-02": "「機器、設備、程式或系統處於正常操作和運作狀態」是「run — machine/system operates」的用法，與本句語境不同。",
-        "run-mcq-03": "「負責管理、經營、安排或控制某個機構、業務或項目」是「run + business/organization/project」的用法，與本句語境不同。",
-        "run-mcq-04": "「按照安排把某個測試、活動、課程或程序實際進行」是「run + test/activity/process」的用法，與本句語境不同。",
-        "run-mcq-05": "「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」是「run — extend/continue」的用法，與本句語境不同。",
-        "run-mcq-06": "「液體連續地向某個方向流動」是「run — liquid flows」的用法，與本句語境不同。"
+        "run-mcq-01": "本句的「ran」指「用雙腳快速移動，速度通常比走路快」。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-01"
     },
@@ -347,11 +343,9 @@ export default {
       "masked": "The children were ____ around the park.",
       "options": [
         "run-mcq-01",
-        "run-mcq-02",
-        "run-mcq-03",
-        "run-mcq-04",
-        "run-mcq-05",
-        "run-mcq-06"
+        "run-mcq-10",
+        "run-mcq-08",
+        "run-mcq-11"
       ],
       "explanation": "本句的「running」指「用雙腳快速移動，速度通常比走路快」。",
       "sentenceIndex": 1,
@@ -360,12 +354,10 @@ export default {
         "running"
       ],
       "optionReasons": {
-        "run-mcq-01": "本句指「用雙腳快速移動，速度通常比走路快」。",
-        "run-mcq-02": "「機器、設備、程式或系統處於正常操作和運作狀態」是「run — machine/system operates」的用法，與本句語境不同。",
-        "run-mcq-03": "「負責管理、經營、安排或控制某個機構、業務或項目」是「run + business/organization/project」的用法，與本句語境不同。",
-        "run-mcq-04": "「按照安排把某個測試、活動、課程或程序實際進行」是「run + test/activity/process」的用法，與本句語境不同。",
-        "run-mcq-05": "「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」是「run — extend/continue」的用法，與本句語境不同。",
-        "run-mcq-06": "「液體連續地向某個方向流動」是「run — liquid flows」的用法，與本句語境不同。"
+        "run-mcq-01": "本句的「running」指「用雙腳快速移動，速度通常比走路快」。",
+        "run-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-01"
     },
@@ -377,11 +369,9 @@ export default {
       "masked": "The engine is still ____.",
       "options": [
         "run-mcq-02",
-        "run-mcq-01",
-        "run-mcq-03",
-        "run-mcq-04",
-        "run-mcq-05",
-        "run-mcq-06"
+        "run-mcq-06",
+        "run-mcq-11",
+        "run-mcq-14"
       ],
       "explanation": "本句的「running」指「機器、設備、程式或系統處於正常操作和運作狀態」。",
       "sentenceIndex": 2,
@@ -390,12 +380,10 @@ export default {
         "running"
       ],
       "optionReasons": {
-        "run-mcq-02": "本句指「機器、設備、程式或系統處於正常操作和運作狀態」。",
-        "run-mcq-01": "「用雙腳快速移動，速度通常比走路快」是「run — move quickly on foot」的用法，與本句語境不同。",
-        "run-mcq-03": "「負責管理、經營、安排或控制某個機構、業務或項目」是「run + business/organization/project」的用法，與本句語境不同。",
-        "run-mcq-04": "「按照安排把某個測試、活動、課程或程序實際進行」是「run + test/activity/process」的用法，與本句語境不同。",
-        "run-mcq-05": "「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」是「run — extend/continue」的用法，與本句語境不同。",
-        "run-mcq-06": "「液體連續地向某個方向流動」是「run — liquid flows」的用法，與本句語境不同。"
+        "run-mcq-02": "本句的「running」指「機器、設備、程式或系統處於正常操作和運作狀態」。",
+        "run-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-02"
     },
@@ -407,11 +395,9 @@ export default {
       "masked": "This program ____ automatically every morning.",
       "options": [
         "run-mcq-02",
-        "run-mcq-01",
-        "run-mcq-03",
-        "run-mcq-04",
-        "run-mcq-05",
-        "run-mcq-06"
+        "run-mcq-11",
+        "run-mcq-06",
+        "run-mcq-08"
       ],
       "explanation": "本句的「runs」指「機器、設備、程式或系統處於正常操作和運作狀態」。",
       "sentenceIndex": 3,
@@ -420,12 +406,10 @@ export default {
         "runs"
       ],
       "optionReasons": {
-        "run-mcq-02": "本句指「機器、設備、程式或系統處於正常操作和運作狀態」。",
-        "run-mcq-01": "「用雙腳快速移動，速度通常比走路快」是「run — move quickly on foot」的用法，與本句語境不同。",
-        "run-mcq-03": "「負責管理、經營、安排或控制某個機構、業務或項目」是「run + business/organization/project」的用法，與本句語境不同。",
-        "run-mcq-04": "「按照安排把某個測試、活動、課程或程序實際進行」是「run + test/activity/process」的用法，與本句語境不同。",
-        "run-mcq-05": "「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」是「run — extend/continue」的用法，與本句語境不同。",
-        "run-mcq-06": "「液體連續地向某個方向流動」是「run — liquid flows」的用法，與本句語境不同。"
+        "run-mcq-02": "本句的「runs」指「機器、設備、程式或系統處於正常操作和運作狀態」。",
+        "run-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-02"
     },
@@ -437,11 +421,9 @@ export default {
       "masked": "She ____ a small café near the station.",
       "options": [
         "run-mcq-03",
-        "run-mcq-02",
-        "run-mcq-04",
         "run-mcq-01",
-        "run-mcq-05",
-        "run-mcq-06"
+        "run-mcq-11",
+        "run-mcq-12"
       ],
       "explanation": "本句的「runs」指「負責管理、經營、安排或控制某個機構、業務或項目」。",
       "sentenceIndex": 4,
@@ -450,12 +432,10 @@ export default {
         "runs"
       ],
       "optionReasons": {
-        "run-mcq-03": "本句指「負責管理、經營、安排或控制某個機構、業務或項目」。",
-        "run-mcq-02": "「機器、設備、程式或系統處於正常操作和運作狀態」是「run — machine/system operates」的用法，與本句語境不同。",
-        "run-mcq-04": "「按照安排把某個測試、活動、課程或程序實際進行」是「run + test/activity/process」的用法，與本句語境不同。",
-        "run-mcq-01": "「用雙腳快速移動，速度通常比走路快」是「run — move quickly on foot」的用法，與本句語境不同。",
-        "run-mcq-05": "「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」是「run — extend/continue」的用法，與本句語境不同。",
-        "run-mcq-06": "「液體連續地向某個方向流動」是「run — liquid flows」的用法，與本句語境不同。"
+        "run-mcq-03": "本句的「runs」指「負責管理、經營、安排或控制某個機構、業務或項目」。",
+        "run-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-03"
     },
@@ -467,10 +447,8 @@ export default {
       "masked": "He was asked to ____ the project.",
       "options": [
         "run-mcq-03",
-        "run-mcq-02",
-        "run-mcq-04",
         "run-mcq-01",
-        "run-mcq-05",
+        "run-mcq-08",
         "run-mcq-06"
       ],
       "explanation": "本句的「run」指「負責管理、經營、安排或控制某個機構、業務或項目」。",
@@ -480,12 +458,10 @@ export default {
         "run"
       ],
       "optionReasons": {
-        "run-mcq-03": "本句指「負責管理、經營、安排或控制某個機構、業務或項目」。",
-        "run-mcq-02": "「機器、設備、程式或系統處於正常操作和運作狀態」是「run — machine/system operates」的用法，與本句語境不同。",
-        "run-mcq-04": "「按照安排把某個測試、活動、課程或程序實際進行」是「run + test/activity/process」的用法，與本句語境不同。",
-        "run-mcq-01": "「用雙腳快速移動，速度通常比走路快」是「run — move quickly on foot」的用法，與本句語境不同。",
-        "run-mcq-05": "「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」是「run — extend/continue」的用法，與本句語境不同。",
-        "run-mcq-06": "「液體連續地向某個方向流動」是「run — liquid flows」的用法，與本句語境不同。"
+        "run-mcq-03": "本句的「run」指「負責管理、經營、安排或控制某個機構、業務或項目」。",
+        "run-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-03"
     },
@@ -497,11 +473,9 @@ export default {
       "masked": "The researchers ____ several tests.",
       "options": [
         "run-mcq-04",
-        "run-mcq-03",
         "run-mcq-05",
-        "run-mcq-02",
-        "run-mcq-06",
-        "run-mcq-01"
+        "run-mcq-11",
+        "run-mcq-08"
       ],
       "explanation": "本句的「ran」指「按照安排把某個測試、活動、課程或程序實際進行」。",
       "sentenceIndex": 6,
@@ -510,12 +484,10 @@ export default {
         "ran"
       ],
       "optionReasons": {
-        "run-mcq-04": "本句指「按照安排把某個測試、活動、課程或程序實際進行」。",
-        "run-mcq-03": "「負責管理、經營、安排或控制某個機構、業務或項目」是「run + business/organization/project」的用法，與本句語境不同。",
-        "run-mcq-05": "「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」是「run — extend/continue」的用法，與本句語境不同。",
-        "run-mcq-02": "「機器、設備、程式或系統處於正常操作和運作狀態」是「run — machine/system operates」的用法，與本句語境不同。",
-        "run-mcq-06": "「液體連續地向某個方向流動」是「run — liquid flows」的用法，與本句語境不同。",
-        "run-mcq-01": "「用雙腳快速移動，速度通常比走路快」是「run — move quickly on foot」的用法，與本句語境不同。"
+        "run-mcq-04": "本句的「ran」指「按照安排把某個測試、活動、課程或程序實際進行」。",
+        "run-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-04"
     },
@@ -527,11 +499,9 @@ export default {
       "masked": "The school ____ evening classes for adults.",
       "options": [
         "run-mcq-04",
-        "run-mcq-03",
-        "run-mcq-05",
-        "run-mcq-02",
-        "run-mcq-06",
-        "run-mcq-01"
+        "run-mcq-08",
+        "run-mcq-11",
+        "run-mcq-05"
       ],
       "explanation": "本句的「runs」指「按照安排把某個測試、活動、課程或程序實際進行」。",
       "sentenceIndex": 7,
@@ -540,12 +510,10 @@ export default {
         "runs"
       ],
       "optionReasons": {
-        "run-mcq-04": "本句指「按照安排把某個測試、活動、課程或程序實際進行」。",
-        "run-mcq-03": "「負責管理、經營、安排或控制某個機構、業務或項目」是「run + business/organization/project」的用法，與本句語境不同。",
-        "run-mcq-05": "「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」是「run — extend/continue」的用法，與本句語境不同。",
-        "run-mcq-02": "「機器、設備、程式或系統處於正常操作和運作狀態」是「run — machine/system operates」的用法，與本句語境不同。",
-        "run-mcq-06": "「液體連續地向某個方向流動」是「run — liquid flows」的用法，與本句語境不同。",
-        "run-mcq-01": "「用雙腳快速移動，速度通常比走路快」是「run — move quickly on foot」的用法，與本句語境不同。"
+        "run-mcq-04": "本句的「runs」指「按照安排把某個測試、活動、課程或程序實際進行」。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-04"
     },
@@ -557,11 +525,9 @@ export default {
       "masked": "The exhibition ____ until the end of the month.",
       "options": [
         "run-mcq-05",
-        "run-mcq-04",
-        "run-mcq-06",
+        "run-mcq-12",
         "run-mcq-03",
-        "run-mcq-07",
-        "run-mcq-02"
+        "run-mcq-08"
       ],
       "explanation": "本句的「runs」指「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」。",
       "sentenceIndex": 8,
@@ -570,12 +536,10 @@ export default {
         "runs"
       ],
       "optionReasons": {
-        "run-mcq-05": "本句指「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」。",
-        "run-mcq-04": "「按照安排把某個測試、活動、課程或程序實際進行」是「run + test/activity/process」的用法，與本句語境不同。",
-        "run-mcq-06": "「液體連續地向某個方向流動」是「run — liquid flows」的用法，與本句語境不同。",
-        "run-mcq-03": "「負責管理、經營、安排或控制某個機構、業務或項目」是「run + business/organization/project」的用法，與本句語境不同。",
-        "run-mcq-07": "「在固定搭配中進入某種狀態，例如 run dry」是「run + state/adjective」的用法，與本句語境不同。",
-        "run-mcq-02": "「機器、設備、程式或系統處於正常操作和運作狀態」是「run — machine/system operates」的用法，與本句語境不同。"
+        "run-mcq-05": "本句的「runs」指「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」。",
+        "run-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-05"
     },
@@ -588,10 +552,8 @@ export default {
       "options": [
         "run-mcq-05",
         "run-mcq-04",
-        "run-mcq-06",
-        "run-mcq-03",
-        "run-mcq-07",
-        "run-mcq-02"
+        "run-mcq-08",
+        "run-mcq-11"
       ],
       "explanation": "本句的「runs」指「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」。",
       "sentenceIndex": 9,
@@ -600,12 +562,10 @@ export default {
         "runs"
       ],
       "optionReasons": {
-        "run-mcq-05": "本句指「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」。",
-        "run-mcq-04": "「按照安排把某個測試、活動、課程或程序實際進行」是「run + test/activity/process」的用法，與本句語境不同。",
-        "run-mcq-06": "「液體連續地向某個方向流動」是「run — liquid flows」的用法，與本句語境不同。",
-        "run-mcq-03": "「負責管理、經營、安排或控制某個機構、業務或項目」是「run + business/organization/project」的用法，與本句語境不同。",
-        "run-mcq-07": "「在固定搭配中進入某種狀態，例如 run dry」是「run + state/adjective」的用法，與本句語境不同。",
-        "run-mcq-02": "「機器、設備、程式或系統處於正常操作和運作狀態」是「run — machine/system operates」的用法，與本句語境不同。"
+        "run-mcq-05": "本句的「runs」指「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」。",
+        "run-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-05"
     },
@@ -617,11 +577,9 @@ export default {
       "masked": "Water was ____ down the wall.",
       "options": [
         "run-mcq-06",
-        "run-mcq-05",
-        "run-mcq-07",
-        "run-mcq-04",
         "run-mcq-08",
-        "run-mcq-03"
+        "run-mcq-09",
+        "run-mcq-13"
       ],
       "explanation": "本句的「running」指「液體連續地向某個方向流動」。",
       "sentenceIndex": 10,
@@ -630,12 +588,10 @@ export default {
         "running"
       ],
       "optionReasons": {
-        "run-mcq-06": "本句指「液體連續地向某個方向流動」。",
-        "run-mcq-05": "「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」是「run — extend/continue」的用法，與本句語境不同。",
-        "run-mcq-07": "「在固定搭配中進入某種狀態，例如 run dry」是「run + state/adjective」的用法，與本句語境不同。",
-        "run-mcq-04": "「按照安排把某個測試、活動、課程或程序實際進行」是「run + test/activity/process」的用法，與本句語境不同。",
-        "run-mcq-08": "「正式參加選舉，爭取某個職位」是「run for office/election」的用法，與本句語境不同。",
-        "run-mcq-03": "「負責管理、經營、安排或控制某個機構、業務或項目」是「run + business/organization/project」的用法，與本句語境不同。"
+        "run-mcq-06": "本句的「running」指「液體連續地向某個方向流動」。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-06"
     },
@@ -647,11 +603,9 @@ export default {
       "masked": "Tears ____ down her face.",
       "options": [
         "run-mcq-06",
-        "run-mcq-05",
-        "run-mcq-07",
-        "run-mcq-04",
-        "run-mcq-08",
-        "run-mcq-03"
+        "run-mcq-09",
+        "run-mcq-13",
+        "run-mcq-08"
       ],
       "explanation": "本句的「ran」指「液體連續地向某個方向流動」。",
       "sentenceIndex": 11,
@@ -660,12 +614,10 @@ export default {
         "ran"
       ],
       "optionReasons": {
-        "run-mcq-06": "本句指「液體連續地向某個方向流動」。",
-        "run-mcq-05": "「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」是「run — extend/continue」的用法，與本句語境不同。",
-        "run-mcq-07": "「在固定搭配中進入某種狀態，例如 run dry」是「run + state/adjective」的用法，與本句語境不同。",
-        "run-mcq-04": "「按照安排把某個測試、活動、課程或程序實際進行」是「run + test/activity/process」的用法，與本句語境不同。",
-        "run-mcq-08": "「正式參加選舉，爭取某個職位」是「run for office/election」的用法，與本句語境不同。",
-        "run-mcq-03": "「負責管理、經營、安排或控制某個機構、業務或項目」是「run + business/organization/project」的用法，與本句語境不同。"
+        "run-mcq-06": "本句的「ran」指「液體連續地向某個方向流動」。",
+        "run-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-06"
     },
@@ -677,11 +629,9 @@ export default {
       "masked": "The river ____ during the drought.",
       "options": [
         "run-mcq-13",
-        "run-mcq-12",
-        "run-mcq-14",
-        "run-mcq-11",
         "run-mcq-10",
-        "run-mcq-09"
+        "run-mcq-06",
+        "run-mcq-11"
       ],
       "explanation": "本句的「ran dry」指「逐漸或明顯地進入某種狀態」。",
       "sentenceIndex": 12,
@@ -690,12 +640,10 @@ export default {
         "ran dry"
       ],
       "optionReasons": {
-        "run-mcq-13": "本句指「逐漸或明顯地進入某種狀態」。",
-        "run-mcq-12": "「以跑步為運動、比賽或主要活動的人」是「runner」的用法，與本句語境不同。",
-        "run-mcq-14": "「公共交通服務按照時間表行駛或營運」是「10. run = transport service operates（交通） — 行駛；營運」的用法，與本句語境不同。",
-        "run-mcq-11": "「意外遇到或開始面對某個問題、困難或障礙」是「run into a problem」的用法，與本句語境不同。",
-        "run-mcq-10": "「沒有預先安排，而是在某個地方偶然遇見某人」是「run into someone」的用法，與本句語境不同。",
-        "run-mcq-09": "「報紙、網站、電視台等刊登、播放或公開呈現某項內容」是「run + media content」的用法，與本句語境不同。"
+        "run-mcq-13": "本句的「ran dry」指「逐漸或明顯地進入某種狀態」。",
+        "run-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-13"
     },
@@ -707,11 +655,9 @@ export default {
       "masked": "His face ____ with embarrassment.",
       "options": [
         "run-mcq-13",
-        "run-mcq-12",
-        "run-mcq-14",
-        "run-mcq-11",
-        "run-mcq-10",
-        "run-mcq-09"
+        "run-mcq-08",
+        "run-mcq-09",
+        "run-mcq-06"
       ],
       "explanation": "本句的「ran red」指「逐漸或明顯地進入某種狀態」。",
       "sentenceIndex": 13,
@@ -720,12 +666,10 @@ export default {
         "ran red"
       ],
       "optionReasons": {
-        "run-mcq-13": "本句指「逐漸或明顯地進入某種狀態」。",
-        "run-mcq-12": "「以跑步為運動、比賽或主要活動的人」是「runner」的用法，與本句語境不同。",
-        "run-mcq-14": "「公共交通服務按照時間表行駛或營運」是「10. run = transport service operates（交通） — 行駛；營運」的用法，與本句語境不同。",
-        "run-mcq-11": "「意外遇到或開始面對某個問題、困難或障礙」是「run into a problem」的用法，與本句語境不同。",
-        "run-mcq-10": "「沒有預先安排，而是在某個地方偶然遇見某人」是「run into someone」的用法，與本句語境不同。",
-        "run-mcq-09": "「報紙、網站、電視台等刊登、播放或公開呈現某項內容」是「run + media content」的用法，與本句語境不同。"
+        "run-mcq-13": "本句的「ran red」指「逐漸或明顯地進入某種狀態」。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-13"
     },
@@ -737,11 +681,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "run-mcq-08",
-        "run-mcq-07",
-        "run-mcq-09",
-        "run-mcq-06",
-        "run-mcq-10",
-        "run-mcq-05"
+        "run-mcq-04",
+        "run-mcq-01",
+        "run-mcq-11"
       ],
       "explanation": "本句的「run for mayor」指「正式參加選舉，爭取某個職位」。",
       "sentenceIndex": 14,
@@ -750,12 +692,10 @@ export default {
         "run for mayor"
       ],
       "optionReasons": {
-        "run-mcq-08": "本句指「正式參加選舉，爭取某個職位」。",
-        "run-mcq-07": "「在固定搭配中進入某種狀態，例如 run dry」是「run + state/adjective」的用法，與本句語境不同。",
-        "run-mcq-09": "「報紙、網站、電視台等刊登、播放或公開呈現某項內容」是「run + media content」的用法，與本句語境不同。",
-        "run-mcq-06": "「液體連續地向某個方向流動」是「run — liquid flows」的用法，與本句語境不同。",
-        "run-mcq-10": "「沒有預先安排，而是在某個地方偶然遇見某人」是「run into someone」的用法，與本句語境不同。",
-        "run-mcq-05": "「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」是「run — extend/continue」的用法，與本句語境不同。"
+        "run-mcq-08": "本句的「run for mayor」指「正式參加選舉，爭取某個職位」。",
+        "run-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-08"
     },
@@ -767,11 +707,9 @@ export default {
       "masked": "Three people are ____ the position.",
       "options": [
         "run-mcq-08",
-        "run-mcq-07",
-        "run-mcq-09",
-        "run-mcq-06",
-        "run-mcq-10",
-        "run-mcq-05"
+        "run-mcq-12",
+        "run-mcq-03",
+        "run-mcq-09"
       ],
       "explanation": "本句的「running for」指「正式參加選舉，爭取某個職位」。",
       "sentenceIndex": 15,
@@ -780,12 +718,10 @@ export default {
         "running for"
       ],
       "optionReasons": {
-        "run-mcq-08": "本句指「正式參加選舉，爭取某個職位」。",
-        "run-mcq-07": "「在固定搭配中進入某種狀態，例如 run dry」是「run + state/adjective」的用法，與本句語境不同。",
-        "run-mcq-09": "「報紙、網站、電視台等刊登、播放或公開呈現某項內容」是「run + media content」的用法，與本句語境不同。",
-        "run-mcq-06": "「液體連續地向某個方向流動」是「run — liquid flows」的用法，與本句語境不同。",
-        "run-mcq-10": "「沒有預先安排，而是在某個地方偶然遇見某人」是「run into someone」的用法，與本句語境不同。",
-        "run-mcq-05": "「某件事情在時間上持續，或某條道路、線、邊界等在空間上延伸」是「run — extend/continue」的用法，與本句語境不同。"
+        "run-mcq-08": "本句的「running for」指「正式參加選舉，爭取某個職位」。",
+        "run-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-08"
     },
@@ -797,10 +733,8 @@ export default {
       "masked": "The newspaper ____ the story on its front page.",
       "options": [
         "run-mcq-09",
-        "run-mcq-08",
-        "run-mcq-10",
-        "run-mcq-07",
-        "run-mcq-11",
+        "run-mcq-12",
+        "run-mcq-01",
         "run-mcq-06"
       ],
       "explanation": "本句的「ran」指「報紙、網站、電視台等刊登、播放或公開呈現某項內容」。",
@@ -810,12 +744,10 @@ export default {
         "ran"
       ],
       "optionReasons": {
-        "run-mcq-09": "本句指「報紙、網站、電視台等刊登、播放或公開呈現某項內容」。",
-        "run-mcq-08": "「正式參加選舉，爭取某個職位」是「run for office/election」的用法，與本句語境不同。",
-        "run-mcq-10": "「沒有預先安排，而是在某個地方偶然遇見某人」是「run into someone」的用法，與本句語境不同。",
-        "run-mcq-07": "「在固定搭配中進入某種狀態，例如 run dry」是「run + state/adjective」的用法，與本句語境不同。",
-        "run-mcq-11": "「意外遇到或開始面對某個問題、困難或障礙」是「run into a problem」的用法，與本句語境不同。",
-        "run-mcq-06": "「液體連續地向某個方向流動」是「run — liquid flows」的用法，與本句語境不同。"
+        "run-mcq-09": "本句的「ran」指「報紙、網站、電視台等刊登、播放或公開呈現某項內容」。",
+        "run-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-09"
     },
@@ -827,11 +759,9 @@ export default {
       "masked": "The channel ____ the documentary again last night.",
       "options": [
         "run-mcq-09",
-        "run-mcq-08",
-        "run-mcq-10",
-        "run-mcq-07",
-        "run-mcq-11",
-        "run-mcq-06"
+        "run-mcq-12",
+        "run-mcq-01",
+        "run-mcq-10"
       ],
       "explanation": "本句的「ran」指「報紙、網站、電視台等刊登、播放或公開呈現某項內容」。",
       "sentenceIndex": 17,
@@ -840,12 +770,10 @@ export default {
         "ran"
       ],
       "optionReasons": {
-        "run-mcq-09": "本句指「報紙、網站、電視台等刊登、播放或公開呈現某項內容」。",
-        "run-mcq-08": "「正式參加選舉，爭取某個職位」是「run for office/election」的用法，與本句語境不同。",
-        "run-mcq-10": "「沒有預先安排，而是在某個地方偶然遇見某人」是「run into someone」的用法，與本句語境不同。",
-        "run-mcq-07": "「在固定搭配中進入某種狀態，例如 run dry」是「run + state/adjective」的用法，與本句語境不同。",
-        "run-mcq-11": "「意外遇到或開始面對某個問題、困難或障礙」是「run into a problem」的用法，與本句語境不同。",
-        "run-mcq-06": "「液體連續地向某個方向流動」是「run — liquid flows」的用法，與本句語境不同。"
+        "run-mcq-09": "本句的「ran」指「報紙、網站、電視台等刊登、播放或公開呈現某項內容」。",
+        "run-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-09"
     },
@@ -857,11 +785,9 @@ export default {
       "masked": "The last train ____ at midnight.",
       "options": [
         "run-mcq-14",
-        "run-mcq-13",
-        "run-mcq-12",
-        "run-mcq-11",
-        "run-mcq-10",
-        "run-mcq-09"
+        "run-mcq-08",
+        "run-mcq-06",
+        "run-mcq-13"
       ],
       "explanation": "本句的「runs」指「公共交通服務按照時間表行駛或營運」。",
       "sentenceIndex": 18,
@@ -870,12 +796,10 @@ export default {
         "runs"
       ],
       "optionReasons": {
-        "run-mcq-14": "本句指「公共交通服務按照時間表行駛或營運」。",
-        "run-mcq-13": "「逐漸或明顯地進入某種狀態」是「7. run = become/change into a condition（顏色／狀態） — 變成；變得」的用法，與本句語境不同。",
-        "run-mcq-12": "「以跑步為運動、比賽或主要活動的人」是「runner」的用法，與本句語境不同。",
-        "run-mcq-11": "「意外遇到或開始面對某個問題、困難或障礙」是「run into a problem」的用法，與本句語境不同。",
-        "run-mcq-10": "「沒有預先安排，而是在某個地方偶然遇見某人」是「run into someone」的用法，與本句語境不同。",
-        "run-mcq-09": "「報紙、網站、電視台等刊登、播放或公開呈現某項內容」是「run + media content」的用法，與本句語境不同。"
+        "run-mcq-14": "本句的「runs」指「公共交通服務按照時間表行駛或營運」。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-14"
     },
@@ -888,10 +812,8 @@ export default {
       "options": [
         "run-mcq-14",
         "run-mcq-13",
-        "run-mcq-12",
-        "run-mcq-11",
-        "run-mcq-10",
-        "run-mcq-09"
+        "run-mcq-06",
+        "run-mcq-10"
       ],
       "explanation": "本句的「run」指「公共交通服務按照時間表行駛或營運」。",
       "sentenceIndex": 19,
@@ -900,12 +822,10 @@ export default {
         "run"
       ],
       "optionReasons": {
-        "run-mcq-14": "本句指「公共交通服務按照時間表行駛或營運」。",
-        "run-mcq-13": "「逐漸或明顯地進入某種狀態」是「7. run = become/change into a condition（顏色／狀態） — 變成；變得」的用法，與本句語境不同。",
-        "run-mcq-12": "「以跑步為運動、比賽或主要活動的人」是「runner」的用法，與本句語境不同。",
-        "run-mcq-11": "「意外遇到或開始面對某個問題、困難或障礙」是「run into a problem」的用法，與本句語境不同。",
-        "run-mcq-10": "「沒有預先安排，而是在某個地方偶然遇見某人」是「run into someone」的用法，與本句語境不同。",
-        "run-mcq-09": "「報紙、網站、電視台等刊登、播放或公開呈現某項內容」是「run + media content」的用法，與本句語境不同。"
+        "run-mcq-14": "本句的「run」指「公共交通服務按照時間表行駛或營運」。",
+        "run-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-14"
     },
@@ -917,11 +837,9 @@ export default {
       "masked": "At present, I still ____ him from time to time.",
       "options": [
         "run-mcq-10",
-        "run-mcq-09",
-        "run-mcq-11",
+        "run-mcq-13",
         "run-mcq-08",
-        "run-mcq-12",
-        "run-mcq-07"
+        "run-mcq-09"
       ],
       "explanation": "本句的「run into」指「沒有預先安排，而是在某個地方偶然遇見某人」。",
       "sentenceIndex": 20,
@@ -930,12 +848,10 @@ export default {
         "run into"
       ],
       "optionReasons": {
-        "run-mcq-10": "本句指「沒有預先安排，而是在某個地方偶然遇見某人」。",
-        "run-mcq-09": "「報紙、網站、電視台等刊登、播放或公開呈現某項內容」是「run + media content」的用法，與本句語境不同。",
-        "run-mcq-11": "「意外遇到或開始面對某個問題、困難或障礙」是「run into a problem」的用法，與本句語境不同。",
-        "run-mcq-08": "「正式參加選舉，爭取某個職位」是「run for office/election」的用法，與本句語境不同。",
-        "run-mcq-12": "「以跑步為運動、比賽或主要活動的人」是「runner」的用法，與本句語境不同。",
-        "run-mcq-07": "「在固定搭配中進入某種狀態，例如 run dry」是「run + state/adjective」的用法，與本句語境不同。"
+        "run-mcq-10": "本句的「run into」指「沒有預先安排，而是在某個地方偶然遇見某人」。",
+        "run-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-10"
     },
@@ -947,11 +863,9 @@ export default {
       "masked": "I ____ an old classmate at the station.",
       "options": [
         "run-mcq-10",
-        "run-mcq-09",
-        "run-mcq-11",
-        "run-mcq-08",
-        "run-mcq-12",
-        "run-mcq-07"
+        "run-mcq-01",
+        "run-mcq-14",
+        "run-mcq-08"
       ],
       "explanation": "本句的「ran into」指「沒有預先安排，而是在某個地方偶然遇見某人」。",
       "sentenceIndex": 21,
@@ -960,12 +874,10 @@ export default {
         "ran into"
       ],
       "optionReasons": {
-        "run-mcq-10": "本句指「沒有預先安排，而是在某個地方偶然遇見某人」。",
-        "run-mcq-09": "「報紙、網站、電視台等刊登、播放或公開呈現某項內容」是「run + media content」的用法，與本句語境不同。",
-        "run-mcq-11": "「意外遇到或開始面對某個問題、困難或障礙」是「run into a problem」的用法，與本句語境不同。",
-        "run-mcq-08": "「正式參加選舉，爭取某個職位」是「run for office/election」的用法，與本句語境不同。",
-        "run-mcq-12": "「以跑步為運動、比賽或主要活動的人」是「runner」的用法，與本句語境不同。",
-        "run-mcq-07": "「在固定搭配中進入某種狀態，例如 run dry」是「run + state/adjective」的用法，與本句語境不同。"
+        "run-mcq-10": "本句的「ran into」指「沒有預先安排，而是在某個地方偶然遇見某人」。",
+        "run-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-10"
     },
@@ -977,11 +889,9 @@ export default {
       "masked": "She ____ her former manager while shopping.",
       "options": [
         "run-mcq-10",
-        "run-mcq-09",
-        "run-mcq-11",
         "run-mcq-08",
-        "run-mcq-12",
-        "run-mcq-07"
+        "run-mcq-14",
+        "run-mcq-09"
       ],
       "explanation": "本句的「ran into」指「沒有預先安排，而是在某個地方偶然遇見某人」。",
       "sentenceIndex": 22,
@@ -990,12 +900,10 @@ export default {
         "ran into"
       ],
       "optionReasons": {
-        "run-mcq-10": "本句指「沒有預先安排，而是在某個地方偶然遇見某人」。",
-        "run-mcq-09": "「報紙、網站、電視台等刊登、播放或公開呈現某項內容」是「run + media content」的用法，與本句語境不同。",
-        "run-mcq-11": "「意外遇到或開始面對某個問題、困難或障礙」是「run into a problem」的用法，與本句語境不同。",
-        "run-mcq-08": "「正式參加選舉，爭取某個職位」是「run for office/election」的用法，與本句語境不同。",
-        "run-mcq-12": "「以跑步為運動、比賽或主要活動的人」是「runner」的用法，與本句語境不同。",
-        "run-mcq-07": "「在固定搭配中進入某種狀態，例如 run dry」是「run + state/adjective」的用法，與本句語境不同。"
+        "run-mcq-10": "本句的「ran into」指「沒有預先安排，而是在某個地方偶然遇見某人」。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-10"
     },
@@ -1007,11 +915,9 @@ export default {
       "masked": "We ____ several technical problems.",
       "options": [
         "run-mcq-11",
-        "run-mcq-10",
-        "run-mcq-12",
-        "run-mcq-09",
+        "run-mcq-03",
         "run-mcq-13",
-        "run-mcq-08"
+        "run-mcq-14"
       ],
       "explanation": "本句的「ran into」指「意外遇到或開始面對某個問題、困難或障礙」。",
       "sentenceIndex": 23,
@@ -1020,12 +926,10 @@ export default {
         "ran into"
       ],
       "optionReasons": {
-        "run-mcq-11": "本句指「意外遇到或開始面對某個問題、困難或障礙」。",
-        "run-mcq-10": "「沒有預先安排，而是在某個地方偶然遇見某人」是「run into someone」的用法，與本句語境不同。",
-        "run-mcq-12": "「以跑步為運動、比賽或主要活動的人」是「runner」的用法，與本句語境不同。",
-        "run-mcq-09": "「報紙、網站、電視台等刊登、播放或公開呈現某項內容」是「run + media content」的用法，與本句語境不同。",
-        "run-mcq-13": "「逐漸或明顯地進入某種狀態」是「7. run = become/change into a condition（顏色／狀態） — 變成；變得」的用法，與本句語境不同。",
-        "run-mcq-08": "「正式參加選舉，爭取某個職位」是「run for office/election」的用法，與本句語境不同。"
+        "run-mcq-11": "本句的「ran into」指「意外遇到或開始面對某個問題、困難或障礙」。",
+        "run-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-11"
     },
@@ -1037,11 +941,9 @@ export default {
       "masked": "The project ____ financial difficulties.",
       "options": [
         "run-mcq-11",
-        "run-mcq-10",
-        "run-mcq-12",
-        "run-mcq-09",
-        "run-mcq-13",
-        "run-mcq-08"
+        "run-mcq-04",
+        "run-mcq-05",
+        "run-mcq-06"
       ],
       "explanation": "本句的「ran into」指「意外遇到或開始面對某個問題、困難或障礙」。",
       "sentenceIndex": 24,
@@ -1050,12 +952,10 @@ export default {
         "ran into"
       ],
       "optionReasons": {
-        "run-mcq-11": "本句指「意外遇到或開始面對某個問題、困難或障礙」。",
-        "run-mcq-10": "「沒有預先安排，而是在某個地方偶然遇見某人」是「run into someone」的用法，與本句語境不同。",
-        "run-mcq-12": "「以跑步為運動、比賽或主要活動的人」是「runner」的用法，與本句語境不同。",
-        "run-mcq-09": "「報紙、網站、電視台等刊登、播放或公開呈現某項內容」是「run + media content」的用法，與本句語境不同。",
-        "run-mcq-13": "「逐漸或明顯地進入某種狀態」是「7. run = become/change into a condition（顏色／狀態） — 變成；變得」的用法，與本句語境不同。",
-        "run-mcq-08": "「正式參加選舉，爭取某個職位」是「run for office/election」的用法，與本句語境不同。"
+        "run-mcq-11": "本句的「ran into」指「意外遇到或開始面對某個問題、困難或障礙」。",
+        "run-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-11"
     },
@@ -1067,11 +967,9 @@ export default {
       "masked": "She is a long-distance ____.",
       "options": [
         "run-mcq-12",
-        "run-mcq-11",
-        "run-mcq-13",
-        "run-mcq-10",
-        "run-mcq-14",
-        "run-mcq-09"
+        "run-mcq-03",
+        "run-mcq-09",
+        "run-mcq-11"
       ],
       "explanation": "本句的「runner」指「以跑步為運動、比賽或主要活動的人」。",
       "sentenceIndex": 25,
@@ -1080,12 +978,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "run-mcq-12": "本句指「以跑步為運動、比賽或主要活動的人」。",
-        "run-mcq-11": "「意外遇到或開始面對某個問題、困難或障礙」是「run into a problem」的用法，與本句語境不同。",
-        "run-mcq-13": "「逐漸或明顯地進入某種狀態」是「7. run = become/change into a condition（顏色／狀態） — 變成；變得」的用法，與本句語境不同。",
-        "run-mcq-10": "「沒有預先安排，而是在某個地方偶然遇見某人」是「run into someone」的用法，與本句語境不同。",
-        "run-mcq-14": "「公共交通服務按照時間表行駛或營運」是「10. run = transport service operates（交通） — 行駛；營運」的用法，與本句語境不同。",
-        "run-mcq-09": "「報紙、網站、電視台等刊登、播放或公開呈現某項內容」是「run + media content」的用法，與本句語境不同。"
+        "run-mcq-12": "本句的「runner」指「以跑步為運動、比賽或主要活動的人」。",
+        "run-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-12"
     },
@@ -1097,11 +993,9 @@ export default {
       "masked": "The fastest ____ finished in under ten minutes.",
       "options": [
         "run-mcq-12",
-        "run-mcq-11",
-        "run-mcq-13",
-        "run-mcq-10",
-        "run-mcq-14",
-        "run-mcq-09"
+        "run-mcq-08",
+        "run-mcq-09",
+        "run-mcq-03"
       ],
       "explanation": "本句的「runner」指「以跑步為運動、比賽或主要活動的人」。",
       "sentenceIndex": 26,
@@ -1110,12 +1004,10 @@ export default {
         "runner"
       ],
       "optionReasons": {
-        "run-mcq-12": "本句指「以跑步為運動、比賽或主要活動的人」。",
-        "run-mcq-11": "「意外遇到或開始面對某個問題、困難或障礙」是「run into a problem」的用法，與本句語境不同。",
-        "run-mcq-13": "「逐漸或明顯地進入某種狀態」是「7. run = become/change into a condition（顏色／狀態） — 變成；變得」的用法，與本句語境不同。",
-        "run-mcq-10": "「沒有預先安排，而是在某個地方偶然遇見某人」是「run into someone」的用法，與本句語境不同。",
-        "run-mcq-14": "「公共交通服務按照時間表行駛或營運」是「10. run = transport service operates（交通） — 行駛；營運」的用法，與本句語境不同。",
-        "run-mcq-09": "「報紙、網站、電視台等刊登、播放或公開呈現某項內容」是「run + media content」的用法，與本句語境不同。"
+        "run-mcq-12": "本句的「runner」指「以跑步為運動、比賽或主要活動的人」。",
+        "run-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "run-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "run-mcq-12"
     }
@@ -1127,5 +1019,7 @@ export default {
     "sha256": "43ee9576654502ded5f9d36c18de4a451e41a14d3fcb2c24074ff38effc9bace",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };
